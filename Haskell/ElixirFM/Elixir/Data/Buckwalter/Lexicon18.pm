@@ -8,11 +8,7 @@ package Elixir::Data::Buckwalter::Lexicon18;
 $Lexicon = {
   '` m r' => [
     {
-      'types' => {
-        '`umar' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`umar',
       'form' => '`umar',
       'lines' => [
@@ -32,11 +28,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`umariyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`umar',
       'form' => '`umariyy',
       'lines' => [
@@ -55,11 +47,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`umayr' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`umayr',
       'form' => '`umayr',
       'lines' => [
@@ -80,7 +68,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`amar' => {},
         '`mur' => {
           'IV' => 1
         }
@@ -115,8 +102,7 @@ $Lexicon = {
       'types' => {
         '`mar' => {
           'IV_intr' => 1
-        },
-        '`amir' => {}
+        }
       },
       'entry' => '`amir',
       'form' => '`amir',
@@ -145,7 +131,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`amur' => {},
         '`mur' => {
           'IV' => 1
         }
@@ -179,8 +164,7 @@ $Lexicon = {
       'types' => {
         '`ammir' => {
           'IV_yu' => 1
-        },
-        '`ammar' => {}
+        }
       },
       'entry' => '`ammar',
       'form' => '`ammar',
@@ -207,7 +191,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`mar' => {},
         '`mir' => {
           'IV_yu' => 1
         },
@@ -247,7 +230,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'i`tamar' => {},
         '`tamir' => {
           'IV' => 1
         }
@@ -279,8 +261,7 @@ $Lexicon = {
       'types' => {
         'sta`mir' => {
           'IV' => 1
-        },
-        'ista`mar' => {}
+        }
       },
       'entry' => 'ista`mar',
       'form' => 'ista`mar',
@@ -306,9 +287,6 @@ $Lexicon = {
       'types' => {
         '\'a`mAr' => {
           'N' => 2
-        },
-        '`umr' => {
-          'N' => 1
         }
       },
       'entry' => '`umr',
@@ -337,11 +315,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`umriyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`umr',
       'form' => '`umriyy',
       'lines' => [
@@ -361,11 +335,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`umraT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`umr',
       'form' => '`umraT',
       'lines' => [
@@ -385,9 +355,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`imAraT' => {
-          'Napdu' => 1
-        },
         '`imAr' => {
           'NAt' => 1
         }
@@ -419,11 +386,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`umrAn' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`umrAn',
       'form' => '`umrAn',
       'lines' => [
@@ -444,11 +407,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`umrAn' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`umrAn',
       'form' => '`umrAn',
       'lines' => [
@@ -467,11 +426,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`umrAniyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`umrAn',
       'form' => '`umrAniyy',
       'lines' => [
@@ -491,11 +446,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ammAr' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ammAr',
       'form' => '`ammAr',
       'lines' => [
@@ -514,11 +465,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ammAriyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ammAr',
       'form' => '`ammAriyyaT',
       'lines' => [
@@ -537,11 +484,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`mar' => {
-          'Nel' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`mar',
       'form' => '\'a`mar',
       'lines' => [
@@ -562,11 +505,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mi`mAr' => {
-          'Ndu' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mi`mAr',
       'form' => 'mi`mAr',
       'lines' => [
@@ -586,11 +525,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mi`mAriyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mi`mAr',
       'form' => 'mi`mAriyy',
       'lines' => [
@@ -620,7 +555,11 @@ $Lexicon = {
         ';; taEomiyr_1',
         'tEmyr   taEomiyr        N/At    renovation;reconstruction'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`miyr' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -633,11 +572,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`miyraT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`miyr',
       'form' => 'ta`miyraT',
       'lines' => [
@@ -657,11 +592,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'i`mAr' => {
-          'N' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'i`mAr',
       'form' => '\'i`mAr',
       'lines' => [
@@ -694,7 +625,11 @@ $Lexicon = {
         '<EmAr   <iEomAr NduAt   populating;renovation',
         'AEmAr   <iEomAr NduAt   populating;renovation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`mAr' => [
+          'HiFCAL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -719,7 +654,11 @@ $Lexicon = {
         '<stEmAr {isotiEomAr     N/At    colonialism',
         'AstEmAr {isotiEomAr     N/At    colonialism'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'isti`mAr' => [
+          'IstiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCAL',
@@ -731,11 +670,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'isti`mAriyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'isti`mAr',
       'form' => 'isti`mAriyy',
       'lines' => [
@@ -755,11 +690,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Amir' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Amir',
       'form' => '`Amir',
       'lines' => [
@@ -779,11 +710,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Amir' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Amir',
       'form' => '`Amir',
       'lines' => [
@@ -803,11 +730,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Amiriyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Amir',
       'form' => '`Amiriyy',
       'lines' => [
@@ -827,11 +750,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`muwr' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`muwr',
       'form' => 'ma`muwr',
       'lines' => [
@@ -851,11 +770,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`ammar' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`ammar',
       'form' => 'mu`ammar',
       'lines' => [
@@ -874,11 +789,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`ammar' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`ammar',
       'form' => 'mu`ammar',
       'lines' => [
@@ -897,11 +808,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'musta`mir' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'musta`mir',
       'form' => 'musta`mir',
       'lines' => [
@@ -932,7 +839,11 @@ $Lexicon = {
         ';; musotaEomar_1',
         'mstEmr  musotaEomar     NapAt   colony;colonial settlement'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'musta`mar' => [
+          'MustaFCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MustaFCaL',
@@ -947,11 +858,7 @@ $Lexicon = {
   ],
   '`u_taymiyn' => [
     {
-      'types' => {
-        '`u_taymiyn' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u_taymiyn',
       'form' => '`u_taymiyn',
       'lines' => [
@@ -976,7 +883,6 @@ $Lexicon = {
         '`qad' => {
           'IV_Pass_yu' => 1
         },
-        '`aqad' => {},
         '`uqid' => {
           'PV_Pass' => 1
         },
@@ -1024,7 +930,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`aqqad' => {},
         '`aqqid' => {
           'IV_yu' => 1
         }
@@ -1052,9 +957,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`aqqad' => {}
-      },
+      'types' => {},
       'entry' => 'ta`aqqad',
       'form' => 'ta`aqqad',
       'lines' => [
@@ -1074,9 +977,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Aqad' => {}
-      },
+      'types' => {},
       'entry' => 'ta`Aqad',
       'form' => 'ta`Aqad',
       'lines' => [
@@ -1100,8 +1001,7 @@ $Lexicon = {
       'types' => {
         'n`aqid' => {
           'IV_intr' => 1
-        },
-        'in`aqad' => {}
+        }
       },
       'entry' => 'in`aqad',
       'form' => 'in`aqad',
@@ -1135,8 +1035,7 @@ $Lexicon = {
         },
         '`taqad' => {
           'IV_Pass_yu' => 1
-        },
-        'i`taqad' => {}
+        }
       },
       'entry' => 'i`taqad',
       'form' => 'i`taqad',
@@ -1167,11 +1066,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqd' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqd',
       'form' => '`aqd',
       'lines' => [
@@ -1193,9 +1088,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`aqd' => {
-          'Ndu' => 1
-        },
         '`uquwd' => {
           'N' => 1
         }
@@ -1226,11 +1118,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iqd' => {
-          'Ndu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iqd',
       'form' => '`iqd',
       'lines' => [
@@ -1252,9 +1140,6 @@ $Lexicon = {
       'types' => {
         '`uqad' => {
           'N' => 1
-        },
-        '`uqdaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`uqd',
@@ -1281,11 +1166,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uqaydaT' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uqayd',
       'form' => '`uqaydaT',
       'lines' => [
@@ -1305,11 +1186,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uqaydiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uqayd',
       'form' => '`uqaydiyy',
       'lines' => [
@@ -1329,11 +1206,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqqAd' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqqAd',
       'form' => '`aqqAd',
       'lines' => [
@@ -1352,11 +1225,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqqAd' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqqAd',
       'form' => '`aqqAd',
       'lines' => [
@@ -1375,11 +1244,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iqAdaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iqAd',
       'form' => '`iqAdaT',
       'lines' => [
@@ -1400,9 +1265,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`aqiyd' => {
-          'Ndu' => 1
-        },
         '`uqadA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -1436,9 +1298,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`aqiydaT' => {
-          'Napdu' => 1
-        },
         '`aqA\'id' => {
           'Ndip' => 1
         }
@@ -1466,11 +1325,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqadiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqad',
       'form' => '`aqadiyy',
       'lines' => [
@@ -1490,11 +1345,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqiydiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqiyd',
       'form' => '`aqiydiyyaT',
       'lines' => [
@@ -1518,9 +1369,6 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
-        },
-        '\'a`qad' => {
-          'Nel' => 2
         }
       },
       'entry' => '\'a`qad',
@@ -1551,9 +1399,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ma`qid' => {
-          'Ndu' => 1
-        },
         'ma`Aqid' => {
           'Ndip' => 1
         }
@@ -1595,7 +1440,11 @@ $Lexicon = {
         ';; taEoqiyd_1',
         'tEqyd   taEoqiyd        N/At    complication;confusion'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`qiyd' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -1619,7 +1468,11 @@ $Lexicon = {
         ';; taEaq~ud_1',
         'tEqd    taEaq~ud        N/At    complexity;intricacy'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`aqqud' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -1643,7 +1496,11 @@ $Lexicon = {
         ';; taEAqud_1',
         'tEAqd   taEAqud N/At    contract;agreement'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`Aqud' => [
+          'TaFACuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFACuL',
@@ -1656,11 +1513,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Aqudiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`Aqud',
       'form' => 'ta`Aqudiyy',
       'lines' => [
@@ -1691,7 +1544,11 @@ $Lexicon = {
         '<nEqAd  {inoEiqAd       N/At    convening;holding',
         'AnEqAd  {inoEiqAd       N/At    convening;holding'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'in`iqAd' => [
+          'InFiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'InFiCAL',
@@ -1716,7 +1573,11 @@ $Lexicon = {
         '<EtqAd  {iEotiqAd       N/At    belief;conviction',
         'AEtqAd  {iEotiqAd       N/At    belief;conviction'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tiqAd' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -1729,11 +1590,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'i`tiqAdiyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'i`tiqAd',
       'form' => 'i`tiqAdiyy',
       'lines' => [
@@ -1754,11 +1611,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'i`tiqAdiyyaT' => {
-          'Nap' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'i`tiqAd',
       'form' => 'i`tiqAdiyyaT',
       'lines' => [
@@ -1778,11 +1631,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Aqid' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Aqid',
       'form' => '`Aqid',
       'lines' => [
@@ -1801,11 +1650,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`quwd' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`quwd',
       'form' => 'ma`quwd',
       'lines' => [
@@ -1825,11 +1670,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`quwd' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`quwd',
       'form' => 'ma`quwd',
       'lines' => [
@@ -1849,11 +1690,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`quwd' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`quwd',
       'form' => 'ma`quwd',
       'lines' => [
@@ -1872,11 +1709,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`aqqad' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`aqqad',
       'form' => 'mu`aqqad',
       'lines' => [
@@ -1896,11 +1729,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`aqqadaT' => {
-          'Nap' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'mu`aqqad',
       'form' => 'mu`aqqadaT',
       'lines' => [
@@ -1921,11 +1750,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Aqid' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Aqid',
       'form' => 'mu`Aqid',
       'lines' => [
@@ -1945,11 +1770,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`Aqid' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`Aqid',
       'form' => 'muta`Aqid',
       'lines' => [
@@ -1969,11 +1790,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mun`aqad' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mun`aqad',
       'form' => 'mun`aqad',
       'lines' => [
@@ -1993,11 +1810,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`taqad' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`taqad',
       'form' => 'mu`taqad',
       'lines' => [
@@ -2018,8 +1831,7 @@ $Lexicon = {
     {
       'types' => {
         'mu`taqad' => {
-          'NAt' => 1,
-          'Ndu' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'mu`taqad',
@@ -2029,7 +1841,11 @@ $Lexicon = {
         'mEtqd   muEotaqad       Ndu     dogma;creed;conviction',
         'mEtqd   muEotaqad       NAt     dogmas;creeds;convictions'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`taqad' => [
+          'MuFtaCaL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'MuFtaCaL',
@@ -2053,9 +1869,7 @@ $Lexicon = {
           'Nuwn_Niyn' => 1
         },
         '`Asiy' => {
-          'NapAt' => 1,
-          'NAn_Nayn' => 1,
-          'N0F' => 1
+          'NapAt' => 1
         }
       },
       'entry' => '`Asiy',
@@ -2068,7 +1882,11 @@ $Lexicon = {
         'EAs     EAs     Nuwn_Niyn       withered',
         'EAsy    EAsiy   NapAt   withered'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '`Asiy' => [
+          'FACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FACI',
@@ -2080,11 +1898,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`asiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`asiyy',
       'form' => '`asiyy',
       'lines' => [
@@ -2113,8 +1927,7 @@ $Lexicon = {
         },
         '`ahir' => {
           'PV' => 1
-        },
-        '`ahar' => {}
+        }
       },
       'entry' => '`ahar',
       'form' => '`ahar',
@@ -2150,8 +1963,7 @@ $Lexicon = {
       'types' => {
         '`Ahir' => {
           'IV_yu' => 1
-        },
-        '`Ahar' => {}
+        }
       },
       'entry' => '`Ahar',
       'form' => '`Ahar',
@@ -2177,9 +1989,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`ahhar' => {}
-      },
+      'types' => {},
       'entry' => 'ta`ahhar',
       'form' => 'ta`ahhar',
       'lines' => [
@@ -2199,11 +2009,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ihr' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ihr',
       'form' => '`ihr',
       'lines' => [
@@ -2223,11 +2029,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ahr' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ahr',
       'form' => '`ahr',
       'lines' => [
@@ -2247,11 +2049,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ahAraT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ahAr',
       'form' => '`ahAraT',
       'lines' => [
@@ -2272,9 +2070,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`Ahir' => {
-          'Ndu' => 1
-        },
         '`uhhAr' => {
           'N' => 1
         }
@@ -2306,9 +2101,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`AhiraT' => {
-          'NapAt' => 1
-        },
         '`awAhir' => {
           'Ndip' => 1
         }
@@ -2342,7 +2134,6 @@ $Lexicon = {
   '` f n' => [
     {
       'types' => {
-        '`afin' => {},
         '`fan' => {
           'IV-n' => 1
         }
@@ -2378,8 +2169,7 @@ $Lexicon = {
       'types' => {
         '`affin' => {
           'IV-n_yu' => 1
-        },
-        '`affan' => {}
+        }
       },
       'entry' => '`affan',
       'form' => '`affan',
@@ -2405,9 +2195,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`affan' => {}
-      },
+      'types' => {},
       'entry' => 'ta`affan',
       'form' => 'ta`affan',
       'lines' => [
@@ -2429,11 +2217,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`afan' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`afan',
       'form' => '`afan',
       'lines' => [
@@ -2453,11 +2237,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`afin' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`afin',
       'form' => '`afin',
       'lines' => [
@@ -2477,11 +2257,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ufuwnaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ufuwn',
       'form' => '`ufuwnaT',
       'lines' => [
@@ -2501,11 +2277,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`affAn' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`affAn',
       'form' => '`affAn',
       'lines' => [
@@ -2535,7 +2307,11 @@ $Lexicon = {
         ';; taEaf~un_1',
         'tEfn    taEaf~un        N/At    infection;decay;decomposition'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`affun' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -2549,11 +2325,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`affuniyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`affun',
       'form' => 'ta`affuniyy',
       'lines' => [
@@ -2573,11 +2345,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`affan' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`affan',
       'form' => 'mu`affan',
       'lines' => [
@@ -2598,11 +2366,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`affin' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`affin',
       'form' => 'muta`affin',
       'lines' => [
@@ -2625,11 +2389,7 @@ $Lexicon = {
   ],
   '`artA' => [
     {
-      'types' => {
-        '`artA' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`artA',
       'form' => '`artA',
       'lines' => [
@@ -2653,8 +2413,7 @@ $Lexicon = {
       'types' => {
         '`anniq' => {
           'IV_yu' => 1
-        },
-        '`annaq' => {}
+        }
       },
       'entry' => '`annaq',
       'form' => '`annaq',
@@ -2680,7 +2439,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`Anaq' => {},
         '`Aniq' => {
           'IV_yu' => 1
         }
@@ -2708,9 +2466,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Anaq' => {}
-      },
+      'types' => {},
       'entry' => 'ta`Anaq',
       'form' => 'ta`Anaq',
       'lines' => [
@@ -2733,8 +2489,7 @@ $Lexicon = {
       'types' => {
         '`taniq' => {
           'IV' => 1
-        },
-        'i`tanaq' => {}
+        }
       },
       'entry' => 'i`tanaq',
       'form' => 'i`tanaq',
@@ -2762,9 +2517,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`unq' => {
-          'N' => 1
-        },
         '\'a`nAq' => {
           'N' => 2
         }
@@ -2794,11 +2546,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`unqiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`unq',
       'form' => '`unqiyy',
       'lines' => [
@@ -2820,9 +2568,6 @@ $Lexicon = {
     {
       'types' => {
         '`unuwq' => {
-          'N' => 1
-        },
-        '`anAq' => {
           'N' => 1
         },
         '\'a`nuq' => {
@@ -2855,13 +2600,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`anqA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`anqA\'',
       'form' => '`anqA\'',
       'lines' => [
@@ -2883,11 +2622,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`inAq' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`inAq',
       'form' => '`inAq',
       'lines' => [
@@ -2907,11 +2642,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`AnaqaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Anaq',
       'form' => 'mu`AnaqaT',
       'lines' => [
@@ -2943,7 +2674,11 @@ $Lexicon = {
         '<EtnAq  {iEotinAq       N/At    adoption;embracing',
         'AEtnAq  {iEotinAq       N/At    adoption;embracing'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tinAq' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -2956,11 +2691,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`Aniq' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`Aniq',
       'form' => 'muta`Aniq',
       'lines' => [
@@ -2981,11 +2712,7 @@ $Lexicon = {
   ],
   '`arba_hAn' => [
     {
-      'types' => {
-        '`arba_hAnaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arba_hAn',
       'form' => '`arba_hAnaT',
       'lines' => [
@@ -3007,11 +2734,7 @@ $Lexicon = {
   ],
   '`abdAlhA^sim' => [
     {
-      'types' => {
-        '`abdAlhA^sim' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlhA^sim',
       'form' => '`abdAlhA^sim',
       'lines' => [
@@ -3032,11 +2755,7 @@ $Lexicon = {
   ],
   '`abdAlra^siyd' => [
     {
-      'types' => {
-        '`abdAlra^siyd' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlra^siyd',
       'form' => '`abdAlra^siyd',
       'lines' => [
@@ -3057,11 +2776,7 @@ $Lexicon = {
   ],
   'ta`dAd' => [
     {
-      'types' => {
-        'ta`dAd' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`dAd',
       'form' => 'ta`dAd',
       'lines' => [
@@ -3084,11 +2799,7 @@ $Lexicon = {
   ],
   '`abdAlmA^gid' => [
     {
-      'types' => {
-        '`abdAlmA^gid' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmA^gid',
       'form' => '`abdAlmA^gid',
       'lines' => [
@@ -3109,11 +2820,7 @@ $Lexicon = {
   ],
   '`un^guhAn' => [
     {
-      'types' => {
-        '`un^guhAniyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`un^guhAn',
       'form' => '`un^guhAniyyaT',
       'lines' => [
@@ -3133,11 +2840,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`un^guhAniyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`un^guhAn',
       'form' => '`un^guhAniyy',
       'lines' => [
@@ -3160,7 +2863,6 @@ $Lexicon = {
   '` .s l' => [
     {
       'types' => {
-        '`a.sal' => {},
         '`.sul' => {
           'IV' => 1
         }
@@ -3193,7 +2895,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a.sil' => {},
         '`.sal' => {
           'IV_intr' => 1
         }
@@ -3225,11 +2926,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.sl' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.sl',
       'form' => '`a.sl',
       'lines' => [
@@ -3252,11 +2949,7 @@ $Lexicon = {
   ],
   '`abdAl^gawAd' => [
     {
-      'types' => {
-        '`abdAl^gawAd' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl^gawAd',
       'form' => '`abdAl^gawAd',
       'lines' => [
@@ -3280,9 +2973,6 @@ $Lexicon = {
       'types' => {
         '`anAqiy^s' => {
           'Ndip' => 1
-        },
-        '`inqA^s' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`inqA^s',
@@ -3313,11 +3003,7 @@ $Lexicon = {
   ],
   '`abdAlmu.giy_t' => [
     {
-      'types' => {
-        '`abdAlmu.giy_t' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmu.giy_t',
       'form' => '`abdAlmu.giy_t',
       'lines' => [
@@ -3338,11 +3024,7 @@ $Lexicon = {
   ],
   '`abdAlkabiyr' => [
     {
-      'types' => {
-        '`abdAlkabiyr' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlkabiyr',
       'form' => '`abdAlkabiyr',
       'lines' => [
@@ -3366,8 +3048,7 @@ $Lexicon = {
       'types' => {
         '`ra.s' => {
           'IV_intr' => 1
-        },
-        '`ari.s' => {}
+        }
       },
       'entry' => '`ari.s',
       'form' => '`ari.s',
@@ -3395,11 +3076,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ara.s' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ara.s',
       'form' => '`ara.s',
       'lines' => [
@@ -3424,9 +3101,6 @@ $Lexicon = {
         },
         '`ara.s' => {
           'NAt' => 1
-        },
-        '`ar.saT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`ar.s',
@@ -3460,11 +3134,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`arra.s' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`arra.s',
       'form' => 'mu`arra.s',
       'lines' => [
@@ -3487,11 +3157,7 @@ $Lexicon = {
   ],
   '`abdAlma.hmuwd' => [
     {
-      'types' => {
-        '`abdAlma.hmuwd' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlma.hmuwd',
       'form' => '`abdAlma.hmuwd',
       'lines' => [
@@ -3512,11 +3178,7 @@ $Lexicon = {
   ],
   '`abdAl.gan' => [
     {
-      'types' => {
-        '`abdAl.ganiyy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.gan',
       'form' => '`abdAl.ganiyy',
       'lines' => [
@@ -3537,11 +3199,7 @@ $Lexicon = {
   ],
   '`abdAl.gafuwr' => [
     {
-      'types' => {
-        '`abdAl.gafuwr' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.gafuwr',
       'form' => '`abdAl.gafuwr',
       'lines' => [
@@ -3562,11 +3220,7 @@ $Lexicon = {
   ],
   '`abdAl\'ilah' => [
     {
-      'types' => {
-        '`abdAl\'ilah' => {
-          'Nprop' => 2
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl\'ilah',
       'form' => '`abdAl\'ilah',
       'lines' => [
@@ -3588,11 +3242,7 @@ $Lexicon = {
   ],
   '`abdAl.haqq' => [
     {
-      'types' => {
-        '`abdAl.haqq' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.haqq',
       'form' => '`abdAl.haqq',
       'lines' => [
@@ -3613,11 +3263,7 @@ $Lexicon = {
   ],
   '` y d' => [
     {
-      'types' => {
-        '`iyAd' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iyAd',
       'form' => '`iyAd',
       'lines' => [
@@ -3638,9 +3284,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`iyAdaT' => {
-          'Napdu' => 1
-        },
         '`iyAd' => {
           'NAt' => 1
         }
@@ -3671,11 +3314,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iyAdaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iyAd',
       'form' => '`iyAdaT',
       'lines' => [
@@ -3695,11 +3334,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iyAdiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iyAd',
       'form' => '`iyAdiyy',
       'lines' => [
@@ -3730,7 +3365,12 @@ $Lexicon = {
         '<EtyAd  {iEotiyAd       N/At    habituation',
         'AEtyAd  {iEotiyAd       N/At    habituation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tiyAd' => [
+          'IFtiCAL',
+          'IFtiyAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -3742,11 +3382,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'i`tiyAdiyy' => {
-          'N-ap' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'i`tiyAd',
       'form' => 'i`tiyAdiyy',
       'lines' => [
@@ -3768,11 +3404,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`iyd' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`iyd',
       'form' => 'mu`iyd',
       'lines' => [
@@ -3795,8 +3427,7 @@ $Lexicon = {
       'types' => {
         '`ayyid' => {
           'IV_yu' => 1
-        },
-        '`ayyad' => {}
+        }
       },
       'entry' => '`ayyad',
       'form' => '`ayyad',
@@ -3822,7 +3453,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`Ayad' => {},
         '`Ayid' => {
           'IV_yu' => 1
         }
@@ -3853,9 +3483,6 @@ $Lexicon = {
       'types' => {
         '\'a`yAd' => {
           'N' => 2
-        },
-        '`iyd' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`iyd',
@@ -3886,11 +3513,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iydiyyaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iyd',
       'form' => '`iydiyyaT',
       'lines' => [
@@ -3910,11 +3533,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`AyadaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Ayad',
       'form' => 'mu`AyadaT',
       'lines' => [
@@ -3935,11 +3554,7 @@ $Lexicon = {
   ],
   '`abdAlhAdiy' => [
     {
-      'types' => {
-        '`abdAlhAdiy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlhAdiy',
       'form' => '`abdAlhAdiy',
       'lines' => [
@@ -3960,11 +3575,7 @@ $Lexicon = {
   ],
   '` n b r' => [
     {
-      'types' => {
-        '`anbar' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`anbar',
       'form' => '`anbar',
       'lines' => [
@@ -3986,9 +3597,6 @@ $Lexicon = {
       'types' => {
         '`anAbir' => {
           'Ndip' => 1
-        },
-        '`anbar' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`anbar',
@@ -4017,11 +3625,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`anbariyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`anbar',
       'form' => '`anbariyy',
       'lines' => [
@@ -4042,11 +3646,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`anbariyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`anbar',
       'form' => '`anbariyy',
       'lines' => [
@@ -4068,9 +3668,6 @@ $Lexicon = {
       'types' => {
         '`anAbir' => {
           'Ndip' => 1
-        },
-        '`anbar' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`anbar',
@@ -4105,7 +3702,6 @@ $Lexicon = {
         '`mum' => {
           'IV_C_intr' => 1
         },
-        '`amm' => {},
         '`amam' => {
           'PV_C_intr' => 1
         },
@@ -4151,8 +3747,7 @@ $Lexicon = {
       'types' => {
         '`ammim' => {
           'IV_yu' => 1
-        },
-        '`ammam' => {}
+        }
       },
       'entry' => '`ammam',
       'form' => '`ammam',
@@ -4179,9 +3774,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`ammam' => {}
-      },
+      'types' => {},
       'entry' => 'ta`ammam',
       'form' => 'ta`ammam',
       'lines' => [
@@ -4203,7 +3796,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'i`tamm' => {},
         '`tamm' => {
           'IV_V' => 1
         },
@@ -4250,9 +3842,6 @@ $Lexicon = {
       'types' => {
         '`umuwm' => {
           'N' => 1
-        },
-        '`amm' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`amm',
@@ -4279,11 +3868,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ammaT' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amm',
       'form' => '`ammaT',
       'lines' => [
@@ -4302,11 +3887,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`immaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`imm',
       'form' => '`immaT',
       'lines' => [
@@ -4325,11 +3906,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`amiym' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amiym',
       'form' => '`amiym',
       'lines' => [
@@ -4350,12 +3927,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`umuwm' => {
-          'NF' => 1,
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`umuwm',
       'form' => '`umuwm',
       'lines' => [
@@ -4378,11 +3950,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`umuwmiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`umuwm',
       'form' => '`umuwmiyy',
       'lines' => [
@@ -4403,11 +3971,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`umuwmiyyaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`umuwm',
       'form' => '`umuwmiyyaT',
       'lines' => [
@@ -4428,11 +3992,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`umuwmaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`umuwm',
       'form' => '`umuwmaT',
       'lines' => [
@@ -4452,9 +4012,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`imAmaT' => {
-          'Napdu' => 1
-        },
         '`amA\'im' => {
           'Ndip' => 1
         }
@@ -4492,7 +4049,11 @@ $Lexicon = {
         ';; taEomiym_1',
         'tEmym   taEomiym        N/At    generalization;diffusion;spread'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`miym' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -4506,11 +4067,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`miymiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`miym',
       'form' => 'ta`miymiyy',
       'lines' => [
@@ -4529,11 +4086,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Amm' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Amm',
       'form' => '`Amm',
       'lines' => [
@@ -4557,9 +4110,6 @@ $Lexicon = {
       'types' => {
         '`awAmm' => {
           'Ndip' => 1
-        },
-        '`AmmaT' => {
-          'Nap' => 1
         },
         '`AmmaTaN' => {
           'FW-Wa' => 1
@@ -4588,11 +4138,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Ammiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Amm',
       'form' => '`Ammiyy',
       'lines' => [
@@ -4611,11 +4157,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`AmmiyyaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Amm',
       'form' => '`AmmiyyaT',
       'lines' => [
@@ -4636,11 +4178,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`ammam' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`ammam',
       'form' => 'mu`ammam',
       'lines' => [
@@ -4659,11 +4197,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tamm' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tamm',
       'form' => 'mu`tamm',
       'lines' => [
@@ -4684,11 +4218,7 @@ $Lexicon = {
   ],
   '` d s' => [
     {
-      'types' => {
-        '`adas' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adas',
       'form' => '`adas',
       'lines' => [
@@ -4710,9 +4240,6 @@ $Lexicon = {
       'types' => {
         '`adas' => {
           'NAt' => 1
-        },
-        '`adasaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`adas',
@@ -4739,11 +4266,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`adasiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adas',
       'form' => '`adasiyy',
       'lines' => [
@@ -4766,11 +4289,7 @@ $Lexicon = {
   ],
   '`abdAl.zAhir' => [
     {
-      'types' => {
-        '`abdAl.zAhir' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.zAhir',
       'form' => '`abdAl.zAhir',
       'lines' => [
@@ -4791,11 +4310,7 @@ $Lexicon = {
   ],
   '`abdAlbadiy`' => [
     {
-      'types' => {
-        '`abdAlbadiy`' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlbadiy`',
       'form' => '`abdAlbadiy`',
       'lines' => [
@@ -4816,13 +4331,7 @@ $Lexicon = {
   ],
   '` .t \'' => [
     {
-      'types' => {
-        '`a.tA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.tA\'',
       'form' => '`a.tA\'',
       'lines' => [
@@ -4847,11 +4356,6 @@ $Lexicon = {
       'types' => {
         '\'a`.tiy' => {
           'Nap' => 2
-        },
-        '`a.tA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
         }
       },
       'entry' => '`a.tA\'',
@@ -4885,12 +4389,7 @@ $Lexicon = {
     {
       'types' => {
         '`a.tA\'' => {
-          'NAt' => 1,
-          'Nh' => 1,
-          'Nayn' => 1,
-          'NAn_Nayn' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
+          'NAt' => 1
         }
       },
       'entry' => '`a.tA\'',
@@ -4904,7 +4403,12 @@ $Lexicon = {
         'ETA}    EaTA}   Nayn    offers;tenders',
         'ETA\'    EaTA\'   NAt     offers;tenders'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '`a.tA\'' => [
+          'FaCAL',
+          'FaCA\''
+        ]
+      },
       'index' => '3',
       'entity' => 'noun',
       'morphs' => 'FaCAL',
@@ -4919,15 +4423,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mi`.tA\'' => {
-          'Nh' => 1,
-          'Nayn' => 1,
-          'NAn_Nayn' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mi`.tA\'',
       'form' => 'mi`.tA\'',
       'lines' => [
@@ -4953,12 +4449,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`.tA\'' => {
-          'NAt' => 2,
-          'Nh' => 2,
-          'Nayn' => 2,
-          'NAn_Nayn' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`.tA\'',
@@ -4978,7 +4469,12 @@ $Lexicon = {
         '<ETA\'   <iEoTA\' NAt     offers;donations;concessions',
         'AETA\'   <iEoTA\' NAt     offers;donations;concessions'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`.tA\'' => [
+          'HiFCAL',
+          'HiFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -4997,10 +4493,7 @@ $Lexicon = {
     {
       'types' => {
         'isti`.tA\'' => {
-          'NAt' => 2,
-          'Nh' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti`.tA\'',
@@ -5016,7 +4509,12 @@ $Lexicon = {
         '<stETA\' {isotiEoTA\'     NAt     begging;mendacity',
         'AstETA\' {isotiEoTA\'     NAt     begging;mendacity'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'isti`.tA\'' => [
+          'IstiFCAL',
+          'IstiFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCAL',
@@ -5032,7 +4530,6 @@ $Lexicon = {
   '` k ^s' => [
     {
       'types' => {
-        '`aka^s' => {},
         '`ki^s' => {
           'IV' => 1
         }
@@ -5063,11 +4560,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ak^s' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ak^s',
       'form' => '`ak^s',
       'lines' => [
@@ -5086,11 +4579,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`akA^saT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`akA^s',
       'form' => '`akA^saT',
       'lines' => [
@@ -5112,9 +4601,6 @@ $Lexicon = {
       'types' => {
         '`ukkA^s' => {
           'NAt' => 1
-        },
-        '`ukkA^saT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`ukkA^s',
@@ -5145,11 +4631,7 @@ $Lexicon = {
   ],
   '`abdAlzahr' => [
     {
-      'types' => {
-        '`abdAlzahraT' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlzahr',
       'form' => '`abdAlzahraT',
       'lines' => [
@@ -5171,7 +4653,6 @@ $Lexicon = {
   '` .t ` .t' => [
     {
       'types' => {
-        '`a.t`a.t' => {},
         '`a.t`i.t' => {
           'IV_yu' => 1
         }
@@ -5200,11 +4681,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.t`a.taT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.t`a.t',
       'form' => '`a.t`a.taT',
       'lines' => [
@@ -5227,11 +4704,6 @@ $Lexicon = {
   '` ^s \'' => [
     {
       'types' => {
-        '`a^sA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        },
         '\'a`^siy' => {
           'Nap' => 2
         }
@@ -5265,13 +4737,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i^sA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i^sA\'',
       'form' => '`i^sA\'',
       'lines' => [
@@ -5297,8 +4763,7 @@ $Lexicon = {
       'types' => {
         '`abrin' => {
           'IV-n_yu' => 1
-        },
-        '`abran' => {}
+        }
       },
       'entry' => '`abran',
       'form' => '`abran',
@@ -5323,11 +4788,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abranaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abran',
       'form' => '`abranaT',
       'lines' => [
@@ -5348,11 +4809,7 @@ $Lexicon = {
   ],
   '`abdAlfahiym' => [
     {
-      'types' => {
-        '`abdAlfahiym' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlfahiym',
       'form' => '`abdAlfahiym',
       'lines' => [
@@ -5374,7 +4831,6 @@ $Lexicon = {
   '` ^s ^s' => [
     {
       'types' => {
-        '`a^s^sa^s' => {},
         '`a^s^si^s' => {
           'IV_yu' => 1
         }
@@ -5403,9 +4859,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`a^s^sa^s' => {}
-      },
+      'types' => {},
       'entry' => 'ta`a^s^sa^s',
       'form' => 'ta`a^s^sa^s',
       'lines' => [
@@ -5426,7 +4880,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'i`ta^s^s' => {},
         '`ta^s^s' => {
           'IV_V' => 1
         },
@@ -5480,9 +4933,6 @@ $Lexicon = {
         },
         '`i^sA^s' => {
           'N' => 1
-        },
-        '`u^s^s' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`u^s^s',
@@ -5521,9 +4971,6 @@ $Lexicon = {
       'types' => {
         '`u^sa^s' => {
           'N' => 1
-        },
-        '`u^s^saT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`u^s^s',
@@ -5565,7 +5012,11 @@ $Lexicon = {
         ';; taEo$iy$_1',
         'tE$y$   taEo$iy$        N/At    nesting;rooting'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`^siy^s' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -5580,11 +5031,7 @@ $Lexicon = {
   ],
   '`izzAlddiyn' => [
     {
-      'types' => {
-        '`izzAlddiyn' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`izzAlddiyn',
       'form' => '`izzAlddiyn',
       'lines' => [
@@ -5632,7 +5079,6 @@ $Lexicon = {
   '` q f' => [
     {
       'types' => {
-        '`aqaf' => {},
         '`qif' => {
           'IV' => 1
         }
@@ -5667,8 +5113,7 @@ $Lexicon = {
       'types' => {
         '`aqqif' => {
           'IV_yu' => 1
-        },
-        '`aqqaf' => {}
+        }
       },
       'entry' => '`aqqaf',
       'form' => '`aqqaf',
@@ -5695,7 +5140,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'in`aqaf' => {},
         'n`aqif' => {
           'IV_intr' => 1
         }
@@ -5725,11 +5169,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqf' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqf',
       'form' => '`aqf',
       'lines' => [
@@ -5752,9 +5192,6 @@ $Lexicon = {
       'types' => {
         '`uqf' => {
           'NAt' => 1
-        },
-        '`uqfaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`uqf',
@@ -5786,9 +5223,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`qaf' => {
-          'Nel' => 2
-        },
         '`aqfA\'' => {
           'N0_Nh' => 1
         }
@@ -5819,13 +5253,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqfA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqfA\'',
       'form' => '`aqfA\'',
       'lines' => [
@@ -5846,11 +5274,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`qif' => {
-          'Ndu' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`qif',
       'form' => 'ma`qif',
       'lines' => [
@@ -5869,11 +5293,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`quwf' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`quwf',
       'form' => 'ma`quwf',
       'lines' => [
@@ -5904,7 +5324,11 @@ $Lexicon = {
         ';; maEoquwf_2',
         'mEqwf   maEoquwf        NduAt   square brackets'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ma`quwf' => [
+          'MaFCUL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'MaFCUL',
@@ -5927,7 +5351,11 @@ $Lexicon = {
         ';; munoEaqif_1',
         'mnEqf   munoEaqif       NduAt   square brackets'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mun`aqif' => [
+          'MunFaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MunFaCiL',
@@ -5939,11 +5367,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqqAfaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqqAf',
       'form' => '`aqqAfaT',
       'lines' => [
@@ -5965,11 +5389,7 @@ $Lexicon = {
   ],
   'ta`ill' => [
     {
-      'types' => {
-        'ta`illaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`ill',
       'form' => 'ta`illaT',
       'lines' => [
@@ -5991,7 +5411,6 @@ $Lexicon = {
   '` f f' => [
     {
       'types' => {
-        '`aff' => {},
         '`iff' => {
           'IV_V' => 1
         },
@@ -6037,9 +5456,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`affaf' => {}
-      },
+      'types' => {},
       'entry' => 'ta`affaf',
       'form' => 'ta`affaf',
       'lines' => [
@@ -6060,11 +5477,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iffaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iff',
       'form' => '`iffaT',
       'lines' => [
@@ -6084,11 +5497,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`afAf' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`afAf',
       'form' => '`afAf',
       'lines' => [
@@ -6108,11 +5517,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`afAf' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`afAf',
       'form' => '`afAf',
       'lines' => [
@@ -6131,11 +5536,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aff' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aff',
       'form' => '`aff',
       'lines' => [
@@ -6156,9 +5557,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`afiyf' => {
-          'N/ap' => 1
-        },
         '\'a`iffA\'' => {
           'Nh' => 2,
           'Nhy' => 2,
@@ -6195,11 +5593,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`afiyf' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`afiyf',
       'form' => '`afiyf',
       'lines' => [
@@ -6219,11 +5613,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`aff' => {
-          'Nel' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`aff',
       'form' => '\'a`aff',
       'lines' => [
@@ -6254,7 +5644,11 @@ $Lexicon = {
         ';; taEaf~uf_1',
         'tEff    taEaf~uf        N/At    modesty;restraint'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`affuf' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -6267,11 +5661,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`affif' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`affif',
       'form' => 'muta`affif',
       'lines' => [
@@ -6293,12 +5683,7 @@ $Lexicon = {
   ],
   'la`alla' => [
     {
-      'types' => {
-        'la`alla' => {
-          'FW-Wa' => 1,
-          'FW-Wa-n~a' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'la`alla',
       'form' => 'la`alla',
       'lines' => [
@@ -6320,11 +5705,7 @@ $Lexicon = {
   ],
   '`inda_dAk' => [
     {
-      'types' => {
-        '`inda_dAk' => {
-          'FW-Wa' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`inda_dAk',
       'form' => '`inda_dAk',
       'lines' => [
@@ -6349,8 +5730,7 @@ $Lexicon = {
       'types' => {
         '`.dud' => {
           'IV' => 1
-        },
-        '`a.dad' => {}
+        }
       },
       'entry' => '`a.dad',
       'form' => '`a.dad',
@@ -6382,8 +5762,7 @@ $Lexicon = {
       'types' => {
         '`a.d.did' => {
           'IV_yu' => 1
-        },
-        '`a.d.dad' => {}
+        }
       },
       'entry' => '`a.d.dad',
       'form' => '`a.d.dad',
@@ -6412,8 +5791,7 @@ $Lexicon = {
       'types' => {
         '`A.did' => {
           'IV_yu' => 1
-        },
-        '`A.dad' => {}
+        }
       },
       'entry' => '`A.dad',
       'form' => '`A.dad',
@@ -6439,9 +5817,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`A.dad' => {}
-      },
+      'types' => {},
       'entry' => 'ta`A.dad',
       'form' => 'ta`A.dad',
       'lines' => [
@@ -6462,11 +5838,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.dd' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.dd',
       'form' => '`a.dd',
       'lines' => [
@@ -6486,11 +5858,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.dud' => {
-          'Ndu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.dud',
       'form' => '`a.dud',
       'lines' => [
@@ -6509,11 +5877,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.dud' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.dud',
       'form' => '`a.dud',
       'lines' => [
@@ -6544,7 +5908,11 @@ $Lexicon = {
         ';; taEoDiyd_1',
         'tEDyd   taEoDiyd        N/At    assistance;support'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`.diyd' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -6568,7 +5936,11 @@ $Lexicon = {
         ';; muEADad_1',
         'mEADd   muEADad NapAt   assistance;support'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`A.dad' => [
+          'MuFACaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFACaL',
@@ -6592,7 +5964,11 @@ $Lexicon = {
         ';; taEADud_1',
         'tEADd   taEADud N/At    assistance;support'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`A.dud' => [
+          'TaFACuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFACuL',
@@ -6605,11 +5981,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`A.dudiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`A.dud',
       'form' => 'ta`A.dudiyy',
       'lines' => [
@@ -6629,11 +6001,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`A.dudiyyaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`A.dud',
       'form' => 'ta`A.dudiyyaT',
       'lines' => [
@@ -6653,11 +6021,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`a.d.did' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`a.d.did',
       'form' => 'mu`a.d.did',
       'lines' => [
@@ -6686,7 +6050,6 @@ $Lexicon = {
         '`a_d' => {
           'PV_w_intr' => 1
         },
-        '`a_diy' => {},
         '`_day' => {
           'IV_Ann' => 1
         },
@@ -6708,6 +6071,9 @@ $Lexicon = {
         '`_dY' => [
           'FCY'
         ],
+        '`a_d' => [
+          'FaC'
+        ],
         '`_day' => [
           'FCaL'
         ]
@@ -6726,11 +6092,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a_diyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a_diyy',
       'form' => '`a_diyy',
       'lines' => [
@@ -6753,7 +6115,6 @@ $Lexicon = {
   '` b d' => [
     {
       'types' => {
-        '`abad' => {},
         '`bud' => {
           'IV' => 1
         }
@@ -6787,8 +6148,7 @@ $Lexicon = {
       'types' => {
         '`abbid' => {
           'IV_yu' => 1
-        },
-        '`abbad' => {}
+        }
       },
       'entry' => '`abbad',
       'form' => '`abbad',
@@ -6813,9 +6173,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`abbad' => {}
-      },
+      'types' => {},
       'entry' => 'ta`abbad',
       'form' => 'ta`abbad',
       'lines' => [
@@ -6836,7 +6194,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ista`bad' => {},
         'sta`bid' => {
           'IV' => 1
         }
@@ -6861,11 +6218,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abd' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abd',
       'form' => '`abd',
       'lines' => [
@@ -6889,9 +6242,7 @@ $Lexicon = {
           'N' => 1
         },
         '`abd' => {
-          'NAt' => 1,
-          'Napdu' => 1,
-          'Ndu' => 1
+          'NAt' => 1
         },
         '`ubdAn' => {
           'N' => 1
@@ -6908,6 +6259,9 @@ $Lexicon = {
         'EbdAn   EubodAn N       slaves'
       ],
       'patterns' => {
+        '`abd' => [
+          'FaCL'
+        ],
         '`abiyd' => [
           'FaCIL'
         ],
@@ -6931,11 +6285,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ubayd' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ubayd',
       'form' => '`ubayd',
       'lines' => [
@@ -6957,11 +6307,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abdiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abd',
       'form' => '`abdiyy',
       'lines' => [
@@ -6980,11 +6326,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ubaydaT' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ubayd',
       'form' => '`ubaydaT',
       'lines' => [
@@ -7003,11 +6345,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ibAd' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ibAd',
       'form' => '`ibAd',
       'lines' => [
@@ -7026,11 +6364,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abbAd' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abbAd',
       'form' => '`abbAd',
       'lines' => [
@@ -7049,11 +6383,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abbAd' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abbAd',
       'form' => '`abbAd',
       'lines' => [
@@ -7072,11 +6402,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abbAdiyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abbAd',
       'form' => '`abbAdiyy',
       'lines' => [
@@ -7095,11 +6421,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ibAdaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ibAd',
       'form' => '`ibAdaT',
       'lines' => [
@@ -7119,11 +6441,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ubuwdaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ubuwd',
       'form' => '`ubuwdaT',
       'lines' => [
@@ -7143,11 +6461,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ubuwdiyy' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ubuwd',
       'form' => '`ubuwdiyy',
       'lines' => [
@@ -7167,11 +6481,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abbuwd' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abbuwd',
       'form' => '`abbuwd',
       'lines' => [
@@ -7190,11 +6500,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abbuwdiyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abbuwd',
       'form' => '`abbuwdiyy',
       'lines' => [
@@ -7213,11 +6519,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`bad' => {
-          'Ndu' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`bad',
       'form' => 'ma`bad',
       'lines' => [
@@ -7236,11 +6538,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`Abid' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`Abid',
       'form' => 'ma`Abid',
       'lines' => [
@@ -7270,7 +6568,11 @@ $Lexicon = {
         ';; taEobiyd_1',
         'tEbyd   taEobiyd        N/At    asphalting;enslavement'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`biyd' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -7294,7 +6596,11 @@ $Lexicon = {
         ';; taEab~ud_1',
         'tEbd    taEab~ud        N/At    worship;devoutness'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`abbud' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -7319,7 +6625,11 @@ $Lexicon = {
         '<stEbAd {isotiEobAd     N/At    slavery;enslaving',
         'AstEbAd {isotiEobAd     N/At    slavery;enslaving'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'isti`bAd' => [
+          'IstiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCAL',
@@ -7333,9 +6643,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`Abid' => {
-          'Nall' => 1
-        },
         '`ubbAd' => {
           'N' => 1
         }
@@ -7364,11 +6671,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Abid' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Abid',
       'form' => '`Abid',
       'lines' => [
@@ -7387,11 +6690,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`buwd' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`buwd',
       'form' => 'ma`buwd',
       'lines' => [
@@ -7410,11 +6709,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`abbad' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`abbad',
       'form' => 'mu`abbad',
       'lines' => [
@@ -7434,11 +6729,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`abbid' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`abbid',
       'form' => 'muta`abbid',
       'lines' => [
@@ -7458,11 +6749,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'musta`bad' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'musta`bad',
       'form' => 'musta`bad',
       'lines' => [
@@ -7484,7 +6771,6 @@ $Lexicon = {
   '` w .d' => [
     {
       'types' => {
-        '`A.d' => {},
         '`uw.d' => {
           'IV_V' => 1
         },
@@ -7526,7 +6812,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`awwa.d' => {},
         '`awwi.d' => {
           'IV_yu' => 1
         }
@@ -7558,8 +6843,7 @@ $Lexicon = {
       'types' => {
         '`Awi.d' => {
           'IV_yu' => 1
-        },
-        '`Awa.d' => {}
+        }
       },
       'entry' => '`Awa.d',
       'form' => '`Awa.d',
@@ -7592,7 +6876,6 @@ $Lexicon = {
         '`i.d' => {
           'IV_C_yu' => 1
         },
-        '\'a`A.d' => {},
         '`a.d' => {
           'IV_C_Pass_yu' => 1
         },
@@ -7647,9 +6930,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`awwa.d' => {}
-      },
+      'types' => {},
       'entry' => 'ta`awwa.d',
       'form' => 'ta`awwa.d',
       'lines' => [
@@ -7670,9 +6951,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Awa.d' => {}
-      },
+      'types' => {},
       'entry' => 'ta`Awa.d',
       'form' => 'ta`Awa.d',
       'lines' => [
@@ -7701,8 +6980,7 @@ $Lexicon = {
         },
         'i`ta.d' => {
           'PV_C_intr' => 2
-        },
-        'i`tA.d' => {}
+        }
       },
       'entry' => 'i`tA.d',
       'form' => 'i`tA.d',
@@ -7739,7 +7017,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ista`A.d' => {},
         'ista`a.d' => {
           'PV_C' => 2
         },
@@ -7779,11 +7056,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awa.d' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awa.d',
       'form' => '`awa.d',
       'lines' => [
@@ -7802,11 +7075,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awa.diyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awa.d',
       'form' => '`awa.diyy',
       'lines' => [
@@ -7825,11 +7094,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uway.daT' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uway.d',
       'form' => '`uway.daT',
       'lines' => [
@@ -7848,11 +7113,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iwa.d' => {
-          'Ndu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iwa.d',
       'form' => '`iwa.d',
       'lines' => [
@@ -7872,7 +7133,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`iwa.daN' => {},
         '`iwa.d' => {
           'NF' => 1
         }
@@ -7900,11 +7160,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awwA.d' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awwA.d',
       'form' => '`awwA.d',
       'lines' => [
@@ -7925,8 +7181,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`wiy.d' => {
-          'NAt' => 1,
-          'N' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`wiy.d',
@@ -7936,7 +7191,11 @@ $Lexicon = {
         'tEwyD   taEowiyD        N       compensation;restitution',
         'tEwyD   taEowiyD        NAt     reparations;substitutes'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`wiy.d' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -7951,11 +7210,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`wiy.diyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`wiy.d',
       'form' => 'ta`wiy.diyy',
       'lines' => [
@@ -7975,11 +7230,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Awu.diyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`Awu.d',
       'form' => 'ta`Awu.diyy',
       'lines' => [
@@ -7998,11 +7249,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'isti`A.daT' => {
-          'NapAt' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'isti`A.d',
       'form' => 'isti`A.daT',
       'lines' => [
@@ -8024,11 +7271,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A\'i.d' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A\'i.d',
       'form' => '`A\'i.d',
       'lines' => [
@@ -8048,11 +7291,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`awwa.d' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`awwa.d',
       'form' => 'mu`awwa.d',
       'lines' => [
@@ -8072,11 +7311,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`Awi.d' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`Awi.d',
       'form' => 'muta`Awi.d',
       'lines' => [
@@ -8100,8 +7335,7 @@ $Lexicon = {
       'types' => {
         '`nad' => {
           'IV_intr' => 1
-        },
-        '`anid' => {}
+        }
       },
       'entry' => '`anid',
       'form' => '`anid',
@@ -8132,8 +7366,7 @@ $Lexicon = {
       'types' => {
         '`Anid' => {
           'IV_yu' => 1
-        },
-        '`Anad' => {}
+        }
       },
       'entry' => '`Anad',
       'form' => '`Anad',
@@ -8162,8 +7395,7 @@ $Lexicon = {
       'types' => {
         'sta`nid' => {
           'IV_intr' => 1
-        },
-        'ista`nad' => {}
+        }
       },
       'entry' => 'ista`nad',
       'form' => 'ista`nad',
@@ -8185,11 +7417,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`indiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ind',
       'form' => '`indiyyaT',
       'lines' => [
@@ -8209,7 +7437,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`indiyyAt' => {},
         '`indiyy' => {
           'NAt' => 1
         }
@@ -8233,11 +7460,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aniyd' => {
-          'N/ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aniyd',
       'form' => '`aniyd',
       'lines' => [
@@ -8257,11 +7480,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`inAd' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`inAd',
       'form' => '`inAd',
       'lines' => [
@@ -8281,11 +7500,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`AnadaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Anad',
       'form' => 'mu`AnadaT',
       'lines' => [
@@ -8305,11 +7520,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Anid' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Anid',
       'form' => 'mu`Anid',
       'lines' => [
@@ -8334,8 +7545,7 @@ $Lexicon = {
       'types' => {
         '`lik' => {
           'IV' => 1
-        },
-        '`alak' => {}
+        }
       },
       'entry' => '`alak',
       'form' => '`alak',
@@ -8364,11 +7574,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`alk' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`alk',
       'form' => '`alk',
       'lines' => [
@@ -8388,12 +7594,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ilk' => {
-          'Nap' => 1,
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ilk',
       'form' => '`ilk',
       'lines' => [
@@ -8414,11 +7615,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Alik' => {
-          'Ndu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Alik',
       'form' => '`Alik',
       'lines' => [
@@ -8441,7 +7638,6 @@ $Lexicon = {
   '` ^s r n' => [
     {
       'types' => {
-        '`i^sruwn' => {},
         '`i^sr' => {
           'Numb' => 1
         }
@@ -8475,7 +7671,11 @@ $Lexicon = {
         ';; Ei$oriyn_1',
         'E$ryn   Ei$oriyn        NAt     twenties'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '`i^sriyn' => [
+          'KiRDIS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KiRDIS',
@@ -8487,11 +7687,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i^sriyniyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i^sriyn',
       'form' => '`i^sriyniyy',
       'lines' => [
@@ -8512,11 +7708,7 @@ $Lexicon = {
   ],
   '`i_tyar' => [
     {
-      'types' => {
-        '`i_tyar' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i_tyar',
       'form' => '`i_tyar',
       'lines' => [
@@ -8538,11 +7730,7 @@ $Lexicon = {
   ],
   '`abdAlfattA.h' => [
     {
-      'types' => {
-        '`abdAlfattA.h' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlfattA.h',
       'form' => '`abdAlfattA.h',
       'lines' => [
@@ -8563,11 +7751,7 @@ $Lexicon = {
   ],
   '` f y' => [
     {
-      'types' => {
-        '`afiyy' => {
-          'N/ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`afiyy',
       'form' => '`afiyy',
       'lines' => [
@@ -8587,11 +7771,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`fiyaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`fiy',
       'form' => 'ta`fiyaT',
       'lines' => [
@@ -8613,9 +7793,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`Afiy' => {
-          'NAt' => 1,
-          'NAn_Nayn' => 1,
-          'N0_Nh' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`Afiy',
@@ -8627,7 +7805,11 @@ $Lexicon = {
         'tEAfy   taEAfiy NAn_Nayn        recovery;cure',
         'tEAfy   taEAfiy NAt     recovery;cure'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`Afiy' => [
+          'TaFACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFACI',
@@ -8645,9 +7827,7 @@ $Lexicon = {
           'Nuwn_Niyn' => 1
         },
         '`Afiy' => {
-          'NapAt' => 1,
-          'NAn_Nayn' => 1,
-          'N0F' => 1
+          'NapAt' => 1
         }
       },
       'entry' => '`Afiy',
@@ -8660,7 +7840,11 @@ $Lexicon = {
         'EAf     EAf     Nuwn_Niyn       effaced;obliterated',
         'EAfy    EAfiy   NapAt   effaced;obliterated'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '`Afiy' => [
+          'FACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FACI',
@@ -8673,11 +7857,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`AfiyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Afiy',
       'form' => '`AfiyaT',
       'lines' => [
@@ -8698,9 +7878,7 @@ $Lexicon = {
     {
       'types' => {
         'muta`Afiy' => {
-          'N0F_Nh' => 1,
-          'NapAt' => 1,
-          'NAn_Nayn' => 1
+          'NapAt' => 1
         },
         'muta`Af' => {
           'Nuwn_Niyn' => 1
@@ -8716,7 +7894,11 @@ $Lexicon = {
         'mtEAf   mutaEAf Nuwn_Niyn       recovered;cured',
         'mtEAfy  mutaEAfiy       NapAt   recovered;cured'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'muta`Afiy' => [
+          'MutaFACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MutaFACI',
@@ -8734,8 +7916,7 @@ $Lexicon = {
       'types' => {
         '`fis' => {
           'IV' => 1
-        },
-        '`afas' => {}
+        }
       },
       'entry' => '`afas',
       'form' => '`afas',
@@ -8764,11 +7945,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`afs' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`afs',
       'form' => '`afs',
       'lines' => [
@@ -8790,11 +7967,7 @@ $Lexicon = {
   ],
   '` \' l' => [
     {
-      'types' => {
-        '`A\'il' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A\'il',
       'form' => '`A\'il',
       'lines' => [
@@ -8820,9 +7993,6 @@ $Lexicon = {
         },
         '`awA\'il' => {
           'Ndip' => 1
-        },
-        '`A\'ilaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`A\'il',
@@ -8857,11 +8027,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A\'iliyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A\'il',
       'form' => '`A\'iliyy',
       'lines' => [
@@ -8884,7 +8050,6 @@ $Lexicon = {
   '` q r' => [
     {
       'types' => {
-        '`aqur' => {},
         '`qur' => {
           'IV_intr' => 1
         }
@@ -8919,8 +8084,7 @@ $Lexicon = {
       'types' => {
         '`aqqir' => {
           'IV_yu' => 1
-        },
-        '`aqqar' => {}
+        }
       },
       'entry' => '`aqqar',
       'form' => '`aqqar',
@@ -8948,8 +8112,7 @@ $Lexicon = {
       'types' => {
         '`Aqir' => {
           'IV_intr_yu' => 1
-        },
-        '`Aqar' => {}
+        }
       },
       'entry' => '`Aqar',
       'form' => '`Aqar',
@@ -8975,7 +8138,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`qar' => {},
         '`qir' => {
           'IV_yu' => 1
         },
@@ -9012,11 +8174,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uqr' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uqr',
       'form' => '`uqr',
       'lines' => [
@@ -9035,11 +8193,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uqr' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uqr',
       'form' => '`uqr',
       'lines' => [
@@ -9069,7 +8223,11 @@ $Lexicon = {
         ';; EaqAr_1',
         'EqAr    EaqAr   NduAt   real estate;immovable property'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '`aqAr' => [
+          'FaCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCAL',
@@ -9082,11 +8240,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqAriyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqAr',
       'form' => '`aqAriyy',
       'lines' => [
@@ -9106,11 +8260,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aquwr' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aquwr',
       'form' => '`aquwr',
       'lines' => [
@@ -9133,9 +8283,6 @@ $Lexicon = {
       'types' => {
         '`aqAqiyr' => {
           'Ndip' => 1
-        },
-        '`aqqAr' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`aqqAr',
@@ -9164,11 +8311,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqAqiyriyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqAqiyr',
       'form' => '`aqAqiyriyy',
       'lines' => [
@@ -9187,11 +8330,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqAraT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqAr',
       'form' => '`aqAraT',
       'lines' => [
@@ -9211,11 +8350,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqiyraT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqiyr',
       'form' => '`aqiyraT',
       'lines' => [
@@ -9234,11 +8369,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Aquwriyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Aquwr',
       'form' => '`Aquwriyy',
       'lines' => [
@@ -9260,9 +8391,6 @@ $Lexicon = {
       'types' => {
         '`uqqar' => {
           'N' => 2
-        },
-        '`Aqir' => {
-          'N' => 1
         },
         '`awAqir' => {
           'Ndip' => 2
@@ -9298,11 +8426,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`AqaraT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Aqar',
       'form' => 'mu`AqaraT',
       'lines' => [
@@ -9324,11 +8448,7 @@ $Lexicon = {
   ],
   '`abdAlnuwr' => [
     {
-      'types' => {
-        '`abdAlnuwr' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlnuwr',
       'form' => '`abdAlnuwr',
       'lines' => [
@@ -9349,11 +8469,7 @@ $Lexicon = {
   ],
   '`abdAlqAsim' => [
     {
-      'types' => {
-        '`abdAlqAsim' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlqAsim',
       'form' => '`abdAlqAsim',
       'lines' => [
@@ -9376,9 +8492,6 @@ $Lexicon = {
     {
       'types' => {
         'ta`bawiyy' => {
-          'Nall' => 1
-        },
-        'ta`bAwiyy' => {
           'Nall' => 1
         }
       },
@@ -9406,8 +8519,7 @@ $Lexicon = {
       'types' => {
         '`baq' => {
           'IV_intr' => 1
-        },
-        '`abiq' => {}
+        }
       },
       'entry' => '`abiq',
       'form' => '`abiq',
@@ -9435,11 +8547,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abaq' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abaq',
       'form' => '`abaq',
       'lines' => [
@@ -9459,11 +8567,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abiq' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abiq',
       'form' => '`abiq',
       'lines' => [
@@ -9482,11 +8586,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abqaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abq',
       'form' => '`abqaT',
       'lines' => [
@@ -9505,11 +8605,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Abiq' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Abiq',
       'form' => '`Abiq',
       'lines' => [
@@ -9533,8 +8629,7 @@ $Lexicon = {
       'types' => {
         '`tuq' => {
           'IV' => 1
-        },
-        '`atuq' => {}
+        }
       },
       'entry' => '`atuq',
       'form' => '`atuq',
@@ -9566,8 +8661,7 @@ $Lexicon = {
       'types' => {
         '`tiq' => {
           'IV_intr' => 1
-        },
-        '`ataq' => {}
+        }
       },
       'entry' => '`ataq',
       'form' => '`ataq',
@@ -9599,7 +8693,6 @@ $Lexicon = {
         '`taq' => {
           'IV_Pass_yu' => 1
         },
-        '\'a`taq' => {},
         '`tiq' => {
           'IV_yu' => 1
         }
@@ -9637,8 +8730,7 @@ $Lexicon = {
       'types' => {
         'n`atiq' => {
           'IV' => 1
-        },
-        'in`ataq' => {}
+        }
       },
       'entry' => 'in`ataq',
       'form' => 'in`ataq',
@@ -9664,11 +8756,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`itq' => {
-          'N' => 2
-        }
-      },
+      'types' => {},
       'entry' => '`itq',
       'form' => '`itq',
       'lines' => [
@@ -9690,11 +8778,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`atiyq' => {
-          'N-ap' => 2
-        }
-      },
+      'types' => {},
       'entry' => '`atiyq',
       'form' => '`atiyq',
       'lines' => [
@@ -9716,11 +8800,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`atAqaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`atAq',
       'form' => '`atAqaT',
       'lines' => [
@@ -9752,7 +8832,11 @@ $Lexicon = {
         '<EtAq   <iEotAq N/At    liberation',
         'AEtAq   <iEotAq N/At    liberation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`tAq' => [
+          'HiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -9776,7 +8860,11 @@ $Lexicon = {
         '<nEtAq  {inoEitAq       N/At    self-liberation',
         'AnEtAq  {inoEitAq       N/At    self-liberation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'in`itAq' => [
+          'InFiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'InFiCAL',
@@ -9791,9 +8879,6 @@ $Lexicon = {
       'types' => {
         '`awAtiq' => {
           'Ndip' => 1
-        },
-        '`Atiq' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`Atiq',
@@ -9820,11 +8905,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`tuwq' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`tuwq',
       'form' => 'ma`tuwq',
       'lines' => [
@@ -9843,11 +8924,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`attaq' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`attaq',
       'form' => 'mu`attaq',
       'lines' => [
@@ -9868,11 +8945,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tiq' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tiq',
       'form' => 'mu`tiq',
       'lines' => [
@@ -9893,11 +8966,7 @@ $Lexicon = {
   ],
   '` l \'' => [
     {
-      'types' => {
-        '`alA\'' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`alA\'',
       'form' => '`alA\'',
       'lines' => [
@@ -9916,13 +8985,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`alA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`alA\'',
       'form' => '`alA\'',
       'lines' => [
@@ -9946,10 +9009,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`lA\'' => {
-          'NAt' => 2,
-          'Nh' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`lA\'',
@@ -9965,7 +9025,12 @@ $Lexicon = {
         '<ElA\'   <iEolA\' NAt     raising;lifting',
         'AElA\'   <iEolA\' NAt     raising;lifting'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`lA\'' => [
+          'HiFCAL',
+          'HiFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -9980,12 +9045,7 @@ $Lexicon = {
     {
       'types' => {
         'i`tilA\'' => {
-          'NAt' => 2,
-          'Nh' => 2,
-          'Nayn' => 2,
-          'NAn_Nayn' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`tilA\'',
@@ -10005,7 +9065,12 @@ $Lexicon = {
         '<EtlA\'  {iEotilA\'       NAt     ascension;accession to office',
         'AEtlA\'  {iEotilA\'       NAt     ascension;accession to office'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tilA\'' => [
+          'IFtiCAL',
+          'IFtiCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -10020,10 +9085,7 @@ $Lexicon = {
     {
       'types' => {
         'isti`lA\'' => {
-          'NAt' => 2,
-          'Nh' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti`lA\'',
@@ -10039,7 +9101,12 @@ $Lexicon = {
         '<stElA\' {isotiEolA\'     NAt     superiority',
         'AstElA\' {isotiEolA\'     NAt     superiority'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'isti`lA\'' => [
+          'IstiFCAL',
+          'IstiFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCAL',
@@ -10056,8 +9123,7 @@ $Lexicon = {
       'types' => {
         '`ta^gir' => {
           'IV_intr' => 1
-        },
-        'i`ta^gar' => {}
+        }
       },
       'entry' => 'i`ta^gar',
       'form' => 'i`ta^gar',
@@ -10083,11 +9149,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^gar' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^gar',
       'form' => '`a^gar',
       'lines' => [
@@ -10110,9 +9172,6 @@ $Lexicon = {
       'types' => {
         '`u^gar' => {
           'N' => 2
-        },
-        '`u^graT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`u^gr',
@@ -10143,12 +9202,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^g^guwr' => {
-          'N' => 1,
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^g^guwr',
       'form' => '`a^g^guwr',
       'lines' => [
@@ -10168,11 +9222,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^g^guwriyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^g^guwr',
       'form' => '`a^g^guwriyy',
       'lines' => [
@@ -10191,11 +9241,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u^gayraT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u^gayr',
       'form' => '`u^gayraT',
       'lines' => [
@@ -10214,11 +9260,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u^gariyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u^gar',
       'form' => '`u^gariyy',
       'lines' => [
@@ -10237,11 +9279,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u^gayriyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u^gayr',
       'form' => '`u^gayriyy',
       'lines' => [
@@ -10260,11 +9298,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i^gAraT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i^gAr',
       'form' => '`i^gAraT',
       'lines' => [
@@ -10285,11 +9319,7 @@ $Lexicon = {
   ],
   '`abdAlmawlY' => [
     {
-      'types' => {
-        '`abdAlmawlY' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmawlY',
       'form' => '`abdAlmawlY',
       'lines' => [
@@ -10310,11 +9340,7 @@ $Lexicon = {
   ],
   '`abdAl`Alim' => [
     {
-      'types' => {
-        '`abdAl`Alim' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl`Alim',
       'form' => '`abdAl`Alim',
       'lines' => [
@@ -10335,11 +9361,7 @@ $Lexicon = {
   ],
   '` n q r' => [
     {
-      'types' => {
-        '`anqariyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`anqar',
       'form' => '`anqariyy',
       'lines' => [
@@ -10363,8 +9385,7 @@ $Lexicon = {
       'types' => {
         '`mal' => {
           'IV' => 1
-        },
-        '`amil' => {}
+        }
       },
       'entry' => '`amil',
       'form' => '`amil',
@@ -10395,7 +9416,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`Amal' => {},
         '`Amil' => {
           'IV_yu' => 1
         }
@@ -10428,7 +9448,6 @@ $Lexicon = {
         '`mil' => {
           'IV_yu' => 1
         },
-        '\'a`mal' => {},
         '`mal' => {
           'IV_Pass_yu' => 1
         }
@@ -10463,9 +9482,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Amal' => {}
-      },
+      'types' => {},
       'entry' => 'ta`Amal',
       'form' => 'ta`Amal',
       'lines' => [
@@ -10489,8 +9506,7 @@ $Lexicon = {
       'types' => {
         '`tamil' => {
           'IV' => 1
-        },
-        'i`tamal' => {}
+        }
       },
       'entry' => 'i`tamal',
       'form' => 'i`tamal',
@@ -10520,8 +9536,7 @@ $Lexicon = {
       'types' => {
         'sta`mil' => {
           'IV' => 1
-        },
-        'ista`mal' => {}
+        }
       },
       'entry' => 'ista`mal',
       'form' => 'ista`mal',
@@ -10545,9 +9560,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`amal' => {
-          'N' => 1
-        },
         '\'a`mAl' => {
           'N' => 2
         }
@@ -10579,11 +9591,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`amal' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amal',
       'form' => '`amal',
       'lines' => [
@@ -10603,12 +9611,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`amaliyy' => {
-          'NF' => 1,
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amal',
       'form' => '`amaliyy',
       'lines' => [
@@ -10633,9 +9636,6 @@ $Lexicon = {
       'types' => {
         '`amaliyy' => {
           'NAt' => 1
-        },
-        '`amaliyyaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`amal',
@@ -10665,9 +9665,6 @@ $Lexicon = {
       'types' => {
         '`uml' => {
           'NAt' => 1
-        },
-        '`umlaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`uml',
@@ -10695,9 +9692,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`amiyl' => {
-          'N/ap' => 1
-        },
         '`umalA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -10730,11 +9724,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`umaylaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`umayl',
       'form' => '`umaylaT',
       'lines' => [
@@ -10753,11 +9743,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`amAlaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amAl',
       'form' => '`amAlaT',
       'lines' => [
@@ -10777,11 +9763,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`umuwlaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`umuwl',
       'form' => '`umuwlaT',
       'lines' => [
@@ -10801,9 +9783,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ma`mal' => {
-          'Ndu' => 1
-        },
         'ma`Amil' => {
           'Ndip' => 1
         }
@@ -10846,7 +9825,11 @@ $Lexicon = {
         ';; taEomiyl_1',
         'tEmyl   taEomiyl        N/At    factorization'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`miyl' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -10858,11 +9841,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`AmalaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Amal',
       'form' => 'mu`AmalaT',
       'lines' => [
@@ -10894,7 +9873,11 @@ $Lexicon = {
         ';; taEam~ul_1',
         'tEml    taEam~ul        N/At    mannerism'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`ammul' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -10917,7 +9900,11 @@ $Lexicon = {
         ';; taEAmul_1',
         'tEAml   taEAmul N/At    relations;dealings'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`Amul' => [
+          'TaFACuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFACuL',
@@ -10942,7 +9929,11 @@ $Lexicon = {
         '<stEmAl {isotiEomAl     NduAt   use;application;handling',
         'AstEmAl {isotiEomAl     NduAt   use;application;handling'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'isti`mAl' => [
+          'IstiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCAL',
@@ -10956,11 +9947,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Amil' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Amil',
       'form' => '`Amil',
       'lines' => [
@@ -10986,9 +9973,6 @@ $Lexicon = {
         },
         '`ummAl' => {
           'N' => 1
-        },
-        '`Amil' => {
-          'N/ap' => 1
         }
       },
       'entry' => '`Amil',
@@ -11022,9 +10006,6 @@ $Lexicon = {
       'types' => {
         '`awAmil' => {
           'Ndip' => 1
-        },
-        '`Amil' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`Amil',
@@ -11054,11 +10035,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Amiliyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Amil',
       'form' => '`Amiliyy',
       'lines' => [
@@ -11077,11 +10054,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ummAliyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ummAl',
       'form' => '`ummAliyy',
       'lines' => [
@@ -11101,11 +10074,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`muwl' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`muwl',
       'form' => 'ma`muwl',
       'lines' => [
@@ -11125,11 +10094,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`Amiyl' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`Amiyl',
       'form' => 'ma`Amiyl',
       'lines' => [
@@ -11159,7 +10124,11 @@ $Lexicon = {
         ';; muEAmil_1',
         'mEAml   muEAmil NduAt   coefficient;index'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`Amil' => [
+          'MuFACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFACiL',
@@ -11172,11 +10141,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`Amil' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`Amil',
       'form' => 'muta`Amil',
       'lines' => [
@@ -11195,11 +10160,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'musta`mil' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'musta`mil',
       'form' => 'musta`mil',
       'lines' => [
@@ -11219,11 +10180,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'musta`mal' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'musta`mal',
       'form' => 'musta`mal',
       'lines' => [
@@ -11245,11 +10202,7 @@ $Lexicon = {
   ],
   '`abdAlmannAn' => [
     {
-      'types' => {
-        '`abdAlmannAn' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmannAn',
       'form' => '`abdAlmannAn',
       'lines' => [
@@ -11273,8 +10226,7 @@ $Lexicon = {
       'types' => {
         '`^gaz' => {
           'IV_intr' => 1
-        },
-        '`a^giz' => {}
+        }
       },
       'entry' => '`a^giz',
       'form' => '`a^giz',
@@ -11304,7 +10256,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a^guz' => {},
         '`^guz' => {
           'IV' => 1
         }
@@ -11336,7 +10287,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a^g^gaz' => {},
         '`a^g^giz' => {
           'IV_yu' => 1
         }
@@ -11369,7 +10319,6 @@ $Lexicon = {
         '`^giz' => {
           'IV_yu' => 1
         },
-        '\'a`^gaz' => {},
         '`^gaz' => {
           'IV_Pass_yu' => 1
         }
@@ -11406,7 +10355,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ista`^gaz' => {},
         'sta`^giz' => {
           'IV' => 1
         }
@@ -11431,11 +10379,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^gz' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^gz',
       'form' => '`a^gz',
       'lines' => [
@@ -11455,11 +10399,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^gz' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^gz',
       'form' => '`a^gz',
       'lines' => [
@@ -11479,11 +10419,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^guz' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^guz',
       'form' => '`a^guz',
       'lines' => [
@@ -11505,9 +10441,6 @@ $Lexicon = {
       'types' => {
         '`a^gA\'iz' => {
           'Ndip' => 1
-        },
-        '`a^guwz' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`a^guwz',
@@ -11530,11 +10463,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^guwzaT' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^guwz',
       'form' => '`a^guwzaT',
       'lines' => [
@@ -11553,11 +10482,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^giyzaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^giyz',
       'form' => '`a^giyzaT',
       'lines' => [
@@ -11590,7 +10515,11 @@ $Lexicon = {
         '<EjAz   <iEojAz N/At    inimitability',
         'AEjAz   <iEojAz N/At    inimitability'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`^gAz' => [
+          'HiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -11602,11 +10531,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'i`^gAziyy' => {
-          'N-ap' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'i`^gAz',
       'form' => '\'i`^gAziyy',
       'lines' => [
@@ -11632,9 +10557,6 @@ $Lexicon = {
         },
         '`a^gaz' => {
           'Nap' => 1
-        },
-        '`A^giz' => {
-          'Nall' => 1
         }
       },
       'entry' => '`A^giz',
@@ -11666,11 +10588,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`^giz' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`^giz',
       'form' => 'mu`^giz',
       'lines' => [
@@ -11690,9 +10608,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mu`^gizaT' => {
-          'Napdu' => 1
-        },
         'mu`^giz' => {
           'NAt' => 1
         }
@@ -11726,8 +10641,7 @@ $Lexicon = {
       'types' => {
         '`zil' => {
           'IV' => 1
-        },
-        '`azal' => {}
+        }
       },
       'entry' => '`azal',
       'form' => '`azal',
@@ -11757,7 +10671,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`zal' => {},
         '`zil' => {
           'IV_yu' => 1
         },
@@ -11797,7 +10710,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'in`azal' => {},
         'n`azil' => {
           'IV_intr' => 1
         }
@@ -11830,8 +10742,7 @@ $Lexicon = {
       'types' => {
         '`tazil' => {
           'IV_intr' => 1
-        },
-        'i`tazal' => {}
+        }
       },
       'entry' => 'i`tazal',
       'form' => 'i`tazal',
@@ -11858,11 +10769,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`azl' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`azl',
       'form' => '`azl',
       'lines' => [
@@ -11882,11 +10789,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`azliyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`azl',
       'form' => '`azliyy',
       'lines' => [
@@ -11905,11 +10808,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uzlaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uzl',
       'form' => '`uzlaT',
       'lines' => [
@@ -11930,11 +10829,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`izAl' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`izAl',
       'form' => '`izAl',
       'lines' => [
@@ -11955,9 +10850,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`zal' => {
-          'Nel' => 2
-        },
         '`azlA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -12001,9 +10893,6 @@ $Lexicon = {
       'types' => {
         'ma`Azil' => {
           'Ndip' => 1
-        },
-        'ma`zil' => {
-          'Ndu' => 1
         }
       },
       'entry' => 'ma`zil',
@@ -12044,7 +10933,11 @@ $Lexicon = {
         '<nEzAl  {inoEizAl       N/At    separation;seclusion;isolation',
         'AnEzAl  {inoEizAl       N/At    separation;seclusion;isolation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'in`izAl' => [
+          'InFiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'InFiCAL',
@@ -12058,11 +10951,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'in`izAliyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'in`izAl',
       'form' => 'in`izAliyy',
       'lines' => [
@@ -12082,11 +10971,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'in`izAliyyaT' => {
-          'Nap' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'in`izAl',
       'form' => 'in`izAliyyaT',
       'lines' => [
@@ -12118,7 +11003,11 @@ $Lexicon = {
         '<EtzAl  {iEotizAl       N/At    retirement;seclusion',
         'AEtzAl  {iEotizAl       N/At    retirement;seclusion'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tizAl' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -12131,11 +11020,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Azil' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Azil',
       'form' => '`Azil',
       'lines' => [
@@ -12157,9 +11042,6 @@ $Lexicon = {
       'types' => {
         '`awAzil' => {
           'Ndip' => 1
-        },
-        '`AzilaT' => {
-          'NapAt' => 1
         }
       },
       'entry' => '`Azil',
@@ -12186,11 +11068,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`zuwl' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`zuwl',
       'form' => 'ma`zuwl',
       'lines' => [
@@ -12210,11 +11088,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`zuwl' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`zuwl',
       'form' => 'ma`zuwl',
       'lines' => [
@@ -12234,11 +11108,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mun`azil' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mun`azil',
       'form' => 'mun`azil',
       'lines' => [
@@ -12258,11 +11128,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tazil' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tazil',
       'form' => 'mu`tazil',
       'lines' => [
@@ -12283,9 +11149,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mu`taziliyy' => {
-          'Nall' => 2
-        },
         'mu`tazil' => {
           'Nap' => 1
         }
@@ -12326,7 +11189,11 @@ $Lexicon = {
         ';; muEotazal_1',
         'mEtzl   muEotazal       NduAt   retirement place;place of solitude'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`tazal' => [
+          'MuFtaCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFtaCaL',
@@ -12341,11 +11208,7 @@ $Lexicon = {
   ],
   '` ^s ` ^s' => [
     {
-      'types' => {
-        'mu`a^s`a^s' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`a^s`a^s',
       'form' => 'mu`a^s`a^s',
       'lines' => [
@@ -12374,7 +11237,6 @@ $Lexicon = {
         'i`tazaz' => {
           'PV_C_intr' => 2
         },
-        'i`tazz' => {},
         '`tazz' => {
           'IV_V_intr' => 1
         }
@@ -12418,7 +11280,11 @@ $Lexicon = {
         '<EtzAz  {iEotizAz       N/At    pride',
         'AEtzAz  {iEotizAz       N/At    pride'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tizAz' => [
+          'IFCiLAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFCiLAL',
@@ -12430,11 +11296,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tazz' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tazz',
       'form' => 'mu`tazz',
       'lines' => [
@@ -12454,11 +11316,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tazz' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tazz',
       'form' => 'mu`tazz',
       'lines' => [
@@ -12479,11 +11337,7 @@ $Lexicon = {
   ],
   '`abdAl`izz' => [
     {
-      'types' => {
-        '`abdAl`izz' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl`izz',
       'form' => '`abdAl`izz',
       'lines' => [
@@ -12507,9 +11361,6 @@ $Lexicon = {
       'types' => {
         '`arA^giyn' => {
           'Ndip' => 1
-        },
-        '`ur^guwn' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`ur^guwn',
@@ -12539,7 +11390,6 @@ $Lexicon = {
   '` ^g ` ^g' => [
     {
       'types' => {
-        '`a^g`a^g' => {},
         '`a^g`i^g' => {
           'IV_yu' => 1
         }
@@ -12567,11 +11417,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^g`a^gaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^g`a^g',
       'form' => '`a^g`a^gaT',
       'lines' => [
@@ -12593,11 +11439,7 @@ $Lexicon = {
   ],
   '`u.smAnl' => [
     {
-      'types' => {
-        '`u.smAnliyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => '`u.smAnl',
       'form' => '`u.smAnliyy',
       'lines' => [
@@ -12623,8 +11465,7 @@ $Lexicon = {
       'types' => {
         '`alqim' => {
           'IV_yu' => 1
-        },
-        '`alqam' => {}
+        }
       },
       'entry' => '`alqam',
       'form' => '`alqam',
@@ -12649,9 +11490,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`alqam' => {}
-      },
+      'types' => {},
       'entry' => 'ta`alqam',
       'form' => 'ta`alqam',
       'lines' => [
@@ -12671,11 +11510,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`alqamaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`alqam',
       'form' => '`alqamaT',
       'lines' => [
@@ -12697,9 +11532,6 @@ $Lexicon = {
       'types' => {
         '`alAqim' => {
           'Ndip' => 1
-        },
-        '`alqam' => {
-          'N' => 1
         }
       },
       'entry' => '`alqam',
@@ -12728,11 +11560,7 @@ $Lexicon = {
   ],
   '` .s y' => [
     {
-      'types' => {
-        '`a.sAyaT' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.sAy',
       'form' => '`a.sAyaT',
       'lines' => [
@@ -12754,11 +11582,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u.sayyaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u.sayy',
       'form' => '`u.sayyaT',
       'lines' => [
@@ -12781,7 +11605,6 @@ $Lexicon = {
         '`a.say' => {
           'PV_Atn' => 1
         },
-        '`a.sY' => {},
         '`.sY' => {
           'IV_0_Pass_yu' => 1
         },
@@ -12822,6 +11645,9 @@ $Lexicon = {
         ],
         '`.siy' => [
           'FCI'
+        ],
+        '`a.s' => [
+          'FaC'
         ]
       },
       'index' => '1',
@@ -12848,7 +11674,6 @@ $Lexicon = {
         '`A.sA' => {
           'PV_h' => 1
         },
-        '`A.sY' => {},
         '`A.say' => {
           'PV_Atn' => 1,
           'IV_Ann_Pass_yu' => 1
@@ -12901,8 +11726,7 @@ $Lexicon = {
         'ta`a.s.s' => {
           'PV_ttAw_intr' => 1,
           'IV_0hwnyn' => 1
-        },
-        'ta`a.s.sY' => {}
+        }
       },
       'entry' => 'ta`a.s.sY',
       'form' => 'ta`a.s.sY',
@@ -12932,7 +11756,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ta`A.sY' => {},
         'ta`A.s' => {
           'PV_ttAw_intr' => 1,
           'IV_0hwnyn' => 1
@@ -12991,7 +11814,6 @@ $Lexicon = {
         'i`ta.s' => {
           'PV_ttAw_intr' => 2
         },
-        'i`ta.sY' => {},
         '`ta.siy' => {
           'IV_0hAnn' => 1
         }
@@ -13038,7 +11860,6 @@ $Lexicon = {
         'ista`.say' => {
           'PV_Atn' => 2
         },
-        'ista`.sY' => {},
         'sta`.sY' => {
           'IV_0_Pass_yu' => 1
         },
@@ -13094,9 +11915,6 @@ $Lexicon = {
           'Nh' => 2,
           'Nhy' => 2,
           'N0_Nh' => 2
-        },
-        '`a.siyy' => {
-          'Nall' => 1
         }
       },
       'entry' => '`a.siyy',
@@ -13130,11 +11948,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i.syAn' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i.syAn',
       'form' => '`i.syAn',
       'lines' => [
@@ -13155,9 +11969,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ma`.siyaT' => {
-          'Nap' => 1
-        },
         'ma`A.siy' => {
           'N0_Nh' => 1
         }
@@ -13188,11 +11999,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`.siyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`.siy',
       'form' => 'ma`.siyaT',
       'lines' => [
@@ -13214,10 +12021,7 @@ $Lexicon = {
     {
       'types' => {
         'isti`.sA\'' => {
-          'NAt' => 2,
-          'Nh' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti`.sA\'',
@@ -13233,7 +12037,11 @@ $Lexicon = {
         '<stESA\' {isotiEoSA\'     NAt     obstinacy;difficulty',
         'AstESA\' {isotiEoSA\'     NAt     obstinacy;difficulty'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'isti`.sA\'' => [
+          'IstiFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCA\'',
@@ -13248,12 +12056,7 @@ $Lexicon = {
     {
       'types' => {
         'isti`.sA\'' => {
-          'NAt' => 2,
-          'Nh' => 2,
-          'Nayn' => 2,
-          'NAn_Nayn' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti`.sA\'',
@@ -13273,7 +12076,11 @@ $Lexicon = {
         '<stESA\' {isotiEoSA\'     NAt     failures;malfunctions',
         'AstESA\' {isotiEoSA\'     NAt     failures;malfunctions'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'isti`.sA\'' => [
+          'IstiFCA\''
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'IstiFCA\'',
@@ -13290,9 +12097,7 @@ $Lexicon = {
     {
       'types' => {
         '`A.siy' => {
-          'NapAt' => 1,
-          'NAn_Nayn' => 1,
-          'N0F' => 1
+          'NapAt' => 1
         },
         '`u.sY' => {
           'Nap' => 1
@@ -13313,6 +12118,9 @@ $Lexicon = {
         'ESA     EuSA    Nap     rebellious;insubordinate'
       ],
       'patterns' => {
+        '`A.siy' => [
+          'FACI'
+        ],
         '`u.sY' => [
           'FuCY'
         ]
@@ -13329,11 +12137,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A.siy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A.siy',
       'form' => '`A.siy',
       'lines' => [
@@ -13352,11 +12156,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A.siy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A.siy',
       'form' => '`A.siy',
       'lines' => [
@@ -13380,9 +12180,7 @@ $Lexicon = {
           'Nuwn_Niyn' => 1
         },
         'muta`a.s.siy' => {
-          'N0F_Nh' => 1,
-          'NapAt' => 1,
-          'NAn_Nayn' => 1
+          'NapAt' => 1
         }
       },
       'entry' => 'muta`a.s.siy',
@@ -13395,7 +12193,11 @@ $Lexicon = {
         'mtES    mutaEaS~        Nuwn_Niyn       difficult;incurable',
         'mtESy   mutaEaS~iy      NapAt   difficult;incurable'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'muta`a.s.siy' => [
+          'MutaFaCCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MutaFaCCI',
@@ -13410,9 +12212,7 @@ $Lexicon = {
     {
       'types' => {
         'musta`.siy' => {
-          'N0F_Nh' => 1,
-          'NapAt' => 1,
-          'NAn_Nayn' => 1
+          'NapAt' => 1
         },
         'musta`.s' => {
           'Nuwn_Niyn' => 1
@@ -13428,7 +12228,11 @@ $Lexicon = {
         'mstES   musotaEoS       Nuwn_Niyn       difficult;incurable',
         'mstESy  musotaEoSiy     NapAt   difficult;incurable'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'musta`.siy' => [
+          'MustaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MustaFCI',
@@ -13443,13 +12247,7 @@ $Lexicon = {
   ],
   '` f \'' => [
     {
-      'types' => {
-        '`afA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`afA\'',
       'form' => '`afA\'',
       'lines' => [
@@ -13473,12 +12271,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`fA\'' => {
-          'NAt' => 2,
-          'Nh' => 2,
-          'Nayn' => 2,
-          'NAn_Nayn' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`fA\'',
@@ -13498,7 +12291,12 @@ $Lexicon = {
         'AEfA}   <iEofA} Nayn    exemption;discharge;exoneration',
         'AEfA\'   <iEofA\' NAt     exemption;discharge;exoneration'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`fA\'' => [
+          'HiFCAL',
+          'HiFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -13514,12 +12312,7 @@ $Lexicon = {
     {
       'types' => {
         'isti`fA\'' => {
-          'NAt' => 2,
-          'Nh' => 2,
-          'Nayn' => 2,
-          'NAn_Nayn' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti`fA\'',
@@ -13539,7 +12332,12 @@ $Lexicon = {
         '<stEfA\' {isotiEofA\'     NAt     apologies;resignations',
         'AstEfA\' {isotiEofA\'     NAt     apologies;resignations'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'isti`fA\'' => [
+          'IstiFCAL',
+          'IstiFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCAL',
@@ -13556,11 +12354,7 @@ $Lexicon = {
   ],
   '`abdAlnab' => [
     {
-      'types' => {
-        '`abdAlnabiyy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlnab',
       'form' => '`abdAlnabiyy',
       'lines' => [
@@ -13605,7 +12399,6 @@ $Lexicon = {
         '`.da.d' => {
           'IV_C' => 1
         },
-        '`a.d.d' => {},
         '`a.di.d' => {
           'PV_C' => 1
         }
@@ -13644,8 +12437,7 @@ $Lexicon = {
       'types' => {
         '`a.d.di.d' => {
           'IV_yu' => 1
-        },
-        '`a.d.da.d' => {}
+        }
       },
       'entry' => '`a.d.da.d',
       'form' => '`a.d.da.d',
@@ -13670,11 +12462,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.d.d' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.d.d',
       'form' => '`a.d.d',
       'lines' => [
@@ -13693,11 +12481,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.diy.d' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.diy.d',
       'form' => '`a.diy.d',
       'lines' => [
@@ -13719,9 +12503,6 @@ $Lexicon = {
       'types' => {
         '`a.d.d' => {
           'NAt' => 1
-        },
-        '`a.d.daT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`a.d.d',
@@ -13748,11 +12529,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.d.dA.d' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.d.dA.d',
       'form' => '`a.d.dA.d',
       'lines' => [
@@ -13772,11 +12549,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.duw.d' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.duw.d',
       'form' => '`a.duw.d',
       'lines' => [
@@ -13801,9 +12574,6 @@ $Lexicon = {
       'types' => {
         '`awAhil' => {
           'Ndip' => 1
-        },
-        '`Ahil' => {
-          'Ndu' => 1
         },
         '`uhhAl' => {
           'N' => 1
@@ -13841,11 +12611,7 @@ $Lexicon = {
   ],
   '` f .s' => [
     {
-      'types' => {
-        '`af.s' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`af.s',
       'form' => '`af.s',
       'lines' => [
@@ -13865,11 +12631,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`afi.s' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`afi.s',
       'form' => '`afi.s',
       'lines' => [
@@ -13889,11 +12651,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ufuw.saT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ufuw.s',
       'form' => '`ufuw.saT',
       'lines' => [
@@ -13915,11 +12673,7 @@ $Lexicon = {
   ],
   '`abdAlsamiy`' => [
     {
-      'types' => {
-        '`abdAlsamiy`' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlsamiy`',
       'form' => '`abdAlsamiy`',
       'lines' => [
@@ -13940,11 +12694,7 @@ $Lexicon = {
   ],
   '`immAnuw\'iyl' => [
     {
-      'types' => {
-        '`immAnuw\'iyl' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`immAnuw\'iyl',
       'form' => '`immAnuw\'iyl',
       'lines' => [
@@ -13965,11 +12715,7 @@ $Lexicon = {
   ],
   '`abAdAn' => [
     {
-      'types' => {
-        '`abAdAn' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abAdAn',
       'form' => '`abAdAn',
       'lines' => [
@@ -13990,11 +12736,7 @@ $Lexicon = {
   ],
   '`abdAlsattAr' => [
     {
-      'types' => {
-        '`abdAlsattAr' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlsattAr',
       'form' => '`abdAlsattAr',
       'lines' => [
@@ -14015,11 +12757,7 @@ $Lexicon = {
   ],
   '`abdAl.sAdiq' => [
     {
-      'types' => {
-        '`abdAl.sAdiq' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.sAdiq',
       'form' => '`abdAl.sAdiq',
       'lines' => [
@@ -14040,11 +12778,7 @@ $Lexicon = {
   ],
   '`abdAldA\'im' => [
     {
-      'types' => {
-        '`abdAldA\'im' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAldA\'im',
       'form' => '`abdAldA\'im',
       'lines' => [
@@ -14065,11 +12799,7 @@ $Lexicon = {
   ],
   '`abdAlbAqiy' => [
     {
-      'types' => {
-        '`abdAlbAqiy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlbAqiy',
       'form' => '`abdAlbAqiy',
       'lines' => [
@@ -14090,11 +12820,7 @@ $Lexicon = {
   ],
   '`abdAlmalAk' => [
     {
-      'types' => {
-        '`abdAlmalAk' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmalAk',
       'form' => '`abdAlmalAk',
       'lines' => [
@@ -14115,11 +12841,7 @@ $Lexicon = {
   ],
   '`abdAl.hakam' => [
     {
-      'types' => {
-        '`abdAl.hakam' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.hakam',
       'form' => '`abdAl.hakam',
       'lines' => [
@@ -14140,11 +12862,7 @@ $Lexicon = {
   ],
   '`abdAlsAtir' => [
     {
-      'types' => {
-        '`abdAlsAtir' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlsAtir',
       'form' => '`abdAlsAtir',
       'lines' => [
@@ -14168,8 +12886,7 @@ $Lexicon = {
       'types' => {
         '`antir' => {
           'IV_intr_yu' => 1
-        },
-        '`antar' => {}
+        }
       },
       'entry' => '`antar',
       'form' => '`antar',
@@ -14194,9 +12911,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`antar' => {}
-      },
+      'types' => {},
       'entry' => 'ta`antar',
       'form' => 'ta`antar',
       'lines' => [
@@ -14218,11 +12933,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`antaraT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`antar',
       'form' => '`antaraT',
       'lines' => [
@@ -14242,11 +12953,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`antaraT' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`antar',
       'form' => '`antaraT',
       'lines' => [
@@ -14265,11 +12972,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`antar' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`antar',
       'form' => '`antar',
       'lines' => [
@@ -14289,11 +12992,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`antar' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`antar',
       'form' => '`antar',
       'lines' => [
@@ -14312,11 +13011,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`antariyyaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`antar',
       'form' => '`antariyyaT',
       'lines' => [
@@ -14348,7 +13043,11 @@ $Lexicon = {
         ';; taEanotur_1',
         'tEntr   taEanotur       N/At    boasting;swaggering'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`antur' => [
+          'TaKaRDuS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaKaRDuS',
@@ -14361,11 +13060,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`antir' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`antir',
       'form' => 'muta`antir',
       'lines' => [
@@ -14387,9 +13082,6 @@ $Lexicon = {
   '` _t n n' => [
     {
       'types' => {
-        '`u_tnuwn' => {
-          'Ndu' => 1
-        },
         '`a_tAniyn' => {
           'Ndip' => 1
         }
@@ -14425,8 +13117,7 @@ $Lexicon = {
         },
         '`.sa.s' => {
           'IV_C' => 1
-        },
-        '`a.s.s' => {}
+        }
       },
       'entry' => '`a.s.s',
       'form' => '`a.s.s',
@@ -14462,9 +13153,6 @@ $Lexicon = {
       'types' => {
         '`a.sa.s' => {
           'N' => 1
-        },
-        '`a.s.s' => {
-          'N' => 1
         }
       },
       'entry' => '`a.s.s',
@@ -14490,11 +13178,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u.sa.s' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u.sa.s',
       'form' => '`u.sa.s',
       'lines' => [
@@ -14516,9 +13200,6 @@ $Lexicon = {
       'types' => {
         '`a.sA' => {
           'N0_Nhy' => 1
-        },
-        '`a.saN' => {
-          'FW-WaBi' => 1
         },
         '`a.saw' => {
           'NAt' => 1,
@@ -14555,12 +13236,31 @@ $Lexicon = {
       ],
       'orig' => 'EaSAF',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '`u.s',
+      'form' => '`u.sawiyy',
+      'lines' => [
+        ';; EuSawiy~_1',
+        'ESwy    EuSawiy~        Nall    bacillary;tubercular     [[EuSawiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuL |<< "awIy"',
+      'suffix' => ' |<< "awIy"',
+      'glosses' => [
+        'bacillary',
+        'tubercular'
+      ],
+      'orig' => 'EuSawiy~',
+      'prefix' => ''
     }
   ],
   '` r s' => [
     {
       'types' => {
-        '`arras' => {},
         '`arris' => {
           'IV_yu' => 1
         }
@@ -14589,7 +13289,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`ras' => {},
         '`ras' => {
           'IV_Pass_yu' => 1
         },
@@ -14632,9 +13331,6 @@ $Lexicon = {
         },
         '\'a`rAs' => {
           'N' => 2
-        },
-        '`urs' => {
-          'N' => 1
         }
       },
       'entry' => '`urs',
@@ -14666,11 +13362,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ursiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`urs',
       'form' => '`ursiyy',
       'lines' => [
@@ -14691,11 +13383,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`aruws' => {
-          'N' => 1,
-          'NAn_Nayn' => 1,
-          'Napdu' => 1
-        },
         '`arA\'is' => {
           'Ndip' => 1
         }
@@ -14728,9 +13415,6 @@ $Lexicon = {
       'types' => {
         '`ursAn' => {
           'N' => 1
-        },
-        '`ariys' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`ariys',
@@ -14759,11 +13443,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`irriys' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`irriys',
       'form' => '`irriys',
       'lines' => [
@@ -14793,7 +13473,11 @@ $Lexicon = {
         ';; taEoriys_1',
         'tErys   taEoriys        N/At    wedding feast'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`riys' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -14817,7 +13501,11 @@ $Lexicon = {
         '<ErAs   <iEorAs N/At    wedding feast',
         'AErAs   <iEorAs N/At    wedding feast'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`rAs' => [
+          'HiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -14834,8 +13522,7 @@ $Lexicon = {
       'types' => {
         '`laq' => {
           'IV_intr' => 1
-        },
-        '`aliq' => {}
+        }
       },
       'entry' => '`aliq',
       'form' => '`aliq',
@@ -14866,8 +13553,7 @@ $Lexicon = {
       'types' => {
         '`alliq' => {
           'IV_yu' => 1
-        },
-        '`allaq' => {}
+        }
       },
       'entry' => '`allaq',
       'form' => '`allaq',
@@ -14892,9 +13578,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`allaq' => {}
-      },
+      'types' => {},
       'entry' => 'ta`allaq',
       'form' => 'ta`allaq',
       'lines' => [
@@ -14915,11 +13599,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`alaqaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`alaq',
       'form' => '`alaqaT',
       'lines' => [
@@ -14938,11 +13618,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aliyq' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aliyq',
       'form' => '`aliyq',
       'lines' => [
@@ -14962,11 +13638,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`allAq' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`allAq',
       'form' => '`allAq',
       'lines' => [
@@ -14985,11 +13657,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aluwq' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aluwq',
       'form' => '`aluwq',
       'lines' => [
@@ -15009,11 +13677,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`alAqiyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`alAq',
       'form' => '`alAqiyy',
       'lines' => [
@@ -15038,9 +13702,6 @@ $Lexicon = {
         },
         '`alA\'iq' => {
           'Ndip' => 1
-        },
-        '`alAqaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`alAq',
@@ -15078,9 +13739,6 @@ $Lexicon = {
       'types' => {
         'ma`Aliyq' => {
           'Ndip' => 1
-        },
-        'mi`lAq' => {
-          'N' => 1
         }
       },
       'entry' => 'mi`lAq',
@@ -15109,8 +13767,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`liyq' => {
-          'NAt' => 1,
-          'Ndu' => 1
+          'NAt' => 1
         },
         'ta`Aliyq' => {
           'Ndip' => 1
@@ -15125,6 +13782,9 @@ $Lexicon = {
         'tEAlyq  taEAliyq        Ndip    commentaries;remarks'
       ],
       'patterns' => {
+        'ta`liyq' => [
+          'TaFCIL'
+        ],
         'ta`Aliyq' => [
           'TaFACIL'
         ]
@@ -15145,11 +13805,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`liyq' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`liyq',
       'form' => 'ta`liyq',
       'lines' => [
@@ -15168,11 +13824,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`liyqaT' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`liyq',
       'form' => 'ta`liyqaT',
       'lines' => [
@@ -15203,7 +13855,11 @@ $Lexicon = {
         ';; taEal~uq_1',
         'tElq    taEal~uq        N/At    connection;relationship'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`alluq' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -15216,11 +13872,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Aliq' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Aliq',
       'form' => '`Aliq',
       'lines' => [
@@ -15241,12 +13893,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`alliq' => {
-          'NF' => 1,
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`alliq',
       'form' => 'mu`alliq',
       'lines' => [
@@ -15267,11 +13914,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`allaq' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`allaq',
       'form' => 'mu`allaq',
       'lines' => [
@@ -15294,8 +13937,7 @@ $Lexicon = {
       'types' => {
         'mu`allaq' => {
           'NAt' => 1
-        },
-        'mu`allaqAt' => {}
+        }
       },
       'entry' => 'mu`allaq',
       'form' => 'mu`allaqAt',
@@ -15319,11 +13961,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`alliq' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`alliq',
       'form' => 'muta`alliq',
       'lines' => [
@@ -15349,9 +13987,6 @@ $Lexicon = {
       'types' => {
         'ya`Afiyr' => {
           'Ndip' => 1
-        },
-        'ya`fuwr' => {
-          'Ndu' => 1
         }
       },
       'entry' => 'ya`fuwr',
@@ -15376,11 +14011,7 @@ $Lexicon = {
   ],
   '` ^g f' => [
     {
-      'types' => {
-        '`a^gaf' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^gaf',
       'form' => '`a^gaf',
       'lines' => [
@@ -15402,9 +14033,6 @@ $Lexicon = {
       'types' => {
         '`a^gfA' => {
           'Nhy' => 1
-        },
-        '`a^giyf' => {
-          'N/ap' => 1
         },
         '`a^gfY' => {
           'N0' => 1
@@ -15443,9 +14071,6 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
-        },
-        '\'a`^gaf' => {
-          'Nel' => 2
         }
       },
       'entry' => '\'a`^gaf',
@@ -15481,11 +14106,7 @@ $Lexicon = {
   ],
   '`ubaydAllh' => [
     {
-      'types' => {
-        '`ubaydAllh' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ubaydAllh',
       'form' => '`ubaydAllh',
       'lines' => [
@@ -15509,11 +14130,7 @@ $Lexicon = {
   ],
   '`abdAlra\'uwf' => [
     {
-      'types' => {
-        '`abdAlra\'uwf' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlra\'uwf',
       'form' => '`abdAlra\'uwf',
       'lines' => [
@@ -15537,8 +14154,7 @@ $Lexicon = {
       'types' => {
         '`wa.s' => {
           'IV_intr' => 1
-        },
-        '`awi.s' => {}
+        }
       },
       'entry' => '`awi.s',
       'form' => '`awi.s',
@@ -15570,8 +14186,7 @@ $Lexicon = {
       'types' => {
         '`tawi.s' => {
           'IV_intr' => 1
-        },
-        'i`tawa.s' => {}
+        }
       },
       'entry' => 'i`tawa.s',
       'form' => 'i`tawa.s',
@@ -15605,7 +14220,6 @@ $Lexicon = {
         '`ta.s' => {
           'IV_C_intr' => 1
         },
-        'i`tA.s' => {},
         'i`ta.s' => {
           'PV_C_intr' => 2
         }
@@ -15644,11 +14258,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awiy.s' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awiy.s',
       'form' => '`awiy.s',
       'lines' => [
@@ -15668,11 +14278,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`wa.s' => {
-          'Nel' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`wa.s',
       'form' => '\'a`wa.s',
       'lines' => [
@@ -15705,7 +14311,11 @@ $Lexicon = {
         '<EtyAS  {iEotiyAS       N/At    difficulty;intractability',
         'AEtyAS  {iEotiyAS       N/At    difficulty;intractability'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tiyA.s' => [
+          'IFtiyAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiyAL',
@@ -15727,8 +14337,7 @@ $Lexicon = {
         '`uz' => {
           'PV_C' => 1,
           'IV_C' => 1
-        },
-        '`Az' => {}
+        }
       },
       'entry' => '`Az',
       'form' => '`Az',
@@ -15763,7 +14372,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`awiz' => {},
         '`waz' => {
           'IV_intr' => 1
         }
@@ -15795,7 +14403,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`waz' => {},
         '`wiz' => {
           'IV_intr_yu' => 1
         }
@@ -15826,11 +14433,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awaz' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awaz',
       'form' => '`awaz',
       'lines' => [
@@ -15850,11 +14453,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`AzaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Az',
       'form' => '`AzaT',
       'lines' => [
@@ -15874,11 +14473,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awiz' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awiz',
       'form' => '`awiz',
       'lines' => [
@@ -15901,9 +14496,6 @@ $Lexicon = {
       'types' => {
         '\'a`Awiyz' => {
           'Ndip' => 2
-        },
-        '\'a`waz' => {
-          'Nel' => 2
         }
       },
       'entry' => '\'a`waz',
@@ -15944,7 +14536,11 @@ $Lexicon = {
         '<EwAz   <iEowAz N/At    destitution;need',
         'AEwAz   <iEowAz N/At    destitution;need'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`wAz' => [
+          'HiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -15957,11 +14553,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A\'iz' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A\'iz',
       'form' => '`A\'iz',
       'lines' => [
@@ -15983,9 +14575,6 @@ $Lexicon = {
     {
       'types' => {
         '`Ayiz' => {
-          'Nall' => 1
-        },
-        '`Awiz' => {
           'Nall' => 1
         }
       },
@@ -16009,11 +14598,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`wiz' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`wiz',
       'form' => 'mu`wiz',
       'lines' => [
@@ -16038,8 +14623,7 @@ $Lexicon = {
       'types' => {
         '`had' => {
           'IV' => 1
-        },
-        '`ahid' => {}
+        }
       },
       'entry' => '`ahid',
       'form' => '`ahid',
@@ -16070,7 +14654,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`Ahad' => {},
         '`Ahid' => {
           'IV_yu' => 1
         }
@@ -16099,9 +14682,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`ahhad' => {}
-      },
+      'types' => {},
       'entry' => 'ta`ahhad',
       'form' => 'ta`ahhad',
       'lines' => [
@@ -16122,9 +14703,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Ahad' => {}
-      },
+      'types' => {},
       'entry' => 'ta`Ahad',
       'form' => 'ta`Ahad',
       'lines' => [
@@ -16147,8 +14726,7 @@ $Lexicon = {
       'types' => {
         'sta`hid' => {
           'IV' => 1
-        },
-        'ista`had' => {}
+        }
       },
       'entry' => 'ista`had',
       'form' => 'ista`had',
@@ -16170,11 +14748,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ahd' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ahd',
       'form' => '`ahd',
       'lines' => [
@@ -16197,9 +14771,6 @@ $Lexicon = {
       'types' => {
         '`uhuwd' => {
           'N' => 1
-        },
-        '`ahd' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`ahd',
@@ -16229,9 +14800,6 @@ $Lexicon = {
       'types' => {
         '`uhuwd' => {
           'N' => 1
-        },
-        '`ahd' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`ahd',
@@ -16260,11 +14828,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ahd' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ahd',
       'form' => '`ahd',
       'lines' => [
@@ -16284,11 +14848,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uhdaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uhd',
       'form' => '`uhdaT',
       'lines' => [
@@ -16308,11 +14868,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ahiyd' => {
-          'N/ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ahiyd',
       'form' => '`ahiyd',
       'lines' => [
@@ -16335,9 +14891,6 @@ $Lexicon = {
       'types' => {
         'ma`Ahid' => {
           'Ndip' => 1
-        },
-        'ma`had' => {
-          'Ndu' => 1
         }
       },
       'entry' => 'ma`had',
@@ -16367,9 +14920,6 @@ $Lexicon = {
       'types' => {
         'mu`Ahad' => {
           'NAt' => 1
-        },
-        'mu`AhadaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => 'mu`Ahad',
@@ -16402,8 +14952,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`ahhud' => {
-          'NAt' => 1,
-          'N' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`ahhud',
@@ -16413,7 +14962,11 @@ $Lexicon = {
         'tEhd    taEah~ud        N       responsibility;commitment;obligation',
         'tEhd    taEah~ud        NAt     responsibilities;commitments;obligations'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`ahhud' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -16430,11 +14983,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`huwd' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`huwd',
       'form' => 'ma`huwd',
       'lines' => [
@@ -16455,11 +15004,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`ahhid' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`ahhid',
       'form' => 'muta`ahhid',
       'lines' => [
@@ -16479,11 +15024,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`Ahid' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`Ahid',
       'form' => 'muta`Ahid',
       'lines' => [
@@ -16507,8 +15048,7 @@ $Lexicon = {
       'types' => {
         '`kis' => {
           'IV' => 1
-        },
-        '`akas' => {}
+        }
       },
       'entry' => '`akas',
       'form' => '`akas',
@@ -16538,7 +15078,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`Akas' => {},
         '`Akis' => {
           'IV_yu' => 1
         }
@@ -16572,9 +15111,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Akas' => {}
-      },
+      'types' => {},
       'entry' => 'ta`Akas',
       'form' => 'ta`Akas',
       'lines' => [
@@ -16596,7 +15133,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'in`akas' => {},
         'n`akis' => {
           'IV_intr' => 1
         }
@@ -16626,11 +15162,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aks' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aks',
       'form' => '`aks',
       'lines' => [
@@ -16650,11 +15182,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aksiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aks',
       'form' => '`aksiyy',
       'lines' => [
@@ -16674,11 +15202,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`akiys' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`akiys',
       'form' => '`akiys',
       'lines' => [
@@ -16697,11 +15221,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`AkasaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Akas',
       'form' => 'mu`AkasaT',
       'lines' => [
@@ -16733,7 +15253,11 @@ $Lexicon = {
         '<nEkAs  {inoEikAs       NduAt   reflection;inversion;repercussion',
         'AnEkAs  {inoEikAs       NduAt   reflection;inversion;repercussion'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'in`ikAs' => [
+          'InFiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'InFiCAL',
@@ -16747,11 +15271,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'in`ikAsiyy' => {
-          'N-ap' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'in`ikAs',
       'form' => 'in`ikAsiyy',
       'lines' => [
@@ -16783,7 +15303,11 @@ $Lexicon = {
         ';; EAkis_1',
         'EAks    EAkis   NduAt   reflector'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '`Akis' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -16795,11 +15319,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`AkisaT' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Akis',
       'form' => '`AkisaT',
       'lines' => [
@@ -16818,11 +15338,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Akis' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Akis',
       'form' => 'mu`Akis',
       'lines' => [
@@ -16842,11 +15358,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Akis' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Akis',
       'form' => 'mu`Akis',
       'lines' => [
@@ -16866,11 +15378,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`Akis' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`Akis',
       'form' => 'muta`Akis',
       'lines' => [
@@ -16890,11 +15398,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mun`akis' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mun`akis',
       'form' => 'mun`akis',
       'lines' => [
@@ -16915,8 +15419,7 @@ $Lexicon = {
     {
       'types' => {
         'mun`akas' => {
-          'NAt' => 1,
-          'N' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'mun`akas',
@@ -16926,7 +15429,11 @@ $Lexicon = {
         'mnEks   munoEakas       N       reflex',
         'mnEks   munoEakas       NAt     reflexes'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mun`akas' => [
+          'MunFaCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MunFaCaL',
@@ -16939,11 +15446,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`akuws' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`akuws',
       'form' => '`akuws',
       'lines' => [
@@ -16962,11 +15465,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ukuwsiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ukuws',
       'form' => '`ukuwsiyyaT',
       'lines' => [
@@ -16985,11 +15484,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`kuws' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`kuws',
       'form' => 'ma`kuws',
       'lines' => [
@@ -17010,11 +15505,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`kuwsiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`kuws',
       'form' => 'ma`kuwsiyyaT',
       'lines' => [
@@ -17038,8 +15529,7 @@ $Lexicon = {
       'types' => {
         '`mah' => {
           'IV' => 1
-        },
-        '`amih' => {}
+        }
       },
       'entry' => '`amih',
       'form' => '`amih',
@@ -17068,11 +15558,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`amah' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amah',
       'form' => '`amah',
       'lines' => [
@@ -17092,11 +15578,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`amih' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amih',
       'form' => '`amih',
       'lines' => [
@@ -17119,11 +15601,7 @@ $Lexicon = {
   ],
   '`abdAl\'amiyr' => [
     {
-      'types' => {
-        '`abdAl\'amiyr' => {
-          'Nprop' => 2
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl\'amiyr',
       'form' => '`abdAl\'amiyr',
       'lines' => [
@@ -17145,9 +15623,7 @@ $Lexicon = {
   ],
   '` n f .s' => [
     {
-      'types' => {
-        'ta`anfa.s' => {}
-      },
+      'types' => {},
       'entry' => 'ta`anfa.s',
       'form' => 'ta`anfa.s',
       'lines' => [
@@ -17167,11 +15643,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`anfa.s' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`anfa.s',
       'form' => '`anfa.s',
       'lines' => [
@@ -17201,7 +15673,11 @@ $Lexicon = {
         ';; taEanofuS_1',
         'tEnfS   taEanofuS       N/At    boasting'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`anfu.s' => [
+          'TaKaRDuS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaKaRDuS',
@@ -17213,11 +15689,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`anfi.s' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`anfi.s',
       'form' => 'muta`anfi.s',
       'lines' => [
@@ -17251,8 +15723,7 @@ $Lexicon = {
         },
         '`a^saw' => {
           'PV_Atn' => 1
-        },
-        '`a^sA' => {}
+        }
       },
       'entry' => '`a^sA',
       'form' => '`a^sA',
@@ -17265,6 +15736,9 @@ $Lexicon = {
         'E$      Eo$     IV_0hwnyn       be night-blind'
       ],
       'patterns' => {
+        '`a^s' => [
+          'FaC'
+        ],
         '`a^saw' => [
           'FaCaL'
         ],
@@ -17287,7 +15761,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a^siy' => {},
         '`a^s' => {
           'PV_w_intr' => 1
         },
@@ -17312,6 +15785,9 @@ $Lexicon = {
         'E$      Eo$a    IV_0hwnyn       be night-blind'
       ],
       'patterns' => {
+        '`a^s' => [
+          'FaC'
+        ],
         '`^sY' => [
           'FCY'
         ]
@@ -17335,7 +15811,6 @@ $Lexicon = {
           'IV_0hwnyn_yu' => 1,
           'PV_ttAw' => 1
         },
-        '`a^s^sY' => {},
         '`a^s^say' => {
           'PV_Atn' => 1,
           'IV_Ann_Pass_yu' => 1
@@ -17393,7 +15868,6 @@ $Lexicon = {
         '`^sY' => {
           'IV_0_Pass_yu' => 1
         },
-        '\'a`^sY' => {},
         '`^siy' => {
           'IV_0hAnn_yu' => 1
         },
@@ -17446,8 +15920,7 @@ $Lexicon = {
         'ta`a^s^s' => {
           'IV_0hwnyn' => 1,
           'PV_ttAw' => 1
-        },
-        'ta`a^s^sY' => {}
+        }
       },
       'entry' => 'ta`a^s^sY',
       'form' => 'ta`a^s^sY',
@@ -17475,9 +15948,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a^sY' => {
-          'N0' => 1
-        },
         '`a^sA' => {
           'Nhy' => 1
         }
@@ -17505,11 +15975,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^swaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^sw',
       'form' => '`a^swaT',
       'lines' => [
@@ -17529,11 +15995,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^sAwaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^sAw',
       'form' => '`a^sAwaT',
       'lines' => [
@@ -17553,13 +16015,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^swA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^swA\'',
       'form' => '`a^swA\'',
       'lines' => [
@@ -17581,11 +16037,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^swA\'iyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^swA\'',
       'form' => '`a^swA\'iyy',
       'lines' => [
@@ -17637,14 +16089,8 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`^say' => {
-          'NAn_Nayn' => 2
-        },
         '\'a`^sA' => {
           'Nhy' => 2
-        },
-        '\'a`^sY' => {
-          'N0' => 2
         }
       },
       'entry' => '\'a`^sY',
@@ -17673,7 +16119,6 @@ $Lexicon = {
   '` l m n' => [
     {
       'types' => {
-        '`alman' => {},
         '`almin' => {
           'IV-n_yu' => 1
         }
@@ -17701,9 +16146,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`alman' => {}
-      },
+      'types' => {},
       'entry' => 'ta`alman',
       'form' => 'ta`alman',
       'lines' => [
@@ -17723,11 +16166,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`almanaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`alman',
       'form' => '`almanaT',
       'lines' => [
@@ -17746,11 +16185,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ilmAniyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ilmAn',
       'form' => '`ilmAniyy',
       'lines' => [
@@ -17769,11 +16204,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ilmAniyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ilmAn',
       'form' => '`ilmAniyyaT',
       'lines' => [
@@ -17794,11 +16225,7 @@ $Lexicon = {
   ],
   '`abdAlqudduws' => [
     {
-      'types' => {
-        '`abdAlqudduws' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlqudduws',
       'form' => '`abdAlqudduws',
       'lines' => [
@@ -17819,11 +16246,7 @@ $Lexicon = {
   ],
   '`AlamAn' => [
     {
-      'types' => {
-        '`AlamAniyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`AlamAn',
       'form' => '`AlamAniyy',
       'lines' => [
@@ -17844,11 +16267,7 @@ $Lexicon = {
   ],
   '`abdAl.hamiyd' => [
     {
-      'types' => {
-        '`abdAl.hamiyd' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.hamiyd',
       'form' => '`abdAl.hamiyd',
       'lines' => [
@@ -17869,11 +16288,7 @@ $Lexicon = {
   ],
   '`abdAlmun`im' => [
     {
-      'types' => {
-        '`abdAlmun`im' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmun`im',
       'form' => '`abdAlmun`im',
       'lines' => [
@@ -17894,11 +16309,7 @@ $Lexicon = {
   ],
   '`abdAl`l' => [
     {
-      'types' => {
-        '`abdAl`liyy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl`l',
       'form' => '`abdAl`liyy',
       'lines' => [
@@ -17920,9 +16331,6 @@ $Lexicon = {
   '` .z y' => [
     {
       'types' => {
-        '`i.zA\'aT' => {
-          'Napdu' => 1
-        },
         '`i.zA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -17956,11 +16364,8 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a.zAyA' => {
+        '`a.zAyY' => {
           'N0_Nhy' => 1
-        },
-        '`i.zAyaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`i.zAy',
@@ -17971,8 +16376,8 @@ $Lexicon = {
         'EZAyA   EaZAyA  N0_Nhy  lizards'
       ],
       'patterns' => {
-        '`a.zAyA' => [
-          'FaCAyA'
+        '`a.zAyY' => [
+          'FaCALY'
         ]
       },
       'index' => '1',
@@ -17990,7 +16395,6 @@ $Lexicon = {
   '` ^s r' => [
     {
       'types' => {
-        '`a^s^sar' => {},
         '`a^s^sir' => {
           'IV_yu' => 1
         }
@@ -18021,8 +16425,7 @@ $Lexicon = {
       'types' => {
         '`A^sir' => {
           'IV_yu' => 1
-        },
-        '`A^sar' => {}
+        }
       },
       'entry' => '`A^sar',
       'form' => '`A^sar',
@@ -18048,9 +16451,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`A^sar' => {}
-      },
+      'types' => {},
       'entry' => 'ta`A^sar',
       'form' => 'ta`A^sar',
       'lines' => [
@@ -18077,9 +16478,6 @@ $Lexicon = {
         },
         '\'a`^sAr' => {
           'N' => 2
-        },
-        '`u^sr' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`u^sr',
@@ -18112,11 +16510,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^sriyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^sr',
       'form' => '`a^sriyy',
       'lines' => [
@@ -18135,11 +16529,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^sriyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^sr',
       'form' => '`a^sriyy',
       'lines' => [
@@ -18161,9 +16551,6 @@ $Lexicon = {
       'types' => {
         '\'a`^sAriyy' => {
           'N-ap' => 2
-        },
-        '`u^sriyy' => {
-          'N-ap' => 1
         }
       },
       'entry' => '`u^sr',
@@ -18186,11 +16573,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i^sraT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i^sr',
       'form' => '`i^sraT',
       'lines' => [
@@ -18211,9 +16594,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a^saraT' => {
-          'Nap' => 1
-        },
         '`a^sr' => {
           'Nap' => 1
         },
@@ -18249,7 +16629,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a^sarAt' => {},
         '`a^sar' => {
           'NAt' => 1
         }
@@ -18278,11 +16657,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u^sAriyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u^sAr',
       'form' => '`u^sAriyy',
       'lines' => [
@@ -18303,9 +16678,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a^siyr' => {
-          'N/ap' => 1
-        },
         '`u^sarA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -18341,9 +16713,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a^siyraT' => {
-          'Napdu' => 1
-        },
         '`a^sA\'ir' => {
           'Ndip' => 1
         }
@@ -18373,9 +16742,6 @@ $Lexicon = {
       'types' => {
         'ma`A^sir' => {
           'Ndip' => 1
-        },
-        'ma`^sar' => {
-          'Ndu' => 1
         }
       },
       'entry' => 'ma`^sar',
@@ -18404,11 +16770,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mi`^sAr' => {
-          'Ndu' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mi`^sAr',
       'form' => 'mi`^sAr',
       'lines' => [
@@ -18439,7 +16801,11 @@ $Lexicon = {
         ';; taEo$iyr_1',
         'tE$yr   taEo$iyr        N/At    increasing tenfold'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`^siyr' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -18451,11 +16817,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`A^saraT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`A^sar',
       'form' => 'mu`A^saraT',
       'lines' => [
@@ -18475,11 +16837,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`A^sir' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`A^sir',
       'form' => 'mu`A^sir',
       'lines' => [
@@ -18499,11 +16857,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A^sir' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A^sir',
       'form' => '`A^sir',
       'lines' => [
@@ -18525,8 +16879,7 @@ $Lexicon = {
       'types' => {
         '`A^sir' => {
           'NF' => 1
-        },
-        '`A^siraN' => {}
+        }
       },
       'entry' => '`A^sir',
       'form' => '`A^siraN',
@@ -18550,11 +16903,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`a^s^sar' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`a^s^sar',
       'form' => 'mu`a^s^sar',
       'lines' => [
@@ -18574,11 +16923,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^suwr' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^suwr',
       'form' => '`a^suwr',
       'lines' => [
@@ -18598,11 +16943,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awA^sir' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awA^sir',
       'form' => '`awA^sir',
       'lines' => [
@@ -18621,11 +16962,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A^suwr' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A^suwr',
       'form' => '`A^suwr',
       'lines' => [
@@ -18646,9 +16983,6 @@ $Lexicon = {
     {
       'types' => {
         '`a^suwrA\'' => {
-          'Ndip' => 1
-        },
-        '`A^suwrA\'' => {
           'Ndip' => 1
         }
       },
@@ -18673,9 +17007,7 @@ $Lexicon = {
   ],
   '` ^g r f' => [
     {
-      'types' => {
-        'ta`a^graf' => {}
-      },
+      'types' => {},
       'entry' => 'ta`a^graf',
       'form' => 'ta`a^graf',
       'lines' => [
@@ -18696,11 +17028,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^grafaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^graf',
       'form' => '`a^grafaT',
       'lines' => [
@@ -18731,7 +17059,11 @@ $Lexicon = {
         ';; taEajoruf_1',
         'tEjrf   taEajoruf       N/At    arrogance'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`a^gruf' => [
+          'TaKaRDuS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaKaRDuS',
@@ -18743,11 +17075,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`a^grif' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`a^grif',
       'form' => 'muta`a^grif',
       'lines' => [
@@ -18775,8 +17103,7 @@ $Lexicon = {
         },
         '`iyl' => {
           'IV_V_intr' => 1
-        },
-        '`Al' => {}
+        }
       },
       'entry' => '`Al',
       'form' => '`Al',
@@ -18810,7 +17137,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`ayyal' => {},
         '`ayyil' => {
           'IV_yu' => 1
         }
@@ -18841,8 +17167,7 @@ $Lexicon = {
       'types' => {
         '`yil' => {
           'IV_yu' => 1
-        },
-        '\'a`yal' => {}
+        }
       },
       'entry' => '\'a`yal',
       'form' => '\'a`yal',
@@ -18868,11 +17193,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ayyil' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ayyil',
       'form' => '`ayyil',
       'lines' => [
@@ -18893,9 +17214,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`iyAl' => {
-          'N' => 1
-        },
         '`Al' => {
           'Nap' => 1
         }
@@ -18923,11 +17241,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`iyl' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`iyl',
       'form' => 'mu`iyl',
       'lines' => [
@@ -18947,11 +17261,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`ayyal' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`ayyal',
       'form' => 'mu`ayyal',
       'lines' => [
@@ -18974,7 +17284,6 @@ $Lexicon = {
   '` k z' => [
     {
       'types' => {
-        '`akaz' => {},
         '`kuz' => {
           'IV' => 1
         }
@@ -19005,9 +17314,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`akkaz' => {}
-      },
+      'types' => {},
       'entry' => 'ta`akkaz',
       'form' => 'ta`akkaz',
       'lines' => [
@@ -19028,11 +17335,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ukkAz' => {
-          'Ndu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ukkAz',
       'form' => '`ukkAz',
       'lines' => [
@@ -19054,9 +17357,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`ukkAzaT' => {
-          'NapAt' => 1
-        },
         '`akAkiyz' => {
           'Ndip' => 1
         }
@@ -19092,8 +17392,7 @@ $Lexicon = {
       'types' => {
         '`qi.s' => {
           'IV' => 1
-        },
-        '`aqa.s' => {}
+        }
       },
       'entry' => '`aqa.s',
       'form' => '`aqa.s',
@@ -19122,11 +17421,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aq.s' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aq.s',
       'form' => '`aq.s',
       'lines' => [
@@ -19147,9 +17442,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`aqiy.saT' => {
-          'Napdu' => 1
-        },
         '`aqA\'i.s' => {
           'Ndip' => 1
         }
@@ -19176,11 +17468,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`quw.s' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`quw.s',
       'form' => 'ma`quw.s',
       'lines' => [
@@ -19211,7 +17499,11 @@ $Lexicon = {
         ';; miEoqaS_1',
         'mEqS    miEoqaS NduAt   curling iron'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mi`qa.s' => [
+          'MiFCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MiFCaL',
@@ -19225,11 +17517,7 @@ $Lexicon = {
   ],
   '`abdAlqY' => [
     {
-      'types' => {
-        '`abdAlqawiyy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlqY',
       'form' => '`abdAlqawiyy',
       'lines' => [
@@ -19250,11 +17538,7 @@ $Lexicon = {
   ],
   '`abdAl.hasiyb' => [
     {
-      'types' => {
-        '`abdAl.hasiyb' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.hasiyb',
       'form' => '`abdAl.hasiyb',
       'lines' => [
@@ -19275,11 +17559,7 @@ $Lexicon = {
   ],
   '` .d w y' => [
     {
-      'types' => {
-        '`u.dwiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u.dwiyy',
       'form' => '`u.dwiyy',
       'lines' => [
@@ -19298,11 +17578,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u.dwiyyaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u.dwiyy',
       'form' => '`u.dwiyyaT',
       'lines' => [
@@ -19325,7 +17601,6 @@ $Lexicon = {
   '` r q b' => [
     {
       'types' => {
-        '`arqab' => {},
         '`arqib' => {
           'IV_yu' => 1
         }
@@ -19354,11 +17629,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`arqabaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arqab',
       'form' => '`arqabaT',
       'lines' => [
@@ -19379,9 +17650,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`urquwb' => {
-          'Ndu' => 1
-        },
         '`arAqiyb' => {
           'Ndip' => 1
         }
@@ -19412,11 +17680,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`urquwb' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`urquwb',
       'form' => '`urquwb',
       'lines' => [
@@ -19435,11 +17699,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`urquwbiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`urquwb',
       'form' => '`urquwbiyy',
       'lines' => [
@@ -19462,11 +17722,7 @@ $Lexicon = {
   ],
   '`abdAl`A.tiy' => [
     {
-      'types' => {
-        '`abdAl`A.tiy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl`A.tiy',
       'form' => '`abdAl`A.tiy',
       'lines' => [
@@ -19487,11 +17743,7 @@ $Lexicon = {
   ],
   '`abdAlll_ah' => [
     {
-      'types' => {
-        '`abdAlll_ah' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlll_ah',
       'form' => '`abdAlll_ah',
       'lines' => [
@@ -19513,9 +17765,6 @@ $Lexicon = {
   '` y s' => [
     {
       'types' => {
-        '\'a`yas' => {
-          'Nel' => 2
-        },
         '`iys' => {
           'N' => 1
         },
@@ -19555,11 +17804,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iysY' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iysY',
       'form' => '`iysY',
       'lines' => [
@@ -19593,11 +17838,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iysY' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iysY',
       'form' => '`iysY',
       'lines' => [
@@ -19630,11 +17871,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iysawiyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => '`iysY',
       'form' => '`iysawiyy',
       'lines' => [
@@ -19673,8 +17910,7 @@ $Lexicon = {
       'types' => {
         '`nat' => {
           'IV' => 1
-        },
-        '`anit' => {}
+        }
       },
       'entry' => '`anit',
       'form' => '`anit',
@@ -19705,8 +17941,7 @@ $Lexicon = {
       'types' => {
         '`annit' => {
           'IV_yu' => 1
-        },
-        '`annat' => {}
+        }
       },
       'entry' => '`annat',
       'form' => '`annat',
@@ -19737,8 +17972,7 @@ $Lexicon = {
         },
         '`nit' => {
           'IV_yu' => 1
-        },
-        '\'a`nat' => {}
+        }
       },
       'entry' => '\'a`nat',
       'form' => '\'a`nat',
@@ -19769,9 +18003,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`annat' => {}
-      },
+      'types' => {},
       'entry' => 'ta`annat',
       'form' => 'ta`annat',
       'lines' => [
@@ -19791,11 +18023,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`anat' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`anat',
       'form' => '`anat',
       'lines' => [
@@ -19826,7 +18054,11 @@ $Lexicon = {
         ';; taEan~ut_1',
         'tEnt    taEan~ut        N/At    obstinacy;stubbornness'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`annut' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -19839,11 +18071,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`annit' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`annit',
       'form' => 'muta`annit',
       'lines' => [
@@ -19865,11 +18093,7 @@ $Lexicon = {
   ],
   '`abdAlwAri_t' => [
     {
-      'types' => {
-        '`abdAlwAri_t' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlwAri_t',
       'form' => '`abdAlwAri_t',
       'lines' => [
@@ -19890,11 +18114,7 @@ $Lexicon = {
   ],
   '`abdAlbAriy' => [
     {
-      'types' => {
-        '`abdAlbAriy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlbAriy',
       'form' => '`abdAlbAriy',
       'lines' => [
@@ -19920,8 +18140,7 @@ $Lexicon = {
           'N' => 1
         },
         '`u_t_t' => {
-          'NapAt' => 1,
-          'N' => 1
+          'NapAt' => 1
         }
       },
       'entry' => '`u_t_t',
@@ -19935,6 +18154,9 @@ $Lexicon = {
       'patterns' => {
         '`u_ta_t' => [
           'FuCaL'
+        ],
+        '`u_t_t' => [
+          'FuCL'
         ]
       },
       'index' => '1',
@@ -19951,11 +18173,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`_tuw_t' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`_tuw_t',
       'form' => 'ma`_tuw_t',
       'lines' => [
@@ -19977,11 +18195,7 @@ $Lexicon = {
   ],
   '`arabs' => [
     {
-      'types' => {
-        '`arabsAt' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arabs',
       'form' => '`arabsAt',
       'lines' => [
@@ -20002,11 +18216,7 @@ $Lexicon = {
   ],
   '`abdAlmaw^guwd' => [
     {
-      'types' => {
-        '`abdAlmaw^guwd' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmaw^guwd',
       'form' => '`abdAlmaw^guwd',
       'lines' => [
@@ -20027,11 +18237,7 @@ $Lexicon = {
   ],
   '`abdAl^gAbir' => [
     {
-      'types' => {
-        '`abdAl^gAbir' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl^gAbir',
       'form' => '`abdAl^gAbir',
       'lines' => [
@@ -20052,11 +18258,7 @@ $Lexicon = {
   ],
   '`abdAlnA.sir' => [
     {
-      'types' => {
-        '`abdAlnA.sir' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlnA.sir',
       'form' => '`abdAlnA.sir',
       'lines' => [
@@ -20078,7 +18280,6 @@ $Lexicon = {
   '` k r' => [
     {
       'types' => {
-        '`akir' => {},
         '`kar' => {
           'IV_intr' => 1
         }
@@ -20113,8 +18314,7 @@ $Lexicon = {
       'types' => {
         '`akkir' => {
           'IV_yu' => 1
-        },
-        '`akkar' => {}
+        }
       },
       'entry' => '`akkar',
       'form' => '`akkar',
@@ -20141,9 +18341,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`akkar' => {}
-      },
+      'types' => {},
       'entry' => 'ta`akkar',
       'form' => 'ta`akkar',
       'lines' => [
@@ -20167,8 +18365,7 @@ $Lexicon = {
       'types' => {
         '`takir' => {
           'IV' => 1
-        },
-        'i`takar' => {}
+        }
       },
       'entry' => 'i`takar',
       'form' => 'i`takar',
@@ -20195,11 +18392,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`akar' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`akar',
       'form' => '`akar',
       'lines' => [
@@ -20219,11 +18412,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`akir' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`akir',
       'form' => '`akir',
       'lines' => [
@@ -20244,11 +18433,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`akAraT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`akAr',
       'form' => '`akAraT',
       'lines' => [
@@ -20279,7 +18464,11 @@ $Lexicon = {
         ';; taEokiyr_1',
         'tEkyr   taEokiyr        N/At    disturbance;perturbation;making turbid'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`kiyr' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -20304,7 +18493,11 @@ $Lexicon = {
         ';; taEak~ur_1',
         'tEkr    taEak~ur        NduAt   deterioration;muddying;disturbing'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`akkur' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -20318,11 +18511,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`akkar' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`akkar',
       'form' => 'mu`akkar',
       'lines' => [
@@ -20343,11 +18532,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`akkir' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`akkir',
       'form' => 'mu`akkir',
       'lines' => [
@@ -20367,11 +18552,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`akkir' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`akkir',
       'form' => 'muta`akkir',
       'lines' => [
@@ -20402,8 +18583,7 @@ $Lexicon = {
         },
         '`raf' => {
           'IV_Pass_yu' => 1
-        },
-        '`araf' => {}
+        }
       },
       'entry' => '`araf',
       'form' => '`araf',
@@ -20441,7 +18621,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`arraf' => {},
         '`arrif' => {
           'IV_yu' => 1
         }
@@ -20469,9 +18648,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`arraf' => {}
-      },
+      'types' => {},
       'entry' => 'ta`arraf',
       'form' => 'ta`arraf',
       'lines' => [
@@ -20495,9 +18672,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Araf' => {}
-      },
+      'types' => {},
       'entry' => 'ta`Araf',
       'form' => 'ta`Araf',
       'lines' => [
@@ -20522,7 +18697,6 @@ $Lexicon = {
         '`taraf' => {
           'IV_Pass_yu' => 1
         },
-        'i`taraf' => {},
         '`tarif' => {
           'IV' => 1
         }
@@ -20565,8 +18739,7 @@ $Lexicon = {
       'types' => {
         'sta`rif' => {
           'IV' => 1
-        },
-        'ista`raf' => {}
+        }
       },
       'entry' => 'ista`raf',
       'form' => 'ista`raf',
@@ -20592,9 +18765,6 @@ $Lexicon = {
       'types' => {
         '\'a`rAf' => {
           'N' => 2
-        },
-        '`urf' => {
-          'N' => 1
         }
       },
       'entry' => '`urf',
@@ -20625,11 +18795,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`urfiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`urf',
       'form' => '`urfiyy',
       'lines' => [
@@ -20651,11 +18817,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`arafaT' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`araf',
       'form' => '`arafaT',
       'lines' => [
@@ -20674,11 +18836,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`arafAt' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`araf',
       'form' => '`arafAt',
       'lines' => [
@@ -20698,9 +18856,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`ariyf' => {
-          'N/ap' => 1
-        },
         '`urafA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -20734,9 +18889,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`ariyf' => {
-          'Ndu' => 1
-        },
         '`urafA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -20771,11 +18923,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`arrAf' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arrAf',
       'form' => '`arrAf',
       'lines' => [
@@ -20794,11 +18942,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`irAfaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`irAf',
       'form' => '`irAfaT',
       'lines' => [
@@ -20817,11 +18961,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`irfAn' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`irfAn',
       'form' => '`irfAn',
       'lines' => [
@@ -20841,11 +18981,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`irfAn' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`irfAn',
       'form' => '`irfAn',
       'lines' => [
@@ -20864,11 +19000,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`raf' => {
-          'Nel' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`raf',
       'form' => '\'a`raf',
       'lines' => [
@@ -20892,9 +19024,6 @@ $Lexicon = {
       'types' => {
         'ma`Arif' => {
           'Ndip' => 1
-        },
-        'ma`rifaT' => {
-          'Nap' => 1
         }
       },
       'entry' => 'ma`rif',
@@ -20924,11 +19053,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`rifiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`rif',
       'form' => 'ma`rifiyy',
       'lines' => [
@@ -20958,7 +19083,11 @@ $Lexicon = {
         ';; taEoriyf_1',
         'tEryf   taEoriyf        N/At    identification;notification'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`riyf' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -20971,11 +19100,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`riyfaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`riyf',
       'form' => 'ta`riyfaT',
       'lines' => [
@@ -20998,9 +19123,6 @@ $Lexicon = {
       'types' => {
         'ta`Ariyf' => {
           'Ndip' => 1
-        },
-        'ta`riyfaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => 'ta`riyf',
@@ -21027,11 +19149,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`riyfiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`riyf',
       'form' => 'ta`riyfiyy',
       'lines' => [
@@ -21050,11 +19168,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`rifaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`rif',
       'form' => 'ta`rifaT',
       'lines' => [
@@ -21084,7 +19198,11 @@ $Lexicon = {
         ';; taEar~uf_1',
         'tErf    taEar~uf        NduAt   acquaintance;knowledge'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`arruf' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -21109,7 +19227,11 @@ $Lexicon = {
         '<EtrAf  {iEotirAf       NduAt   acknowledgment;recognition;admission;confession',
         'AEtrAf  {iEotirAf       NduAt   acknowledgment;recognition;admission;confession'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tirAf' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -21124,11 +19246,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Arif' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Arif',
       'form' => '`Arif',
       'lines' => [
@@ -21148,11 +19266,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Arif' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Arif',
       'form' => '`Arif',
       'lines' => [
@@ -21172,11 +19286,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Arif' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Arif',
       'form' => '`Arif',
       'lines' => [
@@ -21196,11 +19306,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`ruwf' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`ruwf',
       'form' => 'ma`ruwf',
       'lines' => [
@@ -21220,11 +19326,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`Araf' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`Araf',
       'form' => 'muta`Araf',
       'lines' => [
@@ -21244,11 +19346,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`taraf' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`taraf',
       'form' => 'mu`taraf',
       'lines' => [
@@ -21278,8 +19376,7 @@ $Lexicon = {
         },
         '`uwf' => {
           'IV_V' => 1
-        },
-        '`Af' => {}
+        }
       },
       'entry' => '`Af',
       'form' => '`Af',
@@ -21313,11 +19410,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awf' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awf',
       'form' => '`awf',
       'lines' => [
@@ -21337,11 +19430,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awfiyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awf',
       'form' => '`awfiyy',
       'lines' => [
@@ -21363,11 +19452,7 @@ $Lexicon = {
   ],
   '` \' d' => [
     {
-      'types' => {
-        '`A\'id' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A\'id',
       'form' => '`A\'id',
       'lines' => [
@@ -21389,8 +19474,7 @@ $Lexicon = {
     {
       'types' => {
         '`A\'id' => {
-          'NAt' => 1,
-          'N' => 1
+          'NAt' => 1
         }
       },
       'entry' => '`A\'id',
@@ -21400,7 +19484,12 @@ $Lexicon = {
         'EA}d    EA}id   N       revenue;profit;royalty',
         'EA}d    EA}id   NAt     revenues;profits;royalties'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '`A\'id' => [
+          'FA\'iL',
+          'FACiL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -21420,9 +19509,6 @@ $Lexicon = {
       'types' => {
         '`awA\'id' => {
           'Ndip' => 1
-        },
-        '`A\'idaT' => {
-          'Nap' => 1
         }
       },
       'entry' => '`A\'id',
@@ -21452,11 +19538,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A\'idiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A\'id',
       'form' => '`A\'idiyyaT',
       'lines' => [
@@ -21481,8 +19563,7 @@ $Lexicon = {
       'types' => {
         '`muq' => {
           'IV_intr' => 1
-        },
-        '`amuq' => {}
+        }
       },
       'entry' => '`amuq',
       'form' => '`amuq',
@@ -21511,7 +19592,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`ammaq' => {},
         '`ammiq' => {
           'IV_yu' => 1
         }
@@ -21545,8 +19625,7 @@ $Lexicon = {
         },
         '`miq' => {
           'IV_yu' => 1
-        },
-        '\'a`maq' => {}
+        }
       },
       'entry' => '\'a`maq',
       'form' => '\'a`maq',
@@ -21577,9 +19656,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`ammaq' => {}
-      },
+      'types' => {},
       'entry' => 'ta`ammaq',
       'form' => 'ta`ammaq',
       'lines' => [
@@ -21604,9 +19681,6 @@ $Lexicon = {
       'types' => {
         '\'a`mAq' => {
           'N' => 2
-        },
-        '`umq' => {
-          'N' => 1
         }
       },
       'entry' => '`umq',
@@ -21636,9 +19710,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`amiyq' => {
-          'N-ap' => 1
-        },
         '`imAq' => {
           'N' => 1
         },
@@ -21674,11 +19745,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`maq' => {
-          'Nel' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`maq',
       'form' => '\'a`maq',
       'lines' => [
@@ -21710,7 +19777,11 @@ $Lexicon = {
         ';; taEomiyq_1',
         'tEmyq   taEomiyq        N/At    deepening'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`miyq' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -21722,11 +19793,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`ammaq' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`ammaq',
       'form' => 'mu`ammaq',
       'lines' => [
@@ -21757,7 +19824,11 @@ $Lexicon = {
         ';; taEam~uq_1',
         'tEmq    taEam~uq        N/At    profundity;delving into'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`ammuq' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -21773,7 +19844,6 @@ $Lexicon = {
   '` w n' => [
     {
       'types' => {
-        '`Awan' => {},
         '`Awin' => {
           'IV-n_yu' => 1
         }
@@ -21809,7 +19879,6 @@ $Lexicon = {
         '`an' => {
           'IV-n_Pass_yu' => 1
         },
-        '\'a`An' => {},
         '`in' => {
           'IV-n_yu' => 1
         },
@@ -21864,9 +19933,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Awan' => {}
-      },
+      'types' => {},
       'entry' => 'ta`Awan',
       'form' => 'ta`Awan',
       'lines' => [
@@ -21893,7 +19960,6 @@ $Lexicon = {
         'sta`in' => {
           'IV-n' => 1
         },
-        'ista`An' => {},
         'ista`an' => {
           'PV_Cn' => 2
         }
@@ -21930,9 +19996,6 @@ $Lexicon = {
       'types' => {
         '\'a`wAn' => {
           'N' => 2
-        },
-        '`awn' => {
-          'N' => 1
         }
       },
       'entry' => '`awn',
@@ -21962,11 +20025,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awn' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awn',
       'form' => '`awn',
       'lines' => [
@@ -21985,11 +20044,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awAn' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awAn',
       'form' => '`awAn',
       'lines' => [
@@ -22009,11 +20064,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`uwnaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`uwn',
       'form' => 'ma`uwnaT',
       'lines' => [
@@ -22034,11 +20085,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'i`AnaT' => {
-          'NapAt' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'i`An',
       'form' => '\'i`AnaT',
       'lines' => [
@@ -22071,7 +20118,11 @@ $Lexicon = {
         ';; taEAwun_1',
         'tEAwn   taEAwun N/At    cooperation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`Awun' => [
+          'TaFACuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFACuL',
@@ -22083,11 +20134,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Awuniyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`Awun',
       'form' => 'ta`Awuniyy',
       'lines' => [
@@ -22106,11 +20153,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'isti`AnaT' => {
-          'NapAt' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'isti`An',
       'form' => 'isti`AnaT',
       'lines' => [
@@ -22132,11 +20175,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Awin' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Awin',
       'form' => 'mu`Awin',
       'lines' => [
@@ -22156,11 +20195,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Awin' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Awin',
       'form' => 'mu`Awin',
       'lines' => [
@@ -22180,11 +20215,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`iyn' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`iyn',
       'form' => 'mu`iyn',
       'lines' => [
@@ -22203,11 +20234,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`iyn' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`iyn',
       'form' => 'mu`iyn',
       'lines' => [
@@ -22228,11 +20255,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`Awin' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`Awin',
       'form' => 'muta`Awin',
       'lines' => [
@@ -22252,9 +20275,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mi`wAn' => {
-          'Ndu' => 1
-        },
         'ma`Awiyn' => {
           'Ndip' => 1
         }
@@ -22285,11 +20305,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`AwanaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Awan',
       'form' => 'mu`AwanaT',
       'lines' => [
@@ -22312,8 +20328,7 @@ $Lexicon = {
       'types' => {
         '`uwayn' => {
           'NAt' => 1
-        },
-        '`uwaynAt' => {}
+        }
       },
       'entry' => '`uwayn',
       'form' => '`uwaynAt',
@@ -22340,11 +20355,7 @@ $Lexicon = {
   ],
   '` y d y' => [
     {
-      'types' => {
-        '`iydiy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iydiy',
       'form' => '`iydiy',
       'lines' => [
@@ -22392,7 +20403,6 @@ $Lexicon = {
         '`araw' => {
           'PV_Atn' => 1
         },
-        '`arA' => {},
         '`ruw' => {
           'IV_0hAnn' => 1
         },
@@ -22415,6 +20425,9 @@ $Lexicon = {
       'patterns' => {
         '`rY' => [
           'FCY'
+        ],
+        '`ar' => [
+          'FaC'
         ],
         '`araw' => [
           'FaCaL'
@@ -22449,7 +20462,6 @@ $Lexicon = {
         '`tarY' => {
           'IV_0_Pass_yu' => 1
         },
-        'i`tarY' => {},
         '`tar' => {
           'IV_0hwnyn' => 1
         },
@@ -22503,9 +20515,6 @@ $Lexicon = {
         },
         '`urY' => {
           'N0' => 1
-        },
-        '`urwaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`urw',
@@ -22537,11 +20546,7 @@ $Lexicon = {
   ],
   '` ^g l n' => [
     {
-      'types' => {
-        '`a^gluwn' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^gluwn',
       'form' => '`a^gluwn',
       'lines' => [
@@ -22560,11 +20565,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^gluwniyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^gluwn',
       'form' => '`a^gluwniyy',
       'lines' => [
@@ -22583,11 +20584,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^gluwniyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^gluwn',
       'form' => '`a^gluwniyy',
       'lines' => [
@@ -22608,11 +20605,7 @@ $Lexicon = {
   ],
   '`abdAl.hafiy.z' => [
     {
-      'types' => {
-        '`abdAl.hafiy.z' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.hafiy.z',
       'form' => '`abdAl.hafiy.z',
       'lines' => [
@@ -22633,11 +20626,7 @@ $Lexicon = {
   ],
   '` b k' => [
     {
-      'types' => {
-        '`abak' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abak',
       'form' => '`abak',
       'lines' => [
@@ -22661,8 +20650,7 @@ $Lexicon = {
       'types' => {
         '`.tis' => {
           'IV' => 1
-        },
-        '`a.tas' => {}
+        }
       },
       'entry' => '`a.tas',
       'form' => '`a.tas',
@@ -22693,8 +20681,7 @@ $Lexicon = {
       'types' => {
         '`a.t.tis' => {
           'IV_yu' => 1
-        },
-        '`a.t.tas' => {}
+        }
       },
       'entry' => '`a.t.tas',
       'form' => '`a.t.tas',
@@ -22719,11 +20706,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.ts' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.ts',
       'form' => '`a.ts',
       'lines' => [
@@ -22742,11 +20725,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u.tAs' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u.tAs',
       'form' => '`u.tAs',
       'lines' => [
@@ -22766,9 +20745,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a.tsaT' => {
-          'Napdu' => 1
-        },
         '`a.tas' => {
           'NAt' => 1
         }
@@ -22798,11 +20774,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.tuws' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.tuws',
       'form' => '`a.tuws',
       'lines' => [
@@ -22821,11 +20793,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A.tuws' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A.tuws',
       'form' => '`A.tuws',
       'lines' => [
@@ -22845,9 +20813,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ma`.tis' => {
-          'N' => 1
-        },
         'ma`A.tis' => {
           'Ndip' => 1
         }
@@ -22887,7 +20852,11 @@ $Lexicon = {
         ';; taEoTiys_1',
         'tETys   taEoTiys        N/At    causing sneezing'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`.tiys' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -22901,11 +20870,7 @@ $Lexicon = {
   ],
   '`abdAlmu`iyn' => [
     {
-      'types' => {
-        '`abdAlmu`iyn' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmu`iyn',
       'form' => '`abdAlmu`iyn',
       'lines' => [
@@ -22927,9 +20892,6 @@ $Lexicon = {
   '` r n s' => [
     {
       'types' => {
-        '`irnAs' => {
-          'N' => 1
-        },
         '`urnuws' => {
           'N' => 1
         },
@@ -22969,11 +20931,7 @@ $Lexicon = {
   ],
   '` .d y' => [
     {
-      'types' => {
-        'ta`.diyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`.diy',
       'form' => 'ta`.diyaT',
       'lines' => [
@@ -22993,13 +20951,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`a.d.diy' => {
-          'N0F_Nh' => 1,
-          'NAn_Nayn' => 1,
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`a.d.diy',
       'form' => 'mu`a.d.diy',
       'lines' => [
@@ -23026,8 +20978,7 @@ $Lexicon = {
       'types' => {
         '`tud' => {
           'IV_intr' => 1
-        },
-        '`atud' => {}
+        }
       },
       'entry' => '`atud',
       'form' => '`atud',
@@ -23056,7 +21007,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`attad' => {},
         '`attid' => {
           'IV_yu' => 1
         }
@@ -23085,7 +21035,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`tad' => {},
         '`tid' => {
           'IV_yu' => 1
         },
@@ -23129,9 +21078,6 @@ $Lexicon = {
         },
         '\'a`tid' => {
           'Nap' => 2
-        },
-        '`atAd' => {
-          'N' => 1
         }
       },
       'entry' => '`atAd',
@@ -23161,11 +21107,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`atiyd' => {
-          'N/ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`atiyd',
       'form' => '`atiyd',
       'lines' => [
@@ -23195,7 +21137,11 @@ $Lexicon = {
         ';; taEotiyd_1',
         'tEtyd   taEotiyd        N/At    preparation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`tiyd' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -23214,7 +21160,6 @@ $Lexicon = {
         '`tadid' => {
           'IV_C' => 1
         },
-        'i`tadd' => {},
         '`tadd' => {
           'IV_V' => 1
         }
@@ -23259,7 +21204,11 @@ $Lexicon = {
         '<EtdAd  {iEotidAd       N/At    confidence;reliance',
         'AEtdAd  {iEotidAd       N/At    confidence;reliance'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tidAd' => [
+          'IFCiLAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFCiLAL',
@@ -23272,11 +21221,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'i`tidAdiyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'i`tidAd',
       'form' => 'i`tidAdiyy',
       'lines' => [
@@ -23296,11 +21241,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tadd' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tadd',
       'form' => 'mu`tadd',
       'lines' => [
@@ -23321,11 +21262,7 @@ $Lexicon = {
   ],
   '`abdAlraqiyb' => [
     {
-      'types' => {
-        '`abdAlraqiyb' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlraqiyb',
       'form' => '`abdAlraqiyb',
       'lines' => [
@@ -23346,11 +21283,7 @@ $Lexicon = {
   ],
   '` h n' => [
     {
-      'types' => {
-        '`ihn' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ihn',
       'form' => '`ihn',
       'lines' => [
@@ -23372,9 +21305,6 @@ $Lexicon = {
       'types' => {
         '`awAhin' => {
           'Ndip' => 1
-        },
-        '`Ahin' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`Ahin',
@@ -23408,8 +21338,7 @@ $Lexicon = {
       'types' => {
         '`fir' => {
           'IV' => 1
-        },
-        '`afar' => {}
+        }
       },
       'entry' => '`afar',
       'form' => '`afar',
@@ -23440,8 +21369,7 @@ $Lexicon = {
       'types' => {
         '`affir' => {
           'IV_yu' => 1
-        },
-        '`affar' => {}
+        }
       },
       'entry' => '`affar',
       'form' => '`affar',
@@ -23470,9 +21398,6 @@ $Lexicon = {
       'types' => {
         '\'a`fAr' => {
           'N' => 2
-        },
-        '`afar' => {
-          'N' => 1
         }
       },
       'entry' => '`afar',
@@ -23499,11 +21424,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`affAraT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`affAr',
       'form' => '`affAraT',
       'lines' => [
@@ -23523,11 +21444,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ufAr' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ufAr',
       'form' => '`ufAr',
       'lines' => [
@@ -23546,11 +21463,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ufraT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ufr',
       'form' => '`ufraT',
       'lines' => [
@@ -23574,9 +21487,6 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
-        },
-        '\'a`far' => {
-          'Nel' => 2
         }
       },
       'entry' => '\'a`far',
@@ -23616,7 +21526,11 @@ $Lexicon = {
         ';; taEofiyr_1',
         'tEfyr   taEofiyr        N/At    dusting;sprinkling'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`fiyr' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -23629,11 +21543,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`affar' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`affar',
       'form' => 'mu`affar',
       'lines' => [
@@ -23655,11 +21565,7 @@ $Lexicon = {
   ],
   '`abidrabbuh' => [
     {
-      'types' => {
-        '`abidrabbuh' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abidrabbuh',
       'form' => '`abidrabbuh',
       'lines' => [
@@ -23687,8 +21593,7 @@ $Lexicon = {
         },
         '`^sab' => {
           'IV_Pass_yu' => 1
-        },
-        '\'a`^sab' => {}
+        }
       },
       'entry' => '\'a`^sab',
       'form' => '\'a`^sab',
@@ -23719,9 +21624,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`a^s^sab' => {}
-      },
+      'types' => {},
       'entry' => 'ta`a^s^sab',
       'form' => 'ta`a^s^sab',
       'lines' => [
@@ -23743,7 +21646,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'i`^saw^sab' => {},
         '`^saw^sib' => {
           'IV_intr' => 1
         }
@@ -23775,10 +21677,6 @@ $Lexicon = {
       'types' => {
         '\'a`^sAb' => {
           'N' => 2
-        },
-        '`u^sb' => {
-          'Nap' => 1,
-          'N' => 1
         }
       },
       'entry' => '`u^sb',
@@ -23810,11 +21708,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`^sAbiyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`^sAb',
       'form' => '\'a`^sAbiyy',
       'lines' => [
@@ -23834,11 +21728,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u^sbiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u^sb',
       'form' => '`u^sbiyy',
       'lines' => [
@@ -23858,11 +21748,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^sib' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^sib',
       'form' => '`a^sib',
       'lines' => [
@@ -23882,11 +21768,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^sAbaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^sAb',
       'form' => '`a^sAbaT',
       'lines' => [
@@ -23905,11 +21787,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`^sib' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`^sib',
       'form' => 'mu`^sib',
       'lines' => [
@@ -23933,9 +21811,6 @@ $Lexicon = {
     {
       'types' => {
         '`Ayi^s' => {
-          'Nall' => 1
-        },
-        '`A\'i^s' => {
           'Nall' => 1
         }
       },
@@ -23961,11 +21836,7 @@ $Lexicon = {
   ],
   '` r n' => [
     {
-      'types' => {
-        '`aran' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aran',
       'form' => '`aran',
       'lines' => [
@@ -23987,9 +21858,6 @@ $Lexicon = {
     {
       'types' => {
         '`urun' => {
-          'N' => 1
-        },
-        '`ariyn' => {
           'N' => 1
         }
       },
@@ -24020,9 +21888,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`ariynaT' => {
-          'Nap' => 1
-        },
         '`arA\'in' => {
           'Ndip' => 1
         }
@@ -24051,11 +21916,7 @@ $Lexicon = {
   ],
   '`abdAlri.dA' => [
     {
-      'types' => {
-        '`abdAlri.dA' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlri.dA',
       'form' => '`abdAlri.dA',
       'lines' => [
@@ -24079,8 +21940,7 @@ $Lexicon = {
       'types' => {
         '`^saq' => {
           'IV' => 1
-        },
-        '`a^siq' => {}
+        }
       },
       'entry' => '`a^siq',
       'form' => '`a^siq',
@@ -24112,8 +21972,7 @@ $Lexicon = {
       'types' => {
         '`a^s^siq' => {
           'IV_yu' => 1
-        },
-        '`a^s^saq' => {}
+        }
       },
       'entry' => '`a^s^saq',
       'form' => '`a^s^saq',
@@ -24139,9 +21998,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`a^s^saq' => {}
-      },
+      'types' => {},
       'entry' => 'ta`a^s^saq',
       'form' => 'ta`a^s^saq',
       'lines' => [
@@ -24161,9 +22018,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`A^saq' => {}
-      },
+      'types' => {},
       'entry' => 'ta`A^saq',
       'form' => 'ta`A^saq',
       'lines' => [
@@ -24183,11 +22038,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i^sq' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i^sq',
       'form' => '`i^sq',
       'lines' => [
@@ -24207,11 +22058,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i^sqiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i^sq',
       'form' => '`i^sqiyy',
       'lines' => [
@@ -24230,11 +22077,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^siyq' => {
-          'N/ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^siyq',
       'form' => '`a^siyq',
       'lines' => [
@@ -24264,7 +22107,11 @@ $Lexicon = {
         ';; taEo$iyq_1',
         'tE$yq   taEo$iyq        N/At    coupling;transmission'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`^siyq' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -24280,9 +22127,6 @@ $Lexicon = {
       'types' => {
         'ta`A^siyq' => {
           'Ndip' => 1
-        },
-        'ta`^siyqaT' => {
-          'Nap' => 1
         }
       },
       'entry' => 'ta`^siyq',
@@ -24312,9 +22156,6 @@ $Lexicon = {
       'types' => {
         '`u^s^sAq' => {
           'N' => 1
-        },
-        '`A^siq' => {
-          'Nall' => 1
         }
       },
       'entry' => '`A^siq',
@@ -24342,11 +22183,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awA^siq' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awA^siq',
       'form' => '`awA^siq',
       'lines' => [
@@ -24365,11 +22202,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`^suwq' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`^suwq',
       'form' => 'ma`^suwq',
       'lines' => [
@@ -24388,11 +22221,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`^suwqaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`^suwq',
       'form' => 'ma`^suwqaT',
       'lines' => [
@@ -24423,8 +22252,7 @@ $Lexicon = {
         },
         '`i^g^g' => {
           'IV_V' => 1
-        },
-        '`a^g^g' => {}
+        }
       },
       'entry' => '`a^g^g',
       'form' => '`a^g^g',
@@ -24462,7 +22290,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a^g^ga^g' => {},
         '`a^g^gi^g' => {
           'IV_yu' => 1
         }
@@ -24502,8 +22329,7 @@ $Lexicon = {
         },
         '\'a`^ga^g' => {
           'PV_C' => 2
-        },
-        '\'a`a^g^g' => {}
+        }
       },
       'entry' => '\'a`a^g^g',
       'form' => '\'a`a^g^g',
@@ -24543,11 +22369,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^g^g' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^g^g',
       'form' => '`a^g^g',
       'lines' => [
@@ -24567,11 +22389,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^giy^g' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^giy^g',
       'form' => '`a^giy^g',
       'lines' => [
@@ -24591,11 +22409,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u^g^gaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u^g^g',
       'form' => '`u^g^gaT',
       'lines' => [
@@ -24614,11 +22428,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^gA^g' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^gA^g',
       'form' => '`a^gA^g',
       'lines' => [
@@ -24638,11 +22448,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^gA^gaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^gA^g',
       'form' => '`a^gA^gaT',
       'lines' => [
@@ -24662,11 +22468,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^g^gA^g' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^g^gA^g',
       'form' => '`a^g^gA^g',
       'lines' => [
@@ -24691,8 +22493,7 @@ $Lexicon = {
       'types' => {
         '`bi.t' => {
           'IV' => 1
-        },
-        '`aba.t' => {}
+        }
       },
       'entry' => '`aba.t',
       'form' => '`aba.t',
@@ -24721,7 +22522,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'i`taba.t' => {},
         '`tabi.t' => {
           'IV' => 1
         }
@@ -24750,11 +22550,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ab.t' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ab.t',
       'form' => '`ab.t',
       'lines' => [
@@ -24773,11 +22569,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ab.taT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ab.t',
       'form' => '`ab.taT',
       'lines' => [
@@ -24801,9 +22593,6 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
-        },
-        '`abiy.t' => {
-          'N/ap' => 1
         }
       },
       'entry' => '`abiy.t',
@@ -24838,9 +22627,6 @@ $Lexicon = {
         },
         '`ibA.t' => {
           'N' => 1
-        },
-        '`abiy.t' => {
-          'N/ap' => 1
         }
       },
       'entry' => '`abiy.t',
@@ -24883,7 +22669,11 @@ $Lexicon = {
         '<EtbAT  {iEotibAT       N/At    premature death',
         'AEtbAT  {iEotibAT       N/At    premature death'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tibA.t' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -24896,7 +22686,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'i`tibA.taN' => {},
         'i`tibA.t' => {
           'NF' => 2
         }
@@ -24926,11 +22715,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'i`tibA.tiyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'i`tibA.t',
       'form' => 'i`tibA.tiyy',
       'lines' => [
@@ -24953,7 +22738,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'i`tibA.tiyyaN' => {},
         'i`tibA.tiyy' => {
           'NF' => 2
         }
@@ -24979,11 +22763,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'i`tibA.tiyyaT' => {
-          'Nap' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'i`tibA.t',
       'form' => 'i`tibA.tiyyaT',
       'lines' => [
@@ -25005,11 +22785,7 @@ $Lexicon = {
   ],
   '`abdAlwahhAb' => [
     {
-      'types' => {
-        '`abdAlwahhAb' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlwahhAb',
       'form' => '`abdAlwahhAb',
       'lines' => [
@@ -25031,7 +22807,6 @@ $Lexicon = {
   '` w q' => [
     {
       'types' => {
-        '`Aq' => {},
         '`uq' => {
           'PV_C' => 1,
           'IV_C' => 1
@@ -25075,8 +22850,7 @@ $Lexicon = {
       'types' => {
         '`awwiq' => {
           'IV_yu' => 1
-        },
-        '`awwaq' => {}
+        }
       },
       'entry' => '`awwaq',
       'form' => '`awwaq',
@@ -25118,8 +22892,7 @@ $Lexicon = {
         },
         '`iq' => {
           'IV_C_yu' => 1
-        },
-        '\'a`Aq' => {}
+        }
       },
       'entry' => '\'a`Aq',
       'form' => '\'a`Aq',
@@ -25165,9 +22938,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`awwaq' => {}
-      },
+      'types' => {},
       'entry' => 'ta`awwaq',
       'form' => 'ta`awwaq',
       'lines' => [
@@ -25198,8 +22969,7 @@ $Lexicon = {
         },
         'i`taq' => {
           'PV_C' => 2
-        },
-        'i`tAq' => {}
+        }
       },
       'entry' => 'i`tAq',
       'form' => 'i`tAq',
@@ -25235,11 +23005,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awq' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awq',
       'form' => '`awq',
       'lines' => [
@@ -25259,11 +23025,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awwAqaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awwAq',
       'form' => '`awwAqaT',
       'lines' => [
@@ -25282,11 +23044,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`AqaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`Aq',
       'form' => 'ma`AqaT',
       'lines' => [
@@ -25306,11 +23064,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'i`AqaT' => {
-          'NapAt' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'i`Aq',
       'form' => '\'i`AqaT',
       'lines' => [
@@ -25331,11 +23085,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`wiyq' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`wiyq',
       'form' => 'ta`wiyq',
       'lines' => [
@@ -25355,11 +23105,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`wiyqiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`wiyq',
       'form' => 'ta`wiyqiyy',
       'lines' => [
@@ -25380,10 +23126,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`A\'iq' => {
-          'Napdu' => 1,
-          'Ndu' => 1
-        },
         '`awA\'iq' => {
           'Ndip' => 1
         }
@@ -25426,7 +23168,11 @@ $Lexicon = {
         ';; muEaw~iq_1',
         'mEwq    muEaw~iq        NduAt   obstacles;impediments'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`awwiq' => [
+          'MuFaCCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFaCCiL',
@@ -25439,11 +23185,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`awwaq' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`awwaq',
       'form' => 'mu`awwaq',
       'lines' => [
@@ -25462,11 +23204,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Aq' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Aq',
       'form' => 'mu`Aq',
       'lines' => [
@@ -25488,7 +23226,6 @@ $Lexicon = {
   '` q q' => [
     {
       'types' => {
-        '`aqq' => {},
         '`quq' => {
           'IV_C' => 1
         },
@@ -25533,11 +23270,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqq' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqq',
       'form' => '`aqq',
       'lines' => [
@@ -25559,9 +23292,6 @@ $Lexicon = {
       'types' => {
         '\'a`iqq' => {
           'Nap' => 2
-        },
-        '`aqiyq' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`aqiyq',
@@ -25588,9 +23318,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`aqiyq' => {
-          'N-ap' => 1
-        },
         '`aqA\'iq' => {
           'Ndip' => 1
         }
@@ -25615,11 +23342,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqiyqiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqiyq',
       'form' => '`aqiyqiyy',
       'lines' => [
@@ -25638,11 +23361,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uquwq' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uquwq',
       'form' => '`uquwq',
       'lines' => [
@@ -25661,11 +23380,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`aqq' => {
-          'Nel' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`aqq',
       'form' => '\'a`aqq',
       'lines' => [
@@ -25686,11 +23401,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Aqq' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Aqq',
       'form' => '`Aqq',
       'lines' => [
@@ -25713,7 +23424,6 @@ $Lexicon = {
   '` b r' => [
     {
       'types' => {
-        '`abar' => {},
         '`bur' => {
           'IV' => 1
         }
@@ -25746,7 +23456,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`abbar' => {},
         '`abbir' => {
           'IV_yu' => 1
         }
@@ -25778,7 +23487,6 @@ $Lexicon = {
         '`tabar' => {
           'IV_Pass_yu' => 1
         },
-        'i`tabar' => {},
         '`tabir' => {
           'IV' => 1
         },
@@ -25820,7 +23528,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ista`bar' => {},
         'sta`bir' => {
           'IV' => 1
         }
@@ -25845,11 +23552,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abr' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abr',
       'form' => '`abr',
       'lines' => [
@@ -25868,11 +23571,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ubuwr' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ubuwr',
       'form' => '`ubuwr',
       'lines' => [
@@ -25891,11 +23590,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abiyr' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abiyr',
       'form' => '`abiyr',
       'lines' => [
@@ -25915,11 +23610,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abiyr' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abiyr',
       'form' => '`abiyr',
       'lines' => [
@@ -25939,9 +23630,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`abraT' => {
-          'Napdu' => 1
-        },
         '`abar' => {
           'NAt' => 1
         }
@@ -25971,9 +23659,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`ibraT' => {
-          'Napdu' => 1
-        },
         '`ibar' => {
           'N' => 1
         }
@@ -26004,11 +23689,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ibriyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => '`ibr',
       'form' => '`ibriyy',
       'lines' => [
@@ -26028,11 +23709,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ibAraT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ibAr',
       'form' => '`ibAraT',
       'lines' => [
@@ -26051,11 +23728,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ibrAniyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => '`ibrAn',
       'form' => '`ibrAniyy',
       'lines' => [
@@ -26075,11 +23748,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abbAr' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abbAr',
       'form' => '`abbAr',
       'lines' => [
@@ -26101,9 +23770,6 @@ $Lexicon = {
       'types' => {
         'ma`Abir' => {
           'Ndip' => 1
-        },
-        'ma`bar' => {
-          'Ndu' => 1
         }
       },
       'entry' => 'ma`bar',
@@ -26132,11 +23798,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mi`baraT' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mi`bar',
       'form' => 'mi`baraT',
       'lines' => [
@@ -26171,6 +23833,9 @@ $Lexicon = {
         'tEAbyr  taEAbiyr        Ndip    expressions'
       ],
       'patterns' => {
+        'ta`biyr' => [
+          'TaFCIL'
+        ],
         'ta`Abiyr' => [
           'TaFACIL'
         ]
@@ -26187,11 +23852,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`biyriyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`biyr',
       'form' => 'ta`biyriyy',
       'lines' => [
@@ -26223,7 +23884,11 @@ $Lexicon = {
         '<EtbAr  {iEotibAr       NduAt   consideration;regard',
         'AEtbAr  {iEotibAr       NduAt   consideration;regard'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tibAr' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -26236,11 +23901,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'i`tibAriyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'i`tibAr',
       'form' => 'i`tibAriyy',
       'lines' => [
@@ -26261,11 +23922,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Abir' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Abir',
       'form' => '`Abir',
       'lines' => [
@@ -26285,11 +23942,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Abir' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Abir',
       'form' => '`Abir',
       'lines' => [
@@ -26309,11 +23962,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`AbiriyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Abir',
       'form' => '`AbiriyyaT',
       'lines' => [
@@ -26333,11 +23982,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`abbir' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`abbir',
       'form' => 'mu`abbir',
       'lines' => [
@@ -26356,11 +24001,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`abbar' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`abbar',
       'form' => 'mu`abbar',
       'lines' => [
@@ -26379,11 +24020,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tabir' => {
-          'NF' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tabir',
       'form' => 'mu`tabir',
       'lines' => [
@@ -26403,11 +24040,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tabar' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tabar',
       'form' => 'mu`tabar',
       'lines' => [
@@ -26458,7 +24091,6 @@ $Lexicon = {
         '`uri.d' => {
           'PV_Pass' => 1
         },
-        '`ara.d' => {},
         '`ra.d' => {
           'IV_Pass_yu' => 1
         }
@@ -26505,7 +24137,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`arra.d' => {},
         '`arri.d' => {
           'IV_yu' => 1
         }
@@ -26534,7 +24165,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`Ara.d' => {},
         '`Ari.d' => {
           'IV_yu' => 1
         }
@@ -26567,7 +24197,6 @@ $Lexicon = {
         '`ri.d' => {
           'IV_yu' => 1
         },
-        '\'a`ra.d' => {},
         '`ra.d' => {
           'IV_Pass_yu' => 1
         }
@@ -26601,9 +24230,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`arra.d' => {}
-      },
+      'types' => {},
       'entry' => 'ta`arra.d',
       'form' => 'ta`arra.d',
       'lines' => [
@@ -26624,9 +24251,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Ara.d' => {}
-      },
+      'types' => {},
       'entry' => 'ta`Ara.d',
       'form' => 'ta`Ara.d',
       'lines' => [
@@ -26648,7 +24273,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'i`tara.d' => {},
         '`tari.d' => {
           'IV' => 1
         }
@@ -26680,7 +24304,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ista`ra.d' => {},
         'sta`ri.d' => {
           'IV' => 1
         }
@@ -26709,9 +24332,6 @@ $Lexicon = {
       'types' => {
         '`uruw.d' => {
           'N/At' => 1
-        },
-        '`ar.d' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`ar.d',
@@ -26742,11 +24362,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ar.d' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ar.d',
       'form' => '`ar.d',
       'lines' => [
@@ -26765,11 +24381,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ar.d' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ar.d',
       'form' => '`ar.d',
       'lines' => [
@@ -26789,11 +24401,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ar.daT' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ar.d',
       'form' => '`ar.daT',
       'lines' => [
@@ -26812,11 +24420,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ar.diyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ar.d',
       'form' => '`ar.diyy',
       'lines' => [
@@ -26839,9 +24443,6 @@ $Lexicon = {
       'types' => {
         '\'a`rA.d' => {
           'N' => 2
-        },
-        '`ir.d' => {
-          'N' => 1
         }
       },
       'entry' => '`ir.d',
@@ -26868,11 +24469,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ar.dAniyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ar.dAn',
       'form' => '`ar.dAniyy',
       'lines' => [
@@ -26895,8 +24492,7 @@ $Lexicon = {
       'types' => {
         '`ara.d' => {
           'NF' => 1
-        },
-        '`ara.daN' => {}
+        }
       },
       'entry' => '`ara.d',
       'form' => '`ara.daN',
@@ -26923,8 +24519,7 @@ $Lexicon = {
     {
       'types' => {
         '`ara.diyy' => {
-          'NAt' => 1,
-          'N-ap' => 1
+          'NAt' => 1
         }
       },
       'entry' => '`ara.d',
@@ -26949,11 +24544,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ur.daT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ur.d',
       'form' => '`ur.daT',
       'lines' => [
@@ -26974,9 +24565,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`aruw.d' => {
-          'N' => 1
-        },
         '\'a`Ariy.d' => {
           'Ndip' => 2
         }
@@ -27005,11 +24593,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aruw.diyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aruw.d',
       'form' => '`aruw.diyy',
       'lines' => [
@@ -27029,9 +24613,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`ariy.d' => {
-          'N/ap' => 1
-        },
         '`irA.d' => {
           'N' => 1
         }
@@ -27060,11 +24641,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ariy.diyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ariy.d',
       'form' => '`ariy.diyy',
       'lines' => [
@@ -27086,9 +24663,6 @@ $Lexicon = {
       'types' => {
         '`arA\'i.d' => {
           'Ndip' => 1
-        },
-        '`ariy.daT' => {
-          'Nap' => 1
         }
       },
       'entry' => '`ariy.d',
@@ -27114,9 +24688,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ma`ri.d' => {
-          'Ndu' => 1
-        },
         'ma`Ari.d' => {
           'Ndip' => 1
         }
@@ -27149,11 +24720,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mi`rA.d' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mi`rA.d',
       'form' => 'mi`rA.d',
       'lines' => [
@@ -27184,7 +24751,11 @@ $Lexicon = {
         ';; taEoriyD_1',
         'tEryD   taEoriyD        N/At    exposure'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`riy.d' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -27196,11 +24767,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`riy.diyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`riy.d',
       'form' => 'ta`riy.diyy',
       'lines' => [
@@ -27219,11 +24786,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Ara.daT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Ara.d',
       'form' => 'mu`Ara.daT',
       'lines' => [
@@ -27254,7 +24817,11 @@ $Lexicon = {
         '<ErAD   <iEorAD N/At    avoidance',
         'AErAD   <iEorAD N/At    avoidance'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`rA.d' => [
+          'HiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -27277,7 +24844,11 @@ $Lexicon = {
         ';; taEar~uD_1',
         'tErD    taEar~uD        N/At    being exposed to;encountering'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`arru.d' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -27301,7 +24872,11 @@ $Lexicon = {
         ';; taEAruD_1',
         'tEArD   taEAruD N/At    conflict;clash'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`Aru.d' => [
+          'TaFACuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFACuL',
@@ -27326,7 +24901,11 @@ $Lexicon = {
         '<EtrAD  {iEotirAD       N/At    opposition;resistance;insertion',
         'AEtrAD  {iEotirAD       N/At    opposition;resistance;insertion'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tirA.d' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -27340,11 +24919,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'i`tirA.diyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'i`tirA.d',
       'form' => 'i`tirA.diyy',
       'lines' => [
@@ -27377,7 +24952,11 @@ $Lexicon = {
         '<stErAD {isotiEorAD     N/At    review;parade;inspection',
         'AstErAD {isotiEorAD     N/At    review;parade;inspection'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'isti`rA.d' => [
+          'IstiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCAL',
@@ -27391,11 +24970,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'isti`rA.diyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'isti`rA.d',
       'form' => 'isti`rA.diyy',
       'lines' => [
@@ -27416,11 +24991,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Ari.d' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Ari.d',
       'form' => '`Ari.d',
       'lines' => [
@@ -27441,11 +25012,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awAri.d' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awAri.d',
       'form' => '`awAri.d',
       'lines' => [
@@ -27464,11 +25031,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Ari.d' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Ari.d',
       'form' => '`Ari.d',
       'lines' => [
@@ -27487,11 +25050,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Ari.diyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Ari.d',
       'form' => '`Ari.diyy',
       'lines' => [
@@ -27510,11 +25069,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`ruw.d' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`ruw.d',
       'form' => 'ma`ruw.d',
       'lines' => [
@@ -27535,11 +25090,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`arri.d' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`arri.d',
       'form' => 'mu`arri.d',
       'lines' => [
@@ -27561,9 +25112,6 @@ $Lexicon = {
       'types' => {
         'ma`Ariy.d' => {
           'Ndip' => 1
-        },
-        'ma`ruw.d' => {
-          'Ndu' => 1
         }
       },
       'entry' => 'ma`ruw.d',
@@ -27597,8 +25145,7 @@ $Lexicon = {
       'types' => {
         'ma`ruw.d' => {
           'NAt' => 1
-        },
-        'ma`ruw.dAt' => {}
+        }
       },
       'entry' => 'ma`ruw.d',
       'form' => 'ma`ruw.dAt',
@@ -27624,11 +25171,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`arra.d' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`arra.d',
       'form' => 'mu`arra.d',
       'lines' => [
@@ -27648,11 +25191,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Ari.d' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Ari.d',
       'form' => 'mu`Ari.d',
       'lines' => [
@@ -27673,11 +25212,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`Ari.d' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`Ari.d',
       'form' => 'muta`Ari.d',
       'lines' => [
@@ -27697,11 +25232,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tari.d' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tari.d',
       'form' => 'mu`tari.d',
       'lines' => [
@@ -27721,11 +25252,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tari.d' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tari.d',
       'form' => 'mu`tari.d',
       'lines' => [
@@ -27747,11 +25274,7 @@ $Lexicon = {
   ],
   '`abdAl.hakiym' => [
     {
-      'types' => {
-        '`abdAl.hakiym' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.hakiym',
       'form' => '`abdAl.hakiym',
       'lines' => [
@@ -27772,11 +25295,7 @@ $Lexicon = {
   ],
   '`abdAlqayyuwm' => [
     {
-      'types' => {
-        '`abdAlqayyuwm' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlqayyuwm',
       'form' => '`abdAlqayyuwm',
       'lines' => [
@@ -27797,11 +25316,7 @@ $Lexicon = {
   ],
   '`abdAl`abbAs' => [
     {
-      'types' => {
-        '`abdAl`abbAs' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl`abbAs',
       'form' => '`abdAl`abbAs',
       'lines' => [
@@ -27823,7 +25338,6 @@ $Lexicon = {
   '` t m' => [
     {
       'types' => {
-        '`atam' => {},
         '`tim' => {
           'IV' => 1
         }
@@ -27856,7 +25370,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`attam' => {},
         '`attim' => {
           'IV_yu' => 1
         }
@@ -27886,7 +25399,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`tam' => {},
         '`tam' => {
           'IV_Pass_yu' => 1
         },
@@ -27926,11 +25438,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`atm' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`atm',
       'form' => '`atm',
       'lines' => [
@@ -27950,11 +25458,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`atmaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`atm',
       'form' => '`atmaT',
       'lines' => [
@@ -27974,11 +25478,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`atAmaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`atAm',
       'form' => '`atAmaT',
       'lines' => [
@@ -28008,7 +25508,11 @@ $Lexicon = {
         ';; taEotiym_1',
         'tEtym   taEotiym        N/At    darkening;clouding'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`tiym' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -28032,7 +25536,11 @@ $Lexicon = {
         ';; taEotiym_2',
         'tEtym   taEotiym        N/At    camouflage;black-out'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`tiym' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -28057,7 +25565,11 @@ $Lexicon = {
         '<EtAm   <iEotAm N/At    darkening;clouding',
         'AEtAm   <iEotAm N/At    darkening;clouding'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`tAm' => [
+          'HiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -28070,11 +25582,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Atim' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Atim',
       'form' => '`Atim',
       'lines' => [
@@ -28094,11 +25602,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tim' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tim',
       'form' => 'mu`tim',
       'lines' => [
@@ -28119,11 +25623,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`attuwm' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`attuwm',
       'form' => '`attuwm',
       'lines' => [
@@ -28176,11 +25676,7 @@ $Lexicon = {
   ],
   '`abdaliy' => [
     {
-      'types' => {
-        '`abdaliy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdaliy',
       'form' => '`abdaliy',
       'lines' => [
@@ -28201,11 +25697,7 @@ $Lexicon = {
   ],
   '`abdAlfa.diyl' => [
     {
-      'types' => {
-        '`abdAlfa.diyl' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlfa.diyl',
       'form' => '`abdAlfa.diyl',
       'lines' => [
@@ -28226,11 +25718,7 @@ $Lexicon = {
   ],
   '` .t w' => [
     {
-      'types' => {
-        '`a.twAn' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.twAn',
       'form' => '`a.twAn',
       'lines' => [
@@ -28252,7 +25740,6 @@ $Lexicon = {
   '` ^g n' => [
     {
       'types' => {
-        '`a^gan' => {},
         '`^gin' => {
           'IV-n' => 1
         },
@@ -28292,11 +25779,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^gn' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^gn',
       'form' => '`a^gn',
       'lines' => [
@@ -28316,11 +25799,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i^gAn' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i^gAn',
       'form' => '`i^gAn',
       'lines' => [
@@ -28339,12 +25818,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^g^gAn' => {
-          'Nap' => 1,
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^g^gAn',
       'form' => '`a^g^gAn',
       'lines' => [
@@ -28364,11 +25838,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^giyn' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^giyn',
       'form' => '`a^giyn',
       'lines' => [
@@ -28391,9 +25861,6 @@ $Lexicon = {
       'types' => {
         '`a^gA\'in' => {
           'Ndip' => 1
-        },
-        '`a^giynaT' => {
-          'Nap' => 1
         }
       },
       'entry' => '`a^giyn',
@@ -28417,11 +25884,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^giyniyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^giyn',
       'form' => '`a^giyniyy',
       'lines' => [
@@ -28444,9 +25907,6 @@ $Lexicon = {
       'types' => {
         'ma`A^gin' => {
           'Ndip' => 1
-        },
-        'mi`^gan' => {
-          'Ndu' => 1
         }
       },
       'entry' => 'mi`^gan',
@@ -28476,9 +25936,6 @@ $Lexicon = {
       'types' => {
         'ma`A^giyn' => {
           'Ndip' => 1
-        },
-        'ma`^guwn' => {
-          'N-ap' => 1
         }
       },
       'entry' => 'ma`^guwn',
@@ -28508,8 +25965,7 @@ $Lexicon = {
       'types' => {
         'mu`a^g^gan' => {
           'NAt' => 1
-        },
-        'mu`a^g^ganAt' => {}
+        }
       },
       'entry' => 'mu`a^g^gan',
       'form' => 'mu`a^g^ganAt',
@@ -28536,11 +25992,7 @@ $Lexicon = {
   ],
   '` ^s t r' => [
     {
-      'types' => {
-        '`i^stAr' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i^stAr',
       'form' => '`i^stAr',
       'lines' => [
@@ -28562,9 +26014,6 @@ $Lexicon = {
       'types' => {
         '`a^staruwt' => {
           'Ndip' => 1
-        },
-        '`a^staraT' => {
-          'Nap' => 1
         }
       },
       'entry' => '`a^star',
@@ -28588,11 +26037,7 @@ $Lexicon = {
   ],
   '`ammA' => [
     {
-      'types' => {
-        '`ammA' => {
-          'FW-Wa' => 2
-        }
-      },
+      'types' => {},
       'entry' => '`ammA',
       'form' => '`ammA',
       'lines' => [
@@ -28617,9 +26062,7 @@ $Lexicon = {
     {
       'types' => {
         '`Atiy' => {
-          'NapAt' => 1,
-          'NAn_Nayn' => 1,
-          'N0F' => 1
+          'NapAt' => 1
         },
         '`utY' => {
           'Nap' => 1
@@ -28640,6 +26083,9 @@ $Lexicon = {
         'EtA     EutA    Nap     arrogant;insolent'
       ],
       'patterns' => {
+        '`Atiy' => [
+          'FACI'
+        ],
         '`utY' => [
           'FuCY'
         ]
@@ -28661,9 +26107,6 @@ $Lexicon = {
           'Nh' => 2,
           'Nhy' => 2,
           'N0_Nh' => 2
-        },
-        '`atiyy' => {
-          'N-ap' => 1
         }
       },
       'entry' => '`atiyy',
@@ -28697,12 +26140,7 @@ $Lexicon = {
   ],
   '`alla' => [
     {
-      'types' => {
-        '`alla' => {
-          'FW-Wa' => 1,
-          'FW-Wa-n~a' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`alla',
       'form' => '`alla',
       'lines' => [
@@ -28724,11 +26162,7 @@ $Lexicon = {
   ],
   '`abdAl^safiy`' => [
     {
-      'types' => {
-        '`abdAl^safiy`' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl^safiy`',
       'form' => '`abdAl^safiy`',
       'lines' => [
@@ -28749,11 +26183,7 @@ $Lexicon = {
   ],
   '` r ` r' => [
     {
-      'types' => {
-        '`ar`ar' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ar`ar',
       'form' => '`ar`ar',
       'lines' => [
@@ -28772,11 +26202,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ar`araT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ar`ar',
       'form' => '`ar`araT',
       'lines' => [
@@ -28797,11 +26223,7 @@ $Lexicon = {
   ],
   '`abdAlrabb' => [
     {
-      'types' => {
-        '`abdAlrabb' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlrabb',
       'form' => '`abdAlrabb',
       'lines' => [
@@ -28827,7 +26249,6 @@ $Lexicon = {
           'PV_C' => 1,
           'IV_C' => 1
         },
-        '`A_t' => {},
         '`iy_t' => {
           'IV_V' => 1
         }
@@ -28865,7 +26286,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`ayya_t' => {},
         '`ayyi_t' => {
           'IV_yu' => 1
         }
@@ -28894,11 +26314,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ay_t' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ay_t',
       'form' => '`ay_t',
       'lines' => [
@@ -28922,8 +26338,7 @@ $Lexicon = {
       'types' => {
         '`zir' => {
           'IV' => 1
-        },
-        '`azar' => {}
+        }
       },
       'entry' => '`azar',
       'form' => '`azar',
@@ -28955,8 +26370,7 @@ $Lexicon = {
       'types' => {
         '`azzir' => {
           'IV_yu' => 1
-        },
-        '`azzar' => {}
+        }
       },
       'entry' => '`azzar',
       'form' => '`azzar',
@@ -28982,11 +26396,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`azr' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`azr',
       'form' => '`azr',
       'lines' => [
@@ -29017,7 +26427,11 @@ $Lexicon = {
         ';; taEoziyr_1',
         'tEzyr   taEoziyr        N/At    reprimand;censure'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`ziyr' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -29042,7 +26456,11 @@ $Lexicon = {
         '<EtzAr  {iEotizAr       N/At    self-discipline',
         'AEtzAr  {iEotizAr       N/At    self-discipline'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tizAr' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -29056,13 +26474,7 @@ $Lexicon = {
   ],
   '` d \'' => [
     {
-      'types' => {
-        '`adA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adA\'',
       'form' => '`adA\'',
       'lines' => [
@@ -29088,12 +26500,7 @@ $Lexicon = {
       'types' => {
         '`addA\'' => {
           'Nh_Niyn' => 1,
-          'NAt' => 1,
-          'Nayn' => 1,
-          'NAn_Nayn' => 1,
-          'Napdu' => 1,
-          'Nh_Nuwn' => 1,
-          'N0_Nh' => 1
+          'NAt' => 1
         }
       },
       'entry' => '`addA\'',
@@ -29108,7 +26515,11 @@ $Lexicon = {
         'EdA\'    Ead~A\'  Napdu   runner',
         'EdA\'    Ead~A\'  NAt     runners'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '`addA\'' => [
+          'FaCCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCCAL',
@@ -29121,11 +26532,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`adA\'iyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adA\'',
       'form' => '`adA\'iyy',
       'lines' => [
@@ -29147,12 +26554,7 @@ $Lexicon = {
     {
       'types' => {
         'i`tidA\'' => {
-          'NAt' => 2,
-          'Nh' => 2,
-          'Nayn' => 2,
-          'NAn_Nayn' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`tidA\'',
@@ -29172,7 +26574,12 @@ $Lexicon = {
         '<EtdA\'  {iEotidA\'       NAt     attacks;assaults;aggression',
         'AEtdA\'  {iEotidA\'       NAt     attacks;assaults;aggression'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tidA\'' => [
+          'IFtiCAL',
+          'IFtiCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -29188,11 +26595,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'i`tidA\'iyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'i`tidA\'',
       'form' => 'i`tidA\'iyy',
       'lines' => [
@@ -29215,11 +26618,7 @@ $Lexicon = {
   ],
   '` d n' => [
     {
-      'types' => {
-        '`adn' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adn',
       'form' => '`adn',
       'lines' => [
@@ -29238,11 +26637,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`adn' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adn',
       'form' => '`adn',
       'lines' => [
@@ -29261,11 +26656,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`adniyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adn',
       'form' => '`adniyy',
       'lines' => [
@@ -29285,11 +26676,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`adnAn' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adnAn',
       'form' => '`adnAn',
       'lines' => [
@@ -29311,9 +26698,6 @@ $Lexicon = {
       'types' => {
         'ma`Adin' => {
           'Ndip' => 1
-        },
-        'ma`din' => {
-          'Ndu' => 1
         }
       },
       'entry' => 'ma`din',
@@ -29341,11 +26725,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`Adin' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`Adin',
       'form' => 'ma`Adin',
       'lines' => [
@@ -29364,11 +26744,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`diniyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`din',
       'form' => 'ma`diniyy',
       'lines' => [
@@ -29399,7 +26775,11 @@ $Lexicon = {
         ';; taEodiyn_1',
         'tEdyn   taEodiyn        N/At    mining;metallurgy'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`diyn' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -29412,11 +26792,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`diyniyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`diyn',
       'form' => 'ta`diyniyy',
       'lines' => [
@@ -29436,11 +26812,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`addin' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`addin',
       'form' => 'mu`addin',
       'lines' => [
@@ -29461,11 +26833,7 @@ $Lexicon = {
   ],
   '` q \' d' => [
     {
-      'types' => {
-        '`aqA\'idiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqA\'id',
       'form' => '`aqA\'idiyy',
       'lines' => [
@@ -29485,11 +26853,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqA\'idiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqA\'id',
       'form' => '`aqA\'idiyyaT',
       'lines' => [
@@ -29515,7 +26879,6 @@ $Lexicon = {
           'PV_C' => 1,
           'IV_C' => 1
         },
-        '`A_d' => {},
         '`uw_d' => {
           'IV_V' => 1
         }
@@ -29555,8 +26918,7 @@ $Lexicon = {
       'types' => {
         '`awwi_d' => {
           'IV_yu' => 1
-        },
-        '`awwa_d' => {}
+        }
       },
       'entry' => '`awwa_d',
       'form' => '`awwa_d',
@@ -29596,8 +26958,7 @@ $Lexicon = {
         },
         '\'a`a_d' => {
           'PV_C' => 2
-        },
-        '\'a`A_d' => {}
+        }
       },
       'entry' => '\'a`A_d',
       'form' => '\'a`A_d',
@@ -29641,9 +27002,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`awwa_d' => {}
-      },
+      'types' => {},
       'entry' => 'ta`awwa_d',
       'form' => 'ta`awwa_d',
       'lines' => [
@@ -29668,7 +27027,6 @@ $Lexicon = {
         'sta`iy_d' => {
           'IV_V' => 1
         },
-        'ista`A_d' => {},
         'ista`a_d' => {
           'PV_C' => 2
         },
@@ -29704,11 +27062,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aw_d' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aw_d',
       'form' => '`aw_d',
       'lines' => [
@@ -29727,11 +27081,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awa_d' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awa_d',
       'form' => '`awa_d',
       'lines' => [
@@ -29753,9 +27103,6 @@ $Lexicon = {
       'types' => {
         '`uwa_d' => {
           'N' => 1
-        },
-        '`uw_daT' => {
-          'Nap' => 1
         }
       },
       'entry' => '`uw_d',
@@ -29784,11 +27131,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`A_d' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`A_d',
       'form' => 'ma`A_d',
       'lines' => [
@@ -29811,9 +27154,6 @@ $Lexicon = {
       'types' => {
         'ta`Awiy_d' => {
           'Ndip' => 1
-        },
-        'ta`wiy_d' => {
-          'Ndu' => 1
         }
       },
       'entry' => 'ta`wiy_d',
@@ -29842,11 +27182,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`wiy_daT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`wiy_d',
       'form' => 'ta`wiy_daT',
       'lines' => [
@@ -29865,11 +27201,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`wiy_diyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`wiy_d',
       'form' => 'ta`wiy_diyy',
       'lines' => [
@@ -29890,11 +27222,7 @@ $Lexicon = {
   ],
   '` k .z' => [
     {
-      'types' => {
-        '`ukA.z' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ukA.z',
       'form' => '`ukA.z',
       'lines' => [
@@ -29916,12 +27244,7 @@ $Lexicon = {
   ],
   '`abra' => [
     {
-      'types' => {
-        '`abra' => {
-          'FW-Wa' => 1,
-          'FW-Wa-a' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abra',
       'form' => '`abra',
       'lines' => [
@@ -29946,11 +27269,7 @@ $Lexicon = {
   ],
   '` w s' => [
     {
-      'types' => {
-        '`uways' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uways',
       'form' => '`uways',
       'lines' => [
@@ -29975,9 +27294,6 @@ $Lexicon = {
       'types' => {
         '`alAwiyn' => {
           'Ndip' => 1
-        },
-        '`ilwAn' => {
-          'N' => 1
         }
       },
       'entry' => '`ilwAn',
@@ -30006,12 +27322,7 @@ $Lexicon = {
   ],
   '`iwa.da' => [
     {
-      'types' => {
-        '`iwa.da' => {
-          'FW-Wa' => 1,
-          'FW-Wa-a' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iwa.da',
       'form' => '`iwa.da',
       'lines' => [
@@ -30034,11 +27345,7 @@ $Lexicon = {
   ],
   '` k d' => [
     {
-      'types' => {
-        '`ukdaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ukd',
       'form' => '`ukdaT',
       'lines' => [
@@ -30060,11 +27367,7 @@ $Lexicon = {
   ],
   '`abdAl.hAfi.z' => [
     {
-      'types' => {
-        '`abdAl.hAfi.z' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.hAfi.z',
       'form' => '`abdAl.hAfi.z',
       'lines' => [
@@ -30085,11 +27388,7 @@ $Lexicon = {
   ],
   '`abdAlnAfi`' => [
     {
-      'types' => {
-        '`abdAlnAfi`' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlnAfi`',
       'form' => '`abdAlnAfi`',
       'lines' => [
@@ -30113,8 +27412,7 @@ $Lexicon = {
       'types' => {
         '`allil' => {
           'IV_yu' => 1
-        },
-        '`allal' => {}
+        }
       },
       'entry' => '`allal',
       'form' => '`allal',
@@ -30140,9 +27438,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`allal' => {}
-      },
+      'types' => {},
       'entry' => 'ta`allal',
       'form' => 'ta`allal',
       'lines' => [
@@ -30170,7 +27466,6 @@ $Lexicon = {
         '`talil' => {
           'IV_C' => 1
         },
-        'i`tall' => {},
         'i`talal' => {
           'PV_C' => 2
         }
@@ -30211,9 +27506,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`illaT' => {
-          'NapAt' => 1
-        },
         '`ilal' => {
           'N' => 1
         }
@@ -30251,9 +27543,6 @@ $Lexicon = {
           'Nh' => 2,
           'Nhy' => 2,
           'N0_Nh' => 2
-        },
-        '`aliyl' => {
-          'N/ap' => 1
         }
       },
       'entry' => '`aliyl',
@@ -30281,11 +27570,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aliyl' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aliyl',
       'form' => '`aliyl',
       'lines' => [
@@ -30304,11 +27589,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`illiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ill',
       'form' => '`illiyyaT',
       'lines' => [
@@ -30327,11 +27608,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ulAlaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ulAl',
       'form' => '`ulAlaT',
       'lines' => [
@@ -30362,7 +27639,11 @@ $Lexicon = {
         ';; taEoliyl_1',
         'tElyl   taEoliyl        NduAt   explanation;justification'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`liyl' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -30387,7 +27668,11 @@ $Lexicon = {
         '<EtlAl  {iEotilAl       N/At    illness;weakness;defectiveness',
         'AEtlAl  {iEotilAl       N/At    illness;weakness;defectiveness'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tilAl' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -30401,11 +27686,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`luwl' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`luwl',
       'form' => 'ma`luwl',
       'lines' => [
@@ -30424,11 +27705,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`luwl' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`luwl',
       'form' => 'ma`luwl',
       'lines' => [
@@ -30458,7 +27735,11 @@ $Lexicon = {
         ';; muEal~al_1',
         'mEll    muEal~al        NduAt   caused;effect'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`allal' => [
+          'MuFaCCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFaCCaL',
@@ -30471,11 +27752,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`all' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`all',
       'form' => 'mu`all',
       'lines' => [
@@ -30494,11 +27771,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tall' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tall',
       'form' => 'mu`tall',
       'lines' => [
@@ -30516,6 +27789,26 @@ $Lexicon = {
       ],
       'orig' => 'muEotal~',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '`al',
+      'form' => '`alawiyy',
+      'lines' => [
+        ';; Ealawiy~_1',
+        'Elwy    Ealawiy~        Nall    Alawite     [[Ealawiy~/NOUN]]',
+        'Elwy    Ealawiy~        Nall    Alawite     [[Ealawiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaL |<< "awIy"',
+      'suffix' => ' |<< "awIy"',
+      'glosses' => [
+        'Alawite'
+      ],
+      'orig' => 'Ealawiy~',
+      'prefix' => ''
     }
   ],
   '` z z' => [
@@ -30524,7 +27817,6 @@ $Lexicon = {
         '`azaz' => {
           'PV_C_intr' => 1
         },
-        '`azz' => {},
         '`izz' => {
           'IV_V_intr' => 1
         },
@@ -30570,8 +27862,7 @@ $Lexicon = {
       'types' => {
         '`azziz' => {
           'IV_yu' => 1
-        },
-        '`azzaz' => {}
+        }
       },
       'entry' => '`azzaz',
       'form' => '`azzaz',
@@ -30607,7 +27898,6 @@ $Lexicon = {
         '`ziz' => {
           'IV_C_yu' => 1
         },
-        '\'a`azz' => {},
         '\'a`zaz' => {
           'PV_C' => 2
         }
@@ -30652,9 +27942,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`azzaz' => {}
-      },
+      'types' => {},
       'entry' => 'ta`azzaz',
       'form' => 'ta`azzaz',
       'lines' => [
@@ -30706,7 +27994,6 @@ $Lexicon = {
         'sta`izz' => {
           'IV_V' => 1
         },
-        'ista`azz' => {},
         'ista`zaz' => {
           'PV_C' => 2
         }
@@ -30739,11 +28026,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`izz' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`izz',
       'form' => '`izz',
       'lines' => [
@@ -30763,11 +28046,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`izz' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`izz',
       'form' => '`izz',
       'lines' => [
@@ -30787,11 +28066,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`izz' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`izz',
       'form' => '`izz',
       'lines' => [
@@ -30812,11 +28087,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`izzaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`izz',
       'form' => '`izzaT',
       'lines' => [
@@ -30837,11 +28108,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aziyz' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aziyz',
       'form' => '`aziyz',
       'lines' => [
@@ -30863,9 +28130,6 @@ $Lexicon = {
       'types' => {
         '\'a`izz' => {
           'Nap' => 2
-        },
-        '`aziyz' => {
-          'N/ap' => 1
         },
         '\'a`izzA\'' => {
           'Nh' => 2,
@@ -30900,11 +28164,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aziyziyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aziyz',
       'form' => '`aziyziyy',
       'lines' => [
@@ -30923,11 +28183,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aziyziyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aziyz',
       'form' => '`aziyziyy',
       'lines' => [
@@ -30947,11 +28203,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`azz' => {
-          'Nel' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`azz',
       'form' => '\'a`azz',
       'lines' => [
@@ -30972,11 +28224,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uzzY' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uzzY',
       'form' => '`uzzY',
       'lines' => [
@@ -30995,11 +28243,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`azzaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`azz',
       'form' => 'ma`azzaT',
       'lines' => [
@@ -31019,12 +28263,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`ziyz' => {
-          'NF' => 1,
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`ziyz',
       'form' => 'ta`ziyz',
       'lines' => [
@@ -31048,8 +28287,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`ziyz' => {
-          'NAt' => 1,
-          'N' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`ziyz',
@@ -31059,7 +28297,11 @@ $Lexicon = {
         'tEzyz   taEoziyz        N       reinforcement',
         'tEzyz   taEoziyz        NAt     reinforcements;supplies'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`ziyz' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -31084,7 +28326,11 @@ $Lexicon = {
         ';; taEoziyz_3',
         'tEzyz   taEoziyz        N/At    praise;pride'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`ziyz' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '3',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -31109,7 +28355,11 @@ $Lexicon = {
         '<EzAz   <iEozAz N/At    strengthening;fortifications',
         'AEzAz   <iEozAz N/At    strengthening;fortifications'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`zAz' => [
+          'HiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -31126,7 +28376,11 @@ $Lexicon = {
       'entry' => 'i`tizAz',
       'form' => 'i`tizAz',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'i`tizAz' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -31136,11 +28390,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`azziz' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`azziz',
       'form' => 'mu`azziz',
       'lines' => [
@@ -31193,8 +28443,7 @@ $Lexicon = {
       'types' => {
         '`zib' => {
           'IV_intr' => 1
-        },
-        '`azab' => {}
+        }
       },
       'entry' => '`azab',
       'form' => '`azab',
@@ -31225,8 +28474,7 @@ $Lexicon = {
       'types' => {
         '`zub' => {
           'IV_intr' => 1
-        },
-        '`azab' => {}
+        }
       },
       'entry' => '`azab',
       'form' => '`azab',
@@ -31257,8 +28505,7 @@ $Lexicon = {
       'types' => {
         '`azzib' => {
           'IV_yu' => 1
-        },
-        '`azzab' => {}
+        }
       },
       'entry' => '`azzab',
       'form' => '`azzab',
@@ -31285,11 +28532,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uzuwb' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uzuwb',
       'form' => '`uzuwb',
       'lines' => [
@@ -31313,9 +28556,6 @@ $Lexicon = {
           'N' => 2
         },
         '`uzzAb' => {
-          'N' => 1
-        },
-        '`azab' => {
           'N' => 1
         }
       },
@@ -31351,9 +28591,6 @@ $Lexicon = {
       'types' => {
         '`izab' => {
           'N' => 1
-        },
-        '`izbaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`izb',
@@ -31382,11 +28619,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uzbaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uzb',
       'form' => '`uzbaT',
       'lines' => [
@@ -31406,11 +28639,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uzuwbaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uzuwb',
       'form' => '`uzuwbaT',
       'lines' => [
@@ -31430,11 +28659,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uzuwbiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uzuwb',
       'form' => '`uzuwbiyyaT',
       'lines' => [
@@ -31457,9 +28682,6 @@ $Lexicon = {
       'types' => {
         '`uzb' => {
           'N' => 1
-        },
-        '\'a`zab' => {
-          'Nel' => 2
         },
         '`azbA\'' => {
           'Nh' => 1,
@@ -31498,11 +28720,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Azib' => {
-          'N/ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Azib',
       'form' => '`Azib',
       'lines' => [
@@ -31523,11 +28741,7 @@ $Lexicon = {
   ],
   '` m y' => [
     {
-      'types' => {
-        '`Amiy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Amiy',
       'form' => '`Amiy',
       'lines' => [
@@ -31561,7 +28775,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`amiy' => {},
         '`ma' => {
           'IV_0hwnyn' => 1
         },
@@ -31586,6 +28799,9 @@ $Lexicon = {
         'Em      Eoma    IV_0hwnyn       be blind;be obscure'
       ],
       'patterns' => {
+        '`am' => [
+          'FaC'
+        ],
         '`mY' => [
           'FCY'
         ],
@@ -31613,7 +28829,6 @@ $Lexicon = {
           'PV_Atn' => 1,
           'IV_Ann_Pass_yu' => 1
         },
-        '`ammY' => {},
         '`amm' => {
           'IV_0hwnyn_yu' => 1,
           'PV_ttAw' => 1
@@ -31667,7 +28882,6 @@ $Lexicon = {
         '\'a`may' => {
           'PV_Atn' => 2
         },
-        '\'a`mY' => {},
         '\'a`mA' => {
           'PV_h' => 2
         },
@@ -31728,7 +28942,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ta`ammY' => {},
         'ta`amm' => {
           'PV_ttAw_intr' => 1,
           'IV_0hwnyn' => 1
@@ -31766,7 +28979,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ta`AmY' => {},
         'ta`AmA' => {
           'PV_h' => 1,
           'IV_h' => 1
@@ -31810,9 +29022,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`amY' => {
-          'N0' => 1
-        },
         '`amA' => {
           'Nhy' => 1
         }
@@ -31840,11 +29049,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`amiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amiyy',
       'form' => '`amiyyaT',
       'lines' => [
@@ -31864,13 +29069,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`amA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amA\'',
       'form' => '`amA\'',
       'lines' => [
@@ -31891,11 +29090,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`amAyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amAy',
       'form' => '`amAyaT',
       'lines' => [
@@ -31916,11 +29111,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`amA\'iyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amA\'',
       'form' => '`amA\'iyy',
       'lines' => [
@@ -31939,11 +29130,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`amyAn' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amyAn',
       'form' => '`amyAn',
       'lines' => [
@@ -31963,16 +29150,10 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`may' => {
-          'NAn_Nayn' => 2
-        },
         '`amyA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
-        },
-        '\'a`mY' => {
-          'N0' => 2
         },
         '\'a`mA' => {
           'Nhy' => 2
@@ -31997,9 +29178,6 @@ $Lexicon = {
         'EmyAn   EumoyAn N       blind'
       ],
       'patterns' => {
-        '\'a`may' => [
-          'HaFCaL'
-        ],
         '`amyA\'' => [
           'FaCLA\''
         ],
@@ -32018,11 +29196,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`mAT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`mY',
       'form' => 'ma`mAT',
       'lines' => [
@@ -32041,11 +29215,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`miyaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`miy',
       'form' => 'ta`miyaT',
       'lines' => [
@@ -32066,9 +29236,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`Amiy' => {
-          'NAt' => 1,
-          'NAn_Nayn' => 1,
-          'N0_Nh' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`Amiy',
@@ -32080,7 +29248,11 @@ $Lexicon = {
         'tEAmy   taEAmiy NAn_Nayn        blindness',
         'tEAmy   taEAmiy NAt     blindness'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`Amiy' => [
+          'TaFACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFACI',
@@ -32094,11 +29266,7 @@ $Lexicon = {
     {
       'types' => {
         'mu`ammY' => {
-          'N0' => 1
-        },
-        'mu`ammay' => {
-          'NAt' => 1,
-          'NAn_Nayn' => 1
+          'NAt' => 1
         },
         'mu`ammA' => {
           'Nhy' => 1
@@ -32114,8 +29282,8 @@ $Lexicon = {
         'mEmy    muEam~ay        NAt     riddles;puzzles'
       ],
       'patterns' => {
-        'mu`ammay' => [
-          'MuFaCCaL'
+        'mu`ammY' => [
+          'MuFaCCY'
         ]
       },
       'index' => '1',
@@ -32133,13 +29301,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mu`ammY' => {
-          'N0' => 1,
-          'Napdu' => 1
-        },
-        'mu`ammay' => {
-          'NAn_Nayn' => 1
-        },
         'mu`ammA' => {
           'Nhy' => 1
         }
@@ -32153,11 +29314,7 @@ $Lexicon = {
         'mEmy    muEam~ay        NAn_Nayn        enigmatic;camouflaged',
         'mEmA    muEam~A Napdu   enigmatic;camouflaged'
       ],
-      'patterns' => {
-        'mu`ammay' => [
-          'MuFaCCaL'
-        ]
-      },
+      'patterns' => {},
       'index' => '2',
       'entity' => 'adj',
       'morphs' => 'MuFaCCY',
@@ -32175,9 +29332,6 @@ $Lexicon = {
       'types' => {
         '`a.sA\'id' => {
           'Ndip' => 1
-        },
-        '`a.siydaT' => {
-          'Nap' => 1
         }
       },
       'entry' => '`a.siyd',
@@ -32202,11 +29356,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.siydaT' => {
-          'N0' => 2
-        }
-      },
+      'types' => {},
       'entry' => '`a.siyd',
       'form' => '`a.siydaT',
       'lines' => [
@@ -32226,11 +29376,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.siydiyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.siyd',
       'form' => '`a.siydiyy',
       'lines' => [
@@ -32251,12 +29397,7 @@ $Lexicon = {
   ],
   '`uryAniyy' => [
     {
-      'types' => {
-        '`uryAniyy' => {
-          'Nap' => 1,
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uryAniyy',
       'form' => '`uryAniyy',
       'lines' => [
@@ -32281,11 +29422,7 @@ $Lexicon = {
   ],
   '`abdAl^gabbAr' => [
     {
-      'types' => {
-        '`abdAl^gabbAr' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl^gabbAr',
       'form' => '`abdAl^gabbAr',
       'lines' => [
@@ -32306,12 +29443,7 @@ $Lexicon = {
   ],
   '`a.ta^s^g' => [
     {
-      'types' => {
-        '`a.ta^s^giyy' => {
-          'Nap' => 1,
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.ta^s^g',
       'form' => '`a.ta^s^giyy',
       'lines' => [
@@ -32340,7 +29472,6 @@ $Lexicon = {
         '`lin' => {
           'IV-n_yu' => 1
         },
-        '\'a`lan' => {},
         '`lan' => {
           'IV_Pass_yu' => 1,
           'IV-n_Pass_yu' => 1
@@ -32381,8 +29512,7 @@ $Lexicon = {
       'types' => {
         '`talin' => {
           'IV-n' => 1
-        },
-        'i`talan' => {}
+        }
       },
       'entry' => 'i`talan',
       'form' => 'i`talan',
@@ -32408,12 +29538,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`alan' => {
-          'NF' => 1,
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`alan',
       'form' => '`alan',
       'lines' => [
@@ -32435,11 +29560,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`alaniyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`alan',
       'form' => '`alaniyy',
       'lines' => [
@@ -32458,11 +29579,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`alaniyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`alan',
       'form' => '`alaniyyaT',
       'lines' => [
@@ -32481,11 +29598,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`alin' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`alin',
       'form' => '`alin',
       'lines' => [
@@ -32506,9 +29619,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`alAniyyaT' => {
-          'Nap' => 1
-        },
         '`alAniyyaTaN' => {
           'FW-Wa' => 1
         }
@@ -32537,8 +29647,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`lAn' => {
-          'NAt' => 4,
-          'Ndu' => 2
+          'NAt' => 4
         }
       },
       'entry' => '\'i`lAn',
@@ -32552,7 +29661,11 @@ $Lexicon = {
         '<ElAn   <iEolAn NAt     advertisements;signs;billboards',
         'AElAn   <iEolAn NAt     advertisements;signs;billboards'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`lAn' => [
+          'HiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -32572,11 +29685,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'i`lAniyy' => {
-          'N-ap' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'i`lAn',
       'form' => '\'i`lAniyy',
       'lines' => [
@@ -32596,11 +29705,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`lin' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`lin',
       'form' => 'mu`lin',
       'lines' => [
@@ -32620,11 +29725,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`lan' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`lan',
       'form' => 'mu`lan',
       'lines' => [
@@ -32645,11 +29746,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`allAn' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`allAn',
       'form' => '`allAn',
       'lines' => [
@@ -32675,7 +29772,6 @@ $Lexicon = {
         '`iyf' => {
           'IV_V' => 1
         },
-        '`Af' => {},
         '`if' => {
           'PV_C' => 1,
           'IV_C' => 1
@@ -32712,11 +29808,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ayf' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ayf',
       'form' => '`ayf',
       'lines' => [
@@ -32735,11 +29827,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iyAf' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iyAf',
       'form' => '`iyAf',
       'lines' => [
@@ -32758,11 +29846,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ayafAn' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ayafAn',
       'form' => '`ayafAn',
       'lines' => [
@@ -32781,11 +29865,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ayuwf' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ayuwf',
       'form' => '`ayuwf',
       'lines' => [
@@ -32807,11 +29887,7 @@ $Lexicon = {
   ],
   '` \' m' => [
     {
-      'types' => {
-        '`A\'im' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A\'im',
       'form' => '`A\'im',
       'lines' => [
@@ -32832,11 +29908,7 @@ $Lexicon = {
   ],
   '`aysalAn' => [
     {
-      'types' => {
-        '`aysalAn' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aysalAn',
       'form' => '`aysalAn',
       'lines' => [
@@ -32857,11 +29929,7 @@ $Lexicon = {
   ],
   '`abdAl.hAri_t' => [
     {
-      'types' => {
-        '`abdAl.hAri_t' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.hAri_t',
       'form' => '`abdAl.hAri_t',
       'lines' => [
@@ -32887,8 +29955,7 @@ $Lexicon = {
           'N' => 2
         },
         '`inab' => {
-          'NapAt' => 1,
-          'N' => 1
+          'NapAt' => 1
         }
       },
       'entry' => '`inab',
@@ -32903,6 +29970,9 @@ $Lexicon = {
       'patterns' => {
         '\'a`nAb' => [
           'HaFCAL'
+        ],
+        '`inab' => [
+          'FiCaL'
         ]
       },
       'index' => '1',
@@ -32917,12 +29987,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`unnAb' => {
-          'N' => 1,
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`unnAb',
       'form' => '`unnAb',
       'lines' => [
@@ -32942,11 +30007,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`annAbaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`annAb',
       'form' => '`annAbaT',
       'lines' => [
@@ -32965,11 +30026,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`annAbiyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`annAb',
       'form' => '`annAbiyy',
       'lines' => [
@@ -32990,11 +30047,7 @@ $Lexicon = {
   ],
   '`Ama_dAk' => [
     {
-      'types' => {
-        '`Ama_dAk' => {
-          'FW-Wa' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Ama_dAk',
       'form' => '`Ama_dAk',
       'lines' => [
@@ -33022,7 +30075,6 @@ $Lexicon = {
         '`rur' => {
           'IV_C' => 1
         },
-        '`arr' => {},
         '`arar' => {
           'PV_C' => 1
         }
@@ -33062,11 +30114,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`urraT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`urr',
       'form' => '`urraT',
       'lines' => [
@@ -33087,11 +30135,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`arar' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arar',
       'form' => '`arar',
       'lines' => [
@@ -33111,11 +30155,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`arAr' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arAr',
       'form' => '`arAr',
       'lines' => [
@@ -33134,11 +30174,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`arraT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`arr',
       'form' => 'ma`arraT',
       'lines' => [
@@ -33159,11 +30195,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tarr' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tarr',
       'form' => 'mu`tarr',
       'lines' => [
@@ -33187,7 +30219,6 @@ $Lexicon = {
   '` r m' => [
     {
       'types' => {
-        '`arram' => {},
         '`arrim' => {
           'IV_yu' => 1
         }
@@ -33217,7 +30248,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'i`taram' => {},
         '`tarim' => {
           'IV_intr' => 1
         }
@@ -33247,11 +30277,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`arim' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arim',
       'form' => '`arim',
       'lines' => [
@@ -33271,11 +30297,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`urAm' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`urAm',
       'form' => '`urAm',
       'lines' => [
@@ -33298,9 +30320,6 @@ $Lexicon = {
       'types' => {
         '`uram' => {
           'N' => 1
-        },
-        '`urmaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`urm',
@@ -33331,11 +30350,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`arimaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arim',
       'form' => '`arimaT',
       'lines' => [
@@ -33354,11 +30369,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Arim' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Arim',
       'form' => '`Arim',
       'lines' => [
@@ -33380,12 +30391,7 @@ $Lexicon = {
   ],
   '` n n' => [
     {
-      'types' => {
-        '`an' => {
-          'FW-Wa' => 1,
-          'FW-Wa-n' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`an',
       'form' => '`an',
       'lines' => [
@@ -33420,8 +30426,7 @@ $Lexicon = {
         },
         '`nin' => {
           'IV-n_intr' => 1
-        },
-        '`ann' => {}
+        }
       },
       'entry' => '`ann',
       'form' => '`ann',
@@ -33467,11 +30472,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`anan' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`anan',
       'form' => '`anan',
       'lines' => [
@@ -33491,11 +30492,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`unnaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`unn',
       'form' => '`unnaT',
       'lines' => [
@@ -33514,11 +30511,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`anAnaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`anAn',
       'form' => '`anAnaT',
       'lines' => [
@@ -33537,11 +30530,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`anAn' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`anAn',
       'form' => '`anAn',
       'lines' => [
@@ -33564,9 +30553,6 @@ $Lexicon = {
       'types' => {
         '\'a`inn' => {
           'Nap' => 2
-        },
-        '`inAn' => {
-          'N' => 1
         }
       },
       'entry' => '`inAn',
@@ -33590,11 +30576,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`inniyn' => {
-          'Ndu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`inniyn',
       'form' => '`inniyn',
       'lines' => [
@@ -33615,11 +30597,7 @@ $Lexicon = {
   ],
   '` d y' => [
     {
-      'types' => {
-        '`adiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adiyy',
       'form' => '`adiyy',
       'lines' => [
@@ -33639,11 +30617,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`diyaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`diy',
       'form' => 'ma`diyaT',
       'lines' => [
@@ -33663,11 +30637,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`Adiy' => {
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`Adiy',
       'form' => 'ma`Adiy',
       'lines' => [
@@ -33686,11 +30656,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`diyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`diy',
       'form' => 'ta`diyaT',
       'lines' => [
@@ -33712,9 +30678,7 @@ $Lexicon = {
     {
       'types' => {
         '`Adiy' => {
-          'NapAt' => 1,
-          'NAn_Nayn' => 1,
-          'N0F' => 1
+          'NapAt' => 1
         },
         '`awAdiy' => {
           'N0_Nh' => 1
@@ -33736,6 +30700,9 @@ $Lexicon = {
         'EwAd    EawAd   NK      aggressive;hostile'
       ],
       'patterns' => {
+        '`Adiy' => [
+          'FACI'
+        ],
         '`awAdiy' => [
           'FawACI'
         ]
@@ -33753,9 +30720,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`AdiyaT' => {
-          'NapAt' => 1
-        },
         '`awAdiy' => {
           'N0_Nh' => 1
         }
@@ -33787,11 +30751,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`addiyaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`addiy',
       'form' => 'mu`addiyaT',
       'lines' => [
@@ -33816,9 +30776,7 @@ $Lexicon = {
           'Nuwn_Niyn' => 1
         },
         'mu`Adiy' => {
-          'N0F_Nh' => 1,
-          'NapAt' => 1,
-          'NAn_Nayn' => 1
+          'NapAt' => 1
         }
       },
       'entry' => 'mu`Adiy',
@@ -33831,7 +30789,11 @@ $Lexicon = {
         'mEAd    muEAd   Nuwn_Niyn       hostile;anti-',
         'mEAdy   muEAdiy NapAt   hostile;anti-'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`Adiy' => [
+          'MuFACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFACI',
@@ -33846,9 +30808,7 @@ $Lexicon = {
     {
       'types' => {
         'mu`diy' => {
-          'N0F_Nh' => 1,
-          'NapAt' => 1,
-          'NAn_Nayn' => 1
+          'NapAt' => 1
         },
         'mu`d' => {
           'Nuwn_Niyn' => 1
@@ -33864,7 +30824,11 @@ $Lexicon = {
         'mEd     muEod   Nuwn_Niyn       contagious;infectious',
         'mEdy    muEodiy NapAt   contagious;infectious'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`diy' => [
+          'MuFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFCI',
@@ -33885,9 +30849,7 @@ $Lexicon = {
           'Nuwn_Niyn' => 1
         },
         'muta`addiy' => {
-          'N0F_Nh' => 1,
-          'NapAt' => 1,
-          'NAn_Nayn' => 1
+          'NapAt' => 1
         },
         'mu`tadiy' => {
           'NapAt' => 1,
@@ -33911,6 +30873,9 @@ $Lexicon = {
         'mEtdy   muEotadiy       NapAt   aggressor;assailant'
       ],
       'patterns' => {
+        'muta`addiy' => [
+          'MutaFaCCI'
+        ],
         'mu`tadiy' => [
           'MuFtaCI'
         ]
@@ -33929,11 +30894,7 @@ $Lexicon = {
   ],
   '` n d m' => [
     {
-      'types' => {
-        '`andam' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`andam',
       'form' => '`andam',
       'lines' => [
@@ -33953,11 +30914,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`andamiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`andam',
       'form' => '`andamiyy',
       'lines' => [
@@ -33979,11 +30936,7 @@ $Lexicon = {
   ],
   'ya`quwb' => [
     {
-      'types' => {
-        'ya`quwb' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ya`quwb',
       'form' => 'ya`quwb',
       'lines' => [
@@ -34005,11 +30958,7 @@ $Lexicon = {
   ],
   '` ^g w' => [
     {
-      'types' => {
-        '`a^gwaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^gw',
       'form' => '`a^gwaT',
       'lines' => [
@@ -34031,11 +30980,7 @@ $Lexicon = {
   ],
   '`izzat' => [
     {
-      'types' => {
-        '`izzat' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`izzat',
       'form' => '`izzat',
       'lines' => [
@@ -34057,11 +31002,7 @@ $Lexicon = {
   ],
   '`utiyy' => [
     {
-      'types' => {
-        '`utiyy' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`utiyy',
       'form' => '`utiyy',
       'lines' => [
@@ -34085,9 +31026,6 @@ $Lexicon = {
       'types' => {
         '`asAli^g' => {
           'Ndip' => 1
-        },
-        '`uslu^g' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`uslu^g',
@@ -34117,9 +31055,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`usluw^g' => {
-          'Ndu' => 1
-        },
         '`asAliy^g' => {
           'Ndip' => 1
         },
@@ -34162,9 +31097,6 @@ $Lexicon = {
       'types' => {
         '`anA.sir' => {
           'Ndip' => 2
-        },
-        '`un.sur' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`un.sur',
@@ -34199,9 +31131,6 @@ $Lexicon = {
       'types' => {
         '`anA.sir' => {
           'Ndip' => 1
-        },
-        '`un.sur' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`un.sur',
@@ -34230,11 +31159,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`un.sur' => {
-          'Ndu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`un.sur',
       'form' => '`un.sur',
       'lines' => [
@@ -34254,11 +31179,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`un.suriyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`un.sur',
       'form' => '`un.suriyy',
       'lines' => [
@@ -34278,11 +31199,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`un.suriyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`un.sur',
       'form' => '`un.suriyy',
       'lines' => [
@@ -34301,11 +31218,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`un.suriyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`un.sur',
       'form' => '`un.suriyyaT',
       'lines' => [
@@ -34327,7 +31240,6 @@ $Lexicon = {
   '` z q' => [
     {
       'types' => {
-        '`azaq' => {},
         '`ziq' => {
           'IV' => 1
         }
@@ -34362,9 +31274,6 @@ $Lexicon = {
       'types' => {
         'ma`Aziq' => {
           'Ndip' => 1
-        },
-        'mi`zaqaT' => {
-          'NapAt' => 1
         }
       },
       'entry' => 'mi`zaq',
@@ -34395,11 +31304,7 @@ $Lexicon = {
   ],
   '`abdAlmahdiy' => [
     {
-      'types' => {
-        '`abdAlmahdiy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmahdiy',
       'form' => '`abdAlmahdiy',
       'lines' => [
@@ -34423,9 +31328,6 @@ $Lexicon = {
       'types' => {
         '\'a`_dAq' => {
           'N' => 2
-        },
-        '`i_dq' => {
-          'Ndu' => 1
         },
         '`u_duwq' => {
           'N' => 1
@@ -34467,8 +31369,7 @@ $Lexicon = {
       'types' => {
         '`A.zil' => {
           'IV_intr_yu' => 1
-        },
-        '`A.zal' => {}
+        }
       },
       'entry' => '`A.zal',
       'form' => '`A.zal',
@@ -34494,11 +31395,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`A.zalaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`A.zal',
       'form' => 'mu`A.zalaT',
       'lines' => [
@@ -34521,11 +31418,7 @@ $Lexicon = {
   ],
   '`abdAlmuhaymin' => [
     {
-      'types' => {
-        '`abdAlmuhaymin' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmuhaymin',
       'form' => '`abdAlmuhaymin',
       'lines' => [
@@ -34553,7 +31446,6 @@ $Lexicon = {
         '`uss' => {
           'IV_V' => 1
         },
-        '`ass' => {},
         '`asas' => {
           'PV_C' => 1
         }
@@ -34602,8 +31494,7 @@ $Lexicon = {
         },
         'i`tasas' => {
           'PV_C' => 2
-        },
-        'i`tass' => {}
+        }
       },
       'entry' => 'i`tass',
       'form' => 'i`tass',
@@ -34639,11 +31530,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ass' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ass',
       'form' => '`ass',
       'lines' => [
@@ -34663,11 +31550,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`asas' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`asas',
       'form' => '`asas',
       'lines' => [
@@ -34686,11 +31569,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`assaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ass',
       'form' => '`assaT',
       'lines' => [
@@ -34710,11 +31589,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`assAs' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`assAs',
       'form' => '`assAs',
       'lines' => [
@@ -34736,11 +31611,7 @@ $Lexicon = {
   ],
   '` k \'' => [
     {
-      'types' => {
-        '`akkAwiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`akkA\'',
       'form' => '`akkAwiyy',
       'lines' => [
@@ -34759,11 +31630,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`akkAwiyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`akkA\'',
       'form' => '`akkAwiyy',
       'lines' => [
@@ -34788,8 +31655,7 @@ $Lexicon = {
       'types' => {
         '`aq`iq' => {
           'IV_yu' => 1
-        },
-        '`aq`aq' => {}
+        }
       },
       'entry' => '`aq`aq',
       'form' => '`aq`aq',
@@ -34815,11 +31681,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aq`aqaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aq`aq',
       'form' => '`aq`aqaT',
       'lines' => [
@@ -34842,9 +31704,6 @@ $Lexicon = {
       'types' => {
         '`aqA`iq' => {
           'Ndip' => 1
-        },
-        '`aq`aq' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`aq`aq',
@@ -34873,13 +31732,7 @@ $Lexicon = {
   ],
   '` r \'' => [
     {
-      'types' => {
-        '`arA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arA\'',
       'form' => '`arA\'',
       'lines' => [
@@ -34903,10 +31756,7 @@ $Lexicon = {
     {
       'types' => {
         'isti`rA\'' => {
-          'NAt' => 2,
-          'Nh' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti`rA\'',
@@ -34922,7 +31772,12 @@ $Lexicon = {
         '<stErA\' {isotiEorA\'     NAt     self-exposure;exhibitionism',
         'AstErA\' {isotiEorA\'     NAt     self-exposure;exhibitionism'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'isti`rA\'' => [
+          'IstiFCAL',
+          'IstiFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCAL',
@@ -34938,7 +31793,6 @@ $Lexicon = {
   '` _d r' => [
     {
       'types' => {
-        '`a_dar' => {},
         '`_dir' => {
           'IV' => 1
         }
@@ -34974,7 +31828,6 @@ $Lexicon = {
         '`_dar' => {
           'IV_Pass_yu' => 1
         },
-        '\'a`_dar' => {},
         '`_dir' => {
           'IV_yu' => 1
         }
@@ -35010,9 +31863,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`a_d_dar' => {}
-      },
+      'types' => {},
       'entry' => 'ta`a_d_dar',
       'form' => 'ta`a_d_dar',
       'lines' => [
@@ -35036,8 +31887,7 @@ $Lexicon = {
       'types' => {
         '`ta_dir' => {
           'IV' => 1
-        },
-        'i`ta_dar' => {}
+        }
       },
       'entry' => 'i`ta_dar',
       'form' => 'i`ta_dar',
@@ -35066,7 +31916,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ista`_dar' => {},
         'sta`_dir' => {
           'IV' => 1
         }
@@ -35092,9 +31941,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`u_dr' => {
-          'Ndu' => 1
-        },
         '\'a`_dAr' => {
           'N' => 2
         }
@@ -35124,11 +31970,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u_draT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u_dr',
       'form' => '`u_draT',
       'lines' => [
@@ -35147,11 +31989,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u_driyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u_dr',
       'form' => '`u_driyy',
       'lines' => [
@@ -35171,11 +32009,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i_dAr' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i_dAr',
       'form' => '`i_dAr',
       'lines' => [
@@ -35195,13 +32029,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a_drA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a_drA\'',
       'form' => '`a_drA\'',
       'lines' => [
@@ -35228,11 +32056,6 @@ $Lexicon = {
         },
         '`a_dArY' => {
           'N0' => 1
-        },
-        '`a_drA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
         }
       },
       'entry' => '`a_drA\'',
@@ -35265,9 +32088,6 @@ $Lexicon = {
       'types' => {
         'ma`A_dir' => {
           'Ndip' => 1
-        },
-        'ma`_diraT' => {
-          'Napdu' => 1
         }
       },
       'entry' => 'ma`_dir',
@@ -35297,9 +32117,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mi`_dAr' => {
-          'Ndu' => 1
-        },
         'ma`A_diyr' => {
           'Ndip' => 1
         }
@@ -35342,7 +32159,11 @@ $Lexicon = {
         '<E*Ar   <iEo*Ar N/At    imposition;obligation',
         'AE*Ar   <iEo*Ar N/At    imposition;obligation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`_dAr' => [
+          'HiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -35366,7 +32187,11 @@ $Lexicon = {
         ';; taEa*~ur_1',
         'tE*r    taEa*~ur        N/At    difficulty;unfeasibility'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`a_d_dur' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -35391,7 +32216,11 @@ $Lexicon = {
         '<Et*Ar  {iEoti*Ar       N/At    apology;excuse',
         'AEt*Ar  {iEoti*Ar       N/At    apology;excuse'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`ti_dAr' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -35404,11 +32233,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`a_d_dir' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`a_d_dir',
       'form' => 'muta`a_d_dir',
       'lines' => [
@@ -35430,11 +32255,7 @@ $Lexicon = {
   ],
   '` w w' => [
     {
-      'types' => {
-        '`awwA\'' => {
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awwA\'',
       'form' => '`awwA\'',
       'lines' => [
@@ -35455,11 +32276,7 @@ $Lexicon = {
   ],
   '` w s ^g' => [
     {
-      'types' => {
-        '`awsa^g' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awsa^g',
       'form' => '`awsa^g',
       'lines' => [
@@ -35481,11 +32298,7 @@ $Lexicon = {
   ],
   '`abdAlmu\'min' => [
     {
-      'types' => {
-        '`abdAlmu\'min' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmu\'min',
       'form' => '`abdAlmu\'min',
       'lines' => [
@@ -35507,7 +32320,6 @@ $Lexicon = {
   '` r ^g' => [
     {
       'types' => {
-        '`ara^g' => {},
         '`ru^g' => {
           'IV' => 1
         }
@@ -35541,8 +32353,7 @@ $Lexicon = {
       'types' => {
         '`ra^g' => {
           'IV_intr' => 1
-        },
-        '`ari^g' => {}
+        }
       },
       'entry' => '`ari^g',
       'form' => '`ari^g',
@@ -35574,8 +32385,7 @@ $Lexicon = {
       'types' => {
         '`arri^g' => {
           'IV_yu' => 1
-        },
-        '`arra^g' => {}
+        }
       },
       'entry' => '`arra^g',
       'form' => '`arra^g',
@@ -35605,7 +32415,6 @@ $Lexicon = {
         '`ra^g' => {
           'IV_Pass_yu' => 1
         },
-        '\'a`ra^g' => {},
         '`ri^g' => {
           'IV_yu' => 1
         }
@@ -35641,9 +32450,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`arra^g' => {}
-      },
+      'types' => {},
       'entry' => 'ta`arra^g',
       'form' => 'ta`arra^g',
       'lines' => [
@@ -35664,9 +32471,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Ara^g' => {}
-      },
+      'types' => {},
       'entry' => 'ta`Ara^g',
       'form' => 'ta`Ara^g',
       'lines' => [
@@ -35687,7 +32492,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'in`ara^g' => {},
         'n`ari^g' => {
           'IV_intr' => 1
         }
@@ -35717,11 +32521,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ara^g' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ara^g',
       'form' => '`ara^g',
       'lines' => [
@@ -35741,11 +32541,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ara^gaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ara^g',
       'form' => '`ara^gaT',
       'lines' => [
@@ -35765,9 +32561,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`ra^g' => {
-          'Nel' => 2
-        },
         '`ur^gAn' => {
           'N' => 1
         },
@@ -35808,11 +32601,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`ra^g' => {
-          'N0' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`ra^g',
       'form' => '\'a`ra^g',
       'lines' => [
@@ -35833,9 +32622,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ma`ra^g' => {
-          'Ndu' => 1
-        },
         'ma`Ari^g' => {
           'Ndip' => 1
         }
@@ -35865,9 +32651,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ma`ra^g' => {
-          'Ndu' => 1
-        },
         'ma`Ari^g' => {
           'Ndip' => 1
         }
@@ -35899,9 +32682,6 @@ $Lexicon = {
       'types' => {
         'mi`rA^g' => {
           'Ndu' => 1
-        },
-        'mi`ra^g' => {
-          'Ndu' => 1
         }
       },
       'entry' => 'mi`ra^g',
@@ -35927,11 +32707,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mi`rA^g' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mi`rA^g',
       'form' => 'mi`rA^g',
       'lines' => [
@@ -35950,11 +32726,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Ariy^g' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`Ariy^g',
       'form' => 'ta`Ariy^g',
       'lines' => [
@@ -35985,7 +32757,11 @@ $Lexicon = {
         ';; taEar~uj_1',
         'tErj    taEar~uj        N/At    zigzag;winding'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`arru^g' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -35998,11 +32774,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`arri^g' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`arri^g',
       'form' => 'muta`arri^g',
       'lines' => [
@@ -36023,11 +32795,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mun`ari^g' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mun`ari^g',
       'form' => 'mun`ari^g',
       'lines' => [
@@ -36058,7 +32826,11 @@ $Lexicon = {
         ';; munoEaraj_1',
         'mnErj   munoEaraj       NduAt   curve;turn'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mun`ara^g' => [
+          'MunFaCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MunFaCaL',
@@ -36073,11 +32845,7 @@ $Lexicon = {
   ],
   '` n ^g h' => [
     {
-      'types' => {
-        '`un^guhiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`un^guh',
       'form' => '`un^guhiyyaT',
       'lines' => [
@@ -36102,9 +32870,6 @@ $Lexicon = {
       'types' => {
         'b\'u`^guwbT' => {
           'FW-Wa' => 2
-        },
-        '\'u`^guwbaT' => {
-          'Napdu' => 2
         }
       },
       'entry' => '\'u`^guwb',
@@ -36132,9 +32897,6 @@ $Lexicon = {
       'types' => {
         '\'a`A^giyb' => {
           'Ndip' => 2
-        },
-        '\'u`^guwbaT' => {
-          'Napdu' => 2
         }
       },
       'entry' => '\'u`^guwb',
@@ -36163,11 +32925,7 @@ $Lexicon = {
   ],
   '`abdAlfA.dil' => [
     {
-      'types' => {
-        '`abdAlfA.dil' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlfA.dil',
       'form' => '`abdAlfA.dil',
       'lines' => [
@@ -36189,7 +32947,6 @@ $Lexicon = {
   '` s l' => [
     {
       'types' => {
-        '`assal' => {},
         '`assil' => {
           'IV_yu' => 1
         }
@@ -36218,9 +32975,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`asal' => {
-          'N' => 1
-        },
         '\'a`sAl' => {
           'N' => 2
         },
@@ -36258,8 +33012,7 @@ $Lexicon = {
     {
       'types' => {
         '`asaliyy' => {
-          'NAt' => 1,
-          'N-ap' => 1
+          'NAt' => 1
         }
       },
       'entry' => '`asal',
@@ -36282,11 +33035,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`assAl' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`assAl',
       'form' => '`assAl',
       'lines' => [
@@ -36305,11 +33054,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`assAl' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`assAl',
       'form' => '`assAl',
       'lines' => [
@@ -36328,11 +33073,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`assAlaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`assAl',
       'form' => '`assAlaT',
       'lines' => [
@@ -36351,11 +33092,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`salaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`sal',
       'form' => 'ma`salaT',
       'lines' => [
@@ -36385,7 +33122,11 @@ $Lexicon = {
         ';; taEosiyl_1',
         'tEsyl   taEosiyl        NapAt   nap;siesta'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`siyl' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -36398,11 +33139,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`suwl' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`suwl',
       'form' => 'ma`suwl',
       'lines' => [
@@ -36421,11 +33158,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`assal' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`assal',
       'form' => 'mu`assal',
       'lines' => [
@@ -36447,7 +33180,6 @@ $Lexicon = {
   '` b w' => [
     {
       'types' => {
-        '`abA' => {},
         '`bY' => {
           'IV_0_Pass_yu' => 1
         },
@@ -36488,6 +33220,9 @@ $Lexicon = {
         ],
         '`abaw' => [
           'FaCaL'
+        ],
+        '`ab' => [
+          'FaC'
         ]
       },
       'index' => '1',
@@ -36512,7 +33247,6 @@ $Lexicon = {
           'IV_0hwnyn_yu' => 2,
           'PV_ttAw' => 1
         },
-        '`abbY' => {},
         '`abbA' => {
           'PV_h' => 1
         },
@@ -36559,11 +33293,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ubuwwaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ubuww',
       'form' => '`ubuwwaT',
       'lines' => [
@@ -36585,9 +33315,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`abwaT' => {
-          'Napdu' => 1
-        },
         '`abaw' => {
           'NAt' => 1
         }
@@ -36618,14 +33345,30 @@ $Lexicon = {
       ],
       'orig' => 'Eabowap',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '`ubY',
+      'form' => '`ubayAt',
+      'lines' => [
+        ';; EubayAt_1',
+        'EbyAt   EubayAt Nprop   Ubayat'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCY |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'Ubayat'
+      ],
+      'orig' => 'EubayAt',
+      'prefix' => ''
     }
   ],
   '` q b l' => [
     {
       'types' => {
-        '`uqbuwl' => {
-          'Ndu' => 1
-        },
         '`aqAbiyl' => {
           'Ndip' => 1
         }
@@ -36657,11 +33400,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uqbuwlaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uqbuwl',
       'form' => '`uqbuwlaT',
       'lines' => [
@@ -36682,13 +33421,7 @@ $Lexicon = {
   ],
   '` l y \'' => [
     {
-      'types' => {
-        '`alyA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`alyA\'',
       'form' => '`alyA\'',
       'lines' => [
@@ -36712,13 +33445,7 @@ $Lexicon = {
   ],
   '` z \'' => [
     {
-      'types' => {
-        '`azA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`azA\'',
       'form' => '`azA\'',
       'lines' => [
@@ -36745,8 +33472,7 @@ $Lexicon = {
       'types' => {
         '`.tal' => {
           'IV_intr' => 1
-        },
-        '`a.til' => {}
+        }
       },
       'entry' => '`a.til',
       'form' => '`a.til',
@@ -36778,8 +33504,7 @@ $Lexicon = {
       'types' => {
         '`a.t.til' => {
           'IV_yu' => 1
-        },
-        '`a.t.tal' => {}
+        }
       },
       'entry' => '`a.t.tal',
       'form' => '`a.t.tal',
@@ -36806,9 +33531,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`a.t.tal' => {}
-      },
+      'types' => {},
       'entry' => 'ta`a.t.tal',
       'form' => 'ta`a.t.tal',
       'lines' => [
@@ -36830,11 +33553,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.tal' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.tal',
       'form' => '`a.tal',
       'lines' => [
@@ -36857,9 +33576,6 @@ $Lexicon = {
       'types' => {
         '\'a`.tAl' => {
           'N' => 2
-        },
-        '`u.tl' => {
-          'N' => 1
         }
       },
       'entry' => '`u.tl',
@@ -36890,11 +33606,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u.tlaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u.tl',
       'form' => '`u.tlaT',
       'lines' => [
@@ -36915,11 +33627,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.tAlaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.tAl',
       'form' => '`a.tAlaT',
       'lines' => [
@@ -36940,11 +33648,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.tiyl' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.tiyl',
       'form' => '`a.tiyl',
       'lines' => [
@@ -36974,7 +33678,11 @@ $Lexicon = {
         ';; taEoTiyl_1',
         'tETyl   taEoTiyl        N/At    hindering;interruption;obstruction'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`.tiyl' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -36999,7 +33707,11 @@ $Lexicon = {
         ';; taEaT~ul_1',
         'tETl    taEaT~ul        N/At    interruption;breakdown'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`a.t.tul' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -37012,11 +33724,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A.til' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A.til',
       'form' => '`A.til',
       'lines' => [
@@ -37036,11 +33744,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A.til' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A.til',
       'form' => '`A.til',
       'lines' => [
@@ -37060,11 +33764,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awA.til' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awA.til',
       'form' => '`awA.til',
       'lines' => [
@@ -37094,7 +33794,11 @@ $Lexicon = {
         ';; muEaT~il_1',
         'mETl    muEaT~il        NduAt   jammer;blocker'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`a.t.til' => [
+          'MuFaCCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFaCCiL',
@@ -37107,11 +33811,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`a.t.tal' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`a.t.tal',
       'form' => 'mu`a.t.tal',
       'lines' => [
@@ -37132,11 +33832,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`a.t.til' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`a.t.til',
       'form' => 'muta`a.t.til',
       'lines' => [
@@ -37158,11 +33854,7 @@ $Lexicon = {
   ],
   '`abdAlmaq.suwd' => [
     {
-      'types' => {
-        '`abdAlmaq.suwd' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmaq.suwd',
       'form' => '`abdAlmaq.suwd',
       'lines' => [
@@ -37183,11 +33875,7 @@ $Lexicon = {
   ],
   '`abdAlma\'muwn' => [
     {
-      'types' => {
-        '`abdAlma\'muwn' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlma\'muwn',
       'form' => '`abdAlma\'muwn',
       'lines' => [
@@ -37211,8 +33899,7 @@ $Lexicon = {
       'types' => {
         '`arrib' => {
           'IV_yu' => 1
-        },
-        '`arrab' => {}
+        }
       },
       'entry' => '`arrab',
       'form' => '`arrab',
@@ -37240,8 +33927,7 @@ $Lexicon = {
       'types' => {
         '`rib' => {
           'IV' => 1
-        },
-        '\'a`rab' => {}
+        }
       },
       'entry' => '\'a`rab',
       'form' => '\'a`rab',
@@ -37269,9 +33955,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`arrab' => {}
-      },
+      'types' => {},
       'entry' => 'ta`arrab',
       'form' => 'ta`arrab',
       'lines' => [
@@ -37295,8 +33979,7 @@ $Lexicon = {
       'types' => {
         'sta`rib' => {
           'IV_intr' => 1
-        },
-        'ista`rab' => {}
+        }
       },
       'entry' => 'ista`rab',
       'form' => 'ista`rab',
@@ -37321,9 +34004,6 @@ $Lexicon = {
       'types' => {
         '\'a`rAb' => {
           'N' => 2
-        },
-        '`arab' => {
-          'N' => 1
         }
       },
       'entry' => '`arab',
@@ -37351,11 +34031,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`arabiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arab',
       'form' => '`arabiyy',
       'lines' => [
@@ -37375,11 +34051,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`arabiyy' => {
-          'N/ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arab',
       'form' => '`arabiyy',
       'lines' => [
@@ -37399,9 +34071,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`arabaT' => {
-          'Napdu' => 1
-        },
         '`arab' => {
           'NAt' => 1
         }
@@ -37432,11 +34101,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`arrAb' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arrAb',
       'form' => '`arrAb',
       'lines' => [
@@ -37456,11 +34121,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`rAbiyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`rAb',
       'form' => '\'a`rAbiyy',
       'lines' => [
@@ -37480,11 +34141,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uruwbaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uruwb',
       'form' => '`uruwbaT',
       'lines' => [
@@ -37503,11 +34160,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uruwbaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uruwb',
       'form' => '`uruwbaT',
       'lines' => [
@@ -37538,7 +34191,11 @@ $Lexicon = {
         ';; taEoriyb_1',
         'tEryb   taEoriyb        N/At    Arabization;translation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`riyb' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -37563,7 +34220,11 @@ $Lexicon = {
         '<ErAb   <iEorAb N/At    declaration;expressing;voicing',
         'AErAb   <iEorAb N/At    declaration;expressing;voicing'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`rAb' => [
+          'HiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -37577,11 +34238,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`arrib' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`arrib',
       'form' => 'mu`arrib',
       'lines' => [
@@ -37601,11 +34258,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`arrab' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`arrab',
       'form' => 'mu`arrab',
       'lines' => [
@@ -37625,11 +34278,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'musta`rib' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'musta`rib',
       'form' => 'musta`rib',
       'lines' => [
@@ -37648,11 +34297,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'musta`rab' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'musta`rab',
       'form' => 'musta`rab',
       'lines' => [
@@ -37673,11 +34318,7 @@ $Lexicon = {
   ],
   '`abdAlrAfi`' => [
     {
-      'types' => {
-        '`abdAlrAfi`' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlrAfi`',
       'form' => '`abdAlrAfi`',
       'lines' => [
@@ -37701,9 +34342,6 @@ $Lexicon = {
       'types' => {
         '`asAqil' => {
           'Ndip' => 1
-        },
-        '`asqal' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`asqal',
@@ -37735,9 +34373,6 @@ $Lexicon = {
       'types' => {
         '`asAqiyl' => {
           'Ndip' => 1
-        },
-        '`usquwl' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`usquwl',
@@ -37768,11 +34403,7 @@ $Lexicon = {
   ],
   '`abdAldAfi`' => [
     {
-      'types' => {
-        '`abdAldAfi`' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAldAfi`',
       'form' => '`abdAldAfi`',
       'lines' => [
@@ -37794,7 +34425,6 @@ $Lexicon = {
   '` b l' => [
     {
       'types' => {
-        '\'a`bal' => {},
         '`bil' => {
           'IV_yu' => 1
         }
@@ -37830,9 +34460,6 @@ $Lexicon = {
       'types' => {
         '`ibAl' => {
           'N' => 1
-        },
-        '`abl' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`abl',
@@ -37859,11 +34486,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abAl' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abAl',
       'form' => '`abAl',
       'lines' => [
@@ -37882,11 +34505,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abAlaT' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abAl',
       'form' => '`abAlaT',
       'lines' => [
@@ -37905,11 +34524,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`bal' => {
-          'N' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`bal',
       'form' => '\'a`bal',
       'lines' => [
@@ -37929,11 +34544,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`baliyy' => {
-          'N-ap' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`bal',
       'form' => '\'a`baliyy',
       'lines' => [
@@ -37953,11 +34564,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`bil' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`bil',
       'form' => 'mu`bil',
       'lines' => [
@@ -37978,11 +34585,7 @@ $Lexicon = {
   ],
   '`abdAlrAziq' => [
     {
-      'types' => {
-        '`abdAlrAziq' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlrAziq',
       'form' => '`abdAlrAziq',
       'lines' => [
@@ -38003,11 +34606,7 @@ $Lexicon = {
   ],
   '`a^srAwiy' => [
     {
-      'types' => {
-        '`a^srAwiy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^srAwiy',
       'form' => '`a^srAwiy',
       'lines' => [
@@ -38028,11 +34627,7 @@ $Lexicon = {
   ],
   '`A^g^guwr' => [
     {
-      'types' => {
-        '`A^g^guwriyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A^g^guwr',
       'form' => '`A^g^guwriyy',
       'lines' => [
@@ -38053,13 +34648,7 @@ $Lexicon = {
   ],
   '` y \'' => [
     {
-      'types' => {
-        '`ayA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ayA\'',
       'form' => '`ayA\'',
       'lines' => [
@@ -38081,13 +34670,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'i`yA\'' => {
-          'Nh' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'i`yA\'',
       'form' => '\'i`yA\'',
       'lines' => [
@@ -38121,7 +34704,6 @@ $Lexicon = {
         '`w' => {
           'IV_0hwnyn' => 1
         },
-        '`awY' => {},
         '`wiy' => {
           'IV_0hAnn' => 1
         },
@@ -38149,6 +34731,9 @@ $Lexicon = {
         ],
         '`away' => [
           'FaCaL'
+        ],
+        '`aw' => [
+          'FaC'
         ],
         '`wiy' => [
           'FCI'
@@ -38182,7 +34767,6 @@ $Lexicon = {
           'IV_0hwnyn_yu' => 1,
           'PV_ttAw' => 1
         },
-        '`AwY' => {},
         '`Away' => {
           'PV_Atn' => 1,
           'IV_Ann_Pass_yu' => 1
@@ -38225,7 +34809,6 @@ $Lexicon = {
         'ista`w' => {
           'PV_ttAw' => 2
         },
-        'ista`wY' => {},
         'sta`w' => {
           'IV_0hwnyn' => 1
         },
@@ -38275,13 +34858,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uwA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uwA\'',
       'form' => '`uwA\'',
       'lines' => [
@@ -38303,11 +34880,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`AwiyaT' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Awiy',
       'form' => 'mu`AwiyaT',
       'lines' => [
@@ -38326,11 +34899,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`AwiyaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Awiy',
       'form' => 'mu`AwiyaT',
       'lines' => [
@@ -38352,7 +34921,6 @@ $Lexicon = {
   '` _d b' => [
     {
       'types' => {
-        '`a_dub' => {},
         '`_dub' => {
           'IV_intr' => 1
         }
@@ -38384,7 +34952,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a_dab' => {},
         '`_dib' => {
           'IV' => 1
         }
@@ -38418,8 +34985,7 @@ $Lexicon = {
       'types' => {
         '`a_d_dib' => {
           'IV_yu' => 1
-        },
-        '`a_d_dab' => {}
+        }
       },
       'entry' => '`a_d_dab',
       'form' => '`a_d_dab',
@@ -38449,7 +35015,6 @@ $Lexicon = {
         '`_dab' => {
           'IV_Pass_yu' => 1
         },
-        '\'a`_dab' => {},
         '`_dib' => {
           'IV_yu' => 1
         }
@@ -38487,9 +35052,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`a_d_dab' => {}
-      },
+      'types' => {},
       'entry' => 'ta`a_d_dab',
       'form' => 'ta`a_d_dab',
       'lines' => [
@@ -38514,8 +35077,7 @@ $Lexicon = {
       'types' => {
         'sta`_dib' => {
           'IV' => 1
-        },
-        'ista`_dab' => {}
+        }
       },
       'entry' => 'ista`_dab',
       'form' => 'ista`_dab',
@@ -38538,11 +35100,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a_db' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a_db',
       'form' => '`a_db',
       'lines' => [
@@ -38581,6 +35139,9 @@ $Lexicon = {
       'patterns' => {
         '\'a`_dib' => [
           'HaFCiL'
+        ],
+        '`a_dAb' => [
+          'FaCAL'
         ]
       },
       'index' => '1',
@@ -38595,11 +35156,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u_duwbaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u_duwb',
       'form' => '`u_duwbaT',
       'lines' => [
@@ -38619,11 +35176,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`_dab' => {
-          'Nel' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`_dab',
       'form' => '\'a`_dab',
       'lines' => [
@@ -38655,7 +35208,11 @@ $Lexicon = {
         ';; taEo*iyb_1',
         'tE*yb   taEo*iyb        N/At    torture;punishment'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`_diyb' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -38668,11 +35225,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`a_d_dab' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`a_d_dab',
       'form' => 'mu`a_d_dab',
       'lines' => [
@@ -38692,11 +35245,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`a_d_dib' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`a_d_dib',
       'form' => 'mu`a_d_dib',
       'lines' => [
@@ -38720,8 +35269,7 @@ $Lexicon = {
       'types' => {
         '`nis' => {
           'IV' => 1
-        },
-        '`anas' => {}
+        }
       },
       'entry' => '`anas',
       'form' => '`anas',
@@ -38749,11 +35297,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`unuwsaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`unuws',
       'form' => '`unuwsaT',
       'lines' => [
@@ -38773,9 +35317,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`Anis' => {
-          'N' => 1
-        },
         '`awAnis' => {
           'Ndip' => 1
         }
@@ -38807,7 +35348,6 @@ $Lexicon = {
   '` r b d' => [
     {
       'types' => {
-        '`arbad' => {},
         '`arbid' => {
           'IV_intr_yu' => 1
         }
@@ -38836,11 +35376,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`arbadaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arbad',
       'form' => '`arbadaT',
       'lines' => [
@@ -38861,11 +35397,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`arbadaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arbad',
       'form' => '`arbadaT',
       'lines' => [
@@ -38885,11 +35417,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`irbiyd' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`irbiyd',
       'form' => '`irbiyd',
       'lines' => [
@@ -38909,11 +35437,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`arbid' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`arbid',
       'form' => 'mu`arbid',
       'lines' => [
@@ -38936,7 +35460,6 @@ $Lexicon = {
   '` n f' => [
     {
       'types' => {
-        '`annaf' => {},
         '`annif' => {
           'IV_yu' => 1
         }
@@ -38971,8 +35494,7 @@ $Lexicon = {
         },
         '`nif' => {
           'IV_yu' => 1
-        },
-        '\'a`naf' => {}
+        }
       },
       'entry' => '\'a`naf',
       'form' => '\'a`naf',
@@ -39005,11 +35527,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`unf' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`unf',
       'form' => '`unf',
       'lines' => [
@@ -39029,11 +35547,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'lA`unf' => {
-          'N_L' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`unf',
       'form' => 'lA`unf',
       'lines' => [
@@ -39052,11 +35566,7 @@ $Lexicon = {
       'prefix' => 'lA >| '
     },
     {
-      'types' => {
-        '`unfiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`unf',
       'form' => '`unfiyy',
       'lines' => [
@@ -39076,11 +35586,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'lA`unfiyy' => {
-          'Nall_L' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`unf',
       'form' => 'lA`unfiyy',
       'lines' => [
@@ -39099,11 +35605,7 @@ $Lexicon = {
       'prefix' => 'lA >| '
     },
     {
-      'types' => {
-        'lA`unfiyyaT' => {
-          'Nap_L' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`unf',
       'form' => 'lA`unfiyyaT',
       'lines' => [
@@ -39122,11 +35624,7 @@ $Lexicon = {
       'prefix' => 'lA >| '
     },
     {
-      'types' => {
-        '`aniyf' => {
-          'N/ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aniyf',
       'form' => '`aniyf',
       'lines' => [
@@ -39146,11 +35644,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`naf' => {
-          'Nel' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`naf',
       'form' => '\'a`naf',
       'lines' => [
@@ -39182,7 +35676,11 @@ $Lexicon = {
         ';; taEoniyf_1',
         'tEnyf   taEoniyf        N/At    censure;reprimand'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`niyf' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -39195,11 +35693,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`anafaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`anaf',
       'form' => '`anafaT',
       'lines' => [
@@ -39218,11 +35712,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`anafiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`anaf',
       'form' => '`anafiyy',
       'lines' => [
@@ -39246,8 +35736,7 @@ $Lexicon = {
       'types' => {
         '`a.t.tir' => {
           'IV_yu' => 1
-        },
-        '`a.t.tar' => {}
+        }
       },
       'entry' => '`a.t.tar',
       'form' => '`a.t.tar',
@@ -39272,9 +35761,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`a.t.tar' => {}
-      },
+      'types' => {},
       'entry' => 'ta`a.t.tar',
       'form' => 'ta`a.t.tar',
       'lines' => [
@@ -39295,9 +35782,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`i.tr' => {
-          'N' => 1
-        },
         '`u.tuwr' => {
           'N/At' => 1
         }
@@ -39325,11 +35809,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.tir' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.tir',
       'form' => '`a.tir',
       'lines' => [
@@ -39349,11 +35829,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i.triyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i.tr',
       'form' => '`i.triyy',
       'lines' => [
@@ -39373,11 +35849,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i.triyyaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i.tr',
       'form' => '`i.triyyaT',
       'lines' => [
@@ -39396,11 +35868,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.t.tAr' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => '`a.t.tAr',
       'form' => '`a.t.tAr',
       'lines' => [
@@ -39421,11 +35889,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.t.tAr' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.t.tAr',
       'form' => '`a.t.tAr',
       'lines' => [
@@ -39444,11 +35908,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i.tAraT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i.tAr',
       'form' => '`i.tAraT',
       'lines' => [
@@ -39467,11 +35927,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A.tir' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A.tir',
       'form' => '`A.tir',
       'lines' => [
@@ -39491,11 +35947,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`a.t.tar' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`a.t.tar',
       'form' => 'mu`a.t.tar',
       'lines' => [
@@ -39515,11 +35967,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`.taraT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`.tar',
       'form' => 'ma`.taraT',
       'lines' => [
@@ -39549,7 +35997,11 @@ $Lexicon = {
         ';; taEoTiyr_1',
         'tETyr   taEoTiyr        N/At    aromatizing'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`.tiyr' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -39563,11 +36015,7 @@ $Lexicon = {
   ],
   '` b q r' => [
     {
-      'types' => {
-        '`abqar' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abqar',
       'form' => '`abqar',
       'lines' => [
@@ -39588,9 +36036,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`abqariyy' => {
-          'Nall' => 1
-        },
         '`abAqir' => {
           'Nap' => 1
         }
@@ -39619,11 +36064,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abqariyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abqar',
       'form' => '`abqariyyaT',
       'lines' => [
@@ -39645,11 +36086,7 @@ $Lexicon = {
   ],
   '`abdAllAwiy' => [
     {
-      'types' => {
-        '`abdAllAwiy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAllAwiy',
       'form' => '`abdAllAwiy',
       'lines' => [
@@ -39670,11 +36107,7 @@ $Lexicon = {
   ],
   '`ubaydl' => [
     {
-      'types' => {
-        '`ubaydliyy' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ubaydl',
       'form' => '`ubaydliyy',
       'lines' => [
@@ -39695,11 +36128,7 @@ $Lexicon = {
   ],
   'mu`allA' => [
     {
-      'types' => {
-        'mu`allA' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`allA',
       'form' => 'mu`allA',
       'lines' => [
@@ -39724,10 +36153,9 @@ $Lexicon = {
         '`ayiy' => {
           'PV_C_intr' => 1
         },
-        '`yA' => {
+        '`yY' => {
           'IV_0_intr' => 1
-        },
-        '`ayy' => {}
+        }
       },
       'entry' => '`ayy',
       'form' => '`ayy',
@@ -39740,6 +36168,9 @@ $Lexicon = {
       'patterns' => {
         '`ayiy' => [
           'FaCI'
+        ],
+        '`yY' => [
+          'FCY'
         ]
       },
       'index' => '1',
@@ -39760,7 +36191,6 @@ $Lexicon = {
         '`ya' => {
           'IV_0hwnyn' => 1
         },
-        '`ayiy' => {},
         '`yay' => {
           'IV_Ann' => 1
         },
@@ -39768,10 +36198,8 @@ $Lexicon = {
           'PV_w_intr' => 1
         },
         '`yY' => {
+          'IV_0' => 1,
           'IV_0_Pass_yu' => 1
-        },
-        '`yA' => {
-          'IV_0' => 1
         }
       },
       'entry' => '`ayiy',
@@ -39787,7 +36215,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '`ay' => [
-          'FaL'
+          'FaL',
+          'FaC'
         ],
         '`yay' => [
           'FCaL'
@@ -39816,7 +36245,8 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '`ay' => [
-          'FaL'
+          'FaL',
+          'FaC'
         ],
         '`yay' => [
           'FCaL'
@@ -39836,6 +36266,12 @@ $Lexicon = {
     },
     {
       'types' => {
+        '`y' => {
+          'IV_0hwnyn_yu' => 1
+        },
+        '\'a`yay' => {
+          'PV_Atn' => 2
+        },
         '`yiy' => {
           'IV_0hAnn_yu' => 1
         },
@@ -39847,16 +36283,6 @@ $Lexicon = {
         },
         '`yY' => {
           'IV_0_Pass_yu' => 1
-        },
-        '\'a`yay' => {
-          'PV_Atn' => 2
-        },
-        '`y' => {
-          'IV_0hwnyn_yu' => 1
-        },
-        '\'a`yY' => {},
-        '\'a`yA' => {
-          'PV_0h' => 2
         }
       },
       'entry' => '\'a`yY',
@@ -39902,11 +36328,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ayy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ayy',
       'form' => '`ayy',
       'lines' => [
@@ -39926,11 +36348,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iyy' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iyy',
       'form' => '`iyy',
       'lines' => [
@@ -39977,11 +36395,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ayiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ayiyy',
       'form' => '`ayiyy',
       'lines' => [
@@ -40001,11 +36415,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ayyAn' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ayyAn',
       'form' => '`ayyAn',
       'lines' => [
@@ -40044,9 +36454,7 @@ $Lexicon = {
           'Nuwn_Niyn' => 1
         },
         'mu`yiy' => {
-          'N0F_Nh' => 1,
-          'NapAt' => 1,
-          'NAn_Nayn' => 1
+          'NapAt' => 1
         }
       },
       'entry' => 'mu`yiy',
@@ -40059,7 +36467,11 @@ $Lexicon = {
         'mEy     muEoy   Nuwn_Niyn       tired;exhausted',
         'mEyy    muEoyiy NapAt   tired;exhausted'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`yiy' => [
+          'MuFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFCI',
@@ -40076,7 +36488,11 @@ $Lexicon = {
       'entry' => 'mu`yiy',
       'form' => 'mu`yiy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'mu`yiy' => [
+          'MuFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFCI',
@@ -40091,15 +36507,8 @@ $Lexicon = {
           'NAt' => 1,
           'NAn_Nayn' => 1
         },
-        'mu`yA' => {
-          'Nhy' => 1
-        },
         'mu`y' => {
           'Nuwn_Niyn' => 1
-        },
-        'mu`yY' => {
-          'N0' => 1,
-          'Napdu' => 1
         }
       },
       'entry' => 'mu`yY',
@@ -40127,11 +36536,7 @@ $Lexicon = {
   ],
   '`abdAlkAfiy' => [
     {
-      'types' => {
-        '`abdAlkAfiy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlkAfiy',
       'form' => '`abdAlkAfiy',
       'lines' => [
@@ -40156,7 +36561,6 @@ $Lexicon = {
         '`az' => {
           'PV_w_intr' => 1
         },
-        '`aziy' => {},
         '`zY' => {
           'IV_0' => 1
         },
@@ -40178,6 +36582,9 @@ $Lexicon = {
         'Ez      Eoza    IV_0hwnyn       be patiently'
       ],
       'patterns' => {
+        '`az' => [
+          'FaC'
+        ],
         '`zY' => [
           'FCY'
         ],
@@ -40202,9 +36609,6 @@ $Lexicon = {
       'types' => {
         'ta`Aziy' => {
           'N0_Nh' => 1
-        },
-        'ta`ziyaT' => {
-          'NapAt' => 1
         }
       },
       'entry' => 'ta`ziy',
@@ -40235,9 +36639,7 @@ $Lexicon = {
     {
       'types' => {
         'mu`azziy' => {
-          'N0F_Nh' => 1,
-          'NapAt' => 1,
-          'NAn_Nayn' => 1
+          'NapAt' => 1
         },
         'mu`azz' => {
           'Nuwn_Niyn' => 1
@@ -40253,7 +36655,11 @@ $Lexicon = {
         'mEz     muEaz~  Nuwn_Niyn       mourners',
         'mEzy    muEaz~iy        NapAt   mourner'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`azziy' => [
+          'MuFaCCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFaCCI',
@@ -40268,11 +36674,7 @@ $Lexicon = {
   ],
   '`uwayrAn' => [
     {
-      'types' => {
-        '`uwayrAn' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uwayrAn',
       'form' => '`uwayrAn',
       'lines' => [
@@ -40293,11 +36695,7 @@ $Lexicon = {
   ],
   '`abdAl.hAkim' => [
     {
-      'types' => {
-        '`abdAl.hAkim' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.hAkim',
       'form' => '`abdAl.hAkim',
       'lines' => [
@@ -40318,11 +36716,7 @@ $Lexicon = {
   ],
   '`abdAl.habiyb' => [
     {
-      'types' => {
-        '`abdAl.habiyb' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.habiyb',
       'form' => '`abdAl.habiyb',
       'lines' => [
@@ -40343,11 +36737,7 @@ $Lexicon = {
   ],
   '`abdAlbAsi.t' => [
     {
-      'types' => {
-        '`abdAlbAsi.t' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlbAsi.t',
       'form' => '`abdAlbAsi.t',
       'lines' => [
@@ -40369,7 +36759,6 @@ $Lexicon = {
   '` d m' => [
     {
       'types' => {
-        '`adim' => {},
         '`dam' => {
           'IV' => 1
         }
@@ -40407,8 +36796,7 @@ $Lexicon = {
         },
         '`dam' => {
           'IV_Pass_yu' => 1
-        },
-        '\'a`dam' => {}
+        }
       },
       'entry' => '\'a`dam',
       'form' => '\'a`dam',
@@ -40442,7 +36830,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'in`adam' => {},
         'n`adim' => {
           'IV_intr' => 1
         }
@@ -40472,11 +36859,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`adam' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adam',
       'form' => '`adam',
       'lines' => [
@@ -40497,11 +36880,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`adamiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adam',
       'form' => '`adamiyy',
       'lines' => [
@@ -40520,11 +36899,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`adamiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adam',
       'form' => '`adamiyyaT',
       'lines' => [
@@ -40543,11 +36918,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`adiym' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adiym',
       'form' => '`adiym',
       'lines' => [
@@ -40579,7 +36950,11 @@ $Lexicon = {
         '<EdAm   <iEodAm N/At    execution;capital punishment',
         'AEdAm   <iEodAm N/At    execution;capital punishment'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`dAm' => [
+          'HiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -40604,7 +36979,11 @@ $Lexicon = {
         '<nEdAm  {inoEidAm       N/At    absence of;lack of',
         'AnEdAm  {inoEidAm       N/At    absence of;lack of'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'in`idAm' => [
+          'InFiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'InFiCAL',
@@ -40620,9 +36999,6 @@ $Lexicon = {
       'types' => {
         '`awAdim' => {
           'Ndip' => 1
-        },
-        '`Adim' => {
-          'N/ap' => 1
         }
       },
       'entry' => '`Adim',
@@ -40649,11 +37025,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awAdim' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awAdim',
       'form' => '`awAdim',
       'lines' => [
@@ -40673,11 +37045,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Adim' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Adim',
       'form' => '`Adim',
       'lines' => [
@@ -40697,11 +37065,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`duwm' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`duwm',
       'form' => 'ma`duwm',
       'lines' => [
@@ -40721,11 +37085,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`dim' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`dim',
       'form' => 'mu`dim',
       'lines' => [
@@ -40746,11 +37106,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mun`adim' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mun`adim',
       'form' => 'mun`adim',
       'lines' => [
@@ -40773,11 +37129,7 @@ $Lexicon = {
   ],
   '`abdAlla.tiyf' => [
     {
-      'types' => {
-        '`abdAlla.tiyf' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlla.tiyf',
       'form' => '`abdAlla.tiyf',
       'lines' => [
@@ -40796,11 +37148,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abdAlla.tiyfiyy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlla.tiyf',
       'form' => '`abdAlla.tiyfiyy',
       'lines' => [
@@ -40821,11 +37169,7 @@ $Lexicon = {
   ],
   '` \' b' => [
     {
-      'types' => {
-        '`A\'ib' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A\'ib',
       'form' => '`A\'ib',
       'lines' => [
@@ -40850,8 +37194,7 @@ $Lexicon = {
       'types' => {
         '`qub' => {
           'IV' => 1
-        },
-        '`aqab' => {}
+        }
       },
       'entry' => '`aqab',
       'form' => '`aqab',
@@ -40881,7 +37224,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`aqqab' => {},
         '`aqqib' => {
           'IV_yu' => 1
         }
@@ -40916,8 +37258,7 @@ $Lexicon = {
         },
         '`Aqib' => {
           'IV_yu' => 1
-        },
-        '`Aqab' => {}
+        }
       },
       'entry' => '`Aqab',
       'form' => '`Aqab',
@@ -40952,7 +37293,6 @@ $Lexicon = {
         '`qab' => {
           'IV_Pass_yu' => 1
         },
-        '\'a`qab' => {},
         '`qib' => {
           'IV_yu' => 1
         }
@@ -40988,9 +37328,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`aqqab' => {}
-      },
+      'types' => {},
       'entry' => 'ta`aqqab',
       'form' => 'ta`aqqab',
       'lines' => [
@@ -41011,9 +37349,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Aqab' => {}
-      },
+      'types' => {},
       'entry' => 'ta`Aqab',
       'form' => 'ta`Aqab',
       'lines' => [
@@ -41035,9 +37371,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`uqb' => {
-          'N' => 1
-        },
         '\'a`qAb' => {
           'N' => 2
         }
@@ -41071,9 +37404,6 @@ $Lexicon = {
       'types' => {
         '`aqab' => {
           'NAt' => 1
-        },
-        '`aqabaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`aqab',
@@ -41100,11 +37430,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqabaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqab',
       'form' => '`aqabaT',
       'lines' => [
@@ -41123,11 +37449,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqiyb' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqiyb',
       'form' => '`aqiyb',
       'lines' => [
@@ -41147,11 +37469,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uqAb' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uqAb',
       'form' => '`uqAb',
       'lines' => [
@@ -41175,9 +37493,6 @@ $Lexicon = {
           'N' => 2
         },
         '`iqbAn' => {
-          'N' => 1
-        },
-        '`uqAb' => {
           'N' => 1
         }
       },
@@ -41207,11 +37522,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uqAb' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uqAb',
       'form' => '`uqAb',
       'lines' => [
@@ -41230,11 +37541,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uqAbiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uqAb',
       'form' => '`uqAbiyy',
       'lines' => [
@@ -41257,9 +37564,6 @@ $Lexicon = {
       'types' => {
         '`uquwb' => {
           'NAt' => 1
-        },
-        '`uquwbaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`uquwb',
@@ -41289,11 +37593,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uquwbiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uquwb',
       'form' => '`uquwbiyy',
       'lines' => [
@@ -41314,9 +37614,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`uqbY' => {
-          'N0' => 1
-        },
         '`uqbA' => {
           'Nhy' => 1
         }
@@ -41352,7 +37649,11 @@ $Lexicon = {
         ';; taEoqiyb_1',
         'tEqyb   taEoqiyb        NduAt   criticism;comment'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`qiyb' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -41376,7 +37677,11 @@ $Lexicon = {
         ';; taEoqiyb_2',
         'tEqyb   taEoqiyb        NduAt   pursuit;investigation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`qiyb' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -41389,11 +37694,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`qiybaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`qiyb',
       'form' => 'ta`qiybaT',
       'lines' => [
@@ -41412,11 +37713,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`AqabaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Aqab',
       'form' => 'mu`AqabaT',
       'lines' => [
@@ -41436,11 +37733,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iqAb' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iqAb',
       'form' => '`iqAb',
       'lines' => [
@@ -41460,11 +37753,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iqAbiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iqAb',
       'form' => '`iqAbiyy',
       'lines' => [
@@ -41495,7 +37784,11 @@ $Lexicon = {
         ';; taEaq~ub_1',
         'tEqb    taEaq~ub        N/At    pursuit;investigation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`aqqub' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -41519,7 +37812,11 @@ $Lexicon = {
         ';; taEAqub_1',
         'tEAqb   taEAqub N/At    succession;alternation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`Aqub' => [
+          'TaFACuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFACuL',
@@ -41532,11 +37829,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Aqubiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`Aqub',
       'form' => 'ta`Aqubiyy',
       'lines' => [
@@ -41556,11 +37849,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Aqib' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Aqib',
       'form' => '`Aqib',
       'lines' => [
@@ -41582,9 +37871,6 @@ $Lexicon = {
       'types' => {
         '`awAqib' => {
           'Ndip' => 1
-        },
-        '`AqibaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`Aqib',
@@ -41613,11 +37899,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`aqqib' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`aqqib',
       'form' => 'mu`aqqib',
       'lines' => [
@@ -41637,11 +37919,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Aqib' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Aqib',
       'form' => 'mu`Aqib',
       'lines' => [
@@ -41661,11 +37939,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Aqab' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Aqab',
       'form' => 'mu`Aqab',
       'lines' => [
@@ -41685,11 +37959,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`Aqib' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`Aqib',
       'form' => 'muta`Aqib',
       'lines' => [
@@ -41710,11 +37980,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uqayb' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uqayb',
       'form' => '`uqayb',
       'lines' => [
@@ -41735,11 +38001,7 @@ $Lexicon = {
   ],
   '`abdAl`liym' => [
     {
-      'types' => {
-        '`abdAl`liym' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl`liym',
       'form' => '`abdAl`liym',
       'lines' => [
@@ -41760,11 +38022,7 @@ $Lexicon = {
   ],
   '`abdAl^galiyl' => [
     {
-      'types' => {
-        '`abdAl^galiyl' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl^galiyl',
       'form' => '`abdAl^galiyl',
       'lines' => [
@@ -41785,11 +38043,7 @@ $Lexicon = {
   ],
   '`abduh' => [
     {
-      'types' => {
-        '`abduh' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abduh',
       'form' => '`abduh',
       'lines' => [
@@ -41812,7 +38066,6 @@ $Lexicon = {
   '` z f' => [
     {
       'types' => {
-        '`azaf' => {},
         '`zif' => {
           'IV' => 1
         }
@@ -41847,8 +38100,7 @@ $Lexicon = {
       'types' => {
         '`zuf' => {
           'IV' => 1
-        },
-        '`azaf' => {}
+        }
       },
       'entry' => '`azaf',
       'form' => '`azaf',
@@ -41877,11 +38129,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`azf' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`azf',
       'form' => '`azf',
       'lines' => [
@@ -41901,11 +38149,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aziyf' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aziyf',
       'form' => '`aziyf',
       'lines' => [
@@ -41925,11 +38169,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`azuwf' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`azuwf',
       'form' => '`azuwf',
       'lines' => [
@@ -41952,9 +38192,6 @@ $Lexicon = {
       'types' => {
         'ma`Azif' => {
           'Ndip' => 1
-        },
-        'mi`zaf' => {
-          'Ndu' => 1
         }
       },
       'entry' => 'mi`zaf',
@@ -41981,11 +38218,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Azif' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Azif',
       'form' => '`Azif',
       'lines' => [
@@ -42005,11 +38238,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`zuwfaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`zuwf',
       'form' => 'ma`zuwfaT',
       'lines' => [
@@ -42031,11 +38260,7 @@ $Lexicon = {
   ],
   '`uwfr' => [
     {
-      'types' => {
-        '`uwfraT' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uwfr',
       'form' => '`uwfraT',
       'lines' => [
@@ -42059,8 +38284,7 @@ $Lexicon = {
       'types' => {
         '`raq' => {
           'IV' => 1
-        },
-        '`ariq' => {}
+        }
       },
       'entry' => '`ariq',
       'form' => '`ariq',
@@ -42091,8 +38315,7 @@ $Lexicon = {
       'types' => {
         '`arriq' => {
           'IV_yu' => 1
-        },
-        '`arraq' => {}
+        }
       },
       'entry' => '`arraq',
       'form' => '`arraq',
@@ -42123,8 +38346,7 @@ $Lexicon = {
         },
         '`raq' => {
           'IV_Pass_yu' => 1
-        },
-        '\'a`raq' => {}
+        }
       },
       'entry' => '\'a`raq',
       'form' => '\'a`raq',
@@ -42155,9 +38377,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`arraq' => {}
-      },
+      'types' => {},
       'entry' => 'ta`arraq',
       'form' => 'ta`arraq',
       'lines' => [
@@ -42178,7 +38398,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'i`taraq' => {},
         '`tariq' => {
           'IV' => 1
         }
@@ -42210,8 +38429,7 @@ $Lexicon = {
       'types' => {
         'sta`riq' => {
           'IV' => 1
-        },
-        'ista`raq' => {}
+        }
       },
       'entry' => 'ista`raq',
       'form' => 'ista`raq',
@@ -42236,9 +38454,6 @@ $Lexicon = {
       'types' => {
         '`uruwq' => {
           'N' => 1
-        },
-        '`irq' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`irq',
@@ -42266,11 +38481,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`irq' => {
-          'Ndu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`irq',
       'form' => '`irq',
       'lines' => [
@@ -42290,11 +38501,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`irqiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`irq',
       'form' => '`irqiyy',
       'lines' => [
@@ -42314,11 +38521,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`irqiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`irq',
       'form' => '`irqiyyaT',
       'lines' => [
@@ -42338,11 +38541,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`araq' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`araq',
       'form' => '`araq',
       'lines' => [
@@ -42361,11 +38560,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`araq' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`araq',
       'form' => '`araq',
       'lines' => [
@@ -42384,11 +38579,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`arAqaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arAq',
       'form' => '`arAqaT',
       'lines' => [
@@ -42408,11 +38599,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ariyq' => {
-          'N/ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ariyq',
       'form' => '`ariyq',
       'lines' => [
@@ -42433,7 +38620,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`ariyqAt' => {},
         '`ariyq' => {
           'NAt' => 1
         }
@@ -42461,11 +38647,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`irAq' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`irAq',
       'form' => '`irAq',
       'lines' => [
@@ -42484,11 +38666,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`irAqiyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => '`irAq',
       'form' => '`irAqiyy',
       'lines' => [
@@ -42508,11 +38686,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`raq' => {
-          'Nel' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`raq',
       'form' => '\'a`raq',
       'lines' => [
@@ -42532,11 +38706,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`ruwq' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`ruwq',
       'form' => 'ma`ruwq',
       'lines' => [
@@ -42556,11 +38726,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`arraq' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`arraq',
       'form' => 'mu`arraq',
       'lines' => [
@@ -42580,11 +38746,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`arriq' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`arriq',
       'form' => 'mu`arriq',
       'lines' => [
@@ -42603,11 +38765,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`riq' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`riq',
       'form' => 'mu`riq',
       'lines' => [
@@ -42627,11 +38785,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`arqAn' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arqAn',
       'form' => '`arqAn',
       'lines' => [
@@ -42661,7 +38815,11 @@ $Lexicon = {
         ';; taEar~uq_1',
         'tErq    taEar~uq        N/At    perspiration'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`arruq' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -42675,11 +38833,7 @@ $Lexicon = {
   ],
   '` .d b' => [
     {
-      'types' => {
-        '`a.db' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.db',
       'form' => '`a.db',
       'lines' => [
@@ -42702,7 +38856,6 @@ $Lexicon = {
   '` b s' => [
     {
       'types' => {
-        '`abas' => {},
         '`bis' => {
           'IV' => 1
         }
@@ -42737,8 +38890,7 @@ $Lexicon = {
       'types' => {
         '`abbis' => {
           'IV_yu' => 1
-        },
-        '`abbas' => {}
+        }
       },
       'entry' => '`abbas',
       'form' => '`abbas',
@@ -42764,11 +38916,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abs' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abs',
       'form' => '`abs',
       'lines' => [
@@ -42788,11 +38936,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ubuws' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ubuws',
       'form' => '`ubuws',
       'lines' => [
@@ -42812,11 +38956,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ubuwsaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ubuws',
       'form' => '`ubuwsaT',
       'lines' => [
@@ -42836,11 +38976,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abbAs' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abbAs',
       'form' => '`abbAs',
       'lines' => [
@@ -42859,11 +38995,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abbAsiyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abbAs',
       'form' => '`abbAsiyy',
       'lines' => [
@@ -42882,11 +39014,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abbAsiyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => '`abbAs',
       'form' => '`abbAsiyy',
       'lines' => [
@@ -42917,7 +39045,11 @@ $Lexicon = {
         ';; taEobiys_1',
         'tEbys   taEobiys        N/At    frown'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`biys' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -42929,11 +39061,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Abis' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Abis',
       'form' => '`Abis',
       'lines' => [
@@ -42959,8 +39087,7 @@ $Lexicon = {
       'types' => {
         '`allib' => {
           'IV_yu' => 1
-        },
-        '`allab' => {}
+        }
       },
       'entry' => '`allab',
       'form' => '`allab',
@@ -42989,9 +39116,6 @@ $Lexicon = {
       'types' => {
         '`ulab' => {
           'N' => 1
-        },
-        '`ulbaT' => {
-          'Napdu' => 1
         },
         '`ilAb' => {
           'N' => 1
@@ -43031,9 +39155,6 @@ $Lexicon = {
       'types' => {
         '`ulayb' => {
           'NAt' => 1
-        },
-        '`ulaybaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`ulayb',
@@ -43071,7 +39192,11 @@ $Lexicon = {
         ';; taEoliyb_1',
         'tElyb   taEoliyb        N/At    canning'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`liyb' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -43085,8 +39210,7 @@ $Lexicon = {
     {
       'types' => {
         'mu`allab' => {
-          'NAt' => 1,
-          'N-ap' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'mu`allab',
@@ -43096,7 +39220,11 @@ $Lexicon = {
         'mElb    muEal~ab        N-ap    canned     [[muEal~ab/ADJ]]',
         'mElb    muEal~ab        NAt     canned goods'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`allab' => [
+          'MuFaCCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFaCCaL',
@@ -43111,11 +39239,7 @@ $Lexicon = {
   ],
   '`abdAlkariym' => [
     {
-      'types' => {
-        '`abdAlkariym' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlkariym',
       'form' => '`abdAlkariym',
       'lines' => [
@@ -43139,8 +39263,7 @@ $Lexicon = {
       'types' => {
         '`aqlin' => {
           'IV-n_yu' => 1
-        },
-        '`aqlan' => {}
+        }
       },
       'entry' => '`aqlan',
       'form' => '`aqlan',
@@ -43166,11 +39289,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqlanaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqlan',
       'form' => '`aqlanaT',
       'lines' => [
@@ -43192,11 +39311,7 @@ $Lexicon = {
   ],
   '`abdAlmaniyn' => [
     {
-      'types' => {
-        '`abdAlmaniyn' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmaniyn',
       'form' => '`abdAlmaniyn',
       'lines' => [
@@ -43221,7 +39336,6 @@ $Lexicon = {
         '`ubb' => {
           'IV_V' => 1
         },
-        '`abb' => {},
         '`bub' => {
           'IV_C' => 1
         },
@@ -43264,11 +39378,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`abb' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abb',
       'form' => '`abb',
       'lines' => [
@@ -43288,11 +39398,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ubAb' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ubAb',
       'form' => '`ubAb',
       'lines' => [
@@ -43314,11 +39420,7 @@ $Lexicon = {
   ],
   '`abdAlmu`.tiy' => [
     {
-      'types' => {
-        '`abdAlmu`.tiy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmu`.tiy',
       'form' => '`abdAlmu`.tiy',
       'lines' => [
@@ -43345,8 +39447,7 @@ $Lexicon = {
         },
         '`ri^s' => {
           'IV' => 1
-        },
-        '`ara^s' => {}
+        }
       },
       'entry' => '`ara^s',
       'form' => '`ara^s',
@@ -43382,8 +39483,7 @@ $Lexicon = {
       'types' => {
         '`arri^s' => {
           'IV_yu' => 1
-        },
-        '`arra^s' => {}
+        }
       },
       'entry' => '`arra^s',
       'form' => '`arra^s',
@@ -43409,9 +39509,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`arra^s' => {}
-      },
+      'types' => {},
       'entry' => 'ta`arra^s',
       'form' => 'ta`arra^s',
       'lines' => [
@@ -43435,8 +39533,7 @@ $Lexicon = {
       'types' => {
         '`tari^s' => {
           'IV' => 1
-        },
-        'i`tara^s' => {}
+        }
       },
       'entry' => 'i`tara^s',
       'form' => 'i`tara^s',
@@ -43469,9 +39566,6 @@ $Lexicon = {
         },
         '`uruw^s' => {
           'N' => 1
-        },
-        '`ar^s' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`ar^s',
@@ -43503,11 +39597,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ariy^s' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ariy^s',
       'form' => '`ariy^s',
       'lines' => [
@@ -43526,11 +39616,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ariy^s' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ariy^s',
       'form' => '`ariy^s',
       'lines' => [
@@ -43552,9 +39638,6 @@ $Lexicon = {
       'types' => {
         'ta`Ariy^s' => {
           'Ndip' => 1
-        },
-        'ta`riy^saT' => {
-          'Nap' => 1
         }
       },
       'entry' => 'ta`riy^s',
@@ -43583,11 +39666,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Ari^saT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Ari^s',
       'form' => '`Ari^saT',
       'lines' => [
@@ -43607,11 +39686,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tari^saT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tari^s',
       'form' => 'mu`tari^saT',
       'lines' => [
@@ -43633,13 +39708,7 @@ $Lexicon = {
   ],
   '` n \'' => [
     {
-      'types' => {
-        '`anA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`anA\'',
       'form' => '`anA\'',
       'lines' => [
@@ -43663,12 +39732,7 @@ $Lexicon = {
     {
       'types' => {
         'i`tinA\'' => {
-          'NAt' => 2,
-          'Nh' => 2,
-          'Nayn' => 2,
-          'NAn_Nayn' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`tinA\'',
@@ -43688,7 +39752,12 @@ $Lexicon = {
         '<EtnA\'  {iEotinA\'       NAt     attention;care;concern',
         'AEtnA\'  {iEotinA\'       NAt     attention;care;concern'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tinA\'' => [
+          'IFtiCAL',
+          'IFtiCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -43704,11 +39773,7 @@ $Lexicon = {
   ],
   '`abdAlmu.t.talib' => [
     {
-      'types' => {
-        '`abdAlmu.t.talib' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmu.t.talib',
       'form' => '`abdAlmu.t.talib',
       'lines' => [
@@ -43729,11 +39794,7 @@ $Lexicon = {
   ],
   '` _t m n' => [
     {
-      'types' => {
-        '`u_tmAn' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u_tmAn',
       'form' => '`u_tmAn',
       'lines' => [
@@ -43754,11 +39815,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u_tmAniyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => '`u_tmAn',
       'form' => '`u_tmAniyy',
       'lines' => [
@@ -43778,11 +39835,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u_tmAniyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u_tmAn',
       'form' => '`u_tmAniyy',
       'lines' => [
@@ -43806,7 +39859,6 @@ $Lexicon = {
   '` q l' => [
     {
       'types' => {
-        '`aqal' => {},
         '`qil' => {
           'IV_intr' => 1
         }
@@ -43842,8 +39894,7 @@ $Lexicon = {
       'types' => {
         '`aqqil' => {
           'IV_yu' => 1
-        },
-        '`aqqal' => {}
+        }
       },
       'entry' => '`aqqal',
       'form' => '`aqqal',
@@ -43868,9 +39919,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`aqqal' => {}
-      },
+      'types' => {},
       'entry' => 'ta`aqqal',
       'form' => 'ta`aqqal',
       'lines' => [
@@ -43892,7 +39941,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'i`taqal' => {},
         '`taqil' => {
           'IV' => 1
         }
@@ -43923,9 +39971,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`aql' => {
-          'Ndu' => 1
-        },
         '`uquwl' => {
           'N' => 1
         }
@@ -43958,11 +40003,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqliyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aql',
       'form' => '`aqliyy',
       'lines' => [
@@ -43982,11 +40023,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqliyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aql',
       'form' => '`aqliyy',
       'lines' => [
@@ -44005,11 +40042,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'lA`aqliyy' => {
-          'Nall_L' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aql',
       'form' => 'lA`aqliyy',
       'lines' => [
@@ -44028,11 +40061,7 @@ $Lexicon = {
       'prefix' => 'lA >| '
     },
     {
-      'types' => {
-        '`aqliyyaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aql',
       'form' => '`aqliyyaT',
       'lines' => [
@@ -44052,11 +40081,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqlAniyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqlAn',
       'form' => '`aqlAniyy',
       'lines' => [
@@ -44076,11 +40101,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqlAniyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqlAn',
       'form' => '`aqlAniyyaT',
       'lines' => [
@@ -44099,11 +40120,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uqlaT' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uql',
       'form' => '`uqlaT',
       'lines' => [
@@ -44125,9 +40142,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`iqAl' => {
-          'Ndu' => 1
-        },
         '`uqul' => {
           'Ndu' => 1
         }
@@ -44155,11 +40169,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aquwl' => {
-          'N/ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aquwl',
       'form' => '`aquwl',
       'lines' => [
@@ -44180,11 +40190,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqiyl' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqiyl',
       'form' => '`aqiyl',
       'lines' => [
@@ -44206,9 +40212,6 @@ $Lexicon = {
       'types' => {
         '`aqA\'il' => {
           'Ndip' => 1
-        },
-        '`aqiylaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`aqiyl',
@@ -44233,11 +40236,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqiyliyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqiyl',
       'form' => '`aqiyliyy',
       'lines' => [
@@ -44256,11 +40255,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uqayl' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uqayl',
       'form' => '`uqayl',
       'lines' => [
@@ -44279,11 +40274,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uqayliyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uqayl',
       'form' => '`uqayliyy',
       'lines' => [
@@ -44302,11 +40293,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`qal' => {
-          'Nel' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`qal',
       'form' => '\'a`qal',
       'lines' => [
@@ -44329,9 +40316,6 @@ $Lexicon = {
       'types' => {
         'ma`Aqil' => {
           'Ndip' => 1
-        },
-        'ma`qil' => {
-          'Ndu' => 1
         }
       },
       'entry' => 'ma`qil',
@@ -44373,7 +40357,11 @@ $Lexicon = {
         ';; taEaq~ul_1',
         'tEql    taEaq~ul        N/At    prudence;judiciousness'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`aqqul' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -44386,11 +40374,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`aqquliyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`aqqul',
       'form' => 'ta`aqquliyyaT',
       'lines' => [
@@ -44421,7 +40405,11 @@ $Lexicon = {
         '<EtqAl  {iEotiqAl       N/At    arrest;detention',
         'AEtqAl  {iEotiqAl       N/At    arrest;detention'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tiqAl' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -44434,11 +40422,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'i`tiqAliyy' => {
-          'N-ap' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'i`tiqAl',
       'form' => 'i`tiqAliyy',
       'lines' => [
@@ -44459,9 +40443,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`Aqil' => {
-          'Nall' => 1
-        },
         '`uqalA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -44502,11 +40483,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`quwl' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`quwl',
       'form' => 'ma`quwl',
       'lines' => [
@@ -44527,11 +40504,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`quwliyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`quwl',
       'form' => 'ma`quwliyyaT',
       'lines' => [
@@ -44552,11 +40525,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`aqqil' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`aqqil',
       'form' => 'muta`aqqil',
       'lines' => [
@@ -44587,7 +40556,11 @@ $Lexicon = {
         ';; muEotaqal_1',
         'mEtql   muEotaqal       NduAt   prison camp'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`taqal' => [
+          'MuFtaCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFtaCaL',
@@ -44599,11 +40572,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`taqal' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`taqal',
       'form' => 'mu`taqal',
       'lines' => [
@@ -44623,11 +40592,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`taqaliyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`taqal',
       'form' => 'mu`taqaliyy',
       'lines' => [
@@ -44648,11 +40613,7 @@ $Lexicon = {
   ],
   '` s b' => [
     {
-      'types' => {
-        '`asuwb' => {
-          'Ndu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`asuwb',
       'form' => '`asuwb',
       'lines' => [
@@ -44672,11 +40633,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`asiyb' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`asiyb',
       'form' => '`asiyb',
       'lines' => [
@@ -44700,8 +40657,7 @@ $Lexicon = {
       'types' => {
         '`fi^s' => {
           'IV' => 1
-        },
-        '`afa^s' => {}
+        }
       },
       'entry' => '`afa^s',
       'form' => '`afa^s',
@@ -44730,11 +40686,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`af^s' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`af^s',
       'form' => '`af^s',
       'lines' => [
@@ -44754,11 +40706,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`af^s' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`af^s',
       'form' => '`af^s',
       'lines' => [
@@ -44777,11 +40725,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ufA^saT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ufA^s',
       'form' => '`ufA^saT',
       'lines' => [
@@ -44803,7 +40747,6 @@ $Lexicon = {
   '` w m' => [
     {
       'types' => {
-        '`Am' => {},
         '`uwm' => {
           'IV_V' => 1
         },
@@ -44846,8 +40789,7 @@ $Lexicon = {
       'types' => {
         '`awwim' => {
           'IV_yu' => 1
-        },
-        '`awwam' => {}
+        }
       },
       'entry' => '`awwam',
       'form' => '`awwam',
@@ -44873,11 +40815,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awm' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awm',
       'form' => '`awm',
       'lines' => [
@@ -44898,9 +40836,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`Am' => {
-          'Ndu' => 1
-        },
         '\'a`wAm' => {
           'N' => 2
         }
@@ -44932,8 +40867,7 @@ $Lexicon = {
     {
       'types' => {
         '`awwAm' => {
-          'NapAt' => 1,
-          'Ndu' => 1
+          'NapAt' => 1
         }
       },
       'entry' => '`awwAm',
@@ -44943,7 +40877,11 @@ $Lexicon = {
         'EwAm    Eaw~Am  Ndu     swimmer',
         'EwAm    Eaw~Am  NapAt   swimmer'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '`awwAm' => [
+          'FaCCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCCAL',
@@ -44955,11 +40893,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awwAmaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awwAm',
       'form' => '`awwAmaT',
       'lines' => [
@@ -44992,7 +40926,11 @@ $Lexicon = {
         ';; taEowiym_1',
         'tEwym   taEowiym        N/At    floating'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`wiym' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -45021,7 +40959,6 @@ $Lexicon = {
   '`Ari.dAn' => [
     {
       'types' => {
-        '`Ari.dAn' => {},
         '`Ari.d' => {
           'NAn_Nayn' => 1
         }
@@ -45046,12 +40983,7 @@ $Lexicon = {
   ],
   '`aqiba' => [
     {
-      'types' => {
-        '`aqiba' => {
-          'FW-Wa' => 1,
-          'FW-Wa-a' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqiba',
       'form' => '`aqiba',
       'lines' => [
@@ -45080,8 +41012,7 @@ $Lexicon = {
         },
         '`_dal' => {
           'IV_Pass_yu' => 1
-        },
-        '`a_dal' => {}
+        }
       },
       'entry' => '`a_dal',
       'form' => '`a_dal',
@@ -45119,8 +41050,7 @@ $Lexicon = {
       'types' => {
         '`a_d_dil' => {
           'IV_yu' => 1
-        },
-        '`a_d_dal' => {}
+        }
       },
       'entry' => '`a_d_dal',
       'form' => '`a_d_dal',
@@ -45146,11 +41076,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a_dl' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a_dl',
       'form' => '`a_dl',
       'lines' => [
@@ -45170,11 +41096,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a_duwl' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a_duwl',
       'form' => '`a_duwl',
       'lines' => [
@@ -45200,9 +41122,6 @@ $Lexicon = {
         },
         '`awA_dil' => {
           'Ndip' => 1
-        },
-        '`A_dil' => {
-          'Nall' => 1
         }
       },
       'entry' => '`A_dil',
@@ -45236,11 +41155,7 @@ $Lexicon = {
   ],
   'ma`luwmAt' => [
     {
-      'types' => {
-        'ma`luwmAtiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`luwmAt',
       'form' => 'ma`luwmAtiyy',
       'lines' => [
@@ -45266,7 +41181,6 @@ $Lexicon = {
         '`kuk' => {
           'IV_C_intr' => 1
         },
-        '`akk' => {},
         '`akak' => {
           'PV_C_intr' => 1
         },
@@ -45309,11 +41223,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`akk' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`akk',
       'form' => '`akk',
       'lines' => [
@@ -45334,9 +41244,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`akkaT' => {
-          'Nap' => 1
-        },
         '`akkA\'' => {
           'N0_Nh' => 1
         },
@@ -45396,11 +41303,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`akkaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`akk',
       'form' => '`akkaT',
       'lines' => [
@@ -45419,11 +41322,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`akiyk' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`akiyk',
       'form' => '`akiyk',
       'lines' => [
@@ -45445,11 +41344,7 @@ $Lexicon = {
   ],
   '`abdAlma^giyd' => [
     {
-      'types' => {
-        '`abdAlma^giyd' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlma^giyd',
       'form' => '`abdAlma^giyd',
       'lines' => [
@@ -45491,7 +41386,6 @@ $Lexicon = {
         '`_d' => {
           'IV_0hwnyn' => 1
         },
-        '`a_dA' => {},
         '`a_d' => {
           'PV_ttAw_intr' => 1
         },
@@ -45515,6 +41409,9 @@ $Lexicon = {
       'patterns' => {
         '`a_daw' => [
           'FaCaL'
+        ],
+        '`a_d' => [
+          'FaC'
         ],
         '`_duw' => [
           'FCU'
@@ -45541,6 +41438,9 @@ $Lexicon = {
       'patterns' => {
         '`_dY' => [
           'FCY'
+        ],
+        '`a_d' => [
+          'FaC'
         ]
       },
       'index' => '1',
@@ -45553,11 +41453,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a_dAT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a_dY',
       'form' => '`a_dAT',
       'lines' => [
@@ -45577,11 +41473,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a_dAwaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a_dAw',
       'form' => '`a_dAwaT',
       'lines' => [
@@ -45603,12 +41495,7 @@ $Lexicon = {
   ],
   '` ^s \' r' => [
     {
-      'types' => {
-        '`a^sA\'iriyy' => {
-          'Nap' => 1,
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^sA\'ir',
       'form' => '`a^sA\'iriyy',
       'lines' => [
@@ -45633,11 +41520,7 @@ $Lexicon = {
   ],
   '` l w y' => [
     {
-      'types' => {
-        '`ulwiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ulwiyy',
       'form' => '`ulwiyy',
       'lines' => [
@@ -45660,9 +41543,6 @@ $Lexicon = {
   '` q r b' => [
     {
       'types' => {
-        '`aqrab' => {
-          'Ndu' => 1
-        },
         '`aqArib' => {
           'Ndip' => 1
         }
@@ -45691,11 +41571,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqArib' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqArib',
       'form' => '`aqArib',
       'lines' => [
@@ -45714,11 +41590,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aqArib' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aqArib',
       'form' => '`aqArib',
       'lines' => [
@@ -45737,11 +41609,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`aqrab' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`aqrab',
       'form' => 'mu`aqrab',
       'lines' => [
@@ -45770,8 +41638,7 @@ $Lexicon = {
         '`ib' => {
           'IV_C_intr' => 1,
           'PV_C_intr' => 1
-        },
-        '`Ab' => {}
+        }
       },
       'entry' => '`Ab',
       'form' => '`Ab',
@@ -45812,8 +41679,7 @@ $Lexicon = {
         '`ib' => {
           'PV_C' => 1,
           'IV_C' => 1
-        },
-        '`Ab' => {}
+        }
       },
       'entry' => '`Ab',
       'form' => '`Ab',
@@ -45850,8 +41716,7 @@ $Lexicon = {
       'types' => {
         '`ayyib' => {
           'IV_yu' => 1
-        },
-        '`ayyab' => {}
+        }
       },
       'entry' => '`ayyab',
       'form' => '`ayyab',
@@ -45878,9 +41743,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`ayb' => {
-          'N' => 1
-        },
         '`uyuwb' => {
           'N' => 1
         }
@@ -45914,9 +41776,6 @@ $Lexicon = {
       'types' => {
         '`ayb' => {
           'NAt' => 1
-        },
-        '`aybaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`ayb',
@@ -45943,11 +41802,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iyAb' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iyAb',
       'form' => '`iyAb',
       'lines' => [
@@ -45969,10 +41824,6 @@ $Lexicon = {
       'types' => {
         'ma`Ayib' => {
           'Ndip' => 1
-        },
-        'ma`Ab' => {
-          'Napdu' => 1,
-          'Ndu' => 1
         }
       },
       'entry' => 'ma`Ab',
@@ -46017,11 +41868,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`iyb' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`iyb',
       'form' => 'ma`iyb',
       'lines' => [
@@ -46041,11 +41888,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`iyb' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`iyb',
       'form' => 'mu`iyb',
       'lines' => [
@@ -46065,11 +41908,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`ayyib' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`ayyib',
       'form' => 'mu`ayyib',
       'lines' => [
@@ -46091,11 +41930,7 @@ $Lexicon = {
   ],
   '`abdAl^sakuwr' => [
     {
-      'types' => {
-        '`abdAl^sakuwr' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl^sakuwr',
       'form' => '`abdAl^sakuwr',
       'lines' => [
@@ -46116,11 +41951,7 @@ $Lexicon = {
   ],
   '` y h' => [
     {
-      'types' => {
-        'ma`yuwh' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`yuwh',
       'form' => 'ma`yuwh',
       'lines' => [
@@ -46148,6 +41979,9 @@ $Lexicon = {
       'form' => '`a^siy',
       'lines' => [],
       'patterns' => {
+        '`a^s' => [
+          'FaC'
+        ],
         '`^sY' => [
           'FCY'
         ],
@@ -46166,10 +42000,7 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a^siyyaT' => {
-          'NapAt' => 1
-        },
-        '`a^sAyA' => {
+        '`a^sAyY' => {
           'N0_Nhy' => 1
         }
       },
@@ -46181,8 +42012,8 @@ $Lexicon = {
         'E$AyA   Ea$AyA  N0_Nhy  evenings'
       ],
       'patterns' => {
-        '`a^sAyA' => [
-          'FaCAyA'
+        '`a^sAyY' => [
+          'FaCALY'
         ]
       },
       'index' => '1',
@@ -46200,11 +42031,7 @@ $Lexicon = {
   ],
   '`abdAlwAsi`' => [
     {
-      'types' => {
-        '`abdAlwAsi`' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlwAsi`',
       'form' => '`abdAlwAsi`',
       'lines' => [
@@ -46226,7 +42053,6 @@ $Lexicon = {
   '` t l' => [
     {
       'types' => {
-        '`atal' => {},
         '`tul' => {
           'IV' => 1
         }
@@ -46259,11 +42085,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`atl' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`atl',
       'form' => '`atl',
       'lines' => [
@@ -46284,12 +42106,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`attAl' => {
-          'Nap' => 1,
-          'Ndu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`attAl',
       'form' => '`attAl',
       'lines' => [
@@ -46312,11 +42129,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`atalaT' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`atal',
       'form' => '`atalaT',
       'lines' => [
@@ -46335,11 +42148,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`itAlaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`itAl',
       'form' => '`itAlaT',
       'lines' => [
@@ -46359,11 +42168,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`atiyl' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`atiyl',
       'form' => '`atiyl',
       'lines' => [
@@ -46405,7 +42210,11 @@ $Lexicon = {
       'entry' => 'i`tilAl',
       'form' => 'i`tilAl',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'i`tilAl' => [
+          'IFCiLAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFCiLAL',
@@ -46436,7 +42245,6 @@ $Lexicon = {
           'IV' => 1,
           'IV_Pass_yu' => 1
         },
-        '`alim' => {},
         '`ulim' => {
           'PV_Pass' => 1
         }
@@ -46476,7 +42284,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`allam' => {},
         '`allim' => {
           'IV_yu' => 1
         }
@@ -46506,7 +42313,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`lam' => {},
         '`lam' => {
           'IV_Pass_yu' => 1
         },
@@ -46545,9 +42351,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`allam' => {}
-      },
+      'types' => {},
       'entry' => 'ta`allam',
       'form' => 'ta`allam',
       'lines' => [
@@ -46569,7 +42373,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ista`lam' => {},
         'sta`lim' => {
           'IV' => 1
         }
@@ -46594,12 +42397,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ilm' => {
-          'NF' => 1,
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ilm',
       'form' => '`ilm',
       'lines' => [
@@ -46623,9 +42421,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`ilm' => {
-          'N' => 1
-        },
         '`uluwm' => {
           'N' => 1
         }
@@ -46655,11 +42450,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ilmiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ilm',
       'form' => '`ilmiyy',
       'lines' => [
@@ -46683,9 +42474,6 @@ $Lexicon = {
       'types' => {
         '\'a`lAm' => {
           'N' => 2
-        },
-        '`alam' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`alam',
@@ -46716,11 +42504,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ulmaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ulm',
       'form' => '`ulmaT',
       'lines' => [
@@ -46739,11 +42523,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`lAm' => {
-          'N' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`lAm',
       'form' => '\'a`lAm',
       'lines' => [
@@ -46765,11 +42545,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aliym' => {
-          'N/ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aliym',
       'form' => '`aliym',
       'lines' => [
@@ -46789,11 +42565,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`allAm' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`allAm',
       'form' => '`allAm',
       'lines' => [
@@ -46812,11 +42584,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`allAmaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`allAm',
       'form' => '`allAmaT',
       'lines' => [
@@ -46838,9 +42606,6 @@ $Lexicon = {
       'types' => {
         '`alAm' => {
           'NAt' => 1
-        },
-        '`alAmaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`alAm',
@@ -46873,8 +42638,7 @@ $Lexicon = {
     {
       'types' => {
         '`Alam' => {
-          'Nuwn_Niyn' => 1,
-          'Ndu' => 1
+          'Nuwn_Niyn' => 1
         },
         '`awAlim' => {
           'Ndip' => 1
@@ -46889,6 +42653,9 @@ $Lexicon = {
         'EwAlm   EawAlim Ndip    worlds'
       ],
       'patterns' => {
+        '`Alam' => [
+          'FACaL'
+        ],
         '`awAlim' => [
           'FawACiL'
         ]
@@ -46905,12 +42672,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Alamiyy' => {
-          'NF' => 1,
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Alam',
       'form' => '`Alamiyy',
       'lines' => [
@@ -46933,11 +42695,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`AlamiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Alam',
       'form' => '`AlamiyyaT',
       'lines' => [
@@ -46957,11 +42715,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ti`lAmaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ti`lAm',
       'form' => 'ti`lAmaT',
       'lines' => [
@@ -46983,9 +42737,6 @@ $Lexicon = {
       'types' => {
         'ma`Alim' => {
           'Ndip' => 1
-        },
-        'ma`lam' => {
-          'Ndu' => 1
         }
       },
       'entry' => 'ma`lam',
@@ -47016,8 +42767,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`liym' => {
-          'NAt' => 1,
-          'N' => 1
+          'NAt' => 1
         },
         'ta`Aliym' => {
           'Ndip' => 1
@@ -47032,6 +42782,9 @@ $Lexicon = {
         'tEAlym  taEAliym        Ndip    precepts'
       ],
       'patterns' => {
+        'ta`liym' => [
+          'TaFCIL'
+        ],
         'ta`Aliym' => [
           'TaFACIL'
         ]
@@ -47050,11 +42803,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`liymiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`liym',
       'form' => 'ta`liymiyy',
       'lines' => [
@@ -47087,7 +42836,11 @@ $Lexicon = {
         '<ElAm   <iEolAm N/At    information;media',
         'AElAm   <iEolAm N/At    information;media'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`lAm' => [
+          'HiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -47100,11 +42853,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'i`lAmiyy' => {
-          'N-ap' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'i`lAm',
       'form' => '\'i`lAmiyy',
       'lines' => [
@@ -47136,7 +42885,11 @@ $Lexicon = {
         ';; taEal~um_1',
         'tElm    taEal~um        N/At    learning;study'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`allum' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -47161,7 +42914,11 @@ $Lexicon = {
         '<stElAm {isotiEolAm     N/At    inquiry;information',
         'AstElAm {isotiEolAm     N/At    inquiry;information'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'isti`lAm' => [
+          'IstiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCAL',
@@ -47174,11 +42931,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'isti`lAmiyy' => {
-          'N-ap' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'isti`lAm',
       'form' => 'isti`lAmiyy',
       'lines' => [
@@ -47200,9 +42953,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`Alim' => {
-          'N-ap' => 1
-        },
         '`ulamA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -47237,11 +42987,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Alim' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Alim',
       'form' => '`Alim',
       'lines' => [
@@ -47260,11 +43006,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`lam' => {
-          'Nel' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`lam',
       'form' => '\'a`lam',
       'lines' => [
@@ -47284,12 +43026,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`luwm' => {
-          'N' => 1,
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`luwm',
       'form' => 'ma`luwm',
       'lines' => [
@@ -47313,9 +43050,6 @@ $Lexicon = {
       'types' => {
         'ma`luwm' => {
           'NAt' => 1
-        },
-        'ma`luwmaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => 'ma`luwm',
@@ -47345,11 +43079,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`allim' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`allim',
       'form' => 'mu`allim',
       'lines' => [
@@ -47368,11 +43098,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`allim' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`allim',
       'form' => 'muta`allim',
       'lines' => [
@@ -47394,7 +43120,6 @@ $Lexicon = {
   '` .t f' => [
     {
       'types' => {
-        '`a.taf' => {},
         '`.tif' => {
           'IV_intr' => 1
         }
@@ -47429,8 +43154,7 @@ $Lexicon = {
       'types' => {
         '`a.t.tif' => {
           'IV_yu' => 1
-        },
-        '`a.t.taf' => {}
+        }
       },
       'entry' => '`a.t.taf',
       'form' => '`a.t.taf',
@@ -47455,9 +43179,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`a.t.taf' => {}
-      },
+      'types' => {},
       'entry' => 'ta`a.t.taf',
       'form' => 'ta`a.t.taf',
       'lines' => [
@@ -47478,9 +43200,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`A.taf' => {}
-      },
+      'types' => {},
       'entry' => 'ta`A.taf',
       'form' => 'ta`A.taf',
       'lines' => [
@@ -47502,7 +43222,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'in`a.taf' => {},
         'n`a.tif' => {
           'IV' => 1
         }
@@ -47533,7 +43252,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'i`ta.taf' => {},
         '`ta.tif' => {
           'IV_intr' => 1
         }
@@ -47563,7 +43281,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ista`.taf' => {},
         'sta`.tif' => {
           'IV' => 1
         }
@@ -47588,11 +43305,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.tf' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.tf',
       'form' => '`a.tf',
       'lines' => [
@@ -47614,9 +43327,6 @@ $Lexicon = {
       'types' => {
         '\'a`.tAf' => {
           'N' => 2
-        },
-        '`i.tf' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`i.tf',
@@ -47646,11 +43356,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.tfaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.tf',
       'form' => '`a.tfaT',
       'lines' => [
@@ -47671,9 +43377,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a.tfaT' => {
-          'Napdu' => 1
-        },
         '`a.taf' => {
           'NAt' => 1
         }
@@ -47705,9 +43408,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`i.tAf' => {
-          'N' => 1
-        },
         '`u.tuf' => {
           'N' => 1
         },
@@ -47744,11 +43444,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.tuwf' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.tuwf',
       'form' => '`a.tuwf',
       'lines' => [
@@ -47768,11 +43464,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u.tuwfaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u.tuwf',
       'form' => '`u.tuwfaT',
       'lines' => [
@@ -47795,9 +43487,6 @@ $Lexicon = {
       'types' => {
         'ma`A.tif' => {
           'Ndip' => 1
-        },
-        'mi`.taf' => {
-          'Ndu' => 1
         }
       },
       'entry' => 'mi`.taf',
@@ -47837,7 +43526,11 @@ $Lexicon = {
         ';; taEaT~uf_1',
         'tETf    taEaT~uf        N/At    sympathy;affection'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`a.t.tuf' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -47861,7 +43554,11 @@ $Lexicon = {
         ';; taEATuf_1',
         'tEATf   taEATuf N/At    mutual sympathy;mutual affection'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`A.tuf' => [
+          'TaFACuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFACuL',
@@ -47874,11 +43571,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`A.tufiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`A.tuf',
       'form' => 'ta`A.tufiyy',
       'lines' => [
@@ -47909,7 +43602,11 @@ $Lexicon = {
         '<nETAf  {inoEiTAf       N/At    turning;curvature;sympathy',
         'AnETAf  {inoEiTAf       N/At    turning;curvature;sympathy'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'in`i.tAf' => [
+          'InFiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'InFiCAL',
@@ -47923,11 +43620,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'in`i.tAfaT' => {
-          'Nap' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'in`i.tAf',
       'form' => 'in`i.tAfaT',
       'lines' => [
@@ -47960,7 +43653,11 @@ $Lexicon = {
         '<stETAf {isotiEoTAf     N/At    entreaty;supplication',
         'AstETAf {isotiEoTAf     N/At    entreaty;supplication'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'isti`.tAf' => [
+          'IstiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCAL',
@@ -47973,11 +43670,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'isti`.tAfiyy' => {
-          'N-ap' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'isti`.tAf',
       'form' => 'isti`.tAfiyy',
       'lines' => [
@@ -47997,11 +43690,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A.tif' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A.tif',
       'form' => '`A.tif',
       'lines' => [
@@ -48021,11 +43710,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A.tif' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A.tif',
       'form' => '`A.tif',
       'lines' => [
@@ -48046,9 +43731,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`A.tifaT' => {
-          'Nap' => 1
-        },
         '`awA.tif' => {
           'Ndip' => 1
         }
@@ -48079,11 +43761,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A.tifiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A.tif',
       'form' => '`A.tifiyy',
       'lines' => [
@@ -48103,11 +43781,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A.tifiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A.tif',
       'form' => '`A.tifiyyaT',
       'lines' => [
@@ -48127,11 +43801,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awA.tifiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awA.tif',
       'form' => '`awA.tifiyyaT',
       'lines' => [
@@ -48151,11 +43821,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`.tuwf' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`.tuwf',
       'form' => 'ma`.tuwf',
       'lines' => [
@@ -48185,7 +43851,11 @@ $Lexicon = {
         ';; munoEaTaf_1',
         'mnETf   munoEaTaf       NduAt   juncture;turning point'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mun`a.taf' => [
+          'MunFaCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MunFaCaL',
@@ -48198,11 +43868,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`A.tif' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'muta`A.tif',
       'form' => 'muta`A.tif',
       'lines' => [
@@ -48224,11 +43890,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'musta`.tif' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'musta`.tif',
       'form' => 'musta`.tif',
       'lines' => [
@@ -48256,8 +43918,7 @@ $Lexicon = {
         },
         '`ir' => {
           'PV_C' => 1
-        },
-        '`Ar' => {}
+        }
       },
       'entry' => '`Ar',
       'form' => '`Ar',
@@ -48294,8 +43955,7 @@ $Lexicon = {
       'types' => {
         '`awwir' => {
           'IV_yu' => 1
-        },
-        '`awwar' => {}
+        }
       },
       'entry' => '`awwar',
       'form' => '`awwar',
@@ -48324,7 +43984,6 @@ $Lexicon = {
         '\'u`iyr' => {
           'PV_V_Pass' => 2
         },
-        '\'a`Ar' => {},
         '`iyr' => {
           'IV_V_yu' => 1
         },
@@ -48392,9 +44051,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Awar' => {}
-      },
+      'types' => {},
       'entry' => 'ta`Awar',
       'form' => 'ta`Awar',
       'lines' => [
@@ -48417,8 +44074,7 @@ $Lexicon = {
       'types' => {
         '`tawir' => {
           'IV' => 1
-        },
-        'i`tawar' => {}
+        }
       },
       'entry' => 'i`tawar',
       'form' => 'i`tawar',
@@ -48463,8 +44119,7 @@ $Lexicon = {
         },
         'sta`ar' => {
           'IV_C_Pass_yu' => 1
-        },
-        'ista`Ar' => {}
+        }
       },
       'entry' => 'ista`Ar',
       'form' => 'ista`Ar',
@@ -48498,11 +44153,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awraT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awr',
       'form' => '`awraT',
       'lines' => [
@@ -48526,9 +44177,6 @@ $Lexicon = {
       'types' => {
         '`awr' => {
           'NAt' => 1
-        },
-        '`awraT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`awr',
@@ -48555,11 +44203,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awAr' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awAr',
       'form' => '`awAr',
       'lines' => [
@@ -48579,11 +44223,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iyraT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iyr',
       'form' => '`iyraT',
       'lines' => [
@@ -48611,9 +44251,6 @@ $Lexicon = {
         },
         '`uwr' => {
           'N' => 1
-        },
-        '\'a`war' => {
-          'Nel' => 2
         }
       },
       'entry' => '\'a`war',
@@ -48646,11 +44283,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'i`AraT' => {
-          'NapAt' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'i`Ar',
       'form' => '\'i`AraT',
       'lines' => [
@@ -48670,11 +44303,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'i`Ariyy' => {
-          'N-ap' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'i`Ar',
       'form' => '\'i`Ariyy',
       'lines' => [
@@ -48705,7 +44334,11 @@ $Lexicon = {
         ';; taEAwur_1',
         'tEAwr   taEAwur N/At    alternation;fluctuation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`Awur' => [
+          'TaFACuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFACuL',
@@ -48718,11 +44351,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'isti`AraT' => {
-          'NapAt' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'isti`Ar',
       'form' => 'isti`AraT',
       'lines' => [
@@ -48743,11 +44372,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'isti`Ariyy' => {
-          'N-ap' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'isti`Ar',
       'form' => 'isti`Ariyy',
       'lines' => [
@@ -48768,11 +44393,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`iyr' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`iyr',
       'form' => 'mu`iyr',
       'lines' => [
@@ -48791,11 +44412,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`wir' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`wir',
       'form' => 'mu`wir',
       'lines' => [
@@ -48814,11 +44431,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Ar' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Ar',
       'form' => 'mu`Ar',
       'lines' => [
@@ -48839,9 +44452,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'musta`iyr' => {
-          'Nall' => 1
-        },
         'musta`Ar' => {
           'N-ap' => 1
         }
@@ -48873,11 +44483,7 @@ $Lexicon = {
   ],
   '` .s ` .s' => [
     {
-      'types' => {
-        '`a.s`a.s' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.s`a.s',
       'form' => '`a.s`a.s',
       'lines' => [
@@ -48900,9 +44506,6 @@ $Lexicon = {
       'types' => {
         '`a.sA`i.s' => {
           'Ndip' => 1
-        },
-        '`u.s`uw.s' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`u.s`uw.s',
@@ -48935,8 +44538,7 @@ $Lexicon = {
       'types' => {
         '`an`an' => {
           'NAt' => 1
-        },
-        '`an`anAt' => {}
+        }
       },
       'entry' => '`an`an',
       'form' => '`an`anAt',
@@ -48960,11 +44562,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`an`an' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`an`an',
       'form' => 'mu`an`an',
       'lines' => [
@@ -48986,11 +44584,7 @@ $Lexicon = {
   ],
   '`abdAlmuta`Aliy' => [
     {
-      'types' => {
-        '`abdAlmuta`Aliy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmuta`Aliy',
       'form' => '`abdAlmuta`Aliy',
       'lines' => [
@@ -49012,7 +44606,6 @@ $Lexicon = {
   '` n d l' => [
     {
       'types' => {
-        '`andal' => {},
         '`andil' => {
           'IV_yu' => 1
         }
@@ -49040,11 +44633,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`andalaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`andal',
       'form' => '`andalaT',
       'lines' => [
@@ -49065,11 +44654,7 @@ $Lexicon = {
   ],
   '`abdAlwakiyl' => [
     {
-      'types' => {
-        '`abdAlwakiyl' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlwakiyl',
       'form' => '`abdAlwakiyl',
       'lines' => [
@@ -49090,11 +44675,7 @@ $Lexicon = {
   ],
   '`unfuwAn' => [
     {
-      'types' => {
-        '`unfuwAn' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`unfuwAn',
       'form' => '`unfuwAn',
       'lines' => [
@@ -49116,11 +44697,7 @@ $Lexicon = {
   ],
   '`abdAlwA.hid' => [
     {
-      'types' => {
-        '`abdAlwA.hid' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlwA.hid',
       'form' => '`abdAlwA.hid',
       'lines' => [
@@ -49144,9 +44721,6 @@ $Lexicon = {
       'types' => {
         '`anAqiyd' => {
           'Ndip' => 1
-        },
-        '`unquwd' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`unquwd',
@@ -49175,11 +44749,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`unquwdiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`unquwd',
       'form' => '`unquwdiyy',
       'lines' => [
@@ -49209,7 +44779,11 @@ $Lexicon = {
         ';; taEanoqud_1',
         'tEnqd   taEanoqud       N/At    clustering'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`anqud' => [
+          'TaKaRDuS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaKaRDuS',
@@ -49223,11 +44797,7 @@ $Lexicon = {
   ],
   'ma`madAn' => [
     {
-      'types' => {
-        'ma`madAn' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`madAn',
       'form' => 'ma`madAn',
       'lines' => [
@@ -49246,11 +44816,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`madAniyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'ma`madAn',
       'form' => 'ma`madAniyy',
       'lines' => [
@@ -49282,7 +44848,6 @@ $Lexicon = {
         '`luw' => {
           'IV_0hAnn' => 1
         },
-        '`alA' => {},
         '`l' => {
           'IV_0hwnyn' => 1
         }
@@ -49300,6 +44865,9 @@ $Lexicon = {
       'patterns' => {
         '`alaw' => [
           'FaCaL'
+        ],
+        '`al' => [
+          'FaC'
         ],
         '`luw' => [
           'FCU'
@@ -49335,7 +44903,6 @@ $Lexicon = {
         '`liy' => {
           'IV_0hAnn_yu' => 1
         },
-        '\'a`lY' => {},
         '`l' => {
           'IV_0hwnyn_yu' => 1
         },
@@ -49392,7 +44959,6 @@ $Lexicon = {
           'PV_Atn' => 1,
           'IV_Ann' => 1
         },
-        'ta`AlY' => {},
         'ta`AlA' => {
           'PV_h' => 1,
           'IV_h' => 1
@@ -49438,7 +45004,6 @@ $Lexicon = {
         'i`talA' => {
           'PV_h' => 2
         },
-        'i`talY' => {},
         '`talY' => {
           'IV_0_Pass_yu' => 1
         },
@@ -49495,7 +45060,6 @@ $Lexicon = {
         'sta`l' => {
           'IV_0hwnyn' => 1
         },
-        'ista`lY' => {},
         'ista`lay' => {
           'PV_Atn' => 2
         },
@@ -49564,9 +45128,6 @@ $Lexicon = {
       'types' => {
         '`alaN' => {
           'FW-WaBi' => 1
-        },
-        '`alAT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`alY',
@@ -49590,9 +45151,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`ilAwaT' => {
-          'Napdu' => 1
-        },
         '`ilAw' => {
           'NAt' => 1
         }
@@ -49624,11 +45182,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ilAwaTaN' => {
-          'FW-Wa' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ilAw',
       'form' => '`ilAwaTaN',
       'lines' => [
@@ -49647,11 +45201,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uluww' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uluww',
       'form' => '`uluww',
       'lines' => [
@@ -49672,9 +45222,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`alY' => {
-          'FW-Wa' => 2
-        },
         '`alay' => {
           'FW-Wa-y' => 1
         }
@@ -49700,42 +45247,26 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`alawiyy' => {
-          'Nall' => 2
-        }
-      },
-      'entry' => '`alY',
+      'types' => {},
+      'entry' => '`al',
       'form' => '`alawiyy',
-      'lines' => [
-        ';; Ealawiy~_1',
-        'Elwy    Ealawiy~        Nall    Alawite     [[Ealawiy~/NOUN]]',
-        'Elwy    Ealawiy~        Nall    Alawite     [[Ealawiy~/ADJ]]'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'FaCY |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Alawite'
-      ],
+      'morphs' => 'FaC |<< "awIy"',
+      'suffix' => ' |<< "awIy"',
+      'glosses' => [],
       'orig' => 'Ealawiy~',
       'prefix' => ''
     },
     {
       'types' => {
-        '`ulyA' => {
-          'N0' => 1
-        },
         '\'a`Aliy' => {
           'N0_Nh' => 2
         },
-        '\'a`lY' => {
-          'N0' => 2
-        },
-        '\'a`lay' => {
-          'NAn_Nayn' => 2
+        '`ulyY' => {
+          'N0' => 1
         },
         '\'a`lA' => {
           'Nhy' => 2
@@ -49758,9 +45289,6 @@ $Lexicon = {
         'ElyA    EuloyA  N0      supreme;high;highest     [[EuloyA/ADJ]]'
       ],
       'patterns' => {
-        '`ulyA' => [
-          'FuCyA'
-        ],
         '\'a`Aliy' => [
           'HaFACI'
         ]
@@ -49782,9 +45310,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ma`lAT' => {
-          'Nap' => 1
-        },
         'ma`Aliy' => {
           'N0_Nh' => 1
         }
@@ -49814,11 +45339,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`Aliy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`Aliy',
       'form' => 'ma`Aliy',
       'lines' => [
@@ -49837,11 +45358,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`liyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`liy',
       'form' => 'ta`liyaT',
       'lines' => [
@@ -49865,7 +45382,11 @@ $Lexicon = {
       'entry' => '\'i`lA\'',
       'form' => '\'i`lA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`lA\'' => [
+          'HiFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCA\'',
@@ -49879,7 +45400,11 @@ $Lexicon = {
       'entry' => 'i`tilA\'',
       'form' => 'i`tilA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'i`tilA\'' => [
+          'IFtiCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCA\'',
@@ -49893,7 +45418,11 @@ $Lexicon = {
       'entry' => 'isti`lA\'',
       'form' => 'isti`lA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'isti`lA\'' => [
+          'IstiFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCA\'',
@@ -49905,9 +45434,7 @@ $Lexicon = {
     {
       'types' => {
         '`Aliy' => {
-          'NapAt' => 1,
-          'NAn_Nayn' => 1,
-          'N0F' => 1
+          'NapAt' => 1
         },
         '`Al' => {
           'Nuwn_Niyn' => 1
@@ -49923,7 +45450,11 @@ $Lexicon = {
         'EAl     EAl     Nuwn_Niyn       high;elevated',
         'EAly    EAliy   NapAt   high;elevated'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '`Aliy' => [
+          'FACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FACI',
@@ -49939,9 +45470,6 @@ $Lexicon = {
       'types' => {
         '`awAliy' => {
           'N0_Nh' => 1
-        },
-        '`AliyaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`Aliy',
@@ -49973,13 +45501,6 @@ $Lexicon = {
       'types' => {
         'mu`allA' => {
           'Nhy' => 1
-        },
-        'mu`allay' => {
-          'NAn_Nayn' => 1
-        },
-        'mu`allY' => {
-          'N0' => 1,
-          'Napdu' => 1
         }
       },
       'entry' => 'mu`allY',
@@ -50008,9 +45529,7 @@ $Lexicon = {
           'Nuwn_Niyn' => 1
         },
         'muta`Aliy' => {
-          'N0F_Nh' => 1,
-          'NapAt' => 1,
-          'NAn_Nayn' => 1
+          'NapAt' => 1
         }
       },
       'entry' => 'muta`Aliy',
@@ -50023,7 +45542,11 @@ $Lexicon = {
         'mtEAl   mutaEAl Nuwn_Niyn       high;exalted',
         'mtEAly  mutaEAliy       NapAt   high;exalted'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'muta`Aliy' => [
+          'MutaFACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MutaFACI',
@@ -50036,13 +45559,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'musta`liy' => {
-          'N0F_Nh' => 1,
-          'NAn_Nayn' => 1,
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'musta`liy',
       'form' => 'musta`liy',
       'lines' => [
@@ -50067,11 +45584,7 @@ $Lexicon = {
   ],
   '`abdAlmasiy.h' => [
     {
-      'types' => {
-        '`abdAlmasiy.h' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmasiy.h',
       'form' => '`abdAlmasiy.h',
       'lines' => [
@@ -50101,8 +45614,7 @@ $Lexicon = {
         },
         '`udd' => {
           'IV_V' => 1
-        },
-        '`add' => {}
+        }
       },
       'entry' => '`add',
       'form' => '`add',
@@ -50145,7 +45657,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`addad' => {},
         '`addid' => {
           'IV' => 1
         }
@@ -50175,7 +45686,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`add' => {},
         '`idd' => {
           'IV_V_yu' => 1
         },
@@ -50229,9 +45739,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`addad' => {}
-      },
+      'types' => {},
       'entry' => 'ta`addad',
       'form' => 'ta`addad',
       'lines' => [
@@ -50279,7 +45787,6 @@ $Lexicon = {
         'sta`idd' => {
           'IV_V' => 1
         },
-        'ista`add' => {},
         'ista`dad' => {
           'PV_C' => 2
         },
@@ -50314,11 +45821,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`add' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`add',
       'form' => '`add',
       'lines' => [
@@ -50338,11 +45841,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`addiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`add',
       'form' => '`addiyyaT',
       'lines' => [
@@ -50362,11 +45861,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iddaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`idd',
       'form' => '`iddaT',
       'lines' => [
@@ -50388,9 +45883,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`adad' => {
-          'Ndu' => 1
-        },
         '\'a`dAd' => {
           'N' => 2
         }
@@ -50423,11 +45915,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`adadiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adad',
       'form' => '`adadiyy',
       'lines' => [
@@ -50446,11 +45934,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uddaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`udd',
       'form' => '`uddaT',
       'lines' => [
@@ -50470,11 +45954,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`adiyd' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adiyd',
       'form' => '`adiyd',
       'lines' => [
@@ -50505,7 +45985,11 @@ $Lexicon = {
         ';; Ead~Ad_1',
         'EdAd    Ead~Ad  N/At    counter;meter'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '`addAd' => [
+          'FaCCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCCAL',
@@ -50519,9 +46003,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mi`dAd' => {
-          'Ndu' => 1
-        },
         'ma`Adiyd' => {
           'Ndip' => 1
         }
@@ -50550,11 +46031,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`idAd' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`idAd',
       'form' => '`idAd',
       'lines' => [
@@ -50585,7 +46062,11 @@ $Lexicon = {
         ';; taEodiyd_1',
         'tEdyd   taEodiyd        N/At    counting;enumerating'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`diyd' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -50610,7 +46091,11 @@ $Lexicon = {
         '<EdAd   <iEodAd N/At    preparation',
         'AEdAd   <iEodAd N/At    preparation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`dAd' => [
+          'HiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -50622,11 +46107,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'i`dAdiyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'i`dAd',
       'form' => '\'i`dAdiyy',
       'lines' => [
@@ -50658,7 +46139,11 @@ $Lexicon = {
         ';; taEad~ud_1',
         'tEdd    taEad~ud        N/At    multiplicity;plurality'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`addud' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -50671,11 +46156,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`addudiyyaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`addud',
       'form' => 'ta`addudiyyaT',
       'lines' => [
@@ -50699,7 +46180,11 @@ $Lexicon = {
       'entry' => 'i`tidAd',
       'form' => 'i`tidAd',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'i`tidAd' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -50725,8 +46210,7 @@ $Lexicon = {
     {
       'types' => {
         'isti`dAd' => {
-          'NAt' => 2,
-          'Ndu' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti`dAd',
@@ -50738,7 +46222,11 @@ $Lexicon = {
         '<stEdAd {isotiEodAd     NAt     preparations',
         'AstEdAd {isotiEodAd     NAt     preparations'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'isti`dAd' => [
+          'IstiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCAL',
@@ -50751,11 +46239,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'isti`dAd' => {
-          'N' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'isti`dAd',
       'form' => 'isti`dAd',
       'lines' => [
@@ -50776,11 +46260,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'isti`dAdiyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'isti`dAd',
       'form' => 'isti`dAdiyy',
       'lines' => [
@@ -50800,11 +46280,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`duwd' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`duwd',
       'form' => 'ma`duwd',
       'lines' => [
@@ -50824,11 +46300,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`addidaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`addid',
       'form' => 'mu`addidaT',
       'lines' => [
@@ -50861,11 +46333,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`add' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`add',
       'form' => 'mu`add',
       'lines' => [
@@ -50886,7 +46354,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mu`addAt' => {},
         'mu`add' => {
           'NAt' => 1
         }
@@ -50914,11 +46381,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`addid' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`addid',
       'form' => 'muta`addid',
       'lines' => [
@@ -50940,11 +46403,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'musta`idd' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'musta`idd',
       'form' => 'musta`idd',
       'lines' => [
@@ -50968,7 +46427,11 @@ $Lexicon = {
       'entry' => '`addA\'',
       'form' => '`addA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '`addA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCLA\'',
@@ -50980,11 +46443,7 @@ $Lexicon = {
   ],
   '` y _d' => [
     {
-      'types' => {
-        '`iyA_d' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iyA_d',
       'form' => '`iyA_d',
       'lines' => [
@@ -51006,11 +46465,7 @@ $Lexicon = {
   ],
   '`abdAlri.dY' => [
     {
-      'types' => {
-        '`abdAlri.dY' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlri.dY',
       'form' => '`abdAlri.dY',
       'lines' => [
@@ -51035,7 +46490,6 @@ $Lexicon = {
         '`af' => {
           'PV_ttAw' => 1
         },
-        '`afA' => {},
         '`fuw' => {
           'IV_0hAnn' => 1
         },
@@ -51065,6 +46519,9 @@ $Lexicon = {
         'Efy     Eofay   IV_Ann_Pass_yu  be forgiven;be excused'
       ],
       'patterns' => {
+        '`af' => [
+          'FaC'
+        ],
         '`fuw' => [
           'FCU'
         ],
@@ -51097,7 +46554,6 @@ $Lexicon = {
           'IV_0hwnyn_yu' => 1,
           'PV_ttAw' => 1
         },
-        '`affY' => {},
         '`affay' => {
           'PV_Atn' => 1,
           'IV_Ann_Pass_yu' => 1
@@ -51142,7 +46598,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`AfY' => {},
         '`Af' => {
           'IV_0hwnyn_yu' => 1,
           'PV_ttAw' => 1
@@ -51194,7 +46649,6 @@ $Lexicon = {
         '\'a`fay' => {
           'PV_Atn' => 2
         },
-        '\'a`fY' => {},
         '`fiy' => {
           'IV_0hAnn_yu' => 1
         },
@@ -51267,8 +46721,7 @@ $Lexicon = {
         'ta`Af' => {
           'IV_0hwnyn' => 1,
           'PV_ttAw' => 1
-        },
-        'ta`AfY' => {}
+        }
       },
       'entry' => 'ta`AfY',
       'form' => 'ta`AfY',
@@ -51303,7 +46756,6 @@ $Lexicon = {
         'i`taf' => {
           'PV_ttAw' => 2
         },
-        'i`tafY' => {},
         '`tafiy' => {
           'IV_0hAnn' => 1
         },
@@ -51371,8 +46823,7 @@ $Lexicon = {
         },
         'ista`fay' => {
           'PV_Atn' => 2
-        },
-        'ista`fY' => {}
+        }
       },
       'entry' => 'ista`fY',
       'form' => 'ista`fY',
@@ -51403,11 +46854,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`afw' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`afw',
       'form' => '`afw',
       'lines' => [
@@ -51430,8 +46877,7 @@ $Lexicon = {
       'types' => {
         '`afw' => {
           'NF' => 2
-        },
-        '`afwaN' => {}
+        }
       },
       'entry' => '`afw',
       'form' => '`afwaN',
@@ -51486,13 +46932,10 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mu`AfAT' => {
-          'Napdu' => 1
-        },
-        'mu`Afaw' => {
+        'mu`AfY' => {
           'NAt' => 1
         },
-        'mu`Afay' => {
+        'mu`Afaw' => {
           'NAt' => 1
         }
       },
@@ -51505,6 +46948,9 @@ $Lexicon = {
         'mEAfw   muEAfaw NAt     exemptions;pardons'
       ],
       'patterns' => {
+        'mu`AfY' => [
+          'MuFACY'
+        ],
         'mu`Afaw' => [
           'MuFACaL'
         ]
@@ -51527,7 +46973,11 @@ $Lexicon = {
       'entry' => '\'i`fA\'',
       'form' => '\'i`fA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`fA\'' => [
+          'HiFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCA\'',
@@ -51541,7 +46991,11 @@ $Lexicon = {
       'entry' => 'ta`Afiy',
       'form' => 'ta`Afiy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'ta`Afiy' => [
+          'TaFACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFACI',
@@ -51555,7 +47009,11 @@ $Lexicon = {
       'entry' => 'isti`fA\'',
       'form' => 'isti`fA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'isti`fA\'' => [
+          'IstiFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCA\'',
@@ -51569,7 +47027,11 @@ $Lexicon = {
       'entry' => '`Afiy',
       'form' => '`Afiy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '`Afiy' => [
+          'FACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FACI',
@@ -51594,16 +47056,11 @@ $Lexicon = {
     },
     {
       'types' => {
+        'mu`AfY' => {
+          'NAt' => 1
+        },
         'mu`AfA' => {
           'Nhy' => 1
-        },
-        'mu`AfY' => {
-          'N0' => 1,
-          'Napdu' => 1
-        },
-        'mu`Afay' => {
-          'NAt' => 1,
-          'NAn_Nayn' => 1
         }
       },
       'entry' => 'mu`AfY',
@@ -51616,7 +47073,11 @@ $Lexicon = {
         'mEAfy   muEAfay NAt     exempted;excused;healthy',
         'mEAfA   muEAfA  Napdu   exempted;excused;healthy'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`AfY' => [
+          'MuFACY'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFACY',
@@ -51632,12 +47093,7 @@ $Lexicon = {
     {
       'types' => {
         'mu`fY' => {
-          'N0' => 1,
-          'Napdu' => 1
-        },
-        'mu`fay' => {
-          'NAt' => 1,
-          'NAn_Nayn' => 1
+          'NAt' => 1
         },
         'mu`fA' => {
           'Nhy' => 1
@@ -51657,7 +47113,11 @@ $Lexicon = {
         'mEfA    muEofA  Napdu   exempted;excused',
         'mEfy    muEofay NAt     exempted;excused'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`fY' => [
+          'MuFCY'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFCY',
@@ -51674,7 +47134,11 @@ $Lexicon = {
       'entry' => 'muta`Afiy',
       'form' => 'muta`Afiy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'muta`Afiy' => [
+          'MutaFACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MutaFACI',
@@ -51686,11 +47150,7 @@ $Lexicon = {
   ],
   '`abdAl.sabuwr' => [
     {
-      'types' => {
-        '`abdAl.sabuwr' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.sabuwr',
       'form' => '`abdAl.sabuwr',
       'lines' => [
@@ -51711,11 +47171,7 @@ $Lexicon = {
   ],
   '`abdAlra.hman' => [
     {
-      'types' => {
-        '`abdAlra.hman' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlra.hman',
       'form' => '`abdAlra.hman',
       'lines' => [
@@ -51736,11 +47192,7 @@ $Lexicon = {
   ],
   'ta`izz' => [
     {
-      'types' => {
-        'ta`izz' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`izz',
       'form' => 'ta`izz',
       'lines' => [
@@ -51762,7 +47214,6 @@ $Lexicon = {
   '` w ^g' => [
     {
       'types' => {
-        '`awi^g' => {},
         '`wa^g' => {
           'IV_intr' => 1
         }
@@ -51801,8 +47252,7 @@ $Lexicon = {
         },
         '`uw^g' => {
           'IV_V' => 1
-        },
-        '`A^g' => {}
+        }
       },
       'entry' => '`A^g',
       'form' => '`A^g',
@@ -51836,7 +47286,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`awwa^g' => {},
         '`awwi^g' => {
           'IV_yu' => 1
         }
@@ -51865,9 +47314,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`awwa^g' => {}
-      },
+      'types' => {},
       'entry' => 'ta`awwa^g',
       'form' => 'ta`awwa^g',
       'lines' => [
@@ -51889,7 +47336,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'i`wa^g^g' => {},
         '`wa^gi^g' => {
           'IV_C_intr' => 1
         },
@@ -51928,11 +47374,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A^g' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A^g',
       'form' => '`A^g',
       'lines' => [
@@ -51951,11 +47393,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A^g' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A^g',
       'form' => '`A^g',
       'lines' => [
@@ -51974,11 +47412,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A^giyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A^g',
       'form' => '`A^giyy',
       'lines' => [
@@ -51997,11 +47431,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A^giyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A^g',
       'form' => '`A^giyy',
       'lines' => [
@@ -52020,11 +47450,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awa^g' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awa^g',
       'form' => '`awa^g',
       'lines' => [
@@ -52047,9 +47473,6 @@ $Lexicon = {
       'types' => {
         '`uw^g' => {
           'N' => 1
-        },
-        '\'a`wa^g' => {
-          'Nel' => 2
         },
         '`aw^gA\'' => {
           'Nh' => 1,
@@ -52100,7 +47523,11 @@ $Lexicon = {
         ';; taEowiyj_1',
         'tEwyj   taEowiyj        N/At    distortion;torsion'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`wiy^g' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -52125,7 +47552,11 @@ $Lexicon = {
         '<EwjAj  {iEowijAj       N/At    curvature;bending',
         'AEwjAj  {iEowijAj       N/At    curvature;bending'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`wi^gA^g' => [
+          'IFCiLAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFCiLAL',
@@ -52150,7 +47581,11 @@ $Lexicon = {
         '<EwjAj  {iEowijAj       N/At    contortion;distortion',
         'AEwjAj  {iEowijAj       N/At    contortion;distortion'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`wi^gA^g' => [
+          'IFCiLAL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'IFCiLAL',
@@ -52163,11 +47598,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`awwa^g' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`awwa^g',
       'form' => 'mu`awwa^g',
       'lines' => [
@@ -52187,11 +47618,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`wa^g^g' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`wa^g^g',
       'form' => 'mu`wa^g^g',
       'lines' => [
@@ -52240,7 +47667,6 @@ $Lexicon = {
   '` s r' => [
     {
       'types' => {
-        '`asur' => {},
         '`sur' => {
           'IV_intr' => 1
         }
@@ -52275,7 +47701,6 @@ $Lexicon = {
         '`sur' => {
           'IV' => 1
         },
-        '`asar' => {},
         '`sir' => {
           'IV' => 1
         }
@@ -52315,8 +47740,7 @@ $Lexicon = {
       'types' => {
         '`assir' => {
           'IV_yu' => 1
-        },
-        '`assar' => {}
+        }
       },
       'entry' => '`assar',
       'form' => '`assar',
@@ -52344,8 +47768,7 @@ $Lexicon = {
       'types' => {
         '`Asir' => {
           'IV_yu' => 1
-        },
-        '`Asar' => {}
+        }
       },
       'entry' => '`Asar',
       'form' => '`Asar',
@@ -52373,8 +47796,7 @@ $Lexicon = {
       'types' => {
         '`sir' => {
           'IV_intr_yu' => 1
-        },
-        '\'a`sar' => {}
+        }
       },
       'entry' => '\'a`sar',
       'form' => '\'a`sar',
@@ -52400,9 +47822,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`assar' => {}
-      },
+      'types' => {},
       'entry' => 'ta`assar',
       'form' => 'ta`assar',
       'lines' => [
@@ -52422,9 +47842,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Asar' => {}
-      },
+      'types' => {},
       'entry' => 'ta`Asar',
       'form' => 'ta`Asar',
       'lines' => [
@@ -52448,8 +47866,7 @@ $Lexicon = {
       'types' => {
         'sta`sir' => {
           'IV_intr' => 1
-        },
-        'ista`sar' => {}
+        }
       },
       'entry' => 'ista`sar',
       'form' => 'ista`sar',
@@ -52472,11 +47889,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`usr' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`usr',
       'form' => '`usr',
       'lines' => [
@@ -52496,11 +47909,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`asir' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`asir',
       'form' => '`asir',
       'lines' => [
@@ -52520,11 +47929,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`asiyr' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`asiyr',
       'form' => '`asiyr',
       'lines' => [
@@ -52544,11 +47949,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`asiyr' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`asiyr',
       'form' => '`asiyr',
       'lines' => [
@@ -52567,11 +47968,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`asiyriyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`asiyr',
       'form' => '`asiyriyy',
       'lines' => [
@@ -52590,11 +47987,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`asiyriyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`asiyr',
       'form' => '`asiyriyy',
       'lines' => [
@@ -52618,9 +48011,6 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
-        },
-        '\'a`sar' => {
-          'Nel' => 2
         }
       },
       'entry' => '\'a`sar',
@@ -52654,9 +48044,6 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
-        },
-        '\'a`sar' => {
-          'Nel' => 2
         }
       },
       'entry' => '\'a`sar',
@@ -52686,11 +48073,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`asrAwiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`asrA\'',
       'form' => '`asrAwiyy',
       'lines' => [
@@ -52709,11 +48092,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`asrawiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`asrY',
       'form' => '`asrawiyy',
       'lines' => [
@@ -52732,11 +48111,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`saraT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`sar',
       'form' => 'ma`saraT',
       'lines' => [
@@ -52768,7 +48143,11 @@ $Lexicon = {
         '<EsAr   <iEosAr N/At    poverty;insolvency;dire straits',
         'AEsAr   <iEosAr N/At    poverty;insolvency;dire straits'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`sAr' => [
+          'HiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -52793,7 +48172,11 @@ $Lexicon = {
         ';; taEas~ur_1',
         'tEsr    taEas~ur        N/At    difficulty'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`assur' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -52805,11 +48188,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`suwr' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`suwr',
       'form' => 'ma`suwr',
       'lines' => [
@@ -52829,11 +48208,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`sir' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`sir',
       'form' => 'mu`sir',
       'lines' => [
@@ -52853,11 +48228,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`assir' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`assir',
       'form' => 'muta`assir',
       'lines' => [
@@ -52879,11 +48250,7 @@ $Lexicon = {
   ],
   '`abdAl.husayn' => [
     {
-      'types' => {
-        '`abdAl.husayn' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.husayn',
       'form' => '`abdAl.husayn',
       'lines' => [
@@ -52904,11 +48271,7 @@ $Lexicon = {
   ],
   '` r b ^g' => [
     {
-      'types' => {
-        '`arba^giyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arba^g',
       'form' => '`arba^giyy',
       'lines' => [
@@ -52927,11 +48290,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`arba^giyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arba^g',
       'form' => '`arba^giyy',
       'lines' => [
@@ -52955,8 +48314,7 @@ $Lexicon = {
       'types' => {
         '`arbin' => {
           'IV-n_yu' => 1
-        },
-        '`arban' => {}
+        }
       },
       'entry' => '`arban',
       'form' => '`arban',
@@ -52983,9 +48341,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`urbuwn' => {
-          'Ndu' => 1
-        },
         '`arAbiyn' => {
           'Ndip' => 1
         }
@@ -53021,8 +48376,7 @@ $Lexicon = {
       'types' => {
         '`qum' => {
           'IV_intr' => 1
-        },
-        '`aqum' => {}
+        }
       },
       'entry' => '`aqum',
       'form' => '`aqum',
@@ -53052,7 +48406,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`aqqam' => {},
         '`aqqim' => {
           'IV_yu' => 1
         }
@@ -53081,11 +48434,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uqm' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uqm',
       'form' => '`uqm',
       'lines' => [
@@ -53106,11 +48455,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uqmaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uqm',
       'form' => '`uqmaT',
       'lines' => [
@@ -53136,9 +48481,6 @@ $Lexicon = {
         },
         '`uqum' => {
           'N' => 1
-        },
-        '`aqiym' => {
-          'N/ap' => 1
         }
       },
       'entry' => '`aqiym',
@@ -53178,9 +48520,6 @@ $Lexicon = {
         },
         '`uqum' => {
           'N' => 1
-        },
-        '`aqiym' => {
-          'N/ap' => 1
         }
       },
       'entry' => '`aqiym',
@@ -53211,11 +48550,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uqAm' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uqAm',
       'form' => '`uqAm',
       'lines' => [
@@ -53245,7 +48580,11 @@ $Lexicon = {
         ';; taEoqiym_1',
         'tEqym   taEoqiym        N/At    pasteurization;sterilization'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`qiym' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -53258,11 +48597,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`aqqim' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`aqqim',
       'form' => 'mu`aqqim',
       'lines' => [
@@ -53282,11 +48617,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`aqqam' => {
-          'N-ap' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'mu`aqqam',
       'form' => 'mu`aqqam',
       'lines' => [
@@ -53308,9 +48639,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mi`qamaT' => {
-          'Napdu' => 1
-        },
         'ma`Aqim' => {
           'Ndip' => 1
         }
@@ -53339,11 +48667,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mi`qAm' => {
-          'Ndu' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mi`qAm',
       'form' => 'mi`qAm',
       'lines' => [
@@ -53364,11 +48688,7 @@ $Lexicon = {
   ],
   '` f r m' => [
     {
-      'types' => {
-        '`afArim' => {
-          'FW-Wa' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`afArim',
       'form' => '`afArim',
       'lines' => [
@@ -53390,11 +48710,7 @@ $Lexicon = {
   ],
   '`abdAl.hasan' => [
     {
-      'types' => {
-        '`abdAl.hasan' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.hasan',
       'form' => '`abdAl.hasan',
       'lines' => [
@@ -53416,10 +48732,6 @@ $Lexicon = {
   '`inda' => [
     {
       'types' => {
-        '`inda' => {
-          'FW-Wa' => 1,
-          'FW-Wa-a' => 1
-        },
         '`ind' => {
           'FW-Wa-o' => 1
         },
@@ -53453,7 +48765,6 @@ $Lexicon = {
   '` .s b' => [
     {
       'types' => {
-        '`a.sab' => {},
         '`.sib' => {
           'IV' => 1
         }
@@ -53487,7 +48798,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a.s.sab' => {},
         '`a.s.sib' => {
           'IV_yu' => 1
         }
@@ -53521,8 +48831,7 @@ $Lexicon = {
         },
         '`.sib' => {
           'IV_yu' => 1
-        },
-        '\'a`.sab' => {}
+        }
       },
       'entry' => '\'a`.sab',
       'form' => '\'a`.sab',
@@ -53553,9 +48862,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`a.s.sab' => {}
-      },
+      'types' => {},
       'entry' => 'ta`a.s.sab',
       'form' => 'ta`a.s.sab',
       'lines' => [
@@ -53579,8 +48886,7 @@ $Lexicon = {
       'types' => {
         '`ta.sib' => {
           'IV' => 1
-        },
-        'i`ta.sab' => {}
+        }
       },
       'entry' => 'i`ta.sab',
       'form' => 'i`ta.sab',
@@ -53611,9 +48917,6 @@ $Lexicon = {
       'types' => {
         '\'a`.sAb' => {
           'N' => 2
-        },
-        '`a.sab' => {
-          'N' => 1
         }
       },
       'entry' => '`a.sab',
@@ -53641,11 +48944,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.sabiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.sab',
       'form' => '`a.sabiyy',
       'lines' => [
@@ -53664,11 +48963,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.sabiyyaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.sab',
       'form' => '`a.sabiyyaT',
       'lines' => [
@@ -53689,9 +48984,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a.sabaT' => {
-          'Napdu' => 1
-        },
         '`a.sab' => {
           'NAt' => 1
         },
@@ -53731,11 +49023,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.siyb' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.siyb',
       'form' => '`a.siyb',
       'lines' => [
@@ -53755,11 +49043,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i.sAb' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i.sAb',
       'form' => '`i.sAb',
       'lines' => [
@@ -53785,9 +49069,6 @@ $Lexicon = {
         },
         '`i.sAb' => {
           'NAt' => 1
-        },
-        '`i.sAbaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`i.sAb',
@@ -53817,11 +49098,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u.sAb' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u.sAb',
       'form' => '`u.sAb',
       'lines' => [
@@ -53840,11 +49117,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u.sAbiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u.sAb',
       'form' => '`u.sAbiyy',
       'lines' => [
@@ -53863,11 +49136,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u.sAbiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u.sAb',
       'form' => '`u.sAbiyyaT',
       'lines' => [
@@ -53897,7 +49166,11 @@ $Lexicon = {
         ';; taEoSiyb_1',
         'tESyb   taEoSiyb        N/At    innervation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`.siyb' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -53920,7 +49193,11 @@ $Lexicon = {
         ';; taEaS~ub_1',
         'tESb    taEaS~ub        N/At    fanaticism;intolerance;chauvinism'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`a.s.sub' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -53934,11 +49211,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`a.s.subiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`a.s.sub',
       'form' => 'ta`a.s.subiyy',
       'lines' => [
@@ -53971,7 +49244,11 @@ $Lexicon = {
         '<EtSAb  {iEotiSAb       N/At    strike',
         'AEtSAb  {iEotiSAb       N/At    strike'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`ti.sAb' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -53983,11 +49260,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`a.s.sib' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`a.s.sib',
       'form' => 'muta`a.s.sib',
       'lines' => [
@@ -54008,11 +49281,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`.suwb' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`.suwb',
       'form' => 'ma`.suwb',
       'lines' => [
@@ -54031,11 +49300,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`ta.sib' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`ta.sib',
       'form' => 'mu`ta.sib',
       'lines' => [
@@ -54056,11 +49321,7 @@ $Lexicon = {
   ],
   '`abdAlwaduwd' => [
     {
-      'types' => {
-        '`abdAlwaduwd' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlwaduwd',
       'form' => '`abdAlwaduwd',
       'lines' => [
@@ -54081,11 +49342,7 @@ $Lexicon = {
   ],
   'mawA`iziyz' => [
     {
-      'types' => {
-        'mawA`iziyz' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mawA`iziyz',
       'form' => 'mawA`iziyz',
       'lines' => [
@@ -54106,11 +49363,7 @@ $Lexicon = {
   ],
   '`amrw' => [
     {
-      'types' => {
-        '`amrw' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amrw',
       'form' => '`amrw',
       'lines' => [
@@ -54151,11 +49404,7 @@ $Lexicon = {
   ],
   '` s k r' => [
     {
-      'types' => {
-        '`askaraT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`askar',
       'form' => '`askaraT',
       'lines' => [
@@ -54175,9 +49424,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`askar' => {
-          'N' => 1
-        },
         '`asAkir' => {
           'Ndip' => 1
         }
@@ -54208,11 +49454,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`askar' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`askar',
       'form' => '`askar',
       'lines' => [
@@ -54231,11 +49473,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`askariyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`askar',
       'form' => '`askariyy',
       'lines' => [
@@ -54255,11 +49493,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`askariyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`askar',
       'form' => '`askariyy',
       'lines' => [
@@ -54290,7 +49524,11 @@ $Lexicon = {
         ';; muEasokar_1',
         'mEskr   muEasokar       NduAt   camp;encampment'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`askar' => [
+          'MuKaRDaS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuKaRDaS',
@@ -54305,11 +49543,7 @@ $Lexicon = {
   ],
   '`abdAl`aziyz' => [
     {
-      'types' => {
-        '`abdAl`aziyz' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl`aziyz',
       'form' => '`abdAl`aziyz',
       'lines' => [
@@ -54330,6 +49564,25 @@ $Lexicon = {
   ],
   '` .t .t' => [
     {
+      'types' => {},
+      'entry' => '`a.t',
+      'form' => '`a.tawiyy',
+      'lines' => [
+        ';; EaTawiy~_1',
+        'ETwy    EaTawiy~        N0      Attawi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |<< "awIy"',
+      'suffix' => ' |<< "awIy"',
+      'glosses' => [
+        'Attawi'
+      ],
+      'orig' => 'EaTawiy~',
+      'prefix' => ''
+    },
+    {
       'types' => {
         '`a.taw' => {
           'NAt' => 1,
@@ -54337,9 +49590,6 @@ $Lexicon = {
         },
         '`a.tA' => {
           'N0_Nhy' => 1
-        },
-        '`a.taN' => {
-          'FW-WaBi' => 1
         }
       },
       'entry' => '`a.t',
@@ -54383,7 +49633,6 @@ $Lexicon = {
         '`A.tA' => {
           'PV_h' => 1
         },
-        '`A.tY' => {},
         '`A.tay' => {
           'PV_Atn' => 1,
           'IV_Ann_Pass_yu' => 1
@@ -54431,7 +49680,6 @@ $Lexicon = {
         '`.t' => {
           'IV_0hwnyn_yu' => 1
         },
-        '\'a`.tY' => {},
         '\'a`.t' => {
           'PV_ttAw' => 2
         },
@@ -54502,7 +49750,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ta`A.tY' => {},
         'ta`A.tay' => {
           'PV_Atn' => 1,
           'IV_Ann' => 1
@@ -54562,7 +49809,6 @@ $Lexicon = {
         'ista`.t' => {
           'PV_ttAw' => 2
         },
-        'ista`.tY' => {},
         'sta`.tY' => {
           'IV_0_Pass_yu' => 1
         }
@@ -54600,11 +49846,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.tA' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.tA',
       'form' => '`a.tA',
       'lines' => [
@@ -54623,26 +49865,35 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.tawiyy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => '`a.tY',
+      'types' => {},
+      'entry' => '`a.t',
       'form' => '`a.tawiyy',
-      'lines' => [
-        ';; EaTawiy~_1',
-        'ETwy    EaTawiy~        N0      Attawi'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCY |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Attawi'
-      ],
+      'entity' => 'noun',
+      'morphs' => 'FaC |<< "awIy"',
+      'suffix' => ' |<< "awIy"',
+      'glosses' => [],
       'orig' => 'EaTawiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '`a.t',
+      'form' => '`a.taN',
+      'lines' => [],
+      'patterns' => {
+        '`a.tA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaC |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [],
+      'orig' => 'EaTAF',
       'prefix' => ''
     },
     {
@@ -54682,7 +49933,11 @@ $Lexicon = {
       'entry' => '`a.tA\'',
       'form' => '`a.tA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '`a.tA\'' => [
+          'FaCA\''
+        ]
+      },
       'index' => '3',
       'entity' => 'noun',
       'morphs' => 'FaCA\'',
@@ -54692,11 +49947,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.tiyyaT' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.tiyy',
       'form' => '`a.tiyyaT',
       'lines' => [
@@ -54716,10 +49967,7 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a.tiyyaT' => {
-          'Napdu' => 1
-        },
-        '`a.tAyA' => {
+        '`a.tAyY' => {
           'N0_Nhy' => 1
         }
       },
@@ -54731,8 +49979,8 @@ $Lexicon = {
         'ETAyA   EaTAyA  N0_Nhy  gifts;presents'
       ],
       'patterns' => {
-        '`a.tAyA' => [
-          'FaCAyA'
+        '`a.tAyY' => [
+          'FaCALY'
         ]
       },
       'index' => '2',
@@ -54750,10 +49998,7 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mu`A.tAT' => {
-          'Napdu' => 1
-        },
-        'mu`A.tay' => {
+        'mu`A.tY' => {
           'NAt' => 1
         }
       },
@@ -54765,8 +50010,8 @@ $Lexicon = {
         'mEATy   muEATay NAt     pursuits;devotion'
       ],
       'patterns' => {
-        'mu`A.tay' => [
-          'MuFACaL'
+        'mu`A.tY' => [
+          'MuFACY'
         ]
       },
       'index' => '1',
@@ -54786,7 +50031,11 @@ $Lexicon = {
       'entry' => '\'i`.tA\'',
       'form' => '\'i`.tA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`.tA\'' => [
+          'HiFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCA\'',
@@ -54798,9 +50047,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`A.tiy' => {
-          'NAt' => 1,
-          'NAn_Nayn' => 1,
-          'N0_Nh' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`A.tiy',
@@ -54812,7 +50059,11 @@ $Lexicon = {
         'tEATy   taEATiy NAn_Nayn        pursuit;practice;addiction',
         'tEATy   taEATiy NAt     pursuit;practice;addiction'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`A.tiy' => [
+          'TaFACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFACI',
@@ -54830,7 +50081,11 @@ $Lexicon = {
       'entry' => 'isti`.tA\'',
       'form' => 'isti`.tA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'isti`.tA\'' => [
+          'IstiFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCA\'',
@@ -54842,9 +50097,7 @@ $Lexicon = {
     {
       'types' => {
         'mu`.tiy' => {
-          'N0F_Nh' => 1,
-          'NapAt' => 1,
-          'NAn_Nayn' => 1
+          'NapAt' => 1
         },
         'mu`.t' => {
           'Nuwn_Niyn' => 1
@@ -54860,7 +50113,11 @@ $Lexicon = {
         'mET     muEoT   Nuwn_Niyn       donor;giving',
         'mETy    muEoTiy NapAt   donor;giving'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`.tiy' => [
+          'MuFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFCI',
@@ -54874,13 +50131,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mu`.tay' => {
-          'NAn_Nayn' => 1
-        },
-        'mu`.tY' => {
-          'N0' => 1,
-          'Napdu' => 1
-        },
         'mu`.tA' => {
           'Nhy' => 1
         }
@@ -54894,11 +50144,7 @@ $Lexicon = {
         'mETy    muEoTay NAn_Nayn        given',
         'mETA    muEoTA  Napdu   given'
       ],
-      'patterns' => {
-        'mu`.tay' => [
-          'MuFCaL'
-        ]
-      },
+      'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFCY',
@@ -54911,25 +50157,24 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mu`.tay' => {
+        'mu`.tY' => {
           'NAt' => 1
-        },
-        'mu`.tayAt' => {}
+        }
       },
-      'entry' => 'mu`.tay',
+      'entry' => 'mu`.tY',
       'form' => 'mu`.tayAt',
       'lines' => [
         ';; muEoTayAt_1',
         'mETy    muEoTay NAt     given facts;data;elements'
       ],
       'patterns' => {
-        'mu`.tay' => [
-          'MuFCaL'
+        'mu`.tY' => [
+          'MuFCY'
         ]
       },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFCaL |< At',
+      'morphs' => 'MuFCY |< At',
       'suffix' => ' |< At',
       'glosses' => [
         'given facts',
@@ -54945,9 +50190,7 @@ $Lexicon = {
           'Nuwn_Niyn' => 1
         },
         'muta`A.tiy' => {
-          'N0F_Nh' => 1,
-          'NapAt' => 1,
-          'NAn_Nayn' => 1
+          'NapAt' => 1
         }
       },
       'entry' => 'muta`A.tiy',
@@ -54960,7 +50203,11 @@ $Lexicon = {
         'mtEAT   mutaEAT Nuwn_Niyn       addict;habitual user',
         'mtEATy  mutaEATiy       NapAt   addict;habitual user'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'muta`A.tiy' => [
+          'MutaFACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MutaFACI',
@@ -54978,9 +50225,7 @@ $Lexicon = {
           'Nuwn_Niyn' => 1
         },
         'musta`.tiy' => {
-          'N0F_Nh' => 1,
-          'NapAt' => 1,
-          'NAn_Nayn' => 1
+          'NapAt' => 1
         }
       },
       'entry' => 'musta`.tiy',
@@ -54993,7 +50238,11 @@ $Lexicon = {
         'mstET   musotaEoT       Nuwn_Niyn       beggars;mendicants',
         'mstETy  musotaEoTiy     NapAt   beggar;mendicant'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'musta`.tiy' => [
+          'MustaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MustaFCI',
@@ -55010,11 +50259,7 @@ $Lexicon = {
   ],
   '`abdAl^sAfiy' => [
     {
-      'types' => {
-        '`abdAl^sAfiy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl^sAfiy',
       'form' => '`abdAl^sAfiy',
       'lines' => [
@@ -55038,8 +50283,7 @@ $Lexicon = {
       'types' => {
         '`.sir' => {
           'IV' => 1
-        },
-        '`a.sar' => {}
+        }
       },
       'entry' => '`a.sar',
       'form' => '`a.sar',
@@ -55069,7 +50313,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a.s.sar' => {},
         '`a.s.sir' => {
           'IV_yu' => 1
         }
@@ -55098,7 +50341,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`A.sar' => {},
         '`A.sir' => {
           'IV_intr_yu' => 1
         }
@@ -55126,9 +50368,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`a.s.sar' => {}
-      },
+      'types' => {},
       'entry' => 'ta`a.s.sar',
       'form' => 'ta`a.s.sar',
       'lines' => [
@@ -55148,9 +50388,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`A.sar' => {}
-      },
+      'types' => {},
       'entry' => 'ta`A.sar',
       'form' => 'ta`A.sar',
       'lines' => [
@@ -55171,7 +50409,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'in`a.sar' => {},
         'n`a.sir' => {
           'IV_intr' => 1
         }
@@ -55202,7 +50439,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'i`ta.sar' => {},
         '`ta.sir' => {
           'IV' => 1
         }
@@ -55239,9 +50475,6 @@ $Lexicon = {
         },
         '\'a`.sur' => {
           'N' => 2
-        },
-        '`a.sr' => {
-          'Ndu' => 1
         },
         '\'a`.sAr' => {
           'N' => 2
@@ -55282,11 +50515,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.sr' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.sr',
       'form' => '`a.sr',
       'lines' => [
@@ -55306,11 +50535,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.sAriy' => {
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.sAriy',
       'form' => '`a.sAriy',
       'lines' => [
@@ -55331,11 +50556,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.sriyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.sr',
       'form' => '`a.sriyy',
       'lines' => [
@@ -55355,12 +50576,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.siyr' => {
-          'Nap' => 1,
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.siyr',
       'form' => '`a.siyr',
       'lines' => [
@@ -55381,12 +50597,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u.sAr' => {
-          'Nap' => 1,
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u.sAr',
       'form' => '`u.sAr',
       'lines' => [
@@ -55407,11 +50618,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.s.sAraT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.s.sAr',
       'form' => '`a.s.sAraT',
       'lines' => [
@@ -55442,7 +50649,11 @@ $Lexicon = {
         ';; taEoSiyr_1',
         'tESyr   taEoSiyr        N/At    modernization'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`.siyr' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -55474,6 +50685,9 @@ $Lexicon = {
       'patterns' => {
         '\'a`A.siyr' => [
           'HaFACIL'
+        ],
+        '\'i`.sAr' => [
+          'HiFCAL'
         ]
       },
       'index' => '1',
@@ -55493,9 +50707,6 @@ $Lexicon = {
       'types' => {
         'ma`A.sir' => {
           'Ndip' => 1
-        },
-        'mi`.saraT' => {
-          'Napdu' => 1
         }
       },
       'entry' => 'mi`.sar',
@@ -55524,11 +50735,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`A.sir' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`A.sir',
       'form' => 'mu`A.sir',
       'lines' => [
@@ -55548,11 +50755,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`A.sir' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`A.sir',
       'form' => 'muta`A.sir',
       'lines' => [
@@ -55571,11 +50774,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A.siraT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A.sir',
       'form' => '`A.siraT',
       'lines' => [
@@ -55594,11 +50793,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`.suwr' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`.suwr',
       'form' => 'ma`.suwr',
       'lines' => [
@@ -55623,8 +50818,7 @@ $Lexicon = {
       'types' => {
         '`arqil' => {
           'IV_yu' => 1
-        },
-        '`arqal' => {}
+        }
       },
       'entry' => '`arqal',
       'form' => '`arqal',
@@ -55651,9 +50845,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`arqal' => {}
-      },
+      'types' => {},
       'entry' => 'ta`arqal',
       'form' => 'ta`arqal',
       'lines' => [
@@ -55675,9 +50867,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`arqalaT' => {
-          'Nap' => 1
-        },
         '`arAqiyl' => {
           'Ndip' => 1
         }
@@ -55708,11 +50897,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`arqil' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`arqil',
       'form' => 'mu`arqil',
       'lines' => [
@@ -55732,11 +50917,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`arqal' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`arqal',
       'form' => 'mu`arqal',
       'lines' => [
@@ -55767,7 +50948,11 @@ $Lexicon = {
         ';; taEaroqul_1',
         'tErql   taEaroqul       N/At    obstruction;impediment'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`arqul' => [
+          'TaKaRDuS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaKaRDuS',
@@ -55782,11 +50967,23 @@ $Lexicon = {
   ],
   '` n y' => [
     {
+      'types' => {},
+      'entry' => '`an',
+      'form' => '`an',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaC',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'Ean',
+      'prefix' => ''
+    },
+    {
       'types' => {
         '`Aniy' => {
-          'NapAt' => 1,
-          'NAn_Nayn' => 1,
-          'N0F' => 1
+          'NapAt' => 1
         },
         '`An' => {
           'Nuwn_Niyn' => 1
@@ -55802,7 +50999,11 @@ $Lexicon = {
         'EAn     EAn     Nuwn_Niyn       subservient;distressed',
         'EAny    EAniy   NapAt   subservient;distressed'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '`Aniy' => [
+          'FACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FACI',
@@ -55831,7 +51032,6 @@ $Lexicon = {
         '`an' => {
           'PV_ttAw' => 1
         },
-        '`anY' => {},
         '`anA' => {
           'PV_h' => 1
         }
@@ -55857,6 +51057,9 @@ $Lexicon = {
         ],
         '`nY' => [
           'FCY'
+        ],
+        '`an' => [
+          'FaC'
         ],
         '`anA' => [
           'FaCA'
@@ -55894,8 +51097,7 @@ $Lexicon = {
         },
         '`annA' => {
           'PV_h' => 1
-        },
-        '`annY' => {}
+        }
       },
       'entry' => '`annY',
       'form' => '`annY',
@@ -55944,8 +51146,7 @@ $Lexicon = {
         '`Anay' => {
           'PV_Atn' => 1,
           'IV_Ann_Pass_yu' => 1
-        },
-        '`AnY' => {}
+        }
       },
       'entry' => '`AnY',
       'form' => '`AnY',
@@ -55992,8 +51193,7 @@ $Lexicon = {
         'ta`annay' => {
           'PV_Atn' => 1,
           'IV_Ann' => 1
-        },
-        'ta`annY' => {}
+        }
       },
       'entry' => 'ta`annY',
       'form' => 'ta`annY',
@@ -56031,7 +51231,6 @@ $Lexicon = {
         'i`tanA' => {
           'PV_h' => 2
         },
-        'i`tanY' => {},
         '`taniy' => {
           'IV_0hAnn' => 1
         },
@@ -56098,11 +51297,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`inAyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`inAy',
       'form' => '`inAyaT',
       'lines' => [
@@ -56127,14 +51322,8 @@ $Lexicon = {
         'ma`Aniy' => {
           'N0_Nh' => 1
         },
-        'ma`nY' => {
-          'N0' => 1
-        },
         'ma`nA' => {
           'Nhy' => 1
-        },
-        'ma`nay' => {
-          'NAn_Nayn' => 1
         }
       },
       'entry' => 'ma`nY',
@@ -56150,9 +51339,6 @@ $Lexicon = {
       'patterns' => {
         'ma`Aniy' => [
           'MaFACI'
-        ],
-        'ma`nay' => [
-          'MaFCaL'
         ]
       },
       'index' => '1',
@@ -56172,10 +51358,7 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mu`AnAT' => {
-          'Napdu' => 1
-        },
-        'mu`Anay' => {
+        'mu`AnY' => {
           'NAt' => 1
         }
       },
@@ -56187,8 +51370,8 @@ $Lexicon = {
         'mEAny   muEAnay NAt     hardships;suffering;efforts'
       ],
       'patterns' => {
-        'mu`Anay' => [
-          'MuFACaL'
+        'mu`AnY' => [
+          'MuFACY'
         ]
       },
       'index' => '1',
@@ -56208,8 +51391,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`anniy' => {
-          'NAt' => 1,
-          'N0_Nh' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`anniy',
@@ -56220,7 +51402,11 @@ $Lexicon = {
         'tEn     taEan~  NK      effort;hardship',
         'tEny    taEan~iy        NAt     effort;hardship'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`anniy' => [
+          'TaFaCCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCI',
@@ -56237,7 +51423,11 @@ $Lexicon = {
       'entry' => 'i`tinA\'',
       'form' => 'i`tinA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'i`tinA\'' => [
+          'IFtiCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCA\'',
@@ -56247,11 +51437,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`niyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`niyy',
       'form' => 'ma`niyy',
       'lines' => [
@@ -56277,9 +51463,7 @@ $Lexicon = {
           'Nuwn_Niyn' => 1
         },
         'mu`Aniy' => {
-          'N0F_Nh' => 1,
-          'NapAt' => 1,
-          'NAn_Nayn' => 1
+          'NapAt' => 1
         }
       },
       'entry' => 'mu`Aniy',
@@ -56292,7 +51476,11 @@ $Lexicon = {
         'mEAn    muEAn   Nuwn_Niyn       suffering',
         'mEAny   muEAniy NapAt   suffering'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`Aniy' => [
+          'MuFACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFACI',
@@ -56309,9 +51497,7 @@ $Lexicon = {
           'Nuwn_Niyn' => 1
         },
         'mu`taniy' => {
-          'NapAt' => 1,
-          'NAn_Nayn' => 1,
-          'N0_Nh' => 1
+          'NapAt' => 1
         }
       },
       'entry' => 'mu`taniy',
@@ -56324,7 +51510,11 @@ $Lexicon = {
         'mEtn    muEotan Nuwn_Niyn       concerned;attentive',
         'mEtny   muEotaniy       NapAt   concerned;attentive'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`taniy' => [
+          'MuFtaCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFtaCI',
@@ -56339,15 +51529,10 @@ $Lexicon = {
     {
       'types' => {
         'mu`tanY' => {
-          'N0' => 1,
-          'Napdu' => 1
+          'NAt' => 1
         },
         'mu`tan' => {
           'Nuwn_Niyn' => 1
-        },
-        'mu`tanay' => {
-          'NAt' => 1,
-          'NAn_Nayn' => 1
         }
       },
       'entry' => 'mu`tanY',
@@ -56361,8 +51546,8 @@ $Lexicon = {
         'mEtny   muEotanay       NAt     conscientious;attentive'
       ],
       'patterns' => {
-        'mu`tanay' => [
-          'MuFtaCaL'
+        'mu`tanY' => [
+          'MuFtaCY'
         ]
       },
       'index' => '1',
@@ -56379,9 +51564,7 @@ $Lexicon = {
     {
       'types' => {
         'ma`nawiyy' => {
-          'NAt' => 1,
-          'NF' => 1,
-          'N-ap' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ma`nY',
@@ -56409,11 +51592,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`nawiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`nY',
       'form' => 'ma`nawiyy',
       'lines' => [
@@ -56435,11 +51614,7 @@ $Lexicon = {
   ],
   '` m ^s' => [
     {
-      'types' => {
-        '\'a`ma^s' => {
-          'Nel' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`ma^s',
       'form' => '\'a`ma^s',
       'lines' => [
@@ -56462,11 +51637,7 @@ $Lexicon = {
   ],
   '`arafA\'' => [
     {
-      'types' => {
-        '`arafAwiyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arafA\'',
       'form' => '`arafAwiyy',
       'lines' => [
@@ -56488,11 +51659,7 @@ $Lexicon = {
   ],
   '`abdAl.gaffAr' => [
     {
-      'types' => {
-        '`abdAl.gaffAr' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.gaffAr',
       'form' => '`abdAl.gaffAr',
       'lines' => [
@@ -56514,7 +51681,6 @@ $Lexicon = {
   '` t b' => [
     {
       'types' => {
-        '`atab' => {},
         '`tib' => {
           'IV' => 1
         },
@@ -56555,7 +51721,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`attab' => {},
         '`attib' => {
           'IV_yu' => 1
         }
@@ -56586,8 +51751,7 @@ $Lexicon = {
       'types' => {
         '`Atib' => {
           'IV_yu' => 1
-        },
-        '`Atab' => {}
+        }
       },
       'entry' => '`Atab',
       'form' => '`Atab',
@@ -56613,9 +51777,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`attab' => {}
-      },
+      'types' => {},
       'entry' => 'ta`attab',
       'form' => 'ta`attab',
       'lines' => [
@@ -56635,11 +51797,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`atb' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`atb',
       'form' => '`atb',
       'lines' => [
@@ -56661,9 +51819,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`atabaT' => {
-          'NapAt' => 1
-        },
         '\'a`tAb' => {
           'N' => 2
         }
@@ -56694,11 +51849,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`utaybiyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`utayb',
       'form' => '`utaybiyy',
       'lines' => [
@@ -56717,11 +51868,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`attAbiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`attAb',
       'form' => '`attAbiyy',
       'lines' => [
@@ -56740,11 +51887,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`attAbiyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`attAb',
       'form' => '`attAbiyy',
       'lines' => [
@@ -56763,11 +51906,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`itAb' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`itAb',
       'form' => '`itAb',
       'lines' => [
@@ -56787,11 +51926,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`AtabaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Atab',
       'form' => 'mu`AtabaT',
       'lines' => [
@@ -56813,11 +51948,7 @@ $Lexicon = {
   ],
   '`a.tAAlll_ah' => [
     {
-      'types' => {
-        '`a.tAAlll_ah' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.tAAlll_ah',
       'form' => '`a.tAAlll_ah',
       'lines' => [
@@ -56838,11 +51969,7 @@ $Lexicon = {
   ],
   '`izrA\'iyl' => [
     {
-      'types' => {
-        '`izrA\'iyl' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`izrA\'iyl',
       'form' => '`izrA\'iyl',
       'lines' => [
@@ -56863,11 +51990,7 @@ $Lexicon = {
   ],
   '`abdAl.hayy' => [
     {
-      'types' => {
-        '`abdAl.hayy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.hayy',
       'form' => '`abdAl.hayy',
       'lines' => [
@@ -56895,8 +52018,7 @@ $Lexicon = {
         '`ul' => {
           'PV_C' => 1,
           'IV_C' => 1
-        },
-        '`Al' => {}
+        }
       },
       'entry' => '`Al',
       'form' => '`Al',
@@ -56930,7 +52052,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`awwal' => {},
         '`awwil' => {
           'IV_yu' => 1
         }
@@ -56974,8 +52095,7 @@ $Lexicon = {
         },
         '`Al' => {
           'IV_V_Pass_yu' => 1
-        },
-        '\'a`Al' => {}
+        }
       },
       'entry' => '\'a`Al',
       'form' => '\'a`Al',
@@ -57027,7 +52147,6 @@ $Lexicon = {
         '`wal' => {
           'IV_Pass_yu' => 1
         },
-        '\'a`wal' => {},
         '`wil' => {
           'IV_yu' => 1
         }
@@ -57063,11 +52182,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awl' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awl',
       'form' => '`awl',
       'lines' => [
@@ -57087,11 +52202,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awl' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awl',
       'form' => '`awl',
       'lines' => [
@@ -57110,11 +52221,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iwal' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iwal',
       'form' => '`iwal',
       'lines' => [
@@ -57134,11 +52241,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awiyl' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awiyl',
       'form' => '`awiyl',
       'lines' => [
@@ -57158,11 +52261,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'i`AlaT' => {
-          'Nap' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'i`Al',
       'form' => '\'i`AlaT',
       'lines' => [
@@ -57232,11 +52331,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`awwil' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`awwil',
       'form' => 'mu`awwil',
       'lines' => [
@@ -57256,11 +52351,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`awwal' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`awwal',
       'form' => 'mu`awwal',
       'lines' => [
@@ -57281,11 +52372,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Al' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Al',
       'form' => 'mu`Al',
       'lines' => [
@@ -57305,9 +52392,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mi`wal' => {
-          'Ndu' => 1
-        },
         'ma`Awil' => {
           'Ndip' => 1
         }
@@ -57348,7 +52432,11 @@ $Lexicon = {
         '<EwAl   <iEowAl N/At    wailing;lamentation',
         'AEwAl   <iEowAl N/At    wailing;lamentation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`wAl' => [
+          'HiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -57363,11 +52451,7 @@ $Lexicon = {
   ],
   '` m l q' => [
     {
-      'types' => {
-        '`amlaqaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amlaq',
       'form' => '`amlaqaT',
       'lines' => [
@@ -57387,9 +52471,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`imlAq' => {
-          'Ndu' => 1
-        },
         '`amAliq' => {
           'Nap' => 1
         }
@@ -57418,11 +52499,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`imlAq' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`imlAq',
       'form' => '`imlAq',
       'lines' => [
@@ -57443,11 +52520,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`imlAqiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`imlAq',
       'form' => '`imlAqiyy',
       'lines' => [
@@ -57471,7 +52544,6 @@ $Lexicon = {
   '` y .t' => [
     {
       'types' => {
-        '`ayya.t' => {},
         '`ayyi.t' => {
           'IV_yu' => 1
         }
@@ -57500,11 +52572,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iyA.t' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iyA.t',
       'form' => '`iyA.t',
       'lines' => [
@@ -57526,11 +52594,7 @@ $Lexicon = {
   ],
   '`indahA' => [
     {
-      'types' => {
-        '`indahA' => {
-          'FW-Wa' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`indahA',
       'form' => '`indahA',
       'lines' => [
@@ -57555,9 +52619,6 @@ $Lexicon = {
       'types' => {
         '`alAliy' => {
           'N0_Nh' => 1
-        },
-        '`uliyyaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`uliyy',
@@ -57583,11 +52644,7 @@ $Lexicon = {
   ],
   '`abdAlqAhir' => [
     {
-      'types' => {
-        '`abdAlqAhir' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlqAhir',
       'form' => '`abdAlqAhir',
       'lines' => [
@@ -57608,11 +52665,7 @@ $Lexicon = {
   ],
   '`abdAlsalAm' => [
     {
-      'types' => {
-        '`abdAlsalAm' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlsalAm',
       'form' => '`abdAlsalAm',
       'lines' => [
@@ -57633,11 +52686,7 @@ $Lexicon = {
   ],
   '`abdAl_hAliq' => [
     {
-      'types' => {
-        '`abdAl_hAliq' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl_hAliq',
       'form' => '`abdAl_hAliq',
       'lines' => [
@@ -57658,11 +52707,7 @@ $Lexicon = {
   ],
   '`indamA' => [
     {
-      'types' => {
-        '`indamA' => {
-          'FW-Wa' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`indamA',
       'form' => '`indamA',
       'lines' => [
@@ -57683,11 +52728,7 @@ $Lexicon = {
   ],
   '`abdAl.samad' => [
     {
-      'types' => {
-        '`abdAl.samad' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.samad',
       'form' => '`abdAl.samad',
       'lines' => [
@@ -57708,11 +52749,7 @@ $Lexicon = {
   ],
   '`abdAlmu.hsin' => [
     {
-      'types' => {
-        '`abdAlmu.hsin' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmu.hsin',
       'form' => '`abdAlmu.hsin',
       'lines' => [
@@ -57733,11 +52770,7 @@ $Lexicon = {
   ],
   '`abdAl`Al' => [
     {
-      'types' => {
-        '`abdAl`Al' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl`Al',
       'form' => '`abdAl`Al',
       'lines' => [
@@ -57758,11 +52791,7 @@ $Lexicon = {
   ],
   '`abdAlmuwalliy' => [
     {
-      'types' => {
-        '`abdAlmuwalliy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmuwalliy',
       'form' => '`abdAlmuwalliy',
       'lines' => [
@@ -57783,11 +52812,7 @@ $Lexicon = {
   ],
   '`abdAlrA.diy' => [
     {
-      'types' => {
-        '`abdAlrA.diy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlrA.diy',
       'form' => '`abdAlrA.diy',
       'lines' => [
@@ -57818,7 +52843,6 @@ $Lexicon = {
         '`ataw' => {
           'PV_Atn' => 1
         },
-        '`atA' => {},
         '`at' => {
           'PV_ttAw_intr' => 1
         }
@@ -57839,6 +52863,9 @@ $Lexicon = {
         ],
         '`tuw' => [
           'FCU'
+        ],
+        '`at' => [
+          'FaC'
         ]
       },
       'index' => '1',
@@ -57857,7 +52884,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ta`attY' => {},
         'ta`att' => {
           'PV_ttAw_intr' => 1,
           'IV_0hwnyn' => 1
@@ -57891,11 +52917,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`utuww' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`utuww',
       'form' => '`utuww',
       'lines' => [
@@ -57920,6 +52942,9 @@ $Lexicon = {
       'form' => '`Atiy',
       'lines' => [],
       'patterns' => {
+        '`Atiy' => [
+          'FACI'
+        ],
         '`utY' => [
           'FuCY'
         ]
@@ -57935,11 +52960,7 @@ $Lexicon = {
   ],
   '`alA\'Alddiyn' => [
     {
-      'types' => {
-        '`alA\'Alddiyn' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`alA\'Alddiyn',
       'form' => '`alA\'Alddiyn',
       'lines' => [
@@ -57962,9 +52983,7 @@ $Lexicon = {
   ],
   '` f r t' => [
     {
-      'types' => {
-        'ta`afrat' => {}
-      },
+      'types' => {},
       'entry' => 'ta`afrat',
       'form' => 'ta`afrat',
       'lines' => [
@@ -57989,9 +53008,6 @@ $Lexicon = {
       'types' => {
         '`afAriyt' => {
           'Ndip' => 1
-        },
-        '`ifriyt' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`ifriyt',
@@ -58020,11 +53036,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ifriytiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ifriyt',
       'form' => '`ifriytiyy',
       'lines' => [
@@ -58044,11 +53056,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ifriytaT' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ifriyt',
       'form' => '`ifriytaT',
       'lines' => [
@@ -58067,11 +53075,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`afrataT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`afrat',
       'form' => '`afrataT',
       'lines' => [
@@ -58097,8 +53101,7 @@ $Lexicon = {
       'types' => {
         '`dil' => {
           'IV' => 1
-        },
-        '`adal' => {}
+        }
       },
       'entry' => '`adal',
       'form' => '`adal',
@@ -58129,8 +53132,7 @@ $Lexicon = {
       'types' => {
         '`addil' => {
           'IV_yu' => 1
-        },
-        '`addal' => {}
+        }
       },
       'entry' => '`addal',
       'form' => '`addal',
@@ -58160,8 +53162,7 @@ $Lexicon = {
       'types' => {
         '`Adil' => {
           'IV_intr_yu' => 1
-        },
-        '`Adal' => {}
+        }
       },
       'entry' => '`Adal',
       'form' => '`Adal',
@@ -58187,9 +53188,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`addal' => {}
-      },
+      'types' => {},
       'entry' => 'ta`addal',
       'form' => 'ta`addal',
       'lines' => [
@@ -58209,9 +53208,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Adal' => {}
-      },
+      'types' => {},
       'entry' => 'ta`Adal',
       'form' => 'ta`Adal',
       'lines' => [
@@ -58234,7 +53231,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'i`tadal' => {},
         '`tadil' => {
           'IV_intr' => 1
         }
@@ -58264,11 +53260,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`adl' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adl',
       'form' => '`adl',
       'lines' => [
@@ -58288,11 +53280,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`adliyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adl',
       'form' => '`adliyy',
       'lines' => [
@@ -58312,11 +53300,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`adliyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adl',
       'form' => '`adliyyaT',
       'lines' => [
@@ -58336,9 +53320,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`adiyl' => {
-          'N/ap' => 1
-        },
         '`adA\'il' => {
           'Ndip' => 1
         }
@@ -58363,11 +53344,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uduwl' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uduwl',
       'form' => '`uduwl',
       'lines' => [
@@ -58387,11 +53364,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`adAlaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adAl',
       'form' => '`adAlaT',
       'lines' => [
@@ -58411,11 +53384,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`dal' => {
-          'Nel' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`dal',
       'form' => '\'a`dal',
       'lines' => [
@@ -58447,7 +53416,11 @@ $Lexicon = {
         ';; taEodiyl_1',
         'tEdyl   taEodiyl        NduAt   adjustment;change;modification;amendment'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`diyl' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -58462,11 +53435,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`AdalaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Adal',
       'form' => 'mu`AdalaT',
       'lines' => [
@@ -58486,11 +53455,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`AdalaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Adal',
       'form' => 'mu`AdalaT',
       'lines' => [
@@ -58520,7 +53485,11 @@ $Lexicon = {
         ';; taEAdul_1',
         'tEAdl   taEAdul NduAt   tie;equilibrium;balance'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`Adul' => [
+          'TaFACuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFACuL',
@@ -58545,7 +53514,11 @@ $Lexicon = {
         ';; taEAdul_2',
         'tEAdl   taEAdul N/At    compensation;equitable distribution'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`Adul' => [
+          'TaFACuL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'TaFACuL',
@@ -58570,7 +53543,11 @@ $Lexicon = {
         '<EtdAl  {iEotidAl       N/At    moderateness;evenness',
         'AEtdAl  {iEotidAl       N/At    moderateness;evenness'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tidAl' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -58583,11 +53560,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'i`tidAliyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'i`tidAl',
       'form' => 'i`tidAliyy',
       'lines' => [
@@ -58608,11 +53581,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Adil' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Adil',
       'form' => '`Adil',
       'lines' => [
@@ -58632,11 +53601,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Adil' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Adil',
       'form' => '`Adil',
       'lines' => [
@@ -58657,11 +53622,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Adiliyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Adil',
       'form' => '`Adiliyy',
       'lines' => [
@@ -58681,11 +53642,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`duwl' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`duwl',
       'form' => 'ma`duwl',
       'lines' => [
@@ -58716,7 +53673,11 @@ $Lexicon = {
         ';; muEad~al_1',
         'mEdl    muEad~al        NduAt   average;rate;mean'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`addal' => [
+          'MuFaCCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFaCCaL',
@@ -58730,11 +53691,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`addal' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`addal',
       'form' => 'mu`addal',
       'lines' => [
@@ -58754,11 +53711,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Adil' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Adil',
       'form' => 'mu`Adil',
       'lines' => [
@@ -58777,11 +53730,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Adil' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Adil',
       'form' => 'mu`Adil',
       'lines' => [
@@ -58800,11 +53749,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`Adil' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`Adil',
       'form' => 'muta`Adil',
       'lines' => [
@@ -58824,11 +53769,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tadil' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tadil',
       'form' => 'mu`tadil',
       'lines' => [
@@ -58851,11 +53792,7 @@ $Lexicon = {
   ],
   '` t l t' => [
     {
-      'types' => {
-        '`atlataT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`atlat',
       'form' => '`atlataT',
       'lines' => [
@@ -58878,7 +53815,6 @@ $Lexicon = {
   '` s f' => [
     {
       'types' => {
-        '`asaf' => {},
         '`sif' => {
           'IV' => 1
         }
@@ -58913,8 +53849,7 @@ $Lexicon = {
       'types' => {
         '`assif' => {
           'IV_yu' => 1
-        },
-        '`assaf' => {}
+        }
       },
       'entry' => '`assaf',
       'form' => '`assaf',
@@ -58945,8 +53880,7 @@ $Lexicon = {
         },
         '`sif' => {
           'IV_yu' => 1
-        },
-        '\'a`saf' => {}
+        }
       },
       'entry' => '\'a`saf',
       'form' => '\'a`saf',
@@ -58977,9 +53911,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`assaf' => {}
-      },
+      'types' => {},
       'entry' => 'ta`assaf',
       'form' => 'ta`assaf',
       'lines' => [
@@ -59003,8 +53935,7 @@ $Lexicon = {
       'types' => {
         '`tasif' => {
           'IV' => 1
-        },
-        'i`tasaf' => {}
+        }
       },
       'entry' => 'i`tasaf',
       'form' => 'i`tasaf',
@@ -59032,11 +53963,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`asf' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`asf',
       'form' => '`asf',
       'lines' => [
@@ -59056,11 +53983,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`asfiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`asf',
       'form' => '`asfiyy',
       'lines' => [
@@ -59079,11 +54002,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`asuwf' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`asuwf',
       'form' => '`asuwf',
       'lines' => [
@@ -59103,11 +54022,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`assAf' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`assAf',
       'form' => '`assAf',
       'lines' => [
@@ -59138,7 +54053,11 @@ $Lexicon = {
         ';; taEas~uf_1',
         'tEsf    taEas~uf        N/At    tyranny;despotism;arbitrariness'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`assuf' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -59152,11 +54071,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`assufiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`assuf',
       'form' => 'ta`assufiyy',
       'lines' => [
@@ -59178,7 +54093,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ta`assufiyyaN' => {},
         'ta`assufiyy' => {
           'NF' => 1
         }
@@ -59214,7 +54128,11 @@ $Lexicon = {
         '<EtsAf  {iEotisAf       N/At    deviation;coercion',
         'AEtsAf  {iEotisAf       N/At    deviation;coercion'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`tisAf' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -59227,11 +54145,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`assif' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`assif',
       'form' => 'muta`assif',
       'lines' => [
@@ -59254,7 +54168,6 @@ $Lexicon = {
   '` _t r' => [
     {
       'types' => {
-        '`a_tar' => {},
         '`_tur' => {
           'IV' => 1
         },
@@ -59297,7 +54210,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a_t_tar' => {},
         '`a_t_tir' => {
           'IV_yu' => 1
         }
@@ -59326,7 +54238,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`_tar' => {},
         '`_tir' => {
           'IV_yu' => 1
         },
@@ -59363,9 +54274,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`a_t_tar' => {}
-      },
+      'types' => {},
       'entry' => 'ta`a_t_tar',
       'form' => 'ta`a_t_tar',
       'lines' => [
@@ -59390,9 +54299,6 @@ $Lexicon = {
       'types' => {
         '`a_tar' => {
           'NAt' => 1
-        },
-        '`a_traT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`a_tr',
@@ -59433,7 +54339,11 @@ $Lexicon = {
         ';; Euvuwr_1',
         'Evwr    Euvuwr  N/At    discovery'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '`u_tuwr' => [
+          'FuCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCUL',
@@ -59448,9 +54358,6 @@ $Lexicon = {
       'types' => {
         '`awA_tiyr' => {
           'Ndip' => 1
-        },
-        '`A_tuwr' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`A_tuwr',
@@ -59479,11 +54386,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`a_t_tir' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`a_t_tir',
       'form' => 'mu`a_t_tir',
       'lines' => [
@@ -59503,11 +54406,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`a_t_tir' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'muta`a_t_tir',
       'form' => 'muta`a_t_tir',
       'lines' => [
@@ -59532,11 +54431,7 @@ $Lexicon = {
   ],
   '` m n' => [
     {
-      'types' => {
-        '`umAn' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`umAn',
       'form' => '`umAn',
       'lines' => [
@@ -59555,11 +54450,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ammAn' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ammAn',
       'form' => '`ammAn',
       'lines' => [
@@ -59578,11 +54469,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`umAniyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => '`umAn',
       'form' => '`umAniyy',
       'lines' => [
@@ -59602,11 +54489,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`amman' => {
-          'FW-Wa' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amman',
       'form' => '`amman',
       'lines' => [
@@ -59627,11 +54510,7 @@ $Lexicon = {
   ],
   '` q l \'' => [
     {
-      'types' => {
-        '`uqlA\'' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uqlA\'',
       'form' => '`uqlA\'',
       'lines' => [
@@ -59653,7 +54532,6 @@ $Lexicon = {
   '` ^g b' => [
     {
       'types' => {
-        '`a^gib' => {},
         '`^gab' => {
           'IV_intr' => 1
         }
@@ -59687,8 +54565,7 @@ $Lexicon = {
       'types' => {
         '`a^g^gib' => {
           'IV_yu' => 1
-        },
-        '`a^g^gab' => {}
+        }
       },
       'entry' => '`a^g^gab',
       'form' => '`a^g^gab',
@@ -59719,8 +54596,7 @@ $Lexicon = {
         },
         '`^gib' => {
           'IV_yu' => 1
-        },
-        '\'a`^gab' => {}
+        }
       },
       'entry' => '\'a`^gab',
       'form' => '\'a`^gab',
@@ -59756,8 +54632,7 @@ $Lexicon = {
       'types' => {
         '`^gab' => {
           'IV_Pass_yu' => 1
-        },
-        '\'u`^gib' => {}
+        }
       },
       'entry' => '\'u`^gib',
       'form' => '\'u`^gib',
@@ -59783,9 +54658,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`a^g^gab' => {}
-      },
+      'types' => {},
       'entry' => 'ta`a^g^gab',
       'form' => 'ta`a^g^gab',
       'lines' => [
@@ -59809,8 +54682,7 @@ $Lexicon = {
       'types' => {
         'sta`^gib' => {
           'IV_intr' => 1
-        },
-        'ista`^gab' => {}
+        }
       },
       'entry' => 'ista`^gab',
       'form' => 'ista`^gab',
@@ -59833,9 +54705,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a^gab' => {
-          'N' => 1
-        },
         '\'a`^gAb' => {
           'N' => 2
         }
@@ -59865,11 +54734,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u^gAb' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u^gAb',
       'form' => '`u^gAb',
       'lines' => [
@@ -59889,11 +54754,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^giyb' => {
-          'N/ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^giyb',
       'form' => '`a^giyb',
       'lines' => [
@@ -59914,11 +54775,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^giyb' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^giyb',
       'form' => '`a^giyb',
       'lines' => [
@@ -59938,9 +54795,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a^giybaT' => {
-          'Napdu' => 1
-        },
         '`a^gA\'ib' => {
           'Ndip' => 1
         }
@@ -59968,11 +54822,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`^gab' => {
-          'Nel' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`^gab',
       'form' => '\'a`^gab',
       'lines' => [
@@ -60003,7 +54853,11 @@ $Lexicon = {
         ';; taEojiyb_1',
         'tEjyb   taEojiyb        N/At    arousing admiration'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`^giyb' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -60027,7 +54881,11 @@ $Lexicon = {
         '<EjAb   <iEojAb N/At    admiration;wonder;surprise',
         'AEjAb   <iEojAb N/At    admiration;wonder;surprise'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i`^gAb' => [
+          'HiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -60052,7 +54910,11 @@ $Lexicon = {
         ';; taEaj~ub_1',
         'tEjb    taEaj~ub        N/At    astonishment;amazement'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`a^g^gub' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -60077,7 +54939,11 @@ $Lexicon = {
         '<stEjAb {isotiEojAb     N/At    astonishment;amazement',
         'AstEjAb {isotiEojAb     N/At    astonishment;amazement'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'isti`^gAb' => [
+          'IstiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCAL',
@@ -60090,11 +54956,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`^gib' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`^gib',
       'form' => 'mu`^gib',
       'lines' => [
@@ -60113,11 +54975,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`^gab' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`^gab',
       'form' => 'mu`^gab',
       'lines' => [
@@ -60137,11 +54995,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`a^g^gib' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`a^g^gib',
       'form' => 'muta`a^g^gib',
       'lines' => [
@@ -60163,11 +55017,7 @@ $Lexicon = {
   ],
   '`illiyyuwn' => [
     {
-      'types' => {
-        '`illiyyuwn' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`illiyyuwn',
       'form' => '`illiyyuwn',
       'lines' => [
@@ -60190,7 +55040,6 @@ $Lexicon = {
   '` l f' => [
     {
       'types' => {
-        '\'a`laf' => {},
         '`lif' => {
           'IV_yu' => 1
         },
@@ -60228,9 +55077,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`alaf' => {
-          'N' => 1
-        },
         '\'a`lAf' => {
           'N' => 2
         },
@@ -60267,11 +55113,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aluwfaT' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aluwf',
       'form' => '`aluwfaT',
       'lines' => [
@@ -60292,9 +55134,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mi`laf' => {
-          'Ndu' => 1
-        },
         'ma`Alif' => {
           'Ndip' => 1
         }
@@ -60325,11 +55164,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`luwf' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`luwf',
       'form' => 'ma`luwf',
       'lines' => [
@@ -60349,11 +55184,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`luwf' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`luwf',
       'form' => 'ma`luwf',
       'lines' => [
@@ -60377,8 +55208,7 @@ $Lexicon = {
       'types' => {
         '`.zum' => {
           'IV_intr' => 1
-        },
-        '`a.zum' => {}
+        }
       },
       'entry' => '`a.zum',
       'form' => '`a.zum',
@@ -60410,8 +55240,7 @@ $Lexicon = {
       'types' => {
         '`a.z.zim' => {
           'IV_yu' => 1
-        },
-        '`a.z.zam' => {}
+        }
       },
       'entry' => '`a.z.zam',
       'form' => '`a.z.zam',
@@ -60440,8 +55269,7 @@ $Lexicon = {
       'types' => {
         '`a.z.zim' => {
           'IV_yu' => 1
-        },
-        '`a.z.zam' => {}
+        }
       },
       'entry' => '`a.z.zam',
       'form' => '`a.z.zam',
@@ -60472,8 +55300,7 @@ $Lexicon = {
         },
         '`.zim' => {
           'IV_yu' => 1
-        },
-        '\'a`.zam' => {}
+        }
       },
       'entry' => '\'a`.zam',
       'form' => '\'a`.zam',
@@ -60506,9 +55333,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`a.z.zam' => {}
-      },
+      'types' => {},
       'entry' => 'ta`a.z.zam',
       'form' => 'ta`a.z.zam',
       'lines' => [
@@ -60529,9 +55354,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`A.zam' => {}
-      },
+      'types' => {},
       'entry' => 'ta`A.zam',
       'form' => 'ta`A.zam',
       'lines' => [
@@ -60553,7 +55376,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ista`.zam' => {},
         'sta`.zim' => {
           'IV' => 1
         }
@@ -60582,9 +55404,6 @@ $Lexicon = {
       'types' => {
         '`i.zAm' => {
           'N' => 1
-        },
-        '`a.zm' => {
-          'N' => 1
         }
       },
       'entry' => '`a.zm',
@@ -60611,11 +55430,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i.zAmiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i.zAm',
       'form' => '`i.zAmiyy',
       'lines' => [
@@ -60635,11 +55450,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.zmiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.zm',
       'form' => '`a.zmiyy',
       'lines' => [
@@ -60661,7 +55472,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a.zmiyyAt' => {},
         '`a.zmiyy' => {
           'NAt' => 1
         }
@@ -60684,11 +55494,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`.zamaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`.zam',
       'form' => 'ma`.zamaT',
       'lines' => [
@@ -60707,11 +55513,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u.zm' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u.zm',
       'form' => '`u.zm',
       'lines' => [
@@ -60734,9 +55536,6 @@ $Lexicon = {
       'types' => {
         '`a.zam' => {
           'NAt' => 1
-        },
-        '`a.zmaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`a.zm',
@@ -60763,11 +55562,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.zmaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.zm',
       'form' => '`a.zmaT',
       'lines' => [
@@ -60787,11 +55582,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.zmaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.zm',
       'form' => '`a.zmaT',
       'lines' => [
@@ -60814,9 +55605,6 @@ $Lexicon = {
       'types' => {
         '`i.zAm' => {
           'N' => 1
-        },
-        '`a.ziym' => {
-          'N/ap' => 1
         },
         '`a.zA\'im' => {
           'Ndip' => 1
@@ -60858,11 +55646,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.ziym' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.ziym',
       'form' => '`a.ziym',
       'lines' => [
@@ -60883,9 +55667,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a.ziymaT' => {
-          'Nap' => 1
-        },
         '`a.zA\'im' => {
           'Ndip' => 1
         }
@@ -60910,11 +55691,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i.zAmiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i.zAm',
       'form' => '`i.zAmiyy',
       'lines' => [
@@ -60935,18 +55712,13 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`.zam' => {
-          'Nel' => 2
-        },
-        '`u.zmay' => {
-          'NAt' => 1,
-          'NAn_Nayn' => 1
-        },
         '`u.zmA' => {
           'Nhy' => 1
         },
         '`u.zmY' => {
-          'N0' => 1
+          'NAt' => 1,
+          'N0' => 1,
+          'NAn_Nayn' => 1
         },
         '\'a`A.zim' => {
           'Ndip' => 2
@@ -60997,7 +55769,11 @@ $Lexicon = {
         ';; taEoZiym_1',
         'tEZym   taEoZiym        N/At    glorification;veneration'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`.ziym' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -61021,7 +55797,11 @@ $Lexicon = {
         ';; taEoZiym_2',
         'tEZym   taEoZiym        N/At    salute (military)'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`.ziym' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -61033,11 +55813,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`.ziym' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`.ziym',
       'form' => 'ta`.ziym',
       'lines' => [
@@ -61056,11 +55832,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`a.z.zam' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`a.z.zam',
       'form' => 'mu`a.z.zam',
       'lines' => [
@@ -61080,11 +55852,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`a.z.zam' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`a.z.zam',
       'form' => 'mu`a.z.zam',
       'lines' => [
@@ -61103,11 +55871,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`.zam' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`.zam',
       'form' => 'mu`.zam',
       'lines' => [
@@ -61127,11 +55891,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`A.zim' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`A.zim',
       'form' => 'muta`A.zim',
       'lines' => [
@@ -61153,11 +55913,7 @@ $Lexicon = {
   ],
   '`abdAlwal' => [
     {
-      'types' => {
-        '`abdAlwaliyy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlwal',
       'form' => '`abdAlwaliyy',
       'lines' => [
@@ -61178,11 +55934,7 @@ $Lexicon = {
   ],
   '`Ama\'i_diN' => [
     {
-      'types' => {
-        '`Ama\'i_diN' => {
-          'FW-Wa' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Ama\'i_diN',
       'form' => '`Ama\'i_diN',
       'lines' => [
@@ -61203,11 +55955,7 @@ $Lexicon = {
   ],
   '`abdAlqAdir' => [
     {
-      'types' => {
-        '`abdAlqAdir' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlqAdir',
       'form' => '`abdAlqAdir',
       'lines' => [
@@ -61232,7 +55980,6 @@ $Lexicon = {
         '`uwd' => {
           'IV_V' => 1
         },
-        '`Ad' => {},
         '`ud' => {
           'PV_C' => 1,
           'IV_C' => 2
@@ -61275,8 +56022,7 @@ $Lexicon = {
       'types' => {
         '`awwid' => {
           'IV_yu' => 1
-        },
-        '`awwad' => {}
+        }
       },
       'entry' => '`awwad',
       'form' => '`awwad',
@@ -61306,8 +56052,7 @@ $Lexicon = {
       'types' => {
         '`Awid' => {
           'IV_yu' => 1
-        },
-        '`Awad' => {}
+        }
       },
       'entry' => '`Awad',
       'form' => '`Awad',
@@ -61340,7 +56085,6 @@ $Lexicon = {
         '`Ad' => {
           'IV_V_Pass_yu' => 1
         },
-        '\'a`Ad' => {},
         '`ad' => {
           'IV_C_Pass_yu' => 1
         },
@@ -61406,9 +56150,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`awwad' => {}
-      },
+      'types' => {},
       'entry' => 'ta`awwad',
       'form' => 'ta`awwad',
       'lines' => [
@@ -61438,8 +56180,7 @@ $Lexicon = {
         },
         '`tad' => {
           'IV_C' => 1
-        },
-        'i`tAd' => {}
+        }
       },
       'entry' => 'i`tAd',
       'form' => 'i`tAd',
@@ -61479,7 +56220,6 @@ $Lexicon = {
         'ista`ad' => {
           'PV_C' => 2
         },
-        'ista`Ad' => {},
         'sta`id' => {
           'IV_C' => 1
         },
@@ -61538,9 +56278,6 @@ $Lexicon = {
         },
         '`iydAn' => {
           'N' => 1
-        },
-        '`uwd' => {
-          'N' => 1
         }
       },
       'entry' => '`uwd',
@@ -61574,11 +56311,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awd' => {
-          'NF' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awd',
       'form' => '`awd',
       'lines' => [
@@ -61598,11 +56331,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awdaT' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awd',
       'form' => '`awdaT',
       'lines' => [
@@ -61624,9 +56353,6 @@ $Lexicon = {
       'types' => {
         '`Ad' => {
           'NAt' => 1
-        },
-        '`AdaT' => {
-          'Napdu' => 1
         },
         '`awA\'id' => {
           'Ndip' => 1
@@ -61671,11 +56397,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Adiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Ad',
       'form' => '`Adiyy',
       'lines' => [
@@ -61696,11 +56418,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awwAd' => {
-          'N/ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awwAd',
       'form' => '`awwAd',
       'lines' => [
@@ -61719,11 +56437,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`Ad' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`Ad',
       'form' => 'ma`Ad',
       'lines' => [
@@ -61754,7 +56468,11 @@ $Lexicon = {
         ';; taEowiyd_1',
         'tEwyd   taEowiyd        N/At    habituation;conditioning'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`wiyd' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -61767,11 +56485,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`AwadaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Awad',
       'form' => 'mu`AwadaT',
       'lines' => [
@@ -61791,11 +56505,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'i`AdaT' => {
-          'NapAt' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'i`Ad',
       'form' => '\'i`AdaT',
       'lines' => [
@@ -61828,7 +56538,11 @@ $Lexicon = {
         ';; taEaw~ud_1',
         'tEwd    taEaw~ud        N/At    habituation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`awwud' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -61844,7 +56558,11 @@ $Lexicon = {
       'entry' => 'i`tiyAd',
       'form' => 'i`tiyAd',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'i`tiyAd' => [
+          'IFtiyAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiyAL',
@@ -61868,11 +56586,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'isti`AdaT' => {
-          'NapAt' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'isti`Ad',
       'form' => 'isti`AdaT',
       'lines' => [
@@ -61911,7 +56625,11 @@ $Lexicon = {
       'entry' => '`A\'id',
       'form' => '`A\'id',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '`A\'id' => [
+          'FA\'iL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FA\'iL',
@@ -61921,11 +56639,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uwwAd' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uwwAd',
       'form' => '`uwwAd',
       'lines' => [
@@ -61990,11 +56704,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`awwad' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`awwad',
       'form' => 'mu`awwad',
       'lines' => [
@@ -62014,11 +56724,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Awid' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Awid',
       'form' => 'mu`Awid',
       'lines' => [
@@ -62051,11 +56757,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Ad' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Ad',
       'form' => 'mu`Ad',
       'lines' => [
@@ -62076,11 +56778,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`awwid' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`awwid',
       'form' => 'muta`awwid',
       'lines' => [
@@ -62100,11 +56798,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tAd' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tAd',
       'form' => 'mu`tAd',
       'lines' => [
@@ -62124,11 +56818,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tAd' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tAd',
       'form' => 'mu`tAd',
       'lines' => [
@@ -62150,11 +56840,7 @@ $Lexicon = {
   ],
   '`alAma' => [
     {
-      'types' => {
-        '`alAma' => {
-          'FW-Wa' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`alAma',
       'form' => '`alAma',
       'lines' => [
@@ -62176,11 +56862,7 @@ $Lexicon = {
   ],
   '`abdAlmun.sif' => [
     {
-      'types' => {
-        '`abdAlmun.sif' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmun.sif',
       'form' => '`abdAlmun.sif',
       'lines' => [
@@ -62201,11 +56883,7 @@ $Lexicon = {
   ],
   '`amyAniyy' => [
     {
-      'types' => {
-        '`amyAniyy' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amyAniyy',
       'form' => '`amyAniyy',
       'lines' => [
@@ -62226,11 +56904,7 @@ $Lexicon = {
   ],
   '`abdAl`.ziym' => [
     {
-      'types' => {
-        '`abdAl`.ziym' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl`.ziym',
       'form' => '`abdAl`.ziym',
       'lines' => [
@@ -62251,11 +56925,7 @@ $Lexicon = {
   ],
   '` y d d' => [
     {
-      'types' => {
-        '`aydiyd' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aydiyd',
       'form' => '`aydiyd',
       'lines' => [
@@ -62324,8 +56994,7 @@ $Lexicon = {
         },
         '`ayyin' => {
           'IV-n_yu' => 1
-        },
-        '`ayyan' => {}
+        }
       },
       'entry' => '`ayyan',
       'form' => '`ayyan',
@@ -62361,8 +57030,7 @@ $Lexicon = {
       'types' => {
         '`Ayin' => {
           'IV-n_yu' => 1
-        },
-        '`Ayan' => {}
+        }
       },
       'entry' => '`Ayan',
       'form' => '`Ayan',
@@ -62389,9 +57057,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`ayyan' => {}
-      },
+      'types' => {},
       'entry' => 'ta`ayyan',
       'form' => 'ta`ayyan',
       'lines' => [
@@ -62412,11 +57078,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ayn' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ayn',
       'form' => '`ayn',
       'lines' => [
@@ -62439,9 +57101,6 @@ $Lexicon = {
       'types' => {
         '\'a`yun' => {
           'N' => 2
-        },
-        '`ayn' => {
-          'Ndu' => 1
         },
         '`uyuwn' => {
           'N' => 1
@@ -62474,9 +57133,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`ayn' => {
-          'N' => 1
-        },
         '`uyuwn' => {
           'N' => 1
         }
@@ -62518,7 +57174,11 @@ $Lexicon = {
         ';; Eayon_4',
         'Eyn     Eayon   NduAt   ain (Arabic letter)'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '`ayn' => [
+          'FaCL'
+        ]
+      },
       'index' => '4',
       'entity' => 'noun',
       'morphs' => 'FaCL',
@@ -62530,11 +57190,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`yAn' => {
-          'N' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`yAn',
       'form' => '\'a`yAn',
       'lines' => [
@@ -62555,11 +57211,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ayniyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ayn',
       'form' => '`ayniyy',
       'lines' => [
@@ -62580,11 +57232,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aynAwiyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aynA\'',
       'form' => '`aynAwiyy',
       'lines' => [
@@ -62605,11 +57253,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iynaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iyn',
       'form' => '`iynaT',
       'lines' => [
@@ -62628,11 +57272,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ayyinaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ayyin',
       'form' => '`ayyinaT',
       'lines' => [
@@ -62652,11 +57292,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`iyn' => {
-          'Ndu' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`iyn',
       'form' => 'ma`iyn',
       'lines' => [
@@ -62675,11 +57311,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`iyn' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`iyn',
       'form' => 'ma`iyn',
       'lines' => [
@@ -62709,7 +57341,11 @@ $Lexicon = {
         ';; taEoyiyn_1',
         'tEyyn   taEoyiyn        N/At    appointing;assignment'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`yiyn' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -62722,11 +57358,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`AyanaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Ayan',
       'form' => 'mu`AyanaT',
       'lines' => [
@@ -62747,11 +57379,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iyAn' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iyAn',
       'form' => '`iyAn',
       'lines' => [
@@ -62773,8 +57401,7 @@ $Lexicon = {
       'types' => {
         '`iyAn' => {
           'NF' => 1
-        },
-        '`iyAnaN' => {}
+        }
       },
       'entry' => '`iyAn',
       'form' => '`iyAnaN',
@@ -62799,11 +57426,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`iyAniyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iyAn',
       'form' => '`iyAniyy',
       'lines' => [
@@ -62823,11 +57446,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`ayyan' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`ayyan',
       'form' => 'mu`ayyan',
       'lines' => [
@@ -62850,11 +57469,7 @@ $Lexicon = {
   ],
   '`abdAl.haliym' => [
     {
-      'types' => {
-        '`abdAl.haliym' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.haliym',
       'form' => '`abdAl.haliym',
       'lines' => [
@@ -62882,7 +57497,6 @@ $Lexicon = {
         '`iy^s' => {
           'IV_V' => 1
         },
-        '`A^s' => {},
         '`i^s' => {
           'PV_C' => 1,
           'IV_C' => 1
@@ -62927,7 +57541,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`ayya^s' => {},
         '`ayyi^s' => {
           'IV_yu' => 1
         }
@@ -62958,8 +57571,7 @@ $Lexicon = {
       'types' => {
         '`Ayi^s' => {
           'IV_yu' => 1
-        },
-        '`Aya^s' => {}
+        }
       },
       'entry' => '`Aya^s',
       'form' => '`Aya^s',
@@ -62985,7 +57597,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`A^s' => {},
         '`a^s' => {
           'IV_C_Pass_yu' => 1
         },
@@ -63044,9 +57655,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`ayya^s' => {}
-      },
+      'types' => {},
       'entry' => 'ta`ayya^s',
       'form' => 'ta`ayya^s',
       'lines' => [
@@ -63067,9 +57676,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Aya^s' => {}
-      },
+      'types' => {},
       'entry' => 'ta`Aya^s',
       'form' => 'ta`Aya^s',
       'lines' => [
@@ -63097,7 +57704,6 @@ $Lexicon = {
         'i`ta^s' => {
           'PV_C' => 2
         },
-        'i`tA^s' => {},
         '`tA^s' => {
           'IV_V' => 1
         }
@@ -63136,11 +57742,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ay^s' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ay^s',
       'form' => '`ay^s',
       'lines' => [
@@ -63160,11 +57762,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ay^saT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ay^s',
       'form' => '`ay^saT',
       'lines' => [
@@ -63184,11 +57782,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ayyA^s' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ayyA^s',
       'form' => '`ayyA^s',
       'lines' => [
@@ -63209,8 +57803,7 @@ $Lexicon = {
     {
       'types' => {
         'ma`A^s' => {
-          'NAt' => 1,
-          'Ndu' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ma`A^s',
@@ -63220,7 +57813,11 @@ $Lexicon = {
         'mEA$    maEA$   Ndu     salary;pension;income',
         'mEA$    maEA$   NAt     salaries;pensions;income'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ma`A^s' => [
+          'MaFAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MaFAL',
@@ -63237,9 +57834,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ma`iy^saT' => {
-          'Nap' => 1
-        },
         'ma`Ayi^s' => {
           'Ndip' => 1
         }
@@ -63267,11 +57861,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`iy^siyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`iy^s',
       'form' => 'ma`iy^siyy',
       'lines' => [
@@ -63290,11 +57880,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Aya^saT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Aya^s',
       'form' => 'mu`Aya^saT',
       'lines' => [
@@ -63313,11 +57899,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'i`A^saT' => {
-          'NapAt' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'i`A^s',
       'form' => '\'i`A^saT',
       'lines' => [
@@ -63350,7 +57932,11 @@ $Lexicon = {
         ';; taEAyu$_1',
         'tEAy$   taEAyu$ N/At    coexistence;living together'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`Ayu^s' => [
+          'TaFACuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFACuL',
@@ -63383,11 +57969,7 @@ $Lexicon = {
   ],
   '`i.syAniyy' => [
     {
-      'types' => {
-        '`i.syAniyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i.syAniyy',
       'form' => '`i.syAniyy',
       'lines' => [
@@ -63409,9 +57991,7 @@ $Lexicon = {
   ],
   '` t r' => [
     {
-      'types' => {
-        'ta`attar' => {}
-      },
+      'types' => {},
       'entry' => 'ta`attar',
       'form' => 'ta`attar',
       'lines' => [
@@ -63432,11 +58012,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`attar' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`attar',
       'form' => 'mu`attar',
       'lines' => [
@@ -63476,9 +58052,6 @@ $Lexicon = {
       'types' => {
         '`amAyirah' => {
           'N0' => 1
-        },
-        '`amAyiraT' => {
-          'N0' => 1
         }
       },
       'entry' => '`amAyir',
@@ -63502,11 +58075,7 @@ $Lexicon = {
   ],
   '`abdAlsayyid' => [
     {
-      'types' => {
-        '`abdAlsayyid' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlsayyid',
       'form' => '`abdAlsayyid',
       'lines' => [
@@ -63527,11 +58096,7 @@ $Lexicon = {
   ],
   'ya`bud' => [
     {
-      'types' => {
-        'ya`bud' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ya`bud',
       'form' => 'ya`bud',
       'lines' => [
@@ -63552,11 +58117,7 @@ $Lexicon = {
   ],
   '`inda\'i_diN' => [
     {
-      'types' => {
-        '`inda\'i_diN' => {
-          'FW-Wa' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`inda\'i_diN',
       'form' => '`inda\'i_diN',
       'lines' => [
@@ -63578,11 +58139,7 @@ $Lexicon = {
   ],
   '` k b r' => [
     {
-      'types' => {
-        '`ikbir' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ikbir',
       'form' => '`ikbir',
       'lines' => [
@@ -63606,8 +58163,7 @@ $Lexicon = {
       'types' => {
         '`ba_t' => {
           'IV' => 1
-        },
-        '`abi_t' => {}
+        }
       },
       'entry' => '`abi_t',
       'form' => '`abi_t',
@@ -63639,8 +58195,7 @@ $Lexicon = {
       'types' => {
         '`Abi_t' => {
           'IV_yu' => 1
-        },
-        '`Aba_t' => {}
+        }
       },
       'entry' => '`Aba_t',
       'form' => '`Aba_t',
@@ -63665,11 +58220,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aba_t' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aba_t',
       'form' => '`aba_t',
       'lines' => [
@@ -63693,8 +58244,7 @@ $Lexicon = {
       'types' => {
         '`aba_t' => {
           'NF' => 1
-        },
-        '`aba_taN' => {}
+        }
       },
       'entry' => '`aba_t',
       'form' => '`aba_taN',
@@ -63719,11 +58269,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Aba_taT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Aba_t',
       'form' => 'mu`Aba_taT',
       'lines' => [
@@ -63744,11 +58290,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Abi_t' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Abi_t',
       'form' => '`Abi_t',
       'lines' => [
@@ -63795,8 +58337,7 @@ $Lexicon = {
       'types' => {
         '`^sam' => {
           'IV_intr' => 1
-        },
-        '`a^sim' => {}
+        }
       },
       'entry' => '`a^sim',
       'form' => '`a^sim',
@@ -63825,11 +58366,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^sam' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^sam',
       'form' => '`a^sam',
       'lines' => [
@@ -63853,9 +58390,6 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
-        },
-        '\'a`^sam' => {
-          'Nel' => 2
         }
       },
       'entry' => '\'a`^sam',
@@ -63897,7 +58431,6 @@ $Lexicon = {
         '`s' => {
           'IV_0hwnyn' => 1
         },
-        '`asA' => {},
         '`suw' => {
           'IV_0hAnn' => 1
         }
@@ -63915,6 +58448,9 @@ $Lexicon = {
       'patterns' => {
         '`asaw' => [
           'FaCaL'
+        ],
+        '`as' => [
+          'FaC'
         ],
         '`suw' => [
           'FCU'
@@ -63942,9 +58478,6 @@ $Lexicon = {
           'FW-Wa-n~a' => 1
         },
         'mA`asY' => {
-          'FW-Wa' => 1
-        },
-        '`asY' => {
           'FW-Wa' => 1
         }
       },
@@ -63978,7 +58511,11 @@ $Lexicon = {
       'entry' => '`Asiy',
       'form' => '`Asiy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '`Asiy' => [
+          'FACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FACI',
@@ -63993,9 +58530,6 @@ $Lexicon = {
       'types' => {
         '`unuwz' => {
           'N' => 1
-        },
-        '`anz' => {
-          'Ndu' => 1
         },
         '`inAz' => {
           'N' => 1
@@ -64035,9 +58569,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`anzaT' => {
-          'Napdu' => 1
-        },
         '`anaz' => {
           'NAt' => 1
         }
@@ -64066,11 +58597,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`unayzaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`unayz',
       'form' => '`unayzaT',
       'lines' => [
@@ -64090,11 +58617,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`unayzaT' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`unayz',
       'form' => '`unayzaT',
       'lines' => [
@@ -64114,11 +58637,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`anziyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`anz',
       'form' => '`anziyy',
       'lines' => [
@@ -64137,11 +58656,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`anazaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`anaz',
       'form' => '`anazaT',
       'lines' => [
@@ -64160,11 +58675,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`anazaT' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`anaz',
       'form' => '`anazaT',
       'lines' => [
@@ -64185,11 +58696,7 @@ $Lexicon = {
   ],
   '`a.zamuwt' => [
     {
-      'types' => {
-        '`a.zamuwt' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.zamuwt',
       'form' => '`a.zamuwt',
       'lines' => [
@@ -64212,7 +58719,6 @@ $Lexicon = {
   '` .t b' => [
     {
       'types' => {
-        '`a.tib' => {},
         '`.tab' => {
           'IV' => 1
         }
@@ -64247,8 +58753,7 @@ $Lexicon = {
       'types' => {
         '`a.t.tib' => {
           'IV_yu' => 1
-        },
-        '`a.t.tab' => {}
+        }
       },
       'entry' => '`a.t.tab',
       'form' => '`a.t.tab',
@@ -64278,7 +58783,6 @@ $Lexicon = {
         '`.tab' => {
           'IV_Pass_yu' => 1
         },
-        '\'a`.tab' => {},
         '`.tib' => {
           'IV_yu' => 1
         }
@@ -64314,9 +58818,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`a.t.tab' => {}
-      },
+      'types' => {},
       'entry' => 'ta`a.t.tab',
       'form' => 'ta`a.t.tab',
       'lines' => [
@@ -64338,7 +58840,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'i`ta.tab' => {},
         '`ta.tib' => {
           'IV' => 1
         }
@@ -64371,9 +58872,6 @@ $Lexicon = {
       'types' => {
         '\'a`.tAb' => {
           'N' => 2
-        },
-        '`a.tab' => {
-          'N' => 1
         }
       },
       'entry' => '`a.tab',
@@ -64413,7 +58911,11 @@ $Lexicon = {
         ';; taEoTiyb_1',
         'tETyb   taEoTiyb        N/At    destruction;damage'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`.tiyb' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -64437,7 +58939,11 @@ $Lexicon = {
         ';; taEaT~ub_1',
         'tETb    taEaT~ub        N/At    damage;impairment'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`a.t.tub' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -64450,11 +58956,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`.tuwb' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`.tuwb',
       'form' => 'ma`.tuwb',
       'lines' => [
@@ -64474,11 +58976,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.tuwb' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.tuwb',
       'form' => '`a.tuwb',
       'lines' => [
@@ -64497,11 +58995,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.tuwbiyy' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.tuwb',
       'form' => '`a.tuwbiyy',
       'lines' => [
@@ -64523,11 +59017,7 @@ $Lexicon = {
   ],
   '` m s' => [
     {
-      'types' => {
-        '`Amuws' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Amuws',
       'form' => '`Amuws',
       'lines' => [
@@ -64548,11 +59038,7 @@ $Lexicon = {
   ],
   '`udwAniyy' => [
     {
-      'types' => {
-        '`udwAniyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`udwAniyy',
       'form' => '`udwAniyy',
       'lines' => [
@@ -64572,11 +59058,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`udwAniyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`udwAniyy',
       'form' => '`udwAniyyaT',
       'lines' => [
@@ -64599,9 +59081,6 @@ $Lexicon = {
   '` n .s l' => [
     {
       'types' => {
-        '`un.sul' => {
-          'Ndu' => 1
-        },
         '`anA.sil' => {
           'Ndip' => 1
         }
@@ -64633,7 +59112,6 @@ $Lexicon = {
   '` t k' => [
     {
       'types' => {
-        '`atak' => {},
         '`tik' => {
           'IV' => 1
         }
@@ -64664,11 +59142,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Atik' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Atik',
       'form' => '`Atik',
       'lines' => [
@@ -64693,8 +59167,7 @@ $Lexicon = {
       'types' => {
         '`awwih' => {
           'IV' => 1
-        },
-        '`awwah' => {}
+        }
       },
       'entry' => '`awwah',
       'form' => '`awwah',
@@ -64722,9 +59195,6 @@ $Lexicon = {
       'types' => {
         '`Ah' => {
           'NAt' => 1
-        },
-        '`AhaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`Ah',
@@ -64757,9 +59227,6 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
-        },
-        '\'a`wah' => {
-          'Nel' => 2
         }
       },
       'entry' => '\'a`wah',
@@ -64789,11 +59256,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`uwh' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`uwh',
       'form' => 'ma`uwh',
       'lines' => [
@@ -64816,11 +59279,7 @@ $Lexicon = {
   ],
   '` s ^g d' => [
     {
-      'types' => {
-        '`as^gad' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`as^gad',
       'form' => '`as^gad',
       'lines' => [
@@ -64839,11 +59298,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`as^gadiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`as^gad',
       'form' => '`as^gadiyy',
       'lines' => [
@@ -64862,11 +59317,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`as^gad' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`as^gad',
       'form' => 'mu`as^gad',
       'lines' => [
@@ -64887,11 +59338,7 @@ $Lexicon = {
   ],
   '`abdAldAr' => [
     {
-      'types' => {
-        '`abdAldAr' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAldAr',
       'form' => '`abdAldAr',
       'lines' => [
@@ -64912,11 +59359,7 @@ $Lexicon = {
   ],
   '`abdAlwAliy' => [
     {
-      'types' => {
-        '`abdAlwAliy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlwAliy',
       'form' => '`abdAlwAliy',
       'lines' => [
@@ -64940,8 +59383,7 @@ $Lexicon = {
       'types' => {
         '`kuf' => {
           'IV_intr' => 1
-        },
-        '`akaf' => {}
+        }
       },
       'entry' => '`akaf',
       'form' => '`akaf',
@@ -64976,8 +59418,7 @@ $Lexicon = {
         },
         '`kif' => {
           'IV' => 1
-        },
-        '`akaf' => {}
+        }
       },
       'entry' => '`akaf',
       'form' => '`akaf',
@@ -65010,9 +59451,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`akkaf' => {}
-      },
+      'types' => {},
       'entry' => 'ta`akkaf',
       'form' => 'ta`akkaf',
       'lines' => [
@@ -65036,8 +59475,7 @@ $Lexicon = {
       'types' => {
         '`takif' => {
           'IV_intr' => 1
-        },
-        'i`takaf' => {}
+        }
       },
       'entry' => 'i`takaf',
       'form' => 'i`takaf',
@@ -65064,11 +59502,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ukuwf' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ukuwf',
       'form' => '`ukuwf',
       'lines' => [
@@ -65088,11 +59522,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Akif' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Akif',
       'form' => '`Akif',
       'lines' => [
@@ -65123,7 +59553,11 @@ $Lexicon = {
         ';; muEotakaf_1',
         'mEtkf   muEotakaf       NduAt   secluded place;retreat'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`takaf' => [
+          'MuFtaCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFtaCaL',
@@ -65141,8 +59575,7 @@ $Lexicon = {
       'types' => {
         '`.ta^s' => {
           'IV_intr' => 1
-        },
-        '`a.ti^s' => {}
+        }
       },
       'entry' => '`a.ti^s',
       'form' => '`a.ti^s',
@@ -65174,8 +59607,7 @@ $Lexicon = {
       'types' => {
         '`a.t.ti^s' => {
           'IV_yu' => 1
-        },
-        '`a.t.ta^s' => {}
+        }
       },
       'entry' => '`a.t.ta^s',
       'form' => '`a.t.ta^s',
@@ -65204,7 +59636,6 @@ $Lexicon = {
         '`.ta^s' => {
           'IV_Pass_yu' => 1
         },
-        '\'a`.ta^s' => {},
         '`.ti^s' => {
           'IV_yu' => 1
         }
@@ -65238,9 +59669,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`a.t.ta^s' => {}
-      },
+      'types' => {},
       'entry' => 'ta`a.t.ta^s',
       'form' => 'ta`a.t.ta^s',
       'lines' => [
@@ -65261,11 +59690,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.ta^s' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.ta^s',
       'form' => '`a.ta^s',
       'lines' => [
@@ -65285,11 +59710,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.ti^s' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.ti^s',
       'form' => '`a.ti^s',
       'lines' => [
@@ -65321,9 +59742,6 @@ $Lexicon = {
         },
         '`a.t^sY' => {
           'N0' => 1
-        },
-        '`a.t^sAn' => {
-          'N-ap' => 1
         }
       },
       'entry' => '`a.t^sAn',
@@ -65359,11 +59777,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A.ti^s' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A.ti^s',
       'form' => '`A.ti^s',
       'lines' => [
@@ -65383,11 +59797,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`a.t.ti^s' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`a.t.ti^s',
       'form' => 'muta`a.t.ti^s',
       'lines' => [
@@ -65418,7 +59828,11 @@ $Lexicon = {
         ';; taEaT~u$_1',
         'tET$    taEaT~u$        N/At    insatiable desire for;passion for'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`a.t.tu^s' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -65433,11 +59847,7 @@ $Lexicon = {
   ],
   '`asqalAn' => [
     {
-      'types' => {
-        '`asqalAn' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`asqalAn',
       'form' => '`asqalAn',
       'lines' => [
@@ -65458,11 +59868,7 @@ $Lexicon = {
   ],
   '`abdAldAyim' => [
     {
-      'types' => {
-        '`abdAldAyim' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAldAyim',
       'form' => '`abdAldAyim',
       'lines' => [
@@ -65487,7 +59893,12 @@ $Lexicon = {
       'entry' => 'i`tiyA.s',
       'form' => 'i`tiyA.s',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'i`tiyA.s' => [
+          'IFtiCAL',
+          'IFtiyAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -65559,11 +59970,7 @@ $Lexicon = {
   ],
   '`abdAlwa.hiyd' => [
     {
-      'types' => {
-        '`abdAlwa.hiyd' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlwa.hiyd',
       'form' => '`abdAlwa.hiyd',
       'lines' => [
@@ -65584,11 +59991,7 @@ $Lexicon = {
   ],
   '` k r m' => [
     {
-      'types' => {
-        '`akramaT' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`akram',
       'form' => '`akramaT',
       'lines' => [
@@ -65609,11 +60012,7 @@ $Lexicon = {
   ],
   '`abdAl.sA.hib' => [
     {
-      'types' => {
-        '`abdAl.sA.hib' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAl.sA.hib',
       'form' => '`abdAl.sA.hib',
       'lines' => [
@@ -65636,9 +60035,6 @@ $Lexicon = {
     {
       'types' => {
         'mA`adA' => {
-          'FW-Wa' => 1
-        },
-        '`adA' => {
           'FW-Wa' => 1
         }
       },
@@ -65677,7 +60073,6 @@ $Lexicon = {
         '`adaw' => {
           'PV_Atn' => 1
         },
-        '`adA' => {},
         '`dY' => {
           'IV_0_Pass_yu' => 1
         }
@@ -65700,6 +60095,9 @@ $Lexicon = {
         ],
         '`adaw' => [
           'FaCaL'
+        ],
+        '`ad' => [
+          'FaC'
         ],
         '`dY' => [
           'FCY'
@@ -65728,8 +60126,7 @@ $Lexicon = {
         },
         '`adaw' => {
           'PV_Atn' => 1
-        },
-        '`adA' => {}
+        }
       },
       'entry' => '`adA',
       'form' => '`adA',
@@ -65772,7 +60169,6 @@ $Lexicon = {
           'PV_Atn' => 1,
           'IV_Ann_Pass_yu' => 1
         },
-        '`addY' => {},
         '`add' => {
           'IV_0hwnyn_yu' => 1,
           'PV_ttAw' => 1
@@ -65814,7 +60210,6 @@ $Lexicon = {
         '`Adiy' => {
           'IV_0hAnn_yu' => 1
         },
-        '`AdY' => {},
         '`Ad' => {
           'PV_ttAw_intr' => 1,
           'IV_0hwnyn_yu' => 1
@@ -65867,7 +60262,6 @@ $Lexicon = {
         '\'a`day' => {
           'PV_Atn' => 2
         },
-        '\'a`dY' => {},
         '`d' => {
           'IV_0hwnyn_yu' => 1
         },
@@ -65925,7 +60319,6 @@ $Lexicon = {
           'PV_Atn' => 1,
           'IV_Ann' => 1
         },
-        'ta`addY' => {},
         'ta`add' => {
           'IV_0hwnyn' => 1,
           'PV_ttAw' => 1
@@ -65973,8 +60366,7 @@ $Lexicon = {
         'ta`AdA' => {
           'PV_h' => 1,
           'IV_h' => 1
-        },
-        'ta`AdY' => {}
+        }
       },
       'entry' => 'ta`AdY',
       'form' => 'ta`AdY',
@@ -66003,7 +60395,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'in`adY' => {},
         'n`adiy' => {
           'IV_0hAnn' => 1
         },
@@ -66075,7 +60466,6 @@ $Lexicon = {
         'i`tadA' => {
           'PV_h' => 2
         },
-        'i`tadY' => {},
         'i`taday' => {
           'PV_Atn' => 2
         }
@@ -66122,7 +60512,6 @@ $Lexicon = {
         'sta`d' => {
           'IV_0hwnyn' => 1
         },
-        'ista`dY' => {},
         'ista`dA' => {
           'PV_h' => 2
         },
@@ -66170,11 +60559,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`adw' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adw',
       'form' => '`adw',
       'lines' => [
@@ -66205,9 +60590,6 @@ $Lexicon = {
           'Nh' => 2,
           'Nhy' => 2,
           'N0_Nh' => 2
-        },
-        '`aduww' => {
-          'N-ap' => 1
         }
       },
       'entry' => '`aduww',
@@ -66250,11 +60632,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`udwaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`udw',
       'form' => '`udwaT',
       'lines' => [
@@ -66277,9 +60655,6 @@ $Lexicon = {
       'types' => {
         '`adwA' => {
           'Nhy' => 1
-        },
-        '`adwY' => {
-          'N0' => 1
         }
       },
       'entry' => '`adwY',
@@ -66302,9 +60677,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`udwY' => {
-          'N0' => 1
-        },
         '`udwA' => {
           'Nhy' => 1
         }
@@ -66342,11 +60714,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`adAwaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`adAw',
       'form' => '`adAwaT',
       'lines' => [
@@ -66380,13 +60748,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`udawA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`udawA\'',
       'form' => '`udawA\'',
       'lines' => [
@@ -66408,11 +60770,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`udwAn' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`udwAn',
       'form' => '`udwAn',
       'lines' => [
@@ -66433,11 +60791,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`udwAn' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`udwAn',
       'form' => '`udwAn',
       'lines' => [
@@ -66457,14 +60811,8 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`dY' => {
-          'N0' => 2
-        },
         '\'a`dA' => {
           'Nhy' => 2
-        },
-        '\'a`day' => {
-          'NAn_Nayn' => 2
         }
       },
       'entry' => '\'a`dY',
@@ -66492,9 +60840,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ma`dY' => {
-          'N0' => 1
-        },
         'ma`dA' => {
           'Nhy' => 1
         }
@@ -66563,9 +60908,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`addiy' => {
-          'NAt' => 1,
-          'NAn_Nayn' => 1,
-          'N0_Nh' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`addiy',
@@ -66577,7 +60920,11 @@ $Lexicon = {
         'tEdy    taEad~iy        NAn_Nayn        crossings',
         'tEdy    taEad~iy        NAt     crossings'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`addiy' => [
+          'TaFaCCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCI',
@@ -66592,9 +60939,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`addiy' => {
-          'NAt' => 1,
-          'NAn_Nayn' => 1,
-          'N0_Nh' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`addiy',
@@ -66606,7 +60951,11 @@ $Lexicon = {
         'tEdy    taEad~iy        NAn_Nayn        violations;transgression',
         'tEdy    taEad~iy        NAt     violations;transgression'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`addiy' => [
+          'TaFaCCI'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'TaFaCCI',
@@ -66622,8 +60971,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`addiy' => {
-          'NAt' => 1,
-          'N0_Nh' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`addiy',
@@ -66634,7 +60982,11 @@ $Lexicon = {
         'tEd     taEad~  NK      aggression;attack',
         'tEdy    taEad~iy        NAt     acts of aggression;attacks'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`addiy' => [
+          'TaFaCCI'
+        ]
+      },
       'index' => '3',
       'entity' => 'noun',
       'morphs' => 'TaFaCCI',
@@ -66653,7 +61005,11 @@ $Lexicon = {
       'entry' => 'i`tidA\'',
       'form' => 'i`tidA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'i`tidA\'' => [
+          'IFtiCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCA\'',
@@ -66682,6 +61038,9 @@ $Lexicon = {
       'form' => '`Adiy',
       'lines' => [],
       'patterns' => {
+        '`Adiy' => [
+          'FACI'
+        ],
         '`awAdiy' => [
           'FawACI'
         ]
@@ -66731,7 +61090,11 @@ $Lexicon = {
       'entry' => 'mu`Adiy',
       'form' => 'mu`Adiy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'mu`Adiy' => [
+          'MuFACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFACI',
@@ -66745,7 +61108,11 @@ $Lexicon = {
       'entry' => 'mu`diy',
       'form' => 'mu`diy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'mu`diy' => [
+          'MuFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFCI',
@@ -66760,6 +61127,9 @@ $Lexicon = {
       'form' => 'muta`addiy',
       'lines' => [],
       'patterns' => {
+        'muta`addiy' => [
+          'MutaFaCCI'
+        ],
         'mu`tadiy' => [
           'MuFtaCI'
         ]
@@ -66777,16 +61147,11 @@ $Lexicon = {
         'mu`dA' => {
           'Nhy' => 1
         },
+        'mu`dY' => {
+          'NAt' => 1
+        },
         'mu`d' => {
           'Nuwn_Niyn' => 1
-        },
-        'mu`day' => {
-          'NAt' => 1,
-          'NAn_Nayn' => 1
-        },
-        'mu`dY' => {
-          'N0' => 1,
-          'Napdu' => 1
         }
       },
       'entry' => 'mu`dY',
@@ -66800,7 +61165,11 @@ $Lexicon = {
         'mEdA    muEodA  Napdu   infected;contaminated',
         'mEdy    muEoday NAt     infected;contaminated'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`dY' => [
+          'MuFCY'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFCY',
@@ -66816,9 +61185,6 @@ $Lexicon = {
   '` r z l' => [
     {
       'types' => {
-        '`irzAl' => {
-          'Ndu' => 1
-        },
         '`arAziyl' => {
           'Ndip' => 1
         }
@@ -66855,7 +61221,12 @@ $Lexicon = {
       'entry' => 'isti`.sA\'',
       'form' => 'isti`.sA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'isti`.sA\'' => [
+          'IstiFCAL',
+          'IstiFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCAL',
@@ -66869,7 +61240,12 @@ $Lexicon = {
       'entry' => 'isti`.sA\'',
       'form' => 'isti`.sA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'isti`.sA\'' => [
+          'IstiFCAL',
+          'IstiFCA\''
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'IstiFCAL',
@@ -66881,11 +61257,7 @@ $Lexicon = {
   ],
   '`abdAlrazzAq' => [
     {
-      'types' => {
-        '`abdAlrazzAq' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlrazzAq',
       'form' => '`abdAlrazzAq',
       'lines' => [
@@ -66906,11 +61278,7 @@ $Lexicon = {
   ],
   '` r d' => [
     {
-      'types' => {
-        '`arrAdaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arrAd',
       'form' => '`arrAdaT',
       'lines' => [
@@ -66932,12 +61300,7 @@ $Lexicon = {
   ],
   '` f w y' => [
     {
-      'types' => {
-        '`afwiyy' => {
-          'NF' => 1,
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`afwiyy',
       'form' => '`afwiyy',
       'lines' => [
@@ -66960,11 +61323,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`afwiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`afwiyy',
       'form' => '`afwiyyaT',
       'lines' => [
@@ -66983,11 +61342,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`afwiyyaTaN' => {
-          'FW-Wa' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`afwiyy',
       'form' => '`afwiyyaTaN',
       'lines' => [
@@ -67009,7 +61364,6 @@ $Lexicon = {
   '` ^g m w' => [
     {
       'types' => {
-        '`a^gmawAt' => {},
         '`a^gmaw' => {
           'NAt' => 1
         }
@@ -67038,11 +61392,7 @@ $Lexicon = {
   ],
   '`amiyrAm' => [
     {
-      'types' => {
-        '`amiyrAm' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amiyrAm',
       'form' => '`amiyrAm',
       'lines' => [
@@ -67063,11 +61413,7 @@ $Lexicon = {
   ],
   '`abdAlmalik' => [
     {
-      'types' => {
-        '`abdAlmalik' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmalik',
       'form' => '`abdAlmalik',
       'lines' => [
@@ -67091,8 +61437,7 @@ $Lexicon = {
       'types' => {
         '`^gum' => {
           'IV' => 1
-        },
-        '`a^gam' => {}
+        }
       },
       'entry' => '`a^gam',
       'form' => '`a^gam',
@@ -67122,7 +61467,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`^gam' => {},
         '`^gam' => {
           'IV_Pass_yu' => 1
         },
@@ -67164,8 +61508,7 @@ $Lexicon = {
       'types' => {
         'n`a^gim' => {
           'IV_intr' => 1
-        },
-        'in`a^gam' => {}
+        }
       },
       'entry' => 'in`a^gam',
       'form' => 'in`a^gam',
@@ -67194,8 +61537,7 @@ $Lexicon = {
       'types' => {
         'sta`^gim' => {
           'IV_intr' => 1
-        },
-        'ista`^gam' => {}
+        }
       },
       'entry' => 'ista`^gam',
       'form' => 'ista`^gam',
@@ -67217,11 +61559,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^gamaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^gam',
       'form' => '`a^gamaT',
       'lines' => [
@@ -67240,11 +61578,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^gam' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^gam',
       'form' => '`a^gam',
       'lines' => [
@@ -67264,11 +61598,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^gamiyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^gam',
       'form' => '`a^gamiyy',
       'lines' => [
@@ -67288,9 +61618,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a^gamiyy' => {
-          'Nall' => 1
-        },
         '\'a`^gAm' => {
           'N' => 2
         }
@@ -67321,9 +61648,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a^gamiyy' => {
-          'Nall' => 1
-        },
         '\'a`^gAm' => {
           'N' => 2
         }
@@ -67353,11 +61677,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u^gmaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u^gm',
       'form' => '`u^gmaT',
       'lines' => [
@@ -67377,11 +61697,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^gmAn' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^gmAn',
       'form' => '`a^gmAn',
       'lines' => [
@@ -67405,8 +61721,7 @@ $Lexicon = {
           'Ndip' => 2
         },
         '\'a`^gam' => {
-          'Nuwn_Niyn' => 2,
-          'Nel' => 2
+          'Nuwn_Niyn' => 2
         },
         '`a^gmA\'' => {
           'Nh' => 1,
@@ -67429,6 +61744,9 @@ $Lexicon = {
         'AEAjm   >aEAjim Ndip    non-Arab;speechless'
       ],
       'patterns' => {
+        '\'a`^gam' => [
+          'HaFCaL'
+        ],
         '\'a`A^gim' => [
           'HaFACiL'
         ],
@@ -67448,11 +61766,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`^gamiyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`^gam',
       'form' => '\'a`^gamiyy',
       'lines' => [
@@ -67473,11 +61787,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a`^gamiyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a`^gam',
       'form' => '\'a`^gamiyy',
       'lines' => [
@@ -67515,6 +61825,9 @@ $Lexicon = {
       'patterns' => {
         'ma`A^gim' => [
           'MaFACiL'
+        ],
+        'mu`^gam' => [
+          'MuFCaL'
         ]
       },
       'index' => '1',
@@ -67531,11 +61844,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`^gamiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`^gam',
       'form' => 'mu`^gamiyy',
       'lines' => [
@@ -67557,11 +61866,7 @@ $Lexicon = {
   ],
   '`ullayq' => [
     {
-      'types' => {
-        '`ullayq' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ullayq',
       'form' => '`ullayq',
       'lines' => [
@@ -67580,12 +61885,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ullayqaT' => {
-          'Nap' => 1,
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ullayq',
       'form' => '`ullayqaT',
       'lines' => [
@@ -67608,11 +61908,7 @@ $Lexicon = {
   ],
   '`abdAlmAlik' => [
     {
-      'types' => {
-        '`abdAlmAlik' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlmAlik',
       'form' => '`abdAlmAlik',
       'lines' => [
@@ -67637,7 +61933,6 @@ $Lexicon = {
         '`ba\'A' => {
           'IV-|' => 1
         },
-        '`aba\'' => {},
         '`ba\'' => {
           'IV' => 1,
           'IV_wn' => 1,
@@ -67680,7 +61975,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`abba\'' => {},
         '`abbi\'' => {
           'IV_yu' => 1
         },
@@ -67720,12 +62014,6 @@ $Lexicon = {
           'Nh' => 2,
           'Nhy' => 2,
           'N0_Nh' => 2
-        },
-        '`ib\'' => {
-          'Nh' => 1,
-          'Ndu' => 1,
-          'N0F' => 1,
-          'Nhy' => 1
         }
       },
       'entry' => '`ib\'',
@@ -67764,11 +62052,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`abA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        },
         '\'a`bi\'' => {
           'Nap' => 2
         }
@@ -67800,11 +62083,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`bi\'aT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`bi\'',
       'form' => 'ta`bi\'aT',
       'lines' => [
@@ -67824,11 +62103,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Abi\'' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Abi\'',
       'form' => '`Abi\'',
       'lines' => [
@@ -67854,12 +62129,6 @@ $Lexicon = {
         },
         'mu`abba\'A' => {
           'N-|' => 1
-        },
-        'mu`abba\'' => {
-          'Nh' => 1,
-          'Napdu' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
         }
       },
       'entry' => 'mu`abba\'',
@@ -67888,11 +62157,7 @@ $Lexicon = {
   ],
   '`abdAlra.hiym' => [
     {
-      'types' => {
-        '`abdAlra.hiym' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlra.hiym',
       'form' => '`abdAlra.hiym',
       'lines' => [
@@ -67914,7 +62179,6 @@ $Lexicon = {
   '` ^g l' => [
     {
       'types' => {
-        '`a^gil' => {},
         '`^gal' => {
           'IV' => 1
         }
@@ -67949,8 +62213,7 @@ $Lexicon = {
       'types' => {
         '`a^g^gil' => {
           'IV_yu' => 1
-        },
-        '`a^g^gal' => {}
+        }
       },
       'entry' => '`a^g^gal',
       'form' => '`a^g^gal',
@@ -67978,8 +62241,7 @@ $Lexicon = {
       'types' => {
         '`A^gil' => {
           'IV_yu' => 1
-        },
-        '`A^gal' => {}
+        }
       },
       'entry' => '`A^gal',
       'form' => '`A^gal',
@@ -68006,7 +62268,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`^gal' => {},
         '`^gal' => {
           'IV_Pass_yu' => 1
         },
@@ -68043,9 +62304,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`a^g^gal' => {}
-      },
+      'types' => {},
       'entry' => 'ta`a^g^gal',
       'form' => 'ta`a^g^gal',
       'lines' => [
@@ -68067,7 +62326,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ista`^gal' => {},
         'sta`^gil' => {
           'IV' => 1
         }
@@ -68093,11 +62351,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^gal' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^gal',
       'form' => '`a^gal',
       'lines' => [
@@ -68117,11 +62371,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^galaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^gal',
       'form' => '`a^galaT',
       'lines' => [
@@ -68143,9 +62393,6 @@ $Lexicon = {
     {
       'types' => {
         '`u^guwl' => {
-          'N' => 1
-        },
-        '`i^gl' => {
           'N' => 1
         }
       },
@@ -68174,9 +62421,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a^galaT' => {
-          'Napdu' => 1
-        },
         '`a^gal' => {
           'NAt' => 1
         }
@@ -68208,9 +62452,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`a^giyl' => {
-          'N-ap' => 1
-        },
         '`i^gAl' => {
           'N' => 1
         }
@@ -68238,11 +62479,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a^guwl' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a^guwl',
       'form' => '`a^guwl',
       'lines' => [
@@ -68261,11 +62498,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u^gAlaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u^gAl',
       'form' => '`u^gAlaT',
       'lines' => [
@@ -68296,9 +62529,6 @@ $Lexicon = {
         },
         '`a^glY' => {
           'N0' => 1
-        },
-        '`a^glAn' => {
-          'Ndip' => 1
         }
       },
       'entry' => '`a^glAn',
@@ -68333,13 +62563,8 @@ $Lexicon = {
     {
       'types' => {
         '`u^glY' => {
-          'N0' => 1
-        },
-        '\'a`^gal' => {
-          'Nel' => 2
-        },
-        '`u^glay' => {
           'NAt' => 1,
+          'N0' => 1,
           'NAn_Nayn' => 1
         },
         '`u^glA' => {
@@ -68384,7 +62609,11 @@ $Lexicon = {
         ';; taEojiyl_1',
         'tEjyl   taEojiyl        N/At    expediting'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`^giyl' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -68407,7 +62636,11 @@ $Lexicon = {
         ';; taEojiyl_2',
         'tEjyl   taEojiyl        NduAt   advanced payment;early installment'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`^giyl' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -68432,7 +62665,11 @@ $Lexicon = {
         '<stEjAl {isotiEojAl     N/At    haste;urgency',
         'AstEjAl {isotiEojAl     N/At    haste;urgency'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'isti`^gAl' => [
+          'IstiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCAL',
@@ -68445,11 +62682,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'isti`^gAliyy' => {
-          'Nall' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'isti`^gAl',
       'form' => 'isti`^gAliyy',
       'lines' => [
@@ -68470,11 +62703,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A^gil' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A^gil',
       'form' => '`A^gil',
       'lines' => [
@@ -68495,7 +62724,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`A^gilaN' => {},
         '`A^gil' => {
           'NF' => 1
         }
@@ -68523,11 +62751,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`a^g^gal' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`a^g^gal',
       'form' => 'mu`a^g^gal',
       'lines' => [
@@ -68547,11 +62771,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`a^g^gal' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`a^g^gal',
       'form' => 'mu`a^g^gal',
       'lines' => [
@@ -68570,11 +62790,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`a^g^gil' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`a^g^gil',
       'form' => 'muta`a^g^gil',
       'lines' => [
@@ -68594,11 +62810,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'musta`^gil' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'musta`^gil',
       'form' => 'musta`^gil',
       'lines' => [
@@ -68618,11 +62830,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'musta`^gal' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'musta`^gal',
       'form' => 'musta`^gal',
       'lines' => [
@@ -68644,11 +62852,7 @@ $Lexicon = {
   ],
   '`abdAlna`iym' => [
     {
-      'types' => {
-        '`abdAlna`iym' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlna`iym',
       'form' => '`abdAlna`iym',
       'lines' => [
@@ -68672,9 +62876,6 @@ $Lexicon = {
       'types' => {
         'ya`Abiyb' => {
           'Ndip' => 1
-        },
-        'ya`buwb' => {
-          'Ndu' => 1
         }
       },
       'entry' => 'ya`buwb',
@@ -68711,8 +62912,7 @@ $Lexicon = {
         },
         '`ar' => {
           'PV_w_intr' => 1
-        },
-        '`ariy' => {}
+        }
       },
       'entry' => '`ariy',
       'form' => '`ariy',
@@ -68730,6 +62930,9 @@ $Lexicon = {
         ],
         '`ray' => [
           'FCaL'
+        ],
+        '`ar' => [
+          'FaC'
         ]
       },
       'index' => '1',
@@ -68748,7 +62951,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`arrY' => {},
         '`arrA' => {
           'PV_h' => 1
         },
@@ -68804,7 +63006,6 @@ $Lexicon = {
           'PV_Atn' => 1,
           'IV_Ann' => 1
         },
-        'ta`arrY' => {},
         'ta`arr' => {
           'IV_0hwnyn' => 1,
           'PV_ttAw' => 1
@@ -68851,7 +63052,6 @@ $Lexicon = {
         'ista`rA' => {
           'PV_h' => 2
         },
-        'ista`rY' => {},
         'sta`rY' => {
           'IV_0_Pass_yu' => 1
         },
@@ -68894,12 +63094,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ury' => {
-          'Nap' => 1,
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ury',
       'form' => '`ury',
       'lines' => [
@@ -68935,11 +63130,8 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`arAyA' => {
+        '`arAyY' => {
           'N0_Nhy' => 1
-        },
-        '`uryAn' => {
-          'N-ap' => 1
         }
       },
       'entry' => '`uryAn',
@@ -68950,8 +63142,8 @@ $Lexicon = {
         'ErAyA   EarAyA  N0_Nhy  naked;bare'
       ],
       'patterns' => {
-        '`arAyA' => [
-          'FaCAyA'
+        '`arAyY' => [
+          'FaCALY'
         ]
       },
       'index' => '1',
@@ -68966,11 +63158,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`riyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`riy',
       'form' => 'ta`riyaT',
       'lines' => [
@@ -68991,11 +63179,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`arriy' => {
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`arriy',
       'form' => 'ta`arriy',
       'lines' => [
@@ -69018,7 +63202,11 @@ $Lexicon = {
       'entry' => 'isti`rA\'',
       'form' => 'isti`rA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'isti`rA\'' => [
+          'IstiFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IstiFCA\'',
@@ -69033,9 +63221,7 @@ $Lexicon = {
           'Nap' => 1
         },
         '`Ariy' => {
-          'NapAt' => 1,
-          'NAn_Nayn' => 1,
-          'N0F' => 1
+          'NapAt' => 1
         },
         '`Ar' => {
           'Nuwn_Niyn' => 1
@@ -69055,6 +63241,9 @@ $Lexicon = {
       'patterns' => {
         '`urY' => [
           'FuCY'
+        ],
+        '`Ariy' => [
+          'FACI'
         ]
       },
       'index' => '1',
@@ -69070,10 +63259,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mu`array' => {
-          'NAt' => 1,
-          'NAn_Nayn' => 1
-        },
         'mu`arr' => {
           'Nuwn_Niyn' => 1
         },
@@ -69081,8 +63266,7 @@ $Lexicon = {
           'Nhy' => 1
         },
         'mu`arrY' => {
-          'N0' => 1,
-          'Napdu' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'mu`arrY',
@@ -69097,8 +63281,8 @@ $Lexicon = {
         'mErA    muEar~A Napdu   uncovered;exposed'
       ],
       'patterns' => {
-        'mu`array' => [
-          'MuFaCCaL'
+        'mu`arrY' => [
+          'MuFaCCY'
         ]
       },
       'index' => '1',
@@ -69123,13 +63307,8 @@ $Lexicon = {
         'ma`Ariy' => {
           'N0_Nh' => 1
         },
-        'mu`ray' => {
-          'NAt' => 1,
-          'NAn_Nayn' => 1
-        },
         'mu`rY' => {
-          'N0' => 1,
-          'Napdu' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'mu`rY',
@@ -69146,11 +63325,11 @@ $Lexicon = {
         'mEAr    maEAr   NK      uncovered;exposed'
       ],
       'patterns' => {
-        'mu`ray' => [
-          'MuFCaL'
-        ],
         'ma`Ariy' => [
           'MaFACI'
+        ],
+        'mu`rY' => [
+          'MuFCY'
         ]
       },
       'index' => '1',
@@ -69170,9 +63349,7 @@ $Lexicon = {
           'Nuwn_Niyn' => 1
         },
         'muta`arriy' => {
-          'N0F_Nh' => 1,
-          'NapAt' => 1,
-          'NAn_Nayn' => 1
+          'NapAt' => 1
         }
       },
       'entry' => 'muta`arriy',
@@ -69185,7 +63362,11 @@ $Lexicon = {
         'mtEr    mutaEar~        Nuwn_Niyn       nudists',
         'mtEry   mutaEar~iy      NapAt   nudist'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'muta`arriy' => [
+          'MutaFaCCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MutaFaCCI',
@@ -69200,11 +63381,7 @@ $Lexicon = {
   ],
   '` l y' => [
     {
-      'types' => {
-        '`alAyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`alAy',
       'form' => '`alAyaT',
       'lines' => [
@@ -69224,11 +63401,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aliyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`aliyy',
       'form' => '`aliyy',
       'lines' => [
@@ -69248,11 +63421,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`aliyy' => {
-          'Nprop' => 2
-        }
-      },
+      'types' => {},
       'entry' => '`aliyy',
       'form' => '`aliyy',
       'lines' => [
@@ -69272,11 +63441,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ilyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ily',
       'form' => '`ilyaT',
       'lines' => [
@@ -69341,7 +63506,11 @@ $Lexicon = {
       'entry' => '`Aliy',
       'form' => '`Aliy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '`Aliy' => [
+          'FACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FACI',
@@ -69373,7 +63542,11 @@ $Lexicon = {
       'entry' => 'muta`Aliy',
       'form' => 'muta`Aliy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'muta`Aliy' => [
+          'MutaFACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MutaFACI',
@@ -69402,8 +63575,7 @@ $Lexicon = {
       'types' => {
         '`zim' => {
           'IV_intr' => 1
-        },
-        '`azam' => {}
+        }
       },
       'entry' => '`azam',
       'form' => '`azam',
@@ -69433,7 +63605,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`azzam' => {},
         '`azzim' => {
           'IV_yu' => 1
         }
@@ -69463,7 +63634,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'i`tazam' => {},
         '`tazim' => {
           'IV_intr' => 1
         }
@@ -69493,11 +63663,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`azm' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`azm',
       'form' => '`azm',
       'lines' => [
@@ -69518,9 +63684,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`azmaT' => {
-          'Napdu' => 1
-        },
         '`azam' => {
           'NAt' => 1
         }
@@ -69549,11 +63712,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`azuwm' => {
-          'N/ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`azuwm',
       'form' => '`azuwm',
       'lines' => [
@@ -69573,11 +63732,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`azzAm' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`azzAm',
       'form' => '`azzAm',
       'lines' => [
@@ -69596,11 +63751,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uzuwmaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uzuwm',
       'form' => '`uzuwmaT',
       'lines' => [
@@ -69623,9 +63774,6 @@ $Lexicon = {
       'types' => {
         '`azA\'im' => {
           'Ndip' => 1
-        },
-        '`aziymaT' => {
-          'Nap' => 1
         }
       },
       'entry' => '`aziym',
@@ -69651,9 +63799,6 @@ $Lexicon = {
       'types' => {
         '`azA\'im' => {
           'Ndip' => 1
-        },
-        '`aziymaT' => {
-          'NapAt' => 1
         }
       },
       'entry' => '`aziym',
@@ -69676,11 +63821,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Azim' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Azim',
       'form' => '`Azim',
       'lines' => [
@@ -69700,11 +63841,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tazim' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tazim',
       'form' => 'mu`tazim',
       'lines' => [
@@ -69735,7 +63872,11 @@ $Lexicon = {
         ';; taEoziym_1',
         'tEzym   taEoziym        N/At    conjuring;exorcism;incantation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`ziym' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -69749,11 +63890,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`ziymiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`ziym',
       'form' => 'ta`ziymiyy',
       'lines' => [
@@ -69773,11 +63910,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`azzim' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`azzim',
       'form' => 'mu`azzim',
       'lines' => [
@@ -69799,11 +63932,7 @@ $Lexicon = {
   ],
   '`abdAlra.hmAniy' => [
     {
-      'types' => {
-        '`abdAlra.hmAniy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlra.hmAniy',
       'form' => '`abdAlra.hmAniy',
       'lines' => [
@@ -69824,11 +63953,7 @@ $Lexicon = {
   ],
   '` k n n' => [
     {
-      'types' => {
-        'mu`aknan' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`aknan',
       'form' => 'mu`aknan',
       'lines' => [
@@ -69850,11 +63975,7 @@ $Lexicon = {
   ],
   '` .d h' => [
     {
-      'types' => {
-        '`i.dAh' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i.dAh',
       'form' => '`i.dAh',
       'lines' => [
@@ -69875,11 +63996,7 @@ $Lexicon = {
   ],
   '`iydaruws' => [
     {
-      'types' => {
-        '`iydaruws' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`iydaruws',
       'form' => '`iydaruws',
       'lines' => [
@@ -69900,11 +64017,7 @@ $Lexicon = {
   ],
   '` s b r' => [
     {
-      'types' => {
-        '`usbur' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`usbur',
       'form' => '`usbur',
       'lines' => [
@@ -69928,9 +64041,6 @@ $Lexicon = {
       'types' => {
         '`alA^giym' => {
           'Ndip' => 1
-        },
-        '`ul^guwm' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`ul^guwm',
@@ -69959,11 +64069,7 @@ $Lexicon = {
   ],
   '` .s f r' => [
     {
-      'types' => {
-        '`u.sfur' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u.sfur',
       'form' => '`u.sfur',
       'lines' => [
@@ -69983,11 +64089,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`a.sfar' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`a.sfar',
       'form' => 'mu`a.sfar',
       'lines' => [
@@ -70007,10 +64109,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`u.sfuwr' => {
-          'Napdu' => 1,
-          'Ndu' => 1
-        },
         '`a.sAfiyr' => {
           'Ndip' => 1
         }
@@ -70042,11 +64140,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u.sfuwriyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u.sfuwr',
       'form' => '`u.sfuwriyyaT',
       'lines' => [
@@ -70069,7 +64163,6 @@ $Lexicon = {
   '` r b s' => [
     {
       'types' => {
-        '`arbas' => {},
         '`arbis' => {
           'IV_yu' => 1
         }
@@ -70098,11 +64191,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`arbasaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`arbas',
       'form' => '`arbasaT',
       'lines' => [
@@ -70122,11 +64211,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`arbis' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`arbis',
       'form' => 'mu`arbis',
       'lines' => [
@@ -70145,11 +64230,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`arbis' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`arbis',
       'form' => 'mu`arbis',
       'lines' => [
@@ -70171,11 +64252,7 @@ $Lexicon = {
   ],
   '`abdAlqadiyr' => [
     {
-      'types' => {
-        '`abdAlqadiyr' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlqadiyr',
       'form' => '`abdAlqadiyr',
       'lines' => [
@@ -70196,11 +64273,7 @@ $Lexicon = {
   ],
   '`abdAlra.hmAn' => [
     {
-      'types' => {
-        '`abdAlra.hmAn' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlra.hmAn',
       'form' => '`abdAlra.hmAn',
       'lines' => [
@@ -70221,11 +64294,7 @@ $Lexicon = {
   ],
   '` n ^g' => [
     {
-      'types' => {
-        '`inA^g' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`inA^g',
       'form' => '`inA^g',
       'lines' => [
@@ -70247,7 +64316,6 @@ $Lexicon = {
   '` .d l' => [
     {
       'types' => {
-        '`a.dal' => {},
         '`.dul' => {
           'IV' => 1
         }
@@ -70279,7 +64347,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a`.dal' => {},
         '`.dil' => {
           'IV_intr_yu' => 1
         }
@@ -70309,9 +64376,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`a.d.dal' => {}
-      },
+      'types' => {},
       'entry' => 'ta`a.d.dal',
       'form' => 'ta`a.d.dal',
       'lines' => [
@@ -70332,11 +64397,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.dl' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.dl',
       'form' => '`a.dl',
       'lines' => [
@@ -70355,11 +64416,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.dal' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.dal',
       'form' => '`a.dal',
       'lines' => [
@@ -70378,11 +64435,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.dil' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.dil',
       'form' => '`a.dil',
       'lines' => [
@@ -70404,9 +64457,6 @@ $Lexicon = {
       'types' => {
         '`a.dal' => {
           'NAt' => 1
-        },
-        '`a.dalaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`a.dal',
@@ -70433,11 +64483,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.daliyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.dal',
       'form' => '`a.daliyy',
       'lines' => [
@@ -70456,11 +64502,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u.dAl' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u.dAl',
       'form' => '`u.dAl',
       'lines' => [
@@ -70480,11 +64522,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`.dil' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`.dil',
       'form' => 'mu`.dil',
       'lines' => [
@@ -70507,9 +64545,6 @@ $Lexicon = {
       'types' => {
         'ma`A.dil' => {
           'Ndip' => 1
-        },
-        'mu`.dilaT' => {
-          'NapAt' => 1
         }
       },
       'entry' => 'mu`.dil',
@@ -70538,11 +64573,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A.dil' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A.dil',
       'form' => '`A.dil',
       'lines' => [
@@ -70572,7 +64603,11 @@ $Lexicon = {
         ';; taEoDiyl_1',
         'tEDyl   taEoDiyl        N/At    muscle building'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`.diyl' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -70593,7 +64628,6 @@ $Lexicon = {
         '`z' => {
           'IV_0hwnyn' => 1
         },
-        '`azA' => {},
         '`zY' => {
           'IV_0_Pass_yu' => 1
         },
@@ -70620,6 +64654,9 @@ $Lexicon = {
         'Ezy     Eozay   IV_Ann_Pass_yu  be ascribed;be blamed'
       ],
       'patterns' => {
+        '`az' => [
+          'FaC'
+        ],
         '`zuw' => [
           'FCU'
         ],
@@ -70665,8 +64702,7 @@ $Lexicon = {
         },
         '`azay' => {
           'PV_Atn' => 1
-        },
-        '`azY' => {}
+        }
       },
       'entry' => '`azY',
       'form' => '`azY',
@@ -70681,6 +64717,9 @@ $Lexicon = {
         'EzY     EozaY   IV_0_Pass_yu    be ascribed;be blamed'
       ],
       'patterns' => {
+        '`az' => [
+          'FaC'
+        ],
         '`azA' => [
           'FaCA'
         ],
@@ -70713,6 +64752,9 @@ $Lexicon = {
       'form' => '`aziy',
       'lines' => [],
       'patterns' => {
+        '`az' => [
+          'FaC'
+        ],
         '`zY' => [
           'FCY'
         ]
@@ -70735,7 +64777,6 @@ $Lexicon = {
           'IV_0hwnyn_yu' => 1,
           'PV_ttAw' => 1
         },
-        '`azzY' => {},
         '`azzay' => {
           'PV_Atn' => 1,
           'IV_Ann_Pass_yu' => 1
@@ -70784,8 +64825,7 @@ $Lexicon = {
         'ta`azzay' => {
           'PV_Atn' => 1,
           'IV_Ann' => 1
-        },
-        'ta`azzY' => {}
+        }
       },
       'entry' => 'ta`azzY',
       'form' => 'ta`azzY',
@@ -70811,7 +64851,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ta`AzY' => {},
         'ta`Azay' => {
           'PV_Atn' => 1,
           'IV_Ann' => 1
@@ -70863,7 +64902,6 @@ $Lexicon = {
         'n`azY' => {
           'IV_0_Pass_yu' => 1
         },
-        'in`azY' => {},
         'in`azay' => {
           'PV_Atn' => 2
         },
@@ -70910,7 +64948,6 @@ $Lexicon = {
         '`tazY' => {
           'IV_0_Pass_yu' => 1
         },
-        'i`tazY' => {},
         'i`tazA' => {
           'PV_h' => 2
         },
@@ -70963,11 +65000,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`azw' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`azw',
       'form' => '`azw',
       'lines' => [
@@ -70987,11 +65020,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`izwaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`izw',
       'form' => '`izwaT',
       'lines' => [
@@ -71046,7 +65075,11 @@ $Lexicon = {
       'entry' => 'mu`azziy',
       'form' => 'mu`azziy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'mu`azziy' => [
+          'MuFaCCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFaCCI',
@@ -71061,9 +65094,6 @@ $Lexicon = {
       'types' => {
         '`anAkib' => {
           'Ndip' => 1
-        },
-        '`ankabuwt' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`ankabuwt',
@@ -71086,11 +65116,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ankabuwtiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ankabuwt',
       'form' => '`ankabuwtiyy',
       'lines' => [
@@ -71111,7 +65137,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`ankabuwtiyyAt' => {},
         '`ankabuwtiyy' => {
           'NAt' => 1
         }
@@ -71137,9 +65162,6 @@ $Lexicon = {
   '` b y' => [
     {
       'types' => {
-        '`abAyaT' => {
-          'NapAt' => 1
-        },
         '`abA\'' => {
           'NapAt' => 1
         }
@@ -71165,29 +65187,6 @@ $Lexicon = {
       ],
       'orig' => 'EabAyap',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        '`ubayAt' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => '`ubay',
-      'form' => '`ubayAt',
-      'lines' => [
-        ';; EubayAt_1',
-        'EbyAt   EubayAt Nprop   Ubayat'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCaL |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'Ubayat'
-      ],
-      'orig' => 'EubayAt',
-      'prefix' => ''
     }
   ],
   '` .t w n' => [
@@ -71211,8 +65210,7 @@ $Lexicon = {
       'types' => {
         '`.sim' => {
           'IV' => 1
-        },
-        '`a.sam' => {}
+        }
       },
       'entry' => '`a.sam',
       'form' => '`a.sam',
@@ -71244,8 +65242,7 @@ $Lexicon = {
       'types' => {
         '`ta.sim' => {
           'IV' => 1
-        },
-        'i`ta.sam' => {}
+        }
       },
       'entry' => 'i`ta.sam',
       'form' => 'i`ta.sam',
@@ -71274,7 +65271,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ista`.sam' => {},
         'sta`.sim' => {
           'IV' => 1
         }
@@ -71300,11 +65296,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.sm' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.sm',
       'form' => '`a.sm',
       'lines' => [
@@ -71326,9 +65318,6 @@ $Lexicon = {
       'types' => {
         '\'a`.sAm' => {
           'N' => 2
-        },
-        '`u.smaT' => {
-          'Nap' => 1
         }
       },
       'entry' => '`u.sm',
@@ -71358,11 +65347,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i.smaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i.sm',
       'form' => '`i.smaT',
       'lines' => [
@@ -71382,11 +65367,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i.sAm' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i.sAm',
       'form' => '`i.sAm',
       'lines' => [
@@ -71405,11 +65386,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i.sAmiyy' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i.sAm',
       'form' => '`i.sAmiyy',
       'lines' => [
@@ -71430,11 +65407,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`i.sAmiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`i.sAm',
       'form' => '`i.sAmiyyaT',
       'lines' => [
@@ -71454,11 +65427,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A.sim' => {
-          'Ndu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A.sim',
       'form' => '`A.sim',
       'lines' => [
@@ -71478,11 +65447,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A.sim' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A.sim',
       'form' => '`A.sim',
       'lines' => [
@@ -71505,9 +65470,6 @@ $Lexicon = {
       'types' => {
         '`awA.sim' => {
           'Ndip' => 1
-        },
-        '`A.simaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`A.sim',
@@ -71534,11 +65496,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u.saymiyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u.saym',
       'form' => '`u.saymiyy',
       'lines' => [
@@ -71557,11 +65515,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`.suwm' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`.suwm',
       'form' => 'ma`.suwm',
       'lines' => [
@@ -71581,11 +65535,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`.suwmiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`.suwm',
       'form' => 'ma`.suwmiyyaT',
       'lines' => [
@@ -71606,9 +65556,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mi`.sam' => {
-          'Ndu' => 1
-        },
         'ma`A.sim' => {
           'Ndip' => 1
         }
@@ -71642,9 +65589,6 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
-        },
-        '\'a`.sam' => {
-          'Nel' => 2
         },
         '`u.sm' => {
           'N' => 1
@@ -71682,11 +65626,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`ta.sim' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`ta.sim',
       'form' => 'mu`ta.sim',
       'lines' => [
@@ -71706,11 +65646,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`ta.sim' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`ta.sim',
       'form' => 'mu`ta.sim',
       'lines' => [
@@ -71741,7 +65677,11 @@ $Lexicon = {
         ';; muEotaSam_1',
         'mEtSm   muEotaSam       NduAt   refuge;secure place'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`ta.sam' => [
+          'MuFtaCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFtaCaL',
@@ -71766,7 +65706,11 @@ $Lexicon = {
         '<EtSAm  {iEotiSAm       N/At    refuge;preservation;adhering;preserving',
         'AEtSAm  {iEotiSAm       N/At    refuge;preservation;adhering;preserving'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`ti.sAm' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -71793,7 +65737,11 @@ $Lexicon = {
         '<EtSAm  {iEotiSAm       N/At    sit-in strike;occupation',
         'AEtSAm  {iEotiSAm       N/At    sit-in strike;occupation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i`ti.sAm' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -71811,8 +65759,7 @@ $Lexicon = {
       'types' => {
         '`anwin' => {
           'IV-n_yu' => 1
-        },
-        '`anwan' => {}
+        }
       },
       'entry' => '`anwan',
       'form' => '`anwan',
@@ -71840,8 +65787,7 @@ $Lexicon = {
       'types' => {
         '`anwin' => {
           'IV-n_yu' => 1
-        },
-        '`anwan' => {}
+        }
       },
       'entry' => '`anwan',
       'form' => '`anwan',
@@ -71869,9 +65815,6 @@ $Lexicon = {
       'types' => {
         '`anAwiyn' => {
           'Ndip' => 1
-        },
-        '`unwAn' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`unwAn',
@@ -71901,9 +65844,6 @@ $Lexicon = {
       'types' => {
         '`anAwiyn' => {
           'Ndip' => 2
-        },
-        '`unwAn' => {
-          'Ndu' => 2
         }
       },
       'entry' => '`unwAn',
@@ -71934,11 +65874,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`anwan' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`anwan',
       'form' => 'mu`anwan',
       'lines' => [
@@ -71958,11 +65894,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`anwan' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`anwan',
       'form' => 'mu`anwan',
       'lines' => [
@@ -71983,11 +65915,7 @@ $Lexicon = {
   ],
   '` m .s' => [
     {
-      'types' => {
-        '`umA.s' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`umA.s',
       'form' => '`umA.s',
       'lines' => [
@@ -72008,11 +65936,7 @@ $Lexicon = {
   ],
   '`abdAltawwAb' => [
     {
-      'types' => {
-        '`abdAltawwAb' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAltawwAb',
       'form' => '`abdAltawwAb',
       'lines' => [
@@ -72033,11 +65957,7 @@ $Lexicon = {
   ],
   '`abdAlwaliyd' => [
     {
-      'types' => {
-        '`abdAlwaliyd' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlwaliyd',
       'form' => '`abdAlwaliyd',
       'lines' => [
@@ -72058,11 +65978,7 @@ $Lexicon = {
   ],
   '`abdalAwiy' => [
     {
-      'types' => {
-        '`abdalAwiy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdalAwiy',
       'form' => '`abdalAwiy',
       'lines' => [
@@ -72086,8 +66002,7 @@ $Lexicon = {
       'types' => {
         '`kim' => {
           'IV' => 1
-        },
-        '`akam' => {}
+        }
       },
       'entry' => '`akam',
       'form' => '`akam',
@@ -72116,11 +66031,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`akm' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`akm',
       'form' => '`akm',
       'lines' => [
@@ -72140,11 +66051,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ikm' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ikm',
       'form' => '`ikm',
       'lines' => [
@@ -72165,11 +66072,28 @@ $Lexicon = {
   ],
   '` .s w' => [
     {
-      'types' => {
-        '`a.sAT' => {
-          'Napdu' => 1
-        }
+      'types' => {},
+      'entry' => '`a.s',
+      'form' => '`a.saN',
+      'lines' => [],
+      'patterns' => {
+        '`a.sA' => [
+          'FaCA'
+        ],
+        '`a.saw' => [
+          'FaCaL'
+        ]
       },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaC |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [],
+      'orig' => 'EaSAF',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => '`a.sY',
       'form' => '`a.sAT',
       'lines' => [
@@ -72191,26 +66115,16 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u.sawiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => '`u.sY',
+      'types' => {},
+      'entry' => '`u.s',
       'form' => '`u.sawiyy',
-      'lines' => [
-        ';; EuSawiy~_1',
-        'ESwy    EuSawiy~        Nall    bacillary;tubercular     [[EuSawiy~/ADJ]]'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'FuCY |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'bacillary',
-        'tubercular'
-      ],
+      'morphs' => 'FuC |<< "awIy"',
+      'suffix' => ' |<< "awIy"',
+      'glosses' => [],
       'orig' => 'EuSawiy~',
       'prefix' => ''
     }
@@ -72227,7 +66141,6 @@ $Lexicon = {
         '`a_taw' => {
           'PV_Atn' => 1
         },
-        '`a_tA' => {},
         '`_t' => {
           'IV_0hwnyn' => 1
         }
@@ -72243,6 +66156,9 @@ $Lexicon = {
         'Ev      Eov     IV_0hwnyn       behave wickedly'
       ],
       'patterns' => {
+        '`a_t' => [
+          'FaC'
+        ],
         '`a_taw' => [
           'FaCaL'
         ],
@@ -72280,7 +66196,6 @@ $Lexicon = {
         '`_ta' => {
           'IV_0hwnyn' => 1
         },
-        '`a_tY' => {},
         '`_t' => {
           'IV_0hwnyn' => 1
         },
@@ -72327,9 +66242,6 @@ $Lexicon = {
   '` r n n' => [
     {
       'types' => {
-        '`irniyn' => {
-          'N' => 1
-        },
         '`arAniyn' => {
           'Ndip' => 1
         }
@@ -72371,8 +66283,7 @@ $Lexicon = {
         },
         '`an' => {
           'PV_ttAw' => 1
-        },
-        '`anA' => {}
+        }
       },
       'entry' => '`anA',
       'form' => '`anA',
@@ -72390,6 +66301,9 @@ $Lexicon = {
         ],
         '`nuw' => [
           'FCU'
+        ],
+        '`an' => [
+          'FaC'
         ]
       },
       'index' => '1',
@@ -72425,8 +66339,7 @@ $Lexicon = {
         },
         '`nay' => {
           'IV_Ann_Pass_yu' => 1
-        },
-        '`anA' => {}
+        }
       },
       'entry' => '`anA',
       'form' => '`anA',
@@ -72449,6 +66362,9 @@ $Lexicon = {
         ],
         '`nuw' => [
           'FCU'
+        ],
+        '`an' => [
+          'FaC'
         ]
       },
       'index' => '2',
@@ -72468,9 +66384,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`anwaT' => {
-          'Nap' => 1
-        },
         '`anwaTaN' => {
           'FW-Wa' => 1
         }
@@ -72501,7 +66414,11 @@ $Lexicon = {
       'entry' => '`Aniy',
       'form' => '`Aniy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '`Aniy' => [
+          'FACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FACI',
@@ -72511,11 +66428,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`unAT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`unY',
       'form' => '`unAT',
       'lines' => [
@@ -72537,7 +66450,6 @@ $Lexicon = {
   '` l ^g' => [
     {
       'types' => {
-        '`Ala^g' => {},
         '`uwli^g' => {
           'PV_Pass' => 1
         },
@@ -72578,9 +66490,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Ala^g' => {}
-      },
+      'types' => {},
       'entry' => 'ta`Ala^g',
       'form' => 'ta`Ala^g',
       'lines' => [
@@ -72603,8 +66513,7 @@ $Lexicon = {
       'types' => {
         '`tali^g' => {
           'IV' => 1
-        },
-        'i`tala^g' => {}
+        }
       },
       'entry' => 'i`tala^g',
       'form' => 'i`tala^g',
@@ -72632,9 +66541,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`il^g' => {
-          'N' => 1
-        },
         '`uluw^g' => {
           'N' => 1
         }
@@ -72665,11 +66571,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Ala^gaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Ala^g',
       'form' => 'mu`Ala^gaT',
       'lines' => [
@@ -72701,7 +66603,11 @@ $Lexicon = {
         ';; EilAj_1',
         'ElAj    EilAj   NduAt   medical treatment;therapy;processing'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '`ilA^g' => [
+          'FiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -72715,11 +66621,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ilA^giyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ilA^g',
       'form' => '`ilA^giyy',
       'lines' => [
@@ -72749,7 +66651,11 @@ $Lexicon = {
         ';; taEAluj_1',
         'tEAlj   taEAluj N/At    medical treatment;therapy'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`Alu^g' => [
+          'TaFACuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFACuL',
@@ -72773,7 +66679,11 @@ $Lexicon = {
         ';; muEAlij_1',
         'mEAlj   muEAlij NduAt   processor;CPU'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`Ali^g' => [
+          'MuFACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFACiL',
@@ -72786,11 +66696,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`Ali^gaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Ali^g',
       'form' => 'mu`Ali^gaT',
       'lines' => [
@@ -72813,9 +66719,6 @@ $Lexicon = {
   '\'u`luwm' => [
     {
       'types' => {
-        '\'u`luwmaT' => {
-          'Napdu' => 2
-        },
         '\'a`Aliym' => {
           'Ndip' => 2
         }
@@ -72862,8 +66765,7 @@ $Lexicon = {
       'types' => {
         '`.sif' => {
           'IV_intr' => 1
-        },
-        '`a.saf' => {}
+        }
       },
       'entry' => '`a.saf',
       'form' => '`a.saf',
@@ -72895,8 +66797,7 @@ $Lexicon = {
       'types' => {
         '`.sif' => {
           'IV_intr_yu' => 1
-        },
-        '\'a`.saf' => {}
+        }
       },
       'entry' => '\'a`.saf',
       'form' => '\'a`.saf',
@@ -72923,11 +66824,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.sf' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.sf',
       'form' => '`a.sf',
       'lines' => [
@@ -72946,11 +66843,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`a.sfaT' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`a.sf',
       'form' => '`a.sfaT',
       'lines' => [
@@ -72970,11 +66863,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u.sAfaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u.sAf',
       'form' => '`u.sAfaT',
       'lines' => [
@@ -72994,11 +66883,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`A.sif' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`A.sif',
       'form' => '`A.sif',
       'lines' => [
@@ -73020,9 +66905,6 @@ $Lexicon = {
       'types' => {
         '`awA.sif' => {
           'Ndip' => 2
-        },
-        '`A.sifaT' => {
-          'Napdu' => 1
         }
       },
       'entry' => '`A.sif',
@@ -73083,11 +66965,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`andaliyb' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`andaliyb',
       'form' => '`andaliyb',
       'lines' => [
@@ -73161,8 +67039,7 @@ $Lexicon = {
         '`ir' => {
           'PV_C' => 1,
           'IV_C' => 1
-        },
-        '`Ar' => {}
+        }
       },
       'entry' => '`Ar',
       'form' => '`Ar',
@@ -73197,7 +67074,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`ayyar' => {},
         '`ayyir' => {
           'IV_yu' => 1
         }
@@ -73229,8 +67105,7 @@ $Lexicon = {
       'types' => {
         '`Ayir' => {
           'IV_yu' => 1
-        },
-        '`Ayar' => {}
+        }
       },
       'entry' => '`Ayar',
       'form' => '`Ayar',
@@ -73256,9 +67131,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Ayar' => {}
-      },
+      'types' => {},
       'entry' => 'ta`Ayar',
       'form' => 'ta`Ayar',
       'lines' => [
@@ -73281,9 +67154,6 @@ $Lexicon = {
       'types' => {
         '\'a`yAr' => {
           'N' => 2
-        },
-        '`Ar' => {
-          'N' => 1
         }
       },
       'entry' => '`Ar',
@@ -73317,9 +67187,6 @@ $Lexicon = {
           'N' => 2
         },
         '`uyuwr' => {
-          'N' => 1
-        },
-        '`ayr' => {
           'N' => 1
         }
       },
@@ -73365,7 +67232,11 @@ $Lexicon = {
         ';; EiyAr_1',
         'EyAr    EiyAr   NduAt   gauge;caliber'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '`iyAr' => [
+          'FiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -73384,8 +67255,7 @@ $Lexicon = {
         },
         '\'a`yir' => {
           'Nap' => 2
-        },
-        '`iyArAt' => {}
+        }
       },
       'entry' => '`iyAr',
       'form' => '`iyArAt',
@@ -73415,11 +67285,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ayyAr' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ayyAr',
       'form' => '`ayyAr',
       'lines' => [
@@ -73439,11 +67305,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ayyAraT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ayyAr',
       'form' => '`ayyAraT',
       'lines' => [
@@ -73463,9 +67325,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mi`yAr' => {
-          'Ndu' => 1
-        },
         'ma`Ayiyr' => {
           'Ndip' => 1
         }
@@ -73497,9 +67356,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mi`yAr' => {
-          'Ndu' => 1
-        },
         'ma`Ayiyr' => {
           'Ndip' => 1
         }
@@ -73530,11 +67386,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`Ayir' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`Ayir',
       'form' => 'ma`Ayir',
       'lines' => [
@@ -73554,11 +67406,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`AyaraT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Ayar',
       'form' => 'mu`AyaraT',
       'lines' => [
@@ -73583,8 +67431,7 @@ $Lexicon = {
       'types' => {
         '`awlim' => {
           'IV' => 1
-        },
-        '`awlam' => {}
+        }
       },
       'entry' => '`awlam',
       'form' => '`awlam',
@@ -73609,11 +67456,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`awlamaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`awlam',
       'form' => '`awlamaT',
       'lines' => [
@@ -73634,11 +67477,7 @@ $Lexicon = {
   ],
   '`u.tArid' => [
     {
-      'types' => {
-        '`u.tArid' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`u.tArid',
       'form' => '`u.tArid',
       'lines' => [
@@ -73657,11 +67496,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`u.tAridiyy' => {
-          'Ndip' => 2
-        }
-      },
+      'types' => {},
       'entry' => '`u.tArid',
       'form' => '`u.tAridiyy',
       'lines' => [
@@ -73684,11 +67519,7 @@ $Lexicon = {
   ],
   '`abdAlqays' => [
     {
-      'types' => {
-        '`abdAlqays' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlqays',
       'form' => '`abdAlqays',
       'lines' => [
@@ -73709,11 +67540,7 @@ $Lexicon = {
   ],
   '`abdAlrasuwl' => [
     {
-      'types' => {
-        '`abdAlrasuwl' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`abdAlrasuwl',
       'form' => '`abdAlrasuwl',
       'lines' => [
@@ -73737,8 +67564,7 @@ $Lexicon = {
       'types' => {
         '`as`is' => {
           'IV_yu' => 1
-        },
-        '`as`as' => {}
+        }
       },
       'entry' => '`as`as',
       'form' => '`as`as',
@@ -73764,11 +67590,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`as`asaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`as`as',
       'form' => '`as`asaT',
       'lines' => [
@@ -73790,7 +67612,6 @@ $Lexicon = {
   '` r k' => [
     {
       'types' => {
-        '`arak' => {},
         '`ruk' => {
           'IV' => 1
         }
@@ -73826,8 +67647,7 @@ $Lexicon = {
       'types' => {
         '`Arik' => {
           'IV_yu' => 1
-        },
-        '`Arak' => {}
+        }
       },
       'entry' => '`Arak',
       'form' => '`Arak',
@@ -73853,9 +67673,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`Arak' => {}
-      },
+      'types' => {},
       'entry' => 'ta`Arak',
       'form' => 'ta`Arak',
       'lines' => [
@@ -73879,8 +67697,7 @@ $Lexicon = {
       'types' => {
         '`tarik' => {
           'IV' => 1
-        },
-        'i`tarak' => {}
+        }
       },
       'entry' => 'i`tarak',
       'form' => 'i`tarak',
@@ -73906,11 +67723,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`ark' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ark',
       'form' => '`ark',
       'lines' => [
@@ -73929,11 +67742,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`arkaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`ark',
       'form' => '`arkaT',
       'lines' => [
@@ -73956,9 +67765,6 @@ $Lexicon = {
       'types' => {
         '`arA\'ik' => {
           'Ndip' => 1
-        },
-        '`ariykaT' => {
-          'Nap' => 1
         }
       },
       'entry' => '`ariyk',
@@ -73984,9 +67790,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ma`rakaT' => {
-          'Napdu' => 1
-        },
         'ma`Arik' => {
           'Ndip' => 1
         }
@@ -74017,11 +67820,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`irAk' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`irAk',
       'form' => '`irAk',
       'lines' => [
@@ -74041,11 +67840,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`ArakaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`Arak',
       'form' => 'mu`ArakaT',
       'lines' => [
@@ -74076,7 +67871,11 @@ $Lexicon = {
         ';; muEotarak_1',
         'mEtrk   muEotarak       NduAt   battle ground'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu`tarak' => [
+          'MuFtaCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFtaCaL',
@@ -74093,8 +67892,7 @@ $Lexicon = {
       'types' => {
         '`mid' => {
           'IV' => 1
-        },
-        '`amad' => {}
+        }
       },
       'entry' => '`amad',
       'form' => '`amad',
@@ -74124,7 +67922,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`ammad' => {},
         '`ammid' => {
           'IV_yu' => 1
         }
@@ -74152,9 +67949,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`ammad' => {}
-      },
+      'types' => {},
       'entry' => 'ta`ammad',
       'form' => 'ta`ammad',
       'lines' => [
@@ -74183,8 +67978,7 @@ $Lexicon = {
         },
         'u`tumid' => {
           'PV_Pass' => 2
-        },
-        'i`tamad' => {}
+        }
       },
       'entry' => 'i`tamad',
       'form' => 'i`tamad',
@@ -74227,8 +68021,7 @@ $Lexicon = {
         },
         'u`tumid' => {
           'PV_Pass' => 2
-        },
-        'i`tamad' => {}
+        }
       },
       'entry' => 'i`tamad',
       'form' => 'i`tamad',
@@ -74265,12 +68058,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`amd' => {
-          'NF' => 1,
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amd',
       'form' => '`amd',
       'lines' => [
@@ -74292,11 +68080,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`amdiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amd',
       'form' => '`amdiyy',
       'lines' => [
@@ -74318,9 +68102,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`umdaT' => {
-          'Napdu' => 1
-        },
         '`umad' => {
           'N' => 1
         }
@@ -74349,11 +68130,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`umdiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`umd',
       'form' => '`umdiyyaT',
       'lines' => [
@@ -74373,11 +68150,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`imAd' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`imAd',
       'form' => '`imAd',
       'lines' => [
@@ -74397,9 +68170,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`imAd' => {
-          'Ndu' => 1
-        },
         '`umud' => {
           'N' => 1
         }
@@ -74430,11 +68200,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`imAd' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`imAd',
       'form' => '`imAd',
       'lines' => [
@@ -74454,9 +68220,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`imAd' => {
-          'N' => 1
-        },
         '`umud' => {
           'N' => 1
         }
@@ -74485,11 +68248,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`imAdiyy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`imAd',
       'form' => '`imAdiyy',
       'lines' => [
@@ -74508,11 +68267,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`imAdaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`imAd',
       'form' => '`imAdaT',
       'lines' => [
@@ -74532,9 +68287,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`amiyd' => {
-          'Ndu' => 1
-        },
         '`umadA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -74570,9 +68322,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`amiyd' => {
-          'Ndu' => 1
-        },
         '`umadA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -74608,9 +68357,6 @@ $Lexicon = {
       'types' => {
         '\'a`mid' => {
           'Nap' => 2
-        },
-        '`amuwd' => {
-          'Ndu' => 1
         }
       },
       'entry' => '`amuwd',
@@ -74641,9 +68387,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`Amuwd' => {
-          'Ndu' => 1
-        },
         '`awAmiyd' => {
           'Ndip' => 1
         }
@@ -74674,11 +68417,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`amuwdiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`amuwd',
       'form' => '`amuwdiyy',
       'lines' => [
@@ -74709,7 +68448,11 @@ $Lexicon = {
         ';; taEomiyd_1',
         'tEmyd   taEomiyd        N/At    baptism'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`miyd' => [
+          'TaFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -74723,7 +68466,6 @@ $Lexicon = {
     {
       'types' => {
         'ta`ammud' => {
-          'NF' => 1,
           'N/At' => 1
         }
       },
@@ -74734,7 +68476,11 @@ $Lexicon = {
         'tEmd    taEam~ud        N/At    intention;premeditation',
         'tEmd    taEam~ud        NF      intentionally;premeditated     [[taEam~ud/ADV]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`ammud' => [
+          'TaFaCCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFaCCuL',
@@ -74749,11 +68495,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`ammudiyy' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`ammud',
       'form' => 'ta`ammudiyy',
       'lines' => [
@@ -74773,11 +68515,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`AmudiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`Amud',
       'form' => 'ta`AmudiyyaT',
       'lines' => [
@@ -74796,11 +68534,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta`AmudiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta`Amud',
       'form' => 'ta`AmudiyyaT',
       'lines' => [
@@ -74820,11 +68554,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'i`timAd' => {
-          'N' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'i`timAd',
       'form' => 'i`timAd',
       'lines' => [
@@ -74849,8 +68579,7 @@ $Lexicon = {
       'types' => {
         'i`timAd' => {
           'NAt' => 2
-        },
-        'i`timAdAt' => {}
+        }
       },
       'entry' => 'i`timAd',
       'form' => 'i`timAdAt',
@@ -74876,11 +68605,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`Amid' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`Amid',
       'form' => '`Amid',
       'lines' => [
@@ -74899,11 +68624,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`ammid' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`ammid',
       'form' => 'muta`ammid',
       'lines' => [
@@ -74923,11 +68644,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`Amid' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`Amid',
       'form' => 'muta`Amid',
       'lines' => [
@@ -74946,11 +68663,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma`muwdiyyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma`muwd',
       'form' => 'ma`muwdiyyaT',
       'lines' => [
@@ -74969,11 +68682,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'muta`ammad' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'muta`ammad',
       'form' => 'muta`ammad',
       'lines' => [
@@ -74993,11 +68702,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tamad' => {
-          'N-ap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tamad',
       'form' => 'mu`tamad',
       'lines' => [
@@ -75018,11 +68723,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tamad' => {
-          'Nall' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tamad',
       'form' => 'mu`tamad',
       'lines' => [
@@ -75042,11 +68743,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu`tamadiyyaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu`tamad',
       'form' => 'mu`tamadiyyaT',
       'lines' => [
@@ -75069,9 +68766,6 @@ $Lexicon = {
   '` .d w' => [
     {
       'types' => {
-        '`u.dw' => {
-          'N/ap' => 1
-        },
         '\'a`.dA\'' => {
           'Nh' => 2,
           'Nhy' => 2,
@@ -75108,9 +68802,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '`u.dw' => {
-          'Ndu' => 1
-        },
         '\'a`.dA\'' => {
           'Nh' => 2,
           'Nhy' => 2,
@@ -75177,7 +68868,6 @@ $Lexicon = {
   '` t h' => [
     {
       'types' => {
-        '`atih' => {},
         '`tah' => {
           'IV_intr' => 1
         }
@@ -75209,11 +68899,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`uth' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`uth',
       'form' => '`uth',
       'lines' => [
@@ -75232,11 +68918,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`atAhaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`atAh',
       'form' => '`atAhaT',
       'lines' => [
@@ -75258,9 +68940,6 @@ $Lexicon = {
       'types' => {
         'ma`Atiyh' => {
           'Ndip' => 1
-        },
-        'ma`tuwh' => {
-          'Nall' => 1
         }
       },
       'entry' => 'ma`tuwh',
@@ -75386,6 +69065,9 @@ $Lexicon->{'` l w'}[5]{'glosses'} = $Lexicon->{'` l \''}[0]{'glosses'};
 $Lexicon->{'` l w'}[6]{'types'} = $Lexicon->{'` l \''}[1]{'types'};
 $Lexicon->{'` l w'}[6]{'lines'} = $Lexicon->{'` l \''}[1]{'lines'};
 $Lexicon->{'` l w'}[6]{'glosses'} = $Lexicon->{'` l \''}[1]{'glosses'};
+$Lexicon->{'` l w'}[12]{'types'} = $Lexicon->{'` l l'}[15]{'types'};
+$Lexicon->{'` l w'}[12]{'lines'} = $Lexicon->{'` l l'}[15]{'lines'};
+$Lexicon->{'` l w'}[12]{'glosses'} = $Lexicon->{'` l l'}[15]{'glosses'};
 $Lexicon->{'` l w'}[17]{'types'} = $Lexicon->{'` l \''}[2]{'types'};
 $Lexicon->{'` l w'}[17]{'lines'} = $Lexicon->{'` l \''}[2]{'lines'};
 $Lexicon->{'` l w'}[17]{'glosses'} = $Lexicon->{'` l \''}[2]{'glosses'};
@@ -75437,27 +69119,36 @@ $Lexicon->{'` f w'}[19]{'glosses'} = $Lexicon->{'` f y'}[5]{'glosses'};
 $Lexicon->{'` t s'}[0]{'types'} = $Lexicon->{'` s s'}[1]{'types'};
 $Lexicon->{'` t s'}[0]{'lines'} = $Lexicon->{'` s s'}[1]{'lines'};
 $Lexicon->{'` t s'}[0]{'glosses'} = $Lexicon->{'` s s'}[1]{'glosses'};
-$Lexicon->{'` .t y'}[6]{'types'} = $Lexicon->{'` .t \''}[0]{'types'};
-$Lexicon->{'` .t y'}[6]{'lines'} = $Lexicon->{'` .t \''}[0]{'lines'};
-$Lexicon->{'` .t y'}[6]{'glosses'} = $Lexicon->{'` .t \''}[0]{'glosses'};
-$Lexicon->{'` .t y'}[7]{'types'} = $Lexicon->{'` .t \''}[1]{'types'};
-$Lexicon->{'` .t y'}[7]{'lines'} = $Lexicon->{'` .t \''}[1]{'lines'};
-$Lexicon->{'` .t y'}[7]{'glosses'} = $Lexicon->{'` .t \''}[1]{'glosses'};
-$Lexicon->{'` .t y'}[8]{'types'} = $Lexicon->{'` .t \''}[2]{'types'};
-$Lexicon->{'` .t y'}[8]{'lines'} = $Lexicon->{'` .t \''}[2]{'lines'};
-$Lexicon->{'` .t y'}[8]{'glosses'} = $Lexicon->{'` .t \''}[2]{'glosses'};
-$Lexicon->{'` .t y'}[12]{'types'} = $Lexicon->{'` .t \''}[4]{'types'};
-$Lexicon->{'` .t y'}[12]{'lines'} = $Lexicon->{'` .t \''}[4]{'lines'};
-$Lexicon->{'` .t y'}[12]{'glosses'} = $Lexicon->{'` .t \''}[4]{'glosses'};
-$Lexicon->{'` .t y'}[14]{'types'} = $Lexicon->{'` .t \''}[5]{'types'};
-$Lexicon->{'` .t y'}[14]{'lines'} = $Lexicon->{'` .t \''}[5]{'lines'};
-$Lexicon->{'` .t y'}[14]{'glosses'} = $Lexicon->{'` .t \''}[5]{'glosses'};
-$Lexicon->{'` n y'}[6]{'types'} = $Lexicon->{'` n \''}[0]{'types'};
-$Lexicon->{'` n y'}[6]{'lines'} = $Lexicon->{'` n \''}[0]{'lines'};
-$Lexicon->{'` n y'}[6]{'glosses'} = $Lexicon->{'` n \''}[0]{'glosses'};
-$Lexicon->{'` n y'}[11]{'types'} = $Lexicon->{'` n \''}[1]{'types'};
-$Lexicon->{'` n y'}[11]{'lines'} = $Lexicon->{'` n \''}[1]{'lines'};
-$Lexicon->{'` n y'}[11]{'glosses'} = $Lexicon->{'` n \''}[1]{'glosses'};
+$Lexicon->{'` .t y'}[5]{'types'} = $Lexicon->{'` .t .t'}[0]{'types'};
+$Lexicon->{'` .t y'}[5]{'lines'} = $Lexicon->{'` .t .t'}[0]{'lines'};
+$Lexicon->{'` .t y'}[5]{'glosses'} = $Lexicon->{'` .t .t'}[0]{'glosses'};
+$Lexicon->{'` .t y'}[6]{'types'} = $Lexicon->{'` .t .t'}[1]{'types'};
+$Lexicon->{'` .t y'}[6]{'lines'} = $Lexicon->{'` .t .t'}[1]{'lines'};
+$Lexicon->{'` .t y'}[6]{'glosses'} = $Lexicon->{'` .t .t'}[1]{'glosses'};
+$Lexicon->{'` .t y'}[7]{'types'} = $Lexicon->{'` .t \''}[0]{'types'};
+$Lexicon->{'` .t y'}[7]{'lines'} = $Lexicon->{'` .t \''}[0]{'lines'};
+$Lexicon->{'` .t y'}[7]{'glosses'} = $Lexicon->{'` .t \''}[0]{'glosses'};
+$Lexicon->{'` .t y'}[8]{'types'} = $Lexicon->{'` .t \''}[1]{'types'};
+$Lexicon->{'` .t y'}[8]{'lines'} = $Lexicon->{'` .t \''}[1]{'lines'};
+$Lexicon->{'` .t y'}[8]{'glosses'} = $Lexicon->{'` .t \''}[1]{'glosses'};
+$Lexicon->{'` .t y'}[9]{'types'} = $Lexicon->{'` .t \''}[2]{'types'};
+$Lexicon->{'` .t y'}[9]{'lines'} = $Lexicon->{'` .t \''}[2]{'lines'};
+$Lexicon->{'` .t y'}[9]{'glosses'} = $Lexicon->{'` .t \''}[2]{'glosses'};
+$Lexicon->{'` .t y'}[13]{'types'} = $Lexicon->{'` .t \''}[4]{'types'};
+$Lexicon->{'` .t y'}[13]{'lines'} = $Lexicon->{'` .t \''}[4]{'lines'};
+$Lexicon->{'` .t y'}[13]{'glosses'} = $Lexicon->{'` .t \''}[4]{'glosses'};
+$Lexicon->{'` .t y'}[15]{'types'} = $Lexicon->{'` .t \''}[5]{'types'};
+$Lexicon->{'` .t y'}[15]{'lines'} = $Lexicon->{'` .t \''}[5]{'lines'};
+$Lexicon->{'` .t y'}[15]{'glosses'} = $Lexicon->{'` .t \''}[5]{'glosses'};
+$Lexicon->{'` n y'}[0]{'types'} = $Lexicon->{'` n n'}[0]{'types'};
+$Lexicon->{'` n y'}[0]{'lines'} = $Lexicon->{'` n n'}[0]{'lines'};
+$Lexicon->{'` n y'}[0]{'glosses'} = $Lexicon->{'` n n'}[0]{'glosses'};
+$Lexicon->{'` n y'}[7]{'types'} = $Lexicon->{'` n \''}[0]{'types'};
+$Lexicon->{'` n y'}[7]{'lines'} = $Lexicon->{'` n \''}[0]{'lines'};
+$Lexicon->{'` n y'}[7]{'glosses'} = $Lexicon->{'` n \''}[0]{'glosses'};
+$Lexicon->{'` n y'}[12]{'types'} = $Lexicon->{'` n \''}[1]{'types'};
+$Lexicon->{'` n y'}[12]{'lines'} = $Lexicon->{'` n \''}[1]{'lines'};
+$Lexicon->{'` n y'}[12]{'glosses'} = $Lexicon->{'` n \''}[1]{'glosses'};
 $Lexicon->{'` w l'}[9]{'types'} = $Lexicon->{'` \' l'}[0]{'types'};
 $Lexicon->{'` w l'}[9]{'lines'} = $Lexicon->{'` \' l'}[0]{'lines'};
 $Lexicon->{'` w l'}[9]{'glosses'} = $Lexicon->{'` \' l'}[0]{'glosses'};
@@ -75618,9 +69309,15 @@ $Lexicon->{'` z w'}[12]{'glosses'} = $Lexicon->{'` z y'}[2]{'glosses'};
 $Lexicon->{'` .t w n'}[0]{'types'} = $Lexicon->{'` .t w'}[0]{'types'};
 $Lexicon->{'` .t w n'}[0]{'lines'} = $Lexicon->{'` .t w'}[0]{'lines'};
 $Lexicon->{'` .t w n'}[0]{'glosses'} = $Lexicon->{'` .t w'}[0]{'glosses'};
-$Lexicon->{'` n w'}[3]{'types'} = $Lexicon->{'` n y'}[0]{'types'};
-$Lexicon->{'` n w'}[3]{'lines'} = $Lexicon->{'` n y'}[0]{'lines'};
-$Lexicon->{'` n w'}[3]{'glosses'} = $Lexicon->{'` n y'}[0]{'glosses'};
+$Lexicon->{'` .s w'}[0]{'types'} = $Lexicon->{'` .s .s'}[3]{'types'};
+$Lexicon->{'` .s w'}[0]{'lines'} = $Lexicon->{'` .s .s'}[3]{'lines'};
+$Lexicon->{'` .s w'}[0]{'glosses'} = $Lexicon->{'` .s .s'}[3]{'glosses'};
+$Lexicon->{'` .s w'}[2]{'types'} = $Lexicon->{'` .s .s'}[4]{'types'};
+$Lexicon->{'` .s w'}[2]{'lines'} = $Lexicon->{'` .s .s'}[4]{'lines'};
+$Lexicon->{'` .s w'}[2]{'glosses'} = $Lexicon->{'` .s .s'}[4]{'glosses'};
+$Lexicon->{'` n w'}[3]{'types'} = $Lexicon->{'` n y'}[1]{'types'};
+$Lexicon->{'` n w'}[3]{'lines'} = $Lexicon->{'` n y'}[1]{'lines'};
+$Lexicon->{'` n w'}[3]{'glosses'} = $Lexicon->{'` n y'}[1]{'glosses'};
 $Lexicon->{'` \' .d'}[0]{'types'} = $Lexicon->{'` w .d'}[18]{'types'};
 $Lexicon->{'` \' .d'}[0]{'lines'} = $Lexicon->{'` w .d'}[18]{'lines'};
 $Lexicon->{'` \' .d'}[0]{'glosses'} = $Lexicon->{'` w .d'}[18]{'glosses'};

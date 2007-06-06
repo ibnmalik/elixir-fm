@@ -35,7 +35,9 @@ lexicon = listing "Lexicon's properties"
     -- ZA}     ZA}     Nhy     Za' (Arabic letter)
     -- ZA'     ZA'     NAt     Za's (Arabic letter)
 
-    FAL                       `noun`    {- ZA' -}              [ "Za' (Arabic letter)", "Za's (Arabic letter)" ] ]
+    FAL                       `noun`    {- ZA' -}              [ "Za' (Arabic letter)", "Za's (Arabic letter)" ]
+                              `plural`     FAL |< At
+                              `plural`     FACL |< At ]
 
  |> ".z ' r" <| [
 
@@ -100,7 +102,7 @@ lexicon = listing "Lexicon's properties"
     -- Zby     Zabay   NAt     gazelles
 
     FaCL |< aT                `noun`    {- Zaboyap -}          [ "gazelle", "gazelles" ]
-                              `plural`     FaCaL |< At ]
+                              `plural`     FaCY |< At ]
 
  |> ".z f r" <| [
 
@@ -304,12 +306,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; taZohiyr_1
     -- tZhyr   taZohiyr        N/At    endorsement;transfer
 
-    TaFCIL                    `noun`    {- taZohiyr -}         [ "endorsement", "transfer" ],
+    TaFCIL                    `noun`    {- taZohiyr -}         [ "endorsement", "transfer" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; taZohiyr_2
     -- tZhyr   taZohiyr        N/At    (photo) developing
 
-    TaFCIL                    `noun`    {- taZohiyr -}         [ "(photo) developing" ],
+    TaFCIL                    `noun`    {- taZohiyr -}         [ "(photo) developing" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; ZihAr_1
     -- ZhAr    ZihAr   N       epithelium
@@ -330,7 +334,8 @@ lexicon = listing "Lexicon's properties"
     -- <ZhAr   <iZohAr N/At    expressing;showing;demonstrating
     -- AZhAr   <iZohAr N/At    expressing;showing;demonstrating
 
-    HiFCAL                    `noun`    {- IiZohAr -}          [ "expressing", "showing", "demonstrating" ],
+    HiFCAL                    `noun`    {- IiZohAr -}          [ "expressing", "showing", "demonstrating" ]
+                              `plural`     HiFCAL |< At,
 
     -- ;; <iZohAriy~_1
     -- <ZhAry  <iZohAriy~      Nall    demonstrative;exhibitionist     [[<iZohAriy~/ADJ]]
@@ -341,7 +346,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; taZAhur_1
     -- tZAhr   taZAhur NduAt   demonstration;exhibition;simulation
 
-    TaFACuL                   `noun`    {- taZAhur -}          [ "demonstration", "exhibition", "simulation" ],
+    TaFACuL                   `noun`    {- taZAhur -}          [ "demonstration", "exhibition", "simulation" ]
+                              `plural`     TaFACuL |< At,
 
     -- ;; taZAhurap_1
     -- tZAhr   taZAhur NapAt   rally;demonstration
@@ -623,12 +629,14 @@ lexicon = listing "Lexicon's properties"
     -- <ZlAm   <iZolAm N/At    darkness;gloom
     -- AZlAm   <iZolAm N/At    darkness;gloom
 
-    HiFCAL                    `noun`    {- IiZolAm -}          [ "darkness", "gloom" ],
+    HiFCAL                    `noun`    {- IiZolAm -}          [ "darkness", "gloom" ]
+                              `plural`     HiFCAL |< At,
 
     -- ;; taZal~um_1
     -- tZlm    taZal~um        N/At    complaint
 
-    TaFaCCuL                  `noun`    {- taZal~um -}         [ "complaint" ],
+    TaFaCCuL                  `noun`    {- taZal~um -}         [ "complaint" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; ZAlim_1
     -- ZAlm    ZAlim   Nall    oppressor;tyrant
@@ -879,12 +887,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; taZoriyf_1
     -- tZryf   taZoriyf        N/At    wittiness;courtesy
 
-    TaFCIL                    `noun`    {- taZoriyf -}         [ "wittiness", "courtesy" ],
+    TaFCIL                    `noun`    {- taZoriyf -}         [ "wittiness", "courtesy" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; taZar~uf_1
     -- tZrf    taZar~uf        N/At    wittiness;courtesy
 
-    TaFaCCuL                  `noun`    {- taZar~uf -}         [ "wittiness", "courtesy" ],
+    TaFaCCuL                  `noun`    {- taZar~uf -}         [ "wittiness", "courtesy" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; maZoruwf_1
     -- mZrwf   maZoruwf        Ndu     envelope

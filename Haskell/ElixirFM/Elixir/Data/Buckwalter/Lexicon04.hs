@@ -81,7 +81,9 @@ lexicon = listing "Lexicon's properties"
     -- vA}     vA}     Nhy     va' (Arabic letter)
     -- vA'     vA'     NAt     va's (Arabic letter)
 
-    FAL                       `noun`    {- vA' -}              [ "va' (Arabic letter)", "va's (Arabic letter)" ] ]
+    FAL                       `noun`    {- vA' -}              [ "va' (Arabic letter)", "va's (Arabic letter)" ]
+                              `plural`     FAL |< At
+                              `plural`     FACL |< At ]
 
  |> "_t ' b" <| [
 
@@ -158,6 +160,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- vaOor -}            [ "revenge", "retaliation", "retaliations" ]
                               `plural`     HaFCAL
+                              `plural`     FaCL |< At
                            {- `others`  [ "'a_t'Ar N" ] -},
 
     -- ;; vA}ir_1
@@ -262,7 +265,8 @@ lexicon = listing "Lexicon's properties"
     -- vAg     vAg     Nuwn_Niyn       bleating
     -- vAgy    vAgiy   NapAt   bleating
 
-    FACI                      `noun`    {- vAgiy -}            [ "bleating" ] ]
+    FACI                      `noun`    {- vAgiy -}            [ "bleating" ]
+                              `plural`     FACI |< At ]
 
  |> "_t .g y" <| [
 
@@ -273,7 +277,8 @@ lexicon = listing "Lexicon's properties"
     -- vAg     vAg     Nuwn_Niyn       bleating
     -- vAgy    vAgiy   NapAt   bleating
 
-    FACI                      `noun`    {- vAgiy -}            [ "bleating" ] ]
+    FACI                      `noun`    {- vAgiy -}            [ "bleating" ]
+                              `plural`     FACI |< At ]
 
  |> "_t ^g ^g" <| [
 
@@ -592,7 +597,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tavobiyt_1
     -- tvbyt   tavobiyt        NduAt   substantiation;stabilization
 
-    TaFCIL                    `noun`    {- tavobiyt -}         [ "substantiation", "stabilization" ],
+    TaFCIL                    `noun`    {- tavobiyt -}         [ "substantiation", "stabilization" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; <ivobAtiy~_1
     -- <vbAty  <ivobAtiy~      Nall    confirmatory     [[<ivobAtiy~/ADJ]]
@@ -603,7 +609,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tavab~ut_1
     -- tvbt    tavab~ut        NduAt   ascertainment;verification
 
-    TaFaCCuL                  `noun`    {- tavab~ut -}         [ "ascertainment", "verification" ],
+    TaFaCCuL                  `noun`    {- tavab~ut -}         [ "ascertainment", "verification" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; vAbit_1
     -- vAbt    vAbit   Nall    established;proven;permanent     [[vAbit/ADJ]]
@@ -633,6 +640,13 @@ lexicon = listing "Lexicon's properties"
 
     FuCayL |< Iy              `adj`     {- vubayotiy~ -}       [ "Thubaiti" ] ]
 
+ |> "_t b y" <| [
+
+    -- ;; vabAt_1
+    -- vbAt    vabAt   N       reliability;constancy
+
+    FaC |< At                 `noun`    {- vabAt -}            [ "reliability", "constancy" ] ]
+
  |> "_t d y" <| [
 
     -- ;; vadoy_1
@@ -650,9 +664,8 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- vadoy -}            [ "breast", "breasts" ]
                               `plural`     FaCA
                               `plural`     HaFCA'
-                              `plural`     FaCaL
                               `plural`     FaCY
-                           {- `others`  [ "_tadA Nhy", "'a_tdA' Nh N0_Nh Nhy", "_taday NAn_Nayn", "_tadY N0" ] -},
+                           {- `others`  [ "_tadA Nhy", "'a_tdA' Nh N0_Nh Nhy", "_tadY N0 NAn_Nayn" ] -},
 
     -- ;; vadoyA'_1
     -- vdyA'   vadoyA' N0_Nh   buxom
@@ -913,7 +926,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tavoliyv_1
     -- tvlyv   tavoliyv        NduAt   trinity
 
-    TaFCIL                    `noun`    {- tavoliyv -}         [ "trinity" ],
+    TaFCIL                    `noun`    {- tavoliyv -}         [ "trinity" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; tavoliyviy~_1
     -- tvlyvy  tavoliyviy~     Nall    trigonometrical     [[tavoliyviy~/ADJ]]
@@ -1151,7 +1165,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tavomiyn_1
     -- tvmyn   tavomiyn        NduAt   appraisal;rating
 
-    TaFCIL                    `noun`    {- tavomiyn -}         [ "appraisal", "rating" ],
+    TaFCIL                    `noun`    {- tavomiyn -}         [ "appraisal", "rating" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; mavomuwn_1
     -- mvmwn   mavomuwn        Nall    valuable
@@ -1208,7 +1223,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tavomiyn_2
     -- tvmyn   tavomiyn        NduAt   octagonal;eightfold
 
-    TaFCIL                    `noun`    {- tavomiyn -}         [ "octagonal", "eightfold" ] ]
+    TaFCIL                    `noun`    {- tavomiyn -}         [ "octagonal", "eightfold" ]
+                              `plural`     TaFCIL |< At ]
 
  |> "_t m n n" <| [
 
@@ -1216,7 +1232,8 @@ lexicon = listing "Lexicon's properties"
     -- vmAnyn  vamAniyn        NAt     eighties
     -- vmAnyny vamAniyniy~     NAt     eighties     [[vamAniyniy~/NOUN]]
 
-    KaRADIS                   `noun`    {- vamAniyn -}         [ "eighties" ] ]
+    KaRADIS                   `noun`    {- vamAniyn -}         [ "eighties" ]
+                              `plural`     KaRADIS |< At ]
 
  |> "_t m r" <| [
 
@@ -1269,7 +1286,8 @@ lexicon = listing "Lexicon's properties"
     -- <stvmAr {isotivomAr     NduAt   investment
     -- AstvmAr {isotivomAr     NduAt   investment
 
-    IstiFCAL                  `noun`    {- AisotivomAr -}      [ "investment" ],
+    IstiFCAL                  `noun`    {- AisotivomAr -}      [ "investment" ]
+                              `plural`     IstiFCAL |< At,
 
     -- ;; {isotivomAriy~_1
     -- AstvmAry        {isotivomAriy~  Nall    investment     [[{isotivomAriy~/ADJ]]
@@ -1336,7 +1354,9 @@ lexicon = listing "Lexicon's properties"
     -- <nvnA'  {inovinA'       NAt     folding;bending
     -- AnvnA'  {inovinA'       NAt     folding;bending
 
-    InFiCAL                   `noun`    {- AinovinA' -}        [ "folding", "bending" ],
+    InFiCAL                   `noun`    {- AinovinA' -}        [ "folding", "bending" ]
+                              `plural`     InFiCAL |< At
+                              `plural`     InFiCA' |< At,
 
     -- ;; {inovinA'ap_1
     -- <nvnA'  {inovinA'       NapAt   bend;curve
@@ -1358,7 +1378,9 @@ lexicon = listing "Lexicon's properties"
     -- <stvnA' {isotivonA'     NAt     exceptions;exclusions
     -- AstvnA' {isotivonA'     NAt     exceptions;exclusions
 
-    IstiFCAL                  `noun`    {- AisotivonA' -}      [ "exception", "exclusion", "exceptions", "exclusions" ],
+    IstiFCAL                  `noun`    {- AisotivonA' -}      [ "exception", "exclusion", "exceptions", "exclusions" ]
+                              `plural`     IstiFCAL |< At
+                              `plural`     IstiFCA' |< At,
 
     -- ;; {isotivonA}iy~_1
     -- <stvnA}y        {isotivonA}iy~  Nall    exceptional;extraordinary     [[{isotivonA}iy~/ADJ]]
@@ -1385,19 +1407,29 @@ lexicon = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- vun~ap -}           [ "fetlock", "fetlocks" ]
                               `plural`     FuCaL
-                           {- `others`  [ "_tunan N" ] -} ]
+                           {- `others`  [ "_tunan N" ] -},
+
+    -- ;; vanawiy~_1
+    -- vnwy    vanawiy~        Nall    dualist     [[vanawiy~/ADJ]]
+
+    FaL |<< "awIy"            `adj`     {- vanawiy~ -}         [ "dualist" ],
+
+    -- ;; vanawiy~ap_1
+    -- vnwy    vanawiy~        NapAt   dualism     [[vanawiy~/NOUN]]
+
+    FaL |<< "awIy" |< aT      `noun`    {- vanawiy~ap -}       [ "dualism" ] ]
 
  |> "_t n y" <| [
 
     -- ;; vanawiy~_1
     -- vnwy    vanawiy~        Nall    dualist     [[vanawiy~/ADJ]]
 
-    FaCY |< Iy                `adj`     {- vanawiy~ -}         [ "dualist" ],
+    FaC |<< "awIy"            `adj`     {- vanawiy~ -}         [ "dualist" ],
 
     -- ;; vanawiy~ap_1
     -- vnwy    vanawiy~        NapAt   dualism     [[vanawiy~/NOUN]]
 
-    FaCY |< Iy |< aT          `noun`    {- vanawiy~ap -}       [ "dualism" ],
+    FaC |<< "awIy" |< aT      `noun`    {- vanawiy~ap -}       [ "dualism" ],
 
     -- ;; vAnawiy~_1
     -- vAnwy   vAnawiy~        Nall    secondary     [[vAnawiy~/ADJ]]
@@ -1516,24 +1548,19 @@ lexicon = listing "Lexicon's properties"
     -- vny     vanay   NAt     folds;creases
 
     FaCL |< aT                `noun`    {- vanoyap -}          [ "fold", "crease", "folds", "creases" ]
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCY |< At,
 
     -- ;; vanoyap_2
     -- vny     vanoy   Napdu   cuff
     -- vny     vanay   NAt     cuffs
 
     FaCL |< aT                `noun`    {- vanoyap -}          [ "cuff", "cuffs" ]
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCY |< At,
 
     -- ;; vaniy~ap_1
     -- vny     vaniy~  Napdu   incisor;path     [[vaniy~/NOUN]]
 
     FaCIL |< aT               `noun`    {- vaniy~ap -}         [ "incisor", "path" ],
-
-    -- ;; vanAyA_1
-    -- vnAyA   vanAyA  N0_Nhy  inside;among
-
-    FaCAyA                    `noun`    {- vanAyA -}           [ "inside", "among" ],
 
     -- ;; vanA'_1
     -- vnA'    vanA'   N0_Nh   appreciation;praise
@@ -1567,7 +1594,8 @@ lexicon = listing "Lexicon's properties"
     -- vAn     vAn     NK      second;next     [[vAniy/ADJ]]
     -- vAny    vAniy   NapAt   second;next     [[vAniy/ADJ]]
 
-    FACI                      `adj`     {- vAniy -}            [ "second", "next" ],
+    FACI                      `adj`     {- vAniy -}            [ "second", "next" ]
+                              `plural`     FACI |< At,
 
     -- ;; vAniyAF_1
     -- vAny    vAniy   NF      secondly     [[vAniy/ADV]]
@@ -1604,7 +1632,8 @@ lexicon = listing "Lexicon's properties"
     -- <nvnA'  {inovinA'       NAt     folding;bending
     -- AnvnA'  {inovinA'       NAt     folding;bending
 
-    InFiCA'                   `noun`    {- AinovinA' -}        [ "folding", "bending" ],
+    InFiCA'                   `noun`    {- AinovinA' -}        [ "folding", "bending" ]
+                              `plural`     InFiCA' |< At,
 
     -- ;; {inovinA'ap_1
     -- <nvnA'  {inovinA'       NapAt   bend;curve
@@ -1626,7 +1655,8 @@ lexicon = listing "Lexicon's properties"
     -- <stvnA' {isotivonA'     NAt     exceptions;exclusions
     -- AstvnA' {isotivonA'     NAt     exceptions;exclusions
 
-    IstiFCA'                  `noun`    {- AisotivonA' -}      [ "exception", "exclusion", "exceptions", "exclusions" ],
+    IstiFCA'                  `noun`    {- AisotivonA' -}      [ "exception", "exclusion", "exceptions", "exclusions" ]
+                              `plural`     IstiFCA' |< At,
 
     -- ;; {isotivonA}iy~_1
     -- <stvnA}y        {isotivonA}iy~  Nall    exceptional;extraordinary     [[{isotivonA}iy~/ADJ]]
@@ -1648,8 +1678,7 @@ lexicon = listing "Lexicon's properties"
     -- mvnA    muvan~A Napdu   doubled;twofold
 
     MuFaCCY                   `noun`    {- muvan~aY -}         [ "doubled", "twofold" ]
-                              `plural`     MuFaCCaL |< At
-                           {- `others`  [ "mu_tannay NAn_Nayn" ] -},
+                              `plural`     MuFaCCY |< At,
 
     -- ;; musotavonaY_1
     -- mstvnY  musotavonaY     N0      excepted;excluded
@@ -1660,8 +1689,7 @@ lexicon = listing "Lexicon's properties"
     -- mstvnA  musotavonA      Napdu   excepted;excluded
 
     MustaFCY                  `noun`    {- musotavonaY -}      [ "excepted", "excluded" ]
-                              `plural`     MustaFCaL |< At
-                           {- `others`  [ "musta_tnay NAn_Nayn" ] -} ]
+                              `plural`     MustaFCY |< At ]
 
  |> "_t q b" <| [
 
@@ -1738,7 +1766,8 @@ lexicon = listing "Lexicon's properties"
     -- <vqAb   <ivoqAb NduAt   lighting;kindling
     -- AvqAb   <ivoqAb NduAt   lighting;kindling
 
-    HiFCAL                    `noun`    {- IivoqAb -}          [ "lighting", "kindling" ],
+    HiFCAL                    `noun`    {- IivoqAb -}          [ "lighting", "kindling" ]
+                              `plural`     HiFCAL |< At,
 
     -- ;; vAqib_1
     -- vAqb    vAqib   Nall    penetrating;piercing
@@ -1799,7 +1828,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tavoqiyf_1
     -- tvqyf   tavoqiyf        NduAt   education;cultivation
 
-    TaFCIL                    `noun`    {- tavoqiyf -}         [ "education", "cultivation" ],
+    TaFCIL                    `noun`    {- tavoqiyf -}         [ "education", "cultivation" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; muvAqafap_1
     -- mvAqf   muvAqaf NapAt   fencing;swordplay
@@ -1906,12 +1936,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; tavoqiyl_1
     -- tvqyl   tavoqiyl        NduAt   weighting;burdening
 
-    TaFCIL                    `noun`    {- tavoqiyl -}         [ "weighting", "burdening" ],
+    TaFCIL                    `noun`    {- tavoqiyl -}         [ "weighting", "burdening" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; tavAqul_1
     -- tvAql   tavAqul NduAt   sluggishness;dullness
 
-    TaFACuL                   `noun`    {- tavAqul -}          [ "sluggishness", "dullness" ],
+    TaFACuL                   `noun`    {- tavAqul -}          [ "sluggishness", "dullness" ]
+                              `plural`     TaFACuL |< At,
 
     -- ;; muvaq~al_1
     -- mvql    muvaq~al        Nall    burdened;weighted
@@ -1951,7 +1983,9 @@ lexicon = listing "Lexicon's properties"
     -- AvrA}   <ivorA} Nayn    enrichment
     -- AvrA'   <ivorA' NAt     enrichment
 
-    HiFCAL                    `noun`    {- IivorA' -}          [ "enrichment" ] ]
+    HiFCAL                    `noun`    {- IivorA' -}          [ "enrichment" ]
+                              `plural`     HiFCAL |< At
+                              `plural`     HiFCA' |< At ]
 
  |> "_t r _t r" <| [
 
@@ -1989,7 +2023,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tavoriyb_1
     -- tvryb   tavoriyb        NduAt   censure;blame
 
-    TaFCIL                    `noun`    {- tavoriyb -}         [ "censure", "blame" ] ]
+    TaFCIL                    `noun`    {- tavoriyb -}         [ "censure", "blame" ]
+                              `plural`     TaFCIL |< At ]
 
  |> "_t r d" <| [
 
@@ -2128,7 +2163,8 @@ lexicon = listing "Lexicon's properties"
     -- AvrA}   <ivorA} Nayn    enrichment
     -- AvrA'   <ivorA' NAt     enrichment
 
-    HiFCA'                    `noun`    {- IivorA' -}          [ "enrichment" ],
+    HiFCA'                    `noun`    {- IivorA' -}          [ "enrichment" ]
+                              `plural`     HiFCA' |< At,
 
     -- ;; varaY_1
     -- vrY     varaY   N0      soil
@@ -2137,6 +2173,19 @@ lexicon = listing "Lexicon's properties"
     FaCY                      `noun`    {- varaY -}            [ "soil" ]
                               `plural`     FaCA
                            {- `others`  [ "_tarA Nhy" ] -},
+
+    -- ;; variy~_1
+    -- vry     variy~  N/ap    wealthy     [[variy~/ADJ]]
+    -- >vryA'  >avoriyA'       N0_Nh   wealthy
+    -- AvryA'  >avoriyA'       N0_Nh   wealthy
+    -- >vryA&  >avoriyA&       Nh      wealthy
+    -- AvryA&  >avoriyA&       Nh      wealthy
+    -- >vryA}  >avoriyA}       Nhy     wealthy
+    -- AvryA}  >avoriyA}       Nhy     wealthy
+
+    FaC |< Iy                 `adj`     {- variy~ -}           [ "wealthy" ]
+                              `plural`     HaFCiLA'
+                           {- `others`  [ "'a_triyA' Nh N0_Nh Nhy" ] -},
 
     -- ;; vuray~ap_1
     -- vry     vuray~  NapAt   chandelier
@@ -2261,13 +2310,15 @@ lexicon = listing "Lexicon's properties"
     -- vwm     vuwm    N       garlic
     -- vwm     vuwm    NapAt   garlic clove
 
-    FUL                       `noun`    {- vuwm -}             [ "garlic", "garlic clove" ],
+    FUL                       `noun`    {- vuwm -}             [ "garlic", "garlic clove" ]
+                              `plural`     FUL |< At,
 
     -- ;; vuwm_1
     -- vwm     vuwm    N       garlic
     -- vwm     vuwm    NapAt   garlic clove
 
-    FUL                       `noun`    {- vuwm -}             [ "garlic", "garlic clove" ] ]
+    FUL                       `noun`    {- vuwm -}             [ "garlic", "garlic clove" ]
+                              `plural`     FUL |< At ]
 
  |> "_t w r" <| [
 
@@ -2476,6 +2527,11 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `verb`    {- OavowaY -}          [ "reside", "lodge", "be housed", "be lodged" ],
 
+    -- ;; vawiy~_1
+    -- vwy     vawiy~  Ndu     guest room
+
+    FaC |< Iy                 `adj`     {- vawiy~ -}           [ "guest room" ],
+
     -- ;; vuwaY_1
     -- vwY     vuwaY   N0      road-signs;signposts
     -- vwA     vuwA    Nhy     road-signs;signposts
@@ -2490,16 +2546,16 @@ lexicon = listing "Lexicon's properties"
     -- mvAw    mavAw   NK      abodes;lodgings
 
     MaFCY                     `noun`    {- mavowaY -}          [ "abode", "lodging", "abodes", "lodgings" ]
-                              `plural`     MaFCaL
                               `plural`     MaFACI
-                           {- `others`  [ "ma_tway NAn_Nayn", "ma_tAwiy N0_Nh" ] -} ]
+                           {- `others`  [ "ma_tAwiy N0_Nh" ] -} ]
 
  |> "_t y b" <| [
 
     -- ;; vay~ib_1
     -- vyb     vay~ib  NduAt   divorcee;widow
 
-    FaCCiL                    `noun`    {- vay~ib -}           [ "divorcee", "widow" ] ]
+    FaCCiL                    `noun`    {- vay~ib -}           [ "divorcee", "widow" ]
+                              `plural`     FaCCiL |< At ]
 
  |> "_t y r" <| [
 
@@ -2564,6 +2620,13 @@ lexicon = listing "Lexicon's properties"
     -- vmp     vam~apa FW-Wa   there (is/are)              [[vam~apa/ADV]]
 
     Identity                  `noun`    {- vam~apa -}          [ "there (is/are)" ] ]
+
+ |> "_tanAyA" <| [
+
+    -- ;; vanAyA_1
+    -- vnAyA   vanAyA  N0_Nhy  inside;among
+
+    Identity                  `noun`    {- vanAyA -}           [ "inside", "among" ] ]
 
  |> "_tiyuw" <| [
 

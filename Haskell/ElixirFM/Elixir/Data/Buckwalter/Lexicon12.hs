@@ -256,7 +256,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasA&ul_1
     -- tsA&l   tasA&ul NduAt   questions;doubts
 
-    TaFACuL                   `noun`    {- tasAWul -}          [ "questions", "doubts" ],
+    TaFACuL                   `noun`    {- tasAWul -}          [ "questions", "doubts" ]
+                              `plural`     TaFACuL |< At,
 
     -- ;; sA}il_1
     -- sA}l    sA}il   Nall    questioner;petitioner
@@ -583,7 +584,8 @@ lexicon = listing "Lexicon's properties"
     -- <nsHAb  {inosiHAb       NduAt   withdrawal;evacuation;pulling out
     -- AnsHAb  {inosiHAb       NduAt   withdrawal;evacuation;pulling out
 
-    InFiCAL                   `noun`    {- AinosiHAb -}        [ "withdrawal", "evacuation", "pulling out" ],
+    InFiCAL                   `noun`    {- AinosiHAb -}        [ "withdrawal", "evacuation", "pulling out" ]
+                              `plural`     InFiCAL |< At,
 
     -- ;; sAHib_1
     -- sAHb    sAHib   N       drawer (of bill of exchange)
@@ -824,7 +826,8 @@ lexicon = listing "Lexicon's properties"
     -- <nsHAq  {inosiHAq       NduAt   contrition;repentance
     -- AnsHAq  {inosiHAq       NduAt   contrition;repentance
 
-    InFiCAL                   `noun`    {- AinosiHAq -}        [ "contrition", "repentance" ],
+    InFiCAL                   `noun`    {- AinosiHAq -}        [ "contrition", "repentance" ]
+                              `plural`     InFiCAL |< At,
 
     -- ;; sAHiq_1
     -- sAHq    sAHiq   N-ap    overwhelming;crushing     [[sAHiq/ADJ]]
@@ -1000,8 +1003,8 @@ lexicon = listing "Lexicon's properties"
     -- sHAyA   saHAyA  N0_Nhy  meninges
 
     FiCAL |< aT               `noun`    {- siHAyap -}          [ "meninx", "meninges" ]
-                              `plural`     FaCAyA
-                           {- `others`  [ "sa.hAyA N0_Nhy" ] -},
+                              `plural`     FaCALY
+                           {- `others`  [ "sa.hAyY N0_Nhy" ] -},
 
     -- ;; siHA}iy~_1
     -- sHA}y   siHA}iy~        N-ap    meningeal;meningitis     [[siHA}iy~/ADJ]]
@@ -1094,7 +1097,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasoTiyH_1
     -- tsTyH   tasoTiyH        NduAt   leveling;grading
 
-    TaFCIL                    `noun`    {- tasoTiyH -}         [ "leveling", "grading" ],
+    TaFCIL                    `noun`    {- tasoTiyH -}         [ "leveling", "grading" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; musaT~aH_1
     -- msTH    musaT~aH        Nall    level plane;flat
@@ -1253,12 +1257,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; misoTAr_1
     -- msTAr   misoTAr NduAt   trowel
 
-    MiFCAL                    `noun`    {- misoTAr -}          [ "trowel" ],
+    MiFCAL                    `noun`    {- misoTAr -}          [ "trowel" ]
+                              `plural`     MiFCAL |< At,
 
     -- ;; tasoTiyr_1
     -- tsTyr   tasoTiyr        NduAt   jotting down;outlining
 
-    TaFCIL                    `noun`    {- tasoTiyr -}         [ "jotting down", "outlining" ],
+    TaFCIL                    `noun`    {- tasoTiyr -}         [ "jotting down", "outlining" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; musaT~ar_1
     -- msTr    musaT~ar        N-ap    note paper;document
@@ -1290,6 +1296,13 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- saTowap -}          [ "assault", "assaults" ]
                               `plural`     FaCaL |< At ]
+
+ |> "s .t y" <| [
+
+    -- ;; siTAt_1
+    -- sTAt    siTAt   Nprop   Settat
+
+    FiC |< At                 `noun`    {- siTAt -}            [ "Settat" ] ]
 
  |> "s ^g .h" <| [
 
@@ -1463,7 +1476,8 @@ lexicon = listing "Lexicon's properties"
     -- tsjyl   tasojiyl        NduAt   registration;recording;documentation
     -- tsjyl   tasojiyl        NAt     records;documents
 
-    TaFCIL                    `noun`    {- tasojiyl -}         [ "registration", "recording", "documentation", "records", "documents" ],
+    TaFCIL                    `noun`    {- tasojiyl -}         [ "registration", "recording", "documentation", "records", "documents" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; tasojiyliy~_1
     -- tsjyly  tasojiyliy~     N-ap    documentary     [[tasojiyliy~/ADJ]]
@@ -1490,7 +1504,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; musaj~il_2
     -- msjl    musaj~il        NduAt   tape recorder
 
-    MuFaCCiL                  `noun`    {- musaj~il -}         [ "tape recorder" ],
+    MuFaCCiL                  `noun`    {- musaj~il -}         [ "tape recorder" ]
+                              `plural`     MuFaCCiL |< At,
 
     -- ;; musaj~al_1
     -- msjl    musaj~al        N/ap    registered;recorded     [[musaj~al/ADJ]]
@@ -1527,7 +1542,8 @@ lexicon = listing "Lexicon's properties"
     -- <nsjAm  {inosijAm       NduAt   fluency;harmony
     -- AnsjAm  {inosijAm       NduAt   fluency;harmony
 
-    InFiCAL                   `noun`    {- AinosijAm -}        [ "fluency", "harmony" ],
+    InFiCAL                   `noun`    {- AinosijAm -}        [ "fluency", "harmony" ]
+                              `plural`     InFiCAL |< At,
 
     -- ;; munosajim_1
     -- mnsjm   munosajim       Nall    harmonious     [[munosajim/ADJ]]
@@ -1612,7 +1628,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; siyjAr_1
     -- syjAr   siyjAr  NduAt   cigar
 
-    FICAL                     `noun`    {- siyjAr -}           [ "cigar" ],
+    FICAL                     `noun`    {- siyjAr -}           [ "cigar" ]
+                              `plural`     FICAL |< At,
 
     -- ;; siyjArap_1
     -- syjAr   siyjAr  Napdu   cigarette
@@ -1675,7 +1692,8 @@ lexicon = listing "Lexicon's properties"
     -- sAj     sAj     Nuwn_Niyn       quiet;tranquil
     -- sAjy    sAjiy   NapAt   quiet;tranquil
 
-    FACI                      `adj`     {- sAjiy -}            [ "quiet", "tranquil" ],
+    FACI                      `adj`     {- sAjiy -}            [ "quiet", "tranquil" ]
+                              `plural`     FACI |< At,
 
     -- ;; musaj~aY_1
     -- msjY    musaj~aY        N0      shrouded;laid out     [[musaj~aY/ADJ]]
@@ -1692,8 +1710,8 @@ lexicon = listing "Lexicon's properties"
     -- sjAyA   sajAyA  N0_Nhy  characteristics;traits
 
     FaCIL |< aT               `noun`    {- sajiy~ap -}         [ "natural disposition", "character trait", "characteristics", "traits" ]
-                              `plural`     FaCAyA
-                           {- `others`  [ "sa^gAyA N0_Nhy" ] -},
+                              `plural`     FaCALY
+                           {- `others`  [ "sa^gAyY N0_Nhy" ] -},
 
     -- ;; sAjiy_1
     -- sAjy    sAjiy   N0F     quiet;tranquil     [[sAjiy/ADJ]]
@@ -1702,7 +1720,8 @@ lexicon = listing "Lexicon's properties"
     -- sAj     sAj     Nuwn_Niyn       quiet;tranquil
     -- sAjy    sAjiy   NapAt   quiet;tranquil
 
-    FACI                      `adj`     {- sAjiy -}            [ "quiet", "tranquil" ] ]
+    FACI                      `adj`     {- sAjiy -}            [ "quiet", "tranquil" ]
+                              `plural`     FACI |< At ]
 
  |> "s _d ^g" <| [
 
@@ -1799,7 +1818,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasax~uT_1
     -- tsxT    tasax~uT        NduAt   displeasure
 
-    TaFaCCuL                  `noun`    {- tasax~uT -}         [ "displeasure" ] ]
+    TaFaCCuL                  `noun`    {- tasax~uT -}         [ "displeasure" ]
+                              `plural`     TaFaCCuL |< At ]
 
  |> "s _h d" <| [
 
@@ -1998,7 +2018,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasoxiyr_1
     -- tsxyr   tasoxiyr        NduAt   exploitation
 
-    TaFCIL                    `noun`    {- tasoxiyr -}         [ "exploitation" ],
+    TaFCIL                    `noun`    {- tasoxiyr -}         [ "exploitation" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; sAxir_1
     -- sAxr    sAxir   Nall    joker;satirical     [[sAxir/ADJ]]
@@ -2348,7 +2369,8 @@ lexicon = listing "Lexicon's properties"
     -- <sEAf   <isoEAf NduAt   assistance;medical service;first aid
     -- AsEAf   <isoEAf NduAt   assistance;medical service;first aid
 
-    HiFCAL                    `noun`    {- IisoEAf -}          [ "assistance", "medical service", "first aid" ] ]
+    HiFCAL                    `noun`    {- IisoEAf -}          [ "assistance", "medical service", "first aid" ]
+                              `plural`     HiFCAL |< At ]
 
  |> "s ` l" <| [
 
@@ -2378,6 +2400,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCLY                     `noun`    {- siEolaY -}          [ "female demon", "female demons" ]
                               `plural`     FaCALI
+                              `plural`     FiCLY |< At
                            {- `others`  [ "sa`Aliy N0_Nh" ] -} ]
 
  |> "s ` n" <| [
@@ -2504,7 +2527,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasoEiyr_1
     -- tsEyr   tasoEiyr        NduAt   price fixing
 
-    TaFCIL                    `noun`    {- tasoEiyr -}         [ "price fixing" ],
+    TaFCIL                    `noun`    {- tasoEiyr -}         [ "price fixing" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; tasoEiyrap_1
     -- tsEyr   tasoEiyr        NapAt   price fixing
@@ -2589,7 +2613,8 @@ lexicon = listing "Lexicon's properties"
     -- sAE     sAE     Nuwn_Niyn       messenger;delivery boy;slanderer
     -- sAEy    sAEiy   NapAt   messenger;delivery boy;slanderer
 
-    FACI                      `noun`    {- sAEiy -}            [ "messenger", "delivery boy", "slanderer" ] ]
+    FACI                      `noun`    {- sAEiy -}            [ "messenger", "delivery boy", "slanderer" ]
+                              `plural`     FACI |< At ]
 
  |> "s b '" <| [
 
@@ -2707,6 +2732,7 @@ lexicon = listing "Lexicon's properties"
     -- tsAbyH  tasAbiyH        Ndip    hymns
 
     TaFCIL                    `noun`    {- tasobiyH -}         [ "glorification of God", "hymn", "hymns" ]
+                              `plural`     TaFCIL |< At
                               `plural`     TaFACIL
                            {- `others`  [ "tasAbiy.h Ndip" ] -},
 
@@ -2860,7 +2886,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasobiyx_1
     -- tsbyx   tasobiyx        NduAt   deep sleep;coma
 
-    TaFCIL                    `noun`    {- tasobiyx -}         [ "deep sleep", "coma" ] ]
+    TaFCIL                    `noun`    {- tasobiyx -}         [ "deep sleep", "coma" ]
+                              `plural`     TaFCIL |< At ]
 
  |> "s b `" <| [
 
@@ -2930,7 +2957,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; saboEiyn_1
     -- sbEyn   saboEiyn        NAt     seventies
 
-    KaRDIS                    `noun`    {- saboEiyn -}         [ "seventies" ],
+    KaRDIS                    `noun`    {- saboEiyn -}         [ "seventies" ]
+                              `plural`     KaRDIS |< At,
 
     -- ;; saboEiyniy~_1
     -- sbEyny  saboEiyniy~     NAt     seventies     [[saboEiyniy~/NOUN]]
@@ -3049,7 +3077,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasobiyb_1
     -- tsbyb   tasobiyb        NduAt   causation
 
-    TaFCIL                    `noun`    {- tasobiyb -}         [ "causation" ],
+    TaFCIL                    `noun`    {- tasobiyb -}         [ "causation" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; sibAb_1
     -- sbAb    sibAb   N       abuse;revilement
@@ -3155,7 +3184,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasobiyk_1
     -- tsbyk   tasobiyk        NduAt   stewing
 
-    TaFCIL                    `noun`    {- tasobiyk -}         [ "stewing" ],
+    TaFCIL                    `noun`    {- tasobiyk -}         [ "stewing" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; masobuwkAt_1
     -- msbwk   masobuwk        NAt     foundry products
@@ -3314,12 +3344,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasobiyq_1
     -- tsbyq   tasobiyq        NduAt   advance payment
 
-    TaFCIL                    `noun`    {- tasobiyq -}         [ "advance payment" ],
+    TaFCIL                    `noun`    {- tasobiyq -}         [ "advance payment" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; sibAq_1
     -- sbAq    sibAq   NduAt   race;competition
 
-    FiCAL                     `noun`    {- sibAq -}            [ "race", "competition" ],
+    FiCAL                     `noun`    {- sibAq -}            [ "race", "competition" ]
+                              `plural`     FiCAL |< At,
 
     -- ;; musAbaqap_1
     -- msAbq   musAbaq NapAt   race;competition
@@ -3329,7 +3361,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasAbuq_1
     -- tsAbq   tasAbuq NduAt   race;competition
 
-    TaFACuL                   `noun`    {- tasAbuq -}          [ "race", "competition" ],
+    TaFACuL                   `noun`    {- tasAbuq -}          [ "race", "competition" ]
+                              `plural`     TaFACuL |< At,
 
     -- ;; {isotibAq_1
     -- <stbAq  {isotibAq       N       hastening;hurrying;pushing forward;competing;racing
@@ -3521,6 +3554,7 @@ lexicon = listing "Lexicon's properties"
     -- Asbt    >asobit Nap     baskets
 
     FaCaL                     `noun`    {- sabat -}            [ "basket", "baskets" ]
+                              `plural`     FaCaL |< At
                               `plural`     HaFCiL |< aT,
 
     -- ;; sabotap_1
@@ -3530,6 +3564,11 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- sabotap -}          [ "Ceuta" ] ]
 
  |> "s b y" <| [
+
+    -- ;; subAt_1
+    -- sbAt    subAt   N       lethargy;slumber
+
+    FuC |< At                 `noun`    {- subAt -}            [ "lethargy", "slumber" ],
 
     -- ;; sabaY-i_1
     -- sbY     sabaY   PV_0    capture;captivate
@@ -3568,8 +3607,8 @@ lexicon = listing "Lexicon's properties"
     -- sbAyA   sabAyA  N0_Nhy  captives;prisoners
 
     FaCIL                     `noun`    {- sabiy~ -}           [ "captive", "prisoner", "captives", "prisoners" ]
-                              `plural`     FaCAyA
-                           {- `others`  [ "sabAyA N0_Nhy" ] -} ]
+                              `plural`     FaCALY
+                           {- `others`  [ "sabAyY N0_Nhy" ] -} ]
 
  |> "s b y s" <| [
 
@@ -3738,12 +3777,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasodiyd_1
     -- tsdyd   tasodiyd        NduAt   payment;paying
 
-    TaFCIL                    `noun`    {- tasodiyd -}         [ "payment", "paying" ],
+    TaFCIL                    `noun`    {- tasodiyd -}         [ "payment", "paying" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; tasodiyd_2
     -- tsdyd   tasodiyd        NduAt   aiming;shooting
 
-    TaFCIL                    `noun`    {- tasodiyd -}         [ "aiming", "shooting" ],
+    TaFCIL                    `noun`    {- tasodiyd -}         [ "aiming", "shooting" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; tasodiydap_1
     -- tsdyd   tasodiyd        Nap     shot
@@ -3754,13 +3795,15 @@ lexicon = listing "Lexicon's properties"
     -- <nsdAd  {inosidAd       NduAt   obstruction
     -- AnsdAd  {inosidAd       NduAt   obstruction
 
-    InFiCAL                   `noun`    {- AinosidAd -}        [ "obstruction" ],
+    InFiCAL                   `noun`    {- AinosidAd -}        [ "obstruction" ]
+                              `plural`     InFiCAL |< At,
 
     -- ;; {inosidAd_2
     -- <nsdAd  {inosidAd       NduAt   embolism
     -- AnsdAd  {inosidAd       NduAt   embolism
 
-    InFiCAL                   `noun`    {- AinosidAd -}        [ "embolism" ],
+    InFiCAL                   `noun`    {- AinosidAd -}        [ "embolism" ]
+                              `plural`     InFiCAL |< At,
 
     -- ;; sAd~_1
     -- sAd     sAd~    N-ap    obstructive     [[sAd~/ADJ]]
@@ -3916,6 +3959,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- sidor -}            [ "lotus tree", "lotus trees" ]
                               `plural`     FuCUL
+                              `plural`     FiCL |< At
                            {- `others`  [ "suduwr N" ] -},
 
     -- ;; sidorap_1
@@ -3976,7 +4020,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; musad~as_1
     -- msds    musad~as        NduAt   revolver;pistol;six-shooter
 
-    MuFaCCaL                  `noun`    {- musad~as -}         [ "revolver", "pistol", "six-shooter" ],
+    MuFaCCaL                  `noun`    {- musad~as -}         [ "revolver", "pistol", "six-shooter" ]
+                              `plural`     MuFaCCaL |< At,
 
     -- ;; musad~asap_1
     -- msds    musad~as        Napdu   revolver;pistol;six-shooter
@@ -4204,7 +4249,8 @@ lexicon = listing "Lexicon's properties"
     -- <sfAf   <isofAf NduAt   triviality;decline
     -- AsfAf   <isofAf NduAt   triviality;decline
 
-    HiFCAL                    `noun`    {- IisofAf -}          [ "triviality", "decline" ] ]
+    HiFCAL                    `noun`    {- IisofAf -}          [ "triviality", "decline" ]
+                              `plural`     HiFCAL |< At ]
 
  |> "s f h" <| [
 
@@ -4351,8 +4397,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oasofal -}          [ "lower/lowest", "underneath" ]
                               `plural`     HaFACiL
-                              `plural`     FuCLY
-                           {- `others`  [ "'asAfil Ndip", "suflY N0" ] -},
+                              `plural`     FuCLY |< At
+                           {- `others`  [ "'asAfil Ndip", "suflY N0 NAn_Nayn" ] -},
 
     -- ;; sAfil_1
     -- sAfl    sAfil   Nall    lowly;base     [[sAfil/ADJ]]
@@ -4692,7 +4738,8 @@ lexicon = listing "Lexicon's properties"
     -- <shAb   <isohAb NduAt   elaboration;detail
     -- AshAb   <isohAb NduAt   elaboration;detail
 
-    HiFCAL                    `noun`    {- IisohAb -}          [ "elaboration", "detail" ],
+    HiFCAL                    `noun`    {- IisohAb -}          [ "elaboration", "detail" ]
+                              `plural`     HiFCAL |< At,
 
     -- ;; musohib_1
     -- mshb    musohib Nall    elaborate;detailed     [[musohib/ADJ]]
@@ -4840,7 +4887,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasohiyl_1
     -- tshyl   tasohiyl        NduAt   facilitation;assistance
 
-    TaFCIL                    `noun`    {- tasohiyl -}         [ "facilitation", "assistance" ],
+    TaFCIL                    `noun`    {- tasohiyl -}         [ "facilitation", "assistance" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; <isohAl_1
     -- <shAl   <isohAl N       diarrhea
@@ -4851,12 +4899,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasAhul_1
     -- tsAhl   tasAhul NduAt   indulgence;tolerance
 
-    TaFACuL                   `noun`    {- tasAhul -}          [ "indulgence", "tolerance" ],
+    TaFACuL                   `noun`    {- tasAhul -}          [ "indulgence", "tolerance" ]
+                              `plural`     TaFACuL |< At,
 
     -- ;; musohil_1
     -- mshl    musohil N/At    purgative;laxative
 
-    MuFCiL                    `noun`    {- musohil -}          [ "purgative", "laxative" ],
+    MuFCiL                    `noun`    {- musohil -}          [ "purgative", "laxative" ]
+                              `plural`     MuFCiL |< At,
 
     -- ;; mutasAhil_1
     -- mtsAhl  mutasAhil       Nall    indulgent;tolerant     [[mutasAhil/ADJ]]
@@ -4925,7 +4975,8 @@ lexicon = listing "Lexicon's properties"
     -- <shAm   <isohAm NduAt   participation;contribution
     -- AshAm   <isohAm NduAt   participation;contribution
 
-    HiFCAL                    `noun`    {- IisohAm -}          [ "participation", "contribution" ],
+    HiFCAL                    `noun`    {- IisohAm -}          [ "participation", "contribution" ]
+                              `plural`     HiFCAL |< At,
 
     -- ;; sAhim_1
     -- sAhm    sAhim   N/ap    serious;grave     [[sAhim/ADJ]]
@@ -5041,7 +5092,8 @@ lexicon = listing "Lexicon's properties"
     -- sAhy    sAhiy   NAn_Nayn        inattentive;forgetful
     -- sAhy    sAhiy   NapAt   inattentive;forgetful
 
-    FACI                      `adj`     {- sAhiy -}            [ "inattentive", "forgetful" ] ]
+    FACI                      `adj`     {- sAhiy -}            [ "inattentive", "forgetful" ]
+                              `plural`     FACI |< At ]
 
  |> "s h y" <| [
 
@@ -5051,7 +5103,8 @@ lexicon = listing "Lexicon's properties"
     -- sAhy    sAhiy   NAn_Nayn        inattentive;forgetful
     -- sAhy    sAhiy   NapAt   inattentive;forgetful
 
-    FACI                      `adj`     {- sAhiy -}            [ "inattentive", "forgetful" ] ]
+    FACI                      `adj`     {- sAhiy -}            [ "inattentive", "forgetful" ]
+                              `plural`     FACI |< At ]
 
  |> "s k `" <| [
 
@@ -5064,7 +5117,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasak~uE_1
     -- tskE    tasak~uE        N/At    loitering;wandering;fumbling;groping
 
-    TaFaCCuL                  `noun`    {- tasak~uE -}         [ "loitering", "wandering", "fumbling", "groping" ] ]
+    TaFaCCuL                  `noun`    {- tasak~uE -}         [ "loitering", "wandering", "fumbling", "groping" ]
+                              `plural`     TaFaCCuL |< At ]
 
  |> "s k b" <| [
 
@@ -5114,7 +5168,8 @@ lexicon = listing "Lexicon's properties"
     -- <nskAb  {inosikAb       NduAt   effusion
     -- AnskAb  {inosikAb       NduAt   effusion
 
-    InFiCAL                   `noun`    {- AinosikAb -}        [ "effusion" ],
+    InFiCAL                   `noun`    {- AinosikAb -}        [ "effusion" ]
+                              `plural`     InFiCAL |< At,
 
     -- ;; sAkib_1
     -- sAkb    sAkib   N       pouring out     [[sAkib/ADJ]]
@@ -5159,7 +5214,8 @@ lexicon = listing "Lexicon's properties"
     -- <skAf   <isokAf NduAt   shoemaker;cobbler
     -- AskAf   <isokAf NduAt   shoemaker;cobbler
 
-    HiFCAL                    `noun`    {- IisokAf -}          [ "shoemaker", "cobbler" ],
+    HiFCAL                    `noun`    {- IisokAf -}          [ "shoemaker", "cobbler" ]
+                              `plural`     HiFCAL |< At,
 
     -- ;; <isokAfiy~_1
     -- <skAfy  <isokAfiy~      N-ap    shoemaker;cobbler     [[<isokAfiy~/ADJ]]
@@ -5227,7 +5283,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; suk~An_1
     -- skAn    suk~An  NduAt   rudder
 
-    FuCLAn                    `noun`    {- suk~An -}           [ "rudder" ],
+    FuCLAn                    `noun`    {- suk~An -}           [ "rudder" ]
+                              `plural`     FuCLAn |< At,
 
     -- ;; >asak~_1
     -- >sk     >asak~  Nel     deaf     [[>asak~/ADJ]]
@@ -5257,7 +5314,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; suk~An_1
     -- skAn    suk~An  NduAt   rudder
 
-    FuCCAL                    `noun`    {- suk~An -}           [ "rudder" ],
+    FuCCAL                    `noun`    {- suk~An -}           [ "rudder" ]
+                              `plural`     FuCCAL |< At,
 
     -- ;; sakan-u_1
     -- skn     sakan   PV-n_intr       be calm
@@ -5385,13 +5443,15 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasokiyn_1
     -- tskyn   tasokiyn        NduAt   pacification
 
-    TaFCIL                    `noun`    {- tasokiyn -}         [ "pacification" ],
+    TaFCIL                    `noun`    {- tasokiyn -}         [ "pacification" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; <isokAn_1
     -- <skAn   <isokAn NduAt   housing
     -- AskAn   <isokAn NduAt   housing
 
-    HiFCAL                    `noun`    {- IisokAn -}          [ "housing" ],
+    HiFCAL                    `noun`    {- IisokAn -}          [ "housing" ]
+                              `plural`     HiFCAL |< At,
 
     -- ;; sAkin_1
     -- sAkn    sAkin   Nall    residing     [[sAkin/ADJ]]
@@ -5424,7 +5484,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; musak~in_1
     -- mskn    musak~in        N/At    pacifier;sedative
 
-    MuFaCCiL                  `noun`    {- musak~in -}         [ "pacifier", "sedative" ],
+    MuFaCCiL                  `noun`    {- musak~in -}         [ "pacifier", "sedative" ]
+                              `plural`     MuFaCCiL |< At,
 
     -- ;; musAkin_1
     -- msAkn   musAkin Nall    neighbor
@@ -5492,7 +5553,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; musokir_1
     -- mskr    musokir N/At    alcoholic beverage
 
-    MuFCiL                    `noun`    {- musokir -}          [ "alcoholic beverage" ],
+    MuFCiL                    `noun`    {- musokir -}          [ "alcoholic beverage" ]
+                              `plural`     MuFCiL |< At,
 
     -- ;; suk~ar_1
     -- skr     suk~ar  N       sugar
@@ -5528,7 +5590,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; siykAr_1
     -- sykAr   siykAr  NduAt   cigar
 
-    FICAL                     `noun`    {- siykAr -}           [ "cigar" ],
+    FICAL                     `noun`    {- siykAr -}           [ "cigar" ]
+                              `plural`     FICAL |< At,
 
     -- ;; siykArap_1
     -- sykAr   siykAr  Napdu   cigarette
@@ -5565,7 +5628,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasakosuk_1
     -- tsksk   tasakosuk       NduAt   servility
 
-    TaKaRDuS                  `noun`    {- tasakosuk -}        [ "servility" ] ]
+    TaKaRDuS                  `noun`    {- tasakosuk -}        [ "servility" ]
+                              `plural`     TaKaRDuS |< At ]
 
  |> "s k s n" <| [
 
@@ -5636,6 +5700,11 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `adj`     {- sAkit -}            [ "silent", "calm" ] ]
 
  |> "s k y" <| [
+
+    -- ;; sukAt_1
+    -- skAt    sukAt   N       silence
+
+    FuC |< At                 `noun`    {- sukAt -}            [ "silence" ],
 
     -- ;; skiy_1
     -- sky     skiy    N0      ski
@@ -5727,12 +5796,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasoliyH_1
     -- tslyH   tasoliyH        NduAt   arming;armament;armoring
 
-    TaFCIL                    `noun`    {- tasoliyH -}         [ "arming", "armament", "armoring" ],
+    TaFCIL                    `noun`    {- tasoliyH -}         [ "arming", "armament", "armoring" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; tasal~uH_1
     -- tslH    tasal~uH        NduAt   armament;arms
 
-    TaFaCCuL                  `noun`    {- tasal~uH -}         [ "armament", "arms" ],
+    TaFaCCuL                  `noun`    {- tasal~uH -}         [ "armament", "arms" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; musal~iH_1
     -- mslH    musal~iH        N       armorer
@@ -5793,12 +5864,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasoliyT_1
     -- tslyT   tasoliyT        NduAt   imposition;exertion
 
-    TaFCIL                    `noun`    {- tasoliyT -}         [ "imposition", "exertion" ],
+    TaFCIL                    `noun`    {- tasoliyT -}         [ "imposition", "exertion" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; tasal~uT_1
     -- tslT    tasal~uT        NduAt   supremacy;dominion
 
-    TaFaCCuL                  `noun`    {- tasal~uT -}         [ "supremacy", "dominion" ],
+    TaFaCCuL                  `noun`    {- tasal~uT -}         [ "supremacy", "dominion" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; musal~iT_1
     -- mslT    musal~iT        Nall    controlling;prevailing;commanding     [[musal~iT/ADJ]]
@@ -6087,7 +6160,8 @@ lexicon = listing "Lexicon's properties"
     -- <stlAb  {isotilAb       NduAt   plundering
     -- AstlAb  {isotilAb       NduAt   plundering
 
-    IFtiCAL                   `noun`    {- AisotilAb -}        [ "plundering" ],
+    IFtiCAL                   `noun`    {- AisotilAb -}        [ "plundering" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; sAlib_1
     -- sAlb    sAlib   N/ap    negative     [[sAlib/ADJ]]
@@ -6217,7 +6291,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasoliyf_1
     -- tslyf   tasoliyf        NduAt   credit;cash advance
 
-    TaFCIL                    `noun`    {- tasoliyf -}         [ "credit", "cash advance" ],
+    TaFCIL                    `noun`    {- tasoliyf -}         [ "credit", "cash advance" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; tasoliyfap_1
     -- tslyf   tasoliyf        Napdu   credit;loan
@@ -6351,7 +6426,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasoliyk_1
     -- tslyk   tasoliyk        NduAt   cleaning;clearing
 
-    TaFCIL                    `noun`    {- tasoliyk -}         [ "cleaning", "clearing" ],
+    TaFCIL                    `noun`    {- tasoliyk -}         [ "cleaning", "clearing" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; sAlik_1
     -- sAlk    sAlik   Nall    passable;unobstructed     [[sAlik/ADJ]]
@@ -6460,13 +6536,15 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasal~ul_1
     -- tsll    tasal~ul        NduAt   infiltration
 
-    TaFaCCuL                  `noun`    {- tasal~ul -}         [ "infiltration" ],
+    TaFaCCuL                  `noun`    {- tasal~ul -}         [ "infiltration" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; {inosilAl_1
     -- <nslAl  {inosilAl       NduAt   infiltration
     -- AnslAl  {inosilAl       NduAt   infiltration
 
-    InFiCAL                   `noun`    {- AinosilAl -}        [ "infiltration" ],
+    InFiCAL                   `noun`    {- AinosilAl -}        [ "infiltration" ]
+                              `plural`     InFiCAL |< At,
 
     -- ;; masoluwl_1
     -- mslwl   masoluwl        Nall    tuberculous     [[masoluwl/ADJ]]
@@ -6600,7 +6678,8 @@ lexicon = listing "Lexicon's properties"
     -- slAm    salAm   N       greeting;salute;salutation
     -- slAm    salAm   NAt     greetings;salutations
 
-    FaCAL                     `noun`    {- salAm -}            [ "greeting", "salute", "salutation", "greetings", "salutations" ],
+    FaCAL                     `noun`    {- salAm -}            [ "greeting", "salute", "salutation", "greetings", "salutations" ]
+                              `plural`     FaCAL |< At,
 
     -- ;; salAmap_1
     -- slAm    salAm   Nap     security;safety;integrity
@@ -6663,7 +6742,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasoliym_1
     -- tslym   tasoliym        NduAt   handing over;delivery;surrender
 
-    TaFCIL                    `noun`    {- tasoliym -}         [ "handing over", "delivery", "surrender" ],
+    TaFCIL                    `noun`    {- tasoliym -}         [ "handing over", "delivery", "surrender" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; musAlamap_1
     -- msAlm   musAlam NapAt   conciliation;benign nature
@@ -6687,19 +6767,22 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasal~um_1
     -- tslm    tasal~um        NduAt   receipt;taking over
 
-    TaFaCCuL                  `noun`    {- tasal~um -}         [ "receipt", "taking over" ],
+    TaFaCCuL                  `noun`    {- tasal~um -}         [ "receipt", "taking over" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; {isotilAm_1
     -- <stlAm  {isotilAm       NduAt   receipt;assumption
     -- AstlAm  {isotilAm       NduAt   receipt;assumption
 
-    IFtiCAL                   `noun`    {- AisotilAm -}        [ "receipt", "assumption" ],
+    IFtiCAL                   `noun`    {- AisotilAm -}        [ "receipt", "assumption" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; {isotisolAm_1
     -- <stslAm {isotisolAm     NduAt   surrender;capitulation;resignation
     -- AstslAm {isotisolAm     NduAt   surrender;capitulation;resignation
 
-    IstiFCAL                  `noun`    {- AisotisolAm -}      [ "surrender", "capitulation", "resignation" ],
+    IstiFCAL                  `noun`    {- AisotisolAm -}      [ "surrender", "capitulation", "resignation" ]
+                              `plural`     IstiFCAL |< At,
 
     -- ;; sAlim_1
     -- sAlm    sAlim   Nall    secure;sound;intact
@@ -6720,7 +6803,8 @@ lexicon = listing "Lexicon's properties"
     -- mslm    musal~am        N-ap    granted;obvious     [[musal~am/ADJ]]
     -- mslm    musal~am        NAt     assumptions;givens
 
-    MuFaCCaL                  `adj`     {- musal~am -}         [ "granted", "obvious", "assumptions", "givens" ],
+    MuFaCCaL                  `adj`     {- musal~am -}         [ "granted", "obvious", "assumptions", "givens" ]
+                              `plural`     MuFaCCaL |< At,
 
     -- ;; musolim_1
     -- mslm    musolim Nall    Muslim     [[musolim/NOUN]]
@@ -6809,7 +6893,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasal~uq_1
     -- tslq    tasal~uq        NduAt   climbing;scaling
 
-    TaFaCCuL                  `noun`    {- tasal~uq -}         [ "climbing", "scaling" ],
+    TaFaCCuL                  `noun`    {- tasal~uq -}         [ "climbing", "scaling" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; masoluwq_1
     -- mslwq   masoluwq        N/ap    cooked;boiled     [[masoluwq/ADJ]]
@@ -6904,7 +6989,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasalosul_1
     -- tslsl   tasalosul       NduAt   continuity;sequence
 
-    TaKaRDuS                  `noun`    {- tasalosul -}        [ "continuity", "sequence" ],
+    TaKaRDuS                  `noun`    {- tasalosul -}        [ "continuity", "sequence" ]
+                              `plural`     TaKaRDuS |< At,
 
     -- ;; musalosal_1
     -- mslsl   musalosal       N/ap    serial;sequence
@@ -6975,7 +7061,8 @@ lexicon = listing "Lexicon's properties"
     -- msl     musal~  Nuwn_Niyn       entertaining;comforting
     -- msly    musal~iy        NapAt   entertaining;comforting
 
-    MuFaCCI                   `adj`     {- musal~iy -}         [ "entertaining", "comforting" ],
+    MuFaCCI                   `adj`     {- musal~iy -}         [ "entertaining", "comforting" ]
+                              `plural`     MuFaCCI |< At,
 
     -- ;; salowap_1
     -- slw     salow   Nap     consolation;entertainment
@@ -7036,7 +7123,8 @@ lexicon = listing "Lexicon's properties"
     -- msl     musal~  Nuwn_Niyn       entertaining;comforting
     -- msly    musal~iy        NapAt   entertaining;comforting
 
-    MuFaCCI                   `adj`     {- musal~iy -}         [ "entertaining", "comforting" ],
+    MuFaCCI                   `adj`     {- musal~iy -}         [ "entertaining", "comforting" ]
+                              `plural`     MuFaCCI |< At,
 
     -- ;; saliy-a_1
     -- sly     saliy   PV_no-w forget;get rid of
@@ -7185,7 +7273,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasAmuH_1
     -- tsAmH   tasAmuH NduAt   tolerance
 
-    TaFACuL                   `noun`    {- tasAmuH -}          [ "tolerance" ],
+    TaFACuL                   `noun`    {- tasAmuH -}          [ "tolerance" ]
+                              `plural`     TaFACuL |< At,
 
     -- ;; sAmiH_1
     -- sAmH    sAmiH   N0      Samih
@@ -7196,7 +7285,8 @@ lexicon = listing "Lexicon's properties"
     -- msmwH   masomuwH        N-ap    permissible;permitted     [[masomuwH/ADJ]]
     -- msmwH   masomuwH        NAt     prerogatives;privileges
 
-    MaFCUL                    `adj`     {- masomuwH -}         [ "permissible", "permitted", "prerogatives", "privileges" ],
+    MaFCUL                    `adj`     {- masomuwH -}         [ "permissible", "permitted", "prerogatives", "privileges" ]
+                              `plural`     MaFCUL |< At,
 
     -- ;; mutasAmiH_1
     -- mtsAmH  mutasAmiH       Nall    tolerant;indulgent     [[mutasAmiH/ADJ]]
@@ -7237,6 +7327,7 @@ lexicon = listing "Lexicon's properties"
     -- AsmT    >asomiT Nap     meals;table cloth
 
     FiCAL                     `noun`    {- simAT -}            [ "meal", "table cloth", "meals" ]
+                              `plural`     FiCAL |< At
                               `plural`     FuCuL
                               `plural`     HaFCiL |< aT
                            {- `others`  [ "sumu.t N" ] -},
@@ -7397,13 +7488,15 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasam~uE_1
     -- tsmE    tasam~uE        NduAt   auscultation (listening with a stethoscope)
 
-    TaFaCCuL                  `noun`    {- tasam~uE -}         [ "auscultation (listening with a stethoscope)" ],
+    TaFaCCuL                  `noun`    {- tasam~uE -}         [ "auscultation (listening with a stethoscope)" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; {isotimAE_1
     -- AstmAE  {isotimAE       NduAt   listening
     -- <stmAE  {isotimAE       NduAt   listening
 
-    IFtiCAL                   `noun`    {- AisotimAE -}        [ "listening" ],
+    IFtiCAL                   `noun`    {- AisotimAE -}        [ "listening" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; sAmiE_1
     -- sAmE    sAmiE   Nall    hearer;listener
@@ -7462,7 +7555,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasomiyd_1
     -- tsmyd   tasomiyd        NduAt   fertilizing
 
-    TaFCIL                    `noun`    {- tasomiyd -}         [ "fertilizing" ],
+    TaFCIL                    `noun`    {- tasomiyd -}         [ "fertilizing" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; sAmid_1
     -- sAmd    sAmid   N       erect     [[sAmid/ADJ]]
@@ -7472,7 +7566,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; musam~id_1
     -- msmd    musam~id        NduAt   fertilizer
 
-    MuFaCCiL                  `noun`    {- musam~id -}         [ "fertilizer" ],
+    MuFaCCiL                  `noun`    {- musam~id -}         [ "fertilizer" ]
+                              `plural`     MuFaCCiL |< At,
 
     -- ;; samiyd_1
     -- smyd    samiyd  N       semolina
@@ -7700,7 +7795,8 @@ lexicon = listing "Lexicon's properties"
     -- msAm    masAm~  Ndip    pores
     -- msAm    masAm~  NAt     pores
 
-    MaFACL                    `noun`    {- masAm~ -}           [ "pores" ],
+    MaFACL                    `noun`    {- masAm~ -}           [ "pores" ]
+                              `plural`     MaFACL |< At,
 
     -- ;; masAm~iy~_1
     -- msAmy   masAm~iy~       N-ap    porous     [[masAm~iy~/ADJ]]
@@ -7715,7 +7811,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasam~um_1
     -- tsmm    tasam~um        NduAt   poisoning
 
-    TaFaCCuL                  `noun`    {- tasam~um -}         [ "poisoning" ],
+    TaFaCCuL                  `noun`    {- tasam~um -}         [ "poisoning" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; sAm~_1
     -- sAm     sAm~    N-ap    poisonous;toxic     [[sAm~/ADJ]]
@@ -7796,7 +7893,8 @@ lexicon = listing "Lexicon's properties"
     -- smAnA   sumAnA  Napdu   quail
     -- smAny   sumAnay NAt     quail
 
-    FuCALY                    `noun`    {- sumAnaY -}          [ "quail" ] ]
+    FuCALY                    `noun`    {- sumAnaY -}          [ "quail" ]
+                              `plural`     FuCALY |< At ]
 
  |> "s m n t" <| [
 
@@ -7940,6 +8038,7 @@ lexicon = listing "Lexicon's properties"
     -- smry    samoray NAt     brown;tawny;tanned;brown-skinned;dark-complectioned
 
     HaFCaL                    `noun`    {- Oasomar -}          [ "brown", "tawny", "tanned", "brown-skinned", "dark-complectioned" ]
+                              `plural`     FaCLY |< At
                               `plural`     FaCLA'
                               `plural`     FuCL
                            {- `others`  [ "samrA' Nh N0_Nh Nhy", "sumr N" ] -},
@@ -8222,7 +8321,8 @@ lexicon = listing "Lexicon's properties"
     -- smA     samA    Nap     exalted;sublime
 
     FACI                      `adj`     {- sAmiy -}            [ "exalted", "sublime" ]
-                              `plural`     FaCY |< aT,
+                              `plural`     FaCY |< aT
+                              `plural`     FACI |< At,
 
     -- ;; musam~aY_1
     -- msmY    musam~aY        N0      called;named     [[musam~aY/ADJ]]
@@ -8232,7 +8332,14 @@ lexicon = listing "Lexicon's properties"
     -- msmy    musam~ay        NAt     called;named
     -- msmA    musam~A Napdu   called;named
 
-    MuFaCCY                   `adj`     {- musam~aY -}         [ "called", "named" ] ]
+    MuFaCCY                   `adj`     {- musam~aY -}         [ "called", "named" ]
+                              `plural`     MuFaCCY |< At,
+
+    -- ;; musam~ayAt_1
+    -- msmy    musam~ay        NAt     titles;names
+
+    MuFaCCY |< At             `noun`    {- musam~ayAt -}       [ "titles", "names" ]
+                              `plural`     MuFaCCY |< At ]
 
  |> "s m w y" <| [
 
@@ -8277,13 +8384,8 @@ lexicon = listing "Lexicon's properties"
     -- smA     samA    Nap     exalted;sublime
 
     FACI                      `adj`     {- sAmiy -}            [ "exalted", "sublime" ]
-                              `plural`     FaCY |< aT,
-
-    -- ;; musam~ayAt_1
-    -- msmy    musam~ay        NAt     titles;names
-
-    MuFaCCaL |< At            `noun`    {- musam~ayAt -}       [ "titles", "names" ]
-                              `plural`     MuFaCCaL |< At ]
+                              `plural`     FaCY |< aT
+                              `plural`     FACI |< At ]
 
  |> "s n '" <| [
 
@@ -8543,13 +8645,15 @@ lexicon = listing "Lexicon's properties"
     -- AsnAd   >asonAd N       ascription;chain of authority
 
     FaCaL                     `noun`    {- sanad -}            [ "support", "ascription", "chain of authority" ]
+                              `plural`     FaCaL |< At
                               `plural`     HaFCAL
                            {- `others`  [ "'asnAd N" ] -},
 
     -- ;; sanad_2
     -- snd     sanad   N/At    bond;security;voucher
 
-    FaCaL                     `noun`    {- sanad -}            [ "bond", "security", "voucher" ],
+    FaCaL                     `noun`    {- sanad -}            [ "bond", "security", "voucher" ]
+                              `plural`     FaCaL |< At,
 
     -- ;; misonad_1
     -- msnd    misonad N       prop;support
@@ -8578,7 +8682,8 @@ lexicon = listing "Lexicon's properties"
     -- <stnAd  {isotinAd       NduAt   dependence
     -- AstnAd  {isotinAd       NduAt   dependence
 
-    IFtiCAL                   `noun`    {- AisotinAd -}        [ "dependence" ],
+    IFtiCAL                   `noun`    {- AisotinAd -}        [ "dependence" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; {isotinAdAF_1
     -- <stnAd  {isotinAd       NF      on the basis of;according to     [[{isotinAd/ADV]]
@@ -8717,7 +8822,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasan~um_1
     -- tsnm    tasan~um        NduAt   accession to the throne
 
-    TaFaCCuL                  `noun`    {- tasan~um -}         [ "accession to the throne" ],
+    TaFaCCuL                  `noun`    {- tasan~um -}         [ "accession to the throne" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; musan~am_1
     -- msnm    musan~am        N-ap    vaulted;convex;arched
@@ -8828,13 +8934,15 @@ lexicon = listing "Lexicon's properties"
     -- msAn    masAn~  Ndip    grindstones
 
     MiFaCL                    `noun`    {- misan~ -}           [ "grindstone", "grindstones" ]
+                              `plural`     MiFaCL |< At
                               `plural`     MaFACL
                            {- `others`  [ "masAnn Ndip" ] -},
 
     -- ;; tasoniyn_1
     -- tsnyn   tasoniyn        NduAt   teething
 
-    TaFCIL                    `noun`    {- tasoniyn -}         [ "teething" ],
+    TaFCIL                    `noun`    {- tasoniyn -}         [ "teething" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; masonuwn_1
     -- msnwn   masonuwn        N-ap    sanctioned by law and custom     [[masonuwn/ADJ]]
@@ -8863,7 +8971,14 @@ lexicon = listing "Lexicon's properties"
     -- sn      sin     Nuwn_Niyn       years
 
     FaL |< aT                 `noun`    {- sanap -}            [ "year", "years" ]
-                              `plural`     FiL |< Un ]
+                              `plural`     FiL |< Un
+                              `plural`     FiC |< Un,
+
+    -- ;; sanawiy~_1
+    -- snwy    sanawiy~        N/ap    yearly;annual     [[sanawiy~/ADJ]]
+    -- snwy    sanawiy~        NF      annually;yearly;per annum     [[sanawiy~/ADV]]
+
+    FaL |<< "awIy"            `adj`     {- sanawiy~ -}         [ "yearly", "annual", "annually", "per annum" ] ]
 
  |> "s n r" <| [
 
@@ -8902,14 +9017,16 @@ lexicon = listing "Lexicon's properties"
     -- snt     sinot   Ndu     cent
     -- snt     sinot   NAt     cents
 
-    FiCL                      `noun`    {- sinot -}            [ "cent", "cents" ] ]
+    FiCL                      `noun`    {- sinot -}            [ "cent", "cents" ]
+                              `plural`     FiCL |< At ]
 
  |> "s n t m" <| [
 
     -- ;; sanotiym_1
     -- sntym   sanotiym        N/At    centime
 
-    KaRDIS                    `noun`    {- sanotiym -}         [ "centime" ] ]
+    KaRDIS                    `noun`    {- sanotiym -}         [ "centime" ]
+                              `plural`     KaRDIS |< At ]
 
  |> "s n w" <| [
 
@@ -8951,8 +9068,9 @@ lexicon = listing "Lexicon's properties"
     -- sn      san     NF      brilliance;splendor     [[san/NOUN]]
 
     FaCY                      `noun`    {- sanaY -}            [ "brilliance", "splendor" ]
+                              `plural`     FaC
                               `plural`     FaCA
-                           {- `others`  [ "sanA Nhy" ] -},
+                           {- `others`  [ "san NF", "sanA Nhy" ] -},
 
     -- ;; sanA'_1
     -- snA'    sanA'   N0_Nh   brilliance;splendor
@@ -8989,18 +9107,28 @@ lexicon = listing "Lexicon's properties"
     -- msnA    musan~A Napdu   jetty;dam
     -- msny    musan~ay        NAt     jetties;dams
 
-    MuFaCCY |< aT             `noun`    {- musan~Ap -}         [ "jetty", "dam", "jetties", "dams" ],
+    MuFaCCY |< aT             `noun`    {- musan~Ap -}         [ "jetty", "dam", "jetties", "dams" ]
+                              `plural`     MuFaCCY |< At,
 
     -- ;; sanA_1
     -- snA     sanA    N0      senna
 
     FaCA                      `noun`    {- sanA -}             [ "senna" ],
 
+    -- ;; sanap_1
+    -- sn      san     Napdu   year
+    -- snw     sanaw   NAt     years
+    -- sn      sin     Nuwn_Niyn       years
+
+    FaC |< aT                 `noun`    {- sanap -}            [ "year", "years" ]
+                              `plural`     FiC |< Un
+                              `plural`     FaCaL |< At,
+
     -- ;; sanawiy~_1
     -- snwy    sanawiy~        N/ap    yearly;annual     [[sanawiy~/ADJ]]
     -- snwy    sanawiy~        NF      annually;yearly;per annum     [[sanawiy~/ADV]]
 
-    FaCY |< Iy                `adj`     {- sanawiy~ -}         [ "yearly", "annual", "annually", "per annum" ] ]
+    FaC |<< "awIy"            `adj`     {- sanawiy~ -}         [ "yearly", "annual", "annually", "per annum" ] ]
 
  |> "s n y" <| [
 
@@ -9058,7 +9186,8 @@ lexicon = listing "Lexicon's properties"
     -- sqA}    saq~A}  Nayn    water carriers
     -- sqA'    saq~A'  NapAt   water carrier
 
-    FaCCAL                    `noun`    {- saq~A' -}           [ "water carrier", "water carriers" ],
+    FaCCAL                    `noun`    {- saq~A' -}           [ "water carrier", "water carriers" ]
+                              `plural`     FaCCAL |< At |< Un,
 
     -- ;; saq~A'_2
     -- sqA'    saq~A'  N0      Saqqa
@@ -9085,7 +9214,9 @@ lexicon = listing "Lexicon's properties"
     -- <stsqA' {isotisoqA'     NAt     irrigation;dropsy
     -- AstsqA' {isotisoqA'     NAt     irrigation;dropsy
 
-    IstiFCAL                  `noun`    {- AisotisoqA' -}      [ "irrigation", "dropsy" ],
+    IstiFCAL                  `noun`    {- AisotisoqA' -}      [ "irrigation", "dropsy" ]
+                              `plural`     IstiFCAL |< At
+                              `plural`     IstiFCA' |< At,
 
     -- ;; {isotisoqA}iy~_1
     -- <stsqA}y        {isotisoqA}iy~  N-ap    hydropic     [[{isotisoqA}iy~/ADJ]]
@@ -9190,7 +9321,8 @@ lexicon = listing "Lexicon's properties"
     -- <sqAT   <isoqAT NduAt   overthrow;shooting down
     -- AsqAT   <isoqAT NduAt   overthrow;shooting down
 
-    HiFCAL                    `noun`    {- IisoqAT -}          [ "overthrow", "shooting down" ],
+    HiFCAL                    `noun`    {- IisoqAT -}          [ "overthrow", "shooting down" ]
+                              `plural`     HiFCAL |< At,
 
     -- ;; <isoqATiy~_1
     -- <sqATy  <isoqATiy~      N-ap    projection     [[<isoqATiy~/ADJ]]
@@ -9201,7 +9333,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasAquT_1
     -- tsAqT   tasAquT NduAt   falling;precipitation
 
-    TaFACuL                   `noun`    {- tasAquT -}          [ "falling", "precipitation" ],
+    TaFACuL                   `noun`    {- tasAquT -}          [ "falling", "precipitation" ]
+                              `plural`     TaFACuL |< At,
 
     -- ;; sAqiT_1
     -- sAqT    sAqiT   N/ap    failing;disreputable;omitted     [[sAqiT/ADJ]]
@@ -9260,7 +9393,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasoqiyf_1
     -- tsqyf   tasoqiyf        NduAt   roofing
 
-    TaFCIL                    `noun`    {- tasoqiyf -}         [ "roofing" ],
+    TaFCIL                    `noun`    {- tasoqiyf -}         [ "roofing" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; masoquwf_1
     -- msqwf   masoquwf        N-ap    roofed;covered     [[masoquwf/ADJ]]
@@ -9375,12 +9509,18 @@ lexicon = listing "Lexicon's properties"
     -- sqA}    saq~A}  Nayn    water carriers
     -- sqA'    saq~A'  NapAt   water carrier
 
-    FaCLA'                    `noun`    {- saq~A' -}           [ "water carrier", "water carriers" ],
+    FaCLA'                    `noun`    {- saq~A' -}           [ "water carrier", "water carriers" ]
+                              `plural`     FaCLA' |< At |< Un,
 
     -- ;; saq~A'_2
     -- sqA'    saq~A'  N0      Saqqa
 
-    FaCLA'                    `noun`    {- saq~A' -}           [ "Saqqa" ] ]
+    FaCLA'                    `noun`    {- saq~A' -}           [ "Saqqa" ],
+
+    -- ;; saqawiy~_1
+    -- sqwy    saqawiy~        N-ap    irrigational     [[saqawiy~/ADJ]]
+
+    FaL |<< "awIy"            `adj`     {- saqawiy~ -}         [ "irrigational" ] ]
 
  |> "s q r" <| [
 
@@ -9529,15 +9669,14 @@ lexicon = listing "Lexicon's properties"
 
     MiFCY                     `noun`    {- misoqaY -}          [ "irrigation canal", "irrigation canals" ]
                               `plural`     MaFACI
-                              `plural`     MiFCaL
-                           {- `others`  [ "masAqiy N0_Nh", "misqay NAn_Nayn" ] -},
+                           {- `others`  [ "masAqiy N0_Nh" ] -},
 
     -- ;; musAqAp_1
     -- msAqA   musAqA  Napdu   sharecropping contract
     -- msAqy   musAqay NAt     sharecropping contract
 
     MuFACY |< aT              `noun`    {- musAqAp -}          [ "sharecropping contract" ]
-                              `plural`     MuFACaL |< At,
+                              `plural`     MuFACY |< At,
 
     -- ;; {isotisoqA'_1
     -- <stsqA' {isotisoqA'     N0_Nh   (prayer) for rain
@@ -9559,7 +9698,8 @@ lexicon = listing "Lexicon's properties"
     -- <stsqA' {isotisoqA'     NAt     irrigation;dropsy
     -- AstsqA' {isotisoqA'     NAt     irrigation;dropsy
 
-    IstiFCA'                  `noun`    {- AisotisoqA' -}      [ "irrigation", "dropsy" ],
+    IstiFCA'                  `noun`    {- AisotisoqA' -}      [ "irrigation", "dropsy" ]
+                              `plural`     IstiFCA' |< At,
 
     -- ;; {isotisoqA}iy~_1
     -- <stsqA}y        {isotisoqA}iy~  N-ap    hydropic     [[{isotisoqA}iy~/ADJ]]
@@ -9570,7 +9710,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; saqawiy~_1
     -- sqwy    saqawiy~        N-ap    irrigational     [[saqawiy~/ADJ]]
 
-    FaCY |< Iy                `adj`     {- saqawiy~ -}         [ "irrigational" ],
+    FaC |<< "awIy"            `adj`     {- saqawiy~ -}         [ "irrigational" ],
 
     -- ;; sAqiy_1
     -- sAqy    sAqiy   N0F_Nh  water carrier
@@ -9624,7 +9764,9 @@ lexicon = listing "Lexicon's properties"
     -- <srA'   <isorA' NAt     Isra' (journey to heaven)
     -- AsrA'   <isorA' NAt     Isra' (journey to heaven)
 
-    HiFCAL                    `noun`    {- IisorA' -}          [ "Isra' (journey to heaven)" ] ]
+    HiFCAL                    `noun`    {- IisorA' -}          [ "Isra' (journey to heaven)" ]
+                              `plural`     HiFCAL |< At
+                              `plural`     HiFCA' |< At ]
 
  |> "s r .h" <| [
 
@@ -9690,12 +9832,14 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- tasoriyH -}         [ "authorization", "permission" ]
                               `plural`     TaFACIL
+                              `plural`     TaFCIL |< At
                            {- `others`  [ "tasAriy.h Ndip" ] -},
 
     -- ;; tasoriyH_2
     -- tsryH   tasoriyH        NduAt   dismissal;release;demobilization
 
-    TaFCIL                    `noun`    {- tasoriyH -}         [ "dismissal", "release", "demobilization" ],
+    TaFCIL                    `noun`    {- tasoriyH -}         [ "dismissal", "release", "demobilization" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; sAriH_1
     -- sArH    sAriH   Nall    roaming freely;distracted
@@ -9973,7 +10117,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasoriyE_1
     -- tsryE   tasoriyE        NduAt   acceleration
 
-    TaFCIL                    `noun`    {- tasoriyE -}         [ "acceleration" ],
+    TaFCIL                    `noun`    {- tasoriyE -}         [ "acceleration" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; musAraEap_1
     -- msArE   musAraE Nap     hurry;haste
@@ -9984,17 +10129,20 @@ lexicon = listing "Lexicon's properties"
     -- <srAE   <isorAE NduAt   acceleration
     -- AsrAE   <isorAE NduAt   acceleration
 
-    HiFCAL                    `noun`    {- IisorAE -}          [ "acceleration" ],
+    HiFCAL                    `noun`    {- IisorAE -}          [ "acceleration" ]
+                              `plural`     HiFCAL |< At,
 
     -- ;; tasar~uE_1
     -- tsrE    tasar~uE        NduAt   hurry;haste
 
-    TaFaCCuL                  `noun`    {- tasar~uE -}         [ "hurry", "haste" ],
+    TaFaCCuL                  `noun`    {- tasar~uE -}         [ "hurry", "haste" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; tasAruE_1
     -- tsArE   tasAruE NduAt   velocity;acceleration
 
-    TaFACuL                   `noun`    {- tasAruE -}          [ "velocity", "acceleration" ],
+    TaFACuL                   `noun`    {- tasAruE -}          [ "velocity", "acceleration" ]
+                              `plural`     TaFACuL |< At,
 
     -- ;; musAriE_1
     -- msArE   musAriE N       accelerator
@@ -10031,7 +10179,8 @@ lexicon = listing "Lexicon's properties"
     -- tsryb   tasoriyb        Ndu     leak (news, information);disclosure (secrets);planting, placing (agent, spy, mole)
     -- tsryb   tasoriyb        NAt     leaks (news, information);disclosures (secrets);planting, placing (agent, spy, mole)
 
-    TaFCIL                    `noun`    {- tasoriyb -}         [ "leaking (news, information)", "disclosing (secrets)", "planting, placing (agent, spy, mole)", "leak (news, information)", "disclosure (secrets)", "leaks (news, information)", "disclosures (secrets)" ],
+    TaFCIL                    `noun`    {- tasoriyb -}         [ "leaking (news, information)", "disclosing (secrets)", "planting, placing (agent, spy, mole)", "leak (news, information)", "disclosure (secrets)", "leaks (news, information)", "disclosures (secrets)" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; tasar~ab_1
     -- tsrb    tasar~ab        PV      leak;seep through;infiltrate
@@ -10089,7 +10238,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasar~ub_1
     -- tsrb    tasar~ub        NduAt   absenteeism;attrition
 
-    TaFaCCuL                  `noun`    {- tasar~ub -}         [ "absenteeism", "attrition" ],
+    TaFaCCuL                  `noun`    {- tasar~ub -}         [ "absenteeism", "attrition" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; masorab_1
     -- msrb    masorab Ndu     course;conduit;sewer
@@ -10200,7 +10350,8 @@ lexicon = listing "Lexicon's properties"
     -- srdyn   sarodiyn        Napdu   sardine
     -- srdyn   sarodiyn        NAt     sardines
 
-    KaRDIS                    `noun`    {- sarodiyn -}         [ "sardines", "sardine" ] ]
+    KaRDIS                    `noun`    {- sarodiyn -}         [ "sardines", "sardine" ]
+                              `plural`     KaRDIS |< At ]
 
  |> "s r d r" <| [
 
@@ -10347,7 +10498,8 @@ lexicon = listing "Lexicon's properties"
     -- msrwq   masoruwq        Nall    stolen     [[masoruwq/ADJ]]
     -- msrwq   masoruwq        NAt     stolen goods
 
-    MaFCUL                    `adj`     {- masoruwq -}         [ "stolen", "stolen goods" ],
+    MaFCUL                    `adj`     {- masoruwq -}         [ "stolen", "stolen goods" ]
+                              `plural`     MaFCUL |< At,
 
     -- ;; munosariq_1
     -- mnsrq   munosariq       Nall    robbed (of)     [[munosariq/ADJ]]
@@ -10563,7 +10715,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; musotasar~_1
     -- mstsr   musotasar~      NduAt   place of concealment
 
-    MustaFaCL                 `noun`    {- musotasar~ -}       [ "place of concealment" ],
+    MustaFaCL                 `noun`    {- musotasar~ -}       [ "place of concealment" ]
+                              `plural`     MustaFaCL |< At,
 
     -- ;; sur~iy~ap_1
     -- sry     sur~iy~ Nap     concubine     [[sur~iy~/NOUN]]
@@ -10575,7 +10728,8 @@ lexicon = listing "Lexicon's properties"
     -- <stsrAr {isotisorAr     N/At    concubinage
     -- AstsrAr {isotisorAr     N/At    concubinage
 
-    IstiFCAL                  `noun`    {- AisotisorAr -}      [ "concubinage" ],
+    IstiFCAL                  `noun`    {- AisotisorAr -}      [ "concubinage" ]
+                              `plural`     IstiFCAL |< At,
 
     -- ;; {isotisorAriy~_1
     -- <stsrAry        {isotisorAriy~  Nall    concubinage     [[{isotisorAriy~/ADJ]]
@@ -10683,7 +10837,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; sarAy_1
     -- srAy    sarAy   NduAt   palace
 
-    FaCAL                     `noun`    {- sarAy -}            [ "palace" ],
+    FaCAL                     `noun`    {- sarAy -}            [ "palace" ]
+                              `plural`     FaCAL |< At,
 
     -- ;; sarAy_2
     -- srAy    sarAy   Nprop   Sarai;Saray
@@ -10759,7 +10914,8 @@ lexicon = listing "Lexicon's properties"
     -- tsry    tasar~iy        NAn_Nayn        concubinage
     -- tsry    tasar~iy        NAt     concubinage
 
-    TaFaCCI                   `noun`    {- tasar~iy -}         [ "concubinage" ],
+    TaFaCCI                   `noun`    {- tasar~iy -}         [ "concubinage" ]
+                              `plural`     TaFaCCI |< At,
 
     -- ;; sarAyap_1
     -- srAy    sarAy   NapAt   palace;asylum
@@ -10782,8 +10938,8 @@ lexicon = listing "Lexicon's properties"
     -- srAyA   sarAyA  N0_Nhy  detachments;squadrons;companies
 
     FaCIL |< aT               `noun`    {- sariy~ap -}         [ "detachment", "squadron", "company", "detachments", "squadrons", "companies" ]
-                              `plural`     FaCAyA
-                           {- `others`  [ "sarAyA N0_Nhy" ] -},
+                              `plural`     FaCALY
+                           {- `others`  [ "sarAyY N0_Nhy" ] -},
 
     -- ;; sarayAn_1
     -- sryAn   sarayAn N       spread;diffusion;effectiveness
@@ -10804,7 +10960,8 @@ lexicon = listing "Lexicon's properties"
     -- <srA'   <isorA' NAt     Isra' (journey to heaven)
     -- AsrA'   <isorA' NAt     Isra' (journey to heaven)
 
-    HiFCA'                    `noun`    {- IisorA' -}          [ "Isra' (journey to heaven)" ],
+    HiFCA'                    `noun`    {- IisorA' -}          [ "Isra' (journey to heaven)" ]
+                              `plural`     HiFCA' |< At,
 
     -- ;; sAriy_1
     -- sAry    sAriy   N0F     effective;valid     [[sAriy/ADJ]]
@@ -10812,7 +10969,8 @@ lexicon = listing "Lexicon's properties"
     -- sAry    sAriy   NAn_Nayn        effective;valid
     -- sAry    sAriy   NapAt   effective;valid
 
-    FACI                      `adj`     {- sAriy -}            [ "effective", "valid" ],
+    FACI                      `adj`     {- sAriy -}            [ "effective", "valid" ]
+                              `plural`     FACI |< At,
 
     -- ;; sAriy_2
     -- sAry    sAriy   N0F     circulating     [[sAriy/ADJ]]
@@ -10822,7 +10980,8 @@ lexicon = listing "Lexicon's properties"
     -- srA     surA    Nap     circulating
 
     FACI                      `adj`     {- sAriy -}            [ "circulating" ]
-                              `plural`     FuCY |< aT,
+                              `plural`     FuCY |< aT
+                              `plural`     FACI |< At,
 
     -- ;; sAriyap_1
     -- sAry    sAriy   Nap     mood;atmosphere
@@ -10906,7 +11065,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasotiyf_1
     -- tstyf   tasotiyf        NduAt   stacking;storage
 
-    TaFCIL                    `noun`    {- tasotiyf -}         [ "stacking", "storage" ],
+    TaFCIL                    `noun`    {- tasotiyf -}         [ "stacking", "storage" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; {isotaf~_1
     -- <stf    {isotaf~        PV_V    eat;swallow
@@ -10963,7 +11123,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; sit~iyn_1
     -- styn    sit~iyn NAt     sixties
 
-    FiCCIL                    `noun`    {- sit~iyn -}          [ "sixties" ],
+    FiCCIL                    `noun`    {- sit~iyn -}          [ "sixties" ]
+                              `plural`     FiCCIL |< At,
 
     -- ;; sit~iyniy~_1
     -- styny   sit~iyniy~      NAt     sixties     [[sit~iyniy~/NOUN]]
@@ -11078,7 +11239,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasat~ur_1
     -- tstr    tasat~ur        NduAt   covering;veiling
 
-    TaFaCCuL                  `noun`    {- tasat~ur -}         [ "covering", "veiling" ],
+    TaFaCCuL                  `noun`    {- tasat~ur -}         [ "covering", "veiling" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; sAtir_1
     -- sAtr    sAtir   Ndu     screen
@@ -11141,7 +11303,8 @@ lexicon = listing "Lexicon's properties"
     -- st      sit~    Ndu     lady;miss
     -- st      sit~    NAt     ladies;misses
 
-    FiCL                      `noun`    {- sit~ -}             [ "lady", "miss", "ladies", "misses" ] ]
+    FiCL                      `noun`    {- sit~ -}             [ "lady", "miss", "ladies", "misses" ]
+                              `plural`     FiCL |< At ]
 
  |> "s t y" <| [
 
@@ -11240,7 +11403,9 @@ lexicon = listing "Lexicon's properties"
     -- sw      sawo    N-|t    disgrace;shame
 
     FaCL |< aT                `noun`    {- sawoOap -}          [ "disgrace", "shame" ]
-                              `plural`     FaCL |< At,
+                              `plural`     FaC
+                              `plural`     FaCL |< At
+                           {- `others`  [ "saw N-|t" ] -},
 
     -- ;; >asowa>_1
     -- >sw>    >asowa> N0_Nh   worse/worst
@@ -11297,7 +11462,8 @@ lexicon = listing "Lexicon's properties"
     -- <styA'  {isotiyA'       NAt     dissatisfaction;displeasure
     -- AstyA'  {isotiyA'       NAt     dissatisfaction;displeasure
 
-    IFtiyAL                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ],
+    IFtiyAL                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
+                              `plural`     IFtiyAL |< At,
 
     -- ;; musiy'_1
     -- msy'    musiy'  N0      insulting;harming;pernicious     [[musiy'/ADJ]]
@@ -11306,7 +11472,8 @@ lexicon = listing "Lexicon's properties"
     -- msy}    musiy}  Nuwn_Niyn       insulting;harming;pernicious
     -- msy}    musiy}  NapAt   insulting;harming;pernicious
 
-    MuFIL                     `adj`     {- musiy' -}           [ "insulting", "harming", "pernicious" ],
+    MuFIL                     `adj`     {- musiy' -}           [ "insulting", "harming", "pernicious" ]
+                              `plural`     MuFIL |< At |< Un,
 
     -- ;; musotA'_1
     -- mstA'   musotA' N0      unhappy;displeased;dissatisfied     [[musotA'/ADJ]]
@@ -11315,7 +11482,8 @@ lexicon = listing "Lexicon's properties"
     -- mstA'   musotA' NapAt   unhappy;displeased;dissatisfied
     -- mstA&   musotA& Nuwn_Niyn       unhappy;displeased;dissatisfied
 
-    MuFtAL                    `adj`     {- musotA' -}          [ "unhappy", "displeased", "dissatisfied" ],
+    MuFtAL                    `adj`     {- musotA' -}          [ "unhappy", "displeased", "dissatisfied" ]
+                              `plural`     MuFtAL |< At |< Un,
 
     -- ;; sawA'_1
     -- swA'    sawA'   N0_Nh   except;whether
@@ -11345,7 +11513,9 @@ lexicon = listing "Lexicon's properties"
     -- <stwA'  {isotiwA'       NAt     levelness;upright
     -- AstwA'  {isotiwA'       NAt     levelness;upright
 
-    IFtiCAL                   `noun`    {- AisotiwA' -}        [ "levelness", "upright" ],
+    IFtiCAL                   `noun`    {- AisotiwA' -}        [ "levelness", "upright" ]
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiCA' |< At,
 
     -- ;; {isotiwA'_2
     -- <stwA'  {isotiwA'       N0_Nh   equator
@@ -11417,7 +11587,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasowiyg_1
     -- tswyg   tasowiyg        N/At    leasing
 
-    TaFCIL                    `noun`    {- tasowiyg -}         [ "leasing" ],
+    TaFCIL                    `noun`    {- tasowiyg -}         [ "leasing" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; sA}ig_1
     -- sA}g    sA}ig   N/ap    palatable;permissible     [[sA}ig/ADJ]]
@@ -11427,7 +11598,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; musaw~ig_1
     -- mswg    musaw~ig        N/At    justifying factor;support material
 
-    MuFaCCiL                  `noun`    {- musaw~ig -}         [ "justifying factor", "support material" ],
+    MuFaCCiL                  `noun`    {- musaw~ig -}         [ "justifying factor", "support material" ]
+                              `plural`     MuFaCCiL |< At,
 
     -- ;; musotasAg_1
     -- mstsAg  musotasAg       Nall    palatable;tasty     [[musotasAg/ADJ]]
@@ -11624,7 +11796,8 @@ lexicon = listing "Lexicon's properties"
     -- tswyd   tasowiyd        Ndu     rough draft
     -- tswyd   tasowiyd        NapAt   rough draft
 
-    TaFCIL                    `noun`    {- tasowiyd -}         [ "rough draft" ],
+    TaFCIL                    `noun`    {- tasowiyd -}         [ "rough draft" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; musaw~adap_1
     -- mswd    musaw~ad        NapAt   rough draft
@@ -11691,7 +11864,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasowiyf_1
     -- tswyf   tasowiyf        NduAt   procrastination;postponement
 
-    TaFCIL                    `noun`    {- tasowiyf -}         [ "procrastination", "postponement" ],
+    TaFCIL                    `noun`    {- tasowiyf -}         [ "procrastination", "postponement" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; tasowiyfiy~_1
     -- tswyfy  tasowiyfiy~     Nall    dilatory;delaying     [[tasowiyfiy~/ADJ]]
@@ -11774,7 +11948,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasaw~ul_1
     -- tswl    tasaw~ul        NduAt   begging
 
-    TaFaCCuL                  `noun`    {- tasaw~ul -}         [ "begging" ],
+    TaFaCCuL                  `noun`    {- tasaw~ul -}         [ "begging" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; mutasaw~il_1
     -- mtswl   mutasaw~il      Nall    beggar
@@ -11992,7 +12167,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasowiyq_1
     -- tswyq   tasowiyq        NduAt   marketing
 
-    TaFCIL                    `noun`    {- tasowiyq -}         [ "marketing" ],
+    TaFCIL                    `noun`    {- tasowiyq -}         [ "marketing" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; tasowiyqiy~_1
     -- tswyqy  tasowiyqiy~     Nall    marketing     [[tasowiyqiy~/ADJ]]
@@ -12007,18 +12183,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasaw~uq_1
     -- tswq    tasaw~uq        NduAt   marketing
 
-    TaFaCCuL                  `noun`    {- tasaw~uq -}         [ "marketing" ],
+    TaFaCCuL                  `noun`    {- tasaw~uq -}         [ "marketing" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; tasAwuq_1
     -- tsAwq   tasAwuq NduAt   coherence;context;interrelation
 
-    TaFACuL                   `noun`    {- tasAwuq -}          [ "coherence", "context", "interrelation" ],
+    TaFACuL                   `noun`    {- tasAwuq -}          [ "coherence", "context", "interrelation" ]
+                              `plural`     TaFACuL |< At,
 
     -- ;; {inosiyAq_1
     -- <nsyAq  {inosiyAq       NduAt   thoughtlessness;being carried away
     -- AnsyAq  {inosiyAq       NduAt   thoughtlessness;being carried away
 
-    InFiyAL                   `noun`    {- AinosiyAq -}        [ "thoughtlessness", "being carried away" ],
+    InFiyAL                   `noun`    {- AinosiyAq -}        [ "thoughtlessness", "being carried away" ]
+                              `plural`     InFiyAL |< At,
 
     -- ;; sA}iq_1
     -- sA}q    sA}iq   Nall    chauffeur;driver
@@ -12171,7 +12350,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasaw~us_1
     -- tsws    tasaw~us        NduAt   dental caries;rottenness
 
-    TaFaCCuL                  `noun`    {- tasaw~us -}         [ "dental caries", "rottenness" ],
+    TaFaCCuL                  `noun`    {- tasaw~us -}         [ "dental caries", "rottenness" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; sA}is_1
     -- sA}s    sA}is   N/ap    jockey;driver
@@ -12206,6 +12386,11 @@ lexicon = listing "Lexicon's properties"
     KuRDU                     `noun`    {- suwtuw -}           [ "Soto" ] ]
 
  |> "s w w" <| [
+
+    -- ;; suw_1
+    -- sw      suw     Nprop   Sue
+
+    FU                        `noun`    {- suw -}              [ "Sue" ],
 
     -- ;; suw_1
     -- sw      suw     Nprop   Sue
@@ -12332,8 +12517,8 @@ lexicon = listing "Lexicon's properties"
     -- swAyA   sawAyA  N0_Nhy  equality
 
     FaCIL |< aT               `noun`    {- sawiy~ap -}         [ "equality" ]
-                              `plural`     FaCAyA
-                           {- `others`  [ "sawAyA N0_Nhy" ] -},
+                              `plural`     FaCALY
+                           {- `others`  [ "sawAyY N0_Nhy" ] -},
 
     -- ;; siy~_1
     -- sy      siy~    NAn_Nayn        alike;the same
@@ -12359,7 +12544,7 @@ lexicon = listing "Lexicon's properties"
     -- msAwy   musAway NAt     equality;equal rights
 
     MuFACY |< aT              `noun`    {- musAwAp -}          [ "equality", "equal rights" ]
-                              `plural`     MuFACaL |< At,
+                              `plural`     MuFACY |< At,
 
     -- ;; tasAwiy_1
     -- tsAwy   tasAwiy N0_Nh   equality;equal rights
@@ -12367,7 +12552,8 @@ lexicon = listing "Lexicon's properties"
     -- tsAwy   tasAwiy NAn_Nayn        equality;equal rights
     -- tsAwy   tasAwiy NAt     equality;equal rights
 
-    TaFACI                    `noun`    {- tasAwiy -}          [ "equality", "equal rights" ],
+    TaFACI                    `noun`    {- tasAwiy -}          [ "equality", "equal rights" ]
+                              `plural`     TaFACI |< At,
 
     -- ;; {isotiwA'_1
     -- <stwA'  {isotiwA'       N0_Nh   levelness;upright
@@ -12383,7 +12569,8 @@ lexicon = listing "Lexicon's properties"
     -- <stwA'  {isotiwA'       NAt     levelness;upright
     -- AstwA'  {isotiwA'       NAt     levelness;upright
 
-    IFtiCA'                   `noun`    {- AisotiwA' -}        [ "levelness", "upright" ],
+    IFtiCA'                   `noun`    {- AisotiwA' -}        [ "levelness", "upright" ]
+                              `plural`     IFtiCA' |< At,
 
     -- ;; {isotiwA'_2
     -- <stwA'  {isotiwA'       N0_Nh   equator
@@ -12408,7 +12595,8 @@ lexicon = listing "Lexicon's properties"
     -- msAw    musAw   Nuwn_Niyn       equivalent;similar
     -- msAwy   musAwiy NapAt   equivalent;similar
 
-    MuFACI                    `adj`     {- musAwiy -}          [ "equivalent", "similar" ],
+    MuFACI                    `adj`     {- musAwiy -}          [ "equivalent", "similar" ]
+                              `plural`     MuFACI |< At,
 
     -- ;; mutasAwiy_1
     -- mtsAwy  mutasAwiy       N0F_Nh  equivalent;similar     [[mutasAwiy/ADJ]]
@@ -12417,7 +12605,8 @@ lexicon = listing "Lexicon's properties"
     -- mtsAw   mutasAw Nuwn_Niyn       equivalent;similar
     -- mtsAwy  mutasAwiy       NapAt   equivalent;similar
 
-    MutaFACI                  `adj`     {- mutasAwiy -}        [ "equivalent", "similar" ],
+    MutaFACI                  `adj`     {- mutasAwiy -}        [ "equivalent", "similar" ]
+                              `plural`     MutaFACI |< At,
 
     -- ;; musotawiy_1
     -- mstwy   musotawiy       N0_Nh   straight;upright;ripe     [[musotawiy/ADJ]]
@@ -12426,7 +12615,8 @@ lexicon = listing "Lexicon's properties"
     -- mstw    musotaw Nuwn_Niyn       straight;upright;ripe
     -- mstwy   musotawiy       NapAt   straight;upright;ripe
 
-    MuFtaCI                   `adj`     {- musotawiy -}        [ "straight", "upright", "ripe" ],
+    MuFtaCI                   `adj`     {- musotawiy -}        [ "straight", "upright", "ripe" ]
+                              `plural`     MuFtaCI |< At,
 
     -- ;; musotawaY_1
     -- mstwY   musotawaY       N0      level;standard
@@ -12435,8 +12625,7 @@ lexicon = listing "Lexicon's properties"
     -- mstwy   musotaway       NAt     levels;standards
 
     MuFtaCY                   `noun`    {- musotawaY -}        [ "level", "standard", "levels", "standards" ]
-                              `plural`     MuFtaCaL |< At
-                           {- `others`  [ "mustaway NAn_Nayn" ] -} ]
+                              `plural`     MuFtaCY |< At ]
 
  |> "s w z" <| [
 
@@ -12461,7 +12650,10 @@ lexicon = listing "Lexicon's properties"
     -- <styA'  {isotiyA'       NAt     dissatisfaction;displeasure
     -- AstyA'  {isotiyA'       NAt     dissatisfaction;displeasure
 
-    IFtiCAL                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ],
+    IFtiCAL                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiyAL |< At
+                              `plural`     IFtiCA' |< At,
 
     -- ;; {isotiyA'_1
     -- <styA'  {isotiyA'       N0_Nh   dissatisfaction;displeasure
@@ -12477,7 +12669,10 @@ lexicon = listing "Lexicon's properties"
     -- <styA'  {isotiyA'       NAt     dissatisfaction;displeasure
     -- AstyA'  {isotiyA'       NAt     dissatisfaction;displeasure
 
-    IFtiCA'                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ],
+    IFtiCA'                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiyAL |< At
+                              `plural`     IFtiCA' |< At,
 
     -- ;; musiy'_1
     -- msy'    musiy'  N0      insulting;harming;pernicious     [[musiy'/ADJ]]
@@ -12486,7 +12681,8 @@ lexicon = listing "Lexicon's properties"
     -- msy}    musiy}  Nuwn_Niyn       insulting;harming;pernicious
     -- msy}    musiy}  NapAt   insulting;harming;pernicious
 
-    MuFIL                     `adj`     {- musiy' -}           [ "insulting", "harming", "pernicious" ],
+    MuFIL                     `adj`     {- musiy' -}           [ "insulting", "harming", "pernicious" ]
+                              `plural`     MuFIL |< At |< Un,
 
     -- ;; say~i'_1
     -- sy'     say~i'  N0      bad
@@ -12495,7 +12691,8 @@ lexicon = listing "Lexicon's properties"
     -- sy}     say~i}  NAn_Nayn        bad
     -- sy}     say~i}  Nuwn_Niyn       bad
 
-    FaCCiL                    `noun`    {- say~i' -}           [ "bad" ],
+    FaCCiL                    `noun`    {- say~i' -}           [ "bad" ]
+                              `plural`     FaCCiL |< At |< Un,
 
     -- ;; say~i}ap_1
     -- sy}     say~i}  Napdu   offense;misdeed
@@ -12620,6 +12817,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- siyAj -}            [ "fence", "shield", "fences", "shields" ]
                               `plural`     HaFCAL
+                              `plural`     FiCAL |< At
                            {- `others`  [ "'asyA^g N" ] -} ]
 
  |> "s y _h" <| [
@@ -12708,7 +12906,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasay~ub_1
     -- tsyb    tasay~ub        NduAt   neglect;carelessness
 
-    TaFaCCuL                  `noun`    {- tasay~ub -}         [ "neglect", "carelessness" ],
+    TaFaCCuL                  `noun`    {- tasay~ub -}         [ "neglect", "carelessness" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; sA}ib_1
     -- sA}b    sA}ib   Nall    astray;unrestrained     [[sA}ib/ADJ]]
@@ -12955,7 +13154,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; siyn_1
     -- syn     siyn    NduAt   sin (Arabic letter)
 
-    FIL                       `noun`    {- siyn -}             [ "sin (Arabic letter)" ] ]
+    FIL                       `noun`    {- siyn -}             [ "sin (Arabic letter)" ]
+                              `plural`     FIL |< At ]
 
  |> "s y q" <| [
 
@@ -12973,7 +13173,9 @@ lexicon = listing "Lexicon's properties"
     -- <nsyAq  {inosiyAq       NduAt   thoughtlessness;being carried away
     -- AnsyAq  {inosiyAq       NduAt   thoughtlessness;being carried away
 
-    InFiCAL                   `noun`    {- AinosiyAq -}        [ "thoughtlessness", "being carried away" ] ]
+    InFiCAL                   `noun`    {- AinosiyAq -}        [ "thoughtlessness", "being carried away" ]
+                              `plural`     InFiCAL |< At
+                              `plural`     InFiyAL |< At ]
 
  |> "s y r" <| [
 
@@ -13058,12 +13260,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; masAr_1
     -- msAr    masAr   NduAt   path;route
 
-    MaFAL                     `noun`    {- masAr -}            [ "path", "route" ],
+    MaFAL                     `noun`    {- masAr -}            [ "path", "route" ]
+                              `plural`     MaFAL |< At,
 
     -- ;; masAr_2
     -- msAr    masAr   NduAt   trajectory;orbit
 
-    MaFAL                     `noun`    {- masAr -}            [ "trajectory", "orbit" ],
+    MaFAL                     `noun`    {- masAr -}            [ "trajectory", "orbit" ]
+                              `plural`     MaFAL |< At,
 
     -- ;; masiyr_1
     -- msyr    masiyr  N       journey;tour;march
@@ -13088,7 +13292,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tasoyiyr_1
     -- tsyyr   tasoyiyr        NduAt   propulsion;steering;guidance
 
-    TaFCIL                    `noun`    {- tasoyiyr -}         [ "propulsion", "steering", "guidance" ],
+    TaFCIL                    `noun`    {- tasoyiyr -}         [ "propulsion", "steering", "guidance" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; musAyarap_1
     -- msAyr   musAyar NapAt   adaptation;adjustment

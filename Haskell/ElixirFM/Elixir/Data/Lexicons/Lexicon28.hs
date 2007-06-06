@@ -36,11 +36,18 @@ lexicon = listing "Lexicon's properties"
     FaL                       `noun`    {- yad -}              [ "hand", "hands" ]
                               `plural`     HaFCI
                               `plural`     HaFACI
-                           {- `others`  [ "'aydiy N0_Nh", "'ayAdiy N0_Nh" ] -} ]
+                           {- `others`  [ "'aydiy N0_Nh", "'ayAdiy N0_Nh" ] -},
+
+    FaL |<< "awIy"            `adj`     {- yadawiy~ -}         [ "manual", "hand" ] ]
 
  |> "y d y" <| [
 
-    FaCY |< Iy                `adj`     {- yadawiy~ -}         [ "manual", "hand" ] ]
+    FaC                       `noun`    {- yad -}              [ "hand", "hands" ]
+                              `plural`     HaFCI
+                              `plural`     HaFACI
+                           {- `others`  [ "'aydiy N0_Nh", "'ayAdiy N0_Nh" ] -},
+
+    FaC |<< "awIy"            `adj`     {- yadawiy~ -}         [ "manual", "hand" ] ]
 
  |> "y f `" <| [
 
@@ -86,7 +93,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- Oayoman -}          [ "right", "right hand", "lucky" ],
 
-    FuCLY                     `adj`     {- yumonaY -}          [ "right hand", "right side", "lucky", "right hands", "right sides" ],
+    FuCLY                     `adj`     {- yumonaY -}          [ "right hand", "right side", "lucky", "right hands", "right sides" ]
+                              `plural`     FuCLY |< At,
 
     FuCLY                     `noun`    {- yumonaY -}          [ "Youmna", "Yumna" ],
 
@@ -106,6 +114,10 @@ lexicon = listing "Lexicon's properties"
 
     FUCAL |< Iy               `adj`     {- yuwnAniy~ -}        [ "Greek" ] ]
 
+ |> "y n y" <| [
+
+    FiC                       `noun`    {- yin -}              [ "Yen" ] ]
+
  |> "y n y r" <| [
 
     KaRADiS                   `noun`    {- yanAyir -}          [ "January" ] ]
@@ -116,7 +128,8 @@ lexicon = listing "Lexicon's properties"
 
     IstaFCaL                  `verb`    {- AisotayoqaZ -}      [ "wake up", "be roused", "be alert" ],
 
-    HICAL                     `noun`    {- IiyqAZ -}           [ "awakening", "reveille" ] ]
+    HICAL                     `noun`    {- IiyqAZ -}           [ "awakening", "reveille" ]
+                              `plural`     HICAL |< At ]
 
  |> "y q n" <| [
 
@@ -161,12 +174,13 @@ lexicon = listing "Lexicon's properties"
     FaCIL                     `adj`     {- yasiyr -}           [ "small", "short" ],
 
     HaFCaL                    `noun`    {- Oayosar -}          [ "left", "left hand", "left hands" ]
-                              `plural`     FuCLY
-                           {- `others`  [ "yusrY N0" ] -},
+                              `plural`     FuCLY |< At
+                           {- `others`  [ "yusrY N0 NAn_Nayn" ] -},
 
     HaFCaL                    `noun`    {- Oayosar -}          [ "easier/easiest", "smaller/smallest" ],
 
-    TaFCIL                    `noun`    {- tayosiyr -}         [ "facilitation" ],
+    TaFCIL                    `noun`    {- tayosiyr -}         [ "facilitation" ]
+                              `plural`     TaFCIL |< At,
 
     TaFCIL                    `noun`    {- tayosiyr -}         [ "Taiseer" ],
 
@@ -234,6 +248,8 @@ lexicon = listing "Lexicon's properties"
     KuRDuS |< Iy              `adj`     {- yuwsufiy~ -}        [ "tangerines" ] ]
 
  |> "y w w" <| [
+
+    FU                        `noun`    {- yuw -}              [ "Yo", "Yu" ],
 
     FU                        `noun`    {- yuw -}              [ "Yo", "Yu" ],
 

@@ -24,6 +24,7 @@ import FM.Arabic.Commands
 import FM.Arabic.Composite
 import FM.Arabic.Dictionary
 import FM.Generic.Frontend
+import FM.Generic.GeneralIO
 
 main :: IO ()
 main = commonMain Arabic

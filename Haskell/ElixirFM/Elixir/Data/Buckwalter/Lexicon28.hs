@@ -9,13 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "muttaqin" <| [
-
-    -- ;; mut~aqin_1
-    -- mtqn    mut~aqin        Nall    confident     [[mut~aqin/ADJ]]
-
-    Identity                  `adj`     {- mut~aqin -}         [ "confident" ] ]
-
  |> "y ' '" <| [
 
     -- ;; yA'_1
@@ -24,7 +17,8 @@ lexicon = listing "Lexicon's properties"
     -- yA}     yA}     Nhy     ya' (Arabic letter)
     -- yA'     yA'     NAt     ya's (Arabic letter)
 
-    FAL                       `noun`    {- yA' -}              [ "ya' (Arabic letter)", "ya's (Arabic letter)" ] ]
+    FAL                       `noun`    {- yA' -}              [ "ya' (Arabic letter)", "ya's (Arabic letter)" ]
+                              `plural`     FAL |< At ]
 
  |> "y ' m" <| [
 
@@ -102,7 +96,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; yAy_1
     -- yAy     yAy     NduAt   spring;spiral
 
-    FAL                       `noun`    {- yAy -}              [ "spring", "spiral" ] ]
+    FAL                       `noun`    {- yAy -}              [ "spring", "spiral" ]
+                              `plural`     FAL |< At ]
 
  |> "y .h b r" <| [
 
@@ -273,14 +268,35 @@ lexicon = listing "Lexicon's properties"
     FaL                       `noun`    {- yad -}              [ "hand", "hands" ]
                               `plural`     HaFCI
                               `plural`     HaFACI
-                           {- `others`  [ "'aydiy N0_Nh", "'ayAdiy N0_Nh" ] -} ]
-
- |> "y d y" <| [
+                           {- `others`  [ "'aydiy N0_Nh", "'ayAdiy N0_Nh" ] -},
 
     -- ;; yadawiy~_1
     -- ydwy    yadawiy~        Nall    manual;hand     [[yadawiy~/ADJ]]
 
-    FaCY |< Iy                `adj`     {- yadawiy~ -}         [ "manual", "hand" ] ]
+    FaL |<< "awIy"            `adj`     {- yadawiy~ -}         [ "manual", "hand" ] ]
+
+ |> "y d y" <| [
+
+    -- ;; yad_1
+    -- yd      yad     Ndu     hand
+    -- >ydy    >ayodiy N0_Nh   hands
+    -- Aydy    >ayodiy N0_Nh   hands
+    -- >yd     >ayod   NK      hands
+    -- Ayd     >ayod   NK      hands
+    -- >yAdy   >ayAdiy N0_Nh   hands
+    -- AyAdy   >ayAdiy N0_Nh   hands
+    -- >yAd    >ayAd   NK      hands
+    -- AyAd    >ayAd   NK      hands
+
+    FaC                       `noun`    {- yad -}              [ "hand", "hands" ]
+                              `plural`     HaFCI
+                              `plural`     HaFACI
+                           {- `others`  [ "'aydiy N0_Nh", "'ayAdiy N0_Nh" ] -},
+
+    -- ;; yadawiy~_1
+    -- ydwy    yadawiy~        Nall    manual;hand     [[yadawiy~/ADJ]]
+
+    FaC |<< "awIy"            `adj`     {- yadawiy~ -}         [ "manual", "hand" ] ]
 
  |> "y f .t" <| [
 
@@ -415,7 +431,8 @@ lexicon = listing "Lexicon's properties"
     -- ymAm    yamAm   NapAt   pigeon;dove
     -- ymA}m   yamA}im Ndip    pigeons;doves
 
-    FaCAL                     `noun`    {- yamAm -}            [ "pigeon", "dove", "pigeons", "doves" ] ]
+    FaCAL                     `noun`    {- yamAm -}            [ "pigeon", "dove", "pigeons", "doves" ]
+                              `plural`     FaCAL |< At ]
 
  |> "y m n" <| [
 
@@ -563,7 +580,8 @@ lexicon = listing "Lexicon's properties"
     -- ymny    yumonay NAn_Nayn        right hand;right side;lucky     [[yumonay/ADJ]]
     -- ymny    yumonay NAt     right hands;right sides;lucky     [[yumonay/ADJ]]
 
-    FuCLY                     `adj`     {- yumonaY -}          [ "right hand", "right side", "lucky", "right hands", "right sides" ],
+    FuCLY                     `adj`     {- yumonaY -}          [ "right hand", "right side", "lucky", "right hands", "right sides" ]
+                              `plural`     FuCLY |< At,
 
     -- ;; yumonaY_2
     -- ymnY    yumonaY Nprop   Youmna;Yumna
@@ -581,7 +599,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tayam~un_1
     -- tymn    tayam~un        N/At    good omen;auspiciousness
 
-    TaFaCCuL                  `noun`    {- tayam~un -}         [ "good omen", "auspiciousness" ],
+    TaFaCCuL                  `noun`    {- tayam~un -}         [ "good omen", "auspiciousness" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; mayomuwn_1
     -- mymwn   mayomuwn        N/ap    lucky;fortunate     [[mayomuwn/ADJ]]
@@ -651,7 +670,8 @@ lexicon = listing "Lexicon's properties"
     -- <ynAE   <iynAE  N/At    ripening;mellowing
     -- AynAE   <iynAE  N/At    ripening;mellowing
 
-    HICAL                     `noun`    {- IiynAE -}           [ "ripening", "mellowing" ],
+    HICAL                     `noun`    {- IiynAE -}           [ "ripening", "mellowing" ]
+                              `plural`     HICAL |< At,
 
     -- ;; yAniE_1
     -- yAnE    yAniE   N/ap    ripe;mellow     [[yAniE/ADJ]]
@@ -684,6 +704,13 @@ lexicon = listing "Lexicon's properties"
     -- ynswn   yanosuwn        N       aniseed;anise
 
     KaRDUS                    `noun`    {- yanosuwn -}         [ "aniseed", "anise" ] ]
+
+ |> "y n y" <| [
+
+    -- ;; yin_1
+    -- yn      yin     N       Yen
+
+    FiC                       `noun`    {- yin -}              [ "Yen" ] ]
 
  |> "y n y r" <| [
 
@@ -775,18 +802,21 @@ lexicon = listing "Lexicon's properties"
     -- <yqAZ   <iyqAZ  N/At    awakening;reveille
     -- AyqAZ   <iyqAZ  N/At    awakening;reveille
 
-    HICAL                     `noun`    {- IiyqAZ -}           [ "awakening", "reveille" ],
+    HICAL                     `noun`    {- IiyqAZ -}           [ "awakening", "reveille" ]
+                              `plural`     HICAL |< At,
 
     -- ;; tayaq~uZ_1
     -- tyqZ    tayaq~uZ        N/At    awakening;alertness;vigilance
 
-    TaFaCCuL                  `noun`    {- tayaq~uZ -}         [ "awakening", "alertness", "vigilance" ],
+    TaFaCCuL                  `noun`    {- tayaq~uZ -}         [ "awakening", "alertness", "vigilance" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; {isotiyqAZ_1
     -- <styqAZ {isotiyqAZ      NduAt   awakening;arousal
     -- AstyqAZ {isotiyqAZ      NduAt   awakening;arousal
 
-    IstICAL                   `noun`    {- AisotiyqAZ -}       [ "awakening", "arousal" ],
+    IstICAL                   `noun`    {- AisotiyqAZ -}       [ "awakening", "arousal" ]
+                              `plural`     IstICAL |< At,
 
     -- ;; mutayaq~iZ_1
     -- mtyqZ   mutayaq~iZ      Nall    awake;alert     [[mutayaq~iZ/ADJ]]
@@ -868,7 +898,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwqin_1
     -- mwqn    muwqin  Nall    convinced;certain;sure     [[muwqin/ADJ]]
 
-    MUCiL                     `adj`     {- muwqin -}           [ "convinced", "certain", "sure" ] ]
+    MUCiL                     `adj`     {- muwqin -}           [ "convinced", "certain", "sure" ],
+
+    -- ;; mut~aqin_1
+    -- mtqn    mut~aqin        Nall    confident     [[mut~aqin/ADJ]]
+
+    MuFtaCiL                  `adj`     {- mut~aqin -}         [ "confident" ] ]
 
  |> "y q t" <| [
 
@@ -1101,8 +1136,8 @@ lexicon = listing "Lexicon's properties"
     -- ysry    yusoray NAt     left;left hands
 
     HaFCaL                    `noun`    {- Oayosar -}          [ "left", "left hand", "left hands" ]
-                              `plural`     FuCLY
-                           {- `others`  [ "yusrY N0" ] -},
+                              `plural`     FuCLY |< At
+                           {- `others`  [ "yusrY N0 NAn_Nayn" ] -},
 
     -- ;; >ayosar_3
     -- >ysr    >ayosar Nel     easier/easiest;smaller/smallest
@@ -1134,7 +1169,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tayosiyr_1
     -- tysyr   tayosiyr        N/At    facilitation
 
-    TaFCIL                    `noun`    {- tayosiyr -}         [ "facilitation" ],
+    TaFCIL                    `noun`    {- tayosiyr -}         [ "facilitation" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; tayosiyr_2
     -- tysyr   tayosiyr        N0      Taiseer
@@ -1414,6 +1450,11 @@ lexicon = listing "Lexicon's properties"
     KuRDU                     `noun`    {- yuwsuw -}           [ "Jusso", "Yusso" ] ]
 
  |> "y w w" <| [
+
+    -- ;; yuw_1
+    -- yw      yuw     Nprop   Yo;Yu
+
+    FU                        `noun`    {- yuw -}              [ "Yo", "Yu" ],
 
     -- ;; yuw_1
     -- yw      yuw     Nprop   Yo;Yu

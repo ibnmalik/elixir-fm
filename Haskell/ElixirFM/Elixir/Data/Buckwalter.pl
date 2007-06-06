@@ -144,6 +144,11 @@ sub storeEntry ($$) {
 
     my $Clone = {};
 
+    foreach my $form (keys %{$Entry->{'types'}}) {
+
+        delete $Entry->{'types'}->{$form} unless keys %{$Entry->{'types'}->{$form}};
+    }
+
     $Clone->{$_} = $Entry->{$_} foreach keys %{$Entry};
 
     $Clone->{'morphs'} = $Clone->{'prefix'} . $ptrn . $Clone->{'suffix'};
@@ -184,8 +189,6 @@ sub storeEntry ($$) {
                             } }     @pAttErns;
 
         foreach my $form (keys %{$Clone->{'types'}}) {
-
-            next if $form eq $Clone->{'form'};
 
             my $match = $form;
 
@@ -285,11 +288,18 @@ sub closeEntry {
 
             $entry = $1;
             $suffix = ' |< At' . $suffix;
+
+            $entry =~ s/ay$/Y/;
         }
 
         if ($entry =~ /^(...+)iyy$/) {
 
-            if ($entry =~ /^(...+)awiyy$/) {
+            if ($entry =~ /^([\.\_\^]?[^\.\_\^][aiu][\.\_\^]?[^\.\_\^])awiyy$/) {
+
+                $entry = $1;
+                $suffix = ' |<< "awIy"' . $suffix;
+            }
+            elsif ($entry =~ /^(...+)awiyy$/) {
 
                 $entry = $1 . "Y";
                 $suffix = ' |< Iy' . $suffix;
@@ -353,6 +363,8 @@ sub closeEntry {
             my @toor = ();
 
             if (defined $F or defined $C or defined $L) {
+
+                $F = $char if defined $F and $F eq 't' and $ptrn =~ /^(?:Mu|[IU])?Ft/;
 
                 @toor = ($F, $C, $L);
 
@@ -454,31 +466,34 @@ sub storeType {
 
     my ($form, $type, $tags) = @_;
 
+    $Entry->{'tags'}->{$tags}++ unless $tags eq '';
+
     return if $type =~ /^NK/;
 
     if ($type =~ /^Nap/) {
 
         if ($form =~ /A$/) {
 
-            if ($form . 'T' eq $Entry->{'form'}) {
+            return if $form . 'T' eq $Entry->{'form'};
 
-                $form .= 'T';
-            }
-            else {
-
-                $form =~ s/A$/Y/;
-            }
+            $form =~ s/A$/Y/;
         }
         else {
 
-            if ($form . 'aT' eq $Entry->{'form'}) {
-
-                $form .= 'aT';
-            }
+            return if $form . 'aT' eq $Entry->{'form'};
         }
     }
+    elsif ($type =~ /^NA/) {
 
-    $Entry->{'tags'}->{$tags}++ unless $tags eq '';
+        $form =~ s/ay$/Y/;
+    }
+    else {
+
+        $form =~ s/(?<![aiuIU])yA$/yY/;    ## Fischer (2001), par 10
+    }
+
+    return unless $form ne $Entry->{'form'} or $type =~ /^[CIP]V/
+                                            or $type =~ /(?:At|iyn)(?:_|$)/;
 
     $Entry->{'types'}->{$form}->{$type}++;
 }

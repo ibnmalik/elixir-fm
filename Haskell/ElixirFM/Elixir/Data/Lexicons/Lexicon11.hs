@@ -50,7 +50,8 @@ lexicon = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- muzAHamap -}        [ "competition", "rivalry" ],
 
-    IFtiCAL                   `noun`    {- AizodiHAm -}        [ "crowd", "jam" ],
+    IFtiCAL                   `noun`    {- AizodiHAm -}        [ "crowd", "jam" ]
+                              `plural`     IFtiCAL |< At,
 
     MuFtaCiL                  `adj`     {- muzodaHim -}        [ "crowded", "jammed" ] ]
 
@@ -98,9 +99,11 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `verb`    {- OazoEaj -}          [ "bother", "anger", "harass", "be bothered", "be angered", "be harassed" ],
 
-    HiFCAL                    `noun`    {- IizoEAj -}          [ "disturbance", "harassment" ],
+    HiFCAL                    `noun`    {- IizoEAj -}          [ "disturbance", "harassment" ]
+                              `plural`     HiFCAL |< At,
 
-    InFiCAL                   `noun`    {- AinoziEAj -}        [ "disturbance", "trouble" ],
+    InFiCAL                   `noun`    {- AinoziEAj -}        [ "disturbance", "trouble" ]
+                              `plural`     InFiCAL |< At,
 
     MunFaCiL                  `adj`     {- munozaEij -}        [ "angry", "annoyed", "bothered" ] ]
 
@@ -184,7 +187,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oazohar -}          [ "more/most radiant" ],
 
-    IFtiCAL                   `noun`    {- AizodihAr -}        [ "prosperity", "thriving" ] ]
+    IFtiCAL                   `noun`    {- AizodihAr -}        [ "prosperity", "thriving" ]
+                              `plural`     IFtiCAL |< At ]
 
  |> "z h w" <| [
 
@@ -192,11 +196,13 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `noun`    {- OazohaY -}          [ "more/most splendid", "more/most conceited", "most splendid", "most conceited" ],
 
-    FACI                      `adj`     {- zAhiy -}            [ "resplendent", "magnificent" ] ]
+    FACI                      `adj`     {- zAhiy -}            [ "resplendent", "magnificent" ]
+                              `plural`     FACI |< At ]
 
  |> "z h y" <| [
 
-    FACI                      `adj`     {- zAhiy -}            [ "resplendent", "magnificent" ] ]
+    FACI                      `adj`     {- zAhiy -}            [ "resplendent", "magnificent" ]
+                              `plural`     FACI |< At ]
 
  |> "z k m" <| [
 
@@ -228,13 +234,15 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACiL
                            {- `others`  [ "mazAliq Ndip" ] -},
 
-    MaFCaL                    `noun`    {- mazolaq -}          [ "loading ramp", "railroad crossing" ],
+    MaFCaL                    `noun`    {- mazolaq -}          [ "loading ramp", "railroad crossing" ]
+                              `plural`     MaFCaL |< At,
 
     MiFCaL |< aT              `noun`    {- mizolaqap -}        [ "sleigh", "sled", "sleighs", "sleds" ]
                               `plural`     MaFACiL
                            {- `others`  [ "mazAliq Ndip" ] -},
 
-    InFiCAL                   `noun`    {- AinozilAq -}        [ "slipping", "skating/skiing", "drift" ],
+    InFiCAL                   `noun`    {- AinozilAq -}        [ "slipping", "skating/skiing", "drift" ]
+                              `plural`     InFiCAL |< At,
 
     MunFaCiL                  `adj`     {- munozaliq -}        [ "sliding", "skating/skiing", "drifting" ] ]
 
@@ -276,7 +284,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL |< Iy               `adj`     {- zamaniy~ -}         [ "temporal", "time" ],
 
-    TaFACuL                   `noun`    {- tazAmun -}          [ "simultaneity", "coincidence" ],
+    TaFACuL                   `noun`    {- tazAmun -}          [ "simultaneity", "coincidence" ]
+                              `plural`     TaFACuL |< At,
 
     MuFCiL                    `adj`     {- muzomin -}          [ "enduring", "chronic" ],
 
@@ -309,7 +318,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "z r '" <| [
 
-    IFtiCAL                   `noun`    {- AizodirA' -}        [ "contempt", "disregard" ] ]
+    IFtiCAL                   `noun`    {- AizodirA' -}        [ "contempt", "disregard" ]
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiCA' |< At ]
 
  |> "z r `" <| [
 
@@ -361,7 +372,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "z r y" <| [
 
-    IFtiCA'                   `noun`    {- AizodirA' -}        [ "contempt", "disregard" ] ]
+    IFtiCA'                   `noun`    {- AizodirA' -}        [ "contempt", "disregard" ]
+                              `plural`     IFtiCA' |< At ]
 
  |> "z w ^g" <| [
 
@@ -382,9 +394,11 @@ lexicon = listing "Lexicon's properties"
     FIL |< aT                 `noun`    {- ziyjap -}           [ "marriage", "marriages" ]
                               `plural`     FIL |< At,
 
-    TaFACuL                   `noun`    {- tazAwuj -}          [ "intermarriage" ],
+    TaFACuL                   `noun`    {- tazAwuj -}          [ "intermarriage" ]
+                              `plural`     TaFACuL |< At,
 
-    IFtiCAL                   `noun`    {- AizodiwAj -}        [ "duality" ],
+    IFtiCAL                   `noun`    {- AizodiwAj -}        [ "duality" ]
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL |< Iy             `adj`     {- AizodiwAjiy~ -}     [ "dual", "bi-" ],
 
@@ -408,11 +422,13 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- tazaw~ad -}         [ "be supplied", "be provided" ],
 
-    TaFaCCuL                  `noun`    {- tazaw~ud -}         [ "being supplied", "being provided" ],
+    TaFaCCuL                  `noun`    {- tazaw~ud -}         [ "being supplied", "being provided" ]
+                              `plural`     TaFaCCuL |< At,
 
     FAL                       `noun`    {- zAd -}              [ "provisions", "stores" ],
 
-    TaFCIL                    `noun`    {- tazowiyd -}         [ "supplying", "providing" ],
+    TaFCIL                    `noun`    {- tazowiyd -}         [ "supplying", "providing" ]
+                              `plural`     TaFCIL |< At,
 
     MuFaCCiL                  `noun`    {- muzaw~id -}         [ "supplier" ],
 
@@ -451,9 +467,11 @@ lexicon = listing "Lexicon's properties"
 
     FUL                       `noun`    {- zuwr -}             [ "lie", "falsehood", "force" ],
 
-    MaFAL                     `noun`    {- mazAr -}            [ "visit place", "shrine", "sanctuary" ],
+    MaFAL                     `noun`    {- mazAr -}            [ "visit place", "shrine", "sanctuary" ]
+                              `plural`     MaFAL |< At,
 
-    TaFCIL                    `noun`    {- tazowiyr -}         [ "forgery", "falsification" ],
+    TaFCIL                    `noun`    {- tazowiyr -}         [ "forgery", "falsification" ]
+                              `plural`     TaFCIL |< At,
 
     FA'iL                     `noun`    {- zA}ir -}            [ "visitor", "tourist", "visitors", "tourists" ]
                               `plural`     FUCAL
@@ -472,8 +490,8 @@ lexicon = listing "Lexicon's properties"
  |> "z w y" <| [
 
     FACI |< aT                `noun`    {- zAwiyap -}          [ "corner", "nook", "angle", "corners", "nooks", "angles" ]
-                              `plural`     FaCAyA
-                           {- `others`  [ "zawAyA N0_Nhy" ] -} ]
+                              `plural`     FaCALY
+                           {- `others`  [ "zawAyY N0_Nhy" ] -} ]
 
  |> "z y '" <| [
 
@@ -510,7 +528,8 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- ziyAdap -}          [ "increase", "addition" ],
 
-    MaFAL                     `noun`    {- mazAd -}            [ "auction" ],
+    MaFAL                     `noun`    {- mazAd -}            [ "auction" ]
+                              `plural`     MaFAL |< At,
 
     MaFIL                     `noun`    {- maziyd -}           [ "more", "greater number" ],
 
@@ -518,11 +537,15 @@ lexicon = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- muzAyadap -}        [ "auction", "public tender", "exaggeration" ],
 
-    TaFaCCuL                  `noun`    {- tazay~ud -}         [ "exaggeration" ],
+    TaFaCCuL                  `noun`    {- tazay~ud -}         [ "exaggeration" ]
+                              `plural`     TaFaCCuL |< At,
 
-    TaFACuL                   `noun`    {- tazAyud -}          [ "increment", "gradual increase" ],
+    TaFACuL                   `noun`    {- tazAyud -}          [ "increment", "gradual increase" ]
+                              `plural`     TaFACuL |< At,
 
-    IFtiCAL                   `noun`    {- AizodiyAd -}        [ "increase", "intensification" ],
+    IFtiCAL                   `noun`    {- AizodiyAd -}        [ "increase", "intensification" ]
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiyAL |< At,
 
     FACiL                     `noun`    {- zAyid -}            [ "Zayid", "Zayed" ],
 
@@ -534,7 +557,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCCaL                    `verb`    {- zay~af -}           [ "counterfeit", "consider spurious" ],
 
-    TaFCIL                    `noun`    {- tazoyiyf -}         [ "forgery", "falsification" ],
+    TaFCIL                    `noun`    {- tazoyiyf -}         [ "forgery", "falsification" ]
+                              `plural`     TaFCIL |< At,
 
     MuFaCCaL                  `adj`     {- muzay~af -}         [ "forged", "counterfeit", "pseudo" ] ]
 
@@ -556,7 +580,8 @@ lexicon = listing "Lexicon's properties"
 
     FIL |< aT                 `noun`    {- ziynap -}           [ "embellishment", "decoration" ],
 
-    TaFCIL                    `noun`    {- tazoyiyn -}         [ "ornamentation", "embellishment" ] ]
+    TaFCIL                    `noun`    {- tazoyiyn -}         [ "ornamentation", "embellishment" ]
+                              `plural`     TaFCIL |< At ]
 
  |> "z y r" <| [
 

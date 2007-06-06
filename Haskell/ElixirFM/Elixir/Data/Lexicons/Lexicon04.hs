@@ -28,6 +28,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- vaOor -}            [ "revenge", "retaliation", "retaliations" ]
                               `plural`     HaFCAL
+                              `plural`     FaCL |< At
                            {- `others`  [ "'a_t'Ar N" ] -},
 
     FACiL                     `noun`    {- vA}ir -}            [ "agitated", "exited" ],
@@ -68,9 +69,11 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oavobat -}          [ "more/most reliable", "steadier" ],
 
-    TaFCIL                    `noun`    {- tavobiyt -}         [ "substantiation", "stabilization" ],
+    TaFCIL                    `noun`    {- tavobiyt -}         [ "substantiation", "stabilization" ]
+                              `plural`     TaFCIL |< At,
 
-    TaFaCCuL                  `noun`    {- tavab~ut -}         [ "ascertainment", "verification" ],
+    TaFaCCuL                  `noun`    {- tavab~ut -}         [ "ascertainment", "verification" ]
+                              `plural`     TaFaCCuL |< At,
 
     FACiL                     `adj`     {- vAbit -}            [ "established", "proven", "permanent" ],
 
@@ -79,6 +82,10 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "_tawAbit Ndip" ] -},
 
     MuFaCCiL                  `noun`    {- muvab~it -}         [ "fixative", "fixing fluid" ] ]
+
+ |> "_t b y" <| [
+
+    FaC |< At                 `noun`    {- vabAt -}            [ "reliability", "constancy" ] ]
 
  |> "_t d y" <| [
 
@@ -154,7 +161,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oavoman -}          [ "costlier", "more valuable" ],
 
-    TaFCIL                    `noun`    {- tavomiyn -}         [ "appraisal", "rating" ],
+    TaFCIL                    `noun`    {- tavomiyn -}         [ "appraisal", "rating" ]
+                              `plural`     TaFCIL |< At,
 
     MuFCaL                    `noun`    {- muvoman -}          [ "valuable" ],
 
@@ -168,11 +176,13 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCAL
                            {- `others`  [ "_tamAn Numb" ] -},
 
-    TaFCIL                    `noun`    {- tavomiyn -}         [ "octagonal", "eightfold" ] ]
+    TaFCIL                    `noun`    {- tavomiyn -}         [ "octagonal", "eightfold" ]
+                              `plural`     TaFCIL |< At ]
 
  |> "_t m n n" <| [
 
-    KaRADIS                   `noun`    {- vamAniyn -}         [ "eighties" ] ]
+    KaRADIS                   `noun`    {- vamAniyn -}         [ "eighties" ]
+                              `plural`     KaRADIS |< At ]
 
  |> "_t m r" <| [
 
@@ -193,7 +203,8 @@ lexicon = listing "Lexicon's properties"
 
     IstiFCAL                  `noun`    {- AisotivomAr -}      [ "invest", "investing" ],
 
-    IstiFCAL                  `noun`    {- AisotivomAr -}      [ "investment" ],
+    IstiFCAL                  `noun`    {- AisotivomAr -}      [ "investment" ]
+                              `plural`     IstiFCAL |< At,
 
     IstiFCAL |< Iy            `adj`     {- AisotivomAriy~ -}   [ "investment" ],
 
@@ -209,7 +220,9 @@ lexicon = listing "Lexicon's properties"
 
     FuCAL |< Iy               `adj`     {- vunA}iy~ -}         [ "bilateral", "dual" ],
 
-    IstiFCAL                  `noun`    {- AisotivonA' -}      [ "exception", "exclusion", "exceptions", "exclusions" ],
+    IstiFCAL                  `noun`    {- AisotivonA' -}      [ "exception", "exclusion", "exceptions", "exclusions" ]
+                              `plural`     IstiFCAL |< At
+                              `plural`     IstiFCA' |< At,
 
     IstiFCAL |< Iy            `adj`     {- AisotivonA}iy~ -}   [ "exceptional", "extraordinary" ] ]
 
@@ -231,7 +244,8 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- vAniy -}            [ "Second" ],
 
-    FACI                      `adj`     {- vAniy -}            [ "second", "next" ],
+    FACI                      `adj`     {- vAniy -}            [ "second", "next" ]
+                              `plural`     FACI |< At,
 
     FACI |< aN                `noun`    {- vAniyAF -}          [ "secondly" ]
                               `plural`     FACI
@@ -241,7 +255,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACI
                            {- `others`  [ "_tawAniy N0_Nh" ] -},
 
-    IstiFCA'                  `noun`    {- AisotivonA' -}      [ "exception", "exclusion", "exceptions", "exclusions" ],
+    IstiFCA'                  `noun`    {- AisotivonA' -}      [ "exception", "exclusion", "exceptions", "exclusions" ]
+                              `plural`     IstiFCA' |< At,
 
     IstiFCA' |< Iy            `adj`     {- AisotivonA}iy~ -}   [ "exceptional", "extraordinary" ],
 
@@ -255,7 +270,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- vaqAfap -}          [ "culture", "civilization" ],
 
-    TaFCIL                    `noun`    {- tavoqiyf -}         [ "education", "cultivation" ],
+    TaFCIL                    `noun`    {- tavoqiyf -}         [ "education", "cultivation" ]
+                              `plural`     TaFCIL |< At,
 
     MuFaCCaL                  `noun`    {- muvaq~af -}         [ "intellectual", "cultivated", "cultured", "educated" ] ]
 
@@ -280,7 +296,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- varA' -}            [ "wealth", "abundance" ],
 
-    HiFCAL                    `noun`    {- IivorA' -}          [ "enrichment" ] ]
+    HiFCAL                    `noun`    {- IivorA' -}          [ "enrichment" ]
+                              `plural`     HiFCAL |< At
+                              `plural`     HiFCA' |< At ]
 
  |> "_t r _t r" <| [
 
@@ -301,7 +319,12 @@ lexicon = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- varA' -}            [ "wealth", "abundance" ],
 
-    HiFCA'                    `noun`    {- IivorA' -}          [ "enrichment" ] ]
+    HiFCA'                    `noun`    {- IivorA' -}          [ "enrichment" ]
+                              `plural`     HiFCA' |< At,
+
+    FaC |< Iy                 `adj`     {- variy~ -}           [ "wealthy" ]
+                              `plural`     HaFCiLA'
+                           {- `others`  [ "'a_triyA' Nh N0_Nh Nhy" ] -} ]
 
  |> "_t w b" <| [
 
@@ -313,9 +336,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "_t w m" <| [
 
-    FUL                       `noun`    {- vuwm -}             [ "garlic", "garlic clove" ],
+    FUL                       `noun`    {- vuwm -}             [ "garlic", "garlic clove" ]
+                              `plural`     FUL |< At,
 
-    FUL                       `noun`    {- vuwm -}             [ "garlic", "garlic clove" ] ]
+    FUL                       `noun`    {- vuwm -}             [ "garlic", "garlic clove" ]
+                              `plural`     FUL |< At ]
 
  |> "_t w r" <| [
 

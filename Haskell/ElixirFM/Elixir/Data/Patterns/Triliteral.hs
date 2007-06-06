@@ -141,6 +141,8 @@ instance Forming PatternT where
                                 _           ->      x
 
 
+   -- Fischer (2001), par. 239 (ra'Y, wa'Y), 258 (ya.hyY), etc.
+
     verbStems I = [
 
         -- Regular
@@ -177,6 +179,7 @@ instance Forming PatternT where
         -- Third
 
         (   FaCA,       FuCI,       FCU,        FCY         ),  -- da`A
+        (   FaCU,       FuCI,       FCU,        FCY         ),  -- .haluwa
         (   FaCY,       FuCI,       FCI,        FCY         ),  -- ramY
         (   FaCY,       FuCI,       FY,         FY          ),  -- ra'Y
         (   FaCI,       FuCI,       FCY,        FCY         ),  -- nasiya
@@ -197,9 +200,9 @@ instance Forming PatternT where
 
     verbStems II = [
 
-        (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
-        (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
-        (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
+     -- (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
+     -- (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
+     -- (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
         (   FaCCY,      FuCCI,      FaCCI,      FaCCY       ),
         (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      )
 
@@ -209,8 +212,8 @@ instance Forming PatternT where
     verbStems III = [
 
         (   FACaL,      FUCiL,      FACiL,      FACaL       ),
-        (   FACaL,      FUCiL,      FACiL,      FACaL       ),
-        (   FACaL,      FUCiL,      FACiL,      FACaL       ),
+     -- (   FACaL,      FUCiL,      FACiL,      FACaL       ),
+     -- (   FACaL,      FUCiL,      FACiL,      FACaL       ),
         (   FACY,       FUCI,       FACI,       FACY        ),
         (   FACL,       FUCL,       FACL,       FACL        )
 
@@ -233,9 +236,9 @@ instance Forming PatternT where
 
     verbStems V = [
 
-        (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
-        (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
-        (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
+     -- (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
+     -- (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
+     -- (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
         (   TaFaCCY,    TuFuCCI,    TaFaCCY,    TaFaCCY     ),
         (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    )
 
@@ -245,8 +248,8 @@ instance Forming PatternT where
     verbStems VI = [
 
         (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
-        (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
-        (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
+     -- (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
+     -- (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
         (   TaFACY,     TuFUCI,     TaFACY,     TaFACY      ),
         (   TaFACL,     TuFUCL,     TaFACL,     TaFACL      )
 
@@ -256,7 +259,7 @@ instance Forming PatternT where
     verbStems VII = [
 
         (   InFaCaL,    UnFuCiL,    NFaCiL,     NFaCaL      ),
-        (   InFaCaL,    UnFuCiL,    NFaCiL,     NFaCaL      ),
+     -- (   InFaCaL,    UnFuCiL,    NFaCiL,     NFaCaL      ),
         (   InFAL,      UnFIL,      NFAL,       NFAL        ),
         (   InFaCY,     UnFuCI,     NFaCI,      NFaCY       ),
         (   InFaCL,     UnFuCL,     NFaCL,      NFaCL       )
@@ -267,7 +270,7 @@ instance Forming PatternT where
     verbStems VIII = [
 
         (   IFtaCaL,    UFtuCiL,    FtaCiL,     FtaCaL      ),
-        (   IFtaCaL,    UFtuCiL,    FtaCiL,     FtaCaL      ),
+     -- (   IFtaCaL,    UFtuCiL,    FtaCiL,     FtaCaL      ),
         (   IFtAL,      UFtIL,      FtAL,       FtAL        ),
         (   IFtaCY,     UFtuCI,     FtaCI,      FtaCY       ),
         (   IFtaCL,     UFtuCL,     FtaCL,      FtaCL       )
@@ -371,12 +374,13 @@ instance Rules PatternT where
                         else "i"
 -}
 
-    -- Fischer (2001), para. 153, 93 ff, 99, etc.
+    -- Fischer (2001), par. 153, 93 ff, 99, etc.
 
     isDiptote = flip elem [ HaFCaL, HACaL,
                             FaCLY,
                             FiCLY,
                             FuCLY,
+                            FaCaLY,
                             FaCALY,
                             FuCALY,
                             FaCLA',
@@ -449,9 +453,9 @@ data PatternT =
                                         |   FiL
                                         |   FuL         |   FU
 
-    {-- |   FaCL    --}
-    {-- |   FiCL    --}
-    {-- |   FuCL    --}
+    {-- |   FaCL    --}                                 |   FaC
+    {-- |   FiCL    --}                                 |   FiC
+    {-- |   FuCL    --}                                 |   FuC
 
         |   FaCAL                                       |   FaCA'
         |   FiCAL                                       |   FiCA'
@@ -520,11 +524,12 @@ data PatternT =
 
         |   FaCLY
         |   FiCLY                       |   FILY
-        |   FuCLY                       |   FULY        |   FuCyA
-                                                        |   FUyA
+        |   FuCLY                       |   FULY
+
+        |   FaCaLY
 
         |   FaCALI
-        |   FaCALY                                      |   FaCAyA
+        |   FaCALY
         |   FuCALY
 
 --  Form II

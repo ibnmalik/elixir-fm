@@ -19,7 +19,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g ' l" <| [
 
-    FAL                       `noun`    {- gAl -}              [ "padlock" ],
+    FAL                       `noun`    {- gAl -}              [ "padlock" ]
+                              `plural`     FAL |< At,
 
     FAL                       `noun`    {- gAl -}              [ "Gaul" ],
 
@@ -30,7 +31,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g ' z" <| [
 
-    FAL                       `noun`    {- gAz -}              [ "gas", "gasses" ],
+    FAL                       `noun`    {- gAz -}              [ "gas", "gasses" ]
+                              `plural`     FAL |< At,
 
     FAL |< Iy                 `adj`     {- gAziy~ -}           [ "gaseous" ] ]
 
@@ -71,11 +73,13 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g .d w" <| [
 
-    TaFACI                    `noun`    {- tagADiy -}          [ "indifference", "condoning" ] ]
+    TaFACI                    `noun`    {- tagADiy -}          [ "indifference", "condoning" ]
+                              `plural`     TaFACI |< At ]
 
  |> ".g .d y" <| [
 
-    TaFACI                    `noun`    {- tagADiy -}          [ "indifference", "condoning" ] ]
+    TaFACI                    `noun`    {- tagADiy -}          [ "indifference", "condoning" ]
+                              `plural`     TaFACI |< At ]
 
  |> ".g .s .s" <| [
 
@@ -86,7 +90,8 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCaL                   `verb`    {- AigotaSab -}        [ "rape", "usurp" ],
 
-    IFtiCAL                   `noun`    {- AigotiSAb -}        [ "rape", "usurpation" ],
+    IFtiCAL                   `noun`    {- AigotiSAb -}        [ "rape", "usurpation" ]
+                              `plural`     IFtiCAL |< At,
 
     MuFtaCiL                  `noun`    {- mugotaSib -}        [ "usurper", "rapist" ],
 
@@ -107,7 +112,8 @@ lexicon = listing "Lexicon's properties"
 
     KaRDaS |< aT              `noun`    {- gaTorasap -}        [ "arrogance", "insolence" ],
 
-    TaKaRDuS                  `noun`    {- tagaTorus -}        [ "arrogance", "insolence" ] ]
+    TaKaRDuS                  `noun`    {- tagaTorus -}        [ "arrogance", "insolence" ]
+                              `plural`     TaKaRDuS |< At ]
 
  |> ".g .t s" <| [
 
@@ -125,7 +131,8 @@ lexicon = listing "Lexicon's properties"
 
     TaFCI |< aT               `noun`    {- tagoTiyap -}        [ "coverage", "covering" ],
 
-    MuFaCCY                   `adj`     {- mugaT~aY -}         [ "covered" ] ]
+    MuFaCCY                   `adj`     {- mugaT~aY -}         [ "covered" ]
+                              `plural`     MuFaCCY |< At ]
 
  |> ".g .t y" <| [
 
@@ -233,6 +240,8 @@ lexicon = listing "Lexicon's properties"
     FaCA'                     `noun`    {- gadA' -}            [ "breakfast", "lunch" ]
                               `plural`     HaFCI |< aT,
 
+    FaC                       `noun`    {- gad -}              [ "tomorrow" ],
+
     FaCY |< aT                `noun`    {- gadAp -}            [ "morning", "tomorrow", "comings", "mornings" ]
                               `plural`     FaCaL |< At ]
 
@@ -240,7 +249,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `verb`    {- Oagofal -}          [ "neglect", "overlook", "disregard", "be neglected", "be overlooked", "be disregarded" ],
 
-    HiFCAL                    `noun`    {- IigofAl -}          [ "disregard", "omission", "forgetting" ],
+    HiFCAL                    `noun`    {- IigofAl -}          [ "disregard", "omission", "forgetting" ]
+                              `plural`     HiFCAL |< At,
 
     FACiL                     `adj`     {- gAfil -}            [ "negligent", "inattentive", "forgetful" ],
 
@@ -261,7 +271,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g l .g l" <| [
 
-    TaKaRDuS                  `noun`    {- tagalogul -}        [ "penetration", "invasion" ] ]
+    TaKaRDuS                  `noun`    {- tagalogul -}        [ "penetration", "invasion" ]
+                              `plural`     TaKaRDuS |< At ]
 
  |> ".g l .t" <| [
 
@@ -285,9 +296,11 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL |< Iy |< aT        `noun`    {- Oagolabiy~ap -}     [ "majority" ],
 
-    TaFCIL                    `noun`    {- tagoliyb -}         [ "preference", "granting victory" ],
+    TaFCIL                    `noun`    {- tagoliyb -}         [ "preference", "granting victory" ]
+                              `plural`     TaFCIL |< At,
 
-    TaFaCCuL                  `noun`    {- tagal~ub -}         [ "surmounting", "overcoming" ],
+    TaFaCCuL                  `noun`    {- tagal~ub -}         [ "surmounting", "overcoming" ]
+                              `plural`     TaFaCCuL |< At,
 
     FACiL                     `noun`    {- gAlib -}            [ "winner", "victorious" ],
 
@@ -301,14 +314,17 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- gilAf -}            [ "cover", "covers" ]
                               `plural`     HaFCiL |< aT
+                              `plural`     FiCAL |< At
                               `plural`     FuCuL
                            {- `others`  [ ".guluf N" ] -},
 
-    TaFCIL                    `noun`    {- tagoliyf -}         [ "wrapping", "covering" ],
+    TaFCIL                    `noun`    {- tagoliyf -}         [ "wrapping", "covering" ]
+                              `plural`     TaFCIL |< At,
 
     MuFaCCaL                  `adj`     {- mugal~af -}         [ "wrapped", "covered" ],
 
-    MuFaCCaL                  `noun`    {- mugal~af -}         [ "envelope", "package" ] ]
+    MuFaCCaL                  `noun`    {- mugal~af -}         [ "envelope", "package" ]
+                              `plural`     MuFaCCaL |< At ]
 
  |> ".g l l" <| [
 
@@ -316,7 +332,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- galiyl -}           [ "passion", "rancor" ],
 
-    IstiFCAL                  `noun`    {- AisotigolAl -}      [ "exploitation", "utilization" ],
+    IstiFCAL                  `noun`    {- AisotigolAl -}      [ "exploitation", "utilization" ]
+                              `plural`     IstiFCAL |< At,
 
     MustaFiCL                 `noun`    {- musotagil~ -}       [ "exploiting" ],
 
@@ -328,9 +345,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- galoq -}            [ "closing", "locking" ],
 
-    HiFCAL                    `noun`    {- IigolAq -}          [ "locking", "closing", "barring" ],
+    HiFCAL                    `noun`    {- IigolAq -}          [ "locking", "closing", "barring" ]
+                              `plural`     HiFCAL |< At,
 
-    InFiCAL                   `noun`    {- AinogilAq -}        [ "impenetrability", "closing" ],
+    InFiCAL                   `noun`    {- AinogilAq -}        [ "impenetrability", "closing" ]
+                              `plural`     InFiCAL |< At,
 
     MuFCaL                    `adj`     {- mugolaq -}          [ "closed", "locked" ] ]
 
@@ -344,13 +363,16 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `noun`    {- OagolaY -}          [ "more/most expensive", "most expensive" ],
 
-    MuFACY |< aT              `noun`    {- mugAlAp -}          [ "exaggeration", "excess", "exaggerations", "excesses" ],
+    MuFACY |< aT              `noun`    {- mugAlAp -}          [ "exaggeration", "excess", "exaggerations", "excesses" ]
+                              `plural`     MuFACY |< At,
 
-    FACI                      `noun`    {- gAliy -}            [ "costly", "beloved" ] ]
+    FACI                      `noun`    {- gAliy -}            [ "costly", "beloved" ]
+                              `plural`     FACI |< At ]
 
  |> ".g l y" <| [
 
-    FACI                      `noun`    {- gAliy -}            [ "costly", "beloved" ],
+    FACI                      `noun`    {- gAliy -}            [ "costly", "beloved" ]
+                              `plural`     FACI |< At,
 
     HaFCY                     `verb`    {- OagolaY -}          [ "boil", "make boil", "be boiled" ],
 
@@ -398,7 +420,9 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL |< Iy               `adj`     {- ginA}iy~ -}         [ "singing", "vocal", "lyrical" ],
 
-    IstiFCAL                  `noun`    {- AisotigonA' -}      [ "dispensing with", "renunciation" ] ]
+    IstiFCAL                  `noun`    {- AisotigonA' -}      [ "dispensing with", "renunciation" ]
+                              `plural`     IstiFCAL |< At
+                              `plural`     IstiFCA' |< At ]
 
  |> ".g n d r" <| [
 
@@ -423,7 +447,8 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- gAnim -}            [ "successful" ],
 
-    IFtiCAL                   `noun`    {- AigotinAm -}        [ "profiting from", "seizing (opportunity)" ] ]
+    IFtiCAL                   `noun`    {- AigotinAm -}        [ "profiting from", "seizing (opportunity)" ]
+                              `plural`     IFtiCAL |< At ]
 
  |> ".g n y" <| [
 
@@ -448,7 +473,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFACI
                            {- `others`  [ "'a.gAniy N0_Nh" ] -},
 
-    IstiFCA'                  `noun`    {- AisotigonA' -}      [ "dispensing with", "renunciation" ],
+    IstiFCA'                  `noun`    {- AisotigonA' -}      [ "dispensing with", "renunciation" ]
+                              `plural`     IstiFCA' |< At,
 
     FACI |< aT                `noun`    {- gAniyap -}          [ "pretty girl", "belle", "pretty girls", "belles" ]
                               `plural`     FawACI
@@ -456,7 +482,9 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g r '" <| [
 
-    HiFCAL                    `noun`    {- IigorA' -}          [ "incitement", "instigation" ] ]
+    HiFCAL                    `noun`    {- IigorA' -}          [ "incitement", "instigation" ]
+                              `plural`     HiFCAL |< At
+                              `plural`     HiFCA' |< At ]
 
  |> ".g r .d" <| [
 
@@ -499,9 +527,11 @@ lexicon = listing "Lexicon's properties"
     MaFCiL |< Iy              `adj`     {- magoribiy~ -}       [ "of/from the Maghrib (northwest Africa)" ]
                               `plural`     MaFACiL |< aT,
 
-    IFtiCAL                   `noun`    {- AigotirAb -}        [ "emigration", "alienation" ],
+    IFtiCAL                   `noun`    {- AigotirAb -}        [ "emigration", "alienation" ]
+                              `plural`     IFtiCAL |< At,
 
-    IstiFCAL                  `noun`    {- AisotigorAb -}      [ "astonishment", "surprise" ],
+    IstiFCAL                  `noun`    {- AisotigorAb -}      [ "astonishment", "surprise" ]
+                              `plural`     IstiFCAL |< At,
 
     MuFtaCiL                  `adj`     {- mugotarib -}        [ "expatriate", "foreigner", "exiled" ],
 
@@ -546,9 +576,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- garaq -}            [ "drowning", "sinking", "inundation" ],
 
-    HiFCAL                    `noun`    {- IigorAq -}          [ "drowning", "sinking" ],
+    HiFCAL                    `noun`    {- IigorAq -}          [ "drowning", "sinking" ]
+                              `plural`     HiFCAL |< At,
 
-    HiFCAL                    `noun`    {- IigorAq -}          [ "excess", "over-" ],
+    HiFCAL                    `noun`    {- IigorAq -}          [ "excess", "over-" ]
+                              `plural`     HiFCAL |< At,
 
     FACiL                     `adj`     {- gAriq -}            [ "drowned", "immersed", "engrossed" ] ]
 
@@ -574,13 +606,16 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `verb`    {- OagoraY -}          [ "incite", "induce", "provoke", "be incited", "be provoked" ],
 
-    HiFCA'                    `noun`    {- IigorA' -}          [ "incitement", "instigation" ],
+    HiFCA'                    `noun`    {- IigorA' -}          [ "incitement", "instigation" ]
+                              `plural`     HiFCA' |< At,
 
-    MuFCI                     `adj`     {- mugoriy -}          [ "inciting", "instigating", "alluring" ] ]
+    MuFCI                     `adj`     {- mugoriy -}          [ "inciting", "instigating", "alluring" ]
+                              `plural`     MuFCI |< At ]
 
  |> ".g r y" <| [
 
-    MuFCI                     `adj`     {- mugoriy -}          [ "inciting", "instigating", "alluring" ] ]
+    MuFCI                     `adj`     {- mugoriy -}          [ "inciting", "instigating", "alluring" ]
+                              `plural`     MuFCI |< At ]
 
  |> ".g r z" <| [
 
@@ -600,7 +635,8 @@ lexicon = listing "Lexicon's properties"
     FaCCAL |< aT              `noun`    {- gas~Alap -}         [ "washing machine", "washing machines" ]
                               `plural`     FaCCAL |< At,
 
-    IFtiCAL                   `noun`    {- AigotisAl -}        [ "washing", "bath", "ablution" ] ]
+    IFtiCAL                   `noun`    {- AigotisAl -}        [ "washing", "bath", "ablution" ]
+                              `plural`     IFtiCAL |< At ]
 
  |> ".g s n" <| [
 
@@ -608,7 +644,9 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g w '" <| [
 
-    HiFCAL                    `noun`    {- IigowA' -}          [ "seduction", "allurement" ] ]
+    HiFCAL                    `noun`    {- IigowA' -}          [ "seduction", "allurement" ]
+                              `plural`     HiFCAL |< At
+                              `plural`     HiFCA' |< At ]
 
  |> ".g w .s" <| [
 
@@ -639,7 +677,8 @@ lexicon = listing "Lexicon's properties"
 
     IFtAL                     `verb`    {- AigotAl -}          [ "assassinate", "murder", "be assassinated", "be murdered" ],
 
-    IFtiyAL                   `noun`    {- AigotiyAl -}        [ "assassination", "murder" ],
+    IFtiyAL                   `noun`    {- AigotiyAl -}        [ "assassination", "murder" ]
+                              `plural`     IFtiyAL |< At,
 
     FA'iL |< aT               `noun`    {- gA}ilap -}          [ "calamity", "havoc", "calamities" ]
                               `plural`     FawA'iL
@@ -668,7 +707,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g w y" <| [
 
-    HiFCA'                    `noun`    {- IigowA' -}          [ "seduction", "allurement" ] ]
+    HiFCA'                    `noun`    {- IigowA' -}          [ "seduction", "allurement" ]
+                              `plural`     HiFCA' |< At ]
 
  |> ".g y _t" <| [
 
@@ -702,7 +742,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCCAL
                            {- `others`  [ ".guyyab N", ".guyyAb N" ] -},
 
-    MuFaCCaL                  `adj`     {- mugay~ab -}         [ "hidden", "concealed", "occult", "metaphysical" ] ]
+    MuFaCCaL                  `adj`     {- mugay~ab -}         [ "hidden", "concealed", "occult", "metaphysical" ]
+                              `plural`     MuFaCCaL |< At ]
 
  |> ".g y b b" <| [
 
@@ -710,7 +751,9 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g y l" <| [
 
-    IFtiCAL                   `noun`    {- AigotiyAl -}        [ "assassination", "murder" ] ]
+    IFtiCAL                   `noun`    {- AigotiyAl -}        [ "assassination", "murder" ]
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiyAL |< At ]
 
  |> ".g y r" <| [
 
@@ -722,13 +765,17 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- tagay~ar -}         [ "be changed", "be modified" ],
 
-    FiCAL                     `noun`    {- giyAr -}            [ "exchange", "interchange", "replacement" ],
+    FiCAL                     `noun`    {- giyAr -}            [ "exchange", "interchange", "replacement" ]
+                              `plural`     FiCAL |< At,
 
-    TaFCIL                    `noun`    {- tagoyiyr -}         [ "change", "modification", "replacement" ],
+    TaFCIL                    `noun`    {- tagoyiyr -}         [ "change", "modification", "replacement" ]
+                              `plural`     TaFCIL |< At,
 
-    TaFaCCuL                  `noun`    {- tagay~ur -}         [ "transformation", "change", "variation" ],
+    TaFaCCuL                  `noun`    {- tagay~ur -}         [ "transformation", "change", "variation" ]
+                              `plural`     TaFaCCuL |< At,
 
-    TaFACuL                   `noun`    {- tagAyur -}          [ "dissimilarity", "heterogeneity" ],
+    TaFACuL                   `noun`    {- tagAyur -}          [ "dissimilarity", "heterogeneity" ]
+                              `plural`     TaFACuL |< At,
 
     MuFACiL                   `adj`     {- mugAyir -}          [ "different from", "competing with", "at odds with" ],
 
@@ -783,12 +830,14 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "ma.gAziy N0_Nh" ] -},
 
     FACI                      `adj`     {- gAziy -}            [ "invader", "raider", "aggressor", "invaders", "raiders", "aggressors" ]
-                              `plural`     FuCY |< aT ]
+                              `plural`     FuCY |< aT
+                              `plural`     FACI |< At ]
 
  |> ".g z y" <| [
 
     FACI                      `adj`     {- gAziy -}            [ "invader", "raider", "aggressor", "invaders", "raiders", "aggressors" ]
-                              `plural`     FuCY |< aT ]
+                              `plural`     FuCY |< aT
+                              `plural`     FACI |< At ]
 
  |> ".g z z" <| [
 

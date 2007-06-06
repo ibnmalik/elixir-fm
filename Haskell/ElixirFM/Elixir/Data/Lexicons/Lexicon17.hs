@@ -52,9 +52,11 @@ lexicon = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- muZAharap -}        [ "demonstration", "rally" ],
 
-    HiFCAL                    `noun`    {- IiZohAr -}          [ "expressing", "showing", "demonstrating" ],
+    HiFCAL                    `noun`    {- IiZohAr -}          [ "expressing", "showing", "demonstrating" ]
+                              `plural`     HiFCAL |< At,
 
-    TaFACuL                   `noun`    {- taZAhur -}          [ "demonstration", "exhibition", "simulation" ],
+    TaFACuL                   `noun`    {- taZAhur -}          [ "demonstration", "exhibition", "simulation" ]
+                              `plural`     TaFACuL |< At,
 
     TaFACuL |< aT             `noun`    {- taZAhurap -}        [ "rally", "demonstration" ],
 
@@ -92,7 +94,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL |< Iy               `adj`     {- ZalAmiy~ -}         [ "obscurantist" ],
 
-    TaFaCCuL                  `noun`    {- taZal~um -}         [ "complaint" ],
+    TaFaCCuL                  `noun`    {- taZal~um -}         [ "complaint" ]
+                              `plural`     TaFaCCuL |< At,
 
     FACiL                     `noun`    {- ZAlim -}            [ "oppressor", "tyrant", "oppressors", "tyrants" ]
                               `plural`     FuCCAL

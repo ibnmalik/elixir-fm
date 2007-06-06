@@ -71,7 +71,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; *Al_1
     -- \*Al     *Al     NduAt   dhal (Arabic letter)
 
-    FAL                       `noun`    {- \*Al -}             [ "dhal (Arabic letter)" ] ]
+    FAL                       `noun`    {- \*Al -}             [ "dhal (Arabic letter)" ]
+                              `plural`     FAL |< At ]
 
  |> "_d ' q" <| [
 
@@ -131,7 +132,8 @@ lexicon = listing "Lexicon's properties"
     -- m*xr    mu*ax~ar        N-ap    saved;hoarded
     -- m*xr    mu*ax~ar        NAt     savings;supplies
 
-    MuFaCCaL                  `noun`    {- mu*ax~ar -}         [ "saved", "hoarded", "savings", "supplies" ] ]
+    MuFaCCaL                  `noun`    {- mu*ax~ar -}         [ "saved", "hoarded", "savings", "supplies" ]
+                              `plural`     MuFaCCaL |< At ]
 
  |> "_d ` f" <| [
 
@@ -166,7 +168,8 @@ lexicon = listing "Lexicon's properties"
     -- <*EAn   <i*oEAn NduAt   submissiveness;compliance;obedience
     -- A*EAn   <i*oEAn NduAt   submissiveness;compliance;obedience
 
-    HiFCAL                    `noun`    {- Ii*oEAn -}          [ "submissiveness", "compliance", "obedience" ],
+    HiFCAL                    `noun`    {- Ii*oEAn -}          [ "submissiveness", "compliance", "obedience" ]
+                              `plural`     HiFCAL |< At,
 
     -- ;; mu*oEin_1
     -- m*En    mu*oEin Nall    submissive;compliant;obedient     [[mu*oEin/ADJ]]
@@ -315,7 +318,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; ta*abo*ub_1
     -- t*b*b   ta*abo*ub       NduAt   oscillation;fluctuation
 
-    TaKaRDuS                  `noun`    {- ta*abo*ub -}        [ "oscillation", "fluctuation" ],
+    TaKaRDuS                  `noun`    {- ta*abo*ub -}        [ "oscillation", "fluctuation" ]
+                              `plural`     TaKaRDuS |< At,
 
     -- ;; mu*abo*ib_1
     -- m*b*b   mu*abo*ib       N-ap    oscillator
@@ -700,6 +704,12 @@ lexicon = listing "Lexicon's properties"
 
     FiCLY                     `noun`    {- \*ikoraY -}         [ "commemoration", "remembrance" ],
 
+    -- ;; *ikorayAt_1
+    -- \*kry    *ikoray NAt     memoirs;diary
+
+    FiCLY |< At               `noun`    {- \*ikorayAt -}       [ "memoirs", "diary" ]
+                              `plural`     FiCLY |< At,
+
     -- ;; *akiyr_1
     -- \*kyr    *akiyr  N       steel
 
@@ -713,7 +723,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; ta*okiyr_1
     -- t*kyr   ta*okiyr        NduAt   reminder;memento
 
-    TaFCIL                    `noun`    {- ta*okiyr -}         [ "reminder", "memento" ],
+    TaFCIL                    `noun`    {- ta*okiyr -}         [ "reminder", "memento" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; mu*Akarap_1
     -- m*Akr   mu*Akar NapAt   negotiation;memorization
@@ -723,13 +734,15 @@ lexicon = listing "Lexicon's properties"
     -- ;; ta*ak~ur_1
     -- t*kr    ta*ak~ur        NduAt   remembrance;recollection
 
-    TaFaCCuL                  `noun`    {- ta*ak~ur -}         [ "remembrance", "recollection" ],
+    TaFaCCuL                  `noun`    {- ta*ak~ur -}         [ "remembrance", "recollection" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; {isoti*okAr_1
     -- <st*kAr {isoti*okAr     N/At    memorization
     -- Ast*kAr {isoti*okAr     N/At    memorization
 
-    IstiFCAL                  `noun`    {- Aisoti*okAr -}      [ "memorization" ],
+    IstiFCAL                  `noun`    {- Aisoti*okAr -}      [ "memorization" ]
+                              `plural`     IstiFCAL |< At,
 
     -- ;; *Akirap_1
     -- \*Akr    *Akir   Nap     memory
@@ -980,18 +993,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; ta*oliyl_1
     -- t*lyl   ta*oliyl        NduAt   degradation;surmounting
 
-    TaFCIL                    `noun`    {- ta*oliyl -}         [ "degradation", "surmounting" ],
+    TaFCIL                    `noun`    {- ta*oliyl -}         [ "degradation", "surmounting" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; <i*olAl_1
     -- <*lAl   <i*olAl NduAt   degradation;surmounting
     -- A*lAl   <i*olAl NduAt   degradation;surmounting
 
-    HiFCAL                    `noun`    {- Ii*olAl -}          [ "degradation", "surmounting" ],
+    HiFCAL                    `noun`    {- Ii*olAl -}          [ "degradation", "surmounting" ]
+                              `plural`     HiFCAL |< At,
 
     -- ;; ta*al~ul_1
     -- t*ll    ta*al~ul        NduAt   self-abasement
 
-    TaFaCCuL                  `noun`    {- ta*al~ul -}         [ "self-abasement" ],
+    TaFaCCuL                  `noun`    {- ta*al~ul -}         [ "self-abasement" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; mu*il~_1
     -- m*l     mu*il~  Nall    humiliating;disgraceful     [[mu*il~/ADJ]]
@@ -1115,7 +1131,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; ta*am~ur_1
     -- t*mr    ta*am~ur        NduAt   grumbling;grievance
 
-    TaFaCCuL                  `noun`    {- ta*am~ur -}         [ "grumbling", "grievance" ] ]
+    TaFaCCuL                  `noun`    {- ta*am~ur -}         [ "grumbling", "grievance" ]
+                              `plural`     TaFaCCuL |< At ]
 
  |> "_d m y" <| [
 
@@ -1184,7 +1201,8 @@ lexicon = listing "Lexicon's properties"
     -- m*nb    mu*an~ab        Ndu     comet
     -- m*nb    mu*an~ab        NAt     comets
 
-    MuFaCCaL                  `noun`    {- mu*an~ab -}         [ "comet", "comets" ],
+    MuFaCCaL                  `noun`    {- mu*an~ab -}         [ "comet", "comets" ]
+                              `plural`     MuFaCCaL |< At,
 
     -- ;; mu*onib_1
     -- m*nb    mu*onib Nall    guilty;delinquent     [[mu*onib/ADJ]]
@@ -1573,7 +1591,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; ta*oriyap_1
     -- t*ry    ta*oriy Nap     atomization
 
-    TaFCI |< aT               `noun`    {- ta*oriyap -}        [ "atomization" ] ]
+    TaFCI |< aT               `noun`    {- ta*oriyap -}        [ "atomization" ],
+
+    -- ;; *urap_1
+    -- \*r      *ur     Nap     sorghum;maize
+
+    FuC |< aT                 `noun`    {- \*urap -}           [ "sorghum", "maize" ] ]
 
  |> "_d w `" <| [
 
@@ -1664,7 +1687,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; ta*owiyb_1
     -- t*wyb   ta*owiyb        NduAt   dissolution;liquefaction;melting
 
-    TaFCIL                    `noun`    {- ta*owiyb -}         [ "dissolution", "liquefaction", "melting" ],
+    TaFCIL                    `noun`    {- ta*owiyb -}         [ "dissolution", "liquefaction", "melting" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; <i*Abap_1
     -- <*Ab    <i*Ab   NapAt   dissolution;liquefaction;melting
@@ -1800,7 +1824,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; ta*aw~uq_1
     -- t*wq    ta*aw~uq        NduAt   enjoyment;relish
 
-    TaFaCCuL                  `noun`    {- ta*aw~uq -}         [ "enjoyment", "relish" ],
+    TaFaCCuL                  `noun`    {- ta*aw~uq -}         [ "enjoyment", "relish" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; *A}iqap_1
     -- \*A}q    *A}iq   Nap     sense of taste
@@ -1871,6 +1896,26 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FI
                            {- `others`  [ "_dawuw FW-Wa FW-Wa-a", "_dawiy FW-Wa-y FW-WaBi", "_dawA FW-Wa FW-Wa-A", "_diy FW-Wa" ] -},
 
+    -- ;; *uw_1
+    -- \*w      *uw     FW-Wa   of;with     [[*uw/DEM_PRON_MS]]
+    -- \*y      *iy     FW-Wa   of;with     [[*iy/DEM_PRON_MS]]
+    -- \*A      *A      FW-Wa   of;with     [[*A/DEM_PRON_MS]]
+    -- \*wA     *awA    FW-Wa   (two relatives) of     [[*awA/DEM_PRON_MD]]
+    -- \*wA     *awA    FW-Wa-A (two relatives) of     [[*awA/DEM_PRON_MD]]
+    -- \*wy     *away   FW-WaBi (two relatives) of     [[*away/DEM_PRON_MD]]
+    -- \*wy     *away   FW-Wa-y (two relatives) of     [[*away/DEM_PRON_MD]]
+    -- \*ww     *awuw   FW-Wa   (relatives) of;family     [[*awuw/DEM_PRON_MP]]
+    -- \*ww     *awuw   FW-Wa-a (relatives) of;family     [[*awuw/DEM_PRON_MP]]
+    -- \*wy     *awiy   FW-WaBi (relatives) of;family     [[*awiy/DEM_PRON_MD]]
+    -- \*wy     *awiy   FW-Wa-y (relatives) of;family     [[*awiy/DEM_PRON_MD]]
+
+    FU                        `noun`    {- \*uw -}             [ "of", "with", "(two relatives) of", "(relatives) of", "family" ]
+                              `plural`     FaCU
+                              `plural`     FaCI
+                              `plural`     FaCA
+                              `plural`     FI
+                           {- `others`  [ "_dawuw FW-Wa FW-Wa-a", "_dawiy FW-Wa-y FW-WaBi", "_dawA FW-Wa FW-Wa-A", "_diy FW-Wa" ] -},
+
     -- ;; *awAt_1
     -- \*wAt    *awAt   N       selves;beings
 
@@ -1882,6 +1927,16 @@ lexicon = listing "Lexicon's properties"
     FaL |< At                 `noun`    {- \*awAt -}           [ "those" ] ]
 
  |> "_d w y" <| [
+
+    -- ;; *awAt_1
+    -- \*wAt    *awAt   N       selves;beings
+
+    FaC |< At                 `noun`    {- \*awAt -}           [ "selves", "beings" ],
+
+    -- ;; *awAt_2
+    -- \*wAt    *awAt   FW-WaBi those     [[*awAt/DEM_PRON_FP]]
+
+    FaC |< At                 `noun`    {- \*awAt -}           [ "those" ],
 
     -- ;; *awaY-i_1
     -- \*wY     *awaY   PV_0    wither;fade
@@ -1924,7 +1979,8 @@ lexicon = listing "Lexicon's properties"
     -- \*Aw     *Aw     Nuwn_Niyn       withered;faded
     -- \*Awy    *Awiy   NapAt   withered;faded
 
-    FACI                      `adj`     {- \*Awiy -}           [ "withered", "faded" ] ]
+    FACI                      `adj`     {- \*Awiy -}           [ "withered", "faded" ]
+                              `plural`     FACI |< At ]
 
  |> "_d y `" <| [
 
@@ -2000,7 +2056,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; ta*oyiyl_1
     -- t*yyl   ta*oyiyl        NduAt   supplementing;appending
 
-    TaFCIL                    `noun`    {- ta*oyiyl -}         [ "supplementing", "appending" ] ]
+    TaFCIL                    `noun`    {- ta*oyiyl -}         [ "supplementing", "appending" ]
+                              `plural`     TaFCIL |< At ]
 
  |> "_dAka" <| [
 
@@ -2024,13 +2081,6 @@ lexicon = listing "Lexicon's properties"
     -- AwlA}km >uwlA}ikum      FW-WaBi those          [[>uwlA}ikum/DEM_PRON_MP]]
 
     Identity                  `noun`    {- \*`lika -}          [ "that", "that one", "those" ] ]
-
- |> "_dikray" <| [
-
-    -- ;; *ikorayAt_1
-    -- \*kry    *ikoray NAt     memoirs;diary
-
-    Identity |< At            `noun`    {- \*ikorayAt -}       [ "memoirs", "diary" ] ]
 
  |> "_dubyAniyy" <| [
 

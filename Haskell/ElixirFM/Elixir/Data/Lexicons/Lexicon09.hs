@@ -35,7 +35,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `verb`    {- Oa*oEan -}          [ "submit", "yield", "obey", "be submitted to", "be yielded to", "be obeyed" ],
 
-    HiFCAL                    `noun`    {- Ii*oEAn -}          [ "submissiveness", "compliance", "obedience" ] ]
+    HiFCAL                    `noun`    {- Ii*oEAn -}          [ "submissiveness", "compliance", "obedience" ]
+                              `plural`     HiFCAL |< At ]
 
  |> "_d ` r" <| [
 
@@ -59,7 +60,8 @@ lexicon = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- \*abo*abap -}       [ "oscillation", "frequency", "vibration", "oscillations", "frequencies", "vibrations" ]
                               `plural`     KaRDaS |< At,
 
-    TaKaRDuS                  `noun`    {- ta*abo*ub -}        [ "oscillation", "fluctuation" ],
+    TaKaRDuS                  `noun`    {- ta*abo*ub -}        [ "oscillation", "fluctuation" ]
+                              `plural`     TaKaRDuS |< At,
 
     MutaKaRDiS                `adj`     {- muta*abo*ib -}      [ "oscillating" ] ]
 
@@ -138,9 +140,14 @@ lexicon = listing "Lexicon's properties"
 
     FiCLY                     `noun`    {- \*ikoraY -}         [ "commemoration", "remembrance" ],
 
-    TaFCIL                    `noun`    {- ta*okiyr -}         [ "reminder", "memento" ],
+    FiCLY |< At               `noun`    {- \*ikorayAt -}       [ "memoirs", "diary" ]
+                              `plural`     FiCLY |< At,
 
-    TaFaCCuL                  `noun`    {- ta*ak~ur -}         [ "remembrance", "recollection" ],
+    TaFCIL                    `noun`    {- ta*okiyr -}         [ "reminder", "memento" ]
+                              `plural`     TaFCIL |< At,
+
+    TaFaCCuL                  `noun`    {- ta*ak~ur -}         [ "remembrance", "recollection" ]
+                              `plural`     TaFaCCuL |< At,
 
     FACiL |< aT               `noun`    {- \*Akirap -}         [ "memory" ],
 
@@ -162,9 +169,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d l l" <| [
 
-    TaFCIL                    `noun`    {- ta*oliyl -}         [ "degradation", "surmounting" ],
+    TaFCIL                    `noun`    {- ta*oliyl -}         [ "degradation", "surmounting" ]
+                              `plural`     TaFCIL |< At,
 
-    HiFCAL                    `noun`    {- Ii*olAl -}          [ "degradation", "surmounting" ],
+    HiFCAL                    `noun`    {- Ii*olAl -}          [ "degradation", "surmounting" ]
+                              `plural`     HiFCAL |< At,
 
     MuFiCL                    `adj`     {- mu*il~ -}           [ "humiliating", "disgraceful" ] ]
 
@@ -176,7 +185,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d m r" <| [
 
-    TaFaCCuL                  `noun`    {- ta*am~ur -}         [ "grumbling", "grievance" ] ]
+    TaFaCCuL                  `noun`    {- ta*am~ur -}         [ "grumbling", "grievance" ]
+                              `plural`     TaFaCCuL |< At ]
 
  |> "_d n b" <| [
 
@@ -234,6 +244,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCY
                            {- `others`  [ "_dirw Napdu", "_durY N0" ] -} ]
 
+ |> "_d r y" <| [
+
+    FuC |< aT                 `noun`    {- \*urap -}           [ "sorghum", "maize" ] ]
+
  |> "_d w `" <| [
 
     HaFAL                     `verb`    {- Oa*AE -}            [ "broadcast", "propagate", "be broadcast", "be propagated" ],
@@ -283,6 +297,13 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCI
                               `plural`     FaCA
                               `plural`     FI
+                           {- `others`  [ "_dawuw FW-Wa FW-Wa-a", "_dawiy FW-Wa-y FW-WaBi", "_dawA FW-Wa FW-Wa-A", "_diy FW-Wa" ] -},
+
+    FU                        `noun`    {- \*uw -}             [ "of", "with", "(two relatives) of", "(relatives) of", "family" ]
+                              `plural`     FaCU
+                              `plural`     FaCI
+                              `plural`     FaCA
+                              `plural`     FI
                            {- `others`  [ "_dawuw FW-Wa FW-Wa-a", "_dawiy FW-Wa-y FW-WaBi", "_dawA FW-Wa FW-Wa-A", "_diy FW-Wa" ] -} ]
 
  |> "_d w y" <| [
@@ -310,10 +331,6 @@ lexicon = listing "Lexicon's properties"
  |> "_d_alika" <| [
 
     Identity                  `noun`    {- \*`lika -}          [ "that", "that one", "those" ] ]
-
- |> "_dikray" <| [
-
-    Identity |< At            `noun`    {- \*ikorayAt -}       [ "memoirs", "diary" ] ]
 
  |> "bi_dA" <| [
 

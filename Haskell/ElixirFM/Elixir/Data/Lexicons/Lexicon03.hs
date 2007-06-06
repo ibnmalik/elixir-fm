@@ -47,7 +47,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACiL
                            {- `others`  [ "matA^gir Ndip" ] -},
 
-    IFtiCAL                   `noun`    {- Ait~ijAr -}         [ "trade", "business" ],
+    IFtiCAL                   `noun`    {- Ait~ijAr -}         [ "trade", "business" ]
+                              `plural`     IFtiCAL |< At,
 
     FACiL                     `noun`    {- tAjir -}            [ "merchant", "businessman", "merchants", "businessmen" ]
                               `plural`     FuCCAL
@@ -112,9 +113,11 @@ lexicon = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- mutAbaEap -}        [ "pursuit", "continuation" ],
 
-    TaFaCCuL                  `noun`    {- tatab~uE -}         [ "pursuit", "course" ],
+    TaFaCCuL                  `noun`    {- tatab~uE -}         [ "pursuit", "course" ]
+                              `plural`     TaFaCCuL |< At,
 
-    IFtiCAL                   `noun`    {- Ait~ibAE -}         [ "pursuit", "compliance" ],
+    IFtiCAL                   `noun`    {- Ait~ibAE -}         [ "pursuit", "compliance" ]
+                              `plural`     IFtiCAL |< At,
 
     FACiL                     `adj`     {- tAbiE -}            [ "subordinate", "adherent" ],
 
@@ -128,11 +131,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "t b b" <| [
 
-    IstiFCAL                  `noun`    {- AisotitobAb -}      [ "normalcy", "stability" ] ]
+    IstiFCAL                  `noun`    {- AisotitobAb -}      [ "normalcy", "stability" ]
+                              `plural`     IstiFCAL |< At ]
 
  |> "t f .h" <| [
 
     FuCCAL                    `noun`    {- tuf~AH -}           [ "apples", "apple" ]
+                              `plural`     FuCCAL |< At
                               `plural`     FaCACIL
                            {- `others`  [ "tafAfiy.h Ndip" ] -} ]
 
@@ -148,7 +153,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- talaf -}            [ "ruin", "loss" ],
 
-    HiFCAL                    `noun`    {- IitolAf -}          [ "destruction", "harm" ],
+    HiFCAL                    `noun`    {- IitolAf -}          [ "destruction", "harm" ]
+                              `plural`     HiFCAL |< At,
 
     FACiL                     `noun`    {- tAlif -}            [ "ruined", "broken" ] ]
 
@@ -184,13 +190,17 @@ lexicon = listing "Lexicon's properties"
     FaCA                      `verb`    {- talA-u -}           [ "follow", "recite", "be followed", "be recited" ]
                               `imperf`     FCU,
 
-    FACI                      `adj`     {- tAliy -}            [ "following", "subsequent" ],
+    FACI                      `adj`     {- tAliy -}            [ "following", "subsequent" ]
+                              `plural`     FACI |< At,
 
-    FACI                      `adj`     {- tAliy -}            [ "following", "subsequent" ],
+    FACI                      `adj`     {- tAliy -}            [ "following", "subsequent" ]
+                              `plural`     FACI |< At,
 
-    MutaFACI                  `noun`    {- mutatAliy -}        [ "consecutive", "successive" ],
+    MutaFACI                  `noun`    {- mutatAliy -}        [ "consecutive", "successive" ]
+                              `plural`     MutaFACI |< At,
 
-    MutaFACI                  `noun`    {- mutatAliy -}        [ "consecutive", "successive" ] ]
+    MutaFACI                  `noun`    {- mutatAliy -}        [ "consecutive", "successive" ]
+                              `plural`     MutaFACI |< At ]
 
  |> "t m l" <| [
 
@@ -214,7 +224,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFaCL                    `noun`    {- Oatam~ -}           [ "more/most complete", "more/most perfect" ],
 
-    HiFCAL                    `noun`    {- IitomAm -}          [ "completion", "realization" ],
+    HiFCAL                    `noun`    {- IitomAm -}          [ "completion", "realization" ]
+                              `plural`     HiFCAL |< At,
 
     FACL                      `noun`    {- tAm~ -}             [ "complete", "concluded" ] ]
 
@@ -270,7 +281,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< Iy |< aT          `noun`    {- taqoniy~ap -}       [ "technique", "technology" ],
 
-    HiFCAL                    `noun`    {- IitoqAn -}          [ "mastery", "proficiency" ] ]
+    HiFCAL                    `noun`    {- IitoqAn -}          [ "mastery", "proficiency" ]
+                              `plural`     HiFCAL |< At ]
 
  |> "t q w" <| [
 
@@ -369,7 +381,8 @@ lexicon = listing "Lexicon's properties"
 
     KiRDUS                    `noun`    {- tisoEuwn -}         [ "ninety" ],
 
-    KiRDIS                    `noun`    {- tisoEiyn -}         [ "nineties" ],
+    KiRDIS                    `noun`    {- tisoEiyn -}         [ "nineties" ]
+                              `plural`     KiRDIS |< At,
 
     KiRDIS |< Iy              `noun`    {- tisoEiyniy~ -}      [ "nineties" ] ]
 
@@ -389,7 +402,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FILAn
                            {- `others`  [ "tiy^gAn N" ] -},
 
-    TaFCIL                    `noun`    {- tatowiyj -}         [ "coronation", "crowning" ] ]
+    TaFCIL                    `noun`    {- tatowiyj -}         [ "coronation", "crowning" ]
+                              `plural`     TaFCIL |< At ]
 
  |> "t w b" <| [
 
@@ -473,7 +487,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "t y r" <| [
 
-    FaCCAL                    `noun`    {- tay~Ar -}           [ "current", "stream", "currents", "streams" ] ]
+    FaCCAL                    `noun`    {- tay~Ar -}           [ "current", "stream", "currents", "streams" ]
+                              `plural`     FaCCAL |< At ]
 
  |> "t y r y" <| [
 

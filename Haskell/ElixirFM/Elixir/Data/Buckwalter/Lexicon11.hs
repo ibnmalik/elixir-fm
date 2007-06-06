@@ -85,7 +85,9 @@ lexicon = listing "Lexicon's properties"
     -- zA}     zA}     Nhy     za' (Arabic letter)
     -- zA'     zA'     NAt     za's (Arabic letter)
 
-    FAL                       `noun`    {- zA' -}              [ "za' (Arabic letter)", "za's (Arabic letter)" ] ]
+    FAL                       `noun`    {- zA' -}              [ "za' (Arabic letter)", "za's (Arabic letter)" ]
+                              `plural`     FAL |< At
+                              `plural`     FACL |< At ]
 
  |> "z ' .g" <| [
 
@@ -217,7 +219,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; zAy_1
     -- zAy     zAy     NduAt   zay (Arabic letter.)
 
-    FAL                       `noun`    {- zAy -}              [ "zay (Arabic letter.)" ] ]
+    FAL                       `noun`    {- zAy -}              [ "zay (Arabic letter.)" ]
+                              `plural`     FAL |< At ]
 
  |> "z .g b" <| [
 
@@ -485,7 +488,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazaHoluq_1
     -- tzHlq   tazaHoluq       NduAt   skating;skiing;sliding
 
-    TaKaRDuS                  `noun`    {- tazaHoluq -}        [ "skating", "skiing", "sliding" ] ]
+    TaKaRDuS                  `noun`    {- tazaHoluq -}        [ "skating", "skiing", "sliding" ]
+                              `plural`     TaKaRDuS |< At ]
 
  |> "z .h m" <| [
 
@@ -533,13 +537,15 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazAHum_1
     -- tzAHm   tazAHum N/At    competition
 
-    TaFACuL                   `noun`    {- tazAHum -}          [ "competition" ],
+    TaFACuL                   `noun`    {- tazAHum -}          [ "competition" ]
+                              `plural`     TaFACuL |< At,
 
     -- ;; {izodiHAm_1
     -- <zdHAm  {izodiHAm       NduAt   crowd;jam
     -- AzdHAm  {izodiHAm       NduAt   crowd;jam
 
-    IFtiCAL                   `noun`    {- AizodiHAm -}        [ "crowd", "jam" ],
+    IFtiCAL                   `noun`    {- AizodiHAm -}        [ "crowd", "jam" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; muzAHim_1
     -- mzAHm   muzAHim Nall    competitor;rival
@@ -992,13 +998,15 @@ lexicon = listing "Lexicon's properties"
     -- <zEAj   <izoEAj NduAt   disturbance;harassment
     -- AzEAj   <izoEAj NduAt   disturbance;harassment
 
-    HiFCAL                    `noun`    {- IizoEAj -}          [ "disturbance", "harassment" ],
+    HiFCAL                    `noun`    {- IizoEAj -}          [ "disturbance", "harassment" ]
+                              `plural`     HiFCAL |< At,
 
     -- ;; {inoziEAj_1
     -- <nzEAj  {inoziEAj       NduAt   disturbance;trouble
     -- AnzEAj  {inoziEAj       NduAt   disturbance;trouble
 
-    InFiCAL                   `noun`    {- AinoziEAj -}        [ "disturbance", "trouble" ],
+    InFiCAL                   `noun`    {- AinoziEAj -}        [ "disturbance", "trouble" ]
+                              `plural`     InFiCAL |< At,
 
     -- ;; muzoEij_1
     -- mzEj    muzoEij Nall    annoying;troublesome     [[muzoEij/ADJ]]
@@ -1770,7 +1778,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazofiyt_1
     -- tzfyt   tazofiyt        NduAt   laying of asphalt;asphalting
 
-    TaFCIL                    `noun`    {- tazofiyt -}         [ "laying of asphalt", "asphalting" ] ]
+    TaFCIL                    `noun`    {- tazofiyt -}         [ "laying of asphalt", "asphalting" ]
+                              `plural`     TaFCIL |< At ]
 
  |> "z f z f" <| [
 
@@ -1825,7 +1834,9 @@ lexicon = listing "Lexicon's properties"
     -- <zdhA'  {izodihA'       NAt     flourishing;radiance;pride
     -- AzdhA'  {izodihA'       NAt     flourishing;radiance;pride
 
-    IFtiCAL                   `noun`    {- AizodihA' -}        [ "flourishing", "radiance", "pride" ] ]
+    IFtiCAL                   `noun`    {- AizodihA' -}        [ "flourishing", "radiance", "pride" ]
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiCA' |< At ]
 
  |> "z h d" <| [
 
@@ -1880,7 +1891,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazah~ud_1
     -- tzhd    tazah~ud        NduAt   asceticism
 
-    TaFaCCuL                  `noun`    {- tazah~ud -}         [ "asceticism" ],
+    TaFaCCuL                  `noun`    {- tazah~ud -}         [ "asceticism" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; zAhid_1
     -- zAhd    zAhid   N/ap    ascetic;abstinent
@@ -1958,7 +1970,8 @@ lexicon = listing "Lexicon's properties"
     -- <zhAq   <izohAq NduAt   destroying;killing
     -- AzhAq   <izohAq NduAt   destroying;killing
 
-    HiFCAL                    `noun`    {- IizohAq -}          [ "destroying", "killing" ] ]
+    HiFCAL                    `noun`    {- IizohAq -}          [ "destroying", "killing" ]
+                              `plural`     HiFCAL |< At ]
 
  |> "z h r" <| [
 
@@ -2099,19 +2112,22 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazohiyr_1
     -- tzhyr   tazohiyr        NduAt   florescence;bloom
 
-    TaFCIL                    `noun`    {- tazohiyr -}         [ "florescence", "bloom" ],
+    TaFCIL                    `noun`    {- tazohiyr -}         [ "florescence", "bloom" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; <izohAr_1
     -- <zhAr   <izohAr NduAt   florescence
     -- AzhAr   <izohAr NduAt   florescence
 
-    HiFCAL                    `noun`    {- IizohAr -}          [ "florescence" ],
+    HiFCAL                    `noun`    {- IizohAr -}          [ "florescence" ]
+                              `plural`     HiFCAL |< At,
 
     -- ;; {izodihAr_1
     -- <zdhAr  {izodihAr       NduAt   prosperity;thriving
     -- AzdhAr  {izodihAr       NduAt   prosperity;thriving
 
-    IFtiCAL                   `noun`    {- AizodihAr -}        [ "prosperity", "thriving" ],
+    IFtiCAL                   `noun`    {- AizodihAr -}        [ "prosperity", "thriving" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; zAhir_1
     -- zAhr    zAhir   Nall    radiant;bright     [[zAhir/ADJ]]
@@ -2239,7 +2255,8 @@ lexicon = listing "Lexicon's properties"
     -- <zdhA'  {izodihA'       NAt     flourishing;radiance;pride
     -- AzdhA'  {izodihA'       NAt     flourishing;radiance;pride
 
-    IFtiCA'                   `noun`    {- AizodihA' -}        [ "flourishing", "radiance", "pride" ],
+    IFtiCA'                   `noun`    {- AizodihA' -}        [ "flourishing", "radiance", "pride" ]
+                              `plural`     IFtiCA' |< At,
 
     -- ;; zAhiy_1
     -- zAhy    zAhiy   N0F     resplendent;magnificent     [[zAhiy/ADJ]]
@@ -2248,7 +2265,8 @@ lexicon = listing "Lexicon's properties"
     -- zAh     zAh     Nuwn_Niyn       resplendent;magnificent
     -- zAhy    zAhiy   NapAt   resplendent;magnificent
 
-    FACI                      `adj`     {- zAhiy -}            [ "resplendent", "magnificent" ],
+    FACI                      `adj`     {- zAhiy -}            [ "resplendent", "magnificent" ]
+                              `plural`     FACI |< At,
 
     -- ;; mazohuw~_1
     -- mzhw    mazohuw~        Nall    haughty;vainglorious     [[mazohuw~/ADJ]]
@@ -2276,7 +2294,8 @@ lexicon = listing "Lexicon's properties"
     -- zAh     zAh     Nuwn_Niyn       resplendent;magnificent
     -- zAhy    zAhiy   NapAt   resplendent;magnificent
 
-    FACI                      `adj`     {- zAhiy -}            [ "resplendent", "magnificent" ],
+    FACI                      `adj`     {- zAhiy -}            [ "resplendent", "magnificent" ]
+                              `plural`     FACI |< At,
 
     -- ;; zhiy_1
     -- zhy     zhiy    Nprop   Zhi
@@ -2431,6 +2450,14 @@ lexicon = listing "Lexicon's properties"
     FaCY |< aT                `noun`    {- zakAp -}            [ "alms", "charity" ]
                               `plural`     FaCaL |< At,
 
+    -- ;; zakAF_1
+    -- zkA     zakAF   FW-WaBi alms;purity;honesty;integrity     [[zakAF/NOUN]]
+    -- zkA     zakA    N0_Nhy  alms;purity;honesty;integrity
+
+    FaC |< aN                 `noun`    {- zakAF -}            [ "alms", "purity", "honesty", "integrity" ]
+                              `plural`     FaCA
+                           {- `others`  [ "zakA N0_Nhy" ] -},
+
     -- ;; zakA'_1
     -- zkA'    zakA'   N0_Nh   integrity;righteousness
     -- zkA&    zakA&   Nh      integrity;righteousness
@@ -2572,7 +2599,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazal~uj_1
     -- tzlj    tazal~uj        NduAt   skiing
 
-    TaFaCCuL                  `noun`    {- tazal~uj -}         [ "skiing" ],
+    TaFaCCuL                  `noun`    {- tazal~uj -}         [ "skiing" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; mutazal~ij_1
     -- mtzlj   mutazal~ij      Nall    skier
@@ -2823,7 +2851,8 @@ lexicon = listing "Lexicon's properties"
     -- mzlq    mazolaq NAn_Nayn        loading ramp;railroad crossing
     -- mzlq    mazolaq NAt     loading ramp;railroad crossing
 
-    MaFCaL                    `noun`    {- mazolaq -}          [ "loading ramp", "railroad crossing" ],
+    MaFCaL                    `noun`    {- mazolaq -}          [ "loading ramp", "railroad crossing" ]
+                              `plural`     MaFCaL |< At,
 
     -- ;; mizolaq_1
     -- mzlq    mizolaq Ndu     skates
@@ -2842,7 +2871,8 @@ lexicon = listing "Lexicon's properties"
     -- <nzlAq  {inozilAq       NduAt   slipping;skating/skiing;drift
     -- AnzlAq  {inozilAq       NduAt   slipping;skating/skiing;drift
 
-    InFiCAL                   `noun`    {- AinozilAq -}        [ "slipping", "skating/skiing", "drift" ],
+    InFiCAL                   `noun`    {- AinozilAq -}        [ "slipping", "skating/skiing", "drift" ]
+                              `plural`     InFiCAL |< At,
 
     -- ;; munozaliq_1
     -- mnzlq   munozaliq       Nall    sliding;skating/skiing;drifting     [[munozaliq/ADJ]]
@@ -3115,7 +3145,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazAmun_1
     -- tzAmn   tazAmun NduAt   simultaneity;coincidence
 
-    TaFACuL                   `noun`    {- tazAmun -}          [ "simultaneity", "coincidence" ],
+    TaFACuL                   `noun`    {- tazAmun -}          [ "simultaneity", "coincidence" ]
+                              `plural`     TaFACuL |< At,
 
     -- ;; muzomin_1
     -- mzmn    muzomin Nall    enduring;chronic     [[muzomin/ADJ]]
@@ -3215,7 +3246,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazam~ut_1
     -- tzmt    tazam~ut        NduAt   primness;composure
 
-    TaFaCCuL                  `noun`    {- tazam~ut -}         [ "primness", "composure" ],
+    TaFaCCuL                  `noun`    {- tazam~ut -}         [ "primness", "composure" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; mutazam~it_1
     -- mtzmt   mutazam~it      Nall    prim;composed     [[mutazam~it/ADJ]]
@@ -3376,6 +3408,7 @@ lexicon = listing "Lexicon's properties"
 
     KaRDaS                    `noun`    {- zanobaq -}          [ "lily", "iris", "lilies" ]
                               `plural`     KaRADiS
+                              `plural`     KaRDaS |< At
                            {- `others`  [ "zanAbiq Ndip" ] -} ]
 
  |> "z n b r" <| [
@@ -3555,7 +3588,8 @@ lexicon = listing "Lexicon's properties"
     -- znA     zunA    Nap     fornicators
 
     FACI                      `noun`    {- zAniy -}            [ "fornicator", "fornicators" ]
-                              `plural`     FuCY |< aT,
+                              `plural`     FuCY |< aT
+                              `plural`     FACI |< At,
 
     -- ;; zAniyap_1
     -- zAny    zAniy   Napdu   whore;adulteress
@@ -3728,7 +3762,9 @@ lexicon = listing "Lexicon's properties"
     -- <zrA'   <izorA' NAt     contempt;disregard
     -- AzrA'   <izorA' NAt     contempt;disregard
 
-    HiFCAL                    `noun`    {- IizorA' -}          [ "contempt", "disregard" ],
+    HiFCAL                    `noun`    {- IizorA' -}          [ "contempt", "disregard" ]
+                              `plural`     HiFCAL |< At
+                              `plural`     HiFCA' |< At,
 
     -- ;; {izodirA'_1
     -- <zdrA'  {izodirA'       N0_Nh   contempt;disregard
@@ -3744,7 +3780,9 @@ lexicon = listing "Lexicon's properties"
     -- <zdrA'  {izodirA'       NAt     contempt;disregard
     -- AzdrA'  {izodirA'       NAt     contempt;disregard
 
-    IFtiCAL                   `noun`    {- AizodirA' -}        [ "contempt", "disregard" ] ]
+    IFtiCAL                   `noun`    {- AizodirA' -}        [ "contempt", "disregard" ]
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiCA' |< At ]
 
  |> "z r `" <| [
 
@@ -3818,7 +3856,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazoriyE_1
     -- tzryE   tazoriyE        NduAt   agriculturalization (vis-a-vis industrialization)
 
-    TaFCIL                    `noun`    {- tazoriyE -}         [ "agriculturalization (vis-a-vis industrialization)" ],
+    TaFCIL                    `noun`    {- tazoriyE -}         [ "agriculturalization (vis-a-vis industrialization)" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; muzAraEap_1
     -- mzArE   muzAraE NapAt   temporary sharecropping
@@ -4107,7 +4146,8 @@ lexicon = listing "Lexicon's properties"
     -- <zrqAq  {izoriqAq       N/At    blueness
     -- AzrqAq  {izoriqAq       N/At    blueness
 
-    IFCiLAL                   `noun`    {- AizoriqAq -}        [ "blueness" ] ]
+    IFCiLAL                   `noun`    {- AizoriqAq -}        [ "blueness" ]
+                              `plural`     IFCiLAL |< At ]
 
  |> "z r q n" <| [
 
@@ -4246,7 +4286,8 @@ lexicon = listing "Lexicon's properties"
     -- <zrA'   <izorA' NAt     contempt;disregard
     -- AzrA'   <izorA' NAt     contempt;disregard
 
-    HiFCA'                    `noun`    {- IizorA' -}          [ "contempt", "disregard" ],
+    HiFCA'                    `noun`    {- IizorA' -}          [ "contempt", "disregard" ]
+                              `plural`     HiFCA' |< At,
 
     -- ;; {izodirA'_1
     -- <zdrA'  {izodirA'       N0_Nh   contempt;disregard
@@ -4262,7 +4303,8 @@ lexicon = listing "Lexicon's properties"
     -- <zdrA'  {izodirA'       NAt     contempt;disregard
     -- AzdrA'  {izodirA'       NAt     contempt;disregard
 
-    IFtiCA'                   `noun`    {- AizodirA' -}        [ "contempt", "disregard" ],
+    IFtiCA'                   `noun`    {- AizodirA' -}        [ "contempt", "disregard" ]
+                              `plural`     IFtiCA' |< At,
 
     -- ;; muzoriy_1
     -- mzry    muzoriy N0F_Nh  shameful;disgraceful     [[muzoriy/ADJ]]
@@ -4271,7 +4313,8 @@ lexicon = listing "Lexicon's properties"
     -- mzr     muzor   Nuwn_Niyn       shameful;disgraceful
     -- mzry    muzoriy NapAt   shameful;disgraceful
 
-    MuFCI                     `adj`     {- muzoriy -}          [ "shameful", "disgraceful" ],
+    MuFCI                     `adj`     {- muzoriy -}          [ "shameful", "disgraceful" ]
+                              `plural`     MuFCI |< At,
 
     -- ;; muzoraY_1
     -- mzrY    muzoraY N0      despicable;contemptible     [[muzoraY/ADJ]]
@@ -4282,8 +4325,7 @@ lexicon = listing "Lexicon's properties"
     -- mzry    muzoray NAt     despicable;contemptible
 
     MuFCY                     `adj`     {- muzoraY -}          [ "despicable", "contemptible" ]
-                              `plural`     MuFCaL |< At
-                           {- `others`  [ "muzray NAn_Nayn" ] -} ]
+                              `plural`     MuFCY |< At ]
 
  |> "z r z r" <| [
 
@@ -4324,7 +4366,9 @@ lexicon = listing "Lexicon's properties"
     -- <nzwA'  {inoziwA'       NAt     seclusion;isolation;retirement
     -- AnzwA'  {inoziwA'       NAt     seclusion;isolation;retirement
 
-    InFiCAL                   `noun`    {- AinoziwA' -}        [ "seclusion", "isolation", "retirement" ] ]
+    InFiCAL                   `noun`    {- AinoziwA' -}        [ "seclusion", "isolation", "retirement" ]
+                              `plural`     InFiCAL |< At
+                              `plural`     InFiCA' |< At ]
 
  |> "z w .g" <| [
 
@@ -4447,7 +4491,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazowiyj_1
     -- tzwyj   tazowiyj        NduAt   marrying off
 
-    TaFCIL                    `noun`    {- tazowiyj -}         [ "marrying off" ],
+    TaFCIL                    `noun`    {- tazowiyj -}         [ "marrying off" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; ziwAj_1
     -- zwAj    ziwAj   N       doubling;duplication
@@ -4462,18 +4507,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazaw~uj_1
     -- tzwj    tazaw~uj        NduAt   marriage
 
-    TaFaCCuL                  `noun`    {- tazaw~uj -}         [ "marriage" ],
+    TaFaCCuL                  `noun`    {- tazaw~uj -}         [ "marriage" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; tazAwuj_1
     -- tzAwj   tazAwuj NduAt   intermarriage
 
-    TaFACuL                   `noun`    {- tazAwuj -}          [ "intermarriage" ],
+    TaFACuL                   `noun`    {- tazAwuj -}          [ "intermarriage" ]
+                              `plural`     TaFACuL |< At,
 
     -- ;; {izodiwAj_1
     -- <zdwAj  {izodiwAj       NduAt   duality
     -- AzdwAj  {izodiwAj       NduAt   duality
 
-    IFtiCAL                   `noun`    {- AizodiwAj -}        [ "duality" ],
+    IFtiCAL                   `noun`    {- AizodiwAj -}        [ "duality" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; {izodiwAjiy~_1
     -- <zdwAjy {izodiwAjiy~    Nall    dual;bi-     [[{izodiwAjiy~/ADJ]]
@@ -4536,7 +4584,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazaw~ud_1
     -- tzwd    tazaw~ud        N/At    being supplied;being provided
 
-    TaFaCCuL                  `noun`    {- tazaw~ud -}         [ "being supplied", "being provided" ],
+    TaFaCCuL                  `noun`    {- tazaw~ud -}         [ "being supplied", "being provided" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; zAd_1
     -- zAd     zAd     N       provisions;stores
@@ -4554,7 +4603,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazowiyd_1
     -- tzwyd   tazowiyd        NduAt   supplying;providing
 
-    TaFCIL                    `noun`    {- tazowiyd -}         [ "supplying", "providing" ],
+    TaFCIL                    `noun`    {- tazowiyd -}         [ "supplying", "providing" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; muzaw~id_1
     -- mzwd    muzaw~id        Nall    supplier
@@ -4868,18 +4918,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; mazAr_1
     -- mzAr    mazAr   NduAt   visit place;shrine;sanctuary
 
-    MaFAL                     `noun`    {- mazAr -}            [ "visit place", "shrine", "sanctuary" ],
+    MaFAL                     `noun`    {- mazAr -}            [ "visit place", "shrine", "sanctuary" ]
+                              `plural`     MaFAL |< At,
 
     -- ;; tazowiyr_1
     -- tzwyr   tazowiyr        NduAt   forgery;falsification
 
-    TaFCIL                    `noun`    {- tazowiyr -}         [ "forgery", "falsification" ],
+    TaFCIL                    `noun`    {- tazowiyr -}         [ "forgery", "falsification" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; {izowirAr_1
     -- <zwrAr  {izowirAr       N/At    aversion;turning away
     -- AzwrAr  {izowirAr       N/At    aversion;turning away
 
-    IFCiLAL                   `noun`    {- AizowirAr -}        [ "aversion", "turning away" ],
+    IFCiLAL                   `noun`    {- AizowirAr -}        [ "aversion", "turning away" ]
+                              `plural`     IFCiLAL |< At,
 
     -- ;; zA}ir_1
     -- zA}r    zA}ir   Nall    visitor;tourist
@@ -4986,15 +5039,16 @@ lexicon = listing "Lexicon's properties"
     -- <nzwA'  {inoziwA'       NAt     seclusion;isolation;retirement
     -- AnzwA'  {inoziwA'       NAt     seclusion;isolation;retirement
 
-    InFiCA'                   `noun`    {- AinoziwA' -}        [ "seclusion", "isolation", "retirement" ],
+    InFiCA'                   `noun`    {- AinoziwA' -}        [ "seclusion", "isolation", "retirement" ]
+                              `plural`     InFiCA' |< At,
 
     -- ;; zAwiyap_1
     -- zAwy    zAwiy   NapAt   corner;nook;angle
     -- zwAyA   zawAyA  N0_Nhy  corners;nooks;angles
 
     FACI |< aT                `noun`    {- zAwiyap -}          [ "corner", "nook", "angle", "corners", "nooks", "angles" ]
-                              `plural`     FaCAyA
-                           {- `others`  [ "zawAyA N0_Nhy" ] -},
+                              `plural`     FaCALY
+                           {- `others`  [ "zawAyY N0_Nhy" ] -},
 
     -- ;; mazowiy~_1
     -- mzwy    mazowiy~        N-ap    corner;cornered     [[mazowiy~/ADJ]]
@@ -5008,7 +5062,8 @@ lexicon = listing "Lexicon's properties"
     -- mnzw    munozaw Nuwn_Niyn       secluded;obscure
     -- mnzwy   munozawiy       NapAt   secluded;obscure
 
-    MunFaCI                   `adj`     {- munozawiy -}        [ "secluded", "obscure" ] ]
+    MunFaCI                   `adj`     {- munozawiy -}        [ "secluded", "obscure" ]
+                              `plural`     MunFaCI |< At ]
 
  |> "z y '" <| [
 
@@ -5107,7 +5162,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; zay~AH_1
     -- zyAH    zay~AH  NduAt   religious procession
 
-    FaCCAL                    `noun`    {- zay~AH -}           [ "religious procession" ],
+    FaCCAL                    `noun`    {- zay~AH -}           [ "religious procession" ]
+                              `plural`     FaCCAL |< At,
 
     -- ;; <izAHap_1
     -- <zAH    <izAH   NapAt   removal;abolition
@@ -5233,7 +5289,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; mazAd_1
     -- mzAd    mazAd   NduAt   auction
 
-    MaFAL                     `noun`    {- mazAd -}            [ "auction" ],
+    MaFAL                     `noun`    {- mazAd -}            [ "auction" ]
+                              `plural`     MaFAL |< At,
 
     -- ;; maziyd_1
     -- mzyd    maziyd  N       more;greater number
@@ -5253,18 +5310,22 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazay~ud_1
     -- tzyd    tazay~ud        NduAt   exaggeration
 
-    TaFaCCuL                  `noun`    {- tazay~ud -}         [ "exaggeration" ],
+    TaFaCCuL                  `noun`    {- tazay~ud -}         [ "exaggeration" ]
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; tazAyud_1
     -- tzAyd   tazAyud NduAt   increment;gradual increase
 
-    TaFACuL                   `noun`    {- tazAyud -}          [ "increment", "gradual increase" ],
+    TaFACuL                   `noun`    {- tazAyud -}          [ "increment", "gradual increase" ]
+                              `plural`     TaFACuL |< At,
 
     -- ;; {izodiyAd_1
     -- <zdyAd  {izodiyAd       NduAt   increase;intensification
     -- AzdyAd  {izodiyAd       NduAt   increase;intensification
 
-    IFtiCAL                   `noun`    {- AizodiyAd -}        [ "increase", "intensification" ],
+    IFtiCAL                   `noun`    {- AizodiyAd -}        [ "increase", "intensification" ]
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiyAL |< At,
 
     -- ;; {isotizAdap_1
     -- <stzAd  {isotizAd       Nap     desire for increase
@@ -5344,7 +5405,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazoyiyf_1
     -- tzyyf   tazoyiyf        NduAt   forgery;falsification
 
-    TaFCIL                    `noun`    {- tazoyiyf -}         [ "forgery", "falsification" ],
+    TaFCIL                    `noun`    {- tazoyiyf -}         [ "forgery", "falsification" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; zA}if_1
     -- zA}f    zA}if   N-ap    forged;spurious;fake     [[zA}if/ADJ]]
@@ -5474,7 +5536,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazoyiyn_1
     -- tzyyn   tazoyiyn        NduAt   ornamentation;embellishment
 
-    TaFCIL                    `noun`    {- tazoyiyn -}         [ "ornamentation", "embellishment" ],
+    TaFCIL                    `noun`    {- tazoyiyn -}         [ "ornamentation", "embellishment" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; muzay~in_1
     -- mzyn    muzay~in        Ndu     barber
@@ -5562,7 +5625,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazoyiyt_1
     -- tzyyt   tazoyiyt        NduAt   lubrication
 
-    TaFCIL                    `noun`    {- tazoyiyt -}         [ "lubrication" ],
+    TaFCIL                    `noun`    {- tazoyiyt -}         [ "lubrication" ]
+                              `plural`     TaFCIL |< At,
 
     -- ;; muzay~at_1
     -- mzyt    muzay~at        Nall    lubricated;oiled     [[muzay~at/ADJ]]

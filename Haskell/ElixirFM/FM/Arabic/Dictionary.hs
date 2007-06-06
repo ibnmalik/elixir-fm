@@ -38,7 +38,7 @@ recode = id
 
 arabicDict :: Dictionary
 
-arabicDict = (dictionary . (++) extradict . concat . map lex2dict) -- take 57 $ drop 1000
+arabicDict = (dictionary . (++) extradict . concat . map lex2dict)  -- $ take 57 $ drop 1000
                                                                     lexicon
 
     where   extradict = [ ("wa-", "Conj", [], [ ("\nC---------", (1, ["wa-"])) ]) ]

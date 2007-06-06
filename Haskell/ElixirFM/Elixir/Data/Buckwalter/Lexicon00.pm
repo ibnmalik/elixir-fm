@@ -8,11 +8,7 @@ package Elixir::Data::Buckwalter::Lexicon00;
 $Lexicon = {
   '.t' => [
     {
-      'types' => {
-        '.t' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => '.t',
       'form' => '.t',
       'lines' => [
@@ -34,11 +30,7 @@ $Lexicon = {
   ],
   'd' => [
     {
-      'types' => {
-        'd' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'd',
       'form' => 'd',
       'lines' => [
@@ -64,11 +56,7 @@ $Lexicon = {
   ],
   'y' => [
     {
-      'types' => {
-        'y' => {
-          'FW' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'y',
       'form' => 'y',
       'lines' => [
@@ -91,11 +79,7 @@ $Lexicon = {
   ],
   '-- \' w' => [
     {
-      'types' => {
-        '\'uw' => {
-          'FW' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'uw',
       'form' => '\'uw',
       'lines' => [
@@ -117,11 +101,7 @@ $Lexicon = {
   ],
   '_h' => [
     {
-      'types' => {
-        '_h' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => '_h',
       'form' => '_h',
       'lines' => [
@@ -143,11 +123,7 @@ $Lexicon = {
   ],
   'At^s' => [
     {
-      'types' => {
-        'At^s' => {
-          'FW' => 3
-        }
-      },
+      'types' => {},
       'entry' => 'At^s',
       'form' => 'At^s',
       'lines' => [
@@ -170,11 +146,7 @@ $Lexicon = {
   ],
   'dabilyuw' => [
     {
-      'types' => {
-        'dabilyuw' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'dabilyuw',
       'form' => 'dabilyuw',
       'lines' => [
@@ -195,11 +167,7 @@ $Lexicon = {
   ],
   't' => [
     {
-      'types' => {
-        't' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => 't',
       'form' => 't',
       'lines' => [
@@ -224,11 +192,7 @@ $Lexicon = {
   ],
   '^g' => [
     {
-      'types' => {
-        '^g' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => '^g',
       'form' => '^g',
       'lines' => [
@@ -254,11 +218,7 @@ $Lexicon = {
   ],
   '.g' => [
     {
-      'types' => {
-        '.g' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => '.g',
       'form' => '.g',
       'lines' => [
@@ -283,11 +243,7 @@ $Lexicon = {
   ],
   '-- t y' => [
     {
-      'types' => {
-        'tiy' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'tiy',
       'form' => 'tiy',
       'lines' => [
@@ -322,11 +278,7 @@ $Lexicon = {
   ],
   '-- \' n' => [
     {
-      'types' => {
-        '\'in' => {
-          'FW' => 3
-        }
-      },
+      'types' => {},
       'entry' => '\'in',
       'form' => '\'in',
       'lines' => [
@@ -349,11 +301,7 @@ $Lexicon = {
   ],
   '.d' => [
     {
-      'types' => {
-        '.d' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => '.d',
       'form' => '.d',
       'lines' => [
@@ -375,11 +323,7 @@ $Lexicon = {
   ],
   '.s' => [
     {
-      'types' => {
-        '.s' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => '.s',
       'form' => '.s',
       'lines' => [
@@ -401,11 +345,7 @@ $Lexicon = {
   ],
   's' => [
     {
-      'types' => {
-        's' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => 's',
       'form' => 's',
       'lines' => [
@@ -429,11 +369,7 @@ $Lexicon = {
   ],
   't.g' => [
     {
-      'types' => {
-        't.g' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => 't.g',
       'form' => 't.g',
       'lines' => [
@@ -454,11 +390,7 @@ $Lexicon = {
   ],
   '-- s y' => [
     {
-      'types' => {
-        'siy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'siy',
       'form' => 'siy',
       'lines' => [
@@ -493,11 +425,7 @@ $Lexicon = {
   ],
   '_d' => [
     {
-      'types' => {
-        '_d' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => '_d',
       'form' => '_d',
       'lines' => [
@@ -519,11 +447,7 @@ $Lexicon = {
   ],
   'q' => [
     {
-      'types' => {
-        'q' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'q',
       'form' => 'q',
       'lines' => [
@@ -550,9 +474,6 @@ $Lexicon = {
     {
       'types' => {
         'l' => {
-          'FW' => 1
-        },
-        'li' => {
           'FW' => 1
         }
       },
@@ -581,11 +502,7 @@ $Lexicon = {
   ],
   '-- d y' => [
     {
-      'types' => {
-        'diy' => {
-          'FW' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'diy',
       'form' => 'diy',
       'lines' => [
@@ -622,11 +539,7 @@ $Lexicon = {
   ],
   '\'Ay' => [
     {
-      'types' => {
-        '\'Ay' => {
-          'FW' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'Ay',
       'form' => '\'Ay',
       'lines' => [
@@ -649,11 +562,7 @@ $Lexicon = {
   ],
   'z' => [
     {
-      'types' => {
-        'z' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'z',
       'form' => 'z',
       'lines' => [
@@ -675,11 +584,7 @@ $Lexicon = {
   ],
   '`' => [
     {
-      'types' => {
-        '`' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => '`',
       'form' => '`',
       'lines' => [
@@ -702,11 +607,7 @@ $Lexicon = {
   ],
   '^s' => [
     {
-      'types' => {
-        '^s' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => '^s',
       'form' => '^s',
       'lines' => [
@@ -729,11 +630,7 @@ $Lexicon = {
   ],
   '.h' => [
     {
-      'types' => {
-        '.h' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => '.h',
       'form' => '.h',
       'lines' => [
@@ -755,11 +652,7 @@ $Lexicon = {
   ],
   '-- \' s' => [
     {
-      'types' => {
-        '\'is' => {
-          'FW' => 3
-        }
-      },
+      'types' => {},
       'entry' => '\'is',
       'form' => '\'is',
       'lines' => [
@@ -782,11 +675,7 @@ $Lexicon = {
   ],
   'r' => [
     {
-      'types' => {
-        'r' => {
-          'FW' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'r',
       'form' => 'r',
       'lines' => [
@@ -812,11 +701,7 @@ $Lexicon = {
   ],
   '-- \' m' => [
     {
-      'types' => {
-        '\'im' => {
-          'FW' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'im',
       'form' => '\'im',
       'lines' => [
@@ -838,11 +723,7 @@ $Lexicon = {
   ],
   '\'iyh' => [
     {
-      'types' => {
-        '\'iyh' => {
-          'FW' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'iyh',
       'form' => '\'iyh',
       'lines' => [
@@ -864,11 +745,7 @@ $Lexicon = {
   ],
   '_t' => [
     {
-      'types' => {
-        '_t' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => '_t',
       'form' => '_t',
       'lines' => [
@@ -890,11 +767,7 @@ $Lexicon = {
   ],
   '-- \' r' => [
     {
-      'types' => {
-        '\'ar' => {
-          'FW' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'ar',
       'form' => '\'ar',
       'lines' => [
@@ -916,11 +789,7 @@ $Lexicon = {
   ],
   '-- \' f' => [
     {
-      'types' => {
-        '\'af' => {
-          'FW' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'af',
       'form' => '\'af',
       'lines' => [
@@ -940,11 +809,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'if' => {
-          'N0' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'if',
       'form' => '\'if',
       'lines' => [
@@ -966,11 +831,7 @@ $Lexicon = {
   ],
   'h' => [
     {
-      'types' => {
-        'h' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'h',
       'form' => 'h',
       'lines' => [
@@ -995,9 +856,6 @@ $Lexicon = {
     {
       'types' => {
         'k' => {
-          'FW' => 1
-        },
-        'ka' => {
           'FW' => 1
         }
       },
@@ -1026,11 +884,7 @@ $Lexicon = {
   ],
   '\'i' => [
     {
-      'types' => {
-        '\'i' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => '\'i',
       'form' => '\'i',
       'lines' => [
@@ -1051,11 +905,7 @@ $Lexicon = {
   ],
   '-- \' y' => [
     {
-      'types' => {
-        '\'iy' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => '\'iy',
       'form' => '\'iy',
       'lines' => [
@@ -1102,11 +952,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'ay' => {
-          'FW' => 4
-        }
-      },
+      'types' => {},
       'entry' => '\'ay',
       'form' => '\'ay',
       'lines' => [
@@ -1133,9 +979,6 @@ $Lexicon = {
     {
       'types' => {
         'w' => {
-          'FW' => 1
-        },
-        'wa' => {
           'FW' => 1
         }
       },
@@ -1165,9 +1008,6 @@ $Lexicon = {
       'types' => {
         'b' => {
           'FW' => 1
-        },
-        'bi' => {
-          'FW' => 1
         }
       },
       'entry' => 'bi',
@@ -1195,11 +1035,7 @@ $Lexicon = {
   ],
   'n' => [
     {
-      'types' => {
-        'n' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'n',
       'form' => 'n',
       'lines' => [
@@ -1221,11 +1057,7 @@ $Lexicon = {
   ],
   '.z' => [
     {
-      'types' => {
-        '.z' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => '.z',
       'form' => '.z',
       'lines' => [
@@ -1247,11 +1079,7 @@ $Lexicon = {
   ],
   'm' => [
     {
-      'types' => {
-        'm' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'm',
       'form' => 'm',
       'lines' => [
@@ -1276,9 +1104,6 @@ $Lexicon = {
   'fa' => [
     {
       'types' => {
-        'fa' => {
-          'FW' => 1
-        },
         'f' => {
           'FW' => 1
         }
@@ -1308,11 +1133,7 @@ $Lexicon = {
   ],
   '-- b y' => [
     {
-      'types' => {
-        'biy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'biy',
       'form' => 'biy',
       'lines' => [
@@ -1347,11 +1168,7 @@ $Lexicon = {
   ],
   '\'a' => [
     {
-      'types' => {
-        '\'a' => {
-          'FW' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a',
       'form' => '\'a',
       'lines' => [
@@ -1374,11 +1191,7 @@ $Lexicon = {
   ],
   '-- \' l' => [
     {
-      'types' => {
-        '\'il' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => '\'il',
       'form' => '\'il',
       'lines' => [
@@ -1399,11 +1212,7 @@ $Lexicon = {
   ],
   '-- f y' => [
     {
-      'types' => {
-        'fiy' => {
-          'FW' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'fiy',
       'form' => 'fiy',
       'lines' => [
@@ -1438,11 +1247,7 @@ $Lexicon = {
   ],
   '-- ^g y' => [
     {
-      'types' => {
-        '^giy' => {
-          'FW' => 2
-        }
-      },
+      'types' => {},
       'entry' => '^giy',
       'form' => '^giy',
       'lines' => [

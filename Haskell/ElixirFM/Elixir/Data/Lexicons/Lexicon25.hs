@@ -30,12 +30,14 @@ lexicon = listing "Lexicon's properties"
  |> "n ' y" <| [
 
     MaFCY                     `noun`    {- manoOaY -}          [ "distant place", "aloofness" ]
-                              `plural`     MaFCaL |< At
-                           {- `others`  [ "man'ay NAn_Nayn" ] -},
+                              `plural`     MaFCY |< At,
 
-    FACI                      `adj`     {- nA}iy -}            [ "remote", "distant", "secluded" ],
+    FACI                      `adj`     {- nA}iy -}            [ "remote", "distant", "secluded" ]
+                              `plural`     FA'I |< At
+                              `plural`     FACI |< At,
 
-    FAL                       `noun`    {- nAy -}              [ "nay", "bamboo flute" ] ]
+    FAL                       `noun`    {- nAy -}              [ "nay", "bamboo flute" ]
+                              `plural`     FAL |< At ]
 
  |> "n ' z" <| [
 
@@ -60,7 +62,8 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- niDAl -}            [ "Nidal" ],
 
-    FiCAL                     `noun`    {- niDAl -}            [ "struggle", "battle" ],
+    FiCAL                     `noun`    {- niDAl -}            [ "struggle", "battle" ]
+                              `plural`     FiCAL |< At,
 
     FiCAL |< Iy               `adj`     {- niDAliy~ -}         [ "fighting", "pugnacious" ],
 
@@ -78,7 +81,8 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- nagomap -}          [ "tune", "song", "sound", "tunes", "songs", "sounds" ]
                               `plural`     FaCaL |< At,
 
-    TaFACuL                   `noun`    {- tanAgum -}          [ "harmony", "symphony" ] ]
+    TaFACuL                   `noun`    {- tanAgum -}          [ "harmony", "symphony" ]
+                              `plural`     TaFACuL |< At ]
 
  |> "n .h l" <| [
 
@@ -112,7 +116,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCUL
                            {- `others`  [ "nu.huwr N" ] -},
 
-    IFtiCAL                   `noun`    {- AinotiHAr -}        [ "suicide" ],
+    IFtiCAL                   `noun`    {- AinotiHAr -}        [ "suicide" ]
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL |< Iy             `adj`     {- AinotiHAriy~ -}     [ "suicidal", "suicide" ],
 
@@ -240,7 +245,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- naSaf -}            [ "justice" ],
 
-    HiFCAL                    `noun`    {- IinoSAf -}          [ "impartiality", "fairness" ],
+    HiFCAL                    `noun`    {- IinoSAf -}          [ "impartiality", "fairness" ]
+                              `plural`     HiFCAL |< At,
 
     MuFCiL                    `adj`     {- munoSif -}          [ "equitable", "fair" ],
 
@@ -266,7 +272,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaLA'
                            {- `others`  [ "nu.sarA' Nh N0_Nh Nhy" ] -},
 
-    IFtiCAL                   `noun`    {- AinotiSAr -}        [ "victory" ],
+    IFtiCAL                   `noun`    {- AinotiSAr -}        [ "victory" ]
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL                   `noun`    {- AinotiSAr -}        [ "Intisar" ],
 
@@ -318,7 +325,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `verb`    {- OanoSat -}          [ "listen", "be listened" ],
 
-    TaFaCCuL                  `noun`    {- tanaS~ut -}         [ "eavesdropping" ] ]
+    TaFaCCuL                  `noun`    {- tanaS~ut -}         [ "eavesdropping" ]
+                              `plural`     TaFaCCuL |< At ]
 
  |> "n .t .h" <| [
 
@@ -356,7 +364,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaLA'
                            {- `others`  [ "ni.zAf N", "nu.zafA' Nh N0_Nh Nhy" ] -},
 
-    TaFCIL                    `noun`    {- tanoZiyf -}         [ "cleaning" ] ]
+    TaFCIL                    `noun`    {- tanoZiyf -}         [ "cleaning" ]
+                              `plural`     TaFCIL |< At ]
 
  |> "n .z m" <| [
 
@@ -370,6 +379,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- naZom -}            [ "system", "organization" ],
 
     FiCAL                     `noun`    {- niZAm -}            [ "regime", "government", "regimes", "governments", "systems" ]
+                              `plural`     FiCAL |< At
                               `plural`     HaFCiL |< aT,
 
     FiCAL                     `noun`    {- niZAm -}            [ "methodology", "system", "order", "methodologies", "systems" ]
@@ -379,15 +389,18 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL |< Iy               `adj`     {- niZAmiy~ -}         [ "systematic", "regular", "orderly" ],
 
-    TaFCIL                    `noun`    {- tanoZiym -}         [ "organization", "network" ],
+    TaFCIL                    `noun`    {- tanoZiym -}         [ "organization", "network" ]
+                              `plural`     TaFCIL |< At,
 
-    TaFCIL                    `noun`    {- tanoZiym -}         [ "organizing", "controlling", "planning", "regulating" ],
+    TaFCIL                    `noun`    {- tanoZiym -}         [ "organizing", "controlling", "planning", "regulating" ]
+                              `plural`     TaFCIL |< At,
 
     TaFCIL                    `noun`    {- tanoZiym -}         [ "Tanzim" ],
 
     TaFCIL |< Iy              `adj`     {- tanoZiymiy~ -}      [ "organizational", "controlling", "planning", "regulating" ],
 
-    IFtiCAL                   `noun`    {- AinotiZAm -}        [ "order", "regularity" ],
+    IFtiCAL                   `noun`    {- AinotiZAm -}        [ "order", "regularity" ]
+                              `plural`     IFtiCAL |< At,
 
     FACiL                     `noun`    {- nAZim -}            [ "organizer", "arranger", "regulator", "organizers", "arrangers", "regulators" ]
                               `plural`     FawACiL
@@ -397,7 +410,8 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCiL                  `noun`    {- munaZ~im -}         [ "organizer", "sponsor" ],
 
-    MuFaCCiL                  `noun`    {- munaZ~im -}         [ "regulator", "governor" ],
+    MuFaCCiL                  `noun`    {- munaZ~im -}         [ "regulator", "governor" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCaL                  `adj`     {- munaZ~am -}         [ "organized", "orderly", "arranged" ],
 
@@ -449,7 +463,8 @@ lexicon = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- munAZarap -}        [ "rivalry", "quarrel", "supervision" ],
 
-    IFtiCAL                   `noun`    {- AinotiZAr -}        [ "waiting", "anticipating" ],
+    IFtiCAL                   `noun`    {- AinotiZAr -}        [ "waiting", "anticipating" ]
+                              `plural`     IFtiCAL |< At,
 
     FACiL                     `noun`    {- nAZir -}            [ "looking", "observer", "supervisor", "observers", "supervisors" ]
                               `plural`     FuCCAL
@@ -472,11 +487,13 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- najaH-a -}          [ "succeed" ]
                               `imperf`     FCaL,
 
-    FaCAL                     `noun`    {- najAH -}            [ "success", "successes" ],
+    FaCAL                     `noun`    {- najAH -}            [ "success", "successes" ]
+                              `plural`     FaCAL |< At,
 
     FaCAL                     `noun`    {- najAH -}            [ "Najah" ],
 
-    HiFCAL                    `noun`    {- IinojAH -}          [ "success" ],
+    HiFCAL                    `noun`    {- IinojAH -}          [ "success" ]
+                              `plural`     HiFCAL |< At,
 
     FACiL                     `noun`    {- nAjiH -}            [ "successful" ] ]
 
@@ -490,7 +507,8 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- nAjiE -}            [ "useful", "beneficial", "healthful" ],
 
-    MuFtaCaL                  `noun`    {- munotajaE -}        [ "resort (vacation place)" ] ]
+    MuFtaCaL                  `noun`    {- munotajaE -}        [ "resort (vacation place)" ]
+                              `plural`     MuFtaCaL |< At ]
 
  |> "n ^g b" <| [
 
@@ -500,7 +518,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- najiyb -}           [ "noble", "excellent" ],
 
-    HiFCAL                    `noun`    {- IinojAb -}          [ "giving birth" ],
+    HiFCAL                    `noun`    {- IinojAb -}          [ "giving birth" ]
+                              `plural`     HiFCAL |< At,
 
     HiFCAL |< Iy              `adj`     {- IinojAbiy~ -}       [ "birthing", "giving birth" ] ]
 
@@ -570,13 +589,15 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- nAjiy -}            [ "Naji", "Nagi" ],
 
-    FACI                      `noun`    {- nAjiy -}            [ "escaping", "surviving", "survivor" ] ]
+    FACI                      `noun`    {- nAjiy -}            [ "escaping", "surviving", "survivor" ]
+                              `plural`     FACI |< At ]
 
  |> "n ^g y" <| [
 
     FACI                      `noun`    {- nAjiy -}            [ "Naji", "Nagi" ],
 
-    FACI                      `noun`    {- nAjiy -}            [ "escaping", "surviving", "survivor" ] ]
+    FACI                      `noun`    {- nAjiy -}            [ "escaping", "surviving", "survivor" ]
+                              `plural`     FACI |< At ]
 
  |> "n ^g z" <| [
 
@@ -584,9 +605,11 @@ lexicon = listing "Lexicon's properties"
 
     HiFCAL                    `noun`    {- IinojAz -}          [ "implementation", "effectuation" ],
 
-    HiFCAL                    `noun`    {- IinojAz -}          [ "accomplishment", "achievement", "success", "accomplishments", "achievements", "successes" ],
+    HiFCAL                    `noun`    {- IinojAz -}          [ "accomplishment", "achievement", "success", "accomplishments", "achievements", "successes" ]
+                              `plural`     HiFCAL |< At,
 
-    MuFCaL                    `noun`    {- munojaz -}          [ "accomplishment", "achievement", "success", "accomplishments", "achievements", "successes" ] ]
+    MuFCaL                    `noun`    {- munojaz -}          [ "accomplishment", "achievement", "success", "accomplishments", "achievements", "successes" ]
+                              `plural`     MuFCaL |< At ]
 
  |> "n ^s '" <| [
 
@@ -603,9 +626,13 @@ lexicon = listing "Lexicon's properties"
 
     HiFCAL                    `noun`    {- Iino$A' -}          [ "establishing", "setting up", "founding" ],
 
-    HiFCAL                    `noun`    {- Iino$A' -}          [ "construction", "installation", "constructions", "installations" ],
+    HiFCAL                    `noun`    {- Iino$A' -}          [ "construction", "installation", "constructions", "installations" ]
+                              `plural`     HiFCAL |< At
+                              `plural`     HiFCA' |< At,
 
-    HiFCAL                    `noun`    {- Iino$A' -}          [ "essay", "composition", "essays", "compositions" ],
+    HiFCAL                    `noun`    {- Iino$A' -}          [ "essay", "composition", "essays", "compositions" ]
+                              `plural`     HiFCAL |< At
+                              `plural`     HiFCA' |< At,
 
     HiFCAL |< Iy              `adj`     {- Iino$A}iy~ -}       [ "construction", "composition" ],
 
@@ -628,6 +655,7 @@ lexicon = listing "Lexicon's properties"
     FaCiL                     `adj`     {- na$iT -}            [ "active", "energetic" ],
 
     FaCAL                     `noun`    {- na$AT -}            [ "activity", "active", "activities" ]
+                              `plural`     FaCAL |< At
                               `plural`     HaFCiL |< aT,
 
     FaCIL                     `adj`     {- na$iyT -}           [ "active", "energetic", "activists" ]
@@ -635,7 +663,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaLA'
                            {- `others`  [ "ni^sA.t N", "nu^sa.tA' Nh N0_Nh Nhy" ] -},
 
-    TaFCIL                    `noun`    {- tano$iyT -}         [ "stimulation", "encouragement" ],
+    TaFCIL                    `noun`    {- tano$iyT -}         [ "stimulation", "encouragement" ]
+                              `plural`     TaFCIL |< At,
 
     TaFCIL |< Iy              `adj`     {- tano$iyTiy~ -}      [ "energizing", "stimulative", "encouraging" ],
 
@@ -643,11 +672,16 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- nA$iT -}            [ "energetic", "active" ],
 
-    MuFaCCiL                  `noun`    {- muna$~iT -}         [ "stimulant" ],
+    MuFaCCiL                  `noun`    {- muna$~iT -}         [ "stimulant" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCiL                  `adj`     {- muna$~iT -}         [ "stimulating", "activating" ],
 
     MuFaCCiL                  `noun`    {- muna$~iT -}         [ "activist" ] ]
+
+ |> "n ^s ^s" <| [
+
+    FaL |<< "awIy"            `adj`     {- na$awiy~ -}         [ "starchy" ] ]
 
  |> "n ^s b" <| [
 
@@ -671,11 +705,13 @@ lexicon = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- munA$adap -}        [ "urgent request", "earnest appeal" ],
 
-    HiFCAL                    `noun`    {- Iino$Ad -}          [ "recitation", "declaration" ],
+    HiFCAL                    `noun`    {- Iino$Ad -}          [ "recitation", "declaration" ]
+                              `plural`     HiFCAL |< At,
 
     MaFCUL                    `adj`     {- mano$uwd -}         [ "pursued", "desired", "desirable", "wanted", "sought" ],
 
-    MaFCUL                    `noun`    {- mano$uwd -}         [ "goal", "objective", "goals", "objectives" ] ]
+    MaFCUL                    `noun`    {- mano$uwd -}         [ "goal", "objective", "goals", "objectives" ]
+                              `plural`     MaFCUL |< At ]
 
  |> "n ^s l" <| [
 
@@ -697,11 +733,13 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- na$orap -}          [ "report", "announcement", "proclamation", "reports", "announcements", "proclamations" ]
                               `plural`     FaCaL |< At,
 
-    IFtiCAL                   `noun`    {- Ainoti$Ar -}        [ "spreading", "spread", "diffusion" ],
+    IFtiCAL                   `noun`    {- Ainoti$Ar -}        [ "spreading", "spread", "diffusion" ]
+                              `plural`     IFtiCAL |< At,
 
     FACiL                     `noun`    {- nA$ir -}            [ "publisher" ],
 
     MaFCUL                    `adj`     {- mano$uwr -}         [ "published", "spread out", "publications", "leaflets", "circulars" ]
+                              `plural`     MaFCUL |< At
                               `plural`     MaFACIL
                            {- `others`  [ "manA^siyr Ndip" ] -},
 
@@ -709,7 +747,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "n ^s y" <| [
 
-    FaCY |< Iy                `adj`     {- na$awiy~ -}         [ "starchy" ] ]
+    FaC |<< "awIy"            `adj`     {- na$awiy~ -}         [ "starchy" ] ]
 
  |> "n _d r" <| [
 
@@ -726,7 +764,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCuL
                            {- `others`  [ "nu_dur N" ] -},
 
-    HiFCAL                    `noun`    {- Iino*Ar -}          [ "warning", "cautioning", "alarm" ],
+    HiFCAL                    `noun`    {- Iino*Ar -}          [ "warning", "cautioning", "alarm" ]
+                              `plural`     HiFCAL |< At,
 
     MuFCiL                    `noun`    {- muno*ir -}          [ "Mundhir", "Munthir" ],
 
@@ -740,7 +779,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaL
                            {- `others`  [ "nu_hab N" ] -},
 
-    IFtiCAL                   `noun`    {- AinotixAb -}        [ "election", "selection" ],
+    IFtiCAL                   `noun`    {- AinotixAb -}        [ "election", "selection" ]
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL |< Iy             `adj`     {- AinotixAbiy~ -}     [ "electoral", "election", "selection" ],
 
@@ -748,7 +788,8 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCaL                  `noun`    {- munotaxab -}        [ "elected candidate", "elect" ],
 
-    MuFtaCaL                  `noun`    {- munotaxab -}        [ "national team", "anthology" ] ]
+    MuFtaCaL                  `noun`    {- munotaxab -}        [ "national team", "anthology" ]
+                              `plural`     MuFtaCaL |< At ]
 
  |> "n _h l" <| [
 
@@ -778,9 +819,11 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCaL                   `verb`    {- AinotaEa$ -}        [ "recover", "recuperate", "be invigorated" ],
 
-    HiFCAL                    `noun`    {- IinoEA$ -}          [ "revival", "resuscitation" ],
+    HiFCAL                    `noun`    {- IinoEA$ -}          [ "revival", "resuscitation" ]
+                              `plural`     HiFCAL |< At,
 
-    IFtiCAL                   `noun`    {- AinotiEA$ -}        [ "resurgence", "revival" ] ]
+    IFtiCAL                   `noun`    {- AinotiEA$ -}        [ "resurgence", "revival" ]
+                              `plural`     IFtiCAL |< At ]
 
  |> "n ` m" <| [
 
@@ -848,7 +891,8 @@ lexicon = listing "Lexicon's properties"
 
     FuCUL |< aT               `noun`    {- nubuw'ap -}         [ "prophecy", "prognosis" ],
 
-    TaFaCCuL                  `noun`    {- tanab~uW -}         [ "prediction", "forecast", "prognosis" ] ]
+    TaFaCCuL                  `noun`    {- tanab~uW -}         [ "prediction", "forecast", "prognosis" ]
+                              `plural`     TaFaCCuL |< At ]
 
  |> "n b .d" <| [
 
@@ -875,7 +919,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCaL
                            {- `others`  [ "'anbA.t N", "naba.t N" ] -},
 
-    IstiFCAL                  `noun`    {- AisotinobAT -}      [ "discovery", "deduction", "invention" ] ]
+    IstiFCAL                  `noun`    {- AisotinobAT -}      [ "discovery", "deduction", "invention" ]
+                              `plural`     IstiFCAL |< At ]
 
  |> "n b _d" <| [
 
@@ -906,7 +951,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "n b b" <| [
 
-    FaL |< At                 `noun`    {- nabAt -}            [ "plants", "vegetation" ] ]
+    FaL |< At                 `noun`    {- nabAt -}            [ "plants", "vegetation" ],
+
+    FaL |<< "awIy"            `adj`     {- nabawiy~ -}         [ "prophetic", "of the Prophet" ] ]
 
  |> "n b h" <| [
 
@@ -927,13 +974,16 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- nabiyh -}           [ "Nabih", "Nabeeh" ],
 
-    IFtiCAL                   `noun`    {- AinotibAh -}        [ "attention", "caution", "vigilance" ],
+    IFtiCAL                   `noun`    {- AinotibAh -}        [ "attention", "caution", "vigilance" ]
+                              `plural`     IFtiCAL |< At,
 
     MuFaCCiL                  `noun`    {- munab~ih -}         [ "cautioning", "alerting" ],
 
-    MuFaCCiL                  `noun`    {- munab~ih -}         [ "alarm (clock)" ],
+    MuFaCCiL                  `noun`    {- munab~ih -}         [ "alarm (clock)" ]
+                              `plural`     MuFaCCiL |< At,
 
-    MuFaCCiL                  `noun`    {- munab~ih -}         [ "stimulus", "stimulant" ] ]
+    MuFaCCiL                  `noun`    {- munab~ih -}         [ "stimulus", "stimulant" ]
+                              `plural`     MuFaCCiL |< At ]
 
  |> "n b l" <| [
 
@@ -973,27 +1023,34 @@ lexicon = listing "Lexicon's properties"
 
  |> "n b w" <| [
 
-    FaCY |< Iy                `adj`     {- nabawiy~ -}         [ "prophetic", "of the Prophet" ],
+    FaC |<< "awIy"            `adj`     {- nabawiy~ -}         [ "prophetic", "of the Prophet" ],
 
-    FACI                      `adj`     {- nAbiy -}            [ "repugnant", "improper" ] ]
+    FACI                      `adj`     {- nAbiy -}            [ "repugnant", "improper" ]
+                              `plural`     FACI |< At ]
 
  |> "n b y" <| [
+
+    FaC |< At                 `noun`    {- nabAt -}            [ "plants", "vegetation" ],
 
     FaCIL                     `adj`     {- nabiy~ -}           [ "prophet", "prophets" ]
                               `plural`     HaFCiLA'
                            {- `others`  [ "'anbiyA' Nh N0_Nh Nhy" ] -},
 
-    FACI                      `adj`     {- nAbiy -}            [ "repugnant", "improper" ] ]
+    FACI                      `adj`     {- nAbiy -}            [ "repugnant", "improper" ]
+                              `plural`     FACI |< At ]
 
  |> "n d '" <| [
 
-    FiCAL                     `noun`    {- nidA' -}            [ "call", "appeal", "invitation", "summons", "calls", "appeals", "invitations" ] ]
+    FiCAL                     `noun`    {- nidA' -}            [ "call", "appeal", "invitation", "summons", "calls", "appeals", "invitations" ]
+                              `plural`     FiCAL |< At
+                              `plural`     FiCA' |< At ]
 
  |> "n d b" <| [
 
     IFtiCAL                   `noun`    {- AinotidAb -}        [ "appointing", "commissioning", "deputation", "dedication" ],
 
-    IFtiCAL                   `noun`    {- AinotidAb -}        [ "mandate", "mandatory rule" ],
+    IFtiCAL                   `noun`    {- AinotidAb -}        [ "mandate", "mandatory rule" ]
+                              `plural`     IFtiCAL |< At,
 
     MaFCUL                    `noun`    {- manoduwb -}         [ "delegate", "representative", "deputy", "agent" ],
 
@@ -1009,7 +1066,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                            {- `others`  [ "'andAd N" ] -},
 
-    TaFCIL                    `noun`    {- tanodiyd -}         [ "criticism", "abuse", "defamation" ],
+    TaFCIL                    `noun`    {- tanodiyd -}         [ "criticism", "abuse", "defamation" ]
+                              `plural`     TaFCIL |< At,
 
     MuFaCCiL                  `adj`     {- munad~id -}         [ "criticizing", "denouncing" ] ]
 
@@ -1049,14 +1107,16 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- nadowap -}          [ "seminar", "symposium", "seminars", "symposia" ]
                               `plural`     FaCaL |< At,
 
-    FiCA'                     `noun`    {- nidA' -}            [ "call", "appeal", "invitation", "summons", "calls", "appeals", "invitations" ],
+    FiCA'                     `noun`    {- nidA' -}            [ "call", "appeal", "invitation", "summons", "calls", "appeals", "invitations" ]
+                              `plural`     FiCA' |< At,
 
     FACI                      `noun`    {- nAdiy -}            [ "club", "association", "clubs", "associations" ]
                               `plural`     FawACI
                               `plural`     HaFCI |< aT
                            {- `others`  [ "nawAdiy N0_Nh" ] -},
 
-    MuFtaCY                   `noun`    {- munotadaY -}        [ "assembly room", "gathering place", "assembly rooms", "gathering places" ] ]
+    MuFtaCY                   `noun`    {- munotadaY -}        [ "assembly room", "gathering place", "assembly rooms", "gathering places" ]
+                              `plural`     MuFtaCY |< At ]
 
  |> "n d y" <| [
 
@@ -1100,11 +1160,13 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFCiL
                            {- `others`  [ "manAfi_d Ndip", "manfi_d Ndu" ] -},
 
-    TaFCIL                    `noun`    {- tanofiy* -}         [ "implementation", "execution", "carrying out" ],
+    TaFCIL                    `noun`    {- tanofiy* -}         [ "implementation", "execution", "carrying out" ]
+                              `plural`     TaFCIL |< At,
 
     TaFCIL |< Iy              `adj`     {- tanofiy*iy~ -}      [ "executive" ],
 
-    HiFCAL                    `noun`    {- IinofA* -}          [ "performance", "carrying out", "implementation" ],
+    HiFCAL                    `noun`    {- IinofA* -}          [ "performance", "carrying out", "implementation" ]
+                              `plural`     HiFCAL |< At,
 
     FACiL                     `adj`     {- nAfi* -}            [ "effective", "operative", "valid" ],
 
@@ -1135,7 +1197,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACiL
                            {- `others`  [ "manAfi` Ndip" ] -},
 
-    IFtiCAL                   `noun`    {- AinotifAE -}        [ "use", "exploitation", "benefit" ],
+    IFtiCAL                   `noun`    {- AinotifAE -}        [ "use", "exploitation", "benefit" ]
+                              `plural`     IFtiCAL |< At,
 
     FACiL                     `noun`    {- nAfiE -}            [ "useful", "beneficial", "productive" ],
 
@@ -1171,7 +1234,8 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- nifAq -}            [ "expenditure", "disbursement" ],
 
-    HiFCAL                    `noun`    {- IinofAq -}          [ "expenditure", "disbursement", "expenses" ] ]
+    HiFCAL                    `noun`    {- IinofAq -}          [ "expenditure", "disbursement", "expenses" ]
+                              `plural`     HiFCAL |< At ]
 
  |> "n f r" <| [
 
@@ -1190,7 +1254,8 @@ lexicon = listing "Lexicon's properties"
     FaCIL                     `noun`    {- nafiyr -}           [ "call to arms", "departure into battle", "troops" ]
                               `plural`     HaFCiL |< aT,
 
-    IstiFCAL                  `noun`    {- AisotinofAr -}      [ "calling into battle", "being frightened away" ],
+    IstiFCAL                  `noun`    {- AisotinofAr -}      [ "calling into battle", "being frightened away" ]
+                              `plural`     IstiFCAL |< At,
 
     FACiL                     `noun`    {- nAfir -}            [ "fearful", "averse", "protruding" ]
                               `plural`     FuCCaL
@@ -1217,16 +1282,19 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- nafiys -}           [ "precious", "costly" ],
 
-    TaFCIL                    `noun`    {- tanofiys -}         [ "ventilation", "airing" ],
+    TaFCIL                    `noun`    {- tanofiys -}         [ "ventilation", "airing" ]
+                              `plural`     TaFCIL |< At,
 
     MuFACaL |< aT             `noun`    {- munAfasap -}        [ "competition", "rivalry", "competitions", "rivalries" ]
                               `plural`     MuFACaL |< At,
 
-    TaFaCCuL                  `noun`    {- tanaf~us -}         [ "respiration" ],
+    TaFaCCuL                  `noun`    {- tanaf~us -}         [ "respiration" ]
+                              `plural`     TaFaCCuL |< At,
 
     TaFaCCuL |< Iy            `adj`     {- tanaf~usiy~ -}      [ "respiratory" ],
 
-    TaFACuL                   `noun`    {- tanAfus -}          [ "competition", "rivalry" ],
+    TaFACuL                   `noun`    {- tanAfus -}          [ "competition", "rivalry" ]
+                              `plural`     TaFACuL |< At,
 
     TaFACuL |< Iy             `adj`     {- tanAfusiy~ -}       [ "competitive", "antagonistic" ],
 
@@ -1268,9 +1336,13 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL |< Iy               `noun`    {- nihA}iy~ -}         [ "final (in sports)" ],
 
-    HiFCAL                    `noun`    {- IinohA' -}          [ "termination", "completion" ],
+    HiFCAL                    `noun`    {- IinohA' -}          [ "termination", "completion" ]
+                              `plural`     HiFCAL |< At
+                              `plural`     HiFCA' |< At,
 
-    IFtiCAL                   `noun`    {- AinotihA' -}        [ "finishing", "completion", "conclusion" ] ]
+    IFtiCAL                   `noun`    {- AinotihA' -}        [ "finishing", "completion", "conclusion" ]
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiCA' |< At ]
 
  |> "n h .d" <| [
 
@@ -1310,7 +1382,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACIL
                            {- `others`  [ "manAhiy^g Ndip" ] -},
 
-    IFtiCAL                   `noun`    {- AinotihAj -}        [ "pursuit", "following" ] ]
+    IFtiCAL                   `noun`    {- AinotihAj -}        [ "pursuit", "following" ]
+                              `plural`     IFtiCAL |< At ]
 
  |> "n h ^s" <| [
 
@@ -1331,7 +1404,8 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCAL                   `noun`    {- AinotihAk -}        [ "exhaustion" ],
 
-    IFtiCAL                   `noun`    {- AinotihAk -}        [ "violation", "contravention", "violations", "contraventions", "encroachments" ],
+    IFtiCAL                   `noun`    {- AinotihAk -}        [ "violation", "contravention", "violations", "contraventions", "encroachments" ]
+                              `plural`     IFtiCAL |< At,
 
     MuFtaCaL                  `adj`     {- munotahak -}        [ "emaciated", "exhausted" ] ]
 
@@ -1362,13 +1436,17 @@ lexicon = listing "Lexicon's properties"
 
     FiCA' |< Iy               `noun`    {- nihA}iy~ -}         [ "final (in sports)" ],
 
-    HiFCA'                    `noun`    {- IinohA' -}          [ "termination", "completion" ],
+    HiFCA'                    `noun`    {- IinohA' -}          [ "termination", "completion" ]
+                              `plural`     HiFCA' |< At,
 
-    IFtiCA'                   `noun`    {- AinotihA' -}        [ "finishing", "completion", "conclusion" ],
+    IFtiCA'                   `noun`    {- AinotihA' -}        [ "finishing", "completion", "conclusion" ]
+                              `plural`     IFtiCA' |< At,
 
-    MutaFACI                  `noun`    {- mutanAhiy -}        [ "utmost", "extreme", "finished" ],
+    MutaFACI                  `noun`    {- mutanAhiy -}        [ "utmost", "extreme", "finished" ]
+                              `plural`     MutaFACI |< At,
 
-    MuFtaCI                   `noun`    {- munotahiy -}        [ "finished", "expired" ] ]
+    MuFtaCI                   `noun`    {- munotahiy -}        [ "finished", "expired" ]
+                              `plural`     MuFtaCI |< At ]
 
  |> "n h y" <| [
 
@@ -1376,9 +1454,11 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- nihAyap -}          [ "end", "termination", "ultimately", "finally" ],
 
-    MutaFACI                  `noun`    {- mutanAhiy -}        [ "utmost", "extreme", "finished" ],
+    MutaFACI                  `noun`    {- mutanAhiy -}        [ "utmost", "extreme", "finished" ]
+                              `plural`     MutaFACI |< At,
 
-    MuFtaCI                   `noun`    {- munotahiy -}        [ "finished", "expired" ] ]
+    MuFtaCI                   `noun`    {- munotahiy -}        [ "finished", "expired" ]
+                              `plural`     MuFtaCI |< At ]
 
  |> "n h y n" <| [
 
@@ -1412,9 +1492,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "n k l" <| [
 
-    TaFCIL                    `noun`    {- tanokiyl -}         [ "exemplary punishment", "containment", "maltreatment" ],
+    TaFCIL                    `noun`    {- tanokiyl -}         [ "exemplary punishment", "containment", "maltreatment" ]
+                              `plural`     TaFCIL |< At,
 
-    TaFCIL                    `noun`    {- tanokiyl -}         [ "plating with nickel" ] ]
+    TaFCIL                    `noun`    {- tanokiyl -}         [ "plating with nickel" ]
+                              `plural`     TaFCIL |< At ]
 
  |> "n k r" <| [
 
@@ -1428,11 +1510,14 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCLA'
                            {- `others`  [ "nakrA' Nh N0_Nh Nhy" ] -},
 
-    HiFCAL                    `noun`    {- IinokAr -}          [ "denial", "disavowal", "refusal" ],
+    HiFCAL                    `noun`    {- IinokAr -}          [ "denial", "disavowal", "refusal" ]
+                              `plural`     HiFCAL |< At,
 
-    TaFaCCuL                  `noun`    {- tanak~ur -}         [ "disguise", "masquerade" ],
+    TaFaCCuL                  `noun`    {- tanak~ur -}         [ "disguise", "masquerade" ]
+                              `plural`     TaFaCCuL |< At,
 
-    IstiFCAL                  `noun`    {- AisotinokAr -}      [ "repudiation", "ignorance", "lack of knowledge" ],
+    IstiFCAL                  `noun`    {- AisotinokAr -}      [ "repudiation", "ignorance", "lack of knowledge" ]
+                              `plural`     IstiFCAL |< At,
 
     MuFCaL |< At              `noun`    {- munokarAt -}        [ "reprehensible acts" ]
                               `plural`     MuFCaL |< At ]
@@ -1442,15 +1527,20 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- nakosap -}          [ "setback", "reverse", "relapse", "setbacks", "reverses", "relapses" ]
                               `plural`     FaCaL |< At,
 
-    IFtiCAL                   `noun`    {- AinotikAs -}        [ "relapse" ] ]
+    IFtiCAL                   `noun`    {- AinotikAs -}        [ "relapse" ]
+                              `plural`     IFtiCAL |< At ]
 
  |> "n m '" <| [
 
-    HiFCAL                    `noun`    {- IinomA' -}          [ "promotion", "advancement" ],
+    HiFCAL                    `noun`    {- IinomA' -}          [ "promotion", "advancement" ]
+                              `plural`     HiFCAL |< At
+                              `plural`     HiFCA' |< At,
 
     HiFCAL |< Iy              `adj`     {- IinomA}iy~ -}       [ "development" ],
 
-    IFtiCAL                   `noun`    {- AinotimA' -}        [ "membership", "affiliation", "commitment" ] ]
+    IFtiCAL                   `noun`    {- AinotimA' -}        [ "membership", "affiliation", "commitment" ]
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiCA' |< At ]
 
  |> "n m .t" <| [
 
@@ -1503,27 +1593,35 @@ lexicon = listing "Lexicon's properties"
 
     TaFCI |< aT               `noun`    {- tanomiyap -}        [ "development", "growth" ],
 
-    HiFCA'                    `noun`    {- IinomA' -}          [ "promotion", "advancement" ],
+    HiFCA'                    `noun`    {- IinomA' -}          [ "promotion", "advancement" ]
+                              `plural`     HiFCA' |< At,
 
     HiFCA' |< Iy              `adj`     {- IinomA}iy~ -}       [ "development" ],
 
-    TaFACI                    `noun`    {- tanAmiy -}          [ "gradual growth", "continual increase" ],
+    TaFACI                    `noun`    {- tanAmiy -}          [ "gradual growth", "continual increase" ]
+                              `plural`     TaFACI |< At,
 
-    IFtiCA'                   `noun`    {- AinotimA' -}        [ "membership", "affiliation", "commitment" ],
+    IFtiCA'                   `noun`    {- AinotimA' -}        [ "membership", "affiliation", "commitment" ]
+                              `plural`     IFtiCA' |< At,
 
-    FACI                      `adj`     {- nAmiy -}            [ "developing" ],
+    FACI                      `adj`     {- nAmiy -}            [ "developing" ]
+                              `plural`     FACI |< At,
 
     FACI                      `noun`    {- nAmiy -}            [ "tumors" ]
                               `plural`     FawACI
                            {- `others`  [ "nawAmiy N0_Nh" ] -},
 
-    MutaFACI                  `adj`     {- mutanAmiy -}        [ "growing gradually" ],
+    MutaFACI                  `adj`     {- mutanAmiy -}        [ "growing gradually" ]
+                              `plural`     MutaFACI |< At,
 
-    MuFtaCI                   `adj`     {- munotamiy -}        [ "belonging", "affiliated", "committed" ] ]
+    MuFtaCI                   `adj`     {- munotamiy -}        [ "belonging", "affiliated", "committed" ]
+                              `plural`     MuFtaCI |< At ]
 
  |> "n q '" <| [
 
-    IFtiCAL                   `noun`    {- AinotiqA' -}        [ "selection", "selections" ] ]
+    IFtiCAL                   `noun`    {- AinotiqA' -}        [ "selection", "selections" ]
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiCA' |< At ]
 
  |> "n q .d" <| [
 
@@ -1540,7 +1638,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- naqiyD -}           [ "opposite", "contrary", "contrast" ],
 
-    TaFACuL                   `noun`    {- tanAquD -}          [ "inconsistency", "incompatibility", "conflict" ],
+    TaFACuL                   `noun`    {- tanAquD -}          [ "inconsistency", "incompatibility", "conflict" ]
+                              `plural`     TaFACuL |< At,
 
     MuFACiL                   `adj`     {- munAqiD -}          [ "contradictory", "inconsistent", "incompatible" ] ]
 
@@ -1591,7 +1690,8 @@ lexicon = listing "Lexicon's properties"
     MuFACaL |< aT             `noun`    {- munAqa$ap -}        [ "argument", "debate", "arguments", "debates" ]
                               `plural`     MuFACaL |< At,
 
-    FiCAL                     `noun`    {- niqA$ -}            [ "debate", "argument", "controversy" ],
+    FiCAL                     `noun`    {- niqA$ -}            [ "debate", "argument", "controversy" ]
+                              `plural`     FiCAL |< At,
 
     MuFACiL                   `noun`    {- munAqi$ -}          [ "debater", "arguing" ] ]
 
@@ -1599,11 +1699,13 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `verb`    {- Oanoqa* -}          [ "save", "rescue", "salvage", "be saved", "be rescued", "be salvaged" ],
 
-    HiFCAL                    `noun`    {- IinoqA* -}          [ "rescue", "salvation", "relief" ] ]
+    HiFCAL                    `noun`    {- IinoqA* -}          [ "rescue", "salvation", "relief" ]
+                              `plural`     HiFCAL |< At ]
 
  |> "n q `" <| [
 
-    MustaFCaL                 `noun`    {- musotanoqaE -}      [ "quagmire", "swamp", "morass" ] ]
+    MustaFCaL                 `noun`    {- musotanoqaE -}      [ "quagmire", "swamp", "morass" ]
+                              `plural`     MustaFCaL |< At ]
 
  |> "n q b" <| [
 
@@ -1634,13 +1736,15 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaLA'
                            {- `others`  [ "nuqabA' Nh N0_Nh Nhy" ] -},
 
-    TaFCIL                    `noun`    {- tanoqiyb -}         [ "drilling", "excavation", "exploration" ] ]
+    TaFCIL                    `noun`    {- tanoqiyb -}         [ "drilling", "excavation", "exploration" ]
+                              `plural`     TaFCIL |< At ]
 
  |> "n q d" <| [
 
     IFtaCaL                   `verb`    {- Ainotaqad -}        [ "criticize", "be criticized" ],
 
-    FaCL                      `noun`    {- naqod -}            [ "criticism", "critique" ],
+    FaCL                      `noun`    {- naqod -}            [ "criticism", "critique" ]
+                              `plural`     FaCL |< At,
 
     FaCL                      `noun`    {- naqod -}            [ "cash", "money" ]
                               `plural`     FuCUL
@@ -1650,7 +1754,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- naqodiy~ -}         [ "critical" ],
 
-    IFtiCAL                   `noun`    {- AinotiqAd -}        [ "criticism", "censure" ],
+    IFtiCAL                   `noun`    {- AinotiqAd -}        [ "criticism", "censure" ]
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL |< Iy             `adj`     {- AinotiqAdiy~ -}     [ "critical", "censuring" ],
 
@@ -1690,9 +1795,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- naq~Al -}           [ "portable" ],
 
-    TaFaCCuL                  `noun`    {- tanaq~ul -}         [ "transportation", "transfer", "movement" ],
+    TaFaCCuL                  `noun`    {- tanaq~ul -}         [ "transportation", "transfer", "movement" ]
+                              `plural`     TaFaCCuL |< At,
 
-    IFtiCAL                   `noun`    {- AinotiqAl -}        [ "transfer", "communication" ],
+    IFtiCAL                   `noun`    {- AinotiqAl -}        [ "transfer", "communication" ]
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL |< Iy             `adj`     {- AinotiqAliy~ -}     [ "transitional" ],
 
@@ -1704,7 +1811,8 @@ lexicon = listing "Lexicon's properties"
     FACiL |< aT               `noun`    {- nAqilap -}          [ "transport", "tanker", "carrier", "transports", "tankers", "carriers" ]
                               `plural`     FACiL |< At,
 
-    MaFCUL                    `adj`     {- manoquwl -}         [ "conveyed", "transferred", "mobile", "movable goods" ],
+    MaFCUL                    `adj`     {- manoquwl -}         [ "conveyed", "transferred", "mobile", "movable goods" ]
+                              `plural`     MaFCUL |< At,
 
     MutaFaCCiL                `adj`     {- mutanaq~il -}       [ "mobile", "portable" ] ]
 
@@ -1720,7 +1828,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCL |< At
                            {- `others`  [ "niqam N" ] -},
 
-    IFtiCAL                   `noun`    {- AinotiqAm -}        [ "retaliation", "reprisal", "revenge" ],
+    IFtiCAL                   `noun`    {- AinotiqAm -}        [ "retaliation", "reprisal", "revenge" ]
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL |< Iy             `adj`     {- AinotiqAmiy~ -}     [ "retaliatory", "reprisal", "vindictive" ],
 
@@ -1744,7 +1853,8 @@ lexicon = listing "Lexicon's properties"
 
     TaFCI |< aT               `noun`    {- tanoqiyap -}        [ "clearing", "clarifying", "dispelling" ],
 
-    IFtiCA'                   `noun`    {- AinotiqA' -}        [ "selection", "selections" ] ]
+    IFtiCA'                   `noun`    {- AinotiqA' -}        [ "selection", "selections" ]
+                              `plural`     IFtiCA' |< At ]
 
  |> "n q y" <| [
 
@@ -1784,7 +1894,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCuL
                            {- `others`  [ "'ansA^g N", "nusu^g N" ] -},
 
-    MaFCUL                    `noun`    {- manosuwj -}         [ "woven", "textile", "tissue", "textiles" ] ]
+    MaFCUL                    `noun`    {- manosuwj -}         [ "woven", "textile", "tissue", "textiles" ]
+                              `plural`     MaFCUL |< At ]
 
  |> "n s _h" <| [
 
@@ -1792,7 +1903,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaL
                            {- `others`  [ "nusa_h N" ] -},
 
-    TaFACuL                   `noun`    {- tanAsux -}          [ "succession" ] ]
+    TaFACuL                   `noun`    {- tanAsux -}          [ "succession" ]
+                              `plural`     TaFACuL |< At ]
 
  |> "n s b" <| [
 
@@ -1823,9 +1935,11 @@ lexicon = listing "Lexicon's properties"
     MuFACaL |< aT             `noun`    {- munAsabap -}        [ "occasion", "opportunity", "occasions", "opportunities" ]
                               `plural`     MuFACaL |< At,
 
-    TaFACuL                   `noun`    {- tanAsub -}          [ "proportional relation", "balance", "uniformity" ],
+    TaFACuL                   `noun`    {- tanAsub -}          [ "proportional relation", "balance", "uniformity" ]
+                              `plural`     TaFACuL |< At,
 
-    IFtiCAL                   `noun`    {- AinotisAb -}        [ "relation", "connection", "affiliation" ],
+    IFtiCAL                   `noun`    {- AinotisAb -}        [ "relation", "connection", "affiliation" ]
+                              `plural`     IFtiCAL |< At,
 
     MaFCUL                    `adj`     {- manosuwb -}         [ "attributed", "pertaining", "relative" ],
 
@@ -1870,7 +1984,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- nasaq -}            [ "order", "arrangement", "symmetry", "in rows", "in regular order" ],
 
-    TaFCIL                    `noun`    {- tanosiyq -}         [ "coordination", "steering", "systematic arrangement" ],
+    TaFCIL                    `noun`    {- tanosiyq -}         [ "coordination", "steering", "systematic arrangement" ]
+                              `plural`     TaFCIL |< At,
 
     TaFCIL |< Iy              `adj`     {- tanosiyqiy~ -}      [ "coordinative", "steering", "systematic" ],
 
@@ -1912,25 +2027,29 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL |< aT               `noun`    {- natiyjap -}         [ "result", "consequence", "results", "consequences" ],
 
-    HiFCAL                    `noun`    {- IinotAj -}          [ "production", "output" ],
+    HiFCAL                    `noun`    {- IinotAj -}          [ "production", "output" ]
+                              `plural`     HiFCAL |< At,
 
     HiFCAL |< Iy              `adj`     {- IinotAjiy~ -}       [ "production", "productive" ],
 
     HiFCAL |< Iy |< aT        `noun`    {- IinotAjiy~ap -}     [ "productivity" ],
 
-    IstiFCAL                  `noun`    {- AisotinotAj -}      [ "conclusion", "deduction", "inference" ],
+    IstiFCAL                  `noun`    {- AisotinotAj -}      [ "conclusion", "deduction", "inference" ]
+                              `plural`     IstiFCAL |< At,
 
     FACiL                     `adj`     {- nAtij -}            [ "resulting from", "ensuing" ],
 
     FACiL                     `noun`    {- nAtij -}            [ "production", "output" ],
 
-    MaFCUL                    `noun`    {- manotuwj -}         [ "product", "production", "products", "merchandise" ],
+    MaFCUL                    `noun`    {- manotuwj -}         [ "product", "production", "products", "merchandise" ]
+                              `plural`     MaFCUL |< At,
 
     MuFCiL                    `adj`     {- munotij -}          [ "productive", "producing" ],
 
     MuFCiL                    `noun`    {- munotij -}          [ "manufacturer", "maker", "producer" ],
 
-    MuFCaL                    `adj`     {- munotaj -}          [ "produced", "product", "production", "products", "manufactured goods" ] ]
+    MuFCaL                    `adj`     {- munotaj -}          [ "produced", "product", "production", "products", "manufactured goods" ]
+                              `plural`     MuFCaL |< At ]
 
  |> "n t n" <| [
 
@@ -1960,7 +2079,8 @@ lexicon = listing "Lexicon's properties"
  |> "n w _h" <| [
 
     MuFAL                     `noun`    {- munAx -}            [ "climate", "atmosphere" ]
-                              `plural`     MaFAL |< At,
+                              `plural`     MaFAL |< At
+                              `plural`     MuFAL |< At,
 
     MuFAL |< Iy               `adj`     {- munAxiy~ -}         [ "climatic" ] ]
 
@@ -1978,15 +2098,18 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- tanowiyE -}         [ "diversification" ],
 
-    TaFaCCuL                  `noun`    {- tanaw~uE -}         [ "variety", "diversity" ],
+    TaFaCCuL                  `noun`    {- tanaw~uE -}         [ "variety", "diversity" ]
+                              `plural`     TaFaCCuL |< At,
 
     MuFaCCaL                  `adj`     {- munaw~aE -}         [ "diverse", "mixed" ],
 
-    MuFaCCaL                  `noun`    {- munaw~aE -}         [ "miscellany", "medley" ],
+    MuFaCCaL                  `noun`    {- munaw~aE -}         [ "miscellany", "medley" ]
+                              `plural`     MuFaCCaL |< At,
 
     MutaFaCCiL                `adj`     {- mutanaw~iE -}       [ "diverse", "sundry", "various" ],
 
-    MutaFaCCiL                `noun`    {- mutanaw~iE -}       [ "miscellany", "diverse items" ] ]
+    MutaFaCCiL                `noun`    {- mutanaw~iE -}       [ "miscellany", "diverse items" ]
+                              `plural`     MutaFaCCiL |< At ]
 
  |> "n w b" <| [
 
@@ -1994,7 +2117,8 @@ lexicon = listing "Lexicon's properties"
 
     HiFAL |< aT               `noun`    {- IinAbap -}          [ "deputization", "authorization" ],
 
-    TaFACuL                   `noun`    {- tanAwub -}          [ "alternation", "rotation" ],
+    TaFACuL                   `noun`    {- tanAwub -}          [ "alternation", "rotation" ]
+                              `plural`     TaFACuL |< At,
 
     FA'iL                     `noun`    {- nA}ib -}            [ "deputy", "delegate", "vice-", "deputies", "delegates" ]
                               `plural`     FUCAL
@@ -2017,7 +2141,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCCaL                    `verb`    {- naw~ah -}           [ "allude", "mention", "praise" ],
 
-    TaFCIL                    `noun`    {- tanowiyh -}         [ "allusion", "mention", "praise" ] ]
+    TaFCIL                    `noun`    {- tanowiyh -}         [ "allusion", "mention", "praise" ]
+                              `plural`     TaFCIL |< At ]
 
  |> "n w l" <| [
 
@@ -2037,7 +2162,8 @@ lexicon = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- munAwalap -}        [ "handing over", "delivery" ],
 
-    TaFACuL                   `noun`    {- tanAwul -}          [ "dealing with", "eating" ],
+    TaFACuL                   `noun`    {- tanAwul -}          [ "dealing with", "eating" ]
+                              `plural`     TaFACuL |< At,
 
     MutaFACaL                 `noun`    {- mutanAwal -}        [ "available", "within reach" ],
 
@@ -2056,7 +2182,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "n w n" <| [
 
-    FUL                       `noun`    {- nuwn -}             [ "nun (Arabic letter)" ],
+    FUL                       `noun`    {- nuwn -}             [ "nun (Arabic letter)" ]
+                              `plural`     FUL |< At,
 
     FUL                       `noun`    {- nuwn -}             [ "whale", "whales" ]
                               `plural`     FILAn
@@ -2100,7 +2227,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACiL
                            {- `others`  [ "manA'ir Ndip", "manAwir Ndip" ] -},
 
-    TaFCIL                    `noun`    {- tanowiyr -}         [ "lighting", "enlightenment", "blossoming" ],
+    TaFCIL                    `noun`    {- tanowiyr -}         [ "lighting", "enlightenment", "blossoming" ]
+                              `plural`     TaFCIL |< At,
 
     HiFAL |< aT               `noun`    {- IinArap -}          [ "lighting", "illumination", "enlightenment" ],
 
@@ -2127,6 +2255,10 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `noun`    {- nAs -}              [ "people" ] ]
 
+ |> "n w w" <| [
+
+    FaL |<< "awIy"            `adj`     {- nawawiy~ -}         [ "nuclear", "atomic", "nucleic" ] ]
+
  |> "n w y" <| [
 
     FaCY                      `verb`    {- nawaY-i -}          [ "intend", "consider", "be intended", "be considered" ]
@@ -2138,19 +2270,18 @@ lexicon = listing "Lexicon's properties"
 
     FaCY |< aT                `noun`    {- nawAp -}            [ "nucleus", "core", "nuclei", "cores" ]
                               `plural`     HaFCI |< aT
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCY |< At,
 
     FaCY |< aT                `noun`    {- nawAp -}            [ "fruit pit", "fruit pits" ]
-                              `plural`     FaCY
-                              `plural`     FaCaL |< At
+                              `plural`     FaCY |< At
                               `plural`     FaCA
                            {- `others`  [ "nawY N0", "nawA Nhy" ] -},
 
-    FaCY |< Iy                `adj`     {- nawawiy~ -}         [ "nuclear", "atomic", "nucleic" ],
+    FaC |<< "awIy"            `adj`     {- nawawiy~ -}         [ "nuclear", "atomic", "nucleic" ],
 
     FIL |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire", "intentions", "desires" ]
-                              `plural`     FaCAyA
-                           {- `others`  [ "nawAyA N0_Nhy" ] -} ]
+                              `plural`     FaCALY
+                           {- `others`  [ "nawAyY N0_Nhy" ] -} ]
 
  |> "n y ^g r" <| [
 
@@ -2251,11 +2382,13 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- nazoEap -}          [ "inclination", "tendency", "trend", "inclinations", "tendencies", "trends" ]
                               `plural`     FaCaL |< At,
 
-    FiCAL                     `noun`    {- nizAE -}            [ "conflict", "struggle" ],
+    FiCAL                     `noun`    {- nizAE -}            [ "conflict", "struggle" ]
+                              `plural`     FiCAL |< At,
 
     MuFACaL |< aT             `noun`    {- munAzaEap -}        [ "conflict", "struggle", "dispute" ],
 
-    IFtiCAL                   `noun`    {- AinotizAE -}        [ "removal", "elimination" ],
+    IFtiCAL                   `noun`    {- AinotizAE -}        [ "removal", "elimination" ]
+                              `plural`     IFtiCAL |< At,
 
     MaFCUL                    `adj`     {- manozuwE -}         [ "removed", "taken away" ],
 
@@ -2275,7 +2408,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- naziyf -}           [ "bleeding", "hemorrhage" ],
 
-    IstiFCAL                  `noun`    {- AisotinozAf -}      [ "drainage", "exhaustion" ] ]
+    IstiFCAL                  `noun`    {- AisotinozAf -}      [ "drainage", "exhaustion" ]
+                              `plural`     IstiFCAL |< At ]
 
  |> "n z h" <| [
 
@@ -2324,9 +2458,11 @@ lexicon = listing "Lexicon's properties"
 
     MaFCiL |< Iy              `adj`     {- manoziliy~ -}       [ "domestic", "household" ],
 
-    HiFCAL                    `noun`    {- IinozAl -}          [ "lowering", "disembarking", "landing" ],
+    HiFCAL                    `noun`    {- IinozAl -}          [ "lowering", "disembarking", "landing" ]
+                              `plural`     HiFCAL |< At,
 
-    TaFACuL                   `noun`    {- tanAzul -}          [ "concession", "waiver", "yielding" ],
+    TaFACuL                   `noun`    {- tanAzul -}          [ "concession", "waiver", "yielding" ]
+                              `plural`     TaFACuL |< At,
 
     FACiL                     `noun`    {- nAzil -}            [ "staying", "lodged" ] ]
 
