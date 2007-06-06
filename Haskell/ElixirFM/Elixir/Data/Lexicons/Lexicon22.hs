@@ -468,7 +468,9 @@ lexicon = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- takoliyf -}         [ "charging", "commissioning" ],
 
     TaFCIL                    `noun`    {- takoliyf -}         [ "cost", "expense", "charge", "costs", "expenses", "charges" ]
-                              `plural`     TaFCiL |< aT,
+                              `plural`     TaFACIL
+                              `plural`     TaFCiL |< aT
+                           {- `others`  [ "takAliyf Ndip" ] -},
 
     TaFCiL |< aT              `noun`    {- takolifap -}        [ "cost computation" ],
 
@@ -1129,7 +1131,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "k y m" <| [
 
-    FIL                       `noun`    {- kiym -}             [ "Kim" ] ]
+    FIL                       `noun`    {- kiym -}             [ "Kim" ],
+
+    FILiyA'                   `noun`    {- kiymiyA' -}         [ "chemistry" ],
+
+    FILiyA' |< Iy             `adj`     {- kiymiyA}iy~ -}      [ "chemical" ],
+
+    FILiyA' |< Iy             `adj`     {- kiymiyA}iy~ -}      [ "chemist" ] ]
 
  |> "k y n" <| [
 
@@ -1337,14 +1345,6 @@ lexicon = listing "Lexicon's properties"
  |> "kiyluwmitr" <| [
 
     Identity                  `noun`    {- kiyluwmitr -}       [ "kilometer(s)" ] ]
-
- |> "kiymiyA'" <| [
-
-    Identity                  `noun`    {- kiymiyA' -}         [ "chemistry" ],
-
-    Identity |< Iy            `adj`     {- kiymiyA}iy~ -}      [ "chemical" ],
-
-    Identity |< Iy            `adj`     {- kiymiyA}iy~ -}      [ "chemist" ] ]
 
  |> "kiyn.gstuwn" <| [
 

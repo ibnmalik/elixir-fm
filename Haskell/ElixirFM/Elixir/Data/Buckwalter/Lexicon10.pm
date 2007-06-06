@@ -791,9 +791,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'tarA_h' => {
-          'NK' => 1
-        },
         'tarA_hiy' => {
           'NAt' => 1,
           'NAn_Nayn' => 1,
@@ -904,8 +901,7 @@ $Lexicon = {
           'N0F' => 1
         },
         'rA_h' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'rA_hiy',
@@ -938,8 +934,7 @@ $Lexicon = {
           'NAn_Nayn' => 1
         },
         'mutarA_h' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'mutarA_hiy',
@@ -1238,7 +1233,11 @@ $Lexicon = {
         'trxyS   taroxiyS        NduAt   granting of permission;licensing',
         'trAxyS  tarAxiyS        Ndip    granting of permission;licensing'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tarA_hiy.s' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -5174,7 +5173,11 @@ $Lexicon = {
         'trkyb   tarokiyb        NduAt   construction;structure;assemblage',
         'trAkyb  tarAkiyb        Ndip    constructions;structures'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tarAkiyb' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -5931,9 +5934,6 @@ $Lexicon = {
         'rawAbiy' => {
           'N0_Nh' => 1
         },
-        'rawAb' => {
-          'NK' => 1
-        },
         'rAbiyaT' => {
           'Napdu' => 1
         }
@@ -5965,8 +5965,7 @@ $Lexicon = {
     {
       'types' => {
         'murabb' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'murabbiy' => {
           'N0F_Nh' => 1,
@@ -6083,8 +6082,7 @@ $Lexicon = {
           'NAn_Nayn' => 1
         },
         'murAb' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'murAbiy',
@@ -6112,8 +6110,7 @@ $Lexicon = {
     {
       'types' => {
         'mutarabb' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mutarabbiy' => {
           'N0F_Nh' => 1,
@@ -6141,6 +6138,29 @@ $Lexicon = {
         'well-mannered'
       ],
       'orig' => 'mutarab~iy',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'rabAyA' => {
+          'N0_Nhy' => 1
+        }
+      },
+      'entry' => 'rabAyA',
+      'form' => 'rabAyA',
+      'lines' => [
+        ';; rabAyA_1',
+        'rbAyA   rabAyA  N0_Nhy  guards'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAyA',
+      'suffix' => '',
+      'glosses' => [
+        'guards'
+      ],
+      'orig' => 'rabAyA',
       'prefix' => ''
     }
   ],
@@ -6189,6 +6209,20 @@ $Lexicon = {
         'cozy'
       ],
       'orig' => 'raxiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tarA_hiy',
+      'form' => 'tarA_hiy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFACI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'tarAxiy',
       'prefix' => ''
     },
     {
@@ -8174,9 +8208,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'taraww' => {
-          'NK' => 1
-        },
         'tarawwiy' => {
           'NAt' => 1,
           'NAn_Nayn' => 1,
@@ -8211,8 +8242,7 @@ $Lexicon = {
     {
       'types' => {
         'rAw' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'rawAyA' => {
           'N0_Nhy' => 1
@@ -8239,6 +8269,9 @@ $Lexicon = {
         'rwAyA   rawAyA  N0_Nhy  narrators;storytellers'
       ],
       'patterns' => {
+        'rawAyA' => [
+          'FaCAyA'
+        ],
         'ruwY' => [
           'FuCY'
         ]
@@ -9861,9 +9894,6 @@ $Lexicon = {
         'mar\'Y' => {
           'N0' => 1
         },
-        'marA\'' => {
-          'NK' => 1
-        },
         'mar\'A' => {
           'Ndip' => 1
         },
@@ -9978,9 +10008,6 @@ $Lexicon = {
       'types' => {
         'rA\'iy' => {
           'N0F' => 1
-        },
-        'rA\'' => {
-          'NK' => 1
         }
       },
       'entry' => 'rA\'iy',
@@ -10054,8 +10081,7 @@ $Lexicon = {
     {
       'types' => {
         'murA\'' => {
-          'Nuwn_Niyn' => 2,
-          'NK' => 1
+          'Nuwn_Niyn' => 2
         },
         'murA\'iy' => {
           'N0F_Nh' => 1,
@@ -11899,7 +11925,11 @@ $Lexicon = {
         'trbyE   tarobiyE        NduAt   quadrangle;plaza;quadrilateral',
         'trAbyE  tarAbiyE        Ndip    quadrangles;plazas;quadrilaterals'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tarAbiy`' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -19074,8 +19104,7 @@ $Lexicon = {
           'N0F' => 1
         },
         'rA^g' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'rA^giy',
@@ -21224,7 +21253,11 @@ $Lexicon = {
         'rEy     raEiy~  Napdu   subject;citizen     [[raEiy~/NOUN]]',
         'rEAyA   raEAyA  N0_Nhy  subjects;citizens'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ra`AyA' => [
+          'FaCAyA'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -21245,9 +21278,6 @@ $Lexicon = {
         },
         'marA`iy' => {
           'N0_Nh' => 1
-        },
-        'marA`' => {
-          'NK' => 1
         },
         'mar`A' => {
           'Nhy' => 1
@@ -21352,8 +21382,7 @@ $Lexicon = {
           'NAn_Nayn' => 1
         },
         'rA`' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'ru`yAn' => {
           'N' => 1
@@ -22200,12 +22229,8 @@ $Lexicon = {
         'rawAsiy' => {
           'N0_Nh' => 1
         },
-        'rawAs' => {
-          'NK' => 1
-        },
         'rAs' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'rAsiy',
@@ -22245,9 +22270,6 @@ $Lexicon = {
         'rAsiyAt' => {},
         'rawAsiy' => {
           'N0_Nh' => 1
-        },
-        'rawAs' => {
-          'NK' => 1
         }
       },
       'entry' => 'rAsiy',
@@ -24515,9 +24537,6 @@ $Lexicon = {
         },
         'mar_tY' => {
           'Napdu' => 1
-        },
-        'marA_t' => {
-          'NK' => 1
         }
       },
       'entry' => 'mar_tiy',
@@ -26115,9 +26134,6 @@ $Lexicon = {
           'NAt' => 1,
           'NAn_Nayn' => 1,
           'N0_Nh' => 1
-        },
-        'tarA.d' => {
-          'NK' => 1
         }
       },
       'entry' => 'tarA.diy',
@@ -26180,8 +26196,7 @@ $Lexicon = {
           'Nap' => 1
         },
         'rA.d' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'rA.diy',
@@ -26215,8 +26230,7 @@ $Lexicon = {
     {
       'types' => {
         'mur.d' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mur.diy' => {
           'N0F_Nh' => 1,
@@ -28388,9 +28402,6 @@ $Lexicon = {
         'mir\'Y' => {
           'Napdu' => 1
         },
-        'marA\'' => {
-          'NK' => 1
-        },
         'mir\'AaT' => {},
         'marA\'iy' => {
           'N0_Nh' => 1
@@ -28641,48 +28652,6 @@ $Lexicon = {
         'frothy'
       ],
       'orig' => 'ragowiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ra.gAw' => {
-          'NK' => 1
-        },
-        'ra.gAwiy' => {
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => 'ra.gAwiy',
-      'form' => 'ra.gAwiy',
-      'lines' => [
-        ';; ragAwiy_1',
-        'rgAwy   ragAwiy N0_Nh   foam;froth',
-        'rgAw    ragAw   NK      foam;froth'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRADI',
-      'suffix' => '',
-      'glosses' => [
-        'foam',
-        'froth'
-      ],
-      'orig' => 'ragAwiy',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ra.gAwiy',
-      'form' => 'ra.gAwiy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRADI',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'ragAwiy',
       'prefix' => ''
     }
   ],
@@ -29262,7 +29231,11 @@ $Lexicon = {
         'rzy     raziy~  Nap     heavy loss;serious damage     [[raziy~/NOUN]]',
         'rzAyA   razAyA  N0_Nhy  heavy losses;serious damage'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'razAyA' => [
+          'FaCAyA'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -32968,9 +32941,6 @@ $Lexicon = {
         },
         'mirqAT' => {
           'Napdu' => 1
-        },
-        'marAq' => {
-          'NK' => 1
         }
       },
       'entry' => 'mirqY',
@@ -33027,9 +32997,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'taraqq' => {
-          'NK' => 1
-        },
         'taraqqiy' => {
           'NAt' => 1,
           'NAn_Nayn' => 1,
@@ -33081,8 +33048,7 @@ $Lexicon = {
           'N0F' => 1
         },
         'rAq' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'rAqiy',
@@ -33117,8 +33083,7 @@ $Lexicon = {
           'Nap' => 1
         },
         'rAq' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'rAqiy',
@@ -33155,8 +33120,7 @@ $Lexicon = {
           'N0_Nh' => 1
         },
         'murtaq' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'murtaqiy',
@@ -35263,6 +35227,9 @@ $Lexicon = {
         'r$A     ri$A    N0_Nhy  bribes'
       ],
       'patterns' => {
+        'ra^sAwY' => [
+          'FaCALY'
+        ],
         'ru^sY' => [
           'FuCY'
         ]
@@ -39626,7 +39593,11 @@ $Lexicon = {
         'rmy     ramiy~  Nap     game animal     [[ramiy~/NOUN]]',
         'rmAyA   ramAyA  N0_Nhy  game animals'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ramAyA' => [
+          'FaCAyA'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -39692,9 +39663,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'tarAm' => {
-          'NK' => 1
-        },
         'tarAmiy' => {
           'NAt' => 1,
           'NAn_Nayn' => 1,
@@ -39753,8 +39721,7 @@ $Lexicon = {
     {
       'types' => {
         'rAm' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'rumY' => {
           'Nap' => 1
@@ -39852,8 +39819,7 @@ $Lexicon = {
           'NAn_Nayn' => 1
         },
         'mutarAm' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'mutarAmiy',
@@ -40855,9 +40821,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'marAs' => {
-          'NK' => 1
-        },
         'marAsiy' => {
           'N0_Nh' => 1
         },
@@ -42045,7 +42008,11 @@ $Lexicon = {
         'trAwyH  tarAwiyH        Ndip    distractions;diversions',
         'trAwyH  tarAwiyH        Ndip    evening prayers (during Ramadan)'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tarAwiy.h' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL |< aT',
@@ -43158,6 +43125,9 @@ $Lexicon = {
       'patterns' => {
         'tarA.sa.s' => [
           'TaFACaL'
+        ],
+        'tarA.si.s' => [
+          'TaFACiL'
         ]
       },
       'index' => '1',
@@ -43324,36 +43294,6 @@ $Lexicon = {
         'River'
       ],
       'orig' => 'riyfir',
-      'prefix' => ''
-    }
-  ],
-  'ru.gAmY' => [
-    {
-      'types' => {
-        'ru.gAmA' => {
-          'Nhy' => 1
-        },
-        'ru.gAmY' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'ru.gAmY',
-      'form' => 'ru.gAmY',
-      'lines' => [
-        ';; rugAmaY_1',
-        'rgAmY   rugAmaY N0      trachea;windpipe',
-        'rgAmA   rugAmA  Nhy     trachea;windpipe'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'trachea',
-        'windpipe'
-      ],
-      'orig' => 'rugAmaY',
       'prefix' => ''
     }
   ],
@@ -44365,7 +44305,11 @@ $Lexicon = {
         '>rAjyf  >arAjiyf        Ndip    false rumors',
         'ArAjyf  >arAjiyf        Ndip    false rumors'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'arA^giyf' => [
+          'HaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
@@ -44704,6 +44648,34 @@ $Lexicon = {
     },
     {
       'types' => {
+        'ru.gAmA' => {
+          'Nhy' => 1
+        },
+        'ru.gAmY' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'ru.gAmY',
+      'form' => 'ru.gAmY',
+      'lines' => [
+        ';; rugAmaY_1',
+        'rgAmY   rugAmaY N0      trachea;windpipe',
+        'rgAmA   rugAmA  Nhy     trachea;windpipe'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCALY',
+      'suffix' => '',
+      'glosses' => [
+        'trachea',
+        'windpipe'
+      ],
+      'orig' => 'rugAmaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '\'ar.gam' => {
           'Nel' => 2
         }
@@ -44872,7 +44844,11 @@ $Lexicon = {
         'trnym   taroniym        NapAt   anthem;chanting;song',
         'trAnym  tarAniym        Ndip    anthems;chanting;songs'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tarAniym' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL |< aT',
@@ -47043,6 +47019,31 @@ $Lexicon = {
     },
     {
       'types' => {
+        'ra.gAwiy' => {
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'ra.gAwiy',
+      'form' => 'ra.gAwiy',
+      'lines' => [
+        ';; ragAwiy_1',
+        'rgAwy   ragAwiy N0_Nh   foam;froth',
+        'rgAw    ragAw   NK      foam;froth'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCALI',
+      'suffix' => '',
+      'glosses' => [
+        'foam',
+        'froth'
+      ],
+      'orig' => 'ragAwiy',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'ru.gAwaT' => {
           'Nap' => 1
         }
@@ -48318,9 +48319,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'tara^g^g' => {
-          'NK' => 1
-        },
         'tara^g^giy' => {
           'NAt' => 1,
           'NAn_Nayn' => 1,
@@ -48986,31 +48984,6 @@ $Lexicon = {
         'Reuters'
       ],
       'orig' => 'ruwyotirz',
-      'prefix' => ''
-    }
-  ],
-  'rabAyA' => [
-    {
-      'types' => {
-        'rabAyA' => {
-          'N0_Nhy' => 1
-        }
-      },
-      'entry' => 'rabAyA',
-      'form' => 'rabAyA',
-      'lines' => [
-        ';; rabAyA_1',
-        'rbAyA   rabAyA  N0_Nhy  guards'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'guards'
-      ],
-      'orig' => 'rabAyA',
       'prefix' => ''
     }
   ],
@@ -50649,6 +50622,9 @@ $Lexicon = {
         '\'arhA.t' => [
           'HaFCAL'
         ],
+        '\'arAhiy.t' => [
+          'HaFACIL'
+        ],
         '\'arAhi.t' => [
           'HaFACiL'
         ]
@@ -51114,7 +51090,11 @@ $Lexicon = {
         'trtyl   tarotiyl        Napdu   hymn',
         'trAtyl  tarAtiyl        Ndip    hymns'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tarAtiyl' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL |< aT',
@@ -53648,7 +53628,11 @@ $Lexicon = {
         'trHym   taroHiym        NduAt   intercessory prayer',
         'trAHym  tarAHiym        Ndip    intercessory prayer'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tarA.hiym' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -55866,8 +55850,7 @@ $Lexicon = {
     {
       'types' => {
         'mutaradd' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mutaraddiy' => {
           'N0F_Nh' => 1,
@@ -58008,12 +57991,15 @@ $Lexicon->{'r _h y'}[0]{'types'} = $Lexicon->{'r _h w'}[1]{'types'};
 $Lexicon->{'r _h y'}[0]{'lines'} = $Lexicon->{'r _h w'}[1]{'lines'};
 $Lexicon->{'r _h y'}[0]{'glosses'} = $Lexicon->{'r _h w'}[1]{'glosses'};
 $Lexicon->{'r _h y'}[0]{'imperf'} = $Lexicon->{'r _h w'}[1]{'imperf'};
-$Lexicon->{'r _h y'}[2]{'types'} = $Lexicon->{'r _h w'}[15]{'types'};
-$Lexicon->{'r _h y'}[2]{'lines'} = $Lexicon->{'r _h w'}[15]{'lines'};
-$Lexicon->{'r _h y'}[2]{'glosses'} = $Lexicon->{'r _h w'}[15]{'glosses'};
-$Lexicon->{'r _h y'}[3]{'types'} = $Lexicon->{'r _h w'}[16]{'types'};
-$Lexicon->{'r _h y'}[3]{'lines'} = $Lexicon->{'r _h w'}[16]{'lines'};
-$Lexicon->{'r _h y'}[3]{'glosses'} = $Lexicon->{'r _h w'}[16]{'glosses'};
+$Lexicon->{'r _h y'}[2]{'types'} = $Lexicon->{'r _h w'}[12]{'types'};
+$Lexicon->{'r _h y'}[2]{'lines'} = $Lexicon->{'r _h w'}[12]{'lines'};
+$Lexicon->{'r _h y'}[2]{'glosses'} = $Lexicon->{'r _h w'}[12]{'glosses'};
+$Lexicon->{'r _h y'}[3]{'types'} = $Lexicon->{'r _h w'}[15]{'types'};
+$Lexicon->{'r _h y'}[3]{'lines'} = $Lexicon->{'r _h w'}[15]{'lines'};
+$Lexicon->{'r _h y'}[3]{'glosses'} = $Lexicon->{'r _h w'}[15]{'glosses'};
+$Lexicon->{'r _h y'}[4]{'types'} = $Lexicon->{'r _h w'}[16]{'types'};
+$Lexicon->{'r _h y'}[4]{'lines'} = $Lexicon->{'r _h w'}[16]{'lines'};
+$Lexicon->{'r _h y'}[4]{'glosses'} = $Lexicon->{'r _h w'}[16]{'glosses'};
 $Lexicon->{'r n n'}[4]{'types'} = $Lexicon->{'r n n'}[3]{'types'};
 $Lexicon->{'r n n'}[4]{'lines'} = $Lexicon->{'r n n'}[3]{'lines'};
 $Lexicon->{'r n n'}[4]{'glosses'} = $Lexicon->{'r n n'}[3]{'glosses'};
@@ -58092,9 +58078,6 @@ $Lexicon->{'r t d'}[2]{'glosses'} = $Lexicon->{'r d d'}[19]{'glosses'};
 $Lexicon->{'r w b'}[8]{'types'} = $Lexicon->{'r w b'}[7]{'types'};
 $Lexicon->{'r w b'}[8]{'lines'} = $Lexicon->{'r w b'}[7]{'lines'};
 $Lexicon->{'r w b'}[8]{'glosses'} = $Lexicon->{'r w b'}[7]{'glosses'};
-$Lexicon->{'r .g w y'}[2]{'types'} = $Lexicon->{'r .g w y'}[1]{'types'};
-$Lexicon->{'r .g w y'}[2]{'lines'} = $Lexicon->{'r .g w y'}[1]{'lines'};
-$Lexicon->{'r .g w y'}[2]{'glosses'} = $Lexicon->{'r .g w y'}[1]{'glosses'};
 $Lexicon->{'r w f'}[1]{'types'} = $Lexicon->{'r w f'}[0]{'types'};
 $Lexicon->{'r w f'}[1]{'lines'} = $Lexicon->{'r w f'}[0]{'lines'};
 $Lexicon->{'r w f'}[1]{'glosses'} = $Lexicon->{'r w f'}[0]{'glosses'};

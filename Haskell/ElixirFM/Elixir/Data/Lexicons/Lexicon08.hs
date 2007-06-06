@@ -204,7 +204,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- daEowap -}          [ "(Islamic) missionary work", "Da'wah", "propaganda" ],
 
-    FaCLY                     `noun`    {- daEowaY -}          [ "lawsuit", "allegation", "legal action", "lawsuits", "allegations", "legal actions" ],
+    FaCLY                     `noun`    {- daEowaY -}          [ "lawsuit", "allegation", "legal action", "lawsuits", "allegations", "legal actions" ]
+                              `plural`     FaCALY
+                           {- `others`  [ "da`AwY N0" ] -},
 
     FuCA'                     `noun`    {- duEA' -}            [ "call", "request", "invocation" ]
                               `plural`     HaFCI |< aT,
@@ -242,6 +244,8 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- diEAyap -}          [ "propaganda", "advertising" ],
 
+    TaFACI                    `noun`    {- tadAEiy -}          [ "association", "mutual summoning" ],
+
     FACI                      `noun`    {- dAEiy -}            [ "cause", "reason", "motives", "requirements" ]
                               `plural`     FawACI
                            {- `others`  [ "dawA`iy N0_Nh" ] -},
@@ -270,7 +274,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCCaL                    `verb`    {- dab~ar -}           [ "make plans", "arrange", "manage", "be planned", "be arranged", "be managed" ],
 
-    TaFCIL                    `noun`    {- tadobiyr -}         [ "arrangement", "preparation", "management", "arrangements", "preparations", "measures" ],
+    TaFCIL                    `noun`    {- tadobiyr -}         [ "arrangement", "preparation", "management", "arrangements", "preparations", "measures" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tadAbiyr Ndip" ] -},
 
     MuFaCCiL                  `noun`    {- mudab~ir -}         [ "manager", "organizer" ] ]
 

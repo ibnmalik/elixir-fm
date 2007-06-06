@@ -2271,7 +2271,9 @@ lexicon = listing "Lexicon's properties"
     -- nSArY   naSAraY N0      Christians
     -- nSArA   naSArA  Nhy     Christians
 
-    FaCLAn |< Iy              `adj`     {- naSorAniy~ -}       [ "Christian", "Christians" ],
+    FaCLAn |< Iy              `adj`     {- naSorAniy~ -}       [ "Christian", "Christians" ]
+                              `plural`     FaCALY
+                           {- `others`  [ "na.sArY N0" ] -},
 
     -- ;; naSorAniy~ap_1
     -- nSrAny  naSorAniy~      Nap     Christianity     [[naSorAniy~/NOUN]]
@@ -4187,7 +4189,9 @@ lexicon = listing "Lexicon's properties"
     -- njAwY   najAwaY N0      confidential talks;soliloquies
     -- njAwA   najAwA  Nhy     confidential talks;soliloquies
 
-    FaCLY                     `noun`    {- najowaY -}          [ "confidential talk", "soliloquy", "confidential talks", "soliloquies" ],
+    FaCLY                     `noun`    {- najowaY -}          [ "confidential talk", "soliloquy", "confidential talks", "soliloquies" ]
+                              `plural`     FaCALY
+                           {- `others`  [ "na^gAwY N0" ] -},
 
     -- ;; manojaY_1
     -- mnjY    manojaY N0      safety;security
@@ -5269,7 +5273,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCLAn                    `noun`    {- na$owAn -}          [ "intoxicated" ]
                               `plural`     FaCLY
-                           {- `others`  [ "na^swY N0" ] -} ]
+                              `plural`     FaCALY
+                           {- `others`  [ "na^swY N0", "na^sAwY N0" ] -} ]
 
  |> "n ^s w n" <| [
 
@@ -7066,7 +7071,9 @@ lexicon = listing "Lexicon's properties"
     -- >nAby$  >anAbiy$        Ndip    excavations;excavated objects
     -- AnAby$  >anAbiy$        Ndip    excavations;excavated objects
 
-    FaCIL                     `noun`    {- nabiy$ -}           [ "excavated", "dug up", "excavation", "excavated object", "excavations", "excavated objects" ] ]
+    FaCIL                     `noun`    {- nabiy$ -}           [ "excavated", "dug up", "excavation", "excavated object", "excavations", "excavated objects" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'anAbiy^s Ndip" ] -} ]
 
  |> "n b _d" <| [
 
@@ -7494,9 +7501,10 @@ lexicon = listing "Lexicon's properties"
     -- AnAbyr  >anAbiyr        Ndip    barns;granaries;warehouses
 
     FiCL                      `noun`    {- nibor -}            [ "barn", "granary", "warehouse", "barns", "granaries", "warehouses" ]
+                              `plural`     HaFACIL
                               `plural`     HaFACiL
                               `plural`     HaFCAL
-                           {- `others`  [ "'anAbir Ndip", "'anbAr N" ] -},
+                           {- `others`  [ "'anAbiyr Ndip", "'anAbir Ndip", "'anbAr N" ] -},
 
     -- ;; naborap_1
     -- nbr     nabor   Napdu   accentuation;intonation
@@ -8123,7 +8131,9 @@ lexicon = listing "Lexicon's properties"
     -- ndAmY   nadAmaY N0      repentant;regretful
     -- ndAmA   nadAmA  Nhy     repentant;regretful
 
-    FaCLAn                    `noun`    {- nadomAn -}          [ "repentant", "regretful" ],
+    FaCLAn                    `noun`    {- nadomAn -}          [ "repentant", "regretful" ]
+                              `plural`     FaCALY
+                           {- `others`  [ "nadAmY N0" ] -},
 
     -- ;; manodam_1
     -- mndm    manodam N       remorse;regret
@@ -9872,6 +9882,14 @@ lexicon = listing "Lexicon's properties"
     -- nfAy    nufAy   NapAt   waste;refuse
 
     FuCAL |< aT               `noun`    {- nufAyap -}          [ "waste", "refuse" ],
+
+    -- ;; tanAfiy_1
+    -- tnAfy   tanAfiy N0_Nh   mutual incompatibility
+    -- tnAf    tanAf   NK      mutual incompatibility
+    -- tnAfy   tanAfiy NAn_Nayn        mutual incompatibilities
+    -- tnAfy   tanAfiy NAt     mutual incompatibilities
+
+    TaFACI                    `noun`    {- tanAfiy -}          [ "mutual incompatibility", "mutual incompatibilities" ],
 
     -- ;; nAfiyAF_1
     -- nAfy    nAfiy   NF      denying;disavowing;rejecting
@@ -16683,7 +16701,9 @@ lexicon = listing "Lexicon's properties"
     -- ny      niy~    NapAt   intention;purpose;desire     [[niy~/NOUN]]
     -- nwAyA   nawAyA  N0_Nhy  intentions;desires
 
-    FIL |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire", "intentions", "desires" ] ]
+    FIL |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire", "intentions", "desires" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "nawAyA N0_Nhy" ] -} ]
 
  |> "n y '" <| [
 
@@ -16774,8 +16794,9 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `noun`    {- nAb -}              [ "canine tooth", "fang", "tusk", "canine teeth", "fangs", "tusks" ]
                               `plural`     FuCUL
+                              `plural`     HaFACIL
                               `plural`     HaFCAL
-                           {- `others`  [ "nuyuwb N", "'anyAb N" ] -},
+                           {- `others`  [ "nuyuwb N", "'anAyiyb Ndip", "'anyAb N" ] -},
 
     -- ;; niyb_1
     -- nyb     niyb    N       old she-camel

@@ -41,6 +41,14 @@ lexicon = listing "Lexicon's properties"
 
     FaCUL |< aT               `noun`    {- Oaguwrap -}         [ "agura (approx.: Israeli cent)", "agurot (approx.: Israeli cents)" ] ]
 
+ |> "' .g s" <| [
+
+    -- ;; >agAsiy_1
+    -- >gAsy   >agAsiy Nprop   Agasi
+    -- AgAsy   >agAsiy Nprop   Agasi
+
+    FaCALI                    `noun`    {- OagAsiy -}          [ "Agasi" ] ]
+
  |> "' .g s y" <| [
 
     -- ;; >agAsiy_1
@@ -989,8 +997,8 @@ lexicon = listing "Lexicon's properties"
     -- A$Af    >a$Af   NK      awls;punches
 
     FiCLY                     `noun`    {- Ii$ofaY -}          [ "awl", "punch", "awls", "punches" ]
-                              `plural`     FaCAL
-                           {- `others`  [ "'a^sAf NK" ] -} ]
+                              `plural`     FaCALI
+                           {- `others`  [ "'a^sAfiy N0_Nh" ] -} ]
 
  |> "' ^s n" <| [
 
@@ -1887,6 +1895,14 @@ lexicon = listing "Lexicon's properties"
 
     FACI |< aT                `noun`    {- \|xiyap -}          [ "attachment", "bond" ],
 
+    -- ;; ta|xiy_1
+    -- t|xy    ta|xiy  N0_Nh   fraternity
+    -- t|x     ta|x    NK      fraternity
+    -- t|xy    ta|xiy  NAn_Nayn        fraternity
+    -- t|xy    ta|xiy  NAt     fraternity
+
+    TaFACI                    `noun`    {- ta|xiy -}           [ "fraternity" ],
+
     -- ;; >awAxiy_1
     -- >wAxy   >awAxiy N0_Nh   ties;bonds
     -- AwAxy   >awAxiy N0_Nh   ties;bonds
@@ -1971,8 +1987,8 @@ lexicon = listing "Lexicon's properties"
     -- AvAf    >avAf   NK      trivets;tripods
 
     FuCL |< Iy |< aT          `noun`    {- Ouvofiy~ap -}       [ "trivet", "tripod", "trivets", "tripods" ]
-                              `plural`     FaCAL
-                           {- `others`  [ "'a_tAf NK" ] -} ]
+                              `plural`     FaCALI
+                           {- `others`  [ "'a_tAfiy N0_Nh" ] -} ]
 
  |> "' _t l" <| [
 
@@ -3907,8 +3923,8 @@ lexicon = listing "Lexicon's properties"
     -- AhAl    >ahAl   NK      families;indigenous people
 
     FaCL                      `noun`    {- Oahol -}            [ "family", "people", "families", "folk", "indigenous people" ]
-                              `plural`     FaCAL
-                           {- `others`  [ "'ahAl NK" ] -},
+                              `plural`     FaCALI
+                           {- `others`  [ "'ahAliy N0_Nh" ] -},
 
     -- ;; >ahol_2
     -- >hl     >ahol   Nall    qualified
@@ -4747,6 +4763,11 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCuL                  `noun`    {- taOal~uf -}         [ "formation", "composition" ],
 
+    -- ;; ta|liyf_1
+    -- t|lyf   ta|liyf Ndip    publications
+
+    TaFACIL                   `noun`    {- ta|liyf -}          [ "publications" ],
+
     -- ;; ta>al~ufiy~_1
     -- t>lfy   ta>al~ufiy~     Nall    synthetic;syncretic     [[ta>al~ufiy~/ADJ]]
 
@@ -5304,7 +5325,9 @@ lexicon = listing "Lexicon's properties"
     -- AlAyA   >alAyA  Nhy     buttocks;backsides
 
     FaCL |< aT                `noun`    {- Oaloyap -}          [ "buttock", "backside", "buttocks", "backsides" ]
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCAyA
+                              `plural`     FaCaL |< At
+                           {- `others`  [ "'alAyA N0 Nhy" ] -},
 
     -- ;; |lA'_1
     -- \|lA'    |lA'    N0_Nh   benefits;blessings
@@ -5741,6 +5764,12 @@ lexicon = listing "Lexicon's properties"
     -- AmAn    >amAn   N       safety;protection
 
     FaCAL                     `noun`    {- OamAn -}            [ "safety", "protection" ],
+
+    -- ;; >amAniy_1
+    -- >mAny   >amAniy Nprop   Amani
+    -- AmAny   >amAniy Nprop   Amani
+
+    FaCALI                    `noun`    {- OamAniy -}          [ "Amani" ],
 
     -- ;; >amAnap_1
     -- >mAn    >amAn   Nap     faithfulness;loyalty
@@ -6456,7 +6485,9 @@ lexicon = listing "Lexicon's properties"
     -- >nAvA   >anAvA  Nhy     females
     -- AnAvA   >anAvA  Nhy     females
 
-    FiCAL                     `noun`    {- IinAv -}            [ "females" ],
+    FiCAL                     `noun`    {- IinAv -}            [ "females" ]
+                              `plural`     FaCALY
+                           {- `others`  [ "'anA_tY N0" ] -},
 
     -- ;; >unovawiy~_1
     -- >nvwy   >unovawiy~      Nall    feminine     [[>unovawiy~/ADJ]]
@@ -7327,8 +7358,8 @@ lexicon = listing "Lexicon's properties"
     -- ArAD    >arAD   NK      territories;land
 
     FaCL                      `noun`    {- OaroD -}            [ "earth", "territory", "territories", "land" ]
-                              `plural`     FaCAL
-                           {- `others`  [ "'arA.d NK" ] -},
+                              `plural`     FaCALI
+                           {- `others`  [ "'arA.diy N0_Nh" ] -},
 
     -- ;; >araDap_1
     -- >rD     >araD   Napdu   termite
@@ -8638,9 +8669,10 @@ lexicon = listing "Lexicon's properties"
     -- AsArA   >asArA  Nhy     prisoners;captives
 
     FaCIL                     `noun`    {- Oasiyr -}           [ "prisoner", "captive", "prisoners", "captives" ]
+                              `plural`     FaCALY
                               `plural`     FuCaLA'
                               `plural`     FaCLY
-                           {- `others`  [ "'usarA' Nh N0_Nh Nhy", "'asrY N0" ] -},
+                           {- `others`  [ "'asArY N0", "'usarA' Nh N0_Nh Nhy", "'asrY N0" ] -},
 
     -- ;; ta>osiyr_1
     -- t>syr   ta>osiyr        NduAt   webbing (chair)
@@ -9215,6 +9247,14 @@ lexicon = listing "Lexicon's properties"
 
     KaRDAS                    `noun`    {- OasoyAn -}          [ "afflicted", "desolate", "sad" ] ]
 
+ |> "' t .g" <| [
+
+    -- ;; >atAgiy_1
+    -- >tAgy   >atAgiy Nprop   Atagi
+    -- AtAgy   >atAgiy Nprop   Atagi
+
+    FaCALI                    `noun`    {- OatAgiy -}          [ "Atagi" ] ]
+
  |> "' t .g y" <| [
 
     -- ;; >atAgiy_1
@@ -9325,7 +9365,9 @@ lexicon = listing "Lexicon's properties"
     -- >tAwA   >atAwA  Nhy     taxes;payments
     -- AtAwA   >atAwA  Nhy     taxes;payments
 
-    FiCAL |< aT               `noun`    {- IitAwap -}          [ "tax", "tribute", "taxes", "payments" ] ]
+    FiCAL |< aT               `noun`    {- IitAwap -}          [ "tax", "tribute", "taxes", "payments" ]
+                              `plural`     FaCALY
+                           {- `others`  [ "'atAwY N0" ] -} ]
 
  |> "' t y" <| [
 
@@ -9614,8 +9656,8 @@ lexicon = listing "Lexicon's properties"
     -- AwA$    >awA$   NK      prayers;orations
 
     FUL |< Iy |< aT           `noun`    {- Ouw$iy~ap -}        [ "prayer", "oration", "prayers", "orations" ]
-                              `plural`     FaCAL
-                           {- `others`  [ "'awA^s NK" ] -},
+                              `plural`     FaCALI
+                           {- `others`  [ "'awA^siy N0_Nh" ] -},
 
     -- ;; >uw$iy~ap_1
     -- >w$y    >uw$iy~ Napdu   prayer;oration     [[>uw$iy~/NOUN]]
@@ -9626,8 +9668,18 @@ lexicon = listing "Lexicon's properties"
     -- AwA$    >awA$   NK      prayers;orations
 
     FUL |< Iy |< aT           `noun`    {- Ouw$iy~ap -}        [ "prayer", "oration", "prayers", "orations" ]
-                              `plural`     FaCAL
-                           {- `others`  [ "'awA^s NK" ] -} ]
+                              `plural`     FaCALI
+                           {- `others`  [ "'awA^siy N0_Nh" ] -} ]
+
+ |> "' w _h" <| [
+
+    -- ;; >awAxiy_1
+    -- >wAxy   >awAxiy N0_Nh   ties;bonds
+    -- AwAxy   >awAxiy N0_Nh   ties;bonds
+    -- >wAx    >awAx   NK      ties;bonds
+    -- AwAx    >awAx   NK      ties;bonds
+
+    FaCALI                    `noun`    {- OawAxiy -}          [ "ties", "bonds" ] ]
 
  |> "' w _h y" <| [
 
@@ -10175,8 +10227,8 @@ lexicon = listing "Lexicon's properties"
     -- AwAq    >awAq   NK      ounces
 
     FUL |< Iy |< aT           `noun`    {- Ouwqiy~ap -}        [ "ounce", "ounces" ]
-                              `plural`     FaCAL
-                           {- `others`  [ "'awAq NK" ] -} ]
+                              `plural`     FaCALI
+                           {- `others`  [ "'awAqiy N0_Nh" ] -} ]
 
  |> "' w r" <| [
 
@@ -17471,13 +17523,6 @@ lexicon = listing "Lexicon's properties"
     -- t|Sly   ta|Suliy~       Nall    allotropic     [[ta|Suliy~/ADJ]]
 
     Identity                  `adj`     {- ta|Suliy~ -}        [ "allotropic" ] ]
-
- |> "ta'Aliyf" <| [
-
-    -- ;; ta|liyf_1
-    -- t|lyf   ta|liyf Ndip    publications
-
-    Identity                  `noun`    {- ta|liyf -}          [ "publications" ] ]
 
  |> "ta'^siyriyy" <| [
 

@@ -1128,7 +1128,9 @@ lexicon = listing "Lexicon's properties"
     -- tlHyn   taloHiyn        Ndu     musical composition
     -- tlAHyn  talAHiyn        Ndip    musical compositions
 
-    TaFCIL                    `noun`    {- taloHiyn -}         [ "musical composition", "musical compositions" ],
+    TaFCIL                    `noun`    {- taloHiyn -}         [ "musical composition", "musical compositions" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "talA.hiyn Ndip" ] -},
 
     -- ;; taloHiyniy~_1
     -- tlHyny  taloHiyniy~     N-ap    singable     [[taloHiyniy~/ADJ]]
@@ -3126,7 +3128,9 @@ lexicon = listing "Lexicon's properties"
     -- tlbyb   talobiyb        Ndu     collar
     -- tlAbyb  talAbiyb        Ndip    collars
 
-    TaFCIL                    `noun`    {- talobiyb -}         [ "collar", "collars" ] ]
+    TaFCIL                    `noun`    {- talobiyb -}         [ "collar", "collars" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "talAbiyb Ndip" ] -} ]
 
  |> "l b d" <| [
 
@@ -3941,7 +3945,9 @@ lexicon = listing "Lexicon's properties"
     -- tlfyH   talofiyH        Napdu   silk muffler
     -- tlAfyH  talAfiyH        Ndip    silk mufflers
 
-    TaFCIL |< aT              `noun`    {- talofiyHap -}       [ "silk muffler", "silk mufflers" ] ]
+    TaFCIL |< aT              `noun`    {- talofiyHap -}       [ "silk muffler", "silk mufflers" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "talAfiy.h Ndip" ] -} ]
 
  |> "l f .z" <| [
 
@@ -4147,7 +4153,9 @@ lexicon = listing "Lexicon's properties"
     -- tlfyf   talofiyf        Ndu     winding;coil;twist
     -- tlAfyf  talAfiyf        Ndip    depth
 
-    TaFCIL                    `noun`    {- talofiyf -}         [ "winding", "coil", "twist", "depth" ],
+    TaFCIL                    `noun`    {- talofiyf -}         [ "winding", "coil", "twist", "depth" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "talAfiyf Ndip" ] -},
 
     -- ;; {ilotifAf_1
     -- <ltfAf  {ilotifAf       N/At    turn;surrounding;turnabout
@@ -4606,7 +4614,8 @@ lexicon = listing "Lexicon's properties"
     FaCLAn                    `adj`     {- lahofAn -}          [ "worried", "regretful", "grieved", "eager" ]
                               `plural`     FaCLY
                               `plural`     FuCuL
-                           {- `others`  [ "lahfY N0_L", "luhuf N_L" ] -},
+                              `plural`     FaCALY
+                           {- `others`  [ "lahfY N0_L", "luhuf N_L", "lahAfY N0_L" ] -},
 
     -- ;; lahiyf_1
     -- lhyf    lahiyf  N/ap_L  eager;desirous;worried     [[lahiyf/ADJ]]
@@ -5283,7 +5292,9 @@ lexicon = listing "Lexicon's properties"
     -- tlmyH   talomiyH        Ndu     allusion;suggestion
     -- tlAmyH  talAmiyH        Ndip    early symptoms;allusions
 
-    TaFCIL                    `noun`    {- talomiyH -}         [ "allusion", "suggestion", "early symptoms", "allusions" ],
+    TaFCIL                    `noun`    {- talomiyH -}         [ "allusion", "suggestion", "early symptoms", "allusions" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "talAmiy.h Ndip" ] -},
 
     -- ;; talomiyHAF_1
     -- tlmyH   talomiyH        NF      indirectly;through allusion     [[talomiyH/ADV]]
@@ -6823,8 +6834,9 @@ lexicon = listing "Lexicon's properties"
     -- AlAwyH  >alAwiyH        Ndip    blackboards;slates
 
     FaCL                      `noun`    {- lawoH -}            [ "blackboard", "slate", "blackboards", "slates" ]
+                              `plural`     HaFACIL
                               `plural`     HaFCAL
-                           {- `others`  [ "'alwA.h N" ] -},
+                           {- `others`  [ "'alAwiy.h Ndip", "'alwA.h N" ] -},
 
     -- ;; lawoHap_1
     -- lwH     lawoH   NapAt_L painting;picture
@@ -7887,8 +7899,8 @@ lexicon = listing "Lexicon's properties"
     -- lyAl    layAl   NK      nights;evenings;soirees
 
     FaCL |< aT                `noun`    {- layolap -}          [ "night", "evening", "nights", "evenings", "soirees" ]
-                              `plural`     FaCAL
-                           {- `others`  [ "layAl NK" ] -},
+                              `plural`     FaCALI
+                           {- `others`  [ "layAliy N0_Nh_L" ] -},
 
     -- ;; layoliy~_1
     -- lyly    layoliy~        N-ap_L  evening;nightly;nocturnal     [[layoliy~/ADJ]]

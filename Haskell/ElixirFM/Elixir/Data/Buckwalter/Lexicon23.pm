@@ -1578,7 +1578,11 @@ $Lexicon = {
         'tlbyb   talobiyb        Ndu     collar',
         'tlAbyb  talAbiyb        Ndip    collars'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'talAbiyb' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -2599,9 +2603,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'lA.g' => {
-          'NK' => 1
-        },
         'lA.giy' => {
           'NAn_Nayn_L' => 1,
           'NapAt_L' => 1,
@@ -8631,9 +8632,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'malAh' => {
-          'NK' => 1
-        },
         'malhay' => {
           'NAn_Nayn' => 1
         },
@@ -8737,8 +8735,7 @@ $Lexicon = {
           'N0F' => 1
         },
         'lAh' => {
-          'Nuwn_Niyn_L' => 1,
-          'NK' => 1
+          'Nuwn_Niyn_L' => 1
         }
       },
       'entry' => 'lAhiy',
@@ -8766,8 +8763,7 @@ $Lexicon = {
     {
       'types' => {
         'mulh' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mulhiy' => {
           'N0F_Nh' => 1,
@@ -11884,9 +11880,6 @@ $Lexicon = {
         },
         'malAwiy' => {
           'N0_Nh' => 1
-        },
-        'malAw' => {
-          'NK' => 1
         }
       },
       'entry' => 'milwY',
@@ -11989,9 +11982,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'lAw' => {
-          'NK' => 1
-        },
         'luwY' => {
           'Nap_L' => 1
         },
@@ -12059,8 +12049,7 @@ $Lexicon = {
           'N0_Nh' => 1
         },
         'multaw' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'multawiy',
@@ -14177,6 +14166,9 @@ $Lexicon = {
         'lahfY' => [
           'FaCLY'
         ],
+        'lahAfY' => [
+          'FaCALY'
+        ],
         'luhuf' => [
           'FuCuL'
         ]
@@ -15406,9 +15398,6 @@ $Lexicon = {
         'malqA' => {
           'Nhy' => 1
         },
-        'malAq' => {
-          'NK' => 1
-        },
         'malqY' => {
           'N0' => 1
         },
@@ -15528,9 +15517,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'talaqq' => {
-          'NK' => 1
-        },
         'talaqqiy' => {
           'NAt' => 1,
           'NAn_Nayn' => 1,
@@ -15565,9 +15551,6 @@ $Lexicon = {
           'NAt' => 1,
           'NAn_Nayn' => 1,
           'N0_Nh' => 1
-        },
-        'talAq' => {
-          'NK' => 1
         }
       },
       'entry' => 'talAqiy',
@@ -15639,9 +15622,6 @@ $Lexicon = {
           'NAt' => 1,
           'N0F_Nh' => 1,
           'NAn_Nayn' => 1
-        },
-        'mulq' => {
-          'NK' => 1
         }
       },
       'entry' => 'mulqiy',
@@ -15714,8 +15694,7 @@ $Lexicon = {
           'NAn_Nayn' => 1
         },
         'mutalaqq' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'mutalaqqiy',
@@ -17663,9 +17642,6 @@ $Lexicon = {
         '\'al.hiy' => {
           'N0_Nh' => 2
         },
-        '\'al.h' => {
-          'NK' => 2
-        },
         'la.hy' => {
           'NAn_Nayn_L' => 1
         }
@@ -17769,8 +17745,7 @@ $Lexicon = {
     {
       'types' => {
         'multa.h' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'multa.hiy' => {
           'NapAt' => 1,
@@ -23808,7 +23783,11 @@ $Lexicon = {
         'tlmyH   talomiyH        Ndu     allusion;suggestion',
         'tlAmyH  talAmiyH        Ndip    early symptoms;allusions'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'talAmiy.h' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -25044,7 +25023,11 @@ $Lexicon = {
         'tlHyn   taloHiyn        Ndu     musical composition',
         'tlAHyn  talAHiyn        Ndip    musical compositions'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'talA.hiyn' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -27308,9 +27291,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'talA^s' => {
-          'NK' => 1
-        },
         'talA^siy' => {
           'NAt' => 1,
           'NAn_Nayn' => 1,
@@ -27341,8 +27321,7 @@ $Lexicon = {
     {
       'types' => {
         'mutalA^s' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mutalA^siy' => {
           'N0F_Nh' => 1,
@@ -29801,6 +29780,9 @@ $Lexicon = {
       'patterns' => {
         'talAzaz' => [
           'TaFACaL'
+        ],
+        'talAziz' => [
+          'TaFACiL'
         ]
       },
       'index' => '1',
@@ -30235,6 +30217,9 @@ $Lexicon = {
         'AlAwyH  >alAwiyH        Ndip    blackboards;slates'
       ],
       'patterns' => {
+        '\'alAwiy.h' => [
+          'HaFACIL'
+        ],
         '\'alwA.h' => [
           'HaFCAL'
         ]
@@ -32679,9 +32664,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'layAl' => {
-          'NK' => 1
-        },
         'layAliy' => {
           'N0_Nh_L' => 1
         },
@@ -32698,8 +32680,8 @@ $Lexicon = {
         'lyAl    layAl   NK      nights;evenings;soirees'
       ],
       'patterns' => {
-        'layAl' => [
-          'FaCAL'
+        'layAliy' => [
+          'FaCALI'
         ]
       },
       'index' => '1',
@@ -34609,7 +34591,11 @@ $Lexicon = {
         'tlfyf   talofiyf        Ndu     winding;coil;twist',
         'tlAfyf  talAfiyf        Ndip    depth'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'talAfiyf' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -35715,7 +35701,11 @@ $Lexicon = {
         'tlfyH   talofiyH        Napdu   silk muffler',
         'tlAfyH  talAfiyH        Ndip    silk mufflers'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'talAfiy.h' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL |< aT',
@@ -37570,9 +37560,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'talAf' => {
-          'NK' => 1
-        },
         'talAfiy' => {
           'NAt' => 1,
           'NAn_Nayn' => 1,

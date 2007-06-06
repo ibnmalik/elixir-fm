@@ -1326,6 +1326,12 @@ lexicon = listing "Lexicon's properties"
 
     FuCAL                     `noun`    {- rugAm -}            [ "mucus" ],
 
+    -- ;; rugAmaY_1
+    -- rgAmY   rugAmaY N0      trachea;windpipe
+    -- rgAmA   rugAmA  Nhy     trachea;windpipe
+
+    FuCALY                    `noun`    {- rugAmaY -}          [ "trachea", "windpipe" ],
+
     -- ;; >arogam_2
     -- >rgm    >arogam Nel     more compelled;more forced
     -- Argm    >arogam Nel     more compelled;more forced
@@ -1399,6 +1405,12 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- ragowap -}          [ "foam", "froth" ],
 
+    -- ;; ragAwiy_1
+    -- rgAwy   ragAwiy N0_Nh   foam;froth
+    -- rgAw    ragAw   NK      foam;froth
+
+    FaCALI                    `noun`    {- ragAwiy -}          [ "foam", "froth" ],
+
     -- ;; rugAwap_1
     -- rgAw    rugAw   Nap     foam;froth
 
@@ -1409,19 +1421,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; ragowiy~_1
     -- rgwy    ragowiy~        N-ap    foamy;frothy     [[ragowiy~/ADJ]]
 
-    KaRDIS                    `adj`     {- ragowiy~ -}         [ "foamy", "frothy" ],
-
-    -- ;; ragAwiy_1
-    -- rgAwy   ragAwiy N0_Nh   foam;froth
-    -- rgAw    ragAw   NK      foam;froth
-
-    KaRADI                    `noun`    {- ragAwiy -}          [ "foam", "froth" ],
-
-    -- ;; ragAwiy_1
-    -- rgAwy   ragAwiy N0_Nh   foam;froth
-    -- rgAw    ragAw   NK      foam;froth
-
-    KaRADI                    `noun`    {- ragAwiy -}          [ "foam", "froth" ] ]
+    KaRDIS                    `adj`     {- ragowiy~ -}         [ "foamy", "frothy" ] ]
 
  |> "r .h .d" <| [
 
@@ -1730,7 +1730,9 @@ lexicon = listing "Lexicon's properties"
     -- trHym   taroHiym        NduAt   intercessory prayer
     -- trAHym  tarAHiym        Ndip    intercessory prayer
 
-    TaFCIL                    `noun`    {- taroHiym -}         [ "intercessory prayer" ],
+    TaFCIL                    `noun`    {- taroHiym -}         [ "intercessory prayer" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tarA.hiym Ndip" ] -},
 
     -- ;; {isotiroHAm_1
     -- <strHAm {isotiroHAm     N/At    plea for mercy
@@ -2685,7 +2687,9 @@ lexicon = listing "Lexicon's properties"
     -- >rAjyf  >arAjiyf        Ndip    false rumors
     -- ArAjyf  >arAjiyf        Ndip    false rumors
 
-    HiFCAL                    `noun`    {- IirojAf -}          [ "false rumor", "false rumors" ] ]
+    HiFCAL                    `noun`    {- IirojAf -}          [ "false rumor", "false rumors" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'arA^giyf Ndip" ] -} ]
 
  |> "r ^g l" <| [
 
@@ -3515,7 +3519,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- ra$owap -}          [ "bribe", "bribes" ]
                               `plural`     FuCY
-                           {- `others`  [ "ru^sY N0" ] -},
+                              `plural`     FaCALY
+                           {- `others`  [ "ru^sY N0", "ra^sAwY N0" ] -},
 
     -- ;; ri$A'_1
     -- r$A'    ri$A'   N0_Nh   rope;well rope
@@ -3755,7 +3760,9 @@ lexicon = listing "Lexicon's properties"
     -- trxyS   taroxiyS        NduAt   granting of permission;licensing
     -- trAxyS  tarAxiyS        Ndip    granting of permission;licensing
 
-    TaFCIL                    `noun`    {- taroxiyS -}         [ "granting of permission", "licensing" ],
+    TaFCIL                    `noun`    {- taroxiyS -}         [ "granting of permission", "licensing" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tarA_hiy.s Ndip" ] -},
 
     -- ;; murax~aS_1
     -- mrxS    murax~aS        Nall    licensed;officially registered     [[murax~aS/ADJ]]
@@ -4048,6 +4055,14 @@ lexicon = listing "Lexicon's properties"
     -- rxy     raxiy~  N/ap    feeble;cozy     [[raxiy~/ADJ]]
 
     FaCIL                     `adj`     {- raxiy~ -}           [ "feeble", "cozy" ],
+
+    -- ;; tarAxiy_1
+    -- trAxy   tarAxiy N0_Nh   languor;mitigation;looseness
+    -- trAx    tarAx   NK      languor;mitigation;looseness
+    -- trAxy   tarAxiy NAn_Nayn        languor;mitigation;looseness
+    -- trAxy   tarAxiy NAt     languor;mitigation;looseness
+
+    TaFACI                    `noun`    {- tarAxiy -}          [ "languor", "mitigation", "looseness" ],
 
     -- ;; rAxiy_1
     -- rAxy    rAxiy   N0F     sagging;drooping     [[rAxiy/ADJ]]
@@ -4636,7 +4651,9 @@ lexicon = listing "Lexicon's properties"
     -- rEy     raEiy~  Napdu   subject;citizen     [[raEiy~/NOUN]]
     -- rEAyA   raEAyA  N0_Nhy  subjects;citizens
 
-    FaCIL |< aT               `noun`    {- raEiy~ap -}         [ "subject", "citizen", "subjects", "citizens" ],
+    FaCIL |< aT               `noun`    {- raEiy~ap -}         [ "subject", "citizen", "subjects", "citizens" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "ra`AyA N0_Nhy" ] -},
 
     -- ;; maroEaY_1
     -- mrEY    maroEaY N0      grassland;pasture
@@ -5118,7 +5135,9 @@ lexicon = listing "Lexicon's properties"
     -- trbyE   tarobiyE        NduAt   quadrangle;plaza;quadrilateral
     -- trAbyE  tarAbiyE        Ndip    quadrangles;plazas;quadrilaterals
 
-    TaFCIL                    `noun`    {- tarobiyE -}         [ "quadrangle", "plaza", "quadrilateral", "quadrangles", "plazas", "quadrilaterals" ],
+    TaFCIL                    `noun`    {- tarobiyE -}         [ "quadrangle", "plaza", "quadrilateral", "quadrangles", "plazas", "quadrilaterals" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tarAbiy` Ndip" ] -},
 
     -- ;; tarobiyE_2
     -- trbyE   tarobiyE        NduAt   quadrupling;squaring
@@ -5615,7 +5634,12 @@ lexicon = listing "Lexicon's properties"
     -- mtrb    mutarab~        Nuwn_Niyn       well-bred;well-mannered
     -- mtrby   mutarab~iy      NapAt   well-bred;well-mannered
 
-    MutaFaCCI                 `adj`     {- mutarab~iy -}       [ "well-bred", "well-mannered" ] ]
+    MutaFaCCI                 `adj`     {- mutarab~iy -}       [ "well-bred", "well-mannered" ],
+
+    -- ;; rabAyA_1
+    -- rbAyA   rabAyA  N0_Nhy  guards
+
+    FaCAyA                    `noun`    {- rabAyA -}           [ "guards" ] ]
 
  |> "r b y" <| [
 
@@ -7042,8 +7066,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- rahoT -}            [ "group", "band", "groups", "bands" ]
                               `plural`     HaFCAL
+                              `plural`     HaFACIL
                               `plural`     HaFACiL
-                           {- `others`  [ "'arhA.t N", "'arAhi.t Ndip" ] -},
+                           {- `others`  [ "'arhA.t N", "'arAhiy.t Ndip", "'arAhi.t Ndip" ] -},
 
     -- ;; rahoT_2
     -- rhT     rahoT   Ndu     leather loincloth
@@ -7694,7 +7719,9 @@ lexicon = listing "Lexicon's properties"
     -- trkyb   tarokiyb        NduAt   construction;structure;assemblage
     -- trAkyb  tarAkiyb        Ndip    constructions;structures
 
-    TaFCIL                    `noun`    {- tarokiyb -}         [ "construction", "structure", "assemblage", "constructions", "structures" ],
+    TaFCIL                    `noun`    {- tarokiyb -}         [ "construction", "structure", "assemblage", "constructions", "structures" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tarAkiyb Ndip" ] -},
 
     -- ;; tarokiybiy~_1
     -- trkyby  tarokiybiy~     Nall    structural     [[tarokiybiy~/ADJ]]
@@ -8695,7 +8722,9 @@ lexicon = listing "Lexicon's properties"
     -- rmy     ramiy~  Nap     game animal     [[ramiy~/NOUN]]
     -- rmAyA   ramAyA  N0_Nhy  game animals
 
-    FaCIL |< aT               `noun`    {- ramiy~ap -}         [ "game animal", "game animals" ],
+    FaCIL |< aT               `noun`    {- ramiy~ap -}         [ "game animal", "game animals" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "ramAyA N0_Nhy" ] -},
 
     -- ;; rimAyap_1
     -- rmAy    rimAy   Nap     shooting
@@ -8884,7 +8913,9 @@ lexicon = listing "Lexicon's properties"
     -- trnym   taroniym        NapAt   anthem;chanting;song
     -- trAnym  tarAniym        Ndip    anthems;chanting;songs
 
-    TaFCIL |< aT              `noun`    {- taroniymap -}       [ "anthem", "chanting", "song", "anthems", "songs" ] ]
+    TaFCIL |< aT              `noun`    {- taroniymap -}       [ "anthem", "chanting", "song", "anthems", "songs" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tarAniym Ndip" ] -} ]
 
  |> "r n n" <| [
 
@@ -10727,7 +10758,9 @@ lexicon = listing "Lexicon's properties"
     -- trtyl   tarotiyl        Napdu   hymn
     -- trAtyl  tarAtiyl        Ndip    hymns
 
-    TaFCIL |< aT              `noun`    {- tarotiylap -}       [ "hymn", "hymns" ],
+    TaFCIL |< aT              `noun`    {- tarotiylap -}       [ "hymn", "hymns" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tarAtiyl Ndip" ] -},
 
     -- ;; murat~il_1
     -- mrtl    murat~il        Nall    singer;chanter
@@ -11220,7 +11253,9 @@ lexicon = listing "Lexicon's properties"
     -- trAwyH  tarAwiyH        Ndip    distractions;diversions
     -- trAwyH  tarAwiyH        Ndip    evening prayers (during Ramadan)
 
-    TaFCIL |< aT              `noun`    {- tarowiyHap -}       [ "distraction", "diversion", "distractions", "diversions", "evening prayers (during Ramadan)" ],
+    TaFCIL |< aT              `noun`    {- tarowiyHap -}       [ "distraction", "diversion", "distractions", "diversions", "evening prayers (during Ramadan)" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tarAwiy.h Ndip" ] -},
 
     -- ;; tarowiyHiy~_1
     -- trwyHy  tarowiyHiy~     Nall    recreational
@@ -12216,7 +12251,9 @@ lexicon = listing "Lexicon's properties"
     -- rwAyA   rawAyA  N0_Nhy  narrators;storytellers
 
     FACI                      `noun`    {- rAwiy -}            [ "narrator", "storyteller", "narrators", "storytellers" ]
-                              `plural`     FuCY |< aT,
+                              `plural`     FaCAyA
+                              `plural`     FuCY |< aT
+                           {- `others`  [ "rawAyA N0_Nhy" ] -},
 
     -- ;; marowiy~At_1
     -- mrwy    marowiy~        NAt     tales;stories;reports     [[marowiy~/NOUN]]
@@ -12898,7 +12935,9 @@ lexicon = listing "Lexicon's properties"
     -- rzy     raziy~  Nap     heavy loss;serious damage     [[raziy~/NOUN]]
     -- rzAyA   razAyA  N0_Nhy  heavy losses;serious damage
 
-    FaCIL |< aT               `noun`    {- raziy}ap -}         [ "heavy loss", "serious damage", "heavy losses" ] ]
+    FaCIL |< aT               `noun`    {- raziy}ap -}         [ "heavy loss", "serious damage", "heavy losses" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "razAyA N0_Nhy" ] -} ]
 
  |> "r z .g" <| [
 
@@ -13470,13 +13509,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- raSodaxAnap -}      [ "observatory" ] ]
 
- |> "rabAyA" <| [
-
-    -- ;; rabAyA_1
-    -- rbAyA   rabAyA  N0_Nhy  guards
-
-    Identity                  `noun`    {- rabAyA -}           [ "guards" ] ]
-
  |> "rafsan^gAn" <| [
 
     -- ;; rafosanojAniy~_1
@@ -13721,14 +13753,6 @@ lexicon = listing "Lexicon's properties"
     -- ryynA   riyynA  Nprop   Reina
 
     Identity                  `noun`    {- riyynA -}           [ "Reina" ] ]
-
- |> "ru.gAmY" <| [
-
-    -- ;; rugAmaY_1
-    -- rgAmY   rugAmaY N0      trachea;windpipe
-    -- rgAmA   rugAmA  Nhy     trachea;windpipe
-
-    Identity                  `noun`    {- rugAmaY -}          [ "trachea", "windpipe" ] ]
 
  |> "ru.taynY" <| [
 

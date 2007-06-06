@@ -709,7 +709,9 @@ lexicon = listing "Lexicon's properties"
     -- SHArY   SaHAraY N0      deserts
     -- SHArA   SaHArA  Nhy     deserts
 
-    FaCLA'                    `noun`    {- SaHorA' -}          [ "desert", "deserts" ],
+    FaCLA'                    `noun`    {- SaHorA' -}          [ "desert", "deserts" ]
+                              `plural`     FaCALY
+                           {- `others`  [ ".sa.hArY N0" ] -},
 
     -- ;; SaH~Arap_1
     -- SHAr    SaH~Ar  Napdu   crate;box
@@ -729,25 +731,17 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCuL                  `noun`    {- taSaH~ur -}         [ "desertification" ],
 
+    -- ;; SaHAriy_1
+    -- SHAry   SaHAriy N0_Nh   deserts
+    -- SHAr    SaHAr   NK      deserts
+
+    FaCALI                    `noun`    {- SaHAriy -}          [ "deserts" ],
+
     -- ;; SaHorAwiy~_1
     -- SHrAwy  SaHorAwiy~      Nall    desert;Saharan     [[SaHorAwiy~/ADJ]]
     -- SHrA}y  SaHorA}iy~      Nall    desert;Saharan     [[SaHorA}iy~/ADJ]]
 
     FaCLA' |< Iy              `adj`     {- SaHorAwiy~ -}       [ "desert", "Saharan" ] ]
-
- |> ".s .h r y" <| [
-
-    -- ;; SaHAriy_1
-    -- SHAry   SaHAriy N0_Nh   deserts
-    -- SHAr    SaHAr   NK      deserts
-
-    KaRADI                    `noun`    {- SaHAriy -}          [ "deserts" ],
-
-    -- ;; SaHAriy_1
-    -- SHAry   SaHAriy N0_Nh   deserts
-    -- SHAr    SaHAr   NK      deserts
-
-    KaRADI                    `noun`    {- SaHAriy -}          [ "deserts" ] ]
 
  |> ".s .h w" <| [
 
@@ -2043,7 +2037,9 @@ lexicon = listing "Lexicon's properties"
     -- Sby     Sabiy~  Nap     girl;young girl     [[Sabiy~/NOUN]]
     -- SbAyA   SabAyA  N0_Nhy  girls;young girls
 
-    FaCIL |< aT               `noun`    {- Sabiy~ap -}         [ "girl", "young girl", "girls", "young girls" ],
+    FaCIL |< aT               `noun`    {- Sabiy~ap -}         [ "girl", "young girl", "girls", "young girls" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ ".sabAyA N0_Nhy" ] -},
 
     -- ;; SAbiy_1
     -- SAby    SAbiy   N0F     youthful     [[SAbiy/ADJ]]
@@ -3816,7 +3812,9 @@ lexicon = listing "Lexicon's properties"
     -- Sfy     Safiy~  Nap     lion's share     [[Safiy~/NOUN]]
     -- SfAyA   SafAyA  N0_Nhy  lion's share
 
-    FaCIL |< aT               `noun`    {- Safiy~ap -}         [ "lion's share" ],
+    FaCIL |< aT               `noun`    {- Safiy~ap -}         [ "lion's share" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ ".safAyA N0_Nhy" ] -},
 
     -- ;; taSofiyap_1
     -- tSfy    taSofiy NapAt   settlement
@@ -3833,6 +3831,14 @@ lexicon = listing "Lexicon's properties"
     -- tSfy    taSofiy NapAt   purification;filtration
 
     TaFCI |< aT               `noun`    {- taSofiyap -}        [ "purification", "filtration" ],
+
+    -- ;; taSAfiy_1
+    -- tSAfy   taSAfiy N0_Nh   peaceful settlement;compromise
+    -- tSAf    taSAf   NK      peaceful settlement;compromise
+    -- tSAfy   taSAfiy NAn_Nayn        peaceful settlement;compromise
+    -- tSAfy   taSAfiy NAt     peaceful settlement;compromise
+
+    TaFACI                    `noun`    {- taSAfiy -}          [ "peaceful settlement", "compromise" ],
 
     -- ;; SAfiy_1
     -- SAfy    SAfiy   N0F     net
@@ -5187,7 +5193,9 @@ lexicon = listing "Lexicon's properties"
     -- tSmym   taSomiym        Ndu     plan;sketch;design
     -- tSAmym  taSAmiym        Ndip    plans;sketches;designs
 
-    TaFCIL                    `noun`    {- taSomiym -}         [ "plan", "sketch", "design", "plans", "sketches", "designs" ],
+    TaFCIL                    `noun`    {- taSomiym -}         [ "plan", "sketch", "design", "plans", "sketches", "designs" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.sAmiym Ndip" ] -},
 
     -- ;; muSam~im_1
     -- mSmm    muSam~im        Nall    determined;resolute     [[muSam~im/ADJ]]
@@ -5591,7 +5599,9 @@ lexicon = listing "Lexicon's properties"
     -- tSnyf   taSoniyf        N/At    classification;sorting;compilation
     -- tSAnyf  taSAniyf        Ndip    compilations
 
-    TaFCIL                    `noun`    {- taSoniyf -}         [ "classification", "sorting", "compilation", "compilations" ],
+    TaFCIL                    `noun`    {- taSoniyf -}         [ "classification", "sorting", "compilation", "compilations" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.sAniyf Ndip" ] -},
 
     -- ;; taSoniyfap_1
     -- tSnyf   taSoniyf        Napdu   assortment;typology
@@ -6014,7 +6024,9 @@ lexicon = listing "Lexicon's properties"
     -- tSryH   taSoriyH        NAt     declarations;statements
     -- tSAryH  taSAriyH        Ndip    declarations;statements
 
-    TaFCIL                    `noun`    {- taSoriyH -}         [ "declaration", "statement", "declarations", "statements" ],
+    TaFCIL                    `noun`    {- taSoriyH -}         [ "declaration", "statement", "declarations", "statements" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.sAriy.h Ndip" ] -},
 
     -- ;; taSoriyH_2
     -- tSryH   taSoriyH        NduAt   permit;license
@@ -6489,24 +6501,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; Saromap_1
     -- Srm     Sarom   Nap     shoes
 
-    FaCL |< aT                `noun`    {- Saromap -}          [ "shoes" ] ]
+    FaCL |< aT                `noun`    {- Saromap -}          [ "shoes" ],
+
+    -- ;; SarAmiy_1
+    -- SrAmy   SarAmiy N       shoes
+
+    FaCALI                    `noun`    {- SarAmiy -}          [ "shoes" ] ]
 
  |> ".s r m y" <| [
 
     -- ;; SuromAyap_1
     -- SrmAy   SuromAy NapAt   shoes
 
-    KuRDAS |< aT              `noun`    {- SuromAyap -}        [ "shoes" ],
-
-    -- ;; SarAmiy_1
-    -- SrAmy   SarAmiy N       shoes
-
-    KaRADI                    `noun`    {- SarAmiy -}          [ "shoes" ],
-
-    -- ;; SarAmiy_1
-    -- SrAmy   SarAmiy N       shoes
-
-    KaRADI                    `noun`    {- SarAmiy -}          [ "shoes" ] ]
+    KuRDAS |< aT              `noun`    {- SuromAyap -}        [ "shoes" ] ]
 
  |> ".s r r" <| [
 
@@ -7214,7 +7221,9 @@ lexicon = listing "Lexicon's properties"
     -- tSwyr   taSowiyr        Napdu   image;pictorial
     -- tSAwyr  taSAwiyr        Ndip    images;pictorials
 
-    TaFCIL |< aT              `noun`    {- taSowiyrap -}       [ "image", "pictorial", "images", "pictorials" ],
+    TaFCIL |< aT              `noun`    {- taSowiyrap -}       [ "image", "pictorial", "images", "pictorials" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.sAwiyr Ndip" ] -},
 
     -- ;; taSowiyriy~_1
     -- tSwyry  taSowiyriy~     N-ap    photographic;pictorial     [[taSowiyriy~/ADJ]]
@@ -7454,8 +7463,8 @@ lexicon = listing "Lexicon's properties"
     -- SyAS    SayAS   NK      spurs
 
     FIL |< Iy |< aT           `noun`    {- SiySiy~ap -}        [ "spur", "spurs" ]
-                              `plural`     FaCAL
-                           {- `others`  [ ".sayA.s NK" ] -} ]
+                              `plural`     FaCALI
+                           {- `others`  [ ".sayA.siy N0_Nh" ] -} ]
 
  |> ".s y `" <| [
 

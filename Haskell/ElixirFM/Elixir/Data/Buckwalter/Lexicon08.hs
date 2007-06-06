@@ -1523,7 +1523,9 @@ lexicon = listing "Lexicon's properties"
     -- dEAwY   daEAwaY N0      lawsuits;allegations;legal actions
     -- dEAwA   daEAwA  Nhy     lawsuits;allegations;legal actions
 
-    FaCLY                     `noun`    {- daEowaY -}          [ "lawsuit", "allegation", "legal action", "lawsuits", "allegations", "legal actions" ],
+    FaCLY                     `noun`    {- daEowaY -}          [ "lawsuit", "allegation", "legal action", "lawsuits", "allegations", "legal actions" ]
+                              `plural`     FaCALY
+                           {- `others`  [ "da`AwY N0" ] -},
 
     -- ;; duEA'_1
     -- dEA'    duEA'   N0_Nh   call;request;invocation
@@ -1700,6 +1702,14 @@ lexicon = listing "Lexicon's properties"
     -- dEAy    diEAy   NapAt   propaganda;advertising
 
     FiCAL |< aT               `noun`    {- diEAyap -}          [ "propaganda", "advertising" ],
+
+    -- ;; tadAEiy_1
+    -- tdAEy   tadAEiy N0_Nh   association;mutual summoning
+    -- tdAE    tadAE   NK      association;mutual summoning
+    -- tdAEy   tadAEiy NAn_Nayn        association;mutual summoning
+    -- tdAEy   tadAEiy NAt     association;mutual summoning
+
+    TaFACI                    `noun`    {- tadAEiy -}          [ "association", "mutual summoning" ],
 
     -- ;; dAEiy_1
     -- dAEy    dAEiy   N0F     cause;reason
@@ -2107,7 +2117,9 @@ lexicon = listing "Lexicon's properties"
     -- tdbyr   tadobiyr        NAt     arrangements;preparations
     -- tdAbyr  tadAbiyr        Ndip    measures;arrangements;preparations
 
-    TaFCIL                    `noun`    {- tadobiyr -}         [ "arrangement", "preparation", "management", "arrangements", "preparations", "measures" ],
+    TaFCIL                    `noun`    {- tadobiyr -}         [ "arrangement", "preparation", "management", "arrangements", "preparations", "measures" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tadAbiyr Ndip" ] -},
 
     -- ;; <idobAr_1
     -- <dbAr   <idobAr NduAt   retreat
@@ -5043,7 +5055,9 @@ lexicon = listing "Lexicon's properties"
     -- dny     daniy~  NapAt   base quality;disgrace     [[daniy~/NOUN]]
     -- dnAyA   danAyA  N0_Nhy  base qualities;disgrace
 
-    FaCIL |< aT               `noun`    {- daniy~ap -}         [ "base quality", "disgrace", "base qualities" ],
+    FaCIL |< aT               `noun`    {- daniy~ap -}         [ "base quality", "disgrace", "base qualities" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "danAyA N0_Nhy" ] -},
 
     -- ;; danAyap_1
     -- dnAy    danAy   Nap     nearness;lowliness;baseness
@@ -7823,6 +7837,14 @@ lexicon = listing "Lexicon's properties"
     -- dyHAny  dayoHAniy~      N0      Daihani
 
     FaCLAn |< Iy              `adj`     {- dayoHAniy~ -}       [ "Daihani" ] ]
+
+ |> "d y ^g" <| [
+
+    -- ;; dayAjiy_1
+    -- dyAjy   dayAjiy N0_Nh   darkness
+    -- dyAj    dayAj   NK      darkness
+
+    FaCALI                    `noun`    {- dayAjiy -}          [ "darkness" ] ]
 
  |> "d y ^g n" <| [
 

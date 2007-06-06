@@ -1760,6 +1760,15 @@ lexicon = listing "Lexicon's properties"
 
     FuCLY                     `adj`     {- kuboraY -}          [ "larger/largest", "greater/greatest" ],
 
+    -- ;; kiboriyA'_1
+    -- kbryA'  kiboriyA'       N0_Nh   arrogance
+    -- kbryA&  kiboriyA&       Nh      arrogance
+    -- kbryA}  kiboriyA}       Nhy     arrogance
+    -- mkAbr   mukAbar NapAt   arrogance
+
+    FiCLiyA'                  `noun`    {- kiboriyA' -}        [ "arrogance" ]
+                              `plural`     MuFACaL |< At,
+
     -- ;; takobiyr_1
     -- tkbyr   takobiyr        N/At    increase;amplification;enlargement
 
@@ -3696,7 +3705,9 @@ lexicon = listing "Lexicon's properties"
     -- tkAlyf  takAliyf        Ndip    costs;expenses;charges
 
     TaFCIL                    `noun`    {- takoliyf -}         [ "cost", "expense", "charge", "costs", "expenses", "charges" ]
-                              `plural`     TaFCiL |< aT,
+                              `plural`     TaFACIL
+                              `plural`     TaFCiL |< aT
+                           {- `others`  [ "takAliyf Ndip" ] -},
 
     -- ;; takolifap_1
     -- tklf    takolif Nap     cost computation
@@ -6781,17 +6792,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; kiroyAt_1
     -- kryAt   kiroyAt Nprop   Kiryat
 
-    FiCL |< At                `noun`    {- kiroyAt -}          [ "Kiryat" ],
-
-    -- ;; kawAriy_1
-    -- kwAry   kawAriy N0      Kawari
-
-    FawACI                    `noun`    {- kawAriy -}          [ "Kawari" ],
-
-    -- ;; kawAriy_1
-    -- kwAry   kawAriy N0      Kawari
-
-    FawACI                    `noun`    {- kawAriy -}          [ "Kawari" ] ]
+    FiCL |< At                `noun`    {- kiroyAt -}          [ "Kiryat" ] ]
 
  |> "k r y b" <| [
 
@@ -6830,7 +6831,9 @@ lexicon = listing "Lexicon's properties"
     -- tkryz   takoriyz        Ndu     consecration;benediction
     -- tkAryz  takAriyz        Ndip    consecrations;benedictions
 
-    TaFCIL                    `noun`    {- takoriyz -}         [ "consecration", "benediction", "consecrations", "benedictions" ],
+    TaFCIL                    `noun`    {- takoriyz -}         [ "consecration", "benediction", "consecrations", "benedictions" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "takAriyz Ndip" ] -},
 
     -- ;; kAriz_1
     -- kArz    kAriz   N/ap    preacher
@@ -7230,8 +7233,10 @@ lexicon = listing "Lexicon's properties"
     -- ksAlA   kusAlA  Nhy     lazy
 
     FaCLAn                    `adj`     {- kasolAn -}          [ "lazy" ]
+                              `plural`     FaCALY
                               `plural`     FaCLY
-                           {- `others`  [ "kaslY N0" ] -},
+                              `plural`     FuCALY
+                           {- `others`  [ "kasAlY N0", "kaslY N0", "kusAlY N0" ] -},
 
     -- ;; mikosAl_1
     -- mksAl   mikosAl N       lazy
@@ -7347,8 +7352,9 @@ lexicon = listing "Lexicon's properties"
     -- ksArA   kasArA  Nhy     broken;fractured;defeated
 
     FaCIL                     `adj`     {- kasiyr -}           [ "broken", "fractured", "defeated" ]
+                              `plural`     FaCALY
                               `plural`     FaCLY
-                           {- `others`  [ "kasrY N0" ] -},
+                           {- `others`  [ "kasArY N0", "kasrY N0" ] -},
 
     -- ;; kas~Arap_1
     -- ksAr    kas~Ar  Nap     nutcracker
@@ -7538,9 +7544,9 @@ lexicon = listing "Lexicon's properties"
 
     FiCL |< aT                `noun`    {- kisowap -}          [ "clothing", "attire" ]
                               `plural`     FiCY
+                              `plural`     FaCALI
                               `plural`     FuCY
-                              `plural`     FaCAL
-                           {- `others`  [ "kisY N0", "kusY N0", "kasAw NK" ] -},
+                           {- `others`  [ "kisY N0", "kasAwiy N0_Nh", "kusY N0" ] -},
 
     -- ;; kisA'_1
     -- ksA'    kisA'   N0_Nh   clothes;garment
@@ -8645,6 +8651,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawA'iL
                            {- `others`  [ "kawA'ir Ndip" ] -},
 
+    -- ;; kawAriy_1
+    -- kwAry   kawAriy N0      Kawari
+
+    FaCALI                    `noun`    {- kawAriy -}          [ "Kawari" ],
+
     -- ;; mikowar_1
     -- mkwr    mikowar N       turban
     -- mkwr    mikowar Nap     turban
@@ -8676,16 +8687,6 @@ lexicon = listing "Lexicon's properties"
     KuRDIS                    `noun`    {- kuwriyl -}          [ "Kurile" ] ]
 
  |> "k w r y" <| [
-
-    -- ;; kawAriy_1
-    -- kwAry   kawAriy N0      Kawari
-
-    KaRADI                    `noun`    {- kawAriy -}          [ "Kawari" ],
-
-    -- ;; kawAriy_1
-    -- kwAry   kawAriy N0      Kawari
-
-    KaRADI                    `noun`    {- kawAriy -}          [ "Kawari" ],
 
     -- ;; kuwriy~ap_1
     -- kwry    kuwriy~ Napdu   Korea
@@ -8983,7 +8984,9 @@ lexicon = listing "Lexicon's properties"
     -- kyk     kayok   Napdu   egg
     -- kyAky   kayAkiy N0      eggs
 
-    FaCL |< aT                `noun`    {- kayokap -}          [ "egg", "eggs" ],
+    FaCL |< aT                `noun`    {- kayokap -}          [ "egg", "eggs" ]
+                              `plural`     FaCALI
+                           {- `others`  [ "kayAkiy N0" ] -},
 
     -- ;; kiykap_1
     -- kyk     kiyk    Nap     game of tag
@@ -9102,7 +9105,32 @@ lexicon = listing "Lexicon's properties"
     -- ;; kiym_1
     -- kym     kiym    Nprop   Kim
 
-    FIL                       `noun`    {- kiym -}             [ "Kim" ] ]
+    FIL                       `noun`    {- kiym -}             [ "Kim" ],
+
+    -- ;; kiymiyA'_1
+    -- kymyA'  kiymiyA'        N0_Nh   chemistry
+    -- kymyA&  kiymiyA&        Nh      chemistry
+    -- kymyA}  kiymiyA}        Nhy     chemistry
+
+    FILiyA'                   `noun`    {- kiymiyA' -}         [ "chemistry" ],
+
+    -- ;; kiymiyA}iy~_1
+    -- kymyA}y kiymiyA}iy~     N-ap    chemical     [[kiymiyA}iy~/ADJ]]
+    -- kymyAwy kiymiyAwiy~     N-ap    chemical     [[kiymiyAwiy~/ADJ]]
+    -- kymy    kiymiy~ N-ap    chemical     [[kiymiy~/ADJ]]
+    -- kymA}y  kiymA}iy~       N-ap    chemical     [[kiymA}iy~/ADJ]]
+    -- kymAwy  kiymAwiy~       N-ap    chemical     [[kiymAwiy~/ADJ]]
+
+    FILiyA' |< Iy             `adj`     {- kiymiyA}iy~ -}      [ "chemical" ],
+
+    -- ;; kiymiyA}iy~_2
+    -- kymyA}y kiymiyA}iy~     Nall    chemist     [[kiymiyA}iy~/ADJ]]
+    -- kymyAwy kiymiyAwiy~     Nall    chemist     [[kiymiyAwiy~/ADJ]]
+    -- kymy    kiymiy~ Nall    chemist     [[kiymiy~/ADJ]]
+    -- kymA}y  kiymA}iy~       Nall    chemist     [[kiymA}iy~/ADJ]]
+    -- kymAwy  kiymAwiy~       Nall    chemist     [[kiymAwiy~/ADJ]]
+
+    FILiyA' |< Iy             `adj`     {- kiymiyA}iy~ -}      [ "chemist" ] ]
 
  |> "k y m n" <| [
 
@@ -10377,16 +10405,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- kazaruwnap -}       [ "casserole" ] ]
 
- |> "kibriyA'" <| [
-
-    -- ;; kiboriyA'_1
-    -- kbryA'  kiboriyA'       N0_Nh   arrogance
-    -- kbryA&  kiboriyA&       Nh      arrogance
-    -- kbryA}  kiboriyA}       Nhy     arrogance
-    -- mkAbr   mukAbar NapAt   arrogance
-
-    Identity                  `noun`    {- kiboriyA' -}        [ "arrogance" ] ]
-
  |> "kibriytiyd" <| [
 
     -- ;; kibriytiyd_1
@@ -10540,33 +10558,6 @@ lexicon = listing "Lexicon's properties"
     -- kylwwAT kiyluwwAT       N/At    kilowatts
 
     Identity                  `noun`    {- kiyluwwAT -}        [ "kilowatts" ] ]
-
- |> "kiymiyA'" <| [
-
-    -- ;; kiymiyA'_1
-    -- kymyA'  kiymiyA'        N0_Nh   chemistry
-    -- kymyA&  kiymiyA&        Nh      chemistry
-    -- kymyA}  kiymiyA}        Nhy     chemistry
-
-    Identity                  `noun`    {- kiymiyA' -}         [ "chemistry" ],
-
-    -- ;; kiymiyA}iy~_1
-    -- kymyA}y kiymiyA}iy~     N-ap    chemical     [[kiymiyA}iy~/ADJ]]
-    -- kymyAwy kiymiyAwiy~     N-ap    chemical     [[kiymiyAwiy~/ADJ]]
-    -- kymy    kiymiy~ N-ap    chemical     [[kiymiy~/ADJ]]
-    -- kymA}y  kiymA}iy~       N-ap    chemical     [[kiymA}iy~/ADJ]]
-    -- kymAwy  kiymAwiy~       N-ap    chemical     [[kiymAwiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- kiymiyA}iy~ -}      [ "chemical" ],
-
-    -- ;; kiymiyA}iy~_2
-    -- kymyA}y kiymiyA}iy~     Nall    chemist     [[kiymiyA}iy~/ADJ]]
-    -- kymyAwy kiymiyAwiy~     Nall    chemist     [[kiymiyAwiy~/ADJ]]
-    -- kymy    kiymiy~ Nall    chemist     [[kiymiy~/ADJ]]
-    -- kymA}y  kiymA}iy~       Nall    chemist     [[kiymA}iy~/ADJ]]
-    -- kymAwy  kiymAwiy~       Nall    chemist     [[kiymAwiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- kiymiyA}iy~ -}      [ "chemist" ] ]
 
  |> "kiymiyA'iyyA.t" <| [
 

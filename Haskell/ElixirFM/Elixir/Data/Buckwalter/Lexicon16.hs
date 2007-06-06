@@ -5582,7 +5582,9 @@ lexicon = listing "Lexicon's properties"
     -- TwAyA   TawAyA  N0_Nhy  intentions;convictions
     -- TwAyA   TawAyA  N0_Nhy  interior;insides (of)
 
-    FaCIL |< aT               `noun`    {- Tawiy~ap -}         [ "intention", "conviction", "intentions", "convictions", "interior", "insides (of)" ],
+    FaCIL |< aT               `noun`    {- Tawiy~ap -}         [ "intention", "conviction", "intentions", "convictions", "interior", "insides (of)" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ ".tawAyA N0_Nhy" ] -},
 
     -- ;; Tiy~ap_1
     -- Ty      Tiy~    Nap     intention;design

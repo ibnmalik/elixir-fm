@@ -161,7 +161,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCCaL                    `verb`    {- laH~an -}           [ "make music", "compose music" ],
 
-    TaFCIL                    `noun`    {- taloHiyn -}         [ "musical composition", "musical compositions" ],
+    TaFCIL                    `noun`    {- taloHiyn -}         [ "musical composition", "musical compositions" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "talA.hiyn Ndip" ] -},
 
     MuFaCCiL                  `noun`    {- mulaH~in -}         [ "music composer" ] ]
 
@@ -541,7 +543,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- lamoH -}            [ "glance", "instant" ],
 
-    TaFCIL                    `noun`    {- talomiyH -}         [ "allusion", "suggestion", "early symptoms", "allusions" ],
+    TaFCIL                    `noun`    {- talomiyH -}         [ "allusion", "suggestion", "early symptoms", "allusions" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "talAmiy.h Ndip" ] -},
 
     MuFaCCiL                  `adj`     {- mulam~iH -}         [ "alluding", "referring" ] ]
 
@@ -750,8 +754,9 @@ lexicon = listing "Lexicon's properties"
     FaCCaL                    `verb`    {- law~aH -}           [ "wave", "gesticulate", "insinuate" ],
 
     FaCL                      `noun`    {- lawoH -}            [ "blackboard", "slate", "blackboards", "slates" ]
+                              `plural`     HaFACIL
                               `plural`     HaFCAL
-                           {- `others`  [ "'alwA.h N" ] -},
+                           {- `others`  [ "'alAwiy.h Ndip", "'alwA.h N" ] -},
 
     FaCL |< aT                `noun`    {- lawoHap -}          [ "painting", "picture" ],
 
@@ -877,8 +882,8 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- layol -}            [ "night", "nighttime", "at night", "by night" ],
 
     FaCL |< aT                `noun`    {- layolap -}          [ "night", "evening", "nights", "evenings", "soirees" ]
-                              `plural`     FaCAL
-                           {- `others`  [ "layAl NK" ] -},
+                              `plural`     FaCALI
+                           {- `others`  [ "layAliy N0_Nh_L" ] -},
 
     FaCL |< Iy                `adj`     {- layoliy~ -}         [ "evening", "nightly", "nocturnal" ],
 

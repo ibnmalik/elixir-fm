@@ -565,7 +565,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- ra$owap -}          [ "bribe", "bribes" ]
                               `plural`     FuCY
-                           {- `others`  [ "ru^sY N0" ] -} ]
+                              `plural`     FaCALY
+                           {- `others`  [ "ru^sY N0", "ra^sAwY N0" ] -} ]
 
  |> "r _d _d" <| [
 
@@ -589,7 +590,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- raxiyS -}           [ "cheap" ],
 
-    TaFCIL                    `noun`    {- taroxiyS -}         [ "granting of permission", "licensing" ],
+    TaFCIL                    `noun`    {- taroxiyS -}         [ "granting of permission", "licensing" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tarA_hiy.s Ndip" ] -},
 
     MuFaCCaL                  `adj`     {- murax~aS -}         [ "licensed", "officially registered" ],
 
@@ -612,6 +615,10 @@ lexicon = listing "Lexicon's properties"
     TaFACI                    `noun`    {- tarAxiy -}          [ "languor", "mitigation", "looseness" ],
 
     IstiFCA'                  `noun`    {- AisotiroxA' -}      [ "laxity", "slackening" ] ]
+
+ |> "r _h y" <| [
+
+    TaFACI                    `noun`    {- tarAxiy -}          [ "languor", "mitigation", "looseness" ] ]
 
  |> "r _t _t" <| [
 
@@ -650,7 +657,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- raEoy -}            [ "care", "custody", "protection" ],
 
-    FaCIL |< aT               `noun`    {- raEiy~ap -}         [ "subject", "citizen", "subjects", "citizens" ],
+    FaCIL |< aT               `noun`    {- raEiy~ap -}         [ "subject", "citizen", "subjects", "citizens" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "ra`AyA N0_Nhy" ] -},
 
     MaFCY                     `noun`    {- maroEaY -}          [ "grassland", "pasture" ]
                               `plural`     MaFACI
@@ -1121,7 +1130,9 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- tarokiyb -}         [ "installation", "assembling", "installations", "assemblage" ],
 
-    TaFCIL                    `noun`    {- tarokiyb -}         [ "construction", "structure", "assemblage", "constructions", "structures" ],
+    TaFCIL                    `noun`    {- tarokiyb -}         [ "construction", "structure", "assemblage", "constructions", "structures" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tarAkiyb Ndip" ] -},
 
     TaFCIL |< aT              `noun`    {- tarokiybap -}       [ "structure", "composition" ],
 
@@ -1590,7 +1601,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "r t l" <| [
 
-    TaFCIL |< aT              `noun`    {- tarotiylap -}       [ "hymn", "hymns" ] ]
+    TaFCIL |< aT              `noun`    {- tarotiylap -}       [ "hymn", "hymns" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tarAtiyl Ndip" ] -} ]
 
  |> "r w '" <| [
 
@@ -1811,7 +1824,9 @@ lexicon = listing "Lexicon's properties"
     FiCA' |< Iy               `adj`     {- riwA}iy~ -}         [ "novelist", "narrator" ],
 
     FACI                      `noun`    {- rAwiy -}            [ "narrator", "storyteller", "narrators", "storytellers" ]
-                              `plural`     FuCY |< aT,
+                              `plural`     FaCAyA
+                              `plural`     FuCY |< aT
+                           {- `others`  [ "rawAyA N0_Nhy" ] -},
 
     MaFCIy |< At              `noun`    {- marowiy~At -}       [ "tales", "stories", "reports" ]
                               `plural`     MaFCIy |< At ]

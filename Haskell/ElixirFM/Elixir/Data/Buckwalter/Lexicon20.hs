@@ -9,14 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'afAwiyh" <| [
-
-    -- ;; >afAwiyh_1
-    -- >fAwyh  >afAwiyh        Ndip    spices
-    -- AfAwyh  >afAwiyh        Ndip    spices
-
-    Identity                  `noun`    {- OafAwiyh -}         [ "spices" ] ]
-
  |> "'ifl" <| [
 
     -- ;; <ifolAt_1
@@ -1252,9 +1244,15 @@ lexicon = listing "Lexicon's properties"
     -- fHAw    faHAw   NK      sense;content;substance
 
     FaCLY                     `noun`    {- faHowaY -}          [ "sense", "content", "substance" ]
+                              `plural`     FaCALI
                               `plural`     FaCLA'
-                              `plural`     FaCAL
-                           {- `others`  [ "fa.hwA' Nh N0_Nh Nhy", "fa.hAw NK" ] -} ]
+                           {- `others`  [ "fa.hAwiy N0_Nh", "fa.hwA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; faHAwaY_1
+    -- fHAwY   faHAwaY N0      meanings;contents;substance
+    -- fHAwA   faHAwA  Nhy     meanings;contents;substance
+
+    FaCALY                    `noun`    {- faHAwaY -}          [ "meanings", "contents", "substance" ] ]
 
  |> "f .s .h" <| [
 
@@ -1593,7 +1591,9 @@ lexicon = listing "Lexicon's properties"
     -- tfSyl   tafoSiyl        NAt     details
     -- tfASyl  tafASiyl        Ndip    details
 
-    TaFCIL                    `noun`    {- tafoSiyl -}         [ "detailing", "elaboration", "giving details", "details" ],
+    TaFCIL                    `noun`    {- tafoSiyl -}         [ "detailing", "elaboration", "giving details", "details" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tafA.siyl Ndip" ] -},
 
     -- ;; tafoSiyliy~_1
     -- tfSyly  tafoSiyliy~     N-ap    detailed;minute     [[tafoSiyliy~/ADJ]]
@@ -3254,8 +3254,9 @@ lexicon = listing "Lexicon's properties"
     -- AfAEyl  >afAEiyl        Ndip    exploits
 
     FiCL                      `noun`    {- fiEol -}            [ "verb", "verbs", "exploits" ]
+                              `plural`     HaFACIL
                               `plural`     HaFCAL
-                           {- `others`  [ "'af`Al N" ] -},
+                           {- `others`  [ "'afA`iyl Ndip", "'af`Al N" ] -},
 
     -- ;; fiEoliy~_1
     -- fEly    fiEoliy~        N-ap    actual;real;de facto     [[fiEoliy~/ADJ]]
@@ -3311,7 +3312,9 @@ lexicon = listing "Lexicon's properties"
     -- tfEyl   tafoEiyl        NapAt   poetic meter
     -- tfAEyl  tafAEiyl        Ndip    poetic meters
 
-    TaFCIL                    `noun`    {- tafoEiyl -}         [ "poetic meter", "poetic meters" ],
+    TaFCIL                    `noun`    {- tafoEiyl -}         [ "poetic meter", "poetic meters" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tafA`iyl Ndip" ] -},
 
     -- ;; tafAEul_1
     -- tfAEl   tafAEul NduAt   interaction;reaction;reciprocity
@@ -4903,7 +4906,9 @@ lexicon = listing "Lexicon's properties"
     -- tflys   tafoliys        N/At    declaration of bankruptcy;insolvency
     -- tfAlys  tafAliys        Ndip    declarations of bankruptcy;insolvency
 
-    TaFCIL                    `noun`    {- tafoliys -}         [ "declaration of bankruptcy", "insolvency", "declarations of bankruptcy" ],
+    TaFCIL                    `noun`    {- tafoliys -}         [ "declaration of bankruptcy", "insolvency", "declarations of bankruptcy" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tafAliys Ndip" ] -},
 
     -- ;; tafoliysap_1
     -- tflys   tafoliys        Napdu   bankruptcy;insolvency
@@ -5062,7 +5067,9 @@ lexicon = listing "Lexicon's properties"
     -- flAwY   falAwaY N0      colts;foals
     -- flAwA   falAwA  Nhy     colts;foals
 
-    FaCUL                     `noun`    {- faluw~ -}           [ "colt", "foal", "colts", "foals" ],
+    FaCUL                     `noun`    {- faluw~ -}           [ "colt", "foal", "colts", "foals" ]
+                              `plural`     FaCALY
+                           {- `others`  [ "falAwY N0" ] -},
 
     -- ;; falAap_1
     -- flA     falA    Nap     open country
@@ -6547,7 +6554,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCLAn                    `adj`     {- faroHAn -}          [ "cheerful", "delighted" ]
                               `plural`     FaCLY
-                           {- `others`  [ "far.hY N0" ] -},
+                              `plural`     FuCALY
+                           {- `others`  [ "far.hY N0", "furA.hY N0" ] -},
 
     -- ;; faroHAn_2
     -- frHAn   faroHAn N0      Farhan
@@ -7187,8 +7195,9 @@ lexicon = listing "Lexicon's properties"
     -- frAdY   furAdaY N0      individuals
 
     FaCL                      `noun`    {- farod -}            [ "individual", "unit", "individuals" ]
+                              `plural`     FuCALY
                               `plural`     HaFCAL
-                           {- `others`  [ "'afrAd N" ] -},
+                           {- `others`  [ "furAdY N0", "'afrAd N" ] -},
 
     -- ;; farodap_1
     -- frd     farod   Nap     one item (of a pair)
@@ -7277,6 +7286,12 @@ lexicon = listing "Lexicon's properties"
     -- frAd    furAd   NF      individually;one at a time     [[furAd/ADV]]
 
     FuCAL                     `noun`    {- furAd -}            [ "individually", "one at a time" ],
+
+    -- ;; furAdaY_1
+    -- frAdY   furAdaY N0      individually;one at a time     [[furAdaY/ADV]]
+    -- frAdA   furAdA  Nhy     individually;one at a time
+
+    FuCALY                    `noun`    {- furAdaY -}          [ "individually", "one at a time" ],
 
     -- ;; taforiyd_1
     -- tfryd   taforiyd        N/At    itemization;detailing
@@ -8855,7 +8870,9 @@ lexicon = listing "Lexicon's properties"
     -- tfsyr   tafosiyr        NduAt   exegesis;Quranic commentary
     -- tfAsyr  tafAsiyr        Ndip    explanations;commentaries
 
-    TaFCIL                    `noun`    {- tafosiyr -}         [ "explanation", "commentary", "exegesis", "Quranic commentary", "explanations", "commentaries" ],
+    TaFCIL                    `noun`    {- tafosiyr -}         [ "explanation", "commentary", "exegesis", "Quranic commentary", "explanations", "commentaries" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tafAsiyr Ndip" ] -},
 
     -- ;; tafosiyriy~_1
     -- tfsyry  tafosiyriy~     N-ap    explanatory;interpretive     [[tafosiyriy~/ADJ]]
@@ -9204,7 +9221,9 @@ lexicon = listing "Lexicon's properties"
     -- tfty$   tafotiy$        N/At    search;check;inspection
     -- tfAty$  tafAtiy$        Ndip    inspections
 
-    TaFCIL                    `noun`    {- tafotiy$ -}         [ "search", "check", "inspection", "inspections" ],
+    TaFCIL                    `noun`    {- tafotiy$ -}         [ "search", "check", "inspection", "inspections" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tafAtiy^s Ndip" ] -},
 
     -- ;; tafotiy$iy~_1
     -- tfty$y  tafotiy$iy~     N-ap    search;inspection;patrol     [[tafotiy$iy~/ADJ]]
@@ -9788,8 +9807,9 @@ lexicon = listing "Lexicon's properties"
     -- ftAw    fatAw   NK      fatwas;legal opinions
 
     FaCLY                     `noun`    {- fatowaY -}          [ "fatwa", "legal opinion", "fatwas", "legal opinions" ]
-                              `plural`     FaCAL
-                           {- `others`  [ "fatAw NK" ] -},
+                              `plural`     FaCALY
+                              `plural`     FaCALI
+                           {- `others`  [ "fatAwY N0", "fatAwiy N0_Nh" ] -},
 
     -- ;; futuw~ap_1
     -- ftw     futuw~  Nap     adolescence;youth
@@ -10095,6 +10115,12 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                            {- `others`  [ "'afwAh N" ] -},
 
+    -- ;; >afAwiyh_1
+    -- >fAwyh  >afAwiyh        Ndip    spices
+    -- AfAwyh  >afAwiyh        Ndip    spices
+
+    HaFACIL                   `noun`    {- OafAwiyh -}         [ "spices" ],
+
     -- ;; fuwhap_1
     -- fwh     fuwh    NapAt   mouth;aperture
     -- fwA}h   fawA}ih Ndip    mouths;apertures
@@ -10249,7 +10275,9 @@ lexicon = listing "Lexicon's properties"
     -- >fAwyq  >afAwiyq        Ndip    kindness;favors
     -- AfAwyq  >afAwiyq        Ndip    kindness;favors
 
-    FIL |< aT                 `noun`    {- fiyqap -}           [ "kindness", "favor", "favors" ],
+    FIL |< aT                 `noun`    {- fiyqap -}           [ "kindness", "favor", "favors" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'afAwiyq Ndip" ] -},
 
     -- ;; <ifAqap_1
     -- <fAq    <ifAq   NapAt   recovery;convalescence
@@ -10875,8 +10903,8 @@ lexicon = listing "Lexicon's properties"
     -- fyAf    fayAf   NK      deserts;steppes
 
     FaCLA'                    `noun`    {- fayofA' -}          [ "desert", "steppe", "deserts", "steppes" ]
-                              `plural`     FaCAL
-                           {- `others`  [ "fayAf NK" ] -} ]
+                              `plural`     FaCALI
+                           {- `others`  [ "fayAfiy N0_Nh" ] -} ]
 
  |> "f y h q" <| [
 
@@ -11524,14 +11552,6 @@ lexicon = listing "Lexicon's properties"
     -- fAzlyn  fAzoliyn        N0      vaseline
 
     Identity                  `noun`    {- fAzoliyn -}         [ "vaseline" ] ]
-
- |> "fa.hAwY" <| [
-
-    -- ;; faHAwaY_1
-    -- fHAwY   faHAwaY N0      meanings;contents;substance
-    -- fHAwA   faHAwA  Nhy     meanings;contents;substance
-
-    Identity                  `noun`    {- faHAwaY -}          [ "meanings", "contents", "substance" ] ]
 
  |> "fa.suwliyA" <| [
 
@@ -12712,14 +12732,6 @@ lexicon = listing "Lexicon's properties"
     -- fqhA    fuqohA  Nprop   Fuqha
 
     Identity                  `noun`    {- fuqohA -}           [ "Fuqha" ] ]
-
- |> "furAdY" <| [
-
-    -- ;; furAdaY_1
-    -- frAdY   furAdaY N0      individually;one at a time     [[furAdaY/ADV]]
-    -- frAdA   furAdA  Nhy     individually;one at a time
-
-    Identity                  `noun`    {- furAdaY -}          [ "individually", "one at a time" ] ]
 
  |> "fusayfisA'" <| [
 

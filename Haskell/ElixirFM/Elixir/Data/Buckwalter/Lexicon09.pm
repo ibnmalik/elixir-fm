@@ -3256,9 +3256,6 @@ $Lexicon = {
           'N0' => 1,
           'Napdu' => 1
         },
-        'ma_dAr' => {
-          'NK' => 1
-        },
         'mi_dray' => {
           'NAn_Nayn' => 1
         },
@@ -5569,8 +5566,7 @@ $Lexicon = {
           'N0F' => 1
         },
         '_dAw' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => '_dAwiy',

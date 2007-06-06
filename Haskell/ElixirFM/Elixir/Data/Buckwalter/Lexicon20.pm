@@ -512,7 +512,11 @@ $Lexicon = {
         'tfty$   tafotiy$        N/At    search;check;inspection',
         'tfAty$  tafAtiy$        Ndip    inspections'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tafAtiy^s' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -2555,6 +2559,9 @@ $Lexicon = {
       'patterns' => {
         'far.hY' => [
           'FaCLY'
+        ],
+        'furA.hY' => [
+          'FuCALY'
         ]
       },
       'index' => '1',
@@ -3325,6 +3332,30 @@ $Lexicon = {
         'mouths'
       ],
       'orig' => 'fuwh',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'afAwiyh' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'afAwiyh',
+      'form' => '\'afAwiyh',
+      'lines' => [
+        ';; >afAwiyh_1',
+        '>fAwyh  >afAwiyh        Ndip    spices',
+        'AfAwyh  >afAwiyh        Ndip    spices'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFACIL',
+      'suffix' => '',
+      'glosses' => [
+        'spices'
+      ],
+      'orig' => 'OafAwiyh',
       'prefix' => ''
     },
     {
@@ -4359,9 +4390,6 @@ $Lexicon = {
   'fAsiyA\'' => [
     {
       'types' => {
-        'fawAs' => {
-          'NK' => 1
-        },
         'fawAsiy' => {
           'N0_Nh' => 1
         },
@@ -4596,7 +4624,11 @@ $Lexicon = {
         'flAwY   falAwaY N0      colts;foals',
         'flAwA   falAwA  Nhy     colts;foals'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'falAwY' => [
+          'FaCALY'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCUL',
@@ -4663,9 +4695,6 @@ $Lexicon = {
       'types' => {
         'mafAliy' => {
           'N0_Nh' => 1
-        },
-        'mafAl' => {
-          'NK' => 1
         }
       },
       'entry' => 'mafAliy',
@@ -8550,6 +8579,9 @@ $Lexicon = {
         'frAdY   furAdaY N0      individuals'
       ],
       'patterns' => {
+        'furAdY' => [
+          'FuCALY'
+        ],
         '\'afrAd' => [
           'HaFCAL'
         ]
@@ -8962,6 +8994,34 @@ $Lexicon = {
         'one at a time'
       ],
       'orig' => 'furAd',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'furAdY' => {
+          'N0' => 1
+        },
+        'furAdA' => {
+          'Nhy' => 1
+        }
+      },
+      'entry' => 'furAdY',
+      'form' => 'furAdY',
+      'lines' => [
+        ';; furAdaY_1',
+        'frAdY   furAdaY N0      individually;one at a time     [[furAdaY/ADV]]',
+        'frAdA   furAdA  Nhy     individually;one at a time'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCALY',
+      'suffix' => '',
+      'glosses' => [
+        'individually',
+        'one at a time'
+      ],
+      'orig' => 'furAdaY',
       'prefix' => ''
     },
     {
@@ -12492,7 +12552,11 @@ $Lexicon = {
         'tflys   tafoliys        N/At    declaration of bankruptcy;insolvency',
         'tfAlys  tafAliys        Ndip    declarations of bankruptcy;insolvency'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tafAliys' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -13687,37 +13751,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fa.hAwY' => [
-    {
-      'types' => {
-        'fa.hAwA' => {
-          'Nhy' => 1
-        },
-        'fa.hAwY' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'fa.hAwY',
-      'form' => 'fa.hAwY',
-      'lines' => [
-        ';; faHAwaY_1',
-        'fHAwY   faHAwaY N0      meanings;contents;substance',
-        'fHAwA   faHAwA  Nhy     meanings;contents;substance'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'meanings',
-        'contents',
-        'substance'
-      ],
-      'orig' => 'faHAwaY',
-      'prefix' => ''
-    }
-  ],
   'firnAndiyz' => [
     {
       'types' => {
@@ -14014,6 +14047,9 @@ $Lexicon = {
         'AfAEyl  >afAEiyl        Ndip    exploits'
       ],
       'patterns' => {
+        '\'afA`iyl' => [
+          'HaFACIL'
+        ],
         '\'af`Al' => [
           'HaFCAL'
         ]
@@ -14277,7 +14313,11 @@ $Lexicon = {
         'tfEyl   tafoEiyl        NapAt   poetic meter',
         'tfAEyl  tafAEiyl        Ndip    poetic meters'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tafA`iyl' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -15113,9 +15153,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'fA.d' => {
-          'NK' => 1
-        },
         'fA.diy' => {
           'NapAt' => 1,
           'NAn_Nayn' => 1,
@@ -15147,8 +15184,7 @@ $Lexicon = {
     {
       'types' => {
         'mutafa.d.d' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mutafa.d.diy' => {
           'N0F_Nh' => 1,
@@ -15567,7 +15603,11 @@ $Lexicon = {
         '>fAwyq  >afAwiyq        Ndip    kindness;favors',
         'AfAwyq  >afAwiyq        Ndip    kindness;favors'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'afAwiyq' => [
+          'HaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FIL |< aT',
@@ -19552,9 +19592,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'tafa^s^s' => {
-          'NK' => 1
-        },
         'tafa^s^siy' => {
           'NAt' => 1,
           'N0_Nh' => 1
@@ -19628,8 +19665,7 @@ $Lexicon = {
           'NAn_Nayn' => 1
         },
         'mutafa^s^s' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'mutafa^s^siy',
@@ -20166,9 +20202,6 @@ $Lexicon = {
         'fatwY' => {
           'N0' => 1
         },
-        'fatAw' => {
-          'NK' => 1
-        },
         'fatAwY' => {
           'N0' => 1
         },
@@ -20194,8 +20227,11 @@ $Lexicon = {
         'ftAw    fatAw   NK      fatwas;legal opinions'
       ],
       'patterns' => {
-        'fatAw' => [
-          'FaCAL'
+        'fatAwY' => [
+          'FaCALY'
+        ],
+        'fatAwiy' => [
+          'FaCALI'
         ]
       },
       'index' => '1',
@@ -20342,8 +20378,7 @@ $Lexicon = {
     {
       'types' => {
         'muft' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'muftiy' => {
           'N0F_Nh' => 1,
@@ -22220,9 +22255,6 @@ $Lexicon = {
         },
         '\'af`Y' => {
           'N0' => 2
-        },
-        '\'afA`' => {
-          'NK' => 2
         }
       },
       'entry' => '\'af`Y',
@@ -25021,7 +25053,11 @@ $Lexicon = {
         'tfsyr   tafosiyr        NduAt   exegesis;Quranic commentary',
         'tfAsyr  tafAsiyr        Ndip    explanations;commentaries'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tafAsiyr' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -25149,9 +25185,6 @@ $Lexicon = {
         },
         'fa.hwY' => {
           'N0' => 1
-        },
-        'fa.hAw' => {
-          'NK' => 1
         }
       },
       'entry' => 'fa.hwY',
@@ -25167,11 +25200,11 @@ $Lexicon = {
         'fHAw    faHAw   NK      sense;content;substance'
       ],
       'patterns' => {
+        'fa.hAwiy' => [
+          'FaCALI'
+        ],
         'fa.hwA\'' => [
           'FaCLA\''
-        ],
-        'fa.hAw' => [
-          'FaCAL'
         ]
       },
       'index' => '1',
@@ -25184,6 +25217,35 @@ $Lexicon = {
         'substance'
       ],
       'orig' => 'faHowaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'fa.hAwA' => {
+          'Nhy' => 1
+        },
+        'fa.hAwY' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'fa.hAwY',
+      'form' => 'fa.hAwY',
+      'lines' => [
+        ';; faHAwaY_1',
+        'fHAwY   faHAwaY N0      meanings;contents;substance',
+        'fHAwA   faHAwA  Nhy     meanings;contents;substance'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCALY',
+      'suffix' => '',
+      'glosses' => [
+        'meanings',
+        'contents',
+        'substance'
+      ],
+      'orig' => 'faHAwaY',
       'prefix' => ''
     }
   ],
@@ -27282,75 +27344,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'f ` m' => [
-    {
-      'types' => {
-        '\'af`am' => {},
-        'f`im' => {
-          'IV_yu' => 1
-        },
-        'f`am' => {
-          'IV_Pass_yu' => 1
-        }
-      },
-      'entry' => '\'af`am',
-      'form' => '\'af`am',
-      'lines' => [
-        ';; >afoEam_1',
-        '>fEm    >afoEam PV      pack full;stuff;make overflow',
-        'AfEm    >afoEam PV      pack full;stuff;make overflow',
-        'fEm     foEim   IV_yu   pack full;stuff;make overflow',
-        'fEm     foEam   IV_Pass_yu      be packed full;be stuff;be overflown'
-      ],
-      'patterns' => {
-        'f`im' => [
-          'FCiL'
-        ],
-        'f`am' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'pack full',
-        'stuff',
-        'make overflow',
-        'be packed full',
-        'be stuff',
-        'be overflown'
-      ],
-      'orig' => 'OafoEam',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'muf`am' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'muf`am',
-      'form' => 'muf`am',
-      'lines' => [
-        ';; mufoEam_1',
-        'mfEm    mufoEam Nall    stuffed;jam-packed;overflowing     [[mufoEam/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'stuffed',
-        'jam-packed',
-        'overflowing'
-      ],
-      'orig' => 'mufoEam',
-      'prefix' => ''
-    }
-  ],
   'f .d w' => [
     {
       'types' => {
@@ -27691,6 +27684,75 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'mutafaD~iy',
+      'prefix' => ''
+    }
+  ],
+  'f ` m' => [
+    {
+      'types' => {
+        '\'af`am' => {},
+        'f`im' => {
+          'IV_yu' => 1
+        },
+        'f`am' => {
+          'IV_Pass_yu' => 1
+        }
+      },
+      'entry' => '\'af`am',
+      'form' => '\'af`am',
+      'lines' => [
+        ';; >afoEam_1',
+        '>fEm    >afoEam PV      pack full;stuff;make overflow',
+        'AfEm    >afoEam PV      pack full;stuff;make overflow',
+        'fEm     foEim   IV_yu   pack full;stuff;make overflow',
+        'fEm     foEam   IV_Pass_yu      be packed full;be stuff;be overflown'
+      ],
+      'patterns' => {
+        'f`im' => [
+          'FCiL'
+        ],
+        'f`am' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'pack full',
+        'stuff',
+        'make overflow',
+        'be packed full',
+        'be stuff',
+        'be overflown'
+      ],
+      'orig' => 'OafoEam',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'muf`am' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'muf`am',
+      'form' => 'muf`am',
+      'lines' => [
+        ';; mufoEam_1',
+        'mfEm    mufoEam Nall    stuffed;jam-packed;overflowing     [[mufoEam/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'stuffed',
+        'jam-packed',
+        'overflowing'
+      ],
+      'orig' => 'mufoEam',
       'prefix' => ''
     }
   ],
@@ -28177,9 +28239,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'tafAd' => {
-          'NK' => 1
-        },
         'tafAdiy' => {
           'NAt' => 1,
           'NAn_Nayn' => 1,
@@ -28228,8 +28287,7 @@ $Lexicon = {
           'NAn_Nayn' => 1
         },
         'fAd' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'fAdiy',
@@ -29637,9 +29695,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'tafAn' => {
-          'NK' => 1
-        },
         'tafAniy' => {
           'NAt' => 1,
           'NAn_Nayn' => 1,
@@ -29668,9 +29723,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'fAn' => {
-          'NK' => 1
-        },
         'fAniy' => {
           'NapAt' => 1,
           'NAn_Nayn' => 1,
@@ -29702,8 +29754,7 @@ $Lexicon = {
     {
       'types' => {
         'mutafAn' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mutafAniy' => {
           'N0F_Nh' => 1,
@@ -34066,7 +34117,11 @@ $Lexicon = {
         'tfSyl   tafoSiyl        NAt     details',
         'tfASyl  tafASiyl        Ndip    details'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tafA.siyl' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -41787,9 +41842,6 @@ $Lexicon = {
   'f y f' => [
     {
       'types' => {
-        'fayAf' => {
-          'NK' => 1
-        },
         'fayfA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -41810,8 +41862,8 @@ $Lexicon = {
         'fyAf    fayAf   NK      deserts;steppes'
       ],
       'patterns' => {
-        'fayAf' => [
-          'FaCAL'
+        'fayAfiy' => [
+          'FaCALI'
         ]
       },
       'index' => '1',
@@ -45654,8 +45706,7 @@ $Lexicon = {
     {
       'types' => {
         'muftar' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'muftariy' => {
           'NapAt' => 1,
@@ -51713,32 +51764,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'afAwiyh' => [
-    {
-      'types' => {
-        '\'afAwiyh' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'afAwiyh',
-      'form' => '\'afAwiyh',
-      'lines' => [
-        ';; >afAwiyh_1',
-        '>fAwyh  >afAwiyh        Ndip    spices',
-        'AfAwyh  >afAwiyh        Ndip    spices'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'spices'
-      ],
-      'orig' => 'OafAwiyh',
-      'prefix' => ''
-    }
-  ],
   'f w r' => [
     {
       'types' => {
@@ -52583,36 +52608,6 @@ $Lexicon = {
         'humorous'
       ],
       'orig' => 'mufak~ih',
-      'prefix' => ''
-    }
-  ],
-  'furAdY' => [
-    {
-      'types' => {
-        'furAdY' => {
-          'N0' => 1
-        },
-        'furAdA' => {
-          'Nhy' => 1
-        }
-      },
-      'entry' => 'furAdY',
-      'form' => 'furAdY',
-      'lines' => [
-        ';; furAdaY_1',
-        'frAdY   furAdaY N0      individually;one at a time     [[furAdaY/ADV]]',
-        'frAdA   furAdA  Nhy     individually;one at a time'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'individually',
-        'one at a time'
-      ],
-      'orig' => 'furAdaY',
       'prefix' => ''
     }
   ],

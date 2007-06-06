@@ -756,8 +756,9 @@ lexicon = listing "Lexicon's properties"
     -- vkAlA   vakAlA  Nhy     bereft;bereaved
 
     FaCLAn                    `noun`    {- vakolAn -}          [ "bereft", "bereaved" ]
+                              `plural`     FaCALY
                               `plural`     FaCLY
-                           {- `others`  [ "_taklY N0" ] -},
+                           {- `others`  [ "_takAlY N0", "_taklY N0" ] -},
 
     -- ;; vAkil_1
     -- vAkl    vAkil   Nall    bereft;bereaved
@@ -1194,6 +1195,16 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- vAmin -}            [ "eighth" ],
 
+    -- ;; vamAniy_1
+    -- vmAny   vamAniy N0      eight     [[vamAniy/ADJ]]
+    -- vmAn    vamAn   NK      eight
+    -- vmAny   vamAniy Nap     eight     [[vamAniy/ADJ]]
+    -- vmAn    vamAn   Numb    eighty
+
+    FaCALI                    `adj`     {- vamAniy -}          [ "eight", "eighty" ]
+                              `plural`     FaCAL
+                           {- `others`  [ "_tamAn Numb" ] -},
+
     -- ;; tavomiyn_2
     -- tvmyn   tavomiyn        NduAt   octagonal;eightfold
 
@@ -1206,24 +1217,6 @@ lexicon = listing "Lexicon's properties"
     -- vmAnyny vamAniyniy~     NAt     eighties     [[vamAniyniy~/NOUN]]
 
     KaRADIS                   `noun`    {- vamAniyn -}         [ "eighties" ] ]
-
- |> "_t m n y" <| [
-
-    -- ;; vamAniy_1
-    -- vmAny   vamAniy N0      eight     [[vamAniy/ADJ]]
-    -- vmAn    vamAn   NK      eight
-    -- vmAny   vamAniy Nap     eight     [[vamAniy/ADJ]]
-    -- vmAn    vamAn   Numb    eighty
-
-    KaRADI                    `adj`     {- vamAniy -}          [ "eight", "eighty" ],
-
-    -- ;; vamAniy_1
-    -- vmAny   vamAniy N0      eight     [[vamAniy/ADJ]]
-    -- vmAn    vamAn   NK      eight
-    -- vmAny   vamAniy Nap     eight     [[vamAniy/ADJ]]
-    -- vmAn    vamAn   Numb    eighty
-
-    KaRADI                    `adj`     {- vamAniy -}          [ "eight", "eighty" ] ]
 
  |> "_t m r" <| [
 
@@ -1536,6 +1529,11 @@ lexicon = listing "Lexicon's properties"
     -- vny     vaniy~  Napdu   incisor;path     [[vaniy~/NOUN]]
 
     FaCIL |< aT               `noun`    {- vaniy~ap -}         [ "incisor", "path" ],
+
+    -- ;; vanAyA_1
+    -- vnAyA   vanAyA  N0_Nhy  inside;among
+
+    FaCAyA                    `noun`    {- vanAyA -}           [ "inside", "among" ],
 
     -- ;; vanA'_1
     -- vnA'    vanA'   N0_Nh   appreciation;praise
@@ -2566,13 +2564,6 @@ lexicon = listing "Lexicon's properties"
     -- vmp     vam~apa FW-Wa   there (is/are)              [[vam~apa/ADV]]
 
     Identity                  `noun`    {- vam~apa -}          [ "there (is/are)" ] ]
-
- |> "_tanAyA" <| [
-
-    -- ;; vanAyA_1
-    -- vnAyA   vanAyA  N0_Nhy  inside;among
-
-    Identity                  `noun`    {- vanAyA -}           [ "inside", "among" ] ]
 
  |> "_tiyuw" <| [
 

@@ -3503,9 +3503,6 @@ $Lexicon = {
         '\'awdiy' => {
           'Nap' => 2
         },
-        'wAd' => {
-          'NK' => 1
-        },
         'wAdiy' => {
           'N0F_Nh' => 1,
           'NAn_Nayn' => 1
@@ -4524,8 +4521,7 @@ $Lexicon = {
           'N0F' => 1
         },
         'wAf' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'wAfiy',
@@ -4555,9 +4551,6 @@ $Lexicon = {
           'NAn_Nayn' => 1,
           'Napdu' => 1,
           'N0F' => 1
-        },
-        'wAf' => {
-          'NK' => 1
         }
       },
       'entry' => 'wAfiy',
@@ -4606,9 +4599,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'muwaff' => {
-          'NK' => 1
-        },
         'muwaffiy' => {
           'N0F_Nh' => 1
         }
@@ -5431,7 +5421,11 @@ $Lexicon = {
         'tw$yH   tawo$iyH        N/At    musical composition',
         'twA$yH  tawA$iyH        Ndip    musical compositions'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tawA^siy.h' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -7045,9 +7039,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'awA`' => {
-          'NK' => 2
-        },
         '\'awA`iy' => {
           'N0_Nh' => 2
         },
@@ -7131,8 +7122,7 @@ $Lexicon = {
           'N0F' => 1
         },
         'wA`' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'wA`iy',
@@ -7447,9 +7437,6 @@ $Lexicon = {
           'NAt' => 1,
           'NAn_Nayn' => 1,
           'N0_Nh' => 1
-        },
-        'tawa_h_h' => {
-          'NK' => 1
         }
       },
       'entry' => 'tawa_h_hiy',
@@ -9390,9 +9377,6 @@ $Lexicon = {
         'mawlY' => {
           'N0' => 1
         },
-        'mawAl' => {
-          'NK' => 1
-        },
         'mawlay' => {
           'NAn_Nayn' => 1
         },
@@ -9643,9 +9627,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'tawall' => {
-          'NK' => 1
-        },
         'tawalliy' => {
           'NAt' => 1,
           'N0_Nh' => 1
@@ -9673,9 +9654,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'tawAl' => {
-          'NK' => 1
-        },
         'tawAliy' => {
           'NAt' => 1,
           'NAn_Nayn' => 1,
@@ -9747,9 +9725,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'wAl' => {
-          'NK' => 1
-        },
         'wAliy' => {
           'N0F_Nh' => 1,
           'NAn_Nayn' => 1
@@ -9788,8 +9763,7 @@ $Lexicon = {
     {
       'types' => {
         'muwAl' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'muwAliy' => {
           'N0F_Nh' => 1,
@@ -9846,8 +9820,7 @@ $Lexicon = {
     {
       'types' => {
         'mutawall' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mutawalliy' => {
           'N0F_Nh' => 1,
@@ -9903,8 +9876,7 @@ $Lexicon = {
     {
       'types' => {
         'mutawAl' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mutawAliy' => {
           'N0F_Nh' => 1,
@@ -10884,6 +10856,9 @@ $Lexicon = {
       'patterns' => {
         'tawAdad' => [
           'TaFACaL'
+        ],
+        'tawAdid' => [
+          'TaFACiL'
         ]
       },
       'index' => '1',
@@ -13296,9 +13271,6 @@ $Lexicon = {
           'Nhy' => 1,
           'N0_Nh' => 1
         },
-        'mawAm' => {
-          'NK' => 1
-        },
         'mawmAT' => {
           'Napdu' => 1
         }
@@ -13453,7 +13425,11 @@ $Lexicon = {
         'wHAmY   waHAmaY N0      cravings;longings',
         'wHAmA   waHAmA  Nhy     cravings;longings'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'wa.hAmY' => [
+          'FaCALY'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCLY',
@@ -13750,7 +13726,11 @@ $Lexicon = {
         'wSy     waSiy~  Napdu   advice',
         'wSAyA   waSAyA  N0_Nhy  advice'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'wa.sAyA' => [
+          'FaCAyA'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -13924,8 +13904,7 @@ $Lexicon = {
           'NAn_Nayn' => 1
         },
         'muwa.s.s' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'muwa.s.siy',
@@ -13982,8 +13961,7 @@ $Lexicon = {
     {
       'types' => {
         'muw.s' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'muw.siy' => {
           'N0F_Nh' => 1,
@@ -14552,9 +14530,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'tawAn' => {
-          'NK' => 1
-        },
         'tawAniy' => {
           'NAt' => 1,
           'NAn_Nayn' => 1,
@@ -14618,8 +14593,7 @@ $Lexicon = {
     {
       'types' => {
         'mutawAn' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mutawAniy' => {
           'N0F_Nh' => 1,
@@ -15212,8 +15186,7 @@ $Lexicon = {
           'N0F' => 1
         },
         'wAq' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'wAqiy',
@@ -15863,8 +15836,7 @@ $Lexicon = {
           'N0F' => 1
         },
         'wA.t' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'wA.tiy',
@@ -20985,9 +20957,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'tawAz' => {
-          'NK' => 1
-        },
         'tawAziy' => {
           'NAt' => 1,
           'NAn_Nayn' => 1,
@@ -21018,8 +20987,7 @@ $Lexicon = {
     {
       'types' => {
         'muwAz' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'muwAziy' => {
           'N0F_Nh' => 1,
@@ -21052,8 +21020,7 @@ $Lexicon = {
     {
       'types' => {
         'mutawAz' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mutawAziy' => {
           'N0F_Nh' => 1,
@@ -35492,8 +35459,7 @@ $Lexicon = {
           'Nap' => 1
         },
         'wAh' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'wAhiy',
@@ -38188,8 +38154,7 @@ $Lexicon = {
           'NAn_Nayn' => 1
         },
         'muw.h' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'muw.hiy',
@@ -44055,9 +44020,6 @@ $Lexicon = {
         },
         'wu^sY' => {
           'Nap' => 1
-        },
-        'wA^s' => {
-          'NK' => 1
         }
       },
       'entry' => 'wA^siy',
@@ -44859,9 +44821,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mawAs' => {
-          'NK' => 1
-        },
         'mawAsiy' => {
           'N0_Nh' => 1
         },

@@ -78,7 +78,9 @@ lexicon = listing "Lexicon's properties"
 
  |> ".d .h y" <| [
 
-    FaCIL |< aT               `noun`    {- DaHiy~ap -}         [ "victim", "victims" ],
+    FaCIL |< aT               `noun`    {- DaHiy~ap -}         [ "victim", "victims" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ ".da.hAyA N0_Nhy" ] -},
 
     FACI |< aT                `noun`    {- DAHiyap -}          [ "suburb", "vicinity", "suburbs", "outskirts" ]
                               `plural`     FawACI
@@ -456,7 +458,9 @@ lexicon = listing "Lexicon's properties"
 
  |> ".d r s" <| [
 
-    TaFCIL                    `noun`    {- taDoriys -}         [ "topography", "indentation", "surface features" ] ]
+    TaFCIL                    `noun`    {- taDoriys -}         [ "topography", "indentation", "surface features" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.dAriys Ndip" ] -} ]
 
  |> ".d r w" <| [
 

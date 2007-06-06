@@ -437,6 +437,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h ^s y" <| [
 
+    TaFACI                    `noun`    {- taHA$iy -}          [ "avoidance" ],
+
     FACI |< aT                `noun`    {- HA$iyap -}          [ "margin", "edge", "retinue", "margins", "edges" ]
                               `plural`     FawACI
                            {- `others`  [ ".hawA^siy N0_Nh" ] -} ]
@@ -565,9 +567,13 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaLA'
                            {- `others`  [ ".hidA_t N", ".huda_tA' Nh N0_Nh Nhy" ] -},
 
-    FaCIL                     `noun`    {- Hadiyv -}           [ "discussion", "talk", "interview", "discussions", "talks" ],
+    FaCIL                     `noun`    {- Hadiyv -}           [ "discussion", "talk", "interview", "discussions", "talks" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a.hAdiy_t Ndip" ] -},
 
-    FaCIL                     `noun`    {- Hadiyv -}           [ "Hadith (Islamic tradition)", "Hadiths (Islamic traditions)" ],
+    FaCIL                     `noun`    {- Hadiyv -}           [ "Hadith (Islamic tradition)", "Hadiths (Islamic traditions)" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a.hAdiy_t Ndip" ] -},
 
     FuCUL                     `noun`    {- Huduwv -}           [ "occurrence", "happening" ],
 
@@ -1004,7 +1010,9 @@ lexicon = listing "Lexicon's properties"
 
     MaFaCL |< aT              `noun`    {- maHal~ap -}         [ "Mahalla" ],
 
-    TaFCIL                    `noun`    {- taHoliyl -}         [ "analysis", "dissolution", "analyses" ],
+    TaFCIL                    `noun`    {- taHoliyl -}         [ "analysis", "dissolution", "analyses" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.hAliyl Ndip" ] -},
 
     TaFCIL |< Iy              `adj`     {- taHoliyliy~ -}      [ "analytical" ],
 
@@ -1073,8 +1081,9 @@ lexicon = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- Hulowap -}          [ "Hilweh", "Hulwa" ],
 
     FaCLY                     `noun`    {- HalowaY -}          [ "pastry", "dessert", "sweets", "pastries", "desserts" ]
+                              `plural`     FaCALY
                               `plural`     FuCLY
-                           {- `others`  [ ".hulwY N0" ] -},
+                           {- `others`  [ ".halAwY N0", ".hulwY N0" ] -},
 
     FaCAL |< aT               `noun`    {- HalAwap -}          [ "sweetness", "candies" ],
 
@@ -1808,7 +1817,9 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- taHosiyn -}         [ "improving", "making better" ],
 
-    TaFCIL                    `noun`    {- taHosiyn -}         [ "improvement", "beautification", "improvements", "ornamentation" ],
+    TaFCIL                    `noun`    {- taHosiyn -}         [ "improvement", "beautification", "improvements", "ornamentation" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.hAsiyn Ndip" ] -},
 
     TaFaCCuL                  `noun`    {- taHas~un -}         [ "improvement" ],
 
@@ -2008,11 +2019,15 @@ lexicon = listing "Lexicon's properties"
 
     FAL |< Iy                 `adj`     {- HAliy~ -}           [ "present", "current", "presently", "currently" ],
 
+    FaCALY                    `noun`    {- HawAlaY -}          [ "approximately", "around" ],
+
     TaFCIL                    `noun`    {- taHowiyl -}         [ "conversion", "transfer" ],
 
     TaFCIL |< Iy              `adj`     {- taHowiyliy~ -}      [ "processing", "manufacturing" ],
 
-    TaFCIL |< aT              `noun`    {- taHowiylap -}       [ "sidetrack", "branch", "sidetracks", "branches" ],
+    TaFCIL |< aT              `noun`    {- taHowiylap -}       [ "sidetrack", "branch", "sidetracks", "branches" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.hAwiyl Ndip" ] -},
 
     MuFACaL |< aT             `noun`    {- muHAwalap -}        [ "attempt", "effort" ],
 
@@ -2057,8 +2072,8 @@ lexicon = listing "Lexicon's properties"
     FiCAL                     `noun`    {- HiwAr -}            [ "conversation", "dialogue", "discussion", "discussions", "talks" ],
 
     FAL |< aT                 `noun`    {- HArap -}            [ "quarter", "section", "quarters", "sections" ]
-                              `plural`     FaCAL
-                           {- `others`  [ ".hawAr NK" ] -},
+                              `plural`     FaCALI
+                           {- `others`  [ ".hawAriy N0_Nh" ] -},
 
     MiFCaL                    `noun`    {- miHowar -}          [ "axis", "axle", "pivot", "axes", "axles", "pivots" ]
                               `plural`     MaFACiL
@@ -2310,10 +2325,6 @@ lexicon = listing "Lexicon's properties"
  |> ".hasanayn" <| [
 
     Identity                  `noun`    {- Hasanayon -}        [ "Hassanein" ] ]
-
- |> ".hawAlY" <| [
-
-    Identity                  `noun`    {- HawAlaY -}          [ "approximately", "around" ] ]
 
  |> ".hawla" <| [
 

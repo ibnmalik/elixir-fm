@@ -73,6 +73,10 @@ lexicon = listing "Lexicon's properties"
 
     TaFACI                    `noun`    {- tagADiy -}          [ "indifference", "condoning" ] ]
 
+ |> ".g .d y" <| [
+
+    TaFACI                    `noun`    {- tagADiy -}          [ "indifference", "condoning" ] ]
+
  |> ".g .s .s" <| [
 
     FaCL                      `verb`    {- gaS~-a -}           [ "be congested", "be crowded" ]

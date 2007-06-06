@@ -324,7 +324,9 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFACiL
                            {- `others`  [ "mu_tlY N0", "'amA_til Ndip" ] -},
 
-    TiFCAL                    `noun`    {- timovAl -}          [ "statue", "statues" ],
+    TiFCAL                    `noun`    {- timovAl -}          [ "statue", "statues" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tamA_tiyl Ndip" ] -},
 
     TaFCIL                    `noun`    {- tamoviyl -}         [ "representation", "acting", "exemplification" ],
 
@@ -872,8 +874,9 @@ lexicon = listing "Lexicon's properties"
     FaCaL |< Iy               `adj`     {- maraDiy~ -}         [ "diseased", "sick", "pathological" ],
 
     FaCIL                     `noun`    {- mariyD -}           [ "patient", "sick person", "patients", "sick people" ]
+                              `plural`     FaCALY
                               `plural`     FaCLY
-                           {- `others`  [ "mar.dY N0" ] -},
+                           {- `others`  [ "marA.dY N0", "mar.dY N0" ] -},
 
     TaFCIL                    `noun`    {- tamoriyD -}         [ "nursing the sick" ],
 
@@ -886,7 +889,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCiL                     `noun`    {- mariH -}            [ "cheerful", "merry" ]
                               `plural`     FaCLY
-                           {- `others`  [ "mar.hY N0" ] -},
+                              `plural`     FaCALY
+                           {- `others`  [ "mar.hY N0", "marA.hY N0" ] -},
 
     FiCCIL                    `adj`     {- mir~iyH -}          [ "merry", "cheerful" ] ]
 
@@ -940,9 +944,13 @@ lexicon = listing "Lexicon's properties"
 
     FuCUL |< aT               `noun`    {- muruwnap -}         [ "flexibility", "pliability" ],
 
-    TaFCIL                    `noun`    {- tamoriyn -}         [ "exercise", "practice", "training", "exercises" ],
+    TaFCIL                    `noun`    {- tamoriyn -}         [ "exercise", "practice", "training", "exercises" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tamAriyn Ndip" ] -},
 
-    TaFCIL                    `noun`    {- tamoriyn -}         [ "drills", "maneuvers", "exercises" ],
+    TaFCIL                    `noun`    {- tamoriyn -}         [ "drills", "maneuvers", "exercises" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tamAriyn Ndip" ] -},
 
     FACUL                     `noun`    {- mAruwn -}           [ "Maronites" ],
 
@@ -1404,6 +1412,10 @@ lexicon = listing "Lexicon's properties"
 
     KiRDiS                    `noun`    {- miylir -}           [ "Miller" ] ]
 
+ |> "m y m" <| [
+
+    FaCALI                    `noun`    {- mayAmiy -}          [ "Miami" ] ]
+
  |> "m y m y" <| [
 
     KaRADI                    `noun`    {- mayAmiy -}          [ "Miami" ],
@@ -1512,7 +1524,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "m z z" <| [
 
-    FaL |< Iy |< aT           `noun`    {- maziy~ap -}         [ "feature", "advantage", "features", "advantages" ] ]
+    FaL |< Iy |< aT           `noun`    {- maziy~ap -}         [ "feature", "advantage", "features", "advantages" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "mazAyA N0_Nhy" ] -} ]
 
  |> "mA" <| [
 

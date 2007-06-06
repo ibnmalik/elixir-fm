@@ -103,9 +103,13 @@ lexicon = listing "Lexicon's properties"
 
     FaCA' |< Iy               `adj`     {- qaDA}iy~ -}         [ "judicial", "legal" ],
 
-    FaCIL |< aT               `noun`    {- qaDiy~ap -}         [ "problem", "issue", "problems", "issues" ],
+    FaCIL |< aT               `noun`    {- qaDiy~ap -}         [ "problem", "issue", "problems", "issues" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "qa.dAyA N0_Nhy" ] -},
 
-    FaCIL |< aT               `noun`    {- qaDiy~ap -}         [ "lawsuit", "legal case", "lawsuits", "legal cases" ],
+    FaCIL |< aT               `noun`    {- qaDiy~ap -}         [ "lawsuit", "legal case", "lawsuits", "legal cases" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "qa.dAyA N0_Nhy" ] -},
 
     MuFACY |< aT              `noun`    {- muqADAp -}          [ "court trial", "hearing", "court trials", "hearings" ]
                               `plural`     MuFACaL |< At,
@@ -261,6 +265,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCAL
                            {- `others`  [ "qi.sAr N" ] -},
 
+    FuCALY                    `noun`    {- quSAraY -}          [ "utmost", "limit" ],
+
     TaFCIL                    `noun`    {- taqoSiyr -}         [ "deficiency", "inadequacy" ],
 
     TaFCIL                    `noun`    {- taqoSiyr -}         [ "diminution", "curtailment" ],
@@ -364,7 +370,9 @@ lexicon = listing "Lexicon's properties"
 
     MaFCaL |< Iy              `adj`     {- maqoTaEiy~ -}       [ "cross-section" ],
 
-    TaFCIL                    `noun`    {- taqoTiyE -}         [ "fragmentation", "partitioning", "interruption", "shapes", "figures", "features" ],
+    TaFCIL                    `noun`    {- taqoTiyE -}         [ "fragmentation", "partitioning", "interruption", "shapes", "figures", "features" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "taqA.tiy` Ndip" ] -},
 
     MuFACaL |< aT             `noun`    {- muqATaEap -}        [ "boycott" ],
 
@@ -790,7 +798,9 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- taqodiyr -}         [ "appreciation", "gratitude" ],
 
-    TaFCIL                    `noun`    {- taqodiyr -}         [ "estimate", "calculation", "appraisal", "estimates", "calculations", "appraisals" ],
+    TaFCIL                    `noun`    {- taqodiyr -}         [ "estimate", "calculation", "appraisal", "estimates", "calculations", "appraisals" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "taqAdiyr Ndip" ] -},
 
     TaFCIL |< aN              `noun`    {- taqodiyrAF -}       [ "in appreciation for" ]
                               `plural`     TaFCIL
@@ -1029,7 +1039,9 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- taqoliyd -}         [ "imitation" ],
 
-    TaFCIL                    `noun`    {- taqoliyd -}         [ "tradition", "custom", "traditions", "customs" ],
+    TaFCIL                    `noun`    {- taqoliyd -}         [ "tradition", "custom", "traditions", "customs" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "taqAliyd Ndip" ] -},
 
     TaFCIL |< Iy              `adj`     {- taqoliydiy~ -}      [ "traditional", "conventional" ] ]
 
@@ -1492,7 +1504,9 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- taqoriyr -}         [ "decision", "determination" ],
 
-    TaFCIL                    `noun`    {- taqoriyr -}         [ "report", "account", "reports", "accounts" ],
+    TaFCIL                    `noun`    {- taqoriyr -}         [ "report", "account", "reports", "accounts" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "taqAriyr Ndip" ] -},
 
     HiFCAL                    `noun`    {- IiqorAr -}          [ "ratification", "confirmation" ],
 
@@ -1521,7 +1535,9 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCY
                            {- `others`  [ "qurY N0" ] -},
 
-    FaCIL |< aT               `noun`    {- qariy~ap -}         [ "yard (naut.)", "yards (naut.)" ],
+    FaCIL |< aT               `noun`    {- qariy~ap -}         [ "yard (naut.)", "yards (naut.)" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "qarAyA N0_Nhy" ] -},
 
     FaCY |< Iy                `adj`     {- qarawiy~ -}         [ "rural", "village" ],
 
@@ -1573,7 +1589,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL |< aT               `noun`    {- qasiymap -}         [ "coupon", "stub", "coupons", "stubs" ],
 
-    TaFCIL                    `noun`    {- taqosiym -}         [ "partition", "division", "distribution", "proportions", "features" ],
+    TaFCIL                    `noun`    {- taqosiym -}         [ "partition", "division", "distribution", "proportions", "features" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "taqAsiym Ndip" ] -},
 
     TaFCIL |< Iy              `adj`     {- taqosiymiy~ -}      [ "fractional", "fragmentary" ],
 
@@ -1701,7 +1719,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- qawol -}            [ "statement", "remark", "statements", "reports", "remarks" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'aqwAl N" ] -},
+                              `plural`     HaFACIL
+                           {- `others`  [ "'aqwAl N", "'aqAwiyl Ndip" ] -},
 
     MaFAL                     `noun`    {- maqAl -}            [ "article", "essay", "articles", "essays" ],
 
@@ -1748,7 +1767,9 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oaqowam -}          [ "straighter", "more correct", "more appropriate" ],
 
-    TaFCIL                    `noun`    {- taqowiym -}         [ "rating", "valuation", "ratings", "valuations", "calendars" ],
+    TaFCIL                    `noun`    {- taqowiym -}         [ "rating", "valuation", "ratings", "valuations", "calendars" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "taqAwiym Ndip" ] -},
 
     TaFCIL                    `noun`    {- taqowiym -}         [ "calendar", "chronology" ],
 
@@ -1885,7 +1906,9 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCUL
                            {- `others`  [ "quyuwd N" ] -},
 
-    TaFCIL                    `noun`    {- taqoyiyd -}         [ "restriction", "limitation", "restrictions", "limitations" ],
+    TaFCIL                    `noun`    {- taqoyiyd -}         [ "restriction", "limitation", "restrictions", "limitations" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "taqAyiyd Ndip" ] -},
 
     TaFaCCuL                  `noun`    {- taqay~ud -}         [ "restriction", "limitation" ],
 
@@ -2009,10 +2032,6 @@ lexicon = listing "Lexicon's properties"
     Identity                  `noun`    {- qirogiyzostAn -}    [ "Kyrgyzstan" ],
 
     Identity |< Iy            `adj`     {- qirogiyzostAniy~ -} [ "Kyrgyzstani" ] ]
-
- |> "qu.sArY" <| [
-
-    Identity                  `noun`    {- quSAraY -}          [ "utmost", "limit" ] ]
 
  |> "qubayla" <| [
 

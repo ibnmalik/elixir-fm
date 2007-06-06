@@ -1030,7 +1030,9 @@ lexicon = listing "Lexicon's properties"
     -- xTy     xaTiy~  NapAt   mistake;error;fault
     -- xTAyA   xaTAyA  N0_Nhy  mistakes;errors;faults
 
-    FaCIL |< aT               `noun`    {- xaTiy}ap -}         [ "mistake", "error", "fault", "mistakes", "errors", "faults" ],
+    FaCIL |< aT               `noun`    {- xaTiy}ap -}         [ "mistake", "error", "fault", "mistakes", "errors", "faults" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "_ha.tAyA N0_Nhy" ] -},
 
     -- ;; xATi}_1
     -- xAT}    xATi}   Nall    mistaken;at fault     [[xATi}/ADJ]]
@@ -1839,7 +1841,9 @@ lexicon = listing "Lexicon's properties"
     -- tx$yb   taxo$iyb        NapAt   jail cell
     -- txA$yb  taxA$iyb        Ndip    wooden sheds
 
-    TaFCIL |< aT              `noun`    {- taxo$iybap -}       [ "wooden shed", "jail cell", "wooden sheds" ],
+    TaFCIL |< aT              `noun`    {- taxo$iybap -}       [ "wooden shed", "jail cell", "wooden sheds" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta_hA^siyb Ndip" ] -},
 
     -- ;; taxa$~ub_1
     -- tx$b    taxa$~ub        NduAt   stiffness;rigidity
@@ -2037,7 +2041,9 @@ lexicon = listing "Lexicon's properties"
     -- x$yA    xa$oyA  N0_Nh   timid;anxious
     -- x$AyA   xa$AyA  N0_Nhy  timid;anxious
 
-    FaCLAn                    `noun`    {- xa$oyAn -}          [ "timid", "anxious" ],
+    FaCLAn                    `noun`    {- xa$oyAn -}          [ "timid", "anxious" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "_ha^sAyA N0_Nhy" ] -},
 
     -- ;; xA$iy_1
     -- xA$y    xA$iy   N0F     timid;anxious
@@ -2343,7 +2349,9 @@ lexicon = listing "Lexicon's properties"
     -- xby}    xabiy}  Napdu   secret;cache
     -- xbAyA   xabAyA  N0_Nhy  hidden;natural resources
 
-    FaCIL |< aT               `noun`    {- xabiy}ap -}         [ "secret", "cache", "hidden", "natural resources" ],
+    FaCIL |< aT               `noun`    {- xabiy}ap -}         [ "secret", "cache", "hidden", "natural resources" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "_habAyA N0_Nhy" ] -},
 
     -- ;; maxoba>_1
     -- mxb>    maxoba> N0_Nh   hide-out;shelter
@@ -3018,7 +3026,9 @@ lexicon = listing "Lexicon's properties"
     -- >xAdyE  >axAdiyE        Ndip    swindles;deceptions
     -- AxAdyE  >axAdiyE        Ndip    swindles;deceptions
 
-    HiFCAL                    `noun`    {- IixodAE -}          [ "swindling", "deception", "swindles", "deceptions" ],
+    HiFCAL                    `noun`    {- IixodAE -}          [ "swindling", "deception", "swindles", "deceptions" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a_hAdiy` Ndip" ] -},
 
     -- ;; mixodaE_1
     -- mxdE    mixodaE N       chamber
@@ -3257,9 +3267,10 @@ lexicon = listing "Lexicon's properties"
     -- AxAdyr  >axAdiyr        Ndip    curtains
 
     FiCL                      `noun`    {- xidor -}            [ "curtain", "boudoir", "curtains" ]
+                              `plural`     HaFACIL
                               `plural`     HaFCAL
                               `plural`     FuCUL
-                           {- `others`  [ "'a_hdAr N", "_huduwr N" ] -},
+                           {- `others`  [ "'a_hAdiyr Ndip", "'a_hdAr N", "_huduwr N" ] -},
 
     -- ;; xadar_1
     -- xdr     xadar   N       numbness;daze
@@ -3851,7 +3862,9 @@ lexicon = listing "Lexicon's properties"
     -- xfy     xafiy~  Napdu   secret     [[xafiy~/NOUN]]
     -- xfAyA   xafAyA  N0_Nhy  secrets
 
-    FaCIL |< aT               `noun`    {- xafiy~ap -}         [ "secret", "secrets" ],
+    FaCIL |< aT               `noun`    {- xafiy~ap -}         [ "secret", "secrets" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "_hafAyA N0_Nhy" ] -},
 
     -- ;; xafA'_1
     -- xfA'    xafA'   N0_Nh   secrecy;secret
@@ -5473,13 +5486,17 @@ lexicon = listing "Lexicon's properties"
     -- xly     xaliy~  Napdu   cell
     -- xlAyA   xalAyA  N0_Nhy  cells
 
-    FaCIL |< aT               `noun`    {- xaliy~ap -}         [ "cell", "cells" ],
+    FaCIL |< aT               `noun`    {- xaliy~ap -}         [ "cell", "cells" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "_halAyA N0_Nhy" ] -},
 
     -- ;; xaliy~ap_2
     -- xly     xaliy~  Napdu   beehive
     -- xlAyA   xalAyA  N0_Nhy  beehives
 
-    FaCIL |< aT               `noun`    {- xaliy~ap -}         [ "beehive", "beehives" ],
+    FaCIL |< aT               `noun`    {- xaliy~ap -}         [ "beehive", "beehives" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "_halAyA N0_Nhy" ] -},
 
     -- ;; taxoliyap_1
     -- txly    taxoliy Nap     vacating;evacuation
@@ -6044,7 +6061,8 @@ lexicon = listing "Lexicon's properties"
 
     FuCLY                     `noun`    {- xunovaY -}          [ "hermaphrodite", "hermaphrodites" ]
                               `plural`     FiCAL
-                           {- `others`  [ "_hinA_t N" ] -},
+                              `plural`     FaCALY
+                           {- `others`  [ "_hinA_t N", "_hanA_tY N0" ] -},
 
     -- ;; xunuwvap_1
     -- xnwv    xunuwv  Nap     effeminacy
@@ -7192,7 +7210,9 @@ lexicon = listing "Lexicon's properties"
     -- txrym   taxoriym        NduAt   drilling;perforation
     -- txArym  taxAriym        Ndip    drillings;perforations
 
-    TaFCIL                    `noun`    {- taxoriym -}         [ "drilling", "perforation", "drillings", "perforations" ],
+    TaFCIL                    `noun`    {- taxoriym -}         [ "drilling", "perforation", "drillings", "perforations" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta_hAriym Ndip" ] -},
 
     -- ;; {inoxirAm_1
     -- <nxrAm  {inoxirAm       NduAt   disturbance
@@ -8242,6 +8262,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "_h w l" <| [
 
+    -- ;; xawAliy_1
+    -- xwAly   xawAliy N0_Nh   elapsed
+    -- xwAl    xawAl   NK      elapsed
+
+    FaCALI                    `noun`    {- xawAliy -}          [ "elapsed" ],
+
     -- ;; xaw~al_1
     -- xwl     xaw~al  PV      grant;bestow;endow
     -- xwl     xaw~il  IV_yu   grant;bestow;endow
@@ -8421,7 +8447,8 @@ lexicon = listing "Lexicon's properties"
     FuCAL                     `noun`    {- xuwAn -}            [ "table", "tables" ]
                               `plural`     HaFCiL |< aT
                               `plural`     FiCAL
-                           {- `others`  [ "_hiwAn Ndu" ] -} ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "_hiwAn Ndu", "'a_hAwiyn Ndip" ] -} ]
 
  |> "_h w r" <| [
 
@@ -9512,7 +9539,9 @@ lexicon = listing "Lexicon's properties"
     -- xzyA    xazoyA  N0_Nh   ashamed;disgraceful
     -- xzAyA   xazAyA  N0_Nhy  ashamed;disgraceful
 
-    FaCLAn                    `noun`    {- xazoyAn -}          [ "ashamed", "disgraceful" ] ]
+    FaCLAn                    `noun`    {- xazoyAn -}          [ "ashamed", "disgraceful" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "_hazAyA N0_Nhy" ] -} ]
 
  |> "_h z z" <| [
 

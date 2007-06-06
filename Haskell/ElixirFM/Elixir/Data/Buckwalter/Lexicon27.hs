@@ -1559,7 +1559,9 @@ lexicon = listing "Lexicon's properties"
     -- wHAmY   waHAmaY N0      cravings;longings
     -- wHAmA   waHAmA  Nhy     cravings;longings
 
-    FaCLY                     `noun`    {- waHomaY -}          [ "craving", "longing", "cravings", "longings" ] ]
+    FaCLY                     `noun`    {- waHomaY -}          [ "craving", "longing", "cravings", "longings" ]
+                              `plural`     FaCALY
+                           {- `others`  [ "wa.hAmY N0" ] -} ]
 
  |> "w .h w .h" <| [
 
@@ -2232,7 +2234,9 @@ lexicon = listing "Lexicon's properties"
     -- wSy     waSiy~  Napdu   advice
     -- wSAyA   waSAyA  N0_Nhy  advice
 
-    FaCIL |< aT               `noun`    {- waSiy~ap -}         [ "advice" ],
+    FaCIL |< aT               `noun`    {- waSiy~ap -}         [ "advice" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "wa.sAyA N0_Nhy" ] -},
 
     -- ;; waSiy~ap_2
     -- wSy     waSiy~  Napdu   legal will;testament
@@ -3470,7 +3474,9 @@ lexicon = listing "Lexicon's properties"
     -- tw$yH   tawo$iyH        N/At    musical composition
     -- twA$yH  tawA$iyH        Ndip    musical compositions
 
-    TaFCIL                    `noun`    {- tawo$iyH -}         [ "musical composition", "musical compositions" ],
+    TaFCIL                    `noun`    {- tawo$iyH -}         [ "musical composition", "musical compositions" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tawA^siy.h Ndip" ] -},
 
     -- ;; muwa$~aH_1
     -- mw$H    muwa$~aH        Ndu     muwashshah (poetic genre)

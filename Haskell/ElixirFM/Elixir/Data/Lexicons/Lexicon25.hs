@@ -2148,7 +2148,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCY |< Iy                `adj`     {- nawawiy~ -}         [ "nuclear", "atomic", "nucleic" ],
 
-    FIL |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire", "intentions", "desires" ] ]
+    FIL |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire", "intentions", "desires" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "nawAyA N0_Nhy" ] -} ]
 
  |> "n y ^g r" <| [
 

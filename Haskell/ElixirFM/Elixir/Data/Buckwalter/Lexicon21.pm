@@ -35,41 +35,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qudAmY' => [
-    {
-      'types' => {
-        'qadA\'im' => {
-          'Ndip' => 1
-        },
-        'qudAmY' => {
-          'N0' => 1
-        },
-        'qudAmA' => {
-          'Nhy' => 1
-        }
-      },
-      'entry' => 'qudAmY',
-      'form' => 'qudAmY',
-      'lines' => [
-        ';; qudAmaY_1',
-        'qdAmY   qudAmaY N0      old;ancients',
-        'qdAmA   qudAmA  Nhy     old;ancients',
-        'qdA}m   qadA}im Ndip    old;ancient'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'old',
-        'ancients',
-        'ancient'
-      ],
-      'orig' => 'qudAmaY',
-      'prefix' => ''
-    }
-  ],
   'q f \'' => [
     {
       'types' => {
@@ -2947,31 +2912,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'taqAdiym' => [
-    {
-      'types' => {
-        'taqAdiym' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'taqAdiym',
-      'form' => 'taqAdiym',
-      'lines' => [
-        ';; taqAdiym_1',
-        'tqAdym  taqAdiym        Ndip    guardianships'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'guardianships'
-      ],
-      'orig' => 'taqAdiym',
-      'prefix' => ''
-    }
-  ],
   'qandahAr' => [
     {
       'types' => {
@@ -3798,7 +3738,11 @@ $Lexicon = {
         'tqryr   taqoriyr        Ndu     report;account',
         'tqAryr  taqAriyr        Ndip    reports;accounts'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'taqAriyr' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -7768,17 +7712,14 @@ $Lexicon = {
           'NAt' => 1,
           'NAn_Nayn' => 1
         },
+        'qu.swY' => {
+          'N0' => 1
+        },
         '\'aq.say' => {
           'NAn_Nayn' => 2
         },
         '\'aqA.siy' => {
           'N0_Nh' => 2
-        },
-        '\'aqA.s' => {
-          'NK' => 2
-        },
-        'qu.swY' => {
-          'N0' => 1
         }
       },
       'entry' => '\'aq.sY',
@@ -7851,9 +7792,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'taqa.s.s' => {
-          'NK' => 1
-        },
         'taqa.s.siy' => {
           'NAt' => 1,
           'NAn_Nayn' => 1,
@@ -7954,8 +7892,7 @@ $Lexicon = {
     {
       'types' => {
         'qA.s' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'qA.siy' => {
           'NapAt' => 1,
@@ -8916,9 +8853,6 @@ $Lexicon = {
           'N0F_Nh' => 1,
           'NapAt' => 1,
           'NAn_Nayn' => 1
-        },
-        'qAn' => {
-          'NK' => 1
         }
       },
       'entry' => 'qAniy',
@@ -14971,9 +14905,6 @@ $Lexicon = {
         'miqlA' => {
           'Nhy' => 1
         },
-        'maqAl' => {
-          'NK' => 1
-        },
         'maqAliy' => {
           'N0_Nh' => 1
         }
@@ -15831,6 +15762,9 @@ $Lexicon = {
       'patterns' => {
         'taqAlal' => [
           'TaFACaL'
+        ],
+        'taqAlil' => [
+          'TaFACiL'
         ]
       },
       'index' => '1',
@@ -16499,58 +16433,6 @@ $Lexicon = {
         'squat'
       ],
       'orig' => 'OaqoEaY',
-      'prefix' => ''
-    }
-  ],
-  'q r s y' => [
-    {
-      'types' => {
-        'qarA.siyA' => {
-          'N0' => 1
-        },
-        'qarA.siy' => {
-          'Nap' => 1
-        },
-        'qarAsiyA' => {
-          'N0' => 1
-        },
-        'qarAsiyaT' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'qarAsiy',
-      'form' => 'qarAsiyaT',
-      'lines' => [
-        ';; qarAsiyap_1',
-        'qrAsy   qarAsiy Nap     prunes;plums',
-        'qrASy   qarASiy Nap     prunes;plums',
-        'qrAsyA  qarAsiyA        N0      prunes;plums',
-        'qrASyA  qarASiyA        N0      prunes;plums'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRADI |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'prunes',
-        'plums'
-      ],
-      'orig' => 'qarAsiyap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'qarAsiy',
-      'form' => 'qarAsiyaT',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRADI |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [],
-      'orig' => 'qarAsiyap',
       'prefix' => ''
     }
   ],
@@ -18184,7 +18066,11 @@ $Lexicon = {
         'tqTyE   taqoTiyE        N/At    fragmentation;partitioning;interruption',
         'tqATyE  taqATiyE        Ndip    shapes;figures;features'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'taqA.tiy`' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -21087,8 +20973,7 @@ $Lexicon = {
           'N0F' => 1
         },
         'qAs' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'qAsiy',
@@ -23496,7 +23381,11 @@ $Lexicon = {
         'tqryZ   taqoriyZ        N/At    praise;eulogy',
         'tqAryZ  taqAriyZ        Ndip    praises;eulogies'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'taqAriy.z' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -27059,7 +26948,11 @@ $Lexicon = {
         'tqwym   taqowiym        N       rating;valuation',
         'tqAwym  taqAwiym        Ndip    ratings;valuations;calendars'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'taqAwiym' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -27637,8 +27530,7 @@ $Lexicon = {
           'N0F' => 1
         },
         'qAh' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'qAhiy',
@@ -28225,6 +28117,39 @@ $Lexicon = {
     },
     {
       'types' => {
+        'qadA\'im' => {
+          'Ndip' => 1
+        },
+        'qudAmY' => {
+          'N0' => 1
+        },
+        'qudAmA' => {
+          'Nhy' => 1
+        }
+      },
+      'entry' => 'qudAmY',
+      'form' => 'qudAmY',
+      'lines' => [
+        ';; qudAmaY_1',
+        'qdAmY   qudAmaY N0      old;ancients',
+        'qdAmA   qudAmA  Nhy     old;ancients',
+        'qdA}m   qadA}im Ndip    old;ancient'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCALY',
+      'suffix' => '',
+      'glosses' => [
+        'old',
+        'ancients',
+        'ancient'
+      ],
+      'orig' => 'qudAmaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'qidamiyyaT' => {
           'Nap' => 1
         }
@@ -28533,6 +28458,29 @@ $Lexicon = {
     },
     {
       'types' => {
+        'taqAdiym' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'taqAdiym',
+      'form' => 'taqAdiym',
+      'lines' => [
+        ';; taqAdiym_1',
+        'tqAdym  taqAdiym        Ndip    guardianships'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFACIL',
+      'suffix' => '',
+      'glosses' => [
+        'guardianships'
+      ],
+      'orig' => 'taqAdiym',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'taqdimaT' => {
           'Napdu' => 1
         }
@@ -28572,7 +28520,11 @@ $Lexicon = {
         'tqdm    taqodim NapAt   gift',
         'tqAdm   taqAdim Ndip    gifts'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'taqAdim' => [
+          'TaFACiL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'TaFCiL |< aT',
@@ -30320,7 +30272,11 @@ $Lexicon = {
         'qrE     qaroE   Napdu   gourd;bottle;flask',
         'qrAEy   qarAEiy N0_Nh   gourds;bottles;flasks'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'qarA`iy' => [
+          'FaCALI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL |< aT',
@@ -32237,9 +32193,6 @@ $Lexicon = {
         },
         'taqwiyaT' => {
           'Napdu' => 1
-        },
-        'taqAw' => {
-          'NK' => 1
         }
       },
       'entry' => 'taqwiy',
@@ -32304,8 +32257,7 @@ $Lexicon = {
     {
       'types' => {
         'muqaww' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'muqawwiy' => {
           'N0F_Nh' => 1,
@@ -33063,9 +33015,6 @@ $Lexicon = {
         },
         'qAfiyaT' => {
           'Nap' => 1
-        },
-        'qawAf' => {
-          'NK' => 1
         }
       },
       'entry' => 'qAfiy',
@@ -33336,7 +33285,11 @@ $Lexicon = {
         'qry     qariy~  Napdu   yard (naut.)     [[qariy~/NOUN]]',
         'qrAyA   qarAyA  N0_Nhy  yards (naut.)'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'qarAyA' => [
+          'FaCAyA'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -33400,8 +33353,7 @@ $Lexicon = {
     {
       'types' => {
         'qAr' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'qAriy' => {
           'NapAt' => 1,
@@ -33749,9 +33701,6 @@ $Lexicon = {
         },
         'qanAniy' => {
           'N0_Nh' => 1
-        },
-        'qanAn' => {
-          'NK' => 1
         }
       },
       'entry' => 'qinniyn',
@@ -33764,10 +33713,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'qanAniy' => [
-          'FaCACI'
-        ],
-        'qanAn' => [
-          'FaCAL'
+          'FaCACI',
+          'FaCALI'
         ]
       },
       'index' => '1',
@@ -37786,7 +37733,11 @@ $Lexicon = {
         'qDy     qaDiy~  Napdu   problem;issue     [[qaDiy~/NOUN]]',
         'qDAyA   qaDAyA  N0_Nhy  problems;issues'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'qa.dAyA' => [
+          'FaCAyA'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -37816,7 +37767,11 @@ $Lexicon = {
         'qDy     qaDiy~  Napdu   lawsuit;legal case     [[qaDiy~/NOUN]]',
         'qDAyA   qaDAyA  N0_Nhy  lawsuits;legal cases'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'qa.dAyA' => [
+          'FaCAyA'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -37870,9 +37825,6 @@ $Lexicon = {
           'NAt' => 1,
           'NAn_Nayn' => 1,
           'N0_Nh' => 1
-        },
-        'taqA.d' => {
-          'NK' => 1
         }
       },
       'entry' => 'taqA.diy',
@@ -37955,9 +37907,6 @@ $Lexicon = {
         'qu.dY' => {
           'Nap' => 1
         },
-        'qA.d' => {
-          'NK' => 1
-        },
         'qA.diy' => {
           'N0F_Nh' => 1,
           'NAn_Nayn' => 1
@@ -37994,9 +37943,6 @@ $Lexicon = {
       'types' => {
         'qawA.diy' => {
           'N0_Nh' => 1
-        },
-        'qawA.d' => {
-          'NK' => 1
         }
       },
       'entry' => 'qawA.diy',
@@ -38045,8 +37991,7 @@ $Lexicon = {
     {
       'types' => {
         'mutaqA.d' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mutaqA.diy' => {
           'N0F_Nh' => 1,
@@ -38840,7 +38785,11 @@ $Lexicon = {
         'tqlyd   taqoliyd        Ndu     tradition;custom',
         'tqAlyd  taqAliyd        Ndip    traditions;customs'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'taqAliyd' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -39272,6 +39221,9 @@ $Lexicon = {
       'patterns' => {
         'qibA.h' => [
           'FiCAL'
+        ],
+        'qabA.hY' => [
+          'FaCALY'
         ],
         'qab.hY' => [
           'FaCLY'
@@ -40777,7 +40729,11 @@ $Lexicon = {
         'tqsym   taqosiym        N/At    partition;division;distribution',
         'tqAsym  taqAsiym        Ndip    proportions;features'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'taqAsiym' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -44353,41 +44309,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'q d m s' => [
-    {
-      'types' => {
-        'qadAmiys' => {
-          'Ndip' => 1
-        },
-        'qudmuws' => {
-          'N-ap' => 1
-        }
-      },
-      'entry' => 'qudmuws',
-      'form' => 'qudmuws',
-      'lines' => [
-        ';; qudomuws_1',
-        'qdmws   qudomuws        N-ap    brave;audacious;powerful',
-        'qdAmys  qadAmiys        Ndip    brave;audacious;powerful'
-      ],
-      'patterns' => {
-        'qadAmiys' => [
-          'KaRADIS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDUS',
-      'suffix' => '',
-      'glosses' => [
-        'brave',
-        'audacious',
-        'powerful'
-      ],
-      'orig' => 'qudomuws',
-      'prefix' => ''
-    }
-  ],
   'q _d `' => [
     {
       'types' => {
@@ -44538,6 +44459,41 @@ $Lexicon = {
         'biting'
       ],
       'orig' => 'muqo*iE',
+      'prefix' => ''
+    }
+  ],
+  'q d m s' => [
+    {
+      'types' => {
+        'qadAmiys' => {
+          'Ndip' => 1
+        },
+        'qudmuws' => {
+          'N-ap' => 1
+        }
+      },
+      'entry' => 'qudmuws',
+      'form' => 'qudmuws',
+      'lines' => [
+        ';; qudomuws_1',
+        'qdmws   qudomuws        N-ap    brave;audacious;powerful',
+        'qdAmys  qadAmiys        Ndip    brave;audacious;powerful'
+      ],
+      'patterns' => {
+        'qadAmiys' => [
+          'KaRADIS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDUS',
+      'suffix' => '',
+      'glosses' => [
+        'brave',
+        'audacious',
+        'powerful'
+      ],
+      'orig' => 'qudomuws',
       'prefix' => ''
     }
   ],
@@ -44955,9 +44911,6 @@ $Lexicon = {
         'qa.sAriy' => {
           'N0_Nh' => 1
         },
-        'qa.sAr' => {
-          'NK' => 1
-        },
         'qa.sriyyaT' => {
           'Napdu' => 1
         }
@@ -44971,8 +44924,8 @@ $Lexicon = {
         'qSAr    qaSAr   NK      flower pots;chamber pots'
       ],
       'patterns' => {
-        'qa.sAr' => [
-          'FaCAL'
+        'qa.sAriy' => [
+          'FaCALI'
         ]
       },
       'index' => '1',
@@ -45193,6 +45146,34 @@ $Lexicon = {
         'bleacher\'s trade'
       ],
       'orig' => 'qiSArap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'qu.sArA' => {
+          'Nhy' => 1
+        },
+        'qu.sArY' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'qu.sArY',
+      'form' => 'qu.sArY',
+      'lines' => [
+        ';; quSAraY_1',
+        'qSArY   quSAraY N0      utmost;limit',
+        'qSArA   quSArA  Nhy     utmost;limit'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCALY',
+      'suffix' => '',
+      'glosses' => [
+        'utmost',
+        'limit'
+      ],
+      'orig' => 'quSAraY',
       'prefix' => ''
     },
     {
@@ -47476,6 +47457,9 @@ $Lexicon = {
       'patterns' => {
         '\'aqwAl' => [
           'HaFCAL'
+        ],
+        '\'aqAwiyl' => [
+          'HaFACIL'
         ]
       },
       'index' => '1',
@@ -48686,36 +48670,6 @@ $Lexicon = {
         'tin plated'
       ],
       'orig' => 'muqazodar',
-      'prefix' => ''
-    }
-  ],
-  'qu.sArY' => [
-    {
-      'types' => {
-        'qu.sArA' => {
-          'Nhy' => 1
-        },
-        'qu.sArY' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'qu.sArY',
-      'form' => 'qu.sArY',
-      'lines' => [
-        ';; quSAraY_1',
-        'qSArY   quSAraY N0      utmost;limit',
-        'qSArA   quSArA  Nhy     utmost;limit'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'utmost',
-        'limit'
-      ],
-      'orig' => 'quSAraY',
       'prefix' => ''
     }
   ],
@@ -50023,9 +49977,6 @@ $Lexicon = {
       'types' => {
         'qifiyy' => {
           'N' => 1
-        },
-        '\'aqf' => {
-          'NK' => 2
         },
         'qafaN' => {
           'FW-WaBi' => 1
@@ -53073,9 +53024,6 @@ $Lexicon = {
         'qillAy' => {
           'NapAt' => 1
         },
-        'qalAl' => {
-          'NK' => 1
-        },
         'qilliyyaT' => {
           'NapAt' => 1
         }
@@ -53242,6 +53190,42 @@ $Lexicon = {
         'sea bass'
       ],
       'orig' => 'qAruws',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'qarA.siyA' => {
+          'N0' => 1
+        },
+        'qarA.siy' => {
+          'Nap' => 1
+        },
+        'qarAsiyA' => {
+          'N0' => 1
+        },
+        'qarAsiyaT' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'qarAsiy',
+      'form' => 'qarAsiyaT',
+      'lines' => [
+        ';; qarAsiyap_1',
+        'qrAsy   qarAsiy Nap     prunes;plums',
+        'qrASy   qarASiy Nap     prunes;plums',
+        'qrAsyA  qarAsiyA        N0      prunes;plums',
+        'qrASyA  qarASiyA        N0      prunes;plums'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCALI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'prunes',
+        'plums'
+      ],
+      'orig' => 'qarAsiyap',
       'prefix' => ''
     },
     {
@@ -55731,9 +55715,6 @@ $Lexicon = {
         },
         '\'aqA.hiyy' => {
           'N0_Nh' => 2
-        },
-        '\'aqA.h' => {
-          'NK' => 2
         }
       },
       'entry' => '\'uq.huwAn',
@@ -58153,6 +58134,9 @@ $Lexicon = {
         'qidA.h' => [
           'FiCAL'
         ],
+        '\'aqAdiy.h' => [
+          'HaFACIL'
+        ],
         '\'aqdA.h' => [
           'HaFCAL'
         ]
@@ -59405,7 +59389,11 @@ $Lexicon = {
         'tqyyd   taqoyiyd        N/At    restriction;limitation',
         'tqAyyd  taqAyiyd        Ndip    restrictions;limitations'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'taqAyiyd' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -59753,9 +59741,6 @@ $Lexicon = {
         },
         'maqhY' => {
           'N0' => 1
-        },
-        'maqAh' => {
-          'NK' => 1
         },
         'maqAhiy' => {
           'N0_Nh' => 1
@@ -60571,7 +60556,11 @@ $Lexicon = {
         'tqlyE   taqoliyE        NapAt   eccentricity;innovation',
         'tqAlyE  taqAliyE        Ndip    eccentricities;innovations;rarities'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'taqAliy`' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL |< aT',
@@ -61517,7 +61506,11 @@ $Lexicon = {
         'tqdyr   taqodiyr        NAt     estimates;calculations;appraisals',
         'tqAdyr  taqAdiyr        Ndip    estimates;calculations;appraisals'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'taqAdiyr' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -62578,9 +62571,6 @@ $Lexicon = {
       'types' => {
         'qAniy' => {
           'N0F' => 1
-        },
-        'qAn' => {
-          'NK' => 1
         },
         'qAni\'' => {
           'N-ap' => 1
@@ -63756,9 +63746,6 @@ $Lexicon = {
 $Lexicon->{'q y n n'}[0]{'types'} = $Lexicon->{'q y n'}[0]{'types'};
 $Lexicon->{'q y n n'}[0]{'lines'} = $Lexicon->{'q y n'}[0]{'lines'};
 $Lexicon->{'q y n n'}[0]{'glosses'} = $Lexicon->{'q y n'}[0]{'glosses'};
-$Lexicon->{'q r s y'}[1]{'types'} = $Lexicon->{'q r s y'}[0]{'types'};
-$Lexicon->{'q r s y'}[1]{'lines'} = $Lexicon->{'q r s y'}[0]{'lines'};
-$Lexicon->{'q r s y'}[1]{'glosses'} = $Lexicon->{'q r s y'}[0]{'glosses'};
 $Lexicon->{'q b w'}[5]{'types'} = $Lexicon->{'q b \''}[0]{'types'};
 $Lexicon->{'q b w'}[5]{'lines'} = $Lexicon->{'q b \''}[0]{'lines'};
 $Lexicon->{'q b w'}[5]{'glosses'} = $Lexicon->{'q b \''}[0]{'glosses'};

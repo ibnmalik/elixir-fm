@@ -482,9 +482,6 @@ $Lexicon = {
       'types' => {
         '.daniy' => {
           'N-ap' => 1
-        },
-        '.dan' => {
-          'NK' => 1
         }
       },
       'entry' => '.daniy',
@@ -567,8 +564,7 @@ $Lexicon = {
     {
       'types' => {
         'mu.dn' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mu.dniy' => {
           'N0F_Nh' => 1,
@@ -1387,33 +1383,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ta.dA`iyf' => [
-    {
-      'types' => {
-        'ta.dA`iyf' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'ta.dA`iyf',
-      'form' => 'ta.dA`iyf',
-      'lines' => [
-        ';; taDAEiyf_1',
-        'tDAEyf  taDAEiyf        Ndip    contents;within;contours'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'contents',
-        'within',
-        'contours'
-      ],
-      'orig' => 'taDAEiyf',
-      'prefix' => ''
-    }
-  ],
   '.d _h m' => [
     {
       'types' => {
@@ -2163,229 +2132,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.d w r' => [
-    {
-      'types' => {
-        '.duwr' => {
-          'IV_V' => 1
-        },
-        '.dur' => {
-          'PV_C' => 1,
-          'IV_C' => 1
-        },
-        '.dAr' => {}
-      },
-      'entry' => '.dAr',
-      'form' => '.dAr',
-      'lines' => [
-        ';; DAr-u_1',
-        'DAr     DAr     PV_V    harm;injure',
-        'Dr      Dur     PV_C    harm;injure',
-        'Dwr     Duwr    IV_V    harm;injure',
-        'Dr      Dur     IV_C    harm;injure'
-      ],
-      'patterns' => {
-        '.duwr' => [
-          'FUL'
-        ],
-        '.dur' => [
-          'FuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FAL',
-      'glosses' => [
-        'harm',
-        'injure'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'DAr-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.duwr' => {
-          'IV_V' => 1
-        },
-        '.dur' => {
-          'PV_C' => 1,
-          'IV_C' => 1
-        },
-        '.dAr' => {}
-      },
-      'entry' => '.dAr',
-      'form' => '.dAr',
-      'lines' => [
-        ';; DAr-u_2',
-        'DAr     DAr     PV_V    starve',
-        'Dr      Dur     PV_C    starve',
-        'Dwr     Duwr    IV_V    starve',
-        'Dr      Dur     IV_C    starve'
-      ],
-      'patterns' => {
-        '.duwr' => [
-          'FUL'
-        ],
-        '.dur' => [
-          'FuL'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'verb',
-      'morphs' => 'FAL',
-      'glosses' => [
-        'starve'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'DAr-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.diyr' => {
-          'IV_V' => 1
-        },
-        '.dir' => {
-          'PV_C' => 1,
-          'IV_C' => 1
-        },
-        '.dAr' => {}
-      },
-      'entry' => '.dAr',
-      'form' => '.dAr',
-      'lines' => [
-        ';; DAr-i_1',
-        'DAr     DAr     PV_V    harm;injure',
-        'Dr      Dir     PV_C    harm;injure',
-        'Dyr     Diyr    IV_V    harm;injure',
-        'Dr      Dir     IV_C    harm;injure'
-      ],
-      'patterns' => {
-        '.diyr' => [
-          'FIL'
-        ],
-        '.dir' => [
-          'FiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FAL',
-      'glosses' => [
-        'harm',
-        'injure'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'DAr-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta.dawwar' => {}
-      },
-      'entry' => 'ta.dawwar',
-      'form' => 'ta.dawwar',
-      'lines' => [
-        ';; taDaw~ar_1',
-        'tDwr    taDaw~ar        PV      writhe;wince;starve',
-        'tDwr    taDaw~ar        IV      writhe;wince;starve'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'writhe',
-        'wince',
-        'starve'
-      ],
-      'orig' => 'taDaw~ar',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.dawr' => {
-          'N' => 2
-        }
-      },
-      'entry' => '.dawr',
-      'form' => '.dawr',
-      'lines' => [
-        ';; Dawor_1',
-        'Dwr     Dawor   N       violent hunger',
-        'Dwr     Dawor   N       bulimia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'violent hunger',
-        'bulimia'
-      ],
-      'orig' => 'Dawor',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.dA\'ir' => {
-          'N-ap' => 1
-        }
-      },
-      'entry' => '.dA\'ir',
-      'form' => '.dA\'ir',
-      'lines' => [
-        ';; DA}ir_1',
-        'DA}r    DA}ir   N-ap    harmful;injurious     [[DA}ir/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FA\'iL',
-      'suffix' => '',
-      'glosses' => [
-        'harmful',
-        'injurious'
-      ],
-      'orig' => 'DA}ir',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'muta.dawwir' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'muta.dawwir',
-      'form' => 'muta.dawwir',
-      'lines' => [
-        ';; mutaDaw~ir_1',
-        'mtDwr   mutaDaw~ir      Nall    starving     [[mutaDaw~ir/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MutaFaCCiL',
-      'suffix' => '',
-      'glosses' => [
-        'starving'
-      ],
-      'orig' => 'mutaDaw~ir',
-      'prefix' => ''
-    }
-  ],
   '.d l l' => [
     {
       'types' => {
@@ -2700,6 +2446,253 @@ $Lexicon = {
         'deceptive'
       ],
       'orig' => 'muDil~',
+      'prefix' => ''
+    }
+  ],
+  '.d w r' => [
+    {
+      'types' => {
+        '.dawAriy' => {
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '.dawAriy',
+      'form' => '.dawAriy',
+      'lines' => [
+        ';; DawAriy_1',
+        'DwAry   DawAriy N0_Nh   predatory animals',
+        'DwAr    DawAr   NK      predatory animals'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCALI',
+      'suffix' => '',
+      'glosses' => [
+        'predatory animals'
+      ],
+      'orig' => 'DawAriy',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.duwr' => {
+          'IV_V' => 1
+        },
+        '.dur' => {
+          'PV_C' => 1,
+          'IV_C' => 1
+        },
+        '.dAr' => {}
+      },
+      'entry' => '.dAr',
+      'form' => '.dAr',
+      'lines' => [
+        ';; DAr-u_1',
+        'DAr     DAr     PV_V    harm;injure',
+        'Dr      Dur     PV_C    harm;injure',
+        'Dwr     Duwr    IV_V    harm;injure',
+        'Dr      Dur     IV_C    harm;injure'
+      ],
+      'patterns' => {
+        '.duwr' => [
+          'FUL'
+        ],
+        '.dur' => [
+          'FuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FAL',
+      'glosses' => [
+        'harm',
+        'injure'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'DAr-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.duwr' => {
+          'IV_V' => 1
+        },
+        '.dur' => {
+          'PV_C' => 1,
+          'IV_C' => 1
+        },
+        '.dAr' => {}
+      },
+      'entry' => '.dAr',
+      'form' => '.dAr',
+      'lines' => [
+        ';; DAr-u_2',
+        'DAr     DAr     PV_V    starve',
+        'Dr      Dur     PV_C    starve',
+        'Dwr     Duwr    IV_V    starve',
+        'Dr      Dur     IV_C    starve'
+      ],
+      'patterns' => {
+        '.duwr' => [
+          'FUL'
+        ],
+        '.dur' => [
+          'FuL'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'verb',
+      'morphs' => 'FAL',
+      'glosses' => [
+        'starve'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'DAr-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.diyr' => {
+          'IV_V' => 1
+        },
+        '.dir' => {
+          'PV_C' => 1,
+          'IV_C' => 1
+        },
+        '.dAr' => {}
+      },
+      'entry' => '.dAr',
+      'form' => '.dAr',
+      'lines' => [
+        ';; DAr-i_1',
+        'DAr     DAr     PV_V    harm;injure',
+        'Dr      Dir     PV_C    harm;injure',
+        'Dyr     Diyr    IV_V    harm;injure',
+        'Dr      Dir     IV_C    harm;injure'
+      ],
+      'patterns' => {
+        '.diyr' => [
+          'FIL'
+        ],
+        '.dir' => [
+          'FiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FAL',
+      'glosses' => [
+        'harm',
+        'injure'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'DAr-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta.dawwar' => {}
+      },
+      'entry' => 'ta.dawwar',
+      'form' => 'ta.dawwar',
+      'lines' => [
+        ';; taDaw~ar_1',
+        'tDwr    taDaw~ar        PV      writhe;wince;starve',
+        'tDwr    taDaw~ar        IV      writhe;wince;starve'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'writhe',
+        'wince',
+        'starve'
+      ],
+      'orig' => 'taDaw~ar',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.dawr' => {
+          'N' => 2
+        }
+      },
+      'entry' => '.dawr',
+      'form' => '.dawr',
+      'lines' => [
+        ';; Dawor_1',
+        'Dwr     Dawor   N       violent hunger',
+        'Dwr     Dawor   N       bulimia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'violent hunger',
+        'bulimia'
+      ],
+      'orig' => 'Dawor',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.dA\'ir' => {
+          'N-ap' => 1
+        }
+      },
+      'entry' => '.dA\'ir',
+      'form' => '.dA\'ir',
+      'lines' => [
+        ';; DA}ir_1',
+        'DA}r    DA}ir   N-ap    harmful;injurious     [[DA}ir/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FA\'iL',
+      'suffix' => '',
+      'glosses' => [
+        'harmful',
+        'injurious'
+      ],
+      'orig' => 'DA}ir',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'muta.dawwir' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'muta.dawwir',
+      'form' => 'muta.dawwir',
+      'lines' => [
+        ';; mutaDaw~ir_1',
+        'mtDwr   mutaDaw~ir      Nall    starving     [[mutaDaw~ir/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MutaFaCCiL',
+      'suffix' => '',
+      'glosses' => [
+        'starving'
+      ],
+      'orig' => 'mutaDaw~ir',
       'prefix' => ''
     }
   ],
@@ -3875,29 +3868,16 @@ $Lexicon = {
   ],
   '.d w r y' => [
     {
-      'types' => {
-        '.dawAriy' => {
-          'N0_Nh' => 1
-        },
-        '.dawAr' => {
-          'NK' => 1
-        }
-      },
+      'types' => {},
       'entry' => '.dawAriy',
       'form' => '.dawAriy',
-      'lines' => [
-        ';; DawAriy_1',
-        'DwAry   DawAriy N0_Nh   predatory animals',
-        'DwAr    DawAr   NK      predatory animals'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRADI',
       'suffix' => '',
-      'glosses' => [
-        'predatory animals'
-      ],
+      'glosses' => [],
       'orig' => 'DawAriy',
       'prefix' => ''
     },
@@ -4336,7 +4316,11 @@ $Lexicon = {
         '>DAbyr  >aDAbiyr        Ndip    files;dossiers',
         'ADAbyr  >aDAbiyr        Ndip    files;dossiers'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.dAbiyr' => [
+          'HaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCAL |< aT',
@@ -4591,6 +4575,9 @@ $Lexicon = {
         'tDAmm   taDAmim IV_C    unite;join forces'
       ],
       'patterns' => {
+        'ta.dAmim' => [
+          'TaFACiL'
+        ],
         'ta.dAmam' => [
           'TaFACaL'
         ]
@@ -5978,8 +5965,7 @@ $Lexicon = {
           'NAn_Nayn' => 1
         },
         'mu.dAh' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'mu.dAhiy',
@@ -6382,9 +6368,6 @@ $Lexicon = {
       'types' => {
         '.dA.hiy' => {
           'N0F' => 1
-        },
-        '.dA.h' => {
-          'NK' => 1
         }
       },
       'entry' => '.dA.hiy',
@@ -6412,9 +6395,6 @@ $Lexicon = {
         },
         '.dA.hiyaT' => {
           'Nap' => 1
-        },
-        '.dawA.h' => {
-          'NK' => 1
         }
       },
       'entry' => '.dA.hiy',
@@ -10063,6 +10043,31 @@ $Lexicon = {
     },
     {
       'types' => {
+        'ta.dA`iyf' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'ta.dA`iyf',
+      'form' => 'ta.dA`iyf',
+      'lines' => [
+        ';; taDAEiyf_1',
+        'tDAEyf  taDAEiyf        Ndip    contents;within;contours'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFACIL',
+      'suffix' => '',
+      'glosses' => [
+        'contents',
+        'within',
+        'contours'
+      ],
+      'orig' => 'taDAEiyf',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'mu.dA`afaT' => {
           'NapAt' => 1
         }
@@ -10444,8 +10449,7 @@ $Lexicon = {
           'N0F' => 1
         },
         '.dAf' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => '.dAfiy',
@@ -11757,7 +11761,11 @@ $Lexicon = {
         'tDrys   taDoriys        N/At    topography;indentation',
         'tDArys  taDAriys        Ndip    topography;surface features'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta.dAriys' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -12011,8 +12019,7 @@ $Lexicon = {
           'N0F' => 1
         },
         '.dAw' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => '.dAwiy',
@@ -12045,8 +12052,7 @@ $Lexicon = {
           'NAn_Nayn' => 1
         },
         'mun.daw' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'mun.dawiy',
@@ -13213,7 +13219,11 @@ $Lexicon = {
         'DHy     DaHiy~  Napdu   victim     [[DaHiy~/NOUN]]',
         'DHAyA   DaHAyA  N0_Nhy  victims'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.da.hAyA' => [
+          'FaCAyA'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -13355,8 +13365,7 @@ $Lexicon = {
           'Nap' => 1
         },
         '.dAr' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => '.darAw',
@@ -14253,6 +14262,9 @@ $Lexicon = {
       'patterns' => {
         'ta.dAdad' => [
           'TaFACaL'
+        ],
+        'ta.dAdid' => [
+          'TaFACiL'
         ]
       },
       'index' => '1',
@@ -15393,18 +15405,21 @@ $Lexicon->{'.d y \''}[5]{'glosses'} = $Lexicon->{'.d y \''}[4]{'glosses'};
 $Lexicon->{'.d y \''}[7]{'types'} = $Lexicon->{'.d y \''}[6]{'types'};
 $Lexicon->{'.d y \''}[7]{'lines'} = $Lexicon->{'.d y \''}[6]{'lines'};
 $Lexicon->{'.d y \''}[7]{'glosses'} = $Lexicon->{'.d y \''}[6]{'glosses'};
-$Lexicon->{'.d w r y'}[1]{'types'} = $Lexicon->{'.d w r y'}[0]{'types'};
-$Lexicon->{'.d w r y'}[1]{'lines'} = $Lexicon->{'.d w r y'}[0]{'lines'};
-$Lexicon->{'.d w r y'}[1]{'glosses'} = $Lexicon->{'.d w r y'}[0]{'glosses'};
+$Lexicon->{'.d w r y'}[0]{'types'} = $Lexicon->{'.d w r'}[0]{'types'};
+$Lexicon->{'.d w r y'}[0]{'lines'} = $Lexicon->{'.d w r'}[0]{'lines'};
+$Lexicon->{'.d w r y'}[0]{'glosses'} = $Lexicon->{'.d w r'}[0]{'glosses'};
+$Lexicon->{'.d w r y'}[1]{'types'} = $Lexicon->{'.d w r'}[0]{'types'};
+$Lexicon->{'.d w r y'}[1]{'lines'} = $Lexicon->{'.d w r'}[0]{'lines'};
+$Lexicon->{'.d w r y'}[1]{'glosses'} = $Lexicon->{'.d w r'}[0]{'glosses'};
 $Lexicon->{'.d n \''}[0]{'types'} = $Lexicon->{'.d n y'}[5]{'types'};
 $Lexicon->{'.d n \''}[0]{'lines'} = $Lexicon->{'.d n y'}[5]{'lines'};
 $Lexicon->{'.d n \''}[0]{'glosses'} = $Lexicon->{'.d n y'}[5]{'glosses'};
-$Lexicon->{'.d r y'}[1]{'types'} = $Lexicon->{'.d w r y'}[0]{'types'};
-$Lexicon->{'.d r y'}[1]{'lines'} = $Lexicon->{'.d w r y'}[0]{'lines'};
-$Lexicon->{'.d r y'}[1]{'glosses'} = $Lexicon->{'.d w r y'}[0]{'glosses'};
-$Lexicon->{'.d r y'}[2]{'types'} = $Lexicon->{'.d w r y'}[0]{'types'};
-$Lexicon->{'.d r y'}[2]{'lines'} = $Lexicon->{'.d w r y'}[0]{'lines'};
-$Lexicon->{'.d r y'}[2]{'glosses'} = $Lexicon->{'.d w r y'}[0]{'glosses'};
+$Lexicon->{'.d r y'}[1]{'types'} = $Lexicon->{'.d w r'}[0]{'types'};
+$Lexicon->{'.d r y'}[1]{'lines'} = $Lexicon->{'.d w r'}[0]{'lines'};
+$Lexicon->{'.d r y'}[1]{'glosses'} = $Lexicon->{'.d w r'}[0]{'glosses'};
+$Lexicon->{'.d r y'}[2]{'types'} = $Lexicon->{'.d w r'}[0]{'types'};
+$Lexicon->{'.d r y'}[2]{'lines'} = $Lexicon->{'.d w r'}[0]{'lines'};
+$Lexicon->{'.d r y'}[2]{'glosses'} = $Lexicon->{'.d w r'}[0]{'glosses'};
 $Lexicon->{'.d r y'}[4]{'types'} = $Lexicon->{'.d r y'}[3]{'types'};
 $Lexicon->{'.d r y'}[4]{'lines'} = $Lexicon->{'.d r y'}[3]{'lines'};
 $Lexicon->{'.d r y'}[4]{'glosses'} = $Lexicon->{'.d r y'}[3]{'glosses'};
@@ -15451,9 +15466,9 @@ $Lexicon->{'.d .h y'}[4]{'glosses'} = $Lexicon->{'.d .h w'}[10]{'glosses'};
 $Lexicon->{'.d y `'}[11]{'types'} = $Lexicon->{'.d \' `'}[0]{'types'};
 $Lexicon->{'.d y `'}[11]{'lines'} = $Lexicon->{'.d \' `'}[0]{'lines'};
 $Lexicon->{'.d y `'}[11]{'glosses'} = $Lexicon->{'.d \' `'}[0]{'glosses'};
-$Lexicon->{'.d \' r'}[0]{'types'} = $Lexicon->{'.d w r'}[5]{'types'};
-$Lexicon->{'.d \' r'}[0]{'lines'} = $Lexicon->{'.d w r'}[5]{'lines'};
-$Lexicon->{'.d \' r'}[0]{'glosses'} = $Lexicon->{'.d w r'}[5]{'glosses'};
+$Lexicon->{'.d \' r'}[0]{'types'} = $Lexicon->{'.d w r'}[6]{'types'};
+$Lexicon->{'.d \' r'}[0]{'lines'} = $Lexicon->{'.d w r'}[6]{'lines'};
+$Lexicon->{'.d \' r'}[0]{'glosses'} = $Lexicon->{'.d w r'}[6]{'glosses'};
 $Lexicon->{'.d w \''}[9]{'types'} = $Lexicon->{'.d y \''}[8]{'types'};
 $Lexicon->{'.d w \''}[9]{'lines'} = $Lexicon->{'.d y \''}[8]{'lines'};
 $Lexicon->{'.d w \''}[9]{'glosses'} = $Lexicon->{'.d y \''}[8]{'glosses'};

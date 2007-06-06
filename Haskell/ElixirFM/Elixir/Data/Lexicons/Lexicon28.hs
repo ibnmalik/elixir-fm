@@ -35,9 +35,8 @@ lexicon = listing "Lexicon's properties"
 
     FaL                       `noun`    {- yad -}              [ "hand", "hands" ]
                               `plural`     HaFCI
-                              `plural`     HaFAL
                               `plural`     HaFACI
-                           {- `others`  [ "'aydiy N0_Nh", "'ayAd NK", "'ayAdiy N0_Nh" ] -} ]
+                           {- `others`  [ "'aydiy N0_Nh", "'ayAdiy N0_Nh" ] -} ]
 
  |> "y d y" <| [
 
@@ -182,8 +181,9 @@ lexicon = listing "Lexicon's properties"
  |> "y t m" <| [
 
     FaCIL                     `noun`    {- yatiym -}           [ "orphan", "unique", "orphans" ]
+                              `plural`     FaCALY
                               `plural`     HaFCAL
-                           {- `others`  [ "'aytAm N" ] -} ]
+                           {- `others`  [ "yatAmY N0", "'aytAm N" ] -} ]
 
  |> "y w b l" <| [
 

@@ -9,14 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'amAliyd" <| [
-
-    -- ;; >amAliyd_1
-    -- >mAlyd  >amAliyd        Ndip    tender twigs
-    -- AmAlyd  >amAliyd        Ndip    tender twigs
-
-    Identity                  `noun`    {- OamAliyd -}         [ "tender twigs" ] ]
-
  |> "'um.huw.d" <| [
 
     -- ;; >umoHuwDap_1
@@ -301,9 +293,9 @@ lexicon = listing "Lexicon's properties"
     -- AmAq    |mAq    N       inner corners of the eye
 
     FaCL                      `noun`    {- maOoq -}            [ "inner corner of the eye", "inner corners of the eyes", "inner corners of the eye" ]
-                              `plural`     FaCAL
                               `plural`     FaCLY
-                           {- `others`  [ "ma'Aq NK", "ma'qY N0" ] -},
+                              `plural`     FaCALI
+                           {- `others`  [ "ma'qY N0", "ma'Aqiy N0_Nh" ] -},
 
     -- ;; ma>oqap_1
     -- m>q     ma>oq   Nap     sobbing;sob
@@ -1855,7 +1847,9 @@ lexicon = listing "Lexicon's properties"
     -- mTy     maTiy~  Nap     expedient;instrument
     -- mTAyA   maTAyA  N0_Nhy  expedients;instruments
 
-    FaCIL |< aT               `noun`    {- maTiy~ap -}         [ "expedient", "instrument", "expedients", "instruments" ] ]
+    FaCIL |< aT               `noun`    {- maTiy~ap -}         [ "expedient", "instrument", "expedients", "instruments" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "ma.tAyA N0_Nhy" ] -} ]
 
  |> "m ^g ^g" <| [
 
@@ -3003,7 +2997,9 @@ lexicon = listing "Lexicon's properties"
     -- tmvAl   timovAl Ndu     statue
     -- tmAvyl  tamAviyl        Ndip    statues
 
-    TiFCAL                    `noun`    {- timovAl -}          [ "statue", "statues" ],
+    TiFCAL                    `noun`    {- timovAl -}          [ "statue", "statues" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tamA_tiyl Ndip" ] -},
 
     -- ;; tamoviyl_1
     -- tmvyl   tamoviyl        N/At    representation;acting;exemplification
@@ -3750,6 +3746,13 @@ lexicon = listing "Lexicon's properties"
     -- mstmd   musotamad~      N-ap    taken;derived     [[musotamad~/ADJ]]
 
     MustaFaCL                 `adj`     {- musotamad~ -}       [ "taken", "derived" ] ]
+
+ |> "m d l" <| [
+
+    -- ;; madAliyap_1
+    -- mdAly   madAliy NapAt   medal
+
+    FaCALI |< aT              `noun`    {- madAliyap -}        [ "medal" ] ]
 
  |> "m d l n" <| [
 
@@ -5177,6 +5180,12 @@ lexicon = listing "Lexicon's properties"
     FaCiL                     `verb`    {- malid-a -}          [ "be tender" ]
                               `imperf`     FCaL,
 
+    -- ;; >amAliyd_1
+    -- >mAlyd  >amAliyd        Ndip    tender twigs
+    -- AmAlyd  >amAliyd        Ndip    tender twigs
+
+    HaFACIL                   `noun`    {- OamAliyd -}         [ "tender twigs" ],
+
     -- ;; >amolad_1
     -- >mld    >amolad Nel     tender;flexible
     -- Amld    >amolad Nel     tender;flexible
@@ -5715,6 +5724,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "m l w" <| [
 
+    -- ;; malAwiy_1
+    -- mlAwy   malAwiy N0      Malawi
+
+    FaCALI                    `noun`    {- malAwiy -}          [ "Malawi" ],
+
     -- ;; malA-u_1
     -- mlA     malA    PV_0    walk briskly
     -- mlw     malaw   PV_Atn  walk briskly
@@ -5883,7 +5897,9 @@ lexicon = listing "Lexicon's properties"
     -- mly     maliy~  Napdu   female bedouin dress     [[maliy~/NOUN]]
     -- mlAyA   malAyA  N0_Nhy  female bedouin dresses
 
-    FaCIL |< aT               `noun`    {- maliy~ap -}         [ "female bedouin dress", "female bedouin dresses" ] ]
+    FaCIL |< aT               `noun`    {- maliy~ap -}         [ "female bedouin dress", "female bedouin dresses" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "malAyA N0_Nhy" ] -} ]
 
  |> "m l y n" <| [
 
@@ -6387,7 +6403,9 @@ lexicon = listing "Lexicon's properties"
     -- mny     maniy~  Nap     destiny;fate of death     [[maniy~/NOUN]]
     -- mnAyA   manAyA  N0_Nhy  destiny;fate of death
 
-    FaCIL |< aT               `noun`    {- maniy~ap -}         [ "destiny", "fate of death" ],
+    FaCIL |< aT               `noun`    {- maniy~ap -}         [ "destiny", "fate of death" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "manAyA N0_Nhy" ] -},
 
     -- ;; munoyap_1
     -- mny     munoy   Nap     wish;desire
@@ -6650,8 +6668,9 @@ lexicon = listing "Lexicon's properties"
     -- mrADA   marADA  Nhy     patients;sick people
 
     FaCIL                     `noun`    {- mariyD -}           [ "patient", "sick person", "patients", "sick people" ]
+                              `plural`     FaCALY
                               `plural`     FaCLY
-                           {- `others`  [ "mar.dY N0" ] -},
+                           {- `others`  [ "marA.dY N0", "mar.dY N0" ] -},
 
     -- ;; mimorAD_1
     -- mmrAD   mimorAD N-ap    sickly;in poor health
@@ -6718,7 +6737,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCiL                     `noun`    {- mariH -}            [ "cheerful", "merry" ]
                               `plural`     FaCLY
-                           {- `others`  [ "mar.hY N0" ] -},
+                              `plural`     FaCALY
+                           {- `others`  [ "mar.hY N0", "marA.hY N0" ] -},
 
     -- ;; mirAH_1
     -- mrAH    mirAH   N       exuberance
@@ -7001,7 +7021,9 @@ lexicon = listing "Lexicon's properties"
     -- tmrAd   timorAd N       dovecote
     -- tmAryd  tamAriyd        Ndip    dovecote
 
-    TiFCAL                    `noun`    {- timorAd -}          [ "dovecote" ],
+    TiFCAL                    `noun`    {- timorAd -}          [ "dovecote" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tamAriyd Ndip" ] -},
 
     -- ;; >amorad_1
     -- >mrd    >amorad Nel     beardless
@@ -7183,13 +7205,17 @@ lexicon = listing "Lexicon's properties"
     -- tmryn   tamoriyn        Ndu     exercise;practice;training
     -- tmAryn  tamAriyn        Ndip    exercises;practice;training
 
-    TaFCIL                    `noun`    {- tamoriyn -}         [ "exercise", "practice", "training", "exercises" ],
+    TaFCIL                    `noun`    {- tamoriyn -}         [ "exercise", "practice", "training", "exercises" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tamAriyn Ndip" ] -},
 
     -- ;; tamoriyn_2
     -- tmryn   tamoriyn        NAt     drills;maneuvers;exercises
     -- tmAryn  tamAriyn        Ndip    drills;maneuvers;exercises
 
-    TaFCIL                    `noun`    {- tamoriyn -}         [ "drills", "maneuvers", "exercises" ],
+    TaFCIL                    `noun`    {- tamoriyn -}         [ "drills", "maneuvers", "exercises" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tamAriyn Ndip" ] -},
 
     -- ;; mirAn_1
     -- mrAn    mirAn   N       practice;experience;skill
@@ -9730,6 +9756,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "m y m" <| [
 
+    -- ;; mayAmiy_1
+    -- myAmy   mayAmiy Nprop   Miami
+
+    FaCALI                    `noun`    {- mayAmiy -}          [ "Miami" ],
+
     -- ;; miym_1
     -- mym     miym    NduAt   mim (Arabic letter)
 
@@ -10365,7 +10396,9 @@ lexicon = listing "Lexicon's properties"
     -- mzy     maziy~  Napdu   feature;advantage     [[maziy~/NOUN]]
     -- mzAyA   mazAyA  N0_Nhy  features;advantages
 
-    FaL |< Iy |< aT           `noun`    {- maziy~ap -}         [ "feature", "advantage", "features", "advantages" ] ]
+    FaL |< Iy |< aT           `noun`    {- maziy~ap -}         [ "feature", "advantage", "features", "advantages" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "mazAyA N0_Nhy" ] -} ]
 
  |> "mA" <| [
 

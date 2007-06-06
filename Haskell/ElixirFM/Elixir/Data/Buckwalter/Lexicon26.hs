@@ -2394,7 +2394,9 @@ lexicon = listing "Lexicon's properties"
     -- hdy     hadiy~  Napdu   gift;present     [[hadiy~/NOUN]]
     -- hdAyA   hadAyA  N0_Nhy  gifts;presents
 
-    FaCIL |< aT               `noun`    {- hadiy~ap -}         [ "gift", "present", "gifts", "presents" ],
+    FaCIL |< aT               `noun`    {- hadiy~ap -}         [ "gift", "present", "gifts", "presents" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "hadAyA N0_Nhy" ] -},
 
     -- ;; hidAyap_1
     -- hdAy    hidAy   NapAt   guidance
@@ -3039,7 +3041,9 @@ lexicon = listing "Lexicon's properties"
     -- >hAlyl  >ahAliyl        Ndip    crescents;new moons
     -- AhAlyl  >ahAliyl        Ndip    crescents;new moons
 
-    FiCAL                     `noun`    {- hilAl -}            [ "crescent", "new moon", "crescents", "new moons" ],
+    FiCAL                     `noun`    {- hilAl -}            [ "crescent", "new moon", "crescents", "new moons" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'ahAliyl Ndip" ] -},
 
     -- ;; hilAl_2
     -- hlAl    hilAl   N0      Crescent
@@ -3834,7 +3838,8 @@ lexicon = listing "Lexicon's properties"
 
     TaFCiL |< aT              `noun`    {- tahoni}ap -}        [ "congratulations", "greetings" ]
                               `plural`     TaFACI
-                           {- `others`  [ "tahAniy N0_Nh" ] -},
+                              `plural`     TaFACiL
+                           {- `others`  [ "tahAniy N0_Nh", "tahAni' Ndip" ] -},
 
     -- ;; hAni}_1
     -- hAn}    hAni}   Nall    delighted;glad     [[hAni}/ADJ]]
@@ -4589,7 +4594,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; hurayorap_1
     -- hryr    hurayor Napdu   kitten
 
-    FuCayL |< aT              `noun`    {- hurayorap -}        [ "kitten" ] ]
+    FuCayL |< aT              `noun`    {- hurayorap -}        [ "kitten" ],
+
+    -- ;; harAriy_1
+    -- hrAry   harAriy Nprop   Harare
+
+    FaCALI                    `noun`    {- harAriy -}          [ "Harare" ] ]
 
  |> "h r s" <| [
 
@@ -4659,6 +4669,11 @@ lexicon = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- hirAwap -}          [ "stick", "baton", "truncheon", "sticks", "batons", "truncheons" ]
                               `plural`     FiCAL |< At,
 
+    -- ;; harAwiy_1
+    -- hrAwy   harAwiy N0      Hrawi
+
+    FaCALI                    `noun`    {- harAwiy -}          [ "Hrawi" ],
+
     -- ;; harAp_1
     -- hrA     harA    Nap     Herat (Afgh.)
 
@@ -4686,18 +4701,6 @@ lexicon = listing "Lexicon's properties"
     -- mhrwl   muharowil       Nall    hurrying;in a hurry     [[muharowil/ADJ]]
 
     MuKaRDiS                  `adj`     {- muharowil -}        [ "hurrying", "in a hurry" ] ]
-
- |> "h r w y" <| [
-
-    -- ;; harAwiy_1
-    -- hrAwy   harAwiy N0      Hrawi
-
-    KaRADI                    `noun`    {- harAwiy -}          [ "Hrawi" ],
-
-    -- ;; harAwiy_1
-    -- hrAwy   harAwiy N0      Hrawi
-
-    KaRADI                    `noun`    {- harAwiy -}          [ "Hrawi" ] ]
 
  |> "h r y" <| [
 
@@ -5404,7 +5407,9 @@ lexicon = listing "Lexicon's properties"
     -- thwyl   tahowiyl        N/At    intimidation;frightening
     -- thAwyl  tahAwiyl        Ndip    intimidation;embellishments
 
-    TaFCIL                    `noun`    {- tahowiyl -}         [ "intimidation", "frightening", "embellishments" ],
+    TaFCIL                    `noun`    {- tahowiyl -}         [ "intimidation", "frightening", "embellishments" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tahAwiyl Ndip" ] -},
 
     -- ;; hA}il_1
     -- hA}l    hA}il   N-ap    huge;formidable;appalling     [[hA}il/ADJ]]
@@ -5934,9 +5939,10 @@ lexicon = listing "Lexicon's properties"
     -- hwAyA   hawAyA  N0_Nhy  desires;wishes;inclinations
 
     FaCY                      `noun`    {- hawaY -}            [ "affection", "inclination", "preference", "desires", "wishes", "inclinations" ]
+                              `plural`     FaCAyA
                               `plural`     FaCA
                               `plural`     HaFCA'
-                           {- `others`  [ "hawA Nhy", "'ahwA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "hawAyA N0_Nhy", "hawA Nhy", "'ahwA' Nh N0_Nh Nhy" ] -},
 
     -- ;; hawA'_1
     -- hwA'    hawA'   N0_Nh   air;atmosphere;climate

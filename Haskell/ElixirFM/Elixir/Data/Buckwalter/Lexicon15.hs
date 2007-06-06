@@ -556,7 +556,9 @@ lexicon = listing "Lexicon's properties"
     -- DHy     DaHiy~  Napdu   victim     [[DaHiy~/NOUN]]
     -- DHAyA   DaHAyA  N0_Nhy  victims
 
-    FaCIL |< aT               `noun`    {- DaHiy~ap -}         [ "victim", "victims" ],
+    FaCIL |< aT               `noun`    {- DaHiy~ap -}         [ "victim", "victims" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ ".da.hAyA N0_Nhy" ] -},
 
     -- ;; taDoHiy_1
     -- tDHy    taDoHiy NapAt   sacrifice;immolation
@@ -977,6 +979,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At
                            {- `others`  [ "'a.d`Af N" ] -},
 
+    -- ;; taDAEiyf_1
+    -- tDAEyf  taDAEiyf        Ndip    contents;within;contours
+
+    TaFACIL                   `noun`    {- taDAEiyf -}         [ "contents", "within", "contours" ],
+
     -- ;; muDAEafap_1
     -- mDAEf   muDAEaf NapAt   doubling;compounding
 
@@ -1218,7 +1225,9 @@ lexicon = listing "Lexicon's properties"
     -- >DAbyr  >aDAbiyr        Ndip    files;dossiers
     -- ADAbyr  >aDAbiyr        Ndip    files;dossiers
 
-    HiFCAL |< aT              `noun`    {- IiDobArap -}        [ "file", "dossier", "files", "dossiers" ],
+    HiFCAL |< aT              `noun`    {- IiDobArap -}        [ "file", "dossier", "files", "dossiers" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a.dAbiyr Ndip" ] -},
 
     -- ;; <iDobAriy~_1
     -- <DbAry  <iDobAriy~      Nall    bureaucrat;archivist
@@ -2882,7 +2891,9 @@ lexicon = listing "Lexicon's properties"
     -- tDrys   taDoriys        N/At    topography;indentation
     -- tDArys  taDAriys        Ndip    topography;surface features
 
-    TaFCIL                    `noun`    {- taDoriys -}         [ "topography", "indentation", "surface features" ] ]
+    TaFCIL                    `noun`    {- taDoriys -}         [ "topography", "indentation", "surface features" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.dAriys Ndip" ] -} ]
 
  |> ".d r w" <| [
 
@@ -3127,6 +3138,12 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- DawoE -}            [ "fragrance" ] ]
 
  |> ".d w r" <| [
+
+    -- ;; DawAriy_1
+    -- DwAry   DawAriy N0_Nh   predatory animals
+    -- DwAr    DawAr   NK      predatory animals
+
+    FaCALI                    `noun`    {- DawAriy -}          [ "predatory animals" ],
 
     -- ;; DAr-u_1
     -- DAr     DAr     PV_V    harm;injure
@@ -3723,11 +3740,4 @@ lexicon = listing "Lexicon's properties"
     -- mtDAd   mutaDAd~        N-ap    opposing;contrary;antagonistic     [[mutaDAd~/ADJ]]
 
     Identity                  `adj`     {- mutaDAd~ -}         [ "opposing", "contrary", "antagonistic" ] ]
-
- |> "ta.dA`iyf" <| [
-
-    -- ;; taDAEiyf_1
-    -- tDAEyf  taDAEiyf        Ndip    contents;within;contours
-
-    Identity                  `noun`    {- taDAEiyf -}         [ "contents", "within", "contours" ] ]
 

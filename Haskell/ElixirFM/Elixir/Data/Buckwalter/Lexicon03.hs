@@ -1040,13 +1040,17 @@ lexicon = listing "Lexicon's properties"
     -- tky     takiy~  Napdu   monastery;hospice     [[takiy~/NOUN]]
     -- tkAyA   takAyA  N0_Nhy  monasteries;hospices
 
-    FaL |< Iy |< aT           `noun`    {- takiy~ap -}         [ "monastery", "hospice", "monasteries", "hospices" ],
+    FaL |< Iy |< aT           `noun`    {- takiy~ap -}         [ "monastery", "hospice", "monasteries", "hospices" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "takAyA N0_Nhy" ] -},
 
     -- ;; takiy~ap_2
     -- tky     takiy~  Napdu   asylum     [[takiy~/NOUN]]
     -- tkAyA   takAyA  N0_Nhy  asylums
 
-    FaL |< Iy |< aT           `noun`    {- takiy~ap -}         [ "asylum", "asylums" ] ]
+    FaL |< Iy |< aT           `noun`    {- takiy~ap -}         [ "asylum", "asylums" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "takAyA N0_Nhy" ] -} ]
 
  |> "t k n k" <| [
 

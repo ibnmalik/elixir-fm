@@ -398,7 +398,9 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `verb`    {- OawoSaY -}          [ "recommend", "advise", "prescribe", "be recommended", "be advised", "be prescribed" ],
 
-    FaCIL |< aT               `noun`    {- waSiy~ap -}         [ "advice" ],
+    FaCIL |< aT               `noun`    {- waSiy~ap -}         [ "advice" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "wa.sAyA N0_Nhy" ] -},
 
     FaCIL |< aT               `noun`    {- waSiy~ap -}         [ "legal will", "testament" ],
 

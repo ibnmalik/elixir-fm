@@ -314,9 +314,10 @@ lexicon = listing "Lexicon's properties"
     -- gDAbA   gaDAbA  Nhy     angry;infuriated
 
     FaCLAn                    `adj`     {- gaDobAn -}          [ "angry", "infuriated" ]
+                              `plural`     FaCALY
                               `plural`     FiCAL
                               `plural`     FaCLY
-                           {- `others`  [ ".gi.dAb N", ".ga.dbY N0" ] -},
+                           {- `others`  [ ".ga.dAbY N0", ".gi.dAb N", ".ga.dbY N0" ] -},
 
     -- ;; <igoDAb_1
     -- <gDAb   <igoDAb N/At    irritation;angering
@@ -480,6 +481,16 @@ lexicon = listing "Lexicon's properties"
     -- AgDA'   <igoDA' NAt     disregarding;ignoring;overlooking
 
     HiFCA'                    `noun`    {- IigoDA' -}          [ "disregarding", "ignoring", "overlooking" ],
+
+    -- ;; tagADiy_1
+    -- tgADy   tagADiy N0_Nh   indifference;condoning
+    -- tgAD    tagAD   NK      indifference;condoning
+    -- tgADy   tagADiy NAn_Nayn        indifference;condoning
+    -- tgADy   tagADiy NAt     indifference;condoning
+
+    TaFACI                    `noun`    {- tagADiy -}          [ "indifference", "condoning" ] ]
+
+ |> ".g .d y" <| [
 
     -- ;; tagADiy_1
     -- tgADy   tagADiy N0_Nh   indifference;condoning
@@ -2224,7 +2235,9 @@ lexicon = listing "Lexicon's properties"
     -- gdy     gadiy~  Nap     morning     [[gadiy~/NOUN]]
     -- gdAyA   gadAyA  N0_Nhy  mornings
 
-    FaCIL |< aT               `noun`    {- gadiy~ap -}         [ "morning", "mornings" ],
+    FaCIL |< aT               `noun`    {- gadiy~ap -}         [ "morning", "mornings" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ ".gadAyA N0_Nhy" ] -},
 
     -- ;; gAdiy_1
     -- gAdy    gAdiy   N0F     coming
@@ -4858,7 +4871,9 @@ lexicon = listing "Lexicon's properties"
     -- >gAryD  >agAriyD        Ndip    fresh;tender
     -- AgAryD  >agAriyD        Ndip    fresh;tender
 
-    FaCIL                     `adj`     {- gariyD -}           [ "fresh", "tender" ],
+    FaCIL                     `adj`     {- gariyD -}           [ "fresh", "tender" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a.gAriy.d Ndip" ] -},
 
     -- ;; tagar~uD_1
     -- tgrD    tagar~uD        N/At    bias;prejudice
@@ -5210,7 +5225,9 @@ lexicon = listing "Lexicon's properties"
     -- tgryd   tagoriyd        N/At    twittering;warbling
     -- tgAryd  tagAriyd        Ndip    twittering;warbling
 
-    TaFCIL                    `noun`    {- tagoriyd -}         [ "twittering", "warbling" ],
+    TaFCIL                    `noun`    {- tagoriyd -}         [ "twittering", "warbling" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.gAriyd Ndip" ] -},
 
     -- ;; tagoriyd_2
     -- tgryd   tagoriyd        N0      Taghreed;Taghrid
@@ -6861,6 +6878,12 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g w z" <| [
 
+    -- ;; gawAziy_1
+    -- gwAzy   gawAziy N0_Nh   women dancers
+    -- gwAz    gawAz   NK      women dancers
+
+    FaCALI                    `noun`    {- gawAziy -}          [ "women dancers" ],
+
     -- ;; gaw~az_1
     -- gwz     gaw~az  PV      gasify
     -- gwz     gaw~iz  IV_yu   gasify
@@ -7559,7 +7582,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCLAn                    `adj`     {- gayorAn -}          [ "jealous" ]
                               `plural`     FaCLY
-                           {- `others`  [ ".gayrY N0" ] -},
+                              `plural`     FaCALY
+                           {- `others`  [ ".gayrY N0", ".gayArY N0" ] -},
 
     -- ;; tagoyiyr_1
     -- tgyyr   tagoyiyr        N/At    change;modification;replacement
@@ -7570,7 +7594,9 @@ lexicon = listing "Lexicon's properties"
     -- tgyyr   tagoyiyr        Nap     exchange;interchange
     -- tgAyyr  tagAyiyr        Ndip    exchange;interchange
 
-    TaFCIL |< aT              `noun`    {- tagoyiyrap -}       [ "exchange", "interchange" ],
+    TaFCIL |< aT              `noun`    {- tagoyiyrap -}       [ "exchange", "interchange" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.gAyiyr Ndip" ] -},
 
     -- ;; tagay~ur_1
     -- tgyr    tagay~ur        N/At    transformation;change;variation

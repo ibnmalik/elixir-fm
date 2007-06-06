@@ -956,7 +956,11 @@ $Lexicon = {
         'tjwyf   tajowiyf        NduAt   cavity',
         'tjAwyf  tajAwiyf        Ndip    cavities'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta^gAwiyf' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -1393,7 +1397,11 @@ $Lexicon = {
         'tjryd   tajoriyd        NapAt   military detachment;expeditionary force',
         'tjAryd  tajAriyd        Ndip    military detachments;expeditionary forces'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta^gAriyd' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL |< aT',
@@ -1891,8 +1899,7 @@ $Lexicon = {
     {
       'types' => {
         '^gA\'' => {
-          'Nuwn_Niyn' => 2,
-          'NK' => 1
+          'Nuwn_Niyn' => 2
         },
         '^gA\'iy' => {
           'NapAt' => 1,
@@ -2368,9 +2375,6 @@ $Lexicon = {
         'ma^gAniy' => {
           'N0_Nh' => 1
         },
-        'ma^gAn' => {
-          'NK' => 1
-        },
         'ma^gnA' => {
           'Nhy' => 1
         }
@@ -2408,9 +2412,6 @@ $Lexicon = {
           'NAt' => 1,
           'NAn_Nayn' => 1,
           'N0_Nh' => 1
-        },
-        'ta^gann' => {
-          'NK' => 1
         }
       },
       'entry' => 'ta^ganniy',
@@ -2444,8 +2445,7 @@ $Lexicon = {
           'N0F' => 1
         },
         '^gAn' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => '^gAniy',
@@ -4944,7 +4944,11 @@ $Lexicon = {
         'tjfAf   tijofAf Ndu     protective armor',
         'tjAfyf  tajAfiyf        Ndip    protective armor'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta^gAfiyf' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TiFCAL',
@@ -7900,6 +7904,9 @@ $Lexicon = {
         'tjAll   tajAlil IV_C_intr       be superior'
       ],
       'patterns' => {
+        'ta^gAlil' => [
+          'TaFACiL'
+        ],
         'ta^gAlal' => [
           'TaFACaL'
         ]
@@ -9541,31 +9548,6 @@ $Lexicon = {
         'madmen'
       ],
       'orig' => 'majonuwn',
-      'prefix' => ''
-    }
-  ],
-  'ta^gA`iyd' => [
-    {
-      'types' => {
-        'ta^gA`iyd' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'ta^gA`iyd',
-      'form' => 'ta^gA`iyd',
-      'lines' => [
-        ';; tajAEiyd_1',
-        'tjAEyd  tajAEiyd        Ndip    wrinkles'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'wrinkles'
-      ],
-      'orig' => 'tajAEiyd',
       'prefix' => ''
     }
   ],
@@ -14803,6 +14785,9 @@ $Lexicon = {
         'AjAwyd  >ajAwiyd        Ndip    better/best;more/most generous'
       ],
       'patterns' => {
+        '\'a^gAwiyd' => [
+          'HaFACIL'
+        ],
         '^gawdA\'' => [
           'FaCLA\''
         ]
@@ -17104,7 +17089,11 @@ $Lexicon = {
         'jly     jaliy~  Nap     sure thing;plain fact     [[jaliy~/NOUN]]',
         'jlAyA   jalAyA  N0_Nhy  sure things;plain facts'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '^galAyA' => [
+          'FaCAyA'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -17144,9 +17133,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ma^gAl' => {
-          'NK' => 1
-        },
         'ma^gAliy' => {
           'N0_Nh' => 1
         }
@@ -17198,9 +17184,6 @@ $Lexicon = {
         '^gAliyaT' => {
           'NapAt' => 1
         },
-        '^gawAl' => {
-          'NK' => 1
-        },
         '^gawAliy' => {
           'N0_Nh' => 1
         }
@@ -17234,8 +17217,7 @@ $Lexicon = {
     {
       'types' => {
         'mu^gall' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mu^galliy' => {
           'N0F_Nh' => 1,
@@ -17268,8 +17250,7 @@ $Lexicon = {
     {
       'types' => {
         'muta^gall' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'muta^galliy' => {
           'N0F_Nh' => 1,
@@ -19306,7 +19287,11 @@ $Lexicon = {
         'tjrb    tajorib Napdu   experience;experiment',
         'tjArb   tajArib Ndip    experiences;experiments'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta^gArib' => [
+          'TaFACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCiL |< aT',
@@ -19872,9 +19857,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ma^gAr' => {
-          'NK' => 1
-        },
         'ma^gray' => {
           'NAn_Nayn' => 1
         },
@@ -20135,8 +20117,7 @@ $Lexicon = {
     {
       'types' => {
         '^gAr' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         '^gAriy' => {
           'NapAt' => 1,
@@ -20184,9 +20165,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '^gawAr' => {
-          'NK' => 1
-        },
         '^gawAriy' => {
           'N0_Nh' => 1
         },
@@ -21821,9 +21799,6 @@ $Lexicon = {
       'types' => {
         'mu^gAziy' => {
           'N0F_Nh' => 1
-        },
-        'mu^gAz' => {
-          'NK' => 1
         }
       },
       'entry' => 'mu^gAziy',
@@ -23342,9 +23317,6 @@ $Lexicon = {
         'ma^gAbiy' => {
           'N0_Nh' => 1
         },
-        'ma^gAb' => {
-          'NK' => 1
-        },
         'ma^gbY' => {
           'N0' => 1
         },
@@ -23387,8 +23359,7 @@ $Lexicon = {
     {
       'types' => {
         '^gAb' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         '^gAbiy' => {
           'NapAt' => 1,
@@ -23448,9 +23419,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '^gawAb' => {
-          'NK' => 1
-        },
         '^gawAbiy' => {
           'N0_Nh' => 1
         },
@@ -26140,8 +26108,7 @@ $Lexicon = {
           'N0F' => 1
         },
         '^gA_t' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => '^gA_tiy',
@@ -27418,6 +27385,34 @@ $Lexicon = {
         'Jumad'
       ],
       'orig' => 'jumAd',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '^gumAday' => {
+          'NAt' => 1
+        },
+        '^gumAdY' => {
+          'N0' => 1
+        }
+      },
+      'entry' => '^gumAdY',
+      'form' => '^gumAdY',
+      'lines' => [
+        ';; jumAdaY_1',
+        'jmAdY   jumAdaY N0      Jumada (part of 5th and 6th month names in Islamic calendar)',
+        'jmAdy   jumAday NAt     Jumadas  (5th and 6th months in Islamic calendar)'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCALY',
+      'suffix' => '',
+      'glosses' => [
+        'Jumada (part of 5th and 6th month names in Islamic calendar)',
+        'Jumadas  (5th and 6th months in Islamic calendar)'
+      ],
+      'orig' => 'jumAdaY',
       'prefix' => ''
     },
     {
@@ -28922,35 +28917,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^g n b n' => [
-    {
-      'types' => {
-        '^gambuwn' => {
-          'N' => 1
-        },
-        '^ganbuwn' => {
-          'N' => 1
-        }
-      },
-      'entry' => '^ganbuwn',
-      'form' => '^ganbuwn',
-      'lines' => [
-        ';; janobuwn_1',
-        'jnbwn   janobuwn        N       ham (Fr. jambon)',
-        'jmbwn   jamobuwn        N       ham (Fr. jambon)'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDUS',
-      'suffix' => '',
-      'glosses' => [
-        'ham (Fr. jambon)'
-      ],
-      'orig' => 'janobuwn',
-      'prefix' => ''
-    }
-  ],
   '^g b l' => [
     {
       'types' => {
@@ -29241,6 +29207,35 @@ $Lexicon = {
         'ponytails'
       ],
       'orig' => 'jurozap',
+      'prefix' => ''
+    }
+  ],
+  '^g n b n' => [
+    {
+      'types' => {
+        '^gambuwn' => {
+          'N' => 1
+        },
+        '^ganbuwn' => {
+          'N' => 1
+        }
+      },
+      'entry' => '^ganbuwn',
+      'form' => '^ganbuwn',
+      'lines' => [
+        ';; janobuwn_1',
+        'jnbwn   janobuwn        N       ham (Fr. jambon)',
+        'jmbwn   jamobuwn        N       ham (Fr. jambon)'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDUS',
+      'suffix' => '',
+      'glosses' => [
+        'ham (Fr. jambon)'
+      ],
+      'orig' => 'janobuwn',
       'prefix' => ''
     }
   ],
@@ -31958,9 +31953,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ta^gall' => {
-          'NK' => 1
-        },
         'ta^galliy' => {
           'NAt' => 1,
           'NAn_Nayn' => 1,
@@ -32553,8 +32545,7 @@ $Lexicon = {
     {
       'types' => {
         'mu^gd' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mu^gdiy' => {
           'N0F_Nh' => 1,
@@ -35941,54 +35932,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^gunblA.t' => [
-    {
-      'types' => {
-        '^gunblA.t' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => '^gunblA.t',
-      'form' => '^gunblA.t',
-      'lines' => [
-        ';; junoblAT_1',
-        'jnblAT  junoblAT        Nprop   Jumblatt'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Jumblatt'
-      ],
-      'orig' => 'junoblAT',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '^gunblA.tiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => '^gunblA.t',
-      'form' => '^gunblA.tiyy',
-      'lines' => [
-        ';; junoblATiy~_1',
-        'jnblATy junoblATiy~     Nall    Jumblattist     [[junoblATiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Jumblattist'
-      ],
-      'orig' => 'junoblATiy~',
-      'prefix' => ''
-    }
-  ],
   '^g b h' => [
     {
       'types' => {
@@ -36267,6 +36210,54 @@ $Lexicon = {
       'suffix' => ' |< aT',
       'glosses' => [],
       'orig' => 'jA}izap',
+      'prefix' => ''
+    }
+  ],
+  '^gunblA.t' => [
+    {
+      'types' => {
+        '^gunblA.t' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => '^gunblA.t',
+      'form' => '^gunblA.t',
+      'lines' => [
+        ';; junoblAT_1',
+        'jnblAT  junoblAT        Nprop   Jumblatt'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Jumblatt'
+      ],
+      'orig' => 'junoblAT',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '^gunblA.tiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => '^gunblA.t',
+      'form' => '^gunblA.tiyy',
+      'lines' => [
+        ';; junoblATiy~_1',
+        'jnblATy junoblATiy~     Nall    Jumblattist     [[junoblATiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Jumblattist'
+      ],
+      'orig' => 'junoblATiy~',
       'prefix' => ''
     }
   ],
@@ -41223,36 +41214,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^gumAdY' => [
-    {
-      'types' => {
-        '^gumAday' => {
-          'NAt' => 1
-        },
-        '^gumAdY' => {
-          'N0' => 1
-        }
-      },
-      'entry' => '^gumAdY',
-      'form' => '^gumAdY',
-      'lines' => [
-        ';; jumAdaY_1',
-        'jmAdY   jumAdaY N0      Jumada (part of 5th and 6th month names in Islamic calendar)',
-        'jmAdy   jumAday NAt     Jumadas  (5th and 6th months in Islamic calendar)'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Jumada (part of 5th and 6th month names in Islamic calendar)',
-        'Jumadas  (5th and 6th months in Islamic calendar)'
-      ],
-      'orig' => 'jumAdaY',
-      'prefix' => ''
-    }
-  ],
   '^guwfAniy' => [
     {
       'types' => {
@@ -41984,6 +41945,29 @@ $Lexicon = {
         'bum'
       ],
       'orig' => 'jaEiydiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta^gA`iyd' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'ta^gA`iyd',
+      'form' => 'ta^gA`iyd',
+      'lines' => [
+        ';; tajAEiyd_1',
+        'tjAEyd  tajAEiyd        Ndip    wrinkles'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFACIL',
+      'suffix' => '',
+      'glosses' => [
+        'wrinkles'
+      ],
+      'orig' => 'tajAEiyd',
       'prefix' => ''
     },
     {
@@ -43287,8 +43271,7 @@ $Lexicon = {
           'Nap' => 1
         },
         '^gAf' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         '^gAfiy' => {
           'NapAt' => 1,

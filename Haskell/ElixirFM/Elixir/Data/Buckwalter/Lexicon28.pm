@@ -3492,6 +3492,9 @@ $Lexicon = {
       'patterns' => {
         'yaq.zY' => [
           'FaCLY'
+        ],
+        'yaqA.zY' => [
+          'FaCALY'
         ]
       },
       'index' => '1',
@@ -4821,6 +4824,9 @@ $Lexicon = {
         'ytAmA   yatAmA  Nhy     orphans;unique'
       ],
       'patterns' => {
+        'yatAmY' => [
+          'FaCALY'
+        ],
         '\'aytAm' => [
           'HaFCAL'
         ]
@@ -5668,14 +5674,8 @@ $Lexicon = {
   'y d d' => [
     {
       'types' => {
-        '\'ayd' => {
-          'NK' => 2
-        },
         '\'aydiy' => {
           'N0_Nh' => 2
-        },
-        '\'ayAd' => {
-          'NK' => 2
         },
         'yad' => {
           'Ndu' => 1
@@ -5701,9 +5701,6 @@ $Lexicon = {
       'patterns' => {
         '\'aydiy' => [
           'HaFCI'
-        ],
-        '\'ayAd' => [
-          'HaFAL'
         ],
         '\'ayAdiy' => [
           'HaFACI'

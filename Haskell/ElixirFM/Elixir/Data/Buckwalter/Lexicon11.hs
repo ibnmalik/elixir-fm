@@ -1412,8 +1412,8 @@ lexicon = listing "Lexicon's properties"
     -- zbAd    zabAd   NK      bowls
 
     FaCL |< Iy |< aT          `noun`    {- zabodiy~ap -}       [ "bowl", "bowls" ]
-                              `plural`     FaCAL
-                           {- `others`  [ "zabAd NK" ] -},
+                              `plural`     FaCALI
+                           {- `others`  [ "zabAdiy N0_Nh" ] -},
 
     -- ;; zubayod_1
     -- zbyd    zubayod N0      Zubaid;Zubeid
@@ -1514,19 +1514,18 @@ lexicon = listing "Lexicon's properties"
     -- ;; zibAnap_1
     -- zbAn    zibAn   Nap     clientele
 
-    FiCAL |< aT               `noun`    {- zibAnap -}          [ "clientele" ] ]
+    FiCAL |< aT               `noun`    {- zibAnap -}          [ "clientele" ],
 
- |> "z b n y" <| [
+    -- ;; zubAnaY_1
+    -- zbAnY   zubAnaY N0      claw
+    -- zbAnA   zubAnA  Nhy     claw
+
+    FuCALY                    `noun`    {- zubAnaY -}          [ "claw" ],
 
     -- ;; zabAniyap_1
     -- zbAny   zabAniy Nap     myrmidons
 
-    KaRADI |< aT              `noun`    {- zabAniyap -}        [ "myrmidons" ],
-
-    -- ;; zabAniyap_1
-    -- zbAny   zabAniy Nap     myrmidons
-
-    KaRADI |< aT              `noun`    {- zabAniyap -}        [ "myrmidons" ] ]
+    FaCALI |< aT              `noun`    {- zabAniyap -}        [ "myrmidons" ] ]
 
  |> "z b q" <| [
 
@@ -3984,7 +3983,9 @@ lexicon = listing "Lexicon's properties"
     -- zrAfY   zarAfY  N0      giraffes
     -- zrAfA   zarAfA  Nhy     giraffes
 
-    FaCAL |< aT               `noun`    {- zarAfap -}          [ "giraffe", "giraffes" ] ]
+    FaCAL |< aT               `noun`    {- zarAfap -}          [ "giraffe", "giraffes" ]
+                              `plural`     FaCALY
+                           {- `others`  [ "zarAfY N0" ] -} ]
 
  |> "z r h n" <| [
 
@@ -4991,7 +4992,9 @@ lexicon = listing "Lexicon's properties"
     -- zAwy    zAwiy   NapAt   corner;nook;angle
     -- zwAyA   zawAyA  N0_Nhy  corners;nooks;angles
 
-    FACI |< aT                `noun`    {- zAwiyap -}          [ "corner", "nook", "angle", "corners", "nooks", "angles" ],
+    FACI |< aT                `noun`    {- zAwiyap -}          [ "corner", "nook", "angle", "corners", "nooks", "angles" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "zawAyA N0_Nhy" ] -},
 
     -- ;; mazowiy~_1
     -- mzwy    mazowiy~        N-ap    corner;cornered     [[mazowiy~/ADJ]]
@@ -5899,14 +5902,6 @@ lexicon = listing "Lexicon's properties"
     -- zgT     zuguT~  NapAt   hiccup
 
     Identity |< aT            `noun`    {- zuguT~ap -}         [ "hiccup" ] ]
-
- |> "zubAnY" <| [
-
-    -- ;; zubAnaY_1
-    -- zbAnY   zubAnaY N0      claw
-    -- zbAnA   zubAnA  Nhy     claw
-
-    Identity                  `noun`    {- zubAnaY -}          [ "claw" ] ]
 
  |> "zuhA'a" <| [
 

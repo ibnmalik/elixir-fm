@@ -542,8 +542,8 @@ lexicon = listing "Lexicon's properties"
     TaFaCCaL                  `verb`    {- taOah~al -}         [ "be qualified", "merit" ],
 
     FaCL                      `noun`    {- Oahol -}            [ "family", "people", "families", "folk", "indigenous people" ]
-                              `plural`     FaCAL
-                           {- `others`  [ "'ahAl NK" ] -},
+                              `plural`     FaCALI
+                           {- `others`  [ "'ahAliy N0_Nh" ] -},
 
     FaCL                      `noun`    {- Oahol -}            [ "qualified" ],
 
@@ -963,7 +963,9 @@ lexicon = listing "Lexicon's properties"
 
     FuCLY                     `noun`    {- OunovaY -}          [ "female", "feminine", "females" ],
 
-    FiCAL                     `noun`    {- IinAv -}            [ "females" ],
+    FiCAL                     `noun`    {- IinAv -}            [ "females" ]
+                              `plural`     FaCALY
+                           {- `others`  [ "'anA_tY N0" ] -},
 
     FuCLY |< Iy               `adj`     {- Ounovawiy~ -}       [ "feminine" ] ]
 
@@ -1089,8 +1091,8 @@ lexicon = listing "Lexicon's properties"
  |> "' r .d" <| [
 
     FaCL                      `noun`    {- OaroD -}            [ "earth", "territory", "territories", "land" ]
-                              `plural`     FaCAL
-                           {- `others`  [ "'arA.d NK" ] -} ]
+                              `plural`     FaCALI
+                           {- `others`  [ "'arA.diy N0_Nh" ] -} ]
 
  |> "' r .d y" <| [
 
@@ -1248,9 +1250,10 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "'usar N" ] -},
 
     FaCIL                     `noun`    {- Oasiyr -}           [ "prisoner", "captive", "prisoners", "captives" ]
+                              `plural`     FaCALY
                               `plural`     FuCaLA'
                               `plural`     FaCLY
-                           {- `others`  [ "'usarA' Nh N0_Nh Nhy", "'asrY N0" ] -} ]
+                           {- `others`  [ "'asArY N0", "'usarA' Nh N0_Nh Nhy", "'asrY N0" ] -} ]
 
  |> "' s s" <| [
 
@@ -1334,6 +1337,10 @@ lexicon = listing "Lexicon's properties"
  |> "' s y n" <| [
 
     KaRDAS                    `noun`    {- OasoyAn -}          [ "afflicted", "desolate", "sad" ] ]
+
+ |> "' t .g" <| [
+
+    FaCALI                    `noun`    {- OatAgiy -}          [ "Atagi" ] ]
 
  |> "' t .g y" <| [
 

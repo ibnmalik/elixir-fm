@@ -9,22 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'abA.tiyl" <| [
-
-    -- ;; >abATiyl_1
-    -- >bATyl  >abATiyl        Ndip    vanities;falsehood
-    -- AbATyl  >abATiyl        Ndip    vanities;falsehood
-
-    Identity                  `noun`    {- OabATiyl -}         [ "vanities", "falsehood" ] ]
-
- |> "'abAdiyd" <| [
-
-    -- ;; >abAdiyd_1
-    -- >bAdyd  >abAdiyd        Ndip    scattered
-    -- AbAdyd  >abAdiyd        Ndip    scattered
-
-    Identity                  `noun`    {- OabAdiyd -}         [ "scattered" ] ]
-
  |> "'ubAliyy" <| [
 
     -- ;; lA>ubAliy~ap_1
@@ -1947,6 +1931,12 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- bATil -}            [ "void", "false" ],
 
+    -- ;; >abATiyl_1
+    -- >bATyl  >abATiyl        Ndip    vanities;falsehood
+    -- AbATyl  >abATiyl        Ndip    vanities;falsehood
+
+    HaFACIL                   `noun`    {- OabATiyl -}         [ "vanities", "falsehood" ],
+
     -- ;; muboTil_1
     -- mbTl    muboTil Nall    prattler;liar
 
@@ -2855,6 +2845,11 @@ lexicon = listing "Lexicon's properties"
     -- tb$yry  tabo$iyriy~     Nall    missionary     [[tabo$iyriy~/ADJ]]
 
     TaFCIL |< Iy              `adj`     {- tabo$iyriy~ -}      [ "missionary" ],
+
+    -- ;; tabA$iyr_1
+    -- tbA$yr  tabA$iyr        Ndip    first signs;precursors
+
+    TaFACIL                   `noun`    {- tabA$iyr -}         [ "first signs", "precursors" ],
 
     -- ;; muba$~ir_1
     -- mb$r    muba$~ir        Nall    missionary;announcer
@@ -4379,6 +4374,12 @@ lexicon = listing "Lexicon's properties"
 
     FuCL                      `noun`    {- bud~ -}             [ "escape", "avoiding" ],
 
+    -- ;; >abAdiyd_1
+    -- >bAdyd  >abAdiyd        Ndip    scattered
+    -- AbAdyd  >abAdiyd        Ndip    scattered
+
+    HaFACIL                   `noun`    {- OabAdiyd -}         [ "scattered" ],
+
     -- ;; tabodiyd_1
     -- tbdyd   tabodiyd        NduAt   defusing;squandering;dispersal
 
@@ -5319,7 +5320,9 @@ lexicon = listing "Lexicon's properties"
     -- >bAhym  >abAhiym        Ndip    big toes;thumbs
     -- AbAhym  >abAhiym        Ndip    big toes;thumbs
 
-    FACiL                     `noun`    {- bAhim -}            [ "big toe", "thumb", "big toes", "thumbs" ],
+    FACiL                     `noun`    {- bAhim -}            [ "big toe", "thumb", "big toes", "thumbs" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'abAhiym Ndip" ] -},
 
     -- ;; muboham_1
     -- mbhm    muboham Nall    unintelligible;abstract
@@ -5666,6 +5669,14 @@ lexicon = listing "Lexicon's properties"
     -- mbAhA   mubAhA  Nap     pride;boastfulness
 
     MuFACY |< aT              `noun`    {- mubAhAp -}          [ "pride", "boastfulness" ],
+
+    -- ;; tabAhiy_1
+    -- tbAhy   tabAhiy N0_Nh   pride;boastfulness
+    -- tbAh    tabAh   NK      pride;boastfulness
+    -- tbAhy   tabAhiy NAn_Nayn        pride;boastfulness
+    -- tbAhy   tabAhiy NAt     pride;boastfulness
+
+    TaFACI                    `noun`    {- tabAhiy -}          [ "pride", "boastfulness" ],
 
     -- ;; tabAhiy_1
     -- tbAhy   tabAhiy N0_Nh   pride;boastfulness
@@ -7470,7 +7481,9 @@ lexicon = listing "Lexicon's properties"
     -- blAyA   balAyA  N0      tribulations;afflictions
     -- blAyA   balAyA  Nhy     tribulations;afflictions
 
-    FaCIL |< aT               `noun`    {- baliy~ap -}         [ "tribulation", "affliction", "tribulations", "afflictions" ],
+    FaCIL |< aT               `noun`    {- baliy~ap -}         [ "tribulation", "affliction", "tribulations", "afflictions" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "balAyA N0 Nhy" ] -},
 
     -- ;; bAliy_1
     -- bAly    bAliy   N0F     dilapidated;worn
@@ -8975,6 +8988,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCAL
                            {- `others`  [ "barA.h NF" ] -},
 
+    -- ;; tabAriyH_1
+    -- tbAryH  tabAriyH        Ndip    agonies;torments
+
+    TaFACIL                   `noun`    {- tabAriyH -}         [ "agonies", "torments" ],
+
     -- ;; mubAraHap_1
     -- mbArH   mubAraH NapAt   departure
 
@@ -9363,8 +9381,8 @@ lexicon = listing "Lexicon's properties"
 
     FiCL |< aT                `noun`    {- birobap -}          [ "labyrinth", "labyrinths" ]
                               `plural`     FiCLY
-                              `plural`     FaCAL
-                           {- `others`  [ "birbY N0", "barAb NK" ] -} ]
+                              `plural`     FaCALI
+                           {- `others`  [ "birbY N0", "barAbiy N0_Nh" ] -} ]
 
  |> "b r b .t" <| [
 
@@ -10119,7 +10137,9 @@ lexicon = listing "Lexicon's properties"
     -- brny    baroniy~        Nap     clay vessel     [[baroniy~/NOUN]]
     -- brAny   barAniy N       clay vessels
 
-    FaCL |< Iy |< aT          `noun`    {- baroniy~ap -}       [ "clay vessel", "clay vessels" ] ]
+    FaCL |< Iy |< aT          `noun`    {- baroniy~ap -}       [ "clay vessel", "clay vessels" ]
+                              `plural`     FaCALI
+                           {- `others`  [ "barAniy N" ] -} ]
 
  |> "b r n .t" <| [
 
@@ -10611,7 +10631,9 @@ lexicon = listing "Lexicon's properties"
     -- brAyA   barAyA  N0      creation;creatures
     -- brAyA   barAyA  Nhy     creation;creatures
 
-    FaCIL |< aT               `noun`    {- bariy~ap -}         [ "creation", "creature", "creatures" ],
+    FaCIL |< aT               `noun`    {- bariy~ap -}         [ "creation", "creature", "creatures" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "barAyA N0 Nhy" ] -},
 
     -- ;; baraY_1
     -- brY     baraY   N0      dust;earth
@@ -11603,9 +11625,9 @@ lexicon = listing "Lexicon's properties"
     -- btAt    batAt   NK      barrels;tubs
 
     FiCL |< Iy |< aT          `noun`    {- bit~iy~ap -}        [ "barrel", "tub", "barrels", "tubs" ]
-                              `plural`     FaCAL
                               `plural`     FaCACI
-                           {- `others`  [ "batAt NK", "batAtiy N0_Nh" ] -},
+                              `plural`     FaCALI
+                           {- `others`  [ "batAtiy N0_Nh" ] -},
 
     -- ;; tabotiyt_1
     -- tbtyt   tabotiyt        NduAt   adjudication;award
@@ -12014,6 +12036,14 @@ lexicon = listing "Lexicon's properties"
 
     KuRDIS |< aT              `noun`    {- buwbiynap -}        [ "spool", "reel" ] ]
 
+ |> "b w d" <| [
+
+    -- ;; bawAdiy_1
+    -- bwAdy   bawAdiy N0_Nh   nomads;Bedouins
+    -- bwAd    bawAd   NK      nomads;Bedouins
+
+    FaCALI                    `noun`    {- bawAdiy -}          [ "nomads", "Bedouins" ] ]
+
  |> "b w d q" <| [
 
     -- ;; buwdaqap_1
@@ -12269,6 +12299,11 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "buwn N" ] -} ]
 
  |> "b w q" <| [
+
+    -- ;; bawAqiy_1
+    -- bwAqy   bawAqiy N0      Bawaqi
+
+    FaCALI                    `noun`    {- bawAqiy -}          [ "Bawaqi" ],
 
     -- ;; baw~aq_1
     -- bwq     baw~aq  PV      trumpet;blare
@@ -13537,8 +13572,9 @@ lexicon = listing "Lexicon's properties"
     -- AbAzyr  >abAziyr        Ndip    spice
 
     FiCL                      `noun`    {- bizor -}            [ "spice" ]
+                              `plural`     HaFACIL
                               `plural`     HaFCAL
-                           {- `others`  [ "'abzAr N" ] -},
+                           {- `others`  [ "'abAziyr Ndip", "'abzAr N" ] -},
 
     -- ;; baz~Ar_1
     -- bzAr    baz~Ar  N       seedman
@@ -17222,18 +17258,4 @@ lexicon = listing "Lexicon's properties"
     -- lAmbAly lAmubAliy~      Nap_L   indifference;apathy     [[lAmubAliy~/NOUN]]
 
     lA >| Identity            `adj`     {- lAmubAliy~ -}       [ "indifferent", "apathetic", "indifference", "apathy" ] ]
-
- |> "tabA^siyr" <| [
-
-    -- ;; tabA$iyr_1
-    -- tbA$yr  tabA$iyr        Ndip    first signs;precursors
-
-    Identity                  `noun`    {- tabA$iyr -}         [ "first signs", "precursors" ] ]
-
- |> "tabAriy.h" <| [
-
-    -- ;; tabAriyH_1
-    -- tbAryH  tabAriyH        Ndip    agonies;torments
-
-    Identity                  `noun`    {- tabAriyH -}         [ "agonies", "torments" ] ]
 

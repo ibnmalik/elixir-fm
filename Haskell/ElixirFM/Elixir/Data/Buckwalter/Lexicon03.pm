@@ -7684,8 +7684,7 @@ $Lexicon = {
     {
       'types' => {
         'tAl' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'tAliy' => {
           'NapAt' => 1,
@@ -7737,8 +7736,7 @@ $Lexicon = {
           'NAn_Nayn' => 1
         },
         'mutatAl' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'mutatAliy',
@@ -10218,7 +10216,11 @@ $Lexicon = {
         'tky     takiy~  Napdu   monastery;hospice     [[takiy~/NOUN]]',
         'tkAyA   takAyA  N0_Nhy  monasteries;hospices'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'takAyA' => [
+          'FaCAyA'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaL |< Iy |< aT',
@@ -10248,7 +10250,11 @@ $Lexicon = {
         'tky     takiy~  Napdu   asylum     [[takiy~/NOUN]]',
         'tkAyA   takAyA  N0_Nhy  asylums'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'takAyA' => [
+          'FaCAyA'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaL |< Iy |< aT',
@@ -13791,8 +13797,7 @@ $Lexicon = {
     {
       'types' => {
         'muttaq' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'muttaqiy' => {
           'NapAt' => 1,

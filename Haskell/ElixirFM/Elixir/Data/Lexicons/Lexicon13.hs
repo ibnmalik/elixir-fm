@@ -203,7 +203,9 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCY                   `verb`    {- ta$aZ~aY -}         [ "be splintered", "be shattered" ],
 
-    FaCIL |< aT               `noun`    {- \$aZiy~ap -}        [ "splinter", "sliver", "splinters", "slivers", "smithereens" ] ]
+    FaCIL |< aT               `noun`    {- \$aZiy~ap -}        [ "splinter", "sliver", "splinters", "slivers", "smithereens" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "^sa.zAyA N0_Nhy" ] -} ]
 
  |> "^s ^g `" <| [
 
@@ -783,7 +785,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCLAn                    `adj`     {- \$ahowAn -}         [ "covetous", "debauched" ]
                               `plural`     FaCLY
-                           {- `others`  [ "^sahwY N0" ] -},
+                              `plural`     FaCALY
+                           {- `others`  [ "^sahwY N0", "^sahAwY N0" ] -},
 
     FaCLAn                    `noun`    {- \$ahowAn -}         [ "Shehwan", "Shahwan" ] ]
 
@@ -877,7 +880,9 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCY                    `verb`    {- Ai$otakaY -}        [ "complain", "be complained" ],
 
-    FaCLY                     `noun`    {- \$akowaY -}         [ "complaint", "grievance", "complaints", "grievances" ] ]
+    FaCLY                     `noun`    {- \$akowaY -}         [ "complaint", "grievance", "complaints", "grievances" ]
+                              `plural`     FaCALY
+                           {- `others`  [ "^sakAwY N0" ] -} ]
 
  |> "^s k y" <| [
 

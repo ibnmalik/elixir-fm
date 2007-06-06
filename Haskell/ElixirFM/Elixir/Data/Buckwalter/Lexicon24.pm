@@ -1182,6 +1182,29 @@ $Lexicon = {
   'm l w' => [
     {
       'types' => {
+        'malAwiy' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'malAwiy',
+      'form' => 'malAwiy',
+      'lines' => [
+        ';; malAwiy_1',
+        'mlAwy   malAwiy N0      Malawi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCALI',
+      'suffix' => '',
+      'glosses' => [
+        'Malawi'
+      ],
+      'orig' => 'malAwiy',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'mluw' => {
           'IV_0hAnn' => 1
         },
@@ -2203,7 +2226,11 @@ $Lexicon = {
         'mzy     maziy~  Napdu   feature;advantage     [[maziy~/NOUN]]',
         'mzAyA   mazAyA  N0_Nhy  features;advantages'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mazAyA' => [
+          'FaCAyA'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaL |< Iy |< aT',
@@ -6346,6 +6373,29 @@ $Lexicon = {
   'm y m' => [
     {
       'types' => {
+        'mayAmiy' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'mayAmiy',
+      'form' => 'mayAmiy',
+      'lines' => [
+        ';; mayAmiy_1',
+        'myAmy   mayAmiy Nprop   Miami'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCALI',
+      'suffix' => '',
+      'glosses' => [
+        'Miami'
+      ],
+      'orig' => 'mayAmiy',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'miym' => {
           'NduAt' => 1
         }
@@ -6795,7 +6845,11 @@ $Lexicon = {
         'tmrAd   timorAd N       dovecote',
         'tmAryd  tamAriyd        Ndip    dovecote'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tamAriyd' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TiFCAL',
@@ -12029,6 +12083,9 @@ $Lexicon = {
         'mrADA   marADA  Nhy     patients;sick people'
       ],
       'patterns' => {
+        'marA.dY' => [
+          'FaCALY'
+        ],
         'mar.dY' => [
           'FaCLY'
         ]
@@ -12925,7 +12982,11 @@ $Lexicon = {
         'tmvAl   timovAl Ndu     statue',
         'tmAvyl  tamAviyl        Ndip    statues'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tamA_tiyl' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TiFCAL',
@@ -13683,6 +13744,30 @@ $Lexicon = {
         'FCaL'
       ],
       'orig' => 'malid-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'amAliyd' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'amAliyd',
+      'form' => '\'amAliyd',
+      'lines' => [
+        ';; >amAliyd_1',
+        '>mAlyd  >amAliyd        Ndip    tender twigs',
+        'AmAlyd  >amAliyd        Ndip    tender twigs'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFACIL',
+      'suffix' => '',
+      'glosses' => [
+        'tender twigs'
+      ],
+      'orig' => 'OamAliyd',
       'prefix' => ''
     },
     {
@@ -15327,7 +15412,11 @@ $Lexicon = {
         'mly     maliy~  Napdu   female bedouin dress     [[maliy~/NOUN]]',
         'mlAyA   malAyA  N0_Nhy  female bedouin dresses'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'malAyA' => [
+          'FaCAyA'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -16477,25 +16566,16 @@ $Lexicon = {
   ],
   'm l w y' => [
     {
-      'types' => {
-        'malAwiy' => {
-          'N0' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'malAwiy',
       'form' => 'malAwiy',
-      'lines' => [
-        ';; malAwiy_1',
-        'mlAwy   malAwiy N0      Malawi'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRADI',
       'suffix' => '',
-      'glosses' => [
-        'Malawi'
-      ],
+      'glosses' => [],
       'orig' => 'malAwiy',
       'prefix' => ''
     },
@@ -18095,6 +18175,9 @@ $Lexicon = {
         'tmAss   tamAsis IV_C_intr       be in touch;be in contact'
       ],
       'patterns' => {
+        'tamAsis' => [
+          'TaFACiL'
+        ],
         'tamAsas' => [
           'TaFACaL'
         ]
@@ -19038,6 +19121,9 @@ $Lexicon = {
         'tmArr   tamArir IV_C    dispute with each other'
       ],
       'patterns' => {
+        'tamArir' => [
+          'TaFACiL'
+        ],
         'tamArar' => [
           'TaFACaL'
         ]
@@ -21645,7 +21731,11 @@ $Lexicon = {
         'tmryn   tamoriyn        Ndu     exercise;practice;training',
         'tmAryn  tamAriyn        Ndip    exercises;practice;training'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tamAriyn' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -21675,7 +21765,11 @@ $Lexicon = {
         'tmryn   tamoriyn        NAt     drills;maneuvers;exercises',
         'tmAryn  tamAriyn        Ndip    drills;maneuvers;exercises'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tamAriyn' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -25151,9 +25245,6 @@ $Lexicon = {
         '\'AmAq' => {
           'N' => 2
         },
-        'ma\'Aq' => {
-          'NK' => 1
-        },
         'ma\'qY' => {
           'N0' => 1
         },
@@ -25175,11 +25266,11 @@ $Lexicon = {
         'AmAq    |mAq    N       inner corners of the eye'
       ],
       'patterns' => {
-        'ma\'Aq' => [
-          'FaCAL'
-        ],
         'ma\'qY' => [
           'FaCLY'
+        ],
+        'ma\'Aqiy' => [
+          'FaCALI'
         ]
       },
       'index' => '1',
@@ -26092,9 +26183,6 @@ $Lexicon = {
         'mawAni\'' => {
           'Ndip' => 1
         },
-        'mawAn' => {
-          'NK' => 1
-        },
         'miynA\'' => {
           'Nh' => 1,
           'Nayn' => 1,
@@ -26281,6 +26369,9 @@ $Lexicon = {
       'patterns' => {
         'mar.hY' => [
           'FaCLY'
+        ],
+        'marA.hY' => [
+          'FaCALY'
         ]
       },
       'index' => '1',
@@ -28958,9 +29049,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mamA^s' => {
-          'NK' => 1
-        },
         'mam^sY' => {
           'N0' => 1
         },
@@ -29041,8 +29129,7 @@ $Lexicon = {
           'N0F' => 1
         },
         'mA^s' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'mA^siy',
@@ -29081,9 +29168,6 @@ $Lexicon = {
       'types' => {
         'mA^siyaT' => {
           'Nap' => 1
-        },
-        'mawA^s' => {
-          'NK' => 1
         },
         'mawA^siy' => {
           'N0_Nh' => 1
@@ -32124,7 +32208,11 @@ $Lexicon = {
         'mny     maniy~  Nap     destiny;fate of death     [[maniy~/NOUN]]',
         'mnAyA   manAyA  N0_Nhy  destiny;fate of death'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'manAyA' => [
+          'FaCAyA'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -32140,9 +32228,6 @@ $Lexicon = {
       'types' => {
         '\'umniyy' => {
           'Napdu' => 2
-        },
-        '\'amAn' => {
-          'NK' => 2
         },
         '\'amAniy' => {
           'N0_Nh' => 2
@@ -32216,8 +32301,7 @@ $Lexicon = {
     {
       'types' => {
         'mutamann' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mutamanniy' => {
           'N0F_Nh' => 1,
@@ -33222,8 +33306,7 @@ $Lexicon = {
     {
       'types' => {
         'mums' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mumsiy' => {
           'N0F_Nh' => 1,
@@ -34966,9 +35049,6 @@ $Lexicon = {
           'NAt' => 1,
           'NAn_Nayn' => 1,
           'N0_Nh' => 1
-        },
-        'tamAd' => {
-          'NK' => 1
         }
       },
       'entry' => 'tamAdiy',
@@ -36255,9 +36335,6 @@ $Lexicon = {
         },
         'mim.hAT' => {
           'Napdu' => 1
-        },
-        'mamA.h' => {
-          'NK' => 1
         }
       },
       'entry' => 'mim.hY',
@@ -38840,7 +38917,11 @@ $Lexicon = {
         'mTy     maTiy~  Nap     expedient;instrument',
         'mTAyA   maTAyA  N0_Nhy  expedients;instruments'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ma.tAyA' => [
+          'FaCAyA'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -39440,9 +39521,6 @@ $Lexicon = {
           'N0F_Nh' => 1,
           'NAn_Nayn' => 1,
           'Napdu' => 1
-        },
-        'mA.d' => {
-          'NK' => 1
         }
       },
       'entry' => 'mA.diy',
@@ -39476,12 +39554,8 @@ $Lexicon = {
         'mawA.diy' => {
           'N0_Nh' => 1
         },
-        'mawA.d' => {
-          'NK' => 1
-        },
         'mA.d' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'mA.diy',
@@ -39517,8 +39591,7 @@ $Lexicon = {
     {
       'types' => {
         'mum.d' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mum.diy' => {
           'N0F_Nh' => 1,
@@ -40355,6 +40428,31 @@ $Lexicon = {
         'mastic'
       ],
       'orig' => 'maSoTakA\'',
+      'prefix' => ''
+    }
+  ],
+  'm d l' => [
+    {
+      'types' => {
+        'madAliyaT' => {
+          'NapAt' => 1
+        }
+      },
+      'entry' => 'madAliy',
+      'form' => 'madAliyaT',
+      'lines' => [
+        ';; madAliyap_1',
+        'mdAly   madAliy NapAt   medal'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCALI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'medal'
+      ],
+      'orig' => 'madAliyap',
       'prefix' => ''
     }
   ],
@@ -41826,9 +41924,6 @@ $Lexicon = {
           'NAt' => 1,
           'NAn_Nayn' => 1,
           'N0_Nh' => 1
-        },
-        'tamann' => {
-          'NK' => 1
         }
       },
       'entry' => 'tamanniy',
@@ -44622,25 +44717,16 @@ $Lexicon = {
   ],
   'm d l y' => [
     {
-      'types' => {
-        'madAliyaT' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'madAliy',
       'form' => 'madAliyaT',
-      'lines' => [
-        ';; madAliyap_1',
-        'mdAly   madAliy NapAt   medal'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRADI |< aT',
       'suffix' => ' |< aT',
-      'glosses' => [
-        'medal'
-      ],
+      'glosses' => [],
       'orig' => 'madAliyap',
       'prefix' => ''
     },
@@ -48983,53 +49069,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'amAliyd' => [
-    {
-      'types' => {
-        '\'amAliyd' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'amAliyd',
-      'form' => '\'amAliyd',
-      'lines' => [
-        ';; >amAliyd_1',
-        '>mAlyd  >amAliyd        Ndip    tender twigs',
-        'AmAlyd  >amAliyd        Ndip    tender twigs'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'tender twigs'
-      ],
-      'orig' => 'OamAliyd',
-      'prefix' => ''
-    }
-  ],
   'm y m y' => [
     {
-      'types' => {
-        'mayAmiy' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mayAmiy',
       'form' => 'mayAmiy',
-      'lines' => [
-        ';; mayAmiy_1',
-        'myAmy   mayAmiy Nprop   Miami'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRADI',
       'suffix' => '',
-      'glosses' => [
-        'Miami'
-      ],
+      'glosses' => [],
       'orig' => 'mayAmiy',
       'prefix' => ''
     },
@@ -50290,15 +50341,18 @@ $Lexicon->{'m t z'}[1]{'glosses'} = $Lexicon->{'m z z'}[3]{'glosses'};
 $Lexicon->{'m l y'}[1]{'types'} = $Lexicon->{'m l y'}[0]{'types'};
 $Lexicon->{'m l y'}[1]{'lines'} = $Lexicon->{'m l y'}[0]{'lines'};
 $Lexicon->{'m l y'}[1]{'glosses'} = $Lexicon->{'m l y'}[0]{'glosses'};
-$Lexicon->{'m l \''}[16]{'types'} = $Lexicon->{'m l w'}[9]{'types'};
-$Lexicon->{'m l \''}[16]{'lines'} = $Lexicon->{'m l w'}[9]{'lines'};
-$Lexicon->{'m l \''}[16]{'glosses'} = $Lexicon->{'m l w'}[9]{'glosses'};
-$Lexicon->{'m l \''}[17]{'types'} = $Lexicon->{'m l w'}[10]{'types'};
-$Lexicon->{'m l \''}[17]{'lines'} = $Lexicon->{'m l w'}[10]{'lines'};
-$Lexicon->{'m l \''}[17]{'glosses'} = $Lexicon->{'m l w'}[10]{'glosses'};
-$Lexicon->{'m l w y'}[1]{'types'} = $Lexicon->{'m l w y'}[0]{'types'};
-$Lexicon->{'m l w y'}[1]{'lines'} = $Lexicon->{'m l w y'}[0]{'lines'};
-$Lexicon->{'m l w y'}[1]{'glosses'} = $Lexicon->{'m l w y'}[0]{'glosses'};
+$Lexicon->{'m l \''}[16]{'types'} = $Lexicon->{'m l w'}[10]{'types'};
+$Lexicon->{'m l \''}[16]{'lines'} = $Lexicon->{'m l w'}[10]{'lines'};
+$Lexicon->{'m l \''}[16]{'glosses'} = $Lexicon->{'m l w'}[10]{'glosses'};
+$Lexicon->{'m l \''}[17]{'types'} = $Lexicon->{'m l w'}[11]{'types'};
+$Lexicon->{'m l \''}[17]{'lines'} = $Lexicon->{'m l w'}[11]{'lines'};
+$Lexicon->{'m l \''}[17]{'glosses'} = $Lexicon->{'m l w'}[11]{'glosses'};
+$Lexicon->{'m l w y'}[0]{'types'} = $Lexicon->{'m l w'}[0]{'types'};
+$Lexicon->{'m l w y'}[0]{'lines'} = $Lexicon->{'m l w'}[0]{'lines'};
+$Lexicon->{'m l w y'}[0]{'glosses'} = $Lexicon->{'m l w'}[0]{'glosses'};
+$Lexicon->{'m l w y'}[1]{'types'} = $Lexicon->{'m l w'}[0]{'types'};
+$Lexicon->{'m l w y'}[1]{'lines'} = $Lexicon->{'m l w'}[0]{'lines'};
+$Lexicon->{'m l w y'}[1]{'glosses'} = $Lexicon->{'m l w'}[0]{'glosses'};
 $Lexicon->{'m ` y'}[2]{'types'} = $Lexicon->{'m ` \''}[1]{'types'};
 $Lexicon->{'m ` y'}[2]{'lines'} = $Lexicon->{'m ` \''}[1]{'lines'};
 $Lexicon->{'m ` y'}[2]{'glosses'} = $Lexicon->{'m ` \''}[1]{'glosses'};
@@ -50401,9 +50455,12 @@ $Lexicon->{'m t .s'}[2]{'glosses'} = $Lexicon->{'m .s .s'}[14]{'glosses'};
 $Lexicon->{'m t y'}[3]{'types'} = $Lexicon->{'m t t'}[2]{'types'};
 $Lexicon->{'m t y'}[3]{'lines'} = $Lexicon->{'m t t'}[2]{'lines'};
 $Lexicon->{'m t y'}[3]{'glosses'} = $Lexicon->{'m t t'}[2]{'glosses'};
-$Lexicon->{'m d l y'}[1]{'types'} = $Lexicon->{'m d l y'}[0]{'types'};
-$Lexicon->{'m d l y'}[1]{'lines'} = $Lexicon->{'m d l y'}[0]{'lines'};
-$Lexicon->{'m d l y'}[1]{'glosses'} = $Lexicon->{'m d l y'}[0]{'glosses'};
+$Lexicon->{'m d l y'}[0]{'types'} = $Lexicon->{'m d l'}[0]{'types'};
+$Lexicon->{'m d l y'}[0]{'lines'} = $Lexicon->{'m d l'}[0]{'lines'};
+$Lexicon->{'m d l y'}[0]{'glosses'} = $Lexicon->{'m d l'}[0]{'glosses'};
+$Lexicon->{'m d l y'}[1]{'types'} = $Lexicon->{'m d l'}[0]{'types'};
+$Lexicon->{'m d l y'}[1]{'lines'} = $Lexicon->{'m d l'}[0]{'lines'};
+$Lexicon->{'m d l y'}[1]{'glosses'} = $Lexicon->{'m d l'}[0]{'glosses'};
 $Lexicon->{'m w f z'}[0]{'types'} = $Lexicon->{'m f z'}[0]{'types'};
 $Lexicon->{'m w f z'}[0]{'lines'} = $Lexicon->{'m f z'}[0]{'lines'};
 $Lexicon->{'m w f z'}[0]{'glosses'} = $Lexicon->{'m f z'}[0]{'glosses'};
@@ -50437,9 +50494,12 @@ $Lexicon->{'m s \''}[1]{'glosses'} = $Lexicon->{'m s w'}[4]{'glosses'};
 $Lexicon->{'m s \''}[2]{'types'} = $Lexicon->{'m s w'}[5]{'types'};
 $Lexicon->{'m s \''}[2]{'lines'} = $Lexicon->{'m s w'}[5]{'lines'};
 $Lexicon->{'m s \''}[2]{'glosses'} = $Lexicon->{'m s w'}[5]{'glosses'};
-$Lexicon->{'m y m y'}[1]{'types'} = $Lexicon->{'m y m y'}[0]{'types'};
-$Lexicon->{'m y m y'}[1]{'lines'} = $Lexicon->{'m y m y'}[0]{'lines'};
-$Lexicon->{'m y m y'}[1]{'glosses'} = $Lexicon->{'m y m y'}[0]{'glosses'};
+$Lexicon->{'m y m y'}[0]{'types'} = $Lexicon->{'m y m'}[0]{'types'};
+$Lexicon->{'m y m y'}[0]{'lines'} = $Lexicon->{'m y m'}[0]{'lines'};
+$Lexicon->{'m y m y'}[0]{'glosses'} = $Lexicon->{'m y m'}[0]{'glosses'};
+$Lexicon->{'m y m y'}[1]{'types'} = $Lexicon->{'m y m'}[0]{'types'};
+$Lexicon->{'m y m y'}[1]{'lines'} = $Lexicon->{'m y m'}[0]{'lines'};
+$Lexicon->{'m y m y'}[1]{'glosses'} = $Lexicon->{'m y m'}[0]{'glosses'};
 $Lexicon->{'m .h \''}[0]{'types'} = $Lexicon->{'m .h w'}[7]{'types'};
 $Lexicon->{'m .h \''}[0]{'lines'} = $Lexicon->{'m .h w'}[7]{'lines'};
 $Lexicon->{'m .h \''}[0]{'glosses'} = $Lexicon->{'m .h w'}[7]{'glosses'};

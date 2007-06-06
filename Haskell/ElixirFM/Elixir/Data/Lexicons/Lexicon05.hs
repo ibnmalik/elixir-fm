@@ -957,7 +957,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCCaL                    `verb`    {- jar~ab -}           [ "test", "try", "attempt" ],
 
-    TaFCiL |< aT              `noun`    {- tajoribap -}        [ "experience", "experiment", "experiences", "experiments" ],
+    TaFCiL |< aT              `noun`    {- tajoribap -}        [ "experience", "experiment", "experiences", "experiments" ]
+                              `plural`     TaFACiL
+                           {- `others`  [ "ta^gArib Ndip" ] -},
 
     TaFCIL                    `noun`    {- tajoriyb -}         [ "trial", "test" ],
 
@@ -1191,8 +1193,9 @@ lexicon = listing "Lexicon's properties"
     FaCAL                     `noun`    {- jawAd -}            [ "steed", "horse", "steeds", "horses" ],
 
     HaFCaL                    `noun`    {- Oajowad -}          [ "better/best", "more/most generous" ]
+                              `plural`     HaFACIL
                               `plural`     FaCLA'
-                           {- `others`  [ "^gawdA' Nh N0_Nh Nhy" ] -} ]
+                           {- `others`  [ "'a^gAwiyd Ndip", "^gawdA' Nh N0_Nh Nhy" ] -} ]
 
  |> "^g w f" <| [
 

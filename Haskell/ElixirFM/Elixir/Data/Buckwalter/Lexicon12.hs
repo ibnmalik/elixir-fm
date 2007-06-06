@@ -9,14 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'asAriyr" <| [
-
-    -- ;; >asAriyr_1
-    -- >sAryr  >asAriyr        Ndip    features
-    -- AsAryr  >asAriyr        Ndip    features
-
-    Identity                  `noun`    {- OasAriyr -}         [ "features" ] ]
-
  |> "'ashum" <| [
 
     -- ;; >asohumiy~_1
@@ -671,8 +663,8 @@ lexicon = listing "Lexicon's properties"
     -- sHAl    saHAl   NK      lizards
 
     FiCL |< Iy |< aT          `noun`    {- siHoliy~ap -}       [ "lizard", "lizards" ]
-                              `plural`     FaCAL
-                           {- `others`  [ "sa.hAl NK" ] -},
+                              `plural`     FaCALI
+                           {- `others`  [ "sa.hAliy N0_Nh" ] -},
 
     -- ;; suHayoliy~_1
     -- sHyly   suHayoliy~      N0      Suhaili
@@ -1007,7 +999,9 @@ lexicon = listing "Lexicon's properties"
     -- sHAy    siHAy   Nap     meninx
     -- sHAyA   saHAyA  N0_Nhy  meninges
 
-    FiCAL |< aT               `noun`    {- siHAyap -}          [ "meninx", "meninges" ],
+    FiCAL |< aT               `noun`    {- siHAyap -}          [ "meninx", "meninges" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "sa.hAyA N0_Nhy" ] -},
 
     -- ;; siHA}iy~_1
     -- sHA}y   siHA}iy~        N-ap    meningeal;meningitis     [[siHA}iy~/ADJ]]
@@ -1697,7 +1691,9 @@ lexicon = listing "Lexicon's properties"
     -- sjy     sajiy~  NapAt   natural disposition;character trait     [[sajiy~/NOUN]]
     -- sjAyA   sajAyA  N0_Nhy  characteristics;traits
 
-    FaCIL |< aT               `noun`    {- sajiy~ap -}         [ "natural disposition", "character trait", "characteristics", "traits" ],
+    FaCIL |< aT               `noun`    {- sajiy~ap -}         [ "natural disposition", "character trait", "characteristics", "traits" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "sa^gAyA N0_Nhy" ] -},
 
     -- ;; sAjiy_1
     -- sAjy    sAjiy   N0F     quiet;tranquil     [[sAjiy/ADJ]]
@@ -2381,8 +2377,8 @@ lexicon = listing "Lexicon's properties"
     -- sEAl    saEAl   NK      female demons
 
     FiCLY                     `noun`    {- siEolaY -}          [ "female demon", "female demons" ]
-                              `plural`     FaCAL
-                           {- `others`  [ "sa`Al NK" ] -} ]
+                              `plural`     FaCALI
+                           {- `others`  [ "sa`Aliy N0_Nh" ] -} ]
 
  |> "s ` n" <| [
 
@@ -2710,7 +2706,9 @@ lexicon = listing "Lexicon's properties"
     -- tsbyH   tasobiyH        NduAt   hymn
     -- tsAbyH  tasAbiyH        Ndip    hymns
 
-    TaFCIL                    `noun`    {- tasobiyH -}         [ "glorification of God", "hymn", "hymns" ],
+    TaFCIL                    `noun`    {- tasobiyH -}         [ "glorification of God", "hymn", "hymns" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tasAbiy.h Ndip" ] -},
 
     -- ;; tasobiHap_1
     -- tsbH    tasobiH Nap     hymn;song of praise
@@ -3569,7 +3567,9 @@ lexicon = listing "Lexicon's properties"
     -- sby     sabiy~  N/ap    captive;prisoner     [[sabiy~/NOUN]]
     -- sbAyA   sabAyA  N0_Nhy  captives;prisoners
 
-    FaCIL                     `noun`    {- sabiy~ -}           [ "captive", "prisoner", "captives", "prisoners" ] ]
+    FaCIL                     `noun`    {- sabiy~ -}           [ "captive", "prisoner", "captives", "prisoners" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "sabAyA N0_Nhy" ] -} ]
 
  |> "s b y s" <| [
 
@@ -5480,8 +5480,9 @@ lexicon = listing "Lexicon's properties"
     -- skArA   sakArA  Nhy     intoxicated;drunkards
 
     FaCLAn                    `noun`    {- sakorAn -}          [ "intoxicated", "drunkards" ]
+                              `plural`     FaCALY
                               `plural`     FaCLY
-                           {- `others`  [ "sakrY N0" ] -},
+                           {- `others`  [ "sakArY N0", "sakrY N0" ] -},
 
     -- ;; sik~iyr_1
     -- skyr    sik~iyr N-ap    heavy drinker
@@ -6646,6 +6647,13 @@ lexicon = listing "Lexicon's properties"
 
     FaCCUL                    `noun`    {- sal~uwm -}          [ "Salloum", "Sallum" ],
 
+    -- ;; sulAmaY_1
+    -- slAmY   sulAmaY N0      phalanx;digital bone
+    -- slAmA   sulAmA  Nhy     phalanx;digital bone
+    -- slAmy   sulAmiy~        NapAt   phalanx;digital bone     [[sulAmiy~/NOUN]]
+
+    FuCALY                    `noun`    {- sulAmaY -}          [ "phalanx", "digital bone" ],
+
     -- ;; >asolam_2
     -- >slm    >asolam Nel     safer/safest;sounder/soundest
     -- Aslm    >asolam Nel     safer/safest;sounder/soundest
@@ -6999,7 +7007,9 @@ lexicon = listing "Lexicon's properties"
     -- slwA    salowA  Napdu   quail
     -- slAwY   salAwaY N0      quail
 
-    FaCLY |< aT               `noun`    {- salowAp -}          [ "quail" ] ]
+    FaCLY |< aT               `noun`    {- salowAp -}          [ "quail" ]
+                              `plural`     FaCALY
+                           {- `others`  [ "salAwY N0" ] -} ]
 
  |> "s l y" <| [
 
@@ -7012,6 +7022,12 @@ lexicon = listing "Lexicon's properties"
     -- tsly    tasoliy Nap     consolation;amusement;entertainment
 
     TaFCI |< aT               `noun`    {- tasoliyap -}        [ "consolation", "amusement", "entertainment" ],
+
+    -- ;; tasAliy_1
+    -- tsAly   tasAliy N0_Nh   entertainment;amusements
+    -- tsAl    tasAl   NK      entertainment;amusements
+
+    TaFACI                    `noun`    {- tasAliy -}          [ "entertainment", "amusements" ],
 
     -- ;; musal~iy_1
     -- msly    musal~iy        N0F_Nh  entertaining;comforting     [[musal~iy/ADJ]]
@@ -7263,9 +7279,10 @@ lexicon = listing "Lexicon's properties"
     -- smjA}   sumajA} Nhy     disgusting
 
     FaCiL                     `adj`     {- samij -}            [ "disgusting" ]
+                              `plural`     FaCALY
                               `plural`     FuCaLA'
                               `plural`     FiCAL
-                           {- `others`  [ "suma^gA' Nh N0_Nh Nhy", "simA^g N" ] -},
+                           {- `others`  [ "samA^gY N0", "suma^gA' Nh N0_Nh Nhy", "simA^g N" ] -},
 
     -- ;; samAjap_1
     -- smAj    samAj   Nap     ugliness;odiousness
@@ -7771,7 +7788,15 @@ lexicon = listing "Lexicon's properties"
     -- ;; musam~an_1
     -- msmn    musam~an        N-ap    fat
 
-    MuFaCCaL                  `noun`    {- musam~an -}         [ "fat" ] ]
+    MuFaCCaL                  `noun`    {- musam~an -}         [ "fat" ],
+
+    -- ;; sumAnaY_1
+    -- smAnY   sumAnaY N0      quail
+    -- smAnA   sumAnA  Nhy     quail
+    -- smAnA   sumAnA  Napdu   quail
+    -- smAny   sumAnay NAt     quail
+
+    FuCALY                    `noun`    {- sumAnaY -}          [ "quail" ] ]
 
  |> "s m n t" <| [
 
@@ -8545,7 +8570,9 @@ lexicon = listing "Lexicon's properties"
     -- >sAnyd  >asAniyd        Ndip    ascriptions;vouchers;documentary records
     -- AsAnyd  >asAniyd        Ndip    ascriptions;vouchers;documentary records
 
-    HiFCAL                    `noun`    {- IisonAd -}          [ "ascription", "bestowal", "ascriptions", "vouchers", "documentary records" ],
+    HiFCAL                    `noun`    {- IisonAd -}          [ "ascription", "bestowal", "ascriptions", "vouchers", "documentary records" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'asAniyd Ndip" ] -},
 
     -- ;; {isotinAd_1
     -- <stnAd  {isotinAd       NduAt   dependence
@@ -9661,7 +9688,9 @@ lexicon = listing "Lexicon's properties"
     -- tsryH   tasoriyH        NduAt   authorization;permission
     -- tsAryH  tasAriyH        Ndip    authorization;permission
 
-    TaFCIL                    `noun`    {- tasoriyH -}         [ "authorization", "permission" ],
+    TaFCIL                    `noun`    {- tasoriyH -}         [ "authorization", "permission" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tasAriy.h Ndip" ] -},
 
     -- ;; tasoriyH_2
     -- tsryH   tasoriyH        NduAt   dismissal;release;demobilization
@@ -10458,6 +10487,12 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- sarAr -}            [ "last night" ],
 
+    -- ;; >asAriyr_1
+    -- >sAryr  >asAriyr        Ndip    features
+    -- AsAryr  >asAriyr        Ndip    features
+
+    HaFACIL                   `noun`    {- OasAriyr -}         [ "features" ],
+
     -- ;; suruwr_1
     -- srwr    suruwr  N0      Surour
 
@@ -10746,7 +10781,9 @@ lexicon = listing "Lexicon's properties"
     -- sry     sariy~  Nap     detachment;squadron;company     [[sariy~/NOUN]]
     -- srAyA   sarAyA  N0_Nhy  detachments;squadrons;companies
 
-    FaCIL |< aT               `noun`    {- sariy~ap -}         [ "detachment", "squadron", "company", "detachments", "squadrons", "companies" ],
+    FaCIL |< aT               `noun`    {- sariy~ap -}         [ "detachment", "squadron", "company", "detachments", "squadrons", "companies" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "sarAyA N0_Nhy" ] -},
 
     -- ;; sarayAn_1
     -- sryAn   sarayAn N       spread;diffusion;effectiveness
@@ -12294,7 +12331,9 @@ lexicon = listing "Lexicon's properties"
     -- swy     sawiy~  Nap     equality     [[sawiy~/NOUN]]
     -- swAyA   sawAyA  N0_Nhy  equality
 
-    FaCIL |< aT               `noun`    {- sawiy~ap -}         [ "equality" ],
+    FaCIL |< aT               `noun`    {- sawiy~ap -}         [ "equality" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "sawAyA N0_Nhy" ] -},
 
     -- ;; siy~_1
     -- sy      siy~    NAn_Nayn        alike;the same
@@ -14684,15 +14723,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `adj`     {- sulATiH -}          [ "wide" ] ]
 
- |> "sulAmY" <| [
-
-    -- ;; sulAmaY_1
-    -- slAmY   sulAmaY N0      phalanx;digital bone
-    -- slAmA   sulAmA  Nhy     phalanx;digital bone
-    -- slAmy   sulAmiy~        NapAt   phalanx;digital bone     [[sulAmiy~/NOUN]]
-
-    Identity                  `noun`    {- sulAmaY -}          [ "phalanx", "digital bone" ] ]
-
  |> "sula.hfA'" <| [
 
     -- ;; sulaHofA}iy~_1
@@ -14724,16 +14754,6 @@ lexicon = listing "Lexicon's properties"
     -- slymAny sulayomAniy~    N-ap    corrosive sublimate;mercury chloride     [[sulayomAniy~/ADJ]]
 
     Identity |< Iy            `adj`     {- sulayomAniy~ -}     [ "corrosive sublimate", "mercury chloride" ] ]
-
- |> "sumAnY" <| [
-
-    -- ;; sumAnaY_1
-    -- smAnY   sumAnaY N0      quail
-    -- smAnA   sumAnA  Nhy     quail
-    -- smAnA   sumAnA  Napdu   quail
-    -- smAny   sumAnay NAt     quail
-
-    Identity                  `noun`    {- sumAnaY -}          [ "quail" ] ]
 
  |> "summun" <| [
 

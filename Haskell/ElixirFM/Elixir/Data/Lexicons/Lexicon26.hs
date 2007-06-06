@@ -252,7 +252,9 @@ lexicon = listing "Lexicon's properties"
 
     FuCY                      `noun`    {- hudaY -}            [ "guidance", "right path" ],
 
-    FaCIL |< aT               `noun`    {- hadiy~ap -}         [ "gift", "present", "gifts", "presents" ],
+    FaCIL |< aT               `noun`    {- hadiy~ap -}         [ "gift", "present", "gifts", "presents" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "hadAyA N0_Nhy" ] -},
 
     HaFCY                     `noun`    {- OahodaY -}          [ "better/best guided", "more/most correct", "best guided", "most correct" ]
                               `plural`     HaFCaL
@@ -330,7 +332,9 @@ lexicon = listing "Lexicon's properties"
 
     IstaFaCL                  `verb`    {- Aisotahal~ -}       [ "begin", "initiate", "introduce" ],
 
-    FiCAL                     `noun`    {- hilAl -}            [ "crescent", "new moon", "crescents", "new moons" ],
+    FiCAL                     `noun`    {- hilAl -}            [ "crescent", "new moon", "crescents", "new moons" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'ahAliyl Ndip" ] -},
 
     FiCAL                     `noun`    {- hilAl -}            [ "Crescent" ],
 
@@ -440,7 +444,8 @@ lexicon = listing "Lexicon's properties"
 
     TaFCiL |< aT              `noun`    {- tahoni}ap -}        [ "congratulations", "greetings" ]
                               `plural`     TaFACI
-                           {- `others`  [ "tahAniy N0_Nh" ] -},
+                              `plural`     TaFACiL
+                           {- `others`  [ "tahAniy N0_Nh", "tahAni' Ndip" ] -},
 
     FACI                      `noun`    {- hAniy -}            [ "Hani" ],
 
@@ -546,6 +551,10 @@ lexicon = listing "Lexicon's properties"
  |> "h r n" <| [
 
     FACUL                     `noun`    {- hAruwn -}           [ "Haroun", "Aaron" ] ]
+
+ |> "h r r" <| [
+
+    FaCALI                    `noun`    {- harAriy -}          [ "Harare" ] ]
 
  |> "h r s k" <| [
 
@@ -655,7 +664,9 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                            {- `others`  [ "'ahwAl N" ] -},
 
-    TaFCIL                    `noun`    {- tahowiyl -}         [ "intimidation", "frightening", "embellishments" ],
+    TaFCIL                    `noun`    {- tahowiyl -}         [ "intimidation", "frightening", "embellishments" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tahAwiyl Ndip" ] -},
 
     FA'iL                     `adj`     {- hA}il -}            [ "huge", "formidable", "appalling" ],
 
@@ -711,9 +722,10 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCI,
 
     FaCY                      `noun`    {- hawaY -}            [ "affection", "inclination", "preference", "desires", "wishes", "inclinations" ]
+                              `plural`     FaCAyA
                               `plural`     FaCA
                               `plural`     HaFCA'
-                           {- `others`  [ "hawA Nhy", "'ahwA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "hawAyA N0_Nhy", "hawA Nhy", "'ahwA' Nh N0_Nh Nhy" ] -},
 
     FaCA'                     `noun`    {- hawA' -}            [ "air", "atmosphere", "climate" ]
                               `plural`     HaFCA'

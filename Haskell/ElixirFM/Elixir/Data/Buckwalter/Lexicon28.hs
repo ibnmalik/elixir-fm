@@ -272,9 +272,8 @@ lexicon = listing "Lexicon's properties"
 
     FaL                       `noun`    {- yad -}              [ "hand", "hands" ]
                               `plural`     HaFCI
-                              `plural`     HaFAL
                               `plural`     HaFACI
-                           {- `others`  [ "'aydiy N0_Nh", "'ayAd NK", "'ayAdiy N0_Nh" ] -} ]
+                           {- `others`  [ "'aydiy N0_Nh", "'ayAdiy N0_Nh" ] -} ]
 
  |> "y d y" <| [
 
@@ -769,7 +768,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCLAn                    `adj`     {- yaqoZAn -}          [ "awake", "alert", "vigilant" ]
                               `plural`     FaCLY
-                           {- `others`  [ "yaq.zY N0" ] -},
+                              `plural`     FaCALY
+                           {- `others`  [ "yaq.zY N0", "yaqA.zY N0" ] -},
 
     -- ;; <iyqAZ_1
     -- <yqAZ   <iyqAZ  N/At    awakening;reveille
@@ -1231,8 +1231,9 @@ lexicon = listing "Lexicon's properties"
     -- ytAmA   yatAmA  Nhy     orphans;unique
 
     FaCIL                     `noun`    {- yatiym -}           [ "orphan", "unique", "orphans" ]
+                              `plural`     FaCALY
                               `plural`     HaFCAL
-                           {- `others`  [ "'aytAm N" ] -},
+                           {- `others`  [ "yatAmY N0", "'aytAm N" ] -},
 
     -- ;; mayotam_1
     -- mytm    mayotam Ndu     orphanage

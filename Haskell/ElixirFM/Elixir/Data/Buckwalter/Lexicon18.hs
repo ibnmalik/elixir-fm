@@ -946,6 +946,12 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- EaSor -}            [ "compression", "squeezing" ],
 
+    -- ;; EaSAriy_1
+    -- ESAry   EaSAriy N0_Nh   afternoon;afternoon prayer
+    -- ESAr    EaSAr   NK      afternoon;afternoon prayer
+
+    FaCALI                    `noun`    {- EaSAriy -}          [ "afternoon", "afternoon prayer" ],
+
     -- ;; EaSoriy~_1
     -- ESry    EaSoriy~        Nall    modern;contemporary     [[EaSoriy~/ADJ]]
 
@@ -979,7 +985,9 @@ lexicon = listing "Lexicon's properties"
     -- >EASyr  >aEASiyr        Ndip    tornadoes;hurricanes
     -- AEASyr  >aEASiyr        Ndip    tornadoes;hurricanes
 
-    HiFCAL                    `noun`    {- IiEoSAr -}          [ "tornado", "hurricane", "tornadoes", "hurricanes" ],
+    HiFCAL                    `noun`    {- IiEoSAr -}          [ "tornado", "hurricane", "tornadoes", "hurricanes" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a`A.siyr Ndip" ] -},
 
     -- ;; miEoSarap_1
     -- mESr    miEoSar Napdu   press;wringer
@@ -1008,20 +1016,6 @@ lexicon = listing "Lexicon's properties"
     -- mESwr   maEoSuwr        Nall    compressed;squeezed     [[maEoSuwr/ADJ]]
 
     MaFCUL                    `adj`     {- maEoSuwr -}         [ "compressed", "squeezed" ] ]
-
- |> "` .s r y" <| [
-
-    -- ;; EaSAriy_1
-    -- ESAry   EaSAriy N0_Nh   afternoon;afternoon prayer
-    -- ESAr    EaSAr   NK      afternoon;afternoon prayer
-
-    KaRADI                    `noun`    {- EaSAriy -}          [ "afternoon", "afternoon prayer" ],
-
-    -- ;; EaSAriy_1
-    -- ESAry   EaSAriy N0_Nh   afternoon;afternoon prayer
-    -- ESAr    EaSAr   NK      afternoon;afternoon prayer
-
-    KaRADI                    `noun`    {- EaSAriy -}          [ "afternoon", "afternoon prayer" ] ]
 
  |> "` .s w" <| [
 
@@ -1348,8 +1342,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCLAn                    `noun`    {- EaTo$An -}          [ "thirsty", "desirous" ]
                               `plural`     FiCAL
+                              `plural`     FuCALY
                               `plural`     FaCLY
-                           {- `others`  [ "`i.tA^s N", "`a.t^sY N0" ] -},
+                           {- `others`  [ "`i.tA^s N", "`u.tA^sY N0", "`a.t^sY N0" ] -},
 
     -- ;; EATi$_1
     -- EAT$    EATi$   Nall    thirsty;desirous     [[EATi$/ADJ]]
@@ -1981,7 +1976,9 @@ lexicon = listing "Lexicon's properties"
     -- ETy     EaTiy~  Napdu   gift;present     [[EaTiy~/NOUN]]
     -- ETAyA   EaTAyA  N0_Nhy  gifts;presents
 
-    FaCIL |< aT               `noun`    {- EaTiy~ap -}         [ "gift", "present", "gifts", "presents" ],
+    FaCIL |< aT               `noun`    {- EaTiy~ap -}         [ "gift", "present", "gifts", "presents" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "`a.tAyA N0_Nhy" ] -},
 
     -- ;; muEATAp_1
     -- mEATA   muEATA  Napdu   pursuit;devotion
@@ -2288,7 +2285,9 @@ lexicon = listing "Lexicon's properties"
     -- EZAy    EiZAy   Napdu   lizard
     -- EZAyA   EaZAyA  N0_Nhy  lizards
 
-    FiCAL |< aT               `noun`    {- EiZAyap -}          [ "lizard", "lizards" ] ]
+    FiCAL |< aT               `noun`    {- EiZAyap -}          [ "lizard", "lizards" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "`a.zAyA N0_Nhy" ] -} ]
 
  |> "` ^g ^g" <| [
 
@@ -2600,8 +2599,9 @@ lexicon = listing "Lexicon's properties"
     -- EjAlA   EajAlA  Nhy     swift;hurried
 
     FaCLAn                    `adj`     {- EajolAn -}          [ "swift", "hurried" ]
+                              `plural`     FaCALY
                               `plural`     FaCLY
-                           {- `others`  [ "`a^glY N0" ] -},
+                           {- `others`  [ "`a^gAlY N0", "`a^glY N0" ] -},
 
     -- ;; >aEojal_2
     -- >Ejl    >aEojal Nel     faster/fastest
@@ -3284,7 +3284,9 @@ lexicon = listing "Lexicon's properties"
     -- tE$yq   taEo$iyq        Nap     coupling;transmission
     -- tEA$yq  taEA$iyq        Ndip    coupling;transmission
 
-    TaFCIL |< aT              `noun`    {- taEo$iyqap -}       [ "coupling", "transmission" ],
+    TaFCIL |< aT              `noun`    {- taEo$iyqap -}       [ "coupling", "transmission" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta`A^siyq Ndip" ] -},
 
     -- ;; EA$iq_1
     -- EA$q    EA$iq   Nall    lover;fond of
@@ -3457,7 +3459,13 @@ lexicon = listing "Lexicon's properties"
     -- ;; EA$uwr_1
     -- EA$wr   EA$uwr  Nprop   Ashur
 
-    FACUL                     `noun`    {- EA$uwr -}           [ "Ashur" ] ]
+    FACUL                     `noun`    {- EA$uwr -}           [ "Ashur" ],
+
+    -- ;; EA$uwrA'_1
+    -- EA$wrA' EA$uwrA'        Ndip    Ashura
+    -- E$wrA'  Ea$uwrA'        Ndip    Ashura
+
+    FACULA'                   `noun`    {- EA$uwrA' -}         [ "Ashura" ] ]
 
  |> "` ^s r n" <| [
 
@@ -3622,7 +3630,9 @@ lexicon = listing "Lexicon's properties"
     -- E$y     Ea$iy~  NapAt   eve of;night before     [[Ea$iy~/NOUN]]
     -- E$AyA   Ea$AyA  N0_Nhy  evenings
 
-    FaCIL |< aT               `noun`    {- Ea$iy~ap -}         [ "eve of", "night before", "evenings" ] ]
+    FaCIL |< aT               `noun`    {- Ea$iy~ap -}         [ "eve of", "night before", "evenings" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "`a^sAyA N0_Nhy" ] -} ]
 
  |> "` _d b" <| [
 
@@ -3830,7 +3840,9 @@ lexicon = listing "Lexicon's properties"
     -- E*ArY   Ea*AraY N0      virgins
     -- E*ArA   Ea*ArA  Nhy     virgins
 
-    FaCLA'                    `noun`    {- Ea*orA' -}          [ "virgin", "virgins" ],
+    FaCLA'                    `noun`    {- Ea*orA' -}          [ "virgin", "virgins" ]
+                              `plural`     FaCALY
+                           {- `others`  [ "`a_dArY N0" ] -},
 
     -- ;; maEo*irap_1
     -- mE*r    maEo*ir Napdu   excuse;pardon
@@ -4625,7 +4637,9 @@ lexicon = listing "Lexicon's properties"
     -- tEbyr   taEobiyr        N/At    expression
     -- tEAbyr  taEAbiyr        Ndip    expressions
 
-    TaFCIL                    `noun`    {- taEobiyr -}         [ "expression", "expressions" ],
+    TaFCIL                    `noun`    {- taEobiyr -}         [ "expression", "expressions" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta`Abiyr Ndip" ] -},
 
     -- ;; taEobiyriy~_1
     -- tEbyry  taEobiyriy~     N-ap    expressive;expressionist     [[taEobiyriy~/ADJ]]
@@ -6404,6 +6418,14 @@ lexicon = listing "Lexicon's properties"
 
     TaFCI |< aT               `noun`    {- taEofiyap -}        [ "effacement", "obliteration" ],
 
+    -- ;; taEAfiy_1
+    -- tEAfy   taEAfiy N0_Nh   recovery;cure
+    -- tEAf    taEAf   NK      recovery;cure
+    -- tEAfy   taEAfiy NAn_Nayn        recovery;cure
+    -- tEAfy   taEAfiy NAt     recovery;cure
+
+    TaFACI                    `noun`    {- taEAfiy -}          [ "recovery", "cure" ],
+
     -- ;; EAfiy_1
     -- EAfy    EAfiy   N0F     effaced;obliterated     [[EAfiy/ADJ]]
     -- EAf     EAf     NK      effaced;obliterated
@@ -7471,7 +7493,9 @@ lexicon = listing "Lexicon's properties"
     -- tElym   taEoliym        NAt     instructions
     -- tEAlym  taEAliym        Ndip    precepts
 
-    TaFCIL                    `noun`    {- taEoliym -}         [ "education", "teaching", "instructions", "precepts" ],
+    TaFCIL                    `noun`    {- taEoliym -}         [ "education", "teaching", "instructions", "precepts" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta`Aliym Ndip" ] -},
 
     -- ;; taEoliymiy~_1
     -- tElymy  taEoliymiy~     N-ap    educational;pedagogical;instructional     [[taEoliymiy~/ADJ]]
@@ -7723,7 +7747,9 @@ lexicon = listing "Lexicon's properties"
     -- tElyq   taEoliyq        NAt     comments;remarks
     -- tEAlyq  taEAliyq        Ndip    commentaries;remarks
 
-    TaFCIL                    `noun`    {- taEoliyq -}         [ "comment", "remark", "commentary", "comments", "remarks", "commentaries" ],
+    TaFCIL                    `noun`    {- taEoliyq -}         [ "comment", "remark", "commentary", "comments", "remarks", "commentaries" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta`Aliyq Ndip" ] -},
 
     -- ;; taEoliyq_2
     -- tElyq   taEoliyq        N       suspension
@@ -11341,7 +11367,9 @@ lexicon = listing "Lexicon's properties"
     -- >EAryD  >aEAriyD        Ndip    prosody
     -- AEAryD  >aEAriyD        Ndip    prosody
 
-    FaCUL                     `noun`    {- EaruwD -}           [ "prosody" ],
+    FaCUL                     `noun`    {- EaruwD -}           [ "prosody" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a`Ariy.d Ndip" ] -},
 
     -- ;; EaruwDiy~_1
     -- ErwDy   EaruwDiy~       N-ap    prosodic     [[EaruwDiy~/ADJ]]
@@ -11641,6 +11669,11 @@ lexicon = listing "Lexicon's properties"
 
     MiFCAL                    `noun`    {- miEorAj -}          [ "ascension (of Muhammad) to heaven" ],
 
+    -- ;; taEAriyj_1
+    -- tEAryj  taEAriyj        Ndip    curvatures;windings
+
+    TaFACIL                   `noun`    {- taEAriyj -}         [ "curvatures", "windings" ],
+
     -- ;; taEar~uj_1
     -- tErj    taEar~uj        N/At    zigzag;winding
 
@@ -11726,7 +11759,9 @@ lexicon = listing "Lexicon's properties"
     -- tEry$   taEoriy$        Nap     trellis;pergola
     -- tEAry$  taEAriy$        Ndip    trellises;pergolas
 
-    TaFCIL |< aT              `noun`    {- taEoriy$ap -}       [ "trellis", "pergola", "trellises", "pergolas" ],
+    TaFCIL |< aT              `noun`    {- taEoriy$ap -}       [ "trellis", "pergola", "trellises", "pergolas" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta`Ariy^s Ndip" ] -},
 
     -- ;; EAri$ap_1
     -- EAr$    EAri$   Nap     vine;climbing
@@ -12085,7 +12120,9 @@ lexicon = listing "Lexicon's properties"
     -- tEryf   taEoriyf        Napdu   tariff
     -- tEAryf  taEAriyf        Ndip    tariffs
 
-    TaFCIL |< aT              `noun`    {- taEoriyfap -}       [ "tariff", "tariffs" ],
+    TaFCIL |< aT              `noun`    {- taEoriyfap -}       [ "tariff", "tariffs" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta`Ariyf Ndip" ] -},
 
     -- ;; taEoriyfiy~_1
     -- tEryfy  taEoriyfiy~     N-ap    tariff     [[taEoriyfiy~/ADJ]]
@@ -12703,7 +12740,9 @@ lexicon = listing "Lexicon's properties"
     -- EryAn   EuroyAn N-ap    naked;bare
     -- ErAyA   EarAyA  N0_Nhy  naked;bare
 
-    FuCLAn                    `noun`    {- EuroyAn -}          [ "naked", "bare" ],
+    FuCLAn                    `noun`    {- EuroyAn -}          [ "naked", "bare" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "`arAyA N0_Nhy" ] -},
 
     -- ;; taEoriyap_1
     -- tEry    taEoriy Nap     uncovering;exposure;unveiling
@@ -14202,7 +14241,9 @@ lexicon = listing "Lexicon's properties"
     -- tEwy*   taEowiy*        Ndu     amulet;incantation
     -- tEAwy*  taEAwiy*        Ndip    amulets;incantations
 
-    TaFCIL                    `noun`    {- taEowiy* -}         [ "amulet", "incantation", "amulets", "incantations" ],
+    TaFCIL                    `noun`    {- taEowiy* -}         [ "amulet", "incantation", "amulets", "incantations" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta`Awiy_d Ndip" ] -},
 
     -- ;; taEowiy*ap_1
     -- tEwy*   taEowiy*        NapAt   exorcism
@@ -15165,7 +15206,9 @@ lexicon = listing "Lexicon's properties"
     -- >EAwyz  >aEAwiyz        Ndip    poor;needy
     -- AEAwyz  >aEAwiyz        Ndip    poor;needy
 
-    HaFCaL                    `noun`    {- OaEowaz -}          [ "poor", "needy" ],
+    HaFCaL                    `noun`    {- OaEowaz -}          [ "poor", "needy" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a`Awiyz Ndip" ] -},
 
     -- ;; <iEowAz_1
     -- <EwAz   <iEowAz N/At    destitution;need
@@ -16792,14 +16835,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- EAj~uwriy~ -}       [ "Ajjouri" ] ]
 
- |> "`A^suwrA'" <| [
-
-    -- ;; EA$uwrA'_1
-    -- EA$wrA' EA$uwrA'        Ndip    Ashura
-    -- E$wrA'  Ea$uwrA'        Ndip    Ashura
-
-    Identity                  `noun`    {- EA$uwrA' -}         [ "Ashura" ] ]
-
  |> "`AlamAn" <| [
 
     -- ;; EAlamAniy~_1
@@ -18231,13 +18266,6 @@ lexicon = listing "Lexicon's properties"
     -- mElA    muEal~A N0      Mualla
 
     Identity                  `noun`    {- muEal~A -}          [ "Mualla" ] ]
-
- |> "ta`Ariy^g" <| [
-
-    -- ;; taEAriyj_1
-    -- tEAryj  taEAriyj        Ndip    curvatures;windings
-
-    Identity                  `noun`    {- taEAriyj -}         [ "curvatures", "windings" ] ]
 
  |> "ta`bA'" <| [
 

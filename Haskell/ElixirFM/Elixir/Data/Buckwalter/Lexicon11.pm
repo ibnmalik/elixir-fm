@@ -12543,7 +12543,11 @@ $Lexicon = {
         'zrAfY   zarAfY  N0      giraffes',
         'zrAfA   zarAfA  Nhy     giraffes'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'zarAfY' => [
+          'FaCALY'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCAL |< aT',
@@ -13172,7 +13176,11 @@ $Lexicon = {
         'zAwy    zAwiy   NapAt   corner;nook;angle',
         'zwAyA   zawAyA  N0_Nhy  corners;nooks;angles'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'zawAyA' => [
+          'FaCAyA'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACI |< aT',
@@ -13220,8 +13228,7 @@ $Lexicon = {
           'NAn_Nayn' => 1
         },
         'munzaw' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'munzawiy',
@@ -14552,8 +14559,7 @@ $Lexicon = {
     {
       'types' => {
         'zAh' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'zAhiy' => {
           'NapAt' => 1,
@@ -15450,8 +15456,7 @@ $Lexicon = {
     {
       'types' => {
         'muzr' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'muzriy' => {
           'N0F_Nh' => 1,
@@ -17528,9 +17533,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'zabAd' => {
-          'NK' => 1
-        },
         'zabAdiy' => {
           'N0_Nh' => 1
         },
@@ -17547,8 +17549,8 @@ $Lexicon = {
         'zbAd    zabAd   NK      bowls'
       ],
       'patterns' => {
-        'zabAd' => [
-          'FaCAL'
+        'zabAdiy' => [
+          'FaCALI'
         ]
       },
       'index' => '1',
@@ -18842,6 +18844,56 @@ $Lexicon = {
       ],
       'orig' => 'zibAnap',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        'zubAnA' => {
+          'Nhy' => 1
+        },
+        'zubAnY' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'zubAnY',
+      'form' => 'zubAnY',
+      'lines' => [
+        ';; zubAnaY_1',
+        'zbAnY   zubAnaY N0      claw',
+        'zbAnA   zubAnA  Nhy     claw'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCALY',
+      'suffix' => '',
+      'glosses' => [
+        'claw'
+      ],
+      'orig' => 'zubAnaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'zabAniyaT' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'zabAniy',
+      'form' => 'zabAniyaT',
+      'lines' => [
+        ';; zabAniyap_1',
+        'zbAny   zabAniy Nap     myrmidons'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCALI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'myrmidons'
+      ],
+      'orig' => 'zabAniyap',
+      'prefix' => ''
     }
   ],
   'z k y' => [
@@ -19474,35 +19526,6 @@ $Lexicon = {
         'vainglorious'
       ],
       'orig' => 'mazohuw~',
-      'prefix' => ''
-    }
-  ],
-  'zubAnY' => [
-    {
-      'types' => {
-        'zubAnA' => {
-          'Nhy' => 1
-        },
-        'zubAnY' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'zubAnY',
-      'form' => 'zubAnY',
-      'lines' => [
-        ';; zubAnaY_1',
-        'zbAnY   zubAnaY N0      claw',
-        'zbAnA   zubAnA  Nhy     claw'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'claw'
-      ],
-      'orig' => 'zubAnaY',
       'prefix' => ''
     }
   ],
@@ -24004,8 +24027,7 @@ $Lexicon = {
           'Nap' => 1
         },
         'zAn' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'zAniy' => {
           'NapAt' => 1,
@@ -24044,9 +24066,6 @@ $Lexicon = {
       'types' => {
         'zawAniy' => {
           'N0_Nh' => 1
-        },
-        'zawAn' => {
-          'NK' => 1
         },
         'zAniyaT' => {
           'Napdu' => 1
@@ -24283,45 +24302,6 @@ $Lexicon = {
       'orig' => 'IizohAq',
       'prefix' => ''
     }
-  ],
-  'z b n y' => [
-    {
-      'types' => {
-        'zabAniyaT' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'zabAniy',
-      'form' => 'zabAniyaT',
-      'lines' => [
-        ';; zabAniyap_1',
-        'zbAny   zabAniy Nap     myrmidons'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRADI |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'myrmidons'
-      ],
-      'orig' => 'zabAniyap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'zabAniy',
-      'form' => 'zabAniyaT',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRADI |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [],
-      'orig' => 'zabAniyap',
-      'prefix' => ''
-    }
   ]
 };
 $Lexicon->{'z y f'}[6]{'types'} = $Lexicon->{'z \' f'}[0]{'types'};
@@ -24419,6 +24399,3 @@ $Lexicon->{'z ^g y'}[0]{'glosses'} = $Lexicon->{'z ^g w'}[3]{'glosses'};
 $Lexicon->{'z n y'}[2]{'types'} = $Lexicon->{'z n \''}[4]{'types'};
 $Lexicon->{'z n y'}[2]{'lines'} = $Lexicon->{'z n \''}[4]{'lines'};
 $Lexicon->{'z n y'}[2]{'glosses'} = $Lexicon->{'z n \''}[4]{'glosses'};
-$Lexicon->{'z b n y'}[1]{'types'} = $Lexicon->{'z b n y'}[0]{'types'};
-$Lexicon->{'z b n y'}[1]{'lines'} = $Lexicon->{'z b n y'}[0]{'lines'};
-$Lexicon->{'z b n y'}[1]{'glosses'} = $Lexicon->{'z b n y'}[0]{'glosses'};

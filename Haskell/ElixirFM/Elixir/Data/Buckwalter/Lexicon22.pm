@@ -1169,113 +1169,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kiymiyA\'' => [
-    {
-      'types' => {
-        'kiymiyA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => 'kiymiyA\'',
-      'form' => 'kiymiyA\'',
-      'lines' => [
-        ';; kiymiyA\'_1',
-        'kymyA\'  kiymiyA\'        N0_Nh   chemistry',
-        'kymyA&  kiymiyA&        Nh      chemistry',
-        'kymyA}  kiymiyA}        Nhy     chemistry'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'chemistry'
-      ],
-      'orig' => 'kiymiyA\'',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'kiymA\'iyy' => {
-          'N-ap' => 1
-        },
-        'kiymAwiyy' => {
-          'N-ap' => 1
-        },
-        'kiymiyy' => {
-          'N-ap' => 1
-        },
-        'kiymiyAwiyy' => {
-          'N-ap' => 1
-        },
-        'kiymiyA\'iyy' => {
-          'N-ap' => 1
-        }
-      },
-      'entry' => 'kiymiyA\'',
-      'form' => 'kiymiyA\'iyy',
-      'lines' => [
-        ';; kiymiyA}iy~_1',
-        'kymyA}y kiymiyA}iy~     N-ap    chemical     [[kiymiyA}iy~/ADJ]]',
-        'kymyAwy kiymiyAwiy~     N-ap    chemical     [[kiymiyAwiy~/ADJ]]',
-        'kymy    kiymiy~ N-ap    chemical     [[kiymiy~/ADJ]]',
-        'kymA}y  kiymA}iy~       N-ap    chemical     [[kiymA}iy~/ADJ]]',
-        'kymAwy  kiymAwiy~       N-ap    chemical     [[kiymAwiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'chemical'
-      ],
-      'orig' => 'kiymiyA}iy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'kiymA\'iyy' => {
-          'Nall' => 1
-        },
-        'kiymAwiyy' => {
-          'Nall' => 1
-        },
-        'kiymiyy' => {
-          'Nall' => 1
-        },
-        'kiymiyAwiyy' => {
-          'Nall' => 1
-        },
-        'kiymiyA\'iyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'kiymiyA\'',
-      'form' => 'kiymiyA\'iyy',
-      'lines' => [
-        ';; kiymiyA}iy~_2',
-        'kymyA}y kiymiyA}iy~     Nall    chemist     [[kiymiyA}iy~/ADJ]]',
-        'kymyAwy kiymiyAwiy~     Nall    chemist     [[kiymiyAwiy~/ADJ]]',
-        'kymy    kiymiy~ Nall    chemist     [[kiymiy~/ADJ]]',
-        'kymA}y  kiymA}iy~       Nall    chemist     [[kiymA}iy~/ADJ]]',
-        'kymAwy  kiymAwiy~       Nall    chemist     [[kiymAwiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'chemist'
-      ],
-      'orig' => 'kiymiyA}iy~',
-      'prefix' => ''
-    }
-  ],
   'km' => [
     {
       'types' => {
@@ -2625,6 +2518,9 @@ $Lexicon = {
         'ksArA   kasArA  Nhy     broken;fractured;defeated'
       ],
       'patterns' => {
+        'kasArY' => [
+          'FaCALY'
+        ],
         'kasrY' => [
           'FaCLY'
         ]
@@ -4112,39 +4008,6 @@ $Lexicon = {
         'hocking'
       ],
       'orig' => 'karosafap',
-      'prefix' => ''
-    }
-  ],
-  'kibriyA\'' => [
-    {
-      'types' => {
-        'mukAbar' => {
-          'NapAt' => 1
-        },
-        'kibriyA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => 'kibriyA\'',
-      'form' => 'kibriyA\'',
-      'lines' => [
-        ';; kiboriyA\'_1',
-        'kbryA\'  kiboriyA\'       N0_Nh   arrogance',
-        'kbryA&  kiboriyA&       Nh      arrogance',
-        'kbryA}  kiboriyA}       Nhy     arrogance',
-        'mkAbr   mukAbar NapAt   arrogance'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'arrogance'
-      ],
-      'orig' => 'kiboriyA\'',
       'prefix' => ''
     }
   ],
@@ -6358,6 +6221,41 @@ $Lexicon = {
     },
     {
       'types' => {
+        'mukAbar' => {
+          'NapAt' => 1
+        },
+        'kibriyA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'kibriyA\'',
+      'form' => 'kibriyA\'',
+      'lines' => [
+        ';; kiboriyA\'_1',
+        'kbryA\'  kiboriyA\'       N0_Nh   arrogance',
+        'kbryA&  kiboriyA&       Nh      arrogance',
+        'kbryA}  kiboriyA}       Nhy     arrogance',
+        'mkAbr   mukAbar NapAt   arrogance'
+      ],
+      'patterns' => {
+        'mukAbar' => [
+          'MuFACaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCLiyA\'',
+      'suffix' => '',
+      'glosses' => [
+        'arrogance'
+      ],
+      'orig' => 'kiboriyA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'takbiyr' => {
           'N/At' => 1
         }
@@ -7313,8 +7211,7 @@ $Lexicon = {
     {
       'types' => {
         'mukAr' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mukAriy' => {
           'N0F_Nh' => 1,
@@ -7351,8 +7248,7 @@ $Lexicon = {
           'NAn_Nayn' => 1
         },
         'mukr' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         }
       },
       'entry' => 'mukriy',
@@ -7421,8 +7317,7 @@ $Lexicon = {
     {
       'types' => {
         'muktar' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'muktariy' => {
           'NapAt' => 1,
@@ -7456,8 +7351,7 @@ $Lexicon = {
     {
       'types' => {
         'mustakr' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'mustakriy' => {
           'N0F_Nh' => 1,
@@ -7512,43 +7406,6 @@ $Lexicon = {
         'Kiryat'
       ],
       'orig' => 'kiroyAt',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'kawAriy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'kawAriy',
-      'form' => 'kawAriy',
-      'lines' => [
-        ';; kawAriy_1',
-        'kwAry   kawAriy N0      Kawari'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FawACI',
-      'suffix' => '',
-      'glosses' => [
-        'Kawari'
-      ],
-      'orig' => 'kawAriy',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'kawAriy',
-      'form' => 'kawAriy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FawACI',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'kawAriy',
       'prefix' => ''
     }
   ],
@@ -8805,6 +8662,9 @@ $Lexicon = {
         'tkAlyf  takAliyf        Ndip    costs;expenses;charges'
       ],
       'patterns' => {
+        'takAliyf' => [
+          'TaFACIL'
+        ],
         'taklif' => [
           'TaFCiL'
         ]
@@ -9667,9 +9527,6 @@ $Lexicon = {
         },
         'kusY' => {
           'N0' => 1
-        },
-        'kasAw' => {
-          'NK' => 1
         }
       },
       'entry' => 'kisw',
@@ -9688,8 +9545,8 @@ $Lexicon = {
         'kisY' => [
           'FiCY'
         ],
-        'kasAw' => [
-          'FaCAL'
+        'kasAwiy' => [
+          'FaCALI'
         ],
         'kusY' => [
           'FuCY'
@@ -10222,9 +10079,6 @@ $Lexicon = {
       'types' => {
         'kawAhiy' => {
           'N0_Nh' => 1
-        },
-        'kawAh' => {
-          'NK' => 1
         },
         'kAhiyaT' => {
           'Napdu' => 1
@@ -11071,9 +10925,6 @@ $Lexicon = {
           'NapAt' => 1,
           'NAn_Nayn' => 1,
           'N0F' => 1
-        },
-        'kAb' => {
-          'NK' => 1
         }
       },
       'entry' => 'kAbiy',
@@ -15522,9 +15373,6 @@ $Lexicon = {
         'karAsiyy' => {
           'N' => 1
         },
-        'karAs' => {
-          'NK' => 1
-        },
         'kursiyy' => {
           'Ndu' => 1
         }
@@ -15828,9 +15676,6 @@ $Lexicon = {
         'makAwiy' => {
           'N0_Nh' => 1
         },
-        'makAw' => {
-          'NK' => 1
-        },
         'makwY' => {
           'N0' => 1
         }
@@ -15910,9 +15755,6 @@ $Lexicon = {
           'NapAt' => 1,
           'NAn_Nayn' => 1,
           'N0F' => 1
-        },
-        'kAw' => {
-          'NK' => 1
         }
       },
       'entry' => 'kAwiy',
@@ -16950,9 +16792,6 @@ $Lexicon = {
   'k _h y' => [
     {
       'types' => {
-        'kawA_h' => {
-          'NK' => 1
-        },
         'kawA_hiy' => {
           'N0_Nh' => 1
         },
@@ -17417,8 +17256,14 @@ $Lexicon = {
         'ksAlA   kusAlA  Nhy     lazy'
       ],
       'patterns' => {
+        'kasAlY' => [
+          'FaCALY'
+        ],
         'kaslY' => [
           'FaCLY'
+        ],
+        'kusAlY' => [
+          'FuCALY'
         ]
       },
       'index' => '1',
@@ -18008,6 +17853,111 @@ $Lexicon = {
         'Kim'
       ],
       'orig' => 'kiym',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'kiymiyA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'kiymiyA\'',
+      'form' => 'kiymiyA\'',
+      'lines' => [
+        ';; kiymiyA\'_1',
+        'kymyA\'  kiymiyA\'        N0_Nh   chemistry',
+        'kymyA&  kiymiyA&        Nh      chemistry',
+        'kymyA}  kiymiyA}        Nhy     chemistry'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FILiyA\'',
+      'suffix' => '',
+      'glosses' => [
+        'chemistry'
+      ],
+      'orig' => 'kiymiyA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'kiymA\'iyy' => {
+          'N-ap' => 1
+        },
+        'kiymAwiyy' => {
+          'N-ap' => 1
+        },
+        'kiymiyy' => {
+          'N-ap' => 1
+        },
+        'kiymiyAwiyy' => {
+          'N-ap' => 1
+        },
+        'kiymiyA\'iyy' => {
+          'N-ap' => 1
+        }
+      },
+      'entry' => 'kiymiyA\'',
+      'form' => 'kiymiyA\'iyy',
+      'lines' => [
+        ';; kiymiyA}iy~_1',
+        'kymyA}y kiymiyA}iy~     N-ap    chemical     [[kiymiyA}iy~/ADJ]]',
+        'kymyAwy kiymiyAwiy~     N-ap    chemical     [[kiymiyAwiy~/ADJ]]',
+        'kymy    kiymiy~ N-ap    chemical     [[kiymiy~/ADJ]]',
+        'kymA}y  kiymA}iy~       N-ap    chemical     [[kiymA}iy~/ADJ]]',
+        'kymAwy  kiymAwiy~       N-ap    chemical     [[kiymAwiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FILiyA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'chemical'
+      ],
+      'orig' => 'kiymiyA}iy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'kiymA\'iyy' => {
+          'Nall' => 1
+        },
+        'kiymAwiyy' => {
+          'Nall' => 1
+        },
+        'kiymiyy' => {
+          'Nall' => 1
+        },
+        'kiymiyAwiyy' => {
+          'Nall' => 1
+        },
+        'kiymiyA\'iyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'kiymiyA\'',
+      'form' => 'kiymiyA\'iyy',
+      'lines' => [
+        ';; kiymiyA}iy~_2',
+        'kymyA}y kiymiyA}iy~     Nall    chemist     [[kiymiyA}iy~/ADJ]]',
+        'kymyAwy kiymiyAwiy~     Nall    chemist     [[kiymiyAwiy~/ADJ]]',
+        'kymy    kiymiy~ Nall    chemist     [[kiymiy~/ADJ]]',
+        'kymA}y  kiymA}iy~       Nall    chemist     [[kiymA}iy~/ADJ]]',
+        'kymAwy  kiymAwiy~       Nall    chemist     [[kiymAwiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'FILiyA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'chemist'
+      ],
+      'orig' => 'kiymiyA}iy~',
       'prefix' => ''
     }
   ],
@@ -27444,7 +27394,11 @@ $Lexicon = {
         'kyk     kayok   Napdu   egg',
         'kyAky   kayAkiy N0      eggs'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'kayAkiy' => [
+          'FaCALI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL |< aT',
@@ -28840,9 +28794,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'kAf' => {
-          'NK' => 1
-        },
         'kAfiy' => {
           'NapAt' => 1,
           'NAn_Nayn' => 1,
@@ -28882,8 +28833,7 @@ $Lexicon = {
     {
       'types' => {
         'muktaf' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
+          'Nuwn_Niyn' => 1
         },
         'muktafiy' => {
           'NapAt' => 1,
@@ -40169,34 +40119,6 @@ $Lexicon = {
   ],
   'k w r y' => [
     {
-      'types' => {},
-      'entry' => 'kawAriy',
-      'form' => 'kawAriy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRADI',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'kawAriy',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'kawAriy',
-      'form' => 'kawAriy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRADI',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'kawAriy',
-      'prefix' => ''
-    },
-    {
       'types' => {
         'kuwriyyaT' => {
           'Napdu' => 1
@@ -42119,7 +42041,11 @@ $Lexicon = {
         'tkryz   takoriyz        Ndu     consecration;benediction',
         'tkAryz  takAriyz        Ndip    consecrations;benedictions'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'takAriyz' => [
+          'TaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCIL',
@@ -45160,6 +45086,29 @@ $Lexicon = {
         'beehives'
       ],
       'orig' => 'kuwArap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'kawAriy' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'kawAriy',
+      'form' => 'kawAriy',
+      'lines' => [
+        ';; kawAriy_1',
+        'kwAry   kawAriy N0      Kawari'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCALI',
+      'suffix' => '',
+      'glosses' => [
+        'Kawari'
+      ],
+      'orig' => 'kawAriy',
       'prefix' => ''
     },
     {
@@ -48250,9 +48199,6 @@ $Lexicon = {
 $Lexicon->{'k r y'}[1]{'types'} = $Lexicon->{'k r y'}[0]{'types'};
 $Lexicon->{'k r y'}[1]{'lines'} = $Lexicon->{'k r y'}[0]{'lines'};
 $Lexicon->{'k r y'}[1]{'glosses'} = $Lexicon->{'k r y'}[0]{'glosses'};
-$Lexicon->{'k r y'}[21]{'types'} = $Lexicon->{'k r y'}[20]{'types'};
-$Lexicon->{'k r y'}[21]{'lines'} = $Lexicon->{'k r y'}[20]{'lines'};
-$Lexicon->{'k r y'}[21]{'glosses'} = $Lexicon->{'k r y'}[20]{'glosses'};
 $Lexicon->{'k s w'}[7]{'types'} = $Lexicon->{'k s \''}[0]{'types'};
 $Lexicon->{'k s w'}[7]{'lines'} = $Lexicon->{'k s \''}[0]{'lines'};
 $Lexicon->{'k s w'}[7]{'glosses'} = $Lexicon->{'k s \''}[0]{'glosses'};
@@ -48319,12 +48265,6 @@ $Lexicon->{'k w w'}[2]{'glosses'} = $Lexicon->{'k w \''}[0]{'glosses'};
 $Lexicon->{'k w w'}[3]{'types'} = $Lexicon->{'k w \''}[1]{'types'};
 $Lexicon->{'k w w'}[3]{'lines'} = $Lexicon->{'k w \''}[1]{'lines'};
 $Lexicon->{'k w w'}[3]{'glosses'} = $Lexicon->{'k w \''}[1]{'glosses'};
-$Lexicon->{'k w r y'}[0]{'types'} = $Lexicon->{'k r y'}[20]{'types'};
-$Lexicon->{'k w r y'}[0]{'lines'} = $Lexicon->{'k r y'}[20]{'lines'};
-$Lexicon->{'k w r y'}[0]{'glosses'} = $Lexicon->{'k r y'}[20]{'glosses'};
-$Lexicon->{'k w r y'}[1]{'types'} = $Lexicon->{'k r y'}[20]{'types'};
-$Lexicon->{'k w r y'}[1]{'lines'} = $Lexicon->{'k r y'}[20]{'lines'};
-$Lexicon->{'k w r y'}[1]{'glosses'} = $Lexicon->{'k r y'}[20]{'glosses'};
 $Lexicon->{'k w m r'}[0]{'types'} = $Lexicon->{'k m r'}[3]{'types'};
 $Lexicon->{'k w m r'}[0]{'lines'} = $Lexicon->{'k m r'}[3]{'lines'};
 $Lexicon->{'k w m r'}[0]{'glosses'} = $Lexicon->{'k m r'}[3]{'glosses'};

@@ -824,9 +824,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "_h l y" <| [
 
-    FaCIL |< aT               `noun`    {- xaliy~ap -}         [ "cell", "cells" ],
+    FaCIL |< aT               `noun`    {- xaliy~ap -}         [ "cell", "cells" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "_halAyA N0_Nhy" ] -},
 
-    FaCIL |< aT               `noun`    {- xaliy~ap -}         [ "beehive", "beehives" ],
+    FaCIL |< aT               `noun`    {- xaliy~ap -}         [ "beehive", "beehives" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "_halAyA N0_Nhy" ] -},
 
     TaFCI |< aT               `noun`    {- taxoliyap -}        [ "vacating", "evacuation" ],
 

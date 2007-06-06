@@ -34,8 +34,7 @@ lexicon = listing "Lexicon's properties"
     -- jA}y    jA}iy   NapAt   coming;arriving
 
     FACI                      `noun`    {- jA}iy -}            [ "coming", "arriving" ]
-                              `plural`     FAL |< Un
-                           {- `others`  [ "^gA' NK" ] -} ]
+                              `plural`     FAL |< Un ]
 
  |> "^g ' .h" <| [
 
@@ -1167,6 +1166,11 @@ lexicon = listing "Lexicon's properties"
     -- jEydy   jaEiydiy~       Nall    loafer;bum     [[jaEiydiy~/ADJ]]
 
     FaCIL |< Iy               `adj`     {- jaEiydiy~ -}        [ "loafer", "bum" ],
+
+    -- ;; tajAEiyd_1
+    -- tjAEyd  tajAEiyd        Ndip    wrinkles
+
+    TaFACIL                   `noun`    {- tajAEiyd -}         [ "wrinkles" ],
 
     -- ;; tajaE~udAt_1
     -- tjEd    tajaE~ud        NAt     wrinkles
@@ -2587,7 +2591,9 @@ lexicon = listing "Lexicon's properties"
     -- tjfAf   tijofAf Ndu     protective armor
     -- tjAfyf  tajAfiyf        Ndip    protective armor
 
-    TiFCAL                    `noun`    {- tijofAf -}          [ "protective armor" ],
+    TiFCAL                    `noun`    {- tijofAf -}          [ "protective armor" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta^gAfiyf Ndip" ] -},
 
     -- ;; tajofiyf_1
     -- tjfyf   tajofiyf        NduAt   drying;desiccation;dehydration
@@ -4438,7 +4444,9 @@ lexicon = listing "Lexicon's properties"
     -- jly     jaliy~  Nap     sure thing;plain fact     [[jaliy~/NOUN]]
     -- jlAyA   jalAyA  N0_Nhy  sure things;plain facts
 
-    FaCIL |< aT               `noun`    {- jaliy~ap -}         [ "sure thing", "plain fact", "sure things", "plain facts" ],
+    FaCIL |< aT               `noun`    {- jaliy~ap -}         [ "sure thing", "plain fact", "sure things", "plain facts" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "^galAyA N0_Nhy" ] -},
 
     -- ;; jalayAn_1
     -- jlyAn   jalayAn N       vision;revelation
@@ -4861,6 +4869,12 @@ lexicon = listing "Lexicon's properties"
     -- jmAd    jumAd   N0      Jumad
 
     FuCAL                     `noun`    {- jumAd -}            [ "Jumad" ],
+
+    -- ;; jumAdaY_1
+    -- jmAdY   jumAdaY N0      Jumada (part of 5th and 6th month names in Islamic calendar)
+    -- jmAdy   jumAday NAt     Jumadas  (5th and 6th months in Islamic calendar)
+
+    FuCALY                    `noun`    {- jumAdaY -}          [ "Jumada (part of 5th and 6th month names in Islamic calendar)", "Jumadas  (5th and 6th months in Islamic calendar)" ],
 
     -- ;; jumuwd_1
     -- jmwd    jumuwd  N       freezing;inertia;deadlock
@@ -6640,7 +6654,9 @@ lexicon = listing "Lexicon's properties"
     -- tjrb    tajorib Napdu   experience;experiment
     -- tjArb   tajArib Ndip    experiences;experiments
 
-    TaFCiL |< aT              `noun`    {- tajoribap -}        [ "experience", "experiment", "experiences", "experiments" ],
+    TaFCiL |< aT              `noun`    {- tajoribap -}        [ "experience", "experiment", "experiences", "experiments" ]
+                              `plural`     TaFACiL
+                           {- `others`  [ "ta^gArib Ndip" ] -},
 
     -- ;; tajoriyb_1
     -- tjryb   tajoriyb        NduAt   trial;test
@@ -6771,7 +6787,9 @@ lexicon = listing "Lexicon's properties"
     -- tjryd   tajoriyd        NapAt   military detachment;expeditionary force
     -- tjAryd  tajAriyd        Ndip    military detachments;expeditionary forces
 
-    TaFCIL |< aT              `noun`    {- tajoriydap -}       [ "military detachment", "expeditionary force", "military detachments", "expeditionary forces" ],
+    TaFCIL |< aT              `noun`    {- tajoriydap -}       [ "military detachment", "expeditionary force", "military detachments", "expeditionary forces" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta^gAriyd Ndip" ] -},
 
     -- ;; tajoriydiy~_1
     -- tjrydy  tajoriydiy~     Nall    abstract     [[tajoriydiy~/ADJ]]
@@ -8204,8 +8222,9 @@ lexicon = listing "Lexicon's properties"
     -- AjAwyd  >ajAwiyd        Ndip    better/best;more/most generous
 
     HaFCaL                    `noun`    {- Oajowad -}          [ "better/best", "more/most generous" ]
+                              `plural`     HaFACIL
                               `plural`     FaCLA'
-                           {- `others`  [ "^gawdA' Nh N0_Nh Nhy" ] -} ]
+                           {- `others`  [ "'a^gAwiyd Ndip", "^gawdA' Nh N0_Nh Nhy" ] -} ]
 
  |> "^g w f" <| [
 
@@ -8246,7 +8265,9 @@ lexicon = listing "Lexicon's properties"
     -- tjwyf   tajowiyf        NduAt   cavity
     -- tjAwyf  tajAwiyf        Ndip    cavities
 
-    TaFCIL                    `noun`    {- tajowiyf -}         [ "cavity", "cavities" ],
+    TaFCIL                    `noun`    {- tajowiyf -}         [ "cavity", "cavities" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta^gAwiyf Ndip" ] -},
 
     -- ;; mujaw~af_1
     -- mjwf    mujaw~af        Nall    hollow;hollowed out     [[mujaw~af/ADJ]]
@@ -8980,8 +9001,7 @@ lexicon = listing "Lexicon's properties"
     -- jA}y    jA}iy   NapAt   coming;arriving
 
     FA'I                      `noun`    {- jA}iy -}            [ "coming", "arriving" ]
-                              `plural`     FAL |< Un
-                           {- `others`  [ "^gA' NK" ] -} ]
+                              `plural`     FAL |< Un ]
 
  |> "^g y .h" <| [
 
@@ -10627,14 +10647,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- julub~An -}         [ "grass pea" ] ]
 
- |> "^gumAdY" <| [
-
-    -- ;; jumAdaY_1
-    -- jmAdY   jumAdaY N0      Jumada (part of 5th and 6th month names in Islamic calendar)
-    -- jmAdy   jumAday NAt     Jumadas  (5th and 6th months in Islamic calendar)
-
-    Identity                  `noun`    {- jumAdaY -}          [ "Jumada (part of 5th and 6th month names in Islamic calendar)", "Jumadas  (5th and 6th months in Islamic calendar)" ] ]
-
  |> "^gumlaTa" <| [
 
     -- ;; jumolapa_1
@@ -10949,13 +10961,6 @@ lexicon = listing "Lexicon's properties"
     -- mjddy   mujad~idiy      N0      Mojaddedi;Mujaddedi
 
     Identity                  `noun`    {- mujad~idiy -}       [ "Mojaddedi", "Mujaddedi" ] ]
-
- |> "ta^gA`iyd" <| [
-
-    -- ;; tajAEiyd_1
-    -- tjAEyd  tajAEiyd        Ndip    wrinkles
-
-    Identity                  `noun`    {- tajAEiyd -}         [ "wrinkles" ] ]
 
  |> "ta^gill" <| [
 

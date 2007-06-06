@@ -1416,7 +1416,9 @@ lexicon = listing "Lexicon's properties"
     -- HZy     HaZiy~  Napdu   mistress;paramour     [[HaZiy~/NOUN]]
     -- HZAyA   HaZAyA  N0_Nhy  mistresses;paramours
 
-    FaCIL |< aT               `noun`    {- HaZiy~ap -}         [ "mistress", "paramour", "mistresses", "paramours" ],
+    FaCIL |< aT               `noun`    {- HaZiy~ap -}         [ "mistress", "paramour", "mistresses", "paramours" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ ".ha.zAyA N0_Nhy" ] -},
 
     -- ;; maHoZiy~_1
     -- mHZy    maHoZiy~        Nall    favorite;darling;favored     [[maHoZiy~/ADJ]]
@@ -2497,11 +2499,21 @@ lexicon = listing "Lexicon's properties"
 
     TaFCI |< aT               `noun`    {- taHo$iyap -}        [ "insertion", "interpolation" ],
 
+    -- ;; taHA$iy_1
+    -- tHA$y   taHA$iy N0_Nh   avoidance
+    -- tHA$    taHA$   NK      avoidance
+    -- tHA$y   taHA$iy NAn_Nayn        avoidance
+    -- tHA$y   taHA$iy NAt     avoidance
+
+    TaFACI                    `noun`    {- taHA$iy -}          [ "avoidance" ],
+
     -- ;; Ha$iy~ap_1
     -- H$y     Ha$iy~  NapAt   cushion;mattress     [[Ha$iy~/NOUN]]
     -- H$AyA   Ha$AyA  N0_Nhy  cushions;mattresses
 
-    FaCIL |< aT               `noun`    {- Ha$iy~ap -}         [ "cushion", "mattress", "cushions", "mattresses" ],
+    FaCIL |< aT               `noun`    {- Ha$iy~ap -}         [ "cushion", "mattress", "cushions", "mattresses" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ ".ha^sAyA N0_Nhy" ] -},
 
     -- ;; HA$iyap_1
     -- HA$y    HA$iy   Napdu   margin;edge;retinue
@@ -3308,7 +3320,9 @@ lexicon = listing "Lexicon's properties"
     -- HbAlY   HabAlaY N0      pregnant
     -- HbAlA   HabAlA  Nhy     pregnant
 
-    FuCLY                     `noun`    {- HubolaY -}          [ "pregnant" ],
+    FuCLY                     `noun`    {- HubolaY -}          [ "pregnant" ]
+                              `plural`     FaCALY
+                           {- `others`  [ ".habAlY N0" ] -},
 
     -- ;; HibAlap_1
     -- HbAl    HibAl   Napdu   snare;net
@@ -3424,7 +3438,13 @@ lexicon = listing "Lexicon's properties"
     MiFCaL |< aT              `noun`    {- miHobarap -}        [ "inkwell", "inkwells" ]
                               `plural`     MaFACiL
                               `plural`     MaFCaL
-                           {- `others`  [ "ma.hAbir Ndip", "ma.hbar Napdu" ] -} ]
+                           {- `others`  [ "ma.hAbir Ndip", "ma.hbar Napdu" ] -},
+
+    -- ;; HubAraY_1
+    -- HbArY   HubAraY N0      bustard
+    -- HbAry   HubAray NAt     bustards
+
+    FuCALY                    `noun`    {- HubAraY -}          [ "bustard", "bustards" ] ]
 
  |> ".h b s" <| [
 
@@ -3729,14 +3749,18 @@ lexicon = listing "Lexicon's properties"
     -- >HAdyv  >aHAdiyv        Ndip    discussions;talks
     -- AHAdyv  >aHAdiyv        Ndip    discussions;talks
 
-    FaCIL                     `noun`    {- Hadiyv -}           [ "discussion", "talk", "interview", "discussions", "talks" ],
+    FaCIL                     `noun`    {- Hadiyv -}           [ "discussion", "talk", "interview", "discussions", "talks" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a.hAdiy_t Ndip" ] -},
 
     -- ;; Hadiyv_3
     -- Hdyv    Hadiyv  Ndu     Hadith (Islamic tradition)
     -- >HAdyv  >aHAdiyv        Ndip    Hadiths (Islamic traditions)
     -- AHAdyv  >aHAdiyv        Ndip    Hadiths (Islamic traditions)
 
-    FaCIL                     `noun`    {- Hadiyv -}           [ "Hadith (Islamic tradition)", "Hadiths (Islamic traditions)" ],
+    FaCIL                     `noun`    {- Hadiyv -}           [ "Hadith (Islamic tradition)", "Hadiths (Islamic traditions)" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a.hAdiy_t Ndip" ] -},
 
     -- ;; Hadiyviy~_1
     -- Hdyvy   Hadiyviy~       N0      Hadithi
@@ -5918,7 +5942,9 @@ lexicon = listing "Lexicon's properties"
     -- tHlyl   taHoliyl        NduAt   analysis;dissolution
     -- tHAlyl  taHAliyl        Ndip    analyses
 
-    TaFCIL                    `noun`    {- taHoliyl -}         [ "analysis", "dissolution", "analyses" ],
+    TaFCIL                    `noun`    {- taHoliyl -}         [ "analysis", "dissolution", "analyses" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.hAliyl Ndip" ] -},
 
     -- ;; taHoliyliy~_1
     -- tHlyly  taHoliyliy~     Nall    analytical     [[taHoliyliy~/ADJ]]
@@ -6273,8 +6299,14 @@ lexicon = listing "Lexicon's properties"
     -- HlAwA   HalAwA  Nhy     pastries;desserts;sweets
 
     FaCLY                     `noun`    {- HalowaY -}          [ "pastry", "dessert", "sweets", "pastries", "desserts" ]
+                              `plural`     FaCALY
                               `plural`     FuCLY
-                           {- `others`  [ ".hulwY N0" ] -},
+                           {- `others`  [ ".halAwY N0", ".hulwY N0" ] -},
+
+    -- ;; HalAwaY_1
+    -- HlAwY   HalAwaY N0      Halawa
+
+    FaCALY                    `noun`    {- HalAwaY -}          [ "Halawa" ],
 
     -- ;; HalowA'_1
     -- HlwA'   HalowA' N0_Nh   candy
@@ -6908,7 +6940,9 @@ lexicon = listing "Lexicon's properties"
     -- tHmyl   taHomiyl        Nap     suppository
     -- tHAmyl  taHAmiyl        Ndip    suppositories
 
-    TaFCIL |< aT              `noun`    {- taHomiylap -}       [ "suppository", "suppositories" ],
+    TaFCIL |< aT              `noun`    {- taHomiylap -}       [ "suppository", "suppositories" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.hAmiyl Ndip" ] -},
 
     -- ;; taHam~ul_1
     -- tHml    taHam~ul        NduAt   assumption;bearing;duties
@@ -8144,7 +8178,9 @@ lexicon = listing "Lexicon's properties"
     -- Hny     Haniy~  Nap     arc;curvature     [[Haniy~/NOUN]]
     -- HnAyA   HanAyA  N0_Nhy  arcs;curvatures;bosom
 
-    FaCIL |< aT               `noun`    {- Haniy~ap -}         [ "arc", "curvature", "arcs", "curvatures", "bosom" ],
+    FaCIL |< aT               `noun`    {- Haniy~ap -}         [ "arc", "curvature", "arcs", "curvatures", "bosom" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ ".hanAyA N0_Nhy" ] -},
 
     -- ;; HinAyap_1
     -- HnAy    HinAy   Nap     curvature;bending
@@ -9649,6 +9685,11 @@ lexicon = listing "Lexicon's properties"
 
     MaFCaL |< aT              `noun`    {- maHoraqap -}        [ "holocaust" ],
 
+    -- ;; taHAriyq_1
+    -- tHAryq  taHAriyq        Ndip    hottest season
+
+    TaFACIL                   `noun`    {- taHAriyq -}         [ "hottest season" ],
+
     -- ;; <iHorAq_1
     -- <HrAq   <iHorAq NduAt   burning;combustion
     -- AHrAq   <iHorAq NduAt   burning;combustion
@@ -10526,7 +10567,9 @@ lexicon = listing "Lexicon's properties"
     -- tHsyn   taHosiyn        NAt     improvements;beautification
     -- tHAsyn  taHAsiyn        Ndip    ornamentation
 
-    TaFCIL                    `noun`    {- taHosiyn -}         [ "improvement", "beautification", "improvements", "ornamentation" ],
+    TaFCIL                    `noun`    {- taHosiyn -}         [ "improvement", "beautification", "improvements", "ornamentation" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.hAsiyn Ndip" ] -},
 
     -- ;; muHAsanap_1
     -- mHAsn   muHAsan NapAt   kindliness;friendliness
@@ -11755,6 +11798,13 @@ lexicon = listing "Lexicon's properties"
 
     FAL |< Iy                 `adj`     {- HAliy~ -}           [ "present", "current", "presently", "currently" ],
 
+    -- ;; HawAlaY_1
+    -- HwAlY   HawAlaY FW-WaBi approximately;around     [[HawAlaY/PREP]]
+    -- HwAly   HawAlay FW-WaBi approximately;around     [[HawAlay/PREP]]
+    -- HwAly   HawAlay FW-Wa-y approximately;around     [[HawAlay/PREP]]
+
+    FaCALY                    `noun`    {- HawAlaY -}          [ "approximately", "around" ],
+
     -- ;; maHAlap_1
     -- mHAl    maHAl   Napdu   pulley;wheel;roller
 
@@ -11774,7 +11824,9 @@ lexicon = listing "Lexicon's properties"
     -- tHwyl   taHowiyl        NapAt   sidetrack;branch
     -- tHAwyl  taHAwiyl        Ndip    sidetracks;branches
 
-    TaFCIL |< aT              `noun`    {- taHowiylap -}       [ "sidetrack", "branch", "sidetracks", "branches" ],
+    TaFCIL |< aT              `noun`    {- taHowiylap -}       [ "sidetrack", "branch", "sidetracks", "branches" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.hAwiyl Ndip" ] -},
 
     -- ;; muHAwalap_1
     -- mHAwl   muHAwal NapAt   attempt;effort
@@ -12091,8 +12143,8 @@ lexicon = listing "Lexicon's properties"
     -- HwAr    HawAr   NK      quarters;sections
 
     FAL |< aT                 `noun`    {- HArap -}            [ "quarter", "section", "quarters", "sections" ]
-                              `plural`     FaCAL
-                           {- `others`  [ ".hawAr NK" ] -},
+                              `plural`     FaCALI
+                           {- `others`  [ ".hawAriy N0_Nh" ] -},
 
     -- ;; maHAr_1
     -- mHAr    maHAr   N       oysters;shellfish;mother-of-pearl
@@ -12232,7 +12284,9 @@ lexicon = listing "Lexicon's properties"
     -- Hwy     Hawiy~  Nap     coil;roll     [[Hawiy~/NOUN]]
     -- HwAyA   HawAyA  N0_Nhy  intestines;bowels
 
-    FaCIL |< aT               `noun`    {- Hawiy~ap -}         [ "coil", "roll", "intestines", "bowels" ],
+    FaCIL |< aT               `noun`    {- Hawiy~ap -}         [ "coil", "roll", "intestines", "bowels" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ ".hawAyA N0_Nhy" ] -},
 
     -- ;; HawAyap_1
     -- HwAy    HawAy   NapAt   head pad
@@ -12744,8 +12798,9 @@ lexicon = listing "Lexicon's properties"
     -- AHAyyl  >aHAyiyl        Ndip    stratagems;ruses
 
     FIL |< aT                 `noun`    {- Hiylap -}           [ "stratagem", "ruse", "stratagems", "ruses" ]
+                              `plural`     HaFACIL
                               `plural`     FiCaL
-                           {- `others`  [ ".hiyal N" ] -},
+                           {- `others`  [ "'a.hAyiyl Ndip", ".hiyal N" ] -},
 
     -- ;; Hiyaliy~_1
     -- Hyly    Hiyaliy~        Nall    cunning     [[Hiyaliy~/ADJ]]
@@ -12901,8 +12956,9 @@ lexicon = listing "Lexicon's properties"
     -- HyArA   HayArA  Nhy     confused;bewildered
 
     FaCLAn                    `noun`    {- HayorAn -}          [ "confused", "bewildered" ]
+                              `plural`     FaCALY
                               `plural`     FaCLY
-                           {- `others`  [ ".hayrY N0" ] -},
+                           {- `others`  [ ".hayArY N0", ".hayrY N0" ] -},
 
     -- ;; maHArap_1
     -- mHAr    maHAr   NapAt   maze;puzzle
@@ -13420,7 +13476,9 @@ lexicon = listing "Lexicon's properties"
     -- HzAnY   HazAnaY N0      mourning
     -- HzAnA   HazAnA  Nhy     mourning
 
-    FiCAL                     `noun`    {- HizAn -}            [ "mourning" ],
+    FiCAL                     `noun`    {- HizAn -}            [ "mourning" ]
+                              `plural`     FaCALY
+                           {- `others`  [ ".hazAnY N0" ] -},
 
     -- ;; HazonAn_1
     -- HznAn   HazonAn N/ap    very sad;mourning
@@ -13654,13 +13712,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- HakiymobA$iy -}     [ "senior physician", "chief surgeon" ] ]
 
- |> ".halAwY" <| [
-
-    -- ;; HalAwaY_1
-    -- HlAwY   HalAwaY N0      Halawa
-
-    Identity                  `noun`    {- HalAwaY -}          [ "Halawa" ] ]
-
  |> ".halab^g" <| [
 
     -- ;; Halabojap_1
@@ -13770,15 +13821,6 @@ lexicon = listing "Lexicon's properties"
     -- HtmA    Hat~amA FW-Wa   until when   [[Hat~amA/CONJ]]
 
     Identity                  `noun`    {- Hat~amA -}          [ "until when" ] ]
-
- |> ".hawAlY" <| [
-
-    -- ;; HawAlaY_1
-    -- HwAlY   HawAlaY FW-WaBi approximately;around     [[HawAlaY/PREP]]
-    -- HwAly   HawAlay FW-WaBi approximately;around     [[HawAlay/PREP]]
-    -- HwAly   HawAlay FW-Wa-y approximately;around     [[HawAlay/PREP]]
-
-    Identity                  `noun`    {- HawAlaY -}          [ "approximately", "around" ] ]
 
  |> ".hawla" <| [
 
@@ -13959,14 +14001,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- HubAHib -}          [ "firefly", "glowworm" ] ]
 
- |> ".hubArY" <| [
-
-    -- ;; HubAraY_1
-    -- HbArY   HubAraY N0      bustard
-    -- HbAry   HubAray NAt     bustards
-
-    Identity                  `noun`    {- HubAraY -}          [ "bustard", "bustards" ] ]
-
  |> ".hulwAniyy" <| [
 
     -- ;; HulowAniy~_1
@@ -14064,13 +14098,6 @@ lexicon = listing "Lexicon's properties"
     -- mnHAz   munoHAz Nall    aligned;biased
 
     Identity                  `noun`    {- munoHAz -}          [ "aligned", "biased" ] ]
-
- |> "ta.hAriyq" <| [
-
-    -- ;; taHAriyq_1
-    -- tHAryq  taHAriyq        Ndip    hottest season
-
-    Identity                  `noun`    {- taHAriyq -}         [ "hottest season" ] ]
 
  |> "ta.hiyy" <| [
 

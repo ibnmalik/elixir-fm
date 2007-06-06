@@ -87,8 +87,9 @@ lexicon = listing "Lexicon's properties"
  |> "_t k l" <| [
 
     FaCLAn                    `noun`    {- vakolAn -}          [ "bereft", "bereaved" ]
+                              `plural`     FaCALY
                               `plural`     FaCLY
-                           {- `others`  [ "_taklY N0" ] -} ]
+                           {- `others`  [ "_takAlY N0", "_taklY N0" ] -} ]
 
  |> "_t k l n" <| [
 
@@ -163,17 +164,15 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- vAmin -}            [ "eighth" ],
 
+    FaCALI                    `adj`     {- vamAniy -}          [ "eight", "eighty" ]
+                              `plural`     FaCAL
+                           {- `others`  [ "_tamAn Numb" ] -},
+
     TaFCIL                    `noun`    {- tavomiyn -}         [ "octagonal", "eightfold" ] ]
 
  |> "_t m n n" <| [
 
     KaRADIS                   `noun`    {- vamAniyn -}         [ "eighties" ] ]
-
- |> "_t m n y" <| [
-
-    KaRADI                    `adj`     {- vamAniy -}          [ "eight", "eighty" ],
-
-    KaRADI                    `adj`     {- vamAniy -}          [ "eight", "eighty" ] ]
 
  |> "_t m r" <| [
 

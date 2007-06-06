@@ -147,7 +147,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCLA'                    `noun`    {- SaHorA' -}          [ "Sahara" ],
 
-    FaCLA'                    `noun`    {- SaHorA' -}          [ "desert", "deserts" ],
+    FaCLA'                    `noun`    {- SaHorA' -}          [ "desert", "deserts" ]
+                              `plural`     FaCALY
+                           {- `others`  [ ".sa.hArY N0" ] -},
 
     TaFaCCuL                  `noun`    {- taSaH~ur -}         [ "desertification" ],
 
@@ -740,7 +742,9 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- taSomiym -}         [ "determination", "perseverance" ],
 
-    TaFCIL                    `noun`    {- taSomiym -}         [ "plan", "sketch", "design", "plans", "sketches", "designs" ],
+    TaFCIL                    `noun`    {- taSomiym -}         [ "plan", "sketch", "design", "plans", "sketches", "designs" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.sAmiym Ndip" ] -},
 
     MuFaCCiL                  `adj`     {- muSam~im -}         [ "determined", "resolute" ],
 
@@ -820,7 +824,9 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                            {- `others`  [ "'a.snAf N" ] -},
 
-    TaFCIL                    `noun`    {- taSoniyf -}         [ "classification", "sorting", "compilation", "compilations" ],
+    TaFCIL                    `noun`    {- taSoniyf -}         [ "classification", "sorting", "compilation", "compilations" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.sAniyf Ndip" ] -},
 
     MuFaCCaL                  `adj`     {- muSan~af -}         [ "classified", "ranked", "seeded" ],
 
@@ -857,7 +863,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- SarAHap -}          [ "sincerity", "candor", "frankness" ],
 
-    TaFCIL                    `noun`    {- taSoriyH -}         [ "declaration", "statement", "declarations", "statements" ],
+    TaFCIL                    `noun`    {- taSoriyH -}         [ "declaration", "statement", "declarations", "statements" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.sAriy.h Ndip" ] -},
 
     TaFCIL                    `noun`    {- taSoriyH -}         [ "permit", "license" ],
 
@@ -1066,7 +1074,9 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- taSowiyr -}         [ "photography", "illustration", "depiction", "characterization" ],
 
-    TaFCIL |< aT              `noun`    {- taSowiyrap -}       [ "image", "pictorial", "images", "pictorials" ],
+    TaFCIL |< aT              `noun`    {- taSowiyrap -}       [ "image", "pictorial", "images", "pictorials" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta.sAwiyr Ndip" ] -},
 
     MuFaCCiL                  `noun`    {- muSaw~ir -}         [ "photographer" ],
 

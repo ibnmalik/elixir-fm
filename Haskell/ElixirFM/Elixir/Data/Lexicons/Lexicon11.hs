@@ -471,7 +471,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "z w y" <| [
 
-    FACI |< aT                `noun`    {- zAwiyap -}          [ "corner", "nook", "angle", "corners", "nooks", "angles" ] ]
+    FACI |< aT                `noun`    {- zAwiyap -}          [ "corner", "nook", "angle", "corners", "nooks", "angles" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "zawAyA N0_Nhy" ] -} ]
 
  |> "z y '" <| [
 

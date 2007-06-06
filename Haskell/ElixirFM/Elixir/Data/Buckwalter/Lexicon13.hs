@@ -1222,7 +1222,9 @@ lexicon = listing "Lexicon's properties"
     -- \$Zy     $aZiy~  Nap     splinter;sliver
     -- \$ZAyA   $aZAyA  N0_Nhy  splinters;slivers;smithereens
 
-    FaCIL |< aT               `noun`    {- \$aZiy~ap -}        [ "splinter", "sliver", "splinters", "slivers", "smithereens" ] ]
+    FaCIL |< aT               `noun`    {- \$aZiy~ap -}        [ "splinter", "sliver", "splinters", "slivers", "smithereens" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "^sa.zAyA N0_Nhy" ] -} ]
 
  |> "^s ^g ^g" <| [
 
@@ -2769,7 +2771,8 @@ lexicon = listing "Lexicon's properties"
     FaCLAn                    `noun`    {- \$aboEAn -}         [ "full", "satiated" ]
                               `plural`     FiCAL
                               `plural`     FaCLY
-                           {- `others`  [ "^sibA` N", "^sab`Y N0" ] -},
+                              `plural`     FaCALY
+                           {- `others`  [ "^sibA` N", "^sab`Y N0", "^sabA`Y N0" ] -},
 
     -- ;; <i$obAE_1
     -- <$bAE   <i$obAE NduAt   satiation;saturation;gratification
@@ -2978,7 +2981,9 @@ lexicon = listing "Lexicon's properties"
     -- t$byh   ta$obiyh        NduAt   comparison;resemblance
     -- t$Abyh  ta$Abiyh        Ndip    comparisons;resemblances
 
-    TaFCIL                    `noun`    {- ta$obiyh -}         [ "comparison", "resemblance", "comparisons", "resemblances" ],
+    TaFCIL                    `noun`    {- ta$obiyh -}         [ "comparison", "resemblance", "comparisons", "resemblances" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "ta^sAbiyh Ndip" ] -},
 
     -- ;; mu$Abahap_1
     -- m$Abh   mu$Abah NapAt   resemblance;similarity
@@ -4710,7 +4715,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCLAn                    `adj`     {- \$ahowAn -}         [ "covetous", "debauched" ]
                               `plural`     FaCLY
-                           {- `others`  [ "^sahwY N0" ] -},
+                              `plural`     FaCALY
+                           {- `others`  [ "^sahwY N0", "^sahAwY N0" ] -},
 
     -- ;; $ahowAn_2
     -- \$hwAn   $ahowAn Nprop   Shehwan;Shahwan
@@ -5398,7 +5404,9 @@ lexicon = listing "Lexicon's properties"
     -- \$kAwY   $akAwaY N0      complaints;grievances
     -- \$kAwA   $akAwA  Nhy     complaints;grievances
 
-    FaCLY                     `noun`    {- \$akowaY -}         [ "complaint", "grievance", "complaints", "grievances" ],
+    FaCLY                     `noun`    {- \$akowaY -}         [ "complaint", "grievance", "complaints", "grievances" ]
+                              `plural`     FaCALY
+                           {- `others`  [ "^sakAwY N0" ] -},
 
     -- ;; $ikA'_1
     -- \$kA'    $ikA'   N0_Nh   complaining
@@ -6258,8 +6266,8 @@ lexicon = listing "Lexicon's properties"
     -- \$mAs    $amAs   NK      sunshades;umbrellas;parasols
 
     FaCL |< Iy |< aT          `noun`    {- \$amosiy~ap -}      [ "sunshade", "umbrella", "parasol", "sunshades", "umbrellas", "parasols" ]
-                              `plural`     FaCAL
-                           {- `others`  [ "^samAs NK" ] -},
+                              `plural`     FaCALI
+                           {- `others`  [ "^samAsiy N0_Nh" ] -},
 
     -- ;; $Amis_1
     -- \$Ams    $Amis   N-ap    sunny     [[$Amis/ADJ]]

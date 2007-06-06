@@ -207,9 +207,9 @@ lexicon = listing "Lexicon's properties"
  |> "f .h w" <| [
 
     FaCLY                     `noun`    {- faHowaY -}          [ "sense", "content", "substance" ]
+                              `plural`     FaCALI
                               `plural`     FaCLA'
-                              `plural`     FaCAL
-                           {- `others`  [ "fa.hwA' Nh N0_Nh Nhy", "fa.hAw NK" ] -} ]
+                           {- `others`  [ "fa.hAwiy N0_Nh", "fa.hwA' Nh N0_Nh Nhy" ] -} ]
 
  |> "f .s .h" <| [
 
@@ -245,7 +245,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- faSiyl -}           [ "cell", "branch", "group", "platoon", "squadron", "cells", "branches", "groups", "platoons", "squadrons" ],
 
-    TaFCIL                    `noun`    {- tafoSiyl -}         [ "detailing", "elaboration", "giving details", "details" ],
+    TaFCIL                    `noun`    {- tafoSiyl -}         [ "detailing", "elaboration", "giving details", "details" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tafA.siyl Ndip" ] -},
 
     TaFCIL |< Iy              `adj`     {- tafoSiyliy~ -}      [ "detailed", "minute" ],
 
@@ -447,8 +449,9 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "'af`Al N" ] -},
 
     FiCL                      `noun`    {- fiEol -}            [ "verb", "verbs", "exploits" ]
+                              `plural`     HaFACIL
                               `plural`     HaFCAL
-                           {- `others`  [ "'af`Al N" ] -},
+                           {- `others`  [ "'afA`iyl Ndip", "'af`Al N" ] -},
 
     FiCL |< Iy                `adj`     {- fiEoliy~ -}         [ "actual", "real", "de facto" ],
 
@@ -463,7 +466,9 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- tafoEiyl -}         [ "scansion" ],
 
-    TaFCIL                    `noun`    {- tafoEiyl -}         [ "poetic meter", "poetic meters" ],
+    TaFCIL                    `noun`    {- tafoEiyl -}         [ "poetic meter", "poetic meters" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tafA`iyl Ndip" ] -},
 
     TaFACuL                   `noun`    {- tafAEul -}          [ "interaction", "reaction", "reciprocity" ],
 
@@ -957,8 +962,9 @@ lexicon = listing "Lexicon's properties"
     InFaCaL                   `verb`    {- Ainofarad -}        [ "be isolated", "be alone", "stand apart" ],
 
     FaCL                      `noun`    {- farod -}            [ "individual", "unit", "individuals" ]
+                              `plural`     FuCALY
                               `plural`     HaFCAL
-                           {- `others`  [ "'afrAd N" ] -},
+                           {- `others`  [ "furAdY N0", "'afrAd N" ] -},
 
     HaFCAL |< Iy              `adj`     {- OaforAdiy~ -}       [ "individual" ],
 
@@ -1193,7 +1199,9 @@ lexicon = listing "Lexicon's properties"
 
     IstaFCaL                  `verb`    {- Aisotafosar -}      [ "interrogate", "demand explanation" ],
 
-    TaFCIL                    `noun`    {- tafosiyr -}         [ "explanation", "commentary", "exegesis", "Quranic commentary", "explanations", "commentaries" ],
+    TaFCIL                    `noun`    {- tafosiyr -}         [ "explanation", "commentary", "exegesis", "Quranic commentary", "explanations", "commentaries" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tafAsiyr Ndip" ] -},
 
     IstiFCAL                  `noun`    {- AisotifosAr -}      [ "inquiry", "interrogation" ] ]
 
@@ -1262,7 +1270,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCCaL                    `verb`    {- fat~a$ -}           [ "search", "inspect" ],
 
-    TaFCIL                    `noun`    {- tafotiy$ -}         [ "search", "check", "inspection", "inspections" ],
+    TaFCIL                    `noun`    {- tafotiy$ -}         [ "search", "check", "inspection", "inspections" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tafAtiy^s Ndip" ] -},
 
     MuFaCCiL                  `noun`    {- mufat~i$ -}         [ "inspector", "supervisor" ] ]
 
@@ -1310,8 +1320,9 @@ lexicon = listing "Lexicon's properties"
     FaCY |< aT                `noun`    {- fatAp -}            [ "young girl", "young girls" ],
 
     FaCLY                     `noun`    {- fatowaY -}          [ "fatwa", "legal opinion", "fatwas", "legal opinions" ]
-                              `plural`     FaCAL
-                           {- `others`  [ "fatAw NK" ] -},
+                              `plural`     FaCALY
+                              `plural`     FaCALI
+                           {- `others`  [ "fatAwY N0", "fatAwiy N0_Nh" ] -},
 
     FuCUL |< aT               `noun`    {- futuw~ap -}         [ "adolescence", "youth" ],
 

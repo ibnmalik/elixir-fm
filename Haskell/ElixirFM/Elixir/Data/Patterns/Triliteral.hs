@@ -371,17 +371,29 @@ instance Rules PatternT where
                         else "i"
 -}
 
+    -- Fischer (2001), para. 153, 93 ff, 99, etc.
+
     isDiptote = flip elem [ HaFCaL, HACaL,
+                            FaCLY,
+                            FiCLY,
                             FuCLY,
+                            FaCALY,
+                            FuCALY,
                             FaCLA',
                             FuCaLA',
                             HaFCiLA', HACiLA',
                             FaCACiL,
                             FaCACIL,
+                            HaFACiL,
+                            HaFACIL,
+                            TaFACiL,
+                            TaFACIL,
                             FawACiL, FawA'iL,
                             FawACIL, FawA'IL,
                             MaFACiL, MaFA'iL, MaFACL,
                             MaFACIL, MaFA'IL,
+                            -- FuCaL, FuCAL,
+                            FiCLiyA', FACULA',
                             FaCLAn ]
 
 
@@ -452,6 +464,9 @@ data PatternT =
 
         |   FaCLA'
         |   FuCaLA'
+        |   FACULA'
+
+        |   FiCLiyA'
 
     {-- |   FACiL   --}                 |   FA'iL       |   FA'I
 
@@ -478,6 +493,7 @@ data PatternT =
         |   HaFCiL      |   HACiL       |   HaFIL       |   HaFCI                       |   HACI
 
         |   HaFACiL                                     |   HaFACI
+        |   HaFACIL
 
         |   HaFCiLA'    |   HACiLA'
 
@@ -507,6 +523,10 @@ data PatternT =
         |   FuCLY                       |   FULY        |   FuCyA
                                                         |   FUyA
 
+        |   FaCALI
+        |   FaCALY                                      |   FaCAyA
+        |   FuCALY
+
 --  Form II
 
         |   FaCCaL                                      |   FaCCY
@@ -516,6 +536,9 @@ data PatternT =
 
         |   TaFCIL
         |   TaFCiL                                      |   TaFCI
+
+        |   TaFACiL                                 {-- |   TaFACI  --}
+        |   TaFACIL
 
         |   TiFCAL      |   TICAL                       |   TiFCA'                      |   TICA'
 

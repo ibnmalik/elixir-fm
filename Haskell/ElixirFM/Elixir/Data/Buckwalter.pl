@@ -454,6 +454,8 @@ sub storeType {
 
     my ($form, $type, $tags) = @_;
 
+    return if $type =~ /^NK/;
+
     if ($type =~ /^Nap/) {
 
         if ($form =~ /A$/) {

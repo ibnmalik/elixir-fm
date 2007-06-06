@@ -9,10 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'asAriyr" <| [
-
-    Identity                  `noun`    {- OasAriyr -}         [ "features" ] ]
-
  |> "'usbuw`" <| [
 
     Identity                  `noun`    {- OusobuwE -}         [ "week", "weeks" ],
@@ -161,7 +157,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "s .h y" <| [
 
-    FiCAL |< aT               `noun`    {- siHAyap -}          [ "meninx", "meninges" ] ]
+    FiCAL |< aT               `noun`    {- siHAyap -}          [ "meninx", "meninges" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "sa.hAyA N0_Nhy" ] -} ]
 
  |> "s .t .h" <| [
 
@@ -423,7 +421,9 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- sibAHap -}          [ "swimming" ],
 
-    TaFCIL                    `noun`    {- tasobiyH -}         [ "glorification of God", "hymn", "hymns" ] ]
+    TaFCIL                    `noun`    {- tasobiyH -}         [ "glorification of God", "hymn", "hymns" ]
+                              `plural`     TaFACIL
+                           {- `others`  [ "tasAbiy.h Ndip" ] -} ]
 
  |> "s b `" <| [
 
@@ -1238,7 +1238,9 @@ lexicon = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- musAnadap -}        [ "support", "aid" ],
 
-    HiFCAL                    `noun`    {- IisonAd -}          [ "ascription", "bestowal", "ascriptions", "vouchers", "documentary records" ],
+    HiFCAL                    `noun`    {- IisonAd -}          [ "ascription", "bestowal", "ascriptions", "vouchers", "documentary records" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'asAniyd Ndip" ] -},
 
     IFtiCAL                   `noun`    {- AisotinAd -}        [ "dependence" ],
 
@@ -1483,6 +1485,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaL
                            {- `others`  [ "surar N" ] -},
 
+    HaFACIL                   `noun`    {- OasAriyr -}         [ "features" ],
+
     FuCUL                     `noun`    {- suruwr -}           [ "Surour" ],
 
     FuCUL                     `noun`    {- suruwr -}           [ "delight", "pleasure" ],
@@ -1508,7 +1512,9 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCY
                               `imperf`     FCI,
 
-    FaCIL |< aT               `noun`    {- sariy~ap -}         [ "detachment", "squadron", "company", "detachments", "squadrons", "companies" ],
+    FaCIL |< aT               `noun`    {- sariy~ap -}         [ "detachment", "squadron", "company", "detachments", "squadrons", "companies" ]
+                              `plural`     FaCAyA
+                           {- `others`  [ "sarAyA N0_Nhy" ] -},
 
     FaCaLAn                   `noun`    {- sarayAn -}          [ "spread", "diffusion", "effectiveness" ],
 
