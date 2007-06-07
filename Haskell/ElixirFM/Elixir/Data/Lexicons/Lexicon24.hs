@@ -37,17 +37,9 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiL |< At
                               `plural`     FiC |< At,
 
-    FiC |< aT                 `noun`    {- mi}ap -}            [ "hundred", "hundreds" ]
-                              `plural`     FiL |< At
-                              `plural`     FiC |< At,
-
     FiL |< aT                 `noun`    {- mi}ap -}            [ "(per) cent" ],
 
-    FiC |< aT                 `noun`    {- mi}ap -}            [ "(per) cent" ],
-
-    FiL |<< "awIy"            `adj`     {- mi}awiy~ -}         [ "one-hundred", "hundreth", "percentage" ],
-
-    FiC |<< "awIy"            `adj`     {- mi}awiy~ -}         [ "one-hundred", "hundreth", "percentage" ] ]
+    FiL |<< "awIy"            `adj`     {- mi}awiy~ -}         [ "one-hundred", "hundreth", "percentage" ] ]
 
  |> "m ' d" <| [
 
@@ -119,9 +111,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "m .g n" <| [
 
-    MICAL                     `noun`    {- miygAn -}           [ "Megan" ],
-
-    FICAL                     `noun`    {- miygAn -}           [ "Megan" ] ]
+    MICAL                     `noun`    {- miygAn -}           [ "Megan" ] ]
 
  |> "m .h .d" <| [
 
@@ -248,8 +238,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At ]
 
  |> "m ^g d y" <| [
-
-    KaRDI                     `noun`    {- majodiy -}          [ "Majdi", "Magdi" ],
 
     KaRDI                     `noun`    {- majodiy -}          [ "Majdi", "Magdi" ] ]
 
@@ -779,8 +767,6 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- mAliy -}            [ "Mali" ],
 
-    FACI                      `noun`    {- mAliy -}            [ "Mali" ],
-
     FaCIL                     `noun`    {- maliy~ -}           [ "long time", "for a long time", "for quite a while" ] ]
 
  |> "m l y n" <| [
@@ -798,11 +784,6 @@ lexicon = listing "Lexicon's properties"
  |> "m n '" <| [
 
     MICAL                     `noun`    {- miynA' -}           [ "port", "harbor", "ports", "harbors" ]
-                              `plural`     FawACiL
-                              `plural`     FawACI
-                           {- `others`  [ "mawAni' Ndip", "mawAniy N0_Nh" ] -},
-
-    FICAL                     `noun`    {- miynA' -}           [ "port", "harbor", "ports", "harbors" ]
                               `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "mawAni' Ndip", "mawAniy N0_Nh" ] -} ]
@@ -1109,8 +1090,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "m r y" <| [
 
-    FACI                      `noun`    {- mAriy -}            [ "Mary" ],
-
     FACI                      `noun`    {- mAriy -}            [ "Mary" ] ]
 
  |> "m r y m" <| [
@@ -1412,8 +1391,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "m y .g" <| [
 
-    FILAn                     `noun`    {- miygAn -}           [ "Megan" ],
-
     FILAn                     `noun`    {- miygAn -}           [ "Megan" ] ]
 
  |> "m y .g n" <| [
@@ -1496,8 +1473,6 @@ lexicon = listing "Lexicon's properties"
     FaCALI                    `noun`    {- mayAmiy -}          [ "Miami" ] ]
 
  |> "m y m y" <| [
-
-    KaRADI                    `noun`    {- mayAmiy -}          [ "Miami" ],
 
     KaRADI                    `noun`    {- mayAmiy -}          [ "Miami" ] ]
 

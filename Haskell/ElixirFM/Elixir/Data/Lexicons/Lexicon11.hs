@@ -603,8 +603,6 @@ lexicon = listing "Lexicon's properties"
 
     FIL                       `noun`    {- ziy~ -}             [ "uniform", "clothing" ],
 
-    FIL                       `noun`    {- ziy~ -}             [ "uniform", "clothing" ],
-
     HaFCA'                    `noun`    {- OazoyA' -}          [ "fashion", "clothes", "uniforms" ],
 
     FaCL |< At                `noun`    {- zay~At -}           [ "Zayyat" ],

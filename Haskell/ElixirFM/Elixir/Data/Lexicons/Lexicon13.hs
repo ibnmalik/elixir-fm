@@ -1588,8 +1588,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "^s w q y" <| [
 
-    KaRDI                     `noun`    {- \$awoqiy -}         [ "Shawqi" ],
-
     KaRDI                     `noun`    {- \$awoqiy -}         [ "Shawqi" ] ]
 
  |> "^s w r" <| [
@@ -1637,10 +1635,6 @@ lexicon = listing "Lexicon's properties"
     MaFCaL |< aT              `noun`    {- ma$owarap -}        [ "consultation", "deliberation", "advice" ] ]
 
  |> "^s w w" <| [
-
-    FU                        `noun`    {- \$uw -}             [ "Shaw" ],
-
-    FU                        `noun`    {- \$uw -}             [ "Shaw" ],
 
     FU                        `noun`    {- \$uw -}             [ "Shaw" ] ]
 

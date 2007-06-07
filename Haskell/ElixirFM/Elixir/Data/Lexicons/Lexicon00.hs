@@ -55,45 +55,31 @@ lexicon = listing "Lexicon's properties"
 
     CI                        `noun`    {- Iiy -}              [ "E." ],
 
-    CI                        `noun`    {- Iiy -}              [ "E." ],
-
     CU                        `noun`    {- Ouw -}              [ "O." ],
 
     CaL                       `noun`    {- Oay -}              [ "A.", "I." ] ]
 
  |> "-- ^g y" <| [
 
-    CI                        `noun`    {- jiy -}              [ "G.", "J." ],
-
     CI                        `noun`    {- jiy -}              [ "G.", "J." ] ]
 
  |> "-- b y" <| [
-
-    CI                        `noun`    {- biy -}              [ "B." ],
 
     CI                        `noun`    {- biy -}              [ "B." ] ]
 
  |> "-- d y" <| [
 
-    CI                        `noun`    {- diy -}              [ "D.", "De" ],
-
     CI                        `noun`    {- diy -}              [ "D.", "De" ] ]
 
  |> "-- f y" <| [
-
-    CI                        `noun`    {- fiy -}              [ "V." ],
 
     CI                        `noun`    {- fiy -}              [ "V." ] ]
 
  |> "-- s y" <| [
 
-    CI                        `noun`    {- siy -}              [ "C." ],
-
     CI                        `noun`    {- siy -}              [ "C." ] ]
 
  |> "-- t y" <| [
-
-    CI                        `noun`    {- tiy -}              [ "T." ],
 
     CI                        `noun`    {- tiy -}              [ "T." ] ]
 

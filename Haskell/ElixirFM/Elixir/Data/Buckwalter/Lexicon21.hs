@@ -9019,11 +9019,6 @@ lexicon = listing "Lexicon's properties"
 
     FILAn                     `noun`    {- qiynAn -}           [ "Qinan" ],
 
-    -- ;; qiynAn_1
-    -- qynAn   qiynAn  N0      Qinan
-
-    FICAL                     `noun`    {- qiynAn -}           [ "Qinan" ],
-
     -- ;; taqoniyn_1
     -- tqnyn   taqoniyn        N/At    legislation;lawmaking
 
@@ -12625,7 +12620,7 @@ lexicon = listing "Lexicon's properties"
     -- qtt     qotat~  IV_V    extirpate;remove;get rid of
     -- qttt    qotatit IV_C    extirpate;remove;get rid of
 
-    IFtaCL                    `verb`    {- Aiqotat~ -}         [ "extirpate", "remove", "get rid of" ],
+    IFCaLL                    `verb`    {- Aiqotat~ -}         [ "extirpate", "remove", "get rid of" ],
 
     -- ;; {iqotat~_1
     -- <qtt    {iqotat~        PV_V    extirpate;remove;get rid of
@@ -12635,7 +12630,7 @@ lexicon = listing "Lexicon's properties"
     -- qtt     qotat~  IV_V    extirpate;remove;get rid of
     -- qttt    qotatit IV_C    extirpate;remove;get rid of
 
-    IFCaLL                    `verb`    {- Aiqotat~ -}         [ "extirpate", "remove", "get rid of" ],
+    IFtaCL                    `verb`    {- Aiqotat~ -}         [ "extirpate", "remove", "get rid of" ],
 
     -- ;; qat~_1
     -- qt      qat~    N       spying on;following
@@ -13777,18 +13772,6 @@ lexicon = listing "Lexicon's properties"
     MuKaRDaS                  `adj`     {- muqawotab -}        [ "hunchbacked" ] ]
 
  |> "q w w" <| [
-
-    -- ;; quw~ap_1
-    -- qw      quw~    Napdu   power;strength
-    -- qw      quw~    NAt     armed forces
-    -- qwY     quwaY   N0      armed forces;power
-    -- qwy     quwaY   N0      armed forces;power
-    -- qwA     quwA    Nhy     armed forces;power
-
-    FUL |< aT                 `noun`    {- quw~ap -}           [ "power", "strength", "armed forces" ]
-                              `plural`     FuCY
-                              `plural`     FUL |< At
-                           {- `others`  [ "quwY N0" ] -},
 
     -- ;; quw~ap_1
     -- qw      quw~    Napdu   power;strength

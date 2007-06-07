@@ -78,60 +78,6 @@ $Lexicon = {
     },
     {
       'types' => {},
-      'entry' => '_duw',
-      'form' => '_duw',
-      'lines' => [],
-      'patterns' => {
-        '_dawuw' => [
-          'FaCU'
-        ],
-        '_dawiy' => [
-          'FaCI'
-        ],
-        '_diy' => [
-          'FI'
-        ],
-        '_dawA' => [
-          'FaCA'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FU',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => '*uw',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_duw',
-      'form' => '_duw',
-      'lines' => [],
-      'patterns' => {
-        '_dawuw' => [
-          'FaCU'
-        ],
-        '_dawiy' => [
-          'FaCI'
-        ],
-        '_diy' => [
-          'FI'
-        ],
-        '_dawA' => [
-          'FaCA'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FU',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => '*uw',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
       'entry' => '_daw',
       'form' => '_dawAt',
       'lines' => [
@@ -8264,12 +8210,6 @@ $Lexicon = {
     }
   ]
 };
-$Lexicon->{'_d w w'}[1]{'types'} = $Lexicon->{'_d w w'}[0]{'types'};
-$Lexicon->{'_d w w'}[1]{'lines'} = $Lexicon->{'_d w w'}[0]{'lines'};
-$Lexicon->{'_d w w'}[1]{'glosses'} = $Lexicon->{'_d w w'}[0]{'glosses'};
-$Lexicon->{'_d w w'}[2]{'types'} = $Lexicon->{'_d w w'}[0]{'types'};
-$Lexicon->{'_d w w'}[2]{'lines'} = $Lexicon->{'_d w w'}[0]{'lines'};
-$Lexicon->{'_d w w'}[2]{'glosses'} = $Lexicon->{'_d w w'}[0]{'glosses'};
 $Lexicon->{'_d w b'}[6]{'types'} = $Lexicon->{'_d \' b'}[3]{'types'};
 $Lexicon->{'_d w b'}[6]{'lines'} = $Lexicon->{'_d \' b'}[3]{'lines'};
 $Lexicon->{'_d w b'}[6]{'glosses'} = $Lexicon->{'_d \' b'}[3]{'glosses'};
@@ -8292,12 +8232,12 @@ $Lexicon->{'_d r r'}[11]{'glosses'} = $Lexicon->{'_d r y'}[7]{'glosses'};
 $Lexicon->{'_d b n'}[0]{'types'} = $Lexicon->{'_d b b'}[3]{'types'};
 $Lexicon->{'_d b n'}[0]{'lines'} = $Lexicon->{'_d b b'}[3]{'lines'};
 $Lexicon->{'_d b n'}[0]{'glosses'} = $Lexicon->{'_d b b'}[3]{'glosses'};
-$Lexicon->{'_d w y'}[0]{'types'} = $Lexicon->{'_d w w'}[3]{'types'};
-$Lexicon->{'_d w y'}[0]{'lines'} = $Lexicon->{'_d w w'}[3]{'lines'};
-$Lexicon->{'_d w y'}[0]{'glosses'} = $Lexicon->{'_d w w'}[3]{'glosses'};
-$Lexicon->{'_d w y'}[1]{'types'} = $Lexicon->{'_d w w'}[4]{'types'};
-$Lexicon->{'_d w y'}[1]{'lines'} = $Lexicon->{'_d w w'}[4]{'lines'};
-$Lexicon->{'_d w y'}[1]{'glosses'} = $Lexicon->{'_d w w'}[4]{'glosses'};
+$Lexicon->{'_d w y'}[0]{'types'} = $Lexicon->{'_d w w'}[1]{'types'};
+$Lexicon->{'_d w y'}[0]{'lines'} = $Lexicon->{'_d w w'}[1]{'lines'};
+$Lexicon->{'_d w y'}[0]{'glosses'} = $Lexicon->{'_d w w'}[1]{'glosses'};
+$Lexicon->{'_d w y'}[1]{'types'} = $Lexicon->{'_d w w'}[2]{'types'};
+$Lexicon->{'_d w y'}[1]{'lines'} = $Lexicon->{'_d w w'}[2]{'lines'};
+$Lexicon->{'_d w y'}[1]{'glosses'} = $Lexicon->{'_d w w'}[2]{'glosses'};
 $Lexicon->{'_d \' d'}[0]{'types'} = $Lexicon->{'_d w d'}[2]{'types'};
 $Lexicon->{'_d \' d'}[0]{'lines'} = $Lexicon->{'_d w d'}[2]{'lines'};
 $Lexicon->{'_d \' d'}[0]{'glosses'} = $Lexicon->{'_d w d'}[2]{'glosses'};

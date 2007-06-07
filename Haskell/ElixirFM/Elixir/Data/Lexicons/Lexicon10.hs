@@ -25,11 +25,7 @@ lexicon = listing "Lexicon's properties"
 
     FiL |< aT                 `noun`    {- ri}ap -}            [ "lung", "lungs" ],
 
-    FiC |< aT                 `noun`    {- ri}ap -}            [ "lung", "lungs" ],
-
     FiL |<< "awIy"            `adj`     {- ri}awiy~ -}         [ "pulmonary" ],
-
-    FiC |<< "awIy"            `adj`     {- ri}awiy~ -}         [ "pulmonary" ],
 
     FiCAL                     `noun`    {- ri}A' -}            [ "hypocrisy", "dissimulation" ] ]
 
@@ -306,8 +302,6 @@ lexicon = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- maroHuwm -}         [ "deceased", "late" ] ]
 
  |> "r .h m y" <| [
-
-    KaRDI                     `noun`    {- raHomiy -}          [ "Rahmi" ],
 
     KaRDI                     `noun`    {- raHomiy -}          [ "Rahmi" ] ]
 
@@ -1299,8 +1293,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "r l y" <| [
 
-    FACI                      `noun`    {- rAliy -}            [ "rally" ],
-
     FACI                      `noun`    {- rAliy -}            [ "rally" ] ]
 
  |> "r m .d" <| [
@@ -1818,8 +1810,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "r w b" <| [
 
-    FUL |< Iy |< aT           `noun`    {- ruwbiy~ap -}        [ "rupee" ],
-
     FUL |< Iy |< aT           `noun`    {- ruwbiy~ap -}        [ "rupee" ] ]
 
  |> "r w b r" <| [
@@ -1858,8 +1848,6 @@ lexicon = listing "Lexicon's properties"
     KuRDuS                    `noun`    {- ruwdus -}           [ "Rhodes" ] ]
 
  |> "r w k" <| [
-
-    FUL                       `noun`    {- ruwk -}             [ "rock", "public", "community" ],
 
     FUL                       `noun`    {- ruwk -}             [ "rock", "public", "community" ] ]
 

@@ -110,11 +110,6 @@ lexicon = listing "Lexicon's properties"
 
     CI                        `noun`    {- Iiy -}              [ "E." ],
 
-    -- ;; <iy_1
-    -- <y      <iy     FW      E.     [[<iy/ABBREV]]
-
-    CI                        `noun`    {- Iiy -}              [ "E." ],
-
     -- ;; >uw_1
     -- >w      >uw     FW      O.     [[>uw/ABBREV]]
     -- Aw      >uw     FW      O.     [[>uw/ABBREV]]
@@ -135,20 +130,9 @@ lexicon = listing "Lexicon's properties"
     -- jy      jiy     FW      G.     [[jiy/ABBREV]]
     -- jy      jiy     FW      J.     [[jiy/ABBREV]]
 
-    CI                        `noun`    {- jiy -}              [ "G.", "J." ],
-
-    -- ;; jiy_1
-    -- jy      jiy     FW      G.     [[jiy/ABBREV]]
-    -- jy      jiy     FW      J.     [[jiy/ABBREV]]
-
     CI                        `noun`    {- jiy -}              [ "G.", "J." ] ]
 
  |> "-- b y" <| [
-
-    -- ;; biy_1
-    -- by      biy     N0      B.     [[biy/ABBREV]]
-
-    CI                        `noun`    {- biy -}              [ "B." ],
 
     -- ;; biy_1
     -- by      biy     N0      B.     [[biy/ABBREV]]
@@ -161,20 +145,9 @@ lexicon = listing "Lexicon's properties"
     -- dy      diy     FW      D.     [[diy/ABBREV]]
     -- dy      diy     FW      De     [[diy/NOUN_PROP]]
 
-    CI                        `noun`    {- diy -}              [ "D.", "De" ],
-
-    -- ;; diy_1
-    -- dy      diy     FW      D.     [[diy/ABBREV]]
-    -- dy      diy     FW      De     [[diy/NOUN_PROP]]
-
     CI                        `noun`    {- diy -}              [ "D.", "De" ] ]
 
  |> "-- f y" <| [
-
-    -- ;; fiy_2
-    -- fy      fiy     FW      V.     [[Viy/ABBREV]]
-
-    CI                        `noun`    {- fiy -}              [ "V." ],
 
     -- ;; fiy_2
     -- fy      fiy     FW      V.     [[Viy/ABBREV]]
@@ -186,19 +159,9 @@ lexicon = listing "Lexicon's properties"
     -- ;; siy_1
     -- sy      siy     N0      C.     [[siy/ABBREV]]
 
-    CI                        `noun`    {- siy -}              [ "C." ],
-
-    -- ;; siy_1
-    -- sy      siy     N0      C.     [[siy/ABBREV]]
-
     CI                        `noun`    {- siy -}              [ "C." ] ]
 
  |> "-- t y" <| [
-
-    -- ;; tiy_1
-    -- ty      tiy     FW      T.     [[tiy/ABBREV]]
-
-    CI                        `noun`    {- tiy -}              [ "T." ],
 
     -- ;; tiy_1
     -- ty      tiy     FW      T.     [[tiy/ABBREV]]

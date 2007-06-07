@@ -6743,11 +6743,6 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- kAriy -}            [ "Carey" ],
 
-    -- ;; kAriy_1
-    -- kAry    kAriy   Nprop   Carey
-
-    FACI                      `noun`    {- kAriy -}            [ "Carey" ],
-
     -- ;; kuray~ap_1
     -- kry     kuray~  NapAt   globule;pellet;corpuscle
 
@@ -8457,12 +8452,6 @@ lexicon = listing "Lexicon's properties"
     -- kwby    kuwbiy~ Nall    Cuban     [[kuwbiy~/NOUN]]
     -- kwby    kuwbiy~ Nall    Cuban     [[kuwbiy~/ADJ]]
 
-    FUL |< Iy                 `adj`     {- kuwbiy~ -}          [ "Cuban" ],
-
-    -- ;; kuwbiy~_1
-    -- kwby    kuwbiy~ Nall    Cuban     [[kuwbiy~/NOUN]]
-    -- kwby    kuwbiy~ Nall    Cuban     [[kuwbiy~/ADJ]]
-
     FUL |< Iy                 `adj`     {- kuwbiy~ -}          [ "Cuban" ] ]
 
  |> "k w b l" <| [
@@ -8601,11 +8590,6 @@ lexicon = listing "Lexicon's properties"
     -- kwAl    kuwAl   Nprop   Kowal
 
     FuCAL                     `noun`    {- kuwAl -}            [ "Kowal" ],
-
-    -- ;; kuwlAn_1
-    -- kwlAn   kuwlAn  N       papyrus
-
-    FULAn                     `noun`    {- kuwlAn -}           [ "papyrus" ],
 
     -- ;; kuwlAn_1
     -- kwlAn   kuwlAn  N       papyrus
@@ -8951,19 +8935,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCA'
                            {- `others`  [ "kuwY N0", "kiwA' Nh N0_Nh Nhy" ] -},
 
-    -- ;; kuw~ap_1
-    -- kw      kuw~    NapAt   aperture;skylight
-    -- kwY     kuwaY   N0      apertures;skylights
-    -- kwA     kuwA    Nhy     apertures;skylights
-    -- kwA'    kiwA'   N0_Nh   apertures;skylights
-    -- kwA&    kiwA&   Nh      apertures;skylights
-    -- kwA}    kiwA}   Nhy     apertures;skylights
-
-    FUL |< aT                 `noun`    {- kuw~ap -}           [ "aperture", "skylight", "apertures", "skylights" ]
-                              `plural`     FuCY
-                              `plural`     FiCA'
-                           {- `others`  [ "kuwY N0", "kiwA' Nh N0_Nh Nhy" ] -},
-
     -- ;; kaw~A'_1
     -- kwA'    kaw~A'  N0_Nh   ironing man;presser
     -- kwA&    kaw~A&  Nh      ironing man;presser
@@ -9272,11 +9243,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; kiyliy_1
     -- kyly    kiyliy  Nprop   Kelly
 
-    KiRDI                     `noun`    {- kiyliy -}           [ "Kelly" ],
-
-    -- ;; kiyliy_1
-    -- kyly    kiyliy  Nprop   Kelly
-
     KiRDI                     `noun`    {- kiyliy -}           [ "Kelly" ] ]
 
  |> "k y m" <| [
@@ -9509,11 +9475,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; kiytiy_1
     -- kyty    kiytiy  Nprop   Kitty
 
-    KiRDI                     `noun`    {- kiytiy -}           [ "Kitty" ],
-
-    -- ;; kiytiy_1
-    -- kyty    kiytiy  Nprop   Kitty
-
     KiRDI                     `noun`    {- kiytiy -}           [ "Kitty" ] ]
 
  |> "k y w" <| [
@@ -9544,13 +9505,7 @@ lexicon = listing "Lexicon's properties"
     -- ky      kay     FW-Wa   in order to  [[kay/CONJ]]
     -- lky     likay   FW-Wa   in order to  [[likay/CONJ]]
 
-    FaC                       `noun`    {- kay -}              [ "in order to" ],
-
-    -- ;; kay_1
-    -- ky      kay     FW-Wa   in order to  [[kay/CONJ]]
-    -- lky     likay   FW-Wa   in order to  [[likay/CONJ]]
-
-    FaL                       `noun`    {- kay -}              [ "in order to" ] ]
+    FaC                       `noun`    {- kay -}              [ "in order to" ] ]
 
  |> "k z b r" <| [
 

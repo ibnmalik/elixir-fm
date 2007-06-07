@@ -375,8 +375,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "s ` d y" <| [
 
-    KaRDI                     `noun`    {- saEodiy -}          [ "Saadi" ],
-
     KaRDI                     `noun`    {- saEodiy -}          [ "Saadi" ] ]
 
  |> "s ` f" <| [
@@ -1827,10 +1825,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "s w w" <| [
 
-    FU                        `noun`    {- suw -}              [ "Sue" ],
-
-    FU                        `noun`    {- suw -}              [ "Sue" ],
-
     FU                        `noun`    {- suw -}              [ "Sue" ] ]
 
  |> "s w y" <| [
@@ -1883,11 +1877,6 @@ lexicon = listing "Lexicon's properties"
  |> "s y '" <| [
 
     IFtiCAL                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At
-                              `plural`     IFtiCA' |< At,
-
-    IFtiCA'                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
                               `plural`     IFtiCAL |< At
                               `plural`     IFtiyAL |< At
                               `plural`     IFtiCA' |< At,
@@ -1948,8 +1937,6 @@ lexicon = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- say~Af -}           [ "Sayyaf" ],
 
     FaCCAL                    `noun`    {- say~Af -}           [ "executioner" ],
-
-    FILAn                     `noun`    {- siyfAn -}           [ "Sevan" ],
 
     FILAn                     `noun`    {- siyfAn -}           [ "Sevan" ] ]
 
@@ -2036,8 +2023,6 @@ lexicon = listing "Lexicon's properties"
     KiRDIS                    `noun`    {- siysiyl -}          [ "Cecil" ] ]
 
  |> "s y t y" <| [
-
-    KiRDI                     `noun`    {- siytiy -}           [ "City" ],
 
     KiRDI                     `noun`    {- siytiy -}           [ "City" ] ]
 

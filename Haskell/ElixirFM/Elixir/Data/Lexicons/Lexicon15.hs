@@ -542,11 +542,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- DiyA' -}            [ "Zia", "Dhia" ],
 
-    FiCAL                     `noun`    {- DiyA' -}            [ "Zia", "Dhia" ],
-
     FiCA'                     `noun`    {- DiyA' -}            [ "light", "glow" ],
-
-    FiCAL                     `noun`    {- DiyA' -}            [ "light", "glow" ],
 
     MuFIL                     `adj`     {- muDiy' -}           [ "shining", "bright" ] ]
 

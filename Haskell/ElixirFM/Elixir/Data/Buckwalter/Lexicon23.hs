@@ -7642,21 +7642,6 @@ lexicon = listing "Lexicon's properties"
 
     FaC                       `noun`    {- law -}              [ "if" ],
 
-    -- ;; law_1
-    -- lw      law     FW-Wa   if           [[law/CONJ]]
-
-    FaL                       `noun`    {- law -}              [ "if" ],
-
-    -- ;; luw_1
-    -- lw      luw     FW-Wa   Le     [[luw/NOUN_PROP]]
-
-    FU                        `noun`    {- luw -}              [ "Le" ],
-
-    -- ;; luw_1
-    -- lw      luw     FW-Wa   Le     [[luw/NOUN_PROP]]
-
-    FU                        `noun`    {- luw -}              [ "Le" ],
-
     -- ;; luw_1
     -- lw      luw     FW-Wa   Le     [[luw/NOUN_PROP]]
 
@@ -7913,13 +7898,6 @@ lexicon = listing "Lexicon's properties"
     -- lyA&    liy~A&  Nh_L    shark
     -- lyA}    liy~A}  Nhy_L   shark
 
-    FICAL                     `noun`    {- liy~A' -}           [ "shark" ],
-
-    -- ;; liy~A'_1
-    -- lyA'    liy~A'  N0_Nh_L shark
-    -- lyA&    liy~A&  Nh_L    shark
-    -- lyA}    liy~A}  Nhy_L   shark
-
     FICAL                     `noun`    {- liy~A' -}           [ "shark" ] ]
 
  |> "l y .t" <| [
@@ -8019,11 +7997,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At ]
 
  |> "l y f y" <| [
-
-    -- ;; liyfiy_1
-    -- lyfy    liyfiy  Nprop   Levi;Levy
-
-    KiRDI                     `noun`    {- liyfiy -}           [ "Levi", "Levy" ],
 
     -- ;; liyfiy_1
     -- lyfy    liyfiy  Nprop   Levi;Levy
@@ -8208,11 +8181,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; liyniy_1
     -- lyny    liyniy  Nprop   Lenny
 
-    KiRDI                     `noun`    {- liyniy -}           [ "Lenny" ],
-
-    -- ;; liyniy_1
-    -- lyny    liyniy  Nprop   Lenny
-
     KiRDI                     `noun`    {- liyniy -}           [ "Lenny" ] ]
 
  |> "l y q" <| [
@@ -8314,16 +8282,6 @@ lexicon = listing "Lexicon's properties"
     -- lwA     liwA    Nhy_L   turns;curves
 
     FaCL |< aT                `noun`    {- lay~ap -}           [ "turn", "curve", "turns", "curves" ],
-
-    -- ;; liy_1
-    -- ly      liy     Nprop   Lee;Li
-
-    FI                        `noun`    {- liy -}              [ "Lee", "Li" ],
-
-    -- ;; liy_1
-    -- ly      liy     Nprop   Lee;Li
-
-    FI                        `noun`    {- liy -}              [ "Lee", "Li" ],
 
     -- ;; liy_1
     -- ly      liy     Nprop   Lee;Li

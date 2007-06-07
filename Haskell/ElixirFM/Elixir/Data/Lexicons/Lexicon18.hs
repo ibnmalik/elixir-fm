@@ -1614,8 +1614,6 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- EAmiy -}            [ "Ami" ],
 
-    FACI                      `noun`    {- EAmiy -}            [ "Ami" ],
-
     HaFCY                     `verb`    {- OaEomaY -}          [ "make blind", "be blinded" ],
 
     FaCIL |< aT               `noun`    {- Eamiy~ap -}         [ "ignorance", "blindness" ],
@@ -2681,10 +2679,6 @@ lexicon = listing "Lexicon's properties"
  |> "` y s" <| [
 
     FILY                      `noun`    {- EiysaY -}           [ "Issa", "Eissa" ],
-
-    FILY                      `noun`    {- EiysaY -}           [ "Issa", "Eissa" ],
-
-    FILY                      `noun`    {- EiysaY -}           [ "Jesus (in Islam)" ],
 
     FILY                      `noun`    {- EiysaY -}           [ "Jesus (in Islam)" ] ]
 

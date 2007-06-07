@@ -317,8 +317,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "n .s r y" <| [
 
-    KaRDI                     `noun`    {- naSoriy -}          [ "Nasri" ],
-
     KaRDI                     `noun`    {- naSoriy -}          [ "Nasri" ] ]
 
  |> "n .s t" <| [
@@ -2328,10 +2326,6 @@ lexicon = listing "Lexicon's properties"
 
     FILAn                     `noun`    {- niysAn -}           [ "April" ],
 
-    FILAn                     `noun`    {- niysAn -}           [ "April" ],
-
-    FILAn                     `noun`    {- niysAn -}           [ "Nissan" ],
-
     FILAn                     `noun`    {- niysAn -}           [ "Nissan" ] ]
 
  |> "n y s n" <| [
@@ -2343,8 +2337,6 @@ lexicon = listing "Lexicon's properties"
  |> "n y y" <| [
 
     FIL |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire", "intentions", "desires" ],
-
-    FIL                       `adj`     {- niy~ -}             [ "raw", "uncooked" ],
 
     FIL                       `adj`     {- niy~ -}             [ "raw", "uncooked" ] ]
 

@@ -1076,21 +1076,6 @@ lexicon = listing "Lexicon's properties"
     FACI                      `noun`    {- jAviy -}            [ "kneeling" ]
                               `plural`     FACI |< At,
 
-    -- ;; jAviy_1
-    -- jAvy    jAviy   N0F     kneeling
-    -- jAv     jAv     NK      kneeling
-    -- jAvy    jAviy   NAn_Nayn        kneeling
-    -- jAv     jAv     Nuwn_Niyn       kneeling
-    -- jAvy    jAviy   NapAt   kneeling
-
-    FACI                      `noun`    {- jAviy -}            [ "kneeling" ]
-                              `plural`     FACI |< At,
-
-    -- ;; jAviy_2
-    -- jAvy    jAviy   N0      Hercules
-
-    FACI                      `noun`    {- jAviy -}            [ "Hercules" ],
-
     -- ;; jAviy_2
     -- jAvy    jAviy   N0      Hercules
 
@@ -1852,27 +1837,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FACI |< At
                               `plural`     FuCY |< aT,
 
-    -- ;; jAbiy_1
-    -- jAby    jAbiy   N0F     tax collector;collector
-    -- jAb     jAb     NK      tax collector;collector
-    -- jAby    jAbiy   NAn_Nayn        tax collector;collector
-    -- jAb     jAb     Nuwn_Niyn       tax collector;collector
-    -- jAby    jAbiy   NapAt   tax collector;collector
-    -- jbA     jubA    Nap     tax collectors;collectors
-
-    FACI                      `noun`    {- jAbiy -}            [ "tax collector", "collector", "tax collectors", "collectors" ]
-                              `plural`     FACI |< At
-                              `plural`     FuCY |< aT,
-
-    -- ;; jAbiyap_1
-    -- jAby    jAbiy   Napdu   pool;basin
-    -- jwAby   jawAbiy N0_Nh   pools;basins
-    -- jwAb    jawAb   NK      pools;basins
-
-    FACI |< aT                `noun`    {- jAbiyap -}          [ "pool", "basin", "pools", "basins" ]
-                              `plural`     FawACI
-                           {- `others`  [ "^gawAbiy N0_Nh" ] -},
-
     -- ;; jAbiyap_1
     -- jAby    jAbiy   Napdu   pool;basin
     -- jwAby   jawAbiy N0_Nh   pools;basins
@@ -2525,16 +2489,6 @@ lexicon = listing "Lexicon's properties"
     MuFCI                     `noun`    {- mujodiy -}          [ "useful", "suitable" ]
                               `plural`     MuFCI |< At,
 
-    -- ;; mujodiy_1
-    -- mjdy    mujodiy N0F_Nh  useful;suitable
-    -- mjd     mujod   NK      useful;suitable
-    -- mjdy    mujodiy NAn_Nayn        useful;suitable
-    -- mjd     mujod   Nuwn_Niyn       useful;suitable
-    -- mjdy    mujodiy NapAt   useful;suitable
-
-    MuFCI                     `noun`    {- mujodiy -}          [ "useful", "suitable" ]
-                              `plural`     MuFCI |< At,
-
     -- ;; jadoy_1
     -- jdy     jadoy   Ndu     goat
     -- jdA'    jidA'   N0_Nh   goats
@@ -2805,18 +2759,6 @@ lexicon = listing "Lexicon's properties"
     -- Ajfy    >ajofay NAn_Nayn        more/most averse
 
     HaFCY                     `noun`    {- OajofaY -}          [ "more/most averse" ],
-
-    -- ;; jAfiy_1
-    -- jAfy    jAfiy   N0F     rough;rude
-    -- jAf     jAf     NK      rough;rude
-    -- jAfy    jAfiy   NAn_Nayn        rough;rude
-    -- jAf     jAf     Nuwn_Niyn       rough;rude
-    -- jAfy    jAfiy   NapAt   rough;rude
-    -- jfA     jufA    Nap     rough;rude
-
-    FACI                      `noun`    {- jAfiy -}            [ "rough", "rude" ]
-                              `plural`     FuCY |< aT
-                              `plural`     FACI |< At,
 
     -- ;; jAfiy_1
     -- jAfy    jAfiy   N0F     rough;rude
@@ -7458,13 +7400,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FACI
                            {- `others`  [ "^gAriy NF" ] -},
 
-    -- ;; jAriyAF_1
-    -- jAry    jAriy   NF      occurring;happening;flowing
-
-    FACI |< aN                `noun`    {- jAriyAF -}          [ "occurring", "happening", "flowing" ]
-                              `plural`     FACI
-                           {- `others`  [ "^gAriy NF" ] -},
-
     -- ;; jAriy_1
     -- jAry    jAriy   N0      current;present;proceeding;taking place     [[jAriy/ADJ]]
     -- jAr     jAr     NK      current;present;proceeding;taking place     [[jAr/ADJ]]
@@ -7474,25 +7409,6 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `adj`     {- jAriy -}            [ "current", "present", "proceeding", "taking place" ]
                               `plural`     FACI |< At,
-
-    -- ;; jAriy_1
-    -- jAry    jAriy   N0      current;present;proceeding;taking place     [[jAriy/ADJ]]
-    -- jAr     jAr     NK      current;present;proceeding;taking place     [[jAr/ADJ]]
-    -- jAry    jAriy   NAn_Nayn        current;present;proceeding;taking place     [[jAriy/ADJ]]
-    -- jAr     jAr     Nuwn_Niyn       current;present;proceeding;taking place     [[jAr/ADJ]]
-    -- jAry    jAriy   NapAt   current;present;proceeding;taking place     [[jAriy/ADJ]]
-
-    FACI                      `adj`     {- jAriy -}            [ "current", "present", "proceeding", "taking place" ]
-                              `plural`     FACI |< At,
-
-    -- ;; jAriyap_1
-    -- jAry    jAriy   NapAt   housemaid
-    -- jwAry   jawAriy N0_Nh   maids
-    -- jwAr    jawAr   NK      maids
-
-    FACI |< aT                `noun`    {- jAriyap -}          [ "housemaid", "maids" ]
-                              `plural`     FawACI
-                           {- `others`  [ "^gawAriy N0_Nh" ] -},
 
     -- ;; jAriyap_1
     -- jAry    jAriy   NapAt   housemaid
@@ -8580,16 +8496,6 @@ lexicon = listing "Lexicon's properties"
 
     FUCAL |< Iy               `adj`     {- juw~Aniy~ -}        [ "inner", "interior", "intimate" ],
 
-    -- ;; juw~Aniy~_1
-    -- jwAny   juw~Aniy~       Nall    inner;interior;intimate     [[juw~Aniy~/ADJ]]
-
-    FUCAL |< Iy               `adj`     {- juw~Aniy~ -}        [ "inner", "interior", "intimate" ],
-
-    -- ;; juw~Aniy~ap_1
-    -- jwAny   juw~Aniy~       Nap     intimacy
-
-    FUCAL |< Iy |< aT         `noun`    {- juw~Aniy~ap -}      [ "intimacy" ],
-
     -- ;; juw~Aniy~ap_1
     -- jwAny   juw~Aniy~       Nap     intimacy
 
@@ -8836,30 +8742,10 @@ lexicon = listing "Lexicon's properties"
 
     FU                        `noun`    {- juw -}              [ "Joe" ],
 
-    -- ;; juw_1
-    -- jw      juw     Nprop   Joe
-
-    FU                        `noun`    {- juw -}              [ "Joe" ],
-
-    -- ;; juw_1
-    -- jw      juw     Nprop   Joe
-
-    FU                        `noun`    {- juw -}              [ "Joe" ],
-
     -- ;; juw~Aniy~_1
     -- jwAny   juw~Aniy~       Nall    inner;interior;intimate     [[juw~Aniy~/ADJ]]
 
     FULAn |< Iy               `adj`     {- juw~Aniy~ -}        [ "inner", "interior", "intimate" ],
-
-    -- ;; juw~Aniy~_1
-    -- jwAny   juw~Aniy~       Nall    inner;interior;intimate     [[juw~Aniy~/ADJ]]
-
-    FULAn |< Iy               `adj`     {- juw~Aniy~ -}        [ "inner", "interior", "intimate" ],
-
-    -- ;; juw~Aniy~ap_1
-    -- jwAny   juw~Aniy~       Nap     intimacy
-
-    FULAn |< Iy |< aT         `noun`    {- juw~Aniy~ap -}      [ "intimacy" ],
 
     -- ;; juw~Aniy~ap_1
     -- jwAny   juw~Aniy~       Nap     intimacy
@@ -9346,11 +9232,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FIL |< At ]
 
  |> "^g y m y" <| [
-
-    -- ;; jiymiy_1
-    -- jymy    jiymiy  Nprop   Jimmy
-
-    KiRDI                     `noun`    {- jiymiy -}           [ "Jimmy" ],
 
     -- ;; jiymiy_1
     -- jymy    jiymiy  Nprop   Jimmy
@@ -10049,11 +9930,6 @@ lexicon = listing "Lexicon's properties"
 
     TaFCI |< aT               `noun`    {- tajoziyap -}        [ "reward" ],
 
-    -- ;; tajoziyap_1
-    -- tjzy    tajoziy NapAt   reward
-
-    TaFCI |< aT               `noun`    {- tajoziyap -}        [ "reward" ],
-
     -- ;; mujAzAp_1
     -- mjAzA   mujAzA  Napdu   repayment;punishment
     -- mjAzy   mujAzay NAt     repayments;punishments
@@ -10066,17 +9942,6 @@ lexicon = listing "Lexicon's properties"
     -- mjAz    mujAz   NK      remunerator
 
     MuFACI                    `noun`    {- mujAziy -}          [ "remunerator" ],
-
-    -- ;; mujAziy_1
-    -- mjAzy   mujAziy N0F_Nh  remunerator
-    -- mjAz    mujAz   NK      remunerator
-
-    MuFACI                    `noun`    {- mujAziy -}          [ "remunerator" ],
-
-    -- ;; mujAziy_2
-    -- mjAzy   mujAziy N0      Mugazi
-
-    MuFACI                    `noun`    {- mujAziy -}          [ "Mugazi" ],
 
     -- ;; mujAziy_2
     -- mjAzy   mujAziy N0      Mugazi

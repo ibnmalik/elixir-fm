@@ -193,12 +193,6 @@ lexicon = listing "Lexicon's properties"
     FACI                      `adj`     {- tAliy -}            [ "following", "subsequent" ]
                               `plural`     FACI |< At,
 
-    FACI                      `adj`     {- tAliy -}            [ "following", "subsequent" ]
-                              `plural`     FACI |< At,
-
-    MutaFACI                  `noun`    {- mutatAliy -}        [ "consecutive", "successive" ]
-                              `plural`     MutaFACI |< At,
-
     MutaFACI                  `noun`    {- mutatAliy -}        [ "consecutive", "successive" ]
                               `plural`     MutaFACI |< At ]
 
@@ -417,8 +411,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "t w m" <| [
 
-    FUL                       `noun`    {- tuwm -}             [ "Tom" ],
-
     FUL                       `noun`    {- tuwm -}             [ "Tom" ] ]
 
  |> "t w m s" <| [
@@ -491,8 +483,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCCAL |< At ]
 
  |> "t y r y" <| [
-
-    KiRDI                     `noun`    {- tiyriy -}           [ "Thierry" ],
 
     KiRDI                     `noun`    {- tiyriy -}           [ "Thierry" ] ]
 

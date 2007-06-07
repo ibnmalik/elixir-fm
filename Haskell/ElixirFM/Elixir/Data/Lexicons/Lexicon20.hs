@@ -1670,10 +1670,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "f y y" <| [
 
-    FI                        `noun`    {- fiy -}              [ "in" ],
-
-    FI                        `noun`    {- fiy -}              [ "in" ],
-
     FI                        `noun`    {- fiy -}              [ "in" ] ]
 
  |> "f y z" <| [

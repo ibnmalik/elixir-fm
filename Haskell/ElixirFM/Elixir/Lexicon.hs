@@ -46,7 +46,7 @@ module Elixir.Lexicon (
 
         (|>), (<|),
 
-        (|<), (>|),
+        (>|), (|<), (>>|), (|<<),
 
         -- * Functions
 

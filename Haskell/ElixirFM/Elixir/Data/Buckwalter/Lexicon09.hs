@@ -1876,46 +1876,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FI
                            {- `others`  [ "_dawuw FW-Wa FW-Wa-a", "_dawiy FW-Wa-y FW-WaBi", "_dawA FW-Wa FW-Wa-A", "_diy FW-Wa" ] -},
 
-    -- ;; *uw_1
-    -- \*w      *uw     FW-Wa   of;with     [[*uw/DEM_PRON_MS]]
-    -- \*y      *iy     FW-Wa   of;with     [[*iy/DEM_PRON_MS]]
-    -- \*A      *A      FW-Wa   of;with     [[*A/DEM_PRON_MS]]
-    -- \*wA     *awA    FW-Wa   (two relatives) of     [[*awA/DEM_PRON_MD]]
-    -- \*wA     *awA    FW-Wa-A (two relatives) of     [[*awA/DEM_PRON_MD]]
-    -- \*wy     *away   FW-WaBi (two relatives) of     [[*away/DEM_PRON_MD]]
-    -- \*wy     *away   FW-Wa-y (two relatives) of     [[*away/DEM_PRON_MD]]
-    -- \*ww     *awuw   FW-Wa   (relatives) of;family     [[*awuw/DEM_PRON_MP]]
-    -- \*ww     *awuw   FW-Wa-a (relatives) of;family     [[*awuw/DEM_PRON_MP]]
-    -- \*wy     *awiy   FW-WaBi (relatives) of;family     [[*awiy/DEM_PRON_MD]]
-    -- \*wy     *awiy   FW-Wa-y (relatives) of;family     [[*awiy/DEM_PRON_MD]]
-
-    FU                        `noun`    {- \*uw -}             [ "of", "with", "(two relatives) of", "(relatives) of", "family" ]
-                              `plural`     FaCU
-                              `plural`     FaCI
-                              `plural`     FaCA
-                              `plural`     FI
-                           {- `others`  [ "_dawuw FW-Wa FW-Wa-a", "_dawiy FW-Wa-y FW-WaBi", "_dawA FW-Wa FW-Wa-A", "_diy FW-Wa" ] -},
-
-    -- ;; *uw_1
-    -- \*w      *uw     FW-Wa   of;with     [[*uw/DEM_PRON_MS]]
-    -- \*y      *iy     FW-Wa   of;with     [[*iy/DEM_PRON_MS]]
-    -- \*A      *A      FW-Wa   of;with     [[*A/DEM_PRON_MS]]
-    -- \*wA     *awA    FW-Wa   (two relatives) of     [[*awA/DEM_PRON_MD]]
-    -- \*wA     *awA    FW-Wa-A (two relatives) of     [[*awA/DEM_PRON_MD]]
-    -- \*wy     *away   FW-WaBi (two relatives) of     [[*away/DEM_PRON_MD]]
-    -- \*wy     *away   FW-Wa-y (two relatives) of     [[*away/DEM_PRON_MD]]
-    -- \*ww     *awuw   FW-Wa   (relatives) of;family     [[*awuw/DEM_PRON_MP]]
-    -- \*ww     *awuw   FW-Wa-a (relatives) of;family     [[*awuw/DEM_PRON_MP]]
-    -- \*wy     *awiy   FW-WaBi (relatives) of;family     [[*awiy/DEM_PRON_MD]]
-    -- \*wy     *awiy   FW-Wa-y (relatives) of;family     [[*awiy/DEM_PRON_MD]]
-
-    FU                        `noun`    {- \*uw -}             [ "of", "with", "(two relatives) of", "(relatives) of", "family" ]
-                              `plural`     FaCU
-                              `plural`     FaCI
-                              `plural`     FaCA
-                              `plural`     FI
-                           {- `others`  [ "_dawuw FW-Wa FW-Wa-a", "_dawiy FW-Wa-y FW-WaBi", "_dawA FW-Wa FW-Wa-A", "_diy FW-Wa" ] -},
-
     -- ;; *awAt_1
     -- \*wAt    *awAt   N       selves;beings
 

@@ -338,9 +338,6 @@ lexicon = listing "Lexicon's properties"
     MuFCI                     `noun`    {- mujodiy -}          [ "useful", "suitable" ]
                               `plural`     MuFCI |< At,
 
-    MuFCI                     `noun`    {- mujodiy -}          [ "useful", "suitable" ]
-                              `plural`     MuFCI |< At,
-
     FaCL                      `noun`    {- jadoy -}            [ "goat", "goats" ]
                               `plural`     FiCLAn
                               `plural`     FiCA'
@@ -1128,13 +1125,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FACI
                            {- `others`  [ "^gAriy NF" ] -},
 
-    FACI |< aN                `noun`    {- jAriyAF -}          [ "occurring", "happening", "flowing" ]
-                              `plural`     FACI
-                           {- `others`  [ "^gAriy NF" ] -},
-
-    FACI                      `adj`     {- jAriy -}            [ "current", "present", "proceeding", "taking place" ]
-                              `plural`     FACI |< At,
-
     FACI                      `adj`     {- jAriy -}            [ "current", "present", "proceeding", "taking place" ]
                               `plural`     FACI |< At ]
 
@@ -1368,10 +1358,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- jaw~iy~ -}          [ "air", "aerial", "atmospheric" ],
 
-    FU                        `noun`    {- juw -}              [ "Joe" ],
-
-    FU                        `noun`    {- juw -}              [ "Joe" ],
-
     FU                        `noun`    {- juw -}              [ "Joe" ] ]
 
  |> "^g w z" <| [
@@ -1479,8 +1465,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FIL |< At ]
 
  |> "^g y m y" <| [
-
-    KiRDI                     `noun`    {- jiymiy -}           [ "Jimmy" ],
 
     KiRDI                     `noun`    {- jiymiy -}           [ "Jimmy" ] ]
 

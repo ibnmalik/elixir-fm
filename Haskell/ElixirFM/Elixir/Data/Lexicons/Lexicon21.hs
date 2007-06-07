@@ -1936,11 +1936,6 @@ lexicon = listing "Lexicon's properties"
     FUL |< aT                 `noun`    {- quw~ap -}           [ "power", "strength", "armed forces" ]
                               `plural`     FuCY
                               `plural`     FUL |< At
-                           {- `others`  [ "quwY N0" ] -},
-
-    FUL |< aT                 `noun`    {- quw~ap -}           [ "power", "strength", "armed forces" ]
-                              `plural`     FuCY
-                              `plural`     FUL |< At
                            {- `others`  [ "quwY N0" ] -} ]
 
  |> "q w y" <| [

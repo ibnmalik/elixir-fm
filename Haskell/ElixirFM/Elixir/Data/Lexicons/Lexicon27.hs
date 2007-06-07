@@ -24,7 +24,8 @@ lexicon = listing "Lexicon's properties"
  |> "w ' .h" <| [
 
     FAL |< aT                 `noun`    {- wAHap -}            [ "oasis", "oases" ]
-                              `plural`     FAL |< At ]
+                              `plural`     FAL |< At
+                              `plural`     FtAL |< At ]
 
  |> "w ' d" <| [
 
@@ -119,6 +120,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- wagoy -}            [ "disturbance", "tumult" ]
                               `plural`     FaCY
+                              `plural`     FtaCY
                               `plural`     FaCA
                            {- `others`  [ "wa.gY N0", "wa.gA Nhy" ] -} ]
 
@@ -160,7 +162,8 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- waHodap -}          [ "Wahda", "Wihda" ],
 
     FaCL |< aT                `noun`    {- waHodap -}          [ "unit", "units" ]
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCaL |< At
+                              `plural`     FtaCaL |< At,
 
     FaCLY |< Iy               `adj`     {- waHodawiy~ -}       [ "unionist" ],
 
@@ -195,13 +198,14 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL                  `adj`     {- muwaH~ad -}         [ "united", "standardized" ],
 
-    MUtaCiL                   `adj`     {- mut~aHid -}         [ "united" ] ]
+    MuFtaCiL                  `adj`     {- mut~aHid -}         [ "united" ] ]
 
  |> "w .h l" <| [
 
     FaCL                      `noun`    {- waHol -}            [ "mud", "morass" ]
                               `plural`     FuCUL
                               `plural`     FaCaL
+                              `plural`     FtaCaL
                            {- `others`  [ "wu.huwl N", "wa.hal N" ] -} ]
 
  |> "w .h y" <| [
@@ -316,7 +320,7 @@ lexicon = listing "Lexicon's properties"
 
     MutaFACiL                 `adj`     {- mutawASil -}        [ "continuous", "unceasing", "connected" ],
 
-    MUtaCiL                   `adj`     {- mut~aSil -}         [ "continuous", "unceasing", "connected" ] ]
+    MuFtaCiL                  `adj`     {- mut~aSil -}         [ "continuous", "unceasing", "connected" ] ]
 
  |> "w .s m" <| [
 
@@ -432,7 +436,8 @@ lexicon = listing "Lexicon's properties"
     IstaFCaL                  `verb`    {- Aisotawojab -}      [ "require", "make necessary" ],
 
     FaCL |< aT                `noun`    {- wajobap -}          [ "meal", "menu", "meals", "menus" ]
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCaL |< At
+                              `plural`     FtaCaL |< At,
 
     FuCUL                     `noun`    {- wujuwb -}           [ "duty", "necessity", "obligation" ],
 
@@ -548,7 +553,7 @@ lexicon = listing "Lexicon's properties"
 
     MutaFaCCiL                `noun`    {- mutawaj~ih -}       [ "going towards", "turning towards", "facing" ],
 
-    MUtaCiL                   `noun`    {- mut~ajih -}         [ "directed", "aimed" ] ]
+    MuFtaCiL                  `noun`    {- mut~ajih -}         [ "directed", "aimed" ] ]
 
  |> "w ^g z" <| [
 
@@ -768,7 +773,8 @@ lexicon = listing "Lexicon's properties"
  |> "w d d" <| [
 
     FaCL                      `verb`    {- wad~-a -}           [ "want", "would like" ]
-                              `pfirst`     FaCiL,
+                              `pfirst`     FaCiL
+                              `pfirst`     FtaCiL,
 
     FuCL                      `noun`    {- wud~ -}             [ "affection", "friendship" ]
                               `plural`     FiCL
@@ -863,7 +869,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFACiL                   `adj`     {- muwAfiq -}          [ "agreeing", "consenting", "corresponding to" ],
 
-    MUtaCaL                   `adj`     {- mut~afaq -}         [ "agreed" ] ]
+    MuFtaCaL                  `adj`     {- mut~afaq -}         [ "agreed" ] ]
 
  |> "w f r" <| [
 
@@ -913,7 +919,8 @@ lexicon = listing "Lexicon's properties"
     FaCA'                     `noun`    {- wafA' -}            [ "Wafa'" ],
 
     FaCY |< aT                `noun`    {- wafAp -}            [ "death", "deaths" ]
-                              `plural`     FaCY |< At,
+                              `plural`     FaCY |< At
+                              `plural`     FtaCY |< At,
 
     FaCIL                     `adj`     {- wafiy~ -}           [ "faithful", "complete" ]
                               `plural`     HaFCiLA'
@@ -979,9 +986,9 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCAL |< Iy             `adj`     {- Ait~ihAmiy~ -}      [ "accusing", "indicting" ],
 
-    MUtaCiL                   `noun`    {- mut~ahim -}         [ "accusing" ],
+    MuFtaCiL                  `noun`    {- mut~ahim -}         [ "accusing" ],
 
-    MUtaCaL                   `noun`    {- mut~aham -}         [ "accused", "indicted", "suspected" ] ]
+    MuFtaCaL                  `noun`    {- mut~aham -}         [ "accused", "indicted", "suspected" ] ]
 
  |> "w h n" <| [
 
@@ -1205,9 +1212,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "w m '" <| [
 
-    HICA' |< aT               `noun`    {- IiymA'ap -}         [ "gesture", "sign", "clue" ],
-
-    HICAL |< aT               `noun`    {- IiymA'ap -}         [ "gesture", "sign", "clue" ] ]
+    HICA' |< aT               `noun`    {- IiymA'ap -}         [ "gesture", "sign", "clue" ] ]
 
  |> "w m .d" <| [
 
@@ -1395,6 +1400,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- waroTap -}          [ "predicament", "bind", "involvement", "predicaments", "binds", "involvements" ]
                               `plural`     FaCaL |< At
+                              `plural`     FtaCaL |< At
                               `plural`     FiCAL
                            {- `others`  [ "wirA.t N" ] -},
 
@@ -1430,6 +1436,7 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`    {- wAriv -}            [ "heir", "inheritor", "heirs", "inheritors" ]
                               `plural`     FuCCAL
                               `plural`     FaCaL |< aT
+                              `plural`     FtaCaL |< aT
                            {- `others`  [ "wurrA_t N" ] -},
 
     MaFCUL                    `adj`     {- maworuwv -}         [ "inherited", "hereditary" ] ]
@@ -1489,7 +1496,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MustaFCaL |< At,
 
     FaCL                      `noun`    {- warod -}            [ "rose" ]
-                              `plural`     FaCL |< At ]
+                              `plural`     FaCL |< At
+                              `plural`     FtaCL |< At ]
 
  |> "w r f" <| [
 
@@ -1518,6 +1526,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- wasoT -}            [ "middle", "center", "environment", "circles", "quarters", "environments" ]
                               `plural`     HaFCAL
                               `plural`     FaCaL
+                              `plural`     FtaCaL
                            {- `others`  [ "'awsA.t N", "wasa.t N" ] -},
 
     FiCAL |< aT               `noun`    {- wisATap -}          [ "mediation", "intercession" ],
@@ -1629,16 +1638,12 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCAL                   `noun`    {- Ait~isAq -}         [ "harmony" ],
 
-    MUtaCiL                   `adj`     {- mut~asiq -}         [ "well-ordered", "harmonious" ] ]
+    MuFtaCiL                  `adj`     {- mut~asiq -}         [ "well-ordered", "harmonious" ] ]
 
  |> "w s y" <| [
 
     MuFACY |< aT              `noun`    {- muwAsAp -}          [ "charity", "consolation" ]
                               `plural`     MuFACY |< At,
-
-    MUCY                      `noun`    {- muwsaY -}           [ "straight razor", "straight razors" ]
-                              `plural`     MaFACI
-                           {- `others`  [ "mawAsiy N0_Nh" ] -},
 
     MUCY                      `noun`    {- muwsaY -}           [ "straight razor", "straight razors" ]
                               `plural`     MaFACI

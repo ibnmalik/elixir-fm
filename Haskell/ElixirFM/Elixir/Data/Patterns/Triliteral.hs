@@ -470,7 +470,7 @@ data PatternT =
         |   FuCaLA'
         |   FACULA'
 
-        |   FiCLiyA'
+        |   FiCLiyA'                    |   FILiyA'
 
     {-- |   FACiL   --}                 |   FA'iL       |   FA'I
 

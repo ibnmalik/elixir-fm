@@ -2337,11 +2337,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; saEodiy_1
     -- sEdy    saEodiy N0      Saadi
 
-    KaRDI                     `noun`    {- saEodiy -}          [ "Saadi" ],
-
-    -- ;; saEodiy_1
-    -- sEdy    saEodiy N0      Saadi
-
     KaRDI                     `noun`    {- saEodiy -}          [ "Saadi" ] ]
 
  |> "s ` f" <| [
@@ -10402,11 +10397,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; sarokiy_1
     -- srky    sarokiy N0      bill of exchange
 
-    KaRDI                     `noun`    {- sarokiy -}          [ "bill of exchange" ],
-
-    -- ;; sarokiy_1
-    -- srky    sarokiy N0      bill of exchange
-
     KaRDI                     `noun`    {- sarokiy -}          [ "bill of exchange" ] ]
 
  |> "s r m" <| [
@@ -12390,16 +12380,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; suw_1
     -- sw      suw     Nprop   Sue
 
-    FU                        `noun`    {- suw -}              [ "Sue" ],
-
-    -- ;; suw_1
-    -- sw      suw     Nprop   Sue
-
-    FU                        `noun`    {- suw -}              [ "Sue" ],
-
-    -- ;; suw_1
-    -- sw      suw     Nprop   Sue
-
     FU                        `noun`    {- suw -}              [ "Sue" ] ]
 
  |> "s w y" <| [
@@ -12651,25 +12631,6 @@ lexicon = listing "Lexicon's properties"
     -- AstyA'  {isotiyA'       NAt     dissatisfaction;displeasure
 
     IFtiCAL                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At
-                              `plural`     IFtiCA' |< At,
-
-    -- ;; {isotiyA'_1
-    -- <styA'  {isotiyA'       N0_Nh   dissatisfaction;displeasure
-    -- AstyA'  {isotiyA'       N0_Nh   dissatisfaction;displeasure
-    -- <styA&  {isotiyA&       Nh      dissatisfaction;displeasure
-    -- AstyA&  {isotiyA&       Nh      dissatisfaction;displeasure
-    -- <styA}  {isotiyA}       Nhy     dissatisfaction;displeasure
-    -- AstyA}  {isotiyA}       Nhy     dissatisfaction;displeasure
-    -- <styA'  {isotiyA'       NAn_Nayn        dissatisfaction;displeasure
-    -- AstyA'  {isotiyA'       NAn_Nayn        dissatisfaction;displeasure
-    -- <styA}  {isotiyA}       Nayn    dissatisfaction;displeasure
-    -- AstyA}  {isotiyA}       Nayn    dissatisfaction;displeasure
-    -- <styA'  {isotiyA'       NAt     dissatisfaction;displeasure
-    -- AstyA'  {isotiyA'       NAt     dissatisfaction;displeasure
-
-    IFtiCA'                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
                               `plural`     IFtiCAL |< At
                               `plural`     IFtiyAL |< At
                               `plural`     IFtiCA' |< At,
@@ -13004,11 +12965,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; siyfAn_1
     -- syfAn   siyfAn  Nprop   Sevan
 
-    FILAn                     `noun`    {- siyfAn -}           [ "Sevan" ],
-
-    -- ;; siyfAn_1
-    -- syfAn   siyfAn  Nprop   Sevan
-
     FILAn                     `noun`    {- siyfAn -}           [ "Sevan" ] ]
 
  |> "s y f n" <| [
@@ -13114,11 +13070,6 @@ lexicon = listing "Lexicon's properties"
     -- sA}ly   sA}iliy~        Nap     fluidity;liquid state     [[sA}iliy~/NOUN]]
 
     FA'iL |< Iy               `noun`    {- sA}iliy~ -}         [ "fluidity", "liquid state" ],
-
-    -- ;; siylAn_1
-    -- sylAn   siylAn  N0      Ceylon
-
-    FILAn                     `noun`    {- siylAn -}           [ "Ceylon" ],
 
     -- ;; siylAn_1
     -- sylAn   siylAn  N0      Ceylon
@@ -13374,11 +13325,6 @@ lexicon = listing "Lexicon's properties"
     KiRDIS                    `noun`    {- siysiyl -}          [ "Cecil" ] ]
 
  |> "s y t y" <| [
-
-    -- ;; siytiy_1
-    -- syty    siytiy  Nprop   City
-
-    KiRDI                     `noun`    {- siytiy -}           [ "City" ],
 
     -- ;; siytiy_1
     -- syty    siytiy  Nprop   City

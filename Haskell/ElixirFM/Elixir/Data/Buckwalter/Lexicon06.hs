@@ -6939,11 +6939,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hamodiy_1
     -- Hmdy    Hamodiy Nprop   Hamdi
 
-    KaRDI                     `noun`    {- Hamodiy -}          [ "Hamdi" ],
-
-    -- ;; Hamodiy_1
-    -- Hmdy    Hamodiy Nprop   Hamdi
-
     KaRDI                     `noun`    {- Hamodiy -}          [ "Hamdi" ] ]
 
  |> ".h m l" <| [
@@ -12350,11 +12345,6 @@ lexicon = listing "Lexicon's properties"
 
     FUCAL |< aT               `noun`    {- Huw~Arap -}         [ "cretaceous rock", "chalk" ],
 
-    -- ;; Huw~Arap_1
-    -- HwAr    Huw~Ar  Nap     cretaceous rock;chalk
-
-    FUCAL |< aT               `noun`    {- Huw~Arap -}         [ "cretaceous rock", "chalk" ],
-
     -- ;; Huwriy~ap_1
     -- Hwry    Huwriy~ NapAt   nymph;houri     [[Huwriy~/NOUN]]
     -- Hwr     Huwr    N       nymphs;houris
@@ -13424,20 +13414,10 @@ lexicon = listing "Lexicon's properties"
 
     FaL |<< "awIy"            `adj`     {- Hayawiy~ -}         [ "vital", "lively", "biological" ],
 
-    -- ;; Hayawiy~_1
-    -- Hywy    Hayawiy~        Nall    vital;lively;biological     [[Hayawiy~/ADJ]]
-
-    FaC |<< "awIy"            `adj`     {- Hayawiy~ -}         [ "vital", "lively", "biological" ],
-
     -- ;; Hayawiy~ap_1
     -- Hywy    Hayawiy~        Nap     vigor;liveliness     [[Hayawiy~/NOUN]]
 
     FaL |<< "awIy" |< aT      `noun`    {- Hayawiy~ap -}       [ "vigor", "liveliness" ],
-
-    -- ;; Hayawiy~ap_1
-    -- Hywy    Hayawiy~        Nap     vigor;liveliness     [[Hayawiy~/NOUN]]
-
-    FaC |<< "awIy" |< aT      `noun`    {- Hayawiy~ap -}       [ "vigor", "liveliness" ],
 
     -- ;; >aHoyaY_2
     -- >HyY    >aHoyaY N0      livelier/liveliest;more/most vital

@@ -2476,11 +2476,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; naSoriy_1
     -- nSry    naSoriy N0      Nasri
 
-    KaRDI                     `noun`    {- naSoriy -}          [ "Nasri" ],
-
-    -- ;; naSoriy_1
-    -- nSry    naSoriy N0      Nasri
-
     KaRDI                     `noun`    {- naSoriy -}          [ "Nasri" ] ]
 
  |> "n .s t" <| [
@@ -8634,11 +8629,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MuFtaCY |< At ]
 
  |> "n d y" <| [
-
-    -- ;; nAdiyap_1
-    -- nAdyp   nAdiyap Nprop   Nadia
-
-    FACI |< aT                `noun`    {- nAdiyap -}          [ "Nadia" ],
 
     -- ;; nAdiyap_1
     -- nAdyp   nAdiyap Nprop   Nadia
@@ -16730,16 +16720,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACIL
                            {- `others`  [ "nawAwiyr Ndip" ] -},
 
-    -- ;; nuw~Ar_1
-    -- nwAr    nuw~Ar  N       blossoms
-    -- nwAr    nuw~Ar  Napdu   blossom
-    -- nwAwyr  nawAwiyr        Ndip    blossoms
-
-    FUCAL                     `noun`    {- nuw~Ar -}           [ "blossoms", "blossom" ]
-                              `plural`     FaCACIL
-                              `plural`     FawACIL
-                           {- `others`  [ "nawAwiyr Ndip" ] -},
-
     -- ;; nawar_1
     -- nwr     nawar   N       gypsies;vagabonds;white trash
 
@@ -17299,16 +17279,6 @@ lexicon = listing "Lexicon's properties"
 
     FILAn                     `noun`    {- niysAn -}           [ "April" ],
 
-    -- ;; niysAn_1
-    -- nysAn   niysAn  N0      April
-
-    FILAn                     `noun`    {- niysAn -}           [ "April" ],
-
-    -- ;; niysAn_2
-    -- nysAn   niysAn  N0      Nissan
-
-    FILAn                     `noun`    {- niysAn -}           [ "Nissan" ],
-
     -- ;; niysAn_2
     -- nysAn   niysAn  N0      Nissan
 
@@ -17345,13 +17315,6 @@ lexicon = listing "Lexicon's properties"
     -- nwAyA   nawAyA  N0_Nhy  intentions;desires
 
     FIL |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire", "intentions", "desires" ],
-
-    -- ;; niy~_1
-    -- ny      niy~    N-ap    raw;uncooked     [[niy~/ADJ]]
-    -- ny'     niy'    N-ap    raw;uncooked
-    -- ny}     niy}    N-ap    raw;uncooked
-
-    FIL                       `adj`     {- niy~ -}             [ "raw", "uncooked" ],
 
     -- ;; niy~_1
     -- ny      niy~    N-ap    raw;uncooked     [[niy~/ADJ]]

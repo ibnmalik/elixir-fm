@@ -52,8 +52,6 @@ lexicon = listing "Lexicon's properties"
     FAL                       `noun`    {- dAy -}              [ "dey" ]
                               `plural`     FAL |< At,
 
-    FACI                      `noun`    {- dA}iy -}            [ "Da'i" ],
-
     FACI                      `noun`    {- dA}iy -}            [ "Da'i" ] ]
 
  |> "d .h l" <| [
@@ -498,8 +496,6 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "dalAfiyn Ndip" ] -} ]
 
  |> "d l h y" <| [
-
-    KiRDI                     `noun`    {- dilohiy -}          [ "Delhi" ],
 
     KiRDI                     `noun`    {- dilohiy -}          [ "Delhi" ] ]
 
@@ -947,8 +943,6 @@ lexicon = listing "Lexicon's properties"
 
     MutaFACaL                 `noun`    {- mutadAwal -}        [ "circulating", "common", "prevailing" ],
 
-    FULAn                     `noun`    {- duwlAn -}           [ "Dolan" ],
-
     FULAn                     `noun`    {- duwlAn -}           [ "Dolan" ] ]
 
  |> "d w l b" <| [
@@ -1087,10 +1081,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "d w w" <| [
 
-    FU                        `noun`    {- duw -}              [ "Du", "Do" ],
-
-    FU                        `noun`    {- duw -}              [ "Du", "Do" ],
-
     FU                        `noun`    {- duw -}              [ "Du", "Do" ] ]
 
  |> "d w y" <| [
@@ -1109,13 +1099,9 @@ lexicon = listing "Lexicon's properties"
     MuFaCCI                   `noun`    {- mudaw~iy -}         [ "ringing", "resounding" ]
                               `plural`     MuFaCCI |< At,
 
-    FA'I                      `noun`    {- dA}iy -}            [ "Da'i" ],
-
     FA'I                      `noun`    {- dA}iy -}            [ "Da'i" ] ]
 
  |> "d y ^s y" <| [
-
-    KiRDI                     `noun`    {- diy$iy -}           [ "Dechy" ],
 
     KiRDI                     `noun`    {- diy$iy -}           [ "Dechy" ] ]
 
@@ -1152,8 +1138,6 @@ lexicon = listing "Lexicon's properties"
     FIL                       `noun`    {- diyl -}             [ "del" ] ]
 
  |> "d y l y" <| [
-
-    KaRDI                     `noun`    {- dayoliy -}          [ "Daily" ],
 
     KaRDI                     `noun`    {- dayoliy -}          [ "Daily" ] ]
 

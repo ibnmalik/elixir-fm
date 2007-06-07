@@ -31097,20 +31097,6 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
-      'entry' => 'qiynAn',
-      'form' => 'qiynAn',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FICAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'qiynAn',
-      'prefix' => ''
-    },
-    {
       'types' => {
         'taqniyn' => {
           'N/At' => 1
@@ -35392,27 +35378,6 @@ $Lexicon = {
         'strength',
         'armed forces'
       ],
-      'orig' => 'quw~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'quww',
-      'form' => 'quwwaT',
-      'lines' => [],
-      'patterns' => {
-        'quwY' => [
-          'FuCY'
-        ],
-        'quww' => [
-          'FUL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [],
       'orig' => 'quw~ap',
       'prefix' => ''
     }
@@ -51802,7 +51767,7 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'IFtaCL',
+      'morphs' => 'IFCaLL',
       'suffix' => '',
       'glosses' => [
         'extirpate',
@@ -51831,7 +51796,7 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'IFCaLL',
+      'morphs' => 'IFtaCL',
       'suffix' => '',
       'glosses' => [],
       'orig' => 'Aiqotat~',
@@ -58632,9 +58597,6 @@ $Lexicon->{'q r y'}[9]{'glosses'} = $Lexicon->{'q r r'}[30]{'glosses'};
 $Lexicon->{'q n n'}[11]{'types'} = $Lexicon->{'q y n'}[0]{'types'};
 $Lexicon->{'q n n'}[11]{'lines'} = $Lexicon->{'q y n'}[0]{'lines'};
 $Lexicon->{'q n n'}[11]{'glosses'} = $Lexicon->{'q y n'}[0]{'glosses'};
-$Lexicon->{'q n n'}[12]{'types'} = $Lexicon->{'q y n'}[0]{'types'};
-$Lexicon->{'q n n'}[12]{'lines'} = $Lexicon->{'q y n'}[0]{'lines'};
-$Lexicon->{'q n n'}[12]{'glosses'} = $Lexicon->{'q y n'}[0]{'glosses'};
 $Lexicon->{'q f w'}[5]{'types'} = $Lexicon->{'q f \''}[0]{'types'};
 $Lexicon->{'q f w'}[5]{'lines'} = $Lexicon->{'q f \''}[0]{'lines'};
 $Lexicon->{'q f w'}[5]{'glosses'} = $Lexicon->{'q f \''}[0]{'glosses'};
@@ -58675,9 +58637,6 @@ $Lexicon->{'q .d y'}[18]{'glosses'} = $Lexicon->{'q .d \''}[4]{'glosses'};
 $Lexicon->{'q .d y'}[19]{'types'} = $Lexicon->{'q .d \''}[5]{'types'};
 $Lexicon->{'q .d y'}[19]{'lines'} = $Lexicon->{'q .d \''}[5]{'lines'};
 $Lexicon->{'q .d y'}[19]{'glosses'} = $Lexicon->{'q .d \''}[5]{'glosses'};
-$Lexicon->{'q w w'}[1]{'types'} = $Lexicon->{'q w w'}[0]{'types'};
-$Lexicon->{'q w w'}[1]{'lines'} = $Lexicon->{'q w w'}[0]{'lines'};
-$Lexicon->{'q w w'}[1]{'glosses'} = $Lexicon->{'q w w'}[0]{'glosses'};
 $Lexicon->{'q y \''}[0]{'types'} = $Lexicon->{'q y y'}[0]{'types'};
 $Lexicon->{'q y \''}[0]{'lines'} = $Lexicon->{'q y y'}[0]{'lines'};
 $Lexicon->{'q y \''}[0]{'glosses'} = $Lexicon->{'q y y'}[0]{'glosses'};

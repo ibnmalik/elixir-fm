@@ -168,12 +168,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tiyjAniy~_1
     -- tyjAny  tiyjAniy~       N0      Tijani
 
-    FICAL |< Iy               `adj`     {- tiyjAniy~ -}        [ "Tijani" ],
-
-    -- ;; tiyjAniy~_1
-    -- tyjAny  tiyjAniy~       N0      Tijani
-
-    TICAL |< Iy               `adj`     {- tiyjAniy~ -}        [ "Tijani" ] ]
+    FICAL |< Iy               `adj`     {- tiyjAniy~ -}        [ "Tijani" ] ]
 
  |> "t ^g r" <| [
 
@@ -1484,26 +1479,6 @@ lexicon = listing "Lexicon's properties"
     FACI                      `adj`     {- tAliy -}            [ "following", "subsequent" ]
                               `plural`     FACI |< At,
 
-    -- ;; tAliy_1
-    -- tAly    tAliy   N0F     following;subsequent     [[tAliy/ADJ]]
-    -- tAl     tAl     NK      following;subsequent     [[tAl/ADJ]]
-    -- tAly    tAliy   NAn_Nayn        following;subsequent     [[tAliy/ADJ]]
-    -- tAl     tAl     Nuwn_Niyn       following;subsequent     [[tAl/ADJ]]
-    -- tAly    tAliy   NapAt   following;subsequent     [[tAliy/ADJ]]
-
-    FACI                      `adj`     {- tAliy -}            [ "following", "subsequent" ]
-                              `plural`     FACI |< At,
-
-    -- ;; mutatAliy_1
-    -- mttAly  mutatAliy       N0F_Nh  consecutive;successive
-    -- mttAl   mutatAl NK      consecutive;successive
-    -- mttAly  mutatAliy       NAn_Nayn        consecutive;successive
-    -- mttAl   mutatAl Nuwn_Niyn       consecutive;successive
-    -- mttAly  mutatAliy       NapAt   consecutive;successive
-
-    MutaFACI                  `noun`    {- mutatAliy -}        [ "consecutive", "successive" ]
-                              `plural`     MutaFACI |< At,
-
     -- ;; mutatAliy_1
     -- mttAly  mutatAliy       N0F_Nh  consecutive;successive
     -- mttAl   mutatAl NK      consecutive;successive
@@ -1519,12 +1494,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tiymAwiy~_1
     -- tymAwy  tiymAwiy~       N0      Timawi
 
-    FICAL |< Iy               `adj`     {- tiymAwiy~ -}        [ "Timawi" ],
-
-    -- ;; tiymAwiy~_1
-    -- tymAwy  tiymAwiy~       N0      Timawi
-
-    TICAL |< Iy               `adj`     {- tiymAwiy~ -}        [ "Timawi" ] ]
+    FICAL |< Iy               `adj`     {- tiymAwiy~ -}        [ "Timawi" ] ]
 
  |> "t m .g" <| [
 
@@ -2714,11 +2684,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; tuwkap_1
     -- twk     tuwk    NapAt   belt buckle
 
-    FUL |< aT                 `noun`    {- tuwkap -}           [ "belt buckle" ],
-
-    -- ;; tuwkap_1
-    -- twk     tuwk    NapAt   belt buckle
-
     FUL |< aT                 `noun`    {- tuwkap -}           [ "belt buckle" ] ]
 
  |> "t w l z" <| [
@@ -2729,11 +2694,6 @@ lexicon = listing "Lexicon's properties"
     KuRDUS                    `noun`    {- tuwluwz -}          [ "Toulouse" ] ]
 
  |> "t w m" <| [
-
-    -- ;; tuwm_1
-    -- twm     tuwm    Nprop   Tom
-
-    FUL                       `noun`    {- tuwm -}             [ "Tom" ],
 
     -- ;; tuwm_1
     -- twm     tuwm    Nprop   Tom
@@ -2753,11 +2713,6 @@ lexicon = listing "Lexicon's properties"
     -- tAwn    tAwn    Nprop   Town
 
     FACL                      `noun`    {- tAwn -}             [ "Town" ],
-
-    -- ;; tuwnap_1
-    -- twn     tuwn    Nap     tuna
-
-    FUL |< aT                 `noun`    {- tuwnap -}           [ "tuna" ],
 
     -- ;; tuwnap_1
     -- twn     tuwn    Nap     tuna
@@ -2828,25 +2783,10 @@ lexicon = listing "Lexicon's properties"
 
     FUL                       `noun`    {- tuwt -}             [ "mulberry" ],
 
-    -- ;; tuwt_1
-    -- twt     tuwt    N       mulberry
-
-    FUL                       `noun`    {- tuwt -}             [ "mulberry" ],
-
     -- ;; tuwt_2
     -- twt     tuwt    Ndip    Tut (1st Coptic month, Sept. 11-Oct. 10)
 
     FUL                       `noun`    {- tuwt -}             [ "Tut (1st Coptic month, Sept. 11-Oct. 10)" ],
-
-    -- ;; tuwt_2
-    -- twt     tuwt    Ndip    Tut (1st Coptic month, Sept. 11-Oct. 10)
-
-    FUL                       `noun`    {- tuwt -}             [ "Tut (1st Coptic month, Sept. 11-Oct. 10)" ],
-
-    -- ;; tuwtiy~_1
-    -- twty    tuwtiy~ N/ap    zinc     [[tuwtiy~/ADJ]]
-
-    FUL |< Iy                 `adj`     {- tuwtiy~ -}          [ "zinc" ],
 
     -- ;; tuwtiy~_1
     -- twty    tuwtiy~ N/ap    zinc     [[tuwtiy~/ADJ]]
@@ -3093,11 +3033,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; tiyn_1
     -- tyn     tiyn    N       fig
 
-    FIL                       `noun`    {- tiyn -}             [ "fig" ],
-
-    -- ;; tiyn_1
-    -- tyn     tiyn    N       fig
-
     FIL                       `noun`    {- tiyn -}             [ "fig" ] ]
 
  |> "t y n t" <| [
@@ -3124,11 +3059,6 @@ lexicon = listing "Lexicon's properties"
     KaRDAS                    `noun`    {- tayorAb -}          [ "Teirab" ] ]
 
  |> "t y r y" <| [
-
-    -- ;; tiyriy_1
-    -- tyry    tiyriy  Nprop   Thierry
-
-    KiRDI                     `noun`    {- tiyriy -}           [ "Thierry" ],
 
     -- ;; tiyriy_1
     -- tyry    tiyriy  Nprop   Thierry

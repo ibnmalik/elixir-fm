@@ -321,8 +321,6 @@ lexicon = listing "Lexicon's properties"
 
  |> ".s b r y" <| [
 
-    KaRDI                     `noun`    {- Saboriy -}          [ "Sabri", "Sabry" ],
-
     KaRDI                     `noun`    {- Saboriy -}          [ "Sabri", "Sabry" ] ]
 
  |> ".s b w" <| [

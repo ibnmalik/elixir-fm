@@ -9302,11 +9302,6 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- EAmiy -}            [ "Ami" ],
 
-    -- ;; EAmiy_1
-    -- EAmy    EAmiy   Nprop   Ami
-
-    FACI                      `noun`    {- EAmiy -}            [ "Ami" ],
-
     -- ;; Eamiy-a_1
     -- Emy     Eamiy   PV_no-w_intr    be blind;be obscure
     -- Em      Eam     PV_w_intr       be blind;be obscure
@@ -14724,11 +14719,6 @@ lexicon = listing "Lexicon's properties"
 
     FUCAL                     `noun`    {- Euw~Ad -}           [ "visitors" ],
 
-    -- ;; Euw~Ad_1
-    -- EwAd    Euw~Ad  N       visitors
-
-    FUCAL                     `noun`    {- Euw~Ad -}           [ "visitors" ],
-
     -- ;; EA}idap_1
     -- EA}d    EA}id   Nap     profit
     -- EwA}d   EawA}id Ndip    profits;revenues;royalties
@@ -15892,11 +15882,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; Eiydiy_1
     -- Eydy    Eiydiy  Nprop   Idi
 
-    KiRDI                     `noun`    {- Eiydiy -}           [ "Idi" ],
-
-    -- ;; Eiydiy_1
-    -- Eydy    Eiydiy  Nprop   Idi
-
     KiRDI                     `noun`    {- Eiydiy -}           [ "Idi" ] ]
 
  |> "` y f" <| [
@@ -16258,26 +16243,10 @@ lexicon = listing "Lexicon's properties"
 
     FILY                      `noun`    {- EiysaY -}           [ "Issa", "Eissa" ],
 
-    -- ;; EiysaY_1
-    -- EysY    EiysaY  N0      Issa;Eissa
-
-    FILY                      `noun`    {- EiysaY -}           [ "Issa", "Eissa" ],
-
     -- ;; EiysaY_2
     -- EysY    EiysaY  Nprop   Jesus (in Islam)
 
     FILY                      `noun`    {- EiysaY -}           [ "Jesus (in Islam)" ],
-
-    -- ;; EiysaY_2
-    -- EysY    EiysaY  Nprop   Jesus (in Islam)
-
-    FILY                      `noun`    {- EiysaY -}           [ "Jesus (in Islam)" ],
-
-    -- ;; Eiysawiy~_1
-    -- Eyswy   Eiysawiy~       Nall    Christian     [[Eiysawiy~/NOUN]]
-    -- Eyswy   Eiysawiy~       Nall    Christian     [[Eiysawiy~/ADJ]]
-
-    FILY |< Iy                `adj`     {- Eiysawiy~ -}        [ "Christian" ],
 
     -- ;; Eiysawiy~_1
     -- Eyswy   Eiysawiy~       Nall    Christian     [[Eiysawiy~/NOUN]]
@@ -16295,17 +16264,6 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- Eay~-a -}           [ "be incapable" ]
                               `imperf`     FCY
                               `pfirst`     FaCI,
-
-    -- ;; Eayiy-a_1
-    -- Eyy     Eayiy   PV_no-w_intr    be incapable
-    -- Ey      Eay     PV_w_intr       be incapable
-    -- EyY     EoyaY   IV_0_Pass_yu    be incapable
-    -- EyA     EoyA    IV_0    be incapable
-    -- Eyy     Eoyay   IV_Ann  be incapable
-    -- Ey      Eoya    IV_0hwnyn       be incapable
-
-    FaCI                      `verb`    {- Eayiy-a -}          [ "be incapable" ]
-                              `imperf`     FCY,
 
     -- ;; Eayiy-a_1
     -- Eyy     Eayiy   PV_no-w_intr    be incapable
@@ -16344,11 +16302,6 @@ lexicon = listing "Lexicon's properties"
 
     FIL                       `noun`    {- Eiy~ -}             [ "stammer" ],
 
-    -- ;; Eiy~_1
-    -- Ey      Eiy~    N       stammer
-
-    FIL                       `noun`    {- Eiy~ -}             [ "stammer" ],
-
     -- ;; EayA'_1
     -- EyA'    EayA'   N0_Nh   inability;disease
     -- EyA&    EayA&   Nh      inability;disease
@@ -16375,16 +16328,6 @@ lexicon = listing "Lexicon's properties"
     -- AEyA}   <iEoyA} Nhy     weariness;powerlessness
 
     HiFCA'                    `noun`    {- IiEoyA' -}          [ "weariness", "powerlessness" ],
-
-    -- ;; muEoyiy_1
-    -- mEyy    muEoyiy N0F_Nh  tired;exhausted     [[muEoyiy/ADJ]]
-    -- mEy     muEoy   NK      tired;exhausted
-    -- mEyy    muEoyiy NAn_Nayn        tired;exhausted
-    -- mEy     muEoy   Nuwn_Niyn       tired;exhausted
-    -- mEyy    muEoyiy NapAt   tired;exhausted
-
-    MuFCI                     `adj`     {- muEoyiy -}          [ "tired", "exhausted" ]
-                              `plural`     MuFCI |< At,
 
     -- ;; muEoyiy_1
     -- mEyy    muEoyiy N0F_Nh  tired;exhausted     [[muEoyiy/ADJ]]

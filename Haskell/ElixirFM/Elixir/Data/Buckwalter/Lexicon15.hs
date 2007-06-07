@@ -1472,16 +1472,6 @@ lexicon = listing "Lexicon's properties"
     -- DAfy    DAfiy   NapAt   ample;elaborate
 
     FACI                      `noun`    {- DAfiy -}            [ "ample", "elaborate" ]
-                              `plural`     FACI |< At,
-
-    -- ;; DAfiy_1
-    -- DAfy    DAfiy   N0F     ample;elaborate
-    -- DAf     DAf     NK      ample;elaborate
-    -- DAfy    DAfiy   NAn_Nayn        ample;elaborate
-    -- DAf     DAf     Nuwn_Niyn       ample;elaborate
-    -- DAfy    DAfiy   NapAt   ample;elaborate
-
-    FACI                      `noun`    {- DAfiy -}            [ "ample", "elaborate" ]
                               `plural`     FACI |< At ]
 
  |> ".d h d" <| [
@@ -2984,17 +2974,6 @@ lexicon = listing "Lexicon's properties"
 
     FawACI                    `noun`    {- DawAriy -}          [ "predatory animals" ],
 
-    -- ;; DawAriy_1
-    -- DwAry   DawAriy N0_Nh   predatory animals
-    -- DwAr    DawAr   NK      predatory animals
-
-    FawACI                    `noun`    {- DawAriy -}          [ "predatory animals" ],
-
-    -- ;; taDoriyap_1
-    -- tDry    taDoriy Nap     provocation
-
-    TaFCI |< aT               `noun`    {- taDoriyap -}        [ "provocation" ],
-
     -- ;; taDoriyap_1
     -- tDry    taDoriy Nap     provocation
 
@@ -3251,12 +3230,6 @@ lexicon = listing "Lexicon's properties"
     -- DwAry   DawAriy N0_Nh   predatory animals
     -- DwAr    DawAr   NK      predatory animals
 
-    KaRADI                    `noun`    {- DawAriy -}          [ "predatory animals" ],
-
-    -- ;; DawAriy_1
-    -- DwAry   DawAriy N0_Nh   predatory animals
-    -- DwAr    DawAr   NK      predatory animals
-
     KaRADI                    `noun`    {- DawAriy -}          [ "predatory animals" ] ]
 
  |> ".d w y" <| [
@@ -3344,11 +3317,6 @@ lexicon = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- DiyA' -}            [ "Zia", "Dhia" ],
 
-    -- ;; DiyA'_1
-    -- DyA'    DiyA'   Nprop   Zia;Dhia
-
-    FiCAL                     `noun`    {- DiyA' -}            [ "Zia", "Dhia" ],
-
     -- ;; DiyA'_2
     -- DyA'    DiyA'   N0_Nh   light;glow
     -- DyA&    DiyA&   Nh      light;glow
@@ -3356,32 +3324,15 @@ lexicon = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- DiyA' -}            [ "light", "glow" ],
 
-    -- ;; DiyA'_2
-    -- DyA'    DiyA'   N0_Nh   light;glow
-    -- DyA&    DiyA&   Nh      light;glow
-    -- DyA}    DiyA}   Nhy     light;glow
-
-    FiCAL                     `noun`    {- DiyA' -}            [ "light", "glow" ],
-
     -- ;; DiyA}iy~_1
     -- DyA}y   DiyA}iy~        N-ap    luminous;clear     [[DiwA}iy~/ADJ]]
 
     FiCA' |< Iy               `adj`     {- DiyA}iy~ -}         [ "luminous", "clear" ],
 
-    -- ;; DiyA}iy~_1
-    -- DyA}y   DiyA}iy~        N-ap    luminous;clear     [[DiwA}iy~/ADJ]]
-
-    FiCAL |< Iy               `adj`     {- DiyA}iy~ -}         [ "luminous", "clear" ],
-
     -- ;; DiyA}iy~ap_1
     -- DyA}y   DiyA}iy~        Nap     luminosity;clarity     [[DiwA}iy~/NOUN]]
 
     FiCA' |< Iy |< aT         `noun`    {- DiyA}iy~ap -}       [ "luminosity", "clarity" ],
-
-    -- ;; DiyA}iy~ap_1
-    -- DyA}y   DiyA}iy~        Nap     luminosity;clarity     [[DiwA}iy~/NOUN]]
-
-    FiCAL |< Iy |< aT         `noun`    {- DiyA}iy~ap -}       [ "luminosity", "clarity" ],
 
     -- ;; muDiy'_1
     -- mDy'    muDiy'  N0      shining;bright     [[muDiy'/ADJ]]

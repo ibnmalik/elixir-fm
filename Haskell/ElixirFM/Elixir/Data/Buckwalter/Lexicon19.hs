@@ -6823,16 +6823,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; guw_1
     -- gw      guw     FW      Gou;Gu     [[guw/NOUN_PROP]]
 
-    FU                        `noun`    {- guw -}              [ "Gou", "Gu" ],
-
-    -- ;; guw_1
-    -- gw      guw     FW      Gou;Gu     [[guw/NOUN_PROP]]
-
-    FU                        `noun`    {- guw -}              [ "Gou", "Gu" ],
-
-    -- ;; guw_1
-    -- gw      guw     FW      Gou;Gu     [[guw/NOUN_PROP]]
-
     FU                        `noun`    {- guw -}              [ "Gou", "Gu" ] ]
 
  |> ".g w y" <| [
@@ -6966,18 +6956,6 @@ lexicon = listing "Lexicon's properties"
     -- jwAyAny juwAyAniy~      Nall    Guyanese     [[juwAyAniy~/NOUN]]
     -- jwAyAny juwAyAniy~      Nall    Guyanese     [[juwAyAniy~/ADJ]]
 
-    FULAn |< Iy               `adj`     {- guwyAniy~ -}        [ "Guyanese" ],
-
-    -- ;; guwyAniy~_1
-    -- gwyAny  guwyAniy~       Nall    Guyanese     [[guwyAniy~/NOUN]]
-    -- gwyAny  guwyAniy~       Nall    Guyanese     [[guwyAniy~/ADJ]]
-    -- gwAyAny guwAyAniy~      Nall    Guyanese     [[guwAyAniy~/NOUN]]
-    -- gwAyAny guwAyAniy~      Nall    Guyanese     [[guwAyAniy~/ADJ]]
-    -- jwyAny  juwyAniy~       Nall    Guyanese     [[juwyAniy~/NOUN]]
-    -- jwyAny  juwyAniy~       Nall    Guyanese     [[juwyAniy~/ADJ]]
-    -- jwAyAny juwAyAniy~      Nall    Guyanese     [[juwAyAniy~/NOUN]]
-    -- jwAyAny juwAyAniy~      Nall    Guyanese     [[juwAyAniy~/ADJ]]
-
     FULAn |< Iy               `adj`     {- guwyAniy~ -}        [ "Guyanese" ] ]
 
  |> ".g w y n" <| [
@@ -7021,12 +6999,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At ]
 
  |> ".g w z y" <| [
-
-    -- ;; gawAziy_1
-    -- gwAzy   gawAziy N0_Nh   women dancers
-    -- gwAz    gawAz   NK      women dancers
-
-    KaRADI                    `noun`    {- gawAziy -}          [ "women dancers" ],
 
     -- ;; gawAziy_1
     -- gwAzy   gawAziy N0_Nh   women dancers

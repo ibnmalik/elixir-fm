@@ -1938,11 +1938,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; Saboriy_1
     -- Sbry    Saboriy Nprop   Sabri;Sabry
 
-    KaRDI                     `noun`    {- Saboriy -}          [ "Sabri", "Sabry" ],
-
-    -- ;; Saboriy_1
-    -- Sbry    Saboriy Nprop   Sabri;Sabry
-
     KaRDI                     `noun`    {- Saboriy -}          [ "Sabri", "Sabry" ] ]
 
  |> ".s b w" <| [
@@ -2717,11 +2712,6 @@ lexicon = listing "Lexicon's properties"
     MutaFaCCiL                `noun`    {- mutaSad~iq -}       [ "Mutasaddiq", "Motassadek" ] ]
 
  |> ".s d q y" <| [
-
-    -- ;; Sidoqiy_1
-    -- Sdqy    Sidoqiy Nprop   Sidqi;Sidqy
-
-    KiRDI                     `noun`    {- Sidoqiy -}          [ "Sidqi", "Sidqy" ],
 
     -- ;; Sidoqiy_1
     -- Sdqy    Sidoqiy Nprop   Sidqi;Sidqy
@@ -5725,11 +5715,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; Sanodiy_1
     -- Sndy    Sanodiy Nprop   Sandy
 
-    KaRDI                     `noun`    {- Sanodiy -}          [ "Sandy" ],
-
-    -- ;; Sanodiy_1
-    -- Sndy    Sanodiy Nprop   Sandy
-
     KaRDI                     `noun`    {- Sanodiy -}          [ "Sandy" ] ]
 
  |> ".s n f" <| [
@@ -7525,12 +7510,6 @@ lexicon = listing "Lexicon's properties"
     KaRDaS |< Iy              `adj`     {- Sawotamiy~ -}       [ "phonemic" ] ]
 
  |> ".s w w" <| [
-
-    -- ;; Suw~ap_1
-    -- Sw      Suw~    Napdu   landmark;road sign
-    -- Swy     Suway   N       landmarks;road signs
-
-    FUL |< aT                 `noun`    {- Suw~ap -}           [ "landmark", "road sign", "landmarks", "road signs" ],
 
     -- ;; Suw~ap_1
     -- Sw      Suw~    Napdu   landmark;road sign

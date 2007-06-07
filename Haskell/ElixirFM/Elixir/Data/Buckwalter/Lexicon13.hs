@@ -4858,11 +4858,6 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- \$Ahiy -}           [ "tea" ],
 
-    -- ;; $Ahiy_1
-    -- \$Ahy    $Ahiy   N0      tea
-
-    FACI                      `noun`    {- \$Ahiy -}           [ "tea" ],
-
     -- ;; $ah~aY_1
     -- \$hY     $ah~aY  PV_0    excite;arouse
     -- \$hA     $ah~A   PV_h    excite;arouse
@@ -9158,13 +9153,6 @@ lexicon = listing "Lexicon's properties"
     -- \$Asyh   $Asiyh  N       chassis
     -- \$Asyh   $Asiyh  NAt     chassis
 
-    FACI                      `noun`    {- \$Asiy -}           [ "chassis" ],
-
-    -- ;; $Asiy_1
-    -- \$Asy    $Asiy   N0      chassis
-    -- \$Asyh   $Asiyh  N       chassis
-    -- \$Asyh   $Asiyh  NAt     chassis
-
     FACI                      `noun`    {- \$Asiy -}           [ "chassis" ] ]
 
  |> "^s t '" <| [
@@ -10166,11 +10154,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; $awoqiy_1
     -- \$wqy    $awoqiy Nprop   Shawqi
 
-    KaRDI                     `noun`    {- \$awoqiy -}         [ "Shawqi" ],
-
-    -- ;; $awoqiy_1
-    -- \$wqy    $awoqiy Nprop   Shawqi
-
     KaRDI                     `noun`    {- \$awoqiy -}         [ "Shawqi" ] ]
 
  |> "^s w r" <| [
@@ -10340,16 +10323,6 @@ lexicon = listing "Lexicon's properties"
     MuKaRDaS                  `adj`     {- mu$aworab -}        [ "mustachioed" ] ]
 
  |> "^s w w" <| [
-
-    -- ;; $uw_1
-    -- \$w      $uw     Nprop   Shaw
-
-    FU                        `noun`    {- \$uw -}             [ "Shaw" ],
-
-    -- ;; $uw_1
-    -- \$w      $uw     Nprop   Shaw
-
-    FU                        `noun`    {- \$uw -}             [ "Shaw" ],
 
     -- ;; $uw_1
     -- \$w      $uw     Nprop   Shaw
@@ -11137,12 +11110,6 @@ lexicon = listing "Lexicon's properties"
     -- \$yly    $iyliy~ Nall    Chilean     [[$iyliy~/NOUN]]
     -- \$yly    $iyliy~ Nall    Chilean     [[$iyliy~/ADJ]]
 
-    FIL |< Iy                 `adj`     {- \$iyliy~ -}         [ "Chilean" ],
-
-    -- ;; $iyliy~_1
-    -- \$yly    $iyliy~ Nall    Chilean     [[$iyliy~/NOUN]]
-    -- \$yly    $iyliy~ Nall    Chilean     [[$iyliy~/ADJ]]
-
     FIL |< Iy                 `adj`     {- \$iyliy~ -}         [ "Chilean" ] ]
 
  |> "^s y l m" <| [
@@ -11193,14 +11160,6 @@ lexicon = listing "Lexicon's properties"
     KiRDUS                    `noun`    {- \$iymuwn -}         [ "Shimon" ] ]
 
  |> "^s y m y" <| [
-
-    -- ;; $iymiyap_1
-    -- \$ymy    $iymiy  Nap     vortex;whirlpool
-    -- \$yAmy   $ayAmiy N0      vortices;vortexes;whirlpools
-
-    KiRDI |< aT               `noun`    {- \$iymiyap -}        [ "vortex", "whirlpool", "vortices", "vortexes", "whirlpools" ]
-                              `plural`     KaRADI
-                           {- `others`  [ "^sayAmiy N0" ] -},
 
     -- ;; $iymiyap_1
     -- \$ymy    $iymiy  Nap     vortex;whirlpool

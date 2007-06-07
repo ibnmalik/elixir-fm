@@ -8499,12 +8499,6 @@ lexicon = listing "Lexicon's properties"
     -- xwAly   xawAliy N0_Nh   elapsed
     -- xwAl    xawAl   NK      elapsed
 
-    KaRADI                    `noun`    {- xawAliy -}          [ "elapsed" ],
-
-    -- ;; xawAliy_1
-    -- xwAly   xawAliy N0_Nh   elapsed
-    -- xwAl    xawAl   NK      elapsed
-
     KaRADI                    `noun`    {- xawAliy -}          [ "elapsed" ] ]
 
  |> "_h w n" <| [
@@ -8654,11 +8648,6 @@ lexicon = listing "Lexicon's properties"
     KuRDIS                    `noun`    {- xuwsiyh -}          [ "Jose" ] ]
 
  |> "_h w w" <| [
-
-    -- ;; xuw~ap_1
-    -- xw      xuw~    Nap     brotherliness;fraternity
-
-    FUL |< aT                 `noun`    {- xuw~ap -}           [ "brotherliness", "fraternity" ],
 
     -- ;; xuw~ap_1
     -- xw      xuw~    Nap     brotherliness;fraternity

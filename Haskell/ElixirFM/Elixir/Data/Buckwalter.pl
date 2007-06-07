@@ -170,6 +170,8 @@ sub storeEntry ($$) {
                                   $x =~ s/(?<=F)t/\_t/      if $toor[0] =~ /^\_t$/;
                                   $x =~ s/(?<=F)t/\.t/      if $toor[0] =~ /^\.[sdtz]$/;
 
+                                  $x =~ s/Ft/w/             if $toor[0] eq 'w';
+
                                   if (@toor > 3) {
 
                                       $x =~ s/K/$toor[0]/g;
@@ -364,20 +366,20 @@ sub closeEntry {
 
             if (defined $F or defined $C or defined $L) {
 
-                $F = $char if defined $F and $F eq 't' and $ptrn =~ /^(?:Mu|[IU])?Ft/;
-
                 @toor = ($F, $C, $L);
+
+                $toor[0] = $char if defined $F and $F eq 't' and $ptrn =~ /^(?:Mu|[IU])?Ft/;
 
                 next if defined $toor[0] and defined $toor[1] and $toor[0] eq $toor[1];
 
-                $ptrn =~ s/i[F](?![aiuAIUY])/I/     if defined $toor[0] and $toor[0] eq 'y';
-                $ptrn =~ s/u[F](?![aiuAIUY])/U/     if defined $toor[0] and $toor[0] eq 'w';
+                $ptrn =~ s/i[F](?![aiuAIUY])/I/     if defined $F and $F eq 'y';
+                $ptrn =~ s/u[F](?![aiuAIUY])/U/     if defined $F and $F eq 'w';
 
-                $ptrn =~ s/i[C](?![aiuAIUY])/I/     if defined $toor[1] and $toor[1] eq 'y';
-                $ptrn =~ s/u[C](?![aiuAIUY])/U/     if defined $toor[1] and $toor[1] eq 'w';
+                $ptrn =~ s/i[C](?![aiuAIUY])/I/     if defined $C and $C eq 'y';
+                $ptrn =~ s/u[C](?![aiuAIUY])/U/     if defined $C and $C eq 'w';
 
-                $ptrn =~ s/i[L](?![aiuAIUY])/I/     if defined $toor[2] and $toor[2] eq 'y';
-                $ptrn =~ s/u[L](?![aiuAIUY])/U/     if defined $toor[2] and $toor[2] eq 'w';
+                $ptrn =~ s/i[L](?![aiuAIUY])/I/     if defined $L and $L eq 'y';
+                $ptrn =~ s/u[L](?![aiuAIUY])/U/     if defined $L and $L eq 'w';
             }
             else {
 
@@ -391,18 +393,19 @@ sub closeEntry {
                 $ptrn =~ s/u[S](?![aiuAIUY])/U/     if defined $toor[3] and $toor[3] eq 'w';
             }
 
-            push @{$root{join ' ', map { defined $_ ? $_ : '' } @toor}}, $ptrn;
+            $root{join ' ', map { defined $_ ? $_ : '' } @toor}->{$ptrn}++;
         }
     }
 
 
     if (exists $root{$root}) {
 
-        storeEntry($root, $_) foreach @{$root{$root}};
+        storeEntry($root, $_) foreach sort keys %{$root{$root}};
     }
     else {
 
         my $done = undef;
+        my %seen = ();
 
         foreach my $toor (keys %root) {
 
@@ -417,7 +420,9 @@ sub closeEntry {
                 $toor[1] = $root[1]               if $toor[1] eq '' and @root > 1;
                 $toor[2] = restoreWith($root[-1]) if $toor[2] eq '' and @root > 1;
 
-                storeEntry((join ' ', @toor), $_) foreach @{$root{$toor}};
+                next if $seen{join ' ', @toor}++;
+
+                storeEntry((join ' ', @toor), $_) foreach sort keys %{$root{$toor}};
             }
             elsif ($toor[0] eq '' and $toor[1] ne '' and $toor[1] ne $char) {
 
@@ -426,7 +431,9 @@ sub closeEntry {
                 $toor[0] = $root[0];
                 $toor[2] = restoreWith($root[-1]) if $toor[2] eq '' and @root > 1;
 
-                storeEntry((join ' ', @toor), $_) foreach @{$root{$toor}};
+                next if $seen{join ' ', @toor}++;
+
+                storeEntry((join ' ', @toor), $_) foreach sort keys %{$root{$toor}};
             }
         }
 

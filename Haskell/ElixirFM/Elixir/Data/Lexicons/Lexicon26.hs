@@ -517,8 +517,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "h n r y" <| [
 
-    KiRDI                     `noun`    {- hinoriy -}          [ "Henry", "Henri" ],
-
     KiRDI                     `noun`    {- hinoriy -}          [ "Henry", "Henri" ] ]
 
  |> "h n y" <| [
@@ -600,8 +598,6 @@ lexicon = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- harowalap -}        [ "quick pace", "haste" ] ]
 
  |> "h r y" <| [
-
-    FaCACI                    `noun`    {- harAriy -}          [ "Harare" ],
 
     FaCACI                    `noun`    {- harAriy -}          [ "Harare" ] ]
 
@@ -746,14 +742,6 @@ lexicon = listing "Lexicon's properties"
  |> "h w w" <| [
 
     FU                        `noun`    {- huw -}              [ "Ho (in \"Ho Chi Minh\")" ],
-
-    FU                        `noun`    {- huw -}              [ "Ho (in \"Ho Chi Minh\")" ],
-
-    FU                        `noun`    {- huw -}              [ "Ho (in \"Ho Chi Minh\")" ],
-
-    FUL |< aT                 `noun`    {- huw~ap -}           [ "abyss", "chasm", "abysses", "chasms" ]
-                              `plural`     FuCY
-                           {- `others`  [ "huwY N0" ] -},
 
     FUL |< aT                 `noun`    {- huw~ap -}           [ "abyss", "chasm", "abysses", "chasms" ]
                               `plural`     FuCY

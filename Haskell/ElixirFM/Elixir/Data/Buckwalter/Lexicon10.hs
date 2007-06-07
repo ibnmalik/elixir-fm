@@ -121,22 +121,10 @@ lexicon = listing "Lexicon's properties"
 
     FiL |< aT                 `noun`    {- ri}ap -}            [ "lung", "lungs" ],
 
-    -- ;; ri}ap_1
-    -- r}      ri}     Napdu   lung
-    -- ry      riy~    Napdu   lung     [[riy~/NOUN]]
-    -- r}wn    ri}uwn  N       lungs
-
-    FiC |< aT                 `noun`    {- ri}ap -}            [ "lung", "lungs" ],
-
     -- ;; ri}awiy~_1
     -- r}wy    ri}awiy~        Nall    pulmonary     [[ri}awiy~/ADJ]]
 
     FiL |<< "awIy"            `adj`     {- ri}awiy~ -}         [ "pulmonary" ],
-
-    -- ;; ri}awiy~_1
-    -- r}wy    ri}awiy~        Nall    pulmonary     [[ri}awiy~/ADJ]]
-
-    FiC |<< "awIy"            `adj`     {- ri}awiy~ -}         [ "pulmonary" ],
 
     -- ;; ri}A'_1
     -- r}A'    ri}A'   N0_Nh   hypocrisy;dissimulation
@@ -1786,11 +1774,6 @@ lexicon = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- maroHuwm -}         [ "deceased", "late" ] ]
 
  |> "r .h m y" <| [
-
-    -- ;; raHomiy_1
-    -- rHmy    raHomiy N0      Rahmi
-
-    KaRDI                     `noun`    {- raHomiy -}          [ "Rahmi" ],
 
     -- ;; raHomiy_1
     -- rHmy    raHomiy N0      Rahmi
@@ -8339,11 +8322,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; rAliy_1
     -- rAly    rAliy   N0      rally
 
-    FACI                      `noun`    {- rAliy -}            [ "rally" ],
-
-    -- ;; rAliy_1
-    -- rAly    rAliy   N0      rally
-
     FACI                      `noun`    {- rAliy -}            [ "rally" ] ]
 
  |> "r m .d" <| [
@@ -8837,11 +8815,6 @@ lexicon = listing "Lexicon's properties"
 
     FACI |< aT                `noun`    {- rAmiyap -}          [ "ramie", "China jute" ],
 
-    -- ;; rAmiyap_1
-    -- rAmy    rAmiy   Nap     ramie;China jute
-
-    FACI |< aT                `noun`    {- rAmiyap -}          [ "ramie", "China jute" ],
-
     -- ;; ramaY-i_1
     -- rmY     ramaY   PV_0    throw;fling;shoot
     -- rmA     ramA    PV_h    throw;fling;shoot
@@ -9010,11 +8983,6 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "rawAmiyz Ndip" ] -} ]
 
  |> "r m z y" <| [
-
-    -- ;; ramoziy_1
-    -- rmzy    ramoziy Nprop   Ramzi
-
-    KaRDI                     `noun`    {- ramoziy -}          [ "Ramzi" ],
 
     -- ;; ramoziy_1
     -- rmzy    ramoziy Nprop   Ramzi
@@ -11815,11 +11783,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; ruwbiy~ap_1
     -- rwby    ruwbiy~ NapAt   rupee     [[ruwbiy~/NOUN]]
 
-    FUL |< Iy |< aT           `noun`    {- ruwbiy~ap -}        [ "rupee" ],
-
-    -- ;; ruwbiy~ap_1
-    -- rwby    ruwbiy~ NapAt   rupee     [[ruwbiy~/NOUN]]
-
     FUL |< Iy |< aT           `noun`    {- ruwbiy~ap -}        [ "rupee" ] ]
 
  |> "r w b .s" <| [
@@ -12042,19 +12005,9 @@ lexicon = listing "Lexicon's properties"
     -- ;; ruwf_1
     -- rwf     ruwf    N       roof garden
 
-    FUL                       `noun`    {- ruwf -}             [ "roof garden" ],
-
-    -- ;; ruwf_1
-    -- rwf     ruwf    N       roof garden
-
     FUL                       `noun`    {- ruwf -}             [ "roof garden" ] ]
 
  |> "r w k" <| [
-
-    -- ;; ruwk_1
-    -- rwk     ruwk    N       rock;public;community
-
-    FUL                       `noun`    {- ruwk -}             [ "rock", "public", "community" ],
 
     -- ;; ruwk_1
     -- rwk     ruwk    N       rock;public;community

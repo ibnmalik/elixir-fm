@@ -1370,17 +1370,6 @@ lexicon = listing "Lexicon's properties"
 
     FULAn                     `noun`    {- yuwnAn -}           [ "Greece" ],
 
-    -- ;; yuwnAn_1
-    -- ywnAn   yuwnAn  N       Greece
-
-    FULAn                     `noun`    {- yuwnAn -}           [ "Greece" ],
-
-    -- ;; yuwnAniy~_1
-    -- ywnAny  yuwnAniy~       Nall    Greek     [[yuwnAniy~/NOUN]]
-    -- ywnAny  yuwnAniy~       Nall    Greek     [[yuwnAniy~/ADJ]]
-
-    FULAn |< Iy               `adj`     {- yuwnAniy~ -}        [ "Greek" ],
-
     -- ;; yuwnAniy~_1
     -- ywnAny  yuwnAniy~       Nall    Greek     [[yuwnAniy~/NOUN]]
     -- ywnAny  yuwnAniy~       Nall    Greek     [[yuwnAniy~/ADJ]]
@@ -1454,24 +1443,9 @@ lexicon = listing "Lexicon's properties"
     -- ;; yuw_1
     -- yw      yuw     Nprop   Yo;Yu
 
-    FU                        `noun`    {- yuw -}              [ "Yo", "Yu" ],
-
-    -- ;; yuw_1
-    -- yw      yuw     Nprop   Yo;Yu
-
-    FU                        `noun`    {- yuw -}              [ "Yo", "Yu" ],
-
-    -- ;; yuw_1
-    -- yw      yuw     Nprop   Yo;Yu
-
     FU                        `noun`    {- yuw -}              [ "Yo", "Yu" ] ]
 
  |> "y y y" <| [
-
-    -- ;; yiy_1
-    -- yy      yiy     Nprop   Yi
-
-    FI                        `noun`    {- yiy -}              [ "Yi" ],
 
     -- ;; yiy_1
     -- yy      yiy     Nprop   Yi

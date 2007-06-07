@@ -885,12 +885,6 @@ lexicon = listing "Lexicon's properties"
 
     FaC                       `noun`    {- law -}              [ "if" ],
 
-    FaL                       `noun`    {- law -}              [ "if" ],
-
-    FU                        `noun`    {- luw -}              [ "Le" ],
-
-    FU                        `noun`    {- luw -}              [ "Le" ],
-
     FU                        `noun`    {- luw -}              [ "Le" ] ]
 
  |> "l w y" <| [
@@ -924,8 +918,6 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "'alyAf N" ] -} ]
 
  |> "l y f y" <| [
-
-    KiRDI                     `noun`    {- liyfiy -}           [ "Levi", "Levy" ],
 
     KiRDI                     `noun`    {- liyfiy -}           [ "Levi", "Levy" ] ]
 
@@ -963,8 +955,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "l y n y" <| [
 
-    KiRDI                     `noun`    {- liyniy -}           [ "Lenny" ],
-
     KiRDI                     `noun`    {- liyniy -}           [ "Lenny" ] ]
 
  |> "l y q" <| [
@@ -989,10 +979,6 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCaL ]
 
  |> "l y y" <| [
-
-    FI                        `noun`    {- liy -}              [ "Lee", "Li" ],
-
-    FI                        `noun`    {- liy -}              [ "Lee", "Li" ],
 
     FI                        `noun`    {- liy -}              [ "Lee", "Li" ] ]
 

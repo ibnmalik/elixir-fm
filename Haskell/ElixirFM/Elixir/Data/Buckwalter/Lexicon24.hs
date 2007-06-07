@@ -152,40 +152,17 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiL |< At
                               `plural`     FiC |< At,
 
-    -- ;; mi}ap_1
-    -- m}      mi}     Napdu   hundred
-    -- mA}     miA}    Napdu   hundred
-    -- m}      mi}     NAt     hundreds
-    -- mA}     miA}    NAt     hundreds
-    -- m}wn    mi}uwn  N0      hundreds
-
-    FiC |< aT                 `noun`    {- mi}ap -}            [ "hundred", "hundreds" ]
-                              `plural`     FiL |< At
-                              `plural`     FiC |< At,
-
     -- ;; mi}ap_2
     -- m}      mi}     Nap     (per) cent
     -- mA}     miA}    Nap     (per) cent
 
     FiL |< aT                 `noun`    {- mi}ap -}            [ "(per) cent" ],
 
-    -- ;; mi}ap_2
-    -- m}      mi}     Nap     (per) cent
-    -- mA}     miA}    Nap     (per) cent
-
-    FiC |< aT                 `noun`    {- mi}ap -}            [ "(per) cent" ],
-
     -- ;; mi}awiy~_1
     -- m}wy    mi}awiy~        Nall    one-hundred;hundreth;percentage     [[mi}awiy~/ADJ]]
     -- mA}wy   miA}awiy~       Nall    one-hundred;hundreth;percentage     [[mi}awiy~/ADJ]]
 
-    FiL |<< "awIy"            `adj`     {- mi}awiy~ -}         [ "one-hundred", "hundreth", "percentage" ],
-
-    -- ;; mi}awiy~_1
-    -- m}wy    mi}awiy~        Nall    one-hundred;hundreth;percentage     [[mi}awiy~/ADJ]]
-    -- mA}wy   miA}awiy~       Nall    one-hundred;hundreth;percentage     [[mi}awiy~/ADJ]]
-
-    FiC |<< "awIy"            `adj`     {- mi}awiy~ -}         [ "one-hundred", "hundreth", "percentage" ] ]
+    FiL |<< "awIy"            `adj`     {- mi}awiy~ -}         [ "one-hundred", "hundreth", "percentage" ] ]
 
  |> "m ' .z" <| [
 
@@ -843,13 +820,7 @@ lexicon = listing "Lexicon's properties"
     -- mygAn   miygAn  Nprop   Megan
     -- myjAn   miyjAn  Nprop   Megan
 
-    MICAL                     `noun`    {- miygAn -}           [ "Megan" ],
-
-    -- ;; miygAn_1
-    -- mygAn   miygAn  Nprop   Megan
-    -- myjAn   miyjAn  Nprop   Megan
-
-    FICAL                     `noun`    {- miygAn -}           [ "Megan" ] ]
+    MICAL                     `noun`    {- miygAn -}           [ "Megan" ] ]
 
  |> "m .g n .t" <| [
 
@@ -2039,11 +2010,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; majodiy_1
     -- mjdy    majodiy N0      Majdi;Magdi
 
-    KaRDI                     `noun`    {- majodiy -}          [ "Majdi", "Magdi" ],
-
-    -- ;; majodiy_1
-    -- mjdy    majodiy N0      Majdi;Magdi
-
     KaRDI                     `noun`    {- majodiy -}          [ "Majdi", "Magdi" ] ]
 
  |> "m ^g l" <| [
@@ -2608,17 +2574,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muw$iy_1
     -- mw$y    muw$iy  Nprop   Moshe
 
-    MUCI                      `noun`    {- muw$iy -}           [ "Moshe" ],
-
-    -- ;; muw$iy_1
-    -- mw$y    muw$iy  Nprop   Moshe
-
-    MUCI                      `noun`    {- muw$iy -}           [ "Moshe" ],
-
-    -- ;; muw$iy_1
-    -- mw$y    muw$iy  Nprop   Moshe
-
-    FUCI                      `noun`    {- muw$iy -}           [ "Moshe" ] ]
+    MUCI                      `noun`    {- muw$iy -}           [ "Moshe" ] ]
 
  |> "m _d _d" <| [
 
@@ -3542,14 +3498,7 @@ lexicon = listing "Lexicon's properties"
     -- mydA&   miydA&  Nh      measure;amount;length
     -- mydA}   miydA}  Nhy     measure;amount;length
 
-    MICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
-
-    -- ;; miydA'_1
-    -- mydA'   miydA'  N0_Nh   measure;amount;length
-    -- mydA&   miydA&  Nh      measure;amount;length
-    -- mydA}   miydA}  Nhy     measure;amount;length
-
-    FICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ] ]
+    MICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ] ]
 
  |> "m d ' n" <| [
 
@@ -3851,11 +3800,6 @@ lexicon = listing "Lexicon's properties"
     KiRDiS                    `noun`    {- midolin -}          [ "middling", "mediocre" ] ]
 
  |> "m d l y" <| [
-
-    -- ;; madAliyap_1
-    -- mdAly   madAliy NapAt   medal
-
-    KaRADI |< aT              `noun`    {- madAliyap -}        [ "medal" ],
 
     -- ;; madAliyap_1
     -- mdAly   madAliy NapAt   medal
@@ -5969,11 +5913,6 @@ lexicon = listing "Lexicon's properties"
 
     KaRADI                    `noun`    {- malAwiy -}          [ "Malawi" ],
 
-    -- ;; malAwiy_1
-    -- mlAwy   malAwiy N0      Malawi
-
-    KaRADI                    `noun`    {- malAwiy -}          [ "Malawi" ],
-
     -- ;; malAwiy~_1
     -- mlAwy   malAwiy~        Nall    Malawian     [[malAwiy~/NOUN]]
     -- mlAwy   malAwiy~        Nall    Malawian     [[malAwiy~/ADJ]]
@@ -5981,11 +5920,6 @@ lexicon = listing "Lexicon's properties"
     KaRADIS                   `adj`     {- malAwiy~ -}         [ "Malawian" ] ]
 
  |> "m l y" <| [
-
-    -- ;; mAliy_1
-    -- mAly    mAliy   N0      Mali
-
-    FACI                      `noun`    {- mAliy -}            [ "Mali" ],
 
     -- ;; mAliy_1
     -- mAly    mAliy   N0      Mali
@@ -6089,23 +6023,6 @@ lexicon = listing "Lexicon's properties"
     -- mwAn}   mawAni} Ndip    ports;harbors
 
     MICAL                     `noun`    {- miynA' -}           [ "port", "harbor", "ports", "harbors" ]
-                              `plural`     FawACiL
-                              `plural`     FawACI
-                           {- `others`  [ "mawAni' Ndip", "mawAniy N0_Nh" ] -},
-
-    -- ;; miynA'_1
-    -- mynA'   miynA'  N0_Nh   port;harbor
-    -- mynA&   miynA&  Nh      port;harbor
-    -- mynA}   miynA}  Nhy     port;harbor
-    -- mynA'   miynA'  NAn_Nayn        ports;harbors
-    -- mynA}   miynA}  Nayn    ports;harbors
-    -- myn     miyn    Napdu   port;harbor
-    -- myn     miyan   N       ports;harbors
-    -- mwAny   mawAniy N0_Nh   ports;harbors
-    -- mwAn    mawAn   NK      ports;harbors
-    -- mwAn}   mawAni} Ndip    ports;harbors
-
-    FICAL                     `noun`    {- miynA' -}           [ "port", "harbor", "ports", "harbors" ]
                               `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "mawAni' Ndip", "mawAniy N0_Nh" ] -} ]
@@ -7844,11 +7761,6 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- mAriy -}            [ "Mary" ],
 
-    -- ;; mAriy_1
-    -- mAry    mAriy   Nprop   Mary
-
-    FACI                      `noun`    {- mAriy -}            [ "Mary" ],
-
     -- ;; mAraY_1
     -- mArY    mAraY   PV_0    argue;dispute;oppose
     -- mArA    mArA    PV_h    argue;dispute;oppose
@@ -9505,12 +9417,6 @@ lexicon = listing "Lexicon's properties"
     -- mygAn   miygAn  Nprop   Megan
     -- myjAn   miyjAn  Nprop   Megan
 
-    FILAn                     `noun`    {- miygAn -}           [ "Megan" ],
-
-    -- ;; miygAn_1
-    -- mygAn   miygAn  Nprop   Megan
-    -- myjAn   miyjAn  Nprop   Megan
-
     FILAn                     `noun`    {- miygAn -}           [ "Megan" ] ]
 
  |> "m y .g n" <| [
@@ -9961,11 +9867,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; mayAmiy_1
     -- myAmy   mayAmiy Nprop   Miami
 
-    KaRADI                    `noun`    {- mayAmiy -}          [ "Miami" ],
-
-    -- ;; mayAmiy_1
-    -- myAmy   mayAmiy Nprop   Miami
-
     KaRADI                    `noun`    {- mayAmiy -}          [ "Miami" ] ]
 
  |> "m y n" <| [
@@ -10067,11 +9968,6 @@ lexicon = listing "Lexicon's properties"
     KaRDUS                    `noun`    {- mayoruwn -}         [ "chrism" ] ]
 
  |> "m y r y" <| [
-
-    -- ;; miyriy_1
-    -- myry    miyriy  N0      state
-
-    KiRDI                     `noun`    {- miyriy -}           [ "state" ],
 
     -- ;; miyriy_1
     -- myry    miyriy  N0      state
@@ -10553,11 +10449,6 @@ lexicon = listing "Lexicon's properties"
     FaC |< Iy |< aT           `noun`    {- maziy~ap -}         [ "feature", "advantage", "features", "advantages" ]
                               `plural`     FaCALY
                            {- `others`  [ "mazAyY N0_Nhy" ] -},
-
-    -- ;; mAziyap_1
-    -- mAzy    mAziy   NapAt   merit;virtue;advantage
-
-    FACI |< aT                `noun`    {- mAziyap -}          [ "merit", "virtue", "advantage" ],
 
     -- ;; mAziyap_1
     -- mAzy    mAziy   NapAt   merit;virtue;advantage

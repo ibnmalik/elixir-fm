@@ -7584,11 +7584,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; firofiy_1
     -- frfy    firofiy Nprop   Verviers
 
-    KiRDI                     `noun`    {- firofiy -}          [ "Verviers" ],
-
-    -- ;; firofiy_1
-    -- frfy    firofiy Nprop   Verviers
-
     KiRDI                     `noun`    {- firofiy -}          [ "Verviers" ] ]
 
  |> "f r h" <| [
@@ -11257,11 +11252,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; fiyliy_1
     -- fyly    fiyliy  N0      Willy
 
-    KiRDI                     `noun`    {- fiyliy -}           [ "Willy" ],
-
-    -- ;; fiyliy_1
-    -- fyly    fiyliy  N0      Willy
-
     KiRDI                     `noun`    {- fiyliy -}           [ "Willy" ] ]
 
  |> "f y m" <| [
@@ -11368,20 +11358,6 @@ lexicon = listing "Lexicon's properties"
     KiRDIS                    `noun`    {- fiytiys -}          [ "Vitesse" ] ]
 
  |> "f y y" <| [
-
-    -- ;; fiy_1
-    -- fy      fiy     FW-Wa   in       [[fiy/PREP]]
-    -- fy      fiy     FW-Wa-y in       [[fiy/PREP]]
-    -- fY      fiy     FW-Wa   in       [[fiy/PREP]]
-
-    FI                        `noun`    {- fiy -}              [ "in" ],
-
-    -- ;; fiy_1
-    -- fy      fiy     FW-Wa   in       [[fiy/PREP]]
-    -- fy      fiy     FW-Wa-y in       [[fiy/PREP]]
-    -- fY      fiy     FW-Wa   in       [[fiy/PREP]]
-
-    FI                        `noun`    {- fiy -}              [ "in" ],
 
     -- ;; fiy_1
     -- fy      fiy     FW-Wa   in       [[fiy/PREP]]

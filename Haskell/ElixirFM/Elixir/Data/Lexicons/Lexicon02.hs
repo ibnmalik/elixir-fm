@@ -717,13 +717,6 @@ lexicon = listing "Lexicon's properties"
     FACI                      `noun`    {- bAdiy -}            [ "apparent", "obvious" ]
                               `plural`     FACI |< At,
 
-    FACI                      `noun`    {- bAdiy -}            [ "apparent", "obvious" ]
-                              `plural`     FACI |< At,
-
-    MuFCI |< aN               `noun`    {- mubodiyAF -}        [ "expressing", "showing", "demonstrating" ]
-                              `plural`     MuFCI
-                           {- `others`  [ "mubdiy NF N0" ] -},
-
     MuFCI |< aN               `noun`    {- mubodiyAF -}        [ "expressing", "showing", "demonstrating" ]
                               `plural`     MuFCI
                            {- `others`  [ "mubdiy NF N0" ] -} ]
@@ -1114,10 +1107,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCI                      `noun`    {- baniy -}            [ "Bani", "Beni", "Benny" ],
 
-    FaCI                      `noun`    {- baniy -}            [ "Bani", "Beni", "Benny" ],
-
-    FaCI                      `noun`    {- baniy -}            [ "sons/children of" ],
-
     FaCI                      `noun`    {- baniy -}            [ "sons/children of" ],
 
     FuCayL                    `noun`    {- bunay~ -}           [ "little son" ],
@@ -1198,9 +1187,6 @@ lexicon = listing "Lexicon's properties"
     FaCI                      `verb`    {- baqiy-a -}          [ "remain", "last" ]
                               `imperf`     FCY,
 
-    FaCI                      `verb`    {- baqiy-a -}          [ "remain", "last" ]
-                              `imperf`     FCY,
-
     HaFCY                     `verb`    {- OaboqaY -}          [ "maintain", "preserve", "be maintained", "be preserved" ],
 
     TaFaCCY                   `verb`    {- tabaq~aY -}         [ "remain", "stay" ],
@@ -1218,16 +1204,8 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- bAqiy -}            [ "Baqi" ],
 
-    FACI                      `noun`    {- bAqiy -}            [ "Baqi" ],
-
     FACI                      `noun`    {- bAqiy -}            [ "remaining" ]
                               `plural`     FACI |< At,
-
-    FACI                      `noun`    {- bAqiy -}            [ "remaining" ]
-                              `plural`     FACI |< At,
-
-    MutaFaCCI                 `noun`    {- mutabaq~iy -}       [ "residue", "remnant" ]
-                              `plural`     MutaFaCCI |< At,
 
     MutaFaCCI                 `noun`    {- mutabaq~iy -}       [ "residue", "remnant" ]
                               `plural`     MutaFaCCI |< At ]
@@ -1419,8 +1397,6 @@ lexicon = listing "Lexicon's properties"
     FCiL                      `noun`    {- bris -}             [ "Press" ] ]
 
  |> "b r y" <| [
-
-    FACI                      `noun`    {- bAriy -}            [ "Paris" ],
 
     FACI                      `noun`    {- bAriy -}            [ "Paris" ],
 
@@ -1667,8 +1643,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "b w y" <| [
 
-    FUL |< aT                 `noun`    {- buwyap -}           [ "paint" ],
-
     FUL |< aT                 `noun`    {- buwyap -}           [ "paint" ] ]
 
  |> "b w z" <| [
@@ -1708,8 +1682,6 @@ lexicon = listing "Lexicon's properties"
     KaRDaS |< Iy              `adj`     {- bayoTariy~ -}       [ "veterinary" ] ]
 
  |> "b y ^g" <| [
-
-    FILAn                     `noun`    {- biyjAn -}           [ "Bijan" ],
 
     FILAn                     `noun`    {- biyjAn -}           [ "Bijan" ] ]
 
@@ -1756,10 +1728,6 @@ lexicon = listing "Lexicon's properties"
  |> "b y l" <| [
 
     FIL                       `noun`    {- biyl -}             [ "Bill" ],
-
-    FIL                       `noun`    {- biyl -}             [ "Bill" ],
-
-    FIL                       `noun`    {- biyl -}             [ "ball bearing", "marble" ],
 
     FIL                       `noun`    {- biyl -}             [ "ball bearing", "marble" ] ]
 
@@ -1813,8 +1781,6 @@ lexicon = listing "Lexicon's properties"
     KaRDUS                    `noun`    {- bayoruwt -}         [ "Beirut" ] ]
 
  |> "b y r y" <| [
-
-    KiRDI                     `noun`    {- biyriy -}           [ "Perry" ],
 
     KiRDI                     `noun`    {- biyriy -}           [ "Perry" ] ]
 

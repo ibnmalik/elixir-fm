@@ -856,30 +856,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FACI |< At
                               `plural`     FuCY |< aT,
 
-    -- ;; bAgiy_1
-    -- bAgy    bAgiy   N0F     oppressive;tyrant
-    -- bAg     bAg     NK      oppressive;tyrant
-    -- bAgy    bAgiy   NAn_Nayn        oppressive;tyrant
-    -- bAg     bAg     Nuwn_Niyn       oppressive;tyrant
-    -- bAgy    bAgiy   NapAt   oppressive;tyrant
-    -- bgA     bugA    Nap     oppressors;tyrants
-
-    FACI                      `noun`    {- bAgiy -}            [ "oppressive", "tyrant", "oppressors", "tyrants" ]
-                              `plural`     FACI |< At
-                              `plural`     FuCY |< aT,
-
-    -- ;; bAgiy_2
-    -- bAgy    bAgiy   N0F     desiring
-    -- bAg     bAg     NK      desiring
-    -- bAgy    bAgiy   NAn_Nayn        desiring
-    -- bAg     bAg     Nuwn_Niyn       desiring
-    -- bAgy    bAgiy   NapAt   desiring
-    -- bgA     bugA    Nap     desiring
-
-    FACI                      `noun`    {- bAgiy -}            [ "desiring" ]
-                              `plural`     FACI |< At
-                              `plural`     FuCY |< aT,
-
     -- ;; bAgiy_2
     -- bAgy    bAgiy   N0F     desiring
     -- bAg     bAg     NK      desiring
@@ -2347,15 +2323,6 @@ lexicon = listing "Lexicon's properties"
 
     HiFCA'                    `noun`    {- IiboTA' -}          [ "delay", "slowing down" ]
                               `plural`     HiFCA' |< At,
-
-    -- ;; bATiyap_1
-    -- bATy    bATiy   Napdu   pitcher;jug
-    -- bwATy   bawATiy N0_Nh   pitchers;jugs
-    -- bwAT    bawAT   NK      pitchers;jugs
-
-    FACI |< aT                `noun`    {- bATiyap -}          [ "pitcher", "jug", "pitchers", "jugs" ]
-                              `plural`     FawACI
-                           {- `others`  [ "bawA.tiy N0_Nh" ] -},
 
     -- ;; bATiyap_1
     -- bATy    bATiy   Napdu   pitcher;jug
@@ -5047,21 +5014,6 @@ lexicon = listing "Lexicon's properties"
     FACI                      `noun`    {- bAdiy -}            [ "apparent", "obvious" ]
                               `plural`     FACI |< At,
 
-    -- ;; bAdiy_1
-    -- bAdy    bAdiy   N0F     apparent;obvious
-    -- bAd     bAd     NK      apparent;obvious
-    -- bAdy    bAdiy   NAn_Nayn        apparent;obvious
-    -- bAd     bAd     Nuwn_Niyn       apparent;obvious
-    -- bAdy    bAdiy   NapAt   apparent;obvious
-
-    FACI                      `noun`    {- bAdiy -}            [ "apparent", "obvious" ]
-                              `plural`     FACI |< At,
-
-    -- ;; bAdiyap_1
-    -- bAdy    bAdiy   NapAt   desert
-
-    FACI |< aT                `noun`    {- bAdiyap -}          [ "desert" ],
-
     -- ;; bAdiyap_1
     -- bAdy    bAdiy   NapAt   desert
 
@@ -5072,20 +5024,6 @@ lexicon = listing "Lexicon's properties"
     -- bwAd    bawAd   NK      nomads;Bedouins
 
     FawACI                    `noun`    {- bawAdiy -}          [ "nomads", "Bedouins" ],
-
-    -- ;; bawAdiy_1
-    -- bwAdy   bawAdiy N0_Nh   nomads;Bedouins
-    -- bwAd    bawAd   NK      nomads;Bedouins
-
-    FawACI                    `noun`    {- bawAdiy -}          [ "nomads", "Bedouins" ],
-
-    -- ;; mubodiyAF_1
-    -- mbdy    mubodiy NF      expressing;showing;demonstrating
-    -- mbdy    mubodiy N0      expressing;showing;demonstrating
-
-    MuFCI |< aN               `noun`    {- mubodiyAF -}        [ "expressing", "showing", "demonstrating" ]
-                              `plural`     MuFCI
-                           {- `others`  [ "mubdiy NF N0" ] -},
 
     -- ;; mubodiyAF_1
     -- mbdy    mubodiy NF      expressing;showing;demonstrating
@@ -5710,16 +5648,6 @@ lexicon = listing "Lexicon's properties"
     FaCI                      `verb`    {- bahiy-a -}          [ "be beautiful" ]
                               `imperf`     FCY,
 
-    -- ;; bahiy-a_1
-    -- bhy     bahiy   PV_no-w_intr    be beautiful
-    -- bh      bah     PV_w_intr       be beautiful
-    -- bhY     bohaY   IV_0    be beautiful
-    -- bhy     bohay   IV_Ann  be beautiful
-    -- bh      boha    IV_0hwnyn       be beautiful
-
-    FaCI                      `verb`    {- bahiy-a -}          [ "be beautiful" ]
-                              `imperf`     FCY,
-
     -- ;; bAhaY_1
     -- bAhY    bAhaY   PV_0    compete;be proud
     -- bAhA    bAhA    PV_h    compete;be proud
@@ -5785,25 +5713,6 @@ lexicon = listing "Lexicon's properties"
 
     TaFACI                    `noun`    {- tabAhiy -}          [ "pride", "boastfulness" ]
                               `plural`     TaFACI |< At,
-
-    -- ;; tabAhiy_1
-    -- tbAhy   tabAhiy N0_Nh   pride;boastfulness
-    -- tbAh    tabAh   NK      pride;boastfulness
-    -- tbAhy   tabAhiy NAn_Nayn        pride;boastfulness
-    -- tbAhy   tabAhiy NAt     pride;boastfulness
-
-    TaFACI                    `noun`    {- tabAhiy -}          [ "pride", "boastfulness" ]
-                              `plural`     TaFACI |< At,
-
-    -- ;; mutabAhiy_1
-    -- mtbAhy  mutabAhiy       N0F_Nh  proud;boastful
-    -- mtbAh   mutabAh NK      proud;boastful
-    -- mtbAhy  mutabAhiy       NAn_Nayn        proud;boastful
-    -- mtbAh   mutabAh Nuwn_Niyn       proud;boastful
-    -- mtbAhy  mutabAhiy       NapAt   proud;boastful
-
-    MutaFACI                  `noun`    {- mutabAhiy -}        [ "proud", "boastful" ]
-                              `plural`     MutaFACI |< At,
 
     -- ;; mutabAhiy_1
     -- mtbAhy  mutabAhiy       N0F_Nh  proud;boastful
@@ -8173,16 +8082,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCI                      `noun`    {- baniy -}            [ "Bani", "Beni", "Benny" ],
 
-    -- ;; baniy_1
-    -- bny     baniy   FW-WaBi Bani;Beni;Benny     [[baniy/NOUN_PROP]]
-
-    FaCI                      `noun`    {- baniy -}            [ "Bani", "Beni", "Benny" ],
-
-    -- ;; baniy_2
-    -- bny     baniy   FW-WaBi sons/children of     [[baniy/NOUN]]
-
-    FaCI                      `noun`    {- baniy -}            [ "sons/children of" ],
-
     -- ;; baniy_2
     -- bny     baniy   FW-WaBi sons/children of     [[baniy/NOUN]]
 
@@ -8346,18 +8245,6 @@ lexicon = listing "Lexicon's properties"
     MaFCY                     `noun`    {- mabonaY -}          [ "building", "structure", "buildings", "structures" ]
                               `plural`     MaFACI
                            {- `others`  [ "mabAniy N0_Nh" ] -},
-
-    -- ;; bAniy_1
-    -- bAny    bAniy   N0F     building;builder
-    -- bAn     bAn     NK      building;builder
-    -- bAny    bAniy   NAn_Nayn        building;builder
-    -- bAn     bAn     Nuwn_Niyn       building;builder
-    -- bAny    bAniy   NapAt   building;builder
-    -- bnA     bunA    Nap     builders
-
-    FACI                      `noun`    {- bAniy -}            [ "building", "builder", "builders" ]
-                              `plural`     FACI |< At
-                              `plural`     FuCY |< aT,
 
     -- ;; bAniy_1
     -- bAny    bAniy   N0F     building;builder
@@ -8756,16 +8643,6 @@ lexicon = listing "Lexicon's properties"
     FaCI                      `verb`    {- baqiy-a -}          [ "remain", "last" ]
                               `imperf`     FCY,
 
-    -- ;; baqiy-a_1
-    -- bqy     baqiy   PV_no-w remain;last
-    -- bq      baq     PV_w    remain;last
-    -- bqY     boqaY   IV_0    remain;last
-    -- bqy     boqay   IV_Ann  remain;last
-    -- bq      boqa    IV_0hwnyn       remain;last
-
-    FaCI                      `verb`    {- baqiy-a -}          [ "remain", "last" ]
-                              `imperf`     FCY,
-
     -- ;; >aboqaY_1
     -- >bqY    >aboqaY PV_0    maintain;preserve
     -- AbqY    >aboqaY PV_0    maintain;preserve
@@ -8874,16 +8751,6 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- bAqiy -}            [ "Baqi" ],
 
-    -- ;; bAqiy_1
-    -- bAqy    bAqiy   N0      Baqi
-
-    FACI                      `noun`    {- bAqiy -}            [ "Baqi" ],
-
-    -- ;; bawAqiy_1
-    -- bwAqy   bawAqiy N0      Bawaqi
-
-    FawACI                    `noun`    {- bawAqiy -}          [ "Bawaqi" ],
-
     -- ;; bawAqiy_1
     -- bwAqy   bawAqiy N0      Bawaqi
 
@@ -8898,26 +8765,6 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- bAqiy -}            [ "remaining" ]
                               `plural`     FACI |< At,
-
-    -- ;; bAqiy_2
-    -- bAqy    bAqiy   N0F_Nh  remaining
-    -- bAq     bAq     NK      remaining
-    -- bAqy    bAqiy   NAn_Nayn        remaining
-    -- bAq     bAq     Nuwn_Niyn       remaining
-    -- bAqy    bAqiy   NapAt   remaining
-
-    FACI                      `noun`    {- bAqiy -}            [ "remaining" ]
-                              `plural`     FACI |< At,
-
-    -- ;; mutabaq~iy_1
-    -- mtbqy   mutabaq~iy      N0F_Nh  residue;remnant
-    -- mtbq    mutabaq~        NK      residue;remnant
-    -- mtbqy   mutabaq~iy      NAn_Nayn        residue;remnant
-    -- mtbq    mutabaq~        Nuwn_Niyn       residue;remnant
-    -- mtbqy   mutabaq~iy      NapAt   residue;remnant
-
-    MutaFaCCI                 `noun`    {- mutabaq~iy -}       [ "residue", "remnant" ]
-                              `plural`     MutaFaCCI |< At,
 
     -- ;; mutabaq~iy_1
     -- mtbqy   mutabaq~iy      N0F_Nh  residue;remnant
@@ -10742,11 +10589,6 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- bAriy -}            [ "Paris" ],
 
-    -- ;; bAriy_2
-    -- bAry    bAriy   Nprop   Paris
-
-    FACI                      `noun`    {- bAriy -}            [ "Paris" ],
-
     -- ;; >aboriyA'_1
     -- >bryA'  >aboriyA'       N0_Nh   innocent;exempt
     -- AbryA'  >aboriyA'       N0_Nh   innocent;exempt
@@ -12158,13 +12000,6 @@ lexicon = listing "Lexicon's properties"
     -- bw*y    buw*iy~ Nall    Buddhist     [[buw*iy~/ADJ]]
     -- bw*y    buw*iy~ Nap     Buddhism     [[buw*iy~/NOUN]]
 
-    FUL |< Iy                 `adj`     {- buw*iy~ -}          [ "Buddhist", "Buddhism" ],
-
-    -- ;; buw*iy~_1
-    -- bw*y    buw*iy~ Nall    Buddhist     [[buw*iy~/NOUN]]
-    -- bw*y    buw*iy~ Nall    Buddhist     [[buw*iy~/ADJ]]
-    -- bw*y    buw*iy~ Nap     Buddhism     [[buw*iy~/NOUN]]
-
     FUL |< Iy                 `adj`     {- buw*iy~ -}          [ "Buddhist", "Buddhism" ] ]
 
  |> "b w _h" <| [
@@ -12303,12 +12138,6 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "bawAdiq Ndip" ] -} ]
 
  |> "b w d y" <| [
-
-    -- ;; bawAdiy_1
-    -- bwAdy   bawAdiy N0_Nh   nomads;Bedouins
-    -- bwAd    bawAd   NK      nomads;Bedouins
-
-    KaRADI                    `noun`    {- bawAdiy -}          [ "nomads", "Bedouins" ],
 
     -- ;; bawAdiy_1
     -- bwAdy   bawAdiy N0_Nh   nomads;Bedouins
@@ -12525,17 +12354,6 @@ lexicon = listing "Lexicon's properties"
     FUL                       `noun`    {- buwm -}             [ "owl", "owls" ]
                               `plural`     FUL |< At
                               `plural`     HaFCAL
-                           {- `others`  [ "'abwAm N" ] -},
-
-    -- ;; buwm_1
-    -- bwm     buwm    N       owl
-    -- bwm     buwm    NapAt   owl
-    -- >bwAm   >abowAm N       owls
-    -- AbwAm   >abowAm N       owls
-
-    FUL                       `noun`    {- buwm -}             [ "owl", "owls" ]
-                              `plural`     FUL |< At
-                              `plural`     HaFCAL
                            {- `others`  [ "'abwAm N" ] -} ]
 
  |> "b w n" <| [
@@ -12611,11 +12429,6 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "bawAqiyl Ndip" ] -} ]
 
  |> "b w q y" <| [
-
-    -- ;; bawAqiy_1
-    -- bwAqy   bawAqiy N0      Bawaqi
-
-    KaRADI                    `noun`    {- bawAqiy -}          [ "Bawaqi" ],
 
     -- ;; bawAqiy_1
     -- bwAqy   bawAqiy N0      Bawaqi
@@ -12780,11 +12593,6 @@ lexicon = listing "Lexicon's properties"
     -- bw      buw     Nprop   Bou
 
     FU                        `noun`    {- buw -}              [ "Bou" ],
-
-    -- ;; buwyap_1
-    -- bwy     buwy    NapAt   paint
-
-    FUL |< aT                 `noun`    {- buwyap -}           [ "paint" ],
 
     -- ;; buwyap_1
     -- bwy     buwy    NapAt   paint
@@ -13000,11 +12808,6 @@ lexicon = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- bayoTarap -}        [ "veterinary" ] ]
 
  |> "b y ^g" <| [
-
-    -- ;; biyjAn_1
-    -- byjAn   biyjAn  Nprop   Bijan
-
-    FILAn                     `noun`    {- biyjAn -}           [ "Bijan" ],
 
     -- ;; biyjAn_1
     -- byjAn   biyjAn  Nprop   Bijan
@@ -13280,16 +13083,6 @@ lexicon = listing "Lexicon's properties"
     -- byl     biyl    Nprop   Bill
 
     FIL                       `noun`    {- biyl -}             [ "Bill" ],
-
-    -- ;; biyl_1
-    -- byl     biyl    Nprop   Bill
-
-    FIL                       `noun`    {- biyl -}             [ "Bill" ],
-
-    -- ;; biyl_2
-    -- byl     biyl    N       ball bearing;marble
-
-    FIL                       `noun`    {- biyl -}             [ "ball bearing", "marble" ],
 
     -- ;; biyl_2
     -- byl     biyl    N       ball bearing;marble
@@ -13575,11 +13368,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; biyriy_1
     -- byry    biyriy  Nprop   Perry
 
-    KiRDI                     `noun`    {- biyriy -}           [ "Perry" ],
-
-    -- ;; biyriy_1
-    -- byry    biyriy  Nprop   Perry
-
     KiRDI                     `noun`    {- biyriy -}           [ "Perry" ] ]
 
  |> "b y r z" <| [
@@ -13858,18 +13646,6 @@ lexicon = listing "Lexicon's properties"
     FuCayL |< aT              `noun`    {- buzayorap -}        [ "spore" ] ]
 
  |> "b z y" <| [
-
-    -- ;; bAziy_1
-    -- bAzy    bAziy   N0F_Nh  falcon
-    -- bAz     bAz     NK      falcon
-    -- bzA     buzA    Nap     falcons
-    -- bwAzy   bawAziy N0_Nh   falcons
-    -- bwAz    bawAz   NK      falcons
-
-    FACI                      `noun`    {- bAziy -}            [ "falcon", "falcons" ]
-                              `plural`     FawACI
-                              `plural`     FuCY |< aT
-                           {- `others`  [ "bawAziy N0_Nh" ] -},
 
     -- ;; bAziy_1
     -- bAzy    bAziy   N0F_Nh  falcon

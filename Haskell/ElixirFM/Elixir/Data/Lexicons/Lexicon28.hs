@@ -219,10 +219,6 @@ lexicon = listing "Lexicon's properties"
 
     FULAn                     `noun`    {- yuwnAn -}           [ "Greece" ],
 
-    FULAn                     `noun`    {- yuwnAn -}           [ "Greece" ],
-
-    FULAn |< Iy               `adj`     {- yuwnAniy~ -}        [ "Greek" ],
-
     FULAn |< Iy               `adj`     {- yuwnAniy~ -}        [ "Greek" ] ]
 
  |> "y w n ^s" <| [
@@ -249,15 +245,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "y w w" <| [
 
-    FU                        `noun`    {- yuw -}              [ "Yo", "Yu" ],
-
-    FU                        `noun`    {- yuw -}              [ "Yo", "Yu" ],
-
     FU                        `noun`    {- yuw -}              [ "Yo", "Yu" ] ]
 
  |> "y y y" <| [
-
-    FI                        `noun`    {- yiy -}              [ "Yi" ],
 
     FI                        `noun`    {- yiy -}              [ "Yi" ] ]
 

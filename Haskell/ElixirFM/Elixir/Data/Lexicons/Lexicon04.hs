@@ -337,9 +337,6 @@ lexicon = listing "Lexicon's properties"
  |> "_t w m" <| [
 
     FUL                       `noun`    {- vuwm -}             [ "garlic", "garlic clove" ]
-                              `plural`     FUL |< At,
-
-    FUL                       `noun`    {- vuwm -}             [ "garlic", "garlic clove" ]
                               `plural`     FUL |< At ]
 
  |> "_t w r" <| [

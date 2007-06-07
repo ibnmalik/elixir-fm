@@ -962,11 +962,6 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- hAjiy -}            [ "Haji" ],
 
-    -- ;; hAjiy_1
-    -- hAjy    hAjiy   Nprop   Haji
-
-    FACI                      `noun`    {- hAjiy -}            [ "Haji" ],
-
     -- ;; tahojiyap_1
     -- thjy    tahojiy Nap     spelling
 
@@ -4167,11 +4162,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; hinoriy_1
     -- hnry    hinoriy Nprop   Henry;Henri
 
-    KiRDI                     `noun`    {- hinoriy -}          [ "Henry", "Henri" ],
-
-    -- ;; hinoriy_1
-    -- hnry    hinoriy Nprop   Henry;Henri
-
     KiRDI                     `noun`    {- hinoriy -}          [ "Henry", "Henri" ] ]
 
  |> "h n s" <| [
@@ -4788,11 +4778,6 @@ lexicon = listing "Lexicon's properties"
     MuKaRDiS                  `adj`     {- muharowil -}        [ "hurrying", "in a hurry" ] ]
 
  |> "h r y" <| [
-
-    -- ;; harAriy_1
-    -- hrAry   harAriy Nprop   Harare
-
-    FaCACI                    `noun`    {- harAriy -}          [ "Harare" ],
 
     -- ;; harAriy_1
     -- hrAry   harAriy Nprop   Harare
@@ -5885,25 +5870,6 @@ lexicon = listing "Lexicon's properties"
 
     FU                        `noun`    {- huw -}              [ "Ho (in \"Ho Chi Minh\")" ],
 
-    -- ;; huw_1
-    -- hw      huw     FW-WaBi Ho (in "Ho Chi Minh")    [[huw/NOUN_PROP]]
-
-    FU                        `noun`    {- huw -}              [ "Ho (in \"Ho Chi Minh\")" ],
-
-    -- ;; huw_1
-    -- hw      huw     FW-WaBi Ho (in "Ho Chi Minh")    [[huw/NOUN_PROP]]
-
-    FU                        `noun`    {- huw -}              [ "Ho (in \"Ho Chi Minh\")" ],
-
-    -- ;; huw~ap_1
-    -- hw      huw~    NapAt   abyss;chasm
-    -- hwY     huwaY   N0      abysses;chasms
-    -- hwA     huwA    Nhy     abysses;chasms
-
-    FUL |< aT                 `noun`    {- huw~ap -}           [ "abyss", "chasm", "abysses", "chasms" ]
-                              `plural`     FuCY
-                           {- `others`  [ "huwY N0" ] -},
-
     -- ;; huw~ap_1
     -- hw      huw~    NapAt   abyss;chasm
     -- hwY     huwaY   N0      abysses;chasms
@@ -6632,11 +6598,6 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "hiyf N", "hayfA' Nh N0_Nh Nhy" ] -} ]
 
  |> "h y f y" <| [
-
-    -- ;; hiyfiy_1
-    -- hyfy    hiyfiy  Nprop   Heavy
-
-    KiRDI                     `noun`    {- hiyfiy -}           [ "Heavy" ],
 
     -- ;; hiyfiy_1
     -- hyfy    hiyfiy  Nprop   Heavy

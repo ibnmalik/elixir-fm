@@ -200,11 +200,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; dA}iy_1
     -- dA}y    dA}iy   Nprop   Da'i
 
-    FACI                      `noun`    {- dA}iy -}            [ "Da'i" ],
-
-    -- ;; dA}iy_1
-    -- dA}y    dA}iy   Nprop   Da'i
-
     FACI                      `noun`    {- dA}iy -}            [ "Da'i" ] ]
 
  |> "d .g .s" <| [
@@ -2894,11 +2889,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; diholiy_1
     -- dhly    diholiy Nprop   Delhi
 
-    KiRDI                     `noun`    {- diholiy -}          [ "Delhi" ],
-
-    -- ;; diholiy_1
-    -- dhly    diholiy Nprop   Delhi
-
     KiRDI                     `noun`    {- diholiy -}          [ "Delhi" ] ]
 
  |> "d h l z" <| [
@@ -3608,11 +3598,6 @@ lexicon = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- daloham -}          [ "ark", "gloomy" ] ]
 
  |> "d l h y" <| [
-
-    -- ;; dilohiy_1
-    -- dlhy    dilohiy Nprop   Delhi
-
-    KiRDI                     `noun`    {- dilohiy -}          [ "Delhi" ],
 
     -- ;; dilohiy_1
     -- dlhy    dilohiy Nprop   Delhi
@@ -7122,11 +7107,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; duwlAn_1
     -- dwlAn   duwlAn  Nprop   Dolan
 
-    FULAn                     `noun`    {- duwlAn -}           [ "Dolan" ],
-
-    -- ;; duwlAn_1
-    -- dwlAn   duwlAn  Nprop   Dolan
-
     FULAn                     `noun`    {- duwlAn -}           [ "Dolan" ] ]
 
  |> "d w l b" <| [
@@ -7295,11 +7275,6 @@ lexicon = listing "Lexicon's properties"
     -- mstdAm  musotadAm       Nall    sustained;lasting;uniterrupted;permanent;secure
 
     MustaFAL                  `noun`    {- musotadAm -}        [ "sustained", "lasting", "uniterrupted", "permanent", "secure" ],
-
-    -- ;; duwmAn_1
-    -- dwmAn   duwmAn  N       rudder;helm
-
-    FULAn                     `noun`    {- duwmAn -}           [ "rudder", "helm" ],
 
     -- ;; duwmAn_1
     -- dwmAn   duwmAn  N       rudder;helm
@@ -7549,11 +7524,6 @@ lexicon = listing "Lexicon's properties"
 
     FUCAL                     `noun`    {- duw~Ar -}           [ "bedouin camp (Maghrebi)" ],
 
-    -- ;; duw~Ar_1
-    -- dwAr    duw~Ar  N       bedouin camp (Maghrebi)
-
-    FUCAL                     `noun`    {- duw~Ar -}           [ "bedouin camp (Maghrebi)" ],
-
     -- ;; daw~Arap_1
     -- dwAr    daw~Ar  Nap     whirlpool;vortex
 
@@ -7767,16 +7737,6 @@ lexicon = listing "Lexicon's properties"
     -- ;; duw_1
     -- dw      duw     FW      Du;Do     [[duw/NOUN_PROP]]
 
-    FU                        `noun`    {- duw -}              [ "Du", "Do" ],
-
-    -- ;; duw_1
-    -- dw      duw     FW      Du;Do     [[duw/NOUN_PROP]]
-
-    FU                        `noun`    {- duw -}              [ "Du", "Do" ],
-
-    -- ;; duw_1
-    -- dw      duw     FW      Du;Do     [[duw/NOUN_PROP]]
-
     FU                        `noun`    {- duw -}              [ "Du", "Do" ] ]
 
  |> "d w y" <| [
@@ -7925,11 +7885,6 @@ lexicon = listing "Lexicon's properties"
 
     FA'I                      `noun`    {- dA}iy -}            [ "Da'i" ],
 
-    -- ;; dA}iy_1
-    -- dA}y    dA}iy   Nprop   Da'i
-
-    FA'I                      `noun`    {- dA}iy -}            [ "Da'i" ],
-
     -- ;; duwiy_1
     -- dwy     duwiy   N0      electrical socket
 
@@ -8008,12 +7963,6 @@ lexicon = listing "Lexicon's properties"
     -- dyAjy   dayAjiy N0_Nh   darkness
     -- dyAj    dayAj   NK      darkness
 
-    KaRADI                    `noun`    {- dayAjiy -}          [ "darkness" ],
-
-    -- ;; dayAjiy_1
-    -- dyAjy   dayAjiy N0_Nh   darkness
-    -- dyAj    dayAj   NK      darkness
-
     KaRADI                    `noun`    {- dayAjiy -}          [ "darkness" ] ]
 
  |> "d y ^s" <| [
@@ -8024,11 +7973,6 @@ lexicon = listing "Lexicon's properties"
     FILAn                     `noun`    {- diy$An -}           [ "Deschamps" ] ]
 
  |> "d y ^s y" <| [
-
-    -- ;; diy$iy_1
-    -- dy$y    diy$iy  Nprop   Dechy
-
-    KiRDI                     `noun`    {- diy$iy -}           [ "Dechy" ],
 
     -- ;; diy$iy_1
     -- dy$y    diy$iy  Nprop   Dechy
@@ -8120,11 +8064,6 @@ lexicon = listing "Lexicon's properties"
     FIL                       `noun`    {- diyl -}             [ "del" ] ]
 
  |> "d y l y" <| [
-
-    -- ;; dayoliy_1
-    -- dyly    dayoliy N0      Daily
-
-    KaRDI                     `noun`    {- dayoliy -}          [ "Daily" ],
 
     -- ;; dayoliy_1
     -- dyly    dayoliy N0      Daily

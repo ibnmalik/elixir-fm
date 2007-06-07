@@ -876,8 +876,6 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- kAriy -}            [ "Carey" ],
 
-    FACI                      `noun`    {- kAriy -}            [ "Carey" ],
-
     FuCayL |< aT              `noun`    {- kuray~ap -}         [ "globule", "pellet", "corpuscle" ],
 
     FiCA'                     `noun`    {- kirA' -}            [ "rent", "renting", "rent money" ]
@@ -1035,8 +1033,6 @@ lexicon = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- kawovar -}          [ "ample", "abundant" ] ]
 
  |> "k w b" <| [
-
-    FUL |< Iy                 `adj`     {- kuwbiy~ -}          [ "Cuban" ],
 
     FUL |< Iy                 `adj`     {- kuwbiy~ -}          [ "Cuban" ] ]
 
@@ -1199,8 +1195,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "k y l y" <| [
 
-    KiRDI                     `noun`    {- kiyliy -}           [ "Kelly" ],
-
     KiRDI                     `noun`    {- kiyliy -}           [ "Kelly" ] ]
 
  |> "k y m" <| [
@@ -1243,15 +1237,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "k y t y" <| [
 
-    KiRDI                     `noun`    {- kiytiy -}           [ "Kitty" ],
-
     KiRDI                     `noun`    {- kiytiy -}           [ "Kitty" ] ]
 
  |> "k y y" <| [
 
-    FaC                       `noun`    {- kay -}              [ "in order to" ],
-
-    FaL                       `noun`    {- kay -}              [ "in order to" ] ]
+    FaC                       `noun`    {- kay -}              [ "in order to" ] ]
 
  |> "kA_tuwliyk" <| [
 

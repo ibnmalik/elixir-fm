@@ -4635,11 +4635,6 @@ lexicon = listing "Lexicon's properties"
 
     FUCAL |< aT               `noun`    {- zuw~Adap -}         [ "provisions" ],
 
-    -- ;; zuw~Adap_1
-    -- zwAd    zuw~Ad  Nap     provisions
-
-    FUCAL |< aT               `noun`    {- zuw~Adap -}         [ "provisions" ],
-
     -- ;; mizowad_1
     -- mzwd    mizowad Ndu     provision sack
     -- mzAwd   mazAwid Ndip    provision sacks
@@ -5686,11 +5681,6 @@ lexicon = listing "Lexicon's properties"
     -- tzy     tazay~  IV_0hwnyn       be dressed;be clothed
 
     TaFaCCY                   `verb`    {- tazay~aY -}         [ "be dressed", "be clothed" ],
-
-    -- ;; ziy~_1
-    -- zy      ziy~    N       uniform;clothing
-
-    FIL                       `noun`    {- ziy~ -}             [ "uniform", "clothing" ],
 
     -- ;; ziy~_1
     -- zy      ziy~    N       uniform;clothing
