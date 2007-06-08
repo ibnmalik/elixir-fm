@@ -25,7 +25,7 @@ lexicon = listing "Lexicon's properties"
     -- b>Ejwbp b>uEojuwbp      FW-Wa   miraculously     [[bi/PREP+>uEojuwbap/NOUN]]
     -- bAEjwbp b>uEojuwbp      FW-Wa   miraculously     [[bi/PREP+>uEojuwbap/NOUN]]
 
-    Identity |< aT            `noun`    {- OuEojuwbap -}       [ "miracle", "miraculously" ],
+    Identity |< aT            `prep`    {- OuEojuwbap -}       [ "miracle", "miraculously" ],
 
     -- ;; >uEojuwbap_2
     -- >Ejwb   >uEojuwb        Napdu   marvel;wonder
@@ -2737,7 +2737,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; EAjilAF_1
     -- EAjl    EAjil   NF      at once;immediately     [[EAjil/ADV]]
 
-    FACiL |< aN               `noun`    {- EAjilAF -}          [ "at once", "immediately" ]
+    FACiL |< aN               `adv`     {- EAjilAF -}          [ "at once", "immediately" ]
                               `plural`     FACiL
                            {- `others`  [ "`A^gil NF" ] -},
 
@@ -3536,7 +3536,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; EA$irAF_1
     -- EA$r    EA$ir   NF      in tenth place     [[EA$ir/ADV]]
 
-    FACiL |< aN               `noun`    {- EA$irAF -}          [ "in tenth place" ]
+    FACiL |< aN               `adv`     {- EA$irAF -}          [ "in tenth place" ]
                               `plural`     FACiL
                            {- `others`  [ "`A^sir NF" ] -},
 
@@ -4295,7 +4295,7 @@ lexicon = listing "Lexicon's properties"
     -- <EtbAT  {iEotibAT       NF      arbitrarily;fortuitously;unjustly     [[{iEotibAT/ADV]]
     -- AEtbAT  {iEotibAT       NF      arbitrarily;fortuitously;unjustly     [[{iEotibAT/ADV]]
 
-    IFtiCAL |< aN             `noun`    {- AiEotibATAF -}      [ "arbitrarily", "fortuitously", "unjustly" ]
+    IFtiCAL |< aN             `adv`     {- AiEotibATAF -}      [ "arbitrarily", "fortuitously", "unjustly" ]
                               `plural`     IFtiCAL
                            {- `others`  [ "i`tibA.t NF" ] -},
 
@@ -4309,7 +4309,7 @@ lexicon = listing "Lexicon's properties"
     -- <EtbATy {iEotibATiy~    NF      arbitrarily;fortuitously;unjustly     [[{iEotibATiy~/ADV]]
     -- AEtbATy {iEotibATiy~    NF      arbitrarily;fortuitously;unjustly     [[{iEotibATiy~/ADV]]
 
-    IFtiCAL |< Iy |< aN       `adj`     {- AiEotibATiy~AF -}   [ "arbitrarily", "fortuitously", "unjustly" ],
+    IFtiCAL |< Iy |< aN       `adv`     {- AiEotibATiy~AF -}   [ "arbitrarily", "fortuitously", "unjustly" ],
 
     -- ;; {iEotibATiy~ap_1
     -- <EtbATy {iEotibATiy~    Nap     arbitrariness     [[{iEotibATiy~/NOUN]]
@@ -4340,7 +4340,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; EabavAF_1
     -- Ebv     Eabav   NF      unnecessarily;futile     [[Eabav/ADV]]
 
-    FaCaL |< aN               `noun`    {- EabavAF -}          [ "unnecessarily", "futile" ]
+    FaCaL |< aN               `adv`     {- EabavAF -}          [ "unnecessarily", "futile" ]
                               `plural`     FaCaL
                            {- `others`  [ "`aba_t NF" ] -},
 
@@ -4645,6 +4645,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "` b r" <| [
 
+    -- ;; Eabora_1
+    -- Ebr     Eabora  FW-Wa   across;over;via;be means of        [[Eabora/PREP]]
+    -- Ebr     Eabora  FW-Wa-a across;over;via;be means of        [[Eabora/PREP]]
+
+    FaCL |<< "a"              `prep`    {- Eabora -}           [ "across", "over", "via", "be means of" ],
+
     -- ;; Eabar-u_1
     -- Ebr     Eabar   PV      cross;traverse
     -- Ebr     Eobur   IV      cross;traverse
@@ -4800,7 +4806,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muEotabir_1
     -- mEtbr   muEotabir       NF      considering;regarding     [[muEotabir/ADV]]
 
-    MuFtaCiL                  `noun`    {- muEotabir -}        [ "considering", "regarding" ],
+    MuFtaCiL                  `adv`     {- muEotabir -}        [ "considering", "regarding" ],
 
     -- ;; muEotabar_1
     -- mEtbr   muEotabar       N-ap    considered;regarded;considerable     [[muEotabar/ADJ]]
@@ -5547,7 +5553,7 @@ lexicon = listing "Lexicon's properties"
     -- EdA     EadA    FW-Wa   except for     [[EadA/PREP]]
     -- mAEdA   mAEadA  FW-Wa   except for     [[mAEadA/PREP]]
 
-    FaCA                      `noun`    {- EadA -}             [ "except for" ],
+    FaCA                      `prep`    {- EadA -}             [ "except for" ],
 
     -- ;; EadA-u_1
     -- EdA     EadA    PV_0h   attack;assail
@@ -6575,7 +6581,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Eafowiy~apF_1
     -- Efwyp   Eafowiy~apF     FW-Wa   spontaneously    [[Eafowiy~apF/ADV]]
 
-    KaRDIS |< aT |< aN        `noun`    {- Eafowiy~apF -}      [ "spontaneously" ] ]
+    KaRDIS |< aT |< aN        `adv`     {- Eafowiy~apF -}      [ "spontaneously" ] ]
 
  |> "` f y" <| [
 
@@ -7456,6 +7462,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "` l l" <| [
 
+    -- ;; Eal~a_1
+    -- El      Eal~a   FW-Wa   perhaps     [[Eal~a/FUNC_WORD]]
+    -- El      Eal~a   FW-Wa-n~a       perhaps     [[Eal~a/FUNC_WORD]]
+
+    FaCL |<< "a"              `part`    {- Eal~a -}            [ "perhaps" ],
+
     -- ;; Eal~al_1
     -- Ell     Eal~al  PV      explain;justify
     -- Ell     Eal~il  IV_yu   explain;justify
@@ -7599,7 +7611,7 @@ lexicon = listing "Lexicon's properties"
     -- Elm     Eilom   N       knowledge;knowing
     -- Elm     Eilom   NF      in view of the fact (that);with the knowledge (that)     [[Eilom/ADV]]
 
-    FiCL                      `noun`    {- Eilom -}            [ "knowledge", "knowing", "in view of the fact (that)", "with the knowledge (that)" ],
+    FiCL                      `adv`     {- Eilom -}            [ "knowledge", "knowing", "in view of the fact (that)", "with the knowledge (that)" ],
 
     -- ;; Eilom_2
     -- Elm     Eilom   N       science;study of
@@ -7784,7 +7796,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; mutaEal~im_1
     -- mtElm   mutaEal~im      Nall    educated     [[mutaEal~im/ADJ]]
 
-    MutaFaCCiL                `adj`     {- mutaEal~im -}       [ "educated" ] ]
+    MutaFaCCiL                `adj`     {- mutaEal~im -}       [ "educated" ],
+
+    -- ;; EalAma_1
+    -- ElAm    EalAma  FW-Wa   on which/whom;over which/whom     [[EalAma/INTERROG_PART]]
+
+    FaCAL |<< "a"             `part`    {- EalAma -}           [ "on which/whom", "over which/whom" ] ]
 
  |> "` l m n" <| [
 
@@ -7837,7 +7854,7 @@ lexicon = listing "Lexicon's properties"
     -- Eln     Ealan   N       in public;openly
     -- Eln     Ealan   NF      publicly;openly     [[Ealan/ADV]]
 
-    FaCaL                     `noun`    {- Ealan -}            [ "in public", "openly", "publicly" ],
+    FaCaL                     `adv`     {- Ealan -}            [ "in public", "openly", "publicly" ],
 
     -- ;; Ealaniy~_1
     -- Elny    Ealaniy~        Nall    public     [[Ealaniy~/ADJ]]
@@ -7858,7 +7875,7 @@ lexicon = listing "Lexicon's properties"
     -- ElAny   EalAniy~        Nap     openness;public     [[EalAniy~/NOUN]]
     -- ElAnyp  EalAniy~apF     FW-Wa   openly;publicly    [[EalAniy~apF/ADV]]
 
-    FaCAL |< Iy |< aT         `noun`    {- EalAniy~ap -}       [ "openness", "public", "openly", "publicly" ],
+    FaCAL |< Iy |< aT         `adv`     {- EalAniy~ap -}       [ "openness", "public", "openly", "publicly" ],
 
     -- ;; <iEolAn_1
     -- <ElAn   <iEolAn Ndu     declaration;statement;announcement
@@ -8132,7 +8149,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; EilAwapF_1
     -- ElAwp   EilAwapF        FW-Wa   in addition to     [[EilAwapF/ADV]]
 
-    FiCAL |< aT |< aN         `noun`    {- EilAwapF -}         [ "in addition to" ],
+    FiCAL |< aT |< aN         `adv`     {- EilAwapF -}         [ "in addition to" ],
 
     -- ;; Euluw~_1
     -- Elw     Euluw~  N       height;elevation
@@ -8144,7 +8161,7 @@ lexicon = listing "Lexicon's properties"
     -- Ely     Ealay   FW-Wa-y on;above       [[Ealay/PREP]]
     -- Ely     EalaY   FW-Wa   on;above       [[EalaY/PREP]]
 
-    FaCY                      `noun`    {- EalaY -}            [ "on", "above" ],
+    FaCY                      `prep`    {- EalaY -}            [ "on", "above" ],
 
     -- ;; Ealawiy~_1
     -- Elwy    Ealawiy~        Nall    Alawite     [[Ealawiy~/NOUN]]
@@ -8461,7 +8478,7 @@ lexicon = listing "Lexicon's properties"
     -- Emd     Eamod   N       intent
     -- Emd     Eamod   NF      deliberately;voluntarily     [[Eamod/ADV]]
 
-    FaCL                      `noun`    {- Eamod -}            [ "intent", "deliberately", "voluntarily" ],
+    FaCL                      `adv`     {- Eamod -}            [ "intent", "deliberately", "voluntarily" ],
 
     -- ;; Eamodiy~_1
     -- Emdy    Eamodiy~        N-ap    intentional;premeditated;voluntary     [[Eamodiy~/ADJ]]
@@ -8568,7 +8585,7 @@ lexicon = listing "Lexicon's properties"
     -- tEmd    taEam~ud        N/At    intention;premeditation
     -- tEmd    taEam~ud        NF      intentionally;premeditated     [[taEam~ud/ADV]]
 
-    TaFaCCuL                  `noun`    {- taEam~ud -}         [ "intention", "premeditation", "intentionally", "premeditated" ]
+    TaFaCCuL                  `adv`     {- taEam~ud -}         [ "intention", "premeditation", "intentionally", "premeditated" ]
                               `plural`     TaFaCCuL |< At,
 
     -- ;; taEam~udiy~_1
@@ -8946,7 +8963,7 @@ lexicon = listing "Lexicon's properties"
     -- Emwm    Eumuwm  N       generality;totality
     -- Emwm    Eumuwm  NF      in general;generally     [[Eumuwm/ADV]]
 
-    FuCUL                     `noun`    {- Eumuwm -}           [ "generality", "totality", "in general", "generally" ],
+    FuCUL                     `adv`     {- Eumuwm -}           [ "generality", "totality", "in general", "generally" ],
 
     -- ;; Eumuwmiy~_1
     -- Emwmy   Eumuwmiy~       Nall    general;public;common     [[Eumuwmiy~/ADJ]]
@@ -8990,7 +9007,7 @@ lexicon = listing "Lexicon's properties"
     -- EAmp    EAm~apF FW-Wa   in general;generally    [[EAm~apF/ADV]]
     -- EwAm    EawAm~  Ndip    general public;populace
 
-    FACL |< aT                `noun`    {- EAm~ap -}           [ "general public", "populace", "in general", "generally" ],
+    FACL |< aT                `adv`     {- EAm~ap -}           [ "general public", "populace", "in general", "generally" ],
 
     -- ;; EAm~iy~_1
     -- EAmy    EAm~iy~ Nall    popular     [[EAm~iy~/ADJ]]
@@ -9033,7 +9050,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Eam~an_1
     -- Emn     Eam~an  FW-Wa   from/about whom        [[Eam~an/FUNC_WORD]]
 
-    FaCCaL                    `noun`    {- Eam~an -}           [ "from/about whom" ] ]
+    FaCCaL                    `part`    {- Eam~an -}           [ "from/about whom" ] ]
 
  |> "` m q" <| [
 
@@ -9659,6 +9676,17 @@ lexicon = listing "Lexicon's properties"
 
  |> "` n d" <| [
 
+    -- ;; Einoda_1
+    -- End     Einoda  FW-Wa   with/at     [[Einoda/PREP]]
+    -- End     Einodi  FW-Wa   with/at     [[Einodi/PREP]]
+    -- End     Einoda  FW-Wa-a with/at     [[Einoda/PREP]]
+    -- End     Einodi  FW-Wa-i with/at     [[Einodi/PREP]]
+    -- End     Einod   FW-Wa-o with/at     [[Einod/PREP]]
+
+    FiCL |<< "a"              `prep`    {- Einoda -}           [ "with/at" ]
+                              `plural`     FiCL
+                           {- `others`  [ "`ind FW-Wa-o" ] -},
+
     -- ;; Eanid-a_1
     -- End     Eanid   PV_intr be stubborn
     -- End     Eonad   IV_intr be stubborn
@@ -9832,7 +9860,7 @@ lexicon = listing "Lexicon's properties"
     -- En      Ean     FW-Wa   from/about     [[Ean/PREP]]
     -- En      Ean     FW-Wa-n from/about     [[Ean/PREP]]
 
-    FaL                       `noun`    {- Ean -}              [ "from/about" ],
+    FaL                       `prep`    {- Ean -}              [ "from/about" ],
 
     -- ;; Ean~-iu_1
     -- En      Ean~    PV_V_intr       come to mind;occur
@@ -10144,7 +10172,7 @@ lexicon = listing "Lexicon's properties"
     -- Enw     Eanow   Nap     force;violence
     -- Enwp    EanowapF        FW-Wa   forcibly;violently    [[EanowapF/ADV]]
 
-    FaCL |< aT                `noun`    {- Eanowap -}          [ "force", "violence", "forcibly", "violently" ],
+    FaCL |< aT                `adv`     {- Eanowap -}          [ "force", "violence", "forcibly", "violently" ],
 
     -- ;; EAniy_1
     -- EAny    EAniy   N0F     subservient;distressed     [[EAniy/ADJ]]
@@ -10209,7 +10237,7 @@ lexicon = listing "Lexicon's properties"
     -- En      Ean     FW-Wa   from/about     [[Ean/PREP]]
     -- En      Ean     FW-Wa-n from/about     [[Ean/PREP]]
 
-    FaC                       `noun`    {- Ean -}              [ "from/about" ],
+    FaC                       `prep`    {- Ean -}              [ "from/about" ],
 
     -- ;; EAniy_1
     -- EAny    EAniy   N0F     subservient;distressed     [[EAniy/ADJ]]
@@ -10538,6 +10566,12 @@ lexicon = listing "Lexicon's properties"
     -- tEAqb   taEAqab IV      follow consecutively;alternate
 
     TaFACaL                   `verb`    {- taEAqab -}          [ "follow consecutively", "alternate" ],
+
+    -- ;; Eaqiba_1
+    -- Eqb     Eaqiba  FW-Wa   following;subsequent to     [[Eaqiba/PREP]]
+    -- Eqb     Eaqiba  FW-Wa-a following;subsequent to     [[Eaqiba/PREP]]
+
+    FaCiL |<< "a"             `prep`    {- Eaqiba -}           [ "following", "subsequent to" ],
 
     -- ;; Euqob_1
     -- Eqb     Euqob   N       consequence
@@ -11626,7 +11660,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; EaraDAF_1
     -- ErD     EaraD   NF      incidentally;by chance     [[EaraD/ADV]]
 
-    FaCaL |< aN               `noun`    {- EaraDAF -}          [ "incidentally", "by chance" ]
+    FaCaL |< aN               `adv`     {- EaraDAF -}          [ "incidentally", "by chance" ]
                               `plural`     FaCaL
                            {- `others`  [ "`ara.d NF" ] -},
 
@@ -13247,7 +13281,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taEas~ufiy~AF_1
     -- tEsfy   taEas~ufiy~     NF      abusively;arbitrarily     [[taEas~ufiy~/ADV]]
 
-    TaFaCCuL |< Iy |< aN      `adj`     {- taEas~ufiy~AF -}    [ "abusively", "arbitrarily" ],
+    TaFaCCuL |< Iy |< aN      `adv`     {- taEas~ufiy~AF -}    [ "abusively", "arbitrarily" ],
 
     -- ;; {iEotisAf_1
     -- <EtsAf  {iEotisAf       N/At    deviation;coercion
@@ -13607,7 +13641,7 @@ lexicon = listing "Lexicon's properties"
     -- mAEsY   mAEasaY FW-Wa   what perhaps     [[mA/INTERROG_PART+EasaY/FUNC_WORD]]
     -- mAEsA   mAEasA  FW-Wa-n~a       what perhaps     [[mA/INTERROG_PART+EasA/FUNC_WORD]]
 
-    FaCY                      `noun`    {- EasaY -}            [ "perhaps", "what perhaps" ]
+    FaCY                      `part`    {- EasaY -}            [ "perhaps", "what perhaps" ]
                               `plural`     FaCA
                            {- `others`  [ "`asA FW-Wa-n~a" ] -},
 
@@ -14299,10 +14333,16 @@ lexicon = listing "Lexicon's properties"
 
     FiCaL                     `noun`    {- EiwaD -}            [ "substitute" ],
 
+    -- ;; EiwaDa_1
+    -- EwD     EiwaDa  FW-Wa   in lieu of;in exchange for     [[EiwaDa/PREP]]
+    -- EwD     EiwaDa  FW-Wa-a in lieu of;in exchange for     [[EiwaDa/PREP]]
+
+    FiCaL |<< "a"             `prep`    {- EiwaDa -}           [ "in lieu of", "in exchange for" ],
+
     -- ;; EiwaDAF_1
     -- EwD     EiwaD   NF      in lieu of;in exchange for     [[EiwaD/ADV]]
 
-    FiCaL |< aN               `noun`    {- EiwaDAF -}          [ "in lieu of", "in exchange for" ]
+    FiCaL |< aN               `adv`     {- EiwaDAF -}          [ "in lieu of", "in exchange for" ]
                               `plural`     FiCaL
                            {- `others`  [ "`iwa.d NF" ] -},
 
@@ -14672,7 +14712,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Eawod_1
     -- Ewd     Eawod   NF      returning;going back     [[Eawod/ADV]]
 
-    FaCL                      `noun`    {- Eawod -}            [ "returning", "going back" ],
+    FaCL                      `adv`     {- Eawod -}            [ "returning", "going back" ],
 
     -- ;; Eawodap_1
     -- Ewd     Eawod   Napdu   return
@@ -14685,7 +14725,7 @@ lexicon = listing "Lexicon's properties"
     -- EAdp    EAdapF  FW-Wa   usually    [[EAdapF/ADV]]
     -- EwA}d   EawA}id Ndip    taxes;charges
 
-    FAL |< aT                 `noun`    {- EAdap -}            [ "habit", "custom", "practice", "customs", "practices", "habits", "usually", "taxes", "charges" ]
+    FAL |< aT                 `adv`     {- EAdap -}            [ "habit", "custom", "practice", "customs", "practices", "habits", "usually", "taxes", "charges" ]
                               `plural`     FAL |< At
                               `plural`     FawA'iL
                            {- `others`  [ "`awA'id Ndip" ] -},
@@ -16136,7 +16176,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; EiyAnAF_1
     -- EyAn    EiyAn   NF      visually;by sight     [[EiyAn/ADV]]
 
-    FiCAL |< aN               `noun`    {- EiyAnAF -}          [ "visually", "by sight" ]
+    FiCAL |< aN               `adv`     {- EiyAnAF -}          [ "visually", "by sight" ]
                               `plural`     FiCAL
                            {- `others`  [ "`iyAn NF" ] -},
 
@@ -17103,7 +17143,7 @@ lexicon = listing "Lexicon's properties"
     -- tEzyz   taEoziyz        N       support;backing
     -- tEzyz   taEoziyz        NF      in support of     [[taEoziyz/ADV]]
 
-    TaFCIL                    `noun`    {- taEoziyz -}         [ "support", "backing", "in support of" ],
+    TaFCIL                    `adv`     {- taEoziyz -}         [ "support", "backing", "in support of" ],
 
     -- ;; taEoziyz_2
     -- tEzyz   taEoziyz        N       reinforcement
@@ -17166,14 +17206,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; EAma}i*K_1
     -- EAm}*   EAma}i*K        FW-Wa   that year              [[EAma}i*K/ADV]]
 
-    Identity                  `noun`    {- EAma}i*K -}         [ "that year" ] ]
+    Identity                  `adv`     {- EAma}i*K -}         [ "that year" ] ]
 
  |> "`Ama_dAk" <| [
 
     -- ;; EAma*Ak_1
     -- EAm*Ak  EAma*Ak FW-Wa   that year              [[EAma*Ak/ADV]]
 
-    Identity                  `noun`    {- EAma*Ak -}          [ "that year" ] ]
+    Identity                  `adv`     {- EAma*Ak -}          [ "that year" ] ]
 
  |> "`Ari.dAn" <| [
 
@@ -18170,35 +18210,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Eabidorab~uh -}     [ "Abedrabboh", "Abidrabbuh" ] ]
 
- |> "`abra" <| [
-
-    -- ;; Eabora_1
-    -- Ebr     Eabora  FW-Wa   across;over;via;be means of        [[Eabora/PREP]]
-    -- Ebr     Eabora  FW-Wa-a across;over;via;be means of        [[Eabora/PREP]]
-
-    Identity                  `noun`    {- Eabora -}           [ "across", "over", "via", "be means of" ] ]
-
  |> "`alA'Alddiyn" <| [
 
     -- ;; EalA'Ald~iyn_1
     -- ElA'Aldyn       EalA'Ald~iyn    Nprop   Alaa Eddin;Alaa Al-Din;Aladdin
 
     Identity                  `noun`    {- EalA'Ald~iyn -}     [ "Alaa Eddin", "Alaa Al-Din", "Aladdin" ] ]
-
- |> "`alAma" <| [
-
-    -- ;; EalAma_1
-    -- ElAm    EalAma  FW-Wa   on which/whom;over which/whom     [[EalAma/INTERROG_PART]]
-
-    Identity                  `noun`    {- EalAma -}           [ "on which/whom", "over which/whom" ] ]
-
- |> "`alla" <| [
-
-    -- ;; Eal~a_1
-    -- El      Eal~a   FW-Wa   perhaps     [[Eal~a/FUNC_WORD]]
-    -- El      Eal~a   FW-Wa-n~a       perhaps     [[Eal~a/FUNC_WORD]]
-
-    Identity                  `noun`    {- Eal~a -}            [ "perhaps" ] ]
 
  |> "`amiyrAm" <| [
 
@@ -18213,7 +18230,7 @@ lexicon = listing "Lexicon's properties"
     -- EmA     Eam~A   FW-Wa   as for/regarding     [[Eam~A/FUNC_WORD]]
     -- EmA     Eam~A   FW-Wa   about what     [[Ean/PREP+mA/REL_PRON]]
 
-    Identity                  `noun`    {- Eam~A -}            [ "as for/regarding", "about what" ] ]
+    Identity                  `part`    {- Eam~A -}            [ "as for/regarding", "about what" ] ]
 
  |> "`amrw" <| [
 
@@ -18252,14 +18269,6 @@ lexicon = listing "Lexicon's properties"
     -- Enkbwty Eanokabuwtiy~   NAt     arachnids     [[Eanokabuwtiy~/NOUN]]
 
     Identity |< Iy |< At      `noun`    {- Eanokabuwtiy~At -}  [ "arachnids" ] ]
-
- |> "`aqiba" <| [
-
-    -- ;; Eaqiba_1
-    -- Eqb     Eaqiba  FW-Wa   following;subsequent to     [[Eaqiba/PREP]]
-    -- Eqb     Eaqiba  FW-Wa-a following;subsequent to     [[Eaqiba/PREP]]
-
-    Identity                  `noun`    {- Eaqiba -}           [ "following", "subsequent to" ] ]
 
  |> "`arabs" <| [
 
@@ -18324,52 +18333,33 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Eim~Anuw}iyl -}     [ "Emmanuel" ] ]
 
- |> "`inda" <| [
-
-    -- ;; Einoda_1
-    -- End     Einoda  FW-Wa   with/at     [[Einoda/PREP]]
-    -- End     Einodi  FW-Wa   with/at     [[Einodi/PREP]]
-    -- End     Einoda  FW-Wa-a with/at     [[Einoda/PREP]]
-    -- End     Einodi  FW-Wa-i with/at     [[Einodi/PREP]]
-    -- End     Einod   FW-Wa-o with/at     [[Einod/PREP]]
-
-    Identity                  `noun`    {- Einoda -}           [ "with/at" ] ]
-
  |> "`inda'i_diN" <| [
 
     -- ;; Einoda}i*K_1
     -- End}*   Einoda}i*K      FW-Wa   at that time;then      [[Einoda}i*K/ADV]]
 
-    Identity                  `noun`    {- Einoda}i*K -}       [ "at that time", "then" ] ]
+    Identity                  `adv`     {- Einoda}i*K -}       [ "at that time", "then" ] ]
 
  |> "`inda_dAk" <| [
 
     -- ;; Einoda*Ak_1
     -- End*Ak  Einoda*Ak       FW-Wa   at that time;then      [[Einoda*Ak/ADV]]
 
-    Identity                  `noun`    {- Einoda*Ak -}        [ "at that time", "then" ] ]
+    Identity                  `adv`     {- Einoda*Ak -}        [ "at that time", "then" ] ]
 
  |> "`indahA" <| [
 
     -- ;; EinodahA_1
     -- EndhA   EinodahA        FW-Wa   then;at that moment      [[EinodahA/ADV]]
 
-    Identity                  `noun`    {- EinodahA -}         [ "then", "at that moment" ] ]
+    Identity                  `adv`     {- EinodahA -}         [ "then", "at that moment" ] ]
 
  |> "`indamA" <| [
 
     -- ;; EinodamA_1
     -- EndmA   EinodamA        FW-Wa   when                   [[EinodamA/CONJ]]
 
-    Identity                  `noun`    {- EinodamA -}         [ "when" ] ]
-
- |> "`iwa.da" <| [
-
-    -- ;; EiwaDa_1
-    -- EwD     EiwaDa  FW-Wa   in lieu of;in exchange for     [[EiwaDa/PREP]]
-    -- EwD     EiwaDa  FW-Wa-a in lieu of;in exchange for     [[EiwaDa/PREP]]
-
-    Identity                  `noun`    {- EiwaDa -}           [ "in lieu of", "in exchange for" ] ]
+    Identity                  `conj`    {- EinodamA -}         [ "when" ] ]
 
  |> "`iydaruws" <| [
 
@@ -18494,13 +18484,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- Euwforap -}         [ "Ofra" ] ]
 
- |> "la`alla" <| [
+ |> "la`all" <| [
 
     -- ;; laEal~a_1
     -- lEl     laEal~a FW-Wa   perhaps     [[la/EMPHATIC_PARTICLE+Eal~a/FUNC_WORD]]
     -- lEl     laEal~a FW-Wa-n~a       perhaps     [[la/EMPHATIC_PARTICLE+Eal~a/FUNC_WORD]]
 
-    Identity                  `noun`    {- laEal~a -}          [ "perhaps" ] ]
+    Identity |<< "a"          `part`    {- laEal~a -}          [ "perhaps" ] ]
 
  |> "ma`madAn" <| [
 

@@ -120,6 +120,10 @@ lexicon = listing "Lexicon's properties"
     TaFACuL                   `noun`    {- tadAxul -}          [ "interference", "intervention" ]
                               `plural`     TaFACuL |< At,
 
+    FACiL |<< "a"             `prep`    {- dAxila -}           [ "inside of" ]
+                              `plural`     FACiL
+                           {- `others`  [ "dA_hil FW-Wa-o" ] -},
+
     FACiL                     `noun`    {- dAxil -}            [ "interior", "inside" ],
 
     FACiL |< Iy               `adj`     {- dAxiliy~ -}         [ "internal", "domestic", "interior", "of state" ],
@@ -934,7 +938,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- dawoliy~ -}         [ "international", "state", "world" ],
 
-    MuFACaL |< aT             `noun`    {- mudAwalap -}        [ "negotiation", "deliberation", "alternately", "one after the other" ],
+    MuFACaL |< aT             `adv`     {- mudAwalap -}        [ "negotiation", "deliberation", "alternately", "one after the other" ],
 
     TaFACuL                   `noun`    {- tadAwul -}          [ "alternation", "circulation" ]
                               `plural`     TaFACuL |< At,
@@ -971,7 +975,7 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL,
 
-    FaCL |< aN                `noun`    {- dawomAF -}          [ "constantly", "at all times" ]
+    FaCL |< aN                `adv`     {- dawomAF -}          [ "constantly", "at all times" ]
                               `plural`     FaCL
                            {- `others`  [ "dawm NF" ] -},
 
@@ -990,6 +994,10 @@ lexicon = listing "Lexicon's properties"
     MustaFAL                  `noun`    {- musotadAm -}        [ "sustained", "lasting", "uniterrupted", "permanent", "secure" ] ]
 
  |> "d w n" <| [
+
+    FUL |<< "a"               `prep`    {- duwna -}            [ "without", "beneath", "underneath" ]
+                              `plural`     FUL
+                           {- `others`  [ "duwn FW-Wa-o" ] -},
 
     FaCCaL                    `verb`    {- daw~an -}           [ "record", "register", "collect" ],
 
@@ -1224,10 +1232,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dA -}               [ "Da" ] ]
 
- |> "dA_hila" <| [
-
-    Identity                  `noun`    {- dAxila -}           [ "inside of" ] ]
-
  |> "dAfiydiy" <| [
 
     Identity                  `noun`    {- dAfiydiy -}         [ "Davide" ] ]
@@ -1411,10 +1415,6 @@ lexicon = listing "Lexicon's properties"
  |> "duwnAld" <| [
 
     Identity                  `noun`    {- duwnAld -}          [ "Donald" ] ]
-
- |> "duwna" <| [
-
-    Identity                  `noun`    {- duwna -}            [ "without", "beneath", "underneath" ] ]
 
  |> "duwstum" <| [
 

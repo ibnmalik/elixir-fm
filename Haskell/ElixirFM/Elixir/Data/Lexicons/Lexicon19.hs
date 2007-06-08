@@ -57,7 +57,7 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `verb`    {- OagoDab -}          [ "make angry", "irritate", "be angered", "be irritated" ],
 
-    FaCaL                     `noun`    {- gaDab -}            [ "anger", "wrath", "in anger", "angrily" ],
+    FaCaL                     `adv`     {- gaDab -}            [ "anger", "wrath", "in anger", "angrily" ],
 
     FaCiL                     `adj`     {- gaDib -}            [ "irate", "furious" ],
 
@@ -757,7 +757,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g y r" <| [
 
-    FaCL                      `noun`    {- gayor -}            [ "not", "other" ],
+    FaCL                      `part`    {- gayor -}            [ "not", "other" ],
 
     FaCCaL                    `verb`    {- gay~ar -}           [ "change", "modify" ],
 
@@ -788,7 +788,7 @@ lexicon = listing "Lexicon's properties"
     FAL |< aT                 `noun`    {- gAyap -}            [ "goal", "objective", "purpose", "intention", "goals", "objectives" ]
                               `plural`     FAL |< At,
 
-    FAL |< aT                 `noun`    {- gAyap -}            [ "utmost", "extreme", "extremely", "greatly" ] ]
+    FAL |< aT                 `adv`     {- gAyap -}            [ "utmost", "extreme", "extremely", "greatly" ] ]
 
  |> ".g z l" <| [
 

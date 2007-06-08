@@ -14,7 +14,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; biAltAliy_1
     -- bAltAly biAltAliy       FW-Wa   therefore;consequently  [[biAltAliy/ADV]]
 
-    Identity                  `noun`    {- biAltAliy -}        [ "therefore", "consequently" ] ]
+    Identity                  `adv`     {- biAltAliy -}        [ "therefore", "consequently" ] ]
 
  |> "litawwi-" <| [
 
@@ -32,7 +32,7 @@ lexicon = listing "Lexicon's properties"
     -- ltwy    litaw~iy        FW-Wa   immediately + I                           [[litaw~/ADV+iy/PRON_1S]]
     -- ltwnA   litaw~inA       FW-Wa   immediately + we                          [[litaw~i/ADV+nA/PRON_1P]]
 
-    Identity                  `noun`    {- litaw~i- -}         [ "immediately + it/he", "immediately + they both", "immediately + it/they/her", "immediately + they [masc.pl.]", "immediately + they [fem.pl.]", "immediately + you [masc.sg.]", "immediately + you [fem.sg.]", "immediately + you both", "immediately + you [masc.pl.]", "immediately + you [fem.pl.]", "immediately + I", "immediately + we" ] ]
+    Identity                  `pron`    {- litaw~i- -}         [ "immediately + it/he", "immediately + they both", "immediately + it/they/her", "immediately + they [masc.pl.]", "immediately + they [fem.pl.]", "immediately + you [masc.sg.]", "immediately + you [fem.sg.]", "immediately + you both", "immediately + you [masc.pl.]", "immediately + you [fem.pl.]", "immediately + I", "immediately + we" ] ]
 
  |> "t  '" <| [
 
@@ -131,6 +131,22 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "matA.hif Ndip" ] -} ]
 
  |> "t .h t" <| [
+
+    -- ;; taHota_1
+    -- tHt     taHota  FW-Wa   under     [[taHota/PREP]]
+    -- tHt     taHoti  FW-Wa   under     [[taHoti/PREP]]
+    -- tHt     taHota  FW-Wa-a under     [[taHota/PREP]]
+    -- tHt     taHoti  FW-Wa-i under     [[taHoti/PREP]]
+    -- tHt     taHot   FW-Wa-o under     [[taHot/PREP]]
+
+    FaCL |<< "a"              `prep`    {- taHota -}           [ "under" ]
+                              `plural`     FaCL
+                           {- `others`  [ "ta.ht FW-Wa-o" ] -},
+
+    -- ;; taHotu_1
+    -- tHt     taHotu  FW-Wa   underneath     [[taHotu/ADV]]
+
+    FaCL |<< "u"              `adv`     {- taHotu -}           [ "underneath" ],
 
     -- ;; taHotiy~_1
     -- tHty    taHotiy~        Nall    under;infra-     [[taHotiy~/ADJ]]
@@ -558,7 +574,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tabaEAF_1
     -- tbE     tabaE   NF      according;pursuant     [[tabaE/ADV]]
 
-    FaCaL |< aN               `noun`    {- tabaEAF -}          [ "according", "pursuant" ]
+    FaCaL |< aN               `adv`     {- tabaEAF -}          [ "according", "pursuant" ]
                               `plural`     FaCaL
                            {- `others`  [ "taba` NF" ] -},
 
@@ -596,7 +612,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tibAEAF_1
     -- tbAE    tibAE   NF      in succession;consecutively     [[tibAE/ADV]]
 
-    FiCAL |< aN               `noun`    {- tibAEAF -}          [ "in succession", "consecutively" ]
+    FiCAL |< aN               `adv`     {- tibAEAF -}          [ "in succession", "consecutively" ]
                               `plural`     FiCAL
                            {- `others`  [ "tibA` NF" ] -},
 
@@ -628,7 +644,7 @@ lexicon = listing "Lexicon's properties"
     -- <tbAE   {it~ibAE        NF      according to;pursuant to     [[{it~ibAE/ADV]]
     -- AtbAE   {it~ibAE        NF      according to;pursuant to     [[{it~ibAE/ADV]]
 
-    IFtiCAL |< aN             `noun`    {- Ait~ibAEAF -}       [ "according to", "pursuant to" ]
+    IFtiCAL |< aN             `adv`     {- Ait~ibAEAF -}       [ "according to", "pursuant to" ]
                               `plural`     IFtiCAL
                            {- `others`  [ "ittibA` NF" ] -},
 
@@ -707,7 +723,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tab~AF_1
     -- tb      tab~    NF      perish!     [[tab~/ADV]]
 
-    FaCL |< aN                `noun`    {- tab~AF -}           [ "perish!" ]
+    FaCL |< aN                `adv`     {- tab~AF -}           [ "perish!" ]
                               `plural`     FaCL
                            {- `others`  [ "tabb NF" ] -},
 
@@ -902,7 +918,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tuf~AF_1
     -- tf      tuf~    NF      phew!     [[tuf~/ADV]]
 
-    FuCL |< aN                `noun`    {- tuf~AF -}           [ "phew!" ]
+    FuCL |< aN                `adv`     {- tuf~AF -}           [ "phew!" ]
                               `plural`     FuCL
                            {- `others`  [ "tuff NF" ] -},
 
@@ -1403,7 +1419,13 @@ lexicon = listing "Lexicon's properties"
     -- ;; tilAwap_1
     -- tlAw    tilAw   Napdu   recitation
 
-    FiCAL |< aT               `noun`    {- tilAwap -}          [ "recitation" ] ]
+    FiCAL |< aT               `noun`    {- tilAwap -}          [ "recitation" ],
+
+    -- ;; tilowa_1
+    -- tlw     tilowa  FW-Wa   after     [[tilowa/PREP]]
+    -- tlw     tilowa  FW-Wa-a after     [[tilowa/PREP]]
+
+    FiCL |<< "a"              `prep`    {- tilowa -}           [ "after" ] ]
 
  |> "t l y" <| [
 
@@ -1563,7 +1585,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tamAmAF_1
     -- tmAm    tamAm   NF      exactly;completely     [[tamAm/ADV]]
 
-    FaCAL |< aN               `noun`    {- tamAmAF -}          [ "exactly", "completely" ]
+    FaCAL |< aN               `adv`     {- tamAmAF -}          [ "exactly", "completely" ]
                               `plural`     FaCAL
                            {- `others`  [ "tamAm NF" ] -},
 
@@ -2767,7 +2789,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tArapF_1
     -- tArp    tArapF  FW-Wa   once;sometimes     [[tArapF/ADV]]
 
-    FAL |< aT |< aN           `noun`    {- tArapF -}           [ "once", "sometimes" ],
+    FAL |< aT |< aN           `adv`     {- tArapF -}           [ "once", "sometimes" ],
 
     -- ;; tawrAp_1
     -- twrA    tawrA   Napdu   Torah
@@ -2808,7 +2830,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taw~AF_1
     -- tw      taw~    NF      immediately     [[taw~/ADV]]
 
-    FaCL |< aN                `noun`    {- taw~AF -}           [ "immediately" ]
+    FaCL |< aN                `adv`     {- taw~AF -}           [ "immediately" ]
                               `plural`     FaCL
                            {- `others`  [ "taww NF" ] -} ]
 
@@ -3408,24 +3430,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- t$yrnwmyrdyn -}     [ "Chernomyrdin" ] ]
 
- |> "ta.hta" <| [
-
-    -- ;; taHota_1
-    -- tHt     taHota  FW-Wa   under     [[taHota/PREP]]
-    -- tHt     taHoti  FW-Wa   under     [[taHoti/PREP]]
-    -- tHt     taHota  FW-Wa-a under     [[taHota/PREP]]
-    -- tHt     taHoti  FW-Wa-i under     [[taHoti/PREP]]
-    -- tHt     taHot   FW-Wa-o under     [[taHot/PREP]]
-
-    Identity                  `noun`    {- taHota -}           [ "under" ] ]
-
- |> "ta.htu" <| [
-
-    -- ;; taHotu_1
-    -- tHt     taHotu  FW-Wa   underneath     [[taHotu/ADV]]
-
-    Identity                  `noun`    {- taHotu -}           [ "underneath" ] ]
-
  |> "ta_htarawAn" <| [
 
     -- ;; taxotarawAn_1
@@ -3722,14 +3726,6 @@ lexicon = listing "Lexicon's properties"
     -- tlskwby tilisokuwbiy~   N-ap    telescopic     [[tiliskuwbiy~/ADJ]]
 
     Identity |< Iy            `adj`     {- tilisokuwbiy~ -}    [ "telescopic" ] ]
-
- |> "tilwa" <| [
-
-    -- ;; tilowa_1
-    -- tlw     tilowa  FW-Wa   after     [[tilowa/PREP]]
-    -- tlw     tilowa  FW-Wa-a after     [[tilowa/PREP]]
-
-    Identity                  `noun`    {- tilowa -}           [ "after" ] ]
 
  |> "timbarwuwlfz" <| [
 

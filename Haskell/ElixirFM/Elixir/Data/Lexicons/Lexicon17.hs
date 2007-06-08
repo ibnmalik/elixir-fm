@@ -36,7 +36,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Zahor -}            [ "back", "spine", "midst" ],
 
-    FuCL                      `noun`    {- Zuhor -}            [ "noon", "afternoon", "in the afternoon", "at noon", "afternoons" ]
+    FuCL                      `adv`     {- Zuhor -}            [ "noon", "afternoon", "in the afternoon", "at noon", "afternoons" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.zhAr N" ] -},
 
@@ -71,6 +71,12 @@ lexicon = listing "Lexicon's properties"
     MutaFACiL                 `noun`    {- mutaZAhir -}        [ "demonstrator" ] ]
 
  |> ".z l l" <| [
+
+    FaCL |<< "a"              `noun`    {- Zal~a -}            [ "remain", "continue" ]
+                              `plural`     FCaL
+                              `plural`     FaCL
+                              `plural`     FaCiL
+                           {- `others`  [ ".zlal IV_C", ".zall PV_V IV_V", ".zalil PV_C" ] -},
 
     FiCL                      `noun`    {- Zil~ -}             [ "patronage", "shelter", "auspices" ]
                               `plural`     FuCUL
@@ -138,8 +144,4 @@ lexicon = listing "Lexicon's properties"
     MaFCUL                    `noun`    {- maZoruwf -}         [ "envelope", "envelopes" ]
                               `plural`     MaFACIL
                            {- `others`  [ "ma.zAriyf Ndip" ] -} ]
-
- |> ".zalla" <| [
-
-    Identity                  `noun`    {- Zal~a -}            [ "remain", "continue" ] ]
 

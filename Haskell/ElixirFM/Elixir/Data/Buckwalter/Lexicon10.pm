@@ -3565,7 +3565,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FuCayL',
       'suffix' => '',
       'glosses' => [
@@ -4161,7 +4161,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -5806,7 +5806,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -8323,7 +8323,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< Iy |< aN',
       'suffix' => ' |< Iy |< aN',
       'glosses' => [
@@ -11189,7 +11189,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MutaFaCCiL',
       'suffix' => '',
       'glosses' => [
@@ -15336,28 +15336,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rahiyna' => [
-    {
-      'types' => {},
-      'entry' => 'rahiyna',
-      'form' => 'rahiyna',
-      'lines' => [
-        ';; rahiyna_1',
-        'rhyn    rahiyna FW-Wa   subject to;depending on     [[rahiyna/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'subject to',
-        'depending on'
-      ],
-      'orig' => 'rahiyna',
-      'prefix' => ''
-    }
-  ],
   'r s n' => [
     {
       'types' => {
@@ -16875,7 +16853,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -22386,27 +22364,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rubba' => [
-    {
-      'types' => {},
-      'entry' => 'rubba',
-      'form' => 'rubba',
-      'lines' => [
-        ';; rub~a_1',
-        'rb      rub~a   FW      (so) many     [[rub~a/FUNC_WORD]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        '(so) many'
-      ],
-      'orig' => 'rub~a',
-      'prefix' => ''
-    }
-  ],
   'ra.hm_an' => [
     {
       'types' => {
@@ -26253,7 +26210,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -28326,7 +28283,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -30894,27 +30851,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rayba' => [
-    {
-      'types' => {},
-      'entry' => 'rayba',
-      'form' => 'lArayba',
-      'lines' => [
-        ';; lArayoba_1',
-        'lAryb   lArayoba        FW-Wa   without a doubt'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'lA >| Identity',
-      'suffix' => '',
-      'glosses' => [
-        'without a doubt'
-      ],
-      'orig' => 'lArayoba',
-      'prefix' => 'lA >| '
-    }
-  ],
   'r n .h' => [
     {
       'types' => {
@@ -31858,6 +31794,25 @@ $Lexicon = {
       ],
       'orig' => 'rayob',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'rayb',
+      'form' => 'lArayba',
+      'lines' => [
+        ';; lArayoba_1',
+        'lAryb   lArayoba        FW-Wa   without a doubt'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'lA >| FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'without a doubt'
+      ],
+      'orig' => 'lArayoba',
+      'prefix' => 'lA >| '
     },
     {
       'types' => {
@@ -40155,6 +40110,58 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'r .g _t' => [
+    {
+      'types' => {
+        'r.ga_t' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'ra.ga_t',
+      'form' => 'ra.ga_t',
+      'lines' => [
+        ';; ragav-a_1',
+        'rgv     ragav   PV      breast-feed',
+        'rgv     rogav   IV      breast-feed'
+      ],
+      'patterns' => {
+        'r.ga_t' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'breast-feed'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'ragav-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ra.guw_t',
+      'form' => 'ra.guw_t',
+      'lines' => [
+        ';; raguwv_1',
+        'rgwv    raguwv  Nall    unweaned'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCUL',
+      'suffix' => '',
+      'glosses' => [
+        'unweaned'
+      ],
+      'orig' => 'raguwv',
+      'prefix' => ''
+    }
+  ],
   'r f w' => [
     {
       'types' => {
@@ -40237,58 +40244,6 @@ $Lexicon = {
         'darning'
       ],
       'orig' => 'rafow',
-      'prefix' => ''
-    }
-  ],
-  'r .g _t' => [
-    {
-      'types' => {
-        'r.ga_t' => {
-          'IV' => 1
-        }
-      },
-      'entry' => 'ra.ga_t',
-      'form' => 'ra.ga_t',
-      'lines' => [
-        ';; ragav-a_1',
-        'rgv     ragav   PV      breast-feed',
-        'rgv     rogav   IV      breast-feed'
-      ],
-      'patterns' => {
-        'r.ga_t' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'breast-feed'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'ragav-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ra.guw_t',
-      'form' => 'ra.guw_t',
-      'lines' => [
-        ';; raguwv_1',
-        'rgwv    raguwv  Nall    unweaned'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCUL',
-      'suffix' => '',
-      'glosses' => [
-        'unweaned'
-      ],
-      'orig' => 'raguwv',
       'prefix' => ''
     }
   ],
@@ -41198,6 +41153,27 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => 'ra.gm',
+      'form' => 'ra.gma',
+      'lines' => [
+        ';; ragoma_1',
+        'rgm     ragoma  FW-Wa   in spite of;despite     [[ragoma/PREP]]',
+        'rgm     ragoma  FW-Wa-a in spite of;despite     [[ragoma/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'in spite of',
+        'despite'
+      ],
+      'orig' => 'ragoma',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'ra.gAm',
       'form' => 'ra.gAm',
       'lines' => [
@@ -41724,7 +41700,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MaFCaL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -44567,7 +44543,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCA\' |< aN',
       'suffix' => ' |< aN',
       'glosses' => [],
@@ -45676,29 +45652,6 @@ $Lexicon = {
         'Romania'
       ],
       'orig' => 'ruwmAniyA',
-      'prefix' => ''
-    }
-  ],
-  'rahna' => [
-    {
-      'types' => {},
-      'entry' => 'rahna',
-      'form' => 'rahna',
-      'lines' => [
-        ';; rahona_1',
-        'rhn     rahona  FW-Wa   subject to;depending on;conditional on     [[rahona/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'subject to',
-        'depending on',
-        'conditional on'
-      ],
-      'orig' => 'rahona',
       'prefix' => ''
     }
   ],
@@ -47899,6 +47852,25 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => 'rubb',
+      'form' => 'rubba',
+      'lines' => [
+        ';; rub~a_1',
+        'rb      rub~a   FW      (so) many     [[rub~a/FUNC_WORD]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'part',
+      'morphs' => 'FuCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        '(so) many'
+      ],
+      'orig' => 'rub~a',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'ribb',
       'form' => 'ribbaT',
       'lines' => [
@@ -48795,29 +48767,6 @@ $Lexicon = {
         'Ratu'
       ],
       'orig' => 'rAtuw',
-      'prefix' => ''
-    }
-  ],
-  'ra.gma' => [
-    {
-      'types' => {},
-      'entry' => 'ra.gma',
-      'form' => 'ra.gma',
-      'lines' => [
-        ';; ragoma_1',
-        'rgm     ragoma  FW-Wa   in spite of;despite     [[ragoma/PREP]]',
-        'rgm     ragoma  FW-Wa-a in spite of;despite     [[ragoma/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'in spite of',
-        'despite'
-      ],
-      'orig' => 'ragoma',
       'prefix' => ''
     }
   ],
@@ -51870,6 +51819,27 @@ $Lexicon = {
     {
       'types' => {},
       'entry' => 'rahn',
+      'form' => 'rahna',
+      'lines' => [
+        ';; rahona_1',
+        'rhn     rahona  FW-Wa   subject to;depending on;conditional on     [[rahona/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'subject to',
+        'depending on',
+        'conditional on'
+      ],
+      'orig' => 'rahona',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'rahn',
       'form' => 'rahniyyaT',
       'lines' => [
         ';; rahoniy~ap_1',
@@ -51906,6 +51876,26 @@ $Lexicon = {
         'mortgage'
       ],
       'orig' => 'rahiyn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'rahiyn',
+      'form' => 'rahiyna',
+      'lines' => [
+        ';; rahiyna_1',
+        'rhyn    rahiyna FW-Wa   subject to;depending on     [[rahiyna/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FaCIL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'subject to',
+        'depending on'
+      ],
+      'orig' => 'rahiyna',
       'prefix' => ''
     },
     {
@@ -53801,15 +53791,15 @@ $Lexicon->{'r \' \''}[3]{'glosses'} = $Lexicon->{'r \' \''}[2]{'glosses'};
 $Lexicon->{'r \' \''}[4]{'types'} = $Lexicon->{'r \' y'}[13]{'types'};
 $Lexicon->{'r \' \''}[4]{'lines'} = $Lexicon->{'r \' y'}[13]{'lines'};
 $Lexicon->{'r \' \''}[4]{'glosses'} = $Lexicon->{'r \' y'}[13]{'glosses'};
-$Lexicon->{'r b b'}[14]{'types'} = $Lexicon->{'r b n'}[0]{'types'};
-$Lexicon->{'r b b'}[14]{'lines'} = $Lexicon->{'r b n'}[0]{'lines'};
-$Lexicon->{'r b b'}[14]{'glosses'} = $Lexicon->{'r b n'}[0]{'glosses'};
-$Lexicon->{'r b b'}[15]{'types'} = $Lexicon->{'r b n'}[1]{'types'};
-$Lexicon->{'r b b'}[15]{'lines'} = $Lexicon->{'r b n'}[1]{'lines'};
-$Lexicon->{'r b b'}[15]{'glosses'} = $Lexicon->{'r b n'}[1]{'glosses'};
-$Lexicon->{'r b b'}[16]{'types'} = $Lexicon->{'r b w'}[8]{'types'};
-$Lexicon->{'r b b'}[16]{'lines'} = $Lexicon->{'r b w'}[8]{'lines'};
-$Lexicon->{'r b b'}[16]{'glosses'} = $Lexicon->{'r b w'}[8]{'glosses'};
+$Lexicon->{'r b b'}[15]{'types'} = $Lexicon->{'r b n'}[0]{'types'};
+$Lexicon->{'r b b'}[15]{'lines'} = $Lexicon->{'r b n'}[0]{'lines'};
+$Lexicon->{'r b b'}[15]{'glosses'} = $Lexicon->{'r b n'}[0]{'glosses'};
+$Lexicon->{'r b b'}[16]{'types'} = $Lexicon->{'r b n'}[1]{'types'};
+$Lexicon->{'r b b'}[16]{'lines'} = $Lexicon->{'r b n'}[1]{'lines'};
+$Lexicon->{'r b b'}[16]{'glosses'} = $Lexicon->{'r b n'}[1]{'glosses'};
+$Lexicon->{'r b b'}[17]{'types'} = $Lexicon->{'r b w'}[8]{'types'};
+$Lexicon->{'r b b'}[17]{'lines'} = $Lexicon->{'r b w'}[8]{'lines'};
+$Lexicon->{'r b b'}[17]{'glosses'} = $Lexicon->{'r b w'}[8]{'glosses'};
 $Lexicon->{'r b y'}[0]{'types'} = $Lexicon->{'r b w'}[11]{'types'};
 $Lexicon->{'r b y'}[0]{'lines'} = $Lexicon->{'r b w'}[11]{'lines'};
 $Lexicon->{'r b y'}[0]{'glosses'} = $Lexicon->{'r b w'}[11]{'glosses'};

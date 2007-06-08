@@ -40,7 +40,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bilA_1
     -- blA     bilA    FW-Wa   without   [[bilA/PREP]]
 
-    Identity                  `noun`    {- bilA -}             [ "without" ] ]
+    Identity                  `prep`    {- bilA -}             [ "without" ] ]
 
  |> "iltif" <| [
 
@@ -1808,7 +1808,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; luTofAF_1
     -- lTf     luTof   NF      please     [[luTof/ADV]]
 
-    FuCL |< aN                `noun`    {- luTofAF -}          [ "please" ]
+    FuCL |< aN                `adv`     {- luTofAF -}          [ "please" ]
                               `plural`     FuCL
                            {- `others`  [ "lu.tf NF" ] -},
 
@@ -3932,7 +3932,7 @@ lexicon = listing "Lexicon's properties"
     -- ldn     ladun   FW-Wa   near     [[ladun/PREP]]
     -- ldn     ladun   FW-Wa-n near     [[ladun/PREP]]
 
-    FaCuL                     `noun`    {- ladun -}            [ "near" ],
+    FaCuL                     `prep`    {- ladun -}            [ "near" ],
 
     -- ;; lAdin_1
     -- lAdn    lAdin   Nprop   Laden;Ladin
@@ -3966,7 +3966,7 @@ lexicon = listing "Lexicon's properties"
     -- ldy     laday   FW-Wa-y with;by        [[ladayo/PREP+hi/PRON_3MS]]
     -- ldy     ladaY   FW-Wa   with/by        [[ladaY/PREP]]
 
-    FaCY                      `noun`    {- ladaY -}            [ "with/by", "with", "by" ]
+    FaCY                      `prep`    {- ladaY -}            [ "with/by", "with", "by" ]
                               `plural`     FaCaL
                            {- `others`  [ "laday FW-Wa-y" ] -} ]
 
@@ -4049,7 +4049,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; lafoZAF_1
     -- lfZ     lafoZ   NF      verbatim;literally     [[lafoZ/ADV]]
 
-    FaCL |< aN                `noun`    {- lafoZAF -}          [ "verbatim", "literally" ]
+    FaCL |< aN                `adv`     {- lafoZAF -}          [ "verbatim", "literally" ]
                               `plural`     FaCL
                            {- `others`  [ "laf.z NF" ] -},
 
@@ -5329,7 +5329,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; lamA_1
     -- lmA     lamA    FW-Wa   (did) not    [[lamA/NEG_PART]]
 
-    FaCA                      `noun`    {- lamA -}             [ "(did) not" ] ]
+    FaCA                      `part`    {- lamA -}             [ "(did) not" ] ]
 
  |> "l m .h" <| [
 
@@ -5399,7 +5399,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; talomiyHAF_1
     -- tlmyH   talomiyH        NF      indirectly;through allusion     [[talomiyH/ADV]]
 
-    TaFCIL |< aN              `noun`    {- talomiyHAF -}       [ "indirectly", "through allusion" ]
+    TaFCIL |< aN              `adv`     {- talomiyHAF -}       [ "indirectly", "through allusion" ]
                               `plural`     TaFCIL
                            {- `others`  [ "talmiy.h NF" ] -},
 
@@ -5598,7 +5598,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; lam_1
     -- lm      lam     FW-Wa   not   [[lam/NEG_PART]]
 
-    FaL                       `noun`    {- lam -}              [ "not" ],
+    FaL                       `part`    {- lam -}              [ "not" ],
+
+    -- ;; lima_1
+    -- lm      lima    FW-Wa   why   [[lima/INTERROG_PART]]
+
+    FiL |<< "a"               `part`    {- lima -}             [ "why" ],
 
     -- ;; lam~-u_1
     -- lm      lam~    PV_V    collect;put in order
@@ -5659,7 +5664,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; limAm_1
     -- lmAm    limAm   NF      occasionally;rarely     [[limAm/ADV]]
 
-    FiCAL                     `noun`    {- limAm -}            [ "occasionally", "rarely" ],
+    FiCAL                     `adv`     {- limAm -}            [ "occasionally", "rarely" ],
 
     -- ;; lam~Am_1
     -- lmAm    lam~Am  N_L     wild thyme
@@ -5828,7 +5833,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; lam_1
     -- lm      lam     FW-Wa   not   [[lam/NEG_PART]]
 
-    FaC                       `noun`    {- lam -}              [ "not" ] ]
+    FaC                       `part`    {- lam -}              [ "not" ],
+
+    -- ;; lima_1
+    -- lm      lima    FW-Wa   why   [[lima/INTERROG_PART]]
+
+    FiC |<< "a"               `part`    {- lima -}             [ "why" ] ]
 
  |> "l m z" <| [
 
@@ -5888,14 +5898,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; lan_1
     -- ln      lan     FW-Wa   (will) not   [[lan/NEG_PART]]
 
-    FaL                       `noun`    {- lan -}              [ "(will) not" ] ]
+    FaL                       `part`    {- lan -}              [ "(will) not" ] ]
 
  |> "l n y" <| [
 
     -- ;; lan_1
     -- ln      lan     FW-Wa   (will) not   [[lan/NEG_PART]]
 
-    FaC                       `noun`    {- lan -}              [ "(will) not" ] ]
+    FaC                       `part`    {- lan -}              [ "(will) not" ] ]
 
  |> "l q '" <| [
 
@@ -5910,6 +5920,11 @@ lexicon = listing "Lexicon's properties"
     FiCAL                     `noun`    {- liqA' -}            [ "meeting", "encounter", "interview", "meetings", "encounters", "interviews" ]
                               `plural`     FiCAL |< At
                               `plural`     FiCA' |< At,
+
+    -- ;; liqA'a_1
+    -- lqA'    liqA'a  FW-Wa   in compensation or exchange for     [[liqA'a/PREP]]
+
+    FiCAL |<< "a"             `prep`    {- liqA'a -}           [ "in compensation or exchange for" ],
 
     -- ;; tiloqA'_1
     -- tlqA'   tiloqA' N0_Nh   opposite;in front of
@@ -5926,7 +5941,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tiloqA}iy~AF_1
     -- tlqA}y  tiloqA}iy~      NF      automatically;spontaneously     [[tiloqA}iy~/ADV]]
 
-    TiFCAL |< Iy |< aN        `adj`     {- tiloqA}iy~AF -}     [ "automatically", "spontaneously" ],
+    TiFCAL |< Iy |< aN        `adv`     {- tiloqA}iy~AF -}     [ "automatically", "spontaneously" ],
 
     -- ;; tiloqA}iy~ap_1
     -- tlqA}y  tiloqA}iy~      Nap     spontaneity     [[tiloqA}iy~/NOUN]]
@@ -6483,6 +6498,11 @@ lexicon = listing "Lexicon's properties"
     FiCA'                     `noun`    {- liqA' -}            [ "meeting", "encounter", "interview", "meetings", "encounters", "interviews" ]
                               `plural`     FiCA' |< At,
 
+    -- ;; liqA'a_1
+    -- lqA'    liqA'a  FW-Wa   in compensation or exchange for     [[liqA'a/PREP]]
+
+    FiCA' |<< "a"             `prep`    {- liqA'a -}           [ "in compensation or exchange for" ],
+
     -- ;; tiloqA'_1
     -- tlqA'   tiloqA' N0_Nh   opposite;in front of
     -- tlqA&   tiloqA& Nh      opposite;in front of
@@ -6498,7 +6518,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tiloqA}iy~AF_1
     -- tlqA}y  tiloqA}iy~      NF      automatically;spontaneously     [[tiloqA}iy~/ADV]]
 
-    TiFCA' |< Iy |< aN        `adj`     {- tiloqA}iy~AF -}     [ "automatically", "spontaneously" ],
+    TiFCA' |< Iy |< aN        `adv`     {- tiloqA}iy~AF -}     [ "automatically", "spontaneously" ],
 
     -- ;; tiloqA}iy~ap_1
     -- tlqA}y  tiloqA}iy~      Nap     spontaneity     [[tiloqA}iy~/NOUN]]
@@ -7660,12 +7680,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; law_1
     -- lw      law     FW-Wa   if           [[law/CONJ]]
 
-    FaC                       `noun`    {- law -}              [ "if" ],
+    FaC                       `conj`    {- law -}              [ "if" ],
 
     -- ;; law_1
     -- lw      law     FW-Wa   if           [[law/CONJ]]
 
-    FaL                       `noun`    {- law -}              [ "if" ],
+    FaL                       `conj`    {- law -}              [ "if" ],
 
     -- ;; luw_1
     -- lw      luw     FW-Wa   Le     [[luw/NOUN_PROP]]
@@ -8048,7 +8068,7 @@ lexicon = listing "Lexicon's properties"
     -- lyl     layol   Ndu_L   night;nighttime
     -- lyl     layol   NF      at night;by night     [[layol/ADV]]
 
-    FaCL                      `noun`    {- layol -}            [ "night", "nighttime", "at night", "by night" ],
+    FaCL                      `adv`     {- layol -}            [ "night", "nighttime", "at night", "by night" ],
 
     -- ;; layolap_1
     -- lyl     layol   NapAt_L night;evening
@@ -8264,6 +8284,24 @@ lexicon = listing "Lexicon's properties"
 
  |> "l y s" <| [
 
+    -- ;; layosa_1
+    -- lys     layosa  FW-Wa   not + he/it (he/it is not)            [[layos/NEG_PART+a/PVSUFF_SUBJ:3MS]]
+    -- lysA    layosA  FW-Wa   not + they [masc.du.] (they are not)  [[layos/NEG_PART+A/PVSUFF_SUBJ:3MD]]
+    -- lyswA   layosuwA        FW-Wa   not + they (they are not)             [[layos/NEG_PART+uwA/PVSUFF_SUBJ:3MP]]
+    -- lyst    layosat FW-Wa   not + it/she/they (it/she is not, they are not)    [[layos/NEG_PART+at/PVSUFF_SUBJ:3FS]]
+    -- lystA   layosatA        FW-Wa   not + they [fem.du.] (they are not)                [[layos/NEG_PART+atA/PVSUFF_SUBJ:3FD]]
+    -- lsn     lasona  FW-Wa   not + they [fem.] (they are not)                   [[laso/NEG_PART+na/PVSUFF_SUBJ:3FP]]
+    -- lst     lasota  FW-Wa   not + you [masc.sg.] (you are not)   [[laso/NEG_PART+ta/PVSUFF_SUBJ:2MS]]
+    -- lstmA   lasotumA        FW-Wa   not + you [masc.du.] (you are not)   [[laso/NEG_PART+tumA/PVSUFF_SUBJ:2MD]]
+    -- lstm    lasotum FW-Wa   not + you [masc.pl.] (you are not)   [[laso/NEG_PART+tum/PVSUFF_SUBJ:2MP]]
+    -- lst     lasoti  FW-Wa   not + you [fem.sg.] (you are not)    [[laso/NEG_PART+ti/PVSUFF_SUBJ:2FS]]
+    -- lstmA   lasotumA        FW-Wa   not + you [fem.du.] (you are not)    [[laso/NEG_PART+tumA/PVSUFF_SUBJ:2FD]]
+    -- lstn    lasotun~a       FW-Wa   not + you [fem.pl.] (you are not)    [[laso/NEG_PART+tun~a/PVSUFF_SUBJ:2FP]]
+    -- lst     lasotu  FW-Wa   not + I (I am not)                   [[laso/NEG_PART+tu/PVSUFF_SUBJ:1S]]
+    -- lsnA    lasonA  FW-Wa   not + we (we are not)                [[laso/NEG_PART+nA/PVSUFF_SUBJ:1P]]
+
+    FaCL |<< "a"              `part`    {- layosa -}           [ "not + he/it (he/it is not)", "not + they [masc.du.] (they are not)", "not + they (they are not)", "not + it/she/they (it/she is not, they are not)", "not + they [fem.du.] (they are not)", "not + they [fem.] (they are not)", "not + you [masc.sg.] (you are not)", "not + you [masc.du.] (you are not)", "not + you [masc.pl.] (you are not)", "not + you [fem.sg.] (you are not)", "not + you [fem.du.] (you are not)", "not + you [fem.pl.] (you are not)", "not + I (I am not)", "not + we (we are not)" ],
+
     -- ;; layis-a_1
     -- lys     layis   PV_intr be valiant
     -- lys     loyas   IV_intr be valiant
@@ -8283,6 +8321,16 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCLA'
                               `plural`     FIL
                            {- `others`  [ "laysA' Nh_L N0_Nh_L Nhy_L", "liys N_L" ] -} ]
+
+ |> "l y t" <| [
+
+    -- ;; layota_1
+    -- lyt     layota  FW-Wa   if only;would that     [[layota/FUNC_WORD]]
+    -- lyt     layota  FW-Wa-n~a       if only;would that     [[layota/FUNC_WORD]]
+    -- yAlyt   yAlayota        FW-Wa   if only;would that     [[layota/FUNC_WORD]]
+    -- yAlyt   yAlayota        FW-Wa-n~a       if only;would that     [[layota/FUNC_WORD]]
+
+    FaCL |<< "a"              `part`    {- layota -}           [ "if only", "would that" ] ]
 
  |> "l y y" <| [
 
@@ -8691,7 +8739,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; lA_1
     -- lA      lA      FW-Wa   no;not   [[lA/NEG_PART]]
 
-    Identity                  `noun`    {- lA -}               [ "no", "not" ] ]
+    Identity                  `part`    {- lA -}               [ "no", "not" ] ]
 
  |> "lA'ikiyy" <| [
 
@@ -8807,30 +8855,30 @@ lexicon = listing "Lexicon's properties"
     -- ;; l`kin_1
     -- lkn     l`kin   FW-Wa   however     [[l`kin/CONJ]]
 
-    Identity                  `noun`    {- l`kin -}            [ "however" ] ]
+    Identity                  `conj`    {- l`kin -}            [ "however" ] ]
 
- |> "l_akinna" <| [
+ |> "l_akinn" <| [
 
     -- ;; l`kin~a_1
     -- lkn     l`kin~a FW-Wa   however     [[l`kin~a/CONJ]]
     -- lkn     l`kin~a FW-Wa-n~a       however     [[l`kin~a/CONJ]]
     -- lkn     l`kin~  FW-Wa-n~        however     [[l`kin~/CONJ]]
 
-    Identity                  `noun`    {- l`kin~a -}          [ "however" ] ]
+    Identity |<< "a"          `conj`    {- l`kin~a -}          [ "however" ] ]
 
  |> "la.h.zata'i_diN" <| [
 
     -- ;; laHoZata}i*K_1
     -- lHZt}*  laHoZata}i*K    FW-Wa   at that moment     [[laHoZata}i*K/ADV]]
 
-    Identity                  `noun`    {- laHoZata}i*K -}     [ "at that moment" ] ]
+    Identity                  `adv`     {- laHoZata}i*K -}     [ "at that moment" ] ]
 
- |> "labbayka" <| [
+ |> "labbayk" <| [
 
     -- ;; lab~ayoka_1
     -- lbyk    lab~ayoka       FW-Wa   I have answered Your call!     [[lab~ayoka/INTERJ]]
 
-    Identity                  `noun`    {- lab~ayoka -}        [ "I have answered Your call!" ] ]
+    Identity |<< "a"          `noun`    {- lab~ayoka -}        [ "I have answered Your call!" ] ]
 
  |> "labbiys" <| [
 
@@ -8851,7 +8899,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; lam~A_1
     -- lmA     lam~A   FW-Wa   when;after     [[lam~A/CONJ]]
 
-    Identity                  `noun`    {- lam~A -}            [ "when", "after" ] ]
+    Identity                  `conj`    {- lam~A -}            [ "when", "after" ] ]
 
  |> "lawandA" <| [
 
@@ -8877,7 +8925,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; lawolA_1
     -- lwlA    lawolA  FW-Wa   if not       [[lawolA/CONJ]]
 
-    Identity                  `noun`    {- lawolA -}           [ "if not" ] ]
+    Identity                  `conj`    {- lawolA -}           [ "if not" ] ]
 
  |> "laykirz" <| [
 
@@ -8891,7 +8939,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; layolata}i*K_1
     -- lylt}*  layolata}i*K    FW-Wa   on that night     [[layolata}i*K/ADV]]
 
-    Identity                  `noun`    {- layolata}i*K -}     [ "on that night" ] ]
+    Identity                  `adv`     {- layolata}i*K -}     [ "on that night" ] ]
 
  |> "laymuwniyy" <| [
 
@@ -8899,36 +8947,6 @@ lexicon = listing "Lexicon's properties"
     -- lymwny  layomuwniy~     Nall_L  lemon-colored     [[layomuwniy~/ADJ]]
 
     Identity                  `adj`     {- layomuwniy~ -}      [ "lemon-colored" ] ]
-
- |> "laysa" <| [
-
-    -- ;; layosa_1
-    -- lys     layosa  FW-Wa   not + he/it (he/it is not)            [[layos/NEG_PART+a/PVSUFF_SUBJ:3MS]]
-    -- lysA    layosA  FW-Wa   not + they [masc.du.] (they are not)  [[layos/NEG_PART+A/PVSUFF_SUBJ:3MD]]
-    -- lyswA   layosuwA        FW-Wa   not + they (they are not)             [[layos/NEG_PART+uwA/PVSUFF_SUBJ:3MP]]
-    -- lyst    layosat FW-Wa   not + it/she/they (it/she is not, they are not)    [[layos/NEG_PART+at/PVSUFF_SUBJ:3FS]]
-    -- lystA   layosatA        FW-Wa   not + they [fem.du.] (they are not)                [[layos/NEG_PART+atA/PVSUFF_SUBJ:3FD]]
-    -- lsn     lasona  FW-Wa   not + they [fem.] (they are not)                   [[laso/NEG_PART+na/PVSUFF_SUBJ:3FP]]
-    -- lst     lasota  FW-Wa   not + you [masc.sg.] (you are not)   [[laso/NEG_PART+ta/PVSUFF_SUBJ:2MS]]
-    -- lstmA   lasotumA        FW-Wa   not + you [masc.du.] (you are not)   [[laso/NEG_PART+tumA/PVSUFF_SUBJ:2MD]]
-    -- lstm    lasotum FW-Wa   not + you [masc.pl.] (you are not)   [[laso/NEG_PART+tum/PVSUFF_SUBJ:2MP]]
-    -- lst     lasoti  FW-Wa   not + you [fem.sg.] (you are not)    [[laso/NEG_PART+ti/PVSUFF_SUBJ:2FS]]
-    -- lstmA   lasotumA        FW-Wa   not + you [fem.du.] (you are not)    [[laso/NEG_PART+tumA/PVSUFF_SUBJ:2FD]]
-    -- lstn    lasotun~a       FW-Wa   not + you [fem.pl.] (you are not)    [[laso/NEG_PART+tun~a/PVSUFF_SUBJ:2FP]]
-    -- lst     lasotu  FW-Wa   not + I (I am not)                   [[laso/NEG_PART+tu/PVSUFF_SUBJ:1S]]
-    -- lsnA    lasonA  FW-Wa   not + we (we are not)                [[laso/NEG_PART+nA/PVSUFF_SUBJ:1P]]
-
-    Identity                  `noun`    {- layosa -}           [ "not + he/it (he/it is not)", "not + they [masc.du.] (they are not)", "not + they (they are not)", "not + it/she/they (it/she is not, they are not)", "not + they [fem.du.] (they are not)", "not + they [fem.] (they are not)", "not + you [masc.sg.] (you are not)", "not + you [masc.du.] (you are not)", "not + you [masc.pl.] (you are not)", "not + you [fem.sg.] (you are not)", "not + you [fem.du.] (you are not)", "not + you [fem.pl.] (you are not)", "not + I (I am not)", "not + we (we are not)" ] ]
-
- |> "layta" <| [
-
-    -- ;; layota_1
-    -- lyt     layota  FW-Wa   if only;would that     [[layota/FUNC_WORD]]
-    -- lyt     layota  FW-Wa-n~a       if only;would that     [[layota/FUNC_WORD]]
-    -- yAlyt   yAlayota        FW-Wa   if only;would that     [[layota/FUNC_WORD]]
-    -- yAlyt   yAlayota        FW-Wa-n~a       if only;would that     [[layota/FUNC_WORD]]
-
-    Identity                  `noun`    {- layota -}           [ "if only", "would that" ] ]
 
  |> "li-" <| [
 
@@ -8946,7 +8964,7 @@ lexicon = listing "Lexicon's properties"
     -- ly      liya    FW-Wa   to/for + me (I have)                          [[li/PREP+ya/PRON_1S]]
     -- lnA     lanA    FW-Wa   to/for + us (we have)                         [[la/PREP+nA/PRON_1P]]
 
-    Identity                  `noun`    {- li- -}              [ "to/for + it/him (it/he has)", "to/for + them both (they both have)", "to/for + it/them/her (it/she has, they have)", "to/for + them [masc.pl.] (they have)", "to/for + them [fem.pl.] (they have)", "to/for + you [masc.sg.] (you have)", "to/for + you [fem.sg.] (you have)", "to/for + you both (you both have)", "to/for + you [masc.pl.] (you have)", "to/for + you [fem.pl.] (you have)", "to/for + me (I have)", "to/for + us (we have)" ] ]
+    Identity                  `prep`    {- li- -}              [ "to/for + it/him (it/he has)", "to/for + them both (they both have)", "to/for + it/them/her (it/she has, they have)", "to/for + them [masc.pl.] (they have)", "to/for + them [fem.pl.] (they have)", "to/for + you [masc.sg.] (you have)", "to/for + you [fem.sg.] (you have)", "to/for + you both (you both have)", "to/for + you [masc.pl.] (you have)", "to/for + you [fem.pl.] (you have)", "to/for + me (I have)", "to/for + us (we have)" ] ]
 
  |> "lifiy_tAn" <| [
 
@@ -8972,14 +8990,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; limA_1
     -- lmA     limA    FW-Wa   why/for + what    [[li/PREP+mA/REL_PRON]]
 
-    Identity                  `noun`    {- limA -}             [ "why/for + what" ] ]
-
- |> "lima" <| [
-
-    -- ;; lima_1
-    -- lm      lima    FW-Wa   why   [[lima/INTERROG_PART]]
-
-    Identity                  `noun`    {- lima -}             [ "why" ] ]
+    Identity                  `prep`    {- limA -}             [ "why/for + what" ] ]
 
  |> "liniyn" <| [
 
@@ -8995,13 +9006,6 @@ lexicon = listing "Lexicon's properties"
     -- lnyngrAd        liniynogrAd     N0_L    Leningrad
 
     Identity                  `noun`    {- liniynojrAd -}      [ "Leningrad" ] ]
-
- |> "liqA'a" <| [
-
-    -- ;; liqA'a_1
-    -- lqA'    liqA'a  FW-Wa   in compensation or exchange for     [[liqA'a/PREP]]
-
-    Identity                  `noun`    {- liqA'a -}           [ "in compensation or exchange for" ] ]
 
  |> "litwAniyA" <| [
 
@@ -9264,7 +9268,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; luwjisotiy~AF_1
     -- lwjsty  luwjisotiy~     NF      logistically     [[luwjisotiy~/ADV]]
 
-    Identity |< Iy |< aN      `adj`     {- luwjisotiy~AF -}    [ "logistically" ],
+    Identity |< Iy |< aN      `adv`     {- luwjisotiy~AF -}    [ "logistically" ],
 
     -- ;; luwjisotiy~_2
     -- lwjsty  luwjisotiy~     Nall    logistician     [[luwjisotiy~/ADJ]]
@@ -9474,7 +9478,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mAlam_1
     -- mAlm    mAlam   FW-Wa   as long as    [[mAlam/CONJ]]
 
-    Identity                  `noun`    {- mAlam -}            [ "as long as" ] ]
+    Identity                  `conj`    {- mAlam -}            [ "as long as" ] ]
 
  |> "mil.him" <| [
 

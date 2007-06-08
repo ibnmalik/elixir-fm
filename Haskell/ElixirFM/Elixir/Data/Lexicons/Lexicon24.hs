@@ -29,7 +29,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "limA_dA" <| [
 
-    Identity                  `noun`    {- limA*A -}           [ "why" ] ]
+    Identity                  `part`    {- limA*A -}           [ "why" ] ]
 
  |> "m ' '" <| [
 
@@ -130,7 +130,7 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- maHaD-a -}          [ "be sincere toward" ]
                               `imperf`     FCaL,
 
-    FaCL                      `noun`    {- maHoD -}            [ "mere", "nothing but", "solely", "exclusively" ] ]
+    FaCL                      `adv`     {- maHoD -}            [ "mere", "nothing but", "solely", "exclusively" ] ]
 
  |> "m .h .s" <| [
 
@@ -255,7 +255,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "m ^g n" <| [
 
-    FaCCAL                    `noun`    {- maj~An -}           [ "free", "gratis" ],
+    FaCCAL                    `adv`     {- maj~An -}           [ "free", "gratis" ],
 
     FaCCAL |< Iy              `adj`     {- maj~Aniy~ -}        [ "free", "gratis" ] ]
 
@@ -286,9 +286,9 @@ lexicon = listing "Lexicon's properties"
 
     TaFACY                    `verb`    {- tamA$aY -}          [ "conform with", "be adapted with" ],
 
-    TaFACI                    `noun`    {- tamA$iy -}          [ "in accordance with", "in conformity with" ],
+    TaFACI                    `adv`     {- tamA$iy -}          [ "in accordance with", "in conformity with" ],
 
-    FACI                      `noun`    {- mA$iy -}            [ "going", "walking", "infantry", "pedestrians", "on foot" ]
+    FACI                      `adv`     {- mA$iy -}            [ "going", "walking", "infantry", "pedestrians", "on foot" ]
                               `plural`     FuCY |< aT
                               `plural`     FACI |< At,
 
@@ -310,6 +310,10 @@ lexicon = listing "Lexicon's properties"
 
  |> "m _t l" <| [
 
+    FiCL |<< "a"              `prep`    {- mivola -}           [ "like", "such as" ]
+                              `plural`     FiCL
+                           {- `others`  [ "mi_tl FW-Wa-o" ] -},
+
     FiCL                      `noun`    {- mivol -}            [ "same", "like" ],
 
     FaCaL                     `verb`    {- maval-u -}          [ "resemble", "compare" ]
@@ -328,7 +332,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCL |< Iy                `adj`     {- mivoliy~ -}         [ "replaceable" ],
 
-    FaCaL                     `noun`    {- maval -}            [ "example", "proverb", "for example", "examples", "proverbs", "the likes of" ]
+    FaCaL                     `adv`     {- maval -}            [ "example", "proverb", "for example", "examples", "proverbs", "the likes of" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'am_tAl N" ] -},
 
@@ -385,7 +389,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "m ` `" <| [
 
-    FaL |< aN                 `noun`    {- maEAF -}            [ "together" ] ]
+    FaL |<< "a"               `prep`    {- maEa -}             [ "with" ]
+                              `plural`     FaL
+                              `plural`     FaC
+                           {- `others`  [ "ma` FW-Wa-o" ] -},
+
+    FaL |< aN                 `adv`     {- maEAF -}            [ "together" ] ]
 
  |> "m ` n" <| [
 
@@ -400,7 +409,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "m ` y" <| [
 
-    FaC |< aN                 `noun`    {- maEAF -}            [ "together" ],
+    FaC |<< "a"               `prep`    {- maEa -}             [ "with" ]
+                              `plural`     FaC
+                           {- `others`  [ "ma` FW-Wa-o" ] -},
+
+    FaC |< aN                 `adv`     {- maEAF -}            [ "together" ],
 
     FiCA'                     `noun`    {- miEA' -}            [ "intestines", "entrails" ]
                               `plural`     HaFCA'
@@ -779,7 +792,7 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- mAliy -}            [ "Mali" ],
 
-    FaCIL                     `noun`    {- maliy~ -}           [ "long time", "for a long time", "for quite a while" ] ]
+    FaCIL                     `adv`     {- maliy~ -}           [ "long time", "for a long time", "for quite a while" ] ]
 
  |> "m l y n" <| [
 
@@ -826,6 +839,10 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL                    `noun`    {- mamonuwH -}         [ "granted", "awarded", "bestowed" ] ]
 
+ |> "m n _d" <| [
+
+    FuCL |<< "u"              `conj`    {- muno*u -}           [ "since", "ago" ] ]
+
  |> "m n `" <| [
 
     FaCaL                     `verb`    {- manaE-a -}          [ "prevent", "forbid" ]
@@ -865,11 +882,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "m n n" <| [
 
-    FiL                       `noun`    {- min -}              [ "from", "indeed" ],
+    FiL                       `part`    {- min -}              [ "from", "indeed" ],
 
-    FaL                       `noun`    {- man -}              [ "who/whom" ],
+    FaL                       `pron`    {- man -}              [ "who/whom" ],
 
-    FaL                       `noun`    {- man -}              [ "who/whom" ] ]
+    FaL                       `part`    {- man -}              [ "who/whom" ] ]
 
  |> "m n w" <| [
 
@@ -894,11 +911,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "m n y" <| [
 
-    FiC                       `noun`    {- min -}              [ "from", "indeed" ],
+    FiC                       `part`    {- min -}              [ "from", "indeed" ],
 
-    FaC                       `noun`    {- man -}              [ "who/whom" ],
+    FaC                       `pron`    {- man -}              [ "who/whom" ],
 
-    FaC                       `noun`    {- man -}              [ "who/whom" ],
+    FaC                       `part`    {- man -}              [ "who/whom" ],
 
     FuCL |< aT                `noun`    {- munoyap -}          [ "wish", "desire", "aspiration", "wishes", "desires", "aspirations" ]
                               `plural`     HaFACI
@@ -1048,7 +1065,7 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- mar~ap -}           [ "once", "one time", "(several) times" ]
                               `plural`     FaCL |< At,
 
-    FiCAL                     `noun`    {- mirAr -}            [ "times", "occasions", "often" ],
+    FiCAL                     `adv`     {- mirAr -}            [ "times", "occasions", "often" ],
 
     FuCUL                     `noun`    {- muruwr -}           [ "traffic", "passing", "crossing" ],
 
@@ -1117,7 +1134,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "m s '" <| [
 
-    FaCAL                     `noun`    {- masA' -}            [ "evening", "in the evening" ],
+    FaCAL                     `adv`     {- masA' -}            [ "evening", "in the evening" ],
 
     FaCAL |< Iy               `adj`     {- masA}iy~ -}         [ "evening" ] ]
 
@@ -1207,7 +1224,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "m s w" <| [
 
-    FaCA'                     `noun`    {- masA' -}            [ "evening", "in the evening" ],
+    FaCA'                     `adv`     {- masA' -}            [ "evening", "in the evening" ],
 
     FaCA' |< Iy               `adj`     {- masA}iy~ -}         [ "evening" ] ]
 
@@ -1292,11 +1309,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "m t y" <| [
 
-    FaCY                      `noun`    {- mataY -}            [ "when" ],
+    FaCY                      `pron`    {- mataY -}            [ "when" ],
 
-    FaCY                      `noun`    {- mataY -}            [ "when" ],
+    FaCY                      `part`    {- mataY -}            [ "when" ],
 
-    FaCY                      `noun`    {- mataY -}            [ "when" ] ]
+    FaCY                      `conj`    {- mataY -}            [ "when" ] ]
 
  |> "m w '" <| [
 
@@ -1611,17 +1628,17 @@ lexicon = listing "Lexicon's properties"
 
  |> "mA" <| [
 
-    Identity                  `noun`    {- mA -}               [ "what" ],
+    Identity                  `pron`    {- mA -}               [ "what" ],
 
-    Identity                  `noun`    {- mA -}               [ "not" ],
+    Identity                  `part`    {- mA -}               [ "not" ],
 
-    Identity                  `noun`    {- mA -}               [ "what/which" ],
+    Identity                  `part`    {- mA -}               [ "what/which" ],
 
     Identity                  `noun`    {- mA -}               [ "how...!" ] ]
 
  |> "mA_dA" <| [
 
-    Identity                  `noun`    {- mA*A -}             [ "what" ] ]
+    Identity                  `part`    {- mA*A -}             [ "what" ] ]
 
  |> "mA_ht^sAyyf" <| [
 
@@ -1751,13 +1768,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mAy~uwh -}          [ "bathing suit" ] ]
 
- |> "ma`a" <| [
-
-    Identity                  `noun`    {- maEa -}             [ "with" ] ]
-
  |> "mahmA" <| [
 
-    Identity                  `noun`    {- mahomA -}           [ "whatever" ] ]
+    Identity                  `conj`    {- mahomA -}           [ "whatever" ] ]
 
  |> "mahra^gAn" <| [
 
@@ -1789,13 +1802,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- marosiyliyA -}      [ "Marseille" ] ]
 
- |> "mi_tla" <| [
-
-    Identity                  `noun`    {- mivola -}           [ "like", "such as" ] ]
-
  |> "mi_tlamA" <| [
 
-    Identity                  `noun`    {- mivolamA -}         [ "like", "as" ] ]
+    Identity                  `conj`    {- mivolamA -}         [ "like", "as" ] ]
 
  |> "miliyyit" <| [
 
@@ -1803,9 +1812,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "mimmA" <| [
 
-    Identity                  `noun`    {- mim~A -}            [ "which" ],
+    Identity                  `conj`    {- mim~A -}            [ "which" ],
 
-    Identity                  `noun`    {- mim~A -}            [ "from + what" ] ]
+    Identity                  `prep`    {- mim~A -}            [ "from + what" ] ]
 
  |> "minA.hiym" <| [
 
@@ -1906,10 +1915,6 @@ lexicon = listing "Lexicon's properties"
  |> "mun.guwliyA" <| [
 
     Identity                  `noun`    {- munoguwliyA -}      [ "Mongolia" ] ]
-
- |> "mun_du" <| [
-
-    Identity                  `noun`    {- muno*u -}           [ "since", "ago" ] ]
 
  |> "munastiyr" <| [
 

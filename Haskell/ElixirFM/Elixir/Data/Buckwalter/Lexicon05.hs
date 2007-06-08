@@ -586,7 +586,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; ja*aEAF_1
     -- j*E     ja*aE   NF      again;once more     [[ja*aE/ADV]]
 
-    FaCaL |< aN               `noun`    {- ja*aEAF -}          [ "again", "once more" ]
+    FaCaL |< aN               `adv`     {- ja*aEAF -}          [ "again", "once more" ]
                               `plural`     FaCaL
                            {- `others`  [ "^ga_da` NF" ] -},
 
@@ -1633,7 +1633,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; jaborAF_1
     -- jbr     jabor   NF      forcibly     [[jabor/ADV]]
 
-    FaCL |< aN                `noun`    {- jaborAF -}          [ "forcibly" ]
+    FaCL |< aN                `adv`     {- jaborAF -}          [ "forcibly" ]
                               `plural`     FaCL
                            {- `others`  [ "^gabr NF" ] -},
 
@@ -2073,7 +2073,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; jid~AF_1
     -- jdA     jid~AF  FW-Wa   very;much     [[jid~/ADV]]
 
-    FiCL |< aN                `noun`    {- jid~AF -}           [ "very", "much" ],
+    FiCL |< aN                `adv`     {- jid~AF -}           [ "very", "much" ],
 
     -- ;; jid~iy~_1
     -- jdy     jid~iy~ Nall    serious;earnest     [[jid~iy~/ADJ]]
@@ -2083,7 +2083,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; jid~iy~AF_1
     -- jdy     jid~iy~ NF      seriously;in earnest     [[jid~iy~/ADV]]
 
-    FiCL |< Iy |< aN          `adj`     {- jid~iy~AF -}        [ "seriously", "in earnest" ],
+    FiCL |< Iy |< aN          `adv`     {- jid~iy~AF -}        [ "seriously", "in earnest" ],
 
     -- ;; jid~iy~ap_1
     -- jdy     jid~iy~ Nap     seriousness;earnestness     [[jid~iy~/NOUN]]
@@ -2143,7 +2143,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mujad~adAF_1
     -- mjdd    mujad~ad        NF      again;once more;anew     [[mujad~ad/ADV]]
 
-    MuFaCCaL |< aN            `noun`    {- mujad~adAF -}       [ "again", "once more", "anew" ]
+    MuFaCCaL |< aN            `adv`     {- mujad~adAF -}       [ "again", "once more", "anew" ]
                               `plural`     MuFaCCaL
                            {- `others`  [ "mu^gaddad NF" ] -},
 
@@ -3132,13 +3132,13 @@ lexicon = listing "Lexicon's properties"
     -- jhr     jahor   NF      publicly     [[jahor/ADV]]
     -- jhrp    jahorapF        FW-Wa   publicly;openly    [[jahorapF/ADV]]
 
-    FaCL                      `noun`    {- jahor -}            [ "notoriety", "publicly", "openly" ],
+    FaCL                      `adv`     {- jahor -}            [ "notoriety", "publicly", "openly" ],
 
     -- ;; jihAr_1
     -- jhAr    jihAr   N       notoriety
     -- jhAr    jihAr   NF      publicly     [[jihAr/ADV]]
 
-    FiCAL                     `noun`    {- jihAr -}            [ "notoriety", "publicly" ],
+    FiCAL                     `adv`     {- jihAr -}            [ "notoriety", "publicly" ],
 
     -- ;; jahoriy~_1
     -- jhry    jahoriy~        Nall    public;out-loud     [[jahoriy~/ADJ]]
@@ -4438,7 +4438,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; jaliy~AF_1
     -- jly     jaliy~  NF      obviously;evidently     [[jaliy~/ADV]]
 
-    FaCIL |< aN               `noun`    {- jaliy~AF -}         [ "obviously", "evidently" ]
+    FaCIL |< aN               `adv`     {- jaliy~AF -}         [ "obviously", "evidently" ]
                               `plural`     FaCIL
                            {- `others`  [ "^galiyy NF" ] -},
 
@@ -4668,7 +4668,7 @@ lexicon = listing "Lexicon's properties"
     -- jmyE    jamiyE  N       everyone
     -- jmyE    jamiyE  NF      all;entirely;together     [[jamiyE/ADV]]
 
-    FaCIL                     `noun`    {- jamiyE -}           [ "all of", "every one of", "everyone", "all", "entirely", "together" ],
+    FaCIL                     `adv`     {- jamiyE -}           [ "all of", "every one of", "everyone", "all", "entirely", "together" ],
 
     -- ;; >ajomaE_2
     -- >jmE    >ajomaE Nel     entire;whole
@@ -5061,7 +5061,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; jumolapF_1
     -- jmlp    jumolapF        FW-Wa   completely;on the whole    [[jumolapF/ADV]]
 
-    FuCL |< aT |< aN          `noun`    {- jumolapF -}         [ "completely", "on the whole" ],
+    FuCL |< aT |< aN          `adv`     {- jumolapF -}         [ "completely", "on the whole" ],
+
+    -- ;; jumolapa_1
+    -- jmlp    jumolapa        FW-Wa   all of    [[jumolapa/PREP]]
+
+    FuCL |< aT |<< "a"        `prep`    {- jumolapa -}         [ "all of" ],
 
     -- ;; jamal_1
     -- jml     jamal   Ndu     camel
@@ -5142,7 +5147,7 @@ lexicon = listing "Lexicon's properties"
     -- <jmAl   <ijomAl NF      in general;on the whole     [[<ijomAl/ADV]]
     -- AjmAl   <ijomAl NF      in general;on the whole     [[<ijomAl/ADV]]
 
-    HiFCAL |< aN              `noun`    {- IijomAlAF -}        [ "in general", "on the whole" ]
+    HiFCAL |< aN              `adv`     {- IijomAlAF -}        [ "in general", "on the whole" ]
                               `plural`     HiFCAL
                            {- `others`  [ "'i^gmAl NF" ] -},
 
@@ -5479,6 +5484,17 @@ lexicon = listing "Lexicon's properties"
     -- jtnb    jotanib IV      avoid
 
     IFtaCaL                   `verb`    {- Aijotanab -}        [ "avoid" ],
+
+    -- ;; janoba_1
+    -- jnb     janoba  FW-Wa   next to     [[janoba/PREP]]
+    -- jnb     janobi  FW-Wa   next to     [[janobi/PREP]]
+    -- jnb     janoba  FW-Wa-a next to     [[janoba/PREP]]
+    -- jnb     janobi  FW-Wa-i next to     [[janobi/PREP]]
+    -- jnb     janob   FW-Wa-o next to     [[janob/PREP]]
+
+    FaCL |<< "a"              `prep`    {- janoba -}           [ "next to" ]
+                              `plural`     FaCL
+                           {- `others`  [ "^ganb FW-Wa-o" ] -},
 
     -- ;; janob_1
     -- jnb     janob   Ndu     side
@@ -6346,7 +6362,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; jar~A'_1
     -- jrA'    jar~A'  FW-WaBi because of;as a result of     [[jar~A'/PREP]]
 
-    FaCCAL                    `noun`    {- jar~A' -}           [ "because of", "as a result of" ] ]
+    FaCCAL                    `prep`    {- jar~A' -}           [ "because of", "as a result of" ] ]
 
  |> "^g r .d" <| [
 
@@ -6851,7 +6867,7 @@ lexicon = listing "Lexicon's properties"
     -- mjrd    mujar~ad        N       nothing but;mere
     -- lmjrd   limujar~ad      FW-Wa   for no reason except;for the sole reason     [[limujar~ad/ADV]]
 
-    MuFaCCaL                  `noun`    {- mujar~ad -}         [ "nothing but", "mere", "for no reason except", "for the sole reason" ],
+    MuFaCCaL                  `adv`     {- mujar~ad -}         [ "nothing but", "mere", "for no reason except", "for the sole reason" ],
 
     -- ;; mujar~ad_2
     -- mjrd    mujar~ad        Nall    bare;pure
@@ -7216,7 +7232,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; jar~A'_1
     -- jrA'    jar~A'  FW-WaBi because of;as a result of     [[jar~A'/PREP]]
 
-    FaCLA'                    `noun`    {- jar~A' -}           [ "because of", "as a result of" ] ]
+    FaCLA'                    `prep`    {- jar~A' -}           [ "because of", "as a result of" ] ]
 
  |> "^g r s" <| [
 
@@ -7996,7 +8012,7 @@ lexicon = listing "Lexicon's properties"
     -- jwE     juwE    N       hunger;starvation
     -- jwE     juwE    NF      of hunger;of starvation     [[juwE/ADV]]
 
-    FUL                       `noun`    {- juwE -}             [ "hunger", "starvation", "of hunger", "of starvation" ],
+    FUL                       `adv`     {- juwE -}             [ "hunger", "starvation", "of hunger", "of starvation" ],
 
     -- ;; juwEap_1
     -- jwE     juwE    Nap     hunger
@@ -8726,7 +8742,7 @@ lexicon = listing "Lexicon's properties"
     -- jwA&    jiwA&   Nh      atmosphere;air
     -- jwA}    jiwA}   Nhy     atmosphere;air
 
-    FaCL                      `noun`    {- jaw~ -}             [ "air (military)", "climate", "atmosphere", "by air", "air" ]
+    FaCL                      `adv`     {- jaw~ -}             [ "air (military)", "climate", "atmosphere", "by air", "air" ]
                               `plural`     FiCA'
                               `plural`     HaFCA'
                            {- `others`  [ "^giwA' Nh N0_Nh Nhy", "'a^gwA' Nh N0_Nh Nhy" ] -},
@@ -8909,7 +8925,7 @@ lexicon = listing "Lexicon's properties"
     -- mjAz    majAz   Ndu     passage;figurative
     -- mjAz    majAz   NF      figuratively     [[majAz/ADV]]
 
-    MaFAL                     `noun`    {- majAz -}            [ "passage", "figurative", "figuratively" ],
+    MaFAL                     `adv`     {- majAz -}            [ "passage", "figurative", "figuratively" ],
 
     -- ;; majAziy~_1
     -- mjAzy   majAziy~        Nall    figurative     [[majAziy~/ADJ]]
@@ -8930,7 +8946,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tajaw~uz_1
     -- tjwz    tajaw~uz        NF      figuratively     [[tajaw~uz/ADV]]
 
-    TaFaCCuL                  `noun`    {- tajaw~uz -}         [ "figuratively" ],
+    TaFaCCuL                  `adv`     {- tajaw~uz -}         [ "figuratively" ],
 
     -- ;; tajAwuz_1
     -- tjAwz   tajAwuz NduAt   exceeding;overstepping
@@ -9623,7 +9639,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; juzAfAF_1
     -- jzAf    juzAf   NF      randomly     [[juzAf/ADV]]
 
-    FuCAL |< aN               `noun`    {- juzAfAF -}          [ "randomly" ]
+    FuCAL |< aN               `adv`     {- juzAfAF -}          [ "randomly" ]
                               `plural`     FuCAL
                            {- `others`  [ "^guzAf NF" ] -},
 
@@ -9715,7 +9731,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; jAzimAF_1
     -- jAzm    jAzim   NF      with absolute certainty     [[jAzim/ADV]]
 
-    FACiL |< aN               `noun`    {- jAzimAF -}          [ "with absolute certainty" ]
+    FACiL |< aN               `adv`     {- jAzimAF -}          [ "with absolute certainty" ]
                               `plural`     FACiL
                            {- `others`  [ "^gAzim NF" ] -},
 
@@ -10242,17 +10258,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- jamaluwn -}         [ "gable" ] ]
 
- |> "^ganba" <| [
-
-    -- ;; janoba_1
-    -- jnb     janoba  FW-Wa   next to     [[janoba/PREP]]
-    -- jnb     janobi  FW-Wa   next to     [[janobi/PREP]]
-    -- jnb     janoba  FW-Wa-a next to     [[janoba/PREP]]
-    -- jnb     janobi  FW-Wa-i next to     [[janobi/PREP]]
-    -- jnb     janob   FW-Wa-o next to     [[janob/PREP]]
-
-    Identity                  `noun`    {- janoba -}           [ "next to" ] ]
-
  |> "^gandarm" <| [
 
     -- ;; janodarmap_1
@@ -10681,13 +10686,6 @@ lexicon = listing "Lexicon's properties"
     -- jlbAn   julub~An        N       grass pea
 
     Identity                  `noun`    {- julub~An -}         [ "grass pea" ] ]
-
- |> "^gumlaTa" <| [
-
-    -- ;; jumolapa_1
-    -- jmlp    jumolapa        FW-Wa   all of    [[jumolapa/PREP]]
-
-    Identity                  `noun`    {- jumolapa -}         [ "all of" ] ]
 
  |> "^gummayz" <| [
 

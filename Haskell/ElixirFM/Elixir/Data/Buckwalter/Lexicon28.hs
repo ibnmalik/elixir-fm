@@ -491,14 +491,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; yamanAF_1
     -- ymn     yaman   NF      to the right     [[yaman/ADV]]
 
-    FaCaL |< aN               `noun`    {- yamanAF -}          [ "to the right" ]
+    FaCaL |< aN               `adv`     {- yamanAF -}          [ "to the right" ]
                               `plural`     FaCaL
                            {- `others`  [ "yaman NF" ] -},
 
     -- ;; yamanAF_2
     -- ymn     yaman   NF      to the south     [[yaman/ADV]]
 
-    FaCaL |< aN               `noun`    {- yamanAF -}          [ "to the south" ]
+    FaCaL |< aN               `adv`     {- yamanAF -}          [ "to the south" ]
                               `plural`     FaCaL
                            {- `others`  [ "yaman NF" ] -},
 
@@ -542,7 +542,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yamiynAF_1
     -- ymyn    yamiyn  NF      to the right     [[yamiyn/ADV]]
 
-    FaCIL |< aN               `noun`    {- yamiynAF -}         [ "to the right" ]
+    FaCIL |< aN               `adv`     {- yamiynAF -}         [ "to the right" ]
                               `plural`     FaCIL
                            {- `others`  [ "yamiyn NF" ] -},
 
@@ -1105,7 +1105,7 @@ lexicon = listing "Lexicon's properties"
     -- ysAr    yasAr   N       left
     -- ysAr    yasAr   NF      to the left     [[yasAr/ADV]]
 
-    FaCAL                     `noun`    {- yasAr -}            [ "left", "to the left" ],
+    FaCAL                     `adv`     {- yasAr -}            [ "left", "to the left" ],
 
     -- ;; yasAr_2
     -- ysAr    yasAr   N       comfort;affluence
@@ -1325,12 +1325,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; yawom_2
     -- ywmA    yawomAF FW-Wa   some day    [[yawomAF/ADV]]
 
-    FaCL                      `noun`    {- yawom -}            [ "some day" ],
+    FaCL                      `adv`     {- yawom -}            [ "some day" ],
 
     -- ;; yawom_3
     -- Alywm   Aloyawoma       FW-Wa   today       [[Aloyawoma/ADV]]
 
-    FaCL                      `noun`    {- yawom -}            [ "today" ],
+    FaCL                      `adv`     {- yawom -}            [ "today" ],
 
     -- ;; yawom_4
     -- ywm     yawom   N0      Youm
@@ -1356,7 +1356,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muyAwamapF_1
     -- myAwmp  muyAwamapF      FW-Wa   daily;per diem    [[muyAwamapF/ADV]]
 
-    MuFACaL |< aT |< aN       `noun`    {- muyAwamapF -}       [ "daily", "per diem" ],
+    MuFACaL |< aT |< aN       `adv`     {- muyAwamapF -}       [ "daily", "per diem" ],
 
     -- ;; muyAwam_1
     -- myAwm   muyAwam Nall    day laborer
@@ -1634,14 +1634,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; yawoma}i*K_1
     -- ywm}*   yawoma}i*K      FW-Wa   on that day     [[yawoma}i*K/ADV]]
 
-    Identity                  `noun`    {- yawoma}i*K -}       [ "on that day" ] ]
+    Identity                  `adv`     {- yawoma}i*K -}       [ "on that day" ] ]
 
  |> "yawma_dAk" <| [
 
     -- ;; yawoma*Ak_1
     -- ywm*Ak  yawoma*Ak       FW-Wa   on that day     [[yawoma*Ak/ADV]]
 
-    Identity                  `noun`    {- yawoma*Ak -}        [ "on that day" ] ]
+    Identity                  `adv`     {- yawoma*Ak -}        [ "on that day" ] ]
 
  |> "yazar^g" <| [
 

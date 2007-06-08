@@ -204,6 +204,10 @@ lexicon = listing "Lexicon's properties"
 
  |> ".d d d" <| [
 
+    FiCL |<< "a"              `prep`    {- Did~a -}            [ "against" ]
+                              `plural`     FiCL
+                           {- `others`  [ ".didd FW-Wa-o" ] -},
+
     MuFACL                    `adj`     {- muDAd~ -}           [ "anti-", "counter-", "contra-" ] ]
 
  |> ".d f '" <| [
@@ -312,6 +316,8 @@ lexicon = listing "Lexicon's properties"
     MunFaCL                   `adj`     {- munoDam~ -}         [ "affiliated", "annexed", "comprising" ] ]
 
  |> ".d m n" <| [
+
+    FiCL |<< "a"              `prep`    {- Dimona -}           [ "within", "inside", "among" ],
 
     FaCiL                     `verb`    {- Damin-a -}          [ "guarantee", "insure" ]
                               `imperf`     FCaL,
@@ -562,7 +568,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- DayoEap -}          [ "loss", "waste" ],
 
-    FiCAL                     `noun`    {- DiyAE -}            [ "loss", "waste", "in vain" ],
+    FiCAL                     `adv`     {- DiyAE -}            [ "loss", "waste", "in vain" ],
 
     FaCL |< aT                `noun`    {- DayoEap -}          [ "village", "villages" ]
                               `plural`     FiCAL
@@ -582,7 +588,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCUL
                            {- `others`  [ ".duyuwf N" ] -},
 
-    HiFAL |< aT               `noun`    {- IiDAfap -}          [ "addition", "appending", "in addition" ],
+    HiFAL |< aT               `adv`     {- IiDAfap -}          [ "addition", "appending", "in addition" ],
 
     HiFAL |< Iy               `adj`     {- IiDAfiy~ -}         [ "additional", "supplementary" ],
 
@@ -621,14 +627,6 @@ lexicon = listing "Lexicon's properties"
     FA'iL |< aT               `noun`    {- DA}iqap -}          [ "crisis", "predicament", "crises", "predicaments" ]
                               `plural`     FawA'iL
                            {- `others`  [ ".dawA'iq Ndip" ] -} ]
-
- |> ".didda" <| [
-
-    Identity                  `noun`    {- Did~a -}            [ "against" ] ]
-
- |> ".dimna" <| [
-
-    Identity                  `noun`    {- Dimona -}           [ "within", "inside", "among" ] ]
 
  |> "i.dmi.hlAl" <| [
 

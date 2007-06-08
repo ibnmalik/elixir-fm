@@ -163,7 +163,7 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `verb`    {- Oayosar -}          [ "live in comfort", "be made easy", "be facilitated" ],
 
-    FaCAL                     `noun`    {- yasAr -}            [ "left", "to the left" ],
+    FaCAL                     `adv`     {- yasAr -}            [ "left", "to the left" ],
 
     FaCAL                     `noun`    {- yasAr -}            [ "comfort", "affluence" ],
 
@@ -207,9 +207,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- yawom -}            [ "day", "days" ],
 
-    FaCL                      `noun`    {- yawom -}            [ "some day" ],
+    FaCL                      `adv`     {- yawom -}            [ "some day" ],
 
-    FaCL                      `noun`    {- yawom -}            [ "today" ],
+    FaCL                      `adv`     {- yawom -}            [ "today" ],
 
     FaCL                      `noun`    {- yawom -}            [ "Youm" ],
 

@@ -9,17 +9,13 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'a_tnA'a" <| [
-
-    Identity                  `noun`    {- OavonA'a -}         [ "during" ] ]
-
  |> "'i_tb" <| [
 
     Identity |< At            `noun`    {- IivobAt -}          [ "confirmation", "verification" ] ]
 
- |> "Ai_tnAni" <| [
+ |> "Ai_tnAn" <| [
 
-    al >| Identity            `adj`     {- AlAivonAni -}       [ "the + two" ] ]
+    al >| Identity |<< "i"    `adj`     {- AlAivonAni -}       [ "the + two" ] ]
 
  |> "_t ' r" <| [
 
@@ -146,6 +142,14 @@ lexicon = listing "Lexicon's properties"
 
     FuCAL |< aT               `noun`    {- vumAlap -}          [ "residue", "dregs" ] ]
 
+ |> "_t m m" <| [
+
+    FuCL |<< "a"              `adv`     {- vum~a -}            [ "then", "thereupon" ],
+
+    FaCL |<< "a"              `adv`     {- vam~a -}            [ "therefore", "there (is/are)" ],
+
+    FaCL |< aT |<< "a"        `adv`     {- vam~apa -}          [ "there (is/are)" ] ]
+
  |> "_t m n" <| [
 
     FaCCaL                    `verb`    {- vam~an -}           [ "appraise", "estimate" ],
@@ -216,6 +220,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "_t n '" <| [
 
+    HaFCAL |<< "a"            `prep`    {- OavonA'a -}         [ "during" ]
+                              `plural`     HaFCAL
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a_tnA' FW-Wa-o" ] -},
+
     HaFCAL                    `noun`    {- OavonA' -}          [ "meanwhile", "meantime" ],
 
     FuCAL |< Iy               `adj`     {- vunA}iy~ -}         [ "bilateral", "dual" ],
@@ -236,6 +245,10 @@ lexicon = listing "Lexicon's properties"
 
     IstaFCY                   `verb`    {- AisotavonaY -}      [ "except", "exclude", "be excepted", "be excluded" ],
 
+    HaFCA' |<< "a"            `prep`    {- OavonA'a -}         [ "during" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a_tnA' FW-Wa-o" ] -},
+
     HaFCA'                    `noun`    {- OavonA' -}          [ "meanwhile", "meantime" ],
 
     FuCA' |< Iy               `adj`     {- vunA}iy~ -}         [ "bilateral", "dual" ],
@@ -247,7 +260,7 @@ lexicon = listing "Lexicon's properties"
     FACI                      `adj`     {- vAniy -}            [ "second", "next" ]
                               `plural`     FACI |< At,
 
-    FACI |< aN                `noun`    {- vAniyAF -}          [ "secondly" ]
+    FACI |< aN                `adv`     {- vAniyAF -}          [ "secondly" ]
                               `plural`     FACI
                            {- `others`  [ "_tAniy NF" ] -},
 
@@ -385,21 +398,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- valAvmA}ap -}       [ "three-hundred" ] ]
 
- |> "_tamma" <| [
-
-    Identity                  `noun`    {- vam~a -}            [ "therefore", "there (is/are)" ] ]
-
- |> "_tammaTa" <| [
-
-    Identity                  `noun`    {- vam~apa -}          [ "there (is/are)" ] ]
-
  |> "_tulA_tA'" <| [
 
     Identity                  `noun`    {- vulAvA' -}          [ "Tuesday" ] ]
-
- |> "_tumma" <| [
-
-    Identity                  `noun`    {- vum~a -}            [ "then", "thereupon" ] ]
 
  |> "_tuwrmuwnt" <| [
 
@@ -409,19 +410,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `adj`     {- AivonA -}           [ "(1st word in \"twelve\")" ] ]
 
- |> "i_tnAni" <| [
+ |> "i_tnAn" <| [
 
-    Identity                  `adj`     {- AivonAni -}         [ "two" ] ]
+    Identity |<< "i"          `adj`     {- AivonAni -}         [ "two" ] ]
 
  |> "i_tnatA" <| [
 
     Identity                  `adj`     {- AivonatA -}         [ "(1st word in \"twelve\")" ] ]
 
- |> "i_tnatAni" <| [
+ |> "i_tnatAn" <| [
 
-    Identity                  `adj`     {- AivonatAni -}       [ "two" ] ]
+    Identity |<< "i"          `adj`     {- AivonatAni -}       [ "two" ] ]
 
- |> "i_tnayni" <| [
+ |> "i_tnayn" <| [
 
-    Identity                  `noun`    {- Aivonayoni -}       [ "Monday" ] ]
+    Identity |<< "i"          `noun`    {- Aivonayoni -}       [ "Monday" ] ]
 

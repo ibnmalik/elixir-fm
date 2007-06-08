@@ -116,7 +116,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; dA}imAF_1
     -- dA}m    dA}im   NF      always     [[dA}im/ADV]]
 
-    FACiL |< aN               `noun`    {- dA}imAF -}          [ "always" ]
+    FACiL |< aN               `adv`     {- dA}imAF -}          [ "always" ]
                               `plural`     FA'iL
                               `plural`     FACiL
                            {- `others`  [ "dA'im NF" ] -},
@@ -942,6 +942,17 @@ lexicon = listing "Lexicon's properties"
 
     TaFACuL                   `noun`    {- tadAxul -}          [ "interference", "intervention" ]
                               `plural`     TaFACuL |< At,
+
+    -- ;; dAxila_1
+    -- dAxl    dAxila  FW-Wa   inside of     [[dAxila/PREP]]
+    -- dAxl    dAxili  FW-Wa   inside of     [[dAxili/PREP]]
+    -- dAxl    dAxila  FW-Wa-a inside of     [[dAxila/PREP]]
+    -- dAxl    dAxili  FW-Wa-i inside of     [[dAxili/PREP]]
+    -- dAxl    dAxil   FW-Wa-o inside of     [[dAxil/PREP]]
+
+    FACiL |<< "a"             `prep`    {- dAxila -}           [ "inside of" ]
+                              `plural`     FACiL
+                           {- `others`  [ "dA_hil FW-Wa-o" ] -},
 
     -- ;; dAxil_1
     -- dAxl    dAxil   N       interior;inside
@@ -2186,7 +2197,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mudobir_1
     -- mdbr    mudobir NF      from the rear     [[mudobir/ADV]]
 
-    MuFCiL                    `noun`    {- mudobir -}          [ "from the rear" ],
+    MuFCiL                    `adv`     {- mudobir -}          [ "from the rear" ],
 
     -- ;; dubArap_1
     -- dbAr    dubAr   Nap     twine;thread
@@ -6052,7 +6063,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; dirAk_1
     -- drAk    dirAk   NF      constantly;without interruption     [[dirAk/ADV]]
 
-    FiCAL                     `noun`    {- dirAk -}            [ "constantly", "without interruption" ],
+    FiCAL                     `adv`     {- dirAk -}            [ "constantly", "without interruption" ],
 
     -- ;; <idorAk_1
     -- <drAk   <idorAk NduAt   attainment;realization;awareness
@@ -7086,7 +7097,7 @@ lexicon = listing "Lexicon's properties"
     -- mdAwl   mudAwal NapAt   negotiation;deliberation
     -- mdAwlp  mudAwalapF      FW-Wa   alternately;one after the other    [[mudAwalapF/ADV]]
 
-    MuFACaL |< aT             `noun`    {- mudAwalap -}        [ "negotiation", "deliberation", "alternately", "one after the other" ],
+    MuFACaL |< aT             `adv`     {- mudAwalap -}        [ "negotiation", "deliberation", "alternately", "one after the other" ],
 
     -- ;; tadAwul_1
     -- tdAwl   tadAwul NduAt   alternation;circulation
@@ -7202,7 +7213,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; dawomAF_1
     -- dwm     dawom   NF      constantly;at all times     [[dawom/ADV]]
 
-    FaCL |< aN                `noun`    {- dawomAF -}          [ "constantly", "at all times" ]
+    FaCL |< aN                `adv`     {- dawomAF -}          [ "constantly", "at all times" ]
                               `plural`     FaCL
                            {- `others`  [ "dawm NF" ] -},
 
@@ -7225,7 +7236,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; dawAmAF_1
     -- dwAm    dawAm   NF      permanently     [[dawAm/ADV]]
 
-    FaCAL |< aN               `noun`    {- dawAmAF -}          [ "permanently" ]
+    FaCAL |< aN               `adv`     {- dawAmAF -}          [ "permanently" ]
                               `plural`     FaCAL
                            {- `others`  [ "dawAm NF" ] -},
 
@@ -7252,7 +7263,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; dA}imAF_1
     -- dA}m    dA}im   NF      always     [[dA}im/ADV]]
 
-    FA'iL |< aN               `noun`    {- dA}imAF -}          [ "always" ]
+    FA'iL |< aN               `adv`     {- dA}imAF -}          [ "always" ]
                               `plural`     FA'iL
                            {- `others`  [ "dA'im NF" ] -},
 
@@ -7289,6 +7300,20 @@ lexicon = listing "Lexicon's properties"
     KuRDAS                    `noun`    {- duwmAn -}           [ "rudder", "helm" ] ]
 
  |> "d w n" <| [
+
+    -- ;; duwna_1
+    -- dwn     duwna   FW-Wa   without;beneath;underneath     [[duwna/PREP]]
+    -- dwn     duwni   FW-Wa   without;beneath;underneath     [[duwni/PREP]]
+    -- bdwn    biduwni FW-Wa   without;beneath;underneath     [[biduwni/PREP]]
+    -- dwn     duwna   FW-Wa-a without;beneath;underneath     [[duwna/PREP]]
+    -- dwn     duwni   FW-Wa-i without;beneath;underneath     [[duwni/PREP]]
+    -- bdwn    biduwni FW-Wa-i without;beneath;underneath     [[biduwni/PREP]]
+    -- dwn     duwn    FW-Wa-o without;beneath;underneath     [[duwn/PREP]]
+    -- bdwn    biduwn  FW-Wa-o without;beneath;underneath     [[biduwn/PREP]]
+
+    FUL |<< "a"               `prep`    {- duwna -}            [ "without", "beneath", "underneath" ]
+                              `plural`     FUL
+                           {- `others`  [ "duwn FW-Wa-o" ] -},
 
     -- ;; daw~an_1
     -- dwn     daw~an  PV-n    record;register;collect
@@ -7574,7 +7599,7 @@ lexicon = listing "Lexicon's properties"
     -- <dAry   <idAriy~        NF      administratively;officially     [[<idAriy~/ADV]]
     -- AdAry   <idAriy~        NF      administratively;officially     [[<idAriy~/ADV]]
 
-    HiFAL |< Iy |< aN         `adj`     {- IidAriy~AF -}       [ "administratively", "officially" ],
+    HiFAL |< Iy |< aN         `adv`     {- IidAriy~AF -}       [ "administratively", "officially" ],
 
     -- ;; {isotidArap_1
     -- <stdAr  {isotidAr       NapAt   circularity;roundness
@@ -8416,17 +8441,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dA -}               [ "Da" ] ]
 
- |> "dA_hila" <| [
-
-    -- ;; dAxila_1
-    -- dAxl    dAxila  FW-Wa   inside of     [[dAxila/PREP]]
-    -- dAxl    dAxili  FW-Wa   inside of     [[dAxili/PREP]]
-    -- dAxl    dAxila  FW-Wa-a inside of     [[dAxila/PREP]]
-    -- dAxl    dAxili  FW-Wa-i inside of     [[dAxili/PREP]]
-    -- dAxl    dAxil   FW-Wa-o inside of     [[dAxil/PREP]]
-
-    Identity                  `noun`    {- dAxila -}           [ "inside of" ] ]
-
  |> "dAfiyd" <| [
 
     -- ;; dAfiyd_1
@@ -8700,12 +8714,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dawAdimiy~ -}       [ "Dawadimi" ] ]
 
- |> "dawAlayka" <| [
+ |> "dawAlayk" <| [
 
     -- ;; dawAlayoka_1
     -- dwAlyk  dawAlayoka      FW-Wa   successively;one by one     [[dawAlayoka/ADV]]
 
-    Identity                  `noun`    {- dawAlayoka -}       [ "successively", "one by one" ] ]
+    Identity |<< "a"          `adv`     {- dawAlayoka -}       [ "successively", "one by one" ] ]
 
  |> "daydabAn" <| [
 
@@ -8844,7 +8858,7 @@ lexicon = listing "Lexicon's properties"
     -- dmqrATy dimuqorATiy~    NF      democratically     [[dimuqorATiy~/ADV]]
     -- dmqrTy  dimuqoraTiy~    NF      democratically     [[dimuqoraTiy~/ADV]]
 
-    Identity |< Iy |< aN      `adj`     {- dimuqorATiy~AF -}   [ "democratically" ] ]
+    Identity |< Iy |< aN      `adv`     {- dimuqorATiy~AF -}   [ "democratically" ] ]
 
  |> "dink.tA^s" <| [
 
@@ -9408,20 +9422,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- duwnAld -}          [ "Donald" ] ]
 
- |> "duwna" <| [
-
-    -- ;; duwna_1
-    -- dwn     duwna   FW-Wa   without;beneath;underneath     [[duwna/PREP]]
-    -- dwn     duwni   FW-Wa   without;beneath;underneath     [[duwni/PREP]]
-    -- bdwn    biduwni FW-Wa   without;beneath;underneath     [[biduwni/PREP]]
-    -- dwn     duwna   FW-Wa-a without;beneath;underneath     [[duwna/PREP]]
-    -- dwn     duwni   FW-Wa-i without;beneath;underneath     [[duwni/PREP]]
-    -- bdwn    biduwni FW-Wa-i without;beneath;underneath     [[biduwni/PREP]]
-    -- dwn     duwn    FW-Wa-o without;beneath;underneath     [[duwn/PREP]]
-    -- bdwn    biduwn  FW-Wa-o without;beneath;underneath     [[biduwn/PREP]]
-
-    Identity                  `noun`    {- duwna -}            [ "without", "beneath", "underneath" ] ]
-
  |> "duwrtmuwnd" <| [
 
     -- ;; duwrotmuwnod_1
@@ -9512,5 +9512,5 @@ lexicon = listing "Lexicon's properties"
     -- ;; yAduwb_1
     -- yAdwb   yAduwb  FW-Wa   almost;barely     [[yAduwb/ADV]]
 
-    Identity                  `noun`    {- yAduwb -}           [ "almost", "barely" ] ]
+    Identity                  `adv`     {- yAduwb -}           [ "almost", "barely" ] ]
 

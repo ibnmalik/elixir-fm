@@ -2993,6 +2993,35 @@ $Lexicon = {
   '.d m n' => [
     {
       'types' => {
+        '.dimni' => {
+          'FW-Wa' => 1,
+          'FW-Wa-i' => 1
+        }
+      },
+      'entry' => '.dimn',
+      'form' => '.dimna',
+      'lines' => [
+        ';; Dimona_1',
+        'Dmn     Dimona  FW-Wa   within;inside;among     [[Dimona/PREP]]',
+        'Dmn     Dimoni  FW-Wa   within;inside;among     [[Dimoni/PREP]]',
+        'Dmn     Dimona  FW-Wa-a within;inside;among     [[Dimona/PREP]]',
+        'Dmn     Dimoni  FW-Wa-i within;inside;among     [[Dimoni/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FiCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'within',
+        'inside',
+        'among'
+      ],
+      'orig' => 'Dimona',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '.dman' => {
           'IV-n' => 1
         }
@@ -3124,7 +3153,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -6342,7 +6371,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'HiFAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
@@ -6392,7 +6421,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MuFIL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -12225,37 +12254,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.dimna' => [
-    {
-      'types' => {
-        '.dimni' => {
-          'FW-Wa' => 1,
-          'FW-Wa-i' => 1
-        }
-      },
-      'entry' => '.dimna',
-      'form' => '.dimna',
-      'lines' => [
-        ';; Dimona_1',
-        'Dmn     Dimona  FW-Wa   within;inside;among     [[Dimona/PREP]]',
-        'Dmn     Dimoni  FW-Wa   within;inside;among     [[Dimoni/PREP]]',
-        'Dmn     Dimona  FW-Wa-a within;inside;among     [[Dimona/PREP]]',
-        'Dmn     Dimoni  FW-Wa-i within;inside;among     [[Dimoni/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'within',
-        'inside',
-        'among'
-      ],
-      'orig' => 'Dimona',
-      'prefix' => ''
-    }
-  ],
   '.d r w' => [
     {
       'types' => {
@@ -12516,7 +12514,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCAL',
       'suffix' => '',
       'glosses' => [
@@ -13143,6 +13141,35 @@ $Lexicon = {
     },
     {
       'types' => {
+        '.didd' => {
+          'FW-Wa-o' => 1
+        }
+      },
+      'entry' => '.didd',
+      'form' => '.didda',
+      'lines' => [
+        ';; Did~a_1',
+        'Dd      Did~a   FW-Wa   against     [[Did~a/PREP]]',
+        'Dd      Did~a   FW-Wa-a against     [[Did~a/PREP]]',
+        'Dd      Did~    FW-Wa-o against     [[Did~/PREP]]'
+      ],
+      'patterns' => {
+        '.didd' => [
+          'FiCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FiCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'against'
+      ],
+      'orig' => 'Did~a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '\'a.ddAd' => {
           'N' => 2
         }
@@ -13410,33 +13437,6 @@ $Lexicon = {
         'resentful'
       ],
       'orig' => 'DAgin',
-      'prefix' => ''
-    }
-  ],
-  '.didda' => [
-    {
-      'types' => {
-        '.didd' => {
-          'FW-Wa-o' => 1
-        }
-      },
-      'entry' => '.didda',
-      'form' => '.didda',
-      'lines' => [
-        ';; Did~a_1',
-        'Dd      Did~a   FW-Wa   against     [[Did~a/PREP]]',
-        'Dd      Did~a   FW-Wa-a against     [[Did~a/PREP]]',
-        'Dd      Did~    FW-Wa-o against     [[Did~/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'against'
-      ],
-      'orig' => 'Did~a',
       'prefix' => ''
     }
   ],

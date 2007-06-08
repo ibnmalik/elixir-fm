@@ -318,7 +318,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCL |< Iy |< aT          `noun`    {- Huj~iy~ap -}        [ "authority" ],
 
-    IFtiCAL                   `noun`    {- AiHotijAj -}        [ "protest", "protesting", "in protest (of)" ]
+    IFtiCAL                   `adv`     {- AiHotijAj -}        [ "protest", "protesting", "in protest (of)" ]
                               `plural`     IFtiCAL |< At,
 
     FACL                      `noun`    {- HAj~ -}             [ "Hajj" ],
@@ -515,7 +515,7 @@ lexicon = listing "Lexicon's properties"
 
     HaFaCL                    `verb`    {- OaHab~ -}           [ "love", "like" ],
 
-    FuCL                      `noun`    {- Hub~ -}             [ "love", "affection", "out of affection for", "for love of" ],
+    FuCL                      `adv`     {- Hub~ -}             [ "love", "affection", "out of affection for", "for love of" ],
 
     FaCL                      `noun`    {- Hab~ -}             [ "grain", "seed", "pill", "pills" ]
                               `plural`     FaCL |< At
@@ -1469,7 +1469,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Haq~ -}             [ "Haqq" ],
 
-    FaCL                      `noun`    {- Haq~ -}             [ "truth", "right", "against", "towards", "rights", "law", "really", "truly" ]
+    FaCL                      `prep`    {- Haq~ -}             [ "truth", "right", "against", "towards", "rights", "law", "really", "truly" ]
                               `plural`     FuCUL
                            {- `others`  [ ".huquwq N" ] -},
 
@@ -1528,7 +1528,7 @@ lexicon = listing "Lexicon's properties"
     FaCiL                     `verb`    {- HariS-a -}          [ "desire", "be eager" ]
                               `imperf`     FCaL,
 
-    FiCL                      `noun`    {- HiroS -}            [ "desire", "eagerness", "keenness", "out of concern for", "desirous of" ],
+    FiCL                      `adv`     {- HiroS -}            [ "desire", "eagerness", "keenness", "out of concern for", "desirous of" ],
 
     FaCIL                     `adj`     {- HariyS -}           [ "eager", "desirous" ] ]
 
@@ -1675,7 +1675,7 @@ lexicon = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- taHoriym -}         [ "prohibition", "ban" ]
                               `plural`     TaFCIL |< At,
 
-    IFtiCAL                   `noun`    {- AiHotirAm -}        [ "respect", "honoring", "out of respect for", "in honor of" ]
+    IFtiCAL                   `adv`     {- AiHotirAm -}        [ "respect", "honoring", "out of respect for", "in honor of" ]
                               `plural`     IFtiCAL |< At,
 
     MaFCUL                    `adj`     {- maHoruwm -}         [ "deprived" ],
@@ -1824,7 +1824,7 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCaL                   `verb`    {- AiHotasab -}        [ "take into consideration" ],
 
-    FaCL                      `noun`    {- Hasob -}            [ "reckoning", "calculation", "only" ],
+    FaCL                      `adv`     {- Hasob -}            [ "reckoning", "calculation", "only" ],
 
     FaCaL                     `noun`    {- Hasab -}            [ "according to", "depending on" ],
 
@@ -1845,7 +1845,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- muHAsabap -}        [ "accounting", "examination" ],
 
-    TaFaCCuL                  `noun`    {- taHas~ub -}         [ "expectation", "precaution", "in expectation of", "as a precaution" ]
+    TaFaCCuL                  `adv`     {- taHas~ub -}         [ "expectation", "precaution", "in expectation of", "as a precaution" ]
                               `plural`     TaFaCCuL |< At,
 
     IFtiCAL                   `noun`    {- AiHotisAb -}        [ "calculation", "examination" ]
@@ -1899,7 +1899,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCayL |< Iy              `adj`     {- Husayoniy~ -}       [ "Husseini" ],
 
-    FaCaL                     `noun`    {- Hasan -}            [ "good", "well" ]
+    FaCaL                     `adv`     {- Hasan -}            [ "good", "well" ]
                               `plural`     FiCAL
                            {- `others`  [ ".hisAn N" ] -},
 
@@ -1970,7 +1970,7 @@ lexicon = listing "Lexicon's properties"
 
     IFCaLL                    `verb`    {- AiHotaj~ -}         [ "protest" ],
 
-    IFCiLAL                   `noun`    {- AiHotijAj -}        [ "protest", "protesting", "in protest (of)" ]
+    IFCiLAL                   `adv`     {- AiHotijAj -}        [ "protest", "protesting", "in protest (of)" ]
                               `plural`     IFCiLAL |< At ]
 
  |> ".h t d" <| [
@@ -2006,7 +2006,7 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- taHat~am -}         [ "be incumbent", "be necessary" ],
 
-    FaCL                      `noun`    {- Hatom -}            [ "imposition", "necessity", "definitely" ],
+    FaCL                      `adv`     {- Hatom -}            [ "imposition", "necessity", "definitely" ],
 
     FaCL |< Iy                `adj`     {- Hatomiy~ -}         [ "definitive", "necessary" ],
 
@@ -2016,19 +2016,19 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h t t" <| [
 
-    FaCLY                     `noun`    {- Hat~aY -}           [ "until", "up to" ],
+    FaCLY                     `prep`    {- Hat~aY -}           [ "until", "up to" ],
 
-    FaCLY                     `noun`    {- Hat~aY -}           [ "in order to" ],
+    FaCLY                     `conj`    {- Hat~aY -}           [ "in order to" ],
 
-    FaCLY                     `noun`    {- Hat~aY -}           [ "even", "even though", "although" ] ]
+    FaCLY                     `adv`     {- Hat~aY -}           [ "even", "even though", "although" ] ]
 
  |> ".h t y" <| [
 
-    FaCCY                     `noun`    {- Hat~aY -}           [ "until", "up to" ],
+    FaCCY                     `prep`    {- Hat~aY -}           [ "until", "up to" ],
 
-    FaCCY                     `noun`    {- Hat~aY -}           [ "in order to" ],
+    FaCCY                     `conj`    {- Hat~aY -}           [ "in order to" ],
 
-    FaCCY                     `noun`    {- Hat~aY -}           [ "even", "even though", "although" ] ]
+    FaCCY                     `adv`     {- Hat~aY -}           [ "even", "even though", "although" ] ]
 
  |> ".h w '" <| [
 
@@ -2106,6 +2106,10 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h w l" <| [
 
+    FaCL |<< "a"              `prep`    {- Hawola -}           [ "about", "around" ]
+                              `plural`     FaCL
+                           {- `others`  [ ".hawl FW-Wa-o" ] -},
+
     FAL                       `verb`    {- HAl-u -}            [ "prevent" ]
                               `imperf`     FUL
                               `pfirst`     FuL,
@@ -2130,7 +2134,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL |< Iy                 `adj`     {- HAliy~ -}           [ "present", "current", "presently", "currently" ],
 
-    FaCALY                    `noun`    {- HawAlaY -}          [ "approximately", "around" ],
+    FaCALY                    `prep`    {- HawAlaY -}          [ "approximately", "around" ],
 
     TaFCIL                    `noun`    {- taHowiyl -}         [ "conversion", "transfer" ]
                               `plural`     TaFCIL |< At,
@@ -2292,6 +2296,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h y _t" <| [
 
+    FaCL |<< "u"              `conj`    {- Hayovu -}           [ "where", "whereby", "since", "given that" ],
+
     FaCL |< Iy |< aT          `noun`    {- Hayoviy~ap -}       [ "viewpoint", "opinion", "circumstances" ] ]
 
  |> ".h y d" <| [
@@ -2309,6 +2315,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h y l" <| [
 
+    FiCAL |<< "a"             `prep`    {- HiyAla -}           [ "concerning", "with regard to" ],
+
     IFtiCAL                   `noun`    {- AiHotiyAl -}        [ "fraud", "deception", "cheating" ]
                               `plural`     IFtiCAL |< At
                               `plural`     IFtiyAL |< At,
@@ -2324,11 +2332,13 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h y n" <| [
 
+    FIL |<< "a"               `prep`    {- Hiyna -}            [ "when" ],
+
     FAL                       `verb`    {- HAn-i -}            [ "arrive", "approach" ]
                               `imperf`     FIL
                               `pfirst`     FiL,
 
-    FIL                       `noun`    {- Hiyn -}             [ "time", "moment", "opportunity", "times", "opportunities", "sometimes", "occasionally" ]
+    FIL                       `adv`     {- Hiyn -}             [ "time", "moment", "opportunity", "times", "opportunities", "sometimes", "occasionally" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.hyAn N NF" ] -} ]
 
@@ -2362,6 +2372,8 @@ lexicon = listing "Lexicon's properties"
     TaFIL |< aT               `noun`    {- taHiy~ap -}         [ "greeting", "salute", "greetings", "salutations" ]
                               `plural`     TaFACY
                            {- `others`  [ "ta.hAyY N0" ] -},
+
+    FaCL |<< "a"              `noun`    {- Hay~a -}            [ "come!" ],
 
     MuFCI                     `noun`    {- muHoyiy -}          [ "Muhi" ],
 
@@ -2449,7 +2461,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".hAlamA" <| [
 
-    Identity                  `noun`    {- HAlamA -}           [ "as soon as" ] ]
+    Identity                  `conj`    {- HAlamA -}           [ "as soon as" ] ]
 
  |> ".halab^g" <| [
 
@@ -2471,25 +2483,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Hasanayon -}        [ "Hassanein" ] ]
 
- |> ".hawla" <| [
-
-    Identity                  `noun`    {- Hawola -}           [ "about", "around" ] ]
-
- |> ".hay_tu" <| [
-
-    Identity                  `noun`    {- Hayovu -}           [ "where", "whereby", "since", "given that" ] ]
-
  |> ".hay_tumA" <| [
 
-    Identity                  `noun`    {- HayovumA -}         [ "wherever" ] ]
+    Identity                  `conj`    {- HayovumA -}         [ "wherever" ] ]
 
  |> ".hayfA" <| [
 
     Identity                  `noun`    {- HayofA -}           [ "Haifa" ] ]
-
- |> ".hayya" <| [
-
-    Identity                  `noun`    {- Hay~a -}            [ "come!" ] ]
 
  |> ".haziyrAn" <| [
 
@@ -2499,21 +2499,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- HikomatoyAr -}      [ "Hikmatyar" ] ]
 
- |> ".hiyAla" <| [
-
-    Identity                  `noun`    {- HiyAla -}           [ "concerning", "with regard to" ] ]
-
- |> ".hiyna" <| [
-
-    Identity                  `noun`    {- Hiyna -}            [ "when" ] ]
-
  |> ".hiyna_dAk" <| [
 
-    Identity                  `noun`    {- Hiyna*Ak -}         [ "then", "at the time" ] ]
+    Identity                  `adv`     {- Hiyna*Ak -}         [ "then", "at the time" ] ]
 
  |> ".hiynamA" <| [
 
-    Identity                  `noun`    {- HiynamA -}          [ "when", "while" ] ]
+    Identity                  `conj`    {- HiynamA -}          [ "when", "while" ] ]
 
  |> ".hu^gaylAn" <| [
 

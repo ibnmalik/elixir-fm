@@ -9,13 +9,13 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
+ |> "'" <| [
+
+    Identity |<< "a"          `noun`    {- Oa -}               [ "A", "1st" ] ]
+
  |> "'Ay" <| [
 
     Identity                  `noun`    {- \|y -}              [ "A.", "I." ] ]
-
- |> "'a" <| [
-
-    Identity                  `noun`    {- Oa -}               [ "A", "1st" ] ]
 
  |> "'iyh" <| [
 
@@ -107,9 +107,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- v -}                [ "TH", "23rd" ] ]
 
- |> "bi" <| [
+ |> "b" <| [
 
-    Identity                  `noun`    {- bi -}               [ "with", "by", "B", "2nd", "P" ] ]
+    Identity |<< "i"          `prep`    {- bi -}               [ "with", "by", "B", "2nd", "P" ] ]
 
  |> "d" <| [
 
@@ -119,21 +119,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dabiloyuw -}        [ "W." ] ]
 
- |> "fa" <| [
+ |> "f" <| [
 
-    Identity                  `noun`    {- fa -}               [ "and", "so", "F", "17th", "(fils)" ] ]
+    Identity |<< "a"          `conj`    {- fa -}               [ "and", "so", "F", "17th", "(fils)" ] ]
 
  |> "h" <| [
 
     Identity                  `noun`    {- h -}                [ "H", "(Hijrah)", "5th" ] ]
 
- |> "ka" <| [
+ |> "k" <| [
 
-    Identity                  `noun`    {- ka -}               [ "as", "like", "K", "11th", "(kilo-)" ] ]
+    Identity |<< "a"          `prep`    {- ka -}               [ "as", "like", "K", "11th", "(kilo-)" ] ]
 
- |> "li" <| [
+ |> "l" <| [
 
-    Identity                  `noun`    {- li -}               [ "for", "to", "L", "12th", "(pounds/lira)" ] ]
+    Identity |<< "i"          `prep`    {- li -}               [ "for", "to", "L", "12th", "(pounds/lira)" ] ]
 
  |> "m" <| [
 
@@ -163,9 +163,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tg -}               [ "G.M.T." ] ]
 
- |> "wa" <| [
+ |> "w" <| [
 
-    Identity                  `noun`    {- wa -}               [ "and", "W", "6th" ] ]
+    Identity |<< "a"          `conj`    {- wa -}               [ "and", "W", "6th" ] ]
 
  |> "y" <| [
 

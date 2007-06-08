@@ -244,11 +244,11 @@ lexicon = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- jid~ -}             [ "seriousness", "earnestness" ],
 
-    FiCL |< aN                `noun`    {- jid~AF -}           [ "very", "much" ],
+    FiCL |< aN                `adv`     {- jid~AF -}           [ "very", "much" ],
 
     FiCL |< Iy                `adj`     {- jid~iy~ -}          [ "serious", "earnest" ],
 
-    FiCL |< Iy |< aN          `adj`     {- jid~iy~AF -}        [ "seriously", "in earnest" ],
+    FiCL |< Iy |< aN          `adv`     {- jid~iy~AF -}        [ "seriously", "in earnest" ],
 
     FiCL |< Iy |< aT          `noun`    {- jid~iy~ap -}        [ "seriousness", "earnestness" ],
 
@@ -271,7 +271,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL                  `adj`     {- mujad~ad -}         [ "renewed", "renovated" ],
 
-    MuFaCCaL |< aN            `noun`    {- mujad~adAF -}       [ "again", "once more", "anew" ]
+    MuFaCCaL |< aN            `adv`     {- mujad~adAF -}       [ "again", "once more", "anew" ]
                               `plural`     MuFaCCaL
                            {- `others`  [ "mu^gaddad NF" ] -},
 
@@ -434,7 +434,7 @@ lexicon = listing "Lexicon's properties"
 
     FACaL                     `verb`    {- jAhar -}            [ "confess", "express" ],
 
-    FaCL                      `noun`    {- jahor -}            [ "notoriety", "publicly", "openly" ] ]
+    FaCL                      `adv`     {- jahor -}            [ "notoriety", "publicly", "openly" ] ]
 
  |> "^g h z" <| [
 
@@ -581,7 +581,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- jaliy~ -}           [ "clear", "obvious" ],
 
-    FaCIL |< aN               `noun`    {- jaliy~AF -}         [ "obviously", "evidently" ]
+    FaCIL |< aN               `adv`     {- jaliy~AF -}         [ "obviously", "evidently" ]
                               `plural`     FaCIL
                            {- `others`  [ "^galiyy NF" ] -},
 
@@ -622,7 +622,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< Iy |< aT          `noun`    {- jamoEiy~ap -}       [ "association", "society" ],
 
-    FaCIL                     `noun`    {- jamiyE -}           [ "all of", "every one of", "everyone", "all", "entirely", "together" ],
+    FaCIL                     `adv`     {- jamiyE -}           [ "all of", "every one of", "everyone", "all", "entirely", "together" ],
 
     HaFCaL                    `noun`    {- OajomaE -}          [ "entire", "whole" ]
                               `plural`     FaCLA'
@@ -758,7 +758,7 @@ lexicon = listing "Lexicon's properties"
     HiFCAL                    `noun`    {- IijomAl -}          [ "summation", "in general" ]
                               `plural`     HiFCAL |< At,
 
-    HiFCAL |< aN              `noun`    {- IijomAlAF -}        [ "in general", "on the whole" ]
+    HiFCAL |< aN              `adv`     {- IijomAlAF -}        [ "in general", "on the whole" ]
                               `plural`     HiFCAL
                            {- `others`  [ "'i^gmAl NF" ] -},
 
@@ -816,6 +816,10 @@ lexicon = listing "Lexicon's properties"
     FaCCaL                    `verb`    {- jan~ab -}           [ "help avoid", "shield from" ],
 
     TaFaCCaL                  `verb`    {- tajan~ab -}         [ "avoid" ],
+
+    FaCL |<< "a"              `prep`    {- janoba -}           [ "next to" ]
+                              `plural`     FaCL
+                           {- `others`  [ "^ganb FW-Wa-o" ] -},
 
     FaCL                      `noun`    {- janob -}            [ "side", "sides" ]
                               `plural`     HaFCAL
@@ -1039,7 +1043,7 @@ lexicon = listing "Lexicon's properties"
     TaFaCCuL                  `noun`    {- tajar~ud -}         [ "freedom", "abstraction" ]
                               `plural`     TaFaCCuL |< At,
 
-    MuFaCCaL                  `noun`    {- mujar~ad -}         [ "nothing but", "mere", "for no reason except", "for the sole reason" ],
+    MuFaCCaL                  `adv`     {- mujar~ad -}         [ "nothing but", "mere", "for no reason except", "for the sole reason" ],
 
     MuFaCCaL                  `noun`    {- mujar~ad -}         [ "bare", "pure" ] ]
 
@@ -1201,7 +1205,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "^g w `" <| [
 
-    FUL                       `noun`    {- juwE -}             [ "hunger", "starvation", "of hunger", "of starvation" ],
+    FUL                       `adv`     {- juwE -}             [ "hunger", "starvation", "of hunger", "of starvation" ],
 
     FA'iL                     `noun`    {- jA}iE -}            [ "hungry", "starving" ],
 
@@ -1351,7 +1355,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "^g w w" <| [
 
-    FaCL                      `noun`    {- jaw~ -}             [ "air (military)", "climate", "atmosphere", "by air", "air" ]
+    FaCL                      `adv`     {- jaw~ -}             [ "air (military)", "climate", "atmosphere", "by air", "air" ]
                               `plural`     FiCA'
                               `plural`     HaFCA'
                            {- `others`  [ "^giwA' Nh N0_Nh Nhy", "'a^gwA' Nh N0_Nh Nhy" ] -},
@@ -1524,7 +1528,7 @@ lexicon = listing "Lexicon's properties"
 
     FACaL                     `verb`    {- jAzaf -}            [ "act randomly", "speculate" ],
 
-    FuCAL |< aN               `noun`    {- juzAfAF -}          [ "randomly" ]
+    FuCAL |< aN               `adv`     {- juzAfAF -}          [ "randomly" ]
                               `plural`     FuCAL
                            {- `others`  [ "^guzAf NF" ] -},
 
@@ -1604,10 +1608,6 @@ lexicon = listing "Lexicon's properties"
  |> "^gamAykA" <| [
 
     Identity                  `noun`    {- jamAyokA -}         [ "Jamaica" ] ]
-
- |> "^ganba" <| [
-
-    Identity                  `noun`    {- janoba -}           [ "next to" ] ]
 
  |> "^ganuwA" <| [
 

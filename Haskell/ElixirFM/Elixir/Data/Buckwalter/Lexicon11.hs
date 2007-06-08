@@ -28,9 +28,9 @@ lexicon = listing "Lexicon's properties"
     -- mA|zAl  mA>azAl FW-Wa   not + stop/cease + I (I continue)                        [[mA/NEG_PART+>a/IV1S+zAl/VERB_IMPERFECT]]
     -- mAnzAl  mAnazAl FW-Wa   not + stop/cease + we (we continue)                      [[mA/NEG_PART+na/IV1P+zAl/VERB_IMPERFECT]]
 
-    Identity                  `noun`    {- mAyazAl -}          [ "not + stop/cease + he/it (he/it continues)", "not + stop/cease + they [masc.du.] (they both continue)", "not + stop/cease + they (they continue)", "not + stop/cease + it/she/they (it/she/they continue(s))", "not + stop/cease + they [fem.du.] (they both continue)", "not + stop/cease + they [fem.] (they continue)", "not + stop/cease + you [masc.sg.] (you continue)", "not + stop/cease + you [du.] (you both continue)", "not + stop/cease + you [masc.pl.] (you continue)", "not + stop/cease + you [fem.sg.] (you continue)", "not + stop/cease + you [fem.pl.] (you continue)", "not + stop/cease + I (I continue)", "not + stop/cease + we (we continue)" ] ]
+    Identity                  `part`    {- mAyazAl -}          [ "not + stop/cease + he/it (he/it continues)", "not + stop/cease + they [masc.du.] (they both continue)", "not + stop/cease + they (they continue)", "not + stop/cease + it/she/they (it/she/they continue(s))", "not + stop/cease + they [fem.du.] (they both continue)", "not + stop/cease + they [fem.] (they continue)", "not + stop/cease + you [masc.sg.] (you continue)", "not + stop/cease + you [du.] (you both continue)", "not + stop/cease + you [masc.pl.] (you continue)", "not + stop/cease + you [fem.sg.] (you continue)", "not + stop/cease + you [fem.pl.] (you continue)", "not + stop/cease + I (I continue)", "not + stop/cease + we (we continue)" ] ]
 
- |> "mAzAla" <| [
+ |> "mAzAl" <| [
 
     -- ;; mAzAla_1
     -- mAzAl   mAzAla  FW-Wa   not + stop/cease + he/it (he/it continues)                [[mA/NEG_PART+zAl/VERB_PERFECT+a/PVSUFF_SUBJ:3MS]]
@@ -47,7 +47,7 @@ lexicon = listing "Lexicon's properties"
     -- mAzlt   mAzilotu        FW-Wa   not + stop/cease + I (I continue)                         [[mA/NEG_PART+zil/VERB_PERFECT+tu/PVSUFF_SUBJ:1S]]
     -- mAzlnA  mAzilonA        FW-Wa   not + stop/cease + we (we continue)                       [[mA/NEG_PART+zil/VERB_PERFECT+nA/PVSUFF_SUBJ:1P]]
 
-    Identity                  `noun`    {- mAzAla -}           [ "not + stop/cease + he/it (he/it continues)", "not + stop/cease + they (they both continue)", "not + stop/cease + they (they continue)", "not + stop/cease + it/she/they (it/she/they continue(s))", "not + stop/cease + you (you continue)", "not + stop/cease + you (you both continue)", "not + stop/cease + I (I continue)", "not + stop/cease + we (we continue)" ] ]
+    Identity |<< "a"          `part`    {- mAzAla -}           [ "not + stop/cease + he/it (he/it continues)", "not + stop/cease + they (they both continue)", "not + stop/cease + they (they continue)", "not + stop/cease + it/she/they (it/she/they continue(s))", "not + stop/cease + you (you continue)", "not + stop/cease + you (you both continue)", "not + stop/cease + I (I continue)", "not + stop/cease + we (we continue)" ] ]
 
  |> "mazra`An" <| [
 
@@ -75,7 +75,7 @@ lexicon = listing "Lexicon's properties"
     -- lA|zAl  lA>azAl FW-Wa   not + stop/cease + I (I continue)                        [[lA/NEG_PART+>a/IV1S+zAl/VERB_IMPERFECT]]
     -- lAnzAl  lAnazAl FW-Wa   not + stop/cease + we (we continue)                      [[lA/NEG_PART+na/IV1P+zAl/VERB_IMPERFECT]]
 
-    lA >| Identity            `noun`    {- lAyazAl -}          [ "not + stop/cease + he/it (he/it continues)", "not + stop/cease + they [masc.du.] (they both continue)", "not + stop/cease + they (they continue)", "not + stop/cease + it/she/they (it/she/they continue(s))", "not + stop/cease + they [fem.du.] (they both continue)", "not + stop/cease + they [fem.] (they continue)", "not + stop/cease + you [masc.sg.] (you continue)", "not + stop/cease + you [du.] (you both continue)", "not + stop/cease + you [masc.pl.] (you continue)", "not + stop/cease + you [fem.sg.] (you continue)", "not + stop/cease + you [fem.pl.] (you continue)", "not + stop/cease + I (I continue)", "not + stop/cease + we (we continue)" ] ]
+    lA >| Identity            `part`    {- lAyazAl -}          [ "not + stop/cease + he/it (he/it continues)", "not + stop/cease + they [masc.du.] (they both continue)", "not + stop/cease + they (they continue)", "not + stop/cease + it/she/they (it/she/they continue(s))", "not + stop/cease + they [fem.du.] (they both continue)", "not + stop/cease + they [fem.] (they continue)", "not + stop/cease + you [masc.sg.] (you continue)", "not + stop/cease + you [du.] (you both continue)", "not + stop/cease + you [masc.pl.] (you continue)", "not + stop/cease + you [fem.sg.] (you continue)", "not + stop/cease + you [fem.pl.] (you continue)", "not + stop/cease + I (I continue)", "not + stop/cease + we (we continue)" ] ]
 
  |> "z  '" <| [
 
@@ -1659,7 +1659,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; zaf~apF_1
     -- zfp     zaf~apF FW-Wa   once;one time     [[zaf~apF/ADV]]
 
-    FaCL |< aT |< aN          `noun`    {- zaf~apF -}          [ "once", "one time" ],
+    FaCL |< aT |< aN          `adv`     {- zaf~apF -}          [ "once", "one time" ],
 
     -- ;; zifAf_1
     -- zfAf    zifAf   N       wedding
@@ -1809,6 +1809,12 @@ lexicon = listing "Lexicon's properties"
     -- zhA}    zuhA}   Nhy     amount;number
 
     FuCAL                     `noun`    {- zuhA' -}            [ "amount", "number" ],
+
+    -- ;; zuhA'a_1
+    -- zhA'    zuhA'a  FW-WaBi roughly;approximately     [[zuhA'a/PREP]]
+    -- zhA'    zuhA'a  FW-Wa-a roughly;approximately     [[zuhA'a/PREP]]
+
+    FuCAL |<< "a"             `prep`    {- zuhA'a -}           [ "roughly", "approximately" ],
 
     -- ;; <izohA'_1
     -- <zhA'   <izohA' N0_Nh   prosperity;flourishing;splendor
@@ -2220,6 +2226,12 @@ lexicon = listing "Lexicon's properties"
     -- zhA}    zuhA}   Nhy     amount;number
 
     FuCA'                     `noun`    {- zuhA' -}            [ "amount", "number" ],
+
+    -- ;; zuhA'a_1
+    -- zhA'    zuhA'a  FW-WaBi roughly;approximately     [[zuhA'a/PREP]]
+    -- zhA'    zuhA'a  FW-Wa-a roughly;approximately     [[zuhA'a/PREP]]
+
+    FuCA' |<< "a"             `prep`    {- zuhA'a -}           [ "roughly", "approximately" ],
 
     -- ;; >azohaY_2
     -- >zhY    >azohaY N0      more/most splendid;more/most conceited
@@ -3094,7 +3106,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; zamanAF_1
     -- zmn     zaman   NF      for some time;for a while     [[zaman/ADV]]
 
-    FaCaL |< aN               `noun`    {- zamanAF -}          [ "for some time", "for a while" ]
+    FaCaL |< aN               `adv`     {- zamanAF -}          [ "for some time", "for a while" ]
                               `plural`     FaCaL
                            {- `others`  [ "zaman NF" ] -},
 
@@ -4719,7 +4731,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; zawAlAF_1
     -- zwAl    zawAl   NF      at noontime     [[zawAl/ADV]]
 
-    FaCAL |< aN               `noun`    {- zawAlAF -}          [ "at noontime" ]
+    FaCAL |< aN               `adv`     {- zawAlAF -}          [ "at noontime" ]
                               `plural`     FaCAL
                            {- `others`  [ "zawAl NF" ] -},
 
@@ -5956,14 +5968,6 @@ lexicon = listing "Lexicon's properties"
     -- zgT     zuguT~  NapAt   hiccup
 
     Identity |< aT            `noun`    {- zuguT~ap -}         [ "hiccup" ] ]
-
- |> "zuhA'a" <| [
-
-    -- ;; zuhA'a_1
-    -- zhA'    zuhA'a  FW-WaBi roughly;approximately     [[zuhA'a/PREP]]
-    -- zhA'    zuhA'a  FW-Wa-a roughly;approximately     [[zuhA'a/PREP]]
-
-    Identity                  `noun`    {- zuhA'a -}           [ "roughly", "approximately" ] ]
 
  |> "zuhdiy" <| [
 

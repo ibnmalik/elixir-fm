@@ -287,7 +287,7 @@ lexicon = listing "Lexicon's properties"
     -- gDb     gaDab   N       anger;wrath
     -- gDb     gaDab   NF      in anger;angrily     [[gaDab/ADV]]
 
-    FaCaL                     `noun`    {- gaDab -}            [ "anger", "wrath", "in anger", "angrily" ],
+    FaCaL                     `adv`     {- gaDab -}            [ "anger", "wrath", "in anger", "angrily" ],
 
     -- ;; gaDib_1
     -- gDb     gaDib   N-ap    irate;furious     [[gaDib/ADJ]]
@@ -583,7 +583,7 @@ lexicon = listing "Lexicon's properties"
     -- gSb     gaSob   N       extortion;coercion;usurpation
     -- gSb     gaSob   NF      forcibly;by force     [[gaSob/ADV]]
 
-    FaCL                      `noun`    {- gaSob -}            [ "extortion", "coercion", "usurpation", "forcibly", "by force" ],
+    FaCL                      `adv`     {- gaSob -}            [ "extortion", "coercion", "usurpation", "forcibly", "by force" ],
 
     -- ;; {igotiSAb_1
     -- <gtSAb  {igotiSAb       N/At    rape;usurpation
@@ -1704,10 +1704,16 @@ lexicon = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- gib~ -}             [ "consequence", "outcome" ],
 
+    -- ;; gib~a_1
+    -- gb      gib~a   FW-Wa   after     [[gib~a/PREP]]
+    -- gb      gib~a   FW-Wa-a after     [[gib~a/PREP]]
+
+    FiCL |<< "a"              `prep`    {- gib~a -}            [ "after" ],
+
     -- ;; gib~AF_1
     -- gb      gib~    NF      intermittently;alternately     [[gib~/ADV]]
 
-    FiCL |< aN                `noun`    {- gib~AF -}           [ "intermittently", "alternately" ]
+    FiCL |< aN                `adv`     {- gib~AF -}           [ "intermittently", "alternately" ]
                               `plural`     FiCL
                            {- `others`  [ ".gibb NF" ] -},
 
@@ -2000,7 +2006,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; gadAF_1
     -- gdA     gadAF   FW-WaBi tomorrow     [[gadAF/ADV]]
 
-    FaL |< aN                 `noun`    {- gadAF -}            [ "tomorrow" ],
+    FaL |< aN                 `adv`     {- gadAF -}            [ "tomorrow" ],
 
     -- ;; gad_1
     -- gd      gad     N       tomorrow
@@ -2096,7 +2102,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; gadorAF_1
     -- gdr     gador   NF      perfidiously;treacherously     [[gador/ADV]]
 
-    FaCL |< aN                `noun`    {- gadorAF -}          [ "perfidiously", "treacherously" ]
+    FaCL |< aN                `adv`     {- gadorAF -}          [ "perfidiously", "treacherously" ]
                               `plural`     FaCL
                            {- `others`  [ ".gadr NF" ] -},
 
@@ -2209,7 +2215,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; gadAF_1
     -- gdA     gadAF   FW-WaBi tomorrow     [[gadAF/ADV]]
 
-    FaC |< aN                 `noun`    {- gadAF -}            [ "tomorrow" ],
+    FaC |< aN                 `adv`     {- gadAF -}            [ "tomorrow" ],
 
     -- ;; gad_1
     -- gd      gad     N       tomorrow
@@ -5064,7 +5070,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; garobAF_1
     -- grb     garob   NF      westward;in the West     [[garob/ADV]]
 
-    FaCL |< aN                `noun`    {- garobAF -}          [ "westward", "in the West" ]
+    FaCL |< aN                `adv`     {- garobAF -}          [ "westward", "in the West" ]
                               `plural`     FaCL
                            {- `others`  [ ".garb NF" ] -},
 
@@ -5723,7 +5729,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; girArAF_1
     -- grAr    girAr   NF      hastily     [[girAr/ADV]]
 
-    FiCAL |< aN               `noun`    {- girArAF -}          [ "hastily" ]
+    FiCAL |< aN               `adv`     {- girArAF -}          [ "hastily" ]
                               `plural`     FiCAL
                            {- `others`  [ ".girAr NF" ] -},
 
@@ -6126,7 +6132,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; gariyziy~AF_1
     -- gryzy   gariyziy~       NF      instinctively     [[gariyziy~/ADV]]
 
-    FaCIL |< Iy |< aN         `adj`     {- gariyziy~AF -}      [ "instinctively" ],
+    FaCIL |< Iy |< aN         `adv`     {- gariyziy~AF -}      [ "instinctively" ],
 
     -- ;; magoraz_1
     -- mgrz    magoraz Ndu     prank;practical joke
@@ -7616,7 +7622,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; gayor_1
     -- gyr     gayor   N       not;other     [[gayor/NEG_PART]]
 
-    FaCL                      `noun`    {- gayor -}            [ "not", "other" ],
+    FaCL                      `part`    {- gayor -}            [ "not", "other" ],
 
     -- ;; gay~ar_1
     -- gyr     gay~ar  PV      change;modify
@@ -7757,7 +7763,7 @@ lexicon = listing "Lexicon's properties"
     -- gAy     gAy     Nap     utmost;extreme
     -- llgAyp  lilogAyap       FW-Wa   extremely;greatly   [[lilogAyap/ADV]]
 
-    FAL |< aT                 `noun`    {- gAyap -}            [ "utmost", "extreme", "extremely", "greatly" ] ]
+    FAL |< aT                 `adv`     {- gAyap -}            [ "utmost", "extreme", "extremely", "greatly" ] ]
 
  |> ".g y z" <| [
 
@@ -8302,14 +8308,6 @@ lexicon = listing "Lexicon's properties"
     -- gTym    giTayom N-ap    huge;vast
 
     Identity                  `noun`    {- giTayom -}          [ "huge", "vast" ] ]
-
- |> ".gibba" <| [
-
-    -- ;; gib~a_1
-    -- gb      gib~a   FW-Wa   after     [[gib~a/PREP]]
-    -- gb      gib~a   FW-Wa-a after     [[gib~a/PREP]]
-
-    Identity                  `noun`    {- gib~a -}            [ "after" ] ]
 
  |> ".giymArAyi^s" <| [
 

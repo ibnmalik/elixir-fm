@@ -231,6 +231,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- ragom -}            [ "in spite of", "despite" ],
 
+    FaCL |<< "a"              `prep`    {- ragoma -}           [ "in spite of", "despite" ],
+
     FaCAL                     `noun`    {- ragAm -}            [ "dust and sand" ],
 
     HiFCAL                    `noun`    {- IirogAm -}          [ "compulsion" ]
@@ -246,7 +248,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCCaL                    `verb`    {- raH~ab -}           [ "welcome", "receive" ],
 
-    MaFCaL |< aN              `noun`    {- maroHabAF -}        [ "welcome!", "hello!" ]
+    MaFCaL |< aN              `adv`     {- maroHabAF -}        [ "welcome!", "hello!" ]
                               `plural`     MaFCaL
                            {- `others`  [ "mar.hab NF" ] -},
 
@@ -913,7 +915,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- rad~ -}             [ "return", "repulsion" ],
 
-    FaCL |< aN                `noun`    {- rad~AF -}           [ "in reply to", "in answer to" ]
+    FaCL |< aN                `adv`     {- rad~AF -}           [ "in reply to", "in answer to" ]
                               `plural`     FaCL
                            {- `others`  [ "radd NF" ] -},
 
@@ -1145,6 +1147,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCUL |< At,
 
     FaCIL                     `noun`    {- rahiyn -}           [ "mortgaged", "security", "mortgage" ],
+
+    FaCIL |<< "a"             `prep`    {- rahiyna -}          [ "subject to", "depending on" ],
 
     FaCIL |< aT               `noun`    {- rahiynap -}         [ "hostage", "hostages" ],
 
@@ -1602,7 +1606,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- rasomiy~ -}         [ "official" ],
 
-    FaCL |< Iy |< aN          `adj`     {- rasomiy~AF -}       [ "officially" ],
+    FaCL |< Iy |< aN          `adv`     {- rasomiy~AF -}       [ "officially" ],
 
     FaCCAL                    `noun`    {- ras~Am -}           [ "Ressam", "Rassam" ],
 
@@ -2154,10 +2158,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy |< aT      `noun`    {- raOosmAliy~ap -}    [ "capitalism" ] ]
 
- |> "ra.gma" <| [
-
-    Identity                  `noun`    {- ragoma -}           [ "in spite of", "despite" ] ]
-
  |> "ra.hm_an" <| [
 
     Identity                  `noun`    {- raHom`n -}          [ "Rahman" ],
@@ -2168,13 +2168,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- rafosanojAniy~ -}   [ "Rafsanjani" ] ]
 
- |> "rahiyna" <| [
-
-    Identity                  `noun`    {- rahiyna -}          [ "subject to", "depending on" ] ]
-
  |> "ray_tamA" <| [
 
-    Identity                  `noun`    {- rayovamA -}         [ "as long as", "until" ] ]
+    Identity                  `conj`    {- rayovamA -}         [ "as long as", "until" ] ]
 
  |> "ri.dA" <| [
 
@@ -2206,7 +2202,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "rubbamA" <| [
 
-    Identity                  `noun`    {- rub~amA -}          [ "perhaps", "maybe" ] ]
+    Identity                  `part`    {- rub~amA -}          [ "perhaps", "maybe" ] ]
 
  |> "ruwAndA" <| [
 
@@ -2326,5 +2322,5 @@ lexicon = listing "Lexicon's properties"
 
  |> "yAturY" <| [
 
-    Identity                  `noun`    {- yAturaY -}          [ "perhaps", "maybe" ] ]
+    Identity                  `adv`     {- yAturaY -}          [ "perhaps", "maybe" ] ]
 

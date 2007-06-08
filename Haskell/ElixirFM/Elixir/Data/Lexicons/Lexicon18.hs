@@ -11,7 +11,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "'u`^guwb" <| [
 
-    Identity |< aT            `noun`    {- OuEojuwbap -}       [ "miracle", "miraculously" ],
+    Identity |< aT            `prep`    {- OuEojuwbap -}       [ "miracle", "miraculously" ],
 
     Identity |< aT            `noun`    {- OuEojuwbap -}       [ "marvel", "wonder", "marvels", "wonders" ] ]
 
@@ -626,7 +626,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- Eabav -}            [ "play", "jest", "frivolity" ],
 
-    FaCaL |< aN               `noun`    {- EabavAF -}          [ "unnecessarily", "futile" ]
+    FaCaL |< aN               `adv`     {- EabavAF -}          [ "unnecessarily", "futile" ]
                               `plural`     FaCaL
                            {- `others`  [ "`aba_t NF" ] -} ]
 
@@ -663,6 +663,8 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`    {- EAbid -}            [ "Abid" ] ]
 
  |> "` b r" <| [
+
+    FaCL |<< "a"              `prep`    {- Eabora -}           [ "across", "over", "via", "be means of" ],
 
     FaCaL                     `verb`    {- Eabar-u -}          [ "cross", "traverse" ]
                               `imperf`     FCuL,
@@ -703,7 +705,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCiL                  `adj`     {- muEab~ir -}         [ "expressing" ],
 
-    MuFtaCiL                  `noun`    {- muEotabir -}        [ "considering", "regarding" ],
+    MuFtaCiL                  `adv`     {- muEotabir -}        [ "considering", "regarding" ],
 
     MuFtaCaL                  `adj`     {- muEotabar -}        [ "considered", "regarded", "considerable" ] ]
 
@@ -900,7 +902,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "` d w" <| [
 
-    FaCA                      `noun`    {- EadA -}             [ "except for" ],
+    FaCA                      `prep`    {- EadA -}             [ "except for" ],
 
     FaCA                      `verb`    {- EadA-u -}           [ "attack", "assail", "be attacked", "be assailed" ]
                               `imperf`     FCU,
@@ -1157,6 +1159,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "` l l" <| [
 
+    FaCL |<< "a"              `part`    {- Eal~a -}            [ "perhaps" ],
+
     FaCCaL                    `verb`    {- Eal~al -}           [ "explain", "justify" ],
 
     TaFCIL                    `noun`    {- taEoliyl -}         [ "explanation", "justification" ]
@@ -1176,7 +1180,7 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- taEal~am -}         [ "study", "learn" ],
 
-    FiCL                      `noun`    {- Eilom -}            [ "knowledge", "knowing", "in view of the fact (that)", "with the knowledge (that)" ],
+    FiCL                      `adv`     {- Eilom -}            [ "knowledge", "knowing", "in view of the fact (that)", "with the knowledge (that)" ],
 
     FiCL                      `noun`    {- Eilom -}            [ "science", "study of", "sciences" ]
                               `plural`     FuCUL
@@ -1251,11 +1255,11 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `verb`    {- OaEolan -}          [ "announce", "declare", "be announced", "be declared" ],
 
-    FaCaL                     `noun`    {- Ealan -}            [ "in public", "openly", "publicly" ],
+    FaCaL                     `adv`     {- Ealan -}            [ "in public", "openly", "publicly" ],
 
     FaCaL |< Iy               `adj`     {- Ealaniy~ -}         [ "public" ],
 
-    FaCAL |< Iy |< aT         `noun`    {- EalAniy~ap -}       [ "openness", "public", "openly", "publicly" ],
+    FaCAL |< Iy |< aT         `adv`     {- EalAniy~ap -}       [ "openness", "public", "openly", "publicly" ],
 
     HiFCAL                    `noun`    {- IiEolAn -}          [ "declaration", "statement", "announcement", "declarations", "statements", "announcements", "advertisements", "signs", "billboards" ]
                               `plural`     HiFCAL |< At,
@@ -1320,7 +1324,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCUL                     `noun`    {- Euluw~ -}           [ "height", "elevation" ],
 
-    FaCY                      `noun`    {- EalaY -}            [ "on", "above" ],
+    FaCY                      `prep`    {- EalaY -}            [ "on", "above" ],
 
     FaC |<< "awIy"            `adj`     {- Ealawiy~ -}         [ "Alawite" ],
 
@@ -1366,7 +1370,7 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCaL                   `verb`    {- AiEotamad -}        [ "employ", "adopt", "recognize", "be employed", "be adopted", "be recognized" ],
 
-    FaCL                      `noun`    {- Eamod -}            [ "intent", "deliberately", "voluntarily" ],
+    FaCL                      `adv`     {- Eamod -}            [ "intent", "deliberately", "voluntarily" ],
 
     FuCL |< aT                `noun`    {- Eumodap -}          [ "umda (village chief)", "umdas (village chiefs)" ]
                               `plural`     FuCaL
@@ -1399,7 +1403,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCUL |< Iy               `adj`     {- Eamuwdiy~ -}        [ "vertical", "columnar" ],
 
-    TaFaCCuL                  `noun`    {- taEam~ud -}         [ "intention", "premeditation", "intentionally", "premeditated" ]
+    TaFaCCuL                  `adv`     {- taEam~ud -}         [ "intention", "premeditation", "intentionally", "premeditated" ]
                               `plural`     TaFaCCuL |< At,
 
     IFtiCAL                   `noun`    {- AiEotimAd -}        [ "reliance", "dependence", "recognition" ],
@@ -1502,7 +1506,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCUL
                            {- `others`  [ "`umuwm N" ] -},
 
-    FuCUL                     `noun`    {- Eumuwm -}           [ "generality", "totality", "in general", "generally" ],
+    FuCUL                     `adv`     {- Eumuwm -}           [ "generality", "totality", "in general", "generally" ],
 
     FuCUL |< Iy               `adj`     {- Eumuwmiy~ -}        [ "general", "public", "common" ],
 
@@ -1513,7 +1517,7 @@ lexicon = listing "Lexicon's properties"
 
     FACL                      `adj`     {- EAm~ -}             [ "general", "common", "public" ],
 
-    FACL |< aT                `noun`    {- EAm~ap -}           [ "general public", "populace", "in general", "generally" ] ]
+    FACL |< aT                `adv`     {- EAm~ap -}           [ "general public", "populace", "in general", "generally" ] ]
 
  |> "` m n" <| [
 
@@ -1523,7 +1527,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCAL |< Iy               `adj`     {- EumAniy~ -}         [ "Omani" ],
 
-    FaCCaL                    `noun`    {- Eam~an -}           [ "from/about whom" ] ]
+    FaCCaL                    `part`    {- Eam~an -}           [ "from/about whom" ] ]
 
  |> "` m q" <| [
 
@@ -1655,6 +1659,10 @@ lexicon = listing "Lexicon's properties"
 
  |> "` n d" <| [
 
+    FiCL |<< "a"              `prep`    {- Einoda -}           [ "with/at" ]
+                              `plural`     FiCL
+                           {- `others`  [ "`ind FW-Wa-o" ] -},
+
     FaCiL                     `verb`    {- Eanid-a -}          [ "be stubborn" ]
                               `imperf`     FCaL,
 
@@ -1676,7 +1684,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "` n n" <| [
 
-    FaL                       `noun`    {- Ean -}              [ "from/about" ],
+    FaL                       `prep`    {- Ean -}              [ "from/about" ],
 
     FaCL                      `verb`    {- Ean~-iu -}          [ "come to mind", "occur" ]
                               `imperf`     FiCL
@@ -1721,7 +1729,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "` n y" <| [
 
-    FaC                       `noun`    {- Ean -}              [ "from/about" ],
+    FaC                       `prep`    {- Ean -}              [ "from/about" ],
 
     FaCY                      `verb`    {- EanaY-i -}          [ "mean", "signify", "concern", "be meant", "be signified" ]
                               `imperf`     FCI,
@@ -1771,6 +1779,8 @@ lexicon = listing "Lexicon's properties"
     TaFaCCaL                  `verb`    {- taEaq~ab -}         [ "follow", "track down" ],
 
     TaFACaL                   `verb`    {- taEAqab -}          [ "follow consecutively", "alternate" ],
+
+    FaCiL |<< "a"             `prep`    {- Eaqiba -}           [ "following", "subsequent to" ],
 
     FuCL                      `noun`    {- Euqob -}            [ "consequence", "aftermath", "heels" ]
                               `plural`     HaFCAL
@@ -2344,6 +2354,8 @@ lexicon = listing "Lexicon's properties"
 
     FiCaL                     `noun`    {- EiwaD -}            [ "substitute" ],
 
+    FiCaL |<< "a"             `prep`    {- EiwaDa -}           [ "in lieu of", "in exchange for" ],
+
     FaCCAL                    `noun`    {- Eaw~AD -}           [ "Awwad" ],
 
     TaFCIL                    `noun`    {- taEowiyD -}         [ "compensation", "restitution", "reparations", "substitutes" ]
@@ -2386,7 +2398,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- Eawodap -}          [ "return" ],
 
-    FAL |< aT                 `noun`    {- EAdap -}            [ "habit", "custom", "practice", "customs", "practices", "habits", "usually", "taxes", "charges" ]
+    FAL |< aT                 `adv`     {- EAdap -}            [ "habit", "custom", "practice", "customs", "practices", "habits", "usually", "taxes", "charges" ]
                               `plural`     FAL |< At
                               `plural`     FawA'iL
                            {- `others`  [ "`awA'id Ndip" ] -},
@@ -2810,7 +2822,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- Eaziyz -}           [ "dear", "precious" ],
 
-    TaFCIL                    `noun`    {- taEoziyz -}         [ "support", "backing", "in support of" ],
+    TaFCIL                    `adv`     {- taEoziyz -}         [ "support", "backing", "in support of" ],
 
     TaFCIL                    `noun`    {- taEoziyz -}         [ "reinforcement", "reinforcements", "supplies" ]
                               `plural`     TaFCIL |< At,
@@ -2934,45 +2946,25 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Eaboduh -}          [ "Abdo", "Abduh" ] ]
 
- |> "`abra" <| [
-
-    Identity                  `noun`    {- Eabora -}           [ "across", "over", "via", "be means of" ] ]
-
- |> "`alla" <| [
-
-    Identity                  `noun`    {- Eal~a -}            [ "perhaps" ] ]
-
  |> "`ammA" <| [
 
-    Identity                  `noun`    {- Eam~A -}            [ "as for/regarding", "about what" ] ]
+    Identity                  `part`    {- Eam~A -}            [ "as for/regarding", "about what" ] ]
 
  |> "`amrw" <| [
 
     Identity                  `noun`    {- Eamorw -}           [ "Amr" ] ]
 
- |> "`aqiba" <| [
-
-    Identity                  `noun`    {- Eaqiba -}           [ "following", "subsequent to" ] ]
-
  |> "`artA" <| [
 
     Identity                  `noun`    {- EarotA -}           [ "Arta" ] ]
 
- |> "`inda" <| [
-
-    Identity                  `noun`    {- Einoda -}           [ "with/at" ] ]
-
  |> "`inda'i_diN" <| [
 
-    Identity                  `noun`    {- Einoda}i*K -}       [ "at that time", "then" ] ]
+    Identity                  `adv`     {- Einoda}i*K -}       [ "at that time", "then" ] ]
 
  |> "`indamA" <| [
 
-    Identity                  `noun`    {- EinodamA -}         [ "when" ] ]
-
- |> "`iwa.da" <| [
-
-    Identity                  `noun`    {- EiwaDa -}           [ "in lieu of", "in exchange for" ] ]
+    Identity                  `conj`    {- EinodamA -}         [ "when" ] ]
 
  |> "`iydaruws" <| [
 
@@ -2986,9 +2978,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EuwayorAn -}        [ "Oweiran" ] ]
 
- |> "la`alla" <| [
+ |> "la`all" <| [
 
-    Identity                  `noun`    {- laEal~a -}          [ "perhaps" ] ]
+    Identity |<< "a"          `part`    {- laEal~a -}          [ "perhaps" ] ]
 
  |> "mu`allA" <| [
 

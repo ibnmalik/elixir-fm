@@ -26,6 +26,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCLAn
                            {- `others`  [ "_di'Ab N", "_du'bAn N" ] -} ]
 
+ |> "_d ' k" <| [
+
+    FAL |<< "a"               `pron`    {- \*Aka -}            [ "that" ] ]
+
  |> "_d _h r" <| [
 
     FaCaL                     `verb`    {- \*axar-a -}         [ "preserve", "store" ]
@@ -283,7 +287,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d w w" <| [
 
-    FU                        `noun`    {- \*uw -}             [ "of", "with", "(two relatives) of", "(relatives) of", "family" ]
+    FU                        `pron`    {- \*uw -}             [ "of", "with", "(two relatives) of", "(relatives) of", "family" ]
                               `plural`     FaCU
                               `plural`     FaCI
                               `plural`     FaCA
@@ -308,21 +312,17 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                            {- `others`  [ "_duyuwl N", "'a_dyAl N" ] -} ]
 
- |> "_dAka" <| [
+ |> "_d_alik" <| [
 
-    Identity                  `noun`    {- \*Aka -}            [ "that" ] ]
-
- |> "_d_alika" <| [
-
-    Identity                  `noun`    {- \*`lika -}          [ "that", "that one", "those" ] ]
+    Identity |<< "a"          `pron`    {- \*`lika -}          [ "that", "that one", "those" ] ]
 
  |> "bi_dA" <| [
 
-    Identity                  `noun`    {- bi*A -}             [ "with that" ] ]
+    Identity                  `prep`    {- bi*A -}             [ "with that" ] ]
 
  |> "h_aka_dA" <| [
 
-    Identity                  `noun`    {- h`ka*A -}           [ "thus", "as such" ] ]
+    Identity                  `conj`    {- h`ka*A -}           [ "thus", "as such" ] ]
 
  |> "idda_har" <| [
 
@@ -336,19 +336,19 @@ lexicon = listing "Lexicon's properties"
 
  |> "ka_dA" <| [
 
-    Identity                  `noun`    {- ka*A -}             [ "such", "thus" ] ]
+    Identity                  `conj`    {- ka*A -}             [ "such", "thus" ] ]
 
- |> "ka_d_alika" <| [
+ |> "ka_d_alik" <| [
 
-    Identity                  `noun`    {- ka*`lika -}         [ "likewise", "also" ] ]
+    Identity |<< "a"          `adv`     {- ka*`lika -}         [ "likewise", "also" ] ]
 
  |> "li_dA" <| [
 
-    Identity                  `noun`    {- li*A -}             [ "therefore" ] ]
+    Identity                  `conj`    {- li*A -}             [ "therefore" ] ]
 
- |> "li_d_alika" <| [
+ |> "li_d_alik" <| [
 
-    Identity                  `noun`    {- li*`lika -}         [ "therefore" ] ]
+    Identity |<< "a"          `adv`     {- li*`lika -}         [ "therefore" ] ]
 
  |> "ta_dkAr" <| [
 

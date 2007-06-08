@@ -132,7 +132,7 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- tafaD~al -}         [ "be kind enough to", "help oneself" ],
 
-    FaCL |< aN                `noun`    {- faDolAF -}          [ "in addition" ]
+    FaCL |< aN                `adv`     {- faDolAF -}          [ "in addition" ]
                               `plural`     FaCL
                            {- `others`  [ "fa.dl NF" ] -},
 
@@ -293,7 +293,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- fiTor -}            [ "Fitr (breaking of the Ramadan fast)" ],
 
-    FiCL |< aT                `noun`    {- fiTorap -}          [ "innate character", "by nature", "innately", "innate characteristics" ]
+    FiCL |< aT                `adv`     {- fiTorap -}          [ "innate character", "by nature", "innately", "innate characteristics" ]
                               `plural`     FiCaL
                            {- `others`  [ "fi.tar N" ] -},
 
@@ -471,7 +471,7 @@ lexicon = listing "Lexicon's properties"
 
     TaFACaL                   `verb`    {- tafAEal -}          [ "interact", "react" ],
 
-    FiCL                      `noun`    {- fiEol -}            [ "doing", "act", "action", "acts", "actions", "deeds", "actually", "in effect", "in fact" ]
+    FiCL                      `prep`    {- fiEol -}            [ "doing", "act", "action", "acts", "actions", "deeds", "actually", "in effect", "in fact" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'af`Al N" ] -},
 
@@ -781,7 +781,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "f q .t" <| [
 
-    FaCaL                     `noun`    {- faqaT -}            [ "only" ],
+    FaCaL                     `adv`     {- faqaT -}            [ "only" ],
 
     FaCaL                     `verb`    {- faqaT-u -}          [ "tally up" ]
                               `imperf`     FCuL ]
@@ -926,7 +926,7 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `verb`    {- OaforaH -}          [ "gladden", "make merry", "be gladdened", "be made merry" ],
 
-    FaCaL                     `noun`    {- faraH -}            [ "joy", "happiness", "festivity", "with joy", "joyfully", "joys", "festivities" ]
+    FaCaL                     `adv`     {- faraH -}            [ "joy", "happiness", "festivity", "with joy", "joyfully", "joys", "festivities" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'afrA.h N" ] -},
 
@@ -1494,6 +1494,10 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- tafaw~aq -}         [ "excel", "be dominant", "be superior" ],
 
+    FaCL |<< "a"              `prep`    {- fawoqa -}           [ "above", "over" ]
+                              `plural`     FaCL
+                           {- `others`  [ "fawq FW-Wa-o" ] -},
+
     FaCL |< Iy                `adj`     {- fawoqiy~ -}         [ "upper", "super-" ],
 
     TaFaCCuL                  `noun`    {- tafaw~uq -}         [ "superiority", "supremacy", "excellence" ]
@@ -1507,7 +1511,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "f w r" <| [
 
-    FaCL                      `noun`    {- fawor -}            [ "immediately", "at once" ],
+    FaCL                      `adv`     {- fawor -}            [ "immediately", "at once" ],
+
+    FaCL |<< "a"              `prep`    {- fawora -}           [ "immediately after" ],
 
     FaCL |< Iy                `adj`     {- faworiy~ -}         [ "immediate", "instant", "on the spot" ],
 
@@ -1670,7 +1676,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "f y y" <| [
 
-    FI                        `noun`    {- fiy -}              [ "in" ] ]
+    FI                        `prep`    {- fiy -}              [ "in" ] ]
 
  |> "f y z" <| [
 
@@ -1736,14 +1742,6 @@ lexicon = listing "Lexicon's properties"
  |> "faransA" <| [
 
     Identity                  `noun`    {- faranosA -}         [ "France" ] ]
-
- |> "fawqa" <| [
-
-    Identity                  `noun`    {- fawoqa -}           [ "above", "over" ] ]
-
- |> "fawra" <| [
-
-    Identity                  `noun`    {- fawora -}           [ "immediately after" ] ]
 
  |> "faylasuwf" <| [
 
@@ -1875,9 +1873,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "fiymA" <| [
 
-    Identity                  `noun`    {- fiymA -}            [ "in what" ],
+    Identity                  `prep`    {- fiymA -}            [ "in what" ],
 
-    Identity                  `noun`    {- fiymA -}            [ "while", "during which" ],
+    Identity                  `conj`    {- fiymA -}            [ "while", "during which" ],
 
     Identity                  `noun`    {- fiymA -}            [ "FEMA (Federal Emergency Management Agency)" ] ]
 

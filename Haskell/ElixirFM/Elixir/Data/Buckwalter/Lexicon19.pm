@@ -5021,7 +5021,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -8358,7 +8358,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCaL',
       'suffix' => '',
       'glosses' => [
@@ -9335,7 +9335,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -9586,7 +9586,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaC |< aN',
       'suffix' => ' |< aN',
       'glosses' => [],
@@ -10235,6 +10235,74 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '.g t t' => [
+    {
+      'types' => {
+        '.gutt' => {
+          'IV_V' => 1
+        },
+        '.gatat' => {
+          'PV_Ct' => 1
+        },
+        '.gtut' => {
+          'IV_C' => 1
+        }
+      },
+      'entry' => '.gatt',
+      'form' => '.gatt',
+      'lines' => [
+        ';; gat~-u_1',
+        'gt      gat~    PV_V    submerse;immerse',
+        'gtt     gatat   PV_Ct   submerse;immerse',
+        'gt      gut~    IV_V    submerse;immerse',
+        'gtt     gotut   IV_C    submerse;immerse'
+      ],
+      'patterns' => {
+        '.gutt' => [
+          'FuCL'
+        ],
+        '.gatat' => [
+          'FaCaL'
+        ],
+        '.gtut' => [
+          'FCuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCL',
+      'glosses' => [
+        'submerse',
+        'immerse'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'gat~-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.gatt',
+      'form' => '.gatt',
+      'lines' => [
+        ';; gat~_1',
+        'gt      gat~    N       submersion;immersion'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'submersion',
+        'immersion'
+      ],
+      'orig' => 'gat~',
+      'prefix' => ''
+    }
+  ],
   '.g r .g r' => [
     {
       'types' => {
@@ -10332,74 +10400,6 @@ $Lexicon = {
         'guinea-fowl'
       ],
       'orig' => 'girogir',
-      'prefix' => ''
-    }
-  ],
-  '.g t t' => [
-    {
-      'types' => {
-        '.gutt' => {
-          'IV_V' => 1
-        },
-        '.gatat' => {
-          'PV_Ct' => 1
-        },
-        '.gtut' => {
-          'IV_C' => 1
-        }
-      },
-      'entry' => '.gatt',
-      'form' => '.gatt',
-      'lines' => [
-        ';; gat~-u_1',
-        'gt      gat~    PV_V    submerse;immerse',
-        'gtt     gatat   PV_Ct   submerse;immerse',
-        'gt      gut~    IV_V    submerse;immerse',
-        'gtt     gotut   IV_C    submerse;immerse'
-      ],
-      'patterns' => {
-        '.gutt' => [
-          'FuCL'
-        ],
-        '.gatat' => [
-          'FaCaL'
-        ],
-        '.gtut' => [
-          'FCuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCL',
-      'glosses' => [
-        'submerse',
-        'immerse'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'gat~-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '.gatt',
-      'form' => '.gatt',
-      'lines' => [
-        ';; gat~_1',
-        'gt      gat~    N       submersion;immersion'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'submersion',
-        'immersion'
-      ],
-      'orig' => 'gat~',
       'prefix' => ''
     }
   ],
@@ -10941,7 +10941,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -16912,28 +16912,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.gibba' => [
-    {
-      'types' => {},
-      'entry' => '.gibba',
-      'form' => '.gibba',
-      'lines' => [
-        ';; gib~a_1',
-        'gb      gib~a   FW-Wa   after     [[gib~a/PREP]]',
-        'gb      gib~a   FW-Wa-a after     [[gib~a/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'after'
-      ],
-      'orig' => 'gib~a',
-      'prefix' => ''
-    }
-  ],
   '.g t ^s' => [
     {
       'types' => {},
@@ -22644,7 +22622,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -24677,7 +24655,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -25858,7 +25836,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -28817,6 +28795,26 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => '.gibb',
+      'form' => '.gibba',
+      'lines' => [
+        ';; gib~a_1',
+        'gb      gib~a   FW-Wa   after     [[gib~a/PREP]]',
+        'gb      gib~a   FW-Wa-a after     [[gib~a/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FiCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'after'
+      ],
+      'orig' => 'gib~a',
+      'prefix' => ''
+    },
+    {
       'types' => {
         '.gibb' => {
           'NF' => 1
@@ -28834,7 +28832,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -30297,7 +30295,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'adv',
       'morphs' => 'FaCIL |< Iy |< aN',
       'suffix' => ' |< Iy |< aN',
       'glosses' => [
@@ -30829,7 +30827,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [

@@ -26,7 +26,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "q ' l" <| [
 
-    FACiL                     `noun`    {- qA}il -}            [ "saying", "sayer", "person who says" ] ]
+    FACiL                     `adv`     {- qA}il -}            [ "saying", "sayer", "person who says" ] ]
 
  |> "q ' m" <| [
 
@@ -618,6 +618,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "q b l" <| [
 
+    FaCL |<< "a"              `prep`    {- qabola -}           [ "before" ]
+                              `plural`     FaCL
+                           {- `others`  [ "qabl FW-Wa-o" ] -},
+
+    FaCL |<< "u"              `adv`     {- qabolu -}           [ "before", "prior" ],
+
     FiCaL                     `noun`    {- qibal -}            [ "(on the) part of" ],
 
     FaCiL                     `verb`    {- qabil-a -}          [ "accept", "receive", "approve" ]
@@ -630,6 +636,8 @@ lexicon = listing "Lexicon's properties"
     TaFaCCaL                  `verb`    {- taqab~al -}         [ "receive", "accept" ],
 
     IstaFCaL                  `verb`    {- Aisotaqobal -}      [ "receive", "greet", "meet" ],
+
+    FuCayL |<< "a"            `noun`    {- qubayola -}         [ "shortly before" ],
 
     FuCL |< aT                `noun`    {- qubolap -}          [ "kiss", "kisses" ]
                               `plural`     FuCL |< At,
@@ -646,7 +654,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL |< Iy               `adj`     {- qabaliy~ -}         [ "tribal" ],
 
-    FuCAL |< aT               `noun`    {- qubAlap -}          [ "in front of", "facing" ],
+    FuCAL |< aT               `prep`    {- qubAlap -}          [ "in front of", "facing" ],
 
     MuFACaL |< aT             `noun`    {- muqAbalap -}        [ "encounter", "meeting", "interview" ],
 
@@ -674,7 +682,7 @@ lexicon = listing "Lexicon's properties"
 
     MustaFCaL                 `noun`    {- musotaqobal -}      [ "Mustaqbal", "Mostaqbal" ],
 
-    MustaFCaL |< aN           `noun`    {- musotaqobalAF -}    [ "in the future" ]
+    MustaFCaL |< aN           `adv`     {- musotaqobalAF -}    [ "in the future" ]
                               `plural`     MustaFCaL
                            {- `others`  [ "mustaqbal NF" ] -},
 
@@ -707,9 +715,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "q d d" <| [
 
-    FaL                       `noun`    {- qad -}              [ "(has/have)", "indeed (has/have)" ],
+    FaL                       `part`    {- qad -}              [ "(has/have)", "indeed (has/have)" ],
 
-    FaL                       `noun`    {- qad -}              [ "may/might" ],
+    FaL                       `part`    {- qad -}              [ "may/might" ],
 
     MiFCAL                    `noun`    {- miqodAd -}          [ "Miqdad" ] ]
 
@@ -728,7 +736,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                            {- `others`  [ "'aqdAm N" ] -},
 
-    FuCuL                     `noun`    {- qudum -}            [ "forward" ],
+    FuCuL                     `adv`     {- qudum -}            [ "forward" ],
 
     FaCIL                     `adj`     {- qadiym -}           [ "old", "ancient", "ancients" ]
                               `plural`     FuCaLA'
@@ -838,7 +846,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     TaFACIL
                            {- `others`  [ "taqAdiyr Ndip" ] -},
 
-    TaFCIL |< aN              `noun`    {- taqodiyrAF -}       [ "in appreciation for" ]
+    TaFCIL |< aN              `adv`     {- taqodiyrAF -}       [ "in appreciation for" ]
                               `plural`     TaFCIL
                            {- `others`  [ "taqdiyr NF" ] -},
 
@@ -918,9 +926,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "q d y" <| [
 
-    FaC                       `noun`    {- qad -}              [ "(has/have)", "indeed (has/have)" ],
+    FaC                       `part`    {- qad -}              [ "(has/have)", "indeed (has/have)" ],
 
-    FaC                       `noun`    {- qad -}              [ "may/might" ] ]
+    FaC                       `part`    {- qad -}              [ "may/might" ] ]
 
  |> "q f .s" <| [
 
@@ -1448,6 +1456,10 @@ lexicon = listing "Lexicon's properties"
 
  |> "q r b" <| [
 
+    FuCL |<< "a"              `prep`    {- quroba -}           [ "near" ]
+                              `plural`     FuCL
+                           {- `others`  [ "qurb FW-Wa-o" ] -},
+
     FaCuL                     `verb`    {- qarub-u -}          [ "approach", "draw near" ]
                               `imperf`     FCuL,
 
@@ -1821,7 +1833,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- muqAwalap -}        [ "deal", "bargain", "settlement" ],
 
-    FA'iL                     `noun`    {- qA}il -}            [ "saying", "sayer", "person who says" ],
+    FA'iL                     `adv`     {- qA}il -}            [ "saying", "sayer", "person who says" ],
 
     MaFUL |< aT               `noun`    {- maquwlap -}         [ "statement", "pronouncement", "proposition", "statements", "pronouncements", "propositions" ]
                               `plural`     MaFUL |< At,
@@ -1991,6 +2003,8 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- taqay~ad -}         [ "be bound", "be restricted", "be stipulated" ],
 
+    FaCL |<< "a"              `prep`    {- qayoda -}           [ "in progress", "currently being", "under" ],
+
     FaCL                      `noun`    {- qayod -}            [ "restriction", "stipulation", "strings attached", "restrictions", "stipulations", "hand-cuffs" ]
                               `plural`     FuCUL
                            {- `others`  [ "quyuwd N" ] -},
@@ -2085,14 +2099,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- qAdruwf -}          [ "Kadyrov" ] ]
 
- |> "qabla" <| [
-
-    Identity                  `noun`    {- qabola -}           [ "before" ] ]
-
- |> "qablu" <| [
-
-    Identity                  `noun`    {- qabolu -}           [ "before", "prior" ] ]
-
  |> "qalansuw" <| [
 
     Identity |< aT            `noun`    {- qalanosuwap -}      [ "hood", "cap", "hoods", "caps" ],
@@ -2101,7 +2107,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "qallamA" <| [
 
-    Identity                  `noun`    {- qal~amA -}          [ "rarely", "seldom" ] ]
+    Identity                  `conj`    {- qal~amA -}          [ "rarely", "seldom" ] ]
 
  |> "qandahAr" <| [
 
@@ -2110,10 +2116,6 @@ lexicon = listing "Lexicon's properties"
  |> "qaranq" <| [
 
     Identity                  `noun`    {- qaranoq -}          [ "Garang" ] ]
-
- |> "qayda" <| [
-
-    Identity                  `noun`    {- qayoda -}           [ "in progress", "currently being", "under" ] ]
 
  |> "qayrawAn" <| [
 
@@ -2126,14 +2128,6 @@ lexicon = listing "Lexicon's properties"
     Identity                  `noun`    {- qirogiyzostAn -}    [ "Kyrgyzstan" ],
 
     Identity |< Iy            `adj`     {- qirogiyzostAniy~ -} [ "Kyrgyzstani" ] ]
-
- |> "qubayla" <| [
-
-    Identity                  `noun`    {- qubayola -}         [ "shortly before" ] ]
-
- |> "qurba" <| [
-
-    Identity                  `noun`    {- quroba -}           [ "near" ] ]
 
  |> "quwatl" <| [
 

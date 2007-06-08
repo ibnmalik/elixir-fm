@@ -480,6 +480,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "b ` d" <| [
 
+    FaCL |<< "a"              `prep`    {- baEoda -}           [ "after" ]
+                              `plural`     FaCL
+                           {- `others`  [ "ba`d FW-Wa-o" ] -},
+
+    FaCL |<< "u"              `adv`     {- baEodu -}           [ "afterward", "later", "(not) yet" ],
+
     FaCuL                     `verb`    {- baEud-u -}          [ "be distant" ]
                               `imperf`     FCuL,
 
@@ -498,6 +504,10 @@ lexicon = listing "Lexicon's properties"
     FaCIL                     `adj`     {- baEiyd -}           [ "remote", "distant", "far" ]
                               `plural`     FuCaLA'
                            {- `others`  [ "bu`adA' Nh N0_Nh Nhy" ] -},
+
+    FuCayL |<< "a"            `prep`    {- buEayoda -}         [ "shortly after", "soon after" ]
+                              `plural`     FuCayL
+                           {- `others`  [ "bu`ayd FW-Wa-o" ] -},
 
     HaFCaL                    `adj`     {- OaboEad -}          [ "farther", "farthest" ],
 
@@ -618,7 +628,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCaL |< At
                            {- `others`  [ "'abdAl N" ] -},
 
-    FaCaL |< aN               `noun`    {- badalAF -}          [ "instead of", "in lieu of" ]
+    FaCaL |< aN               `adv`     {- badalAF -}          [ "instead of", "in lieu of" ]
                               `plural`     FaCaL
                            {- `others`  [ "badal NF" ] -},
 
@@ -815,7 +825,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "b k l" <| [
 
-    FaL                       `noun`    {- bal -}              [ "but rather", "in fact" ] ]
+    FaL                       `conj`    {- bal -}              [ "but rather", "in fact" ] ]
 
  |> "b k r" <| [
 
@@ -855,7 +865,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "b l '" <| [
 
-    FaC                       `noun`    {- bal -}              [ "but rather", "in fact" ] ]
+    FaC                       `conj`    {- bal -}              [ "but rather", "in fact" ] ]
 
  |> "b l .g" <| [
 
@@ -1372,7 +1382,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- bar~ -}             [ "land", "earth" ],
 
-    FaCL |< aN                `noun`    {- bar~AF -}           [ "by land" ]
+    FaCL |< aN                `adv`     {- bar~AF -}           [ "by land" ]
                               `plural`     FaCL
                            {- `others`  [ "barr NF" ] -},
 
@@ -1719,6 +1729,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFAL                     `verb`    {- OabAd -}            [ "exterminate", "be exterminated" ],
 
+    FaCL |<< "a"              `conj`    {- bayoda -}           [ "whereas", "however" ],
+
     HiFAL |< aT               `noun`    {- IibAdap -}          [ "extermination", "annihilation" ],
 
     MuFIL                     `noun`    {- mubiyd -}           [ "destructive", "exterminating" ] ]
@@ -1742,6 +1754,10 @@ lexicon = listing "Lexicon's properties"
  |> "b y n" <| [
 
     FACiL                     `noun`    {- bAyin -}            [ "Pine" ],
+
+    FaCL |<< "a"              `prep`    {- bayona -}           [ "between/among" ]
+                              `plural`     FaCL
+                           {- `others`  [ "bayn FW-Wa-o" ] -},
 
     FaCL |< Iy                `adj`     {- bayoniy~ -}         [ "in-between", "interface ??" ],
 
@@ -1968,11 +1984,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "ba.hrayn" <| [
 
+    Identity |<< "i"          `noun`    {- baHorayoni -}       [ "Bahrain" ],
+
     Identity |< Iy            `adj`     {- baHorayoniy~ -}     [ "Bahraini" ] ]
-
- |> "ba.hrayni" <| [
-
-    Identity                  `noun`    {- baHorayoni -}       [ "Bahrain" ] ]
 
  |> "ba.triyark" <| [
 
@@ -1982,19 +1996,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- baEabodA -}         [ "Baabda" ] ]
 
- |> "ba`da" <| [
-
-    Identity                  `noun`    {- baEoda -}           [ "after" ] ]
-
  |> "ba`damA" <| [
 
-    Identity                  `noun`    {- baEodamA -}         [ "after" ],
+    Identity                  `conj`    {- baEodamA -}         [ "after" ],
 
-    Identity                  `noun`    {- baEodamA -}         [ "after what" ] ]
-
- |> "ba`du" <| [
-
-    Identity                  `noun`    {- baEodu -}           [ "afterward", "later", "(not) yet" ] ]
+    Identity                  `prep`    {- baEodamA -}         [ "after what" ] ]
 
  |> "ba`labakk" <| [
 
@@ -2048,17 +2054,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- baronAmaj -}        [ "program", "programs" ] ]
 
- |> "bayda" <| [
-
-    Identity                  `noun`    {- bayoda -}           [ "whereas", "however" ] ]
-
- |> "bayna" <| [
-
-    Identity                  `noun`    {- bayona -}           [ "between/among" ] ]
-
  |> "baynamA" <| [
 
-    Identity                  `noun`    {- bayonamA -}         [ "while" ] ]
+    Identity                  `conj`    {- bayonamA -}         [ "while" ] ]
 
  |> "bayruwtiyy" <| [
 
@@ -2308,10 +2306,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bruwtuwkuwl -}      [ "protocol" ] ]
 
- |> "bu`ayda" <| [
-
-    Identity                  `noun`    {- buEayoda -}         [ "shortly after", "soon after" ] ]
-
  |> "bul.gAriyA" <| [
 
     Identity                  `noun`    {- bulogAriyA -}       [ "Bulgaria" ] ]
@@ -2462,9 +2456,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bylyn -}            [ "Bilin", "Billin" ] ]
 
- |> "mAbayna" <| [
+ |> "mAbayn" <| [
 
-    Identity                  `noun`    {- mAbayona -}         [ "between/among" ] ]
+    Identity |<< "a"          `pron`    {- mAbayona -}         [ "between/among" ] ]
 
  |> "mabn" <| [
 

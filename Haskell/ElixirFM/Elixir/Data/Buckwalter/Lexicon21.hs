@@ -183,7 +183,7 @@ lexicon = listing "Lexicon's properties"
     -- qA}l    qA}il   Nall    saying     [[qA}il/ADV]]
     -- qA}l    qA}il   Nall    sayer;person who says
 
-    FACiL                     `noun`    {- qA}il -}            [ "saying", "sayer", "person who says" ] ]
+    FACiL                     `adv`     {- qA}il -}            [ "saying", "sayer", "person who says" ] ]
 
  |> "q ' m" <| [
 
@@ -1317,7 +1317,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qaSodAF_1
     -- qSd     qaSod   NF      intentionally     [[qaSod/ADV]]
 
-    FaCL |< aN                `noun`    {- qaSodAF -}          [ "intentionally" ]
+    FaCL |< aN                `adv`     {- qaSodAF -}          [ "intentionally" ]
                               `plural`     FaCL
                            {- `others`  [ "qa.sd NF" ] -},
 
@@ -2157,7 +2157,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qaToEAF_1
     -- qTE     qaToE   NF      absolutely     [[qaToE/ADV]]
 
-    FaCL |< aN                `noun`    {- qaToEAF -}          [ "absolutely" ]
+    FaCL |< aN                `adv`     {- qaToEAF -}          [ "absolutely" ]
                               `plural`     FaCL
                            {- `others`  [ "qa.t` NF" ] -},
 
@@ -4584,6 +4584,22 @@ lexicon = listing "Lexicon's properties"
 
  |> "q b l" <| [
 
+    -- ;; qabola_1
+    -- qbl     qabola  FW-Wa   before     [[qabola/PREP]]
+    -- qbl     qaboli  FW-Wa   before     [[qaboli/PREP]]
+    -- qbl     qabola  FW-Wa-a before     [[qabola/PREP]]
+    -- qbl     qaboli  FW-Wa-i before     [[qaboli/PREP]]
+    -- qbl     qabol   FW-Wa-o before     [[qabol/PREP]]
+
+    FaCL |<< "a"              `prep`    {- qabola -}           [ "before" ]
+                              `plural`     FaCL
+                           {- `others`  [ "qabl FW-Wa-o" ] -},
+
+    -- ;; qabolu_1
+    -- qbl     qabolu  FW      before;prior     [[qabolu/ADV]]
+
+    FaCL |<< "u"              `adv`     {- qabolu -}           [ "before", "prior" ],
+
     -- ;; qibal_1
     -- qbl     qibal   N       (on the) part of
 
@@ -4645,7 +4661,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qabolAF_1
     -- qbl     qabol   NF      previously;formerly     [[qabol/ADV]]
 
-    FaCL |< aN                `noun`    {- qabolAF -}          [ "previously", "formerly" ]
+    FaCL |< aN                `adv`     {- qabolAF -}          [ "previously", "formerly" ]
                               `plural`     FaCL
                            {- `others`  [ "qabl NF" ] -},
 
@@ -4653,6 +4669,11 @@ lexicon = listing "Lexicon's properties"
     -- qbly    qaboliy~        N-ap    a priori     [[qaboliy~/ADJ]]
 
     FaCL |< Iy                `adj`     {- qaboliy~ -}         [ "a priori" ],
+
+    -- ;; qubayola_1
+    -- qbyl    qubayola        N0_Nh   shortly before
+
+    FuCayL |<< "a"            `noun`    {- qubayola -}         [ "shortly before" ],
 
     -- ;; qubolap_1
     -- qbl     qubol   Napdu   kiss
@@ -4706,7 +4727,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qubAlap_1
     -- qbAl    qubAl   Nap     in front of;facing     [[qubAl/PREP]]
 
-    FuCAL |< aT               `noun`    {- qubAlap -}          [ "in front of", "facing" ],
+    FuCAL |< aT               `prep`    {- qubAlap -}          [ "in front of", "facing" ],
 
     -- ;; qabAlap_1
     -- qbAl    qabAl   Nap     guarantee;liability
@@ -4826,7 +4847,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; musotaqobalAF_1
     -- mstqbl  musotaqobal     NF      in the future     [[musotaqobal/ADV]]
 
-    MustaFCaL |< aN           `noun`    {- musotaqobalAF -}    [ "in the future" ]
+    MustaFCaL |< aN           `adv`     {- musotaqobalAF -}    [ "in the future" ]
                               `plural`     MustaFCaL
                            {- `others`  [ "mustaqbal NF" ] -},
 
@@ -5118,7 +5139,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtdA'  {iqotidA'F      FW-Wa   following the example of;in imitation of     [[{iqotidA'F/ADV]]
     -- AqtdA'  {iqotidA'F      FW-Wa   following the example of;in imitation of     [[{iqotidA'F/ADV]]
 
-    IFtiCAL |< aN             `noun`    {- AiqotidA'F -}       [ "following the example of", "in imitation of" ] ]
+    IFtiCAL |< aN             `adv`     {- AiqotidA'F -}       [ "following the example of", "in imitation of" ] ]
 
  |> "q d .h" <| [
 
@@ -5224,12 +5245,12 @@ lexicon = listing "Lexicon's properties"
     -- qd      qad     FW-Wa   (has/have)           [[qad/FUNC_WORD]]
     -- lqd     laqad   FW-Wa   indeed (has/have)  [[laqad/FUNC_WORD]]
 
-    FaL                       `noun`    {- qad -}              [ "(has/have)", "indeed (has/have)" ],
+    FaL                       `part`    {- qad -}              [ "(has/have)", "indeed (has/have)" ],
 
     -- ;; qad_2
     -- qd      qad     FW-Wa   may/might     [[qad/FUNC_WORD]]
 
-    FaL                       `noun`    {- qad -}              [ "may/might" ],
+    FaL                       `part`    {- qad -}              [ "may/might" ],
 
     -- ;; qad~-u_1
     -- qdd     qadad   PV_C    cut lengthwise;cut into strips
@@ -5377,7 +5398,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qudum_1
     -- qdm     qudum   NF      forward     [[qudum/ADV]]
 
-    FuCuL                     `noun`    {- qudum -}            [ "forward" ],
+    FuCuL                     `adv`     {- qudum -}            [ "forward" ],
 
     -- ;; qadiym_1
     -- qdym    qadiym  N/ap    old;ancient     [[qadiym/ADJ]]
@@ -5424,6 +5445,17 @@ lexicon = listing "Lexicon's properties"
     -- qdA}m   qadA}im Ndip    adzes
 
     FaCCUL                    `noun`    {- qad~uwm -}          [ "adz", "adzes" ],
+
+    -- ;; qud~Ama_1
+    -- qdAm    qud~Ama FW-Wa   in front of     [[qud~Ama/PREP]]
+    -- qdAm    qud~Ami FW-Wa   in front of     [[qud~Ami/PREP]]
+    -- qdAm    qud~Ama FW-Wa-a in front of     [[qud~Ama/PREP]]
+    -- qdAm    qud~Ami FW-Wa-i in front of     [[qud~Ami/PREP]]
+    -- qdAm    qud~Am  FW-Wa-o in front of     [[qud~Am/PREP]]
+
+    FuCCAL |<< "a"            `prep`    {- qud~Ama -}          [ "in front of" ]
+                              `plural`     FuCCAL
+                           {- `others`  [ "quddAm FW-Wa-o" ] -},
 
     -- ;; qud~Am_1
     -- qdAm    qud~Am  N       front
@@ -5558,7 +5590,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muqad~amAF_1
     -- mqdm    muqad~am        NF      in advance     [[muqad~am/ADV]]
 
-    MuFaCCaL |< aN            `noun`    {- muqad~amAF -}       [ "in advance" ]
+    MuFaCCaL |< aN            `adv`     {- muqad~amAF -}       [ "in advance" ]
                               `plural`     MuFaCCaL
                            {- `others`  [ "muqaddam NF" ] -},
 
@@ -5754,7 +5786,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taqodiyrAF_1
     -- tqdyr   taqodiyr        NF      in appreciation for     [[taqodiyr/ADV]]
 
-    TaFCIL |< aN              `noun`    {- taqodiyrAF -}       [ "in appreciation for" ]
+    TaFCIL |< aN              `adv`     {- taqodiyrAF -}       [ "in appreciation for" ]
                               `plural`     TaFCIL
                            {- `others`  [ "taqdiyr NF" ] -},
 
@@ -6050,7 +6082,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtdA'  {iqotidA'F      FW-Wa   following the example of;in imitation of     [[{iqotidA'F/ADV]]
     -- AqtdA'  {iqotidA'F      FW-Wa   following the example of;in imitation of     [[{iqotidA'F/ADV]]
 
-    IFtiCA' |< aN             `noun`    {- AiqotidA'F -}       [ "following the example of", "in imitation of" ],
+    IFtiCA' |< aN             `adv`     {- AiqotidA'F -}       [ "following the example of", "in imitation of" ],
 
     -- ;; qadow_1
     -- qdw     qadow   N       savoriness
@@ -6076,12 +6108,12 @@ lexicon = listing "Lexicon's properties"
     -- qd      qad     FW-Wa   (has/have)           [[qad/FUNC_WORD]]
     -- lqd     laqad   FW-Wa   indeed (has/have)  [[laqad/FUNC_WORD]]
 
-    FaC                       `noun`    {- qad -}              [ "(has/have)", "indeed (has/have)" ],
+    FaC                       `part`    {- qad -}              [ "(has/have)", "indeed (has/have)" ],
 
     -- ;; qad_2
     -- qd      qad     FW-Wa   may/might     [[qad/FUNC_WORD]]
 
-    FaC                       `noun`    {- qad -}              [ "may/might" ],
+    FaC                       `part`    {- qad -}              [ "may/might" ],
 
     -- ;; qadiy-a_1
     -- qdy     qadiy   PV_no-w_intr    be tasty
@@ -6684,7 +6716,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qahorAF_1
     -- qhr     qahor   NF      forcibly;by force     [[qahor/ADV]]
 
-    FaCL |< aN                `noun`    {- qahorAF -}          [ "forcibly", "by force" ]
+    FaCL |< aN                `adv`     {- qahorAF -}          [ "forcibly", "by force" ]
                               `plural`     FaCL
                            {- `others`  [ "qahr NF" ] -},
 
@@ -7435,7 +7467,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qaliylAF_1
     -- qlyl    qaliyl  NF      a little;somewhat     [[qaliyl/ADV]]
 
-    FaCIL |< aN               `noun`    {- qaliylAF -}         [ "a little", "somewhat" ]
+    FaCIL |< aN               `adv`     {- qaliylAF -}         [ "a little", "somewhat" ]
                               `plural`     FaCIL
                            {- `others`  [ "qaliyl NF" ] -},
 
@@ -10250,6 +10282,19 @@ lexicon = listing "Lexicon's properties"
 
  |> "q r b" <| [
 
+    -- ;; quroba_1
+    -- qrb     quroba  FW-Wa   near     [[quroba/PREP]]
+    -- qrb     qurobi  FW-Wa   near     [[qurobi/PREP]]
+    -- bqrb    biqurobi        FW-Wa   near     [[biqurobi/PREP]]
+    -- qrb     quroba  FW-Wa-a near     [[quroba/PREP]]
+    -- qrb     qurobi  FW-Wa-i near     [[qurobi/PREP]]
+    -- bqrb    biqurobi        FW-Wa-i near     [[biqurobi/PREP]]
+    -- qrb     qurob   FW-Wa-o near     [[qurob/PREP]]
+
+    FuCL |<< "a"              `prep`    {- quroba -}           [ "near" ]
+                              `plural`     FuCL
+                           {- `others`  [ "qurb FW-Wa-o" ] -},
+
     -- ;; qarub-u_1
     -- qrb     qarub   PV      approach;draw near
     -- qrb     qorub   IV      approach;draw near
@@ -10344,14 +10389,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; qariybAF_1
     -- qryb    qariyb  NF      recently;soon     [[qariyb/ADV]]
 
-    FaCIL |< aN               `noun`    {- qariybAF -}         [ "recently", "soon" ]
+    FaCIL |< aN               `adv`     {- qariybAF -}         [ "recently", "soon" ]
                               `plural`     FaCIL
                            {- `others`  [ "qariyb NF" ] -},
 
     -- ;; qariybAF_2
     -- qryb    qariyb  NF      closely;near     [[qariyb/ADV]]
 
-    FaCIL |< aN               `noun`    {- qariybAF -}         [ "closely", "near" ]
+    FaCIL |< aN               `adv`     {- qariybAF -}         [ "closely", "near" ]
                               `plural`     FaCIL
                            {- `others`  [ "qariyb NF" ] -},
 
@@ -10434,7 +10479,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taqoriybAF_1
     -- tqryb   taqoriyb        NF      approximately     [[taqoriyb/ADV]]
 
-    TaFCIL |< aN              `noun`    {- taqoriybAF -}       [ "approximately" ]
+    TaFCIL |< aN              `adv`     {- taqoriybAF -}       [ "approximately" ]
                               `plural`     TaFCIL
                            {- `others`  [ "taqriyb NF" ] -},
 
@@ -10993,6 +11038,12 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- qariyn -}           [ "spouse" ],
 
+    -- ;; qariyna_1
+    -- qryn    qariyna FW-Wa   in connection with;together with     [[qariyna/PREP]]
+    -- qryn    qariyna FW-Wa-a in connection with;together with     [[qariyna/PREP]]
+
+    FaCIL |<< "a"             `prep`    {- qariyna -}          [ "in connection with", "together with" ],
+
     -- ;; qariynap_1
     -- qryn    qariyn  NapAt   wife
 
@@ -11061,7 +11112,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muqArinAF_1
     -- mqArn   muqArin NF      in comparison with     [[muqArin/ADV]]
 
-    MuFACiL |< aN             `noun`    {- muqArinAF -}        [ "in comparison with" ]
+    MuFACiL |< aN             `adv`     {- muqArinAF -}        [ "in comparison with" ]
                               `plural`     MuFACiL
                            {- `others`  [ "muqArin NF" ] -},
 
@@ -11864,7 +11915,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qasamAF_1
     -- qsm     qasam   NF      I swear!     [[qasam/ADV]]
 
-    FaCaL |< aN               `noun`    {- qasamAF -}          [ "I swear!" ]
+    FaCaL |< aN               `adv`     {- qasamAF -}          [ "I swear!" ]
                               `plural`     FaCaL
                            {- `others`  [ "qasam NF" ] -},
 
@@ -12069,7 +12120,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qasorAF_1
     -- qsr     qasor   NF      by force;necessarily     [[qasor/ADV]]
 
-    FaCL |< aN                `noun`    {- qasorAF -}          [ "by force", "necessarily" ]
+    FaCL |< aN                `adv`     {- qasorAF -}          [ "by force", "necessarily" ]
                               `plural`     FaCL
                            {- `others`  [ "qasr NF" ] -},
 
@@ -13106,7 +13157,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qawolAF_1
     -- qwl     qawol   NF      in word;verbally;by word     [[qawol/ADV]]
 
-    FaCL |< aN                `noun`    {- qawolAF -}          [ "in word", "verbally", "by word" ]
+    FaCL |< aN                `adv`     {- qawolAF -}          [ "in word", "verbally", "by word" ]
                               `plural`     FaCL
                            {- `others`  [ "qawl NF" ] -},
 
@@ -13143,7 +13194,7 @@ lexicon = listing "Lexicon's properties"
     -- qA}l    qA}il   Nall    saying     [[qA}il/ADV]]
     -- qA}l    qA}il   Nall    sayer;person who says
 
-    FA'iL                     `noun`    {- qA}il -}            [ "saying", "sayer", "person who says" ],
+    FA'iL                     `adv`     {- qA}il -}            [ "saying", "sayer", "person who says" ],
 
     -- ;; maquwl_1
     -- mqwl    maquwl  Ndu     utterance;saying
@@ -14307,6 +14358,11 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- taqay~ad -}         [ "be bound", "be restricted", "be stipulated" ],
 
+    -- ;; qayoda_1
+    -- qyd     qayoda  FW-Wa   in progress;currently being;under     [[qayoda/PREP]]
+
+    FaCL |<< "a"              `prep`    {- qayoda -}           [ "in progress", "currently being", "under" ],
+
     -- ;; qayod_1
     -- qyd     qayod   N       restriction;stipulation;strings attached
     -- qywd    quyuwd  N       restrictions;stipulations;strings attached
@@ -15043,37 +15099,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- qabaDAy -}          [ "bully", "strong-arm" ] ]
 
- |> "qabla" <| [
-
-    -- ;; qabola_1
-    -- qbl     qabola  FW-Wa   before     [[qabola/PREP]]
-    -- qbl     qaboli  FW-Wa   before     [[qaboli/PREP]]
-    -- qbl     qabola  FW-Wa-a before     [[qabola/PREP]]
-    -- qbl     qaboli  FW-Wa-i before     [[qaboli/PREP]]
-    -- qbl     qabol   FW-Wa-o before     [[qabol/PREP]]
-
-    Identity                  `noun`    {- qabola -}           [ "before" ] ]
-
  |> "qabla'i_diN" <| [
 
     -- ;; qabola}i*K_1
     -- qbl}*   qabola}i*K      FW-Wa   before then     [[qabola}i*K/ADV]]
 
-    Identity                  `noun`    {- qabola}i*K -}       [ "before then" ] ]
+    Identity                  `adv`     {- qabola}i*K -}       [ "before then" ] ]
 
  |> "qablamA" <| [
 
     -- ;; qabolamA_1
     -- qblmA   qabolamA        FW-Wa   before     [[qabolamA/CONJ]]
 
-    Identity                  `noun`    {- qabolamA -}         [ "before" ] ]
-
- |> "qablu" <| [
-
-    -- ;; qabolu_1
-    -- qbl     qabolu  FW      before;prior     [[qabolu/ADV]]
-
-    Identity                  `noun`    {- qabolu -}           [ "before", "prior" ] ]
+    Identity                  `conj`    {- qabolamA -}         [ "before" ] ]
 
  |> "qabuwdAn" <| [
 
@@ -15168,7 +15206,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qal~amA_1
     -- qlmA    qal~amA FW-Wa   rarely;seldom     [[qal~amA/CONJ]]
 
-    Identity                  `noun`    {- qal~amA -}          [ "rarely", "seldom" ] ]
+    Identity                  `conj`    {- qal~amA -}          [ "rarely", "seldom" ] ]
 
  |> "qalqiyliy" <| [
 
@@ -15295,14 +15333,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- qaraquwz -}         [ "puppet" ] ]
 
- |> "qariyna" <| [
-
-    -- ;; qariyna_1
-    -- qryn    qariyna FW-Wa   in connection with;together with     [[qariyna/PREP]]
-    -- qryn    qariyna FW-Wa-a in connection with;together with     [[qariyna/PREP]]
-
-    Identity                  `noun`    {- qariyna -}          [ "in connection with", "together with" ] ]
-
  |> "qarnabiy.t" <| [
 
     -- ;; qaronabiyT_1
@@ -15345,13 +15375,6 @@ lexicon = listing "Lexicon's properties"
     -- qwrm    qawurom Nap     qawurmah;shawirma (food)
 
     Identity |< aT            `noun`    {- qawuromap -}        [ "qawurmah", "shawirma (food)" ] ]
-
- |> "qayda" <| [
-
-    -- ;; qayoda_1
-    -- qyd     qayoda  FW-Wa   in progress;currently being;under     [[qayoda/PREP]]
-
-    Identity                  `noun`    {- qayoda -}           [ "in progress", "currently being", "under" ] ]
 
  |> "qayrawAn" <| [
 
@@ -15463,24 +15486,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- qu$oEariyrap -}     [ "shuddering", "trembling", "goose bumps" ] ]
 
- |> "qubayla" <| [
-
-    -- ;; qubayola_1
-    -- qbyl    qubayola        N0_Nh   shortly before
-
-    Identity                  `noun`    {- qubayola -}         [ "shortly before" ] ]
-
- |> "quddAma" <| [
-
-    -- ;; qud~Ama_1
-    -- qdAm    qud~Ama FW-Wa   in front of     [[qud~Ama/PREP]]
-    -- qdAm    qud~Ami FW-Wa   in front of     [[qud~Ami/PREP]]
-    -- qdAm    qud~Ama FW-Wa-a in front of     [[qud~Ama/PREP]]
-    -- qdAm    qud~Ami FW-Wa-i in front of     [[qud~Ami/PREP]]
-    -- qdAm    qud~Am  FW-Wa-o in front of     [[qud~Am/PREP]]
-
-    Identity                  `noun`    {- qud~Ama -}          [ "in front of" ] ]
-
  |> "qulansiy" <| [
 
     -- ;; qulanosiyap_1
@@ -15525,19 +15530,6 @@ lexicon = listing "Lexicon's properties"
     -- qryds   qurayodis       Napdu   shrimp
 
     Identity                  `noun`    {- qurayodis -}        [ "shrimp" ] ]
-
- |> "qurba" <| [
-
-    -- ;; quroba_1
-    -- qrb     quroba  FW-Wa   near     [[quroba/PREP]]
-    -- qrb     qurobi  FW-Wa   near     [[qurobi/PREP]]
-    -- bqrb    biqurobi        FW-Wa   near     [[biqurobi/PREP]]
-    -- qrb     quroba  FW-Wa-a near     [[quroba/PREP]]
-    -- qrb     qurobi  FW-Wa-i near     [[qurobi/PREP]]
-    -- bqrb    biqurobi        FW-Wa-i near     [[biqurobi/PREP]]
-    -- qrb     qurob   FW-Wa-o near     [[qurob/PREP]]
-
-    Identity                  `noun`    {- quroba -}           [ "near" ] ]
 
  |> "qurfu.sA'" <| [
 

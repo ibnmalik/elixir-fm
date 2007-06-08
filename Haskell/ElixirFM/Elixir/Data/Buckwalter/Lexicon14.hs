@@ -1222,7 +1222,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; SAEidAF_1
     -- SAEd    SAEid   NF      henceforth;upward     [[SAEid/ADV]]
 
-    FACiL |< aN               `noun`    {- SAEidAF -}          [ "henceforth", "upward" ]
+    FACiL |< aN               `adv`     {- SAEidAF -}          [ "henceforth", "upward" ]
                               `plural`     FACiL
                            {- `others`  [ ".sA`id NF" ] -},
 
@@ -1536,7 +1536,7 @@ lexicon = listing "Lexicon's properties"
     -- SbAH    SabAH   N       morning
     -- SbAH    SabAH   NF      in the morning     [[SabAH/ADV]]
 
-    FaCAL                     `noun`    {- SabAH -}            [ "morning", "in the morning" ],
+    FaCAL                     `adv`     {- SabAH -}            [ "morning", "in the morning" ],
 
     -- ;; SabAHiy~_1
     -- SbAHy   SabAHiy~        N-ap    morning;matinal     [[SabAHiy~/ADJ]]
@@ -1872,7 +1872,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; SuborapF_1
     -- Sbrp    SuborapF        FW-Wa   on the whole;summarily    [[SuborapF/ADV]]
 
-    FuCL |< aT |< aN          `noun`    {- SuborapF -}         [ "on the whole", "summarily" ],
+    FuCL |< aT |< aN          `adv`     {- SuborapF -}         [ "on the whole", "summarily" ],
 
     -- ;; Sabuwr_1
     -- Sbwr    Sabuwr  N-ap    patient;enduring
@@ -2455,7 +2455,7 @@ lexicon = listing "Lexicon's properties"
     -- Sdfp    SudofapF        FW-Wa   by chance;by coincidence     [[SudofapF/ADV]]
     -- Sdf     Sudaf   N       coincidences
 
-    FuCL |< aT                `noun`    {- Sudofap -}          [ "chance", "coincidence", "by chance", "by coincidence", "coincidences" ]
+    FuCL |< aT                `adv`     {- Sudofap -}          [ "chance", "coincidence", "by chance", "by coincidence", "coincidences" ]
                               `plural`     FuCaL
                            {- `others`  [ ".sudaf N" ] -},
 

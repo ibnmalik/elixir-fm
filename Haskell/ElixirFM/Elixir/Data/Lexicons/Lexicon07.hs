@@ -95,9 +95,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL |< aT               `noun`    {- xaSiySap -}         [ "peculiarity", "feature", "attributes", "features" ],
 
-    FiCCIL                    `noun`    {- xiS~iyS -}          [ "especially", "specifically" ],
+    FiCCIL                    `adv`     {- xiS~iyS -}          [ "especially", "specifically" ],
 
-    FuCUL                     `noun`    {- xuSuwS -}           [ "matter", "issue", "regard", "respect", "especially", "in particular" ],
+    FuCUL                     `adv`     {- xuSuwS -}           [ "matter", "issue", "regard", "respect", "especially", "in particular" ],
 
     FuCUL |< Iy               `adj`     {- xuSuwSiy~ -}        [ "private", "personal", "special" ],
 
@@ -120,7 +120,7 @@ lexicon = listing "Lexicon's properties"
 
     FACL                      `adj`     {- xAS~ -}             [ "private", "exclusive" ],
 
-    FACL |< aT                `noun`    {- xAS~ap -}           [ "elite", "especially" ],
+    FACL |< aT                `adv`     {- xAS~ap -}           [ "elite", "especially" ],
 
     MuFaCCaL                  `adj`     {- muxaS~aS -}         [ "designated", "allocated", "allocations", "credits", "coupons" ]
                               `plural`     MuFaCCaL |< At,
@@ -759,6 +759,10 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCaL                   `verb`    {- Aixotalaf -}        [ "differ", "be different", "disagree" ],
 
+    FaCL |<< "a"              `prep`    {- xalofa -}           [ "behind" ]
+                              `plural`     FaCL
+                           {- `others`  [ "_half FW-Wa-o" ] -},
+
     FaCL |< Iy                `adj`     {- xalofiy~ -}         [ "rear", "hinder", "enigmatic" ],
 
     FaCL |< Iy |< aT          `noun`    {- xalofiy~ap -}       [ "background" ],
@@ -810,6 +814,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- xalal -}            [ "fault", "malfunction", "gap" ],
 
+    FiCAL |<< "a"             `prep`    {- xilAla -}           [ "during", "through" ],
+
     FaCIL                     `noun`    {- xaliyl -}           [ "Hebron" ],
 
     FaCIL                     `noun`    {- xaliyl -}           [ "friend", "friends" ]
@@ -860,7 +866,7 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCY                   `verb`    {- taxal~aY -}         [ "relinquish", "surrender" ],
 
-    FaCA                      `noun`    {- xalA -}             [ "except for" ],
+    FaCA                      `prep`    {- xalA -}             [ "except for" ],
 
     FiCL                      `noun`    {- xilow -}            [ "devoid", "free" ],
 
@@ -1027,9 +1033,13 @@ lexicon = listing "Lexicon's properties"
     IstiFCAL                  `noun`    {- AisotixorAj -}      [ "extraction", "removal", "deduction" ]
                               `plural`     IstiFCAL |< At,
 
+    FACiL |<< "a"             `prep`    {- xArija -}           [ "outside", "out of" ]
+                              `plural`     FACiL
+                           {- `others`  [ "_hAri^g FW-Wa-o" ] -},
+
     FACiL                     `noun`    {- xArij -}            [ "outside", "exterior", "outer part" ],
 
-    FACiL                     `noun`    {- xArij -}            [ "outside" ],
+    FACiL                     `adv`     {- xArij -}            [ "outside" ],
 
     FACiL |< aT               `noun`    {- xArijap -}          [ "(Al) Kharga" ],
 
@@ -1425,17 +1435,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- xAmani}iy~ -}       [ "Khamene'i" ] ]
 
- |> "_hAri^ga" <| [
-
-    Identity                  `noun`    {- xArija -}           [ "outside", "out of" ] ]
-
  |> "_hAymiy" <| [
 
     Identity                  `noun`    {- xAyomiy -}          [ "Jaime" ] ]
-
- |> "_halfa" <| [
-
-    Identity                  `noun`    {- xalofa -}           [ "behind" ] ]
 
  |> "_hamsmA'" <| [
 
@@ -1448,10 +1450,6 @@ lexicon = listing "Lexicon's properties"
  |> "_hi.damm" <| [
 
     Identity                  `noun`    {- xiDam~ -}           [ "vast" ] ]
-
- |> "_hilAla" <| [
-
-    Identity                  `noun`    {- xilAla -}           [ "during", "through" ] ]
 
  |> "_hulaywiyy" <| [
 

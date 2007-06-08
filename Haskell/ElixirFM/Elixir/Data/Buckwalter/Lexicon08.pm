@@ -842,7 +842,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -933,7 +933,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -1041,7 +1041,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FA\'iL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -1551,7 +1551,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCAL',
       'suffix' => '',
       'glosses' => [
@@ -4478,39 +4478,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'dA_hila' => [
-    {
-      'types' => {
-        'dA_hili' => {
-          'FW-Wa' => 1,
-          'FW-Wa-i' => 1
-        },
-        'dA_hil' => {
-          'FW-Wa-o' => 1
-        }
-      },
-      'entry' => 'dA_hila',
-      'form' => 'dA_hila',
-      'lines' => [
-        ';; dAxila_1',
-        'dAxl    dAxila  FW-Wa   inside of     [[dAxila/PREP]]',
-        'dAxl    dAxili  FW-Wa   inside of     [[dAxili/PREP]]',
-        'dAxl    dAxila  FW-Wa-a inside of     [[dAxila/PREP]]',
-        'dAxl    dAxili  FW-Wa-i inside of     [[dAxili/PREP]]',
-        'dAxl    dAxil   FW-Wa-o inside of     [[dAxil/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'inside of'
-      ],
-      'orig' => 'dAxila',
-      'prefix' => ''
-    }
-  ],
   'd w l' => [
     {
       'types' => {
@@ -4793,7 +4760,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MuFACaL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
@@ -6284,7 +6251,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'adv',
       'morphs' => 'Identity |< Iy |< aN',
       'suffix' => ' |< Iy |< aN',
       'glosses' => [
@@ -9778,6 +9745,41 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        'dA_hili' => {
+          'FW-Wa' => 1,
+          'FW-Wa-i' => 1
+        },
+        'dA_hil' => {
+          'FW-Wa-o' => 1
+        }
+      },
+      'entry' => 'dA_hil',
+      'form' => 'dA_hila',
+      'lines' => [
+        ';; dAxila_1',
+        'dAxl    dAxila  FW-Wa   inside of     [[dAxila/PREP]]',
+        'dAxl    dAxili  FW-Wa   inside of     [[dAxili/PREP]]',
+        'dAxl    dAxila  FW-Wa-a inside of     [[dAxila/PREP]]',
+        'dAxl    dAxili  FW-Wa-i inside of     [[dAxili/PREP]]',
+        'dAxl    dAxil   FW-Wa-o inside of     [[dAxil/PREP]]'
+      ],
+      'patterns' => {
+        'dA_hil' => [
+          'FACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FACiL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'inside of'
+      ],
+      'orig' => 'dAxila',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'dA_hil',
       'form' => 'dA_hil',
@@ -12761,7 +12763,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MuFCiL',
       'suffix' => '',
       'glosses' => [
@@ -12852,7 +12854,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FACiL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [],
@@ -23535,7 +23537,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'adv',
       'morphs' => 'HiFAL |< Iy |< aN',
       'suffix' => ' |< Iy |< aN',
       'glosses' => [
@@ -29253,51 +29255,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'duwna' => [
-    {
-      'types' => {
-        'biduwni' => {
-          'FW-Wa' => 1,
-          'FW-Wa-i' => 1
-        },
-        'duwni' => {
-          'FW-Wa' => 1,
-          'FW-Wa-i' => 1
-        },
-        'biduwn' => {
-          'FW-Wa-o' => 1
-        },
-        'duwn' => {
-          'FW-Wa-o' => 1
-        }
-      },
-      'entry' => 'duwna',
-      'form' => 'duwna',
-      'lines' => [
-        ';; duwna_1',
-        'dwn     duwna   FW-Wa   without;beneath;underneath     [[duwna/PREP]]',
-        'dwn     duwni   FW-Wa   without;beneath;underneath     [[duwni/PREP]]',
-        'bdwn    biduwni FW-Wa   without;beneath;underneath     [[biduwni/PREP]]',
-        'dwn     duwna   FW-Wa-a without;beneath;underneath     [[duwna/PREP]]',
-        'dwn     duwni   FW-Wa-i without;beneath;underneath     [[duwni/PREP]]',
-        'bdwn    biduwni FW-Wa-i without;beneath;underneath     [[biduwni/PREP]]',
-        'dwn     duwn    FW-Wa-o without;beneath;underneath     [[duwn/PREP]]',
-        'bdwn    biduwn  FW-Wa-o without;beneath;underneath     [[biduwn/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'without',
-        'beneath',
-        'underneath'
-      ],
-      'orig' => 'duwna',
-      'prefix' => ''
-    }
-  ],
   'd w _h' => [
     {
       'types' => {
@@ -31188,6 +31145,53 @@ $Lexicon = {
   'd w n' => [
     {
       'types' => {
+        'biduwni' => {
+          'FW-Wa' => 1,
+          'FW-Wa-i' => 1
+        },
+        'duwni' => {
+          'FW-Wa' => 1,
+          'FW-Wa-i' => 1
+        },
+        'biduwn' => {
+          'FW-Wa-o' => 1
+        },
+        'duwn' => {
+          'FW-Wa-o' => 1
+        }
+      },
+      'entry' => 'duwn',
+      'form' => 'duwna',
+      'lines' => [
+        ';; duwna_1',
+        'dwn     duwna   FW-Wa   without;beneath;underneath     [[duwna/PREP]]',
+        'dwn     duwni   FW-Wa   without;beneath;underneath     [[duwni/PREP]]',
+        'bdwn    biduwni FW-Wa   without;beneath;underneath     [[biduwni/PREP]]',
+        'dwn     duwna   FW-Wa-a without;beneath;underneath     [[duwna/PREP]]',
+        'dwn     duwni   FW-Wa-i without;beneath;underneath     [[duwni/PREP]]',
+        'bdwn    biduwni FW-Wa-i without;beneath;underneath     [[biduwni/PREP]]',
+        'dwn     duwn    FW-Wa-o without;beneath;underneath     [[duwn/PREP]]',
+        'bdwn    biduwn  FW-Wa-o without;beneath;underneath     [[biduwn/PREP]]'
+      ],
+      'patterns' => {
+        'duwn' => [
+          'FUL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FUL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'without',
+        'beneath',
+        'underneath'
+      ],
+      'orig' => 'duwna',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'dawwin' => {
           'IV-n_yu' => 1
         }
@@ -32756,28 +32760,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'dawAlayka' => [
-    {
-      'types' => {},
-      'entry' => 'dawAlayka',
-      'form' => 'dawAlayka',
-      'lines' => [
-        ';; dawAlayoka_1',
-        'dwAlyk  dawAlayoka      FW-Wa   successively;one by one     [[dawAlayoka/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'successively',
-        'one by one'
-      ],
-      'orig' => 'dawAlayoka',
-      'prefix' => ''
-    }
-  ],
   'd w \'' => [
     {
       'types' => {
@@ -32876,7 +32858,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -34574,6 +34556,28 @@ $Lexicon = {
         'Nile flood season'
       ],
       'orig' => 'damiyrap',
+      'prefix' => ''
+    }
+  ],
+  'dawAlayk' => [
+    {
+      'types' => {},
+      'entry' => 'dawAlayk',
+      'form' => 'dawAlayka',
+      'lines' => [
+        ';; dawAlayoka_1',
+        'dwAlyk  dawAlayoka      FW-Wa   successively;one by one     [[dawAlayoka/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'successively',
+        'one by one'
+      ],
+      'orig' => 'dawAlayoka',
       'prefix' => ''
     }
   ],

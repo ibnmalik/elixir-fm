@@ -904,7 +904,7 @@ lexicon = listing "Lexicon's properties"
     -- bAlTbE  biAlTaboE       FW-Wa   naturally;of course     [[biAlTaboE/ADV]]
     -- TbE     TaboE   NF      naturally;of course     [[TaboE/INTERJ]]
 
-    FaCL                      `noun`    {- TaboE -}            [ "temperament", "naturally", "of course" ],
+    FaCL                      `adv`     {- TaboE -}            [ "temperament", "naturally", "of course" ],
 
     -- ;; TaboE_2
     -- TbE     TaboE   N       printing
@@ -1239,7 +1239,7 @@ lexicon = listing "Lexicon's properties"
     -- Tbq     Tiboq   N0_Nh   according to;conforming with
     -- Tbq     Tiboq   NF      according to;in accordance with     [[Tiboq/ADV]]
 
-    FiCL                      `noun`    {- Tiboq -}            [ "according to", "conforming with", "in accordance with" ],
+    FiCL                      `adv`     {- Tiboq -}            [ "according to", "conforming with", "in accordance with" ],
 
     -- ;; Tabaq_1
     -- Tbq     Tabaq   Ndu     dish;course;meal
@@ -2620,7 +2620,7 @@ lexicon = listing "Lexicon's properties"
     -- <TlAq   <iTolAq NF      absolutely     [[<iTolAq/ADV]]
     -- ATlAq   <iTolAq NF      absolutely     [[<iTolAq/ADV]]
 
-    HiFCAL |< aN              `noun`    {- IiTolAqAF -}        [ "absolutely" ]
+    HiFCAL |< aN              `adv`     {- IiTolAqAF -}        [ "absolutely" ]
                               `plural`     HiFCAL
                            {- `others`  [ "'i.tlAq NF" ] -},
 
@@ -2641,7 +2641,7 @@ lexicon = listing "Lexicon's properties"
     -- <nTlAq  {inoTilAq       NF      proceeding (from);on the basis (of)     [[{inoTilAq/ADV]]
     -- AnTlAq  {inoTilAq       NF      proceeding (from);on the basis (of)     [[{inoTilAq/ADV]]
 
-    InFiCAL |< aN             `noun`    {- AinoTilAqAF -}      [ "proceeding (from)", "on the basis (of)" ]
+    InFiCAL |< aN             `adv`     {- AinoTilAqAF -}      [ "proceeding (from)", "on the basis (of)" ]
                               `plural`     InFiCAL
                            {- `others`  [ "in.tilAq NF" ] -},
 
@@ -4546,7 +4546,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Tur~_1
     -- Tr      Tur~    NF      altogether;one and all     [[Tur~/ADV]]
 
-    FuCL                      `noun`    {- Tur~ -}             [ "altogether", "one and all" ],
+    FuCL                      `adv`     {- Tur~ -}             [ "altogether", "one and all" ],
 
     -- ;; Tur~ap_1
     -- Tr      Tur~    Napdu   forelock;knotted cloth
@@ -4941,7 +4941,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; TawoEAF_1
     -- TwE     TawoE   NF      voluntarily     [[TawoE/ADV]]
 
-    FaCL |< aN                `noun`    {- TawoEAF -}          [ "voluntarily" ]
+    FaCL |< aN                `adv`     {- TawoEAF -}          [ "voluntarily" ]
                               `plural`     FaCL
                            {- `others`  [ ".taw` NF" ] -},
 
@@ -4953,7 +4953,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; TawoEiy~AF_1
     -- TwEy    TawoEiy~        NF      voluntarily     [[TawoEiy~/ADV]]
 
-    FaCL |< Iy |< aN          `adj`     {- TawoEiy~AF -}       [ "voluntarily" ],
+    FaCL |< Iy |< aN          `adv`     {- TawoEiy~AF -}       [ "voluntarily" ],
 
     -- ;; TawAEiy~ap_1
     -- TwAEy   TawAEiy~        Nap     voluntariness
@@ -4981,7 +4981,7 @@ lexicon = listing "Lexicon's properties"
     -- tTwE    taTaw~uE        N/At    voluntary
     -- tTwE    taTaw~uE        NF      voluntarily     [[taTaw~uE/ADV]]
 
-    TaFaCCuL                  `noun`    {- taTaw~uE -}         [ "voluntary", "voluntarily" ]
+    TaFaCCuL                  `adv`     {- taTaw~uE -}         [ "voluntary", "voluntarily" ]
                               `plural`     TaFaCCuL |< At,
 
     -- ;; taTaw~uEiy~_1
@@ -5327,6 +5327,18 @@ lexicon = listing "Lexicon's properties"
 
     FULAn |< Iy               `adj`     {- TuwlAniy~ -}        [ "longitudinal", "lengthwise" ],
 
+    -- ;; TiwAla_1
+    -- TwAl    TiwAla  FW-Wa   during     [[TiwAla/PREP]]
+    -- TwAl    TiwAla  FW-Wa-a during     [[TiwAla/PREP]]
+
+    FiCAL |<< "a"             `prep`    {- TiwAla -}           [ "during" ],
+
+    -- ;; Tiylapa_1
+    -- Tylp    Tiylapa FW-Wa   during     [[Tiylapa/PREP]]
+    -- Tylt    Tiylata FW-Wa-a during     [[Tiylata/PREP]]
+
+    FIL |< aT |<< "a"         `prep`    {- Tiylapa -}          [ "during" ],
+
     -- ;; Tawiyl_1
     -- Twyl    Tawiyl  N/ap    tall;long     [[Tawiyl/ADJ]]
     -- TwAl    TiwAl   N       tall;long     [[TiwAl/ADJ]]
@@ -5343,7 +5355,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; TawiylAF_1
     -- Twyl    Tawiyl  NF      for a long time;at length;extensively     [[Tawiyl/ADV]]
 
-    FaCIL |< aN               `noun`    {- TawiylAF -}         [ "for a long time", "at length", "extensively" ]
+    FaCIL |< aN               `adv`     {- TawiylAF -}         [ "for a long time", "at length", "extensively" ]
                               `plural`     FaCIL
                            {- `others`  [ ".tawiyl NF" ] -},
 
@@ -6041,6 +6053,12 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t y l" <| [
 
+    -- ;; Tiylapa_1
+    -- Tylp    Tiylapa FW-Wa   during     [[Tiylapa/PREP]]
+    -- Tylt    Tiylata FW-Wa-a during     [[Tiylata/PREP]]
+
+    FIL |< aT |<< "a"         `prep`    {- Tiylapa -}          [ "during" ],
+
     -- ;; musotaTiyl_1
     -- mstTyl  musotaTiyl      Nall    rectangular     [[musotaTiyl/ADJ]]
     -- mstTyl  musotaTiyl      Nall    prolonged     [[musotaTiyl/ADJ]]
@@ -6314,7 +6332,7 @@ lexicon = listing "Lexicon's properties"
     -- TAlmA   TAlamA  FW-Wa   as long as     [[TAlamA/CONJ]]
     -- lTAlmA  laTAlamA        FW-Wa   how often;as long as     [[la/EMPHATIC_PARTICLE+TAlamA/CONJ]]
 
-    Identity                  `noun`    {- TAlamA -}           [ "as long as", "how often" ] ]
+    Identity                  `part`    {- TAlamA -}           [ "as long as", "how often" ] ]
 
  |> ".tAlibAn" <| [
 
@@ -6334,12 +6352,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- TAlibAniy~ -}       [ "Talibani" ] ]
 
- |> ".t_aha" <| [
+ |> ".t_ah" <| [
 
     -- ;; T`ha_1
     -- Th      T`ha    N0      Taha
 
-    Identity                  `noun`    {- T`ha -}             [ "Taha" ] ]
+    Identity |<< "a"          `noun`    {- T`ha -}             [ "Taha" ] ]
 
  |> ".ta^sqand" <| [
 
@@ -6442,22 +6460,6 @@ lexicon = listing "Lexicon's properties"
     -- Tmr     Timir~  NduAt   race horse
 
     Identity                  `noun`    {- Timir~ -}           [ "race horse" ] ]
-
- |> ".tiwAla" <| [
-
-    -- ;; TiwAla_1
-    -- TwAl    TiwAla  FW-Wa   during     [[TiwAla/PREP]]
-    -- TwAl    TiwAla  FW-Wa-a during     [[TiwAla/PREP]]
-
-    Identity                  `noun`    {- TiwAla -}           [ "during" ] ]
-
- |> ".tiylaTa" <| [
-
-    -- ;; Tiylapa_1
-    -- Tylp    Tiylapa FW-Wa   during     [[Tiylapa/PREP]]
-    -- Tylt    Tiylata FW-Wa-a during     [[Tiylata/PREP]]
-
-    Identity                  `noun`    {- Tiylapa -}          [ "during" ] ]
 
  |> ".tubuw.grAfiyA" <| [
 

@@ -446,7 +446,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "l d y" <| [
 
-    FaCY                      `noun`    {- ladaY -}            [ "with/by", "with", "by" ]
+    FaCY                      `prep`    {- ladaY -}            [ "with/by", "with", "by" ]
                               `plural`     FaCaL
                            {- `others`  [ "laday FW-Wa-y" ] -} ]
 
@@ -601,7 +601,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "l m m" <| [
 
-    FaL                       `noun`    {- lam -}              [ "not" ],
+    FaL                       `part`    {- lam -}              [ "not" ],
 
     FaCL                      `verb`    {- lam~-u -}           [ "collect", "put in order" ]
                               `imperf`     FuCL
@@ -636,7 +636,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "l m y" <| [
 
-    FaC                       `noun`    {- lam -}              [ "not" ] ]
+    FaC                       `part`    {- lam -}              [ "not" ] ]
 
  |> "l n d n" <| [
 
@@ -646,11 +646,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "l n n" <| [
 
-    FaL                       `noun`    {- lan -}              [ "(will) not" ] ]
+    FaL                       `part`    {- lan -}              [ "(will) not" ] ]
 
  |> "l n y" <| [
 
-    FaC                       `noun`    {- lan -}              [ "(will) not" ] ]
+    FaC                       `part`    {- lan -}              [ "(will) not" ] ]
 
  |> "l q '" <| [
 
@@ -662,7 +662,7 @@ lexicon = listing "Lexicon's properties"
 
     TiFCAL |< Iy              `adj`     {- tiloqA}iy~ -}       [ "automatic", "spontaneous" ],
 
-    TiFCAL |< Iy |< aN        `adj`     {- tiloqA}iy~AF -}     [ "automatically", "spontaneously" ],
+    TiFCAL |< Iy |< aN        `adv`     {- tiloqA}iy~AF -}     [ "automatically", "spontaneously" ],
 
     HiFCAL                    `noun`    {- IiloqA' -}          [ "delivering", "throwing", "arresting" ]
                               `plural`     HiFCAL |< At
@@ -741,7 +741,7 @@ lexicon = listing "Lexicon's properties"
 
     TiFCA' |< Iy              `adj`     {- tiloqA}iy~ -}       [ "automatic", "spontaneous" ],
 
-    TiFCA' |< Iy |< aN        `adj`     {- tiloqA}iy~AF -}     [ "automatically", "spontaneously" ],
+    TiFCA' |< Iy |< aN        `adv`     {- tiloqA}iy~AF -}     [ "automatically", "spontaneously" ],
 
     HiFCA'                    `noun`    {- IiloqA' -}          [ "delivering", "throwing", "arresting" ]
                               `plural`     HiFCA' |< At,
@@ -885,9 +885,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "l w w" <| [
 
-    FaC                       `noun`    {- law -}              [ "if" ],
+    FaC                       `conj`    {- law -}              [ "if" ],
 
-    FaL                       `noun`    {- law -}              [ "if" ],
+    FaL                       `conj`    {- law -}              [ "if" ],
 
     FU                        `noun`    {- luw -}              [ "Le" ] ]
 
@@ -935,7 +935,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "l y l" <| [
 
-    FaCL                      `noun`    {- layol -}            [ "night", "nighttime", "at night", "by night" ],
+    FaCL                      `adv`     {- layol -}            [ "night", "nighttime", "at night", "by night" ],
 
     FaCL |< aT                `noun`    {- layolap -}          [ "night", "evening", "nights", "evenings", "soirees" ]
                               `plural`     FaCALI
@@ -978,6 +978,8 @@ lexicon = listing "Lexicon's properties"
     FIL |< aT                 `noun`    {- liyrap -}           [ "pound", "lira" ] ]
 
  |> "l y s" <| [
+
+    FaCL |<< "a"              `part`    {- layosa -}           [ "not + he/it (he/it is not)", "not + they [masc.du.] (they are not)", "not + they (they are not)", "not + it/she/they (it/she is not, they are not)", "not + they [fem.du.] (they are not)", "not + they [fem.] (they are not)", "not + you [masc.sg.] (you are not)", "not + you [masc.du.] (you are not)", "not + you [masc.pl.] (you are not)", "not + you [fem.sg.] (you are not)", "not + you [fem.du.] (you are not)", "not + you [fem.pl.] (you are not)", "not + I (I am not)", "not + we (we are not)" ],
 
     FaCiL                     `verb`    {- layis-a -}          [ "be valiant" ]
                               `imperf`     FCaL ]
@@ -1045,7 +1047,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "lA" <| [
 
-    Identity                  `noun`    {- lA -}               [ "no", "not" ] ]
+    Identity                  `part`    {- lA -}               [ "no", "not" ] ]
 
  |> "lA^suwtiyn" <| [
 
@@ -1061,27 +1063,23 @@ lexicon = listing "Lexicon's properties"
 
  |> "l_akin" <| [
 
-    Identity                  `noun`    {- l`kin -}            [ "however" ] ]
+    Identity                  `conj`    {- l`kin -}            [ "however" ] ]
 
- |> "l_akinna" <| [
+ |> "l_akinn" <| [
 
-    Identity                  `noun`    {- l`kin~a -}          [ "however" ] ]
+    Identity |<< "a"          `conj`    {- l`kin~a -}          [ "however" ] ]
 
  |> "lammA" <| [
 
-    Identity                  `noun`    {- lam~A -}            [ "when", "after" ] ]
+    Identity                  `conj`    {- lam~A -}            [ "when", "after" ] ]
 
  |> "lawlA" <| [
 
-    Identity                  `noun`    {- lawolA -}           [ "if not" ] ]
-
- |> "laysa" <| [
-
-    Identity                  `noun`    {- layosa -}           [ "not + he/it (he/it is not)", "not + they [masc.du.] (they are not)", "not + they (they are not)", "not + it/she/they (it/she is not, they are not)", "not + they [fem.du.] (they are not)", "not + they [fem.] (they are not)", "not + you [masc.sg.] (you are not)", "not + you [masc.du.] (you are not)", "not + you [masc.pl.] (you are not)", "not + you [fem.sg.] (you are not)", "not + you [fem.du.] (you are not)", "not + you [fem.pl.] (you are not)", "not + I (I am not)", "not + we (we are not)" ] ]
+    Identity                  `conj`    {- lawolA -}           [ "if not" ] ]
 
  |> "li-" <| [
 
-    Identity                  `noun`    {- li- -}              [ "to/for + it/him (it/he has)", "to/for + them both (they both have)", "to/for + it/them/her (it/she has, they have)", "to/for + them [masc.pl.] (they have)", "to/for + them [fem.pl.] (they have)", "to/for + you [masc.sg.] (you have)", "to/for + you [fem.sg.] (you have)", "to/for + you both (you both have)", "to/for + you [masc.pl.] (you have)", "to/for + you [fem.pl.] (you have)", "to/for + me (I have)", "to/for + us (we have)" ] ]
+    Identity                  `prep`    {- li- -}              [ "to/for + it/him (it/he has)", "to/for + them both (they both have)", "to/for + it/them/her (it/she has, they have)", "to/for + them [masc.pl.] (they have)", "to/for + them [fem.pl.] (they have)", "to/for + you [masc.sg.] (you have)", "to/for + you [fem.sg.] (you have)", "to/for + you both (you both have)", "to/for + you [masc.pl.] (you have)", "to/for + you [fem.pl.] (you have)", "to/for + me (I have)", "to/for + us (we have)" ] ]
 
  |> "litwAniyA" <| [
 
@@ -1175,5 +1173,5 @@ lexicon = listing "Lexicon's properties"
 
  |> "mAlam" <| [
 
-    Identity                  `noun`    {- mAlam -}            [ "as long as" ] ]
+    Identity                  `conj`    {- mAlam -}            [ "as long as" ] ]
 

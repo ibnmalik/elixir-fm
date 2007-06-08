@@ -166,7 +166,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- kavorap -}          [ "abundance", "frequency" ],
 
-    FaCIL                     `noun`    {- kaviyr -}           [ "many", "much", "numerous", "a lot", "very" ]
+    FaCIL                     `adv`     {- kaviyr -}           [ "many", "much", "numerous", "a lot", "very" ]
                               `plural`     FiCAL
                            {- `others`  [ "ki_tAr N" ] -},
 
@@ -552,7 +552,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "k m '" <| [
 
-    FaCA                      `noun`    {- kamA -}             [ "and", "as", "also" ] ]
+    FaCA                      `conj`    {- kamA -}             [ "and", "as", "also" ] ]
 
  |> "k m ^s" <| [
 
@@ -613,9 +613,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "k m m" <| [
 
-    FaL                       `noun`    {- kam -}              [ "how many/much" ],
+    FaL                       `pron`    {- kam -}              [ "how many/much" ],
 
-    FaL                       `noun`    {- kam -}              [ "how many/much" ],
+    FaL                       `part`    {- kam -}              [ "how many/much" ],
 
     FaCL                      `verb`    {- kam~-u -}           [ "cover", "hide" ]
                               `imperf`     FuCL
@@ -652,9 +652,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "k m y" <| [
 
-    FaC                       `noun`    {- kam -}              [ "how many/much" ],
+    FaC                       `pron`    {- kam -}              [ "how many/much" ],
 
-    FaC                       `noun`    {- kam -}              [ "how many/much" ] ]
+    FaC                       `part`    {- kam -}              [ "how many/much" ] ]
 
  |> "k n `" <| [
 
@@ -792,7 +792,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFACiL
                            {- `others`  [ "'akArim Ndip" ] -},
 
-    TaFCIL                    `noun`    {- takoriym -}         [ "honoring", "tribute", "in honor of" ]
+    TaFCIL                    `adv`     {- takoriym -}         [ "honoring", "tribute", "in honor of" ]
                               `plural`     TaFCIL |< At,
 
     MuFaCCaL                  `adj`     {- mukar~am -}         [ "honored", "revered" ],
@@ -1045,7 +1045,7 @@ lexicon = listing "Lexicon's properties"
     FAL                       `verb`    {- kAd-a -}            [ "almost", "hardly", "no sooner" ]
                               `pfirst`     FiL,
 
-    FAL                       `noun`    {- kAd -}              [ "almost" ] ]
+    FAL                       `prep`    {- kAd -}              [ "almost" ] ]
 
  |> "k w f" <| [
 
@@ -1172,6 +1172,8 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- takay~af -}         [ "be conditioned" ],
 
+    FaCL |<< "a"              `part`    {- kayofa -}           [ "how" ],
+
     FaCL |< Iy |< aT          `noun`    {- kayofiy~ap -}       [ "manner", "mode", "way" ],
 
     TaFCIL                    `noun`    {- takoyiyf -}         [ "conditioning" ]
@@ -1245,9 +1247,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "k y y" <| [
 
-    FaC                       `noun`    {- kay -}              [ "in order to" ],
+    FaC                       `conj`    {- kay -}              [ "in order to" ],
 
-    FaL                       `noun`    {- kay -}              [ "in order to" ] ]
+    FaL                       `conj`    {- kay -}              [ "in order to" ] ]
 
  |> "kA_tuwliyk" <| [
 
@@ -1387,13 +1389,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- karobalA' -}        [ "Karbala" ] ]
 
- |> "kayfa" <| [
-
-    Identity                  `noun`    {- kayofa -}           [ "how" ] ]
-
  |> "kayfamA" <| [
 
-    Identity                  `noun`    {- kayofamA -}         [ "whichever/however" ] ]
+    Identity                  `conj`    {- kayofamA -}         [ "whichever/however" ] ]
 
  |> "kibriytiyk" <| [
 
@@ -1401,7 +1399,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "kilA" <| [
 
-    Identity                  `noun`    {- kilA -}             [ "both of", "both of them" ] ]
+    Identity                  `part`    {- kilA -}             [ "both of", "both of them" ] ]
 
  |> "kiniysit" <| [
 
@@ -1509,7 +1507,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "kullamA" <| [
 
-    Identity                  `noun`    {- kul~amA -}          [ "whenever" ] ]
+    Identity                  `conj`    {- kul~amA -}          [ "whenever" ] ]
 
  |> "kunfidrAl" <| [
 
@@ -1705,5 +1703,5 @@ lexicon = listing "Lexicon's properties"
 
  |> "takrAr" <| [
 
-    Identity                  `noun`    {- takorAr -}          [ "repetition", "reiteration", "frequency", "repeatedly", "frequently" ] ]
+    Identity                  `adv`     {- takorAr -}          [ "repetition", "reiteration", "frequency", "repeatedly", "frequently" ] ]
 

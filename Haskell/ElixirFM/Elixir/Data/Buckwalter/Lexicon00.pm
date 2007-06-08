@@ -121,6 +121,36 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'k' => [
+    {
+      'types' => {
+        'k' => {
+          'FW' => 1
+        }
+      },
+      'entry' => 'k',
+      'form' => 'ka',
+      'lines' => [
+        ';; ka_1',
+        'k       ka      FW      as;like     [[ka/PREP]]',
+        'k       k       FW      K;11th;(kilo-)     [[k/ABBREV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'as',
+        'like',
+        'K',
+        '11th',
+        '(kilo-)'
+      ],
+      'orig' => 'ka',
+      'prefix' => ''
+    }
+  ],
   'At^s' => [
     {
       'types' => {},
@@ -442,33 +472,33 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'li' => [
+  'b' => [
     {
       'types' => {
-        'l' => {
+        'b' => {
           'FW' => 1
         }
       },
-      'entry' => 'li',
-      'form' => 'li',
+      'entry' => 'b',
+      'form' => 'bi',
       'lines' => [
-        ';; li_1',
-        'l       li      FW      for;to     [[li/PREP]]',
-        'l       l       FW      L;12th;(pounds/lira)     [[l/ABBREV]]'
+        ';; bi_1',
+        'b       bi      FW      with;by     [[bi/PREP]]',
+        'b       b       FW      B;2nd;P     [[b/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'prep',
+      'morphs' => 'Identity |<< "i"',
+      'suffix' => ' |<< "i"',
       'glosses' => [
-        'for',
-        'to',
-        'L',
-        '12th',
-        '(pounds/lira)'
+        'with',
+        'by',
+        'B',
+        '2nd',
+        'P'
       ],
-      'orig' => 'li',
+      'orig' => 'bi',
       'prefix' => ''
     }
   ],
@@ -583,6 +613,34 @@ $Lexicon = {
         '(street)'
       ],
       'orig' => '$',
+      'prefix' => ''
+    }
+  ],
+  'w' => [
+    {
+      'types' => {
+        'w' => {
+          'FW' => 1
+        }
+      },
+      'entry' => 'w',
+      'form' => 'wa',
+      'lines' => [
+        ';; wa_1',
+        'w       wa      FW      and       [[wa/CONJ]]',
+        'w       w       FW      W;6th     [[w/ABBREV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'conj',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'and',
+        'W',
+        '6th'
+      ],
+      'orig' => 'wa',
       'prefix' => ''
     }
   ],
@@ -810,57 +868,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ka' => [
-    {
-      'types' => {
-        'k' => {
-          'FW' => 1
-        }
-      },
-      'entry' => 'ka',
-      'form' => 'ka',
-      'lines' => [
-        ';; ka_1',
-        'k       ka      FW      as;like     [[ka/PREP]]',
-        'k       k       FW      K;11th;(kilo-)     [[k/ABBREV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'as',
-        'like',
-        'K',
-        '11th',
-        '(kilo-)'
-      ],
-      'orig' => 'ka',
-      'prefix' => ''
-    }
-  ],
-  '\'i' => [
-    {
-      'types' => {},
-      'entry' => '\'i',
-      'form' => '\'i',
-      'lines' => [
-        ';; <i_1',
-        '<       <i      FW      I     [[<i/ABBREV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'I'
-      ],
-      'orig' => 'Ii',
-      'prefix' => ''
-    }
-  ],
   '-- \' y' => [
     {
       'types' => {},
@@ -919,61 +926,33 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'wa' => [
+  'f' => [
     {
       'types' => {
-        'w' => {
+        'f' => {
           'FW' => 1
         }
       },
-      'entry' => 'wa',
-      'form' => 'wa',
+      'entry' => 'f',
+      'form' => 'fa',
       'lines' => [
-        ';; wa_1',
-        'w       wa      FW      and       [[wa/CONJ]]',
-        'w       w       FW      W;6th     [[w/ABBREV]]'
+        ';; fa_1',
+        'f       fa      FW      and;so     [[fa/CONJ]]',
+        'f       f       FW      F;17th;(fils)     [[f/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'conj',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
       'glosses' => [
         'and',
-        'W',
-        '6th'
+        'so',
+        'F',
+        '17th',
+        '(fils)'
       ],
-      'orig' => 'wa',
-      'prefix' => ''
-    }
-  ],
-  'bi' => [
-    {
-      'types' => {
-        'b' => {
-          'FW' => 1
-        }
-      },
-      'entry' => 'bi',
-      'form' => 'bi',
-      'lines' => [
-        ';; bi_1',
-        'b       bi      FW      with;by     [[bi/PREP]]',
-        'b       b       FW      B;2nd;P     [[b/ABBREV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'with',
-        'by',
-        'B',
-        '2nd',
-        'P'
-      ],
-      'orig' => 'bi',
+      'orig' => 'fa',
       'prefix' => ''
     }
   ],
@@ -1045,36 +1024,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fa' => [
-    {
-      'types' => {
-        'f' => {
-          'FW' => 1
-        }
-      },
-      'entry' => 'fa',
-      'form' => 'fa',
-      'lines' => [
-        ';; fa_1',
-        'f       fa      FW      and;so     [[fa/CONJ]]',
-        'f       f       FW      F;17th;(fils)     [[f/ABBREV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'and',
-        'so',
-        'F',
-        '17th',
-        '(fils)'
-      ],
-      'orig' => 'fa',
-      'prefix' => ''
-    }
-  ],
   '-- b y' => [
     {
       'types' => {},
@@ -1096,26 +1045,33 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'a' => [
+  'l' => [
     {
-      'types' => {},
-      'entry' => '\'a',
-      'form' => '\'a',
+      'types' => {
+        'l' => {
+          'FW' => 1
+        }
+      },
+      'entry' => 'l',
+      'form' => 'li',
       'lines' => [
-        ';; >a_1',
-        '>       >a      FW      A;1st     [[>a/ABBREV]]',
-        'A       >a      FW      A;1st     [[>a/ABBREV]]'
+        ';; li_1',
+        'l       li      FW      for;to     [[li/PREP]]',
+        'l       l       FW      L;12th;(pounds/lira)     [[l/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'prep',
+      'morphs' => 'Identity |<< "i"',
+      'suffix' => ' |<< "i"',
       'glosses' => [
-        'A',
-        '1st'
+        'for',
+        'to',
+        'L',
+        '12th',
+        '(pounds/lira)'
       ],
-      'orig' => 'Oa',
+      'orig' => 'li',
       'prefix' => ''
     }
   ],
@@ -1181,6 +1137,48 @@ $Lexicon = {
         'J.'
       ],
       'orig' => 'jiy',
+      'prefix' => ''
+    }
+  ],
+  '\'' => [
+    {
+      'types' => {},
+      'entry' => '\'',
+      'form' => '\'a',
+      'lines' => [
+        ';; >a_1',
+        '>       >a      FW      A;1st     [[>a/ABBREV]]',
+        'A       >a      FW      A;1st     [[>a/ABBREV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'A',
+        '1st'
+      ],
+      'orig' => 'Oa',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'',
+      'form' => '\'i',
+      'lines' => [
+        ';; <i_1',
+        '<       <i      FW      I     [[<i/ABBREV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |<< "i"',
+      'suffix' => ' |<< "i"',
+      'glosses' => [
+        'I'
+      ],
+      'orig' => 'Ii',
       'prefix' => ''
     }
   ]

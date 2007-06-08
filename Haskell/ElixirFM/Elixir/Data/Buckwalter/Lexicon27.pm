@@ -237,7 +237,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'adv',
       'morphs' => 'FiCAL |< Iy |< aN',
       'suffix' => ' |< Iy |< aN',
       'glosses' => [
@@ -1843,7 +1843,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -2867,35 +2867,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'wifqa' => [
-    {
-      'types' => {
-        'wifq' => {
-          'NF' => 1
-        }
-      },
-      'entry' => 'wifqa',
-      'form' => 'wifqa',
-      'lines' => [
-        ';; wifoqa_1',
-        'wfq     wifoqa  FW-Wa   according to;in accordance with     [[wifoqa/ADV]]',
-        'wfq     wifoqa  FW-Wa-a according to;in accordance with     [[wifoqa/ADV]]',
-        'wfq     wifoq   NF      according to;in accordance with;pursuant to     [[wafoq/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'according to',
-        'in accordance with',
-        'pursuant to'
-      ],
-      'orig' => 'wifoqa',
-      'prefix' => ''
-    }
-  ],
   'w .t s' => [
     {
       'types' => {},
@@ -3090,6 +3061,57 @@ $Lexicon = {
         'Wanchope'
       ],
       'orig' => 'wAnt$uwb',
+      'prefix' => ''
+    }
+  ],
+  'w y .h' => [
+    {
+      'types' => {
+        'way.haka' => {
+          'FW-Wa' => 1
+        },
+        'way.hakumA' => {
+          'FW-Wa' => 1
+        },
+        'way.haki' => {
+          'FW-Wa' => 1
+        },
+        'way.hakunna' => {
+          'FW-Wa' => 1
+        },
+        'way.hakum' => {
+          'FW-Wa' => 1
+        },
+        'way.haN' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => 'way.h',
+      'form' => 'way.ha',
+      'lines' => [
+        ';; wayoHa_1',
+        'wyH     wayoHa  FW-Wa   woe unto                     [[wayoHa/INTERJ]]',
+        'wyHA    wayoHAF FW-Wa   woe unto                     [[wayoHAF/INTERJ]]',
+        'wyHk    wayoHaka        FW-Wa   woe unto + you [masc.sg.]    [[wayoHa/INTERJ+ka/PRON_2MS]]',
+        'wyHk    wayoHaki        FW-Wa   woe unto + you [fem.sg.]     [[wayoHa/INTERJ+ki/PRON_2FS]]',
+        'wyHkmA  wayoHakumA      FW-Wa   woe unto + you both          [[wayoHa/INTERJ+kumA/PRON_2D]]',
+        'wyHkm   wayoHakum       FW-Wa   woe unto + you [masc.pl.]    [[wayoHa/INTERJ+kum/PRON_2MP]]',
+        'wyHkn   wayoHakun~a     FW-Wa   woe unto + you [fem.pl.]     [[wayoHa/INTERJ+kun~a/PRON_2FP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'pron',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'woe unto',
+        'woe unto + you [masc.sg.]',
+        'woe unto + you [fem.sg.]',
+        'woe unto + you both',
+        'woe unto + you [masc.pl.]',
+        'woe unto + you [fem.pl.]'
+      ],
+      'orig' => 'wayoHa',
       'prefix' => ''
     }
   ],
@@ -4373,6 +4395,44 @@ $Lexicon = {
   ],
   'w r \'' => [
     {
+      'types' => {
+        'warA\'' => {
+          'FW-Wa-o' => 1
+        },
+        'warA\'i' => {
+          'FW-Wa' => 1,
+          'FW-Wa-i' => 1
+        }
+      },
+      'entry' => 'warA\'',
+      'form' => 'warA\'a',
+      'lines' => [
+        ';; warA\'a_1',
+        'wrA\'    warA\'a  FW-Wa   behind;past;beyond     [[warA\'a/PREP]]',
+        'wrA\'    warA\'i  FW-Wa   behind;past;beyond     [[warA\'i/PREP]]',
+        'wrA\'    warA\'a  FW-Wa-a behind;past;beyond     [[warA\'a/PREP]]',
+        'wrA}    warA}i  FW-Wa-i behind;past;beyond     [[warA}i/PREP]]',
+        'wrA}    warA}   FW-Wa-o behind;past;beyond     [[warA}/PREP]]'
+      ],
+      'patterns' => {
+        'warA\'' => [
+          'FaCAL',
+          'FaCA\''
+        ]
+      },
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FaCAL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'behind',
+        'past',
+        'beyond'
+      ],
+      'orig' => 'warA\'a',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'warA\'',
       'form' => 'warA\'',
@@ -4393,6 +4453,25 @@ $Lexicon = {
         'beyond'
       ],
       'orig' => 'warA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'warA\'',
+      'form' => 'warA\'u',
+      'lines' => [
+        ';; warA\'u_1',
+        'wrA\'    warA\'u  FW-Wa   behind     [[warA\'u/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'FaCAL |<< "u"',
+      'suffix' => ' |<< "u"',
+      'glosses' => [
+        'behind'
+      ],
+      'orig' => 'warA\'u',
       'prefix' => ''
     },
     {
@@ -5716,7 +5795,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -8688,7 +8767,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCA\'',
       'suffix' => '',
       'glosses' => [
@@ -9240,6 +9319,37 @@ $Lexicon = {
         'be agreed'
       ],
       'orig' => 'Ait~afaq',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'wifq' => {
+          'NF' => 1
+        }
+      },
+      'entry' => 'wifq',
+      'form' => 'wifqa',
+      'lines' => [
+        ';; wifoqa_1',
+        'wfq     wifoqa  FW-Wa   according to;in accordance with     [[wifoqa/ADV]]',
+        'wfq     wifoqa  FW-Wa-a according to;in accordance with     [[wifoqa/ADV]]',
+        'wfq     wifoq   NF      according to;in accordance with;pursuant to     [[wafoq/ADV]]'
+      ],
+      'patterns' => {
+        'wifq' => [
+          'FiCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'FiCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'according to',
+        'in accordance with',
+        'pursuant to'
+      ],
+      'orig' => 'wifoqa',
       'prefix' => ''
     },
     {
@@ -11808,41 +11918,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'warA\'a' => [
-    {
-      'types' => {
-        'warA\'' => {
-          'FW-Wa-o' => 1
-        },
-        'warA\'i' => {
-          'FW-Wa' => 1,
-          'FW-Wa-i' => 1
-        }
-      },
-      'entry' => 'warA\'a',
-      'form' => 'warA\'a',
-      'lines' => [
-        ';; warA\'a_1',
-        'wrA\'    warA\'a  FW-Wa   behind;past;beyond     [[warA\'a/PREP]]',
-        'wrA\'    warA\'i  FW-Wa   behind;past;beyond     [[warA\'i/PREP]]',
-        'wrA\'    warA\'a  FW-Wa-a behind;past;beyond     [[warA\'a/PREP]]',
-        'wrA}    warA}i  FW-Wa-i behind;past;beyond     [[warA}i/PREP]]',
-        'wrA}    warA}   FW-Wa-o behind;past;beyond     [[warA}/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'behind',
-        'past',
-        'beyond'
-      ],
-      'orig' => 'warA\'a',
-      'prefix' => ''
-    }
-  ],
   'w .s m' => [
     {
       'types' => {
@@ -12961,57 +13036,6 @@ $Lexicon = {
         'traveling bags'
       ],
       'orig' => 'wafoDap',
-      'prefix' => ''
-    }
-  ],
-  'way.ha' => [
-    {
-      'types' => {
-        'way.haka' => {
-          'FW-Wa' => 1
-        },
-        'way.hakumA' => {
-          'FW-Wa' => 1
-        },
-        'way.haki' => {
-          'FW-Wa' => 1
-        },
-        'way.hakunna' => {
-          'FW-Wa' => 1
-        },
-        'way.hakum' => {
-          'FW-Wa' => 1
-        },
-        'way.haN' => {
-          'FW-Wa' => 1
-        }
-      },
-      'entry' => 'way.ha',
-      'form' => 'way.ha',
-      'lines' => [
-        ';; wayoHa_1',
-        'wyH     wayoHa  FW-Wa   woe unto                     [[wayoHa/INTERJ]]',
-        'wyHA    wayoHAF FW-Wa   woe unto                     [[wayoHAF/INTERJ]]',
-        'wyHk    wayoHaka        FW-Wa   woe unto + you [masc.sg.]    [[wayoHa/INTERJ+ka/PRON_2MS]]',
-        'wyHk    wayoHaki        FW-Wa   woe unto + you [fem.sg.]     [[wayoHa/INTERJ+ki/PRON_2FS]]',
-        'wyHkmA  wayoHakumA      FW-Wa   woe unto + you both          [[wayoHa/INTERJ+kumA/PRON_2D]]',
-        'wyHkm   wayoHakum       FW-Wa   woe unto + you [masc.pl.]    [[wayoHa/INTERJ+kum/PRON_2MP]]',
-        'wyHkn   wayoHakun~a     FW-Wa   woe unto + you [fem.pl.]     [[wayoHa/INTERJ+kun~a/PRON_2FP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'woe unto',
-        'woe unto + you [masc.sg.]',
-        'woe unto + you [fem.sg.]',
-        'woe unto + you both',
-        'woe unto + you [masc.pl.]',
-        'woe unto + you [fem.pl.]'
-      ],
-      'orig' => 'wayoHa',
       'prefix' => ''
     }
   ],
@@ -14388,34 +14412,6 @@ $Lexicon = {
         'document'
       ],
       'orig' => 'wavA}iqiy~',
-      'prefix' => ''
-    }
-  ],
-  'tu^gAha' => [
-    {
-      'types' => {
-        'tu^gAh' => {
-          'FW-Wa-o' => 1
-        }
-      },
-      'entry' => 'tu^gAha',
-      'form' => 'tu^gAha',
-      'lines' => [
-        ';; tujAha_1',
-        'tjAh    tujAha  FW-Wa   towards;facing     [[tujAha/PREP]]',
-        'tjAh    tujAha  FW-Wa-a towards;facing     [[tujAha/PREP]]',
-        'tjAh    tujAh   FW-Wa-o towards;facing     [[tujAh/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'towards',
-        'facing'
-      ],
-      'orig' => 'tujAha',
       'prefix' => ''
     }
   ],
@@ -19603,41 +19599,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'was.ta' => [
-    {
-      'types' => {
-        'was.t' => {
-          'FW-Wa-o' => 1
-        },
-        'was.ti' => {
-          'FW-Wa' => 1,
-          'FW-Wa-i' => 1
-        }
-      },
-      'entry' => 'was.ta',
-      'form' => 'was.ta',
-      'lines' => [
-        ';; wasoTa_1',
-        'wsT     wasoTa  FW-Wa   middle;midst;among     [[wasoTa/PREP]]',
-        'wsT     wasoTi  FW-Wa   middle;midst;among     [[wasoTi/PREP]]',
-        'wsT     wasoTa  FW-Wa-a middle;midst;among     [[wasoTa/PREP]]',
-        'wsT     wasoTi  FW-Wa-i middle;midst;among     [[wasoTi/PREP]]',
-        'wsT     wasoT   FW-Wa-o middle;midst;among     [[wasoT/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'middle',
-        'midst',
-        'among'
-      ],
-      'orig' => 'wasoTa',
-      'prefix' => ''
-    }
-  ],
   'w k d' => [
     {
       'types' => {
@@ -22321,7 +22282,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCAL',
       'suffix' => '',
       'glosses' => [],
@@ -23365,6 +23326,24 @@ $Lexicon = {
     {
       'types' => {},
       'entry' => 'warA\'',
+      'form' => 'warA\'a',
+      'lines' => [],
+      'patterns' => {
+        'warA\'' => [
+          'FaCA\''
+        ]
+      },
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FaCA\' |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [],
+      'orig' => 'warA\'a',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'warA\'',
       'form' => 'warA\'',
       'lines' => [],
       'patterns' => {},
@@ -23374,6 +23353,20 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'warA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'warA\'',
+      'form' => 'warA\'u',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'FaCA\' |<< "u"',
+      'suffix' => ' |<< "u"',
+      'glosses' => [],
+      'orig' => 'warA\'u',
       'prefix' => ''
     },
     {
@@ -25501,7 +25494,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCIL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -26905,7 +26898,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -28300,7 +28293,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'FaC',
       'suffix' => '',
       'glosses' => [
@@ -28321,7 +28314,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'FaL',
       'suffix' => '',
       'glosses' => [],
@@ -29682,6 +29675,44 @@ $Lexicon = {
         'be in the middle'
       ],
       'orig' => 'tawas~aT',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'was.t' => {
+          'FW-Wa-o' => 1
+        },
+        'was.ti' => {
+          'FW-Wa' => 1,
+          'FW-Wa-i' => 1
+        }
+      },
+      'entry' => 'was.t',
+      'form' => 'was.ta',
+      'lines' => [
+        ';; wasoTa_1',
+        'wsT     wasoTa  FW-Wa   middle;midst;among     [[wasoTa/PREP]]',
+        'wsT     wasoTi  FW-Wa   middle;midst;among     [[wasoTi/PREP]]',
+        'wsT     wasoTa  FW-Wa-a middle;midst;among     [[wasoTa/PREP]]',
+        'wsT     wasoTi  FW-Wa-i middle;midst;among     [[wasoTi/PREP]]',
+        'wsT     wasoT   FW-Wa-o middle;midst;among     [[wasoT/PREP]]'
+      ],
+      'patterns' => {
+        'was.t' => [
+          'FaCL',
+          'FtaCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'middle',
+        'midst',
+        'among'
+      ],
+      'orig' => 'wasoTa',
       'prefix' => ''
     },
     {
@@ -31799,27 +31830,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'warA\'u' => [
-    {
-      'types' => {},
-      'entry' => 'warA\'u',
-      'form' => 'warA\'u',
-      'lines' => [
-        ';; warA\'u_1',
-        'wrA\'    warA\'u  FW-Wa   behind     [[warA\'u/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'behind'
-      ],
-      'orig' => 'warA\'u',
-      'prefix' => ''
-    }
-  ],
   'w h l' => [
     {
       'types' => {
@@ -32164,7 +32174,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'HICAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -36158,7 +36168,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -37733,6 +37743,34 @@ $Lexicon = {
         'droning'
       ],
       'orig' => 'wan~',
+      'prefix' => ''
+    }
+  ],
+  'tu^gAh' => [
+    {
+      'types' => {
+        'tu^gAh' => {
+          'FW-Wa-o' => 1
+        }
+      },
+      'entry' => 'tu^gAh',
+      'form' => 'tu^gAha',
+      'lines' => [
+        ';; tujAha_1',
+        'tjAh    tujAha  FW-Wa   towards;facing     [[tujAha/PREP]]',
+        'tjAh    tujAha  FW-Wa-a towards;facing     [[tujAha/PREP]]',
+        'tjAh    tujAh   FW-Wa-o towards;facing     [[tujAh/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'towards',
+        'facing'
+      ],
+      'orig' => 'tujAha',
       'prefix' => ''
     }
   ],
@@ -42188,6 +42226,12 @@ $Lexicon->{'w r y'}[7]{'glosses'} = $Lexicon->{'w r \''}[0]{'glosses'};
 $Lexicon->{'w r y'}[8]{'types'} = $Lexicon->{'w r \''}[1]{'types'};
 $Lexicon->{'w r y'}[8]{'lines'} = $Lexicon->{'w r \''}[1]{'lines'};
 $Lexicon->{'w r y'}[8]{'glosses'} = $Lexicon->{'w r \''}[1]{'glosses'};
+$Lexicon->{'w r y'}[9]{'types'} = $Lexicon->{'w r \''}[2]{'types'};
+$Lexicon->{'w r y'}[9]{'lines'} = $Lexicon->{'w r \''}[2]{'lines'};
+$Lexicon->{'w r y'}[9]{'glosses'} = $Lexicon->{'w r \''}[2]{'glosses'};
+$Lexicon->{'w r y'}[10]{'types'} = $Lexicon->{'w r \''}[3]{'types'};
+$Lexicon->{'w r y'}[10]{'lines'} = $Lexicon->{'w r \''}[3]{'lines'};
+$Lexicon->{'w r y'}[10]{'glosses'} = $Lexicon->{'w r \''}[3]{'glosses'};
 $Lexicon->{'w y y'}[1]{'types'} = $Lexicon->{'w y y'}[0]{'types'};
 $Lexicon->{'w y y'}[1]{'lines'} = $Lexicon->{'w y y'}[0]{'lines'};
 $Lexicon->{'w y y'}[1]{'glosses'} = $Lexicon->{'w y y'}[0]{'glosses'};

@@ -212,7 +212,7 @@ lexicon = listing "Lexicon's properties"
     -- b$>n    bi$a>on FW-Wa-o concerning;regarding     [[bi/PREP+$a>on/NOUN]]
     -- b$An    bi$a>oni        FW-Wa   concerning;regarding                                [[bi$a>oni/PREP]]
 
-    FaCL                      `noun`    {- \$aOon -}           [ "matter", "affair", "affairs", "matters", "concerning", "regarding" ]
+    FaCL                      `prep`    {- \$aOon -}           [ "matter", "affair", "affairs", "matters", "concerning", "regarding" ]
                               `plural`     FuCUL
                            {- `others`  [ "^su'uwn N" ] -},
 
@@ -1148,6 +1148,12 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCUL
                            {- `others`  [ "^su.tuwr N" ] -},
 
+    -- ;; $aTora_1
+    -- \$Tr     $aTora  FW-Wa   towards     [[$aTora/PREP]]
+    -- \$Tr     $aTora  FW-Wa-a towards     [[$aTora/PREP]]
+
+    FaCL |<< "a"              `prep`    {- \$aTora -}          [ "towards" ],
+
     -- ;; $iTorap_1
     -- \$Tr     $iTor   Nap     side;half
 
@@ -1832,7 +1838,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $axoSiy~AF_1
     -- \$xSy    $axoSiy~        NF      in person;personally     [[$axoSiy~/ADV]]
 
-    FaCL |< Iy |< aN          `adj`     {- \$axoSiy~AF -}      [ "in person", "personally" ],
+    FaCL |< Iy |< aN          `adv`     {- \$axoSiy~AF -}      [ "in person", "personally" ],
 
     -- ;; $axoSiy~ap_1
     -- \$xSy    $axoSiy~        NapAt   identity;person;personality     [[$axoSiy~/NOUN]]
@@ -4035,7 +4041,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $ifAhAF_1
     -- \$fAh    $ifAh   NF      orally;verbally     [[$ifAh/ADV]]
 
-    FiCAL |< aN               `noun`    {- \$ifAhAF -}         [ "orally", "verbally" ]
+    FiCAL |< aN               `adv`     {- \$ifAhAF -}         [ "orally", "verbally" ]
                               `plural`     FiCAL
                            {- `others`  [ "^sifAh NF" ] -},
 
@@ -4052,7 +4058,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mu$AfahapF_1
     -- m$Afhp  mu$AfahapF      FW-Wa   orally;verbally    [[mu$AfahapF/ADV]]
 
-    MuFACaL |< aT |< aN       `noun`    {- mu$AfahapF -}       [ "orally", "verbally" ] ]
+    MuFACaL |< aT |< aN       `adv`     {- mu$AfahapF -}       [ "orally", "verbally" ] ]
 
  |> "^s f n" <| [
 
@@ -4762,7 +4768,7 @@ lexicon = listing "Lexicon's properties"
     -- m$Ahr   mu$Ahar NapAt   monthly salary;monthly payment
     -- m$Ahrp  mu$AharapF      FW-Wa   monthly    [[mu$AharapF/ADV]]
 
-    MuFACaL |< aT             `noun`    {- mu$Aharap -}        [ "monthly salary", "monthly payment", "monthly" ],
+    MuFACaL |< aT             `adv`     {- mu$Aharap -}        [ "monthly salary", "monthly payment", "monthly" ],
 
     -- ;; $uhorap_1
     -- \$hr     $uhor   Nap     reputation;fame
@@ -5376,7 +5382,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $ukorAF_1
     -- \$kr     $ukor   NF      thank you;thanks     [[$ukor/ADV]]
 
-    FuCL |< aN                `noun`    {- \$ukorAF -}         [ "thank you", "thanks" ]
+    FuCL |< aN                `adv`     {- \$ukorAF -}         [ "thank you", "thanks" ]
                               `plural`     FuCL
                            {- `others`  [ "^sukr NF" ] -},
 
@@ -7494,7 +7500,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $aroTAF_1
     -- \$rT     $aroT   NF      on the condition;provided     [[$aroT/ADV]]
 
-    FaCL |< aN                `noun`    {- \$aroTAF -}         [ "on the condition", "provided" ]
+    FaCL |< aN                `adv`     {- \$aroTAF -}         [ "on the condition", "provided" ]
                               `plural`     FaCL
                            {- `others`  [ "^sar.t NF" ] -},
 
@@ -7803,7 +7809,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $aroEiy~AF_1
     -- \$rEy    $aroEiy~        NF      legally;legitimately     [[$aroEiy~/ADV]]
 
-    FaCL |< Iy |< aN          `adj`     {- \$aroEiy~AF -}      [ "legally", "legitimately" ],
+    FaCL |< Iy |< aN          `adv`     {- \$aroEiy~AF -}      [ "legally", "legitimately" ],
 
     -- ;; $aroEiy~ap_1
     -- \$rEy    $aroEiy~        Nap     legitimacy;legality     [[$aroEiy~/NOUN]]
@@ -8711,7 +8717,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $aroq_1
     -- \$rq     $aroq   FW-WaBi east (of)     [[$aroq/PREP]]
 
-    FaCL                      `noun`    {- \$aroq -}           [ "east (of)" ],
+    FaCL                      `prep`    {- \$aroq -}           [ "east (of)" ],
 
     -- ;; $aroq_2
     -- \$rq     $aroq   N       East
@@ -8721,7 +8727,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $aroqAF_1
     -- \$rq     $aroq   NF      eastward     [[$aroq/ADV]]
 
-    FaCL |< aN                `noun`    {- \$aroqAF -}         [ "eastward" ]
+    FaCL |< aN                `adv`     {- \$aroqAF -}         [ "eastward" ]
                               `plural`     FaCL
                            {- `others`  [ "^sarq NF" ] -},
 
@@ -8730,7 +8736,7 @@ lexicon = listing "Lexicon's properties"
     -- \$rqy    $aroqiy~        Nall    Eastern;Oriental     [[$aroqiy~/ADJ]]
     -- \$rqy    $aroqiy~        FW-WaBi east (of)     [[$aroqiy~/PREP]]
 
-    FaCL |< Iy                `adj`     {- \$aroqiy~ -}        [ "Eastern", "Oriental", "east (of)" ],
+    FaCL |< Iy                `prep`    {- \$aroqiy~ -}        [ "Eastern", "Oriental", "east (of)" ],
 
     -- ;; $aroqAwiy~_1
     -- \$rqAwy  $aroqAwiy~      N0      Sharqawi
@@ -11517,14 +11523,6 @@ lexicon = listing "Lexicon's properties"
     -- \$gyl    $ag~iyl N-ap    hard-working;laboring     [[$ag~iyl/ADJ]]
 
     Identity                  `adj`     {- \$ag~iyl -}         [ "hard-working", "laboring" ] ]
-
- |> "^sa.tra" <| [
-
-    -- ;; $aTora_1
-    -- \$Tr     $aTora  FW-Wa   towards     [[$aTora/PREP]]
-    -- \$Tr     $aTora  FW-Wa-a towards     [[$aTora/PREP]]
-
-    Identity                  `noun`    {- \$aTora -}          [ "towards" ] ]
 
  |> "^sa.tran^g" <| [
 

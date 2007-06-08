@@ -11,7 +11,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "litawwi-" <| [
 
-    Identity                  `noun`    {- litaw~i- -}         [ "immediately + it/he", "immediately + they both", "immediately + it/they/her", "immediately + they [masc.pl.]", "immediately + they [fem.pl.]", "immediately + you [masc.sg.]", "immediately + you [fem.sg.]", "immediately + you both", "immediately + you [masc.pl.]", "immediately + you [fem.pl.]", "immediately + I", "immediately + we" ] ]
+    Identity                  `pron`    {- litaw~i- -}         [ "immediately + it/he", "immediately + they both", "immediately + it/they/her", "immediately + they [masc.pl.]", "immediately + they [fem.pl.]", "immediately + you [masc.sg.]", "immediately + you [fem.sg.]", "immediately + you both", "immediately + you [masc.pl.]", "immediately + you [fem.pl.]", "immediately + I", "immediately + we" ] ]
 
  |> "t  s" <| [
 
@@ -32,6 +32,10 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "matA.hif Ndip" ] -} ]
 
  |> "t .h t" <| [
+
+    FaCL |<< "a"              `prep`    {- taHota -}           [ "under" ]
+                              `plural`     FaCL
+                           {- `others`  [ "ta.ht FW-Wa-o" ] -},
 
     FaCL |< Iy                `adj`     {- taHotiy~ -}         [ "under", "infra-" ] ]
 
@@ -107,7 +111,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCiL |< aT               `noun`    {- tabiEap -}          [ "consequence", "responsibility" ],
 
-    FiCAL |< aN               `noun`    {- tibAEAF -}          [ "in succession", "consecutively" ]
+    FiCAL |< aN               `adv`     {- tibAEAF -}          [ "in succession", "consecutively" ]
                               `plural`     FiCAL
                            {- `others`  [ "tibA` NF" ] -},
 
@@ -184,6 +188,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADIS
                               `plural`     KaRADiS |< aT
                            {- `others`  [ "talAmiy_d Ndip" ] -} ]
+
+ |> "t l w" <| [
+
+    FiCL |<< "a"              `prep`    {- tilowa -}           [ "after" ] ]
 
  |> "t l y" <| [
 
@@ -431,7 +439,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "t w r" <| [
 
-    FAL |< aT |< aN           `noun`    {- tArapF -}           [ "once", "sometimes" ] ]
+    FAL |< aT |< aN           `adv`     {- tArapF -}           [ "once", "sometimes" ] ]
 
  |> "t w t l" <| [
 
@@ -564,10 +572,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- t$iyniy -}          [ "Cheney" ] ]
 
- |> "ta.hta" <| [
-
-    Identity                  `noun`    {- taHota -}           [ "under" ] ]
-
  |> "tadmur" <| [
 
     Identity                  `noun`    {- tadomur -}          [ "Palmyra" ] ]
@@ -609,10 +613,6 @@ lexicon = listing "Lexicon's properties"
     Identity                  `noun`    {- tilifuwn -}         [ "telephone" ],
 
     Identity |< Iy            `adj`     {- tilifuwniy~ -}      [ "telephonic" ] ]
-
- |> "tilwa" <| [
-
-    Identity                  `noun`    {- tilowa -}           [ "after" ] ]
 
  |> "tiybAzah" <| [
 

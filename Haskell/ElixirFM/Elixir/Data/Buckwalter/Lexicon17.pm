@@ -9,6 +9,50 @@ $Lexicon = {
   '.z l l' => [
     {
       'types' => {
+        '.zlal' => {
+          'IV_C' => 1
+        },
+        '.zall' => {
+          'PV_V' => 1,
+          'IV_V' => 1
+        },
+        '.zalil' => {
+          'PV_C' => 1
+        }
+      },
+      'entry' => '.zall',
+      'form' => '.zalla',
+      'lines' => [
+        ';; Zal~a_1',
+        'Zl      Zal~    PV_V    remain;continue',
+        'Zll     Zalil   PV_C    remain;continue',
+        'Zl      Zal~    IV_V    remain;continue',
+        'Zll     Zolal   IV_C    remain;continue'
+      ],
+      'patterns' => {
+        '.zall' => [
+          'FaCL'
+        ],
+        '.zlal' => [
+          'FCaL'
+        ],
+        '.zalil' => [
+          'FaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'remain',
+        'continue'
+      ],
+      'orig' => 'Zal~a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '.zallil' => {
           'IV_yu' => 1
         }
@@ -728,7 +772,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FuCL',
       'suffix' => '',
       'glosses' => [
@@ -1818,42 +1862,6 @@ $Lexicon = {
         'rheumatism'
       ],
       'orig' => 'ZulAE',
-      'prefix' => ''
-    }
-  ],
-  '.zalla' => [
-    {
-      'types' => {
-        '.zlal' => {
-          'IV_C' => 1
-        },
-        '.zall' => {
-          'PV_V' => 1,
-          'IV_V' => 1
-        },
-        '.zalil' => {
-          'PV_C' => 1
-        }
-      },
-      'entry' => '.zalla',
-      'form' => '.zalla',
-      'lines' => [
-        ';; Zal~a_1',
-        'Zl      Zal~    PV_V    remain;continue',
-        'Zll     Zalil   PV_C    remain;continue',
-        'Zl      Zal~    IV_V    remain;continue',
-        'Zll     Zolal   IV_C    remain;continue'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'remain',
-        'continue'
-      ],
-      'orig' => 'Zal~a',
       'prefix' => ''
     }
   ],

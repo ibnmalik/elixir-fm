@@ -226,7 +226,7 @@ lexicon = listing "Lexicon's properties"
 
     TaFACuL |< Iy             `adj`     {- taSAEudiy~ -}       [ "growing", "increasing", "escalating" ],
 
-    FACiL |< aN               `noun`    {- SAEidAF -}          [ "henceforth", "upward" ]
+    FACiL |< aN               `adv`     {- SAEidAF -}          [ "henceforth", "upward" ]
                               `plural`     FACiL
                            {- `others`  [ ".sA`id NF" ] -},
 
@@ -259,7 +259,7 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `verb`    {- OaSobaH -}          [ "become", "begin", "start" ],
 
-    FaCAL                     `noun`    {- SabAH -}            [ "morning", "in the morning" ],
+    FaCAL                     `adv`     {- SabAH -}            [ "morning", "in the morning" ],
 
     FaCAL |< Iy               `adj`     {- SabAHiy~ -}         [ "morning", "matinal" ],
 
@@ -350,7 +350,7 @@ lexicon = listing "Lexicon's properties"
 
     FACaL                     `verb`    {- SAdaf -}            [ "coincide", "concur", "encounter" ],
 
-    FuCL |< aT                `noun`    {- Sudofap -}          [ "chance", "coincidence", "by chance", "by coincidence", "coincidences" ]
+    FuCL |< aT                `adv`     {- Sudofap -}          [ "chance", "coincidence", "by chance", "by coincidence", "coincidences" ]
                               `plural`     FuCaL
                            {- `others`  [ ".sudaf N" ] -},
 

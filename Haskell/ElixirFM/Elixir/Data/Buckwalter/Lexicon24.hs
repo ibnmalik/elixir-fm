@@ -137,7 +137,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; limA*A_1
     -- lmA*A   limA*A  FW-Wa   why             [[limA*A/INTERROG_PART]]
 
-    Identity                  `noun`    {- limA*A -}           [ "why" ] ]
+    Identity                  `part`    {- limA*A -}           [ "why" ] ]
 
  |> "m ' '" <| [
 
@@ -990,7 +990,7 @@ lexicon = listing "Lexicon's properties"
     -- mHD     maHoD   N       mere;nothing but
     -- mHD     maHoD   NF      solely;exclusively     [[maHoD/ADV]]
 
-    FaCL                      `noun`    {- maHoD -}            [ "mere", "nothing but", "solely", "exclusively" ] ]
+    FaCL                      `adv`     {- maHoD -}            [ "mere", "nothing but", "solely", "exclusively" ] ]
 
  |> "m .h .h" <| [
 
@@ -2115,7 +2115,7 @@ lexicon = listing "Lexicon's properties"
     -- mjAn    maj~An  Nall    free;gratis
     -- mjAn    maj~An  NF      free;gratis     [[maj~An/ADV]]
 
-    FaCCAL                    `noun`    {- maj~An -}           [ "free", "gratis" ],
+    FaCCAL                    `adv`     {- maj~An -}           [ "free", "gratis" ],
 
     -- ;; maj~Aniy~_1
     -- mjAny   maj~Aniy~       N-ap    free;gratis     [[maj~Aniy~/ADJ]]
@@ -2580,7 +2580,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tamA$iy_1
     -- tmA$y   tamA$iy NF      in accordance with;in conformity with     [[tamA$iy/ADV]]
 
-    TaFACI                    `noun`    {- tamA$iy -}          [ "in accordance with", "in conformity with" ],
+    TaFACI                    `adv`     {- tamA$iy -}          [ "in accordance with", "in conformity with" ],
 
     -- ;; mA$iy_1
     -- mA$y    mA$iy   N0F     going;walking
@@ -2592,7 +2592,7 @@ lexicon = listing "Lexicon's properties"
     -- m$A     mu$A    Nap     pedestrians
     -- mA$y    mA$iy   NF      on foot     [[mA$iy/ADV]]
 
-    FACI                      `noun`    {- mA$iy -}            [ "going", "walking", "infantry", "pedestrians", "on foot" ]
+    FACI                      `adv`     {- mA$iy -}            [ "going", "walking", "infantry", "pedestrians", "on foot" ]
                               `plural`     FuCY |< aT
                               `plural`     FACI |< At,
 
@@ -2622,7 +2622,7 @@ lexicon = listing "Lexicon's properties"
     -- m*Ak    mu*~Ak  FW-Wa   since then    [[mu*~Ak/PREP]]
     -- m**Ak   mu*o*Ak FW-Wa   since then    [[mu*o*Ak/PREP]]
 
-    FuL                       `noun`    {- mu* -}              [ "since", "since then" ] ]
+    FuL                       `prep`    {- mu* -}              [ "since", "since then" ] ]
 
  |> "m _d h b" <| [
 
@@ -2726,7 +2726,7 @@ lexicon = listing "Lexicon's properties"
     -- m*Ak    mu*~Ak  FW-Wa   since then    [[mu*~Ak/PREP]]
     -- m**Ak   mu*o*Ak FW-Wa   since then    [[mu*o*Ak/PREP]]
 
-    FuC                       `noun`    {- mu* -}              [ "since", "since then" ] ]
+    FuC                       `prep`    {- mu* -}              [ "since", "since then" ] ]
 
  |> "m _h .d" <| [
 
@@ -2918,6 +2918,17 @@ lexicon = listing "Lexicon's properties"
 
  |> "m _t l" <| [
 
+    -- ;; mivola_1
+    -- mvl     mivola  FW-Wa   like;such as   [[mivola/PREP]]
+    -- mvl     mivoli  FW-Wa   like;such as   [[mivoli/PREP]]
+    -- mvl     mivola  FW-Wa-a like;such as   [[mivola/PREP]]
+    -- mvl     mivoli  FW-Wa-i like;such as   [[mivoli/PREP]]
+    -- mvl     mivol   FW-Wa-o like;such as   [[mivol/PREP]]
+
+    FiCL |<< "a"              `prep`    {- mivola -}           [ "like", "such as" ]
+                              `plural`     FiCL
+                           {- `others`  [ "mi_tl FW-Wa-o" ] -},
+
     -- ;; mivol_1
     -- mvl     mivol   N       same;like
 
@@ -2984,7 +2995,7 @@ lexicon = listing "Lexicon's properties"
     -- >mvAl   >amovAl N       examples;proverbs;the likes of
     -- AmvAl   >amovAl N       examples;proverbs;the likes of
 
-    FaCaL                     `noun`    {- maval -}            [ "example", "proverb", "for example", "examples", "proverbs", "the likes of" ]
+    FaCaL                     `adv`     {- maval -}            [ "example", "proverb", "for example", "examples", "proverbs", "the likes of" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'am_tAl N" ] -},
 
@@ -3247,10 +3258,20 @@ lexicon = listing "Lexicon's properties"
 
  |> "m ` `" <| [
 
+    -- ;; maEa_1
+    -- mE      maEa    FW-Wa   with     [[maEa/PREP]]
+    -- mE      maEa    FW-Wa-a with     [[maEa/PREP]]
+    -- mE      maE     FW-Wa-o with     [[maE/PREP]]
+
+    FaL |<< "a"               `prep`    {- maEa -}             [ "with" ]
+                              `plural`     FaL
+                              `plural`     FaC
+                           {- `others`  [ "ma` FW-Wa-o" ] -},
+
     -- ;; maEAF_1
     -- mEA     maEAF   FW-Wa   together        [[maEAF/ADV]]
 
-    FaL |< aN                 `noun`    {- maEAF -}            [ "together" ],
+    FaL |< aN                 `adv`     {- maEAF -}            [ "together" ],
 
     -- ;; maEiy~ap_1
     -- mEy     maEiy~  Nap     company;escort     [[maEiy~/NOUN]]
@@ -3446,10 +3467,19 @@ lexicon = listing "Lexicon's properties"
 
  |> "m ` y" <| [
 
+    -- ;; maEa_1
+    -- mE      maEa    FW-Wa   with     [[maEa/PREP]]
+    -- mE      maEa    FW-Wa-a with     [[maEa/PREP]]
+    -- mE      maE     FW-Wa-o with     [[maE/PREP]]
+
+    FaC |<< "a"               `prep`    {- maEa -}             [ "with" ]
+                              `plural`     FaC
+                           {- `others`  [ "ma` FW-Wa-o" ] -},
+
     -- ;; maEAF_1
     -- mEA     maEAF   FW-Wa   together        [[maEAF/ADV]]
 
-    FaC |< aN                 `noun`    {- maEAF -}            [ "together" ],
+    FaC |< aN                 `adv`     {- maEAF -}            [ "together" ],
 
     -- ;; maEiy~ap_1
     -- mEy     maEiy~  Nap     company;escort     [[maEiy~/NOUN]]
@@ -3544,7 +3574,25 @@ lexicon = listing "Lexicon's properties"
     -- mydA&   miydA&  Nh      measure;amount;length
     -- mydA}   miydA}  Nhy     measure;amount;length
 
-    FICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ] ]
+    FICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
+
+    -- ;; miydA'a_1
+    -- mydA'   miydA'a FW-Wa   in front of;facing     [[miydA'a/PREP]]
+    -- mydA'   miydA'i FW-Wa   in front of;facing     [[miydA'i/PREP]]
+    -- mydA'   miydA'a FW-Wa-a in front of;facing     [[miydA'a/PREP]]
+    -- mydA}   miydA}i FW-Wa-i in front of;facing     [[miydA}i/PREP]]
+    -- bmydA}  bimiydA}i       FW-Wa-i in front of;facing     [[bimiydA}i/PREP]]
+
+    MICAL |<< "a"             `prep`    {- miydA'a -}          [ "in front of", "facing" ],
+
+    -- ;; miydA'a_1
+    -- mydA'   miydA'a FW-Wa   in front of;facing     [[miydA'a/PREP]]
+    -- mydA'   miydA'i FW-Wa   in front of;facing     [[miydA'i/PREP]]
+    -- mydA'   miydA'a FW-Wa-a in front of;facing     [[miydA'a/PREP]]
+    -- mydA}   miydA}i FW-Wa-i in front of;facing     [[miydA}i/PREP]]
+    -- bmydA}  bimiydA}i       FW-Wa-i in front of;facing     [[bimiydA}i/PREP]]
+
+    FICAL |<< "a"             `prep`    {- miydA'a -}          [ "in front of", "facing" ] ]
 
  |> "m d ' n" <| [
 
@@ -5997,7 +6045,7 @@ lexicon = listing "Lexicon's properties"
     -- mly     maliy~  N       long time
     -- mly     maliy~  NF      for a long time;for quite a while     [[maliy~/ADV]]
 
-    FaCIL                     `noun`    {- maliy~ -}           [ "long time", "for a long time", "for quite a while" ],
+    FaCIL                     `adv`     {- maliy~ -}           [ "long time", "for a long time", "for quite a while" ],
 
     -- ;; maliy~ap_1
     -- mly     maliy~  Napdu   female bedouin dress     [[maliy~/NOUN]]
@@ -6216,6 +6264,13 @@ lexicon = listing "Lexicon's properties"
 
     KaRDUS |< Iy              `adj`     {- mano$uwriy~ -}      [ "Manchurian" ] ]
 
+ |> "m n _d" <| [
+
+    -- ;; muno*u_1
+    -- mn*     muno*u  FW-Wa   since;ago      [[muno*u/CONJ]]
+
+    FuCL |<< "u"              `conj`    {- muno*u -}           [ "since", "ago" ] ]
+
  |> "m n `" <| [
 
     -- ;; manaE-a_1
@@ -6346,17 +6401,17 @@ lexicon = listing "Lexicon's properties"
     -- mn      min     FW-Wa-n from     [[min/PREP]]
     -- lmn     lamin   FW      indeed    [[la/EMPHATIC_PARTICLE+min/PREP]]
 
-    FiL                       `noun`    {- min -}              [ "from", "indeed" ],
+    FiL                       `part`    {- min -}              [ "from", "indeed" ],
 
     -- ;; man_1
     -- mn      man     FW-WaBi who/whom   [[man/REL_PRON]]
 
-    FaL                       `noun`    {- man -}              [ "who/whom" ],
+    FaL                       `pron`    {- man -}              [ "who/whom" ],
 
     -- ;; man_2
     -- mn      man     FW-WaBi who/whom   [[man/INTERROG_PART]]
 
-    FaL                       `noun`    {- man -}              [ "who/whom" ],
+    FaL                       `part`    {- man -}              [ "who/whom" ],
 
     -- ;; minawiy~_1
     -- mnwy    minawiy~        N-ap    seminal;semen     [[minawiy~/ADJ]]
@@ -6524,17 +6579,17 @@ lexicon = listing "Lexicon's properties"
     -- mn      min     FW-Wa-n from     [[min/PREP]]
     -- lmn     lamin   FW      indeed    [[la/EMPHATIC_PARTICLE+min/PREP]]
 
-    FiC                       `noun`    {- min -}              [ "from", "indeed" ],
+    FiC                       `part`    {- min -}              [ "from", "indeed" ],
 
     -- ;; man_1
     -- mn      man     FW-WaBi who/whom   [[man/REL_PRON]]
 
-    FaC                       `noun`    {- man -}              [ "who/whom" ],
+    FaC                       `pron`    {- man -}              [ "who/whom" ],
 
     -- ;; man_2
     -- mn      man     FW-WaBi who/whom   [[man/INTERROG_PART]]
 
-    FaC                       `noun`    {- man -}              [ "who/whom" ],
+    FaC                       `part`    {- man -}              [ "who/whom" ],
 
     -- ;; maniy~ap_1
     -- mny     maniy~  Nap     destiny;fate of death     [[maniy~/NOUN]]
@@ -7562,7 +7617,7 @@ lexicon = listing "Lexicon's properties"
     -- mrAr    mirAr   N       times;occasions
     -- mrAr    mirAr   NF      often     [[mirAr/ADV]]
 
-    FiCAL                     `noun`    {- mirAr -}            [ "times", "occasions", "often" ],
+    FiCAL                     `adv`     {- mirAr -}            [ "times", "occasions", "often" ],
 
     -- ;; muruwr_1
     -- mrwr    muruwr  N       traffic;passing;crossing
@@ -7910,7 +7965,7 @@ lexicon = listing "Lexicon's properties"
     -- msA&    masA&   Nh      evening
     -- msA}    masA}   Nhy     evening
 
-    FaCAL                     `noun`    {- masA' -}            [ "evening", "in the evening" ],
+    FaCAL                     `adv`     {- masA' -}            [ "evening", "in the evening" ],
 
     -- ;; masA}iy~_1
     -- msA}y   masA}iy~        N-ap    evening     [[masA}iy~/ADJ]]
@@ -8518,7 +8573,7 @@ lexicon = listing "Lexicon's properties"
     -- msA&    masA&   Nh      evening
     -- msA}    masA}   Nhy     evening
 
-    FaCA'                     `noun`    {- masA' -}            [ "evening", "in the evening" ],
+    FaCA'                     `adv`     {- masA' -}            [ "evening", "in the evening" ],
 
     -- ;; masA}iy~_1
     -- msA}y   masA}iy~        N-ap    evening     [[masA}iy~/ADJ]]
@@ -8852,17 +8907,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; mataY_1
     -- mtY     mataY   FW-Wa   when         [[mataY/REL_PRON]]
 
-    FaCY                      `noun`    {- mataY -}            [ "when" ],
+    FaCY                      `pron`    {- mataY -}            [ "when" ],
 
     -- ;; mataY_2
     -- mtY     mataY   FW-Wa   when         [[mataY/INTERROG_PART]]
 
-    FaCY                      `noun`    {- mataY -}            [ "when" ],
+    FaCY                      `part`    {- mataY -}            [ "when" ],
 
     -- ;; mataY_3
     -- mtY     mataY   FW-Wa   when         [[mataY/CONJ]]
 
-    FaCY                      `noun`    {- mataY -}            [ "when" ],
+    FaCY                      `conj`    {- mataY -}            [ "when" ],
 
     -- ;; mat~aY_1
     -- mtY     mat~aY  Nprop   Matthew
@@ -9273,7 +9328,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tamaw~urAF_1
     -- tmwr    tamaw~ur        NF      back and forth     [[tamaw~ur/ADV]]
 
-    TaFaCCuL |< aN            `noun`    {- tamaw~urAF -}       [ "back and forth" ]
+    TaFaCCuL |< aN            `adv`     {- tamaw~urAF -}       [ "back and forth" ]
                               `plural`     TaFaCCuL
                            {- `others`  [ "tamawwur NF" ] -},
 
@@ -9773,7 +9828,16 @@ lexicon = listing "Lexicon's properties"
     -- mydA&   miydA&  Nh      measure;amount;length
     -- mydA}   miydA}  Nhy     measure;amount;length
 
-    KiRDAS                    `noun`    {- miydA' -}           [ "measure", "amount", "length" ] ]
+    KiRDAS                    `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
+
+    -- ;; miydA'a_1
+    -- mydA'   miydA'a FW-Wa   in front of;facing     [[miydA'a/PREP]]
+    -- mydA'   miydA'i FW-Wa   in front of;facing     [[miydA'i/PREP]]
+    -- mydA'   miydA'a FW-Wa-a in front of;facing     [[miydA'a/PREP]]
+    -- mydA}   miydA}i FW-Wa-i in front of;facing     [[miydA}i/PREP]]
+    -- bmydA}  bimiydA}i       FW-Wa-i in front of;facing     [[bimiydA}i/PREP]]
+
+    KiRDAS |<< "a"            `prep`    {- miydA'a -}          [ "in front of", "facing" ] ]
 
  |> "m y d l" <| [
 
@@ -10569,17 +10633,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; mA_1
     -- mA      mA      FW-Wa   what         [[mA/REL_PRON]]
 
-    Identity                  `noun`    {- mA -}               [ "what" ],
+    Identity                  `pron`    {- mA -}               [ "what" ],
 
     -- ;; mA_2
     -- mA      mA      FW-Wa   not          [[mA/NEG_PART]]
 
-    Identity                  `noun`    {- mA -}               [ "not" ],
+    Identity                  `part`    {- mA -}               [ "not" ],
 
     -- ;; mA_3
     -- mA      mA      FW-Wa   what/which   [[mA/INTERROG_PART]]
 
-    Identity                  `noun`    {- mA -}               [ "what/which" ],
+    Identity                  `part`    {- mA -}               [ "what/which" ],
 
     -- ;; mA_4
     -- mA      mA      FW-Wa   how...!      [[mA/INTERJ]]
@@ -10620,7 +10684,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mA*A_1
     -- mA*A    mA*A    FW-WaBi what            [[mA*A/INTERROG_PART]]
 
-    Identity                  `noun`    {- mA*A -}             [ "what" ] ]
+    Identity                  `part`    {- mA*A -}             [ "what" ] ]
 
  |> "mA_hlAs" <| [
 
@@ -11261,15 +11325,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- majoniyziywm -}     [ "magnesium" ] ]
 
- |> "ma`a" <| [
-
-    -- ;; maEa_1
-    -- mE      maEa    FW-Wa   with     [[maEa/PREP]]
-    -- mE      maEa    FW-Wa-a with     [[maEa/PREP]]
-    -- mE      maE     FW-Wa-o with     [[maE/PREP]]
-
-    Identity                  `noun`    {- maEa -}             [ "with" ] ]
-
  |> "ma`karuwn" <| [
 
     -- ;; maEokaruwnap_1
@@ -11323,7 +11378,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mahomA_1
     -- mhmA    mahomA  FW-Wa   whatever   [[mahomA/CONJ]]
 
-    Identity                  `noun`    {- mahomA -}           [ "whatever" ] ]
+    Identity                  `conj`    {- mahomA -}           [ "whatever" ] ]
 
  |> "mahra^gAn" <| [
 
@@ -11651,23 +11706,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- mi$olawoziy~ -}     [ "apricot-colored" ] ]
 
- |> "mi_tla" <| [
-
-    -- ;; mivola_1
-    -- mvl     mivola  FW-Wa   like;such as   [[mivola/PREP]]
-    -- mvl     mivoli  FW-Wa   like;such as   [[mivoli/PREP]]
-    -- mvl     mivola  FW-Wa-a like;such as   [[mivola/PREP]]
-    -- mvl     mivoli  FW-Wa-i like;such as   [[mivoli/PREP]]
-    -- mvl     mivol   FW-Wa-o like;such as   [[mivol/PREP]]
-
-    Identity                  `noun`    {- mivola -}           [ "like", "such as" ] ]
-
  |> "mi_tlamA" <| [
 
     -- ;; mivolamA_1
     -- mvlmA   mivolamA        FW-Wa   like;as      [[mivolamA/CONJ]]
 
-    Identity                  `noun`    {- mivolamA -}         [ "like", "as" ] ]
+    Identity                  `conj`    {- mivolamA -}         [ "like", "as" ] ]
 
  |> "midyA" <| [
 
@@ -11713,36 +11757,36 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- miloyuwnAriy~ -}    [ "millionaire" ] ]
 
+ |> "mimm" <| [
+
+    -- ;; mim~a_1
+    -- mm      mim~a   FW-Wa   from + what   [[min/PREP+ma/INTERROG_PART]]
+
+    Identity |<< "a"          `part`    {- mim~a -}            [ "from + what" ] ]
+
  |> "mimmA" <| [
 
     -- ;; mim~A_1
     -- mmA     mim~A   FW-Wa   which     [[mim~A/CONJ]]
 
-    Identity                  `noun`    {- mim~A -}            [ "which" ],
+    Identity                  `conj`    {- mim~A -}            [ "which" ],
 
     -- ;; mim~A_2
     -- mmA     mim~A   FW-Wa   from + what   [[min/PREP+mA/REL_PRON]]
 
-    Identity                  `noun`    {- mim~A -}            [ "from + what" ] ]
-
- |> "mimma" <| [
-
-    -- ;; mim~a_1
-    -- mm      mim~a   FW-Wa   from + what   [[min/PREP+ma/INTERROG_PART]]
-
-    Identity                  `noun`    {- mim~a -}            [ "from + what" ] ]
+    Identity                  `prep`    {- mim~A -}            [ "from + what" ] ]
 
  |> "mimman" <| [
 
     -- ;; mim~an_1
     -- mmn     mim~an  FW-Wa   from + whom   [[min/PREP+man/REL_PRON]]
 
-    Identity                  `noun`    {- mim~an -}           [ "from + whom" ],
+    Identity                  `prep`    {- mim~an -}           [ "from + whom" ],
 
     -- ;; mim~an_2
     -- mmn     mim~an  FW-Wa   from + whom   [[min/PREP+man/INTERROG_PART]]
 
-    Identity                  `noun`    {- mim~an -}           [ "from + whom" ] ]
+    Identity                  `part`    {- mim~an -}           [ "from + whom" ] ]
 
  |> "minA.hiym" <| [
 
@@ -11854,17 +11898,6 @@ lexicon = listing "Lexicon's properties"
     -- myvwlwjyA       miyvuwluwjiyA   N0      mythology
 
     Identity                  `noun`    {- miyvuwluwjiyA -}    [ "mythology" ] ]
-
- |> "miydA'a" <| [
-
-    -- ;; miydA'a_1
-    -- mydA'   miydA'a FW-Wa   in front of;facing     [[miydA'a/PREP]]
-    -- mydA'   miydA'i FW-Wa   in front of;facing     [[miydA'i/PREP]]
-    -- mydA'   miydA'a FW-Wa-a in front of;facing     [[miydA'a/PREP]]
-    -- mydA}   miydA}i FW-Wa-i in front of;facing     [[miydA}i/PREP]]
-    -- bmydA}  bimiydA}i       FW-Wa-i in front of;facing     [[bimiydA}i/PREP]]
-
-    Identity                  `noun`    {- miydA'a -}          [ "in front of", "facing" ] ]
 
  |> "miydAliy" <| [
 
@@ -12289,13 +12322,6 @@ lexicon = listing "Lexicon's properties"
     -- mngwlyA munoguwliyA     N0      Mongolia
 
     Identity                  `noun`    {- munoguwliyA -}      [ "Mongolia" ] ]
-
- |> "mun_du" <| [
-
-    -- ;; muno*u_1
-    -- mn*     muno*u  FW-Wa   since;ago      [[muno*u/CONJ]]
-
-    Identity                  `noun`    {- muno*u -}           [ "since", "ago" ] ]
 
  |> "munastiyr" <| [
 

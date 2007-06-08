@@ -338,17 +338,17 @@ sub closeEntry {
 
         foreach my $tag (keys %{$Entry->{'tags'}}) {
 
+            $Entry->{'entity'} = 'adv' if $tag =~ /\/ADV/;
+        }
+
+        foreach my $tag (keys %{$Entry->{'tags'}}) {
+
             $Entry->{'entity'} = 'adj' if $tag =~ /\/ADJ/;
         }
 
         foreach my $tag (keys %{$Entry->{'tags'}}) {
 
             $Entry->{'entity'} = 'pron' if $tag =~ /\/(?:[A-Z\_]+)?PRON/;
-        }
-
-        foreach my $tag (keys %{$Entry->{'tags'}}) {
-
-            $Entry->{'entity'} = 'adv' if $tag =~ /\/ADV/;
         }
 
         foreach my $tag (keys %{$Entry->{'tags'}}) {

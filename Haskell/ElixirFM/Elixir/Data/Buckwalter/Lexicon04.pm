@@ -6,44 +6,6 @@ package Elixir::Data::Buckwalter::Lexicon04;
 
 
 $Lexicon = {
-  '\'a_tnA\'a' => [
-    {
-      'types' => {
-        '\'a_tnA\'i' => {
-          'FW-Wa' => 2,
-          'FW-Wa-i' => 2
-        },
-        '\'a_tnA\'' => {
-          'FW-Wa-o' => 2
-        }
-      },
-      'entry' => '\'a_tnA\'a',
-      'form' => '\'a_tnA\'a',
-      'lines' => [
-        ';; >avonA\'a_1',
-        '>vnA\'   >avonA\'a        FW-Wa   during     [[>avonA\'a/PREP]]',
-        'AvnA\'   >avonA\'a        FW-Wa   during     [[>avonA\'a/PREP]]',
-        '>vnA\'   >avonA\'i        FW-Wa   during     [[>avonA\'i/PREP]]',
-        'AvnA\'   >avonA\'i        FW-Wa   during     [[>avonA\'i/PREP]]',
-        '>vnA\'   >avonA\'a        FW-Wa-a during     [[>avonA\'a/PREP]]',
-        'AvnA\'   >avonA\'a        FW-Wa-a during     [[>avonA\'a/PREP]]',
-        '>vnA}   >avonA}i        FW-Wa-i during     [[>avonA}i/PREP]]',
-        'AvnA}   >avonA}i        FW-Wa-i during     [[>avonA}i/PREP]]',
-        '>vnA}   >avonA} FW-Wa-o during     [[>avonA}a/PREP]]',
-        'AvnA}   >avonA} FW-Wa-o during     [[>avonA}a/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'during'
-      ],
-      'orig' => 'OavonA\'a',
-      'prefix' => ''
-    }
-  ],
   '_t l _t' => [
     {
       'types' => {
@@ -547,6 +509,28 @@ $Lexicon = {
         'widow'
       ],
       'orig' => 'vay~ib',
+      'prefix' => ''
+    }
+  ],
+  'lilAi_tnatayn' => [
+    {
+      'types' => {},
+      'entry' => 'lilAi_tnatayn',
+      'form' => 'lilAi_tnatayni',
+      'lines' => [
+        ';; lilo{ivonatayoni_1',
+        'll<vntyn        lilo{ivonatayoni        FW-Wa   to/for + the + two    [[li/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]',
+        'llAvntyn        lilo{ivonatayoni        FW-Wa   to/for + the + two    [[li/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'Identity |<< "i"',
+      'suffix' => ' |<< "i"',
+      'glosses' => [
+        'to/for + the + two'
+      ],
+      'orig' => 'liloAivonatayoni',
       'prefix' => ''
     }
   ],
@@ -1375,34 +1359,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'Ai_tnAni' => [
-    {
-      'types' => {
-        'AlAi_tnayni' => {
-          'FW-Wa' => 2
-        }
-      },
-      'entry' => 'Ai_tnAni',
-      'form' => 'AlAi_tnAni',
-      'lines' => [
-        ';; Al{ivonAni_1',
-        'Al<vnAn Al{ivonAni      FW-Wa   the + two                         [[Al/DET+{ivon/ADJ+Ani/NSUFF_MASC_DU_NOM]]',
-        'AlAvnAn Al{ivonAni      FW-Wa   the + two                         [[Al/DET+{ivon/ADJ+Ani/NSUFF_MASC_DU_NOM]]',
-        'Al<vnyn Al{ivonayoni    FW-Wa   the + two             [[Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]',
-        'AlAvnyn Al{ivonayoni    FW-Wa   the + two             [[Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'al >| Identity',
-      'suffix' => '',
-      'glosses' => [
-        'the + two'
-      ],
-      'orig' => 'AlAivonAni',
-      'prefix' => 'al >| '
-    }
-  ],
   '_t m n' => [
     {
       'types' => {
@@ -1821,6 +1777,50 @@ $Lexicon = {
         'Pleiades'
       ],
       'orig' => 'vuray~A',
+      'prefix' => ''
+    }
+  ],
+  'kaAlAi_tnatayn' => [
+    {
+      'types' => {},
+      'entry' => 'kaAlAi_tnatayn',
+      'form' => 'kaAlAi_tnatayni',
+      'lines' => [
+        ';; kaAl{ivonatayoni_1',
+        'kAl<vntyn       kaAl{ivonatayoni        FW-Wa   as/like + the + two   [[ka/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]',
+        'kAlAvntyn       kaAl{ivonatayoni        FW-Wa   as/like + the + two   [[ka/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'Identity |<< "i"',
+      'suffix' => ' |<< "i"',
+      'glosses' => [
+        'as/like + the + two'
+      ],
+      'orig' => 'kaAlAivonatayoni',
+      'prefix' => ''
+    }
+  ],
+  'biAlAi_tnayn' => [
+    {
+      'types' => {},
+      'entry' => 'biAlAi_tnayn',
+      'form' => 'biAlAi_tnayni',
+      'lines' => [
+        ';; biAl{ivonayoni_1',
+        'bAl<vnyn        biAl{ivonayoni  FW-Wa   with/by + the + two   [[bi/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]',
+        'bAlAvnyn        biAl{ivonayoni  FW-Wa   with/by + the + two   [[bi/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'Identity |<< "i"',
+      'suffix' => ' |<< "i"',
+      'glosses' => [
+        'with/by + the + two'
+      ],
+      'orig' => 'biAlAivonayoni',
       'prefix' => ''
     }
   ],
@@ -2418,28 +2418,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biAlAi_tnayni' => [
-    {
-      'types' => {},
-      'entry' => 'biAlAi_tnayni',
-      'form' => 'biAlAi_tnayni',
-      'lines' => [
-        ';; biAl{ivonayoni_1',
-        'bAl<vnyn        biAl{ivonayoni  FW-Wa   with/by + the + two   [[bi/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]',
-        'bAlAvnyn        biAl{ivonayoni  FW-Wa   with/by + the + two   [[bi/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'with/by + the + two'
-      ],
-      'orig' => 'biAlAivonayoni',
-      'prefix' => ''
-    }
-  ],
   '_t b r' => [
     {
       'types' => {
@@ -2557,28 +2535,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'i_tnayni' => [
-    {
-      'types' => {},
-      'entry' => 'i_tnayni',
-      'form' => 'i_tnayni',
-      'lines' => [
-        ';; {ivonayoni_1',
-        '<vnyn   {ivonayoni      N0      Monday',
-        'Avnyn   {ivonayoni      N0      Monday'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Monday'
-      ],
-      'orig' => 'Aivonayoni',
-      'prefix' => ''
-    }
-  ],
   '_t ` l b' => [
     {
       'types' => {
@@ -2627,34 +2583,6 @@ $Lexicon = {
       ],
       'orig' => 'vaEolabiy~',
       'prefix' => ''
-    }
-  ],
-  'Ai_tnatAni' => [
-    {
-      'types' => {
-        'AlAi_tnatayni' => {
-          'FW-Wa' => 2
-        }
-      },
-      'entry' => 'Ai_tnatAni',
-      'form' => 'AlAi_tnatAni',
-      'lines' => [
-        ';; Al{ivonatAni_1',
-        'Al<vntAn        Al{ivonatAni    FW-Wa   the + two                         [[Al/DET+{ivon/ADJ+atAni/NSUFF_FEM_DU_NOM]]',
-        'AlAvntAn        Al{ivonatAni    FW-Wa   the + two                         [[Al/DET+{ivon/ADJ+atAni/NSUFF_FEM_DU_NOM]]',
-        'Al<vntyn        Al{ivonatayoni  FW-Wa   the + two             [[Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]',
-        'AlAvntyn        Al{ivonatayoni  FW-Wa   the + two             [[Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'al >| Identity',
-      'suffix' => '',
-      'glosses' => [
-        'the + two'
-      ],
-      'orig' => 'AlAivonatAni',
-      'prefix' => 'al >| '
     }
   ],
   '_t w y' => [
@@ -2951,6 +2879,50 @@ $Lexicon = {
         'lodgings'
       ],
       'orig' => 'mavowaY',
+      'prefix' => ''
+    }
+  ],
+  'lilAi_tnayn' => [
+    {
+      'types' => {},
+      'entry' => 'lilAi_tnayn',
+      'form' => 'lilAi_tnayni',
+      'lines' => [
+        ';; lilo{ivonayoni_1',
+        'll<vnyn lilo{ivonayoni  FW-Wa   to/for + the + two    [[li/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]',
+        'llAvnyn lilo{ivonayoni  FW-Wa   to/for + the + two    [[li/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'Identity |<< "i"',
+      'suffix' => ' |<< "i"',
+      'glosses' => [
+        'to/for + the + two'
+      ],
+      'orig' => 'liloAivonayoni',
+      'prefix' => ''
+    }
+  ],
+  'i_tnayn' => [
+    {
+      'types' => {},
+      'entry' => 'i_tnayn',
+      'form' => 'i_tnayni',
+      'lines' => [
+        ';; {ivonayoni_1',
+        '<vnyn   {ivonayoni      N0      Monday',
+        'Avnyn   {ivonayoni      N0      Monday'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |<< "i"',
+      'suffix' => ' |<< "i"',
+      'glosses' => [
+        'Monday'
+      ],
+      'orig' => 'Aivonayoni',
       'prefix' => ''
     }
   ],
@@ -3264,7 +3236,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'prep',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -3272,6 +3244,34 @@ $Lexicon = {
       ],
       'orig' => 'biAlAivonatayo',
       'prefix' => ''
+    }
+  ],
+  'Ai_tnatAn' => [
+    {
+      'types' => {
+        'AlAi_tnatayni' => {
+          'FW-Wa' => 2
+        }
+      },
+      'entry' => 'Ai_tnatAn',
+      'form' => 'AlAi_tnatAni',
+      'lines' => [
+        ';; Al{ivonatAni_1',
+        'Al<vntAn        Al{ivonatAni    FW-Wa   the + two                         [[Al/DET+{ivon/ADJ+atAni/NSUFF_FEM_DU_NOM]]',
+        'AlAvntAn        Al{ivonatAni    FW-Wa   the + two                         [[Al/DET+{ivon/ADJ+atAni/NSUFF_FEM_DU_NOM]]',
+        'Al<vntyn        Al{ivonatayoni  FW-Wa   the + two             [[Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]',
+        'AlAvntyn        Al{ivonatayoni  FW-Wa   the + two             [[Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'al >| Identity |<< "i"',
+      'suffix' => ' |<< "i"',
+      'glosses' => [
+        'the + two'
+      ],
+      'orig' => 'AlAivonatAni',
+      'prefix' => 'al >| '
     }
   ],
   '_t d y \'' => [
@@ -3738,6 +3738,46 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        '\'a_tnA\'i' => {
+          'FW-Wa' => 2,
+          'FW-Wa-i' => 2
+        },
+        '\'a_tnA\'' => {
+          'FW-Wa-o' => 2
+        }
+      },
+      'entry' => '\'a_tnA\'',
+      'form' => '\'a_tnA\'a',
+      'lines' => [
+        ';; >avonA\'a_1',
+        '>vnA\'   >avonA\'a        FW-Wa   during     [[>avonA\'a/PREP]]',
+        'AvnA\'   >avonA\'a        FW-Wa   during     [[>avonA\'a/PREP]]',
+        '>vnA\'   >avonA\'i        FW-Wa   during     [[>avonA\'i/PREP]]',
+        'AvnA\'   >avonA\'i        FW-Wa   during     [[>avonA\'i/PREP]]',
+        '>vnA\'   >avonA\'a        FW-Wa-a during     [[>avonA\'a/PREP]]',
+        'AvnA\'   >avonA\'a        FW-Wa-a during     [[>avonA\'a/PREP]]',
+        '>vnA}   >avonA}i        FW-Wa-i during     [[>avonA}i/PREP]]',
+        'AvnA}   >avonA}i        FW-Wa-i during     [[>avonA}i/PREP]]',
+        '>vnA}   >avonA} FW-Wa-o during     [[>avonA}a/PREP]]',
+        'AvnA}   >avonA} FW-Wa-o during     [[>avonA}a/PREP]]'
+      ],
+      'patterns' => {
+        '\'a_tnA\'' => [
+          'HaFCA\''
+        ]
+      },
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'HaFCA\' |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'during'
+      ],
+      'orig' => 'OavonA\'a',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => '\'a_tnA\'',
       'form' => '\'a_tnA\'',
@@ -3987,7 +4027,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FACI |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -4267,29 +4307,66 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'lilAi_tnayni' => [
+  '_t m m' => [
     {
       'types' => {},
-      'entry' => 'lilAi_tnayni',
-      'form' => 'lilAi_tnayni',
+      'entry' => '_tumm',
+      'form' => '_tumma',
       'lines' => [
-        ';; lilo{ivonayoni_1',
-        'll<vnyn lilo{ivonayoni  FW-Wa   to/for + the + two    [[li/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]',
-        'llAvnyn lilo{ivonayoni  FW-Wa   to/for + the + two    [[li/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]'
+        ';; vum~a_1',
+        'vm      vum~a   FW-Wa   then;thereupon              [[vum~a/ADV]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adv',
+      'morphs' => 'FuCL |<< "a"',
+      'suffix' => ' |<< "a"',
       'glosses' => [
-        'to/for + the + two'
+        'then',
+        'thereupon'
       ],
-      'orig' => 'liloAivonayoni',
+      'orig' => 'vum~a',
       'prefix' => ''
-    }
-  ],
-  '_t m m' => [
+    },
+    {
+      'types' => {},
+      'entry' => '_tamm',
+      'form' => '_tamma',
+      'lines' => [
+        ';; vam~a_1',
+        'vm      vam~a   FW-Wa   therefore;there (is/are)    [[vam~a/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'therefore',
+        'there (is/are)'
+      ],
+      'orig' => 'vam~a',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_tamm',
+      'form' => '_tammaTa',
+      'lines' => [
+        ';; vam~apa_1',
+        'vmp     vam~apa FW-Wa   there (is/are)              [[vam~apa/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'FaCL |< aT |<< "a"',
+      'suffix' => ' |< aT |<< "a"',
+      'glosses' => [
+        'there (is/are)'
+      ],
+      'orig' => 'vam~apa',
+      'prefix' => ''
+    },
     {
       'types' => {},
       'entry' => '_tumAm',
@@ -4889,6 +4966,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'biAlAi_tnatayn' => [
+    {
+      'types' => {},
+      'entry' => 'biAlAi_tnatayn',
+      'form' => 'biAlAi_tnatayni',
+      'lines' => [
+        ';; biAl{ivonatayoni_1',
+        'bAl<vntyn       biAl{ivonatayoni        FW-Wa   with/by + the + two   [[bi/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]',
+        'bAlAvntyn       biAl{ivonatayoni        FW-Wa   with/by + the + two   [[bi/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'Identity |<< "i"',
+      'suffix' => ' |<< "i"',
+      'glosses' => [
+        'with/by + the + two'
+      ],
+      'orig' => 'biAlAivonatayoni',
+      'prefix' => ''
+    }
+  ],
   '_tiyuw' => [
     {
       'types' => {},
@@ -4907,27 +5006,6 @@ $Lexicon = {
         'Theo'
       ],
       'orig' => 'viyuw',
-      'prefix' => ''
-    }
-  ],
-  '_tammaTa' => [
-    {
-      'types' => {},
-      'entry' => '_tammaTa',
-      'form' => '_tammaTa',
-      'lines' => [
-        ';; vam~apa_1',
-        'vmp     vam~apa FW-Wa   there (is/are)              [[vam~apa/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'there (is/are)'
-      ],
-      'orig' => 'vam~apa',
       'prefix' => ''
     }
   ],
@@ -5306,6 +5384,34 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'Ai_tnAn' => [
+    {
+      'types' => {
+        'AlAi_tnayni' => {
+          'FW-Wa' => 2
+        }
+      },
+      'entry' => 'Ai_tnAn',
+      'form' => 'AlAi_tnAni',
+      'lines' => [
+        ';; Al{ivonAni_1',
+        'Al<vnAn Al{ivonAni      FW-Wa   the + two                         [[Al/DET+{ivon/ADJ+Ani/NSUFF_MASC_DU_NOM]]',
+        'AlAvnAn Al{ivonAni      FW-Wa   the + two                         [[Al/DET+{ivon/ADJ+Ani/NSUFF_MASC_DU_NOM]]',
+        'Al<vnyn Al{ivonayoni    FW-Wa   the + two             [[Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]',
+        'AlAvnyn Al{ivonayoni    FW-Wa   the + two             [[Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'al >| Identity |<< "i"',
+      'suffix' => ' |<< "i"',
+      'glosses' => [
+        'the + two'
+      ],
+      'orig' => 'AlAivonAni',
+      'prefix' => 'al >| '
+    }
+  ],
   '_t .g \'' => [
     {
       'types' => {},
@@ -5322,56 +5428,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_tamma' => [
-    {
-      'types' => {},
-      'entry' => '_tamma',
-      'form' => '_tamma',
-      'lines' => [
-        ';; vam~a_1',
-        'vm      vam~a   FW-Wa   therefore;there (is/are)    [[vam~a/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'therefore',
-        'there (is/are)'
-      ],
-      'orig' => 'vam~a',
-      'prefix' => ''
-    }
-  ],
-  'i_tnatAni' => [
-    {
-      'types' => {
-        'i_tnatayni' => {
-          'FW-WaBi' => 2
-        }
-      },
-      'entry' => 'i_tnatAni',
-      'form' => 'i_tnatAni',
-      'lines' => [
-        ';; {ivonatAni_1',
-        '<vntAn  {ivonatAni      FW-Wa   two     [[{ivon/ADJ+atAni/NSUFF_FEM_DU_NOM]]',
-        'AvntAn  {ivonatAni      FW-Wa   two     [[{ivon/ADJ+atAni/NSUFF_FEM_DU_NOM]]',
-        '<vntyn  {ivonatayoni    FW-WaBi two     [[{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]',
-        'Avntyn  {ivonatayoni    FW-WaBi two     [[{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'two'
-      ],
-      'orig' => 'AivonatAni',
-      'prefix' => ''
-    }
-  ],
   'kaAlAi_tnay' => [
     {
       'types' => {},
@@ -5384,7 +5440,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'prep',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -5906,13 +5962,41 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'prep',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
         'to/for + the + (1st word in "twelve")'
       ],
       'orig' => 'lilAivonatayo',
+      'prefix' => ''
+    }
+  ],
+  'i_tnAn' => [
+    {
+      'types' => {
+        'i_tnayni' => {
+          'FW-WaBi' => 2
+        }
+      },
+      'entry' => 'i_tnAn',
+      'form' => 'i_tnAni',
+      'lines' => [
+        ';; {ivonAni_1',
+        '<vnAn   {ivonAni        FW-Wa   two     [[{ivon/ADJ+Ani/NSUFF_MASC_DU_NOM]]',
+        'AvnAn   {ivonAni        FW-Wa   two     [[{ivon/ADJ+Ani/NSUFF_MASC_DU_NOM]]',
+        '<vnyn   {ivonayoni      FW-WaBi two     [[{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]',
+        'Avnyn   {ivonayoni      FW-WaBi two     [[{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |<< "i"',
+      'suffix' => ' |<< "i"',
+      'glosses' => [
+        'two'
+      ],
+      'orig' => 'AivonAni',
       'prefix' => ''
     }
   ],
@@ -5938,6 +6022,25 @@ $Lexicon = {
     }
   ],
   '_t n \'' => [
+    {
+      'types' => {},
+      'entry' => '\'a_tnA\'',
+      'form' => '\'a_tnA\'a',
+      'lines' => [],
+      'patterns' => {
+        '\'a_tnA\'' => [
+          'HaFCAL',
+          'HaFCA\''
+        ]
+      },
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'HaFCAL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [],
+      'orig' => 'OavonA\'a',
+      'prefix' => ''
+    },
     {
       'types' => {},
       'entry' => '\'a_tnA\'',
@@ -6058,27 +6161,6 @@ $Lexicon = {
       'suffix' => ' |< Iy',
       'glosses' => [],
       'orig' => 'AisotivonA}iy~',
-      'prefix' => ''
-    }
-  ],
-  '_tamAnimA\'' => [
-    {
-      'types' => {},
-      'entry' => '_tamAnimA\'',
-      'form' => '_tamAnimA\'aT',
-      'lines' => [
-        ';; vamAnimA}ap_1',
-        'vmAnmA} vamAnimA}       Nap     eight-hundred'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'eight-hundred'
-      ],
-      'orig' => 'vamAnimA}ap',
       'prefix' => ''
     }
   ],
@@ -6576,6 +6658,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_tamAnimA\'' => [
+    {
+      'types' => {},
+      'entry' => '_tamAnimA\'',
+      'form' => '_tamAnimA\'aT',
+      'lines' => [
+        ';; vamAnimA}ap_1',
+        'vmAnmA} vamAnimA}       Nap     eight-hundred'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'eight-hundred'
+      ],
+      'orig' => 'vamAnimA}ap',
+      'prefix' => ''
+    }
+  ],
   '_tanAyA' => [
     {
       'types' => {
@@ -6614,13 +6717,41 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'prep',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
         'to/for + the + (1st word in "twelve")'
       ],
       'orig' => 'lilAivonayo',
+      'prefix' => ''
+    }
+  ],
+  'i_tnatAn' => [
+    {
+      'types' => {
+        'i_tnatayni' => {
+          'FW-WaBi' => 2
+        }
+      },
+      'entry' => 'i_tnatAn',
+      'form' => 'i_tnatAni',
+      'lines' => [
+        ';; {ivonatAni_1',
+        '<vntAn  {ivonatAni      FW-Wa   two     [[{ivon/ADJ+atAni/NSUFF_FEM_DU_NOM]]',
+        'AvntAn  {ivonatAni      FW-Wa   two     [[{ivon/ADJ+atAni/NSUFF_FEM_DU_NOM]]',
+        '<vntyn  {ivonatayoni    FW-WaBi two     [[{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]',
+        'Avntyn  {ivonatayoni    FW-WaBi two     [[{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |<< "i"',
+      'suffix' => ' |<< "i"',
+      'glosses' => [
+        'two'
+      ],
+      'orig' => 'AivonatAni',
       'prefix' => ''
     }
   ],
@@ -6685,28 +6816,6 @@ $Lexicon = {
         'Tuesday'
       ],
       'orig' => 'vulAvA\'',
-      'prefix' => ''
-    }
-  ],
-  'biAlAi_tnatayni' => [
-    {
-      'types' => {},
-      'entry' => 'biAlAi_tnatayni',
-      'form' => 'biAlAi_tnatayni',
-      'lines' => [
-        ';; biAl{ivonatayoni_1',
-        'bAl<vntyn       biAl{ivonatayoni        FW-Wa   with/by + the + two   [[bi/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]',
-        'bAlAvntyn       biAl{ivonatayoni        FW-Wa   with/by + the + two   [[bi/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'with/by + the + two'
-      ],
-      'orig' => 'biAlAivonatayoni',
       'prefix' => ''
     }
   ],
@@ -7239,6 +7348,28 @@ $Lexicon = {
         'stimulants'
       ],
       'orig' => 'muviyrAt',
+      'prefix' => ''
+    }
+  ],
+  'kaAlAi_tnayn' => [
+    {
+      'types' => {},
+      'entry' => 'kaAlAi_tnayn',
+      'form' => 'kaAlAi_tnayni',
+      'lines' => [
+        ';; kaAl{ivonayoni_1',
+        'kAl<vnyn        kaAl{ivonayoni  FW-Wa   as/like + the + two   [[ka/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]',
+        'kAlAvnyn        kaAl{ivonayoni  FW-Wa   as/like + the + two   [[ka/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'Identity |<< "i"',
+      'suffix' => ' |<< "i"',
+      'glosses' => [
+        'as/like + the + two'
+      ],
+      'orig' => 'kaAlAivonayoni',
       'prefix' => ''
     }
   ],
@@ -7831,34 +7962,6 @@ $Lexicon = {
         'soaked'
       ],
       'orig' => 'var~',
-      'prefix' => ''
-    }
-  ],
-  'i_tnAni' => [
-    {
-      'types' => {
-        'i_tnayni' => {
-          'FW-WaBi' => 2
-        }
-      },
-      'entry' => 'i_tnAni',
-      'form' => 'i_tnAni',
-      'lines' => [
-        ';; {ivonAni_1',
-        '<vnAn   {ivonAni        FW-Wa   two     [[{ivon/ADJ+Ani/NSUFF_MASC_DU_NOM]]',
-        'AvnAn   {ivonAni        FW-Wa   two     [[{ivon/ADJ+Ani/NSUFF_MASC_DU_NOM]]',
-        '<vnyn   {ivonayoni      FW-WaBi two     [[{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]',
-        'Avnyn   {ivonayoni      FW-WaBi two     [[{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'two'
-      ],
-      'orig' => 'AivonAni',
       'prefix' => ''
     }
   ],
@@ -8866,7 +8969,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'prep',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -8909,50 +9012,6 @@ $Lexicon = {
       'suffix' => ' |< Iy',
       'glosses' => [],
       'orig' => 'vawiy~',
-      'prefix' => ''
-    }
-  ],
-  'lilAi_tnatayni' => [
-    {
-      'types' => {},
-      'entry' => 'lilAi_tnatayni',
-      'form' => 'lilAi_tnatayni',
-      'lines' => [
-        ';; lilo{ivonatayoni_1',
-        'll<vntyn        lilo{ivonatayoni        FW-Wa   to/for + the + two    [[li/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]',
-        'llAvntyn        lilo{ivonatayoni        FW-Wa   to/for + the + two    [[li/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'to/for + the + two'
-      ],
-      'orig' => 'liloAivonatayoni',
-      'prefix' => ''
-    }
-  ],
-  'kaAlAi_tnatayni' => [
-    {
-      'types' => {},
-      'entry' => 'kaAlAi_tnatayni',
-      'form' => 'kaAlAi_tnatayni',
-      'lines' => [
-        ';; kaAl{ivonatayoni_1',
-        'kAl<vntyn       kaAl{ivonatayoni        FW-Wa   as/like + the + two   [[ka/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]',
-        'kAlAvntyn       kaAl{ivonatayoni        FW-Wa   as/like + the + two   [[ka/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'as/like + the + two'
-      ],
-      'orig' => 'kaAlAivonatayoni',
       'prefix' => ''
     }
   ],
@@ -9114,7 +9173,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'prep',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -9831,28 +9890,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kaAlAi_tnayni' => [
-    {
-      'types' => {},
-      'entry' => 'kaAlAi_tnayni',
-      'form' => 'kaAlAi_tnayni',
-      'lines' => [
-        ';; kaAl{ivonayoni_1',
-        'kAl<vnyn        kaAl{ivonayoni  FW-Wa   as/like + the + two   [[ka/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]',
-        'kAlAvnyn        kaAl{ivonayoni  FW-Wa   as/like + the + two   [[ka/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'as/like + the + two'
-      ],
-      'orig' => 'kaAlAivonayoni',
-      'prefix' => ''
-    }
-  ],
   '_tuwrmuwnt' => [
     {
       'types' => {},
@@ -9921,28 +9958,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_tumma' => [
-    {
-      'types' => {},
-      'entry' => '_tumma',
-      'form' => '_tumma',
-      'lines' => [
-        ';; vum~a_1',
-        'vm      vum~a   FW-Wa   then;thereupon              [[vum~a/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'then',
-        'thereupon'
-      ],
-      'orig' => 'vum~a',
-      'prefix' => ''
-    }
-  ],
   '_t f r' => [
     {
       'types' => {
@@ -10003,18 +10018,18 @@ $Lexicon->{'_t .g \''}[0]{'glosses'} = $Lexicon->{'_t .g w'}[1]{'glosses'};
 $Lexicon->{'_t n \''}[0]{'types'} = $Lexicon->{'_t n y'}[11]{'types'};
 $Lexicon->{'_t n \''}[0]{'lines'} = $Lexicon->{'_t n y'}[11]{'lines'};
 $Lexicon->{'_t n \''}[0]{'glosses'} = $Lexicon->{'_t n y'}[11]{'glosses'};
-$Lexicon->{'_t n \''}[1]{'types'} = $Lexicon->{'_t n y'}[15]{'types'};
-$Lexicon->{'_t n \''}[1]{'lines'} = $Lexicon->{'_t n y'}[15]{'lines'};
-$Lexicon->{'_t n \''}[1]{'glosses'} = $Lexicon->{'_t n y'}[15]{'glosses'};
+$Lexicon->{'_t n \''}[1]{'types'} = $Lexicon->{'_t n y'}[12]{'types'};
+$Lexicon->{'_t n \''}[1]{'lines'} = $Lexicon->{'_t n y'}[12]{'lines'};
+$Lexicon->{'_t n \''}[1]{'glosses'} = $Lexicon->{'_t n y'}[12]{'glosses'};
 $Lexicon->{'_t n \''}[2]{'types'} = $Lexicon->{'_t n y'}[16]{'types'};
 $Lexicon->{'_t n \''}[2]{'lines'} = $Lexicon->{'_t n y'}[16]{'lines'};
 $Lexicon->{'_t n \''}[2]{'glosses'} = $Lexicon->{'_t n y'}[16]{'glosses'};
 $Lexicon->{'_t n \''}[3]{'types'} = $Lexicon->{'_t n y'}[17]{'types'};
 $Lexicon->{'_t n \''}[3]{'lines'} = $Lexicon->{'_t n y'}[17]{'lines'};
 $Lexicon->{'_t n \''}[3]{'glosses'} = $Lexicon->{'_t n y'}[17]{'glosses'};
-$Lexicon->{'_t n \''}[4]{'types'} = $Lexicon->{'_t n y'}[24]{'types'};
-$Lexicon->{'_t n \''}[4]{'lines'} = $Lexicon->{'_t n y'}[24]{'lines'};
-$Lexicon->{'_t n \''}[4]{'glosses'} = $Lexicon->{'_t n y'}[24]{'glosses'};
+$Lexicon->{'_t n \''}[4]{'types'} = $Lexicon->{'_t n y'}[18]{'types'};
+$Lexicon->{'_t n \''}[4]{'lines'} = $Lexicon->{'_t n y'}[18]{'lines'};
+$Lexicon->{'_t n \''}[4]{'glosses'} = $Lexicon->{'_t n y'}[18]{'glosses'};
 $Lexicon->{'_t n \''}[5]{'types'} = $Lexicon->{'_t n y'}[25]{'types'};
 $Lexicon->{'_t n \''}[5]{'lines'} = $Lexicon->{'_t n y'}[25]{'lines'};
 $Lexicon->{'_t n \''}[5]{'glosses'} = $Lexicon->{'_t n y'}[25]{'glosses'};
@@ -10024,6 +10039,9 @@ $Lexicon->{'_t n \''}[6]{'glosses'} = $Lexicon->{'_t n y'}[26]{'glosses'};
 $Lexicon->{'_t n \''}[7]{'types'} = $Lexicon->{'_t n y'}[27]{'types'};
 $Lexicon->{'_t n \''}[7]{'lines'} = $Lexicon->{'_t n y'}[27]{'lines'};
 $Lexicon->{'_t n \''}[7]{'glosses'} = $Lexicon->{'_t n y'}[27]{'glosses'};
+$Lexicon->{'_t n \''}[8]{'types'} = $Lexicon->{'_t n y'}[28]{'types'};
+$Lexicon->{'_t n \''}[8]{'lines'} = $Lexicon->{'_t n y'}[28]{'lines'};
+$Lexicon->{'_t n \''}[8]{'glosses'} = $Lexicon->{'_t n y'}[28]{'glosses'};
 $Lexicon->{'_t w r'}[9]{'types'} = $Lexicon->{'_t w r y'}[0]{'types'};
 $Lexicon->{'_t w r'}[9]{'lines'} = $Lexicon->{'_t w r y'}[0]{'lines'};
 $Lexicon->{'_t w r'}[9]{'glosses'} = $Lexicon->{'_t w r y'}[0]{'glosses'};

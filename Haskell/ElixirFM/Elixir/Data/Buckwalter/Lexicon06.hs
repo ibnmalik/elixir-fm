@@ -1549,7 +1549,7 @@ lexicon = listing "Lexicon's properties"
     -- <HtjAj  {iHotijAj       NF      protesting;in protest (of)     [[{iHotijAj/ADV]]
     -- AHtjAj  {iHotijAj       NF      protesting;in protest (of)     [[{iHotijAj/ADV]]
 
-    IFtiCAL                   `noun`    {- AiHotijAj -}        [ "protest", "protesting", "in protest (of)" ]
+    IFtiCAL                   `adv`     {- AiHotijAj -}        [ "protest", "protesting", "in protest (of)" ]
                               `plural`     IFtiCAL |< At,
 
     -- ;; HAj~_2
@@ -2510,7 +2510,7 @@ lexicon = listing "Lexicon's properties"
     -- HA$Y    HA$aY   FW-Wa   except for     [[HA$aY/PREP]]
     -- HA$A    HA$A    FW-Wa-A except for     [[HA$A/PREP]]
 
-    FACY                      `noun`    {- HA$aY -}            [ "except for" ],
+    FACY                      `prep`    {- HA$aY -}            [ "except for" ],
 
     -- ;; HA$iyap_1
     -- HA$y    HA$iy   Napdu   margin;edge;retinue
@@ -2581,6 +2581,15 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- Hi*A' -}            [ "(pair of) shoes", "shoes" ]
                               `plural`     HaFCI |< aT,
+
+    -- ;; Hi*A'a_1
+    -- H*A'    Hi*A'a  FW-Wa   opposite;face to face with     [[Hi*A'a/PREP]]
+    -- H*A}    Hi*A}i  FW-Wa   opposite;face to face with     [[Hi*A}i/PREP]]
+    -- H*A'    Hi*A'a  FW-Wa-a opposite;face to face with     [[Hi*A'a/PREP]]
+    -- H*A}    Hi*A}i  FW-Wa-i opposite;face to face with     [[Hi*A}i/PREP]]
+    -- bH*A}   biHi*A}i        FW-Wa-i opposite;face to face with     [[biHi*A}i/PREP]]
+
+    FiCAL |<< "a"             `prep`    {- Hi*A'a -}           [ "opposite", "face to face with" ],
 
     -- ;; Ha*~A'_1
     -- H*A'    Ha*~A'  N0_Nh   shoemaker
@@ -2763,6 +2772,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCL
                            {- `others`  [ ".ha_dr N" ] -},
 
+    -- ;; Ha*Ari_1
+    -- H*Ar    Ha*Ari  FW-Wa   beware;watch out     [[Ha*Ari/INTERJ]]
+
+    FaCAL |<< "i"             `noun`    {- Ha*Ari -}           [ "beware", "watch out" ],
+
     -- ;; taHo*iyr_1
     -- tH*yr   taHo*iyr        NduAt   warning;caution
 
@@ -2842,6 +2856,12 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Ha*ow -}            [ "example" ],
 
+    -- ;; Ha*owa_1
+    -- H*w     Ha*owa  FW-Wa   opposite;in front of     [[Ha*owa/PREP]]
+    -- H*w     Ha*owa  FW-Wa-a opposite;in front of     [[Ha*owa/PREP]]
+
+    FaCL |<< "a"              `prep`    {- Ha*owa -}           [ "opposite", "in front of" ],
+
     -- ;; Hi*A'_1
     -- H*A'    Hi*A'   N0_Nh   (pair of) shoes
     -- H*A&    Hi*A&   Nh      (pair of) shoes
@@ -2851,6 +2871,15 @@ lexicon = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- Hi*A' -}            [ "(pair of) shoes", "shoes" ]
                               `plural`     HaFCI |< aT,
+
+    -- ;; Hi*A'a_1
+    -- H*A'    Hi*A'a  FW-Wa   opposite;face to face with     [[Hi*A'a/PREP]]
+    -- H*A}    Hi*A}i  FW-Wa   opposite;face to face with     [[Hi*A}i/PREP]]
+    -- H*A'    Hi*A'a  FW-Wa-a opposite;face to face with     [[Hi*A'a/PREP]]
+    -- H*A}    Hi*A}i  FW-Wa-i opposite;face to face with     [[Hi*A}i/PREP]]
+    -- bH*A}   biHi*A}i        FW-Wa-i opposite;face to face with     [[biHi*A}i/PREP]]
+
+    FiCA' |<< "a"             `prep`    {- Hi*A'a -}           [ "opposite", "face to face with" ],
 
     -- ;; muHA*Ap_1
     -- mHA*A   muHA*A  Nap     alongside;parallel to
@@ -3079,6 +3108,19 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h b b" <| [
 
+    -- ;; Hab~i_1
+    -- Hb      Hab~    PV_V    love;like;want
+    -- Hbb     Habab   PV_C    love;like;want
+    -- Hb      Hib~    IV_V    love;like;want
+    -- Hbb     Hobib   IV_C    love;like;want
+
+    FaCL |<< "i"              `noun`    {- Hab~i -}            [ "love", "like", "want" ]
+                              `plural`     FCiL
+                              `plural`     FaCL
+                              `plural`     FiCL
+                              `plural`     FaCaL
+                           {- `others`  [ ".hbib IV_C", ".habb PV_V", ".hibb IV_V", ".habab PV_C" ] -},
+
     -- ;; Hab~ab_1
     -- Hbb     Hab~ab  PV      endear;granulate
     -- Hbb     Hab~ib  IV_yu   endear;granulate
@@ -3123,7 +3165,7 @@ lexicon = listing "Lexicon's properties"
     -- Hb      Hub~    N       love;affection
     -- Hb      Hub~    NF      out of affection for;for love of     [[Hub~/ADV]]
 
-    FuCL                      `noun`    {- Hub~ -}             [ "love", "affection", "out of affection for", "for love of" ],
+    FuCL                      `adv`     {- Hub~ -}             [ "love", "affection", "out of affection for", "for love of" ],
 
     -- ;; Hub~iy~_1
     -- Hby     Hub~iy~ Nall    amicable     [[Hub~iy~/ADJ]]
@@ -7311,7 +7353,7 @@ lexicon = listing "Lexicon's properties"
     -- >HmA}   >aHomA} Nhy     fathers-in-law
     -- AHmA}   >aHomA} Nhy     fathers-in-law
 
-    FaL                       `noun`    {- Ham -}              [ "father-in-law", "father-in-law + my", "father-in-law of", "fathers-in-law" ]
+    FaL                       `pron`    {- Ham -}              [ "father-in-law", "father-in-law + my", "father-in-law of", "fathers-in-law" ]
                               `plural`     FaCA
                               `plural`     FaCU
                               `plural`     FaCI
@@ -7608,7 +7650,7 @@ lexicon = listing "Lexicon's properties"
     -- >HmA}   >aHomA} Nhy     fathers-in-law
     -- AHmA}   >aHomA} Nhy     fathers-in-law
 
-    FaC                       `noun`    {- Ham -}              [ "father-in-law", "father-in-law + my", "father-in-law of", "fathers-in-law" ]
+    FaC                       `pron`    {- Ham -}              [ "father-in-law", "father-in-law + my", "father-in-law of", "fathers-in-law" ]
                               `plural`     FaCA
                               `plural`     FaCU
                               `plural`     FaCI
@@ -8677,7 +8719,7 @@ lexicon = listing "Lexicon's properties"
     -- Hqwq    Huquwq  N       rights;law
     -- Hq      Haq~    NF      really;truly     [[Haq~/ADV]]
 
-    FaCL                      `noun`    {- Haq~ -}             [ "truth", "right", "against", "towards", "rights", "law", "really", "truly" ]
+    FaCL                      `prep`    {- Haq~ -}             [ "truth", "right", "against", "towards", "rights", "law", "really", "truly" ]
                               `plural`     FuCUL
                            {- `others`  [ ".huquwq N" ] -},
 
@@ -8966,7 +9008,7 @@ lexicon = listing "Lexicon's properties"
     -- HrS     HiroS   N       desire;eagerness;keenness
     -- HrS     HiroS   NF      out of concern for;desirous of     [[HiroS/ADV]]
 
-    FiCL                      `noun`    {- HiroS -}            [ "desire", "eagerness", "keenness", "out of concern for", "desirous of" ],
+    FiCL                      `adv`     {- HiroS -}            [ "desire", "eagerness", "keenness", "out of concern for", "desirous of" ],
 
     -- ;; HariyS_1
     -- HryS    HariyS  Nall    eager;desirous     [[HariyS/ADJ]]
@@ -9714,7 +9756,7 @@ lexicon = listing "Lexicon's properties"
     -- <HtrAm  {iHotirAm       NF      out of respect for;in honor of     [[{iHotirAm/ADV]]
     -- AHtrAm  {iHotirAm       NF      out of respect for;in honor of     [[{iHotirAm/ADV]]
 
-    IFtiCAL                   `noun`    {- AiHotirAm -}        [ "respect", "honoring", "out of respect for", "in honor of" ]
+    IFtiCAL                   `adv`     {- AiHotirAm -}        [ "respect", "honoring", "out of respect for", "in honor of" ]
                               `plural`     IFtiCAL |< At,
 
     -- ;; maHoruwm_1
@@ -10439,7 +10481,7 @@ lexicon = listing "Lexicon's properties"
     -- Hsb     Hasob   N       reckoning;calculation
     -- fHsb    faHasob FW      only     [[faHasob/ADV]]
 
-    FaCL                      `noun`    {- Hasob -}            [ "reckoning", "calculation", "only" ],
+    FaCL                      `adv`     {- Hasob -}            [ "reckoning", "calculation", "only" ],
 
     -- ;; Hasab_1
     -- Hsb     Hasab   N       according to;depending on
@@ -10510,7 +10552,7 @@ lexicon = listing "Lexicon's properties"
     -- tHsb    taHas~ub        N/At    expectation;precaution
     -- tHsb    taHas~ub        NF      in expectation of;as a precaution     [[taHas~ub/ADV]]
 
-    TaFaCCuL                  `noun`    {- taHas~ub -}         [ "expectation", "precaution", "in expectation of", "as a precaution" ]
+    TaFaCCuL                  `adv`     {- taHas~ub -}         [ "expectation", "precaution", "in expectation of", "as a precaution" ]
                               `plural`     TaFaCCuL |< At,
 
     -- ;; taHas~ubiy~_1
@@ -10729,7 +10771,7 @@ lexicon = listing "Lexicon's properties"
     -- Hsn     Hasan   NF      well     [[Hasan/ADV]]
     -- HsAn    HisAn   N       good
 
-    FaCaL                     `noun`    {- Hasan -}            [ "good", "well" ]
+    FaCaL                     `adv`     {- Hasan -}            [ "good", "well" ]
                               `plural`     FiCAL
                            {- `others`  [ ".hisAn N" ] -},
 
@@ -11125,7 +11167,7 @@ lexicon = listing "Lexicon's properties"
     -- <HtjAj  {iHotijAj       NF      protesting;in protest (of)     [[{iHotijAj/ADV]]
     -- AHtjAj  {iHotijAj       NF      protesting;in protest (of)     [[{iHotijAj/ADV]]
 
-    IFCiLAL                   `noun`    {- AiHotijAj -}        [ "protest", "protesting", "in protest (of)" ]
+    IFCiLAL                   `adv`     {- AiHotijAj -}        [ "protest", "protesting", "in protest (of)" ]
                               `plural`     IFCiLAL |< At,
 
     -- ;; muHotaj~_1
@@ -11287,7 +11329,7 @@ lexicon = listing "Lexicon's properties"
     -- Htm     Hatom   N       imposition;necessity
     -- Htm     Hatom   NF      definitely     [[Hatom/ADV]]
 
-    FaCL                      `noun`    {- Hatom -}            [ "imposition", "necessity", "definitely" ],
+    FaCL                      `adv`     {- Hatom -}            [ "imposition", "necessity", "definitely" ],
 
     -- ;; Hatomiy~_1
     -- Htmy    Hatomiy~        Nall    definitive;necessary     [[Hatomiy~/ADJ]]
@@ -11407,19 +11449,19 @@ lexicon = listing "Lexicon's properties"
     -- HtY     Hat~aY  FW-Wa   until;up to                     [[Hat~aY/PREP]]
     -- Hty     Hat~aY  FW-Wa   until;up to                     [[Hat~aY/PREP]]
 
-    FaCLY                     `noun`    {- Hat~aY -}           [ "until", "up to" ],
+    FaCLY                     `prep`    {- Hat~aY -}           [ "until", "up to" ],
 
     -- ;; Hat~aY_2
     -- HtY     Hat~aY  FW-Wa   in order to                     [[Hat~aY/CONJ]]
     -- Hty     Hat~aY  FW-Wa   in order to                     [[Hat~aY/CONJ]]
 
-    FaCLY                     `noun`    {- Hat~aY -}           [ "in order to" ],
+    FaCLY                     `conj`    {- Hat~aY -}           [ "in order to" ],
 
     -- ;; Hat~aY_3
     -- HtY     Hat~aY  FW-Wa   even;even though;although       [[Hat~aY/ADV]]
     -- Hty     Hat~aY  FW-Wa   even;even though;although       [[Hat~aY/ADV]]
 
-    FaCLY                     `noun`    {- Hat~aY -}           [ "even", "even though", "although" ] ]
+    FaCLY                     `adv`     {- Hat~aY -}           [ "even", "even though", "although" ] ]
 
  |> ".h t y" <| [
 
@@ -11432,19 +11474,19 @@ lexicon = listing "Lexicon's properties"
     -- HtY     Hat~aY  FW-Wa   until;up to                     [[Hat~aY/PREP]]
     -- Hty     Hat~aY  FW-Wa   until;up to                     [[Hat~aY/PREP]]
 
-    FaCCY                     `noun`    {- Hat~aY -}           [ "until", "up to" ],
+    FaCCY                     `prep`    {- Hat~aY -}           [ "until", "up to" ],
 
     -- ;; Hat~aY_2
     -- HtY     Hat~aY  FW-Wa   in order to                     [[Hat~aY/CONJ]]
     -- Hty     Hat~aY  FW-Wa   in order to                     [[Hat~aY/CONJ]]
 
-    FaCCY                     `noun`    {- Hat~aY -}           [ "in order to" ],
+    FaCCY                     `conj`    {- Hat~aY -}           [ "in order to" ],
 
     -- ;; Hat~aY_3
     -- HtY     Hat~aY  FW-Wa   even;even though;although       [[Hat~aY/ADV]]
     -- Hty     Hat~aY  FW-Wa   even;even though;although       [[Hat~aY/ADV]]
 
-    FaCCY                     `noun`    {- Hat~aY -}           [ "even", "even though", "although" ] ]
+    FaCCY                     `adv`     {- Hat~aY -}           [ "even", "even though", "although" ] ]
 
  |> ".h t z" <| [
 
@@ -11938,6 +11980,17 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h w l" <| [
 
+    -- ;; Hawola_1
+    -- Hwl     Hawola  FW-Wa   about;around     [[Hawola/PREP]]
+    -- Hwl     Hawoli  FW-Wa   about;around     [[Hawoli/PREP]]
+    -- Hwl     Hawola  FW-Wa-a about;around     [[Hawola/PREP]]
+    -- Hwl     Hawoli  FW-Wa-i about;around     [[Hawoli/PREP]]
+    -- Hwl     Hawol   FW-Wa-o about;around     [[Hawol/PREP]]
+
+    FaCL |<< "a"              `prep`    {- Hawola -}           [ "about", "around" ]
+                              `plural`     FaCL
+                           {- `others`  [ ".hawl FW-Wa-o" ] -},
+
     -- ;; HAl-u_1
     -- HAl     HAl     PV_V    prevent
     -- Hl      Hul     PV_C    prevent
@@ -12039,7 +12092,7 @@ lexicon = listing "Lexicon's properties"
     -- HwAly   HawAlay FW-WaBi approximately;around     [[HawAlay/PREP]]
     -- HwAly   HawAlay FW-Wa-y approximately;around     [[HawAlay/PREP]]
 
-    FaCALY                    `noun`    {- HawAlaY -}          [ "approximately", "around" ],
+    FaCALY                    `prep`    {- HawAlaY -}          [ "approximately", "around" ],
 
     -- ;; maHAlap_1
     -- mHAl    maHAl   Napdu   pulley;wheel;roller
@@ -12858,6 +12911,12 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h y _t" <| [
 
+    -- ;; Hayovu_1
+    -- Hyv     Hayovu  FW-Wa   where;whereby;since;given that     [[Hayovu/CONJ]]
+    -- bHyv    biHayovu        FW-Wa   where;whereby;since;given that     [[biHayovu/CONJ]]
+
+    FaCL |<< "u"              `conj`    {- Hayovu -}           [ "where", "whereby", "since", "given that" ],
+
     -- ;; Hayoviy~ap_1
     -- Hyvy    Hayoviy~        Napdu   viewpoint;opinion     [[Hayoviy~/NOUN]]
     -- Hyvy    Hayoviy~        NAt     circumstances     [[Hayoviy~/NOUN]]
@@ -13010,6 +13069,14 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h y l" <| [
 
+    -- ;; HiyAla_1
+    -- HyAl    HiyAla  FW-Wa   concerning;with regard to     [[HiyAla/PREP]]
+    -- HyAl    HiyAli  FW-Wa   concerning;with regard to     [[HiyAli/PREP]]
+    -- HyAl    HiyAla  FW-Wa-a concerning;with regard to     [[HiyAla/PREP]]
+    -- HyAl    HiyAli  FW-Wa-i concerning;with regard to     [[HiyAli/PREP]]
+
+    FiCAL |<< "a"             `prep`    {- HiyAla -}           [ "concerning", "with regard to" ],
+
     -- ;; {iHotiyAl_1
     -- <HtyAl  {iHotiyAl       NduAt   fraud;deception;cheating
     -- AHtyAl  {iHotiyAl       NduAt   fraud;deception;cheating
@@ -13092,6 +13159,14 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h y n" <| [
 
+    -- ;; Hiyna_1
+    -- Hyn     Hiyna   FW-Wa   when     [[Hiyna/PREP]]
+    -- Hyn     Hiyni   FW-Wa   when     [[Hiyni/PREP]]
+    -- Hyn     Hiyna   FW-Wa-a when     [[Hiyna/PREP]]
+    -- Hyn     Hiyni   FW-Wa-i when     [[Hiyni/PREP]]
+
+    FIL |<< "a"               `prep`    {- Hiyna -}            [ "when" ],
+
     -- ;; HAn-i_1
     -- HAn     HAn     PV_V    arrive;approach
     -- Hn      Hin     PV_Cn   arrive;approach
@@ -13127,7 +13202,7 @@ lexicon = listing "Lexicon's properties"
     -- >HyAn   >aHoyAn NF      sometimes;occasionally     [[>aHoyAn/ADV]]
     -- AHyAn   >aHoyAn NF      sometimes;occasionally     [[>aHoyAn/ADV]]
 
-    FIL                       `noun`    {- Hiyn -}             [ "time", "moment", "opportunity", "times", "opportunities", "sometimes", "occasionally" ]
+    FIL                       `adv`     {- Hiyn -}             [ "time", "moment", "opportunity", "times", "opportunities", "sometimes", "occasionally" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.hyAn N NF" ] -} ]
 
@@ -13382,6 +13457,11 @@ lexicon = listing "Lexicon's properties"
     TaFIL |< aT               `noun`    {- taHiy~ap -}         [ "greeting", "salute", "greetings", "salutations" ]
                               `plural`     TaFACY
                            {- `others`  [ "ta.hAyY N0" ] -},
+
+    -- ;; Hay~a_1
+    -- Hy      Hay~a   FW      come!     [[Hay~a/INTERJ]]
+
+    FaCL |<< "a"              `noun`    {- Hay~a -}            [ "come!" ],
 
     -- ;; muHoyiy_1
     -- mHyy    muHoyiy Nprop   Muhi
@@ -13943,7 +14023,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HAlamA_1
     -- HAlmA   HAlamA  FW-Wa   as soon as    [[HAlamA/CONJ]]
 
-    Identity                  `noun`    {- HAlamA -}           [ "as soon as" ] ]
+    Identity                  `conj`    {- HAlamA -}           [ "as soon as" ] ]
 
  |> ".hAyiym" <| [
 
@@ -13966,21 +14046,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- HaSAlubAn -}        [ "rosemary" ] ]
 
- |> ".ha_dAri" <| [
-
-    -- ;; Ha*Ari_1
-    -- H*Ar    Ha*Ari  FW-Wa   beware;watch out     [[Ha*Ari/INTERJ]]
-
-    Identity                  `noun`    {- Ha*Ari -}           [ "beware", "watch out" ] ]
-
- |> ".ha_dwa" <| [
-
-    -- ;; Ha*owa_1
-    -- H*w     Ha*owa  FW-Wa   opposite;in front of     [[Ha*owa/PREP]]
-    -- H*w     Ha*owa  FW-Wa-a opposite;in front of     [[Ha*owa/PREP]]
-
-    Identity                  `noun`    {- Ha*owa -}           [ "opposite", "in front of" ] ]
-
  |> ".habaquwq" <| [
 
     -- ;; Habaquwq_1
@@ -14001,16 +14066,6 @@ lexicon = listing "Lexicon's properties"
     -- HbhAn   Hab~ahAn        N       cardamom
 
     Identity                  `noun`    {- Hab~ahAn -}         [ "cardamom" ] ]
-
- |> ".habbi" <| [
-
-    -- ;; Hab~i_1
-    -- Hb      Hab~    PV_V    love;like;want
-    -- Hbb     Habab   PV_C    love;like;want
-    -- Hb      Hib~    IV_V    love;like;want
-    -- Hbb     Hobib   IV_C    love;like;want
-
-    Identity                  `noun`    {- Hab~i -}            [ "love", "like", "want" ] ]
 
  |> ".hakiymbA^siy" <| [
 
@@ -14090,7 +14145,7 @@ lexicon = listing "Lexicon's properties"
     -- HnAnykm HanAnayokum     FW-Wa   mercy! + you [masc.pl.]              [[HanAnay/INTERJ+kum/PRON_2MP]]
     -- HnAnykn HanAnayokun~a   FW-Wa   mercy! + you [fem.pl.]   [[HanAnay/INTERJ+kun~a/PRON_2FP]]
 
-    Identity                  `noun`    {- HanAnay- -}         [ "mercy! + you [masc.sg.]", "mercy! + you [fem.sg.]", "mercy! + you both", "mercy! + you [masc.pl.]", "mercy! + you [fem.pl.]" ] ]
+    Identity                  `pron`    {- HanAnay- -}         [ "mercy! + you [masc.sg.]", "mercy! + you [fem.sg.]", "mercy! + you both", "mercy! + you [masc.pl.]", "mercy! + you [fem.pl.]" ] ]
 
  |> ".handaquwq" <| [
 
@@ -14113,7 +14168,7 @@ lexicon = listing "Lexicon's properties"
     -- HsbmA   HasabamA        FW-Wa   according to         [[HasabamA/CONJ]]
     -- HsbmA   HasobamA        FW-Wa   according to         [[HasobamA/CONJ]]
 
-    Identity                  `noun`    {- HasabamA -}         [ "according to" ] ]
+    Identity                  `conj`    {- HasabamA -}         [ "according to" ] ]
 
  |> ".hasanayn" <| [
 
@@ -14127,33 +14182,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hat~amA_1
     -- HtmA    Hat~amA FW-Wa   until when   [[Hat~amA/CONJ]]
 
-    Identity                  `noun`    {- Hat~amA -}          [ "until when" ] ]
-
- |> ".hawla" <| [
-
-    -- ;; Hawola_1
-    -- Hwl     Hawola  FW-Wa   about;around     [[Hawola/PREP]]
-    -- Hwl     Hawoli  FW-Wa   about;around     [[Hawoli/PREP]]
-    -- Hwl     Hawola  FW-Wa-a about;around     [[Hawola/PREP]]
-    -- Hwl     Hawoli  FW-Wa-i about;around     [[Hawoli/PREP]]
-    -- Hwl     Hawol   FW-Wa-o about;around     [[Hawol/PREP]]
-
-    Identity                  `noun`    {- Hawola -}           [ "about", "around" ] ]
-
- |> ".hay_tu" <| [
-
-    -- ;; Hayovu_1
-    -- Hyv     Hayovu  FW-Wa   where;whereby;since;given that     [[Hayovu/CONJ]]
-    -- bHyv    biHayovu        FW-Wa   where;whereby;since;given that     [[biHayovu/CONJ]]
-
-    Identity                  `noun`    {- Hayovu -}           [ "where", "whereby", "since", "given that" ] ]
+    Identity                  `conj`    {- Hat~amA -}          [ "until when" ] ]
 
  |> ".hay_tumA" <| [
 
     -- ;; HayovumA_1
     -- HyvmA   HayovumA        FW-WaBi wherever     [[HayovumA/CONJ]]
 
-    Identity                  `noun`    {- HayovumA -}         [ "wherever" ] ]
+    Identity                  `conj`    {- HayovumA -}         [ "wherever" ] ]
 
  |> ".haydar'AbAd" <| [
 
@@ -14171,13 +14207,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- HayofA -}           [ "Haifa" ] ]
 
- |> ".hayya" <| [
-
-    -- ;; Hay~a_1
-    -- Hy      Hay~a   FW      come!     [[Hay~a/INTERJ]]
-
-    Identity                  `noun`    {- Hay~a -}            [ "come!" ] ]
-
  |> ".haziyrAn" <| [
 
     -- ;; HaziyrAn_1
@@ -14185,17 +14214,6 @@ lexicon = listing "Lexicon's properties"
     -- HzyrAn  HuzayorAn       Ndip    June
 
     Identity                  `noun`    {- HaziyrAn -}         [ "June" ] ]
-
- |> ".hi_dA'a" <| [
-
-    -- ;; Hi*A'a_1
-    -- H*A'    Hi*A'a  FW-Wa   opposite;face to face with     [[Hi*A'a/PREP]]
-    -- H*A}    Hi*A}i  FW-Wa   opposite;face to face with     [[Hi*A}i/PREP]]
-    -- H*A'    Hi*A'a  FW-Wa-a opposite;face to face with     [[Hi*A'a/PREP]]
-    -- H*A}    Hi*A}i  FW-Wa-i opposite;face to face with     [[Hi*A}i/PREP]]
-    -- bH*A}   biHi*A}i        FW-Wa-i opposite;face to face with     [[biHi*A}i/PREP]]
-
-    Identity                  `noun`    {- Hi*A'a -}           [ "opposite", "face to face with" ] ]
 
  |> ".hikimdAr" <| [
 
@@ -14241,46 +14259,26 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Hiro*awon -}        [ "lizard", "lizards" ] ]
 
- |> ".hiyAla" <| [
-
-    -- ;; HiyAla_1
-    -- HyAl    HiyAla  FW-Wa   concerning;with regard to     [[HiyAla/PREP]]
-    -- HyAl    HiyAli  FW-Wa   concerning;with regard to     [[HiyAli/PREP]]
-    -- HyAl    HiyAla  FW-Wa-a concerning;with regard to     [[HiyAla/PREP]]
-    -- HyAl    HiyAli  FW-Wa-i concerning;with regard to     [[HiyAli/PREP]]
-
-    Identity                  `noun`    {- HiyAla -}           [ "concerning", "with regard to" ] ]
-
- |> ".hiyna" <| [
-
-    -- ;; Hiyna_1
-    -- Hyn     Hiyna   FW-Wa   when     [[Hiyna/PREP]]
-    -- Hyn     Hiyni   FW-Wa   when     [[Hiyni/PREP]]
-    -- Hyn     Hiyna   FW-Wa-a when     [[Hiyna/PREP]]
-    -- Hyn     Hiyni   FW-Wa-i when     [[Hiyni/PREP]]
-
-    Identity                  `noun`    {- Hiyna -}            [ "when" ] ]
-
  |> ".hiyna'i_diN" <| [
 
     -- ;; Hiyna}i*K_1
     -- Hyn}*   Hiyna}i*K       FW-Wa   then;at the time     [[Hiyna}i*K/ADV]]
 
-    Identity                  `noun`    {- Hiyna}i*K -}        [ "then", "at the time" ] ]
+    Identity                  `adv`     {- Hiyna}i*K -}        [ "then", "at the time" ] ]
 
  |> ".hiyna_dAk" <| [
 
     -- ;; Hiyna*Ak_1
     -- Hyn*Ak  Hiyna*Ak        FW-Wa   then;at the time     [[Hiyna*Ak/ADV]]
 
-    Identity                  `noun`    {- Hiyna*Ak -}         [ "then", "at the time" ] ]
+    Identity                  `adv`     {- Hiyna*Ak -}         [ "then", "at the time" ] ]
 
  |> ".hiynamA" <| [
 
     -- ;; HiynamA_1
     -- HynmA   HiynamA FW-Wa   when;while     [[HiynamA/CONJ]]
 
-    Identity                  `noun`    {- HiynamA -}          [ "when", "while" ] ]
+    Identity                  `conj`    {- HiynamA -}          [ "when", "while" ] ]
 
  |> ".hu^gaylAn" <| [
 

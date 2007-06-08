@@ -1099,7 +1099,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
@@ -2465,33 +2465,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hunAka' => [
-    {
-      'types' => {
-        'hunAlika' => {
-          'FW-Wa' => 1
-        }
-      },
-      'entry' => 'hunAka',
-      'form' => 'hunAka',
-      'lines' => [
-        ';; hunAka_1',
-        'hnAk    hunAka  FW-Wa   there;there (is/are)    [[hunAka/ADV]]',
-        'hnAlk   hunAlika        FW-Wa   there;there (is/are)    [[hunAlika/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'there',
-        'there (is/are)'
-      ],
-      'orig' => 'hunAka',
-      'prefix' => ''
-    }
-  ],
   'h b .t' => [
     {
       'types' => {
@@ -2789,7 +2762,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'FaC',
       'suffix' => '',
       'glosses' => [
@@ -2798,27 +2771,6 @@ $Lexicon = {
         'is/are?'
       ],
       'orig' => 'hal',
-      'prefix' => ''
-    }
-  ],
-  'huwa' => [
-    {
-      'types' => {},
-      'entry' => 'huwa',
-      'form' => 'huwa',
-      'lines' => [
-        ';; huwa_1',
-        'hw      huwa    FW-Wa   it/he                [[huwa/PRON_3MS]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'it/he'
-      ],
-      'orig' => 'huwa',
       'prefix' => ''
     }
   ],
@@ -3713,6 +3665,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mAhuw' => [
+    {
+      'types' => {},
+      'entry' => 'mAhuw',
+      'form' => 'mAhuwa',
+      'lines' => [
+        ';; mAhuwa_1',
+        'mAhw    mAhuwa  FW-Wa   what     [[mAhuwa/REL_PRON]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'pron',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'what'
+      ],
+      'orig' => 'mAhuwa',
+      'prefix' => ''
+    }
+  ],
   'h n h n' => [
     {
       'types' => {
@@ -3770,6 +3743,27 @@ $Lexicon = {
         'lullabies'
       ],
       'orig' => 'hanohuwnap',
+      'prefix' => ''
+    }
+  ],
+  'halumm' => [
+    {
+      'types' => {},
+      'entry' => 'halumm',
+      'form' => 'halumma',
+      'lines' => [
+        ';; halum~a_1',
+        'hlm     halum~a FW-Wa   come on!     [[halum~a/INTERJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'come on!'
+      ],
+      'orig' => 'halum~a',
       'prefix' => ''
     }
   ],
@@ -6329,27 +6323,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'halumma' => [
-    {
-      'types' => {},
-      'entry' => 'halumma',
-      'form' => 'halumma',
-      'lines' => [
-        ';; halum~a_1',
-        'hlm     halum~a FW-Wa   come on!     [[halum~a/INTERJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'come on!'
-      ],
-      'orig' => 'halum~a',
-      'prefix' => ''
-    }
-  ],
   'h n r y' => [
     {
       'types' => {},
@@ -8547,6 +8520,25 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => 'hayt',
+      'form' => 'hayta',
+      'lines' => [
+        ';; hayota_1',
+        'hyt     hayota  FW-Wa   come here!    [[hayota/INTERJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'come here!'
+      ],
+      'orig' => 'hayota',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'hiyt',
       'form' => 'hiyt',
       'lines' => [
@@ -8667,27 +8659,6 @@ $Lexicon = {
         'composing'
       ],
       'orig' => 'hayokalap',
-      'prefix' => ''
-    }
-  ],
-  'hunna' => [
-    {
-      'types' => {},
-      'entry' => 'hunna',
-      'form' => 'hunna',
-      'lines' => [
-        ';; hun~a_1',
-        'hn      hun~a   FW-Wa   they [fem.pl.]       [[hun~a/PRON_3FP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'they [fem.pl.]'
-      ],
-      'orig' => 'hun~a',
       'prefix' => ''
     }
   ],
@@ -13606,7 +13577,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -15406,7 +15377,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -16153,7 +16124,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'FaL',
       'suffix' => '',
       'glosses' => [],
@@ -16740,27 +16711,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hayta' => [
-    {
-      'types' => {},
-      'entry' => 'hayta',
-      'form' => 'hayta',
-      'lines' => [
-        ';; hayota_1',
-        'hyt     hayota  FW-Wa   come here!    [[hayota/INTERJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'come here!'
-      ],
-      'orig' => 'hayota',
-      'prefix' => ''
-    }
-  ],
   'hilsinkiy' => [
     {
       'types' => {
@@ -17158,27 +17108,6 @@ $Lexicon = {
         'night vigil'
       ],
       'orig' => 'hujuwd',
-      'prefix' => ''
-    }
-  ],
-  'mAhuwa' => [
-    {
-      'types' => {},
-      'entry' => 'mAhuwa',
-      'form' => 'mAhuwa',
-      'lines' => [
-        ';; mAhuwa_1',
-        'mAhw    mAhuwa  FW-Wa   what     [[mAhuwa/REL_PRON]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'what'
-      ],
-      'orig' => 'mAhuwa',
       'prefix' => ''
     }
   ],
@@ -20001,7 +19930,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -20634,27 +20563,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hiya' => [
-    {
-      'types' => {},
-      'entry' => 'hiya',
-      'form' => 'hiya',
-      'lines' => [
-        ';; hiya_1',
-        'hy      hiya    FW-Wa   it/they/she          [[hiya/PRON_3FS]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'it/they/she'
-      ],
-      'orig' => 'hiya',
-      'prefix' => ''
-    }
-  ],
   'hAward' => [
     {
       'types' => {
@@ -21244,7 +21152,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -21317,7 +21225,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'FuL',
       'suffix' => '',
       'glosses' => [
@@ -22508,6 +22416,25 @@ $Lexicon = {
     }
   ],
   'h n n' => [
+    {
+      'types' => {},
+      'entry' => 'hunn',
+      'form' => 'hunna',
+      'lines' => [
+        ';; hun~a_1',
+        'hn      hun~a   FW-Wa   they [fem.pl.]       [[hun~a/PRON_3FP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'pron',
+      'morphs' => 'FuCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'they [fem.pl.]'
+      ],
+      'orig' => 'hun~a',
+      'prefix' => ''
+    },
     {
       'types' => {
         'hinn' => {
@@ -24452,7 +24379,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -25074,6 +25001,25 @@ $Lexicon = {
     }
   ],
   'h w w' => [
+    {
+      'types' => {},
+      'entry' => 'huw',
+      'form' => 'huwa',
+      'lines' => [
+        ';; huwa_1',
+        'hw      huwa    FW-Wa   it/he                [[huwa/PRON_3MS]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'pron',
+      'morphs' => 'FU |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'it/he'
+      ],
+      'orig' => 'huwa',
+      'prefix' => ''
+    },
     {
       'types' => {},
       'entry' => 'huw',
@@ -26731,7 +26677,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -28444,6 +28390,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'h y y' => [
+    {
+      'types' => {},
+      'entry' => 'hiy',
+      'form' => 'hiya',
+      'lines' => [
+        ';; hiya_1',
+        'hy      hiya    FW-Wa   it/they/she          [[hiya/PRON_3FS]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'pron',
+      'morphs' => 'FI |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'it/they/she'
+      ],
+      'orig' => 'hiya',
+      'prefix' => ''
+    }
+  ],
   'hiyuw' => [
     {
       'types' => {},
@@ -29990,6 +29957,33 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'h n k' => [
+    {
+      'types' => {
+        'hunAlika' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => 'hunAk',
+      'form' => 'hunAka',
+      'lines' => [
+        ';; hunAka_1',
+        'hnAk    hunAka  FW-Wa   there;there (is/are)    [[hunAka/ADV]]',
+        'hnAlk   hunAlika        FW-Wa   there;there (is/are)    [[hunAlika/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'FuCAL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'there',
+        'there (is/are)'
+      ],
+      'orig' => 'hunAka',
+      'prefix' => ''
+    }
+  ],
   'huwyAmA' => [
     {
       'types' => {},
@@ -30436,7 +30430,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'FuC',
       'suffix' => '',
       'glosses' => [],
@@ -30899,9 +30893,9 @@ $Lexicon->{'h w n'}[18]{'glosses'} = $Lexicon->{'h y n'}[4]{'glosses'};
 $Lexicon->{'h n y'}[1]{'types'} = $Lexicon->{'h n \''}[11]{'types'};
 $Lexicon->{'h n y'}[1]{'lines'} = $Lexicon->{'h n \''}[11]{'lines'};
 $Lexicon->{'h n y'}[1]{'glosses'} = $Lexicon->{'h n \''}[11]{'glosses'};
-$Lexicon->{'h n n'}[1]{'types'} = $Lexicon->{'h n \''}[14]{'types'};
-$Lexicon->{'h n n'}[1]{'lines'} = $Lexicon->{'h n \''}[14]{'lines'};
-$Lexicon->{'h n n'}[1]{'glosses'} = $Lexicon->{'h n \''}[14]{'glosses'};
+$Lexicon->{'h n n'}[2]{'types'} = $Lexicon->{'h n \''}[14]{'types'};
+$Lexicon->{'h n n'}[2]{'lines'} = $Lexicon->{'h n \''}[14]{'lines'};
+$Lexicon->{'h n n'}[2]{'glosses'} = $Lexicon->{'h n \''}[14]{'glosses'};
 $Lexicon->{'h ^g \''}[2]{'types'} = $Lexicon->{'h ^g w'}[6]{'types'};
 $Lexicon->{'h ^g \''}[2]{'lines'} = $Lexicon->{'h ^g w'}[6]{'lines'};
 $Lexicon->{'h ^g \''}[2]{'glosses'} = $Lexicon->{'h ^g w'}[6]{'glosses'};
@@ -30923,12 +30917,12 @@ $Lexicon->{'h t m'}[4]{'glosses'} = $Lexicon->{'h m m'}[14]{'glosses'};
 $Lexicon->{'h t m'}[5]{'types'} = $Lexicon->{'h m m'}[19]{'types'};
 $Lexicon->{'h t m'}[5]{'lines'} = $Lexicon->{'h m m'}[19]{'lines'};
 $Lexicon->{'h t m'}[5]{'glosses'} = $Lexicon->{'h m m'}[19]{'glosses'};
-$Lexicon->{'h w w'}[2]{'types'} = $Lexicon->{'h w \''}[3]{'types'};
-$Lexicon->{'h w w'}[2]{'lines'} = $Lexicon->{'h w \''}[3]{'lines'};
-$Lexicon->{'h w w'}[2]{'glosses'} = $Lexicon->{'h w \''}[3]{'glosses'};
-$Lexicon->{'h n w'}[1]{'types'} = $Lexicon->{'h n n'}[2]{'types'};
-$Lexicon->{'h n w'}[1]{'lines'} = $Lexicon->{'h n n'}[2]{'lines'};
-$Lexicon->{'h n w'}[1]{'glosses'} = $Lexicon->{'h n n'}[2]{'glosses'};
+$Lexicon->{'h w w'}[3]{'types'} = $Lexicon->{'h w \''}[3]{'types'};
+$Lexicon->{'h w w'}[3]{'lines'} = $Lexicon->{'h w \''}[3]{'lines'};
+$Lexicon->{'h w w'}[3]{'glosses'} = $Lexicon->{'h w \''}[3]{'glosses'};
+$Lexicon->{'h n w'}[1]{'types'} = $Lexicon->{'h n n'}[3]{'types'};
+$Lexicon->{'h n w'}[1]{'lines'} = $Lexicon->{'h n n'}[3]{'lines'};
+$Lexicon->{'h n w'}[1]{'glosses'} = $Lexicon->{'h n n'}[3]{'glosses'};
 $Lexicon->{'h y m'}[8]{'types'} = $Lexicon->{'h \' m'}[0]{'types'};
 $Lexicon->{'h y m'}[8]{'lines'} = $Lexicon->{'h \' m'}[0]{'lines'};
 $Lexicon->{'h y m'}[8]{'glosses'} = $Lexicon->{'h \' m'}[0]{'glosses'};

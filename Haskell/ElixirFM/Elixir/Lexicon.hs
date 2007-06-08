@@ -58,7 +58,7 @@ module Elixir.Lexicon (
         sumEntry, sumEntryChars,
 -}
 
-        verb, noun, adj, num, prep, conj, part,
+        verb, noun, adj, pron, adv, prep, conj, part,
 
         imperf, pfirst, ithird, second,
 
@@ -178,7 +178,7 @@ data Number = Singular | Dual | Plural
     deriving Show
 
 
-verb, noun, adj, num, prep, conj, part :: (Morphing a b, Nestable b) => a -> Lexref -> Entry b
+verb, noun, adj, pron, adv, prep, conj, part :: (Morphing a b, Nestable b) => a -> Lexref -> Entry b
 
 verb m l = Entry (Verb [] [] []) (morph m) l
 
@@ -186,13 +186,13 @@ noun m l = Entry (Noun [] Nothing Nothing) (morph m) l
 
 adj  m l = Entry (Adj [] Nothing) (morph m) l
 
-num  m l = Entry (Adj [] Nothing) (morph m) l
-
+pron = noun
+adv = noun
 prep = noun
 conj = noun
 part = noun
 
-infixl 3 `verb`, `noun`, `adj`, `num`, `prep`, `conj`, `part`
+infixl 3 `verb`, `noun`, `adj`, `pron`, `adv`, `prep`, `conj`, `part`
 
 
 {-

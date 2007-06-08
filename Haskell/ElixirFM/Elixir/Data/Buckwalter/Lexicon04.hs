@@ -9,22 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'a_tnA'a" <| [
-
-    -- ;; >avonA'a_1
-    -- >vnA'   >avonA'a        FW-Wa   during     [[>avonA'a/PREP]]
-    -- AvnA'   >avonA'a        FW-Wa   during     [[>avonA'a/PREP]]
-    -- >vnA'   >avonA'i        FW-Wa   during     [[>avonA'i/PREP]]
-    -- AvnA'   >avonA'i        FW-Wa   during     [[>avonA'i/PREP]]
-    -- >vnA'   >avonA'a        FW-Wa-a during     [[>avonA'a/PREP]]
-    -- AvnA'   >avonA'a        FW-Wa-a during     [[>avonA'a/PREP]]
-    -- >vnA}   >avonA}i        FW-Wa-i during     [[>avonA}i/PREP]]
-    -- AvnA}   >avonA}i        FW-Wa-i during     [[>avonA}i/PREP]]
-    -- >vnA}   >avonA} FW-Wa-o during     [[>avonA}a/PREP]]
-    -- AvnA}   >avonA} FW-Wa-o during     [[>avonA}a/PREP]]
-
-    Identity                  `noun`    {- OavonA'a -}         [ "during" ] ]
-
  |> "'i_tb" <| [
 
     -- ;; <ivobAt_1
@@ -49,7 +33,7 @@ lexicon = listing "Lexicon's properties"
 
     al >| Identity            `adj`     {- AlAivonA -}         [ "the + (1st word in \"twelve\")" ] ]
 
- |> "Ai_tnAni" <| [
+ |> "Ai_tnAn" <| [
 
     -- ;; Al{ivonAni_1
     -- Al<vnAn Al{ivonAni      FW-Wa   the + two                         [[Al/DET+{ivon/ADJ+Ani/NSUFF_MASC_DU_NOM]]
@@ -57,7 +41,7 @@ lexicon = listing "Lexicon's properties"
     -- Al<vnyn Al{ivonayoni    FW-Wa   the + two             [[Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]
     -- AlAvnyn Al{ivonayoni    FW-Wa   the + two             [[Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]
 
-    al >| Identity            `adj`     {- AlAivonAni -}       [ "the + two" ] ]
+    al >| Identity |<< "i"    `adj`     {- AlAivonAni -}       [ "the + two" ] ]
 
  |> "Ai_tnatA" <| [
 
@@ -69,7 +53,7 @@ lexicon = listing "Lexicon's properties"
 
     al >| Identity            `adj`     {- AlAivonatA -}       [ "the + (1st word in \"twelve\")" ] ]
 
- |> "Ai_tnatAni" <| [
+ |> "Ai_tnatAn" <| [
 
     -- ;; Al{ivonatAni_1
     -- Al<vntAn        Al{ivonatAni    FW-Wa   the + two                         [[Al/DET+{ivon/ADJ+atAni/NSUFF_FEM_DU_NOM]]
@@ -77,7 +61,7 @@ lexicon = listing "Lexicon's properties"
     -- Al<vntyn        Al{ivonatayoni  FW-Wa   the + two             [[Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]
     -- AlAvntyn        Al{ivonatayoni  FW-Wa   the + two             [[Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]
 
-    al >| Identity            `adj`     {- AlAivonatAni -}     [ "the + two" ] ]
+    al >| Identity |<< "i"    `adj`     {- AlAivonatAni -}     [ "the + two" ] ]
 
  |> "_t  '" <| [
 
@@ -1132,6 +1116,21 @@ lexicon = listing "Lexicon's properties"
 
  |> "_t m m" <| [
 
+    -- ;; vum~a_1
+    -- vm      vum~a   FW-Wa   then;thereupon              [[vum~a/ADV]]
+
+    FuCL |<< "a"              `adv`     {- vum~a -}            [ "then", "thereupon" ],
+
+    -- ;; vam~a_1
+    -- vm      vam~a   FW-Wa   therefore;there (is/are)    [[vam~a/ADV]]
+
+    FaCL |<< "a"              `adv`     {- vam~a -}            [ "therefore", "there (is/are)" ],
+
+    -- ;; vam~apa_1
+    -- vmp     vam~apa FW-Wa   there (is/are)              [[vam~apa/ADV]]
+
+    FaCL |< aT |<< "a"        `adv`     {- vam~apa -}          [ "there (is/are)" ],
+
     -- ;; vumAm_1
     -- vmAm    vumAm   N       grass
     -- vmAm    vumAm   Nap     blade of grass
@@ -1326,6 +1325,23 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`    {- vAmir -}            [ "Thamir" ] ]
 
  |> "_t n '" <| [
+
+    -- ;; >avonA'a_1
+    -- >vnA'   >avonA'a        FW-Wa   during     [[>avonA'a/PREP]]
+    -- AvnA'   >avonA'a        FW-Wa   during     [[>avonA'a/PREP]]
+    -- >vnA'   >avonA'i        FW-Wa   during     [[>avonA'i/PREP]]
+    -- AvnA'   >avonA'i        FW-Wa   during     [[>avonA'i/PREP]]
+    -- >vnA'   >avonA'a        FW-Wa-a during     [[>avonA'a/PREP]]
+    -- AvnA'   >avonA'a        FW-Wa-a during     [[>avonA'a/PREP]]
+    -- >vnA}   >avonA}i        FW-Wa-i during     [[>avonA}i/PREP]]
+    -- AvnA}   >avonA}i        FW-Wa-i during     [[>avonA}i/PREP]]
+    -- >vnA}   >avonA} FW-Wa-o during     [[>avonA}a/PREP]]
+    -- AvnA}   >avonA} FW-Wa-o during     [[>avonA}a/PREP]]
+
+    HaFCAL |<< "a"            `prep`    {- OavonA'a -}         [ "during" ]
+                              `plural`     HaFCAL
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a_tnA' FW-Wa-o" ] -},
 
     -- ;; >avonA'_2
     -- >vnA'   >avonA' N0      meanwhile;meantime
@@ -1547,6 +1563,22 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCA'
                            {- `others`  [ "'a_tnA' Nh N0_Nh Nhy" ] -},
 
+    -- ;; >avonA'a_1
+    -- >vnA'   >avonA'a        FW-Wa   during     [[>avonA'a/PREP]]
+    -- AvnA'   >avonA'a        FW-Wa   during     [[>avonA'a/PREP]]
+    -- >vnA'   >avonA'i        FW-Wa   during     [[>avonA'i/PREP]]
+    -- AvnA'   >avonA'i        FW-Wa   during     [[>avonA'i/PREP]]
+    -- >vnA'   >avonA'a        FW-Wa-a during     [[>avonA'a/PREP]]
+    -- AvnA'   >avonA'a        FW-Wa-a during     [[>avonA'a/PREP]]
+    -- >vnA}   >avonA}i        FW-Wa-i during     [[>avonA}i/PREP]]
+    -- AvnA}   >avonA}i        FW-Wa-i during     [[>avonA}i/PREP]]
+    -- >vnA}   >avonA} FW-Wa-o during     [[>avonA}a/PREP]]
+    -- AvnA}   >avonA} FW-Wa-o during     [[>avonA}a/PREP]]
+
+    HaFCA' |<< "a"            `prep`    {- OavonA'a -}         [ "during" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a_tnA' FW-Wa-o" ] -},
+
     -- ;; >avonA'_2
     -- >vnA'   >avonA' N0      meanwhile;meantime
     -- AvnA'   >avonA' N0      meanwhile;meantime
@@ -1610,7 +1642,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; vAniyAF_1
     -- vAny    vAniy   NF      secondly     [[vAniy/ADV]]
 
-    FACI |< aN                `noun`    {- vAniyAF -}          [ "secondly" ]
+    FACI |< aN                `adv`     {- vAniyAF -}          [ "secondly" ]
                               `plural`     FACI
                            {- `others`  [ "_tAniy NF" ] -},
 
@@ -2589,20 +2621,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- vamAnimA}ap -}      [ "eight-hundred" ] ]
 
- |> "_tamma" <| [
-
-    -- ;; vam~a_1
-    -- vm      vam~a   FW-Wa   therefore;there (is/are)    [[vam~a/ADV]]
-
-    Identity                  `noun`    {- vam~a -}            [ "therefore", "there (is/are)" ] ]
-
- |> "_tammaTa" <| [
-
-    -- ;; vam~apa_1
-    -- vmp     vam~apa FW-Wa   there (is/are)              [[vam~apa/ADV]]
-
-    Identity                  `noun`    {- vam~apa -}          [ "there (is/are)" ] ]
-
  |> "_tanAyA" <| [
 
     -- ;; vanAyA_1
@@ -2628,13 +2646,6 @@ lexicon = listing "Lexicon's properties"
     -- vlvA}   vulavA} Nhy     Tuesday
 
     Identity                  `noun`    {- vulAvA' -}          [ "Tuesday" ] ]
-
- |> "_tumma" <| [
-
-    -- ;; vum~a_1
-    -- vm      vum~a   FW-Wa   then;thereupon              [[vum~a/ADV]]
-
-    Identity                  `noun`    {- vum~a -}            [ "then", "thereupon" ] ]
 
  |> "_turayyA" <| [
 
@@ -2676,15 +2687,15 @@ lexicon = listing "Lexicon's properties"
     -- bAl<vnty        biAl{ivonatayo  FW-Wa   with/by + the + (1st word in "twelve")  [[bi/PREP+Al/DET+{ivon/ADJ+atayo/NSUFF_FEM_DU_ACCGEN_POSS]]
     -- bAlAvnty        biAl{ivonatayo  FW-Wa   with/by + the + (1st word in "twelve")  [[bi/PREP+Al/DET+{ivon/ADJ+atayo/NSUFF_FEM_DU_ACCGEN_POSS]]
 
-    Identity                  `adj`     {- biAlAivonatayo -}   [ "with/by + the + (1st word in \"twelve\")" ] ]
+    Identity                  `prep`    {- biAlAivonatayo -}   [ "with/by + the + (1st word in \"twelve\")" ] ]
 
- |> "biAlAi_tnatayni" <| [
+ |> "biAlAi_tnatayn" <| [
 
     -- ;; biAl{ivonatayoni_1
     -- bAl<vntyn       biAl{ivonatayoni        FW-Wa   with/by + the + two   [[bi/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]
     -- bAlAvntyn       biAl{ivonatayoni        FW-Wa   with/by + the + two   [[bi/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]
 
-    Identity                  `adj`     {- biAlAivonatayoni -} [ "with/by + the + two" ] ]
+    Identity |<< "i"          `prep`    {- biAlAivonatayoni -} [ "with/by + the + two" ] ]
 
  |> "biAlAi_tnay" <| [
 
@@ -2692,15 +2703,15 @@ lexicon = listing "Lexicon's properties"
     -- bAl<vny biAl{ivonayo    FW-Wa   with/by + the + (1st word in "twelve")  [[bi/PREP+Al/DET+{ivon/ADJ+ayo/NSUFF_MASC_DU_ACCGEN_POSS]]
     -- bAlAvny biAl{ivonayo    FW-Wa   with/by + the + (1st word in "twelve")  [[bi/PREP+Al/DET+{ivon/ADJ+ayo/NSUFF_MASC_DU_ACCGEN_POSS]]
 
-    Identity                  `adj`     {- biAlAivonayo -}     [ "with/by + the + (1st word in \"twelve\")" ] ]
+    Identity                  `prep`    {- biAlAivonayo -}     [ "with/by + the + (1st word in \"twelve\")" ] ]
 
- |> "biAlAi_tnayni" <| [
+ |> "biAlAi_tnayn" <| [
 
     -- ;; biAl{ivonayoni_1
     -- bAl<vnyn        biAl{ivonayoni  FW-Wa   with/by + the + two   [[bi/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]
     -- bAlAvnyn        biAl{ivonayoni  FW-Wa   with/by + the + two   [[bi/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]
 
-    Identity                  `adj`     {- biAlAivonayoni -}   [ "with/by + the + two" ] ]
+    Identity |<< "i"          `prep`    {- biAlAivonayoni -}   [ "with/by + the + two" ] ]
 
  |> "i_tnA" <| [
 
@@ -2712,7 +2723,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `adj`     {- AivonA -}           [ "(1st word in \"twelve\")" ] ]
 
- |> "i_tnAni" <| [
+ |> "i_tnAn" <| [
 
     -- ;; {ivonAni_1
     -- <vnAn   {ivonAni        FW-Wa   two     [[{ivon/ADJ+Ani/NSUFF_MASC_DU_NOM]]
@@ -2720,7 +2731,7 @@ lexicon = listing "Lexicon's properties"
     -- <vnyn   {ivonayoni      FW-WaBi two     [[{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]
     -- Avnyn   {ivonayoni      FW-WaBi two     [[{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]
 
-    Identity                  `adj`     {- AivonAni -}         [ "two" ] ]
+    Identity |<< "i"          `adj`     {- AivonAni -}         [ "two" ] ]
 
  |> "i_tnatA" <| [
 
@@ -2732,7 +2743,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `adj`     {- AivonatA -}         [ "(1st word in \"twelve\")" ] ]
 
- |> "i_tnatAni" <| [
+ |> "i_tnatAn" <| [
 
     -- ;; {ivonatAni_1
     -- <vntAn  {ivonatAni      FW-Wa   two     [[{ivon/ADJ+atAni/NSUFF_FEM_DU_NOM]]
@@ -2740,15 +2751,15 @@ lexicon = listing "Lexicon's properties"
     -- <vntyn  {ivonatayoni    FW-WaBi two     [[{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]
     -- Avntyn  {ivonatayoni    FW-WaBi two     [[{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]
 
-    Identity                  `adj`     {- AivonatAni -}       [ "two" ] ]
+    Identity |<< "i"          `adj`     {- AivonatAni -}       [ "two" ] ]
 
- |> "i_tnayni" <| [
+ |> "i_tnayn" <| [
 
     -- ;; {ivonayoni_1
     -- <vnyn   {ivonayoni      N0      Monday
     -- Avnyn   {ivonayoni      N0      Monday
 
-    Identity                  `noun`    {- Aivonayoni -}       [ "Monday" ] ]
+    Identity |<< "i"          `noun`    {- Aivonayoni -}       [ "Monday" ] ]
 
  |> "kaAlAi_tnatay" <| [
 
@@ -2756,15 +2767,15 @@ lexicon = listing "Lexicon's properties"
     -- kAl<vnty        kaAl{ivonatayo  FW-Wa   as/like + the + (1st word in "twelve")  [[ka/PREP+Al/DET+{ivon/ADJ+atayo/NSUFF_FEM_DU_ACCGEN_POSS]]
     -- kAlAvnty        kaAl{ivonatayo  FW-Wa   as/like + the + (1st word in "twelve")  [[ka/PREP+Al/DET+{ivon/ADJ+atayo/NSUFF_FEM_DU_ACCGEN_POSS]]
 
-    Identity                  `adj`     {- kaAlAivonatayo -}   [ "as/like + the + (1st word in \"twelve\")" ] ]
+    Identity                  `prep`    {- kaAlAivonatayo -}   [ "as/like + the + (1st word in \"twelve\")" ] ]
 
- |> "kaAlAi_tnatayni" <| [
+ |> "kaAlAi_tnatayn" <| [
 
     -- ;; kaAl{ivonatayoni_1
     -- kAl<vntyn       kaAl{ivonatayoni        FW-Wa   as/like + the + two   [[ka/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]
     -- kAlAvntyn       kaAl{ivonatayoni        FW-Wa   as/like + the + two   [[ka/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]
 
-    Identity                  `adj`     {- kaAlAivonatayoni -} [ "as/like + the + two" ] ]
+    Identity |<< "i"          `prep`    {- kaAlAivonatayoni -} [ "as/like + the + two" ] ]
 
  |> "kaAlAi_tnay" <| [
 
@@ -2772,15 +2783,15 @@ lexicon = listing "Lexicon's properties"
     -- kAl<vny kaAl{ivonayo    FW-Wa   as/like + the + (1st word in "twelve")  [[ka/PREP+Al/DET+{ivon/ADJ+ayo/NSUFF_MASC_DU_ACCGEN_POSS]]
     -- kAlAvny kaAl{ivonayo    FW-Wa   as/like + the + (1st word in "twelve")  [[ka/PREP+Al/DET+{ivon/ADJ+ayo/NSUFF_MASC_DU_ACCGEN_POSS]]
 
-    Identity                  `adj`     {- kaAlAivonayo -}     [ "as/like + the + (1st word in \"twelve\")" ] ]
+    Identity                  `prep`    {- kaAlAivonayo -}     [ "as/like + the + (1st word in \"twelve\")" ] ]
 
- |> "kaAlAi_tnayni" <| [
+ |> "kaAlAi_tnayn" <| [
 
     -- ;; kaAl{ivonayoni_1
     -- kAl<vnyn        kaAl{ivonayoni  FW-Wa   as/like + the + two   [[ka/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]
     -- kAlAvnyn        kaAl{ivonayoni  FW-Wa   as/like + the + two   [[ka/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]
 
-    Identity                  `adj`     {- kaAlAivonayoni -}   [ "as/like + the + two" ] ]
+    Identity |<< "i"          `prep`    {- kaAlAivonayoni -}   [ "as/like + the + two" ] ]
 
  |> "lilAi_tnatay" <| [
 
@@ -2788,15 +2799,15 @@ lexicon = listing "Lexicon's properties"
     -- ll<vnty lil{ivonatayo   FW-Wa   to/for + the + (1st word in "twelve")               [[li/PREP+Al/DET+{ivon/ADJ+atayo/NSUFF_FEM_DU_ACCGEN_POSS]]
     -- llAvnty lil{ivonatayo   FW-Wa   to/for + the + (1st word in "twelve")               [[li/PREP+Al/DET+{ivon/ADJ+atayo/NSUFF_FEM_DU_ACCGEN_POSS]]
 
-    Identity                  `adj`     {- lilAivonatayo -}    [ "to/for + the + (1st word in \"twelve\")" ] ]
+    Identity                  `prep`    {- lilAivonatayo -}    [ "to/for + the + (1st word in \"twelve\")" ] ]
 
- |> "lilAi_tnatayni" <| [
+ |> "lilAi_tnatayn" <| [
 
     -- ;; lilo{ivonatayoni_1
     -- ll<vntyn        lilo{ivonatayoni        FW-Wa   to/for + the + two    [[li/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]
     -- llAvntyn        lilo{ivonatayoni        FW-Wa   to/for + the + two    [[li/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN]]
 
-    Identity                  `adj`     {- liloAivonatayoni -} [ "to/for + the + two" ] ]
+    Identity |<< "i"          `prep`    {- liloAivonatayoni -} [ "to/for + the + two" ] ]
 
  |> "lilAi_tnay" <| [
 
@@ -2804,13 +2815,13 @@ lexicon = listing "Lexicon's properties"
     -- ll<vny  lil{ivonayo     FW-Wa   to/for + the + (1st word in "twelve")               [[li/PREP+Al/DET+{ivon/ADJ+ayo/NSUFF_MASC_DU_ACCGEN_POSS]]
     -- llAvny  lil{ivonayo     FW-Wa   to/for + the + (1st word in "twelve")               [[li/PREP+Al/DET+{ivon/ADJ+ayo/NSUFF_MASC_DU_ACCGEN_POSS]]
 
-    Identity                  `adj`     {- lilAivonayo -}      [ "to/for + the + (1st word in \"twelve\")" ] ]
+    Identity                  `prep`    {- lilAivonayo -}      [ "to/for + the + (1st word in \"twelve\")" ] ]
 
- |> "lilAi_tnayni" <| [
+ |> "lilAi_tnayn" <| [
 
     -- ;; lilo{ivonayoni_1
     -- ll<vnyn lilo{ivonayoni  FW-Wa   to/for + the + two    [[li/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]
     -- llAvnyn lilo{ivonayoni  FW-Wa   to/for + the + two    [[li/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]
 
-    Identity                  `adj`     {- liloAivonayoni -}   [ "to/for + the + two" ] ]
+    Identity |<< "i"          `prep`    {- liloAivonayoni -}   [ "to/for + the + two" ] ]
 

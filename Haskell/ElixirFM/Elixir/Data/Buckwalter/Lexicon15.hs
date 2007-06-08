@@ -1274,6 +1274,15 @@ lexicon = listing "Lexicon's properties"
 
     TaFACL                    `verb`    {- taDAd~ -}           [ "oppose each other" ],
 
+    -- ;; Did~a_1
+    -- Dd      Did~a   FW-Wa   against     [[Did~a/PREP]]
+    -- Dd      Did~a   FW-Wa-a against     [[Did~a/PREP]]
+    -- Dd      Did~    FW-Wa-o against     [[Did~/PREP]]
+
+    FiCL |<< "a"              `prep`    {- Did~a -}            [ "against" ]
+                              `plural`     FiCL
+                           {- `others`  [ ".didd FW-Wa-o" ] -},
+
     -- ;; Did~_1
     -- Dd      Did~    N       contrary;against;opposed;anti-;counter-
     -- >DdAd   >aDodAd N       opposites
@@ -1935,6 +1944,14 @@ lexicon = listing "Lexicon's properties"
 
  |> ".d m n" <| [
 
+    -- ;; Dimona_1
+    -- Dmn     Dimona  FW-Wa   within;inside;among     [[Dimona/PREP]]
+    -- Dmn     Dimoni  FW-Wa   within;inside;among     [[Dimoni/PREP]]
+    -- Dmn     Dimona  FW-Wa-a within;inside;among     [[Dimona/PREP]]
+    -- Dmn     Dimoni  FW-Wa-i within;inside;among     [[Dimoni/PREP]]
+
+    FiCL |<< "a"              `prep`    {- Dimona -}           [ "within", "inside", "among" ],
+
     -- ;; Damin-a_1
     -- Dmn     Damin   PV-n    guarantee;insure
     -- Dmn     Doman   IV-n    guarantee;insure
@@ -1968,7 +1985,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; DimonAF_1
     -- DmnA    DimonAF FW-Wa   implicitly     [[DimonAF/ADV]]
 
-    FiCL |< aN                `noun`    {- DimonAF -}          [ "implicitly" ],
+    FiCL |< aN                `adv`     {- DimonAF -}          [ "implicitly" ],
 
     -- ;; Dimoniy~_1
     -- Dmny    Dimoniy~        N-ap    implicit;tacit     [[Dimoniy~/ADJ]]
@@ -3408,7 +3425,7 @@ lexicon = listing "Lexicon's properties"
     -- DyAE    DiyAE   N       loss;waste
     -- DyAE    DiyAE   NF      in vain     [[DiyAE/ADV]]
 
-    FiCAL                     `noun`    {- DiyAE -}            [ "loss", "waste", "in vain" ],
+    FiCAL                     `adv`     {- DiyAE -}            [ "loss", "waste", "in vain" ],
 
     -- ;; DiyEAn_1
     -- DyEAn   DiyEAn  N       loss;waste
@@ -3538,7 +3555,7 @@ lexicon = listing "Lexicon's properties"
     -- <DAfp   <iDAfapF        FW-Wa   in addition     [[<iDAfapF/ADV]]
     -- ADAfp   <iDAfapF        FW-Wa   in addition     [[<iDAfapF/ADV]]
 
-    HiFAL |< aT               `noun`    {- IiDAfap -}          [ "addition", "appending", "in addition" ],
+    HiFAL |< aT               `adv`     {- IiDAfap -}          [ "addition", "appending", "in addition" ],
 
     -- ;; <iDAfiy~_1
     -- <DAfy   <iDAfiy~        N-ap    additional;supplementary     [[<iDAfiy~/ADJ]]
@@ -3549,7 +3566,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muDiyfAF_1
     -- mDyf    muDiyf  NF      adding     [[muDiyf/ADV]]
 
-    MuFIL |< aN               `noun`    {- muDiyfAF -}         [ "adding" ]
+    MuFIL |< aN               `adv`     {- muDiyfAF -}         [ "adding" ]
                               `plural`     MuFIL
                            {- `others`  [ "mu.diyf NF" ] -},
 
@@ -3710,25 +3727,6 @@ lexicon = listing "Lexicon's properties"
     -- DrbxAn  DaraboxAn       NapAt   money mint
 
     Identity |< aT            `noun`    {- DaraboxAnap -}      [ "money mint" ] ]
-
- |> ".didda" <| [
-
-    -- ;; Did~a_1
-    -- Dd      Did~a   FW-Wa   against     [[Did~a/PREP]]
-    -- Dd      Did~a   FW-Wa-a against     [[Did~a/PREP]]
-    -- Dd      Did~    FW-Wa-o against     [[Did~/PREP]]
-
-    Identity                  `noun`    {- Did~a -}            [ "against" ] ]
-
- |> ".dimna" <| [
-
-    -- ;; Dimona_1
-    -- Dmn     Dimona  FW-Wa   within;inside;among     [[Dimona/PREP]]
-    -- Dmn     Dimoni  FW-Wa   within;inside;among     [[Dimoni/PREP]]
-    -- Dmn     Dimona  FW-Wa-a within;inside;among     [[Dimona/PREP]]
-    -- Dmn     Dimoni  FW-Wa-i within;inside;among     [[Dimoni/PREP]]
-
-    Identity                  `noun`    {- Dimona -}           [ "within", "inside", "among" ] ]
 
  |> "i.d.da^ga`" <| [
 

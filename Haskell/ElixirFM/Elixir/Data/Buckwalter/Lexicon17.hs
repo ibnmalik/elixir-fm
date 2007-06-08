@@ -260,7 +260,7 @@ lexicon = listing "Lexicon's properties"
     -- >ZhAr   >aZohAr N       afternoons
     -- AZhAr   >aZohAr N       afternoons
 
-    FuCL                      `noun`    {- Zuhor -}            [ "noon", "afternoon", "in the afternoon", "at noon", "afternoons" ]
+    FuCL                      `adv`     {- Zuhor -}            [ "noon", "afternoon", "in the afternoon", "at noon", "afternoons" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.zhAr N" ] -},
 
@@ -455,6 +455,18 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ ".zuluwf N", "'a.zlAf N" ] -} ]
 
  |> ".z l l" <| [
+
+    -- ;; Zal~a_1
+    -- Zl      Zal~    PV_V    remain;continue
+    -- Zll     Zalil   PV_C    remain;continue
+    -- Zl      Zal~    IV_V    remain;continue
+    -- Zll     Zolal   IV_C    remain;continue
+
+    FaCL |<< "a"              `noun`    {- Zal~a -}            [ "remain", "continue" ]
+                              `plural`     FCaL
+                              `plural`     FaCL
+                              `plural`     FaCiL
+                           {- `others`  [ ".zlal IV_C", ".zall PV_V IV_V", ".zalil PV_C" ] -},
 
     -- ;; Zal~al_1
     -- Zll     Zal~al  PV      shade
@@ -942,16 +954,6 @@ lexicon = listing "Lexicon's properties"
     -- ZrAn    Zir~An  N       flint
 
     FiCLAn                    `noun`    {- Zir~An -}           [ "flint" ] ]
-
- |> ".zalla" <| [
-
-    -- ;; Zal~a_1
-    -- Zl      Zal~    PV_V    remain;continue
-    -- Zll     Zalil   PV_C    remain;continue
-    -- Zl      Zal~    IV_V    remain;continue
-    -- Zll     Zolal   IV_C    remain;continue
-
-    Identity                  `noun`    {- Zal~a -}            [ "remain", "continue" ] ]
 
  |> "i.z.zalam" <| [
 

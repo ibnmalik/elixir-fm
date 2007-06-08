@@ -757,39 +757,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ta.hta' => [
-    {
-      'types' => {
-        'ta.ht' => {
-          'FW-Wa-o' => 1
-        },
-        'ta.hti' => {
-          'FW-Wa' => 1,
-          'FW-Wa-i' => 1
-        }
-      },
-      'entry' => 'ta.hta',
-      'form' => 'ta.hta',
-      'lines' => [
-        ';; taHota_1',
-        'tHt     taHota  FW-Wa   under     [[taHota/PREP]]',
-        'tHt     taHoti  FW-Wa   under     [[taHoti/PREP]]',
-        'tHt     taHota  FW-Wa-a under     [[taHota/PREP]]',
-        'tHt     taHoti  FW-Wa-i under     [[taHoti/PREP]]',
-        'tHt     taHot   FW-Wa-o under     [[taHot/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'under'
-      ],
-      'orig' => 'taHota',
-      'prefix' => ''
-    }
-  ],
   't \' q' => [
     {
       'types' => {
@@ -2063,7 +2030,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -2148,27 +2115,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ta.htu' => [
-    {
-      'types' => {},
-      'entry' => 'ta.htu',
-      'form' => 'ta.htu',
-      'lines' => [
-        ';; taHotu_1',
-        'tHt     taHotu  FW-Wa   underneath     [[taHotu/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'underneath'
-      ],
-      'orig' => 'taHotu',
-      'prefix' => ''
-    }
-  ],
   't w m s' => [
     {
       'types' => {},
@@ -2202,7 +2148,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -2905,7 +2851,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FAL |< aT |< aN',
       'suffix' => ' |< aT |< aN',
       'glosses' => [
@@ -3273,28 +3219,6 @@ $Lexicon = {
         'Tillstrom'
       ],
       'orig' => 'tiylostruwm',
-      'prefix' => ''
-    }
-  ],
-  'tilwa' => [
-    {
-      'types' => {},
-      'entry' => 'tilwa',
-      'form' => 'tilwa',
-      'lines' => [
-        ';; tilowa_1',
-        'tlw     tilowa  FW-Wa   after     [[tilowa/PREP]]',
-        'tlw     tilowa  FW-Wa-a after     [[tilowa/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'after'
-      ],
-      'orig' => 'tilowa',
       'prefix' => ''
     }
   ],
@@ -5549,6 +5473,26 @@ $Lexicon = {
       ],
       'orig' => 'tilAwap',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tilw',
+      'form' => 'tilwa',
+      'lines' => [
+        ';; tilowa_1',
+        'tlw     tilowa  FW-Wa   after     [[tilowa/PREP]]',
+        'tlw     tilowa  FW-Wa-a after     [[tilowa/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FiCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'after'
+      ],
+      'orig' => 'tilowa',
+      'prefix' => ''
     }
   ],
   'tAbiyuwkA' => [
@@ -7285,7 +7229,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCaL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -7432,7 +7376,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -7565,7 +7509,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'IFtiCAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -11051,7 +10995,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -11483,7 +11427,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -13045,6 +12989,60 @@ $Lexicon = {
   ],
   't .h t' => [
     {
+      'types' => {
+        'ta.ht' => {
+          'FW-Wa-o' => 1
+        },
+        'ta.hti' => {
+          'FW-Wa' => 1,
+          'FW-Wa-i' => 1
+        }
+      },
+      'entry' => 'ta.ht',
+      'form' => 'ta.hta',
+      'lines' => [
+        ';; taHota_1',
+        'tHt     taHota  FW-Wa   under     [[taHota/PREP]]',
+        'tHt     taHoti  FW-Wa   under     [[taHoti/PREP]]',
+        'tHt     taHota  FW-Wa-a under     [[taHota/PREP]]',
+        'tHt     taHoti  FW-Wa-i under     [[taHoti/PREP]]',
+        'tHt     taHot   FW-Wa-o under     [[taHot/PREP]]'
+      ],
+      'patterns' => {
+        'ta.ht' => [
+          'FaCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'under'
+      ],
+      'orig' => 'taHota',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta.ht',
+      'form' => 'ta.htu',
+      'lines' => [
+        ';; taHotu_1',
+        'tHt     taHotu  FW-Wa   underneath     [[taHotu/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'FaCL |<< "u"',
+      'suffix' => ' |<< "u"',
+      'glosses' => [
+        'underneath'
+      ],
+      'orig' => 'taHotu',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'ta.ht',
       'form' => 'ta.htiyy',
@@ -13580,7 +13578,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -13934,7 +13932,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FuCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -15012,9 +15010,9 @@ $Lexicon->{'t r s'}[5]{'glosses'} = $Lexicon->{'t r s n'}[0]{'glosses'};
 $Lexicon->{'t r s'}[6]{'types'} = $Lexicon->{'t r s n'}[1]{'types'};
 $Lexicon->{'t r s'}[6]{'lines'} = $Lexicon->{'t r s n'}[1]{'lines'};
 $Lexicon->{'t r s'}[6]{'glosses'} = $Lexicon->{'t r s n'}[1]{'glosses'};
-$Lexicon->{'t .h t'}[1]{'types'} = $Lexicon->{'t .h t n'}[0]{'types'};
-$Lexicon->{'t .h t'}[1]{'lines'} = $Lexicon->{'t .h t n'}[0]{'lines'};
-$Lexicon->{'t .h t'}[1]{'glosses'} = $Lexicon->{'t .h t n'}[0]{'glosses'};
+$Lexicon->{'t .h t'}[3]{'types'} = $Lexicon->{'t .h t n'}[0]{'types'};
+$Lexicon->{'t .h t'}[3]{'lines'} = $Lexicon->{'t .h t n'}[0]{'lines'};
+$Lexicon->{'t .h t'}[3]{'glosses'} = $Lexicon->{'t .h t n'}[0]{'glosses'};
 $Lexicon->{'t ` b n'}[0]{'types'} = $Lexicon->{'t ` b'}[4]{'types'};
 $Lexicon->{'t ` b n'}[0]{'lines'} = $Lexicon->{'t ` b'}[4]{'lines'};
 $Lexicon->{'t ` b n'}[0]{'glosses'} = $Lexicon->{'t ` b'}[4]{'glosses'};

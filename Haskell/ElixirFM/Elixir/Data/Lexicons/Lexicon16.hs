@@ -116,7 +116,7 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- TabaE-a -}          [ "print", "impress", "be printed", "be imprinted" ]
                               `imperf`     FCaL,
 
-    FaCL                      `noun`    {- TaboE -}            [ "temperament", "naturally", "of course" ],
+    FaCL                      `adv`     {- TaboE -}            [ "temperament", "naturally", "of course" ],
 
     FaCL                      `noun`    {- TaboE -}            [ "printing" ],
 
@@ -177,7 +177,7 @@ lexicon = listing "Lexicon's properties"
 
     InFaCaL                   `verb`    {- AinoTabaq -}        [ "be applicable", "conform to" ],
 
-    FiCL                      `noun`    {- Tiboq -}            [ "according to", "conforming with", "in accordance with" ],
+    FiCL                      `adv`     {- Tiboq -}            [ "according to", "conforming with", "in accordance with" ],
 
     FaCaL |< aT               `noun`    {- Tabaqap -}          [ "class", "category" ],
 
@@ -398,7 +398,7 @@ lexicon = listing "Lexicon's properties"
     HiFCAL                    `noun`    {- IiTolAq -}          [ "firing" ]
                               `plural`     HiFCAL |< At,
 
-    HiFCAL |< aN              `noun`    {- IiTolAqAF -}        [ "absolutely" ]
+    HiFCAL |< aN              `adv`     {- IiTolAqAF -}        [ "absolutely" ]
                               `plural`     HiFCAL
                            {- `others`  [ "'i.tlAq NF" ] -},
 
@@ -653,7 +653,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCL
                            {- `others`  [ ".taw` N" ] -},
 
-    FaCL |< aN                `noun`    {- TawoEAF -}          [ "voluntarily" ]
+    FaCL |< aN                `adv`     {- TawoEAF -}          [ "voluntarily" ]
                               `plural`     FaCL
                            {- `others`  [ ".taw` NF" ] -},
 
@@ -710,13 +710,17 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                            {- `others`  [ "'a.twAl N" ] -},
 
+    FiCAL |<< "a"             `prep`    {- TiwAla -}           [ "during" ],
+
+    FIL |< aT |<< "a"         `prep`    {- Tiylapa -}          [ "during" ],
+
     FaCIL                     `adj`     {- Tawiyl -}           [ "tall", "long" ]
                               `plural`     FiCAL
                            {- `others`  [ ".tiwAl N" ] -},
 
     FaCIL                     `noun`    {- Tawiyl -}           [ "Taweel" ],
 
-    FaCIL |< aN               `noun`    {- TawiylAF -}         [ "for a long time", "at length", "extensively" ]
+    FaCIL |< aN               `adv`     {- TawiylAF -}         [ "for a long time", "at length", "extensively" ]
                               `plural`     FaCIL
                            {- `others`  [ ".tawiyl NF" ] -},
 
@@ -823,6 +827,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t y l" <| [
 
+    FIL |< aT |<< "a"         `prep`    {- Tiylapa -}          [ "during" ],
+
     MustaFIL                  `adj`     {- musotaTiyl -}       [ "rectangular", "prolonged", "presumptuous" ] ]
 
  |> ".t y n" <| [
@@ -883,7 +889,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".tAlamA" <| [
 
-    Identity                  `noun`    {- TAlamA -}           [ "as long as", "how often" ] ]
+    Identity                  `part`    {- TAlamA -}           [ "as long as", "how often" ] ]
 
  |> ".tAlibAn" <| [
 
@@ -893,9 +899,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- TAlibAniy~ -}       [ "Talibani" ] ]
 
- |> ".t_aha" <| [
+ |> ".t_ah" <| [
 
-    Identity                  `noun`    {- T`ha -}             [ "Taha" ] ]
+    Identity |<< "a"          `noun`    {- T`ha -}             [ "Taha" ] ]
 
  |> ".ta^sqand" <| [
 
@@ -918,14 +924,6 @@ lexicon = listing "Lexicon's properties"
     Identity                  `noun`    {- TarAbulus -}        [ "Tripoli (Libya)" ],
 
     Identity                  `noun`    {- TarAbulus -}        [ "Tripoli (Leb.)" ] ]
-
- |> ".tiwAla" <| [
-
-    Identity                  `noun`    {- TiwAla -}           [ "during" ] ]
-
- |> ".tiylaTa" <| [
-
-    Identity                  `noun`    {- Tiylapa -}          [ "during" ] ]
 
  |> ".tum'aniyn" <| [
 

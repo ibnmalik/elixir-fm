@@ -3407,7 +3407,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aT |< aN',
       'suffix' => ' |< aT |< aN',
       'glosses' => [
@@ -4418,83 +4418,6 @@ $Lexicon = {
         'hyperbolic'
       ],
       'orig' => 'zA}idiy~',
-      'prefix' => ''
-    }
-  ],
-  'mAzAla' => [
-    {
-      'types' => {
-        'mAziltunna' => {
-          'FW-Wa' => 1
-        },
-        'mAziltu' => {
-          'FW-Wa' => 1
-        },
-        'mAzAlat' => {
-          'FW-Wa' => 1
-        },
-        'mAzAlA' => {
-          'FW-Wa' => 1
-        },
-        'mAzilti' => {
-          'FW-Wa' => 1
-        },
-        'mAziltumA' => {
-          'FW-Wa' => 1
-        },
-        'mAzAlatA' => {
-          'FW-Wa' => 1
-        },
-        'mAzilta' => {
-          'FW-Wa' => 1
-        },
-        'mAziltum' => {
-          'FW-Wa' => 1
-        },
-        'mAzilnA' => {
-          'FW-Wa' => 1
-        },
-        'mAzAluwA' => {
-          'FW-Wa' => 1
-        },
-        'mAzilna' => {
-          'FW-Wa' => 1
-        }
-      },
-      'entry' => 'mAzAla',
-      'form' => 'mAzAla',
-      'lines' => [
-        ';; mAzAla_1',
-        'mAzAl   mAzAla  FW-Wa   not + stop/cease + he/it (he/it continues)                [[mA/NEG_PART+zAl/VERB_PERFECT+a/PVSUFF_SUBJ:3MS]]',
-        'mAzAlA  mAzAlA  FW-Wa   not + stop/cease + they (they both continue)              [[mA/NEG_PART+zAl/VERB_PERFECT+A/PVSUFF_SUBJ:3MD]]',
-        'mAzAlwA mAzAluwA        FW-Wa   not + stop/cease + they (they continue)                   [[mA/NEG_PART+zAl/VERB_PERFECT+uwA/PVSUFF_SUBJ:3MP]]',
-        'mAzAlt  mAzAlat FW-Wa   not + stop/cease + it/she/they (it/she/they continue(s))  [[mA/NEG_PART+zAl/VERB_PERFECT+at/PVSUFF_SUBJ:3FS]]',
-        'mAzAltA mAzAlatA        FW-Wa   not + stop/cease + they (they both continue)              [[mA/NEG_PART+zAl/VERB_PERFECT+atA/PVSUFF_SUBJ:3FD]]',
-        'mAzln   mAzilona        FW-Wa   not + stop/cease + they (they continue)                   [[mA/NEG_PART+zil/VERB_PERFECT+na/PVSUFF_SUBJ:3FP]]',
-        'mAzlt   mAzilota        FW-Wa   not + stop/cease + you (you continue)                     [[mA/NEG_PART+zil/VERB_PERFECT+ta/PVSUFF_SUBJ:2MS]]',
-        'mAzltmA mAzilotumA      FW-Wa   not + stop/cease + you (you both continue)                [[mA/NEG_PART+zil/VERB_PERFECT+tumA/PVSUFF_SUBJ:2MD]]',
-        'mAzltm  mAzilotum       FW-Wa   not + stop/cease + you (you continue)                     [[mA/NEG_PART+zil/VERB_PERFECT+tum/PVSUFF_SUBJ:2MP]]',
-        'mAzlt   mAziloti        FW-Wa   not + stop/cease + you (you continue)                     [[mA/NEG_PART+zil/VERB_PERFECT+ti/PVSUFF_SUBJ:2FS]]',
-        'mAzltn  mAzilotun~a     FW-Wa   not + stop/cease + you (you continue)                     [[mA/NEG_PART+zil/VERB_PERFECT+tun~a/PVSUFF_SUBJ:2FP]]',
-        'mAzlt   mAzilotu        FW-Wa   not + stop/cease + I (I continue)                         [[mA/NEG_PART+zil/VERB_PERFECT+tu/PVSUFF_SUBJ:1S]]',
-        'mAzlnA  mAzilonA        FW-Wa   not + stop/cease + we (we continue)                       [[mA/NEG_PART+zil/VERB_PERFECT+nA/PVSUFF_SUBJ:1P]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'not + stop/cease + he/it (he/it continues)',
-        'not + stop/cease + they (they both continue)',
-        'not + stop/cease + they (they continue)',
-        'not + stop/cease + it/she/they (it/she/they continue(s))',
-        'not + stop/cease + you (you continue)',
-        'not + stop/cease + you (you both continue)',
-        'not + stop/cease + I (I continue)',
-        'not + stop/cease + we (we continue)'
-      ],
-      'orig' => 'mAzAla',
       'prefix' => ''
     }
   ],
@@ -5563,6 +5486,27 @@ $Lexicon = {
         'number'
       ],
       'orig' => 'zuhA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'zuhA\'',
+      'form' => 'zuhA\'a',
+      'lines' => [
+        ';; zuhA\'a_1',
+        'zhA\'    zuhA\'a  FW-WaBi roughly;approximately     [[zuhA\'a/PREP]]',
+        'zhA\'    zuhA\'a  FW-Wa-a roughly;approximately     [[zuhA\'a/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FuCAL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'roughly',
+        'approximately'
+      ],
+      'orig' => 'zuhA\'a',
       'prefix' => ''
     },
     {
@@ -9813,7 +9757,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCaL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -17441,6 +17385,83 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mAzAl' => [
+    {
+      'types' => {
+        'mAziltunna' => {
+          'FW-Wa' => 1
+        },
+        'mAziltu' => {
+          'FW-Wa' => 1
+        },
+        'mAzAlat' => {
+          'FW-Wa' => 1
+        },
+        'mAzAlA' => {
+          'FW-Wa' => 1
+        },
+        'mAzilti' => {
+          'FW-Wa' => 1
+        },
+        'mAziltumA' => {
+          'FW-Wa' => 1
+        },
+        'mAzAlatA' => {
+          'FW-Wa' => 1
+        },
+        'mAzilta' => {
+          'FW-Wa' => 1
+        },
+        'mAziltum' => {
+          'FW-Wa' => 1
+        },
+        'mAzilnA' => {
+          'FW-Wa' => 1
+        },
+        'mAzAluwA' => {
+          'FW-Wa' => 1
+        },
+        'mAzilna' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => 'mAzAl',
+      'form' => 'mAzAla',
+      'lines' => [
+        ';; mAzAla_1',
+        'mAzAl   mAzAla  FW-Wa   not + stop/cease + he/it (he/it continues)                [[mA/NEG_PART+zAl/VERB_PERFECT+a/PVSUFF_SUBJ:3MS]]',
+        'mAzAlA  mAzAlA  FW-Wa   not + stop/cease + they (they both continue)              [[mA/NEG_PART+zAl/VERB_PERFECT+A/PVSUFF_SUBJ:3MD]]',
+        'mAzAlwA mAzAluwA        FW-Wa   not + stop/cease + they (they continue)                   [[mA/NEG_PART+zAl/VERB_PERFECT+uwA/PVSUFF_SUBJ:3MP]]',
+        'mAzAlt  mAzAlat FW-Wa   not + stop/cease + it/she/they (it/she/they continue(s))  [[mA/NEG_PART+zAl/VERB_PERFECT+at/PVSUFF_SUBJ:3FS]]',
+        'mAzAltA mAzAlatA        FW-Wa   not + stop/cease + they (they both continue)              [[mA/NEG_PART+zAl/VERB_PERFECT+atA/PVSUFF_SUBJ:3FD]]',
+        'mAzln   mAzilona        FW-Wa   not + stop/cease + they (they continue)                   [[mA/NEG_PART+zil/VERB_PERFECT+na/PVSUFF_SUBJ:3FP]]',
+        'mAzlt   mAzilota        FW-Wa   not + stop/cease + you (you continue)                     [[mA/NEG_PART+zil/VERB_PERFECT+ta/PVSUFF_SUBJ:2MS]]',
+        'mAzltmA mAzilotumA      FW-Wa   not + stop/cease + you (you both continue)                [[mA/NEG_PART+zil/VERB_PERFECT+tumA/PVSUFF_SUBJ:2MD]]',
+        'mAzltm  mAzilotum       FW-Wa   not + stop/cease + you (you continue)                     [[mA/NEG_PART+zil/VERB_PERFECT+tum/PVSUFF_SUBJ:2MP]]',
+        'mAzlt   mAziloti        FW-Wa   not + stop/cease + you (you continue)                     [[mA/NEG_PART+zil/VERB_PERFECT+ti/PVSUFF_SUBJ:2FS]]',
+        'mAzltn  mAzilotun~a     FW-Wa   not + stop/cease + you (you continue)                     [[mA/NEG_PART+zil/VERB_PERFECT+tun~a/PVSUFF_SUBJ:2FP]]',
+        'mAzlt   mAzilotu        FW-Wa   not + stop/cease + I (I continue)                         [[mA/NEG_PART+zil/VERB_PERFECT+tu/PVSUFF_SUBJ:1S]]',
+        'mAzlnA  mAzilonA        FW-Wa   not + stop/cease + we (we continue)                       [[mA/NEG_PART+zil/VERB_PERFECT+nA/PVSUFF_SUBJ:1P]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'part',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'not + stop/cease + he/it (he/it continues)',
+        'not + stop/cease + they (they both continue)',
+        'not + stop/cease + they (they continue)',
+        'not + stop/cease + it/she/they (it/she/they continue(s))',
+        'not + stop/cease + you (you continue)',
+        'not + stop/cease + you (you both continue)',
+        'not + stop/cease + I (I continue)',
+        'not + stop/cease + we (we continue)'
+      ],
+      'orig' => 'mAzAla',
+      'prefix' => ''
+    }
+  ],
   'z h w' => [
     {
       'types' => {
@@ -17682,6 +17703,20 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'zuhA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'zuhA\'',
+      'form' => 'zuhA\'a',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FuCA\' |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [],
+      'orig' => 'zuhA\'a',
       'prefix' => ''
     },
     {
@@ -19512,7 +19547,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -20760,7 +20795,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'lA >| Identity',
       'suffix' => '',
       'glosses' => [
@@ -21770,29 +21805,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'zuhA\'a' => [
-    {
-      'types' => {},
-      'entry' => 'zuhA\'a',
-      'form' => 'zuhA\'a',
-      'lines' => [
-        ';; zuhA\'a_1',
-        'zhA\'    zuhA\'a  FW-WaBi roughly;approximately     [[zuhA\'a/PREP]]',
-        'zhA\'    zuhA\'a  FW-Wa-a roughly;approximately     [[zuhA\'a/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'roughly',
-        'approximately'
-      ],
-      'orig' => 'zuhA\'a',
-      'prefix' => ''
-    }
-  ],
   'z w \'' => [
     {
       'types' => {},
@@ -22049,7 +22061,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -22250,15 +22262,18 @@ $Lexicon->{'z h w'}[6]{'glosses'} = $Lexicon->{'z h \''}[0]{'glosses'};
 $Lexicon->{'z h w'}[7]{'types'} = $Lexicon->{'z h \''}[1]{'types'};
 $Lexicon->{'z h w'}[7]{'lines'} = $Lexicon->{'z h \''}[1]{'lines'};
 $Lexicon->{'z h w'}[7]{'glosses'} = $Lexicon->{'z h \''}[1]{'glosses'};
-$Lexicon->{'z h w'}[9]{'types'} = $Lexicon->{'z h \''}[2]{'types'};
-$Lexicon->{'z h w'}[9]{'lines'} = $Lexicon->{'z h \''}[2]{'lines'};
-$Lexicon->{'z h w'}[9]{'glosses'} = $Lexicon->{'z h \''}[2]{'glosses'};
+$Lexicon->{'z h w'}[8]{'types'} = $Lexicon->{'z h \''}[2]{'types'};
+$Lexicon->{'z h w'}[8]{'lines'} = $Lexicon->{'z h \''}[2]{'lines'};
+$Lexicon->{'z h w'}[8]{'glosses'} = $Lexicon->{'z h \''}[2]{'glosses'};
 $Lexicon->{'z h w'}[10]{'types'} = $Lexicon->{'z h \''}[3]{'types'};
 $Lexicon->{'z h w'}[10]{'lines'} = $Lexicon->{'z h \''}[3]{'lines'};
 $Lexicon->{'z h w'}[10]{'glosses'} = $Lexicon->{'z h \''}[3]{'glosses'};
-$Lexicon->{'z h w'}[11]{'types'} = $Lexicon->{'z h y'}[2]{'types'};
-$Lexicon->{'z h w'}[11]{'lines'} = $Lexicon->{'z h y'}[2]{'lines'};
-$Lexicon->{'z h w'}[11]{'glosses'} = $Lexicon->{'z h y'}[2]{'glosses'};
+$Lexicon->{'z h w'}[11]{'types'} = $Lexicon->{'z h \''}[4]{'types'};
+$Lexicon->{'z h w'}[11]{'lines'} = $Lexicon->{'z h \''}[4]{'lines'};
+$Lexicon->{'z h w'}[11]{'glosses'} = $Lexicon->{'z h \''}[4]{'glosses'};
+$Lexicon->{'z h w'}[12]{'types'} = $Lexicon->{'z h y'}[2]{'types'};
+$Lexicon->{'z h w'}[12]{'lines'} = $Lexicon->{'z h y'}[2]{'lines'};
+$Lexicon->{'z h w'}[12]{'glosses'} = $Lexicon->{'z h y'}[2]{'glosses'};
 $Lexicon->{'z w l'}[14]{'types'} = $Lexicon->{'z y l'}[2]{'types'};
 $Lexicon->{'z w l'}[14]{'lines'} = $Lexicon->{'z y l'}[2]{'lines'};
 $Lexicon->{'z w l'}[14]{'glosses'} = $Lexicon->{'z y l'}[2]{'glosses'};

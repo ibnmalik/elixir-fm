@@ -579,7 +579,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; faDolAF_1
     -- fDl     faDol   NF      in addition     [[faDol/ADV]]
 
-    FaCL |< aN                `noun`    {- faDolAF -}          [ "in addition" ]
+    FaCL |< aN                `adv`     {- faDolAF -}          [ "in addition" ]
                               `plural`     FaCL
                            {- `others`  [ "fa.dl NF" ] -},
 
@@ -2029,7 +2029,7 @@ lexicon = listing "Lexicon's properties"
     -- fTrp    fiTorapF        FW-Wa   by nature;innately    [[fiTorapF/ADV]]
     -- fTr     fiTar   N       innate characteristics
 
-    FiCL |< aT                `noun`    {- fiTorap -}          [ "innate character", "by nature", "innately", "innate characteristics" ]
+    FiCL |< aT                `adv`     {- fiTorap -}          [ "innate character", "by nature", "innately", "innate characteristics" ]
                               `plural`     FiCaL
                            {- `others`  [ "fi.tar N" ] -},
 
@@ -2268,12 +2268,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; fajo>apF_1
     -- fj>p    fajo>apF        FW-Wa   suddenly    [[fajo>apF/ADV]]
 
-    FaCL |< aT |< aN          `noun`    {- fajoOapF -}         [ "suddenly" ],
+    FaCL |< aT |< aN          `adv`     {- fajoOapF -}         [ "suddenly" ],
 
     -- ;; fujA'apF_1
     -- fjA'p   fujA'apF        FW-Wa   suddenly    [[fujA'apF/ADV]]
 
-    FuCAL |< aT |< aN         `noun`    {- fujA'apF -}         [ "suddenly" ],
+    FuCAL |< aT |< aN         `adv`     {- fujA'apF -}         [ "suddenly" ],
 
     -- ;; fujA}iy~_1
     -- fjA}y   fujA}iy~        Nall    surprising;unexpected     [[fujA}iy~/ADJ]]
@@ -3301,7 +3301,7 @@ lexicon = listing "Lexicon's properties"
     -- fEl     fiEol   NF      actually;in effect     [[fiEol/ADV]]
     -- bAlfEl  biAlfiEol       FW-Wa   in fact;in effect;actually     [[bi/PREP+Al/DET+fiEol/ADV]]
 
-    FiCL                      `noun`    {- fiEol -}            [ "doing", "act", "action", "acts", "actions", "deeds", "actually", "in effect", "in fact" ]
+    FiCL                      `prep`    {- fiEol -}            [ "doing", "act", "action", "acts", "actions", "deeds", "actually", "in effect", "in fact" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'af`Al N" ] -},
 
@@ -5112,7 +5112,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; falotapF_1
     -- fltp    falotapF        FW-Wa   suddenly;unexpectedly    [[falotapF/ADV]]
 
-    FaCL |< aT |< aN          `noun`    {- falotapF -}         [ "suddenly", "unexpectedly" ],
+    FaCL |< aT |< aN          `adv`     {- falotapF -}         [ "suddenly", "unexpectedly" ],
 
     -- ;; falotAn_1
     -- fltAn   falotAn N       chaos;recklessness
@@ -5836,7 +5836,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; faqaT_1
     -- fqT     faqaT   FW-Wa   only     [[faqaT/ADV]]
 
-    FaCaL                     `noun`    {- faqaT -}            [ "only" ],
+    FaCaL                     `adv`     {- faqaT -}            [ "only" ],
 
     -- ;; faqaT-u_1
     -- fqT     faqaT   PV      tally up
@@ -6460,7 +6460,7 @@ lexicon = listing "Lexicon's properties"
     -- <ftrAD  {ifotirAD       NF      hypothetically     [[{ifotirAD/ADV]]
     -- AftrAD  {ifotirAD       NF      hypothetically     [[{ifotirAD/ADV]]
 
-    IFtiCAL |< aN             `noun`    {- AifotirADAF -}      [ "hypothetically" ]
+    IFtiCAL |< aN             `adv`     {- AifotirADAF -}      [ "hypothetically" ]
                               `plural`     IFtiCAL
                            {- `others`  [ "iftirA.d NF" ] -},
 
@@ -6474,7 +6474,7 @@ lexicon = listing "Lexicon's properties"
     -- <ftrADy {ifotirADiy~    NF      hypothetically     [[{ifotirADiy~/ADV]]
     -- AftrADy {ifotirADiy~    NF      hypothetically     [[{ifotirADiy~/ADV]]
 
-    IFtiCAL |< Iy |< aN       `adj`     {- AifotirADiy~AF -}   [ "hypothetically" ],
+    IFtiCAL |< Iy |< aN       `adv`     {- AifotirADiy~AF -}   [ "hypothetically" ],
 
     -- ;; fAriD_1
     -- fArD    fAriD   N       old;aged
@@ -6670,7 +6670,7 @@ lexicon = listing "Lexicon's properties"
     -- >frAH   >aforAH N       joys;festivities
     -- AfrAH   >aforAH N       joys;festivities
 
-    FaCaL                     `noun`    {- faraH -}            [ "joy", "happiness", "festivity", "with joy", "joyfully", "joys", "festivities" ]
+    FaCaL                     `adv`     {- faraH -}            [ "joy", "happiness", "festivity", "with joy", "joyfully", "joys", "festivities" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'afrA.h N" ] -},
 
@@ -6822,7 +6822,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; faroTAF_1
     -- frT     faroT   NF      loose;in bulk     [[faroT/ADV]]
 
-    FaCL |< aN                `noun`    {- faroTAF -}          [ "loose", "in bulk" ]
+    FaCL |< aN                `adv`     {- faroTAF -}          [ "loose", "in bulk" ]
                               `plural`     FaCL
                            {- `others`  [ "far.t NF" ] -},
 
@@ -7375,7 +7375,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; farodAF_1
     -- frd     farod   NF      individually;separately     [[farod/ADV]]
 
-    FaCL |< aN                `noun`    {- farodAF -}          [ "individually", "separately" ]
+    FaCL |< aN                `adv`     {- farodAF -}          [ "individually", "separately" ]
                               `plural`     FaCL
                            {- `others`  [ "fard NF" ] -},
 
@@ -7453,13 +7453,13 @@ lexicon = listing "Lexicon's properties"
     -- ;; furAd_1
     -- frAd    furAd   NF      individually;one at a time     [[furAd/ADV]]
 
-    FuCAL                     `noun`    {- furAd -}            [ "individually", "one at a time" ],
+    FuCAL                     `adv`     {- furAd -}            [ "individually", "one at a time" ],
 
     -- ;; furAdaY_1
     -- frAdY   furAdaY N0      individually;one at a time     [[furAdaY/ADV]]
     -- frAdA   furAdA  Nhy     individually;one at a time
 
-    FuCALY                    `noun`    {- furAdaY -}          [ "individually", "one at a time" ],
+    FuCALY                    `adv`     {- furAdaY -}          [ "individually", "one at a time" ],
 
     -- ;; taforiyd_1
     -- tfryd   taforiyd        N/At    itemization;detailing
@@ -10276,7 +10276,7 @@ lexicon = listing "Lexicon's properties"
     -- >fwAj   >afowAj NF      in droves;en masse     [[>afowAj/ADV]]
     -- AfwAj   >afowAj NF      in droves;en masse     [[>afowAj/ADV]]
 
-    HaFCAL                    `noun`    {- OafowAj -}          [ "in droves", "en masse" ] ]
+    HaFCAL                    `adv`     {- OafowAj -}          [ "in droves", "en masse" ] ]
 
  |> "f w `" <| [
 
@@ -10472,6 +10472,22 @@ lexicon = listing "Lexicon's properties"
 
     IstaFAL                   `verb`    {- AisotafAq -}        [ "wake up", "recover", "recuperate" ],
 
+    -- ;; fawoqa_1
+    -- fwq     fawoqa  FW-Wa   above;over     [[fawoqa/PREP]]
+    -- fwq     fawoqi  FW-Wa   above;over     [[fawoqi/PREP]]
+    -- fwq     fawoqa  FW-Wa-a above;over     [[fawoqa/PREP]]
+    -- fwq     fawoqi  FW-Wa-i above;over     [[fawoqi/PREP]]
+    -- fwq     fawoq   FW-Wa-o above;over     [[fawoq/PREP]]
+
+    FaCL |<< "a"              `prep`    {- fawoqa -}           [ "above", "over" ]
+                              `plural`     FaCL
+                           {- `others`  [ "fawq FW-Wa-o" ] -},
+
+    -- ;; fawoqu_1
+    -- fwq     fawoqu  FW-Wa   above;over     [[fawoqu/ADV]]
+
+    FaCL |<< "u"              `adv`     {- fawoqu -}           [ "above", "over" ],
+
     -- ;; fawoq_1
     -- fwq     fawoq   N       top;upper part
 
@@ -10582,7 +10598,14 @@ lexicon = listing "Lexicon's properties"
     -- fwr     fawor   N       immediately;at once
     -- fwr     fawor   NF      immediately;at once     [[fawor/ADV]]
 
-    FaCL                      `noun`    {- fawor -}            [ "immediately", "at once" ],
+    FaCL                      `adv`     {- fawor -}            [ "immediately", "at once" ],
+
+    -- ;; fawora_1
+    -- fwr     fawora  FW-Wa   immediately after     [[fawora/PREP]]
+    -- fwr     fawora  FW-Wa-a immediately after     [[fawora/PREP]]
+    -- fwr     fawori  FW-Wa-i immediately after     [[fawora/PREP]]
+
+    FaCL |<< "a"              `prep`    {- fawora -}           [ "immediately after" ],
 
     -- ;; faworiy~_1
     -- fwry    faworiy~        N-ap    immediate;instant;on the spot     [[faworiy~/ADJ]]
@@ -11370,7 +11393,7 @@ lexicon = listing "Lexicon's properties"
     -- fy      fiy     FW-Wa-y in       [[fiy/PREP]]
     -- fY      fiy     FW-Wa   in       [[fiy/PREP]]
 
-    FI                        `noun`    {- fiy -}              [ "in" ] ]
+    FI                        `prep`    {- fiy -}              [ "in" ] ]
 
  |> "f y z" <| [
 
@@ -11954,33 +11977,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- fasuwliyA -}        [ "beans" ] ]
 
- |> "fawqa" <| [
-
-    -- ;; fawoqa_1
-    -- fwq     fawoqa  FW-Wa   above;over     [[fawoqa/PREP]]
-    -- fwq     fawoqi  FW-Wa   above;over     [[fawoqi/PREP]]
-    -- fwq     fawoqa  FW-Wa-a above;over     [[fawoqa/PREP]]
-    -- fwq     fawoqi  FW-Wa-i above;over     [[fawoqi/PREP]]
-    -- fwq     fawoq   FW-Wa-o above;over     [[fawoq/PREP]]
-
-    Identity                  `noun`    {- fawoqa -}           [ "above", "over" ] ]
-
- |> "fawqu" <| [
-
-    -- ;; fawoqu_1
-    -- fwq     fawoqu  FW-Wa   above;over     [[fawoqu/ADV]]
-
-    Identity                  `noun`    {- fawoqu -}           [ "above", "over" ] ]
-
- |> "fawra" <| [
-
-    -- ;; fawora_1
-    -- fwr     fawora  FW-Wa   immediately after     [[fawora/PREP]]
-    -- fwr     fawora  FW-Wa-a immediately after     [[fawora/PREP]]
-    -- fwr     fawori  FW-Wa-i immediately after     [[fawora/PREP]]
-
-    Identity                  `noun`    {- fawora -}           [ "immediately after" ] ]
-
  |> "faylasuwf" <| [
 
     -- ;; fayolasuwf_1
@@ -12521,12 +12517,12 @@ lexicon = listing "Lexicon's properties"
     -- fymA    fiymA   FW-Wa   in what  [[fiy/PREP+mA/REL_PRON]]
     -- fym     fiyma   FW-Wa   in what  [[fiy/PREP+mA/INTERROG]]
 
-    Identity                  `noun`    {- fiymA -}            [ "in what" ],
+    Identity                  `prep`    {- fiymA -}            [ "in what" ],
 
     -- ;; fiymA_2
     -- fymA    fiymA   FW      while;during which     [[fiymA/CONJ]]
 
-    Identity                  `noun`    {- fiymA -}            [ "while", "during which" ],
+    Identity                  `conj`    {- fiymA -}            [ "while", "during which" ],
 
     -- ;; fiymA_3
     -- fymA    fiymA   N0      FEMA (Federal Emergency Management Agency)

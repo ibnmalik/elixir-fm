@@ -555,13 +555,13 @@ lexicon = listing "Lexicon's properties"
     -- ;; xiS~iyS_1
     -- xSyS    xiS~iyS NF      especially;specifically     [[xiS~iyS/ADV]]
 
-    FiCCIL                    `noun`    {- xiS~iyS -}          [ "especially", "specifically" ],
+    FiCCIL                    `adv`     {- xiS~iyS -}          [ "especially", "specifically" ],
 
     -- ;; xuSuwS_1
     -- xSwS    xuSuwS  N       matter;issue;regard;respect
     -- xSwS    xuSuwS  NF      especially;in particular     [[xuSuwS/ADV]]
 
-    FuCUL                     `noun`    {- xuSuwS -}           [ "matter", "issue", "regard", "respect", "especially", "in particular" ],
+    FuCUL                     `adv`     {- xuSuwS -}           [ "matter", "issue", "regard", "respect", "especially", "in particular" ],
 
     -- ;; xuSuwSiy~_1
     -- xSwSy   xuSuwSiy~       Nall    private;personal;special     [[xuSuwSiy~/ADJ]]
@@ -622,13 +622,13 @@ lexicon = listing "Lexicon's properties"
     -- ;; xASapF_1
     -- xASp    xASapF  FW-Wa   especially;particularly    [[xASapF/ADV]]
 
-    FAL |< aT |< aN           `noun`    {- xASapF -}           [ "especially", "particularly" ],
+    FAL |< aT |< aN           `adv`     {- xASapF -}           [ "especially", "particularly" ],
 
     -- ;; xAS~ap_1
     -- xAS     xAS~    Nap     elite
     -- bxASp   bixAS~ap        FW-Wa   especially     [[bixAS~ap/ADV]]
 
-    FACL |< aT                `noun`    {- xAS~ap -}           [ "elite", "especially" ],
+    FACL |< aT                `adv`     {- xAS~ap -}           [ "elite", "especially" ],
 
     -- ;; xAS~iy~ap_1
     -- xASy    xAS~iy~ NapAt   specialty;peculiarity     [[xAS~iy~/NOUN]]
@@ -1360,7 +1360,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; xaTofAF_1
     -- xTf     xaTof   NF      by force;rapidly     [[xaTof/ADV]]
 
-    FaCL |< aN                `noun`    {- xaTofAF -}          [ "by force", "rapidly" ]
+    FaCL |< aN                `adv`     {- xaTofAF -}          [ "by force", "rapidly" ]
                               `plural`     FaCL
                            {- `others`  [ "_ha.tf NF" ] -},
 
@@ -3920,7 +3920,7 @@ lexicon = listing "Lexicon's properties"
     -- xfy     xufoy   Nap     secrecy
     -- xfyp    xufoyapF        FW-Wa   secretly;covertly    [[xufoyapF/ADV]]
 
-    FuCL |< aT                `noun`    {- xufoyap -}          [ "secrecy", "secretly", "covertly" ],
+    FuCL |< aT                `adv`     {- xufoyap -}          [ "secrecy", "secretly", "covertly" ],
 
     -- ;; xafiy~ap_1
     -- xfy     xafiy~  Napdu   secret     [[xafiy~/NOUN]]
@@ -4823,6 +4823,22 @@ lexicon = listing "Lexicon's properties"
 
     IstaFCaL                  `verb`    {- Aisotaxolaf -}      [ "appoint as successor" ],
 
+    -- ;; xalofa_1
+    -- xlf     xalofa  FW-Wa   behind     [[xalofa/PREP]]
+    -- xlf     xalofi  FW-Wa   behind     [[xalofi/PREP]]
+    -- xlf     xalofa  FW-Wa-a behind     [[xalofa/PREP]]
+    -- xlf     xalofi  FW-Wa-i behind     [[xalofi/PREP]]
+    -- xlf     xalof   FW-Wa-o behind     [[xalof/PREP]]
+
+    FaCL |<< "a"              `prep`    {- xalofa -}           [ "behind" ]
+                              `plural`     FaCL
+                           {- `others`  [ "_half FW-Wa-o" ] -},
+
+    -- ;; xalofu_1
+    -- xlf     xalofu  FW-Wa   behind     [[xalofu/ADV]]
+
+    FaCL |<< "u"              `adv`     {- xalofu -}           [ "behind" ],
+
     -- ;; xalof_1
     -- xlf     xalof   N       rear;back
 
@@ -5049,6 +5065,14 @@ lexicon = listing "Lexicon's properties"
     -- xll     xalal   Ndu     fault;malfunction;gap
 
     FaCaL                     `noun`    {- xalal -}            [ "fault", "malfunction", "gap" ],
+
+    -- ;; xilAla_1
+    -- xlAl    xilAla  FW-Wa   during;through     [[xilAla/PREP]]
+    -- xlAl    xilAli  FW-Wa   during;through     [[xilAli/PREP]]
+    -- xlAl    xilAla  FW-Wa-a during;through     [[xilAla/PREP]]
+    -- xlAl    xilAli  FW-Wa-i during;through     [[xilAli/PREP]]
+
+    FiCAL |<< "a"             `prep`    {- xilAla -}           [ "during", "through" ],
 
     -- ;; xal~ap_1
     -- xl      xal~    Nap     need;lack
@@ -5357,7 +5381,7 @@ lexicon = listing "Lexicon's properties"
     -- xls     xulos   Nap     stealth
     -- xlsp    xulosapF        FW-Wa   surreptitiously;furtively    [[xulosapF/ADV]]
 
-    FuCL |< aT                `noun`    {- xulosap -}          [ "stealth", "surreptitiously", "furtively" ],
+    FuCL |< aT                `adv`     {- xulosap -}          [ "stealth", "surreptitiously", "furtively" ],
 
     -- ;; xilAsiy~_1
     -- xlAsy   xilAsiy~        Nall    mulatto;bastard     [[xilAsiy~/ADJ]]
@@ -5452,7 +5476,7 @@ lexicon = listing "Lexicon's properties"
     -- xlA     xalA    FW-Wa   except for     [[xalA/PREP]]
     -- xlA     xalA    FW-Wa-A except for     [[xalA/PREP]]
 
-    FaCA                      `noun`    {- xalA -}             [ "except for" ],
+    FaCA                      `prep`    {- xalA -}             [ "except for" ],
 
     -- ;; xilow_1
     -- xlw     xilow   N       devoid;free
@@ -5867,7 +5891,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taxomiynAF_1
     -- txmyn   taxomiyn        NF      approximately;roughly     [[taxomiyn/ADV]]
 
-    TaFCIL |< aN              `noun`    {- taxomiynAF -}       [ "approximately", "roughly" ]
+    TaFCIL |< aN              `adv`     {- taxomiynAF -}       [ "approximately", "roughly" ]
                               `plural`     TaFCIL
                            {- `others`  [ "ta_hmiyn NF" ] -},
 
@@ -6856,6 +6880,17 @@ lexicon = listing "Lexicon's properties"
     IstiFCAL                  `noun`    {- AisotixorAj -}      [ "extraction", "removal", "deduction" ]
                               `plural`     IstiFCAL |< At,
 
+    -- ;; xArija_1
+    -- xArj    xArija  FW-Wa   outside;out of     [[xArija/PREP]]
+    -- xArj    xAriji  FW-Wa   outside;out of     [[xAriji/PREP]]
+    -- xArj    xArija  FW-Wa-a outside;out of     [[xArija/PREP]]
+    -- xArj    xAriji  FW-Wa-i outside;out of     [[xAriji/PREP]]
+    -- xArj    xArij   FW-Wa-o outside;out of     [[xArij/PREP]]
+
+    FACiL |<< "a"             `prep`    {- xArija -}           [ "outside", "out of" ]
+                              `plural`     FACiL
+                           {- `others`  [ "_hAri^g FW-Wa-o" ] -},
+
     -- ;; xArij_1
     -- xArj    xArij   N/ap    outside;exterior;outer part
 
@@ -6864,7 +6899,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; xArij_2
     -- xArj    xArij   NF      outside     [[xArij/ADV]]
 
-    FACiL                     `noun`    {- xArij -}            [ "outside" ],
+    FACiL                     `adv`     {- xArij -}            [ "outside" ],
 
     -- ;; xArijap_1
     -- xArjp   xArijap N0      (Al) Kharga
@@ -9294,7 +9329,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muxotArAF_1
     -- mxtAr   muxotAr NF      voluntarily     [[muxotAr/ADV]]
 
-    MuFtAL |< aN              `noun`    {- muxotArAF -}        [ "voluntarily" ]
+    MuFtAL |< aN              `adv`     {- muxotArAF -}        [ "voluntarily" ]
                               `plural`     MuFtAL
                            {- `others`  [ "mu_htAr NF" ] -},
 
@@ -9782,17 +9817,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- xAraSiyniy~ -}      [ "zinc" ] ]
 
- |> "_hAri^ga" <| [
-
-    -- ;; xArija_1
-    -- xArj    xArija  FW-Wa   outside;out of     [[xArija/PREP]]
-    -- xArj    xAriji  FW-Wa   outside;out of     [[xAriji/PREP]]
-    -- xArj    xArija  FW-Wa-a outside;out of     [[xArija/PREP]]
-    -- xArj    xAriji  FW-Wa-i outside;out of     [[xAriji/PREP]]
-    -- xArj    xArij   FW-Wa-o outside;out of     [[xArij/PREP]]
-
-    Identity                  `noun`    {- xArija -}           [ "outside", "out of" ] ]
-
  |> "_hAsAnsk" <| [
 
     -- ;; xAsAnosk_1
@@ -9829,24 +9853,6 @@ lexicon = listing "Lexicon's properties"
     -- xlnj    xalanoj N       heath
 
     Identity                  `noun`    {- xalanoj -}          [ "heath" ] ]
-
- |> "_halfa" <| [
-
-    -- ;; xalofa_1
-    -- xlf     xalofa  FW-Wa   behind     [[xalofa/PREP]]
-    -- xlf     xalofi  FW-Wa   behind     [[xalofi/PREP]]
-    -- xlf     xalofa  FW-Wa-a behind     [[xalofa/PREP]]
-    -- xlf     xalofi  FW-Wa-i behind     [[xalofi/PREP]]
-    -- xlf     xalof   FW-Wa-o behind     [[xalof/PREP]]
-
-    Identity                  `noun`    {- xalofa -}           [ "behind" ] ]
-
- |> "_halfu" <| [
-
-    -- ;; xalofu_1
-    -- xlf     xalofu  FW-Wa   behind     [[xalofu/ADV]]
-
-    Identity                  `noun`    {- xalofu -}           [ "behind" ] ]
 
  |> "_halliyk" <| [
 
@@ -9934,16 +9940,6 @@ lexicon = listing "Lexicon's properties"
     -- xdyw    xidiyw  N       khedive
 
     Identity                  `noun`    {- xidiyw -}           [ "khedive" ] ]
-
- |> "_hilAla" <| [
-
-    -- ;; xilAla_1
-    -- xlAl    xilAla  FW-Wa   during;through     [[xilAla/PREP]]
-    -- xlAl    xilAli  FW-Wa   during;through     [[xilAli/PREP]]
-    -- xlAl    xilAla  FW-Wa-a during;through     [[xilAla/PREP]]
-    -- xlAl    xilAli  FW-Wa-i during;through     [[xilAli/PREP]]
-
-    Identity                  `noun`    {- xilAla -}           [ "during", "through" ] ]
 
  |> "_hinnaw.s" <| [
 
@@ -10111,7 +10107,7 @@ lexicon = listing "Lexicon's properties"
     -- mAxlA   mAxalA  FW-Wa   except for     [[mAxalA/PREP]]
     -- mAxlA   mAxalA  FW-Wa-A except for     [[mAxalA/PREP]]
 
-    Identity                  `noun`    {- mAxalA -}           [ "except for" ] ]
+    Identity                  `prep`    {- mAxalA -}           [ "except for" ] ]
 
  |> "ya_h.duwr" <| [
 

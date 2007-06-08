@@ -2239,7 +2239,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hadorAF_1
     -- hdr     hador   NF      in vain;to no avail     [[hador/ADV]]
 
-    FaCL |< aN                `noun`    {- hadorAF -}          [ "in vain", "to no avail" ]
+    FaCL |< aN                `adv`     {- hadorAF -}          [ "in vain", "to no avail" ]
                               `plural`     FaCL
                            {- `others`  [ "hadr NF" ] -},
 
@@ -3000,7 +3000,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hal_1
     -- hl      hal     FW-Wa   does/do?;did?;is/are?     [[hal/INTERROG_PART]]
 
-    FaL                       `noun`    {- hal -}              [ "does/do?", "did?", "is/are?" ],
+    FaL                       `part`    {- hal -}              [ "does/do?", "did?", "is/are?" ],
 
     -- ;; hal~-i_1
     -- hl      hal~    PV_V    begin;appear
@@ -3244,7 +3244,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hal_1
     -- hl      hal     FW-Wa   does/do?;did?;is/are?     [[hal/INTERROG_PART]]
 
-    FaC                       `noun`    {- hal -}              [ "does/do?", "did?", "is/are?" ] ]
+    FaC                       `part`    {- hal -}              [ "does/do?", "did?", "is/are?" ] ]
 
  |> "h l y n" <| [
 
@@ -3520,7 +3520,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hum_1
     -- hm      hum     FW-Wa   they [masc.pl]       [[hum/PRON_3MP]]
 
-    FuL                       `noun`    {- hum -}              [ "they [masc.pl]" ],
+    FuL                       `pron`    {- hum -}              [ "they [masc.pl]" ],
 
     -- ;; ham~-u_1
     -- hm      ham~    PV_V    be ready;intend
@@ -3747,7 +3747,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hum_1
     -- hm      hum     FW-Wa   they [masc.pl]       [[hum/PRON_3MP]]
 
-    FuC                       `noun`    {- hum -}              [ "they [masc.pl]" ] ]
+    FuC                       `pron`    {- hum -}              [ "they [masc.pl]" ] ]
 
  |> "h m z" <| [
 
@@ -3884,7 +3884,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; haniy}_1
     -- hny}    haniy}  NF      bon appetit!     [[haniy}/ADV]]
 
-    FaCIL                     `noun`    {- haniy} -}           [ "bon appetit!" ],
+    FaCIL                     `adv`     {- haniy} -}           [ "bon appetit!" ],
 
     -- ;; tahoni}ap_1
     -- thn}    tahoni} Napdu   congratulations
@@ -4113,6 +4113,14 @@ lexicon = listing "Lexicon's properties"
     KaRDUS |< aT              `noun`    {- hanohuwnap -}       [ "lullaby", "lullabies" ]
                               `plural`     KaRDUS |< At ]
 
+ |> "h n k" <| [
+
+    -- ;; hunAka_1
+    -- hnAk    hunAka  FW-Wa   there;there (is/are)    [[hunAka/ADV]]
+    -- hnAlk   hunAlika        FW-Wa   there;there (is/are)    [[hunAlika/ADV]]
+
+    FuCAL |<< "a"             `adv`     {- hunAka -}           [ "there", "there (is/are)" ] ]
+
  |> "h n m" <| [
 
     -- ;; hanam_1
@@ -4134,6 +4142,11 @@ lexicon = listing "Lexicon's properties"
     FawACiL |< Iy             `adj`     {- hawAnimiy~ -}       [ "ladylike" ] ]
 
  |> "h n n" <| [
+
+    -- ;; hun~a_1
+    -- hn      hun~a   FW-Wa   they [fem.pl.]       [[hun~a/PRON_3FP]]
+
+    FuCL |<< "a"              `pron`    {- hun~a -}            [ "they [fem.pl.]" ],
 
     -- ;; han~-i_1
     -- hn      han~    PV_V_intr       weep;sigh;yearn
@@ -5598,7 +5611,7 @@ lexicon = listing "Lexicon's properties"
     -- hwn     hawon   N       leisure;ease
     -- hwn     hawon   NF      slowly;leisurely     [[hawon/ADV]]
 
-    FaCL                      `noun`    {- hawon -}            [ "leisure", "ease", "slowly", "leisurely" ],
+    FaCL                      `adv`     {- hawon -}            [ "leisure", "ease", "slowly", "leisurely" ],
 
     -- ;; huwn_1
     -- hwn     huwn    N       disgrace;degradation
@@ -5864,6 +5877,11 @@ lexicon = listing "Lexicon's properties"
     KuRDU                     `noun`    {- huwtuw -}           [ "Hutu" ] ]
 
  |> "h w w" <| [
+
+    -- ;; huwa_1
+    -- hw      huwa    FW-Wa   it/he                [[huwa/PRON_3MS]]
+
+    FU |<< "a"                `pron`    {- huwa -}             [ "it/he" ],
 
     -- ;; huw_1
     -- hw      huw     FW-WaBi Ho (in "Ho Chi Minh")    [[huw/NOUN_PROP]]
@@ -6897,10 +6915,22 @@ lexicon = listing "Lexicon's properties"
 
     FaCCaL                    `verb`    {- hay~at -}           [ "call" ],
 
+    -- ;; hayota_1
+    -- hyt     hayota  FW-Wa   come here!    [[hayota/INTERJ]]
+
+    FaCL |<< "a"              `noun`    {- hayota -}           [ "come here!" ],
+
     -- ;; hiyt_1
     -- hyt     hiyt    FW      Heat     [[hiyt/NOUN_PROP]]
 
     FIL                       `noun`    {- hiyt -}             [ "Heat" ] ]
+
+ |> "h y y" <| [
+
+    -- ;; hiya_1
+    -- hy      hiya    FW-Wa   it/they/she          [[hiya/PRON_3FS]]
+
+    FI |<< "a"                `pron`    {- hiya -}             [ "it/they/she" ] ]
 
  |> "h z '" <| [
 
@@ -7581,7 +7611,7 @@ lexicon = listing "Lexicon's properties"
     -- h&lA'   h`&ulA'i        FW-WaBi these              [[h`&ulA'i/DEM_PRON_MP]]
     -- hwlA'   h`&ulA'i        FW-WaBi these              [[h`&ulA'i/DEM_PRON_MP]]
 
-    Identity                  `noun`    {- h`*A -}             [ "this", "this/these", "these two", "these" ] ]
+    Identity                  `pron`    {- h`*A -}             [ "this", "this/these", "these two", "these" ] ]
 
  |> "ha'Arits" <| [
 
@@ -7615,7 +7645,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hal~A_1
     -- hlA     hal~A   FW-Wa   doesn't/don't?;didn't?;isn't/aren't?     [[hal~A/INTERROG_PART]]
 
-    Identity                  `noun`    {- hal~A -}            [ "doesn't/don't?", "didn't?", "isn't/aren't?" ] ]
+    Identity                  `part`    {- hal~A -}            [ "doesn't/don't?", "didn't?", "isn't/aren't?" ] ]
 
  |> "halliluwyA" <| [
 
@@ -7624,12 +7654,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hal~iluwyA -}       [ "hallelujah" ] ]
 
- |> "halumma" <| [
+ |> "halumm" <| [
 
     -- ;; halum~a_1
     -- hlm     halum~a FW-Wa   come on!     [[halum~a/INTERJ]]
 
-    Identity                  `noun`    {- halum~a -}          [ "come on!" ] ]
+    Identity |<< "a"          `noun`    {- halum~a -}          [ "come on!" ] ]
 
  |> "hardaba^st" <| [
 
@@ -7677,13 +7707,6 @@ lexicon = listing "Lexicon's properties"
     -- hylmAn  hayolamAn       N       heaps;large sums
 
     Identity                  `noun`    {- hayolamAn -}        [ "heaps", "large sums" ] ]
-
- |> "hayta" <| [
-
-    -- ;; hayota_1
-    -- hyt     hayota  FW-Wa   come here!    [[hayota/INTERJ]]
-
-    Identity                  `noun`    {- hayota -}           [ "come here!" ] ]
 
  |> "hayuwlAn" <| [
 
@@ -7837,13 +7860,6 @@ lexicon = listing "Lexicon's properties"
     -- hytlr   hiytolar        Nprop   Hitler
 
     Identity                  `noun`    {- hitolar -}          [ "Hitler" ] ]
-
- |> "hiya" <| [
-
-    -- ;; hiya_1
-    -- hy      hiya    FW-Wa   it/they/she          [[hiya/PRON_3FS]]
-
-    Identity                  `noun`    {- hiya -}             [ "it/they/she" ] ]
 
  |> "hiydrA" <| [
 
@@ -8050,7 +8066,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; humA_1
     -- hmA     humA    FW-Wa   they (both)     [[humA/PRON_3D]]
 
-    Identity                  `noun`    {- humA -}             [ "they (both)" ] ]
+    Identity                  `pron`    {- humA -}             [ "they (both)" ] ]
 
  |> "humAyuwniyy" <| [
 
@@ -8073,22 +8089,7 @@ lexicon = listing "Lexicon's properties"
     -- hnA     hunA    FW-Wa   here       [[hunA/ADV]]
     -- hhnA    hahunA  FW-Wa   here       [[hahunA/ADV]]
 
-    Identity                  `noun`    {- hunA -}             [ "here" ] ]
-
- |> "hunAka" <| [
-
-    -- ;; hunAka_1
-    -- hnAk    hunAka  FW-Wa   there;there (is/are)    [[hunAka/ADV]]
-    -- hnAlk   hunAlika        FW-Wa   there;there (is/are)    [[hunAlika/ADV]]
-
-    Identity                  `noun`    {- hunAka -}           [ "there", "there (is/are)" ] ]
-
- |> "hunna" <| [
-
-    -- ;; hun~a_1
-    -- hn      hun~a   FW-Wa   they [fem.pl.]       [[hun~a/PRON_3FP]]
-
-    Identity                  `noun`    {- hun~a -}            [ "they [fem.pl.]" ] ]
+    Identity                  `adv`     {- hunA -}             [ "here" ] ]
 
  |> "hur.tumAn" <| [
 
@@ -8096,13 +8097,6 @@ lexicon = listing "Lexicon's properties"
     -- hrTmAn  huroTumAn       N       oats
 
     Identity                  `noun`    {- huroTumAn -}        [ "oats" ] ]
-
- |> "huwa" <| [
-
-    -- ;; huwa_1
-    -- hw      huwa    FW-Wa   it/he                [[huwa/PRON_3MS]]
-
-    Identity                  `noun`    {- huwa -}             [ "it/he" ] ]
 
  |> "huwaynA" <| [
 
@@ -8235,12 +8229,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- huwyAmA -}          [ "Hoyama" ] ]
 
- |> "mAhuwa" <| [
+ |> "mAhuw" <| [
 
     -- ;; mAhuwa_1
     -- mAhw    mAhuwa  FW-Wa   what     [[mAhuwa/REL_PRON]]
 
-    Identity                  `noun`    {- mAhuwa -}           [ "what" ] ]
+    Identity |<< "a"          `pron`    {- mAhuwa -}           [ "what" ] ]
 
  |> "mahdAwiy" <| [
 

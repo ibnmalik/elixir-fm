@@ -105,6 +105,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- naHiyl -}           [ "narrow", "weak" ] ]
 
+ |> "n .h n" <| [
+
+    FaCL |<< "u"              `pron`    {- naHonu -}           [ "we" ] ]
+
  |> "n .h r" <| [
 
     FaCaL                     `verb`    {- naHar-u -}          [ "slit the throat", "slaughter" ]
@@ -143,6 +147,8 @@ lexicon = listing "Lexicon's properties"
     HaFCY                     `verb`    {- OanoHaY -}          [ "turn away", "overcome", "be turned away", "be overcome" ],
 
     TaFaCCY                   `verb`    {- tanaH~aY -}         [ "withdraw", "forego", "abandon" ],
+
+    FaCL |<< "a"              `prep`    {- naHowa -}           [ "towards", "approximately" ],
 
     FaCL                      `noun`    {- naHow -}            [ "manner", "method", "areas" ]
                               `plural`     HaFCA'
@@ -558,7 +564,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- najomap -}          [ "Najma", "Nagma" ],
 
-    FaCL                      `noun`    {- najom -}            [ "installment", "partial payment", "installments", "partial payments", "in installments" ]
+    FaCL                      `adv`     {- najom -}            [ "installment", "partial payment", "installments", "partial payments", "in installments" ]
                               `plural`     FuCUL
                            {- `others`  [ "nu^guwm N NF" ] -},
 
@@ -1090,7 +1096,7 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- nadar-u -}          [ "be rare", "be unusual" ]
                               `imperf`     FCuL,
 
-    FaCL |< aT                `noun`    {- nadorap -}          [ "rarity", "rarely", "seldom" ]
+    FaCL |< aT                `adv`     {- nadorap -}          [ "rarity", "rarely", "seldom" ]
                               `plural`     FuCL |< aT,
 
     FACiL                     `adj`     {- nAdir -}            [ "rare", "unusual", "infrequent", "rarely", "seldom" ] ]
@@ -1398,7 +1404,7 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCaL
                               `imperf`     FCuL,
 
-    FaCL                      `noun`    {- nahob -}            [ "looting", "plundering", "by robbery or looting" ] ]
+    FaCL                      `adv`     {- nahob -}            [ "looting", "plundering", "by robbery or looting" ] ]
 
  |> "n h k" <| [
 
@@ -1420,7 +1426,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- nahoriy~ -}         [ "river", "fluvial" ],
 
-    FaCAL                     `noun`    {- nahAr -}            [ "daytime", "day", "by day" ]
+    FaCAL                     `adv`     {- nahAr -}            [ "daytime", "day", "by day" ]
                               `plural`     FuCuL
                            {- `others`  [ "nuhur N" ] -},
 
@@ -1454,7 +1460,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCLAn                    `noun`    {- nahoyAn -}          [ "Nahyan", "Nahayyan" ],
 
-    FiCAL |< aT               `noun`    {- nihAyap -}          [ "end", "termination", "ultimately", "finally" ],
+    FiCAL |< aT               `adv`     {- nihAyap -}          [ "end", "termination", "ultimately", "finally" ],
 
     MutaFACI                  `noun`    {- mutanAhiy -}        [ "utmost", "extreme", "finished" ]
                               `plural`     MutaFACI |< At,
@@ -1984,7 +1990,7 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- nasaq-u -}          [ "arrange", "array", "order" ]
                               `imperf`     FCuL,
 
-    FaCaL                     `noun`    {- nasaq -}            [ "order", "arrangement", "symmetry", "in rows", "in regular order" ],
+    FaCaL                     `adv`     {- nasaq -}            [ "order", "arrangement", "symmetry", "in rows", "in regular order" ],
 
     TaFCIL                    `noun`    {- tanosiyq -}         [ "coordination", "steering", "systematic arrangement" ]
                               `plural`     TaFCIL |< At,
@@ -2488,7 +2494,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "nAhiyk" <| [
 
-    Identity                  `noun`    {- nAhiyk -}           [ "not to mention" ] ]
+    Identity                  `part`    {- nAhiyk -}           [ "not to mention" ] ]
 
  |> "nAmiybiyA" <| [
 
@@ -2517,14 +2523,6 @@ lexicon = listing "Lexicon's properties"
  |> "nAtuw" <| [
 
     Identity                  `noun`    {- nAtuw -}            [ "NATO" ] ]
-
- |> "na.hnu" <| [
-
-    Identity                  `noun`    {- naHonu -}           [ "we" ] ]
-
- |> "na.hwa" <| [
-
-    Identity                  `noun`    {- naHowa -}           [ "towards", "approximately" ] ]
 
  |> "na.srAllh" <| [
 

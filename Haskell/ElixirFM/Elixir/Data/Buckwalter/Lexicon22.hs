@@ -1191,7 +1191,7 @@ lexicon = listing "Lexicon's properties"
     -- kvAr    kivAr   N       many;much;numerous
     -- kvyr    kaviyr  NF      much;a lot;very     [[kaviyr/ADV]]
 
-    FaCIL                     `noun`    {- kaviyr -}           [ "many", "much", "numerous", "a lot", "very" ]
+    FaCIL                     `adv`     {- kaviyr -}           [ "many", "much", "numerous", "a lot", "very" ]
                               `plural`     FiCAL
                            {- `others`  [ "ki_tAr N" ] -},
 
@@ -4187,7 +4187,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; kamA_1
     -- kmA     kamA    FW-Wa   and;as;also  [[kamA/CONJ]]
 
-    FaCA                      `noun`    {- kamA -}             [ "and", "as", "also" ],
+    FaCA                      `conj`    {- kamA -}             [ "and", "as", "also" ],
 
     -- ;; kamo'_1
     -- km'     kamo'   N0      truffle;mushroom
@@ -4602,12 +4602,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; kam_1
     -- km      kam     FW-WaBi how many/much   [[kam/REL_PRON]]
 
-    FaL                       `noun`    {- kam -}              [ "how many/much" ],
+    FaL                       `pron`    {- kam -}              [ "how many/much" ],
 
     -- ;; kam_2
     -- km      kam     FW-WaBi how many/much   [[kam/INTERROG_PART]]
 
-    FaL                       `noun`    {- kam -}              [ "how many/much" ],
+    FaL                       `part`    {- kam -}              [ "how many/much" ],
 
     -- ;; kam~-u_1
     -- km      kam~    PV_V    cover;hide
@@ -4822,12 +4822,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; kam_1
     -- km      kam     FW-WaBi how many/much   [[kam/REL_PRON]]
 
-    FaC                       `noun`    {- kam -}              [ "how many/much" ],
+    FaC                       `pron`    {- kam -}              [ "how many/much" ],
 
     -- ;; kam_2
     -- km      kam     FW-WaBi how many/much   [[kam/INTERROG_PART]]
 
-    FaC                       `noun`    {- kam -}              [ "how many/much" ],
+    FaC                       `part`    {- kam -}              [ "how many/much" ],
 
     -- ;; kamiy~_1
     -- kmy     kamiy~  N/ap    armed;brave     [[kamiy~/ADJ]]
@@ -6214,7 +6214,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; kuromAn_1
     -- krmAn   kuromAn NF      in honor of;for the sake of     [[kuromAn/ADV]]
 
-    FuCLAn                    `noun`    {- kuromAn -}          [ "in honor of", "for the sake of" ],
+    FuCLAn                    `adv`     {- kuromAn -}          [ "in honor of", "for the sake of" ],
 
     -- ;; karAmap_1
     -- krAm    karAm   Nap     dignity;generosity
@@ -6298,7 +6298,7 @@ lexicon = listing "Lexicon's properties"
     -- tkrym   takoriym        N/At    honoring;tribute
     -- tkrym   takoriym        NF      in honor of     [[takoriym/ADV]]
 
-    TaFCIL                    `noun`    {- takoriym -}         [ "honoring", "tribute", "in honor of" ]
+    TaFCIL                    `adv`     {- takoriym -}         [ "honoring", "tribute", "in honor of" ]
                               `plural`     TaFCIL |< At,
 
     -- ;; takorimap_1
@@ -6312,7 +6312,7 @@ lexicon = listing "Lexicon's properties"
     -- <krAm   <ikorAm NF      in honor of     [[<ikorAm/ADV]]
     -- AkrAm   <ikorAm NF      in honor of     [[<ikorAm/ADV]]
 
-    HiFCAL                    `noun`    {- IikorAm -}          [ "honor", "respect", "hospitality", "in honor of" ]
+    HiFCAL                    `adv`     {- IikorAm -}          [ "honor", "respect", "hospitality", "in honor of" ]
                               `plural`     HiFCAL |< At,
 
     -- ;; <ikorAmiy~ap_1
@@ -8512,7 +8512,7 @@ lexicon = listing "Lexicon's properties"
     -- AlkAd   AlokAd  FW-Wa   almost     [[Al/DET+kAd/NOUN]]
     -- bAlkAd  biAlokAd        FW-Wa   almost     [[bi/PREP+Al/DET+kAd/NOUN]]
 
-    FAL                       `noun`    {- kAd -}              [ "almost" ],
+    FAL                       `prep`    {- kAd -}              [ "almost" ],
 
     -- ;; kawodap_1
     -- kwd     kawod   Napdu   pile;heap
@@ -9111,6 +9111,12 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCUL
                            {- `others`  [ "kuyuwf N" ] -},
 
+    -- ;; kayofa_1
+    -- kyf     kayofa  FW-Wa   how                  [[kayofa/REL_PRON]]
+    -- kyf     kayofa  FW-Wa   how                  [[kayofa/INTERROG_PART]]
+
+    FaCL |<< "a"              `part`    {- kayofa -}           [ "how" ],
+
     -- ;; kayofiy~_1
     -- kyfy    kayofiy~        N-ap    arbitrary;optional;qualitative     [[kayofiy~/ADJ]]
 
@@ -9493,6 +9499,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "k y t" <| [
 
+    -- ;; kayota_1
+    -- kyt     kayota  FW-Wa   such;thus     [[kayota/ADV]]
+
+    FaCL |<< "a"              `adv`     {- kayota -}           [ "such", "thus" ],
+
     -- ;; kiyt_1
     -- kyt     kiyt    Nprop   Kate
 
@@ -9533,13 +9544,13 @@ lexicon = listing "Lexicon's properties"
     -- ky      kay     FW-Wa   in order to  [[kay/CONJ]]
     -- lky     likay   FW-Wa   in order to  [[likay/CONJ]]
 
-    FaC                       `noun`    {- kay -}              [ "in order to" ],
+    FaC                       `conj`    {- kay -}              [ "in order to" ],
 
     -- ;; kay_1
     -- ky      kay     FW-Wa   in order to  [[kay/CONJ]]
     -- lky     likay   FW-Wa   in order to  [[likay/CONJ]]
 
-    FaL                       `noun`    {- kay -}              [ "in order to" ] ]
+    FaL                       `conj`    {- kay -}              [ "in order to" ] ]
 
  |> "k z b r" <| [
 
@@ -10541,20 +10552,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kawit$ -}           [ "rubber" ] ]
 
- |> "kayfa" <| [
-
-    -- ;; kayofa_1
-    -- kyf     kayofa  FW-Wa   how                  [[kayofa/REL_PRON]]
-    -- kyf     kayofa  FW-Wa   how                  [[kayofa/INTERROG_PART]]
-
-    Identity                  `noun`    {- kayofa -}           [ "how" ] ]
-
  |> "kayfamA" <| [
 
     -- ;; kayofamA_1
     -- kyfmA   kayofamA        FW-Wa   whichever/however    [[kayofamA/CONJ]]
 
-    Identity                  `noun`    {- kayofamA -}         [ "whichever/however" ] ]
+    Identity                  `conj`    {- kayofamA -}         [ "whichever/however" ] ]
 
  |> "kaylA" <| [
 
@@ -10562,7 +10565,7 @@ lexicon = listing "Lexicon's properties"
     -- kylA    kayolA  FW-Wa   in order not to  [[kayolA/CONJ]]
     -- lkylA   likayolA        FW-Wa   in order not to  [[likayolA/CONJ]]
 
-    Identity                  `noun`    {- kayolA -}           [ "in order not to" ] ]
+    Identity                  `conj`    {- kayolA -}           [ "in order not to" ] ]
 
  |> "kaymA" <| [
 
@@ -10570,14 +10573,7 @@ lexicon = listing "Lexicon's properties"
     -- kymA    kayomA  FW-Wa   in order to  [[kayomA/CONJ]]
     -- lkymA   likayomA        FW-Wa   in order to  [[likayomA/CONJ]]
 
-    Identity                  `noun`    {- kaymA -}            [ "in order to" ] ]
-
- |> "kayta" <| [
-
-    -- ;; kayota_1
-    -- kyt     kayota  FW-Wa   such;thus     [[kayota/ADV]]
-
-    Identity                  `noun`    {- kayota -}           [ "such", "thus" ] ]
+    Identity                  `conj`    {- kaymA -}            [ "in order to" ] ]
 
  |> "kazaruwn" <| [
 
@@ -10610,7 +10606,7 @@ lexicon = listing "Lexicon's properties"
     -- kltAhmA kilotAhumA      FW-Wa   both of them                 [[kilotA/FUNC_WORD+humA/PRON_3D]]
     -- kltyhmA kilotayohimA    FW-WaBi both of them     [[kilotay/FUNC_WORD+himA/PRON_3D]]
 
-    Identity                  `noun`    {- kilA -}             [ "both of", "both of them" ] ]
+    Identity                  `part`    {- kilA -}             [ "both of", "both of them" ] ]
 
  |> "kiliym" <| [
 
@@ -11206,7 +11202,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; kul~amA_1
     -- klmA    kul~amA FW-Wa   whenever       [[kul~amA/CONJ]]
 
-    Identity                  `noun`    {- kul~amA -}          [ "whenever" ] ]
+    Identity                  `conj`    {- kul~amA -}          [ "whenever" ] ]
 
  |> "kumbArs" <| [
 
@@ -12029,7 +12025,7 @@ lexicon = listing "Lexicon's properties"
     -- tkrAr   takorAr N       repetition;reiteration;frequency
     -- tkrAr   takorAr NF      repeatedly;frequently     [[takorAr/ADV]]
 
-    Identity                  `noun`    {- takorAr -}          [ "repetition", "reiteration", "frequency", "repeatedly", "frequently" ],
+    Identity                  `adv`     {- takorAr -}          [ "repetition", "reiteration", "frequency", "repeatedly", "frequently" ],
 
     -- ;; takorAriy~_1
     -- tkrAry  takorAriy~      N-ap    repeated;frequent     [[takorAriy~/ADJ]]

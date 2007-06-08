@@ -41,6 +41,13 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FAL |< At
                               `plural`     FACL |< At ]
 
+ |> "b  m" <| [
+
+    -- ;; bima_1
+    -- bm      bima    FW-Wa   with what    [[be/PREP+ma/INTERROG_PART]]
+
+    FiL |<< "a"               `part`    {- bima -}             [ "with what" ] ]
+
  |> "b ' .d" <| [
 
     -- ;; bA}iD_1
@@ -236,6 +243,11 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCaL                   `verb`    {- AibotaOas -}        [ "be dejected", "be worried" ],
 
+    -- ;; bi}osa_1
+    -- b}s     bi}osa  FW-Wa   bad;evil;poor;unfortunate
+
+    FiCL |<< "a"              `noun`    {- bi}osa -}           [ "bad", "evil", "poor", "unfortunate" ],
+
     -- ;; ba>os_1
     -- b>s     ba>os   N       bad;objection
 
@@ -283,7 +295,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; batAtAF_1
     -- btAt    batAt   NF      absolutely     [[batAt/ADV]]
 
-    FaL |< At |< aN           `noun`    {- batAtAF -}          [ "absolutely" ],
+    FaL |< At |< aN           `adv`     {- batAtAF -}          [ "absolutely" ],
 
     -- ;; bA}it_1
     -- bA}t    bA}it   Nall    stale;unpromoted
@@ -475,11 +487,19 @@ lexicon = listing "Lexicon's properties"
                               `plural`     IFtiCAL |< At
                               `plural`     IFtiCA' |< At,
 
+    -- ;; {ibotigA'a_1
+    -- <btgA'  {ibotigA'a      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'a/PREP]]
+    -- AbtgA'  {ibotigA'a      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'a/PREP]]
+    -- <btgA'  {ibotigA'a      FW-Wa-a with the aim of;for the purpose of     [[{ibotigA'a/PREP]]
+    -- AbtgA'  {ibotigA'a      FW-Wa-a with the aim of;for the purpose of     [[{ibotigA'a/PREP]]
+
+    IFtiCAL |<< "a"           `prep`    {- AibotigA'a -}       [ "with the aim of", "for the purpose of" ],
+
     -- ;; {ibotigA'F_1
     -- <btgA'  {ibotigA'F      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'F/ADV]]
     -- AbtgA'  {ibotigA'F      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'F/ADV]]
 
-    IFtiCAL |< aN             `noun`    {- AibotigA'F -}       [ "with the aim of", "for the purpose of" ] ]
+    IFtiCAL |< aN             `adv`     {- AibotigA'F -}       [ "with the aim of", "for the purpose of" ] ]
 
  |> "b .g .d" <| [
 
@@ -838,11 +858,19 @@ lexicon = listing "Lexicon's properties"
     IFtiCA'                   `noun`    {- AibotigA' -}        [ "desire", "wish" ]
                               `plural`     IFtiCA' |< At,
 
+    -- ;; {ibotigA'a_1
+    -- <btgA'  {ibotigA'a      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'a/PREP]]
+    -- AbtgA'  {ibotigA'a      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'a/PREP]]
+    -- <btgA'  {ibotigA'a      FW-Wa-a with the aim of;for the purpose of     [[{ibotigA'a/PREP]]
+    -- AbtgA'  {ibotigA'a      FW-Wa-a with the aim of;for the purpose of     [[{ibotigA'a/PREP]]
+
+    IFtiCA' |<< "a"           `prep`    {- AibotigA'a -}       [ "with the aim of", "for the purpose of" ],
+
     -- ;; {ibotigA'F_1
     -- <btgA'  {ibotigA'F      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'F/ADV]]
     -- AbtgA'  {ibotigA'F      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'F/ADV]]
 
-    IFtiCA' |< aN             `noun`    {- AibotigA'F -}       [ "with the aim of", "for the purpose of" ],
+    IFtiCA' |< aN             `adv`     {- AibotigA'F -}       [ "with the aim of", "for the purpose of" ],
 
     -- ;; bAgiy_1
     -- bAgy    bAgiy   N0F     oppressive;tyrant
@@ -1249,7 +1277,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; baHotAF_1
     -- bHt     baHot   NF      purely;exclusively     [[baHot/ADV]]
 
-    FaCL |< aN                `noun`    {- baHotAF -}          [ "purely", "exclusively" ]
+    FaCL |< aN                `adv`     {- baHotAF -}          [ "purely", "exclusively" ]
                               `plural`     FaCL
                            {- `others`  [ "ba.ht NF" ] -},
 
@@ -2917,7 +2945,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mubA$arapF_1
     -- mbA$rp  mubA$arapF      FW-Wa   directly;immediately    [[mubA$arapF/ADV]]
 
-    MuFACaL |< aT |< aN       `noun`    {- mubA$arapF -}       [ "directly", "immediately" ],
+    MuFACaL |< aT |< aN       `adv`     {- mubA$arapF -}       [ "directly", "immediately" ],
 
     -- ;; mabo$uwr_1
     -- mb$wr   mabo$uwr        Nall    grated;shredded
@@ -3830,6 +3858,22 @@ lexicon = listing "Lexicon's properties"
 
  |> "b ` d" <| [
 
+    -- ;; baEoda_1
+    -- bEd     baEoda  FW-Wa   after     [[baEoda/PREP]]
+    -- bEd     baEodi  FW-Wa   after     [[baEodi/PREP]]
+    -- bEd     baEoda  FW-Wa-a after     [[baEoda/PREP]]
+    -- bEd     baEodi  FW-Wa-i after     [[baEodi/PREP]]
+    -- bEd     baEod   FW-Wa-o after     [[baEod/PREP]]
+
+    FaCL |<< "a"              `prep`    {- baEoda -}           [ "after" ]
+                              `plural`     FaCL
+                           {- `others`  [ "ba`d FW-Wa-o" ] -},
+
+    -- ;; baEodu_1
+    -- bEd     baEodu  FW-Wa   afterward;later;(not) yet              [[baEodu/ADV]]
+
+    FaCL |<< "u"              `adv`     {- baEodu -}           [ "afterward", "later", "(not) yet" ],
+
     -- ;; baEud-u_1
     -- bEd     baEud   PV_intr be distant
     -- bEd     boEud   IV_intr be distant
@@ -3895,6 +3939,17 @@ lexicon = listing "Lexicon's properties"
     FaCIL                     `adj`     {- baEiyd -}           [ "remote", "distant", "far" ]
                               `plural`     FuCaLA'
                            {- `others`  [ "bu`adA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; buEayoda_1
+    -- bEyd    buEayoda        FW-Wa   shortly after;soon after     [[buEayoda/PREP]]
+    -- bEyd    buEayodi        FW-Wa   shortly after;soon after     [[buEayodi/PREP]]
+    -- bEyd    buEayoda        FW-Wa-a shortly after;soon after     [[buEayoda/PREP]]
+    -- bEyd    buEayodi        FW-Wa-i shortly after;soon after     [[buEayodi/PREP]]
+    -- bEyd    buEayod FW-Wa-o shortly after;soon after     [[buEayod/PREP]]
+
+    FuCayL |<< "a"            `prep`    {- buEayoda -}         [ "shortly after", "soon after" ]
+                              `plural`     FuCayL
+                           {- `others`  [ "bu`ayd FW-Wa-o" ] -},
 
     -- ;; >aboEad_2
     -- >bEd    >aboEad Nel     farther;farthest     [[>aboEad/ADJ]]
@@ -4180,7 +4235,7 @@ lexicon = listing "Lexicon's properties"
     -- mbd}y   maboda}iy~      NF      in principle     [[maboda}iy~/ADV]]
     -- mbd>y   maboda>iy~      NF      in principle     [[maboda>iy~/ADV]]
 
-    MaFCaL |< Iy |< aN        `adj`     {- maboda}iy~AF -}     [ "in principle" ],
+    MaFCaL |< Iy |< aN        `adv`     {- maboda}iy~AF -}     [ "in principle" ],
 
     -- ;; {ibotidA'_1
     -- <btdA'  {ibotidA'       N0_Nh   beginning;start
@@ -4490,7 +4545,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; badAhapF_1
     -- bdAhp   badAhapF        FW-Wa   spontaneously    [[badAhapF/ADV]]
 
-    FaCAL |< aT |< aN         `noun`    {- badAhapF -}         [ "spontaneously" ],
+    FaCAL |< aT |< aN         `adv`     {- badAhapF -}         [ "spontaneously" ],
 
     -- ;; badiyhap_1
     -- bdyh    badiyh  NapAt   intuitive grasp
@@ -4568,7 +4623,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; badalAF_1
     -- bdl     badal   NF      instead of;in lieu of     [[badal/ADV]]
 
-    FaCaL |< aN               `noun`    {- badalAF -}          [ "instead of", "in lieu of" ]
+    FaCaL |< aN               `adv`     {- badalAF -}          [ "instead of", "in lieu of" ]
                               `plural`     FaCaL
                            {- `others`  [ "badal NF" ] -},
 
@@ -4791,9 +4846,15 @@ lexicon = listing "Lexicon's properties"
     -- ;; bidArAF_1
     -- bdAr    bidAr   NF      quickly;hastily     [[bidAr/ADV]]
 
-    FiCAL |< aN               `noun`    {- bidArAF -}          [ "quickly", "hastily" ]
+    FiCAL |< aN               `adv`     {- bidArAF -}          [ "quickly", "hastily" ]
                               `plural`     FiCAL
                            {- `others`  [ "bidAr NF" ] -},
+
+    -- ;; badAri_1
+    -- bdAr    badAri  FW-Wa   hurry!     [[badAri/INTERJ]]
+    -- AlbdAr  AlobadAri       FW-Wa   hurry!     [[AlobadAri/INTERJ]]
+
+    FaCAL |<< "i"             `noun`    {- badAri -}           [ "hurry!" ],
 
     -- ;; mubAdarap_1
     -- mbAdr   mubAdar NapAt   initiative;proposal
@@ -5929,7 +5990,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bal_1
     -- bl      bal     FW-Wa   but rather;in fact     [[bal/CONJ]]
 
-    FaL                       `noun`    {- bal -}              [ "but rather", "in fact" ] ]
+    FaL                       `conj`    {- bal -}              [ "but rather", "in fact" ] ]
 
  |> "b k m" <| [
 
@@ -6261,7 +6322,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bal_1
     -- bl      bal     FW-Wa   but rather;in fact     [[bal/CONJ]]
 
-    FaC                       `noun`    {- bal -}              [ "but rather", "in fact" ],
+    FaC                       `conj`    {- bal -}              [ "but rather", "in fact" ],
 
     -- ;; balA'_1
     -- blA'    balA'   N0_Nh   tribulation;affliction
@@ -7004,6 +7065,12 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `noun`    {- balah -}            [ "stupidity" ]
                               `plural`     FaCAL |< aT,
 
+    -- ;; baloha_1
+    -- blh     baloha  FW-Wa   not to mention     [[baloha/ADV]]
+    -- blh     baloha  FW-Wa-a not to mention     [[baloha/ADV]]
+
+    FaCL |<< "a"              `adv`     {- baloha -}           [ "not to mention" ],
+
     -- ;; >abolah_1
     -- >blh    >abolah Nel     doltish;dumb
     -- Ablh    >abolah Nel     doltish;dumb
@@ -7591,6 +7658,13 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADIS
                            {- `others`  [ "balAyiyn Ndip" ] -} ]
 
+ |> "b m " <| [
+
+    -- ;; bima_1
+    -- bm      bima    FW-Wa   with what    [[be/PREP+ma/INTERROG_PART]]
+
+    FiC |<< "a"               `part`    {- bima -}             [ "with what" ] ]
+
  |> "b m b" <| [
 
     -- ;; bamobiy~_1
@@ -7650,7 +7724,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; binA'F_1
     -- bnA'    binA'F  FW-Wa   based on;according to     [[binA'F/ADV]]
 
-    FiCAL |< aN               `noun`    {- binA'F -}           [ "based on", "according to" ],
+    FiCAL |< aN               `adv`     {- binA'F -}           [ "based on", "according to" ],
 
     -- ;; binA}iy~_1
     -- bnA}y   binA}iy~        Nall    structural;architectural     [[binA}iy~/ADJ]]
@@ -8200,7 +8274,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; binA'F_1
     -- bnA'    binA'F  FW-Wa   based on;according to     [[binA'F/ADV]]
 
-    FiCA' |< aN               `noun`    {- binA'F -}           [ "based on", "according to" ],
+    FiCA' |< aN               `adv`     {- binA'F -}           [ "based on", "according to" ],
 
     -- ;; binA}iy~_1
     -- bnA}y   binA}iy~        Nall    structural;architectural     [[binA}iy~/ADJ]]
@@ -9045,7 +9119,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; barAHAF_1
     -- brAH    barAH   NF      openly;patently     [[barAH/ADV]]
 
-    FaCAL |< aN               `noun`    {- barAHAF -}          [ "openly", "patently" ]
+    FaCAL |< aN               `adv`     {- barAHAF -}          [ "openly", "patently" ]
                               `plural`     FaCAL
                            {- `others`  [ "barA.h NF" ] -},
 
@@ -10235,7 +10309,13 @@ lexicon = listing "Lexicon's properties"
     -- brnq    baronaq PV      varnish
     -- brnq    baroniq IV_yu   varnish
 
-    KaRDaS                    `verb`    {- baronaq -}          [ "varnish" ] ]
+    KaRDaS                    `verb`    {- baronaq -}          [ "varnish" ],
+
+    -- ;; baronaqao_1
+    -- brnq    baronaq Nap     varnishing
+
+    KaRDaS |<< "a"            `noun`    {- baronaqao -}        [ "varnishing" ]
+                              `plural`     KaRDaS |< aT ]
 
  |> "b r n s" <| [
 
@@ -10468,7 +10548,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bar~AF_1
     -- br      bar~    NF      by land     [[bar~/ADV]]
 
-    FaCL |< aN                `noun`    {- bar~AF -}           [ "by land" ]
+    FaCL |< aN                `adv`     {- bar~AF -}           [ "by land" ]
                               `plural`     FaCL
                            {- `others`  [ "barr NF" ] -},
 
@@ -10500,7 +10580,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taboriyrAF_1
     -- tbryr   taboriyr        NF      in justification;as a pretext     [[taboriyr/ADV]]
 
-    TaFCIL |< aN              `noun`    {- taboriyrAF -}       [ "in justification", "as a pretext" ]
+    TaFCIL |< aN              `adv`     {- taboriyrAF -}       [ "in justification", "as a pretext" ]
                               `plural`     TaFCIL
                            {- `others`  [ "tabriyr NF" ] -},
 
@@ -11299,7 +11379,12 @@ lexicon = listing "Lexicon's properties"
     -- <btsAm  {ibotisAm       NapAt   smile
     -- AbtsAm  {ibotisAm       NapAt   smile
 
-    IFtiCAL |< aT             `noun`    {- AibotisAmap -}      [ "smile" ] ]
+    IFtiCAL |< aT             `noun`    {- AibotisAmap -}      [ "smile" ],
+
+    -- ;; bisomi_1
+    -- bsm     bisomi  FW-Wa   in/by + (the) Name of     [[bi/PREP+somi/NOUN]]
+
+    FiCL |<< "i"              `prep`    {- bisomi -}           [ "in/by + (the) Name of" ] ]
 
  |> "b s m l" <| [
 
@@ -11574,7 +11659,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; batolapF_1
     -- btlp    batolapF        FW-Wa   definitively;decisively    [[batolapF/ADV]]
 
-    FaCL |< aT |< aN          `noun`    {- batolapF -}         [ "definitively", "decisively" ],
+    FaCL |< aT |< aN          `adv`     {- batolapF -}         [ "definitively", "decisively" ],
 
     -- ;; batalap_1
     -- btl     batal   NapAt   petal
@@ -11722,7 +11807,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bat~AF_1
     -- bt      bat~    NF      definitely;once and for all     [[bat~/ADV]]
 
-    FaCL |< aN                `noun`    {- bat~AF -}           [ "definitely", "once and for all" ]
+    FaCL |< aN                `adv`     {- bat~AF -}           [ "definitely", "once and for all" ]
                               `plural`     FaCL
                            {- `others`  [ "batt NF" ] -},
 
@@ -11734,7 +11819,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bat~apF_1
     -- btp     bat~apF FW-Wa   absolutely    [[bat~apF/ADV]]
 
-    FaCL |< aT |< aN          `noun`    {- bat~apF -}          [ "absolutely" ],
+    FaCL |< aT |< aN          `adv`     {- bat~apF -}          [ "absolutely" ],
 
     -- ;; bat~iy~_1
     -- bty     bat~iy~ Nall    definite     [[bat~iy~/ADJ]]
@@ -11772,7 +11857,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; batAtAF_1
     -- btAt    batAt   NF      absolutely     [[batAt/ADV]]
 
-    FaC |< At |< aN           `noun`    {- batAtAF -}          [ "absolutely" ],
+    FaC |< At |< aN           `adv`     {- batAtAF -}          [ "absolutely" ],
 
     -- ;; buwtiy_1
     -- bwty    buwtiy  Nprop   Petit
@@ -13028,6 +13113,11 @@ lexicon = listing "Lexicon's properties"
 
     HaFAL                     `verb`    {- OabAd -}            [ "exterminate", "be exterminated" ],
 
+    -- ;; bayoda_1
+    -- byd     bayoda  FW-Wa   whereas;however     [[bayoda/CONJ]]
+
+    FaCL |<< "a"              `conj`    {- bayoda -}           [ "whereas", "however" ],
+
     -- ;; bayodA'_1
     -- bydA'   bayodA' N0_Nh   wilderness;desert
     -- bydA&   bayodA& Nh      wilderness;desert
@@ -13131,6 +13221,17 @@ lexicon = listing "Lexicon's properties"
     -- bAywn   bAyuwn  Nprop   Baioun
 
     FACUL                     `noun`    {- bAyuwn -}           [ "Baioun" ],
+
+    -- ;; bayona_1
+    -- byn     bayona  FW-Wa   between/among     [[bayona/PREP]]
+    -- byn     bayoni  FW-Wa   between/among     [[bayoni/PREP]]
+    -- byn     bayona  FW-Wa-a between/among     [[bayona/PREP]]
+    -- byn     bayoni  FW-Wa-i between/among     [[bayoni/PREP]]
+    -- byn     bayon   FW-Wa-o between/among     [[bayon/PREP]]
+
+    FaCL |<< "a"              `prep`    {- bayona -}           [ "between/among" ]
+                              `plural`     FaCL
+                           {- `others`  [ "bayn FW-Wa-o" ] -},
 
     -- ;; bayoniy~_1
     -- byny    bayoniy~        N-ap    in-between;interface ??     [[bayoniy~/ADJ]]
@@ -14290,12 +14391,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bArinots -}         [ "Barents" ] ]
 
- |> "bAriyba" <| [
+ |> "bAriyb" <| [
 
     -- ;; bAriyba_1
     -- bArybA  bAriybA Nprop   Bariba
 
-    Identity                  `noun`    {- bAriyba -}          [ "Bariba" ] ]
+    Identity |<< "a"          `noun`    {- bAriyba -}          [ "Bariba" ] ]
 
  |> "bAriys" <| [
 
@@ -14574,18 +14675,16 @@ lexicon = listing "Lexicon's properties"
 
  |> "ba.hrayn" <| [
 
+    -- ;; baHorayoni_1
+    -- bHryn   baHorayoni      N0      Bahrain
+
+    Identity |<< "i"          `noun`    {- baHorayoni -}       [ "Bahrain" ],
+
     -- ;; baHorayoniy~_1
     -- bHryny  baHorayoniy~    Nall    Bahraini     [[baHorayoniy~/NOUN]]
     -- bHryny  baHorayoniy~    Nall    Bahraini     [[baHorayoniy~/ADJ]]
 
     Identity |< Iy            `adj`     {- baHorayoniy~ -}     [ "Bahraini" ] ]
-
- |> "ba.hrayni" <| [
-
-    -- ;; baHorayoni_1
-    -- bHryn   baHorayoni      N0      Bahrain
-
-    Identity                  `noun`    {- baHorayoni -}       [ "Bahrain" ] ]
 
  |> "ba.sratAn" <| [
 
@@ -14682,35 +14781,17 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- baEabodA -}         [ "Baabda" ] ]
 
- |> "ba`da" <| [
-
-    -- ;; baEoda_1
-    -- bEd     baEoda  FW-Wa   after     [[baEoda/PREP]]
-    -- bEd     baEodi  FW-Wa   after     [[baEodi/PREP]]
-    -- bEd     baEoda  FW-Wa-a after     [[baEoda/PREP]]
-    -- bEd     baEodi  FW-Wa-i after     [[baEodi/PREP]]
-    -- bEd     baEod   FW-Wa-o after     [[baEod/PREP]]
-
-    Identity                  `noun`    {- baEoda -}           [ "after" ] ]
-
  |> "ba`damA" <| [
 
     -- ;; baEodamA_1
     -- bEdmA   baEodamA        FW-Wa   after                                  [[baEodamA/CONJ]]
 
-    Identity                  `noun`    {- baEodamA -}         [ "after" ],
+    Identity                  `conj`    {- baEodamA -}         [ "after" ],
 
     -- ;; baEodamA_2
     -- bEdmA   baEodamA        FW-Wa   after what                             [[baEoda/PREP+mA/REL_PRON]]
 
-    Identity                  `noun`    {- baEodamA -}         [ "after what" ] ]
-
- |> "ba`du" <| [
-
-    -- ;; baEodu_1
-    -- bEd     baEodu  FW-Wa   afterward;later;(not) yet              [[baEodu/ADV]]
-
-    Identity                  `noun`    {- baEodu -}           [ "afterward", "later", "(not) yet" ] ]
+    Identity                  `prep`    {- baEodamA -}         [ "after what" ] ]
 
  |> "ba`labakk" <| [
 
@@ -14750,14 +14831,6 @@ lexicon = listing "Lexicon's properties"
     -- bbwr    bubuwr  N       tigers
 
     Identity                  `noun`    {- babor -}            [ "tiger", "tigers" ] ]
-
- |> "badAri" <| [
-
-    -- ;; badAri_1
-    -- bdAr    badAri  FW-Wa   hurry!     [[badAri/INTERJ]]
-    -- AlbdAr  AlobadAri       FW-Wa   hurry!     [[AlobadAri/INTERJ]]
-
-    Identity                  `noun`    {- badAri -}           [ "hurry!" ] ]
 
  |> "bahAmA" <| [
 
@@ -14887,14 +14960,6 @@ lexicon = listing "Lexicon's properties"
     -- bllrynA balolariynA     N0      ballerina
 
     Identity                  `noun`    {- balariynA -}        [ "ballerina" ] ]
-
- |> "balha" <| [
-
-    -- ;; baloha_1
-    -- blh     baloha  FW-Wa   not to mention     [[baloha/ADV]]
-    -- blh     baloha  FW-Wa-a not to mention     [[baloha/ADV]]
-
-    Identity                  `noun`    {- baloha -}           [ "not to mention" ] ]
 
  |> "balhawAn" <| [
 
@@ -15128,13 +15193,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- baronAmaj -}        [ "program", "programs" ] ]
 
- |> "barnaqa" <| [
-
-    -- ;; baronaqao_1
-    -- brnq    baronaq Nap     varnishing
-
-    Identity                  `noun`    {- baronaqao -}        [ "varnishing" ] ]
-
  |> "barriym" <| [
 
     -- ;; bar~iymap_1
@@ -15168,30 +15226,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- basoyuwniy -}       [ "Basyouni", "Bassiuni" ] ]
 
- |> "bayda" <| [
-
-    -- ;; bayoda_1
-    -- byd     bayoda  FW-Wa   whereas;however     [[bayoda/CONJ]]
-
-    Identity                  `noun`    {- bayoda -}           [ "whereas", "however" ] ]
-
- |> "bayna" <| [
-
-    -- ;; bayona_1
-    -- byn     bayona  FW-Wa   between/among     [[bayona/PREP]]
-    -- byn     bayoni  FW-Wa   between/among     [[bayoni/PREP]]
-    -- byn     bayona  FW-Wa-a between/among     [[bayona/PREP]]
-    -- byn     bayoni  FW-Wa-i between/among     [[bayoni/PREP]]
-    -- byn     bayon   FW-Wa-o between/among     [[bayon/PREP]]
-
-    Identity                  `noun`    {- bayona -}           [ "between/among" ] ]
-
  |> "baynamA" <| [
 
     -- ;; bayonamA_1
     -- bynmA   bayonamA        FW-Wa   while      [[bayonamA/CONJ]]
 
-    Identity                  `noun`    {- bayonamA -}         [ "while" ] ]
+    Identity                  `conj`    {- bayonamA -}         [ "while" ] ]
 
  |> "bayraqdAr" <| [
 
@@ -15234,13 +15274,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bfyl$yftr -}        [ "Pfeilschifter" ] ]
 
- |> "bi'sa" <| [
-
-    -- ;; bi}osa_1
-    -- b}s     bi}osa  FW-Wa   bad;evil;poor;unfortunate
-
-    Identity                  `noun`    {- bi}osa -}           [ "bad", "evil", "poor", "unfortunate" ] ]
-
  |> "bi'samA" <| [
 
     -- ;; bi}osamA_1
@@ -15264,7 +15297,7 @@ lexicon = listing "Lexicon's properties"
     -- by      biya    FW-Wa   with/by + me                           [[bi/PREP+ya/PRON_1S]]
     -- bnA     binA    FW-Wa   with/by + us                           [[bi/PREP+nA/PRON_1P]]
 
-    Identity                  `noun`    {- bi- -}              [ "with/by + it/him", "with/by + them both", "with/by + it/them/her", "with/by + them [masc.pl.]", "with/by + them [fem.pl.]", "with/by + you [masc.sg.]", "with/by + you [fem.sg.]", "with/by + you both", "with/by + you [masc.pl.]", "with/by + you [fem.pl.]", "with/by + me", "with/by + us" ] ]
+    Identity                  `prep`    {- bi- -}              [ "with/by + it/him", "with/by + them both", "with/by + it/them/her", "with/by + them [masc.pl.]", "with/by + them [fem.pl.]", "with/by + you [masc.sg.]", "with/by + you [fem.sg.]", "with/by + you both", "with/by + you [masc.pl.]", "with/by + you [fem.pl.]", "with/by + me", "with/by + us" ] ]
 
  |> "bi^sill" <| [
 
@@ -15292,7 +15325,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bilA$ak~_1
     -- blA$k   bilA$ak~        FW-Wa   undoubtedly     [[bilA$ak~/ADV]]
 
-    Identity                  `noun`    {- bilA$ak~ -}         [ "undoubtedly" ] ]
+    Identity                  `adv`     {- bilA$ak~ -}         [ "undoubtedly" ] ]
 
  |> "bil^giykA" <| [
 
@@ -15366,19 +15399,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; bimA_1
     -- bmA     bimA    FW-Wa   by/with + what         [[bi/PREP+mA/REL_PRON]]
 
-    Identity                  `noun`    {- bimA -}             [ "by/with + what" ],
+    Identity                  `prep`    {- bimA -}             [ "by/with + what" ],
 
     -- ;; bimA_2
     -- bmA     bimA    FW-Wa   by/with + what/which   [[bi/PREP+mA/INTERROG_PART]]
 
-    Identity                  `noun`    {- bimA -}             [ "by/with + what/which" ] ]
-
- |> "bima" <| [
-
-    -- ;; bima_1
-    -- bm      bima    FW-Wa   with what    [[be/PREP+ma/INTERROG_PART]]
-
-    Identity                  `noun`    {- bima -}             [ "with what" ] ]
+    Identity                  `part`    {- bimA -}             [ "by/with + what/which" ] ]
 
  |> "binAltiy" <| [
 
@@ -15496,13 +15522,6 @@ lexicon = listing "Lexicon's properties"
     -- bsklyt  bisokiliyt      N/ap    bicycle
 
     Identity                  `noun`    {- bisokiliyt -}       [ "bicycle" ] ]
-
- |> "bismi" <| [
-
-    -- ;; bisomi_1
-    -- bsm     bisomi  FW-Wa   in/by + (the) Name of     [[bi/PREP+somi/NOUN]]
-
-    Identity                  `noun`    {- bisomi -}           [ "in/by + (the) Name of" ] ]
 
  |> "bitruwkiymA'" <| [
 
@@ -16497,17 +16516,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- buTorusogrAd -}     [ "St. Petersburg" ] ]
 
- |> "bu`ayda" <| [
-
-    -- ;; buEayoda_1
-    -- bEyd    buEayoda        FW-Wa   shortly after;soon after     [[buEayoda/PREP]]
-    -- bEyd    buEayodi        FW-Wa   shortly after;soon after     [[buEayodi/PREP]]
-    -- bEyd    buEayoda        FW-Wa-a shortly after;soon after     [[buEayoda/PREP]]
-    -- bEyd    buEayodi        FW-Wa-i shortly after;soon after     [[buEayodi/PREP]]
-    -- bEyd    buEayod FW-Wa-o shortly after;soon after     [[buEayod/PREP]]
-
-    Identity                  `noun`    {- buEayoda -}         [ "shortly after", "soon after" ] ]
-
  |> "buksumAd" <| [
 
     -- ;; bukosumAd_1
@@ -17230,17 +17238,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bytr -}             [ "Peter" ] ]
 
- |> "ibti.gA'a" <| [
-
-    -- ;; {ibotigA'a_1
-    -- <btgA'  {ibotigA'a      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'a/PREP]]
-    -- AbtgA'  {ibotigA'a      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'a/PREP]]
-    -- <btgA'  {ibotigA'a      FW-Wa-a with the aim of;for the purpose of     [[{ibotigA'a/PREP]]
-    -- AbtgA'  {ibotigA'a      FW-Wa-a with the aim of;for the purpose of     [[{ibotigA'a/PREP]]
-
-    Identity                  `noun`    {- AibotigA'a -}       [ "with the aim of", "for the purpose of" ] ]
-
- |> "mAbayna" <| [
+ |> "mAbayn" <| [
 
     -- ;; mAbayona_1
     -- mAbyn   mAbayona        FW-Wa   between/among     [[mA/REL_PRON+bayona]]
@@ -17248,7 +17246,7 @@ lexicon = listing "Lexicon's properties"
     -- mAbyn   mAbayoni        FW-Wa-i between/among     [[mA/REL_PRON+bayoni]]
     -- mAbyn   mAbayon FW-Wa-o between/among     [[mA/REL_PRON+bayon]]
 
-    Identity                  `noun`    {- mAbayona -}         [ "between/among" ] ]
+    Identity |<< "a"          `pron`    {- mAbayona -}         [ "between/among" ] ]
 
  |> "mabn" <| [
 

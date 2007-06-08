@@ -69,14 +69,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- tuWadap -}          [ "slowness", "unhurried" ] ]
 
- |> "tu^gAha" <| [
+ |> "tu^gAh" <| [
 
     -- ;; tujAha_1
     -- tjAh    tujAha  FW-Wa   towards;facing     [[tujAha/PREP]]
     -- tjAh    tujAha  FW-Wa-a towards;facing     [[tujAha/PREP]]
     -- tjAh    tujAh   FW-Wa-o towards;facing     [[tujAh/PREP]]
 
-    Identity                  `noun`    {- tujAha -}           [ "towards", "facing" ] ]
+    Identity |<< "a"          `prep`    {- tujAha -}           [ "towards", "facing" ] ]
 
  |> "tuhm" <| [
 
@@ -156,7 +156,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; wa}iydAF_1
     -- w}yd    wa}iyd  NF      slowly;gradually     [[wa}iyd/ADV]]
 
-    FaCIL |< aN               `noun`    {- wa}iydAF -}         [ "slowly", "gradually" ]
+    FaCIL |< aN               `adv`     {- wa}iydAF -}         [ "slowly", "gradually" ]
                               `plural`     FaCIL
                            {- `others`  [ "wa'iyd NF" ] -},
 
@@ -878,7 +878,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; waHod_1
     -- wHd     waHod   N       alone;only     [[waHod/ADV]]
 
-    FaCL                      `noun`    {- waHod -}            [ "alone", "only" ],
+    FaCL                      `adv`     {- waHod -}            [ "alone", "only" ],
 
     -- ;; waHodap_1
     -- wHd     waHod   Nap     unity
@@ -2516,7 +2516,7 @@ lexicon = listing "Lexicon's properties"
     -- <yjAb   <iyjAb  NF      in accordance with     [[<iyjAb/ADV]]
     -- AyjAb   <iyjAb  NF      in accordance with     [[<iyjAb/ADV]]
 
-    HICAL |< aN               `noun`    {- IiyjAbAF -}         [ "in accordance with" ]
+    HICAL |< aN               `adv`     {- IiyjAbAF -}         [ "in accordance with" ]
                               `plural`     HICAL
                            {- `others`  [ "'iy^gAb NF" ] -},
 
@@ -4780,7 +4780,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; wadAEAF_1
     -- wdAE    wadAE   NF      farewell!;good-bye!     [[wadAE/ADV]]
 
-    FaCAL |< aN               `noun`    {- wadAEAF -}          [ "farewell!", "good-bye!" ]
+    FaCAL |< aN               `adv`     {- wadAEAF -}          [ "farewell!", "good-bye!" ]
                               `plural`     FaCAL
                            {- `others`  [ "wadA` NF" ] -},
 
@@ -5288,6 +5288,15 @@ lexicon = listing "Lexicon's properties"
     -- tfq     t~afaq  IV_Pass_yu      be agreed
 
     IFtaCaL                   `verb`    {- Ait~afaq -}         [ "agree", "be agreed" ],
+
+    -- ;; wifoqa_1
+    -- wfq     wifoqa  FW-Wa   according to;in accordance with     [[wifoqa/ADV]]
+    -- wfq     wifoqa  FW-Wa-a according to;in accordance with     [[wifoqa/ADV]]
+    -- wfq     wifoq   NF      according to;in accordance with;pursuant to     [[wafoq/ADV]]
+
+    FiCL |<< "a"              `adv`     {- wifoqa -}           [ "according to", "in accordance with", "pursuant to" ]
+                              `plural`     FiCL
+                           {- `others`  [ "wifq NF" ] -},
 
     -- ;; wafoqap_1
     -- wfq     wafoq   Nap     task item;work piece
@@ -6689,7 +6698,7 @@ lexicon = listing "Lexicon's properties"
     -- wlA'    wilA'   N0      successively
     -- wlA'    wilA'F  FW-Wa   successively     [[wilA'F/ADV]]
 
-    FiCAL                     `noun`    {- wilA' -}            [ "successively" ],
+    FiCAL                     `adv`     {- wilA' -}            [ "successively" ],
 
     -- ;; <iylA'_2
     -- <ylA'   <iylA'  N0_Nh   marriage annulment
@@ -7425,7 +7434,7 @@ lexicon = listing "Lexicon's properties"
     -- wlA'    wilA'   N0      successively
     -- wlA'    wilA'F  FW-Wa   successively     [[wilA'F/ADV]]
 
-    FiCA'                     `noun`    {- wilA' -}            [ "successively" ],
+    FiCA'                     `adv`     {- wilA' -}            [ "successively" ],
 
     -- ;; muwAlAp_1
     -- mwAlA   muwAlA  Napdu   friendship;continuous practice
@@ -8628,7 +8637,7 @@ lexicon = listing "Lexicon's properties"
     -- >wqAt   >awoqAt N       moments;times
     -- AwqAt   >awoqAt N       moments;times
 
-    FaCL                      `noun`    {- waqot -}            [ "time", "moment", "period of time", "at that time", "whenever", "moments", "times" ]
+    FaCL                      `conj`    {- waqot -}            [ "time", "moment", "period of time", "at that time", "whenever", "moments", "times" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'awqAt N" ] -},
 
@@ -8818,12 +8827,29 @@ lexicon = listing "Lexicon's properties"
 
  |> "w r '" <| [
 
+    -- ;; warA'a_1
+    -- wrA'    warA'a  FW-Wa   behind;past;beyond     [[warA'a/PREP]]
+    -- wrA'    warA'i  FW-Wa   behind;past;beyond     [[warA'i/PREP]]
+    -- wrA'    warA'a  FW-Wa-a behind;past;beyond     [[warA'a/PREP]]
+    -- wrA}    warA}i  FW-Wa-i behind;past;beyond     [[warA}i/PREP]]
+    -- wrA}    warA}   FW-Wa-o behind;past;beyond     [[warA}/PREP]]
+
+    FaCAL |<< "a"             `prep`    {- warA'a -}           [ "behind", "past", "beyond" ]
+                              `plural`     FaCAL
+                              `plural`     FaCA'
+                           {- `others`  [ "warA' FW-Wa-o" ] -},
+
     -- ;; warA'_1
     -- wrA'    warA'   N0_Nh   behind;past;beyond
     -- wrA&    warA&   Nh      behind;past;beyond
     -- wrA}    warA}   Nhy     behind;past;beyond
 
     FaCAL                     `noun`    {- warA' -}            [ "behind", "past", "beyond" ],
+
+    -- ;; warA'u_1
+    -- wrA'    warA'u  FW-Wa   behind     [[warA'u/ADV]]
+
+    FaCAL |<< "u"             `adv`     {- warA'u -}           [ "behind" ],
 
     -- ;; warA}iy~_1
     -- wrA}y   warA}iy~        N-ap    rear;back     [[warA}iy~/ADJ]]
@@ -8973,7 +8999,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; wirAviy~AF_1
     -- wrAvy   wirAviy~        NF      genetically     [[wirAviy~/ADV]]
 
-    FiCAL |< Iy |< aN         `adj`     {- wirAviy~AF -}       [ "genetically" ],
+    FiCAL |< Iy |< aN         `adv`     {- wirAviy~AF -}       [ "genetically" ],
 
     -- ;; wariyv_1
     -- wryv    wariyv  N/ap    heir;inheritor
@@ -9598,12 +9624,28 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCA
                            {- `others`  [ "warA Nhy" ] -},
 
+    -- ;; warA'a_1
+    -- wrA'    warA'a  FW-Wa   behind;past;beyond     [[warA'a/PREP]]
+    -- wrA'    warA'i  FW-Wa   behind;past;beyond     [[warA'i/PREP]]
+    -- wrA'    warA'a  FW-Wa-a behind;past;beyond     [[warA'a/PREP]]
+    -- wrA}    warA}i  FW-Wa-i behind;past;beyond     [[warA}i/PREP]]
+    -- wrA}    warA}   FW-Wa-o behind;past;beyond     [[warA}/PREP]]
+
+    FaCA' |<< "a"             `prep`    {- warA'a -}           [ "behind", "past", "beyond" ]
+                              `plural`     FaCA'
+                           {- `others`  [ "warA' FW-Wa-o" ] -},
+
     -- ;; warA'_1
     -- wrA'    warA'   N0_Nh   behind;past;beyond
     -- wrA&    warA&   Nh      behind;past;beyond
     -- wrA}    warA}   Nhy     behind;past;beyond
 
     FaCA'                     `noun`    {- warA' -}            [ "behind", "past", "beyond" ],
+
+    -- ;; warA'u_1
+    -- wrA'    warA'u  FW-Wa   behind     [[warA'u/ADV]]
+
+    FaCA' |<< "u"             `adv`     {- warA'u -}           [ "behind" ],
 
     -- ;; warA}iy~_1
     -- wrA}y   warA}iy~        N-ap    rear;back     [[warA}iy~/ADJ]]
@@ -9638,6 +9680,18 @@ lexicon = listing "Lexicon's properties"
     -- twsT    tawas~aT        IV      mediate;be in the middle
 
     TaFaCCaL                  `verb`    {- tawas~aT -}         [ "mediate", "be in the middle" ],
+
+    -- ;; wasoTa_1
+    -- wsT     wasoTa  FW-Wa   middle;midst;among     [[wasoTa/PREP]]
+    -- wsT     wasoTi  FW-Wa   middle;midst;among     [[wasoTi/PREP]]
+    -- wsT     wasoTa  FW-Wa-a middle;midst;among     [[wasoTa/PREP]]
+    -- wsT     wasoTi  FW-Wa-i middle;midst;among     [[wasoTi/PREP]]
+    -- wsT     wasoT   FW-Wa-o middle;midst;among     [[wasoT/PREP]]
+
+    FaCL |<< "a"              `prep`    {- wasoTa -}           [ "middle", "midst", "among" ]
+                              `plural`     FaCL
+                              `plural`     FtaCL
+                           {- `others`  [ "was.t FW-Wa-o" ] -},
 
     -- ;; wasoT_1
     -- wsT     wasaT   N       middle;center;environment
@@ -10368,7 +10422,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; wator_1
     -- wtr     wator   NF      separately;one by one     [[wator/ADV]]
 
-    FaCL                      `noun`    {- wator -}            [ "separately", "one by one" ],
+    FaCL                      `adv`     {- wator -}            [ "separately", "one by one" ],
 
     -- ;; watoriy~_1
     -- wtry    watoriy~        N-ap    uneven number;odd number     [[watoriy~/ADJ]]
@@ -10427,6 +10481,19 @@ lexicon = listing "Lexicon's properties"
     -- mtwAtr  mutawAtir       N-ap    continuous     [[mutawAtir/ADJ]]
 
     MutaFACiL                 `adj`     {- mutawAtir -}        [ "continuous" ] ]
+
+ |> "w y .h" <| [
+
+    -- ;; wayoHa_1
+    -- wyH     wayoHa  FW-Wa   woe unto                     [[wayoHa/INTERJ]]
+    -- wyHA    wayoHAF FW-Wa   woe unto                     [[wayoHAF/INTERJ]]
+    -- wyHk    wayoHaka        FW-Wa   woe unto + you [masc.sg.]    [[wayoHa/INTERJ+ka/PRON_2MS]]
+    -- wyHk    wayoHaki        FW-Wa   woe unto + you [fem.sg.]     [[wayoHa/INTERJ+ki/PRON_2FS]]
+    -- wyHkmA  wayoHakumA      FW-Wa   woe unto + you both          [[wayoHa/INTERJ+kumA/PRON_2D]]
+    -- wyHkm   wayoHakum       FW-Wa   woe unto + you [masc.pl.]    [[wayoHa/INTERJ+kum/PRON_2MP]]
+    -- wyHkn   wayoHakun~a     FW-Wa   woe unto + you [fem.pl.]     [[wayoHa/INTERJ+kun~a/PRON_2FP]]
+
+    FaCL |<< "a"              `pron`    {- wayoHa -}           [ "woe unto", "woe unto + you [masc.sg.]", "woe unto + you [fem.sg.]", "woe unto + you both", "woe unto + you [masc.pl.]", "woe unto + you [fem.pl.]" ] ]
 
  |> "w y b" <| [
 
@@ -10494,7 +10561,7 @@ lexicon = listing "Lexicon's properties"
     -- wykm    wayokum FW-Wa   shame on + you [masc.pl.]    [[wayo/INTERJ+kum/PRON_2MP]]
     -- wykn    wayokun~a       FW-Wa   shame on + you [fem.pl.]     [[wayo/INTERJ+kun~a/PRON_2FP]]
 
-    FaC                       `noun`    {- way -}              [ "shame on", "shame on + you [masc.sg.]", "shame on + you [fem.sg.]", "shame on + you both", "shame on + you [masc.pl.]", "shame on + you [fem.pl.]" ],
+    FaC                       `pron`    {- way -}              [ "shame on", "shame on + you [masc.sg.]", "shame on + you [fem.sg.]", "shame on + you both", "shame on + you [masc.pl.]", "shame on + you [fem.pl.]" ],
 
     -- ;; way_1
     -- wy      wayo    FW-Wa   shame on                     [[wayo/INTERJ]]
@@ -10504,7 +10571,7 @@ lexicon = listing "Lexicon's properties"
     -- wykm    wayokum FW-Wa   shame on + you [masc.pl.]    [[wayo/INTERJ+kum/PRON_2MP]]
     -- wykn    wayokun~a       FW-Wa   shame on + you [fem.pl.]     [[wayo/INTERJ+kun~a/PRON_2FP]]
 
-    FaL                       `noun`    {- way -}              [ "shame on", "shame on + you [masc.sg.]", "shame on + you [fem.sg.]", "shame on + you both", "shame on + you [masc.pl.]", "shame on + you [fem.pl.]" ] ]
+    FaL                       `pron`    {- way -}              [ "shame on", "shame on + you [masc.sg.]", "shame on + you [fem.sg.]", "shame on + you both", "shame on + you [masc.pl.]", "shame on + you [fem.pl.]" ] ]
 
  |> "w z `" <| [
 
@@ -10964,57 +11031,6 @@ lexicon = listing "Lexicon's properties"
     -- wAyzmn  wAyzoman        Nprop   Weizman
 
     Identity                  `noun`    {- wAyzomAn -}         [ "Weizman" ] ]
-
- |> "warA'a" <| [
-
-    -- ;; warA'a_1
-    -- wrA'    warA'a  FW-Wa   behind;past;beyond     [[warA'a/PREP]]
-    -- wrA'    warA'i  FW-Wa   behind;past;beyond     [[warA'i/PREP]]
-    -- wrA'    warA'a  FW-Wa-a behind;past;beyond     [[warA'a/PREP]]
-    -- wrA}    warA}i  FW-Wa-i behind;past;beyond     [[warA}i/PREP]]
-    -- wrA}    warA}   FW-Wa-o behind;past;beyond     [[warA}/PREP]]
-
-    Identity                  `noun`    {- warA'a -}           [ "behind", "past", "beyond" ] ]
-
- |> "warA'u" <| [
-
-    -- ;; warA'u_1
-    -- wrA'    warA'u  FW-Wa   behind     [[warA'u/ADV]]
-
-    Identity                  `noun`    {- warA'u -}           [ "behind" ] ]
-
- |> "was.ta" <| [
-
-    -- ;; wasoTa_1
-    -- wsT     wasoTa  FW-Wa   middle;midst;among     [[wasoTa/PREP]]
-    -- wsT     wasoTi  FW-Wa   middle;midst;among     [[wasoTi/PREP]]
-    -- wsT     wasoTa  FW-Wa-a middle;midst;among     [[wasoTa/PREP]]
-    -- wsT     wasoTi  FW-Wa-i middle;midst;among     [[wasoTi/PREP]]
-    -- wsT     wasoT   FW-Wa-o middle;midst;among     [[wasoT/PREP]]
-
-    Identity                  `noun`    {- wasoTa -}           [ "middle", "midst", "among" ] ]
-
- |> "way.ha" <| [
-
-    -- ;; wayoHa_1
-    -- wyH     wayoHa  FW-Wa   woe unto                     [[wayoHa/INTERJ]]
-    -- wyHA    wayoHAF FW-Wa   woe unto                     [[wayoHAF/INTERJ]]
-    -- wyHk    wayoHaka        FW-Wa   woe unto + you [masc.sg.]    [[wayoHa/INTERJ+ka/PRON_2MS]]
-    -- wyHk    wayoHaki        FW-Wa   woe unto + you [fem.sg.]     [[wayoHa/INTERJ+ki/PRON_2FS]]
-    -- wyHkmA  wayoHakumA      FW-Wa   woe unto + you both          [[wayoHa/INTERJ+kumA/PRON_2D]]
-    -- wyHkm   wayoHakum       FW-Wa   woe unto + you [masc.pl.]    [[wayoHa/INTERJ+kum/PRON_2MP]]
-    -- wyHkn   wayoHakun~a     FW-Wa   woe unto + you [fem.pl.]     [[wayoHa/INTERJ+kun~a/PRON_2FP]]
-
-    Identity                  `noun`    {- wayoHa -}           [ "woe unto", "woe unto + you [masc.sg.]", "woe unto + you [fem.sg.]", "woe unto + you both", "woe unto + you [masc.pl.]", "woe unto + you [fem.pl.]" ] ]
-
- |> "wifqa" <| [
-
-    -- ;; wifoqa_1
-    -- wfq     wifoqa  FW-Wa   according to;in accordance with     [[wifoqa/ADV]]
-    -- wfq     wifoqa  FW-Wa-a according to;in accordance with     [[wifoqa/ADV]]
-    -- wfq     wifoq   NF      according to;in accordance with;pursuant to     [[wafoq/ADV]]
-
-    Identity                  `noun`    {- wifoqa -}           [ "according to", "in accordance with", "pursuant to" ] ]
 
  |> "wiqiyy" <| [
 

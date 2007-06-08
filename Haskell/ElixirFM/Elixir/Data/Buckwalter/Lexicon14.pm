@@ -3450,7 +3450,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCAL',
       'suffix' => '',
       'glosses' => [
@@ -5800,7 +5800,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FuCL |< aT |< aN',
       'suffix' => ' |< aT |< aN',
       'glosses' => [
@@ -6830,7 +6830,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FACiL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -11901,7 +11901,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FuCL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [

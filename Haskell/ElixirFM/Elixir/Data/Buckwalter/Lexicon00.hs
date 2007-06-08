@@ -9,6 +9,19 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
+ |> "'" <| [
+
+    -- ;; >a_1
+    -- >       >a      FW      A;1st     [[>a/ABBREV]]
+    -- A       >a      FW      A;1st     [[>a/ABBREV]]
+
+    Identity |<< "a"          `noun`    {- Oa -}               [ "A", "1st" ],
+
+    -- ;; <i_1
+    -- <       <i      FW      I     [[<i/ABBREV]]
+
+    Identity |<< "i"          `noun`    {- Ii -}               [ "I" ] ]
+
  |> "'Ay" <| [
 
     -- ;; |y_1
@@ -16,21 +29,6 @@ lexicon = listing "Lexicon's properties"
     -- \|y      |y      FW      I.     [[|y/ABBREV]]
 
     Identity                  `noun`    {- \|y -}              [ "A.", "I." ] ]
-
- |> "'a" <| [
-
-    -- ;; >a_1
-    -- >       >a      FW      A;1st     [[>a/ABBREV]]
-    -- A       >a      FW      A;1st     [[>a/ABBREV]]
-
-    Identity                  `noun`    {- Oa -}               [ "A", "1st" ] ]
-
- |> "'i" <| [
-
-    -- ;; <i_1
-    -- <       <i      FW      I     [[<i/ABBREV]]
-
-    Identity                  `noun`    {- Ii -}               [ "I" ] ]
 
  |> "'iyh" <| [
 
@@ -261,13 +259,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- E -}                [ "('ayn)", "16th", "(Arab)" ] ]
 
- |> "bi" <| [
+ |> "b" <| [
 
     -- ;; bi_1
     -- b       bi      FW      with;by     [[bi/PREP]]
     -- b       b       FW      B;2nd;P     [[b/ABBREV]]
 
-    Identity                  `noun`    {- bi -}               [ "with", "by", "B", "2nd", "P" ] ]
+    Identity |<< "i"          `prep`    {- bi -}               [ "with", "by", "B", "2nd", "P" ] ]
 
  |> "d" <| [
 
@@ -283,13 +281,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dabiloyuw -}        [ "W." ] ]
 
- |> "fa" <| [
+ |> "f" <| [
 
     -- ;; fa_1
     -- f       fa      FW      and;so     [[fa/CONJ]]
     -- f       f       FW      F;17th;(fils)     [[f/ABBREV]]
 
-    Identity                  `noun`    {- fa -}               [ "and", "so", "F", "17th", "(fils)" ] ]
+    Identity |<< "a"          `conj`    {- fa -}               [ "and", "so", "F", "17th", "(fils)" ] ]
 
  |> "h" <| [
 
@@ -298,21 +296,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- h -}                [ "H", "(Hijrah)", "5th" ] ]
 
- |> "ka" <| [
+ |> "k" <| [
 
     -- ;; ka_1
     -- k       ka      FW      as;like     [[ka/PREP]]
     -- k       k       FW      K;11th;(kilo-)     [[k/ABBREV]]
 
-    Identity                  `noun`    {- ka -}               [ "as", "like", "K", "11th", "(kilo-)" ] ]
+    Identity |<< "a"          `prep`    {- ka -}               [ "as", "like", "K", "11th", "(kilo-)" ] ]
 
- |> "li" <| [
+ |> "l" <| [
 
     -- ;; li_1
     -- l       li      FW      for;to     [[li/PREP]]
     -- l       l       FW      L;12th;(pounds/lira)     [[l/ABBREV]]
 
-    Identity                  `noun`    {- li -}               [ "for", "to", "L", "12th", "(pounds/lira)" ] ]
+    Identity |<< "i"          `prep`    {- li -}               [ "for", "to", "L", "12th", "(pounds/lira)" ] ]
 
  |> "m" <| [
 
@@ -364,13 +362,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tg -}               [ "G.M.T." ] ]
 
- |> "wa" <| [
+ |> "w" <| [
 
     -- ;; wa_1
     -- w       wa      FW      and       [[wa/CONJ]]
     -- w       w       FW      W;6th     [[w/ABBREV]]
 
-    Identity                  `noun`    {- wa -}               [ "and", "W", "6th" ] ]
+    Identity |<< "a"          `conj`    {- wa -}               [ "and", "W", "6th" ] ]
 
  |> "y" <| [
 

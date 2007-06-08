@@ -633,6 +633,27 @@ $Lexicon = {
     {
       'types' => {},
       'entry' => 'qariyn',
+      'form' => 'qariyna',
+      'lines' => [
+        ';; qariyna_1',
+        'qryn    qariyna FW-Wa   in connection with;together with     [[qariyna/PREP]]',
+        'qryn    qariyna FW-Wa-a in connection with;together with     [[qariyna/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FaCIL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'in connection with',
+        'together with'
+      ],
+      'orig' => 'qariyna',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qariyn',
       'form' => 'qariynaT',
       'lines' => [
         ';; qariynap_1',
@@ -902,7 +923,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MuFACiL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -1524,7 +1545,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'IFtiCA\' |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -1674,7 +1695,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -1859,39 +1880,6 @@ $Lexicon = {
         'down-and-out'
       ],
       'orig' => 'maqohuwr',
-      'prefix' => ''
-    }
-  ],
-  'qabla' => [
-    {
-      'types' => {
-        'qabl' => {
-          'FW-Wa-o' => 1
-        },
-        'qabli' => {
-          'FW-Wa' => 1,
-          'FW-Wa-i' => 1
-        }
-      },
-      'entry' => 'qabla',
-      'form' => 'qabla',
-      'lines' => [
-        ';; qabola_1',
-        'qbl     qabola  FW-Wa   before     [[qabola/PREP]]',
-        'qbl     qaboli  FW-Wa   before     [[qaboli/PREP]]',
-        'qbl     qabola  FW-Wa-a before     [[qabola/PREP]]',
-        'qbl     qaboli  FW-Wa-i before     [[qaboli/PREP]]',
-        'qbl     qabol   FW-Wa-o before     [[qabol/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'before'
-      ],
-      'orig' => 'qabola',
       'prefix' => ''
     }
   ],
@@ -2207,29 +2195,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qariyna' => [
-    {
-      'types' => {},
-      'entry' => 'qariyna',
-      'form' => 'qariyna',
-      'lines' => [
-        ';; qariyna_1',
-        'qryn    qariyna FW-Wa   in connection with;together with     [[qariyna/PREP]]',
-        'qryn    qariyna FW-Wa-a in connection with;together with     [[qariyna/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'in connection with',
-        'together with'
-      ],
-      'orig' => 'qariyna',
-      'prefix' => ''
-    }
-  ],
   'q r f l' => [
     {
       'types' => {},
@@ -2337,27 +2302,6 @@ $Lexicon = {
         'Qalansua'
       ],
       'orig' => 'qalanosuwap',
-      'prefix' => ''
-    }
-  ],
-  'qubayla' => [
-    {
-      'types' => {},
-      'entry' => 'qubayla',
-      'form' => 'qubayla',
-      'lines' => [
-        ';; qubayola_1',
-        'qbyl    qubayola        N0_Nh   shortly before'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'shortly before'
-      ],
-      'orig' => 'qubayola',
       'prefix' => ''
     }
   ],
@@ -13424,28 +13368,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qaruwA.t' => [
-    {
-      'types' => {},
-      'entry' => 'qaruwA.t',
-      'form' => 'qaruwA.tiyy',
-      'lines' => [
-        ';; qaruwATiy~_1',
-        'qrwATy  qaruwATiy~      Nall    Croatian     [[qaruwATiy~/NOUN]]',
-        'qrwATy  qaruwATiy~      Nall    Croatian     [[qaruwATiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Croatian'
-      ],
-      'orig' => 'qaruwATiy~',
-      'prefix' => ''
-    }
-  ],
   'q b \'' => [
     {
       'types' => {},
@@ -13490,6 +13412,28 @@ $Lexicon = {
         'herpes'
       ],
       'orig' => 'quwbA\'',
+      'prefix' => ''
+    }
+  ],
+  'qaruwA.t' => [
+    {
+      'types' => {},
+      'entry' => 'qaruwA.t',
+      'form' => 'qaruwA.tiyy',
+      'lines' => [
+        ';; qaruwATiy~_1',
+        'qrwATy  qaruwATiy~      Nall    Croatian     [[qaruwATiy~/NOUN]]',
+        'qrwATy  qaruwATiy~      Nall    Croatian     [[qaruwATiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Croatian'
+      ],
+      'orig' => 'qaruwATiy~',
       'prefix' => ''
     }
   ],
@@ -14750,7 +14694,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCIL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -15789,7 +15733,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -16096,7 +16040,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -20355,6 +20299,78 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'q r q .d' => [
+    {
+      'types' => {
+        'qarqi.d' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => 'qarqa.d',
+      'form' => 'qarqa.d',
+      'lines' => [
+        ';; qaroqaD_1',
+        'qrqD    qaroqaD PV      gnaw;gnash',
+        'qrqD    qaroqiD IV_yu   gnaw;gnash'
+      ],
+      'patterns' => {
+        'qarqi.d' => [
+          'KaRDiS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'KaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'gnaw',
+        'gnash'
+      ],
+      'orig' => 'qaroqaD',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qarqa.d',
+      'form' => 'qarqa.daT',
+      'lines' => [
+        ';; qaroqaDap_1',
+        'qrqD    qaroqaD NapAt   gnawing;gnashing'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDaS |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'gnawing',
+        'gnashing'
+      ],
+      'orig' => 'qaroqaDap',
+      'prefix' => ''
+    }
+  ],
+  'qarAniyA' => [
+    {
+      'types' => {},
+      'entry' => 'qarAniyA',
+      'form' => 'qarAniyA',
+      'lines' => [
+        ';; qarAniyA_1',
+        'qrAnyA  qarAniyA        N0      dogwood'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'dogwood'
+      ],
+      'orig' => 'qarAniyA',
+      'prefix' => ''
+    }
+  ],
   'q z z' => [
     {
       'types' => {
@@ -20674,78 +20690,6 @@ $Lexicon = {
         'carbonated drink'
       ],
       'orig' => 'qAzuwzap',
-      'prefix' => ''
-    }
-  ],
-  'q r q .d' => [
-    {
-      'types' => {
-        'qarqi.d' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => 'qarqa.d',
-      'form' => 'qarqa.d',
-      'lines' => [
-        ';; qaroqaD_1',
-        'qrqD    qaroqaD PV      gnaw;gnash',
-        'qrqD    qaroqiD IV_yu   gnaw;gnash'
-      ],
-      'patterns' => {
-        'qarqi.d' => [
-          'KaRDiS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'KaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'gnaw',
-        'gnash'
-      ],
-      'orig' => 'qaroqaD',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'qarqa.d',
-      'form' => 'qarqa.daT',
-      'lines' => [
-        ';; qaroqaDap_1',
-        'qrqD    qaroqaD NapAt   gnawing;gnashing'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDaS |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'gnawing',
-        'gnashing'
-      ],
-      'orig' => 'qaroqaDap',
-      'prefix' => ''
-    }
-  ],
-  'qarAniyA' => [
-    {
-      'types' => {},
-      'entry' => 'qarAniyA',
-      'form' => 'qarAniyA',
-      'lines' => [
-        ';; qarAniyA_1',
-        'qrAnyA  qarAniyA        N0      dogwood'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'dogwood'
-      ],
-      'orig' => 'qarAniyA',
       'prefix' => ''
     }
   ],
@@ -21634,6 +21578,61 @@ $Lexicon = {
   ],
   'q b l' => [
     {
+      'types' => {
+        'qabl' => {
+          'FW-Wa-o' => 1
+        },
+        'qabli' => {
+          'FW-Wa' => 1,
+          'FW-Wa-i' => 1
+        }
+      },
+      'entry' => 'qabl',
+      'form' => 'qabla',
+      'lines' => [
+        ';; qabola_1',
+        'qbl     qabola  FW-Wa   before     [[qabola/PREP]]',
+        'qbl     qaboli  FW-Wa   before     [[qaboli/PREP]]',
+        'qbl     qabola  FW-Wa-a before     [[qabola/PREP]]',
+        'qbl     qaboli  FW-Wa-i before     [[qaboli/PREP]]',
+        'qbl     qabol   FW-Wa-o before     [[qabol/PREP]]'
+      ],
+      'patterns' => {
+        'qabl' => [
+          'FaCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'before'
+      ],
+      'orig' => 'qabola',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qabl',
+      'form' => 'qablu',
+      'lines' => [
+        ';; qabolu_1',
+        'qbl     qabolu  FW      before;prior     [[qabolu/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'FaCL |<< "u"',
+      'suffix' => ' |<< "u"',
+      'glosses' => [
+        'before',
+        'prior'
+      ],
+      'orig' => 'qabolu',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'qibal',
       'form' => 'qibal',
@@ -21896,7 +21895,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -21923,6 +21922,25 @@ $Lexicon = {
         'a priori'
       ],
       'orig' => 'qaboliy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qubayl',
+      'form' => 'qubayla',
+      'lines' => [
+        ';; qubayola_1',
+        'qbyl    qubayola        N0_Nh   shortly before'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCayL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'shortly before'
+      ],
+      'orig' => 'qubayola',
       'prefix' => ''
     },
     {
@@ -22128,7 +22146,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'FuCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
@@ -22626,7 +22644,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MustaFCaL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -24032,7 +24050,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [
@@ -25749,7 +25767,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FuCuL',
       'suffix' => '',
       'glosses' => [
@@ -25932,6 +25950,41 @@ $Lexicon = {
         'adzes'
       ],
       'orig' => 'qad~uwm',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'quddAmi' => {
+          'FW-Wa' => 1,
+          'FW-Wa-i' => 1
+        },
+        'quddAm' => {
+          'FW-Wa-o' => 1
+        }
+      },
+      'entry' => 'quddAm',
+      'form' => 'quddAma',
+      'lines' => [
+        ';; qud~Ama_1',
+        'qdAm    qud~Ama FW-Wa   in front of     [[qud~Ama/PREP]]',
+        'qdAm    qud~Ami FW-Wa   in front of     [[qud~Ami/PREP]]',
+        'qdAm    qud~Ama FW-Wa-a in front of     [[qud~Ama/PREP]]',
+        'qdAm    qud~Ami FW-Wa-i in front of     [[qud~Ami/PREP]]',
+        'qdAm    qud~Am  FW-Wa-o in front of     [[qud~Am/PREP]]'
+      ],
+      'patterns' => {
+        'quddAm' => [
+          'FuCCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FuCCAL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'in front of'
+      ],
+      'orig' => 'qud~Ama',
       'prefix' => ''
     },
     {
@@ -26471,7 +26524,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MuFaCCaL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -27194,7 +27247,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -30309,36 +30362,63 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'quddAma' => [
+  'q r d .h' => [
     {
       'types' => {
-        'quddAmi' => {
-          'FW-Wa' => 1,
-          'FW-Wa-i' => 1
-        },
-        'quddAm' => {
-          'FW-Wa-o' => 1
+        'qarAdi.h' => {
+          'Ndip' => 1
         }
       },
-      'entry' => 'quddAma',
-      'form' => 'quddAma',
+      'entry' => 'qurdu.h',
+      'form' => 'qurdu.h',
       'lines' => [
-        ';; qud~Ama_1',
-        'qdAm    qud~Ama FW-Wa   in front of     [[qud~Ama/PREP]]',
-        'qdAm    qud~Ami FW-Wa   in front of     [[qud~Ami/PREP]]',
-        'qdAm    qud~Ama FW-Wa-a in front of     [[qud~Ama/PREP]]',
-        'qdAm    qud~Ami FW-Wa-i in front of     [[qud~Ami/PREP]]',
-        'qdAm    qud~Am  FW-Wa-o in front of     [[qud~Am/PREP]]'
+        ';; quroduH_1',
+        'qrdH    quroduH Ndu     baboon',
+        'qrAdH   qarAdiH Ndip    baboons'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'qarAdi.h' => [
+          'KaRADiS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'KuRDuS',
       'suffix' => '',
       'glosses' => [
-        'in front of'
+        'baboon',
+        'baboons'
       ],
-      'orig' => 'qud~Ama',
+      'orig' => 'quroduH',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'qarAdiy.h' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'qurduw.h',
+      'form' => 'qurduw.h',
+      'lines' => [
+        ';; quroduwH_1',
+        'qrdwH   quroduwH        Ndu     baboon',
+        'qrAdyH  qarAdiyH        Ndip    baboons'
+      ],
+      'patterns' => {
+        'qarAdiy.h' => [
+          'KaRADIS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDUS',
+      'suffix' => '',
+      'glosses' => [
+        'baboon',
+        'baboons'
+      ],
+      'orig' => 'quroduwH',
       'prefix' => ''
     }
   ],
@@ -30669,66 +30749,6 @@ $Lexicon = {
       'suffix' => ' |<< "awIy"',
       'glosses' => [],
       'orig' => 'qarawiy~',
-      'prefix' => ''
-    }
-  ],
-  'q r d .h' => [
-    {
-      'types' => {
-        'qarAdi.h' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'qurdu.h',
-      'form' => 'qurdu.h',
-      'lines' => [
-        ';; quroduH_1',
-        'qrdH    quroduH Ndu     baboon',
-        'qrAdH   qarAdiH Ndip    baboons'
-      ],
-      'patterns' => {
-        'qarAdi.h' => [
-          'KaRADiS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDuS',
-      'suffix' => '',
-      'glosses' => [
-        'baboon',
-        'baboons'
-      ],
-      'orig' => 'quroduH',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'qarAdiy.h' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'qurduw.h',
-      'form' => 'qurduw.h',
-      'lines' => [
-        ';; quroduwH_1',
-        'qrdwH   quroduwH        Ndu     baboon',
-        'qrAdyH  qarAdiyH        Ndip    baboons'
-      ],
-      'patterns' => {
-        'qarAdiy.h' => [
-          'KaRADIS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDUS',
-      'suffix' => '',
-      'glosses' => [
-        'baboon',
-        'baboons'
-      ],
-      'orig' => 'quroduwH',
       'prefix' => ''
     }
   ],
@@ -32352,7 +32372,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -33640,7 +33660,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'FaC',
       'suffix' => '',
       'glosses' => [
@@ -33660,7 +33680,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'FaC',
       'suffix' => '',
       'glosses' => [
@@ -37260,7 +37280,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCaL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -38457,7 +38477,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'FaL',
       'suffix' => '',
       'glosses' => [],
@@ -38471,7 +38491,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'FaL',
       'suffix' => '',
       'glosses' => [],
@@ -39400,6 +39420,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'qaranq' => [
+    {
+      'types' => {},
+      'entry' => 'qaranq',
+      'form' => 'qaranq',
+      'lines' => [
+        ';; qaranoq_1',
+        'qrnq    qaranoq Nprop   Garang'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Garang'
+      ],
+      'orig' => 'qaranoq',
+      'prefix' => ''
+    }
+  ],
   'q l q l' => [
     {
       'types' => {
@@ -39539,27 +39580,6 @@ $Lexicon = {
         'unstable'
       ],
       'orig' => 'muqaloqal',
-      'prefix' => ''
-    }
-  ],
-  'qaranq' => [
-    {
-      'types' => {},
-      'entry' => 'qaranq',
-      'form' => 'qaranq',
-      'lines' => [
-        ';; qaranoq_1',
-        'qrnq    qaranoq Nprop   Garang'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Garang'
-      ],
-      'orig' => 'qaranoq',
       'prefix' => ''
     }
   ],
@@ -43714,7 +43734,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -43851,7 +43871,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FA\'iL',
       'suffix' => '',
       'glosses' => [],
@@ -44872,7 +44892,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -46060,29 +46080,6 @@ $Lexicon = {
         'Quweisma'
       ],
       'orig' => 'quwayosimap',
-      'prefix' => ''
-    }
-  ],
-  'qayda' => [
-    {
-      'types' => {},
-      'entry' => 'qayda',
-      'form' => 'qayda',
-      'lines' => [
-        ';; qayoda_1',
-        'qyd     qayoda  FW-Wa   in progress;currently being;under     [[qayoda/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'in progress',
-        'currently being',
-        'under'
-      ],
-      'orig' => 'qayoda',
       'prefix' => ''
     }
   ],
@@ -48282,7 +48279,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'IFtiCAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [],
@@ -49732,7 +49729,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -50554,28 +50551,6 @@ $Lexicon = {
         'kingfisher'
       ],
       'orig' => 'qiril~aY',
-      'prefix' => ''
-    }
-  ],
-  'qablu' => [
-    {
-      'types' => {},
-      'entry' => 'qablu',
-      'form' => 'qablu',
-      'lines' => [
-        ';; qabolu_1',
-        'qbl     qabolu  FW      before;prior     [[qabolu/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'before',
-        'prior'
-      ],
-      'orig' => 'qabolu',
       'prefix' => ''
     }
   ],
@@ -54156,45 +54131,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qurba' => [
-    {
-      'types' => {
-        'biqurbi' => {
-          'FW-Wa' => 1,
-          'FW-Wa-i' => 1
-        },
-        'qurb' => {
-          'FW-Wa-o' => 1
-        },
-        'qurbi' => {
-          'FW-Wa' => 1,
-          'FW-Wa-i' => 1
-        }
-      },
-      'entry' => 'qurba',
-      'form' => 'qurba',
-      'lines' => [
-        ';; quroba_1',
-        'qrb     quroba  FW-Wa   near     [[quroba/PREP]]',
-        'qrb     qurobi  FW-Wa   near     [[qurobi/PREP]]',
-        'bqrb    biqurobi        FW-Wa   near     [[biqurobi/PREP]]',
-        'qrb     quroba  FW-Wa-a near     [[quroba/PREP]]',
-        'qrb     qurobi  FW-Wa-i near     [[qurobi/PREP]]',
-        'bqrb    biqurobi        FW-Wa-i near     [[biqurobi/PREP]]',
-        'qrb     qurob   FW-Wa-o near     [[qurob/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'near'
-      ],
-      'orig' => 'quroba',
-      'prefix' => ''
-    }
-  ],
   'q .t m r' => [
     {
       'types' => {},
@@ -54410,6 +54346,27 @@ $Lexicon = {
         'be stipulated'
       ],
       'orig' => 'taqay~ad',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qayd',
+      'form' => 'qayda',
+      'lines' => [
+        ';; qayoda_1',
+        'qyd     qayoda  FW-Wa   in progress;currently being;under     [[qayoda/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'in progress',
+        'currently being',
+        'under'
+      ],
+      'orig' => 'qayoda',
       'prefix' => ''
     },
     {
@@ -56530,7 +56487,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'TaFCIL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -57519,6 +57476,47 @@ $Lexicon = {
   'q r b' => [
     {
       'types' => {
+        'biqurbi' => {
+          'FW-Wa' => 1,
+          'FW-Wa-i' => 1
+        },
+        'qurb' => {
+          'FW-Wa-o' => 1
+        },
+        'qurbi' => {
+          'FW-Wa' => 1,
+          'FW-Wa-i' => 1
+        }
+      },
+      'entry' => 'qurb',
+      'form' => 'qurba',
+      'lines' => [
+        ';; quroba_1',
+        'qrb     quroba  FW-Wa   near     [[quroba/PREP]]',
+        'qrb     qurobi  FW-Wa   near     [[qurobi/PREP]]',
+        'bqrb    biqurobi        FW-Wa   near     [[biqurobi/PREP]]',
+        'qrb     quroba  FW-Wa-a near     [[quroba/PREP]]',
+        'qrb     qurobi  FW-Wa-i near     [[qurobi/PREP]]',
+        'bqrb    biqurobi        FW-Wa-i near     [[biqurobi/PREP]]',
+        'qrb     qurob   FW-Wa-o near     [[qurob/PREP]]'
+      ],
+      'patterns' => {
+        'qurb' => [
+          'FuCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FuCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'near'
+      ],
+      'orig' => 'quroba',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'qrub' => {
           'IV' => 1
         }
@@ -57908,7 +57906,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCIL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -57936,7 +57934,7 @@ $Lexicon = {
         ]
       },
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCIL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -58234,7 +58232,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'TaFCIL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [

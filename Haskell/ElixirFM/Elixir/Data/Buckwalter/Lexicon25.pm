@@ -13274,7 +13274,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -25681,6 +25681,27 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => 'na.hw',
+      'form' => 'na.hwa',
+      'lines' => [
+        ';; naHowa_1',
+        'nHw     naHowa  FW-Wa   towards;approximately     [[naHowa/PREP]]',
+        'nHw     naHowa  FW-Wa-a towards;approximately     [[naHowa/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'towards',
+        'approximately'
+      ],
+      'orig' => 'naHowa',
+      'prefix' => ''
+    },
+    {
       'types' => {
         '\'an.hA\'' => {
           'Nh' => 2,
@@ -27108,6 +27129,26 @@ $Lexicon = {
         'memorials'
       ],
       'orig' => 'nuSob',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'nu.sb',
+      'form' => 'nu.sba',
+      'lines' => [
+        ';; nuSoba_1',
+        'nSb     nuSoba  FW-Wa   in front of     [[nuSoba/PREP]]',
+        'nSb     nuSoba  FW-Wa-a in front of     [[nuSoba/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FuCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'in front of'
+      ],
+      'orig' => 'nuSoba',
       'prefix' => ''
     },
     {
@@ -29167,7 +29208,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -32643,28 +32684,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'nu.sba' => [
-    {
-      'types' => {},
-      'entry' => 'nu.sba',
-      'form' => 'nu.sba',
-      'lines' => [
-        ';; nuSoba_1',
-        'nSb     nuSoba  FW-Wa   in front of     [[nuSoba/PREP]]',
-        'nSb     nuSoba  FW-Wa-a in front of     [[nuSoba/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'in front of'
-      ],
-      'orig' => 'nuSoba',
-      'prefix' => ''
-    }
-  ],
   'nAymiks' => [
     {
       'types' => {},
@@ -33293,7 +33312,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
@@ -34622,27 +34641,6 @@ $Lexicon = {
         'experience'
       ],
       'orig' => 'niHoriyr',
-      'prefix' => ''
-    }
-  ],
-  'na.hnu' => [
-    {
-      'types' => {},
-      'entry' => 'na.hnu',
-      'form' => 'na.hnu',
-      'lines' => [
-        ';; naHonu_1',
-        'nHn     naHonu  FW-Wa   we   [[naHonu/PRON_1P]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'we'
-      ],
-      'orig' => 'naHonu',
       'prefix' => ''
     }
   ],
@@ -40351,6 +40349,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'n .h n' => [
+    {
+      'types' => {},
+      'entry' => 'na.hn',
+      'form' => 'na.hnu',
+      'lines' => [
+        ';; naHonu_1',
+        'nHn     naHonu  FW-Wa   we   [[naHonu/PRON_1P]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'pron',
+      'morphs' => 'FaCL |<< "u"',
+      'suffix' => ' |<< "u"',
+      'glosses' => [
+        'we'
+      ],
+      'orig' => 'naHonu',
+      'prefix' => ''
+    }
+  ],
   'n .g .s' => [
     {
       'types' => {
@@ -41159,7 +41178,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCaL',
       'suffix' => '',
       'glosses' => [
@@ -42995,6 +43014,191 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'n t `' => [
+    {
+      'types' => {
+        'ntu`' => {
+          'IV' => 1
+        },
+        'nti`' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'nata`',
+      'form' => 'nata`',
+      'lines' => [
+        ';; nataE-ui_1',
+        'ntE     nataE   PV      trickle out;bubble up',
+        'ntE     notuE   IV      trickle out;bubble up',
+        'ntE     notiE   IV      trickle out;bubble up'
+      ],
+      'patterns' => {
+        'ntu`' => [
+          'FCuL'
+        ],
+        'nti`' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'trickle out',
+        'bubble up'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL',
+        'FCiL'
+      ],
+      'orig' => 'nataE-ui',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'nutuw`',
+      'form' => 'nutuw`',
+      'lines' => [
+        ';; nutuwE_1',
+        'ntwE    nutuwE  N       trickling out;bubbling up'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCUL',
+      'suffix' => '',
+      'glosses' => [
+        'trickling out',
+        'bubbling up'
+      ],
+      'orig' => 'nutuwE',
+      'prefix' => ''
+    }
+  ],
+  'n ` t' => [
+    {
+      'types' => {
+        'n`at' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'na`at',
+      'form' => 'na`at',
+      'lines' => [
+        ';; naEat-a_1',
+        'nEt     naEat   PV-t    describe;characterize',
+        'nEt     noEat   IV      describe;characterize'
+      ],
+      'patterns' => {
+        'n`at' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'describe',
+        'characterize'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'naEat-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'na`t',
+      'form' => 'na`t',
+      'lines' => [
+        ';; naEot_1',
+        'nEt     naEot   N       description;characterization'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'description',
+        'characterization'
+      ],
+      'orig' => 'naEot',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'nu`uwt' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'na`t',
+      'form' => 'na`t',
+      'lines' => [
+        ';; naEot_2',
+        'nEt     naEot   Ndu     characteristic;feature',
+        'nEwt    nuEuwt  N       characteristics;features'
+      ],
+      'patterns' => {
+        'nu`uwt' => [
+          'FuCUL'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'characteristic',
+        'feature',
+        'characteristics',
+        'features'
+      ],
+      'orig' => 'naEot',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'na`t',
+      'form' => 'na`tiyy',
+      'lines' => [
+        ';; naEotiy~_1',
+        'nEty    naEotiy~        N-ap    descriptive     [[naEotiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'descriptive'
+      ],
+      'orig' => 'naEotiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'man`uwt',
+      'form' => 'man`uwt',
+      'lines' => [
+        ';; manoEuwt_1',
+        'mnEwt   manoEuwt        N-ap    described     [[manoEuwt/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MaFCUL',
+      'suffix' => '',
+      'glosses' => [
+        'described'
+      ],
+      'orig' => 'manoEuwt',
+      'prefix' => ''
+    }
+  ],
   'n .g w' => [
     {
       'types' => {
@@ -43184,191 +43388,6 @@ $Lexicon = {
         'speaking'
       ],
       'orig' => 'nagow',
-      'prefix' => ''
-    }
-  ],
-  'n t `' => [
-    {
-      'types' => {
-        'ntu`' => {
-          'IV' => 1
-        },
-        'nti`' => {
-          'IV' => 1
-        }
-      },
-      'entry' => 'nata`',
-      'form' => 'nata`',
-      'lines' => [
-        ';; nataE-ui_1',
-        'ntE     nataE   PV      trickle out;bubble up',
-        'ntE     notuE   IV      trickle out;bubble up',
-        'ntE     notiE   IV      trickle out;bubble up'
-      ],
-      'patterns' => {
-        'ntu`' => [
-          'FCuL'
-        ],
-        'nti`' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'trickle out',
-        'bubble up'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL',
-        'FCiL'
-      ],
-      'orig' => 'nataE-ui',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'nutuw`',
-      'form' => 'nutuw`',
-      'lines' => [
-        ';; nutuwE_1',
-        'ntwE    nutuwE  N       trickling out;bubbling up'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCUL',
-      'suffix' => '',
-      'glosses' => [
-        'trickling out',
-        'bubbling up'
-      ],
-      'orig' => 'nutuwE',
-      'prefix' => ''
-    }
-  ],
-  'n ` t' => [
-    {
-      'types' => {
-        'n`at' => {
-          'IV' => 1
-        }
-      },
-      'entry' => 'na`at',
-      'form' => 'na`at',
-      'lines' => [
-        ';; naEat-a_1',
-        'nEt     naEat   PV-t    describe;characterize',
-        'nEt     noEat   IV      describe;characterize'
-      ],
-      'patterns' => {
-        'n`at' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'describe',
-        'characterize'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'naEat-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'na`t',
-      'form' => 'na`t',
-      'lines' => [
-        ';; naEot_1',
-        'nEt     naEot   N       description;characterization'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'description',
-        'characterization'
-      ],
-      'orig' => 'naEot',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'nu`uwt' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'na`t',
-      'form' => 'na`t',
-      'lines' => [
-        ';; naEot_2',
-        'nEt     naEot   Ndu     characteristic;feature',
-        'nEwt    nuEuwt  N       characteristics;features'
-      ],
-      'patterns' => {
-        'nu`uwt' => [
-          'FuCUL'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'characteristic',
-        'feature',
-        'characteristics',
-        'features'
-      ],
-      'orig' => 'naEot',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'na`t',
-      'form' => 'na`tiyy',
-      'lines' => [
-        ';; naEotiy~_1',
-        'nEty    naEotiy~        N-ap    descriptive     [[naEotiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'descriptive'
-      ],
-      'orig' => 'naEotiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'man`uwt',
-      'form' => 'man`uwt',
-      'lines' => [
-        ';; manoEuwt_1',
-        'mnEwt   manoEuwt        N-ap    described     [[manoEuwt/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MaFCUL',
-      'suffix' => '',
-      'glosses' => [
-        'described'
-      ],
-      'orig' => 'manoEuwt',
       'prefix' => ''
     }
   ],
@@ -46690,7 +46709,7 @@ $Lexicon = {
         ]
       },
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -50625,7 +50644,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCAL',
       'suffix' => '',
       'glosses' => [
@@ -57797,7 +57816,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -63217,29 +63236,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'na.hwa' => [
-    {
-      'types' => {},
-      'entry' => 'na.hwa',
-      'form' => 'na.hwa',
-      'lines' => [
-        ';; naHowa_1',
-        'nHw     naHowa  FW-Wa   towards;approximately     [[naHowa/PREP]]',
-        'nHw     naHowa  FW-Wa-a towards;approximately     [[naHowa/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'towards',
-        'approximately'
-      ],
-      'orig' => 'naHowa',
-      'prefix' => ''
-    }
-  ],
   'n f .h' => [
     {
       'types' => {
@@ -66532,7 +66528,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
@@ -72036,9 +72032,9 @@ $Lexicon->{'n ^s \''}[21]{'glosses'} = $Lexicon->{'n ^s y'}[6]{'glosses'};
 $Lexicon->{'n ^s \''}[22]{'types'} = $Lexicon->{'n ^s y'}[9]{'types'};
 $Lexicon->{'n ^s \''}[22]{'lines'} = $Lexicon->{'n ^s y'}[9]{'lines'};
 $Lexicon->{'n ^s \''}[22]{'glosses'} = $Lexicon->{'n ^s y'}[9]{'glosses'};
-$Lexicon->{'n .h .h'}[2]{'types'} = $Lexicon->{'n .h w'}[8]{'types'};
-$Lexicon->{'n .h .h'}[2]{'lines'} = $Lexicon->{'n .h w'}[8]{'lines'};
-$Lexicon->{'n .h .h'}[2]{'glosses'} = $Lexicon->{'n .h w'}[8]{'glosses'};
+$Lexicon->{'n .h .h'}[2]{'types'} = $Lexicon->{'n .h w'}[9]{'types'};
+$Lexicon->{'n .h .h'}[2]{'lines'} = $Lexicon->{'n .h w'}[9]{'lines'};
+$Lexicon->{'n .h .h'}[2]{'glosses'} = $Lexicon->{'n .h w'}[9]{'glosses'};
 $Lexicon->{'n w b'}[13]{'types'} = $Lexicon->{'n \' b'}[0]{'types'};
 $Lexicon->{'n w b'}[13]{'lines'} = $Lexicon->{'n \' b'}[0]{'lines'};
 $Lexicon->{'n w b'}[13]{'glosses'} = $Lexicon->{'n \' b'}[0]{'glosses'};
@@ -72115,15 +72111,15 @@ $Lexicon->{'n s n'}[0]{'glosses'} = $Lexicon->{'n y s n'}[0]{'glosses'};
 $Lexicon->{'n s n'}[1]{'types'} = $Lexicon->{'n y s n'}[1]{'types'};
 $Lexicon->{'n s n'}[1]{'lines'} = $Lexicon->{'n y s n'}[1]{'lines'};
 $Lexicon->{'n s n'}[1]{'glosses'} = $Lexicon->{'n y s n'}[1]{'glosses'};
-$Lexicon->{'n .h y'}[0]{'types'} = $Lexicon->{'n .h w'}[10]{'types'};
-$Lexicon->{'n .h y'}[0]{'lines'} = $Lexicon->{'n .h w'}[10]{'lines'};
-$Lexicon->{'n .h y'}[0]{'glosses'} = $Lexicon->{'n .h w'}[10]{'glosses'};
-$Lexicon->{'n .h y'}[1]{'types'} = $Lexicon->{'n .h w'}[11]{'types'};
-$Lexicon->{'n .h y'}[1]{'lines'} = $Lexicon->{'n .h w'}[11]{'lines'};
-$Lexicon->{'n .h y'}[1]{'glosses'} = $Lexicon->{'n .h w'}[11]{'glosses'};
-$Lexicon->{'n .h y'}[2]{'types'} = $Lexicon->{'n .h w'}[12]{'types'};
-$Lexicon->{'n .h y'}[2]{'lines'} = $Lexicon->{'n .h w'}[12]{'lines'};
-$Lexicon->{'n .h y'}[2]{'glosses'} = $Lexicon->{'n .h w'}[12]{'glosses'};
+$Lexicon->{'n .h y'}[0]{'types'} = $Lexicon->{'n .h w'}[11]{'types'};
+$Lexicon->{'n .h y'}[0]{'lines'} = $Lexicon->{'n .h w'}[11]{'lines'};
+$Lexicon->{'n .h y'}[0]{'glosses'} = $Lexicon->{'n .h w'}[11]{'glosses'};
+$Lexicon->{'n .h y'}[1]{'types'} = $Lexicon->{'n .h w'}[12]{'types'};
+$Lexicon->{'n .h y'}[1]{'lines'} = $Lexicon->{'n .h w'}[12]{'lines'};
+$Lexicon->{'n .h y'}[1]{'glosses'} = $Lexicon->{'n .h w'}[12]{'glosses'};
+$Lexicon->{'n .h y'}[2]{'types'} = $Lexicon->{'n .h w'}[13]{'types'};
+$Lexicon->{'n .h y'}[2]{'lines'} = $Lexicon->{'n .h w'}[13]{'lines'};
+$Lexicon->{'n .h y'}[2]{'glosses'} = $Lexicon->{'n .h w'}[13]{'glosses'};
 $Lexicon->{'n y f'}[4]{'types'} = $Lexicon->{'n w f'}[8]{'types'};
 $Lexicon->{'n y f'}[4]{'lines'} = $Lexicon->{'n w f'}[8]{'lines'};
 $Lexicon->{'n y f'}[4]{'glosses'} = $Lexicon->{'n w f'}[8]{'glosses'};

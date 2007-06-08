@@ -51,7 +51,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "^s ' n" <| [
 
-    FaCL                      `noun`    {- \$aOon -}           [ "matter", "affair", "affairs", "matters", "concerning", "regarding" ]
+    FaCL                      `prep`    {- \$aOon -}           [ "matter", "affair", "affairs", "matters", "concerning", "regarding" ]
                               `plural`     FuCUL
                            {- `others`  [ "^su'uwn N" ] -},
 
@@ -293,7 +293,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- \$axoSiy~ -}        [ "private", "personal" ],
 
-    FaCL |< Iy |< aN          `adj`     {- \$axoSiy~AF -}      [ "in person", "personally" ],
+    FaCL |< Iy |< aN          `adv`     {- \$axoSiy~AF -}      [ "in person", "personally" ],
 
     FaCL |< Iy |< aT          `noun`    {- \$axoSiy~ap -}      [ "identity", "person", "personality" ],
 
@@ -1378,11 +1378,11 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `verb`    {- Oa$oraq -}          [ "rise", "shine", "be risen", "be shone" ],
 
-    FaCL                      `noun`    {- \$aroq -}           [ "east (of)" ],
+    FaCL                      `prep`    {- \$aroq -}           [ "east (of)" ],
 
     FaCL                      `noun`    {- \$aroq -}           [ "East" ],
 
-    FaCL |< Iy                `adj`     {- \$aroqiy~ -}        [ "Eastern", "Oriental", "east (of)" ],
+    FaCL |< Iy                `prep`    {- \$aroqiy~ -}        [ "Eastern", "Oriental", "east (of)" ],
 
     FaCLA' |< Iy              `adj`     {- \$aroqAwiy~ -}      [ "Sharqawi" ],
 

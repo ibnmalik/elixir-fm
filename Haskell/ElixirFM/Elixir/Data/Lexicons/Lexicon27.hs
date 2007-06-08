@@ -13,9 +13,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< At            `noun`    {- miyqAt -}           [ "appointed time", "meeting point", "timetables", "rendezvous points and times" ] ]
 
- |> "tu^gAha" <| [
+ |> "tu^gAh" <| [
 
-    Identity                  `noun`    {- tujAha -}           [ "towards", "facing" ] ]
+    Identity |<< "a"          `prep`    {- tujAha -}           [ "towards", "facing" ] ]
 
  |> "tuhm" <| [
 
@@ -153,7 +153,7 @@ lexicon = listing "Lexicon's properties"
 
     CiL |< aT                 `noun`    {- Hidap -}            [ "separately", "individually" ],
 
-    FaCL                      `noun`    {- waHod -}            [ "alone", "only" ],
+    FaCL                      `adv`     {- waHod -}            [ "alone", "only" ],
 
     FaCL |< aT                `noun`    {- waHodap -}          [ "unity" ],
 
@@ -443,7 +443,7 @@ lexicon = listing "Lexicon's properties"
 
     HICAL                     `noun`    {- IiyjAb -}           [ "affirmative", "obligation", "compliance" ],
 
-    HICAL |< aN               `noun`    {- IiyjAbAF -}         [ "in accordance with" ]
+    HICAL |< aN               `adv`     {- IiyjAbAF -}         [ "in accordance with" ]
                               `plural`     HICAL
                            {- `others`  [ "'iy^gAb NF" ] -},
 
@@ -748,7 +748,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- wadAE -}            [ "departure", "farewell" ],
 
-    FaCAL |< aN               `noun`    {- wadAEAF -}          [ "farewell!", "good-bye!" ]
+    FaCAL |< aN               `adv`     {- wadAEAF -}          [ "farewell!", "good-bye!" ]
                               `plural`     FaCAL
                            {- `others`  [ "wadA` NF" ] -},
 
@@ -850,6 +850,10 @@ lexicon = listing "Lexicon's properties"
     TaFACaL                   `verb`    {- tawAfaq -}          [ "agree", "concur" ],
 
     IFtaCaL                   `verb`    {- Ait~afaq -}         [ "agree", "be agreed" ],
+
+    FiCL |<< "a"              `adv`     {- wifoqa -}           [ "according to", "in accordance with", "pursuant to" ]
+                              `plural`     FiCL
+                           {- `others`  [ "wifq NF" ] -},
 
     TaFCIL                    `noun`    {- tawofiyq -}         [ "success", "successful outcome", "conformation" ]
                               `plural`     TaFCIL |< At,
@@ -1363,7 +1367,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "w q t" <| [
 
-    FaCL                      `noun`    {- waqot -}            [ "time", "moment", "period of time", "at that time", "whenever", "moments", "times" ]
+    FaCL                      `conj`    {- waqot -}            [ "time", "moment", "period of time", "at that time", "whenever", "moments", "times" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'awqAt N" ] -},
 
@@ -1393,6 +1397,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FACI |< At ]
 
  |> "w r '" <| [
+
+    FaCAL |<< "a"             `prep`    {- warA'a -}           [ "behind", "past", "beyond" ]
+                              `plural`     FaCAL
+                              `plural`     FaCA'
+                           {- `others`  [ "warA' FW-Wa-o" ] -},
 
     FaCAL                     `noun`    {- warA' -}            [ "behind", "past", "beyond" ] ]
 
@@ -1517,6 +1526,10 @@ lexicon = listing "Lexicon's properties"
 
  |> "w r y" <| [
 
+    FaCA' |<< "a"             `prep`    {- warA'a -}           [ "behind", "past", "beyond" ]
+                              `plural`     FaCA'
+                           {- `others`  [ "warA' FW-Wa-o" ] -},
+
     FaCA'                     `noun`    {- warA' -}            [ "behind", "past", "beyond" ] ]
 
  |> "w s .t" <| [
@@ -1524,6 +1537,11 @@ lexicon = listing "Lexicon's properties"
     FaCCaL                    `verb`    {- was~aT -}           [ "set in the middle", "appoint as mediator" ],
 
     TaFaCCaL                  `verb`    {- tawas~aT -}         [ "mediate", "be in the middle" ],
+
+    FaCL |<< "a"              `prep`    {- wasoTa -}           [ "middle", "midst", "among" ]
+                              `plural`     FaCL
+                              `plural`     FtaCL
+                           {- `others`  [ "was.t FW-Wa-o" ] -},
 
     FaCL                      `noun`    {- wasoT -}            [ "middle", "center", "environment", "circles", "quarters", "environments" ]
                               `plural`     HaFCAL
@@ -1792,18 +1810,6 @@ lexicon = listing "Lexicon's properties"
  |> "wArsuw" <| [
 
     Identity                  `noun`    {- wArosuw -}          [ "Warsaw" ] ]
-
- |> "warA'a" <| [
-
-    Identity                  `noun`    {- warA'a -}           [ "behind", "past", "beyond" ] ]
-
- |> "was.ta" <| [
-
-    Identity                  `noun`    {- wasoTa -}           [ "middle", "midst", "among" ] ]
-
- |> "wifqa" <| [
-
-    Identity                  `noun`    {- wifoqa -}           [ "according to", "in accordance with", "pursuant to" ] ]
 
  |> "wiylkinz" <| [
 

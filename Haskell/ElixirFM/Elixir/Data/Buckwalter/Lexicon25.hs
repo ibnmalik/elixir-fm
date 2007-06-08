@@ -386,7 +386,7 @@ lexicon = listing "Lexicon's properties"
     -- nD      naD~    N       hard cash
     -- nD      naD~    NF      in cash     [[naD~/ADV]]
 
-    FaCL                      `noun`    {- naD~ -}             [ "hard cash", "in cash" ] ]
+    FaCL                      `adv`     {- naD~ -}             [ "hard cash", "in cash" ] ]
 
  |> "n .d .h" <| [
 
@@ -1321,6 +1321,13 @@ lexicon = listing "Lexicon's properties"
 
     FuCAL                     `noun`    {- nuHAm -}            [ "flamingo" ] ]
 
+ |> "n .h n" <| [
+
+    -- ;; naHonu_1
+    -- nHn     naHonu  FW-Wa   we   [[naHonu/PRON_1P]]
+
+    FaCL |<< "u"              `pron`    {- naHonu -}           [ "we" ] ]
+
  |> "n .h n .h" <| [
 
     -- ;; naHonaH_1
@@ -1621,6 +1628,12 @@ lexicon = listing "Lexicon's properties"
     -- ntHY    notaHaY IV_0    head for;move towards;withdraw to
 
     IFtaCY                    `verb`    {- AinotaHaY -}        [ "head for", "move towards", "withdraw to" ],
+
+    -- ;; naHowa_1
+    -- nHw     naHowa  FW-Wa   towards;approximately     [[naHowa/PREP]]
+    -- nHw     naHowa  FW-Wa-a towards;approximately     [[naHowa/PREP]]
+
+    FaCL |<< "a"              `prep`    {- naHowa -}           [ "towards", "approximately" ],
 
     -- ;; naHow_1
     -- nHw     naHow   N       manner;method
@@ -1947,6 +1960,12 @@ lexicon = listing "Lexicon's properties"
     FuCL                      `noun`    {- nuSob -}            [ "monument", "memorial", "monuments", "memorials" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'an.sAb N" ] -},
+
+    -- ;; nuSoba_1
+    -- nSb     nuSoba  FW-Wa   in front of     [[nuSoba/PREP]]
+    -- nSb     nuSoba  FW-Wa-a in front of     [[nuSoba/PREP]]
+
+    FuCL |<< "a"              `prep`    {- nuSoba -}           [ "in front of" ],
 
     -- ;; naSab_1
     -- nSb     naSab   N       exertion;hard work
@@ -3913,7 +3932,7 @@ lexicon = listing "Lexicon's properties"
     -- njwm    nujuwm  N       installments;partial payments
     -- njwm    nujuwm  NF      in installments     [[nujuwm/ADV]]
 
-    FaCL                      `noun`    {- najom -}            [ "installment", "partial payment", "installments", "partial payments", "in installments" ]
+    FaCL                      `adv`     {- najom -}            [ "installment", "partial payment", "installments", "partial payments", "in installments" ]
                               `plural`     FuCUL
                            {- `others`  [ "nu^guwm N NF" ] -},
 
@@ -8356,7 +8375,7 @@ lexicon = listing "Lexicon's properties"
     -- ndr     nudor   Nap     rarity
     -- ndrp    nadorapF        FW-Wa   rarely;seldom    [[nadorapF/ADV]]
 
-    FaCL |< aT                `noun`    {- nadorap -}          [ "rarity", "rarely", "seldom" ]
+    FaCL |< aT                `adv`     {- nadorap -}          [ "rarity", "rarely", "seldom" ]
                               `plural`     FuCL |< aT,
 
     -- ;; >anodar_1
@@ -10420,7 +10439,7 @@ lexicon = listing "Lexicon's properties"
     -- nhb     nahob   N       looting;plundering
     -- nhb     nahob   NF      by robbery or looting     [[nahob/ADV]]
 
-    FaCL                      `noun`    {- nahob -}            [ "looting", "plundering", "by robbery or looting" ],
+    FaCL                      `adv`     {- nahob -}            [ "looting", "plundering", "by robbery or looting" ],
 
     -- ;; nuhobap_1
     -- nhb     nuhob   Nap     prey;loot
@@ -10712,7 +10731,7 @@ lexicon = listing "Lexicon's properties"
     -- Anhr    >anohur N       daytime
     -- nhr     nuhur   N       daytime
 
-    FaCAL                     `noun`    {- nahAr -}            [ "daytime", "day", "by day" ]
+    FaCAL                     `adv`     {- nahAr -}            [ "daytime", "day", "by day" ]
                               `plural`     FuCuL
                            {- `others`  [ "nuhur N" ] -},
 
@@ -10964,7 +10983,7 @@ lexicon = listing "Lexicon's properties"
     -- nhAy    nihAy   NapAt   end;termination
     -- nhAyp   nihAyapF        FW-Wa   ultimately;finally    [[nihAyapF/ADV]]
 
-    FiCAL |< aT               `noun`    {- nihAyap -}          [ "end", "termination", "ultimately", "finally" ],
+    FiCAL |< aT               `adv`     {- nihAyap -}          [ "end", "termination", "ultimately", "finally" ],
 
     -- ;; nAhiy_1
     -- nAhy    nAhiy   N0F     prohibitive;interdictory     [[nAhiy/ADJ]]
@@ -14985,7 +15004,7 @@ lexicon = listing "Lexicon's properties"
     -- nsq     nasaq   Ndu     order;arrangement;symmetry
     -- nsq     nasaq   NF      in rows;in regular order     [[nasaq/ADV]]
 
-    FaCaL                     `noun`    {- nasaq -}            [ "order", "arrangement", "symmetry", "in rows", "in regular order" ],
+    FaCaL                     `adv`     {- nasaq -}            [ "order", "arrangement", "symmetry", "in rows", "in regular order" ],
 
     -- ;; nasiyq_1
     -- nsyq    nasiyq  N-ap    regular;even;uniform     [[nasiyq/ADJ]]
@@ -18224,7 +18243,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; nAhiyk_1
     -- nAhyk   nAhiyk  FW-Wa   not to mention     [[nAhiyk/FUNC_WORD]]
 
-    Identity                  `noun`    {- nAhiyk -}           [ "not to mention" ] ]
+    Identity                  `part`    {- nAhiyk -}           [ "not to mention" ] ]
 
  |> "nAmiyb" <| [
 
@@ -18354,21 +18373,6 @@ lexicon = listing "Lexicon's properties"
     -- nAymks  nAyomikos       N0      NYMEX (New York Mercantile Exchange)
 
     Identity                  `noun`    {- nAyomikos -}        [ "NYMEX (New York Mercantile Exchange)" ] ]
-
- |> "na.hnu" <| [
-
-    -- ;; naHonu_1
-    -- nHn     naHonu  FW-Wa   we   [[naHonu/PRON_1P]]
-
-    Identity                  `noun`    {- naHonu -}           [ "we" ] ]
-
- |> "na.hwa" <| [
-
-    -- ;; naHowa_1
-    -- nHw     naHowa  FW-Wa   towards;approximately     [[naHowa/PREP]]
-    -- nHw     naHowa  FW-Wa-a towards;approximately     [[naHowa/PREP]]
-
-    Identity                  `noun`    {- naHowa -}           [ "towards", "approximately" ] ]
 
  |> "na.siybiyn" <| [
 
@@ -18671,14 +18675,6 @@ lexicon = listing "Lexicon's properties"
     -- nywzwyk niyuwzwiyk      Nprop   Newsweek
 
     Identity                  `noun`    {- niyuwzwiyk -}       [ "Newsweek" ] ]
-
- |> "nu.sba" <| [
-
-    -- ;; nuSoba_1
-    -- nSb     nuSoba  FW-Wa   in front of     [[nuSoba/PREP]]
-    -- nSb     nuSoba  FW-Wa-a in front of     [[nuSoba/PREP]]
-
-    Identity                  `noun`    {- nuSoba -}           [ "in front of" ] ]
 
  |> "nu^sAdir" <| [
 

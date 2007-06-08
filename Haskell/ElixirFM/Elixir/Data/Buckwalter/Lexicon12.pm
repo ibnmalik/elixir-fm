@@ -4259,7 +4259,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCIL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -4299,7 +4299,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCAL',
       'suffix' => '',
       'glosses' => [
@@ -7337,7 +7337,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -22531,7 +22531,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCaL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -22821,7 +22821,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FACiL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -25258,7 +25258,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -27572,7 +27572,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'IFtiCAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -29192,7 +29192,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -30223,28 +30223,6 @@ $Lexicon = {
         'worshiping'
       ],
       'orig' => 'sAjid',
-      'prefix' => ''
-    }
-  ],
-  'sawfa' => [
-    {
-      'types' => {},
-      'entry' => 'sawfa',
-      'form' => 'sawfa',
-      'lines' => [
-        ';; sawofa_1',
-        'swf     sawofa  FW-Wa   will;shall      [[sawofa/FUT_PART]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'will',
-        'shall'
-      ],
-      'orig' => 'sawofa',
       'prefix' => ''
     }
   ],
@@ -37133,7 +37111,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FACiL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -37252,7 +37230,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MuFCaL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -39091,7 +39069,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -40939,6 +40917,26 @@ $Lexicon = {
   ],
   's w f' => [
     {
+      'types' => {},
+      'entry' => 'sawf',
+      'form' => 'sawfa',
+      'lines' => [
+        ';; sawofa_1',
+        'swf     sawofa  FW-Wa   will;shall      [[sawofa/FUT_PART]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'part',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'will',
+        'shall'
+      ],
+      'orig' => 'sawofa',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'sawwif' => {
           'IV_yu' => 1
@@ -42069,7 +42067,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MuFACaL |< aT |< aN',
       'suffix' => ' |< aT |< aN',
       'glosses' => [
@@ -42578,28 +42576,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'suwiysr' => [
-    {
-      'types' => {},
-      'entry' => 'suwiysr',
-      'form' => 'suwiysriyy',
-      'lines' => [
-        ';; suwiysriy~_1',
-        'swysry  suwiysriy~      Nall    Swiss     [[suwiysriy~/NOUN]]',
-        'swysry  suwiysriy~      Nall    Swiss     [[suwiysriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Swiss'
-      ],
-      'orig' => 'suwiysriy~',
-      'prefix' => ''
-    }
-  ],
   's ^g w' => [
     {
       'types' => {
@@ -42779,6 +42755,28 @@ $Lexicon = {
         'laid out'
       ],
       'orig' => 'musaj~aY',
+      'prefix' => ''
+    }
+  ],
+  'suwiysr' => [
+    {
+      'types' => {},
+      'entry' => 'suwiysr',
+      'form' => 'suwiysriyy',
+      'lines' => [
+        ';; suwiysriy~_1',
+        'swysry  suwiysriy~      Nall    Swiss     [[suwiysriy~/NOUN]]',
+        'swysry  suwiysriy~      Nall    Swiss     [[suwiysriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Swiss'
+      ],
+      'orig' => 'suwiysriy~',
       'prefix' => ''
     }
   ],
@@ -46319,7 +46317,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'FaCaL',
       'suffix' => '',
       'glosses' => [
@@ -48528,7 +48526,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -54435,7 +54433,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'FiCY',
       'suffix' => '',
       'glosses' => [
@@ -54551,7 +54549,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCIL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [

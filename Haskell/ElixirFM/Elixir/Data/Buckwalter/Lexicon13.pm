@@ -2435,7 +2435,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< Iy |< aN',
       'suffix' => ' |< Iy |< aN',
       'glosses' => [
@@ -10379,7 +10379,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -10425,7 +10425,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -10446,7 +10446,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'prep',
       'morphs' => 'FaCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -15123,7 +15123,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< Iy |< aN',
       'suffix' => ' |< Iy |< aN',
       'glosses' => [
@@ -18456,7 +18456,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -21445,7 +21445,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -21506,7 +21506,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MuFACaL |< aT |< aN',
       'suffix' => ' |< aT |< aN',
       'glosses' => [
@@ -22701,27 +22701,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^sluwmuw' => [
-    {
-      'types' => {},
-      'entry' => '^sluwmuw',
-      'form' => '^sluwmuw',
-      'lines' => [
-        ';; $luwmuw_1',
-        '$lwmw   $luwmuw Nprop   Shlomo'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Shlomo'
-      ],
-      'orig' => '$luwmuw',
-      'prefix' => ''
-    }
-  ],
   '^stAyn' => [
     {
       'types' => {},
@@ -22767,6 +22746,27 @@ $Lexicon = {
         'stretching the neck'
       ],
       'orig' => 'Ai$ori}obAb',
+      'prefix' => ''
+    }
+  ],
+  '^sluwmuw' => [
+    {
+      'types' => {},
+      'entry' => '^sluwmuw',
+      'form' => '^sluwmuw',
+      'lines' => [
+        ';; $luwmuw_1',
+        '$lwmw   $luwmuw Nprop   Shlomo'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Shlomo'
+      ],
+      'orig' => '$luwmuw',
       'prefix' => ''
     }
   ],
@@ -23549,6 +23549,26 @@ $Lexicon = {
         'portions'
       ],
       'orig' => '$aTor',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '^sa.tr',
+      'form' => '^sa.tra',
+      'lines' => [
+        ';; $aTora_1',
+        '$Tr     $aTora  FW-Wa   towards     [[$aTora/PREP]]',
+        '$Tr     $aTora  FW-Wa-a towards     [[$aTora/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'towards'
+      ],
+      'orig' => '$aTora',
       'prefix' => ''
     },
     {
@@ -24341,7 +24361,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FuCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -30983,7 +31003,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -41488,28 +41508,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^sa.tra' => [
-    {
-      'types' => {},
-      'entry' => '^sa.tra',
-      'form' => '^sa.tra',
-      'lines' => [
-        ';; $aTora_1',
-        '$Tr     $aTora  FW-Wa   towards     [[$aTora/PREP]]',
-        '$Tr     $aTora  FW-Wa-a towards     [[$aTora/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'towards'
-      ],
-      'orig' => '$aTora',
-      'prefix' => ''
-    }
-  ],
   '^s q .h' => [
     {
       'types' => {
@@ -43891,7 +43889,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MuFACaL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [

@@ -9,13 +9,13 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "mAzAla" <| [
+ |> "mAzAl" <| [
 
-    Identity                  `noun`    {- mAzAla -}           [ "not + stop/cease + he/it (he/it continues)", "not + stop/cease + they (they both continue)", "not + stop/cease + they (they continue)", "not + stop/cease + it/she/they (it/she/they continue(s))", "not + stop/cease + you (you continue)", "not + stop/cease + you (you both continue)", "not + stop/cease + I (I continue)", "not + stop/cease + we (we continue)" ] ]
+    Identity |<< "a"          `part`    {- mAzAla -}           [ "not + stop/cease + he/it (he/it continues)", "not + stop/cease + they (they both continue)", "not + stop/cease + they (they continue)", "not + stop/cease + it/she/they (it/she/they continue(s))", "not + stop/cease + you (you continue)", "not + stop/cease + you (you both continue)", "not + stop/cease + I (I continue)", "not + stop/cease + we (we continue)" ] ]
 
  |> "yazAl" <| [
 
-    lA >| Identity            `noun`    {- lAyazAl -}          [ "not + stop/cease + he/it (he/it continues)", "not + stop/cease + they [masc.du.] (they both continue)", "not + stop/cease + they (they continue)", "not + stop/cease + it/she/they (it/she/they continue(s))", "not + stop/cease + they [fem.du.] (they both continue)", "not + stop/cease + they [fem.] (they continue)", "not + stop/cease + you [masc.sg.] (you continue)", "not + stop/cease + you [du.] (you both continue)", "not + stop/cease + you [masc.pl.] (you continue)", "not + stop/cease + you [fem.sg.] (you continue)", "not + stop/cease + you [fem.pl.] (you continue)", "not + stop/cease + I (I continue)", "not + stop/cease + we (we continue)" ] ]
+    lA >| Identity            `part`    {- lAyazAl -}          [ "not + stop/cease + he/it (he/it continues)", "not + stop/cease + they [masc.du.] (they both continue)", "not + stop/cease + they (they continue)", "not + stop/cease + it/she/they (it/she/they continue(s))", "not + stop/cease + they [fem.du.] (they both continue)", "not + stop/cease + they [fem.] (they continue)", "not + stop/cease + you [masc.sg.] (you continue)", "not + stop/cease + you [du.] (you both continue)", "not + stop/cease + you [masc.pl.] (you continue)", "not + stop/cease + you [fem.sg.] (you continue)", "not + stop/cease + you [fem.pl.] (you continue)", "not + stop/cease + I (I continue)", "not + stop/cease + we (we continue)" ] ]
 
  |> "z ' d" <| [
 
@@ -166,6 +166,10 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- zifAf -}            [ "wedding" ] ]
 
+ |> "z h '" <| [
+
+    FuCAL |<< "a"             `prep`    {- zuhA'a -}           [ "roughly", "approximately" ] ]
+
  |> "z h d" <| [
 
     FaCIL                     `adj`     {- zahiyd -}           [ "moderate", "small" ] ]
@@ -193,6 +197,8 @@ lexicon = listing "Lexicon's properties"
  |> "z h w" <| [
 
     HaFCY                     `verb`    {- OazohaY -}          [ "flourish", "prosper" ],
+
+    FuCA' |<< "a"             `prep`    {- zuhA'a -}           [ "roughly", "approximately" ],
 
     HaFCY                     `noun`    {- OazohaY -}          [ "more/most splendid", "more/most conceited", "most splendid", "most conceited" ],
 
@@ -644,10 +650,6 @@ lexicon = listing "Lexicon's properties"
  |> "ziymbAbwiy" <| [
 
     Identity                  `noun`    {- ziymobAbowiy -}     [ "Zimbabwe" ] ]
-
- |> "zuhA'a" <| [
-
-    Identity                  `noun`    {- zuhA'a -}           [ "roughly", "approximately" ] ]
 
  |> "zuhdiy" <| [
 

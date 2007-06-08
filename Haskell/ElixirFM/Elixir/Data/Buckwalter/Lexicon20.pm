@@ -2195,7 +2195,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCaL',
       'suffix' => '',
       'glosses' => [
@@ -3723,7 +3723,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
@@ -6843,7 +6843,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'IFtiCAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -6887,7 +6887,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'adv',
       'morphs' => 'IFtiCAL |< Iy |< aN',
       'suffix' => ' |< Iy |< aN',
       'glosses' => [
@@ -7886,7 +7886,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -8178,7 +8178,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FuCAL',
       'suffix' => '',
       'glosses' => [
@@ -8203,7 +8203,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FuCALY',
       'suffix' => '',
       'glosses' => [
@@ -10987,28 +10987,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fawqu' => [
-    {
-      'types' => {},
-      'entry' => 'fawqu',
-      'form' => 'fawqu',
-      'lines' => [
-        ';; fawoqu_1',
-        'fwq     fawoqu  FW-Wa   above;over     [[fawoqu/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'above',
-        'over'
-      ],
-      'orig' => 'fawoqu',
-      'prefix' => ''
-    }
-  ],
   'fusayfisA\'' => [
     {
       'types' => {},
@@ -11086,7 +11064,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'FI',
       'suffix' => '',
       'glosses' => [
@@ -11901,7 +11879,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -12825,7 +12803,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'FiCL',
       'suffix' => '',
       'glosses' => [
@@ -14172,6 +14150,62 @@ $Lexicon = {
         'recuperate'
       ],
       'orig' => 'AisotafAq',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'fawqi' => {
+          'FW-Wa' => 1,
+          'FW-Wa-i' => 1
+        },
+        'fawq' => {
+          'FW-Wa-o' => 1
+        }
+      },
+      'entry' => 'fawq',
+      'form' => 'fawqa',
+      'lines' => [
+        ';; fawoqa_1',
+        'fwq     fawoqa  FW-Wa   above;over     [[fawoqa/PREP]]',
+        'fwq     fawoqi  FW-Wa   above;over     [[fawoqi/PREP]]',
+        'fwq     fawoqa  FW-Wa-a above;over     [[fawoqa/PREP]]',
+        'fwq     fawoqi  FW-Wa-i above;over     [[fawoqi/PREP]]',
+        'fwq     fawoq   FW-Wa-o above;over     [[fawoq/PREP]]'
+      ],
+      'patterns' => {
+        'fawq' => [
+          'FaCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'above',
+        'over'
+      ],
+      'orig' => 'fawoqa',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'fawq',
+      'form' => 'fawqu',
+      'lines' => [
+        ';; fawoqu_1',
+        'fwq     fawoqu  FW-Wa   above;over     [[fawoqu/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'FaCL |<< "u"',
+      'suffix' => ' |<< "u"',
+      'glosses' => [
+        'above',
+        'over'
+      ],
+      'orig' => 'fawoqu',
       'prefix' => ''
     },
     {
@@ -16276,7 +16310,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'HaFCAL',
       'suffix' => '',
       'glosses' => [
@@ -17685,33 +17719,6 @@ $Lexicon = {
         'twirling stick'
       ],
       'orig' => 'miforAk',
-      'prefix' => ''
-    }
-  ],
-  'fawra' => [
-    {
-      'types' => {
-        'fawri' => {
-          'FW-Wa-i' => 1
-        }
-      },
-      'entry' => 'fawra',
-      'form' => 'fawra',
-      'lines' => [
-        ';; fawora_1',
-        'fwr     fawora  FW-Wa   immediately after     [[fawora/PREP]]',
-        'fwr     fawora  FW-Wa-a immediately after     [[fawora/PREP]]',
-        'fwr     fawori  FW-Wa-i immediately after     [[fawora/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'immediately after'
-      ],
-      'orig' => 'fawora',
       'prefix' => ''
     }
   ],
@@ -27681,7 +27688,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -28557,7 +28564,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aT |< aN',
       'suffix' => ' |< aT |< aN',
       'glosses' => [
@@ -28576,7 +28583,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FuCAL |< aT |< aN',
       'suffix' => ' |< aT |< aN',
       'glosses' => [
@@ -37691,7 +37698,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -37710,7 +37717,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -40358,40 +40365,6 @@ $Lexicon = {
         'Financial'
       ],
       'orig' => 'fAynAn$Al',
-      'prefix' => ''
-    }
-  ],
-  'fawqa' => [
-    {
-      'types' => {
-        'fawqi' => {
-          'FW-Wa' => 1,
-          'FW-Wa-i' => 1
-        },
-        'fawq' => {
-          'FW-Wa-o' => 1
-        }
-      },
-      'entry' => 'fawqa',
-      'form' => 'fawqa',
-      'lines' => [
-        ';; fawoqa_1',
-        'fwq     fawoqa  FW-Wa   above;over     [[fawoqa/PREP]]',
-        'fwq     fawoqi  FW-Wa   above;over     [[fawoqi/PREP]]',
-        'fwq     fawoqa  FW-Wa-a above;over     [[fawoqa/PREP]]',
-        'fwq     fawoqi  FW-Wa-i above;over     [[fawoqi/PREP]]',
-        'fwq     fawoq   FW-Wa-o above;over     [[fawoq/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'above',
-        'over'
-      ],
-      'orig' => 'fawoqa',
       'prefix' => ''
     }
   ],
@@ -45725,7 +45698,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aT |< aN',
       'suffix' => ' |< aT |< aN',
       'glosses' => [
@@ -46646,7 +46619,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCaL',
       'suffix' => '',
       'glosses' => [
@@ -47623,7 +47596,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -47631,6 +47604,31 @@ $Lexicon = {
         'at once'
       ],
       'orig' => 'fawor',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'fawri' => {
+          'FW-Wa-i' => 1
+        }
+      },
+      'entry' => 'fawr',
+      'form' => 'fawra',
+      'lines' => [
+        ';; fawora_1',
+        'fwr     fawora  FW-Wa   immediately after     [[fawora/PREP]]',
+        'fwr     fawora  FW-Wa-a immediately after     [[fawora/PREP]]',
+        'fwr     fawori  FW-Wa-i immediately after     [[fawora/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'immediately after'
+      ],
+      'orig' => 'fawora',
       'prefix' => ''
     },
     {
@@ -48484,15 +48482,15 @@ $Lexicon->{'f r y'}[11]{'glosses'} = $Lexicon->{'f r \''}[5]{'glosses'};
 $Lexicon->{'f ^g w'}[2]{'types'} = $Lexicon->{'f ^g \''}[11]{'types'};
 $Lexicon->{'f ^g w'}[2]{'lines'} = $Lexicon->{'f ^g \''}[11]{'lines'};
 $Lexicon->{'f ^g w'}[2]{'glosses'} = $Lexicon->{'f ^g \''}[11]{'glosses'};
-$Lexicon->{'f y q'}[0]{'types'} = $Lexicon->{'f w q'}[9]{'types'};
-$Lexicon->{'f y q'}[0]{'lines'} = $Lexicon->{'f w q'}[9]{'lines'};
-$Lexicon->{'f y q'}[0]{'glosses'} = $Lexicon->{'f w q'}[9]{'glosses'};
-$Lexicon->{'f y q'}[1]{'types'} = $Lexicon->{'f w q'}[14]{'types'};
-$Lexicon->{'f y q'}[1]{'lines'} = $Lexicon->{'f w q'}[14]{'lines'};
-$Lexicon->{'f y q'}[1]{'glosses'} = $Lexicon->{'f w q'}[14]{'glosses'};
-$Lexicon->{'f y q'}[2]{'types'} = $Lexicon->{'f w q'}[16]{'types'};
-$Lexicon->{'f y q'}[2]{'lines'} = $Lexicon->{'f w q'}[16]{'lines'};
-$Lexicon->{'f y q'}[2]{'glosses'} = $Lexicon->{'f w q'}[16]{'glosses'};
+$Lexicon->{'f y q'}[0]{'types'} = $Lexicon->{'f w q'}[11]{'types'};
+$Lexicon->{'f y q'}[0]{'lines'} = $Lexicon->{'f w q'}[11]{'lines'};
+$Lexicon->{'f y q'}[0]{'glosses'} = $Lexicon->{'f w q'}[11]{'glosses'};
+$Lexicon->{'f y q'}[1]{'types'} = $Lexicon->{'f w q'}[16]{'types'};
+$Lexicon->{'f y q'}[1]{'lines'} = $Lexicon->{'f w q'}[16]{'lines'};
+$Lexicon->{'f y q'}[1]{'glosses'} = $Lexicon->{'f w q'}[16]{'glosses'};
+$Lexicon->{'f y q'}[2]{'types'} = $Lexicon->{'f w q'}[18]{'types'};
+$Lexicon->{'f y q'}[2]{'lines'} = $Lexicon->{'f w q'}[18]{'lines'};
+$Lexicon->{'f y q'}[2]{'glosses'} = $Lexicon->{'f w q'}[18]{'glosses'};
 $Lexicon->{'f n \''}[0]{'types'} = $Lexicon->{'f n y'}[3]{'types'};
 $Lexicon->{'f n \''}[0]{'lines'} = $Lexicon->{'f n y'}[3]{'lines'};
 $Lexicon->{'f n \''}[0]{'glosses'} = $Lexicon->{'f n y'}[3]{'glosses'};
@@ -48518,24 +48516,24 @@ $Lexicon->{'f t y'}[4]{'glosses'} = $Lexicon->{'f t w'}[12]{'glosses'};
 $Lexicon->{'f t y'}[5]{'types'} = $Lexicon->{'f t w'}[13]{'types'};
 $Lexicon->{'f t y'}[5]{'lines'} = $Lexicon->{'f t w'}[13]{'lines'};
 $Lexicon->{'f t y'}[5]{'glosses'} = $Lexicon->{'f t w'}[13]{'glosses'};
-$Lexicon->{'f \' q'}[0]{'types'} = $Lexicon->{'f w q'}[12]{'types'};
-$Lexicon->{'f \' q'}[0]{'lines'} = $Lexicon->{'f w q'}[12]{'lines'};
-$Lexicon->{'f \' q'}[0]{'glosses'} = $Lexicon->{'f w q'}[12]{'glosses'};
-$Lexicon->{'f \' q'}[1]{'types'} = $Lexicon->{'f w q'}[13]{'types'};
-$Lexicon->{'f \' q'}[1]{'lines'} = $Lexicon->{'f w q'}[13]{'lines'};
-$Lexicon->{'f \' q'}[1]{'glosses'} = $Lexicon->{'f w q'}[13]{'glosses'};
+$Lexicon->{'f \' q'}[0]{'types'} = $Lexicon->{'f w q'}[14]{'types'};
+$Lexicon->{'f \' q'}[0]{'lines'} = $Lexicon->{'f w q'}[14]{'lines'};
+$Lexicon->{'f \' q'}[0]{'glosses'} = $Lexicon->{'f w q'}[14]{'glosses'};
+$Lexicon->{'f \' q'}[1]{'types'} = $Lexicon->{'f w q'}[15]{'types'};
+$Lexicon->{'f \' q'}[1]{'lines'} = $Lexicon->{'f w q'}[15]{'lines'};
+$Lexicon->{'f \' q'}[1]{'glosses'} = $Lexicon->{'f w q'}[15]{'glosses'};
 $Lexicon->{'f t k'}[6]{'types'} = $Lexicon->{'f k k'}[4]{'types'};
 $Lexicon->{'f t k'}[6]{'lines'} = $Lexicon->{'f k k'}[4]{'lines'};
 $Lexicon->{'f t k'}[6]{'glosses'} = $Lexicon->{'f k k'}[4]{'glosses'};
 $Lexicon->{'f t k'}[7]{'types'} = $Lexicon->{'f k k'}[13]{'types'};
 $Lexicon->{'f t k'}[7]{'lines'} = $Lexicon->{'f k k'}[13]{'lines'};
 $Lexicon->{'f t k'}[7]{'glosses'} = $Lexicon->{'f k k'}[13]{'glosses'};
-$Lexicon->{'f w r'}[11]{'types'} = $Lexicon->{'f \' r'}[1]{'types'};
-$Lexicon->{'f w r'}[11]{'lines'} = $Lexicon->{'f \' r'}[1]{'lines'};
-$Lexicon->{'f w r'}[11]{'glosses'} = $Lexicon->{'f \' r'}[1]{'glosses'};
-$Lexicon->{'f w r'}[12]{'types'} = $Lexicon->{'f \' r'}[2]{'types'};
-$Lexicon->{'f w r'}[12]{'lines'} = $Lexicon->{'f \' r'}[2]{'lines'};
-$Lexicon->{'f w r'}[12]{'glosses'} = $Lexicon->{'f \' r'}[2]{'glosses'};
+$Lexicon->{'f w r'}[12]{'types'} = $Lexicon->{'f \' r'}[1]{'types'};
+$Lexicon->{'f w r'}[12]{'lines'} = $Lexicon->{'f \' r'}[1]{'lines'};
+$Lexicon->{'f w r'}[12]{'glosses'} = $Lexicon->{'f \' r'}[1]{'glosses'};
+$Lexicon->{'f w r'}[13]{'types'} = $Lexicon->{'f \' r'}[2]{'types'};
+$Lexicon->{'f w r'}[13]{'lines'} = $Lexicon->{'f \' r'}[2]{'lines'};
+$Lexicon->{'f w r'}[13]{'glosses'} = $Lexicon->{'f \' r'}[2]{'glosses'};
 $Lexicon->{'f h l'}[0]{'types'} = $Lexicon->{'f h l y'}[0]{'types'};
 $Lexicon->{'f h l'}[0]{'lines'} = $Lexicon->{'f h l y'}[0]{'lines'};
 $Lexicon->{'f h l'}[0]{'glosses'} = $Lexicon->{'f h l y'}[0]{'glosses'};

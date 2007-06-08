@@ -464,7 +464,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- sab~ -}             [ "cursing", "insulting" ],
 
-    FaCaL                     `noun`    {- sabab -}            [ "reason", "cause", "reasons", "causes", "because of", "due to" ]
+    FaCaL                     `prep`    {- sabab -}            [ "reason", "cause", "reasons", "causes", "because of", "due to" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'asbAb N" ] -},
 
@@ -887,7 +887,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- salaf -}            [ "advanced payment" ],
 
-    FaCaL |< aN               `noun`    {- salafAF -}          [ "in advance", "beforehand" ]
+    FaCaL |< aN               `adv`     {- salafAF -}          [ "in advance", "beforehand" ]
                               `plural`     FaCaL
                            {- `others`  [ "salaf NF" ] -},
 
@@ -1291,7 +1291,7 @@ lexicon = listing "Lexicon's properties"
     IFtiCAL                   `noun`    {- AisotinAd -}        [ "dependence" ]
                               `plural`     IFtiCAL |< At,
 
-    IFtiCAL |< aN             `noun`    {- AisotinAdAF -}      [ "on the basis of", "according to" ]
+    IFtiCAL |< aN             `adv`     {- AisotinAdAF -}      [ "on the basis of", "according to" ]
                               `plural`     IFtiCAL
                            {- `others`  [ "istinAd NF" ] -},
 
@@ -1460,7 +1460,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCAL
                            {- `others`  [ "sur`An N", "sirA` N" ] -},
 
-    FaCIL |< aN               `noun`    {- sariyEAF -}         [ "quickly", "promptly" ]
+    FaCIL |< aN               `adv`     {- sariyEAF -}         [ "quickly", "promptly" ]
                               `plural`     FaCIL
                            {- `others`  [ "sariy` NF" ] -},
 
@@ -1746,6 +1746,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "s w f" <| [
 
+    FaCL |<< "a"              `part`    {- sawofa -}           [ "will", "shall" ],
+
     FuCayL                    `noun`    {- suwayof -}          [ "Suweif (in \"Beni Suweif\")" ],
 
     MaFAL |< aT               `noun`    {- masAfap -}          [ "distance", "interval", "distances", "intervals" ]
@@ -1837,7 +1839,7 @@ lexicon = listing "Lexicon's properties"
 
     TaFACY                    `verb`    {- tasAwaY -}          [ "be balanced", "be equal" ],
 
-    FiCY                      `noun`    {- siwaY -}            [ "other than", "except for" ],
+    FiCY                      `prep`    {- siwaY -}            [ "other than", "except for" ],
 
     FiCY                      `noun`    {- siwaY -}            [ "equality" ],
 
@@ -2105,10 +2107,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sarAyiyfuw -}       [ "Sarajevo" ] ]
 
- |> "sawfa" <| [
-
-    Identity                  `noun`    {- sawofa -}           [ "will", "shall" ] ]
-
  |> "sbiylbir^g" <| [
 
     Identity                  `noun`    {- sbiylobirj -}       [ "Spielberg" ] ]
@@ -2211,7 +2209,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "siyyamA" <| [
 
-    Identity                  `noun`    {- siy~amA -}          [ "especially" ] ]
+    Identity                  `adv`     {- siy~amA -}          [ "especially" ] ]
 
  |> "skiylAriy" <| [
 

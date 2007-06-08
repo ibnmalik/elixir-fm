@@ -334,7 +334,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "h l l" <| [
 
-    FaL                       `noun`    {- hal -}              [ "does/do?", "did?", "is/are?" ],
+    FaL                       `part`    {- hal -}              [ "does/do?", "did?", "is/are?" ],
 
     FaCL                      `verb`    {- hal~-i -}           [ "begin", "appear" ]
                               `imperf`     FiCL
@@ -370,7 +370,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "h l y" <| [
 
-    FaC                       `noun`    {- hal -}              [ "does/do?", "did?", "is/are?" ] ]
+    FaC                       `part`    {- hal -}              [ "does/do?", "did?", "is/are?" ] ]
 
  |> "h m ^g" <| [
 
@@ -409,7 +409,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "h m m" <| [
 
-    FuL                       `noun`    {- hum -}              [ "they [masc.pl]" ],
+    FuL                       `pron`    {- hum -}              [ "they [masc.pl]" ],
 
     FaCL                      `verb`    {- ham~-u -}           [ "be ready", "intend" ]
                               `imperf`     FuCL
@@ -456,7 +456,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "h m y" <| [
 
-    FuC                       `noun`    {- hum -}              [ "they [masc.pl]" ] ]
+    FuC                       `pron`    {- hum -}              [ "they [masc.pl]" ] ]
 
  |> "h n '" <| [
 
@@ -509,11 +509,19 @@ lexicon = listing "Lexicon's properties"
 
     MuKaRDiS                  `noun`    {- muhanodis -}        [ "engineer", "technician" ] ]
 
+ |> "h n k" <| [
+
+    FuCAL |<< "a"             `adv`     {- hunAka -}           [ "there", "there (is/are)" ] ]
+
  |> "h n m" <| [
 
     FACiL                     `noun`    {- hAnim -}            [ "lady", "madame", "Lady", "ladies" ]
                               `plural`     FawACiL
                            {- `others`  [ "hawAnim Ndip" ] -} ]
+
+ |> "h n n" <| [
+
+    FuCL |<< "a"              `pron`    {- hun~a -}            [ "they [fem.pl.]" ] ]
 
  |> "h n r y" <| [
 
@@ -741,6 +749,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "h w w" <| [
 
+    FU |<< "a"                `pron`    {- huwa -}             [ "it/he" ],
+
     FU                        `noun`    {- huw -}              [ "Ho (in \"Ho Chi Minh\")" ],
 
     FUL |< aT                 `noun`    {- huw~ap -}           [ "abyss", "chasm", "abysses", "chasms" ]
@@ -862,6 +872,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     InFiCAL |< At
                               `plural`     InFiyAL |< At ]
 
+ |> "h y y" <| [
+
+    FI |<< "a"                `pron`    {- hiya -}             [ "it/they/she" ] ]
+
  |> "h z '" <| [
 
     FaCL                      `noun`    {- hazo' -}            [ "derision", "contempt" ]
@@ -945,7 +959,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "h_a_dA" <| [
 
-    Identity                  `noun`    {- h`*A -}             [ "this", "this/these", "these two", "these" ] ]
+    Identity                  `pron`    {- h`*A -}             [ "this", "this/these", "these two", "these" ] ]
 
  |> "ha'Arits" <| [
 
@@ -953,7 +967,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "hallA" <| [
 
-    Identity                  `noun`    {- hal~A -}            [ "doesn't/don't?", "didn't?", "isn't/aren't?" ] ]
+    Identity                  `part`    {- hal~A -}            [ "doesn't/don't?", "didn't?", "isn't/aren't?" ] ]
 
  |> "hilikuwbtar" <| [
 
@@ -978,10 +992,6 @@ lexicon = listing "Lexicon's properties"
  |> "hitlar" <| [
 
     Identity                  `noun`    {- hitolar -}          [ "Hitler" ] ]
-
- |> "hiya" <| [
-
-    Identity                  `noun`    {- hiya -}             [ "it/they/she" ] ]
 
  |> "hiydrA" <| [
 
@@ -1029,23 +1039,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "humA" <| [
 
-    Identity                  `noun`    {- humA -}             [ "they (both)" ] ]
+    Identity                  `pron`    {- humA -}             [ "they (both)" ] ]
 
  |> "hunA" <| [
 
-    Identity                  `noun`    {- hunA -}             [ "here" ] ]
-
- |> "hunAka" <| [
-
-    Identity                  `noun`    {- hunAka -}           [ "there", "there (is/are)" ] ]
-
- |> "hunna" <| [
-
-    Identity                  `noun`    {- hun~a -}            [ "they [fem.pl.]" ] ]
-
- |> "huwa" <| [
-
-    Identity                  `noun`    {- huwa -}             [ "it/he" ] ]
+    Identity                  `adv`     {- hunA -}             [ "here" ] ]
 
  |> "huwlAnd" <| [
 
@@ -1077,9 +1075,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- huwrosot -}         [ "Horst" ] ]
 
- |> "mAhuwa" <| [
+ |> "mAhuw" <| [
 
-    Identity                  `noun`    {- mAhuwa -}           [ "what" ] ]
+    Identity |<< "a"          `pron`    {- mAhuwa -}           [ "what" ] ]
 
  |> "munhAr" <| [
 

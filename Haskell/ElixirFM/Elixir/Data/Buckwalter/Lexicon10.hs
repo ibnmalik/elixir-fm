@@ -1341,6 +1341,12 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- ragom -}            [ "in spite of", "despite" ],
 
+    -- ;; ragoma_1
+    -- rgm     ragoma  FW-Wa   in spite of;despite     [[ragoma/PREP]]
+    -- rgm     ragoma  FW-Wa-a in spite of;despite     [[ragoma/PREP]]
+
+    FaCL |<< "a"              `prep`    {- ragoma -}           [ "in spite of", "despite" ],
+
     -- ;; ragAm_1
     -- rgAm    ragAm   N       dust and sand
 
@@ -1544,7 +1550,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; maroHabAF_1
     -- mrHb    maroHab NF      welcome!;hello!     [[maroHab/ADV]]
 
-    MaFCaL |< aN              `noun`    {- maroHabAF -}        [ "welcome!", "hello!" ]
+    MaFCaL |< aN              `adv`     {- maroHabAF -}        [ "welcome!", "hello!" ]
                               `plural`     MaFCaL
                            {- `others`  [ "mar.hab NF" ] -},
 
@@ -2337,7 +2343,7 @@ lexicon = listing "Lexicon's properties"
     -- rjA'    rajA'F  FW-Wa   if you please     [[rajA'F/ADV]]
     -- rjA'    rajA'   N0      if you please
 
-    FaCAL |< aN               `noun`    {- rajA'F -}           [ "if you please" ]
+    FaCAL |< aN               `adv`     {- rajA'F -}           [ "if you please" ]
                               `plural`     FaCAL
                               `plural`     FaCA'
                            {- `others`  [ "ra^gA' N0" ] -} ]
@@ -3067,7 +3073,7 @@ lexicon = listing "Lexicon's properties"
     -- rjA'    rajA'F  FW-Wa   if you please     [[rajA'F/ADV]]
     -- rjA'    rajA'   N0      if you please
 
-    FaCA' |< aN               `noun`    {- rajA'F -}           [ "if you please" ]
+    FaCA' |< aN               `adv`     {- rajA'F -}           [ "if you please" ]
                               `plural`     FaCA'
                            {- `others`  [ "ra^gA' N0" ] -},
 
@@ -5282,7 +5288,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mutarab~iE_1
     -- mtrbE   mutarab~iE      NF      cross-legged     [[mutarab~iE/ADV]]
 
-    MutaFaCCiL                `noun`    {- mutarab~iE -}       [ "cross-legged" ] ]
+    MutaFaCCiL                `adv`     {- mutarab~iE -}       [ "cross-legged" ] ]
 
  |> "r b b" <| [
 
@@ -5333,6 +5339,11 @@ lexicon = listing "Lexicon's properties"
     -- rb      rub~    N       thickened juice;pulp
 
     FuCL                      `noun`    {- rub~ -}             [ "thickened juice", "pulp" ],
+
+    -- ;; rub~a_1
+    -- rb      rub~a   FW      (so) many     [[rub~a/FUNC_WORD]]
+
+    FuCL |<< "a"              `part`    {- rub~a -}            [ "(so) many" ],
 
     -- ;; rib~ap_1
     -- rb      rib~    Nap     skin eruption
@@ -6028,7 +6039,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; rad~AF_1
     -- rd      rad~    NF      in reply to;in answer to     [[rad~/ADV]]
 
-    FaCL |< aN                `noun`    {- rad~AF -}           [ "in reply to", "in answer to" ]
+    FaCL |< aN                `adv`     {- rad~AF -}           [ "in reply to", "in answer to" ]
                               `plural`     FaCL
                            {- `others`  [ "radd NF" ] -},
 
@@ -7509,6 +7520,11 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- rahon -}            [ "mortgage", "security", "mortgages", "securities" ]
                               `plural`     FuCUL |< At,
 
+    -- ;; rahona_1
+    -- rhn     rahona  FW-Wa   subject to;depending on;conditional on     [[rahona/PREP]]
+
+    FaCL |<< "a"              `prep`    {- rahona -}           [ "subject to", "depending on", "conditional on" ],
+
     -- ;; rahoniy~ap_1
     -- rhny    rahoniy~        Nap     mortgage (deed)     [[rahoniy~/NOUN]]
 
@@ -7519,6 +7535,11 @@ lexicon = listing "Lexicon's properties"
     -- rhyn    rahiyn  Napdu   mortgage
 
     FaCIL                     `noun`    {- rahiyn -}           [ "mortgaged", "security", "mortgage" ],
+
+    -- ;; rahiyna_1
+    -- rhyn    rahiyna FW-Wa   subject to;depending on     [[rahiyna/PREP]]
+
+    FaCIL |<< "a"             `prep`    {- rahiyna -}          [ "subject to", "depending on" ],
 
     -- ;; rahiynap_1
     -- rhyn    rahiyn  Napdu   hostage
@@ -10467,7 +10488,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; rasomiy~AF_1
     -- rsmy    rasomiy~        NF      officially     [[rasomiy~/ADV]]
 
-    FaCL |< Iy |< aN          `adj`     {- rasomiy~AF -}       [ "officially" ],
+    FaCL |< Iy |< aN          `adv`     {- rasomiy~AF -}       [ "officially" ],
 
     -- ;; ras~Am_1
     -- rsAm    ras~Am  Nprop   Ressam;Rassam
@@ -11915,7 +11936,7 @@ lexicon = listing "Lexicon's properties"
     -- rwyd    ruwayod NF      slowly;gently;gradually     [[ruwayod/ADV]]
     -- rwyd    ruwayoda        FW-Wa-a slowly;gently;gradually     [[ruwayod/ADV]]
 
-    FuCayL                    `noun`    {- ruwayod -}          [ "slowly", "gently", "gradually" ],
+    FuCayL                    `adv`     {- ruwayod -}          [ "slowly", "gently", "gradually" ],
 
     -- ;; <irAdap_1
     -- <rAd    <irAd   Nap     desire;will
@@ -12817,6 +12838,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- rayob -}            [ "doubt", "suspicion" ],
 
+    -- ;; lArayoba_1
+    -- lAryb   lArayoba        FW-Wa   without a doubt
+
+    lA >| FaCL |<< "a"        `noun`    {- lArayoba -}         [ "without a doubt" ],
+
     -- ;; riybap_1
     -- ryb     riyb    Nap     doubt;suspicion
     -- ryb     riyab   N       doubts;suspicions
@@ -13686,14 +13712,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy |< aT      `noun`    {- raOosmAliy~ap -}    [ "capitalism" ] ]
 
- |> "ra.gma" <| [
-
-    -- ;; ragoma_1
-    -- rgm     ragoma  FW-Wa   in spite of;despite     [[ragoma/PREP]]
-    -- rgm     ragoma  FW-Wa-a in spite of;despite     [[ragoma/PREP]]
-
-    Identity                  `noun`    {- ragoma -}           [ "in spite of", "despite" ] ]
-
  |> "ra.hbAriyfArd" <| [
 
     -- ;; raHobAriyfArod_1
@@ -13736,20 +13754,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- rafosanojAniy~ -}   [ "Rafsanjani" ] ]
 
- |> "rahiyna" <| [
-
-    -- ;; rahiyna_1
-    -- rhyn    rahiyna FW-Wa   subject to;depending on     [[rahiyna/PREP]]
-
-    Identity                  `noun`    {- rahiyna -}          [ "subject to", "depending on" ] ]
-
- |> "rahna" <| [
-
-    -- ;; rahona_1
-    -- rhn     rahona  FW-Wa   subject to;depending on;conditional on     [[rahona/PREP]]
-
-    Identity                  `noun`    {- rahona -}           [ "subject to", "depending on", "conditional on" ] ]
-
  |> "ram_tA" <| [
 
     -- ;; ramovA_1
@@ -13784,14 +13788,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; rayovamA_1
     -- ryvmA   rayovamA        FW-Wa   as long as;until   [[rayovamA/CONJ]]
 
-    Identity                  `noun`    {- rayovamA -}         [ "as long as", "until" ] ]
-
- |> "rayba" <| [
-
-    -- ;; lArayoba_1
-    -- lAryb   lArayoba        FW-Wa   without a doubt
-
-    lA >| Identity            `noun`    {- lArayoba -}         [ "without a doubt" ] ]
+    Identity                  `conj`    {- rayovamA -}         [ "as long as", "until" ] ]
 
  |> "ri.dA" <| [
 
@@ -13989,20 +13986,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- ru$odiy -}          [ "Rushdi" ] ]
 
- |> "rubba" <| [
-
-    -- ;; rub~a_1
-    -- rb      rub~a   FW      (so) many     [[rub~a/FUNC_WORD]]
-
-    Identity                  `noun`    {- rub~a -}            [ "(so) many" ] ]
-
  |> "rubbamA" <| [
 
     -- ;; rub~amA_1
     -- rbmA    rub~amA FW-Wa   perhaps;maybe     [[rub~amA/ADV]]
     -- lrbmA   larub~amA       FW-Wa   perhaps;maybe     [[la/EMPHATIC_PARTICLE+rub~amA/ADV]]
 
-    Identity                  `noun`    {- rub~amA -}          [ "perhaps", "maybe" ] ]
+    Identity                  `part`    {- rub~amA -}          [ "perhaps", "maybe" ] ]
 
  |> "ruqAriq" <| [
 
@@ -14400,7 +14390,7 @@ lexicon = listing "Lexicon's properties"
     -- yAtrY   yAturaY FW      perhaps;maybe     [[yAturaY/ADV]]
     -- trY     turaY   FW      perhaps;maybe     [[turaY/ADV]]
 
-    Identity                  `noun`    {- yAturaY -}          [ "perhaps", "maybe" ] ]
+    Identity                  `adv`     {- yAturaY -}          [ "perhaps", "maybe" ] ]
 
  |> "yarbuw`" <| [
 

@@ -144,6 +144,12 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HACAL
                            {- `others`  [ "'A.hAd N" ] -},
 
+    -- ;; >uHAda_1
+    -- >HAd    >uHAda  FW-WaBi one-by-one     [[>uHAda/ADV]]
+    -- AHAd    >uHAda  FW-WaBi one-by-one     [[>uHAda/ADV]]
+
+    FuCAL |<< "a"             `adv`     {- OuHAda -}           [ "one-by-one" ],
+
     -- ;; >uHAdiy~_1
     -- >HAdy   >uHAdiy~        Nall    single     [[>uHAdiy~/ADJ]]
     -- AHAdy   >uHAdiy~        Nall    single     [[>uHAdiy~/ADJ]]
@@ -243,7 +249,7 @@ lexicon = listing "Lexicon's properties"
     -- >Sl     >aSol   NF      originally;primarily     [[>aSol/ADV]]
     -- ASl     >aSol   NF      originally;primarily     [[>aSol/ADV]]
 
-    FaCL |< aN                `noun`    {- OaSolAF -}          [ "originally", "primarily" ]
+    FaCL |< aN                `adv`     {- OaSolAF -}          [ "originally", "primarily" ]
                               `plural`     FaCL
                            {- `others`  [ "'a.sl NF" ] -},
 
@@ -307,7 +313,7 @@ lexicon = listing "Lexicon's properties"
     -- >SAlp   >aSAlapF        FW-Wa   directly;personally    [[>aSAlapF/ADV]]
     -- ASAlp   >aSAlapF        FW-Wa   directly;personally    [[>aSAlapF/ADV]]
 
-    FaCAL |< aT |< aN         `noun`    {- OaSAlapF -}         [ "directly", "personally" ],
+    FaCAL |< aT |< aN         `adv`     {- OaSAlapF -}         [ "directly", "personally" ],
 
     -- ;; ta>oSiyl_1
     -- t>Syl   ta>oSiyl        N/At    indigenization;rooting
@@ -1227,7 +1233,7 @@ lexicon = listing "Lexicon's properties"
     -- <*A     <i*AF   FW-Wa   therefore;so;then      [[<i*AF/ADV]]
     -- A*A     <i*AF   FW-Wa   therefore;so;then      [[<i*AF/ADV]]
 
-    FiC |< aN                 `noun`    {- Ii*AF -}            [ "therefore", "so", "then" ],
+    FiC |< aN                 `adv`     {- Ii*AF -}            [ "therefore", "so", "then" ],
 
     -- ;; <iy*A'_1
     -- <y*A'   <iy*A'  N0_Nh   damage;injury
@@ -1273,13 +1279,13 @@ lexicon = listing "Lexicon's properties"
     -- <*      <i*     FW-Wa   because                [[<i*/CONJ]]
     -- A*      <i*     FW-Wa   because                [[<i*/CONJ]]
 
-    FiL                       `noun`    {- Ii* -}              [ "because" ],
+    FiL                       `conj`    {- Ii* -}              [ "because" ],
 
     -- ;; <i*AF_1
     -- <*A     <i*AF   FW-Wa   therefore;so;then      [[<i*AF/ADV]]
     -- A*A     <i*AF   FW-Wa   therefore;so;then      [[<i*AF/ADV]]
 
-    FiL |< aN                 `noun`    {- Ii*AF -}            [ "therefore", "so", "then" ],
+    FiL |< aN                 `adv`     {- Ii*AF -}            [ "therefore", "so", "then" ],
 
     -- ;; <iy*An_1
     -- <y*An   <iy*An  NduAt   declaration;proclamation
@@ -1294,7 +1300,7 @@ lexicon = listing "Lexicon's properties"
     -- <*n     <i*an   FW-Wa   therefore;so;then      [[<i*an/ADV]]
     -- A*n     <i*an   FW-Wa   therefore;so;then      [[<i*an/ADV]]
 
-    FiCaL                     `noun`    {- Ii*an -}            [ "therefore", "so", "then" ],
+    FiCaL                     `adv`     {- Ii*an -}            [ "therefore", "so", "then" ],
 
     -- ;; >a*in-a_1
     -- >*n     >a*in   PV-n    authorize;listen
@@ -1467,7 +1473,7 @@ lexicon = listing "Lexicon's properties"
     -- <*      <i*     FW-Wa   because                [[<i*/CONJ]]
     -- A*      <i*     FW-Wa   because                [[<i*/CONJ]]
 
-    FiC                       `noun`    {- Ii* -}              [ "because" ],
+    FiC                       `conj`    {- Ii* -}              [ "because" ],
 
     -- ;; >a*iy-a_1
     -- >*y     >a*iy   PV_no-w suffer damage
@@ -1743,7 +1749,7 @@ lexicon = listing "Lexicon's properties"
     -- >xw     >axaw   NAn_Nayn        brothers
     -- Axw     >axaw   NAn_Nayn        brothers
 
-    FaL                       `noun`    {- Oax -}              [ "brother", "brother + my", "brothers" ]
+    FaL                       `pron`    {- Oax -}              [ "brother", "brother + my", "brothers" ]
                               `plural`     FaCI
                               `plural`     FaCU
                               `plural`     FaCA
@@ -1843,7 +1849,7 @@ lexicon = listing "Lexicon's properties"
     -- >xyr    >axiyr  NF      finally;recently     [[>axiyr/ADV]]
     -- Axyr    >axiyr  NF      finally;recently     [[>axiyr/ADV]]
 
-    FaCIL |< aN               `noun`    {- OaxiyrAF -}         [ "finally", "recently" ]
+    FaCIL |< aN               `adv`     {- OaxiyrAF -}         [ "finally", "recently" ]
                               `plural`     FaCIL
                            {- `others`  [ "'a_hiyr NF" ] -},
 
@@ -1866,7 +1872,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mu&ax~arAF_1
     -- m&xr    mu&ax~ar        NF      recently;finally     [[mu&ax~ar/ADV]]
 
-    MuFaCCaL |< aN            `noun`    {- muWax~arAF -}       [ "recently", "finally" ]
+    MuFaCCaL |< aN            `adv`     {- muWax~arAF -}       [ "recently", "finally" ]
                               `plural`     MuFaCCaL
                            {- `others`  [ "mu'a_h_har NF" ] -},
 
@@ -1932,7 +1938,7 @@ lexicon = listing "Lexicon's properties"
     -- >xw     >axaw   NAn_Nayn        brothers
     -- Axw     >axaw   NAn_Nayn        brothers
 
-    FaC                       `noun`    {- Oax -}              [ "brother", "brother + my", "brothers" ]
+    FaC                       `pron`    {- Oax -}              [ "brother", "brother + my", "brothers" ]
                               `plural`     FaCI
                               `plural`     FaCU
                               `plural`     FaCaL
@@ -2380,6 +2386,14 @@ lexicon = listing "Lexicon's properties"
 
  |> "' _t r" <| [
 
+    -- ;; <ivora_1
+    -- <vr     <ivora  FW-Wa   right after     [[<ivora/PREP]]
+    -- Avr     <ivora  FW-Wa   right after     [[<ivora/PREP]]
+    -- <vr     <ivora  FW-Wa-a right after     [[<ivora/PREP]]
+    -- Avr     <ivora  FW-Wa-a right after     [[<ivora/PREP]]
+
+    FiCL |<< "a"              `prep`    {- Iivora -}           [ "right after" ],
+
     -- ;; >avar-iu_1
     -- >vr     >avar   PV      report;transmit
     -- Avr     >avar   PV      report;transmit
@@ -2560,7 +2574,7 @@ lexicon = listing "Lexicon's properties"
     -- mt>vr   muta>av~ir      Nall    because of;due to;as a result of     [[muta>av~ir/ADV]]
     -- mtAvr   muta>av~ir      Nall    because of;due to;as a result of     [[muta>av~ir/ADV]]
 
-    MutaFaCCiL                `noun`    {- mutaOav~ir -}       [ "because of", "due to", "as a result of" ],
+    MutaFaCCiL                `adv`     {- mutaOav~ir -}       [ "because of", "due to", "as a result of" ],
 
     -- ;; muta>av~ir_2
     -- mt>vr   muta>av~ir      Nall    influenced;affected     [[muta>av~ir/ADJ]]
@@ -2766,7 +2780,7 @@ lexicon = listing "Lexicon's properties"
     -- >by     >abiy   FW-WaBi father + my      [[>ab/NOUN+iy/POSS_PRON_1S]]
     -- Aby     >abiy   FW-WaBi father + my      [[>ab/NOUN+iy/POSS_PRON_1S]]
 
-    FaL                       `noun`    {- Oab -}              [ "father", "father + my" ]
+    FaL                       `pron`    {- Oab -}              [ "father", "father + my" ]
                               `plural`     FaCI
                               `plural`     FaCU
                               `plural`     FaCA
@@ -2864,7 +2878,7 @@ lexicon = listing "Lexicon's properties"
     -- >bd     >abad   NF      never;not at all     [[>abad/ADV]]
     -- Abd     >abad   NF      never;not at all     [[>abad/ADV]]
 
-    FaCaL |< aN               `noun`    {- OabadAF -}          [ "never", "not at all" ]
+    FaCaL |< aN               `adv`     {- OabadAF -}          [ "never", "not at all" ]
                               `plural`     FaCaL
                            {- `others`  [ "'abad NF" ] -},
 
@@ -3244,7 +3258,7 @@ lexicon = listing "Lexicon's properties"
     -- >by     >abiy   FW-WaBi father + my      [[>ab/NOUN+iy/POSS_PRON_1S]]
     -- Aby     >abiy   FW-WaBi father + my      [[>ab/NOUN+iy/POSS_PRON_1S]]
 
-    FaC                       `noun`    {- Oab -}              [ "father", "father + my" ]
+    FaC                       `pron`    {- Oab -}              [ "father", "father + my" ]
                               `plural`     FaCI
                               `plural`     FaCU
                               `plural`     FaCA
@@ -4260,7 +4274,7 @@ lexicon = listing "Lexicon's properties"
     -- >hl     >ahol   NF      welcome!     [[>ahol/ADV]]
     -- Ahl     >ahol   NF      welcome!     [[>ahol/ADV]]
 
-    FaCL |< aN                `noun`    {- OaholAF -}          [ "welcome!" ]
+    FaCL |< aN                `adv`     {- OaholAF -}          [ "welcome!" ]
                               `plural`     FaCL
                            {- `others`  [ "'ahl NF" ] -},
 
@@ -4377,7 +4391,7 @@ lexicon = listing "Lexicon's properties"
     -- >kyd    >akiyd  NF      certainly;surely     [[>akiyd/ADV]]
     -- Akyd    >akiyd  NF      certainly;surely     [[>akiyd/ADV]]
 
-    FaCIL |< aN               `noun`    {- OakiydAF -}         [ "certainly", "surely" ]
+    FaCIL |< aN               `adv`     {- OakiydAF -}         [ "certainly", "surely" ]
                               `plural`     FaCIL
                            {- `others`  [ "'akiyd NF" ] -},
 
@@ -4847,7 +4861,13 @@ lexicon = listing "Lexicon's properties"
     -- \|lA}    |lA}    Nhy     benefits;blessings
     -- AlA}    |lA}    Nhy     benefits;blessings
 
-    HACAL                     `noun`    {- \|lA' -}            [ "benefits", "blessings" ] ]
+    HACAL                     `noun`    {- \|lA' -}            [ "benefits", "blessings" ],
+
+    -- ;; >uwlA'i_1
+    -- >wlA'   >uwlA'i FW-WaBi they/those     [[>uwlA'i/DEM_PRON_MP]]
+    -- AwlA'   >uwlA'i FW-WaBi they/those     [[>uwlA'i/DEM_PRON_MP]]
+
+    FUCAL |<< "i"             `pron`    {- OuwlA'i -}          [ "they/those" ] ]
 
  |> "' l b" <| [
 
@@ -5641,7 +5661,7 @@ lexicon = listing "Lexicon's properties"
     -- >lw     >uluw   FW-WaBi those     [[>uluw/DEM_PRON_MP]]
     -- Alw     >uluw   FW-WaBi those     [[>uluw/DEM_PRON_MP]]
 
-    FuCU                      `noun`    {- Ouluw -}            [ "those" ] ]
+    FuCU                      `pron`    {- Ouluw -}            [ "those" ] ]
 
  |> "' l y" <| [
 
@@ -5668,7 +5688,7 @@ lexicon = listing "Lexicon's properties"
     -- <ly     <ilaY   FW-Wa   to;towards     [[<ilaY/PREP]]
     -- Aly     <ilaY   FW-Wa   to;towards     [[<ilaY/PREP]]
 
-    FiCY                      `noun`    {- IilaY -}            [ "to", "towards" ]
+    FiCY                      `prep`    {- IilaY -}            [ "to", "towards" ]
                               `plural`     FiCaL
                            {- `others`  [ "'ilay FW-Wa-y" ] -},
 
@@ -5727,7 +5747,7 @@ lexicon = listing "Lexicon's properties"
     -- >lw     >uluw   FW-WaBi those     [[>uluw/DEM_PRON_MP]]
     -- Alw     >uluw   FW-WaBi those     [[>uluw/DEM_PRON_MP]]
 
-    FuCU                      `noun`    {- Ouluw -}            [ "those" ] ]
+    FuCU                      `pron`    {- Ouluw -}            [ "those" ] ]
 
  |> "' l y s" <| [
 
@@ -5890,7 +5910,7 @@ lexicon = listing "Lexicon's properties"
     -- >m      >am     FW-Wa   or     [[>am/CONJ]]
     -- Am      >am     FW-Wa   or     [[>am/CONJ]]
 
-    FaL                       `noun`    {- Oam -}              [ "or" ],
+    FaL                       `conj`    {- Oam -}              [ "or" ],
 
     -- ;; >am~am_1
     -- >mm     >am~am  PV      nationalize
@@ -5961,6 +5981,22 @@ lexicon = listing "Lexicon's properties"
     -- Amwmy   >umuwmiy~       Nap     matriarchy     [[>umuwmiy~/NOUN]]
 
     FuCUL |< Iy |< aT         `noun`    {- Oumuwmiy~ap -}      [ "matriarchy" ],
+
+    -- ;; >amAma_1
+    -- >mAm    >amAma  FW-Wa   in front of;facing     [[>amAma/PREP]]
+    -- AmAm    >amAma  FW-Wa   in front of;facing     [[>amAma/PREP]]
+    -- >mAm    >amAmi  FW-Wa   in front of;facing     [[>amAmi/PREP]]
+    -- AmAm    >amAmi  FW-Wa   in front of;facing     [[>amAmi/PREP]]
+    -- >mAm    >amAma  FW-Wa-a in front of;facing     [[>amAma/PREP]]
+    -- AmAm    >amAma  FW-Wa-a in front of;facing     [[>amAma/PREP]]
+    -- >mAm    >amAmi  FW-Wa-i in front of;facing     [[>amAmi/PREP]]
+    -- AmAm    >amAmi  FW-Wa-i in front of;facing     [[>amAmi/PREP]]
+    -- >mAm    >amAm   FW-Wa-o in front of;facing     [[>amAm/PREP]]
+    -- AmAm    >amAm   FW-Wa-o in front of;facing     [[>amAm/PREP]]
+
+    FaCAL |<< "a"             `prep`    {- OamAma -}           [ "in front of", "facing" ]
+                              `plural`     FaCAL
+                           {- `others`  [ "'amAm FW-Wa-o" ] -},
 
     -- ;; >amAm_1
     -- >mAm    >amAm   N       front;forward
@@ -6617,7 +6653,7 @@ lexicon = listing "Lexicon's properties"
     -- >ms     >amos   N       yesterday
     -- Ams     >amos   N       yesterday
 
-    FaCL                      `noun`    {- Oamos -}            [ "yesterday" ] ]
+    FaCL                      `adv`     {- Oamos -}            [ "yesterday" ] ]
 
  |> "' m w" <| [
 
@@ -6652,7 +6688,7 @@ lexicon = listing "Lexicon's properties"
     -- >m      >am     FW-Wa   or     [[>am/CONJ]]
     -- Am      >am     FW-Wa   or     [[>am/CONJ]]
 
-    FaC                       `noun`    {- Oam -}              [ "or" ] ]
+    FaC                       `conj`    {- Oam -}              [ "or" ] ]
 
  |> "' n '" <| [
 
@@ -6660,7 +6696,7 @@ lexicon = listing "Lexicon's properties"
     -- >nA     >anA    FW-Wa   I     [[>anA/PRON_1S]]
     -- AnA     >anA    FW-Wa   I     [[>anA/PRON_1S]]
 
-    FaCA                      `noun`    {- OanA -}             [ "I" ],
+    FaCA                      `pron`    {- OanA -}             [ "I" ],
 
     -- ;; >anA_2
     -- >nA     >anA    N0      ego
@@ -6735,6 +6771,30 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCA
                            {- `others`  [ "'AnA' Nh N0_Nh Nhy", "'anA Nhy" ] -},
 
+    -- ;; |nA'a_1
+    -- \|nA'    |nA'a   FW-Wa   during     [[|nA'a/PREP]]
+    -- AnA'    |nA'a   FW-Wa   during     [[|nA'a/PREP]]
+    -- \|nA'    |nA'i   FW-Wa   during     [[|nA'i/PREP]]
+    -- AnA'    |nA'i   FW-Wa   during     [[|nA'i/PREP]]
+    -- \|nA'    |nA'a   FW-Wa-a during     [[|nA'a/PREP]]
+    -- AnA'    |nA'a   FW-Wa-a during     [[|nA'a/PREP]]
+    -- \|nA}    |nA'}   FW-Wa-i during     [[|nA}i/PREP]]
+    -- AnA}    |nA'}   FW-Wa-i during     [[|nA}i/PREP]]
+
+    HACA' |<< "a"             `prep`    {- \|nA'a -}           [ "during" ],
+
+    -- ;; |nA'a_1
+    -- \|nA'    |nA'a   FW-Wa   during     [[|nA'a/PREP]]
+    -- AnA'    |nA'a   FW-Wa   during     [[|nA'a/PREP]]
+    -- \|nA'    |nA'i   FW-Wa   during     [[|nA'i/PREP]]
+    -- AnA'    |nA'i   FW-Wa   during     [[|nA'i/PREP]]
+    -- \|nA'    |nA'a   FW-Wa-a during     [[|nA'a/PREP]]
+    -- AnA'    |nA'a   FW-Wa-a during     [[|nA'a/PREP]]
+    -- \|nA}    |nA'}   FW-Wa-i during     [[|nA}i/PREP]]
+    -- AnA}    |nA'}   FW-Wa-i during     [[|nA}i/PREP]]
+
+    HACAL |<< "a"             `prep`    {- \|nA'a -}           [ "during" ],
+
     -- ;; >anAp_1
     -- >nA     >anA    Nap     patience;equanimity
     -- AnA     >anA    Nap     patience;equanimity
@@ -6788,7 +6848,7 @@ lexicon = listing "Lexicon's properties"
     -- >nY     >an~aY  FW-Wa   where?;how?;however     [[>an~aY/CONJ]]
     -- AnY     >an~aY  FW-Wa   where?;how?;however     [[>an~aY/CONJ]]
 
-    FaCCY                     `noun`    {- Oan~aY -}           [ "where?", "how?", "however" ] ]
+    FaCCY                     `conj`    {- Oan~aY -}           [ "where?", "how?", "however" ] ]
 
  |> "' n .g l" <| [
 
@@ -7151,7 +7211,7 @@ lexicon = listing "Lexicon's properties"
     -- \|nf     |nif    NF      previously;foregoing     [[|nif/ADV]]
     -- Anf     |nif    NF      previously;foregoing     [[|nif/ADV]]
 
-    FACiL |< aN               `noun`    {- \|nifAF -}          [ "previously", "foregoing" ]
+    FACiL |< aN               `adv`     {- \|nifAF -}          [ "previously", "foregoing" ]
                               `plural`     HACiL
                               `plural`     FACiL
                            {- `others`  [ "'Anif NF" ] -},
@@ -7160,7 +7220,7 @@ lexicon = listing "Lexicon's properties"
     -- \|nf     |nif    NF      previously;foregoing     [[|nif/ADV]]
     -- Anf     |nif    NF      previously;foregoing     [[|nif/ADV]]
 
-    HACiL |< aN               `noun`    {- \|nifAF -}          [ "previously", "foregoing" ]
+    HACiL |< aN               `adv`     {- \|nifAF -}          [ "previously", "foregoing" ]
                               `plural`     HACiL
                               `plural`     FACiL
                            {- `others`  [ "'Anif NF" ] -},
@@ -7247,14 +7307,41 @@ lexicon = listing "Lexicon's properties"
     -- >n      >an     FW-Wa   to          [[>an/FUNC_WORD]]
     -- An      >an     FW-Wa   to          [[>an/FUNC_WORD]]
 
-    FaL                       `noun`    {- Oan -}              [ "to" ],
+    FaL                       `part`    {- Oan -}              [ "to" ],
+
+    -- ;; >an~a_1
+    -- >n      >an~a   FW-Wa   that     [[>an~a/FUNC_WORD]]
+    -- An      >an~a   FW-Wa   that     [[>an~a/FUNC_WORD]]
+    -- >n      >an~a   FW-Wa-n~a       that     [[>an~a/FUNC_WORD]]
+    -- An      >an~a   FW-Wa-n~a       that     [[>an~a/FUNC_WORD]]
+    -- >n      >an~    FW-Wa-n~        that     [[>an~/FUNC_WORD]]
+    -- An      >an~    FW-Wa-n~        that     [[>an~/FUNC_WORD]]
+
+    FaCL |<< "a"              `part`    {- Oan~a -}            [ "that" ]
+                              `plural`     FaCL
+                           {- `others`  [ "'ann FW-Wa-n~" ] -},
 
     -- ;; <in_1
     -- <n      <in     FW-Wa   if/whether       [[<in/FUNC_WORD]]
     -- An      <in     FW-Wa   if/whether       [[<in/FUNC_WORD]]
     -- >n      <in     FW-Wa   if/whether       [[<in/FUNC_WORD]]
 
-    FiL                       `noun`    {- Iin -}              [ "if/whether" ],
+    FiL                       `part`    {- Iin -}              [ "if/whether" ],
+
+    -- ;; <in~a_1
+    -- <n      <in~a   FW-Wa   that/indeed      [[<in~a/FUNC_WORD]]
+    -- An      <in~a   FW-Wa   that/indeed      [[<in~a/FUNC_WORD]]
+    -- <n      <in~a   FW-Wa-n~a       that/indeed      [[<in~a/FUNC_WORD]]
+    -- An      <in~a   FW-Wa-n~a       that/indeed      [[<in~a/FUNC_WORD]]
+    -- <n      <in~    FW-Wa-n~        that/indeed      [[<in~/FUNC_WORD]]
+    -- An      <in~    FW-Wa-n~        that/indeed      [[<in~/FUNC_WORD]]
+    -- >n      <in~a   FW-Wa   that/indeed      [[<in~a/FUNC_WORD]]
+    -- >n      <in~a   FW-Wa-n~a       that/indeed      [[<in~a/FUNC_WORD]]
+    -- >n      <in~    FW-Wa-n~        that/indeed      [[<in~/FUNC_WORD]]
+
+    FiCL |<< "a"              `part`    {- Iin~a -}            [ "that/indeed" ]
+                              `plural`     FiCL
+                           {- `others`  [ "'inn FW-Wa-n~" ] -},
 
     -- ;; >aniyn_1
     -- >nyn    >aniyn  N       moaning;sighing
@@ -7308,7 +7395,7 @@ lexicon = listing "Lexicon's properties"
     -- >nY     >an~aY  FW-Wa   where?;how?;however     [[>an~aY/CONJ]]
     -- AnY     >an~aY  FW-Wa   where?;how?;however     [[>an~aY/CONJ]]
 
-    FaCLY                     `noun`    {- Oan~aY -}           [ "where?", "how?", "however" ] ]
+    FaCLY                     `conj`    {- Oan~aY -}           [ "where?", "how?", "however" ] ]
 
  |> "' n q" <| [
 
@@ -7677,6 +7764,20 @@ lexicon = listing "Lexicon's properties"
 
     KiRDAS |< Iy |< At        `noun`    {- IinosAniy~At -}     [ "Humanities" ] ]
 
+ |> "' n t" <| [
+
+    -- ;; >anota_1
+    -- >nt     >anota  FW-Wa   you [masc.sg.]     [[>anota/PRON_2MS]]
+    -- Ant     >anota  FW-Wa   you [masc.sg.]     [[>anota/PRON_2MS]]
+
+    FaCL |<< "a"              `pron`    {- Oanota -}           [ "you [masc.sg.]" ],
+
+    -- ;; >anoti_1
+    -- >nt     >anoti  FW-Wa   you [fem.sg.]      [[>anoti/PRON_2FS]]
+    -- Ant     >anoti  FW-Wa   you [fem.sg.]      [[>anoti/PRON_2FS]]
+
+    FaCL |<< "i"              `pron`    {- Oanoti -}           [ "you [fem.sg.]" ] ]
+
  |> "' n t k" <| [
 
     -- ;; >anotiykap_1
@@ -7691,7 +7792,7 @@ lexicon = listing "Lexicon's properties"
     -- >w      >aw     FW-Wa   or     [[>aw/CONJ]]
     -- Aw      >aw     FW-Wa   or     [[>aw/CONJ]]
 
-    FaL                       `noun`    {- Oaw -}              [ "or" ] ]
+    FaL                       `conj`    {- Oaw -}              [ "or" ] ]
 
  |> "' n y" <| [
 
@@ -7699,14 +7800,14 @@ lexicon = listing "Lexicon's properties"
     -- >n      >an     FW-Wa   to          [[>an/FUNC_WORD]]
     -- An      >an     FW-Wa   to          [[>an/FUNC_WORD]]
 
-    FaC                       `noun`    {- Oan -}              [ "to" ],
+    FaC                       `part`    {- Oan -}              [ "to" ],
 
     -- ;; <in_1
     -- <n      <in     FW-Wa   if/whether       [[<in/FUNC_WORD]]
     -- An      <in     FW-Wa   if/whether       [[<in/FUNC_WORD]]
     -- >n      <in     FW-Wa   if/whether       [[<in/FUNC_WORD]]
 
-    FiC                       `noun`    {- Iin -}              [ "if/whether" ],
+    FiC                       `part`    {- Iin -}              [ "if/whether" ],
 
     -- ;; muta>an~iy_1
     -- mt>ny   muta>an~iy      N0F_Nh  circumspect;prudent
@@ -7834,7 +7935,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mu&aq~atAF_1
     -- m&qt    mu&aq~at        NF      temporarily;provisionally     [[mu&aq~at/ADV]]
 
-    MuFaCCaL |< aN            `noun`    {- muWaq~atAF -}       [ "temporarily", "provisionally" ]
+    MuFaCCaL |< aN            `adv`     {- muWaq~atAF -}       [ "temporarily", "provisionally" ]
                               `plural`     MuFaCCaL
                            {- `others`  [ "mu'aqqat NF" ] -} ]
 
@@ -8207,7 +8308,7 @@ lexicon = listing "Lexicon's properties"
     -- <rb     <irob   NF      piece by piece;to shreds     [[<irob/ADV]]
     -- Arb     <irob   NF      piece by piece;to shreds     [[<irob/ADV]]
 
-    FiCL |< aN                `noun`    {- IirobAF -}          [ "piece by piece", "to shreds" ]
+    FiCL |< aN                `adv`     {- IirobAF -}          [ "piece by piece", "to shreds" ]
                               `plural`     FiCL
                            {- `others`  [ "'irb NF" ] -},
 
@@ -9272,7 +9373,7 @@ lexicon = listing "Lexicon's properties"
     -- >sAs    >asAs   NF      primarily;basically     [[>asAs/ADV]]
     -- AsAs    >asAs   NF      primarily;basically     [[>asAs/ADV]]
 
-    FaCAL |< aN               `noun`    {- OasAsAF -}          [ "primarily", "basically" ]
+    FaCAL |< aN               `adv`     {- OasAsAF -}          [ "primarily", "basically" ]
                               `plural`     FaCAL
                            {- `others`  [ "'asAs NF" ] -},
 
@@ -9610,7 +9711,7 @@ lexicon = listing "Lexicon's properties"
     -- >swp    >usowapF        FW-Wa   just like     [[>usowapF/ADV]]
     -- Aswp    >usowapF        FW-Wa   just like     [[>usowapF/ADV]]
 
-    FuCL |< aT |< aN          `noun`    {- OusowapF -}         [ "just like" ],
+    FuCL |< aT |< aN          `adv`     {- OusowapF -}         [ "just like" ],
 
     -- ;; ma>osAp_1
     -- m>sA    ma>osA  Napdu   tragedy
@@ -10098,7 +10199,7 @@ lexicon = listing "Lexicon's properties"
     -- >w      >aw     FW-Wa   or     [[>aw/CONJ]]
     -- Aw      >aw     FW-Wa   or     [[>aw/CONJ]]
 
-    FaC                       `noun`    {- Oaw -}              [ "or" ],
+    FaC                       `conj`    {- Oaw -}              [ "or" ],
 
     -- ;; <iwA'_1
     -- <wA'    <iwA'   N0_Nh   sheltering;harboring;lodging
@@ -10546,7 +10647,7 @@ lexicon = listing "Lexicon's properties"
     -- \|ly     |liy~   NF      mechanically;automatically     [[|liy~/ADV]]
     -- Aly     |liy~   NF      mechanically;automatically     [[|liy~/ADV]]
 
-    FAL |< Iy |< aN           `adj`     {- \|liy~AF -}         [ "mechanically", "automatically" ],
+    FAL |< Iy |< aN           `adv`     {- \|liy~AF -}         [ "mechanically", "automatically" ],
 
     -- ;; |liy~ap_1
     -- \|ly     |liy~   Nap     automation;mechanism     [[|liy~/NOUN]]
@@ -10584,6 +10685,14 @@ lexicon = listing "Lexicon's properties"
 
     FaCLY |< Iy |< At         `noun`    {- Oawolawiy~At -}     [ "priorities" ] ]
 
+ |> "' w l '" <| [
+
+    -- ;; >uwlA'i_1
+    -- >wlA'   >uwlA'i FW-WaBi they/those     [[>uwlA'i/DEM_PRON_MP]]
+    -- AwlA'   >uwlA'i FW-WaBi they/those     [[>uwlA'i/DEM_PRON_MP]]
+
+    KuRDAS |<< "i"            `pron`    {- OuwlA'i -}          [ "they/those" ] ]
+
  |> "' w l f" <| [
 
     -- ;; >uwlAf_1
@@ -10606,7 +10715,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlw    >uwluw  FW-WaBi they/those     [[>uwluw/DEM_PRON_MP]]
     -- Awlw    >uwluw  FW-WaBi they/those     [[>uwluw/DEM_PRON_MP]]
 
-    KuRDU                     `noun`    {- Ouwluw -}           [ "they/those" ] ]
+    KuRDU                     `pron`    {- Ouwluw -}           [ "they/those" ] ]
 
  |> "' w l y" <| [
 
@@ -10614,7 +10723,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlw    >uwluw  FW-WaBi they/those     [[>uwluw/DEM_PRON_MP]]
     -- Awlw    >uwluw  FW-WaBi they/those     [[>uwluw/DEM_PRON_MP]]
 
-    KuRDU                     `noun`    {- Ouwluw -}           [ "they/those" ] ]
+    KuRDU                     `pron`    {- Ouwluw -}           [ "they/those" ] ]
 
  |> "' w m" <| [
 
@@ -10649,6 +10758,12 @@ lexicon = listing "Lexicon's properties"
     -- An      |n      N       time;moment
 
     FAL                       `noun`    {- \|n -}              [ "time", "moment" ],
+
+    -- ;; Al|na_1
+    -- Al|n    Al|na   FW-Wa   now     [[Al|na/ADV]]
+    -- AlAn    Al|na   FW-Wa   now     [[Al|na/ADV]]
+
+    al >| FAL |<< "a"         `adv`     {- Al|na -}            [ "now" ],
 
     -- ;; |niy~_1
     -- \|ny     |niy~   Nall    actual;present;simultaneous     [[|niy~/ADJ]]
@@ -11017,7 +11132,7 @@ lexicon = listing "Lexicon's properties"
     -- >yD     >ayoD   NF      also     [[>ayoD/ADV]]
     -- AyD     >ayoD   NF      also     [[>ayoD/ADV]]
 
-    FaCL |< aN                `noun`    {- OayoDAF -}          [ "also" ]
+    FaCL |< aN                `adv`     {- OayoDAF -}          [ "also" ]
                               `plural`     FaCL
                            {- `others`  [ "'ay.d NF" ] -},
 
@@ -11274,6 +11389,24 @@ lexicon = listing "Lexicon's properties"
 
  |> "' y k" <| [
 
+    -- ;; <iy~Aka_2
+    -- <yAk    <iy~Aka FW-Wa   be careful! + you [masc.sg.]   [[<iy~A/PREP+ka/PRON_2MS]]
+    -- <yAk    <iy~Aki FW-Wa   be careful! + you [fem.sg.]    [[<iy~A/PREP+ki/PRON_2FS]]
+    -- <yAkmA  <iy~AkumA       FW-Wa   be careful! + you (both)       [[<iy~A/PREP+kumA/PRON_2D]]
+    -- <yAkm   <iy~Akum        FW-Wa   be careful! + you [masc.pl.]   [[<iy~A/PREP+kum/PRON_2MP]]
+    -- <yAkn   <iy~Akun~a      FW-Wa   be careful! + you [fem.pl.]    [[<iy~A/PREP+kun~a/PRON_2FP]]
+
+    HICAL |<< "a"             `prep`    {- Iiy~Aka -}          [ "be careful! + you [masc.sg.]", "be careful! + you [fem.sg.]", "be careful! + you (both)", "be careful! + you [masc.pl.]", "be careful! + you [fem.pl.]" ],
+
+    -- ;; <iy~Aka_2
+    -- <yAk    <iy~Aka FW-Wa   be careful! + you [masc.sg.]   [[<iy~A/PREP+ka/PRON_2MS]]
+    -- <yAk    <iy~Aki FW-Wa   be careful! + you [fem.sg.]    [[<iy~A/PREP+ki/PRON_2FS]]
+    -- <yAkmA  <iy~AkumA       FW-Wa   be careful! + you (both)       [[<iy~A/PREP+kumA/PRON_2D]]
+    -- <yAkm   <iy~Akum        FW-Wa   be careful! + you [masc.pl.]   [[<iy~A/PREP+kum/PRON_2MP]]
+    -- <yAkn   <iy~Akun~a      FW-Wa   be careful! + you [fem.pl.]    [[<iy~A/PREP+kun~a/PRON_2FP]]
+
+    FICAL |<< "a"             `prep`    {- Iiy~Aka -}          [ "be careful! + you [masc.sg.]", "be careful! + you [fem.sg.]", "be careful! + you (both)", "be careful! + you [masc.pl.]", "be careful! + you [fem.pl.]" ],
+
     -- ;; >ayokap_1
     -- >yk     >ayok   Napdu   jungle;thicket
     -- Ayk     >ayok   Napdu   jungle;thicket
@@ -11487,6 +11620,18 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- OayAn -}            [ "Ayan" ],
 
+    -- ;; >ayona_1
+    -- >yn     >ayona  FW-Wa   where         [[>ayona/REL_PRON]]
+    -- Ayn     >ayona  FW-Wa   where         [[>ayona/REL_PRON]]
+
+    FaCL |<< "a"              `pron`    {- Oayona -}           [ "where" ],
+
+    -- ;; >ayona_2
+    -- >yn     >ayona  FW-Wa   where         [[>ayona/INTERROG_PART]]
+    -- Ayn     >ayona  FW-Wa   where         [[>ayona/INTERROG_PART]]
+
+    FaCL |<< "a"              `part`    {- Oayona -}           [ "where" ],
+
     -- ;; >ay~an_1
     -- >yn     >ay~an  PV-n    ionize
     -- Ayn     >ay~an  PV-n    ionize
@@ -11648,13 +11793,13 @@ lexicon = listing "Lexicon's properties"
     -- >y      >ayo    FW      i.e.;in other words     [[>ayo/CONJ]]
     -- Ay      >ayo    FW      i.e.;in other words     [[>ayo/CONJ]]
 
-    FaL                       `noun`    {- Oayo -}             [ "i.e.", "in other words" ],
+    FaL                       `conj`    {- Oayo -}             [ "i.e.", "in other words" ],
 
     -- ;; >ayo_1
     -- >y      >ayo    FW      i.e.;in other words     [[>ayo/CONJ]]
     -- Ay      >ayo    FW      i.e.;in other words     [[>ayo/CONJ]]
 
-    FaC                       `noun`    {- Oayo -}             [ "i.e.", "in other words" ],
+    FaC                       `conj`    {- Oayo -}             [ "i.e.", "in other words" ],
 
     -- ;; >ay~_1
     -- >y      >ay~    FW-WaBi any     [[>ay~/REL_PRON]]
@@ -11664,13 +11809,13 @@ lexicon = listing "Lexicon's properties"
     -- >yp     >ay~ap  FW-WaBi any     [[>ay~ap/REL_PRON]]
     -- Ayp     >ay~ap  FW-WaBi any     [[>ay~ap/REL_PRON]]
 
-    FaCL                      `noun`    {- Oay~ -}             [ "any", "what", "which" ],
+    FaCL                      `pron`    {- Oay~ -}             [ "any", "what", "which" ],
 
     -- ;; >ay~AF_1
     -- >yA     >ay~AF  FW-Wa   whatever;whichever     [[>ay~AF/FUNC_WORD]]
     -- AyA     >ay~AF  FW-Wa   whatever;whichever     [[>ay~AF/FUNC_WORD]]
 
-    FaCL |< aN                `noun`    {- Oay~AF -}           [ "whatever", "whichever" ],
+    FaCL |< aN                `part`    {- Oay~AF -}           [ "whatever", "whichever" ],
 
     -- ;; >ay~_2
     -- >y      >ay~    FW-WaBi which                              [[>ay~/INTERROG_PART]]
@@ -11706,7 +11851,7 @@ lexicon = listing "Lexicon's properties"
     -- Aytkn   >ay~tkn~a       FW-WaBi which one of you [fem.pl.]         [[>ay~ap/INTERROG_PART+kun~a/PRON_2FP]]
     -- AytnA   >ay~tnA FW-WaBi which one of us                    [[>ay~ap/INTERROG_PART+nA/PRON_1P]]
 
-    FaCL                      `noun`    {- Oay~ -}             [ "which", "which one of the two", "which one of them [masc.pl.]", "which one of them", "which one of them [fem.pl.]", "which one of you two", "which one of you [masc.pl.]", "which one of you [fem.pl.]", "which one of us", "which one of you two [fem.du.]" ],
+    FaCL                      `part`    {- Oay~ -}             [ "which", "which one of the two", "which one of them [masc.pl.]", "which one of them", "which one of them [fem.pl.]", "which one of you two", "which one of you [masc.pl.]", "which one of you [fem.pl.]", "which one of us", "which one of you two [fem.du.]" ],
 
     -- ;; |yap_1
     -- \|y      |y      NapAt   Quranic verse;miracle;sign;wonder
@@ -11746,7 +11891,7 @@ lexicon = listing "Lexicon's properties"
     -- b<zA}   bi<izA} FW-Wa-o towards;facing;regarding;vis-a-vis     [[bi<izA}i/PREP]]
     -- bAzA}   bi<izA} FW-Wa-o towards;facing;regarding;vis-a-vis     [[bi<izA}i/PREP]]
 
-    FiCAL                     `noun`    {- IizA' -}            [ "towards", "facing", "regarding", "vis-a-vis" ] ]
+    FiCAL                     `prep`    {- IizA' -}            [ "towards", "facing", "regarding", "vis-a-vis" ] ]
 
  |> "' z .h" <| [
 
@@ -12156,7 +12301,7 @@ lexicon = listing "Lexicon's properties"
     -- b<zA}   bi<izA} FW-Wa-o towards;facing;regarding;vis-a-vis     [[bi<izA}i/PREP]]
     -- bAzA}   bi<izA} FW-Wa-o towards;facing;regarding;vis-a-vis     [[bi<izA}i/PREP]]
 
-    FiCA'                     `noun`    {- IizA' -}            [ "towards", "facing", "regarding", "vis-a-vis" ] ]
+    FiCA'                     `prep`    {- IizA' -}            [ "towards", "facing", "regarding", "vis-a-vis" ] ]
 
  |> "' z z" <| [
 
@@ -12240,35 +12385,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- \|nA -}             [ "Anna" ] ]
 
- |> "'AnA'a" <| [
-
-    -- ;; |nA'a_1
-    -- \|nA'    |nA'a   FW-Wa   during     [[|nA'a/PREP]]
-    -- AnA'    |nA'a   FW-Wa   during     [[|nA'a/PREP]]
-    -- \|nA'    |nA'i   FW-Wa   during     [[|nA'i/PREP]]
-    -- AnA'    |nA'i   FW-Wa   during     [[|nA'i/PREP]]
-    -- \|nA'    |nA'a   FW-Wa-a during     [[|nA'a/PREP]]
-    -- AnA'    |nA'a   FW-Wa-a during     [[|nA'a/PREP]]
-    -- \|nA}    |nA'}   FW-Wa-i during     [[|nA}i/PREP]]
-    -- AnA}    |nA'}   FW-Wa-i during     [[|nA}i/PREP]]
-
-    Identity                  `noun`    {- \|nA'a -}           [ "during" ] ]
-
- |> "'Ana" <| [
-
-    -- ;; Al|na_1
-    -- Al|n    Al|na   FW-Wa   now     [[Al|na/ADV]]
-    -- AlAn    Al|na   FW-Wa   now     [[Al|na/ADV]]
-
-    al >| Identity            `noun`    {- Al|na -}            [ "now" ] ]
-
  |> "'Ana'i_diN" <| [
 
     -- ;; |na}i*K_1
     -- \|n}*    |na}i*K FW-Wa   then;at that time      [[|na}i*K/ADV]]
     -- An}*    |na}i*K FW-Wa   then;at that time      [[|na}i*K/ADV]]
 
-    Identity                  `noun`    {- \|na}i*K -}         [ "then", "at that time" ] ]
+    Identity                  `adv`     {- \|na}i*K -}         [ "then", "at that time" ] ]
 
  |> "'Ana_dAk" <| [
 
@@ -12276,7 +12399,7 @@ lexicon = listing "Lexicon's properties"
     -- \|n*Ak   |na*Ak  FW-Wa   then;at that time      [[|na*Ak/ADV]]
     -- An*Ak   |na*Ak  FW-Wa   then;at that time      [[|na*Ak/ADV]]
 
-    Identity                  `noun`    {- \|na*Ak -}          [ "then", "at that time" ] ]
+    Identity                  `adv`     {- \|na*Ak -}          [ "then", "at that time" ] ]
 
  |> "'Anuk" <| [
 
@@ -13076,7 +13199,7 @@ lexicon = listing "Lexicon's properties"
     -- >lA     >al~A   FW-WaBi (in order) not to     [[>an/CONJ+lA/NEG_PART]]
     -- AlA     >al~A   FW-WaBi (in order) not to     [[>an/CONJ+lA/NEG_PART]]
 
-    Identity                  `noun`    {- Oal~A -}            [ "(in order) not to" ] ]
+    Identity                  `part`    {- Oal~A -}            [ "(in order) not to" ] ]
 
  |> "'almAniyA" <| [
 
@@ -13125,22 +13248,6 @@ lexicon = listing "Lexicon's properties"
     -- AmAdwrA >amAduwrA       Nprop   Amadora
 
     Identity                  `noun`    {- OamAduwrA -}        [ "Amadora" ] ]
-
- |> "'amAma" <| [
-
-    -- ;; >amAma_1
-    -- >mAm    >amAma  FW-Wa   in front of;facing     [[>amAma/PREP]]
-    -- AmAm    >amAma  FW-Wa   in front of;facing     [[>amAma/PREP]]
-    -- >mAm    >amAmi  FW-Wa   in front of;facing     [[>amAmi/PREP]]
-    -- AmAm    >amAmi  FW-Wa   in front of;facing     [[>amAmi/PREP]]
-    -- >mAm    >amAma  FW-Wa-a in front of;facing     [[>amAma/PREP]]
-    -- AmAm    >amAma  FW-Wa-a in front of;facing     [[>amAma/PREP]]
-    -- >mAm    >amAmi  FW-Wa-i in front of;facing     [[>amAmi/PREP]]
-    -- AmAm    >amAmi  FW-Wa-i in front of;facing     [[>amAmi/PREP]]
-    -- >mAm    >amAm   FW-Wa-o in front of;facing     [[>amAm/PREP]]
-    -- AmAm    >amAm   FW-Wa-o in front of;facing     [[>amAm/PREP]]
-
-    Identity                  `noun`    {- OamAma -}           [ "in front of", "facing" ] ]
 
  |> "'amAndA" <| [
 
@@ -13205,7 +13312,7 @@ lexicon = listing "Lexicon's properties"
     -- AmA     >am~A   FW-Wa   as for;concerning      [[>am~A/PREP]]
     -- <mA     >am~A   FW-Wa   as for;concerning      [[>am~A/PREP]]
 
-    Identity                  `noun`    {- Oam~A -}            [ "as for", "concerning" ] ]
+    Identity                  `prep`    {- Oam~A -}            [ "as for", "concerning" ] ]
 
  |> "'amnistiy" <| [
 
@@ -13691,18 +13798,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OanokuwlA -}        [ "Angola" ] ]
 
- |> "'anna" <| [
-
-    -- ;; >an~a_1
-    -- >n      >an~a   FW-Wa   that     [[>an~a/FUNC_WORD]]
-    -- An      >an~a   FW-Wa   that     [[>an~a/FUNC_WORD]]
-    -- >n      >an~a   FW-Wa-n~a       that     [[>an~a/FUNC_WORD]]
-    -- An      >an~a   FW-Wa-n~a       that     [[>an~a/FUNC_WORD]]
-    -- >n      >an~    FW-Wa-n~        that     [[>an~/FUNC_WORD]]
-    -- An      >an~    FW-Wa-n~        that     [[>an~/FUNC_WORD]]
-
-    Identity                  `noun`    {- Oan~a -}            [ "that" ] ]
-
  |> "'anqaliys" <| [
 
     -- ;; >anoqaliys_1
@@ -13728,22 +13823,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- Oanoqlazap -}       [ "Anglicization" ] ]
 
- |> "'anta" <| [
-
-    -- ;; >anota_1
-    -- >nt     >anota  FW-Wa   you [masc.sg.]     [[>anota/PRON_2MS]]
-    -- Ant     >anota  FW-Wa   you [masc.sg.]     [[>anota/PRON_2MS]]
-
-    Identity                  `noun`    {- Oanota -}           [ "you [masc.sg.]" ] ]
-
- |> "'anti" <| [
-
-    -- ;; >anoti_1
-    -- >nt     >anoti  FW-Wa   you [fem.sg.]      [[>anoti/PRON_2FS]]
-    -- Ant     >anoti  FW-Wa   you [fem.sg.]      [[>anoti/PRON_2FS]]
-
-    Identity                  `noun`    {- Oanoti -}           [ "you [fem.sg.]" ] ]
-
  |> "'antiyk_hAn" <| [
 
     -- ;; >anotiykoxAnap_1
@@ -13766,7 +13845,7 @@ lexicon = listing "Lexicon's properties"
     -- >ntm    >anotum FW-Wa   you [masc.pl.]     [[>anotum/PRON_2MP]]
     -- Antm    >anotum FW-Wa   you [masc.pl.]     [[>anotum/PRON_2MP]]
 
-    Identity                  `noun`    {- Oanotum -}          [ "you [masc.pl.]" ] ]
+    Identity                  `pron`    {- Oanotum -}          [ "you [masc.pl.]" ] ]
 
  |> "'antumA" <| [
 
@@ -13774,15 +13853,15 @@ lexicon = listing "Lexicon's properties"
     -- >ntmA   >anotumA        FW-Wa   you both           [[>anotumA/PRON_2D]]
     -- AntmA   >anotumA        FW-Wa   you both           [[>anotumA/PRON_2D]]
 
-    Identity                  `noun`    {- OanotumA -}         [ "you both" ] ]
+    Identity                  `pron`    {- OanotumA -}         [ "you both" ] ]
 
- |> "'antunna" <| [
+ |> "'antunn" <| [
 
     -- ;; >anotun~a_1
     -- >ntn    >anotun~a       FW-Wa   you [fem.pl.]      [[>anotun~a/PRON_2FP]]
     -- Antn    >anotun~a       FW-Wa   you [fem.pl.]      [[>anotun~a/PRON_2FP]]
 
-    Identity                  `noun`    {- Oanotun~a -}        [ "you [fem.pl.]" ] ]
+    Identity |<< "a"          `pron`    {- Oanotun~a -}        [ "you [fem.pl.]" ] ]
 
  |> "'antuwniy" <| [
 
@@ -14438,27 +14517,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Oayon$tAyn -}       [ "Einstein" ] ]
 
- |> "'ayna" <| [
-
-    -- ;; >ayona_1
-    -- >yn     >ayona  FW-Wa   where         [[>ayona/REL_PRON]]
-    -- Ayn     >ayona  FW-Wa   where         [[>ayona/REL_PRON]]
-
-    Identity                  `noun`    {- Oayona -}           [ "where" ],
-
-    -- ;; >ayona_2
-    -- >yn     >ayona  FW-Wa   where         [[>ayona/INTERROG_PART]]
-    -- Ayn     >ayona  FW-Wa   where         [[>ayona/INTERROG_PART]]
-
-    Identity                  `noun`    {- Oayona -}           [ "where" ] ]
-
  |> "'aynamA" <| [
 
     -- ;; >ayonamA_1
     -- >ynmA   >ayonamA        FW-Wa   wherever      [[>ayonamA/CONJ]]
     -- AynmA   >ayonamA        FW-Wa   wherever      [[>ayonamA/CONJ]]
 
-    Identity                  `noun`    {- OayonamA -}         [ "wherever" ] ]
+    Identity                  `conj`    {- OayonamA -}         [ "wherever" ] ]
 
  |> "'ayndhuwfin" <| [
 
@@ -14505,7 +14570,7 @@ lexicon = listing "Lexicon's properties"
     -- >ythA   >ay~atuhA       FW-Wa   O! [voc.fem.]      [[>ay~atuhA/FUNC_WORD]]
     -- AythA   >ay~atuhA       FW-Wa   O! [voc.fem.]      [[>ay~atuhA/FUNC_WORD]]
 
-    Identity                  `noun`    {- Oay~uhA -}          [ "O! [voc.masc.]", "O! [voc.fem.]" ] ]
+    Identity                  `part`    {- Oay~uhA -}          [ "O! [voc.masc.]", "O! [voc.fem.]" ] ]
 
  |> "'ayyumA" <| [
 
@@ -14513,7 +14578,7 @@ lexicon = listing "Lexicon's properties"
     -- >ymA    >ay~umA FW-Wa   much;greatly     [[>ay~umA/ADV]]
     -- AymA    >ay~umA FW-Wa   much;greatly     [[>ay~umA/ADV]]
 
-    Identity                  `noun`    {- Oay~umA -}          [ "much", "greatly" ] ]
+    Identity                  `adv`     {- Oay~umA -}          [ "much", "greatly" ] ]
 
  |> "'azaliyy" <| [
 
@@ -14533,7 +14598,7 @@ lexicon = listing "Lexicon's properties"
     -- >zly    >azaliy~        NF      eternally     [[>azaliy~/ADV]]
     -- Azly    >azaliy~        NF      eternally     [[>azaliy~/ADV]]
 
-    Identity |< aN            `noun`    {- Oazaliy~AF -}       [ "eternally" ] ]
+    Identity |< aN            `adv`     {- Oazaliy~AF -}       [ "eternally" ] ]
 
  |> "'azdara_ht" <| [
 
@@ -14616,7 +14681,7 @@ lexicon = listing "Lexicon's properties"
     -- <*A     <i*A    FW-Wa   if/whether             [[<i*A/CONJ]]
     -- A*A     <i*A    FW-Wa   if/whether             [[<i*A/CONJ]]
 
-    Identity                  `noun`    {- Ii*A -}             [ "if/whether" ] ]
+    Identity                  `conj`    {- Ii*A -}             [ "if/whether" ] ]
 
  |> "'i_tnuw^grAfiyA" <| [
 
@@ -14643,16 +14708,6 @@ lexicon = listing "Lexicon's properties"
     -- AvnwlwjyA       <ivonuwluwjiyA  N0      ethnology
 
     Identity                  `noun`    {- IivonuwluwjiyA -}   [ "ethnology" ] ]
-
- |> "'i_tra" <| [
-
-    -- ;; <ivora_1
-    -- <vr     <ivora  FW-Wa   right after     [[<ivora/PREP]]
-    -- Avr     <ivora  FW-Wa   right after     [[<ivora/PREP]]
-    -- <vr     <ivora  FW-Wa-a right after     [[<ivora/PREP]]
-    -- Avr     <ivora  FW-Wa-a right after     [[<ivora/PREP]]
-
-    Identity                  `noun`    {- Iivora -}           [ "right after" ] ]
 
  |> "'ibistiymuwluw^g" <| [
 
@@ -15050,7 +15105,7 @@ lexicon = listing "Lexicon's properties"
     -- AmA     <im~A   FW-Wa   either     [[<im~A/CONJ]]
     -- >mA     <im~A   FW-Wa   either     [[<im~A/CONJ]]
 
-    Identity                  `noun`    {- Iim~A -}            [ "either" ] ]
+    Identity                  `conj`    {- Iim~A -}            [ "either" ] ]
 
  |> "'imma`" <| [
 
@@ -15226,28 +15281,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy |< aT      `noun`    {- Iinokliyziy~ap -}   [ "English (language)" ] ]
 
- |> "'inna" <| [
-
-    -- ;; <in~a_1
-    -- <n      <in~a   FW-Wa   that/indeed      [[<in~a/FUNC_WORD]]
-    -- An      <in~a   FW-Wa   that/indeed      [[<in~a/FUNC_WORD]]
-    -- <n      <in~a   FW-Wa-n~a       that/indeed      [[<in~a/FUNC_WORD]]
-    -- An      <in~a   FW-Wa-n~a       that/indeed      [[<in~a/FUNC_WORD]]
-    -- <n      <in~    FW-Wa-n~        that/indeed      [[<in~/FUNC_WORD]]
-    -- An      <in~    FW-Wa-n~        that/indeed      [[<in~/FUNC_WORD]]
-    -- >n      <in~a   FW-Wa   that/indeed      [[<in~a/FUNC_WORD]]
-    -- >n      <in~a   FW-Wa-n~a       that/indeed      [[<in~a/FUNC_WORD]]
-    -- >n      <in~    FW-Wa-n~        that/indeed      [[<in~/FUNC_WORD]]
-
-    Identity                  `noun`    {- Iin~a -}            [ "that/indeed" ] ]
-
  |> "'innamA" <| [
 
     -- ;; <in~amA_1
     -- <nmA    <in~amA FW-Wa   but rather;on the contrary      [[<in~amA/CONJ]]
     -- AnmA    <in~amA FW-Wa   but rather;on the contrary      [[<in~amA/CONJ]]
 
-    Identity                  `noun`    {- Iin~amA -}          [ "but rather", "on the contrary" ] ]
+    Identity                  `conj`    {- Iin~amA -}          [ "but rather", "on the contrary" ] ]
 
  |> "'inqliyz" <| [
 
@@ -16372,18 +16412,7 @@ lexicon = listing "Lexicon's properties"
     -- <yA     <iy~A   FW-Wa-A to;for;(accus.)     [[<iy~A/FUNC_WORD]]
     -- AyA     <iy~A   FW-Wa-A to;for;(accus.)     [[<iy~A/FUNC_WORD]]
 
-    Identity                  `noun`    {- Iiy~A- -}           [ "to", "for", "(accus.)" ] ]
-
- |> "'iyyAka" <| [
-
-    -- ;; <iy~Aka_2
-    -- <yAk    <iy~Aka FW-Wa   be careful! + you [masc.sg.]   [[<iy~A/PREP+ka/PRON_2MS]]
-    -- <yAk    <iy~Aki FW-Wa   be careful! + you [fem.sg.]    [[<iy~A/PREP+ki/PRON_2FS]]
-    -- <yAkmA  <iy~AkumA       FW-Wa   be careful! + you (both)       [[<iy~A/PREP+kumA/PRON_2D]]
-    -- <yAkm   <iy~Akum        FW-Wa   be careful! + you [masc.pl.]   [[<iy~A/PREP+kum/PRON_2MP]]
-    -- <yAkn   <iy~Akun~a      FW-Wa   be careful! + you [fem.pl.]    [[<iy~A/PREP+kun~a/PRON_2FP]]
-
-    Identity                  `noun`    {- Iiy~Aka -}          [ "be careful! + you [masc.sg.]", "be careful! + you [fem.sg.]", "be careful! + you (both)", "be careful! + you [masc.pl.]", "be careful! + you [fem.pl.]" ] ]
+    Identity                  `part`    {- Iiy~A- -}           [ "to", "for", "(accus.)" ] ]
 
  |> "'l_h" <| [
 
@@ -16395,14 +16424,6 @@ lexicon = listing "Lexicon's properties"
     -- <lx     <lx     FW-Wa   etc.     [[<lx/ABBREV]]
 
     Identity                  `noun`    {- Olx -}              [ "etc." ] ]
-
- |> "'u.hAda" <| [
-
-    -- ;; >uHAda_1
-    -- >HAd    >uHAda  FW-WaBi one-by-one     [[>uHAda/ADV]]
-    -- AHAd    >uHAda  FW-WaBi one-by-one     [[>uHAda/ADV]]
-
-    Identity                  `noun`    {- OuHAda -}           [ "one-by-one" ] ]
 
  |> "'u.tru.gull" <| [
 
@@ -16889,15 +16910,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OuwlogA -}          [ "Olga" ] ]
 
- |> "'uwlA'i" <| [
-
-    -- ;; >uwlA'i_1
-    -- >wlA'   >uwlA'i FW-WaBi they/those     [[>uwlA'i/DEM_PRON_MP]]
-    -- AwlA'   >uwlA'i FW-WaBi they/those     [[>uwlA'i/DEM_PRON_MP]]
-
-    Identity                  `noun`    {- OuwlA'i -}          [ "they/those" ] ]
-
- |> "'uwlA'ika" <| [
+ |> "'uwlA'ik" <| [
 
     -- ;; >uwlA}ika_1
     -- >wlA}k  >uwlA}ika       FW-WaBi they/those     [[>uwlA}ika/DEM_PRON_MP]]
@@ -16905,7 +16918,7 @@ lexicon = listing "Lexicon's properties"
     -- >wl}k   >uwla}ika       FW-WaBi they/those     [[>uwla}ika/DEM_PRON_MP]]
     -- Awl}k   >uwla}ika       FW-WaBi they/those     [[>uwla}ika/DEM_PRON_MP]]
 
-    Identity                  `noun`    {- OuwlA}ika -}        [ "they/those" ] ]
+    Identity |<< "a"          `pron`    {- OuwlA}ika -}        [ "they/those" ] ]
 
  |> "'uwlbrAyt" <| [
 
@@ -17524,7 +17537,7 @@ lexicon = listing "Lexicon's properties"
     -- xwy     xuway   N0_Nh   little brother
     -- xwy     xuway~a FW-WaBi little brother + my      [[xuway~/NOUN+iy/POSS_PRON_1S]]
 
-    Identity                  `noun`    {- xuway -}            [ "little brother", "little brother + my" ] ]
+    Identity                  `pron`    {- xuway -}            [ "little brother", "little brother + my" ] ]
 
  |> "bi'an" <| [
 
@@ -17532,9 +17545,9 @@ lexicon = listing "Lexicon's properties"
     -- b>n     bi>an   FW-Wa   with + that          [[bi/PREP+>an/FUNC_WORD]]
     -- bAn     bi>an   FW-Wa   with + that          [[bi/PREP+>an/FUNC_WORD]]
 
-    Identity                  `noun`    {- biOan -}            [ "with + that" ] ]
+    Identity                  `part`    {- biOan -}            [ "with + that" ] ]
 
- |> "bi'anna" <| [
+ |> "bi'ann" <| [
 
     -- ;; bi>an~a_1
     -- b>n     bi>an~a FW-Wa   with + that     [[bi/PREP+>an~a/FUNC_WORD]]
@@ -17544,15 +17557,15 @@ lexicon = listing "Lexicon's properties"
     -- b>n     bi>an~  FW-Wa-n~        with + that     [[bi/PREP+>an~/FUNC_WORD]]
     -- bAn     bi>an~  FW-Wa-n~        with + that     [[bi/PREP+>an~/FUNC_WORD]]
 
-    Identity                  `noun`    {- biOan~a -}          [ "with + that" ] ]
+    Identity |<< "a"          `part`    {- biOan~a -}          [ "with + that" ] ]
 
- |> "bi'asri" <| [
+ |> "bi'asr" <| [
 
     -- ;; bi>asori_1
     -- b>sr    bi>asori        FW-Wa-i completely;all of     [[bi>asori/ADV]]
     -- bAsr    bi>asori        FW-Wa-i completely;all of     [[bi>asori/ADV]]
 
-    Identity                  `noun`    {- biOasori -}         [ "completely", "all of" ] ]
+    Identity |<< "i"          `adv`     {- biOasori -}         [ "completely", "all of" ] ]
 
  |> "biAlta'kiyd" <| [
 
@@ -17560,7 +17573,7 @@ lexicon = listing "Lexicon's properties"
     -- bAlt>kyd        biAlta>okiyd    FW-Wa   certainly;undoubtedly  [[biAlta>okiyd/ADV]]
     -- bAltAkyd        biAlta>okiyd    FW-Wa   certainly;undoubtedly  [[biAlta>okiyd/ADV]]
 
-    Identity                  `noun`    {- biAltaOokiyd -}     [ "certainly", "undoubtedly" ] ]
+    Identity                  `adv`     {- biAltaOokiyd -}     [ "certainly", "undoubtedly" ] ]
 
  |> "ibn" <| [
 
@@ -17596,14 +17609,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- Aisotiy~ -}         [ "anal" ] ]
 
- |> "ka'anna" <| [
+ |> "ka'ann" <| [
 
     -- ;; ka>an~a_1
     -- k>n     ka>an~a FW-Wa   as if     [[ka>an~a/CONJ]]
     -- k>n     ka>an~a FW-Wa-n~a       as if     [[ka>an~a/CONJ]]
     -- k>n     ka>an~  FW-Wa-n~        as if     [[ka>an~/CONJ]]
 
-    Identity                  `noun`    {- kaOan~a -}          [ "as if" ] ]
+    Identity |<< "a"          `conj`    {- kaOan~a -}          [ "as if" ] ]
 
  |> "ka'annamA" <| [
 
@@ -17611,14 +17624,14 @@ lexicon = listing "Lexicon's properties"
     -- k>nmA   ka>an~amA       FW-Wa   as if     [[ka>an~amA/CONJ]]
     -- kAnmA   ka>an~amA       FW-Wa   as if     [[ka>an~amA/CONJ]]
 
-    Identity                  `noun`    {- kaOan~amA -}        [ "as if" ] ]
+    Identity                  `conj`    {- kaOan~amA -}        [ "as if" ] ]
 
- |> "la'inna" <| [
+ |> "la'inn" <| [
 
     -- ;; la}in~a_1
     -- l}n     la}in~a FW-Wa   truly;indeed     [[la}in~a/FUNC_WORD]]
 
-    Identity                  `noun`    {- la}in~a -}          [ "truly", "indeed" ] ]
+    Identity |<< "a"          `part`    {- la}in~a -}          [ "truly", "indeed" ] ]
 
  |> "la_diy" <| [
 
@@ -17636,14 +17649,14 @@ lexicon = listing "Lexicon's properties"
     -- AllwAty All~awAtiy      FW-Wa   who;whom                    [[All~awAtiy/REL_PRON]]
     -- AlltyA  All~utay~A      FW-Wa   who's and whom's            [[All~utay~A/REL_PRON]]
 
-    al >| Identity            `noun`    {- Al~a*iy -}          [ "which", "who", "whom", "which/who/whom [fem.sg.]", "which/who/whom [du.]", "which/who/whom [fem.du.]", "who/whom [pl.]", "with/by + those (people) who/whom [pl.]", "to/for + those (people) who/whom [pl.]", "who/whom [fem.pl.]", "who's and whom's" ] ]
+    al >| Identity            `prep`    {- Al~a*iy -}          [ "which", "who", "whom", "which/who/whom [fem.sg.]", "which/who/whom [du.]", "which/who/whom [fem.du.]", "who/whom [pl.]", "with/by + those (people) who/whom [pl.]", "to/for + those (people) who/whom [pl.]", "who/whom [fem.pl.]", "who's and whom's" ] ]
 
  |> "li'allA" <| [
 
     -- ;; li}al~A_1
     -- l}lA    li}al~A FW-Wa   in order not to     [[li}al~A/CONJ]]
 
-    Identity                  `noun`    {- li}al~A -}          [ "in order not to" ] ]
+    Identity                  `conj`    {- li}al~A -}          [ "in order not to" ] ]
 
  |> "li'an" <| [
 
@@ -17651,9 +17664,9 @@ lexicon = listing "Lexicon's properties"
     -- l>n     li>an   FW-Wa   in order to    [[li>an/CONJ]]
     -- lAn     li>an   FW-Wa   in order to    [[li>an/CONJ]]
 
-    Identity                  `noun`    {- liOan -}            [ "in order to" ] ]
+    Identity                  `conj`    {- liOan -}            [ "in order to" ] ]
 
- |> "li'anna" <| [
+ |> "li'ann" <| [
 
     -- ;; li>an~a_1
     -- l>n     li>an~a FW-Wa   because     [[li>an~a/CONJ]]
@@ -17663,14 +17676,14 @@ lexicon = listing "Lexicon's properties"
     -- l>n     li>an~  FW-Wa-n~        because     [[li>an~/CONJ]]
     -- lAn     li>an~  FW-Wa-n~        because     [[li>an~/CONJ]]
 
-    Identity                  `noun`    {- liOan~a -}          [ "because" ] ]
+    Identity |<< "a"          `conj`    {- liOan~a -}          [ "because" ] ]
 
- |> "ll_ahumma" <| [
+ |> "ll_ahumm" <| [
 
     -- ;; All~`hum~a_1
     -- Allhm   All~`hum~a      FW-Wa   truly;certainly;oh God!;dear God
 
-    al >| Identity            `noun`    {- All~`hum~a -}       [ "truly", "certainly", "oh God!", "dear God" ] ]
+    al >| Identity |<< "a"    `noun`    {- All~`hum~a -}       [ "truly", "certainly", "oh God!", "dear God" ] ]
 
  |> "llah" <| [
 
@@ -17679,7 +17692,7 @@ lexicon = listing "Lexicon's properties"
     -- llh     lil~`hi FW-Wa   to/for God/Allah    [[li/PREP+All~`h/NOUN_PROP]]
     -- bAllh   biAll~`hi       FW-Wa   by God/Allah        [[bi/PREP+All~`h/NOUN_PROP]]
 
-    al >| Identity            `noun`    {- All~ah -}           [ "Allah", "God", "to/for God/Allah", "by God/Allah" ] ]
+    al >| Identity            `prep`    {- All~ah -}           [ "Allah", "God", "to/for God/Allah", "by God/Allah" ] ]
 
  |> "ma'dub" <| [
 
@@ -17795,7 +17808,7 @@ lexicon = listing "Lexicon's properties"
     -- wAn     wa<in   FW      even if          [[wa<in/CONJ]]
     -- w>n     wa<in   FW      even if          [[wa<in/CONJ]]
 
-    Identity                  `noun`    {- waIin -}            [ "even if" ] ]
+    Identity                  `conj`    {- waIin -}            [ "even if" ] ]
 
  |> "wst" <| [
 
@@ -17812,7 +17825,7 @@ lexicon = listing "Lexicon's properties"
     -- yA>ythA yA>ay~atuhA     FW-Wa   O! [voc.fem.]      [[yA/INTERJ+>ay~atuhA/FUNC_WORD]]
     -- yAAythA yA>ay~atuhA     FW-Wa   O! [voc.fem.]      [[yA/INTERJ+>ay~atuhA/FUNC_WORD]]
 
-    Identity                  `noun`    {- yAOay~uhA -}        [ "O! [voc.masc.]", "O! [voc.fem.]" ] ]
+    Identity                  `part`    {- yAOay~uhA -}        [ "O! [voc.masc.]", "O! [voc.fem.]" ] ]
 
  |> "yAlll_ah" <| [
 

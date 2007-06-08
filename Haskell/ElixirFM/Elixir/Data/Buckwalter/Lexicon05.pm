@@ -1341,7 +1341,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MuFaCCaL',
       'suffix' => '',
       'glosses' => [
@@ -2691,7 +2691,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MaFAL',
       'suffix' => '',
       'glosses' => [
@@ -2772,7 +2772,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'TaFaCCuL',
       'suffix' => '',
       'glosses' => [
@@ -3095,7 +3095,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FACiL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -6023,7 +6023,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCaL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -6439,7 +6439,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -6483,7 +6483,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'adv',
       'morphs' => 'FiCL |< Iy |< aN',
       'suffix' => ' |< Iy |< aN',
       'glosses' => [
@@ -6726,7 +6726,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MuFaCCaL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -6955,7 +6955,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FuCAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -10602,6 +10602,41 @@ $Lexicon = {
     },
     {
       'types' => {
+        '^ganb' => {
+          'FW-Wa-o' => 1
+        },
+        '^ganbi' => {
+          'FW-Wa' => 1,
+          'FW-Wa-i' => 1
+        }
+      },
+      'entry' => '^ganb',
+      'form' => '^ganba',
+      'lines' => [
+        ';; janoba_1',
+        'jnb     janoba  FW-Wa   next to     [[janoba/PREP]]',
+        'jnb     janobi  FW-Wa   next to     [[janobi/PREP]]',
+        'jnb     janoba  FW-Wa-a next to     [[janoba/PREP]]',
+        'jnb     janobi  FW-Wa-i next to     [[janobi/PREP]]',
+        'jnb     janob   FW-Wa-o next to     [[janob/PREP]]'
+      ],
+      'patterns' => {
+        '^ganb' => [
+          'FaCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'next to'
+      ],
+      'orig' => 'janoba',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '\'a^gnAb' => {
           'N' => 2
         }
@@ -11216,7 +11251,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -11238,7 +11273,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCAL',
       'suffix' => '',
       'glosses' => [
@@ -11991,39 +12026,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^ganba' => [
-    {
-      'types' => {
-        '^ganb' => {
-          'FW-Wa-o' => 1
-        },
-        '^ganbi' => {
-          'FW-Wa' => 1,
-          'FW-Wa-i' => 1
-        }
-      },
-      'entry' => '^ganba',
-      'form' => '^ganba',
-      'lines' => [
-        ';; janoba_1',
-        'jnb     janoba  FW-Wa   next to     [[janoba/PREP]]',
-        'jnb     janobi  FW-Wa   next to     [[janobi/PREP]]',
-        'jnb     janoba  FW-Wa-a next to     [[janoba/PREP]]',
-        'jnb     janobi  FW-Wa-i next to     [[janobi/PREP]]',
-        'jnb     janob   FW-Wa-o next to     [[janob/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'next to'
-      ],
-      'orig' => 'janoba',
-      'prefix' => ''
-    }
-  ],
   '^g r r' => [
     {
       'types' => {
@@ -12534,7 +12536,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'FaCLA\'',
       'suffix' => '',
       'glosses' => [
@@ -14805,7 +14807,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
@@ -15577,7 +15579,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCIL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -18717,7 +18719,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FuCL |< aT |< aN',
       'suffix' => ' |< aT |< aN',
       'glosses' => [
@@ -18725,6 +18727,25 @@ $Lexicon = {
         'on the whole'
       ],
       'orig' => 'jumolapF',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '^guml',
+      'form' => '^gumlaTa',
+      'lines' => [
+        ';; jumolapa_1',
+        'jmlp    jumolapa        FW-Wa   all of    [[jumolapa/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FuCL |< aT |<< "a"',
+      'suffix' => ' |< aT |<< "a"',
+      'glosses' => [
+        'all of'
+      ],
+      'orig' => 'jumolapa',
       'prefix' => ''
     },
     {
@@ -19036,7 +19057,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'HiFCAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -23571,7 +23592,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FUL',
       'suffix' => '',
       'glosses' => [
@@ -26398,32 +26419,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^g n b n' => [
-    {
-      'types' => {
-        '^gambuwn' => {
-          'N' => 1
-        }
-      },
-      'entry' => '^ganbuwn',
-      'form' => '^ganbuwn',
-      'lines' => [
-        ';; janobuwn_1',
-        'jnbwn   janobuwn        N       ham (Fr. jambon)',
-        'jmbwn   jamobuwn        N       ham (Fr. jambon)'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDUS',
-      'suffix' => '',
-      'glosses' => [
-        'ham (Fr. jambon)'
-      ],
-      'orig' => 'janobuwn',
-      'prefix' => ''
-    }
-  ],
   '^g b l' => [
     {
       'types' => {
@@ -26682,6 +26677,32 @@ $Lexicon = {
         'ponytails'
       ],
       'orig' => 'jurozap',
+      'prefix' => ''
+    }
+  ],
+  '^g n b n' => [
+    {
+      'types' => {
+        '^gambuwn' => {
+          'N' => 1
+        }
+      },
+      'entry' => '^ganbuwn',
+      'form' => '^ganbuwn',
+      'lines' => [
+        ';; janobuwn_1',
+        'jnbwn   janobuwn        N       ham (Fr. jambon)',
+        'jmbwn   jamobuwn        N       ham (Fr. jambon)'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDUS',
+      'suffix' => '',
+      'glosses' => [
+        'ham (Fr. jambon)'
+      ],
+      'orig' => 'janobuwn',
       'prefix' => ''
     }
   ],
@@ -26977,7 +26998,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -30492,7 +30513,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -37913,27 +37934,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^gumlaTa' => [
-    {
-      'types' => {},
-      'entry' => '^gumlaTa',
-      'form' => '^gumlaTa',
-      'lines' => [
-        ';; jumolapa_1',
-        'jmlp    jumolapa        FW-Wa   all of    [[jumolapa/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'all of'
-      ],
-      'orig' => 'jumolapa',
-      'prefix' => ''
-    }
-  ],
   '^ganuwA' => [
     {
       'types' => {
@@ -38928,7 +38928,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'FaCCAL',
       'suffix' => '',
       'glosses' => [],

@@ -1719,7 +1719,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -9063,7 +9063,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'FAL',
       'suffix' => '',
       'glosses' => [
@@ -10456,7 +10456,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
@@ -14147,7 +14147,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'FaC',
       'suffix' => '',
       'glosses' => [
@@ -14163,7 +14163,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'FaL',
       'suffix' => '',
       'glosses' => [],
@@ -18323,6 +18323,26 @@ $Lexicon = {
     {
       'types' => {},
       'entry' => 'kayf',
+      'form' => 'kayfa',
+      'lines' => [
+        ';; kayofa_1',
+        'kyf     kayofa  FW-Wa   how                  [[kayofa/REL_PRON]]',
+        'kyf     kayofa  FW-Wa   how                  [[kayofa/INTERROG_PART]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'part',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'how'
+      ],
+      'orig' => 'kayofa',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'kayf',
       'form' => 'kayfiyy',
       'lines' => [
         ';; kayofiy~_1',
@@ -20074,7 +20094,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'FaCA',
       'suffix' => '',
       'glosses' => [
@@ -22063,7 +22083,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'FaL',
       'suffix' => '',
       'glosses' => [
@@ -22082,7 +22102,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'FaL',
       'suffix' => '',
       'glosses' => [
@@ -28397,7 +28417,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -31634,28 +31654,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kayta' => [
-    {
-      'types' => {},
-      'entry' => 'kayta',
-      'form' => 'kayta',
-      'lines' => [
-        ';; kayota_1',
-        'kyt     kayota  FW-Wa   such;thus     [[kayota/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'such',
-        'thus'
-      ],
-      'orig' => 'kayota',
-      'prefix' => ''
-    }
-  ],
   'k _t f' => [
     {
       'types' => {
@@ -32911,7 +32909,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -34592,28 +34590,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kayfa' => [
-    {
-      'types' => {},
-      'entry' => 'kayfa',
-      'form' => 'kayfa',
-      'lines' => [
-        ';; kayofa_1',
-        'kyf     kayofa  FW-Wa   how                  [[kayofa/REL_PRON]]',
-        'kyf     kayofa  FW-Wa   how                  [[kayofa/INTERROG_PART]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'how'
-      ],
-      'orig' => 'kayofa',
-      'prefix' => ''
-    }
-  ],
   'k \' s' => [
     {
       'types' => {
@@ -35586,7 +35562,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FuCLAn',
       'suffix' => '',
       'glosses' => [
@@ -35908,7 +35884,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'TaFCIL',
       'suffix' => '',
       'glosses' => [
@@ -35960,7 +35936,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'HiFCAL',
       'suffix' => '',
       'glosses' => [
@@ -36520,6 +36496,26 @@ $Lexicon = {
     }
   ],
   'k y t' => [
+    {
+      'types' => {},
+      'entry' => 'kayt',
+      'form' => 'kayta',
+      'lines' => [
+        ';; kayota_1',
+        'kyt     kayota  FW-Wa   such;thus     [[kayota/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'such',
+        'thus'
+      ],
+      'orig' => 'kayota',
+      'prefix' => ''
+    },
     {
       'types' => {},
       'entry' => 'kiyt',
@@ -38194,7 +38190,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -38994,7 +38990,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -42200,7 +42196,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'FaC',
       'suffix' => '',
       'glosses' => [],
@@ -42214,7 +42210,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'FaC',
       'suffix' => '',
       'glosses' => [],
@@ -43127,7 +43123,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [

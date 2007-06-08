@@ -63,7 +63,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'FU',
       'suffix' => '',
       'glosses' => [
@@ -106,7 +106,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'FaL |< At',
       'suffix' => ' |< At',
       'glosses' => [
@@ -1108,27 +1108,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'li_d_alika' => [
-    {
-      'types' => {},
-      'entry' => 'li_d_alika',
-      'form' => 'li_d_alika',
-      'lines' => [
-        ';; li*`lika_1',
-        'l*lk    li*`lika        FW-Wa   therefore           [[li*`lika/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'therefore'
-      ],
-      'orig' => 'li*`lika',
-      'prefix' => ''
-    }
-  ],
   'ta_dkar^g' => [
     {
       'types' => {},
@@ -1271,6 +1250,28 @@ $Lexicon = {
         'cribs'
       ],
       'orig' => 'mi*owad',
+      'prefix' => ''
+    }
+  ],
+  'ka_d_alik' => [
+    {
+      'types' => {},
+      'entry' => 'ka_d_alik',
+      'form' => 'ka_d_alika',
+      'lines' => [
+        ';; ka*`lika_1',
+        'k*lk    ka*`lika        FW-Wa   likewise;also       [[ka*`lika/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'likewise',
+        'also'
+      ],
+      'orig' => 'ka*`lika',
       'prefix' => ''
     }
   ],
@@ -1756,6 +1757,27 @@ $Lexicon = {
         'feeble'
       ],
       'orig' => '*Abil',
+      'prefix' => ''
+    }
+  ],
+  'li_d_alik' => [
+    {
+      'types' => {},
+      'entry' => 'li_d_alik',
+      'form' => 'li_d_alika',
+      'lines' => [
+        ';; li*`lika_1',
+        'l*lk    li*`lika        FW-Wa   therefore           [[li*`lika/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'therefore'
+      ],
+      'orig' => 'li*`lika',
       'prefix' => ''
     }
   ],
@@ -4951,6 +4973,44 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_d \' k' => [
+    {
+      'types' => {
+        'tAnika' => {
+          'FW-WaBi' => 1
+        },
+        'taynika' => {
+          'FW-WaBi' => 1
+        },
+        'tAka' => {
+          'FW-WaBi' => 1
+        },
+        'tiyka' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => '_dAk',
+      'form' => '_dAka',
+      'lines' => [
+        ';; *Aka_1',
+        '*Ak     *Aka    FW-WaBi that     [[*Aka/DEM_PRON_MS]]',
+        'tAk     tAka    FW-WaBi that     [[tAka/DEM_PRON_FS]]',
+        'tyk     tiyka   FW-WaBi that     [[tiyka/DEM_PRON_FS]]',
+        'tAnk    tAnika  FW-WaBi that     [[tAnika/DEM_PRON_FS]]',
+        'tynk    tayonika        FW-WaBi that     [[tayonika/DEM_PRON_FS]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'pron',
+      'morphs' => 'FAL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'that'
+      ],
+      'orig' => '*Aka',
+      'prefix' => ''
+    }
+  ],
   '_d w y' => [
     {
       'types' => {},
@@ -4973,7 +5033,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'FaC |< At',
       'suffix' => ' |< At',
       'glosses' => [],
@@ -5965,6 +6025,47 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_d_alik' => [
+    {
+      'types' => {
+        '_d_alikum' => {
+          'FW-WaBi' => 1
+        },
+        '\'uwlA\'ikum' => {
+          'FW-WaBi' => 2
+        },
+        'tilka' => {
+          'FW-WaBi' => 1
+        },
+        'tilkum' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => '_d_alik',
+      'form' => '_d_alika',
+      'lines' => [
+        ';; *`lika_1',
+        '*lk     *`lika  FW-WaBi that           [[*`lika/DEM_PRON_MS]]',
+        '*lkm    *`likum FW-WaBi that one       [[*`likum/DEM_PRON_MS]]',
+        'tlk     tiloka  FW-WaBi that;those           [[tiloka/DEM_PRON_FS]]',
+        'tlkm    tilokum FW-WaBi that one       [[tilokum/DEM_PRON_FS]]',
+        '>wlA}km >uwlA}ikum      FW-WaBi those          [[>uwlA}ikum/DEM_PRON_MP]]',
+        'AwlA}km >uwlA}ikum      FW-WaBi those          [[>uwlA}ikum/DEM_PRON_MP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'pron',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'that',
+        'that one',
+        'those'
+      ],
+      'orig' => '*`lika',
+      'prefix' => ''
+    }
+  ],
   'ka_dA' => [
     {
       'types' => {},
@@ -5976,7 +6077,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -6227,7 +6328,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -6235,69 +6336,6 @@ $Lexicon = {
         'as such'
       ],
       'orig' => 'h`ka*A',
-      'prefix' => ''
-    }
-  ],
-  '_d_alika' => [
-    {
-      'types' => {
-        '_d_alikum' => {
-          'FW-WaBi' => 1
-        },
-        '\'uwlA\'ikum' => {
-          'FW-WaBi' => 2
-        },
-        'tilka' => {
-          'FW-WaBi' => 1
-        },
-        'tilkum' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => '_d_alika',
-      'form' => '_d_alika',
-      'lines' => [
-        ';; *`lika_1',
-        '*lk     *`lika  FW-WaBi that           [[*`lika/DEM_PRON_MS]]',
-        '*lkm    *`likum FW-WaBi that one       [[*`likum/DEM_PRON_MS]]',
-        'tlk     tiloka  FW-WaBi that;those           [[tiloka/DEM_PRON_FS]]',
-        'tlkm    tilokum FW-WaBi that one       [[tilokum/DEM_PRON_FS]]',
-        '>wlA}km >uwlA}ikum      FW-WaBi those          [[>uwlA}ikum/DEM_PRON_MP]]',
-        'AwlA}km >uwlA}ikum      FW-WaBi those          [[>uwlA}ikum/DEM_PRON_MP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'that',
-        'that one',
-        'those'
-      ],
-      'orig' => '*`lika',
-      'prefix' => ''
-    }
-  ],
-  'ka_d_alika' => [
-    {
-      'types' => {},
-      'entry' => 'ka_d_alika',
-      'form' => 'ka_d_alika',
-      'lines' => [
-        ';; ka*`lika_1',
-        'k*lk    ka*`lika        FW-Wa   likewise;also       [[ka*`lika/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'likewise',
-        'also'
-      ],
-      'orig' => 'ka*`lika',
       'prefix' => ''
     }
   ],
@@ -7337,44 +7375,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_dAka' => [
-    {
-      'types' => {
-        'tAnika' => {
-          'FW-WaBi' => 1
-        },
-        'taynika' => {
-          'FW-WaBi' => 1
-        },
-        'tAka' => {
-          'FW-WaBi' => 1
-        },
-        'tiyka' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => '_dAka',
-      'form' => '_dAka',
-      'lines' => [
-        ';; *Aka_1',
-        '*Ak     *Aka    FW-WaBi that     [[*Aka/DEM_PRON_MS]]',
-        'tAk     tAka    FW-WaBi that     [[tAka/DEM_PRON_FS]]',
-        'tyk     tiyka   FW-WaBi that     [[tiyka/DEM_PRON_FS]]',
-        'tAnk    tAnika  FW-WaBi that     [[tAnika/DEM_PRON_FS]]',
-        'tynk    tayonika        FW-WaBi that     [[tayonika/DEM_PRON_FS]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'that'
-      ],
-      'orig' => '*Aka',
-      'prefix' => ''
-    }
-  ],
   '_d r \'' => [
     {
       'types' => {
@@ -7434,7 +7434,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -7455,7 +7455,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [

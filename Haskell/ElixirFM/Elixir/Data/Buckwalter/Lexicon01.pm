@@ -1043,7 +1043,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -1503,7 +1503,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCIL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -1598,7 +1598,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MuFaCCaL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -2197,7 +2197,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'FaL',
       'suffix' => '',
       'glosses' => [
@@ -2519,7 +2519,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'FaL',
       'suffix' => '',
       'glosses' => [
@@ -3001,34 +3001,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'uwlA\'ika' => [
-    {
-      'types' => {
-        '\'uwla\'ika' => {
-          'FW-WaBi' => 2
-        }
-      },
-      'entry' => '\'uwlA\'ika',
-      'form' => '\'uwlA\'ika',
-      'lines' => [
-        ';; >uwlA}ika_1',
-        '>wlA}k  >uwlA}ika       FW-WaBi they/those     [[>uwlA}ika/DEM_PRON_MP]]',
-        'AwlA}k  >uwlA}ika       FW-WaBi they/those     [[>uwlA}ika/DEM_PRON_MP]]',
-        '>wl}k   >uwla}ika       FW-WaBi they/those     [[>uwla}ika/DEM_PRON_MP]]',
-        'Awl}k   >uwla}ika       FW-WaBi they/those     [[>uwla}ika/DEM_PRON_MP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'they/those'
-      ],
-      'orig' => 'OuwlA}ika',
-      'prefix' => ''
-    }
-  ],
   'ka\'annamA' => [
     {
       'types' => {},
@@ -3041,7 +3013,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -3991,7 +3963,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -4604,7 +4576,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'KuRDU',
       'suffix' => '',
       'glosses' => [
@@ -5801,6 +5773,33 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'ka\'ann' => [
+    {
+      'types' => {
+        'ka\'ann' => {
+          'FW-Wa-n~' => 1
+        }
+      },
+      'entry' => 'ka\'ann',
+      'form' => 'ka\'anna',
+      'lines' => [
+        ';; ka>an~a_1',
+        'k>n     ka>an~a FW-Wa   as if     [[ka>an~a/CONJ]]',
+        'k>n     ka>an~a FW-Wa-n~a       as if     [[ka>an~a/CONJ]]',
+        'k>n     ka>an~  FW-Wa-n~        as if     [[ka>an~/CONJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'conj',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'as if'
+      ],
+      'orig' => 'kaOan~a',
+      'prefix' => ''
+    }
+  ],
   '\' y l \'' => [
     {
       'types' => {
@@ -6618,13 +6617,45 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'FaL',
       'suffix' => '',
       'glosses' => [
         'to'
       ],
       'orig' => 'Oan',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'ann' => {
+          'FW-Wa-n~' => 2
+        }
+      },
+      'entry' => '\'ann',
+      'form' => '\'anna',
+      'lines' => [
+        ';; >an~a_1',
+        '>n      >an~a   FW-Wa   that     [[>an~a/FUNC_WORD]]',
+        'An      >an~a   FW-Wa   that     [[>an~a/FUNC_WORD]]',
+        '>n      >an~a   FW-Wa-n~a       that     [[>an~a/FUNC_WORD]]',
+        'An      >an~a   FW-Wa-n~a       that     [[>an~a/FUNC_WORD]]',
+        '>n      >an~    FW-Wa-n~        that     [[>an~/FUNC_WORD]]',
+        'An      >an~    FW-Wa-n~        that     [[>an~/FUNC_WORD]]'
+      ],
+      'patterns' => {
+        '\'ann' => [
+          'FaCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'part',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'that'
+      ],
+      'orig' => 'Oan~a',
       'prefix' => ''
     },
     {
@@ -6639,13 +6670,48 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'FiL',
       'suffix' => '',
       'glosses' => [
         'if/whether'
       ],
       'orig' => 'Iin',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'inn' => {
+          'FW-Wa-n~' => 3
+        }
+      },
+      'entry' => '\'inn',
+      'form' => '\'inna',
+      'lines' => [
+        ';; <in~a_1',
+        '<n      <in~a   FW-Wa   that/indeed      [[<in~a/FUNC_WORD]]',
+        'An      <in~a   FW-Wa   that/indeed      [[<in~a/FUNC_WORD]]',
+        '<n      <in~a   FW-Wa-n~a       that/indeed      [[<in~a/FUNC_WORD]]',
+        'An      <in~a   FW-Wa-n~a       that/indeed      [[<in~a/FUNC_WORD]]',
+        '<n      <in~    FW-Wa-n~        that/indeed      [[<in~/FUNC_WORD]]',
+        'An      <in~    FW-Wa-n~        that/indeed      [[<in~/FUNC_WORD]]',
+        '>n      <in~a   FW-Wa   that/indeed      [[<in~a/FUNC_WORD]]',
+        '>n      <in~a   FW-Wa-n~a       that/indeed      [[<in~a/FUNC_WORD]]',
+        '>n      <in~    FW-Wa-n~        that/indeed      [[<in~/FUNC_WORD]]'
+      ],
+      'patterns' => {
+        '\'inn' => [
+          'FiCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'part',
+      'morphs' => 'FiCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'that/indeed'
+      ],
+      'orig' => 'Iin~a',
       'prefix' => ''
     },
     {
@@ -6819,7 +6885,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'FaCLY',
       'suffix' => '',
       'glosses' => [
@@ -6880,36 +6946,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'li\'anna' => [
-    {
-      'types' => {
-        'li\'ann' => {
-          'FW-Wa-n~' => 2
-        }
-      },
-      'entry' => 'li\'anna',
-      'form' => 'li\'anna',
-      'lines' => [
-        ';; li>an~a_1',
-        'l>n     li>an~a FW-Wa   because     [[li>an~a/CONJ]]',
-        'lAn     li>an~a FW-Wa   because     [[li>an~a/CONJ]]',
-        'l>n     li>an~a FW-Wa-n~a       because     [[li>an~a/CONJ]]',
-        'lAn     li>an~a FW-Wa-n~a       because     [[li>an~a/CONJ]]',
-        'l>n     li>an~  FW-Wa-n~        because     [[li>an~/CONJ]]',
-        'lAn     li>an~  FW-Wa-n~        because     [[li>an~/CONJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'because'
-      ],
-      'orig' => 'liOan~a',
-      'prefix' => ''
-    }
-  ],
   'la_diy' => [
     {
       'types' => {
@@ -6966,7 +7002,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'al >| Identity',
       'suffix' => '',
       'glosses' => [
@@ -8068,7 +8104,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -8837,33 +8873,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ka\'anna' => [
-    {
-      'types' => {
-        'ka\'ann' => {
-          'FW-Wa-n~' => 1
-        }
-      },
-      'entry' => 'ka\'anna',
-      'form' => 'ka\'anna',
-      'lines' => [
-        ';; ka>an~a_1',
-        'k>n     ka>an~a FW-Wa   as if     [[ka>an~a/CONJ]]',
-        'k>n     ka>an~a FW-Wa-n~a       as if     [[ka>an~a/CONJ]]',
-        'k>n     ka>an~  FW-Wa-n~        as if     [[ka>an~/CONJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'as if'
-      ],
-      'orig' => 'kaOan~a',
-      'prefix' => ''
-    }
-  ],
   '\'uksfuwrd' => [
     {
       'types' => {},
@@ -9427,6 +9436,46 @@ $Lexicon = {
         'Ayan'
       ],
       'orig' => 'OayAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'ayn',
+      'form' => '\'ayna',
+      'lines' => [
+        ';; >ayona_1',
+        '>yn     >ayona  FW-Wa   where         [[>ayona/REL_PRON]]',
+        'Ayn     >ayona  FW-Wa   where         [[>ayona/REL_PRON]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'pron',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'where'
+      ],
+      'orig' => 'Oayona',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'ayn',
+      'form' => '\'ayna',
+      'lines' => [
+        ';; >ayona_2',
+        '>yn     >ayona  FW-Wa   where         [[>ayona/INTERROG_PART]]',
+        'Ayn     >ayona  FW-Wa   where         [[>ayona/INTERROG_PART]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'part',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'where'
+      ],
+      'orig' => 'Oayona',
       'prefix' => ''
     },
     {
@@ -12501,7 +12550,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'Identity |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -13052,7 +13101,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCIL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -13202,36 +13251,6 @@ $Lexicon = {
         'sure'
       ],
       'orig' => 'mutaOak~id',
-      'prefix' => ''
-    }
-  ],
-  'bi\'anna' => [
-    {
-      'types' => {
-        'bi\'ann' => {
-          'FW-Wa-n~' => 2
-        }
-      },
-      'entry' => 'bi\'anna',
-      'form' => 'bi\'anna',
-      'lines' => [
-        ';; bi>an~a_1',
-        'b>n     bi>an~a FW-Wa   with + that     [[bi/PREP+>an~a/FUNC_WORD]]',
-        'bAn     bi>an~a FW-Wa   with + that     [[bi/PREP+>an~a/FUNC_WORD]]',
-        'b>n     bi>an~a FW-Wa-n~a       with + that     [[bi/PREP+>an~a/FUNC_WORD]]',
-        'bAn     bi>an~a FW-Wa-n~a       with + that     [[bi/PREP+>an~a/FUNC_WORD]]',
-        'b>n     bi>an~  FW-Wa-n~        with + that     [[bi/PREP+>an~/FUNC_WORD]]',
-        'bAn     bi>an~  FW-Wa-n~        with + that     [[bi/PREP+>an~/FUNC_WORD]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'with + that'
-      ],
-      'orig' => 'biOan~a',
       'prefix' => ''
     }
   ],
@@ -13831,6 +13850,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '\'antunn' => [
+    {
+      'types' => {},
+      'entry' => '\'antunn',
+      'form' => '\'antunna',
+      'lines' => [
+        ';; >anotun~a_1',
+        '>ntn    >anotun~a       FW-Wa   you [fem.pl.]      [[>anotun~a/PRON_2FP]]',
+        'Antn    >anotun~a       FW-Wa   you [fem.pl.]      [[>anotun~a/PRON_2FP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'pron',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'you [fem.pl.]'
+      ],
+      'orig' => 'Oanotun~a',
+      'prefix' => ''
+    }
+  ],
   '\'uwriy.guwn' => [
     {
       'types' => {
@@ -13992,7 +14033,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -14016,7 +14057,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -14515,13 +14556,35 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
         'if/whether'
       ],
       'orig' => 'Ii*A',
+      'prefix' => ''
+    }
+  ],
+  'la\'inn' => [
+    {
+      'types' => {},
+      'entry' => 'la\'inn',
+      'form' => 'la\'inna',
+      'lines' => [
+        ';; la}in~a_1',
+        'l}n     la}in~a FW-Wa   truly;indeed     [[la}in~a/FUNC_WORD]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'part',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'truly',
+        'indeed'
+      ],
+      'orig' => 'la}in~a',
       'prefix' => ''
     }
   ],
@@ -14601,6 +14664,26 @@ $Lexicon = {
       ],
       'orig' => '|n',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'An',
+      'form' => 'Al\'Ana',
+      'lines' => [
+        ';; Al|na_1',
+        'Al|n    Al|na   FW-Wa   now     [[Al|na/ADV]]',
+        'AlAn    Al|na   FW-Wa   now     [[Al|na/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'al >| FAL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'now'
+      ],
+      'orig' => 'Al|na',
+      'prefix' => 'al >| '
     },
     {
       'types' => {},
@@ -14955,28 +15038,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'antunna' => [
-    {
-      'types' => {},
-      'entry' => '\'antunna',
-      'form' => '\'antunna',
-      'lines' => [
-        ';; >anotun~a_1',
-        '>ntn    >anotun~a       FW-Wa   you [fem.pl.]      [[>anotun~a/PRON_2FP]]',
-        'Antn    >anotun~a       FW-Wa   you [fem.pl.]      [[>anotun~a/PRON_2FP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'you [fem.pl.]'
-      ],
-      'orig' => 'Oanotun~a',
-      'prefix' => ''
-    }
-  ],
   '\' h l' => [
     {
       'types' => {
@@ -15242,7 +15303,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -15711,7 +15772,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -15911,7 +15972,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCAL |< aT |< aN',
       'suffix' => ' |< aT |< aN',
       'glosses' => [
@@ -17181,30 +17242,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'll_ahumma' => [
-    {
-      'types' => {},
-      'entry' => 'll_ahumma',
-      'form' => 'Alll_ahumma',
-      'lines' => [
-        ';; All~`hum~a_1',
-        'Allhm   All~`hum~a      FW-Wa   truly;certainly;oh God!;dear God'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'al >| Identity',
-      'suffix' => '',
-      'glosses' => [
-        'truly',
-        'certainly',
-        'oh God!',
-        'dear God'
-      ],
-      'orig' => 'All~`hum~a',
-      'prefix' => 'al >| '
-    }
-  ],
   '\' n b r' => [
     {
       'types' => {
@@ -17340,6 +17377,36 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'li\'ann' => [
+    {
+      'types' => {
+        'li\'ann' => {
+          'FW-Wa-n~' => 2
+        }
+      },
+      'entry' => 'li\'ann',
+      'form' => 'li\'anna',
+      'lines' => [
+        ';; li>an~a_1',
+        'l>n     li>an~a FW-Wa   because     [[li>an~a/CONJ]]',
+        'lAn     li>an~a FW-Wa   because     [[li>an~a/CONJ]]',
+        'l>n     li>an~a FW-Wa-n~a       because     [[li>an~a/CONJ]]',
+        'lAn     li>an~a FW-Wa-n~a       because     [[li>an~a/CONJ]]',
+        'l>n     li>an~  FW-Wa-n~        because     [[li>an~/CONJ]]',
+        'lAn     li>an~  FW-Wa-n~        because     [[li>an~/CONJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'conj',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'because'
+      ],
+      'orig' => 'liOan~a',
+      'prefix' => ''
+    }
+  ],
   '\'alkAtuw' => [
     {
       'types' => {},
@@ -17374,7 +17441,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -17661,7 +17728,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCaL',
       'suffix' => '',
       'glosses' => [
@@ -19146,7 +19213,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -19242,30 +19309,6 @@ $Lexicon = {
         'imperialism'
       ],
       'orig' => 'IimobiriyAliy~ap',
-      'prefix' => ''
-    }
-  ],
-  '\'i_tra' => [
-    {
-      'types' => {},
-      'entry' => '\'i_tra',
-      'form' => '\'i_tra',
-      'lines' => [
-        ';; <ivora_1',
-        '<vr     <ivora  FW-Wa   right after     [[<ivora/PREP]]',
-        'Avr     <ivora  FW-Wa   right after     [[<ivora/PREP]]',
-        '<vr     <ivora  FW-Wa-a right after     [[<ivora/PREP]]',
-        'Avr     <ivora  FW-Wa-a right after     [[<ivora/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'right after'
-      ],
-      'orig' => 'Iivora',
       'prefix' => ''
     }
   ],
@@ -20158,7 +20201,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -20237,7 +20280,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -20655,7 +20698,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'FiCAL',
       'suffix' => '',
       'glosses' => [
@@ -21074,7 +21117,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'FiC',
       'suffix' => '',
       'glosses' => [
@@ -21550,7 +21593,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -22036,48 +22079,6 @@ $Lexicon = {
         'Angeles'
       ],
       'orig' => 'Oanojilis',
-      'prefix' => ''
-    }
-  ],
-  '\'iyyAka' => [
-    {
-      'types' => {
-        '\'iyyAkumA' => {
-          'FW-Wa' => 1
-        },
-        '\'iyyAkum' => {
-          'FW-Wa' => 1
-        },
-        '\'iyyAkunna' => {
-          'FW-Wa' => 1
-        },
-        '\'iyyAki' => {
-          'FW-Wa' => 1
-        }
-      },
-      'entry' => '\'iyyAka',
-      'form' => '\'iyyAka',
-      'lines' => [
-        ';; <iy~Aka_2',
-        '<yAk    <iy~Aka FW-Wa   be careful! + you [masc.sg.]   [[<iy~A/PREP+ka/PRON_2MS]]',
-        '<yAk    <iy~Aki FW-Wa   be careful! + you [fem.sg.]    [[<iy~A/PREP+ki/PRON_2FS]]',
-        '<yAkmA  <iy~AkumA       FW-Wa   be careful! + you (both)       [[<iy~A/PREP+kumA/PRON_2D]]',
-        '<yAkm   <iy~Akum        FW-Wa   be careful! + you [masc.pl.]   [[<iy~A/PREP+kum/PRON_2MP]]',
-        '<yAkn   <iy~Akun~a      FW-Wa   be careful! + you [fem.pl.]    [[<iy~A/PREP+kun~a/PRON_2FP]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be careful! + you [masc.sg.]',
-        'be careful! + you [fem.sg.]',
-        'be careful! + you (both)',
-        'be careful! + you [masc.pl.]',
-        'be careful! + you [fem.pl.]'
-      ],
-      'orig' => 'Iiy~Aka',
       'prefix' => ''
     }
   ],
@@ -22884,36 +22885,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'anna' => [
-    {
-      'types' => {
-        '\'ann' => {
-          'FW-Wa-n~' => 2
-        }
-      },
-      'entry' => '\'anna',
-      'form' => '\'anna',
-      'lines' => [
-        ';; >an~a_1',
-        '>n      >an~a   FW-Wa   that     [[>an~a/FUNC_WORD]]',
-        'An      >an~a   FW-Wa   that     [[>an~a/FUNC_WORD]]',
-        '>n      >an~a   FW-Wa-n~a       that     [[>an~a/FUNC_WORD]]',
-        'An      >an~a   FW-Wa-n~a       that     [[>an~a/FUNC_WORD]]',
-        '>n      >an~    FW-Wa-n~        that     [[>an~/FUNC_WORD]]',
-        'An      >an~    FW-Wa-n~        that     [[>an~/FUNC_WORD]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'that'
-      ],
-      'orig' => 'Oan~a',
-      'prefix' => ''
-    }
-  ],
   '\' d m n' => [
     {
       'types' => {},
@@ -22933,6 +22904,28 @@ $Lexicon = {
         'Edmond'
       ],
       'orig' => 'Iidomuwn',
+      'prefix' => ''
+    }
+  ],
+  '\' w l \'' => [
+    {
+      'types' => {},
+      'entry' => '\'uwlA\'',
+      'form' => '\'uwlA\'i',
+      'lines' => [
+        ';; >uwlA\'i_1',
+        '>wlA\'   >uwlA\'i FW-WaBi they/those     [[>uwlA\'i/DEM_PRON_MP]]',
+        'AwlA\'   >uwlA\'i FW-WaBi they/those     [[>uwlA\'i/DEM_PRON_MP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'pron',
+      'morphs' => 'KuRDAS |<< "i"',
+      'suffix' => ' |<< "i"',
+      'glosses' => [
+        'they/those'
+      ],
+      'orig' => 'OuwlA\'i',
       'prefix' => ''
     }
   ],
@@ -23052,6 +23045,29 @@ $Lexicon = {
         'sea turtle'
       ],
       'orig' => 'OaTuwm',
+      'prefix' => ''
+    }
+  ],
+  'bi\'asr' => [
+    {
+      'types' => {},
+      'entry' => 'bi\'asr',
+      'form' => 'bi\'asri',
+      'lines' => [
+        ';; bi>asori_1',
+        'b>sr    bi>asori        FW-Wa-i completely;all of     [[bi>asori/ADV]]',
+        'bAsr    bi>asori        FW-Wa-i completely;all of     [[bi>asori/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'Identity |<< "i"',
+      'suffix' => ' |<< "i"',
+      'glosses' => [
+        'completely',
+        'all of'
+      ],
+      'orig' => 'biOasori',
       'prefix' => ''
     }
   ],
@@ -23388,28 +23404,6 @@ $Lexicon = {
         'washbowls'
       ],
       'orig' => 'Oabozan',
-      'prefix' => ''
-    }
-  ],
-  '\'u.hAda' => [
-    {
-      'types' => {},
-      'entry' => '\'u.hAda',
-      'form' => '\'u.hAda',
-      'lines' => [
-        ';; >uHAda_1',
-        '>HAd    >uHAda  FW-WaBi one-by-one     [[>uHAda/ADV]]',
-        'AHAd    >uHAda  FW-WaBi one-by-one     [[>uHAda/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'one-by-one'
-      ],
-      'orig' => 'OuHAda',
       'prefix' => ''
     }
   ],
@@ -25495,7 +25489,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -25555,7 +25549,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -25926,40 +25920,29 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'inna' => [
+  '\' _t r' => [
     {
-      'types' => {
-        '\'inn' => {
-          'FW-Wa-n~' => 3
-        }
-      },
-      'entry' => '\'inna',
-      'form' => '\'inna',
+      'types' => {},
+      'entry' => '\'i_tr',
+      'form' => '\'i_tra',
       'lines' => [
-        ';; <in~a_1',
-        '<n      <in~a   FW-Wa   that/indeed      [[<in~a/FUNC_WORD]]',
-        'An      <in~a   FW-Wa   that/indeed      [[<in~a/FUNC_WORD]]',
-        '<n      <in~a   FW-Wa-n~a       that/indeed      [[<in~a/FUNC_WORD]]',
-        'An      <in~a   FW-Wa-n~a       that/indeed      [[<in~a/FUNC_WORD]]',
-        '<n      <in~    FW-Wa-n~        that/indeed      [[<in~/FUNC_WORD]]',
-        'An      <in~    FW-Wa-n~        that/indeed      [[<in~/FUNC_WORD]]',
-        '>n      <in~a   FW-Wa   that/indeed      [[<in~a/FUNC_WORD]]',
-        '>n      <in~a   FW-Wa-n~a       that/indeed      [[<in~a/FUNC_WORD]]',
-        '>n      <in~    FW-Wa-n~        that/indeed      [[<in~/FUNC_WORD]]'
+        ';; <ivora_1',
+        '<vr     <ivora  FW-Wa   right after     [[<ivora/PREP]]',
+        'Avr     <ivora  FW-Wa   right after     [[<ivora/PREP]]',
+        '<vr     <ivora  FW-Wa-a right after     [[<ivora/PREP]]',
+        'Avr     <ivora  FW-Wa-a right after     [[<ivora/PREP]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'prep',
+      'morphs' => 'FiCL |<< "a"',
+      'suffix' => ' |<< "a"',
       'glosses' => [
-        'that/indeed'
+        'right after'
       ],
-      'orig' => 'Iin~a',
+      'orig' => 'Iivora',
       'prefix' => ''
-    }
-  ],
-  '\' _t r' => [
+    },
     {
       'types' => {
         '\'_tir' => {
@@ -26623,7 +26606,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MutaFaCCiL',
       'suffix' => '',
       'glosses' => [
@@ -27293,7 +27276,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'FiL',
       'suffix' => '',
       'glosses' => [],
@@ -27311,7 +27294,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -28142,7 +28125,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -28904,7 +28887,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'FuCU',
       'suffix' => '',
       'glosses' => [
@@ -29427,28 +29410,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'la\'inna' => [
-    {
-      'types' => {},
-      'entry' => 'la\'inna',
-      'form' => 'la\'inna',
-      'lines' => [
-        ';; la}in~a_1',
-        'l}n     la}in~a FW-Wa   truly;indeed     [[la}in~a/FUNC_WORD]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'truly',
-        'indeed'
-      ],
-      'orig' => 'la}in~a',
-      'prefix' => ''
-    }
-  ],
   '\' f n' => [
     {
       'types' => {
@@ -29923,7 +29884,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'FaL',
       'suffix' => '',
       'glosses' => [
@@ -31182,7 +31143,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiC |< aN',
       'suffix' => ' |< aN',
       'glosses' => [],
@@ -32019,7 +31980,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'FaC',
       'suffix' => '',
       'glosses' => [],
@@ -32197,28 +32158,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'uwlA\'i' => [
-    {
-      'types' => {},
-      'entry' => '\'uwlA\'i',
-      'form' => '\'uwlA\'i',
-      'lines' => [
-        ';; >uwlA\'i_1',
-        '>wlA\'   >uwlA\'i FW-WaBi they/those     [[>uwlA\'i/DEM_PRON_MP]]',
-        'AwlA\'   >uwlA\'i FW-WaBi they/those     [[>uwlA\'i/DEM_PRON_MP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'they/those'
-      ],
-      'orig' => 'OuwlA\'i',
-      'prefix' => ''
-    }
-  ],
   '\'uw^sa`yAhuw' => [
     {
       'types' => {},
@@ -32271,7 +32210,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'FaC',
       'suffix' => '',
       'glosses' => [],
@@ -32285,7 +32224,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'FiC',
       'suffix' => '',
       'glosses' => [],
@@ -32346,7 +32285,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -32691,7 +32630,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -32793,7 +32732,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MuFaCCaL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -32881,28 +32820,6 @@ $Lexicon = {
       ],
       'orig' => 'OusotriyA',
       'prefix' => ''
-    }
-  ],
-  '\'Ana' => [
-    {
-      'types' => {},
-      'entry' => '\'Ana',
-      'form' => 'Al\'Ana',
-      'lines' => [
-        ';; Al|na_1',
-        'Al|n    Al|na   FW-Wa   now     [[Al|na/ADV]]',
-        'AlAn    Al|na   FW-Wa   now     [[Al|na/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'al >| Identity',
-      'suffix' => '',
-      'glosses' => [
-        'now'
-      ],
-      'orig' => 'Al|na',
-      'prefix' => 'al >| '
     }
   ],
   '\' w n y' => [
@@ -33358,7 +33275,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -33880,7 +33797,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -34577,48 +34494,6 @@ $Lexicon = {
         'Australian'
       ],
       'orig' => 'OusoturAliy~',
-      'prefix' => ''
-    }
-  ],
-  '\'ayna' => [
-    {
-      'types' => {},
-      'entry' => '\'ayna',
-      'form' => '\'ayna',
-      'lines' => [
-        ';; >ayona_1',
-        '>yn     >ayona  FW-Wa   where         [[>ayona/REL_PRON]]',
-        'Ayn     >ayona  FW-Wa   where         [[>ayona/REL_PRON]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'where'
-      ],
-      'orig' => 'Oayona',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'ayna',
-      'form' => '\'ayna',
-      'lines' => [
-        ';; >ayona_2',
-        '>yn     >ayona  FW-Wa   where         [[>ayona/INTERROG_PART]]',
-        'Ayn     >ayona  FW-Wa   where         [[>ayona/INTERROG_PART]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'where'
-      ],
-      'orig' => 'Oayona',
       'prefix' => ''
     }
   ],
@@ -35364,7 +35239,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'FaL',
       'suffix' => '',
       'glosses' => [
@@ -35381,7 +35256,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'FaC',
       'suffix' => '',
       'glosses' => [],
@@ -35407,7 +35282,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -35429,7 +35304,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -35526,7 +35401,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -35580,52 +35455,13 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
         'in order to'
       ],
       'orig' => 'liOan',
-      'prefix' => ''
-    }
-  ],
-  '\'amAma' => [
-    {
-      'types' => {
-        '\'amAmi' => {
-          'FW-Wa' => 2,
-          'FW-Wa-i' => 2
-        },
-        '\'amAm' => {
-          'FW-Wa-o' => 2
-        }
-      },
-      'entry' => '\'amAma',
-      'form' => '\'amAma',
-      'lines' => [
-        ';; >amAma_1',
-        '>mAm    >amAma  FW-Wa   in front of;facing     [[>amAma/PREP]]',
-        'AmAm    >amAma  FW-Wa   in front of;facing     [[>amAma/PREP]]',
-        '>mAm    >amAmi  FW-Wa   in front of;facing     [[>amAmi/PREP]]',
-        'AmAm    >amAmi  FW-Wa   in front of;facing     [[>amAmi/PREP]]',
-        '>mAm    >amAma  FW-Wa-a in front of;facing     [[>amAma/PREP]]',
-        'AmAm    >amAma  FW-Wa-a in front of;facing     [[>amAma/PREP]]',
-        '>mAm    >amAmi  FW-Wa-i in front of;facing     [[>amAmi/PREP]]',
-        'AmAm    >amAmi  FW-Wa-i in front of;facing     [[>amAmi/PREP]]',
-        '>mAm    >amAm   FW-Wa-o in front of;facing     [[>amAm/PREP]]',
-        'AmAm    >amAm   FW-Wa-o in front of;facing     [[>amAm/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'in front of',
-        'facing'
-      ],
-      'orig' => 'OamAma',
       'prefix' => ''
     }
   ],
@@ -36668,7 +36504,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'FaC',
       'suffix' => '',
       'glosses' => [],
@@ -37454,7 +37290,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -37510,7 +37346,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'al >| Identity',
       'suffix' => '',
       'glosses' => [
@@ -37776,28 +37612,19 @@ $Lexicon = {
       ],
       'orig' => '|lA\'',
       'prefix' => ''
-    }
-  ],
-  'bi\'asri' => [
+    },
     {
       'types' => {},
-      'entry' => 'bi\'asri',
-      'form' => 'bi\'asri',
-      'lines' => [
-        ';; bi>asori_1',
-        'b>sr    bi>asori        FW-Wa-i completely;all of     [[bi>asori/ADV]]',
-        'bAsr    bi>asori        FW-Wa-i completely;all of     [[bi>asori/ADV]]'
-      ],
+      'entry' => '\'uwlA\'',
+      'form' => '\'uwlA\'i',
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'completely',
-        'all of'
-      ],
-      'orig' => 'biOasori',
+      'entity' => 'pron',
+      'morphs' => 'FUCAL |<< "i"',
+      'suffix' => ' |<< "i"',
+      'glosses' => [],
+      'orig' => 'OuwlA\'i',
       'prefix' => ''
     }
   ],
@@ -38805,7 +38632,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -39436,7 +39263,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FuCL |< aT |< aN',
       'suffix' => ' |< aT |< aN',
       'glosses' => [
@@ -39813,6 +39640,60 @@ $Lexicon = {
     }
   ],
   '\' y k' => [
+    {
+      'types' => {
+        '\'iyyAkumA' => {
+          'FW-Wa' => 1
+        },
+        '\'iyyAkum' => {
+          'FW-Wa' => 1
+        },
+        '\'iyyAkunna' => {
+          'FW-Wa' => 1
+        },
+        '\'iyyAki' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => '\'iyyAk',
+      'form' => '\'iyyAka',
+      'lines' => [
+        ';; <iy~Aka_2',
+        '<yAk    <iy~Aka FW-Wa   be careful! + you [masc.sg.]   [[<iy~A/PREP+ka/PRON_2MS]]',
+        '<yAk    <iy~Aki FW-Wa   be careful! + you [fem.sg.]    [[<iy~A/PREP+ki/PRON_2FS]]',
+        '<yAkmA  <iy~AkumA       FW-Wa   be careful! + you (both)       [[<iy~A/PREP+kumA/PRON_2D]]',
+        '<yAkm   <iy~Akum        FW-Wa   be careful! + you [masc.pl.]   [[<iy~A/PREP+kum/PRON_2MP]]',
+        '<yAkn   <iy~Akun~a      FW-Wa   be careful! + you [fem.pl.]    [[<iy~A/PREP+kun~a/PRON_2FP]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'prep',
+      'morphs' => 'HICAL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'be careful! + you [masc.sg.]',
+        'be careful! + you [fem.sg.]',
+        'be careful! + you (both)',
+        'be careful! + you [masc.pl.]',
+        'be careful! + you [fem.pl.]'
+      ],
+      'orig' => 'Iiy~Aka',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'iyyAk',
+      'form' => '\'iyyAka',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'prep',
+      'morphs' => 'FICAL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [],
+      'orig' => 'Iiy~Aka',
+      'prefix' => ''
+    },
     {
       'types' => {
         '\'ayk' => {
@@ -40281,6 +40162,36 @@ $Lexicon = {
         'Abrams'
       ],
       'orig' => 'ObrAms',
+      'prefix' => ''
+    }
+  ],
+  'bi\'ann' => [
+    {
+      'types' => {
+        'bi\'ann' => {
+          'FW-Wa-n~' => 2
+        }
+      },
+      'entry' => 'bi\'ann',
+      'form' => 'bi\'anna',
+      'lines' => [
+        ';; bi>an~a_1',
+        'b>n     bi>an~a FW-Wa   with + that     [[bi/PREP+>an~a/FUNC_WORD]]',
+        'bAn     bi>an~a FW-Wa   with + that     [[bi/PREP+>an~a/FUNC_WORD]]',
+        'b>n     bi>an~a FW-Wa-n~a       with + that     [[bi/PREP+>an~a/FUNC_WORD]]',
+        'bAn     bi>an~a FW-Wa-n~a       with + that     [[bi/PREP+>an~a/FUNC_WORD]]',
+        'b>n     bi>an~  FW-Wa-n~        with + that     [[bi/PREP+>an~/FUNC_WORD]]',
+        'bAn     bi>an~  FW-Wa-n~        with + that     [[bi/PREP+>an~/FUNC_WORD]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'part',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'with + that'
+      ],
+      'orig' => 'biOan~a',
       'prefix' => ''
     }
   ],
@@ -41403,41 +41314,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'AnA\'a' => [
-    {
-      'types' => {
-        '\'AnA\'\'' => {
-          'FW-Wa-i' => 2
-        },
-        '\'AnA\'i' => {
-          'FW-Wa' => 2
-        }
-      },
-      'entry' => '\'AnA\'a',
-      'form' => '\'AnA\'a',
-      'lines' => [
-        ';; |nA\'a_1',
-        '|nA\'    |nA\'a   FW-Wa   during     [[|nA\'a/PREP]]',
-        'AnA\'    |nA\'a   FW-Wa   during     [[|nA\'a/PREP]]',
-        '|nA\'    |nA\'i   FW-Wa   during     [[|nA\'i/PREP]]',
-        'AnA\'    |nA\'i   FW-Wa   during     [[|nA\'i/PREP]]',
-        '|nA\'    |nA\'a   FW-Wa-a during     [[|nA\'a/PREP]]',
-        'AnA\'    |nA\'a   FW-Wa-a during     [[|nA\'a/PREP]]',
-        '|nA}    |nA\'}   FW-Wa-i during     [[|nA}i/PREP]]',
-        'AnA}    |nA\'}   FW-Wa-i during     [[|nA}i/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'during'
-      ],
-      'orig' => '|nA\'a',
-      'prefix' => ''
-    }
-  ],
   '\' n b ^s' => [
     {
       'types' => {
@@ -42119,7 +41995,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FACiL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -42141,7 +42017,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'HACiL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [],
@@ -42313,7 +42189,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'FaC',
       'suffix' => '',
       'glosses' => [],
@@ -43788,28 +43664,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'anta' => [
-    {
-      'types' => {},
-      'entry' => '\'anta',
-      'form' => '\'anta',
-      'lines' => [
-        ';; >anota_1',
-        '>nt     >anota  FW-Wa   you [masc.sg.]     [[>anota/PRON_2MS]]',
-        'Ant     >anota  FW-Wa   you [masc.sg.]     [[>anota/PRON_2MS]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'you [masc.sg.]'
-      ],
-      'orig' => 'Oanota',
-      'prefix' => ''
-    }
-  ],
   '\' l y' => [
     {
       'types' => {},
@@ -43884,7 +43738,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'FiCY',
       'suffix' => '',
       'glosses' => [
@@ -44054,7 +43908,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'FuCU',
       'suffix' => '',
       'glosses' => [],
@@ -44169,7 +44023,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'KuRDU',
       'suffix' => '',
       'glosses' => [],
@@ -44449,7 +44303,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -44559,6 +44413,30 @@ $Lexicon = {
       ],
       'orig' => 'Oay~uwbiy~',
       'prefix' => ''
+    }
+  ],
+  'll_ahumm' => [
+    {
+      'types' => {},
+      'entry' => 'll_ahumm',
+      'form' => 'Alll_ahumma',
+      'lines' => [
+        ';; All~`hum~a_1',
+        'Allhm   All~`hum~a      FW-Wa   truly;certainly;oh God!;dear God'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'al >| Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'truly',
+        'certainly',
+        'oh God!',
+        'dear God'
+      ],
+      'orig' => 'All~`hum~a',
+      'prefix' => 'al >| '
     }
   ],
   '\' s m r' => [
@@ -45765,28 +45643,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'anti' => [
-    {
-      'types' => {},
-      'entry' => '\'anti',
-      'form' => '\'anti',
-      'lines' => [
-        ';; >anoti_1',
-        '>nt     >anoti  FW-Wa   you [fem.sg.]      [[>anoti/PRON_2FS]]',
-        'Ant     >anoti  FW-Wa   you [fem.sg.]      [[>anoti/PRON_2FS]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'you [fem.sg.]'
-      ],
-      'orig' => 'Oanoti',
-      'prefix' => ''
-    }
-  ],
   '\' .h d' => [
     {
       'types' => {
@@ -45895,6 +45751,26 @@ $Lexicon = {
         'Sundays'
       ],
       'orig' => 'OaHad',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'u.hAd',
+      'form' => '\'u.hAda',
+      'lines' => [
+        ';; >uHAda_1',
+        '>HAd    >uHAda  FW-WaBi one-by-one     [[>uHAda/ADV]]',
+        'AHAd    >uHAda  FW-WaBi one-by-one     [[>uHAda/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'FuCAL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'one-by-one'
+      ],
+      'orig' => 'OuHAda',
       'prefix' => ''
     },
     {
@@ -47946,7 +47822,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -48472,7 +48348,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'FaC',
       'suffix' => '',
       'glosses' => [
@@ -48664,7 +48540,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'pron',
       'morphs' => 'FaCA',
       'suffix' => '',
       'glosses' => [
@@ -48905,6 +48781,53 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        '\'AnA\'\'' => {
+          'FW-Wa-i' => 2
+        },
+        '\'AnA\'i' => {
+          'FW-Wa' => 2
+        }
+      },
+      'entry' => '\'AnA\'',
+      'form' => '\'AnA\'a',
+      'lines' => [
+        ';; |nA\'a_1',
+        '|nA\'    |nA\'a   FW-Wa   during     [[|nA\'a/PREP]]',
+        'AnA\'    |nA\'a   FW-Wa   during     [[|nA\'a/PREP]]',
+        '|nA\'    |nA\'i   FW-Wa   during     [[|nA\'i/PREP]]',
+        'AnA\'    |nA\'i   FW-Wa   during     [[|nA\'i/PREP]]',
+        '|nA\'    |nA\'a   FW-Wa-a during     [[|nA\'a/PREP]]',
+        'AnA\'    |nA\'a   FW-Wa-a during     [[|nA\'a/PREP]]',
+        '|nA}    |nA\'}   FW-Wa-i during     [[|nA}i/PREP]]',
+        'AnA}    |nA\'}   FW-Wa-i during     [[|nA}i/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'HACA\' |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'during'
+      ],
+      'orig' => '|nA\'a',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'AnA\'',
+      'form' => '\'AnA\'a',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'HACAL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [],
+      'orig' => '|nA\'a',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => '\'anY',
       'form' => '\'anAT',
@@ -49035,7 +48958,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'FaCCY',
       'suffix' => '',
       'glosses' => [],
@@ -50962,7 +50885,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -51305,6 +51228,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '\' n t' => [
+    {
+      'types' => {},
+      'entry' => '\'ant',
+      'form' => '\'anta',
+      'lines' => [
+        ';; >anota_1',
+        '>nt     >anota  FW-Wa   you [masc.sg.]     [[>anota/PRON_2MS]]',
+        'Ant     >anota  FW-Wa   you [masc.sg.]     [[>anota/PRON_2MS]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'pron',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'you [masc.sg.]'
+      ],
+      'orig' => 'Oanota',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'ant',
+      'form' => '\'anti',
+      'lines' => [
+        ';; >anoti_1',
+        '>nt     >anoti  FW-Wa   you [fem.sg.]      [[>anoti/PRON_2FS]]',
+        'Ant     >anoti  FW-Wa   you [fem.sg.]      [[>anoti/PRON_2FS]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'pron',
+      'morphs' => 'FaCL |<< "i"',
+      'suffix' => ' |<< "i"',
+      'glosses' => [
+        'you [fem.sg.]'
+      ],
+      'orig' => 'Oanoti',
+      'prefix' => ''
+    }
+  ],
   '\' ^g b' => [
     {
       'types' => {},
@@ -51335,7 +51300,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'conj',
       'morphs' => 'FaL',
       'suffix' => '',
       'glosses' => [],
@@ -51564,6 +51529,47 @@ $Lexicon = {
         'matriarchy'
       ],
       'orig' => 'Oumuwmiy~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'amAmi' => {
+          'FW-Wa' => 2,
+          'FW-Wa-i' => 2
+        },
+        '\'amAm' => {
+          'FW-Wa-o' => 2
+        }
+      },
+      'entry' => '\'amAm',
+      'form' => '\'amAma',
+      'lines' => [
+        ';; >amAma_1',
+        '>mAm    >amAma  FW-Wa   in front of;facing     [[>amAma/PREP]]',
+        'AmAm    >amAma  FW-Wa   in front of;facing     [[>amAma/PREP]]',
+        '>mAm    >amAmi  FW-Wa   in front of;facing     [[>amAmi/PREP]]',
+        'AmAm    >amAmi  FW-Wa   in front of;facing     [[>amAmi/PREP]]',
+        '>mAm    >amAma  FW-Wa-a in front of;facing     [[>amAma/PREP]]',
+        'AmAm    >amAma  FW-Wa-a in front of;facing     [[>amAma/PREP]]',
+        '>mAm    >amAmi  FW-Wa-i in front of;facing     [[>amAmi/PREP]]',
+        'AmAm    >amAmi  FW-Wa-i in front of;facing     [[>amAmi/PREP]]',
+        '>mAm    >amAm   FW-Wa-o in front of;facing     [[>amAm/PREP]]',
+        'AmAm    >amAm   FW-Wa-o in front of;facing     [[>amAm/PREP]]'
+      ],
+      'patterns' => {
+        '\'amAm' => [
+          'FaCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FaCAL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'in front of',
+        'facing'
+      ],
+      'orig' => 'OamAma',
       'prefix' => ''
     },
     {
@@ -52287,7 +52293,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCaL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -52571,7 +52577,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'FiCA\'',
       'suffix' => '',
       'glosses' => [],
@@ -53018,6 +53024,34 @@ $Lexicon = {
         'Assiouti'
       ],
       'orig' => 'OasoyuwTiy~',
+      'prefix' => ''
+    }
+  ],
+  '\'uwlA\'ik' => [
+    {
+      'types' => {
+        '\'uwla\'ika' => {
+          'FW-WaBi' => 2
+        }
+      },
+      'entry' => '\'uwlA\'ik',
+      'form' => '\'uwlA\'ika',
+      'lines' => [
+        ';; >uwlA}ika_1',
+        '>wlA}k  >uwlA}ika       FW-WaBi they/those     [[>uwlA}ika/DEM_PRON_MP]]',
+        'AwlA}k  >uwlA}ika       FW-WaBi they/those     [[>uwlA}ika/DEM_PRON_MP]]',
+        '>wl}k   >uwla}ika       FW-WaBi they/those     [[>uwla}ika/DEM_PRON_MP]]',
+        'Awl}k   >uwla}ika       FW-WaBi they/those     [[>uwla}ika/DEM_PRON_MP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'pron',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'they/those'
+      ],
+      'orig' => 'OuwlA}ika',
       'prefix' => ''
     }
   ],
@@ -53529,7 +53563,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'adv',
       'morphs' => 'FAL |< Iy |< aN',
       'suffix' => ' |< Iy |< aN',
       'glosses' => [
@@ -54443,9 +54477,9 @@ $Lexicon->{'\' f l'}[3]{'glosses'} = $Lexicon->{'\' f l'}[2]{'glosses'};
 $Lexicon->{'\' _h y'}[1]{'types'} = $Lexicon->{'\' _h y'}[0]{'types'};
 $Lexicon->{'\' _h y'}[1]{'lines'} = $Lexicon->{'\' _h y'}[0]{'lines'};
 $Lexicon->{'\' _h y'}[1]{'glosses'} = $Lexicon->{'\' _h y'}[0]{'glosses'};
-$Lexicon->{'\' n n'}[5]{'types'} = $Lexicon->{'\' n n'}[4]{'types'};
-$Lexicon->{'\' n n'}[5]{'lines'} = $Lexicon->{'\' n n'}[4]{'lines'};
-$Lexicon->{'\' n n'}[5]{'glosses'} = $Lexicon->{'\' n n'}[4]{'glosses'};
+$Lexicon->{'\' n n'}[7]{'types'} = $Lexicon->{'\' n n'}[6]{'types'};
+$Lexicon->{'\' n n'}[7]{'lines'} = $Lexicon->{'\' n n'}[6]{'lines'};
+$Lexicon->{'\' n n'}[7]{'glosses'} = $Lexicon->{'\' n n'}[6]{'glosses'};
 $Lexicon->{'\' n s'}[4]{'types'} = $Lexicon->{'\' n s'}[3]{'types'};
 $Lexicon->{'\' n s'}[4]{'lines'} = $Lexicon->{'\' n s'}[3]{'lines'};
 $Lexicon->{'\' n s'}[4]{'glosses'} = $Lexicon->{'\' n s'}[3]{'glosses'};
@@ -54485,9 +54519,9 @@ $Lexicon->{'\' l m'}[9]{'glosses'} = $Lexicon->{'\' y l m'}[0]{'glosses'};
 $Lexicon->{'\' l m'}[10]{'types'} = $Lexicon->{'\' y l m'}[0]{'types'};
 $Lexicon->{'\' l m'}[10]{'lines'} = $Lexicon->{'\' y l m'}[0]{'lines'};
 $Lexicon->{'\' l m'}[10]{'glosses'} = $Lexicon->{'\' y l m'}[0]{'glosses'};
-$Lexicon->{'\' w n'}[7]{'types'} = $Lexicon->{'\' w n'}[6]{'types'};
-$Lexicon->{'\' w n'}[7]{'lines'} = $Lexicon->{'\' w n'}[6]{'lines'};
-$Lexicon->{'\' w n'}[7]{'glosses'} = $Lexicon->{'\' w n'}[6]{'glosses'};
+$Lexicon->{'\' w n'}[8]{'types'} = $Lexicon->{'\' w n'}[7]{'types'};
+$Lexicon->{'\' w n'}[8]{'lines'} = $Lexicon->{'\' w n'}[7]{'lines'};
+$Lexicon->{'\' w n'}[8]{'glosses'} = $Lexicon->{'\' w n'}[7]{'glosses'};
 $Lexicon->{'\' s n'}[4]{'types'} = $Lexicon->{'\' s n'}[3]{'types'};
 $Lexicon->{'\' s n'}[4]{'lines'} = $Lexicon->{'\' s n'}[3]{'lines'};
 $Lexicon->{'\' s n'}[4]{'glosses'} = $Lexicon->{'\' s n'}[3]{'glosses'};
@@ -54596,9 +54630,9 @@ $Lexicon->{'\' f n'}[5]{'glosses'} = $Lexicon->{'\' y f n'}[0]{'glosses'};
 $Lexicon->{'\' w l m'}[0]{'types'} = $Lexicon->{'\' l m'}[16]{'types'};
 $Lexicon->{'\' w l m'}[0]{'lines'} = $Lexicon->{'\' l m'}[16]{'lines'};
 $Lexicon->{'\' w l m'}[0]{'glosses'} = $Lexicon->{'\' l m'}[16]{'glosses'};
-$Lexicon->{'\' y w'}[0]{'types'} = $Lexicon->{'\' w n'}[6]{'types'};
-$Lexicon->{'\' y w'}[0]{'lines'} = $Lexicon->{'\' w n'}[6]{'lines'};
-$Lexicon->{'\' y w'}[0]{'glosses'} = $Lexicon->{'\' w n'}[6]{'glosses'};
+$Lexicon->{'\' y w'}[0]{'types'} = $Lexicon->{'\' w n'}[7]{'types'};
+$Lexicon->{'\' y w'}[0]{'lines'} = $Lexicon->{'\' w n'}[7]{'lines'};
+$Lexicon->{'\' y w'}[0]{'glosses'} = $Lexicon->{'\' w n'}[7]{'glosses'};
 $Lexicon->{'\' k r'}[2]{'types'} = $Lexicon->{'\' k r'}[1]{'types'};
 $Lexicon->{'\' k r'}[2]{'lines'} = $Lexicon->{'\' k r'}[1]{'lines'};
 $Lexicon->{'\' k r'}[2]{'glosses'} = $Lexicon->{'\' k r'}[1]{'glosses'};
@@ -54626,12 +54660,12 @@ $Lexicon->{'\' b w'}[8]{'glosses'} = $Lexicon->{'\' b b'}[5]{'glosses'};
 $Lexicon->{'\' n y'}[0]{'types'} = $Lexicon->{'\' n n'}[0]{'types'};
 $Lexicon->{'\' n y'}[0]{'lines'} = $Lexicon->{'\' n n'}[0]{'lines'};
 $Lexicon->{'\' n y'}[0]{'glosses'} = $Lexicon->{'\' n n'}[0]{'glosses'};
-$Lexicon->{'\' n y'}[1]{'types'} = $Lexicon->{'\' n n'}[1]{'types'};
-$Lexicon->{'\' n y'}[1]{'lines'} = $Lexicon->{'\' n n'}[1]{'lines'};
-$Lexicon->{'\' n y'}[1]{'glosses'} = $Lexicon->{'\' n n'}[1]{'glosses'};
-$Lexicon->{'\' y w n'}[0]{'types'} = $Lexicon->{'\' w n'}[6]{'types'};
-$Lexicon->{'\' y w n'}[0]{'lines'} = $Lexicon->{'\' w n'}[6]{'lines'};
-$Lexicon->{'\' y w n'}[0]{'glosses'} = $Lexicon->{'\' w n'}[6]{'glosses'};
+$Lexicon->{'\' n y'}[1]{'types'} = $Lexicon->{'\' n n'}[2]{'types'};
+$Lexicon->{'\' n y'}[1]{'lines'} = $Lexicon->{'\' n n'}[2]{'lines'};
+$Lexicon->{'\' n y'}[1]{'glosses'} = $Lexicon->{'\' n n'}[2]{'glosses'};
+$Lexicon->{'\' y w n'}[0]{'types'} = $Lexicon->{'\' w n'}[7]{'types'};
+$Lexicon->{'\' y w n'}[0]{'lines'} = $Lexicon->{'\' w n'}[7]{'lines'};
+$Lexicon->{'\' y w n'}[0]{'glosses'} = $Lexicon->{'\' w n'}[7]{'glosses'};
 $Lexicon->{'\' r y n'}[0]{'types'} = $Lexicon->{'\' r y'}[2]{'types'};
 $Lexicon->{'\' r y n'}[0]{'lines'} = $Lexicon->{'\' r y'}[2]{'lines'};
 $Lexicon->{'\' r y n'}[0]{'glosses'} = $Lexicon->{'\' r y'}[2]{'glosses'};
@@ -54701,6 +54735,9 @@ $Lexicon->{'\' l \''}[0]{'glosses'} = $Lexicon->{'\' y l \''}[0]{'glosses'};
 $Lexicon->{'\' l \''}[1]{'types'} = $Lexicon->{'\' y l \''}[0]{'types'};
 $Lexicon->{'\' l \''}[1]{'lines'} = $Lexicon->{'\' y l \''}[0]{'lines'};
 $Lexicon->{'\' l \''}[1]{'glosses'} = $Lexicon->{'\' y l \''}[0]{'glosses'};
+$Lexicon->{'\' l \''}[3]{'types'} = $Lexicon->{'\' w l \''}[0]{'types'};
+$Lexicon->{'\' l \''}[3]{'lines'} = $Lexicon->{'\' w l \''}[0]{'lines'};
+$Lexicon->{'\' l \''}[3]{'glosses'} = $Lexicon->{'\' w l \''}[0]{'glosses'};
 $Lexicon->{'\' m n'}[4]{'types'} = $Lexicon->{'\' m n'}[3]{'types'};
 $Lexicon->{'\' m n'}[4]{'lines'} = $Lexicon->{'\' m n'}[3]{'lines'};
 $Lexicon->{'\' m n'}[4]{'glosses'} = $Lexicon->{'\' m n'}[3]{'glosses'};
@@ -54753,6 +54790,9 @@ $Lexicon->{'\' s w'}[19]{'glosses'} = $Lexicon->{'\' s y'}[6]{'glosses'};
 $Lexicon->{'\' s w'}[20]{'types'} = $Lexicon->{'\' s w n'}[0]{'types'};
 $Lexicon->{'\' s w'}[20]{'lines'} = $Lexicon->{'\' s w n'}[0]{'lines'};
 $Lexicon->{'\' s w'}[20]{'glosses'} = $Lexicon->{'\' s w n'}[0]{'glosses'};
+$Lexicon->{'\' y k'}[1]{'types'} = $Lexicon->{'\' y k'}[0]{'types'};
+$Lexicon->{'\' y k'}[1]{'lines'} = $Lexicon->{'\' y k'}[0]{'lines'};
+$Lexicon->{'\' y k'}[1]{'glosses'} = $Lexicon->{'\' y k'}[0]{'glosses'};
 $Lexicon->{'\' d \''}[0]{'types'} = $Lexicon->{'\' d y'}[3]{'types'};
 $Lexicon->{'\' d \''}[0]{'lines'} = $Lexicon->{'\' d y'}[3]{'lines'};
 $Lexicon->{'\' d \''}[0]{'glosses'} = $Lexicon->{'\' d y'}[3]{'glosses'};
@@ -54855,12 +54895,15 @@ $Lexicon->{'\' w r y'}[0]{'glosses'} = $Lexicon->{'\' w r w'}[0]{'glosses'};
 $Lexicon->{'\' y _d \''}[0]{'types'} = $Lexicon->{'\' _d y'}[9]{'types'};
 $Lexicon->{'\' y _d \''}[0]{'lines'} = $Lexicon->{'\' _d y'}[9]{'lines'};
 $Lexicon->{'\' y _d \''}[0]{'glosses'} = $Lexicon->{'\' _d y'}[9]{'glosses'};
-$Lexicon->{'\' n \''}[10]{'types'} = $Lexicon->{'\' n y'}[2]{'types'};
-$Lexicon->{'\' n \''}[10]{'lines'} = $Lexicon->{'\' n y'}[2]{'lines'};
-$Lexicon->{'\' n \''}[10]{'glosses'} = $Lexicon->{'\' n y'}[2]{'glosses'};
-$Lexicon->{'\' n \''}[11]{'types'} = $Lexicon->{'\' n n'}[10]{'types'};
-$Lexicon->{'\' n \''}[11]{'lines'} = $Lexicon->{'\' n n'}[10]{'lines'};
-$Lexicon->{'\' n \''}[11]{'glosses'} = $Lexicon->{'\' n n'}[10]{'glosses'};
+$Lexicon->{'\' n \''}[8]{'types'} = $Lexicon->{'\' n \''}[7]{'types'};
+$Lexicon->{'\' n \''}[8]{'lines'} = $Lexicon->{'\' n \''}[7]{'lines'};
+$Lexicon->{'\' n \''}[8]{'glosses'} = $Lexicon->{'\' n \''}[7]{'glosses'};
+$Lexicon->{'\' n \''}[12]{'types'} = $Lexicon->{'\' n y'}[2]{'types'};
+$Lexicon->{'\' n \''}[12]{'lines'} = $Lexicon->{'\' n y'}[2]{'lines'};
+$Lexicon->{'\' n \''}[12]{'glosses'} = $Lexicon->{'\' n y'}[2]{'glosses'};
+$Lexicon->{'\' n \''}[13]{'types'} = $Lexicon->{'\' n n'}[12]{'types'};
+$Lexicon->{'\' n \''}[13]{'lines'} = $Lexicon->{'\' n n'}[12]{'lines'};
+$Lexicon->{'\' n \''}[13]{'glosses'} = $Lexicon->{'\' n n'}[12]{'glosses'};
 $Lexicon->{'\' ^g r'}[3]{'types'} = $Lexicon->{'\' ^g r'}[2]{'types'};
 $Lexicon->{'\' ^g r'}[3]{'lines'} = $Lexicon->{'\' ^g r'}[2]{'lines'};
 $Lexicon->{'\' ^g r'}[3]{'glosses'} = $Lexicon->{'\' ^g r'}[2]{'glosses'};
@@ -54909,18 +54952,18 @@ $Lexicon->{'\' m m'}[0]{'glosses'} = $Lexicon->{'\' m y'}[0]{'glosses'};
 $Lexicon->{'\' m m'}[3]{'types'} = $Lexicon->{'\' t m'}[3]{'types'};
 $Lexicon->{'\' m m'}[3]{'lines'} = $Lexicon->{'\' t m'}[3]{'lines'};
 $Lexicon->{'\' m m'}[3]{'glosses'} = $Lexicon->{'\' t m'}[3]{'glosses'};
-$Lexicon->{'\' m m'}[23]{'types'} = $Lexicon->{'\' y m'}[0]{'types'};
-$Lexicon->{'\' m m'}[23]{'lines'} = $Lexicon->{'\' y m'}[0]{'lines'};
-$Lexicon->{'\' m m'}[23]{'glosses'} = $Lexicon->{'\' y m'}[0]{'glosses'};
-$Lexicon->{'\' m m'}[24]{'types'} = $Lexicon->{'\' y m'}[1]{'types'};
-$Lexicon->{'\' m m'}[24]{'lines'} = $Lexicon->{'\' y m'}[1]{'lines'};
-$Lexicon->{'\' m m'}[24]{'glosses'} = $Lexicon->{'\' y m'}[1]{'glosses'};
-$Lexicon->{'\' m m'}[25]{'types'} = $Lexicon->{'\' m w'}[0]{'types'};
-$Lexicon->{'\' m m'}[25]{'lines'} = $Lexicon->{'\' m w'}[0]{'lines'};
-$Lexicon->{'\' m m'}[25]{'glosses'} = $Lexicon->{'\' m w'}[0]{'glosses'};
-$Lexicon->{'\' m m'}[26]{'types'} = $Lexicon->{'\' m w'}[1]{'types'};
-$Lexicon->{'\' m m'}[26]{'lines'} = $Lexicon->{'\' m w'}[1]{'lines'};
-$Lexicon->{'\' m m'}[26]{'glosses'} = $Lexicon->{'\' m w'}[1]{'glosses'};
+$Lexicon->{'\' m m'}[24]{'types'} = $Lexicon->{'\' y m'}[0]{'types'};
+$Lexicon->{'\' m m'}[24]{'lines'} = $Lexicon->{'\' y m'}[0]{'lines'};
+$Lexicon->{'\' m m'}[24]{'glosses'} = $Lexicon->{'\' y m'}[0]{'glosses'};
+$Lexicon->{'\' m m'}[25]{'types'} = $Lexicon->{'\' y m'}[1]{'types'};
+$Lexicon->{'\' m m'}[25]{'lines'} = $Lexicon->{'\' y m'}[1]{'lines'};
+$Lexicon->{'\' m m'}[25]{'glosses'} = $Lexicon->{'\' y m'}[1]{'glosses'};
+$Lexicon->{'\' m m'}[26]{'types'} = $Lexicon->{'\' m w'}[0]{'types'};
+$Lexicon->{'\' m m'}[26]{'lines'} = $Lexicon->{'\' m w'}[0]{'lines'};
+$Lexicon->{'\' m m'}[26]{'glosses'} = $Lexicon->{'\' m w'}[0]{'glosses'};
+$Lexicon->{'\' m m'}[27]{'types'} = $Lexicon->{'\' m w'}[1]{'types'};
+$Lexicon->{'\' m m'}[27]{'lines'} = $Lexicon->{'\' m w'}[1]{'lines'};
+$Lexicon->{'\' m m'}[27]{'glosses'} = $Lexicon->{'\' m w'}[1]{'glosses'};
 $Lexicon->{'\' z w'}[1]{'types'} = $Lexicon->{'\' z w'}[0]{'types'};
 $Lexicon->{'\' z w'}[1]{'lines'} = $Lexicon->{'\' z w'}[0]{'lines'};
 $Lexicon->{'\' z w'}[1]{'glosses'} = $Lexicon->{'\' z w'}[0]{'glosses'};

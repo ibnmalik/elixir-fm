@@ -76,6 +76,17 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`    {- \*A}id -}           [ "protector", "defender" ]
                               `plural`     FAL |< aT ]
 
+ |> "_d ' k" <| [
+
+    -- ;; *Aka_1
+    -- \*Ak     *Aka    FW-WaBi that     [[*Aka/DEM_PRON_MS]]
+    -- tAk     tAka    FW-WaBi that     [[tAka/DEM_PRON_FS]]
+    -- tyk     tiyka   FW-WaBi that     [[tiyka/DEM_PRON_FS]]
+    -- tAnk    tAnika  FW-WaBi that     [[tAnika/DEM_PRON_FS]]
+    -- tynk    tayonika        FW-WaBi that     [[tayonika/DEM_PRON_FS]]
+
+    FAL |<< "a"               `pron`    {- \*Aka -}            [ "that" ] ]
+
  |> "_d ' l" <| [
 
     -- ;; *Al_1
@@ -1867,7 +1878,7 @@ lexicon = listing "Lexicon's properties"
     -- \*wy     *awiy   FW-WaBi (relatives) of;family     [[*awiy/DEM_PRON_MD]]
     -- \*wy     *awiy   FW-Wa-y (relatives) of;family     [[*awiy/DEM_PRON_MD]]
 
-    FU                        `noun`    {- \*uw -}             [ "of", "with", "(two relatives) of", "(relatives) of", "family" ]
+    FU                        `pron`    {- \*uw -}             [ "of", "with", "(two relatives) of", "(relatives) of", "family" ]
                               `plural`     FaCU
                               `plural`     FaCI
                               `plural`     FaCA
@@ -1882,7 +1893,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; *awAt_2
     -- \*wAt    *awAt   FW-WaBi those     [[*awAt/DEM_PRON_FP]]
 
-    FaL |< At                 `noun`    {- \*awAt -}           [ "those" ],
+    FaL |< At                 `pron`    {- \*awAt -}           [ "those" ],
 
     -- ;; *awAtiy~_1
     -- \*wAty   *awAtiy~        Nall    high-class;exclusive     [[*awAtiy~/ADJ]]
@@ -1899,7 +1910,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; *awAt_2
     -- \*wAt    *awAt   FW-WaBi those     [[*awAt/DEM_PRON_FP]]
 
-    FaC |< At                 `noun`    {- \*awAt -}           [ "those" ],
+    FaC |< At                 `pron`    {- \*awAt -}           [ "those" ],
 
     -- ;; *awAtiy~_1
     -- \*wAty   *awAtiy~        Nall    high-class;exclusive     [[*awAtiy~/ADJ]]
@@ -2027,18 +2038,7 @@ lexicon = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- ta*oyiyl -}         [ "supplementing", "appending" ]
                               `plural`     TaFCIL |< At ]
 
- |> "_dAka" <| [
-
-    -- ;; *Aka_1
-    -- \*Ak     *Aka    FW-WaBi that     [[*Aka/DEM_PRON_MS]]
-    -- tAk     tAka    FW-WaBi that     [[tAka/DEM_PRON_FS]]
-    -- tyk     tiyka   FW-WaBi that     [[tiyka/DEM_PRON_FS]]
-    -- tAnk    tAnika  FW-WaBi that     [[tAnika/DEM_PRON_FS]]
-    -- tynk    tayonika        FW-WaBi that     [[tayonika/DEM_PRON_FS]]
-
-    Identity                  `noun`    {- \*Aka -}            [ "that" ] ]
-
- |> "_d_alika" <| [
+ |> "_d_alik" <| [
 
     -- ;; *`lika_1
     -- \*lk     *`lika  FW-WaBi that           [[*`lika/DEM_PRON_MS]]
@@ -2048,21 +2048,21 @@ lexicon = listing "Lexicon's properties"
     -- >wlA}km >uwlA}ikum      FW-WaBi those          [[>uwlA}ikum/DEM_PRON_MP]]
     -- AwlA}km >uwlA}ikum      FW-WaBi those          [[>uwlA}ikum/DEM_PRON_MP]]
 
-    Identity                  `noun`    {- \*`lika -}          [ "that", "that one", "those" ] ]
+    Identity |<< "a"          `pron`    {- \*`lika -}          [ "that", "that one", "those" ] ]
 
  |> "bi_dA" <| [
 
     -- ;; bi*A_1
     -- b*A     bi*A    FW-Wa   with that     [[bi/PREP+*A/DEM_PRON_MS]]
 
-    Identity                  `noun`    {- bi*A -}             [ "with that" ] ]
+    Identity                  `prep`    {- bi*A -}             [ "with that" ] ]
 
  |> "h_aka_dA" <| [
 
     -- ;; h`ka*A_1
     -- hk*A    h`ka*A  FW-Wa   thus;as such     [[h`ka*A/CONJ]]
 
-    Identity                  `noun`    {- h`ka*A -}           [ "thus", "as such" ] ]
+    Identity                  `conj`    {- h`ka*A -}           [ "thus", "as such" ] ]
 
  |> "idda_har" <| [
 
@@ -2101,28 +2101,28 @@ lexicon = listing "Lexicon's properties"
     -- ;; ka*A_1
     -- k*A     ka*A    FW-Wa   such;thus     [[ka*A/CONJ]]
 
-    Identity                  `noun`    {- ka*A -}             [ "such", "thus" ] ]
+    Identity                  `conj`    {- ka*A -}             [ "such", "thus" ] ]
 
- |> "ka_d_alika" <| [
+ |> "ka_d_alik" <| [
 
     -- ;; ka*`lika_1
     -- k*lk    ka*`lika        FW-Wa   likewise;also       [[ka*`lika/ADV]]
 
-    Identity                  `noun`    {- ka*`lika -}         [ "likewise", "also" ] ]
+    Identity |<< "a"          `adv`     {- ka*`lika -}         [ "likewise", "also" ] ]
 
  |> "li_dA" <| [
 
     -- ;; li*A_1
     -- l*A     li*A    FW-Wa   therefore     [[li*A/CONJ]]
 
-    Identity                  `noun`    {- li*A -}             [ "therefore" ] ]
+    Identity                  `conj`    {- li*A -}             [ "therefore" ] ]
 
- |> "li_d_alika" <| [
+ |> "li_d_alik" <| [
 
     -- ;; li*`lika_1
     -- l*lk    li*`lika        FW-Wa   therefore           [[li*`lika/ADV]]
 
-    Identity                  `noun`    {- li*`lika -}         [ "therefore" ] ]
+    Identity |<< "a"          `adv`     {- li*`lika -}         [ "therefore" ] ]
 
  |> "mudda_hir" <| [
 

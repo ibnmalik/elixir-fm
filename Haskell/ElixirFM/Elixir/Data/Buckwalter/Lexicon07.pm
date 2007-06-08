@@ -1853,27 +1853,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_halfu' => [
-    {
-      'types' => {},
-      'entry' => '_halfu',
-      'form' => '_halfu',
-      'lines' => [
-        ';; xalofu_1',
-        'xlf     xalofu  FW-Wa   behind     [[xalofu/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'behind'
-      ],
-      'orig' => 'xalofu',
-      'prefix' => ''
-    }
-  ],
   '_h z n' => [
     {
       'types' => {
@@ -4569,40 +4548,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_hAri^ga' => [
-    {
-      'types' => {
-        '_hAri^g' => {
-          'FW-Wa-o' => 1
-        },
-        '_hAri^gi' => {
-          'FW-Wa' => 1,
-          'FW-Wa-i' => 1
-        }
-      },
-      'entry' => '_hAri^ga',
-      'form' => '_hAri^ga',
-      'lines' => [
-        ';; xArija_1',
-        'xArj    xArija  FW-Wa   outside;out of     [[xArija/PREP]]',
-        'xArj    xAriji  FW-Wa   outside;out of     [[xAriji/PREP]]',
-        'xArj    xArija  FW-Wa-a outside;out of     [[xArija/PREP]]',
-        'xArj    xAriji  FW-Wa-i outside;out of     [[xAriji/PREP]]',
-        'xArj    xArij   FW-Wa-o outside;out of     [[xArij/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'outside',
-        'out of'
-      ],
-      'orig' => 'xArija',
-      'prefix' => ''
-    }
-  ],
   '_h y m' => [
     {
       'types' => {
@@ -6024,7 +5969,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'MuFtAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -6560,6 +6505,42 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        '_hAri^g' => {
+          'FW-Wa-o' => 1
+        },
+        '_hAri^gi' => {
+          'FW-Wa' => 1,
+          'FW-Wa-i' => 1
+        }
+      },
+      'entry' => '_hAri^g',
+      'form' => '_hAri^ga',
+      'lines' => [
+        ';; xArija_1',
+        'xArj    xArija  FW-Wa   outside;out of     [[xArija/PREP]]',
+        'xArj    xAriji  FW-Wa   outside;out of     [[xAriji/PREP]]',
+        'xArj    xArija  FW-Wa-a outside;out of     [[xArija/PREP]]',
+        'xArj    xAriji  FW-Wa-i outside;out of     [[xAriji/PREP]]',
+        'xArj    xArij   FW-Wa-o outside;out of     [[xArij/PREP]]'
+      ],
+      'patterns' => {
+        '_hAri^g' => [
+          'FACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FACiL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'outside',
+        'out of'
+      ],
+      'orig' => 'xArija',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => '_hAri^g',
       'form' => '_hAri^g',
@@ -6590,7 +6571,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [
@@ -7909,7 +7890,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'FaCA',
       'suffix' => '',
       'glosses' => [
@@ -14188,6 +14169,34 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        '_hilAli' => {
+          'FW-Wa' => 1,
+          'FW-Wa-i' => 1
+        }
+      },
+      'entry' => '_hilAl',
+      'form' => '_hilAla',
+      'lines' => [
+        ';; xilAla_1',
+        'xlAl    xilAla  FW-Wa   during;through     [[xilAla/PREP]]',
+        'xlAl    xilAli  FW-Wa   during;through     [[xilAli/PREP]]',
+        'xlAl    xilAla  FW-Wa-a during;through     [[xilAla/PREP]]',
+        'xlAl    xilAli  FW-Wa-i during;through     [[xilAli/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FiCAL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'during',
+        'through'
+      ],
+      'orig' => 'xilAla',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => '_hall',
       'form' => '_hallaT',
@@ -16794,7 +16803,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCCIL',
       'suffix' => '',
       'glosses' => [
@@ -16815,7 +16824,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FuCUL',
       'suffix' => '',
       'glosses' => [
@@ -17048,7 +17057,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FAL |< aT |< aN',
       'suffix' => ' |< aT |< aN',
       'glosses' => [
@@ -17073,7 +17082,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FACL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
@@ -20861,7 +20870,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'TaFCIL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -24521,36 +24530,6 @@ $Lexicon = {
         'excerpt'
       ],
       'orig' => 'musotaxolaS',
-      'prefix' => ''
-    }
-  ],
-  '_hilAla' => [
-    {
-      'types' => {
-        '_hilAli' => {
-          'FW-Wa' => 1,
-          'FW-Wa-i' => 1
-        }
-      },
-      'entry' => '_hilAla',
-      'form' => '_hilAla',
-      'lines' => [
-        ';; xilAla_1',
-        'xlAl    xilAla  FW-Wa   during;through     [[xilAla/PREP]]',
-        'xlAl    xilAli  FW-Wa   during;through     [[xilAli/PREP]]',
-        'xlAl    xilAla  FW-Wa-a during;through     [[xilAla/PREP]]',
-        'xlAl    xilAli  FW-Wa-i during;through     [[xilAli/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'during',
-        'through'
-      ],
-      'orig' => 'xilAla',
       'prefix' => ''
     }
   ],
@@ -31403,7 +31382,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -31868,6 +31847,60 @@ $Lexicon = {
         'appoint as successor'
       ],
       'orig' => 'Aisotaxolaf',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_half' => {
+          'FW-Wa-o' => 1
+        },
+        '_halfi' => {
+          'FW-Wa' => 1,
+          'FW-Wa-i' => 1
+        }
+      },
+      'entry' => '_half',
+      'form' => '_halfa',
+      'lines' => [
+        ';; xalofa_1',
+        'xlf     xalofa  FW-Wa   behind     [[xalofa/PREP]]',
+        'xlf     xalofi  FW-Wa   behind     [[xalofi/PREP]]',
+        'xlf     xalofa  FW-Wa-a behind     [[xalofa/PREP]]',
+        'xlf     xalofi  FW-Wa-i behind     [[xalofi/PREP]]',
+        'xlf     xalof   FW-Wa-o behind     [[xalof/PREP]]'
+      ],
+      'patterns' => {
+        '_half' => [
+          'FaCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FaCL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'behind'
+      ],
+      'orig' => 'xalofa',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_half',
+      'form' => '_halfu',
+      'lines' => [
+        ';; xalofu_1',
+        'xlf     xalofu  FW-Wa   behind     [[xalofu/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'FaCL |<< "u"',
+      'suffix' => ' |<< "u"',
+      'glosses' => [
+        'behind'
+      ],
+      'orig' => 'xalofu',
       'prefix' => ''
     },
     {
@@ -32955,7 +32988,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FuCL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
@@ -33370,7 +33403,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FuCL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
@@ -35454,39 +35487,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_halfa' => [
-    {
-      'types' => {
-        '_half' => {
-          'FW-Wa-o' => 1
-        },
-        '_halfi' => {
-          'FW-Wa' => 1,
-          'FW-Wa-i' => 1
-        }
-      },
-      'entry' => '_halfa',
-      'form' => '_halfa',
-      'lines' => [
-        ';; xalofa_1',
-        'xlf     xalofa  FW-Wa   behind     [[xalofa/PREP]]',
-        'xlf     xalofi  FW-Wa   behind     [[xalofi/PREP]]',
-        'xlf     xalofa  FW-Wa-a behind     [[xalofa/PREP]]',
-        'xlf     xalofi  FW-Wa-i behind     [[xalofi/PREP]]',
-        'xlf     xalof   FW-Wa-o behind     [[xalof/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'behind'
-      ],
-      'orig' => 'xalofa',
-      'prefix' => ''
-    }
-  ],
   '_h r d' => [
     {
       'types' => {
@@ -37376,7 +37376,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -38262,24 +38262,24 @@ $Lexicon->{'_h w r'}[6]{'glosses'} = $Lexicon->{'_h w r y'}[0]{'glosses'};
 $Lexicon->{'_h y r'}[7]{'types'} = $Lexicon->{'_h w r y'}[0]{'types'};
 $Lexicon->{'_h y r'}[7]{'lines'} = $Lexicon->{'_h w r y'}[0]{'lines'};
 $Lexicon->{'_h y r'}[7]{'glosses'} = $Lexicon->{'_h w r y'}[0]{'glosses'};
-$Lexicon->{'_h l l'}[18]{'types'} = $Lexicon->{'_h l w'}[10]{'types'};
-$Lexicon->{'_h l l'}[18]{'lines'} = $Lexicon->{'_h l w'}[10]{'lines'};
-$Lexicon->{'_h l l'}[18]{'glosses'} = $Lexicon->{'_h l w'}[10]{'glosses'};
-$Lexicon->{'_h l l'}[19]{'types'} = $Lexicon->{'_h l w'}[11]{'types'};
-$Lexicon->{'_h l l'}[19]{'lines'} = $Lexicon->{'_h l w'}[11]{'lines'};
-$Lexicon->{'_h l l'}[19]{'glosses'} = $Lexicon->{'_h l w'}[11]{'glosses'};
+$Lexicon->{'_h l l'}[19]{'types'} = $Lexicon->{'_h l w'}[10]{'types'};
+$Lexicon->{'_h l l'}[19]{'lines'} = $Lexicon->{'_h l w'}[10]{'lines'};
+$Lexicon->{'_h l l'}[19]{'glosses'} = $Lexicon->{'_h l w'}[10]{'glosses'};
+$Lexicon->{'_h l l'}[20]{'types'} = $Lexicon->{'_h l w'}[11]{'types'};
+$Lexicon->{'_h l l'}[20]{'lines'} = $Lexicon->{'_h l w'}[11]{'lines'};
+$Lexicon->{'_h l l'}[20]{'glosses'} = $Lexicon->{'_h l w'}[11]{'glosses'};
 $Lexicon->{'_h w \''}[0]{'types'} = $Lexicon->{'_h w y'}[3]{'types'};
 $Lexicon->{'_h w \''}[0]{'lines'} = $Lexicon->{'_h w y'}[3]{'lines'};
 $Lexicon->{'_h w \''}[0]{'glosses'} = $Lexicon->{'_h w y'}[3]{'glosses'};
 $Lexicon->{'_h t l'}[6]{'types'} = $Lexicon->{'_h l l'}[5]{'types'};
 $Lexicon->{'_h t l'}[6]{'lines'} = $Lexicon->{'_h l l'}[5]{'lines'};
 $Lexicon->{'_h t l'}[6]{'glosses'} = $Lexicon->{'_h l l'}[5]{'glosses'};
-$Lexicon->{'_h t l'}[7]{'types'} = $Lexicon->{'_h l l'}[14]{'types'};
-$Lexicon->{'_h t l'}[7]{'lines'} = $Lexicon->{'_h l l'}[14]{'lines'};
-$Lexicon->{'_h t l'}[7]{'glosses'} = $Lexicon->{'_h l l'}[14]{'glosses'};
-$Lexicon->{'_h t l'}[8]{'types'} = $Lexicon->{'_h l l'}[17]{'types'};
-$Lexicon->{'_h t l'}[8]{'lines'} = $Lexicon->{'_h l l'}[17]{'lines'};
-$Lexicon->{'_h t l'}[8]{'glosses'} = $Lexicon->{'_h l l'}[17]{'glosses'};
+$Lexicon->{'_h t l'}[7]{'types'} = $Lexicon->{'_h l l'}[15]{'types'};
+$Lexicon->{'_h t l'}[7]{'lines'} = $Lexicon->{'_h l l'}[15]{'lines'};
+$Lexicon->{'_h t l'}[7]{'glosses'} = $Lexicon->{'_h l l'}[15]{'glosses'};
+$Lexicon->{'_h t l'}[8]{'types'} = $Lexicon->{'_h l l'}[18]{'types'};
+$Lexicon->{'_h t l'}[8]{'lines'} = $Lexicon->{'_h l l'}[18]{'lines'};
+$Lexicon->{'_h t l'}[8]{'glosses'} = $Lexicon->{'_h l l'}[18]{'glosses'};
 $Lexicon->{'_h n w'}[1]{'types'} = $Lexicon->{'_h n y'}[0]{'types'};
 $Lexicon->{'_h n w'}[1]{'lines'} = $Lexicon->{'_h n y'}[0]{'lines'};
 $Lexicon->{'_h n w'}[1]{'glosses'} = $Lexicon->{'_h n y'}[0]{'glosses'};

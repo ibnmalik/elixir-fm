@@ -3039,7 +3039,7 @@ lexicon = listing "Lexicon's properties"
     -- bsbb    bisababi        FW-Wa-i because of;due to   [[bi/PREP+sababi/NOUN]]
     -- bsbb    bisabab FW-Wa-o because of;due to   [[bi/PREP+sabab/NOUN]]
 
-    FaCaL                     `noun`    {- sabab -}            [ "reason", "cause", "reasons", "causes", "because of", "due to" ]
+    FaCaL                     `prep`    {- sabab -}            [ "reason", "cause", "reasons", "causes", "because of", "due to" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'asbAb N" ] -},
 
@@ -3387,7 +3387,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; sAbiqAF_1
     -- sAbq    sAbiq   NF      formerly;earlier     [[sAbiq/ADV]]
 
-    FACiL |< aN               `noun`    {- sAbiqAF -}          [ "formerly", "earlier" ]
+    FACiL |< aN               `adv`     {- sAbiqAF -}          [ "formerly", "earlier" ]
                               `plural`     FACiL
                            {- `others`  [ "sAbiq NF" ] -},
 
@@ -3417,7 +3417,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; musobaqAF_1
     -- msbq    musobaq NF      in advance;ahead of time     [[musobaq/ADV]]
 
-    MuFCaL |< aN              `noun`    {- musobaqAF -}        [ "in advance", "ahead of time" ]
+    MuFCaL |< aN              `adv`     {- musobaqAF -}        [ "in advance", "ahead of time" ]
                               `plural`     MuFCaL
                            {- `others`  [ "musbaq NF" ] -},
 
@@ -6113,7 +6113,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; salobAF_1
     -- slb     salob   NF      negatively;zero-zero;nil;null     [[salob/ADV]]
 
-    FaCL |< aN                `noun`    {- salobAF -}          [ "negatively", "zero-zero", "nil", "null" ]
+    FaCL |< aN                `adv`     {- salobAF -}          [ "negatively", "zero-zero", "nil", "null" ]
                               `plural`     FaCL
                            {- `others`  [ "salb NF" ] -},
 
@@ -6239,7 +6239,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; salafAF_1
     -- slf     salaf   NF      in advance;beforehand     [[salaf/ADV]]
 
-    FaCaL |< aN               `noun`    {- salafAF -}          [ "in advance", "beforehand" ]
+    FaCaL |< aN               `adv`     {- salafAF -}          [ "in advance", "beforehand" ]
                               `plural`     FaCaL
                            {- `others`  [ "salaf NF" ] -},
 
@@ -6314,7 +6314,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; sAlifAF_1
     -- sAlf    sAlif   NF      previously;formerly     [[sAlif/ADV]]
 
-    FACiL |< aN               `noun`    {- sAlifAF -}          [ "previously", "formerly" ]
+    FACiL |< aN               `adv`     {- sAlifAF -}          [ "previously", "formerly" ]
                               `plural`     FACiL
                            {- `others`  [ "sAlif NF" ] -},
 
@@ -8689,7 +8689,7 @@ lexicon = listing "Lexicon's properties"
     -- <stnAd  {isotinAd       NF      on the basis of;according to     [[{isotinAd/ADV]]
     -- AstnAd  {isotinAd       NF      on the basis of;according to     [[{isotinAd/ADV]]
 
-    IFtiCAL |< aN             `noun`    {- AisotinAdAF -}      [ "on the basis of", "according to" ]
+    IFtiCAL |< aN             `adv`     {- AisotinAdAF -}      [ "on the basis of", "according to" ]
                               `plural`     IFtiCAL
                            {- `others`  [ "istinAd NF" ] -},
 
@@ -8777,7 +8777,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; musAnahapF_1
     -- msAnhp  musAnahapF      FW-Wa   annually;yearly    [[musAnahapF/ADV]]
 
-    MuFACaL |< aT |< aN       `noun`    {- musAnahapF -}       [ "annually", "yearly" ] ]
+    MuFACaL |< aT |< aN       `adv`     {- musAnahapF -}       [ "annually", "yearly" ] ]
 
  |> "s n k r" <| [
 
@@ -10099,7 +10099,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; sariyEAF_1
     -- sryE    sariyE  NF      quickly;promptly     [[sariyE/ADV]]
 
-    FaCIL |< aN               `noun`    {- sariyEAF -}         [ "quickly", "promptly" ]
+    FaCIL |< aN               `adv`     {- sariyEAF -}         [ "quickly", "promptly" ]
                               `plural`     FaCIL
                            {- `others`  [ "sariy` NF" ] -},
 
@@ -10112,7 +10112,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; sirAE_1
     -- srAE    sirAE   NF      quickly     [[sirAE/ADV]]
 
-    FiCAL                     `noun`    {- sirAE -}            [ "quickly" ],
+    FiCAL                     `adv`     {- sirAE -}            [ "quickly" ],
 
     -- ;; tasoriyE_1
     -- tsryE   tasoriyE        NduAt   acceleration
@@ -10595,7 +10595,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; sir~AF_1
     -- sr      sir~    NF      secretly;privately     [[sir~/ADV]]
 
-    FiCL |< aN                `noun`    {- sir~AF -}           [ "secretly", "privately" ]
+    FiCL |< aN                `adv`     {- sir~AF -}           [ "secretly", "privately" ]
                               `plural`     FiCL
                            {- `others`  [ "sirr NF" ] -},
 
@@ -11851,6 +11851,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "s w f" <| [
 
+    -- ;; sawofa_1
+    -- swf     sawofa  FW-Wa   will;shall      [[sawofa/FUT_PART]]
+
+    FaCL |<< "a"              `part`    {- sawofa -}           [ "will", "shall" ],
+
     -- ;; saw~af_1
     -- swf     saw~af  PV      postpone;procrastinate
     -- swf     saw~if  IV_yu   postpone;procrastinate
@@ -12471,7 +12476,7 @@ lexicon = listing "Lexicon's properties"
     -- swY     siwaY   FW-Wa   other than;except for     [[siwaY/PREP]]
     -- swA     siwA    FW-Wa-A other than;except for     [[siwA/PREP]]
 
-    FiCY                      `noun`    {- siwaY -}            [ "other than", "except for" ],
+    FiCY                      `prep`    {- siwaY -}            [ "other than", "except for" ],
 
     -- ;; siwaY_2
     -- swY     siwaY   N0      equality
@@ -12509,7 +12514,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; sawiy~AF_1
     -- swy     sawiy~  NF      together;jointly;in common     [[sawiy~/ADV]]
 
-    FaCIL |< aN               `noun`    {- sawiy~AF -}         [ "together", "jointly", "in common" ]
+    FaCIL |< aN               `adv`     {- sawiy~AF -}         [ "together", "jointly", "in common" ]
                               `plural`     FaCIL
                            {- `others`  [ "sawiyy NF" ] -},
 
@@ -13410,7 +13415,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; sAEata}i*K_1
     -- sAEt}*  sAEata}i*K      FW-Wa   at that hour/time    [[sAEata}i*K/ADV]]
 
-    Identity                  `noun`    {- sAEata}i*K -}       [ "at that hour/time" ] ]
+    Identity                  `adv`     {- sAEata}i*K -}       [ "at that hour/time" ] ]
 
  |> "sAbA" <| [
 
@@ -13710,7 +13715,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; sabaholal_1
     -- sbhll   sabaholal       NF      aimlessly;at random     [[sabaholal/ADV]]
 
-    Identity                  `noun`    {- sabaholal -}        [ "aimlessly", "at random" ] ]
+    Identity                  `adv`     {- sabaholal -}        [ "aimlessly", "at random" ] ]
 
  |> "safar^gal" <| [
 
@@ -13932,13 +13937,6 @@ lexicon = listing "Lexicon's properties"
     -- sryAwrAn        saroyAwarAn     N       adjutant general
 
     Identity                  `noun`    {- saroyAwarAn -}      [ "adjutant general" ] ]
-
- |> "sawfa" <| [
-
-    -- ;; sawofa_1
-    -- swf     sawofa  FW-Wa   will;shall      [[sawofa/FUT_PART]]
-
-    Identity                  `noun`    {- sawofa -}           [ "will", "shall" ] ]
 
  |> "saykuwrAn" <| [
 
@@ -14547,7 +14545,7 @@ lexicon = listing "Lexicon's properties"
     -- symA    siy~amA FW-Wa   especially      [[siy~amA/ADV]]
     -- lAsymA  lAsiy~amA       FW-Wa   especially      [[lAsiy~amA/ADV]]
 
-    Identity                  `noun`    {- siy~amA -}          [ "especially" ] ]
+    Identity                  `adv`     {- siy~amA -}          [ "especially" ] ]
 
  |> "siyzuwfriyn" <| [
 

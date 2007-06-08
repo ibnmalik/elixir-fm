@@ -626,7 +626,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FiCL',
       'suffix' => '',
       'glosses' => [
@@ -1085,32 +1085,6 @@ $Lexicon = {
         'of/from Tobruk'
       ],
       'orig' => 'Tuboruqiy~',
-      'prefix' => ''
-    }
-  ],
-  '.tiylaTa' => [
-    {
-      'types' => {
-        '.tiylata' => {
-          'FW-Wa-a' => 1
-        }
-      },
-      'entry' => '.tiylaTa',
-      'form' => '.tiylaTa',
-      'lines' => [
-        ';; Tiylapa_1',
-        'Tylp    Tiylapa FW-Wa   during     [[Tiylapa/PREP]]',
-        'Tylt    Tiylata FW-Wa-a during     [[Tiylata/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'during'
-      ],
-      'orig' => 'Tiylapa',
       'prefix' => ''
     }
   ],
@@ -4490,28 +4464,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.tiwAla' => [
-    {
-      'types' => {},
-      'entry' => '.tiwAla',
-      'form' => '.tiwAla',
-      'lines' => [
-        ';; TiwAla_1',
-        'TwAl    TiwAla  FW-Wa   during     [[TiwAla/PREP]]',
-        'TwAl    TiwAla  FW-Wa-a during     [[TiwAla/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'during'
-      ],
-      'orig' => 'TiwAla',
-      'prefix' => ''
-    }
-  ],
   '.timirr' => [
     {
       'types' => {
@@ -6063,7 +6015,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'part',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -6852,7 +6804,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -7824,7 +7776,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'HiFCAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -7907,7 +7859,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'InFiCAL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -8928,6 +8880,30 @@ $Lexicon = {
     }
   ],
   '.t y l' => [
+    {
+      'types' => {
+        '.tiylata' => {
+          'FW-Wa-a' => 1
+        }
+      },
+      'entry' => '.tiyl',
+      'form' => '.tiylaTa',
+      'lines' => [
+        ';; Tiylapa_1',
+        'Tylp    Tiylapa FW-Wa   during     [[Tiylapa/PREP]]',
+        'Tylt    Tiylata FW-Wa-a during     [[Tiylata/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FIL |< aT |<< "a"',
+      'suffix' => ' |< aT |<< "a"',
+      'glosses' => [
+        'during'
+      ],
+      'orig' => 'Tiylapa',
+      'prefix' => ''
+    },
     {
       'types' => {},
       'entry' => 'musta.tiyl',
@@ -12750,7 +12726,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -12792,7 +12768,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'adv',
       'morphs' => 'FaCL |< Iy |< aN',
       'suffix' => ' |< Iy |< aN',
       'glosses' => [
@@ -12907,7 +12883,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'TaFaCCuL',
       'suffix' => '',
       'glosses' => [
@@ -13602,7 +13578,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FuCL',
       'suffix' => '',
       'glosses' => [
@@ -14345,6 +14321,40 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => '.tiwAl',
+      'form' => '.tiwAla',
+      'lines' => [
+        ';; TiwAla_1',
+        'TwAl    TiwAla  FW-Wa   during     [[TiwAla/PREP]]',
+        'TwAl    TiwAla  FW-Wa-a during     [[TiwAla/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FiCAL |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'during'
+      ],
+      'orig' => 'TiwAla',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.tiyl',
+      'form' => '.tiylaTa',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'FIL |< aT |<< "a"',
+      'suffix' => ' |< aT |<< "a"',
+      'glosses' => [],
+      'orig' => 'Tiylapa',
+      'prefix' => ''
+    },
+    {
       'types' => {
         '.tiwAl' => {
           'N' => 1
@@ -14410,7 +14420,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adv',
       'morphs' => 'FaCIL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
@@ -14736,6 +14746,27 @@ $Lexicon = {
         'masterpiece'
       ],
       'orig' => 'OuToruwfap',
+      'prefix' => ''
+    }
+  ],
+  '.t_ah' => [
+    {
+      'types' => {},
+      'entry' => '.t_ah',
+      'form' => '.t_aha',
+      'lines' => [
+        ';; T`ha_1',
+        'Th      T`ha    N0      Taha'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'Taha'
+      ],
+      'orig' => 'T`ha',
       'prefix' => ''
     }
   ],
@@ -17962,27 +17993,6 @@ $Lexicon = {
         'Talibani'
       ],
       'orig' => 'TAlibAniy~',
-      'prefix' => ''
-    }
-  ],
-  '.t_aha' => [
-    {
-      'types' => {},
-      'entry' => '.t_aha',
-      'form' => '.t_aha',
-      'lines' => [
-        ';; T`ha_1',
-        'Th      T`ha    N0      Taha'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Taha'
-      ],
-      'orig' => 'T`ha',
       'prefix' => ''
     }
   ],
@@ -24582,15 +24592,18 @@ $Lexicon->{'.t f w'}[5]{'glosses'} = $Lexicon->{'.t f y'}[1]{'glosses'};
 $Lexicon->{'.t f w'}[6]{'types'} = $Lexicon->{'.t f y'}[2]{'types'};
 $Lexicon->{'.t f w'}[6]{'lines'} = $Lexicon->{'.t f y'}[2]{'lines'};
 $Lexicon->{'.t f w'}[6]{'glosses'} = $Lexicon->{'.t f y'}[2]{'glosses'};
-$Lexicon->{'.t w l'}[20]{'types'} = $Lexicon->{'.t \' l'}[0]{'types'};
-$Lexicon->{'.t w l'}[20]{'lines'} = $Lexicon->{'.t \' l'}[0]{'lines'};
-$Lexicon->{'.t w l'}[20]{'glosses'} = $Lexicon->{'.t \' l'}[0]{'glosses'};
-$Lexicon->{'.t w l'}[21]{'types'} = $Lexicon->{'.t \' l'}[1]{'types'};
-$Lexicon->{'.t w l'}[21]{'lines'} = $Lexicon->{'.t \' l'}[1]{'lines'};
-$Lexicon->{'.t w l'}[21]{'glosses'} = $Lexicon->{'.t \' l'}[1]{'glosses'};
-$Lexicon->{'.t w l'}[24]{'types'} = $Lexicon->{'.t y l'}[0]{'types'};
-$Lexicon->{'.t w l'}[24]{'lines'} = $Lexicon->{'.t y l'}[0]{'lines'};
-$Lexicon->{'.t w l'}[24]{'glosses'} = $Lexicon->{'.t y l'}[0]{'glosses'};
+$Lexicon->{'.t w l'}[12]{'types'} = $Lexicon->{'.t y l'}[0]{'types'};
+$Lexicon->{'.t w l'}[12]{'lines'} = $Lexicon->{'.t y l'}[0]{'lines'};
+$Lexicon->{'.t w l'}[12]{'glosses'} = $Lexicon->{'.t y l'}[0]{'glosses'};
+$Lexicon->{'.t w l'}[22]{'types'} = $Lexicon->{'.t \' l'}[0]{'types'};
+$Lexicon->{'.t w l'}[22]{'lines'} = $Lexicon->{'.t \' l'}[0]{'lines'};
+$Lexicon->{'.t w l'}[22]{'glosses'} = $Lexicon->{'.t \' l'}[0]{'glosses'};
+$Lexicon->{'.t w l'}[23]{'types'} = $Lexicon->{'.t \' l'}[1]{'types'};
+$Lexicon->{'.t w l'}[23]{'lines'} = $Lexicon->{'.t \' l'}[1]{'lines'};
+$Lexicon->{'.t w l'}[23]{'glosses'} = $Lexicon->{'.t \' l'}[1]{'glosses'};
+$Lexicon->{'.t w l'}[26]{'types'} = $Lexicon->{'.t y l'}[1]{'types'};
+$Lexicon->{'.t w l'}[26]{'lines'} = $Lexicon->{'.t y l'}[1]{'lines'};
+$Lexicon->{'.t w l'}[26]{'glosses'} = $Lexicon->{'.t y l'}[1]{'glosses'};
 $Lexicon->{'.t y `'}[1]{'types'} = $Lexicon->{'.t w `'}[22]{'types'};
 $Lexicon->{'.t y `'}[1]{'lines'} = $Lexicon->{'.t w `'}[22]{'lines'};
 $Lexicon->{'.t y `'}[1]{'glosses'} = $Lexicon->{'.t w `'}[22]{'glosses'};
