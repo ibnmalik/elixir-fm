@@ -121,10 +121,22 @@ lexicon = listing "Lexicon's properties"
 
     FiL |< aT                 `noun`    {- ri}ap -}            [ "lung", "lungs" ],
 
+    -- ;; ri}ap_1
+    -- r}      ri}     Napdu   lung
+    -- ry      riy~    Napdu   lung     [[riy~/NOUN]]
+    -- r}wn    ri}uwn  N       lungs
+
+    FiC |< aT                 `noun`    {- ri}ap -}            [ "lung", "lungs" ],
+
     -- ;; ri}awiy~_1
     -- r}wy    ri}awiy~        Nall    pulmonary     [[ri}awiy~/ADJ]]
 
     FiL |<< "awIy"            `adj`     {- ri}awiy~ -}         [ "pulmonary" ],
+
+    -- ;; ri}awiy~_1
+    -- r}wy    ri}awiy~        Nall    pulmonary     [[ri}awiy~/ADJ]]
+
+    FiC |<< "awIy"            `adj`     {- ri}awiy~ -}         [ "pulmonary" ],
 
     -- ;; ri}A'_1
     -- r}A'    ri}A'   N0_Nh   hypocrisy;dissimulation

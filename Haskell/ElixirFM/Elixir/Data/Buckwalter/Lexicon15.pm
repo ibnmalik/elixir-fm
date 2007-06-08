@@ -155,6 +155,20 @@ $Lexicon = {
       'types' => {},
       'entry' => '.diyA\'',
       'form' => '.diyA\'',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCAL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'DiyA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.diyA\'',
+      'form' => '.diyA\'',
       'lines' => [
         ';; DiyA\'_2',
         'DyA\'    DiyA\'   N0_Nh   light;glow',
@@ -170,6 +184,20 @@ $Lexicon = {
         'light',
         'glow'
       ],
+      'orig' => 'DiyA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.diyA\'',
+      'form' => '.diyA\'',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FiCAL',
+      'suffix' => '',
+      'glosses' => [],
       'orig' => 'DiyA\'',
       'prefix' => ''
     },
@@ -196,6 +224,20 @@ $Lexicon = {
     {
       'types' => {},
       'entry' => '.diyA\'',
+      'form' => '.diyA\'iyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FiCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'DiyA}iy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.diyA\'',
       'form' => '.diyA\'iyyaT',
       'lines' => [
         ';; DiyA}iy~ap_1',
@@ -210,6 +252,20 @@ $Lexicon = {
         'luminosity',
         'clarity'
       ],
+      'orig' => 'DiyA}iy~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.diyA\'',
+      'form' => '.diyA\'iyyaT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCAL |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [],
       'orig' => 'DiyA}iy~ap',
       'prefix' => ''
     },
@@ -14126,6 +14182,18 @@ $Lexicon = {
     }
   ]
 };
+$Lexicon->{'.d y \''}[1]{'types'} = $Lexicon->{'.d y \''}[0]{'types'};
+$Lexicon->{'.d y \''}[1]{'lines'} = $Lexicon->{'.d y \''}[0]{'lines'};
+$Lexicon->{'.d y \''}[1]{'glosses'} = $Lexicon->{'.d y \''}[0]{'glosses'};
+$Lexicon->{'.d y \''}[3]{'types'} = $Lexicon->{'.d y \''}[2]{'types'};
+$Lexicon->{'.d y \''}[3]{'lines'} = $Lexicon->{'.d y \''}[2]{'lines'};
+$Lexicon->{'.d y \''}[3]{'glosses'} = $Lexicon->{'.d y \''}[2]{'glosses'};
+$Lexicon->{'.d y \''}[5]{'types'} = $Lexicon->{'.d y \''}[4]{'types'};
+$Lexicon->{'.d y \''}[5]{'lines'} = $Lexicon->{'.d y \''}[4]{'lines'};
+$Lexicon->{'.d y \''}[5]{'glosses'} = $Lexicon->{'.d y \''}[4]{'glosses'};
+$Lexicon->{'.d y \''}[7]{'types'} = $Lexicon->{'.d y \''}[6]{'types'};
+$Lexicon->{'.d y \''}[7]{'lines'} = $Lexicon->{'.d y \''}[6]{'lines'};
+$Lexicon->{'.d y \''}[7]{'glosses'} = $Lexicon->{'.d y \''}[6]{'glosses'};
 $Lexicon->{'.d w r y'}[0]{'types'} = $Lexicon->{'.d w r'}[0]{'types'};
 $Lexicon->{'.d w r y'}[0]{'lines'} = $Lexicon->{'.d w r'}[0]{'lines'};
 $Lexicon->{'.d w r y'}[0]{'glosses'} = $Lexicon->{'.d w r'}[0]{'glosses'};
@@ -14178,9 +14246,9 @@ $Lexicon->{'.d y `'}[11]{'glosses'} = $Lexicon->{'.d \' `'}[0]{'glosses'};
 $Lexicon->{'.d \' r'}[0]{'types'} = $Lexicon->{'.d w r'}[6]{'types'};
 $Lexicon->{'.d \' r'}[0]{'lines'} = $Lexicon->{'.d w r'}[6]{'lines'};
 $Lexicon->{'.d \' r'}[0]{'glosses'} = $Lexicon->{'.d w r'}[6]{'glosses'};
-$Lexicon->{'.d w \''}[9]{'types'} = $Lexicon->{'.d y \''}[4]{'types'};
-$Lexicon->{'.d w \''}[9]{'lines'} = $Lexicon->{'.d y \''}[4]{'lines'};
-$Lexicon->{'.d w \''}[9]{'glosses'} = $Lexicon->{'.d y \''}[4]{'glosses'};
+$Lexicon->{'.d w \''}[9]{'types'} = $Lexicon->{'.d y \''}[8]{'types'};
+$Lexicon->{'.d w \''}[9]{'lines'} = $Lexicon->{'.d y \''}[8]{'lines'};
+$Lexicon->{'.d w \''}[9]{'glosses'} = $Lexicon->{'.d y \''}[8]{'glosses'};
 $Lexicon->{'.d w \''}[11]{'types'} = $Lexicon->{'.d w y'}[3]{'types'};
 $Lexicon->{'.d w \''}[11]{'lines'} = $Lexicon->{'.d w y'}[3]{'lines'};
 $Lexicon->{'.d w \''}[11]{'glosses'} = $Lexicon->{'.d w y'}[3]{'glosses'};

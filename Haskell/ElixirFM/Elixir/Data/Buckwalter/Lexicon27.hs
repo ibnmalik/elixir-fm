@@ -7570,11 +7570,35 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HICAL |< At
                               `plural`     HICA' |< At,
 
+    -- ;; <iymA'_1
+    -- <ymA'   <iymA'  N0_Nh   gesture;sign
+    -- AymA'   <iymA'  N0_Nh   gesture;sign
+    -- <ymA&   <iymA&  Nh      gesture;sign
+    -- AymA&   <iymA&  Nh      gesture;sign
+    -- <ymA}   <iymA}  Nhy     gesture;sign
+    -- AymA}   <iymA}  Nhy     gesture;sign
+    -- <ymA'   <iymA'  NAn_Nayn        gestures;signs
+    -- AymA'   <iymA'  NAn_Nayn        gestures;signs
+    -- <ymA}   <iymA}  Nayn    gestures;signs
+    -- AymA}   <iymA}  Nayn    gestures;signs
+    -- <ymA'   <iymA'  NAt     gestures;signs
+    -- AymA'   <iymA'  NAt     gestures;signs
+
+    HICAL                     `noun`    {- IiymA' -}           [ "gesture", "sign", "gestures", "signs" ]
+                              `plural`     HICAL |< At
+                              `plural`     HICA' |< At,
+
     -- ;; <iymA'_2
     -- <ymA'   <iymA'  N0      with reference to
     -- AymA'   <iymA'  N0      with reference to
 
     HICA'                     `noun`    {- IiymA' -}           [ "with reference to" ],
+
+    -- ;; <iymA'_2
+    -- <ymA'   <iymA'  N0      with reference to
+    -- AymA'   <iymA'  N0      with reference to
+
+    HICAL                     `noun`    {- IiymA' -}           [ "with reference to" ],
 
     -- ;; <iymA'ap_1
     -- <ymA'   <iymA'  NapAt   gesture;sign;clue
@@ -7582,11 +7606,23 @@ lexicon = listing "Lexicon's properties"
 
     HICA' |< aT               `noun`    {- IiymA'ap -}         [ "gesture", "sign", "clue" ],
 
+    -- ;; <iymA'ap_1
+    -- <ymA'   <iymA'  NapAt   gesture;sign;clue
+    -- AymA'   <iymA'  NapAt   gesture;sign;clue
+
+    HICAL |< aT               `noun`    {- IiymA'ap -}         [ "gesture", "sign", "clue" ],
+
     -- ;; <iymA}iy~_1
     -- <ymA}y  <iymA}iy~       Nall    pantomimic;gesturing     [[<iymA}iy~/ADJ]]
     -- AymA}y  <iymA}iy~       Nall    pantomimic;gesturing     [[<iymA}iy~/ADJ]]
 
     HICA' |< Iy               `adj`     {- IiymA}iy~ -}        [ "pantomimic", "gesturing" ],
+
+    -- ;; <iymA}iy~_1
+    -- <ymA}y  <iymA}iy~       Nall    pantomimic;gesturing     [[<iymA}iy~/ADJ]]
+    -- AymA}y  <iymA}iy~       Nall    pantomimic;gesturing     [[<iymA}iy~/ADJ]]
+
+    HICAL |< Iy               `adj`     {- IiymA}iy~ -}        [ "pantomimic", "gesturing" ],
 
     -- ;; muwma>_1
     -- mwm>    muwma>  N0_Nh   referred to;above-mentioned     [[muwma>/ADJ]]
@@ -10456,7 +10492,17 @@ lexicon = listing "Lexicon's properties"
     -- wykm    wayokum FW-Wa   shame on + you [masc.pl.]    [[wayo/INTERJ+kum/PRON_2MP]]
     -- wykn    wayokun~a       FW-Wa   shame on + you [fem.pl.]     [[wayo/INTERJ+kun~a/PRON_2FP]]
 
-    FaC                       `noun`    {- way -}              [ "shame on", "shame on + you [masc.sg.]", "shame on + you [fem.sg.]", "shame on + you both", "shame on + you [masc.pl.]", "shame on + you [fem.pl.]" ] ]
+    FaC                       `noun`    {- way -}              [ "shame on", "shame on + you [masc.sg.]", "shame on + you [fem.sg.]", "shame on + you both", "shame on + you [masc.pl.]", "shame on + you [fem.pl.]" ],
+
+    -- ;; way_1
+    -- wy      wayo    FW-Wa   shame on                     [[wayo/INTERJ]]
+    -- wyk     wayoka  FW-Wa   shame on + you [masc.sg.]    [[wayo/INTERJ+ka/PRON_2MS]]
+    -- wyk     wayoki  FW-Wa   shame on + you [fem.sg.]     [[wayo/INTERJ+ki/PRON_2FS]]
+    -- wykmA   wayokumA        FW-Wa   shame on + you both          [[wayo/INTERJ+kumA/PRON_2D]]
+    -- wykm    wayokum FW-Wa   shame on + you [masc.pl.]    [[wayo/INTERJ+kum/PRON_2MP]]
+    -- wykn    wayokun~a       FW-Wa   shame on + you [fem.pl.]     [[wayo/INTERJ+kun~a/PRON_2FP]]
+
+    FaL                       `noun`    {- way -}              [ "shame on", "shame on + you [masc.sg.]", "shame on + you [fem.sg.]", "shame on + you both", "shame on + you [masc.pl.]", "shame on + you [fem.pl.]" ] ]
 
  |> "w z `" <| [
 

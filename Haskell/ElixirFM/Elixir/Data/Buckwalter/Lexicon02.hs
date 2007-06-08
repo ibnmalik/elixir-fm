@@ -4028,14 +4028,7 @@ lexicon = listing "Lexicon's properties"
     -- AnbEq   {inobaEaq       PV      sprinkle
     -- nbEq    nobaEiq IV      sprinkle
 
-    InFaCaL                   `verb`    {- AinobaEaq -}        [ "sprinkle" ],
-
-    -- ;; baqiy~ap_1
-    -- bqy     baqiy~  Nap     remainder;remnant     [[baqiy~/NOUN]]
-    -- bqAyA   baqAyA  N0      remainders;remnants
-    -- bqAyA   baqAyA  Nhy     remainders;remnants
-
-    FaL |< Iy |< aT           `noun`    {- baqiy~ap -}         [ "remainder", "remnant", "remainders", "remnants" ] ]
+    InFaCaL                   `verb`    {- AinobaEaq -}        [ "sprinkle" ] ]
 
  |> "b ` r" <| [
 
@@ -8691,7 +8684,7 @@ lexicon = listing "Lexicon's properties"
     -- bqAyA   baqAyA  N0      remainders;remnants
     -- bqAyA   baqAyA  Nhy     remainders;remnants
 
-    FaC |< Iy |< aT           `noun`    {- baqiy~ap -}         [ "remainder", "remnant", "remainders", "remnants" ]
+    FaCIL |< aT               `noun`    {- baqiy~ap -}         [ "remainder", "remnant", "remainders", "remnants" ]
                               `plural`     FaCALY
                            {- `others`  [ "baqAyY N0 Nhy" ] -},
 
@@ -12368,11 +12361,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "b w q" <| [
 
-    -- ;; bawAqiy_1
-    -- bwAqy   bawAqiy N0      Bawaqi
-
-    FaCALI                    `noun`    {- bawAqiy -}          [ "Bawaqi" ],
-
     -- ;; baw~aq_1
     -- bwq     baw~aq  PV      trumpet;blare
     -- bwq     baw~iq  IV_yu   trumpet;blare
@@ -12427,13 +12415,6 @@ lexicon = listing "Lexicon's properties"
     KuRDAS                    `noun`    {- buwqAl -}           [ "mug", "mugs" ]
                               `plural`     KaRADIS
                            {- `others`  [ "bawAqiyl Ndip" ] -} ]
-
- |> "b w q y" <| [
-
-    -- ;; bawAqiy_1
-    -- bwAqy   bawAqiy N0      Bawaqi
-
-    KaRADI                    `noun`    {- bawAqiy -}          [ "Bawaqi" ] ]
 
  |> "b w r" <| [
 

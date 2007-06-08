@@ -168,7 +168,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; tiyjAniy~_1
     -- tyjAny  tiyjAniy~       N0      Tijani
 
-    FICAL |< Iy               `adj`     {- tiyjAniy~ -}        [ "Tijani" ] ]
+    FICAL |< Iy               `adj`     {- tiyjAniy~ -}        [ "Tijani" ],
+
+    -- ;; tiyjAniy~_1
+    -- tyjAny  tiyjAniy~       N0      Tijani
+
+    TICAL |< Iy               `adj`     {- tiyjAniy~ -}        [ "Tijani" ] ]
 
  |> "t ^g r" <| [
 
@@ -1038,19 +1043,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tik~ap_2
     -- tk      tik~    NapAt   ticking
 
-    FiCL |< aT                `noun`    {- tik~ap -}           [ "ticking" ],
-
-    -- ;; takiy~ap_1
-    -- tky     takiy~  Napdu   monastery;hospice     [[takiy~/NOUN]]
-    -- tkAyA   takAyA  N0_Nhy  monasteries;hospices
-
-    FaL |< Iy |< aT           `noun`    {- takiy~ap -}         [ "monastery", "hospice", "monasteries", "hospices" ],
-
-    -- ;; takiy~ap_2
-    -- tky     takiy~  Napdu   asylum     [[takiy~/NOUN]]
-    -- tkAyA   takAyA  N0_Nhy  asylums
-
-    FaL |< Iy |< aT           `noun`    {- takiy~ap -}         [ "asylum", "asylums" ] ]
+    FiCL |< aT                `noun`    {- tik~ap -}           [ "ticking" ] ]
 
  |> "t k n k" <| [
 
@@ -1108,7 +1101,7 @@ lexicon = listing "Lexicon's properties"
     -- tky     takiy~  Napdu   monastery;hospice     [[takiy~/NOUN]]
     -- tkAyA   takAyA  N0_Nhy  monasteries;hospices
 
-    FaC |< Iy |< aT           `noun`    {- takiy~ap -}         [ "monastery", "hospice", "monasteries", "hospices" ]
+    FaCIL |< aT               `noun`    {- takiy~ap -}         [ "monastery", "hospice", "monasteries", "hospices" ]
                               `plural`     FaCALY
                            {- `others`  [ "takAyY N0_Nhy" ] -},
 
@@ -1116,7 +1109,7 @@ lexicon = listing "Lexicon's properties"
     -- tky     takiy~  Napdu   asylum     [[takiy~/NOUN]]
     -- tkAyA   takAyA  N0_Nhy  asylums
 
-    FaC |< Iy |< aT           `noun`    {- takiy~ap -}         [ "asylum", "asylums" ]
+    FaCIL |< aT               `noun`    {- takiy~ap -}         [ "asylum", "asylums" ]
                               `plural`     FaCALY
                            {- `others`  [ "takAyY N0_Nhy" ] -} ]
 
@@ -1250,17 +1243,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; talofiyt_1
     -- tlfyt   talofiyt        Nprop   Talfit
 
-    KaRDIS                    `noun`    {- talofiyt -}         [ "Talfit" ],
-
-    -- ;; talofiytiy~_1
-    -- tlfyty  talofiytiy~     Nall    from/of Talfit
-
-    KaRDIS |< Iy              `adj`     {- talofiytiy~ -}      [ "from/of Talfit" ],
-
-    -- ;; talofiytiy~_2
-    -- tlfyty  talofiytiy~     N0      Talfiti
-
-    KaRDIS |< Iy              `adj`     {- talofiytiy~ -}      [ "Talfiti" ] ]
+    KaRDIS                    `noun`    {- talofiyt -}         [ "Talfit" ] ]
 
  |> "t l f z" <| [
 
@@ -1494,7 +1477,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; tiymAwiy~_1
     -- tymAwy  tiymAwiy~       N0      Timawi
 
-    FICAL |< Iy               `adj`     {- tiymAwiy~ -}        [ "Timawi" ] ]
+    FICAL |< Iy               `adj`     {- tiymAwiy~ -}        [ "Timawi" ],
+
+    -- ;; tiymAwiy~_1
+    -- tymAwy  tiymAwiy~       N0      Timawi
+
+    TICAL |< Iy               `adj`     {- tiymAwiy~ -}        [ "Timawi" ] ]
 
  |> "t m .g" <| [
 
@@ -3460,6 +3448,18 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tadoruj -}          [ "pheasant" ] ]
 
+ |> "talfiytiyy" <| [
+
+    -- ;; talofiytiy~_1
+    -- tlfyty  talofiytiy~     Nall    from/of Talfit
+
+    Identity                  `noun`    {- talofiytiy~ -}      [ "from/of Talfit" ],
+
+    -- ;; talofiytiy~_2
+    -- tlfyty  talofiytiy~     N0      Talfiti
+
+    Identity                  `noun`    {- talofiytiy~ -}      [ "Talfiti" ] ]
+
  |> "talliys" <| [
 
     -- ;; tal~iys_1
@@ -3631,13 +3631,15 @@ lexicon = listing "Lexicon's properties"
     -- tlfzywn tilfizyuwn      N/At    television
     -- tlyfzywn        tiliyfizyuwn    N/At    television
 
-    Identity                  `noun`    {- tilfizyuwn -}       [ "television" ],
+    Identity                  `noun`    {- tilfizyuwn -}       [ "television" ] ]
+
+ |> "tilfizyuwniyy" <| [
 
     -- ;; tilfizyuwniy~_1
     -- tlfzywny        tilfizyuwniy~   Nall    television     [[tilfizyuwniy~/ADJ]]
     -- tlyfzywny       tiliyfizyuwniy~ Nall    television     [[tiliyfizyuwniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- tilfizyuwniy~ -}    [ "television" ] ]
+    Identity                  `adj`     {- tilfizyuwniy~ -}    [ "television" ] ]
 
  |> "tili.grAf" <| [
 
@@ -3652,19 +3654,21 @@ lexicon = listing "Lexicon's properties"
     -- tljrAf  tilijrAf        N0      Telegraph
     -- tlyjrAf tiliyjrAf       N0      Telegraph
 
-    Identity                  `noun`    {- tiligrAf -}         [ "Telegraph" ],
+    Identity                  `noun`    {- tiligrAf -}         [ "Telegraph" ] ]
+
+ |> "tili.grAfiyy" <| [
 
     -- ;; tiligrAfiy~_1
     -- tlgrAfy tiligrAfiy~     Nall    telegraphic     [[tiligrAfiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- tiligrAfiy~ -}      [ "telegraphic" ] ]
+    Identity                  `adj`     {- tiligrAfiy~ -}      [ "telegraphic" ] ]
 
- |> "tilibA_t" <| [
+ |> "tilibA_tiyy" <| [
 
     -- ;; tilibAviy~_1
     -- tlbAvy  tilibAviy~      Nall    telepathic     [[tilibAviy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- tilibAviy~ -}       [ "telepathic" ] ]
+    Identity                  `adj`     {- tilibAviy~ -}       [ "telepathic" ] ]
 
  |> "tilifriyk" <| [
 
@@ -3680,13 +3684,15 @@ lexicon = listing "Lexicon's properties"
     -- tlfwn   tilifuwn        N/At    telephone
     -- tlyfwn  tiliyfuwn       N/At    telephone
 
-    Identity                  `noun`    {- tilifuwn -}         [ "telephone" ],
+    Identity                  `noun`    {- tilifuwn -}         [ "telephone" ] ]
+
+ |> "tilifuwniyy" <| [
 
     -- ;; tilifuwniy~_1
     -- tlfwny  tilifuwniy~     Nall    telephonic     [[tilifuwniy~/ADJ]]
     -- tlyfwny tiliyfuwniy~    Nall    telephonic     [[tiliyfuwniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- tilifuwniy~ -}      [ "telephonic" ] ]
+    Identity                  `adj`     {- tilifuwniy~ -}      [ "telephonic" ] ]
 
  |> "tiliks" <| [
 
@@ -3701,29 +3707,33 @@ lexicon = listing "Lexicon's properties"
     -- ;; tilimosAn_1
     -- tlmsAn  tilimosAn       N       Tlemcen
 
-    Identity                  `noun`    {- tilimosAn -}        [ "Tlemcen" ],
+    Identity                  `noun`    {- tilimosAn -}        [ "Tlemcen" ] ]
+
+ |> "tilimsAniyy" <| [
 
     -- ;; tilimosAniy~_1
     -- tlmsAny tilimosAniy~    N0      of/from Tlemcen
 
-    Identity |< Iy            `adj`     {- tilimosAniy~ -}     [ "of/from Tlemcen" ],
+    Identity                  `noun`    {- tilimosAniy~ -}     [ "of/from Tlemcen" ],
 
     -- ;; tilimosAniy~_2
     -- tlmsAny tilimosAniy~    N0      Tlemcani;Tilimsani
 
-    Identity |< Iy            `adj`     {- tilimosAniy~ -}     [ "Tlemcani", "Tilimsani" ] ]
+    Identity                  `noun`    {- tilimosAniy~ -}     [ "Tlemcani", "Tilimsani" ] ]
 
  |> "tiliskuwb" <| [
 
     -- ;; tilisokuwb_1
     -- tlskwb  tilisokuwb      NduAt   telescope
 
-    Identity                  `noun`    {- tilisokuwb -}       [ "telescope" ],
+    Identity                  `noun`    {- tilisokuwb -}       [ "telescope" ] ]
+
+ |> "tiliskuwbiyy" <| [
 
     -- ;; tilisokuwbiy~_1
     -- tlskwby tilisokuwbiy~   N-ap    telescopic     [[tiliskuwbiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- tilisokuwbiy~ -}    [ "telescopic" ] ]
+    Identity                  `adj`     {- tilisokuwbiy~ -}    [ "telescopic" ] ]
 
  |> "tilwa" <| [
 

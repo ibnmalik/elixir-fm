@@ -37,9 +37,17 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiL |< At
                               `plural`     FiC |< At,
 
+    FiC |< aT                 `noun`    {- mi}ap -}            [ "hundred", "hundreds" ]
+                              `plural`     FiL |< At
+                              `plural`     FiC |< At,
+
     FiL |< aT                 `noun`    {- mi}ap -}            [ "(per) cent" ],
 
-    FiL |<< "awIy"            `adj`     {- mi}awiy~ -}         [ "one-hundred", "hundreth", "percentage" ] ]
+    FiC |< aT                 `noun`    {- mi}ap -}            [ "(per) cent" ],
+
+    FiL |<< "awIy"            `adj`     {- mi}awiy~ -}         [ "one-hundred", "hundreth", "percentage" ],
+
+    FiC |<< "awIy"            `adj`     {- mi}awiy~ -}         [ "one-hundred", "hundreth", "percentage" ] ]
 
  |> "m ' d" <| [
 
@@ -111,7 +119,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "m .g n" <| [
 
-    MICAL                     `noun`    {- miygAn -}           [ "Megan" ] ]
+    MICAL                     `noun`    {- miygAn -}           [ "Megan" ],
+
+    FICAL                     `noun`    {- miygAn -}           [ "Megan" ] ]
 
  |> "m .h .d" <| [
 
@@ -784,6 +794,11 @@ lexicon = listing "Lexicon's properties"
  |> "m n '" <| [
 
     MICAL                     `noun`    {- miynA' -}           [ "port", "harbor", "ports", "harbors" ]
+                              `plural`     FawACiL
+                              `plural`     FawACI
+                           {- `others`  [ "mawAni' Ndip", "mawAniy N0_Nh" ] -},
+
+    FICAL                     `noun`    {- miynA' -}           [ "port", "harbor", "ports", "harbors" ]
                               `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "mawAni' Ndip", "mawAniy N0_Nh" ] -} ]
@@ -1588,13 +1603,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "m z y" <| [
 
-    FaC |< Iy |< aT           `noun`    {- maziy~ap -}         [ "feature", "advantage", "features", "advantages" ]
+    FaCIL |< aT               `noun`    {- maziy~ap -}         [ "feature", "advantage", "features", "advantages" ]
                               `plural`     FaCALY
                            {- `others`  [ "mazAyY N0_Nhy" ] -} ]
-
- |> "m z z" <| [
-
-    FaL |< Iy |< aT           `noun`    {- maziy~ap -}         [ "feature", "advantage", "features", "advantages" ] ]
 
  |> "mA" <| [
 

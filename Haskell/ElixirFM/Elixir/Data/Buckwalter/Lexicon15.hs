@@ -3317,6 +3317,11 @@ lexicon = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- DiyA' -}            [ "Zia", "Dhia" ],
 
+    -- ;; DiyA'_1
+    -- DyA'    DiyA'   Nprop   Zia;Dhia
+
+    FiCAL                     `noun`    {- DiyA' -}            [ "Zia", "Dhia" ],
+
     -- ;; DiyA'_2
     -- DyA'    DiyA'   N0_Nh   light;glow
     -- DyA&    DiyA&   Nh      light;glow
@@ -3324,15 +3329,32 @@ lexicon = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- DiyA' -}            [ "light", "glow" ],
 
+    -- ;; DiyA'_2
+    -- DyA'    DiyA'   N0_Nh   light;glow
+    -- DyA&    DiyA&   Nh      light;glow
+    -- DyA}    DiyA}   Nhy     light;glow
+
+    FiCAL                     `noun`    {- DiyA' -}            [ "light", "glow" ],
+
     -- ;; DiyA}iy~_1
     -- DyA}y   DiyA}iy~        N-ap    luminous;clear     [[DiwA}iy~/ADJ]]
 
     FiCA' |< Iy               `adj`     {- DiyA}iy~ -}         [ "luminous", "clear" ],
 
+    -- ;; DiyA}iy~_1
+    -- DyA}y   DiyA}iy~        N-ap    luminous;clear     [[DiwA}iy~/ADJ]]
+
+    FiCAL |< Iy               `adj`     {- DiyA}iy~ -}         [ "luminous", "clear" ],
+
     -- ;; DiyA}iy~ap_1
     -- DyA}y   DiyA}iy~        Nap     luminosity;clarity     [[DiwA}iy~/NOUN]]
 
     FiCA' |< Iy |< aT         `noun`    {- DiyA}iy~ap -}       [ "luminosity", "clarity" ],
+
+    -- ;; DiyA}iy~ap_1
+    -- DyA}y   DiyA}iy~        Nap     luminosity;clarity     [[DiwA}iy~/NOUN]]
+
+    FiCAL |< Iy |< aT         `noun`    {- DiyA}iy~ap -}       [ "luminosity", "clarity" ],
 
     -- ;; muDiy'_1
     -- mDy'    muDiy'  N0      shining;bright     [[muDiy'/ADJ]]

@@ -9019,6 +9019,11 @@ lexicon = listing "Lexicon's properties"
 
     FILAn                     `noun`    {- qiynAn -}           [ "Qinan" ],
 
+    -- ;; qiynAn_1
+    -- qynAn   qiynAn  N0      Qinan
+
+    FICAL                     `noun`    {- qiynAn -}           [ "Qinan" ],
+
     -- ;; taqoniyn_1
     -- tqnyn   taqoniyn        N/At    legislation;lawmaking
 

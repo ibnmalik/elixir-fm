@@ -1881,6 +1881,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     IFtiyAL |< At
                               `plural`     IFtiCA' |< At,
 
+    IFtiCA'                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiyAL |< At
+                              `plural`     IFtiCA' |< At,
+
     MuFIL                     `adj`     {- musiy' -}           [ "insulting", "harming", "pernicious" ]
                               `plural`     MuFIL |< At |< Un,
 

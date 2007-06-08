@@ -2191,6 +2191,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tilibA_tiyy' => [
+    {
+      'types' => {},
+      'entry' => 'tilibA_tiyy',
+      'form' => 'tilibA_tiyy',
+      'lines' => [
+        ';; tilibAviy~_1',
+        'tlbAvy  tilibAviy~      Nall    telepathic     [[tilibAviy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'telepathic'
+      ],
+      'orig' => 'tilibAviy~',
+      'prefix' => ''
+    }
+  ],
   'biAltAliy' => [
     {
       'types' => {},
@@ -2494,6 +2515,47 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tilimsAniyy' => [
+    {
+      'types' => {},
+      'entry' => 'tilimsAniyy',
+      'form' => 'tilimsAniyy',
+      'lines' => [
+        ';; tilimosAniy~_1',
+        'tlmsAny tilimosAniy~    N0      of/from Tlemcen'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'of/from Tlemcen'
+      ],
+      'orig' => 'tilimosAniy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tilimsAniyy',
+      'form' => 'tilimsAniyy',
+      'lines' => [
+        ';; tilimosAniy~_2',
+        'tlmsAny tilimosAniy~    N0      Tlemcani;Tilimsani'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tlemcani',
+        'Tilimsani'
+      ],
+      'orig' => 'tilimosAniy~',
+      'prefix' => ''
+    }
+  ],
   't^siyniy' => [
     {
       'types' => {},
@@ -2512,6 +2574,27 @@ $Lexicon = {
         'Cheney'
       ],
       'orig' => 't$iyniy',
+      'prefix' => ''
+    }
+  ],
+  'tiliskuwbiyy' => [
+    {
+      'types' => {},
+      'entry' => 'tiliskuwbiyy',
+      'form' => 'tiliskuwbiyy',
+      'lines' => [
+        ';; tilisokuwbiy~_1',
+        'tlskwby tilisokuwbiy~   N-ap    telescopic     [[tiliskuwbiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'telescopic'
+      ],
+      'orig' => 'tilisokuwbiy~',
       'prefix' => ''
     }
   ],
@@ -2570,7 +2653,7 @@ $Lexicon = {
           'N0_Nhy' => 1
         }
       },
-      'entry' => 'tak',
+      'entry' => 'takiyy',
       'form' => 'takiyyaT',
       'lines' => [
         ';; takiy~ap_1',
@@ -2584,8 +2667,8 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaC |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
+      'morphs' => 'FaCIL |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
         'monastery',
         'hospice',
@@ -2601,7 +2684,7 @@ $Lexicon = {
           'N0_Nhy' => 1
         }
       },
-      'entry' => 'tak',
+      'entry' => 'takiyy',
       'form' => 'takiyyaT',
       'lines' => [
         ';; takiy~ap_2',
@@ -2615,8 +2698,8 @@ $Lexicon = {
       },
       'index' => '2',
       'entity' => 'noun',
-      'morphs' => 'FaC |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
+      'morphs' => 'FaCIL |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
         'asylum',
         'asylums'
@@ -2844,6 +2927,20 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FICAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'tiyjAniy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tiy^gAn',
+      'form' => 'tiy^gAniyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'TICAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [],
       'orig' => 'tiyjAniy~',
@@ -3922,30 +4019,6 @@ $Lexicon = {
       ],
       'orig' => 'tilfizyuwn',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        'tiliyfizyuwniyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'tilfizyuwn',
-      'form' => 'tilfizyuwniyy',
-      'lines' => [
-        ';; tilfizyuwniy~_1',
-        'tlfzywny        tilfizyuwniy~   Nall    television     [[tilfizyuwniy~/ADJ]]',
-        'tlyfzywny       tiliyfizyuwniy~ Nall    television     [[tiliyfizyuwniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'television'
-      ],
-      'orig' => 'tilfizyuwniy~',
-      'prefix' => ''
     }
   ],
   'tamArA' => [
@@ -4397,6 +4470,20 @@ $Lexicon = {
       ],
       'orig' => 'tiymAwiy~',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tiymA\'',
+      'form' => 'tiymAwiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'TICAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'tiymAwiy~',
+      'prefix' => ''
     }
   ],
   'tuwrbiyn' => [
@@ -4571,45 +4658,6 @@ $Lexicon = {
         'Tlemcen'
       ],
       'orig' => 'tilimosAn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'tilimsAn',
-      'form' => 'tilimsAniyy',
-      'lines' => [
-        ';; tilimosAniy~_1',
-        'tlmsAny tilimosAniy~    N0      of/from Tlemcen'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'of/from Tlemcen'
-      ],
-      'orig' => 'tilimosAniy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'tilimsAn',
-      'form' => 'tilimsAniyy',
-      'lines' => [
-        ';; tilimosAniy~_2',
-        'tlmsAny tilimosAniy~    N0      Tlemcani;Tilimsani'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Tlemcani',
-        'Tilimsani'
-      ],
-      'orig' => 'tilimosAniy~',
       'prefix' => ''
     }
   ],
@@ -4811,6 +4859,32 @@ $Lexicon = {
         'cableway'
       ],
       'orig' => 'tilifriyk',
+      'prefix' => ''
+    }
+  ],
+  'tilifuwniyy' => [
+    {
+      'types' => {
+        'tiliyfuwniyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'tilifuwniyy',
+      'form' => 'tilifuwniyy',
+      'lines' => [
+        ';; tilifuwniy~_1',
+        'tlfwny  tilifuwniy~     Nall    telephonic     [[tilifuwniy~/ADJ]]',
+        'tlyfwny tiliyfuwniy~    Nall    telephonic     [[tiliyfuwniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'telephonic'
+      ],
+      'orig' => 'tilifuwniy~',
       'prefix' => ''
     }
   ],
@@ -5359,44 +5433,6 @@ $Lexicon = {
         'Talfit'
       ],
       'orig' => 'talofiyt',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'talfiyt',
-      'form' => 'talfiytiyy',
-      'lines' => [
-        ';; talofiytiy~_1',
-        'tlfyty  talofiytiy~     Nall    from/of Talfit'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KaRDIS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'from/of Talfit'
-      ],
-      'orig' => 'talofiytiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'talfiyt',
-      'form' => 'talfiytiyy',
-      'lines' => [
-        ';; talofiytiy~_2',
-        'tlfyty  talofiytiy~     N0      Talfiti'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'KaRDIS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Talfiti'
-      ],
-      'orig' => 'talofiytiy~',
       'prefix' => ''
     }
   ],
@@ -8211,25 +8247,6 @@ $Lexicon = {
       ],
       'orig' => 'tilisokuwb',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'tiliskuwb',
-      'form' => 'tiliskuwbiyy',
-      'lines' => [
-        ';; tilisokuwbiy~_1',
-        'tlskwby tilisokuwbiy~   N-ap    telescopic     [[tiliskuwbiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'telescopic'
-      ],
-      'orig' => 'tilisokuwbiy~',
-      'prefix' => ''
     }
   ],
   't n k' => [
@@ -9079,34 +9096,6 @@ $Lexicon = {
       ],
       'orig' => 'tik~ap',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'tak',
-      'form' => 'takiyyaT',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaL |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [],
-      'orig' => 'takiy~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'tak',
-      'form' => 'takiyyaT',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FaL |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [],
-      'orig' => 'takiy~ap',
-      'prefix' => ''
     }
   ],
   'tuwyuwtA' => [
@@ -9127,39 +9116,6 @@ $Lexicon = {
         'Toyota'
       ],
       'orig' => 'tuwyuwtA',
-      'prefix' => ''
-    }
-  ],
-  't f k' => [
-    {
-      'types' => {
-        'tufak' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'tufk',
-      'form' => 'tufkaT',
-      'lines' => [
-        ';; tufokap_1',
-        'tfk     tufok   Nap     gun;rifle',
-        'tfk     tufak   N       guns;rifles'
-      ],
-      'patterns' => {
-        'tufak' => [
-          'FuCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'gun',
-        'rifle',
-        'guns',
-        'rifles'
-      ],
-      'orig' => 'tufokap',
       'prefix' => ''
     }
   ],
@@ -9195,6 +9151,39 @@ $Lexicon = {
       'suffix' => ' |< Iy',
       'glosses' => [],
       'orig' => 'tiymAwiy~',
+      'prefix' => ''
+    }
+  ],
+  't f k' => [
+    {
+      'types' => {
+        'tufak' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'tufk',
+      'form' => 'tufkaT',
+      'lines' => [
+        ';; tufokap_1',
+        'tfk     tufok   Nap     gun;rifle',
+        'tfk     tufak   N       guns;rifles'
+      ],
+      'patterns' => {
+        'tufak' => [
+          'FuCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'gun',
+        'rifle',
+        'guns',
+        'rifles'
+      ],
+      'orig' => 'tufokap',
       'prefix' => ''
     }
   ],
@@ -9365,27 +9354,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tilibA_t' => [
-    {
-      'types' => {},
-      'entry' => 'tilibA_t',
-      'form' => 'tilibA_tiyy',
-      'lines' => [
-        ';; tilibAviy~_1',
-        'tlbAvy  tilibAviy~      Nall    telepathic     [[tilibAviy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'telepathic'
-      ],
-      'orig' => 'tilibAviy~',
-      'prefix' => ''
-    }
-  ],
   't r m s' => [
     {
       'types' => {},
@@ -9404,6 +9372,32 @@ $Lexicon = {
         'lupine'
       ],
       'orig' => 'turomus',
+      'prefix' => ''
+    }
+  ],
+  'tilfizyuwniyy' => [
+    {
+      'types' => {
+        'tiliyfizyuwniyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'tilfizyuwniyy',
+      'form' => 'tilfizyuwniyy',
+      'lines' => [
+        ';; tilfizyuwniy~_1',
+        'tlfzywny        tilfizyuwniy~   Nall    television     [[tilfizyuwniy~/ADJ]]',
+        'tlyfzywny       tiliyfizyuwniy~ Nall    television     [[tiliyfizyuwniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'television'
+      ],
+      'orig' => 'tilfizyuwniy~',
       'prefix' => ''
     }
   ],
@@ -10853,6 +10847,72 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tuwnis' => [
+    {
+      'types' => {},
+      'entry' => 'tuwnis',
+      'form' => 'tuwnis',
+      'lines' => [
+        ';; tuwnis_1',
+        'twns    tuwnis  N0      Tunis'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tunis'
+      ],
+      'orig' => 'tuwnis',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tuwnis',
+      'form' => 'tuwnis',
+      'lines' => [
+        ';; tuwnis_2',
+        'twns    tuwnis  N0      Tunisia'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tunisia'
+      ],
+      'orig' => 'tuwnis',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'tawAnis' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'tuwnis',
+      'form' => 'tuwnisiyy',
+      'lines' => [
+        ';; tuwnisiy~_1',
+        'twnsy   tuwnisiy~       Nall    Tunisian     [[tuwnisiy~/NOUN]]',
+        'twnsy   tuwnisiy~       Nall    Tunisian     [[tuwnisiy~/ADJ]]',
+        'twAns   tawAnis Nap     Tunisians'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Tunisian',
+        'Tunisians'
+      ],
+      'orig' => 'tuwnisiy~',
+      'prefix' => ''
+    }
+  ],
   't w \' m' => [
     {
       'types' => {
@@ -10923,72 +10983,6 @@ $Lexicon = {
         'twinned'
       ],
       'orig' => 'mutawoOam',
-      'prefix' => ''
-    }
-  ],
-  'tuwnis' => [
-    {
-      'types' => {},
-      'entry' => 'tuwnis',
-      'form' => 'tuwnis',
-      'lines' => [
-        ';; tuwnis_1',
-        'twns    tuwnis  N0      Tunis'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tunis'
-      ],
-      'orig' => 'tuwnis',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'tuwnis',
-      'form' => 'tuwnis',
-      'lines' => [
-        ';; tuwnis_2',
-        'twns    tuwnis  N0      Tunisia'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tunisia'
-      ],
-      'orig' => 'tuwnis',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'tawAnis' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'tuwnis',
-      'form' => 'tuwnisiyy',
-      'lines' => [
-        ';; tuwnisiy~_1',
-        'twnsy   tuwnisiy~       Nall    Tunisian     [[tuwnisiy~/NOUN]]',
-        'twnsy   tuwnisiy~       Nall    Tunisian     [[tuwnisiy~/ADJ]]',
-        'twAns   tawAnis Nap     Tunisians'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Tunisian',
-        'Tunisians'
-      ],
-      'orig' => 'tuwnisiy~',
       'prefix' => ''
     }
   ],
@@ -11607,30 +11601,6 @@ $Lexicon = {
         'telephone'
       ],
       'orig' => 'tilifuwn',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'tiliyfuwniyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'tilifuwn',
-      'form' => 'tilifuwniyy',
-      'lines' => [
-        ';; tilifuwniy~_1',
-        'tlfwny  tilifuwniy~     Nall    telephonic     [[tilifuwniy~/ADJ]]',
-        'tlyfwny tiliyfuwniy~    Nall    telephonic     [[tiliyfuwniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'telephonic'
-      ],
-      'orig' => 'tilifuwniy~',
       'prefix' => ''
     }
   ],
@@ -12423,25 +12393,6 @@ $Lexicon = {
         'Telegraph'
       ],
       'orig' => 'tiligrAf',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'tili.grAf',
-      'form' => 'tili.grAfiyy',
-      'lines' => [
-        ';; tiligrAfiy~_1',
-        'tlgrAfy tiligrAfiy~     Nall    telegraphic     [[tiligrAfiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'telegraphic'
-      ],
-      'orig' => 'tiligrAfiy~',
       'prefix' => ''
     }
   ],
@@ -13963,6 +13914,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tili.grAfiyy' => [
+    {
+      'types' => {},
+      'entry' => 'tili.grAfiyy',
+      'form' => 'tili.grAfiyy',
+      'lines' => [
+        ';; tiligrAfiy~_1',
+        'tlgrAfy tiligrAfiy~     Nall    telegraphic     [[tiligrAfiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'telegraphic'
+      ],
+      'orig' => 'tiligrAfiy~',
+      'prefix' => ''
+    }
+  ],
   'tAymz' => [
     {
       'types' => {
@@ -14923,6 +14895,46 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'talfiytiyy' => [
+    {
+      'types' => {},
+      'entry' => 'talfiytiyy',
+      'form' => 'talfiytiyy',
+      'lines' => [
+        ';; talofiytiy~_1',
+        'tlfyty  talofiytiy~     Nall    from/of Talfit'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'from/of Talfit'
+      ],
+      'orig' => 'talofiytiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'talfiytiyy',
+      'form' => 'talfiytiyy',
+      'lines' => [
+        ';; talofiytiy~_2',
+        'tlfyty  talofiytiy~     N0      Talfiti'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Talfiti'
+      ],
+      'orig' => 'talofiytiy~',
+      'prefix' => ''
+    }
+  ],
   't^siyluwbA' => [
     {
       'types' => {},
@@ -14970,18 +14982,18 @@ $Lexicon->{'t y ^g n'}[0]{'glosses'} = $Lexicon->{'t w ^g'}[4]{'glosses'};
 $Lexicon->{'t ^g n'}[0]{'types'} = $Lexicon->{'t w ^g'}[4]{'types'};
 $Lexicon->{'t ^g n'}[0]{'lines'} = $Lexicon->{'t w ^g'}[4]{'lines'};
 $Lexicon->{'t ^g n'}[0]{'glosses'} = $Lexicon->{'t w ^g'}[4]{'glosses'};
+$Lexicon->{'t ^g n'}[1]{'types'} = $Lexicon->{'t w ^g'}[4]{'types'};
+$Lexicon->{'t ^g n'}[1]{'lines'} = $Lexicon->{'t w ^g'}[4]{'lines'};
+$Lexicon->{'t ^g n'}[1]{'glosses'} = $Lexicon->{'t w ^g'}[4]{'glosses'};
+$Lexicon->{'t m \''}[1]{'types'} = $Lexicon->{'t m \''}[0]{'types'};
+$Lexicon->{'t m \''}[1]{'lines'} = $Lexicon->{'t m \''}[0]{'lines'};
+$Lexicon->{'t m \''}[1]{'glosses'} = $Lexicon->{'t m \''}[0]{'glosses'};
 $Lexicon->{'t w q'}[4]{'types'} = $Lexicon->{'t \' q'}[1]{'types'};
 $Lexicon->{'t w q'}[4]{'lines'} = $Lexicon->{'t \' q'}[1]{'lines'};
 $Lexicon->{'t w q'}[4]{'glosses'} = $Lexicon->{'t \' q'}[1]{'glosses'};
 $Lexicon->{'t .t w n'}[0]{'types'} = $Lexicon->{'t .t w'}[0]{'types'};
 $Lexicon->{'t .t w n'}[0]{'lines'} = $Lexicon->{'t .t w'}[0]{'lines'};
 $Lexicon->{'t .t w n'}[0]{'glosses'} = $Lexicon->{'t .t w'}[0]{'glosses'};
-$Lexicon->{'t k k'}[4]{'types'} = $Lexicon->{'t k y'}[0]{'types'};
-$Lexicon->{'t k k'}[4]{'lines'} = $Lexicon->{'t k y'}[0]{'lines'};
-$Lexicon->{'t k k'}[4]{'glosses'} = $Lexicon->{'t k y'}[0]{'glosses'};
-$Lexicon->{'t k k'}[5]{'types'} = $Lexicon->{'t k y'}[1]{'types'};
-$Lexicon->{'t k k'}[5]{'lines'} = $Lexicon->{'t k y'}[1]{'lines'};
-$Lexicon->{'t k k'}[5]{'glosses'} = $Lexicon->{'t k y'}[1]{'glosses'};
 $Lexicon->{'t m y'}[1]{'types'} = $Lexicon->{'t m \''}[0]{'types'};
 $Lexicon->{'t m y'}[1]{'lines'} = $Lexicon->{'t m \''}[0]{'lines'};
 $Lexicon->{'t m y'}[1]{'glosses'} = $Lexicon->{'t m \''}[0]{'glosses'};

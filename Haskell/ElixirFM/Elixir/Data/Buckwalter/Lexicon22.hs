@@ -9505,7 +9505,13 @@ lexicon = listing "Lexicon's properties"
     -- ky      kay     FW-Wa   in order to  [[kay/CONJ]]
     -- lky     likay   FW-Wa   in order to  [[likay/CONJ]]
 
-    FaC                       `noun`    {- kay -}              [ "in order to" ] ]
+    FaC                       `noun`    {- kay -}              [ "in order to" ],
+
+    -- ;; kay_1
+    -- ky      kay     FW-Wa   in order to  [[kay/CONJ]]
+    -- lky     likay   FW-Wa   in order to  [[likay/CONJ]]
+
+    FaL                       `noun`    {- kay -}              [ "in order to" ] ]
 
  |> "k z b r" <| [
 

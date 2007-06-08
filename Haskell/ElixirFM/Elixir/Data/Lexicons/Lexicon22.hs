@@ -1241,7 +1241,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "k y y" <| [
 
-    FaC                       `noun`    {- kay -}              [ "in order to" ] ]
+    FaC                       `noun`    {- kay -}              [ "in order to" ],
+
+    FaL                       `noun`    {- kay -}              [ "in order to" ] ]
 
  |> "kA_tuwliyk" <| [
 

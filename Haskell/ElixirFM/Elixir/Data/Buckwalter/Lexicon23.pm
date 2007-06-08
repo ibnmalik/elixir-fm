@@ -34918,6 +34918,20 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => 'law',
+      'form' => 'law',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'law',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'luw',
       'form' => 'luw',
       'lines' => [
@@ -35143,3 +35157,6 @@ $Lexicon->{'l m n'}[1]{'glosses'} = $Lexicon->{'l y m n'}[1]{'glosses'};
 $Lexicon->{'l f y'}[0]{'types'} = $Lexicon->{'l f f'}[22]{'types'};
 $Lexicon->{'l f y'}[0]{'lines'} = $Lexicon->{'l f f'}[22]{'lines'};
 $Lexicon->{'l f y'}[0]{'glosses'} = $Lexicon->{'l f f'}[22]{'glosses'};
+$Lexicon->{'l w w'}[1]{'types'} = $Lexicon->{'l w w'}[0]{'types'};
+$Lexicon->{'l w w'}[1]{'lines'} = $Lexicon->{'l w w'}[0]{'lines'};
+$Lexicon->{'l w w'}[1]{'glosses'} = $Lexicon->{'l w w'}[0]{'glosses'};

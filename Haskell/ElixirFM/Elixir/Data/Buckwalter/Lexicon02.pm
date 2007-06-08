@@ -6952,27 +6952,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'b w q y' => [
-    {
-      'types' => {},
-      'entry' => 'bawAqiy',
-      'form' => 'bawAqiy',
-      'lines' => [
-        ';; bawAqiy_1',
-        'bwAqy   bawAqiy N0      Bawaqi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRADI',
-      'suffix' => '',
-      'glosses' => [
-        'Bawaqi'
-      ],
-      'orig' => 'bawAqiy',
-      'prefix' => ''
-    }
-  ],
   'b n d q' => [
     {
       'types' => {
@@ -34024,27 +34003,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'b k t r' => [
-    {
-      'types' => {},
-      'entry' => 'baktiyr',
-      'form' => 'baktiyriyy',
-      'lines' => [
-        ';; bakotiyriy~_1',
-        'bktyry  bakotiyriy~     Nall    bacterial     [[bakotiyriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KaRDIS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'bacterial'
-      ],
-      'orig' => 'bakotiyriy~',
-      'prefix' => ''
-    }
-  ],
   'b s m l' => [
     {
       'types' => {
@@ -34091,6 +34049,27 @@ $Lexicon = {
         '"bismillah" (in the name of God, the Merciful, the Compassionate)'
       ],
       'orig' => 'basomalap',
+      'prefix' => ''
+    }
+  ],
+  'b k t r' => [
+    {
+      'types' => {},
+      'entry' => 'baktiyr',
+      'form' => 'baktiyriyy',
+      'lines' => [
+        ';; bakotiyriy~_1',
+        'bktyry  bakotiyriy~     Nall    bacterial     [[bakotiyriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KaRDIS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'bacterial'
+      ],
+      'orig' => 'bakotiyriy~',
       'prefix' => ''
     }
   ],
@@ -44231,7 +44210,7 @@ $Lexicon = {
           'Nhy' => 1
         }
       },
-      'entry' => 'baq',
+      'entry' => 'baqiyy',
       'form' => 'baqiyyaT',
       'lines' => [
         ';; baqiy~ap_1',
@@ -44246,8 +44225,8 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaC |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
+      'morphs' => 'FaCIL |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
         'remainder',
         'remnant',
@@ -44409,13 +44388,18 @@ $Lexicon = {
       'types' => {},
       'entry' => 'bawAqiy',
       'form' => 'bawAqiy',
-      'lines' => [],
+      'lines' => [
+        ';; bawAqiy_1',
+        'bwAqy   bawAqiy N0      Bawaqi'
+      ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FawACI',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'Bawaqi'
+      ],
       'orig' => 'bawAqiy',
       'prefix' => ''
     },
@@ -46915,42 +46899,7 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAzalt' => [
-    {
-      'types' => {},
-      'entry' => 'bAzalt',
-      'form' => 'bAzalt',
-      'lines' => [
-        ';; bAzalot_1',
-        'bAzlt   bAzalot N       basalt'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'basalt'
-      ],
-      'orig' => 'bAzalot',
-      'prefix' => ''
-    }
-  ],
   'b w q' => [
-    {
-      'types' => {},
-      'entry' => 'bawAqiy',
-      'form' => 'bawAqiy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCALI',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'bawAqiy',
-      'prefix' => ''
-    },
     {
       'types' => {
         'bawwiq' => {
@@ -47108,6 +47057,27 @@ $Lexicon = {
       'suffix' => ' |< aT',
       'glosses' => [],
       'orig' => 'bA}iqap',
+      'prefix' => ''
+    }
+  ],
+  'bAzalt' => [
+    {
+      'types' => {},
+      'entry' => 'bAzalt',
+      'form' => 'bAzalt',
+      'lines' => [
+        ';; bAzalot_1',
+        'bAzlt   bAzalot N       basalt'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'basalt'
+      ],
+      'orig' => 'bAzalot',
       'prefix' => ''
     }
   ],
@@ -56210,20 +56180,6 @@ $Lexicon = {
       ],
       'orig' => 'AinobaEaq',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'baq',
-      'form' => 'baqiyyaT',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaL |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [],
-      'orig' => 'baqiy~ap',
-      'prefix' => ''
     }
   ],
   'b ^s m q' => [
@@ -61135,9 +61091,6 @@ $Lexicon->{'b w y'}[0]{'glosses'} = $Lexicon->{'b n w'}[1]{'glosses'};
 $Lexicon->{'b k r'}[28]{'types'} = $Lexicon->{'b y k r'}[0]{'types'};
 $Lexicon->{'b k r'}[28]{'lines'} = $Lexicon->{'b y k r'}[0]{'lines'};
 $Lexicon->{'b k r'}[28]{'glosses'} = $Lexicon->{'b y k r'}[0]{'glosses'};
-$Lexicon->{'b q y'}[10]{'types'} = $Lexicon->{'b w q y'}[0]{'types'};
-$Lexicon->{'b q y'}[10]{'lines'} = $Lexicon->{'b w q y'}[0]{'lines'};
-$Lexicon->{'b q y'}[10]{'glosses'} = $Lexicon->{'b w q y'}[0]{'glosses'};
 $Lexicon->{'b \' r'}[4]{'types'} = $Lexicon->{'b w r'}[7]{'types'};
 $Lexicon->{'b \' r'}[4]{'lines'} = $Lexicon->{'b w r'}[7]{'lines'};
 $Lexicon->{'b \' r'}[4]{'glosses'} = $Lexicon->{'b w r'}[7]{'glosses'};
@@ -61153,12 +61106,9 @@ $Lexicon->{'b t y'}[0]{'glosses'} = $Lexicon->{'b \' t'}[0]{'glosses'};
 $Lexicon->{'b y ^g'}[0]{'types'} = $Lexicon->{'b y ^g n'}[0]{'types'};
 $Lexicon->{'b y ^g'}[0]{'lines'} = $Lexicon->{'b y ^g n'}[0]{'lines'};
 $Lexicon->{'b y ^g'}[0]{'glosses'} = $Lexicon->{'b y ^g n'}[0]{'glosses'};
-$Lexicon->{'b w q'}[0]{'types'} = $Lexicon->{'b w q y'}[0]{'types'};
-$Lexicon->{'b w q'}[0]{'lines'} = $Lexicon->{'b w q y'}[0]{'lines'};
-$Lexicon->{'b w q'}[0]{'glosses'} = $Lexicon->{'b w q y'}[0]{'glosses'};
-$Lexicon->{'b w q'}[6]{'types'} = $Lexicon->{'b \' q'}[0]{'types'};
-$Lexicon->{'b w q'}[6]{'lines'} = $Lexicon->{'b \' q'}[0]{'lines'};
-$Lexicon->{'b w q'}[6]{'glosses'} = $Lexicon->{'b \' q'}[0]{'glosses'};
+$Lexicon->{'b w q'}[5]{'types'} = $Lexicon->{'b \' q'}[0]{'types'};
+$Lexicon->{'b w q'}[5]{'lines'} = $Lexicon->{'b \' q'}[0]{'lines'};
+$Lexicon->{'b w q'}[5]{'glosses'} = $Lexicon->{'b \' q'}[0]{'glosses'};
 $Lexicon->{'b t l'}[12]{'types'} = $Lexicon->{'b l l'}[5]{'types'};
 $Lexicon->{'b t l'}[12]{'lines'} = $Lexicon->{'b l l'}[5]{'lines'};
 $Lexicon->{'b t l'}[12]{'glosses'} = $Lexicon->{'b l l'}[5]{'glosses'};
@@ -61286,9 +61236,6 @@ $Lexicon->{'b w t w'}[0]{'glosses'} = $Lexicon->{'b w t y'}[0]{'glosses'};
 $Lexicon->{'b r r'}[17]{'types'} = $Lexicon->{'b r n'}[1]{'types'};
 $Lexicon->{'b r r'}[17]{'lines'} = $Lexicon->{'b r n'}[1]{'lines'};
 $Lexicon->{'b r r'}[17]{'glosses'} = $Lexicon->{'b r n'}[1]{'glosses'};
-$Lexicon->{'b ` q'}[2]{'types'} = $Lexicon->{'b q y'}[4]{'types'};
-$Lexicon->{'b ` q'}[2]{'lines'} = $Lexicon->{'b q y'}[4]{'lines'};
-$Lexicon->{'b ` q'}[2]{'glosses'} = $Lexicon->{'b q y'}[4]{'glosses'};
 $Lexicon->{'b n y n'}[0]{'types'} = $Lexicon->{'b n y'}[20]{'types'};
 $Lexicon->{'b n y n'}[0]{'lines'} = $Lexicon->{'b n y'}[20]{'lines'};
 $Lexicon->{'b n y n'}[0]{'glosses'} = $Lexicon->{'b n y'}[20]{'glosses'};

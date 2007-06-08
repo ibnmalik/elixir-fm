@@ -2356,6 +2356,7 @@ mzn     muzan   N       rain clouds
 ;; mAzin_1
 mAzn    mAzin   Nprop   Mazen;Mazin
 ;
+;--- mzy
 ;; maziy~ap_1
 mzy     maziy~  Napdu   feature;advantage     <pos>maziy~/NOUN</pos>
 mzAyA   mazAyA  N0_Nhy  features;advantages

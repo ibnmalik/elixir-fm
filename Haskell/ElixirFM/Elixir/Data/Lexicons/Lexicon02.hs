@@ -522,10 +522,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- baEoliy~ -}         [ "unirrigated" ] ]
 
- |> "b ` q" <| [
-
-    FaL |< Iy |< aT           `noun`    {- baqiy~ap -}         [ "remainder", "remnant", "remainders", "remnants" ] ]
-
  |> "b d '" <| [
 
     FaCaL                     `verb`    {- badaO-a -}          [ "start", "begin" ]
@@ -1191,7 +1187,7 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCY                   `verb`    {- tabaq~aY -}         [ "remain", "stay" ],
 
-    FaC |< Iy |< aT           `noun`    {- baqiy~ap -}         [ "remainder", "remnant", "remainders", "remnants" ]
+    FaCIL |< aT               `noun`    {- baqiy~ap -}         [ "remainder", "remnant", "remainders", "remnants" ]
                               `plural`     FaCALY
                            {- `others`  [ "baqAyY N0 Nhy" ] -},
 

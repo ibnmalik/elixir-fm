@@ -885,6 +885,8 @@ lexicon = listing "Lexicon's properties"
 
     FaC                       `noun`    {- law -}              [ "if" ],
 
+    FaL                       `noun`    {- law -}              [ "if" ],
+
     FU                        `noun`    {- luw -}              [ "Le" ] ]
 
  |> "l w y" <| [

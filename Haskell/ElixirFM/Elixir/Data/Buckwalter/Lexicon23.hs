@@ -7642,6 +7642,11 @@ lexicon = listing "Lexicon's properties"
 
     FaC                       `noun`    {- law -}              [ "if" ],
 
+    -- ;; law_1
+    -- lw      law     FW-Wa   if           [[law/CONJ]]
+
+    FaL                       `noun`    {- law -}              [ "if" ],
+
     -- ;; luw_1
     -- lw      luw     FW-Wa   Le     [[luw/NOUN_PROP]]
 

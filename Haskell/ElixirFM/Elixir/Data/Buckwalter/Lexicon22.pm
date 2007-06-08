@@ -14131,6 +14131,20 @@ $Lexicon = {
       ],
       'orig' => 'kay',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'kay',
+      'form' => 'kay',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'kay',
+      'prefix' => ''
     }
   ],
   'k w y' => [
@@ -44030,6 +44044,9 @@ $Lexicon->{'k s w'}[7]{'glosses'} = $Lexicon->{'k s \''}[0]{'glosses'};
 $Lexicon->{'k y m n'}[0]{'types'} = $Lexicon->{'k w m'}[3]{'types'};
 $Lexicon->{'k y m n'}[0]{'lines'} = $Lexicon->{'k w m'}[3]{'lines'};
 $Lexicon->{'k y m n'}[0]{'glosses'} = $Lexicon->{'k w m'}[3]{'glosses'};
+$Lexicon->{'k y y'}[4]{'types'} = $Lexicon->{'k y y'}[3]{'types'};
+$Lexicon->{'k y y'}[4]{'lines'} = $Lexicon->{'k y y'}[3]{'lines'};
+$Lexicon->{'k y y'}[4]{'glosses'} = $Lexicon->{'k y y'}[3]{'glosses'};
 $Lexicon->{'k r \''}[0]{'types'} = $Lexicon->{'k r y'}[10]{'types'};
 $Lexicon->{'k r \''}[0]{'lines'} = $Lexicon->{'k r y'}[10]{'lines'};
 $Lexicon->{'k r \''}[0]{'glosses'} = $Lexicon->{'k r y'}[10]{'glosses'};

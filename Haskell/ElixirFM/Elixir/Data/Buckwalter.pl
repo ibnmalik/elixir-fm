@@ -420,9 +420,12 @@ sub closeEntry {
                 $toor[1] = $root[1]               if $toor[1] eq '' and @root > 1;
                 $toor[2] = restoreWith($root[-1]) if $toor[2] eq '' and @root > 1;
 
-                next if $seen{join ' ', @toor}++;
+                foreach my $ptrn (sort keys %{$root{$toor}}) {
 
-                storeEntry((join ' ', @toor), $_) foreach sort keys %{$root{$toor}};
+                    next if $seen{join ' ', @toor, $ptrn}++;
+
+                    storeEntry((join ' ', @toor), $ptrn);
+                }
             }
             elsif ($toor[0] eq '' and $toor[1] ne '' and $toor[1] ne $char) {
 
@@ -431,9 +434,12 @@ sub closeEntry {
                 $toor[0] = $root[0];
                 $toor[2] = restoreWith($root[-1]) if $toor[2] eq '' and @root > 1;
 
-                next if $seen{join ' ', @toor}++;
+                foreach my $ptrn (sort keys %{$root{$toor}}) {
 
-                storeEntry((join ' ', @toor), $_) foreach sort keys %{$root{$toor}};
+                    next if $seen{join ' ', @toor, $ptrn}++;
+
+                    storeEntry((join ' ', @toor), $ptrn);
+                }
             }
         }
 

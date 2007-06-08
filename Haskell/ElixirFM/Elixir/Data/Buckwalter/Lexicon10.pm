@@ -47392,6 +47392,20 @@ $Lexicon = {
     {
       'types' => {},
       'entry' => 'ri\'',
+      'form' => 'ri\'aT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiC |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
+      'orig' => 'ri}ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ri\'',
       'form' => 'ri\'awiyy',
       'lines' => [
         ';; ri}awiy~_1',
@@ -47405,6 +47419,20 @@ $Lexicon = {
       'glosses' => [
         'pulmonary'
       ],
+      'orig' => 'ri}awiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ri\'',
+      'form' => 'ri\'awiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FiC |<< "awIy"',
+      'suffix' => ' |<< "awIy"',
+      'glosses' => [],
       'orig' => 'ri}awiy~',
       'prefix' => ''
     },
@@ -53766,9 +53794,15 @@ $Lexicon->{'r ` `'}[2]{'glosses'} = $Lexicon->{'r ` w'}[4]{'glosses'};
 $Lexicon->{'r h \''}[0]{'types'} = $Lexicon->{'r h w'}[4]{'types'};
 $Lexicon->{'r h \''}[0]{'lines'} = $Lexicon->{'r h w'}[4]{'lines'};
 $Lexicon->{'r h \''}[0]{'glosses'} = $Lexicon->{'r h w'}[4]{'glosses'};
-$Lexicon->{'r \' \''}[2]{'types'} = $Lexicon->{'r \' y'}[13]{'types'};
-$Lexicon->{'r \' \''}[2]{'lines'} = $Lexicon->{'r \' y'}[13]{'lines'};
-$Lexicon->{'r \' \''}[2]{'glosses'} = $Lexicon->{'r \' y'}[13]{'glosses'};
+$Lexicon->{'r \' \''}[1]{'types'} = $Lexicon->{'r \' \''}[0]{'types'};
+$Lexicon->{'r \' \''}[1]{'lines'} = $Lexicon->{'r \' \''}[0]{'lines'};
+$Lexicon->{'r \' \''}[1]{'glosses'} = $Lexicon->{'r \' \''}[0]{'glosses'};
+$Lexicon->{'r \' \''}[3]{'types'} = $Lexicon->{'r \' \''}[2]{'types'};
+$Lexicon->{'r \' \''}[3]{'lines'} = $Lexicon->{'r \' \''}[2]{'lines'};
+$Lexicon->{'r \' \''}[3]{'glosses'} = $Lexicon->{'r \' \''}[2]{'glosses'};
+$Lexicon->{'r \' \''}[4]{'types'} = $Lexicon->{'r \' y'}[13]{'types'};
+$Lexicon->{'r \' \''}[4]{'lines'} = $Lexicon->{'r \' y'}[13]{'lines'};
+$Lexicon->{'r \' \''}[4]{'glosses'} = $Lexicon->{'r \' y'}[13]{'glosses'};
 $Lexicon->{'r b b'}[14]{'types'} = $Lexicon->{'r b n'}[0]{'types'};
 $Lexicon->{'r b b'}[14]{'lines'} = $Lexicon->{'r b n'}[0]{'lines'};
 $Lexicon->{'r b b'}[14]{'glosses'} = $Lexicon->{'r b n'}[0]{'glosses'};

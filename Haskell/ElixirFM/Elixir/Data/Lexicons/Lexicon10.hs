@@ -25,7 +25,11 @@ lexicon = listing "Lexicon's properties"
 
     FiL |< aT                 `noun`    {- ri}ap -}            [ "lung", "lungs" ],
 
+    FiC |< aT                 `noun`    {- ri}ap -}            [ "lung", "lungs" ],
+
     FiL |<< "awIy"            `adj`     {- ri}awiy~ -}         [ "pulmonary" ],
+
+    FiC |<< "awIy"            `adj`     {- ri}awiy~ -}         [ "pulmonary" ],
 
     FiCAL                     `noun`    {- ri}A' -}            [ "hypocrisy", "dissimulation" ] ]
 

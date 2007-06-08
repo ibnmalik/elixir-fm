@@ -1212,7 +1212,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "w m '" <| [
 
-    HICA' |< aT               `noun`    {- IiymA'ap -}         [ "gesture", "sign", "clue" ] ]
+    HICA' |< aT               `noun`    {- IiymA'ap -}         [ "gesture", "sign", "clue" ],
+
+    HICAL |< aT               `noun`    {- IiymA'ap -}         [ "gesture", "sign", "clue" ] ]
 
  |> "w m .d" <| [
 

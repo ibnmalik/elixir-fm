@@ -2369,7 +2369,11 @@ lexicon = listing "Lexicon's properties"
 
     FaL |<< "awIy"            `adj`     {- Hayawiy~ -}         [ "vital", "lively", "biological" ],
 
+    FaC |<< "awIy"            `adj`     {- Hayawiy~ -}         [ "vital", "lively", "biological" ],
+
     FaL |<< "awIy" |< aT      `noun`    {- Hayawiy~ap -}       [ "vigor", "liveliness" ],
+
+    FaC |<< "awIy" |< aT      `noun`    {- Hayawiy~ap -}       [ "vigor", "liveliness" ],
 
     HiFCA'                    `noun`    {- IiHoyA' -}          [ "commemoration", "commemorations" ]
                               `plural`     HiFCA' |< At ]

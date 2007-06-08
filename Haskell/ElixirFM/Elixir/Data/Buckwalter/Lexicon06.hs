@@ -13414,10 +13414,20 @@ lexicon = listing "Lexicon's properties"
 
     FaL |<< "awIy"            `adj`     {- Hayawiy~ -}         [ "vital", "lively", "biological" ],
 
+    -- ;; Hayawiy~_1
+    -- Hywy    Hayawiy~        Nall    vital;lively;biological     [[Hayawiy~/ADJ]]
+
+    FaC |<< "awIy"            `adj`     {- Hayawiy~ -}         [ "vital", "lively", "biological" ],
+
     -- ;; Hayawiy~ap_1
     -- Hywy    Hayawiy~        Nap     vigor;liveliness     [[Hayawiy~/NOUN]]
 
     FaL |<< "awIy" |< aT      `noun`    {- Hayawiy~ap -}       [ "vigor", "liveliness" ],
+
+    -- ;; Hayawiy~ap_1
+    -- Hywy    Hayawiy~        Nap     vigor;liveliness     [[Hayawiy~/NOUN]]
+
+    FaC |<< "awIy" |< aT      `noun`    {- Hayawiy~ap -}       [ "vigor", "liveliness" ],
 
     -- ;; >aHoyaY_2
     -- >HyY    >aHoyaY N0      livelier/liveliest;more/most vital

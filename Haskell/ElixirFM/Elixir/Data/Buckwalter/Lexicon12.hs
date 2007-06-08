@@ -12635,6 +12635,25 @@ lexicon = listing "Lexicon's properties"
                               `plural`     IFtiyAL |< At
                               `plural`     IFtiCA' |< At,
 
+    -- ;; {isotiyA'_1
+    -- <styA'  {isotiyA'       N0_Nh   dissatisfaction;displeasure
+    -- AstyA'  {isotiyA'       N0_Nh   dissatisfaction;displeasure
+    -- <styA&  {isotiyA&       Nh      dissatisfaction;displeasure
+    -- AstyA&  {isotiyA&       Nh      dissatisfaction;displeasure
+    -- <styA}  {isotiyA}       Nhy     dissatisfaction;displeasure
+    -- AstyA}  {isotiyA}       Nhy     dissatisfaction;displeasure
+    -- <styA'  {isotiyA'       NAn_Nayn        dissatisfaction;displeasure
+    -- AstyA'  {isotiyA'       NAn_Nayn        dissatisfaction;displeasure
+    -- <styA}  {isotiyA}       Nayn    dissatisfaction;displeasure
+    -- AstyA}  {isotiyA}       Nayn    dissatisfaction;displeasure
+    -- <styA'  {isotiyA'       NAt     dissatisfaction;displeasure
+    -- AstyA'  {isotiyA'       NAt     dissatisfaction;displeasure
+
+    IFtiCA'                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiyAL |< At
+                              `plural`     IFtiCA' |< At,
+
     -- ;; musiy'_1
     -- msy'    musiy'  N0      insulting;harming;pernicious     [[musiy'/ADJ]]
     -- msy}    musiy}  NF_Nhy  insulting;harming;pernicious

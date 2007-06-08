@@ -31097,6 +31097,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => 'qiynAn',
+      'form' => 'qiynAn',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FICAL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'qiynAn',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'taqniyn' => {
           'N/At' => 1
@@ -58597,6 +58611,9 @@ $Lexicon->{'q r y'}[9]{'glosses'} = $Lexicon->{'q r r'}[30]{'glosses'};
 $Lexicon->{'q n n'}[11]{'types'} = $Lexicon->{'q y n'}[0]{'types'};
 $Lexicon->{'q n n'}[11]{'lines'} = $Lexicon->{'q y n'}[0]{'lines'};
 $Lexicon->{'q n n'}[11]{'glosses'} = $Lexicon->{'q y n'}[0]{'glosses'};
+$Lexicon->{'q n n'}[12]{'types'} = $Lexicon->{'q y n'}[0]{'types'};
+$Lexicon->{'q n n'}[12]{'lines'} = $Lexicon->{'q y n'}[0]{'lines'};
+$Lexicon->{'q n n'}[12]{'glosses'} = $Lexicon->{'q y n'}[0]{'glosses'};
 $Lexicon->{'q f w'}[5]{'types'} = $Lexicon->{'q f \''}[0]{'types'};
 $Lexicon->{'q f w'}[5]{'lines'} = $Lexicon->{'q f \''}[0]{'lines'};
 $Lexicon->{'q f w'}[5]{'glosses'} = $Lexicon->{'q f \''}[0]{'glosses'};
