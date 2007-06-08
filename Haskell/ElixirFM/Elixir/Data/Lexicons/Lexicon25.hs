@@ -951,6 +951,10 @@ lexicon = listing "Lexicon's properties"
 
     FaL |< At                 `noun`    {- nabAt -}            [ "plants", "vegetation" ],
 
+    FaL |< At |< Iy           `adj`     {- nabAtiy~ -}         [ "vegetable", "botanical" ],
+
+    FaL |< At |< Iy           `adj`     {- nabAtiy~ -}         [ "botanist", "vegetarian" ],
+
     FaL |<< "awIy"            `adj`     {- nabawiy~ -}         [ "prophetic", "of the Prophet" ] ]
 
  |> "n b h" <| [
@@ -1013,11 +1017,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "n b t" <| [
 
-    HaFCaL                    `verb`    {- Oanobat -}          [ "germinate", "make grow", "make sprout", "cultivate", "be germinated", "be grown", "be cultivated" ],
-
-    FaCAL |< Iy               `adj`     {- nabAtiy~ -}         [ "vegetable", "botanical" ],
-
-    FaCAL |< Iy               `adj`     {- nabAtiy~ -}         [ "botanist", "vegetarian" ] ]
+    HaFCaL                    `verb`    {- Oanobat -}          [ "germinate", "make grow", "make sprout", "cultivate", "be germinated", "be grown", "be cultivated" ] ]
 
  |> "n b w" <| [
 
@@ -1029,6 +1029,10 @@ lexicon = listing "Lexicon's properties"
  |> "n b y" <| [
 
     FaC |< At                 `noun`    {- nabAt -}            [ "plants", "vegetation" ],
+
+    FaC |< At |< Iy           `adj`     {- nabAtiy~ -}         [ "vegetable", "botanical" ],
+
+    FaC |< At |< Iy           `adj`     {- nabAtiy~ -}         [ "botanist", "vegetarian" ],
 
     FaCIL                     `adj`     {- nabiy~ -}           [ "prophet", "prophets" ]
                               `plural`     HaFCiLA'

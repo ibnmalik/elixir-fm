@@ -5889,6 +5889,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "h w y" <| [
 
+    -- ;; huwiy~ap_1
+    -- hwy     huwiy~  NapAt   identity card;identity     [[huwiy~/NOUN]]
+
+    FuCIL |< aT               `noun`    {- huwiy~ap -}         [ "identity card", "identity" ],
+
     -- ;; hawaY-i_1
     -- hwY     hawaY   PV_0    fall;collapse;topple
     -- hwA     hawA    PV_h    fall;collapse;topple
@@ -6020,6 +6025,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCA'
                               `plural`     FaCALY
                            {- `others`  [ "hawA Nhy", "'ahwA' Nh N0_Nh Nhy", "hawAyY N0_Nhy" ] -},
+
+    -- ;; huwiy~_1
+    -- hwy     huwiy~  N       fall;tumble
+
+    FuCIL                     `noun`    {- huwiy~ -}           [ "fall", "tumble" ],
 
     -- ;; hawA'_1
     -- hwA'    hawA'   N0_Nh   air;atmosphere;climate
@@ -8107,18 +8117,6 @@ lexicon = listing "Lexicon's properties"
     -- hwbswn  huwbsuwn        Nprop   Hobson
 
     Identity                  `noun`    {- huwbsuwn -}         [ "Hobson" ] ]
-
- |> "huwiyy" <| [
-
-    -- ;; huwiy~ap_1
-    -- hwy     huwiy~  NapAt   identity card;identity     [[huwiy~/NOUN]]
-
-    Identity |< aT            `noun`    {- huwiy~ap -}         [ "identity card", "identity" ],
-
-    -- ;; huwiy~_1
-    -- hwy     huwiy~  N       fall;tumble
-
-    Identity                  `noun`    {- huwiy~ -}           [ "fall", "tumble" ] ]
 
  |> "huwlAnd" <| [
 

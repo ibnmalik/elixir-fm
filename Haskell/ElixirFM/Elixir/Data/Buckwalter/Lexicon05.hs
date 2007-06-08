@@ -8473,7 +8473,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; mutajaw~il_1
     -- mtjwl   mutajaw~il      Nall    traveling;itinerant     [[mutajaw~il/ADJ]]
 
-    MutaFaCCiL                `adj`     {- mutajaw~il -}       [ "traveling", "itinerant" ] ]
+    MutaFaCCiL                `adj`     {- mutajaw~il -}       [ "traveling", "itinerant" ],
+
+    -- ;; juwiyl_1
+    -- jwyl    juwiyl  Nprop   Joel
+
+    FuCIL                     `noun`    {- juwiyl -}           [ "Joel" ] ]
 
  |> "^g w l w" <| [
 
@@ -10520,20 +10525,20 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- jiytikos -}         [ "Gitex" ] ]
 
+ |> "^giyuw.grAf" <| [
+
+    -- ;; jiyuwgrAfiy~_1
+    -- jywgrAfy        jiyuwgrAfiy~    Nall    geographical     [[jiyuwgrAfiy~/ADJ]]
+    -- jywgrAfyk       jiyuwgrAfiyk    N0      geographic
+
+    Identity |< Iy            `adj`     {- jiyuwgrAfiy~ -}     [ "geographical", "geographic" ] ]
+
  |> "^giyuw.grAfiyA" <| [
 
     -- ;; jiyuwgrAfiyA_1
     -- jywgrAfyA       jiyuwgrAfiyA    N0      geography
 
     Identity                  `noun`    {- jiyuwgrAfiyA -}     [ "geography" ] ]
-
- |> "^giyuw.grAfiyy" <| [
-
-    -- ;; jiyuwgrAfiy~_1
-    -- jywgrAfy        jiyuwgrAfiy~    Nall    geographical     [[jiyuwgrAfiy~/ADJ]]
-    -- jywgrAfyk       jiyuwgrAfiyk    N0      geographic
-
-    Identity                  `adj`     {- jiyuwgrAfiy~ -}     [ "geographical", "geographic" ] ]
 
  |> "^giyuwfAniy" <| [
 
@@ -10559,20 +10564,20 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- jiyuwfiyziyA}iy~ -} [ "geophysical", "geophysicist" ] ]
 
+ |> "^giyuwluw^g" <| [
+
+    -- ;; jiyuwluwjiy~_1
+    -- jywlwjy jiyuwluwjiy~    Nall    geological    [[jiyuwluwjiy~/ADJ]]
+    -- jywlwjy jiyuwluwjiy~    Nall    geologist     [[jiyuwluwjiy~/NOUN]]
+
+    Identity |< Iy            `adj`     {- jiyuwluwjiy~ -}     [ "geological", "geologist" ] ]
+
  |> "^giyuwluw^giyA" <| [
 
     -- ;; jiyuwluwjiyA_1
     -- jywlwjyA        jiyuwluwjiyA    N0      geology
 
     Identity                  `noun`    {- jiyuwluwjiyA -}     [ "geology" ] ]
-
- |> "^giyuwluw^giyy" <| [
-
-    -- ;; jiyuwluwjiy~_1
-    -- jywlwjy jiyuwluwjiy~    Nall    geological    [[jiyuwluwjiy~/ADJ]]
-    -- jywlwjy jiyuwluwjiy~    Nall    geologist     [[jiyuwluwjiy~/NOUN]]
-
-    Identity                  `adj`     {- jiyuwluwjiy~ -}     [ "geological", "geologist" ] ]
 
  |> "^giyzhuw" <| [
 
@@ -10761,13 +10766,6 @@ lexicon = listing "Lexicon's properties"
     -- ywhAnsbrg       yuwhAnisoburg   N0      Johannesburg
 
     Identity                  `noun`    {- juwhAnisobuwrj -}   [ "Johannesburg" ] ]
-
- |> "^guwiyl" <| [
-
-    -- ;; juwiyl_1
-    -- jwyl    juwiyl  Nprop   Joel
-
-    Identity                  `noun`    {- juwiyl -}           [ "Joel" ] ]
 
  |> "^guwiyliy" <| [
 

@@ -114,6 +114,26 @@ $Lexicon = {
       ],
       'orig' => '*awAt',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_daw',
+      'form' => '_dawAtiyy',
+      'lines' => [
+        ';; *awAtiy~_1',
+        '*wAty   *awAtiy~        Nall    high-class;exclusive     [[*awAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'high-class',
+        'exclusive'
+      ],
+      'orig' => '*awAtiy~',
+      'prefix' => ''
     }
   ],
   'ta_dkAr' => [
@@ -4961,6 +4981,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => '_daw',
+      'form' => '_dawAtiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaC |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [],
+      'orig' => '*awAtiy~',
+      'prefix' => ''
+    },
+    {
       'types' => {
         '_dwiy' => {
           'IV_0hAnn' => 1
@@ -5157,28 +5191,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_d y d' => [
-    {
-      'types' => {},
-      'entry' => '_diyAd',
-      'form' => '_diyAd',
-      'lines' => [
-        ';; *iyAd_1',
-        '*yAd    *iyAd   N       defense;protection'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'defense',
-        'protection'
-      ],
-      'orig' => '*iyAd',
-      'prefix' => ''
-    }
-  ],
   '_d l f' => [
     {
       'types' => {
@@ -5218,6 +5230,28 @@ $Lexicon = {
         'small-nosed'
       ],
       'orig' => 'Oa*olaf',
+      'prefix' => ''
+    }
+  ],
+  '_d y d' => [
+    {
+      'types' => {},
+      'entry' => '_diyAd',
+      'form' => '_diyAd',
+      'lines' => [
+        ';; *iyAd_1',
+        '*yAd    *iyAd   N       defense;protection'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'defense',
+        'protection'
+      ],
+      'orig' => '*iyAd',
       'prefix' => ''
     }
   ],
@@ -5931,26 +5965,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_d \' d' => [
-    {
-      'types' => {},
-      'entry' => '_dA\'id',
-      'form' => '_dA\'id',
-      'lines' => [],
-      'patterns' => {
-        '_dAd' => [
-          'FAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => '*A}id',
-      'prefix' => ''
-    }
-  ],
   'ka_dA' => [
     {
       'types' => {},
@@ -5970,6 +5984,26 @@ $Lexicon = {
         'thus'
       ],
       'orig' => 'ka*A',
+      'prefix' => ''
+    }
+  ],
+  '_d \' d' => [
+    {
+      'types' => {},
+      'entry' => '_dA\'id',
+      'form' => '_dA\'id',
+      'lines' => [],
+      'patterns' => {
+        '_dAd' => [
+          'FAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => '*A}id',
       'prefix' => ''
     }
   ],
@@ -6682,28 +6716,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_dubyAniyy' => [
-    {
-      'types' => {},
-      'entry' => '_dubyAniyy',
-      'form' => '_dubyAniyy',
-      'lines' => [
-        ';; *uboyAniy~_1',
-        '*byAny  *uboyAniy~      N0      Dhubyani;Dhubiani'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Dhubyani',
-        'Dhubiani'
-      ],
-      'orig' => '*uboyAniy~',
-      'prefix' => ''
-    }
-  ],
   '_d \' `' => [
     {
       'types' => {},
@@ -6814,6 +6826,45 @@ $Lexicon = {
       ],
       'orig' => '*At',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_d',
+      'form' => '_dAtiyy',
+      'lines' => [
+        ';; *Atiy~_1',
+        '*Aty    *Atiy~  N-ap    autonomous;self     [[*Atiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'autonomous',
+        'self'
+      ],
+      'orig' => '*Atiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_d',
+      'form' => 'lA_dAtiyyaT',
+      'lines' => [
+        ';; lA*Atiy~ap_1',
+        'lA*Aty  lA*Atiy~        Nap_L   impersonality     [[lA*Atiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'lA >| Identity |< At |< Iy |< aT',
+      'suffix' => ' |< At |< Iy |< aT',
+      'glosses' => [
+        'impersonality'
+      ],
+      'orig' => 'lA*Atiy~ap',
+      'prefix' => 'lA >| '
     }
   ],
   '_d \' l' => [
@@ -7244,6 +7295,26 @@ $Lexicon = {
         'Dhubian'
       ],
       'orig' => '*uboyAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_dubyAn',
+      'form' => '_dubyAniyy',
+      'lines' => [
+        ';; *uboyAniy~_1',
+        '*byAny  *uboyAniy~      N0      Dhubyani;Dhubiani'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuCLAn |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Dhubyani',
+        'Dhubiani'
+      ],
+      'orig' => '*uboyAniy~',
       'prefix' => ''
     },
     {
@@ -8147,67 +8218,6 @@ $Lexicon = {
       'orig' => 'ta*oyiyl',
       'prefix' => ''
     }
-  ],
-  '_d w t' => [
-    {
-      'types' => {},
-      'entry' => '_dawAt',
-      'form' => '_dawAtiyy',
-      'lines' => [
-        ';; *awAtiy~_1',
-        '*wAty   *awAtiy~        Nall    high-class;exclusive     [[*awAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'high-class',
-        'exclusive'
-      ],
-      'orig' => '*awAtiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_dAt',
-      'form' => '_dAtiyy',
-      'lines' => [
-        ';; *Atiy~_1',
-        '*Aty    *Atiy~  N-ap    autonomous;self     [[*Atiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'autonomous',
-        'self'
-      ],
-      'orig' => '*Atiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_dAt',
-      'form' => 'lA_dAtiyyaT',
-      'lines' => [
-        ';; lA*Atiy~ap_1',
-        'lA*Aty  lA*Atiy~        Nap_L   impersonality     [[lA*Atiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'lA >| FAL |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'impersonality'
-      ],
-      'orig' => 'lA*Atiy~ap',
-      'prefix' => 'lA >| '
-    }
   ]
 };
 $Lexicon->{'_d w b'}[6]{'types'} = $Lexicon->{'_d \' b'}[3]{'types'};
@@ -8238,6 +8248,9 @@ $Lexicon->{'_d w y'}[0]{'glosses'} = $Lexicon->{'_d w w'}[1]{'glosses'};
 $Lexicon->{'_d w y'}[1]{'types'} = $Lexicon->{'_d w w'}[2]{'types'};
 $Lexicon->{'_d w y'}[1]{'lines'} = $Lexicon->{'_d w w'}[2]{'lines'};
 $Lexicon->{'_d w y'}[1]{'glosses'} = $Lexicon->{'_d w w'}[2]{'glosses'};
+$Lexicon->{'_d w y'}[2]{'types'} = $Lexicon->{'_d w w'}[3]{'types'};
+$Lexicon->{'_d w y'}[2]{'lines'} = $Lexicon->{'_d w w'}[3]{'lines'};
+$Lexicon->{'_d w y'}[2]{'glosses'} = $Lexicon->{'_d w w'}[3]{'glosses'};
 $Lexicon->{'_d \' d'}[0]{'types'} = $Lexicon->{'_d w d'}[2]{'types'};
 $Lexicon->{'_d \' d'}[0]{'lines'} = $Lexicon->{'_d w d'}[2]{'lines'};
 $Lexicon->{'_d \' d'}[0]{'glosses'} = $Lexicon->{'_d w d'}[2]{'glosses'};

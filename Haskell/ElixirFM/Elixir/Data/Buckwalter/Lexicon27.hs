@@ -3545,7 +3545,9 @@ lexicon = listing "Lexicon's properties"
     -- wxy     wuxiy~  N       intentions;aims;plans
     -- wxy     wixiy~  N       intentions;aims;plans
 
-    FaCL                      `noun`    {- waxoy -}            [ "intention", "aim", "plan", "intentions", "aims", "plans" ],
+    FaCL                      `noun`    {- waxoy -}            [ "intention", "aim", "plan", "intentions", "aims", "plans" ]
+                              `plural`     FuCIL
+                           {- `others`  [ "wu_hiyy N" ] -},
 
     -- ;; tawax~iy_1
     -- twxy    tawax~iy        N0_Nh   intention;plan

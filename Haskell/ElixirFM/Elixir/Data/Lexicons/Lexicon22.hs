@@ -719,6 +719,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "k r '" <| [
 
+    FuCU |< At |< Iy          `adj`     {- kuruwAtiy~ -}       [ "Croatian", "Croat" ],
+
     FiCAL                     `noun`    {- kirA' -}            [ "rent", "renting", "rent money" ]
                               `plural`     HaFCI |< aT ]
 
@@ -870,7 +872,9 @@ lexicon = listing "Lexicon's properties"
 
     FuC |<< "awIy"            `adj`     {- kurawiy~ -}         [ "soccer-related", "(sports) ball-related" ],
 
-    FuC |<< "awIy"            `adj`     {- kurawiy~ -}         [ "globular", "spherical" ] ]
+    FuC |<< "awIy"            `adj`     {- kurawiy~ -}         [ "globular", "spherical" ],
+
+    FuCU |< At |< Iy          `adj`     {- kuruwAtiy~ -}       [ "Croatian", "Croat" ] ]
 
  |> "k r y" <| [
 
@@ -1516,10 +1520,6 @@ lexicon = listing "Lexicon's properties"
     Identity                  `noun`    {- kurodisotAn -}      [ "Kurdistan" ],
 
     Identity |< Iy            `adj`     {- kurodisotAniy~ -}   [ "Kurdistani" ] ]
-
- |> "kuruwAt" <| [
-
-    Identity |< Iy            `adj`     {- kuruwAtiy~ -}       [ "Croatian", "Croat" ] ]
 
  |> "kuruwAtiyA" <| [
 

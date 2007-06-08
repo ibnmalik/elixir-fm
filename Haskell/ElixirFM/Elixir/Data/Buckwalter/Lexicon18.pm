@@ -11968,6 +11968,26 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => '`i.syAn',
+      'form' => '`i.syAniyy',
+      'lines' => [
+        ';; EiSoyAniy~_1',
+        'ESyAny  EiSoyAniy~      Nall    subversive;insurrectionist     [[EiSoyAniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FiCLAn |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'subversive',
+        'insurrectionist'
+      ],
+      'orig' => 'EiSoyAniy~',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'ma`A.siy' => {
           'N0_Nh' => 1
@@ -26046,6 +26066,25 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => '`utiyy',
+      'form' => '`utiyy',
+      'lines' => [
+        ';; Eutiy~_1',
+        'Ety     Eutiy~  N       arrogance'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCIL',
+      'suffix' => '',
+      'glosses' => [
+        'arrogance'
+      ],
+      'orig' => 'Eutiy~',
+      'prefix' => ''
+    },
+    {
       'types' => {
         '\'a`tA\'' => {
           'Nh' => 2,
@@ -29079,6 +29118,25 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => '`amyAn',
+      'form' => '`amyAniyy',
+      'lines' => [
+        ';; EamoyAniy~_1',
+        'EmyAny  EamoyAniy~      N       blind'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCLAn |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'blind'
+      ],
+      'orig' => 'EamoyAniy~',
+      'prefix' => ''
+    },
+    {
       'types' => {
         '`amyA\'' => {
           'Nh' => 1,
@@ -29322,31 +29380,6 @@ $Lexicon = {
         'Asidi'
       ],
       'orig' => 'EaSiydiy~',
-      'prefix' => ''
-    }
-  ],
-  '`uryAniyy' => [
-    {
-      'types' => {},
-      'entry' => '`uryAniyy',
-      'form' => '`uryAniyy',
-      'lines' => [
-        ';; EuroyAniy~_1',
-        'EryAny  EuroyAniy~      Nall    nudist;naturist     [[EuroyAniy~/ADJ]]',
-        'EryAny  EuroyAniy~      Nap     nudism;naturism     [[EuroyAniy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'nudist',
-        'naturist',
-        'nudism',
-        'naturism'
-      ],
-      'orig' => 'EuroyAniy~',
       'prefix' => ''
     }
   ],
@@ -30927,27 +30960,6 @@ $Lexicon = {
         'Ezzat'
       ],
       'orig' => 'Eiz~at',
-      'prefix' => ''
-    }
-  ],
-  '`utiyy' => [
-    {
-      'types' => {},
-      'entry' => '`utiyy',
-      'form' => '`utiyy',
-      'lines' => [
-        ';; Eutiy~_1',
-        'Ety     Eutiy~  N       arrogance'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'arrogance'
-      ],
-      'orig' => 'Eutiy~',
       'prefix' => ''
     }
   ],
@@ -41025,28 +41037,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ma`luwmAt' => [
-    {
-      'types' => {},
-      'entry' => 'ma`luwmAt',
-      'form' => 'ma`luwmAtiyy',
-      'lines' => [
-        ';; maEoluwmAtiy~_1',
-        'mElwmAty        maEoluwmAtiy~   Nall    information science;informatics     [[maEoluwmAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'information science',
-        'informatics'
-      ],
-      'orig' => 'maEoluwmAtiy~',
-      'prefix' => ''
-    }
-  ],
   '` k k' => [
     {
       'types' => {
@@ -42948,6 +42938,26 @@ $Lexicon = {
         'data'
       ],
       'orig' => 'maEoluwmap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ma`luwm',
+      'form' => 'ma`luwmAtiyy',
+      'lines' => [
+        ';; maEoluwmAtiy~_1',
+        'mElwmAty        maEoluwmAtiy~   Nall    information science;informatics     [[maEoluwmAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MaFCUL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'information science',
+        'informatics'
+      ],
+      'orig' => 'maEoluwmAtiy~',
       'prefix' => ''
     },
     {
@@ -52486,34 +52496,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`uliyy' => [
-    {
-      'types' => {
-        '`alAliy' => {
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => '`uliyy',
-      'form' => '`uliyyaT',
-      'lines' => [
-        ';; Euliy~ap_1',
-        'Ely     Euliy~  Napdu   upper room     [[Euliy~/NOUN]]',
-        'ElAly   EalAliy N0_Nh   upper rooms',
-        'ElAl    EalAl   NK      upper rooms'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'upper room',
-        'upper rooms'
-      ],
-      'orig' => 'Euliy~ap',
-      'prefix' => ''
-    }
-  ],
   '`abdAlqAhir' => [
     {
       'types' => {},
@@ -56739,27 +56721,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`amyAniyy' => [
-    {
-      'types' => {},
-      'entry' => '`amyAniyy',
-      'form' => '`amyAniyy',
-      'lines' => [
-        ';; EamoyAniy~_1',
-        'EmyAny  EamoyAniy~      N       blind'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'blind'
-      ],
-      'orig' => 'EamoyAniy~',
-      'prefix' => ''
-    }
-  ],
   '`abdAl`.ziym' => [
     {
       'types' => {},
@@ -57825,28 +57786,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`i.syAniyy' => [
-    {
-      'types' => {},
-      'entry' => '`i.syAniyy',
-      'form' => '`i.syAniyy',
-      'lines' => [
-        ';; EiSoyAniy~_1',
-        'ESyAny  EiSoyAniy~      Nall    subversive;insurrectionist     [[EiSoyAniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'subversive',
-        'insurrectionist'
-      ],
-      'orig' => 'EiSoyAniy~',
-      'prefix' => ''
-    }
-  ],
   '` t r' => [
     {
       'types' => {},
@@ -58894,48 +58833,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`udwAniyy' => [
-    {
-      'types' => {},
-      'entry' => '`udwAniyy',
-      'form' => '`udwAniyy',
-      'lines' => [
-        ';; EudowAniy~_1',
-        'EdwAny  EudowAniy~      Nall    hostile;aggressive     [[EudowAniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'hostile',
-        'aggressive'
-      ],
-      'orig' => 'EudowAniy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '`udwAniyy',
-      'form' => '`udwAniyyaT',
-      'lines' => [
-        ';; EudowAniy~ap_1',
-        'EdwAny  EudowAniy~      Nap     aggression;belligerency     [[EudowAniy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'aggression',
-        'belligerency'
-      ],
-      'orig' => 'EudowAniy~ap',
-      'prefix' => ''
-    }
-  ],
   '` n .s l' => [
     {
       'types' => {
@@ -59135,6 +59032,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAldAr' => [
+    {
+      'types' => {},
+      'entry' => '`abdAldAr',
+      'form' => '`abdAldAr',
+      'lines' => [
+        ';; EabodAldAr_1',
+        'EbdAldAr        EabodAldAr      Nprop   Abdel Dar'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Dar'
+      ],
+      'orig' => 'EabodAldAr',
+      'prefix' => ''
+    }
+  ],
+  '`abdAlwAliy' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlwAliy',
+      'form' => '`abdAlwAliy',
+      'lines' => [
+        ';; EabodAlwAliy_1',
+        'EbdAlwAly       EabodAlwAliy    Nprop   Abdel Wali'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Wali'
+      ],
+      'orig' => 'EabodAlwAliy',
+      'prefix' => ''
+    }
+  ],
   '` s ^g d' => [
     {
       'types' => {},
@@ -59191,48 +59130,6 @@ $Lexicon = {
         'gilded'
       ],
       'orig' => 'muEasojad',
-      'prefix' => ''
-    }
-  ],
-  '`abdAldAr' => [
-    {
-      'types' => {},
-      'entry' => '`abdAldAr',
-      'form' => '`abdAldAr',
-      'lines' => [
-        ';; EabodAldAr_1',
-        'EbdAldAr        EabodAldAr      Nprop   Abdel Dar'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Dar'
-      ],
-      'orig' => 'EabodAldAr',
-      'prefix' => ''
-    }
-  ],
-  '`abdAlwAliy' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlwAliy',
-      'form' => '`abdAlwAliy',
-      'lines' => [
-        ';; EabodAlwAliy_1',
-        'EbdAlwAly       EabodAlwAliy    Nprop   Abdel Wali'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Wali'
-      ],
-      'orig' => 'EabodAlwAliy',
       'prefix' => ''
     }
   ],
@@ -60665,6 +60562,46 @@ $Lexicon = {
         'Udwan'
       ],
       'orig' => 'EudowAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '`udwAn',
+      'form' => '`udwAniyy',
+      'lines' => [
+        ';; EudowAniy~_1',
+        'EdwAny  EudowAniy~      Nall    hostile;aggressive     [[EudowAniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuCLAn |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'hostile',
+        'aggressive'
+      ],
+      'orig' => 'EudowAniy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '`udwAn',
+      'form' => '`udwAniyyaT',
+      'lines' => [
+        ';; EudowAniy~ap_1',
+        'EdwAny  EudowAniy~      Nap     aggression;belligerency     [[EudowAniy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCLAn |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'aggression',
+        'belligerency'
+      ],
+      'orig' => 'EudowAniy~ap',
       'prefix' => ''
     },
     {
@@ -63017,6 +62954,29 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => '`uryAn',
+      'form' => '`uryAniyy',
+      'lines' => [
+        ';; EuroyAniy~_1',
+        'EryAny  EuroyAniy~      Nall    nudist;naturist     [[EuroyAniy~/ADJ]]',
+        'EryAny  EuroyAniy~      Nap     nudism;naturism     [[EuroyAniy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuCLAn |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'nudist',
+        'naturist',
+        'nudism',
+        'naturism'
+      ],
+      'orig' => 'EuroyAniy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'ta`riy',
       'form' => 'ta`riyaT',
       'lines' => [
@@ -63315,6 +63275,36 @@ $Lexicon = {
         'prominent'
       ],
       'orig' => 'Eiloyap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '`alAliy' => {
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '`uliyy',
+      'form' => '`uliyyaT',
+      'lines' => [
+        ';; Euliy~ap_1',
+        'Ely     Euliy~  Napdu   upper room     [[Euliy~/NOUN]]',
+        'ElAly   EalAliy N0_Nh   upper rooms',
+        'ElAl    EalAl   NK      upper rooms'
+      ],
+      'patterns' => {
+        '`alAliy' => [
+          'FaCACI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCIL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'upper room',
+        'upper rooms'
+      ],
+      'orig' => 'Euliy~ap',
       'prefix' => ''
     },
     {
@@ -69057,72 +69047,72 @@ $Lexicon->{'` d w'}[16]{'glosses'} = $Lexicon->{'` d \''}[0]{'glosses'};
 $Lexicon->{'` d w'}[18]{'types'} = $Lexicon->{'` d \''}[2]{'types'};
 $Lexicon->{'` d w'}[18]{'lines'} = $Lexicon->{'` d \''}[2]{'lines'};
 $Lexicon->{'` d w'}[18]{'glosses'} = $Lexicon->{'` d \''}[2]{'glosses'};
-$Lexicon->{'` d w'}[24]{'types'} = $Lexicon->{'` d y'}[1]{'types'};
-$Lexicon->{'` d w'}[24]{'lines'} = $Lexicon->{'` d y'}[1]{'lines'};
-$Lexicon->{'` d w'}[24]{'glosses'} = $Lexicon->{'` d y'}[1]{'glosses'};
-$Lexicon->{'` d w'}[25]{'types'} = $Lexicon->{'` d y'}[2]{'types'};
-$Lexicon->{'` d w'}[25]{'lines'} = $Lexicon->{'` d y'}[2]{'lines'};
-$Lexicon->{'` d w'}[25]{'glosses'} = $Lexicon->{'` d y'}[2]{'glosses'};
-$Lexicon->{'` d w'}[26]{'types'} = $Lexicon->{'` d y'}[3]{'types'};
-$Lexicon->{'` d w'}[26]{'lines'} = $Lexicon->{'` d y'}[3]{'lines'};
-$Lexicon->{'` d w'}[26]{'glosses'} = $Lexicon->{'` d y'}[3]{'glosses'};
-$Lexicon->{'` d w'}[30]{'types'} = $Lexicon->{'` d \''}[3]{'types'};
-$Lexicon->{'` d w'}[30]{'lines'} = $Lexicon->{'` d \''}[3]{'lines'};
-$Lexicon->{'` d w'}[30]{'glosses'} = $Lexicon->{'` d \''}[3]{'glosses'};
-$Lexicon->{'` d w'}[31]{'types'} = $Lexicon->{'` d \''}[4]{'types'};
-$Lexicon->{'` d w'}[31]{'lines'} = $Lexicon->{'` d \''}[4]{'lines'};
-$Lexicon->{'` d w'}[31]{'glosses'} = $Lexicon->{'` d \''}[4]{'glosses'};
-$Lexicon->{'` d w'}[32]{'types'} = $Lexicon->{'` d y'}[4]{'types'};
-$Lexicon->{'` d w'}[32]{'lines'} = $Lexicon->{'` d y'}[4]{'lines'};
-$Lexicon->{'` d w'}[32]{'glosses'} = $Lexicon->{'` d y'}[4]{'glosses'};
-$Lexicon->{'` d w'}[33]{'types'} = $Lexicon->{'` d y'}[5]{'types'};
-$Lexicon->{'` d w'}[33]{'lines'} = $Lexicon->{'` d y'}[5]{'lines'};
-$Lexicon->{'` d w'}[33]{'glosses'} = $Lexicon->{'` d y'}[5]{'glosses'};
-$Lexicon->{'` d w'}[34]{'types'} = $Lexicon->{'` d y'}[6]{'types'};
-$Lexicon->{'` d w'}[34]{'lines'} = $Lexicon->{'` d y'}[6]{'lines'};
-$Lexicon->{'` d w'}[34]{'glosses'} = $Lexicon->{'` d y'}[6]{'glosses'};
-$Lexicon->{'` d w'}[35]{'types'} = $Lexicon->{'` d y'}[7]{'types'};
-$Lexicon->{'` d w'}[35]{'lines'} = $Lexicon->{'` d y'}[7]{'lines'};
-$Lexicon->{'` d w'}[35]{'glosses'} = $Lexicon->{'` d y'}[7]{'glosses'};
-$Lexicon->{'` d w'}[36]{'types'} = $Lexicon->{'` d y'}[8]{'types'};
-$Lexicon->{'` d w'}[36]{'lines'} = $Lexicon->{'` d y'}[8]{'lines'};
-$Lexicon->{'` d w'}[36]{'glosses'} = $Lexicon->{'` d y'}[8]{'glosses'};
-$Lexicon->{'` d w'}[37]{'types'} = $Lexicon->{'` d y'}[9]{'types'};
-$Lexicon->{'` d w'}[37]{'lines'} = $Lexicon->{'` d y'}[9]{'lines'};
-$Lexicon->{'` d w'}[37]{'glosses'} = $Lexicon->{'` d y'}[9]{'glosses'};
-$Lexicon->{'` .s \''}[0]{'types'} = $Lexicon->{'` .s y'}[12]{'types'};
-$Lexicon->{'` .s \''}[0]{'lines'} = $Lexicon->{'` .s y'}[12]{'lines'};
-$Lexicon->{'` .s \''}[0]{'glosses'} = $Lexicon->{'` .s y'}[12]{'glosses'};
-$Lexicon->{'` .s \''}[1]{'types'} = $Lexicon->{'` .s y'}[13]{'types'};
-$Lexicon->{'` .s \''}[1]{'lines'} = $Lexicon->{'` .s y'}[13]{'lines'};
-$Lexicon->{'` .s \''}[1]{'glosses'} = $Lexicon->{'` .s y'}[13]{'glosses'};
+$Lexicon->{'` d w'}[26]{'types'} = $Lexicon->{'` d y'}[1]{'types'};
+$Lexicon->{'` d w'}[26]{'lines'} = $Lexicon->{'` d y'}[1]{'lines'};
+$Lexicon->{'` d w'}[26]{'glosses'} = $Lexicon->{'` d y'}[1]{'glosses'};
+$Lexicon->{'` d w'}[27]{'types'} = $Lexicon->{'` d y'}[2]{'types'};
+$Lexicon->{'` d w'}[27]{'lines'} = $Lexicon->{'` d y'}[2]{'lines'};
+$Lexicon->{'` d w'}[27]{'glosses'} = $Lexicon->{'` d y'}[2]{'glosses'};
+$Lexicon->{'` d w'}[28]{'types'} = $Lexicon->{'` d y'}[3]{'types'};
+$Lexicon->{'` d w'}[28]{'lines'} = $Lexicon->{'` d y'}[3]{'lines'};
+$Lexicon->{'` d w'}[28]{'glosses'} = $Lexicon->{'` d y'}[3]{'glosses'};
+$Lexicon->{'` d w'}[32]{'types'} = $Lexicon->{'` d \''}[3]{'types'};
+$Lexicon->{'` d w'}[32]{'lines'} = $Lexicon->{'` d \''}[3]{'lines'};
+$Lexicon->{'` d w'}[32]{'glosses'} = $Lexicon->{'` d \''}[3]{'glosses'};
+$Lexicon->{'` d w'}[33]{'types'} = $Lexicon->{'` d \''}[4]{'types'};
+$Lexicon->{'` d w'}[33]{'lines'} = $Lexicon->{'` d \''}[4]{'lines'};
+$Lexicon->{'` d w'}[33]{'glosses'} = $Lexicon->{'` d \''}[4]{'glosses'};
+$Lexicon->{'` d w'}[34]{'types'} = $Lexicon->{'` d y'}[4]{'types'};
+$Lexicon->{'` d w'}[34]{'lines'} = $Lexicon->{'` d y'}[4]{'lines'};
+$Lexicon->{'` d w'}[34]{'glosses'} = $Lexicon->{'` d y'}[4]{'glosses'};
+$Lexicon->{'` d w'}[35]{'types'} = $Lexicon->{'` d y'}[5]{'types'};
+$Lexicon->{'` d w'}[35]{'lines'} = $Lexicon->{'` d y'}[5]{'lines'};
+$Lexicon->{'` d w'}[35]{'glosses'} = $Lexicon->{'` d y'}[5]{'glosses'};
+$Lexicon->{'` d w'}[36]{'types'} = $Lexicon->{'` d y'}[6]{'types'};
+$Lexicon->{'` d w'}[36]{'lines'} = $Lexicon->{'` d y'}[6]{'lines'};
+$Lexicon->{'` d w'}[36]{'glosses'} = $Lexicon->{'` d y'}[6]{'glosses'};
+$Lexicon->{'` d w'}[37]{'types'} = $Lexicon->{'` d y'}[7]{'types'};
+$Lexicon->{'` d w'}[37]{'lines'} = $Lexicon->{'` d y'}[7]{'lines'};
+$Lexicon->{'` d w'}[37]{'glosses'} = $Lexicon->{'` d y'}[7]{'glosses'};
+$Lexicon->{'` d w'}[38]{'types'} = $Lexicon->{'` d y'}[8]{'types'};
+$Lexicon->{'` d w'}[38]{'lines'} = $Lexicon->{'` d y'}[8]{'lines'};
+$Lexicon->{'` d w'}[38]{'glosses'} = $Lexicon->{'` d y'}[8]{'glosses'};
+$Lexicon->{'` d w'}[39]{'types'} = $Lexicon->{'` d y'}[9]{'types'};
+$Lexicon->{'` d w'}[39]{'lines'} = $Lexicon->{'` d y'}[9]{'lines'};
+$Lexicon->{'` d w'}[39]{'glosses'} = $Lexicon->{'` d y'}[9]{'glosses'};
+$Lexicon->{'` .s \''}[0]{'types'} = $Lexicon->{'` .s y'}[13]{'types'};
+$Lexicon->{'` .s \''}[0]{'lines'} = $Lexicon->{'` .s y'}[13]{'lines'};
+$Lexicon->{'` .s \''}[0]{'glosses'} = $Lexicon->{'` .s y'}[13]{'glosses'};
+$Lexicon->{'` .s \''}[1]{'types'} = $Lexicon->{'` .s y'}[14]{'types'};
+$Lexicon->{'` .s \''}[1]{'lines'} = $Lexicon->{'` .s y'}[14]{'lines'};
+$Lexicon->{'` .s \''}[1]{'glosses'} = $Lexicon->{'` .s y'}[14]{'glosses'};
 $Lexicon->{'` r y'}[5]{'types'} = $Lexicon->{'` r \''}[0]{'types'};
 $Lexicon->{'` r y'}[5]{'lines'} = $Lexicon->{'` r \''}[0]{'lines'};
 $Lexicon->{'` r y'}[5]{'glosses'} = $Lexicon->{'` r \''}[0]{'glosses'};
-$Lexicon->{'` r y'}[9]{'types'} = $Lexicon->{'` r \''}[1]{'types'};
-$Lexicon->{'` r y'}[9]{'lines'} = $Lexicon->{'` r \''}[1]{'lines'};
-$Lexicon->{'` r y'}[9]{'glosses'} = $Lexicon->{'` r \''}[1]{'glosses'};
-$Lexicon->{'` l y'}[4]{'types'} = $Lexicon->{'` l y \''}[0]{'types'};
-$Lexicon->{'` l y'}[4]{'lines'} = $Lexicon->{'` l y \''}[0]{'lines'};
-$Lexicon->{'` l y'}[4]{'glosses'} = $Lexicon->{'` l y \''}[0]{'glosses'};
-$Lexicon->{'` l y'}[5]{'types'} = $Lexicon->{'` l w'}[15]{'types'};
-$Lexicon->{'` l y'}[5]{'lines'} = $Lexicon->{'` l w'}[15]{'lines'};
-$Lexicon->{'` l y'}[5]{'glosses'} = $Lexicon->{'` l w'}[15]{'glosses'};
-$Lexicon->{'` l y'}[6]{'types'} = $Lexicon->{'` l w'}[16]{'types'};
-$Lexicon->{'` l y'}[6]{'lines'} = $Lexicon->{'` l w'}[16]{'lines'};
-$Lexicon->{'` l y'}[6]{'glosses'} = $Lexicon->{'` l w'}[16]{'glosses'};
-$Lexicon->{'` l y'}[7]{'types'} = $Lexicon->{'` l w'}[20]{'types'};
-$Lexicon->{'` l y'}[7]{'lines'} = $Lexicon->{'` l w'}[20]{'lines'};
-$Lexicon->{'` l y'}[7]{'glosses'} = $Lexicon->{'` l w'}[20]{'glosses'};
-$Lexicon->{'` l y'}[8]{'types'} = $Lexicon->{'` l w'}[21]{'types'};
-$Lexicon->{'` l y'}[8]{'lines'} = $Lexicon->{'` l w'}[21]{'lines'};
-$Lexicon->{'` l y'}[8]{'glosses'} = $Lexicon->{'` l w'}[21]{'glosses'};
-$Lexicon->{'` l y'}[9]{'types'} = $Lexicon->{'` l w'}[23]{'types'};
-$Lexicon->{'` l y'}[9]{'lines'} = $Lexicon->{'` l w'}[23]{'lines'};
-$Lexicon->{'` l y'}[9]{'glosses'} = $Lexicon->{'` l w'}[23]{'glosses'};
-$Lexicon->{'` l y'}[10]{'types'} = $Lexicon->{'` l w'}[24]{'types'};
-$Lexicon->{'` l y'}[10]{'lines'} = $Lexicon->{'` l w'}[24]{'lines'};
-$Lexicon->{'` l y'}[10]{'glosses'} = $Lexicon->{'` l w'}[24]{'glosses'};
+$Lexicon->{'` r y'}[10]{'types'} = $Lexicon->{'` r \''}[1]{'types'};
+$Lexicon->{'` r y'}[10]{'lines'} = $Lexicon->{'` r \''}[1]{'lines'};
+$Lexicon->{'` r y'}[10]{'glosses'} = $Lexicon->{'` r \''}[1]{'glosses'};
+$Lexicon->{'` l y'}[5]{'types'} = $Lexicon->{'` l y \''}[0]{'types'};
+$Lexicon->{'` l y'}[5]{'lines'} = $Lexicon->{'` l y \''}[0]{'lines'};
+$Lexicon->{'` l y'}[5]{'glosses'} = $Lexicon->{'` l y \''}[0]{'glosses'};
+$Lexicon->{'` l y'}[6]{'types'} = $Lexicon->{'` l w'}[15]{'types'};
+$Lexicon->{'` l y'}[6]{'lines'} = $Lexicon->{'` l w'}[15]{'lines'};
+$Lexicon->{'` l y'}[6]{'glosses'} = $Lexicon->{'` l w'}[15]{'glosses'};
+$Lexicon->{'` l y'}[7]{'types'} = $Lexicon->{'` l w'}[16]{'types'};
+$Lexicon->{'` l y'}[7]{'lines'} = $Lexicon->{'` l w'}[16]{'lines'};
+$Lexicon->{'` l y'}[7]{'glosses'} = $Lexicon->{'` l w'}[16]{'glosses'};
+$Lexicon->{'` l y'}[8]{'types'} = $Lexicon->{'` l w'}[20]{'types'};
+$Lexicon->{'` l y'}[8]{'lines'} = $Lexicon->{'` l w'}[20]{'lines'};
+$Lexicon->{'` l y'}[8]{'glosses'} = $Lexicon->{'` l w'}[20]{'glosses'};
+$Lexicon->{'` l y'}[9]{'types'} = $Lexicon->{'` l w'}[21]{'types'};
+$Lexicon->{'` l y'}[9]{'lines'} = $Lexicon->{'` l w'}[21]{'lines'};
+$Lexicon->{'` l y'}[9]{'glosses'} = $Lexicon->{'` l w'}[21]{'glosses'};
+$Lexicon->{'` l y'}[10]{'types'} = $Lexicon->{'` l w'}[23]{'types'};
+$Lexicon->{'` l y'}[10]{'lines'} = $Lexicon->{'` l w'}[23]{'lines'};
+$Lexicon->{'` l y'}[10]{'glosses'} = $Lexicon->{'` l w'}[23]{'glosses'};
+$Lexicon->{'` l y'}[11]{'types'} = $Lexicon->{'` l w'}[24]{'types'};
+$Lexicon->{'` l y'}[11]{'lines'} = $Lexicon->{'` l w'}[24]{'lines'};
+$Lexicon->{'` l y'}[11]{'glosses'} = $Lexicon->{'` l w'}[24]{'glosses'};
 $Lexicon->{'` z w'}[2]{'types'} = $Lexicon->{'` z y'}[0]{'types'};
 $Lexicon->{'` z w'}[2]{'lines'} = $Lexicon->{'` z y'}[0]{'lines'};
 $Lexicon->{'` z w'}[2]{'glosses'} = $Lexicon->{'` z y'}[0]{'glosses'};

@@ -14,7 +14,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; *At_1
     -- \*At     *At     N       same;self;essence     [[*At/NOUN]]
 
-    Identity |< At            `noun`    {- \*At -}             [ "same", "self", "essence" ] ]
+    Identity |< At            `noun`    {- \*At -}             [ "same", "self", "essence" ],
+
+    -- ;; *Atiy~_1
+    -- \*Aty    *Atiy~  N-ap    autonomous;self     [[*Atiy~/ADJ]]
+
+    Identity |< At |< Iy      `adj`     {- \*Atiy~ -}          [ "autonomous", "self" ],
+
+    -- ;; lA*Atiy~ap_1
+    -- lA*Aty  lA*Atiy~        Nap_L   impersonality     [[lA*Atiy~/NOUN]]
+
+    lA >| Identity |< At |< Iy |< aT `noun`    {- lA*Atiy~ap -}       [ "impersonality" ] ]
 
  |> "_d ' `" <| [
 
@@ -416,6 +426,11 @@ lexicon = listing "Lexicon's properties"
     -- \*byAn   *uboyAn Nprop   Dhubyan;Dhubian
 
     FuCLAn                    `noun`    {- \*uboyAn -}         [ "Dhubyan", "Dhubian" ],
+
+    -- ;; *uboyAniy~_1
+    -- \*byAny  *uboyAniy~      N0      Dhubyani;Dhubiani
+
+    FuCLAn |< Iy              `adj`     {- \*uboyAniy~ -}      [ "Dhubyani", "Dhubiani" ],
 
     -- ;; *uboyAn_2
     -- \*byAn   *uboyAn Nprop   Supyan (Makhchayev)
@@ -1837,23 +1852,6 @@ lexicon = listing "Lexicon's properties"
 
     MutaFaCCiL                `noun`    {- muta*aw~iq -}       [ "connoisseur", "person of taste" ] ]
 
- |> "_d w t" <| [
-
-    -- ;; *awAtiy~_1
-    -- \*wAty   *awAtiy~        Nall    high-class;exclusive     [[*awAtiy~/ADJ]]
-
-    FaCAL |< Iy               `adj`     {- \*awAtiy~ -}        [ "high-class", "exclusive" ],
-
-    -- ;; *Atiy~_1
-    -- \*Aty    *Atiy~  N-ap    autonomous;self     [[*Atiy~/ADJ]]
-
-    FAL |< Iy                 `adj`     {- \*Atiy~ -}          [ "autonomous", "self" ],
-
-    -- ;; lA*Atiy~ap_1
-    -- lA*Aty  lA*Atiy~        Nap_L   impersonality     [[lA*Atiy~/NOUN]]
-
-    lA >| FAL |< Iy |< aT     `noun`    {- lA*Atiy~ap -}       [ "impersonality" ] ]
-
  |> "_d w w" <| [
 
     -- ;; *uw_1
@@ -1884,7 +1882,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; *awAt_2
     -- \*wAt    *awAt   FW-WaBi those     [[*awAt/DEM_PRON_FP]]
 
-    FaL |< At                 `noun`    {- \*awAt -}           [ "those" ] ]
+    FaL |< At                 `noun`    {- \*awAt -}           [ "those" ],
+
+    -- ;; *awAtiy~_1
+    -- \*wAty   *awAtiy~        Nall    high-class;exclusive     [[*awAtiy~/ADJ]]
+
+    FaL |< At |< Iy           `adj`     {- \*awAtiy~ -}        [ "high-class", "exclusive" ] ]
 
  |> "_d w y" <| [
 
@@ -1897,6 +1900,11 @@ lexicon = listing "Lexicon's properties"
     -- \*wAt    *awAt   FW-WaBi those     [[*awAt/DEM_PRON_FP]]
 
     FaC |< At                 `noun`    {- \*awAt -}           [ "those" ],
+
+    -- ;; *awAtiy~_1
+    -- \*wAty   *awAtiy~        Nall    high-class;exclusive     [[*awAtiy~/ADJ]]
+
+    FaC |< At |< Iy           `adj`     {- \*awAtiy~ -}        [ "high-class", "exclusive" ],
 
     -- ;; *awaY-i_1
     -- \*wY     *awaY   PV_0    wither;fade
@@ -2041,13 +2049,6 @@ lexicon = listing "Lexicon's properties"
     -- AwlA}km >uwlA}ikum      FW-WaBi those          [[>uwlA}ikum/DEM_PRON_MP]]
 
     Identity                  `noun`    {- \*`lika -}          [ "that", "that one", "those" ] ]
-
- |> "_dubyAniyy" <| [
-
-    -- ;; *uboyAniy~_1
-    -- \*byAny  *uboyAniy~      N0      Dhubyani;Dhubiani
-
-    Identity                  `noun`    {- \*uboyAniy~ -}      [ "Dhubyani", "Dhubiani" ] ]
 
  |> "bi_dA" <| [
 

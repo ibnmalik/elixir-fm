@@ -6291,9 +6291,7 @@ lexicon = listing "Lexicon's properties"
     -- TAjykstAn       TAjiykisotAn    N0      Tajikistan
     -- tAjykstAn       tAjiykisotAn    N0      Tajikistan
 
-    Identity                  `noun`    {- TAjiykisotAn -}     [ "Tajikistan" ] ]
-
- |> ".tA^giykistAniyy" <| [
+    Identity                  `noun`    {- TAjiykisotAn -}     [ "Tajikistan" ],
 
     -- ;; TAjiykisotAniy~_1
     -- TAjykstAny      TAjiykisotAniy~ Nall    Tajikistani     [[TAjiykisotAniy~/NOUN]]
@@ -6301,7 +6299,7 @@ lexicon = listing "Lexicon's properties"
     -- tAjykstAny      tAjiykisotAniy~ Nall    Tajikistani     [[tAjiykisotAniy~/NOUN]]
     -- tAjykstAny      tAjiykisotAniy~ Nall    Tajikistani     [[tAjiykisotAniy~/ADJ]]
 
-    Identity                  `adj`     {- TAjiykisotAniy~ -}  [ "Tajikistani" ] ]
+    Identity |< Iy            `adj`     {- TAjiykisotAniy~ -}  [ "Tajikistani" ] ]
 
  |> ".tA^giykiyy" <| [
 

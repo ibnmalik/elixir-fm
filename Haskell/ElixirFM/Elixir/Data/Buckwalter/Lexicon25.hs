@@ -3261,6 +3261,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCCAL |< aT              `noun`    {- naZ~Arap -}         [ "eyeglasses", "binoculars" ],
 
+    -- ;; naZ~ArAtiy~_1
+    -- nZArAty naZ~ArAtiy~     Nall    optometrist;optician     [[naZ~ArAtiy~/ADJ]]
+
+    FaCCAL |< At |< Iy        `adj`     {- naZ~ArAtiy~ -}      [ "optometrist", "optician" ],
+
     -- ;; niZArap_1
     -- nZAr    niZAr   Nap     supervision;administration
 
@@ -7330,6 +7335,16 @@ lexicon = listing "Lexicon's properties"
 
     FaL |< At                 `noun`    {- nabAt -}            [ "plants", "vegetation" ],
 
+    -- ;; nabAtiy~_1
+    -- nbAty   nabAtiy~        N-ap    vegetable;botanical     [[nabAtiy~/ADJ]]
+
+    FaL |< At |< Iy           `adj`     {- nabAtiy~ -}         [ "vegetable", "botanical" ],
+
+    -- ;; nabAtiy~_2
+    -- nbAty   nabAtiy~        Nall    botanist;vegetarian     [[nabAtiy~/ADJ]]
+
+    FaL |< At |< Iy           `adj`     {- nabAtiy~ -}         [ "botanist", "vegetarian" ],
+
     -- ;; nabawiy~_1
     -- nbwy    nabawiy~        N-ap    prophetic;of the Prophet     [[nabawiy~/ADJ]]
 
@@ -7735,16 +7750,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- nabotap -}          [ "sprout", "seedling" ],
 
-    -- ;; nabAtiy~_1
-    -- nbAty   nabAtiy~        N-ap    vegetable;botanical     [[nabAtiy~/ADJ]]
-
-    FaCAL |< Iy               `adj`     {- nabAtiy~ -}         [ "vegetable", "botanical" ],
-
-    -- ;; nabAtiy~_2
-    -- nbAty   nabAtiy~        Nall    botanist;vegetarian     [[nabAtiy~/ADJ]]
-
-    FaCAL |< Iy               `adj`     {- nabAtiy~ -}         [ "botanist", "vegetarian" ],
-
     -- ;; nab~uwt_1
     -- nbwt    nab~uwt Ndu     stick;truncheon;bludgeon
     -- nbAbyt  nabAbiyt        Ndip    stick;truncheons;bludgeons
@@ -7855,6 +7860,16 @@ lexicon = listing "Lexicon's properties"
     -- nbAt    nabAt   N/At    plants;vegetation
 
     FaC |< At                 `noun`    {- nabAt -}            [ "plants", "vegetation" ],
+
+    -- ;; nabAtiy~_1
+    -- nbAty   nabAtiy~        N-ap    vegetable;botanical     [[nabAtiy~/ADJ]]
+
+    FaC |< At |< Iy           `adj`     {- nabAtiy~ -}         [ "vegetable", "botanical" ],
+
+    -- ;; nabAtiy~_2
+    -- nbAty   nabAtiy~        Nall    botanist;vegetarian     [[nabAtiy~/ADJ]]
+
+    FaC |< At |< Iy           `adj`     {- nabAtiy~ -}         [ "botanist", "vegetarian" ],
 
     -- ;; nabiy~_1
     -- nby     nabiy~  Nall    prophet     [[nabiy~/ADJ]]
@@ -15114,6 +15129,11 @@ lexicon = listing "Lexicon's properties"
 
     FiCLAn                    `noun`    {- nisowAn -}          [ "women" ],
 
+    -- ;; nisowAniy~_1
+    -- nswAny  nisowAniy~      Nall    feminist     [[nisowAniy~/ADJ]]
+
+    FiCLAn |< Iy              `adj`     {- nisowAniy~ -}       [ "feminist" ],
+
     -- ;; nisA'_1
     -- nsA'    nisA'   N0_Nh   women
     -- nsA&    nisA&   Nh      women
@@ -18371,13 +18391,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- naSorAwiy -}        [ "Nasrawi", "Nasraoui" ] ]
 
- |> "na.z.zArAt" <| [
-
-    -- ;; naZ~ArAtiy~_1
-    -- nZArAty naZ~ArAtiy~     Nall    optometrist;optician     [[naZ~ArAtiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- naZ~ArAtiy~ -}      [ "optometrist", "optician" ] ]
-
  |> "namsA" <| [
 
     -- ;; namosA_1
@@ -18467,13 +18480,6 @@ lexicon = listing "Lexicon's properties"
     -- nstA    nisotA  Nprop   Nesta
 
     Identity                  `noun`    {- nisotA -}           [ "Nesta" ] ]
-
- |> "niswAniyy" <| [
-
-    -- ;; nisowAniy~_1
-    -- nswAny  nisowAniy~      Nall    feminist     [[nisowAniy~/ADJ]]
-
-    Identity                  `adj`     {- nisowAniy~ -}       [ "feminist" ] ]
 
  |> "nitAnyAhuw" <| [
 

@@ -2696,6 +2696,7 @@ brAhyn  barAhiyn        Ndip    proof
 brw     barow   Napdu   waste;scrap
 brw     baraw   NAt     waste;scrap
 ;
+;--- brwArd
 ;; bruwArod_1
 brwArd  bruwArod        N0      Brouard
 ;
@@ -2844,6 +2845,7 @@ mtbAry  mutabAriy       NAn_Nayn        participant;competitor
 mtbAr   mutabAr Nuwn_Niyn       participant;competitor
 mtbAry  mutabAriy       NapAt   participant;competitor
 ;
+;--- bryty$
 ;; briytiy$_1
 bryty$  briytiy$        N0      British
 bryt$   briyti$ N0      British
@@ -5700,6 +5702,7 @@ mbtl    mubotal Nuwn_Niyn       afflicted;suffering
 mbtlA   mubotalA        Napdu   afflicted;suffering
 mbtly   mubotalay       NAt     afflicted;suffering
 ;
+;--- blwt
 ;; bluwtuw_1
 blwtw   bluwtuw N       Pluto
 blwTw   bluwTuw N       Pluto

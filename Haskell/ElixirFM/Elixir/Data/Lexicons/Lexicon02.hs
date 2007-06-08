@@ -1488,6 +1488,18 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCAL |< aT             `noun`    {- AibotisAmap -}      [ "smile" ] ]
 
+ |> "b s t" <| [
+
+    FuCLAn |< Iy              `adj`     {- busotAniy~ -}       [ "Boustani" ],
+
+    FuCLAn |< Iy              `adj`     {- busotAniy~ -}       [ "gardener" ] ]
+
+ |> "b s t n" <| [
+
+    KuRDAS |< Iy              `adj`     {- busotAniy~ -}       [ "Boustani" ],
+
+    KuRDAS |< Iy              `adj`     {- busotAniy~ -}       [ "gardener" ] ]
+
  |> "b t l" <| [
 
     FACL                      `noun`    {- bAtl -}             [ "Patel", "Batil ??" ] ]
@@ -2252,13 +2264,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- brint -}            [ "Brent" ] ]
 
+ |> "briy.tAn" <| [
+
+    Identity |< Iy            `adj`     {- briyTAniy~ -}       [ "British" ] ]
+
  |> "briy.tAniyA" <| [
 
     Identity                  `noun`    {- briyTAniyA -}       [ "Britain" ] ]
-
- |> "briy.tAniyy" <| [
-
-    Identity                  `adj`     {- briyTAniy~ -}       [ "British" ] ]
 
  |> "briysliy" <| [
 
@@ -2284,9 +2296,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bruwnAy -}          [ "Brunei" ] ]
 
- |> "bruwtistAntiyy" <| [
+ |> "bruwtistAnt" <| [
 
-    Identity                  `adj`     {- bruwtisotAnotiy~ -} [ "Protestant", "Protestants" ] ]
+    Identity |< Iy            `adj`     {- bruwtisotAnotiy~ -} [ "Protestant", "Protestants" ] ]
 
  |> "bruwtiyn" <| [
 
@@ -2322,17 +2334,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "buruwnz" <| [
 
-    Identity                  `noun`    {- buruwnz -}          [ "bronze" ] ]
+    Identity                  `noun`    {- buruwnz -}          [ "bronze" ],
 
- |> "buruwnziyy" <| [
-
-    Identity                  `adj`     {- buruwnoziy~ -}      [ "bronze" ] ]
-
- |> "bustAniyy" <| [
-
-    Identity                  `noun`    {- busotAniy~ -}       [ "Boustani" ],
-
-    Identity                  `adj`     {- busotAniy~ -}       [ "gardener" ] ]
+    Identity |< Iy            `adj`     {- buruwnoziy~ -}      [ "bronze" ] ]
 
  |> "buw^sir" <| [
 

@@ -9,6 +9,14 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
+ |> "'a.sw" <| [
+
+    -- ;; >aSowAtiy~_1
+    -- >SwAty  >aSowAtiy~      Nall    phonetician     [[>aSowAtiy~/ADJ]]
+    -- ASwAty  >aSowAtiy~      Nall    phonetician     [[>aSowAtiy~/ADJ]]
+
+    Identity |< At |< Iy      `adj`     {- OaSowAtiy~ -}       [ "phonetician" ] ]
+
  |> "'u.sbuw`" <| [
 
     -- ;; >uSobuwE_1
@@ -2106,6 +2114,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCALY
                            {- `others`  [ ".sabAyY N0_Nhy" ] -},
 
+    -- ;; SiboyAniy~_1
+    -- SbyAny  SiboyAniy~      N-ap    infantile;puerile     [[SiboyAniy~/ADJ]]
+
+    FiCLAn |< Iy              `adj`     {- SiboyAniy~ -}       [ "infantile", "puerile" ],
+
     -- ;; SAbiy_1
     -- SAby    SAbiy   N0F     youthful     [[SAbiy/ADJ]]
     -- SAb     SAb     NK      youthful
@@ -2113,6 +2126,13 @@ lexicon = listing "Lexicon's properties"
     -- SAby    SAbiy   Napdu   youthful
 
     FACI                      `adj`     {- SAbiy -}            [ "youthful" ] ]
+
+ |> ".s b y n" <| [
+
+    -- ;; SiboyAniy~_1
+    -- SbyAny  SiboyAniy~      N-ap    infantile;puerile     [[SiboyAniy~/ADJ]]
+
+    KiRDAS |< Iy              `adj`     {- SiboyAniy~ -}       [ "infantile", "puerile" ] ]
 
  |> ".s d '" <| [
 
@@ -6658,7 +6678,13 @@ lexicon = listing "Lexicon's properties"
     -- ;; SarAmiy_1
     -- SrAmy   SarAmiy N       shoes
 
-    FaCALI                    `noun`    {- SarAmiy -}          [ "shoes" ] ]
+    FaCALI                    `noun`    {- SarAmiy -}          [ "shoes" ],
+
+    -- ;; SuramAtiy~_1
+    -- SrmAty  SuramAtiy~      N       cobbler
+    -- SrmAty  SuramAtiy~      Nap     cobblers
+
+    FuCaL |< At |< Iy         `noun`    {- SuramAtiy~ -}       [ "cobbler", "cobblers" ] ]
 
  |> ".s r m y" <| [
 
@@ -7461,12 +7487,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< Iy |< At          `noun`    {- Sawotiy~At -}       [ "phonetics" ],
 
-    -- ;; >aSowAtiy~_1
-    -- >SwAty  >aSowAtiy~      Nall    phonetician     [[>aSowAtiy~/ADJ]]
-    -- ASwAty  >aSowAtiy~      Nall    phonetician     [[>aSowAtiy~/ADJ]]
-
-    HaFCAL |< Iy              `adj`     {- OaSowAtiy~ -}       [ "phonetician" ],
-
     -- ;; Siyt_1
     -- Syt     Siyt    N       renown;reputation
 
@@ -8009,13 +8029,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- SayodalAniy~ -}     [ "pharmacist" ] ]
 
- |> ".sibyAniyy" <| [
-
-    -- ;; SiboyAniy~_1
-    -- SbyAny  SiboyAniy~      N-ap    infantile;puerile     [[SiboyAniy~/ADJ]]
-
-    Identity                  `adj`     {- SiboyAniy~ -}       [ "infantile", "puerile" ] ]
-
  |> ".siddiyqiy" <| [
 
     -- ;; Sid~iyqiy_1
@@ -8052,14 +8065,6 @@ lexicon = listing "Lexicon's properties"
     -- Sbyr    Sub~ayor        N       Indian fig     [[Sub~ayor/NOUN]]
 
     Identity                  `noun`    {- Sub~ayor -}         [ "Indian fig" ] ]
-
- |> ".suramAt" <| [
-
-    -- ;; SuramAtiy~_1
-    -- SrmAty  SuramAtiy~      N       cobbler
-    -- SrmAty  SuramAtiy~      Nap     cobblers
-
-    Identity |< Iy            `adj`     {- SuramAtiy~ -}       [ "cobbler", "cobblers" ] ]
 
  |> ".suway.hib" <| [
 

@@ -749,6 +749,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "h w y" <| [
 
+    FuCIL |< aT               `noun`    {- huwiy~ap -}         [ "identity card", "identity" ],
+
     FaCY                      `verb`    {- hawaY-i -}          [ "fall", "collapse", "topple", "be toppled" ]
                               `imperf`     FCI,
 
@@ -1044,10 +1046,6 @@ lexicon = listing "Lexicon's properties"
  |> "huwa" <| [
 
     Identity                  `noun`    {- huwa -}             [ "it/he" ] ]
-
- |> "huwiyy" <| [
-
-    Identity |< aT            `noun`    {- huwiy~ap -}         [ "identity card", "identity" ] ]
 
  |> "huwlAnd" <| [
 

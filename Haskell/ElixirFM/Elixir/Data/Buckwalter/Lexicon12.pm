@@ -1300,6 +1300,45 @@ $Lexicon = {
       ],
       'orig' => 'suwd',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'suwiyd',
+      'form' => 'suwiyd',
+      'lines' => [
+        ';; suwiyd_1',
+        'swyd    suwiyd  N0      Sweden'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCIL',
+      'suffix' => '',
+      'glosses' => [
+        'Sweden'
+      ],
+      'orig' => 'suwiyd',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'suwiyd',
+      'form' => 'suwiydiyy',
+      'lines' => [
+        ';; suwiydiy~_1',
+        'swydy   suwiydiy~       Nall    Swedish     [[suwiydiy~/NOUN]]',
+        'swydy   suwiydiy~       Nall    Swedish     [[suwiydiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuCIL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Swedish'
+      ],
+      'orig' => 'suwiydiy~',
+      'prefix' => ''
     }
   ],
   's b h' => [
@@ -5309,6 +5348,30 @@ $Lexicon = {
       ],
       'orig' => 'sayokuwbAt',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        'saykuwbA_tiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'saykuwb',
+      'form' => 'saykuwbAtiyy',
+      'lines' => [
+        ';; sayokuwbAtiy~_1',
+        'sykwbAty        sayokuwbAtiy~   Nall    psychopathic     [[sayokuwbAtiy~/ADJ]]',
+        'sykwbAvy        sayokuwbAviy~   Nall    psychopathic     [[sayokuwbAviy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KaRDUS |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'psychopathic'
+      ],
+      'orig' => 'sayokuwbAtiy~',
+      'prefix' => ''
     }
   ],
   's r b l' => [
@@ -9298,32 +9361,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'saykuwbAtiyy' => [
-    {
-      'types' => {
-        'saykuwbA_tiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'saykuwbAtiyy',
-      'form' => 'saykuwbAtiyy',
-      'lines' => [
-        ';; sayokuwbAtiy~_1',
-        'sykwbAty        sayokuwbAtiy~   Nall    psychopathic     [[sayokuwbAtiy~/ADJ]]',
-        'sykwbAvy        sayokuwbAviy~   Nall    psychopathic     [[sayokuwbAviy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'psychopathic'
-      ],
-      'orig' => 'sayokuwbAtiy~',
-      'prefix' => ''
-    }
-  ],
   'swlydyr' => [
     {
       'types' => {},
@@ -10674,6 +10711,27 @@ $Lexicon = {
         'Samarkand'
       ],
       'orig' => 'samaroqanod',
+      'prefix' => ''
+    }
+  ],
+  'siykuwsuwm' => [
+    {
+      'types' => {},
+      'entry' => 'siykuwsuwm',
+      'form' => 'siykuwsuwmAtiyy',
+      'lines' => [
+        ';; siykuwsuwmAtiy~_1',
+        'sykwswmAty      siykuwsuwmAtiy~ Nall    psychosomatic     [[siykuwsuwmAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'psychosomatic'
+      ],
+      'orig' => 'siykuwsuwmAtiy~',
       'prefix' => ''
     }
   ],
@@ -19721,27 +19779,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'sindiyAniyy' => [
-    {
-      'types' => {},
-      'entry' => 'sindiyAniyy',
-      'form' => 'sindiyAniyy',
-      'lines' => [
-        ';; sinodiyAniy~_1',
-        'sndyAny sinodiyAniy~    N-ap    oak-like     [[sinodiyAniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'oak-like'
-      ],
-      'orig' => 'sinodiyAniy~',
-      'prefix' => ''
-    }
-  ],
   's ^g n' => [
     {
       'types' => {
@@ -26320,6 +26357,25 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => 'sub',
+      'form' => 'subAtiyy',
+      'lines' => [
+        ';; subAtiy~_1',
+        'sbAty   subAtiy~        Nall    lethargic     [[subAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuC |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'lethargic'
+      ],
+      'orig' => 'subAtiy~',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'sab' => {
           'PV_ttAw' => 1
@@ -31140,6 +31196,25 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => 'sA`',
+      'form' => 'sA`Atiyy',
+      'lines' => [
+        ';; sAEAtiy~_1',
+        'sAEAty  sAEAtiy~        Nall    watchmaker     [[sAEAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FAL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'watchmaker'
+      ],
+      'orig' => 'sAEAtiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'suway`',
       'form' => 'suway`aT',
       'lines' => [
@@ -31270,25 +31345,6 @@ $Lexicon = {
         'Sabbatarian'
       ],
       'orig' => 'sabotiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'subAt',
-      'form' => 'subAtiyy',
-      'lines' => [
-        ';; subAtiy~_1',
-        'sbAty   subAtiy~        Nall    lethargic     [[subAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FuCAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'lethargic'
-      ],
-      'orig' => 'subAtiy~',
       'prefix' => ''
     },
     {
@@ -32452,27 +32508,6 @@ $Lexicon = {
         'Syria'
       ],
       'orig' => 'suwriyA',
-      'prefix' => ''
-    }
-  ],
-  'siykuwsuwmAtiyy' => [
-    {
-      'types' => {},
-      'entry' => 'siykuwsuwmAtiyy',
-      'form' => 'siykuwsuwmAtiyy',
-      'lines' => [
-        ';; siykuwsuwmAtiy~_1',
-        'sykwswmAty      siykuwsuwmAtiy~ Nall    psychosomatic     [[siykuwsuwmAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'psychosomatic'
-      ],
-      'orig' => 'siykuwsuwmAtiy~',
       'prefix' => ''
     }
   ],
@@ -42427,6 +42462,25 @@ $Lexicon = {
       ],
       'orig' => 'sinodiyAn',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'sindiyAn',
+      'form' => 'sindiyAniyy',
+      'lines' => [
+        ';; sinodiyAniy~_1',
+        'sndyAny sinodiyAniy~    N-ap    oak-like     [[sinodiyAniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'oak-like'
+      ],
+      'orig' => 'sinodiyAniy~',
+      'prefix' => ''
     }
   ],
   'sardiyniyA' => [
@@ -42725,47 +42779,6 @@ $Lexicon = {
         'laid out'
       ],
       'orig' => 'musaj~aY',
-      'prefix' => ''
-    }
-  ],
-  'suwiyd' => [
-    {
-      'types' => {},
-      'entry' => 'suwiyd',
-      'form' => 'suwiyd',
-      'lines' => [
-        ';; suwiyd_1',
-        'swyd    suwiyd  N0      Sweden'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Sweden'
-      ],
-      'orig' => 'suwiyd',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'suwiyd',
-      'form' => 'suwiydiyy',
-      'lines' => [
-        ';; suwiydiy~_1',
-        'swydy   suwiydiy~       Nall    Swedish     [[suwiydiy~/NOUN]]',
-        'swydy   suwiydiy~       Nall    Swedish     [[suwiydiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Swedish'
-      ],
-      'orig' => 'suwiydiy~',
       'prefix' => ''
     }
   ],
@@ -45785,27 +45798,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'suwiysrA' => [
-    {
-      'types' => {},
-      'entry' => 'suwiysrA',
-      'form' => 'suwiysrA',
-      'lines' => [
-        ';; suwiysrA_1',
-        'swysrA  suwiysrA        N0      Switzerland'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Switzerland'
-      ],
-      'orig' => 'suwiysrA',
-      'prefix' => ''
-    }
-  ],
   's d r' => [
     {
       'types' => {
@@ -45978,6 +45970,27 @@ $Lexicon = {
         'Sudeiri'
       ],
       'orig' => 'sudayoriy~',
+      'prefix' => ''
+    }
+  ],
+  'suwiysrA' => [
+    {
+      'types' => {},
+      'entry' => 'suwiysrA',
+      'form' => 'suwiysrA',
+      'lines' => [
+        ';; suwiysrA_1',
+        'swysrA  suwiysrA        N0      Switzerland'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Switzerland'
+      ],
+      'orig' => 'suwiysrA',
       'prefix' => ''
     }
   ],
@@ -46563,6 +46576,20 @@ $Lexicon = {
       'suffix' => ' |< At',
       'glosses' => [],
       'orig' => 'subAt',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'sub',
+      'form' => 'subAtiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [],
+      'orig' => 'subAtiy~',
       'prefix' => ''
     }
   ],
@@ -52819,27 +52846,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'sA`At' => [
-    {
-      'types' => {},
-      'entry' => 'sA`At',
-      'form' => 'sA`Atiyy',
-      'lines' => [
-        ';; sAEAtiy~_1',
-        'sAEAty  sAEAtiy~        Nall    watchmaker     [[sAEAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'watchmaker'
-      ],
-      'orig' => 'sAEAtiy~',
-      'prefix' => ''
-    }
-  ],
   's \' l' => [
     {
       'types' => {
@@ -55845,6 +55851,9 @@ $Lexicon->{'s b b'}[6]{'glosses'} = $Lexicon->{'s t b'}[0]{'glosses'};
 $Lexicon->{'s b b'}[22]{'types'} = $Lexicon->{'s b y'}[0]{'types'};
 $Lexicon->{'s b b'}[22]{'lines'} = $Lexicon->{'s b y'}[0]{'lines'};
 $Lexicon->{'s b b'}[22]{'glosses'} = $Lexicon->{'s b y'}[0]{'glosses'};
+$Lexicon->{'s b b'}[23]{'types'} = $Lexicon->{'s b y'}[1]{'types'};
+$Lexicon->{'s b b'}[23]{'lines'} = $Lexicon->{'s b y'}[1]{'lines'};
+$Lexicon->{'s b b'}[23]{'glosses'} = $Lexicon->{'s b y'}[1]{'glosses'};
 $Lexicon->{'s w s'}[9]{'types'} = $Lexicon->{'s \' s'}[0]{'types'};
 $Lexicon->{'s w s'}[9]{'lines'} = $Lexicon->{'s \' s'}[0]{'lines'};
 $Lexicon->{'s w s'}[9]{'glosses'} = $Lexicon->{'s \' s'}[0]{'glosses'};

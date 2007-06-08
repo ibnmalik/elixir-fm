@@ -141,7 +141,8 @@ instance Forming PatternT where
                                 _           ->      x
 
 
-   -- Fischer (2001), par. 239 (ra'Y, wa'Y), 258 (ya.hyY), etc.
+   -- Fischer (2001), par. 239 (ra'Y, wa'Y), 258 (ya.hyY, ista.hY), 224 (participles)
+   -- Fischer (2001), par. 243 (uy > uu), 33 ff (combinatory phonology)
 
     verbStems I = [
 
@@ -291,6 +292,7 @@ instance Forming PatternT where
         (   IstaFCaL,   UstUCiL,    StaFCiL,    StaFCaL     ),
         (   IstaFAL,    UstuFIL,    StaFIL,     StaFAL      ),
         (   IstaFCY,    UstuFCI,    StaFCI,     StaFCY      ),
+        (   IstaFY,     UstuFI,     StaFI,      StaFY       ),  -- ista.hY
         (   IstaFaCL,   UstuFiCL,   StaFiCL,    StaFaCL     ),
         (   IstaFCY,    UstUCI,     StaFCI,     StaFCY      )
 
@@ -445,13 +447,13 @@ data PatternT =
 
         |   FuCiL                                       |   FuCI
 
-        |   FCaL        |   CaL         |   FY          |   FCY                         |   CY
+        |   FCaL        |   CaL                         |   FCY                         |   CY
         |   FCiL        |   CiL         |   FIL         |   FCI         |   FiCL        |   CI
         |   FCuL        |   CuL         |   FUL         |   FCU         |   FuCL        |   CU
 
-                                        |   FaL
-                                        |   FiL
-                                        |   FuL         |   FU
+                                        |   FaL                                         |   FY
+                                        |   FiL                                         |   FI
+                                        |   FuL                                         |   FU
 
     {-- |   FaCL    --}                                 |   FaC
     {-- |   FiCL    --}                                 |   FiC
@@ -465,6 +467,7 @@ data PatternT =
         |   FuCUL
 
         |   FaCIL
+        |   FuCIL
 
         |   FaCLA'
         |   FuCaLA'
@@ -499,7 +502,7 @@ data PatternT =
         |   HaFACiL                                     |   HaFACI
         |   HaFACIL
 
-        |   HaFCiLA'    |   HACiLA'
+        |   HaFCiLA'    |   HACiLA'     |   HaFILA'
 
         |   FACUL
 
@@ -540,7 +543,7 @@ data PatternT =
         |   FaCCiL                                      |   FaCCI
 
         |   TaFCIL
-        |   TaFCiL                                      |   TaFCI
+        |   TaFCiL                      |   TaFIL       |   TaFCI
 
         |   TaFACiL                                 {-- |   TaFACI  --}
         |   TaFACIL
@@ -565,17 +568,17 @@ data PatternT =
         |   HaFCaL      |   HACaL       |   HaFAL       |   HaFCY       |   HaFaCL      |   HACY
         |   HuFCiL      |   HUCiL       |   HuFIL       |   HuFCI       |   HuFiCL      |   HUCI
 
-                    {-- |   UCiL    --} |   FI          |   HaFY
-                    {-- |   UCaL    --}                 |   HuFI
-
-                                        |   HaFaL
-                                        |   HuFiL
+                    {-- |   UCiL    --} |   HaFaL                                       |   HaFY
+                    {-- |   UCaL    --} |   HuFiL                                       |   HuFI
 
         |   HiFCAL      |   HICAL                       |   HiFCA'                      |   HICA'
         |   HiFCaL      |   HICaL       |   HiFAL       |   HiFCY       |   HiFaCL      |   HICY
 
         |   MuFCiL      |   MUCiL       |   MuFIL       |   MuFCI       |   MuFiCL      |   MUCI
         |   MuFCaL      |   MUCaL       |   MuFAL       |   MuFCY       |   MuFaCL      |   MUCY
+
+                                                                                        |   MuFI
+                                                                                        |   MuFY
 
 --  Form V
 
@@ -650,16 +653,19 @@ data PatternT =
         |   StaFCiL                     |   StaFIL      |   StaFCI      |   StaFiCL
         |   StaFCaL                     |   StaFAL      |   StaFCY      |   StaFaCL
 
-                                        |   IstaFaL
-                                        |   UstuFiL
+                                        |   IstaFaL                                     |   IstaFY
+                                        |   UstuFiL                                     |   UstuFI
 
-                                        |   StaFiL
-                                        |   StaFaL
+                                        |   StaFiL                                      |   StaFI
+                                        |   StaFaL                                      |   StaFY
 
         |   IstiFCAL    |   IstICAL     |   IstiFAL     |   IstiFCA'                    |   IstICA'
 
         |   MustaFCiL                   |   MustaFIL    |   MustaFCI    |   MustaFiCL
         |   MustaFCaL                   |   MustaFAL    |   MustaFCY    |   MustaFaCL
+
+                                                                                        |   MustaFI
+                                                                                        |   MustaFY
 
 --  Form XI
 

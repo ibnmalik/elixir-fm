@@ -1153,7 +1153,9 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCY                   `verb`    {- taHal~aY -}         [ "be adorned", "be furnished", "remaining (patient, confident)" ],
 
-    FaCL                      `noun`    {- Haloy -}            [ "jewelry" ],
+    FaCL                      `noun`    {- Haloy -}            [ "jewelry" ]
+                              `plural`     FuCIL
+                           {- `others`  [ ".huliyy N" ] -},
 
     TaFCI |< aT               `noun`    {- taHoliyap -}        [ "decoration", "sweetening" ] ]
 
@@ -2342,7 +2344,9 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h y w" <| [
 
-    FaCaLAn                   `noun`    {- HayawAn -}          [ "animal", "creature" ] ]
+    FaCaLAn                   `noun`    {- HayawAn -}          [ "animal", "creature" ],
+
+    FaCaLAn |< Iy             `adj`     {- HayawAniy~ -}       [ "animal", "zoological" ] ]
 
  |> ".h y y" <| [
 
@@ -2354,6 +2358,10 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `adj`     {- Hay~ -}             [ "alive", "living", "live", "lively" ]
                               `plural`     HaFCA'
                            {- `others`  [ "'a.hyA' Nh N0_Nh Nhy" ] -},
+
+    TaFIL |< aT               `noun`    {- taHiy~ap -}         [ "greeting", "salute", "greetings", "salutations" ]
+                              `plural`     TaFACY
+                           {- `others`  [ "ta.hAyY N0" ] -},
 
     MuFCI                     `noun`    {- muHoyiy -}          [ "Muhi" ],
 
@@ -2475,10 +2483,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- HayovumA -}         [ "wherever" ] ]
 
- |> ".hayawAniyy" <| [
-
-    Identity                  `adj`     {- HayawAniy~ -}       [ "animal", "zoological" ] ]
-
  |> ".hayfA" <| [
 
     Identity                  `noun`    {- HayofA -}           [ "Haifa" ] ]
@@ -2526,8 +2530,4 @@ lexicon = listing "Lexicon's properties"
  |> "mun.hAz" <| [
 
     Identity                  `noun`    {- munoHAz -}          [ "aligned", "biased" ] ]
-
- |> "ta.hiyy" <| [
-
-    Identity |< aT            `noun`    {- taHiy~ap -}         [ "greeting", "salute", "greetings", "salutations" ] ]
 

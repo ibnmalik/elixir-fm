@@ -930,6 +930,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCLAn                    `noun`    {- EudowAn -}          [ "Udwan" ],
 
+    FuCLAn |< Iy              `adj`     {- EudowAniy~ -}       [ "hostile", "aggressive" ],
+
+    FuCLAn |< Iy |< aT        `noun`    {- EudowAniy~ap -}     [ "aggression", "belligerency" ],
+
     MaFCI |< aT               `noun`    {- maEodiyap -}        [ "ferryboat", "shuttle" ],
 
     MaFACI                    `noun`    {- maEAdiy -}          [ "Maadi (Cairo)" ],
@@ -1232,6 +1236,8 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL |< aT              `noun`    {- maEoluwmap -}       [ "piece of data", "known fact", "item of information", "information", "data" ]
                               `plural`     MaFCUL |< At,
+
+    MaFCUL |< At |< Iy        `adj`     {- maEoluwmAtiy~ -}    [ "information science", "informatics" ],
 
     MuFaCCiL                  `noun`    {- muEal~im -}         [ "teacher" ] ]
 
@@ -2976,12 +2982,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Eiz~at -}           [ "Izzat", "Ezzat" ] ]
 
- |> "`udwAniyy" <| [
-
-    Identity                  `adj`     {- EudowAniy~ -}       [ "hostile", "aggressive" ],
-
-    Identity |< aT            `noun`    {- EudowAniy~ap -}     [ "aggression", "belligerency" ] ]
-
  |> "`uwayrAn" <| [
 
     Identity                  `noun`    {- EuwayorAn -}        [ "Oweiran" ] ]
@@ -2989,10 +2989,6 @@ lexicon = listing "Lexicon's properties"
  |> "la`alla" <| [
 
     Identity                  `noun`    {- laEal~a -}          [ "perhaps" ] ]
-
- |> "ma`luwmAt" <| [
-
-    Identity |< Iy            `adj`     {- maEoluwmAtiy~ -}    [ "information science", "informatics" ] ]
 
  |> "mu`allA" <| [
 

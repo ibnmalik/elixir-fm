@@ -11,7 +11,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d" <| [
 
-    Identity |< At            `noun`    {- \*At -}             [ "same", "self", "essence" ] ]
+    Identity |< At            `noun`    {- \*At -}             [ "same", "self", "essence" ],
+
+    Identity |< At |< Iy      `adj`     {- \*Atiy~ -}          [ "autonomous", "self" ] ]
 
  |> "_d ' `" <| [
 
@@ -278,10 +280,6 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "'a_dwAq N" ] -},
 
     MaFAL                     `noun`    {- ma*Aq -}            [ "taste" ] ]
-
- |> "_d w t" <| [
-
-    FAL |< Iy                 `adj`     {- \*Atiy~ -}          [ "autonomous", "self" ] ]
 
  |> "_d w w" <| [
 

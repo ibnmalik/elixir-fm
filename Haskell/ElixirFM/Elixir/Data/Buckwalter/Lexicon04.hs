@@ -31,7 +31,13 @@ lexicon = listing "Lexicon's properties"
     -- <vbAt   <ivobAt NduAt   confirmation;verification
     -- AvbAt   <ivobAt NduAt   confirmation;verification
 
-    Identity |< At            `noun`    {- IivobAt -}          [ "confirmation", "verification" ] ]
+    Identity |< At            `noun`    {- IivobAt -}          [ "confirmation", "verification" ],
+
+    -- ;; <ivobAtiy~_1
+    -- <vbAty  <ivobAtiy~      Nall    confirmatory     [[<ivobAtiy~/ADJ]]
+    -- AvbAty  <ivobAtiy~      Nall    confirmatory     [[<ivobAtiy~/ADJ]]
+
+    Identity |< At |< Iy      `adj`     {- IivobAtiy~ -}       [ "confirmatory" ] ]
 
  |> "Ai_tnA" <| [
 
@@ -444,7 +450,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; vabAt_1
     -- vbAt    vabAt   N       reliability;constancy
 
-    FaL |< At                 `noun`    {- vabAt -}            [ "reliability", "constancy" ] ]
+    FaL |< At                 `noun`    {- vabAt -}            [ "reliability", "constancy" ],
+
+    -- ;; vabAtiy~_1
+    -- vbAty   vabAtiy~        Nall    stable;static     [[vabAtiy~/ADJ]]
+
+    FaL |< At |< Iy           `adj`     {- vabAtiy~ -}         [ "stable", "static" ],
+
+    -- ;; vabAtiy~ap_1
+    -- vbAty   vabAtiy~        Nap     stability     [[vabAtiy~/NOUN]]
+
+    FaL |< At |< Iy |< aT     `noun`    {- vabAtiy~ap -}       [ "stability" ] ]
 
  |> "_t b n" <| [
 
@@ -568,16 +584,6 @@ lexicon = listing "Lexicon's properties"
 
     IstaFCaL                  `verb`    {- Aisotavobat -}      [ "verify", "seek confirmation" ],
 
-    -- ;; vabAtiy~_1
-    -- vbAty   vabAtiy~        Nall    stable;static     [[vabAtiy~/ADJ]]
-
-    FaCAL |< Iy               `adj`     {- vabAtiy~ -}         [ "stable", "static" ],
-
-    -- ;; vabAtiy~ap_1
-    -- vbAty   vabAtiy~        Nap     stability     [[vabAtiy~/NOUN]]
-
-    FaCAL |< Iy |< aT         `noun`    {- vabAtiy~ap -}       [ "stability" ],
-
     -- ;; vubuwt_1
     -- vbwt    vubuwt  N       constancy;permanence
 
@@ -599,12 +605,6 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- tavobiyt -}         [ "substantiation", "stabilization" ]
                               `plural`     TaFCIL |< At,
-
-    -- ;; <ivobAtiy~_1
-    -- <vbAty  <ivobAtiy~      Nall    confirmatory     [[<ivobAtiy~/ADJ]]
-    -- AvbAty  <ivobAtiy~      Nall    confirmatory     [[<ivobAtiy~/ADJ]]
-
-    HiFCAL |< Iy              `adj`     {- IivobAtiy~ -}       [ "confirmatory" ],
 
     -- ;; tavab~ut_1
     -- tvbt    tavab~ut        NduAt   ascertainment;verification
@@ -645,7 +645,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; vabAt_1
     -- vbAt    vabAt   N       reliability;constancy
 
-    FaC |< At                 `noun`    {- vabAt -}            [ "reliability", "constancy" ] ]
+    FaC |< At                 `noun`    {- vabAt -}            [ "reliability", "constancy" ],
+
+    -- ;; vabAtiy~_1
+    -- vbAty   vabAtiy~        Nall    stable;static     [[vabAtiy~/ADJ]]
+
+    FaC |< At |< Iy           `adj`     {- vabAtiy~ -}         [ "stable", "static" ],
+
+    -- ;; vabAtiy~ap_1
+    -- vbAty   vabAtiy~        Nap     stability     [[vabAtiy~/NOUN]]
+
+    FaC |< At |< Iy |< aT     `noun`    {- vabAtiy~ap -}       [ "stability" ] ]
 
  |> "_t d y" <| [
 

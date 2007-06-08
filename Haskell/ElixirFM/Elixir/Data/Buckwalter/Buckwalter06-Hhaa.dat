@@ -6392,6 +6392,17 @@ AstHyy  {isotaHoyay     PV_Atn  be embarrassed;be shy
 AstHy   {isotaHoy       PV_ttAw be embarrassed;be shy
 stHyy   sotaHoyiy       IV_0hAnn        be embarrassed;be shy
 stHy    sotaHoy IV_0hwnyn       be embarrassed;be shy
+;; {isotaHaY_2
+<stHyY  {isotaHaY     	PV_0    be embarrassed;be shy
+AstHyY  {isotaHaY     	PV_0    be embarrassed;be shy
+<stHyA  {isotaHA      	PV_h    let live;keep alive
+AstHyA  {isotaHA      	PV_h    let live;keep alive
+<stHyy  {isotaHay     	PV_Atn  be embarrassed;be shy
+AstHyy  {isotaHay     	PV_Atn  be embarrassed;be shy
+<stHy   {isotaH       	PV_ttAw be embarrassed;be shy
+AstHy   {isotaH       	PV_ttAw be embarrassed;be shy
+stHyy   sotaHiy       	IV_0hAnn        be embarrassed;be shy
+stHy    sotaH 	IV_0hwnyn       be embarrassed;be shy
 ;; Hay~_1
 Hy      Hay~    N0      Hayy
 ;; Hay~_2

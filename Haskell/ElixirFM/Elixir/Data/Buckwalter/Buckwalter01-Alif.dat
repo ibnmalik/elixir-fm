@@ -494,6 +494,7 @@ Aby     |biy    NapAt   reluctant;unwilling
 >bA     >ubA    Nap     reluctant;unwilling
 AbA     >ubA    Nap     reluctant;unwilling
 ;
+;-- Abb
 ;; >abiyb_1
 >byb    >abiyb  Nprop   Aviv
 Abyb    >abiyb  Nprop   Aviv
@@ -1750,6 +1751,7 @@ m&dy    mu&ad~ay        NAn_Nayn        task;content;significance
 m&dy    mu&ad~ay        NAt     tasks;contents;significances
 m&dA    mu&ad~A Napdu   task;content;significance
 ;
+;--- AdwArd
 ;; >adowArod_1
 >dwArd  >adowArod       Nprop   Edward;Edouard
 <dwArd  <idowArod       Nprop   Edward;Edouard
@@ -3801,6 +3803,7 @@ m&sy    mu&osiy NAn_Nayn        saddening;discomforting
 m&s     mu&os   Nuwn_Niyn       saddening;discomforting
 m&sy    mu&osiy NapAt   saddening;discomforting
 ;
+;--- AswAr
 ;; <isowAr_1
 <swAr   <isowAr Ndu     bracelet
 AswAr   <isowAr Ndu     bracelet
@@ -5546,6 +5549,7 @@ AlA&    |lA&    Nh      benefits;blessings
 |lA}    |lA}    Nhy     benefits;blessings
 AlA}    |lA}    Nhy     benefits;blessings
 ;
+;--- AlyA*
 ;; <iliyA*ap_1
 <lyA*   <iliyA* Nap     Iliad
 AlyA*   <iliyA* Nap     Iliad
@@ -6144,6 +6148,7 @@ Amw     >amaw   NAt     bondmaids;slave girls
 Amwy    >umawiy~        Nall    Umayyad     <pos>>umawiy~/NOUN</pos>
 Amwy    >umawiy~        Nall    Umayyad     <pos>>umawiy~/ADJ</pos>
 ;
+;--- Amwr
 ;; |muwriy~_1
 |mwry   |muwriy~        Nall    Amorite     <pos>|muwriy~/NOUN</pos>
 |mwry   |muwriy~        Nall    Amorite     <pos>|muwriy~/ADJ</pos>
@@ -8237,6 +8242,7 @@ m|wy    ma|wiy  N0_Nh   shelters
 m|w     ma|w    NK      shelters
 ;
 ; AFP corpus: Altai festival (Bairam) Al-Oiyn
+;--- Awyyn
 ;; >wyyn_1
 >wyyn   >uwyiyn N0      Oiyn
 Awyyn   >uwyiyn N0      Oiyn

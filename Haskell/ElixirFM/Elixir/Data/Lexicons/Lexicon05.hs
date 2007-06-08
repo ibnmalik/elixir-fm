@@ -1639,9 +1639,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- jiyruwzAliym -}     [ "Jerusalem" ] ]
 
- |> "^giyuwluw^giyy" <| [
+ |> "^giyuwluw^g" <| [
 
-    Identity                  `adj`     {- jiyuwluwjiy~ -}     [ "geological", "geologist" ] ]
+    Identity |< Iy            `adj`     {- jiyuwluwjiy~ -}     [ "geological", "geologist" ] ]
 
  |> "^grAm" <| [
 

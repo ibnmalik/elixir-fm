@@ -19,11 +19,9 @@ lexicon = listing "Lexicon's properties"
 
     KaRADIS                   `noun`    {- OagAdiyr -}         [ "Agadir" ] ]
 
- |> "' .g w" <| [
+ |> "' .g y" <| [
 
-    FaCA                      `noun`    {- OagA -}             [ "Agha", "Aghas" ]
-                              `plural`     HACAL |< At
-                              `plural`     FaCaL |< At ]
+    FaCA                      `noun`    {- OagA -}             [ "Agha", "Aghas" ] ]
 
  |> "' .h d" <| [
 
@@ -48,6 +46,12 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCL
                            {- `others`  [ "'a.sl NF" ] -},
 
+    FaCL |< Iy                `adj`     {- OaSoliy~ -}         [ "original", "authentic" ],
+
+    FuCUL |< Iy               `adj`     {- OuSuwliy~ -}        [ "fundamentalist" ],
+
+    FuCUL |< Iy               `adj`     {- OuSuwliy~ -}        [ "jurisconsult", "legislator" ],
+
     FaCIL                     `noun`    {- OaSiyl -}           [ "authentic", "indigenous", "permanent" ]
                               `plural`     FuCaLA'
                            {- `others`  [ "'u.salA' Nh N0_Nh Nhy" ] -},
@@ -58,10 +62,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     IstiFCAL |< At,
 
     MutaFaCCiL                `noun`    {- mutaOaS~il -}       [ "deep-rooted" ] ]
-
- |> "' .s l y" <| [
-
-    KaRDIS                    `adj`     {- OaSoliy~ -}         [ "original", "authentic" ] ]
 
  |> "' .s r" <| [
 
@@ -79,12 +79,18 @@ lexicon = listing "Lexicon's properties"
 
     HICAL |< Iy               `adj`     {- IiyTAliy~ -}        [ "Italian" ] ]
 
+ |> "' .t l s" <| [
+
+    KaRDaS |< Iy              `adj`     {- OaTolasiy~ -}       [ "Atlantic", "NATO" ] ]
+
  |> "' .t r" <| [
 
     FiCAL                     `noun`    {- IiTAr -}            [ "framework", "context", "frameworks", "contexts" ]
                               `plural`     FuCuL
                               `plural`     FiCAL |< At
                            {- `others`  [ "'u.tur N" ] -},
+
+    FiCAL |< Iy               `adj`     {- IiTAriy~ -}         [ "contextual", "frame-like" ],
 
     MuFaCCaL                  `noun`    {- muWaT~ar -}         [ "framed", "in context" ] ]
 
@@ -156,7 +162,9 @@ lexicon = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     MuFaCCiL                  `noun`    {- muWa$~ir -}         [ "indicator", "index", "gage" ]
-                              `plural`     MuFaCCiL |< At ]
+                              `plural`     MuFaCCiL |< At,
+
+    FaCUL |< Iy               `adj`     {- Oa$uwriy~ -}        [ "Assyrian" ] ]
 
  |> "' _d '" <| [
 
@@ -561,11 +569,19 @@ lexicon = listing "Lexicon's properties"
 
  |> "' f .g" <| [
 
-    FaCLAn                    `noun`    {- OafogAn -}          [ "Afghans" ] ]
+    FaCLAn                    `noun`    {- OafogAn -}          [ "Afghans" ],
+
+    FaCLAn |< Iy              `adj`     {- OafogAniy~ -}       [ "Afghani", "Afghan" ],
+
+    FaCLAn |< Iy              `adj`     {- OafogAniy~ -}       [ "Afghani" ] ]
 
  |> "' f .g n" <| [
 
-    KaRDAS                    `noun`    {- OafogAn -}          [ "Afghans" ] ]
+    KaRDAS                    `noun`    {- OafogAn -}          [ "Afghans" ],
+
+    KaRDAS |< Iy              `adj`     {- OafogAniy~ -}       [ "Afghani", "Afghan" ],
+
+    KaRDAS |< Iy              `adj`     {- OafogAniy~ -}       [ "Afghani" ] ]
 
  |> "' f n" <| [
 
@@ -581,11 +597,14 @@ lexicon = listing "Lexicon's properties"
 
     FuCuL                     `noun`    {- Oufuq -}            [ "horizon", "horizons", "provinces" ]
                               `plural`     HACAL
-                           {- `others`  [ "'AfAq N" ] -} ]
+                           {- `others`  [ "'AfAq N" ] -},
 
- |> "' f w" <| [
+    FuCuL |< Iy               `adj`     {- Oufuqiy~ -}         [ "horizontal", "across" ] ]
 
-    FaCI                      `noun`    {- Oafiy -}            [ "Avi" ] ]
+ |> "' f r q" <| [
+
+    KaRDIS |< Iy              `adj`     {- Oaforiyqiy~ -}      [ "African", "Africans" ]
+                              `plural`     KaRADiS |< aT ]
 
  |> "' f y" <| [
 
@@ -654,6 +673,12 @@ lexicon = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     MutaFaCCiL                `noun`    {- mutaOak~id -}       [ "certain", "sure" ] ]
+
+ |> "' k d m" <| [
+
+    KaRADIS |< Iy             `adj`     {- OakAdiymiy~ -}      [ "academic", "scholarly" ],
+
+    KaRADIS |< Iy |< aT       `noun`    {- OakAdiymiy~ap -}    [ "academy" ] ]
 
  |> "' k l" <| [
 
@@ -1000,6 +1025,8 @@ lexicon = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- IimArap -}          [ "Emirate", "Emirates" ]
                               `plural`     FiCAL |< At,
 
+    FiCAL |< At |< Iy         `adj`     {- IimArAtiy~ -}       [ "Emirati (of/from the UAE)" ],
+
     FaCIL                     `noun`    {- Oamiyr -}           [ "Emir", "Emirs" ]
                               `plural`     FuCaLA'
                            {- `others`  [ "'umarA' Nh N0_Nh Nhy" ] -},
@@ -1206,7 +1233,11 @@ lexicon = listing "Lexicon's properties"
 
     KiRDIS                    `noun`    {- Iiqoliym -}         [ "region", "district", "regions", "districts" ]
                               `plural`     KaRADIS
-                           {- `others`  [ "'aqAliym Ndip" ] -} ]
+                           {- `others`  [ "'aqAliym Ndip" ] -},
+
+    KiRDIS |< Iy              `adj`     {- Iiqoliymiy~ -}      [ "regional", "territorial" ],
+
+    KiRDIS |< Iy |< aT        `noun`    {- Iiqoliymiy~ap -}    [ "regionalism" ] ]
 
  |> "' q t" <| [
 
@@ -1450,6 +1481,10 @@ lexicon = listing "Lexicon's properties"
     MaFCY |< Iy               `adj`     {- maOosawiy~ -}       [ "tragic" ],
 
     FaCLAn                    `noun`    {- OasowAn -}          [ "Aswan" ] ]
+
+ |> "' s w n" <| [
+
+    KaRDAS                    `noun`    {- OasowAn -}          [ "Aswan" ] ]
 
  |> "' s y" <| [
 
@@ -1848,13 +1883,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OaHaruwnuwt -}      [ "Aharonot", "Ahronot" ] ]
 
- |> "'a.tlAn.tiyy" <| [
+ |> "'a.tlAn.t" <| [
 
-    Identity                  `adj`     {- OaTolAnoTiy~ -}     [ "Atlantic" ] ]
-
- |> "'a.tlasiyy" <| [
-
-    Identity                  `adj`     {- OaTolasiy~ -}       [ "Atlantic", "NATO" ] ]
+    Identity |< Iy            `adj`     {- OaTolAnoTiy~ -}     [ "Atlantic" ] ]
 
  |> "'a^gand" <| [
 
@@ -1867,10 +1898,6 @@ lexicon = listing "Lexicon's properties"
  |> "'a^skruwft" <| [
 
     Identity                  `noun`    {- Oa$okruwft -}       [ "Ashcroft" ] ]
-
- |> "'a^suwriyy" <| [
-
-    Identity                  `adj`     {- Oa$uwriy~ -}        [ "Assyrian" ] ]
 
  |> "'a_darbay^gAn" <| [
 
@@ -1946,15 +1973,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OafogAnisotAn -}    [ "Afghanistan" ] ]
 
- |> "'af.gAniyy" <| [
+ |> "'afand" <| [
 
-    Identity                  `adj`     {- OafogAniy~ -}       [ "Afghani", "Afghan" ],
-
-    Identity                  `noun`    {- OafogAniy~ -}       [ "Afghani" ] ]
-
- |> "'afandiyy" <| [
-
-    Identity                  `noun`    {- Oafanodiy~ -}       [ "Effendi", "gentleman", "Effendis", "gentlemen" ] ]
+    Identity |< Iy            `noun`    {- Oafanodiy~ -}       [ "Effendi", "gentleman", "Effendis", "gentlemen" ] ]
 
  |> "'afiy.gduwr" <| [
 
@@ -1968,19 +1989,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OaforiyqiyA -}      [ "Africa", "African" ] ]
 
- |> "'afriyqiyy" <| [
-
-    Identity                  `adj`     {- Oaforiyqiy~ -}      [ "African", "Africans" ] ]
-
  |> "'afruw" <| [
 
     Identity                  `noun`    {- Oaforuw -}          [ "Afro" ] ]
-
- |> "'akAdiymiyy" <| [
-
-    Identity                  `adj`     {- OakAdiymiy~ -}      [ "academic", "scholarly" ],
-
-    Identity |< aT            `noun`    {- OakAdiymiy~ap -}    [ "academy" ] ]
 
  |> "'alAskA" <| [
 
@@ -2296,10 +2307,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- IiSofahAn -}        [ "Isfahan" ] ]
 
- |> "'i.tAriyy" <| [
-
-    Identity                  `adj`     {- IiTAriy~ -}         [ "contextual", "frame-like" ] ]
-
  |> "'i_dA" <| [
 
     Identity                  `noun`    {- Ii*A -}             [ "if/whether" ] ]
@@ -2375,10 +2382,6 @@ lexicon = listing "Lexicon's properties"
  |> "'ilyuw^sin" <| [
 
     Identity                  `noun`    {- Iiloyuw$in -}       [ "Ilyushin" ] ]
-
- |> "'imArAt" <| [
-
-    Identity |< Iy            `adj`     {- IimArAtiy~ -}       [ "Emirati (of/from the UAE)" ] ]
 
  |> "'imbirA.tuwr" <| [
 
@@ -2471,12 +2474,6 @@ lexicon = listing "Lexicon's properties"
  |> "'intirnit" <| [
 
     Identity                  `noun`    {- Iinotironit -}      [ "Internet" ] ]
-
- |> "'iqliymiyy" <| [
-
-    Identity                  `adj`     {- Iiqoliymiy~ -}      [ "regional", "territorial" ],
-
-    Identity |< aT            `noun`    {- Iiqoliymiy~ap -}    [ "regionalism" ] ]
 
  |> "'iriytriyy" <| [
 
@@ -2639,16 +2636,6 @@ lexicon = listing "Lexicon's properties"
  |> "'l_h" <| [
 
     Identity                  `noun`    {- Olx -}              [ "etc." ] ]
-
- |> "'u.suwliyy" <| [
-
-    Identity                  `adj`     {- OuSuwliy~ -}        [ "fundamentalist" ],
-
-    Identity                  `adj`     {- OuSuwliy~ -}        [ "jurisconsult", "legislator" ] ]
-
- |> "'ufuqiyy" <| [
-
-    Identity                  `adj`     {- Oufuqiy~ -}         [ "horizontal", "across" ] ]
 
  |> "'ur_tuwduks" <| [
 
@@ -2814,11 +2801,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "'uwzbakistAn" <| [
 
-    Identity                  `noun`    {- OuwzbakisotAn -}    [ "Uzbekistan" ] ]
+    Identity                  `noun`    {- OuwzbakisotAn -}    [ "Uzbekistan" ],
 
- |> "'uwzbakistAniyy" <| [
-
-    Identity                  `adj`     {- OuwzbakisotAniy~ -} [ "Uzbekistani" ] ]
+    Identity |< Iy            `adj`     {- OuwzbakisotAniy~ -} [ "Uzbekistani" ] ]
 
  |> "'uzbakiyy" <| [
 

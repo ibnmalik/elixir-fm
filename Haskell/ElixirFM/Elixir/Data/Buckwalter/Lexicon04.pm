@@ -4332,6 +4332,45 @@ $Lexicon = {
       ],
       'orig' => 'vabAt',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_tab',
+      'form' => '_tabAtiyy',
+      'lines' => [
+        ';; vabAtiy~_1',
+        'vbAty   vabAtiy~        Nall    stable;static     [[vabAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'stable',
+        'static'
+      ],
+      'orig' => 'vabAtiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_tab',
+      'form' => '_tabAtiyyaT',
+      'lines' => [
+        ';; vabAtiy~ap_1',
+        'vbAty   vabAtiy~        Nap     stability     [[vabAtiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< At |< Iy |< aT',
+      'suffix' => ' |< At |< Iy |< aT',
+      'glosses' => [
+        'stability'
+      ],
+      'orig' => 'vabAtiy~ap',
+      'prefix' => ''
     }
   ],
   '_t k l n' => [
@@ -5237,6 +5276,34 @@ $Lexicon = {
       'glosses' => [],
       'orig' => 'vabAt',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_tab',
+      'form' => '_tabAtiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaC |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [],
+      'orig' => 'vabAtiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_tab',
+      'form' => '_tabAtiyyaT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaC |< At |< Iy |< aT',
+      'suffix' => ' |< At |< Iy |< aT',
+      'glosses' => [],
+      'orig' => 'vabAtiy~ap',
+      'prefix' => ''
     }
   ],
   '_t .g \'' => [
@@ -5508,45 +5575,6 @@ $Lexicon = {
     },
     {
       'types' => {},
-      'entry' => '_tabAt',
-      'form' => '_tabAtiyy',
-      'lines' => [
-        ';; vabAtiy~_1',
-        'vbAty   vabAtiy~        Nall    stable;static     [[vabAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'stable',
-        'static'
-      ],
-      'orig' => 'vabAtiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_tabAt',
-      'form' => '_tabAtiyyaT',
-      'lines' => [
-        ';; vabAtiy~ap_1',
-        'vbAty   vabAtiy~        Nap     stability     [[vabAtiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCAL |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'stability'
-      ],
-      'orig' => 'vabAtiy~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
       'entry' => '_tubuwt',
       'form' => '_tubuwt',
       'lines' => [
@@ -5632,26 +5660,6 @@ $Lexicon = {
         'stabilization'
       ],
       'orig' => 'tavobiyt',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'i_tbAt',
-      'form' => '\'i_tbAtiyy',
-      'lines' => [
-        ';; <ivobAtiy~_1',
-        '<vbAty  <ivobAtiy~      Nall    confirmatory     [[<ivobAtiy~/ADJ]]',
-        'AvbAty  <ivobAtiy~      Nall    confirmatory     [[<ivobAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'HiFCAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'confirmatory'
-      ],
-      'orig' => 'IivobAtiy~',
       'prefix' => ''
     },
     {
@@ -9891,6 +9899,26 @@ $Lexicon = {
       ],
       'orig' => 'IivobAt',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'i_tb',
+      'form' => '\'i_tbAtiyy',
+      'lines' => [
+        ';; <ivobAtiy~_1',
+        '<vbAty  <ivobAtiy~      Nall    confirmatory     [[<ivobAtiy~/ADJ]]',
+        'AvbAty  <ivobAtiy~      Nall    confirmatory     [[<ivobAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'confirmatory'
+      ],
+      'orig' => 'IivobAtiy~',
+      'prefix' => ''
     }
   ],
   '_tumma' => [
@@ -9963,6 +9991,12 @@ $Lexicon->{'_t n y'}[1]{'glosses'} = $Lexicon->{'_t n n'}[2]{'glosses'};
 $Lexicon->{'_t b y'}[0]{'types'} = $Lexicon->{'_t b b'}[0]{'types'};
 $Lexicon->{'_t b y'}[0]{'lines'} = $Lexicon->{'_t b b'}[0]{'lines'};
 $Lexicon->{'_t b y'}[0]{'glosses'} = $Lexicon->{'_t b b'}[0]{'glosses'};
+$Lexicon->{'_t b y'}[1]{'types'} = $Lexicon->{'_t b b'}[1]{'types'};
+$Lexicon->{'_t b y'}[1]{'lines'} = $Lexicon->{'_t b b'}[1]{'lines'};
+$Lexicon->{'_t b y'}[1]{'glosses'} = $Lexicon->{'_t b b'}[1]{'glosses'};
+$Lexicon->{'_t b y'}[2]{'types'} = $Lexicon->{'_t b b'}[2]{'types'};
+$Lexicon->{'_t b y'}[2]{'lines'} = $Lexicon->{'_t b b'}[2]{'lines'};
+$Lexicon->{'_t b y'}[2]{'glosses'} = $Lexicon->{'_t b b'}[2]{'glosses'};
 $Lexicon->{'_t .g \''}[0]{'types'} = $Lexicon->{'_t .g w'}[1]{'types'};
 $Lexicon->{'_t .g \''}[0]{'lines'} = $Lexicon->{'_t .g w'}[1]{'lines'};
 $Lexicon->{'_t .g \''}[0]{'glosses'} = $Lexicon->{'_t .g w'}[1]{'glosses'};

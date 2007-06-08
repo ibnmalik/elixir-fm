@@ -422,6 +422,8 @@ lexicon = listing "Lexicon's properties"
     MuFACaL |< At             `noun`    {- muxAbarAt -}        [ "intelligence service", "secret service" ]
                               `plural`     MuFACaL |< At,
 
+    MuFACaL |< At |< Iy       `adj`     {- muxAbarAtiy~ -}     [ "intelligence service", "secret service" ],
+
     HiFCAL |< Iy              `adj`     {- IixobAriy~ -}       [ "news", "information" ],
 
     IFtiCAL                   `noun`    {- AixotibAr -}        [ "testing", "experimenting", "probing" ]
@@ -431,6 +433,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     IstiFCAL |< At,
 
     IstiFCAL |< Iy            `adj`     {- AisotixobAriy~ -}   [ "undercover", "intelligence" ],
+
+    IstiFCAL |< At |< Iy      `adj`     {- AisotixobArAtiy~ -} [ "intelligence" ],
 
     MuFtaCaL                  `noun`    {- muxotabar -}        [ "laboratory" ]
                               `plural`     MuFtaCaL |< At ]
@@ -1464,12 +1468,4 @@ lexicon = listing "Lexicon's properties"
  |> "_hwAn" <| [
 
     Identity                  `noun`    {- xwAn -}             [ "Juan" ] ]
-
- |> "isti_hbArAt" <| [
-
-    Identity |< Iy            `adj`     {- AisotixobArAtiy~ -} [ "intelligence" ] ]
-
- |> "mu_hAbarAt" <| [
-
-    Identity |< Iy            `adj`     {- muxAbarAtiy~ -}     [ "intelligence service", "secret service" ] ]
 

@@ -102,7 +102,12 @@ lexicon = listing "Lexicon's properties"
     -- Zby     Zabay   NAt     gazelles
 
     FaCL |< aT                `noun`    {- Zaboyap -}          [ "gazelle", "gazelles" ]
-                              `plural`     FaCY |< At ]
+                              `plural`     FaCY |< At,
+
+    -- ;; ZuboyAniy~_1
+    -- ZbyAny  ZuboyAniy~      Nall    from/of Abu Dhabi     [[ZuboyAniy~/ADJ]]
+
+    FuCLAn |< Iy              `adj`     {- ZuboyAniy~ -}       [ "from/of Abu Dhabi" ] ]
 
  |> ".z f r" <| [
 
@@ -396,6 +401,11 @@ lexicon = listing "Lexicon's properties"
     -- ZwAhry  ZawAhiriy~      Nall    phenomenal     [[ZawAhiriy~/ADJ]]
 
     FawACiL |< Iy             `adj`     {- ZawAhiriy~ -}       [ "phenomenal" ],
+
+    -- ;; ZAhirAtiy~_1
+    -- ZAhrAty ZAhirAtiy~      Nall    phenomenological     [[ZAhirAtiy~/ADJ]]
+
+    FACiL |< At |< Iy         `adj`     {- ZAhirAtiy~ -}       [ "phenomenological" ],
 
     -- ;; muZah~ir_1
     -- mZhr    muZah~ir        Nall    endorser
@@ -933,13 +943,6 @@ lexicon = listing "Lexicon's properties"
 
     FiCLAn                    `noun`    {- Zir~An -}           [ "flint" ] ]
 
- |> ".zAhirAt" <| [
-
-    -- ;; ZAhirAtiy~_1
-    -- ZAhrAty ZAhirAtiy~      Nall    phenomenological     [[ZAhirAtiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- ZAhirAtiy~ -}       [ "phenomenological" ] ]
-
  |> ".zalla" <| [
 
     -- ;; Zal~a_1
@@ -949,13 +952,6 @@ lexicon = listing "Lexicon's properties"
     -- Zll     Zolal   IV_C    remain;continue
 
     Identity                  `noun`    {- Zal~a -}            [ "remain", "continue" ] ]
-
- |> ".zubyAniyy" <| [
-
-    -- ;; ZuboyAniy~_1
-    -- ZbyAny  ZuboyAniy~      Nall    from/of Abu Dhabi     [[ZuboyAniy~/ADJ]]
-
-    Identity                  `adj`     {- ZuboyAniy~ -}       [ "from/of Abu Dhabi" ] ]
 
  |> "i.z.zalam" <| [
 

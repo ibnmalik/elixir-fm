@@ -126,7 +126,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; qAt_1
     -- qAt     qAt     N       qat (stimulant)
 
-    Identity |< At            `noun`    {- qAt -}              [ "qat (stimulant)" ] ]
+    Identity |< At            `noun`    {- qAt -}              [ "qat (stimulant)" ],
+
+    -- ;; qAtiy~_1
+    -- qAty    qAtiy~  N-ap    qat (stimulant)     [[qAtiy~/ADJ]]
+
+    Identity |< At |< Iy      `adj`     {- qAtiy~ -}           [ "qat (stimulant)" ],
+
+    -- ;; qAtiy~At_1
+    -- qAty    qAtiy~  NAt     qat (stimulant) derivatives     [[qAtiy~/NOUN]]
+
+    Identity |< At |< Iy |< At `noun`    {- qAtiy~At -}         [ "qat (stimulant) derivatives" ] ]
 
  |> "q ' .z" <| [
 
@@ -6733,6 +6743,21 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- qahowap -}          [ "coffee", "coffees" ]
                               `plural`     FaCaL |< At,
 
+    -- ;; qahowAtiy~_1
+    -- qhwAty  qahowAtiy~      N-ap    cafe manager     [[qahowAtiy~/ADJ]]
+
+    FaCL |< At |< Iy          `adj`     {- qahowAtiy~ -}       [ "cafe manager" ],
+
+    -- ;; qahowAtiy~_2
+    -- qhwAty  qahowAtiy~      N0      Qahwati
+
+    FaCL |< At |< Iy          `noun`    {- qahowAtiy~ -}       [ "Qahwati" ],
+
+    -- ;; qahowAtiy~ap_1
+    -- qhwAty  qahowAtiy~      Nap     cafe owners     [[qahowAtiy~/NOUN]]
+
+    FaCL |< At |< Iy |< aT    `noun`    {- qahowAtiy~ap -}     [ "cafe owners" ],
+
     -- ;; maqohaY_1
     -- mqhY    maqohaY N0      cafe;coffeehouse
     -- mqhA    maqohA  Nhy     cafe;coffeehouse
@@ -10526,6 +10551,12 @@ lexicon = listing "Lexicon's properties"
 
     FiCL |< Iy                `adj`     {- qirodiy~ -}         [ "simian", "monkey" ],
 
+    -- ;; quradAtiy~_1
+    -- qrdAty  quradAtiy~      Ndu     monkey trainer
+    -- qrdAty  quradAtiy~      Nap     monkey trainers     [[quradAtiy~/NOUN]]
+
+    FuCaL |< At |< Iy         `noun`    {- quradAtiy~ -}       [ "monkey trainer", "monkey trainers" ],
+
     -- ;; qurAd_1
     -- qrAd    qurAd   N       tick
     -- qrAd    qurAd   Nap     tick
@@ -13729,16 +13760,6 @@ lexicon = listing "Lexicon's properties"
 
     IFtAL                     `verb`    {- AiqotAt -}          [ "be supported with", "be fed", "be nourished with" ],
 
-    -- ;; qAtiy~_1
-    -- qAty    qAtiy~  N-ap    qat (stimulant)     [[qAtiy~/ADJ]]
-
-    FAL |< Iy                 `adj`     {- qAtiy~ -}           [ "qat (stimulant)" ],
-
-    -- ;; qAtiy~At_1
-    -- qAty    qAtiy~  NAt     qat (stimulant) derivatives     [[qAtiy~/NOUN]]
-
-    FAL |< Iy |< At           `noun`    {- qAtiy~At -}         [ "qat (stimulant) derivatives" ],
-
     -- ;; quwt_1
     -- qwt     quwt    N       nourishment;food
     -- >qwAt   >aqowAt N       nourishment;food
@@ -15084,23 +15105,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- qahoramAn -}        [ "household manager", "butler", "housekeeper", "household managers", "butlers", "housekeepers" ] ]
 
- |> "qahwAtiyy" <| [
-
-    -- ;; qahowAtiy~_1
-    -- qhwAty  qahowAtiy~      N-ap    cafe manager     [[qahowAtiy~/ADJ]]
-
-    Identity                  `adj`     {- qahowAtiy~ -}       [ "cafe manager" ],
-
-    -- ;; qahowAtiy~_2
-    -- qhwAty  qahowAtiy~      N0      Qahwati
-
-    Identity                  `noun`    {- qahowAtiy~ -}       [ "Qahwati" ],
-
-    -- ;; qahowAtiy~ap_1
-    -- qhwAty  qahowAtiy~      Nap     cafe owners     [[qahowAtiy~/NOUN]]
-
-    Identity |< aT            `noun`    {- qahowAtiy~ap -}     [ "cafe owners" ] ]
-
  |> "qahwa^giyy" <| [
 
     -- ;; qahowajiy~_1
@@ -15513,14 +15517,6 @@ lexicon = listing "Lexicon's properties"
     -- qrTmAn  quroTumAn       N       oats
 
     Identity                  `noun`    {- quroTumAn -}        [ "oats" ] ]
-
- |> "quradAt" <| [
-
-    -- ;; quradAtiy~_1
-    -- qrdAty  quradAtiy~      Ndu     monkey trainer
-    -- qrdAty  quradAtiy~      Nap     monkey trainers     [[quradAtiy~/NOUN]]
-
-    Identity |< Iy            `noun`    {- quradAtiy~ -}       [ "monkey trainer", "monkey trainers" ] ]
 
  |> "quraydis" <| [
 

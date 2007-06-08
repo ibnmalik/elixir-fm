@@ -2818,6 +2818,11 @@ lexicon = listing "Lexicon's properties"
     MuFACaL |< At             `noun`    {- muxAbarAt -}        [ "intelligence service", "secret service" ]
                               `plural`     MuFACaL |< At,
 
+    -- ;; muxAbarAtiy~_1
+    -- mxAbrAty        muxAbarAtiy~    Nall    intelligence service;secret service     [[muxAbarAtiy~/ADJ]]
+
+    MuFACaL |< At |< Iy       `adj`     {- muxAbarAtiy~ -}     [ "intelligence service", "secret service" ],
+
     -- ;; <ixobAr_1
     -- <xbAr   <ixobAr NduAt   notification;communication
     -- AxbAr   <ixobAr NduAt   notification;communication
@@ -2862,6 +2867,12 @@ lexicon = listing "Lexicon's properties"
     -- AstxbAry        {isotixobAriy~  Nall    undercover;intelligence     [[{isotixobAriy~/ADJ]]
 
     IstiFCAL |< Iy            `adj`     {- AisotixobAriy~ -}   [ "undercover", "intelligence" ],
+
+    -- ;; {isotixobArAtiy~_1
+    -- <stxbArAty      {isotixobArAtiy~        Nall    intelligence     [[{isotixobArAtiy~/ADJ]]
+    -- AstxbArAty      {isotixobArAtiy~        Nall    intelligence     [[{isotixobArAtiy~/ADJ]]
+
+    IstiFCAL |< At |< Iy      `adj`     {- AisotixobArAtiy~ -} [ "intelligence" ],
 
     -- ;; muxobir_1
     -- mxbr    muxobir Nall    informer;reporter
@@ -9987,13 +9998,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- xumayoniy -}        [ "Khomeini" ] ]
 
- |> "_hunzuwAniyy" <| [
+ |> "_hunzuwAn" <| [
 
     -- ;; xunozuwAniy~_1
     -- xnzwAny xunozuwAniy~    Nall    megalomaniac     [[xunozuwAniy~/ADJ]]
     -- xnzwAny xunozuwAniy~    Nap     megalomania     [[xunozuwAniy~/NOUN]]
 
-    Identity                  `adj`     {- xunozuwAniy~ -}     [ "megalomaniac", "megalomania" ] ]
+    Identity |< Iy            `adj`     {- xunozuwAniy~ -}     [ "megalomaniac", "megalomania" ] ]
 
  |> "_hurAsAn" <| [
 
@@ -10087,14 +10098,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `verb`    {- AisotaxofA -}       [ "hide", "be hidden", "disappear" ] ]
 
- |> "isti_hbArAt" <| [
-
-    -- ;; {isotixobArAtiy~_1
-    -- <stxbArAty      {isotixobArAtiy~        Nall    intelligence     [[{isotixobArAtiy~/ADJ]]
-    -- AstxbArAty      {isotixobArAtiy~        Nall    intelligence     [[{isotixobArAtiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- AisotixobArAtiy~ -} [ "intelligence" ] ]
-
  |> "kuwrfisqufuws" <| [
 
     -- ;; kuwrofisoqufuws_1
@@ -10109,13 +10112,6 @@ lexicon = listing "Lexicon's properties"
     -- mAxlA   mAxalA  FW-Wa-A except for     [[mAxalA/PREP]]
 
     Identity                  `noun`    {- mAxalA -}           [ "except for" ] ]
-
- |> "mu_hAbarAt" <| [
-
-    -- ;; muxAbarAtiy~_1
-    -- mxAbrAty        muxAbarAtiy~    Nall    intelligence service;secret service     [[muxAbarAtiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- muxAbarAtiy~ -}     [ "intelligence service", "secret service" ] ]
 
  |> "ya_h.duwr" <| [
 

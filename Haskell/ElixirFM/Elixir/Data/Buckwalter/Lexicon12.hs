@@ -3103,7 +3103,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; subAt_1
     -- sbAt    subAt   N       lethargy;slumber
 
-    FuL |< At                 `noun`    {- subAt -}            [ "lethargy", "slumber" ] ]
+    FuL |< At                 `noun`    {- subAt -}            [ "lethargy", "slumber" ],
+
+    -- ;; subAtiy~_1
+    -- sbAty   subAtiy~        Nall    lethargic     [[subAtiy~/ADJ]]
+
+    FuL |< At |< Iy           `adj`     {- subAtiy~ -}         [ "lethargic" ] ]
 
  |> "s b h" <| [
 
@@ -3533,11 +3538,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- sabotiy~ -}         [ "Sabbatarian" ],
 
-    -- ;; subAtiy~_1
-    -- sbAty   subAtiy~        Nall    lethargic     [[subAtiy~/ADJ]]
-
-    FuCAL |< Iy               `adj`     {- subAtiy~ -}         [ "lethargic" ],
-
     -- ;; musobit_1
     -- msbt    musobit Nall    lethargic;inactive     [[musobit/ADJ]]
 
@@ -3564,6 +3564,11 @@ lexicon = listing "Lexicon's properties"
     -- sbAt    subAt   N       lethargy;slumber
 
     FuC |< At                 `noun`    {- subAt -}            [ "lethargy", "slumber" ],
+
+    -- ;; subAtiy~_1
+    -- sbAty   subAtiy~        Nall    lethargic     [[subAtiy~/ADJ]]
+
+    FuC |< At |< Iy           `adj`     {- subAtiy~ -}         [ "lethargic" ],
 
     -- ;; sabaY-i_1
     -- sbY     sabaY   PV_0    capture;captivate
@@ -11690,6 +11695,11 @@ lexicon = listing "Lexicon's properties"
     FAL |< aT                 `noun`    {- sAEap -}            [ "clock", "watch", "timepiece", "clocks", "watches", "timepieces" ]
                               `plural`     FAL |< At,
 
+    -- ;; sAEAtiy~_1
+    -- sAEAty  sAEAtiy~        Nall    watchmaker     [[sAEAtiy~/ADJ]]
+
+    FAL |< At |< Iy           `adj`     {- sAEAtiy~ -}         [ "watchmaker" ],
+
     -- ;; suwayoEap_1
     -- swyE    suwayoE NapAt   little while;short hour
 
@@ -11807,7 +11817,18 @@ lexicon = listing "Lexicon's properties"
     -- ;; suwd_1
     -- swd     suwd    Nprop   Sud
 
-    FUL                       `noun`    {- suwd -}             [ "Sud" ] ]
+    FUL                       `noun`    {- suwd -}             [ "Sud" ],
+
+    -- ;; suwiyd_1
+    -- swyd    suwiyd  N0      Sweden
+
+    FuCIL                     `noun`    {- suwiyd -}           [ "Sweden" ],
+
+    -- ;; suwiydiy~_1
+    -- swydy   suwiydiy~       Nall    Swedish     [[suwiydiy~/NOUN]]
+    -- swydy   suwiydiy~       Nall    Swedish     [[suwiydiy~/ADJ]]
+
+    FuCIL |< Iy               `adj`     {- suwiydiy~ -}        [ "Swedish" ] ]
 
  |> "s w d n" <| [
 
@@ -13004,7 +13025,13 @@ lexicon = listing "Lexicon's properties"
     -- sykwbAt sayokuwbAt      N0      psychopath
     -- sykwbAv sayokuwbAv      N0      psychopath
 
-    KaRDUS |< At              `noun`    {- sayokuwbAt -}       [ "psychopath" ] ]
+    KaRDUS |< At              `noun`    {- sayokuwbAt -}       [ "psychopath" ],
+
+    -- ;; sayokuwbAtiy~_1
+    -- sykwbAty        sayokuwbAtiy~   Nall    psychopathic     [[sayokuwbAtiy~/ADJ]]
+    -- sykwbAvy        sayokuwbAviy~   Nall    psychopathic     [[sayokuwbAviy~/ADJ]]
+
+    KaRDUS |< At |< Iy        `adj`     {- sayokuwbAtiy~ -}    [ "psychopathic" ] ]
 
  |> "s y l" <| [
 
@@ -13377,13 +13404,6 @@ lexicon = listing "Lexicon's properties"
     -- sA$A    sA$A    Nprop   Sasha
 
     Identity                  `noun`    {- sA$A -}             [ "Sasha" ] ]
-
- |> "sA`At" <| [
-
-    -- ;; sAEAtiy~_1
-    -- sAEAty  sAEAtiy~        Nall    watchmaker     [[sAEAtiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- sAEAtiy~ -}         [ "watchmaker" ] ]
 
  |> "sA`ata'i_diN" <| [
 
@@ -13920,14 +13940,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sawofa -}           [ "will", "shall" ] ]
 
- |> "saykuwbAtiyy" <| [
-
-    -- ;; sayokuwbAtiy~_1
-    -- sykwbAty        sayokuwbAtiy~   Nall    psychopathic     [[sayokuwbAtiy~/ADJ]]
-    -- sykwbAvy        sayokuwbAviy~   Nall    psychopathic     [[sayokuwbAviy~/ADJ]]
-
-    Identity                  `adj`     {- sayokuwbAtiy~ -}    [ "psychopathic" ] ]
-
  |> "saykuwrAn" <| [
 
     -- ;; sayokuwrAn_1
@@ -14168,14 +14180,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; sinodiyAn_1
     -- sndyAn  sinodiyAn       N-ap    evergreen oak
 
-    Identity                  `noun`    {- sinodiyAn -}        [ "evergreen oak" ] ]
-
- |> "sindiyAniyy" <| [
+    Identity                  `noun`    {- sinodiyAn -}        [ "evergreen oak" ],
 
     -- ;; sinodiyAniy~_1
     -- sndyAny sinodiyAniy~    N-ap    oak-like     [[sinodiyAniy~/ADJ]]
 
-    Identity                  `adj`     {- sinodiyAniy~ -}     [ "oak-like" ] ]
+    Identity |< Iy            `adj`     {- sinodiyAniy~ -}     [ "oak-like" ] ]
 
  |> "sini.gAl" <| [
 
@@ -14316,12 +14326,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- siykuwrtAh -}       [ "insurance" ] ]
 
- |> "siykuwsuwmAtiyy" <| [
+ |> "siykuwsuwm" <| [
 
     -- ;; siykuwsuwmAtiy~_1
     -- sykwswmAty      siykuwsuwmAtiy~ Nall    psychosomatic     [[siykuwsuwmAtiy~/ADJ]]
 
-    Identity                  `adj`     {- siykuwsuwmAtiy~ -}  [ "psychosomatic" ] ]
+    Identity |< At |< Iy      `adj`     {- siykuwsuwmAtiy~ -}  [ "psychosomatic" ] ]
 
  |> "siylfA" <| [
 
@@ -15078,19 +15088,6 @@ lexicon = listing "Lexicon's properties"
     -- swhArtw suwhArotuw      Nprop   Suharto
 
     Identity                  `noun`    {- suwhArotuw -}       [ "Suharto" ] ]
-
- |> "suwiyd" <| [
-
-    -- ;; suwiyd_1
-    -- swyd    suwiyd  N0      Sweden
-
-    Identity                  `noun`    {- suwiyd -}           [ "Sweden" ],
-
-    -- ;; suwiydiy~_1
-    -- swydy   suwiydiy~       Nall    Swedish     [[suwiydiy~/NOUN]]
-    -- swydy   suwiydiy~       Nall    Swedish     [[suwiydiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- suwiydiy~ -}        [ "Swedish" ] ]
 
  |> "suwiysr" <| [
 

@@ -7830,7 +7830,9 @@ lexicon = listing "Lexicon's properties"
     -- dwAy    dawAy   Napdu   socket;well
     -- dwy     duwiy~  N       sockets;wells
 
-    FaCAL |< aT               `noun`    {- dawAyap -}          [ "socket", "well", "sockets", "wells" ],
+    FaCAL |< aT               `noun`    {- dawAyap -}          [ "socket", "well", "sockets", "wells" ]
+                              `plural`     FuCIL
+                           {- `others`  [ "duwiyy N" ] -},
 
     -- ;; dawA'_1
     -- dwA'    dawA'   N0_Nh   remedy;medication

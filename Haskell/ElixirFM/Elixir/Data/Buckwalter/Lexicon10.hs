@@ -9962,6 +9962,11 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCY                    `verb`    {- AirotaqaY -}        [ "ascend", "increase", "rise" ],
 
+    -- ;; ruqiy~_1
+    -- rqy     ruqiy~  N       progress;rise;promotion
+
+    FuCIL                     `noun`    {- ruqiy~ -}           [ "progress", "rise", "promotion" ],
+
     -- ;; ruqoyap_1
     -- rqy     ruqoy   Nap     spell;charm;incantation;magic
 
@@ -14005,13 +14010,6 @@ lexicon = listing "Lexicon's properties"
     -- rqArq   ruqAriq N-ap    shallow
 
     Identity                  `noun`    {- ruqAriq -}          [ "shallow" ] ]
-
- |> "ruqiyy" <| [
-
-    -- ;; ruqiy~_1
-    -- rqy     ruqiy~  N       progress;rise;promotion
-
-    Identity                  `noun`    {- ruqiy~ -}           [ "progress", "rise", "promotion" ] ]
 
  |> "rutaylA'" <| [
 

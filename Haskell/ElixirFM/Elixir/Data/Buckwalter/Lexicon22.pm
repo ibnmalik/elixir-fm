@@ -2837,6 +2837,33 @@ $Lexicon = {
       ],
       'orig' => 'kar~Akap',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        'kuriyk' => {
+          'N/At' => 1
+        }
+      },
+      'entry' => 'kuriyk',
+      'form' => 'kuriyk',
+      'lines' => [
+        ';; kuriyk_1',
+        'kryk    kuriyk  N/At    shovel'
+      ],
+      'patterns' => {
+        'kuriyk' => [
+          'FuCIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCIL',
+      'suffix' => '',
+      'glosses' => [
+        'shovel'
+      ],
+      'orig' => 'kuriyk',
+      'prefix' => ''
     }
   ],
   'k f .h' => [
@@ -4629,29 +4656,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuruwAt' => [
-    {
-      'types' => {},
-      'entry' => 'kuruwAt',
-      'form' => 'kuruwAtiyy',
-      'lines' => [
-        ';; kuruwAtiy~_1',
-        'krwAty  kuruwAtiy~      Nall    Croatian;Croat     [[kuruwAtiy~/NOUN]]',
-        'krwAty  kuruwAtiy~      Nall    Croatian;Croat     [[kuruwAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Croatian',
-        'Croat'
-      ],
-      'orig' => 'kuruwAtiy~',
-      'prefix' => ''
-    }
-  ],
   'k r .t' => [
     {
       'types' => {},
@@ -6030,6 +6034,26 @@ $Lexicon = {
         'Carey'
       ],
       'orig' => 'kAriy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'kuriyy',
+      'form' => 'kuriyy',
+      'lines' => [
+        ';; kuriy~_1',
+        'kry     kuriy~  N-ap    globular;spherical     [[kuriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuCIL',
+      'suffix' => '',
+      'glosses' => [
+        'globular',
+        'spherical'
+      ],
+      'orig' => 'kuriy~',
       'prefix' => ''
     },
     {
@@ -16128,6 +16152,27 @@ $Lexicon = {
   'k r \'' => [
     {
       'types' => {},
+      'entry' => 'kuruw',
+      'form' => 'kuruwAtiyy',
+      'lines' => [
+        ';; kuruwAtiy~_1',
+        'krwAty  kuruwAtiy~      Nall    Croatian;Croat     [[kuruwAtiy~/NOUN]]',
+        'krwAty  kuruwAtiy~      Nall    Croatian;Croat     [[kuruwAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuCU |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'Croatian',
+        'Croat'
+      ],
+      'orig' => 'kuruwAtiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'kirA\'',
       'form' => 'kirA\'',
       'lines' => [],
@@ -17366,6 +17411,20 @@ $Lexicon = {
         'roundness'
       ],
       'orig' => 'kurawiy~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'kuruw',
+      'form' => 'kuruwAtiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuCU |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [],
+      'orig' => 'kuruwAtiy~',
       'prefix' => ''
     },
     {
@@ -20704,28 +20763,6 @@ $Lexicon = {
         'rubber'
       ],
       'orig' => 'kAwto$uq',
-      'prefix' => ''
-    }
-  ],
-  'mukayyisAt' => [
-    {
-      'types' => {},
-      'entry' => 'mukayyisAt',
-      'form' => 'mukayyisAtiyy',
-      'lines' => [
-        ';; mukay~isAtiy~_1',
-        'mkysAty mukay~isAtiy~   N-ap    bath attendant;masseur     [[mukay~isAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'bath attendant',
-        'masseur'
-      ],
-      'orig' => 'mukay~isAtiy~',
       'prefix' => ''
     }
   ],
@@ -35130,31 +35167,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuriyk' => [
-    {
-      'types' => {
-        'kuriyk' => {
-          'N/At' => 1
-        }
-      },
-      'entry' => 'kuriyk',
-      'form' => 'kuriyk',
-      'lines' => [
-        ';; kuriyk_1',
-        'kryk    kuriyk  N/At    shovel'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'shovel'
-      ],
-      'orig' => 'kuriyk',
-      'prefix' => ''
-    }
-  ],
   'kuwnkuwrd' => [
     {
       'types' => {},
@@ -38189,28 +38201,6 @@ $Lexicon = {
         'whichever/however'
       ],
       'orig' => 'kayofamA',
-      'prefix' => ''
-    }
-  ],
-  'kuriyy' => [
-    {
-      'types' => {},
-      'entry' => 'kuriyy',
-      'form' => 'kuriyy',
-      'lines' => [
-        ';; kuriy~_1',
-        'kry     kuriy~  N-ap    globular;spherical     [[kuriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'globular',
-        'spherical'
-      ],
-      'orig' => 'kuriy~',
       'prefix' => ''
     }
   ],
@@ -42996,6 +42986,26 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => 'mukayyis',
+      'form' => 'mukayyisAtiyy',
+      'lines' => [
+        ';; mukay~isAtiy~_1',
+        'mkysAty mukay~isAtiy~   N-ap    bath attendant;masseur     [[mukay~isAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFaCCiL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'bath attendant',
+        'masseur'
+      ],
+      'orig' => 'mukay~isAtiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'mukayyas',
       'form' => 'mukayyas',
       'lines' => [
@@ -44047,18 +44057,21 @@ $Lexicon->{'k y m n'}[0]{'glosses'} = $Lexicon->{'k w m'}[3]{'glosses'};
 $Lexicon->{'k y y'}[4]{'types'} = $Lexicon->{'k y y'}[3]{'types'};
 $Lexicon->{'k y y'}[4]{'lines'} = $Lexicon->{'k y y'}[3]{'lines'};
 $Lexicon->{'k y y'}[4]{'glosses'} = $Lexicon->{'k y y'}[3]{'glosses'};
-$Lexicon->{'k r \''}[0]{'types'} = $Lexicon->{'k r y'}[10]{'types'};
-$Lexicon->{'k r \''}[0]{'lines'} = $Lexicon->{'k r y'}[10]{'lines'};
-$Lexicon->{'k r \''}[0]{'glosses'} = $Lexicon->{'k r y'}[10]{'glosses'};
 $Lexicon->{'k r \''}[1]{'types'} = $Lexicon->{'k r y'}[11]{'types'};
 $Lexicon->{'k r \''}[1]{'lines'} = $Lexicon->{'k r y'}[11]{'lines'};
 $Lexicon->{'k r \''}[1]{'glosses'} = $Lexicon->{'k r y'}[11]{'glosses'};
 $Lexicon->{'k r \''}[2]{'types'} = $Lexicon->{'k r y'}[12]{'types'};
 $Lexicon->{'k r \''}[2]{'lines'} = $Lexicon->{'k r y'}[12]{'lines'};
 $Lexicon->{'k r \''}[2]{'glosses'} = $Lexicon->{'k r y'}[12]{'glosses'};
+$Lexicon->{'k r \''}[3]{'types'} = $Lexicon->{'k r y'}[13]{'types'};
+$Lexicon->{'k r \''}[3]{'lines'} = $Lexicon->{'k r y'}[13]{'lines'};
+$Lexicon->{'k r \''}[3]{'glosses'} = $Lexicon->{'k r y'}[13]{'glosses'};
 $Lexicon->{'k y m'}[0]{'types'} = $Lexicon->{'k w m'}[3]{'types'};
 $Lexicon->{'k y m'}[0]{'lines'} = $Lexicon->{'k w m'}[3]{'lines'};
 $Lexicon->{'k y m'}[0]{'glosses'} = $Lexicon->{'k w m'}[3]{'glosses'};
+$Lexicon->{'k r w'}[8]{'types'} = $Lexicon->{'k r \''}[0]{'types'};
+$Lexicon->{'k r w'}[8]{'lines'} = $Lexicon->{'k r \''}[0]{'lines'};
+$Lexicon->{'k r w'}[8]{'glosses'} = $Lexicon->{'k r \''}[0]{'glosses'};
 $Lexicon->{'k w l'}[1]{'types'} = $Lexicon->{'k l n'}[3]{'types'};
 $Lexicon->{'k w l'}[1]{'lines'} = $Lexicon->{'k l n'}[3]{'lines'};
 $Lexicon->{'k w l'}[1]{'glosses'} = $Lexicon->{'k l n'}[3]{'glosses'};

@@ -6669,7 +6669,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; bilA$_2
     -- blA$    bilA$   FW-Wa   never mind;forget about
 
-    FiCAL                     `noun`    {- bilA$ -}            [ "never mind", "forget about" ] ]
+    FiCAL                     `noun`    {- bilA$ -}            [ "never mind", "forget about" ],
+
+    -- ;; baluw$iy~_1
+    -- blw$y   baluw$iy~       Nall    Baluchi
+
+    FaCUL |< Iy               `adj`     {- baluw$iy~ -}        [ "Baluchi" ] ]
 
  |> "b l ^s f" <| [
 
@@ -7586,12 +7591,26 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADIS
                            {- `others`  [ "balAyiyn Ndip" ] -} ]
 
+ |> "b m b" <| [
+
+    -- ;; bamobiy~_1
+    -- bmby    bamobiy~        Nall    hot pink     [[bamobiy~/ADJ]]
+
+    FaCL |< Iy                `adj`     {- bamobiy~ -}         [ "hot pink" ] ]
+
  |> "b m b .g" <| [
 
     -- ;; bumobAg_1
     -- bmbAg   bumobAg N/ap    bow tie
 
     KuRDAS                    `noun`    {- bumobAg -}          [ "bow tie" ] ]
+
+ |> "b m b ^s" <| [
+
+    -- ;; bimobA$iy~_1
+    -- bmbA$y  bimobA$iy~      Nall    lieutenant colonel     [[bimobA$iy~/ADJ]]
+
+    KiRDAS |< Iy              `adj`     {- bimobA$iy~ -}       [ "lieutenant colonel" ] ]
 
  |> "b m b h" <| [
 
@@ -7605,12 +7624,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bumobAy_1
     -- bmbAy   bumobAy N       Bombay
 
-    KuRDAS                    `noun`    {- bumobAy -}          [ "Bombay" ],
-
-    -- ;; bamobiy~_1
-    -- bmby    bamobiy~        Nall    hot pink     [[bamobiy~/ADJ]]
-
-    KaRDIS                    `adj`     {- bamobiy~ -}         [ "hot pink" ] ]
+    KuRDAS                    `noun`    {- bumobAy -}          [ "Bombay" ] ]
 
  |> "b n '" <| [
 
@@ -9187,7 +9201,12 @@ lexicon = listing "Lexicon's properties"
 
     FACiL |< aT               `noun`    {- bArijap -}          [ "battleship", "barge", "battleships", "barges" ]
                               `plural`     FawACiL
-                           {- `others`  [ "bawAri^g Ndip" ] -} ]
+                           {- `others`  [ "bawAri^g Ndip" ] -},
+
+    -- ;; buruwjiy~_1
+    -- brwjy   buruwjiy~       Nall    trumpeter;bugler     [[buruwjiy~/ADJ]]
+
+    FuCUL |< Iy               `adj`     {- buruwjiy~ -}        [ "trumpeter", "bugler" ] ]
 
  |> "b r ^g l" <| [
 
@@ -10534,7 +10553,13 @@ lexicon = listing "Lexicon's properties"
     -- ;; bris_1
     -- brs     bris    N0      Press
 
-    FCiL                      `noun`    {- bris -}             [ "Press" ] ]
+    FCiL                      `noun`    {- bris -}             [ "Press" ],
+
+    -- ;; buruwsiy~_1
+    -- brwsy   buruwsiy~       Nall    Prussian     [[buruwsiy~/NOUN]]
+    -- brwsy   buruwsiy~       Nall    Prussian     [[buruwsiy~/ADJ]]
+
+    FuCUL |< Iy               `adj`     {- buruwsiy~ -}        [ "Prussian" ] ]
 
  |> "b r s m" <| [
 
@@ -11380,7 +11405,17 @@ lexicon = listing "Lexicon's properties"
     -- bstAn   busotAn Ndu     garden
     -- bsAtyn  basAtiyn        Ndip    gardens
 
-    FuCLAn                    `noun`    {- busotAn -}          [ "garden", "gardens" ] ]
+    FuCLAn                    `noun`    {- busotAn -}          [ "garden", "gardens" ],
+
+    -- ;; busotAniy~_1
+    -- bstAny  busotAniy~      N       Boustani
+
+    FuCLAn |< Iy              `adj`     {- busotAniy~ -}       [ "Boustani" ],
+
+    -- ;; busotAniy~_2
+    -- bstAny  busotAniy~      Nall    gardener     [[busotAniy~/ADJ]]
+
+    FuCLAn |< Iy              `adj`     {- busotAniy~ -}       [ "gardener" ] ]
 
  |> "b s t n" <| [
 
@@ -11391,6 +11426,16 @@ lexicon = listing "Lexicon's properties"
     KuRDAS                    `noun`    {- busotAn -}          [ "garden", "gardens" ]
                               `plural`     KaRADIS
                            {- `others`  [ "basAtiyn Ndip" ] -},
+
+    -- ;; busotAniy~_1
+    -- bstAny  busotAniy~      N       Boustani
+
+    KuRDAS |< Iy              `adj`     {- busotAniy~ -}       [ "Boustani" ],
+
+    -- ;; busotAniy~_2
+    -- bstAny  busotAniy~      Nall    gardener     [[busotAniy~/ADJ]]
+
+    KuRDAS |< Iy              `adj`     {- busotAniy~ -}       [ "gardener" ],
 
     -- ;; basotanap_1
     -- bstn    basotan Nap     gardening
@@ -11405,7 +11450,12 @@ lexicon = listing "Lexicon's properties"
     KiRDUS                    `noun`    {- bisotuwn -}         [ "piston", "pistons" ]
                               `plural`     KaRADiS
                               `plural`     KiRDUS |< At
-                           {- `others`  [ "basAtin Ndip" ] -} ]
+                           {- `others`  [ "basAtin Ndip" ] -},
+
+    -- ;; bastuwniy~_1
+    -- bstwny  bastuwniy~      N       spades
+
+    KaRDUS |< Iy              `adj`     {- bastuwniy~ -}       [ "spades" ] ]
 
  |> "b s t r" <| [
 
@@ -14860,13 +14910,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- baluw$iysotAn -}    [ "Baluchistan" ] ]
 
- |> "baluw^siyy" <| [
-
-    -- ;; baluw$iy~_1
-    -- blw$y   baluw$iy~       Nall    Baluchi
-
-    Identity                  `noun`    {- baluw$iy~ -}        [ "Baluchi" ] ]
-
  |> "ban.gAluwr" <| [
 
     -- ;; banogAluwr_1
@@ -15118,13 +15161,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- basotil~ap -}       [ "tub" ] ]
 
- |> "bastuwniyy" <| [
-
-    -- ;; bastuwniy~_1
-    -- bstwny  bastuwniy~      N       spades
-
-    Identity                  `noun`    {- bastuwniy~ -}       [ "spades" ] ]
-
  |> "basyuwniy" <| [
 
     -- ;; basoyuwniy_1
@@ -15278,28 +15314,24 @@ lexicon = listing "Lexicon's properties"
     -- ;; biliyz_1
     -- blyz    biliyz  N0      Belize
 
-    Identity                  `noun`    {- biliyz -}           [ "Belize" ] ]
-
- |> "biliyziyy" <| [
+    Identity                  `noun`    {- biliyz -}           [ "Belize" ],
 
     -- ;; biliyziy~_1
     -- blyzy   biliyziy~       Nall    Belizean;Belizian
 
-    Identity                  `noun`    {- biliyziy~ -}        [ "Belizean", "Belizian" ] ]
+    Identity |< Iy            `adj`     {- biliyziy~ -}        [ "Belizean", "Belizian" ] ]
 
  |> "billawr" <| [
 
     -- ;; bil~awr_1
     -- blwr    bil~awr N/ap    crystal
 
-    Identity                  `noun`    {- bil~awr -}          [ "crystal" ] ]
-
- |> "billawriyy" <| [
+    Identity                  `noun`    {- bil~awr -}          [ "crystal" ],
 
     -- ;; bil~aworiy~_1
     -- blwry   bil~aworiy~     Nall    crystalline     [[bil~aworiy~/ADJ]]
 
-    Identity                  `adj`     {- bil~aworiy~ -}      [ "crystalline" ] ]
+    Identity |< Iy            `adj`     {- bil~aworiy~ -}      [ "crystalline" ] ]
 
  |> "billiy" <| [
 
@@ -15347,13 +15379,6 @@ lexicon = listing "Lexicon's properties"
     -- bm      bima    FW-Wa   with what    [[be/PREP+ma/INTERROG_PART]]
 
     Identity                  `noun`    {- bima -}             [ "with what" ] ]
-
- |> "bimbA^siyy" <| [
-
-    -- ;; bimobA$iy~_1
-    -- bmbA$y  bimobA$iy~      Nall    lieutenant colonel     [[bimobA$iy~/ADJ]]
-
-    Identity                  `adj`     {- bimobA$iy~ -}       [ "lieutenant colonel" ] ]
 
  |> "binAltiy" <| [
 
@@ -15802,13 +15827,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- biyruwziy -}        [ "Piruzi" ] ]
 
- |> "biyrwAniyy" <| [
+ |> "biyrwAn" <| [
 
     -- ;; biyrwAniy~_1
     -- byrwAny biyrwAniy~      Nall    Peruvian     [[biyrwAniy~/NOUN]]
     -- byrwAny biyrwAniy~      Nall    Peruvian     [[biyrwAniy~/ADJ]]
 
-    Identity                  `adj`     {- biyrwAniy~ -}       [ "Peruvian" ] ]
+    Identity |< Iy            `adj`     {- biyrwAniy~ -}       [ "Peruvian" ] ]
 
  |> "biysuw" <| [
 
@@ -15913,13 +15938,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- biyziytA -}         [ "peseta" ] ]
 
- |> "bizan.tiyy" <| [
+ |> "bizan.t" <| [
 
     -- ;; bizanoTiy~_1
     -- bznTy   bizanoTiy~      Nall    Byzantine     [[bizanoTiy~/NOUN]]
     -- bznTy   bizanoTiy~      Nall    Byzantine     [[bizanoTiy~/ADJ]]
 
-    Identity                  `adj`     {- bizanoTiy~ -}       [ "Byzantine" ] ]
+    Identity |< Iy            `adj`     {- bizanoTiy~ -}       [ "Byzantine" ] ]
 
  |> "bizill" <| [
 
@@ -16076,6 +16101,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bluwtuw -}          [ "Pluto" ] ]
 
+ |> "bluwtuwn" <| [
+
+    -- ;; bluwtuwniy~_1
+    -- blwtwny bluwtuwniy~     Nall    plutonium     [[bluwtuwniy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- bluwtuwniy~ -}      [ "plutonium" ] ]
+
  |> "bluwtuwniyuwm" <| [
 
     -- ;; bluwtuwniyuwm_1
@@ -16083,30 +16115,23 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bluwtuwniyuwm -}    [ "plutonium" ] ]
 
- |> "bluwtuwniyy" <| [
-
-    -- ;; bluwtuwniy~_1
-    -- blwtwny bluwtuwniy~     Nall    plutonium     [[bluwtuwniy~/ADJ]]
-
-    Identity                  `adj`     {- bluwtuwniy~ -}      [ "plutonium" ] ]
-
- |> "bluwtuwqrA.tiyy" <| [
+ |> "bluwtuwqrA.t" <| [
 
     -- ;; bluwtuwqrATiy~_1
     -- blwtwqrATy      bluwtuwqrATiy~  Nall    plutocrat
 
-    Identity                  `noun`    {- bluwtuwqrATiy~ -}   [ "plutocrat" ],
+    Identity |< Iy            `adj`     {- bluwtuwqrATiy~ -}   [ "plutocrat" ],
 
     -- ;; bluwtuwqrATiy~_2
     -- blwtwqrATy      bluwtuwqrATiy~  Nall    plutocratic     [[bluwtuwqrATiy~/ADJ]]
 
-    Identity                  `adj`     {- bluwtuwqrATiy~ -}   [ "plutocratic" ],
+    Identity |< Iy            `adj`     {- bluwtuwqrATiy~ -}   [ "plutocratic" ],
 
     -- ;; bluwtuwqrATiy~ap_1
     -- blwtwqrATy      bluwtuwqrATiy~  Napdu   plutocracy     [[bluwtuwqrATiy~/ADJ]]
     -- blwtwqrATy      bluwtuwqrATiy~  NAt     plutocracies     [[bluwtuwqrATiy~/ADJ]]
 
-    Identity |< aT            `adj`     {- bluwtuwqrATiy~ap -} [ "plutocracy", "plutocracies" ] ]
+    Identity |< Iy |< aT      `adj`     {- bluwtuwqrATiy~ap -} [ "plutocracy", "plutocracies" ] ]
 
  |> "bluwz" <| [
 
@@ -16233,20 +16258,20 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- briyg -}            [ "Brig" ] ]
 
+ |> "briy.tAn" <| [
+
+    -- ;; briyTAniy~_1
+    -- bryTAny briyTAniy~      Nall    British     [[biriyTAniy~/NOUN]]
+    -- bryTAny briyTAniy~      Nall    British     [[biriyTAniy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- briyTAniy~ -}       [ "British" ] ]
+
  |> "briy.tAniyA" <| [
 
     -- ;; briyTAniyA_1
     -- bryTAnyA        briyTAniyA      N0      Britain
 
     Identity                  `noun`    {- briyTAniyA -}       [ "Britain" ] ]
-
- |> "briy.tAniyy" <| [
-
-    -- ;; briyTAniy~_1
-    -- bryTAny briyTAniy~      Nall    British     [[biriyTAniy~/NOUN]]
-    -- bryTAny briyTAniy~      Nall    British     [[biriyTAniy~/ADJ]]
-
-    Identity                  `adj`     {- briyTAniy~ -}       [ "British" ] ]
 
  |> "briy^giyt" <| [
 
@@ -16371,19 +16396,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bruwkosil -}        [ "Brussels" ] ]
 
+ |> "bruwliytAr" <| [
+
+    -- ;; bruwliytAriy~_1
+    -- brwlytAry       bruwliytAriy~   Nall    proletarian     [[bruwliytAriy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- bruwliytAriy~ -}    [ "proletarian" ] ]
+
  |> "bruwliytAriyA" <| [
 
     -- ;; bruwliytAriyA_1
     -- brwlytAryA      bruwliytAriyA   N0      proletariat
 
     Identity                  `noun`    {- bruwliytAriyA -}    [ "proletariat" ] ]
-
- |> "bruwliytAriyy" <| [
-
-    -- ;; bruwliytAriy~_1
-    -- brwlytAry       bruwliytAriy~   Nall    proletarian     [[bruwliytAriy~/ADJ]]
-
-    Identity                  `adj`     {- bruwliytAriy~ -}    [ "proletarian" ] ]
 
  |> "bruwnAy" <| [
 
@@ -16406,7 +16431,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bruwsiyA -}         [ "Prussia" ] ]
 
- |> "bruwtistAntiyy" <| [
+ |> "bruwtistAnt" <| [
 
     -- ;; bruwtisotAnotiy~_1
     -- brwtstAnty      bruwtisotAnotiy~        Nall    Protestant     [[bruwtisotAntiy~/NOUN]]
@@ -16415,7 +16440,7 @@ lexicon = listing "Lexicon's properties"
     -- brwtstAntyny    bruwtisotAnotiyniy~     Nall    Protestant     [[bruwtisotAntiyniy~/ADJ]]
     -- brwtstAnt       bruwtisotAnt    N       Protestants
 
-    Identity                  `adj`     {- bruwtisotAnotiy~ -} [ "Protestant", "Protestants" ] ]
+    Identity |< Iy            `adj`     {- bruwtisotAnotiy~ -} [ "Protestant", "Protestants" ] ]
 
  |> "bruwtistuw" <| [
 
@@ -16437,14 +16462,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; bruwtuwkuwl_1
     -- brwtwkwl        bruwtuwkuwl     NduAt   protocol
 
-    Identity                  `noun`    {- bruwtuwkuwl -}      [ "protocol" ] ]
-
- |> "bruwtuwkuwliyy" <| [
+    Identity                  `noun`    {- bruwtuwkuwl -}      [ "protocol" ],
 
     -- ;; bruwtuwkuwliy~_1
     -- brwtwkwly       bruwtuwkuwliy~  Nall    protocol     [[bruwtuwkuwliy~/ADJ]]
 
-    Identity                  `adj`     {- bruwtuwkuwliy~ -}   [ "protocol" ] ]
+    Identity |< Iy            `adj`     {- bruwtuwkuwliy~ -}   [ "protocol" ] ]
 
  |> "bruwtuwn" <| [
 
@@ -16613,46 +16636,17 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- burunojuk -}        [ "gauze", "crepe" ] ]
 
- |> "buruw^giyy" <| [
-
-    -- ;; buruwjiy~_1
-    -- brwjy   buruwjiy~       Nall    trumpeter;bugler     [[buruwjiy~/ADJ]]
-
-    Identity                  `adj`     {- buruwjiy~ -}        [ "trumpeter", "bugler" ] ]
-
  |> "buruwnz" <| [
 
     -- ;; buruwnz_1
     -- brwnz   buruwnz N       bronze
 
-    Identity                  `noun`    {- buruwnz -}          [ "bronze" ] ]
-
- |> "buruwnziyy" <| [
+    Identity                  `noun`    {- buruwnz -}          [ "bronze" ],
 
     -- ;; buruwnoziy~_1
     -- brwnzy  buruwnoziy~     Nall    bronze     [[buruwnoziy~/ADJ]]
 
-    Identity                  `adj`     {- buruwnoziy~ -}      [ "bronze" ] ]
-
- |> "buruwsiyy" <| [
-
-    -- ;; buruwsiy~_1
-    -- brwsy   buruwsiy~       Nall    Prussian     [[buruwsiy~/NOUN]]
-    -- brwsy   buruwsiy~       Nall    Prussian     [[buruwsiy~/ADJ]]
-
-    Identity                  `adj`     {- buruwsiy~ -}        [ "Prussian" ] ]
-
- |> "bustAniyy" <| [
-
-    -- ;; busotAniy~_1
-    -- bstAny  busotAniy~      N       Boustani
-
-    Identity                  `noun`    {- busotAniy~ -}       [ "Boustani" ],
-
-    -- ;; busotAniy~_2
-    -- bstAny  busotAniy~      Nall    gardener     [[busotAniy~/ADJ]]
-
-    Identity                  `adj`     {- busotAniy~ -}       [ "gardener" ] ]
+    Identity |< Iy            `adj`     {- buruwnoziy~ -}      [ "bronze" ] ]
 
  |> "buw.haliyq" <| [
 

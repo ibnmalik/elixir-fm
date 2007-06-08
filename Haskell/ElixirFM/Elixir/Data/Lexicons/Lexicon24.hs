@@ -104,6 +104,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `verb`    {- OamoDaY -}          [ "spend", "accomplish", "finalize", "be spent", "be accomplished", "be finalized" ],
 
+    FuCIL                     `noun`    {- muDiy~ -}           [ "expiration", "continuation", "pursuit" ],
+
     HiFCA'                    `noun`    {- IimoDA' -}          [ "signing", "signature" ]
                               `plural`     HiFCA' |< At,
 
@@ -1896,10 +1898,6 @@ lexicon = listing "Lexicon's properties"
  |> "mlm" <| [
 
     Identity                  `noun`    {- mlm -}              [ "millimeter" ] ]
-
- |> "mu.diyy" <| [
-
-    Identity                  `noun`    {- muDiy~ -}           [ "expiration", "continuation", "pursuit" ] ]
 
  |> "mullA" <| [
 

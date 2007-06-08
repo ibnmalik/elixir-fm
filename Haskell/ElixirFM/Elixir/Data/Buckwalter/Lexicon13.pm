@@ -6362,6 +6362,42 @@ $Lexicon = {
       ],
       'orig' => 'muta$Akil',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        '^suwkuwlAtiyy' => {
+          'Nall' => 1
+        },
+        '^sukuwlA.tiyy' => {
+          'Nall' => 1
+        },
+        '^siykuwlAtiyy' => {
+          'Nall' => 1
+        },
+        '^sukulA.tiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => '^sukuwl',
+      'form' => '^sukuwlAtiyy',
+      'lines' => [
+        ';; $ukuwlAtiy~_1',
+        '$kwlAty $ukuwlAtiy~     Nall    chocolate     [[$ukuwlAtiy~/ADJ]]',
+        '$wkwlAty        $uwkuwlAtiy~    Nall    chocolate     [[$uwkuwlAtiy~/ADJ]]',
+        '$ykwlAty        $iykuwlAtiy~    Nall    chocolate     [[$iykuwlAtiy~/ADJ]]',
+        '$kwlATy $ukuwlATiy~     Nall    chocolate     [[$ukuwlATiy~/ADJ]]',
+        '$klATy  $ukulATiy~      Nall    chocolate     [[$ukulATiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuCUL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'chocolate'
+      ],
+      'orig' => '$ukuwlAtiy~',
+      'prefix' => ''
     }
   ],
   '^s ` n n' => [
@@ -14753,6 +14789,25 @@ $Lexicon = {
       ],
       'orig' => '$iroyAn',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '^siryAn',
+      'form' => '^siryAniyy',
+      'lines' => [
+        ';; $iroyAniy~_1',
+        '$ryAny  $iroyAniy~      N-ap    arterial     [[$iroyAniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FiCLAn |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'arterial'
+      ],
+      'orig' => '$iroyAniy~',
+      'prefix' => ''
     }
   ],
   '^s t l' => [
@@ -18630,27 +18685,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ta^sriyfAt' => [
-    {
-      'types' => {},
-      'entry' => 'ta^sriyfAt',
-      'form' => 'ta^sriyfAtiyy',
-      'lines' => [
-        ';; ta$oriyfAtiy~_1',
-        't$ryfAty        ta$oriyfAtiy~   N-ap    ceremonial     [[ta$oriyfAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'ceremonial'
-      ],
-      'orig' => 'ta$oriyfAtiy~',
-      'prefix' => ''
-    }
-  ],
   '^s q y' => [
     {
       'types' => {
@@ -21295,6 +21329,26 @@ $Lexicon = {
       ],
       'orig' => '$ahowAn',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '^sahwAn',
+      'form' => '^sahwAniyy',
+      'lines' => [
+        ';; $ahowAniy~_1',
+        '$hwAny  $ahowAniy~      Nall    covetous;debauched     [[$ahowAniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCLAn |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'covetous',
+        'debauched'
+      ],
+      'orig' => '$ahowAniy~',
+      'prefix' => ''
     }
   ],
   '^s ` w \'' => [
@@ -22223,6 +22277,25 @@ $Lexicon = {
         'protocol'
       ],
       'orig' => 'ta$oriyfAt',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta^sriyf',
+      'form' => 'ta^sriyfAtiyy',
+      'lines' => [
+        ';; ta$oriyfAtiy~_1',
+        't$ryfAty        ta$oriyfAtiy~   N-ap    ceremonial     [[ta$oriyfAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'TaFCIL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'ceremonial'
+      ],
+      'orig' => 'ta$oriyfAtiy~',
       'prefix' => ''
     },
     {
@@ -29832,27 +29905,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^siryAniyy' => [
-    {
-      'types' => {},
-      'entry' => '^siryAniyy',
-      'form' => '^siryAniyy',
-      'lines' => [
-        ';; $iroyAniy~_1',
-        '$ryAny  $iroyAniy~      N-ap    arterial     [[$iroyAniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'arterial'
-      ],
-      'orig' => '$iroyAniy~',
-      'prefix' => ''
-    }
-  ],
   '^s _h r' => [
     {
       'types' => {
@@ -30366,46 +30418,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^s l w' => [
-    {
-      'types' => {
-        '\'a^slA\'' => {
-          'Nh' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
-        }
-      },
-      'entry' => '^silw',
-      'form' => '^silw',
-      'lines' => [
-        ';; $ilow_1',
-        '$lw     $ilow   N       limb;corpse',
-        '>$lA\'   >a$olA\' N0_Nh   limbs;corpses',
-        'A$lA\'   >a$olA\' N0_Nh   limbs;corpses',
-        '>$lA&   >a$olA& Nh      limbs;corpses',
-        'A$lA&   >a$olA& Nh      limbs;corpses',
-        '>$lA}   >a$olA} Nhy     limbs;corpses',
-        'A$lA}   >a$olA} Nhy     limbs;corpses'
-      ],
-      'patterns' => {
-        '\'a^slA\'' => [
-          'HaFCA\''
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCL',
-      'suffix' => '',
-      'glosses' => [
-        'limb',
-        'corpse',
-        'limbs',
-        'corpses'
-      ],
-      'orig' => '$ilow',
-      'prefix' => ''
-    }
-  ],
   '^s _d l' => [
     {
       'types' => {},
@@ -30496,6 +30508,46 @@ $Lexicon = {
         'prattle'
       ],
       'orig' => '$aqA$iq',
+      'prefix' => ''
+    }
+  ],
+  '^s l w' => [
+    {
+      'types' => {
+        '\'a^slA\'' => {
+          'Nh' => 2,
+          'Nhy' => 2,
+          'N0_Nh' => 2
+        }
+      },
+      'entry' => '^silw',
+      'form' => '^silw',
+      'lines' => [
+        ';; $ilow_1',
+        '$lw     $ilow   N       limb;corpse',
+        '>$lA\'   >a$olA\' N0_Nh   limbs;corpses',
+        'A$lA\'   >a$olA\' N0_Nh   limbs;corpses',
+        '>$lA&   >a$olA& Nh      limbs;corpses',
+        'A$lA&   >a$olA& Nh      limbs;corpses',
+        '>$lA}   >a$olA} Nhy     limbs;corpses',
+        'A$lA}   >a$olA} Nhy     limbs;corpses'
+      ],
+      'patterns' => {
+        '\'a^slA\'' => [
+          'HaFCA\''
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCL',
+      'suffix' => '',
+      'glosses' => [
+        'limb',
+        'corpse',
+        'limbs',
+        'corpses'
+      ],
+      'orig' => '$ilow',
       'prefix' => ''
     }
   ],
@@ -35164,28 +35216,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^sahwAniyy' => [
-    {
-      'types' => {},
-      'entry' => '^sahwAniyy',
-      'form' => '^sahwAniyy',
-      'lines' => [
-        ';; $ahowAniy~_1',
-        '$hwAny  $ahowAniy~      Nall    covetous;debauched     [[$ahowAniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'covetous',
-        'debauched'
-      ],
-      'orig' => '$ahowAniy~',
-      'prefix' => ''
-    }
-  ],
   '^s r _d m' => [
     {
       'types' => {},
@@ -38947,42 +38977,6 @@ $Lexicon = {
         'chocolate'
       ],
       'orig' => '$ukuwlAtap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '^suwkuwlAtiyy' => {
-          'Nall' => 1
-        },
-        '^sukuwlA.tiyy' => {
-          'Nall' => 1
-        },
-        '^siykuwlAtiyy' => {
-          'Nall' => 1
-        },
-        '^sukulA.tiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => '^sukuwlAt',
-      'form' => '^sukuwlAtiyy',
-      'lines' => [
-        ';; $ukuwlAtiy~_1',
-        '$kwlAty $ukuwlAtiy~     Nall    chocolate     [[$ukuwlAtiy~/ADJ]]',
-        '$wkwlAty        $uwkuwlAtiy~    Nall    chocolate     [[$uwkuwlAtiy~/ADJ]]',
-        '$ykwlAty        $iykuwlAtiy~    Nall    chocolate     [[$iykuwlAtiy~/ADJ]]',
-        '$kwlATy $ukuwlATiy~     Nall    chocolate     [[$ukuwlATiy~/ADJ]]',
-        '$klATy  $ukulATiy~      Nall    chocolate     [[$ukulATiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'chocolate'
-      ],
-      'orig' => '$ukuwlAtiy~',
       'prefix' => ''
     }
   ],

@@ -4842,7 +4842,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; $ahowAn_2
     -- \$hwAn   $ahowAn Nprop   Shehwan;Shahwan
 
-    FaCLAn                    `noun`    {- \$ahowAn -}         [ "Shehwan", "Shahwan" ] ]
+    FaCLAn                    `noun`    {- \$ahowAn -}         [ "Shehwan", "Shahwan" ],
+
+    -- ;; $ahowAniy~_1
+    -- \$hwAny  $ahowAniy~      Nall    covetous;debauched     [[$ahowAniy~/ADJ]]
+
+    FaCLAn |< Iy              `adj`     {- \$ahowAniy~ -}      [ "covetous", "debauched" ] ]
 
  |> "^s h w y" <| [
 
@@ -5299,7 +5304,16 @@ lexicon = listing "Lexicon's properties"
     -- ;; muta$Akil_1
     -- mt$Akl  muta$Akil       Nall    similar;uniform;isomorphic     [[muta$Akil/ADJ]]
 
-    MutaFACiL                 `adj`     {- muta$Akil -}        [ "similar", "uniform", "isomorphic" ] ]
+    MutaFACiL                 `adj`     {- muta$Akil -}        [ "similar", "uniform", "isomorphic" ],
+
+    -- ;; $ukuwlAtiy~_1
+    -- \$kwlAty $ukuwlAtiy~     Nall    chocolate     [[$ukuwlAtiy~/ADJ]]
+    -- \$wkwlAty        $uwkuwlAtiy~    Nall    chocolate     [[$uwkuwlAtiy~/ADJ]]
+    -- \$ykwlAty        $iykuwlAtiy~    Nall    chocolate     [[$iykuwlAtiy~/ADJ]]
+    -- \$kwlATy $ukuwlATiy~     Nall    chocolate     [[$ukuwlATiy~/ADJ]]
+    -- \$klATy  $ukulATiy~      Nall    chocolate     [[$ukulATiy~/ADJ]]
+
+    FuCUL |< At |< Iy         `adj`     {- \$ukuwlAtiy~ -}     [ "chocolate" ] ]
 
  |> "^s k m" <| [
 
@@ -8319,6 +8333,11 @@ lexicon = listing "Lexicon's properties"
     TaFCIL |< At              `noun`    {- ta$oriyfAt -}       [ "honors", "ceremonies", "protocol" ]
                               `plural`     TaFCIL |< At,
 
+    -- ;; ta$oriyfAtiy~_1
+    -- t$ryfAty        ta$oriyfAtiy~   N-ap    ceremonial     [[ta$oriyfAtiy~/ADJ]]
+
+    TaFCIL |< At |< Iy        `adj`     {- ta$oriyfAtiy~ -}    [ "ceremonial" ],
+
     -- ;; mu$Arafap_1
     -- m$Arf   mu$Araf NapAt   supervision;overview
 
@@ -9113,7 +9132,12 @@ lexicon = listing "Lexicon's properties"
     -- \$ryAn   $iroyAn Ndu     artery
     -- \$rAyyn  $arAyiyn        Ndip    arteries
 
-    FiCLAn                    `noun`    {- \$iroyAn -}         [ "artery", "arteries" ] ]
+    FiCLAn                    `noun`    {- \$iroyAn -}         [ "artery", "arteries" ],
+
+    -- ;; $iroyAniy~_1
+    -- \$ryAny  $iroyAniy~      N-ap    arterial     [[$iroyAniy~/ADJ]]
+
+    FiCLAn |< Iy              `adj`     {- \$iroyAniy~ -}      [ "arterial" ] ]
 
  |> "^s r z" <| [
 
@@ -11547,13 +11571,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- \$abako$iy -}       [ "Shabakshi" ] ]
 
- |> "^sahwAniyy" <| [
-
-    -- ;; $ahowAniy~_1
-    -- \$hwAny  $ahowAniy~      Nall    covetous;debauched     [[$ahowAniy~/ADJ]]
-
-    Identity                  `adj`     {- \$ahowAniy~ -}      [ "covetous", "debauched" ] ]
-
  |> "^sam`adAn" <| [
 
     -- ;; $amoEadAn_1
@@ -11721,13 +11738,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- \$inuwdap -}        [ "Shenouda" ] ]
 
- |> "^siryAniyy" <| [
-
-    -- ;; $iroyAniy~_1
-    -- \$ryAny  $iroyAniy~      N-ap    arterial     [[$iroyAniy~/ADJ]]
-
-    Identity                  `adj`     {- \$iroyAniy~ -}      [ "arterial" ] ]
-
  |> "^siyfruwn" <| [
 
     -- ;; $iyforuwn_1
@@ -11867,16 +11877,7 @@ lexicon = listing "Lexicon's properties"
     -- \$kwlAT  $ukuwlAT        NapAt   chocolate
     -- \$klAT   $ukulAT NapAt   chocolate
 
-    Identity |< aT            `noun`    {- \$ukuwlAtap -}      [ "chocolate" ],
-
-    -- ;; $ukuwlAtiy~_1
-    -- \$kwlAty $ukuwlAtiy~     Nall    chocolate     [[$ukuwlAtiy~/ADJ]]
-    -- \$wkwlAty        $uwkuwlAtiy~    Nall    chocolate     [[$uwkuwlAtiy~/ADJ]]
-    -- \$ykwlAty        $iykuwlAtiy~    Nall    chocolate     [[$iykuwlAtiy~/ADJ]]
-    -- \$kwlATy $ukuwlATiy~     Nall    chocolate     [[$ukuwlATiy~/ADJ]]
-    -- \$klATy  $ukulATiy~      Nall    chocolate     [[$ukulATiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- \$ukuwlAtiy~ -}     [ "chocolate" ] ]
+    Identity |< aT            `noun`    {- \$ukuwlAtap -}      [ "chocolate" ] ]
 
  |> "^sutanbir" <| [
 
@@ -11997,11 +11998,4 @@ lexicon = listing "Lexicon's properties"
     -- m$r}b   mu$ora}ib~      Nall    craning the neck;stretching the neck
 
     Identity                  `noun`    {- mu$ora}ib~ -}       [ "craning the neck", "stretching the neck" ] ]
-
- |> "ta^sriyfAt" <| [
-
-    -- ;; ta$oriyfAtiy~_1
-    -- t$ryfAty        ta$oriyfAtiy~   N-ap    ceremonial     [[ta$oriyfAtiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- ta$oriyfAtiy~ -}    [ "ceremonial" ] ]
 

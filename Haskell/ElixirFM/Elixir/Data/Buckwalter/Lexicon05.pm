@@ -5714,33 +5714,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^giyuw.grAfiyy' => [
-    {
-      'types' => {
-        '^giyuw.grAfiyk' => {
-          'N0' => 1
-        }
-      },
-      'entry' => '^giyuw.grAfiyy',
-      'form' => '^giyuw.grAfiyy',
-      'lines' => [
-        ';; jiyuwgrAfiy~_1',
-        'jywgrAfy        jiyuwgrAfiy~    Nall    geographical     [[jiyuwgrAfiy~/ADJ]]',
-        'jywgrAfyk       jiyuwgrAfiyk    N0      geographic'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'geographical',
-        'geographic'
-      ],
-      'orig' => 'jiyuwgrAfiy~',
-      'prefix' => ''
-    }
-  ],
   '^guwlf' => [
     {
       'types' => {},
@@ -8968,6 +8941,29 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '^giyuwluw^g' => [
+    {
+      'types' => {},
+      'entry' => '^giyuwluw^g',
+      'form' => '^giyuwluw^giyy',
+      'lines' => [
+        ';; jiyuwluwjiy~_1',
+        'jywlwjy jiyuwluwjiy~    Nall    geological    [[jiyuwluwjiy~/ADJ]]',
+        'jywlwjy jiyuwluwjiy~    Nall    geologist     [[jiyuwluwjiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'geological',
+        'geologist'
+      ],
+      'orig' => 'jiyuwluwjiy~',
+      'prefix' => ''
+    }
+  ],
   '^g ^s n y' => [
     {
       'types' => {},
@@ -11462,27 +11458,6 @@ $Lexicon = {
         'public'
       ],
       'orig' => 'mujAhir',
-      'prefix' => ''
-    }
-  ],
-  '^guwiyl' => [
-    {
-      'types' => {},
-      'entry' => '^guwiyl',
-      'form' => '^guwiyl',
-      'lines' => [
-        ';; juwiyl_1',
-        'jwyl    juwiyl  Nprop   Joel'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Joel'
-      ],
-      'orig' => 'juwiyl',
       'prefix' => ''
     }
   ],
@@ -16392,6 +16367,25 @@ $Lexicon = {
         'itinerant'
       ],
       'orig' => 'mutajaw~il',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '^guwiyl',
+      'form' => '^guwiyl',
+      'lines' => [
+        ';; juwiyl_1',
+        'jwyl    juwiyl  Nprop   Joel'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCIL',
+      'suffix' => '',
+      'glosses' => [
+        'Joel'
+      ],
+      'orig' => 'juwiyl',
       'prefix' => ''
     }
   ],
@@ -28260,29 +28254,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^giyuwluw^giyy' => [
-    {
-      'types' => {},
-      'entry' => '^giyuwluw^giyy',
-      'form' => '^giyuwluw^giyy',
-      'lines' => [
-        ';; jiyuwluwjiy~_1',
-        'jywlwjy jiyuwluwjiy~    Nall    geological    [[jiyuwluwjiy~/ADJ]]',
-        'jywlwjy jiyuwluwjiy~    Nall    geologist     [[jiyuwluwjiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'geological',
-        'geologist'
-      ],
-      'orig' => 'jiyuwluwjiy~',
-      'prefix' => ''
-    }
-  ],
   '^guwliyA' => [
     {
       'types' => {},
@@ -38595,6 +38566,33 @@ $Lexicon = {
         'pounds'
       ],
       'orig' => 'jiniyh',
+      'prefix' => ''
+    }
+  ],
+  '^giyuw.grAf' => [
+    {
+      'types' => {
+        '^giyuw.grAfiyk' => {
+          'N0' => 1
+        }
+      },
+      'entry' => '^giyuw.grAf',
+      'form' => '^giyuw.grAfiyy',
+      'lines' => [
+        ';; jiyuwgrAfiy~_1',
+        'jywgrAfy        jiyuwgrAfiy~    Nall    geographical     [[jiyuwgrAfiy~/ADJ]]',
+        'jywgrAfyk       jiyuwgrAfiyk    N0      geographic'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'geographical',
+        'geographic'
+      ],
+      'orig' => 'jiyuwgrAfiy~',
       'prefix' => ''
     }
   ],

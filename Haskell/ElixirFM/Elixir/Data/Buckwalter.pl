@@ -274,6 +274,12 @@ sub closeEntry {
             $suffix = ' |< aN' . $suffix;
         }
 
+        if ($entry =~ /^(.+)([aiu])$/) {
+
+            $entry = $1;
+            $suffix = ' |<< "' . $2 . '"' . $suffix;
+        }
+
         if ($entry =~ /^(.+)aT$/) {
 
             $entry = $1;
@@ -306,7 +312,12 @@ sub closeEntry {
                 $entry = $1 . "Y";
                 $suffix = ' |< Iy' . $suffix;
             }
-            elsif ($entry =~ /^(.+(?:o[wy]|ww|yy|A\'))iyy$/) {
+            elsif ($entry =~ /^(.+)(?:At)iyy$/) {
+
+                $entry = $1;
+                $suffix = ' |< At |< Iy' . $suffix;
+            }
+            elsif ($entry =~ /^(.+(?:o[wy]|ww|yy|A[\'n]))iyy$/) {
 
                 $entry = $1;
                 $suffix = ' |< Iy' . $suffix;
@@ -328,6 +339,31 @@ sub closeEntry {
         foreach my $tag (keys %{$Entry->{'tags'}}) {
 
             $Entry->{'entity'} = 'adj' if $tag =~ /\/ADJ/;
+        }
+
+        foreach my $tag (keys %{$Entry->{'tags'}}) {
+
+            $Entry->{'entity'} = 'pron' if $tag =~ /\/(?:[A-Z\_]+)?PRON/;
+        }
+
+        foreach my $tag (keys %{$Entry->{'tags'}}) {
+
+            $Entry->{'entity'} = 'adv' if $tag =~ /\/ADV/;
+        }
+
+        foreach my $tag (keys %{$Entry->{'tags'}}) {
+
+            $Entry->{'entity'} = 'prep' if $tag =~ /\/PREP/;
+        }
+
+        foreach my $tag (keys %{$Entry->{'tags'}}) {
+
+            $Entry->{'entity'} = 'conj' if $tag =~ /\/CONJ/;
+        }
+
+        foreach my $tag (keys %{$Entry->{'tags'}}) {
+
+            $Entry->{'entity'} = 'part' if $tag =~ /\/FUNC|\_PART/;
         }
 
         delete $Entry->{'tags'};

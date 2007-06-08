@@ -3726,6 +3726,32 @@ $Lexicon = {
       ],
       'orig' => 'TAjiykisotAn',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        'tA^giykistAniyy' => {
+          'Nall' => 2
+        }
+      },
+      'entry' => '.tA^giykistAn',
+      'form' => '.tA^giykistAniyy',
+      'lines' => [
+        ';; TAjiykisotAniy~_1',
+        'TAjykstAny      TAjiykisotAniy~ Nall    Tajikistani     [[TAjiykisotAniy~/NOUN]]',
+        'TAjykstAny      TAjiykisotAniy~ Nall    Tajikistani     [[TAjiykisotAniy~/ADJ]]',
+        'tAjykstAny      tAjiykisotAniy~ Nall    Tajikistani     [[tAjiykisotAniy~/NOUN]]',
+        'tAjykstAny      tAjiykisotAniy~ Nall    Tajikistani     [[tAjiykisotAniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Tajikistani'
+      ],
+      'orig' => 'TAjiykisotAniy~',
+      'prefix' => ''
     }
   ],
   '.tuwlkarm' => [
@@ -10915,27 +10941,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.tA^giykiyy' => [
-    {
-      'types' => {},
-      'entry' => '.tA^giykiyy',
-      'form' => '.tA^giykiyy',
-      'lines' => [
-        ';; TAjiykiy~_1',
-        'TAjyky  TAjiykiy~       Nall    Tajik'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tajik'
-      ],
-      'orig' => 'TAjiykiy~',
-      'prefix' => ''
-    }
-  ],
   '.t \' .t \'' => [
     {
       'types' => {
@@ -11028,6 +11033,27 @@ $Lexicon = {
         'inclined'
       ],
       'orig' => 'muTaOoTaO',
+      'prefix' => ''
+    }
+  ],
+  '.tA^giykiyy' => [
+    {
+      'types' => {},
+      'entry' => '.tA^giykiyy',
+      'form' => '.tA^giykiyy',
+      'lines' => [
+        ';; TAjiykiy~_1',
+        'TAjyky  TAjiykiy~       Nall    Tajik'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tajik'
+      ],
+      'orig' => 'TAjiykiy~',
       'prefix' => ''
     }
   ],
@@ -21779,34 +21805,6 @@ $Lexicon = {
         'mountains'
       ],
       'orig' => 'Tawod',
-      'prefix' => ''
-    }
-  ],
-  '.tA^giykistAniyy' => [
-    {
-      'types' => {
-        'tA^giykistAniyy' => {
-          'Nall' => 2
-        }
-      },
-      'entry' => '.tA^giykistAniyy',
-      'form' => '.tA^giykistAniyy',
-      'lines' => [
-        ';; TAjiykisotAniy~_1',
-        'TAjykstAny      TAjiykisotAniy~ Nall    Tajikistani     [[TAjiykisotAniy~/NOUN]]',
-        'TAjykstAny      TAjiykisotAniy~ Nall    Tajikistani     [[TAjiykisotAniy~/ADJ]]',
-        'tAjykstAny      tAjiykisotAniy~ Nall    Tajikistani     [[tAjiykisotAniy~/NOUN]]',
-        'tAjykstAny      tAjiykisotAniy~ Nall    Tajikistani     [[tAjiykisotAniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tajikistani'
-      ],
-      'orig' => 'TAjiykisotAniy~',
       'prefix' => ''
     }
   ],

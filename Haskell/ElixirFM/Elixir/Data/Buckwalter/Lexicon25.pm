@@ -26630,46 +26630,6 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
-      'entry' => 'nabAt',
-      'form' => 'nabAtiyy',
-      'lines' => [
-        ';; nabAtiy~_1',
-        'nbAty   nabAtiy~        N-ap    vegetable;botanical     [[nabAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'vegetable',
-        'botanical'
-      ],
-      'orig' => 'nabAtiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'nabAt',
-      'form' => 'nabAtiyy',
-      'lines' => [
-        ';; nabAtiy~_2',
-        'nbAty   nabAtiy~        Nall    botanist;vegetarian     [[nabAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'FaCAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'botanist',
-        'vegetarian'
-      ],
-      'orig' => 'nabAtiy~',
-      'prefix' => ''
-    },
-    {
       'types' => {
         'nabAbiyt' => {
           'Ndip' => 1
@@ -29116,27 +29076,6 @@ $Lexicon = {
         'corners'
       ],
       'orig' => 'nASiyap',
-      'prefix' => ''
-    }
-  ],
-  'niswAniyy' => [
-    {
-      'types' => {},
-      'entry' => 'niswAniyy',
-      'form' => 'niswAniyy',
-      'lines' => [
-        ';; nisowAniy~_1',
-        'nswAny  nisowAniy~      Nall    feminist     [[nisowAniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'feminist'
-      ],
-      'orig' => 'nisowAniy~',
       'prefix' => ''
     }
   ],
@@ -51530,28 +51469,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'na.z.zArAt' => [
-    {
-      'types' => {},
-      'entry' => 'na.z.zArAt',
-      'form' => 'na.z.zArAtiyy',
-      'lines' => [
-        ';; naZ~ArAtiy~_1',
-        'nZArAty naZ~ArAtiy~     Nall    optometrist;optician     [[naZ~ArAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'optometrist',
-        'optician'
-      ],
-      'orig' => 'naZ~ArAtiy~',
-      'prefix' => ''
-    }
-  ],
   'n .h m' => [
     {
       'types' => {
@@ -52500,6 +52417,25 @@ $Lexicon = {
         'women'
       ],
       'orig' => 'nisowAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'niswAn',
+      'form' => 'niswAniyy',
+      'lines' => [
+        ';; nisowAniy~_1',
+        'nswAny  nisowAniy~      Nall    feminist     [[nisowAniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FiCLAn |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'feminist'
+      ],
+      'orig' => 'nisowAniy~',
       'prefix' => ''
     },
     {
@@ -56215,6 +56151,46 @@ $Lexicon = {
         'vegetation'
       ],
       'orig' => 'nabAt',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'nab',
+      'form' => 'nabAtiyy',
+      'lines' => [
+        ';; nabAtiy~_1',
+        'nbAty   nabAtiy~        N-ap    vegetable;botanical     [[nabAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaC |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'vegetable',
+        'botanical'
+      ],
+      'orig' => 'nabAtiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'nab',
+      'form' => 'nabAtiyy',
+      'lines' => [
+        ';; nabAtiy~_2',
+        'nbAty   nabAtiy~        Nall    botanist;vegetarian     [[nabAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'FaC |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'botanist',
+        'vegetarian'
+      ],
+      'orig' => 'nabAtiy~',
       'prefix' => ''
     },
     {
@@ -61344,6 +61320,26 @@ $Lexicon = {
         'binoculars'
       ],
       'orig' => 'naZ~Arap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'na.z.zAr',
+      'form' => 'na.z.zArAtiyy',
+      'lines' => [
+        ';; naZ~ArAtiy~_1',
+        'nZArAty naZ~ArAtiy~     Nall    optometrist;optician     [[naZ~ArAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCCAL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'optometrist',
+        'optician'
+      ],
+      'orig' => 'naZ~ArAtiy~',
       'prefix' => ''
     },
     {
@@ -67948,6 +67944,34 @@ $Lexicon = {
     {
       'types' => {},
       'entry' => 'nab',
+      'form' => 'nabAtiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [],
+      'orig' => 'nabAtiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'nab',
+      'form' => 'nabAtiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'FaL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [],
+      'orig' => 'nabAtiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'nab',
       'form' => 'nabawiyy',
       'lines' => [],
       'patterns' => {},
@@ -72124,21 +72148,21 @@ $Lexicon->{'n f \''}[0]{'glosses'} = $Lexicon->{'n f w'}[6]{'glosses'};
 $Lexicon->{'n f \''}[1]{'types'} = $Lexicon->{'n f w'}[12]{'types'};
 $Lexicon->{'n f \''}[1]{'lines'} = $Lexicon->{'n f w'}[12]{'lines'};
 $Lexicon->{'n f \''}[1]{'glosses'} = $Lexicon->{'n f w'}[12]{'glosses'};
-$Lexicon->{'n b y'}[2]{'types'} = $Lexicon->{'n b w'}[5]{'types'};
-$Lexicon->{'n b y'}[2]{'lines'} = $Lexicon->{'n b w'}[5]{'lines'};
-$Lexicon->{'n b y'}[2]{'glosses'} = $Lexicon->{'n b w'}[5]{'glosses'};
-$Lexicon->{'n s \''}[6]{'types'} = $Lexicon->{'n s w'}[2]{'types'};
-$Lexicon->{'n s \''}[6]{'lines'} = $Lexicon->{'n s w'}[2]{'lines'};
-$Lexicon->{'n s \''}[6]{'glosses'} = $Lexicon->{'n s w'}[2]{'glosses'};
-$Lexicon->{'n s \''}[7]{'types'} = $Lexicon->{'n s w'}[3]{'types'};
-$Lexicon->{'n s \''}[7]{'lines'} = $Lexicon->{'n s w'}[3]{'lines'};
-$Lexicon->{'n s \''}[7]{'glosses'} = $Lexicon->{'n s w'}[3]{'glosses'};
-$Lexicon->{'n s \''}[8]{'types'} = $Lexicon->{'n s w'}[4]{'types'};
-$Lexicon->{'n s \''}[8]{'lines'} = $Lexicon->{'n s w'}[4]{'lines'};
-$Lexicon->{'n s \''}[8]{'glosses'} = $Lexicon->{'n s w'}[4]{'glosses'};
-$Lexicon->{'n s \''}[9]{'types'} = $Lexicon->{'n s w'}[5]{'types'};
-$Lexicon->{'n s \''}[9]{'lines'} = $Lexicon->{'n s w'}[5]{'lines'};
-$Lexicon->{'n s \''}[9]{'glosses'} = $Lexicon->{'n s w'}[5]{'glosses'};
+$Lexicon->{'n b y'}[4]{'types'} = $Lexicon->{'n b w'}[5]{'types'};
+$Lexicon->{'n b y'}[4]{'lines'} = $Lexicon->{'n b w'}[5]{'lines'};
+$Lexicon->{'n b y'}[4]{'glosses'} = $Lexicon->{'n b w'}[5]{'glosses'};
+$Lexicon->{'n s \''}[6]{'types'} = $Lexicon->{'n s w'}[3]{'types'};
+$Lexicon->{'n s \''}[6]{'lines'} = $Lexicon->{'n s w'}[3]{'lines'};
+$Lexicon->{'n s \''}[6]{'glosses'} = $Lexicon->{'n s w'}[3]{'glosses'};
+$Lexicon->{'n s \''}[7]{'types'} = $Lexicon->{'n s w'}[4]{'types'};
+$Lexicon->{'n s \''}[7]{'lines'} = $Lexicon->{'n s w'}[4]{'lines'};
+$Lexicon->{'n s \''}[7]{'glosses'} = $Lexicon->{'n s w'}[4]{'glosses'};
+$Lexicon->{'n s \''}[8]{'types'} = $Lexicon->{'n s w'}[5]{'types'};
+$Lexicon->{'n s \''}[8]{'lines'} = $Lexicon->{'n s w'}[5]{'lines'};
+$Lexicon->{'n s \''}[8]{'glosses'} = $Lexicon->{'n s w'}[5]{'glosses'};
+$Lexicon->{'n s \''}[9]{'types'} = $Lexicon->{'n s w'}[6]{'types'};
+$Lexicon->{'n s \''}[9]{'lines'} = $Lexicon->{'n s w'}[6]{'lines'};
+$Lexicon->{'n s \''}[9]{'glosses'} = $Lexicon->{'n s w'}[6]{'glosses'};
 $Lexicon->{'n s \''}[10]{'types'} = $Lexicon->{'n s s'}[0]{'types'};
 $Lexicon->{'n s \''}[10]{'lines'} = $Lexicon->{'n s s'}[0]{'lines'};
 $Lexicon->{'n s \''}[10]{'glosses'} = $Lexicon->{'n s s'}[0]{'glosses'};
@@ -72185,9 +72209,15 @@ $Lexicon->{'n m \''}[4]{'glosses'} = $Lexicon->{'n m y'}[13]{'glosses'};
 $Lexicon->{'n b b'}[0]{'types'} = $Lexicon->{'n b y'}[0]{'types'};
 $Lexicon->{'n b b'}[0]{'lines'} = $Lexicon->{'n b y'}[0]{'lines'};
 $Lexicon->{'n b b'}[0]{'glosses'} = $Lexicon->{'n b y'}[0]{'glosses'};
-$Lexicon->{'n b b'}[1]{'types'} = $Lexicon->{'n b w'}[3]{'types'};
-$Lexicon->{'n b b'}[1]{'lines'} = $Lexicon->{'n b w'}[3]{'lines'};
-$Lexicon->{'n b b'}[1]{'glosses'} = $Lexicon->{'n b w'}[3]{'glosses'};
+$Lexicon->{'n b b'}[1]{'types'} = $Lexicon->{'n b y'}[1]{'types'};
+$Lexicon->{'n b b'}[1]{'lines'} = $Lexicon->{'n b y'}[1]{'lines'};
+$Lexicon->{'n b b'}[1]{'glosses'} = $Lexicon->{'n b y'}[1]{'glosses'};
+$Lexicon->{'n b b'}[2]{'types'} = $Lexicon->{'n b y'}[2]{'types'};
+$Lexicon->{'n b b'}[2]{'lines'} = $Lexicon->{'n b y'}[2]{'lines'};
+$Lexicon->{'n b b'}[2]{'glosses'} = $Lexicon->{'n b y'}[2]{'glosses'};
+$Lexicon->{'n b b'}[3]{'types'} = $Lexicon->{'n b w'}[3]{'types'};
+$Lexicon->{'n b b'}[3]{'lines'} = $Lexicon->{'n b w'}[3]{'lines'};
+$Lexicon->{'n b b'}[3]{'glosses'} = $Lexicon->{'n b w'}[3]{'glosses'};
 $Lexicon->{'n h w'}[8]{'types'} = $Lexicon->{'n h \''}[0]{'types'};
 $Lexicon->{'n h w'}[8]{'lines'} = $Lexicon->{'n h \''}[0]{'lines'};
 $Lexicon->{'n h w'}[8]{'glosses'} = $Lexicon->{'n h \''}[0]{'glosses'};

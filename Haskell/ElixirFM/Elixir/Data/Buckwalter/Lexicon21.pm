@@ -9830,48 +9830,6 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
-      'entry' => 'qAt',
-      'form' => 'qAtiyy',
-      'lines' => [
-        ';; qAtiy~_1',
-        'qAty    qAtiy~  N-ap    qat (stimulant)     [[qAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'qat (stimulant)'
-      ],
-      'orig' => 'qAtiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'qAtiyy' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'qAt',
-      'form' => 'qAtiyyAt',
-      'lines' => [
-        ';; qAtiy~At_1',
-        'qAty    qAtiy~  NAt     qat (stimulant) derivatives     [[qAtiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FAL |< Iy |< At',
-      'suffix' => ' |< Iy |< At',
-      'glosses' => [
-        'qat (stimulant) derivatives'
-      ],
-      'orig' => 'qAtiy~At',
-      'prefix' => ''
-    },
-    {
       'types' => {
         '\'aqwAt' => {
           'N' => 2
@@ -20719,27 +20677,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qarAniyA' => [
-    {
-      'types' => {},
-      'entry' => 'qarAniyA',
-      'form' => 'qarAniyA',
-      'lines' => [
-        ';; qarAniyA_1',
-        'qrAnyA  qarAniyA        N0      dogwood'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'dogwood'
-      ],
-      'orig' => 'qarAniyA',
-      'prefix' => ''
-    }
-  ],
   'q r q .d' => [
     {
       'types' => {
@@ -20788,6 +20725,27 @@ $Lexicon = {
         'gnashing'
       ],
       'orig' => 'qaroqaDap',
+      'prefix' => ''
+    }
+  ],
+  'qarAniyA' => [
+    {
+      'types' => {},
+      'entry' => 'qarAniyA',
+      'form' => 'qarAniyA',
+      'lines' => [
+        ';; qarAniyA_1',
+        'qrAnyA  qarAniyA        N0      dogwood'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'dogwood'
+      ],
+      'orig' => 'qarAniyA',
       'prefix' => ''
     }
   ],
@@ -47877,6 +47835,48 @@ $Lexicon = {
       ],
       'orig' => 'qAt',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'q',
+      'form' => 'qAtiyy',
+      'lines' => [
+        ';; qAtiy~_1',
+        'qAty    qAtiy~  N-ap    qat (stimulant)     [[qAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'qat (stimulant)'
+      ],
+      'orig' => 'qAtiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'qAtiyy' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'q',
+      'form' => 'qAtiyyAt',
+      'lines' => [
+        ';; qAtiy~At_1',
+        'qAty    qAtiy~  NAt     qat (stimulant) derivatives     [[qAtiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< At |< Iy |< At',
+      'suffix' => ' |< At |< Iy |< At',
+      'glosses' => [
+        'qat (stimulant) derivatives'
+      ],
+      'orig' => 'qAtiy~At',
+      'prefix' => ''
     }
   ],
   'q z m' => [
@@ -50422,29 +50422,6 @@ $Lexicon = {
       'suffix' => ' |< aT',
       'glosses' => [],
       'orig' => 'taqosiyap',
-      'prefix' => ''
-    }
-  ],
-  'quradAt' => [
-    {
-      'types' => {},
-      'entry' => 'quradAt',
-      'form' => 'quradAtiyy',
-      'lines' => [
-        ';; quradAtiy~_1',
-        'qrdAty  quradAtiy~      Ndu     monkey trainer',
-        'qrdAty  quradAtiy~      Nap     monkey trainers     [[quradAtiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'monkey trainer',
-        'monkey trainers'
-      ],
-      'orig' => 'quradAtiy~',
       'prefix' => ''
     }
   ],
@@ -54240,65 +54217,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qahwAtiyy' => [
-    {
-      'types' => {},
-      'entry' => 'qahwAtiyy',
-      'form' => 'qahwAtiyy',
-      'lines' => [
-        ';; qahowAtiy~_1',
-        'qhwAty  qahowAtiy~      N-ap    cafe manager     [[qahowAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'cafe manager'
-      ],
-      'orig' => 'qahowAtiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'qahwAtiyy',
-      'form' => 'qahwAtiyy',
-      'lines' => [
-        ';; qahowAtiy~_2',
-        'qhwAty  qahowAtiy~      N0      Qahwati'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Qahwati'
-      ],
-      'orig' => 'qahowAtiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'qahwAtiyy',
-      'form' => 'qahwAtiyyaT',
-      'lines' => [
-        ';; qahowAtiy~ap_1',
-        'qhwAty  qahowAtiy~      Nap     cafe owners     [[qahowAtiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'cafe owners'
-      ],
-      'orig' => 'qahowAtiy~ap',
-      'prefix' => ''
-    }
-  ],
   'q y l l' => [
     {
       'types' => {},
@@ -54880,6 +54798,63 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => 'qahw',
+      'form' => 'qahwAtiyy',
+      'lines' => [
+        ';; qahowAtiy~_1',
+        'qhwAty  qahowAtiy~      N-ap    cafe manager     [[qahowAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'cafe manager'
+      ],
+      'orig' => 'qahowAtiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qahw',
+      'form' => 'qahwAtiyy',
+      'lines' => [
+        ';; qahowAtiy~_2',
+        'qhwAty  qahowAtiy~      N0      Qahwati'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'Qahwati'
+      ],
+      'orig' => 'qahowAtiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qahw',
+      'form' => 'qahwAtiyyaT',
+      'lines' => [
+        ';; qahowAtiy~ap_1',
+        'qhwAty  qahowAtiy~      Nap     cafe owners     [[qahowAtiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< At |< Iy |< aT',
+      'suffix' => ' |< At |< Iy |< aT',
+      'glosses' => [
+        'cafe owners'
+      ],
+      'orig' => 'qahowAtiy~ap',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'maqAhiy' => {
           'N0_Nh' => 1
@@ -54986,6 +54961,27 @@ $Lexicon = {
         'monkey'
       ],
       'orig' => 'qirodiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qurad',
+      'form' => 'quradAtiyy',
+      'lines' => [
+        ';; quradAtiy~_1',
+        'qrdAty  quradAtiy~      Ndu     monkey trainer',
+        'qrdAty  quradAtiy~      Nap     monkey trainers     [[quradAtiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCaL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'monkey trainer',
+        'monkey trainers'
+      ],
+      'orig' => 'quradAtiy~',
       'prefix' => ''
     },
     {
@@ -58702,12 +58698,12 @@ $Lexicon->{'q w \''}[2]{'glosses'} = $Lexicon->{'q w y'}[13]{'glosses'};
 $Lexicon->{'q f f'}[5]{'types'} = $Lexicon->{'q f w'}[4]{'types'};
 $Lexicon->{'q f f'}[5]{'lines'} = $Lexicon->{'q f w'}[4]{'lines'};
 $Lexicon->{'q f f'}[5]{'glosses'} = $Lexicon->{'q f w'}[4]{'glosses'};
-$Lexicon->{'q y t'}[0]{'types'} = $Lexicon->{'q w t'}[10]{'types'};
-$Lexicon->{'q y t'}[0]{'lines'} = $Lexicon->{'q w t'}[10]{'lines'};
-$Lexicon->{'q y t'}[0]{'glosses'} = $Lexicon->{'q w t'}[10]{'glosses'};
-$Lexicon->{'q y t'}[1]{'types'} = $Lexicon->{'q w t'}[11]{'types'};
-$Lexicon->{'q y t'}[1]{'lines'} = $Lexicon->{'q w t'}[11]{'lines'};
-$Lexicon->{'q y t'}[1]{'glosses'} = $Lexicon->{'q w t'}[11]{'glosses'};
+$Lexicon->{'q y t'}[0]{'types'} = $Lexicon->{'q w t'}[8]{'types'};
+$Lexicon->{'q y t'}[0]{'lines'} = $Lexicon->{'q w t'}[8]{'lines'};
+$Lexicon->{'q y t'}[0]{'glosses'} = $Lexicon->{'q w t'}[8]{'glosses'};
+$Lexicon->{'q y t'}[1]{'types'} = $Lexicon->{'q w t'}[9]{'types'};
+$Lexicon->{'q y t'}[1]{'lines'} = $Lexicon->{'q w t'}[9]{'lines'};
+$Lexicon->{'q y t'}[1]{'glosses'} = $Lexicon->{'q w t'}[9]{'glosses'};
 $Lexicon->{'q y .z'}[3]{'types'} = $Lexicon->{'q \' .z'}[0]{'types'};
 $Lexicon->{'q y .z'}[3]{'lines'} = $Lexicon->{'q \' .z'}[0]{'lines'};
 $Lexicon->{'q y .z'}[3]{'glosses'} = $Lexicon->{'q \' .z'}[0]{'glosses'};

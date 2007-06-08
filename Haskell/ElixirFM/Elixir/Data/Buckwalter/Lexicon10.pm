@@ -30340,6 +30340,27 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => 'ruqiyy',
+      'form' => 'ruqiyy',
+      'lines' => [
+        ';; ruqiy~_1',
+        'rqy     ruqiy~  N       progress;rise;promotion'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCIL',
+      'suffix' => '',
+      'glosses' => [
+        'progress',
+        'rise',
+        'promotion'
+      ],
+      'orig' => 'ruqiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'ruqy',
       'form' => 'ruqyaT',
       'lines' => [
@@ -51230,29 +51251,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruqiyy' => [
-    {
-      'types' => {},
-      'entry' => 'ruqiyy',
-      'form' => 'ruqiyy',
-      'lines' => [
-        ';; ruqiy~_1',
-        'rqy     ruqiy~  N       progress;rise;promotion'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'progress',
-        'rise',
-        'promotion'
-      ],
-      'orig' => 'ruqiy~',
-      'prefix' => ''
-    }
-  ],
   'rAfiyA' => [
     {
       'types' => {},
@@ -53680,9 +53678,9 @@ $Lexicon->{'r w ^g'}[6]{'glosses'} = $Lexicon->{'r \' ^g'}[0]{'glosses'};
 $Lexicon->{'r ` w'}[3]{'types'} = $Lexicon->{'r ` \''}[0]{'types'};
 $Lexicon->{'r ` w'}[3]{'lines'} = $Lexicon->{'r ` \''}[0]{'lines'};
 $Lexicon->{'r ` w'}[3]{'glosses'} = $Lexicon->{'r ` \''}[0]{'glosses'};
-$Lexicon->{'r q y'}[11]{'types'} = $Lexicon->{'r q \''}[1]{'types'};
-$Lexicon->{'r q y'}[11]{'lines'} = $Lexicon->{'r q \''}[1]{'lines'};
-$Lexicon->{'r q y'}[11]{'glosses'} = $Lexicon->{'r q \''}[1]{'glosses'};
+$Lexicon->{'r q y'}[12]{'types'} = $Lexicon->{'r q \''}[1]{'types'};
+$Lexicon->{'r q y'}[12]{'lines'} = $Lexicon->{'r q \''}[1]{'lines'};
+$Lexicon->{'r q y'}[12]{'glosses'} = $Lexicon->{'r q \''}[1]{'glosses'};
 $Lexicon->{'r y y'}[1]{'types'} = $Lexicon->{'r y n'}[0]{'types'};
 $Lexicon->{'r y y'}[1]{'lines'} = $Lexicon->{'r y n'}[0]{'lines'};
 $Lexicon->{'r y y'}[1]{'glosses'} = $Lexicon->{'r y n'}[0]{'glosses'};

@@ -791,6 +791,29 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => 'fal',
+      'form' => 'falAtiyy',
+      'lines' => [
+        ';; falAtiy~_1',
+        'flAty   falAtiy~        Ndu     licentious;womanizer',
+        'flAty   falAtiy~        Nap     libertines;womanizers     [[falAtiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'licentious',
+        'womanizer',
+        'libertines',
+        'womanizers'
+      ],
+      'orig' => 'falAtiy~',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'falA' => {
           'N0_Nhy' => 1
@@ -5286,6 +5309,25 @@ $Lexicon = {
         'phosphate'
       ],
       'orig' => 'fuSofAt',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'fu.sf',
+      'form' => 'fu.sfAtiyy',
+      'lines' => [
+        ';; fuSofAtiy~_1',
+        'fSfAty  fuSofAtiy~      N-ap    phosphate     [[fuSofAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuCL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'phosphate'
+      ],
+      'orig' => 'fuSofAtiy~',
       'prefix' => ''
     }
   ],
@@ -14932,6 +14974,34 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'faransiyskAn' => [
+    {
+      'types' => {
+        'faransiyskAn' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'faransiyskAn',
+      'form' => 'faransiyskAniyy',
+      'lines' => [
+        ';; faranosiysokAniy~_1',
+        'frnsyskAny      faranosiysokAniy~       Nall    Franciscan     [[faranosiysokAniy~/NOUN]]',
+        'frnsyskAny      faranosiysokAniy~       Nall    Franciscan     [[faranosiysokAniy~/ADJ]]',
+        'frnsyskAn       faranosiysokAn  N0      Franciscans'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Franciscan',
+        'Franciscans'
+      ],
+      'orig' => 'faranosiysokAniy~',
+      'prefix' => ''
+    }
+  ],
   'faran^g' => [
     {
       'types' => {},
@@ -15064,32 +15134,6 @@ $Lexicon = {
         'pepper'
       ],
       'orig' => 'fulayofil',
-      'prefix' => ''
-    }
-  ],
-  'fuwsfAt' => [
-    {
-      'types' => {
-        'fuw.sfAtiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'fuwsfAt',
-      'form' => 'fuwsfAtiyy',
-      'lines' => [
-        ';; fuwsofAtiy~_1',
-        'fwsfAty fuwsofAtiy~     Nall    phosphate     [[fuwsofAtiy~/ADJ]]',
-        'fwSfAty fuwSofAtiy~     Nall    phosphate     [[fuwSofAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'phosphate'
-      ],
-      'orig' => 'fuwsofAtiy~',
       'prefix' => ''
     }
   ],
@@ -23081,6 +23125,30 @@ $Lexicon = {
       ],
       'orig' => 'fuwsofAt',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        'fuw.sfAtiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'fuwsf',
+      'form' => 'fuwsfAtiyy',
+      'lines' => [
+        ';; fuwsofAtiy~_1',
+        'fwsfAty fuwsofAtiy~     Nall    phosphate     [[fuwsofAtiy~/ADJ]]',
+        'fwSfAty fuwSofAtiy~     Nall    phosphate     [[fuwSofAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'phosphate'
+      ],
+      'orig' => 'fuwsofAtiy~',
+      'prefix' => ''
     }
   ],
   'f d f d' => [
@@ -29311,25 +29379,6 @@ $Lexicon = {
     },
     {
       'types' => {},
-      'entry' => 'fu.sfAt',
-      'form' => 'fu.sfAtiyy',
-      'lines' => [
-        ';; fuSofAtiy~_1',
-        'fSfAty  fuSofAtiy~      N-ap    phosphate     [[fuSofAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KuRDAS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'phosphate'
-      ],
-      'orig' => 'fuSofAtiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
       'entry' => 'mufa.sfat',
       'form' => 'mufa.sfat',
       'lines' => [
@@ -29860,25 +29909,6 @@ $Lexicon = {
         'treatment with phosphate'
       ],
       'orig' => 'fasofatap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'fusfAt',
-      'form' => 'fusfAtiyy',
-      'lines' => [
-        ';; fusofAtiy~_1',
-        'fsfAty  fusofAtiy~      N-ap    phosphate     [[fusofAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KuRDAS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'phosphate'
-      ],
-      'orig' => 'fusofAtiy~',
       'prefix' => ''
     },
     {
@@ -34166,6 +34196,20 @@ $Lexicon = {
     }
   ],
   'f l y' => [
+    {
+      'types' => {},
+      'entry' => 'fal',
+      'form' => 'falAtiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaC |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [],
+      'orig' => 'falAtiy~',
+      'prefix' => ''
+    },
     {
       'types' => {},
       'entry' => 'mafAliy',
@@ -41500,34 +41544,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'faransiyskAniyy' => [
-    {
-      'types' => {
-        'faransiyskAn' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'faransiyskAniyy',
-      'form' => 'faransiyskAniyy',
-      'lines' => [
-        ';; faranosiysokAniy~_1',
-        'frnsyskAny      faranosiysokAniy~       Nall    Franciscan     [[faranosiysokAniy~/NOUN]]',
-        'frnsyskAny      faranosiysokAniy~       Nall    Franciscan     [[faranosiysokAniy~/ADJ]]',
-        'frnsyskAn       faranosiysokAn  N0      Franciscans'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Franciscan',
-        'Franciscans'
-      ],
-      'orig' => 'faranosiysokAniy~',
-      'prefix' => ''
-    }
-  ],
   'f r y' => [
     {
       'types' => {},
@@ -43749,6 +43765,25 @@ $Lexicon = {
       ],
       'orig' => 'fusofAt',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'fusf',
+      'form' => 'fusfAtiyy',
+      'lines' => [
+        ';; fusofAtiy~_1',
+        'fsfAty  fusofAtiy~      N-ap    phosphate     [[fusofAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuCL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'phosphate'
+      ],
+      'orig' => 'fusofAtiy~',
+      'prefix' => ''
     }
   ],
   'fiyfriy' => [
@@ -45698,29 +45733,6 @@ $Lexicon = {
         'unexpectedly'
       ],
       'orig' => 'falotapF',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'falAt',
-      'form' => 'falAtiyy',
-      'lines' => [
-        ';; falAtiy~_1',
-        'flAty   falAtiy~        Ndu     licentious;womanizer',
-        'flAty   falAtiy~        Nap     libertines;womanizers     [[falAtiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'licentious',
-        'womanizer',
-        'libertines',
-        'womanizers'
-      ],
-      'orig' => 'falAtiy~',
       'prefix' => ''
     },
     {
@@ -48316,12 +48328,12 @@ $Lexicon = {
     }
   ]
 };
-$Lexicon->{'f y l l'}[1]{'types'} = $Lexicon->{'f l l'}[10]{'types'};
-$Lexicon->{'f y l l'}[1]{'lines'} = $Lexicon->{'f l l'}[10]{'lines'};
-$Lexicon->{'f y l l'}[1]{'glosses'} = $Lexicon->{'f l l'}[10]{'glosses'};
-$Lexicon->{'f l w'}[2]{'types'} = $Lexicon->{'f l l'}[9]{'types'};
-$Lexicon->{'f l w'}[2]{'lines'} = $Lexicon->{'f l l'}[9]{'lines'};
-$Lexicon->{'f l w'}[2]{'glosses'} = $Lexicon->{'f l l'}[9]{'glosses'};
+$Lexicon->{'f y l l'}[1]{'types'} = $Lexicon->{'f l l'}[11]{'types'};
+$Lexicon->{'f y l l'}[1]{'lines'} = $Lexicon->{'f l l'}[11]{'lines'};
+$Lexicon->{'f y l l'}[1]{'glosses'} = $Lexicon->{'f l l'}[11]{'glosses'};
+$Lexicon->{'f l w'}[2]{'types'} = $Lexicon->{'f l l'}[10]{'types'};
+$Lexicon->{'f l w'}[2]{'lines'} = $Lexicon->{'f l l'}[10]{'lines'};
+$Lexicon->{'f l w'}[2]{'glosses'} = $Lexicon->{'f l l'}[10]{'glosses'};
 $Lexicon->{'f t r'}[10]{'types'} = $Lexicon->{'f r r'}[2]{'types'};
 $Lexicon->{'f t r'}[10]{'lines'} = $Lexicon->{'f r r'}[2]{'lines'};
 $Lexicon->{'f t r'}[10]{'glosses'} = $Lexicon->{'f r r'}[2]{'glosses'};
@@ -48403,9 +48415,12 @@ $Lexicon->{'f w z'}[7]{'glosses'} = $Lexicon->{'f \' z'}[1]{'glosses'};
 $Lexicon->{'f w z'}[8]{'types'} = $Lexicon->{'f \' z'}[2]{'types'};
 $Lexicon->{'f w z'}[8]{'lines'} = $Lexicon->{'f \' z'}[2]{'lines'};
 $Lexicon->{'f w z'}[8]{'glosses'} = $Lexicon->{'f \' z'}[2]{'glosses'};
-$Lexicon->{'f l y'}[0]{'types'} = $Lexicon->{'f l w'}[4]{'types'};
-$Lexicon->{'f l y'}[0]{'lines'} = $Lexicon->{'f l w'}[4]{'lines'};
-$Lexicon->{'f l y'}[0]{'glosses'} = $Lexicon->{'f l w'}[4]{'glosses'};
+$Lexicon->{'f l y'}[0]{'types'} = $Lexicon->{'f l l'}[9]{'types'};
+$Lexicon->{'f l y'}[0]{'lines'} = $Lexicon->{'f l l'}[9]{'lines'};
+$Lexicon->{'f l y'}[0]{'glosses'} = $Lexicon->{'f l l'}[9]{'glosses'};
+$Lexicon->{'f l y'}[1]{'types'} = $Lexicon->{'f l w'}[4]{'types'};
+$Lexicon->{'f l y'}[1]{'lines'} = $Lexicon->{'f l w'}[4]{'lines'};
+$Lexicon->{'f l y'}[1]{'glosses'} = $Lexicon->{'f l w'}[4]{'glosses'};
 $Lexicon->{'f t t'}[9]{'types'} = $Lexicon->{'f t w'}[5]{'types'};
 $Lexicon->{'f t t'}[9]{'lines'} = $Lexicon->{'f t w'}[5]{'lines'};
 $Lexicon->{'f t t'}[9]{'glosses'} = $Lexicon->{'f t w'}[5]{'glosses'};

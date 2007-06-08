@@ -5513,6 +5513,13 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCiL                  `noun`    {- muHotakir -}        [ "monopolist" ] ]
 
+ |> ".h k w" <| [
+
+    -- ;; HakawAtiy~_1
+    -- HkwAty  HakawAtiy~      Nall    storyteller     [[HakawAtiy~/ADJ]]
+
+    FaCaL |< At |< Iy         `adj`     {- HakawAtiy~ -}       [ "storyteller" ] ]
+
  |> ".h k y" <| [
 
     -- ;; HakaY-i_1
@@ -6451,6 +6458,11 @@ lexicon = listing "Lexicon's properties"
 
     FuCLAn                    `noun`    {- HulowAn -}          [ "gratuity", "tip" ],
 
+    -- ;; HulowAniy~_1
+    -- HlwAny  HulowAniy~      Nall    confectioner;pastry cook     [[HulowAniy~/ADJ]]
+
+    FuCLAn |< Iy              `adj`     {- HulowAniy~ -}       [ "confectioner", "pastry cook" ],
+
     -- ;; >aHolaY_1
     -- >HlY    >aHolaY N0      sweeter;sweetest
     -- AHlY    >aHolaY N0      sweeter;sweetest
@@ -6526,7 +6538,9 @@ lexicon = listing "Lexicon's properties"
     -- Hly     Haloy   N       jewelry
     -- Hly     Huliy~  N       jewelry
 
-    FaCL                      `noun`    {- Haloy -}            [ "jewelry" ],
+    FaCL                      `noun`    {- Haloy -}            [ "jewelry" ]
+                              `plural`     FuCIL
+                           {- `others`  [ ".huliyy N" ] -},
 
     -- ;; Hiloyap_1
     -- Hly     Hiloy   Napdu   trinket;ornament
@@ -13232,19 +13246,22 @@ lexicon = listing "Lexicon's properties"
 
     MuFtAL                    `adj`     {- muHotAr -}          [ "confused", "uncertain", "baffled" ] ]
 
- |> ".h y t y" <| [
-
-    -- ;; HayAtiy~_1
-    -- HyAty   HayAtiy~        Nall    biological;living     [[HayAtiy~/ADJ]]
-
-    KaRADIS                   `adj`     {- HayAtiy~ -}         [ "biological", "living" ] ]
-
  |> ".h y w" <| [
 
     -- ;; HayawAn_1
     -- HywAn   HayawAn N/ap    animal;creature
 
-    FaCaLAn                   `noun`    {- HayawAn -}          [ "animal", "creature" ] ]
+    FaCaLAn                   `noun`    {- HayawAn -}          [ "animal", "creature" ],
+
+    -- ;; HayawAniy~_1
+    -- HywAny  HayawAniy~      Nall    animal;zoological     [[HayawAniy~/ADJ]]
+
+    FaCaLAn |< Iy             `adj`     {- HayawAniy~ -}       [ "animal", "zoological" ],
+
+    -- ;; HayawAniy~ap_1
+    -- HywAny  HayawAniy~      Nap     bestiality;animal nature     [[HayawAniy~/NOUN]]
+
+    FaCaLAn |< Iy |< aT       `noun`    {- HayawAniy~ap -}     [ "bestiality", "animal nature" ] ]
 
  |> ".h y y" <| [
 
@@ -13326,6 +13343,20 @@ lexicon = listing "Lexicon's properties"
 
     IstaFCY                   `verb`    {- AisotaHoyaY -}      [ "be embarrassed", "be shy", "let live", "keep alive" ],
 
+    -- ;; {isotaHaY_2
+    -- <stHyY  {isotaHaY     	PV_0    be embarrassed;be shy
+    -- AstHyY  {isotaHaY     	PV_0    be embarrassed;be shy
+    -- <stHyA  {isotaHA      	PV_h    let live;keep alive
+    -- AstHyA  {isotaHA      	PV_h    let live;keep alive
+    -- <stHyy  {isotaHay     	PV_Atn  be embarrassed;be shy
+    -- AstHyy  {isotaHay     	PV_Atn  be embarrassed;be shy
+    -- <stHy   {isotaH       	PV_ttAw be embarrassed;be shy
+    -- AstHy   {isotaH       	PV_ttAw be embarrassed;be shy
+    -- stHyy   sotaHiy       	IV_0hAnn        be embarrassed;be shy
+    -- stHy    sotaH 	IV_0hwnyn       be embarrassed;be shy
+
+    IstaFY                    `verb`    {- AisotaHaY -}        [ "be embarrassed", "be shy", "let live", "keep alive" ],
+
     -- ;; Hay~_1
     -- Hy      Hay~    N0      Hayy
 
@@ -13344,10 +13375,23 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCA'
                            {- `others`  [ "'a.hyA' Nh N0_Nh Nhy" ] -},
 
+    -- ;; taHiy~ap_1
+    -- tHy     taHiy~  NapAt   greeting;salute     [[taHiy~/NOUN]]
+    -- tHAyA   taHAyA  N0      greetings;salutations
+
+    TaFIL |< aT               `noun`    {- taHiy~ap -}         [ "greeting", "salute", "greetings", "salutations" ]
+                              `plural`     TaFACY
+                           {- `others`  [ "ta.hAyY N0" ] -},
+
     -- ;; muHoyiy_1
     -- mHyy    muHoyiy Nprop   Muhi
 
     MuFCI                     `noun`    {- muHoyiy -}          [ "Muhi" ],
+
+    -- ;; muHiy_1
+    -- mHy     muHiy   Nprop   Muhi
+
+    MuFI                      `noun`    {- muHiy -}            [ "Muhi" ],
 
     -- ;; Hay~_3
     -- Hy      Hay~    N       quarter;district
@@ -13408,6 +13452,16 @@ lexicon = listing "Lexicon's properties"
     -- HyAp    HayAp   N0      Hayat
 
     FaCY |< aT                `noun`    {- HayAp -}            [ "Hayat" ],
+
+    -- ;; HayAtiy~_1
+    -- HyAty   HayAtiy~        Nall    biological;living     [[HayAtiy~/ADJ]]
+
+    FaL |< At |< Iy           `adj`     {- HayAtiy~ -}         [ "biological", "living" ],
+
+    -- ;; HayAtiy~_1
+    -- HyAty   HayAtiy~        Nall    biological;living     [[HayAtiy~/ADJ]]
+
+    FaC |< At |< Iy           `adj`     {- HayAtiy~ -}         [ "biological", "living" ],
 
     -- ;; Hayawiy~_1
     -- Hywy    Hayawiy~        Nall    vital;lively;biological     [[Hayawiy~/ADJ]]
@@ -13958,13 +14012,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Hab~i -}            [ "love", "like", "want" ] ]
 
- |> ".hakawAtiyy" <| [
-
-    -- ;; HakawAtiy~_1
-    -- HkwAty  HakawAtiy~      Nall    storyteller     [[HakawAtiy~/ADJ]]
-
-    Identity                  `adj`     {- HakawAtiy~ -}       [ "storyteller" ] ]
-
  |> ".hakiymbA^siy" <| [
 
     -- ;; HakiymobA$iy_1
@@ -14108,18 +14155,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- HayovumA -}         [ "wherever" ] ]
 
- |> ".hayawAniyy" <| [
-
-    -- ;; HayawAniy~_1
-    -- HywAny  HayawAniy~      Nall    animal;zoological     [[HayawAniy~/ADJ]]
-
-    Identity                  `adj`     {- HayawAniy~ -}       [ "animal", "zoological" ],
-
-    -- ;; HayawAniy~ap_1
-    -- HywAny  HayawAniy~      Nap     bestiality;animal nature     [[HayawAniy~/NOUN]]
-
-    Identity |< aT            `noun`    {- HayawAniy~ap -}     [ "bestiality", "animal nature" ] ]
-
  |> ".haydar'AbAd" <| [
 
     -- ;; Hayodar|bAd_1
@@ -14261,13 +14296,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- HubAHib -}          [ "firefly", "glowworm" ] ]
 
- |> ".hulwAniyy" <| [
-
-    -- ;; HulowAniy~_1
-    -- HlwAny  HulowAniy~      Nall    confectioner;pastry cook     [[HulowAniy~/ADJ]]
-
-    Identity                  `adj`     {- HulowAniy~ -}       [ "confectioner", "pastry cook" ] ]
-
  |> ".humaydiy" <| [
 
     -- ;; Humayodiy_1
@@ -14345,27 +14373,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- muHodawodib -}      [ "mounded", "bowed upward", "hunchbacked" ] ]
 
- |> "mu.hiy" <| [
-
-    -- ;; muHiy_1
-    -- mHy     muHiy   Nprop   Muhi
-
-    Identity                  `noun`    {- muHiy -}            [ "Muhi" ] ]
-
  |> "mun.hAz" <| [
 
     -- ;; munoHAz_1
     -- mnHAz   munoHAz Nall    aligned;biased
 
     Identity                  `noun`    {- munoHAz -}          [ "aligned", "biased" ] ]
-
- |> "ta.hiyy" <| [
-
-    -- ;; taHiy~ap_1
-    -- tHy     taHiy~  NapAt   greeting;salute     [[taHiy~/NOUN]]
-    -- tHAyA   taHAyA  N0      greetings;salutations
-
-    Identity |< aT            `noun`    {- taHiy~ap -}         [ "greeting", "salute", "greetings", "salutations" ] ]
 
  |> "ta.hnAn" <| [
 

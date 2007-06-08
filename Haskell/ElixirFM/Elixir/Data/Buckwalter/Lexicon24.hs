@@ -637,6 +637,11 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `verb`    {- OamoDaY -}          [ "spend", "accomplish", "finalize", "be spent", "be accomplished", "be finalized" ],
 
+    -- ;; muDiy~_1
+    -- mDy     muDiy~  N       expiration;continuation;pursuit
+
+    FuCIL                     `noun`    {- muDiy~ -}           [ "expiration", "continuation", "pursuit" ],
+
     -- ;; maDA'_1
     -- mDA'    maDA'   N0_Nh   sharpness;discernment;strength
     -- mDA&    maDA&   Nh      sharpness;discernment;strength
@@ -3831,7 +3836,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; madAliyap_1
     -- mdAly   madAliy NapAt   medal
 
-    FaCALI |< aT              `noun`    {- madAliyap -}        [ "medal" ] ]
+    FaCALI |< aT              `noun`    {- madAliyap -}        [ "medal" ],
+
+    -- ;; mudiyl_1
+    -- mdyl    mudiyl  Ndu     model;type
+    -- mdyl    mudiyl  NAt     models;types
+
+    FuCIL                     `noun`    {- mudiyl -}           [ "model", "type", "models", "types" ]
+                              `plural`     FuCIL |< At ]
 
  |> "m d l n" <| [
 
@@ -12228,13 +12240,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mlm -}              [ "millimeter" ] ]
 
- |> "mu.diyy" <| [
-
-    -- ;; muDiy~_1
-    -- mDy     muDiy~  N       expiration;continuation;pursuit
-
-    Identity                  `noun`    {- muDiy~ -}           [ "expiration", "continuation", "pursuit" ] ]
-
  |> "mu^smullA" <| [
 
     -- ;; mu$omul~A_1
@@ -12256,14 +12261,6 @@ lexicon = listing "Lexicon's properties"
     -- mxyT    mux~ayoT        N       sebesten (bot.)
 
     Identity                  `noun`    {- mux~ayoT -}         [ "sebesten (bot.)" ] ]
-
- |> "mudiyl" <| [
-
-    -- ;; mudiyl_1
-    -- mdyl    mudiyl  Ndu     model;type
-    -- mdyl    mudiyl  NAt     models;types
-
-    Identity                  `noun`    {- mudiyl -}           [ "model", "type", "models", "types" ] ]
 
  |> "muhradAr" <| [
 

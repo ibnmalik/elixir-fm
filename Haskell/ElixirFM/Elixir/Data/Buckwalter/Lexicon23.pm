@@ -16285,6 +16285,9 @@ $Lexicon = {
         'lHy     luHiy~  N_L     jawbones'
       ],
       'patterns' => {
+        'lu.hiyy' => [
+          'FuCIL'
+        ],
         '\'al.hiy' => [
           'HaFCI'
         ]
@@ -18636,28 +18639,6 @@ $Lexicon = {
         'schedules'
       ],
       'orig' => 'lA}iHap',
-      'prefix' => ''
-    }
-  ],
-  'luwiys' => [
-    {
-      'types' => {},
-      'entry' => 'luwiys',
-      'form' => 'luwiys',
-      'lines' => [
-        ';; luwiys_1',
-        'lwys    luwiys  Nprop   Louis;Lois'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Louis',
-        'Lois'
-      ],
-      'orig' => 'luwiys',
       'prefix' => ''
     }
   ],
@@ -25673,44 +25654,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'litwAniyy' => [
-    {
-      'types' => {
-        'li_twAniyy' => {
-          'Nall_L' => 2
-        },
-        'liytwAniyy' => {
-          'Nall_L' => 2
-        },
-        'liy_twAniyy' => {
-          'Nall_L' => 2
-        }
-      },
-      'entry' => 'litwAniyy',
-      'form' => 'litwAniyy',
-      'lines' => [
-        ';; litwAniy~_1',
-        'ltwAny  litwAniy~       Nall_L  Lithuanian     [[litwAniy~/NOUN]]',
-        'ltwAny  litwAniy~       Nall_L  Lithuanian     [[litwAniy~/ADJ]]',
-        'lvwAny  livwAniy~       Nall_L  Lithuanian     [[livwAniy~/NOUN]]',
-        'lvwAny  livwAniy~       Nall_L  Lithuanian     [[livwAniy~/ADJ]]',
-        'lytwAny liytowAniy~     Nall_L  Lithuanian     [[liytowAniy~/NOUN]]',
-        'lytwAny liytowAniy~     Nall_L  Lithuanian     [[liytowAniy~/ADJ]]',
-        'lyvwAny liyvowAniy~     Nall_L  Lithuanian     [[liyvowAniy~/NOUN]]',
-        'lyvwAny liyvowAniy~     Nall_L  Lithuanian     [[liyvowAniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Lithuanian'
-      ],
-      'orig' => 'litwAniy~',
-      'prefix' => ''
-    }
-  ],
   'l .h f' => [
     {
       'types' => {
@@ -26497,6 +26440,44 @@ $Lexicon = {
       'suffix' => ' |<< "awIy"',
       'glosses' => [],
       'orig' => 'livawiy~',
+      'prefix' => ''
+    }
+  ],
+  'l t w' => [
+    {
+      'types' => {
+        'li_twAniyy' => {
+          'Nall_L' => 2
+        },
+        'liytwAniyy' => {
+          'Nall_L' => 2
+        },
+        'liy_twAniyy' => {
+          'Nall_L' => 2
+        }
+      },
+      'entry' => 'litwAn',
+      'form' => 'litwAniyy',
+      'lines' => [
+        ';; litwAniy~_1',
+        'ltwAny  litwAniy~       Nall_L  Lithuanian     [[litwAniy~/NOUN]]',
+        'ltwAny  litwAniy~       Nall_L  Lithuanian     [[litwAniy~/ADJ]]',
+        'lvwAny  livwAniy~       Nall_L  Lithuanian     [[livwAniy~/NOUN]]',
+        'lvwAny  livwAniy~       Nall_L  Lithuanian     [[livwAniy~/ADJ]]',
+        'lytwAny liytowAniy~     Nall_L  Lithuanian     [[liytowAniy~/NOUN]]',
+        'lytwAny liytowAniy~     Nall_L  Lithuanian     [[liytowAniy~/ADJ]]',
+        'lyvwAny liyvowAniy~     Nall_L  Lithuanian     [[liyvowAniy~/NOUN]]',
+        'lyvwAny liyvowAniy~     Nall_L  Lithuanian     [[liyvowAniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FiCLAn |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Lithuanian'
+      ],
+      'orig' => 'litwAniy~',
       'prefix' => ''
     }
   ],
@@ -29640,6 +29621,26 @@ $Lexicon = {
         'Los'
       ],
       'orig' => 'luws',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'luwiys',
+      'form' => 'luwiys',
+      'lines' => [
+        ';; luwiys_1',
+        'lwys    luwiys  Nprop   Louis;Lois'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCIL',
+      'suffix' => '',
+      'glosses' => [
+        'Louis',
+        'Lois'
+      ],
+      'orig' => 'luwiys',
       'prefix' => ''
     }
   ],

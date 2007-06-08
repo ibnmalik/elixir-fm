@@ -1738,7 +1738,11 @@ lexicon = listing "Lexicon's properties"
 
     FAL |< At                 `noun`    {- sAdAt -}            [ "Sadat" ],
 
-    FUL                       `noun`    {- suwd -}             [ "Sud" ] ]
+    FUL                       `noun`    {- suwd -}             [ "Sud" ],
+
+    FuCIL                     `noun`    {- suwiyd -}           [ "Sweden" ],
+
+    FuCIL |< Iy               `adj`     {- suwiydiy~ -}        [ "Swedish" ] ]
 
  |> "s w f" <| [
 
@@ -2300,12 +2304,6 @@ lexicon = listing "Lexicon's properties"
  |> "suwfyitiyy" <| [
 
     Identity                  `adj`     {- suwfoyitiy~ -}      [ "Soviet", "Soviets" ] ]
-
- |> "suwiyd" <| [
-
-    Identity                  `noun`    {- suwiyd -}           [ "Sweden" ],
-
-    Identity |< Iy            `adj`     {- suwiydiy~ -}        [ "Swedish" ] ]
 
  |> "suwiysr" <| [
 

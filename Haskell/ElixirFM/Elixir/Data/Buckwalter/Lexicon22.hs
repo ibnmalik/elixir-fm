@@ -5443,6 +5443,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "k r '" <| [
 
+    -- ;; kuruwAtiy~_1
+    -- krwAty  kuruwAtiy~      Nall    Croatian;Croat     [[kuruwAtiy~/NOUN]]
+    -- krwAty  kuruwAtiy~      Nall    Croatian;Croat     [[kuruwAtiy~/ADJ]]
+
+    FuCU |< At |< Iy          `adj`     {- kuruwAtiy~ -}       [ "Croatian", "Croat" ],
+
     -- ;; kirA'_1
     -- krA'    kirA'   N0_Nh   rent;renting
     -- krA&    kirA&   Nh      rent;renting
@@ -6065,7 +6071,13 @@ lexicon = listing "Lexicon's properties"
     -- ;; kar~Akap_1
     -- krAk    kar~Ak  NapAt   dredging machine;penitentiary
 
-    FaCCAL |< aT              `noun`    {- kar~Akap -}         [ "dredging machine", "penitentiary" ] ]
+    FaCCAL |< aT              `noun`    {- kar~Akap -}         [ "dredging machine", "penitentiary" ],
+
+    -- ;; kuriyk_1
+    -- kryk    kuriyk  N/At    shovel
+
+    FuCIL                     `noun`    {- kuriyk -}           [ "shovel" ]
+                              `plural`     FuCIL |< At ]
 
  |> "k r k b" <| [
 
@@ -6725,6 +6737,12 @@ lexicon = listing "Lexicon's properties"
 
     FuC |<< "awIy" |< aT      `noun`    {- kurawiy~ap -}       [ "sphericity", "roundness" ],
 
+    -- ;; kuruwAtiy~_1
+    -- krwAty  kuruwAtiy~      Nall    Croatian;Croat     [[kuruwAtiy~/NOUN]]
+    -- krwAty  kuruwAtiy~      Nall    Croatian;Croat     [[kuruwAtiy~/ADJ]]
+
+    FuCU |< At |< Iy          `adj`     {- kuruwAtiy~ -}       [ "Croatian", "Croat" ],
+
     -- ;; kirowAt_1
     -- krwAt   kirowAt N0      Croats
 
@@ -6742,6 +6760,11 @@ lexicon = listing "Lexicon's properties"
     -- kAry    kAriy   Nprop   Carey
 
     FACI                      `noun`    {- kAriy -}            [ "Carey" ],
+
+    -- ;; kuriy~_1
+    -- kry     kuriy~  N-ap    globular;spherical     [[kuriy~/ADJ]]
+
+    FuCIL                     `adj`     {- kuriy~ -}           [ "globular", "spherical" ],
 
     -- ;; kuray~ap_1
     -- kry     kuray~  NapAt   globule;pellet;corpuscle
@@ -9458,6 +9481,11 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCiL                  `noun`    {- mukay~is -}         [ "bath attendant", "masseur" ],
 
+    -- ;; mukay~isAtiy~_1
+    -- mkysAty mukay~isAtiy~   N-ap    bath attendant;masseur     [[mukay~isAtiy~/ADJ]]
+
+    MuFaCCiL |< At |< Iy      `adj`     {- mukay~isAtiy~ -}    [ "bath attendant", "masseur" ],
+
     -- ;; mukay~as_1
     -- mkys    mukay~as        N-ap    shrewd;astute     [[mukay~as/ADJ]]
 
@@ -11240,20 +11268,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- kurodisotAniy~ -}   [ "Kurdistani" ] ]
 
- |> "kuriyk" <| [
-
-    -- ;; kuriyk_1
-    -- kryk    kuriyk  N/At    shovel
-
-    Identity                  `noun`    {- kuriyk -}           [ "shovel" ] ]
-
- |> "kuriyy" <| [
-
-    -- ;; kuriy~_1
-    -- kry     kuriy~  N-ap    globular;spherical     [[kuriy~/ADJ]]
-
-    Identity                  `adj`     {- kuriy~ -}           [ "globular", "spherical" ] ]
-
  |> "kurunb" <| [
 
     -- ;; kurunob_1
@@ -11262,14 +11276,6 @@ lexicon = listing "Lexicon's properties"
     -- krnb    kurunob Napdu   head of cabbage
 
     Identity                  `noun`    {- kurunob -}          [ "cabbage", "coleslaw", "head of cabbage" ] ]
-
- |> "kuruwAt" <| [
-
-    -- ;; kuruwAtiy~_1
-    -- krwAty  kuruwAtiy~      Nall    Croatian;Croat     [[kuruwAtiy~/NOUN]]
-    -- krwAty  kuruwAtiy~      Nall    Croatian;Croat     [[kuruwAtiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- kuruwAtiy~ -}       [ "Croatian", "Croat" ] ]
 
  |> "kuruwAtiyA" <| [
 
@@ -12009,13 +12015,6 @@ lexicon = listing "Lexicon's properties"
     -- mkAHl   makAHil Ndip    kohl containers
 
     Identity |< aT            `noun`    {- mukoHulap -}        [ "kohl container", "kohl containers" ] ]
-
- |> "mukayyisAt" <| [
-
-    -- ;; mukay~isAtiy~_1
-    -- mkysAty mukay~isAtiy~   N-ap    bath attendant;masseur     [[mukay~isAtiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- mukay~isAtiy~ -}    [ "bath attendant", "masseur" ] ]
 
  |> "mukfahirr" <| [
 

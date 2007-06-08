@@ -594,11 +594,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "tilfizyuwn" <| [
 
-    Identity                  `noun`    {- tilfizyuwn -}       [ "television" ] ]
+    Identity                  `noun`    {- tilfizyuwn -}       [ "television" ],
 
- |> "tilfizyuwniyy" <| [
-
-    Identity                  `adj`     {- tilfizyuwniy~ -}    [ "television" ] ]
+    Identity |< Iy            `adj`     {- tilfizyuwniy~ -}    [ "television" ] ]
 
  |> "tili.grAf" <| [
 
@@ -608,11 +606,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "tilifuwn" <| [
 
-    Identity                  `noun`    {- tilifuwn -}         [ "telephone" ] ]
+    Identity                  `noun`    {- tilifuwn -}         [ "telephone" ],
 
- |> "tilifuwniyy" <| [
-
-    Identity                  `adj`     {- tilifuwniy~ -}      [ "telephonic" ] ]
+    Identity |< Iy            `adj`     {- tilifuwniy~ -}      [ "telephonic" ] ]
 
  |> "tilwa" <| [
 

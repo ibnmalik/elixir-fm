@@ -1470,8 +1470,9 @@ lexicon = listing "Lexicon's properties"
     -- lHy     luHiy~  N_L     jawbones
 
     FaCL                      `noun`    {- laHoy -}            [ "jawbone", "jawbones" ]
+                              `plural`     FuCIL
                               `plural`     HaFCI
-                           {- `others`  [ "'al.hiy N0_Nh" ] -},
+                           {- `others`  [ "lu.hiyy N_L", "'al.hiy N0_Nh" ] -},
 
     -- ;; liHoyap_1
     -- lHy     liHoy   Napdu_L beard
@@ -6871,6 +6872,20 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< At                `noun`    {- lat~At -}           [ "chatterbox", "prattler" ] ]
 
+ |> "l t w" <| [
+
+    -- ;; litwAniy~_1
+    -- ltwAny  litwAniy~       Nall_L  Lithuanian     [[litwAniy~/NOUN]]
+    -- ltwAny  litwAniy~       Nall_L  Lithuanian     [[litwAniy~/ADJ]]
+    -- lvwAny  livwAniy~       Nall_L  Lithuanian     [[livwAniy~/NOUN]]
+    -- lvwAny  livwAniy~       Nall_L  Lithuanian     [[livwAniy~/ADJ]]
+    -- lytwAny liytowAniy~     Nall_L  Lithuanian     [[liytowAniy~/NOUN]]
+    -- lytwAny liytowAniy~     Nall_L  Lithuanian     [[liytowAniy~/ADJ]]
+    -- lyvwAny liyvowAniy~     Nall_L  Lithuanian     [[liyvowAniy~/NOUN]]
+    -- lyvwAny liyvowAniy~     Nall_L  Lithuanian     [[liyvowAniy~/ADJ]]
+
+    FiCLAn |< Iy              `adj`     {- litwAniy~ -}        [ "Lithuanian" ] ]
+
  |> "l t z" <| [
 
     -- ;; {ilotaz~_1
@@ -7626,7 +7641,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; luws_1
     -- lws     luws    Nprop   Los
 
-    FUL                       `noun`    {- luws -}             [ "Los" ] ]
+    FUL                       `noun`    {- luws -}             [ "Los" ],
+
+    -- ;; luwiys_1
+    -- lwys    luwiys  Nprop   Louis;Lois
+
+    FuCIL                     `noun`    {- luwiys -}           [ "Louis", "Lois" ] ]
 
  |> "l w t" <| [
 
@@ -8993,20 +9013,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- litwAniyA -}        [ "Lithuania" ] ]
 
- |> "litwAniyy" <| [
-
-    -- ;; litwAniy~_1
-    -- ltwAny  litwAniy~       Nall_L  Lithuanian     [[litwAniy~/NOUN]]
-    -- ltwAny  litwAniy~       Nall_L  Lithuanian     [[litwAniy~/ADJ]]
-    -- lvwAny  livwAniy~       Nall_L  Lithuanian     [[livwAniy~/NOUN]]
-    -- lvwAny  livwAniy~       Nall_L  Lithuanian     [[livwAniy~/ADJ]]
-    -- lytwAny liytowAniy~     Nall_L  Lithuanian     [[liytowAniy~/NOUN]]
-    -- lytwAny liytowAniy~     Nall_L  Lithuanian     [[liytowAniy~/ADJ]]
-    -- lyvwAny liyvowAniy~     Nall_L  Lithuanian     [[liyvowAniy~/NOUN]]
-    -- lyvwAny liyvowAniy~     Nall_L  Lithuanian     [[liyvowAniy~/ADJ]]
-
-    Identity                  `adj`     {- litwAniy~ -}        [ "Lithuanian" ] ]
-
  |> "liwiynskiy" <| [
 
     -- ;; liwiynosokiy_1
@@ -9288,13 +9294,6 @@ lexicon = listing "Lexicon's properties"
     -- lwfr    luwfr   N0_L    Louvre
 
     Identity                  `noun`    {- luwfr -}            [ "Louvre" ] ]
-
- |> "luwiys" <| [
-
-    -- ;; luwiys_1
-    -- lwys    luwiys  Nprop   Louis;Lois
-
-    Identity                  `noun`    {- luwiys -}           [ "Louis", "Lois" ] ]
 
  |> "luwkA^sinkuw" <| [
 

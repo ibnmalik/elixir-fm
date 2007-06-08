@@ -1169,6 +1169,11 @@ lexicon = listing "Lexicon's properties"
 
     FiCLAn                    `noun`    {- EiSoyAn -}          [ "mutiny", "insubordination" ],
 
+    -- ;; EiSoyAniy~_1
+    -- ESyAny  EiSoyAniy~      Nall    subversive;insurrectionist     [[EiSoyAniy~/ADJ]]
+
+    FiCLAn |< Iy              `adj`     {- EiSoyAniy~ -}       [ "subversive", "insurrectionist" ],
+
     -- ;; maEoSiyap_1
     -- mESy    maEoSiy Nap     insubordination;rebellion
     -- mEASy   maEASiy N0_Nh   insubordination;rebellions
@@ -5748,6 +5753,16 @@ lexicon = listing "Lexicon's properties"
 
     FuCLAn                    `noun`    {- EudowAn -}          [ "Udwan" ],
 
+    -- ;; EudowAniy~_1
+    -- EdwAny  EudowAniy~      Nall    hostile;aggressive     [[EudowAniy~/ADJ]]
+
+    FuCLAn |< Iy              `adj`     {- EudowAniy~ -}       [ "hostile", "aggressive" ],
+
+    -- ;; EudowAniy~ap_1
+    -- EdwAny  EudowAniy~      Nap     aggression;belligerency     [[EudowAniy~/NOUN]]
+
+    FuCLAn |< Iy |< aT        `noun`    {- EudowAniy~ap -}     [ "aggression", "belligerency" ],
+
     -- ;; >aEodaY_2
     -- >EdY    >aEodaY N0      greater/greatest enemy
     -- AEdY    >aEodaY N0      greater/greatest enemy
@@ -7756,6 +7771,11 @@ lexicon = listing "Lexicon's properties"
     MaFCUL |< aT              `noun`    {- maEoluwmap -}       [ "piece of data", "known fact", "item of information", "information", "data" ]
                               `plural`     MaFCUL |< At,
 
+    -- ;; maEoluwmAtiy~_1
+    -- mElwmAty        maEoluwmAtiy~   Nall    information science;informatics     [[maEoluwmAtiy~/ADJ]]
+
+    MaFCUL |< At |< Iy        `adj`     {- maEoluwmAtiy~ -}    [ "information science", "informatics" ],
+
     -- ;; muEal~im_1
     -- mElm    muEal~im        Nall    teacher
 
@@ -8294,6 +8314,15 @@ lexicon = listing "Lexicon's properties"
     -- Ely     Eiloy   Nap     prominent
 
     FiCL |< aT                `noun`    {- Eiloyap -}          [ "prominent" ],
+
+    -- ;; Euliy~ap_1
+    -- Ely     Euliy~  Napdu   upper room     [[Euliy~/NOUN]]
+    -- ElAly   EalAliy N0_Nh   upper rooms
+    -- ElAl    EalAl   NK      upper rooms
+
+    FuCIL |< aT               `noun`    {- Euliy~ap -}         [ "upper room", "upper rooms" ]
+                              `plural`     FaCACI
+                           {- `others`  [ "`alAliy N0_Nh" ] -},
 
     -- ;; EaloyA'_1
     -- ElyA'   EaloyA' N0_Nh   loftiness;upper class
@@ -9396,6 +9425,11 @@ lexicon = listing "Lexicon's properties"
     -- EmyAn   EamoyAn N       blind
 
     FaCLAn                    `noun`    {- EamoyAn -}          [ "blind" ],
+
+    -- ;; EamoyAniy~_1
+    -- EmyAny  EamoyAniy~      N       blind
+
+    FaCLAn |< Iy              `adj`     {- EamoyAniy~ -}       [ "blind" ],
 
     -- ;; >aEomaY_2
     -- >EmY    >aEomaY N0      blind
@@ -13007,6 +13041,12 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCALY
                            {- `others`  [ "`arAyY N0_Nhy" ] -},
 
+    -- ;; EuroyAniy~_1
+    -- EryAny  EuroyAniy~      Nall    nudist;naturist     [[EuroyAniy~/ADJ]]
+    -- EryAny  EuroyAniy~      Nap     nudism;naturism     [[EuroyAniy~/NOUN]]
+
+    FuCLAn |< Iy              `adj`     {- EuroyAniy~ -}       [ "nudist", "naturist", "nudism", "naturism" ],
+
     -- ;; taEoriyap_1
     -- tEry    taEoriy Nap     uncovering;exposure;unveiling
 
@@ -14109,6 +14149,11 @@ lexicon = listing "Lexicon's properties"
     FACI                      `adj`     {- EAtiy -}            [ "arrogant", "insolent" ]
                               `plural`     FACI |< At
                               `plural`     FuCY |< aT,
+
+    -- ;; Eutiy~_1
+    -- Ety     Eutiy~  N       arrogance
+
+    FuCIL                     `noun`    {- Eutiy~ -}           [ "arrogance" ],
 
     -- ;; Eatiy~_1
     -- Ety     Eatiy~  N-ap    arrogant;insolent     [[Eatiy~/ADJ]]
@@ -18177,13 +18222,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Eamorw -}           [ "Amr" ] ]
 
- |> "`amyAniyy" <| [
-
-    -- ;; EamoyAniy~_1
-    -- EmyAny  EamoyAniy~      N       blind
-
-    Identity                  `noun`    {- EamoyAniy~ -}       [ "blind" ] ]
-
  |> "`andaliyb" <| [
 
     -- ;; Eanodaliyb_1
@@ -18264,13 +18302,6 @@ lexicon = listing "Lexicon's properties"
     -- EyslAn  EayosalAn       N       hyacinth
 
     Identity                  `noun`    {- EayosalAn -}        [ "hyacinth" ] ]
-
- |> "`i.syAniyy" <| [
-
-    -- ;; EiSoyAniy~_1
-    -- ESyAny  EiSoyAniy~      Nall    subversive;insurrectionist     [[EiSoyAniy~/ADJ]]
-
-    Identity                  `adj`     {- EiSoyAniy~ -}       [ "subversive", "insurrectionist" ] ]
 
  |> "`i_tyar" <| [
 
@@ -18410,27 +18441,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- Eubayodoliy~ -}     [ "Ubaidli" ] ]
 
- |> "`udwAniyy" <| [
-
-    -- ;; EudowAniy~_1
-    -- EdwAny  EudowAniy~      Nall    hostile;aggressive     [[EudowAniy~/ADJ]]
-
-    Identity                  `adj`     {- EudowAniy~ -}       [ "hostile", "aggressive" ],
-
-    -- ;; EudowAniy~ap_1
-    -- EdwAny  EudowAniy~      Nap     aggression;belligerency     [[EudowAniy~/NOUN]]
-
-    Identity |< aT            `noun`    {- EudowAniy~ap -}     [ "aggression", "belligerency" ] ]
-
- |> "`uliyy" <| [
-
-    -- ;; Euliy~ap_1
-    -- Ely     Euliy~  Napdu   upper room     [[Euliy~/NOUN]]
-    -- ElAly   EalAliy N0_Nh   upper rooms
-    -- ElAl    EalAl   NK      upper rooms
-
-    Identity |< aT            `noun`    {- Euliy~ap -}         [ "upper room", "upper rooms" ] ]
-
  |> "`ullayq" <| [
 
     -- ;; Eul~ayoq_1
@@ -18470,21 +18480,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Euqay~ib -}         [ "small eagle" ] ]
 
- |> "`uryAniyy" <| [
-
-    -- ;; EuroyAniy~_1
-    -- EryAny  EuroyAniy~      Nall    nudist;naturist     [[EuroyAniy~/ADJ]]
-    -- EryAny  EuroyAniy~      Nap     nudism;naturism     [[EuroyAniy~/NOUN]]
-
-    Identity                  `adj`     {- EuroyAniy~ -}       [ "nudist", "naturist", "nudism", "naturism" ] ]
-
- |> "`utiyy" <| [
-
-    -- ;; Eutiy~_1
-    -- Ety     Eutiy~  N       arrogance
-
-    Identity                  `noun`    {- Eutiy~ -}           [ "arrogance" ] ]
-
  |> "`uwayrAn" <| [
 
     -- ;; EuwayorAn_1
@@ -18506,13 +18501,6 @@ lexicon = listing "Lexicon's properties"
     -- lEl     laEal~a FW-Wa-n~a       perhaps     [[la/EMPHATIC_PARTICLE+Eal~a/FUNC_WORD]]
 
     Identity                  `noun`    {- laEal~a -}          [ "perhaps" ] ]
-
- |> "ma`luwmAt" <| [
-
-    -- ;; maEoluwmAtiy~_1
-    -- mElwmAty        maEoluwmAtiy~   Nall    information science;informatics     [[maEoluwmAtiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- maEoluwmAtiy~ -}    [ "information science", "informatics" ] ]
 
  |> "ma`madAn" <| [
 

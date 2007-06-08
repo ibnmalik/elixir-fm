@@ -5483,7 +5483,11 @@ $Lexicon = {
         'dwAy    dawAy   Napdu   socket;well',
         'dwy     duwiy~  N       sockets;wells'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'duwiyy' => [
+          'FuCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCAL |< aT',

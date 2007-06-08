@@ -9139,28 +9139,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mu_hAbarAt' => [
-    {
-      'types' => {},
-      'entry' => 'mu_hAbarAt',
-      'form' => 'mu_hAbarAtiyy',
-      'lines' => [
-        ';; muxAbarAtiy~_1',
-        'mxAbrAty        muxAbarAtiy~    Nall    intelligence service;secret service     [[muxAbarAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'intelligence service',
-        'secret service'
-      ],
-      'orig' => 'muxAbarAtiy~',
-      'prefix' => ''
-    }
-  ],
   '_h .t l' => [
     {
       'types' => {
@@ -17412,28 +17390,6 @@ $Lexicon = {
         'mustard'
       ],
       'orig' => 'xarodal',
-      'prefix' => ''
-    }
-  ],
-  'isti_hbArAt' => [
-    {
-      'types' => {},
-      'entry' => 'isti_hbArAt',
-      'form' => 'isti_hbArAtiyy',
-      'lines' => [
-        ';; {isotixobArAtiy~_1',
-        '<stxbArAty      {isotixobArAtiy~        Nall    intelligence     [[{isotixobArAtiy~/ADJ]]',
-        'AstxbArAty      {isotixobArAtiy~        Nall    intelligence     [[{isotixobArAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'intelligence'
-      ],
-      'orig' => 'AisotixobArAtiy~',
       'prefix' => ''
     }
   ],
@@ -27373,6 +27329,29 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_hunzuwAn' => [
+    {
+      'types' => {},
+      'entry' => '_hunzuwAn',
+      'form' => '_hunzuwAniyy',
+      'lines' => [
+        ';; xunozuwAniy~_1',
+        'xnzwAny xunozuwAniy~    Nall    megalomaniac     [[xunozuwAniy~/ADJ]]',
+        'xnzwAny xunozuwAniy~    Nap     megalomania     [[xunozuwAniy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'megalomaniac',
+        'megalomania'
+      ],
+      'orig' => 'xunozuwAniy~',
+      'prefix' => ''
+    }
+  ],
   '_hirwa`' => [
     {
       'types' => {},
@@ -34129,29 +34108,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_hunzuwAniyy' => [
-    {
-      'types' => {},
-      'entry' => '_hunzuwAniyy',
-      'form' => '_hunzuwAniyy',
-      'lines' => [
-        ';; xunozuwAniy~_1',
-        'xnzwAny xunozuwAniy~    Nall    megalomaniac     [[xunozuwAniy~/ADJ]]',
-        'xnzwAny xunozuwAniy~    Nap     megalomania     [[xunozuwAniy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'megalomaniac',
-        'megalomania'
-      ],
-      'orig' => 'xunozuwAniy~',
-      'prefix' => ''
-    }
-  ],
   '_h r ^s' => [
     {
       'types' => {},
@@ -36560,6 +36516,26 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => 'mu_hAbar',
+      'form' => 'mu_hAbarAtiyy',
+      'lines' => [
+        ';; muxAbarAtiy~_1',
+        'mxAbrAty        muxAbarAtiy~    Nall    intelligence service;secret service     [[muxAbarAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFACaL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'intelligence service',
+        'secret service'
+      ],
+      'orig' => 'muxAbarAtiy~',
+      'prefix' => ''
+    },
+    {
       'types' => {
         '\'i_hbAr' => {
           'NduAt' => 2
@@ -36736,6 +36712,26 @@ $Lexicon = {
         'intelligence'
       ],
       'orig' => 'AisotixobAriy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'isti_hbAr',
+      'form' => 'isti_hbArAtiyy',
+      'lines' => [
+        ';; {isotixobArAtiy~_1',
+        '<stxbArAty      {isotixobArAtiy~        Nall    intelligence     [[{isotixobArAtiy~/ADJ]]',
+        'AstxbArAty      {isotixobArAtiy~        Nall    intelligence     [[{isotixobArAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'IstiFCAL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'intelligence'
+      ],
+      'orig' => 'AisotixobArAtiy~',
       'prefix' => ''
     },
     {

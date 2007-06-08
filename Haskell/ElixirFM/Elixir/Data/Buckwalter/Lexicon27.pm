@@ -6912,7 +6912,11 @@ $Lexicon = {
         'wxy     wuxiy~  N       intentions;aims;plans',
         'wxy     wixiy~  N       intentions;aims;plans'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'wu_hiyy' => [
+          'FuCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL',

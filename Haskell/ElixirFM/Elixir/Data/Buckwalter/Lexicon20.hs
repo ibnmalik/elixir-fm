@@ -1499,7 +1499,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; fuSofAt_1
     -- fSfAt   fuSofAt N       phosphate
 
-    FuCL |< At                `noun`    {- fuSofAt -}          [ "phosphate" ] ]
+    FuCL |< At                `noun`    {- fuSofAt -}          [ "phosphate" ],
+
+    -- ;; fuSofAtiy~_1
+    -- fSfAty  fuSofAtiy~      N-ap    phosphate     [[fuSofAtiy~/ADJ]]
+
+    FuCL |< At |< Iy          `adj`     {- fuSofAtiy~ -}       [ "phosphate" ] ]
 
  |> "f .s f r" <| [
 
@@ -1537,11 +1542,6 @@ lexicon = listing "Lexicon's properties"
     -- fSft    faSofat Nap     treatment with phosphate
 
     KaRDaS |< aT              `noun`    {- faSofatap -}        [ "treatment with phosphate" ],
-
-    -- ;; fuSofAtiy~_1
-    -- fSfAty  fuSofAtiy~      N-ap    phosphate     [[fuSofAtiy~/ADJ]]
-
-    KuRDAS |< Iy              `adj`     {- fuSofAtiy~ -}       [ "phosphate" ],
 
     -- ;; mufaSofat_1
     -- mfSft   mufaSofat       N-ap    treated with phosphate     [[mufaSofat/ADJ]]
@@ -4849,6 +4849,12 @@ lexicon = listing "Lexicon's properties"
 
     FiCL |< aT                `noun`    {- fil~ap -}           [ "villa", "country house" ],
 
+    -- ;; falAtiy~_1
+    -- flAty   falAtiy~        Ndu     licentious;womanizer
+    -- flAty   falAtiy~        Nap     libertines;womanizers     [[falAtiy~/NOUN]]
+
+    FaL |< At |< Iy           `noun`    {- falAtiy~ -}         [ "licentious", "womanizer", "libertines", "womanizers" ],
+
     -- ;; fal_1
     -- fl      fal     NF      open country     [[fal/NOUN]]
     -- flA     falA    N0_Nhy  open country
@@ -5108,12 +5114,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT |< aN          `noun`    {- falotapF -}         [ "suddenly", "unexpectedly" ],
 
-    -- ;; falAtiy~_1
-    -- flAty   falAtiy~        Ndu     licentious;womanizer
-    -- flAty   falAtiy~        Nap     libertines;womanizers     [[falAtiy~/NOUN]]
-
-    FaCAL |< Iy               `noun`    {- falAtiy~ -}         [ "licentious", "womanizer", "libertines", "womanizers" ],
-
     -- ;; falotAn_1
     -- fltAn   falotAn N       chaos;recklessness
 
@@ -5222,6 +5222,12 @@ lexicon = listing "Lexicon's properties"
     MutaKaRDiS                `adj`     {- mutafalowir -}      [ "fluorescent" ] ]
 
  |> "f l y" <| [
+
+    -- ;; falAtiy~_1
+    -- flAty   falAtiy~        Ndu     licentious;womanizer
+    -- flAty   falAtiy~        Nap     libertines;womanizers     [[falAtiy~/NOUN]]
+
+    FaC |< At |< Iy           `noun`    {- falAtiy~ -}         [ "licentious", "womanizer", "libertines", "womanizers" ],
 
     -- ;; mafAliy_1
     -- mfAly   mafAliy N0_Nh   pastures
@@ -8887,7 +8893,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; fusofAt_1
     -- fsfAt   fusofAt N       phosphate
 
-    FuCL |< At                `noun`    {- fusofAt -}          [ "phosphate" ] ]
+    FuCL |< At                `noun`    {- fusofAt -}          [ "phosphate" ],
+
+    -- ;; fusofAtiy~_1
+    -- fsfAty  fusofAtiy~      N-ap    phosphate     [[fusofAtiy~/ADJ]]
+
+    FuCL |< At |< Iy          `adj`     {- fusofAtiy~ -}       [ "phosphate" ] ]
 
  |> "f s f r" <| [
 
@@ -8944,11 +8955,6 @@ lexicon = listing "Lexicon's properties"
     -- fsft    fasofat Nap     treatment with phosphate
 
     KaRDaS |< aT              `noun`    {- fasofatap -}        [ "treatment with phosphate" ],
-
-    -- ;; fusofAtiy~_1
-    -- fsfAty  fusofAtiy~      N-ap    phosphate     [[fusofAtiy~/ADJ]]
-
-    KuRDAS |< Iy              `adj`     {- fusofAtiy~ -}       [ "phosphate" ],
 
     -- ;; mufasofat_1
     -- mfsft   mufasofat       N-ap    treated with phosphate     [[mufasofat/ADJ]]
@@ -11909,14 +11915,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- faranosiys -}       [ "Francis" ] ]
 
- |> "faransiyskAniyy" <| [
+ |> "faransiyskAn" <| [
 
     -- ;; faranosiysokAniy~_1
     -- frnsyskAny      faranosiysokAniy~       Nall    Franciscan     [[faranosiysokAniy~/NOUN]]
     -- frnsyskAny      faranosiysokAniy~       Nall    Franciscan     [[faranosiysokAniy~/ADJ]]
     -- frnsyskAn       faranosiysokAn  N0      Franciscans
 
-    Identity                  `adj`     {- faranosiysokAniy~ -} [ "Franciscan", "Franciscans" ] ]
+    Identity |< Iy            `adj`     {- faranosiysokAniy~ -} [ "Franciscan", "Franciscans" ] ]
 
  |> "farmal^g" <| [
 
@@ -13065,15 +13071,13 @@ lexicon = listing "Lexicon's properties"
     -- fwsfAt  fuwsofAt        N       phosphate
     -- fwSfAt  fuwSofAt        N       phosphate
 
-    Identity |< At            `noun`    {- fuwsofAt -}         [ "phosphate" ] ]
-
- |> "fuwsfAt" <| [
+    Identity |< At            `noun`    {- fuwsofAt -}         [ "phosphate" ],
 
     -- ;; fuwsofAtiy~_1
     -- fwsfAty fuwsofAtiy~     Nall    phosphate     [[fuwsofAtiy~/ADJ]]
     -- fwSfAty fuwSofAtiy~     Nall    phosphate     [[fuwSofAtiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- fuwsofAtiy~ -}      [ "phosphate" ] ]
+    Identity |< At |< Iy      `adj`     {- fuwsofAtiy~ -}      [ "phosphate" ] ]
 
  |> "fuwsfuwr" <| [
 

@@ -879,7 +879,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "l w s" <| [
 
-    FUL                       `noun`    {- luws -}             [ "Los" ] ]
+    FUL                       `noun`    {- luws -}             [ "Los" ],
+
+    FuCIL                     `noun`    {- luwiys -}           [ "Louis", "Lois" ] ]
 
  |> "l w w" <| [
 
@@ -1138,10 +1140,6 @@ lexicon = listing "Lexicon's properties"
     Identity |< Iy            `adj`     {- luwjisotiy~ -}      [ "logistic" ],
 
     Identity |< Iy            `adj`     {- luwjisotiy~ -}      [ "logistician" ] ]
-
- |> "luwiys" <| [
-
-    Identity                  `noun`    {- luwiys -}           [ "Louis", "Lois" ] ]
 
  |> "luwkirbiy" <| [
 

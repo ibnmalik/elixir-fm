@@ -439,26 +439,24 @@ $Lexicon = {
       ],
       'orig' => 'Zaboyap',
       'prefix' => ''
-    }
-  ],
-  '.zAhirAt' => [
+    },
     {
       'types' => {},
-      'entry' => '.zAhirAt',
-      'form' => '.zAhirAtiyy',
+      'entry' => '.zubyAn',
+      'form' => '.zubyAniyy',
       'lines' => [
-        ';; ZAhirAtiy~_1',
-        'ZAhrAty ZAhirAtiy~      Nall    phenomenological     [[ZAhirAtiy~/ADJ]]'
+        ';; ZuboyAniy~_1',
+        'ZbyAny  ZuboyAniy~      Nall    from/of Abu Dhabi     [[ZuboyAniy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
+      'morphs' => 'FuCLAn |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'phenomenological'
+        'from/of Abu Dhabi'
       ],
-      'orig' => 'ZAhirAtiy~',
+      'orig' => 'ZuboyAniy~',
       'prefix' => ''
     }
   ],
@@ -1296,6 +1294,25 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => '.zAhir',
+      'form' => '.zAhirAtiyy',
+      'lines' => [
+        ';; ZAhirAtiy~_1',
+        'ZAhrAty ZAhirAtiy~      Nall    phenomenological     [[ZAhirAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACiL |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'phenomenological'
+      ],
+      'orig' => 'ZAhirAtiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'mu.zahhir',
       'form' => 'mu.zahhir',
       'lines' => [
@@ -1637,27 +1654,6 @@ $Lexicon = {
         'prejudices'
       ],
       'orig' => 'maZin~ap',
-      'prefix' => ''
-    }
-  ],
-  '.zubyAniyy' => [
-    {
-      'types' => {},
-      'entry' => '.zubyAniyy',
-      'form' => '.zubyAniyy',
-      'lines' => [
-        ';; ZuboyAniy~_1',
-        'ZbyAny  ZuboyAniy~      Nall    from/of Abu Dhabi     [[ZuboyAniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'from/of Abu Dhabi'
-      ],
-      'orig' => 'ZuboyAniy~',
       'prefix' => ''
     }
   ],
@@ -2851,33 +2847,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'i.z.zalam' => [
-    {
-      'types' => {
-        '.z.zalim' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'i.z.zalam',
-      'form' => 'i.z.zalam',
-      'lines' => [
-        ';; {iZ~alam_1',
-        '<Zlm    {iZ~alam        PV_intr be wronged',
-        'AZlm    {iZ~alam        PV_intr be wronged',
-        'Zlm     Z~alim  IV_intr be wronged'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be wronged'
-      ],
-      'orig' => 'AiZ~alam',
-      'prefix' => ''
-    }
-  ],
   '.z l m' => [
     {
       'types' => {
@@ -3348,6 +3317,33 @@ $Lexicon = {
         'gloomy'
       ],
       'orig' => 'muZolim',
+      'prefix' => ''
+    }
+  ],
+  'i.z.zalam' => [
+    {
+      'types' => {
+        '.z.zalim' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'i.z.zalam',
+      'form' => 'i.z.zalam',
+      'lines' => [
+        ';; {iZ~alam_1',
+        '<Zlm    {iZ~alam        PV_intr be wronged',
+        'AZlm    {iZ~alam        PV_intr be wronged',
+        'Zlm     Z~alim  IV_intr be wronged'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'be wronged'
+      ],
+      'orig' => 'AiZ~alam',
       'prefix' => ''
     }
   ],
