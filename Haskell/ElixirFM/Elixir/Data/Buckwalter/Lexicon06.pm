@@ -48952,9 +48952,6 @@ $Lexicon = {
         '.hbib' => {
           'IV_C' => 1
         },
-        '.habb' => {
-          'PV_V' => 1
-        },
         '.hibb' => {
           'IV_V' => 1
         },
@@ -48963,18 +48960,15 @@ $Lexicon = {
         }
       },
       'entry' => '.habb',
-      'form' => '.habbi',
+      'form' => '.habb',
       'lines' => [
-        ';; Hab~i_1',
+        ';; Hab~-i_1',
         'Hb      Hab~    PV_V    love;like;want',
         'Hbb     Habab   PV_C    love;like;want',
         'Hb      Hib~    IV_V    love;like;want',
         'Hbb     Hobib   IV_C    love;like;want'
       ],
       'patterns' => {
-        '.habb' => [
-          'FaCL'
-        ],
         '.hbib' => [
           'FCiL'
         ],
@@ -48986,15 +48980,18 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |<< "i"',
-      'suffix' => ' |<< "i"',
+      'entity' => 'verb',
+      'morphs' => 'FaCL',
       'glosses' => [
         'love',
         'like',
         'want'
       ],
-      'orig' => 'Hab~i',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'Hab~-i',
       'prefix' => ''
     },
     {

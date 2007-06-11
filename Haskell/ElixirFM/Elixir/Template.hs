@@ -230,9 +230,10 @@ class Forming a where
 
     isForm :: Form -> a -> Bool
 
-    verbStems :: Form -> [(a, a, a, a)]
+    verbStems :: Form -> String -> [StemItem a]
 
-    shortStem :: a -> a
+
+type StemItem a = (Maybe (a, a, a, a), a, a, a, a)
 
 
 data Form = I | II | III | IV | V | VI | VII | VIII | IX | X |

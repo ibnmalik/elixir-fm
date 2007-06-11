@@ -513,6 +513,10 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h b b" <| [
 
+    FaCL                      `verb`    {- Hab~-i -}           [ "love", "like", "want" ]
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL,
+
     HaFaCL                    `verb`    {- OaHab~ -}           [ "love", "like" ],
 
     FuCL                      `adv`     {- Hub~ -}             [ "love", "affection", "out of affection for", "for love of" ],

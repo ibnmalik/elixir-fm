@@ -50,7 +50,7 @@ data RootEntry a = RE Root (Entry a)
 
 class Param p => Inflect m p where
 
-    inflect :: (Template a, Rules a, Forming a, Morphing a a, Show a) =>
+    inflect :: (Template a, Rules a, Forming a, Morphing a a, Morphing (Morphs a) a) =>
                m a -> p -> [String]
 
     -- inflect :: Template b => a -> b -> Root -> [String]
@@ -84,38 +84,33 @@ instance Inflect Entry ParaNoun where
 
 instance Inflect RootEntry ParaVerb where
 
-    inflect (RE r e) x@(VerbP   v p g n) = (map inRules . inEntry) e
+    inflect (RE r e) x@(VerbP   v p g n) = paradigm (paraVerbP v p g n)
 
-        where Morphs pattern _ _ = morphs e
+        where paradigm p = map (merge r . p) inEntry
 
-              inEntry e = case entity e of
+              inEntry = case entity e of
 
-                  Verb [] _ _   ->  [ morphs e ]
+                  Verb is _ _ | null is || isDefault x
+                                        || v == Passive -> inRules [ morphs e ]
 
-                  Verb is _ _   ->  if isDefault x then [ morphs e ]
-                                                   else [ morph i | i <- is ]
+                              | otherwise               -> [ morph i | i <- is ]
 
-                  _             ->  error "Incompatible VerbP"
+                  _             ->  (error . unwords) [ "Incompatible VerbP", show r ]
 
-              inRules = merge r . paradigm (paraVerbP v p g n)
+              inRules = map (\ m -> morph m `asTypeOf` morphs e) . concat .
 
-              paradigm p m@(Morphs t _ _) = p $ case v of
+                        map (\ (Morphs t _ _) -> take 1 $ if v == Active
 
-                    Active  -> if isDefault x then m else morph (shortStem t)
-                    Passive -> case [ morph y |
-                                      (x, y, _, _) <- verbStems form, x == t ]
+                            then [ y | f <- [I ..], i <- verbStems f r,
+                                       let (x, _, y, _) = theItem i, x == t ]
 
-                                      of [] -> error (unwords [show r, show t,
-                                                               show form,
-                                                               "VerbP"])
-                                         xs -> head xs
+                            else [ y | f <- [I ..], i <- verbStems f r,
+                                       let (x, z, _, y) = theItem i, x == t || z == t ])
 
-              form = case nub [ f | f <- [I ..], (x, y, _, _) <- verbStems f,
-                                    x == pattern || y == pattern ] of
-                        [x] ->  x
-                        _   ->  (error . unwords)
-                                    ["Inconsistent Derivation Form VerbP",
-                                    show pattern, show r]
+
+              theItem (Just (e, f, _, _), a, b, _, _) | not (isDefault x) = (a, b, e, f)
+                                                      | otherwise         = (a, b, a, b)
+              theItem (Nothing          , a, b, _, _)                     = (a, b, a, b)
 
 
     inflect (RE r e) x@(VerbI m v p g n) = (map inRules . inEntry) e
@@ -124,10 +119,11 @@ instance Inflect RootEntry ParaVerb where
 
               inEntry e = case entity e of
 
-                  Verb _ [] _   -> [ morph y | (x, _, y, _) <- verbStems form,
-                                                x == pattern ]
+                  Verb _ [] _   -> [ y | f <- [I ..], i <- verbStems f r,
+                                         let (x, _, y, _) = theItem i, x == pattern ]
 
-                  Verb _ is _   -> [ morph i | i <- is ]
+                  Verb _ is _   -> [ y | every <- is, f <- [I ..], i <- verbStems f r,
+                                         let (x, _, y, _) = theItem i, x == pattern, every ]]
 
                                    -- if isDefault x then [ morph i | i <- is ]
                                    --                else [ morph y | y <- ys ]
@@ -140,19 +136,16 @@ instance Inflect RootEntry ParaVerb where
 
                     Active  -> if isDefault x then m else morph (shortStem t)
                     Passive -> case [ morph y |
-                                      (_, _, x, y) <- verbStems form, x == t ]
+                                      (_, _, x, y) <- verbStems form r, x == t ]
 
                                       of [] -> error (unwords [show r, show t,
                                                                show form,
                                                                "VerbI"])
                                          xs -> head xs
 
-              form = case nub [ f | f <- [I ..], (x, y, _, _) <- verbStems f,
-                                    x == pattern || y == pattern ] of
-                        [x] ->  x
-                        _   ->  (error . unwords)
-                                    ["Inconsistent Derivation Form VerbI",
-                                    show pattern, show r]
+              theItem (Just (_, _, g, h), a, b, c, d) | not (isDefault x) = (a, b, g, h)
+                                                      | otherwise         = (a, b, c, d)
+              theItem (Nothing          , a, b, c, d)                     = (a, b, c, d)
 
 
     inflect (RE r e) x@(VerbC       g n) = (map inRules . inEntry) e
@@ -161,7 +154,7 @@ instance Inflect RootEntry ParaVerb where
 
               inEntry e = case entity e of
 
-                  Verb _ [] []  ->  [ morph y | (x, _, y, _) <- verbStems form,
+                  Verb _ [] []  ->  [ morph y | (x, _, y, _) <- verbStems form r,
                                                 x == pattern ]
 
                   Verb _ is []  ->  [ morph i | i <- is ]
@@ -176,13 +169,9 @@ instance Inflect RootEntry ParaVerb where
                                             (if isDefault x then m
                                                             else morph (shortStem t))
 
-              form = case nub [ f | f <- [I ..], (x, y, _, _) <- verbStems f,
-                                    x == pattern || y == pattern ] of
-                        [x] ->  x
-                        _   ->  (error . unwords)
-                                    ["Inconsistent Derivation Form VerbC",
-                                    show pattern, show r]
-
+              theItem (Just (e, f, _, _), a, b, _, _) | not (isDefault x) = (a, b, e, f)
+                                                      | otherwise         = (a, b, a, b)
+              theItem (Nothing          , a, b, _, _)                     = (a, b, a, b)
 
     inflect _ _ = []
 

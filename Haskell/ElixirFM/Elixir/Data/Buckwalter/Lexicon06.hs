@@ -3108,18 +3108,15 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h b b" <| [
 
-    -- ;; Hab~i_1
+    -- ;; Hab~-i_1
     -- Hb      Hab~    PV_V    love;like;want
     -- Hbb     Habab   PV_C    love;like;want
     -- Hb      Hib~    IV_V    love;like;want
     -- Hbb     Hobib   IV_C    love;like;want
 
-    FaCL |<< "i"              `noun`    {- Hab~i -}            [ "love", "like", "want" ]
-                              `plural`     FCiL
-                              `plural`     FaCL
-                              `plural`     FiCL
-                              `plural`     FaCaL
-                           {- `others`  [ ".hbib IV_C", ".habb PV_V", ".hibb IV_V", ".habab PV_C" ] -},
+    FaCL                      `verb`    {- Hab~-i -}           [ "love", "like", "want" ]
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL,
 
     -- ;; Hab~ab_1
     -- Hbb     Hab~ab  PV      endear;granulate

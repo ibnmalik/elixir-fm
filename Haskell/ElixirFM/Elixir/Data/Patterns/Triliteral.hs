@@ -102,233 +102,219 @@ instance Forming PatternT where
                             XIV     ->  init [IFCanLaL .. IFCanLY]
                             XV      ->  [IFCanLY ..]
 
-
-    shortStem x = case x of     FUL         ->      FuL
-                                FAL         ->      FaL
-                                FIL         ->      FiL
-
-                                FuCL        ->      FCuL
-                                FaCL        ->      FCaL
-                                FiCL        ->      FCiL
-
-                                HaFAL       ->      HaFaL
-                                HuFIL       ->      HuFiL
-
-                                HaFaCL      ->      HaFCaL
-                                HuFiCL      ->      HuFCiL
-
-                                InFAL       ->      InFaL
-                                UnFIL       ->      UnFiL
-                                NFAL        ->      NFaL
-
-                                InFaCL      ->      InFaCaL
-                                UnFuCL      ->      UnFuCiL
-                                NFaCL       ->      NFaCiL
-
-                                IFtAL       ->      IFtaL
-                                UFtIL       ->      UFtiL
-                                FtAL        ->      FtaL
-
-                                IFtaCL      ->      IFtaCaL
-                                UFtuCL      ->      UFtuCiL
-                                FtaCL       ->      FtaCiL
-
-                                IstaFAL     ->      IstaFaL
-                                UstuFIL     ->      UstuFiL
-                                StaFIL      ->      StaFiL
-                                StaFAL      ->      StaFaL
-
-                                _           ->      x
-
-
    -- Fischer (2001), par. 239 (ra'Y, wa'Y), 258 (ya.hyY, ista.hY), 224 (participles)
    -- Fischer (2001), par. 243 (uy > uu), 33 ff (combinatory phonology)
 
-    verbStems I = [
+    verbStems I r
 
-        -- Regular
-
-        (   FaCaL,      FuCiL,      FCaL,       FCaL        ),
-        (   FaCaL,      FuCiL,      FCiL,       FCaL        ),
-        (   FaCaL,      FuCiL,      FCuL,       FCaL        ),
-
-        (   FaCiL,      FuCiL,      FCaL,       FCaL        ),
-
-        (   FaCuL,      FuCiL,      FCaL,       FCaL        ),
-        (   FaCuL,      FuCiL,      FCuL,       FCaL        ),
-
-        --  First
-
-        (   FaCaL,      FuCiL,      CaL,        FCaL        ),
-        (   FaCaL,      FuCiL,      CiL,        FCaL        ),
-        (   FaCaL,      FuCiL,      CuL,        FCaL        ),
-
-        (   FaCiL,      FuCiL,      CaL,        FCaL        ),
-
-        (   FaCuL,      FuCiL,      CaL,        FCaL        ),
-        (   FaCuL,      FuCiL,      CuL,        FCaL        ),
-
-        --  Second
-
-        (   FAL,        FIL,        FUL,        FAL         ),  -- qAla
-        (   FuL,        FiL,        FuL,        FaL         ),
-        (   FAL,        FIL,        FAL,        FAL         ),  -- nAma / nAla
-        (   FiL,        FiL,        FaL,        FaL         ),
-        (   FAL,        FIL,        FIL,        FAL         ),  -- sAra
-        (   FiL,        FiL,        FiL,        FaL         ),
-
-        -- Third
-
-        (   FaCA,       FuCI,       FCU,        FCY         ),  -- da`A
-        (   FaCU,       FuCI,       FCU,        FCY         ),  -- .haluwa
-        (   FaCY,       FuCI,       FCI,        FCY         ),  -- ramY
-        (   FaCY,       FuCI,       FY,         FY          ),  -- ra'Y
-        (   FaCI,       FuCI,       FCY,        FCY         ),  -- nasiya
+        | let x = words r in if length x < 3 then False
+                                             else x !! 1 == x !! 2 = [
 
         -- Double
 
-        (   FaCL,       FuCL,       FaCL,       FaCL        ),
-        (   FaCL,       FuCL,       FiCL,       FaCL        ),
-        (   FaCL,       FuCL,       FuCL,       FaCL        ),
+        (   Just   (    FaCaL,      FuCiL,      FCaL,       FCaL        ),
+                        FaCL,       FuCL,       FaCL,       FaCL        ),
+        (   Just   (    FaCaL,      FuCiL,      FCiL,       FCaL        ),
+                        FaCL,       FuCL,       FiCL,       FaCL        ),
+        (   Just   (    FaCaL,      FuCiL,      FCuL,       FCaL        ),
+                        FaCL,       FuCL,       FuCL,       FaCL        ),
+
+        (   Just   (    FaCiL,      FuCiL,      FCaL,       FCaL        ),
+                        FaCL,       FuCL,       FaCL,       FaCL        ),
+
+        (   Just   (    FaCuL,      FuCiL,      FCaL,       FCaL        ),
+                        FaCL,       FuCL,       FaCL,       FaCL        ),
+        (   Just   (    FaCuL,      FuCiL,      FCuL,       FCaL        ),
+                        FaCL,       FuCL,       FuCL,       FaCL        )
+
+        ]
+
+        | otherwise = [
+
+        -- Regular
+
+        (   Nothing,    FaCaL,      FuCiL,      FCaL,       FCaL        ),
+        (   Nothing,    FaCaL,      FuCiL,      FCiL,       FCaL        ),
+        (   Nothing,    FaCaL,      FuCiL,      FCuL,       FCaL        ),
+
+        (   Nothing,    FaCiL,      FuCiL,      FCaL,       FCaL        ),
+
+        (   Nothing,    FaCuL,      FuCiL,      FCaL,       FCaL        ),
+        (   Nothing,    FaCuL,      FuCiL,      FCuL,       FCaL        ),
+
+        --  First
+
+        (   Nothing,    FaCaL,      FuCiL,      CaL,        FCaL        ),
+        (   Nothing,    FaCaL,      FuCiL,      CiL,        FCaL        ),
+        (   Nothing,    FaCaL,      FuCiL,      CuL,        FCaL        ),
+
+        (   Nothing,    FaCiL,      FuCiL,      CaL,        FCaL        ),
+
+        (   Nothing,    FaCuL,      FuCiL,      CaL,        FCaL        ),
+        (   Nothing,    FaCuL,      FuCiL,      CuL,        FCaL        ),
+
+        --  Second
+
+        (   Just  (     FuL,        FiL,        FuL,        FaL         ),
+                        FAL,        FIL,        FUL,        FAL         ),  -- qAla
+        (   Just  (     FiL,        FiL,        FaL,        FaL         ),
+                        FAL,        FIL,        FAL,        FAL         ),  -- nAma / nAla
+        (   Just  (     FiL,        FiL,        FiL,        FaL         ),
+                        FAL,        FIL,        FIL,        FAL         ),  -- sAra
+
+        -- Third
+
+        (   Nothing,    FaCA,       FuCI,       FCU,        FCY         ),  -- da`A
+        (   Nothing,    FaCU,       FuCI,       FCU,        FCY         ),  -- .haluwa
+        (   Nothing,    FaCY,       FuCI,       FCI,        FCY         ),  -- ramY
+        (   Nothing,    FaCY,       FuCI,       FY,         FY          ),  -- ra'Y
+        (   Nothing,    FaCI,       FuCI,       FCY,        FCY         ),  -- nasiya
+
 
         -- Either
 
-        (   FaCY,       FuCI,       CI,         CY          ),  -- waqY
-        (   FaCI,       FuCI,       CI,         CY          )   -- waliya
+        (   Nothing,    FaCY,       FuCI,       CI,         CY          ),  -- waqY
+        (   Nothing,    FaCI,       FuCI,       CI,         CY          )   -- waliya
 
         ]
 
 
-    verbStems II = [
+    verbStems II _ = [
 
-     -- (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
-     -- (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
-     -- (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
-        (   FaCCY,      FuCCI,      FaCCI,      FaCCY       ),
-        (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      )
+        (   Nothing,    FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
+        (   Nothing,    FaCCY,      FuCCI,      FaCCI,      FaCCY       )
 
         ]
 
 
-    verbStems III = [
+    verbStems III _ = [
 
-        (   FACaL,      FUCiL,      FACiL,      FACaL       ),
-     -- (   FACaL,      FUCiL,      FACiL,      FACaL       ),
-     -- (   FACaL,      FUCiL,      FACiL,      FACaL       ),
-        (   FACY,       FUCI,       FACI,       FACY        ),
-        (   FACL,       FUCL,       FACL,       FACL        )
-
-        ]
-
-
-    verbStems IV = [
-
-        (   HaFCaL,     HuFCiL,     FCiL,       FCaL        ),
-        (   HACaL,      HUCiL,      FCiL,       FCaL        ),
-                                {-- UCiL        UCaL --}
-        (   HaFAL,      HuFIL,      FIL,        FAL         ),
-        (   HaFCY,      HuFCI,      FCI,        FCY         ),
-        (   HaFY,       HuFI,       FI,         FY          ),  -- 'arY
-        (   HaFaCL,     HuFiCL,     FiCL,       FaCL        ),
-        (   HACY,       HUCI,       FCI,        FCY         )
+        (   Nothing,    FACaL,      FUCiL,      FACiL,      FACaL       ),
+        (   Nothing,    FACY,       FUCI,       FACI,       FACY        ),
+        (   Just   (    FACaL,      FUCiL,      FACiL,      FACaL       ),
+                        FACL,       FUCL,       FACL,       FACL        )
 
         ]
 
 
-    verbStems V = [
+    verbStems IV _ = [
 
-     -- (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
-     -- (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
-     -- (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
-        (   TaFaCCY,    TuFuCCI,    TaFaCCY,    TaFaCCY     ),
-        (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    )
-
-        ]
-
-
-    verbStems VI = [
-
-        (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
-     -- (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
-     -- (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
-        (   TaFACY,     TuFUCI,     TaFACY,     TaFACY      ),
-        (   TaFACL,     TuFUCL,     TaFACL,     TaFACL      )
+        (   Nothing,    HaFCaL,     HuFCiL,     FCiL,       FCaL        ),
+        (   Nothing,    HACaL,      HUCiL,      FCiL,       FCaL        ),
+        (   Just   (    HaFaL,      HuFiL,      FiL,        FaL         ),
+                        HaFAL,      HuFIL,      FIL,        FAL         ),
+        (   Nothing,    HaFCY,      HuFCI,      FCI,        FCY         ),
+        (   Nothing,    HaFY,       HuFI,       FI,         FY          ),  -- 'arY
+        (   Just   (    HaFCaL,     HuFCiL,     FCiL,       FCaL        ),
+                        HaFaCL,     HuFiCL,     FiCL,       FaCL        ),
+        (   Nothing,    HACY,       HUCI,       FCI,        FCY         )
 
         ]
 
 
-    verbStems VII = [
+    verbStems V _ = [
 
-        (   InFaCaL,    UnFuCiL,    NFaCiL,     NFaCaL      ),
-     -- (   InFaCaL,    UnFuCiL,    NFaCiL,     NFaCaL      ),
-        (   InFAL,      UnFIL,      NFAL,       NFAL        ),
-        (   InFaCY,     UnFuCI,     NFaCI,      NFaCY       ),
-        (   InFaCL,     UnFuCL,     NFaCL,      NFaCL       )
+        (   Nothing,    TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
+        (   Nothing,    TaFaCCY,    TuFuCCI,    TaFaCCY,    TaFaCCY     )
 
         ]
 
 
-    verbStems VIII = [
+    verbStems VI _ = [
 
-        (   IFtaCaL,    UFtuCiL,    FtaCiL,     FtaCaL      ),
-     -- (   IFtaCaL,    UFtuCiL,    FtaCiL,     FtaCaL      ),
-        (   IFtAL,      UFtIL,      FtAL,       FtAL        ),
-        (   IFtaCY,     UFtuCI,     FtaCI,      FtaCY       ),
-        (   IFtaCL,     UFtuCL,     FtaCL,      FtaCL       )
-
-        ]
-
-
-    verbStems IX = [
-
-        (   IFCaLL,     UFCuLL,     FCaLL,      FCaLL       )
+        (   Nothing,    TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
+        (   Nothing,    TaFACY,     TuFUCI,     TaFACY,     TaFACY      ),
+        (   Just   (    TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
+                        TaFACL,     TuFUCL,     TaFACL,     TaFACL      )
 
         ]
 
 
-    verbStems X = [
+    verbStems VII _ = [
 
-        (   IstaFCaL,   UstuFCiL,   StaFCiL,    StaFCaL     ),
-        (   IstaFCaL,   UstUCiL,    StaFCiL,    StaFCaL     ),
-        (   IstaFAL,    UstuFIL,    StaFIL,     StaFAL      ),
-        (   IstaFCY,    UstuFCI,    StaFCI,     StaFCY      ),
-        (   IstaFY,     UstuFI,     StaFI,      StaFY       ),  -- ista.hY
-        (   IstaFaCL,   UstuFiCL,   StaFiCL,    StaFaCL     ),
-        (   IstaFCY,    UstUCI,     StaFCI,     StaFCY      )
-
-        ]
-
-    verbStems XI = [
-
-        (   IFCALL,     UFCULL,     FCALL,      FCALL       )
+        (   Nothing,    InFaCaL,    UnFuCiL,    NFaCiL,     NFaCaL      ),
+        (   Just   (    InFaL,      UnFiL,      NFaL,       NFaL        ),
+                        InFAL,      UnFIL,      NFAL,       NFAL        ),
+        (   Nothing,    InFaCY,     UnFuCI,     NFaCI,      NFaCY       ),
+        (   Just   (    InFaCaL,    UnFuCiL,    NFaCiL,     NFaCaL      ),
+                        InFaCL,     UnFuCL,     NFaCL,      NFaCL       )
 
         ]
 
 
-    verbStems XII = [
+    verbStems VIII _ = [
 
-        (   IFCawCaL,   UFCUCiL,    FCawCiL,    FCawCaL     )
-
-        ]
-
-
-    verbStems XIII = [
-
-        (   IFCawwaL,   UFCUwiL,    FCawwiL,    FCawwaL     )
+        (   Nothing,    IFtaCaL,    UFtuCiL,    FtaCiL,     FtaCaL      ),
+        (   Just   (    IFtaL,      UFtiL,      FtaL,       FtaL        ),
+                        IFtAL,      UFtIL,      FtAL,       FtAL        ),
+        (   Nothing,    IFtaCY,     UFtuCI,     FtaCI,      FtaCY       ),
+        (   Just   (    IFtaCaL,    UFtuCiL,    FtaCiL,     FtaCaL      ),
+                        IFtaCL,     UFtuCL,     FtaCL,      FtaCL       )
 
         ]
 
 
-    verbStems XIV = [
+    verbStems IX _ = [
 
-        (   IFCanLaL,   UFCunLiL,   FCanLiL,    FCanLaL     )
+        (   Nothing,    IFCaLL,     UFCuLL,     FCaLL,      FCaLL       )
 
         ]
 
 
-    verbStems XV = [
+    verbStems X r
 
-        (   IFCanLY,    UFCunLY,    FCanLI,     FCanLY      )
+        | let x = words r in if null x then False
+                                       else head x `elem` ["w", "y"] = [
+
+        (   Nothing,    IstaFCaL,   UstUCiL,    StaFCiL,    StaFCaL     ),
+        (   Nothing,    IstaFCY,    UstUCI,     StaFCI,     StaFCY      )
+
+        ]
+
+        | otherwise = [
+
+        (   Nothing,    IstaFCaL,   UstuFCiL,   StaFCiL,    StaFCaL     ),
+        (   Just   (    IstaFaL,    UstuFiL,    StaFiL,     StaFaL      ),
+                        IstaFAL,    UstuFIL,    StaFIL,     StaFAL      ),
+        (   Nothing,    IstaFCY,    UstuFCI,    StaFCI,     StaFCY      ),
+        (   Nothing,    IstaFY,     UstuFI,     StaFI,      StaFY       ),  -- ista.hY
+        (   Just   (    IstaFCaL,   UstuFCiL,   StaFCiL,    StaFCaL     ),
+                        IstaFaCL,   UstuFiCL,   StaFiCL,    StaFaCL     )
+
+        ]
+
+
+    verbStems XI _ = [
+
+        (   Nothing,    IFCALL,     UFCULL,     FCALL,      FCALL       )
+
+        ]
+
+
+    verbStems XII _ = [
+
+        (   Nothing,    IFCawCaL,   UFCUCiL,    FCawCiL,    FCawCaL     )
+
+        ]
+
+
+    verbStems XIII _ = [
+
+        (   Nothing,    IFCawwaL,   UFCUwiL,    FCawwiL,    FCawwaL     )
+
+        ]
+
+
+    verbStems XIV _ = [
+
+        (   Nothing,    IFCanLaL,   UFCunLiL,   FCanLiL,    FCanLaL     )
+
+        ]
+
+
+    verbStems XV _ = [
+
+        (   Nothing,    IFCanLY,    UFCunLY,    FCanLI,     FCanLY      )
 
         ]
 
@@ -412,7 +398,7 @@ instance Rules PatternT where
                             UnFuCiL, UnFIL, UnFuCI, UnFuCL,
                             UFtuCiL, UFtIL, UFtuCI, UFtuCL,
                             UFCuLL,
-                            UstuFCiL, UstUCiL, UstuFIL, UstuFCI, UstuFiCL, UstUCI,
+                            UstuFCiL, UstUCiL, UstuFIL, UstuFCI, UstuFI, UstuFiCL, UstUCI,
                             UFCULL,
                             UFCUCiL,
                             UFCUwiL,
@@ -568,8 +554,8 @@ data PatternT =
         |   HaFCaL      |   HACaL       |   HaFAL       |   HaFCY       |   HaFaCL      |   HACY
         |   HuFCiL      |   HUCiL       |   HuFIL       |   HuFCI       |   HuFiCL      |   HUCI
 
-                    {-- |   UCiL    --} |   HaFaL                                       |   HaFY
-                    {-- |   UCaL    --} |   HuFiL                                       |   HuFI
+                                        |   HaFaL                                       |   HaFY
+                                        |   HuFiL                                       |   HuFI
 
         |   HiFCAL      |   HICAL                       |   HiFCA'                      |   HICA'
         |   HiFCaL      |   HICaL       |   HiFAL       |   HiFCY       |   HiFaCL      |   HICY
