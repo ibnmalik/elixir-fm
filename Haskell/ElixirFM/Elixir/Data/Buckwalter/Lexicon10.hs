@@ -3427,6 +3427,13 @@ lexicon = listing "Lexicon's properties"
 
     MuFCiL                    `noun`    {- muro$id -}          [ "guide", "instructor", "adviser" ] ]
 
+ |> "r ^s d y" <| [
+
+    -- ;; ru$odiy_1
+    -- r$dy    ru$odiy Nprop   Rushdi
+
+    KuRDI                     `noun`    {- ru$odiy -}          [ "Rushdi" ] ]
+
  |> "r ^s f" <| [
 
     -- ;; ra$af-ui_1
@@ -11855,7 +11862,24 @@ lexicon = listing "Lexicon's properties"
 
     KuRDUS                    `noun`    {- ruwbuwT -}          [ "robot" ] ]
 
+ |> "r w b l" <| [
+
+    -- ;; ruwbil_1
+    -- rwbl    ruwbil  N       ruble
+
+    KuRDiS                    `noun`    {- ruwbil -}           [ "ruble" ] ]
+
  |> "r w b n" <| [
+
+    -- ;; ruwbin_1
+    -- rwbn    ruwbin  Nprop   Robin
+
+    KuRDiS                    `noun`    {- ruwbin -}           [ "Robin" ],
+
+    -- ;; ruwbin_2
+    -- rwbn    ruwbin  Nprop   Reuben
+
+    KuRDiS                    `noun`    {- ruwbin -}           [ "Reuben" ],
 
     -- ;; ruwbiyn_1
     -- rwbyn   ruwbiyn Nprop   Rubin;Robin
@@ -12038,12 +12062,26 @@ lexicon = listing "Lexicon's properties"
 
     KuRDIS |< Iy              `adj`     {- ruwdiysiy~ -}       [ "Rhodesian" ] ]
 
+ |> "r w d y" <| [
+
+    -- ;; ruwdiy_1
+    -- rwdy    ruwdiy  Nprop   Rudi
+
+    KuRDI                     `noun`    {- ruwdiy -}           [ "Rudi" ] ]
+
  |> "r w f" <| [
 
     -- ;; ruwf_1
     -- rwf     ruwf    N       roof garden
 
     FUL                       `noun`    {- ruwf -}             [ "roof garden" ] ]
+
+ |> "r w f r" <| [
+
+    -- ;; ruwfir_1
+    -- rwfr    ruwfir  Nprop   Rover
+
+    KuRDiS                    `noun`    {- ruwfir -}           [ "Rover" ] ]
 
  |> "r w k" <| [
 
@@ -12155,6 +12193,13 @@ lexicon = listing "Lexicon's properties"
     -- rwnq    rawonaq N       splendor;luster
 
     KaRDaS                    `noun`    {- rawonaq -}          [ "splendor", "luster" ] ]
+
+ |> "r w n y" <| [
+
+    -- ;; ruwniy_1
+    -- rwny    ruwniy  Nprop   Ronny;Ronnie
+
+    KuRDI                     `noun`    {- ruwniy -}           [ "Ronny", "Ronnie" ] ]
 
  |> "r w q" <| [
 
@@ -13979,13 +14024,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- ruTayonaY -}        [ "gibberish", "jabber" ] ]
 
- |> "ru^sdiy" <| [
-
-    -- ;; ru$odiy_1
-    -- r$dy    ru$odiy Nprop   Rushdi
-
-    Identity                  `noun`    {- ru$odiy -}          [ "Rushdi" ] ]
-
  |> "rubbamA" <| [
 
     -- ;; rub~amA_1
@@ -14063,25 +14101,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- ruwayo$id -}        [ "Ruwaishid" ] ]
 
- |> "ruwbil" <| [
-
-    -- ;; ruwbil_1
-    -- rwbl    ruwbil  N       ruble
-
-    Identity                  `noun`    {- ruwbil -}           [ "ruble" ] ]
-
- |> "ruwbin" <| [
-
-    -- ;; ruwbin_1
-    -- rwbn    ruwbin  Nprop   Robin
-
-    Identity                  `noun`    {- ruwbin -}           [ "Robin" ],
-
-    -- ;; ruwbin_2
-    -- rwbn    ruwbin  Nprop   Reuben
-
-    Identity                  `noun`    {- ruwbin -}           [ "Reuben" ] ]
-
  |> "ruwbinsuwn" <| [
 
     -- ;; ruwbinosuwn_1
@@ -14138,13 +14157,6 @@ lexicon = listing "Lexicon's properties"
     -- rwfA}yl ruwfA}iyl       Nprop   Rufa'il;Raphael
 
     Identity                  `noun`    {- ruwfA}iyl -}        [ "Rufa'il", "Raphael" ] ]
-
- |> "ruwfir" <| [
-
-    -- ;; ruwfir_1
-    -- rwfr    ruwfir  Nprop   Rover
-
-    Identity                  `noun`    {- ruwfir -}           [ "Rover" ] ]
 
  |> "ruwkits" <| [
 

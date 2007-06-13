@@ -17116,27 +17116,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'duwdiy' => [
-    {
-      'types' => {},
-      'entry' => 'duwdiy',
-      'form' => 'duwdiy',
-      'lines' => [
-        ';; duwdiy_1',
-        'dwdy    duwdiy  Nprop   Dodi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Dodi'
-      ],
-      'orig' => 'duwdiy',
-      'prefix' => ''
-    }
-  ],
   'diynAmiyks' => [
     {
       'types' => {},
@@ -19965,6 +19944,27 @@ $Lexicon = {
         'Desiree'
       ],
       'orig' => 'diyziyriyh',
+      'prefix' => ''
+    }
+  ],
+  'd w d y' => [
+    {
+      'types' => {},
+      'entry' => 'duwdiy',
+      'form' => 'duwdiy',
+      'lines' => [
+        ';; duwdiy_1',
+        'dwdy    duwdiy  Nprop   Dodi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Dodi'
+      ],
+      'orig' => 'duwdiy',
       'prefix' => ''
     }
   ],

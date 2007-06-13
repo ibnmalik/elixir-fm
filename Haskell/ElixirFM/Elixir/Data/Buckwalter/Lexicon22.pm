@@ -1033,6 +1033,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'k w b y' => [
+    {
+      'types' => {},
+      'entry' => 'kuwbiy',
+      'form' => 'kuwbiy',
+      'lines' => [
+        ';; kuwbiy_1',
+        'kwby    kuwbiy  Nprop   Kobe'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Kobe'
+      ],
+      'orig' => 'kuwbiy',
+      'prefix' => ''
+    }
+  ],
   'kuwnkurdAtuw' => [
     {
       'types' => {},
@@ -1511,27 +1532,6 @@ $Lexicon = {
         'prompter\'s box'
       ],
       'orig' => 'kamobuw$ap',
-      'prefix' => ''
-    }
-  ],
-  'kuwlin' => [
-    {
-      'types' => {},
-      'entry' => 'kuwlin',
-      'form' => 'kuwlin',
-      'lines' => [
-        ';; kuwlin_1',
-        'kwln    kuwlin  Nprop   Colin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Colin'
-      ],
-      'orig' => 'kuwlin',
       'prefix' => ''
     }
   ],
@@ -4728,6 +4728,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'k w b r' => [
+    {
+      'types' => {},
+      'entry' => 'kuwbir',
+      'form' => 'kuwbir',
+      'lines' => [
+        ';; kuwbir_1',
+        'kwbr    kuwbir  Nprop   Cooper;Cuper'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'Cooper',
+        'Cuper'
+      ],
+      'orig' => 'kuwbir',
+      'prefix' => ''
+    }
+  ],
   'kuwbinhA.g' => [
     {
       'types' => {
@@ -6872,35 +6894,6 @@ $Lexicon = {
         'shacks'
       ],
       'orig' => 'kuwx',
-      'prefix' => ''
-    }
-  ],
-  'kuwtir' => [
-    {
-      'types' => {
-        'kawAtir' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'kuwtir',
-      'form' => 'kuwtir',
-      'lines' => [
-        ';; kuwtir_1',
-        'kwtr    kuwtir  N0      cutter;yawl',
-        'kwAtr   kawAtir Ndip    cutters;yawls'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'cutter',
-        'yawl',
-        'cutters',
-        'yawls'
-      ],
-      'orig' => 'kuwtir',
       'prefix' => ''
     }
   ],
@@ -10071,25 +10064,6 @@ $Lexicon = {
         'tumblers'
       ],
       'orig' => 'kub~Ayap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'kuwbiy',
-      'form' => 'kuwbiy',
-      'lines' => [
-        ';; kuwbiy_1',
-        'kwby    kuwbiy  Nprop   Kobe'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCI',
-      'suffix' => '',
-      'glosses' => [
-        'Kobe'
-      ],
-      'orig' => 'kuwbiy',
       'prefix' => ''
     }
   ],
@@ -21586,6 +21560,9 @@ $Lexicon = {
         'kt$f    kota$af IV_Pass_yu      be discovered;be detected'
       ],
       'patterns' => {
+        'uktu^sif' => [
+          'UFtuCiL'
+        ],
         'kta^saf' => [
           'FtaCaL'
         ],
@@ -23845,35 +23822,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kubriy' => [
-    {
-      'types' => {
-        'kabAriy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'kubriy',
-      'form' => 'kubriy',
-      'lines' => [
-        ';; kuboriy_1',
-        'kbry    kuboriy N0      bridge;overpass',
-        'kbAry   kabAriy N0      bridges;overpasses'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bridge',
-        'overpass',
-        'bridges',
-        'overpasses'
-      ],
-      'orig' => 'kuboriy',
-      'prefix' => ''
-    }
-  ],
   'k l w y' => [
     {
       'types' => {},
@@ -23909,6 +23857,25 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'kuwlAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'kuwlin',
+      'form' => 'kuwlin',
+      'lines' => [
+        ';; kuwlin_1',
+        'kwln    kuwlin  Nprop   Colin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'Colin'
+      ],
+      'orig' => 'kuwlin',
       'prefix' => ''
     },
     {
@@ -30385,6 +30352,37 @@ $Lexicon = {
   ],
   'k w t r' => [
     {
+      'types' => {
+        'kawAtir' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'kuwtir',
+      'form' => 'kuwtir',
+      'lines' => [
+        ';; kuwtir_1',
+        'kwtr    kuwtir  N0      cutter;yawl',
+        'kwAtr   kawAtir Ndip    cutters;yawls'
+      ],
+      'patterns' => {
+        'kawAtir' => [
+          'KaRADiS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'cutter',
+        'yawl',
+        'cutters',
+        'yawls'
+      ],
+      'orig' => 'kuwtir',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'kuwtuwr',
       'form' => 'kuwtuwr',
@@ -36281,6 +36279,39 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'k b r y' => [
+    {
+      'types' => {
+        'kabAriy' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'kubriy',
+      'form' => 'kubriy',
+      'lines' => [
+        ';; kuboriy_1',
+        'kbry    kuboriy N0      bridge;overpass',
+        'kbAry   kabAriy N0      bridges;overpasses'
+      ],
+      'patterns' => {
+        'kabAriy' => [
+          'KaRADI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'bridge',
+        'overpass',
+        'bridges',
+        'overpasses'
+      ],
+      'orig' => 'kuboriy',
+      'prefix' => ''
+    }
+  ],
   'k d y' => [
     {
       'types' => {
@@ -36533,36 +36564,6 @@ $Lexicon = {
         'Kate'
       ],
       'orig' => 'kiyt',
-      'prefix' => ''
-    }
-  ],
-  'kuwrik' => [
-    {
-      'types' => {
-        'kuriyk' => {
-          'N0' => 1
-        },
-        'kuwriyk' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'kuwrik',
-      'form' => 'kuwrik',
-      'lines' => [
-        ';; kuwrik_1',
-        'kwrk    kuwrik  N0      forced labor',
-        'kwryk   kuwriyk N0      forced labor',
-        'kryk    kuriyk  N0      forced labor'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'forced labor'
-      ],
-      'orig' => 'kuwrik',
       'prefix' => ''
     }
   ],
@@ -37150,27 +37151,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwmiydyiyn' => [
-    {
-      'types' => {},
-      'entry' => 'kuwmiydyiyn',
-      'form' => 'kuwmiydyiyn',
-      'lines' => [
-        ';; kuwmiydoyiyn_1',
-        'kwmydyyn        kuwmiydoyiyn    N0      comedian'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'comedian'
-      ],
-      'orig' => 'kuwmiydoyiyn',
-      'prefix' => ''
-    }
-  ],
   'k t m' => [
     {
       'types' => {
@@ -37615,6 +37595,27 @@ $Lexicon = {
         'Captain'
       ],
       'orig' => 'kAbotin',
+      'prefix' => ''
+    }
+  ],
+  'kuwmiydyiyn' => [
+    {
+      'types' => {},
+      'entry' => 'kuwmiydyiyn',
+      'form' => 'kuwmiydyiyn',
+      'lines' => [
+        ';; kuwmiydoyiyn_1',
+        'kwmydyyn        kuwmiydoyiyn    N0      comedian'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'comedian'
+      ],
+      'orig' => 'kuwmiydoyiyn',
       'prefix' => ''
     }
   ],
@@ -38239,6 +38240,36 @@ $Lexicon = {
         'casserole'
       ],
       'orig' => 'kasaruwnap',
+      'prefix' => ''
+    }
+  ],
+  'k w r k' => [
+    {
+      'types' => {
+        'kuriyk' => {
+          'N0' => 1
+        },
+        'kuwriyk' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'kuwrik',
+      'form' => 'kuwrik',
+      'lines' => [
+        ';; kuwrik_1',
+        'kwrk    kuwrik  N0      forced labor',
+        'kwryk   kuwriyk N0      forced labor',
+        'kryk    kuriyk  N0      forced labor'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'forced labor'
+      ],
+      'orig' => 'kuwrik',
       'prefix' => ''
     }
   ],
@@ -40952,28 +40983,6 @@ $Lexicon = {
         'lame'
       ],
       'orig' => 'mukas~aH',
-      'prefix' => ''
-    }
-  ],
-  'kuwbir' => [
-    {
-      'types' => {},
-      'entry' => 'kuwbir',
-      'form' => 'kuwbir',
-      'lines' => [
-        ';; kuwbir_1',
-        'kwbr    kuwbir  Nprop   Cooper;Cuper'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Cooper',
-        'Cuper'
-      ],
-      'orig' => 'kuwbir',
       'prefix' => ''
     }
   ],

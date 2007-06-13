@@ -741,6 +741,10 @@ lexicon = listing "Lexicon's properties"
 
     FUL                       `noun`    {- Tuwm -}             [ "Tom" ] ]
 
+ |> ".t w n y" <| [
+
+    KuRDI                     `noun`    {- Tuwniy -}           [ "Tony" ] ]
+
  |> ".t w q" <| [
 
     FaCCaL                    `verb`    {- Taw~aq -}           [ "encircle", "surround" ],

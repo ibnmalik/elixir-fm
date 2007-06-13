@@ -114,8 +114,7 @@ lexicon = listing "Lexicon's properties"
     -- wAH     wAH     NAt     oases
 
     FAL |< aT                 `noun`    {- wAHap -}            [ "oasis", "oases" ]
-                              `plural`     FAL |< At
-                              `plural`     FtAL |< At ]
+                              `plural`     FAL |< At ]
 
  |> "w ' .t" <| [
 
@@ -244,8 +243,7 @@ lexicon = listing "Lexicon's properties"
     -- wAw     wAw     NduAt   waw (Arabic letter)
 
     FAL                       `noun`    {- wAw -}              [ "waw (Arabic letter)" ]
-                              `plural`     FAL |< At
-                              `plural`     FtAL |< At ]
+                              `plural`     FAL |< At ]
 
  |> "w .d '" <| [
 
@@ -421,7 +419,8 @@ lexicon = listing "Lexicon's properties"
     -- <tDAH   {it~iDAH        N/At    clarity;manifestness
     -- AtDAH   {it~iDAH        N/At    clarity;manifestness
 
-    IFtiCAL                   `noun`    {- Ait~iDAH -}         [ "clarity", "manifestness" ],
+    IFtiCAL                   `noun`    {- Ait~iDAH -}         [ "clarity", "manifestness" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; {isotiyDAH_1
     -- <styDAH {isotiyDAH      N/At    request for clarification;inquiry
@@ -560,7 +559,8 @@ lexicon = listing "Lexicon's properties"
     -- <tDAE   {it~iDAE        N/At    modesty;humility;lowliness
     -- AtDAE   {it~iDAE        N/At    modesty;humility;lowliness
 
-    IFtiCAL                   `noun`    {- Ait~iDAE -}         [ "modesty", "humility", "lowliness" ],
+    IFtiCAL                   `noun`    {- Ait~iDAE -}         [ "modesty", "humility", "lowliness" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; wADiE_1
     -- wADE    wADiE   Nall    writer;author;originator
@@ -726,7 +726,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- wagor -}            [ "wrath", "malice" ]
                               `plural`     FaCaL
-                              `plural`     FtaCaL
                            {- `others`  [ "wa.gar N" ] -} ]
 
  |> "w .g y" <| [
@@ -738,7 +737,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- wagoy -}            [ "disturbance", "tumult" ]
                               `plural`     FaCY
-                              `plural`     FtaCY
                               `plural`     FaCA
                            {- `others`  [ "wa.gY N0", "wa.gA Nhy" ] -} ]
 
@@ -900,8 +898,7 @@ lexicon = listing "Lexicon's properties"
     -- wHd     waHad   NAt     units
 
     FaCL |< aT                `noun`    {- waHodap -}          [ "unit", "units" ]
-                              `plural`     FaCaL |< At
-                              `plural`     FtaCaL |< At,
+                              `plural`     FaCaL |< At,
 
     -- ;; waHodawiy~_1
     -- wHdwy   waHodawiy~      Nall    unionist     [[waHodawiy~/ADJ]]
@@ -967,7 +964,8 @@ lexicon = listing "Lexicon's properties"
     -- <tHAd   {it~iHAd        NAt     unions
     -- AtHAd   {it~iHAd        NAt     unions
 
-    IFtiCAL                   `noun`    {- Ait~iHAd -}         [ "union", "unions" ],
+    IFtiCAL                   `noun`    {- Ait~iHAd -}         [ "union", "unions" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; {it~iHAd_2
     -- <tHAd   {it~iHAd        N0      Union
@@ -1072,7 +1070,6 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- waHol -}            [ "mud", "morass" ]
                               `plural`     FuCUL
                               `plural`     FaCaL
-                              `plural`     FtaCaL
                            {- `others`  [ "wu.huwl N", "wa.hal N" ] -},
 
     -- ;; waHil_1
@@ -1685,7 +1682,8 @@ lexicon = listing "Lexicon's properties"
     -- <tSAl   {it~iSAl        N/At    connection;relation;relationship
     -- AtSAl   {it~iSAl        N/At    connection;relation;relationship
 
-    IFtiCAL                   `noun`    {- Ait~iSAl -}         [ "contact", "communication", "connection", "relation", "relationship" ],
+    IFtiCAL                   `noun`    {- Ait~iSAl -}         [ "contact", "communication", "connection", "relation", "relationship" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; mawoSuwl_1
     -- mwSwl   mawoSuwl        N-ap    connected;bound;tied     [[mawoSuwl/ADJ]]
@@ -2498,8 +2496,7 @@ lexicon = listing "Lexicon's properties"
     -- wjb     wajab   NAt     meals;menus
 
     FaCL |< aT                `noun`    {- wajobap -}          [ "meal", "menu", "meals", "menus" ]
-                              `plural`     FaCaL |< At
-                              `plural`     FtaCaL |< At,
+                              `plural`     FaCaL |< At,
 
     -- ;; wujuwb_1
     -- wjwb    wujuwb  N       duty;necessity;obligation
@@ -2844,7 +2841,8 @@ lexicon = listing "Lexicon's properties"
     -- <tjAh   {it~ijAh        NduAt   direction;course
     -- AtjAh   {it~ijAh        NduAt   direction;course
 
-    IFtiCAL                   `noun`    {- Ait~ijAh -}         [ "direction", "course" ],
+    IFtiCAL                   `noun`    {- Ait~ijAh -}         [ "direction", "course" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; {it~ijAh_2
     -- <tjAh   {it~ijAh        Ndu     view;opinion
@@ -2852,7 +2850,8 @@ lexicon = listing "Lexicon's properties"
     -- <tjAh   {it~ijAh        NAt     views;opinions
     -- AtjAh   {it~ijAh        NAt     views;opinions
 
-    IFtiCAL                   `noun`    {- Ait~ijAh -}         [ "view", "opinion", "views", "opinions" ],
+    IFtiCAL                   `noun`    {- Ait~ijAh -}         [ "view", "opinion", "views", "opinions" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; wAjihap_1
     -- wAjh    wAjih   NapAt   facade;outside
@@ -2887,7 +2886,8 @@ lexicon = listing "Lexicon's properties"
     -- ;; mut~ajah_1
     -- mtjh    mut~ajah        NduAt   direction
 
-    MuFtaCaL                  `noun`    {- mut~ajah -}         [ "direction" ] ]
+    MuFtaCaL                  `noun`    {- mut~ajah -}         [ "direction" ]
+                              `plural`     MuFtaCaL |< At ]
 
  |> "w ^g l" <| [
 
@@ -2959,8 +2959,7 @@ lexicon = listing "Lexicon's properties"
     -- wjn     wajan   NAt     cheeks
 
     FaCL |< aT                `noun`    {- wajonap -}          [ "cheek", "cheeks" ]
-                              `plural`     FaCaL |< At
-                              `plural`     FtaCaL |< At ]
+                              `plural`     FaCaL |< At ]
 
  |> "w ^g q" <| [
 
@@ -2993,8 +2992,7 @@ lexicon = listing "Lexicon's properties"
     -- wjr     wajar   Nap     pitfall
 
     FaCL |< aT                `noun`    {- wajorap -}          [ "pitfall" ]
-                              `plural`     FaCaL |< aT
-                              `plural`     FtaCaL |< aT,
+                              `plural`     FaCaL |< aT,
 
     -- ;; wijAr_1
     -- wjAr    wijAr   Ndu     cave;burrow
@@ -3691,8 +3689,7 @@ lexicon = listing "Lexicon's properties"
     -- wvb     wavab   NAt     leaps;jumps;hops
 
     FaCL |< aT                `noun`    {- wavobap -}          [ "leap", "jump", "hop", "leaps", "jumps", "hops" ]
-                              `plural`     FaCaL |< At
-                              `plural`     FtaCaL |< At,
+                              `plural`     FaCaL |< At,
 
     -- ;; wavobap_2
     -- wvbp    wavobap N0      Wathba
@@ -4885,8 +4882,7 @@ lexicon = listing "Lexicon's properties"
     -- wdd     wodad   IV_C    want;would like
 
     FaCL                      `verb`    {- wad~-a -}           [ "want", "would like" ]
-                              `pfirst`     FaCiL
-                              `pfirst`     FtaCiL,
+                              `pfirst`     FaCiL,
 
     -- ;; wAd~_1
     -- wAd     wAd~    PV_V    befriend
@@ -5342,7 +5338,8 @@ lexicon = listing "Lexicon's properties"
     -- <tfAq   {it~ifAq        NAt     agreements;accords;treaties
     -- AtfAq   {it~ifAq        NAt     agreements;accords;treaties
 
-    IFtiCAL                   `noun`    {- Ait~ifAq -}         [ "agreement", "accord", "treaty", "agreements", "accords", "treaties" ],
+    IFtiCAL                   `noun`    {- Ait~ifAq -}         [ "agreement", "accord", "treaty", "agreements", "accords", "treaties" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; {it~ifAqiy~_1
     -- <tfAqy  {it~ifAqiy~     N-ap    conventional     [[{it~ifAqiy~/ADJ]]
@@ -5603,8 +5600,7 @@ lexicon = listing "Lexicon's properties"
     -- wfy     wafay   NAt     deaths
 
     FaCY |< aT                `noun`    {- wafAp -}            [ "death", "deaths" ]
-                              `plural`     FaCY |< At
-                              `plural`     FtaCY |< At,
+                              `plural`     FaCY |< At,
 
     -- ;; wafiy~_1
     -- wfy     wafiy~  N/ap    faithful;complete     [[wafiy~/ADJ]]
@@ -5733,7 +5729,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- wafoz -}            [ "hurry", "haste" ]
                               `plural`     FaCaL
-                              `plural`     FtaCaL
                               `plural`     HaFCAL
                            {- `others`  [ "wafaz N", "'awfAz N" ] -},
 
@@ -6013,7 +6008,8 @@ lexicon = listing "Lexicon's properties"
     -- <thAm   {it~ihAm        NAt     accusations;charges
     -- AthAm   {it~ihAm        NAt     accusations;charges
 
-    IFtiCAL                   `noun`    {- Ait~ihAm -}         [ "accusation", "charge", "indictment", "accusations", "charges" ],
+    IFtiCAL                   `noun`    {- Ait~ihAm -}         [ "accusation", "charge", "indictment", "accusations", "charges" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; {it~ihAmiy~_1
     -- <thAmy  {it~ihAmiy~     N-ap    accusing;indicting     [[{it~ihAmiy~/ADJ]]
@@ -6112,7 +6108,6 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- wahoq -}            [ "lasso", "lassos" ]
                               `plural`     HaFCAL
                               `plural`     FaCaL
-                              `plural`     FtaCaL
                            {- `others`  [ "'awhAq N", "wahaq N" ] -} ]
 
  |> "w h r" <| [
@@ -6240,7 +6235,9 @@ lexicon = listing "Lexicon's properties"
     -- <tkA'   {it~ikA'        NAt     resting;leaning;reclining
     -- AtkA'   {it~ikA'        NAt     resting;leaning;reclining
 
-    IFtiCAL                   `noun`    {- Ait~ikA' -}         [ "resting", "leaning", "reclining" ],
+    IFtiCAL                   `noun`    {- Ait~ikA' -}         [ "resting", "leaning", "reclining" ]
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiCA' |< At,
 
     -- ;; mut~aki}_1
     -- mtk}    mut~aki}        Nall    leaning;resting
@@ -6538,7 +6535,8 @@ lexicon = listing "Lexicon's properties"
     -- <tkAl   {it~ikAl        N/At    trust;confidence;reliance
     -- AtkAl   {it~ikAl        N/At    trust;confidence;reliance
 
-    IFtiCAL                   `noun`    {- Ait~ikAl -}         [ "trust", "confidence", "reliance" ],
+    IFtiCAL                   `noun`    {- Ait~ikAl -}         [ "trust", "confidence", "reliance" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; muwak~il_1
     -- mwkl    muwak~il        Nall    mandator;legal client
@@ -6579,9 +6577,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- wukonap -}          [ "nest", "nests" ]
                               `plural`     FaCaL |< At
-                              `plural`     FtaCaL |< At
                               `plural`     FaCL
-                              `plural`     FtaCL
                            {- `others`  [ "wakn Napdu" ] -} ]
 
  |> "w k r" <| [
@@ -7667,8 +7663,7 @@ lexicon = listing "Lexicon's properties"
     -- wmD     wamaD   NAt     flashes
 
     FaCL |< aT                `noun`    {- wamoDap -}          [ "flash", "flashes" ]
-                              `plural`     FaCaL |< At
-                              `plural`     FtaCaL |< At,
+                              `plural`     FaCaL |< At,
 
     -- ;; wamiyD_1
     -- wmyD    wamiyD  N       blinking;sparkle;twinkle
@@ -7769,8 +7764,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- wan~-i -}           [ "buzz", "drone" ]
                               `imperf`     FCiL
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `pfirst`     FtaCaL,
+                              `pfirst`     FaCaL,
 
     -- ;; wan~_1
     -- wn      wan~    N       buzzing;droning
@@ -7904,7 +7898,9 @@ lexicon = listing "Lexicon's properties"
     -- <tqA'   {it~iqA'        NAt     caution;precaution
     -- AtqA'   {it~iqA'        NAt     caution;precaution
 
-    IFtiCAL                   `noun`    {- Ait~iqA' -}         [ "caution", "precaution" ] ]
+    IFtiCAL                   `noun`    {- Ait~iqA' -}         [ "caution", "precaution" ]
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiCA' |< At ]
 
  |> "w q .h" <| [
 
@@ -8086,8 +8082,7 @@ lexicon = listing "Lexicon's properties"
     -- wqE     waqaE   NAt     incidents
 
     FaCL |< aT                `noun`    {- waqoEap -}          [ "incident", "incidents" ]
-                              `plural`     FaCaL |< At
-                              `plural`     FtaCaL |< At,
+                              `plural`     FaCaL |< At,
 
     -- ;; waq~AE_1
     -- wqAE    waq~AE  Nall    scandalmonger
@@ -8253,8 +8248,7 @@ lexicon = listing "Lexicon's properties"
     -- wqb     waqab   NAt     cavities
 
     FaCL |< aT                `noun`    {- waqobap -}          [ "cavity", "cavities" ]
-                              `plural`     FaCaL |< At
-                              `plural`     FtaCaL |< At ]
+                              `plural`     FaCaL |< At ]
 
  |> "w q d" <| [
 
@@ -8305,7 +8299,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- waqod -}            [ "burning", "fuel" ]
                               `plural`     FaCaL
-                              `plural`     FtaCaL
                            {- `others`  [ "waqad N" ] -},
 
     -- ;; waqodap_1
@@ -8363,7 +8356,8 @@ lexicon = listing "Lexicon's properties"
     -- <tqAd   {it~iqAd        N/At    burning;combustion
     -- AtqAd   {it~iqAd        N/At    burning;combustion
 
-    IFtiCAL                   `noun`    {- Ait~iqAd -}         [ "burning", "combustion" ],
+    IFtiCAL                   `noun`    {- Ait~iqAd -}         [ "burning", "combustion" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; mawoquwd_1
     -- mwqwd   mawoquwd        Nall    burning;ignited     [[mawoquwd/ADJ]]
@@ -8808,7 +8802,8 @@ lexicon = listing "Lexicon's properties"
     -- <tqA'   {it~iqA'        NAt     caution;precaution
     -- AtqA'   {it~iqA'        NAt     caution;precaution
 
-    IFtiCA'                   `noun`    {- Ait~iqA' -}         [ "caution", "precaution" ],
+    IFtiCA'                   `noun`    {- Ait~iqA' -}         [ "caution", "precaution" ]
+                              `plural`     IFtiCA' |< At,
 
     -- ;; wAqiy_1
     -- wAqy    wAqiy   N0F     preserving;guarding;protecting     [[wAqiy/ADJ]]
@@ -8892,7 +8887,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- waroTap -}          [ "predicament", "bind", "involvement", "predicaments", "binds", "involvements" ]
                               `plural`     FaCaL |< At
-                              `plural`     FtaCaL |< At
                               `plural`     FiCAL
                            {- `others`  [ "wirA.t N" ] -},
 
@@ -9044,7 +9038,6 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`    {- wAriv -}            [ "heir", "inheritor", "heirs", "inheritors" ]
                               `plural`     FuCCAL
                               `plural`     FaCaL |< aT
-                              `plural`     FtaCaL |< aT
                            {- `others`  [ "wurrA_t N" ] -},
 
     -- ;; maworuwv_1
@@ -9288,8 +9281,7 @@ lexicon = listing "Lexicon's properties"
     -- wrd     warod   NapAt   rose
 
     FaCL                      `noun`    {- warod -}            [ "rose" ]
-                              `plural`     FaCL |< At
-                              `plural`     FtaCL |< At,
+                              `plural`     FaCL |< At,
 
     -- ;; warodiy~_1
     -- wrdy    warodiy~        N-ap    rosy;pink     [[warodiy~/ADJ]]
@@ -9690,7 +9682,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |<< "a"              `prep`    {- wasoTa -}           [ "middle", "midst", "among" ]
                               `plural`     FaCL
-                              `plural`     FtaCL
                            {- `others`  [ "was.t FW-Wa-o" ] -},
 
     -- ;; wasoT_1
@@ -9701,7 +9692,6 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- wasoT -}            [ "middle", "center", "environment", "circles", "quarters", "environments" ]
                               `plural`     HaFCAL
                               `plural`     FaCaL
-                              `plural`     FtaCaL
                            {- `others`  [ "'awsA.t N", "wasa.t N" ] -},
 
     -- ;; wasaTiy~_1
@@ -9961,7 +9951,8 @@ lexicon = listing "Lexicon's properties"
     -- <tsAE   {it~isAE        N/At    expansion;extension
     -- AtsAE   {it~isAE        N/At    expansion;extension
 
-    IFtiCAL                   `noun`    {- Ait~isAE -}         [ "expansion", "extension" ],
+    IFtiCAL                   `noun`    {- Ait~isAE -}         [ "expansion", "extension" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; wAsiE_1
     -- wAsE    wAsiE   N-ap    wide;extensive;broad     [[wAsiE/ADJ]]
@@ -10241,7 +10232,8 @@ lexicon = listing "Lexicon's properties"
     -- <tsAq   {it~isAq        N/At    harmony
     -- AtsAq   {it~isAq        N/At    harmony
 
-    IFtiCAL                   `noun`    {- Ait~isAq -}         [ "harmony" ],
+    IFtiCAL                   `noun`    {- Ait~isAq -}         [ "harmony" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; mut~asiq_1
     -- mtsq    mut~asiq        Nall    well-ordered;harmonious     [[mut~asiq/ADJ]]
@@ -10482,6 +10474,30 @@ lexicon = listing "Lexicon's properties"
 
     MutaFACiL                 `adj`     {- mutawAtir -}        [ "continuous" ] ]
 
+ |> "w t y" <| [
+
+    -- ;; wAtaY_1
+    -- wAtY    wAtaY   PV_0    be favorable;be satisfying
+    -- wAtA    wAtA    PV_h    be favorable;be satisfying
+    -- wAty    wAtay   PV_Atn  be favorable;be satisfying
+    -- wAt     wAt     PV_ttAw_intr    be favorable;be satisfying
+    -- wAty    wAtiy   IV_0hAnn_yu     be favorable;be satisfying
+    -- wAt     wAt     IV_0hwnyn_yu    be favorable;be satisfying
+    -- wAtY    wAtaY   IV_0_Pass_yu    be favorable;be satisfying
+    -- wAty    wAtay   IV_Ann_Pass_yu  be favorable;be satisfying
+
+    FACY                      `verb`    {- wAtaY -}            [ "be favorable", "be satisfying" ],
+
+    -- ;; muwAtiy_1
+    -- mwAty   muwAtiy N0F_Nh  pleasing;suitable
+    -- mwAt    muwAt   NK      pleasing;suitable
+    -- mwAty   muwAtiy NAn_Nayn        pleasing;suitable
+    -- mwAt    muwAt   Nuwn_Niyn       pleasing;suitable
+    -- mwAty   muwAtiy NapAt   pleasing;suitable
+
+    MuFACI                    `noun`    {- muwAtiy -}          [ "pleasing", "suitable" ]
+                              `plural`     MuFACI |< At ]
+
  |> "w y .h" <| [
 
     -- ;; wayoHa_1
@@ -10688,8 +10704,7 @@ lexicon = listing "Lexicon's properties"
     -- wzn     wazan   NAt     weights
 
     FaCL |< aT                `noun`    {- wazonap -}          [ "weight", "weights" ]
-                              `plural`     FaCaL |< At
-                              `plural`     FtaCaL |< At,
+                              `plural`     FaCaL |< At,
 
     -- ;; wazoniy~_1
     -- wzny    wazoniy~        N-ap    weight;weighty     [[wazoniy~/ADJ]]
@@ -10747,7 +10762,8 @@ lexicon = listing "Lexicon's properties"
     -- <tzAn   {it~izAn        N/At    balance;equilibrium
     -- AtzAn   {it~izAn        N/At    balance;equilibrium
 
-    IFtiCAL                   `noun`    {- Ait~izAn -}         [ "balance", "equilibrium" ],
+    IFtiCAL                   `noun`    {- Ait~izAn -}         [ "balance", "equilibrium" ]
+                              `plural`     IFtiCAL |< At,
 
     -- ;; wAzin_1
     -- wAzn    wAzin   Nall    weighing
@@ -10936,8 +10952,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- waz~-u -}           [ "incite" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `pfirst`     FtaCaL,
+                              `pfirst`     FaCaL,
 
     -- ;; waz~_1
     -- wz      waz~    N       inciting
@@ -10950,7 +10965,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- waz~ap -}           [ "goose" ]
                               `plural`     FaCL
-                              `plural`     FtaCL
                            {- `others`  [ "wazz N" ] -} ]
 
  |> "wA" <| [

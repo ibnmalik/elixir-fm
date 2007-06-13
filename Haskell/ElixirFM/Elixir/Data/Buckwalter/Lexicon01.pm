@@ -4396,6 +4396,26 @@ $Lexicon = {
       ],
       'orig' => 'Ouwtuw',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'uwtiy',
+      'form' => '\'uwtiy',
+      'lines' => [
+        ';; >uwtiy_1',
+        '>wty    >uwtiy  Nprop   Ottey',
+        'Awty    >uwtiy  Nprop   Ottey'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Ottey'
+      ],
+      'orig' => 'Ouwtiy',
+      'prefix' => ''
     }
   ],
   '\' l f n' => [
@@ -19640,50 +19660,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'wAtY' => [
-    {
-      'types' => {
-        'wAtiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'wAtA' => {
-          'PV_h' => 1
-        },
-        'wAtay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'wAt' => {
-          'PV_ttAw_intr' => 1,
-          'IV_0hwnyn_yu' => 1
-        }
-      },
-      'entry' => 'wAtY',
-      'form' => 'wAtY',
-      'lines' => [
-        ';; wAtaY_1',
-        'wAtY    wAtaY   PV_0    be favorable;be satisfying',
-        'wAtA    wAtA    PV_h    be favorable;be satisfying',
-        'wAty    wAtay   PV_Atn  be favorable;be satisfying',
-        'wAt     wAt     PV_ttAw_intr    be favorable;be satisfying',
-        'wAty    wAtiy   IV_0hAnn_yu     be favorable;be satisfying',
-        'wAt     wAt     IV_0hwnyn_yu    be favorable;be satisfying',
-        'wAtY    wAtaY   IV_0_Pass_yu    be favorable;be satisfying',
-        'wAty    wAtay   IV_Ann_Pass_yu  be favorable;be satisfying'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be favorable',
-        'be satisfying'
-      ],
-      'orig' => 'wAtaY',
-      'prefix' => ''
-    }
-  ],
   '\'uwrduw' => [
     {
       'types' => {},
@@ -21923,6 +21899,22 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '\' w b b' => [
+    {
+      'types' => {},
+      'entry' => '\'uwbib',
+      'form' => '\'uwbib',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'Ouwbib',
+      'prefix' => ''
+    }
+  ],
   '\' ^s n n' => [
     {
       'types' => {},
@@ -22849,39 +22841,6 @@ $Lexicon = {
         'Iago'
       ],
       'orig' => 'IiyAjuw',
-      'prefix' => ''
-    }
-  ],
-  'muwAtiy' => [
-    {
-      'types' => {
-        'muwAt' => {
-          'Nuwn_Niyn' => 1
-        },
-        'muwAtiy' => {
-          'NapAt' => 1
-        }
-      },
-      'entry' => 'muwAtiy',
-      'form' => 'muwAtiy',
-      'lines' => [
-        ';; muwAtiy_1',
-        'mwAty   muwAtiy N0F_Nh  pleasing;suitable',
-        'mwAt    muwAt   NK      pleasing;suitable',
-        'mwAty   muwAtiy NAn_Nayn        pleasing;suitable',
-        'mwAt    muwAt   Nuwn_Niyn       pleasing;suitable',
-        'mwAty   muwAtiy NapAt   pleasing;suitable'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'pleasing',
-        'suitable'
-      ],
-      'orig' => 'muwAtiy',
       'prefix' => ''
     }
   ],
@@ -31646,35 +31605,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'uttu_hi_d' => [
-    {
-      'types' => {
-        'tta_ha_d' => {
-          'IV_Pass_yu' => 1
-        }
-      },
-      'entry' => 'uttu_hi_d',
-      'form' => 'uttu_hi_d',
-      'lines' => [
-        ';; {ut~uxi*_1',
-        'Atx*    {ut~uxi*        PV_Pass be taken;be adopted',
-        '>tx*    {ut~uxi*        PV_Pass be taken;be adopted',
-        '<tx*    {ut~uxi*        PV_Pass be taken;be adopted',
-        'tx*     t~axa*  IV_Pass_yu      be taken;be adopted'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be taken',
-        'be adopted'
-      ],
-      'orig' => 'Aut~uxi*',
-      'prefix' => ''
-    }
-  ],
   '\'aliksandr' => [
     {
       'types' => {},
@@ -34374,19 +34304,13 @@ $Lexicon = {
       'types' => {},
       'entry' => '\'uwtiy',
       'form' => '\'uwtiy',
-      'lines' => [
-        ';; >uwtiy_1',
-        '>wty    >uwtiy  Nprop   Ottey',
-        'Awty    >uwtiy  Nprop   Ottey'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FUCI',
       'suffix' => '',
-      'glosses' => [
-        'Ottey'
-      ],
+      'glosses' => [],
       'orig' => 'Ouwtiy',
       'prefix' => ''
     },
@@ -37301,6 +37225,34 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '\' w b k' => [
+    {
+      'types' => {
+        '\'uwbiyk' => {
+          'N' => 2
+        }
+      },
+      'entry' => '\'uwbik',
+      'form' => '\'uwbik',
+      'lines' => [
+        ';; >uwbik_1',
+        '>wbk    >uwbik  N       OPEC',
+        'Awbk    >uwbik  N       OPEC',
+        '>wbyk   >uwbiyk N       OPEC',
+        'Awbyk   >uwbiyk N       OPEC'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'OPEC'
+      ],
+      'orig' => 'Ouwbik',
+      'prefix' => ''
+    }
+  ],
   '\'uwnlAyn' => [
     {
       'types' => {},
@@ -39818,28 +39770,16 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'uwbiyk' => {
-          'N' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'uwbik',
       'form' => '\'uwbik',
-      'lines' => [
-        ';; >uwbik_1',
-        '>wbk    >uwbik  N       OPEC',
-        'Awbk    >uwbik  N       OPEC',
-        '>wbyk   >uwbiyk N       OPEC',
-        'Awbyk   >uwbiyk N       OPEC'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HUCiL',
       'suffix' => '',
-      'glosses' => [
-        'OPEC'
-      ],
+      'glosses' => [],
       'orig' => 'Ouwbik',
       'prefix' => ''
     }
@@ -45965,6 +45905,33 @@ $Lexicon = {
         'adopt'
       ],
       'orig' => 'Ait~axa*',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'tta_ha_d' => {
+          'IV_Pass_yu' => 1
+        }
+      },
+      'entry' => 'uttu_hi_d',
+      'form' => 'uttu_hi_d',
+      'lines' => [
+        ';; {ut~uxi*_1',
+        'Atx*    {ut~uxi*        PV_Pass be taken;be adopted',
+        '>tx*    {ut~uxi*        PV_Pass be taken;be adopted',
+        '<tx*    {ut~uxi*        PV_Pass be taken;be adopted',
+        'tx*     t~axa*  IV_Pass_yu      be taken;be adopted'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'UFtuCiL',
+      'suffix' => '',
+      'glosses' => [
+        'be taken',
+        'be adopted'
+      ],
+      'orig' => 'Aut~uxi*',
       'prefix' => ''
     },
     {
@@ -54579,6 +54546,9 @@ $Lexicon->{'\' _d y'}[3]{'glosses'} = $Lexicon->{'\' _d y'}[2]{'glosses'};
 $Lexicon->{'\' w _h'}[0]{'types'} = $Lexicon->{'\' _h y'}[3]{'types'};
 $Lexicon->{'\' w _h'}[0]{'lines'} = $Lexicon->{'\' _h y'}[3]{'lines'};
 $Lexicon->{'\' w _h'}[0]{'glosses'} = $Lexicon->{'\' _h y'}[3]{'glosses'};
+$Lexicon->{'\' w b b'}[0]{'types'} = $Lexicon->{'\' b b'}[7]{'types'};
+$Lexicon->{'\' w b b'}[0]{'lines'} = $Lexicon->{'\' b b'}[7]{'lines'};
+$Lexicon->{'\' w b b'}[0]{'glosses'} = $Lexicon->{'\' b b'}[7]{'glosses'};
 $Lexicon->{'\' ^s n n'}[0]{'types'} = $Lexicon->{'\' ^s n'}[0]{'types'};
 $Lexicon->{'\' ^s n n'}[0]{'lines'} = $Lexicon->{'\' ^s n'}[0]{'lines'};
 $Lexicon->{'\' ^s n n'}[0]{'glosses'} = $Lexicon->{'\' ^s n'}[0]{'glosses'};
@@ -54687,9 +54657,12 @@ $Lexicon->{'\' t y'}[2]{'glosses'} = $Lexicon->{'\' t y'}[1]{'glosses'};
 $Lexicon->{'\' t y'}[4]{'types'} = $Lexicon->{'\' t y'}[3]{'types'};
 $Lexicon->{'\' t y'}[4]{'lines'} = $Lexicon->{'\' t y'}[3]{'lines'};
 $Lexicon->{'\' t y'}[4]{'glosses'} = $Lexicon->{'\' t y'}[3]{'glosses'};
-$Lexicon->{'\' t y'}[13]{'types'} = $Lexicon->{'\' t y'}[12]{'types'};
-$Lexicon->{'\' t y'}[13]{'lines'} = $Lexicon->{'\' t y'}[12]{'lines'};
-$Lexicon->{'\' t y'}[13]{'glosses'} = $Lexicon->{'\' t y'}[12]{'glosses'};
+$Lexicon->{'\' t y'}[12]{'types'} = $Lexicon->{'\' w t y'}[1]{'types'};
+$Lexicon->{'\' t y'}[12]{'lines'} = $Lexicon->{'\' w t y'}[1]{'lines'};
+$Lexicon->{'\' t y'}[12]{'glosses'} = $Lexicon->{'\' w t y'}[1]{'glosses'};
+$Lexicon->{'\' t y'}[13]{'types'} = $Lexicon->{'\' w t y'}[1]{'types'};
+$Lexicon->{'\' t y'}[13]{'lines'} = $Lexicon->{'\' w t y'}[1]{'lines'};
+$Lexicon->{'\' t y'}[13]{'glosses'} = $Lexicon->{'\' w t y'}[1]{'glosses'};
 $Lexicon->{'\' y y'}[1]{'types'} = $Lexicon->{'\' y y'}[0]{'types'};
 $Lexicon->{'\' y y'}[1]{'lines'} = $Lexicon->{'\' y y'}[0]{'lines'};
 $Lexicon->{'\' y y'}[1]{'glosses'} = $Lexicon->{'\' y y'}[0]{'glosses'};
@@ -54793,6 +54766,9 @@ $Lexicon->{'\' s w'}[20]{'glosses'} = $Lexicon->{'\' s w n'}[0]{'glosses'};
 $Lexicon->{'\' y k'}[1]{'types'} = $Lexicon->{'\' y k'}[0]{'types'};
 $Lexicon->{'\' y k'}[1]{'lines'} = $Lexicon->{'\' y k'}[0]{'lines'};
 $Lexicon->{'\' y k'}[1]{'glosses'} = $Lexicon->{'\' y k'}[0]{'glosses'};
+$Lexicon->{'\' b k'}[1]{'types'} = $Lexicon->{'\' w b k'}[0]{'types'};
+$Lexicon->{'\' b k'}[1]{'lines'} = $Lexicon->{'\' w b k'}[0]{'lines'};
+$Lexicon->{'\' b k'}[1]{'glosses'} = $Lexicon->{'\' w b k'}[0]{'glosses'};
 $Lexicon->{'\' d \''}[0]{'types'} = $Lexicon->{'\' d y'}[3]{'types'};
 $Lexicon->{'\' d \''}[0]{'lines'} = $Lexicon->{'\' d y'}[3]{'lines'};
 $Lexicon->{'\' d \''}[0]{'glosses'} = $Lexicon->{'\' d y'}[3]{'glosses'};
@@ -54871,9 +54847,9 @@ $Lexicon->{'\' b y'}[4]{'glosses'} = $Lexicon->{'\' b \''}[2]{'glosses'};
 $Lexicon->{'\' _h _d'}[3]{'types'} = $Lexicon->{'\' _h _d'}[2]{'types'};
 $Lexicon->{'\' _h _d'}[3]{'lines'} = $Lexicon->{'\' _h _d'}[2]{'lines'};
 $Lexicon->{'\' _h _d'}[3]{'glosses'} = $Lexicon->{'\' _h _d'}[2]{'glosses'};
-$Lexicon->{'\' _h _d'}[7]{'types'} = $Lexicon->{'\' _h _d'}[6]{'types'};
-$Lexicon->{'\' _h _d'}[7]{'lines'} = $Lexicon->{'\' _h _d'}[6]{'lines'};
-$Lexicon->{'\' _h _d'}[7]{'glosses'} = $Lexicon->{'\' _h _d'}[6]{'glosses'};
+$Lexicon->{'\' _h _d'}[8]{'types'} = $Lexicon->{'\' _h _d'}[7]{'types'};
+$Lexicon->{'\' _h _d'}[8]{'lines'} = $Lexicon->{'\' _h _d'}[7]{'lines'};
+$Lexicon->{'\' _h _d'}[8]{'glosses'} = $Lexicon->{'\' _h _d'}[7]{'glosses'};
 $Lexicon->{'\' t .g'}[0]{'types'} = $Lexicon->{'\' t .g y'}[0]{'types'};
 $Lexicon->{'\' t .g'}[0]{'lines'} = $Lexicon->{'\' t .g y'}[0]{'lines'};
 $Lexicon->{'\' t .g'}[0]{'glosses'} = $Lexicon->{'\' t .g y'}[0]{'glosses'};

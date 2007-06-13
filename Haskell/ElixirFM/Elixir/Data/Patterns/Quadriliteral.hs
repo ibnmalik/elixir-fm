@@ -60,6 +60,39 @@ instance Forming PatternQ where
                             IV      ->  [IKRaDaSS ..]
                             _       ->  []
 
+    verbStems I _ = [
+
+        (   Nothing,    KaRDaS,     KuRDiS,     KaRDiS,     KaRDaS      ),
+        (   Nothing,    KaRDY,      KuRDI,      KaRDI,      KaRDY       )
+
+        ]
+
+
+    verbStems II _ = [
+
+        (   Nothing,    TaKaRDaS,   TuKuRDiS,   TaKaRDaS,   TaKaRDaS    ),
+        (   Nothing,    TaKaRDY,    TuKuRDI,    TaKaRDY,    TaKaRDY     )
+
+        ]
+
+
+    verbStems III _ = [
+
+        (   Nothing,    IKRanDaS,   UKRunDiS,   KRanDiS,    KRanDaS     ),
+        (   Nothing,    IKRanDY,    UKRunDI,    KRanDI,     KRanDY      )
+
+        ]
+
+
+    verbStems IV _ = [
+
+        (   Nothing,    IKRaDaSS,   UKRuDiSS,   KRaDiSS,    KRaDaSS     )
+
+        ]
+
+
+    verbStems _ _ = []
+
 
 instance Rules PatternQ where
 
@@ -88,8 +121,10 @@ data PatternQ =
 --  Form I
 
             KaRDaS          |   KaRDY
+        |   KuRDiS          |   KuRDI
 
         |   KaRDiS          |   KaRDI
+
         |   KiRDiS          |   KiRDI
         |   KuRDaS          |   KuRDY
         |   KuRDuS          |   KuRDU
@@ -115,6 +150,7 @@ data PatternQ =
 --  Form II
 
         |   TaKaRDaS        |   TaKaRDY
+        |   TuKuRDiS        |   TuKuRDI
 
         |   MutaKaRDiS      |   MutaKaRDI
         |   MutaKaRDaS      |   MutaKaRDY
@@ -124,12 +160,18 @@ data PatternQ =
 --  Form III
 
         |   IKRanDaS        |   IKRanDY
-        |   KRaNDiS         |   KRaNDI
+        |   UKRunDiS        |   UKRunDI
+
+        |   KRanDiS         |   KRanDI
+        |   KRanDaS         |   KRanDY
 
 --  Form IV
 
         |   IKRaDaSS
+        |   UKRuDiSS
+
         |   KRaDiSS
+        |   KRaDaSS
 
     deriving (Enum, Show, Eq)
 

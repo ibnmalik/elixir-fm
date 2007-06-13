@@ -922,6 +922,10 @@ lexicon = listing "Lexicon's properties"
 
     FULAn                     `noun`    {- duw$An -}           [ "Dushan" ] ]
 
+ |> "d w d y" <| [
+
+    KuRDI                     `noun`    {- duwdiy -}           [ "Dodi" ] ]
+
  |> "d w k" <| [
 
     FUL                       `noun`    {- duwk -}             [ "Duc" ],
@@ -1397,10 +1401,6 @@ lexicon = listing "Lexicon's properties"
  |> "duw.glAs" <| [
 
     Identity                  `noun`    {- duwgolAs -}         [ "Douglas" ] ]
-
- |> "duwdiy" <| [
-
-    Identity                  `noun`    {- duwdiy -}           [ "Dodi" ] ]
 
  |> "duwmA" <| [
 

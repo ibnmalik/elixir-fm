@@ -34,18 +34,27 @@ instance Morphing PatternT PatternT where
 
 instance Template PatternT where
 
-    interlock r p = if isForm VIII p then (concat . assimilate . show) p
-                                     else (concat . substitute . show) p
+    interlock r p = if isForm VIII p then (concat . assimiVIII . show) p else
+                    if isForm VII  p then (concat . assimiVII  . show) p else
+                                          (concat . substitute . show) p
 
         where substitute x = (replace . restore) x
 
-              assimilate x = (replace . restore . init) iF
+              assimiVIII x = (replace . restore . init) iF
                              ++ [z, d] ++
                              (replace . tail) taCaL
 
                     where (iF, taCaL) = break ('t' ==) x
                           (z, d) = case r of []      -> ("F", "t")
-                                             (c : _) -> assimilating c
+                                             (c : _) -> assimVIII c
+
+              assimiVII  x = (replace . restore . init) iN
+                             ++ [n, m] ++
+                             (replace . tail) faCaL
+
+                    where (iN, faCaL) = break ('F' ==) x
+                          (n, m) = case r of []      -> ("n", "F")
+                                             (c : _) -> assimVII c
 
               replace x = [ maybe [c] id (lookup c lock) | c <- x ]
 
@@ -61,22 +70,30 @@ instance Template PatternT where
                                     _       -> x
 
 
-assimilating :: String -> (String, String)
+-- Fischer (2001), par. 45, 46
 
-assimilating c = case c of
+assimVII, assimVIII :: String -> (String, String)
 
-                    "_t"    ->  (c, "_t")
-                    "_d"    ->  (c, "_d")
+assimVII  c = case c of
+
+                    "m"     ->  ("m", c)    -- preferred
+                    _       ->  ("n", c)
+
+assimVIII c = case c of
+
+                    "_t"    ->  (c, "_t")   -- preferred
+
+                    "_d"    ->  ("d", "d")  -- preferred
 
                     "d"     ->  (c, "d")
                     "z"     ->  (c, "d")
 
                     ".s"    ->  (c, ".t")
-                    ".d"    ->  (c, ".t")
+                    ".d"    ->  (c, ".t")   -- preferred
                     ".t"    ->  (c, ".t")
-                    ".z"    ->  (c, ".t")
 
-                 -- "_d"    ->  ("d", "d")
+                    ".z"    ->  (c, ".z")   -- preferred
+
                     "w"     ->  ("t", "t")
 
                     _       ->  (c, "t")
@@ -317,6 +334,9 @@ instance Forming PatternT where
         (   Nothing,    IFCanLY,    UFCunLY,    FCanLI,     FCanLY      )
 
         ]
+
+
+    verbStems _ _ = []
 
 
 instance Rules PatternT where

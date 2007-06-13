@@ -589,6 +589,13 @@ lexicon = listing "Lexicon's properties"
 
     InFaCaL                   `verb`    {- AinoZalam -}        [ "be wronged" ],
 
+    -- ;; {iZ~alam_1
+    -- <Zlm    {iZ~alam        PV_intr be wronged
+    -- AZlm    {iZ~alam        PV_intr be wronged
+    -- Zlm     Z~alim  IV_intr be wronged
+
+    IFtaCaL                   `verb`    {- AiZ~alam -}         [ "be wronged" ],
+
     -- ;; Zulom_1
     -- Zlm     Zulom   N       injustice
 
@@ -954,15 +961,6 @@ lexicon = listing "Lexicon's properties"
     -- ZrAn    Zir~An  N       flint
 
     FiCLAn                    `noun`    {- Zir~An -}           [ "flint" ] ]
-
- |> "i.z.zalam" <| [
-
-    -- ;; {iZ~alam_1
-    -- <Zlm    {iZ~alam        PV_intr be wronged
-    -- AZlm    {iZ~alam        PV_intr be wronged
-    -- Zlm     Z~alim  IV_intr be wronged
-
-    Identity                  `verb`    {- AiZ~alam -}         [ "be wronged" ] ]
 
  |> "ma.zinn" <| [
 

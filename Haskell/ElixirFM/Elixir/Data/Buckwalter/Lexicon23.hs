@@ -7321,6 +7321,20 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL ]
 
+ |> "l w b n" <| [
+
+    -- ;; luwbin_1
+    -- lwbn    luwbin  Nprop   Le Pen
+
+    KuRDiS                    `noun`    {- luwbin -}           [ "Le Pen" ] ]
+
+ |> "l w b y" <| [
+
+    -- ;; luwbiy_1
+    -- lwby    luwbiy  N0_L    lobby
+
+    KuRDI                     `noun`    {- luwbiy -}           [ "lobby" ] ]
+
  |> "l w f" <| [
 
     -- ;; lAf-u_1
@@ -7641,6 +7655,13 @@ lexicon = listing "Lexicon's properties"
 
     KuRDIS                    `noun`    {- luwriyn -}          [ "Lauren" ] ]
 
+ |> "l w r y" <| [
+
+    -- ;; luwriy_1
+    -- lwry    luwriy  N0_L    lorry;truck
+
+    KuRDI                     `noun`    {- luwriy -}           [ "lorry", "truck" ] ]
+
  |> "l w s" <| [
 
     -- ;; lAwuws_1
@@ -7674,6 +7695,13 @@ lexicon = listing "Lexicon's properties"
     -- lwt     luwt    N0_L    fish
 
     FUL                       `noun`    {- luwt -}             [ "fish" ] ]
+
+ |> "l w t s" <| [
+
+    -- ;; luwtis_1
+    -- lwts    luwtis  Nprop   Lotus
+
+    KuRDiS                    `noun`    {- luwtis -}           [ "Lotus" ] ]
 
  |> "l w w" <| [
 
@@ -9275,13 +9303,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- luwjisotiy~ -}      [ "logistician" ] ]
 
- |> "luwbin" <| [
-
-    -- ;; luwbin_1
-    -- lwbn    luwbin  Nprop   Le Pen
-
-    Identity                  `noun`    {- luwbin -}           [ "Le Pen" ] ]
-
  |> "luwbiyA" <| [
 
     -- ;; luwbiyA_1
@@ -9443,13 +9464,6 @@ lexicon = listing "Lexicon's properties"
     -- lwt$A   luwto$A Nprop   Luca
 
     Identity                  `noun`    {- luwto$A -}          [ "Luca" ] ]
-
- |> "luwtis" <| [
-
-    -- ;; luwtis_1
-    -- lwts    luwtis  Nprop   Lotus
-
-    Identity                  `noun`    {- luwtis -}           [ "Lotus" ] ]
 
  |> "luwuwn.g" <| [
 

@@ -1410,6 +1410,50 @@ $Lexicon = {
   ],
   '_h w r y' => [
     {
+      'types' => {
+        '_hawArin' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => '_huwriy',
+      'form' => '_huwriy',
+      'lines' => [
+        ';; xuwriy_1',
+        'xwry    xuwriy  N0      priest',
+        'xwArn   xawArin Nap     priests'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'priest',
+        'priests'
+      ],
+      'orig' => 'xuwriy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_huwriy',
+      'form' => '_huwriy',
+      'lines' => [
+        ';; xuwriy_2',
+        'xwry    xuwriy  N0      Khouri'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Khouri'
+      ],
+      'orig' => 'xuwriy',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => '_huwrY',
       'form' => '_huwrY',
@@ -5399,6 +5443,9 @@ $Lexicon = {
         'i_htar' => [
           'IFtaL'
         ],
+        'u_htiyr' => [
+          'UFtIL'
+        ],
         '_htAr' => [
           'FtAL'
         ]
@@ -9076,27 +9123,16 @@ $Lexicon = {
   ],
   '_h r y' => [
     {
-      'types' => {
-        '_hawArin' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '_huwriy',
       'form' => '_huwriy',
-      'lines' => [
-        ';; xuwriy_1',
-        'xwry    xuwriy  N0      priest',
-        'xwArn   xawArin Nap     priests'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FUCI',
       'suffix' => '',
-      'glosses' => [
-        'priest',
-        'priests'
-      ],
+      'glosses' => [],
       'orig' => 'xuwriy',
       'prefix' => ''
     },
@@ -9104,18 +9140,13 @@ $Lexicon = {
       'types' => {},
       'entry' => '_huwriy',
       'form' => '_huwriy',
-      'lines' => [
-        ';; xuwriy_2',
-        'xwry    xuwriy  N0      Khouri'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FUCI',
       'suffix' => '',
-      'glosses' => [
-        'Khouri'
-      ],
+      'glosses' => [],
       'orig' => 'xuwriy',
       'prefix' => ''
     }
@@ -19795,7 +19826,11 @@ $Lexicon = {
         'stxdm   sotaxodim       IV      utilize;employ;operate',
         'stxdm   sotaxodam       IV_Pass_yu      be used;be utilized;be employed'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ustu_hdim' => [
+          'UstuFCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFCaL',
@@ -27649,6 +27684,9 @@ $Lexicon = {
         'xttm    xotatam IV_Pass_yu      be concluded;be terminated'
       ],
       'patterns' => {
+        'u_htutim' => [
+          'UFtuCiL'
+        ],
         '_htatim' => [
           'FtaCiL'
         ],
@@ -30236,53 +30274,6 @@ $Lexicon = {
         'monarchs'
       ],
       'orig' => 'xAqAn',
-      'prefix' => ''
-    }
-  ],
-  'ista_hfA' => [
-    {
-      'types' => {
-        'sta_hfY' => {
-          'IV_0_Pass_yu' => 1
-        },
-        'sta_hfiy' => {
-          'IV_0hAnn' => 1
-        },
-        'ista_hf' => {
-          'PV_ttAw' => 2
-        },
-        'ista_hfay' => {
-          'PV_Atn' => 2
-        },
-        'sta_hf' => {
-          'IV_0hwnyn' => 1
-        }
-      },
-      'entry' => 'ista_hfA',
-      'form' => 'ista_hfA',
-      'lines' => [
-        ';; {isotaxofA_1',
-        '<stxfA  {isotaxofA      PV_h    hide',
-        'AstxfA  {isotaxofA      PV_h    hide',
-        '<stxfy  {isotaxofay     PV_Atn  hide;be hidden;disappear',
-        'Astxfy  {isotaxofay     PV_Atn  hide;be hidden;disappear',
-        '<stxf   {isotaxof       PV_ttAw hide;be hidden;disappear',
-        'Astxf   {isotaxof       PV_ttAw hide;be hidden;disappear',
-        'stxfy   sotaxofiy       IV_0hAnn        hide;be hidden;disappear',
-        'stxf    sotaxof IV_0hwnyn       hide;be hidden;disappear',
-        'stxfY   sotaxofaY       IV_0_Pass_yu    be hidden'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'hide',
-        'be hidden',
-        'disappear'
-      ],
-      'orig' => 'AisotaxofA',
       'prefix' => ''
     }
   ],
@@ -32931,15 +32922,47 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sta_hfY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        'sta_hfiy' => {
+          'IV_0hAnn' => 1
+        },
+        'ista_hfA' => {
+          'PV_h' => 2
+        },
+        'ista_hf' => {
+          'PV_ttAw' => 2
+        },
+        'ista_hfay' => {
+          'PV_Atn' => 2
+        },
+        'sta_hf' => {
+          'IV_0hwnyn' => 1
+        }
+      },
       'entry' => 'ista_hfY',
       'form' => 'ista_hfY',
       'lines' => [
         ';; {isotaxofaY_1',
         '<stxfY  {isotaxofaY     PV_0    hide;be hidden;disappear',
-        'AstxfY  {isotaxofaY     PV_0    hide;be hidden;disappear'
+        'AstxfY  {isotaxofaY     PV_0    hide;be hidden;disappear',
+        '<stxfA  {isotaxofA      PV_h    hide',
+        'AstxfA  {isotaxofA      PV_h    hide',
+        '<stxfy  {isotaxofay     PV_Atn  hide;be hidden;disappear',
+        'Astxfy  {isotaxofay     PV_Atn  hide;be hidden;disappear',
+        '<stxf   {isotaxof       PV_ttAw hide;be hidden;disappear',
+        'Astxf   {isotaxof       PV_ttAw hide;be hidden;disappear',
+        'stxfy   sotaxofiy       IV_0hAnn        hide;be hidden;disappear',
+        'stxf    sotaxof IV_0hwnyn       hide;be hidden;disappear',
+        'stxfY   sotaxofaY       IV_0_Pass_yu    be hidden'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista_hfay' => [
+          'IstaFCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFCY',
@@ -38256,12 +38279,18 @@ $Lexicon = {
     }
   ]
 };
-$Lexicon->{'_h w r'}[6]{'types'} = $Lexicon->{'_h w r y'}[0]{'types'};
-$Lexicon->{'_h w r'}[6]{'lines'} = $Lexicon->{'_h w r y'}[0]{'lines'};
-$Lexicon->{'_h w r'}[6]{'glosses'} = $Lexicon->{'_h w r y'}[0]{'glosses'};
-$Lexicon->{'_h y r'}[7]{'types'} = $Lexicon->{'_h w r y'}[0]{'types'};
-$Lexicon->{'_h y r'}[7]{'lines'} = $Lexicon->{'_h w r y'}[0]{'lines'};
-$Lexicon->{'_h y r'}[7]{'glosses'} = $Lexicon->{'_h w r y'}[0]{'glosses'};
+$Lexicon->{'_h w r'}[6]{'types'} = $Lexicon->{'_h w r y'}[2]{'types'};
+$Lexicon->{'_h w r'}[6]{'lines'} = $Lexicon->{'_h w r y'}[2]{'lines'};
+$Lexicon->{'_h w r'}[6]{'glosses'} = $Lexicon->{'_h w r y'}[2]{'glosses'};
+$Lexicon->{'_h y r'}[7]{'types'} = $Lexicon->{'_h w r y'}[2]{'types'};
+$Lexicon->{'_h y r'}[7]{'lines'} = $Lexicon->{'_h w r y'}[2]{'lines'};
+$Lexicon->{'_h y r'}[7]{'glosses'} = $Lexicon->{'_h w r y'}[2]{'glosses'};
+$Lexicon->{'_h r y'}[0]{'types'} = $Lexicon->{'_h w r y'}[0]{'types'};
+$Lexicon->{'_h r y'}[0]{'lines'} = $Lexicon->{'_h w r y'}[0]{'lines'};
+$Lexicon->{'_h r y'}[0]{'glosses'} = $Lexicon->{'_h w r y'}[0]{'glosses'};
+$Lexicon->{'_h r y'}[1]{'types'} = $Lexicon->{'_h w r y'}[1]{'types'};
+$Lexicon->{'_h r y'}[1]{'lines'} = $Lexicon->{'_h w r y'}[1]{'lines'};
+$Lexicon->{'_h r y'}[1]{'glosses'} = $Lexicon->{'_h w r y'}[1]{'glosses'};
 $Lexicon->{'_h l l'}[19]{'types'} = $Lexicon->{'_h l w'}[10]{'types'};
 $Lexicon->{'_h l l'}[19]{'lines'} = $Lexicon->{'_h l w'}[10]{'lines'};
 $Lexicon->{'_h l l'}[19]{'glosses'} = $Lexicon->{'_h l w'}[10]{'glosses'};

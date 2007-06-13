@@ -3754,33 +3754,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bur.giy' => [
-    {
-      'types' => {
-        'barA.giy' => {
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => 'bur.giy',
-      'form' => 'bur.giy',
-      'lines' => [
-        ';; burogiy_1',
-        'brgy    burogiy Ndu     screw',
-        'brAgy   barAgiy N0_Nh   screws'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'screw',
-        'screws'
-      ],
-      'orig' => 'burogiy',
-      'prefix' => ''
-    }
-  ],
   'biyrsiy' => [
     {
       'types' => {},
@@ -13823,6 +13796,37 @@ $Lexicon = {
         'flag-bearer'
       ],
       'orig' => 'bayoraqodAr',
+      'prefix' => ''
+    }
+  ],
+  'b r .g y' => [
+    {
+      'types' => {
+        'barA.giy' => {
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'bur.giy',
+      'form' => 'bur.giy',
+      'lines' => [
+        ';; burogiy_1',
+        'brgy    burogiy Ndu     screw',
+        'brAgy   barAgiy N0_Nh   screws'
+      ],
+      'patterns' => {
+        'barA.giy' => [
+          'KaRADI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'screw',
+        'screws'
+      ],
+      'orig' => 'burogiy',
       'prefix' => ''
     }
   ],
@@ -28490,6 +28494,25 @@ $Lexicon = {
       ],
       'orig' => 'buwtuw',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'buwtiy',
+      'form' => 'buwtiy',
+      'lines' => [
+        ';; buwtiy_1',
+        'bwty    buwtiy  Nprop   Petit'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Petit'
+      ],
+      'orig' => 'buwtiy',
+      'prefix' => ''
     }
   ],
   'bA.tAn' => [
@@ -37669,27 +37692,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buw^sir' => [
-    {
-      'types' => {},
-      'entry' => 'buw^sir',
-      'form' => 'buw^sir',
-      'lines' => [
-        ';; buw$ir_1',
-        'bw$r    buw$ir  Nprop   Boucher'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Boucher'
-      ],
-      'orig' => 'buw$ir',
-      'prefix' => ''
-    }
-  ],
   'b _t q' => [
     {
       'types' => {
@@ -38890,6 +38892,27 @@ $Lexicon = {
         'platinum'
       ],
       'orig' => 'blAtiyn',
+      'prefix' => ''
+    }
+  ],
+  'b w n y' => [
+    {
+      'types' => {},
+      'entry' => 'buwniy',
+      'form' => 'buwniy',
+      'lines' => [
+        ';; buwniy_1',
+        'bwny    buwniy  Nprop   Boni'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Boni'
+      ],
+      'orig' => 'buwniy',
       'prefix' => ''
     }
   ],
@@ -40241,6 +40264,22 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'b w r y' => [
+    {
+      'types' => {},
+      'entry' => 'buwriy',
+      'form' => 'buwriy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'buwriy',
+      'prefix' => ''
+    }
+  ],
   'biylhArsiyA' => [
     {
       'types' => {
@@ -41282,18 +41321,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'buwniy',
       'form' => 'buwniy',
-      'lines' => [
-        ';; buwniy_1',
-        'bwny    buwniy  Nprop   Boni'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FUCI',
       'suffix' => '',
-      'glosses' => [
-        'Boni'
-      ],
+      'glosses' => [],
       'orig' => 'buwniy',
       'prefix' => ''
     }
@@ -41672,6 +41706,41 @@ $Lexicon = {
         'FCiL'
       ],
       'orig' => 'bAE-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ba`' => {
+          'IV_C_Pass_yu' => 1
+        },
+        'bA`' => {
+          'IV_V_Pass_yu' => 1
+        }
+      },
+      'entry' => 'biy`',
+      'form' => 'biy`',
+      'lines' => [
+        ';; biyE_1',
+        'byE     biyE    PV_V_Pass       be sold',
+        'bAE     bAE     IV_V_Pass_yu    be sold',
+        'bE      baE     IV_C_Pass_yu    be sold'
+      ],
+      'patterns' => {
+        'ba`' => [
+          'FaL'
+        ],
+        'bA`' => [
+          'FAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FIL',
+      'suffix' => '',
+      'glosses' => [
+        'be sold'
+      ],
+      'orig' => 'biyE',
       'prefix' => ''
     },
     {
@@ -45388,18 +45457,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'buwtiy',
       'form' => 'buwtiy',
-      'lines' => [
-        ';; buwtiy_1',
-        'bwty    buwtiy  Nprop   Petit'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FUCI',
       'suffix' => '',
-      'glosses' => [
-        'Petit'
-      ],
+      'glosses' => [],
       'orig' => 'buwtiy',
       'prefix' => ''
     }
@@ -50352,6 +50416,27 @@ $Lexicon = {
         'knuckles'
       ],
       'orig' => 'burojumap',
+      'prefix' => ''
+    }
+  ],
+  'b w ^s r' => [
+    {
+      'types' => {},
+      'entry' => 'buw^sir',
+      'form' => 'buw^sir',
+      'lines' => [
+        ';; buw$ir_1',
+        'bw$r    buw$ir  Nprop   Boucher'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'Boucher'
+      ],
+      'orig' => 'buw$ir',
       'prefix' => ''
     }
   ],
@@ -59378,36 +59463,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'by`' => [
-    {
-      'types' => {
-        'ba`' => {
-          'IV_C_Pass_yu' => 1
-        },
-        'bA`' => {
-          'IV_V_Pass_yu' => 1
-        }
-      },
-      'entry' => 'by`',
-      'form' => 'by`',
-      'lines' => [
-        ';; byE_1',
-        'byE     byE     PV_V_Pass       be sold',
-        'bAE     bAE     IV_V_Pass_yu    be sold',
-        'bE      baE     IV_C_Pass_yu    be sold'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be sold'
-      ],
-      'orig' => 'byE',
-      'prefix' => ''
-    }
-  ],
   'b .g .d' => [
     {
       'types' => {
@@ -61086,6 +61141,9 @@ $Lexicon->{'b k l'}[2]{'glosses'} = $Lexicon->{'b l \''}[0]{'glosses'};
 $Lexicon->{'b w l d'}[0]{'types'} = $Lexicon->{'b l d'}[13]{'types'};
 $Lexicon->{'b w l d'}[0]{'lines'} = $Lexicon->{'b l d'}[13]{'lines'};
 $Lexicon->{'b w l d'}[0]{'glosses'} = $Lexicon->{'b l d'}[13]{'glosses'};
+$Lexicon->{'b w r y'}[0]{'types'} = $Lexicon->{'b r y'}[16]{'types'};
+$Lexicon->{'b w r y'}[0]{'lines'} = $Lexicon->{'b r y'}[16]{'lines'};
+$Lexicon->{'b w r y'}[0]{'glosses'} = $Lexicon->{'b r y'}[16]{'glosses'};
 $Lexicon->{'b n y'}[0]{'types'} = $Lexicon->{'b n n'}[0]{'types'};
 $Lexicon->{'b n y'}[0]{'lines'} = $Lexicon->{'b n n'}[0]{'lines'};
 $Lexicon->{'b n y'}[0]{'glosses'} = $Lexicon->{'b n n'}[0]{'glosses'};
@@ -61116,6 +61174,9 @@ $Lexicon->{'b n y'}[18]{'glosses'} = $Lexicon->{'b n y y'}[1]{'glosses'};
 $Lexicon->{'b n y'}[23]{'types'} = $Lexicon->{'b n w'}[1]{'types'};
 $Lexicon->{'b n y'}[23]{'lines'} = $Lexicon->{'b n w'}[1]{'lines'};
 $Lexicon->{'b n y'}[23]{'glosses'} = $Lexicon->{'b n w'}[1]{'glosses'};
+$Lexicon->{'b n y'}[24]{'types'} = $Lexicon->{'b w n y'}[0]{'types'};
+$Lexicon->{'b n y'}[24]{'lines'} = $Lexicon->{'b w n y'}[0]{'lines'};
+$Lexicon->{'b n y'}[24]{'glosses'} = $Lexicon->{'b w n y'}[0]{'glosses'};
 $Lexicon->{'b y l'}[0]{'types'} = $Lexicon->{'b w l'}[11]{'types'};
 $Lexicon->{'b y l'}[0]{'lines'} = $Lexicon->{'b w l'}[11]{'lines'};
 $Lexicon->{'b y l'}[0]{'glosses'} = $Lexicon->{'b w l'}[11]{'glosses'};
@@ -61137,6 +61198,9 @@ $Lexicon->{'b .t r'}[7]{'glosses'} = $Lexicon->{'b .t r \''}[0]{'glosses'};
 $Lexicon->{'b t y'}[0]{'types'} = $Lexicon->{'b \' t'}[0]{'types'};
 $Lexicon->{'b t y'}[0]{'lines'} = $Lexicon->{'b \' t'}[0]{'lines'};
 $Lexicon->{'b t y'}[0]{'glosses'} = $Lexicon->{'b \' t'}[0]{'glosses'};
+$Lexicon->{'b t y'}[1]{'types'} = $Lexicon->{'b w t y'}[1]{'types'};
+$Lexicon->{'b t y'}[1]{'lines'} = $Lexicon->{'b w t y'}[1]{'lines'};
+$Lexicon->{'b t y'}[1]{'glosses'} = $Lexicon->{'b w t y'}[1]{'glosses'};
 $Lexicon->{'b y ^g'}[0]{'types'} = $Lexicon->{'b y ^g n'}[0]{'types'};
 $Lexicon->{'b y ^g'}[0]{'lines'} = $Lexicon->{'b y ^g n'}[0]{'lines'};
 $Lexicon->{'b y ^g'}[0]{'glosses'} = $Lexicon->{'b y ^g n'}[0]{'glosses'};
@@ -61179,9 +61243,9 @@ $Lexicon->{'b h \''}[0]{'glosses'} = $Lexicon->{'b h y'}[4]{'glosses'};
 $Lexicon->{'b h \''}[1]{'types'} = $Lexicon->{'b h y'}[5]{'types'};
 $Lexicon->{'b h \''}[1]{'lines'} = $Lexicon->{'b h y'}[5]{'lines'};
 $Lexicon->{'b h \''}[1]{'glosses'} = $Lexicon->{'b h y'}[5]{'glosses'};
-$Lexicon->{'b \' `'}[0]{'types'} = $Lexicon->{'b y `'}[12]{'types'};
-$Lexicon->{'b \' `'}[0]{'lines'} = $Lexicon->{'b y `'}[12]{'lines'};
-$Lexicon->{'b \' `'}[0]{'glosses'} = $Lexicon->{'b y `'}[12]{'glosses'};
+$Lexicon->{'b \' `'}[0]{'types'} = $Lexicon->{'b y `'}[13]{'types'};
+$Lexicon->{'b \' `'}[0]{'lines'} = $Lexicon->{'b y `'}[13]{'lines'};
+$Lexicon->{'b \' `'}[0]{'glosses'} = $Lexicon->{'b y `'}[13]{'glosses'};
 $Lexicon->{'b y d r'}[0]{'types'} = $Lexicon->{'b d r'}[14]{'types'};
 $Lexicon->{'b y d r'}[0]{'lines'} = $Lexicon->{'b d r'}[14]{'lines'};
 $Lexicon->{'b y d r'}[0]{'glosses'} = $Lexicon->{'b d r'}[14]{'glosses'};

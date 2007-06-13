@@ -11992,6 +11992,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '.s b .h y' => [
+    {
+      'types' => {},
+      'entry' => '.sub.hiy',
+      'form' => '.sub.hiy',
+      'lines' => [
+        ';; SuboHiy_1',
+        'SbHy    SuboHiy N0      Subhi;Sobhi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Subhi',
+        'Sobhi'
+      ],
+      'orig' => 'SuboHiy',
+      'prefix' => ''
+    }
+  ],
   '.s w b n' => [
     {
       'types' => {
@@ -17254,28 +17276,6 @@ $Lexicon = {
         'Suns'
       ],
       'orig' => 'Sanoz',
-      'prefix' => ''
-    }
-  ],
-  '.sub.hiy' => [
-    {
-      'types' => {},
-      'entry' => '.sub.hiy',
-      'form' => '.sub.hiy',
-      'lines' => [
-        ';; SuboHiy_1',
-        'SbHy    SuboHiy N0      Subhi;Sobhi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Subhi',
-        'Sobhi'
-      ],
-      'orig' => 'SuboHiy',
       'prefix' => ''
     }
   ],

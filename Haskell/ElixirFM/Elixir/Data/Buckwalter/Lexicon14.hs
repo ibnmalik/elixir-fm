@@ -1613,6 +1613,13 @@ lexicon = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- taSobiyH -}         [ "greeting", "hellos" ]
                               `plural`     TaFCIL |< At ]
 
+ |> ".s b .h y" <| [
+
+    -- ;; SuboHiy_1
+    -- SbHy    SuboHiy N0      Subhi;Sobhi
+
+    KuRDI                     `noun`    {- SuboHiy -}          [ "Subhi", "Sobhi" ] ]
+
  |> ".s b `" <| [
 
     -- ;; SabaE-a_1
@@ -8051,13 +8058,6 @@ lexicon = listing "Lexicon's properties"
     -- SlEm    SlEm    FW      Peace Be Upon Him     [[SlEm/ABBREV]]
 
     Identity                  `noun`    {- SlEm -}             [ "Peace Be Upon Him" ] ]
-
- |> ".sub.hiy" <| [
-
-    -- ;; SuboHiy_1
-    -- SbHy    SuboHiy N0      Subhi;Sobhi
-
-    Identity                  `noun`    {- SuboHiy -}          [ "Subhi", "Sobhi" ] ]
 
  |> ".subbayr" <| [
 

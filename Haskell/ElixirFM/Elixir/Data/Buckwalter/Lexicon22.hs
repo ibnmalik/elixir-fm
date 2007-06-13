@@ -1899,6 +1899,16 @@ lexicon = listing "Lexicon's properties"
     KiRDIS |< At              `noun`    {- kiboriytAt -}       [ "sulfate" ]
                               `plural`     KiRDIS |< At ]
 
+ |> "k b r y" <| [
+
+    -- ;; kuboriy_1
+    -- kbry    kuboriy N0      bridge;overpass
+    -- kbAry   kabAriy N0      bridges;overpasses
+
+    KuRDI                     `noun`    {- kuboriy -}          [ "bridge", "overpass", "bridges", "overpasses" ]
+                              `plural`     KaRADI
+                           {- `others`  [ "kabAriy N0" ] -} ]
+
  |> "k b s" <| [
 
     -- ;; kabas-i_1
@@ -2133,12 +2143,7 @@ lexicon = listing "Lexicon's properties"
     -- kbAy    kub~Ay  NAt     cups;tumblers
 
     FuCCAL |< aT              `noun`    {- kub~Ayap -}         [ "cup", "tumbler", "cups", "tumblers" ]
-                              `plural`     FuCCAL |< At,
-
-    -- ;; kuwbiy_1
-    -- kwby    kuwbiy  Nprop   Kobe
-
-    FUCI                      `noun`    {- kuwbiy -}           [ "Kobe" ] ]
+                              `plural`     FuCCAL |< At ]
 
  |> "k d .h" <| [
 
@@ -8491,6 +8496,20 @@ lexicon = listing "Lexicon's properties"
 
     KuRDUS                    `noun`    {- kuwbuwn -}          [ "coupon" ] ]
 
+ |> "k w b r" <| [
+
+    -- ;; kuwbir_1
+    -- kwbr    kuwbir  Nprop   Cooper;Cuper
+
+    KuRDiS                    `noun`    {- kuwbir -}           [ "Cooper", "Cuper" ] ]
+
+ |> "k w b y" <| [
+
+    -- ;; kuwbiy_1
+    -- kwby    kuwbiy  Nprop   Kobe
+
+    KuRDI                     `noun`    {- kuwbiy -}           [ "Kobe" ] ]
+
  |> "k w d" <| [
 
     -- ;; kAd-a_1
@@ -8625,6 +8644,11 @@ lexicon = listing "Lexicon's properties"
     -- kwlAn   kuwlAn  N       papyrus
 
     KuRDAS                    `noun`    {- kuwlAn -}           [ "papyrus" ],
+
+    -- ;; kuwlin_1
+    -- kwln    kuwlin  Nprop   Colin
+
+    KuRDiS                    `noun`    {- kuwlin -}           [ "Colin" ],
 
     -- ;; kuwliyn_1
     -- kwlyn   kuwliyn Nprop   Coleen
@@ -8864,6 +8888,15 @@ lexicon = listing "Lexicon's properties"
 
     KaRDaS |< aT              `noun`    {- kawrajap -}         [ "bulk", "wholesale" ] ]
 
+ |> "k w r k" <| [
+
+    -- ;; kuwrik_1
+    -- kwrk    kuwrik  N0      forced labor
+    -- kwryk   kuwriyk N0      forced labor
+    -- kryk    kuriyk  N0      forced labor
+
+    KuRDiS                    `noun`    {- kuwrik -}           [ "forced labor" ] ]
+
  |> "k w r l" <| [
 
     -- ;; kuwrAl_1
@@ -8937,6 +8970,14 @@ lexicon = listing "Lexicon's properties"
     FUL                       `noun`    {- kuwt -}             [ "Cote" ] ]
 
  |> "k w t r" <| [
+
+    -- ;; kuwtir_1
+    -- kwtr    kuwtir  N0      cutter;yawl
+    -- kwAtr   kawAtir Ndip    cutters;yawls
+
+    KuRDiS                    `noun`    {- kuwtir -}           [ "cutter", "yawl", "cutters", "yawls" ]
+                              `plural`     KaRADiS
+                           {- `others`  [ "kawAtir Ndip" ] -},
 
     -- ;; kuwtuwr_1
     -- kwtwr   kuwtuwr Nprop   Kotor
@@ -11163,14 +11204,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- ku$otubAn -}        [ "thimble", "thimbles" ] ]
 
- |> "kubriy" <| [
-
-    -- ;; kuboriy_1
-    -- kbry    kuboriy N0      bridge;overpass
-    -- kbAry   kabAriy N0      bridges;overpasses
-
-    Identity                  `noun`    {- kuboriy -}          [ "bridge", "overpass", "bridges", "overpasses" ] ]
-
  |> "kufartah" <| [
 
     -- ;; kufarotah_1
@@ -11373,13 +11406,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kuwbinohAgin -}     [ "Copenhagen" ] ]
 
- |> "kuwbir" <| [
-
-    -- ;; kuwbir_1
-    -- kwbr    kuwbir  Nprop   Cooper;Cuper
-
-    Identity                  `noun`    {- kuwbir -}           [ "Cooper", "Cuper" ] ]
-
  |> "kuwbirz" <| [
 
     -- ;; kuwbirz_1
@@ -11472,13 +11498,6 @@ lexicon = listing "Lexicon's properties"
     -- kwlxwz  kuwloxuwz       N       kolkhoz
 
     Identity                  `noun`    {- kuwloxuwz -}        [ "kolkhoz" ] ]
-
- |> "kuwlin" <| [
-
-    -- ;; kuwlin_1
-    -- kwln    kuwlin  Nprop   Colin
-
-    Identity                  `noun`    {- kuwlin -}           [ "Colin" ] ]
 
  |> "kuwlistiruwl" <| [
 
@@ -11758,15 +11777,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kuwroduwn -}        [ "cordon", "ribbon" ] ]
 
- |> "kuwrik" <| [
-
-    -- ;; kuwrik_1
-    -- kwrk    kuwrik  N0      forced labor
-    -- kwryk   kuwriyk N0      forced labor
-    -- kryk    kuriyk  N0      forced labor
-
-    Identity                  `noun`    {- kuwrik -}           [ "forced labor" ] ]
-
  |> "kuwriyA" <| [
 
     -- ;; kuwriyA_1
@@ -11898,14 +11908,6 @@ lexicon = listing "Lexicon's properties"
     -- kwtbws  kuwtobuws       Nprop   Cottbus
 
     Identity                  `noun`    {- kuwtobuws -}        [ "Cottbus" ] ]
-
- |> "kuwtir" <| [
-
-    -- ;; kuwtir_1
-    -- kwtr    kuwtir  N0      cutter;yawl
-    -- kwAtr   kawAtir Ndip    cutters;yawls
-
-    Identity                  `noun`    {- kuwtir -}           [ "cutter", "yawl", "cutters", "yawls" ] ]
 
  |> "kuwtiydiyAn" <| [
 

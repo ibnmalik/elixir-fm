@@ -7321,6 +7321,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  's w n y' => [
+    {
+      'types' => {},
+      'entry' => 'suwniy',
+      'form' => 'suwniy',
+      'lines' => [
+        ';; suwniy_1',
+        'swny    suwniy  Nprop   Sony'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Sony'
+      ],
+      'orig' => 'suwniy',
+      'prefix' => ''
+    }
+  ],
   'siyyamA' => [
     {
       'types' => {
@@ -10288,7 +10309,11 @@ $Lexicon = {
         'AslnTH  {isolanoTaH     PV_intr be wide',
         'slnTH   solanoTiH       IV_intr be wide'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'slan.ti.h' => [
+          'KRanDiS'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IKRanDaS',
@@ -13073,47 +13098,6 @@ $Lexicon = {
         'small gray squirrel'
       ],
       'orig' => 'sunayojiyb',
-      'prefix' => ''
-    }
-  ],
-  'suwmir' => [
-    {
-      'types' => {},
-      'entry' => 'suwmir',
-      'form' => 'suwmir',
-      'lines' => [
-        ';; suwmir_1',
-        'swmr    suwmir  Ndip    Sumer'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Sumer'
-      ],
-      'orig' => 'suwmir',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'suwmir',
-      'form' => 'suwmiriyy',
-      'lines' => [
-        ';; suwmiriy~_1',
-        'swmry   suwmiriy~       Nall    Sumerian     [[suwmiriy~/NOUN]]',
-        'swmry   suwmiriy~       Nall    Sumerian     [[suwmiriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Sumerian'
-      ],
-      'orig' => 'suwmiriy~',
       'prefix' => ''
     }
   ],
@@ -17124,6 +17108,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  's w t y' => [
+    {
+      'types' => {},
+      'entry' => 'suwtiy',
+      'form' => 'suwtiy',
+      'lines' => [
+        ';; suwtiy_1',
+        'swty    suwtiy  Nprop   Sutee'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Sutee'
+      ],
+      'orig' => 'suwtiy',
+      'prefix' => ''
+    }
+  ],
   'sizmuw.grAf' => [
     {
       'types' => {
@@ -17704,6 +17709,47 @@ $Lexicon = {
         'Stopwatch'
       ],
       'orig' => 'stuwbwuwto$',
+      'prefix' => ''
+    }
+  ],
+  's w m r' => [
+    {
+      'types' => {},
+      'entry' => 'suwmir',
+      'form' => 'suwmir',
+      'lines' => [
+        ';; suwmir_1',
+        'swmr    suwmir  Ndip    Sumer'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'Sumer'
+      ],
+      'orig' => 'suwmir',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'suwmir',
+      'form' => 'suwmiriyy',
+      'lines' => [
+        ';; suwmiriy~_1',
+        'swmry   suwmiriy~       Nall    Sumerian     [[suwmiriy~/NOUN]]',
+        'swmry   suwmiriy~       Nall    Sumerian     [[suwmiriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KuRDiS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Sumerian'
+      ],
+      'orig' => 'suwmiriy~',
       'prefix' => ''
     }
   ],
@@ -19734,27 +19780,6 @@ $Lexicon = {
         'Saqqa'
       ],
       'orig' => 'saq~A',
-      'prefix' => ''
-    }
-  ],
-  's t y' => [
-    {
-      'types' => {},
-      'entry' => 'suwtiy',
-      'form' => 'suwtiy',
-      'lines' => [
-        ';; suwtiy_1',
-        'swty    suwtiy  Nprop   Sutee'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCI',
-      'suffix' => '',
-      'glosses' => [
-        'Sutee'
-      ],
-      'orig' => 'suwtiy',
       'prefix' => ''
     }
   ],
@@ -42576,6 +42601,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'suwiysr' => [
+    {
+      'types' => {},
+      'entry' => 'suwiysr',
+      'form' => 'suwiysriyy',
+      'lines' => [
+        ';; suwiysriy~_1',
+        'swysry  suwiysriy~      Nall    Swiss     [[suwiysriy~/NOUN]]',
+        'swysry  suwiysriy~      Nall    Swiss     [[suwiysriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Swiss'
+      ],
+      'orig' => 'suwiysriy~',
+      'prefix' => ''
+    }
+  ],
   's ^g w' => [
     {
       'types' => {
@@ -42755,28 +42802,6 @@ $Lexicon = {
         'laid out'
       ],
       'orig' => 'musaj~aY',
-      'prefix' => ''
-    }
-  ],
-  'suwiysr' => [
-    {
-      'types' => {},
-      'entry' => 'suwiysr',
-      'form' => 'suwiysriyy',
-      'lines' => [
-        ';; suwiysriy~_1',
-        'swysry  suwiysriy~      Nall    Swiss     [[suwiysriy~/NOUN]]',
-        'swysry  suwiysriy~      Nall    Swiss     [[suwiysriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Swiss'
-      ],
-      'orig' => 'suwiysriy~',
       'prefix' => ''
     }
   ],
@@ -54934,25 +54959,6 @@ $Lexicon = {
       'suffix' => ' |< aT',
       'glosses' => [],
       'orig' => 'sAniyap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'suwniy',
-      'form' => 'suwniy',
-      'lines' => [
-        ';; suwniy_1',
-        'swny    suwniy  Nprop   Sony'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCI',
-      'suffix' => '',
-      'glosses' => [
-        'Sony'
-      ],
-      'orig' => 'suwniy',
       'prefix' => ''
     }
   ],

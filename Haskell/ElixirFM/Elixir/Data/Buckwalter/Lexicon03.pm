@@ -3092,6 +3092,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  't w m y' => [
+    {
+      'types' => {},
+      'entry' => 'tuwmiy',
+      'form' => 'tuwmiy',
+      'lines' => [
+        ';; tuwmiy_1',
+        'twmy    tuwmiy  Nprop   Tommy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Tommy'
+      ],
+      'orig' => 'tuwmiy',
+      'prefix' => ''
+    }
+  ],
   'tun^gstiyn' => [
     {
       'types' => {},
@@ -6563,6 +6584,74 @@ $Lexicon = {
   ],
   't w n s' => [
     {
+      'types' => {},
+      'entry' => 'tuwnis',
+      'form' => 'tuwnis',
+      'lines' => [
+        ';; tuwnis_1',
+        'twns    tuwnis  N0      Tunis'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'Tunis'
+      ],
+      'orig' => 'tuwnis',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tuwnis',
+      'form' => 'tuwnis',
+      'lines' => [
+        ';; tuwnis_2',
+        'twns    tuwnis  N0      Tunisia'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'Tunisia'
+      ],
+      'orig' => 'tuwnis',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'tawAnis' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'tuwnis',
+      'form' => 'tuwnisiyy',
+      'lines' => [
+        ';; tuwnisiy~_1',
+        'twnsy   tuwnisiy~       Nall    Tunisian     [[tuwnisiy~/NOUN]]',
+        'twnsy   tuwnisiy~       Nall    Tunisian     [[tuwnisiy~/ADJ]]',
+        'twAns   tawAnis Nap     Tunisians'
+      ],
+      'patterns' => {
+        'tawAnis' => [
+          'KaRADiS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KuRDiS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Tunisian',
+        'Tunisians'
+      ],
+      'orig' => 'tuwnisiy~',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'tawnis' => {
           'IV_yu' => 1
@@ -9112,18 +9201,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'tuwmiy',
       'form' => 'tuwmiy',
-      'lines' => [
-        ';; tuwmiy_1',
-        'twmy    tuwmiy  Nprop   Tommy'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FUCI',
       'suffix' => '',
-      'glosses' => [
-        'Tommy'
-      ],
+      'glosses' => [],
       'orig' => 'tuwmiy',
       'prefix' => ''
     },
@@ -10870,72 +10954,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tuwnis' => [
-    {
-      'types' => {},
-      'entry' => 'tuwnis',
-      'form' => 'tuwnis',
-      'lines' => [
-        ';; tuwnis_1',
-        'twns    tuwnis  N0      Tunis'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tunis'
-      ],
-      'orig' => 'tuwnis',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'tuwnis',
-      'form' => 'tuwnis',
-      'lines' => [
-        ';; tuwnis_2',
-        'twns    tuwnis  N0      Tunisia'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tunisia'
-      ],
-      'orig' => 'tuwnis',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'tawAnis' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'tuwnis',
-      'form' => 'tuwnisiyy',
-      'lines' => [
-        ';; tuwnisiy~_1',
-        'twnsy   tuwnisiy~       Nall    Tunisian     [[tuwnisiy~/NOUN]]',
-        'twnsy   tuwnisiy~       Nall    Tunisian     [[tuwnisiy~/ADJ]]',
-        'twAns   tawAnis Nap     Tunisians'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Tunisian',
-        'Tunisians'
-      ],
-      'orig' => 'tuwnisiy~',
-      'prefix' => ''
-    }
-  ],
   't r m' => [
     {
       'types' => {},
@@ -11142,6 +11160,36 @@ $Lexicon = {
         'coffee dregs'
       ],
       'orig' => 'tanowap',
+      'prefix' => ''
+    }
+  ],
+  't w n y' => [
+    {
+      'types' => {},
+      'entry' => 'tuwniy',
+      'form' => 'tuwniy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'tuwniy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tuwniy',
+      'form' => 'tuwniy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'tuwniy',
       'prefix' => ''
     }
   ],
@@ -14980,6 +15028,9 @@ $Lexicon->{'t w q'}[4]{'glosses'} = $Lexicon->{'t \' q'}[1]{'glosses'};
 $Lexicon->{'t .t w n'}[0]{'types'} = $Lexicon->{'t .t w'}[0]{'types'};
 $Lexicon->{'t .t w n'}[0]{'lines'} = $Lexicon->{'t .t w'}[0]{'lines'};
 $Lexicon->{'t .t w n'}[0]{'glosses'} = $Lexicon->{'t .t w'}[0]{'glosses'};
+$Lexicon->{'t m y'}[0]{'types'} = $Lexicon->{'t w m y'}[0]{'types'};
+$Lexicon->{'t m y'}[0]{'lines'} = $Lexicon->{'t w m y'}[0]{'lines'};
+$Lexicon->{'t m y'}[0]{'glosses'} = $Lexicon->{'t w m y'}[0]{'glosses'};
 $Lexicon->{'t m y'}[1]{'types'} = $Lexicon->{'t m \''}[0]{'types'};
 $Lexicon->{'t m y'}[1]{'lines'} = $Lexicon->{'t m \''}[0]{'lines'};
 $Lexicon->{'t m y'}[1]{'glosses'} = $Lexicon->{'t m \''}[0]{'glosses'};
@@ -14995,6 +15046,12 @@ $Lexicon->{'t q w y'}[0]{'glosses'} = $Lexicon->{'t q w'}[0]{'glosses'};
 $Lexicon->{'t \' h'}[0]{'types'} = $Lexicon->{'t y h'}[11]{'types'};
 $Lexicon->{'t \' h'}[0]{'lines'} = $Lexicon->{'t y h'}[11]{'lines'};
 $Lexicon->{'t \' h'}[0]{'glosses'} = $Lexicon->{'t y h'}[11]{'glosses'};
+$Lexicon->{'t w n y'}[0]{'types'} = $Lexicon->{'t n y'}[0]{'types'};
+$Lexicon->{'t w n y'}[0]{'lines'} = $Lexicon->{'t n y'}[0]{'lines'};
+$Lexicon->{'t w n y'}[0]{'glosses'} = $Lexicon->{'t n y'}[0]{'glosses'};
+$Lexicon->{'t w n y'}[1]{'types'} = $Lexicon->{'t n y'}[1]{'types'};
+$Lexicon->{'t w n y'}[1]{'lines'} = $Lexicon->{'t n y'}[1]{'lines'};
+$Lexicon->{'t w n y'}[1]{'glosses'} = $Lexicon->{'t n y'}[1]{'glosses'};
 $Lexicon->{'t b n'}[2]{'types'} = $Lexicon->{'t b b'}[4]{'types'};
 $Lexicon->{'t b n'}[2]{'lines'} = $Lexicon->{'t b b'}[4]{'lines'};
 $Lexicon->{'t b n'}[2]{'glosses'} = $Lexicon->{'t b b'}[4]{'glosses'};

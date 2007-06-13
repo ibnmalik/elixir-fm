@@ -1914,6 +1914,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFAL                     `adj`     {- muqAm -}            [ "raised", "erected" ] ]
 
+ |> "q w n y" <| [
+
+    KuRDI |< aT               `noun`    {- quwniyap -}         [ "Konya" ] ]
+
  |> "q w q" <| [
 
     FACUL                     `noun`    {- qAwuwq -}           [ "headgear" ]

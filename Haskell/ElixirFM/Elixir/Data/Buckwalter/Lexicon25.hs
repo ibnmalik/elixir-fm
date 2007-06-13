@@ -16131,6 +16131,13 @@ lexicon = listing "Lexicon's properties"
     FUL |< Iy                 `adj`     {- nuwbiy~ -}          [ "Nubian", "Nubians" ]
                               `plural`     FUL |< aT ]
 
+ |> "n w b l" <| [
+
+    -- ;; nuwbil_1
+    -- nwbl    nuwbil  N0      Nobel
+
+    KuRDiS                    `noun`    {- nuwbil -}           [ "Nobel" ] ]
+
  |> "n w d" <| [
 
     -- ;; nAd-u_1
@@ -16800,6 +16807,13 @@ lexicon = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- naworaj -}          [ "threshing machine", "threshing machines" ]
                               `plural`     KaRADiS
                            {- `others`  [ "nawAri^g Ndip" ] -} ]
+
+ |> "n w r y" <| [
+
+    -- ;; nuwriy_1
+    -- nwry    nuwriy  Nprop   Nouri;Nuri
+
+    KuRDI                     `noun`    {- nuwriy -}           [ "Nouri", "Nuri" ] ]
 
  |> "n w r z" <| [
 
@@ -18695,13 +18709,6 @@ lexicon = listing "Lexicon's properties"
     -- nwySr   nuwayoSir       N0      Nuwaysir;Nuwaisir
 
     Identity                  `noun`    {- nuwayoSir -}        [ "Nuwaysir", "Nuwaisir" ] ]
-
- |> "nuwbil" <| [
-
-    -- ;; nuwbil_1
-    -- nwbl    nuwbil  N0      Nobel
-
-    Identity                  `noun`    {- nuwbil -}           [ "Nobel" ] ]
 
  |> "nuwfimbir" <| [
 

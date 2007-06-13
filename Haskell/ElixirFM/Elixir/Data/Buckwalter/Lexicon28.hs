@@ -1003,13 +1003,6 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL                    `noun`    {- mayoruwq -}         [ "jaundiced" ] ]
 
- |> "y r y" <| [
-
-    -- ;; yuwriy_1
-    -- ywry    yuwriy  Nprop   Youri;Yuri
-
-    FUCI                      `noun`    {- yuwriy -}           [ "Youri", "Yuri" ] ]
-
  |> "y s `" <| [
 
     -- ;; yasuwE_1
@@ -1210,6 +1203,13 @@ lexicon = listing "Lexicon's properties"
 
     MutaFaCCiL                `noun`    {- mutayas~ir -}       [ "well-to-do" ] ]
 
+ |> "y s r y" <| [
+
+    -- ;; yusoriy_1
+    -- ysry    yusoriy Nprop   Yusri;Yosri
+
+    KuRDI                     `noun`    {- yusoriy -}          [ "Yusri", "Yosri" ] ]
+
  |> "y s y" <| [
 
     -- ;; yuwsiy_1
@@ -1396,6 +1396,13 @@ lexicon = listing "Lexicon's properties"
 
     KuRDAS |< Iy              `adj`     {- yuwnAniy~ -}        [ "Greek" ] ]
 
+ |> "y w n s" <| [
+
+    -- ;; yuwnis_1
+    -- ywns    yuwnis  Nprop   Yunis;Younis;Jonah
+
+    KuRDiS                    `noun`    {- yuwnis -}           [ "Yunis", "Younis", "Jonah" ] ]
+
  |> "y w r" <| [
 
     -- ;; yAwir_1
@@ -1417,7 +1424,19 @@ lexicon = listing "Lexicon's properties"
 
     KuRDU                     `noun`    {- yuwruw -}           [ "Euro" ] ]
 
+ |> "y w r y" <| [
+
+    -- ;; yuwriy_1
+    -- ywry    yuwriy  Nprop   Youri;Yuri
+
+    KuRDI                     `noun`    {- yuwriy -}           [ "Youri", "Yuri" ] ]
+
  |> "y w s f" <| [
+
+    -- ;; yuwsif_1
+    -- ywsf    yuwsif  N0      Yousif;Yusif;Joseph
+
+    KuRDiS                    `noun`    {- yuwsif -}           [ "Yousif", "Yusif", "Joseph" ],
 
     -- ;; yuwsufiy~_1
     -- ywsfy   yuwsufiy~       N       tangerines
@@ -1436,7 +1455,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; yuwsuw_1
     -- ywsw    yuwsuw  Nprop   Jusso;Yusso
 
-    KuRDU                     `noun`    {- yuwsuw -}           [ "Jusso", "Yusso" ] ]
+    KuRDU                     `noun`    {- yuwsuw -}           [ "Jusso", "Yusso" ],
+
+    -- ;; yuwsiy_1
+    -- ywsy    yuwsiy  Nprop   Yosi;Yossi
+
+    KuRDI                     `noun`    {- yuwsiy -}           [ "Yosi", "Yossi" ] ]
 
  |> "y w w" <| [
 
@@ -1680,13 +1704,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- yuHan~A -}          [ "Yuhanna", "John" ] ]
 
- |> "yusriy" <| [
-
-    -- ;; yusoriy_1
-    -- ysry    yusoriy Nprop   Yusri;Yosri
-
-    Identity                  `noun`    {- yusoriy -}          [ "Yusri", "Yosri" ] ]
-
  |> "yuw.guwrt" <| [
 
     -- ;; yuwguwrot_1
@@ -1791,13 +1808,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- yuwnAyotid -}       [ "United" ] ]
 
- |> "yuwnis" <| [
-
-    -- ;; yuwnis_1
-    -- ywns    yuwnis  Nprop   Yunis;Younis;Jonah
-
-    Identity                  `noun`    {- yuwnis -}           [ "Yunis", "Younis", "Jonah" ] ]
-
  |> "yuwniysif" <| [
 
     -- ;; yuwniysif_1
@@ -1867,13 +1877,6 @@ lexicon = listing "Lexicon's properties"
     -- ywrwmyd yuwruwmiyd      N0      Euro-Med (European-Mediterranean)
 
     Identity                  `noun`    {- yuwruwmiyd -}       [ "Euro-Med (European-Mediterranean)" ] ]
-
- |> "yuwsif" <| [
-
-    -- ;; yuwsif_1
-    -- ywsf    yuwsif  N0      Yousif;Yusif;Joseph
-
-    Identity                  `noun`    {- yuwsif -}           [ "Yousif", "Yusif", "Joseph" ] ]
 
  |> "yuwtA" <| [
 

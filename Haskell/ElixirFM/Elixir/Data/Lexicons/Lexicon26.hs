@@ -137,10 +137,6 @@ lexicon = listing "Lexicon's properties"
 
     FuCUL                     `noun`    {- hubuwb -}           [ "blowing" ] ]
 
- |> "h b y" <| [
-
-    FUCI                      `noun`    {- huwbiy -}           [ "Hobby" ] ]
-
  |> "h d '" <| [
 
     FaCaL                     `verb`    {- hadaO-a -}          [ "calm down", "subside" ]
@@ -678,6 +674,10 @@ lexicon = listing "Lexicon's properties"
 
     KuRDIS                    `noun`    {- huwbiyr -}          [ "Hubert" ] ]
 
+ |> "h w b y" <| [
+
+    KuRDI                     `noun`    {- huwbiy -}           [ "Hobby" ] ]
+
  |> "h w d" <| [
 
     TaFCIL                    `noun`    {- tahowiyd -}         [ "Judaization" ]
@@ -690,6 +690,10 @@ lexicon = listing "Lexicon's properties"
  |> "h w k" <| [
 
     FUL                       `noun`    {- huwk -}             [ "Hawk" ] ]
+
+ |> "h w k y" <| [
+
+    KuRDI                     `noun`    {- huwkiy -}           [ "hockey" ] ]
 
  |> "h w l" <| [
 

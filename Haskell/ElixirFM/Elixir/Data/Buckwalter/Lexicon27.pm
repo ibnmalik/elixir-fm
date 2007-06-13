@@ -405,8 +405,7 @@ $Lexicon = {
           'FuCCAL'
         ],
         'wara_t' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ]
       },
       'index' => '2',
@@ -745,8 +744,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'wazan' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ]
       },
       'index' => '1',
@@ -985,7 +983,11 @@ $Lexicon = {
         '<tzAn   {it~izAn        N/At    balance;equilibrium',
         'AtzAn   {it~izAn        N/At    balance;equilibrium'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ittizAn' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -1304,7 +1306,11 @@ $Lexicon = {
         'Atkl    {it~akal        PV      rely on;trust',
         'tkl     t~akil  IV      rely on;trust'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ttakil' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -1565,7 +1571,11 @@ $Lexicon = {
         '<tkAl   {it~ikAl        N/At    trust;confidence;reliance',
         'AtkAl   {it~ikAl        N/At    trust;confidence;reliance'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ittikAl' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -3153,8 +3163,7 @@ $Lexicon = {
           'FaCA'
         ],
         'waday' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ],
         'wad' => [
           'FaC'
@@ -3522,8 +3531,7 @@ $Lexicon = {
           'FCY'
         ],
         'wafay' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ],
         'fiy' => [
           'CI'
@@ -3958,8 +3966,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'wafY' => [
-          'FaCY',
-          'FtaCY'
+          'FaCY'
         ]
       },
       'index' => '1',
@@ -5002,7 +5009,11 @@ $Lexicon = {
         'At$H    {it~a$aH        PV      put on;wear',
         't$H     t~a$iH  IV      put on;wear'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tta^si.h' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -5752,7 +5763,11 @@ $Lexicon = {
         'AtHd    {it~aHad        PV_intr be united;agree;concur',
         'tHd     t~aHid  IV_intr be united;agree;concur'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tta.hid' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -5878,8 +5893,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'wa.had' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ]
       },
       'index' => '4',
@@ -6143,7 +6157,11 @@ $Lexicon = {
         '<tHAd   {it~iHAd        NAt     unions',
         'AtHAd   {it~iHAd        NAt     unions'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'itti.hAd' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -6408,8 +6426,7 @@ $Lexicon = {
           'FCY'
         ],
         'wa`ay' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ],
         '`iy' => [
           'CI'
@@ -6852,8 +6869,7 @@ $Lexicon = {
           'FaCA'
         ],
         'wa_hay' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ],
         '_hiy' => [
           'CI'
@@ -7350,7 +7366,11 @@ $Lexicon = {
         'Atsq    {it~asaq        PV_intr be well-ordered;harmonize',
         'tsq     t~asiq  IV_intr be well-ordered;harmonize'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ttasiq' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -7438,7 +7458,11 @@ $Lexicon = {
         '<tsAq   {it~isAq        N/At    harmony',
         'AtsAq   {it~isAq        N/At    harmony'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ittisAq' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -8060,8 +8084,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'wa.gar' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ]
       },
       'index' => '1',
@@ -9309,7 +9332,17 @@ $Lexicon = {
         'Atfq    {ut~ufiq        PV_Pass be agreed',
         'tfq     t~afaq  IV_Pass_yu      be agreed'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ttafaq' => [
+          'FtaCaL'
+        ],
+        'uttufiq' => [
+          'UFtuCiL'
+        ],
+        'ttafiq' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -9523,7 +9556,11 @@ $Lexicon = {
         '<tfAq   {it~ifAq        NAt     agreements;accords;treaties',
         'AtfAq   {it~ifAq        NAt     agreements;accords;treaties'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ittifAq' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -9808,8 +9845,7 @@ $Lexicon = {
           'FuCUL'
         ],
         'wa.hal' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ]
       },
       'index' => '1',
@@ -10029,8 +10065,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'wadid' => [
-          'FaCiL',
-          'FtaCiL'
+          'FaCiL'
         ],
         'wdad' => [
           'FCaL'
@@ -10739,7 +10774,11 @@ $Lexicon = {
         'AtEd    {it~aEad        PV      agree;make arrangements',
         'tEd     t~aEid  IV      agree;make arrangements'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tta`id' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -11133,8 +11172,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'wA.h' => [
-          'FAL',
-          'FtAL'
+          'FAL'
         ]
       },
       'index' => '1',
@@ -11902,8 +11940,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'waqab' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ]
       },
       'index' => '1',
@@ -12111,7 +12148,11 @@ $Lexicon = {
         'AtEZ    {it~aEaZ        PV_intr be admonished;take advice',
         'tEZ     t~aEiZ  IV_intr be admonished;take advice'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tta`i.z' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -13228,8 +13269,7 @@ $Lexicon = {
           'FaCA'
         ],
         'wanay' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ],
         'wan' => [
           'FaC'
@@ -13730,8 +13770,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'waqay' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ],
         'waq' => [
           'FaC'
@@ -13843,7 +13882,17 @@ $Lexicon = {
         'tq      t~aq    IV_0hwnyn       beware;be on guard',
         'tqY     t~aqaY  IV_0_Pass_yu    beware;be on guard'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ittaqay' => [
+          'IFtaCaL'
+        ],
+        'ttaqiy' => [
+          'FtaCI'
+        ],
+        'ttaqY' => [
+          'FtaCY'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCY',
@@ -14038,7 +14087,11 @@ $Lexicon = {
         '<tqA\'   {it~iqA\'        NAt     caution;precaution',
         'AtqA\'   {it~iqA\'        NAt     caution;precaution'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ittiqA\'' => [
+          'IFtiCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCA\'',
@@ -15190,6 +15243,92 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'w t y' => [
+    {
+      'types' => {
+        'wAtiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'wAtA' => {
+          'PV_h' => 1
+        },
+        'wAtay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'wAt' => {
+          'PV_ttAw_intr' => 1,
+          'IV_0hwnyn_yu' => 1
+        }
+      },
+      'entry' => 'wAtY',
+      'form' => 'wAtY',
+      'lines' => [
+        ';; wAtaY_1',
+        'wAtY    wAtaY   PV_0    be favorable;be satisfying',
+        'wAtA    wAtA    PV_h    be favorable;be satisfying',
+        'wAty    wAtay   PV_Atn  be favorable;be satisfying',
+        'wAt     wAt     PV_ttAw_intr    be favorable;be satisfying',
+        'wAty    wAtiy   IV_0hAnn_yu     be favorable;be satisfying',
+        'wAt     wAt     IV_0hwnyn_yu    be favorable;be satisfying',
+        'wAtY    wAtaY   IV_0_Pass_yu    be favorable;be satisfying',
+        'wAty    wAtay   IV_Ann_Pass_yu  be favorable;be satisfying'
+      ],
+      'patterns' => {
+        'wAtiy' => [
+          'FACI'
+        ],
+        'wAtay' => [
+          'FACaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FACY',
+      'suffix' => '',
+      'glosses' => [
+        'be favorable',
+        'be satisfying'
+      ],
+      'orig' => 'wAtaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'muwAt' => {
+          'Nuwn_Niyn' => 1
+        },
+        'muwAtiy' => {
+          'NapAt' => 1
+        }
+      },
+      'entry' => 'muwAtiy',
+      'form' => 'muwAtiy',
+      'lines' => [
+        ';; muwAtiy_1',
+        'mwAty   muwAtiy N0F_Nh  pleasing;suitable',
+        'mwAt    muwAt   NK      pleasing;suitable',
+        'mwAty   muwAtiy NAn_Nayn        pleasing;suitable',
+        'mwAt    muwAt   Nuwn_Niyn       pleasing;suitable',
+        'mwAty   muwAtiy NapAt   pleasing;suitable'
+      ],
+      'patterns' => {
+        'muwAtiy' => [
+          'MuFACI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFACI',
+      'suffix' => '',
+      'glosses' => [
+        'pleasing',
+        'suitable'
+      ],
+      'orig' => 'muwAtiy',
+      'prefix' => ''
+    }
+  ],
   'w ^s `' => [
     {
       'types' => {
@@ -15338,8 +15477,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'wafaz' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ],
         '\'awfAz' => [
           'HaFCAL'
@@ -15961,7 +16099,12 @@ $Lexicon = {
       'entry' => 'ittiqA\'',
       'form' => 'ittiqA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'ittiqA\'' => [
+          'IFtiCAL',
+          'IFtiCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -16702,7 +16845,11 @@ $Lexicon = {
         'AtDE    {it~aDaE        PV_intr be humble',
         'tDE     t~aDiE  IV_intr be humble'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tta.di`' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -17038,7 +17185,11 @@ $Lexicon = {
         '<tDAE   {it~iDAE        N/At    modesty;humility;lowliness',
         'AtDAE   {it~iDAE        N/At    modesty;humility;lowliness'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'itti.dA`' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -17281,8 +17432,7 @@ $Lexicon = {
           'FaCA'
         ],
         'wakay' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ],
         'wak' => [
           'FaC'
@@ -17531,7 +17681,11 @@ $Lexicon = {
         'AtSl    {it~aSal        PV_intr contact;get in touch (with)',
         'tSl     t~aSil  IV_intr contact;get in touch (with)'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tta.sil' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -17557,7 +17711,11 @@ $Lexicon = {
         'AtSl    {it~aSal        PV_intr be connected or related (to)',
         'tSl     t~aSil  IV_intr be connected or related (to)'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tta.sil' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '2',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -18132,7 +18290,11 @@ $Lexicon = {
         '<tSAl   {it~iSAl        N/At    connection;relation;relationship',
         'AtSAl   {it~iSAl        N/At    connection;relation;relationship'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'itti.sAl' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -18483,8 +18645,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'wama.d' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ]
       },
       'index' => '1',
@@ -18677,8 +18838,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'wara.t' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ],
         'wirA.t' => [
           'FiCAL'
@@ -18838,8 +18998,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'wa^gar' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ]
       },
       'index' => '1',
@@ -18986,8 +19145,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'wa^gan' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ]
       },
       'index' => '1',
@@ -20405,8 +20563,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'ward' => [
-          'FaCL',
-          'FtaCL'
+          'FaCL'
         ]
       },
       'index' => '1',
@@ -21924,7 +22081,11 @@ $Lexicon = {
         'Atsm    {it~asam        PV_intr be characterized;be marked;bear the stamp',
         'tsm     t~asim  IV_intr be characterized;be marked;bear the stamp'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ttasim' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -23005,8 +23166,7 @@ $Lexicon = {
           'FaCA'
         ],
         'waray' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ],
         'war' => [
           'FaC'
@@ -24428,7 +24588,11 @@ $Lexicon = {
         'AtsE    {it~asaE        PV      expand;be widened',
         'tsE     t~asiE  IV      expand;be widened'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ttasi`' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -24693,7 +24857,11 @@ $Lexicon = {
         '<tsAE   {it~isAE        N/At    expansion;extension',
         'AtsAE   {it~isAE        N/At    expansion;extension'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ittisA`' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -25444,7 +25612,11 @@ $Lexicon = {
         'At>d    {it~a>ad        PV      slow down;hesitate',
         't}d     t~a}id  IV      slow down;hesitate'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tta\'id' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -25876,8 +26048,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'wahin' => [
-          'FaCiL',
-          'FtaCiL'
+          'FaCiL'
         ],
         'hin' => [
           'CiL'
@@ -27290,7 +27461,11 @@ $Lexicon = {
         'Atqd    {it~aqad        PV      burn up;flare',
         'tqd     t~aqid  IV      burn up;flare'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ttaqid' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -27343,8 +27518,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'waqad' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ]
       },
       'index' => '1',
@@ -27576,7 +27750,11 @@ $Lexicon = {
         '<tqAd   {it~iqAd        N/At    burning;combustion',
         'AtqAd   {it~iqAd        N/At    burning;combustion'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ittiqAd' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -28814,8 +28992,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'waqa`' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ]
       },
       'index' => '1',
@@ -29699,8 +29876,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'was.t' => [
-          'FaCL',
-          'FtaCL'
+          'FaCL'
         ]
       },
       'index' => '1',
@@ -29737,8 +29913,7 @@ $Lexicon = {
           'HaFCAL'
         ],
         'wasa.t' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ]
       },
       'index' => '1',
@@ -30552,12 +30727,10 @@ $Lexicon = {
       ],
       'patterns' => {
         'wakn' => [
-          'FaCL',
-          'FtaCL'
+          'FaCL'
         ],
         'wakan' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ]
       },
       'index' => '1',
@@ -30936,7 +31109,11 @@ $Lexicon = {
         'AtSf    {it~aSaf        PV_intr be described;be characterized',
         'tSf     t~aSif  IV_intr be described;be characterized'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tta.sif' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -32095,8 +32272,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'wa^gab' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ]
       },
       'index' => '1',
@@ -32516,8 +32692,7 @@ $Lexicon = {
           'FaCA'
         ],
         'wahay' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ],
         'wah' => [
           'FaC'
@@ -32940,8 +33115,7 @@ $Lexicon = {
           'FCuL'
         ],
         'wazaz' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ],
         'wuzz' => [
           'FuCL'
@@ -32994,8 +33168,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'wazz' => [
-          'FaCL',
-          'FtaCL'
+          'FaCL'
         ]
       },
       'index' => '1',
@@ -33243,8 +33416,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'wa.gY' => [
-          'FaCY',
-          'FtaCY'
+          'FaCY'
         ],
         'wa.gA' => [
           'FaCA'
@@ -33398,8 +33570,7 @@ $Lexicon = {
           'HaFCAL'
         ],
         'wahaq' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ]
       },
       'index' => '1',
@@ -33605,7 +33776,11 @@ $Lexicon = {
         'Atk&    {it~aka&        PV_w    lean;recline;be supported',
         'tk}     t~aki}  IV      lean;recline;be supported'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ttaki\'' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -33671,7 +33846,12 @@ $Lexicon = {
         '<tkA\'   {it~ikA\'        NAt     resting;leaning;reclining',
         'AtkA\'   {it~ikA\'        NAt     resting;leaning;reclining'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ittikA\'' => [
+          'IFtiCAL',
+          'IFtiCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -34775,7 +34955,17 @@ $Lexicon = {
         '>thm    {ut~uhim        PV_Pass be accused',
         'thm     t~aham  IV_Pass_yu      be accused'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ttahim' => [
+          'FtaCiL'
+        ],
+        'uttuhim' => [
+          'UFtuCiL'
+        ],
+        'ttaham' => [
+          'FtaCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -34933,7 +35123,11 @@ $Lexicon = {
         '<thAm   {it~ihAm        NAt     accusations;charges',
         'AthAm   {it~ihAm        NAt     accusations;charges'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ittihAm' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -35092,8 +35286,7 @@ $Lexicon = {
           'CI'
         ],
         'wa.hay' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ],
         'w.hY' => [
           'FCY'
@@ -35578,7 +35771,11 @@ $Lexicon = {
         'AtDH    {it~aDaH        PV_intr become clear;be clarified',
         'tDH     t~aDiH  IV_intr become clear;be clarified'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tta.di.h' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -35800,7 +35997,11 @@ $Lexicon = {
         '<tDAH   {it~iDAH        N/At    clarity;manifestness',
         'AtDAH   {it~iDAH        N/At    clarity;manifestness'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'itti.dA.h' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -36481,7 +36682,11 @@ $Lexicon = {
         'Atjh    {it~ajah        PV_intr be directed;be aimed;be turned',
         'tjh     t~ajih  IV_intr be directed;be aimed;be turned'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tta^gih' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -36889,7 +37094,11 @@ $Lexicon = {
         '<tjAh   {it~ijAh        NduAt   direction;course',
         'AtjAh   {it~ijAh        NduAt   direction;course'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'itti^gAh' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -36916,7 +37125,11 @@ $Lexicon = {
         '<tjAh   {it~ijAh        NAt     views;opinions',
         'AtjAh   {it~ijAh        NAt     views;opinions'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'itti^gAh' => [
+          'IFtiCAL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
@@ -37063,7 +37276,11 @@ $Lexicon = {
         ';; mut~ajah_1',
         'mtjh    mut~ajah        NduAt   direction'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutta^gah' => [
+          'MuFtaCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFtaCaL',
@@ -37707,8 +37924,7 @@ $Lexicon = {
           'FCiL'
         ],
         'wanan' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ]
       },
       'index' => '1',
@@ -38603,8 +38819,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'wa_tab' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ]
       },
       'index' => '1',
@@ -38968,7 +39183,11 @@ $Lexicon = {
         'Atsx    {it~asax        PV_intr be polluted;be soiled',
         'tsx     t~asix  IV_intr be polluted;be soiled'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ttasi_h' => [
+          'FtaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCaL',
@@ -39416,8 +39635,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'wAw' => [
-          'FAL',
-          'FtAL'
+          'FAL'
         ]
       },
       'index' => '1',
@@ -39539,8 +39757,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'wabih' => [
-          'FaCiL',
-          'FtaCiL'
+          'FaCiL'
         ],
         'wbah' => [
           'FCaL'
@@ -40441,8 +40658,7 @@ $Lexicon = {
           'FaCA'
         ],
         'wa^say' => [
-          'FaCaL',
-          'FtaCaL'
+          'FaCaL'
         ],
         '^siy' => [
           'CI'

@@ -13551,6 +13551,13 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FACUL |< At
                            {- `others`  [ "qawAwiyn Ndip" ] -} ]
 
+ |> "q w n y" <| [
+
+    -- ;; quwniyap_1
+    -- qwny    quwniy  Nap     Konya
+
+    KuRDI |< aT               `noun`    {- quwniyap -}         [ "Konya" ] ]
+
  |> "q w q" <| [
 
     -- ;; qAq-u_1

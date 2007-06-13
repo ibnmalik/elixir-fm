@@ -5436,12 +5436,26 @@ lexicon = listing "Lexicon's properties"
 
     FUL                       `noun`    {- Tuwm -}             [ "Tom" ] ]
 
+ |> ".t w m y" <| [
+
+    -- ;; Tuwmiy_1
+    -- Twmy    Tuwmiy  Nprop   Tommy
+
+    KuRDI                     `noun`    {- Tuwmiy -}           [ "Tommy" ] ]
+
  |> ".t w n" <| [
 
     -- ;; Tuwnap_1
     -- Twn     Tuwn    Nap     Danube
 
     FUL |< aT                 `noun`    {- Tuwnap -}           [ "Danube" ] ]
+
+ |> ".t w n y" <| [
+
+    -- ;; Tuwniy_1
+    -- Twny    Tuwniy  Nprop   Tony
+
+    KuRDI                     `noun`    {- Tuwniy -}           [ "Tony" ] ]
 
  |> ".t w q" <| [
 
@@ -6133,7 +6147,7 @@ lexicon = listing "Lexicon's properties"
 
     IstaFAL                   `verb`    {- AisotaTAr -}        [ "fly apart", "scatter", "agitate" ],
 
-    -- ;; {isotaTAr_2
+    -- ;; {usotuTiyr_2
     -- <stTyr  {usotuTiyr      PV_V_intr       be terrified
     -- AstTyr  {usotuTiyr      PV_V_intr       be terrified
     -- <stTr   {usotuTir       PV_C_intr       be terrified
@@ -6141,7 +6155,7 @@ lexicon = listing "Lexicon's properties"
     -- stTAr   sotaTAr IV_V_intr       be terrified
     -- stTr    sotaTar IV_C_intr       be terrified
 
-    IstaFAL                   `noun`    {- AisotaTAr -}        [ "be terrified" ],
+    UstuFIL                   `verb`    {- AusotuTiyr -}       [ "be terrified" ],
 
     -- ;; Tayor_1
     -- Tyr     Tayor   N       bird

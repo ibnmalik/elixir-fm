@@ -577,54 +577,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'iddi_hAr' => [
-    {
-      'types' => {
-        'iddi_hAr' => {
-          'NduAt' => 2
-        }
-      },
-      'entry' => 'iddi_hAr',
-      'form' => 'iddi_hAr',
-      'lines' => [
-        ';; {id~ixAr_1',
-        '<dxAr   {id~ixAr        NduAt   storage;hoarding',
-        'AdxAr   {id~ixAr        NduAt   storage;hoarding'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'storage',
-        'hoarding'
-      ],
-      'orig' => 'Aid~ixAr',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'iddi_hAr',
-      'form' => 'iddi_hAriyy',
-      'lines' => [
-        ';; {id~ixAriy~_1',
-        '<dxAry  {id~ixAriy~     Nall    savings;storage     [[{id~ixAriy~/ADJ]]',
-        'AdxAry  {id~ixAriy~     Nall    savings;storage     [[{id~ixAriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'savings',
-        'storage'
-      ],
-      'orig' => 'Aid~ixAriy~',
-      'prefix' => ''
-    }
-  ],
   '_d m m' => [
     {
       'types' => {
@@ -1029,62 +981,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'iddakar' => [
-    {
-      'types' => {
-        'ddakir' => {
-          'IV' => 1
-        }
-      },
-      'entry' => 'iddakar',
-      'form' => 'iddakar',
-      'lines' => [
-        ';; {id~akar_1',
-        '<dkr    {id~akar        PV      remember',
-        'Adkr    {id~akar        PV      remember',
-        'dkr     d~akir  IV      remember'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'remember'
-      ],
-      'orig' => 'Aid~akar',
-      'prefix' => ''
-    }
-  ],
-  'idda_har' => [
-    {
-      'types' => {
-        'dda_hir' => {
-          'IV' => 1
-        }
-      },
-      'entry' => 'idda_har',
-      'form' => 'idda_har',
-      'lines' => [
-        ';; {id~axar_1',
-        '<dxr    {id~axar        PV      store;hoard;save',
-        'Adxr    {id~axar        PV      store;hoard;save',
-        'dxr     d~axir  IV      store;hoard;save'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'store',
-        'hoard',
-        'save'
-      ],
-      'orig' => 'Aid~axar',
-      'prefix' => ''
-    }
-  ],
   '_d k \'' => [
     {
       'types' => {},
@@ -1357,28 +1253,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mudda_hir' => [
-    {
-      'types' => {},
-      'entry' => 'mudda_hir',
-      'form' => 'mudda_hir',
-      'lines' => [
-        ';; mud~axir_1',
-        'mdxr    mud~axir        Nall    saver;savings account holder'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'saver',
-        'savings account holder'
-      ],
-      'orig' => 'mud~axir',
-      'prefix' => ''
-    }
-  ],
   '_d q n' => [
     {
       'types' => {
@@ -1456,54 +1330,6 @@ $Lexicon = {
         'vindictiveness'
       ],
       'orig' => '*aHol',
-      'prefix' => ''
-    }
-  ],
-  'ta_dkar' => [
-    {
-      'types' => {
-        'ta_dAkir' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'ta_dkar',
-      'form' => 'ta_dkaraT',
-      'lines' => [
-        ';; ta*okarap_1',
-        't*kr    ta*okar Napdu   ticket;card',
-        't*Akr   ta*Akir Ndip    tickets;cards'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'ticket',
-        'card',
-        'tickets',
-        'cards'
-      ],
-      'orig' => 'ta*okarap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_dkar',
-      'form' => 'ta_dkariyy',
-      'lines' => [
-        ';; ta*okariy~_1',
-        't*kry   ta*okariy~      Nall    ticket clerk     [[ta*okariy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'ticket clerk'
-      ],
-      'orig' => 'ta*okariy~',
       'prefix' => ''
     }
   ],
@@ -1760,6 +1586,54 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'ta_dkar' => [
+    {
+      'types' => {
+        'ta_dAkir' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'ta_dkar',
+      'form' => 'ta_dkaraT',
+      'lines' => [
+        ';; ta*okarap_1',
+        't*kr    ta*okar Napdu   ticket;card',
+        't*Akr   ta*Akir Ndip    tickets;cards'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'ticket',
+        'card',
+        'tickets',
+        'cards'
+      ],
+      'orig' => 'ta*okarap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_dkar',
+      'form' => 'ta_dkariyy',
+      'lines' => [
+        ';; ta*okariy~_1',
+        't*kry   ta*okariy~      Nall    ticket clerk     [[ta*okariy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'ticket clerk'
+      ],
+      'orig' => 'ta*okariy~',
+      'prefix' => ''
+    }
+  ],
   'li_d_alik' => [
     {
       'types' => {},
@@ -1907,6 +1781,27 @@ $Lexicon = {
         'last breath'
       ],
       'orig' => '*amA\'',
+      'prefix' => ''
+    }
+  ],
+  '_d ` f' => [
+    {
+      'types' => {},
+      'entry' => '_du`Af',
+      'form' => '_du`Af',
+      'lines' => [
+        ';; *uEAf_1',
+        '*EAf    *uEAf   N       lethal'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCAL',
+      'suffix' => '',
+      'glosses' => [
+        'lethal'
+      ],
+      'orig' => '*uEAf',
       'prefix' => ''
     }
   ],
@@ -2085,6 +1980,35 @@ $Lexicon = {
         'confer'
       ],
       'orig' => 'ta*Akar',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ddakir' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'iddakar',
+      'form' => 'iddakar',
+      'lines' => [
+        ';; {id~akar_1',
+        '<dkr    {id~akar        PV      remember',
+        'Adkr    {id~akar        PV      remember',
+        'dkr     d~akir  IV      remember'
+      ],
+      'patterns' => {
+        'ddakir' => [
+          'FtaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFtaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'remember'
+      ],
+      'orig' => 'Aid~akar',
       'prefix' => ''
     },
     {
@@ -2532,27 +2456,6 @@ $Lexicon = {
         'diary'
       ],
       'orig' => 'mu*ak~irAt',
-      'prefix' => ''
-    }
-  ],
-  '_d ` f' => [
-    {
-      'types' => {},
-      'entry' => '_du`Af',
-      'form' => '_du`Af',
-      'lines' => [
-        ';; *uEAf_1',
-        '*EAf    *uEAf   N       lethal'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCAL',
-      'suffix' => '',
-      'glosses' => [
-        'lethal'
-      ],
-      'orig' => '*uEAf',
       'prefix' => ''
     }
   ],
@@ -5878,6 +5781,37 @@ $Lexicon = {
     },
     {
       'types' => {
+        'dda_hir' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'idda_har',
+      'form' => 'idda_har',
+      'lines' => [
+        ';; {id~axar_1',
+        '<dxr    {id~axar        PV      store;hoard;save',
+        'Adxr    {id~axar        PV      store;hoard;save',
+        'dxr     d~axir  IV      store;hoard;save'
+      ],
+      'patterns' => {
+        'dda_hir' => [
+          'FtaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFtaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'store',
+        'hoard',
+        'save'
+      ],
+      'orig' => 'Aid~axar',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '\'a_d_hAr' => {
           'N' => 2
         }
@@ -5930,6 +5864,56 @@ $Lexicon = {
         'provisions'
       ],
       'orig' => '*axiyrap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'iddi_hAr' => {
+          'NduAt' => 2
+        }
+      },
+      'entry' => 'iddi_hAr',
+      'form' => 'iddi_hAr',
+      'lines' => [
+        ';; {id~ixAr_1',
+        '<dxAr   {id~ixAr        NduAt   storage;hoarding',
+        'AdxAr   {id~ixAr        NduAt   storage;hoarding'
+      ],
+      'patterns' => {
+        'iddi_hAr' => [
+          'IFtiCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IFtiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'storage',
+        'hoarding'
+      ],
+      'orig' => 'Aid~ixAr',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'iddi_hAr',
+      'form' => 'iddi_hAriyy',
+      'lines' => [
+        ';; {id~ixAriy~_1',
+        '<dxAry  {id~ixAriy~     Nall    savings;storage     [[{id~ixAriy~/ADJ]]',
+        'AdxAry  {id~ixAriy~     Nall    savings;storage     [[{id~ixAriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'IFtiCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'savings',
+        'storage'
+      ],
+      'orig' => 'Aid~ixAriy~',
       'prefix' => ''
     },
     {
@@ -6001,6 +5985,26 @@ $Lexicon = {
         'supplies'
       ],
       'orig' => 'mu*ax~ar',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mudda_hir',
+      'form' => 'mudda_hir',
+      'lines' => [
+        ';; mud~axir_1',
+        'mdxr    mud~axir        Nall    saver;savings account holder'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFtaCiL',
+      'suffix' => '',
+      'glosses' => [
+        'saver',
+        'savings account holder'
+      ],
+      'orig' => 'mud~axir',
       'prefix' => ''
     }
   ],
@@ -6105,6 +6109,28 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => '*A}id',
+      'prefix' => ''
+    }
+  ],
+  'h_aka_dA' => [
+    {
+      'types' => {},
+      'entry' => 'h_aka_dA',
+      'form' => 'h_aka_dA',
+      'lines' => [
+        ';; h`ka*A_1',
+        'hk*A    h`ka*A  FW-Wa   thus;as such     [[h`ka*A/CONJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'conj',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'thus',
+        'as such'
+      ],
+      'orig' => 'h`ka*A',
       'prefix' => ''
     }
   ],
@@ -6314,68 +6340,6 @@ $Lexicon = {
         'announcer'
       ],
       'orig' => 'mu*iyE',
-      'prefix' => ''
-    }
-  ],
-  'h_aka_dA' => [
-    {
-      'types' => {},
-      'entry' => 'h_aka_dA',
-      'form' => 'h_aka_dA',
-      'lines' => [
-        ';; h`ka*A_1',
-        'hk*A    h`ka*A  FW-Wa   thus;as such     [[h`ka*A/CONJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'conj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'thus',
-        'as such'
-      ],
-      'orig' => 'h`ka*A',
-      'prefix' => ''
-    }
-  ],
-  '_d w l q' => [
-    {
-      'types' => {},
-      'entry' => '_dawlaq',
-      'form' => '_dawlaq',
-      'lines' => [
-        ';; *awolaq_1',
-        '*wlq    *awolaq N       tip of the tongue'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'tip of the tongue'
-      ],
-      'orig' => '*awolaq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_dawlaq',
-      'form' => '_dawlaqiyy',
-      'lines' => [
-        ';; *awolaqiy~_1',
-        '*wlqy   *awolaqiy~      N-ap    apical (with tip of the tongue)    [[*awolaqiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KaRDaS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'apical (with tip of the tongue)'
-      ],
-      'orig' => '*awolaqiy~',
       'prefix' => ''
     }
   ],
@@ -6751,6 +6715,46 @@ $Lexicon = {
         'disgraceful'
       ],
       'orig' => 'mu*il~',
+      'prefix' => ''
+    }
+  ],
+  '_d w l q' => [
+    {
+      'types' => {},
+      'entry' => '_dawlaq',
+      'form' => '_dawlaq',
+      'lines' => [
+        ';; *awolaq_1',
+        '*wlq    *awolaq N       tip of the tongue'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'tip of the tongue'
+      ],
+      'orig' => '*awolaq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_dawlaq',
+      'form' => '_dawlaqiyy',
+      'lines' => [
+        ';; *awolaqiy~_1',
+        '*wlqy   *awolaqiy~      N-ap    apical (with tip of the tongue)    [[*awolaqiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KaRDaS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'apical (with tip of the tongue)'
+      ],
+      'orig' => '*awolaqiy~',
       'prefix' => ''
     }
   ],

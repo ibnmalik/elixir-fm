@@ -35,7 +35,14 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- \*axar-a -}         [ "preserve", "store" ]
                               `imperf`     FCaL,
 
-    FaCIL |< aT               `noun`    {- \*axiyrap -}        [ "ammunition", "treasure", "provisions" ] ]
+    IFtaCaL                   `verb`    {- Aid~axar -}         [ "store", "hoard", "save" ],
+
+    FaCIL |< aT               `noun`    {- \*axiyrap -}        [ "ammunition", "treasure", "provisions" ],
+
+    IFtiCAL                   `noun`    {- Aid~ixAr -}         [ "storage", "hoarding" ]
+                              `plural`     IFtiCAL |< At,
+
+    IFtiCAL |< Iy             `adj`     {- Aid~ixAriy~ -}      [ "savings", "storage" ] ]
 
  |> "_d ` n" <| [
 
@@ -323,16 +330,6 @@ lexicon = listing "Lexicon's properties"
  |> "h_aka_dA" <| [
 
     Identity                  `conj`    {- h`ka*A -}           [ "thus", "as such" ] ]
-
- |> "idda_har" <| [
-
-    Identity                  `verb`    {- Aid~axar -}         [ "store", "hoard", "save" ] ]
-
- |> "iddi_hAr" <| [
-
-    Identity                  `noun`    {- Aid~ixAr -}         [ "storage", "hoarding" ],
-
-    Identity |< Iy            `adj`     {- Aid~ixAriy~ -}      [ "savings", "storage" ] ]
 
  |> "ka_dA" <| [
 

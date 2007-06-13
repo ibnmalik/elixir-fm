@@ -2983,6 +2983,35 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        '.z.zalim' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'i.z.zalam',
+      'form' => 'i.z.zalam',
+      'lines' => [
+        ';; {iZ~alam_1',
+        '<Zlm    {iZ~alam        PV_intr be wronged',
+        'AZlm    {iZ~alam        PV_intr be wronged',
+        'Zlm     Z~alim  IV_intr be wronged'
+      ],
+      'patterns' => {
+        '.z.zalim' => [
+          'FtaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFtaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be wronged'
+      ],
+      'orig' => 'AiZ~alam',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => '.zulm',
       'form' => '.zulm',
@@ -3325,33 +3354,6 @@ $Lexicon = {
         'gloomy'
       ],
       'orig' => 'muZolim',
-      'prefix' => ''
-    }
-  ],
-  'i.z.zalam' => [
-    {
-      'types' => {
-        '.z.zalim' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'i.z.zalam',
-      'form' => 'i.z.zalam',
-      'lines' => [
-        ';; {iZ~alam_1',
-        '<Zlm    {iZ~alam        PV_intr be wronged',
-        'AZlm    {iZ~alam        PV_intr be wronged',
-        'Zlm     Z~alim  IV_intr be wronged'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be wronged'
-      ],
-      'orig' => 'AiZ~alam',
       'prefix' => ''
     }
   ],

@@ -6990,6 +6990,13 @@ lexicon = listing "Lexicon's properties"
 
     KuRDIS                    `noun`    {- duwdiyk -}          [ "Dodik" ] ]
 
+ |> "d w d y" <| [
+
+    -- ;; duwdiy_1
+    -- dwdy    duwdiy  Nprop   Dodi
+
+    KuRDI                     `noun`    {- duwdiy -}           [ "Dodi" ] ]
+
  |> "d w f" <| [
 
     -- ;; dAf-u_1
@@ -9346,13 +9353,6 @@ lexicon = listing "Lexicon's properties"
     -- dwblyr  duwbliyr        N/ap    double;substitute
 
     Identity                  `noun`    {- duwbliyr -}         [ "double", "substitute" ] ]
-
- |> "duwdiy" <| [
-
-    -- ;; duwdiy_1
-    -- dwdy    duwdiy  Nprop   Dodi
-
-    Identity                  `noun`    {- duwdiy -}           [ "Dodi" ] ]
 
  |> "duwfdiyfAn" <| [
 

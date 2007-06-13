@@ -1651,6 +1651,14 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCaL                   `verb`    {- Ait~axa* -}         [ "take", "adopt" ],
 
+    -- ;; {ut~uxi*_1
+    -- Atx*    {ut~uxi*        PV_Pass be taken;be adopted
+    -- >tx*    {ut~uxi*        PV_Pass be taken;be adopted
+    -- <tx*    {ut~uxi*        PV_Pass be taken;be adopted
+    -- tx*     t~axa*  IV_Pass_yu      be taken;be adopted
+
+    UFtuCiL                   `verb`    {- Aut~uxi* -}         [ "be taken", "be adopted" ],
+
     -- ;; >axo*_1
     -- >x*     >axo*   N       seizure;taking
     -- Ax*     >axo*   N       seizure;taking
@@ -10377,6 +10385,24 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACiL
                            {- `others`  [ "ma'Awib Ndip" ] -} ]
 
+ |> "' w b b" <| [
+
+    -- ;; >uwbib_1
+    -- >wbb    >uwbib  N       OPEP (French for OPEC)
+    -- Awbb    >uwbib  N       OPEP (French for OPEC)
+
+    KuRDiS                    `noun`    {- Ouwbib -}           [ "OPEP (French for OPEC)" ] ]
+
+ |> "' w b k" <| [
+
+    -- ;; >uwbik_1
+    -- >wbk    >uwbik  N       OPEC
+    -- Awbk    >uwbik  N       OPEC
+    -- >wbyk   >uwbiyk N       OPEC
+    -- Awbyk   >uwbiyk N       OPEC
+
+    KuRDiS                    `noun`    {- Ouwbik -}           [ "OPEC" ] ]
+
  |> "' w d" <| [
 
     -- ;; |d-u_1
@@ -10987,7 +11013,13 @@ lexicon = listing "Lexicon's properties"
     -- >wtw    >uwtuw  Nprop   Otto
     -- Awtw    >uwtuw  Nprop   Otto
 
-    KuRDU                     `noun`    {- Ouwtuw -}           [ "Otto" ] ]
+    KuRDU                     `noun`    {- Ouwtuw -}           [ "Otto" ],
+
+    -- ;; >uwtiy_1
+    -- >wty    >uwtiy  Nprop   Ottey
+    -- Awty    >uwtiy  Nprop   Ottey
+
+    KuRDI                     `noun`    {- Ouwtiy -}           [ "Ottey" ] ]
 
  |> "' w y" <| [
 
@@ -17703,17 +17735,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- maOodubap -}        [ "banquet", "reception", "banquets", "receptions" ] ]
 
- |> "muwAtiy" <| [
-
-    -- ;; muwAtiy_1
-    -- mwAty   muwAtiy N0F_Nh  pleasing;suitable
-    -- mwAt    muwAt   NK      pleasing;suitable
-    -- mwAty   muwAtiy NAn_Nayn        pleasing;suitable
-    -- mwAt    muwAt   Nuwn_Niyn       pleasing;suitable
-    -- mwAty   muwAtiy NapAt   pleasing;suitable
-
-    Identity                  `noun`    {- muwAtiy -}          [ "pleasing", "suitable" ] ]
-
  |> "riy.hAwiyy" <| [
 
     -- ;; riyHAwiy~_1
@@ -17770,36 +17791,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- taOonAn -}          [ "moaning", "sighing" ] ]
 
- |> "uttu_hi_d" <| [
-
-    -- ;; {ut~uxi*_1
-    -- Atx*    {ut~uxi*        PV_Pass be taken;be adopted
-    -- >tx*    {ut~uxi*        PV_Pass be taken;be adopted
-    -- <tx*    {ut~uxi*        PV_Pass be taken;be adopted
-    -- tx*     t~axa*  IV_Pass_yu      be taken;be adopted
-
-    Identity                  `verb`    {- Aut~uxi* -}         [ "be taken", "be adopted" ] ]
-
  |> "uwnduw" <| [
 
     -- ;; Auwnoduw_1
     -- Awndw   Auwnoduw        Nprop   Ondo
 
     Identity                  `noun`    {- Auwnoduw -}         [ "Ondo" ] ]
-
- |> "wAtY" <| [
-
-    -- ;; wAtaY_1
-    -- wAtY    wAtaY   PV_0    be favorable;be satisfying
-    -- wAtA    wAtA    PV_h    be favorable;be satisfying
-    -- wAty    wAtay   PV_Atn  be favorable;be satisfying
-    -- wAt     wAt     PV_ttAw_intr    be favorable;be satisfying
-    -- wAty    wAtiy   IV_0hAnn_yu     be favorable;be satisfying
-    -- wAt     wAt     IV_0hwnyn_yu    be favorable;be satisfying
-    -- wAtY    wAtaY   IV_0_Pass_yu    be favorable;be satisfying
-    -- wAty    wAtay   IV_Ann_Pass_yu  be favorable;be satisfying
-
-    Identity                  `verb`    {- wAtaY -}            [ "be favorable", "be satisfying" ] ]
 
  |> "wa'in" <| [
 

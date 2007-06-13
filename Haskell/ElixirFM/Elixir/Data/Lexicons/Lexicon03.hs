@@ -425,9 +425,28 @@ lexicon = listing "Lexicon's properties"
 
     KuRDAS                    `noun`    {- tuwmAs -}           [ "Thomas", "Tomas" ] ]
 
+ |> "t w m y" <| [
+
+    KuRDI                     `noun`    {- tuwmiy -}           [ "Tommy" ] ]
+
  |> "t w n" <| [
 
     FACL                      `noun`    {- tAwn -}             [ "Town" ] ]
+
+ |> "t w n s" <| [
+
+    KuRDiS                    `noun`    {- tuwnis -}           [ "Tunis" ],
+
+    KuRDiS                    `noun`    {- tuwnis -}           [ "Tunisia" ],
+
+    KuRDiS |< Iy              `adj`     {- tuwnisiy~ -}        [ "Tunisian", "Tunisians" ]
+                              `plural`     KaRADiS |< aT ]
+
+ |> "t w n y" <| [
+
+    KuRDI                     `noun`    {- tuwniy -}           [ "Toni" ],
+
+    KuRDI                     `noun`    {- tuwniy -}           [ "Toni" ] ]
 
  |> "t w q" <| [
 
@@ -665,14 +684,6 @@ lexicon = listing "Lexicon's properties"
  |> "tuwbA.guw" <| [
 
     Identity                  `noun`    {- tuwbAguw -}         [ "Tobago" ] ]
-
- |> "tuwnis" <| [
-
-    Identity                  `noun`    {- tuwnis -}           [ "Tunis" ],
-
-    Identity                  `noun`    {- tuwnis -}           [ "Tunisia" ],
-
-    Identity |< Iy            `adj`     {- tuwnisiy~ -}        [ "Tunisian", "Tunisians" ] ]
 
  |> "tuwruwntuw" <| [
 

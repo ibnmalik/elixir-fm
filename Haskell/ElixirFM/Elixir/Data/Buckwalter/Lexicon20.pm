@@ -1082,6 +1082,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'f w ^g y' => [
+    {
+      'types' => {},
+      'entry' => 'fuw^giy',
+      'form' => 'fuw^giy',
+      'lines' => [
+        ';; fuwjiy_1',
+        'fwjy    fuwjiy  Nprop   Fuji'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Fuji'
+      ],
+      'orig' => 'fuwjiy',
+      'prefix' => ''
+    }
+  ],
   'fuwks' => [
     {
       'types' => {},
@@ -19620,6 +19641,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'f w k y' => [
+    {
+      'types' => {},
+      'entry' => 'fuwkiy',
+      'form' => 'fuwkiy',
+      'lines' => [
+        ';; fuwkiy_1',
+        'fwky    fuwkiy  Nprop   Fuki'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Fuki'
+      ],
+      'orig' => 'fuwkiy',
+      'prefix' => ''
+    }
+  ],
   'f n .t' => [
     {
       'types' => {
@@ -20338,27 +20380,6 @@ $Lexicon = {
         'Freemason'
       ],
       'orig' => 'friymasun',
-      'prefix' => ''
-    }
-  ],
-  'f ^g y' => [
-    {
-      'types' => {},
-      'entry' => 'fuw^giy',
-      'form' => 'fuw^giy',
-      'lines' => [
-        ';; fuwjiy_1',
-        'fwjy    fuwjiy  Nprop   Fuji'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCI',
-      'suffix' => '',
-      'glosses' => [
-        'Fuji'
-      ],
-      'orig' => 'fuwjiy',
       'prefix' => ''
     }
   ],
@@ -24269,6 +24290,9 @@ $Lexicon = {
         'stfd    sotafad IV_C_Pass_yu    be benefited from;be made use of'
       ],
       'patterns' => {
+        'ustufiyd' => [
+          'UstuFIL'
+        ],
         'istafad' => [
           'IstaFaL'
         ]
@@ -30966,6 +30990,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'f w l r' => [
+    {
+      'types' => {},
+      'entry' => 'fuwlir',
+      'form' => 'fuwlir',
+      'lines' => [
+        ';; fuwlir_1',
+        'fwlr    fuwlir  Nprop   Voeller;Fuller'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'Voeller',
+        'Fuller'
+      ],
+      'orig' => 'fuwlir',
+      'prefix' => ''
+    }
+  ],
   'f .s l' => [
     {
       'types' => {
@@ -32516,6 +32562,9 @@ $Lexicon = {
         ],
         'ftati.h' => [
           'FtaCiL'
+        ],
+        'uftuti.h' => [
+          'UFtuCiL'
         ]
       },
       'index' => '1',
@@ -38263,6 +38312,9 @@ $Lexicon = {
       'patterns' => {
         'fta\'it' => [
           'FtaCiL'
+        ],
+        'uftu\'it' => [
+          'UFtuCiL'
         ]
       },
       'index' => '1',
@@ -40776,28 +40828,6 @@ $Lexicon = {
         'photography'
       ],
       'orig' => 'fuwtuwgrAfiyA',
-      'prefix' => ''
-    }
-  ],
-  'fuwlir' => [
-    {
-      'types' => {},
-      'entry' => 'fuwlir',
-      'form' => 'fuwlir',
-      'lines' => [
-        ';; fuwlir_1',
-        'fwlr    fuwlir  Nprop   Voeller;Fuller'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Voeller',
-        'Fuller'
-      ],
-      'orig' => 'fuwlir',
       'prefix' => ''
     }
   ],
@@ -45496,27 +45526,6 @@ $Lexicon = {
         'exhalation'
       ],
       'orig' => 'fawaHAn',
-      'prefix' => ''
-    }
-  ],
-  'f k y' => [
-    {
-      'types' => {},
-      'entry' => 'fuwkiy',
-      'form' => 'fuwkiy',
-      'lines' => [
-        ';; fuwkiy_1',
-        'fwky    fuwkiy  Nprop   Fuki'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCI',
-      'suffix' => '',
-      'glosses' => [
-        'Fuki'
-      ],
-      'orig' => 'fuwkiy',
       'prefix' => ''
     }
   ],

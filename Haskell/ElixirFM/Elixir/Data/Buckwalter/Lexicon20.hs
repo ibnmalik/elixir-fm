@@ -2639,13 +2639,6 @@ lexicon = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- fijA' -}            [ "openings", "breaches", "gaps" ] ]
 
- |> "f ^g y" <| [
-
-    -- ;; fuwjiy_1
-    -- fwjy    fuwjiy  Nprop   Fuji
-
-    FUCI                      `noun`    {- fuwjiy -}           [ "Fuji" ] ]
-
  |> "f ^s '" <| [
 
     -- ;; <ifo$A'_1
@@ -4392,13 +4385,6 @@ lexicon = listing "Lexicon's properties"
     -- fAks    fAkis   N0      fax;fax machine
 
     FACiL                     `noun`    {- fAkis -}            [ "fax", "fax machine" ] ]
-
- |> "f k y" <| [
-
-    -- ;; fuwkiy_1
-    -- fwky    fuwkiy  Nprop   Fuki
-
-    FUCI                      `noun`    {- fuwkiy -}           [ "Fuki" ] ]
 
  |> "f l ' k" <| [
 
@@ -10278,6 +10264,13 @@ lexicon = listing "Lexicon's properties"
 
     HaFCAL                    `adv`     {- OafowAj -}          [ "in droves", "en masse" ] ]
 
+ |> "f w ^g y" <| [
+
+    -- ;; fuwjiy_1
+    -- fwjy    fuwjiy  Nprop   Fuji
+
+    KuRDI                     `noun`    {- fuwjiy -}           [ "Fuji" ] ]
+
  |> "f w `" <| [
 
     -- ;; fawoEap_1
@@ -10371,6 +10364,13 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL                  `adj`     {- mufaw~ah -}         [ "eloquent" ] ]
 
+ |> "f w k y" <| [
+
+    -- ;; fuwkiy_1
+    -- fwky    fuwkiy  Nprop   Fuki
+
+    KuRDI                     `noun`    {- fuwkiy -}           [ "Fuki" ] ]
+
  |> "f w l" <| [
 
     -- ;; fuwl_1
@@ -10410,6 +10410,13 @@ lexicon = listing "Lexicon's properties"
     -- fwlyk   fuwliyk N0      folic
 
     KuRDIS                    `noun`    {- fuwliyk -}          [ "folic" ] ]
+
+ |> "f w l r" <| [
+
+    -- ;; fuwlir_1
+    -- fwlr    fuwlir  Nprop   Voeller;Fuller
+
+    KuRDiS                    `noun`    {- fuwlir -}           [ "Voeller", "Fuller" ] ]
 
  |> "f w m" <| [
 
@@ -12999,13 +13006,6 @@ lexicon = listing "Lexicon's properties"
     -- fwlfw   fuwlofuw        Nprop   Volvo
 
     Identity                  `noun`    {- fuwlofuw -}         [ "Volvo" ] ]
-
- |> "fuwlir" <| [
-
-    -- ;; fuwlir_1
-    -- fwlr    fuwlir  Nprop   Voeller;Fuller
-
-    Identity                  `noun`    {- fuwlir -}           [ "Voeller", "Fuller" ] ]
 
  |> "fuwlkluwr" <| [
 

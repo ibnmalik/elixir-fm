@@ -10874,6 +10874,13 @@ lexicon = listing "Lexicon's properties"
 
     MustaFCaL                 `adj`     {- musotaHosan -}      [ "pleasant", "approved" ] ]
 
+ |> ".h s n y" <| [
+
+    -- ;; Husoniy_1
+    -- Hsny    Husoniy Nprop   Hosny;Hosni
+
+    KuRDI                     `noun`    {- Husoniy -}          [ "Hosny", "Hosni" ] ]
+
  |> ".h s r" <| [
 
     -- ;; Hasar-ui_1
@@ -14309,13 +14316,6 @@ lexicon = listing "Lexicon's properties"
     -- HmS     Hum~uS  N0      Hummus;Homos
 
     Identity                  `noun`    {- Hum~uS -}           [ "Hummus", "Homos" ] ]
-
- |> ".husniy" <| [
-
-    -- ;; Husoniy_1
-    -- Hsny    Husoniy Nprop   Hosny;Hosni
-
-    Identity                  `noun`    {- Husoniy -}          [ "Hosny", "Hosni" ] ]
 
  |> ".huway.sil" <| [
 

@@ -9082,6 +9082,16 @@ lexicon = listing "Lexicon's properties"
 
     KaRDaS                    `noun`    {- barogar -}          [ "Berger", "Burger" ] ]
 
+ |> "b r .g y" <| [
+
+    -- ;; burogiy_1
+    -- brgy    burogiy Ndu     screw
+    -- brAgy   barAgiy N0_Nh   screws
+
+    KuRDI                     `noun`    {- burogiy -}          [ "screw", "screws" ]
+                              `plural`     KaRADI
+                           {- `others`  [ "barA.giy N0_Nh" ] -} ]
+
  |> "b r .h" <| [
 
     -- ;; bariH-a_1
@@ -12121,6 +12131,13 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                            {- `others`  [ "'abwA^s N" ] -} ]
 
+ |> "b w ^s r" <| [
+
+    -- ;; buw$ir_1
+    -- bw$r    buw$ir  Nprop   Boucher
+
+    KuRDiS                    `noun`    {- buw$ir -}           [ "Boucher" ] ]
+
  |> "b w _d" <| [
 
     -- ;; buw*iy~_1
@@ -12494,6 +12511,13 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FUL
                            {- `others`  [ "buwn N" ] -} ]
 
+ |> "b w n y" <| [
+
+    -- ;; buwniy_1
+    -- bwny    buwniy  Nprop   Boni
+
+    KuRDI                     `noun`    {- buwniy -}           [ "Boni" ] ]
+
  |> "b w q" <| [
 
     -- ;; baw~aq_1
@@ -12638,6 +12662,13 @@ lexicon = listing "Lexicon's properties"
 
     KuRDIS                    `noun`    {- buwriys -}          [ "Boris" ] ]
 
+ |> "b w r y" <| [
+
+    -- ;; buwriy_1
+    -- bwry    buwriy  N/At    bugle;signal horn
+
+    KuRDI                     `noun`    {- buwriy -}           [ "bugle", "signal horn" ] ]
+
  |> "b w s" <| [
 
     -- ;; bAs-u_1
@@ -12701,7 +12732,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwtuw_1
     -- bwtw    buwtuw  Nprop   Bhutto
 
-    KuRDU                     `noun`    {- buwtuw -}           [ "Bhutto" ] ]
+    KuRDU                     `noun`    {- buwtuw -}           [ "Bhutto" ],
+
+    -- ;; buwtiy_1
+    -- bwty    buwtiy  Nprop   Petit
+
+    KuRDI                     `noun`    {- buwtiy -}           [ "Petit" ] ]
 
  |> "b w y" <| [
 
@@ -12955,6 +12991,13 @@ lexicon = listing "Lexicon's properties"
     FAL                       `verb`    {- bAE-i -}            [ "sell" ]
                               `imperf`     FIL
                               `pfirst`     FiL,
+
+    -- ;; biyE_1
+    -- byE     biyE    PV_V_Pass       be sold
+    -- bAE     bAE     IV_V_Pass_yu    be sold
+    -- bE      baE     IV_C_Pass_yu    be sold
+
+    FIL                       `verb`    {- biyE -}             [ "be sold" ],
 
     -- ;; bAyaE_1
     -- bAyE    bAyaE   PV      pledge allegiance to;recognize as leader
@@ -16568,14 +16611,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- bunoduqAniy~ -}     [ "Venetian" ] ]
 
- |> "bur.giy" <| [
-
-    -- ;; burogiy_1
-    -- brgy    burogiy Ndu     screw
-    -- brAgy   barAgiy N0_Nh   screws
-
-    Identity                  `noun`    {- burogiy -}          [ "screw", "screws" ] ]
-
  |> "bur^sAm^g" <| [
 
     -- ;; buro$Amojiy~_1
@@ -16676,13 +16711,6 @@ lexicon = listing "Lexicon's properties"
     -- bw$Eyb  buw$aEiyb       Nprop   Bouchaib
 
     Identity                  `noun`    {- buw$aEiyb -}        [ "Bouchaib" ] ]
-
- |> "buw^sir" <| [
-
-    -- ;; buw$ir_1
-    -- bw$r    buw$ir  Nprop   Boucher
-
-    Identity                  `noun`    {- buw$ir -}           [ "Boucher" ] ]
 
  |> "buw^skA^s" <| [
 
@@ -17188,15 +17216,6 @@ lexicon = listing "Lexicon's properties"
     -- byDwn   byDwn   Nprop   Baidun;Baidoun
 
     Identity                  `noun`    {- byDwn -}            [ "Baidun", "Baidoun" ] ]
-
- |> "by`" <| [
-
-    -- ;; byE_1
-    -- byE     byE     PV_V_Pass       be sold
-    -- bAE     bAE     IV_V_Pass_yu    be sold
-    -- bE      baE     IV_C_Pass_yu    be sold
-
-    Identity                  `verb`    {- byE -}              [ "be sold" ] ]
 
  |> "bylyn" <| [
 

@@ -1602,13 +1602,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCA'
                            {- `others`  [ "'ahbA' Nh N0_Nh Nhy" ] -} ]
 
- |> "h b y" <| [
-
-    -- ;; huwbiy_1
-    -- hwby    huwbiy  Nprop   Hobby
-
-    FUCI                      `noun`    {- huwbiy -}           [ "Hobby" ] ]
-
  |> "h d '" <| [
 
     -- ;; hada>-a_1
@@ -5318,6 +5311,13 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCiL                  `noun`    {- muhaw~i$ -}         [ "agitator", "trouble-maker" ] ]
 
+ |> "h w ^s y" <| [
+
+    -- ;; huw$iy_1
+    -- hw$y    huw$iy  Nprop   Ho Chi
+
+    KuRDI                     `noun`    {- huw$iy -}           [ "Ho Chi" ] ]
+
  |> "h w `" <| [
 
     -- ;; hAE-ua_1
@@ -5357,6 +5357,13 @@ lexicon = listing "Lexicon's properties"
     -- hwbyr   huwbiyr Nprop   Hubert
 
     KuRDIS                    `noun`    {- huwbiyr -}          [ "Hubert" ] ]
+
+ |> "h w b y" <| [
+
+    -- ;; huwbiy_1
+    -- hwby    huwbiy  Nprop   Hobby
+
+    KuRDI                     `noun`    {- huwbiy -}           [ "Hobby" ] ]
 
  |> "h w d" <| [
 
@@ -5446,6 +5453,13 @@ lexicon = listing "Lexicon's properties"
     -- hwk     huwk    Nprop   Hawk
 
     FUL                       `noun`    {- huwk -}             [ "Hawk" ] ]
+
+ |> "h w k y" <| [
+
+    -- ;; huwkiy_1
+    -- hwky    huwkiy  N0      hockey
+
+    KuRDI                     `noun`    {- huwkiy -}           [ "hockey" ] ]
 
  |> "h w l" <| [
 

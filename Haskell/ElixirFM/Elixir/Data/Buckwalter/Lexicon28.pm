@@ -107,28 +107,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'y r y' => [
-    {
-      'types' => {},
-      'entry' => 'yuwriy',
-      'form' => 'yuwriy',
-      'lines' => [
-        ';; yuwriy_1',
-        'ywry    yuwriy  Nprop   Youri;Yuri'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCI',
-      'suffix' => '',
-      'glosses' => [
-        'Youri',
-        'Yuri'
-      ],
-      'orig' => 'yuwriy',
-      'prefix' => ''
-    }
-  ],
   'y z l' => [
     {
       'types' => {},
@@ -191,6 +169,26 @@ $Lexicon = {
       ],
       'orig' => 'yuwsuw',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yuwsiy',
+      'form' => 'yuwsiy',
+      'lines' => [
+        ';; yuwsiy_1',
+        'ywsy    yuwsiy  Nprop   Yosi;Yossi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Yosi',
+        'Yossi'
+      ],
+      'orig' => 'yuwsiy',
+      'prefix' => ''
     }
   ],
   'y w r w' => [
@@ -211,6 +209,29 @@ $Lexicon = {
         'Euro'
       ],
       'orig' => 'yuwruw',
+      'prefix' => ''
+    }
+  ],
+  'y w n s' => [
+    {
+      'types' => {},
+      'entry' => 'yuwnis',
+      'form' => 'yuwnis',
+      'lines' => [
+        ';; yuwnis_1',
+        'ywns    yuwnis  Nprop   Yunis;Younis;Jonah'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'Yunis',
+        'Younis',
+        'Jonah'
+      ],
+      'orig' => 'yuwnis',
       'prefix' => ''
     }
   ],
@@ -384,28 +405,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yusriy' => [
-    {
-      'types' => {},
-      'entry' => 'yusriy',
-      'form' => 'yusriy',
-      'lines' => [
-        ';; yusoriy_1',
-        'ysry    yusoriy Nprop   Yusri;Yosri'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Yusri',
-        'Yosri'
-      ],
-      'orig' => 'yusoriy',
-      'prefix' => ''
-    }
-  ],
   'y ^s b' => [
     {
       'types' => {},
@@ -450,29 +449,6 @@ $Lexicon = {
         'you'
       ],
       'orig' => 'yA',
-      'prefix' => ''
-    }
-  ],
-  'yuwsif' => [
-    {
-      'types' => {},
-      'entry' => 'yuwsif',
-      'form' => 'yuwsif',
-      'lines' => [
-        ';; yuwsif_1',
-        'ywsf    yuwsif  N0      Yousif;Yusif;Joseph'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Yousif',
-        'Yusif',
-        'Joseph'
-      ],
-      'orig' => 'yuwsif',
       'prefix' => ''
     }
   ],
@@ -666,6 +642,28 @@ $Lexicon = {
         'yogurt'
       ],
       'orig' => 'yuwguwrot',
+      'prefix' => ''
+    }
+  ],
+  'y s r y' => [
+    {
+      'types' => {},
+      'entry' => 'yusriy',
+      'form' => 'yusriy',
+      'lines' => [
+        ';; yusoriy_1',
+        'ysry    yusoriy Nprop   Yusri;Yosri'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Yusri',
+        'Yosri'
+      ],
+      'orig' => 'yusoriy',
       'prefix' => ''
     }
   ],
@@ -3306,29 +3304,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yuwnis' => [
-    {
-      'types' => {},
-      'entry' => 'yuwnis',
-      'form' => 'yuwnis',
-      'lines' => [
-        ';; yuwnis_1',
-        'ywns    yuwnis  Nprop   Yunis;Younis;Jonah'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Yunis',
-        'Younis',
-        'Jonah'
-      ],
-      'orig' => 'yuwnis',
-      'prefix' => ''
-    }
-  ],
   'y f _h' => [
     {
       'types' => {
@@ -4942,19 +4917,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'yuwsiy',
       'form' => 'yuwsiy',
-      'lines' => [
-        ';; yuwsiy_1',
-        'ywsy    yuwsiy  Nprop   Yosi;Yossi'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FUCI',
       'suffix' => '',
-      'glosses' => [
-        'Yosi',
-        'Yossi'
-      ],
+      'glosses' => [],
       'orig' => 'yuwsiy',
       'prefix' => ''
     }
@@ -5113,6 +5082,27 @@ $Lexicon = {
     }
   ],
   'y w s f' => [
+    {
+      'types' => {},
+      'entry' => 'yuwsif',
+      'form' => 'yuwsif',
+      'lines' => [
+        ';; yuwsif_1',
+        'ywsf    yuwsif  N0      Yousif;Yusif;Joseph'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'Yousif',
+        'Yusif',
+        'Joseph'
+      ],
+      'orig' => 'yuwsif',
+      'prefix' => ''
+    },
     {
       'types' => {},
       'entry' => 'yuwsuf',
@@ -5605,6 +5595,28 @@ $Lexicon = {
         'Iompelgas ??'
       ],
       'orig' => 'ywmblgAz',
+      'prefix' => ''
+    }
+  ],
+  'y w r y' => [
+    {
+      'types' => {},
+      'entry' => 'yuwriy',
+      'form' => 'yuwriy',
+      'lines' => [
+        ';; yuwriy_1',
+        'ywry    yuwriy  Nprop   Youri;Yuri'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Youri',
+        'Yuri'
+      ],
+      'orig' => 'yuwriy',
       'prefix' => ''
     }
   ],
@@ -6601,6 +6613,9 @@ $Lexicon = {
     }
   ]
 };
+$Lexicon->{'y s y'}[0]{'types'} = $Lexicon->{'y w s y'}[1]{'types'};
+$Lexicon->{'y s y'}[0]{'lines'} = $Lexicon->{'y w s y'}[1]{'lines'};
+$Lexicon->{'y s y'}[0]{'glosses'} = $Lexicon->{'y w s y'}[1]{'glosses'};
 $Lexicon->{'y d d'}[0]{'types'} = $Lexicon->{'y d y'}[0]{'types'};
 $Lexicon->{'y d d'}[0]{'lines'} = $Lexicon->{'y d y'}[0]{'lines'};
 $Lexicon->{'y d d'}[0]{'glosses'} = $Lexicon->{'y d y'}[0]{'glosses'};

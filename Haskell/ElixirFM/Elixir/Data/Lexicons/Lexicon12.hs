@@ -1354,10 +1354,6 @@ lexicon = listing "Lexicon's properties"
 
     FaC |<< "awIy"            `adj`     {- sanawiy~ -}         [ "yearly", "annual", "annually", "per annum" ] ]
 
- |> "s n y" <| [
-
-    FUCI                      `noun`    {- suwniy -}           [ "Sony" ] ]
-
  |> "s n y r" <| [
 
     KiRDUS                    `noun`    {- sinoyuwr -}         [ "Senor", "Senora" ] ]
@@ -1775,6 +1771,14 @@ lexicon = listing "Lexicon's properties"
     FACaL                     `verb`    {- sAwam -}            [ "bargain", "haggle" ],
 
     MuFACaL |< aT             `noun`    {- musAwamap -}        [ "bargaining", "haggling" ] ]
+
+ |> "s w m r" <| [
+
+    KuRDiS |< Iy              `adj`     {- suwmiriy~ -}        [ "Sumerian" ] ]
+
+ |> "s w n y" <| [
+
+    KuRDI                     `noun`    {- suwniy -}           [ "Sony" ] ]
 
  |> "s w q" <| [
 
@@ -2318,10 +2322,6 @@ lexicon = listing "Lexicon's properties"
  |> "suwlAwiysiy" <| [
 
     Identity                  `noun`    {- suwlAwiysiy -}      [ "Sulawesi" ] ]
-
- |> "suwmir" <| [
-
-    Identity |< Iy            `adj`     {- suwmiriy~ -}        [ "Sumerian" ] ]
 
  |> "suwniyA" <| [
 

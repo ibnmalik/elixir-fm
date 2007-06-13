@@ -583,6 +583,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFCiL                    `noun`    {- muro$id -}          [ "guide", "instructor", "adviser" ] ]
 
+ |> "r ^s d y" <| [
+
+    KuRDI                     `noun`    {- ru$odiy -}          [ "Rushdi" ] ]
+
  |> "r ^s q" <| [
 
     FaCaL                     `verb`    {- ra$aq-u -}          [ "throw", "strike", "insert" ]
@@ -1820,6 +1824,16 @@ lexicon = listing "Lexicon's properties"
 
     FUL |< Iy |< aT           `noun`    {- ruwbiy~ap -}        [ "rupee" ] ]
 
+ |> "r w b l" <| [
+
+    KuRDiS                    `noun`    {- ruwbil -}           [ "ruble" ] ]
+
+ |> "r w b n" <| [
+
+    KuRDiS                    `noun`    {- ruwbin -}           [ "Robin" ],
+
+    KuRDiS                    `noun`    {- ruwbin -}           [ "Reuben" ] ]
+
  |> "r w b r" <| [
 
     KuRDIS                    `noun`    {- ruwbiyr -}          [ "Robert" ] ]
@@ -1855,6 +1869,10 @@ lexicon = listing "Lexicon's properties"
 
     KuRDuS                    `noun`    {- ruwdus -}           [ "Rhodes" ] ]
 
+ |> "r w d y" <| [
+
+    KuRDI                     `noun`    {- ruwdiy -}           [ "Rudi" ] ]
+
  |> "r w k" <| [
 
     FUL                       `noun`    {- ruwk -}             [ "rock", "public", "community" ] ]
@@ -1876,6 +1894,10 @@ lexicon = listing "Lexicon's properties"
     FUL |< Iy                 `adj`     {- ruwmiy~ -}          [ "Rumi", "Roumi" ],
 
     FULAn |< Iy               `adj`     {- ruwmAniy~ -}        [ "Romanian" ] ]
+
+ |> "r w n y" <| [
+
+    KuRDI                     `noun`    {- ruwniy -}           [ "Ronny", "Ronnie" ] ]
 
  |> "r w q" <| [
 
@@ -2196,10 +2218,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- riyto$Arod -}       [ "Richard" ] ]
 
- |> "ru^sdiy" <| [
-
-    Identity                  `noun`    {- ru$odiy -}          [ "Rushdi" ] ]
-
  |> "rubbamA" <| [
 
     Identity                  `part`    {- rub~amA -}          [ "perhaps", "maybe" ] ]
@@ -2215,16 +2233,6 @@ lexicon = listing "Lexicon's properties"
  |> "ruw^giyih" <| [
 
     Identity                  `noun`    {- ruwjiyih -}         [ "Rogier" ] ]
-
- |> "ruwbil" <| [
-
-    Identity                  `noun`    {- ruwbil -}           [ "ruble" ] ]
-
- |> "ruwbin" <| [
-
-    Identity                  `noun`    {- ruwbin -}           [ "Robin" ],
-
-    Identity                  `noun`    {- ruwbin -}           [ "Reuben" ] ]
 
  |> "ruwbinsuwn" <| [
 

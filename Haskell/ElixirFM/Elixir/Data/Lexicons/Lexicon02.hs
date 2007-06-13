@@ -1584,6 +1584,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                            {- `others`  [ "'abwA^s N" ] -} ]
 
+ |> "b w ^s r" <| [
+
+    KuRDiS                    `noun`    {- buw$ir -}           [ "Boucher" ] ]
+
  |> "b w `" <| [
 
     FAL                       `noun`    {- bAE -}              [ "fathom (3 meters)", "fathoms (3 meters ea.)" ]
@@ -2332,10 +2336,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- buruwnoziy~ -}      [ "bronze" ] ]
 
- |> "buw^sir" <| [
-
-    Identity                  `noun`    {- buw$ir -}           [ "Boucher" ] ]
-
  |> "buw^skiyn" <| [
 
     Identity                  `noun`    {- buw$okiyn -}        [ "Pushkin" ] ]
@@ -2447,10 +2447,6 @@ lexicon = listing "Lexicon's properties"
  |> "by.dwn" <| [
 
     Identity                  `noun`    {- byDwn -}            [ "Baidun", "Baidoun" ] ]
-
- |> "by`" <| [
-
-    Identity                  `verb`    {- byE -}              [ "be sold" ] ]
 
  |> "bylyn" <| [
 

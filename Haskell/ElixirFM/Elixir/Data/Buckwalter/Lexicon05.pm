@@ -279,27 +279,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^guwzif' => [
-    {
-      'types' => {},
-      'entry' => '^guwzif',
-      'form' => '^guwzif',
-      'lines' => [
-        ';; juwzif_1',
-        'jwzf    juwzif  Nprop   Joseph'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Joseph'
-      ],
-      'orig' => 'juwzif',
-      'prefix' => ''
-    }
-  ],
   '^gAmuw' => [
     {
       'types' => {},
@@ -2499,6 +2478,9 @@ $Lexicon = {
         ],
         '^gtaz' => [
           'FtaL'
+        ],
+        'u^gtiyz' => [
+          'UFtIL'
         ]
       },
       'index' => '1',
@@ -4168,6 +4150,9 @@ $Lexicon = {
         'AjtyH   {ujotiyH        PV_V_Pass       be invaded'
       ],
       'patterns' => {
+        'u^gtiy.h' => [
+          'UFtIL'
+        ],
         '^gtA.h' => [
           'FtAL'
         ],
@@ -7721,6 +7706,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '^g w k y' => [
+    {
+      'types' => {},
+      'entry' => '^guwkiy',
+      'form' => '^guwkiy',
+      'lines' => [
+        ';; juwkiy_1',
+        'jwky    juwkiy  N0      jockey'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'jockey'
+      ],
+      'orig' => 'juwkiy',
+      'prefix' => ''
+    }
+  ],
   '^g d \'' => [
     {
       'types' => {
@@ -8690,27 +8696,6 @@ $Lexicon = {
         'madmen'
       ],
       'orig' => 'majonuwn',
-      'prefix' => ''
-    }
-  ],
-  '^guwkir' => [
-    {
-      'types' => {},
-      'entry' => '^guwkir',
-      'form' => '^guwkir',
-      'lines' => [
-        ';; juwkir_1',
-        'jwkr    juwkir  N0      Joker'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Joker'
-      ],
-      'orig' => 'juwkir',
       'prefix' => ''
     }
   ],
@@ -21888,18 +21873,13 @@ $Lexicon = {
       'types' => {},
       'entry' => '^guwkiy',
       'form' => '^guwkiy',
-      'lines' => [
-        ';; juwkiy_1',
-        'jwky    juwkiy  N0      jockey'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FUCI',
       'suffix' => '',
-      'glosses' => [
-        'jockey'
-      ],
+      'glosses' => [],
       'orig' => 'juwkiy',
       'prefix' => ''
     }
@@ -26719,6 +26699,20 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'juwluw',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '^guwliy',
+      'form' => '^guwliy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'juwliy',
       'prefix' => ''
     }
   ],
@@ -34989,6 +34983,25 @@ $Lexicon = {
   '^g w z f' => [
     {
       'types' => {},
+      'entry' => '^guwzif',
+      'form' => '^guwzif',
+      'lines' => [
+        ';; juwzif_1',
+        'jwzf    juwzif  Nprop   Joseph'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'Joseph'
+      ],
+      'orig' => 'juwzif',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => '^guwziyf',
       'form' => '^guwziyf',
       'lines' => [
@@ -36675,6 +36688,27 @@ $Lexicon = {
         'opponent'
       ],
       'orig' => 'mujAdil',
+      'prefix' => ''
+    }
+  ],
+  '^g w k r' => [
+    {
+      'types' => {},
+      'entry' => '^guwkir',
+      'form' => '^guwkir',
+      'lines' => [
+        ';; juwkir_1',
+        'jwkr    juwkir  N0      Joker'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'Joker'
+      ],
+      'orig' => 'juwkir',
       'prefix' => ''
     }
   ],
@@ -40311,6 +40345,9 @@ $Lexicon->{'^g ` y'}[0]{'glosses'} = $Lexicon->{'^g .s `'}[0]{'glosses'};
 $Lexicon->{'^g b \''}[0]{'types'} = $Lexicon->{'^g b y'}[5]{'types'};
 $Lexicon->{'^g b \''}[0]{'lines'} = $Lexicon->{'^g b y'}[5]{'lines'};
 $Lexicon->{'^g b \''}[0]{'glosses'} = $Lexicon->{'^g b y'}[5]{'glosses'};
+$Lexicon->{'^g k y'}[0]{'types'} = $Lexicon->{'^g w k y'}[0]{'types'};
+$Lexicon->{'^g k y'}[0]{'lines'} = $Lexicon->{'^g w k y'}[0]{'lines'};
+$Lexicon->{'^g k y'}[0]{'glosses'} = $Lexicon->{'^g w k y'}[0]{'glosses'};
 $Lexicon->{'^g _t m'}[3]{'types'} = $Lexicon->{'^g _t m n'}[0]{'types'};
 $Lexicon->{'^g _t m'}[3]{'lines'} = $Lexicon->{'^g _t m n'}[0]{'lines'};
 $Lexicon->{'^g _t m'}[3]{'glosses'} = $Lexicon->{'^g _t m n'}[0]{'glosses'};
@@ -40344,6 +40381,9 @@ $Lexicon->{'^g \' .h'}[1]{'glosses'} = $Lexicon->{'^g w .h'}[6]{'glosses'};
 $Lexicon->{'^g w l y'}[0]{'types'} = $Lexicon->{'^g w l w'}[0]{'types'};
 $Lexicon->{'^g w l y'}[0]{'lines'} = $Lexicon->{'^g w l w'}[0]{'lines'};
 $Lexicon->{'^g w l y'}[0]{'glosses'} = $Lexicon->{'^g w l w'}[0]{'glosses'};
+$Lexicon->{'^g w l y'}[1]{'types'} = $Lexicon->{'^g l y'}[9]{'types'};
+$Lexicon->{'^g w l y'}[1]{'lines'} = $Lexicon->{'^g l y'}[9]{'lines'};
+$Lexicon->{'^g w l y'}[1]{'glosses'} = $Lexicon->{'^g l y'}[9]{'glosses'};
 $Lexicon->{'^g b r'}[27]{'types'} = $Lexicon->{'^g b r n'}[0]{'types'};
 $Lexicon->{'^g b r'}[27]{'lines'} = $Lexicon->{'^g b r n'}[0]{'lines'};
 $Lexicon->{'^g b r'}[27]{'glosses'} = $Lexicon->{'^g b r n'}[0]{'glosses'};

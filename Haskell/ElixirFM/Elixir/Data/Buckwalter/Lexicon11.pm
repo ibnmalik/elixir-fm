@@ -1847,27 +1847,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'zuhdiy' => [
-    {
-      'types' => {},
-      'entry' => 'zuhdiy',
-      'form' => 'zuhdiy',
-      'lines' => [
-        ';; zuhodiy_1',
-        'zhdy    zuhodiy N0      Zuhdi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Zuhdi'
-      ],
-      'orig' => 'zuhodiy',
-      'prefix' => ''
-    }
-  ],
   'z w r q' => [
     {
       'types' => {
@@ -10169,28 +10148,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'zu.gbiy' => [
-    {
-      'types' => {},
-      'entry' => 'zu.gbiy',
-      'form' => 'zu.gbiy',
-      'lines' => [
-        ';; zugobiy_1',
-        'zgby    zugobiy N0      Zogbi;Zogby'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Zogbi',
-        'Zogby'
-      ],
-      'orig' => 'zugobiy',
-      'prefix' => ''
-    }
-  ],
   'za`za`An' => [
     {
       'types' => {},
@@ -12831,6 +12788,27 @@ $Lexicon = {
         'Zahlawi'
       ],
       'orig' => 'zaHolawiy~',
+      'prefix' => ''
+    }
+  ],
+  'z h d y' => [
+    {
+      'types' => {},
+      'entry' => 'zuhdiy',
+      'form' => 'zuhdiy',
+      'lines' => [
+        ';; zuhodiy_1',
+        'zhdy    zuhodiy N0      Zuhdi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Zuhdi'
+      ],
+      'orig' => 'zuhodiy',
       'prefix' => ''
     }
   ],
@@ -21666,6 +21644,28 @@ $Lexicon = {
         'forged'
       ],
       'orig' => 'muzaw~ar',
+      'prefix' => ''
+    }
+  ],
+  'z .g b y' => [
+    {
+      'types' => {},
+      'entry' => 'zu.gbiy',
+      'form' => 'zu.gbiy',
+      'lines' => [
+        ';; zugobiy_1',
+        'zgby    zugobiy N0      Zogbi;Zogby'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Zogbi',
+        'Zogby'
+      ],
+      'orig' => 'zugobiy',
       'prefix' => ''
     }
   ],

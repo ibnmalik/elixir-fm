@@ -37,6 +37,16 @@ instance Template PatternL where
  -- interlock = (.) concat . const
 
 
+instance Forming PatternL where
+
+    isForm I Identity = True
+    isForm _ _        = False
+
+    verbStems _ _ = []
+
+    -- [ (Nothing, Identity, Identity, Identity, Identity) ]
+
+
 instance Rules PatternL where
 
     isDiptote = const False

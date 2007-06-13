@@ -5614,6 +5614,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '.t w n y' => [
+    {
+      'types' => {},
+      'entry' => '.tuwniy',
+      'form' => '.tuwniy',
+      'lines' => [
+        ';; Tuwniy_1',
+        'Twny    Tuwniy  Nprop   Tony'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Tony'
+      ],
+      'orig' => 'Tuwniy',
+      'prefix' => ''
+    }
+  ],
   '.tuwkiyuw' => [
     {
       'types' => {},
@@ -10736,18 +10757,13 @@ $Lexicon = {
       'types' => {},
       'entry' => '.tuwniy',
       'form' => '.tuwniy',
-      'lines' => [
-        ';; Tuwniy_1',
-        'Twny    Tuwniy  Nprop   Tony'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FUCI',
       'suffix' => '',
-      'glosses' => [
-        'Tony'
-      ],
+      'glosses' => [],
       'orig' => 'Tuwniy',
       'prefix' => ''
     }
@@ -23716,15 +23732,12 @@ $Lexicon = {
         },
         'ustu.tir' => {
           'PV_C_intr' => 2
-        },
-        'ustu.tiyr' => {
-          'PV_V_intr' => 2
         }
       },
-      'entry' => 'ista.tAr',
-      'form' => 'ista.tAr',
+      'entry' => 'ustu.tiyr',
+      'form' => 'ustu.tiyr',
       'lines' => [
-        ';; {isotaTAr_2',
+        ';; {usotuTiyr_2',
         '<stTyr  {usotuTiyr      PV_V_intr       be terrified',
         'AstTyr  {usotuTiyr      PV_V_intr       be terrified',
         '<stTr   {usotuTir       PV_C_intr       be terrified',
@@ -23732,15 +23745,19 @@ $Lexicon = {
         'stTAr   sotaTAr IV_V_intr       be terrified',
         'stTr    sotaTar IV_C_intr       be terrified'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ustu.tir' => [
+          'UstuFiL'
+        ]
+      },
       'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'IstaFAL',
+      'entity' => 'verb',
+      'morphs' => 'UstuFIL',
       'suffix' => '',
       'glosses' => [
         'be terrified'
       ],
-      'orig' => 'AisotaTAr',
+      'orig' => 'AusotuTiyr',
       'prefix' => ''
     },
     {
@@ -24269,6 +24286,22 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '.t w m y' => [
+    {
+      'types' => {},
+      'entry' => '.tuwmiy',
+      'form' => '.tuwmiy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'Tuwmiy',
+      'prefix' => ''
+    }
+  ],
   '.t ` n' => [
     {
       'types' => {
@@ -24583,6 +24616,9 @@ $Lexicon->{'.t n n'}[6]{'glosses'} = $Lexicon->{'.t n n'}[5]{'glosses'};
 $Lexicon->{'.t h w'}[4]{'types'} = $Lexicon->{'.t h y'}[1]{'types'};
 $Lexicon->{'.t h w'}[4]{'lines'} = $Lexicon->{'.t h y'}[1]{'lines'};
 $Lexicon->{'.t h w'}[4]{'glosses'} = $Lexicon->{'.t h y'}[1]{'glosses'};
+$Lexicon->{'.t n y'}[0]{'types'} = $Lexicon->{'.t w n y'}[0]{'types'};
+$Lexicon->{'.t n y'}[0]{'lines'} = $Lexicon->{'.t w n y'}[0]{'lines'};
+$Lexicon->{'.t n y'}[0]{'glosses'} = $Lexicon->{'.t w n y'}[0]{'glosses'};
 $Lexicon->{'.t y ^s'}[1]{'types'} = $Lexicon->{'.t \' ^s'}[0]{'types'};
 $Lexicon->{'.t y ^s'}[1]{'lines'} = $Lexicon->{'.t \' ^s'}[0]{'lines'};
 $Lexicon->{'.t y ^s'}[1]{'glosses'} = $Lexicon->{'.t \' ^s'}[0]{'glosses'};
@@ -24692,3 +24728,6 @@ $Lexicon->{'.t y r'}[16]{'glosses'} = $Lexicon->{'.t \' r'}[1]{'glosses'};
 $Lexicon->{'.t m w'}[3]{'types'} = $Lexicon->{'.t m y'}[1]{'types'};
 $Lexicon->{'.t m w'}[3]{'lines'} = $Lexicon->{'.t m y'}[1]{'lines'};
 $Lexicon->{'.t m w'}[3]{'glosses'} = $Lexicon->{'.t m y'}[1]{'glosses'};
+$Lexicon->{'.t w m y'}[0]{'types'} = $Lexicon->{'.t m y'}[2]{'types'};
+$Lexicon->{'.t w m y'}[0]{'lines'} = $Lexicon->{'.t m y'}[2]{'lines'};
+$Lexicon->{'.t w m y'}[0]{'glosses'} = $Lexicon->{'.t m y'}[2]{'glosses'};

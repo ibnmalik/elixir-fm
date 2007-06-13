@@ -2137,6 +2137,10 @@ lexicon = listing "Lexicon's properties"
     FUL |< Iy                 `adj`     {- nuwbiy~ -}          [ "Nubian", "Nubians" ]
                               `plural`     FUL |< aT ]
 
+ |> "n w b l" <| [
+
+    KuRDiS                    `noun`    {- nuwbil -}           [ "Nobel" ] ]
+
  |> "n w f" <| [
 
     MaFUL |< Iy |< aT         `noun`    {- manuwfiy~ap -}      [ "Manoufiya" ],
@@ -2254,6 +2258,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- munAwarap -}        [ "maneuver", "maneuvers" ]
                               `plural`     MuFACaL |< At ]
+
+ |> "n w r y" <| [
+
+    KuRDI                     `noun`    {- nuwriy -}           [ "Nouri", "Nuri" ] ]
 
  |> "n w s" <| [
 
@@ -2611,10 +2619,6 @@ lexicon = listing "Lexicon's properties"
  |> "nu^sAdir" <| [
 
     Identity                  `noun`    {- nu$Adir -}          [ "ammonia" ] ]
-
- |> "nuwbil" <| [
-
-    Identity                  `noun`    {- nuwbil -}           [ "Nobel" ] ]
 
  |> "nuwfimbir" <| [
 

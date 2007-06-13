@@ -124,6 +124,13 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- \*axar-a -}         [ "preserve", "store" ]
                               `imperf`     FCaL,
 
+    -- ;; {id~axar_1
+    -- <dxr    {id~axar        PV      store;hoard;save
+    -- Adxr    {id~axar        PV      store;hoard;save
+    -- dxr     d~axir  IV      store;hoard;save
+
+    IFtaCaL                   `verb`    {- Aid~axar -}         [ "store", "hoard", "save" ],
+
     -- ;; *uxor_1
     -- \*xr     *uxor   N       stored;hoarded
     -- >*xAr   >a*oxAr N       stored;hoarded
@@ -138,6 +145,19 @@ lexicon = listing "Lexicon's properties"
     -- \*xA}r   *axA}ir Ndip    ammunition;treasure;provisions
 
     FaCIL |< aT               `noun`    {- \*axiyrap -}        [ "ammunition", "treasure", "provisions" ],
+
+    -- ;; {id~ixAr_1
+    -- <dxAr   {id~ixAr        NduAt   storage;hoarding
+    -- AdxAr   {id~ixAr        NduAt   storage;hoarding
+
+    IFtiCAL                   `noun`    {- Aid~ixAr -}         [ "storage", "hoarding" ]
+                              `plural`     IFtiCAL |< At,
+
+    -- ;; {id~ixAriy~_1
+    -- <dxAry  {id~ixAriy~     Nall    savings;storage     [[{id~ixAriy~/ADJ]]
+    -- AdxAry  {id~ixAriy~     Nall    savings;storage     [[{id~ixAriy~/ADJ]]
+
+    IFtiCAL |< Iy             `adj`     {- Aid~ixAriy~ -}      [ "savings", "storage" ],
 
     -- ;; mu*ax~ir_1
     -- m*xr    mu*ax~ir        Nall    assistant gunner;ammunition passer
@@ -154,7 +174,12 @@ lexicon = listing "Lexicon's properties"
     -- m*xr    mu*ax~ar        NAt     savings;supplies
 
     MuFaCCaL                  `noun`    {- mu*ax~ar -}         [ "saved", "hoarded", "savings", "supplies" ]
-                              `plural`     MuFaCCaL |< At ]
+                              `plural`     MuFaCCaL |< At,
+
+    -- ;; mud~axir_1
+    -- mdxr    mud~axir        Nall    saver;savings account holder
+
+    MuFtaCiL                  `noun`    {- mud~axir -}         [ "saver", "savings account holder" ] ]
 
  |> "_d ` f" <| [
 
@@ -684,6 +709,13 @@ lexicon = listing "Lexicon's properties"
     -- t*Akr   ta*Akar IV      remind mutually;confer
 
     TaFACaL                   `verb`    {- ta*Akar -}          [ "remind mutually", "confer" ],
+
+    -- ;; {id~akar_1
+    -- <dkr    {id~akar        PV      remember
+    -- Adkr    {id~akar        PV      remember
+    -- dkr     d~akir  IV      remember
+
+    IFtaCaL                   `verb`    {- Aid~akar -}         [ "remember" ],
 
     -- ;; {isota*okar_1
     -- <st*kr  {isota*okar     PV      memorize;recall
@@ -2064,38 +2096,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `conj`    {- h`ka*A -}           [ "thus", "as such" ] ]
 
- |> "idda_har" <| [
-
-    -- ;; {id~axar_1
-    -- <dxr    {id~axar        PV      store;hoard;save
-    -- Adxr    {id~axar        PV      store;hoard;save
-    -- dxr     d~axir  IV      store;hoard;save
-
-    Identity                  `verb`    {- Aid~axar -}         [ "store", "hoard", "save" ] ]
-
- |> "iddakar" <| [
-
-    -- ;; {id~akar_1
-    -- <dkr    {id~akar        PV      remember
-    -- Adkr    {id~akar        PV      remember
-    -- dkr     d~akir  IV      remember
-
-    Identity                  `verb`    {- Aid~akar -}         [ "remember" ] ]
-
- |> "iddi_hAr" <| [
-
-    -- ;; {id~ixAr_1
-    -- <dxAr   {id~ixAr        NduAt   storage;hoarding
-    -- AdxAr   {id~ixAr        NduAt   storage;hoarding
-
-    Identity                  `noun`    {- Aid~ixAr -}         [ "storage", "hoarding" ],
-
-    -- ;; {id~ixAriy~_1
-    -- <dxAry  {id~ixAriy~     Nall    savings;storage     [[{id~ixAriy~/ADJ]]
-    -- AdxAry  {id~ixAriy~     Nall    savings;storage     [[{id~ixAriy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- Aid~ixAriy~ -}      [ "savings", "storage" ] ]
-
  |> "ka_dA" <| [
 
     -- ;; ka*A_1
@@ -2123,13 +2123,6 @@ lexicon = listing "Lexicon's properties"
     -- l*lk    li*`lika        FW-Wa   therefore           [[li*`lika/ADV]]
 
     Identity |<< "a"          `adv`     {- li*`lika -}         [ "therefore" ] ]
-
- |> "mudda_hir" <| [
-
-    -- ;; mud~axir_1
-    -- mdxr    mud~axir        Nall    saver;savings account holder
-
-    Identity                  `noun`    {- mud~axir -}         [ "saver", "savings account holder" ] ]
 
  |> "ta_dkAr" <| [
 

@@ -1411,6 +1411,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "^g w z f" <| [
 
+    KuRDiS                    `noun`    {- juwzif -}           [ "Joseph" ],
+
     KuRDIS                    `noun`    {- juwziyf -}          [ "Josef" ] ]
 
  |> "^g y '" <| [
@@ -1710,10 +1712,6 @@ lexicon = listing "Lexicon's properties"
  |> "^guwrnAl" <| [
 
     Identity                  `noun`    {- juwronAl -}         [ "Journal" ] ]
-
- |> "^guwzif" <| [
-
-    Identity                  `noun`    {- juwzif -}           [ "Joseph" ] ]
 
  |> "^guwziyfA" <| [
 

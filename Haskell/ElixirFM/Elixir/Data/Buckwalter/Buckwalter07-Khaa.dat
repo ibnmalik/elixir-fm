@@ -2907,7 +2907,6 @@ xtfY    xotafaY IV_0    vanish;be hidden;be missing
 ;; {isotaxofaY_1
 <stxfY  {isotaxofaY     PV_0    hide;be hidden;disappear
 AstxfY  {isotaxofaY     PV_0    hide;be hidden;disappear
-;; {isotaxofA_1
 <stxfA  {isotaxofA      PV_h    hide
 AstxfA  {isotaxofA      PV_h    hide
 <stxfy  {isotaxofay     PV_Atn  hide;be hidden;disappear

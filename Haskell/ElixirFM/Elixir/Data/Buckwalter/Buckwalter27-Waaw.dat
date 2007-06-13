@@ -336,6 +336,23 @@ wtn     wutun   N       aortas
 >wtn    >awotin Nap     aortas
 Awtn    >awotin Nap     aortas
 ;
+;--- wty
+;; wAtaY_1
+wAtY    wAtaY   PV_0    be favorable;be satisfying
+wAtA    wAtA    PV_h    be favorable;be satisfying
+wAty    wAtay   PV_Atn  be favorable;be satisfying
+wAt     wAt     PV_ttAw_intr    be favorable;be satisfying
+wAty    wAtiy   IV_0hAnn_yu     be favorable;be satisfying
+wAt     wAt     IV_0hwnyn_yu    be favorable;be satisfying
+wAtY    wAtaY   IV_0_Pass_yu    be favorable;be satisfying
+wAty    wAtay   IV_Ann_Pass_yu  be favorable;be satisfying
+;; muwAtiy_1
+mwAty   muwAtiy N0F_Nh  pleasing;suitable
+mwAt    muwAt   NK      pleasing;suitable
+mwAty   muwAtiy NAn_Nayn        pleasing;suitable
+mwAt    muwAt   Nuwn_Niyn       pleasing;suitable
+mwAty   muwAtiy NapAt   pleasing;suitable
+;
 ;--- wvA
 ;; wava>-a_1
 wv>     wava>   PV->    bruise;sprain

@@ -247,6 +247,13 @@ lexicon = listing "Lexicon's properties"
 
     KaRDaS                    `noun`    {- zagobar -}          [ "nap (of a fabric)", "entirety" ] ]
 
+ |> "z .g b y" <| [
+
+    -- ;; zugobiy_1
+    -- zgby    zugobiy N0      Zogbi;Zogby
+
+    KuRDI                     `noun`    {- zugobiy -}          [ "Zogbi", "Zogby" ] ]
+
  |> "z .g d" <| [
 
     -- ;; zagad-a_1
@@ -1904,6 +1911,13 @@ lexicon = listing "Lexicon's properties"
     -- zAhd    zAhid   N/ap    ascetic;abstinent
 
     FACiL                     `noun`    {- zAhid -}            [ "ascetic", "abstinent" ] ]
+
+ |> "z h d y" <| [
+
+    -- ;; zuhodiy_1
+    -- zhdy    zuhodiy N0      Zuhdi
+
+    KuRDI                     `noun`    {- zuhodiy -}          [ "Zuhdi" ] ]
 
  |> "z h f" <| [
 
@@ -5955,26 +5969,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- ziynokuw -}         [ "zinc" ] ]
 
- |> "zu.gbiy" <| [
-
-    -- ;; zugobiy_1
-    -- zgby    zugobiy N0      Zogbi;Zogby
-
-    Identity                  `noun`    {- zugobiy -}          [ "Zogbi", "Zogby" ] ]
-
  |> "zu.gu.t.t" <| [
 
     -- ;; zuguT~ap_1
     -- zgT     zuguT~  NapAt   hiccup
 
     Identity |< aT            `noun`    {- zuguT~ap -}         [ "hiccup" ] ]
-
- |> "zuhdiy" <| [
-
-    -- ;; zuhodiy_1
-    -- zhdy    zuhodiy N0      Zuhdi
-
-    Identity                  `noun`    {- zuhodiy -}          [ "Zuhdi" ] ]
 
  |> "zulluwm" <| [
 

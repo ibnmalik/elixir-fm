@@ -147,10 +147,6 @@ lexicon = listing "Lexicon's properties"
 
     MutaFaCCiL                `adj`     {- mutayaq~in -}       [ "convinced", "certain" ] ]
 
- |> "y r y" <| [
-
-    FUCI                      `noun`    {- yuwriy -}           [ "Youri", "Yuri" ] ]
-
  |> "y s `" <| [
 
     FaCUL                     `noun`    {- yasuwE -}           [ "Jesus (in Christianity)", "Yasou" ],
@@ -187,6 +183,10 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`    {- yAsir -}            [ "Yasser", "Yasir" ],
 
     MuFaCCaL                  `adj`     {- muyas~ar -}         [ "made easy", "facilitated", "well-to-do" ] ]
+
+ |> "y s r y" <| [
+
+    KuRDI                     `noun`    {- yusoriy -}          [ "Yusri", "Yosri" ] ]
 
  |> "y s y" <| [
 
@@ -231,6 +231,10 @@ lexicon = listing "Lexicon's properties"
 
     KuRDAS |< Iy              `adj`     {- yuwnAniy~ -}        [ "Greek" ] ]
 
+ |> "y w n s" <| [
+
+    KuRDiS                    `noun`    {- yuwnis -}           [ "Yunis", "Younis", "Jonah" ] ]
+
  |> "y w r n" <| [
 
     KuRDIS                    `noun`    {- yuwriyn -}          [ "Uhrin" ] ]
@@ -239,9 +243,19 @@ lexicon = listing "Lexicon's properties"
 
     KuRDU                     `noun`    {- yuwruw -}           [ "Euro" ] ]
 
+ |> "y w r y" <| [
+
+    KuRDI                     `noun`    {- yuwriy -}           [ "Youri", "Yuri" ] ]
+
  |> "y w s f" <| [
 
+    KuRDiS                    `noun`    {- yuwsif -}           [ "Yousif", "Yusif", "Joseph" ],
+
     KuRDuS |< Iy              `adj`     {- yuwsufiy~ -}        [ "tangerines" ] ]
+
+ |> "y w s y" <| [
+
+    KuRDI                     `noun`    {- yuwsiy -}           [ "Yosi", "Yossi" ] ]
 
  |> "y w w" <| [
 
@@ -291,10 +305,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- yadiyEuwt -}        [ "Yediot" ] ]
 
- |> "yusriy" <| [
-
-    Identity                  `noun`    {- yusoriy -}          [ "Yusri", "Yosri" ] ]
-
  |> "yuw.guwslAf" <| [
 
     Identity |< Iy            `adj`     {- yuwguwsolAfiy~ -}   [ "Yugoslavian", "Yugoslavians" ] ]
@@ -321,10 +331,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- yuwnAyotid -}       [ "United" ] ]
 
- |> "yuwnis" <| [
-
-    Identity                  `noun`    {- yuwnis -}           [ "Yunis", "Younis", "Jonah" ] ]
-
  |> "yuwniysif" <| [
 
     Identity                  `noun`    {- yuwniysif -}        [ "UNICEF" ] ]
@@ -344,10 +350,6 @@ lexicon = listing "Lexicon's properties"
  |> "yuwrk" <| [
 
     Identity                  `noun`    {- yuwrk -}            [ "York" ] ]
-
- |> "yuwsif" <| [
-
-    Identity                  `noun`    {- yuwsif -}           [ "Yousif", "Yusif", "Joseph" ] ]
 
  |> "yuwtA" <| [
 

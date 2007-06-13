@@ -47,59 +47,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Oumosiy~ -}         [ "evening", "soiree", "evenings", "soirees" ] ]
 
- |> "imma.hY" <| [
-
-    -- ;; {im~aHaY_1
-    -- <mHY    {im~aHaY        PV_0    be eradicated;be exterminated
-    -- AmHY    {im~aHaY        PV_0    be eradicated;be exterminated
-    -- <mHA    {im~aHA PV_h    be eradicated;be exterminated
-    -- AmHA    {im~aHA PV_h    be eradicated;be exterminated
-    -- <mHy    {im~aHay        PV_Atn  be eradicated;be exterminated
-    -- AmHy    {im~aHay        PV_Atn  be eradicated;be exterminated
-    -- <mH     {im~aH  PV_ttAw_intr    be eradicated;be exterminated
-    -- AmH     {im~aH  PV_ttAw_intr    be eradicated;be exterminated
-    -- mHy     m~aHiy  IV_0hAnn        be eradicated;be exterminated
-    -- mH      m~aH    IV_0hwnyn       be eradicated;be exterminated
-    -- mHY     m~aHaY  IV_0_Pass_yu    be eradicated;be exterminated
-
-    Identity                  `verb`    {- Aim~aHaY -}         [ "be eradicated", "be exterminated" ] ]
-
- |> "imma.ha.s" <| [
-
-    -- ;; {im~aHaS_1
-    -- <mHS    {im~aHaS        PV_intr be clarified;be purified
-    -- AmHS    {im~aHaS        PV_intr be clarified;be purified
-    -- mHS     m~aHiS  IV_intr be clarified;be purified
-
-    Identity                  `verb`    {- Aim~aHaS -}         [ "be clarified", "be purified" ] ]
-
- |> "imma.haq" <| [
-
-    -- ;; {im~aHaq_1
-    -- <mHq    {im~aHaq        PV_intr be annihilated;perish
-    -- AmHq    {im~aHaq        PV_intr be annihilated;perish
-    -- mHq     m~aHiq  IV_intr be annihilated;perish
-
-    Identity                  `verb`    {- Aim~aHaq -}         [ "be annihilated", "perish" ] ]
-
- |> "immala_h" <| [
-
-    -- ;; {im~alax_1
-    -- <mlx    {im~alax        PV_intr be torn out;be dislocated
-    -- Amlx    {im~alax        PV_intr be torn out;be dislocated
-    -- mlx     m~alix  IV_intr be torn out;be dislocated
-
-    Identity                  `verb`    {- Aim~alax -}         [ "be torn out", "be dislocated" ] ]
-
- |> "immalas" <| [
-
-    -- ;; {im~alas_1
-    -- <mls    {im~alas        PV_intr become smooth;glide;slip away
-    -- Amls    {im~alas        PV_intr become smooth;glide;slip away
-    -- mls     m~alis  IV_intr become smooth;glide;slip away
-
-    Identity                  `verb`    {- Aim~alas -}         [ "become smooth", "glide", "slip away" ] ]
-
  |> "imra'" <| [
 
     -- ;; {imora>ap_1
@@ -955,7 +902,8 @@ lexicon = listing "Lexicon's properties"
 
     InFiCAL                   `noun`    {- AinomiHA' -}        [ "extinction", "eradication" ]
                               `plural`     InFiCAL |< At
-                              `plural`     InFiCA' |< At ]
+                              `plural`     InFiCA' |< At
+                           {- `others`  [ "immi.hA' Nh NAn_Nayn Nayn N0_Nh Nhy" ] -} ]
 
  |> "m .h .d" <| [
 
@@ -1044,6 +992,13 @@ lexicon = listing "Lexicon's properties"
     -- nmHS    nomaHiS IV_intr be clarified;be purified
 
     InFaCaL                   `verb`    {- AinomaHaS -}        [ "be clarified", "be purified" ],
+
+    -- ;; {im~aHaS_1
+    -- <mHS    {im~aHaS        PV_intr be clarified;be purified
+    -- AmHS    {im~aHaS        PV_intr be clarified;be purified
+    -- mHS     m~aHiS  IV_intr be clarified;be purified
+
+    InFaCaL                   `verb`    {- Aim~aHaS -}         [ "be clarified", "be purified" ],
 
     -- ;; maHiyS_2
     -- mHyS    maHiyS  N-ap    shining;flashing     [[maHiyS/ADJ]]
@@ -1238,6 +1193,13 @@ lexicon = listing "Lexicon's properties"
 
     InFaCaL                   `verb`    {- AinomaHaq -}        [ "be annihilated", "perish" ],
 
+    -- ;; {im~aHaq_1
+    -- <mHq    {im~aHaq        PV_intr be annihilated;perish
+    -- AmHq    {im~aHaq        PV_intr be annihilated;perish
+    -- mHq     m~aHiq  IV_intr be annihilated;perish
+
+    InFaCaL                   `verb`    {- Aim~aHaq -}         [ "be annihilated", "perish" ],
+
     -- ;; {imotaHaq_1
     -- <mtHq   {imotaHaq       PV_intr be annihilated;perish
     -- AmtHq   {imotaHaq       PV_intr be annihilated;perish
@@ -1311,6 +1273,21 @@ lexicon = listing "Lexicon's properties"
 
     InFaCY                    `verb`    {- AinomaHaY -}        [ "be eradicated", "be exterminated" ],
 
+    -- ;; {im~aHaY_1
+    -- <mHY    {im~aHaY        PV_0    be eradicated;be exterminated
+    -- AmHY    {im~aHaY        PV_0    be eradicated;be exterminated
+    -- <mHA    {im~aHA PV_h    be eradicated;be exterminated
+    -- AmHA    {im~aHA PV_h    be eradicated;be exterminated
+    -- <mHy    {im~aHay        PV_Atn  be eradicated;be exterminated
+    -- AmHy    {im~aHay        PV_Atn  be eradicated;be exterminated
+    -- <mH     {im~aH  PV_ttAw_intr    be eradicated;be exterminated
+    -- AmH     {im~aH  PV_ttAw_intr    be eradicated;be exterminated
+    -- mHy     m~aHiy  IV_0hAnn        be eradicated;be exterminated
+    -- mH      m~aH    IV_0hwnyn       be eradicated;be exterminated
+    -- mHY     m~aHaY  IV_0_Pass_yu    be eradicated;be exterminated
+
+    InFaCY                    `verb`    {- Aim~aHaY -}         [ "be eradicated", "be exterminated" ],
+
     -- ;; {imotaHaY_1
     -- <mtHY   {imotaHaY       PV_0    be eradicated;be exterminated
     -- AmtHY   {imotaHaY       PV_0    be eradicated;be exterminated
@@ -1367,7 +1344,8 @@ lexicon = listing "Lexicon's properties"
     -- AmHA'   {im~iHA'        NAt     extinction;eradication
 
     InFiCA'                   `noun`    {- AinomiHA' -}        [ "extinction", "eradication" ]
-                              `plural`     InFiCA' |< At,
+                              `plural`     InFiCA' |< At
+                           {- `others`  [ "immi.hA' Nh NAn_Nayn Nayn N0_Nh Nhy" ] -},
 
     -- ;; mAHiyap_1
     -- mAHy    mAHiy   NapAt   eraser
@@ -2603,17 +2581,7 @@ lexicon = listing "Lexicon's properties"
 
     FACI |< aT                `noun`    {- mA$iyap -}          [ "livestock", "cattle" ]
                               `plural`     FawACI
-                           {- `others`  [ "mawA^siy N0_Nh" ] -},
-
-    -- ;; muw$iy_1
-    -- mw$y    muw$iy  Nprop   Moshe
-
-    MUCI                      `noun`    {- muw$iy -}           [ "Moshe" ],
-
-    -- ;; muw$iy_1
-    -- mw$y    muw$iy  Nprop   Moshe
-
-    FUCI                      `noun`    {- muw$iy -}           [ "Moshe" ] ]
+                           {- `others`  [ "mawA^siy N0_Nh" ] -} ]
 
  |> "m _d _d" <| [
 
@@ -5304,6 +5272,13 @@ lexicon = listing "Lexicon's properties"
 
     InFaCaL                   `verb`    {- Ainomalax -}        [ "be torn out", "be dislocated" ],
 
+    -- ;; {im~alax_1
+    -- <mlx    {im~alax        PV_intr be torn out;be dislocated
+    -- Amlx    {im~alax        PV_intr be torn out;be dislocated
+    -- mlx     m~alix  IV_intr be torn out;be dislocated
+
+    InFaCaL                   `verb`    {- Aim~alax -}         [ "be torn out", "be dislocated" ],
+
     -- ;; {imotalax_1
     -- <mtlx   {imotalax       PV      pull out;extract
     -- Amtlx   {imotalax       PV      pull out;extract
@@ -5856,6 +5831,13 @@ lexicon = listing "Lexicon's properties"
     -- nmls    nomalis IV_intr become smooth;glide;slip away
 
     InFaCaL                   `verb`    {- Ainomalas -}        [ "become smooth", "glide", "slip away" ],
+
+    -- ;; {im~alas_1
+    -- <mls    {im~alas        PV_intr become smooth;glide;slip away
+    -- Amls    {im~alas        PV_intr become smooth;glide;slip away
+    -- mls     m~alis  IV_intr become smooth;glide;slip away
+
+    InFaCaL                   `verb`    {- Aim~alas -}         [ "become smooth", "glide", "slip away" ],
 
     -- ;; malas_1
     -- mls     malas   N       silk fabric
@@ -7831,6 +7813,13 @@ lexicon = listing "Lexicon's properties"
 
     KaRDIS                    `noun`    {- marosiyn -}         [ "myrtle" ] ]
 
+ |> "m r s y" <| [
+
+    -- ;; murosiyap_1
+    -- mrsy    murosiy Nap     Murcia
+
+    KuRDI |< aT               `noun`    {- murosiyap -}        [ "Murcia" ] ]
+
  |> "m r t" <| [
 
     -- ;; mArot_1
@@ -9070,6 +9059,13 @@ lexicon = listing "Lexicon's properties"
 
     MutaFACiL                 `adj`     {- mutamAwij -}        [ "fluctuating", "undulating" ] ]
 
+ |> "m w ^s y" <| [
+
+    -- ;; muw$iy_1
+    -- mw$y    muw$iy  Nprop   Moshe
+
+    KuRDI                     `noun`    {- muw$iy -}           [ "Moshe" ] ]
+
  |> "m w d" <| [
 
     -- ;; muwdap_1
@@ -9251,6 +9247,18 @@ lexicon = listing "Lexicon's properties"
     -- mwm     muwm    N       wax
 
     FUL                       `noun`    {- muwm -}             [ "wax" ] ]
+
+ |> "m w m y" <| [
+
+    -- ;; muwmiyap_1
+    -- mwmy    muwmiy  Nap     bitumen
+
+    KuRDI |< aT               `noun`    {- muwmiyap -}         [ "bitumen" ],
+
+    -- ;; muwmiyap_2
+    -- mwmy    muwmiy  NapAt   mummy
+
+    KuRDI |< aT               `noun`    {- muwmiyap -}         [ "mummy" ] ]
 
  |> "m w n" <| [
 
@@ -12352,13 +12360,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- munuwluwjisot -}    [ "monologue artist" ] ]
 
- |> "mursiy" <| [
-
-    -- ;; murosiyap_1
-    -- mrsy    murosiy Nap     Murcia
-
-    Identity |< aT            `noun`    {- murosiyap -}        [ "Murcia" ] ]
-
  |> "mus.tardah" <| [
 
     -- ;; musoTarodah_1
@@ -12439,18 +12440,6 @@ lexicon = listing "Lexicon's properties"
     -- mwlwtwf muwluwtuwf      N0      Molotov
 
     Identity                  `noun`    {- muwluwtuwf -}       [ "Molotov" ] ]
-
- |> "muwmiy" <| [
-
-    -- ;; muwmiyap_1
-    -- mwmy    muwmiy  Nap     bitumen
-
-    Identity |< aT            `noun`    {- muwmiyap -}         [ "bitumen" ],
-
-    -- ;; muwmiyap_2
-    -- mwmy    muwmiy  NapAt   mummy
-
-    Identity |< aT            `noun`    {- muwmiyap -}         [ "mummy" ] ]
 
  |> "muwmyA'" <| [
 

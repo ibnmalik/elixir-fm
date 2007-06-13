@@ -1482,6 +1482,10 @@ lexicon = listing "Lexicon's properties"
 
     KuRDAS                    `adj`     {- fuwlA* -}           [ "steel", "steel plated" ] ]
 
+ |> "f w l r" <| [
+
+    KuRDiS                    `noun`    {- fuwlir -}           [ "Voeller", "Fuller" ] ]
+
  |> "f w n" <| [
 
     FUL                       `noun`    {- fuwn -}             [ "Von", "von" ] ]
@@ -1952,10 +1956,6 @@ lexicon = listing "Lexicon's properties"
  |> "fuwks" <| [
 
     Identity                  `noun`    {- fuwkos -}           [ "Fox" ] ]
-
- |> "fuwlir" <| [
-
-    Identity                  `noun`    {- fuwlir -}           [ "Voeller", "Fuller" ] ]
 
  |> "fuwlkluwr" <| [
 

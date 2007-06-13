@@ -8802,6 +8802,9 @@ $Lexicon = {
         'gtl     gotal   IV_C    assassinate;murder'
       ],
       'patterns' => {
+        'u.gtiyl' => [
+          'UFtIL'
+        ],
         '.gtAl' => [
           'FtAL'
         ],
@@ -18178,6 +18181,9 @@ $Lexicon = {
       'patterns' => {
         'i.gtab' => [
           'IFtaL'
+        ],
+        'u.gtiyb' => [
+          'UFtIL'
         ],
         '.gtAb' => [
           'FtAL'
@@ -28565,6 +28571,9 @@ $Lexicon = {
       'patterns' => {
         'ista.ga_t' => [
           'IstaFaL'
+        ],
+        'ustu.giy_t' => [
+          'UstuFIL'
         ]
       },
       'index' => '1',

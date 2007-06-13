@@ -23532,6 +23532,9 @@ $Lexicon = {
         ],
         '`tabir' => [
           'FtaCiL'
+        ],
+        'u`tubir' => [
+          'UFtuCiL'
         ]
       },
       'index' => '1',
@@ -44066,6 +44069,9 @@ $Lexicon = {
         'stEr    sotaEar IV_C_Pass_yu    be borrowed'
       ],
       'patterns' => {
+        'ustu`iyr' => [
+          'UstuFIL'
+        ],
         'ista`ar' => [
           'IstaFaL'
         ]
@@ -56122,6 +56128,9 @@ $Lexicon = {
       'patterns' => {
         'ista`ad' => [
           'IstaFaL'
+        ],
+        'ustu`iyd' => [
+          'UstuFIL'
         ]
       },
       'index' => '1',
@@ -67835,6 +67844,9 @@ $Lexicon = {
         '`tamid' => [
           'FtaCiL'
         ],
+        'u`tumid' => [
+          'UFtuCiL'
+        ],
         '`tamad' => [
           'FtaCaL'
         ]
@@ -67877,6 +67889,9 @@ $Lexicon = {
       'patterns' => {
         '`tamid' => [
           'FtaCiL'
+        ],
+        'u`tumid' => [
+          'UFtuCiL'
         ],
         '`tamad' => [
           'FtaCaL'

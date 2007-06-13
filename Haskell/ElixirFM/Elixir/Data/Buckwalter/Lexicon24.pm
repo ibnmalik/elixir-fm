@@ -6886,6 +6886,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'm w ^s y' => [
+    {
+      'types' => {},
+      'entry' => 'muw^siy',
+      'form' => 'muw^siy',
+      'lines' => [
+        ';; muw$iy_1',
+        'mw$y    muw$iy  Nprop   Moshe'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Moshe'
+      ],
+      'orig' => 'muw$iy',
+      'prefix' => ''
+    }
+  ],
   'mahAtmA' => [
     {
       'types' => {},
@@ -7488,6 +7509,46 @@ $Lexicon = {
         'Martin'
       ],
       'orig' => 'mArotiyn',
+      'prefix' => ''
+    }
+  ],
+  'm w m y' => [
+    {
+      'types' => {},
+      'entry' => 'muwmiy',
+      'form' => 'muwmiyaT',
+      'lines' => [
+        ';; muwmiyap_1',
+        'mwmy    muwmiy  Nap     bitumen'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'bitumen'
+      ],
+      'orig' => 'muwmiyap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muwmiy',
+      'form' => 'muwmiyaT',
+      'lines' => [
+        ';; muwmiyap_2',
+        'mwmy    muwmiy  NapAt   mummy'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'mummy'
+      ],
+      'orig' => 'muwmiyap',
       'prefix' => ''
     }
   ],
@@ -9684,27 +9745,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mursiy' => [
-    {
-      'types' => {},
-      'entry' => 'mursiy',
-      'form' => 'mursiyaT',
-      'lines' => [
-        ';; murosiyap_1',
-        'mrsy    murosiy Nap     Murcia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'Murcia'
-      ],
-      'orig' => 'murosiyap',
-      'prefix' => ''
-    }
-  ],
   'miykA' => [
     {
       'types' => {},
@@ -10160,34 +10200,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'immala_h' => [
-    {
-      'types' => {
-        'mmali_h' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'immala_h',
-      'form' => 'immala_h',
-      'lines' => [
-        ';; {im~alax_1',
-        '<mlx    {im~alax        PV_intr be torn out;be dislocated',
-        'Amlx    {im~alax        PV_intr be torn out;be dislocated',
-        'mlx     m~alix  IV_intr be torn out;be dislocated'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be torn out',
-        'be dislocated'
-      ],
-      'orig' => 'Aim~alax',
-      'prefix' => ''
-    }
-  ],
   'm l _h' => [
     {
       'types' => {
@@ -10235,8 +10247,34 @@ $Lexicon = {
         'Anmlx   {inomalax       PV_intr be torn out;be dislocated',
         'nmlx    nomalix IV_intr be torn out;be dislocated'
       ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'InFaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be torn out',
+        'be dislocated'
+      ],
+      'orig' => 'Ainomalax',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'mmali_h' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'immala_h',
+      'form' => 'immala_h',
+      'lines' => [
+        ';; {im~alax_1',
+        '<mlx    {im~alax        PV_intr be torn out;be dislocated',
+        'Amlx    {im~alax        PV_intr be torn out;be dislocated',
+        'mlx     m~alix  IV_intr be torn out;be dislocated'
+      ],
       'patterns' => {
-        'nmali_h' => [
+        'mmali_h' => [
           'NFaCiL'
         ]
       },
@@ -10248,7 +10286,7 @@ $Lexicon = {
         'be torn out',
         'be dislocated'
       ],
-      'orig' => 'Ainomalax',
+      'orig' => 'Aim~alax',
       'prefix' => ''
     },
     {
@@ -10712,8 +10750,34 @@ $Lexicon = {
         'AnmHS   {inomaHaS       PV_intr be clarified;be purified',
         'nmHS    nomaHiS IV_intr be clarified;be purified'
       ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'InFaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be clarified',
+        'be purified'
+      ],
+      'orig' => 'AinomaHaS',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'mma.hi.s' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'imma.ha.s',
+      'form' => 'imma.ha.s',
+      'lines' => [
+        ';; {im~aHaS_1',
+        '<mHS    {im~aHaS        PV_intr be clarified;be purified',
+        'AmHS    {im~aHaS        PV_intr be clarified;be purified',
+        'mHS     m~aHiS  IV_intr be clarified;be purified'
+      ],
       'patterns' => {
-        'nma.hi.s' => [
+        'mma.hi.s' => [
           'NFaCiL'
         ]
       },
@@ -10725,7 +10789,7 @@ $Lexicon = {
         'be clarified',
         'be purified'
       ],
-      'orig' => 'AinomaHaS',
+      'orig' => 'Aim~aHaS',
       'prefix' => ''
     },
     {
@@ -13137,8 +13201,34 @@ $Lexicon = {
         'AnmHq   {inomaHaq       PV_intr be annihilated;perish',
         'nmHq    nomaHiq IV_intr be annihilated;perish'
       ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'InFaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be annihilated',
+        'perish'
+      ],
+      'orig' => 'AinomaHaq',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'mma.hiq' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'imma.haq',
+      'form' => 'imma.haq',
+      'lines' => [
+        ';; {im~aHaq_1',
+        '<mHq    {im~aHaq        PV_intr be annihilated;perish',
+        'AmHq    {im~aHaq        PV_intr be annihilated;perish',
+        'mHq     m~aHiq  IV_intr be annihilated;perish'
+      ],
       'patterns' => {
-        'nma.hiq' => [
+        'mma.hiq' => [
           'NFaCiL'
         ]
       },
@@ -13150,7 +13240,7 @@ $Lexicon = {
         'be annihilated',
         'perish'
       ],
-      'orig' => 'AinomaHaq',
+      'orig' => 'Aim~aHaq',
       'prefix' => ''
     },
     {
@@ -21694,34 +21784,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'imma.ha.s' => [
-    {
-      'types' => {
-        'mma.hi.s' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'imma.ha.s',
-      'form' => 'imma.ha.s',
-      'lines' => [
-        ';; {im~aHaS_1',
-        '<mHS    {im~aHaS        PV_intr be clarified;be purified',
-        'AmHS    {im~aHaS        PV_intr be clarified;be purified',
-        'mHS     m~aHiS  IV_intr be clarified;be purified'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be clarified',
-        'be purified'
-      ],
-      'orig' => 'Aim~aHaS',
-      'prefix' => ''
-    }
-  ],
   'm s r' => [
     {
       'types' => {
@@ -21835,46 +21897,6 @@ $Lexicon = {
         'monk\'s cell'
       ],
       'orig' => 'man$uwbiy~ap',
-      'prefix' => ''
-    }
-  ],
-  'muwmiy' => [
-    {
-      'types' => {},
-      'entry' => 'muwmiy',
-      'form' => 'muwmiyaT',
-      'lines' => [
-        ';; muwmiyap_1',
-        'mwmy    muwmiy  Nap     bitumen'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'bitumen'
-      ],
-      'orig' => 'muwmiyap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'muwmiy',
-      'form' => 'muwmiyaT',
-      'lines' => [
-        ';; muwmiyap_2',
-        'mwmy    muwmiy  NapAt   mummy'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'mummy'
-      ],
-      'orig' => 'muwmiyap',
       'prefix' => ''
     }
   ],
@@ -23109,34 +23131,6 @@ $Lexicon = {
         'inner corners of the eye'
       ],
       'orig' => 'muWoq',
-      'prefix' => ''
-    }
-  ],
-  'imma.haq' => [
-    {
-      'types' => {
-        'mma.hiq' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'imma.haq',
-      'form' => 'imma.haq',
-      'lines' => [
-        ';; {im~aHaq_1',
-        '<mHq    {im~aHaq        PV_intr be annihilated;perish',
-        'AmHq    {im~aHaq        PV_intr be annihilated;perish',
-        'mHq     m~aHiq  IV_intr be annihilated;perish'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be annihilated',
-        'perish'
-      ],
-      'orig' => 'Aim~aHaq',
       'prefix' => ''
     }
   ],
@@ -25098,8 +25092,35 @@ $Lexicon = {
         'Anmls   {inomalas       PV_intr become smooth;glide;slip away',
         'nmls    nomalis IV_intr become smooth;glide;slip away'
       ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'InFaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'become smooth',
+        'glide',
+        'slip away'
+      ],
+      'orig' => 'Ainomalas',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'mmalis' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'immalas',
+      'form' => 'immalas',
+      'lines' => [
+        ';; {im~alas_1',
+        '<mls    {im~alas        PV_intr become smooth;glide;slip away',
+        'Amls    {im~alas        PV_intr become smooth;glide;slip away',
+        'mls     m~alis  IV_intr become smooth;glide;slip away'
+      ],
       'patterns' => {
-        'nmalis' => [
+        'mmalis' => [
           'NFaCiL'
         ]
       },
@@ -25112,7 +25133,7 @@ $Lexicon = {
         'glide',
         'slip away'
       ],
-      'orig' => 'Ainomalas',
+      'orig' => 'Aim~alas',
       'prefix' => ''
     },
     {
@@ -26650,39 +26671,6 @@ $Lexicon = {
       ],
       'orig' => 'mA$iyap',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'muw^siy',
-      'form' => 'muw^siy',
-      'lines' => [
-        ';; muw$iy_1',
-        'mw$y    muw$iy  Nprop   Moshe'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MUCI',
-      'suffix' => '',
-      'glosses' => [
-        'Moshe'
-      ],
-      'orig' => 'muw$iy',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'muw^siy',
-      'form' => 'muw^siy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCI',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'muw$iy',
-      'prefix' => ''
     }
   ],
   'mAynhuwf' => [
@@ -28086,6 +28074,27 @@ $Lexicon = {
         'mosaic'
       ],
       'orig' => 'muwzAyokuw',
+      'prefix' => ''
+    }
+  ],
+  'm r s y' => [
+    {
+      'types' => {},
+      'entry' => 'mursiy',
+      'form' => 'mursiyaT',
+      'lines' => [
+        ';; murosiyap_1',
+        'mrsy    murosiy Nap     Murcia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'Murcia'
+      ],
+      'orig' => 'murosiyap',
       'prefix' => ''
     }
   ],
@@ -30713,57 +30722,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'imma.hY' => [
-    {
-      'types' => {
-        'imma.hA' => {
-          'PV_h' => 2
-        },
-        'imma.h' => {
-          'PV_ttAw_intr' => 2
-        },
-        'imma.hay' => {
-          'PV_Atn' => 2
-        },
-        'mma.hY' => {
-          'IV_0_Pass_yu' => 1
-        },
-        'mma.h' => {
-          'IV_0hwnyn' => 1
-        },
-        'mma.hiy' => {
-          'IV_0hAnn' => 1
-        }
-      },
-      'entry' => 'imma.hY',
-      'form' => 'imma.hY',
-      'lines' => [
-        ';; {im~aHaY_1',
-        '<mHY    {im~aHaY        PV_0    be eradicated;be exterminated',
-        'AmHY    {im~aHaY        PV_0    be eradicated;be exterminated',
-        '<mHA    {im~aHA PV_h    be eradicated;be exterminated',
-        'AmHA    {im~aHA PV_h    be eradicated;be exterminated',
-        '<mHy    {im~aHay        PV_Atn  be eradicated;be exterminated',
-        'AmHy    {im~aHay        PV_Atn  be eradicated;be exterminated',
-        '<mH     {im~aH  PV_ttAw_intr    be eradicated;be exterminated',
-        'AmH     {im~aH  PV_ttAw_intr    be eradicated;be exterminated',
-        'mHy     m~aHiy  IV_0hAnn        be eradicated;be exterminated',
-        'mH      m~aH    IV_0hwnyn       be eradicated;be exterminated',
-        'mHY     m~aHaY  IV_0_Pass_yu    be eradicated;be exterminated'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be eradicated',
-        'be exterminated'
-      ],
-      'orig' => 'Aim~aHaY',
-      'prefix' => ''
-    }
-  ],
   'm .d \'' => [
     {
       'types' => {
@@ -33111,12 +33069,61 @@ $Lexicon = {
         'nmH     nomaH   IV_0hwnyn       be eradicated;be exterminated',
         'nmHY    nomaHaY IV_0_Pass_yu    be eradicated;be exterminated'
       ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'InFaCY',
+      'suffix' => '',
+      'glosses' => [
+        'be eradicated',
+        'be exterminated'
+      ],
+      'orig' => 'AinomaHaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'imma.hA' => {
+          'PV_h' => 2
+        },
+        'imma.h' => {
+          'PV_ttAw_intr' => 2
+        },
+        'imma.hay' => {
+          'PV_Atn' => 2
+        },
+        'mma.hY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        'mma.h' => {
+          'IV_0hwnyn' => 1
+        },
+        'mma.hiy' => {
+          'IV_0hAnn' => 1
+        }
+      },
+      'entry' => 'imma.hY',
+      'form' => 'imma.hY',
+      'lines' => [
+        ';; {im~aHaY_1',
+        '<mHY    {im~aHaY        PV_0    be eradicated;be exterminated',
+        'AmHY    {im~aHaY        PV_0    be eradicated;be exterminated',
+        '<mHA    {im~aHA PV_h    be eradicated;be exterminated',
+        'AmHA    {im~aHA PV_h    be eradicated;be exterminated',
+        '<mHy    {im~aHay        PV_Atn  be eradicated;be exterminated',
+        'AmHy    {im~aHay        PV_Atn  be eradicated;be exterminated',
+        '<mH     {im~aH  PV_ttAw_intr    be eradicated;be exterminated',
+        'AmH     {im~aH  PV_ttAw_intr    be eradicated;be exterminated',
+        'mHy     m~aHiy  IV_0hAnn        be eradicated;be exterminated',
+        'mH      m~aH    IV_0hwnyn       be eradicated;be exterminated',
+        'mHY     m~aHaY  IV_0_Pass_yu    be eradicated;be exterminated'
+      ],
       'patterns' => {
-        'nma.hY' => [
-          'NFaCY'
-        ],
-        'nma.hiy' => [
+        'mma.hiy' => [
           'NFaCI'
+        ],
+        'mma.hY' => [
+          'NFaCY'
         ]
       },
       'index' => '1',
@@ -33127,7 +33134,7 @@ $Lexicon = {
         'be eradicated',
         'be exterminated'
       ],
-      'orig' => 'AinomaHaY',
+      'orig' => 'Aim~aHaY',
       'prefix' => ''
     },
     {
@@ -33280,7 +33287,7 @@ $Lexicon = {
         'AmHA\'   {im~iHA\'        NAt     extinction;eradication'
       ],
       'patterns' => {
-        'inmi.hA\'' => [
+        'immi.hA\'' => [
           'InFiCA\''
         ]
       },
@@ -40971,35 +40978,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'immalas' => [
-    {
-      'types' => {
-        'mmalis' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'immalas',
-      'form' => 'immalas',
-      'lines' => [
-        ';; {im~alas_1',
-        '<mls    {im~alas        PV_intr become smooth;glide;slip away',
-        'Amls    {im~alas        PV_intr become smooth;glide;slip away',
-        'mls     m~alis  IV_intr become smooth;glide;slip away'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'become smooth',
-        'glide',
-        'slip away'
-      ],
-      'orig' => 'Aim~alas',
-      'prefix' => ''
-    }
-  ],
   'm w f z' => [
     {
       'types' => {},
@@ -43585,17 +43563,7 @@ $Lexicon = {
         'nmAE    nomAE   IV_V_intr       be melted;be dissolved',
         'nmE     nomaE   IV_C_intr       be melted;be dissolved'
       ],
-      'patterns' => {
-        'nmA`' => [
-          'NFAL'
-        ],
-        'nma`' => [
-          'NFaL'
-        ],
-        'inma`' => [
-          'InFaL'
-        ]
-      },
+      'patterns' => {},
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'InFAL',
@@ -44951,7 +44919,7 @@ $Lexicon = {
       'form' => 'inmi.hA\'',
       'lines' => [],
       'patterns' => {
-        'inmi.hA\'' => [
+        'immi.hA\'' => [
           'InFiCAL',
           'InFiCA\''
         ]
@@ -44962,6 +44930,27 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'AinomiHA\'',
+      'prefix' => ''
+    }
+  ],
+  'mAstirz' => [
+    {
+      'types' => {},
+      'entry' => 'mAstirz',
+      'form' => 'mAstirz',
+      'lines' => [
+        ';; mAsotiroz_1',
+        'mAstrz  mAsotiroz       N0      Masters'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Masters'
+      ],
+      'orig' => 'mAsotiroz',
       'prefix' => ''
     }
   ],
@@ -44988,27 +44977,6 @@ $Lexicon = {
         'Mitchell'
       ],
       'orig' => 'miyto$il',
-      'prefix' => ''
-    }
-  ],
-  'mAstirz' => [
-    {
-      'types' => {},
-      'entry' => 'mAstirz',
-      'form' => 'mAstirz',
-      'lines' => [
-        ';; mAsotiroz_1',
-        'mAstrz  mAsotiroz       N0      Masters'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Masters'
-      ],
-      'orig' => 'mAsotiroz',
       'prefix' => ''
     }
   ],
@@ -46003,9 +45971,6 @@ $Lexicon->{'m n \''}[3]{'glosses'} = $Lexicon->{'m n \''}[2]{'glosses'};
 $Lexicon->{'m ` w'}[1]{'types'} = $Lexicon->{'m ` \''}[0]{'types'};
 $Lexicon->{'m ` w'}[1]{'lines'} = $Lexicon->{'m ` \''}[0]{'lines'};
 $Lexicon->{'m ` w'}[1]{'glosses'} = $Lexicon->{'m ` \''}[0]{'glosses'};
-$Lexicon->{'m ^s y'}[14]{'types'} = $Lexicon->{'m ^s y'}[13]{'types'};
-$Lexicon->{'m ^s y'}[14]{'lines'} = $Lexicon->{'m ^s y'}[13]{'lines'};
-$Lexicon->{'m ^s y'}[14]{'glosses'} = $Lexicon->{'m ^s y'}[13]{'glosses'};
 $Lexicon->{'m t l'}[0]{'types'} = $Lexicon->{'m l l'}[3]{'types'};
 $Lexicon->{'m t l'}[0]{'lines'} = $Lexicon->{'m l l'}[3]{'lines'};
 $Lexicon->{'m t l'}[0]{'glosses'} = $Lexicon->{'m l l'}[3]{'glosses'};
@@ -46024,9 +45989,9 @@ $Lexicon->{'m ^s ^s'}[4]{'glosses'} = $Lexicon->{'m ^s \''}[0]{'glosses'};
 $Lexicon->{'m d y'}[6]{'types'} = $Lexicon->{'m d d'}[32]{'types'};
 $Lexicon->{'m d y'}[6]{'lines'} = $Lexicon->{'m d d'}[32]{'lines'};
 $Lexicon->{'m d y'}[6]{'glosses'} = $Lexicon->{'m d d'}[32]{'glosses'};
-$Lexicon->{'m .h w'}[8]{'types'} = $Lexicon->{'m .h y'}[1]{'types'};
-$Lexicon->{'m .h w'}[8]{'lines'} = $Lexicon->{'m .h y'}[1]{'lines'};
-$Lexicon->{'m .h w'}[8]{'glosses'} = $Lexicon->{'m .h y'}[1]{'glosses'};
+$Lexicon->{'m .h w'}[9]{'types'} = $Lexicon->{'m .h y'}[1]{'types'};
+$Lexicon->{'m .h w'}[9]{'lines'} = $Lexicon->{'m .h y'}[1]{'lines'};
+$Lexicon->{'m .h w'}[9]{'glosses'} = $Lexicon->{'m .h y'}[1]{'glosses'};
 $Lexicon->{'m r \''}[8]{'types'} = $Lexicon->{'m r y'}[5]{'types'};
 $Lexicon->{'m r \''}[8]{'lines'} = $Lexicon->{'m r y'}[5]{'lines'};
 $Lexicon->{'m r \''}[8]{'glosses'} = $Lexicon->{'m r y'}[5]{'glosses'};
@@ -46135,6 +46100,6 @@ $Lexicon->{'m s \''}[2]{'glosses'} = $Lexicon->{'m s w'}[5]{'glosses'};
 $Lexicon->{'m y m y'}[0]{'types'} = $Lexicon->{'m y m'}[0]{'types'};
 $Lexicon->{'m y m y'}[0]{'lines'} = $Lexicon->{'m y m'}[0]{'lines'};
 $Lexicon->{'m y m y'}[0]{'glosses'} = $Lexicon->{'m y m'}[0]{'glosses'};
-$Lexicon->{'m .h \''}[0]{'types'} = $Lexicon->{'m .h w'}[7]{'types'};
-$Lexicon->{'m .h \''}[0]{'lines'} = $Lexicon->{'m .h w'}[7]{'lines'};
-$Lexicon->{'m .h \''}[0]{'glosses'} = $Lexicon->{'m .h w'}[7]{'glosses'};
+$Lexicon->{'m .h \''}[0]{'types'} = $Lexicon->{'m .h w'}[8]{'types'};
+$Lexicon->{'m .h \''}[0]{'lines'} = $Lexicon->{'m .h w'}[8]{'lines'};
+$Lexicon->{'m .h \''}[0]{'glosses'} = $Lexicon->{'m .h w'}[8]{'glosses'};

@@ -1265,6 +1265,12 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FILAn
                            {- `others`  [ "'a_hwAr N", "_hiyrAn N" ] -} ]
 
+ |> "_h w r y" <| [
+
+    KuRDI                     `noun`    {- xuwriy -}           [ "priest", "priests" ],
+
+    KuRDI                     `noun`    {- xuwriy -}           [ "Khouri" ] ]
+
  |> "_h w s h" <| [
 
     KuRDIS                    `noun`    {- xuwsiyh -}          [ "Jose" ] ]

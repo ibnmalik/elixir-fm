@@ -7524,8 +7524,8 @@ bAE     bAE     PV_V    sell
 bE      biE     PV_C    sell
 byE     biyE    IV_V    sell
 bE      biE     IV_C    sell
-;; byE_1
-byE     byE     PV_V_Pass       be sold
+;; biyE_1
+byE     biyE    PV_V_Pass       be sold
 bAE     bAE     IV_V_Pass_yu    be sold
 bE      baE     IV_C_Pass_yu    be sold
 ;; bAyaE_1

@@ -46232,6 +46232,22 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'q w n y' => [
+    {
+      'types' => {},
+      'entry' => 'quwniy',
+      'form' => 'quwniyaT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
+      'orig' => 'quwniyap',
+      'prefix' => ''
+    }
+  ],
   'qalandAr' => [
     {
       'types' => {},
@@ -58702,6 +58718,9 @@ $Lexicon->{'q y t'}[0]{'glosses'} = $Lexicon->{'q w t'}[8]{'glosses'};
 $Lexicon->{'q y t'}[1]{'types'} = $Lexicon->{'q w t'}[9]{'types'};
 $Lexicon->{'q y t'}[1]{'lines'} = $Lexicon->{'q w t'}[9]{'lines'};
 $Lexicon->{'q y t'}[1]{'glosses'} = $Lexicon->{'q w t'}[9]{'glosses'};
+$Lexicon->{'q w n y'}[0]{'types'} = $Lexicon->{'q n y'}[4]{'types'};
+$Lexicon->{'q w n y'}[0]{'lines'} = $Lexicon->{'q n y'}[4]{'lines'};
+$Lexicon->{'q w n y'}[0]{'glosses'} = $Lexicon->{'q n y'}[4]{'glosses'};
 $Lexicon->{'q y .z'}[3]{'types'} = $Lexicon->{'q \' .z'}[0]{'types'};
 $Lexicon->{'q y .z'}[3]{'lines'} = $Lexicon->{'q \' .z'}[0]{'lines'};
 $Lexicon->{'q y .z'}[3]{'glosses'} = $Lexicon->{'q \' .z'}[0]{'glosses'};

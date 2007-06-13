@@ -3908,6 +3908,15 @@ lexicon = listing "Lexicon's properties"
     -- ;; {isotaxofaY_1
     -- <stxfY  {isotaxofaY     PV_0    hide;be hidden;disappear
     -- AstxfY  {isotaxofaY     PV_0    hide;be hidden;disappear
+    -- <stxfA  {isotaxofA      PV_h    hide
+    -- AstxfA  {isotaxofA      PV_h    hide
+    -- <stxfy  {isotaxofay     PV_Atn  hide;be hidden;disappear
+    -- Astxfy  {isotaxofay     PV_Atn  hide;be hidden;disappear
+    -- <stxf   {isotaxof       PV_ttAw hide;be hidden;disappear
+    -- Astxf   {isotaxof       PV_ttAw hide;be hidden;disappear
+    -- stxfy   sotaxofiy       IV_0hAnn        hide;be hidden;disappear
+    -- stxf    sotaxof IV_0hwnyn       hide;be hidden;disappear
+    -- stxfY   sotaxofaY       IV_0_Pass_yu    be hidden
 
     IstaFCY                   `verb`    {- AisotaxofaY -}      [ "hide", "be hidden", "disappear" ],
 
@@ -8681,6 +8690,17 @@ lexicon = listing "Lexicon's properties"
 
  |> "_h w r y" <| [
 
+    -- ;; xuwriy_1
+    -- xwry    xuwriy  N0      priest
+    -- xwArn   xawArin Nap     priests
+
+    KuRDI                     `noun`    {- xuwriy -}           [ "priest", "priests" ],
+
+    -- ;; xuwriy_2
+    -- xwry    xuwriy  N0      Khouri
+
+    KuRDI                     `noun`    {- xuwriy -}           [ "Khouri" ],
+
     -- ;; xuwraY_1
     -- xwrY    xuwraY  N0      better;superior
 
@@ -10078,21 +10098,6 @@ lexicon = listing "Lexicon's properties"
     -- xwAn    xwAn    Nprop   Juan
 
     Identity                  `noun`    {- xwAn -}             [ "Juan" ] ]
-
- |> "ista_hfA" <| [
-
-    -- ;; {isotaxofA_1
-    -- <stxfA  {isotaxofA      PV_h    hide
-    -- AstxfA  {isotaxofA      PV_h    hide
-    -- <stxfy  {isotaxofay     PV_Atn  hide;be hidden;disappear
-    -- Astxfy  {isotaxofay     PV_Atn  hide;be hidden;disappear
-    -- <stxf   {isotaxof       PV_ttAw hide;be hidden;disappear
-    -- Astxf   {isotaxof       PV_ttAw hide;be hidden;disappear
-    -- stxfy   sotaxofiy       IV_0hAnn        hide;be hidden;disappear
-    -- stxf    sotaxof IV_0hwnyn       hide;be hidden;disappear
-    -- stxfY   sotaxofaY       IV_0_Pass_yu    be hidden
-
-    Identity                  `verb`    {- AisotaxofA -}       [ "hide", "be hidden", "disappear" ] ]
 
  |> "kuwrfisqufuws" <| [
 

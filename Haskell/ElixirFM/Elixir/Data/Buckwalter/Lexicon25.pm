@@ -6087,6 +6087,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'n w b l' => [
+    {
+      'types' => {},
+      'entry' => 'nuwbil',
+      'form' => 'nuwbil',
+      'lines' => [
+        ';; nuwbil_1',
+        'nwbl    nuwbil  N0      Nobel'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'Nobel'
+      ],
+      'orig' => 'nuwbil',
+      'prefix' => ''
+    }
+  ],
   'n .t s' => [
     {
       'types' => {},
@@ -6992,27 +7013,6 @@ $Lexicon = {
         'Nissan'
       ],
       'orig' => 'niysAn',
-      'prefix' => ''
-    }
-  ],
-  'nuwbil' => [
-    {
-      'types' => {},
-      'entry' => 'nuwbil',
-      'form' => 'nuwbil',
-      'lines' => [
-        ';; nuwbil_1',
-        'nwbl    nuwbil  N0      Nobel'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Nobel'
-      ],
-      'orig' => 'nuwbil',
       'prefix' => ''
     }
   ],
@@ -22183,6 +22183,9 @@ $Lexicon = {
       'patterns' => {
         'nta_hab' => [
           'FtaCaL'
+        ],
+        'untu_hib' => [
+          'UFtuCiL'
         ],
         'nta_hib' => [
           'FtaCiL'
@@ -55953,6 +55956,22 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'n w r y' => [
+    {
+      'types' => {},
+      'entry' => 'nuwriy',
+      'form' => 'nuwriy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'nuwriy',
+      'prefix' => ''
+    }
+  ],
   'n ^s n ^s' => [
     {
       'types' => {
@@ -61899,6 +61918,9 @@ $Lexicon = {
       'patterns' => {
         'ntaqad' => [
           'FtaCaL'
+        ],
+        'untuqid' => [
+          'UFtuCiL'
         ],
         'ntaqid' => [
           'FtaCiL'
@@ -72138,6 +72160,9 @@ $Lexicon->{'n f y'}[4]{'glosses'} = $Lexicon->{'n f w'}[13]{'glosses'};
 $Lexicon->{'n f y'}[5]{'types'} = $Lexicon->{'n f w'}[16]{'types'};
 $Lexicon->{'n f y'}[5]{'lines'} = $Lexicon->{'n f w'}[16]{'lines'};
 $Lexicon->{'n f y'}[5]{'glosses'} = $Lexicon->{'n f w'}[16]{'glosses'};
+$Lexicon->{'n w r y'}[0]{'types'} = $Lexicon->{'n r y'}[0]{'types'};
+$Lexicon->{'n w r y'}[0]{'lines'} = $Lexicon->{'n r y'}[0]{'lines'};
+$Lexicon->{'n w r y'}[0]{'glosses'} = $Lexicon->{'n r y'}[0]{'glosses'};
 $Lexicon->{'n f \''}[0]{'types'} = $Lexicon->{'n f w'}[6]{'types'};
 $Lexicon->{'n f \''}[0]{'lines'} = $Lexicon->{'n f w'}[6]{'lines'};
 $Lexicon->{'n f \''}[0]{'glosses'} = $Lexicon->{'n f w'}[6]{'glosses'};

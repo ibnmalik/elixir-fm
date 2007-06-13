@@ -232,46 +232,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwbin' => [
-    {
-      'types' => {},
-      'entry' => 'ruwbin',
-      'form' => 'ruwbin',
-      'lines' => [
-        ';; ruwbin_1',
-        'rwbn    ruwbin  Nprop   Robin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Robin'
-      ],
-      'orig' => 'ruwbin',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ruwbin',
-      'form' => 'ruwbin',
-      'lines' => [
-        ';; ruwbin_2',
-        'rwbn    ruwbin  Nprop   Reuben'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Reuben'
-      ],
-      'orig' => 'ruwbin',
-      'prefix' => ''
-    }
-  ],
   'r _h w' => [
     {
       'types' => {
@@ -3154,6 +3114,44 @@ $Lexicon = {
   'r w b n' => [
     {
       'types' => {},
+      'entry' => 'ruwbin',
+      'form' => 'ruwbin',
+      'lines' => [
+        ';; ruwbin_1',
+        'rwbn    ruwbin  Nprop   Robin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'Robin'
+      ],
+      'orig' => 'ruwbin',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ruwbin',
+      'form' => 'ruwbin',
+      'lines' => [
+        ';; ruwbin_2',
+        'rwbn    ruwbin  Nprop   Reuben'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'Reuben'
+      ],
+      'orig' => 'ruwbin',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'ruwbiyn',
       'form' => 'ruwbiyn',
       'lines' => [
@@ -4437,6 +4435,9 @@ $Lexicon = {
       'patterns' => {
         'rtakib' => [
           'FtaCiL'
+        ],
+        'urtukib' => [
+          'UFtuCiL'
         ],
         'rtakab' => [
           'FtaCaL'
@@ -10494,6 +10495,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'r w f r' => [
+    {
+      'types' => {},
+      'entry' => 'ruwfir',
+      'form' => 'ruwfir',
+      'lines' => [
+        ';; ruwfir_1',
+        'rwfr    ruwfir  Nprop   Rover'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'Rover'
+      ],
+      'orig' => 'ruwfir',
+      'prefix' => ''
+    }
+  ],
   'r _h \'' => [
     {
       'types' => {},
@@ -12190,6 +12212,28 @@ $Lexicon = {
         'Reich'
       ],
       'orig' => 'rAyox',
+      'prefix' => ''
+    }
+  ],
+  'r w n y' => [
+    {
+      'types' => {},
+      'entry' => 'ruwniy',
+      'form' => 'ruwniy',
+      'lines' => [
+        ';; ruwniy_1',
+        'rwny    ruwniy  Nprop   Ronny;Ronnie'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Ronny',
+        'Ronnie'
+      ],
+      'orig' => 'ruwniy',
       'prefix' => ''
     }
   ],
@@ -25111,19 +25155,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'ruwniy',
       'form' => 'ruwniy',
-      'lines' => [
-        ';; ruwniy_1',
-        'rwny    ruwniy  Nprop   Ronny;Ronnie'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FUCI',
       'suffix' => '',
-      'glosses' => [
-        'Ronny',
-        'Ronnie'
-      ],
+      'glosses' => [],
       'orig' => 'ruwniy',
       'prefix' => ''
     }
@@ -34788,6 +34826,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'r w d y' => [
+    {
+      'types' => {},
+      'entry' => 'ruwdiy',
+      'form' => 'ruwdiy',
+      'lines' => [
+        ';; ruwdiy_1',
+        'rwdy    ruwdiy  Nprop   Rudi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Rudi'
+      ],
+      'orig' => 'ruwdiy',
+      'prefix' => ''
+    }
+  ],
   'r w _t' => [
     {
       'types' => {
@@ -35873,6 +35932,27 @@ $Lexicon = {
         'litharge (chem.)'
       ],
       'orig' => 'marotak',
+      'prefix' => ''
+    }
+  ],
+  'r w b l' => [
+    {
+      'types' => {},
+      'entry' => 'ruwbil',
+      'form' => 'ruwbil',
+      'lines' => [
+        ';; ruwbil_1',
+        'rwbl    ruwbil  N       ruble'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'ruble'
+      ],
+      'orig' => 'ruwbil',
       'prefix' => ''
     }
   ],
@@ -41829,27 +41909,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwbil' => [
-    {
-      'types' => {},
-      'entry' => 'ruwbil',
-      'form' => 'ruwbil',
-      'lines' => [
-        ';; ruwbil_1',
-        'rwbl    ruwbil  N       ruble'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'ruble'
-      ],
-      'orig' => 'ruwbil',
-      'prefix' => ''
-    }
-  ],
   '\'arba`mA\'' => [
     {
       'types' => {},
@@ -42346,6 +42405,27 @@ $Lexicon = {
       'suffix' => ' |<< "awIy"',
       'glosses' => [],
       'orig' => 'raHawiy~',
+      'prefix' => ''
+    }
+  ],
+  'r ^s d y' => [
+    {
+      'types' => {},
+      'entry' => 'ru^sdiy',
+      'form' => 'ru^sdiy',
+      'lines' => [
+        ';; ru$odiy_1',
+        'r$dy    ru$odiy Nprop   Rushdi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Rushdi'
+      ],
+      'orig' => 'ru$odiy',
       'prefix' => ''
     }
   ],
@@ -46988,27 +47068,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ru^sdiy' => [
-    {
-      'types' => {},
-      'entry' => 'ru^sdiy',
-      'form' => 'ru^sdiy',
-      'lines' => [
-        ';; ru$odiy_1',
-        'r$dy    ru$odiy Nprop   Rushdi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rushdi'
-      ],
-      'orig' => 'ru$odiy',
-      'prefix' => ''
-    }
-  ],
   'r t l' => [
     {
       'types' => {
@@ -49163,27 +49222,6 @@ $Lexicon = {
         'fragments'
       ],
       'orig' => 'muraq~aEAt',
-      'prefix' => ''
-    }
-  ],
-  'ruwfir' => [
-    {
-      'types' => {},
-      'entry' => 'ruwfir',
-      'form' => 'ruwfir',
-      'lines' => [
-        ';; ruwfir_1',
-        'rwfr    ruwfir  Nprop   Rover'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rover'
-      ],
-      'orig' => 'ruwfir',
       'prefix' => ''
     }
   ],
@@ -51592,18 +51630,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'ruwdiy',
       'form' => 'ruwdiy',
-      'lines' => [
-        ';; ruwdiy_1',
-        'rwdy    ruwdiy  Nprop   Rudi'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FUCI',
       'suffix' => '',
-      'glosses' => [
-        'Rudi'
-      ],
+      'glosses' => [],
       'orig' => 'ruwdiy',
       'prefix' => ''
     }
@@ -53656,6 +53689,9 @@ $Lexicon->{'r t d'}[1]{'glosses'} = $Lexicon->{'r d d'}[15]{'glosses'};
 $Lexicon->{'r t d'}[2]{'types'} = $Lexicon->{'r d d'}[19]{'types'};
 $Lexicon->{'r t d'}[2]{'lines'} = $Lexicon->{'r d d'}[19]{'lines'};
 $Lexicon->{'r t d'}[2]{'glosses'} = $Lexicon->{'r d d'}[19]{'glosses'};
+$Lexicon->{'r n y'}[2]{'types'} = $Lexicon->{'r w n y'}[0]{'types'};
+$Lexicon->{'r n y'}[2]{'lines'} = $Lexicon->{'r w n y'}[0]{'lines'};
+$Lexicon->{'r n y'}[2]{'glosses'} = $Lexicon->{'r w n y'}[0]{'glosses'};
 $Lexicon->{'r \' `'}[2]{'types'} = $Lexicon->{'r y `'}[7]{'types'};
 $Lexicon->{'r \' `'}[2]{'lines'} = $Lexicon->{'r y `'}[7]{'lines'};
 $Lexicon->{'r \' `'}[2]{'glosses'} = $Lexicon->{'r y `'}[7]{'glosses'};
@@ -53830,6 +53866,9 @@ $Lexicon->{'r d y'}[6]{'glosses'} = $Lexicon->{'r d \''}[7]{'glosses'};
 $Lexicon->{'r d y'}[7]{'types'} = $Lexicon->{'r d \''}[8]{'types'};
 $Lexicon->{'r d y'}[7]{'lines'} = $Lexicon->{'r d \''}[8]{'lines'};
 $Lexicon->{'r d y'}[7]{'glosses'} = $Lexicon->{'r d \''}[8]{'glosses'};
+$Lexicon->{'r d y'}[9]{'types'} = $Lexicon->{'r w d y'}[0]{'types'};
+$Lexicon->{'r d y'}[9]{'lines'} = $Lexicon->{'r w d y'}[0]{'lines'};
+$Lexicon->{'r d y'}[9]{'glosses'} = $Lexicon->{'r w d y'}[0]{'glosses'};
 $Lexicon->{'r w q'}[8]{'types'} = $Lexicon->{'r \' q'}[0]{'types'};
 $Lexicon->{'r w q'}[8]{'lines'} = $Lexicon->{'r \' q'}[0]{'lines'};
 $Lexicon->{'r w q'}[8]{'glosses'} = $Lexicon->{'r \' q'}[0]{'glosses'};

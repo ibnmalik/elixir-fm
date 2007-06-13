@@ -9144,12 +9144,7 @@ lexicon = listing "Lexicon's properties"
 
     FACI |< aT                `noun`    {- sAniyap -}          [ "water scoop", "water scoops" ]
                               `plural`     FawACI
-                           {- `others`  [ "sawAniy N0_Nh" ] -},
-
-    -- ;; suwniy_1
-    -- swny    suwniy  Nprop   Sony
-
-    FUCI                      `noun`    {- suwniy -}           [ "Sony" ] ]
+                           {- `others`  [ "sawAniy N0_Nh" ] -} ]
 
  |> "s n y r" <| [
 
@@ -11301,13 +11296,6 @@ lexicon = listing "Lexicon's properties"
     FiCL                      `noun`    {- sit~ -}             [ "lady", "miss", "ladies", "misses" ]
                               `plural`     FiCL |< At ]
 
- |> "s t y" <| [
-
-    -- ;; suwtiy_1
-    -- swty    suwtiy  Nprop   Sutee
-
-    FUCI                      `noun`    {- suwtiy -}           [ "Sutee" ] ]
-
  |> "s w '" <| [
 
     -- ;; sA'-u_1
@@ -12054,12 +12042,32 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawA'iL
                            {- `others`  [ "sawA'im Ndip" ] -} ]
 
+ |> "s w m r" <| [
+
+    -- ;; suwmir_1
+    -- swmr    suwmir  Ndip    Sumer
+
+    KuRDiS                    `noun`    {- suwmir -}           [ "Sumer" ],
+
+    -- ;; suwmiriy~_1
+    -- swmry   suwmiriy~       Nall    Sumerian     [[suwmiriy~/NOUN]]
+    -- swmry   suwmiriy~       Nall    Sumerian     [[suwmiriy~/ADJ]]
+
+    KuRDiS |< Iy              `adj`     {- suwmiriy~ -}        [ "Sumerian" ] ]
+
  |> "s w m w" <| [
 
     -- ;; suwmuw_1
     -- swmw    suwmuw  N0      SOMO (State Oil Marketing Organization)
 
     KuRDU                     `noun`    {- suwmuw -}           [ "SOMO (State Oil Marketing Organization)" ] ]
+
+ |> "s w n y" <| [
+
+    -- ;; suwniy_1
+    -- swny    suwniy  Nprop   Sony
+
+    KuRDI                     `noun`    {- suwniy -}           [ "Sony" ] ]
 
  |> "s w q" <| [
 
@@ -12400,6 +12408,13 @@ lexicon = listing "Lexicon's properties"
     -- swtw    suwtuw  Nprop   Soto
 
     KuRDU                     `noun`    {- suwtuw -}           [ "Soto" ] ]
+
+ |> "s w t y" <| [
+
+    -- ;; suwtiy_1
+    -- swty    suwtiy  Nprop   Sutee
+
+    KuRDI                     `noun`    {- suwtiy -}           [ "Sutee" ] ]
 
  |> "s w w" <| [
 
@@ -15150,19 +15165,6 @@ lexicon = listing "Lexicon's properties"
     -- swmTr   suwmaTr Nap     Sumatra
 
     Identity |< aT            `noun`    {- suwmaTrap -}        [ "Sumatra" ] ]
-
- |> "suwmir" <| [
-
-    -- ;; suwmir_1
-    -- swmr    suwmir  Ndip    Sumer
-
-    Identity                  `noun`    {- suwmir -}           [ "Sumer" ],
-
-    -- ;; suwmiriy~_1
-    -- swmry   suwmiriy~       Nall    Sumerian     [[suwmiriy~/NOUN]]
-    -- swmry   suwmiriy~       Nall    Sumerian     [[suwmiriy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- suwmiriy~ -}        [ "Sumerian" ] ]
 
  |> "suwniyA" <| [
 

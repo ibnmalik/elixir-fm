@@ -1934,6 +1934,10 @@ lexicon = listing "Lexicon's properties"
 
     MustaFCaL                 `adj`     {- musotaHosan -}      [ "pleasant", "approved" ] ]
 
+ |> ".h s n y" <| [
+
+    KuRDI                     `noun`    {- Husoniy -}          [ "Hosny", "Hosni" ] ]
+
  |> ".h s r" <| [
 
     InFaCaL                   `verb`    {- AinoHasar -}        [ "be removed", "disappear" ],
@@ -2514,10 +2518,6 @@ lexicon = listing "Lexicon's properties"
  |> ".hu^gaylAn" <| [
 
     Identity                  `noun`    {- HujayolAn -}        [ "Hejailan", "Hujailan" ] ]
-
- |> ".husniy" <| [
-
-    Identity                  `noun`    {- Husoniy -}          [ "Hosny", "Hosni" ] ]
 
  |> "mu.hayyA" <| [
 

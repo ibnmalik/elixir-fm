@@ -2955,7 +2955,7 @@ AstTAr  {isotaTAr       PV_V    fly apart;scatter;agitate
 AstTr   {isotaTar       PV_C    fly apart;scatter;agitate
 stTyr   sotaTiyr        IV_V    fly apart;scatter;agitate
 stTr    sotaTir IV_C    fly apart;scatter;agitate
-;; {isotaTAr_2
+;; {usotuTiyr_2
 <stTyr  {usotuTiyr      PV_V_intr       be terrified
 AstTyr  {usotuTiyr      PV_V_intr       be terrified
 <stTr   {usotuTir       PV_C_intr       be terrified

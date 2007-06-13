@@ -2727,6 +2727,13 @@ lexicon = listing "Lexicon's properties"
 
     KuRDAS                    `noun`    {- tuwmAs -}           [ "Thomas", "Tomas" ] ]
 
+ |> "t w m y" <| [
+
+    -- ;; tuwmiy_1
+    -- twmy    tuwmiy  Nprop   Tommy
+
+    KuRDI                     `noun`    {- tuwmiy -}           [ "Tommy" ] ]
+
  |> "t w n" <| [
 
     -- ;; tAwn_1
@@ -2741,6 +2748,24 @@ lexicon = listing "Lexicon's properties"
 
  |> "t w n s" <| [
 
+    -- ;; tuwnis_1
+    -- twns    tuwnis  N0      Tunis
+
+    KuRDiS                    `noun`    {- tuwnis -}           [ "Tunis" ],
+
+    -- ;; tuwnis_2
+    -- twns    tuwnis  N0      Tunisia
+
+    KuRDiS                    `noun`    {- tuwnis -}           [ "Tunisia" ],
+
+    -- ;; tuwnisiy~_1
+    -- twnsy   tuwnisiy~       Nall    Tunisian     [[tuwnisiy~/NOUN]]
+    -- twnsy   tuwnisiy~       Nall    Tunisian     [[tuwnisiy~/ADJ]]
+    -- twAns   tawAnis Nap     Tunisians
+
+    KuRDiS |< Iy              `adj`     {- tuwnisiy~ -}        [ "Tunisian", "Tunisians" ]
+                              `plural`     KaRADiS |< aT,
+
     -- ;; tawonas_1
     -- twns    tawonas PV      make Tunisian;Tunisianize
     -- twns    tawonis IV_yu   make Tunisian;Tunisianize
@@ -2751,6 +2776,18 @@ lexicon = listing "Lexicon's properties"
     -- twns    tawonas Nap     Tunisianization
 
     KaRDaS |< aT              `noun`    {- tawonasap -}        [ "Tunisianization" ] ]
+
+ |> "t w n y" <| [
+
+    -- ;; tuwniy_1
+    -- twny    tuwniy  Nprop   Toni
+
+    KuRDI                     `noun`    {- tuwniy -}           [ "Toni" ],
+
+    -- ;; tuwniy_2
+    -- twny    tuwniy  N0      Toni
+
+    KuRDI                     `noun`    {- tuwniy -}           [ "Toni" ] ]
 
  |> "t w q" <| [
 
@@ -4131,25 +4168,6 @@ lexicon = listing "Lexicon's properties"
     -- twnj    tuwnj   N       bronze
 
     Identity                  `noun`    {- tuwnj -}            [ "bronze" ] ]
-
- |> "tuwnis" <| [
-
-    -- ;; tuwnis_1
-    -- twns    tuwnis  N0      Tunis
-
-    Identity                  `noun`    {- tuwnis -}           [ "Tunis" ],
-
-    -- ;; tuwnis_2
-    -- twns    tuwnis  N0      Tunisia
-
-    Identity                  `noun`    {- tuwnis -}           [ "Tunisia" ],
-
-    -- ;; tuwnisiy~_1
-    -- twnsy   tuwnisiy~       Nall    Tunisian     [[tuwnisiy~/NOUN]]
-    -- twnsy   tuwnisiy~       Nall    Tunisian     [[tuwnisiy~/ADJ]]
-    -- twAns   tawAnis Nap     Tunisians
-
-    Identity |< Iy            `adj`     {- tuwnisiy~ -}        [ "Tunisian", "Tunisians" ] ]
 
  |> "tuwrA" <| [
 

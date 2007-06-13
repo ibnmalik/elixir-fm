@@ -8401,6 +8401,20 @@ lexicon = listing "Lexicon's properties"
     MuKaRDaS                  `adj`     {- mujawohar -}        [ "decorated", "jewelry" ]
                               `plural`     MuKaRDaS |< At ]
 
+ |> "^g w k r" <| [
+
+    -- ;; juwkir_1
+    -- jwkr    juwkir  N0      Joker
+
+    KuRDiS                    `noun`    {- juwkir -}           [ "Joker" ] ]
+
+ |> "^g w k y" <| [
+
+    -- ;; juwkiy_1
+    -- jwky    juwkiy  N0      jockey
+
+    KuRDI                     `noun`    {- juwkiy -}           [ "jockey" ] ]
+
  |> "^g w l" <| [
 
     -- ;; juwAl_1
@@ -8508,7 +8522,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; juwluw_1
     -- jwlw    juwluw  Nprop   Jolo
 
-    KuRDU                     `noun`    {- juwluw -}           [ "Jolo" ] ]
+    KuRDU                     `noun`    {- juwluw -}           [ "Jolo" ],
+
+    -- ;; juwliy_1
+    -- jwly    juwliy  Nprop   Julie
+
+    KuRDI                     `noun`    {- juwliy -}           [ "Julie" ] ]
 
  |> "^g w n" <| [
 
@@ -8992,6 +9011,11 @@ lexicon = listing "Lexicon's properties"
     KuRDIS                    `noun`    {- juwziyb -}          [ "Josip" ] ]
 
  |> "^g w z f" <| [
+
+    -- ;; juwzif_1
+    -- jwzf    juwzif  Nprop   Joseph
+
+    KuRDiS                    `noun`    {- juwzif -}           [ "Joseph" ],
 
     -- ;; juwziyf_1
     -- jwzyf   juwziyf Nprop   Josef
@@ -10772,13 +10796,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- juwiyliy -}         [ "July" ] ]
 
- |> "^guwkir" <| [
-
-    -- ;; juwkir_1
-    -- jwkr    juwkir  N0      Joker
-
-    Identity                  `noun`    {- juwkir -}           [ "Joker" ] ]
-
  |> "^guwlf" <| [
 
     -- ;; juwlof_1
@@ -10909,13 +10926,6 @@ lexicon = listing "Lexicon's properties"
     -- jwA     juw~A   N0      inside
 
     Identity                  `noun`    {- juw~A -}            [ "inside" ] ]
-
- |> "^guwzif" <| [
-
-    -- ;; juwzif_1
-    -- jwzf    juwzif  Nprop   Joseph
-
-    Identity                  `noun`    {- juwzif -}           [ "Joseph" ] ]
 
  |> "^guwziyfA" <| [
 

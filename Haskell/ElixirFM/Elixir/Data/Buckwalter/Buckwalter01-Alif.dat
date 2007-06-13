@@ -638,15 +638,6 @@ At      |t      PV_ttAw give;offer
 &At     &At     IV_0hwnyn_yu    give;offer
 &AtY    &AtaY   IV_0_Pass_yu    be given;be offered
 &Aty    &Atay   IV_Ann_Pass_yu  be given;be offered
-;; wAtaY_1
-wAtY    wAtaY   PV_0    be favorable;be satisfying
-wAtA    wAtA    PV_h    be favorable;be satisfying
-wAty    wAtay   PV_Atn  be favorable;be satisfying
-wAt     wAt     PV_ttAw_intr    be favorable;be satisfying
-wAty    wAtiy   IV_0hAnn_yu     be favorable;be satisfying
-wAt     wAt     IV_0hwnyn_yu    be favorable;be satisfying
-wAtY    wAtaY   IV_0_Pass_yu    be favorable;be satisfying
-wAty    wAtay   IV_Ann_Pass_yu  be favorable;be satisfying
 ;; |taY_2
 |tY     |taY    PV_0    give;offer
 AtY     |taY    PV_0    give;offer
@@ -714,12 +705,6 @@ m&At    mu&At   NK      favorable;suitable
 m&Aty   mu&Atiy NAn_Nayn        favorable;suitable
 m&At    mu&At   Nuwn_Niyn       favorable;suitable
 m&Aty   mu&Atiy NapAt   favorable;suitable
-;; muwAtiy_1
-mwAty   muwAtiy N0F_Nh  pleasing;suitable
-mwAt    muwAt   NK      pleasing;suitable
-mwAty   muwAtiy NAn_Nayn        pleasing;suitable
-mwAt    muwAt   Nuwn_Niyn       pleasing;suitable
-mwAty   muwAtiy NapAt   pleasing;suitable
 ;; muta>at~iy_1
 mt>ty   muta>at~iy      N0F_Nh  derived;proceeding
 mt>t    muta>at~        NK      derived;proceeding

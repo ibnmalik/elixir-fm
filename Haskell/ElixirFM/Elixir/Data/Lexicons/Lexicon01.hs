@@ -253,6 +253,8 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCaL                   `verb`    {- Ait~axa* -}         [ "take", "adopt" ],
 
+    UFtuCiL                   `verb`    {- Aut~uxi* -}         [ "be taken", "be adopted" ],
+
     FaCL                      `noun`    {- Oaxo* -}            [ "seizure", "taking" ],
 
     FACiL                     `noun`    {- \|xi* -}            [ "taking", "captivating", "engrossing" ],
@@ -1594,6 +1596,10 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL ]
 
+ |> "' w b k" <| [
+
+    KuRDiS                    `noun`    {- Ouwbik -}           [ "OPEC" ] ]
+
  |> "' w f" <| [
 
     FAL |< aT                 `noun`    {- \|fap -}            [ "vice", "plague" ],
@@ -1659,7 +1665,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "' w t y" <| [
 
-    KuRDU                     `noun`    {- Ouwtuw -}           [ "Otto" ] ]
+    KuRDU                     `noun`    {- Ouwtuw -}           [ "Otto" ],
+
+    KuRDI                     `noun`    {- Ouwtiy -}           [ "Ottey" ] ]
 
  |> "' w y" <| [
 
@@ -2867,23 +2875,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- maOodubap -}        [ "banquet", "reception", "banquets", "receptions" ] ]
 
- |> "muwAtiy" <| [
-
-    Identity                  `noun`    {- muwAtiy -}          [ "pleasing", "suitable" ] ]
-
  |> "tAriy_h" <| [
 
     Identity                  `noun`    {- tAriyx -}           [ "date", "history", "dates", "histories" ],
 
     Identity |< Iy            `adj`     {- tAriyxiy~ -}        [ "historical" ] ]
-
- |> "uttu_hi_d" <| [
-
-    Identity                  `verb`    {- Aut~uxi* -}         [ "be taken", "be adopted" ] ]
-
- |> "wAtY" <| [
-
-    Identity                  `verb`    {- wAtaY -}            [ "be favorable", "be satisfying" ] ]
 
  |> "wa'in" <| [
 

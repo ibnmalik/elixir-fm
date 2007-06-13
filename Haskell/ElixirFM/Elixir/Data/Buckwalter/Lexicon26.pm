@@ -6605,6 +6605,22 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'h w k y' => [
+    {
+      'types' => {},
+      'entry' => 'huwkiy',
+      'form' => 'huwkiy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'huwkiy',
+      'prefix' => ''
+    }
+  ],
   'h w .g w' => [
     {
       'types' => {},
@@ -8586,6 +8602,27 @@ $Lexicon = {
         'mad with love'
       ],
       'orig' => 'hA}im',
+      'prefix' => ''
+    }
+  ],
+  'h w ^s y' => [
+    {
+      'types' => {},
+      'entry' => 'huw^siy',
+      'form' => 'huw^siy',
+      'lines' => [
+        ';; huw$iy_1',
+        'hw$y    huw$iy  Nprop   Ho Chi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Ho Chi'
+      ],
+      'orig' => 'huw$iy',
       'prefix' => ''
     }
   ],
@@ -13491,6 +13528,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'h w b y' => [
+    {
+      'types' => {},
+      'entry' => 'huwbiy',
+      'form' => 'huwbiy',
+      'lines' => [
+        ';; huwbiy_1',
+        'hwby    huwbiy  Nprop   Hobby'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Hobby'
+      ],
+      'orig' => 'huwbiy',
+      'prefix' => ''
+    }
+  ],
   'h r h r' => [
     {
       'types' => {
@@ -13542,27 +13600,6 @@ $Lexicon = {
         'Halevy'
       ],
       'orig' => 'hAliyfiy',
-      'prefix' => ''
-    }
-  ],
-  'h b y' => [
-    {
-      'types' => {},
-      'entry' => 'huwbiy',
-      'form' => 'huwbiy',
-      'lines' => [
-        ';; huwbiy_1',
-        'hwby    huwbiy  Nprop   Hobby'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCI',
-      'suffix' => '',
-      'glosses' => [
-        'Hobby'
-      ],
-      'orig' => 'huwbiy',
       'prefix' => ''
     }
   ],
@@ -17680,18 +17717,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'huw^siy',
       'form' => 'huw^siy',
-      'lines' => [
-        ';; huw$iy_1',
-        'hw$y    huw$iy  Nprop   Ho Chi'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FUCI',
       'suffix' => '',
-      'glosses' => [
-        'Ho Chi'
-      ],
+      'glosses' => [],
       'orig' => 'huw$iy',
       'prefix' => ''
     }
@@ -30848,6 +30880,9 @@ $Lexicon = {
 $Lexicon->{'h y ^g'}[11]{'types'} = $Lexicon->{'h \' ^g'}[0]{'types'};
 $Lexicon->{'h y ^g'}[11]{'lines'} = $Lexicon->{'h \' ^g'}[0]{'lines'};
 $Lexicon->{'h y ^g'}[11]{'glosses'} = $Lexicon->{'h \' ^g'}[0]{'glosses'};
+$Lexicon->{'h w k y'}[0]{'types'} = $Lexicon->{'h k y'}[0]{'types'};
+$Lexicon->{'h w k y'}[0]{'lines'} = $Lexicon->{'h k y'}[0]{'lines'};
+$Lexicon->{'h w k y'}[0]{'glosses'} = $Lexicon->{'h k y'}[0]{'glosses'};
 $Lexicon->{'h ^g y'}[1]{'types'} = $Lexicon->{'h ^g w'}[10]{'types'};
 $Lexicon->{'h ^g y'}[1]{'lines'} = $Lexicon->{'h ^g w'}[10]{'lines'};
 $Lexicon->{'h ^g y'}[1]{'glosses'} = $Lexicon->{'h ^g w'}[10]{'glosses'};
@@ -30860,6 +30895,9 @@ $Lexicon->{'h f w'}[2]{'glosses'} = $Lexicon->{'h f y'}[0]{'glosses'};
 $Lexicon->{'h l l'}[0]{'types'} = $Lexicon->{'h l y'}[0]{'types'};
 $Lexicon->{'h l l'}[0]{'lines'} = $Lexicon->{'h l y'}[0]{'lines'};
 $Lexicon->{'h l l'}[0]{'glosses'} = $Lexicon->{'h l y'}[0]{'glosses'};
+$Lexicon->{'h ^s y'}[0]{'types'} = $Lexicon->{'h w ^s y'}[0]{'types'};
+$Lexicon->{'h ^s y'}[0]{'lines'} = $Lexicon->{'h w ^s y'}[0]{'lines'};
+$Lexicon->{'h ^s y'}[0]{'glosses'} = $Lexicon->{'h w ^s y'}[0]{'glosses'};
 $Lexicon->{'h b w'}[2]{'types'} = $Lexicon->{'h b \''}[0]{'types'};
 $Lexicon->{'h b w'}[2]{'lines'} = $Lexicon->{'h b \''}[0]{'lines'};
 $Lexicon->{'h b w'}[2]{'glosses'} = $Lexicon->{'h b \''}[0]{'glosses'};

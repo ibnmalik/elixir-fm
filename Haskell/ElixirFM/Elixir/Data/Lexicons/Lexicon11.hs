@@ -174,6 +174,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- zahiyd -}           [ "moderate", "small" ] ]
 
+ |> "z h d y" <| [
+
+    KuRDI                     `noun`    {- zuhodiy -}          [ "Zuhdi" ] ]
+
  |> "z h r" <| [
 
     HaFCaL                    `verb`    {- Oazohar -}          [ "glow", "blossom" ],
@@ -650,8 +654,4 @@ lexicon = listing "Lexicon's properties"
  |> "ziymbAbwiy" <| [
 
     Identity                  `noun`    {- ziymobAbowiy -}     [ "Zimbabwe" ] ]
-
- |> "zuhdiy" <| [
-
-    Identity                  `noun`    {- zuhodiy -}          [ "Zuhdi" ] ]
 

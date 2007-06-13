@@ -22993,6 +22993,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '.h s n y' => [
+    {
+      'types' => {},
+      'entry' => '.husniy',
+      'form' => '.husniy',
+      'lines' => [
+        ';; Husoniy_1',
+        'Hsny    Husoniy Nprop   Hosny;Hosni'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Hosny',
+        'Hosni'
+      ],
+      'orig' => 'Husoniy',
+      'prefix' => ''
+    }
+  ],
   '.h r b' => [
     {
       'types' => {
@@ -30385,28 +30407,6 @@ $Lexicon = {
         'careful'
       ],
       'orig' => 'muHotaris',
-      'prefix' => ''
-    }
-  ],
-  '.husniy' => [
-    {
-      'types' => {},
-      'entry' => '.husniy',
-      'form' => '.husniy',
-      'lines' => [
-        ';; Husoniy_1',
-        'Hsny    Husoniy Nprop   Hosny;Hosni'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Hosny',
-        'Hosni'
-      ],
-      'orig' => 'Husoniy',
       'prefix' => ''
     }
   ],
@@ -40470,6 +40470,9 @@ $Lexicon = {
       'patterns' => {
         '.hta.dar' => [
           'FtaCaL'
+        ],
+        'u.htu.dir' => [
+          'UFtuCiL'
         ],
         '.hta.dir' => [
           'FtaCiL'

@@ -1040,6 +1040,10 @@ lexicon = listing "Lexicon's properties"
 
     FUL |< Iy                 `adj`     {- kuwbiy~ -}          [ "Cuban" ] ]
 
+ |> "k w b r" <| [
+
+    KuRDiS                    `noun`    {- kuwbir -}           [ "Cooper", "Cuper" ] ]
+
  |> "k w d" <| [
 
     FAL                       `verb`    {- kAd-a -}            [ "almost", "hardly", "no sooner" ]
@@ -1072,6 +1076,8 @@ lexicon = listing "Lexicon's properties"
     FuCAL                     `noun`    {- kuwAl -}            [ "Kowal" ] ]
 
  |> "k w l n" <| [
+
+    KuRDiS                    `noun`    {- kuwlin -}           [ "Colin" ],
 
     KuRDIS                    `noun`    {- kuwliyn -}          [ "Coleen" ] ]
 
@@ -1539,10 +1545,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kuwbinohAgin -}     [ "Copenhagen" ] ]
 
- |> "kuwbir" <| [
-
-    Identity                  `noun`    {- kuwbir -}           [ "Cooper", "Cuper" ] ]
-
  |> "kuwdriyn" <| [
 
     Identity                  `noun`    {- kuwdriyn -}         [ "Kudrin" ] ]
@@ -1566,10 +1568,6 @@ lexicon = listing "Lexicon's properties"
  |> "kuwlA" <| [
 
     Identity                  `noun`    {- kuwlA -}            [ "Cola" ] ]
-
- |> "kuwlin" <| [
-
-    Identity                  `noun`    {- kuwlin -}           [ "Colin" ] ]
 
  |> "kuwliyrA" <| [
 

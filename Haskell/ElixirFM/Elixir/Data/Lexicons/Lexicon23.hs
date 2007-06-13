@@ -832,6 +832,10 @@ lexicon = listing "Lexicon's properties"
     TaFaCCuL                  `noun`    {- talaw~uv -}         [ "pollution", "contamination" ]
                               `plural`     TaFaCCuL |< At ]
 
+ |> "l w b y" <| [
+
+    KuRDI                     `noun`    {- luwbiy -}           [ "lobby" ] ]
+
  |> "l w k" <| [
 
     FUL                       `noun`    {- luwk -}             [ "Luke" ] ]

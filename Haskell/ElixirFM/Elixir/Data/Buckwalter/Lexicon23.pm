@@ -4871,27 +4871,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'luwbin' => [
-    {
-      'types' => {},
-      'entry' => 'luwbin',
-      'form' => 'luwbin',
-      'lines' => [
-        ';; luwbin_1',
-        'lwbn    luwbin  Nprop   Le Pen'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Le Pen'
-      ],
-      'orig' => 'luwbin',
-      'prefix' => ''
-    }
-  ],
   'l m .s' => [
     {
       'types' => {
@@ -7252,6 +7231,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'l w t s' => [
+    {
+      'types' => {},
+      'entry' => 'luwtis',
+      'form' => 'luwtis',
+      'lines' => [
+        ';; luwtis_1',
+        'lwts    luwtis  Nprop   Lotus'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'Lotus'
+      ],
+      'orig' => 'luwtis',
+      'prefix' => ''
+    }
+  ],
   'l d .g' => [
     {
       'types' => {
@@ -9346,7 +9346,11 @@ $Lexicon = {
         'Astlzm  {usotulozim     PV_Pass be deemed necessary;be required',
         'stlzm   sotalozam       IV_Pass_yu      be deemed necessary;be required'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ustulzim' => [
+          'UstuFCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFCaL',
@@ -21595,6 +21599,22 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'l w r y' => [
+    {
+      'types' => {},
+      'entry' => 'luwriy',
+      'form' => 'luwriy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'luwriy',
+      'prefix' => ''
+    }
+  ],
   'liyuwr' => [
     {
       'types' => {},
@@ -24562,6 +24582,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'luwmAn^g' => [
+    {
+      'types' => {},
+      'entry' => 'luwmAn^g',
+      'form' => 'luwmAn^giyy',
+      'lines' => [
+        ';; luwmAnojiy~_1',
+        'lwmAnjy luwmAnojiy~     Nall_L  convict;inmate     [[luwmAnojiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'convict',
+        'inmate'
+      ],
+      'orig' => 'luwmAnojiy~',
+      'prefix' => ''
+    }
+  ],
   'l m y' => [
     {
       'types' => {},
@@ -24589,28 +24631,6 @@ $Lexicon = {
       'suffix' => ' |<< "a"',
       'glosses' => [],
       'orig' => 'lima',
-      'prefix' => ''
-    }
-  ],
-  'luwmAn^g' => [
-    {
-      'types' => {},
-      'entry' => 'luwmAn^g',
-      'form' => 'luwmAn^giyy',
-      'lines' => [
-        ';; luwmAnojiy~_1',
-        'lwmAnjy luwmAnojiy~     Nall_L  convict;inmate     [[luwmAnojiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'convict',
-        'inmate'
-      ],
-      'orig' => 'luwmAnojiy~',
       'prefix' => ''
     }
   ],
@@ -26076,6 +26096,27 @@ $Lexicon = {
         'electrodes'
       ],
       'orig' => 'lAHib',
+      'prefix' => ''
+    }
+  ],
+  'l w b n' => [
+    {
+      'types' => {},
+      'entry' => 'luwbin',
+      'form' => 'luwbin',
+      'lines' => [
+        ';; luwbin_1',
+        'lwbn    luwbin  Nprop   Le Pen'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'Le Pen'
+      ],
+      'orig' => 'luwbin',
       'prefix' => ''
     }
   ],
@@ -32213,6 +32254,22 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'l w b y' => [
+    {
+      'types' => {},
+      'entry' => 'luwbiy',
+      'form' => 'luwbiy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'luwbiy',
+      'prefix' => ''
+    }
+  ],
   'lAndruwfir' => [
     {
       'types' => {},
@@ -33481,27 +33538,6 @@ $Lexicon = {
         'inoculated'
       ],
       'orig' => 'mulaq~aH',
-      'prefix' => ''
-    }
-  ],
-  'luwtis' => [
-    {
-      'types' => {},
-      'entry' => 'luwtis',
-      'form' => 'luwtis',
-      'lines' => [
-        ';; luwtis_1',
-        'lwts    luwtis  Nprop   Lotus'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Lotus'
-      ],
-      'orig' => 'luwtis',
       'prefix' => ''
     }
   ],
@@ -35079,6 +35115,9 @@ $Lexicon->{'l q \''}[6]{'glosses'} = $Lexicon->{'l q y'}[17]{'glosses'};
 $Lexicon->{'l q \''}[7]{'types'} = $Lexicon->{'l q y'}[20]{'types'};
 $Lexicon->{'l q \''}[7]{'lines'} = $Lexicon->{'l q y'}[20]{'lines'};
 $Lexicon->{'l q \''}[7]{'glosses'} = $Lexicon->{'l q y'}[20]{'glosses'};
+$Lexicon->{'l w r y'}[0]{'types'} = $Lexicon->{'l r y'}[0]{'types'};
+$Lexicon->{'l w r y'}[0]{'lines'} = $Lexicon->{'l r y'}[0]{'lines'};
+$Lexicon->{'l w r y'}[0]{'glosses'} = $Lexicon->{'l r y'}[0]{'glosses'};
 $Lexicon->{'l w _d'}[2]{'types'} = $Lexicon->{'l \' _d'}[0]{'types'};
 $Lexicon->{'l w _d'}[2]{'lines'} = $Lexicon->{'l \' _d'}[0]{'lines'};
 $Lexicon->{'l w _d'}[2]{'glosses'} = $Lexicon->{'l \' _d'}[0]{'glosses'};
@@ -35171,6 +35210,9 @@ $Lexicon->{'l f f'}[20]{'glosses'} = $Lexicon->{'l t f'}[2]{'glosses'};
 $Lexicon->{'l f f'}[21]{'types'} = $Lexicon->{'l t f'}[3]{'types'};
 $Lexicon->{'l f f'}[21]{'lines'} = $Lexicon->{'l t f'}[3]{'lines'};
 $Lexicon->{'l f f'}[21]{'glosses'} = $Lexicon->{'l t f'}[3]{'glosses'};
+$Lexicon->{'l w b y'}[0]{'types'} = $Lexicon->{'l b y'}[2]{'types'};
+$Lexicon->{'l w b y'}[0]{'lines'} = $Lexicon->{'l b y'}[2]{'lines'};
+$Lexicon->{'l w b y'}[0]{'glosses'} = $Lexicon->{'l b y'}[2]{'glosses'};
 $Lexicon->{'l h h'}[0]{'types'} = $Lexicon->{'l h w'}[10]{'types'};
 $Lexicon->{'l h h'}[0]{'lines'} = $Lexicon->{'l h w'}[10]{'lines'};
 $Lexicon->{'l h h'}[0]{'glosses'} = $Lexicon->{'l h w'}[10]{'glosses'};

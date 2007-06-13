@@ -161,16 +161,20 @@ sub storeEntry ($$) {
 
                                   $x =~ s/^H/\'/;
                                   $x =~ s/^I/i/;
+                                  $x =~ s/^U/u/;
                                   $x =~ s/^M/m/;
                                   $x =~ s/^N/n/;
                                   $x =~ s/^T/t/;
 
                                   $x =~ s/(?<=F)t/d/        if $toor[0] =~ /^[zd]$/;
-                                  $x =~ s/(?<=F)t/\_d/      if $toor[0] =~ /^\_d$/;
                                   $x =~ s/(?<=F)t/\_t/      if $toor[0] =~ /^\_t$/;
-                                  $x =~ s/(?<=F)t/\.t/      if $toor[0] =~ /^\.[sdtz]$/;
+                                  $x =~ s/(?<=F)t/\.t/      if $toor[0] =~ /^\.[sdt]$/;
 
-                                  $x =~ s/Ft/w/             if $toor[0] eq 'w';
+                                  $x =~ s/Ft/dd/            if $toor[0] eq '_d';
+                                  $x =~ s/Ft/\.z\.z/        if $toor[0] eq '.z';
+                                  $x =~ s/Ft/tt/            if $toor[0] eq 'w';
+
+                                  $x =~ s/nF/mm/            if $toor[0] eq 'm';
 
                                   if (@toor > 3) {
 
@@ -404,7 +408,7 @@ sub closeEntry {
 
                 @toor = ($F, $C, $L);
 
-                $toor[0] = $char if defined $F and $F eq 't' and $ptrn =~ /^(?:Mu|[IU])?Ft/;
+                $toor[0] = $char if defined $F and $F =~ /^[td]$/ and $ptrn =~ /^(?:Mu|[IU])?Ft/;
 
                 next if defined $toor[0] and defined $toor[1] and $toor[0] eq $toor[1];
 
@@ -612,7 +616,8 @@ sub restoreForm {
 sub initializePatterns {
 
     my $X = "(\\'|b|t|\\_t|\\^g|\\.h|\\_h|d|\\_d|r|z|s|\\^s|\\.s|\\.d|\\.t|\\.z|\\`|\\.g|f|q|k|l|m|n|h|w|y)";
-    my $T = "(?:t|\\_t|d|\\_d|\\.t)";
+    my $T = "(?:[td]|\\_[td]|\\.[tz])";
+    my $N = "(?:[nm])";
 
     @pAttErns = readPatterns('Patterns/Triliteral.hs', 'Patterns/Quadriliteral.hs');
 
@@ -625,6 +630,7 @@ sub initializePatterns {
 
                             $x =~ s/^H/\'/;
                             $x =~ s/^I/i/;
+                            $x =~ s/^U/u/;
                             $x =~ s/^M/m/;
                             $x =~ s/^N/n/;
                             $x =~ s/^T/t/;
@@ -635,6 +641,8 @@ sub initializePatterns {
                             $x = quotemeta $x;
 
                             $x =~ s/(?<=F)t/$T/;
+
+                            $x =~ s/n(?=F)/$N/;
 
                             foreach my $c (keys %r) {
 
