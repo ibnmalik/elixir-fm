@@ -88,31 +88,31 @@ instance Inflect RootEntry ParaVerb where
 
         where paradigm p = map (merge r . p) inEntry
 
+              theDflt = isDefault x
+
               inEntry = case entity e of
 
-                  Verb is _ _ | null is || isDefault x
-                                        || v == Passive -> inRules [ morphs e ]
+                  Verb fs is _ _ jt jv
 
-                              | otherwise               -> [ morph i | i <- is ]
+                    | maybe False (/= v) jv || maybe False (/= Perfect) jt -> []
 
-                  _             ->  (error . unwords) [ "Incompatible VerbP", show r ]
+                    | null is || v == Passive
+                              || theDflt   -> inRules fs (Perfect, w) [morphs e]
 
-              inRules = map (\ m -> morph m `asTypeOf` morphs e) . concat .
+                    | otherwise            -> [ morph i | i <- is ]
 
-                        map (\ (Morphs t _ _) -> take 1 $ if v == Active
+                            where w = maybe Active id jv
 
-                            then [ y | f <- [I ..], i <- verbStems f r,
-                                       let (x, _, y, _) = theItem i, x == t ]
+                  _     ->  (error . unwords) ["Incompatible VerbP", show r]
 
-                            else [ y | f <- [I ..], i <- verbStems f r,
-                                       let (x, z, _, y) = theItem i, x == t || z == t ])
+              inRules fs pp = map (\ m -> morph m `asTypeOf` morphs e) . concat .
 
+                              map (\ (Morphs t _ _) -> (nub . concat)
 
-              theItem (Just (e, f, _, _), a, b, _, _) | not (isDefault x) = (a, b, e, f)
-                                                      | otherwise         = (a, b, a, b)
-              theItem (Nothing          , a, b, _, _)                     = (a, b, a, b)
+                                    [ lookStem t pp (Perfect, v) theDflt
+                                                    (verbStems f r) | f <- fs ])
 
-
+{-
     inflect (RE r e) x@(VerbI m v p g n) = (map inRules . inEntry) e
 
         where Morphs pattern _ _ = morphs e
@@ -172,7 +172,7 @@ instance Inflect RootEntry ParaVerb where
               theItem (Just (e, f, _, _), a, b, _, _) | not (isDefault x) = (a, b, e, f)
                                                       | otherwise         = (a, b, a, b)
               theItem (Nothing          , a, b, _, _)                     = (a, b, a, b)
-
+-}
     inflect _ _ = []
 
 

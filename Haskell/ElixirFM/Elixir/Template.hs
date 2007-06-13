@@ -230,10 +230,32 @@ class Forming a where
 
     isForm :: Form -> a -> Bool
 
-    verbStems :: Form -> String -> [StemItem a]
+    verbStems :: Form -> String -> [InfoStem a]
 
 
-type StemItem a = (Maybe (a, a, a, a), a, a, a, a)
+type InfoStem a = (Maybe (a, a, a, a), a, a, a, a)
+
+lookStem :: Eq a => a -> (Tense, Voice) -> (Tense, Voice) -> Bool -> [InfoStem a] -> [a]
+
+lookStem x (Perfect, Active)  y z is = [ findStem y z i | i@(_, a, _, _, _) <- is, x == a ]
+lookStem x (Perfect, Passive) y z is = [ findStem y z i | i@(_, _, b, _, _) <- is, x == b ]
+lookStem x (   _   , Active)  y z is = [ findStem y z i | i@(_, _, _, c, _) <- is, x == c ]
+lookStem x (   _   ,    _   ) y z is = [ findStem y z i | i@(_, _, _, _, d) <- is, x == d ]
+
+
+findStem :: (Tense, Voice) -> Bool -> InfoStem a -> a
+
+findStem (Perfect, Active)  False (Just (a, _, _, _), _, _, _, _) = a
+findStem (Perfect, Active)  _     ( _               , a, _, _, _) = a
+
+findStem (Perfect, Passive) False (Just (_, b, _, _), _, _, _, _) = b
+findStem (Perfect, Passive) _     ( _               , _, b, _, _) = b
+
+findStem (   _   , Active)  False (Just (_, _, c, _), _, _, _, _) = c
+findStem (   _   , Active)  _     ( _               , _, _, c, _) = c
+
+findStem (   _   ,    _   ) False (Just (_, _, _, d), _, _, _, _) = d
+findStem (   _   ,    _   ) _     ( _               , _, _, _, d) = d
 
 
 data Form = I | II | III | IV | V | VI | VII | VIII | IX | X |

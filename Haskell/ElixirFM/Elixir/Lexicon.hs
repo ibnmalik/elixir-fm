@@ -73,9 +73,11 @@ import Elixir.Template
 
 import Elixir.Data.Patterns
 
+import FM.Arabic.Types
+
 -- import English
 
-import Data.Map hiding (map)
+import Data.Map hiding (map, null)
 import Data.List (groupBy)
 
 import Version
@@ -114,9 +116,9 @@ instance Show Lexicon where
 listing _ = []
 
 
-data Nest =     NestL Root [Entry PatternL]
-          |     NestT Root [Entry PatternT]
-          |     NestQ Root [Entry PatternQ]
+data Nest =     NestL Root ![Entry PatternL]
+          |     NestT Root ![Entry PatternT]
+          |     NestQ Root ![Entry PatternQ]
 
     deriving Show
 
@@ -146,13 +148,14 @@ instance Nestable PatternQ where (>:) s l = NestQ s l
 type Root = String
 
 
-data Entry a = Entry { entity :: Entity a, morphs :: Morphs a,
+data Entry a = Entry { entity :: !Entity a, morphs :: Morphs a,
                        lexref :: Lexref }
 
     deriving Show
 
 
-data Entity a = Verb { perfect', imperfect, imperative :: [a] }
+data Entity a = Verb { form :: [Form], perfect', imperfect, imperative :: [a],
+                       justTense :: Maybe Tense, justVoice :: Maybe Voice }
               | Noun [Morphs a] (Maybe Gender) (Maybe Number)
               | Adj [Morphs a] (Maybe Number)
               | More
@@ -163,24 +166,28 @@ data Entity a = Verb { perfect', imperfect, imperative :: [a] }
 type Lexref = [String]
 
 
-data Voice = Active | Passive
+verb :: (Morphing a b, Nestable b, Forming a, Eq a) => a -> Lexref -> Entry b
 
-    deriving Show
+verb m l = Entry (Verb forms [] [] [] justT justV) (morph m) l
+
+    where forms = [ f | f <- [I ..], isForm f m ]
+
+          stems f = if f == X then verbStems f "w C L" ++ verbStems f "F C L"
+                              else verbStems f "F C L"
+
+          notPA = null [ x | f <- forms, (_, x, _, _, _) <- stems f, x == m ]
+          notPP = null [ x | f <- forms, (_, _, x, _, _) <- stems f, x == m ]
+          notIA = null [ x | f <- forms, (_, _, _, x, _) <- stems f, x == m ]
+          notIP = null [ x | f <- forms, (_, _, _, _, x) <- stems f, x == m ]
+
+          justT = if notPA && notPP then Just Imperfect
+                                    else Nothing
+
+          justV = if notPA && notIA then Just Passive
+                                    else Nothing
 
 
-data Gender = Masculine | Feminine
-
-    deriving Show
-
-
-data Number = Singular | Dual | Plural
-
-    deriving Show
-
-
-verb, noun, adj, pron, adv, prep, conj, part :: (Morphing a b, Nestable b) => a -> Lexref -> Entry b
-
-verb m l = Entry (Verb [] [] []) (morph m) l
+noun, adj, pron, adv, prep, conj, part :: (Morphing a b, Nestable b) => a -> Lexref -> Entry b
 
 noun m l = Entry (Noun [] Nothing Nothing) (morph m) l
 

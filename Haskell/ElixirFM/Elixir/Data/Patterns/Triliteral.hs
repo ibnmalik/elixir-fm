@@ -273,7 +273,9 @@ instance Forming PatternT where
 
     verbStems IX _ = [
 
-        (   Nothing,    IFCaLL,     UFCuLL,     FCaLL,      FCaLL       )
+        (   Just   (    IFCaLaL,    UFCuLiL,    FCaLiL,     FCaLaL      ),
+                        IFCaLL,     UFCuLL,     FCaLL,      FCaLL       ),
+        (   Nothing,    IFCaLY,     UFCuLI,     FCaLI,      FCaLY       )
 
         ]
 
@@ -417,7 +419,7 @@ instance Rules PatternT where
                             TuFUCiL, TuFUCI, TuFUCL,
                             UnFuCiL, UnFIL, UnFuCI, UnFuCL,
                             UFtuCiL, UFtIL, UFtuCI, UFtuCL,
-                            UFCuLL,
+                            UFCuLL, UFCuLI, UFCuLiL,
                             UstuFCiL, UstUCiL, UstuFIL, UstuFCI, UstuFI, UstuFiCL, UstUCI,
                             UFCULL,
                             UFCUCiL,
@@ -642,10 +644,11 @@ data PatternT =
 
 --  Form IX
 
-        |   IFCaLL
-        |   UFCuLL
+        |   IFCaLL                                      |   IFCaLY      |   IFCaLaL
+        |   UFCuLL                                      |   UFCuLI      |   UFCuLiL
 
-        |   FCaLL
+        |   FCaLL                                       |   FCaLI       |   FCaLiL
+                                                        |   FCaLY       |   FCaLaL
 
         |   IFCiLAL
 

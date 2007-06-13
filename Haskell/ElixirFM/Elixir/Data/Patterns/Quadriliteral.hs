@@ -86,7 +86,8 @@ instance Forming PatternQ where
 
     verbStems IV _ = [
 
-        (   Nothing,    IKRaDaSS,   UKRuDiSS,   KRaDiSS,    KRaDaSS     )
+        (   Just   (    IKRaDSaS,   UKRuDSiS,   KRaDSiS,    KRaDSaS     ),
+                        IKRaDaSS,   UKRuDiSS,   KRaDiSS,    KRaDaSS     )
 
         ]
 
@@ -96,9 +97,11 @@ instance Forming PatternQ where
 
 instance Rules PatternQ where
 
-    prefixVerbI _ _ _ = "u"
+    prefixVerbI x _ _   | x `elem` [I, II]  = "u"
+                        | otherwise         = "a"
 
-    prefixVerbC _ _   = ""
+    prefixVerbC x   _   | x `elem` [I, II]  = ""
+                        | otherwise         = "i"
 
     isDiptote = flip elem [ KaRADiS, KaRADIS ]
 
@@ -167,11 +170,11 @@ data PatternQ =
 
 --  Form IV
 
-        |   IKRaDaSS
-        |   UKRuDiSS
+        |   IKRaDaSS        |   IKRaDSaS
+        |   UKRuDiSS        |   UKRuDSiS
 
-        |   KRaDiSS
-        |   KRaDaSS
+        |   KRaDiSS         |   KRaDSiS
+        |   KRaDaSS         |   KRaDSaS
 
     deriving (Enum, Show, Eq)
 
