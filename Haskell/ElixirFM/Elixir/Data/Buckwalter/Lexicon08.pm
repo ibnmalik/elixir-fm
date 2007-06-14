@@ -1737,29 +1737,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mudlahimm' => [
-    {
-      'types' => {},
-      'entry' => 'mudlahimm',
-      'form' => 'mudlahimm',
-      'lines' => [
-        ';; mudolahim~_1',
-        'mdlhm   mudolahim~      Nall    dark;gloomy;pitch-black     [[mudolahim~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'dark',
-        'gloomy',
-        'pitch-black'
-      ],
-      'orig' => 'mudolahim~',
-      'prefix' => ''
-    }
-  ],
   'd y n m' => [
     {
       'types' => {
@@ -17769,8 +17746,14 @@ $Lexicon = {
         'dlhmm   dolahomim       IV_C_intr       be dark;be gloomy;be pitch-black'
       ],
       'patterns' => {
+        'idlahmam' => [
+          'IKRaDSaS'
+        ],
         'dlahimm' => [
           'KRaDiSS'
+        ],
+        'dlahmim' => [
+          'KRaDSiS'
         ]
       },
       'index' => '1',
@@ -17803,6 +17786,55 @@ $Lexicon = {
         'gloomy'
       ],
       'orig' => 'daloham',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'idlihmAm' => {
+          'N/At' => 2
+        }
+      },
+      'entry' => 'idlihmAm',
+      'form' => 'idlihmAm',
+      'lines' => [
+        ';; {idolihomAm_1',
+        '<dlhmAm {idolihomAm     N/At    deep black',
+        'AdlhmAm {idolihomAm     N/At    deep black'
+      ],
+      'patterns' => {
+        'idlihmAm' => [
+          'IKRiDSAS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IKRiDSAS',
+      'suffix' => '',
+      'glosses' => [
+        'deep black'
+      ],
+      'orig' => 'AidolihomAm',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mudlahimm',
+      'form' => 'mudlahimm',
+      'lines' => [
+        ';; mudolahim~_1',
+        'mdlhm   mudolahim~      Nall    dark;gloomy;pitch-black     [[mudolahim~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuKRaDiSS',
+      'suffix' => '',
+      'glosses' => [
+        'dark',
+        'gloomy',
+        'pitch-black'
+      ],
+      'orig' => 'mudolahim~',
       'prefix' => ''
     }
   ],
@@ -22537,8 +22569,14 @@ $Lexicon = {
         'dhmm    dohamim IV_C_intr       become black'
       ],
       'patterns' => {
+        'idhamam' => [
+          'IFCaLaL'
+        ],
         'dhamm' => [
           'FCaLL'
+        ],
+        'dhamim' => [
+          'FCaLiL'
         ]
       },
       'index' => '1',
@@ -31962,32 +32000,6 @@ $Lexicon = {
         'counterfeit'
       ],
       'orig' => 'mudal~as',
-      'prefix' => ''
-    }
-  ],
-  'idlihmAm' => [
-    {
-      'types' => {
-        'idlihmAm' => {
-          'N/At' => 2
-        }
-      },
-      'entry' => 'idlihmAm',
-      'form' => 'idlihmAm',
-      'lines' => [
-        ';; {idolihomAm_1',
-        '<dlhmAm {idolihomAm     N/At    deep black',
-        'AdlhmAm {idolihomAm     N/At    deep black'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'deep black'
-      ],
-      'orig' => 'AidolihomAm',
       'prefix' => ''
     }
   ],

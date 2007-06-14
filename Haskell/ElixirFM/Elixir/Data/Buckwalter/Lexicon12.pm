@@ -1016,6 +1016,12 @@ $Lexicon = {
       'patterns' => {
         'swadd' => [
           'FCaLL'
+        ],
+        'iswadad' => [
+          'IFCaLaL'
+        ],
+        'swadid' => [
+          'FCaLiL'
         ]
       },
       'index' => '1',
@@ -19524,45 +19530,6 @@ $Lexicon = {
       ],
       'orig' => 'tasotiyf',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        'stafif' => {
-          'IV_C' => 1
-        },
-        'istafaf' => {
-          'PV_C' => 2
-        },
-        'staff' => {
-          'IV_V' => 1
-        }
-      },
-      'entry' => 'istaff',
-      'form' => 'istaff',
-      'lines' => [
-        ';; {isotaf~_1',
-        '<stf    {isotaf~        PV_V    eat;swallow',
-        'Astf    {isotaf~        PV_V    eat;swallow',
-        '<stff   {isotafaf       PV_C    eat;swallow',
-        'Astff   {isotafaf       PV_C    eat;swallow',
-        'stf     sotaf~  IV_V    eat;swallow',
-        'stff    sotafif IV_C    eat;swallow'
-      ],
-      'patterns' => {
-        'staff' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'eat',
-        'swallow'
-      ],
-      'orig' => 'Aisotaf~',
-      'prefix' => ''
     }
   ],
   'sifan^g' => [
@@ -21725,47 +21692,6 @@ $Lexicon = {
         'disqualified'
       ],
       'orig' => 'munosaHib',
-      'prefix' => ''
-    }
-  ],
-  's t s r' => [
-    {
-      'types' => {
-        'istasrar' => {
-          'PV_C' => 2
-        },
-        'stasrir' => {
-          'IV_C' => 1
-        },
-        'stasirr' => {
-          'IV_V' => 1
-        }
-      },
-      'entry' => 'istasarr',
-      'form' => 'istasarr',
-      'lines' => [
-        ';; {isotasar~_1',
-        '<stsr   {isotasar~      PV_V    attempt to hide;take as concubine',
-        'Astsr   {isotasar~      PV_V    attempt to hide;take as concubine',
-        '<stsrr  {isotasorar     PV_C    attempt to hide;take as concubine',
-        'Astsrr  {isotasorar     PV_C    attempt to hide;take as concubine',
-        'stsr    sotasir~        IV_V    attempt to hide;take as concubine',
-        'stsrr   sotasorir       IV_C    attempt to hide;take as concubine'
-      ],
-      'patterns' => {
-        'stasirr' => [
-          'KRaDiSS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IKRaDaSS',
-      'suffix' => '',
-      'glosses' => [
-        'attempt to hide',
-        'take as concubine'
-      ],
-      'orig' => 'Aisotasar~',
       'prefix' => ''
     }
   ],
@@ -29689,46 +29615,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  's t b' => [
-    {
-      'types' => {
-        'stabib' => {
-          'IV_C' => 1
-        },
-        'stabb' => {
-          'IV_V' => 1
-        },
-        'istabab' => {
-          'PV_C' => 2
-        }
-      },
-      'entry' => 'istabb',
-      'form' => 'istabb',
-      'lines' => [
-        ';; {isotab~_1',
-        '<stb    {isotab~        PV_V    exchange insults',
-        'Astb    {isotab~        PV_V    exchange insults',
-        '<stbb   {isotabab       PV_C    exchange insults',
-        'Astbb   {isotabab       PV_C    exchange insults',
-        'stb     sotab~  IV_V    exchange insults',
-        'stbb    sotabib IV_C    exchange insults'
-      ],
-      'patterns' => {
-        'stabb' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'exchange insults'
-      ],
-      'orig' => 'Aisotab~',
-      'prefix' => ''
-    }
-  ],
   's _h m' => [
     {
       'types' => {
@@ -30677,40 +30563,6 @@ $Lexicon = {
         'glanders'
       ],
       'orig' => 'siqAwap',
-      'prefix' => ''
-    }
-  ],
-  's t l' => [
-    {
-      'types' => {},
-      'entry' => 'istall',
-      'form' => 'istall',
-      'lines' => [],
-      'patterns' => {
-        'stall' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Aisotal~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mustall',
-      'form' => 'mustallaT',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFCaLL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [],
-      'orig' => 'musotal~ap',
       'prefix' => ''
     }
   ],
@@ -39029,10 +38881,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'istasrar' => {
+          'PV_C' => 2
+        },
+        'stasrir' => {
+          'IV_C' => 1
+        },
+        'stasirr' => {
+          'IV_V' => 1
+        }
+      },
       'entry' => 'istasarr',
       'form' => 'istasarr',
-      'lines' => [],
+      'lines' => [
+        ';; {isotasar~_1',
+        '<stsr   {isotasar~      PV_V    attempt to hide;take as concubine',
+        'Astsr   {isotasar~      PV_V    attempt to hide;take as concubine',
+        '<stsrr  {isotasorar     PV_C    attempt to hide;take as concubine',
+        'Astsrr  {isotasorar     PV_C    attempt to hide;take as concubine',
+        'stsr    sotasir~        IV_V    attempt to hide;take as concubine',
+        'stsrr   sotasorir       IV_C    attempt to hide;take as concubine'
+      ],
       'patterns' => {
         'istasrar' => [
           'IstaFCaL'
@@ -39042,7 +38912,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IstaFaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'attempt to hide',
+        'take as concubine'
+      ],
       'orig' => 'Aisotasar~',
       'prefix' => ''
     },
@@ -41499,24 +41372,6 @@ $Lexicon = {
       ],
       'orig' => 'stAn',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'istann',
-      'form' => 'istann',
-      'lines' => [],
-      'patterns' => {
-        'stann' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Aisotan~',
-      'prefix' => ''
     }
   ],
   'suwbAt^sAy' => [
@@ -41887,10 +41742,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'stafif' => {
+          'IV_C' => 1
+        },
+        'istafaf' => {
+          'PV_C' => 2
+        },
+        'staff' => {
+          'IV_V' => 1
+        }
+      },
       'entry' => 'istaff',
       'form' => 'istaff',
-      'lines' => [],
+      'lines' => [
+        ';; {isotaf~_1',
+        '<stf    {isotaf~        PV_V    eat;swallow',
+        'Astf    {isotaf~        PV_V    eat;swallow',
+        '<stff   {isotafaf       PV_C    eat;swallow',
+        'Astff   {isotafaf       PV_C    eat;swallow',
+        'stf     sotaf~  IV_V    eat;swallow',
+        'stff    sotafif IV_C    eat;swallow'
+      ],
       'patterns' => {
         'stafif' => [
           'FtaCiL'
@@ -41906,7 +41779,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'eat',
+        'swallow'
+      ],
       'orig' => 'Aisotaf~',
       'prefix' => ''
     },
@@ -42601,28 +42477,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'suwiysr' => [
-    {
-      'types' => {},
-      'entry' => 'suwiysr',
-      'form' => 'suwiysriyy',
-      'lines' => [
-        ';; suwiysriy~_1',
-        'swysry  suwiysriy~      Nall    Swiss     [[suwiysriy~/NOUN]]',
-        'swysry  suwiysriy~      Nall    Swiss     [[suwiysriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Swiss'
-      ],
-      'orig' => 'suwiysriy~',
-      'prefix' => ''
-    }
-  ],
   's ^g w' => [
     {
       'types' => {
@@ -42802,6 +42656,28 @@ $Lexicon = {
         'laid out'
       ],
       'orig' => 'musaj~aY',
+      'prefix' => ''
+    }
+  ],
+  'suwiysr' => [
+    {
+      'types' => {},
+      'entry' => 'suwiysr',
+      'form' => 'suwiysriyy',
+      'lines' => [
+        ';; suwiysriy~_1',
+        'swysry  suwiysriy~      Nall    Swiss     [[suwiysriy~/NOUN]]',
+        'swysry  suwiysriy~      Nall    Swiss     [[suwiysriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Swiss'
+      ],
+      'orig' => 'suwiysriy~',
       'prefix' => ''
     }
   ],
@@ -44562,6 +44438,12 @@ $Lexicon = {
       'patterns' => {
         'smarr' => [
           'FCaLL'
+        ],
+        'ismarar' => [
+          'IFCaLaL'
+        ],
+        'smarir' => [
+          'FCaLiL'
         ]
       },
       'index' => '1',
@@ -46231,10 +46113,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'stabib' => {
+          'IV_C' => 1
+        },
+        'stabb' => {
+          'IV_V' => 1
+        },
+        'istabab' => {
+          'PV_C' => 2
+        }
+      },
       'entry' => 'istabb',
       'form' => 'istabb',
-      'lines' => [],
+      'lines' => [
+        ';; {isotab~_1',
+        '<stb    {isotab~        PV_V    exchange insults',
+        'Astb    {isotab~        PV_V    exchange insults',
+        '<stbb   {isotabab       PV_C    exchange insults',
+        'Astbb   {isotabab       PV_C    exchange insults',
+        'stb     sotab~  IV_V    exchange insults',
+        'stbb    sotabib IV_C    exchange insults'
+      ],
       'patterns' => {
         'stabib' => [
           'FtaCiL'
@@ -46250,7 +46150,9 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'exchange insults'
+      ],
       'orig' => 'Aisotab~',
       'prefix' => ''
     },
@@ -48580,26 +48482,6 @@ $Lexicon = {
         'Siberian'
       ],
       'orig' => 'siybiyriy~',
-      'prefix' => ''
-    }
-  ],
-  's t k' => [
-    {
-      'types' => {},
-      'entry' => 'istakk',
-      'form' => 'istakk',
-      'lines' => [],
-      'patterns' => {
-        'stakk' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Aisotak~',
       'prefix' => ''
     }
   ],
@@ -55777,12 +55659,6 @@ $Lexicon->{'s k k'}[5]{'glosses'} = $Lexicon->{'s k n'}[0]{'glosses'};
 $Lexicon->{'s y f'}[6]{'types'} = $Lexicon->{'s f n'}[5]{'types'};
 $Lexicon->{'s y f'}[6]{'lines'} = $Lexicon->{'s f n'}[5]{'lines'};
 $Lexicon->{'s y f'}[6]{'glosses'} = $Lexicon->{'s f n'}[5]{'glosses'};
-$Lexicon->{'s t l'}[0]{'types'} = $Lexicon->{'s l l'}[3]{'types'};
-$Lexicon->{'s t l'}[0]{'lines'} = $Lexicon->{'s l l'}[3]{'lines'};
-$Lexicon->{'s t l'}[0]{'glosses'} = $Lexicon->{'s l l'}[3]{'glosses'};
-$Lexicon->{'s t l'}[1]{'types'} = $Lexicon->{'s l l'}[17]{'types'};
-$Lexicon->{'s t l'}[1]{'lines'} = $Lexicon->{'s l l'}[17]{'lines'};
-$Lexicon->{'s t l'}[1]{'glosses'} = $Lexicon->{'s l l'}[17]{'glosses'};
 $Lexicon->{'s w h ^g'}[0]{'types'} = $Lexicon->{'s h ^g'}[0]{'types'};
 $Lexicon->{'s w h ^g'}[0]{'lines'} = $Lexicon->{'s h ^g'}[0]{'lines'};
 $Lexicon->{'s w h ^g'}[0]{'glosses'} = $Lexicon->{'s h ^g'}[0]{'glosses'};
@@ -55816,18 +55692,9 @@ $Lexicon->{'s n w'}[10]{'glosses'} = $Lexicon->{'s n n'}[19]{'glosses'};
 $Lexicon->{'s n w'}[11]{'types'} = $Lexicon->{'s n n'}[20]{'types'};
 $Lexicon->{'s n w'}[11]{'lines'} = $Lexicon->{'s n n'}[20]{'lines'};
 $Lexicon->{'s n w'}[11]{'glosses'} = $Lexicon->{'s n n'}[20]{'glosses'};
-$Lexicon->{'s r r'}[7]{'types'} = $Lexicon->{'s t s r'}[0]{'types'};
-$Lexicon->{'s r r'}[7]{'lines'} = $Lexicon->{'s t s r'}[0]{'lines'};
-$Lexicon->{'s r r'}[7]{'glosses'} = $Lexicon->{'s t s r'}[0]{'glosses'};
 $Lexicon->{'s r r'}[22]{'types'} = $Lexicon->{'s r \''}[0]{'types'};
 $Lexicon->{'s r r'}[22]{'lines'} = $Lexicon->{'s r \''}[0]{'lines'};
 $Lexicon->{'s r r'}[22]{'glosses'} = $Lexicon->{'s r \''}[0]{'glosses'};
-$Lexicon->{'s t n'}[3]{'types'} = $Lexicon->{'s n n'}[3]{'types'};
-$Lexicon->{'s t n'}[3]{'lines'} = $Lexicon->{'s n n'}[3]{'lines'};
-$Lexicon->{'s t n'}[3]{'glosses'} = $Lexicon->{'s n n'}[3]{'glosses'};
-$Lexicon->{'s f f'}[1]{'types'} = $Lexicon->{'s t f'}[2]{'types'};
-$Lexicon->{'s f f'}[1]{'lines'} = $Lexicon->{'s t f'}[2]{'lines'};
-$Lexicon->{'s f f'}[1]{'glosses'} = $Lexicon->{'s t f'}[2]{'glosses'};
 $Lexicon->{'s l n'}[0]{'types'} = $Lexicon->{'s y l'}[12]{'types'};
 $Lexicon->{'s l n'}[0]{'lines'} = $Lexicon->{'s y l'}[12]{'lines'};
 $Lexicon->{'s l n'}[0]{'glosses'} = $Lexicon->{'s y l'}[12]{'glosses'};
@@ -55849,9 +55716,6 @@ $Lexicon->{'s w \''}[13]{'glosses'} = $Lexicon->{'s y \''}[2]{'glosses'};
 $Lexicon->{'s y r'}[19]{'types'} = $Lexicon->{'s \' r'}[3]{'types'};
 $Lexicon->{'s y r'}[19]{'lines'} = $Lexicon->{'s \' r'}[3]{'lines'};
 $Lexicon->{'s y r'}[19]{'glosses'} = $Lexicon->{'s \' r'}[3]{'glosses'};
-$Lexicon->{'s b b'}[6]{'types'} = $Lexicon->{'s t b'}[0]{'types'};
-$Lexicon->{'s b b'}[6]{'lines'} = $Lexicon->{'s t b'}[0]{'lines'};
-$Lexicon->{'s b b'}[6]{'glosses'} = $Lexicon->{'s t b'}[0]{'glosses'};
 $Lexicon->{'s b b'}[22]{'types'} = $Lexicon->{'s b y'}[0]{'types'};
 $Lexicon->{'s b b'}[22]{'lines'} = $Lexicon->{'s b y'}[0]{'lines'};
 $Lexicon->{'s b b'}[22]{'glosses'} = $Lexicon->{'s b y'}[0]{'glosses'};
@@ -55861,9 +55725,6 @@ $Lexicon->{'s b b'}[23]{'glosses'} = $Lexicon->{'s b y'}[1]{'glosses'};
 $Lexicon->{'s w s'}[9]{'types'} = $Lexicon->{'s \' s'}[0]{'types'};
 $Lexicon->{'s w s'}[9]{'lines'} = $Lexicon->{'s \' s'}[0]{'lines'};
 $Lexicon->{'s w s'}[9]{'glosses'} = $Lexicon->{'s \' s'}[0]{'glosses'};
-$Lexicon->{'s t k'}[0]{'types'} = $Lexicon->{'s k k'}[2]{'types'};
-$Lexicon->{'s t k'}[0]{'lines'} = $Lexicon->{'s k k'}[2]{'lines'};
-$Lexicon->{'s t k'}[0]{'glosses'} = $Lexicon->{'s k k'}[2]{'glosses'};
 $Lexicon->{'s \' .g'}[0]{'types'} = $Lexicon->{'s w .g'}[7]{'types'};
 $Lexicon->{'s \' .g'}[0]{'lines'} = $Lexicon->{'s w .g'}[7]{'lines'};
 $Lexicon->{'s \' .g'}[0]{'glosses'} = $Lexicon->{'s w .g'}[7]{'glosses'};

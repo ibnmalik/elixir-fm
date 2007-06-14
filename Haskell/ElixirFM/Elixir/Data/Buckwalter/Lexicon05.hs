@@ -7797,66 +7797,6 @@ lexicon = listing "Lexicon's properties"
     FaCA                      `verb`    {- jasA-u -}           [ "become hard", "become solid" ]
                               `imperf`     FCU ]
 
- |> "^g t _t" <| [
-
-    -- ;; {ijotav~_1
-    -- <jtv    {ijotav~        PV_V    tear out;uproot
-    -- Ajtv    {ijotav~        PV_V    tear out;uproot
-    -- <jtvv   {ijotavav       PV_C    tear out;uproot
-    -- Ajtvv   {ijotavav       PV_C    tear out;uproot
-    -- jtv     jotav~  IV_V    tear out;uproot
-    -- jtvv    jotaviv IV_C    tear out;uproot
-
-    IFCaLL                    `verb`    {- Aijotav~ -}         [ "tear out", "uproot" ],
-
-    -- ;; {ijotivAv_1
-    -- <jtvAv  {ijotivAv       NduAt   uprooting;tearing out
-    -- AjtvAv  {ijotivAv       NduAt   uprooting;tearing out
-
-    IFCiLAL                   `noun`    {- AijotivAv -}        [ "uprooting", "tearing out" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; mujotav~_1
-    -- mjtv    mujotav~        Nall    uprooted
-
-    MuFCaLL                   `noun`    {- mujotav~ -}         [ "uprooted" ] ]
-
- |> "^g t f" <| [
-
-    -- ;; {ijotaf~_1
-    -- <jtf    {ijotaf~        PV_V_intr       be dehydrated;make dry
-    -- Ajtf    {ijotaf~        PV_V_intr       be dehydrated;make dry
-    -- <jtff   {ijotafaf       PV_C_intr       be dehydrated;make dry
-    -- Ajtff   {ijotafaf       PV_C_intr       be dehydrated;make dry
-    -- jtf     jotaf~  IV_V_intr       be dehydrated;make dry
-    -- jtff    jotafif IV_C_intr       be dehydrated;make dry
-
-    IFCaLL                    `verb`    {- Aijotaf~ -}         [ "be dehydrated", "make dry" ] ]
-
- |> "^g t r" <| [
-
-    -- ;; {ijotar~_1
-    -- <jtr    {ijotar~        PV_V    ruminate;repeat
-    -- Ajtr    {ijotar~        PV_V    ruminate;repeat
-    -- <jtrr   {ijotarar       PV_C    ruminate;repeat
-    -- Ajtrr   {ijotarar       PV_C    ruminate;repeat
-    -- jtr     jotar~  IV_V    ruminate;repeat
-    -- jtrr    jotarir IV_C    ruminate;repeat
-
-    IFCaLL                    `verb`    {- Aijotar~ -}         [ "ruminate", "repeat" ] ]
-
- |> "^g t s" <| [
-
-    -- ;; {ijotas~_1
-    -- <jts    {ijotas~        PV_V    feel;handle;reconnoiter
-    -- Ajts    {ijotas~        PV_V    feel;handle;reconnoiter
-    -- <jtss   {ijotasas       PV_C    feel;handle;reconnoiter
-    -- Ajtss   {ijotasas       PV_C    feel;handle;reconnoiter
-    -- jts     jotas~  IV_V    feel;handle;reconnoiter
-    -- jtss    jotasis IV_C    feel;handle;reconnoiter
-
-    IFCaLL                    `verb`    {- Aijotas~ -}         [ "feel", "handle", "reconnoiter" ] ]
-
  |> "^g t y" <| [
 
     -- ;; jit_1
@@ -7873,18 +7813,6 @@ lexicon = listing "Lexicon's properties"
     -- jtAy    jitAy   NapAt   head-scarf
 
     FiCAL |< aT               `noun`    {- jitAyap -}          [ "head-scarf" ] ]
-
- |> "^g t z" <| [
-
-    -- ;; {ijotaz~_1
-    -- <jtz    {ijotaz~        PV_V    shear;clip
-    -- Ajtz    {ijotaz~        PV_V    shear;clip
-    -- <jtzz   {ijotazaz       PV_C    shear;clip
-    -- Ajtzz   {ijotazaz       PV_C    shear;clip
-    -- jtz     jotaz~  IV_V    shear;clip
-    -- jtzz    jotaziz IV_C    shear;clip
-
-    IFCaLL                    `verb`    {- Aijotaz~ -}         [ "shear", "clip" ] ]
 
  |> "^g w '" <| [
 

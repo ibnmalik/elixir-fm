@@ -977,6 +977,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCA'
                            {- `others`  [ "'a^slA' Nh N0_Nh Nhy" ] -} ]
 
+ |> "^s m ' z" <| [
+
+    IKRiDSAS                  `noun`    {- Ai$omi}ozAz -}      [ "repugnance", "disgust" ]
+                              `plural`     IKRiDSAS |< At ]
+
  |> "^s m _h" <| [
 
     FACiL                     `adj`     {- \$Amix -}           [ "lofty", "superior", "haughty" ] ]
@@ -1465,10 +1470,6 @@ lexicon = listing "Lexicon's properties"
     FiCAL                     `noun`    {- \$itA' -}           [ "rain", "rains" ]
                               `plural`     HaFCI |< aT ]
 
- |> "^s t d" <| [
-
-    IFCaLL                    `verb`    {- Ai$otad~ -}         [ "intensify" ] ]
-
  |> "^s t l" <| [
 
     MaFCaL                    `noun`    {- ma$otal -}          [ "arboretum", "plant nursery", "arboreta", "plant nurseries" ]
@@ -1478,10 +1479,6 @@ lexicon = listing "Lexicon's properties"
  |> "^s t m" <| [
 
     FaCIL |< aT               `noun`    {- \$atiymap -}        [ "insult", "invective", "insults", "invectives" ] ]
-
- |> "^s t q" <| [
-
-    MuFCaLL                   `noun`    {- mu$otaq~ -}         [ "derivative" ] ]
 
  |> "^s t t" <| [
 
@@ -1883,8 +1880,4 @@ lexicon = listing "Lexicon's properties"
  |> "^swbyr" <| [
 
     Identity                  `noun`    {- \$wbyr -}           [ "Shubair" ] ]
-
- |> "i^smi'zAz" <| [
-
-    Identity                  `noun`    {- Ai$omi}ozAz -}      [ "repugnance", "disgust" ] ]
 

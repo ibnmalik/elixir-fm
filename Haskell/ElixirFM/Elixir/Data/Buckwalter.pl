@@ -26,6 +26,10 @@ our (%patterns, @patterns, @pAttErns, $report);
 
 our ($F, $C, $L, $K, $R, $D, $S);
 
+our $X = "(\\'|b|t|\\_t|\\^g|\\.h|\\_h|d|\\_d|r|z|s|\\^s|\\.s|\\.d|\\.t|\\.z|\\`|\\.g|f|q|k|l|m|n|h|w|y)";
+our $T = "(?:[td]|\\_[td]|\\.[tz])";
+our $N = "(?:[nm])";
+
 
 demode "buckwalter", "nowasla", "xml";
 
@@ -445,7 +449,7 @@ sub closeEntry {
     else {
 
         my $done = undef;
-        my %seen = ();
+        my $seen = {};
 
         foreach my $toor (keys %root) {
 
@@ -455,31 +459,21 @@ sub closeEntry {
 
             if ($toor[0] eq $char) {
 
-                $done = 1;
-
                 $toor[1] = $root[1]               if $toor[1] eq '' and @root > 1;
                 $toor[2] = restoreWith($root[-1]) if $toor[2] eq '' and @root > 1;
 
-                foreach my $ptrn (sort keys %{$root{$toor}}) {
-
-                    next if $seen{join ' ', @toor, $ptrn}++;
-
-                    storeEntry((join ' ', @toor), $ptrn);
-                }
-            }
-            elsif ($toor[0] eq '' and $toor[1] ne '' and $toor[1] ne $char) {
+                storeRemoveTwins($root{$toor}, $seen, @toor);
 
                 $done = 1;
+            }
+            elsif ($toor[0] eq '' and $toor[1] ne '' and $toor[1] ne $char) {
 
                 $toor[0] = $root[0];
                 $toor[2] = restoreWith($root[-1]) if $toor[2] eq '' and @root > 1;
 
-                foreach my $ptrn (sort keys %{$root{$toor}}) {
+                storeRemoveTwins($root{$toor}, $seen, @toor);
 
-                    next if $seen{join ' ', @toor, $ptrn}++;
-
-                    storeEntry((join ' ', @toor), $ptrn);
-                }
+                $done = 1;
             }
         }
 
@@ -487,6 +481,33 @@ sub closeEntry {
     }
 
     $Entry = undef;
+}
+
+
+sub storeRemoveTwins {
+
+    my ($root_toor, $seen, @toor) = @_;
+
+    foreach my $ptrn (sort keys %{$root_toor}) {
+
+        next if $seen->{join ' ', @toor, $ptrn}++;
+
+        # unless explicit $root prevents this, prefer Form VIII and remove Form IX
+
+        next if $toor[1] =~ /^$T$/ and  # $toor[0] =~ /^$N$/ is never the question
+
+                $ptrn =~ /^(?:IFCaLa?L|IFCaLY|UFCuLi?L|UFCuLI|
+                              FCaL[ai]?L|FCaL[IY]|IFCiLA[\'L]|
+                              IFCILAL|MuFCaL[LIY]|MuFCALL)$/x;
+
+        next if @toor > 3 and $toor[0] eq 's' and $toor[1] eq 't' and  # Form IV-4
+
+                $ptrn =~ /^(?:IKRaDaSS|IKRaDSaS|UKRuDiSS|UKRuDSiS|
+                              KRaD[ia]SS|KRaDS[ia]S|IKRiDSAS|
+                              MuKRaD[ia]SS)$/x;
+
+        storeEntry((join ' ', @toor), $ptrn);
+    }
 }
 
 
@@ -614,10 +635,6 @@ sub restoreForm {
 
 
 sub initializePatterns {
-
-    my $X = "(\\'|b|t|\\_t|\\^g|\\.h|\\_h|d|\\_d|r|z|s|\\^s|\\.s|\\.d|\\.t|\\.z|\\`|\\.g|f|q|k|l|m|n|h|w|y)";
-    my $T = "(?:[td]|\\_[td]|\\.[tz])";
-    my $N = "(?:[nm])";
 
     @pAttErns = readPatterns('Patterns/Triliteral.hs', 'Patterns/Quadriliteral.hs');
 

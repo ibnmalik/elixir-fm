@@ -13672,18 +13672,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- Easiy~ -}           [ "capable", "suited", "able" ] ]
 
- |> "` t ^s" <| [
-
-    -- ;; {iEota$~_1
-    -- <Et$    {iEota$~        PV_V    build a nest;take root
-    -- AEt$    {iEota$~        PV_V    build a nest;take root
-    -- <Et$$   {iEota$a$       PV_C    build a nest;take root
-    -- AEt$$   {iEota$a$       PV_C    build a nest;take root
-    -- Et$     Eota$~  IV_V    build a nest;take root
-    -- Et$$    Eota$i$ IV_C    build a nest;take root
-
-    IFCaLL                    `verb`    {- AiEota$~ -}         [ "build a nest", "take root" ] ]
-
  |> "` t b" <| [
 
     -- ;; Eatab-ui_1
@@ -13794,35 +13782,7 @@ lexicon = listing "Lexicon's properties"
     -- tEtyd   taEotiyd        N/At    preparation
 
     TaFCIL                    `noun`    {- taEotiyd -}         [ "preparation" ]
-                              `plural`     TaFCIL |< At,
-
-    -- ;; {iEotad~_1
-    -- <Etd    {iEotad~        PV_V    consider;deem
-    -- AEtd    {iEotad~        PV_V    consider;deem
-    -- <Etdd   {iEotadad       PV_C    consider;deem
-    -- AEtdd   {iEotadad       PV_C    consider;deem
-    -- Etd     Eotad~  IV_V    consider;deem
-    -- Etdd    Eotadid IV_C    consider;deem
-
-    IFCaLL                    `verb`    {- AiEotad~ -}         [ "consider", "deem" ],
-
-    -- ;; {iEotidAd_1
-    -- <EtdAd  {iEotidAd       N/At    confidence;reliance
-    -- AEtdAd  {iEotidAd       N/At    confidence;reliance
-
-    IFCiLAL                   `noun`    {- AiEotidAd -}        [ "confidence", "reliance" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; {iEotidAdiy~_1
-    -- <EtdAdy {iEotidAdiy~    Nall    confident     [[{iEotidAdiy~/ADJ]]
-    -- AEtdAdy {iEotidAdiy~    Nall    confident     [[{iEotidAdiy~/ADJ]]
-
-    IFCiLAL |< Iy             `adj`     {- AiEotidAdiy~ -}     [ "confident" ],
-
-    -- ;; muEotad~_1
-    -- mEtd    muEotad~        Nall    confident     [[muEotad~/ADJ]]
-
-    MuFCaLL                   `adj`     {- muEotad~ -}         [ "confident" ] ]
+                              `plural`     TaFCIL |< At ]
 
  |> "` t h" <| [
 
@@ -13898,29 +13858,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Eatiyl_1
     -- Etyl    Eatiyl  N-ap    serious;critical     [[Eatiyl/ADJ]]
 
-    FaCIL                     `adj`     {- Eatiyl -}           [ "serious", "critical" ],
-
-    -- ;; {iEotal~_1
-    -- <Etl    {iEotal~        PV_V    allege;be ill;be deficient
-    -- AEtl    {iEotal~        PV_V    allege;be ill;be deficient
-    -- <Etll   {iEotalal       PV_C    allege;be ill;be deficient
-    -- AEtll   {iEotalal       PV_C    allege;be ill;be deficient
-    -- Etl     Eotal~  IV_V    allege;be ill;be deficient
-    -- Etll    Eotalil IV_C    allege;be ill;be deficient
-
-    IFCaLL                    `verb`    {- AiEotal~ -}         [ "allege", "be ill", "be deficient" ],
-
-    -- ;; {iEotilAl_1
-    -- <EtlAl  {iEotilAl       N/At    illness;weakness;defectiveness
-    -- AEtlAl  {iEotilAl       N/At    illness;weakness;defectiveness
-
-    IFCiLAL                   `noun`    {- AiEotilAl -}        [ "illness", "weakness", "defectiveness" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; muEotal~_1
-    -- mEtl    muEotal~        Nall    sick;defective     [[muEotal~/ADJ]]
-
-    MuFCaLL                   `adj`     {- muEotal~ -}         [ "sick", "defective" ] ]
+    FaCIL                     `adj`     {- Eatiyl -}           [ "serious", "critical" ] ]
 
  |> "` t l t" <| [
 
@@ -13999,22 +13937,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Eat~uwm_1
     -- Etwm    Eat~uwm N0      Attoum
 
-    FaCCUL                    `noun`    {- Eat~uwm -}          [ "Attoum" ],
-
-    -- ;; {iEotam~_1
-    -- <Etm    {iEotam~        PV_V    wear a turban
-    -- AEtm    {iEotam~        PV_V    wear a turban
-    -- <Etmm   {iEotamam       PV_C    wear a turban
-    -- AEtmm   {iEotamam       PV_C    wear a turban
-    -- Etm     Eotam~  IV_V    wear a turban
-    -- Etmm    Eotamim IV_C    wear a turban
-
-    IFCaLL                    `verb`    {- AiEotam~ -}         [ "wear a turban" ],
-
-    -- ;; muEotam~_1
-    -- mEtm    muEotam~        Nall    wearing a turban     [[muEotam~/ADJ]]
-
-    MuFCaLL                   `adj`     {- muEotam~ -}         [ "wearing a turban" ] ]
+    FaCCUL                    `noun`    {- Eat~uwm -}          [ "Attoum" ] ]
 
  |> "` t q" <| [
 
@@ -14112,24 +14035,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muEat~ar_1
     -- mEtr    muEat~ar        Nall    slovenly;foolish;tramp     [[muEat~ar/ADJ]]
 
-    MuFaCCaL                  `adj`     {- muEat~ar -}         [ "slovenly", "foolish", "tramp" ],
-
-    -- ;; muEotar~_1
-    -- mEtr    muEotar~        Nall    scabious;miserable;scoundrel     [[muEotar~/ADJ]]
-
-    MuFCaLL                   `adj`     {- muEotar~ -}         [ "scabious", "miserable", "scoundrel" ] ]
-
- |> "` t s" <| [
-
-    -- ;; {iEotas~_1
-    -- <Ets    {iEotas~        PV_V    patrol by night;make nocturnal rounds
-    -- AEts    {iEotas~        PV_V    patrol by night;make nocturnal rounds
-    -- <Etss   {iEotasas       PV_C    patrol by night;make nocturnal rounds
-    -- AEtss   {iEotasas       PV_C    patrol by night;make nocturnal rounds
-    -- Ets     Eotas~  IV_V    patrol by night;make nocturnal rounds
-    -- Etss    Eotasis IV_C    patrol by night;make nocturnal rounds
-
-    IFCaLL                    `verb`    {- AiEotas~ -}         [ "patrol by night", "make nocturnal rounds" ] ]
+    MuFaCCaL                  `adj`     {- muEat~ar -}         [ "slovenly", "foolish", "tramp" ] ]
 
  |> "` t w" <| [
 
@@ -14201,35 +14107,6 @@ lexicon = listing "Lexicon's properties"
     FaCIL                     `adj`     {- Eatiy~ -}           [ "arrogant", "insolent" ]
                               `plural`     HaFCA'
                            {- `others`  [ "'a`tA' Nh N0_Nh Nhy" ] -} ]
-
- |> "` t z" <| [
-
-    -- ;; {iEotaz~_1
-    -- <Etz    {iEotaz~        PV_V_intr       be proud
-    -- AEtz    {iEotaz~        PV_V_intr       be proud
-    -- <Etzz   {iEotazaz       PV_C_intr       be proud
-    -- AEtzz   {iEotazaz       PV_C_intr       be proud
-    -- Etz     Eotaz~  IV_V_intr       be proud
-    -- Etzz    Eotaziz IV_C_intr       be proud
-
-    IFCaLL                    `verb`    {- AiEotaz~ -}         [ "be proud" ],
-
-    -- ;; {iEotizAz_1
-    -- <EtzAz  {iEotizAz       N/At    pride
-    -- AEtzAz  {iEotizAz       N/At    pride
-
-    IFCiLAL                   `noun`    {- AiEotizAz -}        [ "pride" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; muEotaz~_1
-    -- mEtz    muEotaz~        Nall    proud;mighty     [[muEotaz~/ADJ]]
-
-    MuFCaLL                   `adj`     {- muEotaz~ -}         [ "proud", "mighty" ],
-
-    -- ;; muEotaz~_2
-    -- mEtz    muEotaz~        N0      Mu'tazz
-
-    MuFCaLL                   `noun`    {- muEotaz~ -}         [ "Mu'tazz" ] ]
 
  |> "` w '" <| [
 

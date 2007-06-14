@@ -3746,8 +3746,14 @@ $Lexicon = {
         'gbrr    gobarir IV_C_intr       be dust-colored'
       ],
       'patterns' => {
+        'i.gbarar' => [
+          'IFCaLaL'
+        ],
         '.gbarr' => [
           'FCaLL'
+        ],
+        '.gbarir' => [
+          'FCaLiL'
         ]
       },
       'index' => '1',
@@ -8726,6 +8732,26 @@ $Lexicon = {
       ],
       'orig' => 'gidAn',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu.gdawdin',
+      'form' => 'mu.gdawdin',
+      'lines' => [
+        ';; mugodawodin_1',
+        'mgdwdn  mugodawodin     Nall    lush;luxuriant'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFCawCiL',
+      'suffix' => '',
+      'glosses' => [
+        'lush',
+        'luxuriant'
+      ],
+      'orig' => 'mugodawodin',
+      'prefix' => ''
     }
   ],
   '.g w l' => [
@@ -9030,87 +9056,6 @@ $Lexicon = {
         'GATT'
       ],
       'orig' => 'gAt',
-      'prefix' => ''
-    }
-  ],
-  '.g t r' => [
-    {
-      'types' => {
-        '.gtarir' => {
-          'IV_C_intr' => 1
-        },
-        'i.gtarar' => {
-          'PV_C_intr' => 2
-        },
-        '.gtarr' => {
-          'IV_V_intr' => 1
-        }
-      },
-      'entry' => 'i.gtarr',
-      'form' => 'i.gtarr',
-      'lines' => [
-        ';; {igotar~_1',
-        '<gtr    {igotar~        PV_V_intr       be misled',
-        'Agtr    {igotar~        PV_V_intr       be misled',
-        '<gtrr   {igotarar       PV_C_intr       be misled',
-        'Agtrr   {igotarar       PV_C_intr       be misled',
-        'gtr     gotar~  IV_V_intr       be misled',
-        'gtrr    gotarir IV_C_intr       be misled'
-      ],
-      'patterns' => {
-        '.gtarr' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'be misled'
-      ],
-      'orig' => 'Aigotar~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu.gtarr',
-      'form' => 'mu.gtarr',
-      'lines' => [
-        ';; mugotar~_1',
-        'mgtr    mugotar~        Nall    conceited;vain     [[mugotar~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'conceited',
-        'vain'
-      ],
-      'orig' => 'mugotar~',
-      'prefix' => ''
-    }
-  ],
-  'mu.grawriq' => [
-    {
-      'types' => {},
-      'entry' => 'mu.grawriq',
-      'form' => 'mu.grawriq',
-      'lines' => [
-        ';; mugoraworiq_1',
-        'mgrwrq  mugoraworiq     Nall    drowning     [[mugoraworiq/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'drowning'
-      ],
-      'orig' => 'mugoraworiq',
       'prefix' => ''
     }
   ],
@@ -16915,26 +16860,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.g t ^s' => [
-    {
-      'types' => {},
-      'entry' => 'i.gta^s^s',
-      'form' => 'i.gta^s^s',
-      'lines' => [],
-      'patterns' => {
-        '.gta^s^s' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Aigota$~',
-      'prefix' => ''
-    }
-  ],
   '.giytuw' => [
     {
       'types' => {
@@ -22391,10 +22316,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '.gtarir' => {
+          'IV_C_intr' => 1
+        },
+        'i.gtarar' => {
+          'PV_C_intr' => 2
+        },
+        '.gtarr' => {
+          'IV_V_intr' => 1
+        }
+      },
       'entry' => 'i.gtarr',
       'form' => 'i.gtarr',
-      'lines' => [],
+      'lines' => [
+        ';; {igotar~_1',
+        '<gtr    {igotar~        PV_V_intr       be misled',
+        'Agtr    {igotar~        PV_V_intr       be misled',
+        '<gtrr   {igotarar       PV_C_intr       be misled',
+        'Agtrr   {igotarar       PV_C_intr       be misled',
+        'gtr     gotar~  IV_V_intr       be misled',
+        'gtrr    gotarir IV_C_intr       be misled'
+      ],
       'patterns' => {
         '.gtarir' => [
           'FtaCiL'
@@ -22410,7 +22353,9 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'be misled'
+      ],
       'orig' => 'Aigotar~',
       'prefix' => ''
     },
@@ -22808,13 +22753,19 @@ $Lexicon = {
       'types' => {},
       'entry' => 'mu.gtarr',
       'form' => 'mu.gtarr',
-      'lines' => [],
+      'lines' => [
+        ';; mugotar~_1',
+        'mgtr    mugotar~        Nall    conceited;vain     [[mugotar~/ADJ]]'
+      ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'conceited',
+        'vain'
+      ],
       'orig' => 'mugotar~',
       'prefix' => ''
     },
@@ -28933,40 +28884,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.g t m' => [
-    {
-      'types' => {},
-      'entry' => 'i.gtamm',
-      'form' => 'i.gtamm',
-      'lines' => [],
-      'patterns' => {
-        '.gtamm' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Aigotam~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu.gtamm',
-      'form' => 'mu.gtamm',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'mugotam~',
-      'prefix' => ''
-    }
-  ],
   '.gar_tiyA' => [
     {
       'types' => {},
@@ -29408,6 +29325,25 @@ $Lexicon = {
         'engrossed'
       ],
       'orig' => 'musotagoriq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu.grawriq',
+      'form' => 'mu.grawriq',
+      'lines' => [
+        ';; mugoraworiq_1',
+        'mgrwrq  mugoraworiq     Nall    drowning     [[mugoraworiq/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFCawCiL',
+      'suffix' => '',
+      'glosses' => [
+        'drowning'
+      ],
+      'orig' => 'mugoraworiq',
       'prefix' => ''
     }
   ],
@@ -30637,26 +30573,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.g t .s' => [
-    {
-      'types' => {},
-      'entry' => 'i.gta.s.s',
-      'form' => 'i.gta.s.s',
-      'lines' => [],
-      'patterns' => {
-        '.gta.s.s' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AigotaS~',
-      'prefix' => ''
-    }
-  ],
   '.g f f' => [
     {
       'types' => {
@@ -30722,28 +30638,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'gadA\'',
-      'prefix' => ''
-    }
-  ],
-  'mu.gdawdin' => [
-    {
-      'types' => {},
-      'entry' => 'mu.gdawdin',
-      'form' => 'mu.gdawdin',
-      'lines' => [
-        ';; mugodawodin_1',
-        'mgdwdn  mugodawodin     Nall    lush;luxuriant'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'lush',
-        'luxuriant'
-      ],
-      'orig' => 'mugodawodin',
       'prefix' => ''
     }
   ],
@@ -31431,9 +31325,6 @@ $Lexicon->{'.g w \''}[0]{'glosses'} = $Lexicon->{'.g w y'}[6]{'glosses'};
 $Lexicon->{'.g w z'}[0]{'types'} = $Lexicon->{'.g z y'}[2]{'types'};
 $Lexicon->{'.g w z'}[0]{'lines'} = $Lexicon->{'.g z y'}[2]{'lines'};
 $Lexicon->{'.g w z'}[0]{'glosses'} = $Lexicon->{'.g z y'}[2]{'glosses'};
-$Lexicon->{'.g t ^s'}[0]{'types'} = $Lexicon->{'.g ^s ^s'}[3]{'types'};
-$Lexicon->{'.g t ^s'}[0]{'lines'} = $Lexicon->{'.g ^s ^s'}[3]{'lines'};
-$Lexicon->{'.g t ^s'}[0]{'glosses'} = $Lexicon->{'.g ^s ^s'}[3]{'glosses'};
 $Lexicon->{'.g .t y'}[0]{'types'} = $Lexicon->{'.g .t w'}[6]{'types'};
 $Lexicon->{'.g .t y'}[0]{'lines'} = $Lexicon->{'.g .t w'}[6]{'lines'};
 $Lexicon->{'.g .t y'}[0]{'glosses'} = $Lexicon->{'.g .t w'}[6]{'glosses'};
@@ -31471,12 +31362,6 @@ $Lexicon->{'.g w .t'}[6]{'glosses'} = $Lexicon->{'.g \' .t'}[0]{'glosses'};
 $Lexicon->{'.g w .t'}[7]{'types'} = $Lexicon->{'.g \' .t'}[1]{'types'};
 $Lexicon->{'.g w .t'}[7]{'lines'} = $Lexicon->{'.g \' .t'}[1]{'lines'};
 $Lexicon->{'.g w .t'}[7]{'glosses'} = $Lexicon->{'.g \' .t'}[1]{'glosses'};
-$Lexicon->{'.g r r'}[2]{'types'} = $Lexicon->{'.g t r'}[0]{'types'};
-$Lexicon->{'.g r r'}[2]{'lines'} = $Lexicon->{'.g t r'}[0]{'lines'};
-$Lexicon->{'.g r r'}[2]{'glosses'} = $Lexicon->{'.g t r'}[0]{'glosses'};
-$Lexicon->{'.g r r'}[19]{'types'} = $Lexicon->{'.g t r'}[1]{'types'};
-$Lexicon->{'.g r r'}[19]{'lines'} = $Lexicon->{'.g t r'}[1]{'lines'};
-$Lexicon->{'.g r r'}[19]{'glosses'} = $Lexicon->{'.g t r'}[1]{'glosses'};
 $Lexicon->{'.g r r'}[20]{'types'} = $Lexicon->{'.g r w'}[9]{'types'};
 $Lexicon->{'.g r r'}[20]{'lines'} = $Lexicon->{'.g r w'}[9]{'lines'};
 $Lexicon->{'.g r r'}[20]{'glosses'} = $Lexicon->{'.g r w'}[9]{'glosses'};
@@ -31535,12 +31420,6 @@ $Lexicon->{'.g w _t'}[6]{'glosses'} = $Lexicon->{'.g y _t'}[2]{'glosses'};
 $Lexicon->{'.g w _t'}[7]{'types'} = $Lexicon->{'.g y _t'}[3]{'types'};
 $Lexicon->{'.g w _t'}[7]{'lines'} = $Lexicon->{'.g y _t'}[3]{'lines'};
 $Lexicon->{'.g w _t'}[7]{'glosses'} = $Lexicon->{'.g y _t'}[3]{'glosses'};
-$Lexicon->{'.g t m'}[0]{'types'} = $Lexicon->{'.g m m'}[4]{'types'};
-$Lexicon->{'.g t m'}[0]{'lines'} = $Lexicon->{'.g m m'}[4]{'lines'};
-$Lexicon->{'.g t m'}[0]{'glosses'} = $Lexicon->{'.g m m'}[4]{'glosses'};
-$Lexicon->{'.g t m'}[1]{'types'} = $Lexicon->{'.g m m'}[16]{'types'};
-$Lexicon->{'.g t m'}[1]{'lines'} = $Lexicon->{'.g m m'}[16]{'lines'};
-$Lexicon->{'.g t m'}[1]{'glosses'} = $Lexicon->{'.g m m'}[16]{'glosses'};
 $Lexicon->{'.g z z'}[4]{'types'} = $Lexicon->{'.g z \''}[0]{'types'};
 $Lexicon->{'.g z z'}[4]{'lines'} = $Lexicon->{'.g z \''}[0]{'lines'};
 $Lexicon->{'.g z z'}[4]{'glosses'} = $Lexicon->{'.g z \''}[0]{'glosses'};
@@ -31556,9 +31435,6 @@ $Lexicon->{'.g w z y'}[0]{'glosses'} = $Lexicon->{'.g z y'}[2]{'glosses'};
 $Lexicon->{'.g \' b'}[0]{'types'} = $Lexicon->{'.g y b'}[20]{'types'};
 $Lexicon->{'.g \' b'}[0]{'lines'} = $Lexicon->{'.g y b'}[20]{'lines'};
 $Lexicon->{'.g \' b'}[0]{'glosses'} = $Lexicon->{'.g y b'}[20]{'glosses'};
-$Lexicon->{'.g t .s'}[0]{'types'} = $Lexicon->{'.g .s .s'}[2]{'types'};
-$Lexicon->{'.g t .s'}[0]{'lines'} = $Lexicon->{'.g .s .s'}[2]{'lines'};
-$Lexicon->{'.g t .s'}[0]{'glosses'} = $Lexicon->{'.g .s .s'}[2]{'glosses'};
 $Lexicon->{'.g d \''}[0]{'types'} = $Lexicon->{'.g d w'}[4]{'types'};
 $Lexicon->{'.g d \''}[0]{'lines'} = $Lexicon->{'.g d w'}[4]{'lines'};
 $Lexicon->{'.g d \''}[0]{'glosses'} = $Lexicon->{'.g d w'}[4]{'glosses'};

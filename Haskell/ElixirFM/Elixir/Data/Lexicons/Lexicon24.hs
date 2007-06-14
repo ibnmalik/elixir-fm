@@ -1228,13 +1228,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCA' |< Iy               `adj`     {- masA}iy~ -}         [ "evening" ] ]
 
- |> "m t .s" <| [
-
-    IFCaLL                    `verb`    {- AimotaS~ -}         [ "absorb", "sip", "lap up" ],
-
-    IFCiLAL                   `noun`    {- AimotiSAS -}        [ "absorption", "suction" ]
-                              `plural`     IFCiLAL |< At ]
-
  |> "m t `" <| [
 
     HaFCaL                    `verb`    {- OamotaE -}          [ "make enjoy", "furnish", "be made to enjoy", "be furnished" ],
@@ -1264,18 +1257,6 @@ lexicon = listing "Lexicon's properties"
     MuFaCCiL                  `adj`     {- mumat~iE -}         [ "pleasing", "gratifying" ],
 
     MuFCiL                    `adj`     {- mumotiE -}          [ "pleasing", "gratifying" ] ]
-
- |> "m t d" <| [
-
-    IFCaLL                    `verb`    {- Aimotad~ -}         [ "extend", "reach", "spread" ],
-
-    IFCiLAL                   `noun`    {- AimotidAd -}        [ "extension", "expansion" ]
-                              `plural`     IFCiLAL |< At,
-
-    IFCiLAL                   `noun`    {- AimotidAd -}        [ "extent", "scope" ]
-                              `plural`     IFCiLAL |< At,
-
-    MuFCaLL                   `adj`     {- mumotad~ -}         [ "stretching", "spreading", "extending" ] ]
 
  |> "m t n" <| [
 

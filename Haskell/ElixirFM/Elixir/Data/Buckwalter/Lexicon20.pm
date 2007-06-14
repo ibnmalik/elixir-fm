@@ -7455,38 +7455,6 @@ $Lexicon = {
       ],
       'orig' => 'fAtuwrap',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'iftarr',
-      'form' => 'iftarr',
-      'lines' => [],
-      'patterns' => {
-        'ftarr' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Aifotar~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'muftarr',
-      'form' => 'muftarr',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'mufotar~',
-      'prefix' => ''
     }
   ],
   'fi.ta.hl' => [
@@ -26190,74 +26158,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'f t .d' => [
-    {
-      'types' => {
-        'fta.di.d' => {
-          'IV_C' => 1
-        },
-        'fta.d.d' => {
-          'IV_V' => 1
-        },
-        'ifta.da.d' => {
-          'PV_C' => 2
-        }
-      },
-      'entry' => 'ifta.d.d',
-      'form' => 'ifta.d.d',
-      'lines' => [
-        ';; {ifotaD~_1',
-        '<ftD    {ifotaD~        PV_V    deflower',
-        'AftD    {ifotaD~        PV_V    deflower',
-        '<ftDD   {ifotaDaD       PV_C    deflower',
-        'AftDD   {ifotaDaD       PV_C    deflower',
-        'ftD     fotaD~  IV_V    deflower',
-        'ftDD    fotaDiD IV_C    deflower'
-      ],
-      'patterns' => {
-        'fta.d.d' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'deflower'
-      ],
-      'orig' => 'AifotaD~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ifti.dA.d' => {
-          'N/At' => 2
-        }
-      },
-      'entry' => 'ifti.dA.d',
-      'form' => 'ifti.dA.d',
-      'lines' => [
-        ';; {ifotiDAD_1',
-        '<ftDAD  {ifotiDAD       N/At    defloration',
-        'AftDAD  {ifotiDAD       N/At    defloration'
-      ],
-      'patterns' => {
-        'ifti.dA.d' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [
-        'defloration'
-      ],
-      'orig' => 'AifotiDAD',
-      'prefix' => ''
-    }
-  ],
   'fAwstiynuw' => [
     {
       'types' => {},
@@ -26649,93 +26549,6 @@ $Lexicon = {
         'rioter'
       ],
       'orig' => 'mufotin',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ftanin' => {
-          'IV_Cn_intr' => 1
-        },
-        'ftann' => {
-          'IV_V_intr' => 1
-        },
-        'iftanan' => {
-          'PV_Cn_intr' => 2
-        }
-      },
-      'entry' => 'iftann',
-      'form' => 'iftann',
-      'lines' => [
-        ';; {ifotan~_1',
-        '<ftn    {ifotan~        PV_V_intr       be diversified;be variegated',
-        'Aftn    {ifotan~        PV_V_intr       be diversified;be variegated',
-        '<ftnn   {ifotanan       PV_Cn_intr      be diversified;be variegated',
-        'Aftnn   {ifotanan       PV_Cn_intr      be diversified;be variegated',
-        'ftn     fotan~  IV_V_intr       be diversified;be variegated',
-        'ftnn    fotanin IV_Cn_intr      be diversified;be variegated'
-      ],
-      'patterns' => {
-        'ftann' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'be diversified',
-        'be variegated'
-      ],
-      'orig' => 'Aifotan~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'iftinAn' => {
-          'N/At' => 2
-        }
-      },
-      'entry' => 'iftinAn',
-      'form' => 'iftinAn',
-      'lines' => [
-        ';; {ifotinAn_1',
-        '<ftnAn  {ifotinAn       N/At    diversity',
-        'AftnAn  {ifotinAn       N/At    diversity'
-      ],
-      'patterns' => {
-        'iftinAn' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [
-        'diversity'
-      ],
-      'orig' => 'AifotinAn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'muftann',
-      'form' => 'muftann',
-      'lines' => [
-        ';; mufotan~_1',
-        'mftn    mufotan~        Nall    expert;masterful'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'expert',
-        'masterful'
-      ],
-      'orig' => 'mufotan~',
       'prefix' => ''
     }
   ],
@@ -28141,28 +27954,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'f t z' => [
-    {
-      'types' => {},
-      'entry' => 'muftazz',
-      'form' => 'muftazz',
-      'lines' => [
-        ';; mufotaz~_1',
-        'mftz    mufotaz~        Nall    agitator;provocateur'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'agitator',
-        'provocateur'
-      ],
-      'orig' => 'mufotaz~',
-      'prefix' => ''
-    }
-  ],
   'f .d .d' => [
     {
       'types' => {
@@ -28258,10 +28049,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'fta.di.d' => {
+          'IV_C' => 1
+        },
+        'fta.d.d' => {
+          'IV_V' => 1
+        },
+        'ifta.da.d' => {
+          'PV_C' => 2
+        }
+      },
       'entry' => 'ifta.d.d',
       'form' => 'ifta.d.d',
-      'lines' => [],
+      'lines' => [
+        ';; {ifotaD~_1',
+        '<ftD    {ifotaD~        PV_V    deflower',
+        'AftD    {ifotaD~        PV_V    deflower',
+        '<ftDD   {ifotaDaD       PV_C    deflower',
+        'AftDD   {ifotaDaD       PV_C    deflower',
+        'ftD     fotaD~  IV_V    deflower',
+        'ftDD    fotaDiD IV_C    deflower'
+      ],
       'patterns' => {
         'fta.d.d' => [
           'FtaCL'
@@ -28277,7 +28086,9 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'deflower'
+      ],
       'orig' => 'AifotaD~',
       'prefix' => ''
     },
@@ -28432,10 +28243,18 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'ifti.dA.d' => {
+          'N/At' => 2
+        }
+      },
       'entry' => 'ifti.dA.d',
       'form' => 'ifti.dA.d',
-      'lines' => [],
+      'lines' => [
+        ';; {ifotiDAD_1',
+        '<ftDAD  {ifotiDAD       N/At    defloration',
+        'AftDAD  {ifotiDAD       N/At    defloration'
+      ],
       'patterns' => {
         'ifti.dA.d' => [
           'IFtiCAL'
@@ -28445,7 +28264,9 @@ $Lexicon = {
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'defloration'
+      ],
       'orig' => 'AifotiDAD',
       'prefix' => ''
     },
@@ -40078,26 +39899,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'f t .s' => [
-    {
-      'types' => {},
-      'entry' => 'ifta.s.s',
-      'form' => 'ifta.s.s',
-      'lines' => [],
-      'patterns' => {
-        'fta.s.s' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AifotaS~',
-      'prefix' => ''
-    }
-  ],
   'infil' => [
     {
       'types' => {
@@ -41197,13 +40998,19 @@ $Lexicon = {
       'types' => {},
       'entry' => 'muftazz',
       'form' => 'muftazz',
-      'lines' => [],
+      'lines' => [
+        ';; mufotaz~_1',
+        'mftz    mufotaz~        Nall    agitator;provocateur'
+      ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'agitator',
+        'provocateur'
+      ],
       'orig' => 'mufotaz~',
       'prefix' => ''
     }
@@ -41281,10 +41088,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'ftanin' => {
+          'IV_Cn_intr' => 1
+        },
+        'ftann' => {
+          'IV_V_intr' => 1
+        },
+        'iftanan' => {
+          'PV_Cn_intr' => 2
+        }
+      },
       'entry' => 'iftann',
       'form' => 'iftann',
-      'lines' => [],
+      'lines' => [
+        ';; {ifotan~_1',
+        '<ftn    {ifotan~        PV_V_intr       be diversified;be variegated',
+        'Aftn    {ifotan~        PV_V_intr       be diversified;be variegated',
+        '<ftnn   {ifotanan       PV_Cn_intr      be diversified;be variegated',
+        'Aftnn   {ifotanan       PV_Cn_intr      be diversified;be variegated',
+        'ftn     fotan~  IV_V_intr       be diversified;be variegated',
+        'ftnn    fotanin IV_Cn_intr      be diversified;be variegated'
+      ],
       'patterns' => {
         'ftanin' => [
           'FtaCiL'
@@ -41300,7 +41125,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'be diversified',
+        'be variegated'
+      ],
       'orig' => 'Aifotan~',
       'prefix' => ''
     },
@@ -41494,10 +41322,18 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'iftinAn' => {
+          'N/At' => 2
+        }
+      },
       'entry' => 'iftinAn',
       'form' => 'iftinAn',
-      'lines' => [],
+      'lines' => [
+        ';; {ifotinAn_1',
+        '<ftnAn  {ifotinAn       N/At    diversity',
+        'AftnAn  {ifotinAn       N/At    diversity'
+      ],
       'patterns' => {
         'iftinAn' => [
           'IFtiCAL'
@@ -41507,7 +41343,9 @@ $Lexicon = {
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'diversity'
+      ],
       'orig' => 'AifotinAn',
       'prefix' => ''
     },
@@ -41536,13 +41374,19 @@ $Lexicon = {
       'types' => {},
       'entry' => 'muftann',
       'form' => 'muftann',
-      'lines' => [],
+      'lines' => [
+        ';; mufotan~_1',
+        'mftn    mufotan~        Nall    expert;masterful'
+      ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'expert',
+        'masterful'
+      ],
       'orig' => 'mufotan~',
       'prefix' => ''
     }
@@ -46878,42 +46722,6 @@ $Lexicon = {
       ],
       'orig' => 'fAtik',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'iftakk',
-      'form' => 'iftakk',
-      'lines' => [],
-      'patterns' => {
-        'ftakk' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Aifotak~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'iftikAk',
-      'form' => 'iftikAk',
-      'lines' => [],
-      'patterns' => {
-        'iftikAk' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AifotikAk',
-      'prefix' => ''
     }
   ],
   'fuwltA' => [
@@ -48341,12 +48149,6 @@ $Lexicon->{'f y l l'}[1]{'glosses'} = $Lexicon->{'f l l'}[11]{'glosses'};
 $Lexicon->{'f l w'}[2]{'types'} = $Lexicon->{'f l l'}[10]{'types'};
 $Lexicon->{'f l w'}[2]{'lines'} = $Lexicon->{'f l l'}[10]{'lines'};
 $Lexicon->{'f l w'}[2]{'glosses'} = $Lexicon->{'f l l'}[10]{'glosses'};
-$Lexicon->{'f t r'}[10]{'types'} = $Lexicon->{'f r r'}[2]{'types'};
-$Lexicon->{'f t r'}[10]{'lines'} = $Lexicon->{'f r r'}[2]{'lines'};
-$Lexicon->{'f t r'}[10]{'glosses'} = $Lexicon->{'f r r'}[2]{'glosses'};
-$Lexicon->{'f t r'}[11]{'types'} = $Lexicon->{'f r r'}[9]{'types'};
-$Lexicon->{'f t r'}[11]{'lines'} = $Lexicon->{'f r r'}[9]{'lines'};
-$Lexicon->{'f t r'}[11]{'glosses'} = $Lexicon->{'f r r'}[9]{'glosses'};
 $Lexicon->{'f w y'}[0]{'types'} = $Lexicon->{'f w w'}[0]{'types'};
 $Lexicon->{'f w y'}[0]{'lines'} = $Lexicon->{'f w w'}[0]{'lines'};
 $Lexicon->{'f w y'}[0]{'glosses'} = $Lexicon->{'f w w'}[0]{'glosses'};
@@ -48395,12 +48197,6 @@ $Lexicon->{'f d y'}[11]{'glosses'} = $Lexicon->{'f d \''}[3]{'glosses'};
 $Lexicon->{'f ^s \''}[0]{'types'} = $Lexicon->{'f ^s w'}[3]{'types'};
 $Lexicon->{'f ^s \''}[0]{'lines'} = $Lexicon->{'f ^s w'}[3]{'lines'};
 $Lexicon->{'f ^s \''}[0]{'glosses'} = $Lexicon->{'f ^s w'}[3]{'glosses'};
-$Lexicon->{'f .d .d'}[2]{'types'} = $Lexicon->{'f t .d'}[0]{'types'};
-$Lexicon->{'f .d .d'}[2]{'lines'} = $Lexicon->{'f t .d'}[0]{'lines'};
-$Lexicon->{'f .d .d'}[2]{'glosses'} = $Lexicon->{'f t .d'}[0]{'glosses'};
-$Lexicon->{'f .d .d'}[10]{'types'} = $Lexicon->{'f t .d'}[1]{'types'};
-$Lexicon->{'f .d .d'}[10]{'lines'} = $Lexicon->{'f t .d'}[1]{'lines'};
-$Lexicon->{'f .d .d'}[10]{'glosses'} = $Lexicon->{'f t .d'}[1]{'glosses'};
 $Lexicon->{'f t \''}[2]{'types'} = $Lexicon->{'f t w'}[6]{'types'};
 $Lexicon->{'f t \''}[2]{'lines'} = $Lexicon->{'f t w'}[6]{'lines'};
 $Lexicon->{'f t \''}[2]{'glosses'} = $Lexicon->{'f t w'}[6]{'glosses'};
@@ -48437,9 +48233,6 @@ $Lexicon->{'f \' t'}[1]{'glosses'} = $Lexicon->{'f w t'}[8]{'glosses'};
 $Lexicon->{'f s w'}[2]{'types'} = $Lexicon->{'f s \''}[0]{'types'};
 $Lexicon->{'f s w'}[2]{'lines'} = $Lexicon->{'f s \''}[0]{'lines'};
 $Lexicon->{'f s w'}[2]{'glosses'} = $Lexicon->{'f s \''}[0]{'glosses'};
-$Lexicon->{'f t .s'}[0]{'types'} = $Lexicon->{'f .s .s'}[3]{'types'};
-$Lexicon->{'f t .s'}[0]{'lines'} = $Lexicon->{'f .s .s'}[3]{'lines'};
-$Lexicon->{'f t .s'}[0]{'glosses'} = $Lexicon->{'f .s .s'}[3]{'glosses'};
 $Lexicon->{'f r \''}[2]{'types'} = $Lexicon->{'f r r'}[12]{'types'};
 $Lexicon->{'f r \''}[2]{'lines'} = $Lexicon->{'f r r'}[12]{'lines'};
 $Lexicon->{'f r \''}[2]{'glosses'} = $Lexicon->{'f r r'}[12]{'glosses'};
@@ -48461,21 +48254,9 @@ $Lexicon->{'f m m'}[1]{'glosses'} = $Lexicon->{'f m y'}[1]{'glosses'};
 $Lexicon->{'f m m'}[2]{'types'} = $Lexicon->{'f m y'}[2]{'types'};
 $Lexicon->{'f m m'}[2]{'lines'} = $Lexicon->{'f m y'}[2]{'lines'};
 $Lexicon->{'f m m'}[2]{'glosses'} = $Lexicon->{'f m y'}[2]{'glosses'};
-$Lexicon->{'f z z'}[8]{'types'} = $Lexicon->{'f t z'}[0]{'types'};
-$Lexicon->{'f z z'}[8]{'lines'} = $Lexicon->{'f t z'}[0]{'lines'};
-$Lexicon->{'f z z'}[8]{'glosses'} = $Lexicon->{'f t z'}[0]{'glosses'};
-$Lexicon->{'f n n'}[2]{'types'} = $Lexicon->{'f t n'}[15]{'types'};
-$Lexicon->{'f n n'}[2]{'lines'} = $Lexicon->{'f t n'}[15]{'lines'};
-$Lexicon->{'f n n'}[2]{'glosses'} = $Lexicon->{'f t n'}[15]{'glosses'};
 $Lexicon->{'f n n'}[9]{'types'} = $Lexicon->{'f n n'}[8]{'types'};
 $Lexicon->{'f n n'}[9]{'lines'} = $Lexicon->{'f n n'}[8]{'lines'};
 $Lexicon->{'f n n'}[9]{'glosses'} = $Lexicon->{'f n n'}[8]{'glosses'};
-$Lexicon->{'f n n'}[11]{'types'} = $Lexicon->{'f t n'}[16]{'types'};
-$Lexicon->{'f n n'}[11]{'lines'} = $Lexicon->{'f t n'}[16]{'lines'};
-$Lexicon->{'f n n'}[11]{'glosses'} = $Lexicon->{'f t n'}[16]{'glosses'};
-$Lexicon->{'f n n'}[13]{'types'} = $Lexicon->{'f t n'}[17]{'types'};
-$Lexicon->{'f n n'}[13]{'lines'} = $Lexicon->{'f t n'}[17]{'lines'};
-$Lexicon->{'f n n'}[13]{'glosses'} = $Lexicon->{'f t n'}[17]{'glosses'};
 $Lexicon->{'f r y'}[0]{'types'} = $Lexicon->{'f r r'}[10]{'types'};
 $Lexicon->{'f r y'}[0]{'lines'} = $Lexicon->{'f r r'}[10]{'lines'};
 $Lexicon->{'f r y'}[0]{'glosses'} = $Lexicon->{'f r r'}[10]{'glosses'};
@@ -48531,12 +48312,6 @@ $Lexicon->{'f \' q'}[0]{'glosses'} = $Lexicon->{'f w q'}[14]{'glosses'};
 $Lexicon->{'f \' q'}[1]{'types'} = $Lexicon->{'f w q'}[15]{'types'};
 $Lexicon->{'f \' q'}[1]{'lines'} = $Lexicon->{'f w q'}[15]{'lines'};
 $Lexicon->{'f \' q'}[1]{'glosses'} = $Lexicon->{'f w q'}[15]{'glosses'};
-$Lexicon->{'f t k'}[6]{'types'} = $Lexicon->{'f k k'}[4]{'types'};
-$Lexicon->{'f t k'}[6]{'lines'} = $Lexicon->{'f k k'}[4]{'lines'};
-$Lexicon->{'f t k'}[6]{'glosses'} = $Lexicon->{'f k k'}[4]{'glosses'};
-$Lexicon->{'f t k'}[7]{'types'} = $Lexicon->{'f k k'}[13]{'types'};
-$Lexicon->{'f t k'}[7]{'lines'} = $Lexicon->{'f k k'}[13]{'lines'};
-$Lexicon->{'f t k'}[7]{'glosses'} = $Lexicon->{'f k k'}[13]{'glosses'};
 $Lexicon->{'f w r'}[12]{'types'} = $Lexicon->{'f \' r'}[1]{'types'};
 $Lexicon->{'f w r'}[12]{'lines'} = $Lexicon->{'f \' r'}[1]{'lines'};
 $Lexicon->{'f w r'}[12]{'glosses'} = $Lexicon->{'f \' r'}[1]{'glosses'};

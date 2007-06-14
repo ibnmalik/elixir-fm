@@ -87,15 +87,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACI
                            {- `others`  [ ".dawA.hiy N0_Nh" ] -} ]
 
- |> ".d .t r" <| [
-
-    IFCaLL                    `verb`    {- AiDoTar~ -}         [ "compel", "force", "oblige" ],
-
-    IFCiLAL                   `noun`    {- AiDoTirAr -}        [ "obligation", "emergency", "urgency" ]
-                              `plural`     IFCiLAL |< At,
-
-    MuFCaLL                   `adj`     {- muDoTar~ -}         [ "compelled", "forced", "obligated" ] ]
-
  |> ".d ^g ^g" <| [
 
     FaCL |< aT                `noun`    {- Daj~ap -}           [ "noise", "tumult" ],
@@ -295,6 +286,11 @@ lexicon = listing "Lexicon's properties"
     FACL |< aT                `noun`    {- DAl~ap -}           [ "ambition", "objective" ],
 
     MuFaCCiL                  `noun`    {- muDal~il -}         [ "misleading", "deceptive" ] ]
+
+ |> ".d m .h l" <| [
+
+    IKRiDSAS                  `noun`    {- AiDomiHolAl -}      [ "disappearance", "fading" ]
+                              `plural`     IKRiDSAS |< At ]
 
  |> ".d m m" <| [
 
@@ -627,8 +623,4 @@ lexicon = listing "Lexicon's properties"
     FA'iL |< aT               `noun`    {- DA}iqap -}          [ "crisis", "predicament", "crises", "predicaments" ]
                               `plural`     FawA'iL
                            {- `others`  [ ".dawA'iq Ndip" ] -} ]
-
- |> "i.dmi.hlAl" <| [
-
-    Identity                  `noun`    {- AiDomiHolAl -}      [ "disappearance", "fading" ] ]
 

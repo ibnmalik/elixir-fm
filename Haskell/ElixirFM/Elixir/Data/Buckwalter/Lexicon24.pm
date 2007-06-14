@@ -13851,44 +13851,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'm t z' => [
-    {
-      'types' => {},
-      'entry' => 'imtazz',
-      'form' => 'imtazz',
-      'lines' => [],
-      'patterns' => {
-        'mtazz' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Aimotaz~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'imtizAz',
-      'form' => 'imtizAz',
-      'lines' => [],
-      'patterns' => {
-        'imtizAz' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AimotizAz',
-      'prefix' => ''
-    }
-  ],
   'm r `' => [
     {
       'types' => {
@@ -29529,26 +29491,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'm t l' => [
-    {
-      'types' => {},
-      'entry' => 'imtall',
-      'form' => 'imtall',
-      'lines' => [],
-      'patterns' => {
-        'mtall' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Aimotal~',
-      'prefix' => ''
-    }
-  ],
   'm l ^g' => [
     {
       'types' => {
@@ -30578,27 +30520,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'm y ^g r' => [
-    {
-      'types' => {},
-      'entry' => 'miy^guwr',
-      'form' => 'miy^guwr',
-      'lines' => [
-        ';; miyjuwr_1',
-        'myjwr   miyjuwr Nprop   Major'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KiRDUS',
-      'suffix' => '',
-      'glosses' => [
-        'Major'
-      ],
-      'orig' => 'miyjuwr',
-      'prefix' => ''
-    }
-  ],
   'mada.ga^sqar' => [
     {
       'types' => {},
@@ -30617,6 +30538,27 @@ $Lexicon = {
         'Madagascar'
       ],
       'orig' => 'madaga$oqar',
+      'prefix' => ''
+    }
+  ],
+  'm y ^g r' => [
+    {
+      'types' => {},
+      'entry' => 'miy^guwr',
+      'form' => 'miy^guwr',
+      'lines' => [
+        ';; miyjuwr_1',
+        'myjwr   miyjuwr Nprop   Major'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KiRDUS',
+      'suffix' => '',
+      'glosses' => [
+        'Major'
+      ],
+      'orig' => 'miyjuwr',
       'prefix' => ''
     }
   ],
@@ -40301,58 +40243,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'm t .s' => [
-    {
-      'types' => {},
-      'entry' => 'imta.s.s',
-      'form' => 'imta.s.s',
-      'lines' => [],
-      'patterns' => {
-        'mta.s.s' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AimotaS~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'imti.sA.s',
-      'form' => 'imti.sA.s',
-      'lines' => [],
-      'patterns' => {
-        'imti.sA.s' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AimotiSAS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mumta.s.s',
-      'form' => 'mumta.s.s',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'mumotaS~',
-      'prefix' => ''
-    }
-  ],
   'm q t' => [
     {
       'types' => {
@@ -44354,76 +44244,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'm t d' => [
-    {
-      'types' => {},
-      'entry' => 'imtadd',
-      'form' => 'imtadd',
-      'lines' => [],
-      'patterns' => {
-        'mtadd' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Aimotad~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'imtidAd',
-      'form' => 'imtidAd',
-      'lines' => [],
-      'patterns' => {
-        'imtidAd' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AimotidAd',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'imtidAd',
-      'form' => 'imtidAd',
-      'lines' => [],
-      'patterns' => {
-        'imtidAd' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AimotidAd',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mumtadd',
-      'form' => 'mumtadd',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'mumotad~',
-      'prefix' => ''
-    }
-  ],
   'm h l' => [
     {
       'types' => {
@@ -45917,12 +45737,6 @@ $Lexicon->{'m \' \''}[3]{'glosses'} = $Lexicon->{'m \' \''}[2]{'glosses'};
 $Lexicon->{'m \' \''}[5]{'types'} = $Lexicon->{'m \' \''}[4]{'types'};
 $Lexicon->{'m \' \''}[5]{'lines'} = $Lexicon->{'m \' \''}[4]{'lines'};
 $Lexicon->{'m \' \''}[5]{'glosses'} = $Lexicon->{'m \' \''}[4]{'glosses'};
-$Lexicon->{'m t z'}[0]{'types'} = $Lexicon->{'m z z'}[1]{'types'};
-$Lexicon->{'m t z'}[0]{'lines'} = $Lexicon->{'m z z'}[1]{'lines'};
-$Lexicon->{'m t z'}[0]{'glosses'} = $Lexicon->{'m z z'}[1]{'glosses'};
-$Lexicon->{'m t z'}[1]{'types'} = $Lexicon->{'m z z'}[3]{'types'};
-$Lexicon->{'m t z'}[1]{'lines'} = $Lexicon->{'m z z'}[3]{'lines'};
-$Lexicon->{'m t z'}[1]{'glosses'} = $Lexicon->{'m z z'}[3]{'glosses'};
 $Lexicon->{'m l \''}[16]{'types'} = $Lexicon->{'m l w'}[10]{'types'};
 $Lexicon->{'m l \''}[16]{'lines'} = $Lexicon->{'m l w'}[10]{'lines'};
 $Lexicon->{'m l \''}[16]{'glosses'} = $Lexicon->{'m l w'}[10]{'glosses'};
@@ -45971,9 +45785,6 @@ $Lexicon->{'m n \''}[3]{'glosses'} = $Lexicon->{'m n \''}[2]{'glosses'};
 $Lexicon->{'m ` w'}[1]{'types'} = $Lexicon->{'m ` \''}[0]{'types'};
 $Lexicon->{'m ` w'}[1]{'lines'} = $Lexicon->{'m ` \''}[0]{'lines'};
 $Lexicon->{'m ` w'}[1]{'glosses'} = $Lexicon->{'m ` \''}[0]{'glosses'};
-$Lexicon->{'m t l'}[0]{'types'} = $Lexicon->{'m l l'}[3]{'types'};
-$Lexicon->{'m t l'}[0]{'lines'} = $Lexicon->{'m l l'}[3]{'lines'};
-$Lexicon->{'m t l'}[0]{'glosses'} = $Lexicon->{'m l l'}[3]{'glosses'};
 $Lexicon->{'m \' d'}[0]{'types'} = $Lexicon->{'m y d'}[4]{'types'};
 $Lexicon->{'m \' d'}[0]{'lines'} = $Lexicon->{'m y d'}[4]{'lines'};
 $Lexicon->{'m \' d'}[0]{'glosses'} = $Lexicon->{'m y d'}[4]{'glosses'};
@@ -46043,15 +45854,6 @@ $Lexicon->{'m n n'}[3]{'glosses'} = $Lexicon->{'m n w'}[9]{'glosses'};
 $Lexicon->{'m \' t'}[0]{'types'} = $Lexicon->{'m w t'}[10]{'types'};
 $Lexicon->{'m \' t'}[0]{'lines'} = $Lexicon->{'m w t'}[10]{'lines'};
 $Lexicon->{'m \' t'}[0]{'glosses'} = $Lexicon->{'m w t'}[10]{'glosses'};
-$Lexicon->{'m t .s'}[0]{'types'} = $Lexicon->{'m .s .s'}[3]{'types'};
-$Lexicon->{'m t .s'}[0]{'lines'} = $Lexicon->{'m .s .s'}[3]{'lines'};
-$Lexicon->{'m t .s'}[0]{'glosses'} = $Lexicon->{'m .s .s'}[3]{'glosses'};
-$Lexicon->{'m t .s'}[1]{'types'} = $Lexicon->{'m .s .s'}[12]{'types'};
-$Lexicon->{'m t .s'}[1]{'lines'} = $Lexicon->{'m .s .s'}[12]{'lines'};
-$Lexicon->{'m t .s'}[1]{'glosses'} = $Lexicon->{'m .s .s'}[12]{'glosses'};
-$Lexicon->{'m t .s'}[2]{'types'} = $Lexicon->{'m .s .s'}[14]{'types'};
-$Lexicon->{'m t .s'}[2]{'lines'} = $Lexicon->{'m .s .s'}[14]{'lines'};
-$Lexicon->{'m t .s'}[2]{'glosses'} = $Lexicon->{'m .s .s'}[14]{'glosses'};
 $Lexicon->{'m t y'}[3]{'types'} = $Lexicon->{'m t t'}[2]{'types'};
 $Lexicon->{'m t y'}[3]{'lines'} = $Lexicon->{'m t t'}[2]{'lines'};
 $Lexicon->{'m t y'}[3]{'glosses'} = $Lexicon->{'m t t'}[2]{'glosses'};
@@ -46073,18 +45875,6 @@ $Lexicon->{'m y `'}[11]{'glosses'} = $Lexicon->{'m \' `'}[0]{'glosses'};
 $Lexicon->{'m y `'}[12]{'types'} = $Lexicon->{'m \' `'}[1]{'types'};
 $Lexicon->{'m y `'}[12]{'lines'} = $Lexicon->{'m \' `'}[1]{'lines'};
 $Lexicon->{'m y `'}[12]{'glosses'} = $Lexicon->{'m \' `'}[1]{'glosses'};
-$Lexicon->{'m t d'}[0]{'types'} = $Lexicon->{'m d d'}[5]{'types'};
-$Lexicon->{'m t d'}[0]{'lines'} = $Lexicon->{'m d d'}[5]{'lines'};
-$Lexicon->{'m t d'}[0]{'glosses'} = $Lexicon->{'m d d'}[5]{'glosses'};
-$Lexicon->{'m t d'}[1]{'types'} = $Lexicon->{'m d d'}[17]{'types'};
-$Lexicon->{'m t d'}[1]{'lines'} = $Lexicon->{'m d d'}[17]{'lines'};
-$Lexicon->{'m t d'}[1]{'glosses'} = $Lexicon->{'m d d'}[17]{'glosses'};
-$Lexicon->{'m t d'}[2]{'types'} = $Lexicon->{'m d d'}[18]{'types'};
-$Lexicon->{'m t d'}[2]{'lines'} = $Lexicon->{'m d d'}[18]{'lines'};
-$Lexicon->{'m t d'}[2]{'glosses'} = $Lexicon->{'m d d'}[18]{'glosses'};
-$Lexicon->{'m t d'}[3]{'types'} = $Lexicon->{'m d d'}[30]{'types'};
-$Lexicon->{'m t d'}[3]{'lines'} = $Lexicon->{'m d d'}[30]{'lines'};
-$Lexicon->{'m t d'}[3]{'glosses'} = $Lexicon->{'m d d'}[30]{'glosses'};
 $Lexicon->{'m w w'}[0]{'types'} = $Lexicon->{'m w y'}[0]{'types'};
 $Lexicon->{'m w w'}[0]{'lines'} = $Lexicon->{'m w y'}[0]{'lines'};
 $Lexicon->{'m w w'}[0]{'glosses'} = $Lexicon->{'m w y'}[0]{'glosses'};

@@ -6786,83 +6786,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRDIS
                            {- `others`  [ "lastiyk N_L" ] -} ]
 
- |> "l t ^g" <| [
-
-    -- ;; {ilotaj~_1
-    -- <ltj    {ilotaj~        PV_V_intr       be noisy;be uproarious
-    -- Altj    {ilotaj~        PV_V_intr       be noisy;be uproarious
-    -- <ltjj   {ilotajaj       PV_C_intr       be noisy;be uproarious
-    -- Altjj   {ilotajaj       PV_C_intr       be noisy;be uproarious
-    -- ltj     lotaj~  IV_V_intr       be noisy;be uproarious
-    -- ltjj    lotajij IV_C_intr       be noisy;be uproarious
-
-    IFCaLL                    `verb`    {- Ailotaj~ -}         [ "be noisy", "be uproarious" ] ]
-
- |> "l t _d" <| [
-
-    -- ;; {ilota*~_1
-    -- <lt*    {ilota*~        PV_V_intr       be pleased;be delighted
-    -- Alt*    {ilota*~        PV_V_intr       be pleased;be delighted
-    -- <lt**   {ilota*a*       PV_C_intr       be pleased;be delighted
-    -- Alt**   {ilota*a*       PV_C_intr       be pleased;be delighted
-    -- lt*     lota*~  IV_V_intr       be pleased;be delighted
-    -- lt**    lota*i* IV_C_intr       be pleased;be delighted
-
-    IFCaLL                    `verb`    {- Ailota*~ -}         [ "be pleased", "be delighted" ] ]
-
- |> "l t f" <| [
-
-    -- ;; {ilotaf~_1
-    -- <ltf    {ilotaf~        PV_V    turn;be wrapped
-    -- Altf    {ilotaf~        PV_V    turn;be wrapped
-    -- <ltff   {ilotafaf       PV_C    turn;be wrapped
-    -- Altff   {ilotafaf       PV_C    turn;be wrapped
-    -- ltf     lotaf~  IV_V    turn;be wrapped
-    -- ltff    lotafif IV_C    turn;be wrapped
-
-    IFCaLL                    `verb`    {- Ailotaf~ -}         [ "turn", "be wrapped" ],
-
-    -- ;; {ilotifAf_1
-    -- <ltfAf  {ilotifAf       N/At    turn;surrounding;turnabout
-    -- AltfAf  {ilotifAf       N/At    turn;surrounding;turnabout
-
-    IFCiLAL                   `noun`    {- AilotifAf -}        [ "turn", "surrounding", "turnabout" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; mulotaf~_1
-    -- mltf    mulotaf~        N-ap    winding;rolled up;coiled     [[mulotaf~/ADJ]]
-
-    MuFCaLL                   `adj`     {- mulotaf~ -}         [ "winding", "rolled up", "coiled" ],
-
-    -- ;; mulotaf~_2
-    -- mltf    mulotaf~        Nall    gathering;assembling;crowding
-
-    MuFCaLL                   `noun`    {- mulotaf~ -}         [ "gathering", "assembling", "crowding" ] ]
-
- |> "l t k" <| [
-
-    -- ;; {ilotak~_1
-    -- <ltk    {ilotak~        PV_V_intr       be crowded
-    -- Altk    {ilotak~        PV_V_intr       be crowded
-    -- <ltkk   {ilotakak       PV_C_intr       be crowded
-    -- Altkk   {ilotakak       PV_C_intr       be crowded
-    -- ltk     lotak~  IV_V_intr       be crowded
-    -- ltkk    lotakik IV_C_intr       be crowded
-
-    IFCaLL                    `verb`    {- Ailotak~ -}         [ "be crowded" ] ]
-
- |> "l t m" <| [
-
-    -- ;; {ilotam~_1
-    -- <ltm    {ilotam~        PV_V    gather;visit
-    -- Altm    {ilotam~        PV_V    gather;visit
-    -- <ltmm   {ilotamam       PV_C    gather;visit
-    -- Altmm   {ilotamam       PV_C    gather;visit
-    -- ltm     lotam~  IV_V    gather;visit
-    -- ltmm    lotamim IV_C    gather;visit
-
-    IFCaLL                    `verb`    {- Ailotam~ -}         [ "gather", "visit" ] ]
-
  |> "l t m s" <| [
 
     -- ;; litomuws_1
@@ -6905,18 +6828,6 @@ lexicon = listing "Lexicon's properties"
     -- lyvwAny liyvowAniy~     Nall_L  Lithuanian     [[liyvowAniy~/ADJ]]
 
     FiCLAn |< Iy              `adj`     {- litwAniy~ -}        [ "Lithuanian" ] ]
-
- |> "l t z" <| [
-
-    -- ;; {ilotaz~_1
-    -- <ltz    {ilotaz~        PV_V_intr       be connected;be joined;adhere
-    -- Altz    {ilotaz~        PV_V_intr       be connected;be joined;adhere
-    -- <ltzz   {ilotazaz       PV_C_intr       be connected;be joined;adhere
-    -- Altzz   {ilotazaz       PV_C_intr       be connected;be joined;adhere
-    -- ltz     lotaz~  IV_V_intr       be connected;be joined;adhere
-    -- ltzz    lotaziz IV_C_intr       be connected;be joined;adhere
-
-    IFCaLL                    `verb`    {- Ailotaz~ -}         [ "be connected", "be joined", "adhere" ] ]
 
  |> "l w '" <| [
 

@@ -7918,70 +7918,6 @@ lexicon = listing "Lexicon's properties"
 
     MuKaRDaS                  `adj`     {- muxasotak -}        [ "indisposed" ] ]
 
- |> "_h t .s" <| [
-
-    -- ;; {ixotaS~_1
-    -- <xtS    {ixotaS~        PV_V    dedicate;be distinguished
-    -- AxtS    {ixotaS~        PV_V    dedicate;be distinguished
-    -- <xtSS   {ixotaSaS       PV_C    dedicate;be distinguished
-    -- AxtSS   {ixotaSaS       PV_C    dedicate;be distinguished
-    -- xtS     xotaS~  IV_V    dedicate;be distinguished
-    -- xtSS    xotaSiS IV_C    dedicate;be distinguished
-
-    IFCaLL                    `verb`    {- AixotaS~ -}         [ "dedicate", "be distinguished" ],
-
-    -- ;; {ixotiSAS_1
-    -- <xtSAS  {ixotiSAS       NduAt   jurisdiction;bailiwick
-    -- AxtSAS  {ixotiSAS       NduAt   jurisdiction;bailiwick
-
-    IFCiLAL                   `noun`    {- AixotiSAS -}        [ "jurisdiction", "bailiwick" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; {ixotiSASiy~_1
-    -- <xtSASy {ixotiSASiy~    Nall    specialist     [[{ixotiSASiy~/ADJ]]
-    -- AxtSASy {ixotiSASiy~    Nall    specialist     [[{ixotiSASiy~/ADJ]]
-
-    IFCiLAL |< Iy             `adj`     {- AixotiSASiy~ -}     [ "specialist" ],
-
-    -- ;; muxotaS~_1
-    -- mxtS    muxotaS~        Nall    responsible;competent
-
-    MuFCaLL                   `noun`    {- muxotaS~ -}         [ "responsible", "competent" ] ]
-
- |> "_h t .t" <| [
-
-    -- ;; {ixotaT~_1
-    -- <xtT    {ixotaT~        PV_V    trace;mark
-    -- AxtT    {ixotaT~        PV_V    trace;mark
-    -- <xtTT   {ixotaTaT       PV_C    trace;mark
-    -- AxtTT   {ixotaTaT       PV_C    trace;mark
-    -- xtT     xotaT~  IV_V    trace;mark
-    -- xtTT    xotaTiT IV_C    trace;mark
-
-    IFCaLL                    `verb`    {- AixotaT~ -}         [ "trace", "mark" ],
-
-    -- ;; {ixotaT~_2
-    -- <xtT    {ixotaT~        PV_V    plan;devise
-    -- AxtT    {ixotaT~        PV_V    plan;devise
-    -- <xtTT   {ixotaTaT       PV_C    plan;devise
-    -- AxtTT   {ixotaTaT       PV_C    plan;devise
-    -- xtT     xotaT~  IV_V    plan;devise
-    -- xtTT    xotaTiT IV_C    plan;devise
-
-    IFCaLL                    `verb`    {- AixotaT~ -}         [ "plan", "devise" ] ]
-
- |> "_h t b" <| [
-
-    -- ;; {ixotab~_1
-    -- <xtb    {ixotab~        PV_V    amble;trot
-    -- Axtb    {ixotab~        PV_V    amble;trot
-    -- <xtbb   {ixotabab       PV_C    amble;trot
-    -- Axtbb   {ixotabab       PV_C    amble;trot
-    -- xtb     xotab~  IV_V    amble;trot
-    -- xtbb    xotabib IV_C    amble;trot
-
-    IFCaLL                    `verb`    {- Aixotab~ -}         [ "amble", "trot" ] ]
-
  |> "_h t l" <| [
 
     -- ;; xatal-iu_1
@@ -8019,29 +7955,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muxAtil_1
     -- mxAtl   muxAtil Nall    deceitful
 
-    MuFACiL                   `noun`    {- muxAtil -}          [ "deceitful" ],
-
-    -- ;; {ixotal~_1
-    -- <xtl    {ixotal~        PV_V    weaken;malfunction
-    -- Axtl    {ixotal~        PV_V    weaken;malfunction
-    -- <xtll   {ixotalal       PV_C    weaken;malfunction
-    -- Axtll   {ixotalal       PV_C    weaken;malfunction
-    -- xtl     xotal~  IV_V    weaken;malfunction
-    -- xtll    xotalil IV_C    weaken;malfunction
-
-    IFCaLL                    `verb`    {- Aixotal~ -}         [ "weaken", "malfunction" ],
-
-    -- ;; {ixotilAl_1
-    -- <xtlAl  {ixotilAl       NduAt   disturbance;disorder;deterioration
-    -- AxtlAl  {ixotilAl       NduAt   disturbance;disorder;deterioration
-
-    IFCiLAL                   `noun`    {- AixotilAl -}        [ "disturbance", "disorder", "deterioration" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; muxotal~_1
-    -- mxtl    muxotal~        Nall    disturbed;defective;deficient     [[muxotal~/ADJ]]
-
-    MuFCaLL                   `adj`     {- muxotal~ -}         [ "disturbed", "defective", "deficient" ] ]
+    MuFACiL                   `noun`    {- muxAtil -}          [ "deceitful" ] ]
 
  |> "_h t m" <| [
 
@@ -8187,18 +8101,6 @@ lexicon = listing "Lexicon's properties"
     -- xAtr    xAtir   Nall    perfidious;disloyal     [[xAtir/ADJ]]
 
     FACiL                     `adj`     {- xAtir -}            [ "perfidious", "disloyal" ] ]
-
- |> "_h t z" <| [
-
-    -- ;; {ixotaz~_1
-    -- <xtz    {ixotaz~        PV_V    pierce;stab
-    -- Axtz    {ixotaz~        PV_V    pierce;stab
-    -- <xtzz   {ixotazaz       PV_C    pierce;stab
-    -- Axtzz   {ixotazaz       PV_C    pierce;stab
-    -- xtz     xotaz~  IV_V    pierce;stab
-    -- xtzz    xotaziz IV_C    pierce;stab
-
-    IFCaLL                    `verb`    {- Aixotaz~ -}         [ "pierce", "stab" ] ]
 
  |> "_h w '" <| [
 

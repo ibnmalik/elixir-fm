@@ -11674,22 +11674,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; batalap_1
     -- btl     batal   NapAt   petal
 
-    FaCaL |< aT               `noun`    {- batalap -}          [ "petal" ],
-
-    -- ;; {ibotal~_1
-    -- <btl    {ibotal~        PV_V_intr       be wet;be humid
-    -- Abtl    {ibotal~        PV_V_intr       be wet;be humid
-    -- <btll   {ibotalal       PV_C_intr       be wet;be humid
-    -- Abtll   {ibotalal       PV_C_intr       be wet;be humid
-    -- btl     botal~  IV_V_intr       be wet;be humid
-    -- btll    botalil IV_C_intr       be wet;be humid
-
-    IFCaLL                    `verb`    {- Aibotal~ -}         [ "be wet", "be humid" ],
-
-    -- ;; mubotal~_1
-    -- mbtl    mubotal~        Nall    wet;drenched
-
-    MuFCaLL                   `noun`    {- mubotal~ -}         [ "wet", "drenched" ] ]
+    FaCaL |< aT               `noun`    {- batalap -}          [ "petal" ] ]
 
  |> "b t r" <| [
 
@@ -11873,25 +11858,6 @@ lexicon = listing "Lexicon's properties"
     -- bwty    buwtiy  Nprop   Petit
 
     FUCI                      `noun`    {- buwtiy -}           [ "Petit" ] ]
-
- |> "b t z" <| [
-
-    -- ;; {ibotaz~_1
-    -- <btz    {ibotaz~        PV_V    embezzle;extort
-    -- Abtz    {ibotaz~        PV_V    embezzle;extort
-    -- <btzz   {ibotazaz       PV_C    embezzle;extort
-    -- Abtzz   {ibotazaz       PV_C    embezzle;extort
-    -- btz     botaz~  IV_V    embezzle;extort
-    -- btzz    botaziz IV_C    embezzle;extort
-
-    IFCaLL                    `verb`    {- Aibotaz~ -}         [ "embezzle", "extort" ],
-
-    -- ;; {ibotizAz_1
-    -- <btzAz  {ibotizAz       NduAt   embezzlement;extortion
-    -- AbtzAz  {ibotizAz       NduAt   embezzlement;extortion
-
-    IFCiLAL                   `noun`    {- AibotizAz -}        [ "embezzlement", "extortion" ]
-                              `plural`     IFCiLAL |< At ]
 
  |> "b w '" <| [
 

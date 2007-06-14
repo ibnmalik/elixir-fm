@@ -11032,18 +11032,6 @@ lexicon = listing "Lexicon's properties"
 
     KuRDAS |< Iy              `adj`     {- suroyAniy~ -}       [ "Syriac" ] ]
 
- |> "s t b" <| [
-
-    -- ;; {isotab~_1
-    -- <stb    {isotab~        PV_V    exchange insults
-    -- Astb    {isotab~        PV_V    exchange insults
-    -- <stbb   {isotabab       PV_C    exchange insults
-    -- Astbb   {isotabab       PV_C    exchange insults
-    -- stb     sotab~  IV_V    exchange insults
-    -- stbb    sotabib IV_C    exchange insults
-
-    IFCaLL                    `verb`    {- Aisotab~ -}         [ "exchange insults" ] ]
-
  |> "s t f" <| [
 
     -- ;; sat~af_1
@@ -11056,17 +11044,7 @@ lexicon = listing "Lexicon's properties"
     -- tstyf   tasotiyf        NduAt   stacking;storage
 
     TaFCIL                    `noun`    {- tasotiyf -}         [ "stacking", "storage" ]
-                              `plural`     TaFCIL |< At,
-
-    -- ;; {isotaf~_1
-    -- <stf    {isotaf~        PV_V    eat;swallow
-    -- Astf    {isotaf~        PV_V    eat;swallow
-    -- <stff   {isotafaf       PV_C    eat;swallow
-    -- Astff   {isotafaf       PV_C    eat;swallow
-    -- stf     sotaf~  IV_V    eat;swallow
-    -- stff    sotafif IV_C    eat;swallow
-
-    IFCaLL                    `verb`    {- Aisotaf~ -}         [ "eat", "swallow" ] ]
+                              `plural`     TaFCIL |< At ]
 
  |> "s t h" <| [
 
@@ -11078,35 +11056,6 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- satoh -}            [ "buttocks", "backside", "backsides" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'astAh N" ] -} ]
-
- |> "s t k" <| [
-
-    -- ;; {isotak~_1
-    -- <stk    {isotak~        PV_V_intr       become deaf
-    -- Astk    {isotak~        PV_V_intr       become deaf
-    -- <stkk   {isotakak       PV_C_intr       become deaf
-    -- Astkk   {isotakak       PV_C_intr       become deaf
-    -- stk     sotak~  IV_V_intr       become deaf
-    -- stkk    sotakik IV_C_intr       become deaf
-
-    IFCaLL                    `verb`    {- Aisotak~ -}         [ "become deaf" ] ]
-
- |> "s t l" <| [
-
-    -- ;; {isotal~_1
-    -- <stl    {isotal~        PV_V    withdraw
-    -- Astl    {isotal~        PV_V    withdraw
-    -- <stll   {isotalal       PV_C    withdraw
-    -- Astll   {isotalal       PV_C    withdraw
-    -- stl     sotal~  IV_V    withdraw
-    -- stll    sotalil IV_C    withdraw
-
-    IFCaLL                    `verb`    {- Aisotal~ -}         [ "withdraw" ],
-
-    -- ;; musotal~ap_1
-    -- mstl    musotal~        NapAt   offprint
-
-    MuFCaLL |< aT             `noun`    {- musotal~ap -}       [ "offprint" ] ]
 
  |> "s t n" <| [
 
@@ -11125,17 +11074,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; stAn_1
     -- stAn    stAn    Nprop   Stan
 
-    FtAL                      `noun`    {- stAn -}             [ "Stan" ],
-
-    -- ;; {isotan~_1
-    -- <stn    {isotan~        PV_V    follow;prescribe
-    -- Astn    {isotan~        PV_V    follow;prescribe
-    -- <stnn   {isotanan       PV_Cn   follow;prescribe
-    -- Astnn   {isotanan       PV_Cn   follow;prescribe
-    -- stn     sotan~  IV_V    follow;prescribe
-    -- stnn    sotanin IV_Cn   follow;prescribe
-
-    IFCaLL                    `verb`    {- Aisotan~ -}         [ "follow", "prescribe" ] ]
+    FtAL                      `noun`    {- stAn -}             [ "Stan" ] ]
 
  |> "s t r" <| [
 
@@ -11262,18 +11201,6 @@ lexicon = listing "Lexicon's properties"
     -- mststr  musotasotir     Nall    hidden;concealed     [[musotasotir/ADJ]]
 
     MustaFCiL                 `adj`     {- musotasotir -}      [ "hidden", "concealed" ] ]
-
- |> "s t s r" <| [
-
-    -- ;; {isotasar~_1
-    -- <stsr   {isotasar~      PV_V    attempt to hide;take as concubine
-    -- Astsr   {isotasar~      PV_V    attempt to hide;take as concubine
-    -- <stsrr  {isotasorar     PV_C    attempt to hide;take as concubine
-    -- Astsrr  {isotasorar     PV_C    attempt to hide;take as concubine
-    -- stsr    sotasir~        IV_V    attempt to hide;take as concubine
-    -- stsrr   sotasorir       IV_C    attempt to hide;take as concubine
-
-    IKRaDaSS                  `verb`    {- Aisotasar~ -}       [ "attempt to hide", "take as concubine" ] ]
 
  |> "s t t" <| [
 

@@ -2789,47 +2789,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'q t _t' => [
-    {
-      'types' => {
-        'qta_ti_t' => {
-          'IV_C' => 1
-        },
-        'iqta_ta_t' => {
-          'PV_C' => 2
-        },
-        'qta_t_t' => {
-          'IV_V' => 1
-        }
-      },
-      'entry' => 'iqta_t_t',
-      'form' => 'iqta_t_t',
-      'lines' => [
-        ';; {iqotav~_1',
-        '<qtv    {iqotav~        PV_V    uproot;extirpate',
-        'Aqtv    {iqotav~        PV_V    uproot;extirpate',
-        '<qtvv   {iqotavav       PV_C    uproot;extirpate',
-        'Aqtvv   {iqotavav       PV_C    uproot;extirpate',
-        'qtv     qotav~  IV_V    uproot;extirpate',
-        'qtvv    qotaviv IV_C    uproot;extirpate'
-      ],
-      'patterns' => {
-        'qta_t_t' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'uproot',
-        'extirpate'
-      ],
-      'orig' => 'Aiqotav~',
-      'prefix' => ''
-    }
-  ],
   'q y r' => [
     {
       'types' => {
@@ -3733,29 +3692,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muq^sa`irr' => [
-    {
-      'types' => {},
-      'entry' => 'muq^sa`irr',
-      'form' => 'muq^sa`irr',
-      'lines' => [
-        ';; muqo$aEir~_1',
-        'mq$Er   muqo$aEir~      Nall    trembling;shaking;quivering     [[muqo$aEir~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'trembling',
-        'shaking',
-        'quivering'
-      ],
-      'orig' => 'muqo$aEir~',
-      'prefix' => ''
-    }
-  ],
   'q l q b' => [
     {
       'types' => {},
@@ -4105,8 +4041,14 @@ $Lexicon = {
         'q$Err   qo$aEorir       IV_C    tremble;shudder;get goose bumps'
       ],
       'patterns' => {
+        'iq^sa`rar' => [
+          'IKRaDSaS'
+        ],
         'q^sa`irr' => [
           'KRaDiSS'
+        ],
+        'q^sa`rir' => [
+          'KRaDSiS'
         ]
       },
       'index' => '1',
@@ -4119,6 +4061,57 @@ $Lexicon = {
         'get goose bumps'
       ],
       'orig' => 'Aiqo$aEar~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'iq^si`rAr' => {
+          'N/At' => 2
+        }
+      },
+      'entry' => 'iq^si`rAr',
+      'form' => 'iq^si`rAr',
+      'lines' => [
+        ';; {iqo$iEorAr_1',
+        '<q$ErAr {iqo$iEorAr     N/At    trembling;shaking;quivering',
+        'Aq$ErAr {iqo$iEorAr     N/At    trembling;shaking;quivering'
+      ],
+      'patterns' => {
+        'iq^si`rAr' => [
+          'IKRiDSAS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IKRiDSAS',
+      'suffix' => '',
+      'glosses' => [
+        'trembling',
+        'shaking',
+        'quivering'
+      ],
+      'orig' => 'Aiqo$iEorAr',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muq^sa`irr',
+      'form' => 'muq^sa`irr',
+      'lines' => [
+        ';; muqo$aEir~_1',
+        'mq$Er   muqo$aEir~      Nall    trembling;shaking;quivering     [[muqo$aEir~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuKRaDiSS',
+      'suffix' => '',
+      'glosses' => [
+        'trembling',
+        'shaking',
+        'quivering'
+      ],
+      'orig' => 'muqo$aEir~',
       'prefix' => ''
     }
   ],
@@ -18422,26 +18415,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'q t .t' => [
-    {
-      'types' => {},
-      'entry' => 'iqta.t.t',
-      'form' => 'iqta.t.t',
-      'lines' => [],
-      'patterns' => {
-        'qta.t.t' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AiqotaT~',
-      'prefix' => ''
-    }
-  ],
   'qiymar' => [
     {
       'types' => {},
@@ -31256,34 +31229,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'iq^si`rAr' => [
-    {
-      'types' => {
-        'iq^si`rAr' => {
-          'N/At' => 2
-        }
-      },
-      'entry' => 'iq^si`rAr',
-      'form' => 'iq^si`rAr',
-      'lines' => [
-        ';; {iqo$iEorAr_1',
-        '<q$ErAr {iqo$iEorAr     N/At    trembling;shaking;quivering',
-        'Aq$ErAr {iqo$iEorAr     N/At    trembling;shaking;quivering'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'trembling',
-        'shaking',
-        'quivering'
-      ],
-      'orig' => 'Aiqo$iEorAr',
-      'prefix' => ''
-    }
-  ],
   'q n `' => [
     {
       'types' => {
@@ -38257,44 +38202,6 @@ $Lexicon = {
         'summaries'
       ],
       'orig' => 'muqotaDab',
-      'prefix' => ''
-    }
-  ],
-  'q t .s' => [
-    {
-      'types' => {},
-      'entry' => 'iqta.s.s',
-      'form' => 'iqta.s.s',
-      'lines' => [],
-      'patterns' => {
-        'qta.s.s' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AiqotaS~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'iqti.sA.s',
-      'form' => 'iqti.sA.s',
-      'lines' => [],
-      'patterns' => {
-        'iqti.sA.s' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AiqotiSAS',
       'prefix' => ''
     }
   ],
@@ -46666,6 +46573,12 @@ $Lexicon = {
         'qtmm    qotamim IV_C_intr       be dark-colored;be blackish'
       ],
       'patterns' => {
+        'iqtamam' => [
+          'IFCaLaL'
+        ],
+        'qtamim' => [
+          'FCaLiL'
+        ],
         'qtamm' => [
           'FCaLL'
         ]
@@ -47492,24 +47405,6 @@ $Lexicon = {
         'bed of thorns'
       ],
       'orig' => 'qatAd',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'iqtadd',
-      'form' => 'iqtadd',
-      'lines' => [],
-      'patterns' => {
-        'qtadd' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Aiqotad~',
       'prefix' => ''
     }
   ],
@@ -50689,10 +50584,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'qta_ti_t' => {
+          'IV_C' => 1
+        },
+        'iqta_ta_t' => {
+          'PV_C' => 2
+        },
+        'qta_t_t' => {
+          'IV_V' => 1
+        }
+      },
       'entry' => 'iqta_t_t',
       'form' => 'iqta_t_t',
-      'lines' => [],
+      'lines' => [
+        ';; {iqotav~_1',
+        '<qtv    {iqotav~        PV_V    uproot;extirpate',
+        'Aqtv    {iqotav~        PV_V    uproot;extirpate',
+        '<qtvv   {iqotavav       PV_C    uproot;extirpate',
+        'Aqtvv   {iqotavav       PV_C    uproot;extirpate',
+        'qtv     qotav~  IV_V    uproot;extirpate',
+        'qtvv    qotaviv IV_C    uproot;extirpate'
+      ],
       'patterns' => {
         'iqta_ta_t' => [
           'IFtaCaL'
@@ -50708,7 +50621,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'uproot',
+        'extirpate'
+      ],
       'orig' => 'Aiqotav~',
       'prefix' => ''
     }
@@ -51737,50 +51653,27 @@ $Lexicon = {
       ],
       'patterns' => {
         'iqtatat' => [
-          'IFtaCaL'
+          'IFtaCaL',
+          'IFCaLaL'
         ],
         'qtatt' => [
           'FtaCL',
           'FCaLL'
         ],
         'qtatit' => [
-          'FtaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'extirpate',
-        'remove',
-        'get rid of'
-      ],
-      'orig' => 'Aiqotat~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'iqtatt',
-      'form' => 'iqtatt',
-      'lines' => [],
-      'patterns' => {
-        'iqtatat' => [
-          'IFtaCaL'
-        ],
-        'qtatt' => [
-          'FtaCL',
-          'FCaLL'
-        ],
-        'qtatit' => [
-          'FtaCiL'
+          'FtaCiL',
+          'FCaLiL'
         ]
       },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'extirpate',
+        'remove',
+        'get rid of'
+      ],
       'orig' => 'Aiqotat~',
       'prefix' => ''
     },
@@ -58581,9 +58474,6 @@ $Lexicon->{'q b w'}[5]{'glosses'} = $Lexicon->{'q b \''}[0]{'glosses'};
 $Lexicon->{'q b w'}[7]{'types'} = $Lexicon->{'q b b'}[11]{'types'};
 $Lexicon->{'q b w'}[7]{'lines'} = $Lexicon->{'q b b'}[11]{'lines'};
 $Lexicon->{'q b w'}[7]{'glosses'} = $Lexicon->{'q b b'}[11]{'glosses'};
-$Lexicon->{'q t .t'}[0]{'types'} = $Lexicon->{'q .t .t'}[2]{'types'};
-$Lexicon->{'q t .t'}[0]{'lines'} = $Lexicon->{'q .t .t'}[2]{'lines'};
-$Lexicon->{'q t .t'}[0]{'glosses'} = $Lexicon->{'q .t .t'}[2]{'glosses'};
 $Lexicon->{'q _t r'}[0]{'types'} = $Lexicon->{'q y _t r'}[0]{'types'};
 $Lexicon->{'q _t r'}[0]{'lines'} = $Lexicon->{'q y _t r'}[0]{'lines'};
 $Lexicon->{'q _t r'}[0]{'glosses'} = $Lexicon->{'q y _t r'}[0]{'glosses'};
@@ -58670,12 +58560,6 @@ $Lexicon->{'q y \''}[0]{'glosses'} = $Lexicon->{'q y y'}[0]{'glosses'};
 $Lexicon->{'q t r'}[10]{'types'} = $Lexicon->{'q y t r'}[0]{'types'};
 $Lexicon->{'q t r'}[10]{'lines'} = $Lexicon->{'q y t r'}[0]{'lines'};
 $Lexicon->{'q t r'}[10]{'glosses'} = $Lexicon->{'q y t r'}[0]{'glosses'};
-$Lexicon->{'q t .s'}[0]{'types'} = $Lexicon->{'q .s .s'}[5]{'types'};
-$Lexicon->{'q t .s'}[0]{'lines'} = $Lexicon->{'q .s .s'}[5]{'lines'};
-$Lexicon->{'q t .s'}[0]{'glosses'} = $Lexicon->{'q .s .s'}[5]{'glosses'};
-$Lexicon->{'q t .s'}[1]{'types'} = $Lexicon->{'q .s .s'}[24]{'types'};
-$Lexicon->{'q t .s'}[1]{'lines'} = $Lexicon->{'q .s .s'}[24]{'lines'};
-$Lexicon->{'q t .s'}[1]{'glosses'} = $Lexicon->{'q .s .s'}[24]{'glosses'};
 $Lexicon->{'q d d'}[0]{'types'} = $Lexicon->{'q d y'}[0]{'types'};
 $Lexicon->{'q d d'}[0]{'lines'} = $Lexicon->{'q d y'}[0]{'lines'};
 $Lexicon->{'q d d'}[0]{'glosses'} = $Lexicon->{'q d y'}[0]{'glosses'};
@@ -58724,9 +58608,6 @@ $Lexicon->{'q w n y'}[0]{'glosses'} = $Lexicon->{'q n y'}[4]{'glosses'};
 $Lexicon->{'q y .z'}[3]{'types'} = $Lexicon->{'q \' .z'}[0]{'types'};
 $Lexicon->{'q y .z'}[3]{'lines'} = $Lexicon->{'q \' .z'}[0]{'lines'};
 $Lexicon->{'q y .z'}[3]{'glosses'} = $Lexicon->{'q \' .z'}[0]{'glosses'};
-$Lexicon->{'q t d'}[1]{'types'} = $Lexicon->{'q d d'}[5]{'types'};
-$Lexicon->{'q t d'}[1]{'lines'} = $Lexicon->{'q d d'}[5]{'lines'};
-$Lexicon->{'q t d'}[1]{'glosses'} = $Lexicon->{'q d d'}[5]{'glosses'};
 $Lexicon->{'q d \''}[0]{'types'} = $Lexicon->{'q d w'}[4]{'types'};
 $Lexicon->{'q d \''}[0]{'lines'} = $Lexicon->{'q d w'}[4]{'lines'};
 $Lexicon->{'q d \''}[0]{'glosses'} = $Lexicon->{'q d w'}[4]{'glosses'};
@@ -58746,18 +58627,12 @@ $Lexicon->{'q s y'}[1]{'glosses'} = $Lexicon->{'q s w'}[9]{'glosses'};
 $Lexicon->{'q s y'}[2]{'types'} = $Lexicon->{'q s w'}[10]{'types'};
 $Lexicon->{'q s y'}[2]{'lines'} = $Lexicon->{'q s w'}[10]{'lines'};
 $Lexicon->{'q s y'}[2]{'glosses'} = $Lexicon->{'q s w'}[10]{'glosses'};
-$Lexicon->{'q _t _t'}[1]{'types'} = $Lexicon->{'q t _t'}[0]{'types'};
-$Lexicon->{'q _t _t'}[1]{'lines'} = $Lexicon->{'q t _t'}[0]{'lines'};
-$Lexicon->{'q _t _t'}[1]{'glosses'} = $Lexicon->{'q t _t'}[0]{'glosses'};
 $Lexicon->{'q r \''}[16]{'types'} = $Lexicon->{'q r w'}[4]{'types'};
 $Lexicon->{'q r \''}[16]{'lines'} = $Lexicon->{'q r w'}[4]{'lines'};
 $Lexicon->{'q r \''}[16]{'glosses'} = $Lexicon->{'q r w'}[4]{'glosses'};
 $Lexicon->{'q r \''}[17]{'types'} = $Lexicon->{'q r w'}[5]{'types'};
 $Lexicon->{'q r \''}[17]{'lines'} = $Lexicon->{'q r w'}[5]{'lines'};
 $Lexicon->{'q r \''}[17]{'glosses'} = $Lexicon->{'q r w'}[5]{'glosses'};
-$Lexicon->{'q t t'}[2]{'types'} = $Lexicon->{'q t t'}[1]{'types'};
-$Lexicon->{'q t t'}[2]{'lines'} = $Lexicon->{'q t t'}[1]{'lines'};
-$Lexicon->{'q t t'}[2]{'glosses'} = $Lexicon->{'q t t'}[1]{'glosses'};
 $Lexicon->{'q y m'}[0]{'types'} = $Lexicon->{'q w m'}[12]{'types'};
 $Lexicon->{'q y m'}[0]{'lines'} = $Lexicon->{'q w m'}[12]{'lines'};
 $Lexicon->{'q y m'}[0]{'glosses'} = $Lexicon->{'q w m'}[12]{'glosses'};

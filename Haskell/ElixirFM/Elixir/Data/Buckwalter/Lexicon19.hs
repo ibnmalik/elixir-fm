@@ -2050,7 +2050,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; gidAn_1
     -- gdAn    gidAn   N       clothes peg
 
-    FiCAL                     `noun`    {- gidAn -}            [ "clothes peg" ] ]
+    FiCAL                     `noun`    {- gidAn -}            [ "clothes peg" ],
+
+    -- ;; mugodawodin_1
+    -- mgdwdn  mugodawodin     Nall    lush;luxuriant
+
+    MuFCawCiL                 `noun`    {- mugodawodin -}      [ "lush", "luxuriant" ] ]
 
  |> ".g d q" <| [
 
@@ -5642,7 +5647,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; musotagoriq_1
     -- mstgrq  musotagoriq     Nall    immersed;engrossed     [[musotagoriq/ADJ]]
 
-    MustaFCiL                 `adj`     {- musotagoriq -}      [ "immersed", "engrossed" ] ]
+    MustaFCiL                 `adj`     {- musotagoriq -}      [ "immersed", "engrossed" ],
+
+    -- ;; mugoraworiq_1
+    -- mgrwrq  mugoraworiq     Nall    drowning     [[mugoraworiq/ADJ]]
+
+    MuFCawCiL                 `adj`     {- mugoraworiq -}      [ "drowning" ] ]
 
  |> ".g r r" <| [
 
@@ -6308,64 +6318,6 @@ lexicon = listing "Lexicon's properties"
     -- gs      gus~    N       despicable
 
     FuCL                      `noun`    {- gus~ -}             [ "despicable" ] ]
-
- |> ".g t .s" <| [
-
-    -- ;; {igotaS~_1
-    -- <gtS    {igotaS~        PV_V_intr       be congested;hit a snag
-    -- AgtS    {igotaS~        PV_V_intr       be congested;hit a snag
-    -- <gtSS   {igotaSaS       PV_C_intr       be congested;hit a snag
-    -- AgtSS   {igotaSaS       PV_C_intr       be congested;hit a snag
-    -- gtS     gotaS~  IV_V_intr       be congested;hit a snag
-    -- gtSS    gotaSiS IV_C_intr       be congested;hit a snag
-
-    IFCaLL                    `verb`    {- AigotaS~ -}         [ "be congested", "hit a snag" ] ]
-
- |> ".g t ^s" <| [
-
-    -- ;; {igota$~_1
-    -- <gt$    {igota$~        PV_V_intr       be deceived;be duped
-    -- Agt$    {igota$~        PV_V_intr       be deceived;be duped
-    -- <gt$$   {igota$a$       PV_C_intr       be deceived;be duped
-    -- Agt$$   {igota$a$       PV_C_intr       be deceived;be duped
-    -- gt$     gota$~  IV_V_intr       be deceived;be duped
-    -- gt$$    gota$i$ IV_C_intr       be deceived;be duped
-
-    IFCaLL                    `verb`    {- Aigota$~ -}         [ "be deceived", "be duped" ] ]
-
- |> ".g t m" <| [
-
-    -- ;; {igotam~_1
-    -- <gtm    {igotam~        PV_V_intr       be worried;grieve
-    -- Agtm    {igotam~        PV_V_intr       be worried;grieve
-    -- <gtmm   {igotamam       PV_C_intr       be worried;grieve
-    -- Agtmm   {igotamam       PV_C_intr       be worried;grieve
-    -- gtm     gotam~  IV_V_intr       be worried;grieve
-    -- gtmm    gotamim IV_C_intr       be worried;grieve
-
-    IFCaLL                    `verb`    {- Aigotam~ -}         [ "be worried", "grieve" ],
-
-    -- ;; mugotam~_1
-    -- mgtm    mugotam~        Nall    distressed;afflicted     [[mugotam~/ADJ]]
-
-    MuFCaLL                   `adj`     {- mugotam~ -}         [ "distressed", "afflicted" ] ]
-
- |> ".g t r" <| [
-
-    -- ;; {igotar~_1
-    -- <gtr    {igotar~        PV_V_intr       be misled
-    -- Agtr    {igotar~        PV_V_intr       be misled
-    -- <gtrr   {igotarar       PV_C_intr       be misled
-    -- Agtrr   {igotarar       PV_C_intr       be misled
-    -- gtr     gotar~  IV_V_intr       be misled
-    -- gtrr    gotarir IV_C_intr       be misled
-
-    IFCaLL                    `verb`    {- Aigotar~ -}         [ "be misled" ],
-
-    -- ;; mugotar~_1
-    -- mgtr    mugotar~        Nall    conceited;vain     [[mugotar~/ADJ]]
-
-    MuFCaLL                   `adj`     {- mugotar~ -}         [ "conceited", "vain" ] ]
 
  |> ".g t t" <| [
 
@@ -8539,20 +8491,6 @@ lexicon = listing "Lexicon's properties"
     -- gymlstwb        gymlstwb        N0      Gimelstob
 
     Identity                  `noun`    {- gymlstwb -}         [ "Gimelstob" ] ]
-
- |> "mu.gdawdin" <| [
-
-    -- ;; mugodawodin_1
-    -- mgdwdn  mugodawodin     Nall    lush;luxuriant
-
-    Identity                  `noun`    {- mugodawodin -}      [ "lush", "luxuriant" ] ]
-
- |> "mu.grawriq" <| [
-
-    -- ;; mugoraworiq_1
-    -- mgrwrq  mugoraworiq     Nall    drowning     [[mugoraworiq/ADJ]]
-
-    Identity                  `adj`     {- mugoraworiq -}      [ "drowning" ] ]
 
  |> "mun.gA.z" <| [
 

@@ -1542,11 +1542,6 @@ lexicon = listing "Lexicon's properties"
 
     FACL                      `noun`    {- bAt~ -}             [ "categorical", "definitive" ] ]
 
- |> "b t z" <| [
-
-    IFCiLAL                   `noun`    {- AibotizAz -}        [ "embezzlement", "extortion" ]
-                              `plural`     IFCiLAL |< At ]
-
  |> "b w '" <| [
 
     TaFaCCaL                  `verb`    {- tabaw~aO -}         [ "hold", "occupy", "accede (throne)" ] ]

@@ -4961,31 +4961,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hitomiy~_1
     -- htmy    hitomiy~        Nprop   Hitmi
 
-    FiCL |< Iy                `adj`     {- hitomiy~ -}         [ "Hitmi" ],
-
-    -- ;; {ihotam~_1
-    -- <htm    {ihotam~        PV_V_intr       be concerned;be interested
-    -- Ahtm    {ihotam~        PV_V_intr       be concerned;be interested
-    -- <htmm   {ihotamam       PV_C_intr       be concerned;be interested
-    -- Ahtmm   {ihotamam       PV_C_intr       be concerned;be interested
-    -- htm     hotam~  IV_V_intr       be concerned;be interested
-    -- htmm    hotamim IV_C_intr       be concerned;be interested
-
-    IFCaLL                    `verb`    {- Aihotam~ -}         [ "be concerned", "be interested" ],
-
-    -- ;; {ihotimAm_1
-    -- <htmAm  {ihotimAm       N/At    interest;concern;care;attention
-    -- AhtmAm  {ihotimAm       N/At    interest;concern;care;attention
-
-    IFCiLAL                   `noun`    {- AihotimAm -}        [ "interest", "concern", "care", "attention" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; muhotam~_1
-    -- mhtm    muhotam~        Nall    interested;concerned     [[muhotam~/ADJ]]
-    -- mhtm    muhotam~        NAt     tasks;functions;duties     [[muhotam~/NOUN]]
-
-    MuFCaLL                   `adj`     {- muhotam~ -}         [ "interested", "concerned", "tasks", "functions", "duties" ]
-                              `plural`     MuFCaLL |< At ]
+    FiCL |< Iy                `adj`     {- hitomiy~ -}         [ "Hitmi" ] ]
 
  |> "h t m r" <| [
 
@@ -5104,49 +5080,6 @@ lexicon = listing "Lexicon's properties"
     -- hAtwr   hAtuwr  Ndip    Hator (3rd Coptic month, Nov. 10-Dec. 9)
 
     FACUL                     `noun`    {- hAtuwr -}           [ "Hator (3rd Coptic month, Nov. 10-Dec. 9)" ] ]
-
- |> "h t z" <| [
-
-    -- ;; {ihotaz~_1
-    -- <htz    {ihotaz~        PV_V    tremble;quake;be shaken
-    -- Ahtz    {ihotaz~        PV_V    tremble;quake;be shaken
-    -- <htzz   {ihotazaz       PV_C    tremble;quake;be shaken
-    -- Ahtzz   {ihotazaz       PV_C    tremble;quake;be shaken
-    -- htz     hotaz~  IV_V    tremble;quake;be shaken
-    -- htzz    hotaziz IV_C    tremble;quake;be shaken
-
-    IFCaLL                    `verb`    {- Aihotaz~ -}         [ "tremble", "quake", "be shaken" ],
-
-    -- ;; {ihotizAz_1
-    -- <htzAz  {ihotizAz       N/At    tremor;shock;vibration
-    -- AhtzAz  {ihotizAz       N/At    tremor;shock;vibration
-
-    IFCiLAL                   `noun`    {- AihotizAz -}        [ "tremor", "shock", "vibration" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; {ihotizAz_2
-    -- <htzAz  {ihotizAz       N/At    commotion;agitation
-    -- AhtzAz  {ihotizAz       N/At    commotion;agitation
-
-    IFCiLAL                   `noun`    {- AihotizAz -}        [ "commotion", "agitation" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; {ihotizAzap_1
-    -- <htzAz  {ihotizAz       NapAt   tremor;convulsion;vibration
-    -- AhtzAz  {ihotizAz       NapAt   tremor;convulsion;vibration
-
-    IFCiLAL |< aT             `noun`    {- AihotizAzap -}      [ "tremor", "convulsion", "vibration" ],
-
-    -- ;; {ihotizAziy~_1
-    -- <htzAzy {ihotizAziy~    N-ap    shock;tremor     [[{ihotizAziy~/ADJ]]
-    -- AhtzAzy {ihotizAziy~    N-ap    shock;tremor     [[{ihotizAziy~/ADJ]]
-
-    IFCiLAL |< Iy             `adj`     {- AihotizAziy~ -}     [ "shock", "tremor" ],
-
-    -- ;; muhotaz~_1
-    -- mhtz    muhotaz~        Nall    trembling;shaking;quivering     [[muhotaz~/ADJ]]
-
-    MuFCaLL                   `adj`     {- muhotaz~ -}         [ "trembling", "shaking", "quivering" ] ]
 
  |> "h w '" <| [
 

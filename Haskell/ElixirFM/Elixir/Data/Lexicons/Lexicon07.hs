@@ -1139,22 +1139,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- xasiys -}           [ "mean trick", "infamy", "mean tricks", "infamies" ] ]
 
- |> "_h t .s" <| [
-
-    IFCaLL                    `verb`    {- AixotaS~ -}         [ "dedicate", "be distinguished" ],
-
-    IFCiLAL                   `noun`    {- AixotiSAS -}        [ "jurisdiction", "bailiwick" ]
-                              `plural`     IFCiLAL |< At,
-
-    IFCiLAL |< Iy             `adj`     {- AixotiSASiy~ -}     [ "specialist" ],
-
-    MuFCaLL                   `noun`    {- muxotaS~ -}         [ "responsible", "competent" ] ]
-
- |> "_h t l" <| [
-
-    IFCiLAL                   `noun`    {- AixotilAl -}        [ "disturbance", "disorder", "deterioration" ]
-                              `plural`     IFCiLAL |< At ]
-
  |> "_h t m" <| [
 
     FaCaL                     `verb`    {- xatam-i -}          [ "complete", "seal", "conclude" ]

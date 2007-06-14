@@ -424,7 +424,12 @@ lexicon = listing "Lexicon's properties"
 
     IKRaDaSS                  `verb`    {- AiTomaOan~ -}       [ "be calm", "be reassured" ],
 
-    KaRDaS |< aT              `noun`    {- TamoOanap -}        [ "pacifying", "calming", "reassuring" ] ]
+    KaRDaS |< aT              `noun`    {- TamoOanap -}        [ "pacifying", "calming", "reassuring" ],
+
+    IKRiDSAS                  `noun`    {- AiTomi}onAn -}      [ "tranquillity", "serenity" ]
+                              `plural`     IKRiDSAS |< At,
+
+    MuKRaDiSS                 `adj`     {- muToma}in~ -}       [ "calm", "at ease" ] ]
 
  |> ".t m .h" <| [
 
@@ -944,12 +949,4 @@ lexicon = listing "Lexicon's properties"
  |> ".tuwmsuwn" <| [
 
     Identity                  `noun`    {- Tuwmosuwn -}        [ "Thomson", "Tomson" ] ]
-
- |> "i.tmi'nAn" <| [
-
-    Identity                  `noun`    {- AiTomi}onAn -}      [ "tranquillity", "serenity" ] ]
-
- |> "mu.tma'inn" <| [
-
-    Identity                  `adj`     {- muToma}in~ -}       [ "calm", "at ease" ] ]
 

@@ -47,14 +47,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- Ouko*uwbap -}       [ "lie", "lies" ] ]
 
- |> "ikfihrAr" <| [
-
-    -- ;; {ikofihorAr_1
-    -- <kfhrAr {ikofihorAr     N/At    darkness;gloom
-    -- AkfhrAr {ikofihorAr     N/At    darkness;gloom
-
-    Identity                  `noun`    {- AikofihorAr -}      [ "darkness", "gloom" ] ]
-
  |> "k ' b" <| [
 
     -- ;; kAb_1
@@ -2847,7 +2839,19 @@ lexicon = listing "Lexicon's properties"
     -- kfhr    kofahir~        IV_V_intr       be dark;be gloomy
     -- kfhrr   kofahorir       IV_C_intr       be dark;be gloomy
 
-    IKRaDaSS                  `verb`    {- Aikofahar~ -}       [ "be dark", "be gloomy" ] ]
+    IKRaDaSS                  `verb`    {- Aikofahar~ -}       [ "be dark", "be gloomy" ],
+
+    -- ;; {ikofihorAr_1
+    -- <kfhrAr {ikofihorAr     N/At    darkness;gloom
+    -- AkfhrAr {ikofihorAr     N/At    darkness;gloom
+
+    IKRiDSAS                  `noun`    {- AikofihorAr -}      [ "darkness", "gloom" ]
+                              `plural`     IKRiDSAS |< At,
+
+    -- ;; mukofahir~_1
+    -- mkfhr   mukofahir~      Nall    overcast;gloomy;melancholic     [[mukofahir~/ADJ]]
+
+    MuKRaDiSS                 `adj`     {- mukofahir~ -}       [ "overcast", "gloomy", "melancholic" ] ]
 
  |> "k f k f" <| [
 
@@ -7785,39 +7789,6 @@ lexicon = listing "Lexicon's properties"
 
     KaRADiS |< Iy             `adj`     {- katA}ibiy~ -}       [ "Phalangist" ] ]
 
- |> "k t .d" <| [
-
-    -- ;; {ikotaD~_1
-    -- <ktD    {ikotaD~        PV_V_intr       be overfilled;be replete
-    -- AktD    {ikotaD~        PV_V_intr       be overfilled;be replete
-    -- <ktDD   {ikotaDaD       PV_C_intr       be overfilled;be replete
-    -- AktDD   {ikotaDaD       PV_C_intr       be overfilled;be replete
-    -- ktD     kotaD~  IV_V_intr       be overfilled;be replete
-    -- ktDD    kotaDiD IV_C_intr       be overfilled;be replete
-
-    IFCaLL                    `verb`    {- AikotaD~ -}         [ "be overfilled", "be replete" ] ]
-
- |> "k t .z" <| [
-
-    -- ;; {ikotaZ~_1
-    -- <ktZ    {ikotaZ~        PV_V_intr       be overcrowded;be overstuffed
-    -- AktZ    {ikotaZ~        PV_V_intr       be overcrowded;be overstuffed
-    -- <ktZZ   {ikotaZaZ       PV_C_intr       be overcrowded;be overstuffed
-    -- AktZZ   {ikotaZaZ       PV_C_intr       be overcrowded;be overstuffed
-    -- ktZ     kotaZ~  IV_V_intr       be overcrowded;be overstuffed
-    -- ktZZ    kotaZiZ IV_C_intr       be overcrowded;be overstuffed
-
-    IFCaLL                    `verb`    {- AikotaZ~ -}         [ "be overcrowded", "be overstuffed" ],
-
-    -- ;; {ikotiZAZ_1
-    -- <ktZAZ  {ikotiZAZ       N/At    overcrowding;overfilling
-    -- AktZAZ  {ikotiZAZ       N/At    overcrowding;overfilling
-    -- mktZ    mukotaZ~        N-ap    overcrowded;jam-packed     [[mukotaZ~/ADJ]]
-
-    IFCiLAL                   `adj`     {- AikotiZAZ -}        [ "overcrowding", "overfilling", "overcrowded", "jam-packed" ]
-                              `plural`     MuFCaLL |< aT
-                              `plural`     IFCiLAL |< At ]
-
  |> "k t ^s n" <| [
 
     -- ;; kuto$iynap_1
@@ -8024,18 +7995,6 @@ lexicon = listing "Lexicon's properties"
     -- mkttb   mukotatib       Nall    subscriber
 
     MuFtaCiL                  `noun`    {- mukotatib -}        [ "subscriber" ] ]
-
- |> "k t d" <| [
-
-    -- ;; {ikotad~_1
-    -- <ktd    {ikotad~        PV_V    wear out;overwork;exhaust
-    -- Aktd    {ikotad~        PV_V    wear out;overwork;exhaust
-    -- <ktdd   {ikotadad       PV_C    wear out;overwork;exhaust
-    -- Aktdd   {ikotadad       PV_C    wear out;overwork;exhaust
-    -- ktd     kotad~  IV_V    wear out;overwork;exhaust
-    -- ktdd    kotadid IV_C    wear out;overwork;exhaust
-
-    IFCaLL                    `verb`    {- Aikotad~ -}         [ "wear out", "overwork", "exhaust" ] ]
 
  |> "k t f" <| [
 
@@ -8337,17 +8296,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; kat~Aniy~_1
     -- ktAny   kat~Aniy~       N-ap    linen     [[kat~Aniy~/ADJ]]
 
-    FaCCAL |< Iy              `adj`     {- kat~Aniy~ -}        [ "linen" ],
-
-    -- ;; {ikotan~_1
-    -- <ktn    {ikotan~        PV_V_intr       be concealed;be hidden
-    -- Aktn    {ikotan~        PV_V_intr       be concealed;be hidden
-    -- <ktnn   {ikotanan       PV_Cn_intr      be concealed;be hidden
-    -- Aktnn   {ikotanan       PV_Cn_intr      be concealed;be hidden
-    -- ktn     kotan~  IV_V_intr       be concealed;be hidden
-    -- ktnn    kotanin IV_Cn_intr      be concealed;be hidden
-
-    IFCaLL                    `verb`    {- Aikotan~ -}         [ "be concealed", "be hidden" ] ]
+    FaCCAL |< Iy              `adj`     {- kat~Aniy~ -}        [ "linen" ] ]
 
  |> "k t t" <| [
 
@@ -12013,13 +11962,6 @@ lexicon = listing "Lexicon's properties"
     -- mkAHl   makAHil Ndip    kohl containers
 
     Identity |< aT            `noun`    {- mukoHulap -}        [ "kohl container", "kohl containers" ] ]
-
- |> "mukfahirr" <| [
-
-    -- ;; mukofahir~_1
-    -- mkfhr   mukofahir~      Nall    overcast;gloomy;melancholic     [[mukofahir~/ADJ]]
-
-    Identity                  `adj`     {- mukofahir~ -}       [ "overcast", "gloomy", "melancholic" ] ]
 
  |> "takrAr" <| [
 

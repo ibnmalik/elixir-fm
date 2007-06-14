@@ -1187,11 +1187,6 @@ lexicon = listing "Lexicon's properties"
     TaFaCCuL                  `noun`    {- tajas~us -}         [ "espionage", "spying" ]
                               `plural`     TaFaCCuL |< At ]
 
- |> "^g t _t" <| [
-
-    IFCiLAL                   `noun`    {- AijotivAv -}        [ "uprooting", "tearing out" ]
-                              `plural`     IFCiLAL |< At ]
-
  |> "^g t y" <| [
 
     FiC                       `noun`    {- jit -}              [ "Jet" ] ]

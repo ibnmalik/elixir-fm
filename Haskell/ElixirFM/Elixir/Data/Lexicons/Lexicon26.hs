@@ -623,32 +623,12 @@ lexicon = listing "Lexicon's properties"
 
     FACiL |< Iy               `adj`     {- hAtifiy~ -}         [ "telephone", "telephonic", "by phone" ] ]
 
- |> "h t m" <| [
-
-    IFCaLL                    `verb`    {- Aihotam~ -}         [ "be concerned", "be interested" ],
-
-    IFCiLAL                   `noun`    {- AihotimAm -}        [ "interest", "concern", "care", "attention" ]
-                              `plural`     IFCiLAL |< At,
-
-    MuFCaLL                   `adj`     {- muhotam~ -}         [ "interested", "concerned", "tasks", "functions", "duties" ]
-                              `plural`     MuFCaLL |< At ]
-
  |> "h t r" <| [
 
     IstiFCAL                  `noun`    {- AisotihotAr -}      [ "negligence", "disdain" ]
                               `plural`     IstiFCAL |< At,
 
     MustaFCiL                 `adj`     {- musotahotir -}      [ "reckless", "irresponsible" ] ]
-
- |> "h t z" <| [
-
-    IFCaLL                    `verb`    {- Aihotaz~ -}         [ "tremble", "quake", "be shaken" ],
-
-    IFCiLAL                   `noun`    {- AihotizAz -}        [ "tremor", "shock", "vibration" ]
-                              `plural`     IFCiLAL |< At,
-
-    IFCiLAL                   `noun`    {- AihotizAz -}        [ "commotion", "agitation" ]
-                              `plural`     IFCiLAL |< At ]
 
  |> "h w '" <| [
 

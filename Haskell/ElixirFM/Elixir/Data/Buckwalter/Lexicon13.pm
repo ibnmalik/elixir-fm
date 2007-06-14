@@ -474,6 +474,12 @@ $Lexicon = {
         '$m>zz   $oma>oziz       IV_C_intr       be disgusted;be nauseated'
       ],
       'patterns' => {
+        'i^sma\'zaz' => [
+          'IKRaDSaS'
+        ],
+        '^sma\'ziz' => [
+          'KRaDSiS'
+        ],
         '^sma\'izz' => [
           'KRaDiSS'
         ]
@@ -487,6 +493,55 @@ $Lexicon = {
         'be nauseated'
       ],
       'orig' => 'Ai$omaOaz~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'i^smi\'zAz' => {
+          'N/At' => 2
+        }
+      },
+      'entry' => 'i^smi\'zAz',
+      'form' => 'i^smi\'zAz',
+      'lines' => [
+        ';; {i$omi}ozAz_1',
+        '<$m}zAz {i$omi}ozAz     N/At    repugnance;disgust',
+        'A$m}zAz {i$omi}ozAz     N/At    repugnance;disgust'
+      ],
+      'patterns' => {
+        'i^smi\'zAz' => [
+          'IKRiDSAS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IKRiDSAS',
+      'suffix' => '',
+      'glosses' => [
+        'repugnance',
+        'disgust'
+      ],
+      'orig' => 'Ai$omi}ozAz',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu^sma\'izz',
+      'form' => 'mu^sma\'izz',
+      'lines' => [
+        ';; mu$oma}iz~_1',
+        'm$m}z   mu$oma}iz~      Nall    disgusted;nauseated'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuKRaDiSS',
+      'suffix' => '',
+      'glosses' => [
+        'disgusted',
+        'nauseated'
+      ],
+      'orig' => 'mu$oma}iz~',
       'prefix' => ''
     }
   ],
@@ -3107,45 +3162,6 @@ $Lexicon = {
         'insult'
       ],
       'orig' => 'mu$Atamap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '^stamm' => {
-          'IV_V' => 1
-        },
-        'i^stamam' => {
-          'PV_C' => 2
-        },
-        '^stamim' => {
-          'IV_C' => 1
-        }
-      },
-      'entry' => 'i^stamm',
-      'form' => 'i^stamm',
-      'lines' => [
-        ';; {i$otam~_1',
-        '<$tm    {i$otam~        PV_V    smell;sniff',
-        'A$tm    {i$otam~        PV_V    smell;sniff',
-        '<$tmm   {i$otamam       PV_C    smell;sniff',
-        'A$tmm   {i$otamam       PV_C    smell;sniff',
-        '$tm     $otam~  IV_V    smell;sniff',
-        '$tmm    $otamim IV_C    smell;sniff'
-      ],
-      'patterns' => {
-        '^stamm' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'smell',
-        'sniff'
-      ],
-      'orig' => 'Ai$otam~',
       'prefix' => ''
     }
   ],
@@ -9389,28 +9405,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mu^sma_hirr' => [
-    {
-      'types' => {},
-      'entry' => 'mu^sma_hirr',
-      'form' => 'mu^sma_hirr',
-      'lines' => [
-        ';; mu$omaxir~_1',
-        'm$mxr   mu$omaxir~      Nall    lofty;towering     [[mu$omaxir~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'lofty',
-        'towering'
-      ],
-      'orig' => 'mu$omaxir~',
-      'prefix' => ''
-    }
-  ],
   '^sam`adAn' => [
     {
       'types' => {
@@ -11473,75 +11467,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^s t d' => [
-    {
-      'types' => {
-        'i^stadad' => {
-          'PV_C' => 2
-        },
-        '^stadd' => {
-          'IV_V' => 1
-        },
-        '^stadid' => {
-          'IV_C' => 1
-        }
-      },
-      'entry' => 'i^stadd',
-      'form' => 'i^stadd',
-      'lines' => [
-        ';; {i$otad~_1',
-        '<$td    {i$otad~        PV_V    intensify',
-        'A$td    {i$otad~        PV_V    intensify',
-        '<$tdd   {i$otadad       PV_C    intensify',
-        'A$tdd   {i$otadad       PV_C    intensify',
-        '$td     $otad~  IV_V    intensify',
-        '$tdd    $otadid IV_C    intensify'
-      ],
-      'patterns' => {
-        '^stadd' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'intensify'
-      ],
-      'orig' => 'Ai$otad~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'i^stidAd' => {
-          'NduAt' => 2
-        }
-      },
-      'entry' => 'i^stidAd',
-      'form' => 'i^stidAd',
-      'lines' => [
-        ';; {i$otidAd_1',
-        '<$tdAd  {i$otidAd       NduAt   intensification;aggravation',
-        'A$tdAd  {i$otidAd       NduAt   intensification;aggravation'
-      ],
-      'patterns' => {
-        'i^stidAd' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [
-        'intensification',
-        'aggravation'
-      ],
-      'orig' => 'Ai$otidAd',
-      'prefix' => ''
-    }
-  ],
   '^s r ^g' => [
     {
       'types' => {
@@ -13078,6 +13003,12 @@ $Lexicon = {
         '$qrr    $oqarir IV_C_intr       be of fair complexion;be blond'
       ],
       'patterns' => {
+        '^sqarir' => [
+          'FCaLiL'
+        ],
+        'i^sqarar' => [
+          'IFCaLaL'
+        ],
         '^sqarr' => [
           'FCaLL'
         ]
@@ -15534,113 +15465,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^s t q' => [
-    {
-      'types' => {
-        'i^staqaq' => {
-          'PV_C' => 2
-        },
-        '^staqiq' => {
-          'IV_C' => 1
-        },
-        '^staqq' => {
-          'IV_V' => 1
-        }
-      },
-      'entry' => 'i^staqq',
-      'form' => 'i^staqq',
-      'lines' => [
-        ';; {i$otaq~_1',
-        '<$tq    {i$otaq~        PV_V    derive',
-        'A$tq    {i$otaq~        PV_V    derive',
-        '<$tqq   {i$otaqaq       PV_C    derive',
-        'A$tqq   {i$otaqaq       PV_C    derive',
-        '$tq     $otaq~  IV_V    derive',
-        '$tqq    $otaqiq IV_C    derive'
-      ],
-      'patterns' => {
-        '^staqq' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'derive'
-      ],
-      'orig' => 'Ai$otaq~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'i^stiqAq' => {
-          'NduAt' => 2
-        }
-      },
-      'entry' => 'i^stiqAq',
-      'form' => 'i^stiqAq',
-      'lines' => [
-        ';; {i$otiqAq_1',
-        '<$tqAq  {i$otiqAq       NduAt   derivation',
-        'A$tqAq  {i$otiqAq       NduAt   derivation'
-      ],
-      'patterns' => {
-        'i^stiqAq' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [
-        'derivation'
-      ],
-      'orig' => 'Ai$otiqAq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'i^stiqAq',
-      'form' => 'i^stiqAqiyy',
-      'lines' => [
-        ';; {i$otiqAqiy~_1',
-        '<$tqAqy {i$otiqAqiy~    N-ap    derivational     [[{i$otiqAqiy~/ADJ]]',
-        'A$tqAqy {i$otiqAqiy~    N-ap    derivational     [[{i$otiqAqiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'IFCiLAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'derivational'
-      ],
-      'orig' => 'Ai$otiqAqiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu^staqq',
-      'form' => 'mu^staqq',
-      'lines' => [
-        ';; mu$otaq~_1',
-        'm$tq    mu$otaq~        Nall    derivative'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'derivative'
-      ],
-      'orig' => 'mu$otaq~',
-      'prefix' => ''
-    }
-  ],
   '^sArbiyn.g' => [
     {
       'types' => {},
@@ -17817,28 +17641,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mu^sma\'izz' => [
-    {
-      'types' => {},
-      'entry' => 'mu^sma\'izz',
-      'form' => 'mu^sma\'izz',
-      'lines' => [
-        ';; mu$oma}iz~_1',
-        'm$m}z   mu$oma}iz~      Nall    disgusted;nauseated'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'disgusted',
-        'nauseated'
-      ],
-      'orig' => 'mu$oma}iz~',
-      'prefix' => ''
-    }
-  ],
   '^s f ^s q' => [
     {
       'types' => {},
@@ -19353,6 +19155,12 @@ $Lexicon = {
       'patterns' => {
         '^sma_hirr' => [
           'KRaDiSS'
+        ],
+        'i^sma_hrar' => [
+          'IKRaDSaS'
+        ],
+        '^sma_hrir' => [
+          'KRaDSiS'
         ]
       },
       'index' => '1',
@@ -19364,6 +19172,55 @@ $Lexicon = {
         'be proud'
       ],
       'orig' => 'Ai$omaxar~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'i^smi_hrAr' => {
+          'N/At' => 2
+        }
+      },
+      'entry' => 'i^smi_hrAr',
+      'form' => 'i^smi_hrAr',
+      'lines' => [
+        ';; {i$omixorAr_1',
+        '<$mxrAr {i$omixorAr     N/At    loftiness;pride',
+        'A$mxrAr {i$omixorAr     N/At    loftiness;pride'
+      ],
+      'patterns' => {
+        'i^smi_hrAr' => [
+          'IKRiDSAS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IKRiDSAS',
+      'suffix' => '',
+      'glosses' => [
+        'loftiness',
+        'pride'
+      ],
+      'orig' => 'Ai$omixorAr',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu^sma_hirr',
+      'form' => 'mu^sma_hirr',
+      'lines' => [
+        ';; mu$omaxir~_1',
+        'm$mxr   mu$omaxir~      Nall    lofty;towering     [[mu$omaxir~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuKRaDiSS',
+      'suffix' => '',
+      'glosses' => [
+        'lofty',
+        'towering'
+      ],
+      'orig' => 'mu$omaxir~',
       'prefix' => ''
     }
   ],
@@ -19903,6 +19760,12 @@ $Lexicon = {
         '$r>bb   $ora>obib       IV_C    crane the neck;stretch the neck'
       ],
       'patterns' => {
+        'i^sra\'bab' => [
+          'IKRaDSaS'
+        ],
+        '^sra\'bib' => [
+          'KRaDSiS'
+        ],
         '^sra\'ibb' => [
           'KRaDiSS'
         ]
@@ -19916,6 +19779,55 @@ $Lexicon = {
         'stretch the neck'
       ],
       'orig' => 'Ai$oraOab~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'i^sri\'bAb' => {
+          'N/At' => 2
+        }
+      },
+      'entry' => 'i^sri\'bAb',
+      'form' => 'i^sri\'bAb',
+      'lines' => [
+        ';; {i$ori}obAb_1',
+        '<$r}bAb {i$ori}obAb     N/At    craning the neck;stretching the neck',
+        'A$r}bAb {i$ori}obAb     N/At    craning the neck;stretching the neck'
+      ],
+      'patterns' => {
+        'i^sri\'bAb' => [
+          'IKRiDSAS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IKRiDSAS',
+      'suffix' => '',
+      'glosses' => [
+        'craning the neck',
+        'stretching the neck'
+      ],
+      'orig' => 'Ai$ori}obAb',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu^sra\'ibb',
+      'form' => 'mu^sra\'ibb',
+      'lines' => [
+        ';; mu$ora}ib~_1',
+        'm$r}b   mu$ora}ib~      Nall    craning the neck;stretching the neck'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuKRaDiSS',
+      'suffix' => '',
+      'glosses' => [
+        'craning the neck',
+        'stretching the neck'
+      ],
+      'orig' => 'mu$ora}ib~',
       'prefix' => ''
     }
   ],
@@ -22722,33 +22634,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'i^sri\'bAb' => [
-    {
-      'types' => {
-        'i^sri\'bAb' => {
-          'N/At' => 2
-        }
-      },
-      'entry' => 'i^sri\'bAb',
-      'form' => 'i^sri\'bAb',
-      'lines' => [
-        ';; {i$ori}obAb_1',
-        '<$r}bAb {i$ori}obAb     N/At    craning the neck;stretching the neck',
-        'A$r}bAb {i$ori}obAb     N/At    craning the neck;stretching the neck'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'craning the neck',
-        'stretching the neck'
-      ],
-      'orig' => 'Ai$ori}obAb',
-      'prefix' => ''
-    }
-  ],
   '^sluwmuw' => [
     {
       'types' => {},
@@ -23916,6 +23801,12 @@ $Lexicon = {
         '$mTT    $omaTiT IV_C    turn gray'
       ],
       'patterns' => {
+        'i^sma.ta.t' => [
+          'IFCaLaL'
+        ],
+        '^sma.ti.t' => [
+          'FCaLiL'
+        ],
         '^sma.t.t' => [
           'FCaLL'
         ]
@@ -24778,33 +24669,6 @@ $Lexicon = {
         'basket'
       ],
       'orig' => 'mi$an~ap',
-      'prefix' => ''
-    }
-  ],
-  'i^smi\'zAz' => [
-    {
-      'types' => {
-        'i^smi\'zAz' => {
-          'N/At' => 2
-        }
-      },
-      'entry' => 'i^smi\'zAz',
-      'form' => 'i^smi\'zAz',
-      'lines' => [
-        ';; {i$omi}ozAz_1',
-        '<$m}zAz {i$omi}ozAz     N/At    repugnance;disgust',
-        'A$m}zAz {i$omi}ozAz     N/At    repugnance;disgust'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'repugnance',
-        'disgust'
-      ],
-      'orig' => 'Ai$omi}ozAz',
       'prefix' => ''
     }
   ],
@@ -25855,10 +25719,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'i^staqaq' => {
+          'PV_C' => 2
+        },
+        '^staqiq' => {
+          'IV_C' => 1
+        },
+        '^staqq' => {
+          'IV_V' => 1
+        }
+      },
       'entry' => 'i^staqq',
       'form' => 'i^staqq',
-      'lines' => [],
+      'lines' => [
+        ';; {i$otaq~_1',
+        '<$tq    {i$otaq~        PV_V    derive',
+        'A$tq    {i$otaq~        PV_V    derive',
+        '<$tqq   {i$otaqaq       PV_C    derive',
+        'A$tqq   {i$otaqaq       PV_C    derive',
+        '$tq     $otaq~  IV_V    derive',
+        '$tqq    $otaqiq IV_C    derive'
+      ],
       'patterns' => {
         'i^staqaq' => [
           'IFtaCaL'
@@ -25874,7 +25756,9 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'derive'
+      ],
       'orig' => 'Ai$otaq~',
       'prefix' => ''
     },
@@ -26256,10 +26140,18 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'i^stiqAq' => {
+          'NduAt' => 2
+        }
+      },
       'entry' => 'i^stiqAq',
       'form' => 'i^stiqAq',
-      'lines' => [],
+      'lines' => [
+        ';; {i$otiqAq_1',
+        '<$tqAq  {i$otiqAq       NduAt   derivation',
+        'A$tqAq  {i$otiqAq       NduAt   derivation'
+      ],
       'patterns' => {
         'i^stiqAq' => [
           'IFtiCAL'
@@ -26269,7 +26161,9 @@ $Lexicon = {
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'derivation'
+      ],
       'orig' => 'Ai$otiqAq',
       'prefix' => ''
     },
@@ -26277,13 +26171,19 @@ $Lexicon = {
       'types' => {},
       'entry' => 'i^stiqAq',
       'form' => 'i^stiqAqiyy',
-      'lines' => [],
+      'lines' => [
+        ';; {i$otiqAqiy~_1',
+        '<$tqAqy {i$otiqAqiy~    N-ap    derivational     [[{i$otiqAqiy~/ADJ]]',
+        'A$tqAqy {i$otiqAqiy~    N-ap    derivational     [[{i$otiqAqiy~/ADJ]]'
+      ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'IFtiCAL |< Iy',
       'suffix' => ' |< Iy',
-      'glosses' => [],
+      'glosses' => [
+        'derivational'
+      ],
       'orig' => 'Ai$otiqAqiy~',
       'prefix' => ''
     },
@@ -26370,13 +26270,18 @@ $Lexicon = {
       'types' => {},
       'entry' => 'mu^staqq',
       'form' => 'mu^staqq',
-      'lines' => [],
+      'lines' => [
+        ';; mu$otaq~_1',
+        'm$tq    mu$otaq~        Nall    derivative'
+      ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'derivative'
+      ],
       'orig' => 'mu$otaq~',
       'prefix' => ''
     },
@@ -26462,28 +26367,6 @@ $Lexicon = {
         'fish hooks'
       ],
       'orig' => '$iS~',
-      'prefix' => ''
-    }
-  ],
-  'mu^sra\'ibb' => [
-    {
-      'types' => {},
-      'entry' => 'mu^sra\'ibb',
-      'form' => 'mu^sra\'ibb',
-      'lines' => [
-        ';; mu$ora}ib~_1',
-        'm$r}b   mu$ora}ib~      Nall    craning the neck;stretching the neck'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'craning the neck',
-        'stretching the neck'
-      ],
-      'orig' => 'mu$ora}ib~',
       'prefix' => ''
     }
   ],
@@ -27707,10 +27590,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'i^stadad' => {
+          'PV_C' => 2
+        },
+        '^stadd' => {
+          'IV_V' => 1
+        },
+        '^stadid' => {
+          'IV_C' => 1
+        }
+      },
       'entry' => 'i^stadd',
       'form' => 'i^stadd',
-      'lines' => [],
+      'lines' => [
+        ';; {i$otad~_1',
+        '<$td    {i$otad~        PV_V    intensify',
+        'A$td    {i$otad~        PV_V    intensify',
+        '<$tdd   {i$otadad       PV_C    intensify',
+        'A$tdd   {i$otadad       PV_C    intensify',
+        '$td     $otad~  IV_V    intensify',
+        '$tdd    $otadid IV_C    intensify'
+      ],
       'patterns' => {
         'i^stadad' => [
           'IFtaCaL'
@@ -27726,7 +27627,9 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'intensify'
+      ],
       'orig' => 'Ai$otad~',
       'prefix' => ''
     },
@@ -28003,10 +27906,18 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'i^stidAd' => {
+          'NduAt' => 2
+        }
+      },
       'entry' => 'i^stidAd',
       'form' => 'i^stidAd',
-      'lines' => [],
+      'lines' => [
+        ';; {i$otidAd_1',
+        '<$tdAd  {i$otidAd       NduAt   intensification;aggravation',
+        'A$tdAd  {i$otidAd       NduAt   intensification;aggravation'
+      ],
       'patterns' => {
         'i^stidAd' => [
           'IFtiCAL'
@@ -28016,7 +27927,10 @@ $Lexicon = {
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'intensification',
+        'aggravation'
+      ],
       'orig' => 'Ai$otidAd',
       'prefix' => ''
     },
@@ -28366,26 +28280,6 @@ $Lexicon = {
         'panicle'
       ],
       'orig' => '$imorAx',
-      'prefix' => ''
-    }
-  ],
-  '^s t f' => [
-    {
-      'types' => {},
-      'entry' => 'i^staff',
-      'form' => 'i^staff',
-      'lines' => [],
-      'patterns' => {
-        '^staff' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Ai$otaf~',
       'prefix' => ''
     }
   ],
@@ -32047,152 +31941,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^s m _h' => [
-    {
-      'types' => {
-        '^sma_h' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => '^sama_h',
-      'form' => '^sama_h',
-      'lines' => [
-        ';; $amax-a_1',
-        '$mx     $amax   PV_intr be lofty;disdain;be arrogant',
-        '$mx     $omax   IV_intr be lofty;disdain;be arrogant'
-      ],
-      'patterns' => {
-        '^sma_h' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'be lofty',
-        'disdain',
-        'be arrogant'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => '$amax-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta^sAma_h',
-      'form' => 'ta^sAma_h',
-      'lines' => [
-        ';; ta$Amax_1',
-        't$Amx   ta$Amax PV_intr be lofty;be proud',
-        't$Amx   ta$Amax IV_intr be lofty;be proud'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFACaL',
-      'suffix' => '',
-      'glosses' => [
-        'be lofty',
-        'be proud'
-      ],
-      'orig' => 'ta$Amax',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '^sumuw_h',
-      'form' => '^sumuw_h',
-      'lines' => [
-        ';; $umuwx_1',
-        '$mwx    $umuwx  N       loftiness;superiority;haughtiness'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCUL',
-      'suffix' => '',
-      'glosses' => [
-        'loftiness',
-        'superiority',
-        'haughtiness'
-      ],
-      'orig' => '$umuwx',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '^sAmi_h',
-      'form' => '^sAmi_h',
-      'lines' => [
-        ';; $Amix_1',
-        '$Amx    $Amix   Nall    lofty;superior;haughty     [[$Amix/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [
-        'lofty',
-        'superior',
-        'haughty'
-      ],
-      'orig' => '$Amix',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta^sAmu_h' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'ta^sAmu_h',
-      'form' => 'ta^sAmu_h',
-      'lines' => [
-        ';; ta$Amux_1',
-        't$Amx   ta$Amux NduAt   pride;haughtiness'
-      ],
-      'patterns' => {
-        'ta^sAmu_h' => [
-          'TaFACuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaFACuL',
-      'suffix' => '',
-      'glosses' => [
-        'pride',
-        'haughtiness'
-      ],
-      'orig' => 'ta$Amux',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'muta^sAmi_h',
-      'form' => 'muta^sAmi_h',
-      'lines' => [
-        ';; muta$Amix_1',
-        'mt$Amx  muta$Amix       Nall    haughty;lofty     [[muta$Amix/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MutaFACiL',
-      'suffix' => '',
-      'glosses' => [
-        'haughty',
-        'lofty'
-      ],
-      'orig' => 'muta$Amix',
-      'prefix' => ''
-    }
-  ],
   '^s h y' => [
     {
       'types' => {},
@@ -32561,6 +32309,152 @@ $Lexicon = {
         'arousing the appetite'
       ],
       'orig' => 'ta$ohiyap',
+      'prefix' => ''
+    }
+  ],
+  '^s m _h' => [
+    {
+      'types' => {
+        '^sma_h' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => '^sama_h',
+      'form' => '^sama_h',
+      'lines' => [
+        ';; $amax-a_1',
+        '$mx     $amax   PV_intr be lofty;disdain;be arrogant',
+        '$mx     $omax   IV_intr be lofty;disdain;be arrogant'
+      ],
+      'patterns' => {
+        '^sma_h' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'be lofty',
+        'disdain',
+        'be arrogant'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => '$amax-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta^sAma_h',
+      'form' => 'ta^sAma_h',
+      'lines' => [
+        ';; ta$Amax_1',
+        't$Amx   ta$Amax PV_intr be lofty;be proud',
+        't$Amx   ta$Amax IV_intr be lofty;be proud'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFACaL',
+      'suffix' => '',
+      'glosses' => [
+        'be lofty',
+        'be proud'
+      ],
+      'orig' => 'ta$Amax',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '^sumuw_h',
+      'form' => '^sumuw_h',
+      'lines' => [
+        ';; $umuwx_1',
+        '$mwx    $umuwx  N       loftiness;superiority;haughtiness'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCUL',
+      'suffix' => '',
+      'glosses' => [
+        'loftiness',
+        'superiority',
+        'haughtiness'
+      ],
+      'orig' => '$umuwx',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '^sAmi_h',
+      'form' => '^sAmi_h',
+      'lines' => [
+        ';; $Amix_1',
+        '$Amx    $Amix   Nall    lofty;superior;haughty     [[$Amix/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        'lofty',
+        'superior',
+        'haughty'
+      ],
+      'orig' => '$Amix',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta^sAmu_h' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'ta^sAmu_h',
+      'form' => 'ta^sAmu_h',
+      'lines' => [
+        ';; ta$Amux_1',
+        't$Amx   ta$Amux NduAt   pride;haughtiness'
+      ],
+      'patterns' => {
+        'ta^sAmu_h' => [
+          'TaFACuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFACuL',
+      'suffix' => '',
+      'glosses' => [
+        'pride',
+        'haughtiness'
+      ],
+      'orig' => 'ta$Amux',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muta^sAmi_h',
+      'form' => 'muta^sAmi_h',
+      'lines' => [
+        ';; muta$Amix_1',
+        'mt$Amx  muta$Amix       Nall    haughty;lofty     [[muta$Amix/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MutaFACiL',
+      'suffix' => '',
+      'glosses' => [
+        'haughty',
+        'lofty'
+      ],
+      'orig' => 'muta$Amix',
       'prefix' => ''
     }
   ],
@@ -38683,24 +38577,41 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^sambAniyA' => [
+  '^sukuwlAt' => [
     {
-      'types' => {},
-      'entry' => '^sambAniyA',
-      'form' => '^sambAniyA',
+      'types' => {
+        '^sukuwlA.t' => {
+          'NapAt' => 1
+        },
+        '^sukulA.t' => {
+          'NapAt' => 1
+        },
+        '^siykuwlAt' => {
+          'NapAt' => 1
+        },
+        '^suwkuwlAt' => {
+          'NapAt' => 1
+        }
+      },
+      'entry' => '^sukuwlAt',
+      'form' => '^sukuwlAtaT',
       'lines' => [
-        ';; $amobAniyA_1',
-        '$mbAnyA $amobAniyA      N0      champagne'
+        ';; $ukuwlAtap_1',
+        '$kwlAt  $ukuwlAt        NapAt   chocolate',
+        '$wkwlAt $uwkuwlAt       NapAt   chocolate',
+        '$ykwlAt $iykuwlAt       NapAt   chocolate',
+        '$kwlAT  $ukuwlAT        NapAt   chocolate',
+        '$klAT   $ukulAT NapAt   chocolate'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
-        'champagne'
+        'chocolate'
       ],
-      'orig' => '$amobAniyA',
+      'orig' => '$ukuwlAtap',
       'prefix' => ''
     }
   ],
@@ -38773,10 +38684,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '^stamm' => {
+          'IV_V' => 1
+        },
+        'i^stamam' => {
+          'PV_C' => 2
+        },
+        '^stamim' => {
+          'IV_C' => 1
+        }
+      },
       'entry' => 'i^stamm',
       'form' => 'i^stamm',
-      'lines' => [],
+      'lines' => [
+        ';; {i$otam~_1',
+        '<$tm    {i$otam~        PV_V    smell;sniff',
+        'A$tm    {i$otam~        PV_V    smell;sniff',
+        '<$tmm   {i$otamam       PV_C    smell;sniff',
+        'A$tmm   {i$otamam       PV_C    smell;sniff',
+        '$tm     $otam~  IV_V    smell;sniff',
+        '$tmm    $otamim IV_C    smell;sniff'
+      ],
       'patterns' => {
         'i^stamam' => [
           'IFtaCaL'
@@ -38792,7 +38721,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'smell',
+        'sniff'
+      ],
       'orig' => 'Ai$otam~',
       'prefix' => ''
     },
@@ -38962,41 +38894,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^sukuwlAt' => [
+  '^sambAniyA' => [
     {
-      'types' => {
-        '^sukuwlA.t' => {
-          'NapAt' => 1
-        },
-        '^sukulA.t' => {
-          'NapAt' => 1
-        },
-        '^siykuwlAt' => {
-          'NapAt' => 1
-        },
-        '^suwkuwlAt' => {
-          'NapAt' => 1
-        }
-      },
-      'entry' => '^sukuwlAt',
-      'form' => '^sukuwlAtaT',
+      'types' => {},
+      'entry' => '^sambAniyA',
+      'form' => '^sambAniyA',
       'lines' => [
-        ';; $ukuwlAtap_1',
-        '$kwlAt  $ukuwlAt        NapAt   chocolate',
-        '$wkwlAt $uwkuwlAt       NapAt   chocolate',
-        '$ykwlAt $iykuwlAt       NapAt   chocolate',
-        '$kwlAT  $ukuwlAT        NapAt   chocolate',
-        '$klAT   $ukulAT NapAt   chocolate'
+        ';; $amobAniyA_1',
+        '$mbAnyA $amobAniyA      N0      champagne'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'chocolate'
+        'champagne'
       ],
-      'orig' => '$ukuwlAtap',
+      'orig' => '$amobAniyA',
       'prefix' => ''
     }
   ],
@@ -39704,26 +39619,6 @@ $Lexicon = {
         'gloating'
       ],
       'orig' => '$Amit',
-      'prefix' => ''
-    }
-  ],
-  '^s t .t' => [
-    {
-      'types' => {},
-      'entry' => 'i^sta.t.t',
-      'form' => 'i^sta.t.t',
-      'lines' => [],
-      'patterns' => {
-        '^sta.t.t' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Ai$otaT~',
       'prefix' => ''
     }
   ],
@@ -43577,33 +43472,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'i^smi_hrAr' => [
-    {
-      'types' => {
-        'i^smi_hrAr' => {
-          'N/At' => 2
-        }
-      },
-      'entry' => 'i^smi_hrAr',
-      'form' => 'i^smi_hrAr',
-      'lines' => [
-        ';; {i$omixorAr_1',
-        '<$mxrAr {i$omixorAr     N/At    loftiness;pride',
-        'A$mxrAr {i$omixorAr     N/At    loftiness;pride'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'loftiness',
-        'pride'
-      ],
-      'orig' => 'Ai$omixorAr',
-      'prefix' => ''
-    }
-  ],
   '^sa.tran^g' => [
     {
       'types' => {},
@@ -44533,18 +44401,6 @@ $Lexicon->{'^s t \''}[0]{'glosses'} = $Lexicon->{'^s t w'}[3]{'glosses'};
 $Lexicon->{'^s t \''}[1]{'types'} = $Lexicon->{'^s t w'}[4]{'types'};
 $Lexicon->{'^s t \''}[1]{'lines'} = $Lexicon->{'^s t w'}[4]{'lines'};
 $Lexicon->{'^s t \''}[1]{'glosses'} = $Lexicon->{'^s t w'}[4]{'glosses'};
-$Lexicon->{'^s q q'}[4]{'types'} = $Lexicon->{'^s t q'}[0]{'types'};
-$Lexicon->{'^s q q'}[4]{'lines'} = $Lexicon->{'^s t q'}[0]{'lines'};
-$Lexicon->{'^s q q'}[4]{'glosses'} = $Lexicon->{'^s t q'}[0]{'glosses'};
-$Lexicon->{'^s q q'}[20]{'types'} = $Lexicon->{'^s t q'}[1]{'types'};
-$Lexicon->{'^s q q'}[20]{'lines'} = $Lexicon->{'^s t q'}[1]{'lines'};
-$Lexicon->{'^s q q'}[20]{'glosses'} = $Lexicon->{'^s t q'}[1]{'glosses'};
-$Lexicon->{'^s q q'}[21]{'types'} = $Lexicon->{'^s t q'}[2]{'types'};
-$Lexicon->{'^s q q'}[21]{'lines'} = $Lexicon->{'^s t q'}[2]{'lines'};
-$Lexicon->{'^s q q'}[21]{'glosses'} = $Lexicon->{'^s t q'}[2]{'glosses'};
-$Lexicon->{'^s q q'}[26]{'types'} = $Lexicon->{'^s t q'}[3]{'types'};
-$Lexicon->{'^s q q'}[26]{'lines'} = $Lexicon->{'^s t q'}[3]{'lines'};
-$Lexicon->{'^s q q'}[26]{'glosses'} = $Lexicon->{'^s t q'}[3]{'glosses'};
 $Lexicon->{'^s k w'}[7]{'types'} = $Lexicon->{'^s k \''}[0]{'types'};
 $Lexicon->{'^s k w'}[7]{'lines'} = $Lexicon->{'^s k \''}[0]{'lines'};
 $Lexicon->{'^s k w'}[7]{'glosses'} = $Lexicon->{'^s k \''}[0]{'glosses'};
@@ -44560,15 +44416,6 @@ $Lexicon->{'^s k w'}[13]{'glosses'} = $Lexicon->{'^s k \''}[2]{'glosses'};
 $Lexicon->{'^s k w'}[14]{'types'} = $Lexicon->{'^s k y'}[4]{'types'};
 $Lexicon->{'^s k w'}[14]{'lines'} = $Lexicon->{'^s k y'}[4]{'lines'};
 $Lexicon->{'^s k w'}[14]{'glosses'} = $Lexicon->{'^s k y'}[4]{'glosses'};
-$Lexicon->{'^s d d'}[5]{'types'} = $Lexicon->{'^s t d'}[0]{'types'};
-$Lexicon->{'^s d d'}[5]{'lines'} = $Lexicon->{'^s t d'}[0]{'lines'};
-$Lexicon->{'^s d d'}[5]{'glosses'} = $Lexicon->{'^s t d'}[0]{'glosses'};
-$Lexicon->{'^s d d'}[17]{'types'} = $Lexicon->{'^s t d'}[1]{'types'};
-$Lexicon->{'^s d d'}[17]{'lines'} = $Lexicon->{'^s t d'}[1]{'lines'};
-$Lexicon->{'^s d d'}[17]{'glosses'} = $Lexicon->{'^s t d'}[1]{'glosses'};
-$Lexicon->{'^s t f'}[0]{'types'} = $Lexicon->{'^s f f'}[1]{'types'};
-$Lexicon->{'^s t f'}[0]{'lines'} = $Lexicon->{'^s f f'}[1]{'lines'};
-$Lexicon->{'^s t f'}[0]{'glosses'} = $Lexicon->{'^s f f'}[1]{'glosses'};
 $Lexicon->{'^s f \''}[0]{'types'} = $Lexicon->{'^s f w'}[6]{'types'};
 $Lexicon->{'^s f \''}[0]{'lines'} = $Lexicon->{'^s f w'}[6]{'lines'};
 $Lexicon->{'^s f \''}[0]{'glosses'} = $Lexicon->{'^s f w'}[6]{'glosses'};
@@ -44632,9 +44479,6 @@ $Lexicon->{'^s d w'}[5]{'glosses'} = $Lexicon->{'^s d y'}[3]{'glosses'};
 $Lexicon->{'^s d w'}[6]{'types'} = $Lexicon->{'^s d y'}[4]{'types'};
 $Lexicon->{'^s d w'}[6]{'lines'} = $Lexicon->{'^s d y'}[4]{'lines'};
 $Lexicon->{'^s d w'}[6]{'glosses'} = $Lexicon->{'^s d y'}[4]{'glosses'};
-$Lexicon->{'^s m m'}[2]{'types'} = $Lexicon->{'^s t m'}[8]{'types'};
-$Lexicon->{'^s m m'}[2]{'lines'} = $Lexicon->{'^s t m'}[8]{'lines'};
-$Lexicon->{'^s m m'}[2]{'glosses'} = $Lexicon->{'^s t m'}[8]{'glosses'};
 $Lexicon->{'^s m m'}[10]{'types'} = $Lexicon->{'^s m y'}[0]{'types'};
 $Lexicon->{'^s m m'}[10]{'lines'} = $Lexicon->{'^s m y'}[0]{'lines'};
 $Lexicon->{'^s m m'}[10]{'glosses'} = $Lexicon->{'^s m y'}[0]{'glosses'};
@@ -44650,9 +44494,6 @@ $Lexicon->{'^s t y'}[2]{'glosses'} = $Lexicon->{'^s t w'}[7]{'glosses'};
 $Lexicon->{'^s \' .z'}[0]{'types'} = $Lexicon->{'^s w .z'}[1]{'types'};
 $Lexicon->{'^s \' .z'}[0]{'lines'} = $Lexicon->{'^s w .z'}[1]{'lines'};
 $Lexicon->{'^s \' .z'}[0]{'glosses'} = $Lexicon->{'^s w .z'}[1]{'glosses'};
-$Lexicon->{'^s t .t'}[0]{'types'} = $Lexicon->{'^s .t .t'}[1]{'types'};
-$Lexicon->{'^s t .t'}[0]{'lines'} = $Lexicon->{'^s .t .t'}[1]{'lines'};
-$Lexicon->{'^s t .t'}[0]{'glosses'} = $Lexicon->{'^s .t .t'}[1]{'glosses'};
 $Lexicon->{'^s r n'}[1]{'types'} = $Lexicon->{'^s r r'}[3]{'types'};
 $Lexicon->{'^s r n'}[1]{'lines'} = $Lexicon->{'^s r r'}[3]{'lines'};
 $Lexicon->{'^s r n'}[1]{'glosses'} = $Lexicon->{'^s r r'}[3]{'glosses'};

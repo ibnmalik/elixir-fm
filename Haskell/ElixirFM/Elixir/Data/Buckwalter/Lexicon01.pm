@@ -46774,47 +46774,6 @@ $Lexicon = {
       ],
       'orig' => 'maOotamap',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'tamm' => {
-          'IV_V_no-Pref-A' => 2
-        },
-        'i\'tamam' => {
-          'PV_C' => 2
-        },
-        '\'tamim' => {
-          'IV_C' => 2
-        }
-      },
-      'entry' => 'i\'tamm',
-      'form' => 'i\'tamm',
-      'lines' => [
-        ';; {i}otam~_1',
-        '<}tm    {i}otam~        PV_V    emulate;follow',
-        'A}tm    {i}otam~        PV_V    emulate;follow',
-        '<}tmm   {i}otamam       PV_C    emulate;follow',
-        'A}tmm   {i}otamam       PV_C    emulate;follow',
-        '>tm     >otam~  IV_V_no-Pref-A  emulate;follow',
-        'Atm     >otam~  IV_V_no-Pref-A  emulate;follow',
-        '>tmm    >otamim IV_C    emulate;follow',
-        'Atmm    >otamim IV_C    emulate;follow'
-      ],
-      'patterns' => {
-        '\'tamm' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'emulate',
-        'follow'
-      ],
-      'orig' => 'Ai}otam~',
-      'prefix' => ''
     }
   ],
   '\' r d y' => [
@@ -51326,10 +51285,30 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '\'tamm' => {
+          'IV_V_no-Pref-A' => 2
+        },
+        'i\'tamam' => {
+          'PV_C' => 2
+        },
+        '\'tamim' => {
+          'IV_C' => 2
+        }
+      },
       'entry' => 'i\'tamm',
       'form' => 'i\'tamm',
-      'lines' => [],
+      'lines' => [
+        ';; {i}otam~_1',
+        '<}tm    {i}otam~        PV_V    emulate;follow',
+        'A}tm    {i}otam~        PV_V    emulate;follow',
+        '<}tmm   {i}otamam       PV_C    emulate;follow',
+        'A}tmm   {i}otamam       PV_C    emulate;follow',
+        '>tm     >otam~  IV_V_no-Pref-A  emulate;follow',
+        'Atm     >otam~  IV_V_no-Pref-A  emulate;follow',
+        '>tmm    >otamim IV_C    emulate;follow',
+        'Atmm    >otamim IV_C    emulate;follow'
+      ],
       'patterns' => {
         '\'tamm' => [
           'FtaCL'
@@ -51345,7 +51324,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'emulate',
+        'follow'
+      ],
       'orig' => 'Ai}otam~',
       'prefix' => ''
     },
@@ -54925,9 +54907,6 @@ $Lexicon->{'\' .t l'}[1]{'glosses'} = $Lexicon->{'\' y .t l'}[0]{'glosses'};
 $Lexicon->{'\' m m'}[0]{'types'} = $Lexicon->{'\' m y'}[0]{'types'};
 $Lexicon->{'\' m m'}[0]{'lines'} = $Lexicon->{'\' m y'}[0]{'lines'};
 $Lexicon->{'\' m m'}[0]{'glosses'} = $Lexicon->{'\' m y'}[0]{'glosses'};
-$Lexicon->{'\' m m'}[3]{'types'} = $Lexicon->{'\' t m'}[3]{'types'};
-$Lexicon->{'\' m m'}[3]{'lines'} = $Lexicon->{'\' t m'}[3]{'lines'};
-$Lexicon->{'\' m m'}[3]{'glosses'} = $Lexicon->{'\' t m'}[3]{'glosses'};
 $Lexicon->{'\' m m'}[24]{'types'} = $Lexicon->{'\' y m'}[0]{'types'};
 $Lexicon->{'\' m m'}[24]{'lines'} = $Lexicon->{'\' y m'}[0]{'lines'};
 $Lexicon->{'\' m m'}[24]{'glosses'} = $Lexicon->{'\' y m'}[0]{'glosses'};

@@ -10768,45 +10768,6 @@ $Lexicon = {
       ],
       'orig' => 'kat~Aniy~',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        'ktanin' => {
-          'IV_Cn_intr' => 1
-        },
-        'ktann' => {
-          'IV_V_intr' => 1
-        },
-        'iktanan' => {
-          'PV_Cn_intr' => 2
-        }
-      },
-      'entry' => 'iktann',
-      'form' => 'iktann',
-      'lines' => [
-        ';; {ikotan~_1',
-        '<ktn    {ikotan~        PV_V_intr       be concealed;be hidden',
-        'Aktn    {ikotan~        PV_V_intr       be concealed;be hidden',
-        '<ktnn   {ikotanan       PV_Cn_intr      be concealed;be hidden',
-        'Aktnn   {ikotanan       PV_Cn_intr      be concealed;be hidden',
-        'ktn     kotan~  IV_V_intr       be concealed;be hidden',
-        'ktnn    kotanin IV_Cn_intr      be concealed;be hidden'
-      ],
-      'patterns' => {
-        'ktann' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'be concealed',
-        'be hidden'
-      ],
-      'orig' => 'Aikotan~',
-      'prefix' => ''
     }
   ],
   'k n f' => [
@@ -21081,85 +21042,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'k t .z' => [
-    {
-      'types' => {
-        'kta.zi.z' => {
-          'IV_C_intr' => 1
-        },
-        'ikta.za.z' => {
-          'PV_C_intr' => 2
-        },
-        'kta.z.z' => {
-          'IV_V_intr' => 1
-        }
-      },
-      'entry' => 'ikta.z.z',
-      'form' => 'ikta.z.z',
-      'lines' => [
-        ';; {ikotaZ~_1',
-        '<ktZ    {ikotaZ~        PV_V_intr       be overcrowded;be overstuffed',
-        'AktZ    {ikotaZ~        PV_V_intr       be overcrowded;be overstuffed',
-        '<ktZZ   {ikotaZaZ       PV_C_intr       be overcrowded;be overstuffed',
-        'AktZZ   {ikotaZaZ       PV_C_intr       be overcrowded;be overstuffed',
-        'ktZ     kotaZ~  IV_V_intr       be overcrowded;be overstuffed',
-        'ktZZ    kotaZiZ IV_C_intr       be overcrowded;be overstuffed'
-      ],
-      'patterns' => {
-        'kta.z.z' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'be overcrowded',
-        'be overstuffed'
-      ],
-      'orig' => 'AikotaZ~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'mukta.z.z' => {
-          'N-ap' => 1
-        },
-        'ikti.zA.z' => {
-          'N/At' => 2
-        }
-      },
-      'entry' => 'ikti.zA.z',
-      'form' => 'ikti.zA.z',
-      'lines' => [
-        ';; {ikotiZAZ_1',
-        '<ktZAZ  {ikotiZAZ       N/At    overcrowding;overfilling',
-        'AktZAZ  {ikotiZAZ       N/At    overcrowding;overfilling',
-        'mktZ    mukotaZ~        N-ap    overcrowded;jam-packed     [[mukotaZ~/ADJ]]'
-      ],
-      'patterns' => {
-        'mukta.z.z' => [
-          'MuFCaLL'
-        ],
-        'ikti.zA.z' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [
-        'overcrowding',
-        'overfilling',
-        'overcrowded',
-        'jam-packed'
-      ],
-      'orig' => 'AikotiZAZ',
-      'prefix' => ''
-    }
-  ],
   'krAyslir' => [
     {
       'types' => {},
@@ -22970,47 +22852,6 @@ $Lexicon = {
         'quinine'
       ],
       'orig' => 'kanakiynA',
-      'prefix' => ''
-    }
-  ],
-  'k t .d' => [
-    {
-      'types' => {
-        'kta.d.d' => {
-          'IV_V_intr' => 1
-        },
-        'kta.di.d' => {
-          'IV_C_intr' => 1
-        },
-        'ikta.da.d' => {
-          'PV_C_intr' => 2
-        }
-      },
-      'entry' => 'ikta.d.d',
-      'form' => 'ikta.d.d',
-      'lines' => [
-        ';; {ikotaD~_1',
-        '<ktD    {ikotaD~        PV_V_intr       be overfilled;be replete',
-        'AktD    {ikotaD~        PV_V_intr       be overfilled;be replete',
-        '<ktDD   {ikotaDaD       PV_C_intr       be overfilled;be replete',
-        'AktDD   {ikotaDaD       PV_C_intr       be overfilled;be replete',
-        'ktD     kotaD~  IV_V_intr       be overfilled;be replete',
-        'ktDD    kotaDiD IV_C_intr       be overfilled;be replete'
-      ],
-      'patterns' => {
-        'kta.d.d' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'be overfilled',
-        'be replete'
-      ],
-      'orig' => 'AikotaD~',
       'prefix' => ''
     }
   ],
@@ -26417,10 +26258,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'kta.zi.z' => {
+          'IV_C_intr' => 1
+        },
+        'ikta.za.z' => {
+          'PV_C_intr' => 2
+        },
+        'kta.z.z' => {
+          'IV_V_intr' => 1
+        }
+      },
       'entry' => 'ikta.z.z',
       'form' => 'ikta.z.z',
-      'lines' => [],
+      'lines' => [
+        ';; {ikotaZ~_1',
+        '<ktZ    {ikotaZ~        PV_V_intr       be overcrowded;be overstuffed',
+        'AktZ    {ikotaZ~        PV_V_intr       be overcrowded;be overstuffed',
+        '<ktZZ   {ikotaZaZ       PV_C_intr       be overcrowded;be overstuffed',
+        'AktZZ   {ikotaZaZ       PV_C_intr       be overcrowded;be overstuffed',
+        'ktZ     kotaZ~  IV_V_intr       be overcrowded;be overstuffed',
+        'ktZZ    kotaZiZ IV_C_intr       be overcrowded;be overstuffed'
+      ],
       'patterns' => {
         'ikta.za.z' => [
           'IFtaCaL'
@@ -26436,7 +26295,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'be overcrowded',
+        'be overstuffed'
+      ],
       'orig' => 'AikotaZ~',
       'prefix' => ''
     },
@@ -26481,10 +26343,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mukta.z.z' => {
+          'N-ap' => 1
+        },
+        'ikti.zA.z' => {
+          'N/At' => 2
+        }
+      },
       'entry' => 'ikti.zA.z',
       'form' => 'ikti.zA.z',
-      'lines' => [],
+      'lines' => [
+        ';; {ikotiZAZ_1',
+        '<ktZAZ  {ikotiZAZ       N/At    overcrowding;overfilling',
+        'AktZAZ  {ikotiZAZ       N/At    overcrowding;overfilling',
+        'mktZ    mukotaZ~        N-ap    overcrowded;jam-packed     [[mukotaZ~/ADJ]]'
+      ],
       'patterns' => {
         'mukta.z.z' => [
           'MuFtaCL'
@@ -26497,7 +26371,12 @@ $Lexicon = {
       'entity' => 'adj',
       'morphs' => 'IFtiCAL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'overcrowding',
+        'overfilling',
+        'overcrowded',
+        'jam-packed'
+      ],
       'orig' => 'AikotiZAZ',
       'prefix' => ''
     }
@@ -28728,48 +28607,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'k t d' => [
-    {
-      'types' => {
-        'ktadd' => {
-          'IV_V' => 1
-        },
-        'iktadad' => {
-          'PV_C' => 2
-        },
-        'ktadid' => {
-          'IV_C' => 1
-        }
-      },
-      'entry' => 'iktadd',
-      'form' => 'iktadd',
-      'lines' => [
-        ';; {ikotad~_1',
-        '<ktd    {ikotad~        PV_V    wear out;overwork;exhaust',
-        'Aktd    {ikotad~        PV_V    wear out;overwork;exhaust',
-        '<ktdd   {ikotadad       PV_C    wear out;overwork;exhaust',
-        'Aktdd   {ikotadad       PV_C    wear out;overwork;exhaust',
-        'ktd     kotad~  IV_V    wear out;overwork;exhaust',
-        'ktdd    kotadid IV_C    wear out;overwork;exhaust'
-      ],
-      'patterns' => {
-        'ktadd' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'wear out',
-        'overwork',
-        'exhaust'
-      ],
-      'orig' => 'Aikotad~',
-      'prefix' => ''
-    }
-  ],
   'k ^s k l' => [
     {
       'types' => {},
@@ -30026,10 +29863,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'ktanin' => {
+          'IV_Cn_intr' => 1
+        },
+        'ktann' => {
+          'IV_V_intr' => 1
+        },
+        'iktanan' => {
+          'PV_Cn_intr' => 2
+        }
+      },
       'entry' => 'iktann',
       'form' => 'iktann',
-      'lines' => [],
+      'lines' => [
+        ';; {ikotan~_1',
+        '<ktn    {ikotan~        PV_V_intr       be concealed;be hidden',
+        'Aktn    {ikotan~        PV_V_intr       be concealed;be hidden',
+        '<ktnn   {ikotanan       PV_Cn_intr      be concealed;be hidden',
+        'Aktnn   {ikotanan       PV_Cn_intr      be concealed;be hidden',
+        'ktn     kotan~  IV_V_intr       be concealed;be hidden',
+        'ktnn    kotanin IV_Cn_intr      be concealed;be hidden'
+      ],
       'patterns' => {
         'ktanin' => [
           'FtaCiL'
@@ -30045,7 +29900,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'be concealed',
+        'be hidden'
+      ],
       'orig' => 'Aikotan~',
       'prefix' => ''
     },
@@ -32200,10 +32058,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'ktadd' => {
+          'IV_V' => 1
+        },
+        'iktadad' => {
+          'PV_C' => 2
+        },
+        'ktadid' => {
+          'IV_C' => 1
+        }
+      },
       'entry' => 'iktadd',
       'form' => 'iktadd',
-      'lines' => [],
+      'lines' => [
+        ';; {ikotad~_1',
+        '<ktd    {ikotad~        PV_V    wear out;overwork;exhaust',
+        'Aktd    {ikotad~        PV_V    wear out;overwork;exhaust',
+        '<ktdd   {ikotadad       PV_C    wear out;overwork;exhaust',
+        'Aktdd   {ikotadad       PV_C    wear out;overwork;exhaust',
+        'ktd     kotad~  IV_V    wear out;overwork;exhaust',
+        'ktdd    kotadid IV_C    wear out;overwork;exhaust'
+      ],
       'patterns' => {
         'iktadad' => [
           'IFtaCaL'
@@ -32219,7 +32095,11 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'wear out',
+        'overwork',
+        'exhaust'
+      ],
       'orig' => 'Aikotad~',
       'prefix' => ''
     },
@@ -34822,29 +34702,6 @@ $Lexicon = {
         'Cagliari'
       ],
       'orig' => 'kAliyAriy',
-      'prefix' => ''
-    }
-  ],
-  'mukfahirr' => [
-    {
-      'types' => {},
-      'entry' => 'mukfahirr',
-      'form' => 'mukfahirr',
-      'lines' => [
-        ';; mukofahir~_1',
-        'mkfhr   mukofahir~      Nall    overcast;gloomy;melancholic     [[mukofahir~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'overcast',
-        'gloomy',
-        'melancholic'
-      ],
-      'orig' => 'mukofahir~',
       'prefix' => ''
     }
   ],
@@ -38776,33 +38633,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ikfihrAr' => [
-    {
-      'types' => {
-        'ikfihrAr' => {
-          'N/At' => 2
-        }
-      },
-      'entry' => 'ikfihrAr',
-      'form' => 'ikfihrAr',
-      'lines' => [
-        ';; {ikofihorAr_1',
-        '<kfhrAr {ikofihorAr     N/At    darkness;gloom',
-        'AkfhrAr {ikofihorAr     N/At    darkness;gloom'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'darkness',
-        'gloom'
-      ],
-      'orig' => 'AikofihorAr',
-      'prefix' => ''
-    }
-  ],
   'kliyntuwn' => [
     {
       'types' => {},
@@ -39924,46 +39754,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwnt' => [
-    {
-      'types' => {},
-      'entry' => 'kuwnt',
-      'form' => 'kuwnt',
-      'lines' => [
-        ';; kuwnot_1',
-        'kwnt    kuwnot  N0      Count'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Count'
-      ],
-      'orig' => 'kuwnot',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'kuwnt',
-      'form' => 'kuwntiyyaT',
-      'lines' => [
-        ';; kuwnotiy~ap_1',
-        'kwnty   kuwnotiy~       NapAt   county'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'county'
-      ],
-      'orig' => 'kuwnotiy~ap',
-      'prefix' => ''
-    }
-  ],
   'karnAfAl' => [
     {
       'types' => {},
@@ -40096,6 +39886,46 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kuwnt' => [
+    {
+      'types' => {},
+      'entry' => 'kuwnt',
+      'form' => 'kuwnt',
+      'lines' => [
+        ';; kuwnot_1',
+        'kwnt    kuwnot  N0      Count'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Count'
+      ],
+      'orig' => 'kuwnot',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'kuwnt',
+      'form' => 'kuwntiyyaT',
+      'lines' => [
+        ';; kuwnotiy~ap_1',
+        'kwnty   kuwnotiy~       NapAt   county'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'county'
+      ],
+      'orig' => 'kuwnotiy~ap',
+      'prefix' => ''
+    }
+  ],
   'kAntirbriy' => [
     {
       'types' => {},
@@ -40144,6 +39974,12 @@ $Lexicon = {
       'patterns' => {
         'kfahirr' => [
           'KRaDiSS'
+        ],
+        'kfahrir' => [
+          'KRaDSiS'
+        ],
+        'ikfahrar' => [
+          'IKRaDSaS'
         ]
       },
       'index' => '1',
@@ -40155,6 +39991,56 @@ $Lexicon = {
         'be gloomy'
       ],
       'orig' => 'Aikofahar~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ikfihrAr' => {
+          'N/At' => 2
+        }
+      },
+      'entry' => 'ikfihrAr',
+      'form' => 'ikfihrAr',
+      'lines' => [
+        ';; {ikofihorAr_1',
+        '<kfhrAr {ikofihorAr     N/At    darkness;gloom',
+        'AkfhrAr {ikofihorAr     N/At    darkness;gloom'
+      ],
+      'patterns' => {
+        'ikfihrAr' => [
+          'IKRiDSAS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IKRiDSAS',
+      'suffix' => '',
+      'glosses' => [
+        'darkness',
+        'gloom'
+      ],
+      'orig' => 'AikofihorAr',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mukfahirr',
+      'form' => 'mukfahirr',
+      'lines' => [
+        ';; mukofahir~_1',
+        'mkfhr   mukofahir~      Nall    overcast;gloomy;melancholic     [[mukofahir~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuKRaDiSS',
+      'suffix' => '',
+      'glosses' => [
+        'overcast',
+        'gloomy',
+        'melancholic'
+      ],
+      'orig' => 'mukofahir~',
       'prefix' => ''
     }
   ],
@@ -41299,10 +41185,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'kta.d.d' => {
+          'IV_V_intr' => 1
+        },
+        'kta.di.d' => {
+          'IV_C_intr' => 1
+        },
+        'ikta.da.d' => {
+          'PV_C_intr' => 2
+        }
+      },
       'entry' => 'ikta.d.d',
       'form' => 'ikta.d.d',
-      'lines' => [],
+      'lines' => [
+        ';; {ikotaD~_1',
+        '<ktD    {ikotaD~        PV_V_intr       be overfilled;be replete',
+        'AktD    {ikotaD~        PV_V_intr       be overfilled;be replete',
+        '<ktDD   {ikotaDaD       PV_C_intr       be overfilled;be replete',
+        'AktDD   {ikotaDaD       PV_C_intr       be overfilled;be replete',
+        'ktD     kotaD~  IV_V_intr       be overfilled;be replete',
+        'ktDD    kotaDiD IV_C_intr       be overfilled;be replete'
+      ],
       'patterns' => {
         'kta.d.d' => [
           'FtaCL'
@@ -41318,7 +41222,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'be overfilled',
+        'be replete'
+      ],
       'orig' => 'AikotaD~',
       'prefix' => ''
     },
@@ -41584,8 +41491,14 @@ $Lexicon = {
         'kmdd    komadid IV_C_intr       become smutty;become dark'
       ],
       'patterns' => {
+        'kmadid' => [
+          'FCaLiL'
+        ],
         'kmadd' => [
           'FCaLL'
+        ],
+        'ikmadad' => [
+          'IFCaLaL'
         ]
       },
       'index' => '1',
@@ -44089,12 +44002,6 @@ $Lexicon->{'k h w'}[0]{'glosses'} = $Lexicon->{'k h y'}[0]{'glosses'};
 $Lexicon->{'k f y'}[7]{'types'} = $Lexicon->{'k f \''}[16]{'types'};
 $Lexicon->{'k f y'}[7]{'lines'} = $Lexicon->{'k f \''}[16]{'lines'};
 $Lexicon->{'k f y'}[7]{'glosses'} = $Lexicon->{'k f \''}[16]{'glosses'};
-$Lexicon->{'k .z .z'}[1]{'types'} = $Lexicon->{'k t .z'}[0]{'types'};
-$Lexicon->{'k .z .z'}[1]{'lines'} = $Lexicon->{'k t .z'}[0]{'lines'};
-$Lexicon->{'k .z .z'}[1]{'glosses'} = $Lexicon->{'k t .z'}[0]{'glosses'};
-$Lexicon->{'k .z .z'}[4]{'types'} = $Lexicon->{'k t .z'}[1]{'types'};
-$Lexicon->{'k .z .z'}[4]{'lines'} = $Lexicon->{'k t .z'}[1]{'lines'};
-$Lexicon->{'k .z .z'}[4]{'glosses'} = $Lexicon->{'k t .z'}[1]{'glosses'};
 $Lexicon->{'k r r'}[16]{'types'} = $Lexicon->{'k r w'}[3]{'types'};
 $Lexicon->{'k r r'}[16]{'lines'} = $Lexicon->{'k r w'}[3]{'lines'};
 $Lexicon->{'k r r'}[16]{'glosses'} = $Lexicon->{'k r w'}[3]{'glosses'};
@@ -44110,15 +44017,9 @@ $Lexicon->{'k r r'}[19]{'glosses'} = $Lexicon->{'k r w'}[6]{'glosses'};
 $Lexicon->{'k r r'}[20]{'types'} = $Lexicon->{'k r w'}[7]{'types'};
 $Lexicon->{'k r r'}[20]{'lines'} = $Lexicon->{'k r w'}[7]{'lines'};
 $Lexicon->{'k r r'}[20]{'glosses'} = $Lexicon->{'k r w'}[7]{'glosses'};
-$Lexicon->{'k n n'}[2]{'types'} = $Lexicon->{'k t n'}[5]{'types'};
-$Lexicon->{'k n n'}[2]{'lines'} = $Lexicon->{'k t n'}[5]{'lines'};
-$Lexicon->{'k n n'}[2]{'glosses'} = $Lexicon->{'k t n'}[5]{'glosses'};
 $Lexicon->{'k m n'}[12]{'types'} = $Lexicon->{'k w m'}[3]{'types'};
 $Lexicon->{'k m n'}[12]{'lines'} = $Lexicon->{'k w m'}[3]{'lines'};
 $Lexicon->{'k m n'}[12]{'glosses'} = $Lexicon->{'k w m'}[3]{'glosses'};
-$Lexicon->{'k d d'}[2]{'types'} = $Lexicon->{'k t d'}[0]{'types'};
-$Lexicon->{'k d d'}[2]{'lines'} = $Lexicon->{'k t d'}[0]{'lines'};
-$Lexicon->{'k d d'}[2]{'glosses'} = $Lexicon->{'k t d'}[0]{'glosses'};
 $Lexicon->{'k w w'}[1]{'types'} = $Lexicon->{'k w \''}[0]{'types'};
 $Lexicon->{'k w w'}[1]{'lines'} = $Lexicon->{'k w \''}[0]{'lines'};
 $Lexicon->{'k w w'}[1]{'glosses'} = $Lexicon->{'k w \''}[0]{'glosses'};
@@ -44140,9 +44041,6 @@ $Lexicon->{'k \' n'}[0]{'glosses'} = $Lexicon->{'k w n'}[14]{'glosses'};
 $Lexicon->{'k \' n'}[1]{'types'} = $Lexicon->{'k w n'}[15]{'types'};
 $Lexicon->{'k \' n'}[1]{'lines'} = $Lexicon->{'k w n'}[15]{'lines'};
 $Lexicon->{'k \' n'}[1]{'glosses'} = $Lexicon->{'k w n'}[15]{'glosses'};
-$Lexicon->{'k .d .d'}[1]{'types'} = $Lexicon->{'k t .d'}[0]{'types'};
-$Lexicon->{'k .d .d'}[1]{'lines'} = $Lexicon->{'k t .d'}[0]{'lines'};
-$Lexicon->{'k .d .d'}[1]{'glosses'} = $Lexicon->{'k t .d'}[0]{'glosses'};
 $Lexicon->{'k s y'}[0]{'types'} = $Lexicon->{'k s w'}[1]{'types'};
 $Lexicon->{'k s y'}[0]{'lines'} = $Lexicon->{'k s w'}[1]{'lines'};
 $Lexicon->{'k s y'}[0]{'glosses'} = $Lexicon->{'k s w'}[1]{'glosses'};

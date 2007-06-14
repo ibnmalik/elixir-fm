@@ -418,33 +418,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'i.hdiydAb' => [
-    {
-      'types' => {
-        'i.hdiydAb' => {
-          'NduAt' => 2
-        }
-      },
-      'entry' => 'i.hdiydAb',
-      'form' => 'i.hdiydAb',
-      'lines' => [
-        ';; {iHodiydAb_1',
-        '<HdydAb {iHodiydAb      NduAt   humped;kyphosis',
-        'AHdydAb {iHodiydAb      NduAt   humped;kyphosis'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'humped',
-        'kyphosis'
-      ],
-      'orig' => 'AiHodiydAb',
-      'prefix' => ''
-    }
-  ],
   '.h m l q' => [
     {
       'types' => {
@@ -14707,44 +14680,6 @@ $Lexicon = {
       ],
       'orig' => 'Hatof',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        '.htaff' => {
-          'IV_V' => 1
-        },
-        '.htafif' => {
-          'IV_C' => 1
-        },
-        'i.htafaf' => {
-          'PV_C' => 2
-        }
-      },
-      'entry' => 'i.htaff',
-      'form' => 'i.htaff',
-      'lines' => [
-        ';; {iHotaf~_1',
-        '<Htf    {iHotaf~        PV_V    surround',
-        'AHtf    {iHotaf~        PV_V    surround',
-        '<Htff   {iHotafaf       PV_C    surround',
-        'AHtff   {iHotafaf       PV_C    surround',
-        'Htf     Hotaf~  IV_V    surround',
-        'Htff    Hotafif IV_C    surround'
-      ],
-      'patterns' => {
-        '.htaff' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'surround'
-      ],
-      'orig' => 'AiHotaf~',
-      'prefix' => ''
     }
   ],
   '.h _t _t' => [
@@ -18846,122 +18781,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.h ^s y' => [
-    {
-      'types' => {},
-      'entry' => 'ta.h^siy',
-      'form' => 'ta.h^siyaT',
-      'lines' => [
-        ';; taHo$iyap_1',
-        'tH$y    taHo$iy NapAt   insertion;interpolation'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaFCI |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'insertion',
-        'interpolation'
-      ],
-      'orig' => 'taHo$iyap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta.hA^siy' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'ta.hA^siy',
-      'form' => 'ta.hA^siy',
-      'lines' => [
-        ';; taHA$iy_1',
-        'tHA$y   taHA$iy N0_Nh   avoidance',
-        'tHA$    taHA$   NK      avoidance',
-        'tHA$y   taHA$iy NAn_Nayn        avoidance',
-        'tHA$y   taHA$iy NAt     avoidance'
-      ],
-      'patterns' => {
-        'ta.hA^siy' => [
-          'TaFACI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaFACI',
-      'suffix' => '',
-      'glosses' => [
-        'avoidance'
-      ],
-      'orig' => 'taHA$iy',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.ha^sAyY' => {
-          'N0_Nhy' => 1
-        }
-      },
-      'entry' => '.ha^siyy',
-      'form' => '.ha^siyyaT',
-      'lines' => [
-        ';; Ha$iy~ap_1',
-        'H$y     Ha$iy~  NapAt   cushion;mattress     [[Ha$iy~/NOUN]]',
-        'H$AyA   Ha$AyA  N0_Nhy  cushions;mattresses'
-      ],
-      'patterns' => {
-        '.ha^sAyY' => [
-          'FaCALY'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'cushion',
-        'mattress',
-        'cushions',
-        'mattresses'
-      ],
-      'orig' => 'Ha$iy~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.hawA^siy' => {
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => '.hA^siy',
-      'form' => '.hA^siyaT',
-      'lines' => [
-        ';; HA$iyap_1',
-        'HA$y    HA$iy   Napdu   margin;edge;retinue',
-        'HwA$y   HawA$iy N0_Nh   margins;edges',
-        'HwA$    HawA$   NK      margins;edges'
-      ],
-      'patterns' => {
-        '.hawA^siy' => [
-          'FawACI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACI |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'margin',
-        'edge',
-        'retinue',
-        'margins',
-        'edges'
-      ],
-      'orig' => 'HA$iyap',
-      'prefix' => ''
-    }
-  ],
   '.h ^g r' => [
     {
       'types' => {
@@ -20166,6 +19985,122 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '.h ^s y' => [
+    {
+      'types' => {},
+      'entry' => 'ta.h^siy',
+      'form' => 'ta.h^siyaT',
+      'lines' => [
+        ';; taHo$iyap_1',
+        'tH$y    taHo$iy NapAt   insertion;interpolation'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFCI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'insertion',
+        'interpolation'
+      ],
+      'orig' => 'taHo$iyap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta.hA^siy' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'ta.hA^siy',
+      'form' => 'ta.hA^siy',
+      'lines' => [
+        ';; taHA$iy_1',
+        'tHA$y   taHA$iy N0_Nh   avoidance',
+        'tHA$    taHA$   NK      avoidance',
+        'tHA$y   taHA$iy NAn_Nayn        avoidance',
+        'tHA$y   taHA$iy NAt     avoidance'
+      ],
+      'patterns' => {
+        'ta.hA^siy' => [
+          'TaFACI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFACI',
+      'suffix' => '',
+      'glosses' => [
+        'avoidance'
+      ],
+      'orig' => 'taHA$iy',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.ha^sAyY' => {
+          'N0_Nhy' => 1
+        }
+      },
+      'entry' => '.ha^siyy',
+      'form' => '.ha^siyyaT',
+      'lines' => [
+        ';; Ha$iy~ap_1',
+        'H$y     Ha$iy~  NapAt   cushion;mattress     [[Ha$iy~/NOUN]]',
+        'H$AyA   Ha$AyA  N0_Nhy  cushions;mattresses'
+      ],
+      'patterns' => {
+        '.ha^sAyY' => [
+          'FaCALY'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'cushion',
+        'mattress',
+        'cushions',
+        'mattresses'
+      ],
+      'orig' => 'Ha$iy~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.hawA^siy' => {
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '.hA^siy',
+      'form' => '.hA^siyaT',
+      'lines' => [
+        ';; HA$iyap_1',
+        'HA$y    HA$iy   Napdu   margin;edge;retinue',
+        'HwA$y   HawA$iy N0_Nh   margins;edges',
+        'HwA$    HawA$   NK      margins;edges'
+      ],
+      'patterns' => {
+        '.hawA^siy' => [
+          'FawACI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'margin',
+        'edge',
+        'retinue',
+        'margins',
+        'edges'
+      ],
+      'orig' => 'HA$iyap',
+      'prefix' => ''
+    }
+  ],
   '.h w ^s' => [
     {
       'types' => {
@@ -20869,29 +20804,6 @@ $Lexicon = {
         'entomological'
       ],
       'orig' => 'Ha$ariy~',
-      'prefix' => ''
-    }
-  ],
-  'mu.hdawdib' => [
-    {
-      'types' => {},
-      'entry' => 'mu.hdawdib',
-      'form' => 'mu.hdawdib',
-      'lines' => [
-        ';; muHodawodib_1',
-        'mHdwdb  muHodawodib     Nall    mounded;bowed upward;hunchbacked'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'mounded',
-        'bowed upward',
-        'hunchbacked'
-      ],
-      'orig' => 'muHodawodib',
       'prefix' => ''
     }
   ],
@@ -23528,58 +23440,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.h t ^g' => [
-    {
-      'types' => {},
-      'entry' => 'i.hta^g^g',
-      'form' => 'i.hta^g^g',
-      'lines' => [],
-      'patterns' => {
-        '.hta^g^g' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AiHotaj~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'i.hti^gA^g',
-      'form' => 'i.hti^gA^g',
-      'lines' => [],
-      'patterns' => {
-        'i.hti^gA^g' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'adv',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AiHotijAj',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu.hta^g^g',
-      'form' => 'mu.hta^g^g',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'muHotaj~',
-      'prefix' => ''
-    }
-  ],
   '.h y w' => [
     {
       'types' => {},
@@ -24251,10 +24111,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '.htaff' => {
+          'IV_V' => 1
+        },
+        '.htafif' => {
+          'IV_C' => 1
+        },
+        'i.htafaf' => {
+          'PV_C' => 2
+        }
+      },
       'entry' => 'i.htaff',
       'form' => 'i.htaff',
-      'lines' => [],
+      'lines' => [
+        ';; {iHotaf~_1',
+        '<Htf    {iHotaf~        PV_V    surround',
+        'AHtf    {iHotaf~        PV_V    surround',
+        '<Htff   {iHotafaf       PV_C    surround',
+        'AHtff   {iHotafaf       PV_C    surround',
+        'Htf     Hotaf~  IV_V    surround',
+        'Htff    Hotafif IV_C    surround'
+      ],
       'patterns' => {
         '.htaff' => [
           'FtaCL'
@@ -24270,7 +24148,9 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'surround'
+      ],
       'orig' => 'AiHotaf~',
       'prefix' => ''
     },
@@ -25463,8 +25343,14 @@ $Lexicon = {
         'Hwll    Howalil IV_C_intr       be cross-eyed;squint'
       ],
       'patterns' => {
+        'i.hwalal' => [
+          'IFCaLaL'
+        ],
         '.hwall' => [
           'FCaLL'
+        ],
+        '.hwalil' => [
+          'FCaLiL'
         ]
       },
       'index' => '1',
@@ -28490,6 +28376,35 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        'i.hdiydAb' => {
+          'NduAt' => 2
+        }
+      },
+      'entry' => 'i.hdiydAb',
+      'form' => 'i.hdiydAb',
+      'lines' => [
+        ';; {iHodiydAb_1',
+        '<HdydAb {iHodiydAb      NduAt   humped;kyphosis',
+        'AHdydAb {iHodiydAb      NduAt   humped;kyphosis'
+      ],
+      'patterns' => {
+        'i.hdiydAb' => [
+          'IFCICAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IFCICAL',
+      'suffix' => '',
+      'glosses' => [
+        'humped',
+        'kyphosis'
+      ],
+      'orig' => 'AiHodiydAb',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'mu.haddab',
       'form' => 'mu.haddab',
@@ -28526,6 +28441,27 @@ $Lexicon = {
         'hunchbacked'
       ],
       'orig' => 'muHad~ab',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu.hdawdib',
+      'form' => 'mu.hdawdib',
+      'lines' => [
+        ';; muHodawodib_1',
+        'mHdwdb  muHodawodib     Nall    mounded;bowed upward;hunchbacked'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFCawCiL',
+      'suffix' => '',
+      'glosses' => [
+        'mounded',
+        'bowed upward',
+        'hunchbacked'
+      ],
+      'orig' => 'muHodawodib',
       'prefix' => ''
     }
   ],
@@ -28828,56 +28764,6 @@ $Lexicon = {
         'FCiL'
       ],
       'orig' => 'Hatak-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'i.htakk',
-      'form' => 'i.htakk',
-      'lines' => [],
-      'patterns' => {
-        '.htakk' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AiHotak~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'i.htikAk',
-      'form' => 'i.htikAk',
-      'lines' => [],
-      'patterns' => {
-        'i.htikAk' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AiHotikAk',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'i.htikAk',
-      'form' => 'i.htikAkiyy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'IFCiLAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [],
-      'orig' => 'AiHotikAkiy~',
       'prefix' => ''
     }
   ],
@@ -32274,8 +32160,14 @@ $Lexicon = {
         'Hmrr    Homarir IV_C    turn red;blush'
       ],
       'patterns' => {
+        '.hmarir' => [
+          'FCaLiL'
+        ],
         '.hmarr' => [
           'FCaLL'
+        ],
+        'i.hmarar' => [
+          'IFCaLaL'
         ]
       },
       'index' => '1',
@@ -37263,26 +37155,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.h t _t' => [
-    {
-      'types' => {},
-      'entry' => 'i.hta_t_t',
-      'form' => 'i.hta_t_t',
-      'lines' => [],
-      'patterns' => {
-        '.hta_t_t' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AiHotav~',
-      'prefix' => ''
-    }
-  ],
   '.h f z' => [
     {
       'types' => {
@@ -39971,87 +39843,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.h n w' => [
-    {
-      'types' => {},
-      'entry' => '.hanw',
-      'form' => '.hanw',
-      'lines' => [
-        ';; Hanow_1',
-        'Hnw     Hanow   N       bending;turning'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'bending',
-        'turning'
-      ],
-      'orig' => 'Hanow',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'a.hnA\'' => {
-          'Nh' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
-        }
-      },
-      'entry' => '.hinw',
-      'form' => '.hinw',
-      'lines' => [
-        ';; Hinow_1',
-        'Hnw     Hinow   N       bend;turn',
-        '>HnA\'   >aHonA\' N0_Nh   bends;twists;ribs',
-        'AHnA\'   >aHonA\' N0_Nh   bends;twists;ribs',
-        '>HnA&   >aHonA& Nh      bends;twists;ribs',
-        'AHnA&   >aHonA& Nh      bends;twists;ribs',
-        '>HnA}   >aHonA} Nhy     bends;twists;ribs',
-        'AHnA}   >aHonA} Nhy     bends;twists;ribs'
-      ],
-      'patterns' => {
-        '\'a.hnA\'' => [
-          'HaFCA\''
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCL',
-      'suffix' => '',
-      'glosses' => [
-        'bend',
-        'turn',
-        'bends',
-        'twists',
-        'ribs'
-      ],
-      'orig' => 'Hinow',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '.hunuww',
-      'form' => '.hunuww',
-      'lines' => [
-        ';; Hunuw~_1',
-        'Hnw     Hunuw~  N       sympathy;affection'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCUL',
-      'suffix' => '',
-      'glosses' => [
-        'sympathy',
-        'affection'
-      ],
-      'orig' => 'Hunuw~',
-      'prefix' => ''
-    }
-  ],
   '.h d y' => [
     {
       'types' => {},
@@ -40144,6 +39935,87 @@ $Lexicon = {
         'kite'
       ],
       'orig' => 'HidAyap',
+      'prefix' => ''
+    }
+  ],
+  '.h n w' => [
+    {
+      'types' => {},
+      'entry' => '.hanw',
+      'form' => '.hanw',
+      'lines' => [
+        ';; Hanow_1',
+        'Hnw     Hanow   N       bending;turning'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'bending',
+        'turning'
+      ],
+      'orig' => 'Hanow',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'a.hnA\'' => {
+          'Nh' => 2,
+          'Nhy' => 2,
+          'N0_Nh' => 2
+        }
+      },
+      'entry' => '.hinw',
+      'form' => '.hinw',
+      'lines' => [
+        ';; Hinow_1',
+        'Hnw     Hinow   N       bend;turn',
+        '>HnA\'   >aHonA\' N0_Nh   bends;twists;ribs',
+        'AHnA\'   >aHonA\' N0_Nh   bends;twists;ribs',
+        '>HnA&   >aHonA& Nh      bends;twists;ribs',
+        'AHnA&   >aHonA& Nh      bends;twists;ribs',
+        '>HnA}   >aHonA} Nhy     bends;twists;ribs',
+        'AHnA}   >aHonA} Nhy     bends;twists;ribs'
+      ],
+      'patterns' => {
+        '\'a.hnA\'' => [
+          'HaFCA\''
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCL',
+      'suffix' => '',
+      'glosses' => [
+        'bend',
+        'turn',
+        'bends',
+        'twists',
+        'ribs'
+      ],
+      'orig' => 'Hinow',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.hunuww',
+      'form' => '.hunuww',
+      'lines' => [
+        ';; Hunuw~_1',
+        'Hnw     Hunuw~  N       sympathy;affection'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCUL',
+      'suffix' => '',
+      'glosses' => [
+        'sympathy',
+        'affection'
+      ],
+      'orig' => 'Hunuw~',
       'prefix' => ''
     }
   ],
@@ -43902,72 +43774,6 @@ $Lexicon = {
         'oppressed'
       ],
       'orig' => 'mutaHar~ij',
-      'prefix' => ''
-    }
-  ],
-  '.h t l' => [
-    {
-      'types' => {},
-      'entry' => 'i.htall',
-      'form' => 'i.htall',
-      'lines' => [],
-      'patterns' => {
-        '.htall' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AiHotal~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'i.htilAl',
-      'form' => 'i.htilAl',
-      'lines' => [],
-      'patterns' => {
-        'i.htilAl' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AiHotilAl',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'i.htilAl',
-      'form' => 'i.htilAliyy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'IFCiLAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [],
-      'orig' => 'AiHotilAliy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu.htall',
-      'form' => 'mu.htall',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'muHotal~',
       'prefix' => ''
     }
   ],
@@ -50788,26 +50594,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.h t z' => [
-    {
-      'types' => {},
-      'entry' => 'i.htazz',
-      'form' => 'i.htazz',
-      'lines' => [],
-      'patterns' => {
-        '.htazz' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AiHotaz~',
-      'prefix' => ''
-    }
-  ],
   '.halan^g' => [
     {
       'types' => {},
@@ -52039,38 +51825,6 @@ $Lexicon = {
       ],
       'orig' => 'maHotid',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'i.htadd',
-      'form' => 'i.htadd',
-      'lines' => [],
-      'patterns' => {
-        '.htadd' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AiHotad~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu.htadd',
-      'form' => 'mu.htadd',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'muHotad~',
-      'prefix' => ''
     }
   ],
   '.h .s .s' => [
@@ -53253,26 +53007,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.h t .t' => [
-    {
-      'types' => {},
-      'entry' => 'i.hta.t.t',
-      'form' => 'i.hta.t.t',
-      'lines' => [],
-      'patterns' => {
-        '.hta.t.t' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AiHotaT~',
-      'prefix' => ''
-    }
-  ],
   '.h d ^g' => [
     {
       'types' => {
@@ -54149,24 +53883,12 @@ $Lexicon->{'.h y d'}[13]{'glosses'} = $Lexicon->{'.h \' d'}[0]{'glosses'};
 $Lexicon->{'.h \' r'}[0]{'types'} = $Lexicon->{'.h y r'}[9]{'types'};
 $Lexicon->{'.h \' r'}[0]{'lines'} = $Lexicon->{'.h y r'}[9]{'lines'};
 $Lexicon->{'.h \' r'}[0]{'glosses'} = $Lexicon->{'.h y r'}[9]{'glosses'};
-$Lexicon->{'.h t ^g'}[0]{'types'} = $Lexicon->{'.h ^g ^g'}[3]{'types'};
-$Lexicon->{'.h t ^g'}[0]{'lines'} = $Lexicon->{'.h ^g ^g'}[3]{'lines'};
-$Lexicon->{'.h t ^g'}[0]{'glosses'} = $Lexicon->{'.h ^g ^g'}[3]{'glosses'};
-$Lexicon->{'.h t ^g'}[1]{'types'} = $Lexicon->{'.h ^g ^g'}[12]{'types'};
-$Lexicon->{'.h t ^g'}[1]{'lines'} = $Lexicon->{'.h ^g ^g'}[12]{'lines'};
-$Lexicon->{'.h t ^g'}[1]{'glosses'} = $Lexicon->{'.h ^g ^g'}[12]{'glosses'};
-$Lexicon->{'.h t ^g'}[2]{'types'} = $Lexicon->{'.h ^g ^g'}[17]{'types'};
-$Lexicon->{'.h t ^g'}[2]{'lines'} = $Lexicon->{'.h ^g ^g'}[17]{'lines'};
-$Lexicon->{'.h t ^g'}[2]{'glosses'} = $Lexicon->{'.h ^g ^g'}[17]{'glosses'};
 $Lexicon->{'.h d \''}[1]{'types'} = $Lexicon->{'.h d w'}[3]{'types'};
 $Lexicon->{'.h d \''}[1]{'lines'} = $Lexicon->{'.h d w'}[3]{'lines'};
 $Lexicon->{'.h d \''}[1]{'glosses'} = $Lexicon->{'.h d w'}[3]{'glosses'};
 $Lexicon->{'.h d \''}[2]{'types'} = $Lexicon->{'.h d d'}[28]{'types'};
 $Lexicon->{'.h d \''}[2]{'lines'} = $Lexicon->{'.h d d'}[28]{'lines'};
 $Lexicon->{'.h d \''}[2]{'glosses'} = $Lexicon->{'.h d d'}[28]{'glosses'};
-$Lexicon->{'.h f f'}[3]{'types'} = $Lexicon->{'.h t f'}[1]{'types'};
-$Lexicon->{'.h f f'}[3]{'lines'} = $Lexicon->{'.h t f'}[1]{'lines'};
-$Lexicon->{'.h f f'}[3]{'glosses'} = $Lexicon->{'.h t f'}[1]{'glosses'};
 $Lexicon->{'.h w \''}[0]{'types'} = $Lexicon->{'.h w w'}[0]{'types'};
 $Lexicon->{'.h w \''}[0]{'lines'} = $Lexicon->{'.h w w'}[0]{'lines'};
 $Lexicon->{'.h w \''}[0]{'glosses'} = $Lexicon->{'.h w w'}[0]{'glosses'};
@@ -54188,15 +53910,6 @@ $Lexicon->{'.h t y'}[2]{'glosses'} = $Lexicon->{'.h t t'}[8]{'glosses'};
 $Lexicon->{'.h t y'}[3]{'types'} = $Lexicon->{'.h t t'}[9]{'types'};
 $Lexicon->{'.h t y'}[3]{'lines'} = $Lexicon->{'.h t t'}[9]{'lines'};
 $Lexicon->{'.h t y'}[3]{'glosses'} = $Lexicon->{'.h t t'}[9]{'glosses'};
-$Lexicon->{'.h t k'}[1]{'types'} = $Lexicon->{'.h k k'}[4]{'types'};
-$Lexicon->{'.h t k'}[1]{'lines'} = $Lexicon->{'.h k k'}[4]{'lines'};
-$Lexicon->{'.h t k'}[1]{'glosses'} = $Lexicon->{'.h k k'}[4]{'glosses'};
-$Lexicon->{'.h t k'}[2]{'types'} = $Lexicon->{'.h k k'}[11]{'types'};
-$Lexicon->{'.h t k'}[2]{'lines'} = $Lexicon->{'.h k k'}[11]{'lines'};
-$Lexicon->{'.h t k'}[2]{'glosses'} = $Lexicon->{'.h k k'}[11]{'glosses'};
-$Lexicon->{'.h t k'}[3]{'types'} = $Lexicon->{'.h k k'}[12]{'types'};
-$Lexicon->{'.h t k'}[3]{'lines'} = $Lexicon->{'.h k k'}[12]{'lines'};
-$Lexicon->{'.h t k'}[3]{'glosses'} = $Lexicon->{'.h k k'}[12]{'glosses'};
 $Lexicon->{'.h m y'}[14]{'types'} = $Lexicon->{'.h m \''}[3]{'types'};
 $Lexicon->{'.h m y'}[14]{'lines'} = $Lexicon->{'.h m \''}[3]{'lines'};
 $Lexicon->{'.h m y'}[14]{'glosses'} = $Lexicon->{'.h m \''}[3]{'glosses'};
@@ -54209,9 +53922,6 @@ $Lexicon->{'.h q q'}[17]{'glosses'} = $Lexicon->{'.h q n'}[0]{'glosses'};
 $Lexicon->{'.h q q'}[18]{'types'} = $Lexicon->{'.h q n'}[1]{'types'};
 $Lexicon->{'.h q q'}[18]{'lines'} = $Lexicon->{'.h q n'}[1]{'lines'};
 $Lexicon->{'.h q q'}[18]{'glosses'} = $Lexicon->{'.h q n'}[1]{'glosses'};
-$Lexicon->{'.h t _t'}[0]{'types'} = $Lexicon->{'.h _t _t'}[1]{'types'};
-$Lexicon->{'.h t _t'}[0]{'lines'} = $Lexicon->{'.h _t _t'}[1]{'lines'};
-$Lexicon->{'.h t _t'}[0]{'glosses'} = $Lexicon->{'.h _t _t'}[1]{'glosses'};
 $Lexicon->{'.h w z'}[10]{'types'} = $Lexicon->{'.h \' z'}[0]{'types'};
 $Lexicon->{'.h w z'}[10]{'lines'} = $Lexicon->{'.h \' z'}[0]{'lines'};
 $Lexicon->{'.h w z'}[10]{'glosses'} = $Lexicon->{'.h \' z'}[0]{'glosses'};
@@ -54264,18 +53974,6 @@ $Lexicon->{'.h y ^g'}[0]{'glosses'} = $Lexicon->{'.h w ^g'}[4]{'glosses'};
 $Lexicon->{'.h _d y'}[0]{'types'} = $Lexicon->{'.h _d w'}[10]{'types'};
 $Lexicon->{'.h _d y'}[0]{'lines'} = $Lexicon->{'.h _d w'}[10]{'lines'};
 $Lexicon->{'.h _d y'}[0]{'glosses'} = $Lexicon->{'.h _d w'}[10]{'glosses'};
-$Lexicon->{'.h t l'}[0]{'types'} = $Lexicon->{'.h l l'}[6]{'types'};
-$Lexicon->{'.h t l'}[0]{'lines'} = $Lexicon->{'.h l l'}[6]{'lines'};
-$Lexicon->{'.h t l'}[0]{'glosses'} = $Lexicon->{'.h l l'}[6]{'glosses'};
-$Lexicon->{'.h t l'}[1]{'types'} = $Lexicon->{'.h l l'}[25]{'types'};
-$Lexicon->{'.h t l'}[1]{'lines'} = $Lexicon->{'.h l l'}[25]{'lines'};
-$Lexicon->{'.h t l'}[1]{'glosses'} = $Lexicon->{'.h l l'}[25]{'glosses'};
-$Lexicon->{'.h t l'}[2]{'types'} = $Lexicon->{'.h l l'}[26]{'types'};
-$Lexicon->{'.h t l'}[2]{'lines'} = $Lexicon->{'.h l l'}[26]{'lines'};
-$Lexicon->{'.h t l'}[2]{'glosses'} = $Lexicon->{'.h l l'}[26]{'glosses'};
-$Lexicon->{'.h t l'}[3]{'types'} = $Lexicon->{'.h l l'}[31]{'types'};
-$Lexicon->{'.h t l'}[3]{'lines'} = $Lexicon->{'.h l l'}[31]{'lines'};
-$Lexicon->{'.h t l'}[3]{'glosses'} = $Lexicon->{'.h l l'}[31]{'glosses'};
 $Lexicon->{'.h ^s w'}[9]{'types'} = $Lexicon->{'.h ^s y'}[0]{'types'};
 $Lexicon->{'.h ^s w'}[9]{'lines'} = $Lexicon->{'.h ^s y'}[0]{'lines'};
 $Lexicon->{'.h ^s w'}[9]{'glosses'} = $Lexicon->{'.h ^s y'}[0]{'glosses'};
@@ -54321,9 +54019,6 @@ $Lexicon->{'.h y l'}[7]{'glosses'} = $Lexicon->{'.h w l'}[39]{'glosses'};
 $Lexicon->{'.h y z'}[5]{'types'} = $Lexicon->{'.h w z'}[9]{'types'};
 $Lexicon->{'.h y z'}[5]{'lines'} = $Lexicon->{'.h w z'}[9]{'lines'};
 $Lexicon->{'.h y z'}[5]{'glosses'} = $Lexicon->{'.h w z'}[9]{'glosses'};
-$Lexicon->{'.h t z'}[0]{'types'} = $Lexicon->{'.h z z'}[2]{'types'};
-$Lexicon->{'.h t z'}[0]{'lines'} = $Lexicon->{'.h z z'}[2]{'lines'};
-$Lexicon->{'.h t z'}[0]{'glosses'} = $Lexicon->{'.h z z'}[2]{'glosses'};
 $Lexicon->{'.h f y'}[5]{'types'} = $Lexicon->{'.h f \''}[0]{'types'};
 $Lexicon->{'.h f y'}[5]{'lines'} = $Lexicon->{'.h f \''}[0]{'lines'};
 $Lexicon->{'.h f y'}[5]{'glosses'} = $Lexicon->{'.h f \''}[0]{'glosses'};
@@ -54333,18 +54028,9 @@ $Lexicon->{'.h \' .d'}[0]{'glosses'} = $Lexicon->{'.h y .d'}[5]{'glosses'};
 $Lexicon->{'.h b w'}[5]{'types'} = $Lexicon->{'.h b \''}[0]{'types'};
 $Lexicon->{'.h b w'}[5]{'lines'} = $Lexicon->{'.h b \''}[0]{'lines'};
 $Lexicon->{'.h b w'}[5]{'glosses'} = $Lexicon->{'.h b \''}[0]{'glosses'};
-$Lexicon->{'.h t d'}[3]{'types'} = $Lexicon->{'.h d d'}[6]{'types'};
-$Lexicon->{'.h t d'}[3]{'lines'} = $Lexicon->{'.h d d'}[6]{'lines'};
-$Lexicon->{'.h t d'}[3]{'glosses'} = $Lexicon->{'.h d d'}[6]{'glosses'};
-$Lexicon->{'.h t d'}[4]{'types'} = $Lexicon->{'.h d d'}[27]{'types'};
-$Lexicon->{'.h t d'}[4]{'lines'} = $Lexicon->{'.h d d'}[27]{'lines'};
-$Lexicon->{'.h t d'}[4]{'glosses'} = $Lexicon->{'.h d d'}[27]{'glosses'};
 $Lexicon->{'.h .s .s'}[8]{'types'} = $Lexicon->{'.h .s w'}[1]{'types'};
 $Lexicon->{'.h .s .s'}[8]{'lines'} = $Lexicon->{'.h .s w'}[1]{'lines'};
 $Lexicon->{'.h .s .s'}[8]{'glosses'} = $Lexicon->{'.h .s w'}[1]{'glosses'};
-$Lexicon->{'.h t .t'}[0]{'types'} = $Lexicon->{'.h .t .t'}[4]{'types'};
-$Lexicon->{'.h t .t'}[0]{'lines'} = $Lexicon->{'.h .t .t'}[4]{'lines'};
-$Lexicon->{'.h t .t'}[0]{'glosses'} = $Lexicon->{'.h .t .t'}[4]{'glosses'};
 $Lexicon->{'.h w .t'}[6]{'types'} = $Lexicon->{'.h y .t'}[0]{'types'};
 $Lexicon->{'.h w .t'}[6]{'lines'} = $Lexicon->{'.h y .t'}[0]{'lines'};
 $Lexicon->{'.h w .t'}[6]{'glosses'} = $Lexicon->{'.h y .t'}[0]{'glosses'};

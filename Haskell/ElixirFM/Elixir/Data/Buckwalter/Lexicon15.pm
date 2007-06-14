@@ -1003,6 +1003,12 @@ $Lexicon = {
       'patterns' => {
         '.dma.hill' => [
           'KRaDiSS'
+        ],
+        'i.dma.hlal' => [
+          'IKRaDSaS'
+        ],
+        '.dma.hlil' => [
+          'KRaDSiS'
         ]
       },
       'index' => '1',
@@ -1014,6 +1020,55 @@ $Lexicon = {
         'vanish'
       ],
       'orig' => 'AiDomaHal~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'i.dmi.hlAl' => {
+          'N/At' => 2
+        }
+      },
+      'entry' => 'i.dmi.hlAl',
+      'form' => 'i.dmi.hlAl',
+      'lines' => [
+        ';; {iDomiHolAl_1',
+        '<DmHlAl {iDomiHolAl     N/At    disappearance;fading',
+        'ADmHlAl {iDomiHolAl     N/At    disappearance;fading'
+      ],
+      'patterns' => {
+        'i.dmi.hlAl' => [
+          'IKRiDSAS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IKRiDSAS',
+      'suffix' => '',
+      'glosses' => [
+        'disappearance',
+        'fading'
+      ],
+      'orig' => 'AiDomiHolAl',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu.dma.hill',
+      'form' => 'mu.dma.hill',
+      'lines' => [
+        ';; muDomaHil~_1',
+        'mDmHl   muDomaHil~      Nall    disappearing;fading     [[muDomaHil~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuKRaDiSS',
+      'suffix' => '',
+      'glosses' => [
+        'disappearing',
+        'fading'
+      ],
+      'orig' => 'muDomaHil~',
       'prefix' => ''
     }
   ],
@@ -2845,33 +2900,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'i.dmi.hlAl' => [
-    {
-      'types' => {
-        'i.dmi.hlAl' => {
-          'N/At' => 2
-        }
-      },
-      'entry' => 'i.dmi.hlAl',
-      'form' => 'i.dmi.hlAl',
-      'lines' => [
-        ';; {iDomiHolAl_1',
-        '<DmHlAl {iDomiHolAl     N/At    disappearance;fading',
-        'ADmHlAl {iDomiHolAl     N/At    disappearance;fading'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'disappearance',
-        'fading'
-      ],
-      'orig' => 'AiDomiHolAl',
-      'prefix' => ''
-    }
-  ],
   '.d ` .d `' => [
     {
       'types' => {
@@ -4046,121 +4074,6 @@ $Lexicon = {
         'archivist'
       ],
       'orig' => 'IiDobAriy~',
-      'prefix' => ''
-    }
-  ],
-  '.d .t r' => [
-    {
-      'types' => {
-        'i.d.tarar' => {
-          'PV_C' => 2
-        },
-        '.d.tarir' => {
-          'IV_C' => 1
-        },
-        '.d.tarr' => {
-          'IV_V' => 1
-        }
-      },
-      'entry' => 'i.d.tarr',
-      'form' => 'i.d.tarr',
-      'lines' => [
-        ';; {iDoTar~_1',
-        '<DTr    {iDoTar~        PV_V    compel;force;oblige',
-        'ADTr    {iDoTar~        PV_V    compel;force;oblige',
-        '<DTrr   {iDoTarar       PV_C    compel;force;oblige',
-        'ADTrr   {iDoTarar       PV_C    compel;force;oblige',
-        'DTr     DoTar~  IV_V    compel;force;oblige',
-        'DTrr    DoTarir IV_C    compel;force;oblige'
-      ],
-      'patterns' => {
-        '.d.tarr' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'compel',
-        'force',
-        'oblige'
-      ],
-      'orig' => 'AiDoTar~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'i.d.tirAr' => {
-          'N/At' => 2
-        }
-      },
-      'entry' => 'i.d.tirAr',
-      'form' => 'i.d.tirAr',
-      'lines' => [
-        ';; {iDoTirAr_1',
-        '<DTrAr  {iDoTirAr       N/At    obligation;emergency;urgency',
-        'ADTrAr  {iDoTirAr       N/At    obligation;emergency;urgency'
-      ],
-      'patterns' => {
-        'i.d.tirAr' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [
-        'obligation',
-        'emergency',
-        'urgency'
-      ],
-      'orig' => 'AiDoTirAr',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'i.d.tirAr',
-      'form' => 'i.d.tirAriyy',
-      'lines' => [
-        ';; {iDoTirAriy~_1',
-        '<DTrAry {iDoTirAriy~    N-ap    obligatory;forced;emergency     [[{iDoTirAriy~/ADJ]]',
-        'ADTrAry {iDoTirAriy~    N-ap    obligatory;forced;emergency     [[{iDoTirAriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'IFCiLAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'obligatory',
-        'forced',
-        'emergency'
-      ],
-      'orig' => 'AiDoTirAriy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu.d.tarr',
-      'form' => 'mu.d.tarr',
-      'lines' => [
-        ';; muDoTar~_1',
-        'mDTr    muDoTar~        Nall    compelled;forced;obligated     [[muDoTar~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'compelled',
-        'forced',
-        'obligated'
-      ],
-      'orig' => 'muDoTar~',
       'prefix' => ''
     }
   ],
@@ -8505,10 +8418,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'i.d.tarar' => {
+          'PV_C' => 2
+        },
+        '.d.tarir' => {
+          'IV_C' => 1
+        },
+        '.d.tarr' => {
+          'IV_V' => 1
+        }
+      },
       'entry' => 'i.d.tarr',
       'form' => 'i.d.tarr',
-      'lines' => [],
+      'lines' => [
+        ';; {iDoTar~_1',
+        '<DTr    {iDoTar~        PV_V    compel;force;oblige',
+        'ADTr    {iDoTar~        PV_V    compel;force;oblige',
+        '<DTrr   {iDoTarar       PV_C    compel;force;oblige',
+        'ADTrr   {iDoTarar       PV_C    compel;force;oblige',
+        'DTr     DoTar~  IV_V    compel;force;oblige',
+        'DTrr    DoTarir IV_C    compel;force;oblige'
+      ],
       'patterns' => {
         'i.d.tarar' => [
           'IFtaCaL'
@@ -8524,7 +8455,11 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'compel',
+        'force',
+        'oblige'
+      ],
       'orig' => 'AiDoTar~',
       'prefix' => ''
     },
@@ -8806,10 +8741,18 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'i.d.tirAr' => {
+          'N/At' => 2
+        }
+      },
       'entry' => 'i.d.tirAr',
       'form' => 'i.d.tirAr',
-      'lines' => [],
+      'lines' => [
+        ';; {iDoTirAr_1',
+        '<DTrAr  {iDoTirAr       N/At    obligation;emergency;urgency',
+        'ADTrAr  {iDoTirAr       N/At    obligation;emergency;urgency'
+      ],
       'patterns' => {
         'i.d.tirAr' => [
           'IFtiCAL'
@@ -8819,7 +8762,11 @@ $Lexicon = {
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'obligation',
+        'emergency',
+        'urgency'
+      ],
       'orig' => 'AiDoTirAr',
       'prefix' => ''
     },
@@ -8827,13 +8774,21 @@ $Lexicon = {
       'types' => {},
       'entry' => 'i.d.tirAr',
       'form' => 'i.d.tirAriyy',
-      'lines' => [],
+      'lines' => [
+        ';; {iDoTirAriy~_1',
+        '<DTrAry {iDoTirAriy~    N-ap    obligatory;forced;emergency     [[{iDoTirAriy~/ADJ]]',
+        'ADTrAry {iDoTirAriy~    N-ap    obligatory;forced;emergency     [[{iDoTirAriy~/ADJ]]'
+      ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'IFtiCAL |< Iy',
       'suffix' => ' |< Iy',
-      'glosses' => [],
+      'glosses' => [
+        'obligatory',
+        'forced',
+        'emergency'
+      ],
       'orig' => 'AiDoTirAriy~',
       'prefix' => ''
     },
@@ -8861,13 +8816,20 @@ $Lexicon = {
       'types' => {},
       'entry' => 'mu.d.tarr',
       'form' => 'mu.d.tarr',
-      'lines' => [],
+      'lines' => [
+        ';; muDoTar~_1',
+        'mDTr    muDoTar~        Nall    compelled;forced;obligated     [[muDoTar~/ADJ]]'
+      ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'compelled',
+        'forced',
+        'obligated'
+      ],
       'orig' => 'muDoTar~',
       'prefix' => ''
     },
@@ -9923,28 +9885,6 @@ $Lexicon = {
         'checkers'
       ],
       'orig' => 'DAmap',
-      'prefix' => ''
-    }
-  ],
-  'mu.dma.hill' => [
-    {
-      'types' => {},
-      'entry' => 'mu.dma.hill',
-      'form' => 'mu.dma.hill',
-      'lines' => [
-        ';; muDomaHil~_1',
-        'mDmHl   muDomaHil~      Nall    disappearing;fading     [[muDomaHil~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'disappearing',
-        'fading'
-      ],
-      'orig' => 'muDomaHil~',
       'prefix' => ''
     }
   ],
@@ -14203,21 +14143,9 @@ $Lexicon->{'.d n \''}[0]{'glosses'} = $Lexicon->{'.d n y'}[5]{'glosses'};
 $Lexicon->{'.d r y'}[1]{'types'} = $Lexicon->{'.d w r'}[0]{'types'};
 $Lexicon->{'.d r y'}[1]{'lines'} = $Lexicon->{'.d w r'}[0]{'lines'};
 $Lexicon->{'.d r y'}[1]{'glosses'} = $Lexicon->{'.d w r'}[0]{'glosses'};
-$Lexicon->{'.d r r'}[4]{'types'} = $Lexicon->{'.d .t r'}[0]{'types'};
-$Lexicon->{'.d r r'}[4]{'lines'} = $Lexicon->{'.d .t r'}[0]{'lines'};
-$Lexicon->{'.d r r'}[4]{'glosses'} = $Lexicon->{'.d .t r'}[0]{'glosses'};
 $Lexicon->{'.d r r'}[11]{'types'} = $Lexicon->{'.d r \''}[0]{'types'};
 $Lexicon->{'.d r r'}[11]{'lines'} = $Lexicon->{'.d r \''}[0]{'lines'};
 $Lexicon->{'.d r r'}[11]{'glosses'} = $Lexicon->{'.d r \''}[0]{'glosses'};
-$Lexicon->{'.d r r'}[17]{'types'} = $Lexicon->{'.d .t r'}[1]{'types'};
-$Lexicon->{'.d r r'}[17]{'lines'} = $Lexicon->{'.d .t r'}[1]{'lines'};
-$Lexicon->{'.d r r'}[17]{'glosses'} = $Lexicon->{'.d .t r'}[1]{'glosses'};
-$Lexicon->{'.d r r'}[18]{'types'} = $Lexicon->{'.d .t r'}[2]{'types'};
-$Lexicon->{'.d r r'}[18]{'lines'} = $Lexicon->{'.d .t r'}[2]{'lines'};
-$Lexicon->{'.d r r'}[18]{'glosses'} = $Lexicon->{'.d .t r'}[2]{'glosses'};
-$Lexicon->{'.d r r'}[20]{'types'} = $Lexicon->{'.d .t r'}[3]{'types'};
-$Lexicon->{'.d r r'}[20]{'lines'} = $Lexicon->{'.d .t r'}[3]{'lines'};
-$Lexicon->{'.d r r'}[20]{'glosses'} = $Lexicon->{'.d .t r'}[3]{'glosses'};
 $Lexicon->{'.d f y'}[2]{'types'} = $Lexicon->{'.d f \''}[0]{'types'};
 $Lexicon->{'.d f y'}[2]{'lines'} = $Lexicon->{'.d f \''}[0]{'lines'};
 $Lexicon->{'.d f y'}[2]{'glosses'} = $Lexicon->{'.d f \''}[0]{'glosses'};

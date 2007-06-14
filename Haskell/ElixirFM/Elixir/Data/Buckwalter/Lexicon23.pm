@@ -3030,46 +3030,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'l t k' => [
-    {
-      'types' => {
-        'ltakik' => {
-          'IV_C_intr' => 1
-        },
-        'ltakk' => {
-          'IV_V_intr' => 1
-        },
-        'iltakak' => {
-          'PV_C_intr' => 2
-        }
-      },
-      'entry' => 'iltakk',
-      'form' => 'iltakk',
-      'lines' => [
-        ';; {ilotak~_1',
-        '<ltk    {ilotak~        PV_V_intr       be crowded',
-        'Altk    {ilotak~        PV_V_intr       be crowded',
-        '<ltkk   {ilotakak       PV_C_intr       be crowded',
-        'Altkk   {ilotakak       PV_C_intr       be crowded',
-        'ltk     lotak~  IV_V_intr       be crowded',
-        'ltkk    lotakik IV_C_intr       be crowded'
-      ],
-      'patterns' => {
-        'ltakk' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'be crowded'
-      ],
-      'orig' => 'Ailotak~',
-      'prefix' => ''
-    }
-  ],
   '\'ul`uwb' => [
     {
       'types' => {
@@ -4370,119 +4330,6 @@ $Lexicon = {
         'smearing'
       ],
       'orig' => 'lagomaTap',
-      'prefix' => ''
-    }
-  ],
-  'l t f' => [
-    {
-      'types' => {
-        'ltaff' => {
-          'IV_V' => 1
-        },
-        'ltafif' => {
-          'IV_C' => 1
-        },
-        'iltafaf' => {
-          'PV_C' => 2
-        }
-      },
-      'entry' => 'iltaff',
-      'form' => 'iltaff',
-      'lines' => [
-        ';; {ilotaf~_1',
-        '<ltf    {ilotaf~        PV_V    turn;be wrapped',
-        'Altf    {ilotaf~        PV_V    turn;be wrapped',
-        '<ltff   {ilotafaf       PV_C    turn;be wrapped',
-        'Altff   {ilotafaf       PV_C    turn;be wrapped',
-        'ltf     lotaf~  IV_V    turn;be wrapped',
-        'ltff    lotafif IV_C    turn;be wrapped'
-      ],
-      'patterns' => {
-        'ltaff' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'turn',
-        'be wrapped'
-      ],
-      'orig' => 'Ailotaf~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'iltifAf' => {
-          'N/At' => 2
-        }
-      },
-      'entry' => 'iltifAf',
-      'form' => 'iltifAf',
-      'lines' => [
-        ';; {ilotifAf_1',
-        '<ltfAf  {ilotifAf       N/At    turn;surrounding;turnabout',
-        'AltfAf  {ilotifAf       N/At    turn;surrounding;turnabout'
-      ],
-      'patterns' => {
-        'iltifAf' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [
-        'turn',
-        'surrounding',
-        'turnabout'
-      ],
-      'orig' => 'AilotifAf',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'multaff',
-      'form' => 'multaff',
-      'lines' => [
-        ';; mulotaf~_1',
-        'mltf    mulotaf~        N-ap    winding;rolled up;coiled     [[mulotaf~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'winding',
-        'rolled up',
-        'coiled'
-      ],
-      'orig' => 'mulotaf~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'multaff',
-      'form' => 'multaff',
-      'lines' => [
-        ';; mulotaf~_2',
-        'mltf    mulotaf~        Nall    gathering;assembling;crowding'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'gathering',
-        'assembling',
-        'crowding'
-      ],
-      'orig' => 'mulotaf~',
       'prefix' => ''
     }
   ],
@@ -8097,26 +7944,6 @@ $Lexicon = {
         'Lucerne'
       ],
       'orig' => 'luwsiyrn',
-      'prefix' => ''
-    }
-  ],
-  'l t _d' => [
-    {
-      'types' => {},
-      'entry' => 'ilta_d_d',
-      'form' => 'ilta_d_d',
-      'lines' => [],
-      'patterns' => {
-        'lta_d_d' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Ailota*~',
       'prefix' => ''
     }
   ],
@@ -18055,26 +17882,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'l t ^g' => [
-    {
-      'types' => {},
-      'entry' => 'ilta^g^g',
-      'form' => 'ilta^g^g',
-      'lines' => [],
-      'patterns' => {
-        'lta^g^g' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Ailotaj~',
-      'prefix' => ''
-    }
-  ],
   'liytur^g' => [
     {
       'types' => {},
@@ -18559,26 +18366,6 @@ $Lexicon = {
         'schedules'
       ],
       'orig' => 'lA}iHap',
-      'prefix' => ''
-    }
-  ],
-  'l t m' => [
-    {
-      'types' => {},
-      'entry' => 'iltamm',
-      'form' => 'iltamm',
-      'lines' => [],
-      'patterns' => {
-        'ltamm' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Ailotam~',
       'prefix' => ''
     }
   ],
@@ -22709,8 +22496,14 @@ $Lexicon = {
         'lhAjj   lohAjaj IV_C    curdle;coagulate'
       ],
       'patterns' => {
+        'ilhA^ga^g' => [
+          'IFCALaL'
+        ],
         'lhA^g^g' => [
           'FCALL'
+        ],
+        'lhA^ga^g' => [
+          'FCALaL'
         ]
       },
       'index' => '1',
@@ -24582,28 +24375,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'luwmAn^g' => [
-    {
-      'types' => {},
-      'entry' => 'luwmAn^g',
-      'form' => 'luwmAn^giyy',
-      'lines' => [
-        ';; luwmAnojiy~_1',
-        'lwmAnjy luwmAnojiy~     Nall_L  convict;inmate     [[luwmAnojiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'convict',
-        'inmate'
-      ],
-      'orig' => 'luwmAnojiy~',
-      'prefix' => ''
-    }
-  ],
   'l m y' => [
     {
       'types' => {},
@@ -24631,6 +24402,28 @@ $Lexicon = {
       'suffix' => ' |<< "a"',
       'glosses' => [],
       'orig' => 'lima',
+      'prefix' => ''
+    }
+  ],
+  'luwmAn^g' => [
+    {
+      'types' => {},
+      'entry' => 'luwmAn^g',
+      'form' => 'luwmAn^giyy',
+      'lines' => [
+        ';; luwmAnojiy~_1',
+        'lwmAnjy luwmAnojiy~     Nall_L  convict;inmate     [[luwmAnojiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'convict',
+        'inmate'
+      ],
+      'orig' => 'luwmAnojiy~',
       'prefix' => ''
     }
   ],
@@ -26538,48 +26331,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'l t z' => [
-    {
-      'types' => {
-        'iltazaz' => {
-          'PV_C_intr' => 2
-        },
-        'ltaziz' => {
-          'IV_C_intr' => 1
-        },
-        'ltazz' => {
-          'IV_V_intr' => 1
-        }
-      },
-      'entry' => 'iltazz',
-      'form' => 'iltazz',
-      'lines' => [
-        ';; {ilotaz~_1',
-        '<ltz    {ilotaz~        PV_V_intr       be connected;be joined;adhere',
-        'Altz    {ilotaz~        PV_V_intr       be connected;be joined;adhere',
-        '<ltzz   {ilotazaz       PV_C_intr       be connected;be joined;adhere',
-        'Altzz   {ilotazaz       PV_C_intr       be connected;be joined;adhere',
-        'ltz     lotaz~  IV_V_intr       be connected;be joined;adhere',
-        'ltzz    lotaziz IV_C_intr       be connected;be joined;adhere'
-      ],
-      'patterns' => {
-        'ltazz' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'be connected',
-        'be joined',
-        'adhere'
-      ],
-      'orig' => 'Ailotaz~',
-      'prefix' => ''
-    }
-  ],
   'luwksambuwr.g' => [
     {
       'types' => {
@@ -27197,6 +26948,65 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'l .g y' => [
+    {
+      'types' => {},
+      'entry' => 'la.giy',
+      'form' => 'la.giy',
+      'lines' => [],
+      'patterns' => {
+        'la.g' => [
+          'FaC'
+        ],
+        'l.gay' => [
+          'FCaL'
+        ],
+        'l.gY' => [
+          'FCY'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCI',
+      'glosses' => [],
+      'suffix' => '',
+      'imperf' => [],
+      'orig' => 'lagiy-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'lA.giy',
+      'form' => 'lA.giy',
+      'lines' => [],
+      'patterns' => {
+        'lA.giy' => [
+          'FACI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'lAgiy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'lA.giy',
+      'form' => 'lA.giyaT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
+      'orig' => 'lAgiyap',
+      'prefix' => ''
+    }
+  ],
   'l b _t' => [
     {
       'types' => {
@@ -27307,65 +27117,6 @@ $Lexicon = {
         'brief respite'
       ],
       'orig' => 'lubovap',
-      'prefix' => ''
-    }
-  ],
-  'l .g y' => [
-    {
-      'types' => {},
-      'entry' => 'la.giy',
-      'form' => 'la.giy',
-      'lines' => [],
-      'patterns' => {
-        'la.g' => [
-          'FaC'
-        ],
-        'l.gay' => [
-          'FCaL'
-        ],
-        'l.gY' => [
-          'FCY'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCI',
-      'glosses' => [],
-      'suffix' => '',
-      'imperf' => [],
-      'orig' => 'lagiy-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'lA.giy',
-      'form' => 'lA.giy',
-      'lines' => [],
-      'patterns' => {
-        'lA.giy' => [
-          'FACI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACI',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'lAgiy',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'lA.giy',
-      'form' => 'lA.giyaT',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACI |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [],
-      'orig' => 'lAgiyap',
       'prefix' => ''
     }
   ],
@@ -27505,10 +27256,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'iltazaz' => {
+          'PV_C_intr' => 2
+        },
+        'ltaziz' => {
+          'IV_C_intr' => 1
+        },
+        'ltazz' => {
+          'IV_V_intr' => 1
+        }
+      },
       'entry' => 'iltazz',
       'form' => 'iltazz',
-      'lines' => [],
+      'lines' => [
+        ';; {ilotaz~_1',
+        '<ltz    {ilotaz~        PV_V_intr       be connected;be joined;adhere',
+        'Altz    {ilotaz~        PV_V_intr       be connected;be joined;adhere',
+        '<ltzz   {ilotazaz       PV_C_intr       be connected;be joined;adhere',
+        'Altzz   {ilotazaz       PV_C_intr       be connected;be joined;adhere',
+        'ltz     lotaz~  IV_V_intr       be connected;be joined;adhere',
+        'ltzz    lotaziz IV_C_intr       be connected;be joined;adhere'
+      ],
       'patterns' => {
         'iltazaz' => [
           'IFtaCaL'
@@ -27524,7 +27293,11 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'be connected',
+        'be joined',
+        'adhere'
+      ],
       'orig' => 'Ailotaz~',
       'prefix' => ''
     },
@@ -31464,10 +31237,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'ltakik' => {
+          'IV_C_intr' => 1
+        },
+        'ltakk' => {
+          'IV_V_intr' => 1
+        },
+        'iltakak' => {
+          'PV_C_intr' => 2
+        }
+      },
       'entry' => 'iltakk',
       'form' => 'iltakk',
-      'lines' => [],
+      'lines' => [
+        ';; {ilotak~_1',
+        '<ltk    {ilotak~        PV_V_intr       be crowded',
+        'Altk    {ilotak~        PV_V_intr       be crowded',
+        '<ltkk   {ilotakak       PV_C_intr       be crowded',
+        'Altkk   {ilotakak       PV_C_intr       be crowded',
+        'ltk     lotak~  IV_V_intr       be crowded',
+        'ltkk    lotakik IV_C_intr       be crowded'
+      ],
       'patterns' => {
         'ltakik' => [
           'FtaCiL'
@@ -31483,7 +31274,9 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'be crowded'
+      ],
       'orig' => 'Ailotak~',
       'prefix' => ''
     },
@@ -31660,10 +31453,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'ltaff' => {
+          'IV_V' => 1
+        },
+        'ltafif' => {
+          'IV_C' => 1
+        },
+        'iltafaf' => {
+          'PV_C' => 2
+        }
+      },
       'entry' => 'iltaff',
       'form' => 'iltaff',
-      'lines' => [],
+      'lines' => [
+        ';; {ilotaf~_1',
+        '<ltf    {ilotaf~        PV_V    turn;be wrapped',
+        'Altf    {ilotaf~        PV_V    turn;be wrapped',
+        '<ltff   {ilotafaf       PV_C    turn;be wrapped',
+        'Altff   {ilotafaf       PV_C    turn;be wrapped',
+        'ltf     lotaf~  IV_V    turn;be wrapped',
+        'ltff    lotafif IV_C    turn;be wrapped'
+      ],
       'patterns' => {
         'ltaff' => [
           'FtaCL'
@@ -31679,7 +31490,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'turn',
+        'be wrapped'
+      ],
       'orig' => 'Ailotaf~',
       'prefix' => ''
     },
@@ -31979,10 +31793,18 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'iltifAf' => {
+          'N/At' => 2
+        }
+      },
       'entry' => 'iltifAf',
       'form' => 'iltifAf',
-      'lines' => [],
+      'lines' => [
+        ';; {ilotifAf_1',
+        '<ltfAf  {ilotifAf       N/At    turn;surrounding;turnabout',
+        'AltfAf  {ilotifAf       N/At    turn;surrounding;turnabout'
+      ],
       'patterns' => {
         'iltifAf' => [
           'IFtiCAL'
@@ -31992,7 +31814,11 @@ $Lexicon = {
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'turn',
+        'surrounding',
+        'turnabout'
+      ],
       'orig' => 'AilotifAf',
       'prefix' => ''
     },
@@ -32058,13 +31884,20 @@ $Lexicon = {
       'types' => {},
       'entry' => 'multaff',
       'form' => 'multaff',
-      'lines' => [],
+      'lines' => [
+        ';; mulotaf~_1',
+        'mltf    mulotaf~        N-ap    winding;rolled up;coiled     [[mulotaf~/ADJ]]'
+      ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'winding',
+        'rolled up',
+        'coiled'
+      ],
       'orig' => 'mulotaf~',
       'prefix' => ''
     },
@@ -32072,13 +31905,20 @@ $Lexicon = {
       'types' => {},
       'entry' => 'multaff',
       'form' => 'multaff',
-      'lines' => [],
+      'lines' => [
+        ';; mulotaf~_2',
+        'mltf    mulotaf~        Nall    gathering;assembling;crowding'
+      ],
       'patterns' => {},
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'MuFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'gathering',
+        'assembling',
+        'crowding'
+      ],
       'orig' => 'mulotaf~',
       'prefix' => ''
     },
@@ -35067,18 +34907,9 @@ $Lexicon->{'l y m'}[0]{'glosses'} = $Lexicon->{'l y m n'}[0]{'glosses'};
 $Lexicon->{'l y m'}[1]{'types'} = $Lexicon->{'l y m n'}[1]{'types'};
 $Lexicon->{'l y m'}[1]{'lines'} = $Lexicon->{'l y m n'}[1]{'lines'};
 $Lexicon->{'l y m'}[1]{'glosses'} = $Lexicon->{'l y m n'}[1]{'glosses'};
-$Lexicon->{'l t _d'}[0]{'types'} = $Lexicon->{'l _d _d'}[4]{'types'};
-$Lexicon->{'l t _d'}[0]{'lines'} = $Lexicon->{'l _d _d'}[4]{'lines'};
-$Lexicon->{'l t _d'}[0]{'glosses'} = $Lexicon->{'l _d _d'}[4]{'glosses'};
 $Lexicon->{'l .g \''}[0]{'types'} = $Lexicon->{'l .g w'}[8]{'types'};
 $Lexicon->{'l .g \''}[0]{'lines'} = $Lexicon->{'l .g w'}[8]{'lines'};
 $Lexicon->{'l .g \''}[0]{'glosses'} = $Lexicon->{'l .g w'}[8]{'glosses'};
-$Lexicon->{'l t ^g'}[0]{'types'} = $Lexicon->{'l ^g ^g'}[2]{'types'};
-$Lexicon->{'l t ^g'}[0]{'lines'} = $Lexicon->{'l ^g ^g'}[2]{'lines'};
-$Lexicon->{'l t ^g'}[0]{'glosses'} = $Lexicon->{'l ^g ^g'}[2]{'glosses'};
-$Lexicon->{'l t m'}[0]{'types'} = $Lexicon->{'l m m'}[4]{'types'};
-$Lexicon->{'l t m'}[0]{'lines'} = $Lexicon->{'l m m'}[4]{'lines'};
-$Lexicon->{'l t m'}[0]{'glosses'} = $Lexicon->{'l m m'}[4]{'glosses'};
 $Lexicon->{'l w m'}[12]{'types'} = $Lexicon->{'l \' m'}[15]{'types'};
 $Lexicon->{'l w m'}[12]{'lines'} = $Lexicon->{'l \' m'}[15]{'lines'};
 $Lexicon->{'l w m'}[12]{'glosses'} = $Lexicon->{'l \' m'}[15]{'glosses'};
@@ -35159,9 +34990,6 @@ $Lexicon->{'l .g y'}[1]{'glosses'} = $Lexicon->{'l .g w'}[9]{'glosses'};
 $Lexicon->{'l .g y'}[2]{'types'} = $Lexicon->{'l .g w'}[10]{'types'};
 $Lexicon->{'l .g y'}[2]{'lines'} = $Lexicon->{'l .g w'}[10]{'lines'};
 $Lexicon->{'l .g y'}[2]{'glosses'} = $Lexicon->{'l .g w'}[10]{'glosses'};
-$Lexicon->{'l z z'}[4]{'types'} = $Lexicon->{'l t z'}[0]{'types'};
-$Lexicon->{'l z z'}[4]{'lines'} = $Lexicon->{'l t z'}[0]{'lines'};
-$Lexicon->{'l z z'}[4]{'glosses'} = $Lexicon->{'l t z'}[0]{'glosses'};
 $Lexicon->{'l w .h'}[7]{'types'} = $Lexicon->{'l \' .h'}[0]{'types'};
 $Lexicon->{'l w .h'}[7]{'lines'} = $Lexicon->{'l \' .h'}[0]{'lines'};
 $Lexicon->{'l w .h'}[7]{'glosses'} = $Lexicon->{'l \' .h'}[0]{'glosses'};
@@ -35195,21 +35023,6 @@ $Lexicon->{'l d \''}[0]{'glosses'} = $Lexicon->{'l d d'}[7]{'glosses'};
 $Lexicon->{'l w `'}[5]{'types'} = $Lexicon->{'l y `'}[0]{'types'};
 $Lexicon->{'l w `'}[5]{'lines'} = $Lexicon->{'l y `'}[0]{'lines'};
 $Lexicon->{'l w `'}[5]{'glosses'} = $Lexicon->{'l y `'}[0]{'glosses'};
-$Lexicon->{'l k k'}[1]{'types'} = $Lexicon->{'l t k'}[0]{'types'};
-$Lexicon->{'l k k'}[1]{'lines'} = $Lexicon->{'l t k'}[0]{'lines'};
-$Lexicon->{'l k k'}[1]{'glosses'} = $Lexicon->{'l t k'}[0]{'glosses'};
-$Lexicon->{'l f f'}[3]{'types'} = $Lexicon->{'l t f'}[0]{'types'};
-$Lexicon->{'l f f'}[3]{'lines'} = $Lexicon->{'l t f'}[0]{'lines'};
-$Lexicon->{'l f f'}[3]{'glosses'} = $Lexicon->{'l t f'}[0]{'glosses'};
-$Lexicon->{'l f f'}[16]{'types'} = $Lexicon->{'l t f'}[1]{'types'};
-$Lexicon->{'l f f'}[16]{'lines'} = $Lexicon->{'l t f'}[1]{'lines'};
-$Lexicon->{'l f f'}[16]{'glosses'} = $Lexicon->{'l t f'}[1]{'glosses'};
-$Lexicon->{'l f f'}[20]{'types'} = $Lexicon->{'l t f'}[2]{'types'};
-$Lexicon->{'l f f'}[20]{'lines'} = $Lexicon->{'l t f'}[2]{'lines'};
-$Lexicon->{'l f f'}[20]{'glosses'} = $Lexicon->{'l t f'}[2]{'glosses'};
-$Lexicon->{'l f f'}[21]{'types'} = $Lexicon->{'l t f'}[3]{'types'};
-$Lexicon->{'l f f'}[21]{'lines'} = $Lexicon->{'l t f'}[3]{'lines'};
-$Lexicon->{'l f f'}[21]{'glosses'} = $Lexicon->{'l t f'}[3]{'glosses'};
 $Lexicon->{'l w b y'}[0]{'types'} = $Lexicon->{'l b y'}[2]{'types'};
 $Lexicon->{'l w b y'}[0]{'lines'} = $Lexicon->{'l b y'}[2]{'lines'};
 $Lexicon->{'l w b y'}[0]{'glosses'} = $Lexicon->{'l b y'}[2]{'glosses'};

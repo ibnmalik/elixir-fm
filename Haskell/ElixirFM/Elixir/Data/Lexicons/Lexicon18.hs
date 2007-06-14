@@ -2312,11 +2312,6 @@ lexicon = listing "Lexicon's properties"
     FaCAL                     `noun`    {- EatAd -}            [ "war material", "ammunition" ]
                               `plural`     HaFCiL |< aT ]
 
- |> "` t l" <| [
-
-    IFCiLAL                   `noun`    {- AiEotilAl -}        [ "illness", "weakness", "defectiveness" ]
-                              `plural`     IFCiLAL |< At ]
-
  |> "` t q" <| [
 
     FaCIL                     `adj`     {- Eatiyq -}           [ "old", "aged", "emancipated" ],
@@ -2326,17 +2321,6 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "`awAtiq Ndip" ] -},
 
     MaFCUL                    `noun`    {- maEotuwq -}         [ "Matouq" ] ]
-
- |> "` t z" <| [
-
-    IFCaLL                    `verb`    {- AiEotaz~ -}         [ "be proud" ],
-
-    IFCiLAL                   `noun`    {- AiEotizAz -}        [ "pride" ]
-                              `plural`     IFCiLAL |< At,
-
-    MuFCaLL                   `adj`     {- muEotaz~ -}         [ "proud", "mighty" ],
-
-    MuFCaLL                   `noun`    {- muEotaz~ -}         [ "Mu'tazz" ] ]
 
  |> "` w .d" <| [
 

@@ -1694,11 +1694,6 @@ lexicon = listing "Lexicon's properties"
 
     MutaFaCCiL                `adj`     {- mutarat~ib -}       [ "arranged", "organized", "regulated" ] ]
 
- |> "r t d" <| [
-
-    IFCiLAL                   `noun`    {- AirotidAd -}        [ "retreat", "renunciation" ]
-                              `plural`     IFCiLAL |< At ]
-
  |> "r t l" <| [
 
     TaFCIL |< aT              `noun`    {- tarotiylap -}       [ "hymn", "hymns" ]

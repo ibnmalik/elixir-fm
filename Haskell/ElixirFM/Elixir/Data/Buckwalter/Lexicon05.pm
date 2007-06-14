@@ -11031,48 +11031,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^g t s' => [
-    {
-      'types' => {
-        'i^gtasas' => {
-          'PV_C' => 2
-        },
-        '^gtass' => {
-          'IV_V' => 1
-        },
-        '^gtasis' => {
-          'IV_C' => 1
-        }
-      },
-      'entry' => 'i^gtass',
-      'form' => 'i^gtass',
-      'lines' => [
-        ';; {ijotas~_1',
-        '<jts    {ijotas~        PV_V    feel;handle;reconnoiter',
-        'Ajts    {ijotas~        PV_V    feel;handle;reconnoiter',
-        '<jtss   {ijotasas       PV_C    feel;handle;reconnoiter',
-        'Ajtss   {ijotasas       PV_C    feel;handle;reconnoiter',
-        'jts     jotas~  IV_V    feel;handle;reconnoiter',
-        'jtss    jotasis IV_C    feel;handle;reconnoiter'
-      ],
-      'patterns' => {
-        '^gtass' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'feel',
-        'handle',
-        'reconnoiter'
-      ],
-      'orig' => 'Aijotas~',
-      'prefix' => ''
-    }
-  ],
   '^g \' `' => [
     {
       'types' => {},
@@ -31485,26 +31443,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^g t z' => [
-    {
-      'types' => {},
-      'entry' => 'i^gtazz',
-      'form' => 'i^gtazz',
-      'lines' => [],
-      'patterns' => {
-        '^gtazz' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Aijotaz~',
-      'prefix' => ''
-    }
-  ],
   '^g l q' => [
     {
       'types' => {},
@@ -33919,10 +33857,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'i^gtasas' => {
+          'PV_C' => 2
+        },
+        '^gtass' => {
+          'IV_V' => 1
+        },
+        '^gtasis' => {
+          'IV_C' => 1
+        }
+      },
       'entry' => 'i^gtass',
       'form' => 'i^gtass',
-      'lines' => [],
+      'lines' => [
+        ';; {ijotas~_1',
+        '<jts    {ijotas~        PV_V    feel;handle;reconnoiter',
+        'Ajts    {ijotas~        PV_V    feel;handle;reconnoiter',
+        '<jtss   {ijotasas       PV_C    feel;handle;reconnoiter',
+        'Ajtss   {ijotasas       PV_C    feel;handle;reconnoiter',
+        'jts     jotas~  IV_V    feel;handle;reconnoiter',
+        'jtss    jotasis IV_C    feel;handle;reconnoiter'
+      ],
       'patterns' => {
         'i^gtasas' => [
           'IFtaCaL'
@@ -33938,7 +33894,11 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'feel',
+        'handle',
+        'reconnoiter'
+      ],
       'orig' => 'Aijotas~',
       'prefix' => ''
     },
@@ -37994,26 +37954,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^g t r' => [
-    {
-      'types' => {},
-      'entry' => 'i^gtarr',
-      'form' => 'i^gtarr',
-      'lines' => [],
-      'patterns' => {
-        '^gtarr' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Aijotar~',
-      'prefix' => ''
-    }
-  ],
   '^g .h ^s' => [
     {
       'types' => {
@@ -38477,26 +38417,6 @@ $Lexicon = {
         'Guatemala'
       ],
       'orig' => 'juwAtiymAlA',
-      'prefix' => ''
-    }
-  ],
-  '^g t f' => [
-    {
-      'types' => {},
-      'entry' => 'i^gtaff',
-      'form' => 'i^gtaff',
-      'lines' => [],
-      'patterns' => {
-        '^gtaff' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Aijotaf~',
       'prefix' => ''
     }
   ],
@@ -40231,58 +40151,6 @@ $Lexicon = {
       'orig' => 'majoruwH',
       'prefix' => ''
     }
-  ],
-  '^g t _t' => [
-    {
-      'types' => {},
-      'entry' => 'i^gta_t_t',
-      'form' => 'i^gta_t_t',
-      'lines' => [],
-      'patterns' => {
-        '^gta_t_t' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Aijotav~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'i^gti_tA_t',
-      'form' => 'i^gti_tA_t',
-      'lines' => [],
-      'patterns' => {
-        'i^gti_tA_t' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AijotivAv',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu^gta_t_t',
-      'form' => 'mu^gta_t_t',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'mujotav~',
-      'prefix' => ''
-    }
   ]
 };
 $Lexicon->{'^g w .h'}[4]{'types'} = $Lexicon->{'^g y .h'}[0]{'types'};
@@ -40426,9 +40294,6 @@ $Lexicon->{'^g w w'}[5]{'glosses'} = $Lexicon->{'^g w n'}[1]{'glosses'};
 $Lexicon->{'^g \' \''}[1]{'types'} = $Lexicon->{'^g y \''}[3]{'types'};
 $Lexicon->{'^g \' \''}[1]{'lines'} = $Lexicon->{'^g y \''}[3]{'lines'};
 $Lexicon->{'^g \' \''}[1]{'glosses'} = $Lexicon->{'^g y \''}[3]{'glosses'};
-$Lexicon->{'^g t z'}[0]{'types'} = $Lexicon->{'^g z z'}[1]{'types'};
-$Lexicon->{'^g t z'}[0]{'lines'} = $Lexicon->{'^g z z'}[1]{'lines'};
-$Lexicon->{'^g t z'}[0]{'glosses'} = $Lexicon->{'^g z z'}[1]{'glosses'};
 $Lexicon->{'^g l \''}[0]{'types'} = $Lexicon->{'^g l w'}[10]{'types'};
 $Lexicon->{'^g l \''}[0]{'lines'} = $Lexicon->{'^g l w'}[10]{'lines'};
 $Lexicon->{'^g l \''}[0]{'glosses'} = $Lexicon->{'^g l w'}[10]{'glosses'};
@@ -40450,9 +40315,6 @@ $Lexicon->{'^g \' z'}[4]{'glosses'} = $Lexicon->{'^g w z'}[21]{'glosses'};
 $Lexicon->{'^g ` r n'}[0]{'types'} = $Lexicon->{'^g ` r'}[1]{'types'};
 $Lexicon->{'^g ` r n'}[0]{'lines'} = $Lexicon->{'^g ` r'}[1]{'lines'};
 $Lexicon->{'^g ` r n'}[0]{'glosses'} = $Lexicon->{'^g ` r'}[1]{'glosses'};
-$Lexicon->{'^g s s'}[2]{'types'} = $Lexicon->{'^g t s'}[0]{'types'};
-$Lexicon->{'^g s s'}[2]{'lines'} = $Lexicon->{'^g t s'}[0]{'lines'};
-$Lexicon->{'^g s s'}[2]{'glosses'} = $Lexicon->{'^g t s'}[0]{'glosses'};
 $Lexicon->{'^g s m'}[9]{'types'} = $Lexicon->{'^g s m n'}[0]{'types'};
 $Lexicon->{'^g s m'}[9]{'lines'} = $Lexicon->{'^g s m n'}[0]{'lines'};
 $Lexicon->{'^g s m'}[9]{'glosses'} = $Lexicon->{'^g s m n'}[0]{'glosses'};
@@ -40468,18 +40330,12 @@ $Lexicon->{'^g \' t'}[0]{'glosses'} = $Lexicon->{'^g t y'}[0]{'glosses'};
 $Lexicon->{'^g b _h n'}[0]{'types'} = $Lexicon->{'^g b _h'}[0]{'types'};
 $Lexicon->{'^g b _h n'}[0]{'lines'} = $Lexicon->{'^g b _h'}[0]{'lines'};
 $Lexicon->{'^g b _h n'}[0]{'glosses'} = $Lexicon->{'^g b _h'}[0]{'glosses'};
-$Lexicon->{'^g t r'}[0]{'types'} = $Lexicon->{'^g r r'}[3]{'types'};
-$Lexicon->{'^g t r'}[0]{'lines'} = $Lexicon->{'^g r r'}[3]{'lines'};
-$Lexicon->{'^g t r'}[0]{'glosses'} = $Lexicon->{'^g r r'}[3]{'glosses'};
 $Lexicon->{'^g y b'}[0]{'types'} = $Lexicon->{'^g w b'}[16]{'types'};
 $Lexicon->{'^g y b'}[0]{'lines'} = $Lexicon->{'^g w b'}[16]{'lines'};
 $Lexicon->{'^g y b'}[0]{'glosses'} = $Lexicon->{'^g w b'}[16]{'glosses'};
 $Lexicon->{'^g y b'}[1]{'types'} = $Lexicon->{'^g w b'}[18]{'types'};
 $Lexicon->{'^g y b'}[1]{'lines'} = $Lexicon->{'^g w b'}[18]{'lines'};
 $Lexicon->{'^g y b'}[1]{'glosses'} = $Lexicon->{'^g w b'}[18]{'glosses'};
-$Lexicon->{'^g t f'}[0]{'types'} = $Lexicon->{'^g f f'}[3]{'types'};
-$Lexicon->{'^g t f'}[0]{'lines'} = $Lexicon->{'^g f f'}[3]{'lines'};
-$Lexicon->{'^g t f'}[0]{'glosses'} = $Lexicon->{'^g f f'}[3]{'glosses'};
 $Lexicon->{'^g r \''}[6]{'types'} = $Lexicon->{'^g r y'}[0]{'types'};
 $Lexicon->{'^g r \''}[6]{'lines'} = $Lexicon->{'^g r y'}[0]{'lines'};
 $Lexicon->{'^g r \''}[6]{'glosses'} = $Lexicon->{'^g r y'}[0]{'glosses'};
@@ -40507,12 +40363,3 @@ $Lexicon->{'^g f y'}[0]{'glosses'} = $Lexicon->{'^g f \''}[1]{'glosses'};
 $Lexicon->{'^g f y'}[4]{'types'} = $Lexicon->{'^g f \''}[2]{'types'};
 $Lexicon->{'^g f y'}[4]{'lines'} = $Lexicon->{'^g f \''}[2]{'lines'};
 $Lexicon->{'^g f y'}[4]{'glosses'} = $Lexicon->{'^g f \''}[2]{'glosses'};
-$Lexicon->{'^g t _t'}[0]{'types'} = $Lexicon->{'^g _t _t'}[1]{'types'};
-$Lexicon->{'^g t _t'}[0]{'lines'} = $Lexicon->{'^g _t _t'}[1]{'lines'};
-$Lexicon->{'^g t _t'}[0]{'glosses'} = $Lexicon->{'^g _t _t'}[1]{'glosses'};
-$Lexicon->{'^g t _t'}[1]{'types'} = $Lexicon->{'^g _t _t'}[3]{'types'};
-$Lexicon->{'^g t _t'}[1]{'lines'} = $Lexicon->{'^g _t _t'}[3]{'lines'};
-$Lexicon->{'^g t _t'}[1]{'glosses'} = $Lexicon->{'^g _t _t'}[3]{'glosses'};
-$Lexicon->{'^g t _t'}[2]{'types'} = $Lexicon->{'^g _t _t'}[4]{'types'};
-$Lexicon->{'^g t _t'}[2]{'lines'} = $Lexicon->{'^g _t _t'}[4]{'lines'};
-$Lexicon->{'^g t _t'}[2]{'glosses'} = $Lexicon->{'^g _t _t'}[4]{'glosses'};

@@ -6267,6 +6267,12 @@ $Lexicon = {
         'zrqq    zoraqiq IV_C_intr       be blue in color'
       ],
       'patterns' => {
+        'zraqiq' => [
+          'FCaLiL'
+        ],
+        'izraqaq' => [
+          'IFCaLaL'
+        ],
         'zraqq' => [
           'FCaLL'
         ]
@@ -10561,6 +10567,12 @@ $Lexicon = {
       'patterns' => {
         'zmahirr' => [
           'KRaDiSS'
+        ],
+        'izmahrar' => [
+          'IKRaDSaS'
+        ],
+        'zmahrir' => [
+          'KRaDSiS'
         ]
       },
       'index' => '1',
@@ -21263,6 +21275,12 @@ $Lexicon = {
       'patterns' => {
         'zwarr' => [
           'FCaLL'
+        ],
+        'izwarar' => [
+          'IFCaLaL'
+        ],
+        'zwarir' => [
+          'FCaLiL'
         ]
       },
       'index' => '1',

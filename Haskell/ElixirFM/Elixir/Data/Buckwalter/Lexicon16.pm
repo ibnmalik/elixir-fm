@@ -9068,6 +9068,12 @@ $Lexicon = {
         'Tm>nn   Toma>onin       IV_Cn_intr      be calm;be reassured'
       ],
       'patterns' => {
+        '.tma\'nin' => [
+          'KRaDSiS'
+        ],
+        'i.tma\'nan' => [
+          'IKRaDSaS'
+        ],
         '.tma\'inn' => [
           'KRaDiSS'
         ]
@@ -9102,6 +9108,55 @@ $Lexicon = {
         'reassuring'
       ],
       'orig' => 'TamoOanap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'i.tmi\'nAn' => {
+          'N/At' => 2
+        }
+      },
+      'entry' => 'i.tmi\'nAn',
+      'form' => 'i.tmi\'nAn',
+      'lines' => [
+        ';; {iTomi}onAn_1',
+        '<Tm}nAn {iTomi}onAn     N/At    tranquillity;serenity',
+        'ATm}nAn {iTomi}onAn     N/At    tranquillity;serenity'
+      ],
+      'patterns' => {
+        'i.tmi\'nAn' => [
+          'IKRiDSAS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IKRiDSAS',
+      'suffix' => '',
+      'glosses' => [
+        'tranquillity',
+        'serenity'
+      ],
+      'orig' => 'AiTomi}onAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu.tma\'inn',
+      'form' => 'mu.tma\'inn',
+      'lines' => [
+        ';; muToma}in~_1',
+        'mTm}n   muToma}in~      Nall    calm;at ease     [[muToma}in~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuKRaDiSS',
+      'suffix' => '',
+      'glosses' => [
+        'calm',
+        'at ease'
+      ],
+      'orig' => 'muToma}in~',
       'prefix' => ''
     }
   ],
@@ -11095,33 +11150,6 @@ $Lexicon = {
         'dirigible'
       ],
       'orig' => 'munoTAdiy~',
-      'prefix' => ''
-    }
-  ],
-  'i.tmi\'nAn' => [
-    {
-      'types' => {
-        'i.tmi\'nAn' => {
-          'N/At' => 2
-        }
-      },
-      'entry' => 'i.tmi\'nAn',
-      'form' => 'i.tmi\'nAn',
-      'lines' => [
-        ';; {iTomi}onAn_1',
-        '<Tm}nAn {iTomi}onAn     N/At    tranquillity;serenity',
-        'ATm}nAn {iTomi}onAn     N/At    tranquillity;serenity'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'tranquillity',
-        'serenity'
-      ],
-      'orig' => 'AiTomi}onAn',
       'prefix' => ''
     }
   ],
@@ -20451,28 +20479,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mu.tma\'inn' => [
-    {
-      'types' => {},
-      'entry' => 'mu.tma\'inn',
-      'form' => 'mu.tma\'inn',
-      'lines' => [
-        ';; muToma}in~_1',
-        'mTm}n   muToma}in~      Nall    calm;at ease     [[muToma}in~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'calm',
-        'at ease'
-      ],
-      'orig' => 'muToma}in~',
-      'prefix' => ''
-    }
-  ],
   '.t \' f' => [
     {
       'types' => {},
@@ -23363,34 +23369,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.t m .t m' => [
-    {
-      'types' => {
-        '.tumA.t' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => '.tamA.tim',
-      'form' => '.tamA.tim',
-      'lines' => [
-        ';; TamATim_1',
-        'TmATm   TamATim Ndip    tomatoes',
-        'TmATm   TamATim Napdu   tomato',
-        'TmAT    TumAT   Nap     tomato'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRADiS',
-      'suffix' => '',
-      'glosses' => [
-        'tomatoes',
-        'tomato'
-      ],
-      'orig' => 'TamATim',
-      'prefix' => ''
-    }
-  ],
   '.t r m' => [
     {
       'types' => {},
@@ -23472,6 +23450,34 @@ $Lexicon = {
         'clique'
       ],
       'orig' => 'Tugomap',
+      'prefix' => ''
+    }
+  ],
+  '.t m .t m' => [
+    {
+      'types' => {
+        '.tumA.t' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => '.tamA.tim',
+      'form' => '.tamA.tim',
+      'lines' => [
+        ';; TamATim_1',
+        'TmATm   TamATim Ndip    tomatoes',
+        'TmATm   TamATim Napdu   tomato',
+        'TmAT    TumAT   Nap     tomato'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRADiS',
+      'suffix' => '',
+      'glosses' => [
+        'tomatoes',
+        'tomato'
+      ],
+      'orig' => 'TamATim',
       'prefix' => ''
     }
   ],

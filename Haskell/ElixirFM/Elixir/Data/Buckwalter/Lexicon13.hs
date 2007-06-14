@@ -5943,7 +5943,19 @@ lexicon = listing "Lexicon's properties"
     -- \$m}z    $oma}iz~        IV_V_intr       be disgusted;be nauseated
     -- \$m>zz   $oma>oziz       IV_C_intr       be disgusted;be nauseated
 
-    IKRaDaSS                  `verb`    {- Ai$omaOaz~ -}       [ "be disgusted", "be nauseated" ] ]
+    IKRaDaSS                  `verb`    {- Ai$omaOaz~ -}       [ "be disgusted", "be nauseated" ],
+
+    -- ;; {i$omi}ozAz_1
+    -- <$m}zAz {i$omi}ozAz     N/At    repugnance;disgust
+    -- A$m}zAz {i$omi}ozAz     N/At    repugnance;disgust
+
+    IKRiDSAS                  `noun`    {- Ai$omi}ozAz -}      [ "repugnance", "disgust" ]
+                              `plural`     IKRiDSAS |< At,
+
+    -- ;; mu$oma}iz~_1
+    -- m$m}z   mu$oma}iz~      Nall    disgusted;nauseated
+
+    MuKRaDiSS                 `noun`    {- mu$oma}iz~ -}       [ "disgusted", "nauseated" ] ]
 
  |> "^s m .t" <| [
 
@@ -6048,7 +6060,19 @@ lexicon = listing "Lexicon's properties"
     -- \$mxr    $omaxir~        IV_V_intr       be gigantic;be proud
     -- \$mxrr   $omaxorir       IV_C_intr       be gigantic;be proud
 
-    IKRaDaSS                  `verb`    {- Ai$omaxar~ -}       [ "be gigantic", "be proud" ] ]
+    IKRaDaSS                  `verb`    {- Ai$omaxar~ -}       [ "be gigantic", "be proud" ],
+
+    -- ;; {i$omixorAr_1
+    -- <$mxrAr {i$omixorAr     N/At    loftiness;pride
+    -- A$mxrAr {i$omixorAr     N/At    loftiness;pride
+
+    IKRiDSAS                  `noun`    {- Ai$omixorAr -}      [ "loftiness", "pride" ]
+                              `plural`     IKRiDSAS |< At,
+
+    -- ;; mu$omaxir~_1
+    -- m$mxr   mu$omaxir~      Nall    lofty;towering     [[mu$omaxir~/ADJ]]
+
+    MuKRaDiSS                 `adj`     {- mu$omaxir~ -}       [ "lofty", "towering" ] ]
 
  |> "^s m `" <| [
 
@@ -7377,7 +7401,19 @@ lexicon = listing "Lexicon's properties"
     -- \$r}b    $ora}ib~        IV_V    crane the neck;stretch the neck
     -- \$r>bb   $ora>obib       IV_C    crane the neck;stretch the neck
 
-    IKRaDaSS                  `verb`    {- Ai$oraOab~ -}       [ "crane the neck", "stretch the neck" ] ]
+    IKRaDaSS                  `verb`    {- Ai$oraOab~ -}       [ "crane the neck", "stretch the neck" ],
+
+    -- ;; {i$ori}obAb_1
+    -- <$r}bAb {i$ori}obAb     N/At    craning the neck;stretching the neck
+    -- A$r}bAb {i$ori}obAb     N/At    craning the neck;stretching the neck
+
+    IKRiDSAS                  `noun`    {- Ai$ori}obAb -}      [ "craning the neck", "stretching the neck" ]
+                              `plural`     IKRiDSAS |< At,
+
+    -- ;; mu$ora}ib~_1
+    -- m$r}b   mu$ora}ib~      Nall    craning the neck;stretching the neck
+
+    MuKRaDiSS                 `noun`    {- mu$ora}ib~ -}       [ "craning the neck", "stretching the neck" ] ]
 
  |> "^s r .h" <| [
 
@@ -9207,49 +9243,6 @@ lexicon = listing "Lexicon's properties"
     FiCAL                     `noun`    {- \$itA' -}           [ "rain", "rains" ]
                               `plural`     HaFCI |< aT ]
 
- |> "^s t .t" <| [
-
-    -- ;; {i$otaT~_1
-    -- <$tT    {i$otaT~        PV_V_intr       be excessive;go too far
-    -- A$tT    {i$otaT~        PV_V_intr       be excessive;go too far
-    -- <$tTT   {i$otaTaT       PV_C_intr       be excessive;go too far
-    -- A$tTT   {i$otaTaT       PV_C_intr       be excessive;go too far
-    -- \$tT     $otaT~  IV_V_intr       be excessive;go too far
-    -- \$tTT    $otaTiT IV_C_intr       be excessive;go too far
-
-    IFCaLL                    `verb`    {- Ai$otaT~ -}         [ "be excessive", "go too far" ] ]
-
- |> "^s t d" <| [
-
-    -- ;; {i$otad~_1
-    -- <$td    {i$otad~        PV_V    intensify
-    -- A$td    {i$otad~        PV_V    intensify
-    -- <$tdd   {i$otadad       PV_C    intensify
-    -- A$tdd   {i$otadad       PV_C    intensify
-    -- \$td     $otad~  IV_V    intensify
-    -- \$tdd    $otadid IV_C    intensify
-
-    IFCaLL                    `verb`    {- Ai$otad~ -}         [ "intensify" ],
-
-    -- ;; {i$otidAd_1
-    -- <$tdAd  {i$otidAd       NduAt   intensification;aggravation
-    -- A$tdAd  {i$otidAd       NduAt   intensification;aggravation
-
-    IFCiLAL                   `noun`    {- Ai$otidAd -}        [ "intensification", "aggravation" ]
-                              `plural`     IFCiLAL |< At ]
-
- |> "^s t f" <| [
-
-    -- ;; {i$otaf~_1
-    -- <$tf    {i$otaf~        PV_V    drink up;consume
-    -- A$tf    {i$otaf~        PV_V    drink up;consume
-    -- <$tff   {i$otafaf       PV_C    drink up;consume
-    -- A$tff   {i$otafaf       PV_C    drink up;consume
-    -- \$tf     $otaf~  IV_V    drink up;consume
-    -- \$tff    $otafif IV_C    drink up;consume
-
-    IFCaLL                    `verb`    {- Ai$otaf~ -}         [ "drink up", "consume" ] ]
-
  |> "^s t l" <| [
 
     -- ;; $atal-i_1
@@ -9337,17 +9330,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mu$Atamap_1
     -- m$Atm   mu$Atam NapAt   vilification;insult
 
-    MuFACaL |< aT             `noun`    {- mu$Atamap -}        [ "vilification", "insult" ],
-
-    -- ;; {i$otam~_1
-    -- <$tm    {i$otam~        PV_V    smell;sniff
-    -- A$tm    {i$otam~        PV_V    smell;sniff
-    -- <$tmm   {i$otamam       PV_C    smell;sniff
-    -- A$tmm   {i$otamam       PV_C    smell;sniff
-    -- \$tm     $otam~  IV_V    smell;sniff
-    -- \$tmm    $otamim IV_C    smell;sniff
-
-    IFCaLL                    `verb`    {- Ai$otam~ -}         [ "smell", "sniff" ] ]
+    MuFACaL |< aT             `noun`    {- mu$Atamap -}        [ "vilification", "insult" ] ]
 
  |> "^s t n" <| [
 
@@ -9355,36 +9338,6 @@ lexicon = listing "Lexicon's properties"
     -- \$tAn    $at~An  N       what a difference;how different
 
     FaCCAL                    `noun`    {- \$at~An -}          [ "what a difference", "how different" ] ]
-
- |> "^s t q" <| [
-
-    -- ;; {i$otaq~_1
-    -- <$tq    {i$otaq~        PV_V    derive
-    -- A$tq    {i$otaq~        PV_V    derive
-    -- <$tqq   {i$otaqaq       PV_C    derive
-    -- A$tqq   {i$otaqaq       PV_C    derive
-    -- \$tq     $otaq~  IV_V    derive
-    -- \$tqq    $otaqiq IV_C    derive
-
-    IFCaLL                    `verb`    {- Ai$otaq~ -}         [ "derive" ],
-
-    -- ;; {i$otiqAq_1
-    -- <$tqAq  {i$otiqAq       NduAt   derivation
-    -- A$tqAq  {i$otiqAq       NduAt   derivation
-
-    IFCiLAL                   `noun`    {- Ai$otiqAq -}        [ "derivation" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; {i$otiqAqiy~_1
-    -- <$tqAqy {i$otiqAqiy~    N-ap    derivational     [[{i$otiqAqiy~/ADJ]]
-    -- A$tqAqy {i$otiqAqiy~    N-ap    derivational     [[{i$otiqAqiy~/ADJ]]
-
-    IFCiLAL |< Iy             `adj`     {- Ai$otiqAqiy~ -}     [ "derivational" ],
-
-    -- ;; mu$otaq~_1
-    -- m$tq    mu$otaq~        Nall    derivative
-
-    MuFCaLL                   `noun`    {- mu$otaq~ -}         [ "derivative" ] ]
 
  |> "^s t r" <| [
 
@@ -11945,55 +11898,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- \$wbyr -}           [ "Shubair" ] ]
 
- |> "i^smi'zAz" <| [
-
-    -- ;; {i$omi}ozAz_1
-    -- <$m}zAz {i$omi}ozAz     N/At    repugnance;disgust
-    -- A$m}zAz {i$omi}ozAz     N/At    repugnance;disgust
-
-    Identity                  `noun`    {- Ai$omi}ozAz -}      [ "repugnance", "disgust" ] ]
-
- |> "i^smi_hrAr" <| [
-
-    -- ;; {i$omixorAr_1
-    -- <$mxrAr {i$omixorAr     N/At    loftiness;pride
-    -- A$mxrAr {i$omixorAr     N/At    loftiness;pride
-
-    Identity                  `noun`    {- Ai$omixorAr -}      [ "loftiness", "pride" ] ]
-
- |> "i^sri'bAb" <| [
-
-    -- ;; {i$ori}obAb_1
-    -- <$r}bAb {i$ori}obAb     N/At    craning the neck;stretching the neck
-    -- A$r}bAb {i$ori}obAb     N/At    craning the neck;stretching the neck
-
-    Identity                  `noun`    {- Ai$ori}obAb -}      [ "craning the neck", "stretching the neck" ] ]
-
  |> "mu^sa^s_han" <| [
 
     -- ;; mu$a$oxan_1
     -- m$$xn   mu$a$oxan       N       gun barrel
 
     Identity                  `noun`    {- mu$a$oxan -}        [ "gun barrel" ] ]
-
- |> "mu^sma'izz" <| [
-
-    -- ;; mu$oma}iz~_1
-    -- m$m}z   mu$oma}iz~      Nall    disgusted;nauseated
-
-    Identity                  `noun`    {- mu$oma}iz~ -}       [ "disgusted", "nauseated" ] ]
-
- |> "mu^sma_hirr" <| [
-
-    -- ;; mu$omaxir~_1
-    -- m$mxr   mu$omaxir~      Nall    lofty;towering     [[mu$omaxir~/ADJ]]
-
-    Identity                  `adj`     {- mu$omaxir~ -}       [ "lofty", "towering" ] ]
-
- |> "mu^sra'ibb" <| [
-
-    -- ;; mu$ora}ib~_1
-    -- m$r}b   mu$ora}ib~      Nall    craning the neck;stretching the neck
-
-    Identity                  `noun`    {- mu$ora}ib~ -}       [ "craning the neck", "stretching the neck" ] ]
 

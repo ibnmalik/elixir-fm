@@ -4021,6 +4021,13 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCLA'
                            {- `others`  [ ".hadbA' Nh N0_Nh Nhy" ] -},
 
+    -- ;; {iHodiydAb_1
+    -- <HdydAb {iHodiydAb      NduAt   humped;kyphosis
+    -- AHdydAb {iHodiydAb      NduAt   humped;kyphosis
+
+    IFCICAL                   `noun`    {- AiHodiydAb -}       [ "humped", "kyphosis" ]
+                              `plural`     IFCICAL |< At,
+
     -- ;; muHad~ab_1
     -- mHdb    muHad~ab        N-ap    convex;arched     [[muHad~ab/ADJ]]
 
@@ -4029,7 +4036,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; muHad~ab_2
     -- mHdb    muHad~ab        Nall    hunchbacked
 
-    MuFaCCaL                  `noun`    {- muHad~ab -}         [ "hunchbacked" ] ]
+    MuFaCCaL                  `noun`    {- muHad~ab -}         [ "hunchbacked" ],
+
+    -- ;; muHodawodib_1
+    -- mHdwdb  muHodawodib     Nall    mounded;bowed upward;hunchbacked
+
+    MuFCawCiL                 `noun`    {- muHodawodib -}      [ "mounded", "bowed upward", "hunchbacked" ] ]
 
  |> ".h d d" <| [
 
@@ -11141,56 +11153,6 @@ lexicon = listing "Lexicon's properties"
 
     HaFCA'                    `noun`    {- OaHosA' -}          [ "Hasa (S.Ar.)" ] ]
 
- |> ".h t .t" <| [
-
-    -- ;; {iHotaT~_1
-    -- <HtT    {iHotaT~        PV_V    set down
-    -- AHtT    {iHotaT~        PV_V    set down
-    -- <HtTT   {iHotaTaT       PV_C    set down
-    -- AHtTT   {iHotaTaT       PV_C    set down
-    -- HtT     HotaT~  IV_V    set down
-    -- HtTT    HotaTiT IV_C    set down
-
-    IFCaLL                    `verb`    {- AiHotaT~ -}         [ "set down" ] ]
-
- |> ".h t ^g" <| [
-
-    -- ;; {iHotaj~_1
-    -- <Htj    {iHotaj~        PV_V    protest
-    -- AHtj    {iHotaj~        PV_V    protest
-    -- <Htjj   {iHotajaj       PV_C    protest
-    -- AHtjj   {iHotajaj       PV_C    protest
-    -- Htj     Hotaj~  IV_V    protest
-    -- Htjj    Hotajij IV_C    protest
-
-    IFCaLL                    `verb`    {- AiHotaj~ -}         [ "protest" ],
-
-    -- ;; {iHotijAj_1
-    -- <HtjAj  {iHotijAj       NduAt   protest
-    -- AHtjAj  {iHotijAj       NduAt   protest
-    -- <HtjAj  {iHotijAj       NF      protesting;in protest (of)     [[{iHotijAj/ADV]]
-    -- AHtjAj  {iHotijAj       NF      protesting;in protest (of)     [[{iHotijAj/ADV]]
-
-    IFCiLAL                   `adv`     {- AiHotijAj -}        [ "protest", "protesting", "in protest (of)" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; muHotaj~_1
-    -- mHtj    muHotaj~        Nall    protester
-
-    MuFCaLL                   `noun`    {- muHotaj~ -}         [ "protester" ] ]
-
- |> ".h t _t" <| [
-
-    -- ;; {iHotav~_1
-    -- <Htv    {iHotav~        PV_V    urge;incite
-    -- AHtv    {iHotav~        PV_V    urge;incite
-    -- <Htvv   {iHotavav       PV_C    urge;incite
-    -- AHtvv   {iHotavav       PV_C    urge;incite
-    -- Htv     Hotav~  IV_V    urge;incite
-    -- Htvv    Hotaviv IV_C    urge;incite
-
-    IFCaLL                    `verb`    {- AiHotav~ -}         [ "urge", "incite" ] ]
-
  |> ".h t d" <| [
 
     -- ;; Hatid-a_1
@@ -11208,22 +11170,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; maHotid_1
     -- mHtd    maHotid N       lineage;descent
 
-    MaFCiL                    `noun`    {- maHotid -}          [ "lineage", "descent" ],
-
-    -- ;; {iHotad~_1
-    -- <Htd    {iHotad~        PV_V_intr       be angry;be agitated
-    -- AHtd    {iHotad~        PV_V_intr       be angry;be agitated
-    -- <Htdd   {iHotadad       PV_C_intr       be angry;be agitated
-    -- AHtdd   {iHotadad       PV_C_intr       be angry;be agitated
-    -- Htd     Hotad~  IV_V_intr       be angry;be agitated
-    -- Htdd    Hotadid IV_C_intr       be angry;be agitated
-
-    IFCaLL                    `verb`    {- AiHotad~ -}         [ "be angry", "be agitated" ],
-
-    -- ;; muHotad~_1
-    -- mHtd    muHotad~        Nall    angry;furious     [[muHotad~/ADJ]]
-
-    MuFCaLL                   `adj`     {- muHotad~ -}         [ "angry", "furious" ] ]
+    MaFCiL                    `noun`    {- maHotid -}          [ "lineage", "descent" ] ]
 
  |> ".h t f" <| [
 
@@ -11233,17 +11180,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Hatof -}            [ "death", "deaths" ]
                               `plural`     FuCUL
-                           {- `others`  [ ".hutuwf N" ] -},
-
-    -- ;; {iHotaf~_1
-    -- <Htf    {iHotaf~        PV_V    surround
-    -- AHtf    {iHotaf~        PV_V    surround
-    -- <Htff   {iHotafaf       PV_C    surround
-    -- AHtff   {iHotafaf       PV_C    surround
-    -- Htf     Hotaf~  IV_V    surround
-    -- Htff    Hotafif IV_C    surround
-
-    IFCaLL                    `verb`    {- AiHotaf~ -}         [ "surround" ] ]
+                           {- `others`  [ ".hutuwf N" ] -} ]
 
  |> ".h t k" <| [
 
@@ -11252,61 +11189,7 @@ lexicon = listing "Lexicon's properties"
     -- Htk     Hotik   IV      scratch;scrape
 
     FaCaL                     `verb`    {- Hatak-i -}          [ "scratch", "scrape" ]
-                              `imperf`     FCiL,
-
-    -- ;; {iHotak~_1
-    -- <Htk    {iHotak~        PV_V    scrape;rub
-    -- AHtk    {iHotak~        PV_V    scrape;rub
-    -- <Htkk   {iHotakak       PV_C    scrape;rub
-    -- AHtkk   {iHotakak       PV_C    scrape;rub
-    -- Htk     Hotak~  IV_V    scrape;rub
-    -- Htkk    Hotakik IV_C    scrape;rub
-
-    IFCaLL                    `verb`    {- AiHotak~ -}         [ "scrape", "rub" ],
-
-    -- ;; {iHotikAk_1
-    -- <HtkAk  {iHotikAk       NduAt   friction
-    -- AHtkAk  {iHotikAk       NduAt   friction
-
-    IFCiLAL                   `noun`    {- AiHotikAk -}        [ "friction" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; {iHotikAkiy~_1
-    -- <HtkAky {iHotikAkiy~    Nall    frictional     [[{iHotikAkiy~/ADJ]]
-    -- AHtkAky {iHotikAkiy~    Nall    frictional     [[{iHotikAkiy~/ADJ]]
-
-    IFCiLAL |< Iy             `adj`     {- AiHotikAkiy~ -}     [ "frictional" ] ]
-
- |> ".h t l" <| [
-
-    -- ;; {iHotal~_1
-    -- <Htl    {iHotal~        PV_V    occupy
-    -- AHtl    {iHotal~        PV_V    occupy
-    -- <Htll   {iHotalal       PV_C    occupy
-    -- AHtll   {iHotalal       PV_C    occupy
-    -- Htl     Hotal~  IV_V    occupy
-    -- Htll    Hotalil IV_C    occupy
-
-    IFCaLL                    `verb`    {- AiHotal~ -}         [ "occupy" ],
-
-    -- ;; {iHotilAl_1
-    -- <HtlAl  {iHotilAl       NduAt   occupation
-    -- AHtlAl  {iHotilAl       NduAt   occupation
-
-    IFCiLAL                   `noun`    {- AiHotilAl -}        [ "occupation" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; {iHotilAliy~_1
-    -- <HtlAly {iHotilAliy~    Nall    occupying;occupation     [[{iHotilAliy~/ADJ]]
-    -- AHtlAly {iHotilAliy~    Nall    occupying;occupation     [[{iHotilAliy~/ADJ]]
-
-    IFCiLAL |< Iy             `adj`     {- AiHotilAliy~ -}     [ "occupying", "occupation" ],
-
-    -- ;; muHotal~_1
-    -- mHtl    muHotal~        Nall    occupying
-    -- mHtl    muHotal~        N-ap    occupied     [[muHotal~/ADJ]]
-
-    MuFCaLL                   `adj`     {- muHotal~ -}         [ "occupying", "occupied" ] ]
+                              `imperf`     FCiL ]
 
  |> ".h t m" <| [
 
@@ -11491,18 +11374,6 @@ lexicon = listing "Lexicon's properties"
     -- Hty     Hat~aY  FW-Wa   even;even though;although       [[Hat~aY/ADV]]
 
     FaCCY                     `adv`     {- Hat~aY -}           [ "even", "even though", "although" ] ]
-
- |> ".h t z" <| [
-
-    -- ;; {iHotaz~_1
-    -- <Htz    {iHotaz~        PV_V    notch;indent;cut
-    -- AHtz    {iHotaz~        PV_V    notch;indent;cut
-    -- <Htzz   {iHotazaz       PV_C    notch;indent;cut
-    -- AHtzz   {iHotazaz       PV_C    notch;indent;cut
-    -- Htz     Hotaz~  IV_V    notch;indent;cut
-    -- Htzz    Hotaziz IV_C    notch;indent;cut
-
-    IFCaLL                    `verb`    {- AiHotaz~ -}         [ "notch", "indent", "cut" ] ]
 
  |> ".h w '" <| [
 
@@ -14339,14 +14210,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- Huzuq~Aniy~ -}      [ "choleric" ] ]
 
- |> "i.hdiydAb" <| [
-
-    -- ;; {iHodiydAb_1
-    -- <HdydAb {iHodiydAb      NduAt   humped;kyphosis
-    -- AHdydAb {iHodiydAb      NduAt   humped;kyphosis
-
-    Identity                  `noun`    {- AiHodiydAb -}       [ "humped", "kyphosis" ] ]
-
  |> "mi.hwal^g" <| [
 
     -- ;; miHowalojiy~_1
@@ -14360,13 +14223,6 @@ lexicon = listing "Lexicon's properties"
     -- mHyA    muHay~A N0      Muhaya;Muhayya
 
     Identity                  `noun`    {- muHay~A -}          [ "Muhaya", "Muhayya" ] ]
-
- |> "mu.hdawdib" <| [
-
-    -- ;; muHodawodib_1
-    -- mHdwdb  muHodawodib     Nall    mounded;bowed upward;hunchbacked
-
-    Identity                  `noun`    {- muHodawodib -}      [ "mounded", "bowed upward", "hunchbacked" ] ]
 
  |> "mun.hAz" <| [
 

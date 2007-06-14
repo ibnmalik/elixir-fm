@@ -69,18 +69,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- Ourojuwzap -}       [ "rajaz poem", "work song", "rajaz poems", "work songs" ] ]
 
- |> "ir`iwA'" <| [
-
-    -- ;; {iroEiwA'_1
-    -- <rEwA'  {iroEiwA'       N0_Nh   desisting;repenting;refraining
-    -- <rEwA&  {iroEiwA&       Nh      desisting;repenting;refraining
-    -- <rEwA}  {iroEiwA}       Nhy     desisting;repenting;refraining
-    -- ArEwA'  {iroEiwA'       N0_Nh   desisting;repenting;refraining
-    -- ArEwA&  {iroEiwA&       Nh      desisting;repenting;refraining
-    -- ArEwA}  {iroEiwA}       Nhy     desisting;repenting;refraining
-
-    Identity                  `noun`    {- AiroEiwA' -}        [ "desisting", "repenting", "refraining" ] ]
-
  |> "mir'A" <| [
 
     -- ;; miro|ap_1
@@ -4676,7 +4664,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; raEawiy~ap_1
     -- rEwy    raEawiy~        Nap     citizenship;nationality     [[raEawiy~/NOUN]]
 
-    FaC |<< "awIy" |< aT      `noun`    {- raEawiy~ap -}       [ "citizenship", "nationality" ] ]
+    FaC |<< "awIy" |< aT      `noun`    {- raEawiy~ap -}       [ "citizenship", "nationality" ],
+
+    -- ;; {iroEiwA'_1
+    -- <rEwA'  {iroEiwA'       N0_Nh   desisting;repenting;refraining
+    -- <rEwA&  {iroEiwA&       Nh      desisting;repenting;refraining
+    -- <rEwA}  {iroEiwA}       Nhy     desisting;repenting;refraining
+    -- ArEwA'  {iroEiwA'       N0_Nh   desisting;repenting;refraining
+    -- ArEwA&  {iroEiwA&       Nh      desisting;repenting;refraining
+    -- ArEwA}  {iroEiwA}       Nhy     desisting;repenting;refraining
+
+    IFCiLA'                   `noun`    {- AiroEiwA' -}        [ "desisting", "repenting", "refraining" ] ]
 
  |> "r ` y" <| [
 
@@ -10782,36 +10780,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- ritAj -}            [ "gate", "gateway", "gates", "gateways" ]
                               `plural`     FuCuL
-                           {- `others`  [ "rutu^g N" ] -},
-
-    -- ;; {irotaj~_1
-    -- <rtj    {irotaj~        PV_V    shake;tremble;be blurred
-    -- Artj    {irotaj~        PV_V    shake;tremble;be blurred
-    -- <rtjj   {irotajaj       PV_C    shake;tremble;be blurred
-    -- Artjj   {irotajaj       PV_C    shake;tremble;be blurred
-    -- rtj     rotaj~  IV_V    shake;tremble;be blurred
-    -- rtjj    rotajij IV_C    shake;tremble;be blurred
-
-    IFCaLL                    `verb`    {- Airotaj~ -}         [ "shake", "tremble", "be blurred" ],
-
-    -- ;; {irotijAj_1
-    -- <rtjAj  {irotijAj       NduAt   trembling;shock
-    -- ArtjAj  {irotijAj       NduAt   trembling;shock
-
-    IFCiLAL                   `noun`    {- AirotijAj -}        [ "trembling", "shock" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; {irotijAj_2
-    -- <rtjAj  {irotijAj       NduAt   tremor;concussion
-    -- ArtjAj  {irotijAj       NduAt   tremor;concussion
-
-    IFCiLAL                   `noun`    {- AirotijAj -}        [ "tremor", "concussion" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; murotaj~_1
-    -- mrtj    murotaj~        Nall    shaking;trembling     [[murotaj~/ADJ]]
-
-    MuFCaLL                   `adj`     {- murotaj~ -}         [ "shaking", "trembling" ] ]
+                           {- `others`  [ "rutu^g N" ] -} ]
 
  |> "r t b" <| [
 
@@ -10904,30 +10873,6 @@ lexicon = listing "Lexicon's properties"
     -- mtrtb   mutarat~ib      Nall    arranged;organized;regulated     [[mutarat~ib/ADJ]]
 
     MutaFaCCiL                `adj`     {- mutarat~ib -}       [ "arranged", "organized", "regulated" ] ]
-
- |> "r t d" <| [
-
-    -- ;; {irotad~_1
-    -- <rtd    {irotad~        PV_V    revert;forsake;refrain
-    -- Artd    {irotad~        PV_V    revert;forsake;refrain
-    -- <rtdd   {irotadad       PV_C    revert;forsake;refrain
-    -- Artdd   {irotadad       PV_C    revert;forsake;refrain
-    -- rtd     rotad~  IV_V    revert;forsake;refrain
-    -- rtdd    rotadid IV_C    revert;forsake;refrain
-
-    IFCaLL                    `verb`    {- Airotad~ -}         [ "revert", "forsake", "refrain" ],
-
-    -- ;; {irotidAd_1
-    -- <rtdAd  {irotidAd       NduAt   retreat;renunciation
-    -- ArtdAd  {irotidAd       NduAt   retreat;renunciation
-
-    IFCiLAL                   `noun`    {- AirotidAd -}        [ "retreat", "renunciation" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; murotad~_1
-    -- mrtd    murotad~        Nall    renegade;apostate
-
-    MuFCaLL                   `noun`    {- murotad~ -}         [ "renegade", "apostate" ] ]
 
  |> "r t k" <| [
 

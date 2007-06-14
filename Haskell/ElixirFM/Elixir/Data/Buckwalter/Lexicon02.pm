@@ -8687,76 +8687,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'b t z' => [
-    {
-      'types' => {
-        'btaziz' => {
-          'IV_C' => 1
-        },
-        'btazz' => {
-          'IV_V' => 1
-        },
-        'ibtazaz' => {
-          'PV_C' => 2
-        }
-      },
-      'entry' => 'ibtazz',
-      'form' => 'ibtazz',
-      'lines' => [
-        ';; {ibotaz~_1',
-        '<btz    {ibotaz~        PV_V    embezzle;extort',
-        'Abtz    {ibotaz~        PV_V    embezzle;extort',
-        '<btzz   {ibotazaz       PV_C    embezzle;extort',
-        'Abtzz   {ibotazaz       PV_C    embezzle;extort',
-        'btz     botaz~  IV_V    embezzle;extort',
-        'btzz    botaziz IV_C    embezzle;extort'
-      ],
-      'patterns' => {
-        'btazz' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'embezzle',
-        'extort'
-      ],
-      'orig' => 'Aibotaz~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ibtizAz' => {
-          'NduAt' => 2
-        }
-      },
-      'entry' => 'ibtizAz',
-      'form' => 'ibtizAz',
-      'lines' => [
-        ';; {ibotizAz_1',
-        '<btzAz  {ibotizAz       NduAt   embezzlement;extortion',
-        'AbtzAz  {ibotizAz       NduAt   embezzlement;extortion'
-      ],
-      'patterns' => {
-        'ibtizAz' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [
-        'embezzlement',
-        'extortion'
-      ],
-      'orig' => 'AibotizAz',
-      'prefix' => ''
-    }
-  ],
   'biyuwrkmAn' => [
     {
       'types' => {},
@@ -29588,6 +29518,12 @@ $Lexicon = {
         'byDD    boyaDaD IV_C_intr       become white'
       ],
       'patterns' => {
+        'bya.da.d' => [
+          'FCaLaL'
+        ],
+        'ibya.da.d' => [
+          'IFCaLaL'
+        ],
         'bya.d.d' => [
           'FCaLL'
         ]
@@ -45805,27 +45741,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'balA^grA' => [
-    {
-      'types' => {},
-      'entry' => 'balA^grA',
-      'form' => 'balA^grA',
-      'lines' => [
-        ';; balAjrA_1',
-        'blAjrA  balAjrA N0      pellagra'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'pellagra'
-      ],
-      'orig' => 'balAjrA',
-      'prefix' => ''
-    }
-  ],
   'bAliyh' => [
     {
       'types' => {},
@@ -45874,6 +45789,27 @@ $Lexicon = {
         'pelican'
       ],
       'orig' => 'bajaE',
+      'prefix' => ''
+    }
+  ],
+  'balA^grA' => [
+    {
+      'types' => {},
+      'entry' => 'balA^grA',
+      'form' => 'balA^grA',
+      'lines' => [
+        ';; balAjrA_1',
+        'blAjrA  balAjrA N0      pellagra'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'pellagra'
+      ],
+      'orig' => 'balAjrA',
       'prefix' => ''
     }
   ],
@@ -47503,38 +47439,6 @@ $Lexicon = {
         'petal'
       ],
       'orig' => 'batalap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ibtall',
-      'form' => 'ibtall',
-      'lines' => [],
-      'patterns' => {
-        'btall' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Aibotal~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mubtall',
-      'form' => 'mubtall',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'mubotal~',
       'prefix' => ''
     }
   ],
@@ -56560,10 +56464,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'btaziz' => {
+          'IV_C' => 1
+        },
+        'btazz' => {
+          'IV_V' => 1
+        },
+        'ibtazaz' => {
+          'PV_C' => 2
+        }
+      },
       'entry' => 'ibtazz',
       'form' => 'ibtazz',
-      'lines' => [],
+      'lines' => [
+        ';; {ibotaz~_1',
+        '<btz    {ibotaz~        PV_V    embezzle;extort',
+        'Abtz    {ibotaz~        PV_V    embezzle;extort',
+        '<btzz   {ibotazaz       PV_C    embezzle;extort',
+        'Abtzz   {ibotazaz       PV_C    embezzle;extort',
+        'btz     botaz~  IV_V    embezzle;extort',
+        'btzz    botaziz IV_C    embezzle;extort'
+      ],
       'patterns' => {
         'btaziz' => [
           'FtaCiL'
@@ -56579,7 +56501,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'embezzle',
+        'extort'
+      ],
       'orig' => 'Aibotaz~',
       'prefix' => ''
     },
@@ -56768,10 +56693,18 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'ibtizAz' => {
+          'NduAt' => 2
+        }
+      },
       'entry' => 'ibtizAz',
       'form' => 'ibtizAz',
-      'lines' => [],
+      'lines' => [
+        ';; {ibotizAz_1',
+        '<btzAz  {ibotizAz       NduAt   embezzlement;extortion',
+        'AbtzAz  {ibotizAz       NduAt   embezzlement;extortion'
+      ],
       'patterns' => {
         'ibtizAz' => [
           'IFtiCAL'
@@ -56781,7 +56714,10 @@ $Lexicon = {
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'embezzlement',
+        'extortion'
+      ],
       'orig' => 'AibotizAz',
       'prefix' => ''
     }
@@ -61207,12 +61143,6 @@ $Lexicon->{'b y ^g'}[0]{'glosses'} = $Lexicon->{'b y ^g n'}[0]{'glosses'};
 $Lexicon->{'b w q'}[5]{'types'} = $Lexicon->{'b \' q'}[0]{'types'};
 $Lexicon->{'b w q'}[5]{'lines'} = $Lexicon->{'b \' q'}[0]{'lines'};
 $Lexicon->{'b w q'}[5]{'glosses'} = $Lexicon->{'b \' q'}[0]{'glosses'};
-$Lexicon->{'b t l'}[12]{'types'} = $Lexicon->{'b l l'}[5]{'types'};
-$Lexicon->{'b t l'}[12]{'lines'} = $Lexicon->{'b l l'}[5]{'lines'};
-$Lexicon->{'b t l'}[12]{'glosses'} = $Lexicon->{'b l l'}[5]{'glosses'};
-$Lexicon->{'b t l'}[13]{'types'} = $Lexicon->{'b l l'}[15]{'types'};
-$Lexicon->{'b t l'}[13]{'lines'} = $Lexicon->{'b l l'}[15]{'lines'};
-$Lexicon->{'b t l'}[13]{'glosses'} = $Lexicon->{'b l l'}[15]{'glosses'};
 $Lexicon->{'b w q l'}[0]{'types'} = $Lexicon->{'b q l'}[5]{'types'};
 $Lexicon->{'b w q l'}[0]{'lines'} = $Lexicon->{'b q l'}[5]{'lines'};
 $Lexicon->{'b w q l'}[0]{'glosses'} = $Lexicon->{'b q l'}[5]{'glosses'};
@@ -61346,12 +61276,6 @@ $Lexicon->{'b r r'}[17]{'glosses'} = $Lexicon->{'b r n'}[1]{'glosses'};
 $Lexicon->{'b n y n'}[0]{'types'} = $Lexicon->{'b n y'}[20]{'types'};
 $Lexicon->{'b n y n'}[0]{'lines'} = $Lexicon->{'b n y'}[20]{'lines'};
 $Lexicon->{'b n y n'}[0]{'glosses'} = $Lexicon->{'b n y'}[20]{'glosses'};
-$Lexicon->{'b z z'}[2]{'types'} = $Lexicon->{'b t z'}[0]{'types'};
-$Lexicon->{'b z z'}[2]{'lines'} = $Lexicon->{'b t z'}[0]{'lines'};
-$Lexicon->{'b z z'}[2]{'glosses'} = $Lexicon->{'b t z'}[0]{'glosses'};
-$Lexicon->{'b z z'}[11]{'types'} = $Lexicon->{'b t z'}[1]{'types'};
-$Lexicon->{'b z z'}[11]{'lines'} = $Lexicon->{'b t z'}[1]{'lines'};
-$Lexicon->{'b z z'}[11]{'glosses'} = $Lexicon->{'b t z'}[1]{'glosses'};
 $Lexicon->{'b q \''}[0]{'types'} = $Lexicon->{'b q y'}[5]{'types'};
 $Lexicon->{'b q \''}[0]{'lines'} = $Lexicon->{'b q y'}[5]{'lines'};
 $Lexicon->{'b q \''}[0]{'glosses'} = $Lexicon->{'b q y'}[5]{'glosses'};

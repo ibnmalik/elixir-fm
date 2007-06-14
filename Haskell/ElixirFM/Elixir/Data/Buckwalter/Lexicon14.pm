@@ -13356,96 +13356,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.s .t k' => [
-    {
-      'types' => {
-        '.s.takik' => {
-          'IV_C' => 1
-        },
-        '.s.takk' => {
-          'IV_V' => 1
-        },
-        'i.s.takak' => {
-          'PV_C' => 2
-        }
-      },
-      'entry' => 'i.s.takk',
-      'form' => 'i.s.takk',
-      'lines' => [
-        ';; {iSoTak~_1',
-        '<STk    {iSoTak~        PV_V    tremble;shake',
-        'ASTk    {iSoTak~        PV_V    tremble;shake',
-        '<STkk   {iSoTakak       PV_C    tremble;shake',
-        'ASTkk   {iSoTakak       PV_C    tremble;shake',
-        'STk     SoTak~  IV_V    tremble;shake',
-        'STkk    SoTakik IV_C    tremble;shake'
-      ],
-      'patterns' => {
-        '.s.takk' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'tremble',
-        'shake'
-      ],
-      'orig' => 'AiSoTak~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'i.s.tikAk' => {
-          'N/At' => 2
-        }
-      },
-      'entry' => 'i.s.tikAk',
-      'form' => 'i.s.tikAk',
-      'lines' => [
-        ';; {iSoTikAk_1',
-        '<STkAk  {iSoTikAk       N/At    trembling;shaking',
-        'ASTkAk  {iSoTikAk       N/At    trembling;shaking'
-      ],
-      'patterns' => {
-        'i.s.tikAk' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [
-        'trembling',
-        'shaking'
-      ],
-      'orig' => 'AiSoTikAk',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu.s.takk',
-      'form' => 'mu.s.takk',
-      'lines' => [
-        ';; muSoTak~_1',
-        'mSTk    muSoTak~        Nall    trembling;shaking     [[muSoTak~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'trembling',
-        'shaking'
-      ],
-      'orig' => 'muSoTak~',
-      'prefix' => ''
-    }
-  ],
   '.s \' d' => [
     {
       'types' => {
@@ -21189,8 +21099,14 @@ $Lexicon = {
         'Sfrr    Sofarir IV_C    turn yellow;become pale'
       ],
       'patterns' => {
+        '.sfarir' => [
+          'FCaLiL'
+        ],
         '.sfarr' => [
           'FCaLL'
+        ],
+        'i.sfarar' => [
+          'IFCaLaL'
         ]
       },
       'index' => '1',
@@ -22729,10 +22645,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '.s.takik' => {
+          'IV_C' => 1
+        },
+        '.s.takk' => {
+          'IV_V' => 1
+        },
+        'i.s.takak' => {
+          'PV_C' => 2
+        }
+      },
       'entry' => 'i.s.takk',
       'form' => 'i.s.takk',
-      'lines' => [],
+      'lines' => [
+        ';; {iSoTak~_1',
+        '<STk    {iSoTak~        PV_V    tremble;shake',
+        'ASTk    {iSoTak~        PV_V    tremble;shake',
+        '<STkk   {iSoTakak       PV_C    tremble;shake',
+        'ASTkk   {iSoTakak       PV_C    tremble;shake',
+        'STk     SoTak~  IV_V    tremble;shake',
+        'STkk    SoTakik IV_C    tremble;shake'
+      ],
       'patterns' => {
         '.s.takik' => [
           'FtaCiL'
@@ -22748,7 +22682,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'tremble',
+        'shake'
+      ],
       'orig' => 'AiSoTak~',
       'prefix' => ''
     },
@@ -22791,10 +22728,18 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'i.s.tikAk' => {
+          'N/At' => 2
+        }
+      },
       'entry' => 'i.s.tikAk',
       'form' => 'i.s.tikAk',
-      'lines' => [],
+      'lines' => [
+        ';; {iSoTikAk_1',
+        '<STkAk  {iSoTikAk       N/At    trembling;shaking',
+        'ASTkAk  {iSoTikAk       N/At    trembling;shaking'
+      ],
       'patterns' => {
         'i.s.tikAk' => [
           'IFtiCAL'
@@ -22804,7 +22749,10 @@ $Lexicon = {
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'trembling',
+        'shaking'
+      ],
       'orig' => 'AiSoTikAk',
       'prefix' => ''
     },
@@ -22812,13 +22760,19 @@ $Lexicon = {
       'types' => {},
       'entry' => 'mu.s.takk',
       'form' => 'mu.s.takk',
-      'lines' => [],
+      'lines' => [
+        ';; muSoTak~_1',
+        'mSTk    muSoTak~        Nall    trembling;shaking     [[muSoTak~/ADJ]]'
+      ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'trembling',
+        'shaking'
+      ],
       'orig' => 'muSoTak~',
       'prefix' => ''
     }
@@ -22911,47 +22865,6 @@ $Lexicon = {
         'spurs'
       ],
       'orig' => 'SiySiy~ap',
-      'prefix' => ''
-    }
-  ],
-  '.s .t f' => [
-    {
-      'types' => {
-        '.s.taff' => {
-          'IV_V' => 1
-        },
-        '.s.tafif' => {
-          'IV_C' => 1
-        },
-        'i.s.tafaf' => {
-          'PV_C' => 2
-        }
-      },
-      'entry' => 'i.s.taff',
-      'form' => 'i.s.taff',
-      'lines' => [
-        ';; {iSoTaf~_1',
-        '<STf    {iSoTaf~        PV_V    get in line;stand in formation',
-        'ASTf    {iSoTaf~        PV_V    get in line;stand in formation',
-        '<STff   {iSoTafaf       PV_C    get in line;stand in formation',
-        'ASTff   {iSoTafaf       PV_C    get in line;stand in formation',
-        'STf     SoTaf~  IV_V    get in line;stand in formation',
-        'STff    SoTafif IV_C    get in line;stand in formation'
-      ],
-      'patterns' => {
-        '.s.taff' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'get in line',
-        'stand in formation'
-      ],
-      'orig' => 'AiSoTaf~',
       'prefix' => ''
     }
   ],
@@ -28036,6 +27949,12 @@ $Lexicon = {
       'patterns' => {
         '.shabb' => [
           'FCaLL'
+        ],
+        '.shabib' => [
+          'FCaLiL'
+        ],
+        'i.shabab' => [
+          'IFCaLaL'
         ]
       },
       'index' => '1',
@@ -28074,6 +27993,12 @@ $Lexicon = {
       'patterns' => {
         '.shAbb' => [
           'FCALL'
+        ],
+        'i.shAbab' => [
+          'IFCALaL'
+        ],
+        '.shAbab' => [
+          'FCALaL'
         ]
       },
       'index' => '1',
@@ -28261,10 +28186,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '.s.taff' => {
+          'IV_V' => 1
+        },
+        '.s.tafif' => {
+          'IV_C' => 1
+        },
+        'i.s.tafaf' => {
+          'PV_C' => 2
+        }
+      },
       'entry' => 'i.s.taff',
       'form' => 'i.s.taff',
-      'lines' => [],
+      'lines' => [
+        ';; {iSoTaf~_1',
+        '<STf    {iSoTaf~        PV_V    get in line;stand in formation',
+        'ASTf    {iSoTaf~        PV_V    get in line;stand in formation',
+        '<STff   {iSoTafaf       PV_C    get in line;stand in formation',
+        'ASTff   {iSoTafaf       PV_C    get in line;stand in formation',
+        'STf     SoTaf~  IV_V    get in line;stand in formation',
+        'STff    SoTafif IV_C    get in line;stand in formation'
+      ],
       'patterns' => {
         '.s.taff' => [
           'FtaCL'
@@ -28280,7 +28223,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'get in line',
+        'stand in formation'
+      ],
       'orig' => 'AiSoTaf~',
       'prefix' => ''
     },
@@ -30588,15 +30534,6 @@ $Lexicon->{'.s w l'}[5]{'glosses'} = $Lexicon->{'.s \' l'}[1]{'glosses'};
 $Lexicon->{'.s w l'}[6]{'types'} = $Lexicon->{'.s \' l'}[2]{'types'};
 $Lexicon->{'.s w l'}[6]{'lines'} = $Lexicon->{'.s \' l'}[2]{'lines'};
 $Lexicon->{'.s w l'}[6]{'glosses'} = $Lexicon->{'.s \' l'}[2]{'glosses'};
-$Lexicon->{'.s k k'}[1]{'types'} = $Lexicon->{'.s .t k'}[0]{'types'};
-$Lexicon->{'.s k k'}[1]{'lines'} = $Lexicon->{'.s .t k'}[0]{'lines'};
-$Lexicon->{'.s k k'}[1]{'glosses'} = $Lexicon->{'.s .t k'}[0]{'glosses'};
-$Lexicon->{'.s k k'}[3]{'types'} = $Lexicon->{'.s .t k'}[1]{'types'};
-$Lexicon->{'.s k k'}[3]{'lines'} = $Lexicon->{'.s .t k'}[1]{'lines'};
-$Lexicon->{'.s k k'}[3]{'glosses'} = $Lexicon->{'.s .t k'}[1]{'glosses'};
-$Lexicon->{'.s k k'}[4]{'types'} = $Lexicon->{'.s .t k'}[2]{'types'};
-$Lexicon->{'.s k k'}[4]{'lines'} = $Lexicon->{'.s .t k'}[2]{'lines'};
-$Lexicon->{'.s k k'}[4]{'glosses'} = $Lexicon->{'.s .t k'}[2]{'glosses'};
 $Lexicon->{'.s \' .g'}[1]{'types'} = $Lexicon->{'.s w .g'}[4]{'types'};
 $Lexicon->{'.s \' .g'}[1]{'lines'} = $Lexicon->{'.s w .g'}[4]{'lines'};
 $Lexicon->{'.s \' .g'}[1]{'glosses'} = $Lexicon->{'.s w .g'}[4]{'glosses'};
@@ -30628,9 +30565,6 @@ $Lexicon->{'.s .h w'}[6]{'glosses'} = $Lexicon->{'.s .h y'}[1]{'glosses'};
 $Lexicon->{'.s .h w'}[7]{'types'} = $Lexicon->{'.s .h y'}[2]{'types'};
 $Lexicon->{'.s .h w'}[7]{'lines'} = $Lexicon->{'.s .h y'}[2]{'lines'};
 $Lexicon->{'.s .h w'}[7]{'glosses'} = $Lexicon->{'.s .h y'}[2]{'glosses'};
-$Lexicon->{'.s f f'}[3]{'types'} = $Lexicon->{'.s .t f'}[0]{'types'};
-$Lexicon->{'.s f f'}[3]{'lines'} = $Lexicon->{'.s .t f'}[0]{'lines'};
-$Lexicon->{'.s f f'}[3]{'glosses'} = $Lexicon->{'.s .t f'}[0]{'glosses'};
 $Lexicon->{'.s f f'}[13]{'types'} = $Lexicon->{'.s f w'}[7]{'types'};
 $Lexicon->{'.s f f'}[13]{'lines'} = $Lexicon->{'.s f w'}[7]{'lines'};
 $Lexicon->{'.s f f'}[13]{'glosses'} = $Lexicon->{'.s f w'}[7]{'glosses'};

@@ -891,42 +891,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACiL
                            {- `others`  [ "ma.sA.tib Ndip" ] -} ]
 
- |> ".s .t f" <| [
-
-    -- ;; {iSoTaf~_1
-    -- <STf    {iSoTaf~        PV_V    get in line;stand in formation
-    -- ASTf    {iSoTaf~        PV_V    get in line;stand in formation
-    -- <STff   {iSoTafaf       PV_C    get in line;stand in formation
-    -- ASTff   {iSoTafaf       PV_C    get in line;stand in formation
-    -- STf     SoTaf~  IV_V    get in line;stand in formation
-    -- STff    SoTafif IV_C    get in line;stand in formation
-
-    IFCaLL                    `verb`    {- AiSoTaf~ -}         [ "get in line", "stand in formation" ] ]
-
- |> ".s .t k" <| [
-
-    -- ;; {iSoTak~_1
-    -- <STk    {iSoTak~        PV_V    tremble;shake
-    -- ASTk    {iSoTak~        PV_V    tremble;shake
-    -- <STkk   {iSoTakak       PV_C    tremble;shake
-    -- ASTkk   {iSoTakak       PV_C    tremble;shake
-    -- STk     SoTak~  IV_V    tremble;shake
-    -- STkk    SoTakik IV_C    tremble;shake
-
-    IFCaLL                    `verb`    {- AiSoTak~ -}         [ "tremble", "shake" ],
-
-    -- ;; {iSoTikAk_1
-    -- <STkAk  {iSoTikAk       N/At    trembling;shaking
-    -- ASTkAk  {iSoTikAk       N/At    trembling;shaking
-
-    IFCiLAL                   `noun`    {- AiSoTikAk -}        [ "trembling", "shaking" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; muSoTak~_1
-    -- mSTk    muSoTak~        Nall    trembling;shaking     [[muSoTak~/ADJ]]
-
-    MuFCaLL                   `adj`     {- muSoTak~ -}         [ "trembling", "shaking" ] ]
-
  |> ".s .t l" <| [
 
     -- ;; maSoTuwl_1

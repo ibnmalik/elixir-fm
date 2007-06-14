@@ -133,7 +133,7 @@ data PatternQ =
         |   KuRDuS          |   KuRDU
 
         |   MuKaRDiS        |   MuKaRDI
-        |   MuKaRDaS        |   MuKaRDY         -- ???
+        |   MuKaRDaS        |   MuKaRDY
 
         |   KaRDAS
         |   KaRDIS
@@ -155,10 +155,10 @@ data PatternQ =
         |   TaKaRDaS        |   TaKaRDY
         |   TuKuRDiS        |   TuKuRDI
 
+        |   TaKaRDuS        |   TaKaRDI
+
         |   MutaKaRDiS      |   MutaKaRDI
         |   MutaKaRDaS      |   MutaKaRDY
-
-        |   TaKaRDuS        |   TaKaRDI         -- ???
 
 --  Form III
 
@@ -168,6 +168,11 @@ data PatternQ =
         |   KRanDiS         |   KRanDI
         |   KRanDaS         |   KRanDY
 
+        |   IKRinDAS
+
+        |   MuKRanDiS       |   MuKRanDI
+        |   MuKRanDaS       |   MuKRanDY
+
 --  Form IV
 
         |   IKRaDaSS        |   IKRaDSaS
@@ -175,6 +180,11 @@ data PatternQ =
 
         |   KRaDiSS         |   KRaDSiS
         |   KRaDaSS         |   KRaDSaS
+
+        |   IKRiDSAS
+
+        |   MuKRaDiSS
+        |   MuKRaDaSS
 
     deriving (Enum, Show, Eq)
 

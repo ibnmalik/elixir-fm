@@ -587,36 +587,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACI
                            {- `others`  [ ".dawA.hiy N0_Nh" ] -} ]
 
- |> ".d .t r" <| [
-
-    -- ;; {iDoTar~_1
-    -- <DTr    {iDoTar~        PV_V    compel;force;oblige
-    -- ADTr    {iDoTar~        PV_V    compel;force;oblige
-    -- <DTrr   {iDoTarar       PV_C    compel;force;oblige
-    -- ADTrr   {iDoTarar       PV_C    compel;force;oblige
-    -- DTr     DoTar~  IV_V    compel;force;oblige
-    -- DTrr    DoTarir IV_C    compel;force;oblige
-
-    IFCaLL                    `verb`    {- AiDoTar~ -}         [ "compel", "force", "oblige" ],
-
-    -- ;; {iDoTirAr_1
-    -- <DTrAr  {iDoTirAr       N/At    obligation;emergency;urgency
-    -- ADTrAr  {iDoTirAr       N/At    obligation;emergency;urgency
-
-    IFCiLAL                   `noun`    {- AiDoTirAr -}        [ "obligation", "emergency", "urgency" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; {iDoTirAriy~_1
-    -- <DTrAry {iDoTirAriy~    N-ap    obligatory;forced;emergency     [[{iDoTirAriy~/ADJ]]
-    -- ADTrAry {iDoTirAriy~    N-ap    obligatory;forced;emergency     [[{iDoTirAriy~/ADJ]]
-
-    IFCiLAL |< Iy             `adj`     {- AiDoTirAriy~ -}     [ "obligatory", "forced", "emergency" ],
-
-    -- ;; muDoTar~_1
-    -- mDTr    muDoTar~        Nall    compelled;forced;obligated     [[muDoTar~/ADJ]]
-
-    MuFCaLL                   `adj`     {- muDoTar~ -}         [ "compelled", "forced", "obligated" ] ]
-
  |> ".d ^g ^g" <| [
 
     -- ;; Daj~-i_1
@@ -1764,7 +1734,19 @@ lexicon = listing "Lexicon's properties"
     -- DmHl    DomaHil~        IV_V    disappear;vanish
     -- DmHll   DomaHolil       IV_C    disappear;vanish
 
-    IKRaDaSS                  `verb`    {- AiDomaHal~ -}       [ "disappear", "vanish" ] ]
+    IKRaDaSS                  `verb`    {- AiDomaHal~ -}       [ "disappear", "vanish" ],
+
+    -- ;; {iDomiHolAl_1
+    -- <DmHlAl {iDomiHolAl     N/At    disappearance;fading
+    -- ADmHlAl {iDomiHolAl     N/At    disappearance;fading
+
+    IKRiDSAS                  `noun`    {- AiDomiHolAl -}      [ "disappearance", "fading" ]
+                              `plural`     IKRiDSAS |< At,
+
+    -- ;; muDomaHil~_1
+    -- mDmHl   muDomaHil~      Nall    disappearing;fading     [[muDomaHil~/ADJ]]
+
+    MuKRaDiSS                 `adj`     {- muDomaHil~ -}       [ "disappearing", "fading" ] ]
 
  |> ".d m ^g" <| [
 
@@ -3737,27 +3719,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `verb`    {- AiD~ajaE -}         [ "lie down", "sleep" ] ]
 
- |> "i.dmi.hlAl" <| [
-
-    -- ;; {iDomiHolAl_1
-    -- <DmHlAl {iDomiHolAl     N/At    disappearance;fading
-    -- ADmHlAl {iDomiHolAl     N/At    disappearance;fading
-
-    Identity                  `noun`    {- AiDomiHolAl -}      [ "disappearance", "fading" ] ]
-
  |> "mu.d.da^ga`" <| [
 
     -- ;; muD~ajaE_1
     -- mDjE    muD~ajaE        N       couch
 
     Identity                  `noun`    {- muD~ajaE -}         [ "couch" ] ]
-
- |> "mu.dma.hill" <| [
-
-    -- ;; muDomaHil~_1
-    -- mDmHl   muDomaHil~      Nall    disappearing;fading     [[muDomaHil~/ADJ]]
-
-    Identity                  `adj`     {- muDomaHil~ -}       [ "disappearing", "fading" ] ]
 
  |> "muta.dAdd" <| [
 

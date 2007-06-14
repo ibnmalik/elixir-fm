@@ -781,14 +781,6 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- lisAn -}            [ "mouthpiece" ] ]
 
- |> "l t _d" <| [
-
-    IFCaLL                    `verb`    {- Ailota*~ -}         [ "be pleased", "be delighted" ] ]
-
- |> "l t f" <| [
-
-    IFCaLL                    `verb`    {- Ailotaf~ -}         [ "turn", "be wrapped" ] ]
-
  |> "l w '" <| [
 
     FiCAL                     `noun`    {- liwA' -}            [ "banner", "flag" ],

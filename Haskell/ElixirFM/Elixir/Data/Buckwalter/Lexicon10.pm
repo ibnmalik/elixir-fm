@@ -12618,8 +12618,14 @@ $Lexicon = {
         'rfDD    rofaDiD IV_C    drip;scatter;break up'
       ],
       'patterns' => {
+        'irfa.da.d' => [
+          'IFCaLaL'
+        ],
         'rfa.d.d' => [
           'FCaLL'
+        ],
+        'rfa.di.d' => [
+          'FCaLiL'
         ]
       },
       'index' => '1',
@@ -13720,74 +13726,6 @@ $Lexicon = {
         'gateways'
       ],
       'orig' => 'ritAj',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'irta^g^g',
-      'form' => 'irta^g^g',
-      'lines' => [],
-      'patterns' => {
-        'rta^g^g' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Airotaj~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'irti^gA^g',
-      'form' => 'irti^gA^g',
-      'lines' => [],
-      'patterns' => {
-        'irti^gA^g' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AirotijAj',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'irti^gA^g',
-      'form' => 'irti^gA^g',
-      'lines' => [],
-      'patterns' => {
-        'irti^gA^g' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AirotijAj',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'murta^g^g',
-      'form' => 'murta^g^g',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'murotaj~',
       'prefix' => ''
     }
   ],
@@ -17575,8 +17513,14 @@ $Lexicon = {
         'rbdd    robadid IV_C_intr       become ashen;glower'
       ],
       'patterns' => {
+        'irbadad' => [
+          'IFCaLaL'
+        ],
         'rbadd' => [
           'FCaLL'
+        ],
+        'rbadid' => [
+          'FCaLiL'
         ]
       },
       'index' => '1',
@@ -24594,58 +24538,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'r t d' => [
-    {
-      'types' => {},
-      'entry' => 'irtadd',
-      'form' => 'irtadd',
-      'lines' => [],
-      'patterns' => {
-        'rtadd' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Airotad~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'irtidAd',
-      'form' => 'irtidAd',
-      'lines' => [],
-      'patterns' => {
-        'irtidAd' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AirotidAd',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'murtadd',
-      'form' => 'murtadd',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'murotad~',
-      'prefix' => ''
-    }
-  ],
   'r y ^s' => [
     {
       'types' => {
@@ -29382,6 +29274,32 @@ $Lexicon = {
         'nationality'
       ],
       'orig' => 'raEawiy~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ir`iwA\'',
+      'form' => 'ir`iwA\'',
+      'lines' => [
+        ';; {iroEiwA\'_1',
+        '<rEwA\'  {iroEiwA\'       N0_Nh   desisting;repenting;refraining',
+        '<rEwA&  {iroEiwA&       Nh      desisting;repenting;refraining',
+        '<rEwA}  {iroEiwA}       Nhy     desisting;repenting;refraining',
+        'ArEwA\'  {iroEiwA\'       N0_Nh   desisting;repenting;refraining',
+        'ArEwA&  {iroEiwA&       Nh      desisting;repenting;refraining',
+        'ArEwA}  {iroEiwA}       Nhy     desisting;repenting;refraining'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IFCiLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'desisting',
+        'repenting',
+        'refraining'
+      ],
+      'orig' => 'AiroEiwA\'',
       'prefix' => ''
     }
   ],
@@ -42127,34 +42045,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ir`iwA\'' => [
-    {
-      'types' => {},
-      'entry' => 'ir`iwA\'',
-      'form' => 'ir`iwA\'',
-      'lines' => [
-        ';; {iroEiwA\'_1',
-        '<rEwA\'  {iroEiwA\'       N0_Nh   desisting;repenting;refraining',
-        '<rEwA&  {iroEiwA&       Nh      desisting;repenting;refraining',
-        '<rEwA}  {iroEiwA}       Nhy     desisting;repenting;refraining',
-        'ArEwA\'  {iroEiwA\'       N0_Nh   desisting;repenting;refraining',
-        'ArEwA&  {iroEiwA&       Nh      desisting;repenting;refraining',
-        'ArEwA}  {iroEiwA}       Nhy     desisting;repenting;refraining'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'desisting',
-        'repenting',
-        'refraining'
-      ],
-      'orig' => 'AiroEiwA\'',
-      'prefix' => ''
-    }
-  ],
   'r h q' => [
     {
       'types' => {
@@ -50386,6 +50276,171 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'r .g d' => [
+    {
+      'types' => {
+        'r.gud' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'ra.gud',
+      'form' => 'ra.gud',
+      'lines' => [
+        ';; ragud-u_1',
+        'rgd     ragud   PV_intr be pleasant;be carefree',
+        'rgd     rogud   IV_intr be pleasant;be carefree'
+      ],
+      'patterns' => {
+        'r.gud' => [
+          'FCuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCuL',
+      'glosses' => [
+        'be pleasant',
+        'be carefree'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'ragud-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'r.gad' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'ra.gid',
+      'form' => 'ra.gid',
+      'lines' => [
+        ';; ragid-a_1',
+        'rgd     ragid   PV_intr be pleasant;be carefree',
+        'rgd     rogad   IV_intr be pleasant;be carefree'
+      ],
+      'patterns' => {
+        'r.gad' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        'be pleasant',
+        'be carefree'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'ragid-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ra.gd',
+      'form' => 'ra.gd',
+      'lines' => [
+        ';; ragod_1',
+        'rgd     ragod   N/ap    pleasant;carefree'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'pleasant',
+        'carefree'
+      ],
+      'orig' => 'ragod',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ra.giyd',
+      'form' => 'ra.giyd',
+      'lines' => [
+        ';; ragiyd_1',
+        'rgyd    ragiyd  N/ap    pleasant;carefree     [[ragiyd/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        'pleasant',
+        'carefree'
+      ],
+      'orig' => 'ragiyd',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ra.gad',
+      'form' => 'ra.gad',
+      'lines' => [
+        ';; ragad_1',
+        'rgd     ragad   N       comfort;affluence'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'comfort',
+        'affluence'
+      ],
+      'orig' => 'ragad',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ra.gAd',
+      'form' => 'ra.gAdaT',
+      'lines' => [
+        ';; ragAdap_1',
+        'rgAd    ragAd   Nap     comfort;affluence'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'comfort',
+        'affluence'
+      ],
+      'orig' => 'ragAdap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'rA.gid',
+      'form' => 'rA.gidaT',
+      'lines' => [
+        ';; rAgidap_1',
+        'rAgdp   rAgidap Nprop   Raghida'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'Raghida'
+      ],
+      'orig' => 'rAgidap',
+      'prefix' => ''
+    }
+  ],
   'r q d' => [
     {
       'types' => {
@@ -50732,171 +50787,6 @@ $Lexicon = {
         'soporific'
       ],
       'orig' => 'muraq~id',
-      'prefix' => ''
-    }
-  ],
-  'r .g d' => [
-    {
-      'types' => {
-        'r.gud' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'ra.gud',
-      'form' => 'ra.gud',
-      'lines' => [
-        ';; ragud-u_1',
-        'rgd     ragud   PV_intr be pleasant;be carefree',
-        'rgd     rogud   IV_intr be pleasant;be carefree'
-      ],
-      'patterns' => {
-        'r.gud' => [
-          'FCuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCuL',
-      'glosses' => [
-        'be pleasant',
-        'be carefree'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'ragud-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'r.gad' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'ra.gid',
-      'form' => 'ra.gid',
-      'lines' => [
-        ';; ragid-a_1',
-        'rgd     ragid   PV_intr be pleasant;be carefree',
-        'rgd     rogad   IV_intr be pleasant;be carefree'
-      ],
-      'patterns' => {
-        'r.gad' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCiL',
-      'glosses' => [
-        'be pleasant',
-        'be carefree'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'ragid-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ra.gd',
-      'form' => 'ra.gd',
-      'lines' => [
-        ';; ragod_1',
-        'rgd     ragod   N/ap    pleasant;carefree'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'pleasant',
-        'carefree'
-      ],
-      'orig' => 'ragod',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ra.giyd',
-      'form' => 'ra.giyd',
-      'lines' => [
-        ';; ragiyd_1',
-        'rgyd    ragiyd  N/ap    pleasant;carefree     [[ragiyd/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCIL',
-      'suffix' => '',
-      'glosses' => [
-        'pleasant',
-        'carefree'
-      ],
-      'orig' => 'ragiyd',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ra.gad',
-      'form' => 'ra.gad',
-      'lines' => [
-        ';; ragad_1',
-        'rgd     ragad   N       comfort;affluence'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'comfort',
-        'affluence'
-      ],
-      'orig' => 'ragad',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ra.gAd',
-      'form' => 'ra.gAdaT',
-      'lines' => [
-        ';; ragAdap_1',
-        'rgAd    ragAd   Nap     comfort;affluence'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'comfort',
-        'affluence'
-      ],
-      'orig' => 'ragAdap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'rA.gid',
-      'form' => 'rA.gidaT',
-      'lines' => [
-        ';; rAgidap_1',
-        'rAgdp   rAgidap Nprop   Raghida'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACiL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'Raghida'
-      ],
-      'orig' => 'rAgidap',
       'prefix' => ''
     }
   ],
@@ -53629,18 +53519,6 @@ $Lexicon->{'r _h \''}[3]{'glosses'} = $Lexicon->{'r _h w'}[14]{'glosses'};
 $Lexicon->{'r f f'}[5]{'types'} = $Lexicon->{'r f y'}[0]{'types'};
 $Lexicon->{'r f f'}[5]{'lines'} = $Lexicon->{'r f y'}[0]{'lines'};
 $Lexicon->{'r f f'}[5]{'glosses'} = $Lexicon->{'r f y'}[0]{'glosses'};
-$Lexicon->{'r t ^g'}[4]{'types'} = $Lexicon->{'r ^g ^g'}[1]{'types'};
-$Lexicon->{'r t ^g'}[4]{'lines'} = $Lexicon->{'r ^g ^g'}[1]{'lines'};
-$Lexicon->{'r t ^g'}[4]{'glosses'} = $Lexicon->{'r ^g ^g'}[1]{'glosses'};
-$Lexicon->{'r t ^g'}[5]{'types'} = $Lexicon->{'r ^g ^g'}[5]{'types'};
-$Lexicon->{'r t ^g'}[5]{'lines'} = $Lexicon->{'r ^g ^g'}[5]{'lines'};
-$Lexicon->{'r t ^g'}[5]{'glosses'} = $Lexicon->{'r ^g ^g'}[5]{'glosses'};
-$Lexicon->{'r t ^g'}[6]{'types'} = $Lexicon->{'r ^g ^g'}[6]{'types'};
-$Lexicon->{'r t ^g'}[6]{'lines'} = $Lexicon->{'r ^g ^g'}[6]{'lines'};
-$Lexicon->{'r t ^g'}[6]{'glosses'} = $Lexicon->{'r ^g ^g'}[6]{'glosses'};
-$Lexicon->{'r t ^g'}[7]{'types'} = $Lexicon->{'r ^g ^g'}[7]{'types'};
-$Lexicon->{'r t ^g'}[7]{'lines'} = $Lexicon->{'r ^g ^g'}[7]{'lines'};
-$Lexicon->{'r t ^g'}[7]{'glosses'} = $Lexicon->{'r ^g ^g'}[7]{'glosses'};
 $Lexicon->{'r \' d'}[2]{'types'} = $Lexicon->{'r w d'}[11]{'types'};
 $Lexicon->{'r \' d'}[2]{'lines'} = $Lexicon->{'r w d'}[11]{'lines'};
 $Lexicon->{'r \' d'}[2]{'glosses'} = $Lexicon->{'r w d'}[11]{'glosses'};
@@ -53680,15 +53558,6 @@ $Lexicon->{'r .d y'}[16]{'glosses'} = $Lexicon->{'r .d \''}[2]{'glosses'};
 $Lexicon->{'r .d y'}[17]{'types'} = $Lexicon->{'r .d \''}[3]{'types'};
 $Lexicon->{'r .d y'}[17]{'lines'} = $Lexicon->{'r .d \''}[3]{'lines'};
 $Lexicon->{'r .d y'}[17]{'glosses'} = $Lexicon->{'r .d \''}[3]{'glosses'};
-$Lexicon->{'r t d'}[0]{'types'} = $Lexicon->{'r d d'}[3]{'types'};
-$Lexicon->{'r t d'}[0]{'lines'} = $Lexicon->{'r d d'}[3]{'lines'};
-$Lexicon->{'r t d'}[0]{'glosses'} = $Lexicon->{'r d d'}[3]{'glosses'};
-$Lexicon->{'r t d'}[1]{'types'} = $Lexicon->{'r d d'}[15]{'types'};
-$Lexicon->{'r t d'}[1]{'lines'} = $Lexicon->{'r d d'}[15]{'lines'};
-$Lexicon->{'r t d'}[1]{'glosses'} = $Lexicon->{'r d d'}[15]{'glosses'};
-$Lexicon->{'r t d'}[2]{'types'} = $Lexicon->{'r d d'}[19]{'types'};
-$Lexicon->{'r t d'}[2]{'lines'} = $Lexicon->{'r d d'}[19]{'lines'};
-$Lexicon->{'r t d'}[2]{'glosses'} = $Lexicon->{'r d d'}[19]{'glosses'};
 $Lexicon->{'r n y'}[2]{'types'} = $Lexicon->{'r w n y'}[0]{'types'};
 $Lexicon->{'r n y'}[2]{'lines'} = $Lexicon->{'r w n y'}[0]{'lines'};
 $Lexicon->{'r n y'}[2]{'glosses'} = $Lexicon->{'r w n y'}[0]{'glosses'};

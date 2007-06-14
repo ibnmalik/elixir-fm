@@ -9944,19 +9944,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; ma>otamap_1
     -- m>tm    ma>otam NapAt   mourners
 
-    MaFCaL |< aT              `noun`    {- maOotamap -}        [ "mourners" ],
-
-    -- ;; {i}otam~_1
-    -- <}tm    {i}otam~        PV_V    emulate;follow
-    -- A}tm    {i}otam~        PV_V    emulate;follow
-    -- <}tmm   {i}otamam       PV_C    emulate;follow
-    -- A}tmm   {i}otamam       PV_C    emulate;follow
-    -- >tm     >otam~  IV_V_no-Pref-A  emulate;follow
-    -- Atm     >otam~  IV_V_no-Pref-A  emulate;follow
-    -- >tmm    >otamim IV_C    emulate;follow
-    -- Atmm    >otamim IV_C    emulate;follow
-
-    IFCaLL                    `verb`    {- Ai}otam~ -}         [ "emulate", "follow" ] ]
+    MaFCaL |< aT              `noun`    {- maOotamap -}        [ "mourners" ] ]
 
  |> "' t n" <| [
 

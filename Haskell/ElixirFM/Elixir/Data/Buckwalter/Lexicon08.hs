@@ -3606,7 +3606,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; daloham_1
     -- dlhm    daloham N       ark;gloomy
 
-    KaRDaS                    `noun`    {- daloham -}          [ "ark", "gloomy" ] ]
+    KaRDaS                    `noun`    {- daloham -}          [ "ark", "gloomy" ],
+
+    -- ;; {idolihomAm_1
+    -- <dlhmAm {idolihomAm     N/At    deep black
+    -- AdlhmAm {idolihomAm     N/At    deep black
+
+    IKRiDSAS                  `noun`    {- AidolihomAm -}      [ "deep black" ]
+                              `plural`     IKRiDSAS |< At,
+
+    -- ;; mudolahim~_1
+    -- mdlhm   mudolahim~      Nall    dark;gloomy;pitch-black     [[mudolahim~/ADJ]]
+
+    MuKRaDiSS                 `adj`     {- mudolahim~ -}       [ "dark", "gloomy", "pitch-black" ] ]
 
  |> "d l h y" <| [
 
@@ -9466,14 +9478,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dwdAyf -}           [ "Dudayev" ] ]
 
- |> "idlihmAm" <| [
-
-    -- ;; {idolihomAm_1
-    -- <dlhmAm {idolihomAm     N/At    deep black
-    -- AdlhmAm {idolihomAm     N/At    deep black
-
-    Identity                  `noun`    {- AidolihomAm -}      [ "deep black" ] ]
-
  |> "midfa`^g" <| [
 
     -- ;; midofaEjiy~_1
@@ -9492,13 +9496,6 @@ lexicon = listing "Lexicon's properties"
     -- mdAr    madAr   NK      punting poles
 
     Identity |< aT            `noun`    {- midrap -}           [ "punting pole", "punting poles" ] ]
-
- |> "mudlahimm" <| [
-
-    -- ;; mudolahim~_1
-    -- mdlhm   mudolahim~      Nall    dark;gloomy;pitch-black     [[mudolahim~/ADJ]]
-
-    Identity                  `adj`     {- mudolahim~ -}       [ "dark", "gloomy", "pitch-black" ] ]
 
  |> "tadmuriy" <| [
 

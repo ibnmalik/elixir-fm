@@ -8629,30 +8629,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- matoH -}            [ "drawing from a well" ] ]
 
- |> "m t .s" <| [
-
-    -- ;; {imotaS~_1
-    -- <mtS    {imotaS~        PV_V    absorb;sip;lap up
-    -- AmtS    {imotaS~        PV_V    absorb;sip;lap up
-    -- <mtSS   {imotaSaS       PV_C    absorb;sip;lap up
-    -- AmtSS   {imotaSaS       PV_C    absorb;sip;lap up
-    -- mtS     motaS~  IV_V    absorb;sip;lap up
-    -- mtSS    motaSiS IV_C    absorb;sip;lap up
-
-    IFCaLL                    `verb`    {- AimotaS~ -}         [ "absorb", "sip", "lap up" ],
-
-    -- ;; {imotiSAS_1
-    -- <mtSAS  {imotiSAS       N/At    absorption;suction
-    -- AmtSAS  {imotiSAS       N/At    absorption;suction
-
-    IFCiLAL                   `noun`    {- AimotiSAS -}        [ "absorption", "suction" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; mumotaS~_1
-    -- mmtS    mumotaS~        N-ap    absorbing;absorbent
-
-    MuFCaLL                   `noun`    {- mumotaS~ -}         [ "absorbing", "absorbent" ] ]
-
  |> "m t `" <| [
 
     -- ;; mataE-a_1
@@ -8751,37 +8727,6 @@ lexicon = listing "Lexicon's properties"
 
     MuFCiL                    `adj`     {- mumotiE -}          [ "pleasing", "gratifying" ] ]
 
- |> "m t d" <| [
-
-    -- ;; {imotad~_1
-    -- <mtd    {imotad~        PV_V    extend;reach;spread
-    -- Amtd    {imotad~        PV_V    extend;reach;spread
-    -- <mtdd   {imotadad       PV_C    extend;reach;spread
-    -- Amtdd   {imotadad       PV_C    extend;reach;spread
-    -- mtd     motad~  IV_V    extend;reach;spread
-    -- mtdd    motadid IV_C    extend;reach;spread
-
-    IFCaLL                    `verb`    {- Aimotad~ -}         [ "extend", "reach", "spread" ],
-
-    -- ;; {imotidAd_1
-    -- <mtdAd  {imotidAd       N/At    extension;expansion
-    -- AmtdAd  {imotidAd       N/At    extension;expansion
-
-    IFCiLAL                   `noun`    {- AimotidAd -}        [ "extension", "expansion" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; {imotidAd_2
-    -- <mtdAd  {imotidAd       N/At    extent;scope
-    -- AmtdAd  {imotidAd       N/At    extent;scope
-
-    IFCiLAL                   `noun`    {- AimotidAd -}        [ "extent", "scope" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; mumotad~_1
-    -- mmtd    mumotad~        Nall    stretching;spreading;extending     [[mumotad~/ADJ]]
-
-    MuFCaLL                   `adj`     {- mumotad~ -}         [ "stretching", "spreading", "extending" ] ]
-
  |> "m t k" <| [
 
     -- ;; matok_1
@@ -8793,18 +8738,6 @@ lexicon = listing "Lexicon's properties"
     -- mtk     mutok   N       proboscis;trunk
 
     FuCL                      `noun`    {- mutok -}            [ "proboscis", "trunk" ] ]
-
- |> "m t l" <| [
-
-    -- ;; {imotal~_1
-    -- <mtl    {imotal~        PV_V    convert to;embrace a religion
-    -- Amtl    {imotal~        PV_V    convert to;embrace a religion
-    -- <mtll   {imotalal       PV_C    convert to;embrace a religion
-    -- Amtll   {imotalal       PV_C    convert to;embrace a religion
-    -- mtl     motal~  IV_V    convert to;embrace a religion
-    -- mtll    motalil IV_C    convert to;embrace a religion
-
-    IFCaLL                    `verb`    {- Aimotal~ -}         [ "convert to", "embrace a religion" ] ]
 
  |> "m t n" <| [
 
@@ -8912,25 +8845,6 @@ lexicon = listing "Lexicon's properties"
     -- mtY     mat~aY  Nprop   Matthew
 
     FaCCY                     `noun`    {- mat~aY -}           [ "Matthew" ] ]
-
- |> "m t z" <| [
-
-    -- ;; {imotaz~_1
-    -- <mtz    {imotaz~        PV_V    adsorb;accumulate on the surface
-    -- Amtz    {imotaz~        PV_V    adsorb;accumulate on the surface
-    -- <mtzz   {imotazaz       PV_C    adsorb;accumulate on the surface
-    -- Amtzz   {imotazaz       PV_C    adsorb;accumulate on the surface
-    -- mtz     motaz~  IV_V    adsorb;accumulate on the surface
-    -- mtzz    motaziz IV_C    adsorb;accumulate on the surface
-
-    IFCaLL                    `verb`    {- Aimotaz~ -}         [ "adsorb", "accumulate on the surface" ],
-
-    -- ;; {imotizAz_1
-    -- <mtzAz  {imotizAz       N/At    adsorption (surface accumulation)
-    -- AmtzAz  {imotizAz       N/At    adsorption (surface accumulation)
-
-    IFCiLAL                   `noun`    {- AimotizAz -}        [ "adsorption (surface accumulation)" ]
-                              `plural`     IFCiLAL |< At ]
 
  |> "m w '" <| [
 

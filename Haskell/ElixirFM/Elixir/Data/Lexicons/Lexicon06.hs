@@ -1974,36 +1974,11 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL                    `adj`     {- maHosuws -}         [ "noticeable", "perceptible" ] ]
 
- |> ".h t ^g" <| [
-
-    IFCaLL                    `verb`    {- AiHotaj~ -}         [ "protest" ],
-
-    IFCiLAL                   `adv`     {- AiHotijAj -}        [ "protest", "protesting", "in protest (of)" ]
-                              `plural`     IFCiLAL |< At ]
-
- |> ".h t d" <| [
-
-    IFCaLL                    `verb`    {- AiHotad~ -}         [ "be angry", "be agitated" ] ]
-
  |> ".h t f" <| [
 
     FaCL                      `noun`    {- Hatof -}            [ "death", "deaths" ]
                               `plural`     FuCUL
                            {- `others`  [ ".hutuwf N" ] -} ]
-
- |> ".h t k" <| [
-
-    IFCiLAL                   `noun`    {- AiHotikAk -}        [ "friction" ]
-                              `plural`     IFCiLAL |< At ]
-
- |> ".h t l" <| [
-
-    IFCaLL                    `verb`    {- AiHotal~ -}         [ "occupy" ],
-
-    IFCiLAL                   `noun`    {- AiHotilAl -}        [ "occupation" ]
-                              `plural`     IFCiLAL |< At,
-
-    MuFCaLL                   `adj`     {- muHotal~ -}         [ "occupying", "occupied" ] ]
 
  |> ".h t m" <| [
 

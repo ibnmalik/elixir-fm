@@ -939,12 +939,6 @@ lexicon = listing "Lexicon's properties"
 
     KaRADiS |< Iy             `adj`     {- katA}ibiy~ -}       [ "Phalangist" ] ]
 
- |> "k t .z" <| [
-
-    IFCiLAL                   `adj`     {- AikotiZAZ -}        [ "overcrowding", "overfilling", "overcrowded", "jam-packed" ]
-                              `plural`     MuFCaLL |< aT
-                              `plural`     IFCiLAL |< At ]
-
  |> "k t b" <| [
 
     FaCaL                     `verb`    {- katab-u -}          [ "write", "be written", "be fated", "be destined" ]

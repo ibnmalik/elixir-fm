@@ -2813,7 +2813,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; Tamo>anap_1
     -- Tm>n    Tamo>an Nap     pacifying;calming;reassuring
 
-    KaRDaS |< aT              `noun`    {- TamoOanap -}        [ "pacifying", "calming", "reassuring" ] ]
+    KaRDaS |< aT              `noun`    {- TamoOanap -}        [ "pacifying", "calming", "reassuring" ],
+
+    -- ;; {iTomi}onAn_1
+    -- <Tm}nAn {iTomi}onAn     N/At    tranquillity;serenity
+    -- ATm}nAn {iTomi}onAn     N/At    tranquillity;serenity
+
+    IKRiDSAS                  `noun`    {- AiTomi}onAn -}      [ "tranquillity", "serenity" ]
+                              `plural`     IKRiDSAS |< At,
+
+    -- ;; muToma}in~_1
+    -- mTm}n   muToma}in~      Nall    calm;at ease     [[muToma}in~/ADJ]]
+
+    MuKRaDiSS                 `adj`     {- muToma}in~ -}       [ "calm", "at ease" ] ]
 
  |> ".t m .h" <| [
 
@@ -6576,14 +6588,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- Tuwrobiyniy~ -}     [ "turbine", "turbo" ] ]
 
- |> "i.tmi'nAn" <| [
-
-    -- ;; {iTomi}onAn_1
-    -- <Tm}nAn {iTomi}onAn     N/At    tranquillity;serenity
-    -- ATm}nAn {iTomi}onAn     N/At    tranquillity;serenity
-
-    Identity                  `noun`    {- AiTomi}onAn -}      [ "tranquillity", "serenity" ] ]
-
  |> "ma.tba`^g" <| [
 
     -- ;; maTobaEojiy~_1
@@ -6597,13 +6601,6 @@ lexicon = listing "Lexicon's properties"
     -- mnTAr   minoTAr N0      Mintar
 
     Identity                  `noun`    {- minoTAr -}          [ "Mintar" ] ]
-
- |> "mu.tma'inn" <| [
-
-    -- ;; muToma}in~_1
-    -- mTm}n   muToma}in~      Nall    calm;at ease     [[muToma}in~/ADJ]]
-
-    Identity                  `adj`     {- muToma}in~ -}       [ "calm", "at ease" ] ]
 
  |> "mun.tAd" <| [
 

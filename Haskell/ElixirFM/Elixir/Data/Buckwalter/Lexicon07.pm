@@ -7021,47 +7021,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_h t z' => [
-    {
-      'types' => {
-        '_htaziz' => {
-          'IV_C' => 1
-        },
-        '_htazz' => {
-          'IV_V' => 1
-        },
-        'i_htazaz' => {
-          'PV_C' => 2
-        }
-      },
-      'entry' => 'i_htazz',
-      'form' => 'i_htazz',
-      'lines' => [
-        ';; {ixotaz~_1',
-        '<xtz    {ixotaz~        PV_V    pierce;stab',
-        'Axtz    {ixotaz~        PV_V    pierce;stab',
-        '<xtzz   {ixotazaz       PV_C    pierce;stab',
-        'Axtzz   {ixotazaz       PV_C    pierce;stab',
-        'xtz     xotaz~  IV_V    pierce;stab',
-        'xtzz    xotaziz IV_C    pierce;stab'
-      ],
-      'patterns' => {
-        '_htazz' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'pierce',
-        'stab'
-      ],
-      'orig' => 'Aixotaz~',
-      'prefix' => ''
-    }
-  ],
   '_h ^s ^s' => [
     {
       'types' => {
@@ -10384,116 +10343,6 @@ $Lexicon = {
         'productive'
       ],
       'orig' => 'muxoSib',
-      'prefix' => ''
-    }
-  ],
-  '_h t .s' => [
-    {
-      'types' => {
-        '_hta.s.s' => {
-          'IV_V' => 1
-        },
-        'i_hta.sa.s' => {
-          'PV_C' => 2
-        },
-        '_hta.si.s' => {
-          'IV_C' => 1
-        }
-      },
-      'entry' => 'i_hta.s.s',
-      'form' => 'i_hta.s.s',
-      'lines' => [
-        ';; {ixotaS~_1',
-        '<xtS    {ixotaS~        PV_V    dedicate;be distinguished',
-        'AxtS    {ixotaS~        PV_V    dedicate;be distinguished',
-        '<xtSS   {ixotaSaS       PV_C    dedicate;be distinguished',
-        'AxtSS   {ixotaSaS       PV_C    dedicate;be distinguished',
-        'xtS     xotaS~  IV_V    dedicate;be distinguished',
-        'xtSS    xotaSiS IV_C    dedicate;be distinguished'
-      ],
-      'patterns' => {
-        '_hta.s.s' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'dedicate',
-        'be distinguished'
-      ],
-      'orig' => 'AixotaS~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'i_hti.sA.s' => {
-          'NduAt' => 2
-        }
-      },
-      'entry' => 'i_hti.sA.s',
-      'form' => 'i_hti.sA.s',
-      'lines' => [
-        ';; {ixotiSAS_1',
-        '<xtSAS  {ixotiSAS       NduAt   jurisdiction;bailiwick',
-        'AxtSAS  {ixotiSAS       NduAt   jurisdiction;bailiwick'
-      ],
-      'patterns' => {
-        'i_hti.sA.s' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [
-        'jurisdiction',
-        'bailiwick'
-      ],
-      'orig' => 'AixotiSAS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'i_hti.sA.s',
-      'form' => 'i_hti.sA.siyy',
-      'lines' => [
-        ';; {ixotiSASiy~_1',
-        '<xtSASy {ixotiSASiy~    Nall    specialist     [[{ixotiSASiy~/ADJ]]',
-        'AxtSASy {ixotiSASiy~    Nall    specialist     [[{ixotiSASiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'IFCiLAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'specialist'
-      ],
-      'orig' => 'AixotiSASiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_hta.s.s',
-      'form' => 'mu_hta.s.s',
-      'lines' => [
-        ';; muxotaS~_1',
-        'mxtS    muxotaS~        Nall    responsible;competent'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'responsible',
-        'competent'
-      ],
-      'orig' => 'muxotaS~',
       'prefix' => ''
     }
   ],
@@ -15154,56 +15003,6 @@ $Lexicon = {
       ],
       'orig' => 'muxAtil',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'i_htall',
-      'form' => 'i_htall',
-      'lines' => [],
-      'patterns' => {
-        '_htall' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Aixotal~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'i_htilAl',
-      'form' => 'i_htilAl',
-      'lines' => [],
-      'patterns' => {
-        'i_htilAl' => [
-          'IFCiLAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFCiLAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AixotilAl',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_htall',
-      'form' => 'mu_htall',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFCaLL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'muxotal~',
-      'prefix' => ''
     }
   ],
   '_huwfw' => [
@@ -16155,6 +15954,12 @@ $Lexicon = {
       'patterns' => {
         '_h.dall' => [
           'FCaLL'
+        ],
+        'i_h.dalal' => [
+          'IFCaLaL'
+        ],
+        '_h.dalil' => [
+          'FCaLiL'
         ]
       },
       'index' => '1',
@@ -16661,10 +16466,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '_hta.s.s' => {
+          'IV_V' => 1
+        },
+        'i_hta.sa.s' => {
+          'PV_C' => 2
+        },
+        '_hta.si.s' => {
+          'IV_C' => 1
+        }
+      },
       'entry' => 'i_hta.s.s',
       'form' => 'i_hta.s.s',
-      'lines' => [],
+      'lines' => [
+        ';; {ixotaS~_1',
+        '<xtS    {ixotaS~        PV_V    dedicate;be distinguished',
+        'AxtS    {ixotaS~        PV_V    dedicate;be distinguished',
+        '<xtSS   {ixotaSaS       PV_C    dedicate;be distinguished',
+        'AxtSS   {ixotaSaS       PV_C    dedicate;be distinguished',
+        'xtS     xotaS~  IV_V    dedicate;be distinguished',
+        'xtSS    xotaSiS IV_C    dedicate;be distinguished'
+      ],
       'patterns' => {
         'i_hta.sa.s' => [
           'IFtaCaL'
@@ -16680,7 +16503,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'dedicate',
+        'be distinguished'
+      ],
       'orig' => 'AixotaS~',
       'prefix' => ''
     },
@@ -17007,10 +16833,18 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'i_hti.sA.s' => {
+          'NduAt' => 2
+        }
+      },
       'entry' => 'i_hti.sA.s',
       'form' => 'i_hti.sA.s',
-      'lines' => [],
+      'lines' => [
+        ';; {ixotiSAS_1',
+        '<xtSAS  {ixotiSAS       NduAt   jurisdiction;bailiwick',
+        'AxtSAS  {ixotiSAS       NduAt   jurisdiction;bailiwick'
+      ],
       'patterns' => {
         'i_hti.sA.s' => [
           'IFtiCAL'
@@ -17020,7 +16854,10 @@ $Lexicon = {
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'jurisdiction',
+        'bailiwick'
+      ],
       'orig' => 'AixotiSAS',
       'prefix' => ''
     },
@@ -17028,13 +16865,19 @@ $Lexicon = {
       'types' => {},
       'entry' => 'i_hti.sA.s',
       'form' => 'i_hti.sA.siyy',
-      'lines' => [],
+      'lines' => [
+        ';; {ixotiSASiy~_1',
+        '<xtSASy {ixotiSASiy~    Nall    specialist     [[{ixotiSASiy~/ADJ]]',
+        'AxtSASy {ixotiSASiy~    Nall    specialist     [[{ixotiSASiy~/ADJ]]'
+      ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'IFtiCAL |< Iy',
       'suffix' => ' |< Iy',
-      'glosses' => [],
+      'glosses' => [
+        'specialist'
+      ],
       'orig' => 'AixotiSASiy~',
       'prefix' => ''
     },
@@ -17219,13 +17062,19 @@ $Lexicon = {
       'types' => {},
       'entry' => 'mu_hta.s.s',
       'form' => 'mu_hta.s.s',
-      'lines' => [],
+      'lines' => [
+        ';; muxotaS~_1',
+        'mxtS    muxotaS~        Nall    responsible;competent'
+      ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'responsible',
+        'competent'
+      ],
       'orig' => 'muxotaS~',
       'prefix' => ''
     }
@@ -20999,47 +20848,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_h t b' => [
-    {
-      'types' => {
-        '_htabb' => {
-          'IV_V' => 1
-        },
-        'i_htabab' => {
-          'PV_C' => 2
-        },
-        '_htabib' => {
-          'IV_C' => 1
-        }
-      },
-      'entry' => 'i_htabb',
-      'form' => 'i_htabb',
-      'lines' => [
-        ';; {ixotab~_1',
-        '<xtb    {ixotab~        PV_V    amble;trot',
-        'Axtb    {ixotab~        PV_V    amble;trot',
-        '<xtbb   {ixotabab       PV_C    amble;trot',
-        'Axtbb   {ixotabab       PV_C    amble;trot',
-        'xtb     xotab~  IV_V    amble;trot',
-        'xtbb    xotabib IV_C    amble;trot'
-      ],
-      'patterns' => {
-        '_htabb' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'amble',
-        'trot'
-      ],
-      'orig' => 'Aixotab~',
-      'prefix' => ''
-    }
-  ],
   '_h \' .t' => [
     {
       'types' => {},
@@ -22270,8 +22078,14 @@ $Lexicon = {
         'xDrr    xoDarir IV_C_intr       become green'
       ],
       'patterns' => {
+        '_h.darir' => [
+          'FCaLiL'
+        ],
         '_h.darr' => [
           'FCaLL'
+        ],
+        'i_h.darar' => [
+          'IFCaLaL'
         ]
       },
       'index' => '1',
@@ -25127,10 +24941,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '_htabb' => {
+          'IV_V' => 1
+        },
+        'i_htabab' => {
+          'PV_C' => 2
+        },
+        '_htabib' => {
+          'IV_C' => 1
+        }
+      },
       'entry' => 'i_htabb',
       'form' => 'i_htabb',
-      'lines' => [],
+      'lines' => [
+        ';; {ixotab~_1',
+        '<xtb    {ixotab~        PV_V    amble;trot',
+        'Axtb    {ixotab~        PV_V    amble;trot',
+        '<xtbb   {ixotabab       PV_C    amble;trot',
+        'Axtbb   {ixotabab       PV_C    amble;trot',
+        'xtb     xotab~  IV_V    amble;trot',
+        'xtbb    xotabib IV_C    amble;trot'
+      ],
       'patterns' => {
         '_htabb' => [
           'FtaCL'
@@ -25146,7 +24978,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'amble',
+        'trot'
+      ],
       'orig' => 'Aixotab~',
       'prefix' => ''
     },
@@ -25577,86 +25412,6 @@ $Lexicon = {
         'dyed'
       ],
       'orig' => 'muxaD~ab',
-      'prefix' => ''
-    }
-  ],
-  '_h t .t' => [
-    {
-      'types' => {
-        'i_hta.ta.t' => {
-          'PV_C' => 2
-        },
-        '_hta.ti.t' => {
-          'IV_C' => 1
-        },
-        '_hta.t.t' => {
-          'IV_V' => 1
-        }
-      },
-      'entry' => 'i_hta.t.t',
-      'form' => 'i_hta.t.t',
-      'lines' => [
-        ';; {ixotaT~_1',
-        '<xtT    {ixotaT~        PV_V    trace;mark',
-        'AxtT    {ixotaT~        PV_V    trace;mark',
-        '<xtTT   {ixotaTaT       PV_C    trace;mark',
-        'AxtTT   {ixotaTaT       PV_C    trace;mark',
-        'xtT     xotaT~  IV_V    trace;mark',
-        'xtTT    xotaTiT IV_C    trace;mark'
-      ],
-      'patterns' => {
-        '_hta.t.t' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'trace',
-        'mark'
-      ],
-      'orig' => 'AixotaT~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'i_hta.ta.t' => {
-          'PV_C' => 2
-        },
-        '_hta.ti.t' => {
-          'IV_C' => 1
-        },
-        '_hta.t.t' => {
-          'IV_V' => 1
-        }
-      },
-      'entry' => 'i_hta.t.t',
-      'form' => 'i_hta.t.t',
-      'lines' => [
-        ';; {ixotaT~_2',
-        '<xtT    {ixotaT~        PV_V    plan;devise',
-        'AxtT    {ixotaT~        PV_V    plan;devise',
-        '<xtTT   {ixotaTaT       PV_C    plan;devise',
-        'AxtTT   {ixotaTaT       PV_C    plan;devise',
-        'xtT     xotaT~  IV_V    plan;devise',
-        'xtTT    xotaTiT IV_C    plan;devise'
-      ],
-      'patterns' => {
-        '_hta.t.t' => [
-          'FCaLL'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'plan',
-        'devise'
-      ],
-      'orig' => 'AixotaT~',
       'prefix' => ''
     }
   ],
@@ -26921,10 +26676,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'i_hta.ta.t' => {
+          'PV_C' => 2
+        },
+        '_hta.ti.t' => {
+          'IV_C' => 1
+        },
+        '_hta.t.t' => {
+          'IV_V' => 1
+        }
+      },
       'entry' => 'i_hta.t.t',
       'form' => 'i_hta.t.t',
-      'lines' => [],
+      'lines' => [
+        ';; {ixotaT~_1',
+        '<xtT    {ixotaT~        PV_V    trace;mark',
+        'AxtT    {ixotaT~        PV_V    trace;mark',
+        '<xtTT   {ixotaTaT       PV_C    trace;mark',
+        'AxtTT   {ixotaTaT       PV_C    trace;mark',
+        'xtT     xotaT~  IV_V    trace;mark',
+        'xtTT    xotaTiT IV_C    trace;mark'
+      ],
       'patterns' => {
         'i_hta.ta.t' => [
           'IFtaCaL'
@@ -26940,15 +26713,36 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'trace',
+        'mark'
+      ],
       'orig' => 'AixotaT~',
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'i_hta.ta.t' => {
+          'PV_C' => 2
+        },
+        '_hta.ti.t' => {
+          'IV_C' => 1
+        },
+        '_hta.t.t' => {
+          'IV_V' => 1
+        }
+      },
       'entry' => 'i_hta.t.t',
       'form' => 'i_hta.t.t',
-      'lines' => [],
+      'lines' => [
+        ';; {ixotaT~_2',
+        '<xtT    {ixotaT~        PV_V    plan;devise',
+        'AxtT    {ixotaT~        PV_V    plan;devise',
+        '<xtTT   {ixotaTaT       PV_C    plan;devise',
+        'AxtTT   {ixotaTaT       PV_C    plan;devise',
+        'xtT     xotaT~  IV_V    plan;devise',
+        'xtTT    xotaTiT IV_C    plan;devise'
+      ],
       'patterns' => {
         'i_hta.ta.t' => [
           'IFtaCaL'
@@ -26964,7 +26758,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'plan',
+        'devise'
+      ],
       'orig' => 'AixotaT~',
       'prefix' => ''
     },
@@ -34613,10 +34410,28 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '_htaziz' => {
+          'IV_C' => 1
+        },
+        '_htazz' => {
+          'IV_V' => 1
+        },
+        'i_htazaz' => {
+          'PV_C' => 2
+        }
+      },
       'entry' => 'i_htazz',
       'form' => 'i_htazz',
-      'lines' => [],
+      'lines' => [
+        ';; {ixotaz~_1',
+        '<xtz    {ixotaz~        PV_V    pierce;stab',
+        'Axtz    {ixotaz~        PV_V    pierce;stab',
+        '<xtzz   {ixotazaz       PV_C    pierce;stab',
+        'Axtzz   {ixotazaz       PV_C    pierce;stab',
+        'xtz     xotaz~  IV_V    pierce;stab',
+        'xtzz    xotaziz IV_C    pierce;stab'
+      ],
       'patterns' => {
         '_htaziz' => [
           'FtaCiL'
@@ -34632,7 +34447,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IFtaCL',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'pierce',
+        'stab'
+      ],
       'orig' => 'Aixotaz~',
       'prefix' => ''
     },
@@ -35712,6 +35530,47 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h .t m' => [
+    {
+      'types' => {},
+      'entry' => '_ha.tm',
+      'form' => '_ha.tm',
+      'lines' => [
+        ';; xaTom_1',
+        'xTm     xaTom   N       snout;muzzle'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'snout',
+        'muzzle'
+      ],
+      'orig' => 'xaTom',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hi.tAm',
+      'form' => '_hi.tAm',
+      'lines' => [
+        ';; xiTAm_1',
+        'xTAm    xiTAm   N       noseband'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'noseband'
+      ],
+      'orig' => 'xiTAm',
+      'prefix' => ''
+    }
+  ],
   '_h y s' => [
     {
       'types' => {
@@ -35789,47 +35648,6 @@ $Lexicon = {
         'breaking'
       ],
       'orig' => 'xayasAn',
-      'prefix' => ''
-    }
-  ],
-  '_h .t m' => [
-    {
-      'types' => {},
-      'entry' => '_ha.tm',
-      'form' => '_ha.tm',
-      'lines' => [
-        ';; xaTom_1',
-        'xTm     xaTom   N       snout;muzzle'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'snout',
-        'muzzle'
-      ],
-      'orig' => 'xaTom',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hi.tAm',
-      'form' => '_hi.tAm',
-      'lines' => [
-        ';; xiTAm_1',
-        'xTAm    xiTAm   N       noseband'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'noseband'
-      ],
-      'orig' => 'xiTAm',
       'prefix' => ''
     }
   ],
@@ -38300,31 +38118,10 @@ $Lexicon->{'_h l l'}[20]{'glosses'} = $Lexicon->{'_h l w'}[11]{'glosses'};
 $Lexicon->{'_h w \''}[0]{'types'} = $Lexicon->{'_h w y'}[3]{'types'};
 $Lexicon->{'_h w \''}[0]{'lines'} = $Lexicon->{'_h w y'}[3]{'lines'};
 $Lexicon->{'_h w \''}[0]{'glosses'} = $Lexicon->{'_h w y'}[3]{'glosses'};
-$Lexicon->{'_h t l'}[6]{'types'} = $Lexicon->{'_h l l'}[5]{'types'};
-$Lexicon->{'_h t l'}[6]{'lines'} = $Lexicon->{'_h l l'}[5]{'lines'};
-$Lexicon->{'_h t l'}[6]{'glosses'} = $Lexicon->{'_h l l'}[5]{'glosses'};
-$Lexicon->{'_h t l'}[7]{'types'} = $Lexicon->{'_h l l'}[15]{'types'};
-$Lexicon->{'_h t l'}[7]{'lines'} = $Lexicon->{'_h l l'}[15]{'lines'};
-$Lexicon->{'_h t l'}[7]{'glosses'} = $Lexicon->{'_h l l'}[15]{'glosses'};
-$Lexicon->{'_h t l'}[8]{'types'} = $Lexicon->{'_h l l'}[18]{'types'};
-$Lexicon->{'_h t l'}[8]{'lines'} = $Lexicon->{'_h l l'}[18]{'lines'};
-$Lexicon->{'_h t l'}[8]{'glosses'} = $Lexicon->{'_h l l'}[18]{'glosses'};
 $Lexicon->{'_h n w'}[1]{'types'} = $Lexicon->{'_h n y'}[0]{'types'};
 $Lexicon->{'_h n w'}[1]{'lines'} = $Lexicon->{'_h n y'}[0]{'lines'};
 $Lexicon->{'_h n w'}[1]{'glosses'} = $Lexicon->{'_h n y'}[0]{'glosses'};
 $Lexicon->{'_h n w'}[1]{'imperf'} = $Lexicon->{'_h n y'}[0]{'imperf'};
-$Lexicon->{'_h .s .s'}[3]{'types'} = $Lexicon->{'_h t .s'}[0]{'types'};
-$Lexicon->{'_h .s .s'}[3]{'lines'} = $Lexicon->{'_h t .s'}[0]{'lines'};
-$Lexicon->{'_h .s .s'}[3]{'glosses'} = $Lexicon->{'_h t .s'}[0]{'glosses'};
-$Lexicon->{'_h .s .s'}[17]{'types'} = $Lexicon->{'_h t .s'}[1]{'types'};
-$Lexicon->{'_h .s .s'}[17]{'lines'} = $Lexicon->{'_h t .s'}[1]{'lines'};
-$Lexicon->{'_h .s .s'}[17]{'glosses'} = $Lexicon->{'_h t .s'}[1]{'glosses'};
-$Lexicon->{'_h .s .s'}[18]{'types'} = $Lexicon->{'_h t .s'}[2]{'types'};
-$Lexicon->{'_h .s .s'}[18]{'lines'} = $Lexicon->{'_h t .s'}[2]{'lines'};
-$Lexicon->{'_h .s .s'}[18]{'glosses'} = $Lexicon->{'_h t .s'}[2]{'glosses'};
-$Lexicon->{'_h .s .s'}[27]{'types'} = $Lexicon->{'_h t .s'}[3]{'types'};
-$Lexicon->{'_h .s .s'}[27]{'lines'} = $Lexicon->{'_h t .s'}[3]{'lines'};
-$Lexicon->{'_h .s .s'}[27]{'glosses'} = $Lexicon->{'_h t .s'}[3]{'glosses'};
 $Lexicon->{'_h \' .t'}[0]{'types'} = $Lexicon->{'_h y .t'}[9]{'types'};
 $Lexicon->{'_h \' .t'}[0]{'lines'} = $Lexicon->{'_h y .t'}[9]{'lines'};
 $Lexicon->{'_h \' .t'}[0]{'glosses'} = $Lexicon->{'_h y .t'}[9]{'glosses'};
@@ -38340,18 +38137,9 @@ $Lexicon->{'_h l y'}[4]{'glosses'} = $Lexicon->{'_h l w'}[18]{'glosses'};
 $Lexicon->{'_h l y'}[5]{'types'} = $Lexicon->{'_h l w'}[19]{'types'};
 $Lexicon->{'_h l y'}[5]{'lines'} = $Lexicon->{'_h l w'}[19]{'lines'};
 $Lexicon->{'_h l y'}[5]{'glosses'} = $Lexicon->{'_h l w'}[19]{'glosses'};
-$Lexicon->{'_h b b'}[3]{'types'} = $Lexicon->{'_h t b'}[0]{'types'};
-$Lexicon->{'_h b b'}[3]{'lines'} = $Lexicon->{'_h t b'}[0]{'lines'};
-$Lexicon->{'_h b b'}[3]{'glosses'} = $Lexicon->{'_h t b'}[0]{'glosses'};
 $Lexicon->{'_h _d \''}[2]{'types'} = $Lexicon->{'_h _d y'}[1]{'types'};
 $Lexicon->{'_h _d \''}[2]{'lines'} = $Lexicon->{'_h _d y'}[1]{'lines'};
 $Lexicon->{'_h _d \''}[2]{'glosses'} = $Lexicon->{'_h _d y'}[1]{'glosses'};
-$Lexicon->{'_h .t .t'}[2]{'types'} = $Lexicon->{'_h t .t'}[0]{'types'};
-$Lexicon->{'_h .t .t'}[2]{'lines'} = $Lexicon->{'_h t .t'}[0]{'lines'};
-$Lexicon->{'_h .t .t'}[2]{'glosses'} = $Lexicon->{'_h t .t'}[0]{'glosses'};
-$Lexicon->{'_h .t .t'}[3]{'types'} = $Lexicon->{'_h t .t'}[1]{'types'};
-$Lexicon->{'_h .t .t'}[3]{'lines'} = $Lexicon->{'_h t .t'}[1]{'lines'};
-$Lexicon->{'_h .t .t'}[3]{'glosses'} = $Lexicon->{'_h t .t'}[1]{'glosses'};
 $Lexicon->{'_h y b'}[5]{'types'} = $Lexicon->{'_h \' b'}[0]{'types'};
 $Lexicon->{'_h y b'}[5]{'lines'} = $Lexicon->{'_h \' b'}[0]{'lines'};
 $Lexicon->{'_h y b'}[5]{'glosses'} = $Lexicon->{'_h \' b'}[0]{'glosses'};
@@ -38379,9 +38167,6 @@ $Lexicon->{'_h y f'}[0]{'glosses'} = $Lexicon->{'_h w f'}[5]{'glosses'};
 $Lexicon->{'_h y f'}[1]{'types'} = $Lexicon->{'_h w f'}[13]{'types'};
 $Lexicon->{'_h y f'}[1]{'lines'} = $Lexicon->{'_h w f'}[13]{'lines'};
 $Lexicon->{'_h y f'}[1]{'glosses'} = $Lexicon->{'_h w f'}[13]{'glosses'};
-$Lexicon->{'_h z z'}[1]{'types'} = $Lexicon->{'_h t z'}[0]{'types'};
-$Lexicon->{'_h z z'}[1]{'lines'} = $Lexicon->{'_h t z'}[0]{'lines'};
-$Lexicon->{'_h z z'}[1]{'glosses'} = $Lexicon->{'_h t z'}[0]{'glosses'};
 $Lexicon->{'_h f n'}[0]{'types'} = $Lexicon->{'_h f f'}[8]{'types'};
 $Lexicon->{'_h f n'}[0]{'lines'} = $Lexicon->{'_h f f'}[8]{'lines'};
 $Lexicon->{'_h f n'}[0]{'glosses'} = $Lexicon->{'_h f f'}[8]{'glosses'};

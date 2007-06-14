@@ -9189,25 +9189,6 @@ lexicon = listing "Lexicon's properties"
 
     IstiFCAL |< Iy            `adj`     {- AisotifotA}iy~ -}   [ "polling", "questionnaire", "survey" ] ]
 
- |> "f t .d" <| [
-
-    -- ;; {ifotaD~_1
-    -- <ftD    {ifotaD~        PV_V    deflower
-    -- AftD    {ifotaD~        PV_V    deflower
-    -- <ftDD   {ifotaDaD       PV_C    deflower
-    -- AftDD   {ifotaDaD       PV_C    deflower
-    -- ftD     fotaD~  IV_V    deflower
-    -- ftDD    fotaDiD IV_C    deflower
-
-    IFCaLL                    `verb`    {- AifotaD~ -}         [ "deflower" ],
-
-    -- ;; {ifotiDAD_1
-    -- <ftDAD  {ifotiDAD       N/At    defloration
-    -- AftDAD  {ifotiDAD       N/At    defloration
-
-    IFCiLAL                   `noun`    {- AifotiDAD -}        [ "defloration" ]
-                              `plural`     IFCiLAL |< At ]
-
  |> "f t .h" <| [
 
     -- ;; fataH-a_1
@@ -9377,18 +9358,6 @@ lexicon = listing "Lexicon's properties"
 
     MunFaCiL                  `adj`     {- munofatiH -}        [ "open", "responsive", "tolerant" ] ]
 
- |> "f t .s" <| [
-
-    -- ;; {ifotaS~_1
-    -- <ftS    {ifotaS~        PV_V    peel off;dismember;separate
-    -- AftS    {ifotaS~        PV_V    peel off;dismember;separate
-    -- <ftSS   {ifotaSaS       PV_C    peel off;dismember;separate
-    -- AftSS   {ifotaSaS       PV_C    peel off;dismember;separate
-    -- ftS     fotaS~  IV_V    peel off;dismember;separate
-    -- ftSS    fotaSiS IV_C    peel off;dismember;separate
-
-    IFCaLL                    `verb`    {- AifotaS~ -}         [ "peel off", "dismember", "separate" ] ]
-
  |> "f t ^s" <| [
 
     -- ;; fat~a$_1
@@ -9495,24 +9464,7 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- fAtik -}            [ "killer", "murderer", "exterminator", "killers", "murderers" ]
                               `plural`     FuCCAL
-                           {- `others`  [ "futtAk N" ] -},
-
-    -- ;; {ifotak~_1
-    -- <ftk    {ifotak~        PV_V    dissolve;separate
-    -- Aftk    {ifotak~        PV_V    dissolve;separate
-    -- <ftkk   {ifotakak       PV_C    dissolve;separate
-    -- Aftkk   {ifotakak       PV_C    dissolve;separate
-    -- ftk     fotak~  IV_V    dissolve;separate
-    -- ftkk    fotakik IV_C    dissolve;separate
-
-    IFCaLL                    `verb`    {- Aifotak~ -}         [ "dissolve", "separate" ],
-
-    -- ;; {ifotikAk_1
-    -- <ftkAk  {ifotikAk       N/At    redemption
-    -- AftkAk  {ifotikAk       N/At    redemption
-
-    IFCiLAL                   `noun`    {- AifotikAk -}        [ "redemption" ]
-                              `plural`     IFCiLAL |< At ]
+                           {- `others`  [ "futtAk N" ] -} ]
 
  |> "f t l" <| [
 
@@ -9687,29 +9639,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mufotin_1
     -- mftn    mufotin Nall    rioter
 
-    MuFCiL                    `noun`    {- mufotin -}          [ "rioter" ],
-
-    -- ;; {ifotan~_1
-    -- <ftn    {ifotan~        PV_V_intr       be diversified;be variegated
-    -- Aftn    {ifotan~        PV_V_intr       be diversified;be variegated
-    -- <ftnn   {ifotanan       PV_Cn_intr      be diversified;be variegated
-    -- Aftnn   {ifotanan       PV_Cn_intr      be diversified;be variegated
-    -- ftn     fotan~  IV_V_intr       be diversified;be variegated
-    -- ftnn    fotanin IV_Cn_intr      be diversified;be variegated
-
-    IFCaLL                    `verb`    {- Aifotan~ -}         [ "be diversified", "be variegated" ],
-
-    -- ;; {ifotinAn_1
-    -- <ftnAn  {ifotinAn       N/At    diversity
-    -- AftnAn  {ifotinAn       N/At    diversity
-
-    IFCiLAL                   `noun`    {- AifotinAn -}        [ "diversity" ]
-                              `plural`     IFCiLAL |< At,
-
-    -- ;; mufotan~_1
-    -- mftn    mufotan~        Nall    expert;masterful
-
-    MuFCaLL                   `noun`    {- mufotan~ -}         [ "expert", "masterful" ] ]
+    MuFCiL                    `noun`    {- mufotin -}          [ "rioter" ] ]
 
  |> "f t q" <| [
 
@@ -9836,22 +9766,7 @@ lexicon = listing "Lexicon's properties"
 
     FACUL |< aT               `noun`    {- fAtuwrap -}         [ "invoice", "bill" ]
                               `plural`     FawACIL
-                           {- `others`  [ "fawAtiyr Ndip" ] -},
-
-    -- ;; {ifotar~_1
-    -- <ftr    {ifotar~        PV_V    gleam;shine;reveal
-    -- Aftr    {ifotar~        PV_V    gleam;shine;reveal
-    -- <ftrr   {ifotarar       PV_C    gleam;shine;reveal
-    -- Aftrr   {ifotarar       PV_C    gleam;shine;reveal
-    -- ftr     fotar~  IV_V    gleam;shine;reveal
-    -- ftrr    fotarir IV_C    gleam;shine;reveal
-
-    IFCaLL                    `verb`    {- Aifotar~ -}         [ "gleam", "shine", "reveal" ],
-
-    -- ;; mufotar~_1
-    -- mftr    mufotar~        Nall    radiant;gleaming;smiling     [[mufotar~/ADJ]]
-
-    MuFCaLL                   `adj`     {- mufotar~ -}         [ "radiant", "gleaming", "smiling" ] ]
+                           {- `others`  [ "fawAtiyr Ndip" ] -} ]
 
  |> "f t r n" <| [
 
@@ -10107,13 +10022,6 @@ lexicon = listing "Lexicon's properties"
     -- mfty    mufotiy N0      Mufti
 
     MuFCI                     `noun`    {- mufotiy -}          [ "Mufti" ] ]
-
- |> "f t z" <| [
-
-    -- ;; mufotaz~_1
-    -- mftz    mufotaz~        Nall    agitator;provocateur
-
-    MuFCaLL                   `noun`    {- mufotaz~ -}         [ "agitator", "provocateur" ] ]
 
  |> "f w .d" <| [
 

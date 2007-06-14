@@ -86,14 +86,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- Ouqosuwmap -}       [ "lot", "portion", "lots", "portions" ] ]
 
- |> "iq^si`rAr" <| [
-
-    -- ;; {iqo$iEorAr_1
-    -- <q$ErAr {iqo$iEorAr     N/At    trembling;shaking;quivering
-    -- Aq$ErAr {iqo$iEorAr     N/At    trembling;shaking;quivering
-
-    Identity                  `noun`    {- Aiqo$iEorAr -}      [ "trembling", "shaking", "quivering" ] ]
-
  |> "maqbur" <| [
 
     -- ;; maqoburiy~_1
@@ -113,13 +105,6 @@ lexicon = listing "Lexicon's properties"
     -- mqAwlwn muqAwiluwn      N0      Muqawiloun
 
     Identity                  `noun`    {- muqAwiluwn -}       [ "Muqawiloun" ] ]
-
- |> "muq^sa`irr" <| [
-
-    -- ;; muqo$aEir~_1
-    -- mq$Er   muqo$aEir~      Nall    trembling;shaking;quivering     [[muqo$aEir~/ADJ]]
-
-    Identity                  `adj`     {- muqo$aEir~ -}       [ "trembling", "shaking", "quivering" ] ]
 
  |> "q" <| [
 
@@ -3209,7 +3194,19 @@ lexicon = listing "Lexicon's properties"
     -- q$Er    qo$aEir~        IV_V    tremble;shudder;get goose bumps
     -- q$Err   qo$aEorir       IV_C    tremble;shudder;get goose bumps
 
-    IKRaDaSS                  `verb`    {- Aiqo$aEar~ -}       [ "tremble", "shudder", "get goose bumps" ] ]
+    IKRaDaSS                  `verb`    {- Aiqo$aEar~ -}       [ "tremble", "shudder", "get goose bumps" ],
+
+    -- ;; {iqo$iEorAr_1
+    -- <q$ErAr {iqo$iEorAr     N/At    trembling;shaking;quivering
+    -- Aq$ErAr {iqo$iEorAr     N/At    trembling;shaking;quivering
+
+    IKRiDSAS                  `noun`    {- Aiqo$iEorAr -}      [ "trembling", "shaking", "quivering" ]
+                              `plural`     IKRiDSAS |< At,
+
+    -- ;; muqo$aEir~_1
+    -- mq$Er   muqo$aEir~      Nall    trembling;shaking;quivering     [[muqo$aEir~/ADJ]]
+
+    MuKRaDiSS                 `adj`     {- muqo$aEir~ -}       [ "trembling", "shaking", "quivering" ] ]
 
  |> "q ^s b" <| [
 
@@ -12321,49 +12318,6 @@ lexicon = listing "Lexicon's properties"
 
     TaFCI |< aT               `noun`    {- taqosiyap -}        [ "tempering", "hardening" ] ]
 
- |> "q t .s" <| [
-
-    -- ;; {iqotaS~_1
-    -- <qtS    {iqotaS~        PV_V    take vengeance on;punish
-    -- AqtS    {iqotaS~        PV_V    take vengeance on;punish
-    -- <qtSS   {iqotaSaS       PV_C    take vengeance on;punish
-    -- AqtSS   {iqotaSaS       PV_C    take vengeance on;punish
-    -- qtS     qotaS~  IV_V    take vengeance on;punish
-    -- qtSS    qotaSiS IV_C    take vengeance on;punish
-
-    IFCaLL                    `verb`    {- AiqotaS~ -}         [ "take vengeance on", "punish" ],
-
-    -- ;; {iqotiSAS_1
-    -- <qtSAS  {iqotiSAS       N/At    punishment;reprisal;vengeance
-    -- AqtSAS  {iqotiSAS       N/At    punishment;reprisal;vengeance
-
-    IFCiLAL                   `noun`    {- AiqotiSAS -}        [ "punishment", "reprisal", "vengeance" ]
-                              `plural`     IFCiLAL |< At ]
-
- |> "q t .t" <| [
-
-    -- ;; {iqotaT~_1
-    -- <qtT    {iqotaT~        PV_V    sharpen
-    -- AqtT    {iqotaT~        PV_V    sharpen
-    -- <qtTT   {iqotaTaT       PV_C    sharpen
-    -- AqtTT   {iqotaTaT       PV_C    sharpen
-    -- qtT     qotaT~  IV_V    sharpen
-    -- qtTT    qotaTiT IV_C    sharpen
-
-    IFCaLL                    `verb`    {- AiqotaT~ -}         [ "sharpen" ] ]
-
- |> "q t _t" <| [
-
-    -- ;; {iqotav~_1
-    -- <qtv    {iqotav~        PV_V    uproot;extirpate
-    -- Aqtv    {iqotav~        PV_V    uproot;extirpate
-    -- <qtvv   {iqotavav       PV_C    uproot;extirpate
-    -- Aqtvv   {iqotavav       PV_C    uproot;extirpate
-    -- qtv     qotav~  IV_V    uproot;extirpate
-    -- qtvv    qotaviv IV_C    uproot;extirpate
-
-    IFCaLL                    `verb`    {- Aiqotav~ -}         [ "uproot", "extirpate" ] ]
-
  |> "q t b" <| [
 
     -- ;; qatab_1
@@ -12385,17 +12339,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qatAd_1
     -- qtAd    qatAd   N       tragacanth;bed of thorns
 
-    FaCAL                     `noun`    {- qatAd -}            [ "tragacanth", "bed of thorns" ],
-
-    -- ;; {iqotad~_1
-    -- <qtd    {iqotad~        PV_V    cut lengthwise;cut into strips
-    -- Aqtd    {iqotad~        PV_V    cut lengthwise;cut into strips
-    -- <qtdd   {iqotadad       PV_C    cut lengthwise;cut into strips
-    -- Aqtdd   {iqotadad       PV_C    cut lengthwise;cut into strips
-    -- qtd     qotad~  IV_V    cut lengthwise;cut into strips
-    -- qtdd    qotadid IV_C    cut lengthwise;cut into strips
-
-    IFCaLL                    `verb`    {- Aiqotad~ -}         [ "cut lengthwise", "cut into strips" ] ]
+    FaCAL                     `noun`    {- qatAd -}            [ "tragacanth", "bed of thorns" ] ]
 
  |> "q t l" <| [
 
@@ -12698,16 +12642,6 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- qat~-u -}           [ "lie", "minimize" ]
                               `imperf`     FuCL
                               `pfirst`     FaCaL,
-
-    -- ;; {iqotat~_1
-    -- <qtt    {iqotat~        PV_V    extirpate;remove;get rid of
-    -- Aqtt    {iqotat~        PV_V    extirpate;remove;get rid of
-    -- <qttt   {iqotatat       PV_Ct   extirpate;remove;get rid of
-    -- Aqttt   {iqotatat       PV_Ct   extirpate;remove;get rid of
-    -- qtt     qotat~  IV_V    extirpate;remove;get rid of
-    -- qttt    qotatit IV_C    extirpate;remove;get rid of
-
-    IFCaLL                    `verb`    {- Aiqotat~ -}         [ "extirpate", "remove", "get rid of" ],
 
     -- ;; {iqotat~_1
     -- <qtt    {iqotat~        PV_V    extirpate;remove;get rid of

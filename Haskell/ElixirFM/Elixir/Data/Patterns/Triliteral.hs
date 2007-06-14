@@ -121,6 +121,7 @@ instance Forming PatternT where
 
    -- Fischer (2001), par. 239 (ra'Y, wa'Y), 258 (ya.hyY, ista.hY), 224 (participles)
    -- Fischer (2001), par. 243 (uy > uu), 33 ff (combinatory phonology)
+   -- Fischer (2001), par. 208, 218, 220 (inflecting IX-3, XI-3, and IV-4 verbs)
 
     verbStems I r
 
@@ -305,14 +306,16 @@ instance Forming PatternT where
 
     verbStems XI _ = [
 
-        (   Nothing,    IFCALL,     UFCULL,     FCALL,      FCALL       )
+        (   Just   (    IFCALaL,    UFCULiL,    FCALiL,     FCALaL      ),
+                        IFCALL,     UFCULL,     FCALL,      FCALL       )
 
         ]
 
 
     verbStems XII _ = [
 
-        (   Nothing,    IFCawCaL,   UFCUCiL,    FCawCiL,    FCawCaL     )
+        (   Nothing,    IFCawCaL,   UFCUCiL,    FCawCiL,    FCawCaL     ),
+        (   Nothing,    IFCawCY,    UFCUCI,     FCawCI,     FCawCY      )
 
         ]
 
@@ -421,8 +424,8 @@ instance Rules PatternT where
                             UFtuCiL, UFtIL, UFtuCI, UFtuCL,
                             UFCuLL, UFCuLI, UFCuLiL,
                             UstuFCiL, UstUCiL, UstuFIL, UstuFCI, UstuFI, UstuFiCL, UstUCI,
-                            UFCULL,
-                            UFCUCiL,
+                            UFCULL, UFCULiL,
+                            UFCUCiL, UFCUCI,
                             UFCUwiL,
                             UFCunLiL,
                             UFCunLY ]
@@ -650,9 +653,10 @@ data PatternT =
         |   FCaLL                                       |   FCaLI       |   FCaLiL
                                                         |   FCaLY       |   FCaLaL
 
-        |   IFCiLAL
+        |   IFCiLAL                                     |   IFCiLA'
 
-        |   MuFCaLL
+        |   MuFCaLL                                     |   MuFCaLI
+                                                        |   MuFCaLY
 
 --  Form X
 
@@ -678,18 +682,28 @@ data PatternT =
 
 --  Form XI
 
-        |   IFCALL
-        |   UFCULL
+        |   IFCALL                                                      |   IFCALaL
+        |   UFCULL                                                      |   UFCULiL
 
-        |   FCALL
+        |   FCALL                                                       |   FCALiL
+                                                                        |   FCALaL
+
+        |   IFCILAL
+
+        |   MuFCALL
 
 --  Form XII
 
-        |   IFCawCaL
-        |   UFCUCiL
+        |   IFCawCaL                                    |   IFCawCY
+        |   UFCUCiL                                     |   UFCUCI
 
-        |   FCawCiL
-        |   FCawCaL
+        |   FCawCiL                                     |   FCawCI
+        |   FCawCaL                                     |   FCawCY
+
+        |   IFCICAL
+
+        |   MuFCawCiL   -- Fischer (2001), par. 224 (?)
+        |   MuFCawCaL
 
 --  Form XIII
 
@@ -699,6 +713,11 @@ data PatternT =
         |   FCawwiL
         |   FCawwaL
 
+        |   IFCiwwAL    -- Fischer (2001), par. 225 (!)
+
+        |   MuFCawwiL   -- Fischer (2001), par. 224 (?)
+        |   MuFCawwaL
+
 --  Form XIV
 
         |   IFCanLaL
@@ -707,6 +726,11 @@ data PatternT =
         |   FCanLiL
         |   FCanLaL
 
+        |   IFCinLAL
+
+        |   MuFCanLiL   -- Fischer (2001), par. 224 (?)
+        |   MuFCanLaL
+
 --  Form XV
 
         |   IFCanLY
@@ -714,6 +738,11 @@ data PatternT =
 
         |   FCanLI
         |   FCanLY
+
+        |   IFCinLA'
+
+        |   MuFCanLI    -- Fischer (2001), par. 224 (?)
+        |   MuFCanLY
 
     deriving (Enum, Show, Eq)
 
