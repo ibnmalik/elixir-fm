@@ -143,36 +143,39 @@ instance Inflect RootEntry ParaVerb where
                                                                "VerbI"])
                                          xs -> head xs
 
-              theItem (Just (_, _, g, h), a, b, c, d) | not (isDefault x) = (a, b, g, h)
-                                                      | otherwise         = (a, b, c, d)
-              theItem (Nothing          , a, b, c, d)                     = (a, b, c, d)
-
-
-    inflect (RE r e) x@(VerbC       g n) = (map inRules . inEntry) e
-
-        where Morphs pattern _ _ = morphs e
-
-              inEntry e = case entity e of
-
-                  Verb _ [] []  ->  [ morph y | (x, _, y, _) <- verbStems form r,
-                                                x == pattern ]
-
-                  Verb _ is []  ->  [ morph i | i <- is ]
-
-                  Verb _ _  is  ->  [ morph i | i <- is ]
-
-                  _             ->  error "Incompatible VerbC"
-
-              inRules = merge r . paradigm (paraVerbC g n)
-
-              paradigm p m@(Morphs t _ _) = p (prefixVerbC form t)
-                                            (if isDefault x then m
-                                                            else morph (shortStem t))
-
-              theItem (Just (e, f, _, _), a, b, _, _) | not (isDefault x) = (a, b, e, f)
-                                                      | otherwise         = (a, b, a, b)
-              theItem (Nothing          , a, b, _, _)                     = (a, b, a, b)
 -}
+
+    inflect (RE r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
+
+        where paradigm p = map (merge r . p "i") inEntry
+
+              theDflt = isDefault x
+
+              inEntry = case entity e of
+
+                  Verb fs _ ys is jt jv
+
+                    | maybe False (/= Active) jv || maybe False (== Perfect) jt -> []
+
+                    | null is -> if null ys then inRules fs (Perfect,   Active) [morphs e]
+
+                                            else inRules fs (Imperfect, Active) [ morph y | y <- ys ]
+
+                    | otherwise            -> [ morph i | i <- is ]
+
+                  _     ->  (error . unwords) ["Incompatible VerbC", show r]
+
+              inRules fs pp = map (\ m -> morph m `asTypeOf` morphs e) . concat .
+
+                              map (\ (Morphs t _ _) -> (nub . concat)
+
+                                    [ lookStem t pp (Imperfect, Active) theDflt
+                                                    (verbStems f r) | f <- fs ])
+
+              -- paradigm p m@(Morphs t _ _) = p (prefixVerbC form t)
+              --                               (if isDefault x then m
+              --                                               else morph (shortStem t))
+
     inflect _ _ = []
 
 

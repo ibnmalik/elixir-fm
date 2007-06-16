@@ -125,6 +125,33 @@ instance Forming PatternT where
 
     verbStems I r
 
+        | (unwords . words) r == "r ' y" = [
+
+        (   Nothing,    FaCY,       FuCI,       FY,         FY          )   -- ra'Y
+
+        ]
+
+        | let x = words r in if null x then False
+                                       else head x `elem` ["w", "y"] = [
+
+        --  First
+
+        (   Nothing,    FaCaL,      FuCiL,      CaL,        FCaL        ),
+        (   Nothing,    FaCaL,      FuCiL,      CiL,        FCaL        ),
+        (   Nothing,    FaCaL,      FuCiL,      CuL,        FCaL        ),
+
+        (   Nothing,    FaCiL,      FuCiL,      CaL,        FCaL        ),
+
+        (   Nothing,    FaCuL,      FuCiL,      CaL,        FCaL        ),
+        (   Nothing,    FaCuL,      FuCiL,      CuL,        FCaL        ),
+
+        -- Either
+
+        (   Nothing,    FaCY,       FuCI,       CI,         CY          ),  -- waqY
+        (   Nothing,    FaCI,       FuCI,       CI,         CY          )   -- waliya
+
+        ]
+
         | let x = words r in if length x < 3 then False
                                              else x !! 1 == x !! 2 = [
 
@@ -160,17 +187,6 @@ instance Forming PatternT where
         (   Nothing,    FaCuL,      FuCiL,      FCaL,       FCaL        ),
         (   Nothing,    FaCuL,      FuCiL,      FCuL,       FCaL        ),
 
-        --  First
-
-        (   Nothing,    FaCaL,      FuCiL,      CaL,        FCaL        ),
-        (   Nothing,    FaCaL,      FuCiL,      CiL,        FCaL        ),
-        (   Nothing,    FaCaL,      FuCiL,      CuL,        FCaL        ),
-
-        (   Nothing,    FaCiL,      FuCiL,      CaL,        FCaL        ),
-
-        (   Nothing,    FaCuL,      FuCiL,      CaL,        FCaL        ),
-        (   Nothing,    FaCuL,      FuCiL,      CuL,        FCaL        ),
-
         --  Second
 
         (   Just  (     FuL,        FiL,        FuL,        FaL         ),
@@ -185,14 +201,7 @@ instance Forming PatternT where
         (   Nothing,    FaCA,       FuCI,       FCU,        FCY         ),  -- da`A
         (   Nothing,    FaCU,       FuCI,       FCU,        FCY         ),  -- .haluwa
         (   Nothing,    FaCY,       FuCI,       FCI,        FCY         ),  -- ramY
-        (   Nothing,    FaCY,       FuCI,       FY,         FY          ),  -- ra'Y
-        (   Nothing,    FaCI,       FuCI,       FCY,        FCY         ),  -- nasiya
-
-
-        -- Either
-
-        (   Nothing,    FaCY,       FuCI,       CI,         CY          ),  -- waqY
-        (   Nothing,    FaCI,       FuCI,       CI,         CY          )   -- waliya
+        (   Nothing,    FaCI,       FuCI,       FCY,        FCY         )   -- nasiya
 
         ]
 

@@ -178,8 +178,12 @@ verb m l = Entry (Verb forms [] [] [] justT justV) (morph m) l
 
     where forms = [ f | f <- [I ..], isForm f m ]
 
-          stems f = if f == X then verbStems f "w C L" ++ verbStems f "F C L"
-                              else verbStems f "F C L"
+          stems I = concat [ verbStems I r | r <- ["F C C", "F C L",
+                                                   "w C L", "r ' y"] ]
+
+          stems X = concat [ verbStems X r | r <- ["w C L", "F C L"] ]
+
+          stems f = verbStems f "F C L"
 
           notPA = null [ x | f <- forms, (_, x, _, _, _) <- stems f, x == m ]
           notPP = null [ x | f <- forms, (_, _, x, _, _) <- stems f, x == m ]
