@@ -747,7 +747,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sbiyn' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sbiyn',
@@ -774,7 +774,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sabbun' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sabbun',
@@ -1324,7 +1324,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sfiyq' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sfiyq',
@@ -2041,7 +2041,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.swiyt' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.swiyt',
@@ -2537,7 +2537,7 @@ $Lexicon = {
     {
       'types' => {
         'i.s.tirA`' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.s.tirA`',
@@ -2961,7 +2961,7 @@ $Lexicon = {
     {
       'types' => {
         'isti.srA_h' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti.srA_h',
@@ -3257,7 +3257,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.s.hiy.h' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.s.hiy.h',
@@ -3704,7 +3704,7 @@ $Lexicon = {
     {
       'types' => {
         'isti.sbA.h' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti.sbA.h',
@@ -3733,7 +3733,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sbiy.h' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sbiy.h',
@@ -4913,7 +4913,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sallub' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sallub',
@@ -5090,7 +5090,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sliyb' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sliyb',
@@ -5138,7 +5138,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sAlub' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sAlub',
@@ -5464,7 +5464,7 @@ $Lexicon = {
     {
       'types' => {
         'i.s.ti.hAb' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.s.ti.hAb',
@@ -5892,7 +5892,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sbiyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sbiyr',
@@ -5941,7 +5941,7 @@ $Lexicon = {
     {
       'types' => {
         'i.s.tibAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.s.tibAr',
@@ -6059,7 +6059,7 @@ $Lexicon = {
     {
       'types' => {
         'in.siyA`' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'in.siyA`',
@@ -6669,7 +6669,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.s`iyd' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.s`iyd',
@@ -6716,7 +6716,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.s`Ad' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i.s`Ad',
@@ -6745,7 +6745,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sA`ud' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sA`ud',
@@ -7321,7 +7321,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sawwuf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sawwuf',
@@ -7418,7 +7418,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.swiy.h' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.swiy.h',
@@ -7676,7 +7676,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sqiy`' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sqiy`',
@@ -8083,7 +8083,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.s`iyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.s`iyr',
@@ -9961,7 +9961,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.swiyr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'ta.swiyr',
@@ -10121,7 +10121,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sawwur' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sawwur',
@@ -10521,7 +10521,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sliyd' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sliyd',
@@ -11004,7 +11004,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sdiyq' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sdiyq',
@@ -11052,7 +11052,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sAduq' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sAduq',
@@ -11080,7 +11080,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sAduq' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sAduq',
@@ -11670,7 +11670,7 @@ $Lexicon = {
     {
       'types' => {
         'in.sihAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'in.sihAr',
@@ -12515,7 +12515,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.swiyb' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.swiyb',
@@ -12601,7 +12601,7 @@ $Lexicon = {
     {
       'types' => {
         'isti.swAb' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti.swAb',
@@ -13208,7 +13208,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.smiym' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.smiym',
@@ -13329,7 +13329,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.smAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i.smAm',
@@ -13621,7 +13621,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.smiy.g' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.smiy.g',
@@ -13922,7 +13922,7 @@ $Lexicon = {
     {
       'types' => {
         '.suffA.h' => {
-          'N/At' => 1
+          'NAt' => 1
         },
         '.safAfiy.h' => {
           'Ndip' => 1
@@ -13957,7 +13957,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sfiy.h' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sfiy.h',
@@ -14003,7 +14003,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.saffu.h' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.saffu.h',
@@ -14478,7 +14478,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sniy`' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sniy`',
@@ -14507,7 +14507,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sannu`' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sannu`',
@@ -14554,7 +14554,7 @@ $Lexicon = {
     {
       'types' => {
         'i.s.tinA`' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.s.tinA`',
@@ -15111,7 +15111,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.s.hiyf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.s.hiyf',
@@ -16296,7 +16296,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sliy.h' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sliy.h',
@@ -16343,7 +16343,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.slA.h' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i.slA.h',
@@ -16464,7 +16464,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sAlu.h' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sAlu.h',
@@ -16492,7 +16492,7 @@ $Lexicon = {
     {
       'types' => {
         'i.s.tilA.h' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.s.tilA.h',
@@ -16542,7 +16542,7 @@ $Lexicon = {
     {
       'types' => {
         'isti.slA.h' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti.slA.h',
@@ -16796,7 +16796,7 @@ $Lexicon = {
     {
       'types' => {
         'mu.s.tala.h' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'mu.s.tala.h',
@@ -16948,7 +16948,7 @@ $Lexicon = {
     {
       'types' => {
         'i.s.ti_hAb' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.s.ti_hAb',
@@ -17598,7 +17598,7 @@ $Lexicon = {
     {
       'types' => {
         'in.sirAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'in.sirAm',
@@ -18123,7 +18123,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.s.hiyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.s.hiyr',
@@ -18150,7 +18150,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sa.h.hur' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sa.h.hur',
@@ -18375,7 +18375,7 @@ $Lexicon = {
           'Ndip' => 1
         },
         'ta.sniyf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sniyf',
@@ -20260,7 +20260,7 @@ $Lexicon = {
     {
       'types' => {
         'i.s.tibA.g' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.s.tibA.g',
@@ -20853,7 +20853,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.srAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i.srAr',
@@ -21224,7 +21224,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sfiyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sfiyr',
@@ -21251,7 +21251,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sfiyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sfiyr',
@@ -21513,7 +21513,7 @@ $Lexicon = {
     {
       'types' => {
         'i.sfirAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.sfirAr',
@@ -21874,7 +21874,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sdiy`' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sdiy`',
@@ -21901,7 +21901,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.saddu`' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.saddu`',
@@ -22351,7 +22351,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sriyf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sriyf',
@@ -22399,7 +22399,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sarruf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sarruf',
@@ -22456,7 +22456,7 @@ $Lexicon = {
     {
       'types' => {
         'in.sirAf' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'in.sirAf',
@@ -22730,7 +22730,7 @@ $Lexicon = {
     {
       'types' => {
         'i.s.tikAk' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.s.tikAk',
@@ -23162,7 +23162,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sAyu.h' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sAyu.h',
@@ -24152,7 +24152,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.s.giyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.s.giyr',
@@ -24180,7 +24180,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.s.gAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i.s.gAr',
@@ -24209,7 +24209,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sA.gur' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sA.gur',
@@ -24647,7 +24647,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sAdum' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sAdum',
@@ -24675,7 +24675,7 @@ $Lexicon = {
     {
       'types' => {
         'i.s.tidAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.s.tidAm',
@@ -25135,7 +25135,7 @@ $Lexicon = {
     {
       'types' => {
         'in.sibAb' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'in.sibAb',
@@ -25794,7 +25794,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.saddur' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.saddur',
@@ -25822,7 +25822,7 @@ $Lexicon = {
     {
       'types' => {
         'i.s.tidAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.s.tidAr',
@@ -26272,7 +26272,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.sdAd' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i.sdAd',
@@ -27117,7 +27117,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.salluf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.salluf',
@@ -27839,7 +27839,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.s_hiyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.s_hiyr',
@@ -27866,7 +27866,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sa_h_hur' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sa_h_hur',
@@ -28374,7 +28374,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sfiyf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sfiyf',
@@ -28886,7 +28886,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.syiyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.syiyr',
@@ -30086,7 +30086,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.syiyf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.syiyf',
@@ -30133,7 +30133,7 @@ $Lexicon = {
     {
       'types' => {
         'i.stiyAf' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.stiyAf',
@@ -30402,7 +30402,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.sfiyd' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.sfiyd',
@@ -30430,7 +30430,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.sfAd' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i.sfAd',

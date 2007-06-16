@@ -707,7 +707,8 @@ lexicon = listing "Lexicon's properties"
     -- \$Hwm    $uHuwm  N/At    fat;grease;lubricants
 
     FaCL                      `noun`    {- \$aHom -}           [ "fat", "grease", "lubricant", "lubricants" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     -- ;; $aHomap_1
     -- \$Hm     $aHom   Napdu   lump
@@ -4984,7 +4985,7 @@ lexicon = listing "Lexicon's properties"
     -- \$kA'    $ak~A'  NapAt   querulous;complaining
 
     FaCCAL                    `adj`     {- \$ak~A' -}          [ "querulous", "complaining" ]
-                              `plural`     FaCCAL |< At |< Un,
+                              `plural`     FaCCAL |< Un,
 
     -- ;; {i$otikA'_1
     -- <$tkA'  {i$otikA'       N0_Nh   complaint;recrimination
@@ -5128,7 +5129,7 @@ lexicon = listing "Lexicon's properties"
     -- \$kA'    $ak~A'  NapAt   querulous;complaining
 
     FaCLA'                    `adj`     {- \$ak~A' -}          [ "querulous", "complaining" ]
-                              `plural`     FaCLA' |< At |< Un ]
+                              `plural`     FaCLA' |< Un ]
 
  |> "^s k l" <| [
 

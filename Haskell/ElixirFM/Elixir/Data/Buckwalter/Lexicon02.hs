@@ -1016,6 +1016,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- baHov -}            [ "search", "examination", "research" ]
                               `plural`     HaFCAL
                               `plural`     FuCUL |< At
+                              `plural`     FuCUL
                            {- `others`  [ "'ab.hA_t N" ] -},
 
     -- ;; baHoviy~_1
@@ -1706,7 +1707,7 @@ lexicon = listing "Lexicon's properties"
     FaCIL                     `adj`     {- baTiy' -}           [ "slow", "tardy" ]
                               `plural`     FiCAL
                               `plural`     FiCA'
-                              `plural`     FaCIL |< At |< Un
+                              `plural`     FaCIL |< Un
                            {- `others`  [ "bi.tA' N0" ] -},
 
     -- ;; >aboTa>_2
@@ -3018,7 +3019,7 @@ lexicon = listing "Lexicon's properties"
     -- b*y}    ba*iy}  Nuwn_Niyn       disgusting;obscene
 
     FaCIL                     `adj`     {- ba*iy' -}           [ "disgusting", "obscene" ]
-                              `plural`     FaCIL |< At |< Un,
+                              `plural`     FaCIL |< Un,
 
     -- ;; ba*A'_1
     -- b*A'    ba*A'   N0_Nh   obscenity;contempt
@@ -5805,7 +5806,7 @@ lexicon = listing "Lexicon's properties"
     -- bkA'    bikA'   N0      sparing;sparce
 
     FaCIL                     `adj`     {- bakiy' -}           [ "sparing", "sparce" ]
-                              `plural`     FaCIL |< At |< Un
+                              `plural`     FaCIL |< Un
                               `plural`     FiCAL
                               `plural`     FiCA'
                            {- `others`  [ "bikA' N0" ] -},
@@ -8967,7 +8968,7 @@ lexicon = listing "Lexicon's properties"
     -- brA}    barA}   Nhy     innocent;exempt
 
     FaCIL                     `adj`     {- bariy' -}           [ "innocent", "exempt" ]
-                              `plural`     FaCIL |< At |< Un
+                              `plural`     FaCIL |< Un
                               `plural`     FaCAL
                               `plural`     FaCA'
                               `plural`     FuCAL
@@ -11273,11 +11274,8 @@ lexicon = listing "Lexicon's properties"
 
     -- ;; basAlap_1
     -- bsAl    basAl   Nap     courage
-    -- <stbsAl {isotibosAl     N/At    courage
-    -- AstbsAl {isotibosAl     N/At    courage
 
-    FaCAL |< aT               `noun`    {- basAlap -}          [ "courage" ]
-                              `plural`     IstiFCAL |< At,
+    FaCAL |< aT               `noun`    {- basAlap -}          [ "courage" ],
 
     -- ;; bAsil_1
     -- bAsl    bAsil   N0      Basil
@@ -11295,6 +11293,13 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACiL
                               `plural`     FuCaLA'
                            {- `others`  [ "bawAsil Ndip", "busalA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; {isotibosAl_1
+    -- <stbsAl {isotibosAl     N/At    courage
+    -- AstbsAl {isotibosAl     N/At    courage
+
+    IstiFCAL                  `noun`    {- AisotibosAl -}      [ "courage" ]
+                              `plural`     IstiFCAL |< At,
 
     -- ;; musotabosil_1
     -- mstbsl  musotabosil     Nall    fearless;intrepid
@@ -13578,7 +13583,8 @@ lexicon = listing "Lexicon's properties"
     -- bywt    buyuwt  N/At    houses
 
     FaCL                      `noun`    {- bayot -}            [ "house", "houses" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     -- ;; bayot_4
     -- byt     bayot   Ndu     house;verse

@@ -5686,6 +5686,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- OalAy -}            [ "regiment" ]
                               `plural`     HACAL |< At
+                              `plural`     HACAL
                               `plural`     FaCAL |< At,
 
     -- ;; <ilaY_1

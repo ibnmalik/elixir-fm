@@ -192,7 +192,8 @@ lexicon = listing "Lexicon's properties"
     TaFaCCaL                  `verb`    {- tafaH~aS -}         [ "examine", "scrutinize", "inspect" ],
 
     FaCL                      `noun`    {- faHoS -}            [ "examination", "checkup", "scrutiny", "examinations", "checkups" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     FaCL                      `noun`    {- faHoS -}            [ "Fahs" ] ]
 
@@ -1300,7 +1301,8 @@ lexicon = listing "Lexicon's properties"
     IFtaCaL                   `verb`    {- AifotataH -}        [ "inaugurate", "open", "be inaugurated", "be opened" ],
 
     FaCL                      `noun`    {- fatoH -}            [ "opening", "beginning", "conquests", "achievements" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     FaCL                      `noun`    {- fatoH -}            [ "Fatah (PLO branch)" ],
 

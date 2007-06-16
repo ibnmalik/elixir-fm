@@ -492,6 +492,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- qiTAr -}            [ "train", "trains" ]
                               `plural`     FuCuL |< At
+                              `plural`     FuCuL
                               `plural`     FiCAL |< At,
 
     FuCL                      `noun`    {- quTor -}            [ "region", "district", "regions", "countries" ]

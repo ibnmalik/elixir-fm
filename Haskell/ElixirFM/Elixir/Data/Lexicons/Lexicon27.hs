@@ -727,7 +727,7 @@ lexicon = listing "Lexicon's properties"
     FaCAL |< Iy               `adj`     {- wabA}iy~ -}         [ "epidemical", "plague-like" ],
 
     FaCIL                     `adj`     {- wabiy' -}           [ "plague-stricken", "infested" ]
-                              `plural`     FaCIL |< At |< Un ]
+                              `plural`     FaCIL |< Un ]
 
  |> "w b l" <| [
 
@@ -885,7 +885,8 @@ lexicon = listing "Lexicon's properties"
     TaFACaL                   `verb`    {- tawAfar -}          [ "be available" ],
 
     FaCL                      `noun`    {- wafor -}            [ "abundance", "surplus", "excess" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     FaCL |< aT                `noun`    {- waforap -}          [ "abundance", "availability" ],
 

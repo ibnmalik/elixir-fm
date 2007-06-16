@@ -11701,7 +11701,7 @@ $Lexicon = {
     {
       'types' => {
         'ribA.t' => {
-          'N/At' => 1
+          'NAt' => 1
         },
         'rubu.t' => {
           'N' => 1
@@ -15297,7 +15297,7 @@ $Lexicon = {
     {
       'types' => {
         'ruwbuw.t' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ruwbuw.t',
@@ -21957,7 +21957,7 @@ $Lexicon = {
     {
       'types' => {
         '\'irbAk' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'irbAk',
@@ -25980,7 +25980,7 @@ $Lexicon = {
     {
       'types' => {
         'istirzAq' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'istirzAq',
@@ -26490,7 +26490,7 @@ $Lexicon = {
     {
       'types' => {
         'rusuwb' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'rusuwb',
@@ -26670,7 +26670,7 @@ $Lexicon = {
     {
       'types' => {
         'riykuwrdar' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'riykuwrdar',
@@ -27469,7 +27469,7 @@ $Lexicon = {
     {
       'types' => {
         'istirsAl' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'istirsAl',
@@ -28474,7 +28474,7 @@ $Lexicon = {
     {
       'types' => {
         'riybuwrtA^g' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'riybuwrtA^g',
@@ -32543,7 +32543,7 @@ $Lexicon = {
     {
       'types' => {
         'ruwbuwt' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ruwbuwt',
@@ -33735,7 +33735,7 @@ $Lexicon = {
     {
       'types' => {
         'tarahwun' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tarahwun',
@@ -33764,7 +33764,7 @@ $Lexicon = {
     {
       'types' => {
         'ribuwrtA^g' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ribuwrtA^g',
@@ -35580,7 +35580,7 @@ $Lexicon = {
     {
       'types' => {
         'rayyA.h' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'rayyA.h',
@@ -38878,7 +38878,7 @@ $Lexicon = {
     {
       'types' => {
         'istirwA.h' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'istirwA.h',
@@ -45358,7 +45358,7 @@ $Lexicon = {
     {
       'types' => {
         'raffAs' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'raffAs',
@@ -48569,7 +48569,7 @@ $Lexicon = {
     {
       'types' => {
         'tarawbu.s' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tarawbu.s',
@@ -49461,7 +49461,7 @@ $Lexicon = {
     {
       'types' => {
         'istir.hAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'istir.hAm',
@@ -50924,7 +50924,7 @@ $Lexicon = {
     {
       'types' => {
         'raffA.s' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'raffA.s',
@@ -52115,7 +52115,7 @@ $Lexicon = {
     {
       'types' => {
         'rAq' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'rAq',

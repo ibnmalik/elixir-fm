@@ -201,7 +201,7 @@ $Lexicon = {
     {
       'types' => {
         'tafarnus' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafarnus',
@@ -439,7 +439,7 @@ $Lexicon = {
           'Ndip' => 1
         },
         'taftiy^s' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'taftiy^s',
@@ -1218,7 +1218,7 @@ $Lexicon = {
     {
       'types' => {
         '\'if^sAl' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'if^sAl',
@@ -1522,7 +1522,7 @@ $Lexicon = {
     {
       'types' => {
         'tafa.t.tun' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafa.t.tun',
@@ -1702,7 +1702,7 @@ $Lexicon = {
     {
       'types' => {
         'tafarnu^g' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafarnu^g',
@@ -2438,7 +2438,7 @@ $Lexicon = {
     {
       'types' => {
         'tafriy.h' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafriy.h',
@@ -3432,7 +3432,7 @@ $Lexicon = {
     {
       'types' => {
         'tafqiys' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafqiys',
@@ -4543,7 +4543,7 @@ $Lexicon = {
     {
       'types' => {
         'tafliy`' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafliy`',
@@ -4570,7 +4570,7 @@ $Lexicon = {
     {
       'types' => {
         'infilA`' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'infilA`',
@@ -8205,7 +8205,7 @@ $Lexicon = {
     {
       'types' => {
         'tafriyd' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafriyd',
@@ -8274,7 +8274,7 @@ $Lexicon = {
     {
       'types' => {
         'infirAd' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'infirAd',
@@ -8436,7 +8436,7 @@ $Lexicon = {
     {
       'types' => {
         'tafarrud' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafarrud',
@@ -8779,7 +8779,7 @@ $Lexicon = {
     {
       'types' => {
         'infisA.h' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'infisA.h',
@@ -9127,7 +9127,7 @@ $Lexicon = {
     {
       'types' => {
         'tafriy.g' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafriy.g',
@@ -9155,7 +9155,7 @@ $Lexicon = {
     {
       'types' => {
         '\'ifrA.g' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'ifrA.g',
@@ -9184,7 +9184,7 @@ $Lexicon = {
     {
       'types' => {
         'tafarru.g' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafarru.g',
@@ -9212,7 +9212,7 @@ $Lexicon = {
     {
       'types' => {
         'istifrA.g' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'istifrA.g',
@@ -10011,7 +10011,7 @@ $Lexicon = {
     {
       'types' => {
         'tafkiyk' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafkiyk',
@@ -10040,7 +10040,7 @@ $Lexicon = {
     {
       'types' => {
         'tafakkuk' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafakkuk',
@@ -10069,7 +10069,7 @@ $Lexicon = {
     {
       'types' => {
         'infikAk' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'infikAk',
@@ -10097,7 +10097,7 @@ $Lexicon = {
     {
       'types' => {
         'iftikAk' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'iftikAk',
@@ -10480,7 +10480,7 @@ $Lexicon = {
     {
       'types' => {
         'tafa^g^gu`' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafa^g^gu`',
@@ -10776,7 +10776,7 @@ $Lexicon = {
     {
       'types' => {
         'istif.hAl' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'istif.hAl',
@@ -11444,7 +11444,7 @@ $Lexicon = {
     {
       'types' => {
         'tafliys' => {
-          'N/At' => 1
+          'NAt' => 1
         },
         'tafAliys' => {
           'Ndip' => 1
@@ -11500,7 +11500,7 @@ $Lexicon = {
     {
       'types' => {
         '\'iflAs' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'iflAs',
@@ -11558,7 +11558,7 @@ $Lexicon = {
     {
       'types' => {
         'tafallus' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafallus',
@@ -12268,7 +12268,7 @@ $Lexicon = {
     {
       'types' => {
         'taf.diyl' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'taf.diyl',
@@ -12335,7 +12335,7 @@ $Lexicon = {
     {
       'types' => {
         'tafa.d.dul' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafa.d.dul',
@@ -12362,7 +12362,7 @@ $Lexicon = {
     {
       'types' => {
         'tafA.dul' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafA.dul',
@@ -13171,7 +13171,7 @@ $Lexicon = {
     {
       'types' => {
         'infi`Al' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'infi`Al',
@@ -13242,7 +13242,7 @@ $Lexicon = {
     {
       'types' => {
         'ifti`Al' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'ifti`Al',
@@ -13691,7 +13691,7 @@ $Lexicon = {
     {
       'types' => {
         'tafkiyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafkiyr',
@@ -13720,7 +13720,7 @@ $Lexicon = {
     {
       'types' => {
         'tafakkur' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafakkur',
@@ -14351,7 +14351,7 @@ $Lexicon = {
     {
       'types' => {
         'tafawwuq' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafawwuq',
@@ -14501,7 +14501,7 @@ $Lexicon = {
     {
       'types' => {
         'ifti\'At' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'ifti\'',
@@ -14865,7 +14865,7 @@ $Lexicon = {
     {
       'types' => {
         'taf.hiym' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'taf.hiym',
@@ -15072,7 +15072,7 @@ $Lexicon = {
     {
       'types' => {
         'funu.grAf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'funu.grAf',
@@ -15477,7 +15477,7 @@ $Lexicon = {
     {
       'types' => {
         'iftirAs' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'iftirAs',
@@ -16161,7 +16161,7 @@ $Lexicon = {
     {
       'types' => {
         'taf.diy.h' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'taf.diy.h',
@@ -16189,7 +16189,7 @@ $Lexicon = {
     {
       'types' => {
         'ifti.dA.h' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'ifti.dA.h',
@@ -16812,7 +16812,7 @@ $Lexicon = {
     {
       'types' => {
         'tafqiy.s' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafqiy.s',
@@ -19028,7 +19028,7 @@ $Lexicon = {
     {
       'types' => {
         'infizAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'infizAr',
@@ -19386,7 +19386,7 @@ $Lexicon = {
     {
       'types' => {
         'tafaqqud' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafaqqud',
@@ -19663,7 +19663,7 @@ $Lexicon = {
     {
       'types' => {
         'tafniy.t' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafniy.t',
@@ -20112,7 +20112,7 @@ $Lexicon = {
     {
       'types' => {
         'faya.dAn' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'faya.dAn',
@@ -20955,7 +20955,7 @@ $Lexicon = {
     {
       'types' => {
         'infi.sAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'infi.sAm',
@@ -20985,7 +20985,7 @@ $Lexicon = {
     {
       'types' => {
         'infi.sAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'infi.sAm',
@@ -21773,7 +21773,7 @@ $Lexicon = {
     {
       'types' => {
         'tafriy`' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafriy`',
@@ -21821,7 +21821,7 @@ $Lexicon = {
     {
       'types' => {
         'tafarru`' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafarru`',
@@ -22395,7 +22395,7 @@ $Lexicon = {
     {
       'types' => {
         '\'ifsAd' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'ifsAd',
@@ -22977,7 +22977,7 @@ $Lexicon = {
     {
       'types' => {
         'istifsAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'istifsAr',
@@ -23906,7 +23906,7 @@ $Lexicon = {
     {
       'types' => {
         '\'ifrAz' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'ifrAz',
@@ -24040,7 +24040,7 @@ $Lexicon = {
     {
       'types' => {
         'tafriyz' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafriyz',
@@ -24682,7 +24682,7 @@ $Lexicon = {
     {
       'types' => {
         'tafwiyt' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafwiyt',
@@ -24709,7 +24709,7 @@ $Lexicon = {
     {
       'types' => {
         'tafAwut' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafAwut',
@@ -24957,7 +24957,7 @@ $Lexicon = {
     {
       'types' => {
         'tafalwur' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafalwur',
@@ -27538,7 +27538,7 @@ $Lexicon = {
     {
       'types' => {
         'tafriy.t' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafriy.t',
@@ -27565,7 +27565,7 @@ $Lexicon = {
     {
       'types' => {
         '\'ifrA.t' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'ifrA.t',
@@ -28215,7 +28215,7 @@ $Lexicon = {
     {
       'types' => {
         'infi.dA.d' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'infi.dA.d',
@@ -28245,7 +28245,7 @@ $Lexicon = {
     {
       'types' => {
         'ifti.dA.d' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'ifti.dA.d',
@@ -29089,7 +29089,7 @@ $Lexicon = {
     {
       'types' => {
         'taf_hiym' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'taf_hiym',
@@ -29117,7 +29117,7 @@ $Lexicon = {
     {
       'types' => {
         'taf_hiym' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'taf_hiym',
@@ -30424,7 +30424,7 @@ $Lexicon = {
     {
       'types' => {
         'taf^giyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'taf^giyr',
@@ -30453,7 +30453,7 @@ $Lexicon = {
     {
       'types' => {
         'taf^giyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'taf^giyr',
@@ -30501,7 +30501,7 @@ $Lexicon = {
     {
       'types' => {
         'tafa^g^gur' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafa^g^gur',
@@ -30529,7 +30529,7 @@ $Lexicon = {
     {
       'types' => {
         'infi^gAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'infi^gAr',
@@ -32631,7 +32631,7 @@ $Lexicon = {
     {
       'types' => {
         'tafattu.h' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafattu.h',
@@ -32681,7 +32681,7 @@ $Lexicon = {
     {
       'types' => {
         'infitA.h' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'infitA.h',
@@ -32714,7 +32714,7 @@ $Lexicon = {
           'N-ap' => 2
         },
         'iftitA.h' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'iftitA.h',
@@ -32767,7 +32767,7 @@ $Lexicon = {
     {
       'types' => {
         'istiftA.h' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'istiftA.h',
@@ -33076,7 +33076,7 @@ $Lexicon = {
     {
       'types' => {
         '\'iflAt' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'ifl',
@@ -33514,7 +33514,7 @@ $Lexicon = {
     {
       'types' => {
         'tafA.hu^s' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafA.hu^s',
@@ -34006,7 +34006,7 @@ $Lexicon = {
     {
       'types' => {
         'tafa.s.su.s' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafa.s.su.s',
@@ -34644,7 +34644,7 @@ $Lexicon = {
     {
       'types' => {
         'iftiyAt' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'iftiy',
@@ -34835,7 +34835,7 @@ $Lexicon = {
     {
       'types' => {
         'tafwiy.d' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafwiy.d',
@@ -35214,7 +35214,7 @@ $Lexicon = {
     {
       'types' => {
         'tafdiyn' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafdiyn',
@@ -35491,7 +35491,7 @@ $Lexicon = {
     {
       'types' => {
         'taftiyt' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'taftiyt',
@@ -35519,7 +35519,7 @@ $Lexicon = {
     {
       'types' => {
         'tafattut' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafattut',
@@ -35758,7 +35758,7 @@ $Lexicon = {
     {
       'types' => {
         'tafAqum' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafAqum',
@@ -36442,7 +36442,7 @@ $Lexicon = {
     {
       'types' => {
         'tafA_hur' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafA_hur',
@@ -36470,7 +36470,7 @@ $Lexicon = {
     {
       'types' => {
         'ifti_hAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'ifti_hAr',
@@ -37203,7 +37203,7 @@ $Lexicon = {
     {
       'types' => {
         'tafhiym' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafhiym',
@@ -37249,7 +37249,7 @@ $Lexicon = {
     {
       'types' => {
         'tafahhum' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafahhum',
@@ -37277,7 +37277,7 @@ $Lexicon = {
     {
       'types' => {
         'tafAhum' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafAhum',
@@ -37305,7 +37305,7 @@ $Lexicon = {
     {
       'types' => {
         'istifhAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'istifhAm',
@@ -37508,7 +37508,7 @@ $Lexicon = {
     {
       'types' => {
         'frAk' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'frAk',
@@ -37980,7 +37980,7 @@ $Lexicon = {
     {
       'types' => {
         'taf.siy.h' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'taf.siy.h',
@@ -38007,7 +38007,7 @@ $Lexicon = {
     {
       'types' => {
         '\'if.sA.h' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'if.sA.h',
@@ -38036,7 +38036,7 @@ $Lexicon = {
     {
       'types' => {
         'tafA.su.h' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafA.su.h',
@@ -38496,7 +38496,7 @@ $Lexicon = {
     {
       'types' => {
         'tafliyq' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafliyq',
@@ -38554,7 +38554,7 @@ $Lexicon = {
     {
       'types' => {
         'infilAq' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'infilAq',
@@ -38747,7 +38747,7 @@ $Lexicon = {
     {
       'types' => {
         'tafqiy`' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafqiy`',
@@ -38929,7 +38929,7 @@ $Lexicon = {
     {
       'types' => {
         'fiy^s' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'fiy^s',
@@ -39238,7 +39238,7 @@ $Lexicon = {
     {
       'types' => {
         'tafallu^g' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafallu^g',
@@ -39903,7 +39903,7 @@ $Lexicon = {
     {
       'types' => {
         'infilAt' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'infil',
@@ -39972,7 +39972,7 @@ $Lexicon = {
     {
       'types' => {
         'fuwnuw.grAf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'fuwnuw.grAf',
@@ -40947,7 +40947,7 @@ $Lexicon = {
     {
       'types' => {
         'istifzAz' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'istifzAz',
@@ -41295,7 +41295,7 @@ $Lexicon = {
     {
       'types' => {
         'tafannun' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafannun',
@@ -41324,7 +41324,7 @@ $Lexicon = {
     {
       'types' => {
         'iftinAn' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'iftinAn',
@@ -42544,7 +42544,7 @@ $Lexicon = {
     {
       'types' => {
         'tafriyq' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafriyq',
@@ -42572,7 +42572,7 @@ $Lexicon = {
     {
       'types' => {
         'tafriyq' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafriyq',
@@ -42661,7 +42661,7 @@ $Lexicon = {
     {
       'types' => {
         'tafarruq' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafarruq',
@@ -42689,7 +42689,7 @@ $Lexicon = {
     {
       'types' => {
         'iftirAq' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'iftirAq',
@@ -43346,7 +43346,7 @@ $Lexicon = {
     {
       'types' => {
         'tafniyd' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafniyd',
@@ -43432,7 +43432,7 @@ $Lexicon = {
     {
       'types' => {
         'tafA\'ul' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafA\'ul',
@@ -43911,7 +43911,7 @@ $Lexicon = {
     {
       'types' => {
         'tafriy_h' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafriy_h',
@@ -43939,7 +43939,7 @@ $Lexicon = {
     {
       'types' => {
         '\'ifrA_h' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'ifrA_h',
@@ -44252,7 +44252,7 @@ $Lexicon = {
     {
       'types' => {
         'tafar.tu.h' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafar.tu.h',
@@ -46285,7 +46285,7 @@ $Lexicon = {
     {
       'types' => {
         'tafqiyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafqiyr',
@@ -46312,7 +46312,7 @@ $Lexicon = {
     {
       'types' => {
         '\'ifqAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'ifqAr',
@@ -46543,7 +46543,7 @@ $Lexicon = {
     {
       'types' => {
         'tafqiy.t' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafqiy.t',
@@ -47925,7 +47925,7 @@ $Lexicon = {
     {
       'types' => {
         'tafakkuh' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tafakkuh',

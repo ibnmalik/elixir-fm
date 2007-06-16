@@ -289,7 +289,8 @@ lexicon = listing "Lexicon's properties"
  |> "` .t r" <| [
 
     FiCL                      `noun`    {- EiTor -}            [ "perfume" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     FiCL |< Iy                `adj`     {- EiToriy~ -}         [ "fragrant", "aromatic" ],
 
@@ -736,7 +737,7 @@ lexicon = listing "Lexicon's properties"
     FaCAL                     `noun`    {- EadA' -}            [ "aggression", "hostility", "anti-" ],
 
     FaCCAL                    `noun`    {- Ead~A' -}           [ "runner", "runners" ]
-                              `plural`     FaCCAL |< At |< Un,
+                              `plural`     FaCCAL |< Un,
 
     FaCAL |< Iy               `adj`     {- EadA}iy~ -}         [ "hostile", "aggressive" ],
 
@@ -801,7 +802,7 @@ lexicon = listing "Lexicon's properties"
     MustaFiCL                 `adj`     {- musotaEid~ -}       [ "ready", "prepared" ],
 
     FaCLA'                    `noun`    {- Ead~A' -}           [ "runner", "runners" ]
-                              `plural`     FaCLA' |< At |< Un ]
+                              `plural`     FaCLA' |< Un ]
 
  |> "` d l" <| [
 
@@ -2006,7 +2007,8 @@ lexicon = listing "Lexicon's properties"
     IstaFCaL                  `verb`    {- AisotaEoraD -}      [ "review", "inspect" ],
 
     FaCL                      `noun`    {- EaroD -}            [ "presentation", "review", "show", "offer", "offers", "tenders" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     FaCL                      `noun`    {- EaroD -}            [ "supply" ],
 

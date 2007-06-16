@@ -667,7 +667,8 @@ lexicon = listing "Lexicon's properties"
     -- k$wf    ku$uwf  N/At    reports;disclosures
 
     FaCL                      `noun`    {- ka$of -}            [ "report", "revelation", "disclosure", "examination", "reports", "disclosures" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     -- ;; ka$of_2
     -- k$f     ka$of   Ndu     registry;roster
@@ -5087,7 +5088,8 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCAL                   `noun`    {- AikotinAh -}        [ "probing", "exploring" ]
                               `plural`     IFtiCAL |< At
-                              `plural`     IstiFCAL |< At ]
+                              `plural`     IstiFCAL |< At
+                              `plural`     IstiFCAL ]
 
  |> "k n k" <| [
 

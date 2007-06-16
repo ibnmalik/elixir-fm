@@ -1389,6 +1389,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- saqof -}            [ "roof", "roofs" ]
                               `plural`     FuCUL |< At
+                              `plural`     FuCUL
                               `plural`     FuCuL
                            {- `others`  [ "suquf N" ] -} ]
 
@@ -1663,10 +1664,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     IFtiyAL |< At,
 
     MuFIL                     `adj`     {- musiy' -}           [ "insulting", "harming", "pernicious" ]
-                              `plural`     MuFIL |< At |< Un,
+                              `plural`     MuFIL |< Un,
 
     MuFtAL                    `adj`     {- musotA' -}          [ "unhappy", "displeased", "dissatisfied" ]
-                              `plural`     MuFtAL |< At |< Un,
+                              `plural`     MuFtAL |< Un,
 
     FaCAL                     `noun`    {- sawA' -}            [ "except", "whether" ],
 
@@ -1897,10 +1898,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     IFtiCA' |< At,
 
     MuFIL                     `adj`     {- musiy' -}           [ "insulting", "harming", "pernicious" ]
-                              `plural`     MuFIL |< At |< Un,
+                              `plural`     MuFIL |< Un,
 
     FaCCiL                    `noun`    {- say~i' -}           [ "bad" ]
-                              `plural`     FaCCiL |< At |< Un ]
+                              `plural`     FaCCiL |< Un ]
 
  |> "s y .h" <| [
 

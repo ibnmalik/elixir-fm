@@ -1988,7 +1988,7 @@ $Lexicon = {
     {
       'types' => {
         'santimitr' => {
-          'N/At' => 1
+          'NAt' => 1
         },
         'santiymitr' => {
           'N/At' => 1
@@ -5190,7 +5190,7 @@ $Lexicon = {
     {
       'types' => {
         'musakkin' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'musakkin',
@@ -13648,7 +13648,7 @@ $Lexicon = {
     {
       'types' => {
         'simA.t' => {
-          'N/At' => 1
+          'NAt' => 1
         },
         'sumu.t' => {
           'N' => 1
@@ -19053,7 +19053,7 @@ $Lexicon = {
     {
       'types' => {
         'taswiy.g' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'taswiy.g',
@@ -19100,7 +19100,7 @@ $Lexicon = {
     {
       'types' => {
         'musawwi.g' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'musawwi.g',
@@ -20348,7 +20348,7 @@ $Lexicon = {
     {
       'types' => {
         'mushil' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'mushil',
@@ -27327,7 +27327,7 @@ $Lexicon = {
     {
       'types' => {
         'sanad' => {
-          'N/At' => 1
+          'NAt' => 1
         },
         '\'asnAd' => {
           'N' => 4
@@ -27366,7 +27366,7 @@ $Lexicon = {
     {
       'types' => {
         'sanad' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'sanad',
@@ -36212,7 +36212,7 @@ $Lexicon = {
     {
       'types' => {
         'tasakku`' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tasakku`',
@@ -39439,7 +39439,7 @@ $Lexicon = {
     {
       'types' => {
         'istisrAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'istisrAr',
@@ -40477,7 +40477,7 @@ $Lexicon = {
     {
       'types' => {
         'muskir' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'muskir',
@@ -40561,7 +40561,7 @@ $Lexicon = {
     {
       'types' => {
         'sukkariyy' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'sukkar',
@@ -41056,7 +41056,7 @@ $Lexicon = {
     {
       'types' => {
         'surAdiq' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'surAdiq',
@@ -47373,7 +47373,7 @@ $Lexicon = {
     {
       'types' => {
         'santiym' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'santiym',

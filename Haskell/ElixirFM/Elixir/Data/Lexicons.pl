@@ -211,11 +211,20 @@ sub showEntry ($) {
 
             my $suffix = '';
 
-            $suffix .= ' |< At' if grep { /At(?:_|$)/  } @types;
-            $suffix .= ' |< aT' if grep { /ap(?:_|$)/  } @types;
-            $suffix .= ' |< Un' if grep { /iyn(?:_|$)/ } @types;
+            if (grep { /iyn(?:_|$)/ } @types) {
 
-            push @{$plural}, map { $_ . $suffix } @{$entry->{'patterns'}->{$form}};
+                $suffix .= ' |< Un';
+            }
+            else {
+
+                $suffix .= ' |< At' if grep { /At(?:_|$)/ } @types;
+                $suffix .= ' |< aT' if grep { /ap(?:_|$)/ } @types;
+            }
+
+            my $grep = grep { /^N\/At(?:_|$)/ } @types;
+
+            push @{$plural}, map { $_ . $suffix, $grep && $_ ne $entry->{'morphs'}
+                                    ? $_ : () } @{$entry->{'patterns'}->{$form}};
 
             @types = grep { not /At(?:_|$)/ || /ap(?:_|$)/ || /iyn(?:_|$)/ } @types;
 

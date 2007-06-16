@@ -5178,7 +5178,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.hAkk' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.hAkk',
@@ -7730,7 +7730,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.hAtt' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.hAtt',
@@ -15208,7 +15208,7 @@ $Lexicon = {
     {
       'types' => {
         '.hammAm' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => '.hammAm',
@@ -15321,7 +15321,7 @@ $Lexicon = {
     {
       'types' => {
         'isti.hmAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti.hmAm',
@@ -17398,7 +17398,7 @@ $Lexicon = {
     {
       'types' => {
         '.habAr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => '.habAr',
@@ -31876,7 +31876,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.hassub' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.hassub',
@@ -32447,7 +32447,7 @@ $Lexicon = {
     {
       'types' => {
         'i.hmirAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.hmirAr',
@@ -35097,7 +35097,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.hakkum' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.hakkum',
@@ -35145,7 +35145,7 @@ $Lexicon = {
     {
       'types' => {
         'isti.hkAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti.hkAm',
@@ -38512,7 +38512,7 @@ $Lexicon = {
     {
       'types' => {
         'isti.hdA_t' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti.hdA_t',
@@ -40731,7 +40731,7 @@ $Lexicon = {
     {
       'types' => {
         'isti.h.dAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti.h.dAr',
@@ -46285,7 +46285,7 @@ $Lexicon = {
     {
       'types' => {
         'isti.hsAn' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti.hsAn',
@@ -52416,7 +52416,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.hriyk' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.hriyk',

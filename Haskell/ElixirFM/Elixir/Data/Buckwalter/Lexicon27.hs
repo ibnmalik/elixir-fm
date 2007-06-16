@@ -300,7 +300,7 @@ lexicon = listing "Lexicon's properties"
     -- wDA}    wiDA}   Nhy     pure;clean
 
     FaCIL                     `adj`     {- waDiy' -}           [ "pure", "clean" ]
-                              `plural`     FaCIL |< At |< Un
+                              `plural`     FaCIL |< Un
                               `plural`     FiCAL
                               `plural`     FiCA'
                            {- `others`  [ "wi.dA' Nh N0_Nh Nhy" ] -},
@@ -1998,7 +1998,7 @@ lexicon = listing "Lexicon's properties"
     -- wTy}    waTiy}  Nuwn_Niyn       low;flat
 
     FaCIL                     `adj`     {- waTiy' -}           [ "low", "flat" ]
-                              `plural`     FaCIL |< At |< Un,
+                              `plural`     FaCIL |< Un,
 
     -- ;; >awoTa>_2
     -- >wT>    >awoTa> N0_Nh   lower/lowest
@@ -4520,7 +4520,7 @@ lexicon = listing "Lexicon's properties"
     -- wby}    wabiy}  Nuwn_Niyn       plague-stricken;infested
 
     FaCIL                     `adj`     {- wabiy' -}           [ "plague-stricken", "infested" ]
-                              `plural`     FaCIL |< At |< Un,
+                              `plural`     FaCIL |< Un,
 
     -- ;; mawobuw'_1
     -- mwbw'   mawobuw'        Nall    plague-stricken;infested     [[mawobuw'/ADJ]]
@@ -5422,7 +5422,8 @@ lexicon = listing "Lexicon's properties"
     -- wfwr    wufuwr  N/At    abundance;surplus;excess
 
     FaCL                      `noun`    {- wafor -}            [ "abundance", "surplus", "excess" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     -- ;; waforap_1
     -- wfr     wafor   Nap     abundance;availability

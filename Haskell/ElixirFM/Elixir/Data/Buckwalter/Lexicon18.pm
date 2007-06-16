@@ -546,7 +546,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`miyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`miyr',
@@ -644,7 +644,7 @@ $Lexicon = {
     {
       'types' => {
         'isti`mAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti`mAr',
@@ -1431,7 +1431,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`qiyd' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`qiyd',
@@ -1459,7 +1459,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`aqqud' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`aqqud',
@@ -1487,7 +1487,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`Aqud' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`Aqud',
@@ -1534,7 +1534,7 @@ $Lexicon = {
     {
       'types' => {
         'in`iqAd' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'in`iqAd',
@@ -1563,7 +1563,7 @@ $Lexicon = {
     {
       'types' => {
         'i`tiqAd' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`tiqAd',
@@ -2298,7 +2298,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`affun' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`affun',
@@ -2664,7 +2664,7 @@ $Lexicon = {
     {
       'types' => {
         'i`tinAq' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`tinAq',
@@ -3355,7 +3355,7 @@ $Lexicon = {
     {
       'types' => {
         'i`tiyAd' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`tiyAd',
@@ -4040,7 +4040,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`miym' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`miym',
@@ -5003,7 +5003,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`^siy^s' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`^siy^s',
@@ -5635,7 +5635,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`affuf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`affuf',
@@ -5877,7 +5877,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`.diyd' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`.diyd',
@@ -5933,7 +5933,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`A.dud' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`A.dud',
@@ -6537,7 +6537,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`biyd' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`biyd',
@@ -6565,7 +6565,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`abbud' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`abbud',
@@ -6593,7 +6593,7 @@ $Lexicon = {
     {
       'types' => {
         'isti`bAd' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti`bAd',
@@ -8856,7 +8856,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`tAq' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`tAq',
@@ -8884,7 +8884,7 @@ $Lexicon = {
     {
       'types' => {
         'in`itAq' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'in`itAq',
@@ -9850,7 +9850,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`miyl' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`miyl',
@@ -9898,7 +9898,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`ammul' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`ammul',
@@ -9925,7 +9925,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`Amul' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`Amul',
@@ -10539,7 +10539,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`^gAz' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`^gAz',
@@ -10957,7 +10957,7 @@ $Lexicon = {
     {
       'types' => {
         'in`izAl' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'in`izAl',
@@ -11027,7 +11027,7 @@ $Lexicon = {
     {
       'types' => {
         'i`tizAl' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`tizAl',
@@ -12961,7 +12961,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`antur' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`antur',
@@ -13391,7 +13391,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`riys' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`riys',
@@ -13418,7 +13418,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`rAs' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`rAs',
@@ -13773,7 +13773,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`alluq' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`alluq',
@@ -14228,7 +14228,7 @@ $Lexicon = {
     {
       'types' => {
         'i`tiyA.s' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`tiyA.s',
@@ -14453,7 +14453,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`wAz' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`wAz',
@@ -15591,7 +15591,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`anfu.s' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`anfu.s',
@@ -16719,7 +16719,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`^siyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`^siyr',
@@ -16977,7 +16977,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`a^gruf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`a^gruf',
@@ -17930,7 +17930,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`annut' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`annut',
@@ -18340,7 +18340,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`kiyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`kiyr',
@@ -18959,7 +18959,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`riyf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`riyf',
@@ -19653,7 +19653,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`miyq' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`miyq',
@@ -19700,7 +19700,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`ammuq' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`ammuq',
@@ -19994,7 +19994,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`Awun' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`Awun',
@@ -20714,7 +20714,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`.tiys' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`.tiys',
@@ -20999,7 +20999,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`tiyd' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`tiyd',
@@ -21281,7 +21281,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`fiyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`fiyr',
@@ -21862,7 +21862,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`^siyq' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`^siyq',
@@ -22423,7 +22423,7 @@ $Lexicon = {
     {
       'types' => {
         'i`tibA.t' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`tibA.t',
@@ -23612,7 +23612,7 @@ $Lexicon = {
           'Ndip' => 1
         },
         'ta`biyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`biyr',
@@ -24532,7 +24532,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`riy.d' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`riy.d',
@@ -24597,7 +24597,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`rA.d' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`rA.d',
@@ -24625,7 +24625,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`arru.d' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`arru.d',
@@ -24653,7 +24653,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`Aru.d' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`Aru.d',
@@ -24681,7 +24681,7 @@ $Lexicon = {
     {
       'types' => {
         'i`tirA.d' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`tirA.d',
@@ -24732,7 +24732,7 @@ $Lexicon = {
     {
       'types' => {
         'isti`rA.d' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti`rA.d',
@@ -25289,7 +25289,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`tiym' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`tiym',
@@ -25317,7 +25317,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`tiym' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`tiym',
@@ -25345,7 +25345,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`tAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`tAm',
@@ -26173,7 +26173,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`ziyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`ziyr',
@@ -26201,7 +26201,7 @@ $Lexicon = {
     {
       'types' => {
         'i`tizAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`tizAr',
@@ -26521,7 +26521,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`diyn' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`diyn',
@@ -27385,7 +27385,7 @@ $Lexicon = {
     {
       'types' => {
         'i`tilAl' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`tilAl',
@@ -28064,7 +28064,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`ziyz' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`ziyz',
@@ -28092,7 +28092,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`zAz' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`zAz',
@@ -28121,7 +28121,7 @@ $Lexicon = {
     {
       'types' => {
         'i`tizAz' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`tizAz',
@@ -31876,7 +31876,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`_dAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`_dAr',
@@ -31905,7 +31905,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`a_d_dur' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`a_d_dur',
@@ -31933,7 +31933,7 @@ $Lexicon = {
     {
       'types' => {
         'i`ti_dAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`ti_dAr',
@@ -32475,7 +32475,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`arru^g' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`arru^g',
@@ -33396,7 +33396,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`.tiyl' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`.tiyl',
@@ -33425,7 +33425,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`a.t.tul' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`a.t.tul',
@@ -33909,7 +33909,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`riyb' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`riyb',
@@ -33937,7 +33937,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`rAb' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`rAb',
@@ -34852,7 +34852,7 @@ $Lexicon = {
           'Nap' => 2
         },
         '`a_dAb' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => '`a_dAb',
@@ -34926,7 +34926,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`_diyb' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`_diyb',
@@ -35394,7 +35394,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`niyf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`niyf',
@@ -35715,7 +35715,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`.tiyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`.tiyr',
@@ -36609,7 +36609,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`dAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`dAm',
@@ -36638,7 +36638,7 @@ $Lexicon = {
     {
       'types' => {
         'in`idAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'in`idAm',
@@ -37465,7 +37465,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`aqqub' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`aqqub',
@@ -37493,7 +37493,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`Aqub' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`Aqub',
@@ -38496,7 +38496,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`arruq' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`arruq',
@@ -38726,7 +38726,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`biys' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`biys',
@@ -38873,7 +38873,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`liyb' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`liyb',
@@ -40038,7 +40038,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`aqqul' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`aqqul',
@@ -40085,7 +40085,7 @@ $Lexicon = {
     {
       'types' => {
         'i`tiqAl' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`tiqAl',
@@ -40607,7 +40607,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`wiym' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`wiym',
@@ -42443,7 +42443,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`lAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`lAm',
@@ -42493,7 +42493,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`allum' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`allum',
@@ -42521,7 +42521,7 @@ $Lexicon = {
     {
       'types' => {
         'isti`lAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti`lAm',
@@ -43174,7 +43174,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`a.t.tuf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`a.t.tuf',
@@ -43202,7 +43202,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`A.tuf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`A.tuf',
@@ -43249,7 +43249,7 @@ $Lexicon = {
     {
       'types' => {
         'in`i.tAf' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'in`i.tAf',
@@ -43300,7 +43300,7 @@ $Lexicon = {
     {
       'types' => {
         'isti`.tAf' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti`.tAf',
@@ -43985,7 +43985,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`Awur' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`Awur',
@@ -44430,7 +44430,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`anqud' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`anqud',
@@ -45657,7 +45657,7 @@ $Lexicon = {
     {
       'types' => {
         '`addAd' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => '`addAd',
@@ -45734,7 +45734,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`diyd' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`diyd',
@@ -45762,7 +45762,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`dAd' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`dAd',
@@ -45811,7 +45811,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`addud' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`addud',
@@ -45859,7 +45859,7 @@ $Lexicon = {
     {
       'types' => {
         'i`tidAd' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`tidAd',
@@ -47223,7 +47223,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`wiy^g' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`wiy^g',
@@ -47251,7 +47251,7 @@ $Lexicon = {
     {
       'types' => {
         'i`wi^gA^g' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`wi^gA^g',
@@ -47280,7 +47280,7 @@ $Lexicon = {
     {
       'types' => {
         'i`wi^gA^g' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`wi^gA^g',
@@ -47350,7 +47350,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`nAt' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`n',
@@ -47863,7 +47863,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`sAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`sAr',
@@ -47893,7 +47893,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`assur' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`assur',
@@ -48280,7 +48280,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`qiym' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`qiym',
@@ -48833,7 +48833,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`.siyb' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`.siyb',
@@ -48860,7 +48860,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`a.s.sub' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`a.s.sub',
@@ -48910,7 +48910,7 @@ $Lexicon = {
     {
       'types' => {
         'i`ti.sAb' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`ti.sAb',
@@ -50296,7 +50296,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`.siyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`.siyr',
@@ -50326,7 +50326,7 @@ $Lexicon = {
           'Ndip' => 2
         },
         '\'i`.sAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`.sAr',
@@ -50595,7 +50595,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`arqul' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`arqul',
@@ -52078,7 +52078,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`wAl' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`wAl',
@@ -53133,7 +53133,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`Adul' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`Adul',
@@ -53161,7 +53161,7 @@ $Lexicon = {
     {
       'types' => {
         'i`tidAl' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`tidAl',
@@ -53672,7 +53672,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`assuf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`assuf',
@@ -53746,7 +53746,7 @@ $Lexicon = {
     {
       'types' => {
         'i`tisAf' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`tisAf',
@@ -53958,7 +53958,7 @@ $Lexicon = {
     {
       'types' => {
         '`u_tuwr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => '`u_tuwr',
@@ -54472,7 +54472,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`^giyb' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`^giyb',
@@ -54499,7 +54499,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i`^gAb' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i`^gAb',
@@ -54529,7 +54529,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`a^g^gub' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`a^g^gub',
@@ -54557,7 +54557,7 @@ $Lexicon = {
     {
       'types' => {
         'isti`^gAb' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti`^gAb',
@@ -55388,7 +55388,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`.ziym' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`.ziym',
@@ -55416,7 +55416,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`.ziym' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`.ziym',
@@ -56090,7 +56090,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`wiyd' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`wiyd',
@@ -56160,7 +56160,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`awwud' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`awwud',
@@ -56906,7 +56906,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`yiyn' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`yiyn',
@@ -57497,7 +57497,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`Ayu^s' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`Ayu^s',
@@ -58440,7 +58440,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`.tiyb' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`.tiyb',
@@ -58468,7 +58468,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`a.t.tub' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`a.t.tub',
@@ -59315,7 +59315,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`a.t.tu^s' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`a.t.tu^s',
@@ -62136,7 +62136,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`^giyl' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`^giyl',
@@ -62191,7 +62191,7 @@ $Lexicon = {
     {
       'types' => {
         'isti`^gAl' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti`^gAl',
@@ -63452,7 +63452,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`ziym' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`ziym',
@@ -64183,7 +64183,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`.diyl' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`.diyl',
@@ -65285,7 +65285,7 @@ $Lexicon = {
     {
       'types' => {
         'i`ti.sAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`ti.sAm',
@@ -65316,7 +65316,7 @@ $Lexicon = {
     {
       'types' => {
         'i`ti.sAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i`ti.sAm',
@@ -66231,7 +66231,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`Alu^g' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`Alu^g',
@@ -68034,7 +68034,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`miyd' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`miyd',
@@ -68061,7 +68061,7 @@ $Lexicon = {
     {
       'types' => {
         'ta`ammud' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta`ammud',

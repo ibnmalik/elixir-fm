@@ -566,8 +566,12 @@ sub storeType {
         $form =~ s/(?<![aiuIU])yA$/yY/;    ## Fischer (2001), par 10
     }
 
-    return unless $form ne $Entry->{'form'} or $type =~ /^[CIP]V/
-                                            or $type =~ /(?:At|iyn)(?:_|$)/;
+    if ($form eq $Entry->{'form'}) {
+
+        return unless $type =~ /^[CIP]V/ or $type =~ /(?:At|iyn)(?:_|$)/;
+
+        $type =~ s/^N\/At/NAt/;
+    }
 
     $Entry->{'types'}->{$form}->{$type}++;
 }

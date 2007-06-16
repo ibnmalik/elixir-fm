@@ -2867,6 +2867,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- qiTAr -}            [ "train", "trains" ]
                               `plural`     FuCuL |< At
+                              `plural`     FuCuL
                               `plural`     FiCAL |< At,
 
     -- ;; quTor_1
@@ -7876,7 +7877,7 @@ lexicon = listing "Lexicon's properties"
     -- qmy}    qamiy}  Nuwn_Niyn       humble;unattractive
 
     FaCIL                     `adj`     {- qamiy' -}           [ "humble", "unattractive" ]
-                              `plural`     FaCIL |< At |< Un,
+                              `plural`     FaCIL |< Un,
 
     -- ;; qamA'ap_1
     -- qmA'    qamA'   Nap     humbleness;unattractiveness

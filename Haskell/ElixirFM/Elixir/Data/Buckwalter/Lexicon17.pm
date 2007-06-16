@@ -959,7 +959,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.zhiyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.zhiyr',
@@ -987,7 +987,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.zhiyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.zhiyr',
@@ -1072,7 +1072,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.zhAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i.zhAr',
@@ -2203,7 +2203,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.zriyf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.zriyf',
@@ -2231,7 +2231,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.zarruf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.zarruf',
@@ -3225,7 +3225,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.zlAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i.zlAm',
@@ -3254,7 +3254,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.zallum' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.zallum',

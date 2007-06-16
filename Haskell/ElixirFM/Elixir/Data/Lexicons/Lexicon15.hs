@@ -157,6 +157,7 @@ lexicon = listing "Lexicon's properties"
     FiCL                      `noun`    {- DiEof -}            [ "double", "multiple", "multiples", "doubling", "multiplying" ]
                               `plural`     HaFCAL
                               `plural`     TaFCIL |< At
+                              `plural`     TaFCIL
                            {- `others`  [ "'a.d`Af N" ] -},
 
     MuFACaL |< aT             `noun`    {- muDAEafap -}        [ "doubling", "compounding" ],

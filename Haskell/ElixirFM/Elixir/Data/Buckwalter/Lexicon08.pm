@@ -11349,7 +11349,7 @@ $Lexicon = {
           'Nap' => 2
         },
         'dihAn' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'dihAn',
@@ -14639,7 +14639,7 @@ $Lexicon = {
     {
       'types' => {
         'dAy' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'dAy',
@@ -15617,7 +15617,7 @@ $Lexicon = {
     {
       'types' => {
         'diykuwr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'diykuwr',
@@ -17295,7 +17295,7 @@ $Lexicon = {
     {
       'types' => {
         'diyAluw^g' => {
-          'N/At' => 1
+          'NAt' => 1
         },
         'diyAluw.g' => {
           'N/At' => 1
@@ -17791,7 +17791,7 @@ $Lexicon = {
     {
       'types' => {
         'idlihmAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'idlihmAm',
@@ -18493,7 +18493,7 @@ $Lexicon = {
     {
       'types' => {
         'dA.g' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'dA.g',
@@ -21643,7 +21643,7 @@ $Lexicon = {
     {
       'types' => {
         'duw^s' => {
-          'N/At' => 1
+          'NAt' => 1
         },
         'du^s' => {
           'N' => 1
@@ -28863,7 +28863,7 @@ $Lexicon = {
     {
       'types' => {
         'istidrA^g' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'istidrA^g',

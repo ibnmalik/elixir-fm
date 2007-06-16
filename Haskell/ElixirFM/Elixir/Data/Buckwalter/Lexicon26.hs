@@ -3872,7 +3872,7 @@ lexicon = listing "Lexicon's properties"
     -- hny}    haniy}  Nuwn_Niyn       healthful;beneficial;pleasant
 
     FaCIL                     `adj`     {- haniy' -}           [ "healthful", "beneficial", "pleasant" ]
-                              `plural`     FaCIL |< At |< Un,
+                              `plural`     FaCIL |< Un,
 
     -- ;; haniy}_1
     -- hny}    haniy}  NF      bon appetit!     [[haniy}/ADV]]
@@ -4563,7 +4563,8 @@ lexicon = listing "Lexicon's properties"
     -- AhrAm   >ahorAm N/At    pyramids
 
     FaCaL                     `noun`    {- haram -}            [ "pyramid", "pyramids" ]
-                              `plural`     HaFCAL |< At,
+                              `plural`     HaFCAL |< At
+                              `plural`     HaFCAL,
 
     -- ;; >ahorAm_1
     -- >hrAm   >ahorAm N0      Ahram
@@ -6199,7 +6200,7 @@ lexicon = listing "Lexicon's properties"
     -- mhy}    muhay~a}        NAt     prepared
 
     MuFaCCaL                  `noun`    {- muhay~aO -}         [ "prepared" ]
-                              `plural`     MuFaCCaL |< At |< Un ]
+                              `plural`     MuFaCCaL |< Un ]
 
  |> "h y .d" <| [
 

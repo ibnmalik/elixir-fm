@@ -36,7 +36,7 @@ recode = id
 
 arabicDict :: Dictionary
 
-arabicDict = (dictionary . (++) extradict . concat . map lex2dict)  $ take 40 $ drop 1000
+arabicDict = (dictionary . (++) extradict . concat . map lex2dict)  -- $ take 5000 -- $ drop 1000
                                                                     lexicon
 
     where   extradict = [ ("wa-", "Conj", [], [ ("\nC---------", (1, ["wa-"])) ]) ]
@@ -51,7 +51,7 @@ arabicDict = (dictionary . (++) extradict . concat . map lex2dict)  $ take 40 $ 
                                     "Noun", [],
                                     [ (show v, (0, recode (inflect (RE x y) v))) | v :: ParaNoun <- values ])
 
-                Verb _ _ _      -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaVerb -> [String]),
+                Verb _ _ _ _ _ _ -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaVerb -> [String]),
                                     "Verb", [],
                                     [ (show v, (0, recode (inflect (RE x y) v))) | v :: ParaVerb <- values ])
 

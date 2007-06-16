@@ -883,7 +883,7 @@ lexicon = listing "Lexicon's properties"
  |> "r d '" <| [
 
     FaCIL                     `adj`     {- radiy' -}           [ "bad", "wicked", "malicious" ]
-                              `plural`     FaCIL |< At |< Un,
+                              `plural`     FaCIL |< Un,
 
     FaCAL |< aT               `noun`    {- radA'ap -}          [ "wickedness", "maliciousness" ],
 
@@ -1148,7 +1148,8 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- rahon -}            [ "mortgaging", "pawning", "pledging" ],
 
     FaCL                      `noun`    {- rahon -}            [ "mortgage", "security", "mortgages", "securities" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     FaCIL                     `noun`    {- rahiyn -}           [ "mortgaged", "security", "mortgage" ],
 

@@ -5635,7 +5635,8 @@ lexicon = listing "Lexicon's properties"
     -- n*wr    nu*uwr  N/At    vows;pledges
 
     FaCL                      `noun`    {- na*or -}            [ "vow", "pledge", "vows", "pledges" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     -- ;; na*iyr_1
     -- n*yr    na*iyr  Ndu     warning;alarm

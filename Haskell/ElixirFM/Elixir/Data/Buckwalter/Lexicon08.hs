@@ -2341,7 +2341,7 @@ lexicon = listing "Lexicon's properties"
     -- dfy}    dafiy}  Nuwn_Niyn       warm
 
     FaCIL                     `adj`     {- dafiy' -}           [ "warm" ]
-                              `plural`     FaCIL |< At |< Un,
+                              `plural`     FaCIL |< Un,
 
     -- ;; dafo|n_1
     -- df|n    dafo|n  Ndip    warm
@@ -3038,6 +3038,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCL                      `noun`    {- duhon -}            [ "oil", "grease", "fat" ]
                               `plural`     FuCUL |< At
+                              `plural`     FuCUL
                               `plural`     HaFCAL
                               `plural`     FiCAL
                            {- `others`  [ "'adhAn N", "dihAn N" ] -},
@@ -4711,7 +4712,7 @@ lexicon = listing "Lexicon's properties"
     -- AdnA}   >adonA} Nhy     contemptible;inferior
 
     FaCIL                     `adj`     {- daniy' -}           [ "contemptible", "inferior" ]
-                              `plural`     FaCIL |< At |< Un
+                              `plural`     FaCIL |< Un
                               `plural`     HaFCAL
                               `plural`     HaFCA'
                            {- `others`  [ "'adnA' Nh N0_Nh Nhy" ] -},

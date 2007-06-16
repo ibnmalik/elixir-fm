@@ -112,6 +112,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- baHov -}            [ "search", "examination", "research" ]
                               `plural`     HaFCAL
                               `plural`     FuCUL |< At
+                              `plural`     FuCUL
                            {- `others`  [ "'ab.hA_t N" ] -},
 
     FaCL |< Iy                `adj`     {- baHoviy~ -}         [ "research" ],
@@ -194,7 +195,7 @@ lexicon = listing "Lexicon's properties"
     FaCIL                     `adj`     {- baTiy' -}           [ "slow", "tardy" ]
                               `plural`     FiCAL
                               `plural`     FiCA'
-                              `plural`     FaCIL |< At |< Un
+                              `plural`     FaCIL |< Un
                            {- `others`  [ "bi.tA' N0" ] -},
 
     HiFCAL                    `noun`    {- IiboTA' -}          [ "delay", "slowing down" ]
@@ -1223,7 +1224,7 @@ lexicon = listing "Lexicon's properties"
     TaFaCCaL                  `verb`    {- tabar~aO -}         [ "be absolved", "be innocent" ],
 
     FaCIL                     `adj`     {- bariy' -}           [ "innocent", "exempt" ]
-                              `plural`     FaCIL |< At |< Un
+                              `plural`     FaCIL |< Un
                               `plural`     FaCAL
                               `plural`     FaCA'
                               `plural`     FuCAL
@@ -1822,7 +1823,8 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- bayot -}            [ "Bet" ],
 
     FaCL                      `noun`    {- bayot -}            [ "house", "houses" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     FaCL                      `noun`    {- bayot -}            [ "house", "verse", "verses" ]
                               `plural`     HaFCAL

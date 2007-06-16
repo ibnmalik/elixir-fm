@@ -464,7 +464,7 @@ lexicon = listing "Lexicon's properties"
     FaCCaL                    `verb`    {- han~aO -}           [ "congratulate" ],
 
     FaCIL                     `adj`     {- haniy' -}           [ "healthful", "beneficial", "pleasant" ]
-                              `plural`     FaCIL |< At |< Un,
+                              `plural`     FaCIL |< Un,
 
     TaFCiL |< aT              `noun`    {- tahoni}ap -}        [ "congratulations", "greetings" ]
                               `plural`     TaFACI
@@ -578,7 +578,8 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `noun`    {- haram -}            [ "senility", "old age" ],
 
     FaCaL                     `noun`    {- haram -}            [ "pyramid", "pyramids" ]
-                              `plural`     HaFCAL |< At ]
+                              `plural`     HaFCAL |< At
+                              `plural`     HaFCAL ]
 
  |> "h r n" <| [
 

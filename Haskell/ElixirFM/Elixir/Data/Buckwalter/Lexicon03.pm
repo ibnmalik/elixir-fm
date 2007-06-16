@@ -761,7 +761,7 @@ $Lexicon = {
     {
       'types' => {
         'ta\'q' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta\'q',
@@ -1037,7 +1037,7 @@ $Lexicon = {
     {
       'types' => {
         'tarAnzistar' => {
-          'N/At' => 1
+          'NAt' => 1
         },
         'tarAnzistuwr' => {
           'N/At' => 1
@@ -3476,7 +3476,7 @@ $Lexicon = {
     {
       'types' => {
         'tAksiyy' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tAks',
@@ -3858,7 +3858,7 @@ $Lexicon = {
     {
       'types' => {
         'tilfizyuwn' => {
-          'N/At' => 1
+          'NAt' => 1
         },
         'tiliyfizyuwn' => {
           'N/At' => 1
@@ -10076,7 +10076,7 @@ $Lexicon = {
     {
       'types' => {
         'tarAnsfuwrm' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tarAnsfuwrm',
@@ -11487,7 +11487,7 @@ $Lexicon = {
     {
       'types' => {
         'istitbAb' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'istitbAb',
@@ -11580,7 +11580,7 @@ $Lexicon = {
           'N/At' => 1
         },
         'tilifuwn' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tilifuwn',
@@ -12026,7 +12026,7 @@ $Lexicon = {
     {
       'types' => {
         'tAbluwh' => {
-          'N/At' => 1
+          'NAt' => 1
         },
         'tabluwh' => {
           'N/At' => 1
@@ -12364,7 +12364,7 @@ $Lexicon = {
     {
       'types' => {
         'tili.grAf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tili.grAf',
@@ -12441,7 +12441,7 @@ $Lexicon = {
     {
       'types' => {
         'ta_htarawAn' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta_htarawAn',

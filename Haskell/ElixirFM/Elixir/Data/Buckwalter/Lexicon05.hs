@@ -6304,7 +6304,7 @@ lexicon = listing "Lexicon's properties"
     -- AjryA}  >ajoriyA}       Nhy     bold;courageous
 
     FaCIL                     `adj`     {- jariy' -}           [ "bold", "courageous" ]
-                              `plural`     FaCIL |< At |< Un,
+                              `plural`     FaCIL |< Un,
 
     -- ;; juro>ap_1
     -- jr>     juro>   Nap     courage;boldness
@@ -6433,6 +6433,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCL                      `noun`    {- juroH -}            [ "wound", "injury", "wounds", "injuries" ]
                               `plural`     FuCUL |< At
+                              `plural`     FuCUL
                               `plural`     FiCAL
                               `plural`     HaFCAL
                            {- `others`  [ "^girA.h N", "'a^grA.h N" ] -},

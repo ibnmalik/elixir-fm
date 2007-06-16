@@ -9182,7 +9182,7 @@ lexicon = listing "Lexicon's properties"
     -- sqA'    saq~A'  NapAt   water carrier
 
     FaCCAL                    `noun`    {- saq~A' -}           [ "water carrier", "water carriers" ]
-                              `plural`     FaCCAL |< At |< Un,
+                              `plural`     FaCCAL |< Un,
 
     -- ;; saq~A'_2
     -- sqA'    saq~A'  N0      Saqqa
@@ -9376,6 +9376,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- saqof -}            [ "roof", "roofs" ]
                               `plural`     FuCUL |< At
+                              `plural`     FuCUL
                               `plural`     FuCuL
                            {- `others`  [ "suquf N" ] -},
 
@@ -9505,7 +9506,7 @@ lexicon = listing "Lexicon's properties"
     -- sqA'    saq~A'  NapAt   water carrier
 
     FaCLA'                    `noun`    {- saq~A' -}           [ "water carrier", "water carriers" ]
-                              `plural`     FaCLA' |< At |< Un,
+                              `plural`     FaCLA' |< Un,
 
     -- ;; saq~A'_2
     -- sqA'    saq~A'  N0      Saqqa
@@ -11383,7 +11384,7 @@ lexicon = listing "Lexicon's properties"
     -- msy}    musiy}  NapAt   insulting;harming;pernicious
 
     MuFIL                     `adj`     {- musiy' -}           [ "insulting", "harming", "pernicious" ]
-                              `plural`     MuFIL |< At |< Un,
+                              `plural`     MuFIL |< Un,
 
     -- ;; musotA'_1
     -- mstA'   musotA' N0      unhappy;displeased;dissatisfied     [[musotA'/ADJ]]
@@ -11393,7 +11394,7 @@ lexicon = listing "Lexicon's properties"
     -- mstA&   musotA& Nuwn_Niyn       unhappy;displeased;dissatisfied
 
     MuFtAL                    `adj`     {- musotA' -}          [ "unhappy", "displeased", "dissatisfied" ]
-                              `plural`     MuFtAL |< At |< Un,
+                              `plural`     MuFtAL |< Un,
 
     -- ;; sawA'_1
     -- swA'    sawA'   N0_Nh   except;whether
@@ -12630,7 +12631,7 @@ lexicon = listing "Lexicon's properties"
     -- msy}    musiy}  NapAt   insulting;harming;pernicious
 
     MuFIL                     `adj`     {- musiy' -}           [ "insulting", "harming", "pernicious" ]
-                              `plural`     MuFIL |< At |< Un,
+                              `plural`     MuFIL |< Un,
 
     -- ;; say~i'_1
     -- sy'     say~i'  N0      bad
@@ -12640,7 +12641,7 @@ lexicon = listing "Lexicon's properties"
     -- sy}     say~i}  Nuwn_Niyn       bad
 
     FaCCiL                    `noun`    {- say~i' -}           [ "bad" ]
-                              `plural`     FaCCiL |< At |< Un,
+                              `plural`     FaCCiL |< Un,
 
     -- ;; say~i}ap_1
     -- sy}     say~i}  Napdu   offense;misdeed

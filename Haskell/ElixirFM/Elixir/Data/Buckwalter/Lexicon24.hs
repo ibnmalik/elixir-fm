@@ -4867,7 +4867,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCAL
                               `plural`     FiCA'
                               `plural`     FaCLAn |< aT
-                              `plural`     FaCIL |< At |< Un
+                              `plural`     FaCIL |< Un
                               `plural`     FaCLY
                            {- `others`  [ "milA' Nh N0_Nh Nhy", "mal'Y N0" ] -},
 
@@ -5439,6 +5439,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- malAk -}            [ "foundation", "basis" ]
                               `plural`     FiCAL |< At
+                              `plural`     FiCAL
                               `plural`     FaCAL |< At,
 
     -- ;; milAk_1
@@ -6765,7 +6766,7 @@ lexicon = listing "Lexicon's properties"
     -- mry}    mariy}  Nuwn_Niyn       healthy;salubrious
 
     FaCIL                     `adj`     {- mariy' -}           [ "healthy", "salubrious" ]
-                              `plural`     FaCIL |< At |< Un,
+                              `plural`     FaCIL |< Un,
 
     -- ;; mariy'_2
     -- mry'    mariy'  N0      esophagus;gullet

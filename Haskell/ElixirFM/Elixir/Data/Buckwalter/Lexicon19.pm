@@ -1806,7 +1806,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.gfiyl' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.gfiyl',
@@ -1833,7 +1833,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.gfAl' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i.gfAl',
@@ -1863,7 +1863,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.gAful' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.gAful',
@@ -2034,7 +2034,7 @@ $Lexicon = {
     {
       'types' => {
         '.gAl' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => '.gAl',
@@ -3929,7 +3929,7 @@ $Lexicon = {
     {
       'types' => {
         'i.gbirAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.gbirAr',
@@ -4160,7 +4160,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.g_dA_d' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i.g_dA_d',
@@ -4929,7 +4929,7 @@ $Lexicon = {
     {
       'types' => {
         'i.gtibA.t' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.gtibA.t',
@@ -5240,7 +5240,7 @@ $Lexicon = {
     {
       'types' => {
         '.giyAr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => '.giyAr',
@@ -5331,7 +5331,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.gyiyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.gyiyr',
@@ -5389,7 +5389,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.gayyur' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.gayyur',
@@ -5437,7 +5437,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.gAyur' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.gAyur',
@@ -5999,7 +5999,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.gal.gul' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.gal.gul',
@@ -8047,7 +8047,7 @@ $Lexicon = {
     {
       'types' => {
         'i.gtiyA.z' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.gtiyA.z',
@@ -8510,7 +8510,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.g.dAb' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i.g.dAb',
@@ -10905,7 +10905,7 @@ $Lexicon = {
     {
       'types' => {
         'i.gti.sAb' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.gti.sAb',
@@ -11848,7 +11848,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.ga.trus' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.ga.trus',
@@ -13002,7 +13002,7 @@ $Lexicon = {
     {
       'types' => {
         'isti.glAl' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti.glAl',
@@ -14184,7 +14184,7 @@ $Lexicon = {
     {
       'types' => {
         'in.gimAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'in.gimAr',
@@ -14481,7 +14481,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.glAq' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i.glAq',
@@ -14511,7 +14511,7 @@ $Lexicon = {
     {
       'types' => {
         'in.gilAq' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'in.gilAq',
@@ -16480,7 +16480,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.gliyf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.gliyf',
@@ -16700,7 +16700,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.gwiyz' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.gwiyz',
@@ -17140,7 +17140,7 @@ $Lexicon = {
     {
       'types' => {
         'i.gtirAf' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.gtirAf',
@@ -18410,7 +18410,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.gyiyb' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.gyiyb',
@@ -18438,7 +18438,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.gayyub' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.gayyub',
@@ -18484,7 +18484,7 @@ $Lexicon = {
     {
       'types' => {
         'i.gtiyAb' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.gtiyAb',
@@ -21301,7 +21301,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.gawwu.t' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.gawwu.t',
@@ -21887,7 +21887,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.griyd' => {
-          'N/At' => 1
+          'NAt' => 1
         },
         'ta.gAriyd' => {
           'Ndip' => 1
@@ -22213,7 +22213,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.gliy.z' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.gliy.z',
@@ -23232,7 +23232,7 @@ $Lexicon = {
     {
       'types' => {
         'i.gtisAl' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.gtisAl',
@@ -24243,7 +24243,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.gazzul' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.gazzul',
@@ -26168,7 +26168,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.griyb' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.griyb',
@@ -26196,7 +26196,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.garrub' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.garrub',
@@ -26223,7 +26223,7 @@ $Lexicon = {
     {
       'types' => {
         'i.gtirAb' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i.gtirAb',
@@ -26273,7 +26273,7 @@ $Lexicon = {
     {
       'types' => {
         'isti.grAb' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti.grAb',
@@ -26628,7 +26628,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.gannu^g' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.gannu^g',
@@ -26990,7 +26990,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.garru.d' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.garru.d',
@@ -27804,7 +27804,7 @@ $Lexicon = {
     {
       'types' => {
         'isti.gfAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti.gfAr',
@@ -27912,7 +27912,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.g^giyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.g^giyr',
@@ -29161,7 +29161,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.griyq' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.griyq',
@@ -29190,7 +29190,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.grAq' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i.grAq',
@@ -29219,7 +29219,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.grAq' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i.grAq',
@@ -30283,7 +30283,7 @@ $Lexicon = {
     {
       'types' => {
         'in.girAz' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'in.girAz',
@@ -30498,7 +30498,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.g.diyn' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.g.diyn',
@@ -30527,7 +30527,7 @@ $Lexicon = {
     {
       'types' => {
         'ta.ga.d.dun' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta.ga.d.dun',

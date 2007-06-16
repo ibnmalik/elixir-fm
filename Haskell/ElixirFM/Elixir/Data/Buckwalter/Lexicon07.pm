@@ -3407,7 +3407,7 @@ $Lexicon = {
     {
       'types' => {
         'ta_habbu.t' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta_habbu.t',
@@ -3816,7 +3816,7 @@ $Lexicon = {
           'Nap' => 2
         },
         '_hi.tAb' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => '_hi.tAb',
@@ -3849,7 +3849,7 @@ $Lexicon = {
     {
       'types' => {
         '_hi.tAb' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => '_hi.tAb',
@@ -9535,7 +9535,7 @@ $Lexicon = {
     {
       'types' => {
         'in_hifA.d' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'in_hifA.d',
@@ -29365,7 +29365,7 @@ $Lexicon = {
     {
       'types' => {
         'isti_hfAf' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti_hfAf',

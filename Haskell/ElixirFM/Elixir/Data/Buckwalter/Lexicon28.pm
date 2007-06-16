@@ -1174,7 +1174,7 @@ $Lexicon = {
     {
       'types' => {
         'taysiyr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'taysiyr',
@@ -2532,7 +2532,7 @@ $Lexicon = {
     {
       'types' => {
         'tayammun' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tayammun',
@@ -3180,7 +3180,7 @@ $Lexicon = {
     {
       'types' => {
         '\'iyqA.z' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'iyqA.z',
@@ -3209,7 +3209,7 @@ $Lexicon = {
     {
       'types' => {
         'tayaqqu.z' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tayaqqu.z',
@@ -4793,7 +4793,7 @@ $Lexicon = {
     {
       'types' => {
         '\'iynA`' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'iynA`',

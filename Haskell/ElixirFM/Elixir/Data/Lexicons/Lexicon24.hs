@@ -671,7 +671,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCAL
                               `plural`     FiCA'
                               `plural`     FaCLAn |< aT
-                              `plural`     FaCIL |< At |< Un
+                              `plural`     FaCIL |< Un
                               `plural`     FaCLY
                            {- `others`  [ "milA' Nh N0_Nh Nhy", "mal'Y N0" ] -},
 

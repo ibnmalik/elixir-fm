@@ -58,6 +58,8 @@ module Elixir.Lexicon (
         sumEntry, sumEntryChars,
 -}
 
+        root,
+
         verb, noun, adj, pron, adv, prep, conj, part,
 
         imperf, pfirst, ithird, second,
@@ -116,11 +118,15 @@ instance Show Lexicon where
 listing _ = []
 
 
-data Nest =     NestL Root ![Entry PatternL]
-          |     NestT Root ![Entry PatternT]
-          |     NestQ Root ![Entry PatternQ]
+data Nest =     NestL Root [Entry PatternL]
+          |     NestT Root [Entry PatternT]
+          |     NestQ Root [Entry PatternQ]
 
     deriving Show
+
+root (NestL r _) = r
+root (NestT r _) = r
+root (NestQ r _) = r
 
 
 class Template a => Nestable a where
@@ -138,7 +144,7 @@ instance Nestable PatternT where (>:) s l = NestT s l
 instance Nestable PatternQ where (>:) s l = NestQ s l
 
 
---(|>) x y = (:<) x y
+-- (|>) x y = ((:) $! y) $! x
 
 (|>) = flip (:)
 
@@ -148,7 +154,7 @@ instance Nestable PatternQ where (>:) s l = NestQ s l
 type Root = String
 
 
-data Entry a = Entry { entity :: !Entity a, morphs :: Morphs a,
+data Entry a = Entry { entity :: Entity a, morphs :: Morphs a,
                        lexref :: Lexref }
 
     deriving Show

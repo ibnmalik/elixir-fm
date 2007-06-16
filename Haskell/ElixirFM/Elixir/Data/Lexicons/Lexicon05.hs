@@ -947,7 +947,7 @@ lexicon = listing "Lexicon's properties"
     TaFaCCaL                  `verb`    {- tajar~aO -}         [ "dare", "risk" ],
 
     FaCIL                     `adj`     {- jariy' -}           [ "bold", "courageous" ]
-                              `plural`     FaCIL |< At |< Un,
+                              `plural`     FaCIL |< Un,
 
     FuCL |< aT                `noun`    {- juroOap -}          [ "courage", "boldness" ],
 
@@ -968,6 +968,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCL                      `noun`    {- juroH -}            [ "wound", "injury", "wounds", "injuries" ]
                               `plural`     FuCUL |< At
+                              `plural`     FuCUL
                               `plural`     FiCAL
                               `plural`     HaFCAL
                            {- `others`  [ "^girA.h N", "'a^grA.h N" ] -},

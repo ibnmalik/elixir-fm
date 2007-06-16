@@ -2069,7 +2069,7 @@ lexicon = listing "Lexicon's properties"
     -- TlA'    Tal~A'  NapAt   electroplate
 
     FaCCAL                    `noun`    {- Tal~A' -}           [ "electroplate" ]
-                              `plural`     FaCCAL |< At |< Un ]
+                              `plural`     FaCCAL |< Un ]
 
  |> ".t l ' `" <| [
 
@@ -2486,7 +2486,7 @@ lexicon = listing "Lexicon's properties"
     -- TlA'    Tal~A'  NapAt   electroplate
 
     FaCLA'                    `noun`    {- Tal~A' -}           [ "electroplate" ]
-                              `plural`     FaCLA' |< At |< Un ]
+                              `plural`     FaCLA' |< Un ]
 
  |> ".t l m" <| [
 
@@ -3428,7 +3428,8 @@ lexicon = listing "Lexicon's properties"
     -- ATnAn   <iTonAn N/At    resounding;ringing
 
     FaCCAL                    `noun`    {- Tan~An -}           [ "resounding", "ringing" ]
-                              `plural`     HiFCAL |< At,
+                              `plural`     HiFCAL |< At
+                              `plural`     HiFCAL,
 
     -- ;; Tan~An_1
     -- TnAn    Tan~An  Nall    resounding;ringing
@@ -3436,7 +3437,8 @@ lexicon = listing "Lexicon's properties"
     -- ATnAn   <iTonAn N/At    resounding;ringing
 
     FaCLAn                    `noun`    {- Tan~An -}           [ "resounding", "ringing" ]
-                              `plural`     HiFCAL |< At ]
+                              `plural`     HiFCAL |< At
+                              `plural`     HiFCAL ]
 
  |> ".t n y" <| [
 

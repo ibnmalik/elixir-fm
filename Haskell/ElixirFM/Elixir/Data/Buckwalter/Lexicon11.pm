@@ -2055,7 +2055,7 @@ $Lexicon = {
     {
       'types' => {
         'tazA.hum' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tazA.hum',
@@ -6474,7 +6474,7 @@ $Lexicon = {
     {
       'types' => {
         'izriqAq' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'izriqAq',
@@ -11045,7 +11045,7 @@ $Lexicon = {
     {
       'types' => {
         'tazawwud' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'tazawwud',
@@ -21547,7 +21547,7 @@ $Lexicon = {
     {
       'types' => {
         'izwirAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'izwirAr',

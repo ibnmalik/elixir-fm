@@ -3206,8 +3206,6 @@ Astbsl  {isotabosal     PV_intr be courageous
 stbsl   sotabosil       IV_intr be courageous
 ;; basAlap_1
 bsAl    basAl   Nap     courage
-<stbsAl {isotibosAl     N/At    courage
-AstbsAl {isotibosAl     N/At    courage
 ;; bAsil_1
 bAsl    bAsil   N0      Basil
 ;; bAsil_2
@@ -3216,6 +3214,9 @@ bslA'   busalA' N0_Nh   fearless;intrepid
 bslA&   busalA& Nh      fearless;intrepid
 bslA}   busalA} Nhy     fearless;intrepid
 bwAsl   bawAsil Ndip    fearless;intrepid
+;; {isotibosAl_1
+<stbsAl {isotibosAl     N/At    courage
+AstbsAl {isotibosAl     N/At    courage
 ;; musotabosil_1
 mstbsl  musotabosil     Nall    fearless;intrepid
 ;

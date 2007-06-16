@@ -1027,7 +1027,8 @@ lexicon = listing "Lexicon's properties"
     -- fHwS    fuHuwS  N/At    examinations;checkups;scrutiny
 
     FaCL                      `noun`    {- faHoS -}            [ "examination", "checkup", "scrutiny", "examinations", "checkups" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     -- ;; faHoS_2
     -- fHS     faHoS   Nprop   Fahs
@@ -1714,7 +1715,8 @@ lexicon = listing "Lexicon's properties"
     -- fSwm    fuSuwm  N/At    niches
 
     FaCL                      `noun`    {- faSom -}            [ "niche", "niches" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     -- ;; fuSAm_1
     -- fSAm    fuSAm   N       schizophrenia
@@ -9234,7 +9236,8 @@ lexicon = listing "Lexicon's properties"
     -- ftwH    futuwH  N/At    conquests;achievements
 
     FaCL                      `noun`    {- fatoH -}            [ "opening", "beginning", "conquests", "achievements" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     -- ;; fatoH_2
     -- ftH     fatoH   N0      Fatah (PLO branch)

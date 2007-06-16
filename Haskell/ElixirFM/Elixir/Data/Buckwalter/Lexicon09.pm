@@ -2327,7 +2327,7 @@ $Lexicon = {
     {
       'types' => {
         'isti_dkAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti_dkAr',

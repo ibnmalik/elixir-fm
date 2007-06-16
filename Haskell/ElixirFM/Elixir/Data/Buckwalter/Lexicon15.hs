@@ -247,6 +247,7 @@ lexicon = listing "Lexicon's properties"
     MiFCAL                    `noun`    {- miDogAT -}          [ "compressor", "compressors", "compression" ]
                               `plural`     MaFACIL
                               `plural`     InFiCAL |< At
+                              `plural`     InFiCAL
                            {- `others`  [ "ma.dA.giy.t Ndip" ] -},
 
     -- ;; {inoDigATiy~ap_1
@@ -959,6 +960,7 @@ lexicon = listing "Lexicon's properties"
     FiCL                      `noun`    {- DiEof -}            [ "double", "multiple", "multiples", "doubling", "multiplying" ]
                               `plural`     HaFCAL
                               `plural`     TaFCIL |< At
+                              `plural`     TaFCIL
                            {- `others`  [ "'a.d`Af N" ] -},
 
     -- ;; taDAEiyf_1
@@ -2713,7 +2715,8 @@ lexicon = listing "Lexicon's properties"
     -- ADTrAm  {iDoTirAm       N/At    burning;conflagration
 
     FiCAL                     `noun`    {- DirAm -}            [ "burning", "conflagration" ]
-                              `plural`     IFtiCAL |< At,
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiCAL,
 
     -- ;; muDoTarim_1
     -- mDTrm   muDoTarim       Nall    burning;blazing

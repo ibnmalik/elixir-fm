@@ -5884,7 +5884,7 @@ lexicon = listing "Lexicon's properties"
     -- ArdyA}  >arodiyA}       Nhy     bad;wicked;malicious
 
     FaCIL                     `adj`     {- radiy' -}           [ "bad", "wicked", "malicious" ]
-                              `plural`     FaCIL |< At |< Un,
+                              `plural`     FaCIL |< Un,
 
     -- ;; >aroda>_1
     -- >rd>    >aroda> N0_Nh   worse/worst
@@ -7523,7 +7523,8 @@ lexicon = listing "Lexicon's properties"
     -- rhwn    ruhuwn  N/At    mortgages;securities
 
     FaCL                      `noun`    {- rahon -}            [ "mortgage", "security", "mortgages", "securities" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     -- ;; rahona_1
     -- rhn     rahona  FW-Wa   subject to;depending on;conditional on     [[rahona/PREP]]

@@ -69,7 +69,8 @@ lexicon = listing "Lexicon's properties"
     IFtaCaL                   `verb`    {- Aikota$af -}        [ "discover", "detect", "be discovered", "be detected" ],
 
     FaCL                      `noun`    {- ka$of -}            [ "report", "revelation", "disclosure", "examination", "reports", "disclosures" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     FaCL                      `noun`    {- ka$of -}            [ "registry", "roster" ],
 

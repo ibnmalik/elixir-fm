@@ -2637,7 +2637,7 @@ $Lexicon = {
     {
       'types' => {
         '^gawAz' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => '^gawAz',
@@ -4951,7 +4951,7 @@ $Lexicon = {
     {
       'types' => {
         'isti^gmAm' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti^gmAm',
@@ -7633,7 +7633,7 @@ $Lexicon = {
     {
       'types' => {
         '^gAm' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => '^gAm',
@@ -10929,7 +10929,7 @@ $Lexicon = {
     {
       'types' => {
         'ta^gniyb' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta^gniyb',
@@ -10957,7 +10957,7 @@ $Lexicon = {
     {
       'types' => {
         'ta^gannub' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta^gannub',
@@ -10985,7 +10985,7 @@ $Lexicon = {
     {
       'types' => {
         'i^gtinAb' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'i^gtinAb',
@@ -12241,7 +12241,7 @@ $Lexicon = {
     {
       'types' => {
         '^garrAr' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => '^garrAr',
@@ -15934,7 +15934,7 @@ $Lexicon = {
     {
       'types' => {
         '^guwAl' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => '^guwAl',
@@ -17548,7 +17548,7 @@ $Lexicon = {
     {
       'types' => {
         '^gurAb' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => '^gurAb',
@@ -19035,7 +19035,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i^gmAliyy' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i^gmAl',
@@ -21400,7 +21400,7 @@ $Lexicon = {
     {
       'types' => {
         '^garsuwn' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => '^garsuwn',
@@ -24899,7 +24899,7 @@ $Lexicon = {
     {
       'types' => {
         '^gamAd' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => '^gamAd',
@@ -27134,7 +27134,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i^gbAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'i^gbAr',
@@ -32904,7 +32904,7 @@ $Lexicon = {
     {
       'types' => {
         '^gAz' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => '^gAz',
@@ -34763,7 +34763,7 @@ $Lexicon = {
     {
       'types' => {
         '^gusaym' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => '^gusaym',

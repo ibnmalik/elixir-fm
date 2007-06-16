@@ -1815,7 +1815,8 @@ lexicon = listing "Lexicon's properties"
     -- ETwr    EuTuwr  N/At    perfume
 
     FiCL                      `noun`    {- EiTor -}            [ "perfume" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     -- ;; EaTir_1
     -- ETr     EaTir   N-ap    fragrant;aromatic     [[EaTir/ADJ]]
@@ -4955,7 +4956,7 @@ lexicon = listing "Lexicon's properties"
     -- EdA'    Ead~A'  NAt     runners
 
     FaCCAL                    `noun`    {- Ead~A' -}           [ "runner", "runners" ]
-                              `plural`     FaCCAL |< At |< Un,
+                              `plural`     FaCCAL |< Un,
 
     -- ;; EadA}iy~_1
     -- EdA}y   EadA}iy~        Nall    hostile;aggressive     [[EadA}iy~/ADJ]]
@@ -5210,7 +5211,7 @@ lexicon = listing "Lexicon's properties"
     -- EdA'    Ead~A'  NAt     runners
 
     FaCLA'                    `noun`    {- Ead~A' -}           [ "runner", "runners" ]
-                              `plural`     FaCLA' |< At |< Un ]
+                              `plural`     FaCLA' |< Un ]
 
  |> "` d l" <| [
 
@@ -11621,7 +11622,8 @@ lexicon = listing "Lexicon's properties"
     -- ErwD    EuruwD  N/At    offers;tenders
 
     FaCL                      `noun`    {- EaroD -}            [ "presentation", "review", "show", "offer", "offers", "tenders" ]
-                              `plural`     FuCUL |< At,
+                              `plural`     FuCUL |< At
+                              `plural`     FuCUL,
 
     -- ;; EaroD_2
     -- ErD     EaroD   N       supply

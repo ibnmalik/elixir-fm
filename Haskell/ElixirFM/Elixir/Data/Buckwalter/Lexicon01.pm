@@ -5111,7 +5111,7 @@ $Lexicon = {
     {
       'types' => {
         '\'umniybuws' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'umniybuws',
@@ -9550,7 +9550,7 @@ $Lexicon = {
     {
       'types' => {
         '\'uyuwn' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'uyuwn',
@@ -16005,7 +16005,7 @@ $Lexicon = {
     {
       'types' => {
         'ta\'.siyl' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta\'.siyl',
@@ -16126,7 +16126,7 @@ $Lexicon = {
     {
       'types' => {
         'isti\'.sAl' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti\'.sAl',
@@ -21851,7 +21851,7 @@ $Lexicon = {
     {
       'types' => {
         '\'Ar' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'Ar',
@@ -27161,7 +27161,7 @@ $Lexicon = {
     {
       'types' => {
         '\'uwtiyl' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'uwtiyl',
@@ -27995,7 +27995,7 @@ $Lexicon = {
     {
       'types' => {
         'ta\'alluq' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta\'alluq',
@@ -30275,7 +30275,7 @@ $Lexicon = {
     {
       'types' => {
         '\'iliktruwn' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'iliktruwn',
@@ -34605,7 +34605,7 @@ $Lexicon = {
     {
       'types' => {
         'ta\'liyh' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta\'liyh',
@@ -43625,7 +43625,7 @@ $Lexicon = {
           'N/At' => 2
         },
         '\'alAy' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'alAy',
@@ -45126,7 +45126,7 @@ $Lexicon = {
     {
       'types' => {
         '\'anziym' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'anziym',
@@ -45409,7 +45409,7 @@ $Lexicon = {
     {
       'types' => {
         '\'ar^g' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'ar^g',
@@ -46544,7 +46544,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a_tA_t' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'a_tA_t',
@@ -46804,7 +46804,7 @@ $Lexicon = {
     {
       'types' => {
         '\'afiy^s' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'afiy^s',
@@ -48071,7 +48071,7 @@ $Lexicon = {
     {
       'types' => {
         '\'iliktruwd' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'iliktruwd',
@@ -49499,7 +49499,7 @@ $Lexicon = {
     {
       'types' => {
         'isti\'^gAr' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => 'isti\'^gAr',
@@ -50668,7 +50668,7 @@ $Lexicon = {
     {
       'types' => {
         'ta\'Aluf' => {
-          'N/At' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'ta\'Aluf',
@@ -51970,7 +51970,7 @@ $Lexicon = {
     {
       'types' => {
         '\'anuwd' => {
-          'N/At' => 2
+          'NAt' => 2
         }
       },
       'entry' => '\'anuwd',
