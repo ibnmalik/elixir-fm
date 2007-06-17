@@ -125,6 +125,28 @@ instance Forming PatternT where
 
     verbStems I r
 
+        | let x = words r in if length x < 3 then False
+                                             else x !! 1 == x !! 2 = [
+
+        -- Double
+
+        (   Just   (    FaCaL,      FuCiL,      FCaL,       FCaL        ),
+                        FaCL,       FuCL,       FaCL,       FaCL        ),
+        (   Just   (    FaCaL,      FuCiL,      FCiL,       FCaL        ),
+                        FaCL,       FuCL,       FiCL,       FaCL        ),
+        (   Just   (    FaCaL,      FuCiL,      FCuL,       FCaL        ),
+                        FaCL,       FuCL,       FuCL,       FaCL        ),
+
+        (   Just   (    FaCiL,      FuCiL,      FCaL,       FCaL        ),
+                        FaCL,       FuCL,       FaCL,       FaCL        ),
+
+        (   Just   (    FaCuL,      FuCiL,      FCaL,       FCaL        ),
+                        FaCL,       FuCL,       FaCL,       FaCL        ),
+        (   Just   (    FaCuL,      FuCiL,      FCuL,       FCaL        ),
+                        FaCL,       FuCL,       FuCL,       FaCL        )
+
+        ]
+
         | (unwords . words) r == "r ' y" = [
 
         (   Nothing,    FaCY,       FuCI,       FY,         FY          )   -- ra'Y
@@ -150,31 +172,22 @@ instance Forming PatternT where
         (   Nothing,    FaCY,       FuCI,       CI,         CY          ),  -- waqY
         (   Nothing,    FaCI,       FuCI,       CI,         CY          )   -- waliya
 
-        ]
-
-        | let x = words r in if length x < 3 then False
-                                             else x !! 1 == x !! 2 = [
-
-        -- Double
-
-        (   Just   (    FaCaL,      FuCiL,      FCaL,       FCaL        ),
-                        FaCL,       FuCL,       FaCL,       FaCL        ),
-        (   Just   (    FaCaL,      FuCiL,      FCiL,       FCaL        ),
-                        FaCL,       FuCL,       FiCL,       FaCL        ),
-        (   Just   (    FaCaL,      FuCiL,      FCuL,       FCaL        ),
-                        FaCL,       FuCL,       FuCL,       FaCL        ),
-
-        (   Just   (    FaCiL,      FuCiL,      FCaL,       FCaL        ),
-                        FaCL,       FuCL,       FaCL,       FaCL        ),
-
-        (   Just   (    FaCuL,      FuCiL,      FCaL,       FCaL        ),
-                        FaCL,       FuCL,       FaCL,       FaCL        ),
-        (   Just   (    FaCuL,      FuCiL,      FCuL,       FCaL        ),
-                        FaCL,       FuCL,       FuCL,       FaCL        )
-
-        ]
+        ] ++ verbStems'     -- verbStems I "F C L" .. but no "[wy] [yw] L"
 
         | otherwise = [
+
+        --  Second
+
+        (   Just  (     FuL,        FiL,        FuL,        FaL         ),
+                        FAL,        FIL,        FUL,        FAL         ),  -- qAla
+        (   Just  (     FiL,        FiL,        FaL,        FaL         ),
+                        FAL,        FIL,        FAL,        FAL         ),  -- nAma / nAla
+        (   Just  (     FiL,        FiL,        FiL,        FaL         ),
+                        FAL,        FIL,        FIL,        FAL         )   -- sAra
+
+        ] ++ verbStems'
+
+     where { verbStems' = [
 
         -- Regular
 
@@ -187,15 +200,6 @@ instance Forming PatternT where
         (   Nothing,    FaCuL,      FuCiL,      FCaL,       FCaL        ),
         (   Nothing,    FaCuL,      FuCiL,      FCuL,       FCaL        ),
 
-        --  Second
-
-        (   Just  (     FuL,        FiL,        FuL,        FaL         ),
-                        FAL,        FIL,        FUL,        FAL         ),  -- qAla
-        (   Just  (     FiL,        FiL,        FaL,        FaL         ),
-                        FAL,        FIL,        FAL,        FAL         ),  -- nAma / nAla
-        (   Just  (     FiL,        FiL,        FiL,        FaL         ),
-                        FAL,        FIL,        FIL,        FAL         ),  -- sAra
-
         -- Third
 
         (   Nothing,    FaCA,       FuCI,       FCU,        FCY         ),  -- da`A
@@ -203,7 +207,7 @@ instance Forming PatternT where
         (   Nothing,    FaCY,       FuCI,       FCI,        FCY         ),  -- ramY
         (   Nothing,    FaCI,       FuCI,       FCY,        FCY         )   -- nasiya
 
-        ]
+        ] }
 
 
     verbStems II _ = [
@@ -363,7 +367,8 @@ instance Rules PatternT where
 
     prefixVerbC I   FCuL    = "u"
     prefixVerbC I   y   | y `elem` [FUL, FAL, FIL,
-                                    FuL, FaL, FiL]  = ""
+                                    FuL, FaL, FiL,
+                                    FY, CI]         = ""
     prefixVerbC I   _       = "i"
 
     prefixVerbC IV  _       = "'a"

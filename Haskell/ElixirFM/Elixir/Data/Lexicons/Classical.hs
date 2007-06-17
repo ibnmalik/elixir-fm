@@ -35,7 +35,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_h r .t m" <| [
 
-    IKRanDaS                  `verb`                           [ "be pitch-black" ] ]
+    IKRanDaS                  `verb`                           [ "turn up one's nose" ] ]
 
  |> "^s m _h r" <| [
 

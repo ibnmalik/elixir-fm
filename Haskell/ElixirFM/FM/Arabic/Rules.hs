@@ -90,6 +90,8 @@ instance Inflect RootEntry ParaVerb where
 
               theDflt = isDefault x
 
+              Morphs pattern _ _ = morphs e
+
               inEntry = case entity e of
 
                   Verb fs is _ _ jt jv
@@ -97,59 +99,57 @@ instance Inflect RootEntry ParaVerb where
                     | maybe False (/= v) jv || maybe False (/= Perfect) jt -> []
 
                     | null is || v == Passive
-                              || theDflt   -> inRules fs (Perfect, w) [morphs e]
+                              || theDflt   -> inRules fs (Perfect, w) [pattern]
 
-                    | otherwise            -> [ morph i | i <- is ]
+                    | otherwise            -> [ morph i `asTypeOf` morphs e | f <- fs, i <- is ]
 
                             where w = maybe Active id jv
 
                   _     ->  (error . unwords) ["Incompatible VerbP", show r]
 
-              inRules fs pp = map (\ m -> morph m `asTypeOf` morphs e) . concat .
+              inRules fs pp ts = [ morph l | f <- fs, t <- ts,
 
-                              map (\ (Morphs t _ _) -> (nub . concat)
+                                   let ls = lookStem t pp (Perfect, v) theDflt
+                                                          (verbStems f r),
+                                   l <- nub ls ]
 
-                                    [ lookStem t pp (Perfect, v) theDflt
-                                                    (verbStems f r) | f <- fs ])
 
-{-
-    inflect (RE r e) x@(VerbI m v p g n) = (map inRules . inEntry) e
+    inflect (RE r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
 
-        where Morphs pattern _ _ = morphs e
+        where paradigm p = map (merge r . uncurry p) inEntry
 
-              inEntry e = case entity e of
+              theDflt = isDefault x
 
-                  Verb _ [] _   -> [ y | f <- [I ..], i <- verbStems f r,
-                                         let (x, _, y, _) = theItem i, x == pattern ]
+              Morphs pattern _ _ = morphs e
 
-                  Verb _ is _   -> [ y | every <- is, f <- [I ..], i <- verbStems f r,
-                                         let (x, _, y, _) = theItem i, x == pattern, every ]]
+              inEntry = case entity e of
 
-                                   -- if isDefault x then [ morph i | i <- is ]
-                                   --                else [ morph y | y <- ys ]
+                  Verb fs _ is _ jt jv
 
-                  _              -> error "Incompatible VerbI"
+                    | maybe False (/= v) jv || maybe False (== Perfect) jt -> []
 
-              inRules = merge r . paradigm (paraVerbI m v p g n)
+                    | null is   -> inRules fs (Perfect,   w) [pattern]
 
-              paradigm p m@(Morphs t _ _) = p (prefixVerbI form t v) $ case v of
+                    | otherwise -> inRules fs (Imperfect, w) is
 
-                    Active  -> if isDefault x then m else morph (shortStem t)
-                    Passive -> case [ morph y |
-                                      (_, _, x, y) <- verbStems form r, x == t ]
+                            where w = maybe Active id jv
 
-                                      of [] -> error (unwords [show r, show t,
-                                                               show form,
-                                                               "VerbI"])
-                                         xs -> head xs
+                  _     ->  (error . unwords) ["Incompatible VerbI", show r]
 
--}
+              inRules fs pp ts = [ (prefixVerbI f l v, morph l) | f <- fs, t <- ts,
+
+                                   let ls = lookStem t pp (Imperfect, v) theDflt
+                                                          (verbStems f r),
+                                   l <- nub ls ]
+
 
     inflect (RE r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
 
-        where paradigm p = map (merge r . p "i") inEntry
+        where paradigm p = map (merge r . uncurry p) inEntry
 
               theDflt = isDefault x
+
+              Morphs pattern _ _ = morphs e
 
               inEntry = case entity e of
 
@@ -157,24 +157,20 @@ instance Inflect RootEntry ParaVerb where
 
                     | maybe False (/= Active) jv || maybe False (== Perfect) jt -> []
 
-                    | null is -> if null ys then inRules fs (Perfect,   Active) [morphs e]
+                    | null is -> if null ys then inRules fs (Perfect,   Active) [pattern]
 
-                                            else inRules fs (Imperfect, Active) [ morph y | y <- ys ]
+                                            else inRules fs (Imperfect, Active) ys
 
-                    | otherwise            -> [ morph i | i <- is ]
+                    | otherwise            -> [ (prefixVerbC f i, morph i) | f <- fs, i <- is ]
 
                   _     ->  (error . unwords) ["Incompatible VerbC", show r]
 
-              inRules fs pp = map (\ m -> morph m `asTypeOf` morphs e) . concat .
+              inRules fs pp ts = [ (prefixVerbC f l, morph l) | f <- fs, t <- ts,
 
-                              map (\ (Morphs t _ _) -> (nub . concat)
+                                   let ls = lookStem t pp (Imperfect, Active) theDflt
+                                                          (verbStems f r),
+                                   l <- nub ls ]
 
-                                    [ lookStem t pp (Imperfect, Active) theDflt
-                                                    (verbStems f r) | f <- fs ])
-
-              -- paradigm p m@(Morphs t _ _) = p (prefixVerbC form t)
-              --                               (if isDefault x then m
-              --                                               else morph (shortStem t))
 
     inflect _ _ = []
 
