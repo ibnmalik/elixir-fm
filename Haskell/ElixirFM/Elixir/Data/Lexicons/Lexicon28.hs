@@ -27,13 +27,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "y _h t" <| [
 
-    FaCL                      `noun`    {- yaxot -}            [ "yacht", "yachts" ]
+    FaCL                      `noun`    {- yaxot -}            [ "yacht" ]
                               `plural`     FuCUL
                            {- `others`  [ "yu_huwt N" ] -} ]
 
  |> "y d d" <| [
 
-    FaL                       `noun`    {- yad -}              [ "hand", "hands" ]
+    FaL                       `noun`    {- yad -}              [ "hand" ]
                               `plural`     HaFCI
                               `plural`     HaFACI
                            {- `others`  [ "'aydiy N0_Nh", "'ayAdiy N0_Nh" ] -},
@@ -42,7 +42,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "y d y" <| [
 
-    FaC                       `noun`    {- yad -}              [ "hand", "hands" ]
+    FaC                       `noun`    {- yad -}              [ "hand" ]
                               `plural`     HaFCI
                               `plural`     HaFACI
                            {- `others`  [ "'aydiy N0_Nh", "'ayAdiy N0_Nh" ] -},
@@ -59,7 +59,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCUL |< Iy               `adj`     {- yahuwdiy~ -}        [ "Jewish" ],
 
-    FaCUL |< Iy               `adj`     {- yahuwdiy~ -}        [ "Jew", "Jews" ]
+    FaCUL |< Iy               `adj`     {- yahuwdiy~ -}        [ "Jew" ]
                               `plural`     FaCUL
                            {- `others`  [ "yahuwd N" ] -},
 
@@ -83,7 +83,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- yamiyn -}           [ "right side", "right hand" ],
 
-    FaCIL                     `noun`    {- yamiyn -}           [ "oath", "oaths" ]
+    FaCIL                     `noun`    {- yamiyn -}           [ "oath" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'aymAn N" ] -},
 
@@ -93,7 +93,7 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- Oayoman -}          [ "right", "right hand", "lucky" ],
 
-    FuCLY                     `adj`     {- yumonaY -}          [ "right hand", "right side", "lucky", "right hands", "right sides" ]
+    FuCLY                     `adj`     {- yumonaY -}          [ "right hand", "right side", "lucky" ]
                               `plural`     FuCLY |< At,
 
     FuCLY                     `noun`    {- yumonaY -}          [ "Youmna", "Yumna" ],
@@ -124,7 +124,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "y q .z" <| [
 
-    HaFCaL                    `verb`    {- OayoqaZ -}          [ "awaken", "warn", "be awakened", "be warned" ],
+    HaFCaL                    `verb`    {- OayoqaZ -}          [ "awaken", "warn" ],
 
     IstaFCaL                  `verb`    {- AisotayoqaZ -}      [ "wake up", "be roused", "be alert" ],
 
@@ -169,7 +169,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- yasiyr -}           [ "small", "short" ],
 
-    HaFCaL                    `noun`    {- Oayosar -}          [ "left", "left hand", "left hands" ]
+    HaFCaL                    `noun`    {- Oayosar -}          [ "left", "left hand" ]
                               `plural`     FuCLY |< At
                            {- `others`  [ "yusrY N0 NAn_Nayn" ] -},
 
@@ -194,7 +194,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "y t m" <| [
 
-    FaCIL                     `noun`    {- yatiym -}           [ "orphan", "unique", "orphans" ]
+    FaCIL                     `noun`    {- yatiym -}           [ "orphan", "unique" ]
                               `plural`     FaCALY
                               `plural`     HaFCAL
                            {- `others`  [ "yatAmY N0", "'aytAm N" ] -} ]
@@ -205,7 +205,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "y w m" <| [
 
-    FaCL                      `noun`    {- yawom -}            [ "day", "days" ],
+    FaCL                      `noun`    {- yawom -}            [ "day" ],
 
     FaCL                      `adv`     {- yawom -}            [ "some day" ],
 
@@ -307,7 +307,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "yuw.guwslAf" <| [
 
-    Identity |< Iy            `adj`     {- yuwguwsolAfiy~ -}   [ "Yugoslavian", "Yugoslavians" ] ]
+    Identity |< Iy            `adj`     {- yuwguwsolAfiy~ -}   [ "Yugoslavian" ] ]
 
  |> "yuw.guwslAfiyA" <| [
 

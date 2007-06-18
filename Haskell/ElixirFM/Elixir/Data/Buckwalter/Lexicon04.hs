@@ -109,7 +109,7 @@ lexicon = listing "Lexicon's properties"
     -- v&lwl   vu&oluwl        N/ap    wart
     -- v|lyl   va|liyl Ndip    warts
 
-    KuRDUS                    `noun`    {- vuWoluwl -}         [ "wart", "warts" ]
+    KuRDUS                    `noun`    {- vuWoluwl -}         [ "wart" ]
                               `plural`     KaRADIS
                            {- `others`  [ "_ta'Aliyl Ndip" ] -} ]
 
@@ -148,7 +148,7 @@ lexicon = listing "Lexicon's properties"
     -- >v|r    >avo|r  N       revenge;retaliations
     -- Av|r    >avo|r  N       revenge;retaliations
 
-    FaCL                      `noun`    {- vaOor -}            [ "revenge", "retaliation", "retaliations" ]
+    FaCL                      `noun`    {- vaOor -}            [ "revenge", "retaliation" ]
                               `plural`     HaFCAL
                               `plural`     FaCL |< At
                            {- `others`  [ "'a_t'Ar N" ] -},
@@ -162,7 +162,7 @@ lexicon = listing "Lexicon's properties"
     -- vA}r    vA}ir   Ndu     insurgent
     -- vwAr    vuw~Ar  N       insurgents;revolutionaries
 
-    FACiL                     `noun`    {- vA}ir -}            [ "insurgent", "insurgents", "revolutionaries" ],
+    FACiL                     `noun`    {- vA}ir -}            [ "insurgent", "revolutionaries" ],
 
     -- ;; vA}irap_1
     -- vA}r    vA}ir   Napdu   tumult;rage
@@ -218,7 +218,7 @@ lexicon = listing "Lexicon's properties"
     -- vgr     vagor   N       front teeth;front
     -- vgwr    vuguwr  N       front teeth;fronts
 
-    FaCL                      `noun`    {- vagor -}            [ "front teeth", "front", "fronts" ]
+    FaCL                      `noun`    {- vagor -}            [ "front teeth", "front" ]
                               `plural`     FuCUL
                            {- `others`  [ "_tu.guwr N" ] -},
 
@@ -226,7 +226,7 @@ lexicon = listing "Lexicon's properties"
     -- vgr     vugor   Napdu   gap;breach
     -- vgr     vagar   NAt     gaps;breaches
 
-    FuCL |< aT                `noun`    {- vugorap -}          [ "gap", "breach", "gaps", "breaches" ]
+    FuCL |< aT                `noun`    {- vugorap -}          [ "gap", "breach" ]
                               `plural`     FaCaL |< At ]
 
  |> "_t .g w" <| [
@@ -308,7 +308,7 @@ lexicon = listing "Lexicon's properties"
     -- vxn     voxin   IV-n_yu massacre;wear out
     -- vxn     voxan   IV-n_Pass_yu    be massacred;be worn out
 
-    HaFCaL                    `verb`    {- Oavoxan -}          [ "massacre", "wear out", "be massacred", "be worn out" ],
+    HaFCaL                    `verb`    {- Oavoxan -}          [ "massacre", "wear out", "be worn out" ],
 
     -- ;; vixan_1
     -- vxn     vixan   N       thickness;density
@@ -348,7 +348,7 @@ lexicon = listing "Lexicon's properties"
     -- mvEb    mavoEab Ndu     drain
     -- mvAEb   mavAEib Ndip    drains
 
-    MaFCaL                    `noun`    {- mavoEab -}          [ "drain", "drains" ]
+    MaFCaL                    `noun`    {- mavoEab -}          [ "drain" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma_tA`ib Ndip" ] -},
 
@@ -356,7 +356,7 @@ lexicon = listing "Lexicon's properties"
     -- vEbAn   vuEobAn Ndu     snake
     -- vEAbyn  vaEAbiyn        Ndip    snakes
 
-    FuCLAn                    `noun`    {- vuEobAn -}          [ "snake", "snakes" ],
+    FuCLAn                    `noun`    {- vuEobAn -}          [ "snake" ],
 
     -- ;; vuEobAniy~_1
     -- vEbAny  vuEobAniy~      Nall    serpentine;snakelike     [[vuEobAniy~/ADJ]]
@@ -369,7 +369,7 @@ lexicon = listing "Lexicon's properties"
     -- vEbAn   vuEobAn Ndu     snake
     -- vEAbyn  vaEAbiyn        Ndip    snakes
 
-    KuRDAS                    `noun`    {- vuEobAn -}          [ "snake", "snakes" ]
+    KuRDAS                    `noun`    {- vuEobAn -}          [ "snake" ]
                               `plural`     KaRADIS
                            {- `others`  [ "_ta`Abiyn Ndip" ] -},
 
@@ -396,7 +396,7 @@ lexicon = listing "Lexicon's properties"
     -- vElb    vaEolab N/ap    fox
     -- vEAlb   vaEAlib Ndip    foxes
 
-    KaRDaS                    `noun`    {- vaEolab -}          [ "fox", "foxes" ]
+    KaRDaS                    `noun`    {- vaEolab -}          [ "fox" ]
                               `plural`     KaRADiS
                            {- `others`  [ "_ta`Alib Ndip" ] -},
 
@@ -460,7 +460,7 @@ lexicon = listing "Lexicon's properties"
     -- vbAn    vibAn   N       lap;fold
     -- vbn     vuban   N       laps;folds
 
-    FuCL |< aT                `noun`    {- vubonap -}          [ "lap", "fold", "laps", "folds" ]
+    FuCL |< aT                `noun`    {- vubonap -}          [ "lap", "fold" ]
                               `plural`     FiCAL
                               `plural`     FuCaL
                            {- `others`  [ "_tibAn N", "_tuban N" ] -},
@@ -469,7 +469,7 @@ lexicon = listing "Lexicon's properties"
     -- mvbn    mavoban Napdu   toiletry kit;toilette bag;vanity case
     -- mvAbn   mavAbin Ndip    toiletry kits;toilette bags;vanity cases
 
-    MaFCaL |< aT              `noun`    {- mavobanap -}        [ "toiletry kit", "toilette bag", "vanity case", "toiletry kits", "toilette bags", "vanity cases" ]
+    MaFCaL |< aT              `noun`    {- mavobanap -}        [ "toiletry kit", "toilette bag", "vanity case" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma_tAbin Ndip" ] -} ]
 
@@ -553,7 +553,7 @@ lexicon = listing "Lexicon's properties"
     -- vbt     vobit   IV_yu   ascertain;establish
     -- vbt     vobat   IV_Pass_yu      be ascertained;be established
 
-    HaFCaL                    `verb`    {- Oavobat -}          [ "ascertain", "establish", "be ascertained", "be established" ],
+    HaFCaL                    `verb`    {- Oavobat -}          [ "ascertain", "establish" ],
 
     -- ;; tavab~at_1
     -- tvbt    tavab~at        PV-t    ascertain;verify
@@ -605,7 +605,7 @@ lexicon = listing "Lexicon's properties"
     -- vAbt    vAbit   Napdu   fixed star
     -- vwAbt   vawAbit Ndip    fixed stars
 
-    FACiL |< aT               `noun`    {- vAbitap -}          [ "fixed star", "fixed stars" ]
+    FACiL |< aT               `noun`    {- vAbitap -}          [ "fixed star" ]
                               `plural`     FawACiL
                            {- `others`  [ "_tawAbit Ndip" ] -},
 
@@ -655,7 +655,7 @@ lexicon = listing "Lexicon's properties"
     -- >vdA}   >avodA} Nhy     breasts
     -- AvdA}   >avodA} Nhy     breasts
 
-    FaCL                      `noun`    {- vadoy -}            [ "breast", "breasts" ]
+    FaCL                      `noun`    {- vadoy -}            [ "breast" ]
                               `plural`     FaCA
                               `plural`     HaFCA'
                               `plural`     FaCY
@@ -672,7 +672,7 @@ lexicon = listing "Lexicon's properties"
     -- vdyy    vadoyiy~        Nall    mammal     [[vadoyiy~/ADJ]]
     -- vdyy    vadoyiy~        NAt     mammals     [[vadoyiy~/NOUN]]
 
-    FaCL |< Iy                `adj`     {- vadoyiy~ -}         [ "mammal", "mammals" ] ]
+    FaCL |< Iy                `adj`     {- vadoyiy~ -}         [ "mammal" ] ]
 
  |> "_t d y '" <| [
 
@@ -716,7 +716,7 @@ lexicon = listing "Lexicon's properties"
     -- vfn     vifon   NapAt   callus
     -- vfn     vifan   N       calluses
 
-    FiCL |< aT                `noun`    {- vifonap -}          [ "callus", "calluses" ]
+    FiCL |< aT                `noun`    {- vifonap -}          [ "callus" ]
                               `plural`     FiCaL
                            {- `others`  [ "_tifan N" ] -} ]
 
@@ -727,7 +727,7 @@ lexicon = listing "Lexicon's properties"
     -- >vfAr   >avofAr N       cruppers
     -- AvfAr   >avofAr N       cruppers
 
-    FaCaL                     `noun`    {- vafar -}            [ "crupper", "cruppers" ]
+    FaCaL                     `noun`    {- vafar -}            [ "crupper" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a_tfAr N" ] -} ]
 
@@ -859,7 +859,7 @@ lexicon = listing "Lexicon's properties"
     -- mvlj    mavolaj Napdu   cold-storage plant
     -- mvAlj   mavAlij Ndip    cold-storage plants
 
-    MaFCaL |< aT              `noun`    {- mavolajap -}        [ "cold-storage plant", "cold-storage plants" ]
+    MaFCaL |< aT              `noun`    {- mavolajap -}        [ "cold-storage plant" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma_tAli^g Ndip" ] -},
 
@@ -970,7 +970,7 @@ lexicon = listing "Lexicon's properties"
     -- mvlb    mavolab Napdu   shortcoming;defect
     -- mvAlb   mavAlib Ndip    shortcomings;defects
 
-    MaFCaL |< aT              `noun`    {- mavolabap -}        [ "shortcoming", "defect", "shortcomings", "defects" ]
+    MaFCaL |< aT              `noun`    {- mavolabap -}        [ "shortcoming", "defect" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma_tAlib Ndip" ] -},
 
@@ -1005,7 +1005,7 @@ lexicon = listing "Lexicon's properties"
     -- vl      vul~    Napdu   troop;detachment
     -- vll     vulal   N       troops;detachments
 
-    FuCL |< aT                `noun`    {- vul~ap -}           [ "troop", "detachment", "troops", "detachments" ]
+    FuCL |< aT                `noun`    {- vul~ap -}           [ "troop", "detachment" ]
                               `plural`     FuCaL
                            {- `others`  [ "_tulal N" ] -} ]
 
@@ -1053,7 +1053,7 @@ lexicon = listing "Lexicon's properties"
     -- vlm     vulom   Napdu   gap;crack
     -- vlm     vulam   N       gaps;cracks
 
-    FuCL |< aT                `noun`    {- vulomap -}          [ "gap", "crack", "gaps", "cracks" ]
+    FuCL |< aT                `noun`    {- vulomap -}          [ "gap", "crack" ]
                               `plural`     FuCaL
                            {- `others`  [ "_tulam N" ] -},
 
@@ -1092,7 +1092,7 @@ lexicon = listing "Lexicon's properties"
     -- vml     vomil   IV_yu   make drunk;intoxicate
     -- vml     vomal   IV_Pass_yu      be made drunk;be intoxicated
 
-    HaFCaL                    `verb`    {- Oavomal -}          [ "make drunk", "intoxicate", "be made drunk", "be intoxicated" ],
+    HaFCaL                    `verb`    {- Oavomal -}          [ "make drunk", "intoxicate", "be made drunk" ],
 
     -- ;; vamal_1
     -- vml     vamal   N       intoxication
@@ -1152,7 +1152,7 @@ lexicon = listing "Lexicon's properties"
     -- >vmn    >avomin Nap     values;prices
     -- Avmn    >avomin Nap     values;prices
 
-    FaCaL                     `noun`    {- vaman -}            [ "value", "price", "values", "prices" ]
+    FaCaL                     `noun`    {- vaman -}            [ "value", "price" ]
                               `plural`     HaFCiL |< aT
                               `plural`     HaFCAL
                            {- `others`  [ "'a_tmAn N" ] -},
@@ -1203,7 +1203,7 @@ lexicon = listing "Lexicon's properties"
     -- >vmAn   >avomAn N       eighths
     -- AvmAn   >avomAn N       eighths
 
-    FuCL                      `noun`    {- vumon -}            [ "one-eighth", "eighth", "eighths" ]
+    FuCL                      `noun`    {- vumon -}            [ "one-eighth", "eighth" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a_tmAn N" ] -},
 
@@ -1273,7 +1273,7 @@ lexicon = listing "Lexicon's properties"
     -- >vmAr   >avomAr N       fruits;results
     -- AvmAr   >avomAr N       fruits;results
 
-    FaCaL                     `noun`    {- vamar -}            [ "fruit", "result", "fruits", "results" ]
+    FaCaL                     `noun`    {- vamar -}            [ "fruit", "result" ]
                               `plural`     HaFCAL
                               `plural`     FiCAL
                            {- `others`  [ "'a_tmAr N", "_timAr N" ] -},
@@ -1282,7 +1282,7 @@ lexicon = listing "Lexicon's properties"
     -- vmr     vamor   Napdu   fruit;result
     -- vmr     vamar   NAt     fruits;results
 
-    FaCL                      `noun`    {- vamor -}            [ "fruit", "result", "fruits", "results" ]
+    FaCL                      `noun`    {- vamor -}            [ "fruit", "result" ]
                               `plural`     FaCaL |< At,
 
     -- ;; {isotivomAr_1
@@ -1404,7 +1404,7 @@ lexicon = listing "Lexicon's properties"
     -- <stvnA' {isotivonA'     NAt     exceptions;exclusions
     -- AstvnA' {isotivonA'     NAt     exceptions;exclusions
 
-    IstiFCAL                  `noun`    {- AisotivonA' -}      [ "exception", "exclusion", "exceptions", "exclusions" ]
+    IstiFCAL                  `noun`    {- AisotivonA' -}      [ "exception", "exclusion" ]
                               `plural`     IstiFCAL |< At
                               `plural`     IstiFCA' |< At,
 
@@ -1421,7 +1421,7 @@ lexicon = listing "Lexicon's properties"
     -- vnAdy   vanAdiy N0_Nh   breasts
     -- vnAd    vanAd   NK      breasts
 
-    KuRDU |< aT               `noun`    {- vunoduwap -}        [ "breast", "breasts" ]
+    KuRDU |< aT               `noun`    {- vunoduwap -}        [ "breast" ]
                               `plural`     KaRADI
                            {- `others`  [ "_tanAdiy N0_Nh" ] -} ]
 
@@ -1431,7 +1431,7 @@ lexicon = listing "Lexicon's properties"
     -- vn      vun~    Napdu   fetlock
     -- vnn     vunan   N       fetlocks
 
-    FuCL |< aT                `noun`    {- vun~ap -}           [ "fetlock", "fetlocks" ]
+    FuCL |< aT                `noun`    {- vun~ap -}           [ "fetlock" ]
                               `plural`     FuCaL
                            {- `others`  [ "_tunan N" ] -},
 
@@ -1485,7 +1485,7 @@ lexicon = listing "Lexicon's properties"
     -- vnY     van~aY  IV_0_Pass_yu    be folded;be doubled
     -- vny     van~ay  IV_Ann_Pass_yu  be folded;be doubled
 
-    FaCCY                     `verb`    {- van~aY -}           [ "fold", "double", "be folded", "be doubled" ],
+    FaCCY                     `verb`    {- van~aY -}           [ "fold", "double" ],
 
     -- ;; >avonaY_1
     -- >vnY    >avonaY PV_0    praise;commend
@@ -1501,7 +1501,7 @@ lexicon = listing "Lexicon's properties"
     -- vnY     vonaY   IV_0_Pass_yu    be praised;be commended
     -- vny     vonay   IV_Ann_Pass_yu  be praised;be commended
 
-    HaFCY                     `verb`    {- OavonaY -}          [ "praise", "commend", "be praised", "be commended" ],
+    HaFCY                     `verb`    {- OavonaY -}          [ "praise", "commend" ],
 
     -- ;; tavan~aY_1
     -- tvnY    tavan~aY        PV_0    be doubled;be repeated
@@ -1543,7 +1543,7 @@ lexicon = listing "Lexicon's properties"
     -- stvn    sotavon IV_0hwnyn       except;exclude
     -- stvnY   sotavonaY       IV_0_Pass_yu    be excepted;be excluded
 
-    IstaFCY                   `verb`    {- AisotavonaY -}      [ "except", "exclude", "be excepted", "be excluded" ],
+    IstaFCY                   `verb`    {- AisotavonaY -}      [ "except", "exclude" ],
 
     -- ;; vanoy_1
     -- vny     vanoy   N       bending;folding
@@ -1559,7 +1559,7 @@ lexicon = listing "Lexicon's properties"
     -- >vnA}   >avonA} Nhy     folds;bends
     -- AvnA}   >avonA} Nhy     folds;bends
 
-    FiCL                      `noun`    {- vinoy -}            [ "fold", "bend", "folds", "bends" ]
+    FiCL                      `noun`    {- vinoy -}            [ "fold", "bend" ]
                               `plural`     HaFCA'
                            {- `others`  [ "'a_tnA' Nh N0_Nh Nhy" ] -},
 
@@ -1589,14 +1589,14 @@ lexicon = listing "Lexicon's properties"
     -- vny     vanoy   Napdu   fold;crease
     -- vny     vanay   NAt     folds;creases
 
-    FaCL |< aT                `noun`    {- vanoyap -}          [ "fold", "crease", "folds", "creases" ]
+    FaCL |< aT                `noun`    {- vanoyap -}          [ "fold", "crease" ]
                               `plural`     FaCY |< At,
 
     -- ;; vanoyap_2
     -- vny     vanoy   Napdu   cuff
     -- vny     vanay   NAt     cuffs
 
-    FaCL |< aT                `noun`    {- vanoyap -}          [ "cuff", "cuffs" ]
+    FaCL |< aT                `noun`    {- vanoyap -}          [ "cuff" ]
                               `plural`     FaCY |< At,
 
     -- ;; vaniy~ap_1
@@ -1697,7 +1697,7 @@ lexicon = listing "Lexicon's properties"
     -- <stvnA' {isotivonA'     NAt     exceptions;exclusions
     -- AstvnA' {isotivonA'     NAt     exceptions;exclusions
 
-    IstiFCA'                  `noun`    {- AisotivonA' -}      [ "exception", "exclusion", "exceptions", "exclusions" ]
+    IstiFCA'                  `noun`    {- AisotivonA' -}      [ "exception", "exclusion" ]
                               `plural`     IstiFCA' |< At,
 
     -- ;; {isotivonA}iy~_1
@@ -1755,7 +1755,7 @@ lexicon = listing "Lexicon's properties"
     -- vqb     voqib   IV_yu   light;kindle
     -- vqb     voqab   IV_Pass_yu      be lit;be kindled
 
-    HaFCaL                    `verb`    {- Oavoqab -}          [ "light", "kindle", "be lit", "be kindled" ],
+    HaFCaL                    `verb`    {- Oavoqab -}          [ "light", "kindle", "be lit" ],
 
     -- ;; tavaq~ab_1
     -- tvqb    tavaq~ab        PV_intr be pierced;be perforated
@@ -1781,7 +1781,7 @@ lexicon = listing "Lexicon's properties"
     -- >vqAb   >avoqAb N       perforations;drill holes
     -- AvqAb   >avoqAb N       perforations;drill holes
 
-    FuCL                      `noun`    {- vuqob -}            [ "perforation", "drill hole", "perforations", "drill holes" ]
+    FuCL                      `noun`    {- vuqob -}            [ "perforation", "drill hole" ]
                               `plural`     HaFCAL
                               `plural`     FuCUL
                            {- `others`  [ "'a_tqAb N", "_tuquwb N" ] -},
@@ -1790,7 +1790,7 @@ lexicon = listing "Lexicon's properties"
     -- vqb     vuqob   Napdu   hole;perforation
     -- vqb     vuqab   N       holes;perforations
 
-    FuCL |< aT                `noun`    {- vuqobap -}          [ "hole", "perforation", "holes", "perforations" ]
+    FuCL |< aT                `noun`    {- vuqobap -}          [ "hole", "perforation" ]
                               `plural`     FuCaL
                            {- `others`  [ "_tuqab N" ] -},
 
@@ -1911,7 +1911,7 @@ lexicon = listing "Lexicon's properties"
     -- vql     voqil   IV_yu   burden;oppress
     -- vql     voqal   IV_Pass_yu      be burdened;be oppressed
 
-    HaFCaL                    `verb`    {- Oavoqal -}          [ "burden", "oppress", "be burdened", "be oppressed" ],
+    HaFCaL                    `verb`    {- Oavoqal -}          [ "burden", "oppress" ],
 
     -- ;; tavAqal_1
     -- tvAql   tavAqal PV      act slowly;be troublesome
@@ -1941,7 +1941,7 @@ lexicon = listing "Lexicon's properties"
     -- vql     vaqol   Napdu   trouble;burden
     -- vql     vaqal   NAt     troubles;burdens
 
-    FaCL |< aT                `noun`    {- vaqolap -}          [ "trouble", "burden", "troubles", "burdens" ]
+    FaCL |< aT                `noun`    {- vaqolap -}          [ "trouble", "burden" ]
                               `plural`     FaCaL |< At,
 
     -- ;; vaqAlap_1
@@ -1971,7 +1971,7 @@ lexicon = listing "Lexicon's properties"
     -- mvqAl   mivoqAl Ndu     weight;miskal
     -- mvAqyl  mavAqiyl        Ndip    weights;miskals
 
-    MiFCAL                    `noun`    {- mivoqAl -}          [ "weight", "miskal", "weights", "miskals" ]
+    MiFCAL                    `noun`    {- mivoqAl -}          [ "weight", "miskal" ]
                               `plural`     MaFACIL
                            {- `others`  [ "ma_tAqiyl Ndip" ] -},
 
@@ -2179,7 +2179,7 @@ lexicon = listing "Lexicon's properties"
     -- vrY     voraY   IV_0_Pass_yu    be enriched;be made rich
     -- vry     voray   IV_Ann_Pass_yu  be enriched;be made rich
 
-    HaFCY                     `verb`    {- OavoraY -}          [ "enrich", "make rich", "be enriched", "be made rich" ],
+    HaFCY                     `verb`    {- OavoraY -}          [ "enrich", "make rich", "be made rich" ],
 
     -- ;; <ivorA'_1
     -- <vrA'   <ivorA' N0_Nh   enrichment
@@ -2252,7 +2252,7 @@ lexicon = listing "Lexicon's properties"
     -- vAb     vAb     IV_V_Pass_yu    be returned;be compensated;be rewarded
     -- vb      vab     IV_C_Pass_yu    be returned;be compensated;be rewarded
 
-    HaFAL                     `verb`    {- OavAb -}            [ "return", "compensate", "reward", "be returned", "be compensated", "be rewarded" ],
+    HaFAL                     `verb`    {- OavAb -}            [ "return", "compensate", "reward" ],
 
     -- ;; tavAwab_1
     -- tvAwb   tavAwab PV      yawn
@@ -2276,7 +2276,7 @@ lexicon = listing "Lexicon's properties"
     -- >vwAb   >avowAb N       garments;clothes
     -- AvwAb   >avowAb N       garments;clothes
 
-    FaCL                      `noun`    {- vawob -}            [ "garment", "robe", "garments", "clothes" ]
+    FaCL                      `noun`    {- vawob -}            [ "garment", "robe", "clothes" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a_twAb N" ] -},
 
@@ -2309,7 +2309,7 @@ lexicon = listing "Lexicon's properties"
     -- mvwb    mavowab NapAt   reward;recompense
     -- mvAwb   mavAwib Ndip    rewards;recompenses
 
-    MaFCaL |< aT              `noun`    {- mavowabap -}        [ "reward", "recompense", "rewards", "recompenses" ]
+    MaFCaL |< aT              `noun`    {- mavowabap -}        [ "reward", "recompense" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma_tAwib Ndip" ] -} ]
 
@@ -2375,7 +2375,7 @@ lexicon = listing "Lexicon's properties"
     -- vAr     vAr     IV_V_Pass_yu    be provoked;be agitated
     -- vr      var     IV_C_Pass_yu    be provoked;be agitated
 
-    HaFAL                     `verb`    {- OavAr -}            [ "provoke", "agitate", "be provoked", "be agitated" ],
+    HaFAL                     `verb`    {- OavAr -}            [ "provoke", "agitate" ],
 
     -- ;; {isotavAr_1
     -- <stvAr  {isotavAr       PV_V    incite;elicit
@@ -2391,7 +2391,7 @@ lexicon = listing "Lexicon's properties"
     -- vwr     vawor   Ndu     bull;ox
     -- vyrAn   viyrAn  N       bulls;oxen
 
-    FaCL                      `noun`    {- vawor -}            [ "bull", "ox", "bulls", "oxen" ]
+    FaCL                      `noun`    {- vawor -}            [ "bull", "ox", "oxen" ]
                               `plural`     FILAn
                            {- `others`  [ "_tiyrAn N" ] -},
 
@@ -2445,7 +2445,7 @@ lexicon = listing "Lexicon's properties"
     -- vA}r    vA}ir   Ndu     insurgent
     -- vwAr    vuw~Ar  N       insurgents;revolutionaries
 
-    FA'iL                     `noun`    {- vA}ir -}            [ "insurgent", "insurgents", "revolutionaries" ]
+    FA'iL                     `noun`    {- vA}ir -}            [ "insurgent", "revolutionaries" ]
                               `plural`     FUCAL
                            {- `others`  [ "_tuwwAr N" ] -},
 
@@ -2539,7 +2539,7 @@ lexicon = listing "Lexicon's properties"
     -- vwY     vowaY   IV_0_Pass_yu    be housed;be lodged
     -- vwy     voway   IV_Ann_Pass_yu  be housed;be lodged
 
-    HaFCY                     `verb`    {- OavowaY -}          [ "reside", "lodge", "be housed", "be lodged" ],
+    HaFCY                     `verb`    {- OavowaY -}          [ "reside", "lodge", "be housed" ],
 
     -- ;; vawiy~_1
     -- vwy     vawiy~  Ndu     guest room
@@ -2559,7 +2559,7 @@ lexicon = listing "Lexicon's properties"
     -- mvAwy   mavAwiy N0_Nh   abodes;lodgings
     -- mvAw    mavAw   NK      abodes;lodgings
 
-    MaFCY                     `noun`    {- mavowaY -}          [ "abode", "lodging", "abodes", "lodgings" ]
+    MaFCY                     `noun`    {- mavowaY -}          [ "abode", "lodging" ]
                               `plural`     MaFACI
                            {- `others`  [ "ma_tAwiy N0_Nh" ] -} ]
 
@@ -2595,7 +2595,7 @@ lexicon = listing "Lexicon's properties"
     -- vytl    vayotal Ndu     goat
     -- vyAtl   vayAtil Ndip    goats
 
-    KaRDaS                    `noun`    {- vayotal -}          [ "goat", "goats" ]
+    KaRDaS                    `noun`    {- vayotal -}          [ "goat" ]
                               `plural`     KaRADiS
                            {- `others`  [ "_tayAtil Ndip" ] -} ]
 

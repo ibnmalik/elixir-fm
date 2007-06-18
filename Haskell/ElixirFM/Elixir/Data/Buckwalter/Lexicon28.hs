@@ -186,7 +186,7 @@ lexicon = listing "Lexicon's properties"
     -- yxt     yaxot   Ndu     yacht
     -- yxwt    yuxuwt  N       yachts
 
-    FaCL                      `noun`    {- yaxot -}            [ "yacht", "yachts" ]
+    FaCL                      `noun`    {- yaxot -}            [ "yacht" ]
                               `plural`     FuCUL
                            {- `others`  [ "yu_huwt N" ] -} ]
 
@@ -225,7 +225,7 @@ lexicon = listing "Lexicon's properties"
     -- wbs     wbis    IV_yu   make dry;desiccate
     -- wbs     wbas    IV_Pass_yu      be dried;be desiccated
 
-    HaFCaL                    `verb`    {- Oayobas -}          [ "make dry", "desiccate", "be dried", "be desiccated" ],
+    HaFCaL                    `verb`    {- Oayobas -}          [ "make dry", "desiccate", "be dried" ],
 
     -- ;; yabos_1
     -- ybs     yabos   N       dryness
@@ -265,7 +265,7 @@ lexicon = listing "Lexicon's properties"
     -- >yAd    >ayAd   NK      hands
     -- AyAd    >ayAd   NK      hands
 
-    FaL                       `noun`    {- yad -}              [ "hand", "hands" ]
+    FaL                       `noun`    {- yad -}              [ "hand" ]
                               `plural`     HaFCI
                               `plural`     HaFACI
                            {- `others`  [ "'aydiy N0_Nh", "'ayAdiy N0_Nh" ] -},
@@ -288,7 +288,7 @@ lexicon = listing "Lexicon's properties"
     -- >yAd    >ayAd   NK      hands
     -- AyAd    >ayAd   NK      hands
 
-    FaC                       `noun`    {- yad -}              [ "hand", "hands" ]
+    FaC                       `noun`    {- yad -}              [ "hand" ]
                               `plural`     HaFCI
                               `plural`     HaFACI
                            {- `others`  [ "'aydiy N0_Nh", "'ayAdiy N0_Nh" ] -},
@@ -313,7 +313,7 @@ lexicon = listing "Lexicon's properties"
     -- yAfwx   yAfuwx  Ndu     vertex;crown of the head
     -- ywAfyx  yawAfiyx        Ndip    vertexes;crowns of heads
 
-    FACUL                     `noun`    {- yAfuwx -}           [ "vertex", "crown of the head", "vertexes", "crowns of heads" ]
+    FACUL                     `noun`    {- yAfuwx -}           [ "vertex", "crown of the head", "crowns of heads" ]
                               `plural`     FawACIL
                            {- `others`  [ "yawAfiy_h Ndip" ] -} ]
 
@@ -361,7 +361,7 @@ lexicon = listing "Lexicon's properties"
     -- >yfAE   >ayofAE N       adolescents
     -- AyfAE   >ayofAE N       adolescents
 
-    FaCaL                     `noun`    {- yafaE -}            [ "adolescent", "adolescents" ]
+    FaCaL                     `noun`    {- yafaE -}            [ "adolescent" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'ayfA` N" ] -},
 
@@ -391,7 +391,7 @@ lexicon = listing "Lexicon's properties"
     -- yhwdy   yahuwdiy~       N/ap    Jew
     -- yhwd    yahuwd  N       Jews
 
-    FaCUL |< Iy               `adj`     {- yahuwdiy~ -}        [ "Jew", "Jews" ]
+    FaCUL |< Iy               `adj`     {- yahuwdiy~ -}        [ "Jew" ]
                               `plural`     FaCUL
                            {- `others`  [ "yahuwd N" ] -},
 
@@ -431,7 +431,7 @@ lexicon = listing "Lexicon's properties"
     -- ymAm    yamAm   NapAt   pigeon;dove
     -- ymA}m   yamA}im Ndip    pigeons;doves
 
-    FaCAL                     `noun`    {- yamAm -}            [ "pigeon", "dove", "pigeons", "doves" ]
+    FaCAL                     `noun`    {- yamAm -}            [ "pigeon", "dove" ]
                               `plural`     FaCAL |< At ]
 
  |> "y m n" <| [
@@ -553,7 +553,7 @@ lexicon = listing "Lexicon's properties"
     -- >ymAn   >ayomAn N       oaths
     -- AymAn   >ayomAn N       oaths
 
-    FaCIL                     `noun`    {- yamiyn -}           [ "oath", "oaths" ]
+    FaCIL                     `noun`    {- yamiyn -}           [ "oath" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'aymAn N" ] -},
 
@@ -580,7 +580,7 @@ lexicon = listing "Lexicon's properties"
     -- ymny    yumonay NAn_Nayn        right hand;right side;lucky     [[yumonay/ADJ]]
     -- ymny    yumonay NAt     right hands;right sides;lucky     [[yumonay/ADJ]]
 
-    FuCLY                     `adj`     {- yumonaY -}          [ "right hand", "right side", "lucky", "right hands", "right sides" ]
+    FuCLY                     `adj`     {- yumonaY -}          [ "right hand", "right side", "lucky" ]
                               `plural`     FuCLY |< At,
 
     -- ;; yumonaY_2
@@ -592,7 +592,7 @@ lexicon = listing "Lexicon's properties"
     -- mymn    mayoman Nap     right wing;right side
     -- myAmn   mayAmin Ndip    right wings;right sides
 
-    MaFCaL |< aT              `noun`    {- mayomanap -}        [ "right wing", "right side", "right wings", "right sides" ]
+    MaFCaL |< aT              `noun`    {- mayomanap -}        [ "right wing", "right side" ]
                               `plural`     MaFACiL
                            {- `others`  [ "mayAmin Ndip" ] -},
 
@@ -649,7 +649,7 @@ lexicon = listing "Lexicon's properties"
     -- wnE     wniE    IV_yu   ripen;mellow
     -- wnE     wnaE    IV_Pass_yu      be ripened;be mellowed
 
-    HaFCaL                    `verb`    {- OayonaE -}          [ "ripen", "mellow", "be ripened", "be mellowed" ],
+    HaFCaL                    `verb`    {- OayonaE -}          [ "ripen", "mellow" ],
 
     -- ;; yanoE_1
     -- ynE     yanoE   N       ripening;mellowing
@@ -748,7 +748,7 @@ lexicon = listing "Lexicon's properties"
     -- wqZ     wqiZ    IV_yu   awaken;warn
     -- wqZ     wqaZ    IV_Pass_yu      be awakened;be warned
 
-    HaFCaL                    `verb`    {- OayoqaZ -}          [ "awaken", "warn", "be awakened", "be warned" ],
+    HaFCaL                    `verb`    {- OayoqaZ -}          [ "awaken", "warn" ],
 
     -- ;; tayaq~aZ_1
     -- tyqZ    tayaq~aZ        PV_intr be awake;be alert
@@ -917,7 +917,7 @@ lexicon = listing "Lexicon's properties"
     -- yAqwt   yAquwt  Napdu   precious stone;ruby
     -- ywAqyt  yawAqiyt        Ndip    precious stones;rubies
 
-    FACUL                     `noun`    {- yAquwt -}           [ "precious stone", "ruby", "precious stones", "rubies" ]
+    FACUL                     `noun`    {- yAquwt -}           [ "precious stone", "ruby" ]
                               `plural`     FawACIL
                            {- `others`  [ "yawAqiyt Ndip" ] -} ]
 
@@ -1128,7 +1128,7 @@ lexicon = listing "Lexicon's properties"
     -- ysry    yusoray NAn_Nayn        left;left hands
     -- ysry    yusoray NAt     left;left hands
 
-    HaFCaL                    `noun`    {- Oayosar -}          [ "left", "left hand", "left hands" ]
+    HaFCaL                    `noun`    {- Oayosar -}          [ "left", "left hand" ]
                               `plural`     FuCLY |< At
                            {- `others`  [ "yusrY N0 NAn_Nayn" ] -},
 
@@ -1147,7 +1147,7 @@ lexicon = listing "Lexicon's properties"
     -- mysr    mayosar Napdu   left wing;left side
     -- myAsr   mayAsir Ndip    left wings;left sides
 
-    MaFCaL |< aT              `noun`    {- mayosarap -}        [ "left wing", "left side", "left wings", "left sides" ]
+    MaFCaL |< aT              `noun`    {- mayosarap -}        [ "left wing", "left side" ]
                               `plural`     MaFACiL
                            {- `others`  [ "mayAsir Ndip" ] -},
 
@@ -1266,7 +1266,7 @@ lexicon = listing "Lexicon's properties"
     -- ytAmY   yatAmaY N0      orphans;unique
     -- ytAmA   yatAmA  Nhy     orphans;unique
 
-    FaCIL                     `noun`    {- yatiym -}           [ "orphan", "unique", "orphans" ]
+    FaCIL                     `noun`    {- yatiym -}           [ "orphan", "unique" ]
                               `plural`     FaCALY
                               `plural`     HaFCAL
                            {- `others`  [ "yatAmY N0", "'aytAm N" ] -},
@@ -1275,7 +1275,7 @@ lexicon = listing "Lexicon's properties"
     -- mytm    mayotam Ndu     orphanage
     -- myAtm   mayAtim Ndip    orphanages
 
-    MaFCaL                    `noun`    {- mayotam -}          [ "orphanage", "orphanages" ]
+    MaFCaL                    `noun`    {- mayotam -}          [ "orphanage" ]
                               `plural`     MaFACiL
                            {- `others`  [ "mayAtim Ndip" ] -},
 
@@ -1320,7 +1320,7 @@ lexicon = listing "Lexicon's properties"
     -- >yAm    >ay~Am  N       days
     -- AyAm    >ay~Am  N       days
 
-    FaCL                      `noun`    {- yawom -}            [ "day", "days" ],
+    FaCL                      `noun`    {- yawom -}            [ "day" ],
 
     -- ;; yawom_2
     -- ywmA    yawomAF FW-Wa   some day    [[yawomAF/ADV]]
@@ -1498,7 +1498,7 @@ lexicon = listing "Lexicon's properties"
     -- yzky    yazakiy~        Ndu     guard;sentry
     -- yzk     yazak   N       guards;sentries
 
-    FaCaL |< Iy               `adj`     {- yazakiy~ -}         [ "guard", "sentry", "guards", "sentries" ]
+    FaCaL |< Iy               `adj`     {- yazakiy~ -}         [ "guard", "sentry" ]
                               `plural`     FaCaL
                            {- `others`  [ "yazak N" ] -} ]
 
@@ -1624,7 +1624,7 @@ lexicon = listing "Lexicon's properties"
     -- yAzrjy  yAzirojiy~      N/ap    astrologer     [[yAzirojiy~/NOUN]]
     -- yAzrjy  yAzirojiy~      Nap     astrologers     [[yAzirojiy~/NOUN]]
 
-    Identity |< Iy            `noun`    {- yAzirojiy~ -}       [ "astrologer", "astrologers" ],
+    Identity |< Iy            `noun`    {- yAzirojiy~ -}       [ "astrologer" ],
 
     -- ;; yAzirojiy~_2
     -- yAzrjy  yAzirojiy~      N       Yazirji
@@ -1731,7 +1731,7 @@ lexicon = listing "Lexicon's properties"
     -- ywgslAf yuwgusolAf      N       Yugoslavians     [[yuwgusolAf/ADJ]]
     -- ywjslAf yuwjusolAf      N       Yugoslavians     [[yuwgusolAf/ADJ]]
 
-    Identity |< Iy            `adj`     {- yuwguwsolAfiy~ -}   [ "Yugoslavian", "Yugoslavians" ] ]
+    Identity |< Iy            `adj`     {- yuwguwsolAfiy~ -}   [ "Yugoslavian" ] ]
 
  |> "yuw.guwslAfiyA" <| [
 
@@ -1892,7 +1892,7 @@ lexicon = listing "Lexicon's properties"
     -- ywzbA$y yuwzobA$iy~     N/ap    captain     [[yuwzobA$iy~/ADJ]]
     -- ywzbA$y yuwzobA$iy~     Nap     captains     [[yuwzobA$iy~/NOUN]]
 
-    Identity |< Iy            `adj`     {- yuwzobA$iy~ -}      [ "captain", "captains" ] ]
+    Identity |< Iy            `adj`     {- yuwzobA$iy~ -}      [ "captain" ] ]
 
  |> "ywmbl.gAz" <| [
 

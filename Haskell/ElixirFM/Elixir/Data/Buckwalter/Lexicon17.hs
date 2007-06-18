@@ -25,7 +25,7 @@ lexicon = listing "Lexicon's properties"
     -- >ZAfyr  >aZAfiyr        Ndip    nails;claws;talons
     -- AZAfyr  >aZAfiyr        Ndip    nails;claws;talons
 
-    Identity                  `noun`    {- OuZofuwr -}         [ "nail", "claw", "talon", "nails", "claws", "talons" ] ]
+    Identity                  `noun`    {- OuZofuwr -}         [ "nail", "claw", "talon" ] ]
 
  |> ".z  '" <| [
 
@@ -66,7 +66,7 @@ lexicon = listing "Lexicon's properties"
     -- AZEAn   >aZoEAn N       camel loads
     -- ZEA}n   ZaEA}in Ndip    camel loads
 
-    FaCIL |< aT               `noun`    {- ZaEiynap -}         [ "camel load", "camel loads" ]
+    FaCIL |< aT               `noun`    {- ZaEiynap -}         [ "camel load" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.z`An N" ] -},
 
@@ -88,7 +88,7 @@ lexicon = listing "Lexicon's properties"
     -- ZbA&    ZibA&   Nh      gazelles
     -- ZbA}    ZibA}   Nhy     gazelles
 
-    FaCL                      `noun`    {- Zaboy -}            [ "gazelle", "gazelles" ]
+    FaCL                      `noun`    {- Zaboy -}            [ "gazelle" ]
                               `plural`     FiCA'
                            {- `others`  [ ".zibA' Nh N0_Nh Nhy" ] -},
 
@@ -101,7 +101,7 @@ lexicon = listing "Lexicon's properties"
     -- Zby     Zaboy   Napdu   gazelle
     -- Zby     Zabay   NAt     gazelles
 
-    FaCL |< aT                `noun`    {- Zaboyap -}          [ "gazelle", "gazelles" ]
+    FaCL |< aT                `noun`    {- Zaboyap -}          [ "gazelle" ]
                               `plural`     FaCY |< At,
 
     -- ;; ZuboyAniy~_1
@@ -145,7 +145,7 @@ lexicon = listing "Lexicon's properties"
     -- >ZAfr   >aZAfir Ndip    nails;claws;talons
     -- AZAfr   >aZAfir Ndip    nails;claws;talons
 
-    FuCuL                     `noun`    {- Zufur -}            [ "nail", "claw", "talon", "nails", "claws", "talons" ]
+    FuCuL                     `noun`    {- Zufur -}            [ "nail", "claw", "talon" ]
                               `plural`     HaFCAL
                               `plural`     HaFACiL
                            {- `others`  [ "'a.zfAr N", "'a.zAfir Ndip" ] -},
@@ -228,7 +228,7 @@ lexicon = listing "Lexicon's properties"
     -- Zhr     Zohir   IV_yu   show;manifest;demonstrate
     -- Zhr     Zohar   IV_Pass_yu      be shown;be manifest;be demonstrated
 
-    HaFCaL                    `verb`    {- OaZohar -}          [ "show", "manifest", "demonstrate", "be shown", "be manifest", "be demonstrated" ],
+    HaFCaL                    `verb`    {- OaZohar -}          [ "show", "manifest", "demonstrate", "be shown", "be manifest" ],
 
     -- ;; taZAhar_1
     -- tZAhr   taZAhar PV      manifest;demonstrate
@@ -260,7 +260,7 @@ lexicon = listing "Lexicon's properties"
     -- >ZhAr   >aZohAr N       afternoons
     -- AZhAr   >aZohAr N       afternoons
 
-    FuCL                      `adv`     {- Zuhor -}            [ "noon", "afternoon", "in the afternoon", "at noon", "afternoons" ]
+    FuCL                      `adv`     {- Zuhor -}            [ "noon", "afternoon", "in the afternoon", "at noon" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.zhAr N" ] -},
 
@@ -483,7 +483,7 @@ lexicon = listing "Lexicon's properties"
     -- Zll     Zolil   IV_C_yu shade
     -- Zl      Zal~    IV_V_Pass_yu    be shaded
 
-    HaFaCL                    `verb`    {- OaZal~ -}           [ "shade", "be shaded" ],
+    HaFaCL                    `verb`    {- OaZal~ -}           [ "shade" ],
 
     -- ;; taZal~al_1
     -- tZll    taZal~al        PV_intr be shaded
@@ -531,7 +531,7 @@ lexicon = listing "Lexicon's properties"
     -- mZl     miZal~  NapAt   umbrella
     -- mZAl    maZAl~  Ndip    umbrellas
 
-    MiFaCL |< aT              `noun`    {- miZal~ap -}         [ "umbrella", "umbrellas" ]
+    MiFaCL |< aT              `noun`    {- miZal~ap -}         [ "umbrella" ]
                               `plural`     MaFACL
                            {- `others`  [ "ma.zAll Ndip" ] -},
 
@@ -539,7 +539,7 @@ lexicon = listing "Lexicon's properties"
     -- mZl     miZal~  NapAt   parachute
     -- mZAl    maZAl~  Ndip    parachutes
 
-    MiFaCL |< aT              `noun`    {- miZal~ap -}         [ "parachute", "parachutes" ]
+    MiFaCL |< aT              `noun`    {- miZal~ap -}         [ "parachute" ]
                               `plural`     MaFACL
                            {- `others`  [ "ma.zAll Ndip" ] -},
 
@@ -565,7 +565,7 @@ lexicon = listing "Lexicon's properties"
     -- Zlm     Zolim   IV_intr be unjust;oppress
     -- Zlm     Zolam   IV_Pass_yu      be oppressed
 
-    FaCaL                     `verb`    {- Zalam-i -}          [ "be unjust", "oppress", "be oppressed" ]
+    FaCaL                     `verb`    {- Zalam-i -}          [ "be unjust", "oppress" ]
                               `imperf`     FCiL,
 
     -- ;; >aZolam_1
@@ -631,7 +631,7 @@ lexicon = listing "Lexicon's properties"
     -- Zlym    Zaliym  Ndu     ostrich
     -- ZlmAn   ZilomAn N       ostriches
 
-    FaCIL                     `noun`    {- Zaliym -}           [ "ostrich", "ostriches" ]
+    FaCIL                     `noun`    {- Zaliym -}           [ "ostrich" ]
                               `plural`     FiCLAn
                            {- `others`  [ ".zilmAn N" ] -},
 
@@ -650,7 +650,7 @@ lexicon = listing "Lexicon's properties"
     -- mZlm    maZolim Napdu   injustice;misdeed
     -- mZAlm   maZAlim Ndip    injustices;misdeeds
 
-    MaFCiL |< aT              `noun`    {- maZolimap -}        [ "injustice", "misdeed", "injustices", "misdeeds" ]
+    MaFCiL |< aT              `noun`    {- maZolimap -}        [ "injustice", "misdeed" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma.zAlim Ndip" ] -},
 
@@ -672,7 +672,7 @@ lexicon = listing "Lexicon's properties"
     -- ZlAm    Zul~Am  N       oppressors;tyrants
     -- Zlm     Zalam   Nap     oppressors;tyrants
 
-    FACiL                     `noun`    {- ZAlim -}            [ "oppressor", "tyrant", "oppressors", "tyrants" ]
+    FACiL                     `noun`    {- ZAlim -}            [ "oppressor", "tyrant" ]
                               `plural`     FuCCAL
                               `plural`     FaCaL |< aT
                            {- `others`  [ ".zullAm N" ] -},
@@ -761,7 +761,7 @@ lexicon = listing "Lexicon's properties"
     -- Znbwb   Zunobuwb        Ndu     shinbone;tibia
     -- ZnAbyb  ZanAbiyb        Ndip    shinbones
 
-    KuRDUS                    `noun`    {- Zunobuwb -}         [ "shinbone", "tibia", "shinbones" ]
+    KuRDUS                    `noun`    {- Zunobuwb -}         [ "shinbone", "tibia" ]
                               `plural`     KaRADIS
                            {- `others`  [ ".zanAbiyb Ndip" ] -},
 
@@ -877,7 +877,7 @@ lexicon = listing "Lexicon's properties"
     -- Zrf     Zarof   Ndu     circumstance;condition;situation
     -- Zrwf    Zuruwf  N       circumstances;condition;situation
 
-    FaCL                      `noun`    {- Zarof -}            [ "circumstance", "condition", "situation", "circumstances" ]
+    FaCL                      `noun`    {- Zarof -}            [ "circumstance", "condition", "situation" ]
                               `plural`     FuCUL
                            {- `others`  [ ".zuruwf N" ] -},
 
@@ -929,7 +929,7 @@ lexicon = listing "Lexicon's properties"
     -- mZrwf   maZoruwf        Ndu     envelope
     -- mZAryf  maZAriyf        Ndip    envelopes
 
-    MaFCUL                    `noun`    {- maZoruwf -}         [ "envelope", "envelopes" ]
+    MaFCUL                    `noun`    {- maZoruwf -}         [ "envelope" ]
                               `plural`     MaFACIL
                            {- `others`  [ "ma.zAriyf Ndip" ] -},
 
@@ -968,5 +968,5 @@ lexicon = listing "Lexicon's properties"
     -- mZn     maZin~  Nap     presumption;prejudice
     -- mZAn    maZAn~  Ndip    presumptions;prejudices
 
-    Identity |< aT            `noun`    {- maZin~ap -}         [ "presumption", "prejudice", "presumptions", "prejudices" ] ]
+    Identity |< aT            `noun`    {- maZin~ap -}         [ "presumption", "prejudice" ] ]
 

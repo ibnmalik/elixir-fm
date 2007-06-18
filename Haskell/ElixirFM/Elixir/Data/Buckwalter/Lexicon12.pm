@@ -52754,6 +52754,9 @@ $Lexicon = {
   's \' l' => [
     {
       'types' => {
+        'sal' => {
+          'CV' => 1
+        },
         'su\'il' => {
           'PV_Pass' => 1
         },
@@ -52769,9 +52772,13 @@ $Lexicon = {
         's>l     sa>al   PV      ask;inquire;request',
         's>l     so>al   IV      ask;inquire;request',
         's}l     su}il   PV_Pass be asked',
-        's>l     so>al   IV_Pass_yu      be asked'
+        's>l     so>al   IV_Pass_yu      be asked',
+        'sl      sal     CV      ask;inquire;request'
       ],
       'patterns' => {
+        'sal' => [
+          'FaL'
+        ],
         'su\'il' => [
           'FuCiL'
         ],

@@ -23863,10 +23863,12 @@ $Lexicon = {
     {
       'types' => {
         'mur' => {
+          'CV' => 1,
           'IV_need-Pref-|' => 1
         },
         '\'mur' => {
-          'IV_no-Pref-A' => 2
+          'IV_no-Pref-A' => 2,
+          'CV' => 1
         }
       },
       'entry' => '\'amar',
@@ -23877,7 +23879,9 @@ $Lexicon = {
         'Amr     >amar   PV      command;order;prescribe',
         '>mr     >omur   IV_no-Pref-A    command;order;prescribe',
         'Amr     >omur   IV_no-Pref-A    command;order;prescribe',
-        'mr      mur     IV_need-Pref-|  command;order;prescribe'
+        'mr      mur     IV_need-Pref-|  command;order;prescribe',
+        'mr      mur     CV  	command;order;prescribe',
+        'Amr     >omur   CV      command;order;prescribe'
       ],
       'patterns' => {
         'mur' => [

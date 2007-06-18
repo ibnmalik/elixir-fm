@@ -24,7 +24,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `noun`    {- gAl -}              [ "Gaul" ],
 
-    FACiL |< aT               `noun`    {- gA}ilap -}          [ "calamity", "havoc", "calamities" ]
+    FACiL |< aT               `noun`    {- gA}ilap -}          [ "calamity", "havoc" ]
                               `plural`     FawACiL
                               `plural`     FawA'iL
                            {- `others`  [ ".gawA'il Ndip" ] -} ]
@@ -55,7 +55,7 @@ lexicon = listing "Lexicon's properties"
     FaCiL                     `verb`    {- gaDib-a -}          [ "become angry" ]
                               `imperf`     FCaL,
 
-    HaFCaL                    `verb`    {- OagoDab -}          [ "make angry", "irritate", "be angered", "be irritated" ],
+    HaFCaL                    `verb`    {- OagoDab -}          [ "make angry", "irritate", "be angered" ],
 
     FaCaL                     `adv`     {- gaDab -}            [ "anger", "wrath", "in anger", "angrily" ],
 
@@ -65,7 +65,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g .d n" <| [
 
-    FaCL                      `noun`    {- gaDon -}            [ "wrinkle", "fold", "frown", "wrinkles", "folds", "frowns" ]
+    FaCL                      `noun`    {- gaDon -}            [ "wrinkle", "fold", "frown" ]
                               `plural`     FuCUL
                            {- `others`  [ ".gu.duwn N" ] -},
 
@@ -99,7 +99,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g .t '" <| [
 
-    FiCAL                     `noun`    {- giTA' -}            [ "cover", "blanket", "covers", "blankets" ]
+    FiCAL                     `noun`    {- giTA' -}            [ "cover", "blanket" ]
                               `plural`     HaFCI |< aT ]
 
  |> ".g .t .t" <| [
@@ -121,12 +121,12 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g .t w" <| [
 
-    FaCA                      `verb`    {- gaTA-u -}           [ "cover", "be covered" ]
+    FaCA                      `verb`    {- gaTA-u -}           [ "cover" ]
                               `imperf`     FCU,
 
-    FaCCY                     `verb`    {- gaT~aY -}           [ "cover", "conceal", "be covered", "be concealed" ],
+    FaCCY                     `verb`    {- gaT~aY -}           [ "cover", "conceal" ],
 
-    FiCA'                     `noun`    {- giTA' -}            [ "cover", "blanket", "covers", "blankets" ]
+    FiCA'                     `noun`    {- giTA' -}            [ "cover", "blanket" ]
                               `plural`     HaFCI |< aT,
 
     TaFCI |< aT               `noun`    {- tagoTiyap -}        [ "coverage", "covering" ],
@@ -165,7 +165,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g _d w" <| [
 
-    FaCCY                     `verb`    {- ga*~aY -}           [ "feed", "nourish", "be fed", "be nourished" ],
+    FaCCY                     `verb`    {- ga*~aY -}           [ "feed", "nourish", "be fed" ],
 
     FiCA'                     `noun`    {- gi*A' -}            [ "food", "provisions" ]
                               `plural`     HaFCI |< aT,
@@ -194,7 +194,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g b b" <| [
 
-    MaFaCL |< aT              `noun`    {- magab~ap -}         [ "consequence", "result", "outcome", "consequences", "results" ]
+    MaFaCL |< aT              `noun`    {- magab~ap -}         [ "consequence", "result", "outcome" ]
                               `plural`     MaFaCL |< At ]
 
  |> ".g b n" <| [
@@ -229,7 +229,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- gador -}            [ "treason", "deception" ],
 
-    MuFACaL |< aT             `noun`    {- mugAdarap -}        [ "departure", "departures" ]
+    MuFACaL |< aT             `noun`    {- mugAdarap -}        [ "departure" ]
                               `plural`     MuFACaL |< At ]
 
  |> ".g d w" <| [
@@ -242,12 +242,12 @@ lexicon = listing "Lexicon's properties"
 
     FaC                       `noun`    {- gad -}              [ "tomorrow" ],
 
-    FaCY |< aT                `noun`    {- gadAp -}            [ "morning", "tomorrow", "comings", "mornings" ]
+    FaCY |< aT                `noun`    {- gadAp -}            [ "morning", "tomorrow", "comings" ]
                               `plural`     FaCaL |< At ]
 
  |> ".g f l" <| [
 
-    HaFCaL                    `verb`    {- Oagofal -}          [ "neglect", "overlook", "disregard", "be neglected", "be overlooked", "be disregarded" ],
+    HaFCaL                    `verb`    {- Oagofal -}          [ "neglect", "overlook", "disregard" ],
 
     HiFCAL                    `noun`    {- IigofAl -}          [ "disregard", "omission", "forgetting" ]
                               `plural`     HiFCAL |< At,
@@ -262,7 +262,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g f w" <| [
 
-    FaCL |< aT                `noun`    {- gafowap -}          [ "nap", "siesta", "sleepiness", "naps", "siestas" ]
+    FaCL |< aT                `noun`    {- gafowap -}          [ "nap", "siesta", "sleepiness" ]
                               `plural`     FaCaL |< At ]
 
  |> ".g l '" <| [
@@ -276,7 +276,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g l .t" <| [
 
-    FaCL |< aT                `noun`    {- galoTap -}          [ "error", "blunder", "errors", "blunders" ]
+    FaCL |< aT                `noun`    {- galoTap -}          [ "error", "blunder" ]
                               `plural`     FaCaL |< At,
 
     MuFACaL |< aT             `noun`    {- mugAlaTap -}        [ "falsification", "misrepresentation", "deception" ],
@@ -312,7 +312,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCCaL                    `verb`    {- gal~af -}           [ "wrap", "envelope", "cover" ],
 
-    FiCAL                     `noun`    {- gilAf -}            [ "cover", "covers" ]
+    FiCAL                     `noun`    {- gilAf -}            [ "cover" ]
                               `plural`     HaFCiL |< aT
                               `plural`     FiCAL |< At
                               `plural`     FuCuL
@@ -355,7 +355,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g l w" <| [
 
-    FACY                      `verb`    {- gAlaY -}            [ "exceed", "overdo", "be exceeded", "be overdone" ],
+    FACY                      `verb`    {- gAlaY -}            [ "exceed", "overdo", "be overdone" ],
 
     HaFCY                     `verb`    {- OagolaY -}          [ "raise (price)", "make expensive", "be raised (price)" ],
 
@@ -363,7 +363,7 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `noun`    {- OagolaY -}          [ "more/most expensive", "most expensive" ],
 
-    MuFACY |< aT              `noun`    {- mugAlAp -}          [ "exaggeration", "excess", "exaggerations", "excesses" ]
+    MuFACY |< aT              `noun`    {- mugAlAp -}          [ "exaggeration", "excess" ]
                               `plural`     MuFACY |< At,
 
     FACI                      `noun`    {- gAliy -}            [ "costly", "beloved" ]
@@ -374,23 +374,23 @@ lexicon = listing "Lexicon's properties"
     FACI                      `noun`    {- gAliy -}            [ "costly", "beloved" ]
                               `plural`     FACI |< At,
 
-    HaFCY                     `verb`    {- OagolaY -}          [ "boil", "make boil", "be boiled" ],
+    HaFCY                     `verb`    {- OagolaY -}          [ "boil", "make boil" ],
 
     FaCaLAn                   `noun`    {- galayAn -}          [ "boiling" ] ]
 
  |> ".g l y n" <| [
 
-    KaRDUS                    `noun`    {- galoyuwn -}         [ "tobacco pipe", "tobacco pipes" ]
+    KaRDUS                    `noun`    {- galoyuwn -}         [ "tobacco pipe" ]
                               `plural`     KaRADIS
                            {- `others`  [ ".galAyiyn Ndip" ] -},
 
-    KaRDUS                    `noun`    {- galoyuwn -}         [ "galleon", "galleons" ]
+    KaRDUS                    `noun`    {- galoyuwn -}         [ "galleon" ]
                               `plural`     KaRADIS
                            {- `others`  [ ".galAyiyn Ndip" ] -} ]
 
  |> ".g m .d" <| [
 
-    HaFCaL                    `verb`    {- OagomaD -}          [ "blur", "blind", "be blurred", "be blinded" ],
+    HaFCaL                    `verb`    {- OagomaD -}          [ "blur", "blind", "be blurred" ],
 
     FuCUL                     `noun`    {- gumuwD -}           [ "vagueness", "obscurity", "lack of clarity" ],
 
@@ -409,7 +409,7 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- gamar-u -}          [ "immerse", "flood" ]
                               `imperf`     FCuL,
 
-    FaCL |< aT                `noun`    {- gamorap -}          [ "inundation", "flood", "inundations", "floods" ]
+    FaCL |< aT                `noun`    {- gamorap -}          [ "inundation", "flood" ]
                               `plural`     FaCaL |< At,
 
     MuFACaL |< aT             `noun`    {- mugAmarap -}        [ "adventure", "risk" ] ]
@@ -426,7 +426,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g n d r" <| [
 
-    KaRDUS                    `noun`    {- ganoduwr -}         [ "dandy", "handsome man", "dandies", "handsome men" ]
+    KaRDUS                    `noun`    {- ganoduwr -}         [ "dandy", "handsome man", "handsome men" ]
                               `plural`     KaRADiS |< aT,
 
     KaRDUS                    `noun`    {- ganoduwr -}         [ "Ghandour" ] ]
@@ -469,14 +469,14 @@ lexicon = listing "Lexicon's properties"
 
     FiCA' |< Iy               `adj`     {- ginA}iy~ -}         [ "singing", "vocal", "lyrical" ],
 
-    HuFCI |< aT               `noun`    {- Ougoniyap -}        [ "song", "melody", "songs", "melodies" ]
+    HuFCI |< aT               `noun`    {- Ougoniyap -}        [ "song", "melody" ]
                               `plural`     HaFACI
                            {- `others`  [ "'a.gAniy N0_Nh" ] -},
 
     IstiFCA'                  `noun`    {- AisotigonA' -}      [ "dispensing with", "renunciation" ]
                               `plural`     IstiFCA' |< At,
 
-    FACI |< aT                `noun`    {- gAniyap -}          [ "pretty girl", "belle", "pretty girls", "belles" ]
+    FACI |< aT                `noun`    {- gAniyap -}          [ "pretty girl", "belle" ]
                               `plural`     FawACI
                            {- `others`  [ ".gawAniy N0_Nh" ] -} ]
 
@@ -488,13 +488,13 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g r .d" <| [
 
-    FaCaL                     `noun`    {- garaD -}            [ "goal", "purpose", "objective", "goals", "objectives" ]
+    FaCaL                     `noun`    {- garaD -}            [ "goal", "purpose", "objective" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.grA.d N" ] -} ]
 
  |> ".g r b" <| [
 
-    HaFCaL                    `verb`    {- Oagorab -}          [ "exaggerate", "be exaggerated" ],
+    HaFCaL                    `verb`    {- Oagorab -}          [ "exaggerate" ],
 
     IstaFCaL                  `verb`    {- Aisotagorab -}      [ "wonder at", "find strange" ],
 
@@ -508,7 +508,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaLA'
                            {- `others`  [ ".gurabA' Nh N0_Nh Nhy" ] -},
 
-    FaCIL                     `noun`    {- gariyb -}           [ "stranger", "foreigner", "strangers", "foreigners", "emigres" ]
+    FaCIL                     `noun`    {- gariyb -}           [ "stranger", "foreigner", "emigres" ]
                               `plural`     FuCaLA'
                               `plural`     HaFCAL
                            {- `others`  [ ".gurabA' Nh N0_Nh Nhy", "'a.grAb N" ] -},
@@ -553,7 +553,7 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- garaf-i -}          [ "scoop up" ]
                               `imperf`     FCiL,
 
-    FuCL |< aT                `noun`    {- gurofap -}          [ "room", "chamber", "rooms", "chambers" ]
+    FuCL |< aT                `noun`    {- gurofap -}          [ "room", "chamber" ]
                               `plural`     FuCaL
                            {- `others`  [ ".guraf N" ] -} ]
 
@@ -570,7 +570,7 @@ lexicon = listing "Lexicon's properties"
     FaCiL                     `verb`    {- gariq-a -}          [ "sink", "drown", "be submerged" ]
                               `imperf`     FCaL,
 
-    HaFCaL                    `verb`    {- Oagoraq -}          [ "submerge", "drown", "inundate", "be submerged", "be drowned", "be inundated" ],
+    HaFCaL                    `verb`    {- Oagoraq -}          [ "submerge", "drown", "inundate" ],
 
     IstaFCaL                  `verb`    {- Aisotagoraq -}      [ "last" ],
 
@@ -593,18 +593,18 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- garas-i -}          [ "implant", "plant" ]
                               `imperf`     FCiL,
 
-    HaFCaL                    `verb`    {- Oagoras -}          [ "implant", "plant", "be implanted", "be planted" ],
+    HaFCaL                    `verb`    {- Oagoras -}          [ "implant", "plant" ],
 
     FaCL                      `noun`    {- garos -}            [ "implant" ],
 
-    FaCL                      `noun`    {- garos -}            [ "plant", "plants" ]
+    FaCL                      `noun`    {- garos -}            [ "plant" ]
                               `plural`     FiCAL
                               `plural`     HaFCAL
                            {- `others`  [ ".girAs N", "'a.grAs N" ] -} ]
 
  |> ".g r w" <| [
 
-    HaFCY                     `verb`    {- OagoraY -}          [ "incite", "induce", "provoke", "be incited", "be provoked" ],
+    HaFCY                     `verb`    {- OagoraY -}          [ "incite", "induce", "provoke" ],
 
     HiFCA'                    `noun`    {- IigorA' -}          [ "incitement", "instigation" ]
                               `plural`     HiFCA' |< At,
@@ -632,7 +632,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- gasiyl -}           [ "clothes", "wash", "dirty linen" ],
 
-    FaCCAL |< aT              `noun`    {- gas~Alap -}         [ "washing machine", "washing machines" ]
+    FaCCAL |< aT              `noun`    {- gas~Alap -}         [ "washing machine" ]
                               `plural`     FaCCAL |< At,
 
     IFtiCAL                   `noun`    {- AigotisAl -}        [ "washing", "bath", "ablution" ]
@@ -675,12 +675,12 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL,
 
-    IFtAL                     `verb`    {- AigotAl -}          [ "assassinate", "murder", "be assassinated", "be murdered" ],
+    IFtAL                     `verb`    {- AigotAl -}          [ "assassinate", "murder" ],
 
     IFtiyAL                   `noun`    {- AigotiyAl -}        [ "assassination", "murder" ]
                               `plural`     IFtiyAL |< At,
 
-    FA'iL |< aT               `noun`    {- gA}ilap -}          [ "calamity", "havoc", "calamities" ]
+    FA'iL |< aT               `noun`    {- gA}ilap -}          [ "calamity", "havoc" ]
                               `plural`     FawA'iL
                            {- `others`  [ ".gawA'il Ndip" ] -} ]
 
@@ -690,12 +690,12 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g w r" <| [
 
-    HaFAL                     `verb`    {- OagAr -}            [ "attack", "invade", "raid", "be attacked", "be invaded", "be raided" ],
+    HaFAL                     `verb`    {- OagAr -}            [ "attack", "invade", "raid" ],
 
-    FAL |< aT                 `noun`    {- gArap -}            [ "raid", "foray", "attack", "raids", "forays", "attacks" ]
+    FAL |< aT                 `noun`    {- gArap -}            [ "raid", "foray", "attack" ]
                               `plural`     FAL |< At,
 
-    FaCL                      `noun`    {- gawor -}            [ "depression", "declivity", "depressions", "declivities", "caves" ]
+    FaCL                      `noun`    {- gawor -}            [ "depression", "declivity", "caves" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.gwAr N" ] -},
 
@@ -785,7 +785,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- gay~ap -}           [ "error", "sin" ],
 
-    FAL |< aT                 `noun`    {- gAyap -}            [ "goal", "objective", "purpose", "intention", "goals", "objectives" ]
+    FAL |< aT                 `noun`    {- gAyap -}            [ "goal", "objective", "purpose", "intention" ]
                               `plural`     FAL |< At,
 
     FAL |< aT                 `adv`     {- gAyap -}            [ "utmost", "extreme", "extremely", "greatly" ] ]
@@ -796,7 +796,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCUL                     `noun`    {- guzuwl -}           [ "flirting" ],
 
-    FaCAL                     `noun`    {- gazAl -}            [ "gazelle", "gazelles" ]
+    FaCAL                     `noun`    {- gazAl -}            [ "gazelle" ]
                               `plural`     FiCLAn
                               `plural`     FiCL |< aT
                            {- `others`  [ ".gizlAn N" ] -},
@@ -805,7 +805,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- gazAlap -}          [ "Ghazala" ],
 
-    MaFCiL                    `noun`    {- magozil -}          [ "spinning mill", "spinning mills", "spindles" ]
+    MaFCiL                    `noun`    {- magozil -}          [ "spinning mill", "spindles" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma.gAzil Ndip" ] -} ]
 
@@ -819,23 +819,23 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g z w" <| [
 
-    FaCA                      `verb`    {- gazA-u -}           [ "invade", "conquer", "be invaded", "be conquered" ]
+    FaCA                      `verb`    {- gazA-u -}           [ "invade", "conquer" ]
                               `imperf`     FCU,
 
-    FaCL                      `noun`    {- gazow -}            [ "invasion", "attack", "aggression", "foray", "incursion", "invasions", "forays", "incursions" ]
+    FaCL                      `noun`    {- gazow -}            [ "invasion", "attack", "aggression", "foray", "incursion" ]
                               `plural`     FaCaL |< At,
 
-    MaFCY                     `noun`    {- magozaY -}          [ "significance", "meaning", "meanings" ]
+    MaFCY                     `noun`    {- magozaY -}          [ "significance", "meaning" ]
                               `plural`     MaFACI
                            {- `others`  [ "ma.gAziy N0_Nh" ] -},
 
-    FACI                      `adj`     {- gAziy -}            [ "invader", "raider", "aggressor", "invaders", "raiders", "aggressors" ]
+    FACI                      `adj`     {- gAziy -}            [ "invader", "raider", "aggressor" ]
                               `plural`     FuCY |< aT
                               `plural`     FACI |< At ]
 
  |> ".g z y" <| [
 
-    FACI                      `adj`     {- gAziy -}            [ "invader", "raider", "aggressor", "invaders", "raiders", "aggressors" ]
+    FACI                      `adj`     {- gAziy -}            [ "invader", "raider", "aggressor" ]
                               `plural`     FuCY |< aT
                               `plural`     FACI |< At ]
 

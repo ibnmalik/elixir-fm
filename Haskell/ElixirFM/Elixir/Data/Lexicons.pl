@@ -144,7 +144,7 @@ sub showEntry ($) {
 
     my $entry = $_[0];
 
-    my ($others, $plural, $imperf, $pfirst, $ithird, $second) = ([], [], [], [], [], []);
+    my ($others, $plural, $imperf, $pfirst, $second, $glosses) = ([], [], [], [], [], []);
 
     if ($entry->{'entity'} eq 'verb') {
 
@@ -160,7 +160,9 @@ sub showEntry ($) {
 
                                      $x =~ s/_intr//;
 
-                                     $x =~ s/_(no-Pref-A|need-Pref-\||no-w)//;
+                                     $x =~ s/^IV_need-Pref-\|$//;
+
+                                     $x =~ s/_(no-Pref-A|no-w)//;
 
                                      $x =~ s/^PV_0h?$/PV/;
                                      $x =~ s/^PV-n$/PV/;
@@ -194,7 +196,7 @@ sub showEntry ($) {
 
                 push @{$imperf}, @ptrns if grep { /^IV(?:_V)?$/ } @types;
                 push @{$pfirst}, @ptrns if grep { /^PV_C/       } @types;
-                push @{$ithird}, @ptrns if grep { /^IV_C/       } @types;
+    # derived # push @{$ithird}, @ptrns if grep { /^IV_C/       } @types;
                 push @{$second}, @ptrns if grep { /^CV$/        } @types;
 
                 @types = grep { not /^IV(?:_V)?$/ || /^PV_C/ || /^IV_C/ || /^CV$/ } @types;
@@ -232,6 +234,8 @@ sub showEntry ($) {
         }
     }
 
+    $glosses = reduceGlosses($entry->{'glosses'});
+
     return sprintf "%s    %-25s %-9s %-22s %s",
                    (defined $include ? '' :
                             (join "\n", map { '    -- ' . escape($_) } @{$entry->{'lines'}}) . "\n\n"),
@@ -241,8 +245,8 @@ sub showEntry ($) {
                    (exists $entry->{'orig'} ? '{- ' . escape($entry->{'orig'}) . ' -}' : ''),
 
                    (join "\n" . ' ' x 27,
-                   (exists $entry->{'glosses'} ? '[ ' .
-                            (join ", ", map { showGloss($_) } @{$entry->{'glosses'}}) . ' ]' : ()),
+
+                   '[ ' . (join ", ", map { showGloss($_) } @{$glosses}) . ' ]',
 
                    (@{$imperf} > 0 ? map { '   `imperf`     ' . $_ } @{$imperf} : ()),
                    (@{$pfirst} > 0 ? map { '   `pfirst`     ' . $_ } @{$pfirst} : ()),
@@ -252,6 +256,36 @@ sub showEntry ($) {
 
                    (@{$others} > 0 ? '{- `others`  [ ' .
                             (join ", ", map { '"' . $_ . '"' } @{$others}) . ' ] -}' : ()));
+}
+
+
+sub reduceGlosses ($) {
+
+    my $data = $_[0];
+
+    my $derived = {};
+
+    foreach my $one (@{$data}) {
+
+        my ($w, $c, $f, $y, $i, $u) = $one =~ /^(.+?)(?:([rl])|(fe?)|([y])|(is)|(us))$/;
+
+        $derived->{'be ' . $one . 'ed'}++;
+        $derived->{'be ' . $one . 'd'}++;
+
+        $derived->{$one . 'es'}++;
+        $derived->{$one . 's'}++;
+
+        $derived->{'be ' . $w . 'ied'}++        if defined $y;
+        $derived->{$w . 'ies'}++                if defined $y;
+
+        $derived->{'be ' . $w . $c . 'ed'}++    if defined $c;
+
+        $derived->{$w . 'ves'}++                if defined $f;
+        $derived->{$w . 'es'}++                 if defined $i;
+        $derived->{$w . 'i'}++                  if defined $u;
+    }
+
+    return [ grep { not exists $derived->{$_} } @{$data} ];
 }
 
 

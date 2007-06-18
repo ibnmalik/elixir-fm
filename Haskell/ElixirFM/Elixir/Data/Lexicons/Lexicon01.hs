@@ -21,16 +21,16 @@ lexicon = listing "Lexicon's properties"
 
  |> "' .g y" <| [
 
-    FaCA                      `noun`    {- OagA -}             [ "Agha", "Aghas" ] ]
+    FaCA                      `noun`    {- OagA -}             [ "Agha" ] ]
 
  |> "' .h d" <| [
 
-    FaCaL                     `noun`    {- OaHad -}            [ "one", "someone", "ones" ]
+    FaCaL                     `noun`    {- OaHad -}            [ "one", "someone" ]
                               `plural`     FiCLY
                               `plural`     HACAL
                            {- `others`  [ "'i.hdY N0", "'A.hAd N" ] -},
 
-    FaCaL                     `noun`    {- OaHad -}            [ "Sunday", "Sundays" ]
+    FaCaL                     `noun`    {- OaHad -}            [ "Sunday" ]
                               `plural`     HACAL
                            {- `others`  [ "'A.hAd N" ] -},
 
@@ -38,7 +38,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' .s l" <| [
 
-    FaCL                      `noun`    {- OaSol -}            [ "origin", "root", "origins", "principles" ]
+    FaCL                      `noun`    {- OaSol -}            [ "origin", "root", "principles" ]
                               `plural`     FuCUL
                            {- `others`  [ "'u.suwl N" ] -},
 
@@ -65,11 +65,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "' .s r" <| [
 
-    HACiL |< aT               `noun`    {- \|Sirap -}          [ "attachment", "bond", "bonds" ]
+    HACiL |< aT               `noun`    {- \|Sirap -}          [ "attachment", "bond" ]
                               `plural`     FawACiL
                            {- `others`  [ "'awA.sir Ndip" ] -},
 
-    FACiL |< aT               `noun`    {- \|Sirap -}          [ "attachment", "bond", "bonds" ]
+    FACiL |< aT               `noun`    {- \|Sirap -}          [ "attachment", "bond" ]
                               `plural`     FawACiL
                            {- `others`  [ "'awA.sir Ndip" ] -} ]
 
@@ -85,7 +85,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' .t r" <| [
 
-    FiCAL                     `noun`    {- IiTAr -}            [ "framework", "context", "frameworks", "contexts" ]
+    FiCAL                     `noun`    {- IiTAr -}            [ "framework", "context" ]
                               `plural`     FuCuL
                               `plural`     FiCAL |< At
                            {- `others`  [ "'u.tur N" ] -},
@@ -99,13 +99,13 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- Oajal-a -}          [ "hesitate", "linger" ]
                               `imperf`     FCaL,
 
-    FaCCaL                    `verb`    {- Oaj~al -}           [ "postpone", "delay", "be postponed", "be delayed" ],
+    FaCCaL                    `verb`    {- Oaj~al -}           [ "postpone", "delay" ],
 
     TaFaCCaL                  `verb`    {- taOaj~al -}         [ "be postponed", "be adjourned" ],
 
     FaCL                      `noun`    {- Oajol -}            [ "for sake of", "because of" ],
 
-    FaCaL                     `noun`    {- Oajal -}            [ "period", "term", "periods", "terms" ]
+    FaCaL                     `noun`    {- Oajal -}            [ "period", "term" ]
                               `plural`     HACAL
                            {- `others`  [ "'A^gAl N" ] -},
 
@@ -126,11 +126,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Oajor -}            [ "remuneration", "recompense" ],
 
-    FaCL                      `noun`    {- Oajor -}            [ "wage", "fee", "wages", "fees" ]
+    FaCL                      `noun`    {- Oajor -}            [ "wage", "fee" ]
                               `plural`     FuCUL
                            {- `others`  [ "'u^guwr N" ] -},
 
-    FuCL |< aT                `noun`    {- Oujorap -}          [ "fee", "charge", "fees", "charges" ]
+    FuCL |< aT                `noun`    {- Oujorap -}          [ "fee", "charge" ]
                               `plural`     FuCaL
                            {- `others`  [ "'u^gar N" ] -},
 
@@ -156,7 +156,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' ^s r" <| [
 
-    FaCCaL                    `verb`    {- Oa$~ar -}           [ "indicate", "register", "be indicated", "be registered" ],
+    FaCCaL                    `verb`    {- Oa$~ar -}           [ "indicate", "register" ],
 
     TaFCIL                    `noun`    {- taOo$iyr -}         [ "visa", "mark" ]
                               `plural`     TaFCIL |< At,
@@ -170,12 +170,12 @@ lexicon = listing "Lexicon's properties"
 
     FiC |< aN                 `adv`     {- Ii*AF -}            [ "therefore", "so", "then" ],
 
-    FICAL                     `noun`    {- Iiy*A' -}           [ "damage", "injury", "damages" ]
+    FICAL                     `noun`    {- Iiy*A' -}           [ "damage", "injury" ]
                               `plural`     FICAL |< At
                               `plural`     HICAL |< At
                               `plural`     HICA' |< At,
 
-    HICAL                     `noun`    {- Iiy*A' -}           [ "damage", "injury", "damages" ]
+    HICAL                     `noun`    {- Iiy*A' -}           [ "damage", "injury" ]
                               `plural`     FICAL |< At
                               `plural`     HICAL |< At
                               `plural`     HICA' |< At ]
@@ -196,7 +196,7 @@ lexicon = listing "Lexicon's properties"
     FaCiL                     `verb`    {- Oa*in-a -}          [ "authorize", "listen" ]
                               `imperf`     FCaL,
 
-    FuCuL                     `noun`    {- Ou*un -}            [ "ear", "ears" ]
+    FuCuL                     `noun`    {- Ou*un -}            [ "ear" ]
                               `plural`     HACAL
                            {- `others`  [ "'A_dAn N" ] -},
 
@@ -204,7 +204,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCUL
                            {- `others`  [ "'u_duwn N" ] -},
 
-    MiFCaL |< aT              `noun`    {- mi}o*anap -}        [ "minaret", "minarets" ]
+    MiFCaL |< aT              `noun`    {- mi}o*anap -}        [ "minaret" ]
                               `plural`     MaFACiL
                               `plural`     MaFCaL
                            {- `others`  [ "ma'A_din Ndip", "ma'_dan Napdu" ] -},
@@ -227,15 +227,15 @@ lexicon = listing "Lexicon's properties"
 
     FiC                       `conj`    {- Ii* -}              [ "because" ],
 
-    FACY                      `verb`    {- \|*aY -}            [ "injure", "prejudice", "be injured", "be prejudiced" ],
+    FACY                      `verb`    {- \|*aY -}            [ "injure", "prejudice" ],
 
-    HACY                      `verb`    {- \|*aY -}            [ "injure", "prejudice", "be injured", "be prejudiced" ],
+    HACY                      `verb`    {- \|*aY -}            [ "injure", "prejudice" ],
 
     FaCY                      `noun`    {- Oa*aY -}            [ "injury", "damage", "offense" ]
                               `plural`     FaCA
                            {- `others`  [ "'a_dA Nhy" ] -},
 
-    HICA'                     `noun`    {- Iiy*A' -}           [ "damage", "injury", "damages" ]
+    HICA'                     `noun`    {- Iiy*A' -}           [ "damage", "injury" ]
                               `plural`     HICA' |< At ]
 
  |> "' _h '" <| [
@@ -247,7 +247,6 @@ lexicon = listing "Lexicon's properties"
  |> "' _h _d" <| [
 
     FaCaL                     `verb`    {- Oaxa*-u -}          [ "take", "begin" ]
-                              `imperf`     CuL
                               `imperf`     FCuL
                               `second`     CuL,
 
@@ -263,7 +262,7 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL                    `noun`    {- maOoxuw* -}         [ "taken", "seized" ],
 
-    MaFCaL                    `noun`    {- maOoxa* -}          [ "source", "method", "procedure", "sources", "references" ]
+    MaFCaL                    `noun`    {- maOoxa* -}          [ "source", "method", "procedure", "references" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma'A_hi_d Ndip" ] -},
 
@@ -273,7 +272,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' _h _h" <| [
 
-    FaL                       `pron`    {- Oax -}              [ "brother", "brother + my", "brothers" ]
+    FaL                       `pron`    {- Oax -}              [ "brother", "brother + my" ]
                               `plural`     FaCI
                               `plural`     FaCU
                               `plural`     FaCA
@@ -289,7 +288,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FACaL |< Un
                               `plural`     HACaL |< Un,
 
-    FuCLY                     `adj`     {- OuxoraY -}          [ "other", "another", "others" ]
+    FuCLY                     `adj`     {- OuxoraY -}          [ "other", "another" ]
                               `plural`     FuCLY |< At,
 
     FACiL                     `noun`    {- \|xir -}            [ "last", "end" ]
@@ -320,11 +319,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "' _h t" <| [
 
-    FuCL                      `noun`    {- Ouxot -}            [ "sister", "counterpart", "sisters" ] ]
+    FuCL                      `noun`    {- Ouxot -}            [ "sister", "counterpart" ] ]
 
  |> "' _h w" <| [
 
-    FaC                       `pron`    {- Oax -}              [ "brother", "brother + my", "brothers" ]
+    FaC                       `pron`    {- Oax -}              [ "brother", "brother + my" ]
                               `plural`     FaCI
                               `plural`     FaCU
                               `plural`     FaCaL
@@ -353,7 +352,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' _t m" <| [
 
-    FiCL                      `noun`    {- Iivom -}            [ "offense", "misdeed", "offenses", "sins" ]
+    FiCL                      `noun`    {- Iivom -}            [ "offense", "misdeed", "sins" ]
                               `plural`     HACAL
                            {- `others`  [ "'A_tAm N" ] -},
 
@@ -369,7 +368,7 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCiL
                               `imperf`     FCuL,
 
-    FaCCaL                    `verb`    {- Oav~ar -}           [ "affect", "influence", "be affected", "be influenced" ],
+    FaCCaL                    `verb`    {- Oav~ar -}           [ "affect", "influence" ],
 
     TaFaCCaL                  `verb`    {- taOav~ar -}         [ "be influenced", "be affected" ],
 
@@ -377,7 +376,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- OavArap -}          [ "reporting", "transmitting" ],
 
-    FaCaL                     `noun`    {- Oavar -}            [ "effect", "trace", "effects", "traces" ]
+    FaCaL                     `noun`    {- Oavar -}            [ "effect", "trace" ]
                               `plural`     HACAL
                            {- `others`  [ "'A_tAr N" ] -},
 
@@ -465,11 +464,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "' b r" <| [
 
-    FiCL |< aT                `noun`    {- Iiborap -}          [ "indicator", "needle", "indicators", "needles" ]
+    FiCL |< aT                `noun`    {- Iiborap -}          [ "indicator", "needle" ]
                               `plural`     FiCaL
                            {- `others`  [ "'ibar N" ] -},
 
-    FiCL |< aT                `noun`    {- Iiborap -}          [ "needle", "injection", "needles", "injections" ]
+    FiCL |< aT                `noun`    {- Iiborap -}          [ "needle", "injection" ]
                               `plural`     FiCaL
                            {- `others`  [ "'ibar N" ] -} ]
 
@@ -519,7 +518,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL |< Iy               `adj`     {- Oadabiy~ -}         [ "ethical", "moral" ],
 
-    FaCIL                     `noun`    {- Oadiyb -}           [ "writer", "author", "writers", "authors" ]
+    FaCIL                     `noun`    {- Oadiyb -}           [ "writer", "author" ]
                               `plural`     FuCaLA'
                            {- `others`  [ "'udabA' Nh N0_Nh Nhy" ] -},
 
@@ -557,12 +556,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "' d w" <| [
 
-    FaCY |< aT                `noun`    {- OadAp -}            [ "tool", "instrument", "apparatus", "tools", "instruments" ]
+    FaCY |< aT                `noun`    {- OadAp -}            [ "tool", "instrument", "apparatus" ]
                               `plural`     FaCaL |< At ]
 
  |> "' d y" <| [
 
-    FaCCY                     `verb`    {- Oad~aY -}           [ "direct", "guide", "lead", "be directed", "be guided", "be lead" ],
+    FaCCY                     `verb`    {- Oad~aY -}           [ "direct", "guide", "lead", "be lead" ],
 
     FaCA'                     `noun`    {- OadA' -}            [ "performance", "fulfillment" ],
 
@@ -599,7 +598,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' f q" <| [
 
-    FuCuL                     `noun`    {- Oufuq -}            [ "horizon", "horizons", "provinces" ]
+    FuCuL                     `noun`    {- Oufuq -}            [ "horizon", "provinces" ]
                               `plural`     HACAL
                            {- `others`  [ "'AfAq N" ] -},
 
@@ -607,7 +606,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' f r q" <| [
 
-    KaRDIS |< Iy              `adj`     {- Oaforiyqiy~ -}      [ "African", "Africans" ]
+    KaRDIS |< Iy              `adj`     {- Oaforiyqiy~ -}      [ "African" ]
                               `plural`     KaRADiS |< aT ]
 
  |> "' f y" <| [
@@ -629,11 +628,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "' h l" <| [
 
-    FaCCaL                    `verb`    {- Oah~al -}           [ "train", "certify", "qualify", "capacitate", "be trained", "be certified", "be qualified", "be capacitated" ],
+    FaCCaL                    `verb`    {- Oah~al -}           [ "train", "certify", "qualify", "capacitate" ],
 
     TaFaCCaL                  `verb`    {- taOah~al -}         [ "be qualified", "merit" ],
 
-    FaCL                      `noun`    {- Oahol -}            [ "family", "people", "families", "folk", "indigenous people" ]
+    FaCL                      `noun`    {- Oahol -}            [ "family", "people", "folk", "indigenous people" ]
                               `plural`     FaCALI
                            {- `others`  [ "'ahAliy N0_Nh" ] -},
 
@@ -660,7 +659,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' k d" <| [
 
-    FaCCaL                    `verb`    {- Oak~ad -}           [ "affirm", "assure", "confirm", "guarantee", "be affirmed", "be assured", "be confirmed", "be guaranteed" ],
+    FaCCaL                    `verb`    {- Oak~ad -}           [ "affirm", "assure", "confirm", "guarantee" ],
 
     TaFaCCaL                  `verb`    {- taOak~ad -}         [ "ascertain" ],
 
@@ -688,7 +687,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `verb`    {- Oakal-u -}          [ "eat", "consume" ]
                               `imperf`     FCuL
-                              `imperf`     CuL
                               `second`     CuL,
 
     FACaL                     `verb`    {- \|kal -}            [ "feed" ],
@@ -718,12 +716,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "' l '" <| [
 
-    FICAL                     `noun`    {- IiylA' -}           [ "oath", "oaths" ]
+    FICAL                     `noun`    {- IiylA' -}           [ "oath" ]
                               `plural`     FICAL |< At
                               `plural`     HICAL |< At
                               `plural`     HICA' |< At,
 
-    HICAL                     `noun`    {- IiylA' -}           [ "oath", "oaths" ]
+    HICAL                     `noun`    {- IiylA' -}           [ "oath" ]
                               `plural`     FICAL |< At
                               `plural`     HICAL |< At
                               `plural`     HICA' |< At ]
@@ -737,7 +735,7 @@ lexicon = listing "Lexicon's properties"
     FaCiL                     `verb`    {- Oalif-a -}          [ "be familiar with", "be/become tame" ]
                               `imperf`     FCaL,
 
-    FaCCaL                    `verb`    {- Oal~af -}           [ "compose", "constitute", "be composed", "be constituted" ],
+    FaCCaL                    `verb`    {- Oal~af -}           [ "compose", "constitute" ],
 
     TaFaCCaL                  `verb`    {- taOal~af -}         [ "consist of" ],
 
@@ -746,7 +744,7 @@ lexicon = listing "Lexicon's properties"
     FaCiL                     `noun`    {- Oalif -}            [ "alif (Arabic letter)" ]
                               `plural`     FaCiL |< At,
 
-    FaCL                      `noun`    {- Oalof -}            [ "thousand", "thousands" ]
+    FaCL                      `noun`    {- Oalof -}            [ "thousand" ]
                               `plural`     FuCUL
                               `plural`     HACAL
                            {- `others`  [ "'uluwf N", "'AlAf N" ] -},
@@ -783,7 +781,7 @@ lexicon = listing "Lexicon's properties"
     FaCiL                     `verb`    {- Oalim-a -}          [ "feel pain", "suffer" ]
                               `imperf`     FCaL,
 
-    FaCCaL                    `verb`    {- Oal~am -}           [ "afflict", "distress", "be afflicted", "be distressed" ],
+    FaCCaL                    `verb`    {- Oal~am -}           [ "afflict", "distress" ],
 
     HACaL                     `verb`    {- \|lam -}            [ "afflict", "distress" ],
 
@@ -825,7 +823,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' l m s" <| [
 
-    KaRDAS                    `noun`    {- OalomAs -}          [ "diamond", "diamonds" ]
+    KaRDAS                    `noun`    {- OalomAs -}          [ "diamond" ]
                               `plural`     KaRDAS |< At ]
 
  |> "' l n" <| [
@@ -855,7 +853,7 @@ lexicon = listing "Lexicon's properties"
 
     FACY                      `verb`    {- \|laY -}            [ "promise", "take an oath", "be taken (oath)" ],
 
-    HICA'                     `noun`    {- IiylA' -}           [ "oath", "oaths" ]
+    HICA'                     `noun`    {- IiylA' -}           [ "oath" ]
                               `plural`     HICA' |< At ]
 
  |> "' l y" <| [
@@ -872,7 +870,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' m b r" <| [
 
-    KaRDIS                    `noun`    {- Oamobiyr -}         [ "ampere", "amperes" ]
+    KaRDIS                    `noun`    {- Oamobiyr -}         [ "ampere" ]
                               `plural`     KaRADIS
                               `plural`     KaRDIS |< At
                            {- `others`  [ "'amAbiyr Ndip" ] -} ]
@@ -880,12 +878,11 @@ lexicon = listing "Lexicon's properties"
  |> "' m l" <| [
 
     FaCaL                     `verb`    {- Oamal-a -}          [ "hope for", "wish for" ]
-                              `imperf`     FCaL
-                              `imperf`     CaL,
+                              `imperf`     FCaL,
 
     TaFaCCaL                  `verb`    {- taOam~al -}         [ "consider", "ponder", "contemplate" ],
 
-    FaCaL                     `noun`    {- Oamal -}            [ "hope", "wish", "hopes", "wishes" ]
+    FaCaL                     `noun`    {- Oamal -}            [ "hope", "wish" ]
                               `plural`     HACAL
                            {- `others`  [ "'AmAl N" ] -},
 
@@ -900,9 +897,9 @@ lexicon = listing "Lexicon's properties"
 
     FaL                       `conj`    {- Oam -}              [ "or" ],
 
-    FaCCaL                    `verb`    {- Oam~am -}           [ "nationalize", "be nationalized" ],
+    FaCCaL                    `verb`    {- Oam~am -}           [ "nationalize" ],
 
-    FuCL                      `noun`    {- Oum~ -}             [ "mother", "maternal", "mothers" ],
+    FuCL                      `noun`    {- Oum~ -}             [ "mother", "maternal" ],
 
     FuCL                      `noun`    {- Oum~ -}             [ "Umm" ],
 
@@ -920,11 +917,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL |< Iy               `adj`     {- OamAmiy~ -}         [ "front", "forward" ],
 
-    FiCAL                     `noun`    {- IimAm -}            [ "Imam", "Imams" ],
+    FiCAL                     `noun`    {- IimAm -}            [ "Imam" ],
 
-    FiCAL                     `noun`    {- IimAm -}            [ "leader", "imam", "leaders", "imams" ],
+    FiCAL                     `noun`    {- IimAm -}            [ "leader", "imam" ],
 
-    FuCL |< aT                `noun`    {- Oum~ap -}           [ "nation", "people", "nations", "peoples" ]
+    FuCL |< aT                `noun`    {- Oum~ap -}           [ "nation", "people" ]
                               `plural`     FuCaL
                            {- `others`  [ "'umam N" ] -},
 
@@ -942,7 +939,7 @@ lexicon = listing "Lexicon's properties"
 
     FILAn                     `noun`    {- IiymAn -}           [ "Iman" ],
 
-    FaL |< aT                 `noun`    {- Oamap -}            [ "bondmaid", "slave girl", "bondmaids", "slave girls" ]
+    FaL |< aT                 `noun`    {- Oamap -}            [ "bondmaid", "slave girl" ]
                               `plural`     FiCA'
                            {- `others`  [ "'imA' Nh N0_Nh Nhy" ] -} ]
 
@@ -974,7 +971,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaLA'
                            {- `others`  [ "'umanA' Nh N0_Nh Nhy" ] -},
 
-    FaCIL                     `noun`    {- Oamiyn -}           [ "secretary", "trustees", "secretaries" ]
+    FaCIL                     `noun`    {- Oamiyn -}           [ "secretary", "trustees" ]
                               `plural`     FuCaLA'
                            {- `others`  [ "'umanA' Nh N0_Nh Nhy" ] -},
 
@@ -986,7 +983,7 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL                    `noun`    {- maOomuwn -}         [ "trustworthy", "loyal" ],
 
-    MaFCaL                    `noun`    {- maOoman -}          [ "shelter", "refuge", "shelters" ]
+    MaFCaL                    `noun`    {- maOoman -}          [ "shelter", "refuge" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma'Amin Ndip" ] -},
 
@@ -1019,33 +1016,34 @@ lexicon = listing "Lexicon's properties"
  |> "' m r" <| [
 
     FaCaL                     `verb`    {- Oamar-u -}          [ "command", "order", "prescribe" ]
-                              `imperf`     CuL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `second`     CuL
+                              `second`     FCuL,
 
-    FaCL                      `noun`    {- Oamor -}            [ "matter", "issue", "matters", "issues" ]
+    FaCL                      `noun`    {- Oamor -}            [ "matter", "issue" ]
                               `plural`     FuCUL
                            {- `others`  [ "'umuwr N" ] -},
 
-    FaCL                      `noun`    {- Oamor -}            [ "order", "command", "orders", "commands" ]
+    FaCL                      `noun`    {- Oamor -}            [ "order", "command" ]
                               `plural`     FawACiL
                            {- `others`  [ "'awAmir Ndip" ] -},
 
-    FiCAL |< aT               `noun`    {- IimArap -}          [ "Emirate", "Emirates" ]
+    FiCAL |< aT               `noun`    {- IimArap -}          [ "Emirate" ]
                               `plural`     FiCAL |< At,
 
     FiCAL |< At |< Iy         `adj`     {- IimArAtiy~ -}       [ "Emirati (of/from the UAE)" ],
 
-    FaCIL                     `noun`    {- Oamiyr -}           [ "Emir", "Emirs" ]
+    FaCIL                     `noun`    {- Oamiyr -}           [ "Emir" ]
                               `plural`     FuCaLA'
                            {- `others`  [ "'umarA' Nh N0_Nh Nhy" ] -},
 
-    FaCIL                     `noun`    {- Oamiyr -}           [ "prince", "princes" ]
+    FaCIL                     `noun`    {- Oamiyr -}           [ "prince" ]
                               `plural`     FuCaLA'
                            {- `others`  [ "'umarA' Nh N0_Nh Nhy" ] -},
 
     FaCIL |< Iy               `adj`     {- Oamiyriy~ -}        [ "Emirate", "governmental" ],
 
-    MaFCUL                    `noun`    {- maOomuwr -}         [ "officer", "subordinate", "officers", "subordinates" ]
+    MaFCUL                    `noun`    {- maOomuwr -}         [ "officer", "subordinate" ]
                               `plural`     MaFACIL
                            {- `others`  [ "ma'Amiyr Ndip" ] -},
 
@@ -1061,7 +1059,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' m r k" <| [
 
-    KaRDIS |< Iy              `adj`     {- Oamoriykiy~ -}      [ "American", "Americans" ] ]
+    KaRDIS |< Iy              `adj`     {- Oamoriykiy~ -}      [ "American" ] ]
 
  |> "' m s" <| [
 
@@ -1069,7 +1067,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' m w" <| [
 
-    FaC |< aT                 `noun`    {- Oamap -}            [ "bondmaid", "slave girl", "bondmaids", "slave girls" ]
+    FaC |< aT                 `noun`    {- Oamap -}            [ "bondmaid", "slave girl" ]
                               `plural`     FaCaL |< At
                               `plural`     FiCA'
                            {- `others`  [ "'imA' Nh N0_Nh Nhy" ] -} ]
@@ -1093,7 +1091,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCA
                            {- `others`  [ "'AnA' Nh N0_Nh Nhy", "'anA Nhy" ] -},
 
-    FiCAL                     `noun`    {- IinA' -}            [ "vessel", "container", "receptacle", "vessels", "containers", "receptacles" ]
+    FiCAL                     `noun`    {- IinA' -}            [ "vessel", "container", "receptacle" ]
                               `plural`     FawACI
                               `plural`     HACI |< aT
                               `plural`     FACI |< aT
@@ -1108,13 +1106,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "' n ^g l" <| [
 
-    KiRDIS                    `noun`    {- Iinojiyl -}         [ "gospel", "gospels" ]
+    KiRDIS                    `noun`    {- Iinojiyl -}         [ "gospel" ]
                               `plural`     KaRADIS
                            {- `others`  [ "'anA^giyl Ndip" ] -} ]
 
  |> "' n _t" <| [
 
-    FuCLY                     `noun`    {- OunovaY -}          [ "female", "feminine", "females" ]
+    FuCLY                     `noun`    {- OunovaY -}          [ "female", "feminine" ]
                               `plural`     FuCLY |< At,
 
     FiCAL                     `noun`    {- IinAv -}            [ "females" ]
@@ -1125,14 +1123,14 @@ lexicon = listing "Lexicon's properties"
 
  |> "' n _t y" <| [
 
-    KuRDY                     `noun`    {- OunovaY -}          [ "female", "feminine", "females" ]
+    KuRDY                     `noun`    {- OunovaY -}          [ "female", "feminine" ]
                               `plural`     KuRDY |< At,
 
     KuRDY |< Iy               `adj`     {- Ounovawiy~ -}       [ "feminine" ] ]
 
  |> "' n b r" <| [
 
-    KaRDAS                    `noun`    {- OanobAr -}          [ "warehouse", "storeroom", "warehouses", "storerooms" ]
+    KaRDAS                    `noun`    {- OanobAr -}          [ "warehouse", "storeroom" ]
                               `plural`     KaRADIS
                               `plural`     KaRADiS
                            {- `others`  [ "'anAbiyr Ndip", "'anAbir Ndip" ] -} ]
@@ -1147,7 +1145,7 @@ lexicon = listing "Lexicon's properties"
 
     IstaFCaL                  `verb`    {- AisotaOonaf -}      [ "resume", "start over", "appeal" ],
 
-    FaCL                      `noun`    {- Oanof -}            [ "nose", "pride", "noses" ]
+    FaCL                      `noun`    {- Oanof -}            [ "nose", "pride" ]
                               `plural`     FuCUL
                            {- `others`  [ "'unuwf N" ] -},
 
@@ -1206,7 +1204,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- Oaniys -}           [ "affable", "sociable" ],
 
-    FiCLAn                    `noun`    {- IinosAn -}          [ "human being", "human beings" ]
+    FiCLAn                    `noun`    {- IinosAn -}          [ "human being" ]
                               `plural`     FuCAL
                            {- `others`  [ "'unAs N" ] -},
 
@@ -1220,7 +1218,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' n s n" <| [
 
-    KiRDAS                    `noun`    {- IinosAn -}          [ "human being", "human beings" ],
+    KiRDAS                    `noun`    {- IinosAn -}          [ "human being" ],
 
     KiRDAS |< Iy              `adj`     {- IinosAniy~ -}       [ "human", "humane" ],
 
@@ -1253,7 +1251,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     TaKaRDuS
                            {- `others`  [ "ta'aqlum N" ] -},
 
-    KiRDIS                    `noun`    {- Iiqoliym -}         [ "region", "district", "regions", "districts" ]
+    KiRDIS                    `noun`    {- Iiqoliym -}         [ "region", "district" ]
                               `plural`     KaRADIS
                            {- `others`  [ "'aqAliym Ndip" ] -},
 
@@ -1267,7 +1265,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' r .d" <| [
 
-    FaCL                      `noun`    {- OaroD -}            [ "earth", "territory", "territories", "land" ]
+    FaCL                      `noun`    {- OaroD -}            [ "earth", "territory", "land" ]
                               `plural`     FaCALI
                            {- `others`  [ "'arA.diy N0_Nh" ] -} ]
 
@@ -1283,7 +1281,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' r ^s f" <| [
 
-    KaRDIS                    `noun`    {- Oaro$iyf -}         [ "archive", "archives" ]
+    KaRDIS                    `noun`    {- Oaro$iyf -}         [ "archive" ]
                               `plural`     KaRADIS
                               `plural`     KaRDIS |< At
                            {- `others`  [ "'arA^siyf Ndip" ] -} ]
@@ -1300,7 +1298,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' r b" <| [
 
-    MaFCaL                    `noun`    {- maOorab -}          [ "desire", "intent", "desires", "intents" ]
+    MaFCaL                    `noun`    {- maOorab -}          [ "desire", "intent" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma'Arib Ndip" ] -} ]
 
@@ -1337,7 +1335,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' r z" <| [
 
-    FaCL                      `noun`    {- Oaroz -}            [ "cedars", "cedar" ] ]
+    FaCL                      `noun`    {- Oaroz -}            [ "cedar" ] ]
 
  |> "' s .h q" <| [
 
@@ -1345,13 +1343,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "' s .t l" <| [
 
-    KuRDUS                    `noun`    {- OusoTuwl -}         [ "fleet", "squadron", "fleets", "squadrons" ]
+    KuRDUS                    `noun`    {- OusoTuwl -}         [ "fleet", "squadron" ]
                               `plural`     KaRADIS
                            {- `others`  [ "'asA.tiyl Ndip" ] -} ]
 
  |> "' s .t r" <| [
 
-    KuRDUS |< aT              `noun`    {- OusoTuwrap -}       [ "myth", "legend", "tale", "myths", "legends", "tales" ]
+    KuRDUS |< aT              `noun`    {- OusoTuwrap -}       [ "myth", "legend", "tale" ]
                               `plural`     KaRADIS
                            {- `others`  [ "'asA.tiyr Ndip" ] -},
 
@@ -1359,13 +1357,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "' s b" <| [
 
-    FiCLAn |< Iy              `adj`     {- IisobAniy~ -}       [ "Spanish", "Spaniard", "Spaniards" ]
+    FiCLAn |< Iy              `adj`     {- IisobAniy~ -}       [ "Spanish", "Spaniard" ]
                               `plural`     FiCLAn
                            {- `others`  [ "'isbAn N" ] -} ]
 
  |> "' s b n" <| [
 
-    KiRDAS |< Iy              `adj`     {- IisobAniy~ -}       [ "Spanish", "Spaniard", "Spaniards" ]
+    KiRDAS |< Iy              `adj`     {- IisobAniy~ -}       [ "Spanish", "Spaniard" ]
                               `plural`     KiRDAS
                            {- `others`  [ "'isbAn N" ] -} ]
 
@@ -1373,7 +1371,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- Oasad -}            [ "Asad" ],
 
-    FaCaL                     `noun`    {- Oasad -}            [ "lion", "lions", "lioness" ]
+    FaCaL                     `noun`    {- Oasad -}            [ "lion", "lioness" ]
                               `plural`     FuCuL
                               `plural`     HACAL
                               `plural`     FuCUL
@@ -1411,7 +1409,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' s q f" <| [
 
-    KuRDuS                    `noun`    {- Ousoquf -}          [ "bishop", "bishops" ]
+    KuRDuS                    `noun`    {- Ousoquf -}          [ "bishop" ]
                               `plural`     KaRADiS |< aT
                            {- `others`  [ "'asAqif Ndip" ] -},
 
@@ -1421,11 +1419,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Oasor -}            [ "capture", "captivity" ],
 
-    FuCL |< aT                `noun`    {- Ousorap -}          [ "family", "community", "families", "communities" ]
+    FuCL |< aT                `noun`    {- Ousorap -}          [ "family", "community" ]
                               `plural`     FuCaL
                            {- `others`  [ "'usar N" ] -},
 
-    FaCIL                     `noun`    {- Oasiyr -}           [ "prisoner", "captive", "prisoners", "captives" ]
+    FaCIL                     `noun`    {- Oasiyr -}           [ "prisoner", "captive" ]
                               `plural`     FaCALY
                               `plural`     FuCaLA'
                               `plural`     FaCLY
@@ -1433,17 +1431,17 @@ lexicon = listing "Lexicon's properties"
 
  |> "' s s" <| [
 
-    FaCCaL                    `verb`    {- Oas~as -}           [ "establish", "found", "be established", "be founded" ],
+    FaCCaL                    `verb`    {- Oas~as -}           [ "establish", "found" ],
 
     TaFaCCaL                  `verb`    {- taOas~as -}         [ "be established", "be founded" ],
 
-    FuCL                      `noun`    {- Ous~ -}             [ "exponent", "basis", "exponents" ]
+    FuCL                      `noun`    {- Ous~ -}             [ "exponent", "basis" ]
                               `plural`     FiCAL
                            {- `others`  [ "'isAs N" ] -},
 
     FuCL |< Iy                `adj`     {- Ous~iy~ -}          [ "exponential" ],
 
-    FaCAL                     `noun`    {- OasAs -}            [ "foundation", "basis", "foundations", "bases" ]
+    FaCAL                     `noun`    {- OasAs -}            [ "foundation", "basis" ]
                               `plural`     FuCuL
                               `plural`     FaCAL |< At
                            {- `others`  [ "'usus N" ] -},
@@ -1461,7 +1459,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCiL                  `adj`     {- muWas~is -}         [ "founding", "constituent" ],
 
-    MuFaCCaL |< aT            `noun`    {- muWas~asap -}       [ "institution", "organization", "institutions", "organizations" ]
+    MuFaCCaL |< aT            `noun`    {- muWas~asap -}       [ "institution", "organization" ]
                               `plural`     MuFaCCaL |< At,
 
     MuFaCCaL |< Iy            `adj`     {- muWas~asiy~ -}      [ "institutional", "organizational" ] ]
@@ -1472,7 +1470,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' s t _d" <| [
 
-    KuRDAS                    `noun`    {- OusotA* -}          [ "professor", "professors" ]
+    KuRDAS                    `noun`    {- OusotA* -}          [ "professor" ]
                               `plural`     KaRADiS |< aT
                               `plural`     KaRADIS
                            {- `others`  [ "'asAtiy_d Ndip" ] -} ]
@@ -1496,7 +1494,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCL |< aT |< aN          `adv`     {- OusowapF -}         [ "just like" ],
 
-    MaFCY |< aT               `noun`    {- maOosAp -}          [ "tragedy", "tragedies" ]
+    MaFCY |< aT               `noun`    {- maOosAp -}          [ "tragedy" ]
                               `plural`     MaFACI
                            {- `others`  [ "ma'Asiy N0_Nh" ] -},
 
@@ -1543,13 +1541,13 @@ lexicon = listing "Lexicon's properties"
     FaCY                      `verb`    {- OataY-i -}          [ "arrive", "come", "reach" ]
                               `imperf`     FCI,
 
-    FACY                      `verb`    {- \|taY -}            [ "give", "offer", "be given", "be offered" ],
+    FACY                      `verb`    {- \|taY -}            [ "give", "offer", "be given" ],
 
-    HACY                      `verb`    {- \|taY -}            [ "give", "offer", "be given", "be offered" ],
+    HACY                      `verb`    {- \|taY -}            [ "give", "offer", "be given" ],
 
-    FACY                      `verb`    {- \|taY -}            [ "give", "offer", "be given", "be offered" ],
+    FACY                      `verb`    {- \|taY -}            [ "give", "offer", "be given" ],
 
-    HACY                      `verb`    {- \|taY -}            [ "give", "offer", "be given", "be offered" ],
+    HACY                      `verb`    {- \|taY -}            [ "give", "offer", "be given" ],
 
     TaFaCCY                   `verb`    {- taOat~aY -}         [ "happen", "result" ],
 
@@ -1568,12 +1566,12 @@ lexicon = listing "Lexicon's properties"
 
     FaC                       `conj`    {- Oaw -}              [ "or" ],
 
-    FICAL                     `noun`    {- IiywA' -}           [ "accommodation", "housing", "accommodations" ]
+    FICAL                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
                               `plural`     FICAL |< At
                               `plural`     HICAL |< At
                               `plural`     HICA' |< At,
 
-    HICAL                     `noun`    {- IiywA' -}           [ "accommodation", "housing", "accommodations" ]
+    HICAL                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
                               `plural`     FICAL |< At
                               `plural`     HICAL |< At
                               `plural`     HICA' |< At ]
@@ -1618,7 +1616,7 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL,
 
-    FaCCaL                    `verb`    {- Oaw~al -}           [ "explain", "interpret", "be explained", "be interpreted" ],
+    FaCCaL                    `verb`    {- Oaw~al -}           [ "explain", "interpret" ],
 
     TaFCIL                    `noun`    {- taOowiyl -}         [ "explanation", "interpretation" ]
                               `plural`     TaFCIL |< At,
@@ -1651,7 +1649,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL |< Iy                 `adj`     {- \|niy~ -}           [ "actual", "present", "simultaneous" ],
 
-    FaCAL                     `noun`    {- OawAn -}            [ "time", "moment", "times", "moments" ]
+    FaCAL                     `noun`    {- OawAn -}            [ "time", "moment" ]
                               `plural`     HACiL |< aT
                               `plural`     FACiL |< aT ]
 
@@ -1671,16 +1669,16 @@ lexicon = listing "Lexicon's properties"
 
  |> "' w y" <| [
 
-    FaCCY                     `verb`    {- Oaw~aY -}           [ "shelter", "lodge", "be sheltered", "be lodged" ],
+    FaCCY                     `verb`    {- Oaw~aY -}           [ "shelter", "lodge" ],
 
     FACY                      `verb`    {- \|waY -}            [ "seek shelter", "provide asylum", "be sought as shelter", "be provided as asylum" ],
 
     HACY                      `verb`    {- \|waY -}            [ "seek shelter", "provide asylum", "be sought as shelter", "be provided as asylum" ],
 
-    HICA'                     `noun`    {- IiywA' -}           [ "accommodation", "housing", "accommodations" ]
+    HICA'                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
                               `plural`     HICA' |< At,
 
-    MaFCY                     `noun`    {- maOowaY -}          [ "refuge", "shelter", "shelters" ]
+    MaFCY                     `noun`    {- maOowaY -}          [ "refuge", "shelter" ]
                               `plural`     MaFACI
                            {- `others`  [ "ma'Awiy N0_Nh" ] -} ]
 
@@ -1690,7 +1688,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCL
                            {- `others`  [ "'ay.d NF" ] -},
 
-    FaCCaL                    `verb`    {- Oay~aD -}           [ "metabolize", "be metabolized" ],
+    FaCCaL                    `verb`    {- Oay~aD -}           [ "metabolize" ],
 
     FaCL                      `noun`    {- OayoD -}            [ "metabolism" ] ]
 
@@ -1723,7 +1721,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' y _d '" <| [
 
-    KiRDAS                    `noun`    {- Iiy*A' -}           [ "damage", "injury", "damages" ] ]
+    KiRDAS                    `noun`    {- Iiy*A' -}           [ "damage", "injury" ] ]
 
  |> "' y _d n" <| [
 
@@ -1739,7 +1737,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' y d" <| [
 
-    FaCCaL                    `verb`    {- Oay~ad -}           [ "support", "assist", "be supported", "be assisted" ],
+    FaCCaL                    `verb`    {- Oay~ad -}           [ "support", "assist" ],
 
     TaFCIL                    `noun`    {- taOoyiyd -}         [ "support", "approval", "assistance" ]
                               `plural`     TaFCIL |< At,
@@ -1772,7 +1770,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' y l '" <| [
 
-    KiRDAS                    `noun`    {- IiylA' -}           [ "oath", "oaths" ] ]
+    KiRDAS                    `noun`    {- IiylA' -}           [ "oath" ] ]
 
  |> "' y l l" <| [
 
@@ -1835,7 +1833,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' y w '" <| [
 
-    KiRDAS                    `noun`    {- IiywA' -}           [ "accommodation", "housing", "accommodations" ] ]
+    KiRDAS                    `noun`    {- IiywA' -}           [ "accommodation", "housing" ] ]
 
  |> "' y y" <| [
 
@@ -1857,7 +1855,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' z m" <| [
 
-    FaCL |< aT                `noun`    {- Oazomap -}          [ "crisis", "crises" ]
+    FaCL |< aT                `noun`    {- Oazomap -}          [ "crisis" ]
                               `plural`     FaCaL |< At
                               `plural`     FiCaL
                            {- `others`  [ "'izam N" ] -},
@@ -1867,7 +1865,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' z q" <| [
 
-    MaFCiL                    `noun`    {- maOoziq -}          [ "impasse", "dilemma", "predicament", "impasses", "dilemmas", "predicaments" ]
+    MaFCiL                    `noun`    {- maOoziq -}          [ "impasse", "dilemma", "predicament" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma'Aziq Ndip" ] -} ]
 
@@ -1879,7 +1877,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Oazor -}            [ "strength" ],
 
-    FiCAL                     `noun`    {- IizAr -}            [ "shawl", "shawls" ]
+    FiCAL                     `noun`    {- IizAr -}            [ "shawl" ]
                               `plural`     FuCuL
                            {- `others`  [ "'uzur N" ] -},
 
@@ -1919,7 +1917,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "'a^gand" <| [
 
-    Identity |< aT            `noun`    {- Oajanodap -}        [ "agenda", "schedule", "agendas", "schedules" ] ]
+    Identity |< aT            `noun`    {- Oajanodap -}        [ "agenda", "schedule" ] ]
 
  |> "'a^skiynAziy" <| [
 
@@ -2005,7 +2003,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "'afand" <| [
 
-    Identity |< Iy            `noun`    {- Oafanodiy~ -}       [ "Effendi", "gentleman", "Effendis", "gentlemen" ] ]
+    Identity |< Iy            `noun`    {- Oafanodiy~ -}       [ "Effendi", "gentleman", "gentlemen" ] ]
 
  |> "'afiy.gduwr" <| [
 
@@ -2359,7 +2357,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "'il_ah" <| [
 
-    Identity                  `noun`    {- Iil`h -}            [ "god", "deity", "goddess", "female deity", "gods", "deities" ],
+    Identity                  `noun`    {- Iil`h -}            [ "god", "deity", "goddess", "female deity" ],
 
     Identity |< Iy            `adj`     {- Iil`hiy~ -}         [ "divine", "godly", "theological" ] ]
 
@@ -2873,11 +2871,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "ma'dub" <| [
 
-    Identity |< aT            `noun`    {- maOodubap -}        [ "banquet", "reception", "banquets", "receptions" ] ]
+    Identity |< aT            `noun`    {- maOodubap -}        [ "banquet", "reception" ] ]
 
  |> "tAriy_h" <| [
 
-    Identity                  `noun`    {- tAriyx -}           [ "date", "history", "dates", "histories" ],
+    Identity                  `noun`    {- tAriyx -}           [ "date", "history" ],
 
     Identity |< Iy            `adj`     {- tAriyxiy~ -}        [ "historical" ] ]
 

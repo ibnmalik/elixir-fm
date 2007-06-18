@@ -22,18 +22,18 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- vaOar-a -}          [ "avenge", "take revenge" ]
                               `imperf`     FCaL,
 
-    FaCL                      `noun`    {- vaOor -}            [ "revenge", "retaliation", "retaliations" ]
+    FaCL                      `noun`    {- vaOor -}            [ "revenge", "retaliation" ]
                               `plural`     HaFCAL
                               `plural`     FaCL |< At
                            {- `others`  [ "'a_t'Ar N" ] -},
 
     FACiL                     `noun`    {- vA}ir -}            [ "agitated", "exited" ],
 
-    FACiL                     `noun`    {- vA}ir -}            [ "insurgent", "insurgents", "revolutionaries" ] ]
+    FACiL                     `noun`    {- vA}ir -}            [ "insurgent", "revolutionaries" ] ]
 
  |> "_t .g r" <| [
 
-    FuCL |< aT                `noun`    {- vugorap -}          [ "gap", "breach", "gaps", "breaches" ]
+    FuCL |< aT                `noun`    {- vugorap -}          [ "gap", "breach" ]
                               `plural`     FaCaL |< At ]
 
  |> "_t b b" <| [
@@ -55,7 +55,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCCaL                    `verb`    {- vab~at -}           [ "confirm", "reinforce" ],
 
-    HaFCaL                    `verb`    {- Oavobat -}          [ "ascertain", "establish", "be ascertained", "be established" ],
+    HaFCaL                    `verb`    {- Oavobat -}          [ "ascertain", "establish" ],
 
     TaFaCCaL                  `verb`    {- tavab~at -}         [ "ascertain", "verify" ],
 
@@ -73,7 +73,7 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- vAbit -}            [ "established", "proven", "permanent" ],
 
-    FACiL |< aT               `noun`    {- vAbitap -}          [ "fixed star", "fixed stars" ]
+    FACiL |< aT               `noun`    {- vAbitap -}          [ "fixed star" ]
                               `plural`     FawACiL
                            {- `others`  [ "_tawAbit Ndip" ] -},
 
@@ -85,7 +85,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_t d y" <| [
 
-    FaCL |< Iy                `adj`     {- vadoyiy~ -}         [ "mammal", "mammals" ] ]
+    FaCL |< Iy                `adj`     {- vadoyiy~ -}         [ "mammal" ] ]
 
  |> "_t k l" <| [
 
@@ -134,7 +134,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_t l l" <| [
 
-    FuCL |< aT                `noun`    {- vul~ap -}           [ "troop", "detachment", "troops", "detachments" ]
+    FuCL |< aT                `noun`    {- vul~ap -}           [ "troop", "detachment" ]
                               `plural`     FuCaL
                            {- `others`  [ "_tulal N" ] -} ]
 
@@ -154,7 +154,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCCaL                    `verb`    {- vam~an -}           [ "appraise", "estimate" ],
 
-    FaCaL                     `noun`    {- vaman -}            [ "value", "price", "values", "prices" ]
+    FaCaL                     `noun`    {- vaman -}            [ "value", "price" ]
                               `plural`     HaFCiL |< aT
                               `plural`     HaFCAL
                            {- `others`  [ "'a_tmAn N" ] -},
@@ -170,7 +170,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFCaL                    `noun`    {- muvoman -}          [ "valuable" ],
 
-    FuCL                      `noun`    {- vumon -}            [ "one-eighth", "eighth", "eighths" ]
+    FuCL                      `noun`    {- vumon -}            [ "one-eighth", "eighth" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a_tmAn N" ] -},
 
@@ -197,12 +197,12 @@ lexicon = listing "Lexicon's properties"
 
     IstaFCaL                  `verb`    {- Aisotavomar -}      [ "invest" ],
 
-    FaCaL                     `noun`    {- vamar -}            [ "fruit", "result", "fruits", "results" ]
+    FaCaL                     `noun`    {- vamar -}            [ "fruit", "result" ]
                               `plural`     HaFCAL
                               `plural`     FiCAL
                            {- `others`  [ "'a_tmAr N", "_timAr N" ] -},
 
-    FaCL                      `noun`    {- vamor -}            [ "fruit", "result", "fruits", "results" ]
+    FaCL                      `noun`    {- vamor -}            [ "fruit", "result" ]
                               `plural`     FaCaL |< At,
 
     IstiFCAL                  `noun`    {- AisotivomAr -}      [ "invest", "investing" ],
@@ -229,7 +229,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCAL |< Iy               `adj`     {- vunA}iy~ -}         [ "bilateral", "dual" ],
 
-    IstiFCAL                  `noun`    {- AisotivonA' -}      [ "exception", "exclusion", "exceptions", "exclusions" ]
+    IstiFCAL                  `noun`    {- AisotivonA' -}      [ "exception", "exclusion" ]
                               `plural`     IstiFCAL |< At
                               `plural`     IstiFCA' |< At,
 
@@ -243,7 +243,7 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCY
                               `imperf`     FCI,
 
-    IstaFCY                   `verb`    {- AisotavonaY -}      [ "except", "exclude", "be excepted", "be excluded" ],
+    IstaFCY                   `verb`    {- AisotavonaY -}      [ "except", "exclude" ],
 
     HaFCA' |<< "a"            `prep`    {- OavonA'a -}         [ "during" ]
                               `plural`     HaFCA'
@@ -268,7 +268,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACI
                            {- `others`  [ "_tawAniy N0_Nh" ] -},
 
-    IstiFCA'                  `noun`    {- AisotivonA' -}      [ "exception", "exclusion", "exceptions", "exclusions" ]
+    IstiFCA'                  `noun`    {- AisotivonA' -}      [ "exception", "exclusion" ]
                               `plural`     IstiFCA' |< At,
 
     IstiFCA' |< Iy            `adj`     {- AisotivonA}iy~ -}   [ "exceptional", "extraordinary" ],
@@ -299,7 +299,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaLA'
                            {- `others`  [ "_tiqAl N", "_tuqalA' Nh N0_Nh Nhy" ] -},
 
-    MiFCAL                    `noun`    {- mivoqAl -}          [ "weight", "miskal", "weights", "miskals" ]
+    MiFCAL                    `noun`    {- mivoqAl -}          [ "weight", "miskal" ]
                               `plural`     MaFACIL
                            {- `others`  [ "ma_tAqiyl Ndip" ] -},
 
@@ -341,7 +341,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_t w b" <| [
 
-    FaCL                      `noun`    {- vawob -}            [ "garment", "robe", "garments", "clothes" ]
+    FaCL                      `noun`    {- vawob -}            [ "garment", "robe", "clothes" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a_twAb N" ] -},
 
@@ -358,9 +358,9 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL,
 
-    HaFAL                     `verb`    {- OavAr -}            [ "provoke", "agitate", "be provoked", "be agitated" ],
+    HaFAL                     `verb`    {- OavAr -}            [ "provoke", "agitate" ],
 
-    FaCL                      `noun`    {- vawor -}            [ "bull", "ox", "bulls", "oxen" ]
+    FaCL                      `noun`    {- vawor -}            [ "bull", "ox", "oxen" ]
                               `plural`     FILAn
                            {- `others`  [ "_tiyrAn N" ] -},
 
@@ -380,7 +380,7 @@ lexicon = listing "Lexicon's properties"
 
     FA'iL                     `noun`    {- vA}ir -}            [ "agitated", "exited" ],
 
-    FA'iL                     `noun`    {- vA}ir -}            [ "insurgent", "insurgents", "revolutionaries" ]
+    FA'iL                     `noun`    {- vA}ir -}            [ "insurgent", "revolutionaries" ]
                               `plural`     FUCAL
                            {- `others`  [ "_tuwwAr N" ] -},
 

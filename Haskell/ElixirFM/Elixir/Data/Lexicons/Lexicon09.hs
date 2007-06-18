@@ -21,7 +21,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d ' b" <| [
 
-    FiCL                      `noun`    {- \*i}ob -}           [ "wolf", "jackal", "wolves", "jackals" ]
+    FiCL                      `noun`    {- \*i}ob -}           [ "wolf", "jackal" ]
                               `plural`     FiCAL
                               `plural`     FuCLAn
                            {- `others`  [ "_di'Ab N", "_du'bAn N" ] -} ]
@@ -46,7 +46,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d ` n" <| [
 
-    HaFCaL                    `verb`    {- Oa*oEan -}          [ "submit", "yield", "obey", "be submitted to", "be yielded to", "be obeyed" ],
+    HaFCaL                    `verb`    {- Oa*oEan -}          [ "submit", "yield", "obey", "be submitted to", "be yielded to" ],
 
     HiFCAL                    `noun`    {- Ii*oEAn -}          [ "submissiveness", "compliance", "obedience" ]
                               `plural`     HiFCAL |< At ]
@@ -64,13 +64,13 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- \*aboH -}           [ "slaughter", "slaughtering" ],
 
-    MaFCaL |< aT              `noun`    {- ma*obaHap -}        [ "massacre", "slaughter", "massacres", "slaughterhouses" ]
+    MaFCaL |< aT              `noun`    {- ma*obaHap -}        [ "massacre", "slaughter", "slaughterhouses" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma_dAbi.h Ndip" ] -} ]
 
  |> "_d b _d b" <| [
 
-    KaRDaS |< aT              `noun`    {- \*abo*abap -}       [ "oscillation", "frequency", "vibration", "oscillations", "frequencies", "vibrations" ]
+    KaRDaS |< aT              `noun`    {- \*abo*abap -}       [ "oscillation", "frequency", "vibration" ]
                               `plural`     KaRDaS |< At,
 
     TaKaRDuS                  `noun`    {- ta*abo*ub -}        [ "oscillation", "fluctuation" ]
@@ -102,7 +102,7 @@ lexicon = listing "Lexicon's properties"
 
     MaFCaL                    `noun`    {- ma*ohab -}          [ "manner", "path" ],
 
-    MaFCaL                    `noun`    {- ma*ohab -}          [ "ideology", "trend", "ideologies", "trends", "sects" ]
+    MaFCaL                    `noun`    {- ma*ohab -}          [ "ideology", "trend", "sects" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma_dAhib Ndip" ] -},
 
@@ -121,7 +121,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d h n" <| [
 
-    FiCL                      `noun`    {- \*ihon -}           [ "mind", "intellect", "minds", "intellects" ]
+    FiCL                      `noun`    {- \*ihon -}           [ "mind", "intellect" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a_dhAn N" ] -},
 
@@ -135,18 +135,18 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d k r" <| [
 
-    FaCaL                     `verb`    {- \*akar-u -}         [ "mention", "cite", "remember", "be mentioned", "be cited" ]
+    FaCaL                     `verb`    {- \*akar-u -}         [ "mention", "cite", "remember" ]
                               `imperf`     FCuL,
 
     FaCCaL                    `verb`    {- \*ak~ar -}          [ "remind" ],
 
-    HaFCaL                    `verb`    {- Oa*okar -}          [ "remind", "be reminded" ],
+    HaFCaL                    `verb`    {- Oa*okar -}          [ "remind" ],
 
     TaFaCCaL                  `verb`    {- ta*ak~ar -}         [ "remember" ],
 
     FiCL                      `noun`    {- \*ikor -}           [ "mention", "citation", "memory" ],
 
-    FaCaL                     `noun`    {- \*akar -}           [ "male", "males" ]
+    FaCaL                     `noun`    {- \*akar -}           [ "male" ]
                               `plural`     FuCLAn
                               `plural`     FuCUL |< aT
                            {- `others`  [ "_dukrAn N", "_dukuwr N" ] -},
@@ -203,13 +203,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d n b" <| [
 
-    FaCL                      `noun`    {- \*anob -}           [ "fault", "offense", "misdeed", "misdeeds", "offenses", "faults" ]
+    FaCL                      `noun`    {- \*anob -}           [ "fault", "offense", "misdeed" ]
                               `plural`     FuCUL
                            {- `others`  [ "_dunuwb N" ] -} ]
 
  |> "_d q n" <| [
 
-    FaCL                      `noun`    {- \*aqon -}           [ "chin", "beard", "chins", "beards" ]
+    FaCL                      `noun`    {- \*aqon -}           [ "chin", "beard" ]
                               `plural`     HaFCAL
                               `plural`     FuCUL
                            {- `others`  [ "'a_dqAn N", "_duquwn N" ] -} ]
@@ -218,17 +218,17 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- \*aroE -}           [ "power", "capability" ],
 
-    FiCAL                     `noun`    {- \*irAE -}           [ "arm", "arms" ]
+    FiCAL                     `noun`    {- \*irAE -}           [ "arm" ]
                               `plural`     FuCLAn
                            {- `others`  [ "_dur`An N" ] -},
 
-    FiCAL                     `noun`    {- \*irAE -}           [ "lever", "crank", "levers", "cranks" ]
+    FiCAL                     `noun`    {- \*irAE -}           [ "lever", "crank" ]
                               `plural`     FuCLAn
                            {- `others`  [ "_dur`An N" ] -},
 
     FaCIL                     `adj`     {- \*ariyE -}          [ "rapid", "sweeping" ],
 
-    FaCIL |< aT               `noun`    {- \*ariyEap -}        [ "means", "pretext", "expedient", "pretexts", "expediency", "pragmatics" ] ]
+    FaCIL |< aT               `noun`    {- \*ariyEap -}        [ "means", "pretext", "expedient", "expediency", "pragmatics" ] ]
 
  |> "_d r r" <| [
 
@@ -252,7 +252,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d r w" <| [
 
-    FuCL |< aT                `noun`    {- \*urowap -}         [ "peak", "summit", "peaks", "summits" ]
+    FuCL |< aT                `noun`    {- \*urowap -}         [ "peak", "summit" ]
                               `plural`     FiCL
                               `plural`     FuCY
                            {- `others`  [ "_dirw Napdu", "_durY N0" ] -} ]
@@ -263,9 +263,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d w `" <| [
 
-    HaFAL                     `verb`    {- Oa*AE -}            [ "broadcast", "propagate", "be broadcast", "be propagated" ],
+    HaFAL                     `verb`    {- Oa*AE -}            [ "broadcast", "propagate", "be broadcast" ],
 
-    HiFAL |< aT               `noun`    {- Ii*AEap -}          [ "broadcast", "transmission", "broadcasts", "transmissions" ]
+    HiFAL |< aT               `noun`    {- Ii*AEap -}          [ "broadcast", "transmission" ]
                               `plural`     HiFAL |< At,
 
     HiFAL |< Iy               `adj`     {- Ii*AEiy~ -}         [ "radio", "broadcast", "transmission" ],
@@ -280,13 +280,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d w q" <| [
 
-    FAL                       `verb`    {- \*Aq-u -}           [ "taste", "sample", "experience", "be tasted", "be experienced" ]
+    FAL                       `verb`    {- \*Aq-u -}           [ "taste", "sample", "experience" ]
                               `imperf`     FUL
                               `pfirst`     FuL,
 
     HaFAL                     `verb`    {- Oa*Aq -}            [ "make taste", "make sample", "make experience", "be made to taste/sample", "be made to make experience" ],
 
-    FaCL                      `noun`    {- \*awoq -}           [ "taste", "sense", "sensitivity", "tastes", "sensitivities" ]
+    FaCL                      `noun`    {- \*awoq -}           [ "taste", "sense", "sensitivity" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a_dwAq N" ] -},
 
@@ -314,7 +314,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCCaL                    `verb`    {- \*ay~al -}          [ "supplement", "append" ],
 
-    FaCL                      `noun`    {- \*ayol -}           [ "tail", "end", "supplement", "addendum", "tails", "addenda", "consequences" ]
+    FaCL                      `noun`    {- \*ayol -}           [ "tail", "end", "supplement", "addendum", "addenda", "consequences" ]
                               `plural`     FuCUL
                               `plural`     HaFCAL
                            {- `others`  [ "_duyuwl N", "'a_dyAl N" ] -} ]
@@ -355,5 +355,5 @@ lexicon = listing "Lexicon's properties"
 
  |> "ta_dkar" <| [
 
-    Identity |< aT            `noun`    {- ta*okarap -}        [ "ticket", "card", "tickets", "cards" ] ]
+    Identity |< aT            `noun`    {- ta*okarap -}        [ "ticket", "card" ] ]
 

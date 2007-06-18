@@ -57,20 +57,25 @@ merge :: (Morphing a b, Template b) => String -> a -> String
 
 merge r y = -- show (Morphs (interlock (words r) t) p s)
 
-            if null s then prefixes (interlock (words r) t)
-                      else prefixes (init shown) ++ modified ++
-                           concat (map show (tail suff))
+            if null s then prefixes shown
+
+                      else prefixes (init shown ++ modified ++
+                                     suffixes (tail reversed))
 
     where Morphs t p s = morph y
 
           prefixes l = foldr (\ x s -> x ->- s) l p
 
+          suffixes l = foldr shows [] l
+
           shown = interlock (words r) t
 
-          suff = reverse s
+          reversed = reverse s
 
-          modified = case suff of []     -> error "Never ..."
-                                  ix : _ -> last shown -<- ix
+          modified = last shown -<- head reversed
+
+       -- modified = case suffixes of ix : _ -> last shown -<- ix
+       --                             []     -> error "Never ..."
 
 
 mergeWith :: (Morphing a b, Template b) => a -> String -> String
@@ -94,6 +99,8 @@ infixr 4 ->-
 infix  4 -<-
 
 
+-- Fischer (2001), par. 42 ('i' > 'iy is reflected in patterns)
+
 (->-) :: Prefix -> String -> String
 
 Al ->- s = case filter (flip isPrefixOf s) sunny of
@@ -109,8 +116,10 @@ Prefix "'u" ->- '\'' : s | isClosed s = "'U" ++ s
 Prefix [x, 'u'] ->- y : s | isClosed s &&
                             y `elem` "wy" = x : 'U' : s
 
-Prefix "i" ->- '\'' : s = 'I' : s
-Prefix "u" ->- '\'' : s = 'U' : s
+-- encoding is independent of orthographic or phonetic context
+--
+-- Prefix "i" ->- '\'' : s = 'I' : s        -- would not cover
+-- Prefix "u" ->- '\'' : s = 'U' : s        -- patterns anyway
 
 Prefix x ->- s = x ++ s
 

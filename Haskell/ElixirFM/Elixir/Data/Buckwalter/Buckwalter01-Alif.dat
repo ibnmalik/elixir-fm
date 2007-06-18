@@ -5781,6 +5781,8 @@ Amr     >amar   PV      command;order;prescribe
 >mr     >omur   IV_no-Pref-A    command;order;prescribe
 Amr     >omur   IV_no-Pref-A    command;order;prescribe
 mr      mur     IV_need-Pref-|  command;order;prescribe
+mr      mur     CV  	command;order;prescribe
+Amr     >omur   CV      command;order;prescribe
 ;; >am~ar_1
 >mr     >am~ar  PV      empower;authorize
 Amr     >am~ar  PV      empower;authorize

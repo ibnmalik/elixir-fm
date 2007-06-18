@@ -30,13 +30,13 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- Zahar-a -}          [ "appear", "emerge" ]
                               `imperf`     FCaL,
 
-    HaFCaL                    `verb`    {- OaZohar -}          [ "show", "manifest", "demonstrate", "be shown", "be manifest", "be demonstrated" ],
+    HaFCaL                    `verb`    {- OaZohar -}          [ "show", "manifest", "demonstrate", "be shown", "be manifest" ],
 
     TaFACaL                   `verb`    {- taZAhar -}          [ "manifest", "demonstrate" ],
 
     FaCL                      `noun`    {- Zahor -}            [ "back", "spine", "midst" ],
 
-    FuCL                      `adv`     {- Zuhor -}            [ "noon", "afternoon", "in the afternoon", "at noon", "afternoons" ]
+    FuCL                      `adv`     {- Zuhor -}            [ "noon", "afternoon", "in the afternoon", "at noon" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.zhAr N" ] -},
 
@@ -84,11 +84,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                            {- `others`  [ ".zuluwl N", ".zilAl N", "'a.zlAl N" ] -},
 
-    MiFaCL |< aT              `noun`    {- miZal~ap -}         [ "umbrella", "umbrellas" ]
+    MiFaCL |< aT              `noun`    {- miZal~ap -}         [ "umbrella" ]
                               `plural`     MaFACL
                            {- `others`  [ "ma.zAll Ndip" ] -},
 
-    MiFaCL |< aT              `noun`    {- miZal~ap -}         [ "parachute", "parachutes" ]
+    MiFaCL |< aT              `noun`    {- miZal~ap -}         [ "parachute" ]
                               `plural`     MaFACL
                            {- `others`  [ "ma.zAll Ndip" ] -} ]
 
@@ -103,7 +103,7 @@ lexicon = listing "Lexicon's properties"
     TaFaCCuL                  `noun`    {- taZal~um -}         [ "complaint" ]
                               `plural`     TaFaCCuL |< At,
 
-    FACiL                     `noun`    {- ZAlim -}            [ "oppressor", "tyrant", "oppressors", "tyrants" ]
+    FACiL                     `noun`    {- ZAlim -}            [ "oppressor", "tyrant" ]
                               `plural`     FuCCAL
                               `plural`     FaCaL |< aT
                            {- `others`  [ ".zullAm N" ] -},
@@ -129,7 +129,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Zarof -}            [ "envelope" ],
 
-    FaCL                      `noun`    {- Zarof -}            [ "circumstance", "condition", "situation", "circumstances" ]
+    FaCL                      `noun`    {- Zarof -}            [ "circumstance", "condition", "situation" ]
                               `plural`     FuCUL
                            {- `others`  [ ".zuruwf N" ] -},
 
@@ -141,7 +141,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- Zariyf -}           [ "Zarif" ],
 
-    MaFCUL                    `noun`    {- maZoruwf -}         [ "envelope", "envelopes" ]
+    MaFCUL                    `noun`    {- maZoruwf -}         [ "envelope" ]
                               `plural`     MaFACIL
                            {- `others`  [ "ma.zAriyf Ndip" ] -} ]
 

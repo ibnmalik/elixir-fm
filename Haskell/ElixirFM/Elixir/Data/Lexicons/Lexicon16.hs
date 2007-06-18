@@ -28,7 +28,7 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- TA}if -}            [ "ambulant", "itinerant", "on patrol" ],
 
-    FACiL |< aT               `noun`    {- TA}ifap -}          [ "sect", "party", "faction", "sects", "parties", "factions" ]
+    FACiL |< aT               `noun`    {- TA}ifap -}          [ "sect", "party", "faction" ]
                               `plural`     FawACiL
                               `plural`     FawA'iL
                            {- `others`  [ ".tawA'if Ndip" ] -},
@@ -69,7 +69,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- TaH~An -}           [ "Tahhan" ],
 
-    MiFCaL |< aT              `noun`    {- miToHanap -}        [ "flour mill", "flour mills" ]
+    MiFCaL |< aT              `noun`    {- miToHanap -}        [ "flour mill" ]
                               `plural`     MaFCaL
                               `plural`     MaFACiL
                            {- `others`  [ "ma.t.han Napdu", "ma.tA.hin Ndip" ] -} ]
@@ -83,7 +83,7 @@ lexicon = listing "Lexicon's properties"
     FaCAL                     `noun`    {- TaEAm -}            [ "food" ]
                               `plural`     HaFCiL |< aT,
 
-    MaFCaL                    `noun`    {- maToEam -}          [ "restaurant", "restaurants" ]
+    MaFCaL                    `noun`    {- maToEam -}          [ "restaurant" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma.tA`im Ndip" ] -} ]
 
@@ -96,7 +96,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCUL
                            {- `others`  [ ".tu`uwn N" ] -},
 
-    FaCL |< aT                `noun`    {- TaEonap -}          [ "stab", "insult", "stabs", "insults" ]
+    FaCL |< aT                `noun`    {- TaEonap -}          [ "stab", "insult" ]
                               `plural`     FaCaL |< At,
 
     FACiL                     `noun`    {- TAEin -}            [ "advanced" ],
@@ -107,20 +107,20 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Tabox -}            [ "cooking", "cuisine" ],
 
-    MaFCaL                    `noun`    {- maTobax -}          [ "kitchen", "kitchens" ]
+    MaFCaL                    `noun`    {- maTobax -}          [ "kitchen" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma.tAbi_h Ndip" ] -} ]
 
  |> ".t b `" <| [
 
-    FaCaL                     `verb`    {- TabaE-a -}          [ "print", "impress", "be printed", "be imprinted" ]
+    FaCaL                     `verb`    {- TabaE-a -}          [ "print", "impress", "be imprinted" ]
                               `imperf`     FCaL,
 
     FaCL                      `adv`     {- TaboE -}            [ "temperament", "naturally", "of course" ],
 
     FaCL                      `noun`    {- TaboE -}            [ "printing" ],
 
-    FaCL |< aT                `noun`    {- TaboEap -}          [ "printing", "edition", "printings", "editions" ]
+    FaCL |< aT                `noun`    {- TaboEap -}          [ "printing", "edition" ]
                               `plural`     FaCaL |< At,
 
     FiCAL |< aT               `noun`    {- TibAEap -}          [ "printing" ],
@@ -129,7 +129,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL |< Iy               `adj`     {- TabiyEiy~ -}        [ "natural", "normal" ],
 
-    MaFCaL                    `noun`    {- maTobaE -}          [ "printing press", "printing presses" ]
+    MaFCaL                    `noun`    {- maTobaE -}          [ "printing press" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma.tAbi` Ndip" ] -},
 
@@ -141,7 +141,7 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- TAbiE -}            [ "impression", "character", "personality" ],
 
-    FACiL                     `noun`    {- TAbiE -}            [ "postage stamp", "postage stamps" ]
+    FACiL                     `noun`    {- TAbiE -}            [ "postage stamp" ]
                               `plural`     FawACiL
                            {- `others`  [ ".tawAbi` Ndip" ] -},
 
@@ -153,7 +153,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCL |< Iy                `adj`     {- Tib~iy~ -}          [ "medical" ],
 
-    FaCIL                     `noun`    {- Tabiyb -}           [ "physician", "doctor", "physicians", "doctors" ],
+    FaCIL                     `noun`    {- Tabiyb -}           [ "physician", "doctor" ],
 
     FiCAL |< aT               `noun`    {- TibAbap -}          [ "medical profession", "medical treatment" ],
 
@@ -164,7 +164,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Tabol -}            [ "drumming" ],
 
-    FaCL                      `noun`    {- Tabol -}            [ "drum", "drums" ]
+    FaCL                      `noun`    {- Tabol -}            [ "drum" ]
                               `plural`     FuCUL
                               `plural`     HaFCAL
                            {- `others`  [ ".tubuwl N", "'a.tbAl N" ] -} ]
@@ -181,7 +181,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL |< aT               `noun`    {- Tabaqap -}          [ "class", "category" ],
 
-    FaCaL |< aT               `noun`    {- Tabaqap -}          [ "level", "layer", "strata", "layers" ]
+    FaCaL |< aT               `noun`    {- Tabaqap -}          [ "level", "layer", "strata" ]
                               `plural`     FiCAL
                            {- `others`  [ ".tibAq N" ] -},
 
@@ -196,7 +196,7 @@ lexicon = listing "Lexicon's properties"
     InFiCAL                   `noun`    {- AinoTibAq -}        [ "coincidence" ]
                               `plural`     InFiCAL |< At,
 
-    FACiL                     `noun`    {- TAbiq -}            [ "floor", "story", "floors", "stories" ]
+    FACiL                     `noun`    {- TAbiq -}            [ "floor", "story" ]
                               `plural`     FawACiL
                            {- `others`  [ ".tawAbiq Ndip" ] -},
 
@@ -235,7 +235,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t f r" <| [
 
-    FaCL |< aT                `noun`    {- Taforap -}          [ "leap", "jump", "leaps", "jumps" ]
+    FaCL |< aT                `noun`    {- Taforap -}          [ "leap", "jump" ]
                               `plural`     FaCaL |< At ]
 
  |> ".t f w" <| [
@@ -270,13 +270,13 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t h w" <| [
 
-    FACI                      `noun`    {- TAhiy -}            [ "cook", "cooks" ]
+    FACI                      `noun`    {- TAhiy -}            [ "cook" ]
                               `plural`     FuCY |< aT
                               `plural`     FACI |< At ]
 
  |> ".t h y" <| [
 
-    FACI                      `noun`    {- TAhiy -}            [ "cook", "cooks" ]
+    FACI                      `noun`    {- TAhiy -}            [ "cook" ]
                               `plural`     FuCY |< aT
                               `plural`     FACI |< At ]
 
@@ -285,7 +285,7 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- TalaE-u -}          [ "appear", "rise" ]
                               `imperf`     FCuL,
 
-    HaFCaL                    `verb`    {- OaTolaE -}          [ "instruct", "disclose", "inform", "be instructed", "be disclosed", "be informed" ],
+    HaFCaL                    `verb`    {- OaTolaE -}          [ "instruct", "disclose", "inform" ],
 
     TaFaCCaL                  `verb`    {- taTal~aE -}         [ "aspire", "look (forward) to" ],
 
@@ -295,7 +295,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- TaloEap -}          [ "appearance", "guise" ],
 
-    FaCIL |< aT               `noun`    {- TaliyEap -}         [ "vanguard", "vanguards", "symptoms" ],
+    FaCIL |< aT               `noun`    {- TaliyEap -}         [ "vanguard", "symptoms" ],
 
     FaCIL |< Iy               `adj`     {- TaliyEiy~ -}        [ "vanguard" ],
 
@@ -332,7 +332,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- Talab -}            [ "quest", "search" ],
 
-    FaCaL                     `noun`    {- Talab -}            [ "request", "demand", "requests", "demands" ]
+    FaCaL                     `noun`    {- Talab -}            [ "request", "demand" ]
                               `plural`     FaCaL |< At,
 
     FaCaL |< Iy |< aT         `noun`    {- Talabiy~ap -}       [ "order", "commission" ],
@@ -344,7 +344,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- muTAlabap -}        [ "requirement", "demand" ],
 
-    FACiL                     `noun`    {- TAlib -}            [ "student", "students" ]
+    FACiL                     `noun`    {- TAlib -}            [ "student" ]
                               `plural`     FuCCAL
                               `plural`     FaCaL |< aT
                            {- `others`  [ ".tullAb N" ] -},
@@ -378,7 +378,7 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- Talaq-u -}          [ "let go" ]
                               `imperf`     FCuL,
 
-    HaFCaL                    `verb`    {- OaTolaq -}          [ "release", "fire", "be released", "be fired" ],
+    HaFCaL                    `verb`    {- OaTolaq -}          [ "release", "fire" ],
 
     InFaCaL                   `verb`    {- AinoTalaq -}        [ "take off", "be sent out" ],
 
@@ -447,7 +447,7 @@ lexicon = listing "Lexicon's properties"
     FaCiL                     `verb`    {- TamiE-a -}          [ "covet", "desire" ]
                               `imperf`     FCaL,
 
-    FaCaL                     `noun`    {- TamaE -}            [ "greed", "ambition", "ambitions" ]
+    FaCaL                     `noun`    {- TamaE -}            [ "greed", "ambition" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.tmA` N" ] -} ]
 
@@ -480,7 +480,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t n n" <| [
 
-    FuCL                      `noun`    {- Tun~ -}             [ "ton", "tons" ]
+    FuCL                      `noun`    {- Tun~ -}             [ "ton" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.tnAn N" ] -} ]
 
@@ -498,7 +498,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Taqos -}            [ "weather", "climate" ],
 
-    FaCL                      `noun`    {- Taqos -}            [ "ritual", "rite", "rituals", "rites" ]
+    FaCL                      `noun`    {- Taqos -}            [ "ritual", "rite" ]
                               `plural`     FuCUL
                            {- `others`  [ ".tuquws N" ] -} ]
 
@@ -517,7 +517,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t r .h" <| [
 
-    FaCaL                     `verb`    {- TaraH-a -}          [ "submit", "suggest", "propose", "be submitted", "be suggested", "be proposed" ]
+    FaCaL                     `verb`    {- TaraH-a -}          [ "submit", "suggest", "propose", "be submitted" ]
                               `imperf`     FCaL,
 
     FaCL                      `noun`    {- TaroH -}            [ "suggestion", "proposal" ],
@@ -538,14 +538,14 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t r b d" <| [
 
-    KuRDIS                    `noun`    {- Turobiyd -}         [ "torpedo", "torpedoes" ]
+    KuRDIS                    `noun`    {- Turobiyd -}         [ "torpedo" ]
                               `plural`     KuRDIS |< At
                               `plural`     KaRADIS
                            {- `others`  [ ".tarAbiyd Ndip" ] -} ]
 
  |> ".t r d" <| [
 
-    FaCaL                     `verb`    {- Tarad-u -}          [ "expel", "dismiss", "kick out", "be expelled", "be dismissed", "be kicked out" ]
+    FaCaL                     `verb`    {- Tarad-u -}          [ "expel", "dismiss", "kick out", "be expelled", "be kicked out" ]
                               `imperf`     FCuL,
 
     FACaL                     `verb`    {- TArad -}            [ "hunt", "pursue" ],
@@ -556,7 +556,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Tarod -}            [ "expulsion", "dismissal", "kicking out" ],
 
-    FaCL                      `noun`    {- Tarod -}            [ "parcel", "package", "parcels", "packages" ]
+    FaCL                      `noun`    {- Tarod -}            [ "parcel", "package" ]
                               `plural`     FuCUL
                            {- `others`  [ ".turuwd N" ] -},
 
@@ -575,7 +575,7 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- Taraf-i -}          [ "wink" ]
                               `imperf`     FCiL,
 
-    FaCaL                     `noun`    {- Taraf -}            [ "party", "side", "parties", "sides" ]
+    FaCaL                     `noun`    {- Taraf -}            [ "party", "side" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.trAf N" ] -},
 
@@ -604,15 +604,15 @@ lexicon = listing "Lexicon's properties"
     TaFaCCuL                  `noun`    {- taTar~uq -}         [ "reaching ??" ]
                               `plural`     TaFaCCuL |< At,
 
-    FaCIL                     `noun`    {- Tariyq -}           [ "road", "way", "roads", "ways" ]
+    FaCIL                     `noun`    {- Tariyq -}           [ "road", "way" ]
                               `plural`     FuCuL |< At
                            {- `others`  [ ".turuq N" ] -},
 
     FuCL |< aT                `noun`    {- Turoqap -}          [ "road" ],
 
-    FaCIL |< aT               `noun`    {- Tariyqap -}         [ "method", "procedure", "methods", "manners" ],
+    FaCIL |< aT               `noun`    {- Tariyqap -}         [ "method", "procedure", "manners" ],
 
-    MiFCaL                    `noun`    {- miToraq -}          [ "hammer", "hammers" ]
+    MiFCaL                    `noun`    {- miToraq -}          [ "hammer" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma.tAriq Ndip" ] -},
 
@@ -628,7 +628,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t r z" <| [
 
-    FiCAL                     `noun`    {- TirAz -}            [ "model", "type", "calibre", "models", "types" ]
+    FiCAL                     `noun`    {- TirAz -}            [ "model", "type", "calibre" ]
                               `plural`     FuCuL
                               `plural`     FiCAL |< At
                               `plural`     HaFCiL |< aT
@@ -636,7 +636,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t w '" <| [
 
-    InFiCAL                   `noun`    {- AinoTiwA' -}        [ "withdrawal", "withdrawals" ]
+    InFiCAL                   `noun`    {- AinoTiwA' -}        [ "withdrawal" ]
                               `plural`     InFiCAL |< At
                               `plural`     InFiCA' |< At,
 
@@ -644,7 +644,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t w .h" <| [
 
-    HaFAL                     `verb`    {- OaTAH -}            [ "overthrow", "topple", "be overthrown", "be toppled" ],
+    HaFAL                     `verb`    {- OaTAH -}            [ "overthrow", "topple", "be overthrown" ],
 
     HiFAL |< aT               `noun`    {- IiTAHap -}          [ "overthrow", "topple" ] ]
 
@@ -672,7 +672,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t w b" <| [
 
-    FUL                       `noun`    {- Tuwb -}             [ "bricks", "brick" ] ]
+    FUL                       `noun`    {- Tuwb -}             [ "brick" ] ]
 
  |> ".t w b s" <| [
 
@@ -690,7 +690,7 @@ lexicon = listing "Lexicon's properties"
 
     FA'iL                     `adj`     {- TA}if -}            [ "ambulant", "itinerant", "on patrol" ],
 
-    FA'iL |< aT               `noun`    {- TA}ifap -}          [ "sect", "party", "faction", "sects", "parties", "factions" ]
+    FA'iL |< aT               `noun`    {- TA}ifap -}          [ "sect", "party", "faction" ]
                               `plural`     FawA'iL
                            {- `others`  [ ".tawA'if Ndip" ] -},
 
@@ -700,7 +700,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t w l" <| [
 
-    FACiL |< aT               `noun`    {- TAwilap -}          [ "table", "tables" ]
+    FACiL |< aT               `noun`    {- TAwilap -}          [ "table" ]
                               `plural`     FACiL |< At,
 
     FAL                       `verb`    {- TAl-u -}            [ "be long" ]
@@ -709,9 +709,9 @@ lexicon = listing "Lexicon's properties"
 
     FACaL                     `verb`    {- TAwal -}            [ "contend with" ],
 
-    HaFAL                     `verb`    {- OaTAl -}            [ "lengthen", "be lengthened" ],
+    HaFAL                     `verb`    {- OaTAl -}            [ "lengthen" ],
 
-    FUL                       `noun`    {- Tuwl -}             [ "length", "height", "lengths", "heights" ]
+    FUL                       `noun`    {- Tuwl -}             [ "length", "height" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.twAl N" ] -},
 
@@ -771,7 +771,7 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- taTaw~ar -}         [ "develop", "advance" ],
 
-    FaCL                      `noun`    {- Tawor -}            [ "stage", "phase", "period", "stages", "phases", "periods" ]
+    FaCL                      `noun`    {- Tawor -}            [ "stage", "phase", "period" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.twAr N" ] -},
 
@@ -789,7 +789,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t w y" <| [
 
-    FaCY                      `verb`    {- TawaY-i -}          [ "fold", "wrap", "be folded", "be wrapped" ]
+    FaCY                      `verb`    {- TawaY-i -}          [ "fold", "wrap", "be wrapped" ]
                               `imperf`     FCI,
 
     InFaCY                    `verb`    {- AinoTawaY -}        [ "contain", "include", "harbor" ],
@@ -798,7 +798,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCA
                            {- `others`  [ ".tawA Nhy" ] -},
 
-    InFiCA'                   `noun`    {- AinoTiwA' -}        [ "withdrawal", "withdrawals" ]
+    InFiCA'                   `noun`    {- AinoTiwA' -}        [ "withdrawal" ]
                               `plural`     InFiCA' |< At,
 
     InFiCA' |< Iy             `adj`     {- AinoTiwA}iy~ -}     [ "withdrawal", "introverted" ] ]
@@ -825,7 +825,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Tayof -}            [ "spectrum (light)" ],
 
-    FaCL                      `noun`    {- Tayof -}            [ "apparition", "apparitions" ]
+    FaCL                      `noun`    {- Tayof -}            [ "apparition" ]
                               `plural`     FuCUL
                               `plural`     HaFCAL
                            {- `others`  [ ".tuyuwf N", "'a.tyAf N" ] -} ]
@@ -852,7 +852,7 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FIL
                               `pfirst`     FiL,
 
-    FaCL                      `noun`    {- Tayor -}            [ "bird", "birds" ]
+    FaCL                      `noun`    {- Tayor -}            [ "bird" ]
                               `plural`     FuCUL
                               `plural`     HaFCAL
                            {- `others`  [ ".tuyuwr N", "'a.tyAr N" ] -},
