@@ -88,9 +88,9 @@ instance Inflect RootEntry ParaVerb where
 
         where paradigm p = map (merge r . p) inEntry
 
-              theDflt = isDefault x
-
               Morphs pattern _ _ = morphs e
+
+              theVariant = isVariant x
 
               inEntry = case entity e of
 
@@ -99,7 +99,7 @@ instance Inflect RootEntry ParaVerb where
                     | maybe False (/= v) jv || maybe False (/= Perfect) jt -> []
 
                     | null is || v == Passive
-                              || theDflt   -> inRules fs (Perfect, w) [pattern]
+                           || not theVariant  -> inRules fs (Perfect, w) [pattern]
 
                     | otherwise            -> [ morph i `asTypeOf` morphs e | f <- fs, i <- is ]
 
@@ -107,20 +107,20 @@ instance Inflect RootEntry ParaVerb where
 
                   _     ->  (error . unwords) ["Incompatible VerbP", show r]
 
-              inRules fs pp ts = [ morph l | f <- fs, t <- ts,
+              inRules fs pp ts =  [ morph l | f <- fs, t <- ts,
 
-                                   let ls = lookStem t pp (Perfect, v) theDflt
-                                                          (verbStems f r),
-                                   l <- nub ls ]
+                                    let ls = lookStem t pp (Perfect, v) theVariant
+                                                           (verbStems f r),
+                                    l <- nub ls ]
 
 
     inflect (RE r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
 
         where paradigm p = map (merge r . uncurry p) inEntry
 
-              theDflt = isDefault x
-
               Morphs pattern _ _ = morphs e
+
+              theVariant = isVariant x
 
               inEntry = case entity e of
 
@@ -136,20 +136,40 @@ instance Inflect RootEntry ParaVerb where
 
                   _     ->  (error . unwords) ["Incompatible VerbI", show r]
 
-              inRules fs pp ts = [ (prefixVerbI f l v, morph l) | f <- fs, t <- ts,
+              inRules fs pp ts
 
-                                   let ls = lookStem t pp (Imperfect, v) theDflt
-                                                          (verbStems f r),
-                                   l <- nub ls ]
+                | isEndless x  =  [ k | f <- fs, t <- ts,
+
+                                    let ls = lookStem t pp (Imperfect, v) True
+                                                           (verbStems f r)
+
+                                        hs = lookStem t pp (Imperfect, v) False
+                                                           (verbStems f r),
+
+                                    k <- [ (prefixVerbI f l v, morph l) | l <- nub ls ]
+
+                                      ++ [ (prefixh, suffix a morphh)   | h <- nub hs,
+
+                                           let prefixh = prefixVerbI f h v
+
+                                               morphh = morph h,
+
+                                           a <- auxiesDouble f h ] ]
+
+                | otherwise    =  [ (prefixVerbI f l v, morph l) | f <- fs, t <- ts,
+
+                                    let ls = lookStem t pp (Imperfect, v) theVariant
+                                                           (verbStems f r),
+                                    l <- nub ls ]
 
 
     inflect (RE r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
 
         where paradigm p = map (merge r . uncurry p) inEntry
 
-              theDflt = isDefault x
-
               Morphs pattern _ _ = morphs e
+
+              theVariant = isVariant x
 
               inEntry = case entity e of
 
@@ -165,40 +185,101 @@ instance Inflect RootEntry ParaVerb where
 
                   _     ->  (error . unwords) ["Incompatible VerbC", show r]
 
+              inRules fs pp ts
+
+                | isEndless x  =  [ k | f <- fs, t <- ts,
+
+                                    let ls = lookStem t pp (Imperfect, Active) True
+                                                           (verbStems f r)
+
+                                        hs = lookStem t pp (Imperfect, Active) False
+                                                           (verbStems f r),
+
+                                        k <- [ (prefixVerbC f l, morph l) | l <- nub ls ]
+
+                                          ++ [ (prefixh, suffix a morphh) | h <- nub hs,
+
+                                                let prefixh = prefixVerbC f h
+                                                    morphh = morph h,
+
+                                                a <- auxiesDouble f h ] ]
+
+                | otherwise    =  [ (prefixVerbC f l, morph l) | f <- fs, t <- ts,
+
+                                    let ls = lookStem t pp (Imperfect, Active) theVariant
+                                                           (verbStems f r),
+                                    l <- nub ls ]
+
+{-
+              inRules fs pp ts = [ k | f <- fs, t <- ts,
+
+                                   let ls = lookStem t pp (Imperfect, Active) variant
+                                                          (verbStems f r),
+
+                                   let hs = lookStem t pp (Imperfect, Active) False
+                                                          (verbStems f r),
+
+                                   let is = if endless then
+                                                [ (prefixh, suffix a morphsh) | h <- hs,
+                                                    let prefixh = prefixVerbC f h,
+                                                    let morphsh = morph h,
+                                                    a <- auxiesDouble f h ] else [],
+
+                                   k <- [ (prefixVerbC f l, morph l) | l <- ls ] ++ is ]
+
               inRules fs pp ts = [ (prefixVerbC f l, morph l) | f <- fs, t <- ts,
 
-                                   let ls = lookStem t pp (Imperfect, Active) theDflt
+                                   let ls = lookStem t pp (Imperfect, Active) variant
                                                           (verbStems f r),
                                    l <- nub ls ]
-
+-}
 
     inflect _ _ = []
 
 
-isDefault :: ParaVerb -> Bool
+isVariant :: ParaVerb -> Bool
 
-isDefault (VerbP   _ p g n) = case (p, g, n) of
+isVariant (VerbP   _ p g n) = case (p, g, n) of
 
-                                (Third, Feminine, Plural) -> False
-                                (Third,    _    ,   _   ) -> True
-                                (  _  ,    _    ,   _   ) -> False
+                                (Third, Feminine, Plural) -> True
+                                (Third,    _    ,   _   ) -> False
+                                (  _  ,    _    ,   _   ) -> True
 
-isDefault (VerbI m _ p g n) = case (m, p, g, n) of
+isVariant (VerbI m _ p g n) = case (m, p, g, n) of
 
-                                (   _   , Third,  Feminine, Plural)   -> False
-                                (   _   , Second, Feminine, Plural)   -> False
-                                (Jussive, First,     _    ,    _    ) -> False
-                                (Jussive, Second, Feminine,    _    ) -> True
-                                (Jussive,   _   ,    _    , Singular) -> False
-                                (   _   ,   _   ,    _    ,    _    ) -> True
+                                (   _   , Third,  Feminine, Plural)   -> True
+                                (   _   , Second, Feminine, Plural)   -> True
+                                (Jussive, First,     _    ,    _    ) -> True
+                                (Jussive, Second, Feminine,    _    ) -> False
+                                (Jussive,   _   ,    _    , Singular) -> True
+                                (   _   ,   _   ,    _    ,    _    ) -> False
 
-isDefault (VerbC       g n) = case (g, n) of
+isVariant (VerbC       g n) = case (g, n) of
 
-                                (Masculine, Singular) -> False
-                                (Feminine,  Plural)   -> False
-                                (    _    ,    _    ) -> True
+                                (Masculine, Singular) -> True
+                                (Feminine,  Plural)   -> True
+                                (    _    ,    _    ) -> False
 
-                           -- isDefault (VerbI Jussive Active Second g n)
+                            -- isVariant (VerbI Jussive Active Second g n)
+
+
+isEndless :: ParaVerb -> Bool
+
+isEndless (VerbI Jussive _ p g n) = case (p, g, n) of
+
+                                (Second, Feminine, Singular)    ->  False
+                                (  _  ,     _    , Singular)    ->  True
+                                (First,     _    ,    _    )    ->  True
+                                (  _  ,     _    ,    _    )    ->  False
+
+isEndless (VerbC             g n) = case (g, n) of
+
+                                (Masculine, Singular) -> True
+                                (    _    ,    _    ) -> False
+
+                            -- isEndless (VerbI Jussive Active Second g n)
+
+isEndless _                 = False
 
 
 paraVerbP v p g n = case n of
@@ -330,43 +411,6 @@ paraVerbC g n i = case n of
                 Masculine ->  prefix i . suffix "UW"
                 Feminine  ->  prefix i . suffix "na"
 
-
-{-
-    (\ y -> [merge r y]) $ case f of
-
-        VerbP   v p g n -> paraVerbP   v p g n t
-
-            where t = case v of Active  -> pa
-                                Passive -> pp
-                  (_, (pa, pp, _, _)) = inEntry e
-
-        VerbI m v p g n -> paraVerbI m v p g n i t
-
-            where t = case v of Active  -> ia
-                                Passive -> ip
-                  (x, (_, _, ia, ip)) = inEntry e
-                  i = imperfectPrefix x v t
-
-        VerbC       g n -> paraVerbC       g n i t
-
-            where t = ia
-                  (x, (_, _, ia, _)) = inEntry e
-                  i = imperativePrefix x t
-
-        where inEntry e = case inRules e of
-
-                            x : _ -> x
-                            _     -> error "Form not found"
-
-              inRules e = {-(concat . map
-                           (filter (\ (x, (a, _, _, _)) -> morph a == morphs e))
-                            . map (\ x -> (x, verbStems x)))
-                           [I .. X]-}
-                           [ (x, y) | x <- [I ..], y <- verbStems x,
-                                      let (a, _, _, _) = y,
-                                      let Morphs t _ _ = morphs e, t == a ]
-
--}
 
 instance Inflect RootEntry ParaNoun where
 

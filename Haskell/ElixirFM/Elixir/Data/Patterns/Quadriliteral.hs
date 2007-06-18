@@ -103,6 +103,10 @@ instance Rules PatternQ where
     prefixVerbC x   _   | x `elem` [I, II]  = ""
                         | otherwise         = "i"
 
+    auxiesDouble _  y   | y `elem` [KRaDiSS,
+                                    KRaDaSS] = auxies
+                        | otherwise          = []
+
     isDiptote = flip elem [ KaRADiS, KaRADIS ]
 
     isPassive = const False

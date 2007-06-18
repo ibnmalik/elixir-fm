@@ -296,7 +296,8 @@ instance Forming PatternT where
 
     verbStems X r
 
-        | let x = words r in if null x then False
+        | let x = words r in if null x || length x > 2 && x !! 1 == x !! 2
+                                       then False
                                        else head x `elem` ["w", "y"] = [
 
         (   Nothing,    IstaFCaL,   UstUCiL,    StaFCiL,    StaFCaL     ),
@@ -366,15 +367,42 @@ instance Rules PatternT where
 
 
     prefixVerbC I   FCuL    = "u"
-    prefixVerbC I   y   | y `elem` [FUL, FAL, FIL,
+    prefixVerbC I   y   | y `elem` [FuCL, FiCL, FaCL,
+                                    FUL, FAL, FIL,
                                     FuL, FaL, FiL,
-                                    FY, CI]         = ""
-    prefixVerbC I   _       = "i"
+                                    CiL, CaL, CuL,
+                                    CI, FY]         = ""
+                        | otherwise                 = "i"
 
     prefixVerbC IV  _       = "'a"
 
     prefixVerbC x   _   | x `elem` [II, III, V, VI] = ""
                         | otherwise                 = "i"
+
+
+    auxiesDouble I    FuCL                      = auxies'
+    auxiesDouble I y    | y `elem` [FiCL, FaCL] = auxies
+                        | otherwise             = []
+
+    auxiesDouble III  FACL                      = auxies
+
+    auxiesDouble IV y   | y `elem` [FiCL, FaCL] = auxies
+                        | otherwise             = []
+
+    auxiesDouble VI   TaFACL                    = auxies
+
+    auxiesDouble VII  NFaCL                     = auxies
+    auxiesDouble VIII FtaCL                     = auxies
+    auxiesDouble IX   FCaLL                     = auxies
+
+    auxiesDouble X y    | y `elem` [StaFiCL,
+                                    StaFaCL]    = auxies
+                        | otherwise             = []
+
+    auxiesDouble XI   FCALL                     = auxies
+
+    auxiesDouble _    _                         = []
+
 
 {-
     prefixVerbI x t v =
