@@ -14,12 +14,13 @@ import Data.Char
 -- "interDict" and "composition"
 
 class Show a => Language a where
-  name        :: a -> String                  -- The name of the language
-  dbaseName   :: a -> String                  -- The name of dictionary Database
+  name        :: a -> String                -- The name of the language
+  dbaseName   :: a -> String                -- The name of dictionary Database
   composition :: a -> ([Attr] -> Bool)      -- Definition of legal compositions
-  env         :: a -> String                  -- Environment variable
+  env         :: a -> String                -- Environment variable
   paradigms   :: a -> Commands
-  internDict  :: a -> Dictionary                   -- The internal dictionary
+  internDict  :: a -> Dictionary            -- The internal dictionary
+  welcome     :: a -> String
 
   name        l = map toLower (show l)
   dbaseName   l = name l ++ ".lexicon"
@@ -29,6 +30,20 @@ class Show a => Language a where
   env         l = "FM_" ++ map toUpper (show l)
   paradigms   _ = empty
   internDict  _ = emptyDict
+
+  welcome l = unlines
+            [
+             "********************************************",
+             "* " ++ show l ++ " Morphology" ++ padding (show l) 30 ++ "*",
+             "********************************************",
+             "* Functional Morphology v1.10              *",
+             "* (c) Markus Forsberg & Aarne Ranta 2004   *",
+             "* under GNU General Public License.        *",
+             "********************************************",
+             ""
+            ]
+      where padding s n = replicate (max (n - length s) 0) ' '
+
 
 type Commands = Map String ([String], [String] -> Entry) -- a map of paradigms
 

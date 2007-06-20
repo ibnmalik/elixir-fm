@@ -25,6 +25,36 @@ type Verb = ParaVerb -> Str
 type Noun = ParaNoun -> Str
 
 
+data Tag = TagVerb [Tense]     [Mood] [Voice] [Person] [Gender] [Number]
+         | TagNoun [Humanness]        [Voice]          [Gender] [Number] [Case] [State]
+         | TagMore String
+
+
+instance Show Tag where
+
+    show (TagVerb t m v p g n) = "V" ++ concat [showlist t, showlist m, showlist v,
+                                                noshowlist, showlist p, showlist g,
+                                                showlist n, noshowlist, noshowlist]
+
+    show (TagNoun h v g n c s) = "N" ++ concat [showlist h, noshowlist, showlist v,
+                                                noshowlist, noshowlist, showlist g,
+                                                showlist n, showlist c, showlist s]
+
+    show (TagMore s)           = s
+
+
+showlist :: Show a => [a] -> String
+
+showlist []  = "-"
+showlist [x] = [show' x]
+showlist xs  = '[' : foldr ((:) . show')  "]" xs
+
+noshowlist = "-"
+
+
+-- instance Read Tag where
+
+
 data ParaVerb   = VerbP      Voice Person Gender Number
                 | VerbI Mood Voice Person Gender Number
                 | VerbC                   Gender Number

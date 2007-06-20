@@ -58,13 +58,15 @@ module Elixir.Lexicon (
         sumEntry, sumEntryChars,
 -}
 
+        isVerb, isNoun, isAdj, isMore,
+
         root,
 
         verb, noun, adj, pron, adv, prep, conj, part,
 
         imperf, pfirst, ithird, second,
 
-        gerund, plural, others,
+        gerund, plural, others, withRoot,
 
         countNest, countEntry, countEach
 
@@ -118,6 +120,8 @@ instance Show Lexicon where
 listing _ = []
 
 
+type Root = String
+
 data Nest =     NestL Root [Entry PatternL]
           |     NestT Root [Entry PatternT]
           |     NestQ Root [Entry PatternQ]
@@ -151,8 +155,7 @@ instance Nestable PatternQ where (>:) s l = NestQ s l
 (<|) x y = (>:) x y
 
 
-type Root = String
-
+type Lexref = [String]
 
 data Entry a = Entry { entity :: Entity a, morphs :: Morphs a,
                        lexref :: Lexref }
@@ -160,16 +163,30 @@ data Entry a = Entry { entity :: Entity a, morphs :: Morphs a,
     deriving Show
 
 
+type Plural a = Either (Root, Morphs a) (Morphs a)
+
 data Entity a = Verb { form :: [Form], perfect', imperfect, imperative :: [a],
                        justTense :: Maybe Tense, justVoice :: Maybe Voice }
-              | Noun [Morphs a] (Maybe Gender) (Maybe Number)
-              | Adj [Morphs a] (Maybe Number)
+              | Noun [Plural a] (Maybe Gender) (Maybe Number)
+              | Adj  [Plural a]                (Maybe Number)
               | More
 
     deriving Show
 
 
-type Lexref = [String]
+isVerb, isNoun, isAdj, isMore :: Entity a -> Bool
+
+isVerb (Verb _ _ _ _ _ _) = True
+isVerb _                  = False
+
+isNoun (Noun _ _ _) = True
+isNoun _            = False
+
+isAdj (Adj _ _) = True
+isAdj _         = False
+
+isMore More = True
+isMore _    = False
 
 
 verb :: (Morphing a b, Nestable b, Forming a, Eq a) => a -> Lexref -> Entry b
@@ -255,13 +272,26 @@ plural :: (Morphing a b, Nestable b) => Entry b -> a -> Entry b
 
 plural x y = case entity x of
 
-                Noun z g n  -> x { entity = Noun (morph y : z) g n }
-                Adj  z   n  -> x { entity = Adj  (morph y : z)   n }
+                Noun z g n  -> x { entity = Noun (Right (morph y) : z) g n }
+                Adj  z   n  -> x { entity = Adj  (Right (morph y) : z)   n }
+
+
+withRoot x y = case entity x of
+
+                Noun []    _ _  -> x
+                Noun (z:s) g n  -> x { entity = Noun (Left (y, w) : s) g n }
+
+                    where w = either snd id z
+
+                Adj  []      _  -> x
+                Adj  (z:s)   n  -> x { entity = Adj  (Left (y, w) : s)   n }
+
+                    where w = either snd id z
 
 
 infixl 3 `imperf`, `pfirst`, `ithird`, `second`
 
-infixl 3 `gerund`, `plural`
+infixl 3 `gerund`, `plural`, `withRoot`
 
 
 infixl 3 `others`

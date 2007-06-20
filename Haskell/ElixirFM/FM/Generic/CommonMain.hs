@@ -24,15 +24,12 @@ readTrie l f = do d <- readDict l f
                   prInfo d
                   return $ trieDict d
 
-uName :: Language a => a -> String
-uName = upperFirst . name
-
 commonMain :: Language a => a -> IO ()
 commonMain l = do
   xx <- getArgs
   lex <- catch (getEnv (env l)) (\_ ->
-   do prErr $ "\n[" ++ (env l) ++ " is undefined, using \"./" ++ (dbaseName l) ++ "\".]\n"
-      return $ "./" ++ (dbaseName l))
+   do prErr $ "\n[" ++ env l ++ " undefined, using \"./" ++ dbaseName l ++ "\"]\n\n"
+      return $ "./" ++ dbaseName l)
   case xx of
     []             -> do prErr $ welcome l
                          t <- readTrie l lex
@@ -40,7 +37,7 @@ commonMain l = do
     ["-h"]         -> help
     ["-s"]         -> do prErr $ welcome l
                          putStrLn $ "\n[Synthesiser mode]\n"
-                         putStrLn $ "Enter a " ++ (uName l) ++ " word in any form.\n"
+                         putStrLn $ "Enter a " ++ show l ++ " word in any form.\n"
                          putStrLn $ "If the word is not found, a [command] with [arguments].\n"
                          putStrLn $ "Type 'c' to list commands.\n"
                          putStrLn $ "Type 'q' to quit.\n"
@@ -101,36 +98,20 @@ run :: (String -> [[String]]) -> IO ()
 run f = interact (analyze f . words)    -- analyze f . map lowerFirst . words
 
 analyze :: (String -> [[String]]) -> [String] -> String
-analyze _  []  = []
-analyze f (s:ss)
- = case (f s) of
-    [] -> "\n[ <" ++ s ++ "> NONE]\n" ++ analyze f ss
-    xs -> "\n[ <" ++ s ++ ">\n" ++ prA xs ++  "]\n" ++ analyze f ss
- where
-       prA xs = unlines [show n ++ ". " ++ s | (n,s) <- zip [1..] (map pr xs)]
-       pr []  = []
-       pr [x] = x
-       pr xs  = "Composite: " ++ concat (intersperse " | " xs)
+analyze _ [] = []
+analyze f (s:ss) = case f s of
+            []  ->  "\n[ <" ++ s ++ "> NONE ]\n\n" ++ analyze f ss
+            xs  ->  "\n[ <" ++ s ++ ">\n" ++ display xs (" ]\n\n" ++ analyze f ss)
 
-welcome l = unlines
-        [
-         "********************************************",
-         "* " ++ uName l ++ " Morphology" ++ (padding (uName l) 30) ++ "*",
-         "********************************************",
-         "* Functional Morphology v1.10              *",
-         "* (c) Markus Forsberg & Aarne Ranta 2004   *",
-         "* under GNU General Public License.        *",
-         "********************************************",
-         ""
-        ]
-  where padding s n = replicate (max (n - length s) 0) ' '
+ where display xs ys = foldr (\ (n, s) -> ("\n" ++) . shows n . (". " ++)
+                                        . (\ l -> foldr (++) l (intersperse "\n | " s)))
+                             ys (zip [1 ..] xs)
 
 
+prErr = hPutStr stderr
 
-prErr s =  hPutStr stderr (s ++ "\n")
 
-
-prInfo dict = prErr $ "Dictionary loaded: DF = " ++ show (size dict) ++ " and WF = " ++ show (sizeW dict) ++ ".\n"
+prInfo dict = prErr $ "Dictionary loaded: DF = " ++ show (size dict) ++ " and WF = " ++ show (sizeW dict) ++ "\n"
 
 
 help :: IO()
@@ -163,6 +144,6 @@ help_text = unlines ["",
              " | -lexc   [file] | LexC source code     |",
              " | -xfst   [file] | XFST source code     |",
              " | -sql    [file] | SQL source code      |",
-                 " |---------------------------------------|",
+             " |---------------------------------------|",
              ""
             ]

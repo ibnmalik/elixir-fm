@@ -40,7 +40,7 @@ import Elixir.Lexicon
 
 import Elixir.Data.Patterns.Triliteral
 
-import Data.List (nub)
+import Data.List (nub, isPrefixOf)
 
 
 type Root = String
@@ -48,7 +48,7 @@ type Root = String
 data RootEntry a = RE Root (Entry a)
 
 
-class Param p => Inflect m p where
+class Inflect m p where
 
     inflect :: (Template a, Rules a, Forming a, Morphing a a, Morphing (Morphs a) a) =>
                m a -> p -> [String]
@@ -80,6 +80,40 @@ instance Inflect Entry ParaVerb where
 instance Inflect Entry ParaNoun where
 
     inflect x = inflect (RE "k t b" x)
+
+
+instance Inflect RootEntry String where
+
+    inflect x@(RE r e) y | "VP" `isPrefixOf` y && length y == 10 &&
+                           isVerb (entity e) = inflect x z
+
+        where z = VerbP v p g n
+              [_, _, _, vc, _, pc, gc, nc, _, _] = y
+              v = if vc == 'P' then Passive else Active
+              p = if pc == '1' then First else
+                  if pc == '2' then Second else Third
+              g = if gc == 'F' then Feminine else Masculine
+              n = if nc == 'P' then Plural else
+                  if nc == 'D' then Dual else Singular
+
+    inflect x@(RE r e) y | "VI" `isPrefixOf` y && length y == 10 &&
+                           isVerb (entity e) = inflect x z
+
+        where z = VerbI Indicative Active Third Masculine Singular
+
+
+    inflect x@(RE r e) y | "VC" `isPrefixOf` y && length y == 10 &&
+                           isVerb (entity e) = inflect x z
+
+        where z = VerbC Masculine Singular
+
+
+    inflect x@(RE r e) y | "NS" `isPrefixOf` y && length y == 10 &&
+                           isNoun (entity e) = inflect x z
+
+        where z = NounS Singular Genitive (Nothing :-: False)
+
+    inflect _ _ = []
 
 
 instance Inflect RootEntry ParaVerb where
@@ -423,21 +457,23 @@ inEntry Plural e = case entity e of Noun l _ _  -> l
                                     Adj  l   _  -> l
                                     _           -> error "Incompatible Noun"
 
-inEntry Dual e = [morphs e |< An]
+inEntry Dual e = [Right (morphs e |< An)]
 
-inEntry _ e = [morphs e]
+inEntry _ e = [Right (morphs e)]
 
 
-inRules r c (d :-: a) y@(Morphs t p s) = (merge r . article . endings c d a) y
+inRules r c (d :-: a) y = (merge root . article . endings c d a) m
 
-    where article = case d of   Just True        -> id -- (al >|)
+    where (root, m@(Morphs t p s)) = either id (\ m -> (r, m)) y
+
+          article = case d of   Just True        -> id -- (al >|)
                                 _                -> id
 
           endings = case s of   Un : _           -> paraMasculine `with` reduce
                                 At : _           -> paraFeminine
                                 An : _           -> paraDual      `with` reduce
 
-                                _  | isDiptote y -> paraDiptote
+                                _  | isDiptote m -> paraDiptote
                                 _                -> paraTriptote
 
           (p `with` f) x y z = p x y z . f

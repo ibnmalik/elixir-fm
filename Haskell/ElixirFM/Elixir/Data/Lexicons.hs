@@ -61,6 +61,8 @@ import Elixir.Data.Lexicons.Lexicon26 as Haa
 import Elixir.Data.Lexicons.Lexicon27 as Waaw
 import Elixir.Data.Lexicons.Lexicon28 as Yaa
 
+import Elixir.Data.Lexicons.Classical as GCA
+
 import Version
 
 version = revised "$Revision$"
@@ -106,6 +108,8 @@ lexicon =  -- Extra.lexicon ++ Yaa.lexicon
            ++ Haa.lexicon
            ++ Waaw.lexicon
            ++ Yaa.lexicon
+
+           ++ GCA.lexicon
 
 {-
 

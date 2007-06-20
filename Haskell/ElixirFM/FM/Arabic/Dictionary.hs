@@ -30,13 +30,14 @@ import Elixir.Template
 import Encode
 import Encode.Arabic
 
--- recode = map (encode Tim . decode TeX . (++) "\\noneplus ")
-recode = id
+recode = map (encode Tim . decode TeX . (++) "\\noneplus ")
+-- recode = id
 
 
 arabicDict :: Dictionary
 
-arabicDict = (dictionary . (++) extradict . concat . map lex2dict)  -- $ take 5000 -- $ drop 1000
+arabicDict = (dictionary . (++) extradict . concat . map lex2dict)  $ take 3000
+                                                                    $ drop 1000
                                                                     lexicon
 
     where   extradict = [ ("wa-", "Conj", [], [ ("\nC---------", (1, ["wa-"])) ]) ]

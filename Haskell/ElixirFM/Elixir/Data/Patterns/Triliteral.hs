@@ -355,7 +355,7 @@ instance Forming PatternT where
         ]
 
 
-    verbStems _ _ = []
+ -- verbStems _ _ = []
 
 
 instance Rules PatternT where
