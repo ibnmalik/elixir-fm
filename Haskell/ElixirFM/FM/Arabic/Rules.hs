@@ -82,7 +82,48 @@ instance Inflect Entry ParaNoun where
     inflect x = inflect (RE "k t b" x)
 
 
+instance Inflect RootEntry Tag where
+
+    inflect x@(RE r e) y = case y of
+
+        TagVerbP   v p g n      ->  inflect x [ VerbP v' p' g' n' |
+                                                    v' <- vals v,
+                                                    p' <- vals p,
+                                                    g' <- vals g,
+                                                    n' <- vals n ]
+
+        TagVerbI m v p g n      ->  inflect x [ VerbI m' v' p' g' n' |
+                                                    m' <- vals m,
+                                                    v' <- vals v,
+                                                    p' <- vals p,
+                                                    g' <- vals g,
+                                                    n' <- vals n ]
+
+        TagVerbC       g n      ->  inflect x [ VerbC g' n' |
+                                                    g' <- vals g,
+                                                    n' <- vals n ]
+
+        TagNounS h v   g n c s  ->  inflect x [ NounS n' c' s' |
+                                                    n' <- vals n,
+                                                    c' <- vals c,
+                                                    s' <- vals s ]
+        _                       ->  []
+
+        where vals [] = values
+              vals vs = vs
+
+
 instance Inflect RootEntry String where
+
+    inflect x@(RE r e) | isVerb et = inflectOnly isTagParaVerb x
+                       | isNoun et = inflectOnly isTagParaNoun x
+                       | otherwise = const []
+
+        where inflectOnly x y = inflect y . filter x . -- more efficient --
+                                            unTags . read
+              et = entity e
+
+    {-
 
     inflect x@(RE r e) y | "VP" `isPrefixOf` y && length y == 10 &&
                            isVerb (entity e) = inflect x z
@@ -115,6 +156,7 @@ instance Inflect RootEntry String where
 
     inflect _ _ = []
 
+    -}
 
 instance Inflect RootEntry a => Inflect RootEntry [a] where
 
@@ -126,6 +168,8 @@ instance Inflect RootEntry a => Inflect RootEntry [a] where
 
 
 instance Inflect RootEntry ParaVerb where
+
+    inflect (RE r e) x  | (not . isVerb) (entity e) = []
 
     inflect (RE r e) x@(VerbP   v p g n) = [inflectVerbP (RE r e) x]
     inflect (RE r e) x@(VerbI m v p g n) = [inflectVerbI (RE r e) x]
@@ -264,7 +308,7 @@ inflectVerbC (RE r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
                                                        (verbStems f r),
                                 l <- nub ls ]
 
-{-
+    {-
           inRules fs pp ts = [ k | f <- fs, t <- ts,
 
                                let ls = lookStem t pp (Imperfect, Active) variant
@@ -286,7 +330,7 @@ inflectVerbC (RE r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
                                let ls = lookStem t pp (Imperfect, Active) variant
                                                       (verbStems f r),
                                l <- nub ls ]
--}
+    -}
 
 
 isVariant :: ParaVerb -> Bool
@@ -465,6 +509,8 @@ paraVerbC g n i = case n of
 
 
 instance Inflect RootEntry ParaNoun where
+
+    inflect (RE r e) x  | (not . isNoun) (entity e) = []
 
     inflect x@(RE r e) y@(NounS n c s) = [inflectNounS x y]
 

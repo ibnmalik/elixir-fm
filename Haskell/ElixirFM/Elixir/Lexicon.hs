@@ -60,6 +60,8 @@ module Elixir.Lexicon (
 
         isVerb, isNoun, isAdj, isMore,
 
+        lookupRoot, lookupLemma,
+
         root,
 
         verb, noun, adj, pron, adv, prep, conj, part,
@@ -309,6 +311,29 @@ countEach :: Nest -> Int
 countEach (NestT _ l) = length l
 countEach (NestQ _ l) = length l
 countEach (NestL _ l) = length l
+
+
+lookupRoot :: String -> Lexicon -> [Nest]
+
+lookupRoot r l = [ n | n <- l, root n == r ]
+
+
+lookupLemma :: String -> Lexicon -> String
+
+lookupLemma w l = unlines [ s | n <- l, s <- case n of
+
+                            NestT r es -> lookupLemma' w r es
+                            NestQ r es -> lookupLemma' w r es
+                            NestL r es -> lookupLemma' w r es ]
+
+
+lookupLemma' :: (Template a, Show a) => String -> Root -> [Entry a] -> [String]
+
+lookupLemma' w r es = [ merge r m ++ " (" ++ r ++ ") " ++ show m ++ "\n\t" ++
+                        show (entity e) ++ "\n" ++ unlines (lexref e)
+
+                        | e <- es, let m = morphs e
+                                       h = merge r m, w == h ]
 
 
 {-

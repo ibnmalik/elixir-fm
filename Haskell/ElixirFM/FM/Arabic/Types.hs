@@ -27,11 +27,13 @@ type Verb = ParaVerb -> Str
 type Noun = ParaNoun -> Str
 
 
-data Tag = TagError String
-         | TagVerbP         [Voice] [Person] [Gender] [Number]
-         | TagVerbI [Mood]  [Voice] [Person] [Gender] [Number]
-         | TagVerbC                          [Gender] [Number]
-         | TagNounS [Humanness] [Voice]      [Gender] [Number] [Case] [State]
+data Tag = TagVerbP             [Voice] [Person] [Gender] [Number]
+         | TagVerbI [Mood]      [Voice] [Person] [Gender] [Number]
+         | TagVerbC                              [Gender] [Number]
+         | TagNounS [Humanness] [Voice]          [Gender] [Number] [Case] [State]
+         | TagError String
+
+    deriving Eq
 
 
 instance Show Tag where
@@ -51,7 +53,7 @@ instance Show Tag where
                                                 showlist g, showlist n,
                                                 noshowlist, noshowlist]
 
-    show (TagNounS h v g n c s) = "N" ++ concat [showlist h, noshowlist, showlist v,
+    show (TagNounS h v g n c s) = "N" ++ concat [noshowlist, showlist h, showlist v,
                                                  noshowlist, noshowlist, showlist g,
                                                  showlist n, showlist c, showlist s]
 
@@ -67,16 +69,115 @@ showlist xs  = '[' : foldr ((:) . show')  "]" xs
 noshowlist = "-"
 
 
-instance Read Tag where
+isTagParaVerb :: Tag -> Bool
 
-    readsPrec _ x = [(TagError "","")] -- readShort x ++ readGroup x
+isTagParaVerb (TagVerbP   _ _ _ _) = True
+isTagParaVerb (TagVerbI _ _ _ _ _) = True
+isTagParaVerb (TagVerbC       _ _) = True
+isTagParaVerb _ = False
 
 
-readShort x = [ ([c], s) | (c, s) <- readLitChar x, c /= '[' ]
+isTagParaNoun :: Tag -> Bool
 
-readGroup x = [ (c, s) | ('[', z) <- readLitChar x, (c, y) <- lex z,
+isTagParaNoun (TagNounS _ _ _ _ _ _) = True
+isTagParaNoun _ = False
+
+
+expandTag :: Tag -> [String]    -- instance Inflect RootEntry Tag
+
+expandTag y = case y of
+
+    TagVerbP   v p g n      ->  map show [ VerbP v' p' g' n' |
+                                                v' <- vals v,
+                                                p' <- vals p,
+                                                g' <- vals g,
+                                                n' <- vals n ]
+
+    TagVerbI m v p g n      ->  map show [ VerbI m' v' p' g' n' |
+                                                m' <- vals m,
+                                                v' <- vals v,
+                                                p' <- vals p,
+                                                g' <- vals g,
+                                                n' <- vals n ]
+
+    TagVerbC       g n      ->  map show [ VerbC g' n' |
+                                                g' <- vals g,
+                                                n' <- vals n ]
+
+    TagNounS h v   g n c s  ->  map show [ NounS n' c' s' |
+                                                n' <- vals n,
+                                                c' <- vals c,
+                                                s' <- vals s ]
+    _                       ->  []
+
+    where vals [] = values
+          vals vs = vs
+
+
+newtype Tags = Tags [Tag]               deriving Show
+            -- Tags { unTags :: [Tag] } deriving Show
+
+unTags :: Tags -> [Tag]
+unTags (Tags t) = t
+
+readTags :: String -> [Tag]
+readTags = unTags . read
+
+expandTags :: Tags -> [[String]]
+expandTags = map expandTag . unTags
+
+
+instance Read Tags where
+
+    readsPrec _ x0 = if null tags then [(Tags [], "")] else tags
+
+        where tags = [ (Tags rs, "") |
+
+                       (y0, x1) <- readSlot x0, (y1, x2) <- readSlot x1,
+                       (y2, x3) <- readSlot x2, (y3, x4) <- readSlot x3,
+                       (y4, x5) <- readSlot x4, (y5, x6) <- readSlot x5,
+                       (y6, x7) <- readSlot x6, (y7, x8) <- readSlot x7,
+                       (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
+
+                let rs = [ r | v0 <- if y0 == "-" then "VN" else y0,
+                               v1 <- if y1 == "-" then "PIC-" else y1,
+                               let r = case [v0,v1] of
+
+                                    "VP" -> TagVerbP (readData y3)
+                                                     (readData y5)
+                                                     (readData y6)
+                                                     (readData y7)
+
+                                    "VI" -> TagVerbI (readData y2)
+                                                     (readData y3)
+                                                     (readData y5)
+                                                     (readData y6)
+                                                     (readData y7)
+
+                                    "VC" -> TagVerbC (readData y6)
+                                                     (readData y7)
+
+                                    "N-" -> TagNounS (readData y2)
+                                                     (readData y3)
+                                                     (readData y6)
+                                                     (readData y7)
+                                                     (readData y8)
+                                                     (readData y9)
+
+                                    _    -> TagError "", r /= TagError "" ] ]
+
+
+readData :: (Param a, Show a) => String -> [a]
+
+readData x = [ y | y <- values, show' y `elem` x ]
+
+
+readSlot :: ReadS String
+
+readSlot [] = []
+readSlot x  = [ ([c], s) | (c, s) <- readLitChar x, c /= '[' ] ++
+              [ (c, s) | ('[', z) <- readLitChar x, (c, y) <- lex z,
                          (']', s) <- readLitChar y ]
-
 
 
 data ParaVerb   = VerbP      Voice Person Gender Number
@@ -96,29 +197,18 @@ instance Param ParaVerb where
 
 instance Show ParaVerb where
 
-    show (VerbP   v p g n) = nicer $
-                                "VP-" ++ [show' v] ++ "-" ++
+    show (VerbP   v p g n) =    "VP-" ++ [show' v] ++ "-" ++
                                    [show' p, show' g, show' n] ++ "--"
 
-    show (VerbI m v p g n) = nicer $
-                                "VI" ++ [show' m, show' v] ++ "-" ++
+    show (VerbI m v p g n) =    "VI" ++ [show' m, show' v] ++ "-" ++
                                    [show' p, show' g, show' n] ++ "--"
 
-    show (VerbC       g n) = nicer $
-                                "VC----" ++ [show' g, show' n] ++ "--"
+    show (VerbC       g n) =    "VC----" ++ [show' g, show' n] ++ "--"
 
 
 show' :: Show a => a -> Char
 
 show' = head . show
-
-
-nicer :: String -> String
-
-nicer = (++) "\n"
-
-
---instance Inflect ParaVerb
 
 
 type Tense = Aspect
@@ -204,19 +294,13 @@ instance Param ParaNoun where
 
 instance Show ParaNoun where
 
-    show (NounS     n c s) = nicer $
-                                "NS-----" ++ [show' n, show' c, show' s]
+    show (NounS     n c s) =    "NS-----" ++ [show' n, show' c, show' s]
 
-    show (NounP v g n c s) = nicer $
-                                "NP-" ++ [show' v] ++ "--" ++
+    show (NounP v g n c s) =    "NP-" ++ [show' v] ++ "--" ++
                                     [show' g, show' n, show' c, show' s]
 
-    show (NounA   g n c s) = nicer $
-                                "NA----" ++
+    show (NounA   g n c s) =    "NA----" ++
                                     [show' g, show' n, show' c, show' s]
-
-
---instance Inflect ParaNoun
 
 
 instance Enum ParaNoun where
@@ -239,25 +323,25 @@ instance Show State where
 
     show (Nothing    :-: False) = "I"
     show (Just True  :-: False) = "D"
-    show (Just False :-: False) = "-"
+    show (Just False :-: False) = "A"
 
     show (Nothing    :-: True)  = "R"
     show (Just True  :-: True)  = "C"
-    show (Just False :-: True)  = "-"
+    show (Just False :-: True)  = "L"
 
 state (Nothing    :-: False) = "Indefinite"
 state (Just True  :-: False) = "Definite"
-state (Just False :-: False) = "AbsoluteNegative"
-state (Nothing    :-: True)  = "Construct"
-state (Just True  :-: True)  = "Overdetermined"
-state (Just False :-: True)  = "Underdetermined"
+state (Just False :-: False) = "Absolute/Negative"
+state (Nothing    :-: True)  = "Reduced/Construct"
+state (Just True  :-: True)  = "Complex/Overdetermined"
+state (Just False :-: True)  = "Lifted/Underdetermined"
 
 stateI = Nothing    :-: False
 stateD = Just True  :-: False
 stateA = Just False :-: False
 stateR = Nothing    :-: True
 stateC = Just True  :-: True
-stateU = Just False :-: True
+stateL = Just False :-: True
 
 indefinite = Nothing    :-: False
 definite   = Just True  :-: False
@@ -325,15 +409,12 @@ instance Param ParaPron where
 
 instance Show ParaPron where
 
-    show (PronN p g n c) = nicer $
-                            "SN---" ++
+    show (PronN p g n c) =  "SN---" ++
                                [show' p, show' g, show' n, show' c] ++ "-"
 
-    show (PronD   g n c) = nicer $
-                            "SD----" ++ [show' g, show' n, show' c] ++ "-"
+    show (PronD   g n c) =  "SD----" ++ [show' g, show' n, show' c] ++ "-"
 
-    show (PronR   g n c) = nicer $
-                            "SR----" ++ [show' g, show' n, show' c] ++ "-"
+    show (PronR   g n c) =  "SR----" ++ [show' g, show' n, show' c] ++ "-"
 
 
 --instance Inflect ParaPron
