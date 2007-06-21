@@ -51,7 +51,7 @@ data RootEntry a = RE Root (Entry a)
 class Inflect m p where
 
     inflect :: (Template a, Rules a, Forming a, Morphing a a, Morphing (Morphs a) a) =>
-               m a -> p -> [String]
+               m a -> p -> [[String]]
 
     -- inflect :: Template b => a -> b -> Root -> [String]
 
@@ -116,159 +116,177 @@ instance Inflect RootEntry String where
     inflect _ _ = []
 
 
+instance Inflect RootEntry a => Inflect RootEntry [a] where
+
+    inflect x = concat . map (inflect x)
+
+    -- inflect = (.) concat . map . inflect
+
+    -- inflect x y = concat [ inflect x | i <- y ]
+
+
 instance Inflect RootEntry ParaVerb where
 
-    inflect (RE r e) x@(VerbP   v p g n) = paradigm (paraVerbP v p g n)
-
-        where paradigm p = map (merge r . p) inEntry
-
-              Morphs pattern _ _ = morphs e
-
-              theVariant = isVariant x
-
-              inEntry = case entity e of
-
-                  Verb fs is _ _ jt jv
-
-                    | maybe False (/= v) jv || maybe False (/= Perfect) jt -> []
-
-                    | null is || v == Passive
-                           || not theVariant  -> inRules fs (Perfect, w) [pattern]
-
-                    | otherwise            -> [ morph i `asTypeOf` morphs e | f <- fs, i <- is ]
-
-                            where w = maybe Active id jv
-
-                  _     ->  (error . unwords) ["Incompatible VerbP", show r]
-
-              inRules fs pp ts =  [ morph l | f <- fs, t <- ts,
-
-                                    let ls = lookStem t pp (Perfect, v) theVariant
-                                                           (verbStems f r),
-                                    l <- nub ls ]
+    inflect (RE r e) x@(VerbP   v p g n) = [inflectVerbP (RE r e) x]
+    inflect (RE r e) x@(VerbI m v p g n) = [inflectVerbI (RE r e) x]
+    inflect (RE r e) x@(VerbC       g n) = [inflectVerbC (RE r e) x]
 
 
-    inflect (RE r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
+inflectVerbP :: (Template a, Forming a, Eq a, Morphing a a) => RootEntry a -> ParaVerb -> [String]
 
-        where paradigm p = map (merge r . uncurry p) inEntry
+inflectVerbP (RE r e) x@(VerbP   v p g n) = paradigm (paraVerbP v p g n)
 
-              Morphs pattern _ _ = morphs e
+    where paradigm p = map (merge r . p) inEntry
 
-              theVariant = isVariant x
+          Morphs pattern _ _ = morphs e
 
-              inEntry = case entity e of
+          theVariant = isVariant x
 
-                  Verb fs _ is _ jt jv
+          inEntry = case entity e of
 
-                    | maybe False (/= v) jv || maybe False (== Perfect) jt -> []
+              Verb fs is _ _ jt jv
 
-                    | null is   -> inRules fs (Perfect,   w) [pattern]
+                | maybe False (/= v) jv || maybe False (/= Perfect) jt -> []
 
-                    | otherwise -> inRules fs (Imperfect, w) is
+                | null is || v == Passive
+                       || not theVariant  -> inRules fs (Perfect, w) [pattern]
 
-                            where w = maybe Active id jv
+                | otherwise            -> [ morph i `asTypeOf` morphs e | f <- fs, i <- is ]
 
-                  _     ->  (error . unwords) ["Incompatible VerbI", show r]
+                        where w = maybe Active id jv
 
-              inRules fs pp ts
+              _     ->  (error . unwords) ["Incompatible VerbP", show r]
 
-                | isEndless x  =  [ k | f <- fs, t <- ts,
+          inRules fs pp ts =  [ morph l | f <- fs, t <- ts,
 
-                                    let ls = lookStem t pp (Imperfect, v) True
-                                                           (verbStems f r)
-
-                                        hs = lookStem t pp (Imperfect, v) False
-                                                           (verbStems f r),
-
-                                    k <- [ (prefixVerbI f l v, morph l) | l <- nub ls ]
-
-                                      ++ [ (prefixh, suffix a morphh)   | h <- nub hs,
-
-                                           let prefixh = prefixVerbI f h v
-
-                                               morphh = morph h,
-
-                                           a <- auxiesDouble f h ] ]
-
-                | otherwise    =  [ (prefixVerbI f l v, morph l) | f <- fs, t <- ts,
-
-                                    let ls = lookStem t pp (Imperfect, v) theVariant
-                                                           (verbStems f r),
-                                    l <- nub ls ]
+                                let ls = lookStem t pp (Perfect, v) theVariant
+                                                       (verbStems f r),
+                                l <- nub ls ]
 
 
-    inflect (RE r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
+inflectVerbI :: (Template a, Rules b, Morphing b a, Forming b) => RootEntry b -> ParaVerb -> [String]
 
-        where paradigm p = map (merge r . uncurry p) inEntry
+inflectVerbI (RE r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
 
-              Morphs pattern _ _ = morphs e
+    where paradigm p = map (merge r . uncurry p) inEntry
 
-              theVariant = isVariant x
+          Morphs pattern _ _ = morphs e
 
-              inEntry = case entity e of
+          theVariant = isVariant x
 
-                  Verb fs _ ys is jt jv
+          inEntry = case entity e of
 
-                    | maybe False (/= Active) jv || maybe False (== Perfect) jt -> []
+              Verb fs _ is _ jt jv
 
-                    | null is -> if null ys then inRules fs (Perfect,   Active) [pattern]
+                | maybe False (/= v) jv || maybe False (== Perfect) jt -> []
 
-                                            else inRules fs (Imperfect, Active) ys
+                | null is   -> inRules fs (Perfect,   w) [pattern]
 
-                    | otherwise            -> [ (prefixVerbC f i, morph i) | f <- fs, i <- is ]
+                | otherwise -> inRules fs (Imperfect, w) is
 
-                  _     ->  (error . unwords) ["Incompatible VerbC", show r]
+                        where w = maybe Active id jv
 
-              inRules fs pp ts
+              _     ->  (error . unwords) ["Incompatible VerbI", show r]
 
-                | isEndless x  =  [ k | f <- fs, t <- ts,
+          inRules fs pp ts
 
-                                    let ls = lookStem t pp (Imperfect, Active) True
-                                                           (verbStems f r)
+            | isEndless x  =  [ k | f <- fs, t <- ts,
 
-                                        hs = lookStem t pp (Imperfect, Active) False
-                                                           (verbStems f r),
+                                let ls = lookStem t pp (Imperfect, v) True
+                                                       (verbStems f r)
 
-                                        k <- [ (prefixVerbC f l, morph l) | l <- nub ls ]
+                                    hs = lookStem t pp (Imperfect, v) False
+                                                       (verbStems f r),
 
-                                          ++ [ (prefixh, suffix a morphh) | h <- nub hs,
+                                k <- [ (prefixVerbI f l v, morph l) | l <- nub ls ]
 
-                                                let prefixh = prefixVerbC f h
-                                                    morphh = morph h,
+                                  ++ [ (prefixh, suffix a morphh)   | h <- nub hs,
 
-                                                a <- auxiesDouble f h ] ]
+                                       let prefixh = prefixVerbI f h v
 
-                | otherwise    =  [ (prefixVerbC f l, morph l) | f <- fs, t <- ts,
+                                           morphh = morph h,
 
-                                    let ls = lookStem t pp (Imperfect, Active) theVariant
-                                                           (verbStems f r),
-                                    l <- nub ls ]
+                                       a <- auxiesDouble f h ] ]
+
+            | otherwise    =  [ (prefixVerbI f l v, morph l) | f <- fs, t <- ts,
+
+                                let ls = lookStem t pp (Imperfect, v) theVariant
+                                                       (verbStems f r),
+                                l <- nub ls ]
+
+
+inflectVerbC :: (Template a, Rules b, Morphing b a, Forming b) => RootEntry b -> ParaVerb -> [String]
+
+inflectVerbC (RE r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
+
+    where paradigm p = map (merge r . uncurry p) inEntry
+
+          Morphs pattern _ _ = morphs e
+
+          theVariant = isVariant x
+
+          inEntry = case entity e of
+
+              Verb fs _ ys is jt jv
+
+                | maybe False (/= Active) jv || maybe False (== Perfect) jt -> []
+
+                | null is -> if null ys then inRules fs (Perfect,   Active) [pattern]
+
+                                        else inRules fs (Imperfect, Active) ys
+
+                | otherwise            -> [ (prefixVerbC f i, morph i) | f <- fs, i <- is ]
+
+              _     ->  (error . unwords) ["Incompatible VerbC", show r]
+
+          inRules fs pp ts
+
+            | isEndless x  =  [ k | f <- fs, t <- ts,
+
+                                let ls = lookStem t pp (Imperfect, Active) True
+                                                       (verbStems f r)
+
+                                    hs = lookStem t pp (Imperfect, Active) False
+                                                       (verbStems f r),
+
+                                    k <- [ (prefixVerbC f l, morph l) | l <- nub ls ]
+
+                                      ++ [ (prefixh, suffix a morphh) | h <- nub hs,
+
+                                            let prefixh = prefixVerbC f h
+                                                morphh = morph h,
+
+                                            a <- auxiesDouble f h ] ]
+
+            | otherwise    =  [ (prefixVerbC f l, morph l) | f <- fs, t <- ts,
+
+                                let ls = lookStem t pp (Imperfect, Active) theVariant
+                                                       (verbStems f r),
+                                l <- nub ls ]
 
 {-
-              inRules fs pp ts = [ k | f <- fs, t <- ts,
+          inRules fs pp ts = [ k | f <- fs, t <- ts,
 
-                                   let ls = lookStem t pp (Imperfect, Active) variant
-                                                          (verbStems f r),
+                               let ls = lookStem t pp (Imperfect, Active) variant
+                                                      (verbStems f r),
 
-                                   let hs = lookStem t pp (Imperfect, Active) False
-                                                          (verbStems f r),
+                               let hs = lookStem t pp (Imperfect, Active) False
+                                                      (verbStems f r),
 
-                                   let is = if endless then
-                                                [ (prefixh, suffix a morphsh) | h <- hs,
-                                                    let prefixh = prefixVerbC f h,
-                                                    let morphsh = morph h,
-                                                    a <- auxiesDouble f h ] else [],
+                               let is = if endless then
+                                            [ (prefixh, suffix a morphsh) | h <- hs,
+                                                let prefixh = prefixVerbC f h,
+                                                let morphsh = morph h,
+                                                a <- auxiesDouble f h ] else [],
 
-                                   k <- [ (prefixVerbC f l, morph l) | l <- ls ] ++ is ]
+                               k <- [ (prefixVerbC f l, morph l) | l <- ls ] ++ is ]
 
-              inRules fs pp ts = [ (prefixVerbC f l, morph l) | f <- fs, t <- ts,
+          inRules fs pp ts = [ (prefixVerbC f l, morph l) | f <- fs, t <- ts,
 
-                                   let ls = lookStem t pp (Imperfect, Active) variant
-                                                          (verbStems f r),
-                                   l <- nub ls ]
+                               let ls = lookStem t pp (Imperfect, Active) variant
+                                                      (verbStems f r),
+                               l <- nub ls ]
 -}
-
-    inflect _ _ = []
 
 
 isVariant :: ParaVerb -> Bool
@@ -448,9 +466,13 @@ paraVerbC g n i = case n of
 
 instance Inflect RootEntry ParaNoun where
 
-    inflect (RE r e) (NounS n c s) = (map (inRules r c s) . inEntry n) e
+    inflect x@(RE r e) y@(NounS n c s) = [inflectNounS x y]
 
-    inflect _        _             = error "Unexpected case ..."
+    inflect _          _               = error "Unexpected case ..."
+
+
+
+inflectNounS (RE r e) (NounS n c s) = (map (inRules r c s) . inEntry n) e
 
 
 inEntry Plural e = case entity e of Noun l _ _  -> l

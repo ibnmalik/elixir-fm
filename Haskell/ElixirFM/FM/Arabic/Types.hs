@@ -20,27 +20,42 @@ module FM.Arabic.Types where
 import FM.Generic.General
 import FM.Generic.Invariant
 
+import Data.Char (readLitChar)
+
 
 type Verb = ParaVerb -> Str
 type Noun = ParaNoun -> Str
 
 
-data Tag = TagVerb [Tense]     [Mood] [Voice] [Person] [Gender] [Number]
-         | TagNoun [Humanness]        [Voice]          [Gender] [Number] [Case] [State]
-         | TagMore String
+data Tag = TagError String
+         | TagVerbP         [Voice] [Person] [Gender] [Number]
+         | TagVerbI [Mood]  [Voice] [Person] [Gender] [Number]
+         | TagVerbC                          [Gender] [Number]
+         | TagNounS [Humanness] [Voice]      [Gender] [Number] [Case] [State]
 
 
 instance Show Tag where
 
-    show (TagVerb t m v p g n) = "V" ++ concat [showlist t, showlist m, showlist v,
-                                                noshowlist, showlist p, showlist g,
-                                                showlist n, noshowlist, noshowlist]
+    show (TagVerbP   v p g n) = "VP" ++ concat [noshowlist, showlist v,
+                                                noshowlist, showlist p,
+                                                showlist g, showlist n,
+                                                noshowlist, noshowlist]
 
-    show (TagNoun h v g n c s) = "N" ++ concat [showlist h, noshowlist, showlist v,
-                                                noshowlist, noshowlist, showlist g,
-                                                showlist n, showlist c, showlist s]
+    show (TagVerbI m v p g n) = "VI" ++ concat [showlist m, showlist v,
+                                                noshowlist, showlist p,
+                                                showlist g, showlist n,
+                                                noshowlist, noshowlist]
 
-    show (TagMore s)           = s
+    show (TagVerbC       g n) = "VC" ++ concat [noshowlist, noshowlist,
+                                                noshowlist, noshowlist,
+                                                showlist g, showlist n,
+                                                noshowlist, noshowlist]
+
+    show (TagNounS h v g n c s) = "N" ++ concat [showlist h, noshowlist, showlist v,
+                                                 noshowlist, noshowlist, showlist g,
+                                                 showlist n, showlist c, showlist s]
+
+    show (TagError s)           = s
 
 
 showlist :: Show a => [a] -> String
@@ -52,7 +67,16 @@ showlist xs  = '[' : foldr ((:) . show')  "]" xs
 noshowlist = "-"
 
 
--- instance Read Tag where
+instance Read Tag where
+
+    readsPrec _ x = [(TagError "","")] -- readShort x ++ readGroup x
+
+
+readShort x = [ ([c], s) | (c, s) <- readLitChar x, c /= '[' ]
+
+readGroup x = [ (c, s) | ('[', z) <- readLitChar x, (c, y) <- lex z,
+                         (']', s) <- readLitChar y ]
+
 
 
 data ParaVerb   = VerbP      Voice Person Gender Number
@@ -104,14 +128,13 @@ data Aspect = Perfect
             | Imperative
     deriving (Eq, Enum)
 
+instance Param Aspect   where values = enum
+
 instance Show Aspect where
 
     show Perfect    = "P"
     show Imperfect  = "I"
     show Imperative = "C"
-
-
-instance Param Aspect   where values = enum
 
 
 data Mood   = Indicative
