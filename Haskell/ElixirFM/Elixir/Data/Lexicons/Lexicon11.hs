@@ -619,7 +619,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< At                `noun`    {- zay~At -}           [ "oil dealer", "oilman" ] ]
 
- |> "zAbAliytA" <| [
+ |> "zAbAlItA" <| [
 
     Identity                  `noun`    {- zAbAliytA -}        [ "Zabaleta" ] ]
 
@@ -635,23 +635,23 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- zAyst -}            [ "Zeist" ] ]
 
- |> "zakariyyA" <| [
+ |> "zIfAdInUfIt^s" <| [
+
+    Identity                  `noun`    {- ziyfAdiynuwfiyt$ -} [ "Zivadinovic" ] ]
+
+ |> "zImbAbw" <| [
+
+    Identity |< Iy            `adj`     {- ziymobAbowiy~ -}    [ "Zimbabwean" ] ]
+
+ |> "zImbAbwI" <| [
+
+    Identity                  `noun`    {- ziymobAbowiy -}     [ "Zimbabwe" ] ]
+
+ |> "zakarIyA" <| [
 
     Identity                  `noun`    {- zakariy~A -}        [ "Zakariya", "Zecharia" ] ]
 
  |> "zan^gabAr" <| [
 
     Identity                  `noun`    {- zanojabAr -}        [ "Zanzibar" ] ]
-
- |> "ziyfAdiynuwfiyt^s" <| [
-
-    Identity                  `noun`    {- ziyfAdiynuwfiyt$ -} [ "Zivadinovic" ] ]
-
- |> "ziymbAbw" <| [
-
-    Identity |< Iy            `adj`     {- ziymobAbowiy~ -}    [ "Zimbabwean" ] ]
-
- |> "ziymbAbwiy" <| [
-
-    Identity                  `noun`    {- ziymobAbowiy -}     [ "Zimbabwe" ] ]
 

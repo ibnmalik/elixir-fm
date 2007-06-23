@@ -25,16 +25,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< At            `noun`    {- IixobAt -}          [ "being humble" ] ]
 
- |> "'u_hduwd" <| [
-
-    -- ;; >uxoduwd_1
-    -- >xdwd   >uxoduwd        Ndu     slot;groove;furrow
-    -- Axdwd   >uxoduwd        Ndu     slot;groove;furrow
-    -- >xAdyd  >axAdiyd        Ndip    slots;grooves;furrows
-    -- AxAdyd  >axAdiyd        Ndip    slots;grooves;furrows
-
-    Identity                  `noun`    {- Ouxoduwd -}         [ "slot", "groove", "furrow" ] ]
-
  |> "_h  '" <| [
 
     -- ;; xA'_1
@@ -3139,6 +3129,16 @@ lexicon = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- xud~ap -}           [ "furrow", "groove" ],
 
+    -- ;; >uxoduwd_1
+    -- >xdwd   >uxoduwd        Ndu     slot;groove;furrow
+    -- Axdwd   >uxoduwd        Ndu     slot;groove;furrow
+    -- >xAdyd  >axAdiyd        Ndip    slots;grooves;furrows
+    -- AxAdyd  >axAdiyd        Ndip    slots;grooves;furrows
+
+    HuFCUL                    `noun`    {- Ouxoduwd -}         [ "slot", "groove", "furrow" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a_hAdiyd Ndip" ] -},
+
     -- ;; mixad~ap_1
     -- mxd     mixad~  Napdu   cushion;pillow
 
@@ -3368,6 +3368,14 @@ lexicon = listing "Lexicon's properties"
     -- mxdr    muxad~ar        Nall    anesthetized     [[muxad~ar/ADJ]]
 
     MuFaCCaL                  `adj`     {- muxad~ar -}         [ "drunk", "dopped", "anesthetized" ] ]
+
+ |> "_h d w" <| [
+
+    -- ;; xudayowiy~_1
+    -- xdywy   xudayowiy~      Nall    khedive     [[xudayowiy~/ADJ]]
+    -- xdywy   xidiywiy~       Nall    khedivial     [[xidiywiy~/ADJ]]
+
+    FuCayL |< Iy              `adj`     {- xudayowiy~ -}       [ "khedive", "khedivial" ] ]
 
  |> "_h f '" <| [
 
@@ -5607,7 +5615,12 @@ lexicon = listing "Lexicon's properties"
     -- xwAly   xawAliy N0_Nh   elapsed
     -- xwAl    xawAl   NK      elapsed
 
-    FawACI                    `noun`    {- xawAliy -}          [ "elapsed" ] ]
+    FawACI                    `noun`    {- xawAliy -}          [ "elapsed" ],
+
+    -- ;; xulayowiy~_1
+    -- xlywy   xulayowiy~      N0      Khulaiwi
+
+    FuCayL |< Iy              `adj`     {- xulayowiy~ -}       [ "Khulaiwi" ] ]
 
  |> "_h l y" <| [
 
@@ -8349,6 +8362,20 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oaxowaf -}          [ "more/most fearful" ] ]
 
+ |> "_h w f w" <| [
+
+    -- ;; xuwfuw_1
+    -- xwfw    xuwfw   N0      Cheops
+
+    KuRDU                     `noun`    {- xuwfuw -}           [ "Cheops" ] ]
+
+ |> "_h w f y" <| [
+
+    -- ;; xuwfuw_1
+    -- xwfw    xuwfw   N0      Cheops
+
+    KuRDU                     `noun`    {- xuwfuw -}           [ "Cheops" ] ]
+
  |> "_h w l" <| [
 
     -- ;; xawAliy_1
@@ -8456,7 +8483,12 @@ lexicon = listing "Lexicon's properties"
     -- xwAly   xawAliy N0_Nh   elapsed
     -- xwAl    xawAl   NK      elapsed
 
-    KaRADI                    `noun`    {- xawAliy -}          [ "elapsed" ] ]
+    KaRADI                    `noun`    {- xawAliy -}          [ "elapsed" ],
+
+    -- ;; xuwluw_1
+    -- xwlw    xuwluw  Nprop   Jolo
+
+    KuRDU                     `noun`    {- xuwluw -}           [ "Jolo" ] ]
 
  |> "_h w n" <| [
 
@@ -9698,7 +9730,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- xAxAmiy~ -}         [ "rabbinical" ] ]
 
- |> "_hAfiyiyr" <| [
+ |> "_hAfiyIr" <| [
 
     -- ;; xAfiyiyr_1
     -- xAfyyr  xAfiyiyr        Nprop   Javier
@@ -9712,7 +9744,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- xAmani}iy~ -}       [ "Khamene'i" ] ]
 
- |> "_hAnyuwnis" <| [
+ |> "_hAnyUnis" <| [
 
     -- ;; xAnoyuwnis_1
     -- xAnywns xAnoyuwnis      Nprop   Khanyounis;Khanyunis
@@ -9727,7 +9759,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- xAqAn -}            [ "overlord", "monarch" ] ]
 
- |> "_hAra.siyn" <| [
+ |> "_hAra.sIn" <| [
 
     -- ;; xAraSiyn_1
     -- xArSyn  xAraSiyn        N       zinc
@@ -9754,14 +9786,52 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- xAtAm -}            [ "ring", "seal" ] ]
 
- |> "_hAymiy" <| [
+ |> "_hAymI" <| [
 
     -- ;; xAyomiy_1
     -- xAymy   xAyomiy Nprop   Jaime
 
     Identity                  `noun`    {- xAyomiy -}          [ "Jaime" ] ]
 
- |> "_ha.t.tiyf" <| [
+ |> "_hUdAdAd" <| [
+
+    -- ;; xuwdAdAd_1
+    -- xwdAdAd xuwdAdAd        Nprop   Khodadad
+
+    Identity                  `noun`    {- xuwdAdAd -}         [ "Khodadad" ] ]
+
+ |> "_hUr_hI" <| [
+
+    -- ;; xuwroxiy_1
+    -- xwrxy   xuwroxiy        Nprop   Jorge
+
+    Identity                  `noun`    {- xuwroxiy -}         [ "Jorge" ] ]
+
+ |> "_hUst" <| [
+
+    -- ;; xuwst_1
+    -- xwst    xuwst   N0      Khost
+
+    Identity                  `noun`    {- xuwst -}            [ "Khost" ] ]
+
+ |> "_hUzistAn" <| [
+
+    -- ;; xuwzisotAn_1
+    -- xwzstAn xuwzisotAn      Nprop   Khuzistan
+
+    Identity                  `noun`    {- xuwzisotAn -}       [ "Khuzistan" ],
+
+    -- ;; xuwzisotAniy~_1
+    -- xwzstAny        xuwzisotAniy~   Nall    from/of Khuzistan
+
+    Identity |< Iy            `adj`     {- xuwzisotAniy~ -}    [ "from/of Khuzistan" ],
+
+    -- ;; xuwzisotAniy~_2
+    -- xwzstAny        xuwzisotAniy~   N0      Khuzistani
+
+    Identity |< Iy            `adj`     {- xuwzisotAniy~ -}    [ "Khuzistani" ] ]
+
+ |> "_ha.t.tIf" <| [
 
     -- ;; xaT~iyf_1
     -- xTyf    xaT~iyf Ndu     hook
@@ -9776,7 +9846,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- xalanoj -}          [ "heath" ] ]
 
- |> "_halliyk" <| [
+ |> "_hallIk" <| [
 
     -- ;; xal~iyk_1
     -- xlyk    xal~iyk N       acetic
@@ -9790,12 +9860,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- xamosmA}ap -}       [ "five-hundred" ] ]
 
- |> "_hannuw^sy" <| [
+ |> "_hannU^sI" <| [
 
-    -- ;; xan~uw$y_1
+    -- ;; xan~uw$iy_1
     -- xnw$y   xan~uw$y        N0      Khannouchi
 
-    Identity                  `noun`    {- xan~uw$y -}         [ "Khannouchi" ] ]
+    Identity                  `noun`    {- xan~uw$iy -}        [ "Khannouchi" ] ]
 
  |> "_harman^g" <| [
 
@@ -9804,7 +9874,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- xaromanojiy~ -}     [ "tobacco tester" ] ]
 
- |> "_hawwiyf" <| [
+ |> "_hawwIf" <| [
 
     -- ;; xaw~iyf_1
     -- xwyf    xaw~iyf N       fearful;coward
@@ -9818,7 +9888,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- xayorAllh -}        [ "Khairallah", "Kheirallah", "Khairullah" ] ]
 
- |> "_hayzuwrAn" <| [
+ |> "_hayzUrAn" <| [
 
     -- ;; xayozuwrAn_1
     -- xyzwrAn xayozuwrAn      N       bamboo;reed
@@ -9856,7 +9926,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- xiDam~ -}           [ "vast" ] ]
 
- |> "_hidiyw" <| [
+ |> "_hidIw" <| [
 
     -- ;; xidiyw_1
     -- xdyw    xidiyw  N       khedive
@@ -9887,21 +9957,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- xuDayorA' -}        [ "Paradise" ] ]
 
- |> "_hudaywiyy" <| [
-
-    -- ;; xudayowiy~_1
-    -- xdywy   xudayowiy~      Nall    khedive     [[xudayowiy~/ADJ]]
-    -- xdywy   xidiywiy~       Nall    khedivial     [[xidiywiy~/ADJ]]
-
-    Identity                  `adj`     {- xudayowiy~ -}       [ "khedive", "khedivial" ] ]
-
- |> "_hulaywiyy" <| [
-
-    -- ;; xulayowiy~_1
-    -- xlywy   xulayowiy~      N0      Khulaiwi
-
-    Identity                  `noun`    {- xulayowiy~ -}       [ "Khulaiwi" ] ]
-
  |> "_hulun^gAn" <| [
 
     -- ;; xulunojAn_1
@@ -9909,7 +9964,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- xulunojAn -}        [ "galingale" ] ]
 
- |> "_humayniy" <| [
+ |> "_humaynI" <| [
 
     -- ;; xumayoniy_1
     -- xmyny   xumayoniy       N0      Khomeini
@@ -9941,51 +9996,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- xurAsAniy~ -}       [ "Khurasani" ] ]
 
- |> "_huwdAdAd" <| [
-
-    -- ;; xuwdAdAd_1
-    -- xwdAdAd xuwdAdAd        Nprop   Khodadad
-
-    Identity                  `noun`    {- xuwdAdAd -}         [ "Khodadad" ] ]
-
- |> "_huwfw" <| [
-
-    -- ;; xuwfw_1
-    -- xwfw    xuwfw   N0      Cheops
-
-    Identity                  `noun`    {- xuwfw -}            [ "Cheops" ] ]
-
- |> "_huwr_hiy" <| [
-
-    -- ;; xuwroxiy_1
-    -- xwrxy   xuwroxiy        Nprop   Jorge
-
-    Identity                  `noun`    {- xuwroxiy -}         [ "Jorge" ] ]
-
- |> "_huwst" <| [
-
-    -- ;; xuwst_1
-    -- xwst    xuwst   N0      Khost
-
-    Identity                  `noun`    {- xuwst -}            [ "Khost" ] ]
-
- |> "_huwzistAn" <| [
-
-    -- ;; xuwzisotAn_1
-    -- xwzstAn xuwzisotAn      Nprop   Khuzistan
-
-    Identity                  `noun`    {- xuwzisotAn -}       [ "Khuzistan" ],
-
-    -- ;; xuwzisotAniy~_1
-    -- xwzstAny        xuwzisotAniy~   Nall    from/of Khuzistan
-
-    Identity |< Iy            `adj`     {- xuwzisotAniy~ -}    [ "from/of Khuzistan" ],
-
-    -- ;; xuwzisotAniy~_2
-    -- xwzstAny        xuwzisotAniy~   N0      Khuzistani
-
-    Identity |< Iy            `adj`     {- xuwzisotAniy~ -}    [ "Khuzistani" ] ]
-
  |> "_huza`bal" <| [
 
     -- ;; xuzaEobal_1
@@ -10001,7 +10011,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- xwAn -}             [ "Juan" ] ]
 
- |> "kuwrfisqufuws" <| [
+ |> "kUrfisqufUs" <| [
 
     -- ;; kuwrofisoqufuws_1
     -- kwrfsqfws       kuwrofisoqufuws N       bishop's representative
@@ -10016,7 +10026,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `prep`    {- mAxalA -}           [ "except for" ] ]
 
- |> "ya_h.duwr" <| [
+ |> "ya_h.dUr" <| [
 
     -- ;; yaxoDuwr_1
     -- yxDwr   yaxoDuwr        N       chlorophyll

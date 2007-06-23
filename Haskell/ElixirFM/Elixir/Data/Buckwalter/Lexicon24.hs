@@ -9,44 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'um.huw.d" <| [
-
-    -- ;; >umoHuwDap_1
-    -- >mHwD   >umoHuwD        Napdu   sincere advice
-    -- AmHwD   >umoHuwD        Napdu   sincere advice
-
-    Identity |< aT            `noun`    {- OumoHuwDap -}       [ "sincere advice" ] ]
-
- |> "'um_tuwl" <| [
-
-    -- ;; >umovuwlap_1
-    -- >mvwl   >umovuwl        NapAt   example;lesson;warning
-    -- Amvwl   >umovuwl        NapAt   example;lesson;warning
-    -- >mAvyl  >amAviyl        Ndip    examples;lessons;warnings
-    -- AmAvyl  >amAviyl        Ndip    examples;lessons;warnings
-
-    Identity |< aT            `noun`    {- Oumovuwlap -}       [ "example", "lesson", "warning" ] ]
-
- |> "'umluw.h" <| [
-
-    -- ;; >umoluwHap_1
-    -- >mlwH   >umoluwH        Napdu   joke;anecdote
-    -- AmlwH   >umoluwH        Napdu   joke;anecdote
-    -- >mAlyH  >amAliyH        Ndip    jokes;anecdotes
-    -- AmAlyH  >amAliyH        Ndip    jokes;anecdotes
-
-    Identity |< aT            `noun`    {- OumoluwHap -}       [ "joke", "anecdote" ] ]
-
- |> "'umsiyy" <| [
-
-    -- ;; >umosiy~_1
-    -- >msy    >umosiy~        NapAt   evening;soiree     [[>umosiy~/NOUN]]
-    -- Amsy    >umosiy~        NapAt   evening;soiree     [[>umosiy~/NOUN]]
-    -- >mAsy   >amAsiy~        N0_Nh   evenings;soirees
-    -- AmAsy   >amAsiy~        N0_Nh   evenings;soirees
-
-    Identity                  `noun`    {- Oumosiy~ -}         [ "evening", "soiree" ] ]
-
  |> "imra'" <| [
 
     -- ;; {imora>ap_1
@@ -182,6 +144,18 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACiL
                               `plural`     FawA'iL
                            {- `others`  [ "mawA'id Ndip" ] -} ]
+
+ |> "m ' h" <| [
+
+    -- ;; mAhiy~ap_1
+    -- mAhy    mAhiy~  NapAt   nature;quality     [[mAhiy~/NOUN]]
+
+    FAL |< Iy |< aT           `noun`    {- mAhiy~ap -}         [ "nature", "quality" ],
+
+    -- ;; mAhiy~ap_2
+    -- mAhy    mAhiy~  NapAt   salary;income;pay     [[mAhiy~/NOUN]]
+
+    FAL |< Iy |< aT           `noun`    {- mAhiy~ap -}         [ "salary", "income", "pay" ] ]
 
  |> "m ' l" <| [
 
@@ -938,7 +912,13 @@ lexicon = listing "Lexicon's properties"
     -- mHD     maHoD   N       mere;nothing but
     -- mHD     maHoD   NF      solely;exclusively     [[maHoD/ADV]]
 
-    FaCL                      `adv`     {- maHoD -}            [ "mere", "nothing but", "solely", "exclusively" ] ]
+    FaCL                      `adv`     {- maHoD -}            [ "mere", "nothing but", "solely", "exclusively" ],
+
+    -- ;; >umoHuwDap_1
+    -- >mHwD   >umoHuwD        Napdu   sincere advice
+    -- AmHwD   >umoHuwD        Napdu   sincere advice
+
+    HuFCUL |< aT              `noun`    {- OumoHuwDap -}       [ "sincere advice" ] ]
 
  |> "m .h .h" <| [
 
@@ -3007,6 +2987,16 @@ lexicon = listing "Lexicon's properties"
 
     FuCUL                     `noun`    {- muvuwl -}           [ "appearance", "presentation", "arraignment" ],
 
+    -- ;; >umovuwlap_1
+    -- >mvwl   >umovuwl        NapAt   example;lesson;warning
+    -- Amvwl   >umovuwl        NapAt   example;lesson;warning
+    -- >mAvyl  >amAviyl        Ndip    examples;lessons;warnings
+    -- AmAvyl  >amAviyl        Ndip    examples;lessons;warnings
+
+    HuFCUL |< aT              `noun`    {- Oumovuwlap -}       [ "example", "lesson", "warning" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'amA_tiyl Ndip" ] -},
+
     -- ;; >amoval_1
     -- >mvl    >amoval Nel     exemplary;ideal
     -- Amvl    >amoval Nel     exemplary;ideal
@@ -3560,7 +3550,17 @@ lexicon = listing "Lexicon's properties"
     -- mydA}   miydA}i FW-Wa-i in front of;facing     [[miydA}i/PREP]]
     -- bmydA}  bimiydA}i       FW-Wa-i in front of;facing     [[bimiydA}i/PREP]]
 
-    FICAL |<< "a"             `prep`    {- miydA'a -}          [ "in front of", "facing" ] ]
+    FICAL |<< "a"             `prep`    {- miydA'a -}          [ "in front of", "facing" ],
+
+    -- ;; miydAwiy~_1
+    -- mydAwy  miydAwiy~       N0      Midaoui;Midawi
+
+    MICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ],
+
+    -- ;; miydAwiy~_1
+    -- mydAwy  miydAwiy~       N0      Midaoui;Midawi
+
+    FICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ] ]
 
  |> "m d ' n" <| [
 
@@ -4931,6 +4931,12 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCiL                  `noun`    {- mumotali} -}        [ "full", "replete" ],
 
+    -- ;; malAwiy~_1
+    -- mlAwy   malAwiy~        Nall    Malawian     [[malAwiy~/NOUN]]
+    -- mlAwy   malAwiy~        Nall    Malawian     [[malAwiy~/ADJ]]
+
+    FaCAL |< Iy               `adj`     {- malAwiy~ -}         [ "Malawian" ],
+
     -- ;; <imolA'_2
     -- <mlA'   <imolA' N0_Nh   dictation;orthography
     -- AmlA'   <imolA' N0_Nh   dictation;orthography
@@ -5088,6 +5094,16 @@ lexicon = listing "Lexicon's properties"
     HaFCaL                    `noun`    {- OamolaH -}          [ "saline", "salty" ]
                               `plural`     FaCLA'
                            {- `others`  [ "mal.hA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; >umoluwHap_1
+    -- >mlwH   >umoluwH        Napdu   joke;anecdote
+    -- AmlwH   >umoluwH        Napdu   joke;anecdote
+    -- >mAlyH  >amAliyH        Ndip    jokes;anecdotes
+    -- AmAlyH  >amAliyH        Ndip    jokes;anecdotes
+
+    HuFCUL |< aT              `noun`    {- OumoluwHap -}       [ "joke", "anecdote" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'amAliy.h Ndip" ] -},
 
     -- ;; mamolaHap_1
     -- mmlH    mamolaH Napdu   saltworks;salina
@@ -5995,13 +6011,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; malAwiy_1
     -- mlAwy   malAwiy N0      Malawi
 
-    KaRADI                    `noun`    {- malAwiy -}          [ "Malawi" ],
-
-    -- ;; malAwiy~_1
-    -- mlAwy   malAwiy~        Nall    Malawian     [[malAwiy~/NOUN]]
-    -- mlAwy   malAwiy~        Nall    Malawian     [[malAwiy~/ADJ]]
-
-    KaRADIS                   `adj`     {- malAwiy~ -}         [ "Malawian" ] ]
+    KaRADI                    `noun`    {- malAwiy -}          [ "Malawi" ] ]
 
  |> "m l y" <| [
 
@@ -6023,6 +6033,12 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- milAyap -}          [ "bed sheet" ]
                               `plural`     FuCA' |< At,
+
+    -- ;; malAwiy~_1
+    -- mlAwy   malAwiy~        Nall    Malawian     [[malAwiy~/NOUN]]
+    -- mlAwy   malAwiy~        Nall    Malawian     [[malAwiy~/ADJ]]
+
+    FaCA' |< Iy               `adj`     {- malAwiy~ -}         [ "Malawian" ],
 
     -- ;; maliy~_1
     -- mly     maliy~  N       long time
@@ -6410,13 +6426,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "m n w" <| [
 
-    -- ;; mAnawiy~_1
-    -- mAnwy   mAnawiy~        Nall    Manichaean     [[mAnawiy~/NOUN]]
-    -- mAnwy   mAnawiy~        Nall    Manichaean     [[mAnawiy~/ADJ]]
-    -- mAnwy   mAnawiy~        Nap     Manichaeism     [[mAnawiy~/NOUN]]
-
-    FACY |< Iy                `adj`     {- mAnawiy~ -}         [ "Manichaean", "Manichaeism" ],
-
     -- ;; manA-u_1
     -- mnw     manaw   PV_Atn  afflict;put to the test
     -- mnw     monuw   IV_0hAnn        afflict;put to the test
@@ -6557,6 +6566,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "m n y" <| [
 
+    -- ;; mAnawiy~_1
+    -- mAnwy   mAnawiy~        Nall    Manichaean     [[mAnawiy~/NOUN]]
+    -- mAnwy   mAnawiy~        Nall    Manichaean     [[mAnawiy~/ADJ]]
+    -- mAnwy   mAnawiy~        Nap     Manichaeism     [[mAnawiy~/NOUN]]
+
+    FACY |< Iy                `adj`     {- mAnawiy~ -}         [ "Manichaean", "Manichaeism" ],
+
     -- ;; min_1
     -- mn      min     FW-Wa   from     [[min/PREP]]
     -- mn      min     FW-Wa-n from     [[min/PREP]]
@@ -6593,9 +6609,10 @@ lexicon = listing "Lexicon's properties"
     -- AmAn    >amAn   NK      wishes;desires;aspirations
 
     FuCL |< aT                `noun`    {- munoyap -}          [ "wish", "desire", "aspiration" ]
+                              `plural`     HuFCIL
                               `plural`     HaFACI
                               `plural`     FiCL |< aT
-                           {- `others`  [ "'amAniy N0_Nh" ] -},
+                           {- `others`  [ "'umniyy Napdu", "'amAniy N0_Nh" ] -},
 
     -- ;; tamoniyap_1
     -- tmny    tamoniy Nap     ejaculation
@@ -6632,6 +6649,20 @@ lexicon = listing "Lexicon's properties"
     -- mmtqE   mumotaqaE       N       pale;pallid     [[mumotaqaE/ADJ]]
 
     MuFtaCaL                  `adj`     {- mumotaqaE -}        [ "pale", "pallid" ] ]
+
+ |> "m q d n" <| [
+
+    -- ;; maqoduwniy~_1
+    -- mqdwny  maqoduwniy~     Nall    Macedonian     [[maqoduwniy~/NOUN]]
+    -- mkdwny  makoduwniy~     Nall    Macedonian     [[makoduwniy~/NOUN]]
+
+    KaRDUS |< Iy              `noun`    {- maqoduwniy~ -}      [ "Macedonian" ],
+
+    -- ;; maqoduwniy~_2
+    -- mqdwny  maqoduwniy~     Nall    Macedonian     [[maqoduwniy~/ADJ]]
+    -- mkdwny  makoduwniy~     Nall    Macedonian     [[makoduwniy~/ADJ]]
+
+    KaRDUS |< Iy              `adj`     {- maqoduwniy~ -}      [ "Macedonian" ] ]
 
  |> "m q l" <| [
 
@@ -7705,7 +7736,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; mamoruwr_1
     -- mmrwr   mamoruwr        Nall    bad-tempered;irritable     [[mamoruwr/ADJ]]
 
-    MaFCUL                    `adj`     {- mamoruwr -}         [ "bad-tempered", "irritable" ] ]
+    MaFCUL                    `adj`     {- mamoruwr -}         [ "bad-tempered", "irritable" ],
+
+    -- ;; miriy~_1
+    -- mry     miriy~  N0      Meri;Miri
+
+    FiL |< Iy                 `adj`     {- miriy~ -}           [ "Meri", "Miri" ] ]
 
  |> "m r s" <| [
 
@@ -7927,7 +7963,12 @@ lexicon = listing "Lexicon's properties"
     -- mrA&    mirA&   Nh      quarrel;dispute
     -- mrA}    mirA}   Nhy     quarrel;dispute
 
-    FiCA'                     `noun`    {- mirA' -}            [ "quarrel", "dispute" ] ]
+    FiCA'                     `noun`    {- mirA' -}            [ "quarrel", "dispute" ],
+
+    -- ;; miriy~_1
+    -- mry     miriy~  N0      Meri;Miri
+
+    FiC |< Iy                 `adj`     {- miriy~ -}           [ "Meri", "Miri" ] ]
 
  |> "m r y m" <| [
 
@@ -7965,7 +8006,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; masA}iy~ap_1
     -- msA}yp  masA}iy~ap      N0      Masaia;Masaya
 
-    FaCAL |< Iy |< aT         `noun`    {- masA}iy~ap -}       [ "Masaia", "Masaya" ] ]
+    FaCAL |< Iy |< aT         `noun`    {- masA}iy~ap -}       [ "Masaia", "Masaya" ],
+
+    -- ;; muwsAwiy~_1
+    -- mwsAwy  muwsAwiy~       N0      Moussaoui
+
+    FUCAL |< Iy               `adj`     {- muwsAwiy~ -}        [ "Moussaoui" ] ]
 
  |> "m s .h" <| [
 
@@ -8117,6 +8163,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "m s _h" <| [
 
+    -- ;; mAsuwxiy~_1
+    -- mAswxy  mAsuwxiy~       Nall    masochist     [[mAsuwxiy~/ADJ]]
+    -- mAswxy  mAsuwxiy~       Nap     masochism     [[mAsuwxiy~/NOUN]]
+
+    FACUL |< Iy               `adj`     {- mAsuwxiy~ -}        [ "masochist", "masochism" ],
+
     -- ;; masax-a_1
     -- msx     masax   PV      transform;falsify
     -- msx     mosax   IV      transform;falsify
@@ -8197,6 +8249,18 @@ lexicon = listing "Lexicon's properties"
     FUCAL                     `noun`    {- muwsAd -}           [ "Mossad" ] ]
 
  |> "m s k" <| [
+
+    -- ;; mAsuwkiy~_1
+    -- mAswky  mAsuwkiy~       Nall    masochist     [[mAsuwkiy~/ADJ]]
+    -- mAsw$y  mAsuw$iy~       Nall    masochist     [[mAsuw$iy~/ADJ]]
+
+    FACUL |< Iy               `adj`     {- mAsuwkiy~ -}        [ "masochist" ],
+
+    -- ;; mAsuwkiy~ap_1
+    -- mAswky  mAsuwkiy~       Nap     masochism     [[mAsuwkiy~/NOUN]]
+    -- mAsw$y  mAsuw$iy~       Nap     masochism     [[mAsuw$iy~/NOUN]]
+
+    FACUL |< Iy |< aT         `noun`    {- mAsuwkiy~ap -}      [ "masochism" ],
 
     -- ;; masak-u_1
     -- msk     masak   PV      seize;hold;catch;grab
@@ -8356,6 +8420,14 @@ lexicon = listing "Lexicon's properties"
 
     MustaFCiL                 `adj`     {- musotamosik -}      [ "composed", "calm and collected" ] ]
 
+ |> "m s k f" <| [
+
+    -- ;; musokuwfiy~_1
+    -- mskwfy  musokuwfiy~     Nall    Muscovite     [[musokuwfiy~/NOUN]]
+    -- mskwfy  musokuwfiy~     Nall    Muscovite     [[musokuwfiy~/ADJ]]
+
+    KuRDUS |< Iy              `adj`     {- musokuwfiy~ -}      [ "Muscovite" ] ]
+
  |> "m s k n" <| [
 
     -- ;; tamasokan_1
@@ -8384,6 +8456,13 @@ lexicon = listing "Lexicon's properties"
 
     KuRDU                     `noun`    {- musokuw -}          [ "Moscow" ] ]
 
+ |> "m s k y" <| [
+
+    -- ;; musokuw_1
+    -- mskw    musokuw N0      Moscow
+
+    KuRDU                     `noun`    {- musokuw -}          [ "Moscow" ] ]
+
  |> "m s m r" <| [
 
     -- ;; masomar_1
@@ -8397,7 +8476,18 @@ lexicon = listing "Lexicon's properties"
     -- ;; mAsuwn_1
     -- mAswn   mAsuwn  N0      Freemason
 
-    FACUL                     `noun`    {- mAsuwn -}           [ "Freemason" ] ]
+    FACUL                     `noun`    {- mAsuwn -}           [ "Freemason" ],
+
+    -- ;; mAsuwniy~_1
+    -- mAswny  mAsuwniy~       Nall    Freemason;Masonic     [[mAsuwniy~/NOUN]]
+    -- mAswny  mAsuwniy~       Nall    Freemason;Masonic     [[mAsuwniy~/ADJ]]
+
+    FACUL |< Iy               `adj`     {- mAsuwniy~ -}        [ "Freemason", "Masonic" ],
+
+    -- ;; mAsuwniy~ap_1
+    -- mAswny  mAsuwniy~       Nap     Freemasonry     [[mAsuwniy~/NOUN]]
+
+    FACUL |< Iy |< aT         `noun`    {- mAsuwniy~ap -}      [ "Freemasonry" ] ]
 
  |> "m s r" <| [
 
@@ -8593,6 +8683,17 @@ lexicon = listing "Lexicon's properties"
 
  |> "m s y" <| [
 
+    -- ;; >umosiy~_1
+    -- >msy    >umosiy~        NapAt   evening;soiree     [[>umosiy~/NOUN]]
+    -- Amsy    >umosiy~        NapAt   evening;soiree     [[>umosiy~/NOUN]]
+    -- >mAsy   >amAsiy~        N0_Nh   evenings;soirees
+    -- AmAsy   >amAsiy~        N0_Nh   evenings;soirees
+
+    HuFCIL                    `noun`    {- Oumosiy~ -}         [ "evening", "soiree" ]
+                              `plural`     HaFACIL
+                              `plural`     HuFCIL |< At
+                           {- `others`  [ "'amAsiyy N0_Nh" ] -},
+
     -- ;; mumosiy_1
     -- mmsy    mumosiy N0F_Nh  spending the evening
     -- mms     mumos   NK      spending the evening
@@ -8614,7 +8715,27 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `verb`    {- masaY-i -}          [ "make lean", "emaciate" ]
                               `imperf`     FCI
-                              `imperf`     FCY ]
+                              `imperf`     FCY,
+
+    -- ;; muwsaY_1
+    -- mwsY    muwsaY  Nprop   Mousa;Moussa
+
+    MUCY                      `noun`    {- muwsaY -}           [ "Mousa", "Moussa" ],
+
+    -- ;; muwsaY_2
+    -- mwsY    muwsaY  Nprop   Moses
+
+    MUCY                      `noun`    {- muwsaY -}           [ "Moses" ],
+
+    -- ;; muwsawiy~_1
+    -- mwswy   muwsawiy~       N0      Moussaoui
+
+    MUCY |< Iy                `adj`     {- muwsawiy~ -}        [ "Moussaoui" ],
+
+    -- ;; muwsawiy~_2
+    -- mwswy   muwsawiy~       N-ap    Mosaic;Moses     [[muwsawiy~/ADJ]]
+
+    MUCY |< Iy                `adj`     {- muwsawiy~ -}        [ "Mosaic", "Moses" ] ]
 
  |> "m t .h" <| [
 
@@ -8981,6 +9102,13 @@ lexicon = listing "Lexicon's properties"
 
     KuRDI                     `noun`    {- muw$iy -}           [ "Moshe" ] ]
 
+ |> "m w b l" <| [
+
+    -- ;; muwbiyl_1
+    -- mwbyl   mwbyl   Nprop   Mobil
+
+    KuRDIS                    `noun`    {- muwbiyl -}          [ "Mobil" ] ]
+
  |> "m w d" <| [
 
     -- ;; muwdap_1
@@ -9286,6 +9414,35 @@ lexicon = listing "Lexicon's properties"
     -- mwrw    muwruw  Nprop   Moro
 
     KuRDU                     `noun`    {- muwruw -}           [ "Moro" ] ]
+
+ |> "m w s" <| [
+
+    -- ;; muwsaY_1
+    -- mwsY    muwsaY  Nprop   Mousa;Moussa
+
+    FULY                      `noun`    {- muwsaY -}           [ "Mousa", "Moussa" ],
+
+    -- ;; muwsaY_2
+    -- mwsY    muwsaY  Nprop   Moses
+
+    FULY                      `noun`    {- muwsaY -}           [ "Moses" ],
+
+    -- ;; muwsawiy~_1
+    -- mwswy   muwsawiy~       N0      Moussaoui
+
+    FULY |< Iy                `adj`     {- muwsawiy~ -}        [ "Moussaoui" ],
+
+    -- ;; muwsawiy~_2
+    -- mwswy   muwsawiy~       N-ap    Mosaic;Moses     [[muwsawiy~/ADJ]]
+
+    FULY |< Iy                `adj`     {- muwsawiy~ -}        [ "Mosaic", "Moses" ] ]
+
+ |> "m w s '" <| [
+
+    -- ;; muwsAwiy~_1
+    -- mwsAwy  muwsAwiy~       N0      Moussaoui
+
+    KuRDAS |< Iy              `adj`     {- muwsAwiy~ -}        [ "Moussaoui" ] ]
 
  |> "m w s d" <| [
 
@@ -9760,7 +9917,12 @@ lexicon = listing "Lexicon's properties"
     -- mydA}   miydA}i FW-Wa-i in front of;facing     [[miydA}i/PREP]]
     -- bmydA}  bimiydA}i       FW-Wa-i in front of;facing     [[bimiydA}i/PREP]]
 
-    KiRDAS |<< "a"            `prep`    {- miydA'a -}          [ "in front of", "facing" ] ]
+    KiRDAS |<< "a"            `prep`    {- miydA'a -}          [ "in front of", "facing" ],
+
+    -- ;; miydAwiy~_1
+    -- mydAwy  miydAwiy~       N0      Midaoui;Midawi
+
+    KiRDAS |< Iy              `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ] ]
 
  |> "m y d l" <| [
 
@@ -10573,28 +10735,28 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mA -}               [ "how...!" ] ]
 
- |> "mA.gAly" <| [
+ |> "mA.gAlI" <| [
 
-    -- ;; mAgAly_1
+    -- ;; mAgAliy_1
     -- mAgAly  mAgAly  N0      Magali
 
-    Identity                  `noun`    {- mAgAly -}           [ "Magali" ] ]
+    Identity                  `noun`    {- mAgAliy -}          [ "Magali" ] ]
 
- |> "mA^gistiyr" <| [
-
-    -- ;; mAjisotiyr_1
-    -- mAjstyr mAjisotiyr      N       master's degree
-
-    Identity                  `noun`    {- mAjisotiyr -}       [ "master's degree" ] ]
-
- |> "mA^giyk" <| [
+ |> "mA^gIk" <| [
 
     -- ;; mAjiyk_1
     -- mAjyk   mAjiyk  Nprop   Magic
 
     Identity                  `noun`    {- mAjiyk -}           [ "Magic" ] ]
 
- |> "mA^sAkuws" <| [
+ |> "mA^gistIr" <| [
+
+    -- ;; mAjisotiyr_1
+    -- mAjstyr mAjisotiyr      N       master's degree
+
+    Identity                  `noun`    {- mAjisotiyr -}       [ "master's degree" ] ]
+
+ |> "mA^sAkUs" <| [
 
     -- ;; mA$Akuws_1
     -- mA$Akws mA$Akuws        N0      Machakos
@@ -10616,14 +10778,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mAxolAs -}          [ "Machlas" ] ]
 
- |> "mA_ht^sAyyf" <| [
+ |> "mA_ht^sAyIf" <| [
 
-    -- ;; mAxt$Ayyf_1
+    -- ;; mAxt$Ayiyf_1
     -- mAxt$Ayyf       mAxt$Ayyf       Nprop   Makhchayev
 
-    Identity                  `noun`    {- mAxt$Ayyf -}        [ "Makhchayev" ] ]
+    Identity                  `noun`    {- mAxt$Ayiyf -}       [ "Makhchayev" ] ]
 
- |> "mA`uwn^g" <| [
+ |> "mA`Un^g" <| [
 
     -- ;; mAEuwnojiy~_1
     -- mAEwnjy mAEuwnojiy~     Ndu     boatman;bargeman
@@ -10631,14 +10793,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `noun`    {- mAEuwnojiy~ -}      [ "boatman", "bargeman", "boatmen", "bargemen" ] ]
 
- |> "mAdAn^giyt" <| [
+ |> "mAdAn^gIt" <| [
 
     -- ;; mAdAnojiyt_1
     -- mAdAnjyt        mAdAnojiyt      Nprop   Madanjeet
 
     Identity                  `noun`    {- mAdAnojiyt -}       [ "Madanjeet" ] ]
 
- |> "mAdliyn" <| [
+ |> "mAdlIn" <| [
 
     -- ;; mAdoliyn_1
     -- mAdlyn  mAdoliyn        Nprop   Madeleine
@@ -10652,19 +10814,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mAfiyA -}           [ "mafia" ] ]
 
- |> "mAhiyy" <| [
+ |> "mAkUnI" <| [
 
-    -- ;; mAhiy~ap_1
-    -- mAhy    mAhiy~  NapAt   nature;quality     [[mAhiy~/NOUN]]
+    -- ;; mAkuwniy_1
+    -- mAkwny  mAkuwniy        Nprop   Makoni
 
-    Identity |< aT            `noun`    {- mAhiy~ap -}         [ "nature", "quality" ],
+    Identity                  `noun`    {- mAkuwniy -}         [ "Makoni" ] ]
 
-    -- ;; mAhiy~ap_2
-    -- mAhy    mAhiy~  NapAt   salary;income;pay     [[mAhiy~/NOUN]]
-
-    Identity |< aT            `noun`    {- mAhiy~ap -}         [ "salary", "income", "pay" ] ]
-
- |> "mAkduwnAld" <| [
+ |> "mAkdUnAld" <| [
 
     -- ;; mAkoduwnAlod_1
     -- mAkdwnAld       mAkoduwnAlod    Nprop   McDonald
@@ -10672,6 +10829,13 @@ lexicon = listing "Lexicon's properties"
     -- mAkdwnAlds      mAkoduwnAlods   Nprop   McDonald's
 
     Identity                  `noun`    {- mAkoduwnAlod -}     [ "McDonald", "McDonald's" ] ]
+
+ |> "mAkintU^s" <| [
+
+    -- ;; mAkintuw$_1
+    -- mAkntw$ mAkntw$ Nprop   Macintosh
+
+    Identity                  `noun`    {- mAkintuw$ -}        [ "Macintosh" ] ]
 
  |> "mAkiyA^g" <| [
 
@@ -10681,26 +10845,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mAkiyAj -}          [ "facial make-up" ] ]
 
- |> "mAkmAhuwn" <| [
+ |> "mAkmAhUn" <| [
 
     -- ;; mAkomAhuwn_1
     -- mAkmAhwn        mAkomAhuwn      Nprop   McMahon
 
     Identity                  `noun`    {- mAkomAhuwn -}       [ "McMahon" ] ]
-
- |> "mAkntw^s" <| [
-
-    -- ;; mAkntw$_1
-    -- mAkntw$ mAkntw$ Nprop   Macintosh
-
-    Identity                  `noun`    {- mAkntw$ -}          [ "Macintosh" ] ]
-
- |> "mAkuwniy" <| [
-
-    -- ;; mAkuwniy_1
-    -- mAkwny  mAkuwniy        Nprop   Makoni
-
-    Identity                  `noun`    {- mAkuwniy -}         [ "Makoni" ] ]
 
  |> "mAl.tA" <| [
 
@@ -10718,36 +10868,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mAlAjA$ -}          [ "Madagascar" ] ]
 
- |> "mAlAwiy" <| [
+ |> "mAlAwI" <| [
 
     -- ;; mAlAwiy_1
     -- mAlAwy  mAlAwiy N0      Malawi
 
     Identity                  `noun`    {- mAlAwiy -}          [ "Malawi" ] ]
 
- |> "mAlan_huwliyA" <| [
-
-    -- ;; mAlanoxuwliyA_1
-    -- mAlnxwlyA       mAlanoxuwliyA   N0      melancholia
-    -- mAlyxwlyA       mAliyxuwliyA    N0      melancholia
-
-    Identity                  `noun`    {- mAlanoxuwliyA -}    [ "melancholia" ] ]
-
- |> "mAliys" <| [
+ |> "mAlIs" <| [
 
     -- ;; mAliys_1
     -- mAlys   mAliys  Nprop   Malisse
 
     Identity                  `noun`    {- mAliys -}           [ "Malisse" ] ]
 
- |> "mAliyziyA" <| [
-
-    -- ;; mAliyziyA_1
-    -- mAlyzyA mAliyziyA       N0      Malaysia
-
-    Identity                  `noun`    {- mAliyziyA -}        [ "Malaysia" ] ]
-
- |> "mAliyziyy" <| [
+ |> "mAlIzIy" <| [
 
     -- ;; mAliyziy~_1
     -- mAlyzy  mAliyziy~       Nall    Malaysian     [[mAliyziy~/NOUN]]
@@ -10755,42 +10890,115 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `adj`     {- mAliyziy~ -}        [ "Malaysian" ] ]
 
- |> "mAlkuwm" <| [
+ |> "mAlIziyA" <| [
+
+    -- ;; mAliyziyA_1
+    -- mAlyzyA mAliyziyA       N0      Malaysia
+
+    Identity                  `noun`    {- mAliyziyA -}        [ "Malaysia" ] ]
+
+ |> "mAlan_hUliyA" <| [
+
+    -- ;; mAlanoxuwliyA_1
+    -- mAlnxwlyA       mAlanoxuwliyA   N0      melancholia
+    -- mAlyxwlyA       mAliyxuwliyA    N0      melancholia
+
+    Identity                  `noun`    {- mAlanoxuwliyA -}    [ "melancholia" ] ]
+
+ |> "mAlkUm" <| [
 
     -- ;; mAlokuwm_1
     -- mAlkwm  mAlokuwm        Nprop   Malcolm
 
     Identity                  `noun`    {- mAlokuwm -}         [ "Malcolm" ] ]
 
- |> "mAmiyyt" <| [
-
-    -- ;; mAmiyyt_1
-    -- mAmyyt  mAmiyyt Nprop   Mamiit
-
-    Identity                  `noun`    {- mAmiyyt -}          [ "Mamiit" ] ]
-
- |> "mAmuw_t" <| [
+ |> "mAmU_t" <| [
 
     -- ;; mAmuwv_1
     -- mAmwv   mAmuwv  N       mammoth
 
     Identity                  `noun`    {- mAmuwv -}           [ "mammoth" ] ]
 
- |> "mAn^guw" <| [
+ |> "mAmiyIt" <| [
+
+    -- ;; mAmiyiyt_1
+    -- mAmyyt  mAmiyyt Nprop   Mamiit
+
+    Identity                  `noun`    {- mAmiyiyt -}         [ "Mamiit" ] ]
+
+ |> "mAnIfAtUr" <| [
+
+    -- ;; mAniyfAtuwrap_1
+    -- mAnyfAtwr       mAniyfAtuwr     Nap     manufactured goods;textiles
+
+    Identity |< aT            `noun`    {- mAniyfAtuwrap -}    [ "manufactured goods", "textiles" ] ]
+
+ |> "mAnIfistU" <| [
+
+    -- ;; mAniyfisotuw_1
+    -- mAnyfstw        mAniyfisotuw    N0      manifesto
+
+    Identity                  `noun`    {- mAniyfisotuw -}     [ "manifesto" ] ]
+
+ |> "mAnIkAn" <| [
+
+    -- ;; mAniykAn_1
+    -- mAnykAn mAniykAn        N/At    mannequin
+    -- mAnwkAn mAnuwkAn        N/At    mannequin
+
+    Identity                  `noun`    {- mAniykAn -}         [ "mannequin" ] ]
+
+ |> "mAnIkIr" <| [
+
+    -- ;; mAniykiyr_1
+    -- mAnykyr mAniykiyr       N0      manicure
+
+    Identity                  `noun`    {- mAniykiyr -}        [ "manicure" ] ]
+
+ |> "mAnIl" <| [
+
+    -- ;; mAniyliy~_1
+    -- mAnyly  mAniyliy~       Nall    Manilan     [[mAniyliy~/NOUN]]
+    -- mAnyly  mAniyliy~       Nall    Manilan     [[mAniyliy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- mAniyliy~ -}        [ "Manilan" ] ]
+
+ |> "mAnIlA" <| [
+
+    -- ;; mAniylA_1
+    -- mAnylA  mAniylA N0      Manila
+
+    Identity                  `noun`    {- mAniylA -}          [ "Manila" ] ]
+
+ |> "mAnU^sir" <| [
+
+    -- ;; mAnuw$ir_1
+    -- mAnw$r  mAnuw$ir        Nprop   Manusher
+
+    Identity                  `noun`    {- mAnuw$ir -}         [ "Manusher" ] ]
+
+ |> "mAnUliyA" <| [
+
+    -- ;; mAnuwliyA_1
+    -- mAnwlyA mAnuwliyA       N0      magnolia
+
+    Identity                  `noun`    {- mAnuwliyA -}        [ "magnolia" ] ]
+
+ |> "mAn^gU" <| [
 
     -- ;; mAnojuw_1
     -- mAnjw   mAnojuw N0      mango
 
     Identity                  `noun`    {- mAnojuw -}          [ "mango" ] ]
 
- |> "mAn^guwst" <| [
+ |> "mAn^gUst" <| [
 
     -- ;; mAnojuwst_1
     -- mAnjwst mAnojuwst       N0      mongoose
 
     Identity                  `noun`    {- mAnojuwst -}        [ "mongoose" ] ]
 
- |> "mAn^guwt" <| [
+ |> "mAn^gUt" <| [
 
     -- ;; mAnojuwt_1
     -- mAnjwt  mAnojuwt        Nprop   Mangut
@@ -10811,7 +11019,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mAnodAlA -}         [ "Mandala" ] ]
 
- |> "mAndiylA" <| [
+ |> "mAndIlA" <| [
 
     -- ;; mAnodiylA_1
     -- mAndylA mAnodiylA       Nprop   Mandela
@@ -10825,72 +11033,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mAnohAtan -}        [ "Manhattan" ] ]
 
- |> "mAniyfAtuwr" <| [
-
-    -- ;; mAniyfAtuwrap_1
-    -- mAnyfAtwr       mAniyfAtuwr     Nap     manufactured goods;textiles
-
-    Identity |< aT            `noun`    {- mAniyfAtuwrap -}    [ "manufactured goods", "textiles" ] ]
-
- |> "mAniyfistuw" <| [
-
-    -- ;; mAniyfisotuw_1
-    -- mAnyfstw        mAniyfisotuw    N0      manifesto
-
-    Identity                  `noun`    {- mAniyfisotuw -}     [ "manifesto" ] ]
-
- |> "mAniykAn" <| [
-
-    -- ;; mAniykAn_1
-    -- mAnykAn mAniykAn        N/At    mannequin
-    -- mAnwkAn mAnuwkAn        N/At    mannequin
-
-    Identity                  `noun`    {- mAniykAn -}         [ "mannequin" ] ]
-
- |> "mAniykiyr" <| [
-
-    -- ;; mAniykiyr_1
-    -- mAnykyr mAniykiyr       N0      manicure
-
-    Identity                  `noun`    {- mAniykiyr -}        [ "manicure" ] ]
-
- |> "mAniylA" <| [
-
-    -- ;; mAniylA_1
-    -- mAnylA  mAniylA N0      Manila
-
-    Identity                  `noun`    {- mAniylA -}          [ "Manila" ] ]
-
- |> "mAniyliyy" <| [
-
-    -- ;; mAniyliy~_1
-    -- mAnyly  mAniyliy~       Nall    Manilan     [[mAniyliy~/NOUN]]
-    -- mAnyly  mAniyliy~       Nall    Manilan     [[mAniyliy~/ADJ]]
-
-    Identity                  `adj`     {- mAniyliy~ -}        [ "Manilan" ] ]
-
- |> "mAnuw^sir" <| [
-
-    -- ;; mAnuw$ir_1
-    -- mAnw$r  mAnuw$ir        Nprop   Manusher
-
-    Identity                  `noun`    {- mAnuw$ir -}         [ "Manusher" ] ]
-
- |> "mAnuwiyl" <| [
+ |> "mAnuwIl" <| [
 
     -- ;; mAnuwiyl_1
     -- mAnwyl  mAnuwiyl        Nprop   Manuel
 
     Identity                  `noun`    {- mAnuwiyl -}         [ "Manuel" ] ]
 
- |> "mAnuwliyA" <| [
-
-    -- ;; mAnuwliyA_1
-    -- mAnwlyA mAnuwliyA       N0      magnolia
-
-    Identity                  `noun`    {- mAnuwliyA -}        [ "magnolia" ] ]
-
- |> "mArA_tuwn" <| [
+ |> "mArA_tUn" <| [
 
     -- ;; mArAvuwn_1
     -- mArAvwn mArAvuwn        N0      Marathon
@@ -10902,19 +11052,33 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mArAvuwn -}         [ "marathon" ] ]
 
- |> "mArAdwnA" <| [
+ |> "mArAdUnA" <| [
 
-    -- ;; mArAdwnA_1
+    -- ;; mArAduwnA_1
     -- mArAdwnA        mArAdwnA        Nprop   Maradona
 
-    Identity                  `noun`    {- mArAdwnA -}         [ "Maradona" ] ]
+    Identity                  `noun`    {- mArAduwnA -}        [ "Maradona" ] ]
 
- |> "mArAtsiynA" <| [
+ |> "mArAtsInA" <| [
 
     -- ;; mArAtsiynA_1
     -- mArAtsynA       mArAtsiynA      Nprop   Marazzina
 
     Identity                  `noun`    {- mArAtsiynA -}       [ "Marazzina" ] ]
+
+ |> "mArI^guwAnA" <| [
+
+    -- ;; mAriyjuwAnA_1
+    -- mAryjwAnA       mAriyjuwAnA     N0      marijuana
+
+    Identity                  `noun`    {- mAriyjuwAnA -}      [ "marijuana" ] ]
+
+ |> "mArInz" <| [
+
+    -- ;; mAriynz_1
+    -- mArynz  mAriynz N0      Marines
+
+    Identity                  `noun`    {- mAriynz -}          [ "Marines" ] ]
 
  |> "mAri^sAl" <| [
 
@@ -10942,26 +11106,38 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mAriyA -}           [ "Maria" ] ]
 
- |> "mAriyAnuw" <| [
+ |> "mAriyAnU" <| [
 
     -- ;; mAriyAnuw_1
     -- mAryAnw mAriyAnuw       Nprop   Mariano
 
     Identity                  `noun`    {- mAriyAnuw -}        [ "Mariano" ] ]
 
- |> "mAriy^guwAnA" <| [
+ |> "mAriyU" <| [
 
-    -- ;; mAriyjuwAnA_1
-    -- mAryjwAnA       mAriyjuwAnA     N0      marijuana
+    -- ;; mAriyuw_1
+    -- mAryw   mAryw   Nprop   Mario
 
-    Identity                  `noun`    {- mAriyjuwAnA -}      [ "marijuana" ] ]
+    Identity                  `noun`    {- mAriyuw -}          [ "Mario" ] ]
 
- |> "mAriynz" <| [
+ |> "mArkUfIt^s" <| [
 
-    -- ;; mAriynz_1
-    -- mArynz  mAriynz N0      Marines
+    -- ;; mArokuwfiyt$_1
+    -- mArkwfyt$       mArokuwfiyt$    Nprop   Markovic
 
-    Identity                  `noun`    {- mAriynz -}          [ "Marines" ] ]
+    Identity                  `noun`    {- mArokuwfiyt$ -}     [ "Markovic" ] ]
+
+ |> "mArkUs" <| [
+
+    -- ;; mArkuws_1
+    -- mArkws  mArkws  Nprop   Marcos
+
+    Identity                  `noun`    {- mArkuws -}          [ "Marcos" ],
+
+    -- ;; mArkuws_2
+    -- mArkws  mArkws  Nprop   Markus
+
+    Identity                  `noun`    {- mArkuws -}          [ "Markus" ] ]
 
  |> "mArkis" <| [
 
@@ -10983,24 +11159,26 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mArks -}            [ "Marx" ] ]
 
- |> "mArkuwfiyt^s" <| [
+ |> "mArtIn" <| [
 
-    -- ;; mArokuwfiyt$_1
-    -- mArkwfyt$       mArokuwfiyt$    Nprop   Markovic
+    -- ;; mArotiyn_1
+    -- mArtyn  mArotiyn        N0      Martin
 
-    Identity                  `noun`    {- mArokuwfiyt$ -}     [ "Markovic" ] ]
+    Identity                  `noun`    {- mArotiyn -}         [ "Martin" ] ]
 
- |> "mArkws" <| [
+ |> "mArtInA" <| [
 
-    -- ;; mArkws_1
-    -- mArkws  mArkws  Nprop   Marcos
+    -- ;; mArotiynA_1
+    -- mArtynA mArotiynA       N0      Martina
 
-    Identity                  `noun`    {- mArkws -}           [ "Marcos" ],
+    Identity                  `noun`    {- mArotiynA -}        [ "Martina" ] ]
 
-    -- ;; mArkws_2
-    -- mArkws  mArkws  Nprop   Markus
+ |> "mArtInIz" <| [
 
-    Identity                  `noun`    {- mArkws -}           [ "Markus" ] ]
+    -- ;; mArotiyniyz_1
+    -- mArtynyz        mArotiyniyz     N0      Martinez
+
+    Identity                  `noun`    {- mArotiyniyz -}      [ "Martinez" ] ]
 
  |> "mArtin" <| [
 
@@ -11009,35 +11187,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mArotin -}          [ "Martin" ] ]
 
- |> "mArtiyn" <| [
-
-    -- ;; mArotiyn_1
-    -- mArtyn  mArotiyn        N0      Martin
-
-    Identity                  `noun`    {- mArotiyn -}         [ "Martin" ] ]
-
- |> "mArtiynA" <| [
-
-    -- ;; mArotiynA_1
-    -- mArtynA mArotiynA       N0      Martina
-
-    Identity                  `noun`    {- mArotiynA -}        [ "Martina" ] ]
-
- |> "mArtiyniyz" <| [
-
-    -- ;; mArotiyniyz_1
-    -- mArtynyz        mArotiyniyz     N0      Martinez
-
-    Identity                  `noun`    {- mArotiyniyz -}      [ "Martinez" ] ]
-
- |> "mAryw" <| [
-
-    -- ;; mAryw_1
-    -- mAryw   mAryw   Nprop   Mario
-
-    Identity                  `noun`    {- mAryw -}            [ "Mario" ] ]
-
- |> "mAsiymuw" <| [
+ |> "mAsImU" <| [
 
     -- ;; mAsiymuw_1
     -- mAsymw  mAsiymuw        Nprop   Massimo
@@ -11051,40 +11201,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mAsotiroz -}        [ "Masters" ] ]
 
- |> "mAsuw_hiyy" <| [
+ |> "mAtInIh" <| [
 
-    -- ;; mAsuwxiy~_1
-    -- mAswxy  mAsuwxiy~       Nall    masochist     [[mAsuwxiy~/ADJ]]
-    -- mAswxy  mAsuwxiy~       Nap     masochism     [[mAsuwxiy~/NOUN]]
+    -- ;; mAtiyniyh_1
+    -- mAtynyh mAtiyniyh       N0      matinee
 
-    Identity                  `adj`     {- mAsuwxiy~ -}        [ "masochist", "masochism" ] ]
-
- |> "mAsuwkiyy" <| [
-
-    -- ;; mAsuwkiy~_1
-    -- mAswky  mAsuwkiy~       Nall    masochist     [[mAsuwkiy~/ADJ]]
-    -- mAsw$y  mAsuw$iy~       Nall    masochist     [[mAsuw$iy~/ADJ]]
-
-    Identity                  `adj`     {- mAsuwkiy~ -}        [ "masochist" ],
-
-    -- ;; mAsuwkiy~ap_1
-    -- mAswky  mAsuwkiy~       Nap     masochism     [[mAsuwkiy~/NOUN]]
-    -- mAsw$y  mAsuw$iy~       Nap     masochism     [[mAsuw$iy~/NOUN]]
-
-    Identity |< aT            `noun`    {- mAsuwkiy~ap -}      [ "masochism" ] ]
-
- |> "mAsuwniyy" <| [
-
-    -- ;; mAsuwniy~_1
-    -- mAswny  mAsuwniy~       Nall    Freemason;Masonic     [[mAsuwniy~/NOUN]]
-    -- mAswny  mAsuwniy~       Nall    Freemason;Masonic     [[mAsuwniy~/ADJ]]
-
-    Identity                  `adj`     {- mAsuwniy~ -}        [ "Freemason", "Masonic" ],
-
-    -- ;; mAsuwniy~ap_1
-    -- mAswny  mAsuwniy~       Nap     Freemasonry     [[mAsuwniy~/NOUN]]
-
-    Identity |< aT            `noun`    {- mAsuwniy~ap -}      [ "Freemasonry" ] ]
+    Identity                  `noun`    {- mAtiyniyh -}        [ "matinee" ] ]
 
  |> "mAt^sAlA" <| [
 
@@ -11093,40 +11215,61 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mAto$AlA -}         [ "Matcala" ] ]
 
- |> "mAtfiyf" <| [
+ |> "mAtfIf" <| [
 
     -- ;; mAtofiyf_1
     -- mAtfyf  mAtofiyf        Nprop   Matveev
 
     Identity                  `noun`    {- mAtofiyf -}         [ "Matveev" ] ]
 
- |> "mAtiyniyh" <| [
-
-    -- ;; mAtiyniyh_1
-    -- mAtynyh mAtiyniyh       N0      matinee
-
-    Identity                  `noun`    {- mAtiyniyh -}        [ "matinee" ] ]
-
- |> "mAtiyuw" <| [
+ |> "mAtiyU" <| [
 
     -- ;; mAtiyuw_1
     -- mAtyw   mAtiyuw Nprop   Mathieu
 
     Identity                  `noun`    {- mAtiyuw -}          [ "Mathieu" ] ]
 
- |> "mAtsArylly" <| [
+ |> "mAtsArIllI" <| [
 
-    -- ;; mAtsArylly_1
+    -- ;; mAtsAriylliy_1
     -- mAtsArylly      mAtosArylly     Nprop   Mazzarelli
 
-    Identity                  `noun`    {- mAtsArylly -}       [ "Mazzarelli" ] ]
+    Identity                  `noun`    {- mAtsAriylliy -}     [ "Mazzarelli" ] ]
 
- |> "mAyistrw" <| [
+ |> "mAyU" <| [
 
-    -- ;; mAyisotrw_1
+    -- ;; mAyuw_1
+    -- mAyw    mAyuw   N0      May
+
+    Identity                  `noun`    {- mAyuw -}            [ "May" ] ]
+
+ |> "mAyUnIz" <| [
+
+    -- ;; mAyuwniyz_1
+    -- mAywnyz mAyuwniyz       N0      mayonnaise
+
+    Identity                  `noun`    {- mAyuwniyz -}        [ "mayonnaise" ] ]
+
+ |> "mAyUrInzI" <| [
+
+    -- ;; mAyuwriynoziy_1
+    -- mAywrynzy       mAyuwriynoziy   N0      Mayorense
+
+    Identity                  `noun`    {- mAyuwriynoziy -}    [ "Mayorense" ] ]
+
+ |> "mAyUrkA" <| [
+
+    -- ;; mAyuwrokA_1
+    -- mAywrkA mAyuwrokA       N0      Majorca
+
+    Identity                  `noun`    {- mAyuwrokA -}        [ "Majorca" ] ]
+
+ |> "mAyistrU" <| [
+
+    -- ;; mAyisotruw_1
     -- mAystrw mAyisotrw       N0      maestro;conductor
 
-    Identity                  `noun`    {- mAyisotrw -}        [ "maestro", "conductor" ] ]
+    Identity                  `noun`    {- mAyisotruw -}       [ "maestro", "conductor" ] ]
 
  |> "mAykil" <| [
 
@@ -11135,7 +11278,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mAyokil -}          [ "Michael" ] ]
 
- |> "mAykruwbA.s" <| [
+ |> "mAykrUbA.s" <| [
 
     -- ;; mAyokruwbAS_1
     -- mAykrwbAS       mAyokruwbAS     NduAt   microbus
@@ -11143,7 +11286,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mAyokruwbAS -}      [ "microbus" ] ]
 
- |> "mAykruwsuwft" <| [
+ |> "mAykrUsUft" <| [
 
     -- ;; mAyokruwsuwft_1
     -- mAykrwswft      mAyokruwsuwft   Nprop   Microsoft
@@ -11151,47 +11294,803 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mAyokruwsuwft -}    [ "Microsoft" ] ]
 
- |> "mAynhuwf" <| [
+ |> "mAynhUf" <| [
 
     -- ;; mAynohuwf_1
     -- mAynhwf mAynohuwf       Nprop   Meinhoff
 
     Identity                  `noun`    {- mAynohuwf -}        [ "Meinhoff" ] ]
 
- |> "mAyuw" <| [
-
-    -- ;; mAyuw_1
-    -- mAyw    mAyuw   N0      May
-
-    Identity                  `noun`    {- mAyuw -}            [ "May" ] ]
-
- |> "mAyuwniyz" <| [
-
-    -- ;; mAyuwniyz_1
-    -- mAywnyz mAyuwniyz       N0      mayonnaise
-
-    Identity                  `noun`    {- mAyuwniyz -}        [ "mayonnaise" ] ]
-
- |> "mAyuwriynziy" <| [
-
-    -- ;; mAyuwriynoziy_1
-    -- mAywrynzy       mAyuwriynoziy   N0      Mayorense
-
-    Identity                  `noun`    {- mAyuwriynoziy -}    [ "Mayorense" ] ]
-
- |> "mAyuwrkA" <| [
-
-    -- ;; mAyuwrokA_1
-    -- mAywrkA mAyuwrokA       N0      Majorca
-
-    Identity                  `noun`    {- mAyuwrokA -}        [ "Majorca" ] ]
-
- |> "mAyyuwh" <| [
+ |> "mAyyUh" <| [
 
     -- ;; mAy~uwh_1
     -- mAywh   mAy~uwh NduAt   bathing suit
 
     Identity                  `noun`    {- mAy~uwh -}          [ "bathing suit" ] ]
+
+ |> "mI.gAbAyt" <| [
+
+    -- ;; miygAbAyt_1
+    -- mygAbAyt        miygAbAyt       N       megabyte
+    -- myjAbAyt        miyjAbAyt       N       megabyte
+
+    Identity                  `noun`    {- miygAbAyt -}        [ "megabyte" ] ]
+
+ |> "mI.gAbitt" <| [
+
+    -- ;; miygAbit~_1
+    -- mygAbt  miygAbit~       N       megabit
+    -- myjAbt  miyjAbit~       N       megabit
+    -- mygAbyt miygAbiyt       N       megabit
+    -- myjAbyt miyjAbiyt       N       megabit
+
+    Identity                  `noun`    {- miygAbit~ -}        [ "megabit" ] ]
+
+ |> "mI.gAhIrtz" <| [
+
+    -- ;; miygAhiyrotz_1
+    -- mygAhyrtz       miygAhiyrotz    NduAt   megahertz;MHz
+    -- myjAhyrtz       miyjAhiyrotz    NduAt   megahertz;MHz
+
+    Identity                  `noun`    {- miygAhiyrotz -}     [ "megahertz", "MHz" ] ]
+
+ |> "mI.gAwAtI" <| [
+
+    -- ;; miygAwAtiy_1
+    -- mygAwAty        miygAwAtiy      N0      Megawati
+    -- myjAwAty        miyjAwAtiy      N0      Megawati
+
+    Identity                  `noun`    {- miygAwAtiy -}       [ "Megawati" ] ]
+
+ |> "mI^sIlI" <| [
+
+    -- ;; miy$iyliy_1
+    -- my$yly  miy$iyliy       Nprop   Michellie
+
+    Identity                  `noun`    {- miy$iyliy -}        [ "Michellie" ] ]
+
+ |> "mI_hA'Il" <| [
+
+    -- ;; miyxA}iyl_1
+    -- myxA}yl miyxA}iyl       Nprop   Mikhail
+
+    Identity                  `noun`    {- miyxA}iyl -}        [ "Mikhail" ] ]
+
+ |> "mI_tUlU^giyA" <| [
+
+    -- ;; miyvuwluwjiyA_1
+    -- myvwlwjyA       miyvuwluwjiyA   N0      mythology
+
+    Identity                  `noun`    {- miyvuwluwjiyA -}    [ "mythology" ] ]
+
+ |> "mIdAlI" <| [
+
+    -- ;; miydAliyap_1
+    -- mydAly  miydAliy        NapAt   medal;medallion
+
+    Identity |< aT            `noun`    {- miydAliyap -}       [ "medal", "medallion" ] ]
+
+ |> "mIdlzbruh" <| [
+
+    -- ;; miydlzobruh_1
+    -- mydlzbrh        miydlzobruh     Nprop   Middlesbrough
+
+    Identity                  `noun`    {- miydlzobruh -}      [ "Middlesbrough" ] ]
+
+ |> "mIkA" <| [
+
+    -- ;; miykA_1
+    -- mykA    miykA   N0      mica
+
+    Identity                  `noun`    {- miykA -}            [ "mica" ] ]
+
+ |> "mIkAnIk" <| [
+
+    -- ;; miykAniykiy~ap_1
+    -- mykAnyky        miykAniykiy~    Nap     mechanics     [[miykAniykiy~/NOUN]]
+
+    Identity |< Iy |< aT      `noun`    {- miykAniykiy~ap -}   [ "mechanics" ] ]
+
+ |> "mIkAnizm" <| [
+
+    -- ;; miykAnizm_1
+    -- mykAnzm miykAnizm       N0      mechanism
+    -- mykAny  miykAniy~       N-ap    mechanical     [[miykAniy~/ADJ]]
+    -- mykAnyk miykAniyk       N0      mechanics
+    -- mykAnykA        miykAniykA      N0      mechanics
+    -- mykAnyky        miykAniykiy~    N-ap    mechanical;motorized     [[miykAniykiy~/ADJ]]
+
+    Identity                  `adj`     {- miykAnizm -}        [ "mechanism", "mechanical", "mechanics", "motorized" ] ]
+
+ |> "mIkAyil" <| [
+
+    -- ;; miykAyil_1
+    -- mykAyl  miykAyil        Nprop   Mikael
+
+    Identity                  `noun`    {- miykAyil -}         [ "Mikael" ] ]
+
+ |> "mIkU" <| [
+
+    -- ;; miykuw_1
+    -- mykw    miykuw  Nprop   Meko;Mico ??
+
+    Identity                  `noun`    {- miykuw -}           [ "Meko", "Mico ??" ] ]
+
+ |> "mIkUn.g" <| [
+
+    -- ;; miykuwng_1
+    -- mykwng  miykuwng        N0      Mekong
+
+    Identity                  `noun`    {- miykuwng -}         [ "Mekong" ] ]
+
+ |> "mIkrUb" <| [
+
+    -- ;; miykoruwb_1
+    -- mykrwb  miykoruwb       N/At    microbe
+    -- mkrwb   mikoruwb        NduAt   microbe
+    -- mkAryb  makAriyb        Ndip    microbes
+
+    Identity                  `noun`    {- miykoruwb -}        [ "microbe" ] ]
+
+ |> "mIkrUbA.s" <| [
+
+    -- ;; miykoruwbAS_1
+    -- mykrwbAS        miykoruwbAS     N/At    microbus
+    -- mykrwbAs        miykoruwbAs     N/At    microbus
+
+    Identity                  `noun`    {- miykoruwbAS -}      [ "microbus" ] ]
+
+ |> "mIkrUbiyUlU^giyA" <| [
+
+    -- ;; miykoruwbiyuwluwjiyA_1
+    -- mykrwbywlwjyA   miykoruwbiyuwluwjiyA    N0      microbiology
+
+    Identity                  `noun`    {- miykoruwbiyuwluwjiyA -} [ "microbiology" ] ]
+
+ |> "mIkrUfIlm" <| [
+
+    -- ;; miykoruwfiylm_1
+    -- mykrwfylm       miykoruwfiylm   N/At    microfilm
+
+    Identity                  `noun`    {- miykoruwfiylm -}    [ "microfilm" ] ]
+
+ |> "mIkrUfUn" <| [
+
+    -- ;; miykoruwfuwn_1
+    -- mykrwfwn        miykoruwfuwn    N/At    microphone
+
+    Identity                  `noun`    {- miykoruwfuwn -}     [ "microphone" ] ]
+
+ |> "mIkrUskUb" <| [
+
+    -- ;; miykoruwskuwb_1
+    -- mykrwskwb       miykoruwskuwb   N/At    microscope
+
+    Identity                  `noun`    {- miykoruwskuwb -}    [ "microscope" ],
+
+    -- ;; miykoruwskuwbiy~_1
+    -- mykrwskwby      miykoruwskuwbiy~        Nall    microscopic     [[miykoruwskuwbiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- miykoruwskuwbiy~ -} [ "microscopic" ] ]
+
+ |> "mIlAnU" <| [
+
+    -- ;; miylAnuw_1
+    -- mylAnw  miylAnuw        N0      Milano;Milan
+
+    Identity                  `noun`    {- miylAnuw -}         [ "Milano", "Milan" ] ]
+
+ |> "mIlI.gInI" <| [
+
+    -- ;; miyliygiyniy_1
+    -- mylygyny        miyliygiyniy    Nprop   Meligeni
+    -- mylyjyny        miyliyjiyniy    Nprop   Meligeni
+
+    Identity                  `noun`    {- miyliygiyniy -}     [ "Meligeni" ] ]
+
+ |> "mIlI^grAm" <| [
+
+    -- ;; miyliyjrAm_1
+    -- mylyjrAm        miyliyjrAm      NduAt   milligram
+    -- mylygrAm        miyliygrAm      NduAt   milligram
+
+    Identity                  `noun`    {- miyliyjrAm -}       [ "milligram" ] ]
+
+ |> "mIlI^siyA" <| [
+
+    -- ;; miyliy$iyA_1
+    -- myly$yA miyliy$iyA      N0      militia
+    -- myly$y  miyliy$iy       NAt     militias
+
+    Identity                  `noun`    {- miyliy$iyA -}       [ "militia" ] ]
+
+ |> "mIlImitr" <| [
+
+    -- ;; miyliymitr_1
+    -- mylymtr miyliymitr      NduAt   millimeter
+
+    Identity                  `noun`    {- miyliymitr -}       [ "millimeter" ] ]
+
+ |> "mIlIt^s" <| [
+
+    -- ;; miyliyt$_1
+    -- mylyt$  miyliyt$        Nprop   Millic
+
+    Identity                  `noun`    {- miyliyt$ -}         [ "Millic" ] ]
+
+ |> "mIlU^sIfIt^s" <| [
+
+    -- ;; miyluw$iyfiyt$_1
+    -- mylw$yfyt$      mylw$yfyt$      Nprop   Milosevic
+    -- mylwsyfyt$      mylwsyfyt$      Nprop   Milosevic
+
+    Identity                  `noun`    {- miyluw$iyfiyt$ -}   [ "Milosevic" ] ]
+
+ |> "mIlUdrAmA" <| [
+
+    -- ;; miyluwdrAmA_1
+    -- mylwdrAmA       miyluwdrAmA     N0      melodrama
+    -- mylwdrAmy       miyluwdrAmiy~   N-ap    melodramatic     [[miyluwdrAmiy~/ADJ]]
+
+    Identity                  `adj`     {- miyluwdrAmA -}      [ "melodrama", "melodramatic" ] ]
+
+ |> "mIlUrAd" <| [
+
+    -- ;; miyluwrAd_1
+    -- mylwrAd miyluwrAd       Nprop   Milorad
+
+    Identity                  `noun`    {- miyluwrAd -}        [ "Milorad" ] ]
+
+ |> "mIlUtInUfIt^s" <| [
+
+    -- ;; miyluwtiynuwfiyt$_1
+    -- mylwtynwfyt$    miyluwtiynuwfiyt$       Nprop   Milutinovic
+
+    Identity                  `noun`    {- miyluwtiynuwfiyt$ -} [ "Milutinovic" ] ]
+
+ |> "mIlt^siyUr" <| [
+
+    -- ;; miylot$iyuwr_1
+    -- mylt$ywr        miylot$iyuwr    N0      Melchior
+
+    Identity                  `noun`    {- miylot$iyuwr -}     [ "Melchior" ] ]
+
+ |> "mIlz" <| [
+
+    -- ;; miyloz_1
+    -- mylz    miyloz  Nprop   Mills
+
+    Identity                  `noun`    {- miyloz -}           [ "Mills" ] ]
+
+ |> "mInA" <| [
+
+    -- ;; miynA_1
+    -- mynA    miynA   N0      glaze;enamel
+    -- mynA'   miynA'  N0_Nh   glaze;enamel
+    -- mynA&   miynA&  Nh      glaze;enamel
+    -- mynA}   miynA}  Nhy     glaze;enamel
+
+    Identity                  `noun`    {- miynA -}            [ "glaze", "enamel" ] ]
+
+ |> "mInIsUtA" <| [
+
+    -- ;; miyniysuwtA_1
+    -- mynyswtA        miyniysuwtA     Nprop   Minnesota
+
+    Identity                  `noun`    {- miyniysuwtA -}      [ "Minnesota" ] ]
+
+ |> "mIndAnAw" <| [
+
+    -- ;; miynodAnAw_1
+    -- myndAnAw        miynodAnAw      Nprop   Mindanao
+
+    Identity                  `noun`    {- miynodAnAw -}       [ "Mindanao" ] ]
+
+ |> "mIr.gan" <| [
+
+    -- ;; miyroganiy~_1
+    -- myrgny  miyroganiy~     N0      Mirghani
+
+    Identity |< Iy            `adj`     {- miyroganiy~ -}      [ "Mirghani" ] ]
+
+ |> "mIrAlAy" <| [
+
+    -- ;; miyrAlAy_1
+    -- myrAlAy miyrAlAy        N0      brigadier general
+
+    Identity                  `noun`    {- miyrAlAy -}         [ "brigadier general" ] ]
+
+ |> "mIrU" <| [
+
+    -- ;; miyruw_1
+    -- myrw    miyruw  Nprop   Miro
+
+    Identity                  `noun`    {- miyruw -}           [ "Miro" ] ]
+
+ |> "mIrd^galAl" <| [
+
+    -- ;; miyrdojalAl_1
+    -- myrdjlAl        miyrdojalAl     Nprop   Mirdjalal
+
+    Identity                  `noun`    {- miyrdojalAl -}      [ "Mirdjalal" ] ]
+
+ |> "mIrliwA'" <| [
+
+    -- ;; miyroliwA'_1
+    -- myrlwA' miyroliwA'      N0_Nh   major general
+    -- myrlwA& miyroliwA&      Nh      major general
+    -- myrlwA} miyroliwA}      Nhy     major general
+
+    Identity                  `noun`    {- miyroliwA' -}       [ "major general" ] ]
+
+ |> "mIrnyI" <| [
+
+    -- ;; miyronyiy_1
+    -- myrnyy  miyronyiy       Nprop   Mirnyi
+
+    Identity                  `noun`    {- miyronyiy -}        [ "Mirnyi" ] ]
+
+ |> "mIrzA" <| [
+
+    -- ;; miyrozA_1
+    -- myrzA   miyrozA Nprop   Mirza
+
+    Identity                  `noun`    {- miyrozA -}          [ "Mirza" ] ]
+
+ |> "mIsAtAm" <| [
+
+    -- ;; miysAtAm_1
+    -- mysAtAm miysAtAm        Nprop   Misatam;Missatam;Miesatam;Maysatam;Miyasatam ??
+
+    Identity                  `noun`    {- miysAtAm -}         [ "Misatam", "Missatam", "Miesatam", "Maysatam", "Miyasatam ??" ] ]
+
+ |> "mIsmir" <| [
+
+    -- ;; miysomir_1
+    -- mysmr   miysomir        Nprop   Messmer
+
+    Identity                  `noun`    {- miysomir -}         [ "Messmer" ] ]
+
+ |> "mItAfIzIq" <| [
+
+    -- ;; miytAfiyziyqiy~_1
+    -- mytAfyzyqy      miytAfiyziyqiy~ Nall    metaphysical     [[miytAfiyziyqiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- miytAfiyziyqiy~ -}  [ "metaphysical" ] ]
+
+ |> "mItAfIzIqA" <| [
+
+    -- ;; miytAfiyziyqA_1
+    -- mytAfyzyqA      miytAfiyziyqA   N0      metaphysics
+
+    Identity                  `noun`    {- miytAfiyziyqA -}    [ "metaphysics" ] ]
+
+ |> "mItUrUlU^giyA" <| [
+
+    -- ;; miytuwruwluwjiyA_1
+    -- mytwrwlwjyA     miytuwruwluwjiyA        N0      meteorology
+
+    Identity                  `noun`    {- miytuwruwluwjiyA -} [ "meteorology" ] ]
+
+ |> "mIt^sil" <| [
+
+    -- ;; miyto$il_1
+    -- myt$l   miyto$il        N0      Mitchell
+    -- myt$yl  miyto$iyl       N0      Mitchell
+
+    Identity                  `noun`    {- miyto$il -}         [ "Mitchell" ] ]
+
+ |> "mItadUr" <| [
+
+    -- ;; miytaduwr_1
+    -- mytdwr  miytaduwr       N0      matador
+
+    Identity                  `noun`    {- miytaduwr -}        [ "matador" ] ]
+
+ |> "mItirAn" <| [
+
+    -- ;; miytirAn_1
+    -- mytrAn  miytirAn        Nprop   Mitterand
+
+    Identity                  `noun`    {- miytirAn -}         [ "Mitterand" ] ]
+
+ |> "mItsUbI^sI" <| [
+
+    -- ;; miytosuwbiy$iy_1
+    -- mytswby$y       miytosuwbiy$iy  Nprop   Mitsubishi
+
+    Identity                  `noun`    {- miytosuwbiy$iy -}   [ "Mitsubishi" ] ]
+
+ |> "mIzAnIn" <| [
+
+    -- ;; miyzAniyn_1
+    -- myzAnyn miyzAniyn       N0      mezzanine
+
+    Identity                  `noun`    {- miyzAniyn -}        [ "mezzanine" ] ]
+
+ |> "mIzUbUtAm" <| [
+
+    -- ;; miyzuwbuwtAmiy~_1
+    -- myzwbwtAmy      miyzuwbuwtAmiy~ Nall    Mesopotamian     [[miyzuwbuwtAmiy~/NOUN]]
+    -- myzwbwtAmy      miyzuwbuwtAmiy~ Nall    Mesopotamian     [[miyzuwbuwtAmiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- miyzuwbuwtAmiy~ -}  [ "Mesopotamian" ] ]
+
+ |> "mIzUbUtAmiyA" <| [
+
+    -- ;; miyzuwbuwtAmiyA_1
+    -- myzwbwtAmyA     miyzuwbuwtAmiyA N0      Mesopotamia
+
+    Identity                  `noun`    {- miyzuwbuwtAmiyA -}  [ "Mesopotamia" ] ]
+
+ |> "mU.gAbI" <| [
+
+    -- ;; muwgAbiy_1
+    -- mwgAby  muwgAbiy        Nprop   Mugabe
+    -- mwjAby  muwjAbiy        Nprop   Mugabe
+
+    Identity                  `noun`    {- muwgAbiy -}         [ "Mugabe" ] ]
+
+ |> "mU_hIkA" <| [
+
+    -- ;; muwxiykA_1
+    -- mwxykA  muwxiykA        Nprop   Mugica;Mujica
+
+    Identity                  `noun`    {- muwxiykA -}         [ "Mugica", "Mujica" ] ]
+
+ |> "mUbIliyA" <| [
+
+    -- ;; muwbiyliyA_1
+    -- mwbylyA muwbiyliyA      N0      furniture;furnishings
+    -- mwbyly  muwbiyliy       NAt     furniture;furnishings
+
+    Identity                  `noun`    {- muwbiyliyA -}       [ "furniture", "furnishings" ] ]
+
+ |> "mUbUtU" <| [
+
+    -- ;; muwbuwtuw_1
+    -- mwbwtw  muwbuwtuw       Nprop   Mobutu
+
+    Identity                  `noun`    {- muwbuwtuw -}        [ "Mobutu" ] ]
+
+ |> "mUdIn.gI" <| [
+
+    -- ;; muwdiynogiy_1
+    -- mwdyngy muwdiynogiy     Nprop   Mudenge
+
+    Identity                  `noun`    {- muwdiynogiy -}      [ "Mudenge" ] ]
+
+ |> "mUlUtUf" <| [
+
+    -- ;; muwluwtuwf_1
+    -- mwlwtwf muwluwtuwf      N0      Molotov
+
+    Identity                  `noun`    {- muwluwtuwf -}       [ "Molotov" ] ]
+
+ |> "mUmyA'" <| [
+
+    -- ;; muwmoyA'_1
+    -- mwmyA'  muwmoyA'        N0_Nh   mummy
+    -- mwmyA&  muwmoyA&        Nh      mummy
+    -- mwmyA}  muwmoyA}        Nhy     mummy
+
+    Identity                  `noun`    {- muwmoyA' -}         [ "mummy" ] ]
+
+ |> "mUnA" <| [
+
+    -- ;; muwnA_1
+    -- mwnA    muwnA   Nprop   Mona
+
+    Identity                  `noun`    {- muwnA -}            [ "Mona" ] ]
+
+ |> "mUnAkU" <| [
+
+    -- ;; muwnAkuw_1
+    -- mwnAkw  muwnAkuw        Nprop   Monaco
+
+    Identity                  `noun`    {- muwnAkuw -}         [ "Monaco" ] ]
+
+ |> "mUnIkA" <| [
+
+    -- ;; muwniykA_1
+    -- mwnykA  muwniykA        Nprop   Monica
+
+    Identity                  `noun`    {- muwniykA -}         [ "Monica" ] ]
+
+ |> "mUnUlU^g" <| [
+
+    -- ;; muwnuwluwj_1
+    -- mwnwlwj muwnuwluwj      NduAt   monologue
+
+    Identity                  `noun`    {- muwnuwluwj -}       [ "monologue" ] ]
+
+ |> "mUnUlU^gist" <| [
+
+    -- ;; muwnuwluwjisot_1
+    -- mwnwlwjst       muwnuwluwjisot  NduAt   monologue artist
+
+    Identity                  `noun`    {- muwnuwluwjisot -}   [ "monologue artist" ] ]
+
+ |> "mUnUtayb" <| [
+
+    -- ;; muwnuwtayob_1
+    -- mwnwtyb muwnuwtayob     N0      Monotype
+
+    Identity                  `noun`    {- muwnuwtayob -}      [ "Monotype" ] ]
+
+ |> "mUnbUlyIh" <| [
+
+    -- ;; muwnobuwloyiyh_1
+    -- mwnbwlyyh       muwnobuwloyiyh  Nprop   Montpellier
+
+    Identity                  `noun`    {- muwnobuwloyiyh -}   [ "Montpellier" ] ]
+
+ |> "mUndiyAl" <| [
+
+    -- ;; muwnodiyAl_1
+    -- mwndyAl muwnodiyAl      N0_Nh   Mondial (World Cup)
+
+    Identity                  `noun`    {- muwnodiyAl -}       [ "Mondial (World Cup)" ],
+
+    -- ;; muwnodiyAliy~_1
+    -- mwndyAly        muwnodiyAliy~   Nall    Mondial (World Cup)     [[muwnodiyAliy~/NOUN]]
+    -- mwndyAly        muwnodiyAliy~   Nall    Mondial (World Cup)     [[muwnodiyAliy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- muwnodiyAliy~ -}    [ "Mondial (World Cup)" ] ]
+
+ |> "mUntI" <| [
+
+    -- ;; muwnotiy_1
+    -- mwnty   muwnotiy        Nprop   Monte;Monty
+
+    Identity                  `noun`    {- muwnotiy -}         [ "Monte", "Monty" ] ]
+
+ |> "mUntIfIdiyU" <| [
+
+    -- ;; muwnotiyfiydiyuw_1
+    -- mwntyfydyw      muwnotiyfiydiyuw        Nprop   Montevideo
+
+    Identity                  `noun`    {- muwnotiyfiydiyuw -} [ "Montevideo" ] ]
+
+ |> "mUntInI.grU" <| [
+
+    -- ;; muwnotiyniygoruw_1
+    -- mwntynygrw      muwnotiyniygoruw        Nprop   Montenegro
+
+    Identity                  `noun`    {- muwnotiyniygoruw -} [ "Montenegro" ] ]
+
+ |> "mUntUbAn" <| [
+
+    -- ;; muwnotuwbAn_1
+    -- mwntwbAn        muwnotuwbAn     Nprop   Montauban
+
+    Identity                  `noun`    {- muwnotuwbAn -}      [ "Montauban" ] ]
+
+ |> "mUntriyAl" <| [
+
+    -- ;; muwnotriyAl_1
+    -- mwntryAl        muwnotriyAl     Nprop   Montreal
+
+    Identity                  `noun`    {- muwnotriyAl -}      [ "Montreal" ] ]
+
+ |> "mUr.gInstIrn" <| [
+
+    -- ;; muwrogiynstiyrn_1
+    -- mwrgynstyrn     muwrogiynstiyrn Nprop   Morgenstern
+
+    Identity                  `noun`    {- muwrogiynstiyrn -}  [ "Morgenstern" ] ]
+
+ |> "mUrAfIk" <| [
+
+    -- ;; muwrAfiyk_1
+    -- mwrAfyk muwrAfiyk       Nprop   Moravec
+
+    Identity                  `noun`    {- muwrAfiyk -}        [ "Moravec" ] ]
+
+ |> "mUrAtInUs" <| [
+
+    -- ;; muwrAtiynuws_1
+    -- mwrAtynws       muwrAtiynuws    Nprop   Moratinos
+
+    Identity                  `noun`    {- muwrAtiynuws -}     [ "Moratinos" ] ]
+
+ |> "mUrAtizm" <| [
+
+    -- ;; muwrAtizm_1
+    -- mwrAtzm muwrAtizm       N0      rheumatism
+
+    Identity                  `noun`    {- muwrAtizm -}        [ "rheumatism" ] ]
+
+ |> "mUrI.tAn" <| [
+
+    -- ;; muwriyTAniy~_1
+    -- mwryTAny        muwriyTAniy~    Nall    Mauritanian     [[muwriyTAniy~/NOUN]]
+    -- mwryTAny        muwriyTAniy~    Nall    Mauritanian     [[muwriyTAniy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- muwriyTAniy~ -}     [ "Mauritanian" ] ]
+
+ |> "mUrI.tAniyA" <| [
+
+    -- ;; muwriyTAniyA_1
+    -- mwryTAnyA       muwriyTAniyA    N0      Mauritania
+
+    Identity                  `noun`    {- muwriyTAniyA -}     [ "Mauritania" ] ]
+
+ |> "mUrIsk" <| [
+
+    -- ;; muwriyskiy~_1
+    -- mwrysky muwriyskiy~     Nall    Morisco     [[muwriyskiy~/NOUN]]
+    -- mwrysky muwriyskiy~     Nall    Morisco     [[muwriyskiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- muwriyskiy~ -}      [ "Morisco" ] ]
+
+ |> "mUrIskU" <| [
+
+    -- ;; muwriyskuw_1
+    -- mwryskw muwriyskw       N0      Morisco
+
+    Identity                  `noun`    {- muwriyskuw -}       [ "Morisco" ] ]
+
+ |> "mUrItAn" <| [
+
+    -- ;; muwriytAniy~_1
+    -- mwrytAny        muwriytAniy~    Nall    Mauritanian     [[muwriytAniy~/NOUN]]
+    -- mwrytAny        muwriytAniy~    Nall    Mauritanian     [[muwriytAniy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- muwriytAniy~ -}     [ "Mauritanian" ] ]
+
+ |> "mUrItAniyA" <| [
+
+    -- ;; muwriytAniyA_1
+    -- mwrytAnyA       muwriytAniyA    N0      Mauritania
+
+    Identity                  `noun`    {- muwriytAniyA -}     [ "Mauritania" ] ]
+
+ |> "mUrUmbI" <| [
+
+    -- ;; muwruwmobiy_1
+    -- mwrwmby muwruwmobiy     Nprop   Morumbi
+
+    Identity                  `noun`    {- muwruwmobiy -}      [ "Morumbi" ] ]
+
+ |> "mUrdi_hAy" <| [
+
+    -- ;; muwrodixAy_1
+    -- mwrdxAy muwrodixAy      Nprop   Mordechai
+    -- mrdxAy  murodixAy       Nprop   Mordechai
+
+    Identity                  `noun`    {- muwrodixAy -}       [ "Mordechai" ] ]
+
+ |> "mUrfIn" <| [
+
+    -- ;; muwrofiyn_1
+    -- mwrfyn  muwrofiyn       N0      morphine
+    -- mrfyn   murofiyn        N0      morphine
+
+    Identity                  `noun`    {- muwrofiyn -}        [ "morphine" ] ]
+
+ |> "mUrfUlU^giyA" <| [
+
+    -- ;; muwrofuwluwjiyA_1
+    -- mwrfwlwjyA      muwrofuwluwjiyA N0      morphology
+
+    Identity                  `noun`    {- muwrofuwluwjiyA -}  [ "morphology" ] ]
+
+ |> "mUriyUkA" <| [
+
+    -- ;; muwriyuwkA_1
+    -- mwrywkA muwriyuwkA      Nprop   Morioka
+
+    Identity                  `noun`    {- muwriyuwkA -}       [ "Morioka" ] ]
+
+ |> "mUrnIn.g" <| [
+
+    -- ;; muwroniyng_1
+    -- mwrnyng muwroniyng      Nprop   Mourning
+
+    Identity                  `noun`    {- muwroniyng -}       [ "Mourning" ] ]
+
+ |> "mUrs" <| [
+
+    -- ;; muwrs_1
+    -- mwrs    muwrs   N0      Morse
+
+    Identity                  `noun`    {- muwrs -}            [ "Morse" ] ]
+
+ |> "mUsIfInI" <| [
+
+    -- ;; muwsiyfiyniy_1
+    -- mwsyfyny        muwsiyfiyniy    N0      Museveni
+
+    Identity                  `noun`    {- muwsiyfiyniy -}     [ "Museveni" ] ]
+
+ |> "mUsIqAr" <| [
+
+    -- ;; muwsiyqAr_1
+    -- mwsyqAr muwsiyqAr       N       musician
+
+    Identity                  `noun`    {- muwsiyqAr -}        [ "musician" ] ]
+
+ |> "mUsIqY" <| [
+
+    -- ;; muwsiyqaY_1
+    -- mwsyqY  muwsiyqaY       N0      music
+    -- mwsyqA  muwsiyqA        Nh      music
+
+    Identity                  `noun`    {- muwsiyqaY -}        [ "music" ] ]
+
+ |> "mUskU" <| [
+
+    -- ;; muwsokuw_1
+    -- mwskw   muwsokuw        N0      Moscow
+
+    Identity                  `noun`    {- muwsokuw -}         [ "Moscow" ],
+
+    -- ;; muwsokuwiy~_1
+    -- mwskwy  muwsokuwiy~     Nall    Muscovite     [[muwsokuwiy~/NOUN]]
+    -- mwskwy  muwsokuwiy~     Nall    Muscovite     [[muwsokuwiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- muwsokuwiy~ -}      [ "Muscovite" ] ]
+
+ |> "mUstAr" <| [
+
+    -- ;; muwsotAr_1
+    -- mwstAr  muwsotAr        Nprop   Mostar
+    -- mwstr   muwsotar        Nprop   Mostar
+
+    Identity                  `noun`    {- muwsotAr -}         [ "Mostar" ] ]
+
+ |> "mUtUrz" <| [
+
+    -- ;; muwtuwrz_1
+    -- mwtwrz  muwtuwrz        Nprop   Motors
+
+    Identity                  `noun`    {- muwtuwrz -}         [ "Motors" ] ]
+
+ |> "mUtUsIkl" <| [
+
+    -- ;; muwtuwsiykl_1
+    -- mwtwsykl        muwtuwsiykl     N/At    motorcycle
+
+    Identity                  `noun`    {- muwtuwsiykl -}      [ "motorcycle" ] ]
+
+ |> "mUtzI" <| [
+
+    -- ;; muwtoziy_1
+    -- mwtzy   muwtoziy        Nprop   Muzzi
+
+    Identity                  `noun`    {- muwtoziy -}         [ "Muzzi" ] ]
+
+ |> "mUyA" <| [
+
+    -- ;; muwyA_1
+    -- mwyA    muwyA   Nprop   Moya
+
+    Identity                  `noun`    {- muwyA -}            [ "Moya" ] ]
+
+ |> "mUzAykU" <| [
+
+    -- ;; muwzAyokuw_1
+    -- mwzAykw muwzAyokuw      N0      mosaic
+    -- mwzAyyk muwzAyiyk       N0      mosaic
+
+    Identity                  `noun`    {- muwzAyokuw -}       [ "mosaic" ] ]
+
+ |> "mUzambIq" <| [
+
+    -- ;; muwzamobiyq_1
+    -- mwzmbyq muwzamobiyq     N0      Mozambique
+    -- mwzAmbyq        muwzAmobiyq     N0      Mozambique
+
+    Identity                  `noun`    {- muwzamobiyq -}      [ "Mozambique" ],
+
+    -- ;; muwzamobiyqiy~_1
+    -- mwzmbyqy        muwzamobiyqiy~  Nall    Mozambican     [[muwzamobiyqiy~/NOUN]]
+    -- mwzmbyqy        muwzamobiyqiy~  Nall    Mozambican     [[muwzamobiyqiy~/ADJ]]
+    -- mwzAmbyqy       muwzAmobiyqiy~  Nall    Mozambican     [[muwzAmobiyqiy~/NOUN]]
+    -- mwzAmbyqy       muwzAmobiyqiy~  Nall    Mozambican     [[muwzAmobiyqiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- muwzamobiyqiy~ -}   [ "Mozambican" ] ]
 
  |> "m_t" <| [
 
@@ -11200,7 +12099,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mv -}               [ "fem." ] ]
 
- |> "ma.gna.tiys" <| [
+ |> "ma.gnIsiyA" <| [
+
+    -- ;; magoniysiyA_1
+    -- mgnysyA magoniysiyA     N0      magnesia
+
+    Identity                  `noun`    {- magoniysiyA -}      [ "magnesia" ] ]
+
+ |> "ma.gna.tIs" <| [
 
     -- ;; magonaTiys_1
     -- mgnTys  magonaTiys      N       magnet
@@ -11220,13 +12126,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy |< aT      `noun`    {- magonaTiysiy~ap -}  [ "magnetism" ] ]
 
- |> "ma.gniysiyA" <| [
-
-    -- ;; magoniysiyA_1
-    -- mgnysyA magoniysiyA     N0      magnesia
-
-    Identity                  `noun`    {- magoniysiyA -}      [ "magnesia" ] ]
-
  |> "ma.s.takA'" <| [
 
     -- ;; maSoTakA'_1
@@ -11240,15 +12139,15 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- maSoTakA' -}        [ "mastic" ] ]
 
- |> "ma^gniyziywm" <| [
+ |> "ma^gnIziyUm" <| [
 
-    -- ;; majoniyziywm_1
+    -- ;; majoniyziyuwm_1
     -- mjnyzywm        majoniyziywm    N0      magnesium
     -- mgnyzywm        magoniyziywm    N0      magnesium
 
-    Identity                  `noun`    {- majoniyziywm -}     [ "magnesium" ] ]
+    Identity                  `noun`    {- majoniyziyuwm -}    [ "magnesium" ] ]
 
- |> "ma`karuwn" <| [
+ |> "ma`karUn" <| [
 
     -- ;; maEokaruwnap_1
     -- mEkrwn  maEokaruwn      Nap     macaroni
@@ -11268,12 +12167,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- maEomaEAn -}        [ "raging", "turmoil" ] ]
 
- |> "madAliywn" <| [
+ |> "madAliyUn" <| [
 
-    -- ;; madAliywn_1
+    -- ;; madAliyuwn_1
     -- mdAlywn madAliywn       N0      medallion
 
-    Identity                  `noun`    {- madAliywn -}        [ "medallion" ] ]
+    Identity                  `noun`    {- madAliyuwn -}       [ "medallion" ] ]
 
  |> "mada.ga^sqar" <| [
 
@@ -11282,7 +12181,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- madaga$oqar -}      [ "Madagascar" ] ]
 
- |> "madmAziyl" <| [
+ |> "madmAzIl" <| [
 
     -- ;; madomAziyl_1
     -- mdmAzyl madomAziyl      NduAt   mademoiselle;miss
@@ -11322,21 +12221,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- makadAm -}          [ "macadam", "pavement" ] ]
 
- |> "makaruwn" <| [
+ |> "makarUn" <| [
 
     -- ;; makaruwnap_1
     -- mkrwn   makaruwn        Nap     macaroni
 
     Identity |< aT            `noun`    {- makaruwnap -}       [ "macaroni" ] ]
 
- |> "maksiykAliy" <| [
+ |> "maksIkAlI" <| [
 
     -- ;; makosiykAliy_1
     -- mksykAly        makosiykAliy    N0      Mexicali
 
     Identity                  `noun`    {- makosiykAliy -}     [ "Mexicali" ] ]
 
- |> "maksiykuw" <| [
+ |> "maksIkU" <| [
 
     -- ;; makosiykuw_1
     -- mksykw  makosiykuw      N0      Mexico
@@ -11351,7 +12250,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- malAriyA -}         [ "malaria" ] ]
 
- |> "malAyuw" <| [
+ |> "malAyU" <| [
 
     -- ;; malAyuw_1
     -- mlAyw   malAyuw N0      Malay
@@ -11361,15 +12260,28 @@ lexicon = listing "Lexicon's properties"
     -- ;; malAyuw_2
     -- mlAyw   malAyuw N0      Malayan
 
-    Identity                  `noun`    {- malAyuw -}          [ "Malayan" ] ]
-
- |> "malAyuwiyy" <| [
+    Identity                  `noun`    {- malAyuw -}          [ "Malayan" ],
 
     -- ;; malAyuwiy~_1
     -- mlAywy  malAyuwiy~      Nall    Malayan     [[malAyuwiy~/NOUN]]
     -- mlAywy  malAyuwiy~      Nall    Malayan     [[malAyuwiy~/ADJ]]
 
-    Identity                  `adj`     {- malAyuwiy~ -}       [ "Malayan" ] ]
+    Identity |< Iy            `adj`     {- malAyuwiy~ -}       [ "Malayan" ] ]
+
+ |> "malI_hUliyA" <| [
+
+    -- ;; maliyxuwliyA_1
+    -- mlyxwlyA        maliyxuwliyA    N0      melancholia
+
+    Identity                  `noun`    {- maliyxuwliyA -}     [ "melancholia" ] ]
+
+ |> "malIll" <| [
+
+    -- ;; maliyl~ap_1
+    -- mlylp   maliyl~ap       N0      Melilla
+    -- mlylA   maliyl~A        N0      Melilla
+
+    Identity |< aT            `noun`    {- maliyl~ap -}        [ "Melilla" ] ]
 
  |> "mala.gA^s" <| [
 
@@ -11384,7 +12296,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- malagA$iy~ -}       [ "Madagascan" ] ]
 
- |> "malakuwt" <| [
+ |> "malakUt" <| [
 
     -- ;; malakuwt_1
     -- mlkwt   malakuwt        N       kingdom
@@ -11396,36 +12308,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- malakuwtiy~ -}      [ "divine", "heavenly" ] ]
 
- |> "malan_huwl" <| [
+ |> "malan_hUl" <| [
 
     -- ;; malanoxuwliy~_1
     -- mlnxwly malanoxuwliy~   Nall    melancholic
 
     Identity |< Iy            `adj`     {- malanoxuwliy~ -}    [ "melancholic" ] ]
 
- |> "malan_huwliyA" <| [
+ |> "malan_hUliyA" <| [
 
     -- ;; malanoxuwliyA_1
     -- mlnxwlyA        malanoxuwliyA   N0      melancholia
 
     Identity                  `noun`    {- malanoxuwliyA -}    [ "melancholia" ] ]
 
- |> "maliy_huwliyA" <| [
-
-    -- ;; maliyxuwliyA_1
-    -- mlyxwlyA        maliyxuwliyA    N0      melancholia
-
-    Identity                  `noun`    {- maliyxuwliyA -}     [ "melancholia" ] ]
-
- |> "maliyll" <| [
-
-    -- ;; maliyl~ap_1
-    -- mlylp   maliyl~ap       N0      Melilla
-    -- mlylA   maliyl~A        N0      Melilla
-
-    Identity |< aT            `noun`    {- maliyl~ap -}        [ "Melilla" ] ]
-
- |> "malliym" <| [
+ |> "mallIm" <| [
 
     -- ;; mal~iym_1
     -- mlym    mal~iym NduAt   millieme
@@ -11434,21 +12331,36 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mal~iym -}          [ "millieme" ] ]
 
- |> "mamAduw" <| [
+ |> "mamAdU" <| [
 
     -- ;; mamAduw_1
     -- mmAdw   mamAduw Nprop   Mamadou
 
     Identity                  `noun`    {- mamAduw -}          [ "Mamadou" ] ]
 
- |> "man.ganiys" <| [
+ |> "man.ganIs" <| [
 
     -- ;; manoganiys_1
     -- mngnys  manoganiys      N0      manganese
 
     Identity                  `noun`    {- manoganiys -}       [ "manganese" ] ]
 
- |> "man^ganiyq" <| [
+ |> "manUmitr" <| [
+
+    -- ;; manuwmitr_1
+    -- mnwmtr  manuwmitr       N/At    manometer
+
+    Identity                  `noun`    {- manuwmitr -}        [ "manometer" ] ]
+
+ |> "man^gU" <| [
+
+    -- ;; manojuw_1
+    -- mnjw    manojuw N0      mango
+    -- mngw    manoguw N0      mango
+
+    Identity                  `noun`    {- manojuw -}          [ "mango" ] ]
+
+ |> "man^ganIq" <| [
 
     -- ;; manojaniyq_1
     -- mnjnyq  manojaniyq      Ndu     catapult
@@ -11458,22 +12370,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- manojaniyq -}       [ "catapult" ] ]
 
- |> "man^guw" <| [
-
-    -- ;; manojuw_1
-    -- mnjw    manojuw N0      mango
-    -- mngw    manoguw N0      mango
-
-    Identity                  `noun`    {- manojuw -}          [ "mango" ] ]
-
- |> "man^suwriyA" <| [
+ |> "man^sUriyA" <| [
 
     -- ;; mano$uwriyA_1
     -- mn$wryA mano$uwriyA     N0      Manchuria
 
     Identity                  `noun`    {- mano$uwriyA -}      [ "Manchuria" ] ]
 
- |> "manafiyllA" <| [
+ |> "manafIllA" <| [
 
     -- ;; manafiyl~A_1
     -- mnfylA  manafiyl~A      N0      crank
@@ -11481,28 +12385,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- manafiyl~A -}       [ "crank" ] ]
 
- |> "manuwmitr" <| [
-
-    -- ;; manuwmitr_1
-    -- mnwmtr  manuwmitr       N/At    manometer
-
-    Identity                  `noun`    {- manuwmitr -}        [ "manometer" ] ]
-
- |> "maqadiy^suw" <| [
+ |> "maqadI^sU" <| [
 
     -- ;; maqadiy$uw_1
     -- mqdy$w  maqadiy$uw      Nprop   Mogadishu
 
     Identity                  `noun`    {- maqadiy$uw -}       [ "Mogadishu" ] ]
 
- |> "maqduwnis" <| [
+ |> "maqdUnis" <| [
 
     -- ;; maqoduwnis_1
     -- mqdwns  maqoduwnis      N       parsley
 
     Identity                  `noun`    {- maqoduwnis -}       [ "parsley" ] ]
 
- |> "maqduwniyA" <| [
+ |> "maqdUniyA" <| [
 
     -- ;; maqoduwniyA_1
     -- mqdwnyA maqoduwniyA     N0      Macedonia
@@ -11510,21 +12407,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- maqoduwniyA -}      [ "Macedonia" ] ]
 
- |> "maqduwniyy" <| [
-
-    -- ;; maqoduwniy~_1
-    -- mqdwny  maqoduwniy~     Nall    Macedonian     [[maqoduwniy~/NOUN]]
-    -- mkdwny  makoduwniy~     Nall    Macedonian     [[makoduwniy~/NOUN]]
-
-    Identity                  `noun`    {- maqoduwniy~ -}      [ "Macedonian" ],
-
-    -- ;; maqoduwniy~_2
-    -- mqdwny  maqoduwniy~     Nall    Macedonian     [[maqoduwniy~/ADJ]]
-    -- mkdwny  makoduwniy~     Nall    Macedonian     [[makoduwniy~/ADJ]]
-
-    Identity                  `adj`     {- maqoduwniy~ -}      [ "Macedonian" ] ]
-
- |> "mar.gariyn" <| [
+ |> "mar.garIn" <| [
 
     -- ;; marogariyn_1
     -- mrgryn  marogariyn      N0      margarine
@@ -11539,14 +12422,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- maroTabAn -}        [ "preserves jar" ] ]
 
- |> "mardaquw^s" <| [
+ |> "mardaqU^s" <| [
 
     -- ;; marodaquw$_1
     -- mrdqw$  marodaquw$      N0      marjoram
 
     Identity                  `noun`    {- marodaquw$ -}       [ "marjoram" ] ]
 
- |> "marmi.tuwn" <| [
+ |> "marmi.tUn" <| [
 
     -- ;; maromiTuwn_1
     -- mrmTwn  maromiTuwn      N/At    kitchen boy;scullery boy
@@ -11580,21 +12463,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- mar~Aku$iy~ -}      [ "Moroccan" ] ]
 
- |> "marsiydis" <| [
+ |> "marsIdis" <| [
 
     -- ;; marosiydis_1
     -- mrsyds  marosiydis      Nprop   Mercedes
 
     Identity                  `noun`    {- marosiydis -}       [ "Mercedes" ] ]
 
- |> "marsiyliyA" <| [
+ |> "marsIliyA" <| [
 
     -- ;; marosiyliyA_1
     -- mrsylyA marosiyliyA     N0      Marseille
 
     Identity                  `noun`    {- marosiyliyA -}      [ "Marseille" ] ]
 
- |> "marza_huw^s" <| [
+ |> "marza_hU^s" <| [
 
     -- ;; marozaxuw$_1
     -- mrzxw$  marozaxuw$      N0      marjoram
@@ -11643,7 +12526,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- midoyA -}           [ "Madhya" ] ]
 
- |> "miliy^grAm" <| [
+ |> "milI^grAm" <| [
 
     -- ;; miliyjrAm_1
     -- mlyjrAm miliyjrAm       NduAt   milligram
@@ -11651,28 +12534,28 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- miliyjrAm -}        [ "milligram" ] ]
 
- |> "miliymitr" <| [
+ |> "milImitr" <| [
 
     -- ;; miliymitr_1
     -- mlymtr  miliymitr       NduAt   millimeter
 
     Identity                  `noun`    {- miliymitr -}        [ "millimeter" ] ]
 
- |> "miliyyit" <| [
+ |> "milIyit" <| [
 
     -- ;; miliyyit_1
     -- mlyyt   miliyyit        Nprop   Milliyet
 
     Identity                  `noun`    {- miliyyit -}         [ "Milliyet" ] ]
 
- |> "milyArdiyr" <| [
+ |> "milyArdIr" <| [
 
     -- ;; miloyArodiyr_1
     -- mlyArdyr        miloyArodiyr    N-ap    billionaire
 
     Identity                  `noun`    {- miloyArodiyr -}     [ "billionaire" ] ]
 
- |> "milyuwnAr" <| [
+ |> "milyUnAr" <| [
 
     -- ;; miloyuwnAriy~_1
     -- mlywnAry        miloyuwnAriy~   Nall    millionaire     [[miloyuwnAriy~/ADJ]]
@@ -11711,7 +12594,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `part`    {- mim~an -}           [ "from + whom" ] ]
 
- |> "minA.hiym" <| [
+ |> "minA.hIm" <| [
 
     -- ;; minAHiym_1
     -- mnAHym  minAHiym        Nprop   Menahem
@@ -11725,13 +12608,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- minoyA -}           [ "Minya" ] ]
 
- |> "miriyy" <| [
-
-    -- ;; miriy~_1
-    -- mry     miriy~  N0      Meri;Miri
-
-    Identity                  `noun`    {- miriy~ -}           [ "Meri", "Miri" ] ]
-
  |> "mistikah" <| [
 
     -- ;; misotikah_1
@@ -11739,21 +12615,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- misotikah -}        [ "mastic" ] ]
 
- |> "misyuw" <| [
+ |> "misyU" <| [
 
     -- ;; misoyuw_1
     -- msyw    misoyuw N0      Monsieur
 
     Identity                  `noun`    {- misoyuw -}          [ "Monsieur" ] ]
 
- |> "mitrAlyuwz" <| [
+ |> "mitrAlyUz" <| [
 
     -- ;; mitorAloyuwz_1
     -- mtrAlywz        mitorAloyuwz    N0      machine gun
 
     Identity                  `noun`    {- mitorAloyuwz -}     [ "machine gun" ] ]
 
- |> "mitruw" <| [
+ |> "mitrU" <| [
 
     -- ;; mitoruw_1
     -- mtrw    mitoruw N0      metro;subway
@@ -11767,426 +12643,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mitosnAE -}         [ "Mitzna" ] ]
 
- |> "miy.gAbAyt" <| [
-
-    -- ;; miygAbAyt_1
-    -- mygAbAyt        miygAbAyt       N       megabyte
-    -- myjAbAyt        miyjAbAyt       N       megabyte
-
-    Identity                  `noun`    {- miygAbAyt -}        [ "megabyte" ] ]
-
- |> "miy.gAbitt" <| [
-
-    -- ;; miygAbit~_1
-    -- mygAbt  miygAbit~       N       megabit
-    -- myjAbt  miyjAbit~       N       megabit
-    -- mygAbyt miygAbiyt       N       megabit
-    -- myjAbyt miyjAbiyt       N       megabit
-
-    Identity                  `noun`    {- miygAbit~ -}        [ "megabit" ] ]
-
- |> "miy.gAhiyrtz" <| [
-
-    -- ;; miygAhiyrotz_1
-    -- mygAhyrtz       miygAhiyrotz    NduAt   megahertz;MHz
-    -- myjAhyrtz       miyjAhiyrotz    NduAt   megahertz;MHz
-
-    Identity                  `noun`    {- miygAhiyrotz -}     [ "megahertz", "MHz" ] ]
-
- |> "miy.gAwAtiy" <| [
-
-    -- ;; miygAwAtiy_1
-    -- mygAwAty        miygAwAtiy      N0      Megawati
-    -- myjAwAty        miyjAwAtiy      N0      Megawati
-
-    Identity                  `noun`    {- miygAwAtiy -}       [ "Megawati" ] ]
-
- |> "miy^siyliy" <| [
-
-    -- ;; miy$iyliy_1
-    -- my$yly  miy$iyliy       Nprop   Michellie
-
-    Identity                  `noun`    {- miy$iyliy -}        [ "Michellie" ] ]
-
- |> "miy_hA'iyl" <| [
-
-    -- ;; miyxA}iyl_1
-    -- myxA}yl miyxA}iyl       Nprop   Mikhail
-
-    Identity                  `noun`    {- miyxA}iyl -}        [ "Mikhail" ] ]
-
- |> "miy_tuwluw^giyA" <| [
-
-    -- ;; miyvuwluwjiyA_1
-    -- myvwlwjyA       miyvuwluwjiyA   N0      mythology
-
-    Identity                  `noun`    {- miyvuwluwjiyA -}    [ "mythology" ] ]
-
- |> "miydAliy" <| [
-
-    -- ;; miydAliyap_1
-    -- mydAly  miydAliy        NapAt   medal;medallion
-
-    Identity |< aT            `noun`    {- miydAliyap -}       [ "medal", "medallion" ] ]
-
- |> "miydAwiyy" <| [
-
-    -- ;; miydAwiy~_1
-    -- mydAwy  miydAwiy~       N0      Midaoui;Midawi
-
-    Identity                  `noun`    {- miydAwiy~ -}        [ "Midaoui", "Midawi" ] ]
-
- |> "miydlzbruh" <| [
-
-    -- ;; miydlzobruh_1
-    -- mydlzbrh        miydlzobruh     Nprop   Middlesbrough
-
-    Identity                  `noun`    {- miydlzobruh -}      [ "Middlesbrough" ] ]
-
- |> "miykA" <| [
-
-    -- ;; miykA_1
-    -- mykA    miykA   N0      mica
-
-    Identity                  `noun`    {- miykA -}            [ "mica" ] ]
-
- |> "miykAniyk" <| [
-
-    -- ;; miykAniykiy~ap_1
-    -- mykAnyky        miykAniykiy~    Nap     mechanics     [[miykAniykiy~/NOUN]]
-
-    Identity |< Iy |< aT      `noun`    {- miykAniykiy~ap -}   [ "mechanics" ] ]
-
- |> "miykAnizm" <| [
-
-    -- ;; miykAnizm_1
-    -- mykAnzm miykAnizm       N0      mechanism
-    -- mykAny  miykAniy~       N-ap    mechanical     [[miykAniy~/ADJ]]
-    -- mykAnyk miykAniyk       N0      mechanics
-    -- mykAnykA        miykAniykA      N0      mechanics
-    -- mykAnyky        miykAniykiy~    N-ap    mechanical;motorized     [[miykAniykiy~/ADJ]]
-
-    Identity                  `adj`     {- miykAnizm -}        [ "mechanism", "mechanical", "mechanics", "motorized" ] ]
-
- |> "miykAyil" <| [
-
-    -- ;; miykAyil_1
-    -- mykAyl  miykAyil        Nprop   Mikael
-
-    Identity                  `noun`    {- miykAyil -}         [ "Mikael" ] ]
-
- |> "miykruwb" <| [
-
-    -- ;; miykoruwb_1
-    -- mykrwb  miykoruwb       N/At    microbe
-    -- mkrwb   mikoruwb        NduAt   microbe
-    -- mkAryb  makAriyb        Ndip    microbes
-
-    Identity                  `noun`    {- miykoruwb -}        [ "microbe" ] ]
-
- |> "miykruwbA.s" <| [
-
-    -- ;; miykoruwbAS_1
-    -- mykrwbAS        miykoruwbAS     N/At    microbus
-    -- mykrwbAs        miykoruwbAs     N/At    microbus
-
-    Identity                  `noun`    {- miykoruwbAS -}      [ "microbus" ] ]
-
- |> "miykruwbiyuwluw^giyA" <| [
-
-    -- ;; miykoruwbiyuwluwjiyA_1
-    -- mykrwbywlwjyA   miykoruwbiyuwluwjiyA    N0      microbiology
-
-    Identity                  `noun`    {- miykoruwbiyuwluwjiyA -} [ "microbiology" ] ]
-
- |> "miykruwfiylm" <| [
-
-    -- ;; miykoruwfiylm_1
-    -- mykrwfylm       miykoruwfiylm   N/At    microfilm
-
-    Identity                  `noun`    {- miykoruwfiylm -}    [ "microfilm" ] ]
-
- |> "miykruwfuwn" <| [
-
-    -- ;; miykoruwfuwn_1
-    -- mykrwfwn        miykoruwfuwn    N/At    microphone
-
-    Identity                  `noun`    {- miykoruwfuwn -}     [ "microphone" ] ]
-
- |> "miykruwskuwb" <| [
-
-    -- ;; miykoruwskuwb_1
-    -- mykrwskwb       miykoruwskuwb   N/At    microscope
-
-    Identity                  `noun`    {- miykoruwskuwb -}    [ "microscope" ],
-
-    -- ;; miykoruwskuwbiy~_1
-    -- mykrwskwby      miykoruwskuwbiy~        Nall    microscopic     [[miykoruwskuwbiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- miykoruwskuwbiy~ -} [ "microscopic" ] ]
-
- |> "miykuw" <| [
-
-    -- ;; miykuw_1
-    -- mykw    miykuw  Nprop   Meko;Mico ??
-
-    Identity                  `noun`    {- miykuw -}           [ "Meko", "Mico ??" ] ]
-
- |> "miykuwn.g" <| [
-
-    -- ;; miykuwng_1
-    -- mykwng  miykuwng        N0      Mekong
-
-    Identity                  `noun`    {- miykuwng -}         [ "Mekong" ] ]
-
- |> "miylAnuw" <| [
-
-    -- ;; miylAnuw_1
-    -- mylAnw  miylAnuw        N0      Milano;Milan
-
-    Identity                  `noun`    {- miylAnuw -}         [ "Milano", "Milan" ] ]
-
- |> "miyliy.giyniy" <| [
-
-    -- ;; miyliygiyniy_1
-    -- mylygyny        miyliygiyniy    Nprop   Meligeni
-    -- mylyjyny        miyliyjiyniy    Nprop   Meligeni
-
-    Identity                  `noun`    {- miyliygiyniy -}     [ "Meligeni" ] ]
-
- |> "miyliy^grAm" <| [
-
-    -- ;; miyliyjrAm_1
-    -- mylyjrAm        miyliyjrAm      NduAt   milligram
-    -- mylygrAm        miyliygrAm      NduAt   milligram
-
-    Identity                  `noun`    {- miyliyjrAm -}       [ "milligram" ] ]
-
- |> "miyliy^siyA" <| [
-
-    -- ;; miyliy$iyA_1
-    -- myly$yA miyliy$iyA      N0      militia
-    -- myly$y  miyliy$iy       NAt     militias
-
-    Identity                  `noun`    {- miyliy$iyA -}       [ "militia" ] ]
-
- |> "miyliymitr" <| [
-
-    -- ;; miyliymitr_1
-    -- mylymtr miyliymitr      NduAt   millimeter
-
-    Identity                  `noun`    {- miyliymitr -}       [ "millimeter" ] ]
-
- |> "miyliyt^s" <| [
-
-    -- ;; miyliyt$_1
-    -- mylyt$  miyliyt$        Nprop   Millic
-
-    Identity                  `noun`    {- miyliyt$ -}         [ "Millic" ] ]
-
- |> "miylt^siyuwr" <| [
-
-    -- ;; miylot$iyuwr_1
-    -- mylt$ywr        miylot$iyuwr    N0      Melchior
-
-    Identity                  `noun`    {- miylot$iyuwr -}     [ "Melchior" ] ]
-
- |> "miyluwdrAmA" <| [
-
-    -- ;; miyluwdrAmA_1
-    -- mylwdrAmA       miyluwdrAmA     N0      melodrama
-    -- mylwdrAmy       miyluwdrAmiy~   N-ap    melodramatic     [[miyluwdrAmiy~/ADJ]]
-
-    Identity                  `adj`     {- miyluwdrAmA -}      [ "melodrama", "melodramatic" ] ]
-
- |> "miyluwrAd" <| [
-
-    -- ;; miyluwrAd_1
-    -- mylwrAd miyluwrAd       Nprop   Milorad
-
-    Identity                  `noun`    {- miyluwrAd -}        [ "Milorad" ] ]
-
- |> "miyluwtiynuwfiyt^s" <| [
-
-    -- ;; miyluwtiynuwfiyt$_1
-    -- mylwtynwfyt$    miyluwtiynuwfiyt$       Nprop   Milutinovic
-
-    Identity                  `noun`    {- miyluwtiynuwfiyt$ -} [ "Milutinovic" ] ]
-
- |> "miylz" <| [
-
-    -- ;; miyloz_1
-    -- mylz    miyloz  Nprop   Mills
-
-    Identity                  `noun`    {- miyloz -}           [ "Mills" ] ]
-
- |> "miynA" <| [
-
-    -- ;; miynA_1
-    -- mynA    miynA   N0      glaze;enamel
-    -- mynA'   miynA'  N0_Nh   glaze;enamel
-    -- mynA&   miynA&  Nh      glaze;enamel
-    -- mynA}   miynA}  Nhy     glaze;enamel
-
-    Identity                  `noun`    {- miynA -}            [ "glaze", "enamel" ] ]
-
- |> "miyndAnAw" <| [
-
-    -- ;; miynodAnAw_1
-    -- myndAnAw        miynodAnAw      Nprop   Mindanao
-
-    Identity                  `noun`    {- miynodAnAw -}       [ "Mindanao" ] ]
-
- |> "miyniysuwtA" <| [
-
-    -- ;; miyniysuwtA_1
-    -- mynyswtA        miyniysuwtA     Nprop   Minnesota
-
-    Identity                  `noun`    {- miyniysuwtA -}      [ "Minnesota" ] ]
-
- |> "miyr.gan" <| [
-
-    -- ;; miyroganiy~_1
-    -- myrgny  miyroganiy~     N0      Mirghani
-
-    Identity |< Iy            `adj`     {- miyroganiy~ -}      [ "Mirghani" ] ]
-
- |> "miyrAlAy" <| [
-
-    -- ;; miyrAlAy_1
-    -- myrAlAy miyrAlAy        N0      brigadier general
-
-    Identity                  `noun`    {- miyrAlAy -}         [ "brigadier general" ] ]
-
- |> "miyrd^galAl" <| [
-
-    -- ;; miyrdojalAl_1
-    -- myrdjlAl        miyrdojalAl     Nprop   Mirdjalal
-
-    Identity                  `noun`    {- miyrdojalAl -}      [ "Mirdjalal" ] ]
-
- |> "miyrliwA'" <| [
-
-    -- ;; miyroliwA'_1
-    -- myrlwA' miyroliwA'      N0_Nh   major general
-    -- myrlwA& miyroliwA&      Nh      major general
-    -- myrlwA} miyroliwA}      Nhy     major general
-
-    Identity                  `noun`    {- miyroliwA' -}       [ "major general" ] ]
-
- |> "miyrnyiy" <| [
-
-    -- ;; miyronyiy_1
-    -- myrnyy  miyronyiy       Nprop   Mirnyi
-
-    Identity                  `noun`    {- miyronyiy -}        [ "Mirnyi" ] ]
-
- |> "miyruw" <| [
-
-    -- ;; miyruw_1
-    -- myrw    miyruw  Nprop   Miro
-
-    Identity                  `noun`    {- miyruw -}           [ "Miro" ] ]
-
- |> "miyrzA" <| [
-
-    -- ;; miyrozA_1
-    -- myrzA   miyrozA Nprop   Mirza
-
-    Identity                  `noun`    {- miyrozA -}          [ "Mirza" ] ]
-
- |> "miysAtAm" <| [
-
-    -- ;; miysAtAm_1
-    -- mysAtAm miysAtAm        Nprop   Misatam;Missatam;Miesatam;Maysatam;Miyasatam ??
-
-    Identity                  `noun`    {- miysAtAm -}         [ "Misatam", "Missatam", "Miesatam", "Maysatam", "Miyasatam ??" ] ]
-
- |> "miysmir" <| [
-
-    -- ;; miysomir_1
-    -- mysmr   miysomir        Nprop   Messmer
-
-    Identity                  `noun`    {- miysomir -}         [ "Messmer" ] ]
-
- |> "miytAfiyziyq" <| [
-
-    -- ;; miytAfiyziyqiy~_1
-    -- mytAfyzyqy      miytAfiyziyqiy~ Nall    metaphysical     [[miytAfiyziyqiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- miytAfiyziyqiy~ -}  [ "metaphysical" ] ]
-
- |> "miytAfiyziyqA" <| [
-
-    -- ;; miytAfiyziyqA_1
-    -- mytAfyzyqA      miytAfiyziyqA   N0      metaphysics
-
-    Identity                  `noun`    {- miytAfiyziyqA -}    [ "metaphysics" ] ]
-
- |> "miyt^sil" <| [
-
-    -- ;; miyto$il_1
-    -- myt$l   miyto$il        N0      Mitchell
-    -- myt$yl  miyto$iyl       N0      Mitchell
-
-    Identity                  `noun`    {- miyto$il -}         [ "Mitchell" ] ]
-
- |> "miytaduwr" <| [
-
-    -- ;; miytaduwr_1
-    -- mytdwr  miytaduwr       N0      matador
-
-    Identity                  `noun`    {- miytaduwr -}        [ "matador" ] ]
-
- |> "miytirAn" <| [
-
-    -- ;; miytirAn_1
-    -- mytrAn  miytirAn        Nprop   Mitterand
-
-    Identity                  `noun`    {- miytirAn -}         [ "Mitterand" ] ]
-
- |> "miytsuwbiy^siy" <| [
-
-    -- ;; miytosuwbiy$iy_1
-    -- mytswby$y       miytosuwbiy$iy  Nprop   Mitsubishi
-
-    Identity                  `noun`    {- miytosuwbiy$iy -}   [ "Mitsubishi" ] ]
-
- |> "miytuwruwluw^giyA" <| [
-
-    -- ;; miytuwruwluwjiyA_1
-    -- mytwrwlwjyA     miytuwruwluwjiyA        N0      meteorology
-
-    Identity                  `noun`    {- miytuwruwluwjiyA -} [ "meteorology" ] ]
-
- |> "miyuwniy_h" <| [
+ |> "miyUnI_h" <| [
 
     -- ;; miyuwniyx_1
     -- mywnyx  miyuwniyx       N0      Munich
 
     Identity                  `noun`    {- miyuwniyx -}        [ "Munich" ] ]
-
- |> "miyzAniyn" <| [
-
-    -- ;; miyzAniyn_1
-    -- myzAnyn miyzAniyn       N0      mezzanine
-
-    Identity                  `noun`    {- miyzAniyn -}        [ "mezzanine" ] ]
-
- |> "miyzuwbuwtAmiyA" <| [
-
-    -- ;; miyzuwbuwtAmiyA_1
-    -- myzwbwtAmyA     miyzuwbuwtAmiyA N0      Mesopotamia
-
-    Identity                  `noun`    {- miyzuwbuwtAmiyA -}  [ "Mesopotamia" ] ]
-
- |> "miyzuwbuwtAmiyy" <| [
-
-    -- ;; miyzuwbuwtAmiy~_1
-    -- myzwbwtAmy      miyzuwbuwtAmiy~ Nall    Mesopotamian     [[miyzuwbuwtAmiy~/NOUN]]
-    -- myzwbwtAmy      miyzuwbuwtAmiy~ Nall    Mesopotamian     [[miyzuwbuwtAmiy~/ADJ]]
-
-    Identity                  `adj`     {- miyzuwbuwtAmiy~ -}  [ "Mesopotamian" ] ]
 
  |> "mlm" <| [
 
@@ -12239,28 +12701,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mul~A -}            [ "Mulla" ] ]
 
- |> "mun.guwliyA" <| [
+ |> "mun.gUliyA" <| [
 
     -- ;; munoguwliyA_1
     -- mngwlyA munoguwliyA     N0      Mongolia
 
     Identity                  `noun`    {- munoguwliyA -}      [ "Mongolia" ] ]
 
- |> "munastiyr" <| [
-
-    -- ;; munastiyr_1
-    -- mnstyr  munastiyr       N0      Monastir
-
-    Identity                  `noun`    {- munastiyr -}        [ "Monastir" ] ]
-
- |> "munuluw^g" <| [
-
-    -- ;; munuluwj_1
-    -- mnlwj   munuluwj        N/At    monologue
-
-    Identity                  `noun`    {- munuluwj -}         [ "monologue" ] ]
-
- |> "munuwluw^g" <| [
+ |> "munUlU^g" <| [
 
     -- ;; munuwluwj_1
     -- mnwlwj  munuwluwj       N/At    monologue
@@ -12268,12 +12716,26 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- munuwluwj -}        [ "monologue" ] ]
 
- |> "munuwluw^gist" <| [
+ |> "munUlU^gist" <| [
 
     -- ;; munuwluwjisot_1
     -- mnwlwjst        munuwluwjisot   N       monologue artist
 
     Identity                  `noun`    {- munuwluwjisot -}    [ "monologue artist" ] ]
+
+ |> "munastIr" <| [
+
+    -- ;; munastiyr_1
+    -- mnstyr  munastiyr       N0      Monastir
+
+    Identity                  `noun`    {- munastiyr -}        [ "Monastir" ] ]
+
+ |> "munulU^g" <| [
+
+    -- ;; munuluwj_1
+    -- mnlwj   munuluwj        N/At    monologue
+
+    Identity                  `noun`    {- munuluwj -}         [ "monologue" ] ]
 
  |> "mus.tardah" <| [
 
@@ -12283,20 +12745,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- musoTarodah -}      [ "mustard" ] ]
 
- |> "muskAtiy" <| [
+ |> "muskAtI" <| [
 
     -- ;; musokAtiy_1
     -- mskAty  musokAtiy       N0      muscatel wine
 
     Identity                  `noun`    {- musokAtiy -}        [ "muscatel wine" ] ]
-
- |> "muskuwfiyy" <| [
-
-    -- ;; musokuwfiy~_1
-    -- mskwfy  musokuwfiy~     Nall    Muscovite     [[musokuwfiy~/NOUN]]
-    -- mskwfy  musokuwfiy~     Nall    Muscovite     [[musokuwfiy~/ADJ]]
-
-    Identity                  `adj`     {- musokuwfiy~ -}      [ "Muscovite" ] ]
 
  |> "musta.gAnim" <| [
 
@@ -12305,14 +12759,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- musotagAnim -}      [ "Mostaganem", "Mostaghanem" ] ]
 
- |> "muw.gAbiy" <| [
-
-    -- ;; muwgAbiy_1
-    -- mwgAby  muwgAbiy        Nprop   Mugabe
-    -- mwjAby  muwjAbiy        Nprop   Mugabe
-
-    Identity                  `noun`    {- muwgAbiy -}         [ "Mugabe" ] ]
-
  |> "muwArtin" <| [
 
     -- ;; muwArotin_1
@@ -12320,395 +12766,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- muwArotin -}        [ "Moarten" ] ]
 
- |> "muw_hiykA" <| [
-
-    -- ;; muwxiykA_1
-    -- mwxykA  muwxiykA        Nprop   Mugica;Mujica
-
-    Identity                  `noun`    {- muwxiykA -}         [ "Mugica", "Mujica" ] ]
-
- |> "muwbiyliyA" <| [
-
-    -- ;; muwbiyliyA_1
-    -- mwbylyA muwbiyliyA      N0      furniture;furnishings
-    -- mwbyly  muwbiyliy       NAt     furniture;furnishings
-
-    Identity                  `noun`    {- muwbiyliyA -}       [ "furniture", "furnishings" ] ]
-
- |> "muwbuwtuw" <| [
-
-    -- ;; muwbuwtuw_1
-    -- mwbwtw  muwbuwtuw       Nprop   Mobutu
-
-    Identity                  `noun`    {- muwbuwtuw -}        [ "Mobutu" ] ]
-
- |> "muwdiyn.giy" <| [
-
-    -- ;; muwdiynogiy_1
-    -- mwdyngy muwdiynogiy     Nprop   Mudenge
-
-    Identity                  `noun`    {- muwdiynogiy -}      [ "Mudenge" ] ]
-
- |> "muwluwtuwf" <| [
-
-    -- ;; muwluwtuwf_1
-    -- mwlwtwf muwluwtuwf      N0      Molotov
-
-    Identity                  `noun`    {- muwluwtuwf -}       [ "Molotov" ] ]
-
- |> "muwmyA'" <| [
-
-    -- ;; muwmoyA'_1
-    -- mwmyA'  muwmoyA'        N0_Nh   mummy
-    -- mwmyA&  muwmoyA&        Nh      mummy
-    -- mwmyA}  muwmoyA}        Nhy     mummy
-
-    Identity                  `noun`    {- muwmoyA' -}         [ "mummy" ] ]
-
- |> "muwnA" <| [
-
-    -- ;; muwnA_1
-    -- mwnA    muwnA   Nprop   Mona
-
-    Identity                  `noun`    {- muwnA -}            [ "Mona" ] ]
-
- |> "muwnAkuw" <| [
-
-    -- ;; muwnAkuw_1
-    -- mwnAkw  muwnAkuw        Nprop   Monaco
-
-    Identity                  `noun`    {- muwnAkuw -}         [ "Monaco" ] ]
-
- |> "muwnbuwlyiyh" <| [
-
-    -- ;; muwnobuwloyiyh_1
-    -- mwnbwlyyh       muwnobuwloyiyh  Nprop   Montpellier
-
-    Identity                  `noun`    {- muwnobuwloyiyh -}   [ "Montpellier" ] ]
-
- |> "muwndiyAl" <| [
-
-    -- ;; muwnodiyAl_1
-    -- mwndyAl muwnodiyAl      N0_Nh   Mondial (World Cup)
-
-    Identity                  `noun`    {- muwnodiyAl -}       [ "Mondial (World Cup)" ],
-
-    -- ;; muwnodiyAliy~_1
-    -- mwndyAly        muwnodiyAliy~   Nall    Mondial (World Cup)     [[muwnodiyAliy~/NOUN]]
-    -- mwndyAly        muwnodiyAliy~   Nall    Mondial (World Cup)     [[muwnodiyAliy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- muwnodiyAliy~ -}    [ "Mondial (World Cup)" ] ]
-
- |> "muwniykA" <| [
-
-    -- ;; muwniykA_1
-    -- mwnykA  muwniykA        Nprop   Monica
-
-    Identity                  `noun`    {- muwniykA -}         [ "Monica" ] ]
-
- |> "muwntiy" <| [
-
-    -- ;; muwnotiy_1
-    -- mwnty   muwnotiy        Nprop   Monte;Monty
-
-    Identity                  `noun`    {- muwnotiy -}         [ "Monte", "Monty" ] ]
-
- |> "muwntiyfiydiyuw" <| [
-
-    -- ;; muwnotiyfiydiyuw_1
-    -- mwntyfydyw      muwnotiyfiydiyuw        Nprop   Montevideo
-
-    Identity                  `noun`    {- muwnotiyfiydiyuw -} [ "Montevideo" ] ]
-
- |> "muwntiyniy.gruw" <| [
-
-    -- ;; muwnotiyniygoruw_1
-    -- mwntynygrw      muwnotiyniygoruw        Nprop   Montenegro
-
-    Identity                  `noun`    {- muwnotiyniygoruw -} [ "Montenegro" ] ]
-
- |> "muwntriyAl" <| [
-
-    -- ;; muwnotriyAl_1
-    -- mwntryAl        muwnotriyAl     Nprop   Montreal
-
-    Identity                  `noun`    {- muwnotriyAl -}      [ "Montreal" ] ]
-
- |> "muwntuwbAn" <| [
-
-    -- ;; muwnotuwbAn_1
-    -- mwntwbAn        muwnotuwbAn     Nprop   Montauban
-
-    Identity                  `noun`    {- muwnotuwbAn -}      [ "Montauban" ] ]
-
- |> "muwnuwluw^g" <| [
-
-    -- ;; muwnuwluwj_1
-    -- mwnwlwj muwnuwluwj      NduAt   monologue
-
-    Identity                  `noun`    {- muwnuwluwj -}       [ "monologue" ] ]
-
- |> "muwnuwluw^gist" <| [
-
-    -- ;; muwnuwluwjisot_1
-    -- mwnwlwjst       muwnuwluwjisot  NduAt   monologue artist
-
-    Identity                  `noun`    {- muwnuwluwjisot -}   [ "monologue artist" ] ]
-
- |> "muwnuwtayb" <| [
-
-    -- ;; muwnuwtayob_1
-    -- mwnwtyb muwnuwtayob     N0      Monotype
-
-    Identity                  `noun`    {- muwnuwtayob -}      [ "Monotype" ] ]
-
- |> "muwr.giynstiyrn" <| [
-
-    -- ;; muwrogiynstiyrn_1
-    -- mwrgynstyrn     muwrogiynstiyrn Nprop   Morgenstern
-
-    Identity                  `noun`    {- muwrogiynstiyrn -}  [ "Morgenstern" ] ]
-
- |> "muwrAfiyk" <| [
-
-    -- ;; muwrAfiyk_1
-    -- mwrAfyk muwrAfiyk       Nprop   Moravec
-
-    Identity                  `noun`    {- muwrAfiyk -}        [ "Moravec" ] ]
-
- |> "muwrAtiynuws" <| [
-
-    -- ;; muwrAtiynuws_1
-    -- mwrAtynws       muwrAtiynuws    Nprop   Moratinos
-
-    Identity                  `noun`    {- muwrAtiynuws -}     [ "Moratinos" ] ]
-
- |> "muwrAtizm" <| [
-
-    -- ;; muwrAtizm_1
-    -- mwrAtzm muwrAtizm       N0      rheumatism
-
-    Identity                  `noun`    {- muwrAtizm -}        [ "rheumatism" ] ]
-
- |> "muwrdi_hAy" <| [
-
-    -- ;; muwrodixAy_1
-    -- mwrdxAy muwrodixAy      Nprop   Mordechai
-    -- mrdxAy  murodixAy       Nprop   Mordechai
-
-    Identity                  `noun`    {- muwrodixAy -}       [ "Mordechai" ] ]
-
- |> "muwrfiyn" <| [
-
-    -- ;; muwrofiyn_1
-    -- mwrfyn  muwrofiyn       N0      morphine
-    -- mrfyn   murofiyn        N0      morphine
-
-    Identity                  `noun`    {- muwrofiyn -}        [ "morphine" ] ]
-
- |> "muwrfuwluw^giyA" <| [
-
-    -- ;; muwrofuwluwjiyA_1
-    -- mwrfwlwjyA      muwrofuwluwjiyA N0      morphology
-
-    Identity                  `noun`    {- muwrofuwluwjiyA -}  [ "morphology" ] ]
-
- |> "muwriy.tAn" <| [
-
-    -- ;; muwriyTAniy~_1
-    -- mwryTAny        muwriyTAniy~    Nall    Mauritanian     [[muwriyTAniy~/NOUN]]
-    -- mwryTAny        muwriyTAniy~    Nall    Mauritanian     [[muwriyTAniy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- muwriyTAniy~ -}     [ "Mauritanian" ] ]
-
- |> "muwriy.tAniyA" <| [
-
-    -- ;; muwriyTAniyA_1
-    -- mwryTAnyA       muwriyTAniyA    N0      Mauritania
-
-    Identity                  `noun`    {- muwriyTAniyA -}     [ "Mauritania" ] ]
-
- |> "muwriysk" <| [
-
-    -- ;; muwriyskiy~_1
-    -- mwrysky muwriyskiy~     Nall    Morisco     [[muwriyskiy~/NOUN]]
-    -- mwrysky muwriyskiy~     Nall    Morisco     [[muwriyskiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- muwriyskiy~ -}      [ "Morisco" ] ]
-
- |> "muwriyskw" <| [
-
-    -- ;; muwriyskw_1
-    -- mwryskw muwriyskw       N0      Morisco
-
-    Identity                  `noun`    {- muwriyskw -}        [ "Morisco" ] ]
-
- |> "muwriytAn" <| [
-
-    -- ;; muwriytAniy~_1
-    -- mwrytAny        muwriytAniy~    Nall    Mauritanian     [[muwriytAniy~/NOUN]]
-    -- mwrytAny        muwriytAniy~    Nall    Mauritanian     [[muwriytAniy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- muwriytAniy~ -}     [ "Mauritanian" ] ]
-
- |> "muwriytAniyA" <| [
-
-    -- ;; muwriytAniyA_1
-    -- mwrytAnyA       muwriytAniyA    N0      Mauritania
-
-    Identity                  `noun`    {- muwriytAniyA -}     [ "Mauritania" ] ]
-
- |> "muwriyuwkA" <| [
-
-    -- ;; muwriyuwkA_1
-    -- mwrywkA muwriyuwkA      Nprop   Morioka
-
-    Identity                  `noun`    {- muwriyuwkA -}       [ "Morioka" ] ]
-
- |> "muwrniyn.g" <| [
-
-    -- ;; muwroniyng_1
-    -- mwrnyng muwroniyng      Nprop   Mourning
-
-    Identity                  `noun`    {- muwroniyng -}       [ "Mourning" ] ]
-
- |> "muwrs" <| [
-
-    -- ;; muwrs_1
-    -- mwrs    muwrs   N0      Morse
-
-    Identity                  `noun`    {- muwrs -}            [ "Morse" ] ]
-
- |> "muwruwmbiy" <| [
-
-    -- ;; muwruwmobiy_1
-    -- mwrwmby muwruwmobiy     Nprop   Morumbi
-
-    Identity                  `noun`    {- muwruwmobiy -}      [ "Morumbi" ] ]
-
- |> "muwsAwiyy" <| [
-
-    -- ;; muwsAwiy~_1
-    -- mwsAwy  muwsAwiy~       N0      Moussaoui
-
-    Identity                  `noun`    {- muwsAwiy~ -}        [ "Moussaoui" ] ]
-
- |> "muwsiyfiyniy" <| [
-
-    -- ;; muwsiyfiyniy_1
-    -- mwsyfyny        muwsiyfiyniy    N0      Museveni
-
-    Identity                  `noun`    {- muwsiyfiyniy -}     [ "Museveni" ] ]
-
- |> "muwsiyqAr" <| [
-
-    -- ;; muwsiyqAr_1
-    -- mwsyqAr muwsiyqAr       N       musician
-
-    Identity                  `noun`    {- muwsiyqAr -}        [ "musician" ] ]
-
- |> "muwsiyqY" <| [
-
-    -- ;; muwsiyqaY_1
-    -- mwsyqY  muwsiyqaY       N0      music
-    -- mwsyqA  muwsiyqA        Nh      music
-
-    Identity                  `noun`    {- muwsiyqaY -}        [ "music" ] ]
-
- |> "muwskuw" <| [
-
-    -- ;; muwsokuw_1
-    -- mwskw   muwsokuw        N0      Moscow
-
-    Identity                  `noun`    {- muwsokuw -}         [ "Moscow" ],
-
-    -- ;; muwsokuwiy~_1
-    -- mwskwy  muwsokuwiy~     Nall    Muscovite     [[muwsokuwiy~/NOUN]]
-    -- mwskwy  muwsokuwiy~     Nall    Muscovite     [[muwsokuwiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- muwsokuwiy~ -}      [ "Muscovite" ] ]
-
- |> "muwstAr" <| [
-
-    -- ;; muwsotAr_1
-    -- mwstAr  muwsotAr        Nprop   Mostar
-    -- mwstr   muwsotar        Nprop   Mostar
-
-    Identity                  `noun`    {- muwsotAr -}         [ "Mostar" ] ]
-
- |> "muwtuwrz" <| [
-
-    -- ;; muwtuwrz_1
-    -- mwtwrz  muwtuwrz        Nprop   Motors
-
-    Identity                  `noun`    {- muwtuwrz -}         [ "Motors" ] ]
-
- |> "muwtuwsiykl" <| [
-
-    -- ;; muwtuwsiykl_1
-    -- mwtwsykl        muwtuwsiykl     N/At    motorcycle
-
-    Identity                  `noun`    {- muwtuwsiykl -}      [ "motorcycle" ] ]
-
- |> "muwtziy" <| [
-
-    -- ;; muwtoziy_1
-    -- mwtzy   muwtoziy        Nprop   Muzzi
-
-    Identity                  `noun`    {- muwtoziy -}         [ "Muzzi" ] ]
-
- |> "muwyA" <| [
-
-    -- ;; muwyA_1
-    -- mwyA    muwyA   Nprop   Moya
-
-    Identity                  `noun`    {- muwyA -}            [ "Moya" ] ]
-
- |> "muwzAykuw" <| [
-
-    -- ;; muwzAyokuw_1
-    -- mwzAykw muwzAyokuw      N0      mosaic
-    -- mwzAyyk muwzAyiyk       N0      mosaic
-
-    Identity                  `noun`    {- muwzAyokuw -}       [ "mosaic" ] ]
-
- |> "muwzambiyq" <| [
-
-    -- ;; muwzamobiyq_1
-    -- mwzmbyq muwzamobiyq     N0      Mozambique
-    -- mwzAmbyq        muwzAmobiyq     N0      Mozambique
-
-    Identity                  `noun`    {- muwzamobiyq -}      [ "Mozambique" ],
-
-    -- ;; muwzamobiyqiy~_1
-    -- mwzmbyqy        muwzamobiyqiy~  Nall    Mozambican     [[muwzamobiyqiy~/NOUN]]
-    -- mwzmbyqy        muwzamobiyqiy~  Nall    Mozambican     [[muwzamobiyqiy~/ADJ]]
-    -- mwzAmbyqy       muwzAmobiyqiy~  Nall    Mozambican     [[muwzAmobiyqiy~/NOUN]]
-    -- mwzAmbyqy       muwzAmobiyqiy~  Nall    Mozambican     [[muwzAmobiyqiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- muwzamobiyqiy~ -}   [ "Mozambican" ] ]
-
- |> "mwbyl" <| [
-
-    -- ;; mwbyl_1
-    -- mwbyl   mwbyl   Nprop   Mobil
-
-    Identity                  `noun`    {- mwbyl -}            [ "Mobil" ] ]
-
  |> "mylAn" <| [
 
     -- ;; mylAn_1
     -- mylAn   mylAn   Nprop   Milan
 
     Identity                  `noun`    {- mylAn -}            [ "Milan" ] ]
-
- |> "mylw^syfyt^s" <| [
-
-    -- ;; mylw$yfyt$_1
-    -- mylw$yfyt$      mylw$yfyt$      Nprop   Milosevic
-    -- mylwsyfyt$      mylwsyfyt$      Nprop   Milosevic
-
-    Identity                  `noun`    {- mylw$yfyt$ -}       [ "Milosevic" ] ]
 
  |> "tamyA.t" <| [
 

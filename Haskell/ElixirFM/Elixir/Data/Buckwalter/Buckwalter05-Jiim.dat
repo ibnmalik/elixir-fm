@@ -2044,6 +2044,7 @@ jsw     josuw   IV_0hAnn        become hard;become solid
 js      jos     IV_0hwnyn       become hard;become solid
 jsY     josaY   IV_0_Pass_yu    become hard;become solid
 ;
+;--- j$
 ;; ja$~-u_1
 j$      ja$~    PV_V    grind;crush;grate
 j$$     ja$a$   PV_C    grind;crush;grate
@@ -3746,6 +3747,7 @@ jnky    junokiy~        Nap     harpists
 jnwA    januwA  N0      Genoa
 jnwh    januwah N0      Genoa
 ;
+;--- jny
 ;; janaY-i_1
 jnY     janaY   PV_0    commit a crime
 jnA     janA    PV_h    commit a crime
@@ -4349,7 +4351,7 @@ jwdA}   jawodA} Nhy     better/best;more/most generous
 >jAwyd  >ajAwiyd        Ndip    better/best;more/most generous
 AjAwyd  >ajAwiyd        Ndip    better/best;more/most generous
 ;
-;; juwdw_1
+;; juwduw_1
 jwdw    juwdw   N0      judo
 ;
 ;--- jwr
@@ -4945,7 +4947,7 @@ AjyAf   >ajoyAf N       cadavers
 ;; jiyfiy~_1
 jyfy    jiyfiy~ N-ap    cadaverous
 ;
-;; jyfswn_1
+;; jiyfsuwn_1
 jyfswn  jyfswn  Nprop   Jephson
 ;
 ;--- jyk

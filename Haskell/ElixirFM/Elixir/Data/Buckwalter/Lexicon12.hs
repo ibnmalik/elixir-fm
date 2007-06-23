@@ -33,22 +33,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< At            `noun`    {- IisokAt -}          [ "silencing", "muting", "muzzling" ] ]
 
- |> "'usbuw`" <| [
-
-    -- ;; >usobuwE_1
-    -- >sbwE   >usobuwE        Ndu     week
-    -- AsbwE   >usobuwE        Ndu     week
-    -- >sAbyE  >asAbiyE        Ndip    weeks
-    -- AsAbyE  >asAbiyE        Ndip    weeks
-
-    Identity                  `noun`    {- OusobuwE -}         [ "week" ],
-
-    -- ;; >usobuwEiy~_1
-    -- >sbwEy  >usobuwEiy~     Nall    weekly     [[>usobuwEiy~/ADJ]]
-    -- AsbwEy  >usobuwEiy~     Nall    weekly     [[>usobuwEiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- OusobuwEiy~ -}      [ "weekly" ] ]
-
  |> "'uskuff" <| [
 
     -- ;; >usokuf~ap_1
@@ -56,24 +40,6 @@ lexicon = listing "Lexicon's properties"
     -- Askf    >usokuf~        Nap     doorstep;window sill
 
     Identity |< aT            `noun`    {- Ousokuf~ap -}       [ "doorstep", "window sill" ] ]
-
- |> "'usluwb" <| [
-
-    -- ;; >usoluwb_1
-    -- >slwb   >usoluwb        Ndu     style;method;manner
-    -- Aslwb   >usoluwb        Ndu     style;method;manner
-    -- >sAlyb  >asAliyb        Ndip    methods;modes
-    -- AsAlyb  >asAliyb        Ndip    methods;modes
-
-    Identity                  `noun`    {- Ousoluwb -}         [ "style", "method", "manner", "modes" ] ]
-
- |> "'usruw^g" <| [
-
-    -- ;; >usoruwjap_1
-    -- >srwj   >usoruwj        Napdu   lie;falsehood
-    -- Asrwj   >usoruwj        Napdu   lie;falsehood
-
-    Identity |< aT            `noun`    {- Ousoruwjap -}       [ "lie", "falsehood" ] ]
 
  |> "ism" <| [
 
@@ -91,17 +57,15 @@ lexicon = listing "Lexicon's properties"
     -- >sAm    >asAm   NK      names
     -- AsAm    >asAm   NK      names
 
-    Identity                  `noun`    {- Aisom -}            [ "name" ] ]
-
- |> "ismiyy" <| [
+    Identity                  `noun`    {- Aisom -}            [ "name" ],
 
     -- ;; {isomiy~_1
     -- <smy    {isomiy~        N-ap    nominal;in name     [[<isomiy~/ADJ]]
     -- Asmy    {isomiy~        N-ap    nominal;in name     [[<isomiy~/ADJ]]
 
-    Identity                  `adj`     {- Aisomiy~ -}         [ "nominal", "in name" ] ]
+    Identity |< Iy            `adj`     {- Aisomiy~ -}         [ "nominal", "in name" ] ]
 
- |> "mas.tariyn" <| [
+ |> "mas.tarIn" <| [
 
     -- ;; masoTariyn_1
     -- msTryn  masoTariyn      N       trowel
@@ -350,6 +314,24 @@ lexicon = listing "Lexicon's properties"
     -- sAm     sAm     N0      SAM
 
     FAL                       `noun`    {- sAm -}              [ "SAM" ],
+
+    -- ;; sAmiy~_1
+    -- sAmy    sAmiy~  Nall    Semite;Semitic     [[sAmiy~/NOUN]]
+    -- sAmy    sAmiy~  Nall    Semite;Semitic     [[sAmiy~/ADJ]]
+
+    FAL |< Iy                 `adj`     {- sAmiy~ -}           [ "Semite", "Semitic" ],
+
+    -- ;; lAsAmiy~_1
+    -- lAsAmy  lAsAmiy~        Nall_L  anti-Semite     [[lAsAmiy~/ADJ]]
+    -- lAsAmy  lAsAmiy~        N-ap_L  anti-Semitic     [[lAsAmiy~/ADJ]]
+    -- lAsAmy  lAsAmiy~        Nap_L   anti-Semitism     [[lAsAmiy~/NOUN]]
+
+    lA >| FAL |< Iy           `adj`     {- lAsAmiy~ -}         [ "anti-Semite", "anti-Semitic", "anti-Semitism" ],
+
+    -- ;; sAmiy~ap_1
+    -- sAmy    sAmiy~  Nap     Semitism     [[sAmiy~/NOUN]]
+
+    FAL |< Iy |< aT           `noun`    {- sAmiy~ap -}         [ "Semitism" ],
 
     -- ;; sA}imap_1
     -- sA}m    sA}im   Nap     grazing freely
@@ -2927,6 +2909,22 @@ lexicon = listing "Lexicon's properties"
     -- sbAEy   subAEiy~        Nall    seven-part     [[subAEiy~/ADJ]]
 
     FuCAL |< Iy               `adj`     {- subAEiy~ -}         [ "seven-part" ],
+
+    -- ;; >usobuwE_1
+    -- >sbwE   >usobuwE        Ndu     week
+    -- AsbwE   >usobuwE        Ndu     week
+    -- >sAbyE  >asAbiyE        Ndip    weeks
+    -- AsAbyE  >asAbiyE        Ndip    weeks
+
+    HuFCUL                    `noun`    {- OusobuwE -}         [ "week" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'asAbiy` Ndip" ] -},
+
+    -- ;; >usobuwEiy~_1
+    -- >sbwEy  >usobuwEiy~     Nall    weekly     [[>usobuwEiy~/ADJ]]
+    -- AsbwEy  >usobuwEiy~     Nall    weekly     [[>usobuwEiy~/ADJ]]
+
+    HuFCUL |< Iy              `adj`     {- OusobuwEiy~ -}      [ "weekly" ],
 
     -- ;; sabuwEAt_1
     -- sbwE    sabuwE  NAt     Pentecost
@@ -6157,6 +6155,16 @@ lexicon = listing "Lexicon's properties"
     -- slyb    saliyb  N-ap    stolen     [[saliyb/ADJ]]
 
     FaCIL                     `adj`     {- saliyb -}           [ "stolen" ],
+
+    -- ;; >usoluwb_1
+    -- >slwb   >usoluwb        Ndu     style;method;manner
+    -- Aslwb   >usoluwb        Ndu     style;method;manner
+    -- >sAlyb  >asAliyb        Ndip    methods;modes
+    -- AsAlyb  >asAliyb        Ndip    methods;modes
+
+    HuFCUL                    `noun`    {- Ousoluwb -}         [ "style", "method", "manner", "modes" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'asAliyb Ndip" ] -},
 
     -- ;; {isotilAb_1
     -- <stlAb  {isotilAb       NduAt   plundering
@@ -9990,6 +9998,12 @@ lexicon = listing "Lexicon's properties"
 
     FuCUL |< Iy |< aT         `noun`    {- suruwjiy~ap -}      [ "saddlery" ],
 
+    -- ;; >usoruwjap_1
+    -- >srwj   >usoruwj        Napdu   lie;falsehood
+    -- Asrwj   >usoruwj        Napdu   lie;falsehood
+
+    HuFCUL |< aT              `noun`    {- Ousoruwjap -}       [ "lie", "falsehood" ],
+
     -- ;; misorajap_1
     -- msrj    misoraj Nap     lamp
     -- msArj   masArij Ndip    lamps
@@ -12870,6 +12884,14 @@ lexicon = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- say~Ab -}           [ "Sayyab" ] ]
 
+ |> "s y b r" <| [
+
+    -- ;; siybiyriy~_1
+    -- sybyry  siybiyriy~      Nall    Siberian     [[siybiyriy~/NOUN]]
+    -- sybyry  siybiyriy~      Nall    Siberian     [[siybiyriy~/ADJ]]
+
+    KiRDIS |< Iy              `adj`     {- siybiyriy~ -}       [ "Siberian" ] ]
+
  |> "s y d" <| [
 
     -- ;; say~id_1
@@ -13071,6 +13093,13 @@ lexicon = listing "Lexicon's properties"
     -- sylAn   siylAn  N0      Ceylon
 
     FILAn                     `noun`    {- siylAn -}           [ "Ceylon" ] ]
+
+ |> "s y l ^s" <| [
+
+    -- ;; siyliy$_1
+    -- syly$   syly$   Nprop   Celes
+
+    KiRDIS                    `noun`    {- siyliy$ -}          [ "Celes" ] ]
 
  |> "s y l n" <| [
 
@@ -13341,7 +13370,7 @@ lexicon = listing "Lexicon's properties"
 
     FIL                       `noun`    {- siy~ -}             [ "alike", "the same", "equals" ] ]
 
- |> "sA.guw" <| [
+ |> "sA.gU" <| [
 
     -- ;; sAguw_1
     -- sAgw    sAguw   N0      sago
@@ -13377,26 +13406,33 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sAbAT -}            [ "arcade", "archway" ] ]
 
- |> "sAbAtiyniy" <| [
+ |> "sAbAtInI" <| [
 
     -- ;; sAbAtiyniy_1
     -- sAbAtyny        sAbAtiyniy      N0      Sabatini
 
     Identity                  `noun`    {- sAbAtiyniy -}       [ "Sabatini" ] ]
 
- |> "sAbuwniys" <| [
+ |> "sAbUnIs" <| [
 
     -- ;; sAbuwniys_1
     -- sAbwnys sAbuwniys       Nprop   Sabonis
 
     Identity                  `noun`    {- sAbuwniys -}        [ "Sabonis" ] ]
 
- |> "sAduwfiy" <| [
+ |> "sAdUfI" <| [
 
     -- ;; sAduwfiy_1
     -- sAdwfy  sAduwfiy        Nprop   Sadovi
 
     Identity                  `noun`    {- sAduwfiy -}         [ "Sadovi" ] ]
+
+ |> "sAfIn" <| [
+
+    -- ;; sAfiyn_1
+    -- sAfyn   sAfiyn  Nprop   Safin
+
+    Identity                  `noun`    {- sAfiyn -}           [ "Safin" ] ]
 
  |> "sAfiyA'" <| [
 
@@ -13407,21 +13443,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sAfiyA' -}          [ "fine dust" ] ]
 
- |> "sAfiyn" <| [
-
-    -- ;; sAfiyn_1
-    -- sAfyn   sAfiyn  Nprop   Safin
-
-    Identity                  `noun`    {- sAfiyn -}           [ "Safin" ] ]
-
- |> "sAkiysAn" <| [
+ |> "sAkIsAn" <| [
 
     -- ;; sAkiysAn_1
     -- sAkysAn sAkiysAn        Nprop   Sakesan
 
     Identity                  `noun`    {- sAkiysAn -}         [ "Sakesan" ] ]
 
- |> "sAkrAmintuw" <| [
+ |> "sAkrAmintU" <| [
 
     -- ;; sAkrAminotuw_1
     -- sAkrAmntw       sAkrAminotuw    Nprop   Sacramento
@@ -13435,21 +13464,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sAlAs -}            [ "Salas" ] ]
 
- |> "sAliynAs" <| [
+ |> "sAlInAs" <| [
 
     -- ;; sAliynAs_1
     -- sAlynAs sAliynAs        N0      Salinas
 
     Identity                  `noun`    {- sAliynAs -}         [ "Salinas" ] ]
 
- |> "sAliysA^s" <| [
+ |> "sAlIsA^s" <| [
 
     -- ;; sAliysA$_1
     -- sAlysA$ sAliysA$        Nprop   Salisachs
 
     Identity                  `noun`    {- sAliysA$ -}         [ "Salisachs" ] ]
 
- |> "sAluwniyk" <| [
+ |> "sAlUnIk" <| [
 
     -- ;; sAluwniyk_1
     -- sAlwnyk sAluwniyk       Nprop   Salonika
@@ -13484,27 +13513,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sAmobrAs -}         [ "Sampras" ] ]
 
- |> "sAmiyy" <| [
-
-    -- ;; sAmiy~_1
-    -- sAmy    sAmiy~  Nall    Semite;Semitic     [[sAmiy~/NOUN]]
-    -- sAmy    sAmiy~  Nall    Semite;Semitic     [[sAmiy~/ADJ]]
-
-    Identity                  `adj`     {- sAmiy~ -}           [ "Semite", "Semitic" ],
-
-    -- ;; lAsAmiy~_1
-    -- lAsAmy  lAsAmiy~        Nall_L  anti-Semite     [[lAsAmiy~/ADJ]]
-    -- lAsAmy  lAsAmiy~        N-ap_L  anti-Semitic     [[lAsAmiy~/ADJ]]
-    -- lAsAmy  lAsAmiy~        Nap_L   anti-Semitism     [[lAsAmiy~/NOUN]]
-
-    lA >| Identity            `adj`     {- lAsAmiy~ -}         [ "anti-Semite", "anti-Semitic", "anti-Semitism" ],
-
-    -- ;; sAmiy~ap_1
-    -- sAmy    sAmiy~  Nap     Semitism     [[sAmiy~/NOUN]]
-
-    Identity |< aT            `noun`    {- sAmiy~ap -}         [ "Semitism" ] ]
-
- |> "sAn.giynittiy" <| [
+ |> "sAn.gInittI" <| [
 
     -- ;; sAnogiynit~iy_1
     -- sAngynty        sAnogiynit~iy   Nprop   Sanguinetti
@@ -13519,35 +13528,35 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sAnA -}             [ "SANA (Syrian Arab News Agency)" ] ]
 
- |> "sAn^syz" <| [
+ |> "sAn^sIz" <| [
 
-    -- ;; sAn$yz_1
+    -- ;; sAn$iyz_1
     -- sAn$yz  sAn$yz  Nprop   Sanchez
 
-    Identity                  `noun`    {- sAn$yz -}           [ "Sanchez" ] ]
+    Identity                  `noun`    {- sAn$iyz -}          [ "Sanchez" ] ]
 
- |> "sAndiyn" <| [
+ |> "sAndIn" <| [
 
     -- ;; sAnodiyniy~_1
     -- sAndyny sAnodiyniy~     Nall    Sandinista
 
     Identity |< Iy            `adj`     {- sAnodiyniy~ -}      [ "Sandinista" ] ]
 
- |> "sAndruw" <| [
-
-    -- ;; sAndruw_1
-    -- sAndrw  sAndruw Nprop   Sandro
-
-    Identity                  `noun`    {- sAndruw -}          [ "Sandro" ] ]
-
- |> "sAnduwr" <| [
+ |> "sAndUr" <| [
 
     -- ;; sAnoduwr_1
     -- sAndwr  sAnoduwr        Nprop   Sandor
 
     Identity                  `noun`    {- sAnoduwr -}         [ "Sandor" ] ]
 
- |> "sAndwiyt^s" <| [
+ |> "sAndrU" <| [
+
+    -- ;; sAndruw_1
+    -- sAndrw  sAndruw Nprop   Sandro
+
+    Identity                  `noun`    {- sAndruw -}          [ "Sandro" ] ]
+
+ |> "sAndwIt^s" <| [
 
     -- ;; sAndowiyt$_1
     -- sAndwyt$        sAndowiyt$      NduAt   sandwich
@@ -13582,14 +13591,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sAnotAnodir -}      [ "Santander" ] ]
 
- |> "sAntuws" <| [
+ |> "sAntUs" <| [
 
     -- ;; sAnotuws_1
     -- sAntws  sAnotuws        Nprop   Santos
 
     Identity                  `noun`    {- sAnotuws -}         [ "Santos" ] ]
 
- |> "sAriyd" <| [
+ |> "sArId" <| [
 
     -- ;; sAriyd_1
     -- sAryd   sAriyd  Nprop   Sarid
@@ -13619,7 +13628,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sAtAn -}            [ "satin" ] ]
 
- |> "sAy.guwn" <| [
+ |> "sAy.gUn" <| [
 
     -- ;; sAyoguwn_1
     -- sAygwn  sAyoguwn        N0      Saigon
@@ -13627,14 +13636,487 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sAyoguwn -}         [ "Saigon" ] ]
 
- |> "sAymuwn" <| [
+ |> "sAymUn" <| [
 
     -- ;; sAyomuwn_1
     -- sAymwn  sAyomuwn        Nprop   Simon
 
     Identity                  `noun`    {- sAyomuwn -}         [ "Simon" ] ]
 
- |> "sa`dAlldiyn" <| [
+ |> "sI^swar" <| [
+
+    -- ;; siy$war_1
+    -- sy$wr   siy$war N0      sechoir (hair dryer)
+
+    Identity                  `noun`    {- siy$war -}          [ "sechoir (hair dryer)" ] ]
+
+ |> "sIbAstiyAn" <| [
+
+    -- ;; siybAsotiyAn_1
+    -- sybAstyAn       siybAsotiyAn    N0      Sebastian;Sebastien
+    -- sbAstyAn        sibAsotiyAn     N0      Sebastian;Sebastien
+
+    Identity                  `noun`    {- siybAsotiyAn -}     [ "Sebastian", "Sebastien" ] ]
+
+ |> "sIbIriyA" <| [
+
+    -- ;; siybiyriyA_1
+    -- sybyryA siybiyriyA      N0      Siberia
+
+    Identity                  `noun`    {- siybiyriyA -}       [ "Siberia" ] ]
+
+ |> "sIbU" <| [
+
+    -- ;; siybuw_1
+    -- sybw    siybuw  Nprop   Sipo
+
+    Identity                  `noun`    {- siybuw -}           [ "Sipo" ] ]
+
+ |> "sIdA" <| [
+
+    -- ;; siydA_1
+    -- sydA    siydA   N0      SIDA (AIDS)
+
+    Identity                  `noun`    {- siydA -}            [ "SIDA (AIDS)" ] ]
+
+ |> "sIdnI" <| [
+
+    -- ;; siydoniy_1
+    -- sydny   siydoniy        Nprop   Sydney
+
+    Identity                  `noun`    {- siydoniy -}         [ "Sydney" ] ]
+
+ |> "sIfIrUmUrsk" <| [
+
+    -- ;; siyfiyruwmuwrsk_1
+    -- syfyrwmwrsk     siyfiyruwmuwrsk Nprop   Severomorsk
+
+    Identity                  `noun`    {- siyfiyruwmuwrsk -}  [ "Severomorsk" ] ]
+
+ |> "sIkUlU^gIy" <| [
+
+    -- ;; siykuwluwjiy~_1
+    -- sykwlwjy        siykuwluwjiy~   Nall    psychological     [[siykuwluwjiy~/ADJ]]
+
+    Identity                  `adj`     {- siykuwluwjiy~ -}    [ "psychological" ] ]
+
+ |> "sIkUlU^giyA" <| [
+
+    -- ;; siykuwluwjiyA_1
+    -- sykwlwjyA       siykuwluwjiyA   N0      psychology
+    -- sykwlwjy        siykuwluwjiy~   Nap     psychology     [[siykuwluwjiy~/NOUN]]
+
+    Identity                  `noun`    {- siykuwluwjiyA -}    [ "psychology" ] ]
+
+ |> "sIkUrtAh" <| [
+
+    -- ;; siykuwrtAh_1
+    -- sykwrtAh        siykuwrtAh      N0      insurance
+
+    Identity                  `noun`    {- siykuwrtAh -}       [ "insurance" ] ]
+
+ |> "sIkUsUm" <| [
+
+    -- ;; siykuwsuwmAtiy~_1
+    -- sykwswmAty      siykuwsuwmAtiy~ Nall    psychosomatic     [[siykuwsuwmAtiy~/ADJ]]
+
+    Identity |< At |< Iy      `adj`     {- siykuwsuwmAtiy~ -}  [ "psychosomatic" ] ]
+
+ |> "sIlfA" <| [
+
+    -- ;; siylofA_1
+    -- sylfA   siylofA Nprop   Silva
+
+    Identity                  `noun`    {- siylofA -}          [ "Silva" ] ]
+
+ |> "sImA" <| [
+
+    -- ;; siymA_1
+    -- symA    siymA   N0_Nh   sign;characteristic
+    -- symY    siymaY  N0      sign;characteristic
+    -- symA'   siymA'  N0_Nh   sign;characteristic
+    -- symA&   siymA&  Nh      sign;characteristic
+    -- symA}   siymA}  Nhy     sign;characteristic
+    -- sym     siym    Napdu   sign;characteristic
+
+    Identity                  `noun`    {- siymA -}            [ "sign", "characteristic" ] ]
+
+ |> "sImAntIk" <| [
+
+    -- ;; siymAnotiyk_1
+    -- symAntyk        siymAnotiyk     N0      semantics
+
+    Identity                  `noun`    {- siymAnotiyk -}      [ "semantics" ] ]
+
+ |> "sImUnI" <| [
+
+    -- ;; siymuwniy_1
+    -- symwny  siymuwniy       Nprop   Simoni;Simone
+
+    Identity                  `noun`    {- siymuwniy -}        [ "Simoni", "Simone" ] ]
+
+ |> "sImbA" <| [
+
+    -- ;; siymobA_1
+    -- symbA   siymobA Nprop   Simba
+
+    Identity                  `noun`    {- siymobA -}          [ "Simba" ] ]
+
+ |> "sImiyA" <| [
+
+    -- ;; siymiyA_1
+    -- symyA   siymiyA N0_Nh   natural magic
+    -- symyA'  siymiyA'        N0_Nh   natural magic
+    -- symyA&  siymiyA&        Nh      natural magic
+    -- symyA}  siymiyA}        Nhy     natural magic
+
+    Identity                  `noun`    {- siymiyA -}          [ "natural magic" ] ]
+
+ |> "sIn.g" <| [
+
+    -- ;; siyng_1
+    -- syng    siyng   Nprop   Singh
+
+    Identity                  `noun`    {- siyng -}            [ "Singh" ] ]
+
+ |> "sInA" <| [
+
+    -- ;; siynA_1
+    -- synA    siynA   N0      Sinai
+    -- synA'   siynA'  N0      Sinai
+
+    Identity                  `noun`    {- siynA -}            [ "Sinai" ] ]
+
+ |> "sInAriyU" <| [
+
+    -- ;; siynAriyuw_1
+    -- synAryw siynAriyw       N0      scenario
+    -- synArywh        siynAriyuwh     NAt     scenarios
+
+    Identity                  `noun`    {- siynAriyuw -}       [ "scenario" ] ]
+
+ |> "sInAtUr" <| [
+
+    -- ;; siynAtuwr_1
+    -- synAtwr siynAtuwr       N       senator
+
+    Identity                  `noun`    {- siynAtuwr -}        [ "senator" ] ]
+
+ |> "sInUdus" <| [
+
+    -- ;; siynuwdus_1
+    -- synwds  siynuwdus       N0      synod
+
+    Identity                  `noun`    {- siynuwdus -}        [ "synod" ] ]
+
+ |> "sInamA" <| [
+
+    -- ;; siynamA_1
+    -- synmA   siynamA N0      cinema
+    -- synm    siynam  NAt     cinemas
+
+    Identity                  `noun`    {- siynamA -}          [ "cinema" ] ]
+
+ |> "sInamA'" <| [
+
+    -- ;; siynamA}iy~_1
+    -- synmA}y siynamA}iy~     Nall    cinema;cinematographic     [[siynamA}iy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- siynamA}iy~ -}      [ "cinema", "cinematographic" ] ]
+
+ |> "sIni.gAl" <| [
+
+    -- ;; siynigAl_1
+    -- syngAl  siynigAl        N0      Senegal
+
+    Identity                  `noun`    {- siynigAl -}         [ "Senegal" ],
+
+    -- ;; siynigAliy~_1
+    -- syngAly siynigAliy~     Nall    Senegalese     [[siynigAliy~/NOUN]]
+    -- syngAly siynigAliy~     Nall    Senegalese     [[siynigAliy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- siynigAliy~ -}      [ "Senegalese" ] ]
+
+ |> "sIrAkUz" <| [
+
+    -- ;; siyrAkuwz_1
+    -- syrAkwz siyrAkuwz       Nprop   Syracuse
+
+    Identity                  `noun`    {- siyrAkuwz -}        [ "Syracuse" ] ]
+
+ |> "sIrAliyUn" <| [
+
+    -- ;; siyrAliyuwn_1
+    -- syrAlywn        siyrAliyuwn     Nprop   Sierra Leon
+
+    Identity                  `noun`    {- siyrAliyuwn -}      [ "Sierra Leon" ],
+
+    -- ;; siyrAliyuwniy~_1
+    -- syrAlywny       siyrAliyuwniy~  Nall    Sierra Leonean
+
+    Identity |< Iy            `adj`     {- siyrAliyuwniy~ -}   [ "Sierra Leonean" ] ]
+
+ |> "sIrInA" <| [
+
+    -- ;; siyriynA_1
+    -- syrynA  siyriynA        N0      Serena
+
+    Identity                  `noun`    {- siyriynA -}         [ "Serena" ] ]
+
+ |> "sIrIwUn.g" <| [
+
+    -- ;; siyriywuwng_1
+    -- syrywwng        siyriywuwng     N0      Siriwong
+
+    Identity                  `noun`    {- siyriywuwng -}      [ "Siriwong" ] ]
+
+ |> "sIr^gI" <| [
+
+    -- ;; siyrojiy_1
+    -- syrjy   siyrojiy        Nprop   Sergei
+    -- syrjyyf siyrojiyiyf     Nprop   Sergeyev
+    -- syrgy   siyrogiy        Nprop   Sergei
+    -- syrgyyf siyrogiyiyf     Nprop   Sergeyev
+
+    Identity                  `noun`    {- siyrojiy -}         [ "Sergei", "Sergeyev" ] ]
+
+ |> "sIr^giyU" <| [
+
+    -- ;; siyrojiyuw_1
+    -- syrjyw  siyrojiyuw      Nprop   Sergio
+
+    Identity                  `noun`    {- siyrojiyuw -}       [ "Sergio" ] ]
+
+ |> "sIra^g" <| [
+
+    -- ;; siyraj_1
+    -- syrj    siyraj  N0      sesame oil
+
+    Identity                  `noun`    {- siyraj -}           [ "sesame oil" ] ]
+
+ |> "sIriyAl" <| [
+
+    -- ;; siyriyAliy~_1
+    -- syryAly siyriyAliy~     Nall    surreal;surrealistic     [[siyriyAliy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- siyriyAliy~ -}      [ "surreal", "surrealistic" ],
+
+    -- ;; siyriyAliy~ap_1
+    -- syryAly siyriyAliy~     Nap     surrealism     [[siyriyAliy~/NOUN]]
+
+    Identity |< Iy |< aT      `noun`    {- siyriyAliy~ap -}    [ "surrealism" ] ]
+
+ |> "sIrk" <| [
+
+    -- ;; siyrk_1
+    -- syrk    siyrk   N       circus
+
+    Identity                  `noun`    {- siyrk -}            [ "circus" ] ]
+
+ |> "sIsmIk" <| [
+
+    -- ;; siysomiyk_1
+    -- sysmyk  siysomiyk       Nprop   Seismic
+
+    Identity                  `noun`    {- siysomiyk -}        [ "Seismic" ] ]
+
+ |> "sIyamA" <| [
+
+    -- ;; siy~amA_1
+    -- symA    siy~amA FW-Wa   especially      [[siy~amA/ADV]]
+    -- lAsymA  lAsiy~amA       FW-Wa   especially      [[lAsiy~amA/ADV]]
+
+    Identity                  `adv`     {- siy~amA -}          [ "especially" ] ]
+
+ |> "sIzUfrIn" <| [
+
+    -- ;; siyzuwfriyniy~_1
+    -- syzwfryny       siyzuwfriyniy~  Nall    schizophrenic     [[siyzuwfriyniy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- siyzuwfriyniy~ -}   [ "schizophrenic" ] ]
+
+ |> "sIzUfrIniyA" <| [
+
+    -- ;; siyzuwfriyniyA_1
+    -- syzwfrynyA      siyzuwfriyniyA  N0      schizophrenia
+
+    Identity                  `noun`    {- siyzuwfriyniyA -}   [ "schizophrenia" ] ]
+
+ |> "sUbArU" <| [
+
+    -- ;; suwbAruw_1
+    -- swbArw  suwbAruw        Nprop   Subaru
+
+    Identity                  `noun`    {- suwbAruw -}         [ "Subaru" ] ]
+
+ |> "sUbAt^sAy" <| [
+
+    -- ;; suwbAto$Ay_1
+    -- swbAt$Ay        suwbAto$Ay      N0      Supachai
+
+    Identity                  `noun`    {- suwbAto$Ay -}       [ "Supachai" ] ]
+
+ |> "sUbarmAn" <| [
+
+    -- ;; suwbaromAn_1
+    -- swbrmAn suwbaromAn      N0      Superman
+
+    Identity                  `noun`    {- suwbaromAn -}       [ "Superman" ] ]
+
+ |> "sUbarmarkit" <| [
+
+    -- ;; suwbaromarokit_1
+    -- swbrmrkt        suwbaromarokit  N0      supermarket
+
+    Identity                  `noun`    {- suwbaromarokit -}   [ "supermarket" ] ]
+
+ |> "sUfUklIs" <| [
+
+    -- ;; suwfuwkliys_1
+    -- swfwklys        suwfuwkliys     N0      Sophocles
+
+    Identity                  `noun`    {- suwfuwkliys -}      [ "Sophocles" ] ]
+
+ |> "sUfis.tA'" <| [
+
+    -- ;; suwfisoTA}iy~_1
+    -- swfsTA}y        suwfisoTA}iy~   Nall    sophist     [[suwfisoTA}iy~/ADJ]]
+    -- swfsTA}y        suwfisoTA}iy~   Nap     sophistry     [[suwfisoTA}iy~/NOUN]]
+
+    Identity |< Iy            `adj`     {- suwfisoTA}iy~ -}    [ "sophist", "sophistry" ] ]
+
+ |> "sUfyit" <| [
+
+    -- ;; suwfoyitiy~_1
+    -- swfyty  suwfoyitiy~     Nall    Soviet     [[suwfoyitiy~/NOUN]]
+    -- swfyty  suwfoyitiy~     Nall    Soviet     [[suwfoyitiy~/ADJ]]
+    -- swfyyty suwfoyiytiy~    Nall    Soviet     [[suwfoyiytiy~/NOUN]]
+    -- swfyyty suwfoyiytiy~    Nall    Soviet     [[suwfoyiytiy~/ADJ]]
+    -- swfyAty suwfoyAtiy~     Nall    Soviet     [[suwfoyAtiy~/NOUN]]
+    -- swfyAty suwfoyAtiy~     Nall    Soviet     [[suwfoyAtiy~/ADJ]]
+    -- swfyt   suwfoyit        N       Soviets
+    -- swfyt   suwfoyit        N       Soviets
+    -- swfyyt  suwfoyiyt       N       Soviets
+    -- swfyyt  suwfoyiyt       N       Soviets
+    -- swfyAt  suwfoyAt        N       Soviets
+
+    Identity |< Iy            `adj`     {- suwfoyitiy~ -}      [ "Soviet" ] ]
+
+ |> "sUhArtU" <| [
+
+    -- ;; suwhArotuw_1
+    -- swhArtw suwhArotuw      Nprop   Suharto
+
+    Identity                  `noun`    {- suwhArotuw -}       [ "Suharto" ] ]
+
+ |> "sUksUmkIt" <| [
+
+    -- ;; suwkosuwmokiyt_1
+    -- swkswmkyt       suwkosuwmokiyt  Nprop   Suksomkit
+
+    Identity                  `noun`    {- suwkosuwmokiyt -}   [ "Suksomkit" ] ]
+
+ |> "sUlAnA" <| [
+
+    -- ;; suwlAnA_1
+    -- swlAnA  suwlAnA Nprop   Solana
+
+    Identity                  `noun`    {- suwlAnA -}          [ "Solana" ] ]
+
+ |> "sUlAwIs" <| [
+
+    -- ;; suwlAwiysiy~_1
+    -- swlAwysy        suwlAwiysiy~    Nall    Sulawesian
+
+    Identity |< Iy            `adj`     {- suwlAwiysiy~ -}     [ "Sulawesian" ] ]
+
+ |> "sUlAwIsI" <| [
+
+    -- ;; suwlAwiysiy_1
+    -- swlAwysy        suwlAwiysiy     N0      Sulawesi
+
+    Identity                  `noun`    {- suwlAwiysiy -}      [ "Sulawesi" ] ]
+
+ |> "sUlIdIr" <| [
+
+    -- ;; suwliydiyr_1
+    -- swlydyr swlydyr Nprop   Solider
+
+    Identity                  `noun`    {- suwliydiyr -}       [ "Solider" ] ]
+
+ |> "sUlUfAn" <| [
+
+    -- ;; suwluwfAn_1
+    -- swlwfAn suwluwfAn       N0      cellophane
+
+    Identity                  `noun`    {- suwluwfAn -}        [ "cellophane" ] ]
+
+ |> "sUma.tr" <| [
+
+    -- ;; suwmaTrap_1
+    -- swmTr   suwmaTr Nap     Sumatra
+
+    Identity |< aT            `noun`    {- suwmaTrap -}        [ "Sumatra" ] ]
+
+ |> "sUniyA" <| [
+
+    -- ;; suwniyA_1
+    -- swnyA   suwniyA N0      Sonia
+
+    Identity                  `noun`    {- suwniyA -}          [ "Sonia" ] ]
+
+ |> "sUrAt^sAy" <| [
+
+    -- ;; suwrAt$Ay_1
+    -- swrAt$Ay        suwrAt$Ay       Nprop   Surachai
+
+    Identity                  `noun`    {- suwrAt$Ay -}        [ "Surachai" ] ]
+
+ |> "sUrfI" <| [
+
+    -- ;; suwrofiy_1
+    -- swrfy   suwrofiy        Nprop   Survey
+
+    Identity                  `noun`    {- suwrofiy -}         [ "Survey" ] ]
+
+ |> "sUrinsin" <| [
+
+    -- ;; suwrinosin_1
+    -- swrnsn  suwrinosin      Nprop   Sorensen
+
+    Identity                  `noun`    {- suwrinosin -}       [ "Sorensen" ] ]
+
+ |> "sUriyA" <| [
+
+    -- ;; suwriyA_1
+    -- swryA   suwriyA N0      Syria
+    -- swry    suwriy~ Nap     Syria
+
+    Identity                  `noun`    {- suwriyA -}          [ "Syria" ] ]
+
+ |> "sUst" <| [
+
+    -- ;; suwsotap_1
+    -- swst    suwsot  NapAt   zipper
+    -- swsth   suwsotah        N       zipper
+
+    Identity |< aT            `noun`    {- suwsotap -}         [ "zipper" ] ]
+
+ |> "sUtUmAyUr" <| [
+
+    -- ;; suwtuwmAyuwr_1
+    -- swtwmAywr       suwtuwmAyuwr    Nprop   Sotomayor
+
+    Identity                  `noun`    {- suwtuwmAyuwr -}     [ "Sotomayor" ] ]
+
+ |> "sUzA" <| [
+
+    -- ;; suwzA_1
+    -- swzA    suwzA   Nprop   Soussa
+
+    Identity                  `noun`    {- suwzA -}            [ "Soussa" ] ]
+
+ |> "sa`dAlldIn" <| [
 
     -- ;; saEodAl~diyn_1
     -- sEdAldyn        saEodAl~diyn    N0      Saad Eddin
@@ -13671,7 +14153,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- safarojal -}        [ "quince" ] ]
 
- |> "sakan^gabiyn" <| [
+ |> "sakan^gabIn" <| [
 
     -- ;; sakanojabiyn_1
     -- sknjbyn sakanojabiyn    N       oxymel
@@ -13685,7 +14167,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- salAmolik -}        [ "selamlik", "reception room" ] ]
 
- |> "salAquwn" <| [
+ |> "salAqUn" <| [
 
     -- ;; salAquwn_1
     -- slAqwn  salAquwn        N       red lead;minium
@@ -13700,7 +14182,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- salabanod -}        [ "martingale" ] ]
 
- |> "salfAduwr" <| [
+ |> "salfAdUr" <| [
 
     -- ;; salofAduwr_1
     -- slfAdwr salofAduwr      N0      Salvador
@@ -13708,7 +14190,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- salofAduwr -}       [ "Salvador", "Salvadoran" ] ]
 
- |> "salsabiyl" <| [
+ |> "salsabIl" <| [
 
     -- ;; salosabiyl_1
     -- slsbyl  salosabiyl      Ndip    Salsabil
@@ -13722,7 +14204,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- salotA -}           [ "Salta" ] ]
 
- |> "samAn^guwn" <| [
+ |> "samAn^gUn" <| [
 
     -- ;; samAnojuwniy~_1
     -- smAnjwny        samAnojuwniy~   N-ap    azure;cerulean     [[samAnojuwniy~/ADJ]]
@@ -13757,7 +14239,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- samaroqanod -}      [ "Samarkand" ] ]
 
- |> "sambuwsaq" <| [
+ |> "sambUsaq" <| [
 
     -- ;; samobuwsaq_1
     -- smbwsq  samobuwsaq      N       sambusak (stuffed meat pastry)
@@ -13765,14 +14247,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- samobuwsaq -}       [ "sambusak (stuffed meat pastry)" ] ]
 
- |> "sanamuwr" <| [
+ |> "sanamUr" <| [
 
     -- ;; sanamuwrap_1
     -- snmwr   sanamuwr        Nap     anchovy
 
     Identity |< aT            `noun`    {- sanamuwrap -}       [ "anchovy" ] ]
 
- |> "sandaruws" <| [
+ |> "sandarUs" <| [
 
     -- ;; sanodaruws_1
     -- sndrws  sanodaruws      N0      sandarac
@@ -13793,7 +14275,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sanodowi$ -}        [ "sandwich" ] ]
 
- |> "sansikriyt" <| [
+ |> "sansikrIt" <| [
 
     -- ;; sanosikriyt_1
     -- snskryt sanosikriyt     N       Sanskrit
@@ -13829,7 +14311,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- saq~A -}            [ "Saqqa" ] ]
 
- |> "sarAyiyfuw" <| [
+ |> "sarAyIfU" <| [
 
     -- ;; sarAyiyfuw_1
     -- srAyyfw sarAyiyfuw      Nprop   Sarajevo
@@ -13844,7 +14326,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- saroEasokar -}      [ "general" ] ]
 
- |> "sarandiyb" <| [
+ |> "sarandIb" <| [
 
     -- ;; saranodiyb_1
     -- srndyb  saranodiyb      Ndip     Serendip (Ceylon)
@@ -13869,7 +14351,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- saraqusoTiy~ -}     [ "Saragossan", "Zaragozan" ] ]
 
- |> "sardiyniyA" <| [
+ |> "sardIniyA" <| [
 
     -- ;; sarodiyniyA_1
     -- srdynyA sarodiyniyA     N0      Sardinia
@@ -13883,7 +14365,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- saroyAwarAn -}      [ "adjutant general" ] ]
 
- |> "saykuwrAn" <| [
+ |> "saykUrAn" <| [
 
     -- ;; sayokuwrAn_1
     -- sykwrAn sayokuwrAn      N0      henbane
@@ -13904,14 +14386,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sbArotA -}          [ "Sparta" ] ]
 
- |> "sbins" <| [
-
-    -- ;; sbinos_1
-    -- sbns    sbinos  Nprop   Spence
-
-    Identity                  `noun`    {- sbinos -}           [ "Spence" ] ]
-
- |> "sbiylbir^g" <| [
+ |> "sbIlbir^g" <| [
 
     -- ;; sbiylobirj_1
     -- sbylbrj sbiylobirj      Nprop   Spielberg
@@ -13919,7 +14394,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sbiylobirj -}       [ "Spielberg" ] ]
 
- |> "sbiyrz" <| [
+ |> "sbIrz" <| [
 
     -- ;; sbiyrz_1
     -- sbyrz   sbiyrz  Nprop   Spurs
@@ -13927,14 +14402,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sbiyrz -}           [ "Spurs" ] ]
 
- |> "sbiyt" <| [
+ |> "sbIt" <| [
 
     -- ;; sbiyt_1
     -- sbyt    sbiyt   Nprop   Speight
 
     Identity                  `noun`    {- sbiyt -}            [ "Speight" ] ]
 
- |> "sbuwr" <| [
+ |> "sbUr" <| [
 
     -- ;; sbuwr_1
     -- sbwr    sbuwr   Nprop   Sport
@@ -13946,12 +14421,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sbuwr -}            [ "sport" ] ]
 
- |> "sbuwrtiyn.g" <| [
+ |> "sbUrtIn.g" <| [
 
     -- ;; sbuwrotiynog_1
     -- sbwrtyng        sbuwrotiynog    N0      Sporting
 
     Identity                  `noun`    {- sbuwrotiynog -}     [ "Sporting" ] ]
+
+ |> "sbins" <| [
+
+    -- ;; sbinos_1
+    -- sbns    sbinos  Nprop   Spence
+
+    Identity                  `noun`    {- sbinos -}           [ "Spence" ] ]
 
  |> "si^gill" <| [
 
@@ -13959,6 +14441,14 @@ lexicon = listing "Lexicon's properties"
     -- sjl     sijil~  NduAt   register;record;archive
 
     Identity                  `noun`    {- sijil~ -}           [ "register", "record", "archive" ] ]
+
+ |> "sibIdA^g" <| [
+
+    -- ;; sibiydAj_1
+    -- sbydAj  sibiydAj        N       white lead;ceruse
+    -- sby*Aj  sibiy*Aj        N       white lead;ceruse
+
+    Identity                  `noun`    {- sibiydAj -}         [ "white lead", "ceruse" ] ]
 
  |> "sibins" <| [
 
@@ -13974,14 +14464,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sibit~ -}           [ "dill" ] ]
 
- |> "sibiydA^g" <| [
-
-    -- ;; sibiydAj_1
-    -- sbydAj  sibiydAj        N       white lead;ceruse
-    -- sby*Aj  sibiy*Aj        N       white lead;ceruse
-
-    Identity                  `noun`    {- sibiydAj -}         [ "white lead", "ceruse" ] ]
-
  |> "sibtambir" <| [
 
     -- ;; sibotamobir_1
@@ -13996,7 +14478,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sifanoj -}          [ "sponge" ] ]
 
- |> "sikandiynAf" <| [
+ |> "sikandInAf" <| [
 
     -- ;; sikanodiynAfiy~_1
     -- skndynAfy       sikanodiynAfiy~ Nall    Scandinavian     [[sikanodiynAfiy~/NOUN]]
@@ -14004,14 +14486,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- sikanodiynAfiy~ -}  [ "Scandinavian" ] ]
 
- |> "sikandiynAfiyA" <| [
+ |> "sikandInAfiyA" <| [
 
     -- ;; sikanodiynAfiyA_1
     -- skndynAfyA      sikanodiynAfiyA N0      Scandinavia
 
     Identity                  `noun`    {- sikanodiynAfiyA -}  [ "Scandinavia" ] ]
 
- |> "sikartuw" <| [
+ |> "sikartU" <| [
 
     -- ;; sikarotuw_1
     -- skrtw   sikarotuw       N0      cotton waste
@@ -14025,7 +14507,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy |< aT      `noun`    {- sikoritAriy~ap -}   [ "secretariat" ] ]
 
- |> "sikritiyr" <| [
+ |> "sikritIr" <| [
 
     -- ;; sikoritiyr_1
     -- skrtyr  sikoritiyr      N/ap    secretary
@@ -14047,6 +14529,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- silAHodAr -}        [ "sword-bearer", "squire" ] ]
 
+ |> "silIniyUm" <| [
+
+    -- ;; siliyniyuwm_1
+    -- slynywm siliyniyuwm     N0      selenium
+
+    Identity                  `noun`    {- siliyniyuwm -}      [ "selenium" ] ]
+
  |> "silindir" <| [
 
     -- ;; silinodir_1
@@ -14054,12 +14543,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- silinodir -}        [ "cylinder" ] ]
 
- |> "siliyniyuwm" <| [
+ |> "simInArI" <| [
 
-    -- ;; siliyniyuwm_1
-    -- slynywm siliyniyuwm     N0      selenium
+    -- ;; simiynAriy_1
+    -- smynAry simiynAriy      N0      Seminary
 
-    Identity                  `noun`    {- siliyniyuwm -}      [ "selenium" ] ]
+    Identity                  `noun`    {- simiynAriy -}       [ "Seminary" ] ]
 
  |> "simbAtY" <| [
 
@@ -14069,21 +14558,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- simobAtawiy~ -}     [ "sympathetic" ] ]
 
- |> "simintuw" <| [
+ |> "simintU" <| [
 
     -- ;; siminotuw_1
     -- smntw   siminotuw       N0      cement
 
     Identity                  `noun`    {- siminotuw -}        [ "cement" ] ]
 
- |> "simiynAriy" <| [
-
-    -- ;; simiynAriy_1
-    -- smynAry simiynAriy      N0      Seminary
-
-    Identity                  `noun`    {- simiynAriy -}       [ "Seminary" ] ]
-
- |> "sin.gAfuwr" <| [
+ |> "sin.gAfUr" <| [
 
     -- ;; sinogAfuwrap_1
     -- sngAfwr sinogAfuwr      Nap     Singapore
@@ -14096,14 +14578,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- sinogAfuwriy~ -}    [ "Singaporean" ] ]
 
- |> "sin.tuwrus" <| [
+ |> "sin.tUrus" <| [
 
     -- ;; sinoTuwrus_1
     -- snTwrs  sinoTuwrus      N0      Centaurus
 
     Identity                  `noun`    {- sinoTuwrus -}       [ "Centaurus" ] ]
 
- |> "sinAtuwr" <| [
+ |> "sinAtUr" <| [
 
     -- ;; sinAtuwr_1
     -- snAtwr  sinAtuwr        NduAt   senator
@@ -14168,19 +14650,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sirofAnotis -}      [ "Cervantes" ] ]
 
+ |> "sittUn" <| [
+
+    -- ;; sit~uwniy~_1
+    -- stwny   sit~uwniy~      Nall    sexagenarian     [[sit~uwniy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- sit~uwniy~ -}       [ "sexagenarian" ] ]
+
  |> "sittmA'" <| [
 
     -- ;; sit~mA}ap_1
     -- stmA}   sit~mA} Nap     six-hundred
 
     Identity |< aT            `noun`    {- sit~mA}ap -}        [ "six-hundred" ] ]
-
- |> "sittuwn" <| [
-
-    -- ;; sit~uwniy~_1
-    -- stwny   sit~uwniy~      Nall    sexagenarian     [[sit~uwniy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- sit~uwniy~ -}       [ "sexagenarian" ] ]
 
  |> "siyAtil" <| [
 
@@ -14189,292 +14671,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- siyAtil -}          [ "Seattle" ] ]
 
- |> "siy^swar" <| [
-
-    -- ;; siy$war_1
-    -- sy$wr   siy$war N0      sechoir (hair dryer)
-
-    Identity                  `noun`    {- siy$war -}          [ "sechoir (hair dryer)" ] ]
-
- |> "siybAstiyAn" <| [
-
-    -- ;; siybAsotiyAn_1
-    -- sybAstyAn       siybAsotiyAn    N0      Sebastian;Sebastien
-    -- sbAstyAn        sibAsotiyAn     N0      Sebastian;Sebastien
-
-    Identity                  `noun`    {- siybAsotiyAn -}     [ "Sebastian", "Sebastien" ] ]
-
- |> "siybiyriyA" <| [
-
-    -- ;; siybiyriyA_1
-    -- sybyryA siybiyriyA      N0      Siberia
-
-    Identity                  `noun`    {- siybiyriyA -}       [ "Siberia" ] ]
-
- |> "siybiyriyy" <| [
-
-    -- ;; siybiyriy~_1
-    -- sybyry  siybiyriy~      Nall    Siberian     [[siybiyriy~/NOUN]]
-    -- sybyry  siybiyriy~      Nall    Siberian     [[siybiyriy~/ADJ]]
-
-    Identity                  `adj`     {- siybiyriy~ -}       [ "Siberian" ] ]
-
- |> "siybuw" <| [
-
-    -- ;; siybuw_1
-    -- sybw    siybuw  Nprop   Sipo
-
-    Identity                  `noun`    {- siybuw -}           [ "Sipo" ] ]
-
- |> "siydA" <| [
-
-    -- ;; siydA_1
-    -- sydA    siydA   N0      SIDA (AIDS)
-
-    Identity                  `noun`    {- siydA -}            [ "SIDA (AIDS)" ] ]
-
- |> "siydniy" <| [
-
-    -- ;; siydoniy_1
-    -- sydny   siydoniy        Nprop   Sydney
-
-    Identity                  `noun`    {- siydoniy -}         [ "Sydney" ] ]
-
- |> "siyfiyruwmuwrsk" <| [
-
-    -- ;; siyfiyruwmuwrsk_1
-    -- syfyrwmwrsk     siyfiyruwmuwrsk Nprop   Severomorsk
-
-    Identity                  `noun`    {- siyfiyruwmuwrsk -}  [ "Severomorsk" ] ]
-
- |> "siykuwluw^giyA" <| [
-
-    -- ;; siykuwluwjiyA_1
-    -- sykwlwjyA       siykuwluwjiyA   N0      psychology
-    -- sykwlwjy        siykuwluwjiy~   Nap     psychology     [[siykuwluwjiy~/NOUN]]
-
-    Identity                  `noun`    {- siykuwluwjiyA -}    [ "psychology" ] ]
-
- |> "siykuwluw^giyy" <| [
-
-    -- ;; siykuwluwjiy~_1
-    -- sykwlwjy        siykuwluwjiy~   Nall    psychological     [[siykuwluwjiy~/ADJ]]
-
-    Identity                  `adj`     {- siykuwluwjiy~ -}    [ "psychological" ] ]
-
- |> "siykuwrtAh" <| [
-
-    -- ;; siykuwrtAh_1
-    -- sykwrtAh        siykuwrtAh      N0      insurance
-
-    Identity                  `noun`    {- siykuwrtAh -}       [ "insurance" ] ]
-
- |> "siykuwsuwm" <| [
-
-    -- ;; siykuwsuwmAtiy~_1
-    -- sykwswmAty      siykuwsuwmAtiy~ Nall    psychosomatic     [[siykuwsuwmAtiy~/ADJ]]
-
-    Identity |< At |< Iy      `adj`     {- siykuwsuwmAtiy~ -}  [ "psychosomatic" ] ]
-
- |> "siylfA" <| [
-
-    -- ;; siylofA_1
-    -- sylfA   siylofA Nprop   Silva
-
-    Identity                  `noun`    {- siylofA -}          [ "Silva" ] ]
-
- |> "siymA" <| [
-
-    -- ;; siymA_1
-    -- symA    siymA   N0_Nh   sign;characteristic
-    -- symY    siymaY  N0      sign;characteristic
-    -- symA'   siymA'  N0_Nh   sign;characteristic
-    -- symA&   siymA&  Nh      sign;characteristic
-    -- symA}   siymA}  Nhy     sign;characteristic
-    -- sym     siym    Napdu   sign;characteristic
-
-    Identity                  `noun`    {- siymA -}            [ "sign", "characteristic" ] ]
-
- |> "siymAntiyk" <| [
-
-    -- ;; siymAnotiyk_1
-    -- symAntyk        siymAnotiyk     N0      semantics
-
-    Identity                  `noun`    {- siymAnotiyk -}      [ "semantics" ] ]
-
- |> "siymbA" <| [
-
-    -- ;; siymobA_1
-    -- symbA   siymobA Nprop   Simba
-
-    Identity                  `noun`    {- siymobA -}          [ "Simba" ] ]
-
- |> "siymiyA" <| [
-
-    -- ;; siymiyA_1
-    -- symyA   siymiyA N0_Nh   natural magic
-    -- symyA'  siymiyA'        N0_Nh   natural magic
-    -- symyA&  siymiyA&        Nh      natural magic
-    -- symyA}  siymiyA}        Nhy     natural magic
-
-    Identity                  `noun`    {- siymiyA -}          [ "natural magic" ] ]
-
- |> "siymuwniy" <| [
-
-    -- ;; siymuwniy_1
-    -- symwny  siymuwniy       Nprop   Simoni;Simone
-
-    Identity                  `noun`    {- siymuwniy -}        [ "Simoni", "Simone" ] ]
-
- |> "siyn.g" <| [
-
-    -- ;; siyng_1
-    -- syng    siyng   Nprop   Singh
-
-    Identity                  `noun`    {- siyng -}            [ "Singh" ] ]
-
- |> "siynA" <| [
-
-    -- ;; siynA_1
-    -- synA    siynA   N0      Sinai
-    -- synA'   siynA'  N0      Sinai
-
-    Identity                  `noun`    {- siynA -}            [ "Sinai" ] ]
-
- |> "siynAriyw" <| [
-
-    -- ;; siynAriyw_1
-    -- synAryw siynAriyw       N0      scenario
-    -- synArywh        siynAriyuwh     NAt     scenarios
-
-    Identity                  `noun`    {- siynAriyw -}        [ "scenario" ] ]
-
- |> "siynAtuwr" <| [
-
-    -- ;; siynAtuwr_1
-    -- synAtwr siynAtuwr       N       senator
-
-    Identity                  `noun`    {- siynAtuwr -}        [ "senator" ] ]
-
- |> "siynamA" <| [
-
-    -- ;; siynamA_1
-    -- synmA   siynamA N0      cinema
-    -- synm    siynam  NAt     cinemas
-
-    Identity                  `noun`    {- siynamA -}          [ "cinema" ] ]
-
- |> "siynamA'" <| [
-
-    -- ;; siynamA}iy~_1
-    -- synmA}y siynamA}iy~     Nall    cinema;cinematographic     [[siynamA}iy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- siynamA}iy~ -}      [ "cinema", "cinematographic" ] ]
-
- |> "siyni.gAl" <| [
-
-    -- ;; siynigAl_1
-    -- syngAl  siynigAl        N0      Senegal
-
-    Identity                  `noun`    {- siynigAl -}         [ "Senegal" ],
-
-    -- ;; siynigAliy~_1
-    -- syngAly siynigAliy~     Nall    Senegalese     [[siynigAliy~/NOUN]]
-    -- syngAly siynigAliy~     Nall    Senegalese     [[siynigAliy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- siynigAliy~ -}      [ "Senegalese" ] ]
-
- |> "siynuwdus" <| [
-
-    -- ;; siynuwdus_1
-    -- synwds  siynuwdus       N0      synod
-
-    Identity                  `noun`    {- siynuwdus -}        [ "synod" ] ]
-
- |> "siyrAkuwz" <| [
-
-    -- ;; siyrAkuwz_1
-    -- syrAkwz siyrAkuwz       Nprop   Syracuse
-
-    Identity                  `noun`    {- siyrAkuwz -}        [ "Syracuse" ] ]
-
- |> "siyrAliyuwn" <| [
-
-    -- ;; siyrAliyuwn_1
-    -- syrAlywn        siyrAliyuwn     Nprop   Sierra Leon
-
-    Identity                  `noun`    {- siyrAliyuwn -}      [ "Sierra Leon" ],
-
-    -- ;; siyrAliyuwniy~_1
-    -- syrAlywny       siyrAliyuwniy~  Nall    Sierra Leonean
-
-    Identity |< Iy            `adj`     {- siyrAliyuwniy~ -}   [ "Sierra Leonean" ] ]
-
- |> "siyr^giy" <| [
-
-    -- ;; siyrojiy_1
-    -- syrjy   siyrojiy        Nprop   Sergei
-    -- syrjyyf siyrojiyiyf     Nprop   Sergeyev
-    -- syrgy   siyrogiy        Nprop   Sergei
-    -- syrgyyf siyrogiyiyf     Nprop   Sergeyev
-
-    Identity                  `noun`    {- siyrojiy -}         [ "Sergei", "Sergeyev" ] ]
-
- |> "siyr^giyuw" <| [
-
-    -- ;; siyrojiyuw_1
-    -- syrjyw  siyrojiyuw      Nprop   Sergio
-
-    Identity                  `noun`    {- siyrojiyuw -}       [ "Sergio" ] ]
-
- |> "siyra^g" <| [
-
-    -- ;; siyraj_1
-    -- syrj    siyraj  N0      sesame oil
-
-    Identity                  `noun`    {- siyraj -}           [ "sesame oil" ] ]
-
- |> "siyriyAliyy" <| [
-
-    -- ;; siyriyAliy~_1
-    -- syryAly siyriyAliy~     Nall    surreal;surrealistic     [[siyriyAliy~/ADJ]]
-
-    Identity                  `adj`     {- siyriyAliy~ -}      [ "surreal", "surrealistic" ],
-
-    -- ;; siyriyAliy~ap_1
-    -- syryAly siyriyAliy~     Nap     surrealism     [[siyriyAliy~/NOUN]]
-
-    Identity |< aT            `noun`    {- siyriyAliy~ap -}    [ "surrealism" ] ]
-
- |> "siyriynA" <| [
-
-    -- ;; siyriynA_1
-    -- syrynA  siyriynA        N0      Serena
-
-    Identity                  `noun`    {- siyriynA -}         [ "Serena" ] ]
-
- |> "siyriywuwn.g" <| [
-
-    -- ;; siyriywuwng_1
-    -- syrywwng        siyriywuwng     N0      Siriwong
-
-    Identity                  `noun`    {- siyriywuwng -}      [ "Siriwong" ] ]
-
- |> "siyrk" <| [
-
-    -- ;; siyrk_1
-    -- syrk    siyrk   N       circus
-
-    Identity                  `noun`    {- siyrk -}            [ "circus" ] ]
-
- |> "siysmiyk" <| [
-
-    -- ;; siysomiyk_1
-    -- sysmyk  siysomiyk       Nprop   Seismic
-
-    Identity                  `noun`    {- siysomiyk -}        [ "Seismic" ] ]
-
- |> "siyuwl" <| [
+ |> "siyUl" <| [
 
     -- ;; siyuwl_1
     -- sywl    siyuwl  Nprop   Seoul
@@ -14484,29 +14681,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- siyuwl -}           [ "Seoul" ] ]
 
- |> "siyyamA" <| [
-
-    -- ;; siy~amA_1
-    -- symA    siy~amA FW-Wa   especially      [[siy~amA/ADV]]
-    -- lAsymA  lAsiy~amA       FW-Wa   especially      [[lAsiy~amA/ADV]]
-
-    Identity                  `adv`     {- siy~amA -}          [ "especially" ] ]
-
- |> "siyzuwfriyn" <| [
-
-    -- ;; siyzuwfriyniy~_1
-    -- syzwfryny       siyzuwfriyniy~  Nall    schizophrenic     [[siyzuwfriyniy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- siyzuwfriyniy~ -}   [ "schizophrenic" ] ]
-
- |> "siyzuwfriyniyA" <| [
-
-    -- ;; siyzuwfriyniyA_1
-    -- syzwfrynyA      siyzuwfriyniyA  N0      schizophrenia
-
-    Identity                  `noun`    {- siyzuwfriyniyA -}   [ "schizophrenia" ] ]
-
- |> "sizmuw.grAf" <| [
+ |> "sizmU.grAf" <| [
 
     -- ;; sizomuwgrAf_1
     -- szmwgrAf        sizomuwgrAf     NduAt   seismograph
@@ -14520,40 +14695,68 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- sizomuwgrAfiy~ -}   [ "seismographic" ] ]
 
- |> "skArbuwruwh" <| [
+ |> "skArbUrUh" <| [
 
     -- ;; skArobuwruwh_1
     -- skArbwrwh       skArobuwruwh    N0      Scarborough
 
     Identity                  `noun`    {- skArobuwruwh -}     [ "Scarborough" ] ]
 
- |> "skiylAriy" <| [
+ |> "skIlArI" <| [
 
     -- ;; skiylAriy_1
     -- skylAry skiylAriy       Nprop   Squillari
 
     Identity                  `noun`    {- skiylAriy -}        [ "Squillari" ] ]
 
- |> "skiyt" <| [
+ |> "skIt" <| [
 
     -- ;; skiyt_1
     -- skyt    skiyt   N0      skeet (shooting at clay targets)
 
     Identity                  `noun`    {- skiyt -}            [ "skeet (shooting at clay targets)" ] ]
 
- |> "skiyzuwfriyn" <| [
+ |> "skIzUfrIn" <| [
 
     -- ;; skiyzuwfriyniy~_1
     -- skyzwfryny      skiyzuwfriyniy~ Nall    schizophrenic     [[skiyzuwfriyniy~/ADJ]]
 
     Identity |< Iy            `adj`     {- skiyzuwfriyniy~ -}  [ "schizophrenic" ] ]
 
- |> "skiyzuwfriyniyA" <| [
+ |> "skIzUfrIniyA" <| [
 
     -- ;; skiyzuwfriyniyA_1
     -- skyzwfrynyA     skiyzuwfriyniyA N0      schizophrenia
 
     Identity                  `noun`    {- skiyzuwfriyniyA -}  [ "schizophrenia" ] ]
+
+ |> "skUblAr" <| [
+
+    -- ;; skuwbolAr_1
+    -- skwblAr skuwbolAr       N0      Skoblar
+
+    Identity                  `noun`    {- skuwbolAr -}        [ "Skoblar" ] ]
+
+ |> "skUd" <| [
+
+    -- ;; skuwd_1
+    -- skwd    skuwd   N0      Scud
+
+    Identity                  `noun`    {- skuwd -}            [ "Scud" ] ]
+
+ |> "skUt" <| [
+
+    -- ;; skuwt_1
+    -- skwt    skuwt   Nprop   Scott
+
+    Identity                  `noun`    {- skuwt -}            [ "Scott" ] ]
+
+ |> "skUtIniyUtIs" <| [
+
+    -- ;; skuwtiyniyuwtiys_1
+    -- skwtynywtys     skuwtiyniyuwtiys        N0      Skotiniotis
+
+    Identity                  `noun`    {- skuwtiyniyuwtiys -} [ "Skotiniotis" ] ]
 
  |> "skutlAnd" <| [
 
@@ -14583,34 +14786,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- skutolanodiy~ -}    [ "Scottish" ] ]
 
- |> "skuwblAr" <| [
-
-    -- ;; skuwbolAr_1
-    -- skwblAr skuwbolAr       N0      Skoblar
-
-    Identity                  `noun`    {- skuwbolAr -}        [ "Skoblar" ] ]
-
- |> "skuwd" <| [
-
-    -- ;; skuwd_1
-    -- skwd    skuwd   N0      Scud
-
-    Identity                  `noun`    {- skuwd -}            [ "Scud" ] ]
-
- |> "skuwt" <| [
-
-    -- ;; skuwt_1
-    -- skwt    skuwt   Nprop   Scott
-
-    Identity                  `noun`    {- skuwt -}            [ "Scott" ] ]
-
- |> "skuwtiyniyuwtiys" <| [
-
-    -- ;; skuwtiyniyuwtiys_1
-    -- skwtynywtys     skuwtiyniyuwtiys        N0      Skotiniotis
-
-    Identity                  `noun`    {- skuwtiyniyuwtiys -} [ "Skotiniotis" ] ]
-
  |> "slAf" <| [
 
     -- ;; slAfiy~_1
@@ -14626,14 +14801,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- slAfiyAnokA -}      [ "Slavianka" ] ]
 
- |> "sluwbuwdAn" <| [
+ |> "slUbUdAn" <| [
 
     -- ;; sluwbuwdAn_1
     -- slwbwdAn        sluwbuwdAn      Nprop   Slobodan
 
     Identity                  `noun`    {- sluwbuwdAn -}       [ "Slobodan" ] ]
 
- |> "sluwfAk" <| [
+ |> "slUfAk" <| [
 
     -- ;; sluwfAkiy~_1
     -- slwfAky sluwfAkiy~      Nall    Slovak     [[sluwfAkiy~/NOUN]]
@@ -14642,70 +14817,70 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- sluwfAkiy~ -}       [ "Slovak" ] ]
 
- |> "sluwfAkiyA" <| [
+ |> "slUfAkiyA" <| [
 
     -- ;; sluwfAkiyA_1
     -- slwfAkyA        sluwfAkiyA      N0      Slovakia
 
     Identity                  `noun`    {- sluwfAkiyA -}       [ "Slovakia" ] ]
 
- |> "sluwfiyn" <| [
+ |> "slUfIn" <| [
 
     -- ;; sluwfiyniy~_1
     -- slwfyny sluwfiyniy~     Nall    Slovenian
 
     Identity |< Iy            `adj`     {- sluwfiyniy~ -}      [ "Slovenian" ] ]
 
- |> "sluwfiyniyA" <| [
+ |> "slUfIniyA" <| [
 
     -- ;; sluwfiyniyA_1
     -- slwfynyA        sluwfiyniyA     N0      Slovenia
 
     Identity                  `noun`    {- sluwfiyniyA -}      [ "Slovenia" ] ]
 
- |> "smiy_t" <| [
+ |> "smI_t" <| [
 
     -- ;; smiyv_1
     -- smyv    smiyv   Nprop   Smith
 
     Identity                  `noun`    {- smiyv -}            [ "Smith" ] ]
 
- |> "smiy_tsuwniyAn" <| [
+ |> "smI_tsUniyAn" <| [
 
     -- ;; smiyvosuwniyAn_1
     -- smyvswnyAn      smiyvosuwniyAn  Nprop   Smithsonian
 
     Identity                  `noun`    {- smiyvosuwniyAn -}   [ "Smithsonian" ] ]
 
- |> "sniyh" <| [
+ |> "snIh" <| [
 
     -- ;; sniyh_1
     -- snyh    sniyh   Nprop   Sneh
 
     Identity                  `noun`    {- sniyh -}            [ "Sneh" ] ]
 
- |> "snuwkir" <| [
+ |> "snUkir" <| [
 
     -- ;; snuwkir_1
     -- snwkr   snuwkir N0      snooker (game like pool)
 
     Identity                  `noun`    {- snuwkir -}          [ "snooker (game like pool)" ] ]
 
- |> "sriybAn" <| [
+ |> "srIbAn" <| [
 
     -- ;; sriybAn_1
     -- srybAn  sriybAn Nprop   Sripan
 
     Identity                  `noun`    {- sriybAn -}          [ "Sripan" ] ]
 
- |> "sriylAnkA" <| [
+ |> "srIlAnkA" <| [
 
     -- ;; sriylAnokA_1
     -- srylAnkA        sriylAnokA      Nprop   Sri Lanka
 
     Identity                  `noun`    {- sriylAnokA -}       [ "Sri Lanka" ] ]
 
- |> "sriyn.gAr" <| [
+ |> "srIn.gAr" <| [
 
     -- ;; sriynogAr_1
     -- sryngAr sriynogAr       N0      Sringhar
@@ -14727,28 +14902,55 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- stAyobilz -}        [ "Staples" ] ]
 
- |> "stiyf" <| [
+ |> "stIf" <| [
 
     -- ;; stiyf_1
     -- styf    stiyf   Nprop   Steve
 
     Identity                  `noun`    {- stiyf -}            [ "Steve" ] ]
 
- |> "stiyfAn" <| [
+ |> "stIfAn" <| [
 
     -- ;; stiyfAn_1
     -- styfAn  stiyfAn Nprop   Stephan
 
     Identity                  `noun`    {- stiyfAn -}          [ "Stephan" ] ]
 
- |> "stiyfin" <| [
+ |> "stIfin" <| [
 
     -- ;; stiyfin_1
     -- styfn   stiyfin Nprop   Stephen;Stefan
 
     Identity                  `noun`    {- stiyfin -}          [ "Stephen", "Stefan" ] ]
 
- |> "strAsbuwr.g" <| [
+ |> "stUbwUt^s" <| [
+
+    -- ;; stuwbwuwto$_1
+    -- stwbwwt$        stuwbwuwto$     N0      stopwatch
+
+    Identity                  `noun`    {- stuwbwuwto$ -}      [ "stopwatch" ],
+
+    -- ;; stuwbwuwto$_2
+    -- stwbwwt$        stuwbwuwto$     N0      Stopwatch
+
+    Identity                  `noun`    {- stuwbwuwto$ -}      [ "Stopwatch" ] ]
+
+ |> "stUdiyU" <| [
+
+    -- ;; stuwdiyuw_1
+    -- stwdyw  stuwdiyuw       N0      studio
+    -- stwdywh stuwdiyuwh      NAt     studios
+
+    Identity                  `noun`    {- stuwdiyuw -}        [ "studio" ] ]
+
+ |> "stUlyArUf" <| [
+
+    -- ;; stuwloyAruwf_1
+    -- stwlyArwf       stuwloyAruwf    Nprop   Stolyarov
+
+    Identity                  `noun`    {- stuwloyAruwf -}     [ "Stolyarov" ] ]
+
+ |> "strAsbUr.g" <| [
 
     -- ;; strAsobuwrg_1
     -- strAsbwrg       strAsobuwrg     Nprop   Strasbourg
@@ -14762,46 +14964,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- strAws -}           [ "Strauss" ] ]
 
- |> "striyt" <| [
+ |> "strIt" <| [
 
     -- ;; striyt_1
     -- stryt   striyt  Nprop   Street
 
     Identity                  `noun`    {- striyt -}           [ "Street" ] ]
 
- |> "struwb" <| [
+ |> "strUb" <| [
 
     -- ;; struwb_1
     -- strwb   struwb  Nprop   Strobe
 
     Identity                  `noun`    {- struwb -}           [ "Strobe" ] ]
-
- |> "stuwbwuwt^s" <| [
-
-    -- ;; stuwbwuwto$_1
-    -- stwbwwt$        stuwbwuwto$     N0      stopwatch
-
-    Identity                  `noun`    {- stuwbwuwto$ -}      [ "stopwatch" ],
-
-    -- ;; stuwbwuwto$_2
-    -- stwbwwt$        stuwbwuwto$     N0      Stopwatch
-
-    Identity                  `noun`    {- stuwbwuwto$ -}      [ "Stopwatch" ] ]
-
- |> "stuwdiyuw" <| [
-
-    -- ;; stuwdiyuw_1
-    -- stwdyw  stuwdiyuw       N0      studio
-    -- stwdywh stuwdiyuwh      NAt     studios
-
-    Identity                  `noun`    {- stuwdiyuw -}        [ "studio" ] ]
-
- |> "stuwlyAruwf" <| [
-
-    -- ;; stuwloyAruwf_1
-    -- stwlyArwf       stuwloyAruwf    Nprop   Stolyarov
-
-    Identity                  `noun`    {- stuwloyAruwf -}     [ "Stolyarov" ] ]
 
  |> "su.haybAn" <| [
 
@@ -14824,7 +14999,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- sufisoTA}iy~ -}     [ "sophistic" ] ]
 
- |> "sukkariyn" <| [
+ |> "sukkarIn" <| [
 
     -- ;; suk~ariyn_1
     -- skryn   suk~ariyn       N       saccharin
@@ -14887,7 +15062,20 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sum~un -}           [ "quail" ] ]
 
- |> "sunay^giyb" <| [
+ |> "sunUnU" <| [
+
+    -- ;; sunuwnuw_1
+    -- snwnw   sunuwnuw        Nprop   Sununu
+
+    Identity                  `noun`    {- sunuwnuw -}         [ "Sununu" ],
+
+    -- ;; sunuwnuw_2
+    -- snwnw   sunuwnuw        N0      sununu;swallow (bird)
+    -- snwnw   sunuwnuw        NapAt   sununu;swallow (bird)
+
+    Identity                  `noun`    {- sunuwnuw -}         [ "sununu", "swallow (bird)" ] ]
+
+ |> "sunay^gIb" <| [
 
     -- ;; sunayojiyb_1
     -- snyjyb  sunayojiyb      N       small gray squirrel
@@ -14900,19 +15088,6 @@ lexicon = listing "Lexicon's properties"
     -- snbA*j  sunobA*aj       N       grindstone
 
     Identity                  `noun`    {- sunobA*aj -}        [ "grindstone" ] ]
-
- |> "sunuwnuw" <| [
-
-    -- ;; sunuwnuw_1
-    -- snwnw   sunuwnuw        Nprop   Sununu
-
-    Identity                  `noun`    {- sunuwnuw -}         [ "Sununu" ],
-
-    -- ;; sunuwnuw_2
-    -- snwnw   sunuwnuw        N0      sununu;swallow (bird)
-    -- snwnw   sunuwnuw        NapAt   sununu;swallow (bird)
-
-    Identity                  `noun`    {- sunuwnuw -}         [ "sununu", "swallow (bird)" ] ]
 
  |> "suqu.trA'" <| [
 
@@ -14929,14 +15104,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- surAdiq -}          [ "pavilion", "canopy" ] ]
 
- |> "suwAriyh" <| [
+ |> "suwArIh" <| [
 
     -- ;; suwAriyh_1
     -- swAryh  suwAriyh        N0      soiree
 
     Identity                  `noun`    {- suwAriyh -}         [ "soiree" ] ]
 
- |> "suwAziylAnd" <| [
+ |> "suwAzIlAnd" <| [
 
     -- ;; suwAziylAnod_1
     -- swAzylAnd       suwAziylAnod    N0      Swaziland
@@ -14948,6 +15123,28 @@ lexicon = listing "Lexicon's properties"
     -- swAzylAndy      suwAziylAnodiy~ Nall    Swaziland     [[suwAziylAnodiy~/NOUN]]
 
     Identity |< Iy            `adj`     {- suwAziylAnodiy~ -}  [ "Swaziland" ] ]
+
+ |> "suwIsr" <| [
+
+    -- ;; suwiysriy~_1
+    -- swysry  suwiysriy~      Nall    Swiss     [[suwiysriy~/NOUN]]
+    -- swysry  suwiysriy~      Nall    Swiss     [[suwiysriy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- suwiysriy~ -}       [ "Swiss" ] ]
+
+ |> "suwIsrA" <| [
+
+    -- ;; suwiysrA_1
+    -- swysrA  suwiysrA        N0      Switzerland
+
+    Identity                  `noun`    {- suwiysrA -}         [ "Switzerland" ] ]
+
+ |> "suwIt^s" <| [
+
+    -- ;; suwiyto$_1
+    -- swyt$   suwiyto$        N0      switch
+
+    Identity                  `noun`    {- suwiyto$ -}         [ "switch" ] ]
 
  |> "suwaydA'" <| [
 
@@ -14965,215 +15162,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- suwayolim -}        [ "Suweilem", "Suwailim" ] ]
 
- |> "suwbAruw" <| [
-
-    -- ;; suwbAruw_1
-    -- swbArw  suwbAruw        Nprop   Subaru
-
-    Identity                  `noun`    {- suwbAruw -}         [ "Subaru" ] ]
-
- |> "suwbAt^sAy" <| [
-
-    -- ;; suwbAto$Ay_1
-    -- swbAt$Ay        suwbAto$Ay      N0      Supachai
-
-    Identity                  `noun`    {- suwbAto$Ay -}       [ "Supachai" ] ]
-
- |> "suwbarmAn" <| [
-
-    -- ;; suwbaromAn_1
-    -- swbrmAn suwbaromAn      N0      Superman
-
-    Identity                  `noun`    {- suwbaromAn -}       [ "Superman" ] ]
-
- |> "suwbarmarkit" <| [
-
-    -- ;; suwbaromarokit_1
-    -- swbrmrkt        suwbaromarokit  N0      supermarket
-
-    Identity                  `noun`    {- suwbaromarokit -}   [ "supermarket" ] ]
-
- |> "suwfis.tA'" <| [
-
-    -- ;; suwfisoTA}iy~_1
-    -- swfsTA}y        suwfisoTA}iy~   Nall    sophist     [[suwfisoTA}iy~/ADJ]]
-    -- swfsTA}y        suwfisoTA}iy~   Nap     sophistry     [[suwfisoTA}iy~/NOUN]]
-
-    Identity |< Iy            `adj`     {- suwfisoTA}iy~ -}    [ "sophist", "sophistry" ] ]
-
- |> "suwfuwkliys" <| [
-
-    -- ;; suwfuwkliys_1
-    -- swfwklys        suwfuwkliys     N0      Sophocles
-
-    Identity                  `noun`    {- suwfuwkliys -}      [ "Sophocles" ] ]
-
- |> "suwfyitiyy" <| [
-
-    -- ;; suwfoyitiy~_1
-    -- swfyty  suwfoyitiy~     Nall    Soviet     [[suwfoyitiy~/NOUN]]
-    -- swfyty  suwfoyitiy~     Nall    Soviet     [[suwfoyitiy~/ADJ]]
-    -- swfyyty suwfoyiytiy~    Nall    Soviet     [[suwfoyiytiy~/NOUN]]
-    -- swfyyty suwfoyiytiy~    Nall    Soviet     [[suwfoyiytiy~/ADJ]]
-    -- swfyAty suwfoyAtiy~     Nall    Soviet     [[suwfoyAtiy~/NOUN]]
-    -- swfyAty suwfoyAtiy~     Nall    Soviet     [[suwfoyAtiy~/ADJ]]
-    -- swfyt   suwfoyit        N       Soviets
-    -- swfyt   suwfoyit        N       Soviets
-    -- swfyyt  suwfoyiyt       N       Soviets
-    -- swfyyt  suwfoyiyt       N       Soviets
-    -- swfyAt  suwfoyAt        N       Soviets
-
-    Identity                  `adj`     {- suwfoyitiy~ -}      [ "Soviet" ] ]
-
- |> "suwhArtuw" <| [
-
-    -- ;; suwhArotuw_1
-    -- swhArtw suwhArotuw      Nprop   Suharto
-
-    Identity                  `noun`    {- suwhArotuw -}       [ "Suharto" ] ]
-
- |> "suwiysr" <| [
-
-    -- ;; suwiysriy~_1
-    -- swysry  suwiysriy~      Nall    Swiss     [[suwiysriy~/NOUN]]
-    -- swysry  suwiysriy~      Nall    Swiss     [[suwiysriy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- suwiysriy~ -}       [ "Swiss" ] ]
-
- |> "suwiysrA" <| [
-
-    -- ;; suwiysrA_1
-    -- swysrA  suwiysrA        N0      Switzerland
-
-    Identity                  `noun`    {- suwiysrA -}         [ "Switzerland" ] ]
-
- |> "suwiyt^s" <| [
-
-    -- ;; suwiyto$_1
-    -- swyt$   suwiyto$        N0      switch
-
-    Identity                  `noun`    {- suwiyto$ -}         [ "switch" ] ]
-
- |> "suwksuwmkiyt" <| [
-
-    -- ;; suwkosuwmokiyt_1
-    -- swkswmkyt       suwkosuwmokiyt  Nprop   Suksomkit
-
-    Identity                  `noun`    {- suwkosuwmokiyt -}   [ "Suksomkit" ] ]
-
- |> "suwlAnA" <| [
-
-    -- ;; suwlAnA_1
-    -- swlAnA  suwlAnA Nprop   Solana
-
-    Identity                  `noun`    {- suwlAnA -}          [ "Solana" ] ]
-
- |> "suwlAwiys" <| [
-
-    -- ;; suwlAwiysiy~_1
-    -- swlAwysy        suwlAwiysiy~    Nall    Sulawesian
-
-    Identity |< Iy            `adj`     {- suwlAwiysiy~ -}     [ "Sulawesian" ] ]
-
- |> "suwlAwiysiy" <| [
-
-    -- ;; suwlAwiysiy_1
-    -- swlAwysy        suwlAwiysiy     N0      Sulawesi
-
-    Identity                  `noun`    {- suwlAwiysiy -}      [ "Sulawesi" ] ]
-
- |> "suwluwfAn" <| [
-
-    -- ;; suwluwfAn_1
-    -- swlwfAn suwluwfAn       N0      cellophane
-
-    Identity                  `noun`    {- suwluwfAn -}        [ "cellophane" ] ]
-
- |> "suwma.tr" <| [
-
-    -- ;; suwmaTrap_1
-    -- swmTr   suwmaTr Nap     Sumatra
-
-    Identity |< aT            `noun`    {- suwmaTrap -}        [ "Sumatra" ] ]
-
- |> "suwniyA" <| [
-
-    -- ;; suwniyA_1
-    -- swnyA   suwniyA N0      Sonia
-
-    Identity                  `noun`    {- suwniyA -}          [ "Sonia" ] ]
-
- |> "suwrAt^sAy" <| [
-
-    -- ;; suwrAt$Ay_1
-    -- swrAt$Ay        suwrAt$Ay       Nprop   Surachai
-
-    Identity                  `noun`    {- suwrAt$Ay -}        [ "Surachai" ] ]
-
- |> "suwrfiy" <| [
-
-    -- ;; suwrofiy_1
-    -- swrfy   suwrofiy        Nprop   Survey
-
-    Identity                  `noun`    {- suwrofiy -}         [ "Survey" ] ]
-
- |> "suwrinsin" <| [
-
-    -- ;; suwrinosin_1
-    -- swrnsn  suwrinosin      Nprop   Sorensen
-
-    Identity                  `noun`    {- suwrinosin -}       [ "Sorensen" ] ]
-
- |> "suwriyA" <| [
-
-    -- ;; suwriyA_1
-    -- swryA   suwriyA N0      Syria
-    -- swry    suwriy~ Nap     Syria
-
-    Identity                  `noun`    {- suwriyA -}          [ "Syria" ] ]
-
- |> "suwst" <| [
-
-    -- ;; suwsotap_1
-    -- swst    suwsot  NapAt   zipper
-    -- swsth   suwsotah        N       zipper
-
-    Identity |< aT            `noun`    {- suwsotap -}         [ "zipper" ] ]
-
- |> "suwtuwmAyuwr" <| [
-
-    -- ;; suwtuwmAyuwr_1
-    -- swtwmAywr       suwtuwmAyuwr    Nprop   Sotomayor
-
-    Identity                  `noun`    {- suwtuwmAyuwr -}     [ "Sotomayor" ] ]
-
- |> "suwzA" <| [
-
-    -- ;; suwzA_1
-    -- swzA    suwzA   Nprop   Soussa
-
-    Identity                  `noun`    {- suwzA -}            [ "Soussa" ] ]
-
- |> "swiyriys" <| [
+ |> "swIrIs" <| [
 
     -- ;; swiyriys_1
     -- swyrys  swiyriys        Nprop   Sweeris
 
     Identity                  `noun`    {- swiyriys -}         [ "Sweeris" ] ]
-
- |> "swlydyr" <| [
-
-    -- ;; swlydyr_1
-    -- swlydyr swlydyr Nprop   Solider
-
-    Identity                  `noun`    {- swlydyr -}          [ "Solider" ] ]
-
- |> "syly^s" <| [
-
-    -- ;; syly$_1
-    -- syly$   syly$   Nprop   Celes
-
-    Identity                  `noun`    {- syly$ -}            [ "Celes" ] ]
 
  |> "tasyAr" <| [
 
@@ -15182,7 +15176,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tasoyAr -}          [ "stroll", "tour" ] ]
 
- |> "yasruw`" <| [
+ |> "yasrU`" <| [
 
     -- ;; yasoruwE_1
     -- ysrwE   yasoruwE        Ndu     caterpillar

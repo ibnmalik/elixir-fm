@@ -17,24 +17,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< At            `noun`    {- IilofAt -}          [ "directing" ] ]
 
- |> "'ul`uwb" <| [
-
-    -- ;; >uloEuwbap_1
-    -- >lEwb   >uloEuwb        Napdu   plaything;prank;trick
-    -- AlEwb   >uloEuwb        Napdu   plaything;prank;trick
-    -- >lAEyb  >alAEiyb        Ndip    pranks;shadow boxing
-    -- AlAEyb  >alAEiyb        Ndip    pranks;shadow boxing
-
-    Identity |< aT            `noun`    {- OuloEuwbap -}       [ "plaything", "prank", "trick", "shadow boxing" ] ]
-
- |> "'ulqiyy" <| [
-
-    -- ;; >uloqiy~ap_1
-    -- >lqy    >uloqiy~        Napdu   riddle;conundrum     [[>uloqiy~/NOUN]]
-    -- Alqy    >uloqiy~        Napdu   riddle;conundrum     [[>uloqiy~/NOUN]]
-
-    Identity |< aT            `noun`    {- Ouloqiy~ap -}       [ "riddle", "conundrum" ] ]
-
  |> "bilA" <| [
 
     -- ;; bilA_1
@@ -103,7 +85,19 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFAL
                               `plural`     MaFACiL |< aT
                               `plural`     MaFA'iL |< aT
-                           {- `others`  [ "malAk Ndu", "malA'ik Ndip" ] -} ]
+                           {- `others`  [ "malAk Ndu", "malA'ik Ndip" ] -},
+
+    -- ;; lA}ikiy~_1
+    -- lA}ky   lA}ikiy~        Nall_L  secular     [[lA}ikiy~/ADJ]]
+    -- lA}ky   lA}ikiy~        Nap_L   secularism     [[lA}ikiy~/NOUN]]
+
+    FACiL |< Iy               `adj`     {- lA}ikiy~ -}         [ "secular", "secularism" ],
+
+    -- ;; lA}ikiy~_1
+    -- lA}ky   lA}ikiy~        Nall_L  secular     [[lA}ikiy~/ADJ]]
+    -- lA}ky   lA}ikiy~        Nap_L   secularism     [[lA}ikiy~/NOUN]]
+
+    FA'iL |< Iy               `adj`     {- lA}ikiy~ -}         [ "secular", "secularism" ] ]
 
  |> "l ' l '" <| [
 
@@ -294,6 +288,15 @@ lexicon = listing "Lexicon's properties"
     -- l>wA}   la>owA} Nhy_L   severe distress;hardship
 
     FaCLA'                    `noun`    {- laOowA' -}          [ "severe distress", "hardship" ] ]
+
+ |> "l ' w '" <| [
+
+    -- ;; la>owA'_1
+    -- l>wA'   la>owA' N0_Nh_L severe distress;hardship
+    -- l>wA&   la>owA& Nh_L    severe distress;hardship
+    -- l>wA}   la>owA} Nhy_L   severe distress;hardship
+
+    KaRDAS                    `noun`    {- laOowA' -}          [ "severe distress", "hardship" ] ]
 
  |> "l ' y" <| [
 
@@ -2857,6 +2860,16 @@ lexicon = listing "Lexicon's properties"
     -- lEwb    laEuwb  N-ap_L  coquettish;flirtatious
 
     FaCUL                     `noun`    {- laEuwb -}           [ "coquettish", "flirtatious" ],
+
+    -- ;; >uloEuwbap_1
+    -- >lEwb   >uloEuwb        Napdu   plaything;prank;trick
+    -- AlEwb   >uloEuwb        Napdu   plaything;prank;trick
+    -- >lAEyb  >alAEiyb        Ndip    pranks;shadow boxing
+    -- AlAEyb  >alAEiyb        Ndip    pranks;shadow boxing
+
+    HuFCUL |< aT              `noun`    {- OuloEuwbap -}       [ "plaything", "prank", "trick", "shadow boxing" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'alA`iyb Ndip" ] -},
 
     -- ;; maloEab_1
     -- mlEb    maloEab Ndu     playground;sports field;stadium
@@ -6503,6 +6516,12 @@ lexicon = listing "Lexicon's properties"
 
     FiCA' |<< "a"             `prep`    {- liqA'a -}           [ "in compensation or exchange for" ],
 
+    -- ;; >uloqiy~ap_1
+    -- >lqy    >uloqiy~        Napdu   riddle;conundrum     [[>uloqiy~/NOUN]]
+    -- Alqy    >uloqiy~        Napdu   riddle;conundrum     [[>uloqiy~/NOUN]]
+
+    HuFCIL |< aT              `noun`    {- Ouloqiy~ap -}       [ "riddle", "conundrum" ],
+
     -- ;; tiloqA'_1
     -- tlqA'   tiloqA' N0_Nh   opposite;in front of
     -- tlqA&   tiloqA& Nh      opposite;in front of
@@ -8066,6 +8085,11 @@ lexicon = listing "Lexicon's properties"
 
     KaRDUS                    `noun`    {- layomuwn -}         [ "lemon" ],
 
+    -- ;; layomuwniy~_1
+    -- lymwny  layomuwniy~     Nall_L  lemon-colored     [[layomuwniy~/ADJ]]
+
+    KaRDUS |< Iy              `adj`     {- layomuwniy~ -}      [ "lemon-colored" ],
+
     -- ;; layomuwnap_1
     -- lymwn   layomuwn        NapAt_L lemon
 
@@ -8680,22 +8704,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `part`    {- lA -}               [ "no", "not" ] ]
 
- |> "lA'ikiyy" <| [
-
-    -- ;; lA}ikiy~_1
-    -- lA}ky   lA}ikiy~        Nall_L  secular     [[lA}ikiy~/ADJ]]
-    -- lA}ky   lA}ikiy~        Nap_L   secularism     [[lA}ikiy~/NOUN]]
-
-    Identity                  `adj`     {- lA}ikiy~ -}         [ "secular", "secularism" ] ]
-
- |> "lA^siyn" <| [
+ |> "lA^sIn" <| [
 
     -- ;; lA$iyn_1
     -- lA$yn   lA$iyn  Nprop   Lasheen;Lachine
 
     Identity                  `noun`    {- lA$iyn -}           [ "Lasheen", "Lachine" ] ]
 
- |> "lA^suwtiyn" <| [
+ |> "lA^sUtIn" <| [
 
     -- ;; lA$uwtiyn_1
     -- lA$wtyn lA$uwtiyn       Nprop   Lashutin
@@ -8709,28 +8725,28 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- lAhAy -}            [ "The Hague" ] ]
 
- |> "lAndriy" <| [
+ |> "lAndrI" <| [
 
     -- ;; lAnodriy_1
     -- lAndry  lAnodriy        Nprop   Landry
 
     Identity                  `noun`    {- lAnodriy -}         [ "Landry" ] ]
 
- |> "lAndruw" <| [
+ |> "lAndrU" <| [
 
     -- ;; lAnodruw_1
     -- lAndrw  lAnodruw        Nprop   Landru
 
     Identity                  `noun`    {- lAnodruw -}         [ "Landru" ] ]
 
- |> "lAndruwfir" <| [
+ |> "lAndrUfir" <| [
 
     -- ;; lAnodruwfir_1
     -- lAndrwfr        lAnodruwfir     N0_L    Land Rover
 
     Identity                  `noun`    {- lAnodruwfir -}      [ "Land Rover" ] ]
 
- |> "lAriyuwndA" <| [
+ |> "lAriyUndA" <| [
 
     -- ;; lAriyuwnodA_1
     -- lArywndA        lAriyuwnodA     Nprop   Larrionda
@@ -8744,21 +8760,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- lAsolAnod -}        [ "Lasland" ] ]
 
- |> "lAtiyn" <| [
+ |> "lAtIn" <| [
 
     -- ;; lAtiyniy~_1
     -- lAtyny  lAtiyniy~       N-ap_L  Latin     [[lAtiyniy~/ADJ]]
 
     Identity |< Iy            `adj`     {- lAtiyniy~ -}        [ "Latin" ] ]
 
- |> "lAtiynuw" <| [
+ |> "lAtInU" <| [
 
     -- ;; lAtiynuw_1
     -- lAtynw  lAtiynuw        N0_L    Latino
 
     Identity                  `noun`    {- lAtiynuw -}         [ "Latino" ] ]
 
- |> "lAtsiyuw" <| [
+ |> "lAtsiyU" <| [
 
     -- ;; lAtosiyuw_1
     -- lAtsyw  lAtosiyuw       Nprop   Lazio
@@ -8789,6 +8805,350 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- lAzuwarodiy~ -}     [ "azure", "sky-blue" ] ]
 
+ |> "lI.gfInskI" <| [
+
+    -- ;; liygofiynoskiy_1
+    -- lygfynsky       liygofiynoskiy  Nprop   Legwinski
+
+    Identity                  `noun`    {- liygofiynoskiy -}   [ "Legwinski" ] ]
+
+ |> "lIbIriyA" <| [
+
+    -- ;; liybiyriyA_1
+    -- lybyryA liybiyriyA      N0_L    Liberia
+    -- lybyryA layobiyriyA     N0_L    Liberia
+    -- lbyryA  libiyriyA       N0_L    Liberia
+
+    Identity                  `noun`    {- liybiyriyA -}       [ "Liberia" ] ]
+
+ |> "lIbirAl" <| [
+
+    -- ;; liybirAliy~_1
+    -- lybrAly liybirAliy~     Nall_L  liberal     [[liybirAliy~/ADJ]]
+    -- lybyrAly        liybiyrAliy~    Nall_L  liberal     [[liybirAliy~/ADJ]]
+    -- lybrAly liybirAliy~     Nap_L   liberalism     [[liybirAliy~/NOUN]]
+    -- lybyrAly        liybiyrAliy~    Nap_L   liberalism     [[liybirAliy~/NOUN]]
+
+    Identity |< Iy            `adj`     {- liybirAliy~ -}      [ "liberal", "liberalism" ] ]
+
+ |> "lIbirmAn" <| [
+
+    -- ;; liybiromAn_1
+    -- lybrmAn liybiromAn      Nprop   Lieberman
+
+    Identity                  `noun`    {- liybiromAn -}       [ "Lieberman" ],
+
+    -- ;; liybiromAn_2
+    -- lybrmAn liybiromAn      Nprop   Liberman
+
+    Identity                  `noun`    {- liybiromAn -}       [ "Liberman" ] ]
+
+ |> "lIbiyA" <| [
+
+    -- ;; liybiyA_1
+    -- lybyA   liybiyA N0_L    Libya
+
+    Identity                  `noun`    {- liybiyA -}          [ "Libya" ] ]
+
+ |> "lIbrAnd" <| [
+
+    -- ;; liybrAnd_1
+    -- lybrAnd liybrAnd        Nprop   Lybrand
+
+    Identity                  `noun`    {- liybrAnd -}         [ "Lybrand" ] ]
+
+ |> "lIbrfIl" <| [
+
+    -- ;; liybrfiyl_1
+    -- lybrfyl lybrfyl Nprop   Libreville
+
+    Identity                  `noun`    {- liybrfiyl -}        [ "Libreville" ] ]
+
+ |> "lIdz" <| [
+
+    -- ;; liydz_1
+    -- lydz    liydz   N0_L    Leeds
+
+    Identity                  `noun`    {- liydz -}            [ "Leeds" ] ]
+
+ |> "lIfirbUl" <| [
+
+    -- ;; liyfirbuwl_1
+    -- lyfrbwl liyfirbuwl      Nprop   Liverpool
+
+    Identity                  `noun`    {- liyfirbuwl -}       [ "Liverpool" ] ]
+
+ |> "lIfirkUzin" <| [
+
+    -- ;; liyfirokuwzin_1
+    -- lyfrkwzn        liyfirokuwzin   Nprop   Leverkusen
+
+    Identity                  `noun`    {- liyfirokuwzin -}    [ "Leverkusen" ] ]
+
+ |> "lImAsUl" <| [
+
+    -- ;; liymAsuwl_1
+    -- lymAswl liymAsuwl       Nprop   Limassol
+
+    Identity                  `noun`    {- liymAsuwl -}        [ "Limassol" ] ]
+
+ |> "lImUnAd" <| [
+
+    -- ;; liymuwnAd_1
+    -- lymwnAd liymuwnAd       Nap_L   lemonade
+
+    Identity                  `noun`    {- liymuwnAd -}        [ "lemonade" ] ]
+
+ |> "lImfA'" <| [
+
+    -- ;; liymofAwiy~_1
+    -- lymfAwy liymofAwiy~     N-ap_L  lymphatic     [[liymofAwiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- liymofAwiy~ -}      [ "lymphatic" ] ]
+
+ |> "lInA" <| [
+
+    -- ;; liynA_1
+    -- lynA    liynA   Nprop   Lina
+
+    Identity                  `noun`    {- liynA -}            [ "Lina" ] ]
+
+ |> "lIndsAy" <| [
+
+    -- ;; liyndosAy_1
+    -- lyndsAy liyndosAy       Nprop   Lindsay
+
+    Identity                  `noun`    {- liyndosAy -}        [ "Lindsay" ] ]
+
+ |> "lIsAns" <| [
+
+    -- ;; liysAnos_1
+    -- lysAns  liysAnos        N_L     licence
+
+    Identity                  `noun`    {- liysAnos -}         [ "licence" ] ]
+
+ |> "lIt^sI" <| [
+
+    -- ;; liyto$iy_1
+    -- lyt$y   liyto$iy        Nprop   Licchi
+
+    Identity                  `noun`    {- liyto$iy -}         [ "Licchi" ] ]
+
+ |> "lItr" <| [
+
+    -- ;; liytor_1
+    -- lytr    liytor  N/At_L  liter
+    -- ltr     litor   N/At_L  liter
+
+    Identity                  `noun`    {- liytor -}           [ "liter" ] ]
+
+ |> "lItur^g" <| [
+
+    -- ;; liyturjiy~ap_1
+    -- lytrjy  liyturjiy~      NapAt_L liturgy     [[liyturjiy~/NOUN]]
+
+    Identity |< Iy |< aT      `noun`    {- liyturjiy~ap -}     [ "liturgy" ] ]
+
+ |> "lU.gAnU" <| [
+
+    -- ;; luwgAnuw_1
+    -- lwgAnw  luwgAnuw        Nprop   Lugano
+
+    Identity                  `noun`    {- luwgAnuw -}         [ "Lugano" ] ]
+
+ |> "lU.gArItm" <| [
+
+    -- ;; luwgAriytom_1
+    -- lwgArytm        luwgAriytom     N/At_L  logarithm
+
+    Identity                  `noun`    {- luwgAriytom -}      [ "logarithm" ] ]
+
+ |> "lU^gist" <| [
+
+    -- ;; luwjisotiy~_1
+    -- lwjsty  luwjisotiy~     N-ap    logistic     [[luwjisotiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- luwjisotiy~ -}      [ "logistic" ],
+
+    -- ;; luwjisotiy~AF_1
+    -- lwjsty  luwjisotiy~     NF      logistically     [[luwjisotiy~/ADV]]
+
+    Identity |< Iy |< aN      `adv`     {- luwjisotiy~AF -}    [ "logistically" ],
+
+    -- ;; luwjisotiy~_2
+    -- lwjsty  luwjisotiy~     Nall    logistician     [[luwjisotiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- luwjisotiy~ -}      [ "logistician" ] ]
+
+ |> "lUbiyA" <| [
+
+    -- ;; luwbiyA_1
+    -- lwbyA   luwbiyA N0_L    green beans;string beans
+    -- lwbyA'  luwbiyA'        N0_Nh_L green beans;string beans
+    -- lwbyA&  luwbiyA&        Nh_L    green beans;string beans
+    -- lwbyA}  luwbiyA}        Nhy_L   green beans;string beans
+
+    Identity                  `noun`    {- luwbiyA -}          [ "green beans", "string beans" ] ]
+
+ |> "lUfr" <| [
+
+    -- ;; luwfr_1
+    -- lwfr    luwfr   N0_L    Louvre
+
+    Identity                  `noun`    {- luwfr -}            [ "Louvre" ] ]
+
+ |> "lUkA^sinkU" <| [
+
+    -- ;; luwkA$inokuw_1
+    -- lwkA$nkw        luwkA$inokuw    Nprop   Lukashenko
+
+    Identity                  `noun`    {- luwkA$inokuw -}     [ "Lukashenko" ] ]
+
+ |> "lUkAndah" <| [
+
+    -- ;; luwkAnodah_1
+    -- lwkAndh luwkAnodah      N0_L    hotel
+    -- lwkndh  luwkanodah      N0_L    hotel
+    -- lwkAnd  luwkAnod        NapAt_L hotel
+    -- lwknd   luwkanod        NapAt_L hotel
+
+    Identity                  `noun`    {- luwkAnodah -}       [ "hotel" ] ]
+
+ |> "lUkArnU" <| [
+
+    -- ;; luwkAronuw_1
+    -- lwkArnw luwkAronuw      N0      Locarno
+
+    Identity                  `noun`    {- luwkAronuw -}       [ "Locarno" ] ]
+
+ |> "lUkAyU" <| [
+
+    -- ;; luwkAyuw_1
+    -- lwkAyw  luwkAyuw        Nprop   Lukajo
+
+    Identity                  `noun`    {- luwkAyuw -}         [ "Lukajo" ] ]
+
+ |> "lUkhArt" <| [
+
+    -- ;; luwkohArot_1
+    -- lwkhArt luwkohArot      Nprop   Lockhart
+
+    Identity                  `noun`    {- luwkohArot -}       [ "Lockhart" ] ]
+
+ |> "lUkirbI" <| [
+
+    -- ;; luwkirobiy_1
+    -- lwkrby  luwkirobiy      Nprop   Lockerbie
+    -- lwkyrby luwkiyrobiy     Nprop   Lockerbie
+
+    Identity                  `noun`    {- luwkirobiy -}       [ "Lockerbie" ] ]
+
+ |> "lUksambUr.g" <| [
+
+    -- ;; luwkosamobuwrg_1
+    -- lwksmbwrg       luwkosamobuwrg  Nprop   Luxembourg
+    -- lwksmbwrj       luwkosamobuwrj  Nprop   Luxembourg
+
+    Identity                  `noun`    {- luwkosamobuwrg -}   [ "Luxembourg" ] ]
+
+ |> "lUksambUr.gU" <| [
+
+    -- ;; luwkosamobuwroguw_1
+    -- lwksmbwrgw      luwkosamobuwroguw       Nprop   Luxemburgo
+
+    Identity                  `noun`    {- luwkosamobuwroguw -} [ "Luxemburgo" ] ]
+
+ |> "lUmAn^g" <| [
+
+    -- ;; luwmAnojiy~_1
+    -- lwmAnjy luwmAnojiy~     Nall_L  convict;inmate     [[luwmAnojiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- luwmAnojiy~ -}      [ "convict", "inmate" ] ]
+
+ |> "lUmUnd" <| [
+
+    -- ;; luwmuwnd_1
+    -- lwmwnd  luwmuwnd        N0_L    Le Monde
+
+    Identity                  `noun`    {- luwmuwnd -}         [ "Le Monde" ] ]
+
+ |> "lUn.g" <| [
+
+    -- ;; luwnog_1
+    -- lwng    luwnog  Nprop   Long
+
+    Identity                  `noun`    {- luwnog -}           [ "Long" ] ]
+
+ |> "lUn.glI" <| [
+
+    -- ;; luwngoliy_1
+    -- lwngly  luwngoliy       Nprop   Longley
+
+    Identity                  `noun`    {- luwngoliy -}        [ "Longley" ] ]
+
+ |> "lUn^g" <| [
+
+    -- ;; luwnoj_1
+    -- lwnj    luwnoj  Nprop   Long
+
+    Identity                  `noun`    {- luwnoj -}           [ "Long" ] ]
+
+ |> "lUqA" <| [
+
+    -- ;; luwqA_1
+    -- lwqA    luwqA   Nprop   Louqa;Luke
+
+    Identity                  `noun`    {- luwqA -}            [ "Louqa", "Luke" ] ]
+
+ |> "lUrA" <| [
+
+    -- ;; luwrA_1
+    -- lwrA    luwrA   Nprop   Lora
+
+    Identity                  `noun`    {- luwrA -}            [ "Lora" ] ]
+
+ |> "lUrAns" <| [
+
+    -- ;; luwrAns_1
+    -- lwrAns  luwrAns Nprop   Laurence
+
+    Identity                  `noun`    {- luwrAns -}          [ "Laurence" ] ]
+
+ |> "lUrd" <| [
+
+    -- ;; luwrod_1
+    -- lwrd    luwrod  NduAt_L lord;Lord
+
+    Identity                  `noun`    {- luwrod -}           [ "lord", "Lord" ] ]
+
+ |> "lUsAkA" <| [
+
+    -- ;; luwsAkA_1
+    -- lwsAkA  luwsAkA N0_L    Lusaka
+
+    Identity                  `noun`    {- luwsAkA -}          [ "Lusaka" ] ]
+
+ |> "lUsIrn" <| [
+
+    -- ;; luwsiyrn_1
+    -- lwsyrn  luwsiyrn        Nprop   Lucerne
+
+    Identity                  `noun`    {- luwsiyrn -}         [ "Lucerne" ] ]
+
+ |> "lUt^sA" <| [
+
+    -- ;; luwto$A_1
+    -- lwt$A   luwto$A Nprop   Luca
+
+    Identity                  `noun`    {- luwto$A -}          [ "Luca" ] ]
+
+ |> "lUyA" <| [
+
+    -- ;; luwyA_1
+    -- lwyA    luwyA   N0_L    Loya (in "Loya Jirga")
+
+    Identity                  `noun`    {- luwyA -}            [ "Loya (in \"Loya Jirga\")" ] ]
+
  |> "l_akin" <| [
 
     -- ;; l`kin_1
@@ -8812,6 +9172,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `adv`     {- laHoZata}i*K -}     [ "at that moment" ] ]
 
+ |> "labbIs" <| [
+
+    -- ;; lab~iysap_1
+    -- lbys    lab~iys NapAt_L shoehorn
+
+    Identity |< aT            `noun`    {- lab~iysap -}        [ "shoehorn" ] ]
+
  |> "labbayk" <| [
 
     -- ;; lab~ayoka_1
@@ -8819,19 +9186,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity |<< "a"          `noun`    {- lab~ayoka -}        [ "I have answered Your call!" ] ]
 
- |> "labbiys" <| [
+ |> "lambA^gU" <| [
 
-    -- ;; lab~iysap_1
-    -- lbys    lab~iys NapAt_L shoehorn
-
-    Identity |< aT            `noun`    {- lab~iysap -}        [ "shoehorn" ] ]
-
- |> "lambA^gw" <| [
-
-    -- ;; lamobAjw_1
+    -- ;; lamobAjuw_1
     -- lmbAjw  lamobAjw        N0_L    lumbago
 
-    Identity                  `noun`    {- lamobAjw -}         [ "lumbago" ] ]
+    Identity                  `noun`    {- lamobAjuw -}        [ "lumbago" ] ]
 
  |> "lammA" <| [
 
@@ -8880,13 +9240,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `adv`     {- layolata}i*K -}     [ "on that night" ] ]
 
- |> "laymuwniyy" <| [
-
-    -- ;; layomuwniy~_1
-    -- lymwny  layomuwniy~     Nall_L  lemon-colored     [[layomuwniy~/ADJ]]
-
-    Identity                  `adj`     {- layomuwniy~ -}      [ "lemon-colored" ] ]
-
  |> "li-" <| [
 
     -- ;; li-_1
@@ -8905,7 +9258,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `prep`    {- li- -}              [ "to/for + it/him (it/he has)", "to/for + them both (they both have)", "to/for + it/them/her (it/she has, they have)", "to/for + them [masc.pl.] (they have)", "to/for + them [fem.pl.] (they have)", "to/for + you [masc.sg.] (you have)", "to/for + you [fem.sg.] (you have)", "to/for + you both (you both have)", "to/for + you [masc.pl.] (you have)", "to/for + you [fem.pl.] (you have)", "to/for + me (I have)", "to/for + us (we have)" ] ]
 
- |> "lifiy_tAn" <| [
+ |> "lifI_tAn" <| [
 
     -- ;; lifiyvAn_1
     -- lfyvAn  lifiyvAn        N0_L    leviathan
@@ -8917,7 +9270,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- lifiyvAniy~ -}      [ "leviathan" ] ]
 
- |> "liftiynAnt" <| [
+ |> "liftInAnt" <| [
 
     -- ;; lifotiynAnot_1
     -- lftynAnt        lifotiynAnot    N0_L    Lieutenant
@@ -8931,14 +9284,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `prep`    {- limA -}             [ "why/for + what" ] ]
 
- |> "liniyn" <| [
+ |> "linIn" <| [
 
     -- ;; liniyn_1
     -- lnyn    liniyn  Nprop   Lenin
 
     Identity                  `noun`    {- liniyn -}           [ "Lenin" ] ]
 
- |> "liniyn^grAd" <| [
+ |> "linIn^grAd" <| [
 
     -- ;; liniynojrAd_1
     -- lnynjrAd        liniynojrAd     N0_L    Leningrad
@@ -8956,19 +9309,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- litwAniyA -}        [ "Lithuania" ] ]
 
- |> "liwiynskiy" <| [
+ |> "liwInskI" <| [
 
     -- ;; liwiynosokiy_1
     -- lwynsky liwiynosokiy    Nprop   Lewinsky
 
     Identity                  `noun`    {- liwiynosokiy -}     [ "Lewinsky" ] ]
-
- |> "liy.gfiynskiy" <| [
-
-    -- ;; liygofiynoskiy_1
-    -- lygfynsky       liygofiynoskiy  Nprop   Legwinski
-
-    Identity                  `noun`    {- liygofiynoskiy -}   [ "Legwinski" ] ]
 
  |> "liyA" <| [
 
@@ -8977,172 +9323,42 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- liyA -}             [ "Leah" ] ]
 
- |> "liyAndruw" <| [
+ |> "liyAndrU" <| [
 
     -- ;; liyAnodruw_1
     -- lyAndrw liyAnodruw      Nprop   Leandro
 
     Identity                  `noun`    {- liyAnodruw -}       [ "Leandro" ] ]
 
- |> "liybirAl" <| [
-
-    -- ;; liybirAliy~_1
-    -- lybrAly liybirAliy~     Nall_L  liberal     [[liybirAliy~/ADJ]]
-    -- lybyrAly        liybiyrAliy~    Nall_L  liberal     [[liybirAliy~/ADJ]]
-    -- lybrAly liybirAliy~     Nap_L   liberalism     [[liybirAliy~/NOUN]]
-    -- lybyrAly        liybiyrAliy~    Nap_L   liberalism     [[liybirAliy~/NOUN]]
-
-    Identity |< Iy            `adj`     {- liybirAliy~ -}      [ "liberal", "liberalism" ] ]
-
- |> "liybirmAn" <| [
-
-    -- ;; liybiromAn_1
-    -- lybrmAn liybiromAn      Nprop   Lieberman
-
-    Identity                  `noun`    {- liybiromAn -}       [ "Lieberman" ],
-
-    -- ;; liybiromAn_2
-    -- lybrmAn liybiromAn      Nprop   Liberman
-
-    Identity                  `noun`    {- liybiromAn -}       [ "Liberman" ] ]
-
- |> "liybiyA" <| [
-
-    -- ;; liybiyA_1
-    -- lybyA   liybiyA N0_L    Libya
-
-    Identity                  `noun`    {- liybiyA -}          [ "Libya" ] ]
-
- |> "liybiyriyA" <| [
-
-    -- ;; liybiyriyA_1
-    -- lybyryA liybiyriyA      N0_L    Liberia
-    -- lybyryA layobiyriyA     N0_L    Liberia
-    -- lbyryA  libiyriyA       N0_L    Liberia
-
-    Identity                  `noun`    {- liybiyriyA -}       [ "Liberia" ] ]
-
- |> "liybrAnd" <| [
-
-    -- ;; liybrAnd_1
-    -- lybrAnd liybrAnd        Nprop   Lybrand
-
-    Identity                  `noun`    {- liybrAnd -}         [ "Lybrand" ] ]
-
- |> "liydz" <| [
-
-    -- ;; liydz_1
-    -- lydz    liydz   N0_L    Leeds
-
-    Identity                  `noun`    {- liydz -}            [ "Leeds" ] ]
-
- |> "liyfirbuwl" <| [
-
-    -- ;; liyfirbuwl_1
-    -- lyfrbwl liyfirbuwl      Nprop   Liverpool
-
-    Identity                  `noun`    {- liyfirbuwl -}       [ "Liverpool" ] ]
-
- |> "liyfirkuwzin" <| [
-
-    -- ;; liyfirokuwzin_1
-    -- lyfrkwzn        liyfirokuwzin   Nprop   Leverkusen
-
-    Identity                  `noun`    {- liyfirokuwzin -}    [ "Leverkusen" ] ]
-
- |> "liymAsuwl" <| [
-
-    -- ;; liymAsuwl_1
-    -- lymAswl liymAsuwl       Nprop   Limassol
-
-    Identity                  `noun`    {- liymAsuwl -}        [ "Limassol" ] ]
-
- |> "liymfA'" <| [
-
-    -- ;; liymofAwiy~_1
-    -- lymfAwy liymofAwiy~     N-ap_L  lymphatic     [[liymofAwiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- liymofAwiy~ -}      [ "lymphatic" ] ]
-
- |> "liymuwnAd" <| [
-
-    -- ;; liymuwnAd_1
-    -- lymwnAd liymuwnAd       Nap_L   lemonade
-
-    Identity                  `noun`    {- liymuwnAd -}        [ "lemonade" ] ]
-
- |> "liynA" <| [
-
-    -- ;; liynA_1
-    -- lynA    liynA   Nprop   Lina
-
-    Identity                  `noun`    {- liynA -}            [ "Lina" ] ]
-
- |> "liyndsAy" <| [
-
-    -- ;; liyndosAy_1
-    -- lyndsAy liyndosAy       Nprop   Lindsay
-
-    Identity                  `noun`    {- liyndosAy -}        [ "Lindsay" ] ]
-
- |> "liysAns" <| [
-
-    -- ;; liysAnos_1
-    -- lysAns  liysAnos        N_L     licence
-
-    Identity                  `noun`    {- liysAnos -}         [ "licence" ] ]
-
- |> "liyt^siy" <| [
-
-    -- ;; liyto$iy_1
-    -- lyt$y   liyto$iy        Nprop   Licchi
-
-    Identity                  `noun`    {- liyto$iy -}         [ "Licchi" ] ]
-
- |> "liytr" <| [
-
-    -- ;; liytor_1
-    -- lytr    liytor  N/At_L  liter
-    -- ltr     litor   N/At_L  liter
-
-    Identity                  `noun`    {- liytor -}           [ "liter" ] ]
-
- |> "liytur^g" <| [
-
-    -- ;; liyturjiy~ap_1
-    -- lytrjy  liyturjiy~      NapAt_L liturgy     [[liyturjiy~/NOUN]]
-
-    Identity |< Iy |< aT      `noun`    {- liyturjiy~ap -}     [ "liturgy" ] ]
-
- |> "liyuwbArd" <| [
+ |> "liyUbArd" <| [
 
     -- ;; liyuwbArod_1
     -- lywbArd liyuwbArod      N0_L    Leopard
 
     Identity                  `noun`    {- liyuwbArod -}       [ "Leopard" ] ]
 
- |> "liyuwbliyAn" <| [
-
-    -- ;; liyuwboliyAniy~_1
-    -- lywblyAny       liyuwboliyAniy~ Nall    from/of Ljubljana
-
-    Identity |< Iy            `adj`     {- liyuwboliyAniy~ -}  [ "from/of Ljubljana" ] ]
-
- |> "liyuwbliyAnA" <| [
-
-    -- ;; liyuwboliyAnA_1
-    -- lywblyAnA       liyuwboliyAnA   Nprop   Ljubljana
-
-    Identity                  `noun`    {- liyuwboliyAnA -}    [ "Ljubljana" ] ]
-
- |> "liyuwbuwf" <| [
+ |> "liyUbUf" <| [
 
     -- ;; liyuwbuwf_1
     -- lywbwf  liyuwbuwf       Nprop   Leopov
 
     Identity                  `noun`    {- liyuwbuwf -}        [ "Leopov" ] ]
 
- |> "liyuwn" <| [
+ |> "liyUbliyAn" <| [
+
+    -- ;; liyuwboliyAniy~_1
+    -- lywblyAny       liyuwboliyAniy~ Nall    from/of Ljubljana
+
+    Identity |< Iy            `adj`     {- liyuwboliyAniy~ -}  [ "from/of Ljubljana" ] ]
+
+ |> "liyUbliyAnA" <| [
+
+    -- ;; liyuwboliyAnA_1
+    -- lywblyAnA       liyuwboliyAnA   Nprop   Ljubljana
+
+    Identity                  `noun`    {- liyuwboliyAnA -}    [ "Ljubljana" ] ]
+
+ |> "liyUn" <| [
 
     -- ;; liyuwn_1
     -- lywn    liyuwn  N0_L    Leon
@@ -9154,14 +9370,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- liyuwn -}           [ "Lyon" ] ]
 
- |> "liyuwr" <| [
+ |> "liyUr" <| [
 
     -- ;; liyuwr_1
     -- lywr    liyuwr  Nprop   Lior
 
     Identity                  `noun`    {- liyuwr -}           [ "Lior" ] ]
 
- |> "liyuwtinAn" <| [
+ |> "liyUtinAn" <| [
 
     -- ;; liyuwtinAn_1
     -- lywtnAn liyuwtinAn      N0_L    lieutenant
@@ -9176,20 +9392,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- lukosumburj -}      [ "Luxembourg" ] ]
 
- |> "luw.gAnuw" <| [
-
-    -- ;; luwgAnuw_1
-    -- lwgAnw  luwgAnuw        Nprop   Lugano
-
-    Identity                  `noun`    {- luwgAnuw -}         [ "Lugano" ] ]
-
- |> "luw.gAriytm" <| [
-
-    -- ;; luwgAriytom_1
-    -- lwgArytm        luwgAriytom     N/At_L  logarithm
-
-    Identity                  `noun`    {- luwgAriytom -}      [ "logarithm" ] ]
-
  |> "luwAndA" <| [
 
     -- ;; luwAnodA_1
@@ -9197,206 +9399,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- luwAnodA -}         [ "Luanda" ] ]
 
- |> "luw^gist" <| [
-
-    -- ;; luwjisotiy~_1
-    -- lwjsty  luwjisotiy~     N-ap    logistic     [[luwjisotiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- luwjisotiy~ -}      [ "logistic" ],
-
-    -- ;; luwjisotiy~AF_1
-    -- lwjsty  luwjisotiy~     NF      logistically     [[luwjisotiy~/ADV]]
-
-    Identity |< Iy |< aN      `adv`     {- luwjisotiy~AF -}    [ "logistically" ],
-
-    -- ;; luwjisotiy~_2
-    -- lwjsty  luwjisotiy~     Nall    logistician     [[luwjisotiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- luwjisotiy~ -}      [ "logistician" ] ]
-
- |> "luwbiyA" <| [
-
-    -- ;; luwbiyA_1
-    -- lwbyA   luwbiyA N0_L    green beans;string beans
-    -- lwbyA'  luwbiyA'        N0_Nh_L green beans;string beans
-    -- lwbyA&  luwbiyA&        Nh_L    green beans;string beans
-    -- lwbyA}  luwbiyA}        Nhy_L   green beans;string beans
-
-    Identity                  `noun`    {- luwbiyA -}          [ "green beans", "string beans" ] ]
-
- |> "luwfr" <| [
-
-    -- ;; luwfr_1
-    -- lwfr    luwfr   N0_L    Louvre
-
-    Identity                  `noun`    {- luwfr -}            [ "Louvre" ] ]
-
- |> "luwkA^sinkuw" <| [
-
-    -- ;; luwkA$inokuw_1
-    -- lwkA$nkw        luwkA$inokuw    Nprop   Lukashenko
-
-    Identity                  `noun`    {- luwkA$inokuw -}     [ "Lukashenko" ] ]
-
- |> "luwkAndah" <| [
-
-    -- ;; luwkAnodah_1
-    -- lwkAndh luwkAnodah      N0_L    hotel
-    -- lwkndh  luwkanodah      N0_L    hotel
-    -- lwkAnd  luwkAnod        NapAt_L hotel
-    -- lwknd   luwkanod        NapAt_L hotel
-
-    Identity                  `noun`    {- luwkAnodah -}       [ "hotel" ] ]
-
- |> "luwkArnuw" <| [
-
-    -- ;; luwkAronuw_1
-    -- lwkArnw luwkAronuw      N0      Locarno
-
-    Identity                  `noun`    {- luwkAronuw -}       [ "Locarno" ] ]
-
- |> "luwkAyuw" <| [
-
-    -- ;; luwkAyuw_1
-    -- lwkAyw  luwkAyuw        Nprop   Lukajo
-
-    Identity                  `noun`    {- luwkAyuw -}         [ "Lukajo" ] ]
-
- |> "luwkhArt" <| [
-
-    -- ;; luwkohArot_1
-    -- lwkhArt luwkohArot      Nprop   Lockhart
-
-    Identity                  `noun`    {- luwkohArot -}       [ "Lockhart" ] ]
-
- |> "luwkirbiy" <| [
-
-    -- ;; luwkirobiy_1
-    -- lwkrby  luwkirobiy      Nprop   Lockerbie
-    -- lwkyrby luwkiyrobiy     Nprop   Lockerbie
-
-    Identity                  `noun`    {- luwkirobiy -}       [ "Lockerbie" ] ]
-
- |> "luwksambuwr.g" <| [
-
-    -- ;; luwkosamobuwrg_1
-    -- lwksmbwrg       luwkosamobuwrg  Nprop   Luxembourg
-    -- lwksmbwrj       luwkosamobuwrj  Nprop   Luxembourg
-
-    Identity                  `noun`    {- luwkosamobuwrg -}   [ "Luxembourg" ] ]
-
- |> "luwksambuwr.guw" <| [
-
-    -- ;; luwkosamobuwroguw_1
-    -- lwksmbwrgw      luwkosamobuwroguw       Nprop   Luxemburgo
-
-    Identity                  `noun`    {- luwkosamobuwroguw -} [ "Luxemburgo" ] ]
-
- |> "luwmAn^g" <| [
-
-    -- ;; luwmAnojiy~_1
-    -- lwmAnjy luwmAnojiy~     Nall_L  convict;inmate     [[luwmAnojiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- luwmAnojiy~ -}      [ "convict", "inmate" ] ]
-
- |> "luwmuwnd" <| [
-
-    -- ;; luwmuwnd_1
-    -- lwmwnd  luwmuwnd        N0_L    Le Monde
-
-    Identity                  `noun`    {- luwmuwnd -}         [ "Le Monde" ] ]
-
- |> "luwn.g" <| [
-
-    -- ;; luwnog_1
-    -- lwng    luwnog  Nprop   Long
-
-    Identity                  `noun`    {- luwnog -}           [ "Long" ] ]
-
- |> "luwn.gliy" <| [
-
-    -- ;; luwngoliy_1
-    -- lwngly  luwngoliy       Nprop   Longley
-
-    Identity                  `noun`    {- luwngoliy -}        [ "Longley" ] ]
-
- |> "luwn^g" <| [
-
-    -- ;; luwnoj_1
-    -- lwnj    luwnoj  Nprop   Long
-
-    Identity                  `noun`    {- luwnoj -}           [ "Long" ] ]
-
- |> "luwqA" <| [
-
-    -- ;; luwqA_1
-    -- lwqA    luwqA   Nprop   Louqa;Luke
-
-    Identity                  `noun`    {- luwqA -}            [ "Louqa", "Luke" ] ]
-
- |> "luwrA" <| [
-
-    -- ;; luwrA_1
-    -- lwrA    luwrA   Nprop   Lora
-
-    Identity                  `noun`    {- luwrA -}            [ "Lora" ] ]
-
- |> "luwrAns" <| [
-
-    -- ;; luwrAns_1
-    -- lwrAns  luwrAns Nprop   Laurence
-
-    Identity                  `noun`    {- luwrAns -}          [ "Laurence" ] ]
-
- |> "luwrd" <| [
-
-    -- ;; luwrod_1
-    -- lwrd    luwrod  NduAt_L lord;Lord
-
-    Identity                  `noun`    {- luwrod -}           [ "lord", "Lord" ] ]
-
- |> "luwsAkA" <| [
-
-    -- ;; luwsAkA_1
-    -- lwsAkA  luwsAkA N0_L    Lusaka
-
-    Identity                  `noun`    {- luwsAkA -}          [ "Lusaka" ] ]
-
- |> "luwsiyrn" <| [
-
-    -- ;; luwsiyrn_1
-    -- lwsyrn  luwsiyrn        Nprop   Lucerne
-
-    Identity                  `noun`    {- luwsiyrn -}         [ "Lucerne" ] ]
-
- |> "luwt^sA" <| [
-
-    -- ;; luwto$A_1
-    -- lwt$A   luwto$A Nprop   Luca
-
-    Identity                  `noun`    {- luwto$A -}          [ "Luca" ] ]
-
- |> "luwuwn.g" <| [
+ |> "luwUn.g" <| [
 
     -- ;; luwuwnog_1
     -- lwwng   luwuwnog        Nprop   Luong
     -- lwng    luwnog  Nprop   Luong
 
     Identity                  `noun`    {- luwuwnog -}         [ "Luong" ] ]
-
- |> "luwyA" <| [
-
-    -- ;; luwyA_1
-    -- lwyA    luwyA   N0_L    Loya (in "Loya Jirga")
-
-    Identity                  `noun`    {- luwyA -}            [ "Loya (in \"Loya Jirga\")" ] ]
-
- |> "lybrfyl" <| [
-
-    -- ;; lybrfyl_1
-    -- lybrfyl lybrfyl Nprop   Libreville
-
-    Identity                  `noun`    {- lybrfyl -}          [ "Libreville" ] ]
 
  |> "mAlam" <| [
 

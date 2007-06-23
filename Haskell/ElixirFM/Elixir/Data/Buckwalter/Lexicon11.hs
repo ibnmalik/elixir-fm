@@ -2641,7 +2641,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; zulayojiy~_1
     -- zlyjy   zulayojiy~      Nall    ornamental tile
 
-    FuCayL |< Iy              `adj`     {- zulayojiy~ -}       [ "ornamental tile" ] ]
+    FuCayL |< Iy              `adj`     {- zulayojiy~ -}       [ "ornamental tile" ],
+
+    -- ;; zuluwjiy~_1
+    -- zlwjy   zuluwjiy~       Nall    zoological     [[zuluwjiy~/ADJ]]
+
+    FuCUL |< Iy               `adj`     {- zuluwjiy~ -}        [ "zoological" ] ]
 
  |> "z l `" <| [
 
@@ -5743,21 +5748,21 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FILAn
                            {- `others`  [ "ziyzAn N" ] -} ]
 
- |> "zA'iyr" <| [
+ |> "zA'Ir" <| [
 
     -- ;; zA}iyr_1
     -- zA}yr   zA}iyr  N       Zaire
 
     Identity                  `noun`    {- zA}iyr -}           [ "Zaire" ] ]
 
- |> "zA^guwrA" <| [
+ |> "zA^gUrA" <| [
 
     -- ;; zAjuwrA_1
     -- zAjwrA  zAjuwrA N0      Zagora
 
     Identity                  `noun`    {- zAjuwrA -}          [ "Zagora" ] ]
 
- |> "zAbAliytA" <| [
+ |> "zAbAlItA" <| [
 
     -- ;; zAbAliytA_1
     -- zAbAlytA        zAbAliytA       Nprop   Zabaleta
@@ -5785,6 +5790,66 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- zAyst -}            [ "Zeist" ] ]
 
+ |> "zIfAdInUfIt^s" <| [
+
+    -- ;; ziyfAdiynuwfiyt$_1
+    -- zyfAdynwfyt$    ziyfAdiynuwfiyt$        Nprop   Zivadinovic
+
+    Identity                  `noun`    {- ziyfAdiynuwfiyt$ -} [ "Zivadinovic" ] ]
+
+ |> "zIlAnd" <| [
+
+    -- ;; ziylAnodiy~_1
+    -- zylAndy ziylAnodiy~     Nall    Zealander     [[ziylAnodiy~/NOUN]]
+    -- zylAndy ziylAnodiy~     Nall    Zealander     [[ziylAnodiy~/ADJ]]
+    -- zylndy  ziylanodiy~     Nall    Zealander     [[ziylanodiy~/NOUN]]
+    -- zylndy  ziylanodiy~     Nall    Zealander     [[ziylanodiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- ziylAnodiy~ -}      [ "Zealander" ] ]
+
+ |> "zIlAndA" <| [
+
+    -- ;; ziylAnodA_1
+    -- zylAndA ziylAnodA       N0      Zealand
+    -- zylndA  ziylanodA       N0      Zealand
+
+    Identity                  `noun`    {- ziylAnodA -}        [ "Zealand" ] ]
+
+ |> "zIlIkU" <| [
+
+    -- ;; ziyliykuw_1
+    -- zylykw  ziyliykuw       Nprop   Zeljko
+
+    Identity                  `noun`    {- ziyliykuw -}        [ "Zeljko" ] ]
+
+ |> "zImbAbw" <| [
+
+    -- ;; ziymobAbowiy~_1
+    -- zymbAbwy        ziymobAbowiy~   Nall    Zimbabwean
+
+    Identity |< Iy            `adj`     {- ziymobAbowiy~ -}    [ "Zimbabwean" ] ]
+
+ |> "zImbAbwI" <| [
+
+    -- ;; ziymobAbowiy_1
+    -- zymbAbwy        ziymobAbowiy    Nprop   Zimbabwe
+
+    Identity                  `noun`    {- ziymobAbowiy -}     [ "Zimbabwe" ] ]
+
+ |> "zInkU" <| [
+
+    -- ;; ziynokuw_1
+    -- zynkw   ziynokuw        N0      zinc
+
+    Identity                  `noun`    {- ziynokuw -}         [ "zinc" ] ]
+
+ |> "zUlU^giyA" <| [
+
+    -- ;; zuwluwjiyA_1
+    -- zwlwjyA zuwluwjiyA      N0      zoology
+
+    Identity                  `noun`    {- zuwluwjiyA -}       [ "zoology" ] ]
+
  |> "za`farAn" <| [
 
     -- ;; zaEofarAn_1
@@ -5806,6 +5871,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- zabarjad -}         [ "green jewels" ] ]
 
+ |> "zakarIyA" <| [
+
+    -- ;; zakariy~A_1
+    -- zkryA   zakariy~A       Nprop   Zakariya;Zecharia
+
+    Identity                  `noun`    {- zakariy~A -}        [ "Zakariya", "Zecharia" ] ]
+
  |> "zakariyA'" <| [
 
     -- ;; zakariyA'_1
@@ -5813,14 +5885,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- zakariyA' -}        [ "Zacharias", "Zechariah" ] ]
 
- |> "zakariyyA" <| [
-
-    -- ;; zakariy~A_1
-    -- zkryA   zakariy~A       Nprop   Zakariya;Zecharia
-
-    Identity                  `noun`    {- zakariy~A -}        [ "Zakariya", "Zecharia" ] ]
-
- |> "zamhariyr" <| [
+ |> "zamharIr" <| [
 
     -- ;; zamohariyr_1
     -- zmhryr  zamohariyr      N       bitter cold;severe frost
@@ -5843,7 +5908,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- zanojabAr -}        [ "Zanzibar" ] ]
 
- |> "zan^gabiyl" <| [
+ |> "zan^gabIl" <| [
 
     -- ;; zanojabiyl_1
     -- znjbyl  zanojabiyl      N       ginger
@@ -5888,7 +5953,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- zarAdu$otiy~ -}     [ "Zoroastrian", "Zoroastrianism" ] ]
 
- |> "zayzafuwn" <| [
+ |> "zayzafUn" <| [
 
     -- ;; zayozafuwn_1
     -- zyzfwn  zayozafuwn      N       jujube;linden tree
@@ -5909,65 +5974,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- zi}obaq -}          [ "quicksilver", "mercury" ] ]
 
- |> "zintariy" <| [
+ |> "zintarI" <| [
 
     -- ;; zinotariy_1
     -- zntry   zinotariy       N0      dysentery
 
     Identity                  `noun`    {- zinotariy -}        [ "dysentery" ] ]
-
- |> "ziyfAdiynuwfiyt^s" <| [
-
-    -- ;; ziyfAdiynuwfiyt$_1
-    -- zyfAdynwfyt$    ziyfAdiynuwfiyt$        Nprop   Zivadinovic
-
-    Identity                  `noun`    {- ziyfAdiynuwfiyt$ -} [ "Zivadinovic" ] ]
-
- |> "ziylAnd" <| [
-
-    -- ;; ziylAnodiy~_1
-    -- zylAndy ziylAnodiy~     Nall    Zealander     [[ziylAnodiy~/NOUN]]
-    -- zylAndy ziylAnodiy~     Nall    Zealander     [[ziylAnodiy~/ADJ]]
-    -- zylndy  ziylanodiy~     Nall    Zealander     [[ziylanodiy~/NOUN]]
-    -- zylndy  ziylanodiy~     Nall    Zealander     [[ziylanodiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- ziylAnodiy~ -}      [ "Zealander" ] ]
-
- |> "ziylAndA" <| [
-
-    -- ;; ziylAnodA_1
-    -- zylAndA ziylAnodA       N0      Zealand
-    -- zylndA  ziylanodA       N0      Zealand
-
-    Identity                  `noun`    {- ziylAnodA -}        [ "Zealand" ] ]
-
- |> "ziyliykuw" <| [
-
-    -- ;; ziyliykuw_1
-    -- zylykw  ziyliykuw       Nprop   Zeljko
-
-    Identity                  `noun`    {- ziyliykuw -}        [ "Zeljko" ] ]
-
- |> "ziymbAbw" <| [
-
-    -- ;; ziymobAbowiy~_1
-    -- zymbAbwy        ziymobAbowiy~   Nall    Zimbabwean
-
-    Identity |< Iy            `adj`     {- ziymobAbowiy~ -}    [ "Zimbabwean" ] ]
-
- |> "ziymbAbwiy" <| [
-
-    -- ;; ziymobAbowiy_1
-    -- zymbAbwy        ziymobAbowiy    Nprop   Zimbabwe
-
-    Identity                  `noun`    {- ziymobAbowiy -}     [ "Zimbabwe" ] ]
-
- |> "ziynkuw" <| [
-
-    -- ;; ziynokuw_1
-    -- zynkw   ziynokuw        N0      zinc
-
-    Identity                  `noun`    {- ziynokuw -}         [ "zinc" ] ]
 
  |> "zu.gu.t.t" <| [
 
@@ -5976,20 +5988,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- zuguT~ap -}         [ "hiccup" ] ]
 
- |> "zulluwm" <| [
+ |> "zullUm" <| [
 
     -- ;; zul~uwmap_1
     -- zlwm    zul~uwm Nap     elephant trunk
     -- zlAlym  zalAliym        Ndip    elephant trunks
 
     Identity |< aT            `noun`    {- zul~uwmap -}        [ "elephant trunk" ] ]
-
- |> "zuluw^giyy" <| [
-
-    -- ;; zuluwjiy~_1
-    -- zlwjy   zuluwjiy~       Nall    zoological     [[zuluwjiy~/ADJ]]
-
-    Identity                  `adj`     {- zuluwjiy~ -}        [ "zoological" ] ]
 
  |> "zumurrud" <| [
 
@@ -6016,11 +6021,4 @@ lexicon = listing "Lexicon's properties"
     -- zwAng   zuwAng  Nprop   Zhuang
 
     Identity                  `noun`    {- zuwAng -}           [ "Zhuang" ] ]
-
- |> "zuwluw^giyA" <| [
-
-    -- ;; zuwluwjiyA_1
-    -- zwlwjyA zuwluwjiyA      N0      zoology
-
-    Identity                  `noun`    {- zuwluwjiyA -}       [ "zoology" ] ]
 

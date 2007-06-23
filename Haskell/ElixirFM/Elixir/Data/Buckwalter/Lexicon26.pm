@@ -615,6 +615,46 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'halIla^g' => [
+    {
+      'types' => {},
+      'entry' => 'haliyla^g',
+      'form' => 'haliyla^g',
+      'lines' => [
+        ';; haliylaj_1',
+        'hlylj   haliylaj        Ndu     ellipse'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'ellipse'
+      ],
+      'orig' => 'haliylaj',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'haliyla^g',
+      'form' => 'haliyla^giyy',
+      'lines' => [
+        ';; haliylajiy~_1',
+        'hlyljy  haliylajiy~     N-ap    elliptical     [[haliylajiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'elliptical'
+      ],
+      'orig' => 'haliylajiy~',
+      'prefix' => ''
+    }
+  ],
   'h .d b' => [
     {
       'types' => {
@@ -694,6 +734,70 @@ $Lexicon = {
         'Hudeibi'
       ],
       'orig' => 'huDayobiy~',
+      'prefix' => ''
+    }
+  ],
+  'hIrU^sImA' => [
+    {
+      'types' => {},
+      'entry' => 'hiyruw^siymA',
+      'form' => 'hiyruw^siymA',
+      'lines' => [
+        ';; hiyruw$iymA_1',
+        'hyrw$ymA        hiyruw$iymA     Nprop   Hiroshima'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Hiroshima'
+      ],
+      'orig' => 'hiyruw$iymA',
+      'prefix' => ''
+    }
+  ],
+  'hUndA' => [
+    {
+      'types' => {},
+      'entry' => 'huwndA',
+      'form' => 'huwndA',
+      'lines' => [
+        ';; huwnodA_1',
+        'hwndA   huwnodA N0      Honda'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Honda'
+      ],
+      'orig' => 'huwnodA',
+      'prefix' => ''
+    }
+  ],
+  'hinriyItA' => [
+    {
+      'types' => {},
+      'entry' => 'hinriyiytA',
+      'form' => 'hinriyiytA',
+      'lines' => [
+        ';; hinoriyiytA_1',
+        'hnryytA hinoriyiytA     Nprop   Henrieta;Henrietta'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Henrieta',
+        'Henrietta'
+      ],
+      'orig' => 'hinoriyiytA',
       'prefix' => ''
     }
   ],
@@ -1247,6 +1351,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'hallilUyA' => [
+    {
+      'types' => {
+        'halliluwyY' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'halliluwyA',
+      'form' => 'halliluwyA',
+      'lines' => [
+        ';; hal~iluwyA_1',
+        'hllwyA  hal~iluwyA      N0      hallelujah'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'hallelujah'
+      ],
+      'orig' => 'hal~iluwyA',
+      'prefix' => ''
+    }
+  ],
   'h k y' => [
     {
       'types' => {},
@@ -1268,24 +1397,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'huwnuwluwluw' => [
+  'hayUlAn' => [
     {
       'types' => {},
-      'entry' => 'huwnuwluwluw',
-      'form' => 'huwnuwluwluw',
+      'entry' => 'hayuwlAn',
+      'form' => 'hayuwlAniyy',
       'lines' => [
-        ';; huwnuwluwluw_1',
-        'hwnwlwlw        huwnuwluwluw    Nprop   Honolulu'
+        ';; hayuwlAniy~_1',
+        'hywlAny hayuwlAniy~     N-ap    material     [[hayuwlAniy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'Honolulu'
+        'material'
       ],
-      'orig' => 'huwnuwluwluw',
+      'orig' => 'hayuwlAniy~',
       'prefix' => ''
     }
   ],
@@ -1358,49 +1487,6 @@ $Lexicon = {
         'cowardly'
       ],
       'orig' => 'habiyt',
-      'prefix' => ''
-    }
-  ],
-  'hAytiyy' => [
-    {
-      'types' => {},
-      'entry' => 'hAytiyy',
-      'form' => 'hAytiyy',
-      'lines' => [
-        ';; hAytiy~_1',
-        'hAyty   hAytiy~ Nall    Haitian     [[hAytiy~/NOUN]]',
-        'hAyty   hAytiy~ Nall    Haitian     [[hAytiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Haitian'
-      ],
-      'orig' => 'hAytiy~',
-      'prefix' => ''
-    }
-  ],
-  'hiyruw^siymA' => [
-    {
-      'types' => {},
-      'entry' => 'hiyruw^siymA',
-      'form' => 'hiyruw^siymA',
-      'lines' => [
-        ';; hiyruw$iymA_1',
-        'hyrw$ymA        hiyruw$iymA     Nprop   Hiroshima'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Hiroshima'
-      ],
-      'orig' => 'hiyruw$iymA',
       'prefix' => ''
     }
   ],
@@ -1807,6 +1893,57 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'hIdrU^gIn' => [
+    {
+      'types' => {
+        'haydruw^giyn' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'hiydruw^giyn',
+      'form' => 'hiydruw^giyn',
+      'lines' => [
+        ';; hiydruwjiyn_1',
+        'hydrwjyn        hiydruwjiyn     N0      hydrogen',
+        'hydrwjyn        hayodruwjiyn    N0      hydrogen'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'hydrogen'
+      ],
+      'orig' => 'hiydruwjiyn',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'haydruw^giyniyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'hiydruw^giyn',
+      'form' => 'hiydruw^giyniyy',
+      'lines' => [
+        ';; hiydruwjiyniy~_1',
+        'hydrwjyny       hiydruwjiyniy~  Nall    hydrogen;hydrogenous     [[hiydruwjiyniy~/ADJ]]',
+        'hydrwjyny       hayodruwjiyniy~ Nall    hydrogen;hydrogenous     [[hayodruwjiyniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'hydrogen',
+        'hydrogenous'
+      ],
+      'orig' => 'hiydruwjiyniy~',
+      'prefix' => ''
+    }
+  ],
   'h .t l' => [
     {
       'types' => {
@@ -1923,14 +2060,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hindriyks' => [
+  'hIdrUmitr' => [
     {
-      'types' => {},
-      'entry' => 'hindriyks',
-      'form' => 'hindriyks',
+      'types' => {
+        'haydruwmitr' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'hiydruwmitr',
+      'form' => 'hiydruwmitr',
       'lines' => [
-        ';; hinodriyks_1',
-        'hndryks hinodriyks      Nprop   Hendricks'
+        ';; hiydruwmitr_1',
+        'hydrwmtr        hiydruwmitr     N0      hydrometer',
+        'hydrwmtr        hayodruwmitr    N0      hydrometer'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1938,9 +2080,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Hendricks'
+        'hydrometer'
       ],
-      'orig' => 'hinodriyks',
+      'orig' => 'hiydruwmitr',
       'prefix' => ''
     }
   ],
@@ -1969,41 +2111,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'huwlmAn' => [
-    {
-      'types' => {},
-      'entry' => 'huwlmAn',
-      'form' => 'huwlmAn',
-      'lines' => [
-        ';; huwlomAn_1',
-        'hwlmAn  huwlomAn        Nprop   Holeman;Hallman'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Holeman',
-        'Hallman'
-      ],
-      'orig' => 'huwlomAn',
-      'prefix' => ''
-    }
-  ],
-  'histiyriyA' => [
+  'hUndUrAs' => [
     {
       'types' => {
-        'hiystiyriyA' => {
+        'hunduwrAs' => {
           'N0' => 1
         }
       },
-      'entry' => 'histiyriyA',
-      'form' => 'histiyriyA',
+      'entry' => 'huwnduwrAs',
+      'form' => 'huwnduwrAs',
       'lines' => [
-        ';; hisotiyriyA_1',
-        'hstyryA hisotiyriyA     N0      hysteria',
-        'hystyryA        hiysotiyriyA    N0      hysteria'
+        ';; huwnoduwrAs_1',
+        'hwndwrAs        huwnoduwrAs     N0      Honduras',
+        'hndwrAs hunoduwrAs      N0      Honduras'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2011,39 +2131,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'hysteria'
+        'Honduras'
       ],
-      'orig' => 'hisotiyriyA',
-      'prefix' => ''
-    }
-  ],
-  'hAwA\'iy' => [
-    {
-      'types' => {
-        'hAwAyiy' => {
-          'N0' => 1
-        },
-        'hAwAy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'hAwA\'iy',
-      'form' => 'hAwA\'iy',
-      'lines' => [
-        ';; hAwA}iy_1',
-        'hAwA}y  hAwA}iy N0      Hawaii',
-        'hAwAy   hAwAy   N0      Hawaii',
-        'hAwAyy  hAwAyiy N0      Hawaii'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Hawaii'
-      ],
-      'orig' => 'hAwA}iy',
+      'orig' => 'huwnoduwrAs',
       'prefix' => ''
     }
   ],
@@ -2439,32 +2529,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hAnuwfir' => [
-    {
-      'types' => {
-        'hAnuwfiyr' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'hAnuwfir',
-      'form' => 'hAnuwfir',
-      'lines' => [
-        ';; hAnuwfir_1',
-        'hAnwfr  hAnuwfir        Nprop   Hannover',
-        'hAnwfyr hAnuwfiyr       Nprop   Hannover'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Hannover'
-      ],
-      'orig' => 'hAnuwfir',
-      'prefix' => ''
-    }
-  ],
   'h b .t' => [
     {
       'types' => {
@@ -2647,6 +2711,37 @@ $Lexicon = {
         'worn out'
       ],
       'orig' => 'habiyT',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'ahAbiy.t' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'uhbuw.t',
+      'form' => '\'uhbuw.taT',
+      'lines' => [
+        ';; >uhobuwTap_1',
+        '>hbwT   >uhobuwT        Napdu   parachute',
+        'AhbwT   >uhobuwT        Napdu   parachute',
+        '>hAbyT  >ahAbiyT        Ndip    parachutes',
+        'AhAbyT  >ahAbiyT        Ndip    parachutes'
+      ],
+      'patterns' => {
+        '\'ahAbiy.t' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'parachute',
+        'parachutes'
+      ],
+      'orig' => 'OuhobuwTap',
       'prefix' => ''
     },
     {
@@ -2933,27 +3028,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hiydruw' => [
-    {
-      'types' => {},
-      'entry' => 'hiydruw',
-      'form' => 'hiydruw',
-      'lines' => [
-        ';; hiydruw_1',
-        'hydrw   hiydruw N0      hydro-'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'hydro-'
-      ],
-      'orig' => 'hiydruw',
-      'prefix' => ''
-    }
-  ],
   'hiraql' => [
     {
       'types' => {
@@ -2981,14 +3055,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hrbAtiy' => [
+  'hAbIl' => [
     {
       'types' => {},
-      'entry' => 'hrbAtiy',
-      'form' => 'hrbAtiy',
+      'entry' => 'hAbiyl',
+      'form' => 'hAbiyl',
       'lines' => [
-        ';; hrbAtiy_1',
-        'hrbAty  hrbAtiy Nprop   Hrbaty'
+        ';; hAbiyl_1',
+        'hAbyl   hAbiyl  Nprop   Habil;Abel'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2996,9 +3070,31 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Hrbaty'
+        'Habil',
+        'Abel'
       ],
-      'orig' => 'hrbAtiy',
+      'orig' => 'hAbiyl',
+      'prefix' => ''
+    }
+  ],
+  'haydrUkarbUn' => [
+    {
+      'types' => {},
+      'entry' => 'haydruwkarbuwn',
+      'form' => 'haydruwkarbuwn',
+      'lines' => [
+        ';; hayodruwkarbuwn_1',
+        'hydrwkrbwn      hayodruwkarbuwn N0      hydrocarbon'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'hydrocarbon'
+      ],
+      'orig' => 'hayodruwkarbuwn',
       'prefix' => ''
     }
   ],
@@ -3113,19 +3209,23 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hiyruwiyn' => [
+  'hayyUlY' => [
     {
       'types' => {
-        'hiyruwiyyn' => {
-          'N0' => 1
+        'hayyuwlA' => {
+          'Nh' => 1
+        },
+        'hayyuwlY' => {
+          'NAt' => 1
         }
       },
-      'entry' => 'hiyruwiyn',
-      'form' => 'hiyruwiyn',
+      'entry' => 'hayyuwlY',
+      'form' => 'hayyuwlY',
       'lines' => [
-        ';; hiyruwiyn_1',
-        'hyrwyn  hiyruwiyn       N0      heroin',
-        'hyrwyyn hiyruwiyyn      N0      heroin'
+        ';; hay~uwlaY_1',
+        'hywlY   hay~uwlaY       N0      primordial matter',
+        'hywlA   hay~uwlA        Nh      primordial matter',
+        'hywly   hay~uwlay       NAt     primordial matter'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3133,25 +3233,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'heroin'
+        'primordial matter'
       ],
-      'orig' => 'hiyruwiyn',
+      'orig' => 'hay~uwlaY',
       'prefix' => ''
     }
   ],
-  'huwn^g' => [
+  'hUlbrUk' => [
     {
-      'types' => {
-        'huwn.g' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'huwn^g',
-      'form' => 'huwn^g',
+      'types' => {},
+      'entry' => 'huwlbruwk',
+      'form' => 'huwlbruwk',
       'lines' => [
-        ';; huwnoj_1',
-        'hwnj    huwnoj  N0      Hong',
-        'hwng    huwnog  N0      Hong'
+        ';; huwlobruwk_1',
+        'hwlbrwk huwlobruwk      Nprop   Holbrooke'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3159,9 +3254,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Hong'
+        'Holbrooke'
       ],
-      'orig' => 'huwnoj',
+      'orig' => 'huwlobruwk',
       'prefix' => ''
     }
   ],
@@ -3200,24 +3295,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hiyrA.tiyq' => [
+  'hIskI' => [
     {
       'types' => {},
-      'entry' => 'hiyrA.tiyq',
-      'form' => 'hiyrA.tiyqiyy',
+      'entry' => 'hiyskiy',
+      'form' => 'hiyskiy',
       'lines' => [
-        ';; hiyrATiyqiy~_1',
-        'hyrATyqy        hiyrATiyqiy~    Nall    hieratic     [[hiyrATiyqiy~/ADJ]]'
+        ';; hiysokiy_1',
+        'hysky   hiysokiy        N0      Heskey'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'hieratic'
+        'Heskey'
       ],
-      'orig' => 'hiyrATiyqiy~',
+      'orig' => 'hiysokiy',
       'prefix' => ''
     }
   ],
@@ -3581,6 +3676,40 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        '\'uh^giyy' => {
+          'Napdu' => 2
+        },
+        '\'ahA^giyy' => {
+          'N0_Nh' => 2
+        }
+      },
+      'entry' => '\'uh^guww',
+      'form' => '\'uh^guwwaT',
+      'lines' => [
+        ';; >uhojuw~ap_1',
+        '>hjw    >uhojuw~        Napdu   satirical poem;lampoon',
+        'Ahjw    >uhojuw~        Napdu   satirical poem;lampoon',
+        '>hjy    >uhojiy~        Napdu   satirical poem;lampoon     [[>uhojiy~/NOUN]]',
+        'Ahjy    >uhojiy~        Napdu   satirical poem;lampoon     [[>uhojiy~/NOUN]]',
+        '>hAjy   >ahAjiy~        N0_Nh   satirical poems;lampoons',
+        'AhAjy   >ahAjiy~        N0_Nh   satirical poems;lampoons'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'satirical poem',
+        'lampoon',
+        'satirical poems',
+        'lampoons'
+      ],
+      'orig' => 'Ouhojuw~ap',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'tah^giy',
       'form' => 'tah^giyaT',
@@ -3665,27 +3794,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mAhuw' => [
-    {
-      'types' => {},
-      'entry' => 'mAhuw',
-      'form' => 'mAhuwa',
-      'lines' => [
-        ';; mAhuwa_1',
-        'mAhw    mAhuwa  FW-Wa   what     [[mAhuwa/REL_PRON]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'pron',
-      'morphs' => 'Identity |<< "a"',
-      'suffix' => ' |<< "a"',
-      'glosses' => [
-        'what'
-      ],
-      'orig' => 'mAhuwa',
-      'prefix' => ''
-    }
-  ],
   'h n h n' => [
     {
       'types' => {
@@ -3746,6 +3854,53 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'hIruwIn' => [
+    {
+      'types' => {
+        'hiyruwiyyn' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'hiyruwiyn',
+      'form' => 'hiyruwiyn',
+      'lines' => [
+        ';; hiyruwiyn_1',
+        'hyrwyn  hiyruwiyn       N0      heroin',
+        'hyrwyyn hiyruwiyyn      N0      heroin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'heroin'
+      ],
+      'orig' => 'hiyruwiyn',
+      'prefix' => ''
+    }
+  ],
+  'hiyU' => [
+    {
+      'types' => {},
+      'entry' => 'hiyuw',
+      'form' => 'hiyuw',
+      'lines' => [
+        ';; hiyuw_1',
+        'hyw     hiyuw   Nprop   Hugh'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Hugh'
+      ],
+      'orig' => 'hiyuw',
+      'prefix' => ''
+    }
+  ],
   'halumm' => [
     {
       'types' => {},
@@ -3767,32 +3922,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'uhzuw^g' => [
+  'hUndUr' => [
     {
       'types' => {
-        '\'ahAziy^g' => {
-          'Ndip' => 2
+        'hunduwriyy' => {
+          'Nall' => 2
         }
       },
-      'entry' => '\'uhzuw^g',
-      'form' => '\'uhzuw^gaT',
+      'entry' => 'huwnduwr',
+      'form' => 'huwnduwriyy',
       'lines' => [
-        ';; >uhozuwjap_1',
-        '>hzwj   >uhozuwj        Napdu   song',
-        'Ahzwj   >uhozuwj        Napdu   song',
-        '>hAzyj  >ahAziyj        Ndip    songs',
-        'AhAzyj  >ahAziyj        Ndip    songs'
+        ';; huwnoduwriy~_1',
+        'hwndwry huwnoduwriy~    Nall    Honduran     [[huwnoduwriy~/NOUN]]',
+        'hndwry  hunoduwriy~     Nall    Honduran     [[hunoduwriy~/NOUN]]',
+        'hwndwry huwnoduwriy~    Nall    Honduran     [[huwnoduwriy~/ADJ]]',
+        'hndwry  hunoduwriy~     Nall    Honduran     [[hunoduwriy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'song',
-        'songs'
+        'Honduran'
       ],
-      'orig' => 'Ouhozuwjap',
+      'orig' => 'huwnoduwriy~',
       'prefix' => ''
     }
   ],
@@ -4547,7 +4701,7 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'huwlAndA' => [
+  'hUlAndA' => [
     {
       'types' => {
         'huwlandah' => {
@@ -4599,6 +4753,27 @@ $Lexicon = {
         'Hardaway'
       ],
       'orig' => 'hArodAwAy',
+      'prefix' => ''
+    }
+  ],
+  'hIrA.tIq' => [
+    {
+      'types' => {},
+      'entry' => 'hiyrA.tiyq',
+      'form' => 'hiyrA.tiyqiyy',
+      'lines' => [
+        ';; hiyrATiyqiy~_1',
+        'hyrATyqy        hiyrATiyqiy~    Nall    hieratic     [[hiyrATiyqiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'hieratic'
+      ],
+      'orig' => 'hiyrATiyqiy~',
       'prefix' => ''
     }
   ],
@@ -5093,46 +5268,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'haydruwluw^giyy' => [
-    {
-      'types' => {},
-      'entry' => 'haydruwluw^giyy',
-      'form' => 'haydruwluw^giyy',
-      'lines' => [
-        ';; hayodruwluwjiy~_1',
-        'hydrwlwjy       hayodruwluwjiy~ N-ap    hydrological     [[hayodruwluwjiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'hydrological'
-      ],
-      'orig' => 'hayodruwluwjiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'haydruwluw^giyy',
-      'form' => 'haydruwluw^giyy',
-      'lines' => [
-        ';; hayodruwluwjiy~_2',
-        'hydrwlwjy       hayodruwluwjiy~ Nall    hydrologist     [[hayodruwluwjiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'hydrologist'
-      ],
-      'orig' => 'hayodruwluwjiy~',
-      'prefix' => ''
-    }
-  ],
   'h _d \'' => [
     {
       'types' => {},
@@ -5213,27 +5348,6 @@ $Lexicon = {
         'humming'
       ],
       'orig' => 'hamohamap',
-      'prefix' => ''
-    }
-  ],
-  'hiydrA' => [
-    {
-      'types' => {},
-      'entry' => 'hiydrA',
-      'form' => 'hiydrA',
-      'lines' => [
-        ';; hiydrA_1',
-        'hydrA   hiydrA  Nprop   Hydra'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Hydra'
-      ],
-      'orig' => 'hiydrA',
       'prefix' => ''
     }
   ],
@@ -5362,27 +5476,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'haydruwliykiyy' => [
-    {
-      'types' => {},
-      'entry' => 'haydruwliykiyy',
-      'form' => 'haydruwliykiyy',
-      'lines' => [
-        ';; hayodruwliykiy~_1',
-        'hydrwlyky       hayodruwliykiy~ Nall    hydraulic     [[hayodruwliykiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'hydraulic'
-      ],
-      'orig' => 'hayodruwliykiy~',
-      'prefix' => ''
-    }
-  ],
   '\'ihlayla^g' => [
     {
       'types' => {},
@@ -5443,27 +5536,6 @@ $Lexicon = {
         'Hans'
       ],
       'orig' => 'hAnos',
-      'prefix' => ''
-    }
-  ],
-  'hAt^siynsuwn' => [
-    {
-      'types' => {},
-      'entry' => 'hAt^siynsuwn',
-      'form' => 'hAt^siynsuwn',
-      'lines' => [
-        ';; hAto$iynosuwn_1',
-        'hAt$ynswn       hAto$iynosuwn   Nprop   Hutchinson'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Hutchinson'
-      ],
-      'orig' => 'hAto$iynosuwn',
       'prefix' => ''
     }
   ],
@@ -6323,6 +6395,68 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'hUlmAn' => [
+    {
+      'types' => {},
+      'entry' => 'huwlmAn',
+      'form' => 'huwlmAn',
+      'lines' => [
+        ';; huwlomAn_1',
+        'hwlmAn  huwlomAn        Nprop   Holeman;Hallman'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Holeman',
+        'Hallman'
+      ],
+      'orig' => 'huwlomAn',
+      'prefix' => ''
+    }
+  ],
+  'haydrUlU^g' => [
+    {
+      'types' => {},
+      'entry' => 'haydruwluw^g',
+      'form' => 'haydruwluw^giyy',
+      'lines' => [
+        ';; hayodruwluwjiy~_1',
+        'hydrwlwjy       hayodruwluwjiy~ N-ap    hydrological     [[hayodruwluwjiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'hydrological'
+      ],
+      'orig' => 'hayodruwluwjiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'haydruwluw^g',
+      'form' => 'haydruwluw^giyy',
+      'lines' => [
+        ';; hayodruwluwjiy~_2',
+        'hydrwlwjy       hayodruwluwjiy~ Nall    hydrologist     [[hayodruwluwjiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'hydrologist'
+      ],
+      'orig' => 'hayodruwluwjiy~',
+      'prefix' => ''
+    }
+  ],
   'h n r y' => [
     {
       'types' => {},
@@ -6504,18 +6638,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hiyliykuwbtar' => [
+  'hrIstU' => [
     {
-      'types' => {
-        'hiyliykuwbtar' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'hiyliykuwbtar',
-      'form' => 'hiyliykuwbtar',
+      'types' => {},
+      'entry' => 'hriystuw',
+      'form' => 'hriystuw',
       'lines' => [
-        ';; hiyliykuwbotar_1',
-        'hylykwbtr       hiyliykuwbotar  NduAt   helicopter'
+        ';; hriystuw_1',
+        'hrystw  hriystuw        Nprop   Hristo'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6523,9 +6653,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'helicopter'
+        'Hristo'
       ],
-      'orig' => 'hiyliykuwbotar',
+      'orig' => 'hriystuw',
       'prefix' => ''
     }
   ],
@@ -6639,32 +6769,6 @@ $Lexicon = {
         'Hugo'
       ],
       'orig' => 'huwguw',
-      'prefix' => ''
-    }
-  ],
-  'hiyrtz' => [
-    {
-      'types' => {
-        'hiyrtz' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'hiyrtz',
-      'form' => 'hiyrtz',
-      'lines' => [
-        ';; hiyrotz_1',
-        'hyrtz   hiyrotz NduAt   hertz;Hz'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'hertz',
-        'Hz'
-      ],
-      'orig' => 'hiyrotz',
       'prefix' => ''
     }
   ],
@@ -7372,57 +7476,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'h m w' => [
+  'hiyUz' => [
     {
-      'types' => {
-        'hmuw' => {
-          'IV_0hAnn' => 1
-        },
-        'ham' => {
-          'PV_ttAw' => 1
-        },
-        'hm' => {
-          'IV_0hwnyn' => 1
-        },
-        'hamaw' => {
-          'PV_Atn' => 1
-        }
-      },
-      'entry' => 'hamA',
-      'form' => 'hamA',
+      'types' => {},
+      'entry' => 'hiyuwz',
+      'form' => 'hiyuwz',
       'lines' => [
-        ';; hamA-u_1',
-        'hmA     hamA    PV_0    flow;pour',
-        'hmw     hamaw   PV_Atn  flow;pour',
-        'hm      ham     PV_ttAw flow;pour',
-        'hmw     homuw   IV_0hAnn        flow;pour',
-        'hm      hom     IV_0hwnyn       flow;pour'
+        ';; hiyuwz_1',
+        'hywz    hiyuwz  Nprop   Hughes'
       ],
-      'patterns' => {
-        'hmuw' => [
-          'FCU'
-        ],
-        'ham' => [
-          'FaC'
-        ],
-        'hamaw' => [
-          'FaCaL'
-        ]
-      },
+      'patterns' => {},
       'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCA',
-      'glosses' => [
-        'flow',
-        'pour'
-      ],
+      'entity' => 'noun',
+      'morphs' => 'Identity',
       'suffix' => '',
-      'imperf' => [
-        'FCuL'
+      'glosses' => [
+        'Hughes'
       ],
-      'orig' => 'hamA-u',
+      'orig' => 'hiyuwz',
       'prefix' => ''
-    },
+    }
+  ],
+  'h m w' => [
     {
       'types' => {},
       'entry' => 'hamw',
@@ -7775,6 +7850,32 @@ $Lexicon = {
         'nuisance'
       ],
       'orig' => 'hajaS',
+      'prefix' => ''
+    }
+  ],
+  'hAnUfir' => [
+    {
+      'types' => {
+        'hAnuwfiyr' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'hAnuwfir',
+      'form' => 'hAnuwfir',
+      'lines' => [
+        ';; hAnuwfir_1',
+        'hAnwfr  hAnuwfir        Nprop   Hannover',
+        'hAnwfyr hAnuwfiyr       Nprop   Hannover'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Hannover'
+      ],
+      'orig' => 'hAnuwfir',
       'prefix' => ''
     }
   ],
@@ -8229,54 +8330,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hiydruw^giyniyy' => [
-    {
-      'types' => {
-        'haydruw^giyniyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'hiydruw^giyniyy',
-      'form' => 'hiydruw^giyniyy',
-      'lines' => [
-        ';; hiydruwjiyniy~_1',
-        'hydrwjyny       hiydruwjiyniy~  Nall    hydrogen;hydrogenous     [[hiydruwjiyniy~/ADJ]]',
-        'hydrwjyny       hayodruwjiyniy~ Nall    hydrogen;hydrogenous     [[hayodruwjiyniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'hydrogen',
-        'hydrogenous'
-      ],
-      'orig' => 'hiydruwjiyniy~',
-      'prefix' => ''
-    }
-  ],
-  'huwbsuwn' => [
-    {
-      'types' => {},
-      'entry' => 'huwbsuwn',
-      'form' => 'huwbsuwn',
-      'lines' => [
-        ';; huwbsuwn_1',
-        'hwbswn  huwbsuwn        Nprop   Hobson'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Hobson'
-      ],
-      'orig' => 'huwbsuwn',
-      'prefix' => ''
-    }
-  ],
   'hardaba^st' => [
     {
       'types' => {},
@@ -8435,55 +8488,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'huwnduwr' => [
-    {
-      'types' => {
-        'hunduwriyy' => {
-          'Nall' => 2
-        }
-      },
-      'entry' => 'huwnduwr',
-      'form' => 'huwnduwriyy',
-      'lines' => [
-        ';; huwnoduwriy~_1',
-        'hwndwry huwnoduwriy~    Nall    Honduran     [[huwnoduwriy~/NOUN]]',
-        'hndwry  hunoduwriy~     Nall    Honduran     [[hunoduwriy~/NOUN]]',
-        'hwndwry huwnoduwriy~    Nall    Honduran     [[huwnoduwriy~/ADJ]]',
-        'hndwry  hunoduwriy~     Nall    Honduran     [[hunoduwriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Honduran'
-      ],
-      'orig' => 'huwnoduwriy~',
-      'prefix' => ''
-    }
-  ],
-  'hiyuwz' => [
-    {
-      'types' => {},
-      'entry' => 'hiyuwz',
-      'form' => 'hiyuwz',
-      'lines' => [
-        ';; hiyuwz_1',
-        'hywz    hiyuwz  Nprop   Hughes'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Hughes'
-      ],
-      'orig' => 'hiyuwz',
-      'prefix' => ''
-    }
-  ],
   'hay^gA' => [
     {
       'types' => {},
@@ -8506,6 +8510,26 @@ $Lexicon = {
     }
   ],
   'h y t' => [
+    {
+      'types' => {},
+      'entry' => 'hAyt',
+      'form' => 'hAytiyy',
+      'lines' => [
+        ';; hAytiy~_1',
+        'hAyty   hAytiy~ Nall    Haitian     [[hAytiy~/NOUN]]',
+        'hAyty   hAytiy~ Nall    Haitian     [[hAytiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Haitian'
+      ],
+      'orig' => 'hAytiy~',
+      'prefix' => ''
+    },
     {
       'types' => {
         'hayyit' => {
@@ -8699,31 +8723,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'halliluwyA' => [
-    {
-      'types' => {
-        'halliluwyY' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'halliluwyA',
-      'form' => 'halliluwyA',
-      'lines' => [
-        ';; hal~iluwyA_1',
-        'hllwyA  hal~iluwyA      N0      hallelujah'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'hallelujah'
-      ],
-      'orig' => 'hal~iluwyA',
-      'prefix' => ''
-    }
-  ],
   'hAkAn' => [
     {
       'types' => {},
@@ -8742,6 +8741,27 @@ $Lexicon = {
         'Hakan'
       ],
       'orig' => 'hAkAn',
+      'prefix' => ''
+    }
+  ],
+  'hArIs' => [
+    {
+      'types' => {},
+      'entry' => 'hAriys',
+      'form' => 'hAriys',
+      'lines' => [
+        ';; hAriys_1',
+        'hArys   hAriys  Nprop   Harris'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Harris'
+      ],
+      'orig' => 'hAriys',
       'prefix' => ''
     }
   ],
@@ -8915,6 +8935,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'h s t r' => [
+    {
+      'types' => {
+        'hiystiyriyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'histiyr',
+      'form' => 'histiyriyy',
+      'lines' => [
+        ';; hisotiyriy~_1',
+        'hstyry  hisotiyriy~     Nall    hysterical     [[hisotiyriy~/ADJ]]',
+        'hystyry hiysotiyriy~    Nall    hysterical     [[hiysotiyriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KiRDIS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'hysterical'
+      ],
+      'orig' => 'hisotiyriy~',
+      'prefix' => ''
+    }
+  ],
   'h r w' => [
     {
       'types' => {
@@ -9070,32 +9116,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'histiyriyy' => [
-    {
-      'types' => {
-        'hiystiyriyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'histiyriyy',
-      'form' => 'histiyriyy',
-      'lines' => [
-        ';; hisotiyriy~_1',
-        'hstyry  hisotiyriy~     Nall    hysterical     [[hisotiyriy~/ADJ]]',
-        'hystyry hiysotiyriy~    Nall    hysterical     [[hiysotiyriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'hysterical'
-      ],
-      'orig' => 'hisotiyriy~',
-      'prefix' => ''
-    }
-  ],
   'h r .t q' => [
     {
       'types' => {
@@ -9233,59 +9253,6 @@ $Lexicon = {
         'Hans'
       ],
       'orig' => 'hAnoz',
-      'prefix' => ''
-    }
-  ],
-  'huwrmuwn' => [
-    {
-      'types' => {
-        'huwrmuwn' => {
-          'NduAt' => 1
-        },
-        'hurmuwn' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'huwrmuwn',
-      'form' => 'huwrmuwn',
-      'lines' => [
-        ';; huwromuwn_1',
-        'hwrmwn  huwromuwn       NduAt   hormone',
-        'hrmwn   huromuwn        NduAt   hormone'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'hormone'
-      ],
-      'orig' => 'huwromuwn',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'hurmuwniyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'huwrmuwn',
-      'form' => 'huwrmuwniyy',
-      'lines' => [
-        ';; huwromuwniy~_1',
-        'hwrmwny huwromuwniy~    Nall    hormonal',
-        'hrmwny  huromuwniy~     Nall    hormonal'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'hormonal'
-      ],
-      'orig' => 'huwromuwniy~',
       'prefix' => ''
     }
   ],
@@ -9694,6 +9661,48 @@ $Lexicon = {
         'in ruins'
       ],
       'orig' => 'musotahodim',
+      'prefix' => ''
+    }
+  ],
+  '\'ihlIla^g' => [
+    {
+      'types' => {},
+      'entry' => '\'ihliyla^g',
+      'form' => '\'ihliyla^g',
+      'lines' => [
+        ';; <iholiylaj_1',
+        '<hlylj  <iholiylaj      Ndu     ellipse',
+        'Ahlylj  <iholiylaj      Ndu     ellipse'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'ellipse'
+      ],
+      'orig' => 'Iiholiylaj',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'ihliyla^g',
+      'form' => '\'ihliyla^giyy',
+      'lines' => [
+        ';; <iholiylajiy~_1',
+        '<hlyljy <iholiylajiy~   N-ap    elliptical     [[<iholiylajiy~/ADJ]]',
+        'Ahlyljy <iholiylajiy~   N-ap    elliptical     [[<iholiylajiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'elliptical'
+      ],
+      'orig' => 'Iiholiylajiy~',
       'prefix' => ''
     }
   ],
@@ -10137,14 +10146,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'haliyla^g' => [
+  'hindrIks' => [
     {
       'types' => {},
-      'entry' => 'haliyla^g',
-      'form' => 'haliyla^g',
+      'entry' => 'hindriyks',
+      'form' => 'hindriyks',
       'lines' => [
-        ';; haliylaj_1',
-        'hlylj   haliylaj        Ndu     ellipse'
+        ';; hinodriyks_1',
+        'hndryks hinodriyks      Nprop   Hendricks'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10152,28 +10161,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'ellipse'
+        'Hendricks'
       ],
-      'orig' => 'haliylaj',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'haliyla^g',
-      'form' => 'haliyla^giyy',
-      'lines' => [
-        ';; haliylajiy~_1',
-        'hlyljy  haliylajiy~     N-ap    elliptical     [[haliylajiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'elliptical'
-      ],
-      'orig' => 'haliylajiy~',
+      'orig' => 'hinodriyks',
       'prefix' => ''
     }
   ],
@@ -10653,29 +10643,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'uhwiyy' => [
-    {
-      'types' => {},
-      'entry' => '\'uhwiyy',
-      'form' => '\'uhwiyyaT',
-      'lines' => [
-        ';; >uhowiy~ap_1',
-        '>hwy    >uhowiy~        Napdu   abyss;chasm     [[>uhowiy~/NOUN]]',
-        'Ahwy    >uhowiy~        Napdu   abyss;chasm     [[>uhowiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'abyss',
-        'chasm'
-      ],
-      'orig' => 'Ouhowiy~ap',
-      'prefix' => ''
-    }
-  ],
   'h k r' => [
     {
       'types' => {
@@ -10707,6 +10674,58 @@ $Lexicon = {
         'FCaL'
       ],
       'orig' => 'hakir-a',
+      'prefix' => ''
+    }
+  ],
+  'histIriyA' => [
+    {
+      'types' => {
+        'hiystiyriyA' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'histiyriyA',
+      'form' => 'histiyriyA',
+      'lines' => [
+        ';; hisotiyriyA_1',
+        'hstyryA hisotiyriyA     N0      hysteria',
+        'hystyryA        hiysotiyriyA    N0      hysteria'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'hysteria'
+      ],
+      'orig' => 'hisotiyriyA',
+      'prefix' => ''
+    }
+  ],
+  'hAmbUr.g' => [
+    {
+      'types' => {
+        'hAmbuwr^g' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'hAmbuwr.g',
+      'form' => 'hAmbuwr.g',
+      'lines' => [
+        ';; hAmobuwrog_1',
+        'hAmbwrg hAmobuwrog      Nprop   Hamburg',
+        'hAmbwrj hAmobuwroj      Nprop   Hamburg'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Hamburg'
+      ],
+      'orig' => 'hAmobuwrog',
       'prefix' => ''
     }
   ],
@@ -10744,6 +10763,27 @@ $Lexicon = {
         'starved'
       ],
       'orig' => 'hAfiy',
+      'prefix' => ''
+    }
+  ],
+  'hArfI' => [
+    {
+      'types' => {},
+      'entry' => 'hArfiy',
+      'form' => 'hArfiy',
+      'lines' => [
+        ';; hArofiy_1',
+        'hArfy   hArofiy Nprop   Harvey'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Harvey'
+      ],
+      'orig' => 'hArofiy',
       'prefix' => ''
     }
   ],
@@ -11024,6 +11064,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'hUbsUn' => [
+    {
+      'types' => {},
+      'entry' => 'huwbsuwn',
+      'form' => 'huwbsuwn',
+      'lines' => [
+        ';; huwbsuwn_1',
+        'hwbswn  huwbsuwn        Nprop   Hobson'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Hobson'
+      ],
+      'orig' => 'huwbsuwn',
+      'prefix' => ''
+    }
+  ],
   'h _d l l' => [
     {
       'types' => {
@@ -11243,6 +11304,27 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => '\'uhkuwm',
+      'form' => '\'uhkuwmaT',
+      'lines' => [
+        ';; >uhokuwmap_1',
+        '>hkwm   >uhokuwm        Nap     derision;mockery',
+        'Ahkwm   >uhokuwm        Nap     derision;mockery'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'derision',
+        'mockery'
+      ],
+      'orig' => 'Ouhokuwmap',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'tahakkum' => {
           'NAt' => 1
@@ -11311,14 +11393,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hAytiy' => [
+  'hAt^sInsUn' => [
     {
       'types' => {},
-      'entry' => 'hAytiy',
-      'form' => 'hAytiy',
+      'entry' => 'hAt^siynsuwn',
+      'form' => 'hAt^siynsuwn',
       'lines' => [
-        ';; hAytiy_1',
-        'hAyty   hAytiy  N0      Haiti'
+        ';; hAto$iynosuwn_1',
+        'hAt$ynswn       hAto$iynosuwn   Nprop   Hutchinson'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11326,51 +11408,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Haiti'
+        'Hutchinson'
       ],
-      'orig' => 'hAytiy',
-      'prefix' => ''
-    }
-  ],
-  'hiyliyniyy' => [
-    {
-      'types' => {},
-      'entry' => 'hiyliyniyy',
-      'form' => 'hiyliyniyyaT',
-      'lines' => [
-        ';; hiyliyniy~ap_1',
-        'hylyny  hiyliyniy~      Nap     Hellenism     [[hiyliyniy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'Hellenism'
-      ],
-      'orig' => 'hiyliyniy~ap',
-      'prefix' => ''
-    }
-  ],
-  'hiyliyuwm' => [
-    {
-      'types' => {},
-      'entry' => 'hiyliyuwm',
-      'form' => 'hiyliyuwm',
-      'lines' => [
-        ';; hiyliyuwm_1',
-        'hylywm  hiyliyuwm       N       helium'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'helium'
-      ],
-      'orig' => 'hiyliyuwm',
+      'orig' => 'hAto$iynosuwn',
       'prefix' => ''
     }
   ],
@@ -11541,6 +11581,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'hAfIlAn^g' => [
+    {
+      'types' => {},
+      'entry' => 'hAfiylAn^g',
+      'form' => 'hAfiylAn^g',
+      'lines' => [
+        ';; hAfiylAnj_1',
+        'hAfylAnj        hAfiylAnj       Nprop   Havilang'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Havilang'
+      ],
+      'orig' => 'hAfiylAnj',
+      'prefix' => ''
+    }
+  ],
   'h y b z' => [
     {
       'types' => {
@@ -11564,32 +11625,6 @@ $Lexicon = {
         'hippies'
       ],
       'orig' => 'hiybiyz',
-      'prefix' => ''
-    }
-  ],
-  'hAmbuwr.g' => [
-    {
-      'types' => {
-        'hAmbuwr^g' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'hAmbuwr.g',
-      'form' => 'hAmbuwr.g',
-      'lines' => [
-        ';; hAmobuwrog_1',
-        'hAmbwrg hAmobuwrog      Nprop   Hamburg',
-        'hAmbwrj hAmobuwroj      Nprop   Hamburg'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Hamburg'
-      ],
-      'orig' => 'hAmobuwrog',
       'prefix' => ''
     }
   ],
@@ -12642,6 +12677,27 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => '\'uhwiyy',
+      'form' => '\'uhwiyyaT',
+      'lines' => [
+        ';; >uhowiy~ap_1',
+        '>hwy    >uhowiy~        Napdu   abyss;chasm     [[>uhowiy~/NOUN]]',
+        'Ahwy    >uhowiy~        Napdu   abyss;chasm     [[>uhowiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCIL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'abyss',
+        'chasm'
+      ],
+      'orig' => 'Ouhowiy~ap',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'mahAwiy' => {
           'N0_Nh' => 1
@@ -12818,28 +12874,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hiliynist' => [
-    {
-      'types' => {},
-      'entry' => 'hiliynist',
-      'form' => 'hiliynistiyy',
-      'lines' => [
-        ';; hiliynisotiy~_1',
-        'hlynsty hiliynisotiy~   Nall    Hellenistic     [[hiliynisotiy~/NOUN]]',
-        'hlynsty hiliynisotiy~   Nall    Hellenistic     [[hiliynisotiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Hellenistic'
-      ],
-      'orig' => 'hiliynisotiy~',
-      'prefix' => ''
-    }
-  ],
   'h d ^g' => [
     {
       'types' => {
@@ -13004,6 +13038,27 @@ $Lexicon = {
         'trembling'
       ],
       'orig' => 'mutahad~ij',
+      'prefix' => ''
+    }
+  ],
+  'hUnUlUlU' => [
+    {
+      'types' => {},
+      'entry' => 'huwnuwluwluw',
+      'form' => 'huwnuwluwluw',
+      'lines' => [
+        ';; huwnuwluwluw_1',
+        'hwnwlwlw        huwnuwluwluw    Nprop   Honolulu'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Honolulu'
+      ],
+      'orig' => 'huwnuwluwluw',
       'prefix' => ''
     }
   ],
@@ -13492,39 +13547,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'uh^guww' => [
+  'mahdAwI' => [
     {
-      'types' => {
-        '\'uh^giyy' => {
-          'Napdu' => 2
-        },
-        '\'ahA^giyy' => {
-          'N0_Nh' => 2
-        }
-      },
-      'entry' => '\'uh^guww',
-      'form' => '\'uh^guwwaT',
+      'types' => {},
+      'entry' => 'mahdAwiy',
+      'form' => 'mahdAwiy',
       'lines' => [
-        ';; >uhojuw~ap_1',
-        '>hjw    >uhojuw~        Napdu   satirical poem;lampoon',
-        'Ahjw    >uhojuw~        Napdu   satirical poem;lampoon',
-        '>hjy    >uhojiy~        Napdu   satirical poem;lampoon     [[>uhojiy~/NOUN]]',
-        'Ahjy    >uhojiy~        Napdu   satirical poem;lampoon     [[>uhojiy~/NOUN]]',
-        '>hAjy   >ahAjiy~        N0_Nh   satirical poems;lampoons',
-        'AhAjy   >ahAjiy~        N0_Nh   satirical poems;lampoons'
+        ';; mahodAwiy_1',
+        'mhdAwy  mahodAwiy       N0      Mahdawi;Mehdawi;Mahdavi;Mehdavi'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'satirical poem',
-        'lampoon',
-        'satirical poems',
-        'lampoons'
+        'Mahdawi',
+        'Mehdawi',
+        'Mahdavi',
+        'Mehdavi'
       ],
-      'orig' => 'Ouhojuw~ap',
+      'orig' => 'mahodAwiy',
+      'prefix' => ''
+    }
+  ],
+  'histUlU^giyA' => [
+    {
+      'types' => {},
+      'entry' => 'histuwluw^giyA',
+      'form' => 'histuwluw^giyA',
+      'lines' => [
+        ';; hisotuwluwjiyA_1',
+        'hstwlwjyA       hisotuwluwjiyA  N0      histology'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'histology'
+      ],
+      'orig' => 'hisotuwluwjiyA',
       'prefix' => ''
     }
   ],
@@ -13581,28 +13645,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hAliyfiy' => [
-    {
-      'types' => {},
-      'entry' => 'hAliyfiy',
-      'form' => 'hAliyfiy',
-      'lines' => [
-        ';; hAliyfiy_1',
-        'hAlyfy  hAliyfiy        Nprop   Halevi;Halevy'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Halevi',
-        'Halevy'
-      ],
-      'orig' => 'hAliyfiy',
-      'prefix' => ''
-    }
-  ],
   'humA' => [
     {
       'types' => {},
@@ -13624,26 +13666,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'uhkuwm' => [
+  'hilikUbtar' => [
     {
-      'types' => {},
-      'entry' => '\'uhkuwm',
-      'form' => '\'uhkuwmaT',
+      'types' => {
+        'hiliykuwbtar' => {
+          'NduAt' => 1
+        },
+        'hilikuwbtar' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'hilikuwbtar',
+      'form' => 'hilikuwbtar',
       'lines' => [
-        ';; >uhokuwmap_1',
-        '>hkwm   >uhokuwm        Nap     derision;mockery',
-        'Ahkwm   >uhokuwm        Nap     derision;mockery'
+        ';; hilikuwbotar_1',
+        'hlkwbtr hilikuwbotar    NduAt   helicopter',
+        'hlykwbtr        hiliykuwbotar   NduAt   helicopter'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'derision',
-        'mockery'
+        'helicopter'
       ],
-      'orig' => 'Ouhokuwmap',
+      'orig' => 'hilikuwbotar',
       'prefix' => ''
     }
   ],
@@ -13831,47 +13879,36 @@ $Lexicon = {
       ],
       'orig' => 'hazaj',
       'prefix' => ''
-    }
-  ],
-  'hiyuwrAkAn' => [
+    },
     {
-      'types' => {},
-      'entry' => 'hiyuwrAkAn',
-      'form' => 'hiyuwrAkAn',
+      'types' => {
+        '\'ahAziy^g' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'uhzuw^g',
+      'form' => '\'uhzuw^gaT',
       'lines' => [
-        ';; hiyuwrAkAn_1',
-        'hywrAkAn        hiyuwrAkAn      Nprop   Huracan'
+        ';; >uhozuwjap_1',
+        '>hzwj   >uhozuwj        Napdu   song',
+        'Ahzwj   >uhozuwj        Napdu   song',
+        '>hAzyj  >ahAziyj        Ndip    songs',
+        'AhAzyj  >ahAziyj        Ndip    songs'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'ahAziy^g' => [
+          'HaFACIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
-        'Huracan'
+        'song',
+        'songs'
       ],
-      'orig' => 'hiyuwrAkAn',
-      'prefix' => ''
-    }
-  ],
-  'hAriyl' => [
-    {
-      'types' => {},
-      'entry' => 'hAriyl',
-      'form' => 'hAriyl',
-      'lines' => [
-        ';; hAriyl_1',
-        'hAryl   hAriyl  Nprop   Harel'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Harel'
-      ],
-      'orig' => 'hAriyl',
+      'orig' => 'Ouhozuwjap',
       'prefix' => ''
     }
   ],
@@ -14678,6 +14715,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'hAfIlAnd' => [
+    {
+      'types' => {},
+      'entry' => 'hAfiylAnd',
+      'form' => 'hAfiylAnd',
+      'lines' => [
+        ';; hAfiylAnd_1',
+        'hAfylAnd        hAfiylAnd       Nprop   Haviland'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Haviland'
+      ],
+      'orig' => 'hAfiylAnd',
+      'prefix' => ''
+    }
+  ],
   'h m s' => [
     {
       'types' => {
@@ -15128,6 +15186,35 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'hUlAnd' => [
+    {
+      'types' => {
+        'huwlandiyy' => {
+          'Nall' => 2
+        }
+      },
+      'entry' => 'huwlAnd',
+      'form' => 'huwlAndiyy',
+      'lines' => [
+        ';; huwlAnodiy~_1',
+        'hwlAndy huwlAnodiy~     Nall    Dutch                     [[huwlAnodiy~/NOUN]]',
+        'hwlAndy huwlAnodiy~     Nall    Dutch;of/from Holland     [[huwlAnodiy~/ADJ]]',
+        'hwlndy  huwlanodiy~     Nall    Dutch                     [[huwlanodiy~/NOUN]]',
+        'hwlndy  huwlanodiy~     Nall    Dutch;of/from Holland     [[huwlanodiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Dutch',
+        'of/from Holland'
+      ],
+      'orig' => 'huwlAnodiy~',
+      'prefix' => ''
+    }
+  ],
   'h n f' => [
     {
       'types' => {
@@ -15227,27 +15314,6 @@ $Lexicon = {
         'Havana'
       ],
       'orig' => 'hAfAnA',
-      'prefix' => ''
-    }
-  ],
-  'huwrst' => [
-    {
-      'types' => {},
-      'entry' => 'huwrst',
-      'form' => 'huwrst',
-      'lines' => [
-        ';; huwrosot_1',
-        'hwrst   huwrosot        Nprop   Horst'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Horst'
-      ],
-      'orig' => 'huwrosot',
       'prefix' => ''
     }
   ],
@@ -15645,27 +15711,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hayuwlAn' => [
-    {
-      'types' => {},
-      'entry' => 'hayuwlAn',
-      'form' => 'hayuwlAniyy',
-      'lines' => [
-        ';; hayuwlAniy~_1',
-        'hywlAny hayuwlAniy~     N-ap    material     [[hayuwlAniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'material'
-      ],
-      'orig' => 'hayuwlAniy~',
-      'prefix' => ''
-    }
-  ],
   'hillam' => [
     {
       'types' => {},
@@ -15688,14 +15733,22 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hiyruwt^siy' => [
+  'hUrmUn' => [
     {
-      'types' => {},
-      'entry' => 'hiyruwt^siy',
-      'form' => 'hiyruwt^siy',
+      'types' => {
+        'huwrmuwn' => {
+          'NduAt' => 1
+        },
+        'hurmuwn' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'huwrmuwn',
+      'form' => 'huwrmuwn',
       'lines' => [
-        ';; hiyruwt$iy_1',
-        'hyrwt$y hiyruwt$iy      Nprop   Hiroshi'
+        ';; huwromuwn_1',
+        'hwrmwn  huwromuwn       NduAt   hormone',
+        'hrmwn   huromuwn        NduAt   hormone'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15703,9 +15756,54 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Hiroshi'
+        'hormone'
       ],
-      'orig' => 'hiyruwt$iy',
+      'orig' => 'huwromuwn',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'hurmuwniyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'huwrmuwn',
+      'form' => 'huwrmuwniyy',
+      'lines' => [
+        ';; huwromuwniy~_1',
+        'hwrmwny huwromuwniy~    Nall    hormonal',
+        'hrmwny  huromuwniy~     Nall    hormonal'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'hormonal'
+      ],
+      'orig' => 'huwromuwniy~',
+      'prefix' => ''
+    }
+  ],
+  'hiyUrAkAn' => [
+    {
+      'types' => {},
+      'entry' => 'hiyuwrAkAn',
+      'form' => 'hiyuwrAkAn',
+      'lines' => [
+        ';; hiyuwrAkAn_1',
+        'hywrAkAn        hiyuwrAkAn      Nprop   Huracan'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Huracan'
+      ],
+      'orig' => 'hiyuwrAkAn',
       'prefix' => ''
     }
   ],
@@ -15809,6 +15907,32 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'hAfiy',
+      'prefix' => ''
+    }
+  ],
+  'hUn^g' => [
+    {
+      'types' => {
+        'huwn.g' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'huwn^g',
+      'form' => 'huwn^g',
+      'lines' => [
+        ';; huwnoj_1',
+        'hwnj    huwnoj  N0      Hong',
+        'hwng    huwnog  N0      Hong'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Hong'
+      ],
+      'orig' => 'huwnoj',
       'prefix' => ''
     }
   ],
@@ -15925,6 +16049,57 @@ $Lexicon = {
         'tidy'
       ],
       'orig' => 'muhanodam',
+      'prefix' => ''
+    }
+  ],
+  'hUrst' => [
+    {
+      'types' => {},
+      'entry' => 'huwrst',
+      'form' => 'huwrst',
+      'lines' => [
+        ';; huwrosot_1',
+        'hwrst   huwrosot        Nprop   Horst'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Horst'
+      ],
+      'orig' => 'huwrosot',
+      'prefix' => ''
+    }
+  ],
+  'hAwA\'I' => [
+    {
+      'types' => {
+        'hAwAyiy' => {
+          'N0' => 1
+        },
+        'hAwAy' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'hAwA\'iy',
+      'form' => 'hAwA\'iy',
+      'lines' => [
+        ';; hAwA}iy_1',
+        'hAwA}y  hAwA}iy N0      Hawaii',
+        'hAwAy   hAwAy   N0      Hawaii',
+        'hAwAyy  hAwAyiy N0      Hawaii'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Hawaii'
+      ],
+      'orig' => 'hAwA}iy',
       'prefix' => ''
     }
   ],
@@ -16745,32 +16920,6 @@ $Lexicon = {
         'onset'
       ],
       'orig' => 'musotahal~',
-      'prefix' => ''
-    }
-  ],
-  'hilsinkiy' => [
-    {
-      'types' => {
-        'hilsiynkiy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'hilsinkiy',
-      'form' => 'hilsinkiy',
-      'lines' => [
-        ';; hilosinkiy_1',
-        'hlsnky  hilosinkiy      N0      Helsinki',
-        'hlsynky hilosiynkiy     N0      Helsinki'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Helsinki'
-      ],
-      'orig' => 'hilosinkiy',
       'prefix' => ''
     }
   ],
@@ -18031,56 +18180,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'uhbuw.t' => [
-    {
-      'types' => {
-        '\'ahAbiy.t' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'uhbuw.t',
-      'form' => '\'uhbuw.taT',
-      'lines' => [
-        ';; >uhobuwTap_1',
-        '>hbwT   >uhobuwT        Napdu   parachute',
-        'AhbwT   >uhobuwT        Napdu   parachute',
-        '>hAbyT  >ahAbiyT        Ndip    parachutes',
-        'AhAbyT  >ahAbiyT        Ndip    parachutes'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'parachute',
-        'parachutes'
-      ],
-      'orig' => 'OuhobuwTap',
-      'prefix' => ''
-    }
-  ],
-  'humAyuwniyy' => [
-    {
-      'types' => {},
-      'entry' => 'humAyuwniyy',
-      'form' => 'humAyuwniyy',
-      'lines' => [
-        ';; humAyuwniy~_1',
-        'hmAywny humAyuwniy~     Nall    imperial     [[humAyuwniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'imperial'
-      ],
-      'orig' => 'humAyuwniy~',
-      'prefix' => ''
-    }
-  ],
   'h r ^g' => [
     {
       'types' => {
@@ -19014,27 +19113,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'huwtuwmuw' => [
-    {
-      'types' => {},
-      'entry' => 'huwtuwmuw',
-      'form' => 'huwtuwmuw',
-      'lines' => [
-        ';; huwtuwmuw_1',
-        'hwtwmw  huwtuwmuw       Nprop   Hutomo'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Hutomo'
-      ],
-      'orig' => 'huwtuwmuw',
-      'prefix' => ''
-    }
-  ],
   'h _d r m' => [
     {
       'types' => {
@@ -19063,6 +19141,27 @@ $Lexicon = {
         'be loquacious'
       ],
       'orig' => 'ha*oram',
+      'prefix' => ''
+    }
+  ],
+  'hArIl' => [
+    {
+      'types' => {},
+      'entry' => 'hAriyl',
+      'form' => 'hAriyl',
+      'lines' => [
+        ';; hAriyl_1',
+        'hAryl   hAriyl  Nprop   Harel'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Harel'
+      ],
+      'orig' => 'hAriyl',
       'prefix' => ''
     }
   ],
@@ -19132,14 +19231,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hiyn.giys' => [
+  'hUlIwUd' => [
     {
-      'types' => {},
-      'entry' => 'hiyn.giys',
-      'form' => 'hiyn.giys',
+      'types' => {
+        'huwliywud' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'huwliywuwd',
+      'form' => 'huwliywuwd',
       'lines' => [
-        ';; hiynogiys_1',
-        'hyngys  hiynogiys       Nprop   Hingis'
+        ';; huwliywuwd_1',
+        'hwlywwd huwliywuwd      N0      Hollywood',
+        'hwlywd  huwliywud       N0      Hollywood'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19147,9 +19251,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Hingis'
+        'Hollywood'
       ],
-      'orig' => 'hiynogiys',
+      'orig' => 'huwliywuwd',
       'prefix' => ''
     }
   ],
@@ -19548,23 +19652,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hayyuwlY' => [
+  'hilyUskUb' => [
     {
       'types' => {
-        'hayyuwlA' => {
-          'Nh' => 1
-        },
-        'hayyuwlY' => {
-          'NAt' => 1
+        'hilyuwskuwb' => {
+          'NduAt' => 1
         }
       },
-      'entry' => 'hayyuwlY',
-      'form' => 'hayyuwlY',
+      'entry' => 'hilyuwskuwb',
+      'form' => 'hilyuwskuwb',
       'lines' => [
-        ';; hay~uwlaY_1',
-        'hywlY   hay~uwlaY       N0      primordial matter',
-        'hywlA   hay~uwlA        Nh      primordial matter',
-        'hywly   hay~uwlay       NAt     primordial matter'
+        ';; hilyuwskuwb_1',
+        'hlywskwb        hilyuwskuwb     NduAt   helioscope'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19572,9 +19671,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'primordial matter'
+        'helioscope'
       ],
-      'orig' => 'hay~uwlaY',
+      'orig' => 'hilyuwskuwb',
       'prefix' => ''
     }
   ],
@@ -19706,29 +19805,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hiydruw^giyn' => [
+  'hIrU.glIf' => [
     {
-      'types' => {
-        'haydruw^giyn' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'hiydruw^giyn',
-      'form' => 'hiydruw^giyn',
+      'types' => {},
+      'entry' => 'hiyruw.gliyf',
+      'form' => 'hiyruw.gliyfiyy',
       'lines' => [
-        ';; hiydruwjiyn_1',
-        'hydrwjyn        hiydruwjiyn     N0      hydrogen',
-        'hydrwjyn        hayodruwjiyn    N0      hydrogen'
+        ';; hiyruwgliyfiy~_1',
+        'hyrwglyfy       hiyruwgliyfiy~  Nall    hieroglyphic     [[hiyruwgliyfiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'hydrogen'
+        'hieroglyphic'
       ],
-      'orig' => 'hiydruwjiyn',
+      'orig' => 'hiyruwgliyfiy~',
       'prefix' => ''
     }
   ],
@@ -20231,6 +20325,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'haydrUlIk' => [
+    {
+      'types' => {},
+      'entry' => 'haydruwliyk',
+      'form' => 'haydruwliykiyy',
+      'lines' => [
+        ';; hayodruwliykiy~_1',
+        'hydrwlyky       hayodruwliykiy~ Nall    hydraulic     [[hayodruwliykiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'hydraulic'
+      ],
+      'orig' => 'hayodruwliykiy~',
+      'prefix' => ''
+    }
+  ],
   'hArfard' => [
     {
       'types' => {},
@@ -20252,24 +20367,66 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hiyruw.gliyfiyy' => [
+  'hrbAtI' => [
     {
       'types' => {},
-      'entry' => 'hiyruw.gliyfiyy',
-      'form' => 'hiyruw.gliyfiyy',
+      'entry' => 'hrbAtiy',
+      'form' => 'hrbAtiy',
       'lines' => [
-        ';; hiyruwgliyfiy~_1',
-        'hyrwglyfy       hiyruwgliyfiy~  Nall    hieroglyphic     [[hiyruwgliyfiy~/ADJ]]'
+        ';; hrbAtiy_1',
+        'hrbAty  hrbAtiy Nprop   Hrbaty'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'noun',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'hieroglyphic'
+        'Hrbaty'
       ],
-      'orig' => 'hiyruwgliyfiy~',
+      'orig' => 'hrbAtiy',
+      'prefix' => ''
+    }
+  ],
+  'h y l n' => [
+    {
+      'types' => {},
+      'entry' => 'hiyliyn',
+      'form' => 'hiyliyniyyaT',
+      'lines' => [
+        ';; hiyliyniy~ap_1',
+        'hylyny  hiyliyniy~      Nap     Hellenism     [[hiyliyniy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KiRDIS |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'Hellenism'
+      ],
+      'orig' => 'hiyliyniy~ap',
+      'prefix' => ''
+    }
+  ],
+  'hiyUstun' => [
+    {
+      'types' => {},
+      'entry' => 'hiyuwstun',
+      'form' => 'hiyuwstun',
+      'lines' => [
+        ';; hiyuwsotun_1',
+        'hywstn  hiyuwsotun      Nprop   Houston'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Houston'
+      ],
+      'orig' => 'hiyuwsotun',
       'prefix' => ''
     }
   ],
@@ -20621,19 +20778,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'huwnduwrAs' => [
+  'hIrUt^sI' => [
     {
-      'types' => {
-        'hunduwrAs' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'huwnduwrAs',
-      'form' => 'huwnduwrAs',
+      'types' => {},
+      'entry' => 'hiyruwt^siy',
+      'form' => 'hiyruwt^siy',
       'lines' => [
-        ';; huwnoduwrAs_1',
-        'hwndwrAs        huwnoduwrAs     N0      Honduras',
-        'hndwrAs hunoduwrAs      N0      Honduras'
+        ';; hiyruwt$iy_1',
+        'hyrwt$y hiyruwt$iy      Nprop   Hiroshi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20641,9 +20793,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Honduras'
+        'Hiroshi'
       ],
-      'orig' => 'huwnoduwrAs',
+      'orig' => 'hiyruwt$iy',
       'prefix' => ''
     }
   ],
@@ -21062,27 +21214,6 @@ $Lexicon = {
         'quivering'
       ],
       'orig' => 'muhotaz~',
-      'prefix' => ''
-    }
-  ],
-  'hiyskiy' => [
-    {
-      'types' => {},
-      'entry' => 'hiyskiy',
-      'form' => 'hiyskiy',
-      'lines' => [
-        ';; hiysokiy_1',
-        'hysky   hiysokiy        N0      Heskey'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Heskey'
-      ],
-      'orig' => 'hiysokiy',
       'prefix' => ''
     }
   ],
@@ -21838,27 +21969,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hA^siymuwtuw' => [
-    {
-      'types' => {},
-      'entry' => 'hA^siymuwtuw',
-      'form' => 'hA^siymuwtuw',
-      'lines' => [
-        ';; hA$iymuwtuw_1',
-        'hA$ymwtw        hA$iymuwtuw     Nprop   Hashimoto'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Hashimoto'
-      ],
-      'orig' => 'hA$iymuwtuw',
-      'prefix' => ''
-    }
-  ],
   'h w b r' => [
     {
       'types' => {},
@@ -21970,22 +22080,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hilikuwbtar' => [
+  'hiyUn' => [
     {
-      'types' => {
-        'hiliykuwbtar' => {
-          'NduAt' => 1
-        },
-        'hilikuwbtar' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'hilikuwbtar',
-      'form' => 'hilikuwbtar',
+      'types' => {},
+      'entry' => 'hiyuwn',
+      'form' => 'hiyuwn',
       'lines' => [
-        ';; hilikuwbotar_1',
-        'hlkwbtr hilikuwbotar    NduAt   helicopter',
-        'hlykwbtr        hiliykuwbotar   NduAt   helicopter'
+        ';; hiyuwn_1',
+        'hywn    hiyuwn  Nprop   Hyun'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21993,9 +22095,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'helicopter'
+        'Hyun'
       ],
-      'orig' => 'hilikuwbotar',
+      'orig' => 'hiyuwn',
       'prefix' => ''
     }
   ],
@@ -22018,6 +22120,27 @@ $Lexicon = {
         'Ahwaz'
       ],
       'orig' => 'OahowAz',
+      'prefix' => ''
+    }
+  ],
+  'hIsb' => [
+    {
+      'types' => {},
+      'entry' => 'hiysb',
+      'form' => 'hiysb',
+      'lines' => [
+        ';; hiysb_1',
+        'hysb    hiysb   Nprop   Hesp'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Hesp'
+      ],
+      'orig' => 'hiysb',
       'prefix' => ''
     }
   ],
@@ -23366,14 +23489,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hiylAriy' => [
+  'hIlIkUbtar' => [
     {
-      'types' => {},
-      'entry' => 'hiylAriy',
-      'form' => 'hiylAriy',
+      'types' => {
+        'hiyliykuwbtar' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'hiyliykuwbtar',
+      'form' => 'hiyliykuwbtar',
       'lines' => [
-        ';; hiylAriy_1',
-        'hylAry  hiylAriy        Nprop   Hillary'
+        ';; hiyliykuwbotar_1',
+        'hylykwbtr       hiyliykuwbotar  NduAt   helicopter'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23381,20 +23508,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Hillary'
+        'helicopter'
       ],
-      'orig' => 'hiylAriy',
+      'orig' => 'hiyliykuwbotar',
       'prefix' => ''
     }
   ],
-  'hiyktuwr' => [
+  'hIdrA' => [
     {
       'types' => {},
-      'entry' => 'hiyktuwr',
-      'form' => 'hiyktuwr',
+      'entry' => 'hiydrA',
+      'form' => 'hiydrA',
       'lines' => [
-        ';; hiykotuwr_1',
-        'hyktwr  hiykotuwr       Nprop   Hector'
+        ';; hiydrA_1',
+        'hydrA   hiydrA  Nprop   Hydra'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23402,9 +23529,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Hector'
+        'Hydra'
       ],
-      'orig' => 'hiykotuwr',
+      'orig' => 'hiydrA',
       'prefix' => ''
     }
   ],
@@ -24846,53 +24973,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'histuwluw^giyA' => [
+  'mAhU' => [
     {
       'types' => {},
-      'entry' => 'histuwluw^giyA',
-      'form' => 'histuwluw^giyA',
+      'entry' => 'mAhuw',
+      'form' => 'mAhuwa',
       'lines' => [
-        ';; hisotuwluwjiyA_1',
-        'hstwlwjyA       hisotuwluwjiyA  N0      histology'
+        ';; mAhuwa_1',
+        'mAhw    mAhuwa  FW-Wa   what     [[mAhuwa/REL_PRON]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'pron',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
       'glosses' => [
-        'histology'
+        'what'
       ],
-      'orig' => 'hisotuwluwjiyA',
-      'prefix' => ''
-    }
-  ],
-  'huwlAnd' => [
-    {
-      'types' => {
-        'huwlandiyy' => {
-          'Nall' => 2
-        }
-      },
-      'entry' => 'huwlAnd',
-      'form' => 'huwlAndiyy',
-      'lines' => [
-        ';; huwlAnodiy~_1',
-        'hwlAndy huwlAnodiy~     Nall    Dutch                     [[huwlAnodiy~/NOUN]]',
-        'hwlAndy huwlAnodiy~     Nall    Dutch;of/from Holland     [[huwlAnodiy~/ADJ]]',
-        'hwlndy  huwlanodiy~     Nall    Dutch                     [[huwlanodiy~/NOUN]]',
-        'hwlndy  huwlanodiy~     Nall    Dutch;of/from Holland     [[huwlanodiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Dutch',
-        'of/from Holland'
-      ],
-      'orig' => 'huwlAnodiy~',
+      'orig' => 'mAhuwa',
       'prefix' => ''
     }
   ],
@@ -25071,6 +25169,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'hA^sImUtU' => [
+    {
+      'types' => {},
+      'entry' => 'hA^siymuwtuw',
+      'form' => 'hA^siymuwtuw',
+      'lines' => [
+        ';; hA$iymuwtuw_1',
+        'hA$ymwtw        hA$iymuwtuw     Nprop   Hashimoto'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Hashimoto'
+      ],
+      'orig' => 'hA$iymuwtuw',
+      'prefix' => ''
+    }
+  ],
   'h n w' => [
     {
       'types' => {},
@@ -25110,19 +25229,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hiydruwmitr' => [
+  'hAytI' => [
     {
-      'types' => {
-        'haydruwmitr' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'hiydruwmitr',
-      'form' => 'hiydruwmitr',
+      'types' => {},
+      'entry' => 'hAytiy',
+      'form' => 'hAytiy',
       'lines' => [
-        ';; hiydruwmitr_1',
-        'hydrwmtr        hiydruwmitr     N0      hydrometer',
-        'hydrwmtr        hayodruwmitr    N0      hydrometer'
+        ';; hAytiy_1',
+        'hAyty   hAytiy  N0      Haiti'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25130,9 +25244,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'hydrometer'
+        'Haiti'
       ],
-      'orig' => 'hiydruwmitr',
+      'orig' => 'hAytiy',
       'prefix' => ''
     }
   ],
@@ -25154,32 +25268,6 @@ $Lexicon = {
         'Hindawi'
       ],
       'orig' => 'hinodAwiy~',
-      'prefix' => ''
-    }
-  ],
-  'hitlar' => [
-    {
-      'types' => {
-        'hiytlar' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'hitlar',
-      'form' => 'hitlar',
-      'lines' => [
-        ';; hitolar_1',
-        'htlr    hitolar Nprop   Hitler',
-        'hytlr   hiytolar        Nprop   Hitler'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Hitler'
-      ],
-      'orig' => 'hitolar',
       'prefix' => ''
     }
   ],
@@ -25465,6 +25553,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'hitlar' => [
+    {
+      'types' => {
+        'hiytlar' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'hitlar',
+      'form' => 'hitlar',
+      'lines' => [
+        ';; hitolar_1',
+        'htlr    hitolar Nprop   Hitler',
+        'hytlr   hiytolar        Nprop   Hitler'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Hitler'
+      ],
+      'orig' => 'hitolar',
+      'prefix' => ''
+    }
+  ],
   'h w ^s' => [
     {
       'types' => {
@@ -25738,27 +25852,6 @@ $Lexicon = {
         'country estates'
       ],
       'orig' => 'hano$iyr',
-      'prefix' => ''
-    }
-  ],
-  'huwlbruwk' => [
-    {
-      'types' => {},
-      'entry' => 'huwlbruwk',
-      'form' => 'huwlbruwk',
-      'lines' => [
-        ';; huwlobruwk_1',
-        'hwlbrwk huwlobruwk      Nprop   Holbrooke'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Holbrooke'
-      ],
-      'orig' => 'huwlobruwk',
       'prefix' => ''
     }
   ],
@@ -26286,6 +26379,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'hIn.gIs' => [
+    {
+      'types' => {},
+      'entry' => 'hiyn.giys',
+      'form' => 'hiyn.giys',
+      'lines' => [
+        ';; hiynogiys_1',
+        'hyngys  hiynogiys       Nprop   Hingis'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Hingis'
+      ],
+      'orig' => 'hiynogiys',
+      'prefix' => ''
+    }
+  ],
   'h d r ^g' => [
     {
       'types' => {
@@ -26597,14 +26711,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hiyuwn' => [
+  'hIrtz' => [
     {
-      'types' => {},
-      'entry' => 'hiyuwn',
-      'form' => 'hiyuwn',
+      'types' => {
+        'hiyrtz' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'hiyrtz',
+      'form' => 'hiyrtz',
       'lines' => [
-        ';; hiyuwn_1',
-        'hywn    hiyuwn  Nprop   Hyun'
+        ';; hiyrotz_1',
+        'hyrtz   hiyrotz NduAt   hertz;Hz'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26612,30 +26730,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Hyun'
+        'hertz',
+        'Hz'
       ],
-      'orig' => 'hiyuwn',
-      'prefix' => ''
-    }
-  ],
-  'hArfiy' => [
-    {
-      'types' => {},
-      'entry' => 'hArfiy',
-      'form' => 'hArfiy',
-      'lines' => [
-        ';; hArofiy_1',
-        'hArfy   hArofiy Nprop   Harvey'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Harvey'
-      ],
-      'orig' => 'hArofiy',
+      'orig' => 'hiyrotz',
       'prefix' => ''
     }
   ],
@@ -26874,32 +26972,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'huwliywuwd' => [
-    {
-      'types' => {
-        'huwliywud' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'huwliywuwd',
-      'form' => 'huwliywuwd',
-      'lines' => [
-        ';; huwliywuwd_1',
-        'hwlywwd huwliywuwd      N0      Hollywood',
-        'hwlywd  huwliywud       N0      Hollywood'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Hollywood'
-      ],
-      'orig' => 'huwliywuwd',
-      'prefix' => ''
-    }
-  ],
   'h k `' => [
     {
       'types' => {
@@ -27095,6 +27167,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'humAyUn' => [
+    {
+      'types' => {},
+      'entry' => 'humAyuwn',
+      'form' => 'humAyuwniyy',
+      'lines' => [
+        ';; humAyuwniy~_1',
+        'hmAywny humAyuwniy~     Nall    imperial     [[humAyuwniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'imperial'
+      ],
+      'orig' => 'humAyuwniy~',
+      'prefix' => ''
+    }
+  ],
   'h k t r' => [
     {
       'types' => {
@@ -27142,31 +27235,6 @@ $Lexicon = {
         'Hedayet'
       ],
       'orig' => 'hidAyat',
-      'prefix' => ''
-    }
-  ],
-  'hilyuwskuwb' => [
-    {
-      'types' => {
-        'hilyuwskuwb' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'hilyuwskuwb',
-      'form' => 'hilyuwskuwb',
-      'lines' => [
-        ';; hilyuwskuwb_1',
-        'hlywskwb        hilyuwskuwb     NduAt   helioscope'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'helioscope'
-      ],
-      'orig' => 'hilyuwskuwb',
       'prefix' => ''
     }
   ],
@@ -27813,27 +27881,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hriystuw' => [
-    {
-      'types' => {},
-      'entry' => 'hriystuw',
-      'form' => 'hriystuw',
-      'lines' => [
-        ';; hriystuw_1',
-        'hrystw  hriystuw        Nprop   Hristo'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Hristo'
-      ],
-      'orig' => 'hriystuw',
-      'prefix' => ''
-    }
-  ],
   'h n d z' => [
     {
       'types' => {},
@@ -27871,6 +27918,27 @@ $Lexicon = {
         'cubit'
       ],
       'orig' => 'hinodAzap',
+      'prefix' => ''
+    }
+  ],
+  'hIliyUm' => [
+    {
+      'types' => {},
+      'entry' => 'hiyliyuwm',
+      'form' => 'hiyliyuwm',
+      'lines' => [
+        ';; hiyliyuwm_1',
+        'hylywm  hiyliyuwm       N       helium'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'helium'
+      ],
+      'orig' => 'hiyliyuwm',
       'prefix' => ''
     }
   ],
@@ -28389,48 +28457,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hiyuw' => [
-    {
-      'types' => {},
-      'entry' => 'hiyuw',
-      'form' => 'hiyuw',
-      'lines' => [
-        ';; hiyuw_1',
-        'hyw     hiyuw   Nprop   Hugh'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Hugh'
-      ],
-      'orig' => 'hiyuw',
-      'prefix' => ''
-    }
-  ],
-  'haydruwkarbuwn' => [
-    {
-      'types' => {},
-      'entry' => 'haydruwkarbuwn',
-      'form' => 'haydruwkarbuwn',
-      'lines' => [
-        ';; hayodruwkarbuwn_1',
-        'hydrwkrbwn      hayodruwkarbuwn N0      hydrocarbon'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'hydrocarbon'
-      ],
-      'orig' => 'hayodruwkarbuwn',
-      'prefix' => ''
-    }
-  ],
   'hArts' => [
     {
       'types' => {},
@@ -28452,14 +28478,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hinriyiytA' => [
+  'hIktUr' => [
     {
       'types' => {},
-      'entry' => 'hinriyiytA',
-      'form' => 'hinriyiytA',
+      'entry' => 'hiyktuwr',
+      'form' => 'hiyktuwr',
       'lines' => [
-        ';; hinoriyiytA_1',
-        'hnryytA hinoriyiytA     Nprop   Henrieta;Henrietta'
+        ';; hiykotuwr_1',
+        'hyktwr  hiykotuwr       Nprop   Hector'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28467,52 +28493,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Henrieta',
-        'Henrietta'
+        'Hector'
       ],
-      'orig' => 'hinoriyiytA',
-      'prefix' => ''
-    }
-  ],
-  '\'ihliyla^g' => [
-    {
-      'types' => {},
-      'entry' => '\'ihliyla^g',
-      'form' => '\'ihliyla^g',
-      'lines' => [
-        ';; <iholiylaj_1',
-        '<hlylj  <iholiylaj      Ndu     ellipse',
-        'Ahlylj  <iholiylaj      Ndu     ellipse'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'ellipse'
-      ],
-      'orig' => 'Iiholiylaj',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'ihliyla^g',
-      'form' => '\'ihliyla^giyy',
-      'lines' => [
-        ';; <iholiylajiy~_1',
-        '<hlyljy <iholiylajiy~   N-ap    elliptical     [[<iholiylajiy~/ADJ]]',
-        'Ahlyljy <iholiylajiy~   N-ap    elliptical     [[<iholiylajiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'elliptical'
-      ],
-      'orig' => 'Iiholiylajiy~',
+      'orig' => 'hiykotuwr',
       'prefix' => ''
     }
   ],
@@ -28534,27 +28517,6 @@ $Lexicon = {
         'Muhanna'
       ],
       'orig' => 'muhan~A',
-      'prefix' => ''
-    }
-  ],
-  'hiyuwstun' => [
-    {
-      'types' => {},
-      'entry' => 'hiyuwstun',
-      'form' => 'hiyuwstun',
-      'lines' => [
-        ';; hiyuwsotun_1',
-        'hywstn  hiyuwsotun      Nprop   Houston'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Houston'
-      ],
-      'orig' => 'hiyuwsotun',
       'prefix' => ''
     }
   ],
@@ -28597,28 +28559,6 @@ $Lexicon = {
         'Hungary'
       ],
       'orig' => 'hunogAriyA',
-      'prefix' => ''
-    }
-  ],
-  'hAbiyl' => [
-    {
-      'types' => {},
-      'entry' => 'hAbiyl',
-      'form' => 'hAbiyl',
-      'lines' => [
-        ';; hAbiyl_1',
-        'hAbyl   hAbiyl  Nprop   Habil;Abel'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Habil',
-        'Abel'
-      ],
-      'orig' => 'hAbiyl',
       'prefix' => ''
     }
   ],
@@ -29310,24 +29250,25 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'huwndA' => [
+  'hilInist' => [
     {
       'types' => {},
-      'entry' => 'huwndA',
-      'form' => 'huwndA',
+      'entry' => 'hiliynist',
+      'form' => 'hiliynistiyy',
       'lines' => [
-        ';; huwnodA_1',
-        'hwndA   huwnodA N0      Honda'
+        ';; hiliynisotiy~_1',
+        'hlynsty hiliynisotiy~   Nall    Hellenistic     [[hiliynisotiy~/NOUN]]',
+        'hlynsty hiliynisotiy~   Nall    Hellenistic     [[hiliynisotiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'Honda'
+        'Hellenistic'
       ],
-      'orig' => 'huwnodA',
+      'orig' => 'hiliynisotiy~',
       'prefix' => ''
     }
   ],
@@ -29541,6 +29482,32 @@ $Lexicon = {
         'garrulous'
       ],
       'orig' => 'ha*ir',
+      'prefix' => ''
+    }
+  ],
+  'hilsinkI' => [
+    {
+      'types' => {
+        'hilsiynkiy' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'hilsinkiy',
+      'form' => 'hilsinkiy',
+      'lines' => [
+        ';; hilosinkiy_1',
+        'hlsnky  hilosinkiy      N0      Helsinki',
+        'hlsynky hilosiynkiy     N0      Helsinki'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Helsinki'
+      ],
+      'orig' => 'hilosinkiy',
       'prefix' => ''
     }
   ],
@@ -29914,14 +29881,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hAriys' => [
+  'hIdrU' => [
     {
       'types' => {},
-      'entry' => 'hAriys',
-      'form' => 'hAriys',
+      'entry' => 'hiydruw',
+      'form' => 'hiydruw',
       'lines' => [
-        ';; hAriys_1',
-        'hArys   hAriys  Nprop   Harris'
+        ';; hiydruw_1',
+        'hydrw   hiydruw N0      hydro-'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29929,9 +29896,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Harris'
+        'hydro-'
       ],
-      'orig' => 'hAriys',
+      'orig' => 'hiydruw',
       'prefix' => ''
     }
   ],
@@ -29962,14 +29929,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'huwyAmA' => [
+  'hIlArI' => [
     {
       'types' => {},
-      'entry' => 'huwyAmA',
-      'form' => 'huwyAmA',
+      'entry' => 'hiylAriy',
+      'form' => 'hiylAriy',
       'lines' => [
-        ';; huwyAmA_1',
-        'hwyAmA  huwyAmA Nprop   Hoyama'
+        ';; hiylAriy_1',
+        'hylAry  hiylAriy        Nprop   Hillary'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29977,9 +29944,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Hoyama'
+        'Hillary'
       ],
-      'orig' => 'huwyAmA',
+      'orig' => 'hiylAriy',
       'prefix' => ''
     }
   ],
@@ -30162,14 +30129,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hAfiylAnd' => [
+  'hUyAmA' => [
     {
       'types' => {},
-      'entry' => 'hAfiylAnd',
-      'form' => 'hAfiylAnd',
+      'entry' => 'huwyAmA',
+      'form' => 'huwyAmA',
       'lines' => [
-        ';; hAfiylAnd_1',
-        'hAfylAnd        hAfiylAnd       Nprop   Haviland'
+        ';; huwyAmA_1',
+        'hwyAmA  huwyAmA Nprop   Hoyama'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30177,9 +30144,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Haviland'
+        'Hoyama'
       ],
-      'orig' => 'hAfiylAnd',
+      'orig' => 'huwyAmA',
       'prefix' => ''
     }
   ],
@@ -30315,6 +30282,96 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'hum',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'hmuw' => {
+          'IV_0hAnn' => 1
+        },
+        'ham' => {
+          'PV_ttAw' => 1
+        },
+        'hm' => {
+          'IV_0hwnyn' => 1
+        },
+        'hamaw' => {
+          'PV_Atn' => 1
+        }
+      },
+      'entry' => 'hamA',
+      'form' => 'hamA',
+      'lines' => [
+        ';; hamA-u_1',
+        'hmA     hamA    PV_0    flow;pour',
+        'hmw     hamaw   PV_Atn  flow;pour',
+        'hm      ham     PV_ttAw flow;pour',
+        'hmw     homuw   IV_0hAnn        flow;pour',
+        'hm      hom     IV_0hwnyn       flow;pour'
+      ],
+      'patterns' => {
+        'hmuw' => [
+          'FCU'
+        ],
+        'ham' => [
+          'FaC'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCA',
+      'glosses' => [
+        'flow',
+        'pour'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'hamA-u',
+      'prefix' => ''
+    }
+  ],
+  'hUtUmU' => [
+    {
+      'types' => {},
+      'entry' => 'huwtuwmuw',
+      'form' => 'huwtuwmuw',
+      'lines' => [
+        ';; huwtuwmuw_1',
+        'hwtwmw  huwtuwmuw       Nprop   Hutomo'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Hutomo'
+      ],
+      'orig' => 'huwtuwmuw',
+      'prefix' => ''
+    }
+  ],
+  'hAlIfI' => [
+    {
+      'types' => {},
+      'entry' => 'hAliyfiy',
+      'form' => 'hAliyfiy',
+      'lines' => [
+        ';; hAliyfiy_1',
+        'hAlyfy  hAliyfiy        Nprop   Halevi;Halevy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Halevi',
+        'Halevy'
+      ],
+      'orig' => 'hAliyfiy',
       'prefix' => ''
     }
   ],
@@ -30464,27 +30521,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hiysb' => [
-    {
-      'types' => {},
-      'entry' => 'hiysb',
-      'form' => 'hiysb',
-      'lines' => [
-        ';; hiysb_1',
-        'hysb    hiysb   Nprop   Hesp'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Hesp'
-      ],
-      'orig' => 'hiysb',
-      'prefix' => ''
-    }
-  ],
   'h y .t l' => [
     {
       'types' => {
@@ -30515,27 +30551,6 @@ $Lexicon = {
         'foxes'
       ],
       'orig' => 'hayoTal',
-      'prefix' => ''
-    }
-  ],
-  'hAfiylAn^g' => [
-    {
-      'types' => {},
-      'entry' => 'hAfiylAn^g',
-      'form' => 'hAfiylAn^g',
-      'lines' => [
-        ';; hAfiylAnj_1',
-        'hAfylAnj        hAfiylAnj       Nprop   Havilang'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Havilang'
-      ],
-      'orig' => 'hAfiylAnj',
       'prefix' => ''
     }
   ],
@@ -30699,30 +30714,6 @@ $Lexicon = {
       'orig' => 'hizabor',
       'prefix' => ''
     }
-  ],
-  'mahdAwiy' => [
-    {
-      'types' => {},
-      'entry' => 'mahdAwiy',
-      'form' => 'mahdAwiy',
-      'lines' => [
-        ';; mahodAwiy_1',
-        'mhdAwy  mahodAwiy       N0      Mahdawi;Mehdawi;Mahdavi;Mehdavi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mahdawi',
-        'Mehdawi',
-        'Mahdavi',
-        'Mehdavi'
-      ],
-      'orig' => 'mahodAwiy',
-      'prefix' => ''
-    }
   ]
 };
 $Lexicon->{'h y ^g'}[11]{'types'} = $Lexicon->{'h \' ^g'}[0]{'types'};
@@ -30731,12 +30722,12 @@ $Lexicon->{'h y ^g'}[11]{'glosses'} = $Lexicon->{'h \' ^g'}[0]{'glosses'};
 $Lexicon->{'h w k y'}[0]{'types'} = $Lexicon->{'h k y'}[0]{'types'};
 $Lexicon->{'h w k y'}[0]{'lines'} = $Lexicon->{'h k y'}[0]{'lines'};
 $Lexicon->{'h w k y'}[0]{'glosses'} = $Lexicon->{'h k y'}[0]{'glosses'};
-$Lexicon->{'h ^g y'}[1]{'types'} = $Lexicon->{'h ^g w'}[10]{'types'};
-$Lexicon->{'h ^g y'}[1]{'lines'} = $Lexicon->{'h ^g w'}[10]{'lines'};
-$Lexicon->{'h ^g y'}[1]{'glosses'} = $Lexicon->{'h ^g w'}[10]{'glosses'};
-$Lexicon->{'h ^g y'}[2]{'types'} = $Lexicon->{'h ^g w'}[12]{'types'};
-$Lexicon->{'h ^g y'}[2]{'lines'} = $Lexicon->{'h ^g w'}[12]{'lines'};
-$Lexicon->{'h ^g y'}[2]{'glosses'} = $Lexicon->{'h ^g w'}[12]{'glosses'};
+$Lexicon->{'h ^g y'}[1]{'types'} = $Lexicon->{'h ^g w'}[11]{'types'};
+$Lexicon->{'h ^g y'}[1]{'lines'} = $Lexicon->{'h ^g w'}[11]{'lines'};
+$Lexicon->{'h ^g y'}[1]{'glosses'} = $Lexicon->{'h ^g w'}[11]{'glosses'};
+$Lexicon->{'h ^g y'}[2]{'types'} = $Lexicon->{'h ^g w'}[13]{'types'};
+$Lexicon->{'h ^g y'}[2]{'lines'} = $Lexicon->{'h ^g w'}[13]{'lines'};
+$Lexicon->{'h ^g y'}[2]{'glosses'} = $Lexicon->{'h ^g w'}[13]{'glosses'};
 $Lexicon->{'h f w'}[2]{'types'} = $Lexicon->{'h f y'}[0]{'types'};
 $Lexicon->{'h f w'}[2]{'lines'} = $Lexicon->{'h f y'}[0]{'lines'};
 $Lexicon->{'h f w'}[2]{'glosses'} = $Lexicon->{'h f y'}[0]{'glosses'};
@@ -30758,9 +30749,9 @@ $Lexicon->{'h w \''}[1]{'glosses'} = $Lexicon->{'h w y'}[13]{'glosses'};
 $Lexicon->{'h w \''}[2]{'types'} = $Lexicon->{'h w y'}[14]{'types'};
 $Lexicon->{'h w \''}[2]{'lines'} = $Lexicon->{'h w y'}[14]{'lines'};
 $Lexicon->{'h w \''}[2]{'glosses'} = $Lexicon->{'h w y'}[14]{'glosses'};
-$Lexicon->{'h w \''}[4]{'types'} = $Lexicon->{'h w y'}[21]{'types'};
-$Lexicon->{'h w \''}[4]{'lines'} = $Lexicon->{'h w y'}[21]{'lines'};
-$Lexicon->{'h w \''}[4]{'glosses'} = $Lexicon->{'h w y'}[21]{'glosses'};
+$Lexicon->{'h w \''}[4]{'types'} = $Lexicon->{'h w y'}[22]{'types'};
+$Lexicon->{'h w \''}[4]{'lines'} = $Lexicon->{'h w y'}[22]{'lines'};
+$Lexicon->{'h w \''}[4]{'glosses'} = $Lexicon->{'h w y'}[22]{'glosses'};
 $Lexicon->{'h d \''}[10]{'types'} = $Lexicon->{'h d y'}[13]{'types'};
 $Lexicon->{'h d \''}[10]{'lines'} = $Lexicon->{'h d y'}[13]{'lines'};
 $Lexicon->{'h d \''}[10]{'glosses'} = $Lexicon->{'h d y'}[13]{'glosses'};

@@ -2189,6 +2189,39 @@ $Lexicon = {
     },
     {
       'types' => {
+        '\'a.dAliyl' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'u.dluwl',
+      'form' => '\'u.dluwlaT',
+      'lines' => [
+        ';; >uDoluwlap_1',
+        '>Dlwl   >uDoluwl        Napdu   error;aberration',
+        'ADlwl   >uDoluwl        Napdu   error;aberration',
+        '>DAlyl  >aDAliyl        Ndip    errors;aberrations',
+        'ADAlyl  >aDAliyl        Ndip    errors;aberrations'
+      ],
+      'patterns' => {
+        '\'a.dAliyl' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'error',
+        'aberration',
+        'errors',
+        'aberrations'
+      ],
+      'orig' => 'OuDoluwlap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'ta.dliyl' => {
           'NAt' => 1
         }
@@ -2564,35 +2597,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'u.d.hiyy' => [
-    {
-      'types' => {
-        '\'a.dA.hiyy' => {
-          'N0_Nh' => 2
-        }
-      },
-      'entry' => '\'u.d.hiyy',
-      'form' => '\'u.d.hiyyaT',
-      'lines' => [
-        ';; >uDoHiy~ap_1',
-        '>DHy    >uDoHiy~        Nap     sacrifice     [[>uDoHiy~/NOUN]]',
-        'ADHy    >uDoHiy~        Nap     sacrifice     [[>uDoHiy~/NOUN]]',
-        '>DAHy   >aDAHiy~        N0_Nh   sacrifices',
-        'ADAHy   >aDAHiy~        N0_Nh   sacrifices'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'sacrifice',
-        'sacrifices'
-      ],
-      'orig' => 'OuDoHiy~ap',
-      'prefix' => ''
-    }
-  ],
   '.d r .h' => [
     {
       'types' => {
@@ -2747,6 +2751,56 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '.d b n' => [
+    {
+      'types' => {
+        '.d.tabin' => {
+          'IV-n' => 1
+        }
+      },
+      'entry' => 'i.d.taban',
+      'form' => 'i.d.taban',
+      'lines' => [
+        ';; {iDoTaban_1',
+        '<DTbn   {iDoTaban       PV-n    carry under arm',
+        'ADTbn   {iDoTaban       PV-n    carry under arm',
+        'DTbn    DoTabin IV-n    carry under arm'
+      ],
+      'patterns' => {
+        '.d.tabin' => [
+          'FtaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFtaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'carry under arm'
+      ],
+      'orig' => 'AiDoTaban',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.dibn',
+      'form' => '.dibn',
+      'lines' => [
+        ';; Dibon_1',
+        'Dbn     Dibon   Ndu     armpit'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCL',
+      'suffix' => '',
+      'glosses' => [
+        'armpit'
+      ],
+      'orig' => 'Dibon',
+      'prefix' => ''
+    }
+  ],
   '.d .h .d .h' => [
     {
       'types' => {
@@ -2826,56 +2880,6 @@ $Lexicon = {
         'sand dunes'
       ],
       'orig' => 'DaHoDAH',
-      'prefix' => ''
-    }
-  ],
-  '.d b n' => [
-    {
-      'types' => {
-        '.d.tabin' => {
-          'IV-n' => 1
-        }
-      },
-      'entry' => 'i.d.taban',
-      'form' => 'i.d.taban',
-      'lines' => [
-        ';; {iDoTaban_1',
-        '<DTbn   {iDoTaban       PV-n    carry under arm',
-        'ADTbn   {iDoTaban       PV-n    carry under arm',
-        'DTbn    DoTabin IV-n    carry under arm'
-      ],
-      'patterns' => {
-        '.d.tabin' => [
-          'FtaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFtaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'carry under arm'
-      ],
-      'orig' => 'AiDoTaban',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '.dibn',
-      'form' => '.dibn',
-      'lines' => [
-        ';; Dibon_1',
-        'Dbn     Dibon   Ndu     armpit'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCL',
-      'suffix' => '',
-      'glosses' => [
-        'armpit'
-      ],
-      'orig' => 'Dibon',
       'prefix' => ''
     }
   ],
@@ -4074,6 +4078,27 @@ $Lexicon = {
         'archivist'
       ],
       'orig' => 'IiDobAriy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'u.dbuwr',
+      'form' => '\'u.dbuwr',
+      'lines' => [
+        ';; >uDobuwr_1',
+        '>Dbwr   >uDobuwr        Ndu     file;document',
+        'ADbwr   >uDobuwr        Ndu     file;document'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL',
+      'suffix' => '',
+      'glosses' => [
+        'file',
+        'document'
+      ],
+      'orig' => 'OuDobuwr',
       'prefix' => ''
     }
   ],
@@ -6448,37 +6473,6 @@ $Lexicon = {
         'hosting'
       ],
       'orig' => 'AisotiDAfap',
-      'prefix' => ''
-    }
-  ],
-  '\'u.dluwl' => [
-    {
-      'types' => {
-        '\'a.dAliyl' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'u.dluwl',
-      'form' => '\'u.dluwlaT',
-      'lines' => [
-        ';; >uDoluwlap_1',
-        '>Dlwl   >uDoluwl        Napdu   error;aberration',
-        'ADlwl   >uDoluwl        Napdu   error;aberration',
-        '>DAlyl  >aDAliyl        Ndip    errors;aberrations',
-        'ADAlyl  >aDAliyl        Ndip    errors;aberrations'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'error',
-        'aberration',
-        'errors',
-        'aberrations'
-      ],
-      'orig' => 'OuDoluwlap',
       'prefix' => ''
     }
   ],
@@ -10114,6 +10108,39 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        '\'a.dA.hiyk' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'u.d.huwk',
+      'form' => '\'u.d.huwkaT',
+      'lines' => [
+        ';; >uDoHuwkap_1',
+        '>DHwk   >uDoHuwk        Napdu   laughingstock;object of ridicule',
+        'ADHwk   >uDoHuwk        Napdu   laughingstock;object of ridicule',
+        '>DAHyk  >aDAHiyk        Ndip    laughingstocks;objects of ridicule',
+        'ADAHyk  >aDAHiyk        Ndip    laughingstocks;objects of ridicule'
+      ],
+      'patterns' => {
+        '\'a.dA.hiyk' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'laughingstock',
+        'object of ridicule',
+        'laughingstocks',
+        'objects of ridicule'
+      ],
+      'orig' => 'OuDoHuwkap',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'ma.d.hak',
       'form' => 'ma.d.hakaT',
@@ -10521,29 +10548,6 @@ $Lexicon = {
         'compressibility'
       ],
       'orig' => 'AinoDigATiy~ap',
-      'prefix' => ''
-    }
-  ],
-  '\'u.dbuwr' => [
-    {
-      'types' => {},
-      'entry' => '\'u.dbuwr',
-      'form' => '\'u.dbuwr',
-      'lines' => [
-        ';; >uDobuwr_1',
-        '>Dbwr   >uDobuwr        Ndu     file;document',
-        'ADbwr   >uDobuwr        Ndu     file;document'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'file',
-        'document'
-      ],
-      'orig' => 'OuDobuwr',
       'prefix' => ''
     }
   ],
@@ -11977,6 +11981,143 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '.d .h y' => [
+    {
+      'types' => {},
+      'entry' => '.da.hiy',
+      'form' => '.da.hiy',
+      'lines' => [],
+      'patterns' => {
+        '.da.h' => [
+          'FaC'
+        ],
+        '.d.hY' => [
+          'FCY'
+        ],
+        '.d.hay' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCI',
+      'glosses' => [],
+      'suffix' => '',
+      'imperf' => [],
+      'orig' => 'DaHiy-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.da.hAyY' => {
+          'N0_Nhy' => 1
+        }
+      },
+      'entry' => '.da.hiyy',
+      'form' => '.da.hiyyaT',
+      'lines' => [
+        ';; DaHiy~ap_1',
+        'DHy     DaHiy~  Napdu   victim     [[DaHiy~/NOUN]]',
+        'DHAyA   DaHAyA  N0_Nhy  victims'
+      ],
+      'patterns' => {
+        '.da.hAyY' => [
+          'FaCALY'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'victim',
+        'victims'
+      ],
+      'orig' => 'DaHiy~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'a.dA.hiyy' => {
+          'N0_Nh' => 2
+        }
+      },
+      'entry' => '\'u.d.hiyy',
+      'form' => '\'u.d.hiyyaT',
+      'lines' => [
+        ';; >uDoHiy~ap_1',
+        '>DHy    >uDoHiy~        Nap     sacrifice     [[>uDoHiy~/NOUN]]',
+        'ADHy    >uDoHiy~        Nap     sacrifice     [[>uDoHiy~/NOUN]]',
+        '>DAHy   >aDAHiy~        N0_Nh   sacrifices',
+        'ADAHy   >aDAHiy~        N0_Nh   sacrifices'
+      ],
+      'patterns' => {
+        '\'a.dA.hiyy' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCIL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'sacrifice',
+        'sacrifices'
+      ],
+      'orig' => 'OuDoHiy~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta.d.hiy',
+      'form' => 'ta.d.hiy',
+      'lines' => [],
+      'patterns' => {
+        'ta.d.hiy' => [
+          'TaFCI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFCI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'taDoHiy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.dA.hiy',
+      'form' => '.dA.hiy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'DAHiy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.dA.hiy',
+      'form' => '.dA.hiyaT',
+      'lines' => [],
+      'patterns' => {
+        '.dawA.hiy' => [
+          'FawACI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
+      'orig' => 'DAHiyap',
+      'prefix' => ''
+    }
+  ],
   '.d m _h' => [
     {
       'types' => {
@@ -12085,112 +12226,6 @@ $Lexicon = {
         'wearing lipstick'
       ],
       'orig' => 'taDomiyx',
-      'prefix' => ''
-    }
-  ],
-  '.d .h y' => [
-    {
-      'types' => {},
-      'entry' => '.da.hiy',
-      'form' => '.da.hiy',
-      'lines' => [],
-      'patterns' => {
-        '.da.h' => [
-          'FaC'
-        ],
-        '.d.hY' => [
-          'FCY'
-        ],
-        '.d.hay' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCI',
-      'glosses' => [],
-      'suffix' => '',
-      'imperf' => [],
-      'orig' => 'DaHiy-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.da.hAyY' => {
-          'N0_Nhy' => 1
-        }
-      },
-      'entry' => '.da.hiyy',
-      'form' => '.da.hiyyaT',
-      'lines' => [
-        ';; DaHiy~ap_1',
-        'DHy     DaHiy~  Napdu   victim     [[DaHiy~/NOUN]]',
-        'DHAyA   DaHAyA  N0_Nhy  victims'
-      ],
-      'patterns' => {
-        '.da.hAyY' => [
-          'FaCALY'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'victim',
-        'victims'
-      ],
-      'orig' => 'DaHiy~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta.d.hiy',
-      'form' => 'ta.d.hiy',
-      'lines' => [],
-      'patterns' => {
-        'ta.d.hiy' => [
-          'TaFCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaFCI',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'taDoHiy',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '.dA.hiy',
-      'form' => '.dA.hiy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACI',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'DAHiy',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '.dA.hiy',
-      'form' => '.dA.hiyaT',
-      'lines' => [],
-      'patterns' => {
-        '.dawA.hiy' => [
-          'FawACI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACI |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [],
-      'orig' => 'DAHiyap',
       'prefix' => ''
     }
   ],
@@ -12873,37 +12908,6 @@ $Lexicon = {
         'in coalition'
       ],
       'orig' => 'mutaDAfir',
-      'prefix' => ''
-    }
-  ],
-  '\'u.d.huwk' => [
-    {
-      'types' => {
-        '\'a.dA.hiyk' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'u.d.huwk',
-      'form' => '\'u.d.huwkaT',
-      'lines' => [
-        ';; >uDoHuwkap_1',
-        '>DHwk   >uDoHuwk        Napdu   laughingstock;object of ridicule',
-        'ADHwk   >uDoHuwk        Napdu   laughingstock;object of ridicule',
-        '>DAHyk  >aDAHiyk        Ndip    laughingstocks;objects of ridicule',
-        'ADAHyk  >aDAHiyk        Ndip    laughingstocks;objects of ridicule'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'laughingstock',
-        'object of ridicule',
-        'laughingstocks',
-        'objects of ridicule'
-      ],
-      'orig' => 'OuDoHuwkap',
       'prefix' => ''
     }
   ],
@@ -14159,15 +14163,15 @@ $Lexicon->{'.d .h y'}[0]{'types'} = $Lexicon->{'.d .h w'}[1]{'types'};
 $Lexicon->{'.d .h y'}[0]{'lines'} = $Lexicon->{'.d .h w'}[1]{'lines'};
 $Lexicon->{'.d .h y'}[0]{'glosses'} = $Lexicon->{'.d .h w'}[1]{'glosses'};
 $Lexicon->{'.d .h y'}[0]{'imperf'} = $Lexicon->{'.d .h w'}[1]{'imperf'};
-$Lexicon->{'.d .h y'}[2]{'types'} = $Lexicon->{'.d .h w'}[8]{'types'};
-$Lexicon->{'.d .h y'}[2]{'lines'} = $Lexicon->{'.d .h w'}[8]{'lines'};
-$Lexicon->{'.d .h y'}[2]{'glosses'} = $Lexicon->{'.d .h w'}[8]{'glosses'};
-$Lexicon->{'.d .h y'}[3]{'types'} = $Lexicon->{'.d .h w'}[9]{'types'};
-$Lexicon->{'.d .h y'}[3]{'lines'} = $Lexicon->{'.d .h w'}[9]{'lines'};
-$Lexicon->{'.d .h y'}[3]{'glosses'} = $Lexicon->{'.d .h w'}[9]{'glosses'};
-$Lexicon->{'.d .h y'}[4]{'types'} = $Lexicon->{'.d .h w'}[10]{'types'};
-$Lexicon->{'.d .h y'}[4]{'lines'} = $Lexicon->{'.d .h w'}[10]{'lines'};
-$Lexicon->{'.d .h y'}[4]{'glosses'} = $Lexicon->{'.d .h w'}[10]{'glosses'};
+$Lexicon->{'.d .h y'}[3]{'types'} = $Lexicon->{'.d .h w'}[8]{'types'};
+$Lexicon->{'.d .h y'}[3]{'lines'} = $Lexicon->{'.d .h w'}[8]{'lines'};
+$Lexicon->{'.d .h y'}[3]{'glosses'} = $Lexicon->{'.d .h w'}[8]{'glosses'};
+$Lexicon->{'.d .h y'}[4]{'types'} = $Lexicon->{'.d .h w'}[9]{'types'};
+$Lexicon->{'.d .h y'}[4]{'lines'} = $Lexicon->{'.d .h w'}[9]{'lines'};
+$Lexicon->{'.d .h y'}[4]{'glosses'} = $Lexicon->{'.d .h w'}[9]{'glosses'};
+$Lexicon->{'.d .h y'}[5]{'types'} = $Lexicon->{'.d .h w'}[10]{'types'};
+$Lexicon->{'.d .h y'}[5]{'lines'} = $Lexicon->{'.d .h w'}[10]{'lines'};
+$Lexicon->{'.d .h y'}[5]{'glosses'} = $Lexicon->{'.d .h w'}[10]{'glosses'};
 $Lexicon->{'.d y `'}[11]{'types'} = $Lexicon->{'.d \' `'}[0]{'types'};
 $Lexicon->{'.d y `'}[11]{'lines'} = $Lexicon->{'.d \' `'}[0]{'lines'};
 $Lexicon->{'.d y `'}[11]{'glosses'} = $Lexicon->{'.d \' `'}[0]{'glosses'};

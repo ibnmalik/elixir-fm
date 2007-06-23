@@ -17,16 +17,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OaZohur -}          [ "rear part" ] ]
 
- |> "'u.zfuwr" <| [
-
-    -- ;; >uZofuwr_1
-    -- >Zfwr   >uZofuwr        Ndu     nail;claw;talon
-    -- AZfwr   >uZofuwr        Ndu     nail;claw;talon
-    -- >ZAfyr  >aZAfiyr        Ndip    nails;claws;talons
-    -- AZAfyr  >aZAfiyr        Ndip    nails;claws;talons
-
-    Identity                  `noun`    {- OuZofuwr -}         [ "nail", "claw", "talon" ] ]
-
  |> ".z  '" <| [
 
     -- ;; ZA'_1
@@ -149,6 +139,16 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                               `plural`     HaFACiL
                            {- `others`  [ "'a.zfAr N", "'a.zAfir Ndip" ] -},
+
+    -- ;; >uZofuwr_1
+    -- >Zfwr   >uZofuwr        Ndu     nail;claw;talon
+    -- AZfwr   >uZofuwr        Ndu     nail;claw;talon
+    -- >ZAfyr  >aZAfiyr        Ndip    nails;claws;talons
+    -- AZAfyr  >aZAfiyr        Ndip    nails;claws;talons
+
+    HuFCUL                    `noun`    {- OuZofuwr -}         [ "nail", "claw", "talon" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a.zAfiyr Ndip" ] -},
 
     -- ;; Zafar_1
     -- Zfr     Zafar   N       victory

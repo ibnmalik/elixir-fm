@@ -6,14 +6,14 @@ package Elixir::Data::Buckwalter::Lexicon10;
 
 
 $Lexicon = {
-  'ruwfA\'iyl' => [
+  'rAnyIrI' => [
     {
       'types' => {},
-      'entry' => 'ruwfA\'iyl',
-      'form' => 'ruwfA\'iyl',
+      'entry' => 'rAnyiyriy',
+      'form' => 'rAnyiyriy',
       'lines' => [
-        ';; ruwfA}iyl_1',
-        'rwfA}yl ruwfA}iyl       Nprop   Rufa\'il;Raphael'
+        ';; rAnoyiyriy_1',
+        'rAnyyry rAnoyiyriy      N0      Ranieri'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21,10 +21,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Rufa\'il',
-        'Raphael'
+        'Ranieri'
       ],
-      'orig' => 'ruwfA}iyl',
+      'orig' => 'rAnoyiyriy',
       'prefix' => ''
     }
   ],
@@ -186,27 +185,6 @@ $Lexicon = {
         'eye bandages'
       ],
       'orig' => 'raforuwf',
-      'prefix' => ''
-    }
-  ],
-  'rAbiyd' => [
-    {
-      'types' => {},
-      'entry' => 'rAbiyd',
-      'form' => 'rAbiyd',
-      'lines' => [
-        ';; rAbiyd_1',
-        'rAbyd   rAbiyd  Nprop   Rapid'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rapid'
-      ],
-      'orig' => 'rAbiyd',
       'prefix' => ''
     }
   ],
@@ -1180,14 +1158,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rA^siyfskiy' => [
+  'ruwAnU' => [
     {
       'types' => {},
-      'entry' => 'rA^siyfskiy',
-      'form' => 'rA^siyfskiy',
+      'entry' => 'ruwAnuw',
+      'form' => 'ruwAnuw',
       'lines' => [
-        ';; rA$iyfskiy_1',
-        'rA$yfsky        rA$iyfskiy      Nprop   Rashevsky'
+        ';; ruwAnuw_1',
+        'rwAnw   ruwAnuw Nprop   Ruano'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1195,9 +1173,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Rashevsky'
+        'Ruano'
       ],
-      'orig' => 'rA$iyfskiy',
+      'orig' => 'ruwAnuw',
       'prefix' => ''
     }
   ],
@@ -1433,6 +1411,27 @@ $Lexicon = {
         'trembling'
       ],
       'orig' => 'murotaj~',
+      'prefix' => ''
+    }
+  ],
+  'rAtIna^g' => [
+    {
+      'types' => {},
+      'entry' => 'rAtiyna^g',
+      'form' => 'rAtiyna^g',
+      'lines' => [
+        ';; rAtiynaj_1',
+        'rAtynj  rAtiynaj        N       resin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'resin'
+      ],
+      'orig' => 'rAtiynaj',
       'prefix' => ''
     }
   ],
@@ -1739,48 +1738,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'riyynA' => [
-    {
-      'types' => {},
-      'entry' => 'riyynA',
-      'form' => 'riyynA',
-      'lines' => [
-        ';; riyynA_1',
-        'ryynA   riyynA  Nprop   Reina'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Reina'
-      ],
-      'orig' => 'riyynA',
-      'prefix' => ''
-    }
-  ],
-  'rAduwfAn' => [
-    {
-      'types' => {},
-      'entry' => 'rAduwfAn',
-      'form' => 'rAduwfAn',
-      'lines' => [
-        ';; rAduwfAn_1',
-        'rAdwfAn rAduwfAn        Nprop   Radovan'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Radovan'
-      ],
-      'orig' => 'rAduwfAn',
-      'prefix' => ''
-    }
-  ],
   'r z m' => [
     {
       'types' => {
@@ -1980,6 +1937,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'riyU' => [
+    {
+      'types' => {},
+      'entry' => 'riyuw',
+      'form' => 'riyuw',
+      'lines' => [
+        ';; riyuw_1',
+        'ryw     riyuw   Nprop   Rio'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rio'
+      ],
+      'orig' => 'riyuw',
+      'prefix' => ''
+    }
+  ],
   'r w b r' => [
     {
       'types' => {},
@@ -1998,40 +1976,6 @@ $Lexicon = {
         'Robert'
       ],
       'orig' => 'ruwbiyr',
-      'prefix' => ''
-    }
-  ],
-  'ruw^sitt' => [
-    {
-      'types' => {
-        'ru^siyttah' => {
-          'N' => 1
-        },
-        'ru^sitt' => {
-          'NapAt' => 1
-        },
-        'ru^siytt' => {
-          'NapAt' => 1
-        }
-      },
-      'entry' => 'ruw^sitt',
-      'form' => 'ruw^sittaT',
-      'lines' => [
-        ';; ruw$it~ap_1',
-        'rw$t    ruw$it~ NapAt   medical prescription',
-        'r$yt    ru$iyt~ NapAt   medical prescription',
-        'r$yth   ru$iyt~ah       N       medical prescription',
-        'r$t     ru$it~  NapAt   medical prescription'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'medical prescription'
-      ],
-      'orig' => 'ruw$it~ap',
       'prefix' => ''
     }
   ],
@@ -2290,27 +2234,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rAmiyn' => [
-    {
-      'types' => {},
-      'entry' => 'rAmiyn',
-      'form' => 'rAmiyn',
-      'lines' => [
-        ';; rAmiyn_1',
-        'rAmyn   rAmiyn  N0      Ramin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Ramin'
-      ],
-      'orig' => 'rAmiyn',
-      'prefix' => ''
-    }
-  ],
   'r s f' => [
     {
       'types' => {
@@ -2370,6 +2293,61 @@ $Lexicon = {
         'being moored'
       ],
       'orig' => 'rasof',
+      'prefix' => ''
+    }
+  ],
+  'yarbU`' => [
+    {
+      'types' => {
+        'yarAbiy`' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'yarbuw`',
+      'form' => 'yarbuw`',
+      'lines' => [
+        ';; yarobuwE_1',
+        'yrbwE   yarobuwE        N       jerboa',
+        'yrAbyE  yarAbiyE        Ndip    jerboas'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'jerboa',
+        'jerboas'
+      ],
+      'orig' => 'yarobuwE',
+      'prefix' => ''
+    }
+  ],
+  'rUlA' => [
+    {
+      'types' => {
+        'rulA' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'ruwlA',
+      'form' => 'ruwlA',
+      'lines' => [
+        ';; ruwlA_1',
+        'rwlA    ruwlA   Nprop   Rola;Rula;Roula',
+        'rlA     rulA    Nprop   Rola;Rula;Roula'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rola',
+        'Rula',
+        'Roula'
+      ],
+      'orig' => 'ruwlA',
       'prefix' => ''
     }
   ],
@@ -2548,27 +2526,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruw^giyriyuw' => [
-    {
-      'types' => {},
-      'entry' => 'ruw^giyriyuw',
-      'form' => 'ruw^giyriyuw',
-      'lines' => [
-        ';; ruwjiyriyuw_1',
-        'rwjyryw ruwjiyriyuw     Nprop   Rogerio'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rogerio'
-      ],
-      'orig' => 'ruwjiyriyuw',
-      'prefix' => ''
-    }
-  ],
   'r \' q' => [
     {
       'types' => {},
@@ -2683,29 +2640,6 @@ $Lexicon = {
         'full bloom'
       ],
       'orig' => 'ray~iq',
-      'prefix' => ''
-    }
-  ],
-  'ruwmAn.tiyq' => [
-    {
-      'types' => {},
-      'entry' => 'ruwmAn.tiyq',
-      'form' => 'ruwmAn.tiyqiyy',
-      'lines' => [
-        ';; ruwmAnoTiyqiy~_1',
-        'rwmAnTyqy       ruwmAnoTiyqiy~  Nall    romantic     [[ruwmAnoTiyqiy~/ADJ]]',
-        'rwmAnTyqy       ruwmAnoTiyqiy~  Nap     romanticism     [[ruwmAnoTiyqiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'romantic',
-        'romanticism'
-      ],
-      'orig' => 'ruwmAnoTiyqiy~',
       'prefix' => ''
     }
   ],
@@ -2911,28 +2845,6 @@ $Lexicon = {
         'facsimiles'
       ],
       'orig' => 'rAmuwz',
-      'prefix' => ''
-    }
-  ],
-  'rAfAyiyl' => [
-    {
-      'types' => {},
-      'entry' => 'rAfAyiyl',
-      'form' => 'rAfAyiyl',
-      'lines' => [
-        ';; rAfAyiyl_1',
-        'rAfAyyl rAfAyiyl        Nprop   Rafael;Raphael'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rafael',
-        'Raphael'
-      ],
-      'orig' => 'rAfAyiyl',
       'prefix' => ''
     }
   ],
@@ -3200,6 +3112,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rIbrAt^sA' => [
+    {
+      'types' => {},
+      'entry' => 'riybrAt^sA',
+      'form' => 'riybrAt^sA',
+      'lines' => [
+        ';; riybrAt$A_1',
+        'rybrAt$A        riybrAt$A       Nprop   Rebraca'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rebraca'
+      ],
+      'orig' => 'riybrAt$A',
+      'prefix' => ''
+    }
+  ],
   'r m _t' => [
     {
       'types' => {
@@ -3258,14 +3191,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwzuwfiyt^s' => [
+  'rUytirz' => [
     {
       'types' => {},
-      'entry' => 'ruwzuwfiyt^s',
-      'form' => 'ruwzuwfiyt^s',
+      'entry' => 'ruwytirz',
+      'form' => 'ruwytirz',
       'lines' => [
-        ';; ruwzuwfiyt$_1',
-        'rwzwfyt$        ruwzuwfiyt$     Nprop   Rusovick'
+        ';; ruwyotirz_1',
+        'rwytrz  ruwyotirz       Nprop   Reuters'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3273,9 +3206,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Rusovick'
+        'Reuters'
       ],
-      'orig' => 'ruwzuwfiyt$',
+      'orig' => 'ruwyotirz',
+      'prefix' => ''
+    }
+  ],
+  'rA.hIl' => [
+    {
+      'types' => {},
+      'entry' => 'rA.hiyl',
+      'form' => 'rA.hiyl',
+      'lines' => [
+        ';; rAHiyl_1',
+        'rAHyl   rAHiyl  Ndip    Rachel'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rachel'
+      ],
+      'orig' => 'rAHiyl',
       'prefix' => ''
     }
   ],
@@ -3954,6 +3908,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rUkits' => [
+    {
+      'types' => {},
+      'entry' => 'ruwkits',
+      'form' => 'ruwkits',
+      'lines' => [
+        ';; ruwkits_1',
+        'rwkts   ruwkits Nprop   Rockets'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rockets'
+      ],
+      'orig' => 'ruwkits',
+      'prefix' => ''
+    }
+  ],
   'r ^g \'' => [
     {
       'types' => {
@@ -4249,6 +4224,39 @@ $Lexicon = {
         'work song'
       ],
       'orig' => 'rajaz',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'arA^giyz' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'ur^guwz',
+      'form' => '\'ur^guwzaT',
+      'lines' => [
+        ';; >urojuwzap_1',
+        '>rjwz   >urojuwz        Napdu   rajaz poem;work song',
+        'Arjwz   >urojuwz        Napdu   rajaz poem;work song',
+        '>rAjyz  >arAjiyz        Ndip    rajaz poems;work songs',
+        'ArAjyz  >arAjiyz        Ndip    rajaz poems;work songs'
+      ],
+      'patterns' => {
+        '\'arA^giyz' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'rajaz poem',
+        'work song',
+        'rajaz poems',
+        'work songs'
+      ],
+      'orig' => 'Ourojuwzap',
       'prefix' => ''
     }
   ],
@@ -6099,6 +6107,29 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rUmantIk' => [
+    {
+      'types' => {},
+      'entry' => 'ruwmantiyk',
+      'form' => 'ruwmantiykiyy',
+      'lines' => [
+        ';; ruwmanotiykiy~_1',
+        'rwmntyky        ruwmanotiykiy~  Nall    romantic     [[ruwmanotiykiy~/ADJ]]',
+        'rwmntyky        ruwmanotiykiy~  Nap     romanticism     [[ruwmanotiykiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'romantic',
+        'romanticism'
+      ],
+      'orig' => 'ruwmanotiykiy~',
+      'prefix' => ''
+    }
+  ],
   'r m l' => [
     {
       'types' => {
@@ -6377,6 +6408,40 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rUdrI^gIz' => [
+    {
+      'types' => {
+        'ruwdriy^giys' => {
+          'Nprop' => 1
+        },
+        'ruwdriy.giyz' => {
+          'Nprop' => 1
+        },
+        'ruwdriy.giys' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'ruwdriy^giyz',
+      'form' => 'ruwdriy^giyz',
+      'lines' => [
+        ';; ruwdoriyjiyz_1',
+        'rwdryjyz        ruwdoriyjiyz    Nprop   Rodriguez',
+        'rwdryjys        ruwdoriyjiys    Nprop   Rodriguez',
+        'rwdrygyz        ruwdoriygiyz    Nprop   Rodriguez',
+        'rwdrygys        ruwdoriygiys    Nprop   Rodriguez'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rodriguez'
+      ],
+      'orig' => 'ruwdoriyjiyz',
+      'prefix' => ''
+    }
+  ],
   'r f \'' => [
     {
       'types' => {
@@ -6542,6 +6607,69 @@ $Lexicon = {
         'landing places'
       ],
       'orig' => 'marofaO',
+      'prefix' => ''
+    }
+  ],
+  'ratIna^g' => [
+    {
+      'types' => {},
+      'entry' => 'ratiyna^g',
+      'form' => 'ratiyna^g',
+      'lines' => [
+        ';; ratiynaj_1',
+        'rtynj   ratiynaj        N       resin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'resin'
+      ],
+      'orig' => 'ratiynaj',
+      'prefix' => ''
+    }
+  ],
+  'rUytirs' => [
+    {
+      'types' => {},
+      'entry' => 'ruwytirs',
+      'form' => 'ruwytirs',
+      'lines' => [
+        ';; ruwyotirs_1',
+        'rwytrs  ruwyotirs       Nprop   Reuters'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Reuters'
+      ],
+      'orig' => 'ruwyotirs',
+      'prefix' => ''
+    }
+  ],
+  'rUdIsiyA' => [
+    {
+      'types' => {},
+      'entry' => 'ruwdiysiyA',
+      'form' => 'ruwdiysiyA',
+      'lines' => [
+        ';; ruwdiysiyA_1',
+        'rwdysyA ruwdiysiyA      N0      Rhodesia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rhodesia'
+      ],
+      'orig' => 'ruwdiysiyA',
       'prefix' => ''
     }
   ],
@@ -7843,14 +7971,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rawAlbindiy' => [
+  'ritU^s' => [
     {
       'types' => {},
-      'entry' => 'rawAlbindiy',
-      'form' => 'rawAlbindiy',
+      'entry' => 'rituw^s',
+      'form' => 'rituw^s',
       'lines' => [
-        ';; rawAlobinodiy_1',
-        'rwAlbndy        rawAlobinodiy   N0      Rawalpindi'
+        ';; rituw$_1',
+        'rtw$    rituw$  N       retouch;change;embellishment'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7858,9 +7986,11 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Rawalpindi'
+        'retouch',
+        'change',
+        'embellishment'
       ],
-      'orig' => 'rawAlobinodiy',
+      'orig' => 'rituw$',
       'prefix' => ''
     }
   ],
@@ -8057,6 +8187,27 @@ $Lexicon = {
         'stroke'
       ],
       'orig' => 'rabot',
+      'prefix' => ''
+    }
+  ],
+  'rIt^sArdsUn' => [
+    {
+      'types' => {},
+      'entry' => 'riyt^sArdsuwn',
+      'form' => 'riyt^sArdsuwn',
+      'lines' => [
+        ';; riyto$Ardosuwn_1',
+        'ryt$Ardswn      riyto$Ardosuwn  Nprop   Richardson'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Richardson'
+      ],
+      'orig' => 'riyto$Ardosuwn',
       'prefix' => ''
     }
   ],
@@ -8600,27 +8751,6 @@ $Lexicon = {
         'grinder'
       ],
       'orig' => 'raH~Ay',
-      'prefix' => ''
-    }
-  ],
-  'ra.hbAriyfArd' => [
-    {
-      'types' => {},
-      'entry' => 'ra.hbAriyfArd',
-      'form' => 'ra.hbAriyfArd',
-      'lines' => [
-        ';; raHobAriyfArod_1',
-        'rHbAryfArd      raHobAriyfArod  Nprop   Rahbarifard'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rahbarifard'
-      ],
-      'orig' => 'raHobAriyfArod',
       'prefix' => ''
     }
   ],
@@ -9714,27 +9844,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'riyt^sArd' => [
-    {
-      'types' => {},
-      'entry' => 'riyt^sArd',
-      'form' => 'riyt^sArd',
-      'lines' => [
-        ';; riyto$Arod_1',
-        'ryt$Ard riyto$Arod      Nprop   Richard'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Richard'
-      ],
-      'orig' => 'riyto$Arod',
-      'prefix' => ''
-    }
-  ],
   'r f `' => [
     {
       'types' => {
@@ -10469,32 +10578,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwmA' => [
-    {
-      'types' => {
-        'ruwm' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'ruwmA',
-      'form' => 'ruwmA',
-      'lines' => [
-        ';; ruwmA_1',
-        'rwmA    ruwmA   N0      Rome',
-        'rwm     ruwm    Nap     Rome'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rome'
-      ],
-      'orig' => 'ruwmA',
-      'prefix' => ''
-    }
-  ],
   'r w f r' => [
     {
       'types' => {},
@@ -10581,6 +10664,31 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'AisotiroxA\'',
+      'prefix' => ''
+    }
+  ],
+  'riyInA' => [
+    {
+      'types' => {
+        'riyynA' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'riyiynA',
+      'form' => 'riyiynA',
+      'lines' => [
+        ';; riyiynA_1',
+        'ryynA   riyynA  Nprop   Reina'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Reina'
+      ],
+      'orig' => 'riyiynA',
       'prefix' => ''
     }
   ],
@@ -12173,6 +12281,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'ri^gIm' => [
+    {
+      'types' => {},
+      'entry' => 'ri^giym',
+      'form' => 'ri^giym',
+      'lines' => [
+        ';; rijiym_1',
+        'rjym    rijiym  N       diet'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'diet'
+      ],
+      'orig' => 'rijiym',
+      'prefix' => ''
+    }
+  ],
   'ruway^sid' => [
     {
       'types' => {},
@@ -12825,32 +12954,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwmatizm' => [
-    {
-      'types' => {
-        'ruwmAtizm' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'ruwmatizm',
-      'form' => 'ruwmatizm',
-      'lines' => [
-        ';; ruwmatizm_1',
-        'rwmtzm  ruwmatizm       N       rheumatism',
-        'rwmAtzm ruwmAtizm       N       rheumatism'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'rheumatism'
-      ],
-      'orig' => 'ruwmatizm',
-      'prefix' => ''
-    }
-  ],
   'r f f' => [
     {
       'types' => {
@@ -13442,6 +13545,39 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        '\'arA^giy.h' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'ur^guw.h',
+      'form' => '\'ur^guw.haT',
+      'lines' => [
+        ';; >urojuwHap_1',
+        '>rjwH   >urojuwH        Napdu   seesaw;swing',
+        'ArjwH   >urojuwH        Napdu   seesaw;swing',
+        '>rAjyH  >arAjiyH        Ndip    seesaws;swings',
+        'ArAjyH  >arAjiyH        Ndip    seesaws;swings'
+      ],
+      'patterns' => {
+        '\'arA^giy.h' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'seesaw',
+        'swing',
+        'seesaws',
+        'swings'
+      ],
+      'orig' => 'OurojuwHap',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'rA^gi.h',
       'form' => 'rA^gi.h',
@@ -13750,6 +13886,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rUdUlf' => [
+    {
+      'types' => {},
+      'entry' => 'ruwduwlf',
+      'form' => 'ruwduwlf',
+      'lines' => [
+        ';; ruwduwlof_1',
+        'rwdwlf  ruwduwlof       Nprop   Rudolf'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rudolf'
+      ],
+      'orig' => 'ruwduwlof',
+      'prefix' => ''
+    }
+  ],
   'r ` \'' => [
     {
       'types' => {
@@ -13774,46 +13931,6 @@ $Lexicon = {
         'bucolic'
       ],
       'orig' => 'raEA}iy~',
-      'prefix' => ''
-    }
-  ],
-  'ruwbirt' => [
-    {
-      'types' => {},
-      'entry' => 'ruwbirt',
-      'form' => 'ruwbirt',
-      'lines' => [
-        ';; ruwbirot_1',
-        'rwbrt   ruwbirot        Nprop   Robert'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Robert'
-      ],
-      'orig' => 'ruwbirot',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ruwbirt',
-      'form' => 'ruwbirt',
-      'lines' => [
-        ';; ruwbirot_2',
-        'rwbrt   ruwbirot        Nprop   Rupert'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rupert'
-      ],
-      'orig' => 'ruwbirot',
       'prefix' => ''
     }
   ],
@@ -14089,27 +14206,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'riyuw' => [
-    {
-      'types' => {},
-      'entry' => 'riyuw',
-      'form' => 'riyuw',
-      'lines' => [
-        ';; riyuw_1',
-        'ryw     riyuw   Nprop   Rio'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rio'
-      ],
-      'orig' => 'riyuw',
-      'prefix' => ''
-    }
-  ],
   'r .d w' => [
     {
       'types' => {},
@@ -14150,6 +14246,29 @@ $Lexicon = {
         'satisfaction'
       ],
       'orig' => 'riDowAn',
+      'prefix' => ''
+    }
+  ],
+  'rUman.tIq' => [
+    {
+      'types' => {},
+      'entry' => 'ruwman.tiyq',
+      'form' => 'ruwman.tiyqiyy',
+      'lines' => [
+        ';; ruwmanoTiyqiy~_1',
+        'rwmnTyqy        ruwmanoTiyqiy~  Nall    romantic     [[ruwmanoTiyqiy~/ADJ]]',
+        'rwmnTyqy        ruwmanoTiyqiy~  Nap     romanticism     [[ruwmanoTiyqiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'romantic',
+        'romanticism'
+      ],
+      'orig' => 'ruwmanoTiyqiy~',
       'prefix' => ''
     }
   ],
@@ -15109,27 +15228,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rAnyiyriy' => [
-    {
-      'types' => {},
-      'entry' => 'rAnyiyriy',
-      'form' => 'rAnyiyriy',
-      'lines' => [
-        ';; rAnoyiyriy_1',
-        'rAnyyry rAnoyiyriy      N0      Ranieri'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Ranieri'
-      ],
-      'orig' => 'rAnoyiyriy',
-      'prefix' => ''
-    }
-  ],
   'r \' d' => [
     {
       'types' => {},
@@ -15238,48 +15336,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwdriy^giyz' => [
-    {
-      'types' => {
-        'ruwdriy^giys' => {
-          'Nprop' => 1
-        },
-        'ruwdriy.giyz' => {
-          'Nprop' => 1
-        },
-        'ruwdriy.giys' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'ruwdriy^giyz',
-      'form' => 'ruwdriy^giyz',
-      'lines' => [
-        ';; ruwdoriyjiyz_1',
-        'rwdryjyz        ruwdoriyjiyz    Nprop   Rodriguez',
-        'rwdryjys        ruwdoriyjiys    Nprop   Rodriguez',
-        'rwdrygyz        ruwdoriygiyz    Nprop   Rodriguez',
-        'rwdrygys        ruwdoriygiys    Nprop   Rodriguez'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rodriguez'
-      ],
-      'orig' => 'ruwdoriyjiyz',
-      'prefix' => ''
-    }
-  ],
-  'ridmuwnd' => [
+  'tArI`' => [
     {
       'types' => {},
-      'entry' => 'ridmuwnd',
-      'form' => 'ridmuwnd',
+      'entry' => 'tAriy`',
+      'form' => 'tAriy`',
       'lines' => [
-        ';; ridomuwnod_1',
-        'rdmwnd  ridomuwnod      Nprop   Redmond'
+        ';; tAriyE_1',
+        'tAryE   tAriyE  N       cadastre;survey'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15287,9 +15351,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Redmond'
+        'cadastre',
+        'survey'
       ],
-      'orig' => 'ridomuwnod',
+      'orig' => 'tAriyE',
       'prefix' => ''
     }
   ],
@@ -15315,6 +15380,48 @@ $Lexicon = {
         'robot'
       ],
       'orig' => 'ruwbuwT',
+      'prefix' => ''
+    }
+  ],
+  'rUbinsUn' => [
+    {
+      'types' => {},
+      'entry' => 'ruwbinsuwn',
+      'form' => 'ruwbinsuwn',
+      'lines' => [
+        ';; ruwbinosuwn_1',
+        'rwbnswn ruwbinosuwn     N0      Robinson'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Robinson'
+      ],
+      'orig' => 'ruwbinosuwn',
+      'prefix' => ''
+    }
+  ],
+  'ridmUnd' => [
+    {
+      'types' => {},
+      'entry' => 'ridmuwnd',
+      'form' => 'ridmuwnd',
+      'lines' => [
+        ';; ridomuwnod_1',
+        'rdmwnd  ridomuwnod      Nprop   Redmond'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Redmond'
+      ],
+      'orig' => 'ridomuwnod',
       'prefix' => ''
     }
   ],
@@ -15360,6 +15467,104 @@ $Lexicon = {
         'halters'
       ],
       'orig' => 'rasan',
+      'prefix' => ''
+    }
+  ],
+  '\'arba`In' => [
+    {
+      'types' => {
+        '\'arba`iyn' => {
+          'NAt' => 2
+        }
+      },
+      'entry' => '\'arba`iyn',
+      'form' => '\'arba`iyn',
+      'lines' => [
+        ';; >arobaEiyn_1',
+        '>rbEyn  >arobaEiyn      NAt     forties',
+        'ArbEyn  >arobaEiyn      NAt     forties'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'forties'
+      ],
+      'orig' => 'OarobaEiyn',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'arba`iyniyy' => {
+          'NAt' => 2
+        }
+      },
+      'entry' => '\'arba`iyn',
+      'form' => '\'arba`iyniyy',
+      'lines' => [
+        ';; >arobaEiyniy~_1',
+        '>rbEyny >arobaEiyniy~   NAt     forties     [[>arobaEiyniy~/NOUN]]',
+        'ArbEyny >arobaEiyniy~   NAt     forties     [[>arobaEiyniy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'forties'
+      ],
+      'orig' => 'OarobaEiyniy~',
+      'prefix' => ''
+    }
+  ],
+  'rInU' => [
+    {
+      'types' => {
+        'rynw' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'riynuw',
+      'form' => 'riynuw',
+      'lines' => [
+        ';; riynuw_1',
+        'rynw    rynw    Nprop   Renault'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Renault'
+      ],
+      'orig' => 'riynuw',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'rynw' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'riynuw',
+      'form' => 'riynuw',
+      'lines' => [
+        ';; riynuw_2',
+        'rynw    rynw    Nprop   Reno'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Reno'
+      ],
+      'orig' => 'riynuw',
       'prefix' => ''
     }
   ],
@@ -17304,6 +17509,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'ra.hbArIfArd' => [
+    {
+      'types' => {},
+      'entry' => 'ra.hbAriyfArd',
+      'form' => 'ra.hbAriyfArd',
+      'lines' => [
+        ';; raHobAriyfArod_1',
+        'rHbAryfArd      raHobAriyfArod  Nprop   Rahbarifard'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rahbarifard'
+      ],
+      'orig' => 'raHobAriyfArod',
+      'prefix' => ''
+    }
+  ],
   'r t q' => [
     {
       'types' => {
@@ -17376,29 +17602,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rituw^s' => [
-    {
-      'types' => {},
-      'entry' => 'rituw^s',
-      'form' => 'rituw^s',
-      'lines' => [
-        ';; rituw$_1',
-        'rtw$    rituw$  N       retouch;change;embellishment'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'retouch',
-        'change',
-        'embellishment'
-      ],
-      'orig' => 'rituw$',
-      'prefix' => ''
-    }
-  ],
   'r y n h' => [
     {
       'types' => {},
@@ -17438,31 +17641,6 @@ $Lexicon = {
         'ashlar (thin slabs of stone)'
       ],
       'orig' => 'raDom',
-      'prefix' => ''
-    }
-  ],
-  'ridin^guwt' => [
-    {
-      'types' => {
-        'ridin^guwt' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'ridin^guwt',
-      'form' => 'ridin^guwt',
-      'lines' => [
-        ';; ridinojuwt_1',
-        'rdnjwt  ridinojuwt      NduAt   frock coat'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'frock coat'
-      ],
-      'orig' => 'ridinojuwt',
       'prefix' => ''
     }
   ],
@@ -18258,56 +18436,6 @@ $Lexicon = {
         'trembling'
       ],
       'orig' => 'murotaEid',
-      'prefix' => ''
-    }
-  ],
-  '\'arba`iyn' => [
-    {
-      'types' => {
-        '\'arba`iyn' => {
-          'NAt' => 2
-        }
-      },
-      'entry' => '\'arba`iyn',
-      'form' => '\'arba`iyn',
-      'lines' => [
-        ';; >arobaEiyn_1',
-        '>rbEyn  >arobaEiyn      NAt     forties',
-        'ArbEyn  >arobaEiyn      NAt     forties'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'forties'
-      ],
-      'orig' => 'OarobaEiyn',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'arba`iyniyy' => {
-          'NAt' => 2
-        }
-      },
-      'entry' => '\'arba`iyn',
-      'form' => '\'arba`iyniyy',
-      'lines' => [
-        ';; >arobaEiyniy~_1',
-        '>rbEyny >arobaEiyniy~   NAt     forties     [[>arobaEiyniy~/NOUN]]',
-        'ArbEyny >arobaEiyniy~   NAt     forties     [[>arobaEiyniy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'forties'
-      ],
-      'orig' => 'OarobaEiyniy~',
       'prefix' => ''
     }
   ],
@@ -19219,70 +19347,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ratiyna^g' => [
-    {
-      'types' => {},
-      'entry' => 'ratiyna^g',
-      'form' => 'ratiyna^g',
-      'lines' => [
-        ';; ratiynaj_1',
-        'rtynj   ratiynaj        N       resin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'resin'
-      ],
-      'orig' => 'ratiynaj',
-      'prefix' => ''
-    }
-  ],
-  'ruwbirtuw' => [
-    {
-      'types' => {},
-      'entry' => 'ruwbirtuw',
-      'form' => 'ruwbirtuw',
-      'lines' => [
-        ';; ruwbirotuw_1',
-        'rwbrtw  ruwbirotuw      Nprop   Roberto'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Roberto'
-      ],
-      'orig' => 'ruwbirotuw',
-      'prefix' => ''
-    }
-  ],
-  'rAbiynuwfiyt^s' => [
-    {
-      'types' => {},
-      'entry' => 'rAbiynuwfiyt^s',
-      'form' => 'rAbiynuwfiyt^s',
-      'lines' => [
-        ';; rAbiynuwfiyt$_1',
-        'rAbynwfyt$      rAbiynuwfiyt$   N0      Rabinovich;Rabinovitch'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rabinovich',
-        'Rabinovitch'
-      ],
-      'orig' => 'rAbiynuwfiyt$',
-      'prefix' => ''
-    }
-  ],
   'r ` y' => [
     {
       'types' => {
@@ -19804,6 +19868,27 @@ $Lexicon = {
         'complied with'
       ],
       'orig' => 'maroEiy~',
+      'prefix' => ''
+    }
+  ],
+  'rUmAniyA' => [
+    {
+      'types' => {},
+      'entry' => 'ruwmAniyA',
+      'form' => 'ruwmAniyA',
+      'lines' => [
+        ';; ruwmAniyA_1',
+        'rwmAnyA ruwmAniyA       N0      Romania'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Romania'
+      ],
+      'orig' => 'ruwmAniyA',
       'prefix' => ''
     }
   ],
@@ -20356,27 +20441,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rA.hiyl' => [
-    {
-      'types' => {},
-      'entry' => 'rA.hiyl',
-      'form' => 'rA.hiyl',
-      'lines' => [
-        ';; rAHiyl_1',
-        'rAHyl   rAHiyl  Ndip    Rachel'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rachel'
-      ],
-      'orig' => 'rAHiyl',
-      'prefix' => ''
-    }
-  ],
   'r b .g' => [
     {
       'types' => {},
@@ -20468,6 +20532,31 @@ $Lexicon = {
         'swaying'
       ],
       'orig' => 'rajorAj',
+      'prefix' => ''
+    }
+  ],
+  'rIkUrdar' => [
+    {
+      'types' => {
+        'riykuwrdar' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'riykuwrdar',
+      'form' => 'riykuwrdar',
+      'lines' => [
+        ';; riykuwrodar_1',
+        'rykwrdr riykuwrodar     N/At    tape recorder'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'tape recorder'
+      ],
+      'orig' => 'riykuwrodar',
       'prefix' => ''
     }
   ],
@@ -21533,29 +21622,6 @@ $Lexicon = {
         'conciliatory'
       ],
       'orig' => 'AisotiroDA}iy~',
-      'prefix' => ''
-    }
-  ],
-  'ruwman.tiyq' => [
-    {
-      'types' => {},
-      'entry' => 'ruwman.tiyq',
-      'form' => 'ruwman.tiyqiyy',
-      'lines' => [
-        ';; ruwmanoTiyqiy~_1',
-        'rwmnTyqy        ruwmanoTiyqiy~  Nall    romantic     [[ruwmanoTiyqiy~/ADJ]]',
-        'rwmnTyqy        ruwmanoTiyqiy~  Nap     romanticism     [[ruwmanoTiyqiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'romantic',
-        'romanticism'
-      ],
-      'orig' => 'ruwmanoTiyqiy~',
       'prefix' => ''
     }
   ],
@@ -23006,6 +23072,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rUsiyA' => [
+    {
+      'types' => {},
+      'entry' => 'ruwsiyA',
+      'form' => 'ruwsiyA',
+      'lines' => [
+        ';; ruwsiyA_1',
+        'rwsyA   ruwsiyA N0      Russia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Russia'
+      ],
+      'orig' => 'ruwsiyA',
+      'prefix' => ''
+    }
+  ],
   'r y n' => [
     {
       'types' => {},
@@ -23103,51 +23190,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'rivA\'',
-      'prefix' => ''
-    }
-  ],
-  'riymuwnd' => [
-    {
-      'types' => {},
-      'entry' => 'riymuwnd',
-      'form' => 'riymuwnd',
-      'lines' => [
-        ';; riymuwnd_1',
-        'rymwnd  riymuwnd        Nprop   Raymond'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Raymond'
-      ],
-      'orig' => 'riymuwnd',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'raymuwndaT' => {
-          'Nprop' => 2
-        }
-      },
-      'entry' => 'riymuwnd',
-      'form' => 'riymuwndaT',
-      'lines' => [
-        ';; riymuwndap_1',
-        'rymwndp rayomuwndap     Nprop   Raimonda',
-        'rymwndh rayomuwndap     Nprop   Raimonda'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'Raimonda'
-      ],
-      'orig' => 'riymuwndap',
       'prefix' => ''
     }
   ],
@@ -23291,6 +23333,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rAbIn' => [
+    {
+      'types' => {},
+      'entry' => 'rAbiyn',
+      'form' => 'rAbiyn',
+      'lines' => [
+        ';; rAbiyn_1',
+        'rAbyn   rAbiyn  Nprop   Rabin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rabin'
+      ],
+      'orig' => 'rAbiyn',
+      'prefix' => ''
+    }
+  ],
+  'rUmAnUs' => [
+    {
+      'types' => {},
+      'entry' => 'ruwmAnuws',
+      'form' => 'ruwmAnuws',
+      'lines' => [
+        ';; ruwmAnuws_1',
+        'rwmAnws ruwmAnuws       Nprop   Romanos'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Romanos'
+      ],
+      'orig' => 'ruwmAnuws',
+      'prefix' => ''
+    }
+  ],
   'r _t y' => [
     {
       'types' => {},
@@ -23381,6 +23465,27 @@ $Lexicon = {
         'report'
       ],
       'orig' => 'rAbuwr',
+      'prefix' => ''
+    }
+  ],
+  'rAbId' => [
+    {
+      'types' => {},
+      'entry' => 'rAbiyd',
+      'form' => 'rAbiyd',
+      'lines' => [
+        ';; rAbiyd_1',
+        'rAbyd   rAbiyd  Nprop   Rapid'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rapid'
+      ],
+      'orig' => 'rAbiyd',
       'prefix' => ''
     }
   ],
@@ -24462,28 +24567,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'riyfkind' => [
-    {
-      'types' => {},
-      'entry' => 'riyfkind',
-      'form' => 'riyfkind',
-      'lines' => [
-        ';; riyfokinod_1',
-        'ryfknd  riyfokinod      Nprop   Rivkind;Rifkind'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rivkind',
-        'Rifkind'
-      ],
-      'orig' => 'riyfokinod',
-      'prefix' => ''
-    }
-  ],
   'r w ^s n' => [
     {
       'types' => {
@@ -24514,27 +24597,6 @@ $Lexicon = {
         'peep-holes'
       ],
       'orig' => 'rawo$an',
-      'prefix' => ''
-    }
-  ],
-  'rA^gkuwmAr' => [
-    {
-      'types' => {},
-      'entry' => 'rA^gkuwmAr',
-      'form' => 'rA^gkuwmAr',
-      'lines' => [
-        ';; rAjokuwmAr_1',
-        'rAjkwmAr        rAjokuwmAr      Nprop   Rajkumar'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rajkumar'
-      ],
-      'orig' => 'rAjokuwmAr',
       'prefix' => ''
     }
   ],
@@ -25079,6 +25141,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'ribUrtA^g' => [
+    {
+      'types' => {
+        'ribuwrtA^g' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'ribuwrtA^g',
+      'form' => 'ribuwrtA^g',
+      'lines' => [
+        ';; ribuwrotAj_1',
+        'rbwrtAj ribuwrotAj      N/At    report;news reporting'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'report',
+        'news reporting'
+      ],
+      'orig' => 'ribuwrotAj',
+      'prefix' => ''
+    }
+  ],
   'r ` .s' => [
     {
       'types' => {
@@ -25427,6 +25515,46 @@ $Lexicon = {
         'Rumsfeld'
       ],
       'orig' => 'ramsofild',
+      'prefix' => ''
+    }
+  ],
+  'rIfyIrA' => [
+    {
+      'types' => {},
+      'entry' => 'riyfyiyrA',
+      'form' => 'riyfyiyrA',
+      'lines' => [
+        ';; riyfoyiyrA_1',
+        'ryfyyrA riyfoyiyrA      N0      riviera'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'riviera'
+      ],
+      'orig' => 'riyfoyiyrA',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'riyfyiyrA',
+      'form' => 'riyfyiyrA',
+      'lines' => [
+        ';; riyfoyiyrA_2',
+        'ryfyyrA riyfoyiyrA      N0      Riviera'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Riviera'
+      ],
+      'orig' => 'riyfoyiyrA',
       'prefix' => ''
     }
   ],
@@ -26666,18 +26794,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'riykuwrdar' => [
+  'rUmIdAl' => [
     {
-      'types' => {
-        'riykuwrdar' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'riykuwrdar',
-      'form' => 'riykuwrdar',
+      'types' => {},
+      'entry' => 'ruwmiydAl',
+      'form' => 'ruwmiydAl',
       'lines' => [
-        ';; riykuwrodar_1',
-        'rykwrdr riykuwrodar     N/At    tape recorder'
+        ';; ruwmiydAl_1',
+        'rwmydAl ruwmiydAl       N0      Romedal'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26685,9 +26809,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'tape recorder'
+        'Romedal'
       ],
-      'orig' => 'riykuwrodar',
+      'orig' => 'ruwmiydAl',
       'prefix' => ''
     }
   ],
@@ -26709,6 +26833,73 @@ $Lexicon = {
         'roof garden'
       ],
       'orig' => 'ruwf',
+      'prefix' => ''
+    }
+  ],
+  'rUfA\'Il' => [
+    {
+      'types' => {},
+      'entry' => 'ruwfA\'iyl',
+      'form' => 'ruwfA\'iyl',
+      'lines' => [
+        ';; ruwfA}iyl_1',
+        'rwfA}yl ruwfA}iyl       Nprop   Rufa\'il;Raphael'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rufa\'il',
+        'Raphael'
+      ],
+      'orig' => 'ruwfA}iyl',
+      'prefix' => ''
+    }
+  ],
+  'rImUnd' => [
+    {
+      'types' => {},
+      'entry' => 'riymuwnd',
+      'form' => 'riymuwnd',
+      'lines' => [
+        ';; riymuwnd_1',
+        'rymwnd  riymuwnd        Nprop   Raymond'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Raymond'
+      ],
+      'orig' => 'riymuwnd',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'raymuwndaT' => {
+          'Nprop' => 2
+        }
+      },
+      'entry' => 'riymuwnd',
+      'form' => 'riymuwndaT',
+      'lines' => [
+        ';; riymuwndap_1',
+        'rymwndp rayomuwndap     Nprop   Raimonda',
+        'rymwndh rayomuwndap     Nprop   Raimonda'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'Raimonda'
+      ],
+      'orig' => 'riymuwndap',
       'prefix' => ''
     }
   ],
@@ -26947,6 +27138,29 @@ $Lexicon = {
         'heavy losses'
       ],
       'orig' => 'raziy}ap',
+      'prefix' => ''
+    }
+  ],
+  'rUmAntIk' => [
+    {
+      'types' => {},
+      'entry' => 'ruwmAntiyk',
+      'form' => 'ruwmAntiykiyy',
+      'lines' => [
+        ';; ruwmAnotiykiy~_1',
+        'rwmAntyky       ruwmAnotiykiy~  Nall    romantic     [[ruwmAnotiykiy~/ADJ]]',
+        'rwmAntyky       ruwmAnotiykiy~  Nap     romanticism     [[ruwmAnotiykiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'romantic',
+        'romanticism'
+      ],
+      'orig' => 'ruwmAnotiykiy~',
       'prefix' => ''
     }
   ],
@@ -27595,27 +27809,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'riybrAt^sA' => [
-    {
-      'types' => {},
-      'entry' => 'riybrAt^sA',
-      'form' => 'riybrAt^sA',
-      'lines' => [
-        ';; riybrAt$A_1',
-        'rybrAt$A        riybrAt$A       Nprop   Rebraca'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rebraca'
-      ],
-      'orig' => 'riybrAt$A',
-      'prefix' => ''
-    }
-  ],
   'rwn' => [
     {
       'types' => {},
@@ -27921,6 +28114,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'ridin^gUt' => [
+    {
+      'types' => {
+        'ridin^guwt' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'ridin^guwt',
+      'form' => 'ridin^guwt',
+      'lines' => [
+        ';; ridinojuwt_1',
+        'rdnjwt  ridinojuwt      NduAt   frock coat'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'frock coat'
+      ],
+      'orig' => 'ridinojuwt',
+      'prefix' => ''
+    }
+  ],
   'r m k' => [
     {
       'types' => {
@@ -28077,36 +28295,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'riyntiyrA' => [
-    {
-      'types' => {
-        'riyntiriyA' => {
-          'Nprop' => 1
-        },
-        'riyntiyriyA' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'riyntiyrA',
-      'form' => 'riyntiyrA',
-      'lines' => [
-        ';; riynotiyrA_1',
-        'ryntyrA riynotiyrA      Nprop   Renteria',
-        'ryntryA riynotiriyA     Nprop   Renteria',
-        'ryntyryA        riynotiyriyA    Nprop   Renteria'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Renteria'
-      ],
-      'orig' => 'riynotiyrA',
-      'prefix' => ''
-    }
-  ],
   'r n q' => [
     {
       'types' => {
@@ -28181,14 +28369,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwziyt^s' => [
+  'rUytir' => [
     {
       'types' => {},
-      'entry' => 'ruwziyt^s',
-      'form' => 'ruwziyt^s',
+      'entry' => 'ruwytir',
+      'form' => 'ruwytir',
       'lines' => [
-        ';; ruwziyt$_1',
-        'rwzyt$  ruwziyt$        Nprop   Rosic'
+        ';; ruwyotir_1',
+        'rwytr   ruwyotir        Nprop   Reuters'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28196,9 +28384,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Rosic'
+        'Reuters'
       ],
-      'orig' => 'ruwziyt$',
+      'orig' => 'ruwyotir',
       'prefix' => ''
     }
   ],
@@ -28221,6 +28409,32 @@ $Lexicon = {
         'until'
       ],
       'orig' => 'rayovamA',
+      'prefix' => ''
+    }
+  ],
+  'rUzfilt' => [
+    {
+      'types' => {
+        'ruwzfiylt' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'ruwzfilt',
+      'form' => 'ruwzfilt',
+      'lines' => [
+        ';; ruwzofilot_1',
+        'rwzflt  ruwzofilot      N0      Roosevelt',
+        'rwzfylt ruwzofiylot     N0      Roosevelt'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Roosevelt'
+      ],
+      'orig' => 'ruwzofilot',
       'prefix' => ''
     }
   ],
@@ -28470,18 +28684,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'riybuwrtA^g' => [
+  'rIt^sArd' => [
     {
-      'types' => {
-        'riybuwrtA^g' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'riybuwrtA^g',
-      'form' => 'riybuwrtA^g',
+      'types' => {},
+      'entry' => 'riyt^sArd',
+      'form' => 'riyt^sArd',
       'lines' => [
-        ';; riybuwrotAj_1',
-        'rybwrtAj        riybuwrotAj     N/At    report;news reporting'
+        ';; riyto$Arod_1',
+        'ryt$Ard riyto$Arod      Nprop   Richard'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28489,10 +28699,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'report',
-        'news reporting'
+        'Richard'
       ],
-      'orig' => 'riybuwrotAj',
+      'orig' => 'riyto$Arod',
       'prefix' => ''
     }
   ],
@@ -28816,6 +29025,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rawAlbindI' => [
+    {
+      'types' => {},
+      'entry' => 'rawAlbindiy',
+      'form' => 'rawAlbindiy',
+      'lines' => [
+        ';; rawAlobinodiy_1',
+        'rwAlbndy        rawAlobinodiy   N0      Rawalpindi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rawalpindi'
+      ],
+      'orig' => 'rawAlobinodiy',
+      'prefix' => ''
+    }
+  ],
   'r w ^g' => [
     {
       'types' => {
@@ -29034,14 +29264,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rAdiyuwm' => [
+  'rA^sIfskI' => [
     {
       'types' => {},
-      'entry' => 'rAdiyuwm',
-      'form' => 'rAdiyuwm',
+      'entry' => 'rA^siyfskiy',
+      'form' => 'rA^siyfskiy',
       'lines' => [
-        ';; rAdiyuwm_1',
-        'rAdywm  rAdiyuwm        N       radium'
+        ';; rA$iyfskiy_1',
+        'rA$yfsky        rA$iyfskiy      Nprop   Rashevsky'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29049,18 +29279,21 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'radium'
+        'Rashevsky'
       ],
-      'orig' => 'rAdiyuwm',
+      'orig' => 'rA$iyfskiy',
       'prefix' => ''
-    },
+    }
+  ],
+  'rUmAn.tIq' => [
     {
       'types' => {},
-      'entry' => 'rAdiyuwm',
-      'form' => 'rAdiyuwmiyy',
+      'entry' => 'ruwmAn.tiyq',
+      'form' => 'ruwmAn.tiyqiyy',
       'lines' => [
-        ';; rAdiyuwmiy~_1',
-        'rAdywmy rAdiyuwmiy~     Nall    radium     [[rAdiyuwmiy~/ADJ]]'
+        ';; ruwmAnoTiyqiy~_1',
+        'rwmAnTyqy       ruwmAnoTiyqiy~  Nall    romantic     [[ruwmAnoTiyqiy~/ADJ]]',
+        'rwmAnTyqy       ruwmAnoTiyqiy~  Nap     romanticism     [[ruwmAnoTiyqiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29068,30 +29301,10 @@ $Lexicon = {
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'radium'
+        'romantic',
+        'romanticism'
       ],
-      'orig' => 'rAdiyuwmiy~',
-      'prefix' => ''
-    }
-  ],
-  'ruwkits' => [
-    {
-      'types' => {},
-      'entry' => 'ruwkits',
-      'form' => 'ruwkits',
-      'lines' => [
-        ';; ruwkits_1',
-        'rwkts   ruwkits Nprop   Rockets'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rockets'
-      ],
-      'orig' => 'ruwkits',
+      'orig' => 'ruwmAnoTiyqiy~',
       'prefix' => ''
     }
   ],
@@ -29116,14 +29329,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwmAnuws' => [
+  'rAdiyU' => [
     {
-      'types' => {},
-      'entry' => 'ruwmAnuws',
-      'form' => 'ruwmAnuws',
+      'types' => {
+        'rAdiyuwh' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'rAdiyuw',
+      'form' => 'rAdiyuw',
       'lines' => [
-        ';; ruwmAnuws_1',
-        'rwmAnws ruwmAnuws       Nprop   Romanos'
+        ';; rAdiyuw_1',
+        'rAdyw   rAdiyuw N0      radio',
+        'rAdywh  rAdiyuwh        NAt     radios'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29131,9 +29349,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Romanos'
+        'radio',
+        'radios'
       ],
-      'orig' => 'ruwmAnuws',
+      'orig' => 'rAdiyuw',
       'prefix' => ''
     }
   ],
@@ -30007,6 +30226,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rU^gIriyU' => [
+    {
+      'types' => {},
+      'entry' => 'ruw^giyriyuw',
+      'form' => 'ruw^giyriyuw',
+      'lines' => [
+        ';; ruwjiyriyuw_1',
+        'rwjyryw ruwjiyriyuw     Nprop   Rogerio'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rogerio'
+      ],
+      'orig' => 'ruwjiyriyuw',
+      'prefix' => ''
+    }
+  ],
   'r h ^g' => [
     {
       'types' => {},
@@ -30046,6 +30286,40 @@ $Lexicon = {
         'Reiner'
       ],
       'orig' => 'rAyonir',
+      'prefix' => ''
+    }
+  ],
+  'rU^sitt' => [
+    {
+      'types' => {
+        'ru^siyttah' => {
+          'N' => 1
+        },
+        'ru^sitt' => {
+          'NapAt' => 1
+        },
+        'ru^siytt' => {
+          'NapAt' => 1
+        }
+      },
+      'entry' => 'ruw^sitt',
+      'form' => 'ruw^sittaT',
+      'lines' => [
+        ';; ruw$it~ap_1',
+        'rw$t    ruw$it~ NapAt   medical prescription',
+        'r$yt    ru$iyt~ NapAt   medical prescription',
+        'r$yth   ru$iyt~ah       N       medical prescription',
+        'r$t     ru$it~  NapAt   medical prescription'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'medical prescription'
+      ],
+      'orig' => 'ruw$it~ap',
       'prefix' => ''
     }
   ],
@@ -31225,14 +31499,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rAmAkriy^snA' => [
+  'rUmatizm' => [
     {
-      'types' => {},
-      'entry' => 'rAmAkriy^snA',
-      'form' => 'rAmAkriy^snA',
+      'types' => {
+        'ruwmAtizm' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'ruwmatizm',
+      'form' => 'ruwmatizm',
       'lines' => [
-        ';; rAmAkriy$onA_1',
-        'rAmAkry$nA      rAmAkriy$onA    N0      Ramakrishna'
+        ';; ruwmatizm_1',
+        'rwmtzm  ruwmatizm       N       rheumatism',
+        'rwmAtzm ruwmAtizm       N       rheumatism'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31240,30 +31519,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Ramakrishna'
+        'rheumatism'
       ],
-      'orig' => 'rAmAkriy$onA',
-      'prefix' => ''
-    }
-  ],
-  'ruwAnuw' => [
-    {
-      'types' => {},
-      'entry' => 'ruwAnuw',
-      'form' => 'ruwAnuw',
-      'lines' => [
-        ';; ruwAnuw_1',
-        'rwAnw   ruwAnuw Nprop   Ruano'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Ruano'
-      ],
-      'orig' => 'ruwAnuw',
+      'orig' => 'ruwmatizm',
       'prefix' => ''
     }
   ],
@@ -31973,6 +32231,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rU^giyih' => [
+    {
+      'types' => {},
+      'entry' => 'ruw^giyih',
+      'form' => 'ruw^giyih',
+      'lines' => [
+        ';; ruwjiyih_1',
+        'rwjyh   ruwjiyih        Nprop   Rogier'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rogier'
+      ],
+      'orig' => 'ruwjiyih',
+      'prefix' => ''
+    }
+  ],
   'r .d .d' => [
     {
       'types' => {
@@ -32539,6 +32818,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rIbUrtA^g' => [
+    {
+      'types' => {
+        'riybuwrtA^g' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'riybuwrtA^g',
+      'form' => 'riybuwrtA^g',
+      'lines' => [
+        ';; riybuwrotAj_1',
+        'rybwrtAj        riybuwrotAj     N/At    report;news reporting'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'report',
+        'news reporting'
+      ],
+      'orig' => 'riybuwrotAj',
+      'prefix' => ''
+    }
+  ],
   'r w b t' => [
     {
       'types' => {
@@ -32945,14 +33250,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwdiysiyA' => [
+  'rAdUfAn' => [
     {
       'types' => {},
-      'entry' => 'ruwdiysiyA',
-      'form' => 'ruwdiysiyA',
+      'entry' => 'rAduwfAn',
+      'form' => 'rAduwfAn',
       'lines' => [
-        ';; ruwdiysiyA_1',
-        'rwdysyA ruwdiysiyA      N0      Rhodesia'
+        ';; rAduwfAn_1',
+        'rAdwfAn rAduwfAn        Nprop   Radovan'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32960,9 +33265,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Rhodesia'
+        'Radovan'
       ],
-      'orig' => 'ruwdiysiyA',
+      'orig' => 'rAduwfAn',
       'prefix' => ''
     }
   ],
@@ -33050,27 +33355,6 @@ $Lexicon = {
         'radio'
       ],
       'orig' => 'rAdoyawiy~',
-      'prefix' => ''
-    }
-  ],
-  'ri^giym' => [
-    {
-      'types' => {},
-      'entry' => 'ri^giym',
-      'form' => 'ri^giym',
-      'lines' => [
-        ';; rijiym_1',
-        'rjym    rijiym  N       diet'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'diet'
-      ],
-      'orig' => 'rijiym',
       'prefix' => ''
     }
   ],
@@ -33601,6 +33885,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rUnAldU' => [
+    {
+      'types' => {},
+      'entry' => 'ruwnAlduw',
+      'form' => 'ruwnAlduw',
+      'lines' => [
+        ';; ruwnAloduw_1',
+        'rwnAldw ruwnAloduw      Nprop   Ronaldo'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Ronaldo'
+      ],
+      'orig' => 'ruwnAloduw',
+      'prefix' => ''
+    }
+  ],
   'rAwand' => [
     {
       'types' => {},
@@ -33619,48 +33924,6 @@ $Lexicon = {
         'rhubarb'
       ],
       'orig' => 'rAwanod',
-      'prefix' => ''
-    }
-  ],
-  'riyuwzuw' => [
-    {
-      'types' => {},
-      'entry' => 'riyuwzuw',
-      'form' => 'riyuwzuw',
-      'lines' => [
-        ';; riyuwzuw_1',
-        'rywzw   riyuwzuw        Nprop   Ryuzo'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Ryuzo'
-      ],
-      'orig' => 'riyuwzuw',
-      'prefix' => ''
-    }
-  ],
-  'riyt^sArdsuwn' => [
-    {
-      'types' => {},
-      'entry' => 'riyt^sArdsuwn',
-      'form' => 'riyt^sArdsuwn',
-      'lines' => [
-        ';; riyto$Ardosuwn_1',
-        'ryt$Ardswn      riyto$Ardosuwn  Nprop   Richardson'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Richardson'
-      ],
-      'orig' => 'riyto$Ardosuwn',
       'prefix' => ''
     }
   ],
@@ -33760,50 +34023,34 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ribuwrtA^g' => [
+  'rAtIn' => [
     {
       'types' => {
-        'ribuwrtA^g' => {
-          'NAt' => 1
+        'ratiyn' => {
+          'Nap' => 1
+        },
+        'ratA\'in' => {
+          'Ndip' => 1
         }
       },
-      'entry' => 'ribuwrtA^g',
-      'form' => 'ribuwrtA^g',
+      'entry' => 'rAtiyn',
+      'form' => 'rAtiynaT',
       'lines' => [
-        ';; ribuwrotAj_1',
-        'rbwrtAj ribuwrotAj      N/At    report;news reporting'
+        ';; rAtiynap_1',
+        'rtyn    ratiyn  Nap     mantle (on incandescent lamp)',
+        'rAtyn   rAtiyn  Nap     mantle (on incandescent lamp)',
+        'rtA}n   ratA}in Ndip    mantles (on incandescent lamps)'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
-        'report',
-        'news reporting'
+        'mantle (on incandescent lamp)',
+        'mantles (on incandescent lamps)'
       ],
-      'orig' => 'ribuwrotAj',
-      'prefix' => ''
-    }
-  ],
-  'rAtiyna^g' => [
-    {
-      'types' => {},
-      'entry' => 'rAtiyna^g',
-      'form' => 'rAtiyna^g',
-      'lines' => [
-        ';; rAtiynaj_1',
-        'rAtynj  rAtiynaj        N       resin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'resin'
-      ],
-      'orig' => 'rAtiynaj',
+      'orig' => 'rAtiynap',
       'prefix' => ''
     }
   ],
@@ -34525,48 +34772,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwstuwk' => [
-    {
-      'types' => {},
-      'entry' => 'ruwstuwk',
-      'form' => 'ruwstuwk',
-      'lines' => [
-        ';; ruwsotuwk_1',
-        'rwstwk  ruwsotuwk       Nprop   Rostock'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rostock'
-      ],
-      'orig' => 'ruwsotuwk',
-      'prefix' => ''
-    }
-  ],
-  'riy^stir' => [
-    {
-      'types' => {},
-      'entry' => 'riy^stir',
-      'form' => 'riy^stir',
-      'lines' => [
-        ';; riy$otir_1',
-        'ry$tr   riy$otir        N0      Richter'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Richter'
-      ],
-      'orig' => 'riy$otir',
-      'prefix' => ''
-    }
-  ],
   'r w s' => [
     {
       'types' => {
@@ -34718,32 +34923,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwzfilt' => [
-    {
-      'types' => {
-        'ruwzfiylt' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'ruwzfilt',
-      'form' => 'ruwzfilt',
-      'lines' => [
-        ';; ruwzofilot_1',
-        'rwzflt  ruwzofilot      N0      Roosevelt',
-        'rwzfylt ruwzofiylot     N0      Roosevelt'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Roosevelt'
-      ],
-      'orig' => 'ruwzofilot',
-      'prefix' => ''
-    }
-  ],
   'r w d y' => [
     {
       'types' => {},
@@ -34834,56 +35013,6 @@ $Lexicon = {
         'dung'
       ],
       'orig' => 'rawov',
-      'prefix' => ''
-    }
-  ],
-  'ruwmAns' => [
-    {
-      'types' => {
-        'ruwmansiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'ruwmAns',
-      'form' => 'ruwmAnsiyy',
-      'lines' => [
-        ';; ruwmAnosiy~_1',
-        'rwmAnsy ruwmAnosiy~     Nall    romantic     [[ruwmAnosiy~/ADJ]]',
-        'rwmnsy  ruwmanosiy~     Nall    romantic     [[ruwmAnosiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'romantic'
-      ],
-      'orig' => 'ruwmAnosiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ruwmansiyy' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'ruwmAns',
-      'form' => 'ruwmAnsiyyaT',
-      'lines' => [
-        ';; ruwmAnosiy~ap_1',
-        'rwmAnsy ruwmAnosiy~     Nap     romanticism     [[ruwmAnosiy~/NOUN]]',
-        'rwmnsy  ruwmanosiy~     Nap     romanticism     [[ruwmAnosiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'romanticism'
-      ],
-      'orig' => 'ruwmAnosiy~ap',
       'prefix' => ''
     }
   ],
@@ -35291,77 +35420,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rynw' => [
-    {
-      'types' => {},
-      'entry' => 'rynw',
-      'form' => 'rynw',
-      'lines' => [
-        ';; rynw_1',
-        'rynw    rynw    Nprop   Renault'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Renault'
-      ],
-      'orig' => 'rynw',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'rynw',
-      'form' => 'rynw',
-      'lines' => [
-        ';; rynw_2',
-        'rynw    rynw    Nprop   Reno'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Reno'
-      ],
-      'orig' => 'rynw',
-      'prefix' => ''
-    }
-  ],
-  '\'ur^guwz' => [
-    {
-      'types' => {
-        '\'arA^giyz' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'ur^guwz',
-      'form' => '\'ur^guwzaT',
-      'lines' => [
-        ';; >urojuwzap_1',
-        '>rjwz   >urojuwz        Napdu   rajaz poem;work song',
-        'Arjwz   >urojuwz        Napdu   rajaz poem;work song',
-        '>rAjyz  >arAjiyz        Ndip    rajaz poems;work songs',
-        'ArAjyz  >arAjiyz        Ndip    rajaz poems;work songs'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'rajaz poem',
-        'work song',
-        'rajaz poems',
-        'work songs'
-      ],
-      'orig' => 'Ourojuwzap',
-      'prefix' => ''
-    }
-  ],
   'r .d b' => [
     {
       'types' => {},
@@ -35381,27 +35439,6 @@ $Lexicon = {
         'spittle'
       ],
       'orig' => 'ruDAb',
-      'prefix' => ''
-    }
-  ],
-  'ruwduwlf' => [
-    {
-      'types' => {},
-      'entry' => 'ruwduwlf',
-      'form' => 'ruwduwlf',
-      'lines' => [
-        ';; ruwduwlof_1',
-        'rwdwlf  ruwduwlof       Nprop   Rudolf'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rudolf'
-      ],
-      'orig' => 'ruwduwlof',
       'prefix' => ''
     }
   ],
@@ -36765,14 +36802,35 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rAbtuwrz' => [
+  'rAdiyUlU^g' => [
     {
       'types' => {},
-      'entry' => 'rAbtuwrz',
-      'form' => 'rAbtuwrz',
+      'entry' => 'rAdiyuwluw^g',
+      'form' => 'rAdiyuwluw^giyy',
       'lines' => [
-        ';; rAbtuwrz_1',
-        'rAbtwrz rAbtuwrz        Nprop   Raptors'
+        ';; rAdiyuwluwjiy~_1',
+        'rAdywlwjy       rAdiyuwluwjiy~  Nall    radiology     [[rAdiyuwluwjiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'radiology'
+      ],
+      'orig' => 'rAdiyuwluwjiy~',
+      'prefix' => ''
+    }
+  ],
+  'rUstUk' => [
+    {
+      'types' => {},
+      'entry' => 'ruwstuwk',
+      'form' => 'ruwstuwk',
+      'lines' => [
+        ';; ruwsotuwk_1',
+        'rwstwk  ruwsotuwk       Nprop   Rostock'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36780,9 +36838,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Raptors'
+        'Rostock'
       ],
-      'orig' => 'rAbtuwrz',
+      'orig' => 'ruwsotuwk',
+      'prefix' => ''
+    }
+  ],
+  'rAmIn' => [
+    {
+      'types' => {},
+      'entry' => 'rAmiyn',
+      'form' => 'rAmiyn',
+      'lines' => [
+        ';; rAmiyn_1',
+        'rAmyn   rAmiyn  N0      Ramin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Ramin'
+      ],
+      'orig' => 'rAmiyn',
       'prefix' => ''
     }
   ],
@@ -36958,14 +37037,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'riystuw' => [
+  'rAtU' => [
     {
       'types' => {},
-      'entry' => 'riystuw',
-      'form' => 'riystuw',
+      'entry' => 'rAtuw',
+      'form' => 'rAtuw',
       'lines' => [
-        ';; riysotuw_1',
-        'rystw   riysotuw        Nprop   Risto'
+        ';; rAtuw_1',
+        'rAtw    rAtuw   Nprop   Ratu'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36973,30 +37052,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Risto'
+        'Ratu'
       ],
-      'orig' => 'riysotuw',
-      'prefix' => ''
-    }
-  ],
-  'riy^giynA' => [
-    {
-      'types' => {},
-      'entry' => 'riy^giynA',
-      'form' => 'riy^giynA',
-      'lines' => [
-        ';; riyjiynA_1',
-        'ryjynA  riyjiynA        Nprop   Regina'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Regina'
-      ],
-      'orig' => 'riyjiynA',
+      'orig' => 'rAtuw',
       'prefix' => ''
     }
   ],
@@ -37246,28 +37304,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tAriy`' => [
-    {
-      'types' => {},
-      'entry' => 'tAriy`',
-      'form' => 'tAriy`',
-      'lines' => [
-        ';; tAriyE_1',
-        'tAryE   tAriyE  N       cadastre;survey'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'cadastre',
-        'survey'
-      ],
-      'orig' => 'tAriyE',
-      'prefix' => ''
-    }
-  ],
   'r .h q' => [
     {
       'types' => {},
@@ -37347,33 +37383,6 @@ $Lexicon = {
         'delicious'
       ],
       'orig' => 'raHiyqiy~',
-      'prefix' => ''
-    }
-  ],
-  'yarbuw`' => [
-    {
-      'types' => {
-        'yarAbiy`' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'yarbuw`',
-      'form' => 'yarbuw`',
-      'lines' => [
-        ';; yarobuwE_1',
-        'yrbwE   yarobuwE        N       jerboa',
-        'yrAbyE  yarAbiyE        Ndip    jerboas'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'jerboa',
-        'jerboas'
-      ],
-      'orig' => 'yarobuwE',
       'prefix' => ''
     }
   ],
@@ -37479,6 +37488,27 @@ $Lexicon = {
         'Rajjoub'
       ],
       'orig' => 'rajuwb',
+      'prefix' => ''
+    }
+  ],
+  'rI^stir' => [
+    {
+      'types' => {},
+      'entry' => 'riy^stir',
+      'form' => 'riy^stir',
+      'lines' => [
+        ';; riy$otir_1',
+        'ry$tr   riy$otir        N0      Richter'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Richter'
+      ],
+      'orig' => 'riy$otir',
       'prefix' => ''
     }
   ],
@@ -39062,37 +39092,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rAtiyn' => [
-    {
-      'types' => {
-        'ratiyn' => {
-          'Nap' => 1
-        },
-        'ratA\'in' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'rAtiyn',
-      'form' => 'rAtiynaT',
-      'lines' => [
-        ';; rAtiynap_1',
-        'rtyn    ratiyn  Nap     mantle (on incandescent lamp)',
-        'rAtyn   rAtiyn  Nap     mantle (on incandescent lamp)',
-        'rtA}n   ratA}in Ndip    mantles (on incandescent lamps)'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'mantle (on incandescent lamp)',
-        'mantles (on incandescent lamps)'
-      ],
-      'orig' => 'rAtiynap',
-      'prefix' => ''
-    }
-  ],
   'r w d s' => [
     {
       'types' => {
@@ -39940,33 +39939,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwznAm' => [
-    {
-      'types' => {
-        'ruwznAmah' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'ruwznAm',
-      'form' => 'ruwznAmaT',
-      'lines' => [
-        ';; ruwzonAmap_1',
-        'rwznAm  ruwzonAm        NapAt   almanac;calendar',
-        'rwznAmh ruwzonAmah      N0      almanac;calendar'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'almanac',
-        'calendar'
-      ],
-      'orig' => 'ruwzonAmap',
-      'prefix' => ''
-    }
-  ],
   'r s .g' => [
     {
       'types' => {
@@ -40004,14 +39976,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwmiydAl' => [
+  'rAdiyUm' => [
     {
       'types' => {},
-      'entry' => 'ruwmiydAl',
-      'form' => 'ruwmiydAl',
+      'entry' => 'rAdiyuwm',
+      'form' => 'rAdiyuwm',
       'lines' => [
-        ';; ruwmiydAl_1',
-        'rwmydAl ruwmiydAl       N0      Romedal'
+        ';; rAdiyuwm_1',
+        'rAdywm  rAdiyuwm        N       radium'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40019,9 +39991,28 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Romedal'
+        'radium'
       ],
-      'orig' => 'ruwmiydAl',
+      'orig' => 'rAdiyuwm',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'rAdiyuwm',
+      'form' => 'rAdiyuwmiyy',
+      'lines' => [
+        ';; rAdiyuwmiy~_1',
+        'rAdywmy rAdiyuwmiy~     Nall    radium     [[rAdiyuwmiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'radium'
+      ],
+      'orig' => 'rAdiyuwmiy~',
       'prefix' => ''
     }
   ],
@@ -40887,27 +40878,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruw.guwziyn' => [
-    {
-      'types' => {},
-      'entry' => 'ruw.guwziyn',
-      'form' => 'ruw.guwziyn',
-      'lines' => [
-        ';; ruwguwziyn_1',
-        'rwgwzyn ruwguwziyn      Nprop   Rogozin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rogozin'
-      ],
-      'orig' => 'ruwguwziyn',
-      'prefix' => ''
-    }
-  ],
   'r ` ^s' => [
     {
       'types' => {
@@ -41320,6 +41290,56 @@ $Lexicon = {
         'unwilling'
       ],
       'orig' => 'rAgim',
+      'prefix' => ''
+    }
+  ],
+  'rUmAns' => [
+    {
+      'types' => {
+        'ruwmansiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'ruwmAns',
+      'form' => 'ruwmAnsiyy',
+      'lines' => [
+        ';; ruwmAnosiy~_1',
+        'rwmAnsy ruwmAnosiy~     Nall    romantic     [[ruwmAnosiy~/ADJ]]',
+        'rwmnsy  ruwmanosiy~     Nall    romantic     [[ruwmAnosiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'romantic'
+      ],
+      'orig' => 'ruwmAnosiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ruwmansiyy' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'ruwmAns',
+      'form' => 'ruwmAnsiyyaT',
+      'lines' => [
+        ';; ruwmAnosiy~ap_1',
+        'rwmAnsy ruwmAnosiy~     Nap     romanticism     [[ruwmAnosiy~/NOUN]]',
+        'rwmnsy  ruwmanosiy~     Nap     romanticism     [[ruwmAnosiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'romanticism'
+      ],
+      'orig' => 'ruwmAnosiy~ap',
       'prefix' => ''
     }
   ],
@@ -42005,14 +42025,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'riyfyiyrA' => [
+  'rIfkind' => [
     {
       'types' => {},
-      'entry' => 'riyfyiyrA',
-      'form' => 'riyfyiyrA',
+      'entry' => 'riyfkind',
+      'form' => 'riyfkind',
       'lines' => [
-        ';; riyfoyiyrA_1',
-        'ryfyyrA riyfoyiyrA      N0      riviera'
+        ';; riyfokinod_1',
+        'ryfknd  riyfokinod      Nprop   Rivkind;Rifkind'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42020,28 +42040,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'riviera'
+        'Rivkind',
+        'Rifkind'
       ],
-      'orig' => 'riyfoyiyrA',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'riyfyiyrA',
-      'form' => 'riyfyiyrA',
-      'lines' => [
-        ';; riyfoyiyrA_2',
-        'ryfyyrA riyfoyiyrA      N0      Riviera'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Riviera'
-      ],
-      'orig' => 'riyfoyiyrA',
+      'orig' => 'riyfokinod',
       'prefix' => ''
     }
   ],
@@ -42968,28 +42970,6 @@ $Lexicon = {
         'adviser'
       ],
       'orig' => 'muro$id',
-      'prefix' => ''
-    }
-  ],
-  '\'irziyz' => [
-    {
-      'types' => {},
-      'entry' => '\'irziyz',
-      'form' => '\'irziyz',
-      'lines' => [
-        ';; <iroziyz_1',
-        '<rzyz   <iroziyz        N       telephone',
-        'Arzyz   <iroziyz        N       telephone'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'telephone'
-      ],
-      'orig' => 'Iiroziyz',
       'prefix' => ''
     }
   ],
@@ -43925,6 +43905,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rUzUfIt^s' => [
+    {
+      'types' => {},
+      'entry' => 'ruwzuwfiyt^s',
+      'form' => 'ruwzuwfiyt^s',
+      'lines' => [
+        ';; ruwzuwfiyt$_1',
+        'rwzwfyt$        ruwzuwfiyt$     Nprop   Rusovick'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rusovick'
+      ],
+      'orig' => 'ruwzuwfiyt$',
+      'prefix' => ''
+    }
+  ],
   '\'ur.gA.t' => [
     {
       'types' => {
@@ -44000,6 +44001,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rAbInUfIt^s' => [
+    {
+      'types' => {},
+      'entry' => 'rAbiynuwfiyt^s',
+      'form' => 'rAbiynuwfiyt^s',
+      'lines' => [
+        ';; rAbiynuwfiyt$_1',
+        'rAbynwfyt$      rAbiynuwfiyt$   N0      Rabinovich;Rabinovitch'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rabinovich',
+        'Rabinovitch'
+      ],
+      'orig' => 'rAbiynuwfiyt$',
+      'prefix' => ''
+    }
+  ],
   'r ^s n' => [
     {
       'types' => {
@@ -44034,14 +44057,15 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rAbAyiyt^s' => [
+  '\'irzIz' => [
     {
       'types' => {},
-      'entry' => 'rAbAyiyt^s',
-      'form' => 'rAbAyiyt^s',
+      'entry' => '\'irziyz',
+      'form' => '\'irziyz',
       'lines' => [
-        ';; rAbAyiyt$_1',
-        'rAbAyyt$        rAbAyiyt$       Nprop   Rapaic'
+        ';; <iroziyz_1',
+        '<rzyz   <iroziyz        N       telephone',
+        'Arzyz   <iroziyz        N       telephone'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44049,9 +44073,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Rapaic'
+        'telephone'
       ],
-      'orig' => 'rAbAyiyt$',
+      'orig' => 'Iiroziyz',
       'prefix' => ''
     }
   ],
@@ -44073,6 +44097,28 @@ $Lexicon = {
         'Ramses'
       ],
       'orig' => 'ramosiys',
+      'prefix' => ''
+    }
+  ],
+  'rAfAyIl' => [
+    {
+      'types' => {},
+      'entry' => 'rAfAyiyl',
+      'form' => 'rAfAyiyl',
+      'lines' => [
+        ';; rAfAyiyl_1',
+        'rAfAyyl rAfAyiyl        Nprop   Rafael;Raphael'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rafael',
+        'Raphael'
+      ],
+      'orig' => 'rAfAyiyl',
       'prefix' => ''
     }
   ],
@@ -44245,14 +44291,23 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwytir' => [
+  'rIntIrA' => [
     {
-      'types' => {},
-      'entry' => 'ruwytir',
-      'form' => 'ruwytir',
+      'types' => {
+        'riyntiriyA' => {
+          'Nprop' => 1
+        },
+        'riyntiyriyA' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'riyntiyrA',
+      'form' => 'riyntiyrA',
       'lines' => [
-        ';; ruwyotir_1',
-        'rwytr   ruwyotir        Nprop   Reuters'
+        ';; riynotiyrA_1',
+        'ryntyrA riynotiyrA      Nprop   Renteria',
+        'ryntryA riynotiriyA     Nprop   Renteria',
+        'ryntyryA        riynotiyriyA    Nprop   Renteria'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44260,9 +44315,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Reuters'
+        'Renteria'
       ],
-      'orig' => 'ruwyotir',
+      'orig' => 'riynotiyrA',
+      'prefix' => ''
+    }
+  ],
+  'rI^gInA' => [
+    {
+      'types' => {},
+      'entry' => 'riy^giynA',
+      'form' => 'riy^giynA',
+      'lines' => [
+        ';; riyjiynA_1',
+        'ryjynA  riyjiynA        Nprop   Regina'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Regina'
+      ],
+      'orig' => 'riyjiynA',
       'prefix' => ''
     }
   ],
@@ -44719,6 +44795,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rA^gkUmAr' => [
+    {
+      'types' => {},
+      'entry' => 'rA^gkuwmAr',
+      'form' => 'rA^gkuwmAr',
+      'lines' => [
+        ';; rAjokuwmAr_1',
+        'rAjkwmAr        rAjokuwmAr      Nprop   Rajkumar'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rajkumar'
+      ],
+      'orig' => 'rAjokuwmAr',
+      'prefix' => ''
+    }
+  ],
   'rAmAkAntA' => [
     {
       'types' => {},
@@ -44737,6 +44834,54 @@ $Lexicon = {
         'Ramakanta'
       ],
       'orig' => 'rAmAkAnotA',
+      'prefix' => ''
+    }
+  ],
+  'rAsIn.g' => [
+    {
+      'types' => {},
+      'entry' => 'rAsiyn.g',
+      'form' => 'rAsiyn.g',
+      'lines' => [
+        ';; rAsiyng_1',
+        'rAsyng  rAsiyng Nprop   Racing'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Racing'
+      ],
+      'orig' => 'rAsiyng',
+      'prefix' => ''
+    }
+  ],
+  'rUznAm' => [
+    {
+      'types' => {
+        'ruwznAmah' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'ruwznAm',
+      'form' => 'ruwznAmaT',
+      'lines' => [
+        ';; ruwzonAmap_1',
+        'rwznAm  ruwzonAm        NapAt   almanac;calendar',
+        'rwznAmh ruwzonAmah      N0      almanac;calendar'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'almanac',
+        'calendar'
+      ],
+      'orig' => 'ruwzonAmap',
       'prefix' => ''
     }
   ],
@@ -45157,27 +45302,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwytirz' => [
-    {
-      'types' => {},
-      'entry' => 'ruwytirz',
-      'form' => 'ruwytirz',
-      'lines' => [
-        ';; ruwyotirz_1',
-        'rwytrz  ruwyotirz       Nprop   Reuters'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Reuters'
-      ],
-      'orig' => 'ruwyotirz',
-      'prefix' => ''
-    }
-  ],
   'rabAyA' => [
     {
       'types' => {
@@ -45200,33 +45324,6 @@ $Lexicon = {
         'guards'
       ],
       'orig' => 'rabAyA',
-      'prefix' => ''
-    }
-  ],
-  'rAdiyuw' => [
-    {
-      'types' => {
-        'rAdiyuwh' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'rAdiyuw',
-      'form' => 'rAdiyuw',
-      'lines' => [
-        ';; rAdiyuw_1',
-        'rAdyw   rAdiyuw N0      radio',
-        'rAdywh  rAdiyuwh        NAt     radios'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'radio',
-        'radios'
-      ],
-      'orig' => 'rAdiyuw',
       'prefix' => ''
     }
   ],
@@ -45583,48 +45680,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruw^giyih' => [
-    {
-      'types' => {},
-      'entry' => 'ruw^giyih',
-      'form' => 'ruw^giyih',
-      'lines' => [
-        ';; ruwjiyih_1',
-        'rwjyh   ruwjiyih        Nprop   Rogier'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rogier'
-      ],
-      'orig' => 'ruwjiyih',
-      'prefix' => ''
-    }
-  ],
-  'ruwmAniyA' => [
-    {
-      'types' => {},
-      'entry' => 'ruwmAniyA',
-      'form' => 'ruwmAniyA',
-      'lines' => [
-        ';; ruwmAniyA_1',
-        'rwmAnyA ruwmAniyA       N0      Romania'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Romania'
-      ],
-      'orig' => 'ruwmAniyA',
-      'prefix' => ''
-    }
-  ],
   'r s m l' => [
     {
       'types' => {
@@ -45916,48 +45971,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwskiy_h' => [
-    {
-      'types' => {},
-      'entry' => 'ruwskiy_h',
-      'form' => 'ruwskiy_h',
-      'lines' => [
-        ';; ruwsokiyx_1',
-        'rwskyx  ruwsokiyx       Nprop   Russkikh'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Russkikh'
-      ],
-      'orig' => 'ruwsokiyx',
-      'prefix' => ''
-    }
-  ],
-  'ruwsiyA' => [
-    {
-      'types' => {},
-      'entry' => 'ruwsiyA',
-      'form' => 'ruwsiyA',
-      'lines' => [
-        ';; ruwsiyA_1',
-        'rwsyA   ruwsiyA N0      Russia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Russia'
-      ],
-      'orig' => 'ruwsiyA',
-      'prefix' => ''
-    }
-  ],
   'rAmsfild' => [
     {
       'types' => {
@@ -45984,24 +45997,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rAdiyuwluw^g' => [
+  'rAbtUrz' => [
     {
       'types' => {},
-      'entry' => 'rAdiyuwluw^g',
-      'form' => 'rAdiyuwluw^giyy',
+      'entry' => 'rAbtuwrz',
+      'form' => 'rAbtuwrz',
       'lines' => [
-        ';; rAdiyuwluwjiy~_1',
-        'rAdywlwjy       rAdiyuwluwjiy~  Nall    radiology     [[rAdiyuwluwjiy~/ADJ]]'
+        ';; rAbtuwrz_1',
+        'rAbtwrz rAbtuwrz        Nprop   Raptors'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'radiology'
+        'Raptors'
       ],
-      'orig' => 'rAdiyuwluwjiy~',
+      'orig' => 'rAbtuwrz',
       'prefix' => ''
     }
   ],
@@ -46494,6 +46507,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rUbirtU' => [
+    {
+      'types' => {},
+      'entry' => 'ruwbirtuw',
+      'form' => 'ruwbirtuw',
+      'lines' => [
+        ';; ruwbirotuw_1',
+        'rwbrtw  ruwbirotuw      Nprop   Roberto'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Roberto'
+      ],
+      'orig' => 'ruwbirotuw',
+      'prefix' => ''
+    }
+  ],
   'rAniyA' => [
     {
       'types' => {},
@@ -46729,6 +46763,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rAmAkrI^snA' => [
+    {
+      'types' => {},
+      'entry' => 'rAmAkriy^snA',
+      'form' => 'rAmAkriy^snA',
+      'lines' => [
+        ';; rAmAkriy$onA_1',
+        'rAmAkry$nA      rAmAkriy$onA    N0      Ramakrishna'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Ramakrishna'
+      ],
+      'orig' => 'rAmAkriy$onA',
+      'prefix' => ''
+    }
+  ],
   'r ` l' => [
     {
       'types' => {},
@@ -46937,14 +46992,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwnAlduw' => [
+  'riyUzU' => [
     {
       'types' => {},
-      'entry' => 'ruwnAlduw',
-      'form' => 'ruwnAlduw',
+      'entry' => 'riyuwzuw',
+      'form' => 'riyuwzuw',
       'lines' => [
-        ';; ruwnAloduw_1',
-        'rwnAldw ruwnAloduw      Nprop   Ronaldo'
+        ';; riyuwzuw_1',
+        'rywzw   riyuwzuw        Nprop   Ryuzo'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46952,9 +47007,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Ronaldo'
+        'Ryuzo'
       ],
-      'orig' => 'ruwnAloduw',
+      'orig' => 'riyuwzuw',
       'prefix' => ''
     }
   ],
@@ -47395,34 +47450,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwlA' => [
-    {
-      'types' => {
-        'rulA' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'ruwlA',
-      'form' => 'ruwlA',
-      'lines' => [
-        ';; ruwlA_1',
-        'rwlA    ruwlA   Nprop   Rola;Rula;Roula',
-        'rlA     rulA    Nprop   Rola;Rula;Roula'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rola',
-        'Rula',
-        'Roula'
-      ],
-      'orig' => 'ruwlA',
-      'prefix' => ''
-    }
-  ],
   'r m q' => [
     {
       'types' => {
@@ -47560,6 +47587,56 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rAdIkAl' => [
+    {
+      'types' => {
+        'rAdikAliyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'rAdiykAl',
+      'form' => 'rAdiykAliyy',
+      'lines' => [
+        ';; rAdiykAliy~_1',
+        'rAdykAly        rAdiykAliy~     Nall    radical     [[rAdiykAliy~/ADJ]]',
+        'rAdkAly rAdikAliy~      Nall    radical     [[rAdikAliy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'radical'
+      ],
+      'orig' => 'rAdiykAliy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'rAdikAliyy' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'rAdiykAl',
+      'form' => 'rAdiykAliyyaT',
+      'lines' => [
+        ';; rAdiykAliy~ap_1',
+        'rAdykAly        rAdiykAliy~     Nap     radicalism     [[rAdiykAliy~/NOUN]]',
+        'rAdkAly rAdikAliy~      Nap     radicalism     [[rAdikAliy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'radicalism'
+      ],
+      'orig' => 'rAdiykAliy~ap',
+      'prefix' => ''
+    }
+  ],
   'r ` m' => [
     {
       'types' => {},
@@ -47597,6 +47674,27 @@ $Lexicon = {
         'suffering from glanders (infectious horse disease)'
       ],
       'orig' => 'raEuwm',
+      'prefix' => ''
+    }
+  ],
+  'rIstU' => [
+    {
+      'types' => {},
+      'entry' => 'riystuw',
+      'form' => 'riystuw',
+      'lines' => [
+        ';; riysotuw_1',
+        'rystw   riysotuw        Nprop   Risto'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Risto'
+      ],
+      'orig' => 'riysotuw',
       'prefix' => ''
     }
   ],
@@ -48028,56 +48126,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rAdiykAl' => [
-    {
-      'types' => {
-        'rAdikAliyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'rAdiykAl',
-      'form' => 'rAdiykAliyy',
-      'lines' => [
-        ';; rAdiykAliy~_1',
-        'rAdykAly        rAdiykAliy~     Nall    radical     [[rAdiykAliy~/ADJ]]',
-        'rAdkAly rAdikAliy~      Nall    radical     [[rAdikAliy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'radical'
-      ],
-      'orig' => 'rAdiykAliy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'rAdikAliyy' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'rAdiykAl',
-      'form' => 'rAdiykAliyyaT',
-      'lines' => [
-        ';; rAdiykAliy~ap_1',
-        'rAdykAly        rAdiykAliy~     Nap     radicalism     [[rAdiykAliy~/NOUN]]',
-        'rAdkAly rAdikAliy~      Nap     radicalism     [[rAdikAliy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'radicalism'
-      ],
-      'orig' => 'rAdiykAliy~ap',
-      'prefix' => ''
-    }
-  ],
   'r d \'' => [
     {
       'types' => {
@@ -48439,27 +48487,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rAsiyn.g' => [
-    {
-      'types' => {},
-      'entry' => 'rAsiyn.g',
-      'form' => 'rAsiyn.g',
-      'lines' => [
-        ';; rAsiyng_1',
-        'rAsyng  rAsiyng Nprop   Racing'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Racing'
-      ],
-      'orig' => 'rAsiyng',
-      'prefix' => ''
-    }
-  ],
   'r d .g' => [
     {
       'types' => {
@@ -48620,6 +48647,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rUskI_h' => [
+    {
+      'types' => {},
+      'entry' => 'ruwskiy_h',
+      'form' => 'ruwskiy_h',
+      'lines' => [
+        ';; ruwsokiyx_1',
+        'rwskyx  ruwsokiyx       Nprop   Russkikh'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Russkikh'
+      ],
+      'orig' => 'ruwsokiyx',
+      'prefix' => ''
+    }
+  ],
   'r m .s' => [
     {
       'types' => {},
@@ -48695,27 +48743,6 @@ $Lexicon = {
         'radar'
       ],
       'orig' => 'rAdAriy~',
-      'prefix' => ''
-    }
-  ],
-  'rAtuw' => [
-    {
-      'types' => {},
-      'entry' => 'rAtuw',
-      'form' => 'rAtuw',
-      'lines' => [
-        ';; rAtuw_1',
-        'rAtw    rAtuw   Nprop   Ratu'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Ratu'
-      ],
-      'orig' => 'rAtuw',
       'prefix' => ''
     }
   ],
@@ -49112,6 +49139,46 @@ $Lexicon = {
         'fragments'
       ],
       'orig' => 'muraq~aEAt',
+      'prefix' => ''
+    }
+  ],
+  'rUbirt' => [
+    {
+      'types' => {},
+      'entry' => 'ruwbirt',
+      'form' => 'ruwbirt',
+      'lines' => [
+        ';; ruwbirot_1',
+        'rwbrt   ruwbirot        Nprop   Robert'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Robert'
+      ],
+      'orig' => 'ruwbirot',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ruwbirt',
+      'form' => 'ruwbirt',
+      'lines' => [
+        ';; ruwbirot_2',
+        'rwbrt   ruwbirot        Nprop   Rupert'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rupert'
+      ],
+      'orig' => 'ruwbirot',
       'prefix' => ''
     }
   ],
@@ -49732,27 +49799,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwytirs' => [
-    {
-      'types' => {},
-      'entry' => 'ruwytirs',
-      'form' => 'ruwytirs',
-      'lines' => [
-        ';; ruwyotirs_1',
-        'rwytrs  ruwyotirs       Nprop   Reuters'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Reuters'
-      ],
-      'orig' => 'ruwyotirs',
-      'prefix' => ''
-    }
-  ],
   'r ^g n' => [
     {
       'types' => {},
@@ -49771,27 +49817,6 @@ $Lexicon = {
         'basket'
       ],
       'orig' => 'marojuwnap',
-      'prefix' => ''
-    }
-  ],
-  'ruwbinsuwn' => [
-    {
-      'types' => {},
-      'entry' => 'ruwbinsuwn',
-      'form' => 'ruwbinsuwn',
-      'lines' => [
-        ';; ruwbinosuwn_1',
-        'rwbnswn ruwbinosuwn     N0      Robinson'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Robinson'
-      ],
-      'orig' => 'ruwbinosuwn',
       'prefix' => ''
     }
   ],
@@ -50790,29 +50815,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruwmantiyk' => [
-    {
-      'types' => {},
-      'entry' => 'ruwmantiyk',
-      'form' => 'ruwmantiykiyy',
-      'lines' => [
-        ';; ruwmanotiykiy~_1',
-        'rwmntyky        ruwmanotiykiy~  Nall    romantic     [[ruwmanotiykiy~/ADJ]]',
-        'rwmntyky        ruwmanotiykiy~  Nap     romanticism     [[ruwmanotiykiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'romantic',
-        'romanticism'
-      ],
-      'orig' => 'ruwmanotiykiy~',
-      'prefix' => ''
-    }
-  ],
   'r b y' => [
     {
       'types' => {},
@@ -51528,6 +51530,32 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'ruwdiy',
+      'prefix' => ''
+    }
+  ],
+  'rUmA' => [
+    {
+      'types' => {
+        'ruwm' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'ruwmA',
+      'form' => 'ruwmA',
+      'lines' => [
+        ';; ruwmA_1',
+        'rwmA    ruwmA   N0      Rome',
+        'rwm     ruwm    Nap     Rome'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rome'
+      ],
+      'orig' => 'ruwmA',
       'prefix' => ''
     }
   ],
@@ -52627,6 +52655,69 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'rAbAyIt^s' => [
+    {
+      'types' => {},
+      'entry' => 'rAbAyiyt^s',
+      'form' => 'rAbAyiyt^s',
+      'lines' => [
+        ';; rAbAyiyt$_1',
+        'rAbAyyt$        rAbAyiyt$       Nprop   Rapaic'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rapaic'
+      ],
+      'orig' => 'rAbAyiyt$',
+      'prefix' => ''
+    }
+  ],
+  'rUzIt^s' => [
+    {
+      'types' => {},
+      'entry' => 'ruwziyt^s',
+      'form' => 'ruwziyt^s',
+      'lines' => [
+        ';; ruwziyt$_1',
+        'rwzyt$  ruwziyt$        Nprop   Rosic'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rosic'
+      ],
+      'orig' => 'ruwziyt$',
+      'prefix' => ''
+    }
+  ],
+  'rU.gUzIn' => [
+    {
+      'types' => {},
+      'entry' => 'ruw.guwziyn',
+      'form' => 'ruw.guwziyn',
+      'lines' => [
+        ';; ruwguwziyn_1',
+        'rwgwzyn ruwguwziyn      Nprop   Rogozin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Rogozin'
+      ],
+      'orig' => 'ruwguwziyn',
+      'prefix' => ''
+    }
+  ],
   'r b \'' => [
     {
       'types' => {
@@ -52724,37 +52815,6 @@ $Lexicon = {
         'Royal'
       ],
       'orig' => 'ruwyAl',
-      'prefix' => ''
-    }
-  ],
-  '\'ur^guw.h' => [
-    {
-      'types' => {
-        '\'arA^giy.h' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'ur^guw.h',
-      'form' => '\'ur^guw.haT',
-      'lines' => [
-        ';; >urojuwHap_1',
-        '>rjwH   >urojuwH        Napdu   seesaw;swing',
-        'ArjwH   >urojuwH        Napdu   seesaw;swing',
-        '>rAjyH  >arAjiyH        Ndip    seesaws;swings',
-        'ArAjyH  >arAjiyH        Ndip    seesaws;swings'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'seesaw',
-        'swing',
-        'seesaws',
-        'swings'
-      ],
-      'orig' => 'OurojuwHap',
       'prefix' => ''
     }
   ],
@@ -52920,29 +52980,6 @@ $Lexicon = {
         'aprons'
       ],
       'orig' => 'maroyuwl',
-      'prefix' => ''
-    }
-  ],
-  'ruwmAntiyk' => [
-    {
-      'types' => {},
-      'entry' => 'ruwmAntiyk',
-      'form' => 'ruwmAntiykiyy',
-      'lines' => [
-        ';; ruwmAnotiykiy~_1',
-        'rwmAntyky       ruwmAnotiykiy~  Nall    romantic     [[ruwmAnotiykiy~/ADJ]]',
-        'rwmAntyky       ruwmAnotiykiy~  Nap     romanticism     [[ruwmAnotiykiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'romantic',
-        'romanticism'
-      ],
-      'orig' => 'ruwmAnotiykiy~',
       'prefix' => ''
     }
   ],
@@ -53457,27 +53494,6 @@ $Lexicon = {
         'television set'
       ],
       'orig' => 'mironAp',
-      'prefix' => ''
-    }
-  ],
-  'rAbiyn' => [
-    {
-      'types' => {},
-      'entry' => 'rAbiyn',
-      'form' => 'rAbiyn',
-      'lines' => [
-        ';; rAbiyn_1',
-        'rAbyn   rAbiyn  Nprop   Rabin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Rabin'
-      ],
-      'orig' => 'rAbiyn',
       'prefix' => ''
     }
   ]

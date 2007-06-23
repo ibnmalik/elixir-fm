@@ -1381,7 +1381,7 @@ frAydmAn        frAydomAn       Nprop   Frydman
 frAyzr  frAyozir        Nprop   Frazier
 ;
 ; Finnish doctor Sipo ___
-;; frAynty_1
+;; frAyntiy_1
 frAynty frAynty Nprop   Vraientti ??
 ;
 ;--- frtk
@@ -5143,7 +5143,7 @@ fhd     fahod   N       lynx
 fhwd    fuhuwd  N       lynxes
 >fhd    >afohud N       lynxes
 Afhd    >afohud N       lynxes
-;; fhyd_1
+;; fuhayd_1
 fhyd    fuhayod N0      Fuhaid;Fuheid
 ;
 ;--- fhrs
@@ -5718,7 +5718,7 @@ fyAjrA  fiyAjrA N0      Viagra
 fyAkwm  fiyAkuwm        Nprop   Viacom
 ;
 ;--- fyAl
-;; fiyAlly_1
+;; fiyAlliy_1
 fyAlly  fiyAlly Nprop   Vialli
 ;
 ;--- fybr
@@ -5745,7 +5745,7 @@ fytnAm  fiyatonAm       N0      Vietnam
 fytnAmy fiyatonAmiy~    Nall    Vietnamese     <pos>fiyatonAmiy~/NOUN</pos>
 fytnAmy fiyatonAmiy~    Nall    Vietnamese     <pos>fiyatonAmiy~/ADJ</pos>
 ;
-;--- fytw
+; ;--- fytw
 ;; fiytuw_1
 fytw    fiytuw  N0      veto
 fytwh   fiytuwh NAt     vetos
@@ -5761,7 +5761,7 @@ fytwry  fayotuwriy~     N0      Faitouri;Faituri
 ;; fayotuwn_1
 fytwn   fayotuwn        N       phaeton
 ;
-;--- fyty
+; ;--- fyty
 ;; fiytiys_1
 fytys   fiytiys Nprop   Vitesse
 ;
@@ -5769,7 +5769,7 @@ fytys   fiytiys Nprop   Vitesse
 ;; fiyvAguwras_1
 fyvAgwrs        fiyvAguwras     N0      Pythagoras
 ;
-;--- fyjy
+; ;--- fyjy
 ;; fiyjiysotiy_1
 fyjysty fiyjiysotiy     Nprop   Vijesti
 ;
@@ -5866,7 +5866,7 @@ fyjy    fiyjiy  Nprop   Fiji
 fydjy   fiydojiy~       Nall    Fijian     <pos>fiydojiy~/ADJ</pos>
 fyjy    fiyjiy~ Nall    Fijian     <pos>fiydojiy~/ADJ</pos>
 ;
-;--- fydy
+; ;--- fydy
 ;; fiydoyuw_1
 fydyw   fiydoyuw        N0      video
 fydywh  fiydoyuwh       NAt     videos
@@ -5901,7 +5901,7 @@ fyrws   fayoruws        NduAt   virus
 ;; fayoruwsiy~_1
 fyrwsy  fayoruwsiy~     Nall    virus     <pos>fayoruwsiy~/ADJ</pos>
 ;
-;--- fyry
+; ;--- fyry
 ;; fiyriyruw_1
 fyryrw  fiyriyruw       Nprop   Ferrero
 ;
@@ -5909,15 +5909,15 @@ fyryrw  fiyriyruw       Nprop   Ferrero
 ;; fiyzA_1
 fyzA    fiyzA   N0      visa
 ;
-;--- fyzy
-;; fiyzyA'_1
-fyzyA'  fiyzyA' N0_Nh   physics
-fyzyA&  fiyzyA& Nh      physics
-fyzyA}  fiyzyA} Nhy     physics
-fyzyA   fiyzyA  N0      physics
-fyzyA}y fiyzyA}iy~      N-ap    physics     <pos>fiyzyA}iy~/ADJ</pos>
-;; fiyzyA}iy~_1
-fyzyA}y fiyzyA}iy~      Nall    physicist     <pos>fiyzyA}iy~/ADJ</pos>
+; ;--- fyzy
+;; fiyziyA'_1
+fyzyA'  fiyziyA' N0_Nh   physics
+fyzyA&  fiyziyA& Nh      physics
+fyzyA}  fiyziyA} Nhy     physics
+fyzyA   fiyziyA  N0      physics
+fyzyA}y fiyziyA}iy~      N-ap    physics     <pos>fiyzyA}iy~/ADJ</pos>
+;; fiyziyA}iy~_1
+fyzyA}y fiyziyA}iy~      Nall    physicist     <pos>fiyzyA}iy~/ADJ</pos>
 ;; fiyzyuwluwjiyA_1
 fyzywlwjyA      fiyzyuwluwjiyA  N0      physiology
 fysywlwjyA      fiysyuwluwjiyA  N0      physiology
@@ -6092,7 +6092,7 @@ fyAlq   fayAliq Ndip    army corps;legion
 ;; fiylohilom_1
 fylhlm  fiylohilom      Nprop   Wilhelm
 ;
-;--- fyly
+; ;--- fyly
 ;; fiyliy_1
 fyly    fiyliy  N0      Willy
 ;
@@ -6104,7 +6104,7 @@ fylyb   fiyliyb Nprop   Philip;Philippe;Phillippe
 ;; fiyliybs_1
 fylybs  fiyliybs        N0      Phillips;Philips
 ;
-;--- fylybw
+; ;--- fylybw
 ;; fiyliybuw_1
 fylybw  fiyliybuw       N0      Filippo
 ;
@@ -6112,7 +6112,7 @@ fylybw  fiyliybuw       N0      Filippo
 ;; fiyliybuwsiys_1
 fylybwsys       fiyliybuwsiys   Nprop   Philippoussis
 ;
-;--- fylyby
+; ;--- fylyby
 ;; fiyliyb~iyn_1
 fylybyn fiyliyb~iyn     N0      Philippines
 fylbyn  fiylib~iyn      N0      Philippines
@@ -6139,11 +6139,11 @@ fyn     fayon   NapAt   time;moment
 ;; fayonAn_1
 fynAn   fayonAn N       long-haired
 ;
-;--- fynw
+; ;--- fynw
 ;; fiynuws_1
 fynws   fiynuws Nprop   Venus
 ;
-;--- fyny
+; ;--- fyny
 ;; fiyniyqiyA_1
 fynyqyA fiyniyqiyA      N0      Phoenicia
 ;; fiyniyqiy~_1
@@ -6188,9 +6188,9 @@ f}      fi}     NapAt   faction;party
 ;; fi}awiy~_1
 f}wy    fi}awiy~        Nall    factional;partisan     <pos>fi}awiy~/ADJ</pos>
 ;
-;; fiyyin~A_1
-fyynA   fiyyin~A        N0      Vienna
+;; fiyiyn~A_1
+fyynA   fiyiyn~A        N0      Vienna
 ;
 ; AFP corpus
-;; fyywm_1
+;; fiyiyuwm_1
 fyywm   fyywm   Nprop   Vioum ??

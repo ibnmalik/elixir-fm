@@ -77,28 +77,45 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAriyb' => [
+  'bArlUr' => [
     {
-      'types' => {
-        'bAriybA' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'bAriyb',
-      'form' => 'bAriyba',
+      'types' => {},
+      'entry' => 'bArluwr',
+      'form' => 'bArluwr',
       'lines' => [
-        ';; bAriyba_1',
-        'bArybA  bAriybA Nprop   Bariba'
+        ';; bAroluwr_1',
+        'bArlwr  bAroluwr        N0      Parlour'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |<< "a"',
-      'suffix' => ' |<< "a"',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'Bariba'
+        'Parlour'
       ],
-      'orig' => 'bAriyba',
+      'orig' => 'bAroluwr',
+      'prefix' => ''
+    }
+  ],
+  'bAbAmUbIl' => [
+    {
+      'types' => {},
+      'entry' => 'bAbAmuwbiyl',
+      'form' => 'bAbAmuwbiyl',
+      'lines' => [
+        ';; bAbAmuwbiyl_1',
+        'bAbAmwbyl       bAbAmuwbiyl     N0      Popemobile'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Popemobile'
+      ],
+      'orig' => 'bAbAmuwbiyl',
       'prefix' => ''
     }
   ],
@@ -120,6 +137,27 @@ $Lexicon = {
         'Barents'
       ],
       'orig' => 'bArinots',
+      'prefix' => ''
+    }
+  ],
+  'banknUt' => [
+    {
+      'types' => {},
+      'entry' => 'banknuwt',
+      'form' => 'banknuwt',
+      'lines' => [
+        ';; bankonuwt_1',
+        'bnknwt  bankonuwt       N/ap    bank note'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'bank note'
+      ],
+      'orig' => 'bankonuwt',
       'prefix' => ''
     }
   ],
@@ -163,27 +201,6 @@ $Lexicon = {
         'lotus'
       ],
       'orig' => 'ba$oniyn',
-      'prefix' => ''
-    }
-  ],
-  'briyzbAn' => [
-    {
-      'types' => {},
-      'entry' => 'briyzbAn',
-      'form' => 'briyzbAn',
-      'lines' => [
-        ';; briyzobAn_1',
-        'bryzbAn briyzobAn       N0      Brisbane'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Brisbane'
-      ],
-      'orig' => 'briyzobAn',
       'prefix' => ''
     }
   ],
@@ -610,27 +627,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bluwtuwniyuwm' => [
-    {
-      'types' => {},
-      'entry' => 'bluwtuwniyuwm',
-      'form' => 'bluwtuwniyuwm',
-      'lines' => [
-        ';; bluwtuwniyuwm_1',
-        'blwtwnywm       bluwtuwniyuwm   N0      plutonium'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'plutonium'
-      ],
-      'orig' => 'bluwtuwniyuwm',
-      'prefix' => ''
-    }
-  ],
   'b r w' => [
     {
       'types' => {
@@ -924,6 +920,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bUblIn' => [
+    {
+      'types' => {},
+      'entry' => 'buwbliyn',
+      'form' => 'buwbliyn',
+      'lines' => [
+        ';; buwboliyn_1',
+        'bwblyn  buwboliyn       N       poplin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'poplin'
+      ],
+      'orig' => 'buwboliyn',
+      'prefix' => ''
+    }
+  ],
   'b l ^g' => [
     {
       'types' => {
@@ -1153,77 +1170,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bar^siluwnah' => [
-    {
-      'types' => {
-        'bar^siluwnaT' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'bar^siluwnah',
-      'form' => 'bar^siluwnah',
-      'lines' => [
-        ';; baro$iluwnah_1',
-        'br$lwnp baro$iluwnap    N0      Barcelona'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Barcelona'
-      ],
-      'orig' => 'baro$iluwnah',
-      'prefix' => ''
-    }
-  ],
-  'bAsbuwr' => [
-    {
-      'types' => {
-        'bAsbuwr' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'bAsbuwr',
-      'form' => 'bAsbuwr',
-      'lines' => [
-        ';; bAsobuwr_1',
-        'bAsbwr  bAsobuwr        NduAt   passport'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'passport'
-      ],
-      'orig' => 'bAsobuwr',
-      'prefix' => ''
-    }
-  ],
-  'buwrA' => [
-    {
-      'types' => {},
-      'entry' => 'buwrA',
-      'form' => 'buwrA',
-      'lines' => [
-        ';; buwrA_1',
-        'bwrA    buwrA   Nprop   Bora'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bora'
-      ],
-      'orig' => 'buwrA',
-      'prefix' => ''
-    }
-  ],
   'b y \'' => [
     {
       'types' => {},
@@ -1409,24 +1355,25 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'brAnniykuwf' => [
+  'bIzan.t' => [
     {
       'types' => {},
-      'entry' => 'brAnniykuwf',
-      'form' => 'brAnniykuwf',
+      'entry' => 'biyzan.t',
+      'form' => 'biyzan.tiyy',
       'lines' => [
-        ';; brAn~iykuwf_1',
-        'brAnykwf        brAn~iykuwf     N0      Barannikov'
+        ';; biyzanoTiy~_1',
+        'byznTy  biyzanoTiy~     Nall    Byzantine     [[biyzanoTiy~/NOUN]]',
+        'byznTy  biyzanoTiy~     Nall    Byzantine     [[biyzanoTiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'Barannikov'
+        'Byzantine'
       ],
-      'orig' => 'brAn~iykuwf',
+      'orig' => 'biyzanoTiy~',
       'prefix' => ''
     }
   ],
@@ -1559,32 +1506,6 @@ $Lexicon = {
         'Benha'
       ],
       'orig' => 'banohA',
-      'prefix' => ''
-    }
-  ],
-  'balansiy' => [
-    {
-      'types' => {
-        'balansiyA' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'balansiy',
-      'form' => 'balansiyaT',
-      'lines' => [
-        ';; balanosiyap_1',
-        'blnsy   balanosiy       Nap     Valencia',
-        'blnsyA  balanosiyA      N0      Valencia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'Valencia'
-      ],
-      'orig' => 'balanosiyap',
       'prefix' => ''
     }
   ],
@@ -1760,31 +1681,6 @@ $Lexicon = {
         'Barbara'
       ],
       'orig' => 'barobArA',
-      'prefix' => ''
-    }
-  ],
-  'bilyuwniyr' => [
-    {
-      'types' => {
-        'bilyuwniyr' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'bilyuwniyr',
-      'form' => 'bilyuwniyr',
-      'lines' => [
-        ';; biloyuwniyr_1',
-        'blywnyr biloyuwniyr     NduAt   billionaire'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'billionaire'
-      ],
-      'orig' => 'biloyuwniyr',
       'prefix' => ''
     }
   ],
@@ -2273,24 +2169,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bluwtuwn' => [
+  'bAntIlIf' => [
     {
       'types' => {},
-      'entry' => 'bluwtuwn',
-      'form' => 'bluwtuwniyy',
+      'entry' => 'bAntiyliyf',
+      'form' => 'bAntiyliyf',
       'lines' => [
-        ';; bluwtuwniy~_1',
-        'blwtwny bluwtuwniy~     Nall    plutonium     [[bluwtuwniy~/ADJ]]'
+        ';; bAnotiyliyf_1',
+        'bAntylyf        bAnotiyliyf     Nprop   Pantilev'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'plutonium'
+        'Pantilev'
       ],
-      'orig' => 'bluwtuwniy~',
+      'orig' => 'bAnotiyliyf',
       'prefix' => ''
     }
   ],
@@ -2315,45 +2211,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwsuwfAliyuwk' => [
+  'bUrtUrIk' => [
     {
       'types' => {},
-      'entry' => 'buwsuwfAliyuwk',
-      'form' => 'buwsuwfAliyuwk',
+      'entry' => 'buwrtuwriyk',
+      'form' => 'buwrtuwriykiyy',
       'lines' => [
-        ';; buwsuwfAliyuwk_1',
-        'bwswfAlywk      buwsuwfAliyuwk  Nprop   Posovaliuk'
+        ';; buwrotuwriykiy~_1',
+        'bwrtwryky       buwrotuwriykiy~ Nall    Puerto Rican'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'Posovaliuk'
+        'Puerto Rican'
       ],
-      'orig' => 'buwsuwfAliyuwk',
-      'prefix' => ''
-    }
-  ],
-  'binAltiy' => [
-    {
-      'types' => {},
-      'entry' => 'binAltiy',
-      'form' => 'binAltiy',
-      'lines' => [
-        ';; binAlotiy_1',
-        'bnAlty  binAlotiy       N0      penalty (shot)'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'penalty (shot)'
-      ],
-      'orig' => 'binAlotiy',
+      'orig' => 'buwrotuwriykiy~',
       'prefix' => ''
     }
   ],
@@ -2585,27 +2460,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buw.haliyq' => [
-    {
-      'types' => {},
-      'entry' => 'buw.haliyq',
-      'form' => 'buw.haliyqaT',
-      'lines' => [
-        ';; buwHaliyqap_1',
-        'bwHlyqp buwHaliyqap     N0      Buhaliqa'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'Buhaliqa'
-      ],
-      'orig' => 'buwHaliyqap',
-      'prefix' => ''
-    }
-  ],
   'b w h m' => [
     {
       'types' => {},
@@ -2625,27 +2479,6 @@ $Lexicon = {
         'Bohemian'
       ],
       'orig' => 'buwhiymiy~',
-      'prefix' => ''
-    }
-  ],
-  'buwluwniyA' => [
-    {
-      'types' => {},
-      'entry' => 'buwluwniyA',
-      'form' => 'buwluwniyA',
-      'lines' => [
-        ';; buwluwniyA_1',
-        'bwlwnyA buwluwniyA      N0      Bologna'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bologna'
-      ],
-      'orig' => 'buwluwniyA',
       'prefix' => ''
     }
   ],
@@ -2800,27 +2633,6 @@ $Lexicon = {
         'dispersal'
       ],
       'orig' => 'tabaEovur',
-      'prefix' => ''
-    }
-  ],
-  'briydrA.g' => [
-    {
-      'types' => {},
-      'entry' => 'briydrA.g',
-      'form' => 'briydrA.g',
-      'lines' => [
-        ';; briydrAg_1',
-        'brydrAg briydrAg        Nprop   Predrag'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Predrag'
-      ],
-      'orig' => 'briydrAg',
       'prefix' => ''
     }
   ],
@@ -3155,46 +2967,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwdAbist' => [
-    {
-      'types' => {},
-      'entry' => 'buwdAbist',
-      'form' => 'buwdAbist',
-      'lines' => [
-        ';; buwdAbisot_1',
-        'bwdAbst buwdAbisot      Nprop   Budapest'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Budapest'
-      ],
-      'orig' => 'buwdAbisot',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'buwdAbist',
-      'form' => 'buwdAbistiyy',
-      'lines' => [
-        ';; buwdAbisotiy~_1',
-        'bwdAbsty        buwdAbisotiy~   Nall    of/from Budapest     [[buwdAbisotiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'of/from Budapest'
-      ],
-      'orig' => 'buwdAbisotiy~',
-      'prefix' => ''
-    }
-  ],
   'b l ^g k' => [
     {
       'types' => {},
@@ -3246,27 +3018,6 @@ $Lexicon = {
         'policies'
       ],
       'orig' => 'buwliySap',
-      'prefix' => ''
-    }
-  ],
-  'buwd.guwriyt^sA' => [
-    {
-      'types' => {},
-      'entry' => 'buwd.guwriyt^sA',
-      'form' => 'buwd.guwriyt^sA',
-      'lines' => [
-        ';; buwdoguwriyt$A_1',
-        'bwdgwryt$A      buwdoguwriyt$A  Nprop   Podgorica'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Podgorica'
-      ],
-      'orig' => 'buwdoguwriyt$A',
       'prefix' => ''
     }
   ],
@@ -3754,14 +3505,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyrsiy' => [
+  'brI^gIt' => [
     {
       'types' => {},
-      'entry' => 'biyrsiy',
-      'form' => 'biyrsiy',
+      'entry' => 'briy^giyt',
+      'form' => 'briy^giyt',
       'lines' => [
-        ';; biyrosiy_1',
-        'byrsy   biyrosiy        Nprop   Bercy'
+        ';; briyjiyt_1',
+        'bryjyt  briyjiyt        Nprop   Brigite;Bridget;Bridgitte;Brighit'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3769,28 +3520,12 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Bercy'
+        'Brigite',
+        'Bridget',
+        'Bridgitte',
+        'Brighit'
       ],
-      'orig' => 'biyrosiy',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'biyrsiy',
-      'form' => 'biyrsiy',
-      'lines' => [
-        ';; biyrosiy_2',
-        'byrsy   biyrosiy        Nprop   Percy'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Percy'
-      ],
-      'orig' => 'biyrosiy',
+      'orig' => 'briyjiyt',
       'prefix' => ''
     }
   ],
@@ -3835,14 +3570,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biylAruws' => [
+  'ban.gAlUr' => [
     {
       'types' => {},
-      'entry' => 'biylAruws',
-      'form' => 'biylAruws',
+      'entry' => 'ban.gAluwr',
+      'form' => 'ban.gAluwr',
       'lines' => [
-        ';; biylAruws_1',
-        'bylArws biylAruws       N0      Belarus'
+        ';; banogAluwr_1',
+        'bngAlwr banogAluwr      N0      Bangalore'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3850,18 +3585,18 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Belarus'
+        'Bangalore'
       ],
-      'orig' => 'biylAruws',
+      'orig' => 'banogAluwr',
       'prefix' => ''
     },
     {
       'types' => {},
-      'entry' => 'biylAruws',
-      'form' => 'biylAruwsiyy',
+      'entry' => 'ban.gAluwr',
+      'form' => 'ban.gAluwriyy',
       'lines' => [
-        ';; biylAruwsiy~_1',
-        'bylArwsy        biylAruwsiy~    Nall    Belarusian'
+        ';; banogAluwriy~_1',
+        'bngAlwry        banogAluwriy~   Nall    Bangalorean'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3869,31 +3604,9 @@ $Lexicon = {
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'Belarusian'
+        'Bangalorean'
       ],
-      'orig' => 'biylAruwsiy~',
-      'prefix' => ''
-    }
-  ],
-  'bruwiyn' => [
-    {
-      'types' => {},
-      'entry' => 'bruwiyn',
-      'form' => 'bruwiyn',
-      'lines' => [
-        ';; bruwiyn_1',
-        'brwyn   bruwiyn Nprop   Bruijn;Bruin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bruijn',
-        'Bruin'
-      ],
-      'orig' => 'bruwiyn',
+      'orig' => 'banogAluwriy~',
       'prefix' => ''
     }
   ],
@@ -3936,6 +3649,27 @@ $Lexicon = {
         'lieutenant colonel'
       ],
       'orig' => 'bikobA$iy~',
+      'prefix' => ''
+    }
+  ],
+  'blUz' => [
+    {
+      'types' => {},
+      'entry' => 'bluwz',
+      'form' => 'bluwz',
+      'lines' => [
+        ';; bluwz_1',
+        'blwz    bluwz   N/ap    blouse'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'blouse'
+      ],
+      'orig' => 'bluwz',
       'prefix' => ''
     }
   ],
@@ -4346,19 +4080,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAbuw^g' => [
+  'bAykUn' => [
     {
       'types' => {
-        'bawAbiy^g' => {
-          'Ndip' => 1
+        'bAykun' => {
+          'Nprop' => 1
         }
       },
-      'entry' => 'bAbuw^g',
-      'form' => 'bAbuw^g',
+      'entry' => 'bAykuwn',
+      'form' => 'bAykuwn',
       'lines' => [
-        ';; bAbuwj_1',
-        'bAbwj   bAbuwj  Ndu     slipper',
-        'bwAbyj  bawAbiyj        Ndip    slippers'
+        ';; bAyokuwn_1',
+        'bAykwn  bAyokuwn        Nprop   Bacon',
+        'bAykn   bAyokun Nprop   Bacon'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4366,10 +4100,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'slipper',
-        'slippers'
+        'Bacon'
       ],
-      'orig' => 'bAbuwj',
+      'orig' => 'bAyokuwn',
+      'prefix' => ''
+    }
+  ],
+  'bAlbId' => [
+    {
+      'types' => {},
+      'entry' => 'bAlbiyd',
+      'form' => 'bAlbiyd',
+      'lines' => [
+        ';; bAlobiyd_1',
+        'bAlbyd  bAlobiyd        Nprop   Balbeed'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Balbeed'
+      ],
+      'orig' => 'bAlobiyd',
       'prefix' => ''
     }
   ],
@@ -4435,14 +4189,40 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'blAkhuwk' => [
+  'b y l n' => [
+    {
+      'types' => {
+        'bylyn' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'biyliyn',
+      'form' => 'biyliyn',
+      'lines' => [
+        ';; biyliyn_1',
+        'bylyn   bylyn   Nprop   Bilin;Billin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KiRDIS',
+      'suffix' => '',
+      'glosses' => [
+        'Bilin',
+        'Billin'
+      ],
+      'orig' => 'biyliyn',
+      'prefix' => ''
+    }
+  ],
+  'bUtiyih' => [
     {
       'types' => {},
-      'entry' => 'blAkhuwk',
-      'form' => 'blAkhuwk',
+      'entry' => 'buwtiyih',
+      'form' => 'buwtiyih',
       'lines' => [
-        ';; blAkohuwk_1',
-        'blAkhwk blAkohuwk       N0      Black Hawk'
+        ';; buwtiyih_1',
+        'bwtyh   buwtiyih        Nprop   Boutier'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4450,9 +4230,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Black Hawk'
+        'Boutier'
       ],
-      'orig' => 'blAkohuwk',
+      'orig' => 'buwtiyih',
       'prefix' => ''
     }
   ],
@@ -5020,48 +4800,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'briymAkuwf' => [
-    {
-      'types' => {},
-      'entry' => 'briymAkuwf',
-      'form' => 'briymAkuwf',
-      'lines' => [
-        ';; briymAkuwf_1',
-        'brymAkwf        briymAkuwf      Nprop   Primakoff'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Primakoff'
-      ],
-      'orig' => 'briymAkuwf',
-      'prefix' => ''
-    }
-  ],
-  'biyfiyrliy' => [
-    {
-      'types' => {},
-      'entry' => 'biyfiyrliy',
-      'form' => 'biyfiyrliy',
-      'lines' => [
-        ';; biyfiyroliy_1',
-        'byfyrly biyfiyroliy     Nprop   Beverley'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Beverley'
-      ],
-      'orig' => 'biyfiyroliy',
-      'prefix' => ''
-    }
-  ],
   'b r _t n' => [
     {
       'types' => {
@@ -5113,6 +4851,27 @@ $Lexicon = {
         'Brian'
       ],
       'orig' => 'brAyin',
+      'prefix' => ''
+    }
+  ],
+  'brImAkUf' => [
+    {
+      'types' => {},
+      'entry' => 'briymAkuwf',
+      'form' => 'briymAkuwf',
+      'lines' => [
+        ';; briymAkuwf_1',
+        'brymAkwf        briymAkuwf      Nprop   Primakoff'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Primakoff'
+      ],
+      'orig' => 'briymAkuwf',
       'prefix' => ''
     }
   ],
@@ -5612,6 +5371,29 @@ $Lexicon = {
       ],
       'orig' => 'bal~An',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mubAl',
+      'form' => 'lAmubAliyy',
+      'lines' => [
+        ';; lAmubAliy~_1',
+        'lAmbAly lAmubAliy~      Nall_L  indifferent;apathetic     [[lAmubAliy~/ADJ]]',
+        'lAmbAly lAmubAliy~      Nap_L   indifference;apathy     [[lAmubAliy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'lA >| MuFAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'indifferent',
+        'apathetic',
+        'indifference',
+        'apathy'
+      ],
+      'orig' => 'lAmubAliy~',
+      'prefix' => 'lA >| '
     }
   ],
   'b s n' => [
@@ -5635,19 +5417,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bA_tuwluw^giyA' => [
+  'bI.gUfIt^s' => [
     {
-      'types' => {
-        'bA^gbiyr' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'bA_tuwluw^giyA',
-      'form' => 'bA_tuwluw^giyA',
+      'types' => {},
+      'entry' => 'biy.guwfiyt^s',
+      'form' => 'biy.guwfiyt^s',
       'lines' => [
-        ';; bAvuwluwjiyA_1',
-        'bAvwlwjyA       bAvuwluwjiyA    N0      pathology',
-        'bAjbyr  bAjobiyr        N0      Bajbeir'
+        ';; biyguwfiyt$_1',
+        'bygwfyt$        biyguwfiyt$     Nprop   Begovich'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5655,10 +5432,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'pathology',
-        'Bajbeir'
+        'Begovich'
       ],
-      'orig' => 'bAvuwluwjiyA',
+      'orig' => 'biyguwfiyt$',
       'prefix' => ''
     }
   ],
@@ -5759,6 +5535,27 @@ $Lexicon = {
         'boughashah ("cigar" pastries with walnut filling)'
       ],
       'orig' => 'bugA$ap',
+      'prefix' => ''
+    }
+  ],
+  'bUrtlAnd' => [
+    {
+      'types' => {},
+      'entry' => 'buwrtlAnd',
+      'form' => 'buwrtlAnd',
+      'lines' => [
+        ';; buwrotlAnod_1',
+        'bwrtlAnd        buwrotlAnod     Nprop   Portland'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Portland'
+      ],
+      'orig' => 'buwrotlAnod',
       'prefix' => ''
     }
   ],
@@ -6467,28 +6264,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bylyn' => [
-    {
-      'types' => {},
-      'entry' => 'bylyn',
-      'form' => 'bylyn',
-      'lines' => [
-        ';; bylyn_1',
-        'bylyn   bylyn   Nprop   Bilin;Billin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bilin',
-        'Billin'
-      ],
-      'orig' => 'bylyn',
-      'prefix' => ''
-    }
-  ],
   'b .t r q' => [
     {
       'types' => {
@@ -6526,6 +6301,32 @@ $Lexicon = {
         'penguins'
       ],
       'orig' => 'biToriyq',
+      'prefix' => ''
+    }
+  ],
+  'birnAdUt' => [
+    {
+      'types' => {
+        'biyrnAduwt' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'birnAduwt',
+      'form' => 'birnAduwt',
+      'lines' => [
+        ';; bironAduwt_1',
+        'brnAdwt bironAduwt      Nprop   Bernadotte',
+        'byrnAdwt        biyronAduwt     Nprop   Bernadotte'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bernadotte'
+      ],
+      'orig' => 'bironAduwt',
       'prefix' => ''
     }
   ],
@@ -6579,6 +6380,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bUtAsA' => [
+    {
+      'types' => {
+        'buwtAs' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'buwtAsA',
+      'form' => 'buwtAsA',
+      'lines' => [
+        ';; buwtAsA_1',
+        'bwtAsA  buwtAsA N0      potash',
+        'bwtAs   buwtAs  N       potash'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'potash'
+      ],
+      'orig' => 'buwtAsA',
+      'prefix' => ''
+    }
+  ],
   'bahra^gAn' => [
     {
       'types' => {},
@@ -6600,14 +6427,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ban.gAluwr' => [
+  'billItrU' => [
     {
       'types' => {},
-      'entry' => 'ban.gAluwr',
-      'form' => 'ban.gAluwr',
+      'entry' => 'billiytruw',
+      'form' => 'billiytruw',
       'lines' => [
-        ';; banogAluwr_1',
-        'bngAlwr banogAluwr      N0      Bangalore'
+        ';; biloliytruw_1',
+        'bllytrw biloliytruw     Nprop   Pelletreau'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6615,28 +6442,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Bangalore'
+        'Pelletreau'
       ],
-      'orig' => 'banogAluwr',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ban.gAluwr',
-      'form' => 'ban.gAluwriyy',
-      'lines' => [
-        ';; banogAluwriy~_1',
-        'bngAlwry        banogAluwriy~   Nall    Bangalorean'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Bangalorean'
-      ],
-      'orig' => 'banogAluwriy~',
+      'orig' => 'biloliytruw',
       'prefix' => ''
     }
   ],
@@ -6798,6 +6606,69 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bIftIk' => [
+    {
+      'types' => {},
+      'entry' => 'biyftiyk',
+      'form' => 'biyftiyk',
+      'lines' => [
+        ';; biyfotiyk_1',
+        'byftyk  biyfotiyk       N       beefsteak'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'beefsteak'
+      ],
+      'orig' => 'biyfotiyk',
+      'prefix' => ''
+    }
+  ],
+  'buwAfIstA' => [
+    {
+      'types' => {},
+      'entry' => 'buwAfiystA',
+      'form' => 'buwAfiystA',
+      'lines' => [
+        ';; buwAfiysotA_1',
+        'bwAfystA        buwAfiysotA     N0      Boavista'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Boavista'
+      ],
+      'orig' => 'buwAfiysotA',
+      'prefix' => ''
+    }
+  ],
+  'bUlUniyA' => [
+    {
+      'types' => {},
+      'entry' => 'buwluwniyA',
+      'form' => 'buwluwniyA',
+      'lines' => [
+        ';; buwluwniyA_1',
+        'bwlwnyA buwluwniyA      N0      Bologna'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bologna'
+      ],
+      'orig' => 'buwluwniyA',
+      'prefix' => ''
+    }
+  ],
   'b n d q' => [
     {
       'types' => {
@@ -6919,27 +6790,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bliyzirz' => [
-    {
-      'types' => {},
-      'entry' => 'bliyzirz',
-      'form' => 'bliyzirz',
-      'lines' => [
-        ';; bliyziroz_1',
-        'blyzrz  bliyziroz       N0      Blazers'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Blazers'
-      ],
-      'orig' => 'bliyziroz',
-      'prefix' => ''
-    }
-  ],
   'b .s w' => [
     {
       'types' => {
@@ -6968,53 +6818,6 @@ $Lexicon = {
         'embers'
       ],
       'orig' => 'baSowap',
-      'prefix' => ''
-    }
-  ],
-  'binisiliyn' => [
-    {
-      'types' => {
-        'binisiyliyn' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'binisiliyn',
-      'form' => 'binisiliyn',
-      'lines' => [
-        ';; binisiliyn_1',
-        'bnslyn  binisiliyn      N       penicillin',
-        'bnsylyn binisiyliyn     N       penicillin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'penicillin'
-      ],
-      'orig' => 'binisiliyn',
-      'prefix' => ''
-    }
-  ],
-  'buwliyfiyA' => [
-    {
-      'types' => {},
-      'entry' => 'buwliyfiyA',
-      'form' => 'buwliyfiyA',
-      'lines' => [
-        ';; buwliyfiyA_1',
-        'bwlyfyA buwliyfiyA      N0      Bolivia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bolivia'
-      ],
-      'orig' => 'buwliyfiyA',
       'prefix' => ''
     }
   ],
@@ -7058,53 +6861,6 @@ $Lexicon = {
         'Bosporus'
       ],
       'orig' => 'busofuwr',
-      'prefix' => ''
-    }
-  ],
-  'brAfuw' => [
-    {
-      'types' => {},
-      'entry' => 'brAfuw',
-      'form' => 'brAfuw',
-      'lines' => [
-        ';; brAfuw_1',
-        'brAfw   brAfuw  FW      bravo     [[brAVuw/INTERJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bravo'
-      ],
-      'orig' => 'brAfuw',
-      'prefix' => ''
-    }
-  ],
-  'bansiyuwn' => [
-    {
-      'types' => {
-        'bansiyuwn' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'bansiyuwn',
-      'form' => 'bansiyuwn',
-      'lines' => [
-        ';; banosiyuwn_1',
-        'bnsywn  banosiyuwn      N/At    pension;boardinghouse'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'pension',
-        'boardinghouse'
-      ],
-      'orig' => 'banosiyuwn',
       'prefix' => ''
     }
   ],
@@ -7271,6 +7027,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bAbUna^g' => [
+    {
+      'types' => {},
+      'entry' => 'bAbuwna^g',
+      'form' => 'bAbuwna^g',
+      'lines' => [
+        ';; bAbuwnaj_1',
+        'bAbwnj  bAbuwnaj        N       chamomile'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'chamomile'
+      ],
+      'orig' => 'bAbuwnaj',
+      'prefix' => ''
+    }
+  ],
   'b q l w' => [
     {
       'types' => {
@@ -7297,91 +7074,40 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'burtuw.gAl' => [
-    {
-      'types' => {},
-      'entry' => 'burtuw.gAl',
-      'form' => 'burtuw.gAliyy',
-      'lines' => [
-        ';; burotuwgAliy~_1',
-        'brtwgAly        burotuwgAliy~   Nall    Portuguese     [[burotuwgAliy~/NOUN]]',
-        'brtwgAly        burotuwgAliy~   Nall    Portuguese     [[burotuwgAliy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Portuguese'
-      ],
-      'orig' => 'burotuwgAliy~',
-      'prefix' => ''
-    }
-  ],
-  'bAlsiyls' => [
-    {
-      'types' => {},
-      'entry' => 'bAlsiyls',
-      'form' => 'bAlsiyls',
-      'lines' => [
-        ';; bAlosiyls_1',
-        'bAlsyls bAlosiyls       Nprop   Balcells'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Balcells'
-      ],
-      'orig' => 'bAlosiyls',
-      'prefix' => ''
-    }
-  ],
-  'bruwtiyn' => [
+  'banAdUr' => [
     {
       'types' => {
-        'bruwtiyiyn' => {
-          'NduAt' => 1
-        },
-        'bruwtiyn' => {
-          'NduAt' => 1
+        'banduwr' => {
+          'Nap' => 1
         }
       },
-      'entry' => 'bruwtiyn',
-      'form' => 'bruwtiyn',
+      'entry' => 'banAduwr',
+      'form' => 'banAduwraT',
       'lines' => [
-        ';; bruwtiyn_1',
-        'brwtyn  bruwtiyn        NduAt   protein',
-        'brwtyyn bruwtiyiyn      NduAt   protein'
+        ';; banAduwrap_1',
+        'bnAdwr  banAduwr        Nap     tomatoes',
+        'bndwr   banoduwr        Nap     tomatoes'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
-        'protein'
+        'tomatoes'
       ],
-      'orig' => 'bruwtiyn',
+      'orig' => 'banAduwrap',
       'prefix' => ''
     }
   ],
-  'bArbAduws' => [
+  'bU^skIn' => [
     {
-      'types' => {
-        'barbAduws' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'bArbAduws',
-      'form' => 'bArbAduws',
+      'types' => {},
+      'entry' => 'buw^skiyn',
+      'form' => 'buw^skiyn',
       'lines' => [
-        ';; bArobAduws_1',
-        'bArbAdws        bArobAduws      N0      Barbados',
-        'brbAdws barobAduws      N0      Barbados'
+        ';; buw$okiyn_1',
+        'bw$kyn  buw$okiyn       Nprop   Pushkin'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7389,9 +7115,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Barbados'
+        'Pushkin'
       ],
-      'orig' => 'bArobAduws',
+      'orig' => 'buw$okiyn',
+      'prefix' => ''
+    }
+  ],
+  'brI.g' => [
+    {
+      'types' => {},
+      'entry' => 'briy.g',
+      'form' => 'briy.g',
+      'lines' => [
+        ';; briyg_1',
+        'bryg    briyg   Nprop   Brig'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Brig'
+      ],
+      'orig' => 'briyg',
       'prefix' => ''
     }
   ],
@@ -7810,6 +7557,42 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        '\'abAsiy.t' => {
+          'Ndip' => 2
+        },
+        '\'ibsiy.t' => {
+          'Ndu' => 2
+        }
+      },
+      'entry' => '\'ubsuw.t',
+      'form' => '\'ubsuw.taT',
+      'lines' => [
+        ';; >ubosuwTap_1',
+        '>bswT   >ubosuwT        Napdu   wheel rim',
+        'AbswT   >ubosuwT        Napdu   wheel rim',
+        '<bsyT   <ibosiyT        Ndu     wheel rim',
+        'AbsyT   <ibosiyT        Ndu     wheel rim',
+        '>bAsyT  >abAsiyT        Ndip    wheel rims',
+        'AbAsyT  >abAsiyT        Ndip    wheel rims'
+      ],
+      'patterns' => {
+        '\'abAsiy.t' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'wheel rim',
+        'wheel rims'
+      ],
+      'orig' => 'OubosuwTap',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => '\'absa.t',
       'form' => '\'absa.t',
@@ -8060,14 +7843,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'briysliy' => [
+  'brUtistU' => [
     {
       'types' => {},
-      'entry' => 'briysliy',
-      'form' => 'briysliy',
+      'entry' => 'bruwtistuw',
+      'form' => 'bruwtistuw',
       'lines' => [
-        ';; briysoliy_1',
-        'brysly  briysoliy       Nprop   Presley'
+        ';; bruwtisotuw_1',
+        'brwtstw bruwtisotuw     N0      protest'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8075,9 +7858,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Presley'
+        'protest'
       ],
-      'orig' => 'briysoliy',
+      'orig' => 'bruwtisotuw',
       'prefix' => ''
     }
   ],
@@ -8142,19 +7925,83 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwiyn.g' => [
+  'bIt^s' => [
+    {
+      'types' => {},
+      'entry' => 'biyt^s',
+      'form' => 'biyt^s',
+      'lines' => [
+        ';; biyt$_1',
+        'byt$    biyt$   Nprop   Beach'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Beach'
+      ],
+      'orig' => 'biyt$',
+      'prefix' => ''
+    }
+  ],
+  'bItsIlIm' => [
+    {
+      'types' => {},
+      'entry' => 'biytsiyliym',
+      'form' => 'biytsiyliym',
+      'lines' => [
+        ';; biytosiyliym_1',
+        'bytsylym        biytosiyliym    N0      B\'Tselem'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'B\'Tselem'
+      ],
+      'orig' => 'biytosiyliym',
+      'prefix' => ''
+    }
+  ],
+  'bUr.g' => [
+    {
+      'types' => {},
+      'entry' => 'buwr.g',
+      'form' => 'buwr.g',
+      'lines' => [
+        ';; buwrog_1',
+        'bwrg    buwrog  Nprop   Burg;Bourg'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Burg',
+        'Bourg'
+      ],
+      'orig' => 'buwrog',
+      'prefix' => ''
+    }
+  ],
+  'banyU' => [
     {
       'types' => {
-        'buwiyn^g' => {
-          'N0' => 1
+        'banyuwh' => {
+          'NAt' => 1
         }
       },
-      'entry' => 'buwiyn.g',
-      'form' => 'buwiyn.g',
+      'entry' => 'banyuw',
+      'form' => 'banyuw',
       'lines' => [
-        ';; buwiyng_1',
-        'bwyng   buwiyng N0      Boeing',
-        'bwynj   buwiynj N0      Boeing'
+        ';; banoyuw_1',
+        'bnyw    banoyuw N       bath',
+        'bnywh   banoyuwh        NAt     baths'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8162,51 +8009,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Boeing'
+        'bath',
+        'baths'
       ],
-      'orig' => 'buwiyng',
-      'prefix' => ''
-    }
-  ],
-  'buwrtlAnd' => [
-    {
-      'types' => {},
-      'entry' => 'buwrtlAnd',
-      'form' => 'buwrtlAnd',
-      'lines' => [
-        ';; buwrotlAnod_1',
-        'bwrtlAnd        buwrotlAnod     Nprop   Portland'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Portland'
-      ],
-      'orig' => 'buwrotlAnod',
-      'prefix' => ''
-    }
-  ],
-  'bakiytA' => [
-    {
-      'types' => {},
-      'entry' => 'bakiytA',
-      'form' => 'bakiytA',
-      'lines' => [
-        ';; bakiytA_1',
-        'bkytA   bakiytA Nprop   Bakita'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bakita'
-      ],
-      'orig' => 'bakiytA',
+      'orig' => 'banoyuw',
       'prefix' => ''
     }
   ],
@@ -8263,6 +8069,53 @@ $Lexicon = {
         'distance'
       ],
       'orig' => 'bawn',
+      'prefix' => ''
+    }
+  ],
+  'bUs.t' => [
+    {
+      'types' => {
+        'buwst' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'buws.t',
+      'form' => 'buws.taT',
+      'lines' => [
+        ';; buwsoTap_1',
+        'bwsT    buwsoT  Nap     mail',
+        'bwst    buwsot  Nap     mail'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'mail'
+      ],
+      'orig' => 'buwsoTap',
+      'prefix' => ''
+    }
+  ],
+  'brUs' => [
+    {
+      'types' => {},
+      'entry' => 'bruws',
+      'form' => 'bruws',
+      'lines' => [
+        ';; bruws_1',
+        'brws    bruws   Nprop   Bruce'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bruce'
+      ],
+      'orig' => 'bruws',
       'prefix' => ''
     }
   ],
@@ -8364,28 +8217,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'by.dwn' => [
-    {
-      'types' => {},
-      'entry' => 'by.dwn',
-      'form' => 'by.dwn',
-      'lines' => [
-        ';; byDwn_1',
-        'byDwn   byDwn   Nprop   Baidun;Baidoun'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Baidun',
-        'Baidoun'
-      ],
-      'orig' => 'byDwn',
-      'prefix' => ''
-    }
-  ],
   'buland' => [
     {
       'types' => {
@@ -8411,48 +8242,6 @@ $Lexicon = {
         'Buland'
       ],
       'orig' => 'bulanod',
-      'prefix' => ''
-    }
-  ],
-  'bAlbiyd' => [
-    {
-      'types' => {},
-      'entry' => 'bAlbiyd',
-      'form' => 'bAlbiyd',
-      'lines' => [
-        ';; bAlobiyd_1',
-        'bAlbyd  bAlobiyd        Nprop   Balbeed'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Balbeed'
-      ],
-      'orig' => 'bAlobiyd',
-      'prefix' => ''
-    }
-  ],
-  'bAn.taluwn' => [
-    {
-      'types' => {},
-      'entry' => 'bAn.taluwn',
-      'form' => 'bAn.taluwn',
-      'lines' => [
-        ';; bAnoTaluwn_1',
-        'bAnTlwn bAnoTaluwn      N       trousers'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'trousers'
-      ],
-      'orig' => 'bAnoTaluwn',
       'prefix' => ''
     }
   ],
@@ -8514,6 +8303,94 @@ $Lexicon = {
         'clauses'
       ],
       'orig' => 'banod',
+      'prefix' => ''
+    }
+  ],
+  'blUtUn' => [
+    {
+      'types' => {},
+      'entry' => 'bluwtuwn',
+      'form' => 'bluwtuwniyy',
+      'lines' => [
+        ';; bluwtuwniy~_1',
+        'blwtwny bluwtuwniy~     Nall    plutonium     [[bluwtuwniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'plutonium'
+      ],
+      'orig' => 'bluwtuwniy~',
+      'prefix' => ''
+    }
+  ],
+  'bAkU' => [
+    {
+      'types' => {},
+      'entry' => 'bAkuw',
+      'form' => 'bAkuw',
+      'lines' => [
+        ';; bAkuw_1',
+        'bAkw    bAkuw   N0      Baku'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Baku'
+      ],
+      'orig' => 'bAkuw',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'bAkaw' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'bAkuw',
+      'form' => 'bAkuw',
+      'lines' => [
+        ';; bAkuw_2',
+        'bAkw    bAkuw   N       packet',
+        'bAkw    bAkaw   NAt     packets'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'packet',
+        'packets'
+      ],
+      'orig' => 'bAkuw',
+      'prefix' => ''
+    }
+  ],
+  'brInt' => [
+    {
+      'types' => {},
+      'entry' => 'briynt',
+      'form' => 'briynt',
+      'lines' => [
+        ';; briynt_1',
+        'brynt   briynt  Nprop   Print'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Print'
+      ],
+      'orig' => 'briynt',
       'prefix' => ''
     }
   ],
@@ -8597,14 +8474,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAtiystuwtA' => [
+  'bUtrA' => [
     {
       'types' => {},
-      'entry' => 'bAtiystuwtA',
-      'form' => 'bAtiystuwtA',
+      'entry' => 'buwtrA',
+      'form' => 'buwtrA',
       'lines' => [
-        ';; bAtiysotuwtA_1',
-        'bAtystwtA       bAtiysotuwtA    Nprop   Batistuta'
+        ';; buwtrA_1',
+        'bwtrA   buwtrA  Nprop   Putra'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8612,34 +8489,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Batistuta'
+        'Putra'
       ],
-      'orig' => 'bAtiysotuwtA',
-      'prefix' => ''
-    }
-  ],
-  'biylyah' => [
-    {
-      'types' => {
-        'biylyah' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'biylyah',
-      'form' => 'biylyah',
-      'lines' => [
-        ';; biyloyah_1',
-        'bylyh   biyloyah        N/At    marble'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'marble'
-      ],
-      'orig' => 'biyloyah',
+      'orig' => 'buwtrA',
       'prefix' => ''
     }
   ],
@@ -8687,14 +8539,35 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyuwrkmAn' => [
+  'bUtaflIq' => [
     {
       'types' => {},
-      'entry' => 'biyuwrkmAn',
-      'form' => 'biyuwrkmAn',
+      'entry' => 'buwtafliyq',
+      'form' => 'buwtafliyqaT',
       'lines' => [
-        ';; biyuwrkomAn_1',
-        'bywrkmAn        biyuwrkomAn     Nprop   Bjorkman'
+        ';; buwtafliyqap_1',
+        'bwtflyqp        buwtafliyqap    N0      Bouteflika'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'Bouteflika'
+      ],
+      'orig' => 'buwtafliyqap',
+      'prefix' => ''
+    }
+  ],
+  'billI' => [
+    {
+      'types' => {},
+      'entry' => 'billiy',
+      'form' => 'billiy',
+      'lines' => [
+        ';; bil~iy_1',
+        'bly     bil~iy  N       ball bearing'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8702,9 +8575,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Bjorkman'
+        'ball bearing'
       ],
-      'orig' => 'biyuwrkomAn',
+      'orig' => 'bil~iy',
       'prefix' => ''
     }
   ],
@@ -8746,88 +8619,6 @@ $Lexicon = {
         'Bou'
       ],
       'orig' => 'buw',
-      'prefix' => ''
-    }
-  ],
-  'buwr.gAs' => [
-    {
-      'types' => {},
-      'entry' => 'buwr.gAs',
-      'form' => 'buwr.gAs',
-      'lines' => [
-        ';; buwrogAs_1',
-        'bwrgAs  buwrogAs        Nprop   Burgas'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Burgas'
-      ],
-      'orig' => 'buwrogAs',
-      'prefix' => ''
-    }
-  ],
-  'buwrtuwriykuw' => [
-    {
-      'types' => {},
-      'entry' => 'buwrtuwriykuw',
-      'form' => 'buwrtuwriykuw',
-      'lines' => [
-        ';; buwrotuwriykuw_1',
-        'bwrtwrykw       buwrotuwriykuw  Nprop   Puerto Rico'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Puerto Rico'
-      ],
-      'orig' => 'buwrotuwriykuw',
-      'prefix' => ''
-    }
-  ],
-  'brAndiy' => [
-    {
-      'types' => {},
-      'entry' => 'brAndiy',
-      'form' => 'brAndiy',
-      'lines' => [
-        ';; brAnodiy_1',
-        'brAndy  brAnodiy        N0      brandy'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'brandy'
-      ],
-      'orig' => 'brAnodiy',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'brAndiy',
-      'form' => 'brAndiy',
-      'lines' => [
-        ';; brAnodiy_2',
-        'brAndy  brAnodiy        N0      Brandy'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Brandy'
-      ],
-      'orig' => 'brAnodiy',
       'prefix' => ''
     }
   ],
@@ -8950,6 +8741,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'brUsiyA' => [
+    {
+      'types' => {},
+      'entry' => 'bruwsiyA',
+      'form' => 'bruwsiyA',
+      'lines' => [
+        ';; bruwsiyA_1',
+        'brwsyA  bruwsiyA        N0      Prussia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Prussia'
+      ],
+      'orig' => 'bruwsiyA',
+      'prefix' => ''
+    }
+  ],
   'brint' => [
     {
       'types' => {},
@@ -8992,19 +8804,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwiynus' => [
+  'brUtUkUl' => [
     {
       'types' => {
-        'biyuwnus' => {
-          'N0' => 1
+        'bruwtuwkuwl' => {
+          'NduAt' => 1
         }
       },
-      'entry' => 'buwiynus',
-      'form' => 'buwiynus',
+      'entry' => 'bruwtuwkuwl',
+      'form' => 'bruwtuwkuwl',
       'lines' => [
-        ';; buwiynus_1',
-        'bwyns   buwiynus        N0      Buenos',
-        'bywns   biyuwnus        N0      Buenos'
+        ';; bruwtuwkuwl_1',
+        'brwtwkwl        bruwtuwkuwl     NduAt   protocol'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9012,30 +8823,28 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Buenos'
+        'protocol'
       ],
-      'orig' => 'buwiynus',
+      'orig' => 'bruwtuwkuwl',
       'prefix' => ''
-    }
-  ],
-  'buwltuwn' => [
+    },
     {
       'types' => {},
-      'entry' => 'buwltuwn',
-      'form' => 'buwltuwn',
+      'entry' => 'bruwtuwkuwl',
+      'form' => 'bruwtuwkuwliyy',
       'lines' => [
-        ';; buwlotuwn_1',
-        'bwltwn  buwlotuwn       Nprop   Bolton'
+        ';; bruwtuwkuwliy~_1',
+        'brwtwkwly       bruwtuwkuwliy~  Nall    protocol     [[bruwtuwkuwliy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'Bolton'
+        'protocol'
       ],
-      'orig' => 'buwlotuwn',
+      'orig' => 'bruwtuwkuwliy~',
       'prefix' => ''
     }
   ],
@@ -9153,14 +8962,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyuwluw^giyA' => [
+  'buwInus' => [
     {
-      'types' => {},
-      'entry' => 'biyuwluw^giyA',
-      'form' => 'biyuwluw^giyA',
+      'types' => {
+        'biyuwnus' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'buwiynus',
+      'form' => 'buwiynus',
       'lines' => [
-        ';; biyuwluwjiyA_1',
-        'bywlwjyA        biyuwluwjiyA    N       biology'
+        ';; buwiynus_1',
+        'bwyns   buwiynus        N0      Buenos',
+        'bywns   biyuwnus        N0      Buenos'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9168,9 +8982,42 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'biology'
+        'Buenos'
       ],
-      'orig' => 'biyuwluwjiyA',
+      'orig' => 'buwiynus',
+      'prefix' => ''
+    }
+  ],
+  'brUtistAnt' => [
+    {
+      'types' => {
+        'bruwtistAnt' => {
+          'N' => 1
+        },
+        'bruwtistAntiyniyy' => {
+          'Nall' => 2
+        }
+      },
+      'entry' => 'bruwtistAnt',
+      'form' => 'bruwtistAntiyy',
+      'lines' => [
+        ';; bruwtisotAnotiy~_1',
+        'brwtstAnty      bruwtisotAnotiy~        Nall    Protestant     [[bruwtisotAntiy~/NOUN]]',
+        'brwtstAnty      bruwtisotAnotiy~        Nall    Protestant     [[bruwtisotAntiy~/ADJ]]',
+        'brwtstAntyny    bruwtisotAnotiyniy~     Nall    Protestant     [[bruwtisotAntiyniy~/NOUN]]',
+        'brwtstAntyny    bruwtisotAnotiyniy~     Nall    Protestant     [[bruwtisotAntiyniy~/ADJ]]',
+        'brwtstAnt       bruwtisotAnt    N       Protestants'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Protestant',
+        'Protestants'
+      ],
+      'orig' => 'bruwtisotAnotiy~',
       'prefix' => ''
     }
   ],
@@ -9469,14 +9316,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyrl' => [
+  'bAnIk' => [
     {
       'types' => {},
-      'entry' => 'biyrl',
-      'form' => 'biyrl',
+      'entry' => 'bAniyk',
+      'form' => 'bAniyk',
       'lines' => [
-        ';; biyrl_1',
-        'byrl    biyrl   Nprop   Pearle'
+        ';; bAniyk_1',
+        'bAnyk   bAniyk  Nprop   Banik'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9484,51 +9331,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Pearle'
+        'Banik'
       ],
-      'orig' => 'biyrl',
-      'prefix' => ''
-    }
-  ],
-  'bAbAndriyuw' => [
-    {
-      'types' => {},
-      'entry' => 'bAbAndriyuw',
-      'form' => 'bAbAndriyuw',
-      'lines' => [
-        ';; bAbAnodriyuw_1',
-        'bAbAndryw       bAbAnodriyuw    Nprop   Papandreou'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Papandreou'
-      ],
-      'orig' => 'bAbAnodriyuw',
-      'prefix' => ''
-    }
-  ],
-  'bsiykuwluw^giyA' => [
-    {
-      'types' => {},
-      'entry' => 'bsiykuwluw^giyA',
-      'form' => 'bsiykuwluw^giyA',
-      'lines' => [
-        ';; bsiykuwluwjiyA_1',
-        'bsykwlwjyA      bsiykuwluwjiyA  N0      psychology'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'psychology'
-      ],
-      'orig' => 'bsiykuwluwjiyA',
+      'orig' => 'bAniyk',
       'prefix' => ''
     }
   ],
@@ -9573,43 +9378,55 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyruwqrA.tiyy' => [
+  'biyAnU' => [
     {
-      'types' => {},
-      'entry' => 'biyruwqrA.tiyy',
-      'form' => 'biyruwqrA.tiyy',
+      'types' => {
+        'biyAnuwh' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'biyAnuw',
+      'form' => 'biyAnuw',
       'lines' => [
-        ';; biyruwqrATiy~_1',
-        'byrwqrATy       biyruwqrATiy~   Nall    bureaucratic     [[biyruwqrATiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bureaucratic'
-      ],
-      'orig' => 'biyruwqrATiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'biyruwqrA.tiyy',
-      'form' => 'biyruwqrA.tiyyaT',
-      'lines' => [
-        ';; biyruwqrATiy~ap_1',
-        'byrwqrATy       biyruwqrATiy~   Nap     bureaucracy     [[biyruwqrATiy~/NOUN]]'
+        ';; biyAnuw_1',
+        'byAnw   biyAnuw N0      piano',
+        'byAnwh  biyAnuwh        NAt     pianos'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'bureaucracy'
+        'piano',
+        'pianos'
       ],
-      'orig' => 'biyruwqrATiy~ap',
+      'orig' => 'biyAnuw',
+      'prefix' => ''
+    }
+  ],
+  'bfIl^sIftr' => [
+    {
+      'types' => {
+        'bfyl^syftr' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'bfiyl^siyftr',
+      'form' => 'bfiyl^siyftr',
+      'lines' => [
+        ';; bfiyl$iyftr_1',
+        'bfyl$yftr       bfyl$yftr       N0      Pfeilschifter'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Pfeilschifter'
+      ],
+      'orig' => 'bfiyl$iyftr',
       'prefix' => ''
     }
   ],
@@ -9634,27 +9451,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwlfAr' => [
-    {
-      'types' => {},
-      'entry' => 'buwlfAr',
-      'form' => 'buwlfAr',
-      'lines' => [
-        ';; buwlofAr_1',
-        'bwlfAr  buwlofAr        N       boulevard'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'boulevard'
-      ],
-      'orig' => 'buwlofAr',
-      'prefix' => ''
-    }
-  ],
   'bruwArd' => [
     {
       'types' => {},
@@ -9673,6 +9469,27 @@ $Lexicon = {
         'Brouard'
       ],
       'orig' => 'bruwArod',
+      'prefix' => ''
+    }
+  ],
+  'bIkIn.ghAm' => [
+    {
+      'types' => {},
+      'entry' => 'biykiyn.ghAm',
+      'form' => 'biykiyn.ghAm',
+      'lines' => [
+        ';; biykiyngohAm_1',
+        'bykynghAm       biykiyngohAm    Nprop   Beckingham'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Beckingham'
+      ],
+      'orig' => 'biykiyngohAm',
       'prefix' => ''
     }
   ],
@@ -9986,6 +9803,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bAnUfA' => [
+    {
+      'types' => {},
+      'entry' => 'bAnuwfA',
+      'form' => 'bAnuwfA',
+      'lines' => [
+        ';; bAnuwfA_1',
+        'bAnwfA  bAnuwfA Nprop   Panova'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Panova'
+      ],
+      'orig' => 'bAnuwfA',
+      'prefix' => ''
+    }
+  ],
   'b n n' => [
     {
       'types' => {},
@@ -10173,14 +10011,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAtuwlA' => [
+  'bUndislI.gah' => [
     {
       'types' => {},
-      'entry' => 'bAtuwlA',
-      'form' => 'bAtuwlA',
+      'entry' => 'buwndisliy.gah',
+      'form' => 'buwndisliy.gah',
       'lines' => [
-        ';; bAtuwlA_1',
-        'bAtwlA  bAtuwlA N0      birch tree'
+        ';; buwnodisoliygah_1',
+        'bwndslygh       buwnodisoliygah N0      Bundesliga'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10188,9 +10026,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'birch tree'
+        'Bundesliga'
       ],
-      'orig' => 'bAtuwlA',
+      'orig' => 'buwnodisoliygah',
       'prefix' => ''
     }
   ],
@@ -10241,6 +10079,27 @@ $Lexicon = {
         'melting pot'
       ],
       'orig' => 'buwTap',
+      'prefix' => ''
+    }
+  ],
+  'bUntA' => [
+    {
+      'types' => {},
+      'entry' => 'buwntA',
+      'form' => 'buwntA',
+      'lines' => [
+        ';; buwnotA_1',
+        'bwntA   buwnotA Nprop   Punta'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Punta'
+      ],
+      'orig' => 'buwnotA',
       'prefix' => ''
     }
   ],
@@ -10424,14 +10283,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwdiyruw.gA' => [
+  'bakItA' => [
     {
       'types' => {},
-      'entry' => 'buwdiyruw.gA',
-      'form' => 'buwdiyruw.gA',
+      'entry' => 'bakiytA',
+      'form' => 'bakiytA',
       'lines' => [
-        ';; buwdiyruwgA_1',
-        'bwdyrwgA        buwdiyruwgA     Nprop   Bodiroga'
+        ';; bakiytA_1',
+        'bkytA   bakiytA Nprop   Bakita'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10439,81 +10298,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Bodiroga'
+        'Bakita'
       ],
-      'orig' => 'buwdiyruwgA',
-      'prefix' => ''
-    }
-  ],
-  'briy^siyA' => [
-    {
-      'types' => {},
-      'entry' => 'briy^siyA',
-      'form' => 'briy^siyA',
-      'lines' => [
-        ';; briy$iyA_1',
-        'bry$yA  briy$iyA        Nprop   Brescia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Brescia'
-      ],
-      'orig' => 'briy$iyA',
-      'prefix' => ''
-    }
-  ],
-  'buwruwndiy' => [
-    {
-      'types' => {
-        'buruwndiy' => {
-          'Nprop' => 1
-        },
-        'burundiy' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'buwruwndiy',
-      'form' => 'buwruwndiy',
-      'lines' => [
-        ';; buwruwnodiy_1',
-        'bwrwndy buwruwnodiy     Nprop   Burundi',
-        'brwndy  buruwnodiy      Nprop   Burundi',
-        'brndy   burunodiy       Nprop   Burundi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Burundi'
-      ],
-      'orig' => 'buwruwnodiy',
-      'prefix' => ''
-    }
-  ],
-  'buwrdir' => [
-    {
-      'types' => {},
-      'entry' => 'buwrdir',
-      'form' => 'buwrdir',
-      'lines' => [
-        ';; buwrodir_1',
-        'bwrdr   buwrodir        Nprop   Burdir ??'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Burdir ??'
-      ],
-      'orig' => 'buwrodir',
+      'orig' => 'bakiytA',
       'prefix' => ''
     }
   ],
@@ -10538,14 +10325,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyrtiy' => [
+  'bIrsUl' => [
     {
       'types' => {},
-      'entry' => 'biyrtiy',
-      'form' => 'biyrtiy',
+      'entry' => 'biyrsuwl',
+      'form' => 'biyrsuwl',
       'lines' => [
-        ';; biyrotiy_1',
-        'byrty   biyrotiy        N0      Berti'
+        ';; biyrosuwl_1',
+        'byrswl  biyrosuwl       Nprop   Peirsol'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10553,9 +10340,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Berti'
+        'Peirsol'
       ],
-      'orig' => 'biyrotiy',
+      'orig' => 'biyrosuwl',
       'prefix' => ''
     }
   ],
@@ -10584,6 +10371,33 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bA_tUlU^giyA' => [
+    {
+      'types' => {
+        'bA^gbiyr' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'bA_tuwluw^giyA',
+      'form' => 'bA_tuwluw^giyA',
+      'lines' => [
+        ';; bAvuwluwjiyA_1',
+        'bAvwlwjyA       bAvuwluwjiyA    N0      pathology',
+        'bAjbyr  bAjobiyr        N0      Bajbeir'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'pathology',
+        'Bajbeir'
+      ],
+      'orig' => 'bAvuwluwjiyA',
+      'prefix' => ''
+    }
+  ],
   'b w ^g h' => [
     {
       'types' => {
@@ -10609,14 +10423,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buw_hArist' => [
+  'ban.talUn' => [
     {
-      'types' => {},
-      'entry' => 'buw_hArist',
-      'form' => 'buw_hArist',
+      'types' => {
+        'ban.taluwn' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'ban.taluwn',
+      'form' => 'ban.taluwn',
       'lines' => [
-        ';; buwxArisot_1',
-        'bwxArst buwxArisot      Nprop   Bucharest'
+        ';; banoTaluwn_1',
+        'bnTlwn  banoTaluwn      NduAt   trousers'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10624,28 +10442,32 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Bucharest'
+        'trousers'
       ],
-      'orig' => 'buwxArisot',
+      'orig' => 'banoTaluwn',
       'prefix' => ''
-    },
+    }
+  ],
+  'brUf' => [
     {
       'types' => {},
-      'entry' => 'buw_hArist',
-      'form' => 'buw_hAristiyy',
+      'entry' => 'bruwf',
+      'form' => 'bruwfaT',
       'lines' => [
-        ';; buwxArisotiy~_1',
-        'bwxArsty        buwxArisotiy~   Nall    of/from Bucharest     [[buwxArisotiy~/ADJ]]'
+        ';; bruwfap_1',
+        'brwf    bruwf   NapAt   test;trial run;proof'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
-        'of/from Bucharest'
+        'test',
+        'trial run',
+        'proof'
       ],
-      'orig' => 'buwxArisotiy~',
+      'orig' => 'bruwfap',
       'prefix' => ''
     }
   ],
@@ -10670,14 +10492,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyriyrA' => [
+  'bitrUstrAtI^gI' => [
     {
       'types' => {},
-      'entry' => 'biyriyrA',
-      'form' => 'biyriyrA',
+      'entry' => 'bitruwstrAtiy^giy',
+      'form' => 'bitruwstrAtiy^giy',
       'lines' => [
-        ';; biyriyrA_1',
-        'byryrA  biyriyrA        Nprop   Pereira;Parreira'
+        ';; bitoruwstrAtiyjiy_1',
+        'btrwstrAtyjy    bitoruwstrAtiyjiy       N0      Petrostrategy'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10685,46 +10507,24 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Pereira',
-        'Parreira'
+        'Petrostrategy'
       ],
-      'orig' => 'biyriyrA',
+      'orig' => 'bitoruwstrAtiyjiy',
       'prefix' => ''
     }
   ],
-  'biyAt^sntiyniy' => [
-    {
-      'types' => {},
-      'entry' => 'biyAt^sntiyniy',
-      'form' => 'biyAt^sntiyniy',
-      'lines' => [
-        ';; biyAt$notiyniy_1',
-        'byAt$ntyny      biyAt$notiyniy  Nprop   Piacentini'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Piacentini'
-      ],
-      'orig' => 'biyAt$notiyniy',
-      'prefix' => ''
-    }
-  ],
-  'buluwfir' => [
+  'bArAnUyA' => [
     {
       'types' => {
-        'buluwfir' => {
-          'NduAt' => 1
+        'bArAnuwyY' => {
+          'N' => 1
         }
       },
-      'entry' => 'buluwfir',
-      'form' => 'buluwfir',
+      'entry' => 'bArAnuwyA',
+      'form' => 'bArAnuwyA',
       'lines' => [
-        ';; buluwfir_1',
-        'blwfr   buluwfir        NduAt   pullover'
+        ';; bArAnuwyA_1',
+        'bArAnwyA        bArAnuwyA       N       paranoia'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10732,9 +10532,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'pullover'
+        'paranoia'
       ],
-      'orig' => 'buluwfir',
+      'orig' => 'bArAnuwyA',
       'prefix' => ''
     }
   ],
@@ -10796,27 +10596,6 @@ $Lexicon = {
         'whale'
       ],
       'orig' => 'bAl',
-      'prefix' => ''
-    }
-  ],
-  'bliyz' => [
-    {
-      'types' => {},
-      'entry' => 'bliyz',
-      'form' => 'bliyz',
-      'lines' => [
-        ';; bliyz_1',
-        'blyz    bliyz   FW-Wa   please'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'please'
-      ],
-      'orig' => 'bliyz',
       'prefix' => ''
     }
   ],
@@ -11157,6 +10936,49 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'blIr' => [
+    {
+      'types' => {},
+      'entry' => 'bliyr',
+      'form' => 'bliyr',
+      'lines' => [
+        ';; bliyr_1',
+        'blyr    bliyr   Nprop   Blair'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Blair'
+      ],
+      'orig' => 'bliyr',
+      'prefix' => ''
+    }
+  ],
+  'bikIn' => [
+    {
+      'types' => {},
+      'entry' => 'bikiyn',
+      'form' => 'bikiyn',
+      'lines' => [
+        ';; bikiyn_1',
+        'bkyn    bikiyn  Ndip    Peking;Beijing'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Peking',
+        'Beijing'
+      ],
+      'orig' => 'bikiyn',
+      'prefix' => ''
+    }
+  ],
   'b .s q' => [
     {
       'types' => {
@@ -11280,28 +11102,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwr.s' => [
-    {
-      'types' => {},
-      'entry' => 'buwr.s',
-      'form' => 'buwr.saT',
-      'lines' => [
-        ';; buwroSap_1',
-        'bwrS    buwroS  NapAt   stock exchange;bourse'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'stock exchange',
-        'bourse'
-      ],
-      'orig' => 'buwroSap',
-      'prefix' => ''
-    }
-  ],
   'b .g _t' => [
     {
       'types' => {
@@ -11329,28 +11129,6 @@ $Lexicon = {
         'sparrows'
       ],
       'orig' => 'bugAv',
-      'prefix' => ''
-    }
-  ],
-  'buwr.g' => [
-    {
-      'types' => {},
-      'entry' => 'buwr.g',
-      'form' => 'buwr.g',
-      'lines' => [
-        ';; buwrog_1',
-        'bwrg    buwrog  Nprop   Burg;Bourg'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Burg',
-        'Bourg'
-      ],
-      'orig' => 'buwrog',
       'prefix' => ''
     }
   ],
@@ -11396,14 +11174,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyriniyh' => [
+  'bUr.gAs' => [
     {
       'types' => {},
-      'entry' => 'biyriniyh',
-      'form' => 'biyriniyh',
+      'entry' => 'buwr.gAs',
+      'form' => 'buwr.gAs',
       'lines' => [
-        ';; biyriniyh_1',
-        'byrnyh  biyriniyh       N0      Pyrenees'
+        ';; buwrogAs_1',
+        'bwrgAs  buwrogAs        Nprop   Burgas'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11411,9 +11189,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Pyrenees'
+        'Burgas'
       ],
-      'orig' => 'biyriniyh',
+      'orig' => 'buwrogAs',
       'prefix' => ''
     }
   ],
@@ -11456,6 +11234,27 @@ $Lexicon = {
         'chief'
       ],
       'orig' => 'bA$',
+      'prefix' => ''
+    }
+  ],
+  'blAnIt' => [
+    {
+      'types' => {},
+      'entry' => 'blAniyt',
+      'form' => 'blAniyt',
+      'lines' => [
+        ';; blAniyt_1',
+        'blAnyt  blAniyt N0      Planet'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Planet'
+      ],
+      'orig' => 'blAniyt',
       'prefix' => ''
     }
   ],
@@ -11895,14 +11694,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'briy.g' => [
+  'bAktIriyA' => [
     {
       'types' => {},
-      'entry' => 'briy.g',
-      'form' => 'briy.g',
+      'entry' => 'bAktiyriyA',
+      'form' => 'bAktiyriyA',
       'lines' => [
-        ';; briyg_1',
-        'bryg    briyg   Nprop   Brig'
+        ';; bAkotiyriyA_1',
+        'bAktyryA        bAkotiyriyA     N0      bacteria'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11910,25 +11709,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Brig'
+        'bacteria'
       ],
-      'orig' => 'briyg',
+      'orig' => 'bAkotiyriyA',
       'prefix' => ''
     }
   ],
-  'birnAduwt' => [
+  'blAntIr' => [
     {
-      'types' => {
-        'biyrnAduwt' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'birnAduwt',
-      'form' => 'birnAduwt',
+      'types' => {},
+      'entry' => 'blAntiyr',
+      'form' => 'blAntiyr',
       'lines' => [
-        ';; bironAduwt_1',
-        'brnAdwt bironAduwt      Nprop   Bernadotte',
-        'byrnAdwt        biyronAduwt     Nprop   Bernadotte'
+        ';; blAnotiyr_1',
+        'blAntyr blAnotiyr       N0      Blantyre'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11936,20 +11730,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Bernadotte'
+        'Blantyre'
       ],
-      'orig' => 'bironAduwt',
+      'orig' => 'blAnotiyr',
       'prefix' => ''
     }
   ],
-  'billiytruw' => [
+  'brAfU' => [
     {
       'types' => {},
-      'entry' => 'billiytruw',
-      'form' => 'billiytruw',
+      'entry' => 'brAfuw',
+      'form' => 'brAfuw',
       'lines' => [
-        ';; biloliytruw_1',
-        'bllytrw biloliytruw     Nprop   Pelletreau'
+        ';; brAfuw_1',
+        'brAfw   brAfuw  FW      bravo     [[brAVuw/INTERJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11957,30 +11751,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Pelletreau'
+        'bravo'
       ],
-      'orig' => 'biloliytruw',
-      'prefix' => ''
-    }
-  ],
-  'bruwliytAriyA' => [
-    {
-      'types' => {},
-      'entry' => 'bruwliytAriyA',
-      'form' => 'bruwliytAriyA',
-      'lines' => [
-        ';; bruwliytAriyA_1',
-        'brwlytAryA      bruwliytAriyA   N0      proletariat'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'proletariat'
-      ],
-      'orig' => 'bruwliytAriyA',
+      'orig' => 'brAfuw',
       'prefix' => ''
     }
   ],
@@ -12004,6 +11777,32 @@ $Lexicon = {
         'benzene'
       ],
       'orig' => 'binoziyn',
+      'prefix' => ''
+    }
+  ],
+  'blUtU' => [
+    {
+      'types' => {
+        'bluw.tuw' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'bluwtuw',
+      'form' => 'bluwtuw',
+      'lines' => [
+        ';; bluwtuw_1',
+        'blwtw   bluwtuw N       Pluto',
+        'blwTw   bluwTuw N       Pluto'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Pluto'
+      ],
+      'orig' => 'bluwtuw',
       'prefix' => ''
     }
   ],
@@ -12065,87 +11864,6 @@ $Lexicon = {
         'bandage'
       ],
       'orig' => 'bAnodAj',
-      'prefix' => ''
-    }
-  ],
-  'buw^skA^s' => [
-    {
-      'types' => {},
-      'entry' => 'buw^skA^s',
-      'form' => 'buw^skA^s',
-      'lines' => [
-        ';; buw$kA$_1',
-        'bw$kA$  buw$kA$ Nprop   Puskas'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Puskas'
-      ],
-      'orig' => 'buw$kA$',
-      'prefix' => ''
-    }
-  ],
-  'ban^glAdiy^s' => [
-    {
-      'types' => {
-        'ban.glAdiy^s' => {
-          'N' => 1
-        },
-        'ban^glAdi^s' => {
-          'N' => 1
-        },
-        'ban.glAdi^s' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'ban^glAdiy^s',
-      'form' => 'ban^glAdiy^s',
-      'lines' => [
-        ';; banojlAdiy$_1',
-        'bnjlAdy$        banojlAdiy$     N       Bangladesh',
-        'bnjlAd$ banojlAdi$      N       Bangladesh',
-        'bnglAdy$        banoglAdiy$     N       Bangladesh',
-        'bnglAd$ banoglAdi$      N       Bangladesh'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bangladesh'
-      ],
-      'orig' => 'banojlAdiy$',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ban.glAdiy^siyy' => {
-          'Nall' => 2
-        }
-      },
-      'entry' => 'ban^glAdiy^s',
-      'form' => 'ban^glAdiy^siyy',
-      'lines' => [
-        ';; banojlAdiy$iy~_1',
-        'bnjlAdy$y       banojlAdiy$iy~  Nall    Bangladesh     [[banojalAdiy$iy~/NOUN]]',
-        'bnglAdy$y       banoglAdiy$iy~  Nall    Bangladesh     [[banogalAdiy$iy~/NOUN]]',
-        'bnjlAdy$y       banojlAdiy$iy~  Nall    Bangladesh     [[banojalAdiy$iy~/ADJ]]',
-        'bnglAdy$y       banoglAdiy$iy~  Nall    Bangladesh     [[banogalAdiy$iy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Bangladesh'
-      ],
-      'orig' => 'banojlAdiy$iy~',
       'prefix' => ''
     }
   ],
@@ -12265,6 +11983,27 @@ $Lexicon = {
         'trashy'
       ],
       'orig' => 'mubahoraj',
+      'prefix' => ''
+    }
+  ],
+  'bAlIrmU' => [
+    {
+      'types' => {},
+      'entry' => 'bAliyrmuw',
+      'form' => 'bAliyrmuw',
+      'lines' => [
+        ';; bAliyromuw_1',
+        'bAlyrmw bAliyromuw      Nprop   Palermo'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Palermo'
+      ],
+      'orig' => 'bAliyromuw',
       'prefix' => ''
     }
   ],
@@ -12393,48 +12132,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAbuwna^g' => [
-    {
-      'types' => {},
-      'entry' => 'bAbuwna^g',
-      'form' => 'bAbuwna^g',
-      'lines' => [
-        ';; bAbuwnaj_1',
-        'bAbwnj  bAbuwnaj        N       chamomile'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'chamomile'
-      ],
-      'orig' => 'bAbuwnaj',
-      'prefix' => ''
-    }
-  ],
-  'bAtriyk' => [
-    {
-      'types' => {},
-      'entry' => 'bAtriyk',
-      'form' => 'bAtriyk',
-      'lines' => [
-        ';; bAtriyk_1',
-        'bAtryk  bAtriyk Nprop   Patrick'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Patrick'
-      ],
-      'orig' => 'bAtriyk',
-      'prefix' => ''
-    }
-  ],
   'bA^sA' => [
     {
       'types' => {
@@ -12512,74 +12209,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'ubsuw.t' => [
+  'bakAlUriyA' => [
     {
       'types' => {
-        '\'abAsiy.t' => {
-          'Ndip' => 2
-        },
-        '\'ibsiy.t' => {
-          'Ndu' => 2
+        'bakaluwriyA' => {
+          'N0' => 1
         }
       },
-      'entry' => '\'ubsuw.t',
-      'form' => '\'ubsuw.taT',
+      'entry' => 'bakAluwriyA',
+      'form' => 'bakAluwriyA',
       'lines' => [
-        ';; >ubosuwTap_1',
-        '>bswT   >ubosuwT        Napdu   wheel rim',
-        'AbswT   >ubosuwT        Napdu   wheel rim',
-        '<bsyT   <ibosiyT        Ndu     wheel rim',
-        'AbsyT   <ibosiyT        Ndu     wheel rim',
-        '>bAsyT  >abAsiyT        Ndip    wheel rims',
-        'AbAsyT  >abAsiyT        Ndip    wheel rims'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'wheel rim',
-        'wheel rims'
-      ],
-      'orig' => 'OubosuwTap',
-      'prefix' => ''
-    }
-  ],
-  'buwrtuwriyk' => [
-    {
-      'types' => {},
-      'entry' => 'buwrtuwriyk',
-      'form' => 'buwrtuwriykiyy',
-      'lines' => [
-        ';; buwrotuwriykiy~_1',
-        'bwrtwryky       buwrotuwriykiy~ Nall    Puerto Rican'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Puerto Rican'
-      ],
-      'orig' => 'buwrotuwriykiy~',
-      'prefix' => ''
-    }
-  ],
-  'biytzA' => [
-    {
-      'types' => {
-        'biytz' => {
-          'Napdu' => 1
-        }
-      },
-      'entry' => 'biytzA',
-      'form' => 'biytzA',
-      'lines' => [
-        ';; biytozA_1',
-        'bytzA   biytozA N0      pizza',
-        'bytz    biytoz  Napdu   pizza'
+        ';; bakAluwriyA_1',
+        'bkAlwryA        bakAluwriyA     N0      baccalaureate;B.A.',
+        'bklwryA bakaluwriyA     N0      baccalaureate;B.A.'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12587,9 +12229,31 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'pizza'
+        'baccalaureate',
+        'B.A.'
       ],
-      'orig' => 'biytozA',
+      'orig' => 'bakAluwriyA',
+      'prefix' => ''
+    }
+  ],
+  'blIks' => [
+    {
+      'types' => {},
+      'entry' => 'bliyks',
+      'form' => 'bliyks',
+      'lines' => [
+        ';; bliyks_1',
+        'blyks   bliyks  Nprop   Blicks'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Blicks'
+      ],
+      'orig' => 'bliyks',
       'prefix' => ''
     }
   ],
@@ -12676,27 +12340,6 @@ $Lexicon = {
         'garnet'
       ],
       'orig' => 'bijAdiy~',
-      'prefix' => ''
-    }
-  ],
-  'bAbiyt^siyf' => [
-    {
-      'types' => {},
-      'entry' => 'bAbiyt^siyf',
-      'form' => 'bAbiyt^siyf',
-      'lines' => [
-        ';; bAbiyt$iyf_1',
-        'bAbyt$yf        bAbiyt$iyf      Nprop   Babichev'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Babichev'
-      ],
-      'orig' => 'bAbiyt$iyf',
       'prefix' => ''
     }
   ],
@@ -12829,94 +12472,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bruwf' => [
-    {
-      'types' => {},
-      'entry' => 'bruwf',
-      'form' => 'bruwfaT',
-      'lines' => [
-        ';; bruwfap_1',
-        'brwf    bruwf   NapAt   test;trial run;proof'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'test',
-        'trial run',
-        'proof'
-      ],
-      'orig' => 'bruwfap',
-      'prefix' => ''
-    }
-  ],
-  'bruwtuwkuwl' => [
-    {
-      'types' => {
-        'bruwtuwkuwl' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'bruwtuwkuwl',
-      'form' => 'bruwtuwkuwl',
-      'lines' => [
-        ';; bruwtuwkuwl_1',
-        'brwtwkwl        bruwtuwkuwl     NduAt   protocol'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'protocol'
-      ],
-      'orig' => 'bruwtuwkuwl',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'bruwtuwkuwl',
-      'form' => 'bruwtuwkuwliyy',
-      'lines' => [
-        ';; bruwtuwkuwliy~_1',
-        'brwtwkwly       bruwtuwkuwliy~  Nall    protocol     [[bruwtuwkuwliy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'protocol'
-      ],
-      'orig' => 'bruwtuwkuwliy~',
-      'prefix' => ''
-    }
-  ],
-  'birtuwtuw' => [
-    {
-      'types' => {},
-      'entry' => 'birtuwtuw',
-      'form' => 'birtuwtuw',
-      'lines' => [
-        ';; birotuwtuw_1',
-        'brtwtw  birotuwtuw      Nprop   Bertotto'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bertotto'
-      ],
-      'orig' => 'birotuwtuw',
-      'prefix' => ''
-    }
-  ],
   'b r n q' => [
     {
       'types' => {
@@ -12971,31 +12526,6 @@ $Lexicon = {
         'varnishing'
       ],
       'orig' => 'baronaqao',
-      'prefix' => ''
-    }
-  ],
-  'buwnyA' => [
-    {
-      'types' => {
-        'buwnyY' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'buwnyA',
-      'form' => 'buwnyA',
-      'lines' => [
-        ';; buwnoyA_1',
-        'bwnyA   buwnoyA Nprop   Bonia ??'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bonia ??'
-      ],
-      'orig' => 'buwnoyA',
       'prefix' => ''
     }
   ],
@@ -13067,6 +12597,89 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'brAndI' => [
+    {
+      'types' => {},
+      'entry' => 'brAndiy',
+      'form' => 'brAndiy',
+      'lines' => [
+        ';; brAnodiy_1',
+        'brAndy  brAnodiy        N0      brandy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'brandy'
+      ],
+      'orig' => 'brAnodiy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'brAndiy',
+      'form' => 'brAndiy',
+      'lines' => [
+        ';; brAnodiy_2',
+        'brAndy  brAnodiy        N0      Brandy'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Brandy'
+      ],
+      'orig' => 'brAnodiy',
+      'prefix' => ''
+    }
+  ],
+  'blU^gInz' => [
+    {
+      'types' => {},
+      'entry' => 'bluw^giynz',
+      'form' => 'bluw^giynz',
+      'lines' => [
+        ';; bluwjiynoz_1',
+        'blwjynz bluwjiynoz      N       bluejeans'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'bluejeans'
+      ],
+      'orig' => 'bluwjiynoz',
+      'prefix' => ''
+    }
+  ],
+  'brI.tAn' => [
+    {
+      'types' => {},
+      'entry' => 'briy.tAn',
+      'form' => 'briy.tAniyy',
+      'lines' => [
+        ';; briyTAniy~_1',
+        'bryTAny briyTAniy~      Nall    British     [[biriyTAniy~/NOUN]]',
+        'bryTAny briyTAniy~      Nall    British     [[biriyTAniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'British'
+      ],
+      'orig' => 'briyTAniy~',
+      'prefix' => ''
+    }
+  ],
   'b r .t z' => [
     {
       'types' => {},
@@ -13085,36 +12698,6 @@ $Lexicon = {
         'crew\'s quarters'
       ],
       'orig' => 'baroTuwz',
-      'prefix' => ''
-    }
-  ],
-  'bAl.tuw' => [
-    {
-      'types' => {
-        'bAl.tuw' => {
-          'NduAt' => 1
-        },
-        'balA.tiy' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'bAl.tuw',
-      'form' => 'bAl.tuw',
-      'lines' => [
-        ';; bAloTuw_1',
-        'bAlTw   bAloTuw NduAt   overcoat',
-        'blATy   balATiy N       overcoats'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'overcoat',
-        'overcoats'
-      ],
-      'orig' => 'bAloTuw',
       'prefix' => ''
     }
   ],
@@ -13760,6 +13343,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bAbAndriyU' => [
+    {
+      'types' => {},
+      'entry' => 'bAbAndriyuw',
+      'form' => 'bAbAndriyuw',
+      'lines' => [
+        ';; bAbAnodriyuw_1',
+        'bAbAndryw       bAbAnodriyuw    Nprop   Papandreou'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Papandreou'
+      ],
+      'orig' => 'bAbAnodriyuw',
+      'prefix' => ''
+    }
+  ],
   'b ^s k' => [
     {
       'types' => {},
@@ -13920,48 +13524,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwAfiystA' => [
-    {
-      'types' => {},
-      'entry' => 'buwAfiystA',
-      'form' => 'buwAfiystA',
-      'lines' => [
-        ';; buwAfiysotA_1',
-        'bwAfystA        buwAfiysotA     N0      Boavista'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Boavista'
-      ],
-      'orig' => 'buwAfiysotA',
-      'prefix' => ''
-    }
-  ],
-  'biynuw^siyh' => [
-    {
-      'types' => {},
-      'entry' => 'biynuw^siyh',
-      'form' => 'biynuw^siyh',
-      'lines' => [
-        ';; biynuw$iyh_1',
-        'bynw$yh biynuw$iyh      Nprop   Pinochet'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Pinochet'
-      ],
-      'orig' => 'biynuw$iyh',
-      'prefix' => ''
-    }
-  ],
   'ba.talyaws' => [
     {
       'types' => {},
@@ -13983,24 +13545,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biysuw' => [
+  'bU.halIq' => [
     {
       'types' => {},
-      'entry' => 'biysuw',
-      'form' => 'biysuw',
+      'entry' => 'buw.haliyq',
+      'form' => 'buw.haliyqaT',
       'lines' => [
-        ';; biysuw_1',
-        'bysw    biysuw  N0      peso (currency)'
+        ';; buwHaliyqap_1',
+        'bwHlyqp buwHaliyqap     N0      Buhaliqa'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
-        'peso (currency)'
+        'Buhaliqa'
       ],
-      'orig' => 'biysuw',
+      'orig' => 'buwHaliyqap',
       'prefix' => ''
     }
   ],
@@ -14084,14 +13646,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwfAriy' => [
+  'ba^sarU^s' => [
     {
       'types' => {},
-      'entry' => 'buwfAriy',
-      'form' => 'buwfAriy',
+      'entry' => 'ba^saruw^s',
+      'form' => 'ba^saruw^s',
       'lines' => [
-        ';; buwfAriy_1',
-        'bwfAry  buwfAriy        Nprop   Bovary'
+        ';; ba$aruw$_1',
+        'b$rw$   ba$aruw$        N       flamingo'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14099,25 +13661,25 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Bovary'
+        'flamingo'
       ],
-      'orig' => 'buwfAriy',
+      'orig' => 'ba$aruw$',
       'prefix' => ''
     }
   ],
-  'bintA.guwn' => [
+  'binisilIn' => [
     {
       'types' => {
-        'bintA^guwn' => {
-          'N0' => 1
+        'binisiyliyn' => {
+          'N' => 1
         }
       },
-      'entry' => 'bintA.guwn',
-      'form' => 'bintA.guwn',
+      'entry' => 'binisiliyn',
+      'form' => 'binisiliyn',
       'lines' => [
-        ';; binotAguwn_1',
-        'bntAgwn binotAguwn      N0      Pentagon',
-        'bntAjwn binotAjuwn      N0      Pentagon'
+        ';; binisiliyn_1',
+        'bnslyn  binisiliyn      N       penicillin',
+        'bnsylyn binisiyliyn     N       penicillin'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14125,30 +13687,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Pentagon'
+        'penicillin'
       ],
-      'orig' => 'binotAguwn',
-      'prefix' => ''
-    }
-  ],
-  'blAntiyr' => [
-    {
-      'types' => {},
-      'entry' => 'blAntiyr',
-      'form' => 'blAntiyr',
-      'lines' => [
-        ';; blAnotiyr_1',
-        'blAntyr blAnotiyr       N0      Blantyre'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Blantyre'
-      ],
-      'orig' => 'blAnotiyr',
+      'orig' => 'binisiliyn',
       'prefix' => ''
     }
   ],
@@ -14206,48 +13747,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biytA' => [
-    {
-      'types' => {},
-      'entry' => 'biytA',
-      'form' => 'biytA',
-      'lines' => [
-        ';; biytA_1',
-        'bytA    biytA   N0      beta'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'beta'
-      ],
-      'orig' => 'biytA',
-      'prefix' => ''
-    }
-  ],
-  'bA^s.hakiym' => [
-    {
-      'types' => {},
-      'entry' => 'bA^s.hakiym',
-      'form' => 'bA^s.hakiym',
-      'lines' => [
-        ';; bA$oHakiym_1',
-        'bA$Hkym bA$oHakiym      N       head physician'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'head physician'
-      ],
-      'orig' => 'bA$oHakiym',
-      'prefix' => ''
-    }
-  ],
   'b y s n' => [
     {
       'types' => {},
@@ -14266,6 +13765,48 @@ $Lexicon = {
         'bison'
       ],
       'orig' => 'biysuwn',
+      'prefix' => ''
+    }
+  ],
+  'brI.tAniyA' => [
+    {
+      'types' => {},
+      'entry' => 'briy.tAniyA',
+      'form' => 'briy.tAniyA',
+      'lines' => [
+        ';; briyTAniyA_1',
+        'bryTAnyA        briyTAniyA      N0      Britain'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Britain'
+      ],
+      'orig' => 'briyTAniyA',
+      'prefix' => ''
+    }
+  ],
+  'brAzAfIl' => [
+    {
+      'types' => {},
+      'entry' => 'brAzAfiyl',
+      'form' => 'brAzAfiyl',
+      'lines' => [
+        ';; brAzAfiyl_1',
+        'brAzAfyl        brAzAfiyl       N0      Brazzaville'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Brazzaville'
+      ],
+      'orig' => 'brAzAfiyl',
       'prefix' => ''
     }
   ],
@@ -15454,14 +14995,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'baktiyriyA' => [
+  'bAblU' => [
     {
       'types' => {},
-      'entry' => 'baktiyriyA',
-      'form' => 'baktiyriyA',
+      'entry' => 'bAbluw',
+      'form' => 'bAbluw',
       'lines' => [
-        ';; bakotiyriyA_1',
-        'bktyryA bakotiyriyA     N0      bacteria'
+        ';; bAboluw_1',
+        'bAblw   bAboluw Nprop   Pablo'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15469,9 +15010,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'bacteria'
+        'Pablo'
       ],
-      'orig' => 'bakotiyriyA',
+      'orig' => 'bAboluw',
       'prefix' => ''
     }
   ],
@@ -15864,28 +15405,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'basyuwniy' => [
-    {
-      'types' => {},
-      'entry' => 'basyuwniy',
-      'form' => 'basyuwniy',
-      'lines' => [
-        ';; basoyuwniy_1',
-        'bsywny  basoyuwniy      N0      Basyouni;Bassiuni'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Basyouni',
-        'Bassiuni'
-      ],
-      'orig' => 'basoyuwniy',
-      'prefix' => ''
-    }
-  ],
   'b w .s l' => [
     {
       'types' => {},
@@ -15925,32 +15444,6 @@ $Lexicon = {
         'Black'
       ],
       'orig' => 'blAk',
-      'prefix' => ''
-    }
-  ],
-  'biyrA' => [
-    {
-      'types' => {
-        'biyr' => {
-          'Napdu' => 1
-        }
-      },
-      'entry' => 'biyrA',
-      'form' => 'biyrA',
-      'lines' => [
-        ';; biyrA_1',
-        'byrA    biyrA   N0      beer',
-        'byr     biyr    Napdu   beer'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'beer'
-      ],
-      'orig' => 'biyrA',
       'prefix' => ''
     }
   ],
@@ -16022,27 +15515,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwtiyih' => [
-    {
-      'types' => {},
-      'entry' => 'buwtiyih',
-      'form' => 'buwtiyih',
-      'lines' => [
-        ';; buwtiyih_1',
-        'bwtyh   buwtiyih        Nprop   Boutier'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Boutier'
-      ],
-      'orig' => 'buwtiyih',
-      'prefix' => ''
-    }
-  ],
   'brid^g' => [
     {
       'types' => {
@@ -16066,6 +15538,67 @@ $Lexicon = {
         'bridge (game)'
       ],
       'orig' => 'bridoj',
+      'prefix' => ''
+    }
+  ],
+  'bUrsUdAn' => [
+    {
+      'types' => {},
+      'entry' => 'buwrsuwdAn',
+      'form' => 'buwrsuwdAn',
+      'lines' => [
+        ';; buwrosuwdAn_1',
+        'bwrswdAn        buwrosuwdAn     Nprop   Port Sudan'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Port Sudan'
+      ],
+      'orig' => 'buwrosuwdAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'buwrsuwdAn',
+      'form' => 'buwrsuwdAniyy',
+      'lines' => [
+        ';; buwrosuwdAniy~_1',
+        'bwrswdAny       buwrosuwdAniy~  Nall    from/of Port Sudan     [[buwrosuwdAniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'from/of Port Sudan'
+      ],
+      'orig' => 'buwrosuwdAniy~',
+      'prefix' => ''
+    }
+  ],
+  'bAstIl' => [
+    {
+      'types' => {},
+      'entry' => 'bAstiyl',
+      'form' => 'bAstiyl',
+      'lines' => [
+        ';; bAsotiyl_1',
+        'bAstyl  bAsotiyl        N       pastel'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'pastel'
+      ],
+      'orig' => 'bAsotiyl',
       'prefix' => ''
     }
   ],
@@ -16113,6 +15646,46 @@ $Lexicon = {
       ],
       'orig' => 'bayoruwt',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'bayruwt',
+      'form' => 'bayruwtiyy',
+      'lines' => [
+        ';; bayoruwtiy~_1',
+        'byrwty  bayoruwtiy~     Nall    Beiruti     [[bayoruwtiy~/NOUN]]',
+        'byrwty  bayoruwtiy~     Nall    Beiruti     [[bayoruwtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KaRDUS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Beiruti'
+      ],
+      'orig' => 'bayoruwtiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'bayruwt',
+      'form' => 'bayruwtiyy',
+      'lines' => [
+        ';; bayoruwtiy~_2',
+        'byrwty  bayoruwtiy~     N0      Beirouti;Bairuti'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'KaRDUS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Beirouti',
+        'Bairuti'
+      ],
+      'orig' => 'bayoruwtiy~',
+      'prefix' => ''
     }
   ],
   'b y t r' => [
@@ -16155,27 +15728,6 @@ $Lexicon = {
         'schistosomiasis'
       ],
       'orig' => 'bilohArosiyA',
-      'prefix' => ''
-    }
-  ],
-  'bAniyt^sbAkdiy' => [
-    {
-      'types' => {},
-      'entry' => 'bAniyt^sbAkdiy',
-      'form' => 'bAniyt^sbAkdiy',
-      'lines' => [
-        ';; bAniyt$obAkodiy_1',
-        'bAnyt$bAkdy     bAniyt$obAkodiy Nprop   Panitchpakdi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Panitchpakdi'
-      ],
-      'orig' => 'bAniyt$obAkodiy',
       'prefix' => ''
     }
   ],
@@ -16411,70 +15963,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAntuwmiym' => [
-    {
-      'types' => {},
-      'entry' => 'bAntuwmiym',
-      'form' => 'bAntuwmiym',
-      'lines' => [
-        ';; bAnotuwmiym_1',
-        'bAntwmym        bAnotuwmiym     N       pantomime'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'pantomime'
-      ],
-      'orig' => 'bAnotuwmiym',
-      'prefix' => ''
-    }
-  ],
-  'binyAmiyn' => [
-    {
-      'types' => {},
-      'entry' => 'binyAmiyn',
-      'form' => 'binyAmiyn',
-      'lines' => [
-        ';; binoyAmiyn_1',
-        'bnyAmyn binoyAmiyn      Nprop   Benyamin;Benjamin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Benyamin',
-        'Benjamin'
-      ],
-      'orig' => 'binoyAmiyn',
-      'prefix' => ''
-    }
-  ],
-  'bruwnAy' => [
-    {
-      'types' => {},
-      'entry' => 'bruwnAy',
-      'form' => 'bruwnAy',
-      'lines' => [
-        ';; bruwnAy_1',
-        'brwnAy  bruwnAy N0      Brunei'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Brunei'
-      ],
-      'orig' => 'bruwnAy',
-      'prefix' => ''
-    }
-  ],
   'b .h ^s' => [
     {
       'types' => {
@@ -16505,6 +15993,27 @@ $Lexicon = {
         'FCaL'
       ],
       'orig' => 'baHa$-a',
+      'prefix' => ''
+    }
+  ],
+  'bUst' => [
+    {
+      'types' => {},
+      'entry' => 'buwst',
+      'form' => 'buwst',
+      'lines' => [
+        ';; buwsot_1',
+        'bwst    buwsot  N0      Post'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Post'
+      ],
+      'orig' => 'buwsot',
       'prefix' => ''
     }
   ],
@@ -16782,14 +16291,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buw_dA' => [
+  'binyAmIn' => [
     {
       'types' => {},
-      'entry' => 'buw_dA',
-      'form' => 'buw_dA',
+      'entry' => 'binyAmiyn',
+      'form' => 'binyAmiyn',
       'lines' => [
-        ';; buw*A_1',
-        'bw*A    buw*A   N0      Buddha'
+        ';; binoyAmiyn_1',
+        'bnyAmyn binoyAmiyn      Nprop   Benyamin;Benjamin'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16797,9 +16306,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Buddha'
+        'Benyamin',
+        'Benjamin'
       ],
-      'orig' => 'buw*A',
+      'orig' => 'binoyAmiyn',
       'prefix' => ''
     }
   ],
@@ -16995,59 +16505,6 @@ $Lexicon = {
         'lamentable'
       ],
       'orig' => 'mubak~iy',
-      'prefix' => ''
-    }
-  ],
-  'biyAnuw' => [
-    {
-      'types' => {
-        'biyAnuwh' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'biyAnuw',
-      'form' => 'biyAnuw',
-      'lines' => [
-        ';; biyAnuw_1',
-        'byAnw   biyAnuw N0      piano',
-        'byAnwh  biyAnuwh        NAt     pianos'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'piano',
-        'pianos'
-      ],
-      'orig' => 'biyAnuw',
-      'prefix' => ''
-    }
-  ],
-  'ba.t.tiy_h' => [
-    {
-      'types' => {
-        'ba.t.tA_h' => {
-          'NapAt' => 1
-        }
-      },
-      'entry' => 'ba.t.tiy_h',
-      'form' => 'ba.t.tiy_h',
-      'lines' => [
-        ';; baT~iyx_1',
-        'bTyx    baT~iyx N       watermelon',
-        'bTAx    baT~Ax  NapAt   watermelon'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'watermelon'
-      ],
-      'orig' => 'baT~iyx',
       'prefix' => ''
     }
   ],
@@ -17710,14 +17167,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwr^g' => [
+  'bahbahAnI' => [
     {
       'types' => {},
-      'entry' => 'buwr^g',
-      'form' => 'buwr^g',
+      'entry' => 'bahbahAniy',
+      'form' => 'bahbahAniy',
       'lines' => [
-        ';; buwroj_1',
-        'bwrj    buwroj  Nprop   Burg'
+        ';; bahobahAniy_1',
+        'bhbhAny bahobahAniy     N0      Bahbahani'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17725,20 +17182,25 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Burg'
+        'Bahbahani'
       ],
-      'orig' => 'buwroj',
+      'orig' => 'bahobahAniy',
       'prefix' => ''
     }
   ],
-  'bfiystir' => [
+  'balarInA' => [
     {
-      'types' => {},
-      'entry' => 'bfiystir',
-      'form' => 'bfiystir',
+      'types' => {
+        'ballariynA' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'balariynA',
+      'form' => 'balariynA',
       'lines' => [
-        ';; bfiysotir_1',
-        'bfystr  bfiysotir       Nprop   Pfister'
+        ';; balariynA_1',
+        'blrynA  balariynA       N0      ballerina',
+        'bllrynA balolariynA     N0      ballerina'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17746,9 +17208,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Pfister'
+        'ballerina'
       ],
-      'orig' => 'bfiysotir',
+      'orig' => 'balariynA',
       'prefix' => ''
     }
   ],
@@ -17773,14 +17235,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyrhuwf' => [
+  'bI^sAwar' => [
     {
       'types' => {},
-      'entry' => 'biyrhuwf',
-      'form' => 'biyrhuwf',
+      'entry' => 'biy^sAwar',
+      'form' => 'biy^sAwar',
       'lines' => [
-        ';; biyrohuwf_1',
-        'byrhwf  biyrohuwf       Nprop   Bierhoff'
+        ';; biy$Awar_1',
+        'by$Awr  biy$Awar        Nprop   Peshawar'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17788,9 +17250,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Bierhoff'
+        'Peshawar'
       ],
-      'orig' => 'biyrohuwf',
+      'orig' => 'biy$Awar',
       'prefix' => ''
     }
   ],
@@ -17824,27 +17286,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyuw.grAfiyA' => [
+  'bidIkIr' => [
     {
-      'types' => {
-        'biyuw^grAfiyy' => {
-          'NapAt' => 1
-        },
-        'biyuw.grAfiyy' => {
-          'NapAt' => 1
-        },
-        'biyuw^grAfiyA' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'biyuw.grAfiyA',
-      'form' => 'biyuw.grAfiyA',
+      'types' => {},
+      'entry' => 'bidiykiyr',
+      'form' => 'bidiykiyr',
       'lines' => [
-        ';; biyuwgrAfiyA_1',
-        'bywgrAfyA       biyuwgrAfiyA    N0      biography',
-        'bywjrAfyA       biyuwjrAfiyA    N0      biography',
-        'bywgrAfy        biyuwgrAfiy~    NapAt   biography',
-        'bywjrAfy        biyuwjrAfiy~    NapAt   biography'
+        ';; bidiykiyr_1',
+        'bdykyr  bidiykiyr       N       pedicure'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17852,9 +17301,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'biography'
+        'pedicure'
       ],
-      'orig' => 'biyuwgrAfiyA',
+      'orig' => 'bidiykiyr',
       'prefix' => ''
     }
   ],
@@ -17906,6 +17355,73 @@ $Lexicon = {
         'inches'
       ],
       'orig' => 'buwSap',
+      'prefix' => ''
+    }
+  ],
+  'bilyArdU' => [
+    {
+      'types' => {
+        'bilyArdw' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'bilyArduw',
+      'form' => 'bilyArduw',
+      'lines' => [
+        ';; biloyAroduw_1',
+        'blyArdw biloyArodw      N0      billiards'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'billiards'
+      ],
+      'orig' => 'biloyAroduw',
+      'prefix' => ''
+    }
+  ],
+  'biyAt^sntInI' => [
+    {
+      'types' => {},
+      'entry' => 'biyAt^sntiyniy',
+      'form' => 'biyAt^sntiyniy',
+      'lines' => [
+        ';; biyAt$notiyniy_1',
+        'byAt$ntyny      biyAt$notiyniy  Nprop   Piacentini'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Piacentini'
+      ],
+      'orig' => 'biyAt$notiyniy',
+      'prefix' => ''
+    }
+  ],
+  'bUrtUrIkU' => [
+    {
+      'types' => {},
+      'entry' => 'buwrtuwriykuw',
+      'form' => 'buwrtuwriykuw',
+      'lines' => [
+        ';; buwrotuwriykuw_1',
+        'bwrtwrykw       buwrotuwriykuw  Nprop   Puerto Rico'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Puerto Rico'
+      ],
+      'orig' => 'buwrotuwriykuw',
       'prefix' => ''
     }
   ],
@@ -17977,27 +17493,6 @@ $Lexicon = {
         'quacking'
       ],
       'orig' => 'baTobaTap',
-      'prefix' => ''
-    }
-  ],
-  'bAliyrmuw' => [
-    {
-      'types' => {},
-      'entry' => 'bAliyrmuw',
-      'form' => 'bAliyrmuw',
-      'lines' => [
-        ';; bAliyromuw_1',
-        'bAlyrmw bAliyromuw      Nprop   Palermo'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Palermo'
-      ],
-      'orig' => 'bAliyromuw',
       'prefix' => ''
     }
   ],
@@ -18152,6 +17647,54 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'burtU.gAl' => [
+    {
+      'types' => {},
+      'entry' => 'burtuw.gAl',
+      'form' => 'burtuw.gAliyy',
+      'lines' => [
+        ';; burotuwgAliy~_1',
+        'brtwgAly        burotuwgAliy~   Nall    Portuguese     [[burotuwgAliy~/NOUN]]',
+        'brtwgAly        burotuwgAliy~   Nall    Portuguese     [[burotuwgAliy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Portuguese'
+      ],
+      'orig' => 'burotuwgAliy~',
+      'prefix' => ''
+    }
+  ],
+  'ba.t.tI_h' => [
+    {
+      'types' => {
+        'ba.t.tA_h' => {
+          'NapAt' => 1
+        }
+      },
+      'entry' => 'ba.t.tiy_h',
+      'form' => 'ba.t.tiy_h',
+      'lines' => [
+        ';; baT~iyx_1',
+        'bTyx    baT~iyx N       watermelon',
+        'bTAx    baT~Ax  NapAt   watermelon'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'watermelon'
+      ],
+      'orig' => 'baT~iyx',
+      'prefix' => ''
+    }
+  ],
   'b ^s k r' => [
     {
       'types' => {
@@ -18292,27 +17835,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwtziy' => [
-    {
-      'types' => {},
-      'entry' => 'buwtziy',
-      'form' => 'buwtziy',
-      'lines' => [
-        ';; buwtoziy_1',
-        'bwtzy   buwtoziy        Nprop   Pozzi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Pozzi'
-      ],
-      'orig' => 'buwtoziy',
-      'prefix' => ''
-    }
-  ],
   'b q b q' => [
     {
       'types' => {
@@ -18399,46 +17921,6 @@ $Lexicon = {
         'blister'
       ],
       'orig' => 'baqobuwqap',
-      'prefix' => ''
-    }
-  ],
-  'buwrsuwdAn' => [
-    {
-      'types' => {},
-      'entry' => 'buwrsuwdAn',
-      'form' => 'buwrsuwdAn',
-      'lines' => [
-        ';; buwrosuwdAn_1',
-        'bwrswdAn        buwrosuwdAn     Nprop   Port Sudan'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Port Sudan'
-      ],
-      'orig' => 'buwrosuwdAn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'buwrsuwdAn',
-      'form' => 'buwrsuwdAniyy',
-      'lines' => [
-        ';; buwrosuwdAniy~_1',
-        'bwrswdAny       buwrosuwdAniy~  Nall    from/of Port Sudan     [[buwrosuwdAniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'from/of Port Sudan'
-      ],
-      'orig' => 'buwrosuwdAniy~',
       'prefix' => ''
     }
   ],
@@ -18577,28 +18059,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bikiyn' => [
-    {
-      'types' => {},
-      'entry' => 'bikiyn',
-      'form' => 'bikiyn',
-      'lines' => [
-        ';; bikiyn_1',
-        'bkyn    bikiyn  Ndip    Peking;Beijing'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Peking',
-        'Beijing'
-      ],
-      'orig' => 'bikiyn',
-      'prefix' => ''
-    }
-  ],
   'b r h n' => [
     {
       'types' => {
@@ -18718,28 +18178,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'briy.tAn' => [
-    {
-      'types' => {},
-      'entry' => 'briy.tAn',
-      'form' => 'briy.tAniyy',
-      'lines' => [
-        ';; briyTAniy~_1',
-        'bryTAny briyTAniy~      Nall    British     [[biriyTAniy~/NOUN]]',
-        'bryTAny briyTAniy~      Nall    British     [[biriyTAniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'British'
-      ],
-      'orig' => 'briyTAniy~',
-      'prefix' => ''
-    }
-  ],
   'b d w' => [
     {
       'types' => {
@@ -18801,32 +18239,6 @@ $Lexicon = {
         'wastelands'
       ],
       'orig' => 'baloqaE',
-      'prefix' => ''
-    }
-  ],
-  'balariynA' => [
-    {
-      'types' => {
-        'ballariynA' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'balariynA',
-      'form' => 'balariynA',
-      'lines' => [
-        ';; balariynA_1',
-        'blrynA  balariynA       N0      ballerina',
-        'bllrynA balolariynA     N0      ballerina'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'ballerina'
-      ],
-      'orig' => 'balariynA',
       'prefix' => ''
     }
   ],
@@ -18928,27 +18340,6 @@ $Lexicon = {
         'small egg'
       ],
       'orig' => 'buwayoD',
-      'prefix' => ''
-    }
-  ],
-  'birmuwdA' => [
-    {
-      'types' => {},
-      'entry' => 'birmuwdA',
-      'form' => 'birmuwdA',
-      'lines' => [
-        ';; biromuwdA_1',
-        'brmwdA  biromuwdA       N0      Bermuda'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bermuda'
-      ],
-      'orig' => 'biromuwdA',
       'prefix' => ''
     }
   ],
@@ -19515,6 +18906,69 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'blAnkU' => [
+    {
+      'types' => {},
+      'entry' => 'blAnkuw',
+      'form' => 'blAnkuw',
+      'lines' => [
+        ';; blAnokuw_1',
+        'blAnkw  blAnokuw        N0      Blanco'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Blanco'
+      ],
+      'orig' => 'blAnokuw',
+      'prefix' => ''
+    }
+  ],
+  'baqdUnis' => [
+    {
+      'types' => {},
+      'entry' => 'baqduwnis',
+      'form' => 'baqduwnis',
+      'lines' => [
+        ';; baqoduwnis_1',
+        'bqdwns  baqoduwnis      N       parsley'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'parsley'
+      ],
+      'orig' => 'baqoduwnis',
+      'prefix' => ''
+    }
+  ],
+  'bAtrIk' => [
+    {
+      'types' => {},
+      'entry' => 'bAtriyk',
+      'form' => 'bAtriyk',
+      'lines' => [
+        ';; bAtriyk_1',
+        'bAtryk  bAtriyk Nprop   Patrick'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Patrick'
+      ],
+      'orig' => 'bAtriyk',
+      'prefix' => ''
+    }
+  ],
   'bAfAriyA' => [
     {
       'types' => {},
@@ -19565,14 +19019,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bruwtistuw' => [
+  'bUsfUr' => [
     {
       'types' => {},
-      'entry' => 'bruwtistuw',
-      'form' => 'bruwtistuw',
+      'entry' => 'buwsfuwr',
+      'form' => 'buwsfuwr',
       'lines' => [
-        ';; bruwtisotuw_1',
-        'brwtstw bruwtisotuw     N0      protest'
+        ';; buwsofuwr_1',
+        'bwsfwr  buwsofuwr       N       Bosphorus;Bosporus'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19580,25 +19034,21 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'protest'
+        'Bosphorus',
+        'Bosporus'
       ],
-      'orig' => 'bruwtisotuw',
+      'orig' => 'buwsofuwr',
       'prefix' => ''
     }
   ],
-  'bakAluwriyA' => [
+  'bAynlI_h' => [
     {
-      'types' => {
-        'bakaluwriyA' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'bakAluwriyA',
-      'form' => 'bakAluwriyA',
+      'types' => {},
+      'entry' => 'bAynliy_h',
+      'form' => 'bAynliy_h',
       'lines' => [
-        ';; bakAluwriyA_1',
-        'bkAlwryA        bakAluwriyA     N0      baccalaureate;B.A.',
-        'bklwryA bakaluwriyA     N0      baccalaureate;B.A.'
+        ';; bAynoliyx_1',
+        'bAynlyx bAynoliyx       Nprop   Beinlich'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19606,21 +19056,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'baccalaureate',
-        'B.A.'
+        'Beinlich'
       ],
-      'orig' => 'bakAluwriyA',
+      'orig' => 'bAynoliyx',
       'prefix' => ''
     }
   ],
-  'bAriys' => [
+  'brAkiyU' => [
     {
       'types' => {},
-      'entry' => 'bAriys',
-      'form' => 'bAriys',
+      'entry' => 'brAkiyuw',
+      'form' => 'brAkiyuw',
       'lines' => [
-        ';; bAriys_1',
-        'bArys   bAriys  Nprop   Paris'
+        ';; brAkiyuw_1',
+        'brAkyw  brAkiyuw        Nprop   Bracio'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19628,29 +19077,51 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Paris'
+        'Bracio'
       ],
-      'orig' => 'bAriys',
+      'orig' => 'brAkiyuw',
       'prefix' => ''
-    },
+    }
+  ],
+  'binfIkA' => [
     {
       'types' => {},
-      'entry' => 'bAriys',
-      'form' => 'bAriysiyy',
+      'entry' => 'binfiykA',
+      'form' => 'binfiykA',
       'lines' => [
-        ';; bAriysiy~_1',
-        'bArysy  bAriysiy~       Nall    Parisian     [[bAriysiy~/NOUN]]',
-        'bArysy  bAriysiy~       Nall    Parisian     [[bAriysiy~/ADJ]]'
+        ';; binfiykA_1',
+        'bnfykA  binfiykA        Nprop   Benfica'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'Parisian'
+        'Benfica'
       ],
-      'orig' => 'bAriysiy~',
+      'orig' => 'binfiykA',
+      'prefix' => ''
+    }
+  ],
+  'bItUrAtAnA' => [
+    {
+      'types' => {},
+      'entry' => 'biytuwrAtAnA',
+      'form' => 'biytuwrAtAnA',
+      'lines' => [
+        ';; biytuwrAtAnA_1',
+        'bytwrAtAnA      biytuwrAtAnA    Nprop   Pituratana'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Pituratana'
+      ],
+      'orig' => 'biytuwrAtAnA',
       'prefix' => ''
     }
   ],
@@ -20249,14 +19720,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyrd' => [
+  'blAtUh' => [
     {
-      'types' => {},
-      'entry' => 'biyrd',
-      'form' => 'biyrd',
+      'types' => {
+        'blAtuwh' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'blAtuwh',
+      'form' => 'blAtuwh',
       'lines' => [
-        ';; biyrd_1',
-        'byrd    biyrd   Nprop   Beard;Byrd;Bird'
+        ';; blAtuwh_1',
+        'blAtwh  blAtuwh N/At    plateau;stage'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20264,11 +19739,31 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Beard',
-        'Byrd',
-        'Bird'
+        'plateau',
+        'stage'
       ],
-      'orig' => 'biyrd',
+      'orig' => 'blAtuwh',
+      'prefix' => ''
+    }
+  ],
+  'bUrdir' => [
+    {
+      'types' => {},
+      'entry' => 'buwrdir',
+      'form' => 'buwrdir',
+      'lines' => [
+        ';; buwrodir_1',
+        'bwrdr   buwrodir        Nprop   Burdir ??'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Burdir ??'
+      ],
+      'orig' => 'buwrodir',
       'prefix' => ''
     }
   ],
@@ -20597,22 +20092,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAbuwr' => [
+  'bAtUlA' => [
     {
-      'types' => {
-        'bawAbiyr' => {
-          'Ndip' => 1
-        },
-        'bAbuwr' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'bAbuwr',
-      'form' => 'bAbuwr',
+      'types' => {},
+      'entry' => 'bAtuwlA',
+      'form' => 'bAtuwlA',
       'lines' => [
-        ';; bAbuwr_1',
-        'bAbwr   bAbuwr  NduAt   steamship;steamer',
-        'bwAbyr  bawAbiyr        Ndip    steamships;steamers'
+        ';; bAtuwlA_1',
+        'bAtwlA  bAtuwlA N0      birch tree'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20620,12 +20107,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'steamship',
-        'steamer',
-        'steamships',
-        'steamers'
+        'birch tree'
       ],
-      'orig' => 'bAbuwr',
+      'orig' => 'bAtuwlA',
       'prefix' => ''
     }
   ],
@@ -20761,6 +20245,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bIklIr' => [
+    {
+      'types' => {},
+      'entry' => 'biykliyr',
+      'form' => 'biykliyr',
+      'lines' => [
+        ';; biykliyr_1',
+        'byklyr  biykliyr        Nprop   Beclere'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Beclere'
+      ],
+      'orig' => 'biykliyr',
+      'prefix' => ''
+    }
+  ],
   'b k k' => [
     {
       'types' => {},
@@ -20849,48 +20354,6 @@ $Lexicon = {
         'basbousahs (semolina cakes)'
       ],
       'orig' => 'basobuwsap',
-      'prefix' => ''
-    }
-  ],
-  'brAdiy^s' => [
-    {
-      'types' => {},
-      'entry' => 'brAdiy^s',
-      'form' => 'brAdiy^s',
-      'lines' => [
-        ';; brAdiy$_1',
-        'brAdy$  brAdiy$ Nprop   Pradesh'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Pradesh'
-      ],
-      'orig' => 'brAdiy$',
-      'prefix' => ''
-    }
-  ],
-  'biytsiyliym' => [
-    {
-      'types' => {},
-      'entry' => 'biytsiyliym',
-      'form' => 'biytsiyliym',
-      'lines' => [
-        ';; biytosiyliym_1',
-        'bytsylym        biytosiyliym    N0      B\'Tselem'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'B\'Tselem'
-      ],
-      'orig' => 'biytosiyliym',
       'prefix' => ''
     }
   ],
@@ -21189,27 +20652,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bidiykiyr' => [
-    {
-      'types' => {},
-      'entry' => 'bidiykiyr',
-      'form' => 'bidiykiyr',
-      'lines' => [
-        ';; bidiykiyr_1',
-        'bdykyr  bidiykiyr       N       pedicure'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'pedicure'
-      ],
-      'orig' => 'bidiykiyr',
-      'prefix' => ''
-    }
-  ],
   'b s \'' => [
     {
       'types' => {
@@ -21278,18 +20720,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwtA^gAz' => [
+  'biyU.grAfiyA' => [
     {
       'types' => {
-        'buwtA^gAz' => {
-          'NAt' => 1
+        'biyuw^grAfiyy' => {
+          'NapAt' => 1
+        },
+        'biyuw.grAfiyy' => {
+          'NapAt' => 1
+        },
+        'biyuw^grAfiyA' => {
+          'N0' => 1
         }
       },
-      'entry' => 'buwtA^gAz',
-      'form' => 'buwtA^gAz',
+      'entry' => 'biyuw.grAfiyA',
+      'form' => 'biyuw.grAfiyA',
       'lines' => [
-        ';; buwtAjAz_1',
-        'bwtAjAz buwtAjAz        N/At    gas stove'
+        ';; biyuwgrAfiyA_1',
+        'bywgrAfyA       biyuwgrAfiyA    N0      biography',
+        'bywjrAfyA       biyuwjrAfiyA    N0      biography',
+        'bywgrAfy        biyuwgrAfiy~    NapAt   biography',
+        'bywjrAfy        biyuwjrAfiy~    NapAt   biography'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21297,29 +20748,49 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'gas stove'
+        'biography'
       ],
-      'orig' => 'buwtAjAz',
+      'orig' => 'biyuwgrAfiyA',
       'prefix' => ''
     }
   ],
-  'ba.tra^siyl' => [
+  'bAriyUm' => [
+    {
+      'types' => {},
+      'entry' => 'bAriyuwm',
+      'form' => 'bAriyuwm',
+      'lines' => [
+        ';; bAriyuwm_1',
+        'bArywm  bAriyuwm        N       barium'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'barium'
+      ],
+      'orig' => 'bAriyuwm',
+      'prefix' => ''
+    }
+  ],
+  'bAl.tU' => [
     {
       'types' => {
-        'ba.tAri^s' => {
-          'Ndip' => 1
+        'bAl.tuw' => {
+          'NduAt' => 1
         },
-        'ba.tra^siyn' => {
+        'balA.tiy' => {
           'N' => 1
         }
       },
-      'entry' => 'ba.tra^siyl',
-      'form' => 'ba.tra^siyl',
+      'entry' => 'bAl.tuw',
+      'form' => 'bAl.tuw',
       'lines' => [
-        ';; baTora$iyl_1',
-        'bTr$yl  baTora$iyl      N       stole (ecclesiastical scarf)',
-        'bTr$yn  baTora$iyn      N       stole (ecclesiastical scarf)',
-        'bTAr$   baTAri$ Ndip    stoles (ecclesiastical scarfs)'
+        ';; bAloTuw_1',
+        'bAlTw   bAloTuw NduAt   overcoat',
+        'blATy   balATiy N       overcoats'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21327,21 +20798,21 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'stole (ecclesiastical scarf)',
-        'stoles (ecclesiastical scarfs)'
+        'overcoat',
+        'overcoats'
       ],
-      'orig' => 'baTora$iyl',
+      'orig' => 'bAloTuw',
       'prefix' => ''
     }
   ],
-  'bA^s^gAwiy^s' => [
+  'bAltiyAnskI' => [
     {
       'types' => {},
-      'entry' => 'bA^s^gAwiy^s',
-      'form' => 'bA^s^gAwiy^s',
+      'entry' => 'bAltiyAnskiy',
+      'form' => 'bAltiyAnskiy',
       'lines' => [
-        ';; bA$ojAwiy$_1',
-        'bA$jAwy$        bA$ojAwiy$      N       sergeant major'
+        ';; bAlotiyAnosokiy_1',
+        'bAltyAnsky      bAlotiyAnosokiy N0      Baltiansky'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21349,9 +20820,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'sergeant major'
+        'Baltiansky'
       ],
-      'orig' => 'bA$ojAwiy$',
+      'orig' => 'bAlotiyAnosokiy',
       'prefix' => ''
     }
   ],
@@ -21383,6 +20854,32 @@ $Lexicon = {
         'between/among'
       ],
       'orig' => 'mAbayona',
+      'prefix' => ''
+    }
+  ],
+  'b y .d n' => [
+    {
+      'types' => {
+        'by.dwn' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'bay.duwn',
+      'form' => 'bay.duwn',
+      'lines' => [
+        ';; bayDuwn_1',
+        'byDwn   byDwn   Nprop   Baidun;Baidoun'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDUS',
+      'suffix' => '',
+      'glosses' => [
+        'Baidun',
+        'Baidoun'
+      ],
+      'orig' => 'bayDuwn',
       'prefix' => ''
     }
   ],
@@ -21529,52 +21026,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAkuw' => [
-    {
-      'types' => {},
-      'entry' => 'bAkuw',
-      'form' => 'bAkuw',
-      'lines' => [
-        ';; bAkuw_1',
-        'bAkw    bAkuw   N0      Baku'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Baku'
-      ],
-      'orig' => 'bAkuw',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'bAkaw' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'bAkuw',
-      'form' => 'bAkuw',
-      'lines' => [
-        ';; bAkuw_2',
-        'bAkw    bAkuw   N       packet',
-        'bAkw    bAkaw   NAt     packets'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'packet',
-        'packets'
-      ],
-      'orig' => 'bAkuw',
-      'prefix' => ''
-    }
-  ],
   'b l \'' => [
     {
       'types' => {},
@@ -21679,27 +21130,6 @@ $Lexicon = {
         'St. Petersburg'
       ],
       'orig' => 'buTorusogrAd',
-      'prefix' => ''
-    }
-  ],
-  'buwtrA' => [
-    {
-      'types' => {},
-      'entry' => 'buwtrA',
-      'form' => 'buwtrA',
-      'lines' => [
-        ';; buwtrA_1',
-        'bwtrA   buwtrA  Nprop   Putra'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Putra'
-      ],
-      'orig' => 'buwtrA',
       'prefix' => ''
     }
   ],
@@ -22135,14 +21565,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyt^s' => [
+  'byrU^giyA' => [
     {
       'types' => {},
-      'entry' => 'biyt^s',
-      'form' => 'biyt^s',
+      'entry' => 'byruw^giyA',
+      'form' => 'byruw^giyA',
       'lines' => [
-        ';; biyt$_1',
-        'byt$    biyt$   Nprop   Beach'
+        ';; byruwjiyA_1',
+        'byrwjyA byruwjiyA       N0      Peruggia'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22150,9 +21580,34 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Beach'
+        'Peruggia'
       ],
-      'orig' => 'biyt$',
+      'orig' => 'byruwjiyA',
+      'prefix' => ''
+    }
+  ],
+  'bUnyA' => [
+    {
+      'types' => {
+        'buwnyY' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'buwnyA',
+      'form' => 'buwnyA',
+      'lines' => [
+        ';; buwnoyA_1',
+        'bwnyA   buwnoyA Nprop   Bonia ??'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bonia ??'
+      ],
+      'orig' => 'buwnoyA',
       'prefix' => ''
     }
   ],
@@ -22653,28 +22108,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwrm' => [
-    {
-      'types' => {},
-      'entry' => 'buwrm',
-      'form' => 'buwrmiyy',
-      'lines' => [
-        ';; buwromiy~_1',
-        'bwrmy   buwromiy~       Nall    Burmese     [[buwromiy~/NOUN]]',
-        'bwrmy   buwromiy~       Nall    Burmese     [[buwromiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Burmese'
-      ],
-      'orig' => 'buwromiy~',
-      'prefix' => ''
-    }
-  ],
   'bAstil' => [
     {
       'types' => {
@@ -22795,27 +22228,6 @@ $Lexicon = {
         'promise'
       ],
       'orig' => 'mubAHatap',
-      'prefix' => ''
-    }
-  ],
-  'banknuwt' => [
-    {
-      'types' => {},
-      'entry' => 'banknuwt',
-      'form' => 'banknuwt',
-      'lines' => [
-        ';; bankonuwt_1',
-        'bnknwt  bankonuwt       N/ap    bank note'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bank note'
-      ],
-      'orig' => 'bankonuwt',
       'prefix' => ''
     }
   ],
@@ -23025,28 +22437,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bulahniy' => [
-    {
-      'types' => {},
-      'entry' => 'bulahniy',
-      'form' => 'bulahniyaT',
-      'lines' => [
-        ';; bulahoniyap_1',
-        'blhny   bulahoniy       Nap     wealth;abundance'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'wealth',
-        'abundance'
-      ],
-      'orig' => 'bulahoniyap',
-      'prefix' => ''
-    }
-  ],
   'b y b' => [
     {
       'types' => {},
@@ -23102,14 +22492,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'byt^snyk' => [
+  'bUrA' => [
     {
       'types' => {},
-      'entry' => 'byt^snyk',
-      'form' => 'byt^snyk',
+      'entry' => 'buwrA',
+      'form' => 'buwrA',
       'lines' => [
-        ';; byt$nyk_1',
-        'byt$nyk byt$nyk Nprop   Bichnik;Pitchnick;Beachnik ??'
+        ';; buwrA_1',
+        'bwrA    buwrA   Nprop   Bora'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23117,32 +22507,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Bichnik',
-        'Pitchnick',
-        'Beachnik ??'
+        'Bora'
       ],
-      'orig' => 'byt$nyk',
-      'prefix' => ''
-    }
-  ],
-  'buwbliyn' => [
-    {
-      'types' => {},
-      'entry' => 'buwbliyn',
-      'form' => 'buwbliyn',
-      'lines' => [
-        ';; buwboliyn_1',
-        'bwblyn  buwboliyn       N       poplin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'poplin'
-      ],
-      'orig' => 'buwboliyn',
+      'orig' => 'buwrA',
       'prefix' => ''
     }
   ],
@@ -23653,88 +23020,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyziytA' => [
-    {
-      'types' => {},
-      'entry' => 'biyziytA',
-      'form' => 'biyziytA',
-      'lines' => [
-        ';; biyziytA_1',
-        'byzytA  biyziytA        N0      peseta'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'peseta'
-      ],
-      'orig' => 'biyziytA',
-      'prefix' => ''
-    }
-  ],
-  'bAnuwfA' => [
-    {
-      'types' => {},
-      'entry' => 'bAnuwfA',
-      'form' => 'bAnuwfA',
-      'lines' => [
-        ';; bAnuwfA_1',
-        'bAnwfA  bAnuwfA Nprop   Panova'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Panova'
-      ],
-      'orig' => 'bAnuwfA',
-      'prefix' => ''
-    }
-  ],
-  'blAstiyk' => [
-    {
-      'types' => {},
-      'entry' => 'blAstiyk',
-      'form' => 'blAstiyk',
-      'lines' => [
-        ';; blAsotiyk_1',
-        'blAstyk blAsotiyk       N       plastic'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'plastic'
-      ],
-      'orig' => 'blAsotiyk',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'blAstiyk',
-      'form' => 'blAstiykiyy',
-      'lines' => [
-        ';; blAsotiykiy~_1',
-        'blAstyky        blAsotiykiy~    Nall    plastic     [[blAsotiykiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'plastic'
-      ],
-      'orig' => 'blAsotiykiy~',
-      'prefix' => ''
-    }
-  ],
   'bytr' => [
     {
       'types' => {},
@@ -23756,24 +23041,49 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bsiykuwluw^g' => [
+  'bulUfir' => [
     {
-      'types' => {},
-      'entry' => 'bsiykuwluw^g',
-      'form' => 'bsiykuwluw^giyy',
+      'types' => {
+        'buluwfir' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'buluwfir',
+      'form' => 'buluwfir',
       'lines' => [
-        ';; bsiykuwluwjiy~_1',
-        'bsykwlwjy       bsiykuwluwjiy~  Nall    psychological     [[bsiykuwluwjiy~/ADJ]]'
+        ';; buluwfir_1',
+        'blwfr   buluwfir        NduAt   pullover'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'psychological'
+        'pullover'
       ],
-      'orig' => 'bsiykuwluwjiy~',
+      'orig' => 'buluwfir',
+      'prefix' => ''
+    }
+  ],
+  'barmAwI' => [
+    {
+      'types' => {},
+      'entry' => 'barmAwiy',
+      'form' => 'barmAwiy',
+      'lines' => [
+        ';; baromAwiy_1',
+        'brmAwy  baromAwiy       N0      Barmawi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Barmawi'
+      ],
+      'orig' => 'baromAwiy',
       'prefix' => ''
     }
   ],
@@ -23991,48 +23301,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwruwsiyA' => [
-    {
-      'types' => {},
-      'entry' => 'buwruwsiyA',
-      'form' => 'buwruwsiyA',
-      'lines' => [
-        ';; buwruwsiyA_1',
-        'bwrwsyA buwruwsiyA      Nprop   Borussia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Borussia'
-      ],
-      'orig' => 'buwruwsiyA',
-      'prefix' => ''
-    }
-  ],
-  'baluw^siystAn' => [
-    {
-      'types' => {},
-      'entry' => 'baluw^siystAn',
-      'form' => 'baluw^siystAn',
-      'lines' => [
-        ';; baluw$iysotAn_1',
-        'blw$ystAn       baluw$iysotAn   N0      Baluchistan'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Baluchistan'
-      ],
-      'orig' => 'baluw$iysotAn',
-      'prefix' => ''
-    }
-  ],
   'b ^s t n' => [
     {
       'types' => {
@@ -24061,27 +23329,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'brAzAfiyl' => [
-    {
-      'types' => {},
-      'entry' => 'brAzAfiyl',
-      'form' => 'brAzAfiyl',
-      'lines' => [
-        ';; brAzAfiyl_1',
-        'brAzAfyl        brAzAfiyl       N0      Brazzaville'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Brazzaville'
-      ],
-      'orig' => 'brAzAfiyl',
-      'prefix' => ''
-    }
-  ],
   'ba.trak_hAn' => [
     {
       'types' => {},
@@ -24103,53 +23350,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biymAristAn' => [
-    {
-      'types' => {
-        'biymAristAn' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'biymAristAn',
-      'form' => 'biymAristAn',
-      'lines' => [
-        ';; biymArisotAn_1',
-        'bymArstAn       biymArisotAn    NduAt   hospital;asylum'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'hospital',
-        'asylum'
-      ],
-      'orig' => 'biymArisotAn',
-      'prefix' => ''
-    }
-  ],
-  'bAnduwnduw' => [
-    {
-      'types' => {},
-      'entry' => 'bAnduwnduw',
-      'form' => 'bAnduwnduw',
-      'lines' => [
-        ';; bAnduwnoduw_1',
-        'bAndwndw        bAnduwnoduw     N0      Bandondo'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bandondo'
-      ],
-      'orig' => 'bAnduwnoduw',
-      'prefix' => ''
-    }
-  ],
   'banamA\'' => [
     {
       'types' => {},
@@ -24168,6 +23368,49 @@ $Lexicon = {
         'Panamanian'
       ],
       'orig' => 'banamAwiy~',
+      'prefix' => ''
+    }
+  ],
+  'bIrIrA' => [
+    {
+      'types' => {},
+      'entry' => 'biyriyrA',
+      'form' => 'biyriyrA',
+      'lines' => [
+        ';; biyriyrA_1',
+        'byryrA  biyriyrA        Nprop   Pereira;Parreira'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Pereira',
+        'Parreira'
+      ],
+      'orig' => 'biyriyrA',
+      'prefix' => ''
+    }
+  ],
+  'blIz' => [
+    {
+      'types' => {},
+      'entry' => 'bliyz',
+      'form' => 'bliyz',
+      'lines' => [
+        ';; bliyz_1',
+        'blyz    bliyz   FW-Wa   please'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'please'
+      ],
+      'orig' => 'bliyz',
       'prefix' => ''
     }
   ],
@@ -24615,14 +23858,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAsuw' => [
+  'bAbU^g' => [
     {
-      'types' => {},
-      'entry' => 'bAsuw',
-      'form' => 'bAsuw',
+      'types' => {
+        'bawAbiy^g' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'bAbuw^g',
+      'form' => 'bAbuw^g',
       'lines' => [
-        ';; bAsuw_1',
-        'bAsw    bAsuw   N0      Paso'
+        ';; bAbuwj_1',
+        'bAbwj   bAbuwj  Ndu     slipper',
+        'bwAbyj  bawAbiyj        Ndip    slippers'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24630,9 +23878,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Paso'
+        'slipper',
+        'slippers'
       ],
-      'orig' => 'bAsuw',
+      'orig' => 'bAbuwj',
       'prefix' => ''
     }
   ],
@@ -25164,14 +24413,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buw`aziyz' => [
+  'bI^gAmA' => [
     {
-      'types' => {},
-      'entry' => 'buw`aziyz',
-      'form' => 'buw`aziyz',
+      'types' => {
+        'biy^gAm' => {
+          'NapAt' => 1
+        }
+      },
+      'entry' => 'biy^gAmA',
+      'form' => 'biy^gAmA',
       'lines' => [
-        ';; buwEaziyz_1',
-        'bwEzyz  buwEaziyz       N0      Bouaziz'
+        ';; biyjAmA_1',
+        'byjAmA  biyjAmA N0      pajama',
+        'byjAm   biyjAm  NapAt   pajama'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25179,30 +24433,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Bouaziz'
+        'pajama'
       ],
-      'orig' => 'buwEaziyz',
-      'prefix' => ''
-    }
-  ],
-  'buwdr' => [
-    {
-      'types' => {},
-      'entry' => 'buwdr',
-      'form' => 'buwdraT',
-      'lines' => [
-        ';; buwdrap_1',
-        'bwdr    buwdr   Nap     powder'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'powder'
-      ],
-      'orig' => 'buwdrap',
+      'orig' => 'biyjAmA',
       'prefix' => ''
     }
   ],
@@ -25473,14 +24706,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAnkuwk' => [
+  'bIrA' => [
     {
-      'types' => {},
-      'entry' => 'bAnkuwk',
-      'form' => 'bAnkuwk',
+      'types' => {
+        'biyr' => {
+          'Napdu' => 1
+        }
+      },
+      'entry' => 'biyrA',
+      'form' => 'biyrA',
       'lines' => [
-        ';; bAnokuwk_1',
-        'bAnkwk  bAnokuwk        Nprop   Bankok'
+        ';; biyrA_1',
+        'byrA    biyrA   N0      beer',
+        'byr     biyr    Napdu   beer'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25488,9 +24726,70 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Bankok'
+        'beer'
       ],
-      'orig' => 'bAnokuwk',
+      'orig' => 'biyrA',
+      'prefix' => ''
+    }
+  ],
+  'bIrtI' => [
+    {
+      'types' => {},
+      'entry' => 'biyrtiy',
+      'form' => 'biyrtiy',
+      'lines' => [
+        ';; biyrotiy_1',
+        'byrty   biyrotiy        N0      Berti'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Berti'
+      ],
+      'orig' => 'biyrotiy',
+      'prefix' => ''
+    }
+  ],
+  'blAstIk' => [
+    {
+      'types' => {},
+      'entry' => 'blAstiyk',
+      'form' => 'blAstiyk',
+      'lines' => [
+        ';; blAsotiyk_1',
+        'blAstyk blAsotiyk       N       plastic'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'plastic'
+      ],
+      'orig' => 'blAsotiyk',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'blAstiyk',
+      'form' => 'blAstiykiyy',
+      'lines' => [
+        ';; blAsotiykiy~_1',
+        'blAstyky        blAsotiykiy~    Nall    plastic     [[blAsotiykiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'plastic'
+      ],
+      'orig' => 'blAsotiykiy~',
       'prefix' => ''
     }
   ],
@@ -25562,27 +24861,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyrsuwl' => [
-    {
-      'types' => {},
-      'entry' => 'biyrsuwl',
-      'form' => 'biyrsuwl',
-      'lines' => [
-        ';; biyrosuwl_1',
-        'byrswl  biyrosuwl       Nprop   Peirsol'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Peirsol'
-      ],
-      'orig' => 'biyrosuwl',
-      'prefix' => ''
-    }
-  ],
   'b w l q' => [
     {
       'types' => {},
@@ -25604,14 +24882,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwlz' => [
+  'bU_hArist' => [
     {
       'types' => {},
-      'entry' => 'buwlz',
-      'form' => 'buwlz',
+      'entry' => 'buw_hArist',
+      'form' => 'buw_hArist',
       'lines' => [
-        ';; buwloz_1',
-        'bwlz    buwloz  Nprop   Bulls'
+        ';; buwxArisot_1',
+        'bwxArst buwxArisot      Nprop   Bucharest'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25619,9 +24897,28 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Bulls'
+        'Bucharest'
       ],
-      'orig' => 'buwloz',
+      'orig' => 'buwxArisot',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'buw_hArist',
+      'form' => 'buw_hAristiyy',
+      'lines' => [
+        ';; buwxArisotiy~_1',
+        'bwxArsty        buwxArisotiy~   Nall    of/from Bucharest     [[buwxArisotiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'of/from Bucharest'
+      ],
+      'orig' => 'buwxArisotiy~',
       'prefix' => ''
     }
   ],
@@ -25669,24 +24966,45 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwtafliyq' => [
+  'bAzUband' => [
     {
       'types' => {},
-      'entry' => 'buwtafliyq',
-      'form' => 'buwtafliyqaT',
+      'entry' => 'bAzuwband',
+      'form' => 'bAzuwband',
       'lines' => [
-        ';; buwtafliyqap_1',
-        'bwtflyqp        buwtafliyqap    N0      Bouteflika'
+        ';; bAzuwbanod_1',
+        'bAzwbnd bAzuwbanod      N       bracelet'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'Bouteflika'
+        'bracelet'
       ],
-      'orig' => 'buwtafliyqap',
+      'orig' => 'bAzuwbanod',
+      'prefix' => ''
+    }
+  ],
+  'birtUtU' => [
+    {
+      'types' => {},
+      'entry' => 'birtuwtuw',
+      'form' => 'birtuwtuw',
+      'lines' => [
+        ';; birotuwtuw_1',
+        'brtwtw  birotuwtuw      Nprop   Bertotto'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bertotto'
+      ],
+      'orig' => 'birotuwtuw',
       'prefix' => ''
     }
   ],
@@ -25828,6 +25146,48 @@ $Lexicon = {
         'spouts'
       ],
       'orig' => 'bazobuwz',
+      'prefix' => ''
+    }
+  ],
+  'bIrU' => [
+    {
+      'types' => {},
+      'entry' => 'biyruw',
+      'form' => 'biyruw',
+      'lines' => [
+        ';; biyruw_1',
+        'byrw    biyruw  N0      Peru'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Peru'
+      ],
+      'orig' => 'biyruw',
+      'prefix' => ''
+    }
+  ],
+  'bUtzI' => [
+    {
+      'types' => {},
+      'entry' => 'buwtziy',
+      'form' => 'buwtziy',
+      'lines' => [
+        ';; buwtoziy_1',
+        'bwtzy   buwtoziy        Nprop   Pozzi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Pozzi'
+      ],
+      'orig' => 'buwtoziy',
       'prefix' => ''
     }
   ],
@@ -25996,6 +25356,28 @@ $Lexicon = {
       ],
       'orig' => 'mutabalowir',
       'prefix' => ''
+    }
+  ],
+  '\'ubAl' => [
+    {
+      'types' => {},
+      'entry' => '\'ubAl',
+      'form' => 'lA\'ubAliyyaT',
+      'lines' => [
+        ';; lA>ubAliy~ap_1',
+        'lA>bAly lA>ubAliy~      Nap_L   indifference     [[lA>ubAliy~/NOUN]]',
+        'lAAbAly lA>ubAliy~      Nap_L   indifference     [[lAAubAliy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'lA >| Identity |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'indifference'
+      ],
+      'orig' => 'lAOubAliy~ap',
+      'prefix' => 'lA >| '
     }
   ],
   'b l f' => [
@@ -26285,14 +25667,40 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buw^skiyn' => [
+  'bIdA.gU^g' => [
+    {
+      'types' => {
+        'bidA.guw^giyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'biydA.guw^g',
+      'form' => 'biydA.guw^giyy',
+      'lines' => [
+        ';; biydAguwjiy~_1',
+        'bydAgwjy        biydAguwjiy~    Nall    pedagogical     [[biydAguwjiy~/ADJ]]',
+        'bdAgwjy bidAguwjiy~     Nall    pedagogical     [[bidAguwjiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'pedagogical'
+      ],
+      'orig' => 'biydAguwjiy~',
+      'prefix' => ''
+    }
+  ],
+  'bInU^sIh' => [
     {
       'types' => {},
-      'entry' => 'buw^skiyn',
-      'form' => 'buw^skiyn',
+      'entry' => 'biynuw^siyh',
+      'form' => 'biynuw^siyh',
       'lines' => [
-        ';; buw$okiyn_1',
-        'bw$kyn  buw$okiyn       Nprop   Pushkin'
+        ';; biynuw$iyh_1',
+        'bynw$yh biynuw$iyh      Nprop   Pinochet'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26300,9 +25708,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Pushkin'
+        'Pinochet'
       ],
-      'orig' => 'buw$okiyn',
+      'orig' => 'biynuw$iyh',
       'prefix' => ''
     }
   ],
@@ -26781,27 +26189,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biniyn' => [
-    {
-      'types' => {},
-      'entry' => 'biniyn',
-      'form' => 'biniyn',
-      'lines' => [
-        ';; biniyn_1',
-        'bnyn    biniyn  N0      Benin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Benin'
-      ],
-      'orig' => 'biniyn',
-      'prefix' => ''
-    }
-  ],
   'b d r n' => [
     {
       'types' => {},
@@ -26938,14 +26325,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAfluwf' => [
+  'bUlandA' => [
     {
-      'types' => {},
-      'entry' => 'bAfluwf',
-      'form' => 'bAfluwf',
+      'types' => {
+        'buwland' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'buwlandA',
+      'form' => 'buwlandA',
       'lines' => [
-        ';; bAfoluwf_1',
-        'bAflwf  bAfoluwf        Nprop   Pavlov'
+        ';; buwlanodA_1',
+        'bwlndA  buwlanodA       N0      Poland',
+        'bwlnd   buwlanod        Nap     Poland'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26953,30 +26345,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Pavlov'
+        'Poland'
       ],
-      'orig' => 'bAfoluwf',
-      'prefix' => ''
-    }
-  ],
-  'bahbahAniy' => [
-    {
-      'types' => {},
-      'entry' => 'bahbahAniy',
-      'form' => 'bahbahAniy',
-      'lines' => [
-        ';; bahobahAniy_1',
-        'bhbhAny bahobahAniy     N0      Bahbahani'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bahbahani'
-      ],
-      'orig' => 'bahobahAniy',
+      'orig' => 'buwlanodA',
       'prefix' => ''
     }
   ],
@@ -27053,6 +26424,66 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'ban^glAdI^s' => [
+    {
+      'types' => {
+        'ban.glAdiy^s' => {
+          'N' => 1
+        },
+        'ban^glAdi^s' => {
+          'N' => 1
+        },
+        'ban.glAdi^s' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'ban^glAdiy^s',
+      'form' => 'ban^glAdiy^s',
+      'lines' => [
+        ';; banojlAdiy$_1',
+        'bnjlAdy$        banojlAdiy$     N       Bangladesh',
+        'bnjlAd$ banojlAdi$      N       Bangladesh',
+        'bnglAdy$        banoglAdiy$     N       Bangladesh',
+        'bnglAd$ banoglAdi$      N       Bangladesh'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bangladesh'
+      ],
+      'orig' => 'banojlAdiy$',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ban.glAdiy^siyy' => {
+          'Nall' => 2
+        }
+      },
+      'entry' => 'ban^glAdiy^s',
+      'form' => 'ban^glAdiy^siyy',
+      'lines' => [
+        ';; banojlAdiy$iy~_1',
+        'bnjlAdy$y       banojlAdiy$iy~  Nall    Bangladesh     [[banojalAdiy$iy~/NOUN]]',
+        'bnglAdy$y       banoglAdiy$iy~  Nall    Bangladesh     [[banogalAdiy$iy~/NOUN]]',
+        'bnjlAdy$y       banojlAdiy$iy~  Nall    Bangladesh     [[banojalAdiy$iy~/ADJ]]',
+        'bnglAdy$y       banoglAdiy$iy~  Nall    Bangladesh     [[banogalAdiy$iy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Bangladesh'
+      ],
+      'orig' => 'banojlAdiy$iy~',
+      'prefix' => ''
+    }
+  ],
   'bAbA' => [
     {
       'types' => {},
@@ -27095,66 +26526,50 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwliysAriyuw' => [
+  'bUsn' => [
     {
-      'types' => {},
-      'entry' => 'buwliysAriyuw',
-      'form' => 'buwliysAriyuw',
+      'types' => {
+        'buwsn' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'buwsn',
+      'form' => 'buwsniyy',
       'lines' => [
-        ';; buwliysAriyuw_1',
-        'bwlysAryw       buwliysAriyuw   N0      Polisario'
+        ';; buwsoniy~_1',
+        'bwsny   buwsoniy~       Nall    Bosnian     [[buwsoniy~/NOUN]]',
+        'bwsny   buwsoniy~       Nall    Bosnian     [[buwsoniy~/ADJ]]',
+        'bwsn    buwson  Nap     Bosnians'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'Polisario'
+        'Bosnian',
+        'Bosnians'
       ],
-      'orig' => 'buwliysAriyuw',
+      'orig' => 'buwsoniy~',
       'prefix' => ''
-    }
-  ],
-  'bwyz' => [
+    },
     {
       'types' => {},
-      'entry' => 'bwyz',
-      'form' => 'bwyz',
+      'entry' => 'buwsn',
+      'form' => 'buwsnaT',
       'lines' => [
-        ';; bwyz_1',
-        'bwyz    bwyz    Nprop   Boys'
+        ';; buwsonap_1',
+        'bwsn    buwson  Nap     Bosnia'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
-        'Boys'
+        'Bosnia'
       ],
-      'orig' => 'bwyz',
-      'prefix' => ''
-    }
-  ],
-  'buw`aynayn' => [
-    {
-      'types' => {},
-      'entry' => 'buw`aynayn',
-      'form' => 'buw`aynayn',
-      'lines' => [
-        ';; buwEayonayon_1',
-        'bwEynyn buwEayonayon    N0      Bouainein'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bouainein'
-      ],
-      'orig' => 'buwEayonayon',
+      'orig' => 'buwsonap',
       'prefix' => ''
     }
   ],
@@ -27619,6 +27034,54 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bUd.gUrIt^sA' => [
+    {
+      'types' => {},
+      'entry' => 'buwd.guwriyt^sA',
+      'form' => 'buwd.guwriyt^sA',
+      'lines' => [
+        ';; buwdoguwriyt$A_1',
+        'bwdgwryt$A      buwdoguwriyt$A  Nprop   Podgorica'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Podgorica'
+      ],
+      'orig' => 'buwdoguwriyt$A',
+      'prefix' => ''
+    }
+  ],
+  'bArtU' => [
+    {
+      'types' => {
+        'bArtiyz' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'bArtuw',
+      'form' => 'bArtuw',
+      'lines' => [
+        ';; bArotuw_1',
+        'bArtw   bArotuw Nprop   Barto',
+        'bArtyz  bArotiyz        Nprop   Barthez'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Barto',
+        'Barthez'
+      ],
+      'orig' => 'bArotuw',
+      'prefix' => ''
+    }
+  ],
   'b y ^g n' => [
     {
       'types' => {},
@@ -27662,14 +27125,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAwluw' => [
+  'bI.gAwAn' => [
     {
       'types' => {},
-      'entry' => 'bAwluw',
-      'form' => 'bAwluw',
+      'entry' => 'biy.gAwAn',
+      'form' => 'biy.gAwAn',
       'lines' => [
-        ';; bAwoluw_1',
-        'bAwlw   bAwoluw Nprop   Paulo'
+        ';; biygAwAn_1',
+        'bygAwAn biygAwAn        Nprop   Begawan'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27677,30 +27140,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Paulo'
+        'Begawan'
       ],
-      'orig' => 'bAwoluw',
-      'prefix' => ''
-    }
-  ],
-  'bAktiyriyA' => [
-    {
-      'types' => {},
-      'entry' => 'bAktiyriyA',
-      'form' => 'bAktiyriyA',
-      'lines' => [
-        ';; bAkotiyriyA_1',
-        'bAktyryA        bAkotiyriyA     N0      bacteria'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bacteria'
-      ],
-      'orig' => 'bAkotiyriyA',
+      'orig' => 'biygAwAn',
       'prefix' => ''
     }
   ],
@@ -27723,6 +27165,48 @@ $Lexicon = {
         'Bolivian'
       ],
       'orig' => 'buwliyfiy~',
+      'prefix' => ''
+    }
+  ],
+  'blAt^sI' => [
+    {
+      'types' => {},
+      'entry' => 'blAt^siy',
+      'form' => 'blAt^siy',
+      'lines' => [
+        ';; blAto$iy_1',
+        'blAt$y  blAto$iy        Nprop   Blatchy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Blatchy'
+      ],
+      'orig' => 'blAto$iy',
+      'prefix' => ''
+    }
+  ],
+  'bUrtAs' => [
+    {
+      'types' => {},
+      'entry' => 'buwrtAs',
+      'form' => 'buwrtAs',
+      'lines' => [
+        ';; buwrotAs_1',
+        'bwrtAs  buwrotAs        Nprop   Portas'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Portas'
+      ],
+      'orig' => 'buwrotAs',
       'prefix' => ''
     }
   ],
@@ -28110,6 +27594,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bAnIt^sbAkdI' => [
+    {
+      'types' => {},
+      'entry' => 'bAniyt^sbAkdiy',
+      'form' => 'bAniyt^sbAkdiy',
+      'lines' => [
+        ';; bAniyt$obAkodiy_1',
+        'bAnyt$bAkdy     bAniyt$obAkodiy Nprop   Panitchpakdi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Panitchpakdi'
+      ],
+      'orig' => 'bAniyt$obAkodiy',
+      'prefix' => ''
+    }
+  ],
   'burtuqAl' => [
     {
       'types' => {
@@ -28224,27 +27729,6 @@ $Lexicon = {
         'Baalbakki'
       ],
       'orig' => 'baEolabak~iy~',
-      'prefix' => ''
-    }
-  ],
-  'biyndiyksiyn' => [
-    {
-      'types' => {},
-      'entry' => 'biyndiyksiyn',
-      'form' => 'biyndiyksiyn',
-      'lines' => [
-        ';; biynodiykosiyn_1',
-        'byndyksyn       biynodiykosiyn  Nprop   Bendixen'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bendixen'
-      ],
-      'orig' => 'biynodiykosiyn',
       'prefix' => ''
     }
   ],
@@ -29043,14 +28527,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biy^sAwar' => [
+  'bA^giyU' => [
     {
       'types' => {},
-      'entry' => 'biy^sAwar',
-      'form' => 'biy^sAwar',
+      'entry' => 'bA^giyuw',
+      'form' => 'bA^giyuw',
       'lines' => [
-        ';; biy$Awar_1',
-        'by$Awr  biy$Awar        Nprop   Peshawar'
+        ';; bAjiyuw_1',
+        'bAjyw   bAjiyuw Nprop   Baggio'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29058,30 +28542,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Peshawar'
+        'Baggio'
       ],
-      'orig' => 'biy$Awar',
-      'prefix' => ''
-    }
-  ],
-  'buws.ta^g' => [
-    {
-      'types' => {},
-      'entry' => 'buws.ta^g',
-      'form' => 'buws.ta^giyy',
-      'lines' => [
-        ';; buwsoTajiy~_1',
-        'bwsTjy  buwsoTajiy~     Nall    mailman     [[buwsoTajiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'mailman'
-      ],
-      'orig' => 'buwsoTajiy~',
+      'orig' => 'bAjiyuw',
       'prefix' => ''
     }
   ],
@@ -29125,69 +28588,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'briynt' => [
-    {
-      'types' => {},
-      'entry' => 'briynt',
-      'form' => 'briynt',
-      'lines' => [
-        ';; briynt_1',
-        'brynt   briynt  Nprop   Print'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Print'
-      ],
-      'orig' => 'briynt',
-      'prefix' => ''
-    }
-  ],
-  'biskiliyt' => [
-    {
-      'types' => {},
-      'entry' => 'biskiliyt',
-      'form' => 'biskiliyt',
-      'lines' => [
-        ';; bisokiliyt_1',
-        'bsklyt  bisokiliyt      N/ap    bicycle'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bicycle'
-      ],
-      'orig' => 'bisokiliyt',
-      'prefix' => ''
-    }
-  ],
-  'buwndisliy.gah' => [
-    {
-      'types' => {},
-      'entry' => 'buwndisliy.gah',
-      'form' => 'buwndisliy.gah',
-      'lines' => [
-        ';; buwnodisoliygah_1',
-        'bwndslygh       buwnodisoliygah N0      Bundesliga'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bundesliga'
-      ],
-      'orig' => 'buwnodisoliygah',
-      'prefix' => ''
-    }
-  ],
   'b _t n' => [
     {
       'types' => {},
@@ -29207,28 +28607,6 @@ $Lexicon = {
       ],
       'orig' => 'buvayonap',
       'prefix' => ''
-    }
-  ],
-  '\'ubAliyy' => [
-    {
-      'types' => {},
-      'entry' => '\'ubAliyy',
-      'form' => 'lA\'ubAliyyaT',
-      'lines' => [
-        ';; lA>ubAliy~ap_1',
-        'lA>bAly lA>ubAliy~      Nap_L   indifference     [[lA>ubAliy~/NOUN]]',
-        'lAAbAly lA>ubAliy~      Nap_L   indifference     [[lAAubAliy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'lA >| Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'indifference'
-      ],
-      'orig' => 'lAOubAliy~ap',
-      'prefix' => 'lA >| '
     }
   ],
   'b l h' => [
@@ -29972,19 +29350,56 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bitruwkiymA\'' => [
+  'bUrUsiyA' => [
     {
-      'types' => {
-        'bitruwkiymyA\'iyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'bitruwkiymA\'',
-      'form' => 'bitruwkiymAwiyy',
+      'types' => {},
+      'entry' => 'buwruwsiyA',
+      'form' => 'buwruwsiyA',
       'lines' => [
-        ';; bitruwkiymAwiy~_1',
-        'btrwkymAwy      bitruwkiymAwiy~ Nall    petrochemical     [[bitruwkiymAwiy~/ADJ]]',
-        'btrwkymyA}y     bitruwkiymyA}iy~        Nall    petrochemical     [[bitruwkiymyA}iy~/ADJ]]'
+        ';; buwruwsiyA_1',
+        'bwrwsyA buwruwsiyA      Nprop   Borussia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Borussia'
+      ],
+      'orig' => 'buwruwsiyA',
+      'prefix' => ''
+    }
+  ],
+  'bU_dA' => [
+    {
+      'types' => {},
+      'entry' => 'buw_dA',
+      'form' => 'buw_dA',
+      'lines' => [
+        ';; buw*A_1',
+        'bw*A    buw*A   N0      Buddha'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Buddha'
+      ],
+      'orig' => 'buw*A',
+      'prefix' => ''
+    }
+  ],
+  'blUtUqrA.t' => [
+    {
+      'types' => {},
+      'entry' => 'bluwtuwqrA.t',
+      'form' => 'bluwtuwqrA.tiyy',
+      'lines' => [
+        ';; bluwtuwqrATiy~_1',
+        'blwtwqrATy      bluwtuwqrATiy~  Nall    plutocrat'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29992,9 +29407,74 @@ $Lexicon = {
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'petrochemical'
+        'plutocrat'
       ],
-      'orig' => 'bitruwkiymAwiy~',
+      'orig' => 'bluwtuwqrATiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'bluwtuwqrA.t',
+      'form' => 'bluwtuwqrA.tiyy',
+      'lines' => [
+        ';; bluwtuwqrATiy~_2',
+        'blwtwqrATy      bluwtuwqrATiy~  Nall    plutocratic     [[bluwtuwqrATiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'plutocratic'
+      ],
+      'orig' => 'bluwtuwqrATiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'bluwtuwqrA.tiyy' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'bluwtuwqrA.t',
+      'form' => 'bluwtuwqrA.tiyyaT',
+      'lines' => [
+        ';; bluwtuwqrATiy~ap_1',
+        'blwtwqrATy      bluwtuwqrATiy~  Napdu   plutocracy     [[bluwtuwqrATiy~/ADJ]]',
+        'blwtwqrATy      bluwtuwqrATiy~  NAt     plutocracies     [[bluwtuwqrATiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'plutocracy',
+        'plutocracies'
+      ],
+      'orig' => 'bluwtuwqrATiy~ap',
+      'prefix' => ''
+    }
+  ],
+  'bIrhUf' => [
+    {
+      'types' => {},
+      'entry' => 'biyrhuwf',
+      'form' => 'biyrhuwf',
+      'lines' => [
+        ';; biyrohuwf_1',
+        'byrhwf  biyrohuwf       Nprop   Bierhoff'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bierhoff'
+      ],
+      'orig' => 'biyrohuwf',
       'prefix' => ''
     }
   ],
@@ -32884,14 +32364,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'blAniyt' => [
+  'bUrtU' => [
     {
       'types' => {},
-      'entry' => 'blAniyt',
-      'form' => 'blAniyt',
+      'entry' => 'buwrtuw',
+      'form' => 'buwrtuw',
       'lines' => [
-        ';; blAniyt_1',
-        'blAnyt  blAniyt N0      Planet'
+        ';; buwrotuw_1',
+        'bwrtw   buwrotuw        Nprop   Porto'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32899,9 +32379,28 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Planet'
+        'Porto'
       ],
-      'orig' => 'blAniyt',
+      'orig' => 'buwrotuw',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'buwrtuw',
+      'form' => 'buwrtuw',
+      'lines' => [
+        ';; buwrotuw_2',
+        'bwrtw   buwrotuw        Nprop   Puerto'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Puerto'
+      ],
+      'orig' => 'buwrotuw',
       'prefix' => ''
     }
   ],
@@ -32950,6 +32449,28 @@ $Lexicon = {
         'Panos'
       ],
       'orig' => 'bAnuws',
+      'prefix' => ''
+    }
+  ],
+  'bUrm' => [
+    {
+      'types' => {},
+      'entry' => 'buwrm',
+      'form' => 'buwrmiyy',
+      'lines' => [
+        ';; buwromiy~_1',
+        'bwrmy   buwromiy~       Nall    Burmese     [[buwromiy~/NOUN]]',
+        'bwrmy   buwromiy~       Nall    Burmese     [[buwromiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Burmese'
+      ],
+      'orig' => 'buwromiy~',
       'prefix' => ''
     }
   ],
@@ -33046,6 +32567,52 @@ $Lexicon = {
         'coffee pots'
       ],
       'orig' => 'baqoraj',
+      'prefix' => ''
+    }
+  ],
+  'bIlyah' => [
+    {
+      'types' => {
+        'biylyah' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'biylyah',
+      'form' => 'biylyah',
+      'lines' => [
+        ';; biyloyah_1',
+        'bylyh   biyloyah        N/At    marble'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'marble'
+      ],
+      'orig' => 'biyloyah',
+      'prefix' => ''
+    }
+  ],
+  'bIrl' => [
+    {
+      'types' => {},
+      'entry' => 'biyrl',
+      'form' => 'biyrl',
+      'lines' => [
+        ';; biyrl_1',
+        'byrl    biyrl   Nprop   Pearle'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Pearle'
+      ],
+      'orig' => 'biyrl',
       'prefix' => ''
     }
   ],
@@ -33319,27 +32886,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bArnysAndnwbl' => [
-    {
-      'types' => {},
-      'entry' => 'bArnysAndnwbl',
-      'form' => 'bArnysAndnwbl',
-      'lines' => [
-        ';; bArnysAndnwbl_1',
-        'bArnysAndnwbl   bArnysAndnwbl   Nprop   Barnes and Noble'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Barnes and Noble'
-      ],
-      'orig' => 'bArnysAndnwbl',
-      'prefix' => ''
-    }
-  ],
   'b .g t' => [
     {
       'types' => {
@@ -33538,6 +33084,46 @@ $Lexicon = {
         'unexpected'
       ],
       'orig' => 'mubAgit',
+      'prefix' => ''
+    }
+  ],
+  'bUrsa`Id' => [
+    {
+      'types' => {},
+      'entry' => 'buwrsa`iyd',
+      'form' => 'buwrsa`iyd',
+      'lines' => [
+        ';; buwrosaEiyd_1',
+        'bwrsEyd buwrosaEiyd     Nprop   Port Said'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Port Said'
+      ],
+      'orig' => 'buwrosaEiyd',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'buwrsa`iyd',
+      'form' => 'buwrsa`iydiyy',
+      'lines' => [
+        ';; buwrosaEiydiy~_1',
+        'bwrsEydy        buwrosaEiydiy~  Nall    from/of Port Said     [[buwrosaEiydiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'from/of Port Said'
+      ],
+      'orig' => 'buwrosaEiydiy~',
       'prefix' => ''
     }
   ],
@@ -33914,27 +33500,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwks' => [
-    {
-      'types' => {},
-      'entry' => 'buwks',
-      'form' => 'buwks',
-      'lines' => [
-        ';; buwkos_1',
-        'bwks    buwkos  N       boxing'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'boxing'
-      ],
-      'orig' => 'buwkos',
-      'prefix' => ''
-    }
-  ],
   'b .t s' => [
     {
       'types' => {},
@@ -33953,6 +33518,27 @@ $Lexicon = {
         'potatoes'
       ],
       'orig' => 'baTATis',
+      'prefix' => ''
+    }
+  ],
+  'bItA' => [
+    {
+      'types' => {},
+      'entry' => 'biytA',
+      'form' => 'biytA',
+      'lines' => [
+        ';; biytA_1',
+        'bytA    biytA   N0      beta'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'beta'
+      ],
+      'orig' => 'biytA',
       'prefix' => ''
     }
   ],
@@ -34048,6 +33634,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bUrmA' => [
+    {
+      'types' => {},
+      'entry' => 'buwrmA',
+      'form' => 'buwrmA',
+      'lines' => [
+        ';; buwromA_1',
+        'bwrmA   buwromA N0      Burma'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Burma'
+      ],
+      'orig' => 'buwromA',
+      'prefix' => ''
+    }
+  ],
   'b s m l' => [
     {
       'types' => {
@@ -34115,6 +33722,32 @@ $Lexicon = {
         'bacterial'
       ],
       'orig' => 'bakotiyriy~',
+      'prefix' => ''
+    }
+  ],
+  'bImAristAn' => [
+    {
+      'types' => {
+        'biymAristAn' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'biymAristAn',
+      'form' => 'biymAristAn',
+      'lines' => [
+        ';; biymArisotAn_1',
+        'bymArstAn       biymArisotAn    NduAt   hospital;asylum'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'hospital',
+        'asylum'
+      ],
+      'orig' => 'biymArisotAn',
       'prefix' => ''
     }
   ],
@@ -34266,32 +33899,6 @@ $Lexicon = {
         'software'
       ],
       'orig' => 'baromajiy~At',
-      'prefix' => ''
-    }
-  ],
-  'blAtuwh' => [
-    {
-      'types' => {
-        'blAtuwh' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'blAtuwh',
-      'form' => 'blAtuwh',
-      'lines' => [
-        ';; blAtuwh_1',
-        'blAtwh  blAtuwh N/At    plateau;stage'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'plateau',
-        'stage'
-      ],
-      'orig' => 'blAtuwh',
       'prefix' => ''
     }
   ],
@@ -34588,48 +34195,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAktiyr' => [
-    {
-      'types' => {},
-      'entry' => 'bAktiyr',
-      'form' => 'bAktiyriyy',
-      'lines' => [
-        ';; bAkotiyriy~_1',
-        'bAktyry bAkotiyriy~     Nall    bacterial     [[bAkotiyriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'bacterial'
-      ],
-      'orig' => 'bAkotiyriy~',
-      'prefix' => ''
-    }
-  ],
-  'biytuwrAtAnA' => [
-    {
-      'types' => {},
-      'entry' => 'biytuwrAtAnA',
-      'form' => 'biytuwrAtAnA',
-      'lines' => [
-        ';; biytuwrAtAnA_1',
-        'bytwrAtAnA      biytuwrAtAnA    Nprop   Pituratana'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Pituratana'
-      ],
-      'orig' => 'biytuwrAtAnA',
-      'prefix' => ''
-    }
-  ],
   'bA_din^gAn' => [
     {
       'types' => {
@@ -34653,6 +34218,28 @@ $Lexicon = {
         'eggplant'
       ],
       'orig' => 'bA*inojAn',
+      'prefix' => ''
+    }
+  ],
+  'b y r f' => [
+    {
+      'types' => {},
+      'entry' => 'biyruwf',
+      'form' => 'biyruwfiyy',
+      'lines' => [
+        ';; biyruwfiy~_1',
+        'byrwfy  biyruwfiy~      Nall    Peruvian     [[biyruwfiy~/NOUN]]',
+        'byrwfy  biyruwfiy~      Nall    Peruvian     [[biyruwfiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KiRDUS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Peruvian'
+      ],
+      'orig' => 'biyruwfiy~',
       'prefix' => ''
     }
   ],
@@ -34687,6 +34274,46 @@ $Lexicon = {
         'tips'
       ],
       'orig' => 'baqo$iy$',
+      'prefix' => ''
+    }
+  ],
+  'bIrsI' => [
+    {
+      'types' => {},
+      'entry' => 'biyrsiy',
+      'form' => 'biyrsiy',
+      'lines' => [
+        ';; biyrosiy_1',
+        'byrsy   biyrosiy        Nprop   Bercy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bercy'
+      ],
+      'orig' => 'biyrosiy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'biyrsiy',
+      'form' => 'biyrsiy',
+      'lines' => [
+        ';; biyrosiy_2',
+        'byrsy   biyrosiy        Nprop   Percy'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Percy'
+      ],
+      'orig' => 'biyrosiy',
       'prefix' => ''
     }
   ],
@@ -34772,14 +34399,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwrduw' => [
+  'bIlIfIld' => [
     {
       'types' => {},
-      'entry' => 'buwrduw',
-      'form' => 'buwrduw',
+      'entry' => 'biyliyfiyld',
+      'form' => 'biyliyfiyld',
       'lines' => [
-        ';; buwroduw_1',
-        'bwrdw   buwroduw        Nprop   Bordeaux'
+        ';; biyliyfiylod_1',
+        'bylyfyld        biyliyfiylod    N0      Bielefeld'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34787,9 +34414,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Bordeaux'
+        'Bielefeld'
       ],
-      'orig' => 'buwroduw',
+      'orig' => 'biyliyfiylod',
       'prefix' => ''
     }
   ],
@@ -34843,27 +34470,6 @@ $Lexicon = {
         'bong'
       ],
       'orig' => 'banoj',
-      'prefix' => ''
-    }
-  ],
-  'bAnuwrAmA' => [
-    {
-      'types' => {},
-      'entry' => 'bAnuwrAmA',
-      'form' => 'bAnuwrAmA',
-      'lines' => [
-        ';; bAnuwrAmA_1',
-        'bAnwrAmA        bAnuwrAmA       N0      panorama'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'panorama'
-      ],
-      'orig' => 'bAnuwrAmA',
       'prefix' => ''
     }
   ],
@@ -34934,6 +34540,27 @@ $Lexicon = {
         'kiss'
       ],
       'orig' => 'bawosap',
+      'prefix' => ''
+    }
+  ],
+  'bAytUn' => [
+    {
+      'types' => {},
+      'entry' => 'bAytuwn',
+      'form' => 'bAytuwn',
+      'lines' => [
+        ';; bAytuwn_1',
+        'bAytwn  bAytuwn Nprop   Payton'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Payton'
+      ],
+      'orig' => 'bAytuwn',
       'prefix' => ''
     }
   ],
@@ -35079,14 +34706,40 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ba^saruw^s' => [
+  'bitrUkImA\'' => [
+    {
+      'types' => {
+        'bitruwkiymyA\'iyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'bitruwkiymA\'',
+      'form' => 'bitruwkiymAwiyy',
+      'lines' => [
+        ';; bitruwkiymAwiy~_1',
+        'btrwkymAwy      bitruwkiymAwiy~ Nall    petrochemical     [[bitruwkiymAwiy~/ADJ]]',
+        'btrwkymyA}y     bitruwkiymyA}iy~        Nall    petrochemical     [[bitruwkiymyA}iy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'petrochemical'
+      ],
+      'orig' => 'bitruwkiymAwiy~',
+      'prefix' => ''
+    }
+  ],
+  'bArA^sUt' => [
     {
       'types' => {},
-      'entry' => 'ba^saruw^s',
-      'form' => 'ba^saruw^s',
+      'entry' => 'bArA^suwt',
+      'form' => 'bArA^suwt',
       'lines' => [
-        ';; ba$aruw$_1',
-        'b$rw$   ba$aruw$        N       flamingo'
+        ';; bArA$uwt_1',
+        'bArA$wt bArA$uwt        N       parachute'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35094,9 +34747,57 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'flamingo'
+        'parachute'
       ],
-      'orig' => 'ba$aruw$',
+      'orig' => 'bArA$uwt',
+      'prefix' => ''
+    }
+  ],
+  'brIslI' => [
+    {
+      'types' => {},
+      'entry' => 'briysliy',
+      'form' => 'briysliy',
+      'lines' => [
+        ';; briysoliy_1',
+        'brysly  briysoliy       Nprop   Presley'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Presley'
+      ],
+      'orig' => 'briysoliy',
+      'prefix' => ''
+    }
+  ],
+  'bIt^snIk' => [
+    {
+      'types' => {
+        'byt^snyk' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'biyt^sniyk',
+      'form' => 'biyt^sniyk',
+      'lines' => [
+        ';; biyt$niyk_1',
+        'byt$nyk byt$nyk Nprop   Bichnik;Pitchnick;Beachnik ??'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bichnik',
+        'Pitchnick',
+        'Beachnik ??'
+      ],
+      'orig' => 'biyt$niyk',
       'prefix' => ''
     }
   ],
@@ -35877,6 +35578,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bIlAt^sI' => [
+    {
+      'types' => {
+        'biylAt^sy' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'biylAt^siy',
+      'form' => 'biylAt^siy',
+      'lines' => [
+        ';; biylAto$iy_1',
+        'bylAt$y biylAto$y       Nprop   Balaci'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Balaci'
+      ],
+      'orig' => 'biylAto$iy',
+      'prefix' => ''
+    }
+  ],
   'b w r' => [
     {
       'types' => {
@@ -36144,27 +35870,6 @@ $Lexicon = {
         'vegetable stew'
       ],
       'orig' => 'buwrAniy~',
-      'prefix' => ''
-    }
-  ],
-  'bitruwstrAtiy^giy' => [
-    {
-      'types' => {},
-      'entry' => 'bitruwstrAtiy^giy',
-      'form' => 'bitruwstrAtiy^giy',
-      'lines' => [
-        ';; bitoruwstrAtiyjiy_1',
-        'btrwstrAtyjy    bitoruwstrAtiyjiy       N0      Petrostrategy'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Petrostrategy'
-      ],
-      'orig' => 'bitoruwstrAtiyjiy',
       'prefix' => ''
     }
   ],
@@ -37358,54 +37063,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biykliyr' => [
-    {
-      'types' => {},
-      'entry' => 'biykliyr',
-      'form' => 'biykliyr',
-      'lines' => [
-        ';; biykliyr_1',
-        'byklyr  biykliyr        Nprop   Beclere'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Beclere'
-      ],
-      'orig' => 'biykliyr',
-      'prefix' => ''
-    }
-  ],
-  'banyuw' => [
-    {
-      'types' => {
-        'banyuwh' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'banyuw',
-      'form' => 'banyuw',
-      'lines' => [
-        ';; banoyuw_1',
-        'bnyw    banoyuw N       bath',
-        'bnywh   banoyuwh        NAt     baths'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bath',
-        'baths'
-      ],
-      'orig' => 'banoyuw',
-      'prefix' => ''
-    }
-  ],
   'bi\'samA' => [
     {
       'types' => {},
@@ -37430,14 +37087,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyruwziy' => [
+  'brUfisUr' => [
     {
-      'types' => {},
-      'entry' => 'biyruwziy',
-      'form' => 'biyruwziy',
+      'types' => {
+        'bruwfiysuwr' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'bruwfisuwr',
+      'form' => 'bruwfisuwr',
       'lines' => [
-        ';; biyruwziy_1',
-        'byrwzy  biyruwziy       N0      Piruzi'
+        ';; bruwfisuwr_1',
+        'brwfswr bruwfisuwr      N       professor',
+        'brwfyswr        bruwfiysuwr     N       professor'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37445,20 +37107,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Piruzi'
+        'professor'
       ],
-      'orig' => 'biyruwziy',
+      'orig' => 'bruwfisuwr',
       'prefix' => ''
     }
   ],
-  'biylAt^sy' => [
+  'bU^sa`Ib' => [
     {
       'types' => {},
-      'entry' => 'biylAt^sy',
-      'form' => 'biylAt^sy',
+      'entry' => 'buw^sa`iyb',
+      'form' => 'buw^sa`iyb',
       'lines' => [
-        ';; biylAto$y_1',
-        'bylAt$y biylAto$y       Nprop   Balaci'
+        ';; buw$aEiyb_1',
+        'bw$Eyb  buw$aEiyb       Nprop   Bouchaib'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37466,9 +37128,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Balaci'
+        'Bouchaib'
       ],
-      'orig' => 'biylAto$y',
+      'orig' => 'buw$aEiyb',
       'prefix' => ''
     }
   ],
@@ -37493,14 +37155,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bruwsiyA' => [
+  'bUlfAr' => [
     {
       'types' => {},
-      'entry' => 'bruwsiyA',
-      'form' => 'bruwsiyA',
+      'entry' => 'buwlfAr',
+      'form' => 'buwlfAr',
       'lines' => [
-        ';; bruwsiyA_1',
-        'brwsyA  bruwsiyA        N0      Prussia'
+        ';; buwlofAr_1',
+        'bwlfAr  buwlofAr        N       boulevard'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37508,25 +37170,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Prussia'
+        'boulevard'
       ],
-      'orig' => 'bruwsiyA',
+      'orig' => 'buwlofAr',
       'prefix' => ''
     }
   ],
-  'bakaluwriyuws' => [
+  'bsIkUlU^giyA' => [
     {
-      'types' => {
-        'bakAluwriyuws' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'bakaluwriyuws',
-      'form' => 'bakaluwriyuws',
+      'types' => {},
+      'entry' => 'bsiykuwluw^giyA',
+      'form' => 'bsiykuwluw^giyA',
       'lines' => [
-        ';; bakaluwriyuws_1',
-        'bklwryws        bakaluwriyuws   N       Bachelor\'s;B.A.',
-        'bkAlwryws       bakAluwriyuws   N       Bachelor\'s;B.A.'
+        ';; bsiykuwluwjiyA_1',
+        'bsykwlwjyA      bsiykuwluwjiyA  N0      psychology'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37534,10 +37191,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Bachelor\'s',
-        'B.A.'
+        'psychology'
       ],
-      'orig' => 'bakaluwriyuws',
+      'orig' => 'bsiykuwluwjiyA',
       'prefix' => ''
     }
   ],
@@ -37793,27 +37449,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'blAt^siy' => [
-    {
-      'types' => {},
-      'entry' => 'blAt^siy',
-      'form' => 'blAt^siy',
-      'lines' => [
-        ';; blAto$iy_1',
-        'blAt$y  blAto$iy        Nprop   Blatchy'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Blatchy'
-      ],
-      'orig' => 'blAto$iy',
-      'prefix' => ''
-    }
-  ],
   'bAzAr' => [
     {
       'types' => {
@@ -37903,25 +37538,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyrwAn' => [
+  'bIlzbUrI' => [
     {
       'types' => {},
-      'entry' => 'biyrwAn',
-      'form' => 'biyrwAniyy',
+      'entry' => 'biylzbuwriy',
+      'form' => 'biylzbuwriy',
       'lines' => [
-        ';; biyrwAniy~_1',
-        'byrwAny biyrwAniy~      Nall    Peruvian     [[biyrwAniy~/NOUN]]',
-        'byrwAny biyrwAniy~      Nall    Peruvian     [[biyrwAniy~/ADJ]]'
+        ';; biylzobuwriy_1',
+        'bylzbwry        biylzobuwriy    N0      Pillsbury'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'Peruvian'
+        'Pillsbury'
       ],
-      'orig' => 'biyrwAniy~',
+      'orig' => 'biylzobuwriy',
       'prefix' => ''
     }
   ],
@@ -38183,35 +37817,40 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwrmA' => [
+  'bUr.s' => [
     {
       'types' => {},
-      'entry' => 'buwrmA',
-      'form' => 'buwrmA',
+      'entry' => 'buwr.s',
+      'form' => 'buwr.saT',
       'lines' => [
-        ';; buwromA_1',
-        'bwrmA   buwromA N0      Burma'
+        ';; buwroSap_1',
+        'bwrS    buwroS  NapAt   stock exchange;bourse'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
-        'Burma'
+        'stock exchange',
+        'bourse'
       ],
-      'orig' => 'buwromA',
+      'orig' => 'buwroSap',
       'prefix' => ''
     }
   ],
-  'biyktil' => [
+  'blIzir' => [
     {
-      'types' => {},
-      'entry' => 'biyktil',
-      'form' => 'biyktil',
+      'types' => {
+        'bliyzir' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'bliyzir',
+      'form' => 'bliyzir',
       'lines' => [
-        ';; biykotil_1',
-        'byktl   biykotil        Nprop   Bechtel'
+        ';; bliyzir_1',
+        'blyzr   bliyzir N/At    blazer'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38219,9 +37858,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Bechtel'
+        'blazer'
       ],
-      'orig' => 'biykotil',
+      'orig' => 'bliyzir',
+      'prefix' => ''
+    }
+  ],
+  'bIsU' => [
+    {
+      'types' => {},
+      'entry' => 'biysuw',
+      'form' => 'biysuw',
+      'lines' => [
+        ';; biysuw_1',
+        'bysw    biysuw  N0      peso (currency)'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'peso (currency)'
+      ],
+      'orig' => 'biysuw',
       'prefix' => ''
     }
   ],
@@ -38569,6 +38229,72 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bIlArUs' => [
+    {
+      'types' => {},
+      'entry' => 'biylAruws',
+      'form' => 'biylAruws',
+      'lines' => [
+        ';; biylAruws_1',
+        'bylArws biylAruws       N0      Belarus'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Belarus'
+      ],
+      'orig' => 'biylAruws',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'biylAruws',
+      'form' => 'biylAruwsiyy',
+      'lines' => [
+        ';; biylAruwsiy~_1',
+        'bylArwsy        biylAruwsiy~    Nall    Belarusian'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Belarusian'
+      ],
+      'orig' => 'biylAruwsiy~',
+      'prefix' => ''
+    }
+  ],
+  'balansI' => [
+    {
+      'types' => {
+        'balansiyA' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'balansiy',
+      'form' => 'balansiyaT',
+      'lines' => [
+        ';; balanosiyap_1',
+        'blnsy   balanosiy       Nap     Valencia',
+        'blnsyA  balanosiyA      N0      Valencia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'Valencia'
+      ],
+      'orig' => 'balanosiyap',
+      'prefix' => ''
+    }
+  ],
   'b r ^s m' => [
     {
       'types' => {
@@ -38788,14 +38514,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwrsa`iyd' => [
+  'bUmirdAs' => [
     {
       'types' => {},
-      'entry' => 'buwrsa`iyd',
-      'form' => 'buwrsa`iyd',
+      'entry' => 'buwmirdAs',
+      'form' => 'buwmirdAs',
       'lines' => [
-        ';; buwrosaEiyd_1',
-        'bwrsEyd buwrosaEiyd     Nprop   Port Said'
+        ';; buwmirodAs_1',
+        'bwmrdAs buwmirodAs      N0      Boumerdes;Boumerdas'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38803,49 +38529,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Port Said'
+        'Boumerdes',
+        'Boumerdas'
       ],
-      'orig' => 'buwrosaEiyd',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'buwrsa`iyd',
-      'form' => 'buwrsa`iydiyy',
-      'lines' => [
-        ';; buwrosaEiydiy~_1',
-        'bwrsEydy        buwrosaEiydiy~  Nall    from/of Port Said     [[buwrosaEiydiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'from/of Port Said'
-      ],
-      'orig' => 'buwrosaEiydiy~',
-      'prefix' => ''
-    }
-  ],
-  'blAtiyn' => [
-    {
-      'types' => {},
-      'entry' => 'blAtiyn',
-      'form' => 'blAtiyn',
-      'lines' => [
-        ';; blAtiyn_1',
-        'blAtyn  blAtiyn N       platinum'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'platinum'
-      ],
-      'orig' => 'blAtiyn',
+      'orig' => 'buwmirodAs',
       'prefix' => ''
     }
   ],
@@ -38930,14 +38617,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bliyr' => [
+  'brAdI^s' => [
     {
       'types' => {},
-      'entry' => 'bliyr',
-      'form' => 'bliyr',
+      'entry' => 'brAdiy^s',
+      'form' => 'brAdiy^s',
       'lines' => [
-        ';; bliyr_1',
-        'blyr    bliyr   Nprop   Blair'
+        ';; brAdiy$_1',
+        'brAdy$  brAdiy$ Nprop   Pradesh'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38945,9 +38632,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Blair'
+        'Pradesh'
       ],
-      'orig' => 'bliyr',
+      'orig' => 'brAdiy$',
+      'prefix' => ''
+    }
+  ],
+  'bIndIksIn' => [
+    {
+      'types' => {},
+      'entry' => 'biyndiyksiyn',
+      'form' => 'biyndiyksiyn',
+      'lines' => [
+        ';; biynodiykosiyn_1',
+        'byndyksyn       biynodiykosiyn  Nprop   Bendixen'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bendixen'
+      ],
+      'orig' => 'biynodiykosiyn',
       'prefix' => ''
     }
   ],
@@ -38969,48 +38677,6 @@ $Lexicon = {
         'with what'
       ],
       'orig' => 'bima',
-      'prefix' => ''
-    }
-  ],
-  'bayruwtiyy' => [
-    {
-      'types' => {},
-      'entry' => 'bayruwtiyy',
-      'form' => 'bayruwtiyy',
-      'lines' => [
-        ';; bayoruwtiy~_1',
-        'byrwty  bayoruwtiy~     Nall    Beiruti     [[bayoruwtiy~/NOUN]]',
-        'byrwty  bayoruwtiy~     Nall    Beiruti     [[bayoruwtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Beiruti'
-      ],
-      'orig' => 'bayoruwtiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'bayruwtiyy',
-      'form' => 'bayruwtiyy',
-      'lines' => [
-        ';; bayoruwtiy~_2',
-        'byrwty  bayoruwtiy~     N0      Beirouti;Bairuti'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Beirouti',
-        'Bairuti'
-      ],
-      'orig' => 'bayoruwtiy~',
       'prefix' => ''
     }
   ],
@@ -39082,27 +38748,6 @@ $Lexicon = {
         'spendthrift'
       ],
       'orig' => 'mubaEoziq',
-      'prefix' => ''
-    }
-  ],
-  'bArA^suwt' => [
-    {
-      'types' => {},
-      'entry' => 'bArA^suwt',
-      'form' => 'bArA^suwt',
-      'lines' => [
-        ';; bArA$uwt_1',
-        'bArA$wt bArA$uwt        N       parachute'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'parachute'
-      ],
-      'orig' => 'bArA$uwt',
       'prefix' => ''
     }
   ],
@@ -39208,6 +38853,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bArIziyAn' => [
+    {
+      'types' => {},
+      'entry' => 'bAriyziyAn',
+      'form' => 'bAriyziyAn',
+      'lines' => [
+        ';; bAriyziyAn_1',
+        'bAryzyAn        bAriyziyAn      N0      Parisien'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Parisien'
+      ],
+      'orig' => 'bAriyziyAn',
+      'prefix' => ''
+    }
+  ],
   'b \' y' => [
     {
       'types' => {},
@@ -39226,6 +38892,32 @@ $Lexicon = {
         'Bey'
       ],
       'orig' => 'bAy',
+      'prefix' => ''
+    }
+  ],
+  'buwIn.g' => [
+    {
+      'types' => {
+        'buwiyn^g' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'buwiyn.g',
+      'form' => 'buwiyn.g',
+      'lines' => [
+        ';; buwiyng_1',
+        'bwyng   buwiyng N0      Boeing',
+        'bwynj   buwiynj N0      Boeing'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Boeing'
+      ],
+      'orig' => 'buwiyng',
       'prefix' => ''
     }
   ],
@@ -39571,14 +39263,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyriy_hiyl' => [
+  'bAsIl' => [
     {
       'types' => {},
-      'entry' => 'biyriy_hiyl',
-      'form' => 'biyriy_hiyl',
+      'entry' => 'bAsiyl',
+      'form' => 'bAsiyl',
       'lines' => [
-        ';; biyriyxiyl_1',
-        'byryxyl biyriyxiyl      N0      Perejil'
+        ';; bAsiyl_1',
+        'bAsyl   bAsiyl  N       bacilli'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39586,9 +39278,32 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Perejil'
+        'bacilli'
       ],
-      'orig' => 'biyriyxiyl',
+      'orig' => 'bAsiyl',
+      'prefix' => ''
+    }
+  ],
+  'bIrd' => [
+    {
+      'types' => {},
+      'entry' => 'biyrd',
+      'form' => 'biyrd',
+      'lines' => [
+        ';; biyrd_1',
+        'byrd    biyrd   Nprop   Beard;Byrd;Bird'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Beard',
+        'Byrd',
+        'Bird'
+      ],
+      'orig' => 'biyrd',
       'prefix' => ''
     }
   ],
@@ -39627,6 +39342,31 @@ $Lexicon = {
         'Banyas'
       ],
       'orig' => 'bAnoyAs',
+      'prefix' => ''
+    }
+  ],
+  'brU^grAm' => [
+    {
+      'types' => {
+        'bruw^grAm' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'bruw^grAm',
+      'form' => 'bruw^grAm',
+      'lines' => [
+        ';; bruwjrAm_1',
+        'brwjrAm bruwjrAm        N/At    program'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'program'
+      ],
+      'orig' => 'bruwjrAm',
       'prefix' => ''
     }
   ],
@@ -39892,14 +39632,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bruw^g' => [
+  'bUks' => [
     {
       'types' => {},
-      'entry' => 'bruw^g',
-      'form' => 'bruw^g',
+      'entry' => 'buwks',
+      'form' => 'buwks',
       'lines' => [
-        ';; bruwj_1',
-        'brwj    bruwj   Nprop   Brugge'
+        ';; buwkos_1',
+        'bwks    buwkos  N       boxing'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39907,9 +39647,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Brugge'
+        'boxing'
       ],
-      'orig' => 'bruwj',
+      'orig' => 'buwkos',
       'prefix' => ''
     }
   ],
@@ -40218,6 +39958,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bIrnz' => [
+    {
+      'types' => {},
+      'entry' => 'biyrnz',
+      'form' => 'biyrnz',
+      'lines' => [
+        ';; biyrnoz_1',
+        'byrnz   biyrnoz Nprop   Burns'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Burns'
+      ],
+      'orig' => 'biyrnoz',
+      'prefix' => ''
+    }
+  ],
   'b w r y' => [
     {
       'types' => {},
@@ -40231,54 +39992,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'buwriy',
-      'prefix' => ''
-    }
-  ],
-  'biylhArsiyA' => [
-    {
-      'types' => {
-        'biylhArsiy' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'biylhArsiyA',
-      'form' => 'biylhArsiyA',
-      'lines' => [
-        ';; biylohArosiyA_1',
-        'bylhArsyA       biylohArosiyA   N0      bilharzia;schistosomiasis',
-        'bylhArsy        biylohArosiy    Nap     bilharzia;schistosomiasis'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bilharzia',
-        'schistosomiasis'
-      ],
-      'orig' => 'biylohArosiyA',
-      'prefix' => ''
-    }
-  ],
-  'bfyl^syftr' => [
-    {
-      'types' => {},
-      'entry' => 'bfyl^syftr',
-      'form' => 'bfyl^syftr',
-      'lines' => [
-        ';; bfyl$yftr_1',
-        'bfyl$yftr       bfyl$yftr       N0      Pfeilschifter'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Pfeilschifter'
-      ],
-      'orig' => 'bfyl$yftr',
       'prefix' => ''
     }
   ],
@@ -40300,6 +40013,27 @@ $Lexicon = {
         'Voucher'
       ],
       'orig' => 'bAwto$ir',
+      'prefix' => ''
+    }
+  ],
+  'brIzbAn' => [
+    {
+      'types' => {},
+      'entry' => 'briyzbAn',
+      'form' => 'briyzbAn',
+      'lines' => [
+        ';; briyzobAn_1',
+        'bryzbAn briyzobAn       N0      Brisbane'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Brisbane'
+      ],
+      'orig' => 'briyzobAn',
       'prefix' => ''
     }
   ],
@@ -40466,32 +40200,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'banAduwr' => [
-    {
-      'types' => {
-        'banduwr' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'banAduwr',
-      'form' => 'banAduwraT',
-      'lines' => [
-        ';; banAduwrap_1',
-        'bnAdwr  banAduwr        Nap     tomatoes',
-        'bndwr   banoduwr        Nap     tomatoes'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'tomatoes'
-      ],
-      'orig' => 'banAduwrap',
-      'prefix' => ''
-    }
-  ],
   'b r q `' => [
     {
       'types' => {
@@ -40572,19 +40280,40 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biy^gAmA' => [
+  'bIrwAn' => [
+    {
+      'types' => {},
+      'entry' => 'biyrwAn',
+      'form' => 'biyrwAniyy',
+      'lines' => [
+        ';; biyrwAniy~_1',
+        'byrwAny biyrwAniy~      Nall    Peruvian     [[biyrwAniy~/NOUN]]',
+        'byrwAny biyrwAniy~      Nall    Peruvian     [[biyrwAniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Peruvian'
+      ],
+      'orig' => 'biyrwAniy~',
+      'prefix' => ''
+    }
+  ],
+  'bar^silUnah' => [
     {
       'types' => {
-        'biy^gAm' => {
-          'NapAt' => 1
+        'bar^siluwnaT' => {
+          'N0' => 1
         }
       },
-      'entry' => 'biy^gAmA',
-      'form' => 'biy^gAmA',
+      'entry' => 'bar^siluwnah',
+      'form' => 'bar^siluwnah',
       'lines' => [
-        ';; biyjAmA_1',
-        'byjAmA  biyjAmA N0      pajama',
-        'byjAm   biyjAm  NapAt   pajama'
+        ';; baro$iluwnah_1',
+        'br$lwnp baro$iluwnap    N0      Barcelona'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40592,9 +40321,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'pajama'
+        'Barcelona'
       ],
-      'orig' => 'biyjAmA',
+      'orig' => 'baro$iluwnah',
+      'prefix' => ''
+    }
+  ],
+  'bsIkUlU^g' => [
+    {
+      'types' => {},
+      'entry' => 'bsiykuwluw^g',
+      'form' => 'bsiykuwluw^giyy',
+      'lines' => [
+        ';; bsiykuwluwjiy~_1',
+        'bsykwlwjy       bsiykuwluwjiy~  Nall    psychological     [[bsiykuwluwjiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'psychological'
+      ],
+      'orig' => 'bsiykuwluwjiy~',
       'prefix' => ''
     }
   ],
@@ -41286,19 +41036,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ba.tlaymuws' => [
+  'bAlIh' => [
     {
-      'types' => {
-        'ba.tlamiyuws' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'ba.tlaymuws',
-      'form' => 'ba.tlaymuws',
+      'types' => {},
+      'entry' => 'bAliyh',
+      'form' => 'bAliyh',
       'lines' => [
-        ';; baTolayomuws_1',
-        'bTlymws baTolayomuws    N       Ptolemy',
-        'bTlmyws baTolamiyuws    N       Ptolemy'
+        ';; bAliyh_1',
+        'bAlyh   bAliyh  N       ballet'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41306,35 +41051,31 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Ptolemy'
+        'ballet'
       ],
-      'orig' => 'baTolayomuws',
+      'orig' => 'bAliyh',
       'prefix' => ''
-    },
+    }
+  ],
+  'basyUnI' => [
     {
-      'types' => {
-        'ba.tlamiyuwsiyy' => {
-          'Nall' => 2
-        }
-      },
-      'entry' => 'ba.tlaymuws',
-      'form' => 'ba.tlaymuwsiyy',
+      'types' => {},
+      'entry' => 'basyuwniy',
+      'form' => 'basyuwniy',
       'lines' => [
-        ';; baTolayomuwsiy~_1',
-        'bTlymwsy        baTolayomuwsiy~ Nall    Ptolemaic     [[baTolayomuwsiy~/NOUN]]',
-        'bTlymwsy        baTolayomuwsiy~ Nall    Ptolemaic     [[baTolayomuwsiy~/ADJ]]',
-        'bTlmywsy        baTolamiyuwsiy~ Nall    Ptolemaic     [[baTolamiyuwsiy~/NOUN]]',
-        'bTlmywsy        baTolamiyuwsiy~ Nall    Ptolemaic     [[baTolamiyuwsiy~/ADJ]]'
+        ';; basoyuwniy_1',
+        'bsywny  basoyuwniy      N0      Basyouni;Bassiuni'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'Ptolemaic'
+        'Basyouni',
+        'Bassiuni'
       ],
-      'orig' => 'baTolayomuwsiy~',
+      'orig' => 'basoyuwniy',
       'prefix' => ''
     }
   ],
@@ -41468,27 +41209,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'byruw^giyA' => [
-    {
-      'types' => {},
-      'entry' => 'byruw^giyA',
-      'form' => 'byruw^giyA',
-      'lines' => [
-        ';; byruwjiyA_1',
-        'byrwjyA byruwjiyA       N0      Peruggia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Peruggia'
-      ],
-      'orig' => 'byruwjiyA',
-      'prefix' => ''
-    }
-  ],
   'b y l' => [
     {
       'types' => {},
@@ -41579,14 +41299,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwntA' => [
+  'bUltUn' => [
     {
       'types' => {},
-      'entry' => 'buwntA',
-      'form' => 'buwntA',
+      'entry' => 'buwltuwn',
+      'form' => 'buwltuwn',
       'lines' => [
-        ';; buwnotA_1',
-        'bwntA   buwnotA Nprop   Punta'
+        ';; buwlotuwn_1',
+        'bwltwn  buwlotuwn       Nprop   Bolton'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41594,30 +41314,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Punta'
+        'Bolton'
       ],
-      'orig' => 'buwnotA',
-      'prefix' => ''
-    }
-  ],
-  'buw^sa`iyb' => [
-    {
-      'types' => {},
-      'entry' => 'buw^sa`iyb',
-      'form' => 'buw^sa`iyb',
-      'lines' => [
-        ';; buw$aEiyb_1',
-        'bw$Eyb  buw$aEiyb       Nprop   Bouchaib'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bouchaib'
-      ],
-      'orig' => 'buw$aEiyb',
+      'orig' => 'buwlotuwn',
       'prefix' => ''
     }
   ],
@@ -42186,6 +41885,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'blAkhUk' => [
+    {
+      'types' => {},
+      'entry' => 'blAkhuwk',
+      'form' => 'blAkhuwk',
+      'lines' => [
+        ';; blAkohuwk_1',
+        'blAkhwk blAkohuwk       N0      Black Hawk'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Black Hawk'
+      ],
+      'orig' => 'blAkohuwk',
+      'prefix' => ''
+    }
+  ],
   'b _h _h' => [
     {
       'types' => {
@@ -42302,6 +42022,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bIliyUn' => [
+    {
+      'types' => {},
+      'entry' => 'biyliyuwn',
+      'form' => 'biyliyuwn',
+      'lines' => [
+        ';; biyliyuwn_1',
+        'bylywn  biyliyuwn       N0      Pelion'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Pelion'
+      ],
+      'orig' => 'biyliyuwn',
+      'prefix' => ''
+    }
+  ],
   'b n r' => [
     {
       'types' => {},
@@ -42320,6 +42061,27 @@ $Lexicon = {
         'glass'
       ],
       'orig' => 'ban~uwr',
+      'prefix' => ''
+    }
+  ],
+  'bA^s.hakIm' => [
+    {
+      'types' => {},
+      'entry' => 'bA^s.hakiym',
+      'form' => 'bA^s.hakiym',
+      'lines' => [
+        ';; bA$oHakiym_1',
+        'bA$Hkym bA$oHakiym      N       head physician'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'head physician'
+      ],
+      'orig' => 'bA$oHakiym',
       'prefix' => ''
     }
   ],
@@ -42372,6 +42134,68 @@ $Lexicon = {
       ],
       'orig' => 'biyruwn',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'biyruwn',
+      'form' => 'biyruwniyy',
+      'lines' => [
+        ';; biyruwniy~_1',
+        'byrwny  biyruwniy~      N0      Biruni;Birouni'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KiRDUS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Biruni',
+        'Birouni'
+      ],
+      'orig' => 'biyruwniy~',
+      'prefix' => ''
+    }
+  ],
+  'bala^sUn' => [
+    {
+      'types' => {},
+      'entry' => 'bala^suwn',
+      'form' => 'bala^suwn',
+      'lines' => [
+        ';; bala$uwn_1',
+        'bl$wn   bala$uwn        N       heron'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'heron'
+      ],
+      'orig' => 'bala$uwn',
+      'prefix' => ''
+    }
+  ],
+  'bAktIr' => [
+    {
+      'types' => {},
+      'entry' => 'bAktiyr',
+      'form' => 'bAktiyriyy',
+      'lines' => [
+        ';; bAkotiyriy~_1',
+        'bAktyry bAkotiyriy~     Nall    bacterial     [[bAkotiyriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'bacterial'
+      ],
+      'orig' => 'bAkotiyriy~',
+      'prefix' => ''
     }
   ],
   'b s k' => [
@@ -42418,19 +42242,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bluwtuw' => [
+  'brUtUn' => [
     {
       'types' => {
-        'bluw.tuw' => {
-          'N' => 1
+        'bruwtuwn' => {
+          'NduAt' => 1
         }
       },
-      'entry' => 'bluwtuw',
-      'form' => 'bluwtuw',
+      'entry' => 'bruwtuwn',
+      'form' => 'bruwtuwn',
       'lines' => [
-        ';; bluwtuw_1',
-        'blwtw   bluwtuw N       Pluto',
-        'blwTw   bluwTuw N       Pluto'
+        ';; bruwtuwn_1',
+        'brwtwn  bruwtuwn        NduAt   proton'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42438,30 +42261,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Pluto'
+        'proton'
       ],
-      'orig' => 'bluwtuw',
-      'prefix' => ''
-    }
-  ],
-  'barmAwiy' => [
-    {
-      'types' => {},
-      'entry' => 'barmAwiy',
-      'form' => 'barmAwiy',
-      'lines' => [
-        ';; baromAwiy_1',
-        'brmAwy  baromAwiy       N0      Barmawi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Barmawi'
-      ],
-      'orig' => 'baromAwiy',
+      'orig' => 'bruwtuwn',
       'prefix' => ''
     }
   ],
@@ -43090,27 +42892,6 @@ $Lexicon = {
         'okra'
       ],
       'orig' => 'bAmiyA',
-      'prefix' => ''
-    }
-  ],
-  'bArAnuwf' => [
-    {
-      'types' => {},
-      'entry' => 'bArAnuwf',
-      'form' => 'bArAnuwf',
-      'lines' => [
-        ';; bArAnuwf_1',
-        'bArAnwf bArAnuwf        Nprop   Baranov'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Baranov'
-      ],
-      'orig' => 'bArAnuwf',
       'prefix' => ''
     }
   ],
@@ -43909,27 +43690,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAnuwrAm' => [
-    {
-      'types' => {},
-      'entry' => 'bAnuwrAm',
-      'form' => 'bAnuwrAmiyy',
-      'lines' => [
-        ';; bAnuwrAmiy~_1',
-        'bAnwrAmy        bAnuwrAmiy~     Nall    panoramic     [[bAnuwrAmiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'panoramic'
-      ],
-      'orig' => 'bAnuwrAmiy~',
-      'prefix' => ''
-    }
-  ],
   'b q y' => [
     {
       'types' => {
@@ -44420,6 +44180,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bU`aynayn' => [
+    {
+      'types' => {},
+      'entry' => 'buw`aynayn',
+      'form' => 'buw`aynayn',
+      'lines' => [
+        ';; buwEayonayon_1',
+        'bwEynyn buwEayonayon    N0      Bouainein'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bouainein'
+      ],
+      'orig' => 'buwEayonayon',
+      'prefix' => ''
+    }
+  ],
+  'binIn' => [
+    {
+      'types' => {},
+      'entry' => 'biniyn',
+      'form' => 'biniyn',
+      'lines' => [
+        ';; biniyn_1',
+        'bnyn    biniyn  N0      Benin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Benin'
+      ],
+      'orig' => 'biniyn',
+      'prefix' => ''
+    }
+  ],
   'b l y n' => [
     {
       'types' => {
@@ -44494,6 +44296,32 @@ $Lexicon = {
         'violet'
       ],
       'orig' => 'banafosajiy~',
+      'prefix' => ''
+    }
+  ],
+  'brItI^s' => [
+    {
+      'types' => {
+        'briyti^s' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'briytiy^s',
+      'form' => 'briytiy^s',
+      'lines' => [
+        ';; briytiy$_1',
+        'bryty$  briytiy$        N0      British',
+        'bryt$   briyti$ N0      British'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'British'
+      ],
+      'orig' => 'briytiy$',
       'prefix' => ''
     }
   ],
@@ -44631,23 +44459,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bruwksil' => [
+  'brU^sIh' => [
     {
       'types' => {
-        'bruwksiyl' => {
-          'Nprop' => 1
-        },
-        'bruwksAl' => {
-          'Nprop' => 1
+        'bruw^siyh' => {
+          'NduAt' => 1
         }
       },
-      'entry' => 'bruwksil',
-      'form' => 'bruwksil',
+      'entry' => 'bruw^siyh',
+      'form' => 'bruw^siyh',
       'lines' => [
-        ';; bruwkosil_1',
-        'brwksl  bruwkosil       Nprop   Brussels',
-        'brwksAl bruwkosAl       Nprop   Brussels',
-        'brwksyl bruwkosiyl      Nprop   Brussels'
+        ';; bruw$iyh_1',
+        'brw$yh  bruw$iyh        NduAt   brochure;prospectus'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44655,9 +44478,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Brussels'
+        'brochure',
+        'prospectus'
       ],
-      'orig' => 'bruwkosil',
+      'orig' => 'bruw$iyh',
       'prefix' => ''
     }
   ],
@@ -44687,27 +44511,6 @@ $Lexicon = {
         'small house'
       ],
       'orig' => 'buwayot',
-      'prefix' => ''
-    }
-  ],
-  'bArluwr' => [
-    {
-      'types' => {},
-      'entry' => 'bArluwr',
-      'form' => 'bArluwr',
-      'lines' => [
-        ';; bAroluwr_1',
-        'bArlwr  bAroluwr        N0      Parlour'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Parlour'
-      ],
-      'orig' => 'bAroluwr',
       'prefix' => ''
     }
   ],
@@ -44774,6 +44577,27 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'biyjAn',
+      'prefix' => ''
+    }
+  ],
+  'bA^smuftI' => [
+    {
+      'types' => {},
+      'entry' => 'bA^smuftiy',
+      'form' => 'bA^smuftiy',
+      'lines' => [
+        ';; bA$omufotiy_1',
+        'bA$mfty bA$omufotiy     N       chief mufti'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'chief mufti'
+      ],
+      'orig' => 'bA$omufotiy',
       'prefix' => ''
     }
   ],
@@ -44869,48 +44693,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biykiyn.ghAm' => [
-    {
-      'types' => {},
-      'entry' => 'biykiyn.ghAm',
-      'form' => 'biykiyn.ghAm',
-      'lines' => [
-        ';; biykiyngohAm_1',
-        'bykynghAm       biykiyngohAm    Nprop   Beckingham'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Beckingham'
-      ],
-      'orig' => 'biykiyngohAm',
-      'prefix' => ''
-    }
-  ],
-  'buwst' => [
-    {
-      'types' => {},
-      'entry' => 'buwst',
-      'form' => 'buwst',
-      'lines' => [
-        ';; buwsot_1',
-        'bwst    buwsot  N0      Post'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Post'
-      ],
-      'orig' => 'buwsot',
-      'prefix' => ''
-    }
-  ],
   'b l .z' => [
     {
       'types' => {},
@@ -44932,14 +44714,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwndisliy.g' => [
+  'brAnnIkUf' => [
     {
       'types' => {},
-      'entry' => 'buwndisliy.g',
-      'form' => 'buwndisliy.g',
+      'entry' => 'brAnniykuwf',
+      'form' => 'brAnniykuwf',
       'lines' => [
-        ';; buwnodisoliyg_1',
-        'bwndslyg        buwnodisoliyg   N0      Bundeslig'
+        ';; brAn~iykuwf_1',
+        'brAnykwf        brAn~iykuwf     N0      Barannikov'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44947,9 +44729,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Bundeslig'
+        'Barannikov'
       ],
-      'orig' => 'buwnodisoliyg',
+      'orig' => 'brAn~iykuwf',
       'prefix' => ''
     }
   ],
@@ -44993,14 +44775,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAniyk' => [
+  'bIrinIh' => [
     {
       'types' => {},
-      'entry' => 'bAniyk',
-      'form' => 'bAniyk',
+      'entry' => 'biyriniyh',
+      'form' => 'biyriniyh',
       'lines' => [
-        ';; bAniyk_1',
-        'bAnyk   bAniyk  Nprop   Banik'
+        ';; biyriniyh_1',
+        'byrnyh  biyriniyh       N0      Pyrenees'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45008,9 +44790,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Banik'
+        'Pyrenees'
       ],
-      'orig' => 'bAniyk',
+      'orig' => 'biyriniyh',
       'prefix' => ''
     }
   ],
@@ -45255,6 +45037,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bUtA^gAz' => [
+    {
+      'types' => {
+        'buwtA^gAz' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'buwtA^gAz',
+      'form' => 'buwtA^gAz',
+      'lines' => [
+        ';; buwtAjAz_1',
+        'bwtAjAz buwtAjAz        N/At    gas stove'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'gas stove'
+      ],
+      'orig' => 'buwtAjAz',
+      'prefix' => ''
+    }
+  ],
   'b r m d' => [
     {
       'types' => {},
@@ -45293,32 +45100,6 @@ $Lexicon = {
         'Barmudah (8th Coptic month, Apr. 9-May 8)'
       ],
       'orig' => 'baromuwdap',
-      'prefix' => ''
-    }
-  ],
-  'bruwfisuwr' => [
-    {
-      'types' => {
-        'bruwfiysuwr' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'bruwfisuwr',
-      'form' => 'bruwfisuwr',
-      'lines' => [
-        ';; bruwfisuwr_1',
-        'brwfswr bruwfisuwr      N       professor',
-        'brwfyswr        bruwfiysuwr     N       professor'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'professor'
-      ],
-      'orig' => 'bruwfisuwr',
       'prefix' => ''
     }
   ],
@@ -45507,46 +45288,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'barriym' => [
+  'blIzirz' => [
     {
       'types' => {},
-      'entry' => 'barriym',
-      'form' => 'barriymaT',
+      'entry' => 'bliyzirz',
+      'form' => 'bliyzirz',
       'lines' => [
-        ';; bar~iymap_1',
-        'brym    bar~iym NapAt   drill;auger;bit'
+        ';; bliyziroz_1',
+        'blyzrz  bliyziroz       N0      Blazers'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'drill',
-        'auger',
-        'bit'
+        'Blazers'
       ],
-      'orig' => 'bar~iymap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'barriym',
-      'form' => 'barriymiyyaT',
-      'lines' => [
-        ';; bar~iymiy~ap_1',
-        'brymy   bar~iymiy~      Nap     drill-shaped;spirochete     [[bar~iymiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'drill-shaped',
-        'spirochete'
-      ],
-      'orig' => 'bar~iymiy~ap',
+      'orig' => 'bliyziroz',
       'prefix' => ''
     }
   ],
@@ -45587,19 +45346,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwr^guwAz' => [
+  'bAnUrAm' => [
     {
-      'types' => {
-        'bur^guwAziyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'buwr^guwAz',
-      'form' => 'buwr^guwAziyy',
+      'types' => {},
+      'entry' => 'bAnuwrAm',
+      'form' => 'bAnuwrAmiyy',
       'lines' => [
-        ';; buwrojuwAziy~_1',
-        'bwrjwAzy        buwrojuwAziy~   Nall    bourgeois     [[buwrojuwAziy~/ADJ]]',
-        'brjwAzy burojuwAziy~    Nall    bourgeois     [[burojuwAziy~/ADJ]]'
+        ';; bAnuwrAmiy~_1',
+        'bAnwrAmy        bAnuwrAmiy~     Nall    panoramic     [[bAnuwrAmiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45607,33 +45361,9 @@ $Lexicon = {
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'bourgeois'
+        'panoramic'
       ],
-      'orig' => 'buwrojuwAziy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'bur^guwAziyy' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'buwr^guwAz',
-      'form' => 'buwr^guwAziyyaT',
-      'lines' => [
-        ';; buwrojuwAziy~ap_1',
-        'bwrjwAzy        buwrojuwAziy~   Nap     bourgeoisie     [[buwrojuwAziy~/NOUN]]',
-        'brjwAzy burojuwAziy~    Nap     bourgeoisie     [[burojuwAziy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'bourgeoisie'
-      ],
-      'orig' => 'buwrojuwAziy~ap',
+      'orig' => 'bAnuwrAmiy~',
       'prefix' => ''
     }
   ],
@@ -45663,14 +45393,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bluwz' => [
+  'binAltI' => [
     {
       'types' => {},
-      'entry' => 'bluwz',
-      'form' => 'bluwz',
+      'entry' => 'binAltiy',
+      'form' => 'binAltiy',
       'lines' => [
-        ';; bluwz_1',
-        'blwz    bluwz   N/ap    blouse'
+        ';; binAlotiy_1',
+        'bnAlty  binAlotiy       N0      penalty (shot)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45678,9 +45408,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'blouse'
+        'penalty (shot)'
       ],
-      'orig' => 'bluwz',
+      'orig' => 'binAlotiy',
       'prefix' => ''
     }
   ],
@@ -45759,14 +45489,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAliyh' => [
+  'balA^grA' => [
     {
       'types' => {},
-      'entry' => 'bAliyh',
-      'form' => 'bAliyh',
+      'entry' => 'balA^grA',
+      'form' => 'balA^grA',
       'lines' => [
-        ';; bAliyh_1',
-        'bAlyh   bAliyh  N       ballet'
+        ';; balAjrA_1',
+        'blAjrA  balAjrA N0      pellagra'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45774,9 +45504,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'ballet'
+        'pellagra'
       ],
-      'orig' => 'bAliyh',
+      'orig' => 'balAjrA',
+      'prefix' => ''
+    }
+  ],
+  'bAn.talUn' => [
+    {
+      'types' => {},
+      'entry' => 'bAn.taluwn',
+      'form' => 'bAn.taluwn',
+      'lines' => [
+        ';; bAnoTaluwn_1',
+        'bAnTlwn bAnoTaluwn      N       trousers'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'trousers'
+      ],
+      'orig' => 'bAnoTaluwn',
       'prefix' => ''
     }
   ],
@@ -45807,48 +45558,6 @@ $Lexicon = {
         'pelican'
       ],
       'orig' => 'bajaE',
-      'prefix' => ''
-    }
-  ],
-  'balA^grA' => [
-    {
-      'types' => {},
-      'entry' => 'balA^grA',
-      'form' => 'balA^grA',
-      'lines' => [
-        ';; balAjrA_1',
-        'blAjrA  balAjrA N0      pellagra'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'pellagra'
-      ],
-      'orig' => 'balAjrA',
-      'prefix' => ''
-    }
-  ],
-  'bAntiyliyf' => [
-    {
-      'types' => {},
-      'entry' => 'bAntiyliyf',
-      'form' => 'bAntiyliyf',
-      'lines' => [
-        ';; bAnotiyliyf_1',
-        'bAntylyf        bAnotiyliyf     Nprop   Pantilev'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Pantilev'
-      ],
-      'orig' => 'bAnotiyliyf',
       'prefix' => ''
     }
   ],
@@ -46542,14 +46251,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bArAduwrn' => [
+  'bArbAdUs' => [
     {
-      'types' => {},
-      'entry' => 'bArAduwrn',
-      'form' => 'bArAduwrn',
+      'types' => {
+        'barbAduws' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'bArbAduws',
+      'form' => 'bArbAduws',
       'lines' => [
-        ';; bArAduwrn_1',
-        'bArAdwrn        bArAduwrn       Nprop   Paradorn'
+        ';; bArobAduws_1',
+        'bArbAdws        bArobAduws      N0      Barbados',
+        'brbAdws barobAduws      N0      Barbados'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46557,20 +46271,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Paradorn'
+        'Barbados'
       ],
-      'orig' => 'bArAduwrn',
+      'orig' => 'bArobAduws',
       'prefix' => ''
     }
   ],
-  'bAriyuwm' => [
+  'biskilIt' => [
     {
       'types' => {},
-      'entry' => 'bAriyuwm',
-      'form' => 'bAriyuwm',
+      'entry' => 'biskiliyt',
+      'form' => 'biskiliyt',
       'lines' => [
-        ';; bAriyuwm_1',
-        'bArywm  bAriyuwm        N       barium'
+        ';; bisokiliyt_1',
+        'bsklyt  bisokiliyt      N/ap    bicycle'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46578,9 +46292,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'barium'
+        'bicycle'
       ],
-      'orig' => 'bAriyuwm',
+      'orig' => 'bisokiliyt',
       'prefix' => ''
     }
   ],
@@ -46668,6 +46382,46 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'burUnz' => [
+    {
+      'types' => {},
+      'entry' => 'buruwnz',
+      'form' => 'buruwnz',
+      'lines' => [
+        ';; buruwnz_1',
+        'brwnz   buruwnz N       bronze'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'bronze'
+      ],
+      'orig' => 'buruwnz',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'buruwnz',
+      'form' => 'buruwnziyy',
+      'lines' => [
+        ';; buruwnoziy~_1',
+        'brwnzy  buruwnoziy~     Nall    bronze     [[buruwnoziy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'bronze'
+      ],
+      'orig' => 'buruwnoziy~',
+      'prefix' => ''
+    }
+  ],
   'b y t s' => [
     {
       'types' => {},
@@ -46686,6 +46440,27 @@ $Lexicon = {
         'Betis'
       ],
       'orig' => 'biytiys',
+      'prefix' => ''
+    }
+  ],
+  'blAntI^sn' => [
+    {
+      'types' => {},
+      'entry' => 'blAntiy^sn',
+      'form' => 'blAntiy^sn',
+      'lines' => [
+        ';; blAnotiy$n_1',
+        'blAnty$n        blAnotiy$n      N0      Plantation'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Plantation'
+      ],
+      'orig' => 'blAnotiy$n',
       'prefix' => ''
     }
   ],
@@ -46782,6 +46557,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bAsId^gI' => [
+    {
+      'types' => {},
+      'entry' => 'bAsiyd^giy',
+      'form' => 'bAsiyd^giy',
+      'lines' => [
+        ';; bAsiydjiy_1',
+        'bAsydjy bAsiydjiy       N0      Basiji'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Basiji'
+      ],
+      'orig' => 'bAsiydjiy',
+      'prefix' => ''
+    }
+  ],
   'b ^s n q' => [
     {
       'types' => {
@@ -46817,27 +46613,6 @@ $Lexicon = {
         'kerchiefs'
       ],
       'orig' => 'ba$onuwqap',
-      'prefix' => ''
-    }
-  ],
-  'bAriyziyAn' => [
-    {
-      'types' => {},
-      'entry' => 'bAriyziyAn',
-      'form' => 'bAriyziyAn',
-      'lines' => [
-        ';; bAriyziyAn_1',
-        'bAryzyAn        bAriyziyAn      N0      Parisien'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Parisien'
-      ],
-      'orig' => 'bAriyziyAn',
       'prefix' => ''
     }
   ],
@@ -47023,14 +46798,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAltiyAnskiy' => [
+  'baktIriyA' => [
     {
       'types' => {},
-      'entry' => 'bAltiyAnskiy',
-      'form' => 'bAltiyAnskiy',
+      'entry' => 'baktiyriyA',
+      'form' => 'baktiyriyA',
       'lines' => [
-        ';; bAlotiyAnosokiy_1',
-        'bAltyAnsky      bAlotiyAnosokiy N0      Baltiansky'
+        ';; bakotiyriyA_1',
+        'bktyryA bakotiyriyA     N0      bacteria'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47038,9 +46813,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Baltiansky'
+        'bacteria'
       ],
-      'orig' => 'bAlotiyAnosokiy',
+      'orig' => 'bakotiyriyA',
       'prefix' => ''
     }
   ],
@@ -47105,6 +46880,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bUsUfAliyUk' => [
+    {
+      'types' => {},
+      'entry' => 'buwsuwfAliyuwk',
+      'form' => 'buwsuwfAliyuwk',
+      'lines' => [
+        ';; buwsuwfAliyuwk_1',
+        'bwswfAlywk      buwsuwfAliyuwk  Nprop   Posovaliuk'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Posovaliuk'
+      ],
+      'orig' => 'buwsuwfAliyuwk',
+      'prefix' => ''
+    }
+  ],
   'b y k n' => [
     {
       'types' => {},
@@ -47166,6 +46962,27 @@ $Lexicon = {
         'Paraguayan'
       ],
       'orig' => 'bArajuwA}iy~',
+      'prefix' => ''
+    }
+  ],
+  'bitrUliyUm' => [
+    {
+      'types' => {},
+      'entry' => 'bitruwliyuwm',
+      'form' => 'bitruwliyuwm',
+      'lines' => [
+        ';; bitruwliyuwm_1',
+        'btrwlywm        bitruwliyuwm    Nprop   Petroleum'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Petroleum'
+      ],
+      'orig' => 'bitruwliyuwm',
       'prefix' => ''
     }
   ],
@@ -47500,6 +47317,49 @@ $Lexicon = {
         'society'
       ],
       'orig' => 'buEokuwkap',
+      'prefix' => ''
+    }
+  ],
+  'bruwIn' => [
+    {
+      'types' => {},
+      'entry' => 'bruwiyn',
+      'form' => 'bruwiyn',
+      'lines' => [
+        ';; bruwiyn_1',
+        'brwyn   bruwiyn Nprop   Bruijn;Bruin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bruijn',
+        'Bruin'
+      ],
+      'orig' => 'bruwiyn',
+      'prefix' => ''
+    }
+  ],
+  'bUdIrU.gA' => [
+    {
+      'types' => {},
+      'entry' => 'buwdiyruw.gA',
+      'form' => 'buwdiyruw.gA',
+      'lines' => [
+        ';; buwdiyruwgA_1',
+        'bwdyrwgA        buwdiyruwgA     Nprop   Bodiroga'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bodiroga'
+      ],
+      'orig' => 'buwdiyruwgA',
       'prefix' => ''
     }
   ],
@@ -48026,6 +47886,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bIrUzI' => [
+    {
+      'types' => {},
+      'entry' => 'biyruwziy',
+      'form' => 'biyruwziy',
+      'lines' => [
+        ';; biyruwziy_1',
+        'byrwzy  biyruwziy       N0      Piruzi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Piruzi'
+      ],
+      'orig' => 'biyruwziy',
+      'prefix' => ''
+    }
+  ],
   'bAwnd' => [
     {
       'types' => {},
@@ -48044,6 +47925,27 @@ $Lexicon = {
         'Pound'
       ],
       'orig' => 'bAwnd',
+      'prefix' => ''
+    }
+  ],
+  'blAtIn' => [
+    {
+      'types' => {},
+      'entry' => 'blAtiyn',
+      'form' => 'blAtiyn',
+      'lines' => [
+        ';; blAtiyn_1',
+        'blAtyn  blAtiyn N       platinum'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'platinum'
+      ],
+      'orig' => 'blAtiyn',
       'prefix' => ''
     }
   ],
@@ -48068,35 +47970,35 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bluw^giynz' => [
+  'brUlItAr' => [
     {
       'types' => {},
-      'entry' => 'bluw^giynz',
-      'form' => 'bluw^giynz',
+      'entry' => 'bruwliytAr',
+      'form' => 'bruwliytAriyy',
       'lines' => [
-        ';; bluwjiynoz_1',
-        'blwjynz bluwjiynoz      N       bluejeans'
+        ';; bruwliytAriy~_1',
+        'brwlytAry       bruwliytAriy~   Nall    proletarian     [[bruwliytAriy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'bluejeans'
+        'proletarian'
       ],
-      'orig' => 'bluwjiynoz',
+      'orig' => 'bruwliytAriy~',
       'prefix' => ''
     }
   ],
-  'billiy' => [
+  'bItrIt^s' => [
     {
       'types' => {},
-      'entry' => 'billiy',
-      'form' => 'billiy',
+      'entry' => 'biytriyt^s',
+      'form' => 'biytriyt^s',
       'lines' => [
-        ';; bil~iy_1',
-        'bly     bil~iy  N       ball bearing'
+        ';; biytoriyt$_1',
+        'bytryt$ biytoriyt$      Nprop   Petrich'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48104,24 +48006,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'ball bearing'
+        'Petrich'
       ],
-      'orig' => 'bil~iy',
+      'orig' => 'biytoriyt$',
       'prefix' => ''
     }
   ],
-  'bruw^grAm' => [
+  'bUrdU' => [
     {
-      'types' => {
-        'bruw^grAm' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'bruw^grAm',
-      'form' => 'bruw^grAm',
+      'types' => {},
+      'entry' => 'buwrduw',
+      'form' => 'buwrduw',
       'lines' => [
-        ';; bruwjrAm_1',
-        'brwjrAm bruwjrAm        N/At    program'
+        ';; buwroduw_1',
+        'bwrdw   buwroduw        Nprop   Bordeaux'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48129,9 +48027,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'program'
+        'Bordeaux'
       ],
-      'orig' => 'bruwjrAm',
+      'orig' => 'buwroduw',
       'prefix' => ''
     }
   ],
@@ -48148,6 +48046,89 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'buwluw',
+      'prefix' => ''
+    }
+  ],
+  'bArIs' => [
+    {
+      'types' => {},
+      'entry' => 'bAriys',
+      'form' => 'bAriys',
+      'lines' => [
+        ';; bAriys_1',
+        'bArys   bAriys  Nprop   Paris'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Paris'
+      ],
+      'orig' => 'bAriys',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'bAriys',
+      'form' => 'bAriysiyy',
+      'lines' => [
+        ';; bAriysiy~_1',
+        'bArysy  bAriysiy~       Nall    Parisian     [[bAriysiy~/NOUN]]',
+        'bArysy  bAriysiy~       Nall    Parisian     [[bAriysiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Parisian'
+      ],
+      'orig' => 'bAriysiy~',
+      'prefix' => ''
+    }
+  ],
+  'biyUlU^g' => [
+    {
+      'types' => {},
+      'entry' => 'biyuwluw^g',
+      'form' => 'biyuwluw^giyy',
+      'lines' => [
+        ';; biyuwluwjiy~_1',
+        'bywlwjy biyuwluwjiy~    Nall    biological     [[biyuwluwjiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'biological'
+      ],
+      'orig' => 'biyuwluwjiy~',
+      'prefix' => ''
+    }
+  ],
+  'bA_tUlU^g' => [
+    {
+      'types' => {},
+      'entry' => 'bA_tuwluw^g',
+      'form' => 'bA_tuwluw^giyy',
+      'lines' => [
+        ';; bAvuwluwjiy~_1',
+        'bAvwlwjy        bAvuwluwjiy~    Nall    pathological     [[bAvuwluwjiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'pathological'
+      ],
+      'orig' => 'bAvuwluwjiy~',
       'prefix' => ''
     }
   ],
@@ -48170,6 +48151,33 @@ $Lexicon = {
         'Benghazi'
       ],
       'orig' => 'banogAziy~',
+      'prefix' => ''
+    }
+  ],
+  'bakalUriyUs' => [
+    {
+      'types' => {
+        'bakAluwriyuws' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'bakaluwriyuws',
+      'form' => 'bakaluwriyuws',
+      'lines' => [
+        ';; bakaluwriyuws_1',
+        'bklwryws        bakaluwriyuws   N       Bachelor\'s;B.A.',
+        'bkAlwryws       bakAluwriyuws   N       Bachelor\'s;B.A.'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bachelor\'s',
+        'B.A.'
+      ],
+      'orig' => 'bakaluwriyuws',
       'prefix' => ''
     }
   ],
@@ -48224,27 +48232,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bruws' => [
-    {
-      'types' => {},
-      'entry' => 'bruws',
-      'form' => 'bruws',
-      'lines' => [
-        ';; bruws_1',
-        'brws    bruws   Nprop   Bruce'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bruce'
-      ],
-      'orig' => 'bruws',
-      'prefix' => ''
-    }
-  ],
   'b w .g' => [
     {
       'types' => {
@@ -48291,14 +48278,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAsiyl' => [
+  'bAbIt^sIf' => [
     {
       'types' => {},
-      'entry' => 'bAsiyl',
-      'form' => 'bAsiyl',
+      'entry' => 'bAbiyt^siyf',
+      'form' => 'bAbiyt^siyf',
       'lines' => [
-        ';; bAsiyl_1',
-        'bAsyl   bAsiyl  N       bacilli'
+        ';; bAbiyt$iyf_1',
+        'bAbyt$yf        bAbiyt$iyf      Nprop   Babichev'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48306,9 +48293,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'bacilli'
+        'Babichev'
       ],
-      'orig' => 'bAsiyl',
+      'orig' => 'bAbiyt$iyf',
       'prefix' => ''
     }
   ],
@@ -48615,39 +48602,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bruwtuwn' => [
-    {
-      'types' => {
-        'bruwtuwn' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'bruwtuwn',
-      'form' => 'bruwtuwn',
-      'lines' => [
-        ';; bruwtuwn_1',
-        'brwtwn  bruwtuwn        NduAt   proton'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'proton'
-      ],
-      'orig' => 'bruwtuwn',
-      'prefix' => ''
-    }
-  ],
-  'bilyArdw' => [
+  'brUnAy' => [
     {
       'types' => {},
-      'entry' => 'bilyArdw',
-      'form' => 'bilyArdw',
+      'entry' => 'bruwnAy',
+      'form' => 'bruwnAy',
       'lines' => [
-        ';; biloyArodw_1',
-        'blyArdw biloyArodw      N0      billiards'
+        ';; bruwnAy_1',
+        'brwnAy  bruwnAy N0      Brunei'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48655,9 +48617,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'billiards'
+        'Brunei'
       ],
-      'orig' => 'biloyArodw',
+      'orig' => 'bruwnAy',
       'prefix' => ''
     }
   ],
@@ -49060,39 +49022,41 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bA^giyuw' => [
+  'bUland' => [
     {
       'types' => {},
-      'entry' => 'bA^giyuw',
-      'form' => 'bA^giyuw',
+      'entry' => 'buwland',
+      'form' => 'buwlandiyy',
       'lines' => [
-        ';; bAjiyuw_1',
-        'bAjyw   bAjiyuw Nprop   Baggio'
+        ';; buwlanodiy~_1',
+        'bwlndy  buwlanodiy~     Nall    Polish     [[buwlanodiy~/NOUN]]',
+        'bwlndy  buwlanodiy~     Nall    Polish     [[buwlanodiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'Baggio'
+        'Polish'
       ],
-      'orig' => 'bAjiyuw',
+      'orig' => 'buwlanodiy~',
       'prefix' => ''
     }
   ],
-  'ban.taluwn' => [
+  'bintA.gUn' => [
     {
       'types' => {
-        'ban.taluwn' => {
-          'NduAt' => 1
+        'bintA^guwn' => {
+          'N0' => 1
         }
       },
-      'entry' => 'ban.taluwn',
-      'form' => 'ban.taluwn',
+      'entry' => 'bintA.guwn',
+      'form' => 'bintA.guwn',
       'lines' => [
-        ';; banoTaluwn_1',
-        'bnTlwn  banoTaluwn      NduAt   trousers'
+        ';; binotAguwn_1',
+        'bntAgwn binotAguwn      N0      Pentagon',
+        'bntAjwn binotAjuwn      N0      Pentagon'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49100,9 +49064,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'trousers'
+        'Pentagon'
       ],
-      'orig' => 'banoTaluwn',
+      'orig' => 'binotAguwn',
+      'prefix' => ''
+    }
+  ],
+  'bfIstir' => [
+    {
+      'types' => {},
+      'entry' => 'bfiystir',
+      'form' => 'bfiystir',
+      'lines' => [
+        ';; bfiysotir_1',
+        'bfystr  bfiysotir       Nprop   Pfister'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Pfister'
+      ],
+      'orig' => 'bfiysotir',
       'prefix' => ''
     }
   ],
@@ -49124,6 +49109,31 @@ $Lexicon = {
         'Bryant'
       ],
       'orig' => 'brAyinot',
+      'prefix' => ''
+    }
+  ],
+  'bUyz' => [
+    {
+      'types' => {
+        'bwyz' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'buwyz',
+      'form' => 'buwyz',
+      'lines' => [
+        ';; buwyz_1',
+        'bwyz    bwyz    Nprop   Boys'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Boys'
+      ],
+      'orig' => 'buwyz',
       'prefix' => ''
     }
   ],
@@ -49217,14 +49227,23 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwmirdAs' => [
+  'bUrUndI' => [
     {
-      'types' => {},
-      'entry' => 'buwmirdAs',
-      'form' => 'buwmirdAs',
+      'types' => {
+        'buruwndiy' => {
+          'Nprop' => 1
+        },
+        'burundiy' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'buwruwndiy',
+      'form' => 'buwruwndiy',
       'lines' => [
-        ';; buwmirodAs_1',
-        'bwmrdAs buwmirodAs      N0      Boumerdes;Boumerdas'
+        ';; buwruwnodiy_1',
+        'bwrwndy buwruwnodiy     Nprop   Burundi',
+        'brwndy  buruwnodiy      Nprop   Burundi',
+        'brndy   burunodiy       Nprop   Burundi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49232,10 +49251,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Boumerdes',
-        'Boumerdas'
+        'Burundi'
       ],
-      'orig' => 'buwmirodAs',
+      'orig' => 'buwruwnodiy',
       'prefix' => ''
     }
   ],
@@ -49343,53 +49361,6 @@ $Lexicon = {
         'unirrigated'
       ],
       'orig' => 'baEoliy~',
-      'prefix' => ''
-    }
-  ],
-  'buwlandA' => [
-    {
-      'types' => {
-        'buwland' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'buwlandA',
-      'form' => 'buwlandA',
-      'lines' => [
-        ';; buwlanodA_1',
-        'bwlndA  buwlanodA       N0      Poland',
-        'bwlnd   buwlanod        Nap     Poland'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Poland'
-      ],
-      'orig' => 'buwlanodA',
-      'prefix' => ''
-    }
-  ],
-  'binfiykA' => [
-    {
-      'types' => {},
-      'entry' => 'binfiykA',
-      'form' => 'binfiykA',
-      'lines' => [
-        ';; binfiykA_1',
-        'bnfykA  binfiykA        Nprop   Benfica'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Benfica'
-      ],
-      'orig' => 'binfiykA',
       'prefix' => ''
     }
   ],
@@ -50001,18 +49972,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bruw^siyh' => [
+  'brU^g' => [
     {
-      'types' => {
-        'bruw^siyh' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'bruw^siyh',
-      'form' => 'bruw^siyh',
+      'types' => {},
+      'entry' => 'bruw^g',
+      'form' => 'bruw^g',
       'lines' => [
-        ';; bruw$iyh_1',
-        'brw$yh  bruw$iyh        NduAt   brochure;prospectus'
+        ';; bruwj_1',
+        'brwj    bruwj   Nprop   Brugge'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50020,10 +49987,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'brochure',
-        'prospectus'
+        'Brugge'
       ],
-      'orig' => 'bruw$iyh',
+      'orig' => 'bruwj',
       'prefix' => ''
     }
   ],
@@ -50150,6 +50116,27 @@ $Lexicon = {
         'barbaric'
       ],
       'orig' => 'mutabarobir',
+      'prefix' => ''
+    }
+  ],
+  'bAflUf' => [
+    {
+      'types' => {},
+      'entry' => 'bAfluwf',
+      'form' => 'bAfluwf',
+      'lines' => [
+        ';; bAfoluwf_1',
+        'bAflwf  bAfoluwf        Nprop   Pavlov'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Pavlov'
+      ],
+      'orig' => 'bAfoluwf',
       'prefix' => ''
     }
   ],
@@ -50288,15 +50275,36 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyzan.t' => [
+  'bulahnI' => [
     {
       'types' => {},
-      'entry' => 'biyzan.t',
-      'form' => 'biyzan.tiyy',
+      'entry' => 'bulahniy',
+      'form' => 'bulahniyaT',
       'lines' => [
-        ';; biyzanoTiy~_1',
-        'byznTy  biyzanoTiy~     Nall    Byzantine     [[biyzanoTiy~/NOUN]]',
-        'byznTy  biyzanoTiy~     Nall    Byzantine     [[biyzanoTiy~/ADJ]]'
+        ';; bulahoniyap_1',
+        'blhny   bulahoniy       Nap     wealth;abundance'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'wealth',
+        'abundance'
+      ],
+      'orig' => 'bulahoniyap',
+      'prefix' => ''
+    }
+  ],
+  'bIrUqrA.t' => [
+    {
+      'types' => {},
+      'entry' => 'biyruwqrA.t',
+      'form' => 'biyruwqrA.tiyy',
+      'lines' => [
+        ';; biyruwqrATiy~_1',
+        'byrwqrATy       biyruwqrATiy~   Nall    bureaucratic     [[biyruwqrATiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50304,9 +50312,28 @@ $Lexicon = {
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'Byzantine'
+        'bureaucratic'
       ],
-      'orig' => 'biyzanoTiy~',
+      'orig' => 'biyruwqrATiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'biyruwqrA.t',
+      'form' => 'biyruwqrA.tiyyaT',
+      'lines' => [
+        ';; biyruwqrATiy~ap_1',
+        'byrwqrATy       biyruwqrATiy~   Nap     bureaucracy     [[biyruwqrATiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'bureaucracy'
+      ],
+      'orig' => 'biyruwqrATiy~ap',
       'prefix' => ''
     }
   ],
@@ -50452,6 +50479,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'birIstrUykA' => [
+    {
+      'types' => {},
+      'entry' => 'biriystruwykA',
+      'form' => 'biriystruwykA',
+      'lines' => [
+        ';; biriysotruwykA_1',
+        'brystrwykA      biriysotruwykA  N0      perestroika'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'perestroika'
+      ],
+      'orig' => 'biriysotruwykA',
+      'prefix' => ''
+    }
+  ],
   'b .s l' => [
     {
       'types' => {
@@ -50522,46 +50570,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwrtuw' => [
-    {
-      'types' => {},
-      'entry' => 'buwrtuw',
-      'form' => 'buwrtuw',
-      'lines' => [
-        ';; buwrotuw_1',
-        'bwrtw   buwrotuw        Nprop   Porto'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Porto'
-      ],
-      'orig' => 'buwrotuw',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'buwrtuw',
-      'form' => 'buwrtuw',
-      'lines' => [
-        ';; buwrotuw_2',
-        'bwrtw   buwrotuw        Nprop   Puerto'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Puerto'
-      ],
-      'orig' => 'buwrotuw',
-      'prefix' => ''
-    }
-  ],
   'bA`ubayd' => [
     {
       'types' => {},
@@ -50580,32 +50588,6 @@ $Lexicon = {
         'Baobaid'
       ],
       'orig' => 'bAEubayod',
-      'prefix' => ''
-    }
-  ],
-  'briytiy^s' => [
-    {
-      'types' => {
-        'briyti^s' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'briytiy^s',
-      'form' => 'briytiy^s',
-      'lines' => [
-        ';; briytiy$_1',
-        'bryty$  briytiy$        N0      British',
-        'bryt$   briyti$ N0      British'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'British'
-      ],
-      'orig' => 'briytiy$',
       'prefix' => ''
     }
   ],
@@ -50659,14 +50641,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bala^suwn' => [
+  'bUndislI.g' => [
     {
       'types' => {},
-      'entry' => 'bala^suwn',
-      'form' => 'bala^suwn',
+      'entry' => 'buwndisliy.g',
+      'form' => 'buwndisliy.g',
       'lines' => [
-        ';; bala$uwn_1',
-        'bl$wn   bala$uwn        N       heron'
+        ';; buwnodisoliyg_1',
+        'bwndslyg        buwnodisoliyg   N0      Bundeslig'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50674,9 +50656,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'heron'
+        'Bundeslig'
       ],
-      'orig' => 'bala$uwn',
+      'orig' => 'buwnodisoliyg',
       'prefix' => ''
     }
   ],
@@ -50701,33 +50683,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bArtuw' => [
-    {
-      'types' => {
-        'bArtiyz' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'bArtuw',
-      'form' => 'bArtuw',
-      'lines' => [
-        ';; bArotuw_1',
-        'bArtw   bArotuw Nprop   Barto',
-        'bArtyz  bArotiyz        Nprop   Barthez'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Barto',
-        'Barthez'
-      ],
-      'orig' => 'bArotuw',
-      'prefix' => ''
-    }
-  ],
   'b \' .g' => [
     {
       'types' => {},
@@ -50747,6 +50702,102 @@ $Lexicon = {
         'tortoise shell'
       ],
       'orig' => 'bAgap',
+      'prefix' => ''
+    }
+  ],
+  'bAsbUr' => [
+    {
+      'types' => {
+        'bAsbuwr' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'bAsbuwr',
+      'form' => 'bAsbuwr',
+      'lines' => [
+        ';; bAsobuwr_1',
+        'bAsbwr  bAsobuwr        NduAt   passport'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'passport'
+      ],
+      'orig' => 'bAsobuwr',
+      'prefix' => ''
+    }
+  ],
+  'bUfArI' => [
+    {
+      'types' => {},
+      'entry' => 'buwfAriy',
+      'form' => 'buwfAriy',
+      'lines' => [
+        ';; buwfAriy_1',
+        'bwfAry  buwfAriy        Nprop   Bovary'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bovary'
+      ],
+      'orig' => 'buwfAriy',
+      'prefix' => ''
+    }
+  ],
+  'bUr^guwAz' => [
+    {
+      'types' => {
+        'bur^guwAziyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'buwr^guwAz',
+      'form' => 'buwr^guwAziyy',
+      'lines' => [
+        ';; buwrojuwAziy~_1',
+        'bwrjwAzy        buwrojuwAziy~   Nall    bourgeois     [[buwrojuwAziy~/ADJ]]',
+        'brjwAzy burojuwAziy~    Nall    bourgeois     [[burojuwAziy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'bourgeois'
+      ],
+      'orig' => 'buwrojuwAziy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'bur^guwAziyy' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'buwr^guwAz',
+      'form' => 'buwr^guwAziyyaT',
+      'lines' => [
+        ';; buwrojuwAziy~ap_1',
+        'bwrjwAzy        buwrojuwAziy~   Nap     bourgeoisie     [[buwrojuwAziy~/NOUN]]',
+        'brjwAzy burojuwAziy~    Nap     bourgeoisie     [[burojuwAziy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'bourgeoisie'
+      ],
+      'orig' => 'buwrojuwAziy~ap',
       'prefix' => ''
     }
   ],
@@ -50853,53 +50904,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biydA.guw^g' => [
-    {
-      'types' => {
-        'bidA.guw^giyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'biydA.guw^g',
-      'form' => 'biydA.guw^giyy',
-      'lines' => [
-        ';; biydAguwjiy~_1',
-        'bydAgwjy        biydAguwjiy~    Nall    pedagogical     [[biydAguwjiy~/ADJ]]',
-        'bdAgwjy bidAguwjiy~     Nall    pedagogical     [[bidAguwjiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'pedagogical'
-      ],
-      'orig' => 'biydAguwjiy~',
-      'prefix' => ''
-    }
-  ],
-  'biyhAriy' => [
-    {
-      'types' => {},
-      'entry' => 'biyhAriy',
-      'form' => 'biyhAriy',
-      'lines' => [
-        ';; biyhAriy_1',
-        'byhAry  biyhAriy        Nprop   Behari'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Behari'
-      ],
-      'orig' => 'biyhAriy',
-      'prefix' => ''
-    }
-  ],
   'b r d r' => [
     {
       'types' => {},
@@ -50982,14 +50986,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bil^giykA' => [
+  'ba.tlaymUs' => [
     {
-      'types' => {},
-      'entry' => 'bil^giykA',
-      'form' => 'bil^giykA',
+      'types' => {
+        'ba.tlamiyuws' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'ba.tlaymuws',
+      'form' => 'ba.tlaymuws',
       'lines' => [
-        ';; bilojiykA_1',
-        'bljykA  bilojiykA       N0      Belgium'
+        ';; baTolayomuws_1',
+        'bTlymws baTolayomuws    N       Ptolemy',
+        'bTlmyws baTolamiyuws    N       Ptolemy'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50997,20 +51006,46 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Belgium'
+        'Ptolemy'
       ],
-      'orig' => 'bilojiykA',
+      'orig' => 'baTolayomuws',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ba.tlamiyuwsiyy' => {
+          'Nall' => 2
+        }
+      },
+      'entry' => 'ba.tlaymuws',
+      'form' => 'ba.tlaymuwsiyy',
+      'lines' => [
+        ';; baTolayomuwsiy~_1',
+        'bTlymwsy        baTolayomuwsiy~ Nall    Ptolemaic     [[baTolayomuwsiy~/NOUN]]',
+        'bTlymwsy        baTolayomuwsiy~ Nall    Ptolemaic     [[baTolayomuwsiy~/ADJ]]',
+        'bTlmywsy        baTolamiyuwsiy~ Nall    Ptolemaic     [[baTolamiyuwsiy~/NOUN]]',
+        'bTlmywsy        baTolamiyuwsiy~ Nall    Ptolemaic     [[baTolamiyuwsiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Ptolemaic'
+      ],
+      'orig' => 'baTolayomuwsiy~',
       'prefix' => ''
     }
   ],
-  'biy.guwfiyt^s' => [
+  'brI^siyA' => [
     {
       'types' => {},
-      'entry' => 'biy.guwfiyt^s',
-      'form' => 'biy.guwfiyt^s',
+      'entry' => 'briy^siyA',
+      'form' => 'briy^siyA',
       'lines' => [
-        ';; biyguwfiyt$_1',
-        'bygwfyt$        biyguwfiyt$     Nprop   Begovich'
+        ';; briy$iyA_1',
+        'bry$yA  briy$iyA        Nprop   Brescia'
       ],
       'patterns' => {},
       'index' => '1',
@@ -51018,9 +51053,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Begovich'
+        'Brescia'
       ],
-      'orig' => 'biyguwfiyt$',
+      'orig' => 'briy$iyA',
+      'prefix' => ''
+    }
+  ],
+  'blUtUniyUm' => [
+    {
+      'types' => {},
+      'entry' => 'bluwtuwniyuwm',
+      'form' => 'bluwtuwniyuwm',
+      'lines' => [
+        ';; bluwtuwniyuwm_1',
+        'blwtwnywm       bluwtuwniyuwm   N0      plutonium'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'plutonium'
+      ],
+      'orig' => 'bluwtuwniyuwm',
       'prefix' => ''
     }
   ],
@@ -51194,6 +51250,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bAtIstUtA' => [
+    {
+      'types' => {},
+      'entry' => 'bAtiystuwtA',
+      'form' => 'bAtiystuwtA',
+      'lines' => [
+        ';; bAtiysotuwtA_1',
+        'bAtystwtA       bAtiysotuwtA    Nprop   Batistuta'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Batistuta'
+      ],
+      'orig' => 'bAtiysotuwtA',
+      'prefix' => ''
+    }
+  ],
   'b r b .t' => [
     {
       'types' => {
@@ -51225,14 +51302,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyruw' => [
+  'bIlhArsiyA' => [
     {
-      'types' => {},
-      'entry' => 'biyruw',
-      'form' => 'biyruw',
+      'types' => {
+        'biylhArsiy' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'biylhArsiyA',
+      'form' => 'biylhArsiyA',
       'lines' => [
-        ';; biyruw_1',
-        'byrw    biyruw  N0      Peru'
+        ';; biylohArosiyA_1',
+        'bylhArsyA       biylohArosiyA   N0      bilharzia;schistosomiasis',
+        'bylhArsy        biylohArosiy    Nap     bilharzia;schistosomiasis'
       ],
       'patterns' => {},
       'index' => '1',
@@ -51240,9 +51322,52 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Peru'
+        'bilharzia',
+        'schistosomiasis'
       ],
-      'orig' => 'biyruw',
+      'orig' => 'biylohArosiyA',
+      'prefix' => ''
+    }
+  ],
+  'bA^s^gAwI^s' => [
+    {
+      'types' => {},
+      'entry' => 'bA^s^gAwiy^s',
+      'form' => 'bA^s^gAwiy^s',
+      'lines' => [
+        ';; bA$ojAwiy$_1',
+        'bA$jAwy$        bA$ojAwiy$      N       sergeant major'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'sergeant major'
+      ],
+      'orig' => 'bA$ojAwiy$',
+      'prefix' => ''
+    }
+  ],
+  'bIhArI' => [
+    {
+      'types' => {},
+      'entry' => 'biyhAriy',
+      'form' => 'biyhAriy',
+      'lines' => [
+        ';; biyhAriy_1',
+        'byhAry  biyhAriy        Nprop   Behari'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Behari'
+      ],
+      'orig' => 'biyhAriy',
       'prefix' => ''
     }
   ],
@@ -51302,28 +51427,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwland' => [
-    {
-      'types' => {},
-      'entry' => 'buwland',
-      'form' => 'buwlandiyy',
-      'lines' => [
-        ';; buwlanodiy~_1',
-        'bwlndy  buwlanodiy~     Nall    Polish     [[buwlanodiy~/NOUN]]',
-        'bwlndy  buwlanodiy~     Nall    Polish     [[buwlanodiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Polish'
-      ],
-      'orig' => 'buwlanodiy~',
-      'prefix' => ''
-    }
-  ],
   'b d r \'' => [
     {
       'types' => {},
@@ -51340,56 +51443,82 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bitruwliyuwm' => [
+  'bArIb' => [
     {
-      'types' => {},
-      'entry' => 'bitruwliyuwm',
-      'form' => 'bitruwliyuwm',
+      'types' => {
+        'bAriybA' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'bAriyb',
+      'form' => 'bAriyba',
       'lines' => [
-        ';; bitruwliyuwm_1',
-        'btrwlywm        bitruwliyuwm    Nprop   Petroleum'
+        ';; bAriyba_1',
+        'bArybA  bAriybA Nprop   Bariba'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'Identity |<< "a"',
+      'suffix' => ' |<< "a"',
       'glosses' => [
-        'Petroleum'
+        'Bariba'
       ],
-      'orig' => 'bitruwliyuwm',
+      'orig' => 'bAriyba',
       'prefix' => ''
     }
   ],
-  'blAnkuw' => [
+  'barrIm' => [
     {
       'types' => {},
-      'entry' => 'blAnkuw',
-      'form' => 'blAnkuw',
+      'entry' => 'barriym',
+      'form' => 'barriymaT',
       'lines' => [
-        ';; blAnokuw_1',
-        'blAnkw  blAnokuw        N0      Blanco'
+        ';; bar~iymap_1',
+        'brym    bar~iym NapAt   drill;auger;bit'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
-        'Blanco'
+        'drill',
+        'auger',
+        'bit'
       ],
-      'orig' => 'blAnokuw',
+      'orig' => 'bar~iymap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'barriym',
+      'form' => 'barriymiyyaT',
+      'lines' => [
+        ';; bar~iymiy~ap_1',
+        'brymy   bar~iymiy~      Nap     drill-shaped;spirochete     [[bar~iymiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'drill-shaped',
+        'spirochete'
+      ],
+      'orig' => 'bar~iymiy~ap',
       'prefix' => ''
     }
   ],
-  'blAntiy^sn' => [
+  'bUlIsAriyU' => [
     {
       'types' => {},
-      'entry' => 'blAntiy^sn',
-      'form' => 'blAntiy^sn',
+      'entry' => 'buwliysAriyuw',
+      'form' => 'buwliysAriyuw',
       'lines' => [
-        ';; blAnotiy$n_1',
-        'blAnty$n        blAnotiy$n      N0      Plantation'
+        ';; buwliysAriyuw_1',
+        'bwlysAryw       buwliysAriyuw   N0      Polisario'
       ],
       'patterns' => {},
       'index' => '1',
@@ -51397,9 +51526,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Plantation'
+        'Polisario'
       ],
-      'orig' => 'blAnotiy$n',
+      'orig' => 'buwliysAriyuw',
       'prefix' => ''
     }
   ],
@@ -51491,27 +51620,6 @@ $Lexicon = {
         'Babylonian'
       ],
       'orig' => 'bAbiliy~',
-      'prefix' => ''
-    }
-  ],
-  'bAzuwband' => [
-    {
-      'types' => {},
-      'entry' => 'bAzuwband',
-      'form' => 'bAzuwband',
-      'lines' => [
-        ';; bAzuwbanod_1',
-        'bAzwbnd bAzuwbanod      N       bracelet'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bracelet'
-      ],
-      'orig' => 'bAzuwbanod',
       'prefix' => ''
     }
   ],
@@ -51870,27 +51978,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAstiyl' => [
-    {
-      'types' => {},
-      'entry' => 'bAstiyl',
-      'form' => 'bAstiyl',
-      'lines' => [
-        ';; bAsotiyl_1',
-        'bAstyl  bAsotiyl        N       pastel'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'pastel'
-      ],
-      'orig' => 'bAsotiyl',
-      'prefix' => ''
-    }
-  ],
   'b r .t m' => [
     {
       'types' => {
@@ -52104,24 +52191,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyuwluw^giyy' => [
+  'brUtIn' => [
     {
-      'types' => {},
-      'entry' => 'biyuwluw^giyy',
-      'form' => 'biyuwluw^giyy',
+      'types' => {
+        'bruwtiyiyn' => {
+          'NduAt' => 1
+        },
+        'bruwtiyn' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'bruwtiyn',
+      'form' => 'bruwtiyn',
       'lines' => [
-        ';; biyuwluwjiy~_1',
-        'bywlwjy biyuwluwjiy~    Nall    biological     [[biyuwluwjiy~/ADJ]]'
+        ';; bruwtiyn_1',
+        'brwtyn  bruwtiyn        NduAt   protein',
+        'brwtyyn bruwtiyiyn      NduAt   protein'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'noun',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'biological'
+        'protein'
       ],
-      'orig' => 'biyuwluwjiy~',
+      'orig' => 'bruwtiyn',
       'prefix' => ''
     }
   ],
@@ -52138,39 +52233,6 @@ $Lexicon = {
       'suffix' => ' |< Iy',
       'glosses' => [],
       'orig' => 'bahiy~',
-      'prefix' => ''
-    }
-  ],
-  'buwrund' => [
-    {
-      'types' => {
-        'buruwndiyy' => {
-          'Nall' => 1
-        },
-        'buwruwndiyy' => {
-          'Nall' => 1
-        },
-        'burundiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'buwrund',
-      'form' => 'buwrundiyy',
-      'lines' => [
-        ';; buwrunodiy~_1',
-        'bwrwndy buwruwnodiy~    Nall    Burundian     [[buwruwnodiy~/ADJ]]',
-        'brwndy  buruwnodiy~     Nall    Burundian     [[buruwnodiy~/ADJ]]',
-        'brndy   burunodiy~      Nall    Burundian     [[burunodiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Burundian'
-      ],
-      'orig' => 'buwrunodiy~',
       'prefix' => ''
     }
   ],
@@ -52248,14 +52310,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'brAkiyuw' => [
+  'bilyUnIr' => [
     {
-      'types' => {},
-      'entry' => 'brAkiyuw',
-      'form' => 'brAkiyuw',
+      'types' => {
+        'bilyuwniyr' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'bilyuwniyr',
+      'form' => 'bilyuwniyr',
       'lines' => [
-        ';; brAkiyuw_1',
-        'brAkyw  brAkiyuw        Nprop   Bracio'
+        ';; biloyuwniyr_1',
+        'blywnyr biloyuwniyr     NduAt   billionaire'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52263,30 +52329,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Bracio'
+        'billionaire'
       ],
-      'orig' => 'brAkiyuw',
-      'prefix' => ''
-    }
-  ],
-  'brAmAtArskiy' => [
-    {
-      'types' => {},
-      'entry' => 'brAmAtArskiy',
-      'form' => 'brAmAtArskiy',
-      'lines' => [
-        ';; brAmAtAroskiy_1',
-        'brAmAtArsky     brAmAtAroskiy   Nprop   Pramatarski'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Pramatarski'
-      ],
-      'orig' => 'brAmAtAroskiy',
+      'orig' => 'biloyuwniyr',
       'prefix' => ''
     }
   ],
@@ -52423,114 +52468,7 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwrtAs' => [
-    {
-      'types' => {},
-      'entry' => 'buwrtAs',
-      'form' => 'buwrtAs',
-      'lines' => [
-        ';; buwrotAs_1',
-        'bwrtAs  buwrotAs        Nprop   Portas'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Portas'
-      ],
-      'orig' => 'buwrotAs',
-      'prefix' => ''
-    }
-  ],
-  'bluwtuwqrA.t' => [
-    {
-      'types' => {},
-      'entry' => 'bluwtuwqrA.t',
-      'form' => 'bluwtuwqrA.tiyy',
-      'lines' => [
-        ';; bluwtuwqrATiy~_1',
-        'blwtwqrATy      bluwtuwqrATiy~  Nall    plutocrat'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'plutocrat'
-      ],
-      'orig' => 'bluwtuwqrATiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'bluwtuwqrA.t',
-      'form' => 'bluwtuwqrA.tiyy',
-      'lines' => [
-        ';; bluwtuwqrATiy~_2',
-        'blwtwqrATy      bluwtuwqrATiy~  Nall    plutocratic     [[bluwtuwqrATiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'plutocratic'
-      ],
-      'orig' => 'bluwtuwqrATiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'bluwtuwqrA.tiyy' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'bluwtuwqrA.t',
-      'form' => 'bluwtuwqrA.tiyyaT',
-      'lines' => [
-        ';; bluwtuwqrATiy~ap_1',
-        'blwtwqrATy      bluwtuwqrATiy~  Napdu   plutocracy     [[bluwtuwqrATiy~/ADJ]]',
-        'blwtwqrATy      bluwtuwqrATiy~  NAt     plutocracies     [[bluwtuwqrATiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'plutocracy',
-        'plutocracies'
-      ],
-      'orig' => 'bluwtuwqrATiy~ap',
-      'prefix' => ''
-    }
-  ],
-  'biriystruwykA' => [
-    {
-      'types' => {},
-      'entry' => 'biriystruwykA',
-      'form' => 'biriystruwykA',
-      'lines' => [
-        ';; biriysotruwykA_1',
-        'brystrwykA      biriysotruwykA  N0      perestroika'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'perestroika'
-      ],
-      'orig' => 'biriysotruwykA',
-      'prefix' => ''
-    }
-  ],
-  'biyuw.grAf' => [
+  'biyU.grAf' => [
     {
       'types' => {},
       'entry' => 'biyuw.grAf',
@@ -52686,39 +52624,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mubAliyy' => [
+  'bardaqU^s' => [
     {
       'types' => {},
-      'entry' => 'mubAliyy',
-      'form' => 'lAmubAliyy',
+      'entry' => 'bardaquw^s',
+      'form' => 'bardaquw^s',
       'lines' => [
-        ';; lAmubAliy~_1',
-        'lAmbAly lAmubAliy~      Nall_L  indifferent;apathetic     [[lAmubAliy~/ADJ]]',
-        'lAmbAly lAmubAliy~      Nap_L   indifference;apathy     [[lAmubAliy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'lA >| Identity',
-      'suffix' => '',
-      'glosses' => [
-        'indifferent',
-        'apathetic',
-        'indifference',
-        'apathy'
-      ],
-      'orig' => 'lAmubAliy~',
-      'prefix' => 'lA >| '
-    }
-  ],
-  'bAbluw' => [
-    {
-      'types' => {},
-      'entry' => 'bAbluw',
-      'form' => 'bAbluw',
-      'lines' => [
-        ';; bAboluw_1',
-        'bAblw   bAboluw Nprop   Pablo'
+        ';; barodaquw$_1',
+        'brdqw$  barodaquw$      N       marjoram'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52726,9 +52639,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Pablo'
+        'marjoram'
       ],
-      'orig' => 'bAboluw',
+      'orig' => 'barodaquw$',
+      'prefix' => ''
+    }
+  ],
+  'birmUdA' => [
+    {
+      'types' => {},
+      'entry' => 'birmuwdA',
+      'form' => 'birmuwdA',
+      'lines' => [
+        ';; biromuwdA_1',
+        'brmwdA  biromuwdA       N0      Bermuda'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bermuda'
+      ],
+      'orig' => 'biromuwdA',
       'prefix' => ''
     }
   ],
@@ -52762,6 +52696,27 @@ $Lexicon = {
         'straits'
       ],
       'orig' => 'barozax',
+      'prefix' => ''
+    }
+  ],
+  'brIdrA.g' => [
+    {
+      'types' => {},
+      'entry' => 'briydrA.g',
+      'form' => 'briydrA.g',
+      'lines' => [
+        ';; briydrAg_1',
+        'brydrAg briydrAg        Nprop   Predrag'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Predrag'
+      ],
+      'orig' => 'briydrAg',
       'prefix' => ''
     }
   ],
@@ -52834,48 +52789,6 @@ $Lexicon = {
         'Barash'
       ],
       'orig' => 'barA$',
-      'prefix' => ''
-    }
-  ],
-  'briymin' => [
-    {
-      'types' => {},
-      'entry' => 'briymin',
-      'form' => 'briymin',
-      'lines' => [
-        ';; briymin_1',
-        'brymn   briymin N0      Bremen'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bremen'
-      ],
-      'orig' => 'briymin',
-      'prefix' => ''
-    }
-  ],
-  'biylzbuwriy' => [
-    {
-      'types' => {},
-      'entry' => 'biylzbuwriy',
-      'form' => 'biylzbuwriy',
-      'lines' => [
-        ';; biylzobuwriy_1',
-        'bylzbwry        biylzobuwriy    N0      Pillsbury'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Pillsbury'
-      ],
-      'orig' => 'biylzobuwriy',
       'prefix' => ''
     }
   ],
@@ -53407,27 +53320,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biy.gAwAn' => [
-    {
-      'types' => {},
-      'entry' => 'biy.gAwAn',
-      'form' => 'biy.gAwAn',
-      'lines' => [
-        ';; biygAwAn_1',
-        'bygAwAn biygAwAn        Nprop   Begawan'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Begawan'
-      ],
-      'orig' => 'biygAwAn',
-      'prefix' => ''
-    }
-  ],
   'b h l l' => [
     {
       'types' => {},
@@ -53879,6 +53771,53 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bItzA' => [
+    {
+      'types' => {
+        'biytz' => {
+          'Napdu' => 1
+        }
+      },
+      'entry' => 'biytzA',
+      'form' => 'biytzA',
+      'lines' => [
+        ';; biytozA_1',
+        'bytzA   biytozA N0      pizza',
+        'bytz    biytoz  Napdu   pizza'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'pizza'
+      ],
+      'orig' => 'biytozA',
+      'prefix' => ''
+    }
+  ],
+  'bUlz' => [
+    {
+      'types' => {},
+      'entry' => 'buwlz',
+      'form' => 'buwlz',
+      'lines' => [
+        ';; buwloz_1',
+        'bwlz    buwloz  Nprop   Bulls'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bulls'
+      ],
+      'orig' => 'buwloz',
+      'prefix' => ''
+    }
+  ],
   'b .g z' => [
     {
       'types' => {},
@@ -53896,6 +53835,27 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'buwgAz',
+      'prefix' => ''
+    }
+  ],
+  'bUdr' => [
+    {
+      'types' => {},
+      'entry' => 'buwdr',
+      'form' => 'buwdraT',
+      'lines' => [
+        ';; buwdrap_1',
+        'bwdr    buwdr   Nap     powder'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'powder'
+      ],
+      'orig' => 'buwdrap',
       'prefix' => ''
     }
   ],
@@ -53917,27 +53877,6 @@ $Lexicon = {
         'Burma'
       ],
       'orig' => 'buromA',
-      'prefix' => ''
-    }
-  ],
-  'biyliyuwn' => [
-    {
-      'types' => {},
-      'entry' => 'biyliyuwn',
-      'form' => 'biyliyuwn',
-      'lines' => [
-        ';; biyliyuwn_1',
-        'bylywn  biyliyuwn       N0      Pelion'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Pelion'
-      ],
-      'orig' => 'biyliyuwn',
       'prefix' => ''
     }
   ],
@@ -54460,6 +54399,53 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bAlsIls' => [
+    {
+      'types' => {},
+      'entry' => 'bAlsiyls',
+      'form' => 'bAlsiyls',
+      'lines' => [
+        ';; bAlosiyls_1',
+        'bAlsyls bAlosiyls       Nprop   Balcells'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Balcells'
+      ],
+      'orig' => 'bAlosiyls',
+      'prefix' => ''
+    }
+  ],
+  'bansiyUn' => [
+    {
+      'types' => {
+        'bansiyuwn' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'bansiyuwn',
+      'form' => 'bansiyuwn',
+      'lines' => [
+        ';; banosiyuwn_1',
+        'bnsywn  banosiyuwn      N/At    pension;boardinghouse'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'pension',
+        'boardinghouse'
+      ],
+      'orig' => 'banosiyuwn',
+      'prefix' => ''
+    }
+  ],
   'b r k' => [
     {
       'types' => {
@@ -54935,6 +54921,27 @@ $Lexicon = {
         'Burger'
       ],
       'orig' => 'barogar',
+      'prefix' => ''
+    }
+  ],
+  'bAsU' => [
+    {
+      'types' => {},
+      'entry' => 'bAsuw',
+      'form' => 'bAsuw',
+      'lines' => [
+        ';; bAsuw_1',
+        'bAsw    bAsuw   N0      Paso'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Paso'
+      ],
+      'orig' => 'bAsuw',
       'prefix' => ''
     }
   ],
@@ -56283,6 +56290,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bUlIfiyA' => [
+    {
+      'types' => {},
+      'entry' => 'buwliyfiyA',
+      'form' => 'buwliyfiyA',
+      'lines' => [
+        ';; buwliyfiyA_1',
+        'bwlyfyA buwliyfiyA      N0      Bolivia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bolivia'
+      ],
+      'orig' => 'buwliyfiyA',
+      'prefix' => ''
+    }
+  ],
   'b n y n' => [
     {
       'types' => {},
@@ -56296,6 +56324,69 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'bunoyAn',
+      'prefix' => ''
+    }
+  ],
+  'brUlItAriyA' => [
+    {
+      'types' => {},
+      'entry' => 'bruwliytAriyA',
+      'form' => 'bruwliytAriyA',
+      'lines' => [
+        ';; bruwliytAriyA_1',
+        'brwlytAryA      bruwliytAriyA   N0      proletariat'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'proletariat'
+      ],
+      'orig' => 'bruwliytAriyA',
+      'prefix' => ''
+    }
+  ],
+  'bAnUrAmA' => [
+    {
+      'types' => {},
+      'entry' => 'bAnuwrAmA',
+      'form' => 'bAnuwrAmA',
+      'lines' => [
+        ';; bAnuwrAmA_1',
+        'bAnwrAmA        bAnuwrAmA       N0      panorama'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'panorama'
+      ],
+      'orig' => 'bAnuwrAmA',
+      'prefix' => ''
+    }
+  ],
+  'balU^sIstAn' => [
+    {
+      'types' => {},
+      'entry' => 'baluw^siystAn',
+      'form' => 'baluw^siystAn',
+      'lines' => [
+        ';; baluw$iysotAn_1',
+        'blw$ystAn       baluw$iysotAn   N0      Baluchistan'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Baluchistan'
+      ],
+      'orig' => 'baluw$iysotAn',
       'prefix' => ''
     }
   ],
@@ -56364,27 +56455,6 @@ $Lexicon = {
         'pocket-knives'
       ],
       'orig' => 'miborA',
-      'prefix' => ''
-    }
-  ],
-  'briy.tAniyA' => [
-    {
-      'types' => {},
-      'entry' => 'briy.tAniyA',
-      'form' => 'briy.tAniyA',
-      'lines' => [
-        ';; briyTAniyA_1',
-        'bryTAnyA        briyTAniyA      N0      Britain'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Britain'
-      ],
-      'orig' => 'briyTAniyA',
       'prefix' => ''
     }
   ],
@@ -56740,14 +56810,35 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAytuwn' => [
+  'bUs.ta^g' => [
     {
       'types' => {},
-      'entry' => 'bAytuwn',
-      'form' => 'bAytuwn',
+      'entry' => 'buws.ta^g',
+      'form' => 'buws.ta^giyy',
       'lines' => [
-        ';; bAytuwn_1',
-        'bAytwn  bAytuwn Nprop   Payton'
+        ';; buwsoTajiy~_1',
+        'bwsTjy  buwsoTajiy~     Nall    mailman     [[buwsoTajiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'mailman'
+      ],
+      'orig' => 'buwsoTajiy~',
+      'prefix' => ''
+    }
+  ],
+  'bUr^g' => [
+    {
+      'types' => {},
+      'entry' => 'buwr^g',
+      'form' => 'buwr^g',
+      'lines' => [
+        ';; buwroj_1',
+        'bwrj    buwroj  Nprop   Burg'
       ],
       'patterns' => {},
       'index' => '1',
@@ -56755,9 +56846,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Payton'
+        'Burg'
       ],
-      'orig' => 'bAytuwn',
+      'orig' => 'buwroj',
       'prefix' => ''
     }
   ],
@@ -56863,50 +56954,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwsn' => [
-    {
-      'types' => {
-        'buwsn' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'buwsn',
-      'form' => 'buwsniyy',
-      'lines' => [
-        ';; buwsoniy~_1',
-        'bwsny   buwsoniy~       Nall    Bosnian     [[buwsoniy~/NOUN]]',
-        'bwsny   buwsoniy~       Nall    Bosnian     [[buwsoniy~/ADJ]]',
-        'bwsn    buwson  Nap     Bosnians'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Bosnian',
-        'Bosnians'
-      ],
-      'orig' => 'buwsoniy~',
-      'prefix' => ''
-    },
+  'biyUlU^giyA' => [
     {
       'types' => {},
-      'entry' => 'buwsn',
-      'form' => 'buwsnaT',
+      'entry' => 'biyuwluw^giyA',
+      'form' => 'biyuwluw^giyA',
       'lines' => [
-        ';; buwsonap_1',
-        'bwsn    buwson  Nap     Bosnia'
+        ';; biyuwluwjiyA_1',
+        'bywlwjyA        biyuwluwjiyA    N       biology'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'Bosnia'
+        'biology'
       ],
-      'orig' => 'buwsonap',
+      'orig' => 'biyuwluwjiyA',
       'prefix' => ''
     }
   ],
@@ -56971,27 +57036,6 @@ $Lexicon = {
         'pawns'
       ],
       'orig' => 'bayodaq',
-      'prefix' => ''
-    }
-  ],
-  'biytriyt^s' => [
-    {
-      'types' => {},
-      'entry' => 'biytriyt^s',
-      'form' => 'biytriyt^s',
-      'lines' => [
-        ';; biytoriyt$_1',
-        'bytryt$ biytoriyt$      Nprop   Petrich'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Petrich'
-      ],
-      'orig' => 'biytoriyt$',
       'prefix' => ''
     }
   ],
@@ -57077,6 +57121,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bAwlU' => [
+    {
+      'types' => {},
+      'entry' => 'bAwluw',
+      'form' => 'bAwluw',
+      'lines' => [
+        ';; bAwoluw_1',
+        'bAwlw   bAwoluw Nprop   Paulo'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Paulo'
+      ],
+      'orig' => 'bAwoluw',
+      'prefix' => ''
+    }
+  ],
   'b ^s t' => [
     {
       'types' => {},
@@ -57117,14 +57182,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyftiyk' => [
+  'bIzItA' => [
     {
       'types' => {},
-      'entry' => 'biyftiyk',
-      'form' => 'biyftiyk',
+      'entry' => 'biyziytA',
+      'form' => 'biyziytA',
       'lines' => [
-        ';; biyfotiyk_1',
-        'byftyk  biyfotiyk       N       beefsteak'
+        ';; biyziytA_1',
+        'byzytA  biyziytA        N0      peseta'
       ],
       'patterns' => {},
       'index' => '1',
@@ -57132,96 +57197,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'beefsteak'
+        'peseta'
       ],
-      'orig' => 'biyfotiyk',
-      'prefix' => ''
-    }
-  ],
-  'bliyzir' => [
-    {
-      'types' => {
-        'bliyzir' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'bliyzir',
-      'form' => 'bliyzir',
-      'lines' => [
-        ';; bliyzir_1',
-        'blyzr   bliyzir N/At    blazer'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'blazer'
-      ],
-      'orig' => 'bliyzir',
-      'prefix' => ''
-    }
-  ],
-  'biliyz' => [
-    {
-      'types' => {},
-      'entry' => 'biliyz',
-      'form' => 'biliyz',
-      'lines' => [
-        ';; biliyz_1',
-        'blyz    biliyz  N0      Belize'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Belize'
-      ],
-      'orig' => 'biliyz',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'biliyz',
-      'form' => 'biliyziyy',
-      'lines' => [
-        ';; biliyziy~_1',
-        'blyzy   biliyziy~       Nall    Belizean;Belizian'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Belizean',
-        'Belizian'
-      ],
-      'orig' => 'biliyziy~',
-      'prefix' => ''
-    }
-  ],
-  'buw`aziyziy' => [
-    {
-      'types' => {},
-      'entry' => 'buw`aziyziy',
-      'form' => 'buw`aziyziy',
-      'lines' => [
-        ';; buwEaziyziy_1',
-        'bwEzyzy buwEaziyziy     N0      Bouazizi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bouazizi'
-      ],
-      'orig' => 'buwEaziyziy',
+      'orig' => 'biyziytA',
       'prefix' => ''
     }
   ],
@@ -57316,6 +57294,47 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'bilIz' => [
+    {
+      'types' => {},
+      'entry' => 'biliyz',
+      'form' => 'biliyz',
+      'lines' => [
+        ';; biliyz_1',
+        'blyz    biliyz  N0      Belize'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Belize'
+      ],
+      'orig' => 'biliyz',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'biliyz',
+      'form' => 'biliyziyy',
+      'lines' => [
+        ';; biliyziy~_1',
+        'blyzy   biliyziy~       Nall    Belizean;Belizian'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Belizean',
+        'Belizian'
+      ],
+      'orig' => 'biliyziy~',
+      'prefix' => ''
+    }
+  ],
   'b r .d' => [
     {
       'types' => {
@@ -57367,6 +57386,69 @@ $Lexicon = {
         'sprouting'
       ],
       'orig' => 'buruwD',
+      'prefix' => ''
+    }
+  ],
+  'bArAnUf' => [
+    {
+      'types' => {},
+      'entry' => 'bArAnuwf',
+      'form' => 'bArAnuwf',
+      'lines' => [
+        ';; bArAnuwf_1',
+        'bArAnwf bArAnuwf        Nprop   Baranov'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Baranov'
+      ],
+      'orig' => 'bArAnuwf',
+      'prefix' => ''
+    }
+  ],
+  'bU`azIz' => [
+    {
+      'types' => {},
+      'entry' => 'buw`aziyz',
+      'form' => 'buw`aziyz',
+      'lines' => [
+        ';; buwEaziyz_1',
+        'bwEzyz  buwEaziyz       N0      Bouaziz'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bouaziz'
+      ],
+      'orig' => 'buwEaziyz',
+      'prefix' => ''
+    }
+  ],
+  'bUs.tun' => [
+    {
+      'types' => {},
+      'entry' => 'buws.tun',
+      'form' => 'buws.tun',
+      'lines' => [
+        ';; buwsoTun_1',
+        'bwsTn   buwsoTun        Nprop   Boston'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Boston'
+      ],
+      'orig' => 'buwsoTun',
       'prefix' => ''
     }
   ],
@@ -57456,6 +57538,27 @@ $Lexicon = {
         'Benares'
       ],
       'orig' => 'banAris',
+      'prefix' => ''
+    }
+  ],
+  'biyUrkmAn' => [
+    {
+      'types' => {},
+      'entry' => 'biyuwrkmAn',
+      'form' => 'biyuwrkmAn',
+      'lines' => [
+        ';; biyuwrkomAn_1',
+        'bywrkmAn        biyuwrkomAn     Nprop   Bjorkman'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bjorkman'
+      ],
+      'orig' => 'biyuwrkomAn',
       'prefix' => ''
     }
   ],
@@ -57554,27 +57657,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAsiyd^giy' => [
-    {
-      'types' => {},
-      'entry' => 'bAsiyd^giy',
-      'form' => 'bAsiyd^giy',
-      'lines' => [
-        ';; bAsiydjiy_1',
-        'bAsydjy bAsiydjiy       N0      Basiji'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Basiji'
-      ],
-      'orig' => 'bAsiydjiy',
-      'prefix' => ''
-    }
-  ],
   'b r l n' => [
     {
       'types' => {},
@@ -57593,6 +57675,27 @@ $Lexicon = {
         'Berlin'
       ],
       'orig' => 'baroliyn',
+      'prefix' => ''
+    }
+  ],
+  'bArAdUrn' => [
+    {
+      'types' => {},
+      'entry' => 'bArAduwrn',
+      'form' => 'bArAduwrn',
+      'lines' => [
+        ';; bArAduwrn_1',
+        'bArAdwrn        bArAduwrn       Nprop   Paradorn'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Paradorn'
+      ],
+      'orig' => 'bArAduwrn',
       'prefix' => ''
     }
   ],
@@ -57626,27 +57729,6 @@ $Lexicon = {
         'coffee pots'
       ],
       'orig' => 'bakoraj',
-      'prefix' => ''
-    }
-  ],
-  'buws.tun' => [
-    {
-      'types' => {},
-      'entry' => 'buws.tun',
-      'form' => 'buws.tun',
-      'lines' => [
-        ';; buwsoTun_1',
-        'bwsTn   buwsoTun        Nprop   Boston'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Boston'
-      ],
-      'orig' => 'buwsoTun',
       'prefix' => ''
     }
   ],
@@ -57725,19 +57807,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAykuwn' => [
+  'bIfIrlI' => [
     {
-      'types' => {
-        'bAykun' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'bAykuwn',
-      'form' => 'bAykuwn',
+      'types' => {},
+      'entry' => 'biyfiyrliy',
+      'form' => 'biyfiyrliy',
       'lines' => [
-        ';; bAyokuwn_1',
-        'bAykwn  bAyokuwn        Nprop   Bacon',
-        'bAykn   bAyokun Nprop   Bacon'
+        ';; biyfiyroliy_1',
+        'byfyrly biyfiyroliy     Nprop   Beverley'
       ],
       'patterns' => {},
       'index' => '1',
@@ -57745,9 +57822,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Bacon'
+        'Beverley'
       ],
-      'orig' => 'bAyokuwn',
+      'orig' => 'biyfiyroliy',
       'prefix' => ''
     }
   ],
@@ -57767,14 +57844,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bliyks' => [
+  'bAndUndU' => [
     {
       'types' => {},
-      'entry' => 'bliyks',
-      'form' => 'bliyks',
+      'entry' => 'bAnduwnduw',
+      'form' => 'bAnduwnduw',
       'lines' => [
-        ';; bliyks_1',
-        'blyks   bliyks  Nprop   Blicks'
+        ';; bAnduwnoduw_1',
+        'bAndwndw        bAnduwnoduw     N0      Bandondo'
       ],
       'patterns' => {},
       'index' => '1',
@@ -57782,30 +57859,42 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Blicks'
+        'Bandondo'
       ],
-      'orig' => 'bliyks',
+      'orig' => 'bAnduwnoduw',
       'prefix' => ''
     }
   ],
-  'baqduwnis' => [
+  'bUrund' => [
     {
-      'types' => {},
-      'entry' => 'baqduwnis',
-      'form' => 'baqduwnis',
+      'types' => {
+        'buruwndiyy' => {
+          'Nall' => 1
+        },
+        'buwruwndiyy' => {
+          'Nall' => 1
+        },
+        'burundiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'buwrund',
+      'form' => 'buwrundiyy',
       'lines' => [
-        ';; baqoduwnis_1',
-        'bqdwns  baqoduwnis      N       parsley'
+        ';; buwrunodiy~_1',
+        'bwrwndy buwruwnodiy~    Nall    Burundian     [[buwruwnodiy~/ADJ]]',
+        'brwndy  buruwnodiy~     Nall    Burundian     [[buruwnodiy~/ADJ]]',
+        'brndy   burunodiy~      Nall    Burundian     [[burunodiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'parsley'
+        'Burundian'
       ],
-      'orig' => 'baqoduwnis',
+      'orig' => 'buwrunodiy~',
       'prefix' => ''
     }
   ],
@@ -57822,28 +57911,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'baToHA\'',
-      'prefix' => ''
-    }
-  ],
-  'biyruwfiyy' => [
-    {
-      'types' => {},
-      'entry' => 'biyruwfiyy',
-      'form' => 'biyruwfiyy',
-      'lines' => [
-        ';; biyruwfiy~_1',
-        'byrwfy  biyruwfiy~      Nall    Peruvian     [[biyruwfiy~/NOUN]]',
-        'byrwfy  biyruwfiy~      Nall    Peruvian     [[biyruwfiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Peruvian'
-      ],
-      'orig' => 'biyruwfiy~',
       'prefix' => ''
     }
   ],
@@ -57878,6 +57945,38 @@ $Lexicon = {
         'ba\'s (Arabic letter)'
       ],
       'orig' => 'bA\'',
+      'prefix' => ''
+    }
+  ],
+  'bAbUr' => [
+    {
+      'types' => {
+        'bawAbiyr' => {
+          'Ndip' => 1
+        },
+        'bAbuwr' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'bAbuwr',
+      'form' => 'bAbuwr',
+      'lines' => [
+        ';; bAbuwr_1',
+        'bAbwr   bAbuwr  NduAt   steamship;steamer',
+        'bwAbyr  bawAbiyr        Ndip    steamships;steamers'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'steamship',
+        'steamer',
+        'steamships',
+        'steamers'
+      ],
+      'orig' => 'bAbuwr',
       'prefix' => ''
     }
   ],
@@ -57945,27 +58044,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bA_tuwluw^g' => [
-    {
-      'types' => {},
-      'entry' => 'bA_tuwluw^g',
-      'form' => 'bA_tuwluw^giyy',
-      'lines' => [
-        ';; bAvuwluwjiy~_1',
-        'bAvwlwjy        bAvuwluwjiy~    Nall    pathological     [[bAvuwluwjiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'pathological'
-      ],
-      'orig' => 'bAvuwluwjiy~',
-      'prefix' => ''
-    }
-  ],
   'b l h n' => [
     {
       'types' => {
@@ -57994,27 +58072,6 @@ $Lexicon = {
         'sphinxes'
       ],
       'orig' => 'bulohuwn',
-      'prefix' => ''
-    }
-  ],
-  'bAynliy_h' => [
-    {
-      'types' => {},
-      'entry' => 'bAynliy_h',
-      'form' => 'bAynliy_h',
-      'lines' => [
-        ';; bAynoliyx_1',
-        'bAynlyx bAynoliyx       Nprop   Beinlich'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Beinlich'
-      ],
-      'orig' => 'bAynoliyx',
       'prefix' => ''
     }
   ],
@@ -58089,14 +58146,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyruwniyy' => [
+  'bAntUmIm' => [
     {
       'types' => {},
-      'entry' => 'biyruwniyy',
-      'form' => 'biyruwniyy',
+      'entry' => 'bAntuwmiym',
+      'form' => 'bAntuwmiym',
       'lines' => [
-        ';; biyruwniy~_1',
-        'byrwny  biyruwniy~      N0      Biruni;Birouni'
+        ';; bAnotuwmiym_1',
+        'bAntwmym        bAnotuwmiym     N       pantomime'
       ],
       'patterns' => {},
       'index' => '1',
@@ -58104,10 +58161,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Biruni',
-        'Birouni'
+        'pantomime'
       ],
-      'orig' => 'biyruwniy~',
+      'orig' => 'bAnotuwmiym',
       'prefix' => ''
     }
   ],
@@ -58388,46 +58444,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buruwnz' => [
-    {
-      'types' => {},
-      'entry' => 'buruwnz',
-      'form' => 'buruwnz',
-      'lines' => [
-        ';; buruwnz_1',
-        'brwnz   buruwnz N       bronze'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bronze'
-      ],
-      'orig' => 'buruwnz',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'buruwnz',
-      'form' => 'buruwnziyy',
-      'lines' => [
-        ';; buruwnoziy~_1',
-        'brwnzy  buruwnoziy~     Nall    bronze     [[buruwnoziy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'bronze'
-      ],
-      'orig' => 'buruwnoziy~',
-      'prefix' => ''
-    }
-  ],
   'b f s' => [
     {
       'types' => {},
@@ -58574,14 +58590,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'briy^giyt' => [
+  'bUdAbist' => [
     {
       'types' => {},
-      'entry' => 'briy^giyt',
-      'form' => 'briy^giyt',
+      'entry' => 'buwdAbist',
+      'form' => 'buwdAbist',
       'lines' => [
-        ';; briyjiyt_1',
-        'bryjyt  briyjiyt        Nprop   Brigite;Bridget;Bridgitte;Brighit'
+        ';; buwdAbisot_1',
+        'bwdAbst buwdAbisot      Nprop   Budapest'
       ],
       'patterns' => {},
       'index' => '1',
@@ -58589,12 +58605,28 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Brigite',
-        'Bridget',
-        'Bridgitte',
-        'Brighit'
+        'Budapest'
       ],
-      'orig' => 'briyjiyt',
+      'orig' => 'buwdAbisot',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'buwdAbist',
+      'form' => 'buwdAbistiyy',
+      'lines' => [
+        ';; buwdAbisotiy~_1',
+        'bwdAbsty        buwdAbisotiy~   Nall    of/from Budapest     [[buwdAbisotiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'of/from Budapest'
+      ],
+      'orig' => 'buwdAbisotiy~',
       'prefix' => ''
     }
   ],
@@ -58757,32 +58789,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buws.t' => [
-    {
-      'types' => {
-        'buwst' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'buws.t',
-      'form' => 'buws.taT',
-      'lines' => [
-        ';; buwsoTap_1',
-        'bwsT    buwsoT  Nap     mail',
-        'bwst    buwsot  Nap     mail'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'mail'
-      ],
-      'orig' => 'buwsoTap',
-      'prefix' => ''
-    }
-  ],
   'b .h r \'' => [
     {
       'types' => {},
@@ -58841,49 +58847,6 @@ $Lexicon = {
         'papacy'
       ],
       'orig' => 'bAbawiy~ap',
-      'prefix' => ''
-    }
-  ],
-  'buwsfuwr' => [
-    {
-      'types' => {},
-      'entry' => 'buwsfuwr',
-      'form' => 'buwsfuwr',
-      'lines' => [
-        ';; buwsofuwr_1',
-        'bwsfwr  buwsofuwr       N       Bosphorus;Bosporus'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bosphorus',
-        'Bosporus'
-      ],
-      'orig' => 'buwsofuwr',
-      'prefix' => ''
-    }
-  ],
-  'biyliyfiyld' => [
-    {
-      'types' => {},
-      'entry' => 'biyliyfiyld',
-      'form' => 'biyliyfiyld',
-      'lines' => [
-        ';; biyliyfiylod_1',
-        'bylyfyld        biyliyfiylod    N0      Bielefeld'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Bielefeld'
-      ],
-      'orig' => 'biyliyfiylod',
       'prefix' => ''
     }
   ],
@@ -59020,14 +58983,23 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biyrnz' => [
+  'brUksil' => [
     {
-      'types' => {},
-      'entry' => 'biyrnz',
-      'form' => 'biyrnz',
+      'types' => {
+        'bruwksiyl' => {
+          'Nprop' => 1
+        },
+        'bruwksAl' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'bruwksil',
+      'form' => 'bruwksil',
       'lines' => [
-        ';; biyrnoz_1',
-        'byrnz   biyrnoz Nprop   Burns'
+        ';; bruwkosil_1',
+        'brwksl  bruwkosil       Nprop   Brussels',
+        'brwksAl bruwkosAl       Nprop   Brussels',
+        'brwksyl bruwkosiyl      Nprop   Brussels'
       ],
       'patterns' => {},
       'index' => '1',
@@ -59035,42 +59007,82 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Burns'
+        'Brussels'
       ],
-      'orig' => 'biyrnoz',
+      'orig' => 'bruwkosil',
       'prefix' => ''
     }
   ],
-  'bruwtistAnt' => [
+  'ba.tra^sIl' => [
     {
       'types' => {
-        'bruwtistAnt' => {
-          'N' => 1
+        'ba.tAri^s' => {
+          'Ndip' => 1
         },
-        'bruwtistAntiyniyy' => {
-          'Nall' => 2
+        'ba.tra^siyn' => {
+          'N' => 1
         }
       },
-      'entry' => 'bruwtistAnt',
-      'form' => 'bruwtistAntiyy',
+      'entry' => 'ba.tra^siyl',
+      'form' => 'ba.tra^siyl',
       'lines' => [
-        ';; bruwtisotAnotiy~_1',
-        'brwtstAnty      bruwtisotAnotiy~        Nall    Protestant     [[bruwtisotAntiy~/NOUN]]',
-        'brwtstAnty      bruwtisotAnotiy~        Nall    Protestant     [[bruwtisotAntiy~/ADJ]]',
-        'brwtstAntyny    bruwtisotAnotiyniy~     Nall    Protestant     [[bruwtisotAntiyniy~/NOUN]]',
-        'brwtstAntyny    bruwtisotAnotiyniy~     Nall    Protestant     [[bruwtisotAntiyniy~/ADJ]]',
-        'brwtstAnt       bruwtisotAnt    N       Protestants'
+        ';; baTora$iyl_1',
+        'bTr$yl  baTora$iyl      N       stole (ecclesiastical scarf)',
+        'bTr$yn  baTora$iyn      N       stole (ecclesiastical scarf)',
+        'bTAr$   baTAri$ Ndip    stoles (ecclesiastical scarfs)'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'Protestant',
-        'Protestants'
+        'stole (ecclesiastical scarf)',
+        'stoles (ecclesiastical scarfs)'
       ],
-      'orig' => 'bruwtisotAnotiy~',
+      'orig' => 'baTora$iyl',
+      'prefix' => ''
+    }
+  ],
+  'brAmAtArskI' => [
+    {
+      'types' => {},
+      'entry' => 'brAmAtArskiy',
+      'form' => 'brAmAtArskiy',
+      'lines' => [
+        ';; brAmAtAroskiy_1',
+        'brAmAtArsky     brAmAtAroskiy   Nprop   Pramatarski'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Pramatarski'
+      ],
+      'orig' => 'brAmAtAroskiy',
+      'prefix' => ''
+    }
+  ],
+  'bU^skA^s' => [
+    {
+      'types' => {},
+      'entry' => 'buw^skA^s',
+      'form' => 'buw^skA^s',
+      'lines' => [
+        ';; buw$kA$_1',
+        'bw$kA$  buw$kA$ Nprop   Puskas'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Puskas'
+      ],
+      'orig' => 'buw$kA$',
       'prefix' => ''
     }
   ],
@@ -59092,27 +59104,6 @@ $Lexicon = {
         'stork'
       ],
       'orig' => 'balAraj',
-      'prefix' => ''
-    }
-  ],
-  'bardaquw^s' => [
-    {
-      'types' => {},
-      'entry' => 'bardaquw^s',
-      'form' => 'bardaquw^s',
-      'lines' => [
-        ';; barodaquw$_1',
-        'brdqw$  barodaquw$      N       marjoram'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'marjoram'
-      ],
-      'orig' => 'barodaquw$',
       'prefix' => ''
     }
   ],
@@ -59147,14 +59138,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bAbAmuwbiyl' => [
+  'bIrI_hIl' => [
     {
       'types' => {},
-      'entry' => 'bAbAmuwbiyl',
-      'form' => 'bAbAmuwbiyl',
+      'entry' => 'biyriy_hiyl',
+      'form' => 'biyriy_hiyl',
       'lines' => [
-        ';; bAbAmuwbiyl_1',
-        'bAbAmwbyl       bAbAmuwbiyl     N0      Popemobile'
+        ';; biyriyxiyl_1',
+        'byryxyl biyriyxiyl      N0      Perejil'
       ],
       'patterns' => {},
       'index' => '1',
@@ -59162,30 +59153,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Popemobile'
+        'Perejil'
       ],
-      'orig' => 'bAbAmuwbiyl',
-      'prefix' => ''
-    }
-  ],
-  'bruwliytAr' => [
-    {
-      'types' => {},
-      'entry' => 'bruwliytAr',
-      'form' => 'bruwliytAriyy',
-      'lines' => [
-        ';; bruwliytAriy~_1',
-        'brwlytAry       bruwliytAriy~   Nall    proletarian     [[bruwliytAriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'proletarian'
-      ],
-      'orig' => 'bruwliytAriy~',
+      'orig' => 'biyriyxiyl',
       'prefix' => ''
     }
   ],
@@ -59280,19 +59250,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'buwtAsA' => [
+  'bArnIsAndnUbl' => [
     {
       'types' => {
-        'buwtAs' => {
-          'N' => 1
+        'bArnysAndnwbl' => {
+          'Nprop' => 1
         }
       },
-      'entry' => 'buwtAsA',
-      'form' => 'buwtAsA',
+      'entry' => 'bArniysAndnuwbl',
+      'form' => 'bArniysAndnuwbl',
       'lines' => [
-        ';; buwtAsA_1',
-        'bwtAsA  buwtAsA N0      potash',
-        'bwtAs   buwtAs  N       potash'
+        ';; bArniysAndnuwbl_1',
+        'bArnysAndnwbl   bArnysAndnwbl   Nprop   Barnes and Noble'
       ],
       'patterns' => {},
       'index' => '1',
@@ -59300,9 +59269,72 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'potash'
+        'Barnes and Noble'
       ],
-      'orig' => 'buwtAsA',
+      'orig' => 'bArniysAndnuwbl',
+      'prefix' => ''
+    }
+  ],
+  'bAnkUk' => [
+    {
+      'types' => {},
+      'entry' => 'bAnkuwk',
+      'form' => 'bAnkuwk',
+      'lines' => [
+        ';; bAnokuwk_1',
+        'bAnkwk  bAnokuwk        Nprop   Bankok'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bankok'
+      ],
+      'orig' => 'bAnokuwk',
+      'prefix' => ''
+    }
+  ],
+  'bU`azIzI' => [
+    {
+      'types' => {},
+      'entry' => 'buw`aziyziy',
+      'form' => 'buw`aziyziy',
+      'lines' => [
+        ';; buwEaziyziy_1',
+        'bwEzyzy buwEaziyziy     N0      Bouazizi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bouazizi'
+      ],
+      'orig' => 'buwEaziyziy',
+      'prefix' => ''
+    }
+  ],
+  'bil^gIkA' => [
+    {
+      'types' => {},
+      'entry' => 'bil^giykA',
+      'form' => 'bil^giykA',
+      'lines' => [
+        ';; bilojiykA_1',
+        'bljykA  bilojiykA       N0      Belgium'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Belgium'
+      ],
+      'orig' => 'bilojiykA',
       'prefix' => ''
     }
   ],
@@ -59371,31 +59403,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bArAnuwyA' => [
-    {
-      'types' => {
-        'bArAnuwyY' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'bArAnuwyA',
-      'form' => 'bArAnuwyA',
-      'lines' => [
-        ';; bArAnuwyA_1',
-        'bArAnwyA        bArAnuwyA       N       paranoia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'paranoia'
-      ],
-      'orig' => 'bArAnuwyA',
-      'prefix' => ''
-    }
-  ],
   'b y n n' => [
     {
       'types' => {},
@@ -59414,6 +59421,27 @@ $Lexicon = {
         'Benon'
       ],
       'orig' => 'biynuwn',
+      'prefix' => ''
+    }
+  ],
+  'bIktil' => [
+    {
+      'types' => {},
+      'entry' => 'biyktil',
+      'form' => 'biyktil',
+      'lines' => [
+        ';; biykotil_1',
+        'byktl   biykotil        Nprop   Bechtel'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bechtel'
+      ],
+      'orig' => 'biykotil',
       'prefix' => ''
     }
   ],
@@ -60257,27 +60285,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'bA^smuftiy' => [
-    {
-      'types' => {},
-      'entry' => 'bA^smuftiy',
-      'form' => 'bA^smuftiy',
-      'lines' => [
-        ';; bA$omufotiy_1',
-        'bA$mfty bA$omufotiy     N       chief mufti'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'chief mufti'
-      ],
-      'orig' => 'bA$omufotiy',
-      'prefix' => ''
-    }
-  ],
   'b n b ^s' => [
     {
       'types' => {},
@@ -60296,6 +60303,27 @@ $Lexicon = {
         'lieutenant colonel'
       ],
       'orig' => 'binobA$iy~',
+      'prefix' => ''
+    }
+  ],
+  'brImin' => [
+    {
+      'types' => {},
+      'entry' => 'briymin',
+      'form' => 'briymin',
+      'lines' => [
+        ';; briymin_1',
+        'brymn   briymin N0      Bremen'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Bremen'
+      ],
+      'orig' => 'briymin',
       'prefix' => ''
     }
   ],

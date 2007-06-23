@@ -283,7 +283,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- yAmAhA -}           [ "Yamaha" ] ]
 
- |> "yAmiy^s" <| [
+ |> "yAmI^s" <| [
 
     Identity                  `noun`    {- yAmiy$ -}           [ "dried fruits" ] ]
 
@@ -291,69 +291,69 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- yAnA -}             [ "Jana" ] ]
 
- |> "yAsiyn" <| [
+ |> "yAsIn" <| [
 
     Identity                  `noun`    {- yAsiyn -}           [ "Yaseen", "Yacine" ] ]
 
- |> "yAsmiyn" <| [
+ |> "yAsmIn" <| [
 
     Identity                  `noun`    {- yAsomiyn -}         [ "Yasmin", "Yasmeen", "Jasmine" ],
 
     Identity                  `noun`    {- yAsomiyn -}         [ "jasmine" ] ]
 
- |> "yadiy`uwt" <| [
-
-    Identity                  `noun`    {- yadiyEuwt -}        [ "Yediot" ] ]
-
- |> "yuw.guwslAf" <| [
+ |> "yU.gUslAf" <| [
 
     Identity |< Iy            `adj`     {- yuwguwsolAfiy~ -}   [ "Yugoslavian" ] ]
 
- |> "yuw.guwslAfiyA" <| [
+ |> "yU.gUslAfiyA" <| [
 
     Identity                  `noun`    {- yuwguwsolAfiyA -}   [ "Yugoslavia" ] ]
 
- |> "yuwhAnsuwn" <| [
+ |> "yUhAnsUn" <| [
 
     Identity                  `noun`    {- yuwhAnosuwn -}      [ "Johansson" ] ]
 
- |> "yuwliyuw" <| [
+ |> "yUliyU" <| [
 
     Identity                  `noun`    {- yuwliyuw -}         [ "July" ] ]
 
- |> "yuwn.g" <| [
+ |> "yUn.g" <| [
 
     Identity                  `noun`    {- yuwnog -}           [ "Jong", "Jung", "Yung" ],
 
     Identity                  `noun`    {- yuwnog -}           [ "Young" ] ]
 
- |> "yuwnAytid" <| [
+ |> "yUnAytid" <| [
 
     Identity                  `noun`    {- yuwnAyotid -}       [ "United" ] ]
 
- |> "yuwniysif" <| [
+ |> "yUnIsif" <| [
 
     Identity                  `noun`    {- yuwniysif -}        [ "UNICEF" ] ]
 
- |> "yuwniyskuw" <| [
+ |> "yUnIskU" <| [
 
     Identity                  `noun`    {- yuwniysokuw -}      [ "UNESCO" ] ]
 
- |> "yuwniyuw" <| [
+ |> "yUniyU" <| [
 
     Identity                  `noun`    {- yuwniyuw -}         [ "June" ] ]
 
- |> "yuwrAniyuwm" <| [
+ |> "yUrAniyUm" <| [
 
     Identity                  `noun`    {- yuwrAniyuwm -}      [ "uranium" ] ]
 
- |> "yuwrk" <| [
+ |> "yUrk" <| [
 
     Identity                  `noun`    {- yuwrk -}            [ "York" ] ]
 
- |> "yuwtA" <| [
+ |> "yUtA" <| [
 
     Identity                  `noun`    {- yuwtA -}            [ "Utah" ] ]
+
+ |> "yadI`Ut" <| [
+
+    Identity                  `noun`    {- yadiyEuwt -}        [ "Yediot" ] ]
 
  |> "ywmbl.gAz" <| [
 

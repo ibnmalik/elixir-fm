@@ -521,7 +521,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tAyogA -}           [ "Taiga" ] ]
 
- |> "tAykwAnduw" <| [
+ |> "tAykwAndU" <| [
 
     Identity                  `noun`    {- tAyokwAnoduw -}     [ "Taekwondo" ] ]
 
@@ -543,6 +543,30 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- tAyowAniy~ -}       [ "Taiwanese" ] ]
 
+ |> "tIbAzah" <| [
+
+    Identity                  `noun`    {- tiybAzah -}         [ "Tipasa" ] ]
+
+ |> "tIlstrUm" <| [
+
+    Identity                  `noun`    {- tiylostruwm -}      [ "Tillstrom" ] ]
+
+ |> "tIrIzA" <| [
+
+    Identity                  `noun`    {- tiyriyzA -}         [ "Teresa" ] ]
+
+ |> "tUbA.gU" <| [
+
+    Identity                  `noun`    {- tuwbAguw -}         [ "Tobago" ] ]
+
+ |> "tUrUntU" <| [
+
+    Identity                  `noun`    {- tuwruwnotuw -}      [ "Toronto", "Torres" ] ]
+
+ |> "tUyUtA" <| [
+
+    Identity                  `noun`    {- tuwyuwtA -}         [ "Toyota" ] ]
+
  |> "t^sAd" <| [
 
     Identity                  `noun`    {- t$Ad -}             [ "Chad" ] ]
@@ -555,7 +579,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- t$AnodA -}          [ "Chanda" ] ]
 
- |> "t^sArltuwn" <| [
+ |> "t^sArltUn" <| [
 
     Identity                  `noun`    {- t$Arlotuwn -}       [ "Charlton" ] ]
 
@@ -567,29 +591,29 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- t$AyonA -}          [ "China" ] ]
 
- |> "t^silsiy" <| [
-
-    Identity                  `noun`    {- t$ilosiy -}         [ "Chelsea" ] ]
-
- |> "t^siyk" <| [
+ |> "t^sIk" <| [
 
     Identity |< Iy            `adj`     {- t$iykiy~ -}         [ "Czech" ] ]
 
- |> "t^siyl" <| [
+ |> "t^sIl" <| [
 
     Identity |< Iy            `adj`     {- t$iyliy~ -}         [ "Chilean" ] ]
 
- |> "t^siyliy" <| [
+ |> "t^sIlI" <| [
 
     Identity                  `noun`    {- t$iyliy -}          [ "Chile" ] ]
 
- |> "t^siyluwbA" <| [
+ |> "t^sIlUbA" <| [
 
     Identity                  `noun`    {- t$iyluwbA -}        [ "Chiluba" ] ]
 
- |> "t^siyniy" <| [
+ |> "t^sInI" <| [
 
     Identity                  `noun`    {- t$iyniy -}          [ "Cheney" ] ]
+
+ |> "t^silsI" <| [
+
+    Identity                  `noun`    {- t$ilosiy -}         [ "Chelsea" ] ]
 
  |> "tadmur" <| [
 
@@ -607,15 +631,15 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tibit -}            [ "Tibet" ] ]
 
- |> "tiknuwluw^g" <| [
+ |> "tiknUlU^g" <| [
 
     Identity |< Iy            `adj`     {- tikonuwluwjiy~ -}   [ "technological" ] ]
 
- |> "tiknuwluw^giyA" <| [
+ |> "tiknUlU^giyA" <| [
 
     Identity                  `noun`    {- tikonuwluwjiyA -}   [ "technology" ] ]
 
- |> "tilfizyuwn" <| [
+ |> "tilfizyUn" <| [
 
     Identity                  `noun`    {- tilfizyuwn -}       [ "television" ],
 
@@ -627,69 +651,41 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tiligrAf -}         [ "Telegraph" ] ]
 
- |> "tilifuwn" <| [
+ |> "tilifUn" <| [
 
     Identity                  `noun`    {- tilifuwn -}         [ "telephone" ],
 
     Identity |< Iy            `adj`     {- tilifuwniy~ -}      [ "telephonic" ] ]
 
- |> "tiybAzah" <| [
-
-    Identity                  `noun`    {- tiybAzah -}         [ "Tipasa" ] ]
-
- |> "tiylstruwm" <| [
-
-    Identity                  `noun`    {- tiylostruwm -}      [ "Tillstrom" ] ]
-
- |> "tiyriyzA" <| [
-
-    Identity                  `noun`    {- tiyriyzA -}         [ "Teresa" ] ]
-
  |> "trAn" <| [
 
     Identity                  `noun`    {- trAn -}             [ "Tran" ] ]
 
- |> "triyliyuwn" <| [
+ |> "trIliyUn" <| [
 
     Identity                  `noun`    {- triyliyuwn -}       [ "trillion" ] ]
 
- |> "triyniydAd" <| [
+ |> "trInIdAd" <| [
 
     Identity                  `noun`    {- triyniydAd -}       [ "Trinidad" ] ]
 
- |> "truwykA" <| [
+ |> "trUykA" <| [
 
     Identity                  `noun`    {- truwyokA -}         [ "Troika" ] ]
 
- |> "tsuwbiyl" <| [
+ |> "tsUbIl" <| [
 
     Identity                  `noun`    {- tsuwbiyl -}         [ "Tzobel" ] ]
 
- |> "tuhAmiy" <| [
+ |> "tuhAmI" <| [
 
     Identity                  `noun`    {- tuhAmiy -}          [ "Tuhami" ] ]
 
- |> "tuwAliyt" <| [
+ |> "tuwAlIt" <| [
 
     Identity                  `noun`    {- tuwAliyt -}         [ "toilette" ] ]
-
- |> "tuw^gw" <| [
-
-    Identity                  `noun`    {- tuwjw -}            [ "Togo", "Tod" ] ]
 
  |> "tuway^gr" <| [
 
     Identity |< Iy            `adj`     {- tuwayojriy~ -}      [ "Tuwaijri" ] ]
-
- |> "tuwbA.guw" <| [
-
-    Identity                  `noun`    {- tuwbAguw -}         [ "Tobago" ] ]
-
- |> "tuwruwntuw" <| [
-
-    Identity                  `noun`    {- tuwruwnotuw -}      [ "Toronto", "Torres" ] ]
-
- |> "tuwyuwtA" <| [
-
-    Identity                  `noun`    {- tuwyuwtA -}         [ "Toyota" ] ]
 

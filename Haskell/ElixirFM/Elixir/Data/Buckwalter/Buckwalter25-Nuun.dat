@@ -59,7 +59,7 @@ nAzdAk  nAzodAk N0      NASDAQ
 nAsdAq  nAsodAq N0      NASDAQ
 nAzdAq  nAzodAq N0      NASDAQ
 ;
-;; nAsywnAl_1
+;; nAsyuwnAl_1
 nAsywnAl        nAsywnAl        N0      National;Nacional
 ;
 ;--- nAg
@@ -89,7 +89,7 @@ nAnAmy  nAnAmiy N0      Nanami
 ;; nAnt_1
 nAnt    nAnt    Nprop   Nantes
 ;
-;; nAndrwlwn_1
+;; nAndruwluwn_1
 nAndrwlwn       nAndrwlwn       N0      Nandrolone
 ;
 ;; nAnosiy_1
@@ -792,10 +792,10 @@ nAb     nAb     NK      repugnant;improper
 nAby    nAbiy   NAn_Nayn        repugnant;improper
 nAb     nAb     Nuwn_Niyn       repugnant;improper
 nAby    nAbiy   NapAt   repugnant;improper
-;; mutanab~iy~_1
-mtnby   mutanab~iy~     N0      Mutanabbi
-;; mutanab~iy~_2
-mtnby   mutanab~iy~     Nall    would-be-prophet
+;; mutanab~iy_1
+mtnby   mutanab~iy     N0      Mutanabbi
+;; mutanab~iy_2
+mtnby   mutanab~iy     Nall    would-be-prophet
 ;
 ;--- ntA
 ;; nata>-a_1
@@ -8556,7 +8556,7 @@ mnwm    munaw~im        NapAt   soporific;sleeping (pill)
 ;; munaw~im_2
 mnwm    munaw~im        Nall    hypnotist
 ;
-;--- nwmy
+; ;--- nwmy
 ;; nuwmiydiyA_1
 nwmydyA nuwmiydiyA      N0      Numidia
 ;; nuwmiydiy~_1
@@ -8850,27 +8850,27 @@ nywz    niyuwz  Nprop   News
 ;; niyuwzwiyk_1
 nywzwyk niyuwzwiyk      Nprop   Newsweek
 ;
-;; nywziylAnodA_1
-nywzylAndA      nywziylAnodA    N0      New Zealand
-nywzlndA        nywzilanodA     N0      New Zealand
-nywzylndA       nywziylanodA    N0      New Zealand
-;; nywziylAnodiy~_1
-nywzylAndy      nywziylAnodiy~  Nall    New Zealander     <pos>nywziylAnodiy~/NOUN</pos>
-nywzylAndy      nywziylAnodiy~  Nall    New Zealander     <pos>nywziylAnodiy~/ADJ</pos>
-nywzylndy       nywziylanodiy~  Nall    New Zealander     <pos>nywziylanodiy~/NOUN</pos>
-nywzylndy       nywziylanodiy~  Nall    New Zealander     <pos>nywziylanodiy~/ADJ</pos>
-nywzlndy        nywzilanodiy~   Nall    New Zealander     <pos>nywziylanodiy~/NOUN</pos>
-nywzlndy        nywzilanodiy~   Nall    New Zealander     <pos>nywziylanodiy~/ADJ</pos>
+;; nyuwziylAnodA_1
+nywzylAndA      nyuwziylAnodA    N0      New Zealand
+nywzlndA        nyuwzilanodA     N0      New Zealand
+nywzylndA       nyuwziylanodA    N0      New Zealand
+;; nyuwziylAnodiy~_1
+nywzylAndy      nyuwziylAnodiy~  Nall    New Zealander     <pos>nywziylAnodiy~/NOUN</pos>
+nywzylAndy      nyuwziylAnodiy~  Nall    New Zealander     <pos>nywziylAnodiy~/ADJ</pos>
+nywzylndy       nyuwziylanodiy~  Nall    New Zealander     <pos>nywziylanodiy~/NOUN</pos>
+nywzylndy       nyuwziylanodiy~  Nall    New Zealander     <pos>nywziylanodiy~/ADJ</pos>
+nywzlndy        nyuwzilanodiy~   Nall    New Zealander     <pos>nywziylanodiy~/NOUN</pos>
+nywzlndy        nyuwzilanodiy~   Nall    New Zealander     <pos>nywziylanodiy~/ADJ</pos>
 ;
 ;--- nywk
 ;; niyuwkAsil_1
 nywkAsl niyuwkAsil      Nprop   Newcastle
 ;
-;--- nyww
+; ;--- nyww
 ;; niyuwwAyif_1
 nywwAyf niyuwwAyif      N0      New Wave
 ;
-;--- nywy
+; ;--- nywy
 ; Thai soccer player Niweat Siriwong
 ;; niywiyt_1
 nywyt   niywiyt Nprop   Niweat

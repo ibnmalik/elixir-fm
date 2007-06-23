@@ -19,6 +19,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRADIS                   `noun`    {- OagAdiyr -}         [ "Agadir" ] ]
 
+ |> "' .g r" <| [
+
+    HUCUL                     `noun`    {- Ouwguwr -}          [ "Ugur" ] ]
+
  |> "' .g y" <| [
 
     FaCA                      `noun`    {- OagA -}             [ "Agha" ] ]
@@ -117,6 +121,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     MuFaCCaL                  `noun`    {- muWaj~al -}         [ "postponed", "delayed" ] ]
+
+ |> "' ^g n" <| [
+
+    HUCIL                     `noun`    {- Ouwjiyn -}          [ "Eugene" ] ]
 
  |> "' ^g r" <| [
 
@@ -456,7 +464,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "' b k" <| [
 
-    HUCiL                     `noun`    {- Ouwbik -}           [ "OPEC" ] ]
+    HUCiL                     `noun`    {- Ouwbik -}           [ "OPEC" ]
+                              `plural`     HUCIL
+                           {- `others`  [ "'uwbiyk N" ] -} ]
 
  |> "' b n" <| [
 
@@ -1267,13 +1277,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- OaroD -}            [ "earth", "territory", "land" ]
                               `plural`     FaCALI
-                           {- `others`  [ "'arA.diy N0_Nh" ] -} ]
+                           {- `others`  [ "'arA.diy N0_Nh" ] -},
 
- |> "' r .d y" <| [
+    FaCL |< Iy                `adj`     {- OaroDiy~ -}         [ "land", "ground" ],
 
-    KaRDIS                    `adj`     {- OaroDiy~ -}         [ "land", "ground" ],
-
-    KaRDIS |< aT              `noun`    {- OaroDiy~ap -}       [ "background", "groundwork" ] ]
+    FaCL |< Iy |< aT          `noun`    {- OaroDiy~ap -}       [ "background", "groundwork" ] ]
 
  |> "' r ^g .h" <| [
 
@@ -1526,6 +1534,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRADI                    `noun`    {- OatAgiy -}          [ "Atagi" ] ]
 
+ |> "' t l" <| [
+
+    FaCAL                     `noun`    {- OatAl -}            [ "Atal" ] ]
+
  |> "' t n" <| [
 
     FiCL |< Iy                `adj`     {- Iitoniy~ -}         [ "ethnic" ] ]
@@ -1682,6 +1694,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACI
                            {- `others`  [ "ma'Awiy N0_Nh" ] -} ]
 
+ |> "' w y n" <| [
+
+    KuRDIS                    `noun`    {- Ouwyiyn -}          [ "Oiyn" ] ]
+
  |> "' y .d" <| [
 
     FaCL |< aN                `adv`     {- OayoDAF -}          [ "also" ]
@@ -1801,6 +1817,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' y n" <| [
 
+    HUCIL                     `noun`    {- Ouwyiyn -}          [ "Oiyn" ],
+
     FiCAL                     `noun`    {- IiyAn -}            [ "Ian" ],
 
     FaCAL                     `noun`    {- OayAn -}            [ "Ayan" ],
@@ -1853,6 +1871,10 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `prep`    {- IizA' -}            [ "towards", "facing", "regarding", "vis-a-vis" ] ]
 
+ |> "' z b k" <| [
+
+    KuRDaS |< Iy              `adj`     {- Ouzobakiy~ -}       [ "Uzbek" ] ]
+
  |> "' z m" <| [
 
     FaCL |< aT                `noun`    {- Oazomap -}          [ "crisis" ]
@@ -1883,11 +1905,11 @@ lexicon = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- muWAzarap -}        [ "assistance", "cooperation" ] ]
 
- |> "' z w" <| [
+ |> "' z y" <| [
 
     FiCA'                     `prep`    {- IizA' -}            [ "towards", "facing", "regarding", "vis-a-vis" ] ]
 
- |> "'A.sifiy" <| [
+ |> "'A.sifI" <| [
 
     Identity                  `noun`    {- \|Sifiy -}          [ "Asefi" ] ]
 
@@ -1903,11 +1925,225 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- \|yA -}             [ "Aya" ] ]
 
+ |> "'I.tAliyA" <| [
+
+    Identity                  `noun`    {- IiyTAliyA -}        [ "Italy" ] ]
+
+ |> "'IbirlI" <| [
+
+    Identity                  `noun`    {- Iiybiroliy -}       [ "Eberly" ] ]
+
+ |> "'IdIn.gtUn" <| [
+
+    Identity                  `noun`    {- Iiydiynogtuwn -}    [ "Eddington", "Edington" ] ]
+
+ |> "'IdyUlU^g" <| [
+
+    Identity |< Iy            `adj`     {- Iiydyuwluwjiy~ -}   [ "ideological" ] ]
+
+ |> "'IdyUlU^giyA" <| [
+
+    Identity                  `noun`    {- IiydyuwluwjiyA -}   [ "ideology" ] ]
+
+ |> "'IfAnIsIfIt^s" <| [
+
+    Identity                  `noun`    {- IiyfAniysiyfiyt$ -} [ "Ivanisevic" ] ]
+
+ |> "'IfAnUf" <| [
+
+    Identity                  `noun`    {- IiyfAnuwf -}        [ "Ivanoff", "Ivanov" ] ]
+
+ |> "'IkUrInIm" <| [
+
+    Identity                  `noun`    {- Iiykuwriyniym -}    [ "Ekorinim" ] ]
+
+ |> "'IkhArd" <| [
+
+    Identity                  `noun`    {- IiykohArod -}       [ "Eckhard" ] ]
+
+ |> "'IlAhI" <| [
+
+    Identity                  `noun`    {- IiylAhiy -}         [ "Elahe" ] ]
+
+ |> "'IliyA" <| [
+
+    Identity                  `noun`    {- IiyliyA -}          [ "Ilya" ] ]
+
+ |> "'IluwIlU" <| [
+
+    Identity                  `noun`    {- Iiyluwiyluw -}      [ "Iloilo" ] ]
+
+ |> "'IrfAyn" <| [
+
+    Identity                  `noun`    {- IiyrfAyn -}         [ "Irvine" ] ]
+
+ |> "'Irland" <| [
+
+    Identity |< Iy            `adj`     {- Iiyrolanodiy~ -}    [ "Irish" ] ]
+
+ |> "'IrlandA" <| [
+
+    Identity                  `noun`    {- IiyrolanodA -}      [ "Ireland" ] ]
+
+ |> "'IslAndA" <| [
+
+    Identity                  `noun`    {- IiyslAnodA -}       [ "Iceland" ] ]
+
+ |> "'IstIbAn" <| [
+
+    Identity                  `noun`    {- IiysotiybAn -}      [ "Esteban" ] ]
+
+ |> "'IyA-" <| [
+
+    Identity                  `part`    {- Iiy~A- -}           [ "to", "for", "(accus.)" ] ]
+
+ |> "'U.gand" <| [
+
+    Identity |< Iy            `adj`     {- Ouwganodiy~ -}      [ "Ugandan" ] ]
+
+ |> "'U.gandA" <| [
+
+    Identity                  `noun`    {- OuwganodA -}        [ "Uganda" ] ]
+
+ |> "'U^galAn" <| [
+
+    Identity                  `noun`    {- OuwjalAn -}         [ "Ocalan", "Oujalan" ] ]
+
+ |> "'UbAsAn^gU" <| [
+
+    Identity                  `noun`    {- OuwbAsAnojuw -}     [ "Obasanjo" ] ]
+
+ |> "'UfiyIdU" <| [
+
+    Identity                  `noun`    {- Ouwfiyiyduw -}      [ "Oviedo" ] ]
+
+ |> "'UfqIr" <| [
+
+    Identity                  `noun`    {- Ouwfoqiyr -}        [ "Oufkir" ] ]
+
+ |> "'Ufsit" <| [
+
+    Identity                  `noun`    {- Ouwfosit -}         [ "offset" ] ]
+
+ |> "'UhAyU" <| [
+
+    Identity                  `noun`    {- OuwhAyuw -}         [ "Ohio" ] ]
+
+ |> "'UkInAwA" <| [
+
+    Identity                  `noun`    {- OuwkiynAwA -}       [ "Okinawa" ] ]
+
+ |> "'UklAhUmA" <| [
+
+    Identity                  `noun`    {- OuwkolAhuwmA -}     [ "Oklahoma" ] ]
+
+ |> "'UkrAn" <| [
+
+    Identity |< Iy            `adj`     {- OuwkrAniy~ -}       [ "Ukrainian" ] ]
+
+ |> "'UkrAniyA" <| [
+
+    Identity                  `noun`    {- OuwkrAniyA -}       [ "Ukraine" ] ]
+
+ |> "'Uksi^gIn" <| [
+
+    Identity                  `noun`    {- Ouwkosijiyn -}      [ "oxygen" ] ]
+
+ |> "'Ul.gA" <| [
+
+    Identity                  `noun`    {- OuwlogA -}          [ "Olga" ] ]
+
+ |> "'UlA'ik" <| [
+
+    Identity |<< "a"          `pron`    {- OuwlA}ika -}        [ "they/those" ] ]
+
+ |> "'UlIfA" <| [
+
+    Identity                  `noun`    {- OuwliyfA -}         [ "Oliva" ] ]
+
+ |> "'UlIfir" <| [
+
+    Identity                  `noun`    {- Ouwliyfir -}        [ "Oliver" ] ]
+
+ |> "'UlUsI.gUn" <| [
+
+    Identity                  `noun`    {- Ouwluwsiyguwn -}    [ "Olusegun" ] ]
+
+ |> "'UlbrAyt" <| [
+
+    Identity                  `noun`    {- OuwlobrAyot -}      [ "Albright" ] ]
+
+ |> "'Ulimb" <| [
+
+    Identity |< Iy            `adj`     {- Ouwlimobiy~ -}      [ "Olympic" ] ]
+
+ |> "'UlimbiyAd" <| [
+
+    Identity                  `noun`    {- OuwlimobiyAd -}     [ "Olympiad", "Olympics" ] ]
+
+ |> "'UlyIt" <| [
+
+    Identity                  `noun`    {- Ouwloyiyt -}        [ "Ullyett" ] ]
+
+ |> "'UniskU" <| [
+
+    Identity                  `noun`    {- Ouwnisokuw -}       [ "UNESCO" ] ]
+
+ |> "'UnsIns" <| [
+
+    Identity                  `noun`    {- Ouwnosiyns -}       [ "Oncins" ] ]
+
+ |> "'UnurwA" <| [
+
+    Identity                  `noun`    {- OuwnurowA -}        [ "UNRWA (UN Relief and Works Agency)" ] ]
+
+ |> "'UrbAn" <| [
+
+    Identity                  `noun`    {- OuwrobAn -}         [ "Orban", "Urban" ] ]
+
+ |> "'UrlAndU" <| [
+
+    Identity                  `noun`    {- OuwrolAnoduw -}     [ "Orlando" ] ]
+
+ |> "'Urubb" <| [
+
+    Identity |< Iy            `adj`     {- Ouwrub~iy~ -}       [ "European" ] ]
+
+ |> "'UrubbA" <| [
+
+    Identity                  `noun`    {- Ouwrub~A -}         [ "Europe" ] ]
+
+ |> "'UsItiyA" <| [
+
+    Identity                  `noun`    {- OuwsiytiyA -}       [ "Ossetia" ] ]
+
+ |> "'UslU" <| [
+
+    Identity                  `noun`    {- Ouwsoluw -}         [ "Oslo" ] ]
+
+ |> "'UtAwA" <| [
+
+    Identity                  `noun`    {- OuwtAwA -}          [ "Ottawa" ] ]
+
+ |> "'UtUmAtIk" <| [
+
+    Identity |< Iy            `adj`     {- OuwtuwmAtiykiy~ -}  [ "automatic" ] ]
+
+ |> "'Utri_ht" <| [
+
+    Identity                  `noun`    {- Ouwtrixot -}        [ "Utrecht" ] ]
+
+ |> "'UzbakistAn" <| [
+
+    Identity                  `noun`    {- OuwzbakisotAn -}    [ "Uzbekistan" ],
+
+    Identity |< Iy            `adj`     {- OuwzbakisotAniy~ -} [ "Uzbekistani" ] ]
+
  |> "'a.gus.tus" <| [
 
     Identity                  `noun`    {- OagusoTus -}        [ "August" ] ]
 
- |> "'a.haruwnuwt" <| [
+ |> "'a.harUnUt" <| [
 
     Identity                  `noun`    {- OaHaruwnuwt -}      [ "Aharonot", "Ahronot" ] ]
 
@@ -1919,11 +2155,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- Oajanodap -}        [ "agenda", "schedule" ] ]
 
- |> "'a^skiynAziy" <| [
+ |> "'a^skInAzI" <| [
 
     Identity                  `noun`    {- Oa$okiynAziy -}     [ "Ashkenazi" ] ]
 
- |> "'a^skruwft" <| [
+ |> "'a^skrUft" <| [
 
     Identity                  `noun`    {- Oa$okruwft -}       [ "Ashcroft" ] ]
 
@@ -1933,11 +2169,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- Oa*arobayojAniy~ -} [ "Azerbeijani" ] ]
 
- |> "'a_tiynA" <| [
+ |> "'a_tInA" <| [
 
     Identity                  `noun`    {- OaviynA -}          [ "Athens" ] ]
 
- |> "'a_tyuwbiyA" <| [
+ |> "'a_tyUbiyA" <| [
 
     Identity                  `noun`    {- OavoyuwbiyA -}      [ "Ethiopia" ] ]
 
@@ -1945,53 +2181,53 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OabAbA -}           [ "Ababa" ] ]
 
+ |> "'abId^gAn" <| [
+
+    Identity                  `noun`    {- OabiydojAn -}       [ "Abidjan" ] ]
+
+ |> "'abU.zabI" <| [
+
+    Identity                  `noun`    {- OabuwZabiy -}       [ "Abu Dhabi" ] ]
+
+ |> "'abU^gA" <| [
+
+    Identity                  `noun`    {- OabuwjA -}          [ "Abuja", "Abouja" ] ]
+
+ |> "'abUmAzin" <| [
+
+    Identity                  `noun`    {- OabuwmAzin -}       [ "Abu Mazen", "Abu Mazin" ] ]
+
+ |> "'abUrudayn" <| [
+
+    Identity |< aT            `noun`    {- Oabuwrudayonap -}   [ "Abu Rudaina" ] ]
+
+ |> "'abUzayd" <| [
+
+    Identity                  `noun`    {- Oabuwzayod -}       [ "Abu Zeid" ] ]
+
  |> "'abilmAns" <| [
 
     Identity                  `noun`    {- OabilomAns -}       [ "Appelmans" ] ]
-
- |> "'abiyd^gAn" <| [
-
-    Identity                  `noun`    {- OabiydojAn -}       [ "Abidjan" ] ]
 
  |> "'abrAhAm" <| [
 
     Identity                  `noun`    {- OaborAhAm -}        [ "Abraham" ] ]
 
- |> "'abuw.zabiy" <| [
+ |> "'adUlf" <| [
 
-    Identity                  `noun`    {- OabuwZabiy -}       [ "Abu Dhabi" ] ]
+    Identity                  `noun`    {- Oaduwlf -}          [ "Adolf" ] ]
 
- |> "'abuw^gA" <| [
+ |> "'adUlfU" <| [
 
-    Identity                  `noun`    {- OabuwjA -}          [ "Abuja", "Abouja" ] ]
+    Identity                  `noun`    {- Oaduwlofuw -}       [ "Adolfo" ] ]
 
- |> "'abuwmAzin" <| [
+ |> "'adUnIs" <| [
 
-    Identity                  `noun`    {- OabuwmAzin -}       [ "Abu Mazen", "Abu Mazin" ] ]
-
- |> "'abuwrudayn" <| [
-
-    Identity |< aT            `noun`    {- Oabuwrudayonap -}   [ "Abu Rudaina" ] ]
-
- |> "'abuwzayd" <| [
-
-    Identity                  `noun`    {- Oabuwzayod -}       [ "Abu Zeid" ] ]
+    Identity                  `noun`    {- Oaduwniys -}        [ "Adonis" ] ]
 
  |> "'adriyAn" <| [
 
     Identity                  `noun`    {- OadoriyAn -}        [ "Adrian" ] ]
-
- |> "'aduwlf" <| [
-
-    Identity                  `noun`    {- Oaduwlf -}          [ "Adolf" ] ]
-
- |> "'aduwlfuw" <| [
-
-    Identity                  `noun`    {- Oaduwlofuw -}       [ "Adolfo" ] ]
-
- |> "'aduwniys" <| [
-
-    Identity                  `noun`    {- Oaduwniys -}        [ "Adonis" ] ]
 
  |> "'adwArd" <| [
 
@@ -2001,23 +2237,23 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OafogAnisotAn -}    [ "Afghanistan" ] ]
 
+ |> "'afI.gdUr" <| [
+
+    Identity                  `noun`    {- Oafiygoduwr -}      [ "Avigdor" ] ]
+
+ |> "'afIntA_hAdU" <| [
+
+    Identity                  `noun`    {- OafiynotAxAduw -}   [ "Aventajado" ] ]
+
  |> "'afand" <| [
 
     Identity |< Iy            `noun`    {- Oafanodiy~ -}       [ "Effendi", "gentleman", "gentlemen" ] ]
 
- |> "'afiy.gduwr" <| [
-
-    Identity                  `noun`    {- Oafiygoduwr -}      [ "Avigdor" ] ]
-
- |> "'afiyntA_hAduw" <| [
-
-    Identity                  `noun`    {- OafiynotAxAduw -}   [ "Aventajado" ] ]
-
- |> "'afriyqiyA" <| [
+ |> "'afrIqiyA" <| [
 
     Identity                  `noun`    {- OaforiyqiyA -}      [ "Africa", "African" ] ]
 
- |> "'afruw" <| [
+ |> "'afrU" <| [
 
     Identity                  `noun`    {- Oaforuw -}          [ "Afro" ] ]
 
@@ -2025,7 +2261,15 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OalAsokA -}         [ "Alaska" ] ]
 
- |> "'alamunyuwm" <| [
+ |> "'alIks" <| [
+
+    Identity                  `noun`    {- Oaliyks -}          [ "Alex" ] ]
+
+ |> "'alIzAbI_t" <| [
+
+    Identity                  `noun`    {- OaliyzAbiyv -}      [ "Elizabeth" ] ]
+
+ |> "'alamunyUm" <| [
 
     Identity                  `noun`    {- Oalamunoyuwm -}     [ "aluminum" ] ]
 
@@ -2041,11 +2285,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OalobirotA -}       [ "Alberta" ] ]
 
- |> "'albirtuw" <| [
+ |> "'albirtU" <| [
 
     Identity                  `noun`    {- Oalobirotuw -}      [ "Alberto" ] ]
 
- |> "'alfAruw" <| [
+ |> "'alfArU" <| [
 
     Identity                  `noun`    {- OalofAruw -}        [ "Alvaro" ] ]
 
@@ -2057,14 +2301,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Oalikosanodr -}     [ "Alexander" ] ]
 
- |> "'aliyks" <| [
-
-    Identity                  `noun`    {- Oaliyks -}          [ "Alex" ] ]
-
- |> "'aliyzAbiy_t" <| [
-
-    Identity                  `noun`    {- OaliyzAbiyv -}      [ "Elizabeth" ] ]
-
  |> "'allA" <| [
 
     Identity                  `part`    {- Oal~A -}            [ "(in order) not to" ] ]
@@ -2073,7 +2309,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OalomAniyA -}       [ "Germany" ] ]
 
- |> "'almiydA" <| [
+ |> "'almIdA" <| [
 
     Identity                  `noun`    {- OalomiydA -}        [ "Almeda" ] ]
 
@@ -2081,11 +2317,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OamAnodA -}         [ "Amanda" ] ]
 
- |> "'amiylkAr" <| [
+ |> "'amIlkAr" <| [
 
     Identity                  `noun`    {- OamiylokAr -}       [ "Amilcar" ] ]
 
- |> "'amiyrAl" <| [
+ |> "'amIrAl" <| [
 
     Identity                  `noun`    {- OamiyrAl -}         [ "admiral" ] ]
 
@@ -2093,7 +2329,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `prep`    {- Oam~A -}            [ "as for", "concerning" ] ]
 
- |> "'amriykA" <| [
+ |> "'amrIkA" <| [
 
     Identity                  `noun`    {- OamoriykA -}        [ "America" ] ]
 
@@ -2101,9 +2337,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OamostirodAm -}     [ "Amsterdam" ] ]
 
- |> "'an.guwlA" <| [
+ |> "'an.gUlA" <| [
 
     Identity                  `noun`    {- OanoguwlA -}        [ "Angola" ] ]
+
+ |> "'an.tUniyU" <| [
+
+    Identity                  `noun`    {- OanoTuwniyuw -}     [ "Antonio" ] ]
 
  |> "'an.talyAs" <| [
 
@@ -2113,11 +2353,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OanoTuwAn -}        [ "Antoine", "Antoin" ] ]
 
- |> "'an.tuwniyuw" <| [
-
-    Identity                  `noun`    {- OanoTuwniyuw -}     [ "Antonio" ] ]
-
- |> "'anA.duwl" <| [
+ |> "'anA.dUl" <| [
 
     Identity                  `noun`    {- OanADuwl -}         [ "Anatolia" ] ]
 
@@ -2129,7 +2365,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Oanojilis -}        [ "Angeles" ] ]
 
- |> "'an^siyniyh" <| [
+ |> "'an^sInIh" <| [
 
     Identity                  `noun`    {- Oano$iyniyh -}      [ "Enchaine" ] ]
 
@@ -2137,19 +2373,27 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OanobA -}           [ "Abba", "Bishop" ] ]
 
+ |> "'andUrrA" <| [
+
+    Identity                  `noun`    {- Oanoduwr~A -}       [ "Andorra" ] ]
+
  |> "'andalus" <| [
 
     Identity                  `noun`    {- Oanodalus -}        [ "Andalusia" ] ]
 
- |> "'andirsuwn" <| [
+ |> "'andirsUn" <| [
 
     Identity                  `noun`    {- Oanodirosuwn -}     [ "Anderson" ] ]
 
- |> "'andriy" <| [
+ |> "'andrI" <| [
 
     Identity                  `noun`    {- Oanodriy -}         [ "Andre", "Andrei" ],
 
     Identity |< aT            `noun`    {- Oanodriyap -}       [ "Andrea" ] ]
+
+ |> "'andrIyifU" <| [
+
+    Identity                  `noun`    {- Oanodriyyifuw -}    [ "Andreevo" ] ]
 
  |> "'andriyA" <| [
 
@@ -2159,31 +2403,23 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OanodriyAs -}       [ "Andreas" ] ]
 
- |> "'andriyuwtiy" <| [
+ |> "'andriyUtI" <| [
 
     Identity                  `noun`    {- Oanodriyuwtiy -}    [ "Andreotti" ] ]
 
- |> "'andriyyifuw" <| [
+ |> "'antUnI" <| [
 
-    Identity                  `noun`    {- Oanodriyyifuw -}    [ "Andreevo" ] ]
-
- |> "'anduwrrA" <| [
-
-    Identity                  `noun`    {- Oanoduwr~A -}       [ "Andorra" ] ]
+    Identity                  `noun`    {- Oanotuwniy -}       [ "Anthony" ] ]
 
  |> "'antum" <| [
 
     Identity                  `pron`    {- Oanotum -}          [ "you [masc.pl.]" ] ]
 
- |> "'antuwniy" <| [
-
-    Identity                  `noun`    {- Oanotuwniy -}       [ "Anthony" ] ]
-
- |> "'ar.duruwm" <| [
+ |> "'ar.durUm" <| [
 
     Identity                  `noun`    {- OaroDuruwm -}       [ "Erzurum" ] ]
 
- |> "'arA^guwz" <| [
+ |> "'arA^gUz" <| [
 
     Identity                  `noun`    {- OarAjuwz -}         [ "puppeteer", "Arazi" ] ]
 
@@ -2191,13 +2427,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OarAnot$A -}        [ "Arancha" ] ]
 
- |> "'ar^gantiyn" <| [
+ |> "'arI.hA" <| [
+
+    Identity                  `noun`    {- OariyHA -}          [ "Jericho" ] ]
+
+ |> "'arIksUn" <| [
+
+    Identity                  `noun`    {- Oariykosuwn -}      [ "Erikson", "Ericsson" ] ]
+
+ |> "'ar^gantIn" <| [
 
     Identity                  `noun`    {- Oarojanotiyn -}     [ "Argentina" ],
 
     Identity |< Iy            `adj`     {- Oarojanotiyniy~ -}  [ "Argentine" ] ]
 
- |> "'ar_hiybuwf" <| [
+ |> "'ar_hIbUf" <| [
 
     Identity                  `adj`     {- Oaroxiybuwf -}      [ "Arkhipov", "Archipov" ] ]
 
@@ -2209,39 +2453,31 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OarobakAn -}        [ "Arbakan" ] ]
 
+ |> "'ardabIlI" <| [
+
+    Identity                  `noun`    {- Oarodabiyliy -}     [ "Ardebili" ] ]
+
  |> "'ardabb" <| [
 
     Identity                  `noun`    {- Oarodab~ -}         [ "ardeb (capacity/weight measure)", "ardebs (capacity/weight measure)" ] ]
 
- |> "'ardabiyliy" <| [
+ |> "'aristuqrA.t" <| [
 
-    Identity                  `noun`    {- Oarodabiyliy -}     [ "Ardebili" ] ]
+    Identity |< Iy            `adj`     {- OarisotuqrATiy~ -}  [ "aristocratic" ] ]
 
- |> "'aristuqrA.tiyy" <| [
-
-    Identity                  `adj`     {- OarisotuqrATiy~ -}  [ "aristocratic" ] ]
-
- |> "'ariy.hA" <| [
-
-    Identity                  `noun`    {- OariyHA -}          [ "Jericho" ] ]
-
- |> "'ariyiyl" <| [
+ |> "'ariyIl" <| [
 
     Identity                  `noun`    {- Oariyiyl -}         [ "Ariel" ] ]
 
- |> "'ariyksuwn" <| [
-
-    Identity                  `noun`    {- Oariykosuwn -}      [ "Erikson", "Ericsson" ] ]
-
- |> "'armiyniyA" <| [
+ |> "'armIniyA" <| [
 
     Identity                  `noun`    {- OaromiyniyA -}      [ "Armenia" ] ]
 
- |> "'armiytA^g" <| [
+ |> "'armItA^g" <| [
 
     Identity                  `noun`    {- OaromiytAj -}       [ "Armitage" ] ]
 
- |> "'arsA_hAnuwf" <| [
+ |> "'arsA_hAnUf" <| [
 
     Identity                  `noun`    {- OarosAxAnuwf -}     [ "Arsakhanov" ] ]
 
@@ -2249,7 +2485,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OarosinAl -}        [ "Arsenal" ] ]
 
- |> "'artimuwf" <| [
+ |> "'artimUf" <| [
 
     Identity                  `noun`    {- Oarotimuwf -}       [ "Artimov" ] ]
 
@@ -2273,11 +2509,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OatAnAs -}          [ "Atanas" ] ]
 
- |> "'atiylA" <| [
+ |> "'atIlA" <| [
 
     Identity                  `noun`    {- OatiylA -}          [ "Attila" ] ]
 
- |> "'atlitiykuw" <| [
+ |> "'atlitIkU" <| [
 
     Identity                  `noun`    {- Oatolitiykuw -}     [ "Atletico" ] ]
 
@@ -2317,21 +2553,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `conj`    {- Ii*A -}             [ "if/whether" ] ]
 
- |> "'ibrAhiym" <| [
+ |> "'ibrAhIm" <| [
 
     Identity                  `noun`    {- IiborAhiym -}       [ "Ibrahim" ],
 
     Identity |< Iy            `adj`     {- IiborAhiymiy~ -}    [ "Ibrahimi" ] ]
 
- |> "'idmuwnd" <| [
+ |> "'idmUnd" <| [
 
     Identity                  `noun`    {- Iidomuwnod -}       [ "Edmund", "Edmond" ] ]
 
- |> "'idrimiyd" <| [
+ |> "'idrimId" <| [
 
     Identity                  `noun`    {- Iidorimiyd -}       [ "Edremit" ] ]
 
- |> "'idwArduw" <| [
+ |> "'idwArdU" <| [
 
     Identity                  `noun`    {- IidowAroduw -}      [ "Eduardo" ] ]
 
@@ -2339,21 +2575,25 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- IidowArodz -}       [ "Edwards" ] ]
 
- |> "'ifrAyiym" <| [
+ |> "'ifrAyIm" <| [
 
     Identity                  `noun`    {- IiforAyiym -}       [ "Efraim" ] ]
 
- |> "'ikliyniyk" <| [
+ |> "'iklInIk" <| [
 
     Identity |< Iy            `adj`     {- Iikoliyniykiy~ -}   [ "clinical" ] ]
 
- |> "'iksbuw" <| [
+ |> "'iksbU" <| [
 
     Identity                  `noun`    {- Iiksobuw -}         [ "Expo" ] ]
 
- |> "'ikwAduwr" <| [
+ |> "'ikwAdUr" <| [
 
     Identity                  `noun`    {- IikowAduwr -}       [ "Ecuador" ] ]
+
+ |> "'ilI`Azar" <| [
+
+    Identity                  `noun`    {- IiliyEAzar -}       [ "Eliezer" ] ]
 
  |> "'il_ah" <| [
 
@@ -2361,11 +2601,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- Iil`hiy~ -}         [ "divine", "godly", "theological" ] ]
 
- |> "'iliktriyk" <| [
+ |> "'iliktrIk" <| [
 
     Identity                  `noun`    {- Iilikotriyk -}      [ "Electric" ] ]
 
- |> "'iliktruwn" <| [
+ |> "'iliktrUn" <| [
 
     Identity |< Iy            `adj`     {- Iilikotruwniy~ -}   [ "electronic" ] ]
 
@@ -2373,19 +2613,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- IiliyAn -}          [ "Elian" ] ]
 
- |> "'iliy`Azar" <| [
-
-    Identity                  `noun`    {- IiliyEAzar -}       [ "Eliezer" ] ]
-
  |> "'illA" <| [
 
     Identity                  `noun`    {- Iil~A -}            [ "however", "except" ] ]
 
- |> "'ilyuw^sin" <| [
+ |> "'ilyU^sin" <| [
 
     Identity                  `noun`    {- Iiloyuw$in -}       [ "Ilyushin" ] ]
 
- |> "'imbirA.tuwr" <| [
+ |> "'imIl" <| [
+
+    Identity                  `noun`    {- Iimiyl -}           [ "Emile", "Emil" ] ]
+
+ |> "'imbirA.tUr" <| [
 
     Identity |< Iy |< aT      `noun`    {- IimobirATuwriy~ap -} [ "empire" ] ]
 
@@ -2393,25 +2633,33 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- IimobiriyAliy~ -}   [ "imperialist", "imperial" ] ]
 
- |> "'imiyl" <| [
-
-    Identity                  `noun`    {- Iimiyl -}           [ "Emile", "Emil" ] ]
-
  |> "'immA" <| [
 
     Identity                  `conj`    {- Iim~A -}            [ "either" ] ]
+
+ |> "'inIr^gI" <| [
+
+    Identity                  `noun`    {- Iiniyrojiy -}       [ "Energy" ] ]
 
  |> "'in^giltirA" <| [
 
     Identity                  `noun`    {- IinojilotirA -}     [ "England" ] ]
 
- |> "'in^gliyz" <| [
+ |> "'in^glIz" <| [
 
     Identity |< Iy            `adj`     {- Iinojliyziy~ -}     [ "English" ],
 
     Identity |< Iy |< aT      `noun`    {- Iinojliyziy~ap -}   [ "English (language)" ] ]
 
- |> "'indastriyz" <| [
+ |> "'indUnIs" <| [
+
+    Identity |< Iy            `adj`     {- Iinoduwniysiy~ -}   [ "Indonesian" ] ]
+
+ |> "'indUnIsiyA" <| [
+
+    Identity                  `noun`    {- IinoduwniysiyA -}   [ "Indonesia" ] ]
+
+ |> "'indastrIz" <| [
 
     Identity                  `noun`    {- Iinodasotriyz -}    [ "Industries" ] ]
 
@@ -2423,25 +2671,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- IinodiyAnA -}       [ "Indiana" ] ]
 
- |> "'indiyAnAbuwliys" <| [
+ |> "'indiyAnAbUlIs" <| [
 
     Identity                  `noun`    {- IinodiyAnAbuwliys -} [ "Indianapolis" ] ]
-
- |> "'induwniys" <| [
-
-    Identity |< Iy            `adj`     {- Iinoduwniysiy~ -}   [ "Indonesian" ] ]
-
- |> "'induwniysiyA" <| [
-
-    Identity                  `noun`    {- IinoduwniysiyA -}   [ "Indonesia" ] ]
 
  |> "'influwanzA" <| [
 
     Identity                  `noun`    {- IinofluwanozA -}    [ "influenza" ] ]
-
- |> "'iniyr^giy" <| [
-
-    Identity                  `noun`    {- Iiniyrojiy -}       [ "Energy" ] ]
 
  |> "'inkA" <| [
 
@@ -2451,7 +2687,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- IinokilotirA -}     [ "England" ] ]
 
- |> "'inkliyz" <| [
+ |> "'inklIz" <| [
 
     Identity |< Iy            `adj`     {- Iinokliyziy~ -}     [ "English" ],
 
@@ -2461,11 +2697,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `conj`    {- Iin~amA -}          [ "but rather", "on the contrary" ] ]
 
- |> "'inqliyz" <| [
+ |> "'inqlIz" <| [
 
     Identity |< Iy            `adj`     {- Iinoqliyziy~ -}     [ "English" ] ]
 
- |> "'intarnA^syuwnAl" <| [
+ |> "'intarnA^syUnAl" <| [
 
     Identity                  `noun`    {- IinotarnA$oyuwnAl -} [ "International" ] ]
 
@@ -2473,15 +2709,15 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Iinotironit -}      [ "Internet" ] ]
 
- |> "'iriytriyy" <| [
+ |> "'irItr" <| [
 
-    Identity                  `adj`     {- Iiriytriy~ -}       [ "Eritrean" ] ]
+    Identity |< Iy            `adj`     {- Iiriytriy~ -}       [ "Eritrean" ] ]
 
- |> "'irniystA" <| [
+ |> "'irnIstA" <| [
 
     Identity                  `noun`    {- IironiysotA -}      [ "Ernesta" ] ]
 
- |> "'is.tAnbuwl" <| [
+ |> "'is.tAnbUl" <| [
 
     Identity                  `noun`    {- IisoTAnobuwl -}     [ "Istanbul" ] ]
 
@@ -2493,19 +2729,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- IisobAniyA -}       [ "Spain" ] ]
 
- |> "'isbAnyuwl" <| [
+ |> "'isbAnyUl" <| [
 
     Identity                  `noun`    {- IisobAnoyuwl -}     [ "Espanol" ] ]
+
+ |> "'iskandInAf" <| [
+
+    Identity |< Iy            `adj`     {- IisokanodiynAfiy~ -} [ "Scandinavian" ] ]
 
  |> "'iskandar" <| [
 
     Identity                  `noun`    {- Iisokanodar -}      [ "Iskandar", "Eskandar" ],
 
     Identity |< Iy |< aT      `noun`    {- Iisokanodariy~ap -} [ "Alexandria" ] ]
-
- |> "'iskandiynAf" <| [
-
-    Identity |< Iy            `adj`     {- IisokanodiynAfiy~ -} [ "Scandinavian" ] ]
 
  |> "'iskutland" <| [
 
@@ -2515,13 +2751,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- IisokutolanodA -}   [ "Scotland" ] ]
 
- |> "'islAmbuwl" <| [
+ |> "'islAmbUl" <| [
 
     Identity |< Iy            `adj`     {- IisolAmobuwliy~ -}  [ "Islambuli" ],
 
     Identity |< Iy            `adj`     {- IisolAmobuwliy~ -}  [ "from/of Istanbul" ] ]
 
- |> "'ismA`iyl" <| [
+ |> "'ismA`Il" <| [
 
     Identity                  `noun`    {- IisomAEiyl -}       [ "Ishmael", "Ismail" ],
 
@@ -2531,111 +2767,39 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy |< aT      `noun`    {- IisomAEiyliy~ap -}  [ "Ismailia" ] ]
 
- |> "'isrA'iyl" <| [
+ |> "'isrA'Il" <| [
 
     Identity                  `noun`    {- IisorA}iyl -}       [ "Israel" ],
 
     Identity |< Iy            `adj`     {- IisorA}iyliy~ -}    [ "Israeli" ] ]
 
- |> "'istanbuwl" <| [
+ |> "'istUkhUlm" <| [
+
+    Identity                  `noun`    {- Iisotuwkohuwlm -}   [ "Stockholm" ] ]
+
+ |> "'istUniyA" <| [
+
+    Identity                  `noun`    {- IisotuwniyA -}      [ "Estonia" ] ]
+
+ |> "'istanbUl" <| [
 
     Identity                  `noun`    {- Iisotanobuwl -}     [ "Istanbul" ] ]
 
- |> "'istarliyn" <| [
+ |> "'istarlIn" <| [
 
     Identity |< Iy            `adj`     {- Iisotaroliyniy~ -}  [ "sterling" ] ]
 
- |> "'istrAtiy^g" <| [
+ |> "'istrAtI^g" <| [
 
     Identity |< Iy            `adj`     {- IisotrAtiyjiy~ -}   [ "strategic" ],
 
     Identity |< Iy |< aT      `noun`    {- IisotrAtiyjiy~ap -} [ "strategy" ] ]
 
- |> "'istuwkhuwlm" <| [
-
-    Identity                  `noun`    {- Iisotuwkohuwlm -}   [ "Stockholm" ] ]
-
- |> "'istuwniyA" <| [
-
-    Identity                  `noun`    {- IisotuwniyA -}      [ "Estonia" ] ]
-
- |> "'iy.tAliyA" <| [
-
-    Identity                  `noun`    {- IiyTAliyA -}        [ "Italy" ] ]
-
- |> "'iybirliy" <| [
-
-    Identity                  `noun`    {- Iiybiroliy -}       [ "Eberly" ] ]
-
- |> "'iydiyn.gtuwn" <| [
-
-    Identity                  `noun`    {- Iiydiynogtuwn -}    [ "Eddington", "Edington" ] ]
-
- |> "'iydyuwluw^g" <| [
-
-    Identity |< Iy            `adj`     {- Iiydyuwluwjiy~ -}   [ "ideological" ] ]
-
- |> "'iydyuwluw^giyA" <| [
-
-    Identity                  `noun`    {- IiydyuwluwjiyA -}   [ "ideology" ] ]
-
- |> "'iyfAniysiyfiyt^s" <| [
-
-    Identity                  `noun`    {- IiyfAniysiyfiyt$ -} [ "Ivanisevic" ] ]
-
- |> "'iyfAnuwf" <| [
-
-    Identity                  `noun`    {- IiyfAnuwf -}        [ "Ivanoff", "Ivanov" ] ]
-
- |> "'iykhArd" <| [
-
-    Identity                  `noun`    {- IiykohArod -}       [ "Eckhard" ] ]
-
- |> "'iykuwriyniym" <| [
-
-    Identity                  `noun`    {- Iiykuwriyniym -}    [ "Ekorinim" ] ]
-
- |> "'iylAhiy" <| [
-
-    Identity                  `noun`    {- IiylAhiy -}         [ "Elahe" ] ]
-
- |> "'iyliyA" <| [
-
-    Identity                  `noun`    {- IiyliyA -}          [ "Ilya" ] ]
-
- |> "'iyluwiyluw" <| [
-
-    Identity                  `noun`    {- Iiyluwiyluw -}      [ "Iloilo" ] ]
-
- |> "'iyrfAyn" <| [
-
-    Identity                  `noun`    {- IiyrfAyn -}         [ "Irvine" ] ]
-
- |> "'iyrland" <| [
-
-    Identity |< Iy            `adj`     {- Iiyrolanodiy~ -}    [ "Irish" ] ]
-
- |> "'iyrlandA" <| [
-
-    Identity                  `noun`    {- IiyrolanodA -}      [ "Ireland" ] ]
-
- |> "'iyslAndA" <| [
-
-    Identity                  `noun`    {- IiyslAnodA -}       [ "Iceland" ] ]
-
- |> "'iystiybAn" <| [
-
-    Identity                  `noun`    {- IiysotiybAn -}      [ "Esteban" ] ]
-
- |> "'iyyA-" <| [
-
-    Identity                  `part`    {- Iiy~A- -}           [ "to", "for", "(accus.)" ] ]
-
  |> "'l_h" <| [
 
     Identity                  `noun`    {- Olx -}              [ "etc." ] ]
 
- |> "'ur_tuwduks" <| [
+ |> "'ur_tUduks" <| [
 
     Identity |< Iy            `adj`     {- Ourovuwduksiy~ -}   [ "Orthodox" ] ]
 
@@ -2657,163 +2821,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OusoturAliyA -}     [ "Australia" ] ]
 
- |> "'uw.gand" <| [
-
-    Identity |< Iy            `adj`     {- Ouwganodiy~ -}      [ "Ugandan" ] ]
-
- |> "'uw.gandA" <| [
-
-    Identity                  `noun`    {- OuwganodA -}        [ "Uganda" ] ]
-
  |> "'uwAbik" <| [
 
     Identity                  `noun`    {- OuwAbik -}          [ "OAPEC" ] ]
 
- |> "'uw^galAn" <| [
-
-    Identity                  `noun`    {- OuwjalAn -}         [ "Ocalan", "Oujalan" ] ]
-
- |> "'uwbAsAn^guw" <| [
-
-    Identity                  `noun`    {- OuwbAsAnojuw -}     [ "Obasanjo" ] ]
-
- |> "'uwfiyiyduw" <| [
-
-    Identity                  `noun`    {- Ouwfiyiyduw -}      [ "Oviedo" ] ]
-
- |> "'uwfqiyr" <| [
-
-    Identity                  `noun`    {- Ouwfoqiyr -}        [ "Oufkir" ] ]
-
- |> "'uwfsit" <| [
-
-    Identity                  `noun`    {- Ouwfosit -}         [ "offset" ] ]
-
- |> "'uwhAyuw" <| [
-
-    Identity                  `noun`    {- OuwhAyuw -}         [ "Ohio" ] ]
-
- |> "'uwkiynAwA" <| [
-
-    Identity                  `noun`    {- OuwkiynAwA -}       [ "Okinawa" ] ]
-
- |> "'uwklAhuwmA" <| [
-
-    Identity                  `noun`    {- OuwkolAhuwmA -}     [ "Oklahoma" ] ]
-
- |> "'uwkrAn" <| [
-
-    Identity |< Iy            `adj`     {- OuwkrAniy~ -}       [ "Ukrainian" ] ]
-
- |> "'uwkrAniyA" <| [
-
-    Identity                  `noun`    {- OuwkrAniyA -}       [ "Ukraine" ] ]
-
- |> "'uwksi^giyn" <| [
-
-    Identity                  `noun`    {- Ouwkosijiyn -}      [ "oxygen" ] ]
-
- |> "'uwl.gA" <| [
-
-    Identity                  `noun`    {- OuwlogA -}          [ "Olga" ] ]
-
- |> "'uwlA'ik" <| [
-
-    Identity |<< "a"          `pron`    {- OuwlA}ika -}        [ "they/those" ] ]
-
- |> "'uwlbrAyt" <| [
-
-    Identity                  `noun`    {- OuwlobrAyot -}      [ "Albright" ] ]
-
- |> "'uwlimb" <| [
-
-    Identity |< Iy            `adj`     {- Ouwlimobiy~ -}      [ "Olympic" ] ]
-
- |> "'uwlimbiyAd" <| [
-
-    Identity                  `noun`    {- OuwlimobiyAd -}     [ "Olympiad", "Olympics" ] ]
-
- |> "'uwliyfA" <| [
-
-    Identity                  `noun`    {- OuwliyfA -}         [ "Oliva" ] ]
-
- |> "'uwliyfir" <| [
-
-    Identity                  `noun`    {- Ouwliyfir -}        [ "Oliver" ] ]
-
- |> "'uwluwsiy.guwn" <| [
-
-    Identity                  `noun`    {- Ouwluwsiyguwn -}    [ "Olusegun" ] ]
-
- |> "'uwlyiyt" <| [
-
-    Identity                  `noun`    {- Ouwloyiyt -}        [ "Ullyett" ] ]
-
- |> "'uwniskuw" <| [
-
-    Identity                  `noun`    {- Ouwnisokuw -}       [ "UNESCO" ] ]
-
- |> "'uwnsiyns" <| [
-
-    Identity                  `noun`    {- Ouwnosiyns -}       [ "Oncins" ] ]
-
- |> "'uwnurwA" <| [
-
-    Identity                  `noun`    {- OuwnurowA -}        [ "UNRWA (UN Relief and Works Agency)" ] ]
-
- |> "'uwrbAn" <| [
-
-    Identity                  `noun`    {- OuwrobAn -}         [ "Orban", "Urban" ] ]
-
- |> "'uwrlAnduw" <| [
-
-    Identity                  `noun`    {- OuwrolAnoduw -}     [ "Orlando" ] ]
-
- |> "'uwrubb" <| [
-
-    Identity |< Iy            `adj`     {- Ouwrub~iy~ -}       [ "European" ] ]
-
- |> "'uwrubbA" <| [
-
-    Identity                  `noun`    {- Ouwrub~A -}         [ "Europe" ] ]
-
- |> "'uwsiytiyA" <| [
-
-    Identity                  `noun`    {- OuwsiytiyA -}       [ "Ossetia" ] ]
-
- |> "'uwsluw" <| [
-
-    Identity                  `noun`    {- Ouwsoluw -}         [ "Oslo" ] ]
-
- |> "'uwtAwA" <| [
-
-    Identity                  `noun`    {- OuwtAwA -}          [ "Ottawa" ] ]
-
- |> "'uwtri_ht" <| [
-
-    Identity                  `noun`    {- Ouwtrixot -}        [ "Utrecht" ] ]
-
- |> "'uwtuwmAtiyk" <| [
-
-    Identity |< Iy            `adj`     {- OuwtuwmAtiykiy~ -}  [ "automatic" ] ]
-
- |> "'uwzbakistAn" <| [
-
-    Identity                  `noun`    {- OuwzbakisotAn -}    [ "Uzbekistan" ],
-
-    Identity |< Iy            `adj`     {- OuwzbakisotAniy~ -} [ "Uzbekistani" ] ]
-
- |> "'uzbakiyy" <| [
-
-    Identity                  `adj`     {- Ouzobakiy~ -}       [ "Uzbek" ] ]
-
  |> "Al" <| [
 
     Identity                  `noun`    {- Al -}               [ "the" ] ]
-
- |> "AtAl" <| [
-
-    Identity                  `noun`    {- AtAl -}             [ "Atal" ] ]
 
  |> "bi'an" <| [
 
@@ -2827,7 +2841,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |<< "i"          `adv`     {- biOasori -}         [ "completely", "all of" ] ]
 
- |> "biAlta'kiyd" <| [
+ |> "biAlta'kId" <| [
 
     Identity                  `adv`     {- biAltaOokiyd -}     [ "certainly", "undoubtedly" ] ]
 
@@ -2849,7 +2863,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |<< "a"          `part`    {- la}in~a -}          [ "truly", "indeed" ] ]
 
- |> "la_diy" <| [
+ |> "la_dI" <| [
 
     al >| Identity            `prep`    {- Al~a*iy -}          [ "which", "who", "whom", "which/who/whom [fem.sg.]", "which/who/whom [du.]", "which/who/whom [fem.du.]", "who/whom [pl.]", "with/by + those (people) who/whom [pl.]", "to/for + those (people) who/whom [pl.]", "who/whom [fem.pl.]", "who's and whom's" ] ]
 
@@ -2873,7 +2887,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- maOodubap -}        [ "banquet", "reception" ] ]
 
- |> "tAriy_h" <| [
+ |> "tArI_h" <| [
 
     Identity                  `noun`    {- tAriyx -}           [ "date", "history" ],
 

@@ -9,7 +9,7 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'arba`iyn" <| [
+ |> "'arba`In" <| [
 
     Identity                  `noun`    {- OarobaEiyn -}       [ "forties" ] ]
 
@@ -2116,15 +2116,15 @@ lexicon = listing "Lexicon's properties"
 
     FuCL                      `noun`    {- ruz~ -}             [ "rice" ] ]
 
- |> "rA^siyfskiy" <| [
+ |> "rA^sIfskI" <| [
 
     Identity                  `noun`    {- rA$iyfskiy -}       [ "Rashevsky" ] ]
 
- |> "rAbAyiyt^s" <| [
+ |> "rAbAyIt^s" <| [
 
     Identity                  `noun`    {- rAbAyiyt$ -}        [ "Rapaic" ] ]
 
- |> "rAbiyn" <| [
+ |> "rAbIn" <| [
 
     Identity                  `noun`    {- rAbiyn -}           [ "Rabin" ] ]
 
@@ -2132,15 +2132,15 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- rAdAr -}            [ "radar" ] ]
 
- |> "rAdiykAl" <| [
+ |> "rAdIkAl" <| [
 
     Identity |< Iy            `adj`     {- rAdiykAliy~ -}      [ "radical" ] ]
 
- |> "rAdiyuw" <| [
+ |> "rAdiyU" <| [
 
     Identity                  `noun`    {- rAdiyuw -}          [ "radio" ] ]
 
- |> "rAfAyiyl" <| [
+ |> "rAfAyIl" <| [
 
     Identity                  `noun`    {- rAfAyiyl -}         [ "Rafael", "Raphael" ] ]
 
@@ -2156,17 +2156,113 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- rAmsofild -}        [ "Rumsfeld" ] ]
 
- |> "rAnyiyriy" <| [
+ |> "rAnyIrI" <| [
 
     Identity                  `noun`    {- rAnoyiyriy -}       [ "Ranieri" ] ]
 
- |> "rAtuw" <| [
+ |> "rAtU" <| [
 
     Identity                  `noun`    {- rAtuw -}            [ "Ratu" ] ]
 
  |> "rAynir" <| [
 
     Identity                  `noun`    {- rAyonir -}          [ "Reiner" ] ]
+
+ |> "rI^stir" <| [
+
+    Identity                  `noun`    {- riy$otir -}         [ "Richter" ] ]
+
+ |> "rIbUrtA^g" <| [
+
+    Identity                  `noun`    {- riybuwrotAj -}      [ "report", "news reporting" ] ]
+
+ |> "rIstU" <| [
+
+    Identity                  `noun`    {- riysotuw -}         [ "Risto" ] ]
+
+ |> "rIt^sArd" <| [
+
+    Identity                  `noun`    {- riyto$Arod -}       [ "Richard" ] ]
+
+ |> "rU^giyih" <| [
+
+    Identity                  `noun`    {- ruwjiyih -}         [ "Rogier" ] ]
+
+ |> "rUbinsUn" <| [
+
+    Identity                  `noun`    {- ruwbinosuwn -}      [ "Robinson" ] ]
+
+ |> "rUbirt" <| [
+
+    Identity                  `noun`    {- ruwbirot -}         [ "Robert" ],
+
+    Identity                  `noun`    {- ruwbirot -}         [ "Rupert" ] ]
+
+ |> "rUbirtU" <| [
+
+    Identity                  `noun`    {- ruwbirotuw -}       [ "Roberto" ] ]
+
+ |> "rUdUlf" <| [
+
+    Identity                  `noun`    {- ruwduwlof -}        [ "Rudolf" ] ]
+
+ |> "rUdrI^gIz" <| [
+
+    Identity                  `noun`    {- ruwdoriyjiyz -}     [ "Rodriguez" ] ]
+
+ |> "rUmA" <| [
+
+    Identity                  `noun`    {- ruwmA -}            [ "Rome" ] ]
+
+ |> "rUmAnUs" <| [
+
+    Identity                  `noun`    {- ruwmAnuws -}        [ "Romanos" ] ]
+
+ |> "rUmAniyA" <| [
+
+    Identity                  `noun`    {- ruwmAniyA -}        [ "Romania" ] ]
+
+ |> "rUmAns" <| [
+
+    Identity |< Iy            `adj`     {- ruwmAnosiy~ -}      [ "romantic" ],
+
+    Identity |< Iy |< aT      `noun`    {- ruwmAnosiy~ap -}    [ "romanticism" ] ]
+
+ |> "rUman.tIq" <| [
+
+    Identity |< Iy            `adj`     {- ruwmanoTiyqiy~ -}   [ "romantic", "romanticism" ] ]
+
+ |> "rUnAldU" <| [
+
+    Identity                  `noun`    {- ruwnAloduw -}       [ "Ronaldo" ] ]
+
+ |> "rUsiyA" <| [
+
+    Identity                  `noun`    {- ruwsiyA -}          [ "Russia" ] ]
+
+ |> "rUskI_h" <| [
+
+    Identity                  `noun`    {- ruwsokiyx -}        [ "Russkikh" ] ]
+
+ |> "rUstUk" <| [
+
+    Identity                  `noun`    {- ruwsotuwk -}        [ "Rostock" ] ]
+
+ |> "rUytir" <| [
+
+    Identity                  `noun`    {- ruwyotir -}         [ "Reuters" ] ]
+
+ |> "rUytirz" <| [
+
+    Identity                  `noun`    {- ruwyotirz -}        [ "Reuters" ] ]
+
+ |> "rUzfilt" <| [
+
+    Identity                  `noun`    {- ruwzofilot -}       [ "Roosevelt" ] ]
+
+ |> "rUznAm" <| [
+
+    Identity |< aT            `noun`    {- ruwzonAmap -}       [ "almanac", "calendar" ] ]
 
  |> "ra'smAl" <| [
 
@@ -2198,123 +2294,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- rifoEat -}          [ "Rifa'at", "Rif'at" ] ]
 
- |> "riy^stir" <| [
-
-    Identity                  `noun`    {- riy$otir -}         [ "Richter" ] ]
-
- |> "riybuwrtA^g" <| [
-
-    Identity                  `noun`    {- riybuwrotAj -}      [ "report", "news reporting" ] ]
-
- |> "riystuw" <| [
-
-    Identity                  `noun`    {- riysotuw -}         [ "Risto" ] ]
-
- |> "riyt^sArd" <| [
-
-    Identity                  `noun`    {- riyto$Arod -}       [ "Richard" ] ]
-
  |> "rubbamA" <| [
 
     Identity                  `part`    {- rub~amA -}          [ "perhaps", "maybe" ] ]
+
+ |> "ruwAnU" <| [
+
+    Identity                  `noun`    {- ruwAnuw -}          [ "Ruano" ] ]
 
  |> "ruwAndA" <| [
 
     Identity                  `noun`    {- ruwAnodA -}         [ "Rwanda" ] ]
 
- |> "ruwAnuw" <| [
-
-    Identity                  `noun`    {- ruwAnuw -}          [ "Ruano" ] ]
-
- |> "ruw^giyih" <| [
-
-    Identity                  `noun`    {- ruwjiyih -}         [ "Rogier" ] ]
-
- |> "ruwbinsuwn" <| [
-
-    Identity                  `noun`    {- ruwbinosuwn -}      [ "Robinson" ] ]
-
- |> "ruwbirt" <| [
-
-    Identity                  `noun`    {- ruwbirot -}         [ "Robert" ],
-
-    Identity                  `noun`    {- ruwbirot -}         [ "Rupert" ] ]
-
- |> "ruwbirtuw" <| [
-
-    Identity                  `noun`    {- ruwbirotuw -}       [ "Roberto" ] ]
-
- |> "ruwdriy^giyz" <| [
-
-    Identity                  `noun`    {- ruwdoriyjiyz -}     [ "Rodriguez" ] ]
-
- |> "ruwduwlf" <| [
-
-    Identity                  `noun`    {- ruwduwlof -}        [ "Rudolf" ] ]
-
- |> "ruwmA" <| [
-
-    Identity                  `noun`    {- ruwmA -}            [ "Rome" ] ]
-
- |> "ruwmAniyA" <| [
-
-    Identity                  `noun`    {- ruwmAniyA -}        [ "Romania" ] ]
-
- |> "ruwmAns" <| [
-
-    Identity |< Iy            `adj`     {- ruwmAnosiy~ -}      [ "romantic" ],
-
-    Identity |< Iy |< aT      `noun`    {- ruwmAnosiy~ap -}    [ "romanticism" ] ]
-
- |> "ruwmAnuws" <| [
-
-    Identity                  `noun`    {- ruwmAnuws -}        [ "Romanos" ] ]
-
- |> "ruwman.tiyq" <| [
-
-    Identity |< Iy            `adj`     {- ruwmanoTiyqiy~ -}   [ "romantic", "romanticism" ] ]
-
- |> "ruwnAlduw" <| [
-
-    Identity                  `noun`    {- ruwnAloduw -}       [ "Ronaldo" ] ]
-
- |> "ruwsiyA" <| [
-
-    Identity                  `noun`    {- ruwsiyA -}          [ "Russia" ] ]
-
- |> "ruwskiy_h" <| [
-
-    Identity                  `noun`    {- ruwsokiyx -}        [ "Russkikh" ] ]
-
- |> "ruwstuwk" <| [
-
-    Identity                  `noun`    {- ruwsotuwk -}        [ "Rostock" ] ]
-
- |> "ruwytir" <| [
-
-    Identity                  `noun`    {- ruwyotir -}         [ "Reuters" ] ]
-
- |> "ruwytirz" <| [
-
-    Identity                  `noun`    {- ruwyotirz -}        [ "Reuters" ] ]
-
- |> "ruwzfilt" <| [
-
-    Identity                  `noun`    {- ruwzofilot -}       [ "Roosevelt" ] ]
-
- |> "ruwznAm" <| [
-
-    Identity |< aT            `noun`    {- ruwzonAmap -}       [ "almanac", "calendar" ] ]
-
  |> "rwn" <| [
 
     Identity                  `noun`    {- rwn -}              [ "Ron" ] ]
-
- |> "rynw" <| [
-
-    Identity                  `noun`    {- rynw -}             [ "Renault" ],
-
-    Identity                  `noun`    {- rynw -}             [ "Reno" ] ]
 
  |> "tarbY" <| [
 

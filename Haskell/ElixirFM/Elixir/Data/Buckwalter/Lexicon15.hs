@@ -9,44 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'u.d.hiyy" <| [
-
-    -- ;; >uDoHiy~ap_1
-    -- >DHy    >uDoHiy~        Nap     sacrifice     [[>uDoHiy~/NOUN]]
-    -- ADHy    >uDoHiy~        Nap     sacrifice     [[>uDoHiy~/NOUN]]
-    -- >DAHy   >aDAHiy~        N0_Nh   sacrifices
-    -- ADAHy   >aDAHiy~        N0_Nh   sacrifices
-
-    Identity |< aT            `noun`    {- OuDoHiy~ap -}       [ "sacrifice" ] ]
-
- |> "'u.d.huwk" <| [
-
-    -- ;; >uDoHuwkap_1
-    -- >DHwk   >uDoHuwk        Napdu   laughingstock;object of ridicule
-    -- ADHwk   >uDoHuwk        Napdu   laughingstock;object of ridicule
-    -- >DAHyk  >aDAHiyk        Ndip    laughingstocks;objects of ridicule
-    -- ADAHyk  >aDAHiyk        Ndip    laughingstocks;objects of ridicule
-
-    Identity |< aT            `noun`    {- OuDoHuwkap -}       [ "laughingstock", "object of ridicule", "objects of ridicule" ] ]
-
- |> "'u.dbuwr" <| [
-
-    -- ;; >uDobuwr_1
-    -- >Dbwr   >uDobuwr        Ndu     file;document
-    -- ADbwr   >uDobuwr        Ndu     file;document
-
-    Identity                  `noun`    {- OuDobuwr -}         [ "file", "document" ] ]
-
- |> "'u.dluwl" <| [
-
-    -- ;; >uDoluwlap_1
-    -- >Dlwl   >uDoluwl        Napdu   error;aberration
-    -- ADlwl   >uDoluwl        Napdu   error;aberration
-    -- >DAlyl  >aDAliyl        Ndip    errors;aberrations
-    -- ADAlyl  >aDAliyl        Ndip    errors;aberrations
-
-    Identity |< aT            `noun`    {- OuDoluwlap -}       [ "error", "aberration" ] ]
-
  |> ".d  d" <| [
 
     -- ;; DAd_1
@@ -394,6 +356,16 @@ lexicon = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- DaH~Ak -}           [ "laughing", "joker" ],
 
+    -- ;; >uDoHuwkap_1
+    -- >DHwk   >uDoHuwk        Napdu   laughingstock;object of ridicule
+    -- ADHwk   >uDoHuwk        Napdu   laughingstock;object of ridicule
+    -- >DAHyk  >aDAHiyk        Ndip    laughingstocks;objects of ridicule
+    -- ADAHyk  >aDAHiyk        Ndip    laughingstocks;objects of ridicule
+
+    HuFCUL |< aT              `noun`    {- OuDoHuwkap -}       [ "laughingstock", "object of ridicule", "objects of ridicule" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a.dA.hiyk Ndip" ] -},
+
     -- ;; maDoHakap_1
     -- mDHk    maDoHak Nap     laughingstock;object of ridicule
 
@@ -565,6 +537,16 @@ lexicon = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- DaHiy~ap -}         [ "victim" ]
                               `plural`     FaCALY
                            {- `others`  [ ".da.hAyY N0_Nhy" ] -},
+
+    -- ;; >uDoHiy~ap_1
+    -- >DHy    >uDoHiy~        Nap     sacrifice     [[>uDoHiy~/NOUN]]
+    -- ADHy    >uDoHiy~        Nap     sacrifice     [[>uDoHiy~/NOUN]]
+    -- >DAHy   >aDAHiy~        N0_Nh   sacrifices
+    -- ADAHy   >aDAHiy~        N0_Nh   sacrifices
+
+    HuFCIL |< aT              `noun`    {- OuDoHiy~ap -}       [ "sacrifice" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a.dA.hiyy N0_Nh" ] -},
 
     -- ;; taDoHiy_1
     -- tDHy    taDoHiy NapAt   sacrifice;immolation
@@ -1219,7 +1201,13 @@ lexicon = listing "Lexicon's properties"
     -- <DbAry  <iDobAriy~      Nall    bureaucrat;archivist
     -- ADbAry  <iDobAriy~      Nall    bureaucrat;archivist
 
-    HiFCAL |< Iy              `adj`     {- IiDobAriy~ -}       [ "bureaucrat", "archivist" ] ]
+    HiFCAL |< Iy              `adj`     {- IiDobAriy~ -}       [ "bureaucrat", "archivist" ],
+
+    -- ;; >uDobuwr_1
+    -- >Dbwr   >uDobuwr        Ndu     file;document
+    -- ADbwr   >uDobuwr        Ndu     file;document
+
+    HuFCUL                    `noun`    {- OuDobuwr -}         [ "file", "document" ] ]
 
  |> ".d b s" <| [
 
@@ -1688,6 +1676,16 @@ lexicon = listing "Lexicon's properties"
     -- DlAl    DalAl   Nap     error;disorientation
 
     FaCAL                     `noun`    {- DalAl -}            [ "error", "disorientation" ],
+
+    -- ;; >uDoluwlap_1
+    -- >Dlwl   >uDoluwl        Napdu   error;aberration
+    -- ADlwl   >uDoluwl        Napdu   error;aberration
+    -- >DAlyl  >aDAliyl        Ndip    errors;aberrations
+    -- ADAlyl  >aDAliyl        Ndip    errors;aberrations
+
+    HuFCUL |< aT              `noun`    {- OuDoluwlap -}       [ "error", "aberration" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a.dAliyl Ndip" ] -},
 
     -- ;; taDoliyl_1
     -- tDlyl   taDoliyl        N/At    misleading;deception

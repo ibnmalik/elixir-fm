@@ -1867,6 +1867,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- vaqAfap -}          [ "culture", "civilization" ],
 
+    -- ;; vaqAfiy~_1
+    -- vqAfy   vaqAfiy~        Nall    cultural;intellectual     [[vaqAfiy~/ADJ]]
+
+    FaCAL |< Iy               `adj`     {- vaqAfiy~ -}         [ "cultural", "intellectual" ],
+
     -- ;; tavoqiyf_1
     -- tvqyf   tavoqiyf        NduAt   education;cultivation
 
@@ -1882,13 +1887,6 @@ lexicon = listing "Lexicon's properties"
     -- mvqf    muvaq~af        Nall    intellectual;cultivated;cultured;educated
 
     MuFaCCaL                  `noun`    {- muvaq~af -}         [ "intellectual", "cultivated", "cultured", "educated" ] ]
-
- |> "_t q f y" <| [
-
-    -- ;; vaqAfiy~_1
-    -- vqAfy   vaqAfiy~        Nall    cultural;intellectual     [[vaqAfiy~/ADJ]]
-
-    KaRADIS                   `adj`     {- vaqAfiy~ -}         [ "cultural", "intellectual" ] ]
 
  |> "_t q l" <| [
 
@@ -2599,6 +2597,27 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADiS
                            {- `others`  [ "_tayAtil Ndip" ] -} ]
 
+ |> "_tUrb" <| [
+
+    -- ;; vuwrb_1
+    -- vwrb    vuwrb   Nprop   Thorpe
+
+    Identity                  `noun`    {- vuwrb -}            [ "Thorpe" ] ]
+
+ |> "_tUriyUm" <| [
+
+    -- ;; vuwriyuwm_1
+    -- vwrywm  vuwriyuwm       N       thorium
+
+    Identity                  `noun`    {- vuwriyuwm -}        [ "thorium" ] ]
+
+ |> "_tUrmUnt" <| [
+
+    -- ;; vuwromuwnot_1
+    -- vwrmwnt vuwromuwnot     Nprop   Thurmont
+
+    Identity                  `noun`    {- vuwromuwnot -}      [ "Thurmont" ] ]
+
  |> "_ta`Alab" <| [
 
     -- ;; vaEAlabiy~_1
@@ -2628,7 +2647,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- vanAyA -}           [ "inside", "among" ] ]
 
- |> "_tiyuw" <| [
+ |> "_tiyU" <| [
 
     -- ;; viyuw_1
     -- vyw     viyuw   Nprop   Theo
@@ -2659,27 +2678,6 @@ lexicon = listing "Lexicon's properties"
     -- vryp    vuray~ap        N0      Pleiades
 
     Identity                  `noun`    {- vuray~A -}          [ "Pleiades" ] ]
-
- |> "_tuwrb" <| [
-
-    -- ;; vuwrb_1
-    -- vwrb    vuwrb   Nprop   Thorpe
-
-    Identity                  `noun`    {- vuwrb -}            [ "Thorpe" ] ]
-
- |> "_tuwriyuwm" <| [
-
-    -- ;; vuwriyuwm_1
-    -- vwrywm  vuwriyuwm       N       thorium
-
-    Identity                  `noun`    {- vuwriyuwm -}        [ "thorium" ] ]
-
- |> "_tuwrmuwnt" <| [
-
-    -- ;; vuwromuwnot_1
-    -- vwrmwnt vuwromuwnot     Nprop   Thurmont
-
-    Identity                  `noun`    {- vuwromuwnot -}      [ "Thurmont" ] ]
 
  |> "biAlAi_tnatay" <| [
 

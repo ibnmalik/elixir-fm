@@ -470,6 +470,7 @@ lexicon = listing "Lexicon's properties"
     FiCA' |< Iy               `adj`     {- ginA}iy~ -}         [ "singing", "vocal", "lyrical" ],
 
     HuFCI |< aT               `noun`    {- Ougoniyap -}        [ "song", "melody" ]
+                              `plural`     HuFCIL |< At
                               `plural`     HaFACI
                            {- `others`  [ "'a.gAniy N0_Nh" ] -},
 
@@ -843,15 +844,15 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- gaz~ap -}           [ "Gaza" ] ]
 
- |> ".gAbriyyil" <| [
+ |> ".gAbrIyil" <| [
 
     Identity                  `noun`    {- gAbriyyil -}        [ "Gabriel" ] ]
 
- |> ".gAliyr" <| [
+ |> ".gAlIr" <| [
 
     Identity |< Iy            `adj`     {- gAliyriy~ -}        [ "gallery" ] ]
 
- |> ".gAluw" <| [
+ |> ".gAlU" <| [
 
     Identity                  `noun`    {- gAluw -}            [ "Galo" ] ]
 
@@ -859,65 +860,61 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- gAmobiyA -}         [ "Gambia" ] ]
 
- |> ".gAndiy" <| [
+ |> ".gAndI" <| [
 
     Identity                  `noun`    {- gAnodiy -}          [ "Ghandi" ] ]
 
- |> ".gAruwdy" <| [
-
-    Identity                  `noun`    {- gAruwdy -}          [ "Garoudy" ] ]
-
- |> ".gAstuwn" <| [
+ |> ".gAstUn" <| [
 
     Identity                  `noun`    {- gAsotuwn -}         [ "Gaston" ] ]
 
- |> ".g^stAd" <| [
-
-    Identity                  `noun`    {- g$tAd -}            [ "Gstaad" ] ]
-
- |> ".gawdiyuw" <| [
-
-    Identity                  `noun`    {- gawodiyuw -}        [ "Gaudio" ] ]
-
- |> ".giynAdiy" <| [
+ |> ".gInAdI" <| [
 
     Identity                  `noun`    {- giynAdiy -}         [ "Gennady" ] ]
 
- |> ".grAhAm" <| [
-
-    Identity                  `noun`    {- grAhAm -}           [ "Graham" ] ]
-
- |> ".griyfiy_t" <| [
-
-    Identity                  `noun`    {- griyfiyv -}         [ "Griffith" ] ]
-
- |> ".griyn" <| [
-
-    Identity                  `noun`    {- griyn -}            [ "Green" ] ]
-
- |> ".gruw^gAn" <| [
-
-    Identity                  `noun`    {- gruwjAn -}          [ "Grosjean" ] ]
-
- |> ".gruwzniy" <| [
-
-    Identity                  `noun`    {- gruwzoniy -}        [ "Grozny" ] ]
-
- |> ".guwAtiymAlA" <| [
-
-    Identity                  `noun`    {- guwAtiymAlA -}      [ "Guatemala" ] ]
-
- |> ".guwdirmiys" <| [
+ |> ".gUdirmIs" <| [
 
     Identity                  `noun`    {- guwdiromiys -}      [ "Gudermes" ] ]
 
- |> ".guwlf" <| [
+ |> ".gUlf" <| [
 
     Identity                  `noun`    {- guwlof -}           [ "golf" ],
 
     Identity                  `noun`    {- guwlof -}           [ "Gulf" ] ]
 
- |> ".guwlmAr" <| [
+ |> ".gUlmAr" <| [
 
     Identity                  `noun`    {- guwlomAr -}         [ "Golmar" ] ]
+
+ |> ".g^stAd" <| [
+
+    Identity                  `noun`    {- g$tAd -}            [ "Gstaad" ] ]
+
+ |> ".gawdiyU" <| [
+
+    Identity                  `noun`    {- gawodiyuw -}        [ "Gaudio" ] ]
+
+ |> ".grAhAm" <| [
+
+    Identity                  `noun`    {- grAhAm -}           [ "Graham" ] ]
+
+ |> ".grIfI_t" <| [
+
+    Identity                  `noun`    {- griyfiyv -}         [ "Griffith" ] ]
+
+ |> ".grIn" <| [
+
+    Identity                  `noun`    {- griyn -}            [ "Green" ] ]
+
+ |> ".grU^gAn" <| [
+
+    Identity                  `noun`    {- gruwjAn -}          [ "Grosjean" ] ]
+
+ |> ".grUznI" <| [
+
+    Identity                  `noun`    {- gruwzoniy -}        [ "Grozny" ] ]
+
+ |> ".guwAtImAlA" <| [
+
+    Identity                  `noun`    {- guwAtiymAlA -}      [ "Guatemala" ] ]
 

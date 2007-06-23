@@ -856,27 +856,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`u_taymiyn' => [
-    {
-      'types' => {},
-      'entry' => '`u_taymiyn',
-      'form' => '`u_taymiyn',
-      'lines' => [
-        ';; Euvayomiyn_1',
-        'Evymyn  Euvayomiyn      N0      Uthaimeen'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Uthaimeen'
-      ],
-      'orig' => 'Euvayomiyn',
-      'prefix' => ''
-    }
-  ],
   '` q d' => [
     {
       'types' => {
@@ -2387,6 +2366,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAlfahIm' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlfahiym',
+      'form' => '`abdAlfahiym',
+      'lines' => [
+        ';; EabodAlfahiym_1',
+        'EbdAlfhym       EabodAlfahiym   Nprop   Abdel Faheem'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Faheem'
+      ],
+      'orig' => 'EabodAlfahiym',
+      'prefix' => ''
+    }
+  ],
   '`artA' => [
     {
       'types' => {},
@@ -2405,6 +2405,27 @@ $Lexicon = {
         'Arta'
       ],
       'orig' => 'EarotA',
+      'prefix' => ''
+    }
+  ],
+  '`abdAlmahdI' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlmahdiy',
+      'form' => '`abdAlmahdiy',
+      'lines' => [
+        ';; EabodAlmahodiy_1',
+        'EbdAlmhdy       EabodAlmahodiy  Nprop   Abdel Mahdi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Mahdi'
+      ],
+      'orig' => 'EabodAlmahodiy',
       'prefix' => ''
     }
   ],
@@ -2753,14 +2774,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlra^siyd' => [
+  '`abdAllAwI' => [
     {
       'types' => {},
-      'entry' => '`abdAlra^siyd',
-      'form' => '`abdAlra^siyd',
+      'entry' => '`abdAllAwiy',
+      'form' => '`abdAllAwiy',
       'lines' => [
-        ';; EabodAlra$iyd_1',
-        'EbdAlr$yd       EabodAlra$iyd   Nprop   Abdel Rasheed'
+        ';; EabodAllAwiy_1',
+        'EbdAllAwy       EabodAllAwiy    Nprop   Abdallawi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2768,9 +2789,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdel Rasheed'
+        'Abdallawi'
       ],
-      'orig' => 'EabodAlra$iyd',
+      'orig' => 'EabodAllAwiy',
       'prefix' => ''
     }
   ],
@@ -3001,48 +3022,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlmu.giy_t' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlmu.giy_t',
-      'form' => '`abdAlmu.giy_t',
-      'lines' => [
-        ';; EabodAlmugiyv_1',
-        'EbdAlmgyv       EabodAlmugiyv   Nprop   Abdel Mugheeth'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Mugheeth'
-      ],
-      'orig' => 'EabodAlmugiyv',
-      'prefix' => ''
-    }
-  ],
-  '`abdAlkabiyr' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlkabiyr',
-      'form' => '`abdAlkabiyr',
-      'lines' => [
-        ';; EabodAlkabiyr_1',
-        'EbdAlkbyr       EabodAlkabiyr   Nprop   Abdel Kabeer'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Kabeer'
-      ],
-      'orig' => 'EabodAlkabiyr',
-      'prefix' => ''
-    }
-  ],
   '` r .s' => [
     {
       'types' => {
@@ -3155,14 +3134,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlma.hmuwd' => [
+  '`abdAlma^gId' => [
     {
       'types' => {},
-      'entry' => '`abdAlma.hmuwd',
-      'form' => '`abdAlma.hmuwd',
+      'entry' => '`abdAlma^giyd',
+      'form' => '`abdAlma^giyd',
       'lines' => [
-        ';; EabodAlmaHomuwd_1',
-        'EbdAlmHmwd      EabodAlmaHomuwd Nprop   Abdel Mahmoud'
+        ';; EabodAlmajiyd_1',
+        'EbdAlmjyd       EabodAlmajiyd   Nprop   Abdel Majeed;Abdel Meguid'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3170,9 +3149,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdel Mahmoud'
+        'Abdel Majeed',
+        'Abdel Meguid'
       ],
-      'orig' => 'EabodAlmaHomuwd',
+      'orig' => 'EabodAlmajiyd',
       'prefix' => ''
     }
   ],
@@ -3194,27 +3174,6 @@ $Lexicon = {
         'Abdel Ghani'
       ],
       'orig' => 'EabodAlganiy~',
-      'prefix' => ''
-    }
-  ],
-  '`abdAl.gafuwr' => [
-    {
-      'types' => {},
-      'entry' => '`abdAl.gafuwr',
-      'form' => '`abdAl.gafuwr',
-      'lines' => [
-        ';; EabodAlgafuwr_1',
-        'EbdAlgfwr       EabodAlgafuwr   Nprop   Abdel Ghafour'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Ghafour'
-      ],
-      'orig' => 'EabodAlgafuwr',
       'prefix' => ''
     }
   ],
@@ -3552,14 +3511,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlhAdiy' => [
+  'ya`fUr' => [
     {
-      'types' => {},
-      'entry' => '`abdAlhAdiy',
-      'form' => '`abdAlhAdiy',
+      'types' => {
+        'ya`Afiyr' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'ya`fuwr',
+      'form' => 'ya`fuwr',
       'lines' => [
-        ';; EabodAlhAdiy_1',
-        'EbdAlhAdy       EabodAlhAdiy    Nprop   Abdel Hadi'
+        ';; yaEofuwr_1',
+        'yEfwr   yaEofuwr        Ndu     gazelle',
+        'yEAfyr  yaEAfiyr        Ndip    gazelles'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3567,9 +3531,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdel Hadi'
+        'gazelle',
+        'gazelles'
       ],
-      'orig' => 'EabodAlhAdiy',
+      'orig' => 'yaEofuwr',
       'prefix' => ''
     }
   ],
@@ -4308,27 +4273,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlbadiy`' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlbadiy`',
-      'form' => '`abdAlbadiy`',
-      'lines' => [
-        ';; EabodAlbadiyE_1',
-        'EbdAlbdyE       EabodAlbadiyE   Nprop   Abdel Badii'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Badii'
-      ],
-      'orig' => 'EabodAlbadiyE',
-      'prefix' => ''
-    }
-  ],
   '` .t \'' => [
     {
       'types' => {},
@@ -4650,6 +4594,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`a.zamUt' => [
+    {
+      'types' => {},
+      'entry' => '`a.zamuwt',
+      'form' => '`a.zamuwt',
+      'lines' => [
+        ';; EaZamuwt_1',
+        'EZmwt   EaZamuwt        N       grandeur;power'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'grandeur',
+        'power'
+      ],
+      'orig' => 'EaZamuwt',
+      'prefix' => ''
+    }
+  ],
   '` .t ` .t' => [
     {
       'types' => {
@@ -4807,14 +4773,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlfahiym' => [
+  '`abdAlfa.dIl' => [
     {
       'types' => {},
-      'entry' => '`abdAlfahiym',
-      'form' => '`abdAlfahiym',
+      'entry' => '`abdAlfa.diyl',
+      'form' => '`abdAlfa.diyl',
       'lines' => [
-        ';; EabodAlfahiym_1',
-        'EbdAlfhym       EabodAlfahiym   Nprop   Abdel Faheem'
+        ';; EabodAlfaDiyl_1',
+        'EbdAlfDyl       EabodAlfaDiyl   Nprop   Abdel Fadeel'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4822,9 +4788,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdel Faheem'
+        'Abdel Fadeel'
       ],
-      'orig' => 'EabodAlfahiym',
+      'orig' => 'EabodAlfaDiyl',
       'prefix' => ''
     }
   ],
@@ -5026,28 +4992,6 @@ $Lexicon = {
         'rooting'
       ],
       'orig' => 'taEo$iy$',
-      'prefix' => ''
-    }
-  ],
-  '`izzAlddiyn' => [
-    {
-      'types' => {},
-      'entry' => '`izzAlddiyn',
-      'form' => '`izzAlddiyn',
-      'lines' => [
-        ';; Eiz~Ald~iyn_1',
-        'EzAldyn Eiz~Ald~iyn     N0      Ezzedin;Izz Al-Din'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Ezzedin',
-        'Izz Al-Din'
-      ],
-      'orig' => 'Eiz~Ald~iyn',
       'prefix' => ''
     }
   ],
@@ -5384,6 +5328,27 @@ $Lexicon = {
         'fangs'
       ],
       'orig' => 'Eaq~Afap',
+      'prefix' => ''
+    }
+  ],
+  'mawA`izIz' => [
+    {
+      'types' => {},
+      'entry' => 'mawA`iziyz',
+      'form' => 'mawA`iziyz',
+      'lines' => [
+        ';; mawAEiziyz_1',
+        'mwAEzyz mawAEiziyz      N0      Moaziz'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Moaziz'
+      ],
+      'orig' => 'mawAEiziyz',
       'prefix' => ''
     }
   ],
@@ -6087,6 +6052,49 @@ $Lexicon = {
         'salubrious'
       ],
       'orig' => 'Ea*iy~',
+      'prefix' => ''
+    }
+  ],
+  '`abdAl.sabUr' => [
+    {
+      'types' => {},
+      'entry' => '`abdAl.sabuwr',
+      'form' => '`abdAl.sabuwr',
+      'lines' => [
+        ';; EabodAlSabuwr_1',
+        'EbdAlSbwr       EabodAlSabuwr   Nprop   Abdel Sabour'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Sabour'
+      ],
+      'orig' => 'EabodAlSabuwr',
+      'prefix' => ''
+    }
+  ],
+  '`abdAl\'amIr' => [
+    {
+      'types' => {},
+      'entry' => '`abdAl\'amiyr',
+      'form' => '`abdAl\'amiyr',
+      'lines' => [
+        ';; EabodAl>amiyr_1',
+        'EbdAl>myr       EabodAl>amiyr   Nprop   Abdel Amir',
+        'EbdAlAmyr       EabodAl>amiyr   Nprop   Abdel Amir'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Amir'
+      ],
+      'orig' => 'EabodAlOamiyr',
       'prefix' => ''
     }
   ],
@@ -7669,6 +7677,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAl.hakIm' => [
+    {
+      'types' => {},
+      'entry' => '`abdAl.hakiym',
+      'form' => '`abdAl.hakiym',
+      'lines' => [
+        ';; EabodAlHakiym_1',
+        'EbdAlHkym       EabodAlHakiym   Nprop   Abdel Hakeem'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Hakeem'
+      ],
+      'orig' => 'EabodAlHakiym',
+      'prefix' => ''
+    }
+  ],
   '` ^s r n' => [
     {
       'types' => {
@@ -8081,6 +8110,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAlmu.gI_t' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlmu.giy_t',
+      'form' => '`abdAlmu.giy_t',
+      'lines' => [
+        ';; EabodAlmugiyv_1',
+        'EbdAlmgyv       EabodAlmugiyv   Nprop   Abdel Mugheeth'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Mugheeth'
+      ],
+      'orig' => 'EabodAlmugiyv',
+      'prefix' => ''
+    }
+  ],
   '` q r' => [
     {
       'types' => {
@@ -8480,14 +8530,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlnuwr' => [
+  '`abdAlmu`In' => [
     {
       'types' => {},
-      'entry' => '`abdAlnuwr',
-      'form' => '`abdAlnuwr',
+      'entry' => '`abdAlmu`iyn',
+      'form' => '`abdAlmu`iyn',
       'lines' => [
-        ';; EabodAlnuwr_1',
-        'EbdAlnwr        EabodAlnuwr     Nprop   Abdel Nour'
+        ';; EabodAlmuEiyn_1',
+        'EbdAlmEyn       EabodAlmuEiyn   Nprop   Abdel Mueen'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8495,9 +8545,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdel Nour'
+        'Abdel Mueen'
       ],
-      'orig' => 'EabodAlnuwr',
+      'orig' => 'EabodAlmuEiyn',
       'prefix' => ''
     }
   ],
@@ -8995,6 +9045,27 @@ $Lexicon = {
         'emancipator'
       ],
       'orig' => 'muEotiq',
+      'prefix' => ''
+    }
+  ],
+  '`abdAlmaw^gUd' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlmaw^guwd',
+      'form' => '`abdAlmaw^guwd',
+      'lines' => [
+        ';; EabodAlmawojuwd_1',
+        'EbdAlmwjwd      EabodAlmawojuwd Nprop   Abdel Mawjoud'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Mawjoud'
+      ],
+      'orig' => 'EabodAlmawojuwd',
       'prefix' => ''
     }
   ],
@@ -11262,6 +11333,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAl^sAfI' => [
+    {
+      'types' => {},
+      'entry' => '`abdAl^sAfiy',
+      'form' => '`abdAl^sAfiy',
+      'lines' => [
+        ';; EabodAl$Afiy_1',
+        'EbdAl$Afy       EabodAl$Afiy    Nprop   Abdel Shafi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Shafi'
+      ],
+      'orig' => 'EabodAl$Afiy',
+      'prefix' => ''
+    }
+  ],
   '`abdAl`izz' => [
     {
       'types' => {},
@@ -12598,48 +12690,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlsamiy`' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlsamiy`',
-      'form' => '`abdAlsamiy`',
-      'lines' => [
-        ';; EabodAlsamiyE_1',
-        'EbdAlsmyE       EabodAlsamiyE   Nprop   Abdel Samee'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Samee'
-      ],
-      'orig' => 'EabodAlsamiyE',
-      'prefix' => ''
-    }
-  ],
-  '`immAnuw\'iyl' => [
-    {
-      'types' => {},
-      'entry' => '`immAnuw\'iyl',
-      'form' => '`immAnuw\'iyl',
-      'lines' => [
-        ';; Eim~Anuw}iyl_1',
-        'EmAnw}yl        Eim~Anuw}iyl    Ndip    Emmanuel'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Emmanuel'
-      ],
-      'orig' => 'Eim~Anuw}iyl',
-      'prefix' => ''
-    }
-  ],
   '`abAdAn' => [
     {
       'types' => {},
@@ -12724,27 +12774,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlbAqiy' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlbAqiy',
-      'form' => '`abdAlbAqiy',
-      'lines' => [
-        ';; EabodAlbAqiy_1',
-        'EbdAlbAqy       EabodAlbAqiy    Nprop   Abdel Baqi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Baqi'
-      ],
-      'orig' => 'EabodAlbAqiy',
-      'prefix' => ''
-    }
-  ],
   '`abdAlmalAk' => [
     {
       'types' => {},
@@ -12805,6 +12834,27 @@ $Lexicon = {
         'Abdel Satir'
       ],
       'orig' => 'EabodAlsAtir',
+      'prefix' => ''
+    }
+  ],
+  '`abdAlkarIm' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlkariym',
+      'form' => '`abdAlkariym',
+      'lines' => [
+        ';; EabodAlkariym_1',
+        'EbdAlkrym       EabodAlkariym   Nprop   Abdel Kareem'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Kareem'
+      ],
+      'orig' => 'EabodAlkariym',
       'prefix' => ''
     }
   ],
@@ -13909,33 +13959,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ya`fuwr' => [
-    {
-      'types' => {
-        'ya`Afiyr' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'ya`fuwr',
-      'form' => 'ya`fuwr',
-      'lines' => [
-        ';; yaEofuwr_1',
-        'yEfwr   yaEofuwr        Ndu     gazelle',
-        'yEAfyr  yaEAfiyr        Ndip    gazelles'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'gazelle',
-        'gazelles'
-      ],
-      'orig' => 'yaEofuwr',
-      'prefix' => ''
-    }
-  ],
   '` ^g f' => [
     {
       'types' => {},
@@ -14055,14 +14078,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlra\'uwf' => [
+  '`abdAlmuwallI' => [
     {
       'types' => {},
-      'entry' => '`abdAlra\'uwf',
-      'form' => '`abdAlra\'uwf',
+      'entry' => '`abdAlmuwalliy',
+      'form' => '`abdAlmuwalliy',
       'lines' => [
-        ';; EabodAlra&uwf_1',
-        'EbdAlr&wf       EabodAlra&uwf   Nprop   Abdel Raouf'
+        ';; EabodAlmuwal~iy_1',
+        'EbdAlmwly       EabodAlmuwal~iy Nprop   Abdel Muwalli'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14070,9 +14093,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdel Raouf'
+        'Abdel Muwalli'
       ],
-      'orig' => 'EabodAlraWuwf',
+      'orig' => 'EabodAlmuwal~iy',
       'prefix' => ''
     }
   ],
@@ -15526,28 +15549,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAl\'amiyr' => [
-    {
-      'types' => {},
-      'entry' => '`abdAl\'amiyr',
-      'form' => '`abdAl\'amiyr',
-      'lines' => [
-        ';; EabodAl>amiyr_1',
-        'EbdAl>myr       EabodAl>amiyr   Nprop   Abdel Amir',
-        'EbdAlAmyr       EabodAl>amiyr   Nprop   Abdel Amir'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Amir'
-      ],
-      'orig' => 'EabodAlOamiyr',
-      'prefix' => ''
-    }
-  ],
   '` n f .s' => [
     {
       'types' => {},
@@ -16150,27 +16151,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlqudduws' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlqudduws',
-      'form' => '`abdAlqudduws',
-      'lines' => [
-        ';; EabodAlqud~uws_1',
-        'EbdAlqdws       EabodAlqud~uws  Nprop   Abdel Quddous'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Quddous'
-      ],
-      'orig' => 'EabodAlqud~uws',
-      'prefix' => ''
-    }
-  ],
   '`AlamAn' => [
     {
       'types' => {},
@@ -16189,27 +16169,6 @@ $Lexicon = {
         'secular'
       ],
       'orig' => 'EAlamAniy~',
-      'prefix' => ''
-    }
-  ],
-  '`abdAl.hamiyd' => [
-    {
-      'types' => {},
-      'entry' => '`abdAl.hamiyd',
-      'form' => '`abdAl.hamiyd',
-      'lines' => [
-        ';; EabodAlHamiyd_1',
-        'EbdAlHmyd       EabodAlHamiyd   Nprop   Abdel Hameed'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Hameed'
-      ],
-      'orig' => 'EabodAlHamiyd',
       'prefix' => ''
     }
   ],
@@ -17463,27 +17422,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAl.hasiyb' => [
-    {
-      'types' => {},
-      'entry' => '`abdAl.hasiyb',
-      'form' => '`abdAl.hasiyb',
-      'lines' => [
-        ';; EabodAlHasiyb_1',
-        'EbdAlHsyb       EabodAlHasiyb   Nprop   Abdel Haseeb'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Haseeb'
-      ],
-      'orig' => 'EabodAlHasiyb',
-      'prefix' => ''
-    }
-  ],
   '` .d w y' => [
     {
       'types' => {},
@@ -17644,27 +17582,6 @@ $Lexicon = {
         'liar'
       ],
       'orig' => 'Euroquwbiy~',
-      'prefix' => ''
-    }
-  ],
-  '`abdAl`A.tiy' => [
-    {
-      'types' => {},
-      'entry' => '`abdAl`A.tiy',
-      'form' => '`abdAl`A.tiy',
-      'lines' => [
-        ';; EabodAlEATiy_1',
-        'EbdAlEATy       EabodAlEATiy    Nprop   Abdel Aati'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Aati'
-      ],
-      'orig' => 'EabodAlEATiy',
       'prefix' => ''
     }
   ],
@@ -17997,14 +17914,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlbAriy' => [
+  '`abdAlquddUs' => [
     {
       'types' => {},
-      'entry' => '`abdAlbAriy',
-      'form' => '`abdAlbAriy',
+      'entry' => '`abdAlqudduws',
+      'form' => '`abdAlqudduws',
       'lines' => [
-        ';; EabodAlbAriy_1',
-        'EbdAlbAry       EabodAlbAriy    Nprop   Abdel Bari'
+        ';; EabodAlqud~uws_1',
+        'EbdAlqdws       EabodAlqud~uws  Nprop   Abdel Quddous'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18012,9 +17929,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdel Bari'
+        'Abdel Quddous'
       ],
-      'orig' => 'EabodAlbAriy',
+      'orig' => 'EabodAlqud~uws',
       'prefix' => ''
     }
   ],
@@ -18096,27 +18013,6 @@ $Lexicon = {
         'Arabsat'
       ],
       'orig' => 'EarabosAt',
-      'prefix' => ''
-    }
-  ],
-  '`abdAlmaw^guwd' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlmaw^guwd',
-      'form' => '`abdAlmaw^guwd',
-      'lines' => [
-        ';; EabodAlmawojuwd_1',
-        'EbdAlmwjwd      EabodAlmawojuwd Nprop   Abdel Mawjoud'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Mawjoud'
-      ],
-      'orig' => 'EabodAlmawojuwd',
       'prefix' => ''
     }
   ],
@@ -18454,6 +18350,27 @@ $Lexicon = {
         'perturbed'
       ],
       'orig' => 'mutaEak~ir',
+      'prefix' => ''
+    }
+  ],
+  '`abdAlwalId' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlwaliyd',
+      'form' => '`abdAlwaliyd',
+      'lines' => [
+        ';; EabodAlwaliyd_1',
+        'EbdAlwlyd       EabodAlwaliyd   Nprop   Abdel Waleed'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Waleed'
+      ],
+      'orig' => 'EabodAlwaliyd',
       'prefix' => ''
     }
   ],
@@ -19332,6 +19249,48 @@ $Lexicon = {
         'Oufi'
       ],
       'orig' => 'Eawofiy~',
+      'prefix' => ''
+    }
+  ],
+  '`abdAlraqIb' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlraqiyb',
+      'form' => '`abdAlraqiyb',
+      'lines' => [
+        ';; EabodAlraqiyb_1',
+        'EbdAlrqyb       EabodAlraqiyb   Nprop   Abdel Raqeeb'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Raqeeb'
+      ],
+      'orig' => 'EabodAlraqiyb',
+      'prefix' => ''
+    }
+  ],
+  '`abdAl^safI`' => [
+    {
+      'types' => {},
+      'entry' => '`abdAl^safiy`',
+      'form' => '`abdAl^safiy`',
+      'lines' => [
+        ';; EabodAl$afiyE_1',
+        'EbdAl$fyE       EabodAl$afiyE   Nprop   Abdel Shafee'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Shafee'
+      ],
+      'orig' => 'EabodAl$afiyE',
       'prefix' => ''
     }
   ],
@@ -20238,6 +20197,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAlkAfI' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlkAfiy',
+      'form' => '`abdAlkAfiy',
+      'lines' => [
+        ';; EabodAlkAfiy_1',
+        'EbdAlkAfy       EabodAlkAfiy    Nprop   Abdel Kafi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Kafi'
+      ],
+      'orig' => 'EabodAlkAfiy',
+      'prefix' => ''
+    }
+  ],
+  '`abdAlma.hmUd' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlma.hmuwd',
+      'form' => '`abdAlma.hmuwd',
+      'lines' => [
+        ';; EabodAlmaHomuwd_1',
+        'EbdAlmHmwd      EabodAlmaHomuwd Nprop   Abdel Mahmoud'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Mahmoud'
+      ],
+      'orig' => 'EabodAlmaHomuwd',
+      'prefix' => ''
+    }
+  ],
   '` y d y' => [
     {
       'types' => {},
@@ -20471,27 +20472,6 @@ $Lexicon = {
         'from/of Ajloun'
       ],
       'orig' => 'Eajoluwniy~',
-      'prefix' => ''
-    }
-  ],
-  '`abdAl.hafiy.z' => [
-    {
-      'types' => {},
-      'entry' => '`abdAl.hafiy.z',
-      'form' => '`abdAl.hafiy.z',
-      'lines' => [
-        ';; EabodAlHafiyZ_1',
-        'EbdAlHfyZ       EabodAlHafiyZ   Nprop   Abdel Hafeez'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Hafeez'
-      ],
-      'orig' => 'EabodAlHafiyZ',
       'prefix' => ''
     }
   ],
@@ -20736,27 +20716,6 @@ $Lexicon = {
         'causing sneezing'
       ],
       'orig' => 'taEoTiys',
-      'prefix' => ''
-    }
-  ],
-  '`abdAlmu`iyn' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlmu`iyn',
-      'form' => '`abdAlmu`iyn',
-      'lines' => [
-        ';; EabodAlmuEiyn_1',
-        'EbdAlmEyn       EabodAlmuEiyn   Nprop   Abdel Mueen'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Mueen'
-      ],
-      'orig' => 'EabodAlmuEiyn',
       'prefix' => ''
     }
   ],
@@ -21021,27 +20980,6 @@ $Lexicon = {
         'preparation'
       ],
       'orig' => 'taEotiyd',
-      'prefix' => ''
-    }
-  ],
-  '`abdAlraqiyb' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlraqiyb',
-      'form' => '`abdAlraqiyb',
-      'lines' => [
-        ';; EabodAlraqiyb_1',
-        'EbdAlrqyb       EabodAlraqiyb   Nprop   Abdel Raqeeb'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Raqeeb'
-      ],
-      'orig' => 'EabodAlraqiyb',
       'prefix' => ''
     }
   ],
@@ -21327,6 +21265,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAl`lIm' => [
+    {
+      'types' => {},
+      'entry' => '`abdAl`liym',
+      'form' => '`abdAl`liym',
+      'lines' => [
+        ';; EabodAlEliym_1',
+        'EbdAlElym       EabodAlEliym    Nprop   Abdel Aleem'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Aleem'
+      ],
+      'orig' => 'EabodAlEliym',
+      'prefix' => ''
+    }
+  ],
   '`abidrabbuh' => [
     {
       'types' => {},
@@ -21571,6 +21530,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAlra.hmAnI' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlra.hmAniy',
+      'form' => '`abdAlra.hmAniy',
+      'lines' => [
+        ';; EabodAlraHomAniy_1',
+        'EbdAlrHmAny     EabodAlraHomAniy        Nprop   Abdel Rahmani'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Rahmani'
+      ],
+      'orig' => 'EabodAlraHomAniy',
+      'prefix' => ''
+    }
+  ],
   '` \' ^s' => [
     {
       'types' => {
@@ -21595,6 +21575,69 @@ $Lexicon = {
         'alive'
       ],
       'orig' => 'EA}i$',
+      'prefix' => ''
+    }
+  ],
+  '`izrA\'Il' => [
+    {
+      'types' => {},
+      'entry' => '`izrA\'iyl',
+      'form' => '`izrA\'iyl',
+      'lines' => [
+        ';; EizorA}iyl_1',
+        'EzrA}yl EizorA}iyl      Ndip    Azrael'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Azrael'
+      ],
+      'orig' => 'EizorA}iyl',
+      'prefix' => ''
+    }
+  ],
+  '`abdAlbadI`' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlbadiy`',
+      'form' => '`abdAlbadiy`',
+      'lines' => [
+        ';; EabodAlbadiyE_1',
+        'EbdAlbdyE       EabodAlbadiyE   Nprop   Abdel Badii'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Badii'
+      ],
+      'orig' => 'EabodAlbadiyE',
+      'prefix' => ''
+    }
+  ],
+  '`abdAlsamI`' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlsamiy`',
+      'form' => '`abdAlsamiy`',
+      'lines' => [
+        ';; EabodAlsamiyE_1',
+        'EbdAlsmyE       EabodAlsamiyE   Nprop   Abdel Samee'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Samee'
+      ],
+      'orig' => 'EabodAlsamiyE',
       'prefix' => ''
     }
   ],
@@ -23851,6 +23894,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAlra^sId' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlra^siyd',
+      'form' => '`abdAlra^siyd',
+      'lines' => [
+        ';; EabodAlra$iyd_1',
+        'EbdAlr$yd       EabodAlra$iyd   Nprop   Abdel Rasheed'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Rasheed'
+      ],
+      'orig' => 'EabodAlra$iyd',
+      'prefix' => ''
+    }
+  ],
   '` \' q' => [
     {
       'types' => {},
@@ -25062,48 +25126,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAl.hakiym' => [
-    {
-      'types' => {},
-      'entry' => '`abdAl.hakiym',
-      'form' => '`abdAl.hakiym',
-      'lines' => [
-        ';; EabodAlHakiym_1',
-        'EbdAlHkym       EabodAlHakiym   Nprop   Abdel Hakeem'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Hakeem'
-      ],
-      'orig' => 'EabodAlHakiym',
-      'prefix' => ''
-    }
-  ],
-  '`abdAlqayyuwm' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlqayyuwm',
-      'form' => '`abdAlqayyuwm',
-      'lines' => [
-        ';; EabodAlqay~uwm_1',
-        'EbdAlqywm       EabodAlqay~uwm  Nprop   Abdel Qayyoum'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Qayyoum'
-      ],
-      'orig' => 'EabodAlqay~uwm',
-      'prefix' => ''
-    }
-  ],
   '`abdAl`abbAs' => [
     {
       'types' => {},
@@ -25122,6 +25144,27 @@ $Lexicon = {
         'Abdel Abbas'
       ],
       'orig' => 'EabodAlEab~As',
+      'prefix' => ''
+    }
+  ],
+  '`abdAl.gafUr' => [
+    {
+      'types' => {},
+      'entry' => '`abdAl.gafuwr',
+      'form' => '`abdAl.gafuwr',
+      'lines' => [
+        ';; EabodAlgafuwr_1',
+        'EbdAlgfwr       EabodAlgafuwr   Nprop   Abdel Ghafour'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Ghafour'
+      ],
+      'orig' => 'EabodAlgafuwr',
       'prefix' => ''
     }
   ],
@@ -25432,48 +25475,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdaliy' => [
-    {
-      'types' => {},
-      'entry' => '`abdaliy',
-      'form' => '`abdaliy',
-      'lines' => [
-        ';; Eabodaliy_1',
-        'Ebdly   Eabodaliy       N0      Abdali'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdali'
-      ],
-      'orig' => 'Eabodaliy',
-      'prefix' => ''
-    }
-  ],
-  '`abdAlfa.diyl' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlfa.diyl',
-      'form' => '`abdAlfa.diyl',
-      'lines' => [
-        ';; EabodAlfaDiyl_1',
-        'EbdAlfDyl       EabodAlfaDiyl   Nprop   Abdel Fadeel'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Fadeel'
-      ],
-      'orig' => 'EabodAlfaDiyl',
-      'prefix' => ''
-    }
-  ],
   '` .t w' => [
     {
       'types' => {},
@@ -25492,6 +25493,27 @@ $Lexicon = {
         'Atwan'
       ],
       'orig' => 'EaTowAn',
+      'prefix' => ''
+    }
+  ],
+  '`a^srAwI' => [
+    {
+      'types' => {},
+      'entry' => '`a^srAwiy',
+      'form' => '`a^srAwiy',
+      'lines' => [
+        ';; Ea$orAwiy_1',
+        'E$rAwy  Ea$orAwiy       Nprop   Ashrawi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Ashrawi'
+      ],
+      'orig' => 'Ea$orAwiy',
       'prefix' => ''
     }
   ],
@@ -25915,27 +25937,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAl^safiy`' => [
-    {
-      'types' => {},
-      'entry' => '`abdAl^safiy`',
-      'form' => '`abdAl^safiy`',
-      'lines' => [
-        ';; EabodAl$afiyE_1',
-        'EbdAl$fyE       EabodAl$afiyE   Nprop   Abdel Shafee'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Shafee'
-      ],
-      'orig' => 'EabodAl$afiyE',
-      'prefix' => ''
-    }
-  ],
   '` r ` r' => [
     {
       'types' => {},
@@ -26085,6 +26086,28 @@ $Lexicon = {
         'causing havoc'
       ],
       'orig' => 'Eayov',
+      'prefix' => ''
+    }
+  ],
+  '`illIyUn' => [
+    {
+      'types' => {},
+      'entry' => '`illiyyuwn',
+      'form' => '`illiyyuwn',
+      'lines' => [
+        ';; Eil~iy~uwn_1',
+        'Elywn   Eil~iy~uwn      N       uppermost heaven;highest class'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'uppermost heaven',
+        'highest class'
+      ],
+      'orig' => 'Eil~iy~uwn',
       'prefix' => ''
     }
   ],
@@ -26624,6 +26647,27 @@ $Lexicon = {
         'dogmatism'
       ],
       'orig' => 'EaqA}idiy~ap',
+      'prefix' => ''
+    }
+  ],
+  '`abdalAwI' => [
+    {
+      'types' => {},
+      'entry' => '`abdalAwiy',
+      'form' => '`abdalAwiy',
+      'lines' => [
+        ';; EabodalAwiy_1',
+        'EbdlAwy EabodalAwiy     N0      Abdallawi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdallawi'
+      ],
+      'orig' => 'EabodalAwiy',
       'prefix' => ''
     }
   ],
@@ -29793,6 +29837,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAlrA.dI' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlrA.diy',
+      'form' => '`abdAlrA.diy',
+      'lines' => [
+        ';; EabodAlrADiy_1',
+        'EbdAlrADy       EabodAlrADiy    Nprop   Abdel Radi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Radi'
+      ],
+      'orig' => 'EabodAlrADiy',
+      'prefix' => ''
+    }
+  ],
   '`Ama_dAk' => [
     {
       'types' => {},
@@ -30343,6 +30408,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`A^g^gUr' => [
+    {
+      'types' => {},
+      'entry' => '`A^g^guwr',
+      'form' => '`A^g^guwriyy',
+      'lines' => [
+        ';; EAj~uwriy~_1',
+        'EAjwry  EAj~uwriy~      N0      Ajjouri'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Ajjouri'
+      ],
+      'orig' => 'EAj~uwriy~',
+      'prefix' => ''
+    }
+  ],
   '` d y' => [
     {
       'types' => {},
@@ -30682,28 +30768,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ya`quwb' => [
-    {
-      'types' => {},
-      'entry' => 'ya`quwb',
-      'form' => 'ya`quwb',
-      'lines' => [
-        ';; yaEoquwb_1',
-        'yEqwb   yaEoquwb        Nprop   Yaqoub;Jacob'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Yaqoub',
-        'Jacob'
-      ],
-      'orig' => 'yaEoquwb',
-      'prefix' => ''
-    }
-  ],
   '` ^g w' => [
     {
       'types' => {},
@@ -31029,14 +31093,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlmahdiy' => [
+  '`abdAl.halIm' => [
     {
       'types' => {},
-      'entry' => '`abdAlmahdiy',
-      'form' => '`abdAlmahdiy',
+      'entry' => '`abdAl.haliym',
+      'form' => '`abdAl.haliym',
       'lines' => [
-        ';; EabodAlmahodiy_1',
-        'EbdAlmhdy       EabodAlmahodiy  Nprop   Abdel Mahdi'
+        ';; EabodAlHaliym_1',
+        'EbdAlHlym       EabodAlHaliym   Nprop   Abdel Haleem'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31044,9 +31108,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdel Mahdi'
+        'Abdel Haleem'
       ],
-      'orig' => 'EabodAlmahodiy',
+      'orig' => 'EabodAlHaliym',
       'prefix' => ''
     }
   ],
@@ -32592,64 +32656,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'u`^guwb' => [
-    {
-      'types' => {
-        'b\'u`^guwbT' => {
-          'FW-Wa' => 2
-        }
-      },
-      'entry' => '\'u`^guwb',
-      'form' => '\'u`^guwbaT',
-      'lines' => [
-        ';; >uEojuwbap_1',
-        '>Ejwb   >uEojuwb        Napdu   miracle',
-        'AEjwb   >uEojuwb        Napdu   miracle',
-        'b>Ejwbp b>uEojuwbp      FW-Wa   miraculously     [[bi/PREP+>uEojuwbap/NOUN]]',
-        'bAEjwbp b>uEojuwbp      FW-Wa   miraculously     [[bi/PREP+>uEojuwbap/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'prep',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'miracle',
-        'miraculously'
-      ],
-      'orig' => 'OuEojuwbap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'a`A^giyb' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'u`^guwb',
-      'form' => '\'u`^guwbaT',
-      'lines' => [
-        ';; >uEojuwbap_2',
-        '>Ejwb   >uEojuwb        Napdu   marvel;wonder',
-        'AEjwb   >uEojuwb        Napdu   marvel;wonder',
-        '>EAjyb  >aEAjiyb        Ndip    marvels;wonders',
-        'AEAjyb  >aEAjiyb        Ndip    marvels;wonders'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'marvel',
-        'wonder',
-        'marvels',
-        'wonders'
-      ],
-      'orig' => 'OuEojuwbap',
-      'prefix' => ''
-    }
-  ],
   '`abdAlfA.dil' => [
     {
       'types' => {},
@@ -33579,14 +33585,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlmaq.suwd' => [
+  'ya`bUb' => [
     {
-      'types' => {},
-      'entry' => '`abdAlmaq.suwd',
-      'form' => '`abdAlmaq.suwd',
+      'types' => {
+        'ya`Abiyb' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'ya`buwb',
+      'form' => 'ya`buwb',
       'lines' => [
-        ';; EabodAlmaqoSuwd_1',
-        'EbdAlmqSwd      EabodAlmaqoSuwd Nprop   Abdel Maqsoud'
+        ';; yaEobuwb_1',
+        'yEbwb   yaEobuwb        Ndu     torrent',
+        'yEAbyb  yaEAbiyb        Ndip    torrents'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33594,30 +33605,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdel Maqsoud'
+        'torrent',
+        'torrents'
       ],
-      'orig' => 'EabodAlmaqoSuwd',
-      'prefix' => ''
-    }
-  ],
-  '`abdAlma\'muwn' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlma\'muwn',
-      'form' => '`abdAlma\'muwn',
-      'lines' => [
-        ';; EabodAlma>omuwn_1',
-        'EbdAlm>mwn      EabodAlma>omuwn Nprop   Abdel Ma\'moun'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Ma\'moun'
-      ],
-      'orig' => 'EabodAlmaOomuwn',
+      'orig' => 'yaEobuwb',
       'prefix' => ''
     }
   ],
@@ -34149,6 +34140,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAl^sakUr' => [
+    {
+      'types' => {},
+      'entry' => '`abdAl^sakuwr',
+      'form' => '`abdAl^sakuwr',
+      'lines' => [
+        ';; EabodAl$akuwr_1',
+        'EbdAl$kwr       EabodAl$akuwr   Nprop   Abdel Shakour'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Shakour'
+      ],
+      'orig' => 'EabodAl$akuwr',
+      'prefix' => ''
+    }
+  ],
+  '`abdAl`A.tI' => [
+    {
+      'types' => {},
+      'entry' => '`abdAl`A.tiy',
+      'form' => '`abdAl`A.tiy',
+      'lines' => [
+        ';; EabodAlEATiy_1',
+        'EbdAlEATy       EabodAlEATiy    Nprop   Abdel Aati'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Aati'
+      ],
+      'orig' => 'EabodAlEATiy',
+      'prefix' => ''
+    }
+  ],
   '` b l' => [
     {
       'types' => {
@@ -34331,14 +34364,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`a^srAwiy' => [
+  '`izzAlddIn' => [
     {
       'types' => {},
-      'entry' => '`a^srAwiy',
-      'form' => '`a^srAwiy',
+      'entry' => '`izzAlddiyn',
+      'form' => '`izzAlddiyn',
       'lines' => [
-        ';; Ea$orAwiy_1',
-        'E$rAwy  Ea$orAwiy       Nprop   Ashrawi'
+        ';; Eiz~Ald~iyn_1',
+        'EzAldyn Eiz~Ald~iyn     N0      Ezzedin;Izz Al-Din'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34346,30 +34379,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Ashrawi'
+        'Ezzedin',
+        'Izz Al-Din'
       ],
-      'orig' => 'Ea$orAwiy',
-      'prefix' => ''
-    }
-  ],
-  '`A^g^guwr' => [
-    {
-      'types' => {},
-      'entry' => '`A^g^guwr',
-      'form' => '`A^g^guwriyy',
-      'lines' => [
-        ';; EAj~uwriy~_1',
-        'EAjwry  EAj~uwriy~      N0      Ajjouri'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Ajjouri'
-      ],
-      'orig' => 'EAj~uwriy~',
+      'orig' => 'Eiz~Ald~iyn',
       'prefix' => ''
     }
   ],
@@ -35458,6 +35471,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`amIrAm' => [
+    {
+      'types' => {},
+      'entry' => '`amiyrAm',
+      'form' => '`amiyrAm',
+      'lines' => [
+        ';; EamiyrAm_1',
+        'EmyrAm  EamiyrAm        N0      Amiram'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Amiram'
+      ],
+      'orig' => 'EamiyrAm',
+      'prefix' => ''
+    }
+  ],
   '` .t r' => [
     {
       'types' => {
@@ -35808,27 +35842,6 @@ $Lexicon = {
         'genius'
       ],
       'orig' => 'Eaboqariy~ap',
-      'prefix' => ''
-    }
-  ],
-  '`abdAllAwiy' => [
-    {
-      'types' => {},
-      'entry' => '`abdAllAwiy',
-      'form' => '`abdAllAwiy',
-      'lines' => [
-        ';; EabodAllAwiy_1',
-        'EbdAllAwy       EabodAllAwiy    Nprop   Abdallawi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdallawi'
-      ],
-      'orig' => 'EabodAllAwiy',
       'prefix' => ''
     }
   ],
@@ -36203,14 +36216,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlkAfiy' => [
+  '`abdAlqayyUm' => [
     {
       'types' => {},
-      'entry' => '`abdAlkAfiy',
-      'form' => '`abdAlkAfiy',
+      'entry' => '`abdAlqayyuwm',
+      'form' => '`abdAlqayyuwm',
       'lines' => [
-        ';; EabodAlkAfiy_1',
-        'EbdAlkAfy       EabodAlkAfiy    Nprop   Abdel Kafi'
+        ';; EabodAlqay~uwm_1',
+        'EbdAlqywm       EabodAlqay~uwm  Nprop   Abdel Qayyoum'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36218,9 +36231,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdel Kafi'
+        'Abdel Qayyoum'
       ],
-      'orig' => 'EabodAlkAfiy',
+      'orig' => 'EabodAlqay~uwm',
       'prefix' => ''
     }
   ],
@@ -36362,6 +36375,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAlmasI.h' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlmasiy.h',
+      'form' => '`abdAlmasiy.h',
+      'lines' => [
+        ';; EabodAlmasiyH_1',
+        'EbdAlmsyH       EabodAlmasiyH   Nprop   Abdel Maseeh'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Maseeh'
+      ],
+      'orig' => 'EabodAlmasiyH',
+      'prefix' => ''
+    }
+  ],
   '`abdAl.hAkim' => [
     {
       'types' => {},
@@ -36380,27 +36414,6 @@ $Lexicon = {
         'Abdel Hakim'
       ],
       'orig' => 'EabodAlHAkim',
-      'prefix' => ''
-    }
-  ],
-  '`abdAl.habiyb' => [
-    {
-      'types' => {},
-      'entry' => '`abdAl.habiyb',
-      'form' => '`abdAl.habiyb',
-      'lines' => [
-        ';; EabodAlHabiyb_1',
-        'EbdAlHbyb       EabodAlHabiyb   Nprop   Abdel Habib'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Habib'
-      ],
-      'orig' => 'EabodAlHabiyb',
       'prefix' => ''
     }
   ],
@@ -36796,14 +36809,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlla.tiyf' => [
+  '`abdAl`.zIm' => [
     {
       'types' => {},
-      'entry' => '`abdAlla.tiyf',
-      'form' => '`abdAlla.tiyf',
+      'entry' => '`abdAl`.ziym',
+      'form' => '`abdAl`.ziym',
       'lines' => [
-        ';; EabodAllaTiyf_1',
-        'EbdAllTyf       EabodAllaTiyf   Nprop   Abdel Lateef'
+        ';; EabodAlEZiym_1',
+        'EbdAlEZym       EabodAlEZiym    Nprop   Abdel Azeem'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36811,28 +36824,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdel Lateef'
+        'Abdel Azeem'
       ],
-      'orig' => 'EabodAllaTiyf',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '`abdAlla.tiyf',
-      'form' => '`abdAlla.tiyfiyy',
-      'lines' => [
-        ';; EabodAllaTiyfiy~_1',
-        'EbdAllTyfy      EabodAllaTiyfiy~        Nprop   Abdel Lateefi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Abdel Lateefi'
-      ],
-      'orig' => 'EabodAllaTiyfiy~',
+      'orig' => 'EabodAlEZiym',
       'prefix' => ''
     }
   ],
@@ -37689,14 +37683,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAl`liym' => [
+  '`immAnU\'Il' => [
     {
       'types' => {},
-      'entry' => '`abdAl`liym',
-      'form' => '`abdAl`liym',
+      'entry' => '`immAnuw\'iyl',
+      'form' => '`immAnuw\'iyl',
       'lines' => [
-        ';; EabodAlEliym_1',
-        'EbdAlElym       EabodAlEliym    Nprop   Abdel Aleem'
+        ';; Eim~Anuw}iyl_1',
+        'EmAnw}yl        Eim~Anuw}iyl    Ndip    Emmanuel'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37704,30 +37698,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdel Aleem'
+        'Emmanuel'
       ],
-      'orig' => 'EabodAlEliym',
-      'prefix' => ''
-    }
-  ],
-  '`abdAl^galiyl' => [
-    {
-      'types' => {},
-      'entry' => '`abdAl^galiyl',
-      'form' => '`abdAl^galiyl',
-      'lines' => [
-        ';; EabodAljaliyl_1',
-        'EbdAljlyl       EabodAljaliyl   Nprop   Abdel Jalil'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Jalil'
-      ],
-      'orig' => 'EabodAljaliyl',
+      'orig' => 'Eim~Anuw}iyl',
       'prefix' => ''
     }
   ],
@@ -37945,27 +37918,6 @@ $Lexicon = {
         'recital'
       ],
       'orig' => 'maEozuwfap',
-      'prefix' => ''
-    }
-  ],
-  '`uwfr' => [
-    {
-      'types' => {},
-      'entry' => '`uwfr',
-      'form' => '`uwfraT',
-      'lines' => [
-        ';; Euwforap_1',
-        'Ewfrp   Euwforap        N0      Ofra'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'Ofra'
-      ],
-      'orig' => 'Euwforap',
       'prefix' => ''
     }
   ],
@@ -38543,6 +38495,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAl.hamId' => [
+    {
+      'types' => {},
+      'entry' => '`abdAl.hamiyd',
+      'form' => '`abdAl.hamiyd',
+      'lines' => [
+        ';; EabodAlHamiyd_1',
+        'EbdAlHmyd       EabodAlHamiyd   Nprop   Abdel Hameed'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Hameed'
+      ],
+      'orig' => 'EabodAlHamiyd',
+      'prefix' => ''
+    }
+  ],
+  '`abdAlrasUl' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlrasuwl',
+      'form' => '`abdAlrasuwl',
+      'lines' => [
+        ';; EabodAlrasuwl_1',
+        'EbdAlrswl       EabodAlrasuwl   Nprop   Abdel Rasoul'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Rasoul'
+      ],
+      'orig' => 'EabodAlrasuwl',
+      'prefix' => ''
+    }
+  ],
   '` b s' => [
     {
       'types' => {
@@ -38927,14 +38921,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlkariym' => [
+  '`abdAlma\'mUn' => [
     {
       'types' => {},
-      'entry' => '`abdAlkariym',
-      'form' => '`abdAlkariym',
+      'entry' => '`abdAlma\'muwn',
+      'form' => '`abdAlma\'muwn',
       'lines' => [
-        ';; EabodAlkariym_1',
-        'EbdAlkrym       EabodAlkariym   Nprop   Abdel Kareem'
+        ';; EabodAlma>omuwn_1',
+        'EbdAlm>mwn      EabodAlma>omuwn Nprop   Abdel Ma\'moun'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38942,9 +38936,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdel Kareem'
+        'Abdel Ma\'moun'
       ],
-      'orig' => 'EabodAlkariym',
+      'orig' => 'EabodAlmaOomuwn',
       'prefix' => ''
     }
   ],
@@ -38999,14 +38993,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlmaniyn' => [
+  '`abdAlwakIl' => [
     {
       'types' => {},
-      'entry' => '`abdAlmaniyn',
-      'form' => '`abdAlmaniyn',
+      'entry' => '`abdAlwakiyl',
+      'form' => '`abdAlwakiyl',
       'lines' => [
-        ';; EabodAlmaniyn_1',
-        'EbdAlmnyn       EabodAlmaniyn   Nprop   Abdel Maneen'
+        ';; EabodAlwakiyl_1',
+        'EbdAlwkyl       EabodAlwakiyl   Nprop   Abdel Wakeel'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39014,9 +39008,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdel Maneen'
+        'Abdel Wakeel'
       ],
-      'orig' => 'EabodAlmaniyn',
+      'orig' => 'EabodAlwakiyl',
       'prefix' => ''
     }
   ],
@@ -39105,27 +39099,6 @@ $Lexicon = {
         'flood'
       ],
       'orig' => 'EubAb',
-      'prefix' => ''
-    }
-  ],
-  '`abdAlmu`.tiy' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlmu`.tiy',
-      'form' => '`abdAlmu`.tiy',
-      'lines' => [
-        ';; EabodAlmuEoTiy_1',
-        'EbdAlmETy       EabodAlmuEoTiy  Nprop   Abdel Mu\'ti'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Mu\'ti'
-      ],
-      'orig' => 'EabodAlmuEoTiy',
       'prefix' => ''
     }
   ],
@@ -41009,28 +40982,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlma^giyd' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlma^giyd',
-      'form' => '`abdAlma^giyd',
-      'lines' => [
-        ';; EabodAlmajiyd_1',
-        'EbdAlmjyd       EabodAlmajiyd   Nprop   Abdel Majeed;Abdel Meguid'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Majeed',
-        'Abdel Meguid'
-      ],
-      'orig' => 'EabodAlmajiyd',
-      'prefix' => ''
-    }
-  ],
   '` \' z' => [
     {
       'types' => {},
@@ -41044,6 +40995,76 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'EA}iz',
+      'prefix' => ''
+    }
+  ],
+  '`ankabUt' => [
+    {
+      'types' => {
+        '`anAkib' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '`ankabuwt',
+      'form' => '`ankabuwt',
+      'lines' => [
+        ';; Eanokabuwt_1',
+        'Enkbwt  Eanokabuwt      Ndu     spider',
+        'EnAkb   EanAkib Ndip    spiders'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'spider',
+        'spiders'
+      ],
+      'orig' => 'Eanokabuwt',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '`ankabuwt',
+      'form' => '`ankabuwtiyy',
+      'lines' => [
+        ';; Eanokabuwtiy~_1',
+        'Enkbwty Eanokabuwtiy~   Nall    spider-like;arachnoid     [[Eanokabuwtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'spider-like',
+        'arachnoid'
+      ],
+      'orig' => 'Eanokabuwtiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '`ankabuwtiyy' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => '`ankabuwt',
+      'form' => '`ankabuwtiyyAt',
+      'lines' => [
+        ';; Eanokabuwtiy~At_1',
+        'Enkbwty Eanokabuwtiy~   NAt     arachnids     [[Eanokabuwtiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy |< At',
+      'suffix' => ' |< Iy |< At',
+      'glosses' => [
+        'arachnids'
+      ],
+      'orig' => 'Eanokabuwtiy~At',
       'prefix' => ''
     }
   ],
@@ -41157,6 +41178,55 @@ $Lexicon = {
         'salubrity'
       ],
       'orig' => 'Ea*Awap',
+      'prefix' => ''
+    }
+  ],
+  '`andalIb' => [
+    {
+      'types' => {
+        '`anAdil' => {
+          'Ndip' => 1
+        },
+        '`andaliyb' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => '`andaliyb',
+      'form' => '`andaliyb',
+      'lines' => [
+        ';; Eanodaliyb_1',
+        'Endlyb  Eanodaliyb      NduAt   nightingale',
+        'EnAdl   EanAdil Ndip    nightingales'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'nightingale',
+        'nightingales'
+      ],
+      'orig' => 'Eanodaliyb',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '`andaliyb',
+      'form' => '`andaliyb',
+      'lines' => [
+        ';; Eanodaliyb_2',
+        'Endlyb  Eanodaliyb      N0      Andalib'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Andalib'
+      ],
+      'orig' => 'Eanodaliyb',
       'prefix' => ''
     }
   ],
@@ -41595,27 +41665,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAl^sakuwr' => [
-    {
-      'types' => {},
-      'entry' => '`abdAl^sakuwr',
-      'form' => '`abdAl^sakuwr',
-      'lines' => [
-        ';; EabodAl$akuwr_1',
-        'EbdAl$kwr       EabodAl$akuwr   Nprop   Abdel Shakour'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Shakour'
-      ],
-      'orig' => 'EabodAl$akuwr',
-      'prefix' => ''
-    }
-  ],
   '` y h' => [
     {
       'types' => {},
@@ -41852,6 +41901,28 @@ $Lexicon = {
         'critical'
       ],
       'orig' => 'Eatiyl',
+      'prefix' => ''
+    }
+  ],
+  'ya`qUb' => [
+    {
+      'types' => {},
+      'entry' => 'ya`quwb',
+      'form' => 'ya`quwb',
+      'lines' => [
+        ';; yaEoquwb_1',
+        'yEqwb   yaEoquwb        Nprop   Yaqoub;Jacob'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Yaqoub',
+        'Jacob'
+      ],
+      'orig' => 'yaEoquwb',
       'prefix' => ''
     }
   ],
@@ -42250,6 +42321,36 @@ $Lexicon = {
         'points'
       ],
       'orig' => 'EalAmap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'a`Aliym' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'u`luwm',
+      'form' => '\'u`luwmaT',
+      'lines' => [
+        ';; >uEoluwmap_1',
+        '>Elwm   >uEoluwm        Napdu   sign',
+        'AElwm   >uEoluwm        Napdu   sign',
+        '>EAlym  >aEAliym        Ndip    sign',
+        'AEAlym  >aEAliym        Ndip    sign'
+      ],
+      'patterns' => {
+        '\'a`Aliym' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'sign'
+      ],
+      'orig' => 'OuEoluwmap',
       'prefix' => ''
     },
     {
@@ -44242,27 +44343,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlmuta`Aliy' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlmuta`Aliy',
-      'form' => '`abdAlmuta`Aliy',
-      'lines' => [
-        ';; EabodAlmutaEAliy_1',
-        'EbdAlmtEAly     EabodAlmutaEAliy        Nprop   Abdel Mutaali'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Mutaali'
-      ],
-      'orig' => 'EabodAlmutaEAliy',
-      'prefix' => ''
-    }
-  ],
   '` n d l' => [
     {
       'types' => {
@@ -44309,27 +44389,6 @@ $Lexicon = {
         'nightingale\'s song'
       ],
       'orig' => 'Eanodalap',
-      'prefix' => ''
-    }
-  ],
-  '`abdAlwakiyl' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlwakiyl',
-      'form' => '`abdAlwakiyl',
-      'lines' => [
-        ';; EabodAlwakiyl_1',
-        'EbdAlwkyl       EabodAlwakiyl   Nprop   Abdel Wakeel'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Wakeel'
-      ],
-      'orig' => 'EabodAlwakiyl',
       'prefix' => ''
     }
   ],
@@ -44452,6 +44511,27 @@ $Lexicon = {
         'clustering'
       ],
       'orig' => 'taEanoqud',
+      'prefix' => ''
+    }
+  ],
+  '`abdAlmu`.tI' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlmu`.tiy',
+      'form' => '`abdAlmu`.tiy',
+      'lines' => [
+        ';; EabodAlmuEoTiy_1',
+        'EbdAlmETy       EabodAlmuEoTiy  Nprop   Abdel Mu\'ti'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Mu\'ti'
+      ],
+      'orig' => 'EabodAlmuEoTiy',
       'prefix' => ''
     }
   ],
@@ -45239,27 +45319,6 @@ $Lexicon = {
         'lofty'
       ],
       'orig' => 'musotaEoliy',
-      'prefix' => ''
-    }
-  ],
-  '`abdAlmasiy.h' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlmasiy.h',
-      'form' => '`abdAlmasiy.h',
-      'lines' => [
-        ';; EabodAlmasiyH_1',
-        'EbdAlmsyH       EabodAlmasiyH   Nprop   Abdel Maseeh'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Maseeh'
-      ],
-      'orig' => 'EabodAlmasiyH',
       'prefix' => ''
     }
   ],
@@ -46851,27 +46910,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAl.sabuwr' => [
-    {
-      'types' => {},
-      'entry' => '`abdAl.sabuwr',
-      'form' => '`abdAl.sabuwr',
-      'lines' => [
-        ';; EabodAlSabuwr_1',
-        'EbdAlSbwr       EabodAlSabuwr   Nprop   Abdel Sabour'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Sabour'
-      ],
-      'orig' => 'EabodAlSabuwr',
-      'prefix' => ''
-    }
-  ],
   '`abdAlra.hman' => [
     {
       'types' => {},
@@ -48438,6 +48476,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAl^galIl' => [
+    {
+      'types' => {},
+      'entry' => '`abdAl^galiyl',
+      'form' => '`abdAl^galiyl',
+      'lines' => [
+        ';; EabodAljaliyl_1',
+        'EbdAljlyl       EabodAljaliyl   Nprop   Abdel Jalil'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Jalil'
+      ],
+      'orig' => 'EabodAljaliyl',
+      'prefix' => ''
+    }
+  ],
   '` .s b' => [
     {
       'types' => {
@@ -48995,48 +49054,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlwaduwd' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlwaduwd',
-      'form' => '`abdAlwaduwd',
-      'lines' => [
-        ';; EabodAlwaduwd_1',
-        'EbdAlwdwd       EabodAlwaduwd   Nprop   Abdel Wadoud'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Wadoud'
-      ],
-      'orig' => 'EabodAlwaduwd',
-      'prefix' => ''
-    }
-  ],
-  'mawA`iziyz' => [
-    {
-      'types' => {},
-      'entry' => 'mawA`iziyz',
-      'form' => 'mawA`iziyz',
-      'lines' => [
-        ';; mawAEiziyz_1',
-        'mwAEzyz mawAEiziyz      N0      Moaziz'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Moaziz'
-      ],
-      'orig' => 'mawAEiziyz',
-      'prefix' => ''
-    }
-  ],
   '`amrw' => [
     {
       'types' => {},
@@ -49194,27 +49211,6 @@ $Lexicon = {
         'encampment'
       ],
       'orig' => 'muEasokar',
-      'prefix' => ''
-    }
-  ],
-  '`abdAl`aziyz' => [
-    {
-      'types' => {},
-      'entry' => '`abdAl`aziyz',
-      'form' => '`abdAl`aziyz',
-      'lines' => [
-        ';; EabodAlEaziyz_1',
-        'EbdAlEzyz       EabodAlEaziyz   Nprop   Abdel Aziz'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Aziz'
-      ],
-      'orig' => 'EabodAlEaziyz',
       'prefix' => ''
     }
   ],
@@ -49910,27 +49906,6 @@ $Lexicon = {
         'mendicants'
       ],
       'orig' => 'musotaEoTiy',
-      'prefix' => ''
-    }
-  ],
-  '`abdAl^sAfiy' => [
-    {
-      'types' => {},
-      'entry' => '`abdAl^sAfiy',
-      'form' => '`abdAl^sAfiy',
-      'lines' => [
-        ';; EabodAl$Afiy_1',
-        'EbdAl$Afy       EabodAl$Afiy    Nprop   Abdel Shafi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Shafi'
-      ],
-      'orig' => 'EabodAl$Afiy',
       'prefix' => ''
     }
   ],
@@ -51623,14 +51598,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`izrA\'iyl' => [
+  '`abdAlla.tIf' => [
     {
       'types' => {},
-      'entry' => '`izrA\'iyl',
-      'form' => '`izrA\'iyl',
+      'entry' => '`abdAlla.tiyf',
+      'form' => '`abdAlla.tiyf',
       'lines' => [
-        ';; EizorA}iyl_1',
-        'EzrA}yl EizorA}iyl      Ndip    Azrael'
+        ';; EabodAllaTiyf_1',
+        'EbdAllTyf       EabodAllaTiyf   Nprop   Abdel Lateef'
       ],
       'patterns' => {},
       'index' => '1',
@@ -51638,9 +51613,49 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Azrael'
+        'Abdel Lateef'
       ],
-      'orig' => 'EizorA}iyl',
+      'orig' => 'EabodAllaTiyf',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '`abdAlla.tiyf',
+      'form' => '`abdAlla.tiyfiyy',
+      'lines' => [
+        ';; EabodAllaTiyfiy~_1',
+        'EbdAllTyfy      EabodAllaTiyfiy~        Nprop   Abdel Lateefi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Abdel Lateefi'
+      ],
+      'orig' => 'EabodAllaTiyfiy~',
+      'prefix' => ''
+    }
+  ],
+  '`abdAlbArI' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlbAriy',
+      'form' => '`abdAlbAriy',
+      'lines' => [
+        ';; EabodAlbAriy_1',
+        'EbdAlbAry       EabodAlbAriy    Nprop   Abdel Bari'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Bari'
+      ],
+      'orig' => 'EabodAlbAriy',
       'prefix' => ''
     }
   ],
@@ -52248,6 +52263,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAlra\'Uf' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlra\'uwf',
+      'form' => '`abdAlra\'uwf',
+      'lines' => [
+        ';; EabodAlra&uwf_1',
+        'EbdAlr&wf       EabodAlra&uwf   Nprop   Abdel Raouf'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Raouf'
+      ],
+      'orig' => 'EabodAlraWuwf',
+      'prefix' => ''
+    }
+  ],
   '`indahA' => [
     {
       'types' => {},
@@ -52267,6 +52303,48 @@ $Lexicon = {
         'at that moment'
       ],
       'orig' => 'EinodahA',
+      'prefix' => ''
+    }
+  ],
+  '`abdAlqadIr' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlqadiyr',
+      'form' => '`abdAlqadiyr',
+      'lines' => [
+        ';; EabodAlqadiyr_1',
+        'EbdAlqdyr       EabodAlqadiyr   Nprop   Abdel Qadeer'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Qadeer'
+      ],
+      'orig' => 'EabodAlqadiyr',
+      'prefix' => ''
+    }
+  ],
+  '`abdAlkabIr' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlkabiyr',
+      'form' => '`abdAlkabiyr',
+      'lines' => [
+        ';; EabodAlkabiyr_1',
+        'EbdAlkbyr       EabodAlkabiyr   Nprop   Abdel Kabeer'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Kabeer'
+      ],
+      'orig' => 'EabodAlkabiyr',
       'prefix' => ''
     }
   ],
@@ -52417,14 +52495,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlmuwalliy' => [
+  '`abdAlnUr' => [
     {
       'types' => {},
-      'entry' => '`abdAlmuwalliy',
-      'form' => '`abdAlmuwalliy',
+      'entry' => '`abdAlnuwr',
+      'form' => '`abdAlnuwr',
       'lines' => [
-        ';; EabodAlmuwal~iy_1',
-        'EbdAlmwly       EabodAlmuwal~iy Nprop   Abdel Muwalli'
+        ';; EabodAlnuwr_1',
+        'EbdAlnwr        EabodAlnuwr     Nprop   Abdel Nour'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52432,30 +52510,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdel Muwalli'
+        'Abdel Nour'
       ],
-      'orig' => 'EabodAlmuwal~iy',
-      'prefix' => ''
-    }
-  ],
-  '`abdAlrA.diy' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlrA.diy',
-      'form' => '`abdAlrA.diy',
-      'lines' => [
-        ';; EabodAlrADiy_1',
-        'EbdAlrADy       EabodAlrADiy    Nprop   Abdel Radi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Radi'
-      ],
-      'orig' => 'EabodAlrADiy',
+      'orig' => 'EabodAlnuwr',
       'prefix' => ''
     }
   ],
@@ -52586,14 +52643,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`alA\'Alddiyn' => [
+  '`abdAlwa.hId' => [
     {
       'types' => {},
-      'entry' => '`alA\'Alddiyn',
-      'form' => '`alA\'Alddiyn',
+      'entry' => '`abdAlwa.hiyd',
+      'form' => '`abdAlwa.hiyd',
       'lines' => [
-        ';; EalA\'Ald~iyn_1',
-        'ElA\'Aldyn       EalA\'Ald~iyn    Nprop   Alaa Eddin;Alaa Al-Din;Aladdin'
+        ';; EabodAlwaHiyd_1',
+        'EbdAlwHyd       EabodAlwaHiyd   Nprop   Abdel Waheed'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52601,11 +52658,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Alaa Eddin',
-        'Alaa Al-Din',
-        'Aladdin'
+        'Abdel Waheed'
       ],
-      'orig' => 'EalA\'Ald~iyn',
+      'orig' => 'EabodAlwaHiyd',
       'prefix' => ''
     }
   ],
@@ -53440,6 +53495,270 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '` _t r' => [
+    {
+      'types' => {
+        '`_tur' => {
+          'IV' => 1
+        },
+        '`_tar' => {
+          'IV_Pass_yu' => 1
+        }
+      },
+      'entry' => '`a_tar',
+      'form' => '`a_tar',
+      'lines' => [
+        ';; Eavar-u_1',
+        'Evr     Eavar   PV      discover;come across;find',
+        'Evr     Eovur   IV      discover;come across;find',
+        'Evr     Eovar   IV_Pass_yu      be discovered;be found'
+      ],
+      'patterns' => {
+        '`_tur' => [
+          'FCuL'
+        ],
+        '`_tar' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'discover',
+        'come across',
+        'find',
+        'be discovered',
+        'be found'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'Eavar-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '`a_t_tir' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '`a_t_tar',
+      'form' => '`a_t_tar',
+      'lines' => [
+        ';; Eav~ar_1',
+        'Evr     Eav~ar  PV      make stumble',
+        'Evr     Eav~ir  IV_yu   make stumble'
+      ],
+      'patterns' => {
+        '`a_t_tir' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'make stumble'
+      ],
+      'orig' => 'Eav~ar',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '`_tir' => {
+          'IV_yu' => 1
+        },
+        '`_tar' => {
+          'IV_Pass_yu' => 1
+        }
+      },
+      'entry' => '\'a`_tar',
+      'form' => '\'a`_tar',
+      'lines' => [
+        ';; >aEovar_1',
+        '>Evr    >aEovar PV      make stumble',
+        'AEvr    >aEovar PV      make stumble',
+        'Evr     Eovir   IV_yu   make stumble',
+        'Evr     Eovar   IV_Pass_yu      be make stumble'
+      ],
+      'patterns' => {
+        '`_tir' => [
+          'FCiL'
+        ],
+        '`_tar' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'make stumble',
+        'be make stumble'
+      ],
+      'orig' => 'OaEovar',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta`a_t_tar',
+      'form' => 'ta`a_t_tar',
+      'lines' => [
+        ';; taEav~ar_1',
+        'tEvr    taEav~ar        PV      crawl;move slowly;stall',
+        'tEvr    taEav~ar        IV      crawl;move slowly;stall'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'crawl',
+        'move slowly',
+        'stall'
+      ],
+      'orig' => 'taEav~ar',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '`a_tar' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => '`a_tr',
+      'form' => '`a_traT',
+      'lines' => [
+        ';; Eavorap_1',
+        'Evr     Eavor   Napdu   stumble;lapse;slip',
+        'Evr     Eavar   NAt     stumbling;lapses'
+      ],
+      'patterns' => {
+        '`a_tar' => [
+          'FaCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'stumble',
+        'lapse',
+        'slip',
+        'stumbling',
+        'lapses'
+      ],
+      'orig' => 'Eavorap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '`u_tuwr' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => '`u_tuwr',
+      'form' => '`u_tuwr',
+      'lines' => [
+        ';; Euvuwr_1',
+        'Evwr    Euvuwr  N/At    discovery'
+      ],
+      'patterns' => {
+        '`u_tuwr' => [
+          'FuCUL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCUL',
+      'suffix' => '',
+      'glosses' => [
+        'discovery'
+      ],
+      'orig' => 'Euvuwr',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '`awA_tiyr' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '`A_tuwr',
+      'form' => '`A_tuwr',
+      'lines' => [
+        ';; EAvuwr_1',
+        'EAvwr   EAvuwr  Ndu     pitfall;difficulty',
+        'EwAvyr  EawAviyr        Ndip    pitfalls;difficulties'
+      ],
+      'patterns' => {
+        '`awA_tiyr' => [
+          'FawACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACUL',
+      'suffix' => '',
+      'glosses' => [
+        'pitfall',
+        'difficulty',
+        'pitfalls',
+        'difficulties'
+      ],
+      'orig' => 'EAvuwr',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu`a_t_tir',
+      'form' => 'mu`a_t_tir',
+      'lines' => [
+        ';; muEav~ir_1',
+        'mEvr    muEav~ir        Nall    stumbling;tripping     [[muEav~ir/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFaCCiL',
+      'suffix' => '',
+      'glosses' => [
+        'stumbling',
+        'tripping'
+      ],
+      'orig' => 'muEav~ir',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muta`a_t_tir',
+      'form' => 'muta`a_t_tir',
+      'lines' => [
+        ';; mutaEav~ir_1',
+        'mtEvr   mutaEav~ir      Nall    failing;stalled     [[mutaEav~ir/ADJ]]',
+        'mtEvr   mutaEav~ir      Nall    stumbling;crawling     [[mutaEav~ir/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MutaFaCCiL',
+      'suffix' => '',
+      'glosses' => [
+        'failing',
+        'stalled',
+        'stumbling',
+        'crawling'
+      ],
+      'orig' => 'mutaEav~ir',
+      'prefix' => ''
+    }
+  ],
   '` s f' => [
     {
       'types' => {
@@ -53793,270 +54112,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '` _t r' => [
-    {
-      'types' => {
-        '`_tur' => {
-          'IV' => 1
-        },
-        '`_tar' => {
-          'IV_Pass_yu' => 1
-        }
-      },
-      'entry' => '`a_tar',
-      'form' => '`a_tar',
-      'lines' => [
-        ';; Eavar-u_1',
-        'Evr     Eavar   PV      discover;come across;find',
-        'Evr     Eovur   IV      discover;come across;find',
-        'Evr     Eovar   IV_Pass_yu      be discovered;be found'
-      ],
-      'patterns' => {
-        '`_tur' => [
-          'FCuL'
-        ],
-        '`_tar' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'discover',
-        'come across',
-        'find',
-        'be discovered',
-        'be found'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'Eavar-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '`a_t_tir' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '`a_t_tar',
-      'form' => '`a_t_tar',
-      'lines' => [
-        ';; Eav~ar_1',
-        'Evr     Eav~ar  PV      make stumble',
-        'Evr     Eav~ir  IV_yu   make stumble'
-      ],
-      'patterns' => {
-        '`a_t_tir' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'make stumble'
-      ],
-      'orig' => 'Eav~ar',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '`_tir' => {
-          'IV_yu' => 1
-        },
-        '`_tar' => {
-          'IV_Pass_yu' => 1
-        }
-      },
-      'entry' => '\'a`_tar',
-      'form' => '\'a`_tar',
-      'lines' => [
-        ';; >aEovar_1',
-        '>Evr    >aEovar PV      make stumble',
-        'AEvr    >aEovar PV      make stumble',
-        'Evr     Eovir   IV_yu   make stumble',
-        'Evr     Eovar   IV_Pass_yu      be make stumble'
-      ],
-      'patterns' => {
-        '`_tir' => [
-          'FCiL'
-        ],
-        '`_tar' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'make stumble',
-        'be make stumble'
-      ],
-      'orig' => 'OaEovar',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta`a_t_tar',
-      'form' => 'ta`a_t_tar',
-      'lines' => [
-        ';; taEav~ar_1',
-        'tEvr    taEav~ar        PV      crawl;move slowly;stall',
-        'tEvr    taEav~ar        IV      crawl;move slowly;stall'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'crawl',
-        'move slowly',
-        'stall'
-      ],
-      'orig' => 'taEav~ar',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '`a_tar' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => '`a_tr',
-      'form' => '`a_traT',
-      'lines' => [
-        ';; Eavorap_1',
-        'Evr     Eavor   Napdu   stumble;lapse;slip',
-        'Evr     Eavar   NAt     stumbling;lapses'
-      ],
-      'patterns' => {
-        '`a_tar' => [
-          'FaCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'stumble',
-        'lapse',
-        'slip',
-        'stumbling',
-        'lapses'
-      ],
-      'orig' => 'Eavorap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '`u_tuwr' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => '`u_tuwr',
-      'form' => '`u_tuwr',
-      'lines' => [
-        ';; Euvuwr_1',
-        'Evwr    Euvuwr  N/At    discovery'
-      ],
-      'patterns' => {
-        '`u_tuwr' => [
-          'FuCUL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCUL',
-      'suffix' => '',
-      'glosses' => [
-        'discovery'
-      ],
-      'orig' => 'Euvuwr',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '`awA_tiyr' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '`A_tuwr',
-      'form' => '`A_tuwr',
-      'lines' => [
-        ';; EAvuwr_1',
-        'EAvwr   EAvuwr  Ndu     pitfall;difficulty',
-        'EwAvyr  EawAviyr        Ndip    pitfalls;difficulties'
-      ],
-      'patterns' => {
-        '`awA_tiyr' => [
-          'FawACIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACUL',
-      'suffix' => '',
-      'glosses' => [
-        'pitfall',
-        'difficulty',
-        'pitfalls',
-        'difficulties'
-      ],
-      'orig' => 'EAvuwr',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu`a_t_tir',
-      'form' => 'mu`a_t_tir',
-      'lines' => [
-        ';; muEav~ir_1',
-        'mEvr    muEav~ir        Nall    stumbling;tripping     [[muEav~ir/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFaCCiL',
-      'suffix' => '',
-      'glosses' => [
-        'stumbling',
-        'tripping'
-      ],
-      'orig' => 'muEav~ir',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'muta`a_t_tir',
-      'form' => 'muta`a_t_tir',
-      'lines' => [
-        ';; mutaEav~ir_1',
-        'mtEvr   mutaEav~ir      Nall    failing;stalled     [[mutaEav~ir/ADJ]]',
-        'mtEvr   mutaEav~ir      Nall    stumbling;crawling     [[mutaEav~ir/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MutaFaCCiL',
-      'suffix' => '',
-      'glosses' => [
-        'failing',
-        'stalled',
-        'stumbling',
-        'crawling'
-      ],
-      'orig' => 'mutaEav~ir',
-      'prefix' => ''
-    }
-  ],
   '` m n' => [
     {
       'types' => {},
@@ -54133,6 +54188,27 @@ $Lexicon = {
         'from/about whom'
       ],
       'orig' => 'Eam~an',
+      'prefix' => ''
+    }
+  ],
+  '`abdAl`azIz' => [
+    {
+      'types' => {},
+      'entry' => '`abdAl`aziyz',
+      'form' => '`abdAl`aziyz',
+      'lines' => [
+        ';; EabodAlEaziyz_1',
+        'EbdAlEzyz       EabodAlEaziyz   Nprop   Abdel Aziz'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Aziz'
+      ],
+      'orig' => 'EabodAlEaziyz',
       'prefix' => ''
     }
   ],
@@ -54471,6 +54547,66 @@ $Lexicon = {
     },
     {
       'types' => {
+        'b\'u`^guwbT' => {
+          'FW-Wa' => 2
+        }
+      },
+      'entry' => '\'u`^guwb',
+      'form' => '\'u`^guwbaT',
+      'lines' => [
+        ';; >uEojuwbap_1',
+        '>Ejwb   >uEojuwb        Napdu   miracle',
+        'AEjwb   >uEojuwb        Napdu   miracle',
+        'b>Ejwbp b>uEojuwbp      FW-Wa   miraculously     [[bi/PREP+>uEojuwbap/NOUN]]',
+        'bAEjwbp b>uEojuwbp      FW-Wa   miraculously     [[bi/PREP+>uEojuwbap/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'miracle',
+        'miraculously'
+      ],
+      'orig' => 'OuEojuwbap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'a`A^giyb' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'u`^guwb',
+      'form' => '\'u`^guwbaT',
+      'lines' => [
+        ';; >uEojuwbap_2',
+        '>Ejwb   >uEojuwb        Napdu   marvel;wonder',
+        'AEjwb   >uEojuwb        Napdu   marvel;wonder',
+        '>EAjyb  >aEAjiyb        Ndip    marvels;wonders',
+        'AEAjyb  >aEAjiyb        Ndip    marvels;wonders'
+      ],
+      'patterns' => {
+        '\'a`A^giyb' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'marvel',
+        'wonder',
+        'marvels',
+        'wonders'
+      ],
+      'orig' => 'OuEojuwbap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'ta`^giyb' => {
           'NAt' => 1
         }
@@ -54640,28 +54776,6 @@ $Lexicon = {
         'astonished'
       ],
       'orig' => 'mutaEaj~ib',
-      'prefix' => ''
-    }
-  ],
-  '`illiyyuwn' => [
-    {
-      'types' => {},
-      'entry' => '`illiyyuwn',
-      'form' => '`illiyyuwn',
-      'lines' => [
-        ';; Eil~iy~uwn_1',
-        'Elywn   Eil~iy~uwn      N       uppermost heaven;highest class'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'uppermost heaven',
-        'highest class'
-      ],
-      'orig' => 'Eil~iy~uwn',
       'prefix' => ''
     }
   ],
@@ -55602,6 +55716,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAlwAlI' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlwAliy',
+      'form' => '`abdAlwAliy',
+      'lines' => [
+        ';; EabodAlwAliy_1',
+        'EbdAlwAly       EabodAlwAliy    Nprop   Abdel Wali'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Wali'
+      ],
+      'orig' => 'EabodAlwAliy',
+      'prefix' => ''
+    }
+  ],
   '` w d' => [
     {
       'types' => {
@@ -56476,27 +56611,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAl`.ziym' => [
-    {
-      'types' => {},
-      'entry' => '`abdAl`.ziym',
-      'form' => '`abdAl`.ziym',
-      'lines' => [
-        ';; EabodAlEZiym_1',
-        'EbdAlEZym       EabodAlEZiym    Nprop   Abdel Azeem'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Azeem'
-      ],
-      'orig' => 'EabodAlEZiym',
-      'prefix' => ''
-    }
-  ],
   '` y d d' => [
     {
       'types' => {},
@@ -57041,27 +57155,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAl.haliym' => [
-    {
-      'types' => {},
-      'entry' => '`abdAl.haliym',
-      'form' => '`abdAl.haliym',
-      'lines' => [
-        ';; EabodAlHaliym_1',
-        'EbdAlHlym       EabodAlHaliym   Nprop   Abdel Haleem'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Haleem'
-      ],
-      'orig' => 'EabodAlHaliym',
-      'prefix' => ''
-    }
-  ],
   '` y ^s' => [
     {
       'types' => {
@@ -57541,6 +57634,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAlmanIn' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlmaniyn',
+      'form' => '`abdAlmaniyn',
+      'lines' => [
+        ';; EabodAlmaniyn_1',
+        'EbdAlmnyn       EabodAlmaniyn   Nprop   Abdel Maneen'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Maneen'
+      ],
+      'orig' => 'EabodAlmaniyn',
+      'prefix' => ''
+    }
+  ],
   '` t r' => [
     {
       'types' => {},
@@ -57629,6 +57743,27 @@ $Lexicon = {
         'Abdel Sayyid'
       ],
       'orig' => 'EabodAlsay~id',
+      'prefix' => ''
+    }
+  ],
+  '`Ufr' => [
+    {
+      'types' => {},
+      'entry' => '`uwfr',
+      'form' => '`uwfraT',
+      'lines' => [
+        ';; Euwforap_1',
+        'Ewfrp   Euwforap        N0      Ofra'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'Ofra'
+      ],
+      'orig' => 'Euwforap',
       'prefix' => ''
     }
   ],
@@ -58232,28 +58367,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`a.zamuwt' => [
-    {
-      'types' => {},
-      'entry' => '`a.zamuwt',
-      'form' => '`a.zamuwt',
-      'lines' => [
-        ';; EaZamuwt_1',
-        'EZmwt   EaZamuwt        N       grandeur;power'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'grandeur',
-        'power'
-      ],
-      'orig' => 'EaZamuwt',
-      'prefix' => ''
-    }
-  ],
   '` .t b' => [
     {
       'types' => {
@@ -58605,6 +58718,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAl.habIb' => [
+    {
+      'types' => {},
+      'entry' => '`abdAl.habiyb',
+      'form' => '`abdAl.habiyb',
+      'lines' => [
+        ';; EabodAlHabiyb_1',
+        'EbdAlHbyb       EabodAlHabiyb   Nprop   Abdel Habib'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Habib'
+      ],
+      'orig' => 'EabodAlHabiyb',
+      'prefix' => ''
+    }
+  ],
   '` t k' => [
     {
       'types' => {
@@ -58773,6 +58907,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAlna`Im' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlna`iym',
+      'form' => '`abdAlna`iym',
+      'lines' => [
+        ';; EabodAlnaEiym_1',
+        'EbdAlnEym       EabodAlnaEiym   Nprop   Abdel Naeem'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Naeem'
+      ],
+      'orig' => 'EabodAlnaEiym',
+      'prefix' => ''
+    }
+  ],
   '`abdAldAr' => [
     {
       'types' => {},
@@ -58791,27 +58946,6 @@ $Lexicon = {
         'Abdel Dar'
       ],
       'orig' => 'EabodAldAr',
-      'prefix' => ''
-    }
-  ],
-  '`abdAlwAliy' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlwAliy',
-      'form' => '`abdAlwAliy',
-      'lines' => [
-        ';; EabodAlwAliy_1',
-        'EbdAlwAly       EabodAlwAliy    Nprop   Abdel Wali'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Wali'
-      ],
-      'orig' => 'EabodAlwAliy',
       'prefix' => ''
     }
   ],
@@ -59404,6 +59538,29 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`alA\'AlddIn' => [
+    {
+      'types' => {},
+      'entry' => '`alA\'Alddiyn',
+      'form' => '`alA\'Alddiyn',
+      'lines' => [
+        ';; EalA\'Ald~iyn_1',
+        'ElA\'Aldyn       EalA\'Ald~iyn    Nprop   Alaa Eddin;Alaa Al-Din;Aladdin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Alaa Eddin',
+        'Alaa Al-Din',
+        'Aladdin'
+      ],
+      'orig' => 'EalA\'Ald~iyn',
+      'prefix' => ''
+    }
+  ],
   '` w \'' => [
     {
       'types' => {},
@@ -59464,14 +59621,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlwa.hiyd' => [
+  '`abdAlmuta`AlI' => [
     {
       'types' => {},
-      'entry' => '`abdAlwa.hiyd',
-      'form' => '`abdAlwa.hiyd',
+      'entry' => '`abdAlmuta`Aliy',
+      'form' => '`abdAlmuta`Aliy',
       'lines' => [
-        ';; EabodAlwaHiyd_1',
-        'EbdAlwHyd       EabodAlwaHiyd   Nprop   Abdel Waheed'
+        ';; EabodAlmutaEAliy_1',
+        'EbdAlmtEAly     EabodAlmutaEAliy        Nprop   Abdel Mutaali'
       ],
       'patterns' => {},
       'index' => '1',
@@ -59479,9 +59636,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdel Waheed'
+        'Abdel Mutaali'
       ],
-      'orig' => 'EabodAlwaHiyd',
+      'orig' => 'EabodAlmutaEAliy',
       'prefix' => ''
     }
   ],
@@ -59503,6 +59660,27 @@ $Lexicon = {
         'Akrama'
       ],
       'orig' => 'Eakoramap',
+      'prefix' => ''
+    }
+  ],
+  '`abdAl.hasIb' => [
+    {
+      'types' => {},
+      'entry' => '`abdAl.hasiyb',
+      'form' => '`abdAl.hasiyb',
+      'lines' => [
+        ';; EabodAlHasiyb_1',
+        'EbdAlHsyb       EabodAlHasiyb   Nprop   Abdel Haseeb'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Haseeb'
+      ],
+      'orig' => 'EabodAlHasiyb',
       'prefix' => ''
     }
   ],
@@ -60926,27 +61104,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`amiyrAm' => [
-    {
-      'types' => {},
-      'entry' => '`amiyrAm',
-      'form' => '`amiyrAm',
-      'lines' => [
-        ';; EamiyrAm_1',
-        'EmyrAm  EamiyrAm        N0      Amiram'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Amiram'
-      ],
-      'orig' => 'EamiyrAm',
-      'prefix' => ''
-    }
-  ],
   '`abdAlmalik' => [
     {
       'types' => {},
@@ -60965,6 +61122,27 @@ $Lexicon = {
         'Abdel Malik'
       ],
       'orig' => 'EabodAlmalik',
+      'prefix' => ''
+    }
+  ],
+  '`abdAlwadUd' => [
+    {
+      'types' => {},
+      'entry' => '`abdAlwaduwd',
+      'form' => '`abdAlwaduwd',
+      'lines' => [
+        ';; EabodAlwaduwd_1',
+        'EbdAlwdwd       EabodAlwaduwd   Nprop   Abdel Wadoud'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Wadoud'
+      ],
+      'orig' => 'EabodAlwaduwd',
       'prefix' => ''
     }
   ],
@@ -61691,27 +61869,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlra.hiym' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlra.hiym',
-      'form' => '`abdAlra.hiym',
-      'lines' => [
-        ';; EabodAlraHiym_1',
-        'EbdAlrHym       EabodAlraHiym   Nprop   Abdel Raheem'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Raheem'
-      ],
-      'orig' => 'EabodAlraHiym',
-      'prefix' => ''
-    }
-  ],
   '` ^g l' => [
     {
       'types' => {
@@ -62383,54 +62540,6 @@ $Lexicon = {
         'urgent'
       ],
       'orig' => 'musotaEojal',
-      'prefix' => ''
-    }
-  ],
-  '`abdAlna`iym' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlna`iym',
-      'form' => '`abdAlna`iym',
-      'lines' => [
-        ';; EabodAlnaEiym_1',
-        'EbdAlnEym       EabodAlnaEiym   Nprop   Abdel Naeem'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Naeem'
-      ],
-      'orig' => 'EabodAlnaEiym',
-      'prefix' => ''
-    }
-  ],
-  'ya`buwb' => [
-    {
-      'types' => {
-        'ya`Abiyb' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'ya`buwb',
-      'form' => 'ya`buwb',
-      'lines' => [
-        ';; yaEobuwb_1',
-        'yEbwb   yaEobuwb        Ndu     torrent',
-        'yEAbyb  yaEAbiyb        Ndip    torrents'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'torrent',
-        'torrents'
-      ],
-      'orig' => 'yaEobuwb',
       'prefix' => ''
     }
   ],
@@ -63519,14 +63628,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlra.hmAniy' => [
+  '`abdAlbAqI' => [
     {
       'types' => {},
-      'entry' => '`abdAlra.hmAniy',
-      'form' => '`abdAlra.hmAniy',
+      'entry' => '`abdAlbAqiy',
+      'form' => '`abdAlbAqiy',
       'lines' => [
-        ';; EabodAlraHomAniy_1',
-        'EbdAlrHmAny     EabodAlraHomAniy        Nprop   Abdel Rahmani'
+        ';; EabodAlbAqiy_1',
+        'EbdAlbAqy       EabodAlbAqiy    Nprop   Abdel Baqi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -63534,9 +63643,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdel Rahmani'
+        'Abdel Baqi'
       ],
-      'orig' => 'EabodAlraHomAniy',
+      'orig' => 'EabodAlbAqiy',
       'prefix' => ''
     }
   ],
@@ -63580,27 +63689,6 @@ $Lexicon = {
         'thorny shrubs'
       ],
       'orig' => 'EiDAh',
-      'prefix' => ''
-    }
-  ],
-  '`iydaruws' => [
-    {
-      'types' => {},
-      'entry' => '`iydaruws',
-      'form' => '`iydaruws',
-      'lines' => [
-        ';; Eiydaruws_1',
-        'Eydrws  Eiydaruws       Nprop   Eidarous'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Eidarous'
-      ],
-      'orig' => 'Eiydaruws',
       'prefix' => ''
     }
   ],
@@ -63839,27 +63927,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlqadiyr' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlqadiyr',
-      'form' => '`abdAlqadiyr',
-      'lines' => [
-        ';; EabodAlqadiyr_1',
-        'EbdAlqdyr       EabodAlqadiyr   Nprop   Abdel Qadeer'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Qadeer'
-      ],
-      'orig' => 'EabodAlqadiyr',
-      'prefix' => ''
-    }
-  ],
   '`abdAlra.hmAn' => [
     {
       'types' => {},
@@ -63878,6 +63945,27 @@ $Lexicon = {
         'Abdel Rahman'
       ],
       'orig' => 'EabodAlraHomAn',
+      'prefix' => ''
+    }
+  ],
+  '`IdarUs' => [
+    {
+      'types' => {},
+      'entry' => '`iydaruws',
+      'form' => '`iydaruws',
+      'lines' => [
+        ';; Eiydaruws_1',
+        'Eydrws  Eiydaruws       Nprop   Eidarous'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Eidarous'
+      ],
+      'orig' => 'Eiydaruws',
       'prefix' => ''
     }
   ],
@@ -64205,6 +64293,27 @@ $Lexicon = {
         'muscle building'
       ],
       'orig' => 'taEoDiyl',
+      'prefix' => ''
+    }
+  ],
+  '`abdalI' => [
+    {
+      'types' => {},
+      'entry' => '`abdaliy',
+      'form' => '`abdaliy',
+      'lines' => [
+        ';; Eabodaliy_1',
+        'Ebdly   Eabodaliy       N0      Abdali'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdali'
+      ],
+      'orig' => 'Eabodaliy',
       'prefix' => ''
     }
   ],
@@ -64675,76 +64784,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'muEaz~iy',
-      'prefix' => ''
-    }
-  ],
-  '`ankabuwt' => [
-    {
-      'types' => {
-        '`anAkib' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '`ankabuwt',
-      'form' => '`ankabuwt',
-      'lines' => [
-        ';; Eanokabuwt_1',
-        'Enkbwt  Eanokabuwt      Ndu     spider',
-        'EnAkb   EanAkib Ndip    spiders'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'spider',
-        'spiders'
-      ],
-      'orig' => 'Eanokabuwt',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '`ankabuwt',
-      'form' => '`ankabuwtiyy',
-      'lines' => [
-        ';; Eanokabuwtiy~_1',
-        'Enkbwty Eanokabuwtiy~   Nall    spider-like;arachnoid     [[Eanokabuwtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'spider-like',
-        'arachnoid'
-      ],
-      'orig' => 'Eanokabuwtiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '`ankabuwtiyy' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => '`ankabuwt',
-      'form' => '`ankabuwtiyyAt',
-      'lines' => [
-        ';; Eanokabuwtiy~At_1',
-        'Enkbwty Eanokabuwtiy~   NAt     arachnids     [[Eanokabuwtiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy |< At',
-      'suffix' => ' |< Iy |< At',
-      'glosses' => [
-        'arachnids'
-      ],
-      'orig' => 'Eanokabuwtiy~At',
       'prefix' => ''
     }
   ],
@@ -65544,14 +65583,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`abdAlwaliyd' => [
+  '`abdAlmaq.sUd' => [
     {
       'types' => {},
-      'entry' => '`abdAlwaliyd',
-      'form' => '`abdAlwaliyd',
+      'entry' => '`abdAlmaq.suwd',
+      'form' => '`abdAlmaq.suwd',
       'lines' => [
-        ';; EabodAlwaliyd_1',
-        'EbdAlwlyd       EabodAlwaliyd   Nprop   Abdel Waleed'
+        ';; EabodAlmaqoSuwd_1',
+        'EbdAlmqSwd      EabodAlmaqoSuwd Nprop   Abdel Maqsoud'
       ],
       'patterns' => {},
       'index' => '1',
@@ -65559,20 +65598,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdel Waleed'
+        'Abdel Maqsoud'
       ],
-      'orig' => 'EabodAlwaliyd',
+      'orig' => 'EabodAlmaqoSuwd',
       'prefix' => ''
     }
   ],
-  '`abdalAwiy' => [
+  '`u_taymIn' => [
     {
       'types' => {},
-      'entry' => '`abdalAwiy',
-      'form' => '`abdalAwiy',
+      'entry' => '`u_taymiyn',
+      'form' => '`u_taymiyn',
       'lines' => [
-        ';; EabodalAwiy_1',
-        'EbdlAwy EabodalAwiy     N0      Abdallawi'
+        ';; Euvayomiyn_1',
+        'Evymyn  Euvayomiyn      N0      Uthaimeen'
       ],
       'patterns' => {},
       'index' => '1',
@@ -65580,9 +65619,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Abdallawi'
+        'Uthaimeen'
       ],
-      'orig' => 'EabodalAwiy',
+      'orig' => 'Euvayomiyn',
       'prefix' => ''
     }
   ],
@@ -66305,31 +66344,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'u`luwm' => [
+  '`abdAlhAdI' => [
     {
-      'types' => {
-        '\'a`Aliym' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'u`luwm',
-      'form' => '\'u`luwmaT',
+      'types' => {},
+      'entry' => '`abdAlhAdiy',
+      'form' => '`abdAlhAdiy',
       'lines' => [
-        ';; >uEoluwmap_1',
-        '>Elwm   >uEoluwm        Napdu   sign',
-        'AElwm   >uEoluwm        Napdu   sign',
-        '>EAlym  >aEAliym        Ndip    sign',
-        'AEAlym  >aEAliym        Ndip    sign'
+        ';; EabodAlhAdiy_1',
+        'EbdAlhAdy       EabodAlhAdiy    Nprop   Abdel Hadi'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'sign'
+        'Abdel Hadi'
       ],
-      'orig' => 'OuEoluwmap',
+      'orig' => 'EabodAlhAdiy',
       'prefix' => ''
     }
   ],
@@ -66524,22 +66556,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`andaliyb' => [
+  '`abdAlra.hIm' => [
     {
-      'types' => {
-        '`anAdil' => {
-          'Ndip' => 1
-        },
-        '`andaliyb' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => '`andaliyb',
-      'form' => '`andaliyb',
+      'types' => {},
+      'entry' => '`abdAlra.hiym',
+      'form' => '`abdAlra.hiym',
       'lines' => [
-        ';; Eanodaliyb_1',
-        'Endlyb  Eanodaliyb      NduAt   nightingale',
-        'EnAdl   EanAdil Ndip    nightingales'
+        ';; EabodAlraHiym_1',
+        'EbdAlrHym       EabodAlraHiym   Nprop   Abdel Raheem'
       ],
       'patterns' => {},
       'index' => '1',
@@ -66547,29 +66571,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'nightingale',
-        'nightingales'
+        'Abdel Raheem'
       ],
-      'orig' => 'Eanodaliyb',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '`andaliyb',
-      'form' => '`andaliyb',
-      'lines' => [
-        ';; Eanodaliyb_2',
-        'Endlyb  Eanodaliyb      N0      Andalib'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Andalib'
-      ],
-      'orig' => 'Eanodaliyb',
+      'orig' => 'EabodAlraHiym',
       'prefix' => ''
     }
   ],
@@ -67106,6 +67110,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '`abdAl.hafI.z' => [
+    {
+      'types' => {},
+      'entry' => '`abdAl.hafiy.z',
+      'form' => '`abdAl.hafiy.z',
+      'lines' => [
+        ';; EabodAlHafiyZ_1',
+        'EbdAlHfyZ       EabodAlHafiyZ   Nprop   Abdel Hafeez'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Abdel Hafeez'
+      ],
+      'orig' => 'EabodAlHafiyZ',
+      'prefix' => ''
+    }
+  ],
   '`abdAlqays' => [
     {
       'types' => {},
@@ -67124,27 +67149,6 @@ $Lexicon = {
         'Abdel Qays'
       ],
       'orig' => 'EabodAlqayos',
-      'prefix' => ''
-    }
-  ],
-  '`abdAlrasuwl' => [
-    {
-      'types' => {},
-      'entry' => '`abdAlrasuwl',
-      'form' => '`abdAlrasuwl',
-      'lines' => [
-        ';; EabodAlrasuwl_1',
-        'EbdAlrswl       EabodAlrasuwl   Nprop   Abdel Rasoul'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Abdel Rasoul'
-      ],
-      'orig' => 'EabodAlrasuwl',
       'prefix' => ''
     }
   ],

@@ -6,14 +6,19 @@ package Elixir::Data::Buckwalter::Lexicon22;
 
 
 $Lexicon = {
-  'kzAfyyh' => [
+  'kIsin^gir' => [
     {
-      'types' => {},
-      'entry' => 'kzAfyyh',
-      'form' => 'kzAfyyh',
+      'types' => {
+        'kiysiyn^gir' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'kiysin^gir',
+      'form' => 'kiysin^gir',
       'lines' => [
-        ';; kzAfyyh_1',
-        'kzAfyyh kzAfyyh Nprop   Xavier'
+        ';; kiysinojir_1',
+        'kysnjr  kiysinojir      Nprop   Kissinger',
+        'kysynjr kiysiynojir     Nprop   Kissinger'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21,9 +26,61 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Xavier'
+        'Kissinger'
       ],
-      'orig' => 'kzAfyyh',
+      'orig' => 'kiysinojir',
+      'prefix' => ''
+    }
+  ],
+  'kUlUmbiyA' => [
+    {
+      'types' => {},
+      'entry' => 'kuwluwmbiyA',
+      'form' => 'kuwluwmbiyA',
+      'lines' => [
+        ';; kuwluwmobiyA_1',
+        'kwlwmbyA        kuwluwmobiyA    N0      Colombia;Columbia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Colombia',
+        'Columbia'
+      ],
+      'orig' => 'kuwluwmobiyA',
+      'prefix' => ''
+    }
+  ],
+  'kUrUyidUf' => [
+    {
+      'types' => {
+        'kuwruwyuwduwf' => {
+          'Nprop' => 1
+        },
+        'kuwruwyiyduwf' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'kuwruwyiduwf',
+      'form' => 'kuwruwyiduwf',
+      'lines' => [
+        ';; kuwruwyiduwf_1',
+        'kwrwydwf        kuwruwyiduwf    Nprop   Kuroyedov',
+        'kwrwyydwf       kuwruwyiyduwf   Nprop   Kuroyedov',
+        'kwrwywdwf       kuwruwyuwduwf   Nprop   Kuroyedov'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kuroyedov'
+      ],
+      'orig' => 'kuwruwyiduwf',
       'prefix' => ''
     }
   ],
@@ -71,28 +128,6 @@ $Lexicon = {
         'Caracas'
       ],
       'orig' => 'kArAkAs',
-      'prefix' => ''
-    }
-  ],
-  'kuwstAriyk' => [
-    {
-      'types' => {},
-      'entry' => 'kuwstAriyk',
-      'form' => 'kuwstAriykiyy',
-      'lines' => [
-        ';; kuwsotAriykiy~_1',
-        'kwstAryky       kuwsotAriykiy~  Nall    Costa Rican     [[kuwsotAriykiy~/NOUN]]',
-        'kwstAryky       kuwsotAriykiy~  Nall    Costa Rican     [[kuwsotAriykiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Costa Rican'
-      ],
-      'orig' => 'kuwsotAriykiy~',
       'prefix' => ''
     }
   ],
@@ -582,27 +617,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kAdmiyuwm' => [
-    {
-      'types' => {},
-      'entry' => 'kAdmiyuwm',
-      'form' => 'kAdmiyuwm',
-      'lines' => [
-        ';; kAdomiyuwm_1',
-        'kAdmywm kAdomiyuwm      N0      cadmium'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'cadmium'
-      ],
-      'orig' => 'kAdomiyuwm',
-      'prefix' => ''
-    }
-  ],
   'karafs' => [
     {
       'types' => {},
@@ -746,6 +760,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kArlUs' => [
+    {
+      'types' => {},
+      'entry' => 'kArluws',
+      'form' => 'kArluws',
+      'lines' => [
+        ';; kAroluws_1',
+        'kArlws  kAroluws        Nprop   Carlos'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Carlos'
+      ],
+      'orig' => 'kAroluws',
+      'prefix' => ''
+    }
+  ],
+  'krAyzilbUr.g' => [
+    {
+      'types' => {},
+      'entry' => 'krAyzilbuwr.g',
+      'form' => 'krAyzilbuwr.g',
+      'lines' => [
+        ';; krAyzilobuwrg_1',
+        'krAyzlbwrg      krAyzilobuwrg   Nprop   Krayzelburg'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Krayzelburg'
+      ],
+      'orig' => 'krAyzilobuwrg',
+      'prefix' => ''
+    }
+  ],
   'kiyahk' => [
     {
       'types' => {
@@ -845,27 +901,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kabiyka^g' => [
-    {
-      'types' => {},
-      'entry' => 'kabiyka^g',
-      'form' => 'kabiyka^g',
-      'lines' => [
-        ';; kabiykaj_1',
-        'kbykj   kabiykaj        N0      Asian crowfoot'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Asian crowfoot'
-      ],
-      'orig' => 'kabiykaj',
-      'prefix' => ''
-    }
-  ],
   'k w b l' => [
     {
       'types' => {},
@@ -887,14 +922,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwbirz' => [
+  'kabUriyA' => [
     {
       'types' => {},
-      'entry' => 'kuwbirz',
-      'form' => 'kuwbirz',
+      'entry' => 'kabuwriyA',
+      'form' => 'kabuwriyA',
       'lines' => [
-        ';; kuwbirz_1',
-        'kwbrz   kuwbirz Nprop   Coopers'
+        ';; kabuwriyA_1',
+        'kbwryA  kabuwriyA       N0      crab'
       ],
       'patterns' => {},
       'index' => '1',
@@ -902,9 +937,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Coopers'
+        'crab'
       ],
-      'orig' => 'kuwbirz',
+      'orig' => 'kabuwriyA',
       'prefix' => ''
     }
   ],
@@ -990,49 +1025,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'karakuwz' => [
-    {
-      'types' => {},
-      'entry' => 'karakuwz',
-      'form' => 'karakuwz',
-      'lines' => [
-        ';; karakuwz_1',
-        'krkwz   karakuwz        N       shadow puppet'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'shadow puppet'
-      ],
-      'orig' => 'karakuwz',
-      'prefix' => ''
-    }
-  ],
-  'kAliyfuwrniyy' => [
-    {
-      'types' => {},
-      'entry' => 'kAliyfuwrniyy',
-      'form' => 'kAliyfuwrniyy',
-      'lines' => [
-        ';; kAliyfuwroniy~_1',
-        'kAlyfwrny       kAliyfuwroniy~  Nall    Californian     [[kAliyfuwroniy~/NOUN]]',
-        'kAlyfwrny       kAliyfuwroniy~  Nall    Californian     [[kAliyfuwroniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Californian'
-      ],
-      'orig' => 'kAliyfuwroniy~',
-      'prefix' => ''
-    }
-  ],
   'k w b y' => [
     {
       'types' => {},
@@ -1054,14 +1046,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwnkurdAtuw' => [
+  'kUlUmbU' => [
     {
-      'types' => {},
-      'entry' => 'kuwnkurdAtuw',
-      'form' => 'kuwnkurdAtuw',
+      'types' => {
+        'kuwluwmbw' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'kuwluwmbuw',
+      'form' => 'kuwluwmbuw',
       'lines' => [
-        ';; kuwnokurodAtuw_1',
-        'kwnkrdAtw       kuwnokurodAtuw  N0      settlement'
+        ';; kuwluwmobuw_1',
+        'kwlwmbw kuwluwmobw      N0      Colombo'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1069,9 +1065,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'settlement'
+        'Colombo'
       ],
-      'orig' => 'kuwnokurodAtuw',
+      'orig' => 'kuwluwmobuw',
       'prefix' => ''
     }
   ],
@@ -1136,14 +1132,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kruwkiyh' => [
+  'kambiyU' => [
     {
-      'types' => {},
-      'entry' => 'kruwkiyh',
-      'form' => 'kruwkiyh',
+      'types' => {
+        'kambiyuwh' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'kambiyuw',
+      'form' => 'kambiyuw',
       'lines' => [
-        ';; kruwkiyh_1',
-        'krwkyh  kruwkiyh        N0      croquet'
+        ';; kamobiyuw_1',
+        'kmbyw   kamobiyuw       N0      rate of exchange',
+        'kmbywh  kamobiyuwh      NAt     rates of exchange'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1151,51 +1152,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'croquet'
+        'rate of exchange',
+        'rates of exchange'
       ],
-      'orig' => 'kruwkiyh',
-      'prefix' => ''
-    }
-  ],
-  'klAwdiyuw' => [
-    {
-      'types' => {},
-      'entry' => 'klAwdiyuw',
-      'form' => 'klAwdiyuw',
-      'lines' => [
-        ';; klAwodiyuw_1',
-        'klAwdyw klAwodiyuw      N0      Claudio'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Claudio'
-      ],
-      'orig' => 'klAwodiyuw',
-      'prefix' => ''
-    }
-  ],
-  'karbirAtiyr' => [
-    {
-      'types' => {},
-      'entry' => 'karbirAtiyr',
-      'form' => 'karbirAtiyr',
-      'lines' => [
-        ';; karobirAtiyr_1',
-        'krbrAtyr        karobirAtiyr    N0      carburetor'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'carburetor'
-      ],
-      'orig' => 'karobirAtiyr',
+      'orig' => 'kamobiyuw',
       'prefix' => ''
     }
   ],
@@ -1217,27 +1177,6 @@ $Lexicon = {
         'gastric juice'
       ],
       'orig' => 'kayomuws',
-      'prefix' => ''
-    }
-  ],
-  'kiyruwsiyn' => [
-    {
-      'types' => {},
-      'entry' => 'kiyruwsiyn',
-      'form' => 'kiyruwsiyn',
-      'lines' => [
-        ';; kiyruwsiyn_1',
-        'kyrwsyn kiyruwsiyn      N0      kerosene'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'kerosene'
-      ],
-      'orig' => 'kiyruwsiyn',
       'prefix' => ''
     }
   ],
@@ -1408,31 +1347,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kiyluwwA.t' => [
-    {
-      'types' => {
-        'kiyluwwA.t' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'kiyluwwA.t',
-      'form' => 'kiyluwwA.t',
-      'lines' => [
-        ';; kiyluwwAT_1',
-        'kylwwAT kiyluwwAT       N/At    kilowatts'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'kilowatts'
-      ],
-      'orig' => 'kiyluwwAT',
-      'prefix' => ''
-    }
-  ],
   'k \' f' => [
     {
       'types' => {
@@ -1462,18 +1376,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwrduwn' => [
+  'kUbA' => [
     {
-      'types' => {
-        'kuwrduwn' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'kuwrduwn',
-      'form' => 'kuwrduwn',
+      'types' => {},
+      'entry' => 'kuwbA',
+      'form' => 'kuwbA',
       'lines' => [
-        ';; kuwroduwn_1',
-        'kwrdwn  kuwroduwn       NduAt   cordon;ribbon'
+        ';; kuwbA_1',
+        'kwbA    kuwbA   N0      Cuba'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1481,26 +1391,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'cordon',
-        'ribbon'
+        'Cuba'
       ],
-      'orig' => 'kuwroduwn',
+      'orig' => 'kuwbA',
       'prefix' => ''
     }
   ],
-  'kAnuw' => [
+  'kabIka^g' => [
     {
-      'types' => {
-        'kAnuwh' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'kAnuw',
-      'form' => 'kAnuw',
+      'types' => {},
+      'entry' => 'kabiyka^g',
+      'form' => 'kabiyka^g',
       'lines' => [
-        ';; kAnuw_1',
-        'kAnw    kAnuw   N0      canoe',
-        'kAnwh   kAnuwh  NAt     canoe'
+        ';; kabiykaj_1',
+        'kbykj   kabiykaj        N0      Asian crowfoot'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1508,9 +1412,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'canoe'
+        'Asian crowfoot'
       ],
-      'orig' => 'kAnuw',
+      'orig' => 'kabiykaj',
       'prefix' => ''
     }
   ],
@@ -1535,14 +1439,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwnduwliyzA' => [
+  'kAntirbrI' => [
     {
       'types' => {},
-      'entry' => 'kuwnduwliyzA',
-      'form' => 'kuwnduwliyzA',
+      'entry' => 'kAntirbriy',
+      'form' => 'kAntirbriy',
       'lines' => [
-        ';; kuwnoduwliyzA_1',
-        'kwndwlyzA       kuwnoduwliyzA   Nprop   Condoleezza'
+        ';; kAnotirobriy_1',
+        'kAntrbry        kAnotirobriy    N0      Canterbury'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1550,24 +1454,26 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Condoleezza'
+        'Canterbury'
       ],
-      'orig' => 'kuwnoduwliyzA',
+      'orig' => 'kAnotirobriy',
       'prefix' => ''
     }
   ],
-  'kuwrsiyh' => [
+  'kilIm' => [
     {
       'types' => {
-        'kuwrsiyh' => {
-          'NAt' => 1
+        '\'aklim' => {
+          'Nap' => 2
         }
       },
-      'entry' => 'kuwrsiyh',
-      'form' => 'kuwrsiyh',
+      'entry' => 'kiliym',
+      'form' => 'kiliym',
       'lines' => [
-        ';; kuwrosiyh_1',
-        'kwrsyh  kuwrosiyh       N/At    corset'
+        ';; kiliym_1',
+        'klym    kiliym  N0      carpet;rug',
+        '>klm    >aklim  Nap     carpets;rugs',
+        'Aklm    >aklim  Nap     carpets;rugs'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1575,20 +1481,28 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'corset'
+        'carpet',
+        'rug',
+        'carpets',
+        'rugs'
       ],
-      'orig' => 'kuwrosiyh',
+      'orig' => 'kiliym',
       'prefix' => ''
     }
   ],
-  'kambariyt' => [
+  'kArAt^sI' => [
     {
-      'types' => {},
-      'entry' => 'kambariyt',
-      'form' => 'kambariyt',
+      'types' => {
+        'karAt^siy' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'kArAt^siy',
+      'form' => 'kArAt^siy',
       'lines' => [
-        ';; kamobariyt_1',
-        'kmbryt  kamobariyt      N0      cambric'
+        ';; kArAto$iy_1',
+        'kArAt$y kArAto$iy       N0      Karachi',
+        'krAt$y  karAto$iy       N0      Karachi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1596,20 +1510,28 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'cambric'
+        'Karachi'
       ],
-      'orig' => 'kamobariyt',
+      'orig' => 'kArAto$iy',
       'prefix' => ''
     }
   ],
-  'kibriytiyd' => [
+  'kambyUtir' => [
     {
-      'types' => {},
-      'entry' => 'kibriytiyd',
-      'form' => 'kibriytiyd',
+      'types' => {
+        'kambyuwtir' => {
+          'NduAt' => 1
+        },
+        'kuwmbyuwtir' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'kambyuwtir',
+      'form' => 'kambyuwtir',
       'lines' => [
-        ';; kibriytiyd_1',
-        'kbrytyd kibriytiyd      N0      sulfide'
+        ';; kamobyuwtir_1',
+        'kmbywtr kamobyuwtir     NduAt   computer',
+        'kwmbywtr        kuwmobyuwtir    NduAt   computer'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1617,20 +1539,44 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'sulfide'
+        'computer'
       ],
-      'orig' => 'kibriytiyd',
+      'orig' => 'kamobyuwtir',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'kuwmbyuwtiriyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'kambyuwtir',
+      'form' => 'kambyuwtiriyy',
+      'lines' => [
+        ';; kamobyuwtiriy~_1',
+        'kmbywtry        kamobyuwtiriy~  Nall    computer     [[kamobyuwtiriy~/ADJ]]',
+        'kwmbywtry       kuwmobyuwtiriy~ Nall    computer     [[kuwmobyuwtiriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'computer'
+      ],
+      'orig' => 'kamobyuwtiriy~',
       'prefix' => ''
     }
   ],
-  'kAfiyiyn' => [
+  'kUlyIh' => [
     {
       'types' => {},
-      'entry' => 'kAfiyiyn',
-      'form' => 'kAfiyiyn',
+      'entry' => 'kuwlyiyh',
+      'form' => 'kuwlyiyh',
       'lines' => [
-        ';; kAfiyiyn_1',
-        'kAfyyn  kAfiyiyn        N       caffeine'
+        ';; kuwloyiyh_1',
+        'kwlyyh  kuwloyiyh       Nprop   Collier'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1638,20 +1584,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'caffeine'
+        'Collier'
       ],
-      'orig' => 'kAfiyiyn',
+      'orig' => 'kuwloyiyh',
       'prefix' => ''
     }
   ],
-  'kriystuwf' => [
+  'kArlU' => [
     {
       'types' => {},
-      'entry' => 'kriystuwf',
-      'form' => 'kriystuwf',
+      'entry' => 'kArluw',
+      'form' => 'kArluw',
       'lines' => [
-        ';; kriysotuwf_1',
-        'krystwf kriysotuwf      Nprop   Christoph;Kristof'
+        ';; kAroluw_1',
+        'kArlw   kAroluw Nprop   Carlo'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1659,52 +1605,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Christoph',
-        'Kristof'
+        'Carlo'
       ],
-      'orig' => 'kriysotuwf',
-      'prefix' => ''
-    }
-  ],
-  'kAnkuwn' => [
-    {
-      'types' => {},
-      'entry' => 'kAnkuwn',
-      'form' => 'kAnkuwn',
-      'lines' => [
-        ';; kAnokuwn_1',
-        'kAnkwn  kAnokuwn        N0      Cancun'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Cancun'
-      ],
-      'orig' => 'kAnokuwn',
-      'prefix' => ''
-    }
-  ],
-  'kuwrsk' => [
-    {
-      'types' => {},
-      'entry' => 'kuwrsk',
-      'form' => 'kuwrsk',
-      'lines' => [
-        ';; kuwrosk_1',
-        'kwrsk   kuwrosk N0      Kursk'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kursk'
-      ],
-      'orig' => 'kuwrosk',
+      'orig' => 'kAroluw',
       'prefix' => ''
     }
   ],
@@ -1748,6 +1651,27 @@ $Lexicon = {
         'garrulous'
       ],
       'orig' => 'tikil~Am',
+      'prefix' => ''
+    }
+  ],
+  'kAdmiyUm' => [
+    {
+      'types' => {},
+      'entry' => 'kAdmiyuwm',
+      'form' => 'kAdmiyuwm',
+      'lines' => [
+        ';; kAdomiyuwm_1',
+        'kAdmywm kAdomiyuwm      N0      cadmium'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'cadmium'
+      ],
+      'orig' => 'kAdomiyuwm',
       'prefix' => ''
     }
   ],
@@ -1935,27 +1859,6 @@ $Lexicon = {
         'masses'
       ],
       'orig' => 'kawomap',
-      'prefix' => ''
-    }
-  ],
-  'kriystuwfar' => [
-    {
-      'types' => {},
-      'entry' => 'kriystuwfar',
-      'form' => 'kriystuwfar',
-      'lines' => [
-        ';; kriysotuwfar_1',
-        'krystwfr        kriysotuwfar    Nprop   Christopher'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Christopher'
-      ],
-      'orig' => 'kriysotuwfar',
       'prefix' => ''
     }
   ],
@@ -2711,27 +2614,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwiyrtin' => [
-    {
-      'types' => {},
-      'entry' => 'kuwiyrtin',
-      'form' => 'kuwiyrtin',
-      'lines' => [
-        ';; kuwiyrotin_1',
-        'kwyrtn  kuwiyrotin      Nprop   Kuerten'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kuerten'
-      ],
-      'orig' => 'kuwiyrotin',
-      'prefix' => ''
-    }
-  ],
   'k .h l t' => [
     {
       'types' => {},
@@ -2751,6 +2633,53 @@ $Lexicon = {
         'Kahlut'
       ],
       'orig' => 'kaHoluwt',
+      'prefix' => ''
+    }
+  ],
+  'kAtyU^sA' => [
+    {
+      'types' => {
+        'katyuw^sA' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'kAtyuw^sA',
+      'form' => 'kAtyuw^sA',
+      'lines' => [
+        ';; kAtoyuw$A_1',
+        'kAtyw$A kAtoyuw$A       N       Katyusha',
+        'ktyw$A  katoyuw$A       N       Katyusha'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Katyusha'
+      ],
+      'orig' => 'kAtoyuw$A',
+      'prefix' => ''
+    }
+  ],
+  'krIs' => [
+    {
+      'types' => {},
+      'entry' => 'kriys',
+      'form' => 'kriys',
+      'lines' => [
+        ';; kriys_1',
+        'krys    kriys   Nprop   Chris'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Chris'
+      ],
+      'orig' => 'kriys',
       'prefix' => ''
     }
   ],
@@ -2863,6 +2792,27 @@ $Lexicon = {
         'shovel'
       ],
       'orig' => 'kuriyk',
+      'prefix' => ''
+    }
+  ],
+  'kAfiyIn' => [
+    {
+      'types' => {},
+      'entry' => 'kAfiyiyn',
+      'form' => 'kAfiyiyn',
+      'lines' => [
+        ';; kAfiyiyn_1',
+        'kAfyyn  kAfiyiyn        N       caffeine'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'caffeine'
+      ],
+      'orig' => 'kAfiyiyn',
       'prefix' => ''
     }
   ],
@@ -3004,6 +2954,31 @@ $Lexicon = {
         'battle'
       ],
       'orig' => 'mukAfaHap',
+      'prefix' => ''
+    }
+  ],
+  'kAntUn' => [
+    {
+      'types' => {
+        'kAntuwn' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'kAntuwn',
+      'form' => 'kAntuwn',
+      'lines' => [
+        ';; kAnotuwn_1',
+        'kAntwn  kAnotuwn        N/At    canton'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'canton'
+      ],
+      'orig' => 'kAnotuwn',
       'prefix' => ''
     }
   ],
@@ -3271,14 +3246,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kArniy' => [
+  'kUdrIn' => [
     {
       'types' => {},
-      'entry' => 'kArniy',
-      'form' => 'kArniy',
+      'entry' => 'kuwdriyn',
+      'form' => 'kuwdriyn',
       'lines' => [
-        ';; kAroniy_1',
-        'kArny   kAroniy Nprop   Karni'
+        ';; kuwdriyn_1',
+        'kwdryn  kuwdriyn        Nprop   Kudrin'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3286,9 +3261,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Karni'
+        'Kudrin'
       ],
-      'orig' => 'kAroniy',
+      'orig' => 'kuwdriyn',
       'prefix' => ''
     }
   ],
@@ -3356,14 +3331,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kArA^giyt^s' => [
+  'kIlU' => [
     {
       'types' => {},
-      'entry' => 'kArA^giyt^s',
-      'form' => 'kArA^giyt^s',
+      'entry' => 'kiyluw',
+      'form' => 'kiyluw',
       'lines' => [
-        ';; kArAjiyt$_1',
-        'kArAjyt$        kArAjiyt$       Nprop   Karajic'
+        ';; kiyluw_1',
+        'kylw    kiyluw  N0      kilo;kilogram'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3371,30 +3346,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Karajic'
+        'kilo',
+        'kilogram'
       ],
-      'orig' => 'kArAjiyt$',
-      'prefix' => ''
-    }
-  ],
-  'kuwntiy' => [
-    {
-      'types' => {},
-      'entry' => 'kuwntiy',
-      'form' => 'kuwntiy',
-      'lines' => [
-        ';; kuwnotiy_1',
-        'kwnty   kuwnotiy        Nprop   Conti'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Conti'
-      ],
-      'orig' => 'kuwnotiy',
+      'orig' => 'kiyluw',
       'prefix' => ''
     }
   ],
@@ -3456,6 +3411,27 @@ $Lexicon = {
         'born blind'
       ],
       'orig' => 'Oakomah',
+      'prefix' => ''
+    }
+  ],
+  'kUkA' => [
+    {
+      'types' => {},
+      'entry' => 'kuwkA',
+      'form' => 'kuwkA',
+      'lines' => [
+        ';; kuwkA_1',
+        'kwkA    kuwkA   N0      Coca'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Coca'
+      ],
+      'orig' => 'kuwkA',
       'prefix' => ''
     }
   ],
@@ -3645,33 +3621,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kan^garuw' => [
-    {
-      'types' => {
-        'kan^garuwh' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'kan^garuw',
-      'form' => 'kan^garuw',
-      'lines' => [
-        ';; kanojaruw_1',
-        'knjrw   kanojaruw       N0      kangaroo',
-        'knjrwh  kanojaruwh      NAt     kangaroos'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'kangaroo',
-        'kangaroos'
-      ],
-      'orig' => 'kanojaruw',
-      'prefix' => ''
-    }
-  ],
   'kardinAl' => [
     {
       'types' => {
@@ -3725,6 +3674,27 @@ $Lexicon = {
         'Clamart'
       ],
       'orig' => 'klAmAr',
+      'prefix' => ''
+    }
+  ],
+  'krAyInA' => [
+    {
+      'types' => {},
+      'entry' => 'krAyiynA',
+      'form' => 'krAyiynA',
+      'lines' => [
+        ';; krAyiynA_1',
+        'krAyynA krAyiynA        Nprop   Krajina'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Krajina'
+      ],
+      'orig' => 'krAyiynA',
       'prefix' => ''
     }
   ],
@@ -4107,46 +4077,38 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kiy_hiyA' => [
+  'kAmbUd' => [
     {
-      'types' => {},
-      'entry' => 'kiy_hiyA',
-      'form' => 'kiy_hiyA',
+      'types' => {
+        'kambuwdiyy' => {
+          'Nall' => 2
+        },
+        'kambuwd^g' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'kAmbuwd',
+      'form' => 'kAmbuwdiyy',
       'lines' => [
-        ';; kiyxiyA_1',
-        'kyxyA   kiyxiyA N0      Kekhya;Kikhya'
+        ';; kAmobuwdiy~_1',
+        'kAmbwdy kAmobuwdiy~     Nall    Cambodian;Kampuchean     [[kAmobuwdiy~/NOUN]]',
+        'kAmbwdy kAmobuwdiy~     Nall    Cambodian;Kampuchean     [[kAmobuwdiy~/ADJ]]',
+        'kmbwdy  kamobuwdiy~     Nall    Cambodian;Kampuchean     [[kamobuwdiy~/NOUN]]',
+        'kmbwdy  kamobuwdiy~     Nall    Cambodian;Kampuchean     [[kamobuwdiy~/ADJ]]',
+        'kmbwdj  kamobuwdj       N0      Cambodians;Kampucheans'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'Kekhya',
-        'Kikhya'
+        'Cambodian',
+        'Kampuchean',
+        'Cambodians',
+        'Kampucheans'
       ],
-      'orig' => 'kiyxiyA',
-      'prefix' => ''
-    }
-  ],
-  'kiysuwfiym' => [
-    {
-      'types' => {},
-      'entry' => 'kiysuwfiym',
-      'form' => 'kiysuwfiym',
-      'lines' => [
-        ';; kiysuwfiym_1',
-        'kyswfym kiysuwfiym      Nprop   Kissufim'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kissufim'
-      ],
-      'orig' => 'kiysuwfiym',
+      'orig' => 'kAmobuwdiy~',
       'prefix' => ''
     }
   ],
@@ -4213,6 +4175,120 @@ $Lexicon = {
         'horn'
       ],
       'orig' => 'klAkos',
+      'prefix' => ''
+    }
+  ],
+  'kArAtIh' => [
+    {
+      'types' => {
+        'karAtiyh' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'kArAtiyh',
+      'form' => 'kArAtiyh',
+      'lines' => [
+        ';; kArAtiyh_1',
+        'kArAtyh kArAtiyh        N0      karate',
+        'krAtyh  karAtiyh        N0      karate'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'karate'
+      ],
+      'orig' => 'kArAtiyh',
+      'prefix' => ''
+    }
+  ],
+  'kamirUn' => [
+    {
+      'types' => {
+        'kAmiruwn' => {
+          'N0' => 1
+        },
+        'kAmiyruwn' => {
+          'N0' => 1
+        },
+        'kamiyruwn' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'kamiruwn',
+      'form' => 'kamiruwn',
+      'lines' => [
+        ';; kamiruwn_1',
+        'kmrwn   kamiruwn        N0      Cameroon;Cameroun',
+        'kAmrwn  kAmiruwn        N0      Cameroon;Cameroun',
+        'kmyrwn  kamiyruwn       N0      Cameroon;Cameroun',
+        'kAmyrwn kAmiyruwn       N0      Cameroon;Cameroun'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Cameroon',
+        'Cameroun'
+      ],
+      'orig' => 'kamiruwn',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'kAmiyruwniyy' => {
+          'Nall' => 1
+        },
+        'kamiyruwniyy' => {
+          'Nall' => 1
+        },
+        'kAmiruwniyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'kamiruwn',
+      'form' => 'kamiruwniyy',
+      'lines' => [
+        ';; kamiruwniy~_1',
+        'kmrwny  kamiruwniy~     Nall    from/of the Cameroon/Cameroun     [[kamiruwniy~/ADJ]]',
+        'kAmrwny kAmiruwniy~     Nall    from/of the Cameroon/Cameroun     [[kAmiruwniy~/ADJ]]',
+        'kmyrwny kamiyruwniy~    Nall    from/of the Cameroon/Cameroun     [[kamiyruwniy~/ADJ]]',
+        'kAmyrwny        kAmiyruwniy~    Nall    from/of the Cameroon/Cameroun     [[kAmiyruwniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'from/of the Cameroon/Cameroun'
+      ],
+      'orig' => 'kamiruwniy~',
+      'prefix' => ''
+    }
+  ],
+  'kasarUn' => [
+    {
+      'types' => {},
+      'entry' => 'kasaruwn',
+      'form' => 'kasaruwnaT',
+      'lines' => [
+        ';; kasaruwnap_1',
+        'ksrwn   kasaruwn        Nap     casserole'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'casserole'
+      ],
+      'orig' => 'kasaruwnap',
       'prefix' => ''
     }
   ],
@@ -4656,6 +4732,69 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kArnI^sUfAs' => [
+    {
+      'types' => {},
+      'entry' => 'kArniy^suwfAs',
+      'form' => 'kArniy^suwfAs',
+      'lines' => [
+        ';; kAroniy$uwfAs_1',
+        'kArny$wfAs      kAroniy$uwfAs   Nprop   Karnisovas'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Karnisovas'
+      ],
+      'orig' => 'kAroniy$uwfAs',
+      'prefix' => ''
+    }
+  ],
+  'krUn' => [
+    {
+      'types' => {},
+      'entry' => 'kruwn',
+      'form' => 'kruwnaT',
+      'lines' => [
+        ';; kruwnap_1',
+        'krwn    kruwn   NapAt   krone'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'krone'
+      ],
+      'orig' => 'kruwnap',
+      'prefix' => ''
+    }
+  ],
+  'kUtzir' => [
+    {
+      'types' => {},
+      'entry' => 'kuwtzir',
+      'form' => 'kuwtzir',
+      'lines' => [
+        ';; kuwtozir_1',
+        'kwtzr   kuwtozir        Nprop   Coetzer'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Coetzer'
+      ],
+      'orig' => 'kuwtozir',
+      'prefix' => ''
+    }
+  ],
   'k r .t' => [
     {
       'types' => {},
@@ -4728,6 +4867,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'karakUn' => [
+    {
+      'types' => {},
+      'entry' => 'karakuwn',
+      'form' => 'karakuwn',
+      'lines' => [
+        ';; karakuwn_1',
+        'krkwn   karakuwn        N       police station'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'police station'
+      ],
+      'orig' => 'karakuwn',
+      'prefix' => ''
+    }
+  ],
   'k w b r' => [
     {
       'types' => {},
@@ -4750,19 +4910,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwbinhA.g' => [
+  'krUkIh' => [
     {
-      'types' => {
-        'kuwbinhA^g' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'kuwbinhA.g',
-      'form' => 'kuwbinhA.g',
+      'types' => {},
+      'entry' => 'kruwkiyh',
+      'form' => 'kruwkiyh',
       'lines' => [
-        ';; kuwbinohAg_1',
-        'kwbnhAg kuwbinohAg      Nprop   Copenhagen',
-        'kwbnhAj kuwbinohAj      Nprop   Copenhagen'
+        ';; kruwkiyh_1',
+        'krwkyh  kruwkiyh        N0      croquet'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4770,9 +4925,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Copenhagen'
+        'croquet'
       ],
-      'orig' => 'kuwbinohAg',
+      'orig' => 'kruwkiyh',
       'prefix' => ''
     }
   ],
@@ -5907,27 +6062,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwtzir' => [
-    {
-      'types' => {},
-      'entry' => 'kuwtzir',
-      'form' => 'kuwtzir',
-      'lines' => [
-        ';; kuwtozir_1',
-        'kwtzr   kuwtozir        Nprop   Coetzer'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Coetzer'
-      ],
-      'orig' => 'kuwtozir',
-      'prefix' => ''
-    }
-  ],
   'k s `' => [
     {
       'types' => {
@@ -6014,27 +6148,6 @@ $Lexicon = {
         'kilogram'
       ],
       'orig' => 'klg',
-      'prefix' => ''
-    }
-  ],
-  'kuwntrAtw' => [
-    {
-      'types' => {},
-      'entry' => 'kuwntrAtw',
-      'form' => 'kuwntrAtw',
-      'lines' => [
-        ';; kuwnotrAtw_1',
-        'kwntrAtw        kuwnotrAtw      N0      contract'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'contract'
-      ],
-      'orig' => 'kuwnotrAtw',
       'prefix' => ''
     }
   ],
@@ -6815,6 +6928,52 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kUtIdiyAn' => [
+    {
+      'types' => {},
+      'entry' => 'kuwtiydiyAn',
+      'form' => 'kuwtiydiyAn',
+      'lines' => [
+        ';; kuwtiydiyAn_1',
+        'kwtydyAn        kuwtiydiyAn     Nprop   Quotidien'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Quotidien'
+      ],
+      'orig' => 'kuwtiydiyAn',
+      'prefix' => ''
+    }
+  ],
+  'klI^sIh' => [
+    {
+      'types' => {
+        'kliy^siyh' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'kliy^siyh',
+      'form' => 'kliy^siyh',
+      'lines' => [
+        ';; kliy$iyh_1',
+        'kly$yh  kliy$iyh        NduAt   cliche'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'cliche'
+      ],
+      'orig' => 'kliy$iyh',
+      'prefix' => ''
+    }
+  ],
   'kahrabA\'' => [
     {
       'types' => {
@@ -6897,29 +7056,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ka_tiyrA\'' => [
-    {
-      'types' => {},
-      'entry' => 'ka_tiyrA\'',
-      'form' => 'ka_tiyrA\'',
-      'lines' => [
-        ';; kaviyrA\'_1',
-        'kvyrA\'  kaviyrA\'        Ndip    tragacanth (gum substance)',
-        'kvyrA\'  kaviyrA\'        Ndip    tragacanth (gum plant)'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'tragacanth (gum substance)',
-        'tragacanth (gum plant)'
-      ],
-      'orig' => 'kaviyrA\'',
-      'prefix' => ''
-    }
-  ],
   'kuwaykib' => [
     {
       'types' => {
@@ -6943,6 +7079,27 @@ $Lexicon = {
         'small planet'
       ],
       'orig' => 'kuwayokib',
+      'prefix' => ''
+    }
+  ],
+  'kAbIlA' => [
+    {
+      'types' => {},
+      'entry' => 'kAbiylA',
+      'form' => 'kAbiylA',
+      'lines' => [
+        ';; kAbiylA_1',
+        'kAbylA  kAbiylA Nprop   Kabila'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kabila'
+      ],
+      'orig' => 'kAbiylA',
       'prefix' => ''
     }
   ],
@@ -7385,53 +7542,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kiyluwhiyrtz' => [
-    {
-      'types' => {
-        'kiyluwhiyrtz' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'kiyluwhiyrtz',
-      'form' => 'kiyluwhiyrtz',
-      'lines' => [
-        ';; kiyluwhiyrotz_1',
-        'kylwhyrtz       kiyluwhiyrotz   NduAt   kilohertz;KHz'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'kilohertz',
-        'KHz'
-      ],
-      'orig' => 'kiyluwhiyrotz',
-      'prefix' => ''
-    }
-  ],
-  'kuwrniykuwfA' => [
-    {
-      'types' => {},
-      'entry' => 'kuwrniykuwfA',
-      'form' => 'kuwrniykuwfA',
-      'lines' => [
-        ';; kuwroniykuwfA_1',
-        'kwrnykwfA       kuwroniykuwfA   Nprop   Kournikova'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kournikova'
-      ],
-      'orig' => 'kuwroniykuwfA',
-      'prefix' => ''
-    }
-  ],
   'k s t k' => [
     {
       'types' => {
@@ -7470,36 +7580,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwn.guwl' => [
+  'kUntI' => [
     {
       'types' => {},
-      'entry' => 'kuwn.guwl',
-      'form' => 'kuwn.guwliyy',
+      'entry' => 'kuwntiy',
+      'form' => 'kuwntiy',
       'lines' => [
-        ';; kuwnoguwliy~_1',
-        'kwngwly kuwnoguwliy~    Nall    Congolese     [[kuwnoguwliy~/NOUN]]',
-        'kwngwly kuwnoguwliy~    Nall    Congolese     [[kuwnoguwliy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Congolese'
-      ],
-      'orig' => 'kuwnoguwliy~',
-      'prefix' => ''
-    }
-  ],
-  'kluwruwfuwrm' => [
-    {
-      'types' => {},
-      'entry' => 'kluwruwfuwrm',
-      'form' => 'kluwruwfuwrm',
-      'lines' => [
-        ';; kluwruwfuwrom_1',
-        'klwrwfwrm       kluwruwfuwrom   N0      chloroform'
+        ';; kuwnotiy_1',
+        'kwnty   kuwnotiy        Nprop   Conti'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7507,9 +7595,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'chloroform'
+        'Conti'
       ],
-      'orig' => 'kluwruwfuwrom',
+      'orig' => 'kuwnotiy',
       'prefix' => ''
     }
   ],
@@ -7562,58 +7650,6 @@ $Lexicon = {
         'paper'
       ],
       'orig' => 'kAgid',
-      'prefix' => ''
-    }
-  ],
-  'makwa^giyy' => [
-    {
-      'types' => {},
-      'entry' => 'makwa^giyy',
-      'form' => 'makwa^giyy',
-      'lines' => [
-        ';; makowajiy~_1',
-        'mkwjy   makowajiy~      Nall    ironing man;laundryman     [[makowajiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'ironing man',
-        'laundryman'
-      ],
-      'orig' => 'makowajiy~',
-      'prefix' => ''
-    }
-  ],
-  'kuwruwyiduwf' => [
-    {
-      'types' => {
-        'kuwruwyuwduwf' => {
-          'Nprop' => 1
-        },
-        'kuwruwyiyduwf' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'kuwruwyiduwf',
-      'form' => 'kuwruwyiduwf',
-      'lines' => [
-        ';; kuwruwyiduwf_1',
-        'kwrwydwf        kuwruwyiduwf    Nprop   Kuroyedov',
-        'kwrwyydwf       kuwruwyiyduwf   Nprop   Kuroyedov',
-        'kwrwywdwf       kuwruwyuwduwf   Nprop   Kuroyedov'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kuroyedov'
-      ],
-      'orig' => 'kuwruwyiduwf',
       'prefix' => ''
     }
   ],
@@ -8062,35 +8098,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kambyuwtir' => [
-    {
-      'types' => {
-        'kambyuwtir' => {
-          'NduAt' => 1
-        },
-        'kuwmbyuwtir' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'kambyuwtir',
-      'form' => 'kambyuwtir',
-      'lines' => [
-        ';; kamobyuwtir_1',
-        'kmbywtr kamobyuwtir     NduAt   computer',
-        'kwmbywtr        kuwmobyuwtir    NduAt   computer'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'computer'
-      ],
-      'orig' => 'kamobyuwtir',
-      'prefix' => ''
-    }
-  ],
   'k w r ^g' => [
     {
       'types' => {},
@@ -8327,6 +8334,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kiyUbId' => [
+    {
+      'types' => {},
+      'entry' => 'kiyuwbiyd',
+      'form' => 'kiyuwbiyd',
+      'lines' => [
+        ';; kiyuwbiyd_1',
+        'kywbyd  kiyuwbiyd       N0      Cupid'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Cupid'
+      ],
+      'orig' => 'kiyuwbiyd',
+      'prefix' => ''
+    }
+  ],
   'kAwit^s' => [
     {
       'types' => {},
@@ -8369,14 +8397,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kAylAhuwn' => [
+  'kUmAndUz' => [
     {
-      'types' => {},
-      'entry' => 'kAylAhuwn',
-      'form' => 'kAylAhuwn',
+      'types' => {
+        'kuwmAnduws' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'kuwmAnduwz',
+      'form' => 'kuwmAnduwz',
       'lines' => [
-        ';; kAylAhuwn_1',
-        'kAylAhwn        kAylAhuwn       Nprop   Kailahun'
+        ';; kuwmAnoduwz_1',
+        'kwmAndwz        kuwmAnoduwz     N       commandos',
+        'kwmAndws        kuwmAnoduws     N       commandos'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8384,9 +8417,99 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Kailahun'
+        'commandos'
       ],
-      'orig' => 'kAylAhuwn',
+      'orig' => 'kuwmAnoduwz',
+      'prefix' => ''
+    }
+  ],
+  'kurantIn' => [
+    {
+      'types' => {},
+      'entry' => 'kurantiyn',
+      'form' => 'kurantiynaT',
+      'lines' => [
+        ';; kuranotiynap_1',
+        'krntyn  kuranotiyn      NapAt   quarantine'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'quarantine'
+      ],
+      'orig' => 'kuranotiynap',
+      'prefix' => ''
+    }
+  ],
+  'kUnt' => [
+    {
+      'types' => {},
+      'entry' => 'kuwnt',
+      'form' => 'kuwnt',
+      'lines' => [
+        ';; kuwnot_1',
+        'kwnt    kuwnot  N0      Count'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Count'
+      ],
+      'orig' => 'kuwnot',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'kuwnt',
+      'form' => 'kuwntiyyaT',
+      'lines' => [
+        ';; kuwnotiy~ap_1',
+        'kwnty   kuwnotiy~       NapAt   county'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'county'
+      ],
+      'orig' => 'kuwnotiy~ap',
+      'prefix' => ''
+    }
+  ],
+  'kIlU^grAm' => [
+    {
+      'types' => {
+        'kiyluw^grAm' => {
+          'NAt' => 1
+        },
+        'kiyluw.grAm' => {
+          'N/At' => 1
+        }
+      },
+      'entry' => 'kiyluw^grAm',
+      'form' => 'kiyluw^grAm',
+      'lines' => [
+        ';; kiyluwjrAm_1',
+        'kylwjrAm        kiyluwjrAm      N/At    kilogram',
+        'kylwgrAm        kiyluwgrAm      N/At    kilogram'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'kilogram'
+      ],
+      'orig' => 'kiyluwjrAm',
       'prefix' => ''
     }
   ],
@@ -8416,14 +8539,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kArniy^suwfAs' => [
+  'kIbUts' => [
     {
-      'types' => {},
-      'entry' => 'kArniy^suwfAs',
-      'form' => 'kArniy^suwfAs',
+      'types' => {
+        'kiybuwts' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'kiybuwts',
+      'form' => 'kiybuwts',
       'lines' => [
-        ';; kAroniy$uwfAs_1',
-        'kArny$wfAs      kAroniy$uwfAs   Nprop   Karnisovas'
+        ';; kiybuwts_1',
+        'kybwts  kiybuwts        NduAt   kibbutz',
+        'kybwts  kiybuwts        N0      Kibbutz'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8431,9 +8559,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Karnisovas'
+        'kibbutz',
+        'Kibbutz'
       ],
-      'orig' => 'kAroniy$uwfAs',
+      'orig' => 'kiybuwts',
       'prefix' => ''
     }
   ],
@@ -8861,38 +8990,25 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kAmbuwdiyy' => [
+  'kUbrI' => [
     {
-      'types' => {
-        'kambuwdiyy' => {
-          'Nall' => 2
-        },
-        'kambuwd^g' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'kAmbuwdiyy',
-      'form' => 'kAmbuwdiyy',
+      'types' => {},
+      'entry' => 'kuwbriy',
+      'form' => 'kuwbriy',
       'lines' => [
-        ';; kAmobuwdiy~_1',
-        'kAmbwdy kAmobuwdiy~     Nall    Cambodian;Kampuchean     [[kAmobuwdiy~/NOUN]]',
-        'kAmbwdy kAmobuwdiy~     Nall    Cambodian;Kampuchean     [[kAmobuwdiy~/ADJ]]',
-        'kmbwdy  kamobuwdiy~     Nall    Cambodian;Kampuchean     [[kamobuwdiy~/NOUN]]',
-        'kmbwdy  kamobuwdiy~     Nall    Cambodian;Kampuchean     [[kamobuwdiy~/ADJ]]',
-        'kmbwdj  kamobuwdj       N0      Cambodians;Kampucheans'
+        ';; kuwboriy_1',
+        'kwbry   kuwboriy        N0      bridge;overpass'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'noun',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Cambodian',
-        'Kampuchean',
-        'Cambodians',
-        'Kampucheans'
+        'bridge',
+        'overpass'
       ],
-      'orig' => 'kAmobuwdiy~',
+      'orig' => 'kuwboriy',
       'prefix' => ''
     }
   ],
@@ -9118,6 +9234,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'krIstI' => [
+    {
+      'types' => {},
+      'entry' => 'kriystiy',
+      'form' => 'kriystiy',
+      'lines' => [
+        ';; kriystiy_1',
+        'krysty  kriystiy        Nprop   Kristy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kristy'
+      ],
+      'orig' => 'kriystiy',
+      'prefix' => ''
+    }
+  ],
   'karAfatt' => [
     {
       'types' => {},
@@ -9139,28 +9276,7 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kAniyn.ghAm' => [
-    {
-      'types' => {},
-      'entry' => 'kAniyn.ghAm',
-      'form' => 'kAniyn.ghAm',
-      'lines' => [
-        ';; kAniyngohAm_1',
-        'kAnynghAm       kAniyngohAm     Nprop   Cunnigham'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Cunnigham'
-      ],
-      'orig' => 'kAniyngohAm',
-      'prefix' => ''
-    }
-  ],
-  'kAbiyn' => [
+  'kAbIn' => [
     {
       'types' => {
         'kabAyin' => {
@@ -9213,6 +9329,48 @@ $Lexicon = {
         'cabinet posts'
       ],
       'orig' => 'kAbiynap',
+      'prefix' => ''
+    }
+  ],
+  'kUstArIkA' => [
+    {
+      'types' => {},
+      'entry' => 'kuwstAriykA',
+      'form' => 'kuwstAriykA',
+      'lines' => [
+        ';; kuwsotAriykA_1',
+        'kwstArykA       kuwsotAriykA    N0      Costa Rica'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Costa Rica'
+      ],
+      'orig' => 'kuwsotAriykA',
+      'prefix' => ''
+    }
+  ],
+  'karakUz' => [
+    {
+      'types' => {},
+      'entry' => 'karakuwz',
+      'form' => 'karakuwz',
+      'lines' => [
+        ';; karakuwz_1',
+        'krkwz   karakuwz        N       shadow puppet'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'shadow puppet'
+      ],
+      'orig' => 'karakuwz',
       'prefix' => ''
     }
   ],
@@ -9291,6 +9449,70 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kAfitIriyA' => [
+    {
+      'types' => {},
+      'entry' => 'kAfitiyriyA',
+      'form' => 'kAfitiyriyA',
+      'lines' => [
+        ';; kAfitiyriyA_1',
+        'kAftyryA        kAfitiyriyA     N0      cafeteria'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'cafeteria'
+      ],
+      'orig' => 'kAfitiyriyA',
+      'prefix' => ''
+    }
+  ],
+  'kUmisyUn^g' => [
+    {
+      'types' => {},
+      'entry' => 'kuwmisyuwn^g',
+      'form' => 'kuwmisyuwn^giyy',
+      'lines' => [
+        ';; kuwmisyuwnjiy~_1',
+        'kwmsywnjy       kuwmisyuwnjiy~  Nall    commission merchant     [[kuwmisywnjiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'commission merchant'
+      ],
+      'orig' => 'kuwmisyuwnjiy~',
+      'prefix' => ''
+    }
+  ],
+  'k l y' => [
+    {
+      'types' => {},
+      'entry' => 'kulA\'',
+      'form' => 'kulAwiyy',
+      'lines' => [
+        ';; kulAwiy~_1',
+        'klAwy   kulAwiy~        N-ap    renal;kidney     [[kalAwiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuCA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'renal',
+        'kidney'
+      ],
+      'orig' => 'kulAwiy~',
+      'prefix' => ''
+    }
+  ],
   'k w ^s' => [
     {
       'types' => {
@@ -9348,27 +9570,6 @@ $Lexicon = {
         'kilns'
       ],
       'orig' => 'kuw$ap',
-      'prefix' => ''
-    }
-  ],
-  'kuwstA' => [
-    {
-      'types' => {},
-      'entry' => 'kuwstA',
-      'form' => 'kuwstA',
-      'lines' => [
-        ';; kuwsotA_1',
-        'kwstA   kuwsotA Nprop   Costa'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Costa'
-      ],
-      'orig' => 'kuwsotA',
       'prefix' => ''
     }
   ],
@@ -9930,56 +10131,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kiyluw^grAm' => [
-    {
-      'types' => {
-        'kiyluw^grAm' => {
-          'NAt' => 1
-        },
-        'kiyluw.grAm' => {
-          'N/At' => 1
-        }
-      },
-      'entry' => 'kiyluw^grAm',
-      'form' => 'kiyluw^grAm',
-      'lines' => [
-        ';; kiyluwjrAm_1',
-        'kylwjrAm        kiyluwjrAm      N/At    kilogram',
-        'kylwgrAm        kiyluwgrAm      N/At    kilogram'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'kilogram'
-      ],
-      'orig' => 'kiyluwjrAm',
-      'prefix' => ''
-    }
-  ],
-  'kuwlyiyh' => [
-    {
-      'types' => {},
-      'entry' => 'kuwlyiyh',
-      'form' => 'kuwlyiyh',
-      'lines' => [
-        ';; kuwloyiyh_1',
-        'kwlyyh  kuwloyiyh       Nprop   Collier'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Collier'
-      ],
-      'orig' => 'kuwloyiyh',
-      'prefix' => ''
-    }
-  ],
   'kambiyAl' => [
     {
       'types' => {},
@@ -10067,33 +10218,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'katAluw^g' => [
-    {
-      'types' => {
-        'katAluw^g' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'katAluw^g',
-      'form' => 'katAluw^g',
-      'lines' => [
-        ';; katAluwj_1',
-        'ktAlwj  katAluwj        Ndu     catalogue',
-        'ktAlwj  katAluwj        NAt     catalogues'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'catalogue',
-        'catalogues'
-      ],
-      'orig' => 'katAluwj',
-      'prefix' => ''
-    }
-  ],
   'k w l s' => [
     {
       'types' => {
@@ -10124,27 +10248,6 @@ $Lexicon = {
         'stage'
       ],
       'orig' => 'kuwliys',
-      'prefix' => ''
-    }
-  ],
-  'kalsiyuwm' => [
-    {
-      'types' => {},
-      'entry' => 'kalsiyuwm',
-      'form' => 'kalsiyuwm',
-      'lines' => [
-        ';; kalosiyuwm_1',
-        'klsywm  kalosiyuwm      N0      calcium'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'calcium'
-      ],
-      'orig' => 'kalosiyuwm',
       'prefix' => ''
     }
   ],
@@ -10627,27 +10730,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwtbuws' => [
-    {
-      'types' => {},
-      'entry' => 'kuwtbuws',
-      'form' => 'kuwtbuws',
-      'lines' => [
-        ';; kuwtobuws_1',
-        'kwtbws  kuwtobuws       Nprop   Cottbus'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Cottbus'
-      ],
-      'orig' => 'kuwtobuws',
-      'prefix' => ''
-    }
-  ],
   'k t n' => [
     {
       'types' => {
@@ -10767,6 +10849,49 @@ $Lexicon = {
         'linen'
       ],
       'orig' => 'kat~Aniy~',
+      'prefix' => ''
+    }
+  ],
+  'klIbAnUf' => [
+    {
+      'types' => {},
+      'entry' => 'kliybAnuwf',
+      'form' => 'kliybAnuwf',
+      'lines' => [
+        ';; kliybAnuwf_1',
+        'klybAnwf        kliybAnuwf      Nprop   Klebanov'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Klebanov'
+      ],
+      'orig' => 'kliybAnuwf',
+      'prefix' => ''
+    }
+  ],
+  'kI_hiyA' => [
+    {
+      'types' => {},
+      'entry' => 'kiy_hiyA',
+      'form' => 'kiy_hiyA',
+      'lines' => [
+        ';; kiyxiyA_1',
+        'kyxyA   kiyxiyA N0      Kekhya;Kikhya'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kekhya',
+        'Kikhya'
+      ],
+      'orig' => 'kiyxiyA',
       'prefix' => ''
     }
   ],
@@ -11004,35 +11129,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kruwn' => [
+  'kArIkAtUr' => [
     {
-      'types' => {},
-      'entry' => 'kruwn',
-      'form' => 'kruwnaT',
+      'types' => {
+        'kAriykAtiyr' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'kAriykAtuwr',
+      'form' => 'kAriykAtuwr',
       'lines' => [
-        ';; kruwnap_1',
-        'krwn    kruwn   NapAt   krone'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'krone'
-      ],
-      'orig' => 'kruwnap',
-      'prefix' => ''
-    }
-  ],
-  'kAntuw' => [
-    {
-      'types' => {},
-      'entry' => 'kAntuw',
-      'form' => 'kAntuw',
-      'lines' => [
-        ';; kAnotuw_1',
-        'kAntw   kAnotuw N0      secondhand goods'
+        ';; kAriykAtuwr_1',
+        'kArykAtwr       kAriykAtuwr     N       caricature;cartoon',
+        'kArykAtyr       kAriykAtiyr     N       caricature;cartoon'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11040,9 +11149,35 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'secondhand goods'
+        'caricature',
+        'cartoon'
       ],
-      'orig' => 'kAnotuw',
+      'orig' => 'kAriykAtuwr',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'kAriykAtiyriyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'kAriykAtuwr',
+      'form' => 'kAriykAtuwriyy',
+      'lines' => [
+        ';; kAriykAtuwriy~_1',
+        'kArykAtwry      kAriykAtuwriy~  Nall    caricature;cartoon     [[kAriykAtuwriy~/ADJ]]',
+        'kArykAtyry      kAriykAtiyriy~  Nall    caricature;cartoon     [[kAriykAtiyriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'caricature',
+        'cartoon'
+      ],
+      'orig' => 'kAriykAtuwriy~',
       'prefix' => ''
     }
   ],
@@ -11068,19 +11203,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kiriyt' => [
+  'kUnkUrd' => [
     {
-      'types' => {
-        'kiriyd' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'kiriyt',
-      'form' => 'kiriyt',
+      'types' => {},
+      'entry' => 'kuwnkuwrd',
+      'form' => 'kuwnkuwrd',
       'lines' => [
-        ';; kiriyt_1',
-        'kryt    kiriyt  N0      Crete',
-        'kryd    kiriyd  N0      Crete'
+        ';; kuwnokuwrod_1',
+        'kwnkwrd kuwnokuwrod     N0      Concorde'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11088,9 +11218,31 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Crete'
+        'Concorde'
       ],
-      'orig' => 'kiriyt',
+      'orig' => 'kuwnokuwrod',
+      'prefix' => ''
+    }
+  ],
+  'krIstiyAnU' => [
+    {
+      'types' => {},
+      'entry' => 'kriystiyAnuw',
+      'form' => 'kriystiyAnuw',
+      'lines' => [
+        ';; kriysotiyAnuw_1',
+        'krystyAnw       kriysotiyAnuw   Nprop   Cristiano;Christiano'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Cristiano',
+        'Christiano'
+      ],
+      'orig' => 'kriysotiyAnuw',
       'prefix' => ''
     }
   ],
@@ -11174,32 +11326,6 @@ $Lexicon = {
         'adrenal'
       ],
       'orig' => 'kuZoriy~',
-      'prefix' => ''
-    }
-  ],
-  'kArAt^siy' => [
-    {
-      'types' => {
-        'karAt^siy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'kArAt^siy',
-      'form' => 'kArAt^siy',
-      'lines' => [
-        ';; kArAto$iy_1',
-        'kArAt$y kArAto$iy       N0      Karachi',
-        'krAt$y  karAto$iy       N0      Karachi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Karachi'
-      ],
-      'orig' => 'kArAto$iy',
       'prefix' => ''
     }
   ],
@@ -11434,67 +11560,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwAfiyr' => [
-    {
-      'types' => {},
-      'entry' => 'kuwAfiyr',
-      'form' => 'kuwAfiyr',
-      'lines' => [
-        ';; kuwAfiyr_1',
-        'kwAfyr  kuwAfiyr        N       hairdresser'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'hairdresser'
-      ],
-      'orig' => 'kuwAfiyr',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'kuwAfiyr',
-      'form' => 'kuwAfiyraT',
-      'lines' => [
-        ';; kuwAfiyrap_1',
-        'kwAfyr  kuwAfiyr        Nap     lady hairdresser'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'lady hairdresser'
-      ],
-      'orig' => 'kuwAfiyrap',
-      'prefix' => ''
-    }
-  ],
-  'kuskusuw' => [
-    {
-      'types' => {},
-      'entry' => 'kuskusuw',
-      'form' => 'kuskusuw',
-      'lines' => [
-        ';; kusokusuw_1',
-        'ksksw   kusokusuw       N0      couscous'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'couscous'
-      ],
-      'orig' => 'kusokusuw',
-      'prefix' => ''
-    }
-  ],
   'k l s' => [
     {
       'types' => {},
@@ -11700,14 +11765,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwlistiruwl' => [
+  'krUm' => [
     {
       'types' => {},
-      'entry' => 'kuwlistiruwl',
-      'form' => 'kuwlistiruwl',
+      'entry' => 'kruwm',
+      'form' => 'kruwm',
       'lines' => [
-        ';; kuwlisotiruwl_1',
-        'kwlstrwl        kuwlisotiruwl   N0      cholesterol'
+        ';; kruwm_1',
+        'krwm    kruwm   N0      chrome'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11715,30 +11780,35 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'cholesterol'
+        'chrome'
       ],
-      'orig' => 'kuwlisotiruwl',
+      'orig' => 'kruwm',
       'prefix' => ''
     }
   ],
-  'kurantiyn' => [
+  'kUrdUn' => [
     {
-      'types' => {},
-      'entry' => 'kurantiyn',
-      'form' => 'kurantiynaT',
+      'types' => {
+        'kuwrduwn' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'kuwrduwn',
+      'form' => 'kuwrduwn',
       'lines' => [
-        ';; kuranotiynap_1',
-        'krntyn  kuranotiyn      NapAt   quarantine'
+        ';; kuwroduwn_1',
+        'kwrdwn  kuwroduwn       NduAt   cordon;ribbon'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'quarantine'
+        'cordon',
+        'ribbon'
       ],
-      'orig' => 'kuranotiynap',
+      'orig' => 'kuwroduwn',
       'prefix' => ''
     }
   ],
@@ -11854,6 +11924,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kUsUfA' => [
+    {
+      'types' => {},
+      'entry' => 'kuwsuwfA',
+      'form' => 'kuwsuwfA',
+      'lines' => [
+        ';; kuwsuwfA_1',
+        'kwswfA  kuwsuwfA        Nprop   Kosova'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kosova'
+      ],
+      'orig' => 'kuwsuwfA',
+      'prefix' => ''
+    }
+  ],
   'k n d' => [
     {
       'types' => {},
@@ -11914,14 +12005,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwhlir' => [
+  'klAkIt' => [
     {
       'types' => {},
-      'entry' => 'kuwhlir',
-      'form' => 'kuwhlir',
+      'entry' => 'klAkiyt',
+      'form' => 'klAkiyt',
       'lines' => [
-        ';; kuwholir_1',
-        'kwhlr   kuwholir        Nprop   Kohler;Koehler'
+        ';; klAkiyt_1',
+        'klAkyt  klAkiyt N0      clapper;clap stick'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11929,52 +12020,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Kohler',
-        'Koehler'
+        'clapper',
+        'clap stick'
       ],
-      'orig' => 'kuwholir',
-      'prefix' => ''
-    }
-  ],
-  'kalA^snikuwf' => [
-    {
-      'types' => {},
-      'entry' => 'kalA^snikuwf',
-      'form' => 'kalA^snikuwf',
-      'lines' => [
-        ';; kalA$onikuwf_1',
-        'klA$nkwf        kalA$onikuwf    N0      Kalashnikov'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kalashnikov'
-      ],
-      'orig' => 'kalA$onikuwf',
-      'prefix' => ''
-    }
-  ],
-  'kriykAr' => [
-    {
-      'types' => {},
-      'entry' => 'kriykAr',
-      'form' => 'kriykAr',
-      'lines' => [
-        ';; kriykAr_1',
-        'krykAr  kriykAr N0      Krekar'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Krekar'
-      ],
-      'orig' => 'kriykAr',
+      'orig' => 'klAkiyt',
       'prefix' => ''
     }
   ],
@@ -12177,32 +12226,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'uk_duwb' => [
+  'kAyzirslUtirn' => [
     {
-      'types' => {
-        '\'akA_diyb' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'uk_duwb',
-      'form' => '\'uk_duwbaT',
+      'types' => {},
+      'entry' => 'kAyzirsluwtirn',
+      'form' => 'kAyzirsluwtirn',
       'lines' => [
-        ';; >uko*uwbap_1',
-        '>k*wb   >uko*uwb        Napdu   lie',
-        'Ak*wb   >uko*uwb        Napdu   lie',
-        '>kA*yb  >akA*iyb        Ndip    lies',
-        'AkA*yb  >akA*iyb        Ndip    lies'
+        ';; kAyzirsoluwtirn_1',
+        'kAyzrslwtrn     kAyzirsoluwtirn N0      Kaiserslautern'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'lie',
-        'lies'
+        'Kaiserslautern'
       ],
-      'orig' => 'Ouko*uwbap',
+      'orig' => 'kAyzirsoluwtirn',
       'prefix' => ''
     }
   ],
@@ -12254,6 +12295,55 @@ $Lexicon = {
         'rifle butt'
       ],
       'orig' => 'kuronAfap',
+      'prefix' => ''
+    }
+  ],
+  'kUn^gris' => [
+    {
+      'types' => {
+        'kuwn.gris' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'kuwn^gris',
+      'form' => 'kuwn^gris',
+      'lines' => [
+        ';; kuwnojris_1',
+        'kwnjrs  kuwnojris       N0      Congress',
+        'kwngrs  kuwnogris       N0      Congress'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Congress'
+      ],
+      'orig' => 'kuwnojris',
+      'prefix' => ''
+    }
+  ],
+  'kahra.tIs' => [
+    {
+      'types' => {},
+      'entry' => 'kahra.tiys',
+      'form' => 'kahra.tiysiyy',
+      'lines' => [
+        ';; kahoraTiysiy~_1',
+        'khrTysy kahoraTiysiy~   N-ap    electromagnetic     [[kahoraTiysiy~/ADJ]]',
+        'khrTysy kahoraTiysiy~   Nap     electromagnetism     [[kahoraTiysiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'electromagnetic',
+        'electromagnetism'
+      ],
+      'orig' => 'kahoraTiysiy~',
       'prefix' => ''
     }
   ],
@@ -12424,28 +12514,6 @@ $Lexicon = {
         'plated'
       ],
       'orig' => 'mukaf~at',
-      'prefix' => ''
-    }
-  ],
-  'kuwmiydiyy' => [
-    {
-      'types' => {},
-      'entry' => 'kuwmiydiyy',
-      'form' => 'kuwmiydiyy',
-      'lines' => [
-        ';; kuwmiydiy~_1',
-        'kwmydy  kuwmiydiy~      Nall    comic;comedic     [[kuwmiydiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'comic',
-        'comedic'
-      ],
-      'orig' => 'kuwmiydiy~',
       'prefix' => ''
     }
   ],
@@ -12656,6 +12724,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kUhlir' => [
+    {
+      'types' => {},
+      'entry' => 'kuwhlir',
+      'form' => 'kuwhlir',
+      'lines' => [
+        ';; kuwholir_1',
+        'kwhlr   kuwholir        Nprop   Kohler;Koehler'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kohler',
+        'Koehler'
+      ],
+      'orig' => 'kuwholir',
+      'prefix' => ''
+    }
+  ],
   'kwl' => [
     {
       'types' => {},
@@ -12698,14 +12788,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwnsuwluw' => [
+  'krimlIn' => [
     {
       'types' => {},
-      'entry' => 'kuwnsuwluw',
-      'form' => 'kuwnsuwluw',
+      'entry' => 'krimliyn',
+      'form' => 'krimliyn',
       'lines' => [
-        ';; kuwnosuwluw_1',
-        'kwnswlw kuwnosuwluw     N0      Consolo'
+        ';; krimoliyn_1',
+        'krmlyn  krimoliyn       N0      Kremlin'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12713,67 +12803,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Consolo'
+        'Kremlin'
       ],
-      'orig' => 'kuwnosuwluw',
-      'prefix' => ''
-    }
-  ],
-  'kAziynuw' => [
-    {
-      'types' => {
-        'kAziynuwh' => {
-          'NAt' => 1
-        },
-        'kAziynuw' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'kAziynuw',
-      'form' => 'kAziynuw',
-      'lines' => [
-        ';; kAziynuw_1',
-        'kAzynw  kAziynuw        N0      casino;nightclub',
-        'kAzynw  kAziynuw        NAt     casinos;nightclubs',
-        'kAzynwh kAziynuwh       NAt     casinos;nightclubs'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'casino',
-        'nightclub',
-        'casinos',
-        'nightclubs'
-      ],
-      'orig' => 'kAziynuw',
-      'prefix' => ''
-    }
-  ],
-  'kAsiyt' => [
-    {
-      'types' => {
-        'kAsiyt' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'kAsiyt',
-      'form' => 'kAsiyt',
-      'lines' => [
-        ';; kAsiyt_1',
-        'kAsyt   kAsiyt  NduAt   cassette'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'cassette'
-      ],
-      'orig' => 'kAsiyt',
+      'orig' => 'krimoliyn',
       'prefix' => ''
     }
   ],
@@ -12882,28 +12914,7 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwbA' => [
-    {
-      'types' => {},
-      'entry' => 'kuwbA',
-      'form' => 'kuwbA',
-      'lines' => [
-        ';; kuwbA_1',
-        'kwbA    kuwbA   N0      Cuba'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Cuba'
-      ],
-      'orig' => 'kuwbA',
-      'prefix' => ''
-    }
-  ],
-  'kuwn^siytA' => [
+  'kUn^sItA' => [
     {
       'types' => {},
       'entry' => 'kuwn^siytA',
@@ -13014,27 +13025,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kliymints' => [
-    {
-      'types' => {},
-      'entry' => 'kliymints',
-      'form' => 'kliymints',
-      'lines' => [
-        ';; kliyminots_1',
-        'klymnts kliyminots      Nprop   Clements'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Clements'
-      ],
-      'orig' => 'kliyminots',
-      'prefix' => ''
-    }
-  ],
   'k r d n' => [
     {
       'types' => {
@@ -13128,6 +13118,27 @@ $Lexicon = {
         'coastal roads'
       ],
       'orig' => 'kuroniy$',
+      'prefix' => ''
+    }
+  ],
+  'kUmIdyIn' => [
+    {
+      'types' => {},
+      'entry' => 'kuwmiydyiyn',
+      'form' => 'kuwmiydyiyn',
+      'lines' => [
+        ';; kuwmiydoyiyn_1',
+        'kwmydyyn        kuwmiydoyiyn    N0      comedian'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'comedian'
+      ],
+      'orig' => 'kuwmiydoyiyn',
       'prefix' => ''
     }
   ],
@@ -13356,7 +13367,7 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwbinhA.gin' => [
+  'kUbinhA.gin' => [
     {
       'types' => {
         'kuwbinhA^gin' => {
@@ -13379,6 +13390,32 @@ $Lexicon = {
         'Copenhagen'
       ],
       'orig' => 'kuwbinohAgin',
+      'prefix' => ''
+    }
+  ],
+  'kAnU' => [
+    {
+      'types' => {
+        'kAnuwh' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'kAnuw',
+      'form' => 'kAnuw',
+      'lines' => [
+        ';; kAnuw_1',
+        'kAnw    kAnuw   N0      canoe',
+        'kAnwh   kAnuwh  NAt     canoe'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'canoe'
+      ],
+      'orig' => 'kAnuw',
       'prefix' => ''
     }
   ],
@@ -13457,27 +13494,6 @@ $Lexicon = {
         'Kabuli'
       ],
       'orig' => 'kAbuliy~',
-      'prefix' => ''
-    }
-  ],
-  'kuwrtiyzuwn' => [
-    {
-      'types' => {},
-      'entry' => 'kuwrtiyzuwn',
-      'form' => 'kuwrtiyzuwn',
-      'lines' => [
-        ';; kuwrotiyzuwn_1',
-        'kwrtyzwn        kuwrotiyzuwn    N0      cortisone'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'cortisone'
-      ],
-      'orig' => 'kuwrotiyzuwn',
       'prefix' => ''
     }
   ],
@@ -13691,39 +13707,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kAn.suwl' => [
-    {
-      'types' => {
-        'kAn.suwl' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'kAn.suwl',
-      'form' => 'kAn.suwl',
-      'lines' => [
-        ';; kAnoSuwl_1',
-        'kAnSwl  kAnoSuwl        N/At    console'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'console'
-      ],
-      'orig' => 'kAnoSuwl',
-      'prefix' => ''
-    }
-  ],
-  'kAbiylA' => [
+  'kUykU' => [
     {
       'types' => {},
-      'entry' => 'kAbiylA',
-      'form' => 'kAbiylA',
+      'entry' => 'kuwykuw',
+      'form' => 'kuwykuw',
       'lines' => [
-        ';; kAbiylA_1',
-        'kAbylA  kAbiylA Nprop   Kabila'
+        ';; kuwyokuw_1',
+        'kwykw   kuwyokuw        Nprop   Koiko'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13731,9 +13722,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Kabila'
+        'Koiko'
       ],
-      'orig' => 'kAbiylA',
+      'orig' => 'kuwyokuw',
       'prefix' => ''
     }
   ],
@@ -13833,6 +13824,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kArnI' => [
+    {
+      'types' => {},
+      'entry' => 'kArniy',
+      'form' => 'kArniy',
+      'lines' => [
+        ';; kAroniy_1',
+        'kArny   kAroniy Nprop   Karni'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Karni'
+      ],
+      'orig' => 'kAroniy',
+      'prefix' => ''
+    }
+  ],
   'k l d' => [
     {
       'types' => {},
@@ -13893,6 +13905,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kUnyAk' => [
+    {
+      'types' => {},
+      'entry' => 'kuwnyAk',
+      'form' => 'kuwnyAk',
+      'lines' => [
+        ';; kuwnoyAk_1',
+        'kwnyAk  kuwnoyAk        N       cognac'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'cognac'
+      ],
+      'orig' => 'kuwnoyAk',
+      'prefix' => ''
+    }
+  ],
   'k ` b l' => [
     {
       'types' => {
@@ -13944,6 +13977,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kanakInA' => [
+    {
+      'types' => {},
+      'entry' => 'kanakiynA',
+      'form' => 'kanakiynA',
+      'lines' => [
+        ';; kanakiynA_1',
+        'knkynA  kanakiynA       N0      quinine'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'quinine'
+      ],
+      'orig' => 'kanakiynA',
+      'prefix' => ''
+    }
+  ],
   'kanahwar' => [
     {
       'types' => {},
@@ -13963,6 +14017,27 @@ $Lexicon = {
         'cumuli'
       ],
       'orig' => 'kanahowar',
+      'prefix' => ''
+    }
+  ],
+  'kAliyArI' => [
+    {
+      'types' => {},
+      'entry' => 'kAliyAriy',
+      'form' => 'kAliyAriy',
+      'lines' => [
+        ';; kAliyAriy_1',
+        'kAlyAry kAliyAriy       N0      Cagliari'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Cagliari'
+      ],
+      'orig' => 'kAliyAriy',
       'prefix' => ''
     }
   ],
@@ -14004,6 +14079,27 @@ $Lexicon = {
         'seats'
       ],
       'orig' => 'kurosiy~',
+      'prefix' => ''
+    }
+  ],
+  'kUmIdiyA' => [
+    {
+      'types' => {},
+      'entry' => 'kuwmiydiyA',
+      'form' => 'kuwmiydiyA',
+      'lines' => [
+        ';; kuwmiydiyA_1',
+        'kwmydyA kuwmiydiyA      N0      comedy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'comedy'
+      ],
+      'orig' => 'kuwmiydiyA',
       'prefix' => ''
     }
   ],
@@ -14103,6 +14199,27 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'kay',
+      'prefix' => ''
+    }
+  ],
+  'kibrItIk' => [
+    {
+      'types' => {},
+      'entry' => 'kibriytiyk',
+      'form' => 'kibriytiyk',
+      'lines' => [
+        ';; kibriytiyk_1',
+        'kbrytyk kibriytiyk      N0      sulfuric'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'sulfuric'
+      ],
+      'orig' => 'kibriytiyk',
       'prefix' => ''
     }
   ],
@@ -14357,27 +14474,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kriys' => [
-    {
-      'types' => {},
-      'entry' => 'kriys',
-      'form' => 'kriys',
-      'lines' => [
-        ';; kriys_1',
-        'krys    kriys   Nprop   Chris'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Chris'
-      ],
-      'orig' => 'kriys',
-      'prefix' => ''
-    }
-  ],
   'k ^s k ^s' => [
     {
       'types' => {
@@ -14458,6 +14554,31 @@ $Lexicon = {
         'popular'
       ],
       'orig' => 'ki$oki$iy~',
+      'prefix' => ''
+    }
+  ],
+  'kUrsIh' => [
+    {
+      'types' => {
+        'kuwrsiyh' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'kuwrsiyh',
+      'form' => 'kuwrsiyh',
+      'lines' => [
+        ';; kuwrosiyh_1',
+        'kwrsyh  kuwrosiyh       N/At    corset'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'corset'
+      ],
+      'orig' => 'kuwrosiyh',
       'prefix' => ''
     }
   ],
@@ -14979,14 +15100,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kiyniydiy' => [
+  'kAsrIlz' => [
     {
       'types' => {},
-      'entry' => 'kiyniydiy',
-      'form' => 'kiyniydiy',
+      'entry' => 'kAsriylz',
+      'form' => 'kAsriylz',
       'lines' => [
-        ';; kiyniydiy_1',
-        'kynydy  kiyniydiy       Nprop   Kennedy'
+        ';; kAsoriylz_1',
+        'kAsrylz kAsoriylz       Nprop   Kasrils'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14994,9 +15115,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Kennedy'
+        'Kasrils'
       ],
-      'orig' => 'kiyniydiy',
+      'orig' => 'kAsoriylz',
       'prefix' => ''
     }
   ],
@@ -15113,101 +15234,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kruwm' => [
-    {
-      'types' => {},
-      'entry' => 'kruwm',
-      'form' => 'kruwm',
-      'lines' => [
-        ';; kruwm_1',
-        'krwm    kruwm   N0      chrome'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'chrome'
-      ],
-      'orig' => 'kruwm',
-      'prefix' => ''
-    }
-  ],
-  'kAsriylz' => [
-    {
-      'types' => {},
-      'entry' => 'kAsriylz',
-      'form' => 'kAsriylz',
-      'lines' => [
-        ';; kAsoriylz_1',
-        'kAsrylz kAsoriylz       Nprop   Kasrils'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kasrils'
-      ],
-      'orig' => 'kAsoriylz',
-      'prefix' => ''
-    }
-  ],
-  'kinidiy' => [
-    {
-      'types' => {
-        'kiniydiy' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'kinidiy',
-      'form' => 'kinidiy',
-      'lines' => [
-        ';; kinidiy_1',
-        'kndy    kinidiy N0      Kennedy',
-        'knydy   kiniydiy        Nprop   Kennedy'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kennedy'
-      ],
-      'orig' => 'kinidiy',
-      'prefix' => ''
-    }
-  ],
-  'kiybuwts' => [
-    {
-      'types' => {
-        'kiybuwts' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'kiybuwts',
-      'form' => 'kiybuwts',
-      'lines' => [
-        ';; kiybuwts_1',
-        'kybwts  kiybuwts        NduAt   kibbutz',
-        'kybwts  kiybuwts        N0      Kibbutz'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'kibbutz',
-        'Kibbutz'
-      ],
-      'orig' => 'kiybuwts',
-      'prefix' => ''
-    }
-  ],
   'k r d' => [
     {
       'types' => {
@@ -15244,27 +15270,6 @@ $Lexicon = {
         'Kurds'
       ],
       'orig' => 'kurodiy~',
-      'prefix' => ''
-    }
-  ],
-  'kluwb' => [
-    {
-      'types' => {},
-      'entry' => 'kluwb',
-      'form' => 'kluwb',
-      'lines' => [
-        ';; kluwb_1',
-        'klwb    kluwb   N0      Club'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Club'
-      ],
-      'orig' => 'kluwb',
       'prefix' => ''
     }
   ],
@@ -15306,52 +15311,6 @@ $Lexicon = {
         'stewards'
       ],
       'orig' => 'kixoyap',
-      'prefix' => ''
-    }
-  ],
-  'kuwmsAr' => [
-    {
-      'types' => {},
-      'entry' => 'kuwmsAr',
-      'form' => 'kuwmsAriyy',
-      'lines' => [
-        ';; kuwmosAriy~_1',
-        'kwmsAry kuwmosAriy~     Ndu     conductor;ticket man',
-        'kwmsAry kuwmosAriy~     Nap     conductors;ticket men     [[kuwmsAriy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'conductor',
-        'ticket man',
-        'conductors',
-        'ticket men'
-      ],
-      'orig' => 'kuwmosAriy~',
-      'prefix' => ''
-    }
-  ],
-  'kuwtiydiyAn' => [
-    {
-      'types' => {},
-      'entry' => 'kuwtiydiyAn',
-      'form' => 'kuwtiydiyAn',
-      'lines' => [
-        ';; kuwtiydiyAn_1',
-        'kwtydyAn        kuwtiydiyAn     Nprop   Quotidien'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Quotidien'
-      ],
-      'orig' => 'kuwtiydiyAn',
       'prefix' => ''
     }
   ],
@@ -15511,6 +15470,48 @@ $Lexicon = {
         'pickles'
       ],
       'orig' => 'kAmix',
+      'prefix' => ''
+    }
+  ],
+  'kAsImUf' => [
+    {
+      'types' => {},
+      'entry' => 'kAsiymuwf',
+      'form' => 'kAsiymuwf',
+      'lines' => [
+        ';; kAsiymuwf_1',
+        'kAsymwf kAsiymuwf       Nprop   Kasimov'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kasimov'
+      ],
+      'orig' => 'kAsiymuwf',
+      'prefix' => ''
+    }
+  ],
+  'kIniyA' => [
+    {
+      'types' => {},
+      'entry' => 'kiyniyA',
+      'form' => 'kiyniyA',
+      'lines' => [
+        ';; kiyniyA_1',
+        'kynyA   kiyniyA N0      Kenya'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kenya'
+      ],
+      'orig' => 'kiyniyA',
       'prefix' => ''
     }
   ],
@@ -15777,14 +15778,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwnkAkAf' => [
+  'kUmunwil_t' => [
     {
       'types' => {},
-      'entry' => 'kuwnkAkAf',
-      'form' => 'kuwnkAkAf',
+      'entry' => 'kuwmunwil_t',
+      'form' => 'kuwmunwil_t',
       'lines' => [
-        ';; kuwnokAkAf_1',
-        'kwnkAkAf        kuwnokAkAf      N0      CONCACAF (Confederation of North, Central American and Caribbean Association Football)'
+        ';; kuwmunwilov_1',
+        'kwmnwlv kuwmunwilov     N0      Commonwealth'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15792,9 +15793,57 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'CONCACAF (Confederation of North, Central American and Caribbean Association Football)'
+        'Commonwealth'
       ],
-      'orig' => 'kuwnokAkAf',
+      'orig' => 'kuwmunwilov',
+      'prefix' => ''
+    }
+  ],
+  'klUrUfUrm' => [
+    {
+      'types' => {},
+      'entry' => 'kluwruwfuwrm',
+      'form' => 'kluwruwfuwrm',
+      'lines' => [
+        ';; kluwruwfuwrom_1',
+        'klwrwfwrm       kluwruwfuwrom   N0      chloroform'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'chloroform'
+      ],
+      'orig' => 'kluwruwfuwrom',
+      'prefix' => ''
+    }
+  ],
+  'klAsIk' => [
+    {
+      'types' => {
+        'klAsikiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'klAsiyk',
+      'form' => 'klAsiykiyy',
+      'lines' => [
+        ';; klAsiykiy~_1',
+        'klAsyky klAsiykiy~      Nall    classic;classical     [[kilAsiykiy~/ADJ]]',
+        'klAsky  klAsikiy~       Nall    classic;classical     [[kilAsikiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'classic',
+        'classical'
+      ],
+      'orig' => 'klAsiykiy~',
       'prefix' => ''
     }
   ],
@@ -15944,27 +15993,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kwiy.gliy' => [
-    {
-      'types' => {},
-      'entry' => 'kwiy.gliy',
-      'form' => 'kwiy.gliy',
-      'lines' => [
-        ';; kwiygoliy_1',
-        'kwygly  kwiygoliy       Nprop   Quigley'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Quigley'
-      ],
-      'orig' => 'kwiygoliy',
-      'prefix' => ''
-    }
-  ],
   'k l s n' => [
     {
       'types' => {
@@ -15991,6 +16019,29 @@ $Lexicon = {
         'underpants'
       ],
       'orig' => 'kalosuwn',
+      'prefix' => ''
+    }
+  ],
+  'ka_tIrA\'' => [
+    {
+      'types' => {},
+      'entry' => 'ka_tiyrA\'',
+      'form' => 'ka_tiyrA\'',
+      'lines' => [
+        ';; kaviyrA\'_1',
+        'kvyrA\'  kaviyrA\'        Ndip    tragacanth (gum substance)',
+        'kvyrA\'  kaviyrA\'        Ndip    tragacanth (gum plant)'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'tragacanth (gum substance)',
+        'tragacanth (gum plant)'
+      ],
+      'orig' => 'kaviyrA\'',
       'prefix' => ''
     }
   ],
@@ -16036,24 +16087,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kazaruwn' => [
+  'kAsIt' => [
     {
-      'types' => {},
-      'entry' => 'kazaruwn',
-      'form' => 'kazaruwnaT',
+      'types' => {
+        'kAsiyt' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'kAsiyt',
+      'form' => 'kAsiyt',
       'lines' => [
-        ';; kazaruwnap_1',
-        'kzrwn   kazaruwn        Nap     casserole'
+        ';; kAsiyt_1',
+        'kAsyt   kAsiyt  NduAt   cassette'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'casserole'
+        'cassette'
       ],
-      'orig' => 'kazaruwnap',
+      'orig' => 'kAsiyt',
       'prefix' => ''
     }
   ],
@@ -16081,6 +16136,32 @@ $Lexicon = {
         'noble deeds'
       ],
       'orig' => 'makorumap',
+      'prefix' => ''
+    }
+  ],
+  'kIn^sAsA' => [
+    {
+      'types' => {
+        'kin^sAsA' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'kiyn^sAsA',
+      'form' => 'kiyn^sAsA',
+      'lines' => [
+        ';; kiyno$AsA_1',
+        'kyn$AsA kiyno$AsA       Nprop   Kinshasa',
+        'kn$AsA  kino$AsA        Nprop   Kinshasa'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kinshasa'
+      ],
+      'orig' => 'kiyno$AsA',
       'prefix' => ''
     }
   ],
@@ -16185,14 +16266,26 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwliyrA' => [
+  '\'iklIl' => [
     {
-      'types' => {},
-      'entry' => 'kuwliyrA',
-      'form' => 'kuwliyrA',
+      'types' => {
+        '\'akAliyl' => {
+          'Ndip' => 2
+        },
+        '\'akill' => {
+          'Nap' => 2
+        }
+      },
+      'entry' => '\'ikliyl',
+      'form' => '\'ikliyl',
       'lines' => [
-        ';; kuwliyrA_1',
-        'kwlyrA  kuwliyrA        N0      cholera'
+        ';; <ikoliyl_1',
+        '<klyl   <ikoliyl        Ndu     halo;corona',
+        'Aklyl   <ikoliyl        Ndu     halo;corona',
+        '>kAlyl  >akAliyl        Ndip    halos;coronas',
+        'AkAlyl  >akAliyl        Ndip    halos;coronas',
+        '>kl     >akil~  Nap     halos;coronas',
+        'Akl     >akil~  Nap     halos;coronas'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16200,30 +16293,64 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'cholera'
+        'halo',
+        'corona',
+        'halos',
+        'coronas'
       ],
-      'orig' => 'kuwliyrA',
+      'orig' => 'Iikoliyl',
       'prefix' => ''
-    }
-  ],
-  'kAstrw' => [
+    },
     {
-      'types' => {},
-      'entry' => 'kAstrw',
-      'form' => 'kAstrw',
+      'types' => {
+        '\'akAliyl' => {
+          'Ndip' => 2
+        },
+        '\'akill' => {
+          'Nap' => 2
+        }
+      },
+      'entry' => '\'ikliyl',
+      'form' => '\'ikliyl',
       'lines' => [
-        ';; kAstrw_1',
-        'kAstrw  kAstrw  Nprop   Castro'
+        ';; <ikoliyl_2',
+        '<klyl   <ikoliyl        Ndu     wedding ceremony',
+        'Aklyl   <ikoliyl        Ndu     wedding ceremony',
+        '>kAlyl  >akAliyl        Ndip    wedding ceremonies',
+        'AkAlyl  >akAliyl        Ndip    wedding ceremonies',
+        '>kl     >akil~  Nap     wedding ceremonies',
+        'Akl     >akil~  Nap     wedding ceremonies'
       ],
       'patterns' => {},
-      'index' => '1',
+      'index' => '2',
       'entity' => 'noun',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Castro'
+        'wedding ceremony',
+        'wedding ceremonies'
       ],
-      'orig' => 'kAstrw',
+      'orig' => 'Iikoliyl',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'ikliyl',
+      'form' => '\'ikliyliyy',
+      'lines' => [
+        ';; <ikoliyliy~_1',
+        '<klyly  <ikoliyliy~     N-ap    coronal     [[<ikoliyliy~/ADJ]]',
+        'Aklyly  <ikoliyliy~     N-ap    coronal     [[<ikoliyliy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'coronal'
+      ],
+      'orig' => 'Iikoliyliy~',
       'prefix' => ''
     }
   ],
@@ -16352,6 +16479,27 @@ $Lexicon = {
         'chemist'
       ],
       'orig' => 'kiymiyA}iy~',
+      'prefix' => ''
+    }
+  ],
+  'kUnkurdAtU' => [
+    {
+      'types' => {},
+      'entry' => 'kuwnkurdAtuw',
+      'form' => 'kuwnkurdAtuw',
+      'lines' => [
+        ';; kuwnokurodAtuw_1',
+        'kwnkrdAtw       kuwnokurodAtuw  N0      settlement'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'settlement'
+      ],
+      'orig' => 'kuwnokurodAtuw',
       'prefix' => ''
     }
   ],
@@ -16667,54 +16815,6 @@ $Lexicon = {
         'camphor'
       ],
       'orig' => 'kAfuwr',
-      'prefix' => ''
-    }
-  ],
-  'kuwn^g' => [
-    {
-      'types' => {
-        'kuwn.g' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'kuwn^g',
-      'form' => 'kuwn^g',
-      'lines' => [
-        ';; kuwnoj_1',
-        'kwnj    kuwnoj  N0      Kong',
-        'kwng    kuwnog  N0      Kong'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kong'
-      ],
-      'orig' => 'kuwnoj',
-      'prefix' => ''
-    }
-  ],
-  'kuwluwmbiyy' => [
-    {
-      'types' => {},
-      'entry' => 'kuwluwmbiyy',
-      'form' => 'kuwluwmbiyy',
-      'lines' => [
-        ';; kuwluwmobiy~_1',
-        'kwlwmby kuwluwmobiy~    Nall    Colombian     [[kuwluwmobiy~/NOUN]]',
-        'kwlwmby kuwluwmobiy~    Nall    Colombian     [[kuwluwmobiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Colombian'
-      ],
-      'orig' => 'kuwluwmobiy~',
       'prefix' => ''
     }
   ],
@@ -17092,55 +17192,7 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwmisyuwn^g' => [
-    {
-      'types' => {},
-      'entry' => 'kuwmisyuwn^g',
-      'form' => 'kuwmisyuwn^giyy',
-      'lines' => [
-        ';; kuwmisyuwnjiy~_1',
-        'kwmsywnjy       kuwmisyuwnjiy~  Nall    commission merchant     [[kuwmisywnjiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'commission merchant'
-      ],
-      'orig' => 'kuwmisyuwnjiy~',
-      'prefix' => ''
-    }
-  ],
   'k r w' => [
-    {
-      'types' => {
-        'kAruwh' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'kArw',
-      'form' => 'kArw',
-      'lines' => [
-        ';; kArw_1',
-        'kArw    kArw    N0      cart;wagon',
-        'kArwh   kAruwh  NAt     carts;wagons'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACL',
-      'suffix' => '',
-      'glosses' => [
-        'cart',
-        'wagon',
-        'carts',
-        'wagons'
-      ],
-      'orig' => 'kArw',
-      'prefix' => ''
-    },
     {
       'types' => {
         'krY' => {
@@ -17406,14 +17458,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwfAsiyfiyt^s' => [
+  'kUkAyIn' => [
     {
-      'types' => {},
-      'entry' => 'kuwfAsiyfiyt^s',
-      'form' => 'kuwfAsiyfiyt^s',
+      'types' => {
+        'kuwkA\'iyn' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'kuwkAyiyn',
+      'form' => 'kuwkAyiyn',
       'lines' => [
-        ';; kuwfAsiyfiyt$_1',
-        'kwfAsyfyt$      kuwfAsiyfiyt$   N0      Kovacevich'
+        ';; kuwkAyiyn_1',
+        'kwkAyyn kuwkAyiyn       N       cocaine',
+        'kwkA}yn kuwkA}iyn       N       cocaine'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17421,9 +17478,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Kovacevich'
+        'cocaine'
       ],
-      'orig' => 'kuwfAsiyfiyt$',
+      'orig' => 'kuwkAyiyn',
+      'prefix' => ''
+    }
+  ],
+  'kiyUtU' => [
+    {
+      'types' => {},
+      'entry' => 'kiyuwtuw',
+      'form' => 'kiyuwtuw',
+      'lines' => [
+        ';; kiyuwtuw_1',
+        'kywtw   kiyuwtuw        N0      Kyoto'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kyoto'
+      ],
+      'orig' => 'kiyuwtuw',
       'prefix' => ''
     }
   ],
@@ -18496,6 +18574,47 @@ $Lexicon = {
       ],
       'orig' => 'kulowap',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'kilw',
+      'form' => 'kilwiyy',
+      'lines' => [
+        ';; kilowiy~_1',
+        'klwy    kilowiy~        N/ap    renal;kidney     [[kilowiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FiCL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'renal',
+        'kidney'
+      ],
+      'orig' => 'kilowiy~',
+      'prefix' => ''
+    }
+  ],
+  'kuwIttA' => [
+    {
+      'types' => {},
+      'entry' => 'kuwiyttA',
+      'form' => 'kuwiyttA',
+      'lines' => [
+        ';; kuwiyt~A_1',
+        'kwytA   kuwiyt~A        Nprop   Quetta'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Quetta'
+      ],
+      'orig' => 'kuwiyt~A',
+      'prefix' => ''
     }
   ],
   'k ` b' => [
@@ -19247,27 +19366,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'krAyiynA' => [
-    {
-      'types' => {},
-      'entry' => 'krAyiynA',
-      'form' => 'krAyiynA',
-      'lines' => [
-        ';; krAyiynA_1',
-        'krAyynA krAyiynA        Nprop   Krajina'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Krajina'
-      ],
-      'orig' => 'krAyiynA',
-      'prefix' => ''
-    }
-  ],
   'k l _t m' => [
     {
       'types' => {},
@@ -19289,27 +19387,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwAlAlambuwr' => [
-    {
-      'types' => {},
-      'entry' => 'kuwAlAlambuwr',
-      'form' => 'kuwAlAlambuwr',
-      'lines' => [
-        ';; kuwAlAlamobuwr_1',
-        'kwAlAlmbwr      kuwAlAlamobuwr  Nprop   Kuala Lumpur'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kuala Lumpur'
-      ],
-      'orig' => 'kuwAlAlamobuwr',
-      'prefix' => ''
-    }
-  ],
   'k y l y' => [
     {
       'types' => {},
@@ -19328,6 +19405,27 @@ $Lexicon = {
         'Kelly'
       ],
       'orig' => 'kiyliy',
+      'prefix' => ''
+    }
+  ],
+  'kuwAlAlambUr' => [
+    {
+      'types' => {},
+      'entry' => 'kuwAlAlambuwr',
+      'form' => 'kuwAlAlambuwr',
+      'lines' => [
+        ';; kuwAlAlamobuwr_1',
+        'kwAlAlmbwr      kuwAlAlamobuwr  Nprop   Kuala Lumpur'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kuala Lumpur'
+      ],
+      'orig' => 'kuwAlAlamobuwr',
       'prefix' => ''
     }
   ],
@@ -19865,14 +19963,39 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwiyttA' => [
+  'kAmbiyUh' => [
+    {
+      'types' => {
+        'kAmbiyuwh' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'kAmbiyuwh',
+      'form' => 'kAmbiyuwhAt',
+      'lines' => [
+        ';; kAmobiyuwhAt_1',
+        'kAmbywh kAmobiyuwh      NAt     rates of exchange'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'rates of exchange'
+      ],
+      'orig' => 'kAmobiyuwhAt',
+      'prefix' => ''
+    }
+  ],
+  'kUbirz' => [
     {
       'types' => {},
-      'entry' => 'kuwiyttA',
-      'form' => 'kuwiyttA',
+      'entry' => 'kuwbirz',
+      'form' => 'kuwbirz',
       'lines' => [
-        ';; kuwiyt~A_1',
-        'kwytA   kuwiyt~A        Nprop   Quetta'
+        ';; kuwbirz_1',
+        'kwbrz   kuwbirz Nprop   Coopers'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19880,9 +20003,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Quetta'
+        'Coopers'
       ],
-      'orig' => 'kuwiyt~A',
+      'orig' => 'kuwbirz',
       'prefix' => ''
     }
   ],
@@ -19930,18 +20053,65 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kiyluwmitr' => [
+  'kArA^gIt^s' => [
+    {
+      'types' => {},
+      'entry' => 'kArA^giyt^s',
+      'form' => 'kArA^giyt^s',
+      'lines' => [
+        ';; kArAjiyt$_1',
+        'kArAjyt$        kArAjiyt$       Nprop   Karajic'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Karajic'
+      ],
+      'orig' => 'kArAjiyt$',
+      'prefix' => ''
+    }
+  ],
+  'kinIsit' => [
+    {
+      'types' => {},
+      'entry' => 'kiniysit',
+      'form' => 'kiniysit',
+      'lines' => [
+        ';; kiniysit_1',
+        'knyst   kiniysit        N0      Knesset'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Knesset'
+      ],
+      'orig' => 'kiniysit',
+      'prefix' => ''
+    }
+  ],
+  'kUsA' => [
     {
       'types' => {
-        'kiyluwmitr' => {
-          'NAt' => 1
+        'kuwsY' => {
+          'N0' => 1
+        },
+        'kuwsAy' => {
+          'Nap' => 1
         }
       },
-      'entry' => 'kiyluwmitr',
-      'form' => 'kiyluwmitr',
+      'entry' => 'kuwsA',
+      'form' => 'kuwsA',
       'lines' => [
-        ';; kiyluwmitr_1',
-        'kylwmtr kiyluwmitr      N/At    kilometer(s)'
+        ';; kuwsA_1',
+        'kwsA    kuwsA   N0      zucchini',
+        'kwsY    kuwsaY  N0      zucchini',
+        'kwsAy   kuwsAy  Nap     zucchini'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19949,72 +20119,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'kilometer(s)'
+        'zucchini'
       ],
-      'orig' => 'kiyluwmitr',
-      'prefix' => ''
-    }
-  ],
-  'kuwmuwdiynuw' => [
-    {
-      'types' => {},
-      'entry' => 'kuwmuwdiynuw',
-      'form' => 'kuwmuwdiynuw',
-      'lines' => [
-        ';; kuwmuwdiynuw_1',
-        'kwmwdynw        kuwmuwdiynuw    N0      bedside table'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bedside table'
-      ],
-      'orig' => 'kuwmuwdiynuw',
-      'prefix' => ''
-    }
-  ],
-  'kiybkuw' => [
-    {
-      'types' => {},
-      'entry' => 'kiybkuw',
-      'form' => 'kiybkuw',
-      'lines' => [
-        ';; kiybokuw_1',
-        'kybkw   kiybokuw        Nprop   Kibko'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kibko'
-      ],
-      'orig' => 'kiybokuw',
-      'prefix' => ''
-    }
-  ],
-  'kuwriyA' => [
-    {
-      'types' => {},
-      'entry' => 'kuwriyA',
-      'form' => 'kuwriyA',
-      'lines' => [
-        ';; kuwriyA_1',
-        'kwryA   kuwriyA N0      Korea'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Korea'
-      ],
-      'orig' => 'kuwriyA',
+      'orig' => 'kuwsA',
       'prefix' => ''
     }
   ],
@@ -20071,6 +20178,32 @@ $Lexicon = {
         'mushrooms'
       ],
       'orig' => 'kamo\'',
+      'prefix' => ''
+    }
+  ],
+  'kArnIh' => [
+    {
+      'types' => {
+        'kArniyh' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'kArniyh',
+      'form' => 'kArniyh',
+      'lines' => [
+        ';; kAroniyh_1',
+        'kArnyh  kAroniyh        N/At    identity card;carnet'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'identity card',
+        'carnet'
+      ],
+      'orig' => 'kAroniyh',
       'prefix' => ''
     }
   ],
@@ -20653,48 +20786,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kiyuwtuw' => [
-    {
-      'types' => {},
-      'entry' => 'kiyuwtuw',
-      'form' => 'kiyuwtuw',
-      'lines' => [
-        ';; kiyuwtuw_1',
-        'kywtw   kiyuwtuw        N0      Kyoto'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kyoto'
-      ],
-      'orig' => 'kiyuwtuw',
-      'prefix' => ''
-    }
-  ],
-  'kuwstiylluw' => [
-    {
-      'types' => {},
-      'entry' => 'kuwstiylluw',
-      'form' => 'kuwstiylluw',
-      'lines' => [
-        ';; kuwsotiyloluw_1',
-        'kwstyllw        kuwsotiyloluw   Nprop   Costello'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Costello'
-      ],
-      'orig' => 'kuwsotiyloluw',
-      'prefix' => ''
-    }
-  ],
   'kAwt^suq' => [
     {
       'types' => {
@@ -20718,6 +20809,27 @@ $Lexicon = {
         'rubber'
       ],
       'orig' => 'kAwto$uq',
+      'prefix' => ''
+    }
+  ],
+  'krI.g' => [
+    {
+      'types' => {},
+      'entry' => 'kriy.g',
+      'form' => 'kriy.g',
+      'lines' => [
+        ';; kriyg_1',
+        'kryg    kriyg   Nprop   Craig'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Craig'
+      ],
+      'orig' => 'kriyg',
       'prefix' => ''
     }
   ],
@@ -21042,6 +21154,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kIrUsIn' => [
+    {
+      'types' => {},
+      'entry' => 'kiyruwsiyn',
+      'form' => 'kiyruwsiyn',
+      'lines' => [
+        ';; kiyruwsiyn_1',
+        'kyrwsyn kiyruwsiyn      N0      kerosene'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'kerosene'
+      ],
+      'orig' => 'kiyruwsiyn',
+      'prefix' => ''
+    }
+  ],
   'krAyslir' => [
     {
       'types' => {},
@@ -21082,19 +21215,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwn.guw' => [
+  'kuskusU' => [
     {
-      'types' => {
-        'kuwn^guw' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'kuwn.guw',
-      'form' => 'kuwn.guw',
+      'types' => {},
+      'entry' => 'kuskusuw',
+      'form' => 'kuskusuw',
       'lines' => [
-        ';; kuwnoguw_1',
-        'kwngw   kuwnoguw        N0      Congo',
-        'kwnjw   kuwnojuw        N0      Congo'
+        ';; kusokusuw_1',
+        'ksksw   kusokusuw       N0      couscous'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21102,9 +21230,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Congo'
+        'couscous'
       ],
-      'orig' => 'kuwnoguw',
+      'orig' => 'kusokusuw',
       'prefix' => ''
     }
   ],
@@ -21129,14 +21257,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kiyluw' => [
+  'kUn^g' => [
     {
-      'types' => {},
-      'entry' => 'kiyluw',
-      'form' => 'kiyluw',
+      'types' => {
+        'kuwn.g' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'kuwn^g',
+      'form' => 'kuwn^g',
       'lines' => [
-        ';; kiyluw_1',
-        'kylw    kiyluw  N0      kilo;kilogram'
+        ';; kuwnoj_1',
+        'kwnj    kuwnoj  N0      Kong',
+        'kwng    kuwnog  N0      Kong'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21144,10 +21277,57 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'kilo',
-        'kilogram'
+        'Kong'
       ],
-      'orig' => 'kiyluw',
+      'orig' => 'kuwnoj',
+      'prefix' => ''
+    }
+  ],
+  'kan^garU' => [
+    {
+      'types' => {
+        'kan^garuwh' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'kan^garuw',
+      'form' => 'kan^garuw',
+      'lines' => [
+        ';; kanojaruw_1',
+        'knjrw   kanojaruw       N0      kangaroo',
+        'knjrwh  kanojaruwh      NAt     kangaroos'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'kangaroo',
+        'kangaroos'
+      ],
+      'orig' => 'kanojaruw',
+      'prefix' => ''
+    }
+  ],
+  'klUd' => [
+    {
+      'types' => {},
+      'entry' => 'kluwd',
+      'form' => 'kluwd',
+      'lines' => [
+        ';; kluwd_1',
+        'klwd    kluwd   Nprop   Claude'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Claude'
+      ],
+      'orig' => 'kluwd',
       'prefix' => ''
     }
   ],
@@ -21221,14 +21401,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kAmbuwmAyuwriynziy' => [
+  'kUl_hUz' => [
     {
       'types' => {},
-      'entry' => 'kAmbuwmAyuwriynziy',
-      'form' => 'kAmbuwmAyuwriynziy',
+      'entry' => 'kuwl_huwz',
+      'form' => 'kuwl_huwz',
       'lines' => [
-        ';; kAmbuwmAyuwriynoziy_1',
-        'kAmbwmAywrynzy  kAmbuwmAyuwriynoziy     N0      Campomaiorense'
+        ';; kuwloxuwz_1',
+        'kwlxwz  kuwloxuwz       N       kolkhoz'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21236,31 +21416,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Campomaiorense'
+        'kolkhoz'
       ],
-      'orig' => 'kAmbuwmAyuwriynoziy',
-      'prefix' => ''
-    }
-  ],
-  'klAkiyt' => [
-    {
-      'types' => {},
-      'entry' => 'klAkiyt',
-      'form' => 'klAkiyt',
-      'lines' => [
-        ';; klAkiyt_1',
-        'klAkyt  klAkiyt N0      clapper;clap stick'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'clapper',
-        'clap stick'
-      ],
-      'orig' => 'klAkiyt',
+      'orig' => 'kuwloxuwz',
       'prefix' => ''
     }
   ],
@@ -21905,32 +22063,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kiysin^gir' => [
-    {
-      'types' => {
-        'kiysiyn^gir' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'kiysin^gir',
-      'form' => 'kiysin^gir',
-      'lines' => [
-        ';; kiysinojir_1',
-        'kysnjr  kiysinojir      Nprop   Kissinger',
-        'kysynjr kiysiynojir     Nprop   Kissinger'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kissinger'
-      ],
-      'orig' => 'kiysinojir',
-      'prefix' => ''
-    }
-  ],
   'k m m' => [
     {
       'types' => {},
@@ -22242,6 +22374,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kzAfiyIh' => [
+    {
+      'types' => {
+        'kzAfyyh' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'kzAfiyiyh',
+      'form' => 'kzAfiyiyh',
+      'lines' => [
+        ';; kzAfiyiyh_1',
+        'kzAfyyh kzAfyyh Nprop   Xavier'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Xavier'
+      ],
+      'orig' => 'kzAfiyiyh',
+      'prefix' => ''
+    }
+  ],
   'k r m l' => [
     {
       'types' => {},
@@ -22340,19 +22497,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kambiyuw' => [
+  'kuwAfIr' => [
     {
-      'types' => {
-        'kambiyuwh' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'kambiyuw',
-      'form' => 'kambiyuw',
+      'types' => {},
+      'entry' => 'kuwAfiyr',
+      'form' => 'kuwAfiyr',
       'lines' => [
-        ';; kamobiyuw_1',
-        'kmbyw   kamobiyuw       N0      rate of exchange',
-        'kmbywh  kamobiyuwh      NAt     rates of exchange'
+        ';; kuwAfiyr_1',
+        'kwAfyr  kuwAfiyr        N       hairdresser'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22360,10 +22512,28 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'rate of exchange',
-        'rates of exchange'
+        'hairdresser'
       ],
-      'orig' => 'kamobiyuw',
+      'orig' => 'kuwAfiyr',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'kuwAfiyr',
+      'form' => 'kuwAfiyraT',
+      'lines' => [
+        ';; kuwAfiyrap_1',
+        'kwAfyr  kuwAfiyr        Nap     lady hairdresser'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'lady hairdresser'
+      ],
+      'orig' => 'kuwAfiyrap',
       'prefix' => ''
     }
   ],
@@ -22406,6 +22576,27 @@ $Lexicon = {
         'from/of Karbala'
       ],
       'orig' => 'karobalA}iy~',
+      'prefix' => ''
+    }
+  ],
+  'kAylAhUn' => [
+    {
+      'types' => {},
+      'entry' => 'kAylAhuwn',
+      'form' => 'kAylAhuwn',
+      'lines' => [
+        ';; kAylAhuwn_1',
+        'kAylAhwn        kAylAhuwn       Nprop   Kailahun'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kailahun'
+      ],
+      'orig' => 'kAylAhuwn',
       'prefix' => ''
     }
   ],
@@ -22813,14 +23004,22 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kAyzirsluwtirn' => [
+  'kArU' => [
     {
-      'types' => {},
-      'entry' => 'kAyzirsluwtirn',
-      'form' => 'kAyzirsluwtirn',
+      'types' => {
+        'kAruwh' => {
+          'NAt' => 1
+        },
+        'kArw' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'kAruw',
+      'form' => 'kAruw',
       'lines' => [
-        ';; kAyzirsoluwtirn_1',
-        'kAyzrslwtrn     kAyzirsoluwtirn N0      Kaiserslautern'
+        ';; kAruw_1',
+        'kArw    kArw    N0      cart;wagon',
+        'kArwh   kAruwh  NAt     carts;wagons'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22828,30 +23027,12 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Kaiserslautern'
+        'cart',
+        'wagon',
+        'carts',
+        'wagons'
       ],
-      'orig' => 'kAyzirsoluwtirn',
-      'prefix' => ''
-    }
-  ],
-  'kanakiynA' => [
-    {
-      'types' => {},
-      'entry' => 'kanakiynA',
-      'form' => 'kanakiynA',
-      'lines' => [
-        ';; kanakiynA_1',
-        'knkynA  kanakiynA       N0      quinine'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'quinine'
-      ],
-      'orig' => 'kanakiynA',
+      'orig' => 'kAruw',
       'prefix' => ''
     }
   ],
@@ -22873,27 +23054,6 @@ $Lexicon = {
         'beef'
       ],
       'orig' => 'kanoduwz',
-      'prefix' => ''
-    }
-  ],
-  'kuwluwmbw' => [
-    {
-      'types' => {},
-      'entry' => 'kuwluwmbw',
-      'form' => 'kuwluwmbw',
-      'lines' => [
-        ';; kuwluwmobw_1',
-        'kwlwmbw kuwluwmobw      N0      Colombo'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Colombo'
-      ],
-      'orig' => 'kuwluwmobw',
       'prefix' => ''
     }
   ],
@@ -22921,6 +23081,31 @@ $Lexicon = {
         'kohl containers'
       ],
       'orig' => 'mukoHulap',
+      'prefix' => ''
+    }
+  ],
+  'kanabIh' => [
+    {
+      'types' => {
+        'kanabiyh' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'kanabiyh',
+      'form' => 'kanabiyh',
+      'lines' => [
+        ';; kanabiyh_1',
+        'knbyh   kanabiyh        N/At    sofa'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'sofa'
+      ],
+      'orig' => 'kanabiyh',
       'prefix' => ''
     }
   ],
@@ -23075,6 +23260,48 @@ $Lexicon = {
         'shapely'
       ],
       'orig' => 'mukas~am',
+      'prefix' => ''
+    }
+  ],
+  'kUrb' => [
+    {
+      'types' => {},
+      'entry' => 'kuwrb',
+      'form' => 'kuwrb',
+      'lines' => [
+        ';; kuwrob_1',
+        'kwrb    kuwrob  Nprop   Corp.'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Corp.'
+      ],
+      'orig' => 'kuwrob',
+      'prefix' => ''
+    }
+  ],
+  'kalsiyUm' => [
+    {
+      'types' => {},
+      'entry' => 'kalsiyuwm',
+      'form' => 'kalsiyuwm',
+      'lines' => [
+        ';; kalosiyuwm_1',
+        'klsywm  kalosiyuwm      N0      calcium'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'calcium'
+      ],
+      'orig' => 'kalosiyuwm',
       'prefix' => ''
     }
   ],
@@ -23546,27 +23773,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kamiruwn' => [
+  'klAwdiyU' => [
     {
-      'types' => {
-        'kAmiruwn' => {
-          'N0' => 1
-        },
-        'kAmiyruwn' => {
-          'N0' => 1
-        },
-        'kamiyruwn' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'kamiruwn',
-      'form' => 'kamiruwn',
+      'types' => {},
+      'entry' => 'klAwdiyuw',
+      'form' => 'klAwdiyuw',
       'lines' => [
-        ';; kamiruwn_1',
-        'kmrwn   kamiruwn        N0      Cameroon;Cameroun',
-        'kAmrwn  kAmiruwn        N0      Cameroon;Cameroun',
-        'kmyrwn  kamiyruwn       N0      Cameroon;Cameroun',
-        'kAmyrwn kAmiyruwn       N0      Cameroon;Cameroun'
+        ';; klAwodiyuw_1',
+        'klAwdyw klAwodiyuw      N0      Claudio'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23574,42 +23788,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Cameroon',
-        'Cameroun'
+        'Claudio'
       ],
-      'orig' => 'kamiruwn',
+      'orig' => 'klAwodiyuw',
       'prefix' => ''
-    },
+    }
+  ],
+  'klImints' => [
     {
-      'types' => {
-        'kAmiyruwniyy' => {
-          'Nall' => 1
-        },
-        'kamiyruwniyy' => {
-          'Nall' => 1
-        },
-        'kAmiruwniyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'kamiruwn',
-      'form' => 'kamiruwniyy',
+      'types' => {},
+      'entry' => 'kliymints',
+      'form' => 'kliymints',
       'lines' => [
-        ';; kamiruwniy~_1',
-        'kmrwny  kamiruwniy~     Nall    from/of the Cameroon/Cameroun     [[kamiruwniy~/ADJ]]',
-        'kAmrwny kAmiruwniy~     Nall    from/of the Cameroon/Cameroun     [[kAmiruwniy~/ADJ]]',
-        'kmyrwny kamiyruwniy~    Nall    from/of the Cameroon/Cameroun     [[kamiyruwniy~/ADJ]]',
-        'kAmyrwny        kAmiyruwniy~    Nall    from/of the Cameroon/Cameroun     [[kAmiyruwniy~/ADJ]]'
+        ';; kliyminots_1',
+        'klymnts kliyminots      Nprop   Clements'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'from/of the Cameroon/Cameroun'
+        'Clements'
       ],
-      'orig' => 'kamiruwniy~',
+      'orig' => 'kliyminots',
       'prefix' => ''
     }
   ],
@@ -23663,25 +23865,94 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'k l w y' => [
+  'kUrsIkA' => [
     {
       'types' => {},
-      'entry' => 'kilwiyy',
-      'form' => 'kilwiyy',
+      'entry' => 'kuwrsiykA',
+      'form' => 'kuwrsiykA',
       'lines' => [
-        ';; kilowiy~_1',
-        'klwy    kilowiy~        N/ap    renal;kidney     [[kilowiy~/ADJ]]'
+        ';; kuwrosiykA_1',
+        'kwrsykA kuwrosiykA      N0      Corsica'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KiRDIS',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'renal',
-        'kidney'
+        'Corsica'
       ],
-      'orig' => 'kilowiy~',
+      'orig' => 'kuwrosiykA',
+      'prefix' => ''
+    }
+  ],
+  'kUrIt_hA' => [
+    {
+      'types' => {},
+      'entry' => 'kuwriyt_hA',
+      'form' => 'kuwriyt_hA',
+      'lines' => [
+        ';; kuwriytoxA_1',
+        'kwrytxA kuwriytoxA      N0      Corretja'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Corretja'
+      ],
+      'orig' => 'kuwriytoxA',
+      'prefix' => ''
+    }
+  ],
+  'kuwIrtin' => [
+    {
+      'types' => {},
+      'entry' => 'kuwiyrtin',
+      'form' => 'kuwiyrtin',
+      'lines' => [
+        ';; kuwiyrotin_1',
+        'kwyrtn  kuwiyrotin      Nprop   Kuerten'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kuerten'
+      ],
+      'orig' => 'kuwiyrotin',
+      'prefix' => ''
+    }
+  ],
+  'krIm' => [
+    {
+      'types' => {
+        'kriym' => {
+          'NAt' => 1,
+          'NapAt' => 1
+        }
+      },
+      'entry' => 'kriym',
+      'form' => 'kriym',
+      'lines' => [
+        ';; kriym_1',
+        'krym    kriym   N/At    creme',
+        'krym    kriym   NapAt   cream'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'creme',
+        'cream'
+      ],
+      'orig' => 'kriym',
       'prefix' => ''
     }
   ],
@@ -23774,6 +24045,49 @@ $Lexicon = {
         'bellows'
       ],
       'orig' => 'kiyr',
+      'prefix' => ''
+    }
+  ],
+  'k w m d' => [
+    {
+      'types' => {},
+      'entry' => 'kuwmiyd',
+      'form' => 'kuwmiydiyy',
+      'lines' => [
+        ';; kuwmiydiy~_1',
+        'kwmydy  kuwmiydiy~      Nall    comic;comedic     [[kuwmiydiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KuRDIS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'comic',
+        'comedic'
+      ],
+      'orig' => 'kuwmiydiy~',
+      'prefix' => ''
+    }
+  ],
+  'kAstIlA' => [
+    {
+      'types' => {},
+      'entry' => 'kAstiylA',
+      'form' => 'kAstiylA',
+      'lines' => [
+        ';; kAsotiylA_1',
+        'kAstylA kAsotiylA       Nprop   Castilla'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Castilla'
+      ],
+      'orig' => 'kAsotiylA',
       'prefix' => ''
     }
   ],
@@ -24003,14 +24317,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kriystiy' => [
+  'kUnsUlU' => [
     {
       'types' => {},
-      'entry' => 'kriystiy',
-      'form' => 'kriystiy',
+      'entry' => 'kuwnsuwluw',
+      'form' => 'kuwnsuwluw',
       'lines' => [
-        ';; kriystiy_1',
-        'krysty  kriystiy        Nprop   Kristy'
+        ';; kuwnosuwluw_1',
+        'kwnswlw kuwnosuwluw     N0      Consolo'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24018,20 +24332,24 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Kristy'
+        'Consolo'
       ],
-      'orig' => 'kriystiy',
+      'orig' => 'kuwnosuwluw',
       'prefix' => ''
     }
   ],
-  'kiyriyyinkuw' => [
+  'kAntIn' => [
     {
-      'types' => {},
-      'entry' => 'kiyriyyinkuw',
-      'form' => 'kiyriyyinkuw',
+      'types' => {
+        'kAntiyn' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'kAntiyn',
+      'form' => 'kAntiyn',
       'lines' => [
-        ';; kiyriyyinokuw_1',
-        'kyryynkw        kiyriyyinokuw   Nprop   Kiriyenko'
+        ';; kAnotiyn_1',
+        'kAntyn  kAnotiyn        N/At    canteen'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24039,31 +24357,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Kiriyenko'
+        'canteen'
       ],
-      'orig' => 'kiyriyyinokuw',
-      'prefix' => ''
-    }
-  ],
-  'kriystiyAnuw' => [
-    {
-      'types' => {},
-      'entry' => 'kriystiyAnuw',
-      'form' => 'kriystiyAnuw',
-      'lines' => [
-        ';; kriysotiyAnuw_1',
-        'krystyAnw       kriysotiyAnuw   Nprop   Cristiano;Christiano'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Cristiano',
-        'Christiano'
-      ],
-      'orig' => 'kriysotiyAnuw',
+      'orig' => 'kAnotiyn',
       'prefix' => ''
     }
   ],
@@ -24088,14 +24384,22 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kiniysit' => [
+  'kImiyA\'IyA.t' => [
     {
-      'types' => {},
-      'entry' => 'kiniysit',
-      'form' => 'kiniysit',
+      'types' => {
+        'kiymiyAwiyy' => {
+          'NAt' => 1
+        },
+        'kiymiyA\'iyy' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'kiymiyA\'iyyA.t',
+      'form' => 'kiymiyA\'iyyA.t',
       'lines' => [
-        ';; kiniysit_1',
-        'knyst   kiniysit        N0      Knesset'
+        ';; kiymiyA}iy~AT_1',
+        'kymyA}y kiymiyA}iy~     NAt     chemicals     [[kiymiyA}iy~/NOUN]]',
+        'kymyAwy kiymiyAwiy~     NAt     chemicals     [[kiymiyAwiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24103,9 +24407,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Knesset'
+        'chemicals'
       ],
-      'orig' => 'kiniysit',
+      'orig' => 'kiymiyA}iy~AT',
       'prefix' => ''
     }
   ],
@@ -24174,27 +24478,6 @@ $Lexicon = {
         'garage'
       ],
       'orig' => 'karAj',
-      'prefix' => ''
-    }
-  ],
-  'kuwmbAk' => [
-    {
-      'types' => {},
-      'entry' => 'kuwmbAk',
-      'form' => 'kuwmbAk',
-      'lines' => [
-        ';; kuwmobAk_1',
-        'kwmbAk  kuwmobAk        Nprop   Compaq'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Compaq'
-      ],
-      'orig' => 'kuwmobAk',
       'prefix' => ''
     }
   ],
@@ -24503,44 +24786,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kiliym' => [
-    {
-      'types' => {
-        '\'aklim' => {
-          'Nap' => 2
-        }
-      },
-      'entry' => 'kiliym',
-      'form' => 'kiliym',
-      'lines' => [
-        ';; kiliym_1',
-        'klym    kiliym  N0      carpet;rug',
-        '>klm    >aklim  Nap     carpets;rugs',
-        'Aklm    >aklim  Nap     carpets;rugs'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'carpet',
-        'rug',
-        'carpets',
-        'rugs'
-      ],
-      'orig' => 'kiliym',
-      'prefix' => ''
-    }
-  ],
-  'kAsiymuwf' => [
+  'kIbkU' => [
     {
       'types' => {},
-      'entry' => 'kAsiymuwf',
-      'form' => 'kAsiymuwf',
+      'entry' => 'kiybkuw',
+      'form' => 'kiybkuw',
       'lines' => [
-        ';; kAsiymuwf_1',
-        'kAsymwf kAsiymuwf       Nprop   Kasimov'
+        ';; kiybokuw_1',
+        'kybkw   kiybokuw        Nprop   Kibko'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24548,9 +24801,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Kasimov'
+        'Kibko'
       ],
-      'orig' => 'kAsiymuwf',
+      'orig' => 'kiybokuw',
       'prefix' => ''
     }
   ],
@@ -24572,27 +24825,6 @@ $Lexicon = {
         'Keegan'
       ],
       'orig' => 'kiygAn',
-      'prefix' => ''
-    }
-  ],
-  'kuwnkAn' => [
-    {
-      'types' => {},
-      'entry' => 'kuwnkAn',
-      'form' => 'kuwnkAn',
-      'lines' => [
-        ';; kuwnokAn_1',
-        'kwnkAn  kuwnokAn        N0      card game'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'card game'
-      ],
-      'orig' => 'kuwnokAn',
       'prefix' => ''
     }
   ],
@@ -24653,31 +24885,6 @@ $Lexicon = {
         'cavitation'
       ],
       'orig' => 'takah~uf',
-      'prefix' => ''
-    }
-  ],
-  'kuwluwniyl' => [
-    {
-      'types' => {
-        'kuwluwniyl' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'kuwluwniyl',
-      'form' => 'kuwluwniyl',
-      'lines' => [
-        ';; kuwluwniyl_1',
-        'kwlwnyl kuwluwniyl      NduAt   colonel'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'colonel'
-      ],
-      'orig' => 'kuwluwniyl',
       'prefix' => ''
     }
   ],
@@ -24940,14 +25147,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwsuwfA' => [
+  'kUnkAkAf' => [
     {
       'types' => {},
-      'entry' => 'kuwsuwfA',
-      'form' => 'kuwsuwfA',
+      'entry' => 'kuwnkAkAf',
+      'form' => 'kuwnkAkAf',
       'lines' => [
-        ';; kuwsuwfA_1',
-        'kwswfA  kuwsuwfA        Nprop   Kosova'
+        ';; kuwnokAkAf_1',
+        'kwnkAkAf        kuwnokAkAf      N0      CONCACAF (Confederation of North, Central American and Caribbean Association Football)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24955,9 +25162,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Kosova'
+        'CONCACAF (Confederation of North, Central American and Caribbean Association Football)'
       ],
-      'orig' => 'kuwsuwfA',
+      'orig' => 'kuwnokAkAf',
+      'prefix' => ''
+    }
+  ],
+  'kInIdI' => [
+    {
+      'types' => {},
+      'entry' => 'kiyniydiy',
+      'form' => 'kiyniydiy',
+      'lines' => [
+        ';; kiyniydiy_1',
+        'kynydy  kiyniydiy       Nprop   Kennedy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kennedy'
+      ],
+      'orig' => 'kiyniydiy',
       'prefix' => ''
     }
   ],
@@ -25009,27 +25237,6 @@ $Lexicon = {
         'reverting'
       ],
       'orig' => 'kabokabap',
-      'prefix' => ''
-    }
-  ],
-  'kuwl_huwz' => [
-    {
-      'types' => {},
-      'entry' => 'kuwl_huwz',
-      'form' => 'kuwl_huwz',
-      'lines' => [
-        ';; kuwloxuwz_1',
-        'kwlxwz  kuwloxuwz       N       kolkhoz'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'kolkhoz'
-      ],
-      'orig' => 'kuwloxuwz',
       'prefix' => ''
     }
   ],
@@ -25106,19 +25313,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwkAyiyn' => [
+  'kUfA\'In' => [
     {
       'types' => {
-        'kuwkA\'iyn' => {
-          'N' => 1
+        'kuwfAyiyn' => {
+          'N0' => 1
         }
       },
-      'entry' => 'kuwkAyiyn',
-      'form' => 'kuwkAyiyn',
+      'entry' => 'kuwfA\'iyn',
+      'form' => 'kuwfA\'iyn',
       'lines' => [
-        ';; kuwkAyiyn_1',
-        'kwkAyyn kuwkAyiyn       N       cocaine',
-        'kwkA}yn kuwkA}iyn       N       cocaine'
+        ';; kuwfA}iyn_1',
+        'kwfA}yn kuwfA}iyn       N0      caffeine',
+        'kwfAyyn kuwfAyiyn       N0      caffeine'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25126,9 +25333,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'cocaine'
+        'caffeine'
       ],
-      'orig' => 'kuwkAyiyn',
+      'orig' => 'kuwfA}iyn',
       'prefix' => ''
     }
   ],
@@ -25153,14 +25360,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwrsiykA' => [
+  'kAnkUn' => [
     {
       'types' => {},
-      'entry' => 'kuwrsiykA',
-      'form' => 'kuwrsiykA',
+      'entry' => 'kAnkuwn',
+      'form' => 'kAnkuwn',
       'lines' => [
-        ';; kuwrosiykA_1',
-        'kwrsykA kuwrosiykA      N0      Corsica'
+        ';; kAnokuwn_1',
+        'kAnkwn  kAnokuwn        N0      Cancun'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25168,9 +25375,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Corsica'
+        'Cancun'
       ],
-      'orig' => 'kuwrosiykA',
+      'orig' => 'kAnokuwn',
       'prefix' => ''
     }
   ],
@@ -25358,6 +25565,37 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        '\'akA_diyb' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'uk_duwb',
+      'form' => '\'uk_duwbaT',
+      'lines' => [
+        ';; >uko*uwbap_1',
+        '>k*wb   >uko*uwb        Napdu   lie',
+        'Ak*wb   >uko*uwb        Napdu   lie',
+        '>kA*yb  >akA*iyb        Ndip    lies',
+        'AkA*yb  >akA*iyb        Ndip    lies'
+      ],
+      'patterns' => {
+        '\'akA_diyb' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'lie',
+        'lies'
+      ],
+      'orig' => 'Ouko*uwbap',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => '\'ak_dab',
       'form' => '\'ak_dab',
@@ -25463,27 +25701,6 @@ $Lexicon = {
         'trumped up'
       ],
       'orig' => 'mako*uwb',
-      'prefix' => ''
-    }
-  ],
-  'kluwd' => [
-    {
-      'types' => {},
-      'entry' => 'kluwd',
-      'form' => 'kluwd',
-      'lines' => [
-        ';; kluwd_1',
-        'klwd    kluwd   Nprop   Claude'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Claude'
-      ],
-      'orig' => 'kluwd',
       'prefix' => ''
     }
   ],
@@ -25601,27 +25818,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kAmdiysuw' => [
-    {
-      'types' => {},
-      'entry' => 'kAmdiysuw',
-      'form' => 'kAmdiysuw',
-      'lines' => [
-        ';; kAmodiysuw_1',
-        'kAmdysw kAmodiysuw      Nprop   Camdessus'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Camdessus'
-      ],
-      'orig' => 'kAmodiysuw',
-      'prefix' => ''
-    }
-  ],
   'k d m' => [
     {
       'types' => {
@@ -25714,6 +25910,31 @@ $Lexicon = {
         'bruises'
       ],
       'orig' => 'kadomap',
+      'prefix' => ''
+    }
+  ],
+  'kIlUmitr' => [
+    {
+      'types' => {
+        'kiyluwmitr' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'kiyluwmitr',
+      'form' => 'kiyluwmitr',
+      'lines' => [
+        ';; kiyluwmitr_1',
+        'kylwmtr kiyluwmitr      N/At    kilometer(s)'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'kilometer(s)'
+      ],
+      'orig' => 'kiyluwmitr',
       'prefix' => ''
     }
   ],
@@ -26209,6 +26430,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kUntrAtU' => [
+    {
+      'types' => {
+        'kuwntrAtw' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'kuwntrAtuw',
+      'form' => 'kuwntrAtuw',
+      'lines' => [
+        ';; kuwnotrAtuw_1',
+        'kwntrAtw        kuwnotrAtw      N0      contract'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'contract'
+      ],
+      'orig' => 'kuwnotrAtuw',
+      'prefix' => ''
+    }
+  ],
   'k .z .z' => [
     {
       'types' => {
@@ -26381,14 +26627,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'krimliyn' => [
+  'katAlU^g' => [
     {
-      'types' => {},
-      'entry' => 'krimliyn',
-      'form' => 'krimliyn',
+      'types' => {
+        'katAluw^g' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'katAluw^g',
+      'form' => 'katAluw^g',
       'lines' => [
-        ';; krimoliyn_1',
-        'krmlyn  krimoliyn       N0      Kremlin'
+        ';; katAluwj_1',
+        'ktAlwj  katAluwj        Ndu     catalogue',
+        'ktAlwj  katAluwj        NAt     catalogues'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26396,9 +26647,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Kremlin'
+        'catalogue',
+        'catalogues'
       ],
-      'orig' => 'krimoliyn',
+      'orig' => 'katAluwj',
       'prefix' => ''
     }
   ],
@@ -26423,14 +26675,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kAruwsiyl' => [
+  'kUlUniyA' => [
     {
       'types' => {},
-      'entry' => 'kAruwsiyl',
-      'form' => 'kAruwsiyl',
+      'entry' => 'kuwluwniyA',
+      'form' => 'kuwluwniyA',
       'lines' => [
-        ';; kAruwsiyl_1',
-        'kArwsyl kAruwsiyl       N0      Carousel'
+        ';; kuwluwniyA_1',
+        'kwlwnyA kuwluwniyA      N0      Cologne;cologne'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26438,9 +26690,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Carousel'
+        'Cologne',
+        'cologne'
       ],
-      'orig' => 'kAruwsiyl',
+      'orig' => 'kuwluwniyA',
       'prefix' => ''
     }
   ],
@@ -26944,14 +27197,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kwrbys' => [
+  'krIstUf' => [
     {
       'types' => {},
-      'entry' => 'kwrbys',
-      'form' => 'kwrbys',
+      'entry' => 'kriystuwf',
+      'form' => 'kriystuwf',
       'lines' => [
-        ';; kwrbys_1',
-        'kwrbys  kwrbys  Nprop   Courbis'
+        ';; kriysotuwf_1',
+        'krystwf kriysotuwf      Nprop   Christoph;Kristof'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26959,9 +27212,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Courbis'
+        'Christoph',
+        'Kristof'
       ],
-      'orig' => 'kwrbys',
+      'orig' => 'kriysotuwf',
       'prefix' => ''
     }
   ],
@@ -26984,6 +27238,78 @@ $Lexicon = {
         'gem'
       ],
       'orig' => 'karokanod',
+      'prefix' => ''
+    }
+  ],
+  'kinidI' => [
+    {
+      'types' => {
+        'kiniydiy' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'kinidiy',
+      'form' => 'kinidiy',
+      'lines' => [
+        ';; kinidiy_1',
+        'kndy    kinidiy N0      Kennedy',
+        'knydy   kiniydiy        Nprop   Kennedy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kennedy'
+      ],
+      'orig' => 'kinidiy',
+      'prefix' => ''
+    }
+  ],
+  'kUktIl' => [
+    {
+      'types' => {},
+      'entry' => 'kuwktiyl',
+      'form' => 'kuwktiyl',
+      'lines' => [
+        ';; kuwkotiyl_1',
+        'kwktyl  kuwkotiyl       N0      cocktail'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'cocktail'
+      ],
+      'orig' => 'kuwkotiyl',
+      'prefix' => ''
+    }
+  ],
+  'krUk' => [
+    {
+      'types' => {
+        'kruwkiyy' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'kruwk',
+      'form' => 'kruwkiyy',
+      'lines' => [
+        ';; kruwkiy~_1',
+        'krwky   kruwkiy~        NduAt   sketch     [[kruwkiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'sketch'
+      ],
+      'orig' => 'kruwkiy~',
       'prefix' => ''
     }
   ],
@@ -27028,6 +27354,27 @@ $Lexicon = {
         'electron'
       ],
       'orig' => 'kuhayoribiy~',
+      'prefix' => ''
+    }
+  ],
+  'kUrnIkUfA' => [
+    {
+      'types' => {},
+      'entry' => 'kuwrniykuwfA',
+      'form' => 'kuwrniykuwfA',
+      'lines' => [
+        ';; kuwroniykuwfA_1',
+        'kwrnykwfA       kuwroniykuwfA   Nprop   Kournikova'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kournikova'
+      ],
+      'orig' => 'kuwroniykuwfA',
       'prefix' => ''
     }
   ],
@@ -27428,27 +27775,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kriy.g' => [
-    {
-      'types' => {},
-      'entry' => 'kriy.g',
-      'form' => 'kriy.g',
-      'lines' => [
-        ';; kriyg_1',
-        'kryg    kriyg   Nprop   Craig'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Craig'
-      ],
-      'orig' => 'kriyg',
-      'prefix' => ''
-    }
-  ],
   'k _t l k' => [
     {
       'types' => {},
@@ -27488,6 +27814,27 @@ $Lexicon = {
         'Catholics'
       ],
       'orig' => 'kavolakap',
+      'prefix' => ''
+    }
+  ],
+  'krIstUfar' => [
+    {
+      'types' => {},
+      'entry' => 'kriystuwfar',
+      'form' => 'kriystuwfar',
+      'lines' => [
+        ';; kriysotuwfar_1',
+        'krystwfr        kriysotuwfar    Nprop   Christopher'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Christopher'
+      ],
+      'orig' => 'kriysotuwfar',
       'prefix' => ''
     }
   ],
@@ -28200,57 +28547,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kAmbiyuwh' => [
-    {
-      'types' => {
-        'kAmbiyuwh' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'kAmbiyuwh',
-      'form' => 'kAmbiyuwhAt',
-      'lines' => [
-        ';; kAmobiyuwhAt_1',
-        'kAmbywh kAmobiyuwh      NAt     rates of exchange'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'rates of exchange'
-      ],
-      'orig' => 'kAmobiyuwhAt',
-      'prefix' => ''
-    }
-  ],
-  'kuwmAnduwz' => [
-    {
-      'types' => {
-        'kuwmAnduws' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'kuwmAnduwz',
-      'form' => 'kuwmAnduwz',
-      'lines' => [
-        ';; kuwmAnoduwz_1',
-        'kwmAndwz        kuwmAnoduwz     N       commandos',
-        'kwmAndws        kuwmAnoduws     N       commandos'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'commandos'
-      ],
-      'orig' => 'kuwmAnoduwz',
-      'prefix' => ''
-    }
-  ],
   'takrAr' => [
     {
       'types' => {},
@@ -28297,6 +28593,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kUbinhA.g' => [
+    {
+      'types' => {
+        'kuwbinhA^g' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'kuwbinhA.g',
+      'form' => 'kuwbinhA.g',
+      'lines' => [
+        ';; kuwbinohAg_1',
+        'kwbnhAg kuwbinohAg      Nprop   Copenhagen',
+        'kwbnhAj kuwbinohAj      Nprop   Copenhagen'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Copenhagen'
+      ],
+      'orig' => 'kuwbinohAg',
+      'prefix' => ''
+    }
+  ],
   'klAws' => [
     {
       'types' => {},
@@ -28319,18 +28641,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kAntiyn' => [
+  'karUbIm' => [
     {
       'types' => {
-        'kAntiyn' => {
-          'NAt' => 1
+        'kAruwbiym' => {
+          'N0' => 1
         }
       },
-      'entry' => 'kAntiyn',
-      'form' => 'kAntiyn',
+      'entry' => 'karuwbiym',
+      'form' => 'karuwbiym',
       'lines' => [
-        ';; kAnotiyn_1',
-        'kAntyn  kAnotiyn        N/At    canteen'
+        ';; karuwbiym_1',
+        'krwbym  karuwbiym       N0      cherubim',
+        'kArwbym kAruwbiym       N0      cherubim'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28338,9 +28661,52 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'canteen'
+        'cherubim'
       ],
-      'orig' => 'kAnotiyn',
+      'orig' => 'karuwbiym',
+      'prefix' => ''
+    }
+  ],
+  'kUlUmb' => [
+    {
+      'types' => {},
+      'entry' => 'kuwluwmb',
+      'form' => 'kuwluwmbiyy',
+      'lines' => [
+        ';; kuwluwmobiy~_1',
+        'kwlwmby kuwluwmobiy~    Nall    Colombian     [[kuwluwmobiy~/NOUN]]',
+        'kwlwmby kuwluwmobiy~    Nall    Colombian     [[kuwluwmobiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Colombian'
+      ],
+      'orig' => 'kuwluwmobiy~',
+      'prefix' => ''
+    }
+  ],
+  'klIntUn' => [
+    {
+      'types' => {},
+      'entry' => 'kliyntuwn',
+      'form' => 'kliyntuwn',
+      'lines' => [
+        ';; kliynotuwn_1',
+        'klyntwn kliynotuwn      Nprop   Clinton'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Clinton'
+      ],
+      'orig' => 'kliynotuwn',
       'prefix' => ''
     }
   ],
@@ -28362,6 +28728,27 @@ $Lexicon = {
         'Kinkle ??'
       ],
       'orig' => 'kynkl',
+      'prefix' => ''
+    }
+  ],
+  'kAmbUmAyUrInzI' => [
+    {
+      'types' => {},
+      'entry' => 'kAmbuwmAyuwriynziy',
+      'form' => 'kAmbuwmAyuwriynziy',
+      'lines' => [
+        ';; kAmbuwmAyuwriynoziy_1',
+        'kAmbwmAywrynzy  kAmbuwmAyuwriynoziy     N0      Campomaiorense'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Campomaiorense'
+      ],
+      'orig' => 'kAmbuwmAyuwriynoziy',
       'prefix' => ''
     }
   ],
@@ -28650,14 +29037,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yakuwn' => [
+  'kAmdIsU' => [
     {
       'types' => {},
-      'entry' => 'yakuwn',
-      'form' => 'yakuwn',
+      'entry' => 'kAmdiysuw',
+      'form' => 'kAmdiysuw',
       'lines' => [
-        ';; yakuwn_1',
-        'ykwn    yakuwn  N0      sum total'
+        ';; kAmodiysuw_1',
+        'kAmdysw kAmodiysuw      Nprop   Camdessus'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28665,30 +29052,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'sum total'
+        'Camdessus'
       ],
-      'orig' => 'yakuwn',
-      'prefix' => ''
-    }
-  ],
-  'kAstiylA' => [
-    {
-      'types' => {},
-      'entry' => 'kAstiylA',
-      'form' => 'kAstiylA',
-      'lines' => [
-        ';; kAsotiylA_1',
-        'kAstylA kAsotiylA       Nprop   Castilla'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Castilla'
-      ],
-      'orig' => 'kAsotiylA',
+      'orig' => 'kAmodiysuw',
       'prefix' => ''
     }
   ],
@@ -28710,108 +29076,6 @@ $Lexicon = {
         'Calatrava'
       ],
       'orig' => 'kAlAtrAfA',
-      'prefix' => ''
-    }
-  ],
-  'kAriykAtuwr' => [
-    {
-      'types' => {
-        'kAriykAtiyr' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'kAriykAtuwr',
-      'form' => 'kAriykAtuwr',
-      'lines' => [
-        ';; kAriykAtuwr_1',
-        'kArykAtwr       kAriykAtuwr     N       caricature;cartoon',
-        'kArykAtyr       kAriykAtiyr     N       caricature;cartoon'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'caricature',
-        'cartoon'
-      ],
-      'orig' => 'kAriykAtuwr',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'kAriykAtiyriyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'kAriykAtuwr',
-      'form' => 'kAriykAtuwriyy',
-      'lines' => [
-        ';; kAriykAtuwriy~_1',
-        'kArykAtwry      kAriykAtuwriy~  Nall    caricature;cartoon     [[kAriykAtuwriy~/ADJ]]',
-        'kArykAtyry      kAriykAtiyriy~  Nall    caricature;cartoon     [[kAriykAtiyriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'caricature',
-        'cartoon'
-      ],
-      'orig' => 'kAriykAtuwriy~',
-      'prefix' => ''
-    }
-  ],
-  'karakuwn' => [
-    {
-      'types' => {},
-      'entry' => 'karakuwn',
-      'form' => 'karakuwn',
-      'lines' => [
-        ';; karakuwn_1',
-        'krkwn   karakuwn        N       police station'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'police station'
-      ],
-      'orig' => 'karakuwn',
-      'prefix' => ''
-    }
-  ],
-  'kAlluw' => [
-    {
-      'types' => {
-        'kAlluwh' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'kAlluw',
-      'form' => 'kAlluw',
-      'lines' => [
-        ';; kAl~uw_1',
-        'kAlw    kAl~uw  N0      callus;corn',
-        'kAlwh   kAl~uwh NAt     calluses;corns'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'callus',
-        'corn',
-        'calluses',
-        'corns'
-      ],
-      'orig' => 'kAl~uw',
       'prefix' => ''
     }
   ],
@@ -28862,6 +29126,31 @@ $Lexicon = {
         'wrist bones'
       ],
       'orig' => 'kurosuwE',
+      'prefix' => ''
+    }
+  ],
+  'kUrbIs' => [
+    {
+      'types' => {
+        'kwrbys' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'kuwrbiys',
+      'form' => 'kuwrbiys',
+      'lines' => [
+        ';; kuwrbiys_1',
+        'kwrbys  kwrbys  Nprop   Courbis'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Courbis'
+      ],
+      'orig' => 'kuwrbiys',
       'prefix' => ''
     }
   ],
@@ -29133,19 +29422,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kAmbuwdiyA' => [
+  'kIn.gstUn' => [
     {
-      'types' => {
-        'kambuwdiyA' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'kAmbuwdiyA',
-      'form' => 'kAmbuwdiyA',
+      'types' => {},
+      'entry' => 'kiyn.gstuwn',
+      'form' => 'kiyn.gstuwn',
       'lines' => [
-        ';; kAmobuwdiyA_1',
-        'kAmbwdyA        kAmobuwdiyA     N0      Cambodia;Kampuchea',
-        'kmbwdyA kamobuwdiyA     N0      Cambodia;Kampuchea'
+        ';; kiyngostuwn_1',
+        'kyngstwn        kiyngostuwn     N0      Kingston;Kingstown'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29153,10 +29437,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Cambodia',
-        'Kampuchea'
+        'Kingston',
+        'Kingstown'
       ],
-      'orig' => 'kAmobuwdiyA',
+      'orig' => 'kiyngostuwn',
       'prefix' => ''
     }
   ],
@@ -29642,39 +29926,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kruwk' => [
+  'kIlUsIkl' => [
     {
       'types' => {
-        'kruwkiyy' => {
-          'NduAt' => 1
+        'kiyluwsiykl' => {
+          'NAt' => 1
         }
       },
-      'entry' => 'kruwk',
-      'form' => 'kruwkiyy',
+      'entry' => 'kiyluwsiykl',
+      'form' => 'kiyluwsiykl',
       'lines' => [
-        ';; kruwkiy~_1',
-        'krwky   kruwkiy~        NduAt   sketch     [[kruwkiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'sketch'
-      ],
-      'orig' => 'kruwkiy~',
-      'prefix' => ''
-    }
-  ],
-  'kAfitiyriyA' => [
-    {
-      'types' => {},
-      'entry' => 'kAfitiyriyA',
-      'form' => 'kAfitiyriyA',
-      'lines' => [
-        ';; kAfitiyriyA_1',
-        'kAftyryA        kAfitiyriyA     N0      cafeteria'
+        ';; kiyluwsiykl_1',
+        'kylwsykl        kiyluwsiykl     N/At    kilocycles'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29682,9 +29945,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'cafeteria'
+        'kilocycles'
       ],
-      'orig' => 'kAfitiyriyA',
+      'orig' => 'kiyluwsiykl',
       'prefix' => ''
     }
   ],
@@ -29737,27 +30000,6 @@ $Lexicon = {
         'Kazakhstani'
       ],
       'orig' => 'kAzAxostAniy~',
-      'prefix' => ''
-    }
-  ],
-  'kAmAt^suw' => [
-    {
-      'types' => {},
-      'entry' => 'kAmAt^suw',
-      'form' => 'kAmAt^suw',
-      'lines' => [
-        ';; kAmAt$uw_1',
-        'kAmAt$w kAmAt$uw        Nprop   Camacho'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Camacho'
-      ],
-      'orig' => 'kAmAt$uw',
       'prefix' => ''
     }
   ],
@@ -30158,6 +30400,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kUnkAn' => [
+    {
+      'types' => {},
+      'entry' => 'kuwnkAn',
+      'form' => 'kuwnkAn',
+      'lines' => [
+        ';; kuwnokAn_1',
+        'kwnkAn  kuwnokAn        N0      card game'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'card game'
+      ],
+      'orig' => 'kuwnokAn',
+      'prefix' => ''
+    }
+  ],
+  'kUfAsIfIt^s' => [
+    {
+      'types' => {},
+      'entry' => 'kuwfAsiyfiyt^s',
+      'form' => 'kuwfAsiyfiyt^s',
+      'lines' => [
+        ';; kuwfAsiyfiyt$_1',
+        'kwfAsyfyt$      kuwfAsiyfiyt$   N0      Kovacevich'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kovacevich'
+      ],
+      'orig' => 'kuwfAsiyfiyt$',
+      'prefix' => ''
+    }
+  ],
   'karkadann' => [
     {
       'types' => {
@@ -30184,27 +30468,6 @@ $Lexicon = {
         'rhinoceros'
       ],
       'orig' => 'karokadan~',
-      'prefix' => ''
-    }
-  ],
-  'kustuliytah' => [
-    {
-      'types' => {},
-      'entry' => 'kustuliytah',
-      'form' => 'kustuliytah',
-      'lines' => [
-        ';; kusotuliytah_1',
-        'kstlyth kusotuliytah    N0      cutlet'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'cutlet'
-      ],
-      'orig' => 'kusotuliytah',
       'prefix' => ''
     }
   ],
@@ -30257,27 +30520,6 @@ $Lexicon = {
         'Kotor'
       ],
       'orig' => 'kuwtuwr',
-      'prefix' => ''
-    }
-  ],
-  'kuwntirbA.s' => [
-    {
-      'types' => {},
-      'entry' => 'kuwntirbA.s',
-      'form' => 'kuwntirbA.s',
-      'lines' => [
-        ';; kuwnotirobAS_1',
-        'kwntrbAS        kuwnotirobAS    N0      contrabass'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'contrabass'
-      ],
-      'orig' => 'kuwnotirobAS',
       'prefix' => ''
     }
   ],
@@ -30536,32 +30778,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'karriy.t' => [
+  'kAlIfUrniyA' => [
     {
-      'types' => {
-        'karAri.t' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'karriy.t',
-      'form' => 'karriy.taT',
+      'types' => {},
+      'entry' => 'kAliyfuwrniyA',
+      'form' => 'kAliyfuwrniyA',
       'lines' => [
-        ';; kar~iyTap_1',
-        'kryT    kar~iyT Napdu   cart;wagon',
-        'krArT   karAriT Ndip    carts;wagons'
+        ';; kAliyfuwroniyA_1',
+        'kAlyfwrnyA      kAliyfuwroniyA  N0      California'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'cart',
-        'wagon',
-        'carts',
-        'wagons'
+        'California'
       ],
-      'orig' => 'kar~iyTap',
+      'orig' => 'kAliyfuwroniyA',
       'prefix' => ''
     }
   ],
@@ -30965,36 +31199,7 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kiymiyA\'iyyA.t' => [
-    {
-      'types' => {
-        'kiymiyAwiyy' => {
-          'NAt' => 1
-        },
-        'kiymiyA\'iyy' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'kiymiyA\'iyyA.t',
-      'form' => 'kiymiyA\'iyyA.t',
-      'lines' => [
-        ';; kiymiyA}iy~AT_1',
-        'kymyA}y kiymiyA}iy~     NAt     chemicals     [[kiymiyA}iy~/NOUN]]',
-        'kymyAwy kiymiyAwiy~     NAt     chemicals     [[kiymiyAwiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'chemicals'
-      ],
-      'orig' => 'kiymiyA}iy~AT',
-      'prefix' => ''
-    }
-  ],
-  'kArAdiyt^s' => [
+  'kArAdIt^s' => [
     {
       'types' => {},
       'entry' => 'kArAdiyt^s',
@@ -31012,6 +31217,28 @@ $Lexicon = {
         'Karadzic'
       ],
       'orig' => 'kArAdiyt$',
+      'prefix' => ''
+    }
+  ],
+  'kUn.gUl' => [
+    {
+      'types' => {},
+      'entry' => 'kuwn.guwl',
+      'form' => 'kuwn.guwliyy',
+      'lines' => [
+        ';; kuwnoguwliy~_1',
+        'kwngwly kuwnoguwliy~    Nall    Congolese     [[kuwnoguwliy~/NOUN]]',
+        'kwngwly kuwnoguwliy~    Nall    Congolese     [[kuwnoguwliy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Congolese'
+      ],
+      'orig' => 'kuwnoguwliy~',
       'prefix' => ''
     }
   ],
@@ -31463,27 +31690,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kAmbiyuw' => [
-    {
-      'types' => {},
-      'entry' => 'kAmbiyuw',
-      'form' => 'kAmbiyuw',
-      'lines' => [
-        ';; kAmobiyuw_1',
-        'kAmbyw  kAmobiyuw       N0      rate of exchange'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'rate of exchange'
-      ],
-      'orig' => 'kAmobiyuw',
-      'prefix' => ''
-    }
-  ],
   'k^gm' => [
     {
       'types' => {
@@ -31805,27 +32011,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kiyuwbiyd' => [
-    {
-      'types' => {},
-      'entry' => 'kiyuwbiyd',
-      'form' => 'kiyuwbiyd',
-      'lines' => [
-        ';; kiyuwbiyd_1',
-        'kywbyd  kiyuwbiyd       N0      Cupid'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Cupid'
-      ],
-      'orig' => 'kiyuwbiyd',
-      'prefix' => ''
-    }
-  ],
   'k \' z' => [
     {
       'types' => {},
@@ -31845,140 +32030,6 @@ $Lexicon = {
         'gas'
       ],
       'orig' => 'kAz',
-      'prefix' => ''
-    }
-  ],
-  'kriystyAn' => [
-    {
-      'types' => {},
-      'entry' => 'kriystyAn',
-      'form' => 'kriystyAn',
-      'lines' => [
-        ';; kriysotyAn_1',
-        'krystyAn        kriysotyAn      Nprop   Christian'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Christian'
-      ],
-      'orig' => 'kriysotyAn',
-      'prefix' => ''
-    }
-  ],
-  '\'ikliyl' => [
-    {
-      'types' => {
-        '\'akAliyl' => {
-          'Ndip' => 2
-        },
-        '\'akill' => {
-          'Nap' => 2
-        }
-      },
-      'entry' => '\'ikliyl',
-      'form' => '\'ikliyl',
-      'lines' => [
-        ';; <ikoliyl_1',
-        '<klyl   <ikoliyl        Ndu     halo;corona',
-        'Aklyl   <ikoliyl        Ndu     halo;corona',
-        '>kAlyl  >akAliyl        Ndip    halos;coronas',
-        'AkAlyl  >akAliyl        Ndip    halos;coronas',
-        '>kl     >akil~  Nap     halos;coronas',
-        'Akl     >akil~  Nap     halos;coronas'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'halo',
-        'corona',
-        'halos',
-        'coronas'
-      ],
-      'orig' => 'Iikoliyl',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'akAliyl' => {
-          'Ndip' => 2
-        },
-        '\'akill' => {
-          'Nap' => 2
-        }
-      },
-      'entry' => '\'ikliyl',
-      'form' => '\'ikliyl',
-      'lines' => [
-        ';; <ikoliyl_2',
-        '<klyl   <ikoliyl        Ndu     wedding ceremony',
-        'Aklyl   <ikoliyl        Ndu     wedding ceremony',
-        '>kAlyl  >akAliyl        Ndip    wedding ceremonies',
-        'AkAlyl  >akAliyl        Ndip    wedding ceremonies',
-        '>kl     >akil~  Nap     wedding ceremonies',
-        'Akl     >akil~  Nap     wedding ceremonies'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'wedding ceremony',
-        'wedding ceremonies'
-      ],
-      'orig' => 'Iikoliyl',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'ikliyl',
-      'form' => '\'ikliyliyy',
-      'lines' => [
-        ';; <ikoliyliy~_1',
-        '<klyly  <ikoliyliy~     N-ap    coronal     [[<ikoliyliy~/ADJ]]',
-        'Aklyly  <ikoliyliy~     N-ap    coronal     [[<ikoliyliy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'coronal'
-      ],
-      'orig' => 'Iikoliyliy~',
-      'prefix' => ''
-    }
-  ],
-  'kruwmuwsuwm' => [
-    {
-      'types' => {
-        'kruwmuwsuwm' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'kruwmuwsuwm',
-      'form' => 'kruwmuwsuwm',
-      'lines' => [
-        ';; kruwmuwsuwm_1',
-        'krwmwswm        kruwmuwsuwm     NduAt   chromosome'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'chromosome'
-      ],
-      'orig' => 'kruwmuwsuwm',
       'prefix' => ''
     }
   ],
@@ -32202,32 +32253,6 @@ $Lexicon = {
         'exhausted'
       ],
       'orig' => 'makoduwd',
-      'prefix' => ''
-    }
-  ],
-  'kambyuwtiriyy' => [
-    {
-      'types' => {
-        'kuwmbyuwtiriyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'kambyuwtiriyy',
-      'form' => 'kambyuwtiriyy',
-      'lines' => [
-        ';; kamobyuwtiriy~_1',
-        'kmbywtry        kamobyuwtiriy~  Nall    computer     [[kamobyuwtiriy~/ADJ]]',
-        'kwmbywtry       kuwmobyuwtiriy~ Nall    computer     [[kuwmobyuwtiriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'computer'
-      ],
-      'orig' => 'kamobyuwtiriy~',
       'prefix' => ''
     }
   ],
@@ -32797,6 +32822,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kIlUhIrtz' => [
+    {
+      'types' => {
+        'kiyluwhiyrtz' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'kiyluwhiyrtz',
+      'form' => 'kiyluwhiyrtz',
+      'lines' => [
+        ';; kiyluwhiyrotz_1',
+        'kylwhyrtz       kiyluwhiyrotz   NduAt   kilohertz;KHz'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'kilohertz',
+        'KHz'
+      ],
+      'orig' => 'kiyluwhiyrotz',
+      'prefix' => ''
+    }
+  ],
   'kar_hAn^g' => [
     {
       'types' => {},
@@ -32906,41 +32957,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwkA' => [
-    {
-      'types' => {},
-      'entry' => 'kuwkA',
-      'form' => 'kuwkA',
-      'lines' => [
-        ';; kuwkA_1',
-        'kwkA    kuwkA   N0      Coca'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Coca'
-      ],
-      'orig' => 'kuwkA',
-      'prefix' => ''
-    }
-  ],
-  'kriym' => [
+  'krUmUsUm' => [
     {
       'types' => {
-        'kriym' => {
-          'NAt' => 1,
-          'NapAt' => 1
+        'kruwmuwsuwm' => {
+          'NduAt' => 1
         }
       },
-      'entry' => 'kriym',
-      'form' => 'kriym',
+      'entry' => 'kruwmuwsuwm',
+      'form' => 'kruwmuwsuwm',
       'lines' => [
-        ';; kriym_1',
-        'krym    kriym   N/At    creme',
-        'krym    kriym   NapAt   cream'
+        ';; kruwmuwsuwm_1',
+        'krwmwswm        kruwmuwsuwm     NduAt   chromosome'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32948,57 +32976,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'creme',
-        'cream'
+        'chromosome'
       ],
-      'orig' => 'kriym',
+      'orig' => 'kruwmuwsuwm',
       'prefix' => ''
     }
   ],
-  'kanabiyh' => [
-    {
-      'types' => {
-        'kanabiyh' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'kanabiyh',
-      'form' => 'kanabiyh',
-      'lines' => [
-        ';; kanabiyh_1',
-        'knbyh   kanabiyh        N/At    sofa'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'sofa'
-      ],
-      'orig' => 'kanabiyh',
-      'prefix' => ''
-    }
-  ],
-  'kulAwiyy' => [
+  'kambarIt' => [
     {
       'types' => {},
-      'entry' => 'kulAwiyy',
-      'form' => 'kulAwiyy',
+      'entry' => 'kambariyt',
+      'form' => 'kambariyt',
       'lines' => [
-        ';; kulAwiy~_1',
-        'klAwy   kulAwiy~        N-ap    renal;kidney     [[kalAwiy~/ADJ]]'
+        ';; kamobariyt_1',
+        'kmbryt  kamobariyt      N0      cambric'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'noun',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'renal',
-        'kidney'
+        'cambric'
       ],
-      'orig' => 'kulAwiy~',
+      'orig' => 'kamobariyt',
       'prefix' => ''
     }
   ],
@@ -33236,44 +33237,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwsA' => [
-    {
-      'types' => {
-        'kuwsY' => {
-          'N0' => 1
-        },
-        'kuwsAy' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'kuwsA',
-      'form' => 'kuwsA',
-      'lines' => [
-        ';; kuwsA_1',
-        'kwsA    kuwsA   N0      zucchini',
-        'kwsY    kuwsaY  N0      zucchini',
-        'kwsAy   kuwsAy  Nap     zucchini'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'zucchini'
-      ],
-      'orig' => 'kuwsA',
-      'prefix' => ''
-    }
-  ],
-  'kA_tiriyn' => [
+  'kAntU' => [
     {
       'types' => {},
-      'entry' => 'kA_tiriyn',
-      'form' => 'kA_tiriyn',
+      'entry' => 'kAntuw',
+      'form' => 'kAntuw',
       'lines' => [
-        ';; kAviriyn_1',
-        'kAvryn  kAviriyn        N0      Catherine'
+        ';; kAnotuw_1',
+        'kAntw   kAnotuw N0      secondhand goods'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33281,9 +33252,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Catherine'
+        'secondhand goods'
       ],
-      'orig' => 'kAviriyn',
+      'orig' => 'kAnotuw',
       'prefix' => ''
     }
   ],
@@ -33490,6 +33461,20 @@ $Lexicon = {
       ],
       'orig' => 'kaluw\'',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'kulA\'',
+      'form' => 'kulAwiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'kulAwiy~',
+      'prefix' => ''
     }
   ],
   'kambAlA' => [
@@ -33537,6 +33522,27 @@ $Lexicon = {
         'pear'
       ],
       'orig' => 'kum~avraY',
+      'prefix' => ''
+    }
+  ],
+  'kibrItId' => [
+    {
+      'types' => {},
+      'entry' => 'kibriytiyd',
+      'form' => 'kibriytiyd',
+      'lines' => [
+        ';; kibriytiyd_1',
+        'kbrytyd kibriytiyd      N0      sulfide'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'sulfide'
+      ],
+      'orig' => 'kibriytiyd',
       'prefix' => ''
     }
   ],
@@ -33598,14 +33604,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwluwniyA' => [
+  'klUb' => [
     {
       'types' => {},
-      'entry' => 'kuwluwniyA',
-      'form' => 'kuwluwniyA',
+      'entry' => 'kluwb',
+      'form' => 'kluwb',
       'lines' => [
-        ';; kuwluwniyA_1',
-        'kwlwnyA kuwluwniyA      N0      Cologne;cologne'
+        ';; kluwb_1',
+        'klwb    kluwb   N0      Club'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33613,10 +33619,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Cologne',
-        'cologne'
+        'Club'
       ],
-      'orig' => 'kuwluwniyA',
+      'orig' => 'kluwb',
       'prefix' => ''
     }
   ],
@@ -33639,6 +33644,27 @@ $Lexicon = {
         'outline'
       ],
       'orig' => 'kunotuwriy~',
+      'prefix' => ''
+    }
+  ],
+  'kAmAt^sU' => [
+    {
+      'types' => {},
+      'entry' => 'kAmAt^suw',
+      'form' => 'kAmAt^suw',
+      'lines' => [
+        ';; kAmAt$uw_1',
+        'kAmAt$w kAmAt$uw        Nprop   Camacho'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Camacho'
+      ],
+      'orig' => 'kAmAt$uw',
       'prefix' => ''
     }
   ],
@@ -33738,18 +33764,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kiyluwsiykl' => [
+  'kUn.gU' => [
     {
       'types' => {
-        'kiyluwsiykl' => {
-          'NAt' => 1
+        'kuwn^guw' => {
+          'N0' => 1
         }
       },
-      'entry' => 'kiyluwsiykl',
-      'form' => 'kiyluwsiykl',
+      'entry' => 'kuwn.guw',
+      'form' => 'kuwn.guw',
       'lines' => [
-        ';; kiyluwsiykl_1',
-        'kylwsykl        kiyluwsiykl     N/At    kilocycles'
+        ';; kuwnoguw_1',
+        'kwngw   kuwnoguw        N0      Congo',
+        'kwnjw   kuwnojuw        N0      Congo'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33757,9 +33784,52 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'kilocycles'
+        'Congo'
       ],
-      'orig' => 'kiyluwsiykl',
+      'orig' => 'kuwnoguw',
+      'prefix' => ''
+    }
+  ],
+  'kArUsIl' => [
+    {
+      'types' => {},
+      'entry' => 'kAruwsiyl',
+      'form' => 'kAruwsiyl',
+      'lines' => [
+        ';; kAruwsiyl_1',
+        'kArwsyl kAruwsiyl       N0      Carousel'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Carousel'
+      ],
+      'orig' => 'kAruwsiyl',
+      'prefix' => ''
+    }
+  ],
+  'kAlIfUrn' => [
+    {
+      'types' => {},
+      'entry' => 'kAliyfuwrn',
+      'form' => 'kAliyfuwrniyy',
+      'lines' => [
+        ';; kAliyfuwroniy~_1',
+        'kAlyfwrny       kAliyfuwroniy~  Nall    Californian     [[kAliyfuwroniy~/NOUN]]',
+        'kAlyfwrny       kAliyfuwroniy~  Nall    Californian     [[kAliyfuwroniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Californian'
+      ],
+      'orig' => 'kAliyfuwroniy~',
       'prefix' => ''
     }
   ],
@@ -33929,19 +33999,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwn^gris' => [
+  'kUmUdInU' => [
     {
-      'types' => {
-        'kuwn.gris' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'kuwn^gris',
-      'form' => 'kuwn^gris',
+      'types' => {},
+      'entry' => 'kuwmuwdiynuw',
+      'form' => 'kuwmuwdiynuw',
       'lines' => [
-        ';; kuwnojris_1',
-        'kwnjrs  kuwnojris       N0      Congress',
-        'kwngrs  kuwnogris       N0      Congress'
+        ';; kuwmuwdiynuw_1',
+        'kwmwdynw        kuwmuwdiynuw    N0      bedside table'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33949,9 +34014,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Congress'
+        'bedside table'
       ],
-      'orig' => 'kuwnojris',
+      'orig' => 'kuwmuwdiynuw',
       'prefix' => ''
     }
   ],
@@ -34035,6 +34100,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kUsUfU' => [
+    {
+      'types' => {
+        'kuwsufuw' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'kuwsuwfuw',
+      'form' => 'kuwsuwfuw',
+      'lines' => [
+        ';; kuwsuwfuw_1',
+        'kwswfw  kuwsuwfuw       Nprop   Kosovo',
+        'kwsfw   kuwsufuw        Nprop   Kosovo'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kosovo'
+      ],
+      'orig' => 'kuwsuwfuw',
+      'prefix' => ''
+    }
+  ],
   'k w k' => [
     {
       'types' => {},
@@ -34113,14 +34204,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'krAyzilbuwr.g' => [
+  'kInA' => [
     {
       'types' => {},
-      'entry' => 'krAyzilbuwr.g',
-      'form' => 'krAyzilbuwr.g',
+      'entry' => 'kiynA',
+      'form' => 'kiynA',
       'lines' => [
-        ';; krAyzilobuwrg_1',
-        'krAyzlbwrg      krAyzilobuwrg   Nprop   Krayzelburg'
+        ';; kiynA_1',
+        'kynA    kiynA   N0      quinine'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34128,9 +34219,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Krayzelburg'
+        'quinine'
       ],
-      'orig' => 'krAyzilobuwrg',
+      'orig' => 'kiynA',
+      'prefix' => ''
+    }
+  ],
+  'kUrsk' => [
+    {
+      'types' => {},
+      'entry' => 'kuwrsk',
+      'form' => 'kuwrsk',
+      'lines' => [
+        ';; kuwrosk_1',
+        'kwrsk   kuwrosk N0      Kursk'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kursk'
+      ],
+      'orig' => 'kuwrosk',
       'prefix' => ''
     }
   ],
@@ -34349,14 +34461,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwktiyl' => [
+  'klIrIdIs' => [
     {
-      'types' => {},
-      'entry' => 'kuwktiyl',
-      'form' => 'kuwktiyl',
+      'types' => {
+        'kliyridiys' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'kliyriydiys',
+      'form' => 'kliyriydiys',
       'lines' => [
-        ';; kuwkotiyl_1',
-        'kwktyl  kuwkotiyl       N0      cocktail'
+        ';; kliyriydiys_1',
+        'klyrydys        kliyriydiys     Nprop   Clerides',
+        'klyrdys kliyridiys      Nprop   Clerides'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34364,9 +34481,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'cocktail'
+        'Clerides'
       ],
-      'orig' => 'kuwkotiyl',
+      'orig' => 'kliyriydiys',
       'prefix' => ''
     }
   ],
@@ -34389,31 +34506,6 @@ $Lexicon = {
         'slender vetch'
       ],
       'orig' => 'ku$onaY',
-      'prefix' => ''
-    }
-  ],
-  'kAntuwn' => [
-    {
-      'types' => {
-        'kAntuwn' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'kAntuwn',
-      'form' => 'kAntuwn',
-      'lines' => [
-        ';; kAnotuwn_1',
-        'kAntwn  kAnotuwn        N/At    canton'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'canton'
-      ],
-      'orig' => 'kAnotuwn',
       'prefix' => ''
     }
   ],
@@ -34442,19 +34534,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwsuwfuw' => [
+  'kUmAndAn' => [
     {
-      'types' => {
-        'kuwsufuw' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'kuwsuwfuw',
-      'form' => 'kuwsuwfuw',
+      'types' => {},
+      'entry' => 'kuwmAndAn',
+      'form' => 'kuwmAndAn',
       'lines' => [
-        ';; kuwsuwfuw_1',
-        'kwswfw  kuwsuwfuw       Nprop   Kosovo',
-        'kwsfw   kuwsufuw        Nprop   Kosovo'
+        ';; kuwmAnodAn_1',
+        'kwmAndAn        kuwmAnodAn      N0      commandant;commander'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34462,9 +34549,31 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Kosovo'
+        'commandant',
+        'commander'
       ],
-      'orig' => 'kuwsuwfuw',
+      'orig' => 'kuwmAnodAn',
+      'prefix' => ''
+    }
+  ],
+  'kIsUfIm' => [
+    {
+      'types' => {},
+      'entry' => 'kiysuwfiym',
+      'form' => 'kiysuwfiym',
+      'lines' => [
+        ';; kiysuwfiym_1',
+        'kyswfym kiysuwfiym      Nprop   Kissufim'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kissufim'
+      ],
+      'orig' => 'kiysuwfiym',
       'prefix' => ''
     }
   ],
@@ -34509,6 +34618,27 @@ $Lexicon = {
         'cups'
       ],
       'orig' => 'kaOos',
+      'prefix' => ''
+    }
+  ],
+  'kUrtIzUn' => [
+    {
+      'types' => {},
+      'entry' => 'kuwrtiyzuwn',
+      'form' => 'kuwrtiyzuwn',
+      'lines' => [
+        ';; kuwrotiyzuwn_1',
+        'kwrtyzwn        kuwrotiyzuwn    N0      cortisone'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'cortisone'
+      ],
+      'orig' => 'kuwrotiyzuwn',
       'prefix' => ''
     }
   ],
@@ -34558,53 +34688,6 @@ $Lexicon = {
         'chlorination'
       ],
       'orig' => 'kalowarap',
-      'prefix' => ''
-    }
-  ],
-  'kAtyuw^sA' => [
-    {
-      'types' => {
-        'katyuw^sA' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'kAtyuw^sA',
-      'form' => 'kAtyuw^sA',
-      'lines' => [
-        ';; kAtoyuw$A_1',
-        'kAtyw$A kAtoyuw$A       N       Katyusha',
-        'ktyw$A  katoyuw$A       N       Katyusha'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Katyusha'
-      ],
-      'orig' => 'kAtoyuw$A',
-      'prefix' => ''
-    }
-  ],
-  'kuwmliynuwfiyt^s' => [
-    {
-      'types' => {},
-      'entry' => 'kuwmliynuwfiyt^s',
-      'form' => 'kuwmliynuwfiyt^s',
-      'lines' => [
-        ';; kuwmoliynuwfiyt$_1',
-        'kwmlynwfyt$     kuwmoliynuwfiyt$        Nprop   Komljenovic'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Komljenovic'
-      ],
-      'orig' => 'kuwmoliynuwfiyt$',
       'prefix' => ''
     }
   ],
@@ -34681,27 +34764,6 @@ $Lexicon = {
         'equivocal'
       ],
       'orig' => 'kinAyap',
-      'prefix' => ''
-    }
-  ],
-  'kAliyAriy' => [
-    {
-      'types' => {},
-      'entry' => 'kAliyAriy',
-      'form' => 'kAliyAriy',
-      'lines' => [
-        ';; kAliyAriy_1',
-        'kAlyAry kAliyAriy       N0      Cagliari'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Cagliari'
-      ],
-      'orig' => 'kAliyAriy',
       'prefix' => ''
     }
   ],
@@ -34977,14 +35039,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwmiydiyAn' => [
+  'yakUn' => [
     {
       'types' => {},
-      'entry' => 'kuwmiydiyAn',
-      'form' => 'kuwmiydiyAn',
+      'entry' => 'yakuwn',
+      'form' => 'yakuwn',
       'lines' => [
-        ';; kuwmiydiyAn_1',
-        'kwmydyAn        kuwmiydiyAn     N0      comedian'
+        ';; yakuwn_1',
+        'ykwn    yakuwn  N0      sum total'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34992,20 +35054,29 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'comedian'
+        'sum total'
       ],
-      'orig' => 'kuwmiydiyAn',
+      'orig' => 'yakuwn',
       'prefix' => ''
     }
   ],
-  'kuwnkuwrd' => [
+  'kAzInU' => [
     {
-      'types' => {},
-      'entry' => 'kuwnkuwrd',
-      'form' => 'kuwnkuwrd',
+      'types' => {
+        'kAziynuwh' => {
+          'NAt' => 1
+        },
+        'kAziynuw' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'kAziynuw',
+      'form' => 'kAziynuw',
       'lines' => [
-        ';; kuwnokuwrod_1',
-        'kwnkwrd kuwnokuwrod     N0      Concorde'
+        ';; kAziynuw_1',
+        'kAzynw  kAziynuw        N0      casino;nightclub',
+        'kAzynw  kAziynuw        NAt     casinos;nightclubs',
+        'kAzynwh kAziynuwh       NAt     casinos;nightclubs'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35013,9 +35084,37 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Concorde'
+        'casino',
+        'nightclub',
+        'casinos',
+        'nightclubs'
       ],
-      'orig' => 'kuwnokuwrod',
+      'orig' => 'kAziynuw',
+      'prefix' => ''
+    }
+  ],
+  'kUlUnIl' => [
+    {
+      'types' => {
+        'kuwluwniyl' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'kuwluwniyl',
+      'form' => 'kuwluwniyl',
+      'lines' => [
+        ';; kuwluwniyl_1',
+        'kwlwnyl kuwluwniyl      NduAt   colonel'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'colonel'
+      ],
+      'orig' => 'kuwluwniyl',
       'prefix' => ''
     }
   ],
@@ -35037,6 +35136,48 @@ $Lexicon = {
         'Karshouni (Arabic in Syriac script)'
       ],
       'orig' => 'karo$uwniy~',
+      'prefix' => ''
+    }
+  ],
+  'klUtin' => [
+    {
+      'types' => {},
+      'entry' => 'kluwtin',
+      'form' => 'kluwtin',
+      'lines' => [
+        ';; kluwtin_1',
+        'klwtn   kluwtin Nprop   Kloten'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kloten'
+      ],
+      'orig' => 'kluwtin',
+      'prefix' => ''
+    }
+  ],
+  'kUsbI' => [
+    {
+      'types' => {},
+      'entry' => 'kuwsbiy',
+      'form' => 'kuwsbiy',
+      'lines' => [
+        ';; kuwsobiy_1',
+        'kwsby   kuwsobiy        Nprop   Kospi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kospi'
+      ],
+      'orig' => 'kuwsobiy',
       'prefix' => ''
     }
   ],
@@ -35883,6 +36024,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kUmIdiyAn' => [
+    {
+      'types' => {},
+      'entry' => 'kuwmiydiyAn',
+      'form' => 'kuwmiydiyAn',
+      'lines' => [
+        ';; kuwmiydiyAn_1',
+        'kwmydyAn        kuwmiydiyAn     N0      comedian'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'comedian'
+      ],
+      'orig' => 'kuwmiydiyAn',
+      'prefix' => ''
+    }
+  ],
   'k y n t' => [
     {
       'types' => {
@@ -35906,6 +36068,27 @@ $Lexicon = {
         'Kenneth'
       ],
       'orig' => 'kiyniyt',
+      'prefix' => ''
+    }
+  ],
+  'ksiyAmIn' => [
+    {
+      'types' => {},
+      'entry' => 'ksiyAmiyn',
+      'form' => 'ksiyAmiyn',
+      'lines' => [
+        ';; ksiyAmiyn_1',
+        'ksyAmyn ksiyAmiyn       Nprop   Xiamen'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Xiamen'
+      ],
+      'orig' => 'ksiyAmiyn',
       'prefix' => ''
     }
   ],
@@ -36424,28 +36607,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwmAndAn' => [
-    {
-      'types' => {},
-      'entry' => 'kuwmAndAn',
-      'form' => 'kuwmAndAn',
-      'lines' => [
-        ';; kuwmAnodAn_1',
-        'kwmAndAn        kuwmAnodAn      N0      commandant;commander'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'commandant',
-        'commander'
-      ],
-      'orig' => 'kuwmAnodAn',
-      'prefix' => ''
-    }
-  ],
   'k _t b' => [
     {
       'types' => {},
@@ -36578,19 +36739,43 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kliyriydiys' => [
+  'karrI.t' => [
     {
       'types' => {
-        'kliyridiys' => {
-          'Nprop' => 1
+        'karAri.t' => {
+          'Ndip' => 1
         }
       },
-      'entry' => 'kliyriydiys',
-      'form' => 'kliyriydiys',
+      'entry' => 'karriy.t',
+      'form' => 'karriy.taT',
       'lines' => [
-        ';; kliyriydiys_1',
-        'klyrydys        kliyriydiys     Nprop   Clerides',
-        'klyrdys kliyridiys      Nprop   Clerides'
+        ';; kar~iyTap_1',
+        'kryT    kar~iyT Napdu   cart;wagon',
+        'krArT   karAriT Ndip    carts;wagons'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'cart',
+        'wagon',
+        'carts',
+        'wagons'
+      ],
+      'orig' => 'kar~iyTap',
+      'prefix' => ''
+    }
+  ],
+  'krIkAr' => [
+    {
+      'types' => {},
+      'entry' => 'kriykAr',
+      'form' => 'kriykAr',
+      'lines' => [
+        ';; kriykAr_1',
+        'krykAr  kriykAr N0      Krekar'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36598,9 +36783,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Clerides'
+        'Krekar'
       ],
-      'orig' => 'kliyriydiys',
+      'orig' => 'kriykAr',
       'prefix' => ''
     }
   ],
@@ -36670,32 +36855,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kiyn^sAsA' => [
-    {
-      'types' => {
-        'kin^sAsA' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'kiyn^sAsA',
-      'form' => 'kiyn^sAsA',
-      'lines' => [
-        ';; kiyno$AsA_1',
-        'kyn$AsA kiyno$AsA       Nprop   Kinshasa',
-        'kn$AsA  kino$AsA        Nprop   Kinshasa'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kinshasa'
-      ],
-      'orig' => 'kiyno$AsA',
-      'prefix' => ''
-    }
-  ],
   'kuwayyis' => [
     {
       'types' => {},
@@ -36718,30 +36877,45 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'klAsiyk' => [
+  'klAytUn' => [
     {
-      'types' => {
-        'klAsikiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'klAsiyk',
-      'form' => 'klAsiykiyy',
+      'types' => {},
+      'entry' => 'klAytuwn',
+      'form' => 'klAytuwn',
       'lines' => [
-        ';; klAsiykiy~_1',
-        'klAsyky klAsiykiy~      Nall    classic;classical     [[kilAsiykiy~/ADJ]]',
-        'klAsky  klAsikiy~       Nall    classic;classical     [[kilAsikiy~/ADJ]]'
+        ';; klAyotuwn_1',
+        'klAytwn klAyotuwn       Nprop   Clayton'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'classic',
-        'classical'
+        'Clayton'
       ],
-      'orig' => 'klAsiykiy~',
+      'orig' => 'klAyotuwn',
+      'prefix' => ''
+    }
+  ],
+  'kUndUlIzA' => [
+    {
+      'types' => {},
+      'entry' => 'kuwnduwliyzA',
+      'form' => 'kuwnduwliyzA',
+      'lines' => [
+        ';; kuwnoduwliyzA_1',
+        'kwndwlyzA       kuwnoduwliyzA   Nprop   Condoleezza'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Condoleezza'
+      ],
+      'orig' => 'kuwnoduwliyzA',
       'prefix' => ''
     }
   ],
@@ -36987,14 +37161,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwmunwil_t' => [
+  'kUmlInUfIt^s' => [
     {
       'types' => {},
-      'entry' => 'kuwmunwil_t',
-      'form' => 'kuwmunwil_t',
+      'entry' => 'kuwmliynuwfiyt^s',
+      'form' => 'kuwmliynuwfiyt^s',
       'lines' => [
-        ';; kuwmunwilov_1',
-        'kwmnwlv kuwmunwilov     N0      Commonwealth'
+        ';; kuwmoliynuwfiyt$_1',
+        'kwmlynwfyt$     kuwmoliynuwfiyt$        Nprop   Komljenovic'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37002,9 +37176,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Commonwealth'
+        'Komljenovic'
       ],
-      'orig' => 'kuwmunwilov',
+      'orig' => 'kuwmoliynuwfiyt$',
       'prefix' => ''
     }
   ],
@@ -37455,14 +37629,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwmiydyiyn' => [
+  'karbirAtIr' => [
     {
       'types' => {},
-      'entry' => 'kuwmiydyiyn',
-      'form' => 'kuwmiydyiyn',
+      'entry' => 'karbirAtiyr',
+      'form' => 'karbirAtiyr',
       'lines' => [
-        ';; kuwmiydoyiyn_1',
-        'kwmydyyn        kuwmiydoyiyn    N0      comedian'
+        ';; karobirAtiyr_1',
+        'krbrAtyr        karobirAtiyr    N0      carburetor'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37470,9 +37644,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'comedian'
+        'carburetor'
       ],
-      'orig' => 'kuwmiydoyiyn',
+      'orig' => 'karobirAtiyr',
       'prefix' => ''
     }
   ],
@@ -37503,27 +37677,6 @@ $Lexicon = {
         'coriander'
       ],
       'orig' => 'kusobarap',
-      'prefix' => ''
-    }
-  ],
-  'kArluws' => [
-    {
-      'types' => {},
-      'entry' => 'kArluws',
-      'form' => 'kArluws',
-      'lines' => [
-        ';; kAroluws_1',
-        'kArlws  kAroluws        Nprop   Carlos'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Carlos'
-      ],
-      'orig' => 'kAroluws',
       'prefix' => ''
     }
   ],
@@ -37587,27 +37740,6 @@ $Lexicon = {
         'gnarled'
       ],
       'orig' => 'mukaEobar',
-      'prefix' => ''
-    }
-  ],
-  'kuwriyt_hA' => [
-    {
-      'types' => {},
-      'entry' => 'kuwriyt_hA',
-      'form' => 'kuwriyt_hA',
-      'lines' => [
-        ';; kuwriytoxA_1',
-        'kwrytxA kuwriytoxA      N0      Corretja'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Corretja'
-      ],
-      'orig' => 'kuwriytoxA',
       'prefix' => ''
     }
   ],
@@ -37937,6 +38069,95 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'k w ^g' => [
+    {
+      'types' => {},
+      'entry' => 'makwa^g',
+      'form' => 'makwa^giyy',
+      'lines' => [
+        ';; makowajiy~_1',
+        'mkwjy   makowajiy~      Nall    ironing man;laundryman     [[makowajiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MaFCaL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'ironing man',
+        'laundryman'
+      ],
+      'orig' => 'makowajiy~',
+      'prefix' => ''
+    }
+  ],
+  'krU^sIh' => [
+    {
+      'types' => {},
+      'entry' => 'kruw^siyh',
+      'form' => 'kruw^siyh',
+      'lines' => [
+        ';; kruw$iyh_1',
+        'krw$yh  kruw$iyh        N0      crocheting'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'crocheting'
+      ],
+      'orig' => 'kruw$iyh',
+      'prefix' => ''
+    }
+  ],
+  'kAstrU' => [
+    {
+      'types' => {
+        'kAstrw' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'kAstruw',
+      'form' => 'kAstruw',
+      'lines' => [
+        ';; kAstruw_1',
+        'kAstrw  kAstrw  Nprop   Castro'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Castro'
+      ],
+      'orig' => 'kAstruw',
+      'prefix' => ''
+    }
+  ],
+  'kUriyA' => [
+    {
+      'types' => {},
+      'entry' => 'kuwriyA',
+      'form' => 'kuwriyA',
+      'lines' => [
+        ';; kuwriyA_1',
+        'kwryA   kuwriyA N0      Korea'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Korea'
+      ],
+      'orig' => 'kuwriyA',
+      'prefix' => ''
+    }
+  ],
   'k ^s k' => [
     {
       'types' => {
@@ -38011,19 +38232,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'karuwbiym' => [
+  'kUntirbA.s' => [
     {
-      'types' => {
-        'kAruwbiym' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'karuwbiym',
-      'form' => 'karuwbiym',
+      'types' => {},
+      'entry' => 'kuwntirbA.s',
+      'form' => 'kuwntirbA.s',
       'lines' => [
-        ';; karuwbiym_1',
-        'krwbym  karuwbiym       N0      cherubim',
-        'kArwbym kAruwbiym       N0      cherubim'
+        ';; kuwnotirobAS_1',
+        'kwntrbAS        kuwnotirobAS    N0      contrabass'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38031,9 +38247,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'cherubim'
+        'contrabass'
       ],
-      'orig' => 'karuwbiym',
+      'orig' => 'kuwnotirobAS',
       'prefix' => ''
     }
   ],
@@ -38058,14 +38274,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwsbiy' => [
+  'kUtbUs' => [
     {
       'types' => {},
-      'entry' => 'kuwsbiy',
-      'form' => 'kuwsbiy',
+      'entry' => 'kuwtbuws',
+      'form' => 'kuwtbuws',
       'lines' => [
-        ';; kuwsobiy_1',
-        'kwsby   kuwsobiy        Nprop   Kospi'
+        ';; kuwtobuws_1',
+        'kwtbws  kuwtobuws       Nprop   Cottbus'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38073,30 +38289,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Kospi'
+        'Cottbus'
       ],
-      'orig' => 'kuwsobiy',
-      'prefix' => ''
-    }
-  ],
-  'kasaruwn' => [
-    {
-      'types' => {},
-      'entry' => 'kasaruwn',
-      'form' => 'kasaruwnaT',
-      'lines' => [
-        ';; kasaruwnap_1',
-        'ksrwn   kasaruwn        Nap     casserole'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'casserole'
-      ],
-      'orig' => 'kasaruwnap',
+      'orig' => 'kuwtobuws',
       'prefix' => ''
     }
   ],
@@ -38510,14 +38705,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kAriybiy' => [
+  'kAn.sUl' => [
     {
-      'types' => {},
-      'entry' => 'kAriybiy',
-      'form' => 'kAriybiy',
+      'types' => {
+        'kAn.suwl' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'kAn.suwl',
+      'form' => 'kAn.suwl',
       'lines' => [
-        ';; kAriybiy_1',
-        'kAryby  kAriybiy        N0      Caribbean'
+        ';; kAnoSuwl_1',
+        'kAnSwl  kAnoSuwl        N/At    console'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38525,9 +38724,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Caribbean'
+        'console'
       ],
-      'orig' => 'kAriybiy',
+      'orig' => 'kAnoSuwl',
       'prefix' => ''
     }
   ],
@@ -38630,70 +38829,6 @@ $Lexicon = {
         'kaffiyeh'
       ],
       'orig' => 'kuwfiy~ap',
-      'prefix' => ''
-    }
-  ],
-  'kliyntuwn' => [
-    {
-      'types' => {},
-      'entry' => 'kliyntuwn',
-      'form' => 'kliyntuwn',
-      'lines' => [
-        ';; kliynotuwn_1',
-        'klyntwn kliynotuwn      Nprop   Clinton'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Clinton'
-      ],
-      'orig' => 'kliynotuwn',
-      'prefix' => ''
-    }
-  ],
-  'kiyniyA' => [
-    {
-      'types' => {},
-      'entry' => 'kiyniyA',
-      'form' => 'kiyniyA',
-      'lines' => [
-        ';; kiyniyA_1',
-        'kynyA   kiyniyA N0      Kenya'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kenya'
-      ],
-      'orig' => 'kiyniyA',
-      'prefix' => ''
-    }
-  ],
-  'kiyn.gstuwn' => [
-    {
-      'types' => {},
-      'entry' => 'kiyn.gstuwn',
-      'form' => 'kiyn.gstuwn',
-      'lines' => [
-        ';; kiyngostuwn_1',
-        'kyngstwn        kiyngostuwn     N0      Kingston;Kingstown'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kingston',
-        'Kingstown'
-      ],
-      'orig' => 'kiyngostuwn',
       'prefix' => ''
     }
   ],
@@ -39050,90 +39185,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwlA' => [
-    {
-      'types' => {},
-      'entry' => 'kuwlA',
-      'form' => 'kuwlA',
-      'lines' => [
-        ';; kuwlA_1',
-        'kwlA    kuwlA   N0      Cola'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Cola'
-      ],
-      'orig' => 'kuwlA',
-      'prefix' => ''
-    }
-  ],
-  'klAytuwn' => [
-    {
-      'types' => {},
-      'entry' => 'klAytuwn',
-      'form' => 'klAytuwn',
-      'lines' => [
-        ';; klAyotuwn_1',
-        'klAytwn klAyotuwn       Nprop   Clayton'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Clayton'
-      ],
-      'orig' => 'klAyotuwn',
-      'prefix' => ''
-    }
-  ],
-  'kuwt^siyn' => [
-    {
-      'types' => {},
-      'entry' => 'kuwt^siyn',
-      'form' => 'kuwt^siynaT',
-      'lines' => [
-        ';; kuwto$iynap_1',
-        'kwt$yn  kuwto$iyn       Nap     card game'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'card game'
-      ],
-      'orig' => 'kuwto$iynap',
-      'prefix' => ''
-    }
-  ],
-  'kliybAnuwf' => [
-    {
-      'types' => {},
-      'entry' => 'kliybAnuwf',
-      'form' => 'kliybAnuwf',
-      'lines' => [
-        ';; kliybAnuwf_1',
-        'klybAnwf        kliybAnuwf      Nprop   Klebanov'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Klebanov'
-      ],
-      'orig' => 'kliybAnuwf',
-      'prefix' => ''
-    }
-  ],
   'k n k n' => [
     {
       'types' => {
@@ -39162,6 +39213,35 @@ $Lexicon = {
         'settle down'
       ],
       'orig' => 'kanokan',
+      'prefix' => ''
+    }
+  ],
+  'kAllU' => [
+    {
+      'types' => {
+        'kAlluwh' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'kAlluw',
+      'form' => 'kAlluw',
+      'lines' => [
+        ';; kAl~uw_1',
+        'kAlw    kAl~uw  N0      callus;corn',
+        'kAlwh   kAl~uwh NAt     calluses;corns'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'callus',
+        'corn',
+        'calluses',
+        'corns'
+      ],
+      'orig' => 'kAl~uw',
       'prefix' => ''
     }
   ],
@@ -39204,27 +39284,6 @@ $Lexicon = {
         'Karnataka'
       ],
       'orig' => 'kAronAtAkA',
-      'prefix' => ''
-    }
-  ],
-  'kluwtin' => [
-    {
-      'types' => {},
-      'entry' => 'kluwtin',
-      'form' => 'kluwtin',
-      'lines' => [
-        ';; kluwtin_1',
-        'klwtn   kluwtin Nprop   Kloten'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kloten'
-      ],
-      'orig' => 'kluwtin',
       'prefix' => ''
     }
   ],
@@ -39547,48 +39606,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kabuwriyA' => [
-    {
-      'types' => {},
-      'entry' => 'kabuwriyA',
-      'form' => 'kabuwriyA',
-      'lines' => [
-        ';; kabuwriyA_1',
-        'kbwryA  kabuwriyA       N0      crab'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'crab'
-      ],
-      'orig' => 'kabuwriyA',
-      'prefix' => ''
-    }
-  ],
-  'kuwmiydiyA' => [
-    {
-      'types' => {},
-      'entry' => 'kuwmiydiyA',
-      'form' => 'kuwmiydiyA',
-      'lines' => [
-        ';; kuwmiydiyA_1',
-        'kwmydyA kuwmiydiyA      N0      comedy'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'comedy'
-      ],
-      'orig' => 'kuwmiydiyA',
-      'prefix' => ''
-    }
-  ],
   'kustubAn' => [
     {
       'types' => {
@@ -39617,27 +39634,6 @@ $Lexicon = {
         'thimbles'
       ],
       'orig' => 'kusotubAn',
-      'prefix' => ''
-    }
-  ],
-  'kiynA' => [
-    {
-      'types' => {},
-      'entry' => 'kiynA',
-      'form' => 'kiynA',
-      'lines' => [
-        ';; kiynA_1',
-        'kynA    kiynA   N0      quinine'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'quinine'
-      ],
-      'orig' => 'kiynA',
       'prefix' => ''
     }
   ],
@@ -39671,18 +39667,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kArniyh' => [
+  'kUmbAk' => [
     {
-      'types' => {
-        'kArniyh' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'kArniyh',
-      'form' => 'kArniyh',
+      'types' => {},
+      'entry' => 'kuwmbAk',
+      'form' => 'kuwmbAk',
       'lines' => [
-        ';; kAroniyh_1',
-        'kArnyh  kAroniyh        N/At    identity card;carnet'
+        ';; kuwmobAk_1',
+        'kwmbAk  kuwmobAk        Nprop   Compaq'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39690,10 +39682,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'identity card',
-        'carnet'
+        'Compaq'
       ],
-      'orig' => 'kAroniyh',
+      'orig' => 'kuwmobAk',
       'prefix' => ''
     }
   ],
@@ -39716,6 +39707,27 @@ $Lexicon = {
         'damask'
       ],
       'orig' => 'kamoxA',
+      'prefix' => ''
+    }
+  ],
+  'kwI.glI' => [
+    {
+      'types' => {},
+      'entry' => 'kwiy.gliy',
+      'form' => 'kwiy.gliy',
+      'lines' => [
+        ';; kwiygoliy_1',
+        'kwygly  kwiygoliy       Nprop   Quigley'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Quigley'
+      ],
+      'orig' => 'kwiygoliy',
       'prefix' => ''
     }
   ],
@@ -39751,6 +39763,71 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'kA}in',
+      'prefix' => ''
+    }
+  ],
+  'kahanUt' => [
+    {
+      'types' => {
+        'kahnuwt' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'kahanuwt',
+      'form' => 'kahanuwt',
+      'lines' => [
+        ';; kahanuwt_1',
+        'khnwt   kahanuwt        N       priesthood',
+        'khnwt   kahonuwt        N       priesthood'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'priesthood'
+      ],
+      'orig' => 'kahanuwt',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'kahanuwt',
+      'form' => 'kahanuwtiyy',
+      'lines' => [
+        ';; kahanuwtiy~_1',
+        'khnwty  kahanuwtiy~     Nall    priestly;sacerdotal     [[kahanuwtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'priestly',
+        'sacerdotal'
+      ],
+      'orig' => 'kahanuwtiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'kahanuwt',
+      'form' => 'kahanuwtiyyaT',
+      'lines' => [
+        ';; kahanuwtiy~ap_1',
+        'khnwty  kahanuwtiy~     Nap     priesthood     [[kahanuwtiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'priesthood'
+      ],
+      'orig' => 'kahanuwtiy~ap',
       'prefix' => ''
     }
   ],
@@ -39886,67 +39963,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwnt' => [
-    {
-      'types' => {},
-      'entry' => 'kuwnt',
-      'form' => 'kuwnt',
-      'lines' => [
-        ';; kuwnot_1',
-        'kwnt    kuwnot  N0      Count'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Count'
-      ],
-      'orig' => 'kuwnot',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'kuwnt',
-      'form' => 'kuwntiyyaT',
-      'lines' => [
-        ';; kuwnotiy~ap_1',
-        'kwnty   kuwnotiy~       NapAt   county'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'county'
-      ],
-      'orig' => 'kuwnotiy~ap',
-      'prefix' => ''
-    }
-  ],
-  'kAntirbriy' => [
-    {
-      'types' => {},
-      'entry' => 'kAntirbriy',
-      'form' => 'kAntirbriy',
-      'lines' => [
-        ';; kAnotirobriy_1',
-        'kAntrbry        kAnotirobriy    N0      Canterbury'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Canterbury'
-      ],
-      'orig' => 'kAnotirobriy',
-      'prefix' => ''
-    }
-  ],
   'k f h r' => [
     {
       'types' => {
@@ -40044,40 +40060,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kArAtiyh' => [
-    {
-      'types' => {
-        'karAtiyh' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'kArAtiyh',
-      'form' => 'kArAtiyh',
-      'lines' => [
-        ';; kArAtiyh_1',
-        'kArAtyh kArAtiyh        N0      karate',
-        'krAtyh  karAtiyh        N0      karate'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'karate'
-      ],
-      'orig' => 'kArAtiyh',
-      'prefix' => ''
-    }
-  ],
-  'kuwykuw' => [
+  'kustulItah' => [
     {
       'types' => {},
-      'entry' => 'kuwykuw',
-      'form' => 'kuwykuw',
+      'entry' => 'kustuliytah',
+      'form' => 'kustuliytah',
       'lines' => [
-        ';; kuwyokuw_1',
-        'kwykw   kuwyokuw        Nprop   Koiko'
+        ';; kusotuliytah_1',
+        'kstlyth kusotuliytah    N0      cutlet'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40085,9 +40075,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Koiko'
+        'cutlet'
       ],
-      'orig' => 'kuwyokuw',
+      'orig' => 'kusotuliytah',
       'prefix' => ''
     }
   ],
@@ -40376,14 +40366,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kriystAl' => [
+  'kUstIllU' => [
     {
       'types' => {},
-      'entry' => 'kriystAl',
-      'form' => 'kriystAl',
+      'entry' => 'kuwstiylluw',
+      'form' => 'kuwstiylluw',
       'lines' => [
-        ';; kriysotAl_1',
-        'krystAl kriysotAl       N0      crystal'
+        ';; kuwsotiyloluw_1',
+        'kwstyllw        kuwsotiyloluw   Nprop   Costello'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40391,9 +40381,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'crystal'
+        'Costello'
       ],
-      'orig' => 'kriysotAl',
+      'orig' => 'kuwsotiyloluw',
       'prefix' => ''
     }
   ],
@@ -40420,6 +40410,74 @@ $Lexicon = {
         'manacles'
       ],
       'orig' => 'kalabo$',
+      'prefix' => ''
+    }
+  ],
+  'kIrIyinkU' => [
+    {
+      'types' => {},
+      'entry' => 'kiyriyyinkuw',
+      'form' => 'kiyriyyinkuw',
+      'lines' => [
+        ';; kiyriyyinokuw_1',
+        'kyryynkw        kiyriyyinokuw   Nprop   Kiriyenko'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kiriyenko'
+      ],
+      'orig' => 'kiyriyyinokuw',
+      'prefix' => ''
+    }
+  ],
+  'kAmbiyU' => [
+    {
+      'types' => {},
+      'entry' => 'kAmbiyuw',
+      'form' => 'kAmbiyuw',
+      'lines' => [
+        ';; kAmobiyuw_1',
+        'kAmbyw  kAmobiyuw       N0      rate of exchange'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'rate of exchange'
+      ],
+      'orig' => 'kAmobiyuw',
+      'prefix' => ''
+    }
+  ],
+  'kirIt' => [
+    {
+      'types' => {
+        'kiriyd' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'kiriyt',
+      'form' => 'kiriyt',
+      'lines' => [
+        ';; kiriyt_1',
+        'kryt    kiriyt  N0      Crete',
+        'kryd    kiriyd  N0      Crete'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Crete'
+      ],
+      'orig' => 'kiriyt',
       'prefix' => ''
     }
   ],
@@ -40466,14 +40524,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwdriyn' => [
+  'krIstAl' => [
     {
       'types' => {},
-      'entry' => 'kuwdriyn',
-      'form' => 'kuwdriyn',
+      'entry' => 'kriystAl',
+      'form' => 'kriystAl',
       'lines' => [
-        ';; kuwdriyn_1',
-        'kwdryn  kuwdriyn        Nprop   Kudrin'
+        ';; kriysotAl_1',
+        'krystAl kriysotAl       N0      crystal'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40481,9 +40539,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Kudrin'
+        'crystal'
       ],
-      'orig' => 'kuwdriyn',
+      'orig' => 'kriysotAl',
+      'prefix' => ''
+    }
+  ],
+  'kA_tirIn' => [
+    {
+      'types' => {},
+      'entry' => 'kA_tiriyn',
+      'form' => 'kA_tiriyn',
+      'lines' => [
+        ';; kAviriyn_1',
+        'kAvryn  kAviriyn        N0      Catherine'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Catherine'
+      ],
+      'orig' => 'kAviriyn',
       'prefix' => ''
     }
   ],
@@ -40516,27 +40595,6 @@ $Lexicon = {
         'monks\' cells'
       ],
       'orig' => 'kiroH',
-      'prefix' => ''
-    }
-  ],
-  'ksiyAmiyn' => [
-    {
-      'types' => {},
-      'entry' => 'ksiyAmiyn',
-      'form' => 'ksiyAmiyn',
-      'lines' => [
-        ';; ksiyAmiyn_1',
-        'ksyAmyn ksiyAmiyn       Nprop   Xiamen'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Xiamen'
-      ],
-      'orig' => 'ksiyAmiyn',
       'prefix' => ''
     }
   ],
@@ -40872,18 +40930,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kliy^siyh' => [
+  'kUlistirUl' => [
     {
-      'types' => {
-        'kliy^siyh' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'kliy^siyh',
-      'form' => 'kliy^siyh',
+      'types' => {},
+      'entry' => 'kuwlistiruwl',
+      'form' => 'kuwlistiruwl',
       'lines' => [
-        ';; kliy$iyh_1',
-        'kly$yh  kliy$iyh        NduAt   cliche'
+        ';; kuwlisotiruwl_1',
+        'kwlstrwl        kuwlisotiruwl   N0      cholesterol'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40891,9 +40945,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'cliche'
+        'cholesterol'
       ],
-      'orig' => 'kliy$iyh',
+      'orig' => 'kuwlisotiruwl',
       'prefix' => ''
     }
   ],
@@ -41099,14 +41153,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwrb' => [
+  'kUlIrA' => [
     {
       'types' => {},
-      'entry' => 'kuwrb',
-      'form' => 'kuwrb',
+      'entry' => 'kuwliyrA',
+      'form' => 'kuwliyrA',
       'lines' => [
-        ';; kuwrob_1',
-        'kwrb    kuwrob  Nprop   Corp.'
+        ';; kuwliyrA_1',
+        'kwlyrA  kuwliyrA        N0      cholera'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41114,20 +41168,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Corp.'
+        'cholera'
       ],
-      'orig' => 'kuwrob',
+      'orig' => 'kuwliyrA',
       'prefix' => ''
     }
   ],
-  'kruw^siyh' => [
+  'kUstA' => [
     {
       'types' => {},
-      'entry' => 'kruw^siyh',
-      'form' => 'kruw^siyh',
+      'entry' => 'kuwstA',
+      'form' => 'kuwstA',
       'lines' => [
-        ';; kruw$iyh_1',
-        'krw$yh  kruw$iyh        N0      crocheting'
+        ';; kuwsotA_1',
+        'kwstA   kuwsotA Nprop   Costa'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41135,30 +41189,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'crocheting'
+        'Costa'
       ],
-      'orig' => 'kruw$iyh',
-      'prefix' => ''
-    }
-  ],
-  'kArluw' => [
-    {
-      'types' => {},
-      'entry' => 'kArluw',
-      'form' => 'kArluw',
-      'lines' => [
-        ';; kAroluw_1',
-        'kArlw   kAroluw Nprop   Carlo'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Carlo'
-      ],
-      'orig' => 'kAroluw',
+      'orig' => 'kuwsotA',
       'prefix' => ''
     }
   ],
@@ -41255,27 +41288,6 @@ $Lexicon = {
         'overburdening'
       ],
       'orig' => 'takaD~uD',
-      'prefix' => ''
-    }
-  ],
-  'kuwstAriykA' => [
-    {
-      'types' => {},
-      'entry' => 'kuwstAriykA',
-      'form' => 'kuwstAriykA',
-      'lines' => [
-        ';; kuwsotAriykA_1',
-        'kwstArykA       kuwsotAriykA    N0      Costa Rica'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Costa Rica'
-      ],
-      'orig' => 'kuwsotAriykA',
       'prefix' => ''
     }
   ],
@@ -41733,14 +41745,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kAliyfuwrniyA' => [
+  'kIlUwA.t' => [
     {
-      'types' => {},
-      'entry' => 'kAliyfuwrniyA',
-      'form' => 'kAliyfuwrniyA',
+      'types' => {
+        'kiyluwwA.t' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'kiyluwwA.t',
+      'form' => 'kiyluwwA.t',
       'lines' => [
-        ';; kAliyfuwroniyA_1',
-        'kAlyfwrnyA      kAliyfuwroniyA  N0      California'
+        ';; kiyluwwAT_1',
+        'kylwwAT kiyluwwAT       N/At    kilowatts'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41748,31 +41764,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'California'
+        'kilowatts'
       ],
-      'orig' => 'kAliyfuwroniyA',
-      'prefix' => ''
-    }
-  ],
-  'kuwbriy' => [
-    {
-      'types' => {},
-      'entry' => 'kuwbriy',
-      'form' => 'kuwbriy',
-      'lines' => [
-        ';; kuwboriy_1',
-        'kwbry   kuwboriy        N0      bridge;overpass'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bridge',
-        'overpass'
-      ],
-      'orig' => 'kuwboriy',
+      'orig' => 'kiyluwwAT',
       'prefix' => ''
     }
   ],
@@ -41797,25 +41791,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'krAkuwfiyA' => [
+  'kUt^sIn' => [
     {
       'types' => {},
-      'entry' => 'krAkuwfiyA',
-      'form' => 'krAkuwfiyA',
+      'entry' => 'kuwt^siyn',
+      'form' => 'kuwt^siynaT',
       'lines' => [
-        ';; krAkuwfiyA_1',
-        'krAkwfyA        krAkuwfiyA      N0      Cracow;Krakow'
+        ';; kuwto$iynap_1',
+        'kwt$yn  kuwto$iyn       Nap     card game'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
-        'Cracow',
-        'Krakow'
+        'card game'
       ],
-      'orig' => 'krAkuwfiyA',
+      'orig' => 'kuwto$iynap',
       'prefix' => ''
     }
   ],
@@ -41840,19 +41833,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kahanuwt' => [
+  'kalA^snikUf' => [
     {
-      'types' => {
-        'kahnuwt' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'kahanuwt',
-      'form' => 'kahanuwt',
+      'types' => {},
+      'entry' => 'kalA^snikuwf',
+      'form' => 'kalA^snikuwf',
       'lines' => [
-        ';; kahanuwt_1',
-        'khnwt   kahanuwt        N       priesthood',
-        'khnwt   kahonuwt        N       priesthood'
+        ';; kalA$onikuwf_1',
+        'klA$nkwf        kalA$onikuwf    N0      Kalashnikov'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41860,48 +41848,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'priesthood'
+        'Kalashnikov'
       ],
-      'orig' => 'kahanuwt',
+      'orig' => 'kalA$onikuwf',
       'prefix' => ''
-    },
+    }
+  ],
+  'kUlA' => [
     {
       'types' => {},
-      'entry' => 'kahanuwt',
-      'form' => 'kahanuwtiyy',
+      'entry' => 'kuwlA',
+      'form' => 'kuwlA',
       'lines' => [
-        ';; kahanuwtiy~_1',
-        'khnwty  kahanuwtiy~     Nall    priestly;sacerdotal     [[kahanuwtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'priestly',
-        'sacerdotal'
-      ],
-      'orig' => 'kahanuwtiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'kahanuwt',
-      'form' => 'kahanuwtiyyaT',
-      'lines' => [
-        ';; kahanuwtiy~ap_1',
-        'khnwty  kahanuwtiy~     Nap     priesthood     [[kahanuwtiy~/NOUN]]'
+        ';; kuwlA_1',
+        'kwlA    kuwlA   N0      Cola'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'priesthood'
+        'Cola'
       ],
-      'orig' => 'kahanuwtiy~ap',
+      'orig' => 'kuwlA',
       'prefix' => ''
     }
   ],
@@ -42180,28 +42150,6 @@ $Lexicon = {
         'brave'
       ],
       'orig' => 'kamiy~',
-      'prefix' => ''
-    }
-  ],
-  'kuwluwmbiyA' => [
-    {
-      'types' => {},
-      'entry' => 'kuwluwmbiyA',
-      'form' => 'kuwluwmbiyA',
-      'lines' => [
-        ';; kuwluwmobiyA_1',
-        'kwlwmbyA        kuwluwmobiyA    N0      Colombia;Columbia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Colombia',
-        'Columbia'
-      ],
-      'orig' => 'kuwluwmobiyA',
       'prefix' => ''
     }
   ],
@@ -42943,15 +42891,41 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kahra.tiys' => [
+  'kArIbI' => [
     {
       'types' => {},
-      'entry' => 'kahra.tiys',
-      'form' => 'kahra.tiysiyy',
+      'entry' => 'kAriybiy',
+      'form' => 'kAriybiy',
       'lines' => [
-        ';; kahoraTiysiy~_1',
-        'khrTysy kahoraTiysiy~   N-ap    electromagnetic     [[kahoraTiysiy~/ADJ]]',
-        'khrTysy kahoraTiysiy~   Nap     electromagnetism     [[kahoraTiysiy~/NOUN]]'
+        ';; kAriybiy_1',
+        'kAryby  kAriybiy        N0      Caribbean'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Caribbean'
+      ],
+      'orig' => 'kAriybiy',
+      'prefix' => ''
+    }
+  ],
+  'kA_tUlIk' => [
+    {
+      'types' => {
+        'kA_tuwliyk' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'kA_tuwliyk',
+      'form' => 'kA_tuwliykiyy',
+      'lines' => [
+        ';; kAvuwliykiy~_1',
+        'kAvwlyky        kAvuwliykiy~    Nall    Catholic     [[kAvuwliykiy~/NOUN]]',
+        'kAvwlyky        kAvuwliykiy~    Nall    Catholic     [[kAvuwliykiy~/ADJ]]',
+        'kAvwlyk kAvuwliyk       N       Catholics     [[kAvuwliyk/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42959,10 +42933,10 @@ $Lexicon = {
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'electromagnetic',
-        'electromagnetism'
+        'Catholic',
+        'Catholics'
       ],
-      'orig' => 'kahoraTiysiy~',
+      'orig' => 'kAvuwliykiy~',
       'prefix' => ''
     }
   ],
@@ -42987,14 +42961,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwnyAk' => [
+  'kAmbUdiyA' => [
     {
-      'types' => {},
-      'entry' => 'kuwnyAk',
-      'form' => 'kuwnyAk',
+      'types' => {
+        'kambuwdiyA' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'kAmbuwdiyA',
+      'form' => 'kAmbuwdiyA',
       'lines' => [
-        ';; kuwnoyAk_1',
-        'kwnyAk  kuwnoyAk        N       cognac'
+        ';; kAmobuwdiyA_1',
+        'kAmbwdyA        kAmobuwdiyA     N0      Cambodia;Kampuchea',
+        'kmbwdyA kamobuwdiyA     N0      Cambodia;Kampuchea'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43002,20 +42981,21 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'cognac'
+        'Cambodia',
+        'Kampuchea'
       ],
-      'orig' => 'kuwnoyAk',
+      'orig' => 'kAmobuwdiyA',
       'prefix' => ''
     }
   ],
-  'kibriytiyk' => [
+  'krIstyAn' => [
     {
       'types' => {},
-      'entry' => 'kibriytiyk',
-      'form' => 'kibriytiyk',
+      'entry' => 'kriystyAn',
+      'form' => 'kriystyAn',
       'lines' => [
-        ';; kibriytiyk_1',
-        'kbrytyk kibriytiyk      N0      sulfuric'
+        ';; kriysotyAn_1',
+        'krystyAn        kriysotyAn      Nprop   Christian'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43023,9 +43003,52 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'sulfuric'
+        'Christian'
       ],
-      'orig' => 'kibriytiyk',
+      'orig' => 'kriysotyAn',
+      'prefix' => ''
+    }
+  ],
+  'krAkUfiyA' => [
+    {
+      'types' => {},
+      'entry' => 'krAkuwfiyA',
+      'form' => 'krAkuwfiyA',
+      'lines' => [
+        ';; krAkuwfiyA_1',
+        'krAkwfyA        krAkuwfiyA      N0      Cracow;Krakow'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Cracow',
+        'Krakow'
+      ],
+      'orig' => 'krAkuwfiyA',
+      'prefix' => ''
+    }
+  ],
+  'kAnIn.ghAm' => [
+    {
+      'types' => {},
+      'entry' => 'kAniyn.ghAm',
+      'form' => 'kAniyn.ghAm',
+      'lines' => [
+        ';; kAniyngohAm_1',
+        'kAnynghAm       kAniyngohAm     Nprop   Cunnigham'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Cunnigham'
+      ],
+      'orig' => 'kAniyngohAm',
       'prefix' => ''
     }
   ],
@@ -43399,6 +43422,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kUstArIk' => [
+    {
+      'types' => {},
+      'entry' => 'kuwstAriyk',
+      'form' => 'kuwstAriykiyy',
+      'lines' => [
+        ';; kuwsotAriykiy~_1',
+        'kwstAryky       kuwsotAriykiy~  Nall    Costa Rican     [[kuwsotAriykiy~/NOUN]]',
+        'kwstAryky       kuwsotAriykiy~  Nall    Costa Rican     [[kuwsotAriykiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Costa Rican'
+      ],
+      'orig' => 'kuwsotAriykiy~',
+      'prefix' => ''
+    }
+  ],
   'kambri^g' => [
     {
       'types' => {
@@ -43640,6 +43685,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'kazarUn' => [
+    {
+      'types' => {},
+      'entry' => 'kazaruwn',
+      'form' => 'kazaruwnaT',
+      'lines' => [
+        ';; kazaruwnap_1',
+        'kzrwn   kazaruwn        Nap     casserole'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'casserole'
+      ],
+      'orig' => 'kazaruwnap',
+      'prefix' => ''
+    }
+  ],
   'k .h t' => [
     {
       'types' => {
@@ -43698,6 +43764,31 @@ $Lexicon = {
         'scrape off'
       ],
       'orig' => 'kaH~at',
+      'prefix' => ''
+    }
+  ],
+  'kUmsAr' => [
+    {
+      'types' => {},
+      'entry' => 'kuwmsAr',
+      'form' => 'kuwmsAriyy',
+      'lines' => [
+        ';; kuwmosAriy~_1',
+        'kwmsAry kuwmosAriy~     Ndu     conductor;ticket man',
+        'kwmsAry kuwmosAriy~     Nap     conductors;ticket men     [[kuwmsAriy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'conductor',
+        'ticket man',
+        'conductors',
+        'ticket men'
+      ],
+      'orig' => 'kuwmosAriy~',
       'prefix' => ''
     }
   ],
@@ -43910,60 +44001,6 @@ $Lexicon = {
       'orig' => 'kiyniy~',
       'prefix' => ''
     }
-  ],
-  'kA_tuwliyk' => [
-    {
-      'types' => {
-        'kA_tuwliyk' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'kA_tuwliyk',
-      'form' => 'kA_tuwliykiyy',
-      'lines' => [
-        ';; kAvuwliykiy~_1',
-        'kAvwlyky        kAvuwliykiy~    Nall    Catholic     [[kAvuwliykiy~/NOUN]]',
-        'kAvwlyky        kAvuwliykiy~    Nall    Catholic     [[kAvuwliykiy~/ADJ]]',
-        'kAvwlyk kAvuwliyk       N       Catholics     [[kAvuwliyk/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Catholic',
-        'Catholics'
-      ],
-      'orig' => 'kAvuwliykiy~',
-      'prefix' => ''
-    }
-  ],
-  'kuwfA\'iyn' => [
-    {
-      'types' => {
-        'kuwfAyiyn' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'kuwfA\'iyn',
-      'form' => 'kuwfA\'iyn',
-      'lines' => [
-        ';; kuwfA}iyn_1',
-        'kwfA}yn kuwfA}iyn       N0      caffeine',
-        'kwfAyyn kuwfAyiyn       N0      caffeine'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'caffeine'
-      ],
-      'orig' => 'kuwfA}iyn',
-      'prefix' => ''
-    }
   ]
 };
 $Lexicon->{'k s w'}[7]{'types'} = $Lexicon->{'k s \''}[0]{'types'};
@@ -43987,9 +44024,9 @@ $Lexicon->{'k r \''}[3]{'glosses'} = $Lexicon->{'k r y'}[13]{'glosses'};
 $Lexicon->{'k y m'}[0]{'types'} = $Lexicon->{'k w m'}[3]{'types'};
 $Lexicon->{'k y m'}[0]{'lines'} = $Lexicon->{'k w m'}[3]{'lines'};
 $Lexicon->{'k y m'}[0]{'glosses'} = $Lexicon->{'k w m'}[3]{'glosses'};
-$Lexicon->{'k r w'}[8]{'types'} = $Lexicon->{'k r \''}[0]{'types'};
-$Lexicon->{'k r w'}[8]{'lines'} = $Lexicon->{'k r \''}[0]{'lines'};
-$Lexicon->{'k r w'}[8]{'glosses'} = $Lexicon->{'k r \''}[0]{'glosses'};
+$Lexicon->{'k r w'}[7]{'types'} = $Lexicon->{'k r \''}[0]{'types'};
+$Lexicon->{'k r w'}[7]{'lines'} = $Lexicon->{'k r \''}[0]{'lines'};
+$Lexicon->{'k r w'}[7]{'glosses'} = $Lexicon->{'k r \''}[0]{'glosses'};
 $Lexicon->{'k w l'}[1]{'types'} = $Lexicon->{'k l n'}[3]{'types'};
 $Lexicon->{'k w l'}[1]{'lines'} = $Lexicon->{'k l n'}[3]{'lines'};
 $Lexicon->{'k w l'}[1]{'glosses'} = $Lexicon->{'k l n'}[3]{'glosses'};
@@ -44002,24 +44039,27 @@ $Lexicon->{'k h w'}[0]{'glosses'} = $Lexicon->{'k h y'}[0]{'glosses'};
 $Lexicon->{'k f y'}[7]{'types'} = $Lexicon->{'k f \''}[16]{'types'};
 $Lexicon->{'k f y'}[7]{'lines'} = $Lexicon->{'k f \''}[16]{'lines'};
 $Lexicon->{'k f y'}[7]{'glosses'} = $Lexicon->{'k f \''}[16]{'glosses'};
-$Lexicon->{'k r r'}[16]{'types'} = $Lexicon->{'k r w'}[3]{'types'};
-$Lexicon->{'k r r'}[16]{'lines'} = $Lexicon->{'k r w'}[3]{'lines'};
-$Lexicon->{'k r r'}[16]{'glosses'} = $Lexicon->{'k r w'}[3]{'glosses'};
-$Lexicon->{'k r r'}[17]{'types'} = $Lexicon->{'k r w'}[4]{'types'};
-$Lexicon->{'k r r'}[17]{'lines'} = $Lexicon->{'k r w'}[4]{'lines'};
-$Lexicon->{'k r r'}[17]{'glosses'} = $Lexicon->{'k r w'}[4]{'glosses'};
-$Lexicon->{'k r r'}[18]{'types'} = $Lexicon->{'k r w'}[5]{'types'};
-$Lexicon->{'k r r'}[18]{'lines'} = $Lexicon->{'k r w'}[5]{'lines'};
-$Lexicon->{'k r r'}[18]{'glosses'} = $Lexicon->{'k r w'}[5]{'glosses'};
-$Lexicon->{'k r r'}[19]{'types'} = $Lexicon->{'k r w'}[6]{'types'};
-$Lexicon->{'k r r'}[19]{'lines'} = $Lexicon->{'k r w'}[6]{'lines'};
-$Lexicon->{'k r r'}[19]{'glosses'} = $Lexicon->{'k r w'}[6]{'glosses'};
-$Lexicon->{'k r r'}[20]{'types'} = $Lexicon->{'k r w'}[7]{'types'};
-$Lexicon->{'k r r'}[20]{'lines'} = $Lexicon->{'k r w'}[7]{'lines'};
-$Lexicon->{'k r r'}[20]{'glosses'} = $Lexicon->{'k r w'}[7]{'glosses'};
+$Lexicon->{'k r r'}[16]{'types'} = $Lexicon->{'k r w'}[2]{'types'};
+$Lexicon->{'k r r'}[16]{'lines'} = $Lexicon->{'k r w'}[2]{'lines'};
+$Lexicon->{'k r r'}[16]{'glosses'} = $Lexicon->{'k r w'}[2]{'glosses'};
+$Lexicon->{'k r r'}[17]{'types'} = $Lexicon->{'k r w'}[3]{'types'};
+$Lexicon->{'k r r'}[17]{'lines'} = $Lexicon->{'k r w'}[3]{'lines'};
+$Lexicon->{'k r r'}[17]{'glosses'} = $Lexicon->{'k r w'}[3]{'glosses'};
+$Lexicon->{'k r r'}[18]{'types'} = $Lexicon->{'k r w'}[4]{'types'};
+$Lexicon->{'k r r'}[18]{'lines'} = $Lexicon->{'k r w'}[4]{'lines'};
+$Lexicon->{'k r r'}[18]{'glosses'} = $Lexicon->{'k r w'}[4]{'glosses'};
+$Lexicon->{'k r r'}[19]{'types'} = $Lexicon->{'k r w'}[5]{'types'};
+$Lexicon->{'k r r'}[19]{'lines'} = $Lexicon->{'k r w'}[5]{'lines'};
+$Lexicon->{'k r r'}[19]{'glosses'} = $Lexicon->{'k r w'}[5]{'glosses'};
+$Lexicon->{'k r r'}[20]{'types'} = $Lexicon->{'k r w'}[6]{'types'};
+$Lexicon->{'k r r'}[20]{'lines'} = $Lexicon->{'k r w'}[6]{'lines'};
+$Lexicon->{'k r r'}[20]{'glosses'} = $Lexicon->{'k r w'}[6]{'glosses'};
 $Lexicon->{'k m n'}[12]{'types'} = $Lexicon->{'k w m'}[3]{'types'};
 $Lexicon->{'k m n'}[12]{'lines'} = $Lexicon->{'k w m'}[3]{'lines'};
 $Lexicon->{'k m n'}[12]{'glosses'} = $Lexicon->{'k w m'}[3]{'glosses'};
+$Lexicon->{'k l \''}[4]{'types'} = $Lexicon->{'k l y'}[0]{'types'};
+$Lexicon->{'k l \''}[4]{'lines'} = $Lexicon->{'k l y'}[0]{'lines'};
+$Lexicon->{'k l \''}[4]{'glosses'} = $Lexicon->{'k l y'}[0]{'glosses'};
 $Lexicon->{'k w w'}[1]{'types'} = $Lexicon->{'k w \''}[0]{'types'};
 $Lexicon->{'k w w'}[1]{'lines'} = $Lexicon->{'k w \''}[0]{'lines'};
 $Lexicon->{'k w w'}[1]{'glosses'} = $Lexicon->{'k w \''}[0]{'glosses'};

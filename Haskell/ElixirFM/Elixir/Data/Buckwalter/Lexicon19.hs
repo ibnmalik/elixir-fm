@@ -9,48 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'u.gluw.t" <| [
-
-    -- ;; >ugoluwTap_1
-    -- >glwT   >ugoluwT        NapAt   captious question
-    -- AglwT   >ugoluwT        NapAt   captious question
-    -- >gAlyT  >agAliyT        Ndip    captious questions
-    -- AgAlyT  >agAliyT        Ndip    captious questions
-
-    Identity |< aT            `noun`    {- OugoluwTap -}       [ "captious question" ] ]
-
- |> "'u.gnuw^g" <| [
-
-    -- ;; >ugonuwjap_1
-    -- >gnwj   >ugonuwj        Napdu   flirting;coquettish behavior
-    -- Agnwj   >ugonuwj        Napdu   flirting;coquettish behavior
-    -- >gAnyj  >agAniyj        Ndip    flirting;coquettish behavior
-    -- AgAnyj  >agAniyj        Ndip    flirting;coquettish behavior
-
-    Identity |< aT            `noun`    {- Ougonuwjap -}       [ "flirting", "coquettish behavior" ] ]
-
- |> "'u.gruwd" <| [
-
-    -- ;; >ugoruwd_1
-    -- >grwd   >ugoruwd        Ndu     twittering;warbling
-    -- Agrwd   >ugoruwd        Ndu     twittering;warbling
-    -- >grwd   >ugoruwd        Napdu   twittering;warbling
-    -- Agrwd   >ugoruwd        Napdu   twittering;warbling
-    -- >gAryd  >agAriyd        Ndip    twittering;warbling
-    -- AgAryd  >agAriyd        Ndip    twittering;warbling
-
-    Identity                  `noun`    {- Ougoruwd -}         [ "twittering", "warbling" ] ]
-
- |> "'u.gwiyy" <| [
-
-    -- ;; >ugowiy~ap_1
-    -- >gwy    >ugowiy~        Napdu   pitfall;trap     [[>ugowiy~/NOUN]]
-    -- Agwy    >ugowiy~        Napdu   pitfall;trap     [[>ugowiy~/NOUN]]
-    -- >gAwy   >agAwiy~        N0_Nh   pitfalls;traps
-    -- AgAwy   >agAwiy~        N0_Nh   pitfalls;traps
-
-    Identity |< aT            `noun`    {- Ougowiy~ap -}       [ "pitfall", "trap" ] ]
-
  |> ".g" <| [
 
     -- ;; gAt_1
@@ -2755,6 +2713,16 @@ lexicon = listing "Lexicon's properties"
 
     FaCLAn                    `adj`     {- galoTAn -}          [ "wrong", "erring" ],
 
+    -- ;; >ugoluwTap_1
+    -- >glwT   >ugoluwT        NapAt   captious question
+    -- AglwT   >ugoluwT        NapAt   captious question
+    -- >gAlyT  >agAliyT        Ndip    captious questions
+    -- AgAlyT  >agAliyT        Ndip    captious questions
+
+    HuFCUL |< aT              `noun`    {- OugoluwTap -}       [ "captious question" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a.gAliy.t Ndip" ] -},
+
     -- ;; magolaTap_1
     -- mglT    magolaT Nap     captious question
     -- mgAlT   magAliT Ndip    captious questions
@@ -4428,6 +4396,16 @@ lexicon = listing "Lexicon's properties"
 
     MiFCAL                    `adj`     {- migonAj -}          [ "coquette", "flirtatious" ],
 
+    -- ;; >ugonuwjap_1
+    -- >gnwj   >ugonuwj        Napdu   flirting;coquettish behavior
+    -- Agnwj   >ugonuwj        Napdu   flirting;coquettish behavior
+    -- >gAnyj  >agAniyj        Ndip    flirting;coquettish behavior
+    -- AgAnyj  >agAniyj        Ndip    flirting;coquettish behavior
+
+    HuFCUL |< aT              `noun`    {- Ougonuwjap -}       [ "flirting", "coquettish behavior" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a.gAniy^g Ndip" ] -},
+
     -- ;; tagan~uj_1
     -- tgnj    tagan~uj        N/At    flirting;coquettish behavior
 
@@ -4780,6 +4758,7 @@ lexicon = listing "Lexicon's properties"
     -- AgAn    >agAn   NK      songs;melodies
 
     HuFCI |< aT               `noun`    {- Ougoniyap -}        [ "song", "melody" ]
+                              `plural`     HuFCIL |< At
                               `plural`     HaFACI
                            {- `others`  [ "'a.gAniy N0_Nh" ] -},
 
@@ -5311,6 +5290,18 @@ lexicon = listing "Lexicon's properties"
     -- gryd    gir~iyd N-ap    twittering;warbling
 
     FiCCIL                    `noun`    {- gir~iyd -}          [ "twittering", "warbling" ],
+
+    -- ;; >ugoruwd_1
+    -- >grwd   >ugoruwd        Ndu     twittering;warbling
+    -- Agrwd   >ugoruwd        Ndu     twittering;warbling
+    -- >grwd   >ugoruwd        Napdu   twittering;warbling
+    -- Agrwd   >ugoruwd        Napdu   twittering;warbling
+    -- >gAryd  >agAriyd        Ndip    twittering;warbling
+    -- AgAryd  >agAriyd        Ndip    twittering;warbling
+
+    HuFCUL                    `noun`    {- Ougoruwd -}         [ "twittering", "warbling" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a.gAriyd Ndip" ] -},
 
     -- ;; tagoriyd_1
     -- tgryd   tagoriyd        N/At    twittering;warbling
@@ -6856,6 +6847,16 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- gawAyap -}          [ "error", "sin" ],
 
+    -- ;; >ugowiy~ap_1
+    -- >gwy    >ugowiy~        Napdu   pitfall;trap     [[>ugowiy~/NOUN]]
+    -- Agwy    >ugowiy~        Napdu   pitfall;trap     [[>ugowiy~/NOUN]]
+    -- >gAwy   >agAwiy~        N0_Nh   pitfalls;traps
+    -- AgAwy   >agAwiy~        N0_Nh   pitfalls;traps
+
+    HuFCIL |< aT              `noun`    {- Ougowiy~ap -}       [ "pitfall", "trap" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a.gAwiyy N0_Nh" ] -},
+
     -- ;; <igowA'_1
     -- <gwA'   <igowA' N0_Nh   seduction;allurement
     -- AgwA'   <igowA' N0_Nh   seduction;allurement
@@ -8047,40 +8048,40 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- gAbAniy~ -}         [ "cashmere" ] ]
 
- |> ".gAbriyyil" <| [
+ |> ".gAbrIyil" <| [
 
     -- ;; gAbriyyil_1
     -- gAbryyl gAbriyyil       Nprop   Gabriel
 
     Identity                  `noun`    {- gAbriyyil -}        [ "Gabriel" ] ]
 
- |> ".gAbriyyillA" <| [
+ |> ".gAbrIyillA" <| [
 
     -- ;; gAbriyyil~A_1
     -- gAbryylA        gAbriyyil~A     Nprop   Gabriela
 
     Identity                  `noun`    {- gAbriyyil~A -}      [ "Gabriela" ] ]
 
- |> ".gAliyr" <| [
+ |> ".gAlIr" <| [
 
     -- ;; gAliyriy~_1
     -- gAlyry  gAliyriy~       N-ap    gallery     [[gAliyriy~/ADJ]]
 
     Identity |< Iy            `adj`     {- gAliyriy~ -}        [ "gallery" ] ]
 
- |> ".gAlkiynA" <| [
-
-    -- ;; gAlokiynA_1
-    -- gAlkynA gAlokiynA       Nprop   Galkina
-
-    Identity                  `noun`    {- gAlokiynA -}        [ "Galkina" ] ]
-
- |> ".gAluw" <| [
+ |> ".gAlU" <| [
 
     -- ;; gAluw_1
     -- gAlw    gAluw   Nprop   Galo
 
     Identity                  `noun`    {- gAluw -}            [ "Galo" ] ]
+
+ |> ".gAlkInA" <| [
+
+    -- ;; gAlokiynA_1
+    -- gAlkynA gAlokiynA       Nprop   Galkina
+
+    Identity                  `noun`    {- gAlokiynA -}        [ "Galkina" ] ]
 
  |> ".gAlwAy" <| [
 
@@ -8101,6 +8102,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- gAmA -}             [ "Gama" ] ]
 
+ |> ".gAmbIl" <| [
+
+    -- ;; gAmobiyl_1
+    -- gAmbyl  gAmobiyl        Nprop   Gambill
+
+    Identity                  `noun`    {- gAmobiyl -}         [ "Gambill" ] ]
+
  |> ".gAmbiyA" <| [
 
     -- ;; gAmobiyA_1
@@ -8108,14 +8116,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- gAmobiyA -}         [ "Gambia" ] ]
 
- |> ".gAmbiyl" <| [
-
-    -- ;; gAmobiyl_1
-    -- gAmbyl  gAmobiyl        Nprop   Gambill
-
-    Identity                  `noun`    {- gAmobiyl -}         [ "Gambill" ] ]
-
- |> ".gAndiy" <| [
+ |> ".gAndI" <| [
 
     -- ;; gAnodiy_1
     -- gAndy   gAnodiy Nprop   Ghandi
@@ -8129,36 +8130,36 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- gAntz -}            [ "Gantz" ] ]
 
- |> ".gArmiyndiyA" <| [
+ |> ".gArUdI" <| [
+
+    -- ;; gAruwdiy_1
+    -- gArwdy  gAruwdy Nprop   Garoudy
+    -- jArwdy  jAruwdy Nprop   Garoudy
+
+    Identity                  `noun`    {- gAruwdiy -}         [ "Garoudy" ] ]
+
+ |> ".gArmIndiyA" <| [
 
     -- ;; gAromiyndiyA_1
     -- gArmyndyA       gAromiyndiyA    Nprop   Garmendia
 
     Identity                  `noun`    {- gAromiyndiyA -}     [ "Garmendia" ] ]
 
- |> ".gArniyt" <| [
+ |> ".gArnIt" <| [
 
     -- ;; gAroniyt_1
     -- gArnyt  gAroniyt        Nprop   Garnett
 
     Identity                  `noun`    {- gAroniyt -}         [ "Garnett" ] ]
 
- |> ".gAruwdy" <| [
-
-    -- ;; gAruwdy_1
-    -- gArwdy  gAruwdy Nprop   Garoudy
-    -- jArwdy  jAruwdy Nprop   Garoudy
-
-    Identity                  `noun`    {- gAruwdy -}          [ "Garoudy" ] ]
-
- |> ".gAstuwn" <| [
+ |> ".gAstUn" <| [
 
     -- ;; gAsotuwn_1
     -- gAstwn  gAsotuwn        Nprop   Gaston
 
     Identity                  `noun`    {- gAsotuwn -}         [ "Gaston" ] ]
 
- |> ".gAtuwsuw" <| [
+ |> ".gAtUsU" <| [
 
     -- ;; gAtuwsuw_1
     -- gAtwsw  gAtuwsuw        N0      Gattuso
@@ -8171,6 +8172,136 @@ lexicon = listing "Lexicon's properties"
     -- gAzryAn gAzaroyAn       N0      Gazarian
 
     Identity                  `noun`    {- gAzaroyAn -}        [ "Gazarian" ] ]
+
+ |> ".gImArAyi^s" <| [
+
+    -- ;; giymArAyi$_1
+    -- gymArAy$        giymArAyi$      N0      Guimaraes
+
+    Identity                  `noun`    {- giymArAyi$ -}       [ "Guimaraes" ] ]
+
+ |> ".gImlstUb" <| [
+
+    -- ;; giymlstuwb_1
+    -- gymlstwb        gymlstwb        N0      Gimelstob
+
+    Identity                  `noun`    {- giymlstuwb -}       [ "Gimelstob" ] ]
+
+ |> ".gInAdI" <| [
+
+    -- ;; giynAdiy_1
+    -- gynAdy  giynAdiy        N0      Gennady
+
+    Identity                  `noun`    {- giynAdiy -}         [ "Gennady" ] ]
+
+ |> ".gItU" <| [
+
+    -- ;; giytuw_1
+    -- gytw    giytuw  N0      ghetto
+    -- gytwh   giytuwh NAt     ghettos
+
+    Identity                  `noun`    {- giytuw -}           [ "ghetto" ] ]
+
+ |> ".gUdirmIs" <| [
+
+    -- ;; guwdiromiys_1
+    -- gwdrmys guwdiromiys     Nprop   Gudermes
+
+    Identity                  `noun`    {- guwdiromiys -}      [ "Gudermes" ] ]
+
+ |> ".gUld" <| [
+
+    -- ;; guwlod_1
+    -- gwld    guwlod  Nprop   Gold
+    -- jwld    juwlod  Nprop   Gold
+
+    Identity                  `noun`    {- guwlod -}           [ "Gold" ] ]
+
+ |> ".gUlf" <| [
+
+    -- ;; guwlof_1
+    -- gwlf    guwlof  N0      golf
+
+    Identity                  `noun`    {- guwlof -}           [ "golf" ],
+
+    -- ;; guwlof_2
+    -- gwlf    guwlof  Nprop   Gulf
+
+    Identity                  `noun`    {- guwlof -}           [ "Gulf" ] ]
+
+ |> ".gUlmAr" <| [
+
+    -- ;; guwlomAr_1
+    -- gwlmAr  guwlomAr        Nprop   Golmar
+
+    Identity                  `noun`    {- guwlomAr -}         [ "Golmar" ] ]
+
+ |> ".gUlnir" <| [
+
+    -- ;; guwlonir_1
+    -- gwlnr   guwlonir        Nprop   Goellner
+
+    Identity                  `noun`    {- guwlonir -}         [ "Goellner" ] ]
+
+ |> ".gUltI" <| [
+
+    -- ;; guwlotiy_1
+    -- gwlty   guwlotiy        Nprop   Ghoulti
+    -- qwlty   quwlotiy        Nprop   Ghoulti
+
+    Identity                  `noun`    {- guwlotiy -}         [ "Ghoulti" ] ]
+
+ |> ".gUrIllA" <| [
+
+    -- ;; guwriyl~A_1
+    -- gwrylA  guwriyl~A       N0      guerrilla;gorilla
+    -- gwrlA   guwril~A        N0      guerrilla;gorilla
+    -- grlA    guril~A N0      guerrilla;gorilla
+    -- gwrllA  guwrillA        N0      guerrilla;gorilla
+    -- grllA   gurillA N0      guerrilla;gorilla
+
+    Identity                  `noun`    {- guwriyl~A -}        [ "guerrilla", "gorilla" ] ]
+
+ |> ".gUrbAt^sUf" <| [
+
+    -- ;; guwrobAto$uwf_1
+    -- gwrbAt$wf       guwrobAto$uwf   Nprop   Gorbachev
+    -- gwrnw   guwronuw        Nprop   Gorno
+
+    Identity                  `noun`    {- guwrobAto$uwf -}    [ "Gorbachev", "Gorno" ] ]
+
+ |> ".gUriyUn" <| [
+
+    -- ;; guwriyuwn_1
+    -- gwrywn  guwriyuwn       Nprop   Gurion
+    -- jwrywn  juwruyuwn       Nprop   Gurion
+
+    Identity                  `noun`    {- guwriyuwn -}        [ "Gurion" ] ]
+
+ |> ".gUsbIt^s" <| [
+
+    -- ;; guwsobiyt$_1
+    -- gwsbyt$ guwsobiyt$      Nprop   Gospic
+
+    Identity                  `noun`    {- guwsobiyt$ -}       [ "Gospic" ] ]
+
+ |> ".gUstAf" <| [
+
+    -- ;; guwsotAf_1
+    -- gwstAf  guwsotAf        Nprop   Gustav
+    -- jwstAf  juwsotAf        Nprop   Gustav
+
+    Identity                  `noun`    {- guwsotAf -}         [ "Gustav" ] ]
+
+ |> ".gUyAnA" <| [
+
+    -- ;; guwyAnA_1
+    -- gwyAnA  guwyAnA N0      Guyana
+    -- gwAyAnA guwAyAnA        N0      Guyana
+    -- jwyAnA  juwyAnA N0      Guyana
+    -- jwAyAnA guwAyAnA        N0      Guyana
+
+    Identity                  `noun`    {- guwyAnA -}          [ "Guyana" ] ]
 
  |> ".g^stAd" <| [
 
@@ -8201,7 +8332,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- gaDanofariy~ -}     [ "lion-like", "powerful" ] ]
 
- |> ".galfAnuwmitr" <| [
+ |> ".galfAnUmitr" <| [
 
     -- ;; galofAnuwmitr_1
     -- glfAnwmtr       galofAnuwmitr   N       galvanometer
@@ -8209,7 +8340,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- galofAnuwmitr -}    [ "galvanometer" ] ]
 
- |> ".gan.gariyn" <| [
+ |> ".gan.garIn" <| [
 
     -- ;; ganogariyn_1
     -- gngryn  ganogariyn      N       gangrene
@@ -8226,7 +8357,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- ganogariyniy~ -}    [ "gangrenous" ] ]
 
- |> ".gan.gariynA" <| [
+ |> ".gan.garInA" <| [
 
     -- ;; ganogariynA_1
     -- gngrynA ganogariynA     N0      gangrene
@@ -8240,7 +8371,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- garoviyA -}         [ "Garcia" ] ]
 
- |> ".gawdiyuw" <| [
+ |> ".gawdiyU" <| [
 
     -- ;; gawodiyuw_1
     -- gwdyw   gawodiyuw       Nprop   Gaudio
@@ -8261,43 +8392,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- giTayom -}          [ "huge", "vast" ] ]
 
- |> ".giymArAyi^s" <| [
-
-    -- ;; giymArAyi$_1
-    -- gymArAy$        giymArAyi$      N0      Guimaraes
-
-    Identity                  `noun`    {- giymArAyi$ -}       [ "Guimaraes" ] ]
-
- |> ".giynAdiy" <| [
-
-    -- ;; giynAdiy_1
-    -- gynAdy  giynAdiy        N0      Gennady
-
-    Identity                  `noun`    {- giynAdiy -}         [ "Gennady" ] ]
-
- |> ".giytuw" <| [
-
-    -- ;; giytuw_1
-    -- gytw    giytuw  N0      ghetto
-    -- gytwh   giytuwh NAt     ghettos
-
-    Identity                  `noun`    {- giytuw -}           [ "ghetto" ] ]
-
- |> ".glAfkuws" <| [
+ |> ".glAfkUs" <| [
 
     -- ;; glAfokuws_1
     -- glAfkws glAfokuws       Nprop   Glafcos
 
     Identity                  `noun`    {- glAfokuws -}        [ "Glafcos" ] ]
 
- |> ".glAskuw" <| [
+ |> ".glAskU" <| [
 
     -- ;; glAsokuw_1
     -- glAskw  glAsokuw        Nprop   Glasgow
 
     Identity                  `noun`    {- glAsokuw -}         [ "Glasgow" ] ]
 
- |> ".glAznuwst" <| [
+ |> ".glAznUst" <| [
 
     -- ;; glAzonuwsot_1
     -- glAznwst        glAzonuwsot     N0      glasnost
@@ -8305,14 +8414,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- glAzonuwsot -}      [ "glasnost" ] ]
 
- |> ".gliysiriyn" <| [
+ |> ".glIsirIn" <| [
 
     -- ;; gliysiriyn_1
     -- glysryn gliysiriyn      N0      glycerin
 
     Identity                  `noun`    {- gliysiriyn -}       [ "glycerin" ] ]
 
- |> ".gluwriy" <| [
+ |> ".glUrI" <| [
 
     -- ;; gluwriy_1
     -- glwry   gluwriy Nprop   Glory
@@ -8327,28 +8436,28 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- grAhAm -}           [ "Graham" ] ]
 
- |> ".griyfiy_t" <| [
+ |> ".grIfI_t" <| [
 
     -- ;; griyfiyv_1
     -- gryfyv  griyfiyv        Nprop   Griffith
 
     Identity                  `noun`    {- griyfiyv -}         [ "Griffith" ] ]
 
- |> ".griyn" <| [
+ |> ".grIn" <| [
 
     -- ;; griyn_1
     -- gryn    griyn   Nprop   Green
 
     Identity                  `noun`    {- griyn -}            [ "Green" ] ]
 
- |> ".gruw^gAn" <| [
+ |> ".grU^gAn" <| [
 
     -- ;; gruwjAn_1
     -- grwjAn  gruwjAn Nprop   Grosjean
 
     Identity                  `noun`    {- gruwjAn -}          [ "Grosjean" ] ]
 
- |> ".gruwzniy" <| [
+ |> ".grUznI" <| [
 
     -- ;; gruwzoniy_1
     -- grwzny  gruwzoniy       Nprop   Grozny
@@ -8369,7 +8478,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- gunodaqojiy~ -}     [ "armorer", "gunsmith" ] ]
 
- |> ".guwAtiymAl" <| [
+ |> ".guwAtImAl" <| [
 
     -- ;; guwAtiymAliy~_1
     -- gwAtymAly       guwAtiymAliy~   Nall    Guatemalan     [[guwAtiymAliy~/NOUN]]
@@ -8377,120 +8486,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- guwAtiymAliy~ -}    [ "Guatemalan" ] ]
 
- |> ".guwAtiymAlA" <| [
+ |> ".guwAtImAlA" <| [
 
     -- ;; guwAtiymAlA_1
     -- gwAtymAlA       guwAtiymAlA     N0      Guatemala
 
     Identity                  `noun`    {- guwAtiymAlA -}      [ "Guatemala" ] ]
-
- |> ".guwdirmiys" <| [
-
-    -- ;; guwdiromiys_1
-    -- gwdrmys guwdiromiys     Nprop   Gudermes
-
-    Identity                  `noun`    {- guwdiromiys -}      [ "Gudermes" ] ]
-
- |> ".guwld" <| [
-
-    -- ;; guwlod_1
-    -- gwld    guwlod  Nprop   Gold
-    -- jwld    juwlod  Nprop   Gold
-
-    Identity                  `noun`    {- guwlod -}           [ "Gold" ] ]
-
- |> ".guwlf" <| [
-
-    -- ;; guwlof_1
-    -- gwlf    guwlof  N0      golf
-
-    Identity                  `noun`    {- guwlof -}           [ "golf" ],
-
-    -- ;; guwlof_2
-    -- gwlf    guwlof  Nprop   Gulf
-
-    Identity                  `noun`    {- guwlof -}           [ "Gulf" ] ]
-
- |> ".guwlmAr" <| [
-
-    -- ;; guwlomAr_1
-    -- gwlmAr  guwlomAr        Nprop   Golmar
-
-    Identity                  `noun`    {- guwlomAr -}         [ "Golmar" ] ]
-
- |> ".guwlnir" <| [
-
-    -- ;; guwlonir_1
-    -- gwlnr   guwlonir        Nprop   Goellner
-
-    Identity                  `noun`    {- guwlonir -}         [ "Goellner" ] ]
-
- |> ".guwltiy" <| [
-
-    -- ;; guwlotiy_1
-    -- gwlty   guwlotiy        Nprop   Ghoulti
-    -- qwlty   quwlotiy        Nprop   Ghoulti
-
-    Identity                  `noun`    {- guwlotiy -}         [ "Ghoulti" ] ]
-
- |> ".guwrbAt^suwf" <| [
-
-    -- ;; guwrobAto$uwf_1
-    -- gwrbAt$wf       guwrobAto$uwf   Nprop   Gorbachev
-    -- gwrnw   guwronuw        Nprop   Gorno
-
-    Identity                  `noun`    {- guwrobAto$uwf -}    [ "Gorbachev", "Gorno" ] ]
-
- |> ".guwriyllA" <| [
-
-    -- ;; guwriyl~A_1
-    -- gwrylA  guwriyl~A       N0      guerrilla;gorilla
-    -- gwrlA   guwril~A        N0      guerrilla;gorilla
-    -- grlA    guril~A N0      guerrilla;gorilla
-    -- gwrllA  guwrillA        N0      guerrilla;gorilla
-    -- grllA   gurillA N0      guerrilla;gorilla
-
-    Identity                  `noun`    {- guwriyl~A -}        [ "guerrilla", "gorilla" ] ]
-
- |> ".guwriyuwn" <| [
-
-    -- ;; guwriyuwn_1
-    -- gwrywn  guwriyuwn       Nprop   Gurion
-    -- jwrywn  juwruyuwn       Nprop   Gurion
-
-    Identity                  `noun`    {- guwriyuwn -}        [ "Gurion" ] ]
-
- |> ".guwsbiyt^s" <| [
-
-    -- ;; guwsobiyt$_1
-    -- gwsbyt$ guwsobiyt$      Nprop   Gospic
-
-    Identity                  `noun`    {- guwsobiyt$ -}       [ "Gospic" ] ]
-
- |> ".guwstAf" <| [
-
-    -- ;; guwsotAf_1
-    -- gwstAf  guwsotAf        Nprop   Gustav
-    -- jwstAf  juwsotAf        Nprop   Gustav
-
-    Identity                  `noun`    {- guwsotAf -}         [ "Gustav" ] ]
-
- |> ".guwyAnA" <| [
-
-    -- ;; guwyAnA_1
-    -- gwyAnA  guwyAnA N0      Guyana
-    -- gwAyAnA guwAyAnA        N0      Guyana
-    -- jwyAnA  juwyAnA N0      Guyana
-    -- jwAyAnA guwAyAnA        N0      Guyana
-
-    Identity                  `noun`    {- guwyAnA -}          [ "Guyana" ] ]
-
- |> ".gymlstwb" <| [
-
-    -- ;; gymlstwb_1
-    -- gymlstwb        gymlstwb        N0      Gimelstob
-
-    Identity                  `noun`    {- gymlstwb -}         [ "Gimelstob" ] ]
 
  |> "mun.gA.z" <| [
 

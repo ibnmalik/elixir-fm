@@ -736,7 +736,7 @@ AxdAn   >axodAn N       friends;confidants
 ;; xadiyn_1
 xdyn    xadiyn  Nall    friends;confidants
 ;
-;--- xdw
+; ;--- xdw
 ;; xidiyw_1
 xdyw    xidiyw  N       khedive
 ;; xudayowiy~_1
@@ -3747,6 +3747,7 @@ xAly    xAliy   NapAt   empty;devoid;free
 ;; xawAliy_1
 xwAly   xawAliy N0_Nh   elapsed
 xwAl    xawAl   NK      elapsed
+;--- xl
 ;; xulayowiy~_1
 xlywy   xulayowiy~      N0      Khulaiwi
 ;
@@ -4053,7 +4054,7 @@ xnzyr   xinoziyr        NapAt   sow
 ;; xanAziyriy~_1
 xnAzyry xanAziyriy~     N-ap    scrofulous     <pos>xanAziyriy~/ADJ</pos>
 ;
-;--- xnzw
+; ;--- xnzw
 ;; xunozuwAniy~_1
 xnzwAny xunozuwAniy~    Nall    megalomaniac     <pos>xunozuwAniy~/ADJ</pos>
 xnzwAny xunozuwAniy~    Nap     megalomania     <pos>xunozuwAniy~/NOUN</pos>
@@ -4074,7 +4075,7 @@ xnsA'   xanosA' N0      Khansa
 ;--- xn$
 ;; xan~uw$_1
 xnw$    xan~uw$ N0      Khannouche;Khanouche
-;; xan~uw$y_1
+;; xan~uw$iy_1
 xnw$y   xan~uw$y        N0      Khannouchi
 ;
 ;--- xn$r
@@ -4299,7 +4300,7 @@ xwzq    xawozaq NapAt   impaling;cornering
 ;; xuwst_1
 xwst    xuwst   N0      Khost
 ;
-;--- xwsy
+; ;--- xwsy
 ;; xuwsiyh_1
 xwsyh   xuwsiyh Nprop   Jose
 ;
@@ -4390,7 +4391,7 @@ mxyf    muxiyf  Nall    frightful;horrible     <pos>muxiyf/ADJ</pos>
 >xwf    >axowaf Nel     more/most fearful
 Axwf    >axowaf Nel     more/most fearful
 ;
-;; xuwfw_1
+;; xuwfuw_1
 xwfw    xuwfw   N0      Cheops
 ;
 ;--- xwl
@@ -4429,11 +4430,11 @@ x&wl    xu&uwl  Nap     maternal uncle relationship
 ;; xawal_1
 xwl     xawal   N       sissy;chattel
 ;
-;--- xwlw
+; ;--- xwlw
 ;; xuwluw_1
 xwlw    xuwluw  Nprop   Jolo
 ;
-;--- xwly
+; ;--- xwly
 ;; xuwliyt_1
 xwlyt   xuwliyt Nprop   Hoeliet
 ;

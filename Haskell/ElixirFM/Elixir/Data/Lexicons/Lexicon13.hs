@@ -1769,21 +1769,21 @@ lexicon = listing "Lexicon's properties"
 
     KiRDAS                    `noun`    {- \$iyrAz -}          [ "Shiraz" ] ]
 
- |> "^sAfiyz" <| [
+ |> "^sAfIz" <| [
 
     Identity                  `noun`    {- \$Afiyz -}          [ "Chavez" ] ]
 
- |> "^sAhiyn" <| [
+ |> "^sAhIn" <| [
 
     Identity                  `noun`    {- \$Ahiyn -}          [ "Shaheen", "Chahine" ],
 
     Identity                  `noun`    {- \$Ahiyn -}          [ "shahin (Indian falcon)", "shahins (Indian falcons)" ] ]
 
- |> "^sAliyh" <| [
+ |> "^sAlIh" <| [
 
     Identity                  `noun`    {- \$Aliyh -}          [ "chalet", "lodge" ] ]
 
- |> "^sAm_hAniy" <| [
+ |> "^sAm_hAnI" <| [
 
     Identity                  `noun`    {- \$AmoxAniy -}       [ "Shamkhani" ] ]
 
@@ -1791,11 +1791,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- \$AngohAy -}        [ "Shanghai" ] ]
 
- |> "^sArbiyn.g" <| [
+ |> "^sArbIn.g" <| [
 
     Identity                  `noun`    {- \$Arobiynog -}      [ "Scharping" ] ]
 
- |> "^sAtiylA" <| [
+ |> "^sAtIlA" <| [
 
     Identity                  `noun`    {- \$AtiylA -}         [ "Shatila", "Shatilla" ] ]
 
@@ -1805,6 +1805,26 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- \$Awu$ -}           [ "Shawsh", "Chaouch" ] ]
 
+ |> "^sIkA.gU" <| [
+
+    Identity                  `noun`    {- \$iykAguw -}        [ "Chicago" ] ]
+
+ |> "^sIlA" <| [
+
+    Identity                  `noun`    {- \$iylA -}           [ "Chela", "Sheila", "Chile" ] ]
+
+ |> "^sInAmAsA" <| [
+
+    Identity                  `noun`    {- \$iynAmAsA -}       [ "Chinamasa" ] ]
+
+ |> "^sUdrI" <| [
+
+    Identity                  `noun`    {- \$uwdoriy -}        [ "Chaudhry" ] ]
+
+ |> "^sUstir" <| [
+
+    Identity                  `noun`    {- \$uwsotir -}        [ "Schuster" ] ]
+
  |> "^sa.tran^g" <| [
 
     Identity                  `noun`    {- \$aToranoj -}       [ "chess" ] ]
@@ -1813,43 +1833,31 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- \$abaEA -}          [ "Shabaa" ] ]
 
+ |> "^samandUr" <| [
+
+    Identity |< aT            `noun`    {- \$amanoduwrap -}    [ "buoy" ] ]
+
  |> "^samandar" <| [
 
     Identity                  `noun`    {- \$amanodar -}       [ "beet", "chard" ] ]
 
- |> "^samanduwr" <| [
-
-    Identity |< aT            `noun`    {- \$amanoduwrap -}    [ "buoy" ] ]
-
- |> "^sariy`Atiy" <| [
+ |> "^sarI`AtI" <| [
 
     Identity                  `noun`    {- \$ariyEAtiy -}      [ "Shariati" ] ]
 
- |> "^sbiy.gil" <| [
+ |> "^sbI.gil" <| [
 
     Identity                  `noun`    {- \$biygil -}         [ "Spiegel" ] ]
 
- |> "^sinuwd" <| [
+ |> "^sinUd" <| [
 
     Identity |< aT            `noun`    {- \$inuwdap -}        [ "Shenouda" ] ]
 
- |> "^siykA.guw" <| [
-
-    Identity                  `noun`    {- \$iykAguw -}        [ "Chicago" ] ]
-
- |> "^siylA" <| [
-
-    Identity                  `noun`    {- \$iylA -}           [ "Chela", "Sheila", "Chile" ] ]
-
- |> "^siynAmAsA" <| [
-
-    Identity                  `noun`    {- \$iynAmAsA -}       [ "Chinamasa" ] ]
-
- |> "^slAdkuwfA" <| [
+ |> "^slAdkUfA" <| [
 
     Identity                  `noun`    {- \$lAdokuwfA -}      [ "Chladkova" ] ]
 
- |> "^sluwmuw" <| [
+ |> "^slUmU" <| [
 
     Identity                  `noun`    {- \$luwmuw -}         [ "Shlomo" ] ]
 
@@ -1857,27 +1865,15 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- \$nAyodar -}        [ "Schneider" ] ]
 
- |> "^sruwdir" <| [
+ |> "^srUdir" <| [
 
     Identity                  `noun`    {- \$ruwdir -}         [ "Schroder" ] ]
-
- |> "^suwdriy" <| [
-
-    Identity                  `noun`    {- \$uwdoriy -}        [ "Chaudhry" ] ]
 
  |> "^suwitlar" <| [
 
     Identity                  `noun`    {- \$uwitolar -}       [ "Schuettler" ] ]
 
- |> "^suwstir" <| [
-
-    Identity                  `noun`    {- \$uwsotir -}        [ "Schuster" ] ]
-
  |> "^swArtz" <| [
 
     Identity                  `noun`    {- \$wArtz -}          [ "Schwartz", "Schwarz" ] ]
-
- |> "^swbyr" <| [
-
-    Identity                  `noun`    {- \$wbyr -}           [ "Shubair" ] ]
 

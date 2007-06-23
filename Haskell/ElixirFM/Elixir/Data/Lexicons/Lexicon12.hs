@@ -9,23 +9,11 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'usbuw`" <| [
-
-    Identity                  `noun`    {- OusobuwE -}         [ "week" ],
-
-    Identity |< Iy            `adj`     {- OusobuwEiy~ -}      [ "weekly" ] ]
-
- |> "'usluwb" <| [
-
-    Identity                  `noun`    {- Ousoluwb -}         [ "style", "method", "manner", "modes" ] ]
-
  |> "ism" <| [
 
-    Identity                  `noun`    {- Aisom -}            [ "name" ] ]
+    Identity                  `noun`    {- Aisom -}            [ "name" ],
 
- |> "ismiyy" <| [
-
-    Identity                  `adj`     {- Aisomiy~ -}         [ "nominal", "in name" ] ]
+    Identity |< Iy            `adj`     {- Aisomiy~ -}         [ "nominal", "in name" ] ]
 
  |> "s ' .h" <| [
 
@@ -81,7 +69,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "s ' m" <| [
 
-    FAL                       `noun`    {- sAm -}              [ "SAM" ] ]
+    FAL                       `noun`    {- sAm -}              [ "SAM" ],
+
+    lA >| FAL |< Iy           `adj`     {- lAsAmiy~ -}         [ "anti-Semite", "anti-Semitic", "anti-Semitism" ],
+
+    FAL |< Iy |< aT           `noun`    {- sAmiy~ap -}         [ "Semitism" ] ]
 
  |> "s ' n" <| [
 
@@ -441,6 +433,12 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "sibA` N", "subuw` N" ] -},
 
     FaCL                      `adj`     {- saboE -}            [ "seven", "seventy" ],
+
+    HuFCUL                    `noun`    {- OusobuwE -}         [ "week" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'asAbiy` Ndip" ] -},
+
+    HuFCUL |< Iy              `adj`     {- OusobuwEiy~ -}      [ "weekly" ],
 
     FACiL                     `adj`     {- sAbiE -}            [ "seventh" ] ]
 
@@ -868,6 +866,10 @@ lexicon = listing "Lexicon's properties"
     FaCL |< Iy                `adj`     {- salobiy~ -}         [ "negative", "passive" ],
 
     FaCL |< Iy |< At          `noun`    {- salobiy~At -}       [ "negative points" ],
+
+    HuFCUL                    `noun`    {- Ousoluwb -}         [ "style", "method", "manner", "modes" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'asAliyb Ndip" ] -},
 
     FACiL                     `adj`     {- sAlib -}            [ "negative" ]
                               `plural`     FawACiL
@@ -2051,7 +2053,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sAbA -}             [ "Sheba" ] ]
 
- |> "sAkrAmintuw" <| [
+ |> "sAkrAmintU" <| [
 
     Identity                  `noun`    {- sAkrAminotuw -}     [ "Sacramento" ] ]
 
@@ -2059,25 +2061,15 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sAlAs -}            [ "Salas" ] ]
 
- |> "sAluwniyk" <| [
+ |> "sAlUnIk" <| [
 
     Identity                  `noun`    {- sAluwniyk -}        [ "Salonika", "Salonik" ] ]
 
- |> "sAmiyy" <| [
-
-    lA >| Identity            `adj`     {- lAsAmiy~ -}         [ "anti-Semite", "anti-Semitic", "anti-Semitism" ],
-
-    Identity |< aT            `noun`    {- sAmiy~ap -}         [ "Semitism" ] ]
-
- |> "sAn.giynittiy" <| [
+ |> "sAn.gInittI" <| [
 
     Identity                  `noun`    {- sAnogiynit~iy -}    [ "Sanguinetti" ] ]
 
- |> "sAn^syz" <| [
-
-    Identity                  `noun`    {- sAn$yz -}           [ "Sanchez" ] ]
-
- |> "sAndiyn" <| [
+ |> "sAndIn" <| [
 
     Identity |< Iy            `adj`     {- sAnodiyniy~ -}      [ "Sandinista" ] ]
 
@@ -2089,7 +2081,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sAnotAnodir -}      [ "Santander" ] ]
 
- |> "sAntuws" <| [
+ |> "sAntUs" <| [
 
     Identity                  `noun`    {- sAnotuws -}         [ "Santos" ] ]
 
@@ -2097,11 +2089,95 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sArotir -}          [ "Sartre" ] ]
 
- |> "sAymuwn" <| [
+ |> "sAymUn" <| [
 
     Identity                  `noun`    {- sAyomuwn -}         [ "Simon" ] ]
 
- |> "salfAduwr" <| [
+ |> "sIbAstiyAn" <| [
+
+    Identity                  `noun`    {- siybAsotiyAn -}     [ "Sebastian", "Sebastien" ] ]
+
+ |> "sIbU" <| [
+
+    Identity                  `noun`    {- siybuw -}           [ "Sipo" ] ]
+
+ |> "sIdA" <| [
+
+    Identity                  `noun`    {- siydA -}            [ "SIDA (AIDS)" ] ]
+
+ |> "sIdnI" <| [
+
+    Identity                  `noun`    {- siydoniy -}         [ "Sydney" ] ]
+
+ |> "sIfIrUmUrsk" <| [
+
+    Identity                  `noun`    {- siyfiyruwmuwrsk -}  [ "Severomorsk" ] ]
+
+ |> "sIlfA" <| [
+
+    Identity                  `noun`    {- siylofA -}          [ "Silva" ] ]
+
+ |> "sImbA" <| [
+
+    Identity                  `noun`    {- siymobA -}          [ "Simba" ] ]
+
+ |> "sInA" <| [
+
+    Identity                  `noun`    {- siynA -}            [ "Sinai" ] ]
+
+ |> "sInAtUr" <| [
+
+    Identity                  `noun`    {- siynAtuwr -}        [ "senator" ] ]
+
+ |> "sInamA" <| [
+
+    Identity                  `noun`    {- siynamA -}          [ "cinema" ] ]
+
+ |> "sInamA'" <| [
+
+    Identity |< Iy            `adj`     {- siynamA}iy~ -}      [ "cinema", "cinematographic" ] ]
+
+ |> "sIrInA" <| [
+
+    Identity                  `noun`    {- siyriynA -}         [ "Serena" ] ]
+
+ |> "sIr^gI" <| [
+
+    Identity                  `noun`    {- siyrojiy -}         [ "Sergei", "Sergeyev" ] ]
+
+ |> "sIyamA" <| [
+
+    Identity                  `adv`     {- siy~amA -}          [ "especially" ] ]
+
+ |> "sUbAt^sAy" <| [
+
+    Identity                  `noun`    {- suwbAto$Ay -}       [ "Supachai" ] ]
+
+ |> "sUfyit" <| [
+
+    Identity |< Iy            `adj`     {- suwfoyitiy~ -}      [ "Soviet" ] ]
+
+ |> "sUlAnA" <| [
+
+    Identity                  `noun`    {- suwlAnA -}          [ "Solana" ] ]
+
+ |> "sUlAwIsI" <| [
+
+    Identity                  `noun`    {- suwlAwiysiy -}      [ "Sulawesi" ] ]
+
+ |> "sUniyA" <| [
+
+    Identity                  `noun`    {- suwniyA -}          [ "Sonia" ] ]
+
+ |> "sUriyA" <| [
+
+    Identity                  `noun`    {- suwriyA -}          [ "Syria" ] ]
+
+ |> "sUtUmAyUr" <| [
+
+    Identity                  `noun`    {- suwtuwmAyuwr -}     [ "Sotomayor" ] ]
+
+ |> "salfAdUr" <| [
 
     Identity                  `noun`    {- salofAduwr -}       [ "Salvador", "Salvadoran" ] ]
 
@@ -2109,15 +2185,15 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- salotA -}           [ "Salta" ] ]
 
- |> "sarAyiyfuw" <| [
+ |> "sarAyIfU" <| [
 
     Identity                  `noun`    {- sarAyiyfuw -}       [ "Sarajevo" ] ]
 
- |> "sbiylbir^g" <| [
+ |> "sbIlbir^g" <| [
 
     Identity                  `noun`    {- sbiylobirj -}       [ "Spielberg" ] ]
 
- |> "sbiyt" <| [
+ |> "sbIt" <| [
 
     Identity                  `noun`    {- sbiyt -}            [ "Speight" ] ]
 
@@ -2129,17 +2205,17 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy |< aT      `noun`    {- sikoritAriy~ap -}   [ "secretariat" ] ]
 
- |> "sikritiyr" <| [
+ |> "sikritIr" <| [
 
     Identity                  `noun`    {- sikoritiyr -}       [ "secretary", "secretariat" ] ]
 
- |> "sin.gAfuwr" <| [
+ |> "sin.gAfUr" <| [
 
     Identity |< aT            `noun`    {- sinogAfuwrap -}     [ "Singapore" ],
 
     Identity |< Iy            `adj`     {- sinogAfuwriy~ -}    [ "Singaporean" ] ]
 
- |> "sinAtuwr" <| [
+ |> "sinAtUr" <| [
 
     Identity                  `noun`    {- sinAtuwr -}         [ "senator" ] ]
 
@@ -2153,111 +2229,51 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- siyAtil -}          [ "Seattle" ] ]
 
- |> "siybAstiyAn" <| [
-
-    Identity                  `noun`    {- siybAsotiyAn -}     [ "Sebastian", "Sebastien" ] ]
-
- |> "siybuw" <| [
-
-    Identity                  `noun`    {- siybuw -}           [ "Sipo" ] ]
-
- |> "siydA" <| [
-
-    Identity                  `noun`    {- siydA -}            [ "SIDA (AIDS)" ] ]
-
- |> "siydniy" <| [
-
-    Identity                  `noun`    {- siydoniy -}         [ "Sydney" ] ]
-
- |> "siyfiyruwmuwrsk" <| [
-
-    Identity                  `noun`    {- siyfiyruwmuwrsk -}  [ "Severomorsk" ] ]
-
- |> "siylfA" <| [
-
-    Identity                  `noun`    {- siylofA -}          [ "Silva" ] ]
-
- |> "siymbA" <| [
-
-    Identity                  `noun`    {- siymobA -}          [ "Simba" ] ]
-
- |> "siynA" <| [
-
-    Identity                  `noun`    {- siynA -}            [ "Sinai" ] ]
-
- |> "siynAriyw" <| [
-
-    Identity                  `noun`    {- siynAriyw -}        [ "scenario" ] ]
-
- |> "siynAtuwr" <| [
-
-    Identity                  `noun`    {- siynAtuwr -}        [ "senator" ] ]
-
- |> "siynamA" <| [
-
-    Identity                  `noun`    {- siynamA -}          [ "cinema" ] ]
-
- |> "siynamA'" <| [
-
-    Identity |< Iy            `adj`     {- siynamA}iy~ -}      [ "cinema", "cinematographic" ] ]
-
- |> "siyr^giy" <| [
-
-    Identity                  `noun`    {- siyrojiy -}         [ "Sergei", "Sergeyev" ] ]
-
- |> "siyriynA" <| [
-
-    Identity                  `noun`    {- siyriynA -}         [ "Serena" ] ]
-
- |> "siyuwl" <| [
+ |> "siyUl" <| [
 
     Identity                  `noun`    {- siyuwl -}           [ "Seoul" ] ]
 
- |> "siyyamA" <| [
-
-    Identity                  `adv`     {- siy~amA -}          [ "especially" ] ]
-
- |> "skiylAriy" <| [
+ |> "skIlArI" <| [
 
     Identity                  `noun`    {- skiylAriy -}        [ "Squillari" ] ]
 
- |> "skuwd" <| [
+ |> "skUd" <| [
 
     Identity                  `noun`    {- skuwd -}            [ "Scud" ] ]
 
- |> "skuwtiyniyuwtiys" <| [
+ |> "skUtIniyUtIs" <| [
 
     Identity                  `noun`    {- skuwtiyniyuwtiys -} [ "Skotiniotis" ] ]
 
- |> "sluwbuwdAn" <| [
+ |> "slUbUdAn" <| [
 
     Identity                  `noun`    {- sluwbuwdAn -}       [ "Slobodan" ] ]
 
- |> "sluwfAk" <| [
+ |> "slUfAk" <| [
 
     Identity |< Iy            `adj`     {- sluwfAkiy~ -}       [ "Slovak" ] ]
 
- |> "sluwfAkiyA" <| [
+ |> "slUfAkiyA" <| [
 
     Identity                  `noun`    {- sluwfAkiyA -}       [ "Slovakia" ] ]
 
- |> "sluwfiyn" <| [
+ |> "slUfIn" <| [
 
     Identity |< Iy            `adj`     {- sluwfiyniy~ -}      [ "Slovenian" ] ]
 
- |> "sluwfiyniyA" <| [
+ |> "slUfIniyA" <| [
 
     Identity                  `noun`    {- sluwfiyniyA -}      [ "Slovenia" ] ]
 
- |> "smiy_t" <| [
+ |> "smI_t" <| [
 
     Identity                  `noun`    {- smiyv -}            [ "Smith" ] ]
 
- |> "sniyh" <| [
+ |> "snIh" <| [
 
     Identity                  `noun`    {- sniyh -}            [ "Sneh" ] ]
 
- |> "sriylAnkA" <| [
+ |> "srIlAnkA" <| [
 
     Identity                  `noun`    {- sriylAnokA -}       [ "Sri Lanka" ] ]
 
@@ -2269,19 +2285,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- stAyobilz -}        [ "Staples" ] ]
 
- |> "stiyf" <| [
+ |> "stIf" <| [
 
     Identity                  `noun`    {- stiyf -}            [ "Steve" ] ]
 
- |> "stiyfAn" <| [
+ |> "stIfAn" <| [
 
     Identity                  `noun`    {- stiyfAn -}          [ "Stephan" ] ]
 
- |> "stiyfin" <| [
+ |> "stIfin" <| [
 
     Identity                  `noun`    {- stiyfin -}          [ "Stephen", "Stefan" ] ]
 
- |> "striyt" <| [
+ |> "strIt" <| [
 
     Identity                  `noun`    {- striyt -}           [ "Street" ] ]
 
@@ -2291,7 +2307,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- sulayomAniy~ -}     [ "corrosive sublimate", "mercury chloride" ] ]
 
- |> "sunuwnuw" <| [
+ |> "sunUnU" <| [
 
     Identity                  `noun`    {- sunuwnuw -}         [ "Sununu" ],
 
@@ -2301,39 +2317,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- surAdiq -}          [ "pavilion", "canopy" ] ]
 
- |> "suwbAt^sAy" <| [
-
-    Identity                  `noun`    {- suwbAto$Ay -}       [ "Supachai" ] ]
-
- |> "suwfyitiyy" <| [
-
-    Identity                  `adj`     {- suwfoyitiy~ -}      [ "Soviet" ] ]
-
- |> "suwiysr" <| [
+ |> "suwIsr" <| [
 
     Identity |< Iy            `adj`     {- suwiysriy~ -}       [ "Swiss" ] ]
 
- |> "suwiysrA" <| [
+ |> "suwIsrA" <| [
 
     Identity                  `noun`    {- suwiysrA -}         [ "Switzerland" ] ]
-
- |> "suwlAnA" <| [
-
-    Identity                  `noun`    {- suwlAnA -}          [ "Solana" ] ]
-
- |> "suwlAwiysiy" <| [
-
-    Identity                  `noun`    {- suwlAwiysiy -}      [ "Sulawesi" ] ]
-
- |> "suwniyA" <| [
-
-    Identity                  `noun`    {- suwniyA -}          [ "Sonia" ] ]
-
- |> "suwriyA" <| [
-
-    Identity                  `noun`    {- suwriyA -}          [ "Syria" ] ]
-
- |> "suwtuwmAyuwr" <| [
-
-    Identity                  `noun`    {- suwtuwmAyuwr -}     [ "Sotomayor" ] ]
 

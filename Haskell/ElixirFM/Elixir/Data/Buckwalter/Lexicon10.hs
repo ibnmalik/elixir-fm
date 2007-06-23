@@ -9,7 +9,7 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'arba`iyn" <| [
+ |> "'arba`In" <| [
 
     -- ;; >arobaEiyn_1
     -- >rbEyn  >arobaEiyn      NAt     forties
@@ -31,7 +31,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- OarobaEmA}ap -}     [ "four-hundred" ] ]
 
- |> "'irziyz" <| [
+ |> "'irzIz" <| [
 
     -- ;; <iroziyz_1
     -- <rzyz   <iroziyz        N       telephone
@@ -48,26 +48,6 @@ lexicon = listing "Lexicon's properties"
     -- ArAgyT  >arAgiyT        Ndip    winches;capstans
 
     Identity |< aT            `noun`    {- OurogATap -}        [ "winch", "capstan" ] ]
-
- |> "'ur^guw.h" <| [
-
-    -- ;; >urojuwHap_1
-    -- >rjwH   >urojuwH        Napdu   seesaw;swing
-    -- ArjwH   >urojuwH        Napdu   seesaw;swing
-    -- >rAjyH  >arAjiyH        Ndip    seesaws;swings
-    -- ArAjyH  >arAjiyH        Ndip    seesaws;swings
-
-    Identity |< aT            `noun`    {- OurojuwHap -}       [ "seesaw", "swing" ] ]
-
- |> "'ur^guwz" <| [
-
-    -- ;; >urojuwzap_1
-    -- >rjwz   >urojuwz        Napdu   rajaz poem;work song
-    -- Arjwz   >urojuwz        Napdu   rajaz poem;work song
-    -- >rAjyz  >arAjiyz        Ndip    rajaz poems;work songs
-    -- ArAjyz  >arAjiyz        Ndip    rajaz poems;work songs
-
-    Identity |< aT            `noun`    {- Ourojuwzap -}       [ "rajaz poem", "work song" ] ]
 
  |> "mir'A" <| [
 
@@ -2390,6 +2370,16 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL |< Iy |< aT        `noun`    {- OarojaHiy~ap -}     [ "preponderance", "prevalence" ],
 
+    -- ;; >urojuwHap_1
+    -- >rjwH   >urojuwH        Napdu   seesaw;swing
+    -- ArjwH   >urojuwH        Napdu   seesaw;swing
+    -- >rAjyH  >arAjiyH        Ndip    seesaws;swings
+    -- ArAjyH  >arAjiyH        Ndip    seesaws;swings
+
+    HuFCUL |< aT              `noun`    {- OurojuwHap -}       [ "seesaw", "swing" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'arA^giy.h Ndip" ] -},
+
     -- ;; rAjiH_1
     -- rAjH    rAjiH   Nall    probable;likely;preponderant     [[rAjiH/ADJ]]
 
@@ -3153,7 +3143,17 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- rajaz -}            [ "rajaz (poetry)", "work song" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'ar^gAz N" ] -} ]
+                           {- `others`  [ "'ar^gAz N" ] -},
+
+    -- ;; >urojuwzap_1
+    -- >rjwz   >urojuwz        Napdu   rajaz poem;work song
+    -- Arjwz   >urojuwz        Napdu   rajaz poem;work song
+    -- >rAjyz  >arAjiyz        Ndip    rajaz poems;work songs
+    -- ArAjyz  >arAjiyz        Ndip    rajaz poems;work songs
+
+    HuFCUL |< aT              `noun`    {- Ourojuwzap -}       [ "rajaz poem", "work song" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'arA^giyz Ndip" ] -} ]
 
  |> "r ^s '" <| [
 
@@ -13417,7 +13417,7 @@ lexicon = listing "Lexicon's properties"
     MaFaCL                    `noun`    {- maraz~ -}           [ "rice field" ]
                               `plural`     MaFaCL |< At ]
 
- |> "rA.hiyl" <| [
+ |> "rA.hIl" <| [
 
     -- ;; rAHiyl_1
     -- rAHyl   rAHiyl  Ndip    Rachel
@@ -13433,49 +13433,49 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- rAjA -}             [ "Rajah" ] ]
 
- |> "rA^gkuwmAr" <| [
+ |> "rA^gkUmAr" <| [
 
     -- ;; rAjokuwmAr_1
     -- rAjkwmAr        rAjokuwmAr      Nprop   Rajkumar
 
     Identity                  `noun`    {- rAjokuwmAr -}       [ "Rajkumar" ] ]
 
- |> "rA^siyfskiy" <| [
+ |> "rA^sIfskI" <| [
 
     -- ;; rA$iyfskiy_1
     -- rA$yfsky        rA$iyfskiy      Nprop   Rashevsky
 
     Identity                  `noun`    {- rA$iyfskiy -}       [ "Rashevsky" ] ]
 
- |> "rAbAyiyt^s" <| [
+ |> "rAbAyIt^s" <| [
 
     -- ;; rAbAyiyt$_1
     -- rAbAyyt$        rAbAyiyt$       Nprop   Rapaic
 
     Identity                  `noun`    {- rAbAyiyt$ -}        [ "Rapaic" ] ]
 
- |> "rAbiyd" <| [
+ |> "rAbId" <| [
 
     -- ;; rAbiyd_1
     -- rAbyd   rAbiyd  Nprop   Rapid
 
     Identity                  `noun`    {- rAbiyd -}           [ "Rapid" ] ]
 
- |> "rAbiyn" <| [
+ |> "rAbIn" <| [
 
     -- ;; rAbiyn_1
     -- rAbyn   rAbiyn  Nprop   Rabin
 
     Identity                  `noun`    {- rAbiyn -}           [ "Rabin" ] ]
 
- |> "rAbiynuwfiyt^s" <| [
+ |> "rAbInUfIt^s" <| [
 
     -- ;; rAbiynuwfiyt$_1
     -- rAbynwfyt$      rAbiynuwfiyt$   N0      Rabinovich;Rabinovitch
 
     Identity                  `noun`    {- rAbiynuwfiyt$ -}    [ "Rabinovich", "Rabinovitch" ] ]
 
- |> "rAbtuwrz" <| [
+ |> "rAbtUrz" <| [
 
     -- ;; rAbtuwrz_1
     -- rAbtwrz rAbtuwrz        Nprop   Raptors
@@ -13498,7 +13498,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- rAdAriy~ -}         [ "radar" ] ]
 
- |> "rAdiykAl" <| [
+ |> "rAdIkAl" <| [
 
     -- ;; rAdiykAliy~_1
     -- rAdykAly        rAdiykAliy~     Nall    radical     [[rAdiykAliy~/ADJ]]
@@ -13512,7 +13512,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy |< aT      `noun`    {- rAdiykAliy~ap -}    [ "radicalism" ] ]
 
- |> "rAdiyuw" <| [
+ |> "rAdUfAn" <| [
+
+    -- ;; rAduwfAn_1
+    -- rAdwfAn rAduwfAn        Nprop   Radovan
+
+    Identity                  `noun`    {- rAduwfAn -}         [ "Radovan" ] ]
+
+ |> "rAdiyU" <| [
 
     -- ;; rAdiyuw_1
     -- rAdyw   rAdiyuw N0      radio
@@ -13520,14 +13527,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- rAdiyuw -}          [ "radio" ] ]
 
- |> "rAdiyuwluw^g" <| [
+ |> "rAdiyUlU^g" <| [
 
     -- ;; rAdiyuwluwjiy~_1
     -- rAdywlwjy       rAdiyuwluwjiy~  Nall    radiology     [[rAdiyuwluwjiy~/ADJ]]
 
     Identity |< Iy            `adj`     {- rAdiyuwluwjiy~ -}   [ "radiology" ] ]
 
- |> "rAdiyuwm" <| [
+ |> "rAdiyUm" <| [
 
     -- ;; rAdiyuwm_1
     -- rAdywm  rAdiyuwm        N       radium
@@ -13539,13 +13546,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- rAdiyuwmiy~ -}      [ "radium" ] ]
 
- |> "rAduwfAn" <| [
-
-    -- ;; rAduwfAn_1
-    -- rAdwfAn rAduwfAn        Nprop   Radovan
-
-    Identity                  `noun`    {- rAduwfAn -}         [ "Radovan" ] ]
-
  |> "rAdyY" <| [
 
     -- ;; rAdoyawiy~_1
@@ -13553,7 +13553,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- rAdoyawiy~ -}       [ "radio" ] ]
 
- |> "rAfAyiyl" <| [
+ |> "rAfAyIl" <| [
 
     -- ;; rAfAyiyl_1
     -- rAfAyyl rAfAyiyl        Nprop   Rafael;Raphael
@@ -13588,12 +13588,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- rAmAkAnotA -}       [ "Ramakanta" ] ]
 
- |> "rAmAkriy^snA" <| [
+ |> "rAmAkrI^snA" <| [
 
     -- ;; rAmAkriy$onA_1
     -- rAmAkry$nA      rAmAkriy$onA    N0      Ramakrishna
 
     Identity                  `noun`    {- rAmAkriy$onA -}     [ "Ramakrishna" ] ]
+
+ |> "rAmIn" <| [
+
+    -- ;; rAmiyn_1
+    -- rAmyn   rAmiyn  N0      Ramin
+
+    Identity                  `noun`    {- rAmiyn -}           [ "Ramin" ] ]
 
  |> "rAm^stAyin" <| [
 
@@ -13601,13 +13608,6 @@ lexicon = listing "Lexicon's properties"
     -- rAm$tAyn        rAmo$tAyin      N0      Ramstein
 
     Identity                  `noun`    {- rAmo$tAyin -}       [ "Ramstein" ] ]
-
- |> "rAmiyn" <| [
-
-    -- ;; rAmiyn_1
-    -- rAmyn   rAmiyn  N0      Ramin
-
-    Identity                  `noun`    {- rAmiyn -}           [ "Ramin" ] ]
 
  |> "rAmsfild" <| [
 
@@ -13632,21 +13632,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- rAniyA -}           [ "Rania" ] ]
 
- |> "rAnyiyriy" <| [
+ |> "rAnyIrI" <| [
 
     -- ;; rAnoyiyriy_1
     -- rAnyyry rAnoyiyriy      N0      Ranieri
 
     Identity                  `noun`    {- rAnoyiyriy -}       [ "Ranieri" ] ]
 
- |> "rAsiyn.g" <| [
+ |> "rAsIn.g" <| [
 
     -- ;; rAsiyng_1
     -- rAsyng  rAsiyng Nprop   Racing
 
     Identity                  `noun`    {- rAsiyng -}          [ "Racing" ] ]
 
- |> "rAtiyn" <| [
+ |> "rAtIn" <| [
 
     -- ;; rAtiynap_1
     -- rtyn    ratiyn  Nap     mantle (on incandescent lamp)
@@ -13655,14 +13655,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- rAtiynap -}         [ "mantle (on incandescent lamp)", "mantles (on incandescent lamps)" ] ]
 
- |> "rAtiyna^g" <| [
+ |> "rAtIna^g" <| [
 
     -- ;; rAtiynaj_1
     -- rAtynj  rAtiynaj        N       resin
 
     Identity                  `noun`    {- rAtiynaj -}         [ "resin" ] ]
 
- |> "rAtuw" <| [
+ |> "rAtU" <| [
 
     -- ;; rAtuw_1
     -- rAtw    rAtuw   Nprop   Ratu
@@ -13682,6 +13682,380 @@ lexicon = listing "Lexicon's properties"
     -- rAynr   rAyonir Nprop   Reiner
 
     Identity                  `noun`    {- rAyonir -}          [ "Reiner" ] ]
+
+ |> "rI^gInA" <| [
+
+    -- ;; riyjiynA_1
+    -- ryjynA  riyjiynA        Nprop   Regina
+
+    Identity                  `noun`    {- riyjiynA -}         [ "Regina" ] ]
+
+ |> "rI^stir" <| [
+
+    -- ;; riy$otir_1
+    -- ry$tr   riy$otir        N0      Richter
+
+    Identity                  `noun`    {- riy$otir -}         [ "Richter" ] ]
+
+ |> "rIbUrtA^g" <| [
+
+    -- ;; riybuwrotAj_1
+    -- rybwrtAj        riybuwrotAj     N/At    report;news reporting
+
+    Identity                  `noun`    {- riybuwrotAj -}      [ "report", "news reporting" ] ]
+
+ |> "rIbrAt^sA" <| [
+
+    -- ;; riybrAt$A_1
+    -- rybrAt$A        riybrAt$A       Nprop   Rebraca
+
+    Identity                  `noun`    {- riybrAt$A -}        [ "Rebraca" ] ]
+
+ |> "rIfkind" <| [
+
+    -- ;; riyfokinod_1
+    -- ryfknd  riyfokinod      Nprop   Rivkind;Rifkind
+
+    Identity                  `noun`    {- riyfokinod -}       [ "Rivkind", "Rifkind" ] ]
+
+ |> "rIfyIrA" <| [
+
+    -- ;; riyfoyiyrA_1
+    -- ryfyyrA riyfoyiyrA      N0      riviera
+
+    Identity                  `noun`    {- riyfoyiyrA -}       [ "riviera" ],
+
+    -- ;; riyfoyiyrA_2
+    -- ryfyyrA riyfoyiyrA      N0      Riviera
+
+    Identity                  `noun`    {- riyfoyiyrA -}       [ "Riviera" ] ]
+
+ |> "rIkUrdar" <| [
+
+    -- ;; riykuwrodar_1
+    -- rykwrdr riykuwrodar     N/At    tape recorder
+
+    Identity                  `noun`    {- riykuwrodar -}      [ "tape recorder" ] ]
+
+ |> "rImUnd" <| [
+
+    -- ;; riymuwnd_1
+    -- rymwnd  riymuwnd        Nprop   Raymond
+
+    Identity                  `noun`    {- riymuwnd -}         [ "Raymond" ],
+
+    -- ;; riymuwndap_1
+    -- rymwndp rayomuwndap     Nprop   Raimonda
+    -- rymwndh rayomuwndap     Nprop   Raimonda
+
+    Identity |< aT            `noun`    {- riymuwndap -}       [ "Raimonda" ] ]
+
+ |> "rInU" <| [
+
+    -- ;; riynuw_1
+    -- rynw    rynw    Nprop   Renault
+
+    Identity                  `noun`    {- riynuw -}           [ "Renault" ],
+
+    -- ;; riynuw_2
+    -- rynw    rynw    Nprop   Reno
+
+    Identity                  `noun`    {- riynuw -}           [ "Reno" ] ]
+
+ |> "rIntIrA" <| [
+
+    -- ;; riynotiyrA_1
+    -- ryntyrA riynotiyrA      Nprop   Renteria
+    -- ryntryA riynotiriyA     Nprop   Renteria
+    -- ryntyryA        riynotiyriyA    Nprop   Renteria
+
+    Identity                  `noun`    {- riynotiyrA -}       [ "Renteria" ] ]
+
+ |> "rIstU" <| [
+
+    -- ;; riysotuw_1
+    -- rystw   riysotuw        Nprop   Risto
+
+    Identity                  `noun`    {- riysotuw -}         [ "Risto" ] ]
+
+ |> "rIt^sArd" <| [
+
+    -- ;; riyto$Arod_1
+    -- ryt$Ard riyto$Arod      Nprop   Richard
+
+    Identity                  `noun`    {- riyto$Arod -}       [ "Richard" ] ]
+
+ |> "rIt^sArdsUn" <| [
+
+    -- ;; riyto$Ardosuwn_1
+    -- ryt$Ardswn      riyto$Ardosuwn  Nprop   Richardson
+
+    Identity                  `noun`    {- riyto$Ardosuwn -}   [ "Richardson" ] ]
+
+ |> "rU.gUzIn" <| [
+
+    -- ;; ruwguwziyn_1
+    -- rwgwzyn ruwguwziyn      Nprop   Rogozin
+
+    Identity                  `noun`    {- ruwguwziyn -}       [ "Rogozin" ] ]
+
+ |> "rU^gIriyU" <| [
+
+    -- ;; ruwjiyriyuw_1
+    -- rwjyryw ruwjiyriyuw     Nprop   Rogerio
+
+    Identity                  `noun`    {- ruwjiyriyuw -}      [ "Rogerio" ] ]
+
+ |> "rU^giyih" <| [
+
+    -- ;; ruwjiyih_1
+    -- rwjyh   ruwjiyih        Nprop   Rogier
+
+    Identity                  `noun`    {- ruwjiyih -}         [ "Rogier" ] ]
+
+ |> "rU^sitt" <| [
+
+    -- ;; ruw$it~ap_1
+    -- rw$t    ruw$it~ NapAt   medical prescription
+    -- r$yt    ru$iyt~ NapAt   medical prescription
+    -- r$yth   ru$iyt~ah       N       medical prescription
+    -- r$t     ru$it~  NapAt   medical prescription
+
+    Identity |< aT            `noun`    {- ruw$it~ap -}        [ "medical prescription" ] ]
+
+ |> "rUbinsUn" <| [
+
+    -- ;; ruwbinosuwn_1
+    -- rwbnswn ruwbinosuwn     N0      Robinson
+
+    Identity                  `noun`    {- ruwbinosuwn -}      [ "Robinson" ] ]
+
+ |> "rUbirt" <| [
+
+    -- ;; ruwbirot_1
+    -- rwbrt   ruwbirot        Nprop   Robert
+
+    Identity                  `noun`    {- ruwbirot -}         [ "Robert" ],
+
+    -- ;; ruwbirot_2
+    -- rwbrt   ruwbirot        Nprop   Rupert
+
+    Identity                  `noun`    {- ruwbirot -}         [ "Rupert" ] ]
+
+ |> "rUbirtU" <| [
+
+    -- ;; ruwbirotuw_1
+    -- rwbrtw  ruwbirotuw      Nprop   Roberto
+
+    Identity                  `noun`    {- ruwbirotuw -}       [ "Roberto" ] ]
+
+ |> "rUdIsiyA" <| [
+
+    -- ;; ruwdiysiyA_1
+    -- rwdysyA ruwdiysiyA      N0      Rhodesia
+
+    Identity                  `noun`    {- ruwdiysiyA -}       [ "Rhodesia" ] ]
+
+ |> "rUdUlf" <| [
+
+    -- ;; ruwduwlof_1
+    -- rwdwlf  ruwduwlof       Nprop   Rudolf
+
+    Identity                  `noun`    {- ruwduwlof -}        [ "Rudolf" ] ]
+
+ |> "rUdrI^gIz" <| [
+
+    -- ;; ruwdoriyjiyz_1
+    -- rwdryjyz        ruwdoriyjiyz    Nprop   Rodriguez
+    -- rwdryjys        ruwdoriyjiys    Nprop   Rodriguez
+    -- rwdrygyz        ruwdoriygiyz    Nprop   Rodriguez
+    -- rwdrygys        ruwdoriygiys    Nprop   Rodriguez
+
+    Identity                  `noun`    {- ruwdoriyjiyz -}     [ "Rodriguez" ] ]
+
+ |> "rUfA'Il" <| [
+
+    -- ;; ruwfA}iyl_1
+    -- rwfA}yl ruwfA}iyl       Nprop   Rufa'il;Raphael
+
+    Identity                  `noun`    {- ruwfA}iyl -}        [ "Rufa'il", "Raphael" ] ]
+
+ |> "rUkits" <| [
+
+    -- ;; ruwkits_1
+    -- rwkts   ruwkits Nprop   Rockets
+
+    Identity                  `noun`    {- ruwkits -}          [ "Rockets" ] ]
+
+ |> "rUlA" <| [
+
+    -- ;; ruwlA_1
+    -- rwlA    ruwlA   Nprop   Rola;Rula;Roula
+    -- rlA     rulA    Nprop   Rola;Rula;Roula
+
+    Identity                  `noun`    {- ruwlA -}            [ "Rola", "Rula", "Roula" ] ]
+
+ |> "rUmA" <| [
+
+    -- ;; ruwmA_1
+    -- rwmA    ruwmA   N0      Rome
+    -- rwm     ruwm    Nap     Rome
+
+    Identity                  `noun`    {- ruwmA -}            [ "Rome" ] ]
+
+ |> "rUmAn.tIq" <| [
+
+    -- ;; ruwmAnoTiyqiy~_1
+    -- rwmAnTyqy       ruwmAnoTiyqiy~  Nall    romantic     [[ruwmAnoTiyqiy~/ADJ]]
+    -- rwmAnTyqy       ruwmAnoTiyqiy~  Nap     romanticism     [[ruwmAnoTiyqiy~/NOUN]]
+
+    Identity |< Iy            `adj`     {- ruwmAnoTiyqiy~ -}   [ "romantic", "romanticism" ] ]
+
+ |> "rUmAnUs" <| [
+
+    -- ;; ruwmAnuws_1
+    -- rwmAnws ruwmAnuws       Nprop   Romanos
+
+    Identity                  `noun`    {- ruwmAnuws -}        [ "Romanos" ] ]
+
+ |> "rUmAniyA" <| [
+
+    -- ;; ruwmAniyA_1
+    -- rwmAnyA ruwmAniyA       N0      Romania
+
+    Identity                  `noun`    {- ruwmAniyA -}        [ "Romania" ] ]
+
+ |> "rUmAns" <| [
+
+    -- ;; ruwmAnosiy~_1
+    -- rwmAnsy ruwmAnosiy~     Nall    romantic     [[ruwmAnosiy~/ADJ]]
+    -- rwmnsy  ruwmanosiy~     Nall    romantic     [[ruwmAnosiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- ruwmAnosiy~ -}      [ "romantic" ],
+
+    -- ;; ruwmAnosiy~ap_1
+    -- rwmAnsy ruwmAnosiy~     Nap     romanticism     [[ruwmAnosiy~/NOUN]]
+    -- rwmnsy  ruwmanosiy~     Nap     romanticism     [[ruwmAnosiy~/NOUN]]
+
+    Identity |< Iy |< aT      `noun`    {- ruwmAnosiy~ap -}    [ "romanticism" ] ]
+
+ |> "rUmAntIk" <| [
+
+    -- ;; ruwmAnotiykiy~_1
+    -- rwmAntyky       ruwmAnotiykiy~  Nall    romantic     [[ruwmAnotiykiy~/ADJ]]
+    -- rwmAntyky       ruwmAnotiykiy~  Nap     romanticism     [[ruwmAnotiykiy~/NOUN]]
+
+    Identity |< Iy            `adj`     {- ruwmAnotiykiy~ -}   [ "romantic", "romanticism" ] ]
+
+ |> "rUmIdAl" <| [
+
+    -- ;; ruwmiydAl_1
+    -- rwmydAl ruwmiydAl       N0      Romedal
+
+    Identity                  `noun`    {- ruwmiydAl -}        [ "Romedal" ] ]
+
+ |> "rUman.tIq" <| [
+
+    -- ;; ruwmanoTiyqiy~_1
+    -- rwmnTyqy        ruwmanoTiyqiy~  Nall    romantic     [[ruwmanoTiyqiy~/ADJ]]
+    -- rwmnTyqy        ruwmanoTiyqiy~  Nap     romanticism     [[ruwmanoTiyqiy~/NOUN]]
+
+    Identity |< Iy            `adj`     {- ruwmanoTiyqiy~ -}   [ "romantic", "romanticism" ] ]
+
+ |> "rUmantIk" <| [
+
+    -- ;; ruwmanotiykiy~_1
+    -- rwmntyky        ruwmanotiykiy~  Nall    romantic     [[ruwmanotiykiy~/ADJ]]
+    -- rwmntyky        ruwmanotiykiy~  Nap     romanticism     [[ruwmanotiykiy~/NOUN]]
+
+    Identity |< Iy            `adj`     {- ruwmanotiykiy~ -}   [ "romantic", "romanticism" ] ]
+
+ |> "rUmatizm" <| [
+
+    -- ;; ruwmatizm_1
+    -- rwmtzm  ruwmatizm       N       rheumatism
+    -- rwmAtzm ruwmAtizm       N       rheumatism
+
+    Identity                  `noun`    {- ruwmatizm -}        [ "rheumatism" ] ]
+
+ |> "rUnAldU" <| [
+
+    -- ;; ruwnAloduw_1
+    -- rwnAldw ruwnAloduw      Nprop   Ronaldo
+
+    Identity                  `noun`    {- ruwnAloduw -}       [ "Ronaldo" ] ]
+
+ |> "rUsiyA" <| [
+
+    -- ;; ruwsiyA_1
+    -- rwsyA   ruwsiyA N0      Russia
+
+    Identity                  `noun`    {- ruwsiyA -}          [ "Russia" ] ]
+
+ |> "rUskI_h" <| [
+
+    -- ;; ruwsokiyx_1
+    -- rwskyx  ruwsokiyx       Nprop   Russkikh
+
+    Identity                  `noun`    {- ruwsokiyx -}        [ "Russkikh" ] ]
+
+ |> "rUstUk" <| [
+
+    -- ;; ruwsotuwk_1
+    -- rwstwk  ruwsotuwk       Nprop   Rostock
+
+    Identity                  `noun`    {- ruwsotuwk -}        [ "Rostock" ] ]
+
+ |> "rUytir" <| [
+
+    -- ;; ruwyotir_1
+    -- rwytr   ruwyotir        Nprop   Reuters
+
+    Identity                  `noun`    {- ruwyotir -}         [ "Reuters" ] ]
+
+ |> "rUytirs" <| [
+
+    -- ;; ruwyotirs_1
+    -- rwytrs  ruwyotirs       Nprop   Reuters
+
+    Identity                  `noun`    {- ruwyotirs -}        [ "Reuters" ] ]
+
+ |> "rUytirz" <| [
+
+    -- ;; ruwyotirz_1
+    -- rwytrz  ruwyotirz       Nprop   Reuters
+
+    Identity                  `noun`    {- ruwyotirz -}        [ "Reuters" ] ]
+
+ |> "rUzIt^s" <| [
+
+    -- ;; ruwziyt$_1
+    -- rwzyt$  ruwziyt$        Nprop   Rosic
+
+    Identity                  `noun`    {- ruwziyt$ -}         [ "Rosic" ] ]
+
+ |> "rUzUfIt^s" <| [
+
+    -- ;; ruwzuwfiyt$_1
+    -- rwzwfyt$        ruwzuwfiyt$     Nprop   Rusovick
+
+    Identity                  `noun`    {- ruwzuwfiyt$ -}      [ "Rusovick" ] ]
+
+ |> "rUzfilt" <| [
+
+    -- ;; ruwzofilot_1
+    -- rwzflt  ruwzofilot      N0      Roosevelt
+    -- rwzfylt ruwzofiylot     N0      Roosevelt
+
+    Identity                  `noun`    {- ruwzofilot -}       [ "Roosevelt" ] ]
+
+ |> "rUznAm" <| [
+
+    -- ;; ruwzonAmap_1
+    -- rwznAm  ruwzonAm        NapAt   almanac;calendar
+    -- rwznAmh ruwzonAmah      N0      almanac;calendar
+
+    Identity |< aT            `noun`    {- ruwzonAmap -}       [ "almanac", "calendar" ] ]
 
  |> "ra'smAl" <| [
 
@@ -13703,7 +14077,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy |< aT      `noun`    {- raOosmAliy~ap -}    [ "capitalism" ] ]
 
- |> "ra.hbAriyfArd" <| [
+ |> "ra.hbArIfArd" <| [
 
     -- ;; raHobAriyfArod_1
     -- rHbAryfArd      raHobAriyfArod  Nprop   Rahbarifard
@@ -13760,14 +14134,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- ramsofild -}        [ "Rumsfeld" ] ]
 
- |> "ratiyna^g" <| [
+ |> "ratIna^g" <| [
 
     -- ;; ratiynaj_1
     -- rtynj   ratiynaj        N       resin
 
     Identity                  `noun`    {- ratiynaj -}         [ "resin" ] ]
 
- |> "rawAlbindiy" <| [
+ |> "rawAlbindI" <| [
 
     -- ;; rawAlobinodiy_1
     -- rwAlbndy        rawAlobinodiy   N0      Rawalpindi
@@ -13788,7 +14162,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- riDA -}             [ "Rida", "Reza" ] ]
 
- |> "ri^giym" <| [
+ |> "ri^gIm" <| [
 
     -- ;; rijiym_1
     -- rjym    rijiym  N       diet
@@ -13802,21 +14176,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- ribA -}             [ "interest", "usury" ] ]
 
- |> "ribuwrtA^g" <| [
+ |> "ribUrtA^g" <| [
 
     -- ;; ribuwrotAj_1
     -- rbwrtAj ribuwrotAj      N/At    report;news reporting
 
     Identity                  `noun`    {- ribuwrotAj -}       [ "report", "news reporting" ] ]
 
- |> "ridin^guwt" <| [
+ |> "ridin^gUt" <| [
 
     -- ;; ridinojuwt_1
     -- rdnjwt  ridinojuwt      NduAt   frock coat
 
     Identity                  `noun`    {- ridinojuwt -}       [ "frock coat" ] ]
 
- |> "ridmuwnd" <| [
+ |> "ridmUnd" <| [
 
     -- ;; ridomuwnod_1
     -- rdmwnd  ridomuwnod      Nprop   Redmond
@@ -13830,7 +14204,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- rifoEat -}          [ "Rifa'at", "Rif'at" ] ]
 
- |> "rituw^s" <| [
+ |> "ritU^s" <| [
 
     -- ;; rituw$_1
     -- rtw$    rituw$  N       retouch;change;embellishment
@@ -13844,123 +14218,26 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- riwanod -}          [ "rhubarb" ] ]
 
- |> "riy^giynA" <| [
+ |> "riyInA" <| [
 
-    -- ;; riyjiynA_1
-    -- ryjynA  riyjiynA        Nprop   Regina
+    -- ;; riyiynA_1
+    -- ryynA   riyynA  Nprop   Reina
 
-    Identity                  `noun`    {- riyjiynA -}         [ "Regina" ] ]
+    Identity                  `noun`    {- riyiynA -}          [ "Reina" ] ]
 
- |> "riy^stir" <| [
-
-    -- ;; riy$otir_1
-    -- ry$tr   riy$otir        N0      Richter
-
-    Identity                  `noun`    {- riy$otir -}         [ "Richter" ] ]
-
- |> "riybrAt^sA" <| [
-
-    -- ;; riybrAt$A_1
-    -- rybrAt$A        riybrAt$A       Nprop   Rebraca
-
-    Identity                  `noun`    {- riybrAt$A -}        [ "Rebraca" ] ]
-
- |> "riybuwrtA^g" <| [
-
-    -- ;; riybuwrotAj_1
-    -- rybwrtAj        riybuwrotAj     N/At    report;news reporting
-
-    Identity                  `noun`    {- riybuwrotAj -}      [ "report", "news reporting" ] ]
-
- |> "riyfkind" <| [
-
-    -- ;; riyfokinod_1
-    -- ryfknd  riyfokinod      Nprop   Rivkind;Rifkind
-
-    Identity                  `noun`    {- riyfokinod -}       [ "Rivkind", "Rifkind" ] ]
-
- |> "riyfyiyrA" <| [
-
-    -- ;; riyfoyiyrA_1
-    -- ryfyyrA riyfoyiyrA      N0      riviera
-
-    Identity                  `noun`    {- riyfoyiyrA -}       [ "riviera" ],
-
-    -- ;; riyfoyiyrA_2
-    -- ryfyyrA riyfoyiyrA      N0      Riviera
-
-    Identity                  `noun`    {- riyfoyiyrA -}       [ "Riviera" ] ]
-
- |> "riykuwrdar" <| [
-
-    -- ;; riykuwrodar_1
-    -- rykwrdr riykuwrodar     N/At    tape recorder
-
-    Identity                  `noun`    {- riykuwrodar -}      [ "tape recorder" ] ]
-
- |> "riymuwnd" <| [
-
-    -- ;; riymuwnd_1
-    -- rymwnd  riymuwnd        Nprop   Raymond
-
-    Identity                  `noun`    {- riymuwnd -}         [ "Raymond" ],
-
-    -- ;; riymuwndap_1
-    -- rymwndp rayomuwndap     Nprop   Raimonda
-    -- rymwndh rayomuwndap     Nprop   Raimonda
-
-    Identity |< aT            `noun`    {- riymuwndap -}       [ "Raimonda" ] ]
-
- |> "riyntiyrA" <| [
-
-    -- ;; riynotiyrA_1
-    -- ryntyrA riynotiyrA      Nprop   Renteria
-    -- ryntryA riynotiriyA     Nprop   Renteria
-    -- ryntyryA        riynotiyriyA    Nprop   Renteria
-
-    Identity                  `noun`    {- riynotiyrA -}       [ "Renteria" ] ]
-
- |> "riystuw" <| [
-
-    -- ;; riysotuw_1
-    -- rystw   riysotuw        Nprop   Risto
-
-    Identity                  `noun`    {- riysotuw -}         [ "Risto" ] ]
-
- |> "riyt^sArd" <| [
-
-    -- ;; riyto$Arod_1
-    -- ryt$Ard riyto$Arod      Nprop   Richard
-
-    Identity                  `noun`    {- riyto$Arod -}       [ "Richard" ] ]
-
- |> "riyt^sArdsuwn" <| [
-
-    -- ;; riyto$Ardosuwn_1
-    -- ryt$Ardswn      riyto$Ardosuwn  Nprop   Richardson
-
-    Identity                  `noun`    {- riyto$Ardosuwn -}   [ "Richardson" ] ]
-
- |> "riyuw" <| [
+ |> "riyU" <| [
 
     -- ;; riyuw_1
     -- ryw     riyuw   Nprop   Rio
 
     Identity                  `noun`    {- riyuw -}            [ "Rio" ] ]
 
- |> "riyuwzuw" <| [
+ |> "riyUzU" <| [
 
     -- ;; riyuwzuw_1
     -- rywzw   riyuwzuw        Nprop   Ryuzo
 
     Identity                  `noun`    {- riyuwzuw -}         [ "Ryuzo" ] ]
-
- |> "riyynA" <| [
-
-    -- ;; riyynA_1
-    -- ryynA   riyynA  Nprop   Reina
-
-    Identity                  `noun`    {- riyynA -}           [ "Reina" ] ]
 
  |> "ru.taynY" <| [
 
@@ -13995,12 +14272,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- rutayolA' -}        [ "tarantula" ] ]
 
- |> "ruw.guwziyn" <| [
+ |> "ruwAnU" <| [
 
-    -- ;; ruwguwziyn_1
-    -- rwgwzyn ruwguwziyn      Nprop   Rogozin
+    -- ;; ruwAnuw_1
+    -- rwAnw   ruwAnuw Nprop   Ruano
 
-    Identity                  `noun`    {- ruwguwziyn -}       [ "Rogozin" ] ]
+    Identity                  `noun`    {- ruwAnuw -}          [ "Ruano" ] ]
 
  |> "ruwAndA" <| [
 
@@ -14009,277 +14286,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- ruwAnodA -}         [ "Rwanda" ] ]
 
- |> "ruwAnuw" <| [
-
-    -- ;; ruwAnuw_1
-    -- rwAnw   ruwAnuw Nprop   Ruano
-
-    Identity                  `noun`    {- ruwAnuw -}          [ "Ruano" ] ]
-
- |> "ruw^giyih" <| [
-
-    -- ;; ruwjiyih_1
-    -- rwjyh   ruwjiyih        Nprop   Rogier
-
-    Identity                  `noun`    {- ruwjiyih -}         [ "Rogier" ] ]
-
- |> "ruw^giyriyuw" <| [
-
-    -- ;; ruwjiyriyuw_1
-    -- rwjyryw ruwjiyriyuw     Nprop   Rogerio
-
-    Identity                  `noun`    {- ruwjiyriyuw -}      [ "Rogerio" ] ]
-
- |> "ruw^sitt" <| [
-
-    -- ;; ruw$it~ap_1
-    -- rw$t    ruw$it~ NapAt   medical prescription
-    -- r$yt    ru$iyt~ NapAt   medical prescription
-    -- r$yth   ru$iyt~ah       N       medical prescription
-    -- r$t     ru$it~  NapAt   medical prescription
-
-    Identity |< aT            `noun`    {- ruw$it~ap -}        [ "medical prescription" ] ]
-
  |> "ruway^sid" <| [
 
     -- ;; ruwayo$id_1
     -- rwy$d   ruwayo$id       N0      Ruwaishid
 
     Identity                  `noun`    {- ruwayo$id -}        [ "Ruwaishid" ] ]
-
- |> "ruwbinsuwn" <| [
-
-    -- ;; ruwbinosuwn_1
-    -- rwbnswn ruwbinosuwn     N0      Robinson
-
-    Identity                  `noun`    {- ruwbinosuwn -}      [ "Robinson" ] ]
-
- |> "ruwbirt" <| [
-
-    -- ;; ruwbirot_1
-    -- rwbrt   ruwbirot        Nprop   Robert
-
-    Identity                  `noun`    {- ruwbirot -}         [ "Robert" ],
-
-    -- ;; ruwbirot_2
-    -- rwbrt   ruwbirot        Nprop   Rupert
-
-    Identity                  `noun`    {- ruwbirot -}         [ "Rupert" ] ]
-
- |> "ruwbirtuw" <| [
-
-    -- ;; ruwbirotuw_1
-    -- rwbrtw  ruwbirotuw      Nprop   Roberto
-
-    Identity                  `noun`    {- ruwbirotuw -}       [ "Roberto" ] ]
-
- |> "ruwdiysiyA" <| [
-
-    -- ;; ruwdiysiyA_1
-    -- rwdysyA ruwdiysiyA      N0      Rhodesia
-
-    Identity                  `noun`    {- ruwdiysiyA -}       [ "Rhodesia" ] ]
-
- |> "ruwdriy^giyz" <| [
-
-    -- ;; ruwdoriyjiyz_1
-    -- rwdryjyz        ruwdoriyjiyz    Nprop   Rodriguez
-    -- rwdryjys        ruwdoriyjiys    Nprop   Rodriguez
-    -- rwdrygyz        ruwdoriygiyz    Nprop   Rodriguez
-    -- rwdrygys        ruwdoriygiys    Nprop   Rodriguez
-
-    Identity                  `noun`    {- ruwdoriyjiyz -}     [ "Rodriguez" ] ]
-
- |> "ruwduwlf" <| [
-
-    -- ;; ruwduwlof_1
-    -- rwdwlf  ruwduwlof       Nprop   Rudolf
-
-    Identity                  `noun`    {- ruwduwlof -}        [ "Rudolf" ] ]
-
- |> "ruwfA'iyl" <| [
-
-    -- ;; ruwfA}iyl_1
-    -- rwfA}yl ruwfA}iyl       Nprop   Rufa'il;Raphael
-
-    Identity                  `noun`    {- ruwfA}iyl -}        [ "Rufa'il", "Raphael" ] ]
-
- |> "ruwkits" <| [
-
-    -- ;; ruwkits_1
-    -- rwkts   ruwkits Nprop   Rockets
-
-    Identity                  `noun`    {- ruwkits -}          [ "Rockets" ] ]
-
- |> "ruwlA" <| [
-
-    -- ;; ruwlA_1
-    -- rwlA    ruwlA   Nprop   Rola;Rula;Roula
-    -- rlA     rulA    Nprop   Rola;Rula;Roula
-
-    Identity                  `noun`    {- ruwlA -}            [ "Rola", "Rula", "Roula" ] ]
-
- |> "ruwmA" <| [
-
-    -- ;; ruwmA_1
-    -- rwmA    ruwmA   N0      Rome
-    -- rwm     ruwm    Nap     Rome
-
-    Identity                  `noun`    {- ruwmA -}            [ "Rome" ] ]
-
- |> "ruwmAn.tiyq" <| [
-
-    -- ;; ruwmAnoTiyqiy~_1
-    -- rwmAnTyqy       ruwmAnoTiyqiy~  Nall    romantic     [[ruwmAnoTiyqiy~/ADJ]]
-    -- rwmAnTyqy       ruwmAnoTiyqiy~  Nap     romanticism     [[ruwmAnoTiyqiy~/NOUN]]
-
-    Identity |< Iy            `adj`     {- ruwmAnoTiyqiy~ -}   [ "romantic", "romanticism" ] ]
-
- |> "ruwmAniyA" <| [
-
-    -- ;; ruwmAniyA_1
-    -- rwmAnyA ruwmAniyA       N0      Romania
-
-    Identity                  `noun`    {- ruwmAniyA -}        [ "Romania" ] ]
-
- |> "ruwmAns" <| [
-
-    -- ;; ruwmAnosiy~_1
-    -- rwmAnsy ruwmAnosiy~     Nall    romantic     [[ruwmAnosiy~/ADJ]]
-    -- rwmnsy  ruwmanosiy~     Nall    romantic     [[ruwmAnosiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- ruwmAnosiy~ -}      [ "romantic" ],
-
-    -- ;; ruwmAnosiy~ap_1
-    -- rwmAnsy ruwmAnosiy~     Nap     romanticism     [[ruwmAnosiy~/NOUN]]
-    -- rwmnsy  ruwmanosiy~     Nap     romanticism     [[ruwmAnosiy~/NOUN]]
-
-    Identity |< Iy |< aT      `noun`    {- ruwmAnosiy~ap -}    [ "romanticism" ] ]
-
- |> "ruwmAntiyk" <| [
-
-    -- ;; ruwmAnotiykiy~_1
-    -- rwmAntyky       ruwmAnotiykiy~  Nall    romantic     [[ruwmAnotiykiy~/ADJ]]
-    -- rwmAntyky       ruwmAnotiykiy~  Nap     romanticism     [[ruwmAnotiykiy~/NOUN]]
-
-    Identity |< Iy            `adj`     {- ruwmAnotiykiy~ -}   [ "romantic", "romanticism" ] ]
-
- |> "ruwmAnuws" <| [
-
-    -- ;; ruwmAnuws_1
-    -- rwmAnws ruwmAnuws       Nprop   Romanos
-
-    Identity                  `noun`    {- ruwmAnuws -}        [ "Romanos" ] ]
-
- |> "ruwman.tiyq" <| [
-
-    -- ;; ruwmanoTiyqiy~_1
-    -- rwmnTyqy        ruwmanoTiyqiy~  Nall    romantic     [[ruwmanoTiyqiy~/ADJ]]
-    -- rwmnTyqy        ruwmanoTiyqiy~  Nap     romanticism     [[ruwmanoTiyqiy~/NOUN]]
-
-    Identity |< Iy            `adj`     {- ruwmanoTiyqiy~ -}   [ "romantic", "romanticism" ] ]
-
- |> "ruwmantiyk" <| [
-
-    -- ;; ruwmanotiykiy~_1
-    -- rwmntyky        ruwmanotiykiy~  Nall    romantic     [[ruwmanotiykiy~/ADJ]]
-    -- rwmntyky        ruwmanotiykiy~  Nap     romanticism     [[ruwmanotiykiy~/NOUN]]
-
-    Identity |< Iy            `adj`     {- ruwmanotiykiy~ -}   [ "romantic", "romanticism" ] ]
-
- |> "ruwmatizm" <| [
-
-    -- ;; ruwmatizm_1
-    -- rwmtzm  ruwmatizm       N       rheumatism
-    -- rwmAtzm ruwmAtizm       N       rheumatism
-
-    Identity                  `noun`    {- ruwmatizm -}        [ "rheumatism" ] ]
-
- |> "ruwmiydAl" <| [
-
-    -- ;; ruwmiydAl_1
-    -- rwmydAl ruwmiydAl       N0      Romedal
-
-    Identity                  `noun`    {- ruwmiydAl -}        [ "Romedal" ] ]
-
- |> "ruwnAlduw" <| [
-
-    -- ;; ruwnAloduw_1
-    -- rwnAldw ruwnAloduw      Nprop   Ronaldo
-
-    Identity                  `noun`    {- ruwnAloduw -}       [ "Ronaldo" ] ]
-
- |> "ruwsiyA" <| [
-
-    -- ;; ruwsiyA_1
-    -- rwsyA   ruwsiyA N0      Russia
-
-    Identity                  `noun`    {- ruwsiyA -}          [ "Russia" ] ]
-
- |> "ruwskiy_h" <| [
-
-    -- ;; ruwsokiyx_1
-    -- rwskyx  ruwsokiyx       Nprop   Russkikh
-
-    Identity                  `noun`    {- ruwsokiyx -}        [ "Russkikh" ] ]
-
- |> "ruwstuwk" <| [
-
-    -- ;; ruwsotuwk_1
-    -- rwstwk  ruwsotuwk       Nprop   Rostock
-
-    Identity                  `noun`    {- ruwsotuwk -}        [ "Rostock" ] ]
-
- |> "ruwytir" <| [
-
-    -- ;; ruwyotir_1
-    -- rwytr   ruwyotir        Nprop   Reuters
-
-    Identity                  `noun`    {- ruwyotir -}         [ "Reuters" ] ]
-
- |> "ruwytirs" <| [
-
-    -- ;; ruwyotirs_1
-    -- rwytrs  ruwyotirs       Nprop   Reuters
-
-    Identity                  `noun`    {- ruwyotirs -}        [ "Reuters" ] ]
-
- |> "ruwytirz" <| [
-
-    -- ;; ruwyotirz_1
-    -- rwytrz  ruwyotirz       Nprop   Reuters
-
-    Identity                  `noun`    {- ruwyotirz -}        [ "Reuters" ] ]
-
- |> "ruwzfilt" <| [
-
-    -- ;; ruwzofilot_1
-    -- rwzflt  ruwzofilot      N0      Roosevelt
-    -- rwzfylt ruwzofiylot     N0      Roosevelt
-
-    Identity                  `noun`    {- ruwzofilot -}       [ "Roosevelt" ] ]
-
- |> "ruwziyt^s" <| [
-
-    -- ;; ruwziyt$_1
-    -- rwzyt$  ruwziyt$        Nprop   Rosic
-
-    Identity                  `noun`    {- ruwziyt$ -}         [ "Rosic" ] ]
-
- |> "ruwznAm" <| [
-
-    -- ;; ruwzonAmap_1
-    -- rwznAm  ruwzonAm        NapAt   almanac;calendar
-    -- rwznAmh ruwzonAmah      N0      almanac;calendar
-
-    Identity |< aT            `noun`    {- ruwzonAmap -}       [ "almanac", "calendar" ] ]
-
- |> "ruwzuwfiyt^s" <| [
-
-    -- ;; ruwzuwfiyt$_1
-    -- rwzwfyt$        ruwzuwfiyt$     Nprop   Rusovick
-
-    Identity                  `noun`    {- ruwzuwfiyt$ -}      [ "Rusovick" ] ]
 
  |> "rwn" <| [
 
@@ -14295,19 +14307,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- rwnAld -}           [ "Ronald" ] ]
 
- |> "rynw" <| [
-
-    -- ;; rynw_1
-    -- rynw    rynw    Nprop   Renault
-
-    Identity                  `noun`    {- rynw -}             [ "Renault" ],
-
-    -- ;; rynw_2
-    -- rynw    rynw    Nprop   Reno
-
-    Identity                  `noun`    {- rynw -}             [ "Reno" ] ]
-
- |> "tAriy`" <| [
+ |> "tArI`" <| [
 
     -- ;; tAriyE_1
     -- tAryE   tAriyE  N       cadastre;survey
@@ -14350,7 +14350,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `adv`     {- yAturaY -}          [ "perhaps", "maybe" ] ]
 
- |> "yarbuw`" <| [
+ |> "yarbU`" <| [
 
     -- ;; yarobuwE_1
     -- yrbwE   yarobuwE        N       jerboa

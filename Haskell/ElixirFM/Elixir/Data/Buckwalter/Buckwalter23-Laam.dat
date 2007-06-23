@@ -189,7 +189,7 @@ lAhwty  lAhuwtiy~       Nap_L   theology     <pos>lAhuwtiy~/NOUN</pos>
 ;; lAhuwr_1
 lAhwr   lAhuwr  N0_L    Lahore
 ;
-;--- lAw
+; ;--- lAw
 ;; la>owA'_1
 l>wA'   la>owA' N0_Nh_L severe distress;hardship
 l>wA&   la>owA& Nh_L    severe distress;hardship
@@ -198,7 +198,7 @@ l>wA}   la>owA} Nhy_L   severe distress;hardship
 ;; lAwuws_1
 lAwws   lAwuws  N0_L    Laos
 ;
-;--- lAy
+; ;--- lAy
 ;; la>oy_1
 l>y     la>oy   N0_L    slowness;tediousness
 ;
@@ -3054,7 +3054,7 @@ lmA     lamA    FW-Wa   (did) not    <pos>lamA/NEG_PART</pos>
 ;; lamobap_1
 lmb     lamob   NapAt_L lamp
 ;
-;; lamobAjw_1
+;; lamobAjuw_1
 lmbAjw  lamobAjw        N0_L    lumbago
 ;
 ;; lamobuwr_1
@@ -4233,7 +4233,7 @@ lybyrAly        liybiyrAliy~    Nap_L   liberalism     <pos>liybirAliy~/NOUN</po
 ;; liybrAnd_1
 lybrAnd liybrAnd        Nprop   Lybrand
 ;
-;; lybrfyl_1
+;; liybrfiyl_1
 lybrfyl lybrfyl Nprop   Libreville
 ;
 ;; liybiromAn_1
@@ -4464,7 +4464,7 @@ lymAswl liymAsuwl       Nprop   Limassol
 ;; liymofAwiy~_1
 lymfAwy liymofAwiy~     N-ap_L  lymphatic     <pos>liymofAwiy~/ADJ</pos>
 ;
-;--- lymw
+; ;--- lymw
 ;; layomuwn_1
 lymwn   layomuwn        N_L     lemon
 ;; layomuwniy~_1

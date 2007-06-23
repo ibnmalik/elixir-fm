@@ -27,70 +27,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Oanoju*An -}        [ "asafetida (plant)" ] ]
 
- |> "'un^suw.t" <| [
-
-    -- ;; >uno$uwTap_1
-    -- >n$wT   >uno$uwT        Napdu   knot;noose
-    -- An$wT   >uno$uwT        Napdu   knot;noose
-    -- >nA$yT  >anA$iyT        Ndip    knots;nooses
-    -- AnA$yT  >anA$iyT        Ndip    knots;nooses
-
-    Identity |< aT            `noun`    {- Ouno$uwTap -}       [ "knot", "noose" ] ]
-
- |> "'un^suwd" <| [
-
-    -- ;; >uno$uwdap_1
-    -- >n$wd   >uno$uwd        Napdu   anthem;hymn;song
-    -- An$wd   >uno$uwd        Napdu   anthem;hymn;song
-    -- >nA$yd  >anA$iyd        Ndip    anthems;hymns;songs
-    -- AnA$yd  >anA$iyd        Ndip    anthems;hymns;songs
-
-    Identity |< aT            `noun`    {- Ouno$uwdap -}       [ "anthem", "hymn", "song" ] ]
-
- |> "'unbuwb" <| [
-
-    -- ;; >unobuwb_1
-    -- >nbwb   >unobuwb        Ndu     pipe;tube
-    -- Anbwb   >unobuwb        Ndu     pipe;tube
-    -- >nbwb   >unobuwb        Napdu   pipe;tube
-    -- Anbwb   >unobuwb        Napdu   pipe;tube
-    -- >nAbyb  >anAbiyb        Ndip    pipes;tubes
-    -- AnAbyb  >anAbiyb        Ndip    pipes;tubes
-
-    Identity                  `noun`    {- Ounobuwb -}         [ "pipe", "tube" ],
-
-    -- ;; >unobuwb_2
-    -- >nbwb   >unobuwb        Ndu     cylinder;bottle
-    -- Anbwb   >unobuwb        Ndu     cylinder;bottle
-    -- >nbwb   >unobuwb        Napdu   cylinder;bottle
-    -- Anbwb   >unobuwb        Napdu   cylinder;bottle
-    -- >nAbyb  >anAbiyb        Ndip    cylinders;bottles
-    -- AnAbyb  >anAbiyb        Ndip    cylinders;bottles
-
-    Identity                  `noun`    {- Ounobuwb -}         [ "cylinder", "bottle" ],
-
-    -- ;; >unobuwbiy~_1
-    -- >nbwby  >unobuwbiy~     Nall    tube-shaped     [[>unobuwbiy~/ADJ]]
-    -- Anbwby  >unobuwbiy~     Nall    tube-shaped     [[>unobuwbiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- Ounobuwbiy~ -}      [ "tube-shaped" ],
-
-    -- ;; >unobuwbiy~_2
-    -- >nbwby  >unobuwbiy~     Nall    cylindrical     [[>unobuwbiy~/ADJ]]
-    -- Anbwby  >unobuwbiy~     Nall    cylindrical     [[>unobuwbiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- Ounobuwbiy~ -}      [ "cylindrical" ] ]
-
- |> "'unmuwl" <| [
-
-    -- ;; >unomuwlap_1
-    -- >nmwl   >unomuwl        Napdu   fingertip
-    -- Anmwl   >unomuwl        Napdu   fingertip
-    -- >nAml   >anAmil Ndip    fingertips
-    -- AnAml   >anAmil Ndip    fingertips
-
-    Identity |< aT            `noun`    {- Ounomuwlap -}       [ "fingertip" ] ]
-
  |> "istinb" <| [
 
     -- ;; {isotinobAt_1
@@ -99,7 +35,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< At            `noun`    {- AisotinobAt -}      [ "planting", "cultivation" ] ]
 
- |> "min.tiyq" <| [
+ |> "min.tIq" <| [
 
     -- ;; minoTiyq_1
     -- mnTyq   minoTiyq        N-ap    eloquent
@@ -117,18 +53,6 @@ lexicon = listing "Lexicon's properties"
     -- mtnAk   mitonAk NapAt   whore;bitch
 
     Identity |< aT            `noun`    {- mitonAkap -}        [ "whore", "bitch" ] ]
-
- |> "mutanabbiyy" <| [
-
-    -- ;; mutanab~iy~_1
-    -- mtnby   mutanab~iy~     N0      Mutanabbi
-
-    Identity                  `noun`    {- mutanab~iy~ -}      [ "Mutanabbi" ],
-
-    -- ;; mutanab~iy~_2
-    -- mtnby   mutanab~iy~     Nall    would-be-prophet
-
-    Identity                  `noun`    {- mutanab~iy~ -}      [ "would-be-prophet" ] ]
 
  |> "n ' .h" <| [
 
@@ -4753,6 +4677,16 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaLA'
                            {- `others`  [ "ni^sA.t N", "nu^sa.tA' Nh N0_Nh Nhy" ] -},
 
+    -- ;; >uno$uwTap_1
+    -- >n$wT   >uno$uwT        Napdu   knot;noose
+    -- An$wT   >uno$uwT        Napdu   knot;noose
+    -- >nA$yT  >anA$iyT        Ndip    knots;nooses
+    -- AnA$yT  >anA$iyT        Ndip    knots;nooses
+
+    HuFCUL |< aT              `noun`    {- Ouno$uwTap -}       [ "knot", "noose" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'anA^siy.t Ndip" ] -},
+
     -- ;; mano$aT_1
     -- mn$T    mano$aT N       pleasant thing
 
@@ -5000,6 +4934,16 @@ lexicon = listing "Lexicon's properties"
     FaCIL                     `noun`    {- na$iyd -}           [ "anthem", "hymn", "song" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'an^sAd N" ] -},
+
+    -- ;; >uno$uwdap_1
+    -- >n$wd   >uno$uwd        Napdu   anthem;hymn;song
+    -- An$wd   >uno$uwd        Napdu   anthem;hymn;song
+    -- >nA$yd  >anA$iyd        Ndip    anthems;hymns;songs
+    -- AnA$yd  >anA$iyd        Ndip    anthems;hymns;songs
+
+    HuFCUL |< aT              `noun`    {- Ouno$uwdap -}       [ "anthem", "hymn", "song" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'anA^siyd Ndip" ] -},
 
     -- ;; munA$adap_1
     -- mnA$d   munA$ad NapAt   urgent request;earnest appeal
@@ -7208,8 +7152,9 @@ lexicon = listing "Lexicon's properties"
     -- AnAby$  >anAbiy$        Ndip    excavations;excavated objects
 
     FaCIL                     `noun`    {- nabiy$ -}           [ "excavated", "dug up", "excavation", "excavated object" ]
+                              `plural`     HuFCUL
                               `plural`     HaFACIL
-                           {- `others`  [ "'anAbiy^s Ndip" ] -} ]
+                           {- `others`  [ "'unbuw^s Ndu Napdu", "'anAbiy^s Ndip" ] -} ]
 
  |> "n b _d" <| [
 
@@ -7349,6 +7294,42 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `adj`     {- nAbiE -}            [ "emerging", "originating", "emanating" ] ]
 
  |> "n b b" <| [
+
+    -- ;; >unobuwb_1
+    -- >nbwb   >unobuwb        Ndu     pipe;tube
+    -- Anbwb   >unobuwb        Ndu     pipe;tube
+    -- >nbwb   >unobuwb        Napdu   pipe;tube
+    -- Anbwb   >unobuwb        Napdu   pipe;tube
+    -- >nAbyb  >anAbiyb        Ndip    pipes;tubes
+    -- AnAbyb  >anAbiyb        Ndip    pipes;tubes
+
+    HuFCUL                    `noun`    {- Ounobuwb -}         [ "pipe", "tube" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'anAbiyb Ndip" ] -},
+
+    -- ;; >unobuwb_2
+    -- >nbwb   >unobuwb        Ndu     cylinder;bottle
+    -- Anbwb   >unobuwb        Ndu     cylinder;bottle
+    -- >nbwb   >unobuwb        Napdu   cylinder;bottle
+    -- Anbwb   >unobuwb        Napdu   cylinder;bottle
+    -- >nAbyb  >anAbiyb        Ndip    cylinders;bottles
+    -- AnAbyb  >anAbiyb        Ndip    cylinders;bottles
+
+    HuFCUL                    `noun`    {- Ounobuwb -}         [ "cylinder", "bottle" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'anAbiyb Ndip" ] -},
+
+    -- ;; >unobuwbiy~_1
+    -- >nbwby  >unobuwbiy~     Nall    tube-shaped     [[>unobuwbiy~/ADJ]]
+    -- Anbwby  >unobuwbiy~     Nall    tube-shaped     [[>unobuwbiy~/ADJ]]
+
+    HuFCUL |< Iy              `adj`     {- Ounobuwbiy~ -}      [ "tube-shaped" ],
+
+    -- ;; >unobuwbiy~_2
+    -- >nbwby  >unobuwbiy~     Nall    cylindrical     [[>unobuwbiy~/ADJ]]
+    -- Anbwby  >unobuwbiy~     Nall    cylindrical     [[>unobuwbiy~/ADJ]]
+
+    HuFCUL |< Iy              `adj`     {- Ounobuwbiy~ -}      [ "cylindrical" ],
 
     -- ;; nabAt_1
     -- nbAt    nabAt   N/At    plants;vegetation
@@ -7872,7 +7853,17 @@ lexicon = listing "Lexicon's properties"
     -- nAby    nAbiy   NapAt   repugnant;improper
 
     FACI                      `adj`     {- nAbiy -}            [ "repugnant", "improper" ]
-                              `plural`     FACI |< At ]
+                              `plural`     FACI |< At,
+
+    -- ;; mutanab~iy_1
+    -- mtnby   mutanab~iy     N0      Mutanabbi
+
+    MutaFaCCI                 `noun`    {- mutanab~iy -}       [ "Mutanabbi" ],
+
+    -- ;; mutanab~iy_2
+    -- mtnby   mutanab~iy     Nall    would-be-prophet
+
+    MutaFaCCI                 `noun`    {- mutanab~iy -}       [ "would-be-prophet" ] ]
 
  |> "n b y" <| [
 
@@ -7912,7 +7903,17 @@ lexicon = listing "Lexicon's properties"
     -- nAby    nAbiy   NapAt   repugnant;improper
 
     FACI                      `adj`     {- nAbiy -}            [ "repugnant", "improper" ]
-                              `plural`     FACI |< At ]
+                              `plural`     FACI |< At,
+
+    -- ;; mutanab~iy_1
+    -- mtnby   mutanab~iy     N0      Mutanabbi
+
+    MutaFaCCI                 `noun`    {- mutanab~iy -}       [ "Mutanabbi" ],
+
+    -- ;; mutanab~iy_2
+    -- mtnby   mutanab~iy     Nall    would-be-prophet
+
+    MutaFaCCI                 `noun`    {- mutanab~iy -}       [ "would-be-prophet" ] ]
 
  |> "n b z" <| [
 
@@ -11988,6 +11989,16 @@ lexicon = listing "Lexicon's properties"
     -- nml     namil   N-ap    crawling;creeping;teeming with ants
 
     FaCiL                     `noun`    {- namil -}            [ "crawling", "creeping", "teeming with ants" ],
+
+    -- ;; >unomuwlap_1
+    -- >nmwl   >unomuwl        Napdu   fingertip
+    -- Anmwl   >unomuwl        Napdu   fingertip
+    -- >nAml   >anAmil Ndip    fingertips
+    -- AnAml   >anAmil Ndip    fingertips
+
+    HuFCUL |< aT              `noun`    {- Ounomuwlap -}       [ "fingertip" ]
+                              `plural`     HaFACiL
+                           {- `others`  [ "'anAmil Ndip" ] -},
 
     -- ;; tanomiyl_1
     -- tnmyl   tanomiyl        N/At    itching;tingling
@@ -16490,6 +16501,14 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCiL                  `noun`    {- munaw~im -}         [ "hypnotist" ] ]
 
+ |> "n w m d" <| [
+
+    -- ;; nuwmiydiy~_1
+    -- nwmydy  nuwmiydiy~      Nall    Numidian     [[nuwmiydiy~/NOUN]]
+    -- nwmydy  nuwmiydiy~      Nall    Numidian     [[nuwmiydiy~/ADJ]]
+
+    KuRDIS |< Iy              `adj`     {- nuwmiydiy~ -}       [ "Numidian" ] ]
+
  |> "n w n" <| [
 
     -- ;; naw~an_1
@@ -18191,35 +18210,35 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- naziyz -}           [ "unstable", "sensuous" ] ]
 
- |> "n.guwbAniy" <| [
+ |> "n.gUbAnI" <| [
 
     -- ;; nguwbAniy_1
     -- ngwbAny nguwbAniy       Nprop   Ngubani
 
     Identity                  `noun`    {- nguwbAniy -}        [ "Ngubani" ] ]
 
- |> "nA.giyuwfA" <| [
+ |> "nA.giyUfA" <| [
 
     -- ;; nAgiyuwfA_1
     -- nAgywfA nAgiyuwfA       Nprop   Nagyova
 
     Identity                  `noun`    {- nAgiyuwfA -}        [ "Nagyova" ] ]
 
- |> "nA.siyb" <| [
+ |> "nA.sIb" <| [
 
     -- ;; nASiyb_1
     -- nASyb   nASiyb  N       lottery
 
     Identity                  `noun`    {- nASiyb -}           [ "lottery" ] ]
 
- |> "nA_hiyt^siyfAn" <| [
+ |> "nA_hIt^sIfAn" <| [
 
     -- ;; nAxiyt$iyfAn_1
     -- nAxyt$yfAn      nAxiyt$iyfAn    N0      Nakhichevan
 
     Identity                  `noun`    {- nAxiyt$iyfAn -}     [ "Nakhichevan" ] ]
 
- |> "nAbilyuwn" <| [
+ |> "nAbilyUn" <| [
 
     -- ;; nAbiloyuwn_1
     -- nAblywn nAbiloyuwn      Nprop   Napoleon
@@ -18231,7 +18250,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- nAbiloyuwniy~ -}    [ "Napoleonic" ] ]
 
- |> "nAbuliy" <| [
+ |> "nAbulI" <| [
 
     -- ;; nAbuliy_1
     -- nAbly   nAbuliy N0      Naples
@@ -18253,14 +18272,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- nAbulus -}          [ "Nablus" ] ]
 
- |> "nAhiyk" <| [
+ |> "nAhIk" <| [
 
     -- ;; nAhiyk_1
     -- nAhyk   nAhiyk  FW-Wa   not to mention     [[nAhiyk/FUNC_WORD]]
 
     Identity                  `part`    {- nAhiyk -}           [ "not to mention" ] ]
 
- |> "nAmiyb" <| [
+ |> "nAmIb" <| [
 
     -- ;; nAmiybiy~_1
     -- nAmyby  nAmiybiy~       Nall    Namibian     [[nAmiybiy~/ADJ]]
@@ -18268,28 +18287,28 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- nAmiybiy~ -}        [ "Namibian" ] ]
 
- |> "nAmiybiyA" <| [
+ |> "nAmIbiyA" <| [
 
     -- ;; nAmiybiyA_1
     -- nAmybyA nAmiybiyA       N0      Namibia
 
     Identity                  `noun`    {- nAmiybiyA -}        [ "Namibia" ] ]
 
- |> "nAnAmiy" <| [
+ |> "nAnAmI" <| [
 
     -- ;; nAnAmiy_1
     -- nAnAmy  nAnAmiy N0      Nanami
 
     Identity                  `noun`    {- nAnAmiy -}          [ "Nanami" ] ]
 
- |> "nAndrwlwn" <| [
+ |> "nAndrUlUn" <| [
 
-    -- ;; nAndrwlwn_1
+    -- ;; nAndruwluwn_1
     -- nAndrwlwn       nAndrwlwn       N0      Nandrolone
 
-    Identity                  `noun`    {- nAndrwlwn -}        [ "Nandrolone" ] ]
+    Identity                  `noun`    {- nAndruwluwn -}      [ "Nandrolone" ] ]
 
- |> "nAnsiy" <| [
+ |> "nAnsI" <| [
 
     -- ;; nAnosiy_1
     -- nAnsy   nAnosiy Nprop   Nancy
@@ -18310,7 +18329,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- nArAyAnAn -}        [ "Narayanan" ] ]
 
- |> "nAr^giyl" <| [
+ |> "nAr^gIl" <| [
 
     -- ;; nArjiyl_1
     -- nArjyl  nArjiyl N       coconut
@@ -18330,7 +18349,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- nAranoj -}          [ "bitter orange" ] ]
 
- |> "nArandiyn" <| [
+ |> "nArandIn" <| [
 
     -- ;; nAranodiyn_1
     -- nArndyn nAranodiyn      N0      nard;spikenard
@@ -18347,35 +18366,35 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- nAsodAk -}          [ "NASDAQ" ] ]
 
- |> "nAsywnAl" <| [
+ |> "nAsyUnAl" <| [
 
-    -- ;; nAsywnAl_1
+    -- ;; nAsyuwnAl_1
     -- nAsywnAl        nAsywnAl        N0      National;Nacional
 
-    Identity                  `noun`    {- nAsywnAl -}         [ "National", "Nacional" ] ]
+    Identity                  `noun`    {- nAsyuwnAl -}        [ "National", "Nacional" ] ]
 
- |> "nAtAliy" <| [
+ |> "nAtAlI" <| [
 
     -- ;; nAtAliy_1
     -- nAtAly  nAtAliy Nprop   Nathalie;Natalie
 
     Identity                  `noun`    {- nAtAliy -}          [ "Nathalie", "Natalie" ] ]
 
- |> "nAtuw" <| [
+ |> "nAtU" <| [
 
     -- ;; nAtuw_1
     -- nAtw    nAtuw   N0      NATO
 
     Identity                  `noun`    {- nAtuw -}            [ "NATO" ] ]
 
- |> "nAwhiyruw" <| [
+ |> "nAwhIrU" <| [
 
     -- ;; nAwohiyruw_1
     -- nAwhyrw nAwohiyruw      Nprop   Naohiro
 
     Identity                  `noun`    {- nAwohiyruw -}       [ "Naohiro" ] ]
 
- |> "nAyluwn" <| [
+ |> "nAylUn" <| [
 
     -- ;; nAyoluwn_1
     -- nAylwn  nAyoluwn        N       nylon
@@ -18389,7 +18408,171 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- nAyomikos -}        [ "NYMEX (New York Mercantile Exchange)" ] ]
 
- |> "na.siybiyn" <| [
+ |> "nI.gArd" <| [
+
+    -- ;; niygArd_1
+    -- nygArd  niygArd Nprop   Nygard
+
+    Identity                  `noun`    {- niygArd -}          [ "Nygard" ] ]
+
+ |> "nIfAdA" <| [
+
+    -- ;; niyfAdA_1
+    -- nyfAdA  niyfAdA Nprop   Nevada
+
+    Identity                  `noun`    {- niyfAdA -}          [ "Nevada" ] ]
+
+ |> "nIkUlA" <| [
+
+    -- ;; niykuwlA_1
+    -- nykwlA  niykuwlA        Nprop   Nicola
+
+    Identity                  `noun`    {- niykuwlA -}         [ "Nicola" ] ]
+
+ |> "nIkUlAs" <| [
+
+    -- ;; niykuwlAs_1
+    -- nykwlAs niykuwlAs       Nprop   Nicholas
+
+    Identity                  `noun`    {- niykuwlAs -}        [ "Nicholas" ] ]
+
+ |> "nIkUtIn" <| [
+
+    -- ;; niykuwtiyn_1
+    -- nykwtyn niykuwtiyn      N0      nicotine
+
+    Identity                  `noun`    {- niykuwtiyn -}       [ "nicotine" ] ]
+
+ |> "nIkay" <| [
+
+    -- ;; niykay_1
+    -- nyky    niykay  N0      Nikkei
+    -- nykAy   niykAy  N0      Nikkei
+
+    Identity                  `noun`    {- niykay -}           [ "Nikkei" ] ]
+
+ |> "nIkl" <| [
+
+    -- ;; niykol_1
+    -- nykl    niykol  N       nickel
+    -- nkl     nikol   N       nickel
+
+    Identity                  `noun`    {- niykol -}           [ "nickel" ] ]
+
+ |> "nIksUn" <| [
+
+    -- ;; niykosuwn_1
+    -- nykswn  niykosuwn       Nprop   Nixon
+
+    Identity                  `noun`    {- niykosuwn -}        [ "Nixon" ] ]
+
+ |> "nIlsUn" <| [
+
+    -- ;; niylosuwn_1
+    -- nylswn  niylosuwn       Nprop   Nelson
+    -- nlswn   nilosuwn        Nprop   Nelson
+
+    Identity                  `noun`    {- niylosuwn -}        [ "Nelson" ] ]
+
+ |> "nIniyU" <| [
+
+    -- ;; niyniyuw_1
+    -- nynyw   niyniyuw        N0      Nino
+
+    Identity                  `noun`    {- niyniyuw -}         [ "Nino" ] ]
+
+ |> "nIqUsiyA" <| [
+
+    -- ;; niyquwsiyA_1
+    -- nyqwsyA niyquwsiyA      Nprop   Nicosia
+
+    Identity                  `noun`    {- niyquwsiyA -}       [ "Nicosia" ] ]
+
+ |> "nItrU^gIn" <| [
+
+    -- ;; niytruwjiyn_1
+    -- nytrwjyn        niytruwjiyn     N       nitrogen
+
+    Identity                  `noun`    {- niytruwjiyn -}      [ "nitrogen" ],
+
+    -- ;; niytruwjiyniy~_1
+    -- nytrwjyny       niytruwjiyniy~  N       nitrogen     [[niytruwjiyniy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- niytruwjiyniy~ -}   [ "nitrogen" ] ]
+
+ |> "nUfUstI" <| [
+
+    -- ;; nuwfuwsotiy_1
+    -- nwfwsty nuwfuwsotiy     N0      Novosti;Novosty
+
+    Identity                  `noun`    {- nuwfuwsotiy -}      [ "Novosti", "Novosty" ] ]
+
+ |> "nUfimbir" <| [
+
+    -- ;; nuwfimobir_1
+    -- nwfmbr  nuwfimobir      N0      November
+    -- nfmbr   nufimobir       N0      November
+
+    Identity                  `noun`    {- nuwfimobir -}       [ "November" ] ]
+
+ |> "nUmIdiyA" <| [
+
+    -- ;; nuwmiydiyA_1
+    -- nwmydyA nuwmiydiyA      N0      Numidia
+
+    Identity                  `noun`    {- nuwmiydiyA -}       [ "Numidia" ] ]
+
+ |> "nUrA" <| [
+
+    -- ;; nuwrA_1
+    -- nwrA    nuwrA   Nprop   Noura
+
+    Identity                  `noun`    {- nuwrA -}            [ "Noura" ] ]
+
+ |> "nUrAlddIn" <| [
+
+    -- ;; nuwrAld~iyn_1
+    -- nwrAldyn        nuwrAld~iyn     N0      Noureddin
+
+    Identity                  `noun`    {- nuwrAld~iyn -}      [ "Noureddin" ] ]
+
+ |> "nUrastAniyA" <| [
+
+    -- ;; nuwrasotAniyA_1
+    -- nwrstAnyA       nuwrasotAniyA   N0      neurasthenia
+
+    Identity                  `noun`    {- nuwrasotAniyA -}    [ "neurasthenia" ] ]
+
+ |> "nUrfUlk" <| [
+
+    -- ;; nuwrofuwlk_1
+    -- nwrfwlk nuwrofuwlk      N0      Norfolk
+
+    Identity                  `noun`    {- nuwrofuwlk -}       [ "Norfolk" ] ]
+
+ |> "nUrmAnd" <| [
+
+    -- ;; nuwromAndiy~_1
+    -- nwrmAndy        nuwromAndiy~    Nall    Norman     [[nuwromAndiy~/NOUN]]
+    -- nwrmAndy        nuwromAndiy~    Nall    Norman     [[nuwromAndiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- nuwromAndiy~ -}     [ "Norman" ] ]
+
+ |> "nUrmAndiyA" <| [
+
+    -- ;; nuwromAndiyA_1
+    -- nwrmAndyA       nuwromAndiyA    N0      Normandy
+
+    Identity                  `noun`    {- nuwromAndiyA -}     [ "Normandy" ] ]
+
+ |> "nUrwI^giyAn" <| [
+
+    -- ;; nuwrowiyjiyAn_1
+    -- nwrwyjyAn       nuwrowiyjiyAn   N0      Norwegian
+
+    Identity                  `noun`    {- nuwrowiyjiyAn -}    [ "Norwegian" ] ]
+
+ |> "na.sIbIn" <| [
 
     -- ;; naSiybiyn_1
     -- nSybyn  naSiybiyn       Ndip    Nisibin
@@ -18403,21 +18586,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- naSorAllh -}        [ "Nasrallah" ] ]
 
- |> "na.srAwiy" <| [
+ |> "na.srAwI" <| [
 
     -- ;; naSorAwiy_1
     -- nSrAwy  naSorAwiy       N0      Nasrawi;Nasraoui
 
     Identity                  `noun`    {- naSorAwiy -}        [ "Nasrawi", "Nasraoui" ] ]
 
- |> "namsA" <| [
-
-    -- ;; namosA_1
-    -- nmsA    namosA  N0      Austria
-
-    Identity                  `noun`    {- namosA -}           [ "Austria" ] ]
-
- |> "namuw_da^g" <| [
+ |> "namU_da^g" <| [
 
     -- ;; namuw*aj_1
     -- nmw*j   namuw*aj        NduAt   sample;model
@@ -18432,6 +18608,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- namuw*ajiy~ -}      [ "exemplary", "model" ] ]
 
+ |> "namsA" <| [
+
+    -- ;; namosA_1
+    -- nmsA    namosA  N0      Austria
+
+    Identity                  `noun`    {- namosA -}           [ "Austria" ] ]
+
  |> "naran^g" <| [
 
     -- ;; naranoj_1
@@ -18439,7 +18622,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- naranoj -}          [ "bitter orange" ] ]
 
- |> "nawAk^suw.t" <| [
+ |> "nawAk^sU.t" <| [
 
     -- ;; nawAko$uwT_1
     -- nwAk$wT nawAko$uwT      N0      Nouakchott
@@ -18458,14 +18641,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy |< aT      `noun`    {- nawobatojiy~ap -}   [ "shift duty", "night duty" ] ]
 
- |> "nay^giyriyA" <| [
+ |> "nay^gIriyA" <| [
 
     -- ;; nayojiyriyA_1
     -- nyjyryA nayojiyriyA     N0      Nigeria
 
     Identity                  `noun`    {- nayojiyriyA -}      [ "Nigeria" ] ]
 
- |> "nayruwbiy" <| [
+ |> "nayrUbI" <| [
 
     -- ;; nayoruwbiy_1
     -- nyrwby  nayoruwbiy      Nprop   Nairobi
@@ -18500,7 +18683,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- nisotA -}           [ "Nesta" ] ]
 
- |> "nitAnyAhuw" <| [
+ |> "nitAnyAhU" <| [
 
     -- ;; nitAnoyAhuw_1
     -- ntAnyAhw        nitAnoyAhuw     Nprop   Netanyahu
@@ -18509,113 +18692,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- nitAnoyAhuw -}      [ "Netanyahu" ] ]
 
- |> "nitruw^giyn" <| [
+ |> "nitrU^gIn" <| [
 
     -- ;; nitoruwjiyn_1
     -- ntrwjyn nitoruwjiyn     N       nitrogen
 
     Identity                  `noun`    {- nitoruwjiyn -}      [ "nitrogen" ] ]
 
- |> "nitsAriym" <| [
+ |> "nitsArIm" <| [
 
     -- ;; nitosAriym_1
     -- ntsArym nitosAriym      N0      Netzarim
 
     Identity                  `noun`    {- nitosAriym -}       [ "Netzarim" ] ]
 
- |> "niy.gArd" <| [
-
-    -- ;; niygArd_1
-    -- nygArd  niygArd Nprop   Nygard
-
-    Identity                  `noun`    {- niygArd -}          [ "Nygard" ] ]
-
- |> "niyfAdA" <| [
-
-    -- ;; niyfAdA_1
-    -- nyfAdA  niyfAdA Nprop   Nevada
-
-    Identity                  `noun`    {- niyfAdA -}          [ "Nevada" ] ]
-
- |> "niykay" <| [
-
-    -- ;; niykay_1
-    -- nyky    niykay  N0      Nikkei
-    -- nykAy   niykAy  N0      Nikkei
-
-    Identity                  `noun`    {- niykay -}           [ "Nikkei" ] ]
-
- |> "niykl" <| [
-
-    -- ;; niykol_1
-    -- nykl    niykol  N       nickel
-    -- nkl     nikol   N       nickel
-
-    Identity                  `noun`    {- niykol -}           [ "nickel" ] ]
-
- |> "niyksuwn" <| [
-
-    -- ;; niykosuwn_1
-    -- nykswn  niykosuwn       Nprop   Nixon
-
-    Identity                  `noun`    {- niykosuwn -}        [ "Nixon" ] ]
-
- |> "niykuwlA" <| [
-
-    -- ;; niykuwlA_1
-    -- nykwlA  niykuwlA        Nprop   Nicola
-
-    Identity                  `noun`    {- niykuwlA -}         [ "Nicola" ] ]
-
- |> "niykuwlAs" <| [
-
-    -- ;; niykuwlAs_1
-    -- nykwlAs niykuwlAs       Nprop   Nicholas
-
-    Identity                  `noun`    {- niykuwlAs -}        [ "Nicholas" ] ]
-
- |> "niykuwtiyn" <| [
-
-    -- ;; niykuwtiyn_1
-    -- nykwtyn niykuwtiyn      N0      nicotine
-
-    Identity                  `noun`    {- niykuwtiyn -}       [ "nicotine" ] ]
-
- |> "niylsuwn" <| [
-
-    -- ;; niylosuwn_1
-    -- nylswn  niylosuwn       Nprop   Nelson
-    -- nlswn   nilosuwn        Nprop   Nelson
-
-    Identity                  `noun`    {- niylosuwn -}        [ "Nelson" ] ]
-
- |> "niyniyuw" <| [
-
-    -- ;; niyniyuw_1
-    -- nynyw   niyniyuw        N0      Nino
-
-    Identity                  `noun`    {- niyniyuw -}         [ "Nino" ] ]
-
- |> "niyquwsiyA" <| [
-
-    -- ;; niyquwsiyA_1
-    -- nyqwsyA niyquwsiyA      Nprop   Nicosia
-
-    Identity                  `noun`    {- niyquwsiyA -}       [ "Nicosia" ] ]
-
- |> "niytruw^giyn" <| [
-
-    -- ;; niytruwjiyn_1
-    -- nytrwjyn        niytruwjiyn     N       nitrogen
-
-    Identity                  `noun`    {- niytruwjiyn -}      [ "nitrogen" ],
-
-    -- ;; niytruwjiyniy~_1
-    -- nytrwjyny       niytruwjiyniy~  N       nitrogen     [[niytruwjiyniy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- niytruwjiyniy~ -}   [ "nitrogen" ] ]
-
- |> "niyuw" <| [
+ |> "niyU" <| [
 
     -- ;; niyuw_1
     -- nyw     niyuw   N0      New
@@ -18627,64 +18718,62 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- niyuw -}            [ "Neo" ] ]
 
- |> "niyuwdilhiy" <| [
+ |> "niyUdilhI" <| [
 
     -- ;; niyuwdilohiy_1
     -- nywdlhy niyuwdilohiy    Nprop   New Delhi
 
     Identity                  `noun`    {- niyuwdilohiy -}     [ "New Delhi" ] ]
 
- |> "niyuwkAsil" <| [
+ |> "niyUkAsil" <| [
 
     -- ;; niyuwkAsil_1
     -- nywkAsl niyuwkAsil      Nprop   Newcastle
 
     Identity                  `noun`    {- niyuwkAsil -}       [ "Newcastle" ] ]
 
- |> "niyuwt" <| [
+ |> "niyUt" <| [
 
     -- ;; niyuwt_1
     -- nywt    niyuwt  N0      Newt
 
     Identity                  `noun`    {- niyuwt -}           [ "Newt" ] ]
 
- |> "niyuwtun" <| [
+ |> "niyUtun" <| [
 
     -- ;; niyuwtun_1
     -- nywtn   niyuwtun        N0      Newton
 
     Identity                  `noun`    {- niyuwtun -}         [ "Newton" ] ]
 
- |> "niyuwwAyif" <| [
+ |> "niyUwAyif" <| [
 
     -- ;; niyuwwAyif_1
     -- nywwAyf niyuwwAyif      N0      New Wave
 
     Identity                  `noun`    {- niyuwwAyif -}       [ "New Wave" ] ]
 
- |> "niyuwyuwrk" <| [
+ |> "niyUyUrk" <| [
 
     -- ;; niyuwyuwrok_1
     -- nywywrk niyuwyuwrok     N0      New York
 
-    Identity                  `noun`    {- niyuwyuwrok -}      [ "New York" ] ]
-
- |> "niyuwyuwrkiyy" <| [
+    Identity                  `noun`    {- niyuwyuwrok -}      [ "New York" ],
 
     -- ;; niyuwyuwrokiy~_1
     -- nywywrky        niyuwyuwrokiy~  Nall    New Yorker     [[niyuwyuwrokiy~/NOUN]]
     -- nywywrky        niyuwyuwrokiy~  Nall    New Yorker     [[niyuwyuwrokiy~/ADJ]]
 
-    Identity                  `adj`     {- niyuwyuwrokiy~ -}   [ "New Yorker" ] ]
+    Identity |< Iy            `adj`     {- niyuwyuwrokiy~ -}   [ "New Yorker" ] ]
 
- |> "niyuwz" <| [
+ |> "niyUz" <| [
 
     -- ;; niyuwz_1
     -- nywz    niyuwz  Nprop   News
 
     Identity                  `noun`    {- niyuwz -}           [ "News" ] ]
 
- |> "niyuwzwiyk" <| [
+ |> "niyUzwIk" <| [
 
     -- ;; niyuwzwiyk_1
     -- nywzwyk niyuwzwiyk      Nprop   Newsweek
@@ -18711,106 +18800,26 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- nuwayoSir -}        [ "Nuwaysir", "Nuwaisir" ] ]
 
- |> "nuwfimbir" <| [
+ |> "nyUzIlAnd" <| [
 
-    -- ;; nuwfimobir_1
-    -- nwfmbr  nuwfimobir      N0      November
-    -- nfmbr   nufimobir       N0      November
+    -- ;; nyuwziylAnodiy~_1
+    -- nywzylAndy      nyuwziylAnodiy~  Nall    New Zealander     [[nywziylAnodiy~/NOUN]]
+    -- nywzylAndy      nyuwziylAnodiy~  Nall    New Zealander     [[nywziylAnodiy~/ADJ]]
+    -- nywzylndy       nyuwziylanodiy~  Nall    New Zealander     [[nywziylanodiy~/NOUN]]
+    -- nywzylndy       nyuwziylanodiy~  Nall    New Zealander     [[nywziylanodiy~/ADJ]]
+    -- nywzlndy        nyuwzilanodiy~   Nall    New Zealander     [[nywziylanodiy~/NOUN]]
+    -- nywzlndy        nyuwzilanodiy~   Nall    New Zealander     [[nywziylanodiy~/ADJ]]
 
-    Identity                  `noun`    {- nuwfimobir -}       [ "November" ] ]
+    Identity |< Iy            `adj`     {- nyuwziylAnodiy~ -}  [ "New Zealander" ] ]
 
- |> "nuwfuwstiy" <| [
+ |> "nyUzIlAndA" <| [
 
-    -- ;; nuwfuwsotiy_1
-    -- nwfwsty nuwfuwsotiy     N0      Novosti;Novosty
+    -- ;; nyuwziylAnodA_1
+    -- nywzylAndA      nyuwziylAnodA    N0      New Zealand
+    -- nywzlndA        nyuwzilanodA     N0      New Zealand
+    -- nywzylndA       nyuwziylanodA    N0      New Zealand
 
-    Identity                  `noun`    {- nuwfuwsotiy -}      [ "Novosti", "Novosty" ] ]
-
- |> "nuwmiydiyA" <| [
-
-    -- ;; nuwmiydiyA_1
-    -- nwmydyA nuwmiydiyA      N0      Numidia
-
-    Identity                  `noun`    {- nuwmiydiyA -}       [ "Numidia" ] ]
-
- |> "nuwmiydiyy" <| [
-
-    -- ;; nuwmiydiy~_1
-    -- nwmydy  nuwmiydiy~      Nall    Numidian     [[nuwmiydiy~/NOUN]]
-    -- nwmydy  nuwmiydiy~      Nall    Numidian     [[nuwmiydiy~/ADJ]]
-
-    Identity                  `adj`     {- nuwmiydiy~ -}       [ "Numidian" ] ]
-
- |> "nuwrA" <| [
-
-    -- ;; nuwrA_1
-    -- nwrA    nuwrA   Nprop   Noura
-
-    Identity                  `noun`    {- nuwrA -}            [ "Noura" ] ]
-
- |> "nuwrAlddiyn" <| [
-
-    -- ;; nuwrAld~iyn_1
-    -- nwrAldyn        nuwrAld~iyn     N0      Noureddin
-
-    Identity                  `noun`    {- nuwrAld~iyn -}      [ "Noureddin" ] ]
-
- |> "nuwrastAniyA" <| [
-
-    -- ;; nuwrasotAniyA_1
-    -- nwrstAnyA       nuwrasotAniyA   N0      neurasthenia
-
-    Identity                  `noun`    {- nuwrasotAniyA -}    [ "neurasthenia" ] ]
-
- |> "nuwrfuwlk" <| [
-
-    -- ;; nuwrofuwlk_1
-    -- nwrfwlk nuwrofuwlk      N0      Norfolk
-
-    Identity                  `noun`    {- nuwrofuwlk -}       [ "Norfolk" ] ]
-
- |> "nuwrmAnd" <| [
-
-    -- ;; nuwromAndiy~_1
-    -- nwrmAndy        nuwromAndiy~    Nall    Norman     [[nuwromAndiy~/NOUN]]
-    -- nwrmAndy        nuwromAndiy~    Nall    Norman     [[nuwromAndiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- nuwromAndiy~ -}     [ "Norman" ] ]
-
- |> "nuwrmAndiyA" <| [
-
-    -- ;; nuwromAndiyA_1
-    -- nwrmAndyA       nuwromAndiyA    N0      Normandy
-
-    Identity                  `noun`    {- nuwromAndiyA -}     [ "Normandy" ] ]
-
- |> "nuwrwiy^giyAn" <| [
-
-    -- ;; nuwrowiyjiyAn_1
-    -- nwrwyjyAn       nuwrowiyjiyAn   N0      Norwegian
-
-    Identity                  `noun`    {- nuwrowiyjiyAn -}    [ "Norwegian" ] ]
-
- |> "nywziylAnd" <| [
-
-    -- ;; nywziylAnodiy~_1
-    -- nywzylAndy      nywziylAnodiy~  Nall    New Zealander     [[nywziylAnodiy~/NOUN]]
-    -- nywzylAndy      nywziylAnodiy~  Nall    New Zealander     [[nywziylAnodiy~/ADJ]]
-    -- nywzylndy       nywziylanodiy~  Nall    New Zealander     [[nywziylanodiy~/NOUN]]
-    -- nywzylndy       nywziylanodiy~  Nall    New Zealander     [[nywziylanodiy~/ADJ]]
-    -- nywzlndy        nywzilanodiy~   Nall    New Zealander     [[nywziylanodiy~/NOUN]]
-    -- nywzlndy        nywzilanodiy~   Nall    New Zealander     [[nywziylanodiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- nywziylAnodiy~ -}   [ "New Zealander" ] ]
-
- |> "nywziylAndA" <| [
-
-    -- ;; nywziylAnodA_1
-    -- nywzylAndA      nywziylAnodA    N0      New Zealand
-    -- nywzlndA        nywzilanodA     N0      New Zealand
-    -- nywzylndA       nywziylanodA    N0      New Zealand
-
-    Identity                  `noun`    {- nywziylAnodA -}     [ "New Zealand" ] ]
+    Identity                  `noun`    {- nyuwziylAnodA -}    [ "New Zealand" ] ]
 
  |> "tan.tAf" <| [
 
@@ -18826,7 +18835,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- tanomawiy~ -}       [ "developmental", "growth-related" ] ]
 
- |> "yAna.siyb" <| [
+ |> "yAna.sIb" <| [
 
     -- ;; yAnaSiyb_1
     -- yAnSyb  yAnaSiyb        N       lottery
@@ -18840,14 +18849,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- yAnaSiybiy~ -}      [ "lottery" ] ]
 
- |> "yanba`A'" <| [
-
-    -- ;; yanobaEAwiy~_1
-    -- ynbEAwy yanobaEAwiy~    N0      Yanbawi
-
-    Identity |< Iy            `adj`     {- yanobaEAwiy~ -}     [ "Yanbawi" ] ]
-
- |> "yanbuw`" <| [
+ |> "yanbU`" <| [
 
     -- ;; yanobuwE_1
     -- ynbwE   yanobuwE        N       spring;source
@@ -18859,4 +18861,11 @@ lexicon = listing "Lexicon's properties"
     -- ynbwE   yanobuwE        N       Yanbou (Saudi Ar.)
 
     Identity                  `noun`    {- yanobuwE -}         [ "Yanbou (Saudi Ar.)" ] ]
+
+ |> "yanba`A'" <| [
+
+    -- ;; yanobaEAwiy~_1
+    -- ynbEAwy yanobaEAwiy~    N0      Yanbawi
+
+    Identity |< Iy            `adj`     {- yanobaEAwiy~ -}     [ "Yanbawi" ] ]
 

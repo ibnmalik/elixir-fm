@@ -1701,35 +1701,35 @@ lexicon = listing "Lexicon's properties"
     IstiFCAL                  `noun`    {- AisotifozAz -}      [ "provocation", "harassment" ]
                               `plural`     IstiFCAL |< At ]
 
- |> "fA^gbAyiy" <| [
+ |> "fA^gbAyI" <| [
 
     Identity                  `noun`    {- fAjobAyiy -}        [ "Vajpayee" ] ]
 
- |> "fAhAniyn" <| [
+ |> "fAhAnIn" <| [
 
     Identity                  `noun`    {- fAhAniyn -}         [ "Vahanen" ] ]
+
+ |> "fAlIrI" <| [
+
+    Identity                  `noun`    {- fAliyriy -}         [ "Valerie", "Valery" ] ]
 
  |> "fAlinsiyA" <| [
 
     Identity                  `noun`    {- fAlinosiyA -}       [ "Valencia" ] ]
 
- |> "fAliyriy" <| [
+ |> "fAnIsA" <| [
 
-    Identity                  `noun`    {- fAliyriy -}         [ "Valerie", "Valery" ] ]
+    Identity                  `noun`    {- fAniysA -}          [ "Vanessa", "Vanek" ] ]
 
  |> "fAnill" <| [
 
     Identity |< aT            `noun`    {- fAnil~ap -}         [ "flannel" ] ]
 
- |> "fAniysA" <| [
-
-    Identity                  `noun`    {- fAniysA -}          [ "Vanessa", "Vanek" ] ]
-
- |> "fAtiykAn" <| [
+ |> "fAtIkAn" <| [
 
     Identity                  `noun`    {- fAtiykAn -}         [ "Vatican" ] ]
 
- |> "fAwstuw" <| [
+ |> "fAwstU" <| [
 
     Identity                  `noun`    {- fAwstuw -}          [ "Fausto" ] ]
 
@@ -1737,7 +1737,109 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- fAynAn$Al -}        [ "Financial" ] ]
 
- |> "fa.suwliyA" <| [
+ |> "fI.gU" <| [
+
+    Identity                  `noun`    {- fiyguw -}           [ "Figo" ] ]
+
+ |> "fI^gIstI" <| [
+
+    Identity                  `noun`    {- fiyjiysotiy -}      [ "Vijesti" ] ]
+
+ |> "fId^g" <| [
+
+    Identity |< Iy            `adj`     {- fiydojiy~ -}        [ "Fijian" ] ]
+
+ |> "fId^gI" <| [
+
+    Identity                  `noun`    {- fiydojiy -}         [ "Fiji" ] ]
+
+ |> "fIdirAl" <| [
+
+    Identity |< Iy            `adj`     {- fiydirAliy~ -}      [ "Federal" ] ]
+
+ |> "fIdrIn" <| [
+
+    Identity                  `noun`    {- fiydoriyn -}        [ "Vedrine" ] ]
+
+ |> "fIdyU" <| [
+
+    Identity                  `noun`    {- fiydoyuw -}         [ "video" ] ]
+
+ |> "fIkUfIt^s" <| [
+
+    Identity                  `noun`    {- fiykuwfiyt$ -}      [ "Vickovic" ] ]
+
+ |> "fIktUr" <| [
+
+    Identity                  `noun`    {- fiykotuwr -}        [ "Victor", "Viktor" ] ]
+
+ |> "fIlAdilfiyA" <| [
+
+    Identity                  `noun`    {- fiylAdilofiyA -}    [ "Philadelphia" ] ]
+
+ |> "fIlIbbIn" <| [
+
+    Identity                  `noun`    {- fiyliyb~iyn -}      [ "Philippines" ],
+
+    Identity |< Iy            `adj`     {- fiyliyb~iyniy~ -}   [ "Philippine", "Filipino" ] ]
+
+ |> "fIlIbs" <| [
+
+    Identity                  `noun`    {- fiyliybs -}         [ "Phillips", "Philips" ] ]
+
+ |> "fIllA" <| [
+
+    Identity                  `noun`    {- fiyl~A -}           [ "villa", "Villa" ] ]
+
+ |> "fIlm" <| [
+
+    Identity                  `noun`    {- fiylom -}           [ "film", "movie" ] ]
+
+ |> "fImA" <| [
+
+    Identity                  `prep`    {- fiymA -}            [ "in what" ],
+
+    Identity                  `conj`    {- fiymA -}            [ "while", "during which" ],
+
+    Identity                  `noun`    {- fiymA -}            [ "FEMA (Federal Emergency Management Agency)" ] ]
+
+ |> "fIr^gIniyA" <| [
+
+    Identity                  `noun`    {- fiyrojiyniyA -}     [ "Virginia" ] ]
+
+ |> "fItU" <| [
+
+    Identity                  `noun`    {- fiytuw -}           [ "veto" ] ]
+
+ |> "fIzA" <| [
+
+    Identity                  `noun`    {- fiyzA -}            [ "visa" ] ]
+
+ |> "fU.gts" <| [
+
+    Identity                  `noun`    {- fuwgts -}           [ "Vogts" ] ]
+
+ |> "fUks" <| [
+
+    Identity                  `noun`    {- fuwkos -}           [ "Fox" ] ]
+
+ |> "fUlklUr" <| [
+
+    Identity |< Iy            `adj`     {- fuwlkluwriy~ -}     [ "folkloric" ] ]
+
+ |> "fUrmUlA" <| [
+
+    Identity                  `noun`    {- fuwromuwlA -}       [ "Formula" ] ]
+
+ |> "fUsf" <| [
+
+    Identity |< At            `noun`    {- fuwsofAt -}         [ "phosphate" ] ]
+
+ |> "fUtU.grAfIy" <| [
+
+    Identity                  `adj`     {- fuwtuwgrAfiy~ -}    [ "photographic" ] ]
+
+ |> "fa.sUliyA" <| [
 
     Identity                  `noun`    {- faSuwliyA -}        [ "beans" ] ]
 
@@ -1749,7 +1851,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- faranosA -}         [ "France" ] ]
 
- |> "faylasuwf" <| [
+ |> "faylasUf" <| [
 
     Identity                  `noun`    {- fayolasuwf -}       [ "philosopher" ] ]
 
@@ -1761,7 +1863,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy |< aT      `noun`    {- fidirAliy~ap -}     [ "federation" ] ]
 
- |> "filas.tiyn" <| [
+ |> "filas.tIn" <| [
 
     Identity                  `noun`    {- filasoTiyn -}       [ "Palestine" ],
 
@@ -1795,29 +1897,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- firodawos -}        [ "paradise" ] ]
 
- |> "firnAnduw" <| [
+ |> "firnAndU" <| [
 
     Identity                  `noun`    {- fironAnoduw -}      [ "Fernando" ] ]
-
- |> "fiy.guw" <| [
-
-    Identity                  `noun`    {- fiyguw -}           [ "Figo" ] ]
 
  |> "fiyA.grA" <| [
 
     Identity                  `noun`    {- fiyAgrA -}          [ "Viagra" ] ]
 
- |> "fiyAkuwm" <| [
+ |> "fiyAkUm" <| [
 
     Identity                  `noun`    {- fiyAkuwm -}         [ "Viacom" ] ]
 
- |> "fiyAlly" <| [
+ |> "fiyUrintInA" <| [
 
-    Identity                  `noun`    {- fiyAlly -}          [ "Vialli" ] ]
-
- |> "fiy^giystiy" <| [
-
-    Identity                  `noun`    {- fiyjiysotiy -}      [ "Vijesti" ] ]
+    Identity                  `noun`    {- fiyuwrinotiynA -}   [ "Fiorentina" ] ]
 
  |> "fiyatnAm" <| [
 
@@ -1825,155 +1919,41 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- fiyatonAmiy~ -}     [ "Vietnamese" ] ]
 
- |> "fiyd^g" <| [
-
-    Identity |< Iy            `adj`     {- fiydojiy~ -}        [ "Fijian" ] ]
-
- |> "fiyd^giy" <| [
-
-    Identity                  `noun`    {- fiydojiy -}         [ "Fiji" ] ]
-
- |> "fiydirAl" <| [
-
-    Identity |< Iy            `adj`     {- fiydirAliy~ -}      [ "Federal" ] ]
-
- |> "fiydriyn" <| [
-
-    Identity                  `noun`    {- fiydoriyn -}        [ "Vedrine" ] ]
-
- |> "fiydyuw" <| [
-
-    Identity                  `noun`    {- fiydoyuw -}         [ "video" ] ]
-
- |> "fiyktuwr" <| [
-
-    Identity                  `noun`    {- fiykotuwr -}        [ "Victor", "Viktor" ] ]
-
- |> "fiykuwfiyt^s" <| [
-
-    Identity                  `noun`    {- fiykuwfiyt$ -}      [ "Vickovic" ] ]
-
- |> "fiylAdilfiyA" <| [
-
-    Identity                  `noun`    {- fiylAdilofiyA -}    [ "Philadelphia" ] ]
-
- |> "fiyliybbiyn" <| [
-
-    Identity                  `noun`    {- fiyliyb~iyn -}      [ "Philippines" ] ]
-
- |> "fiyliybbiyniyy" <| [
-
-    Identity                  `adj`     {- fiyliyb~iyniy~ -}   [ "Philippine", "Filipino" ] ]
-
- |> "fiyliybs" <| [
-
-    Identity                  `noun`    {- fiyliybs -}         [ "Phillips", "Philips" ] ]
-
- |> "fiyllA" <| [
-
-    Identity                  `noun`    {- fiyl~A -}           [ "villa", "Villa" ] ]
-
- |> "fiylm" <| [
-
-    Identity                  `noun`    {- fiylom -}           [ "film", "movie" ] ]
-
- |> "fiymA" <| [
-
-    Identity                  `prep`    {- fiymA -}            [ "in what" ],
-
-    Identity                  `conj`    {- fiymA -}            [ "while", "during which" ],
-
-    Identity                  `noun`    {- fiymA -}            [ "FEMA (Federal Emergency Management Agency)" ] ]
-
- |> "fiyr^giyniyA" <| [
-
-    Identity                  `noun`    {- fiyrojiyniyA -}     [ "Virginia" ] ]
-
- |> "fiytuw" <| [
-
-    Identity                  `noun`    {- fiytuw -}           [ "veto" ] ]
-
- |> "fiyuwrintiynA" <| [
-
-    Identity                  `noun`    {- fiyuwrinotiynA -}   [ "Fiorentina" ] ]
-
- |> "fiyyinnA" <| [
-
-    Identity                  `noun`    {- fiyyin~A -}         [ "Vienna" ] ]
-
- |> "fiyzA" <| [
-
-    Identity                  `noun`    {- fiyzA -}            [ "visa" ] ]
-
- |> "fiyzyA'" <| [
-
-    Identity                  `adj`     {- fiyzyA' -}          [ "physics" ],
-
-    Identity |< Iy            `adj`     {- fiyzyA}iy~ -}       [ "physicist" ] ]
-
- |> "flAdiymiyr" <| [
+ |> "flAdImIr" <| [
 
     Identity                  `noun`    {- flAdiymiyr -}       [ "Vladimir" ] ]
 
- |> "fliy.hAn" <| [
+ |> "flI.hAn" <| [
 
     Identity                  `noun`    {- fliyHAn -}          [ "Fleihan" ] ]
 
- |> "fluwriydA" <| [
+ |> "flUrIdA" <| [
 
     Identity                  `noun`    {- fluwriydA -}        [ "Florida" ] ]
 
- |> "frAnkfuwrt" <| [
-
-    Identity                  `noun`    {- frAnokofuwrot -}    [ "Frankfurt" ] ]
-
- |> "frAnkuw" <| [
+ |> "frAnkU" <| [
 
     Identity                  `noun`    {- frAnokuw -}         [ "Franco" ] ]
+
+ |> "frAnkfUrt" <| [
+
+    Identity                  `noun`    {- frAnokofuwrot -}    [ "Frankfurt" ] ]
 
  |> "frAns" <| [
 
     Identity                  `noun`    {- frAnos -}           [ "France" ] ]
 
- |> "frAnsiyskuw" <| [
+ |> "frAnsIskU" <| [
 
     Identity                  `noun`    {- frAnosiysokuw -}    [ "Francisco" ] ]
 
- |> "frAynty" <| [
-
-    Identity                  `noun`    {- frAynty -}          [ "Vraientti ??" ] ]
-
- |> "fran^giyh" <| [
+ |> "fran^gIh" <| [
 
     Identity                  `noun`    {- franojiyh -}        [ "Franjieh" ] ]
 
  |> "fransuwA" <| [
 
     Identity                  `noun`    {- franosuwA -}        [ "Francois" ] ]
-
- |> "fuw.gts" <| [
-
-    Identity                  `noun`    {- fuwgts -}           [ "Vogts" ] ]
-
- |> "fuwks" <| [
-
-    Identity                  `noun`    {- fuwkos -}           [ "Fox" ] ]
-
- |> "fuwlkluwr" <| [
-
-    Identity |< Iy            `adj`     {- fuwlkluwriy~ -}     [ "folkloric" ] ]
-
- |> "fuwrmuwlA" <| [
-
-    Identity                  `noun`    {- fuwromuwlA -}       [ "Formula" ] ]
-
- |> "fuwsf" <| [
-
-    Identity |< At            `noun`    {- fuwsofAt -}         [ "phosphate" ] ]
-
- |> "fuwtuw.grAfiyy" <| [
-
-    Identity                  `adj`     {- fuwtuwgrAfiy~ -}    [ "photographic" ] ]
 
  |> "ifti'" <| [
 

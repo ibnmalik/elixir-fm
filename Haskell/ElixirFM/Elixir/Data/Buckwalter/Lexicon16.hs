@@ -9,29 +9,13 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'i.triy" <| [
+ |> "'i.trI" <| [
 
     -- ;; <iToriyap_1
     -- <Try    <iToriy Nap     vermicelli
     -- ATry    <iToriy Nap     vermicelli
 
     Identity |< aT            `noun`    {- IiToriyap -}        [ "vermicelli" ] ]
-
- |> "'u.truw.h" <| [
-
-    -- ;; >uToruwHap_1
-    -- >TrwH   >uToruwH        NapAt   dissertation;thesis
-    -- ATrwH   >uToruwH        NapAt   dissertation;thesis
-
-    Identity |< aT            `noun`    {- OuToruwHap -}       [ "dissertation", "thesis" ] ]
-
- |> "'u.truwf" <| [
-
-    -- ;; >uToruwfap_1
-    -- >Trwf   >uToruwf        Napdu   masterpiece
-    -- ATrwf   >uToruwf        Napdu   masterpiece
-
-    Identity |< aT            `noun`    {- OuToruwfap -}       [ "masterpiece" ] ]
 
  |> ".t  '" <| [
 
@@ -3757,6 +3741,12 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCACIL
                            {- `others`  [ ".tarAriy.h Ndip" ] -},
 
+    -- ;; >uToruwHap_1
+    -- >TrwH   >uToruwH        NapAt   dissertation;thesis
+    -- ATrwH   >uToruwH        NapAt   dissertation;thesis
+
+    HuFCUL |< aT              `noun`    {- OuToruwHap -}       [ "dissertation", "thesis" ],
+
     -- ;; maToraH_1
     -- mTrH    maToraH Ndu     place;seat
     -- mTArH   maTAriH Ndip    places;seats
@@ -4329,6 +4319,12 @@ lexicon = listing "Lexicon's properties"
     -- ATrf    >aToraf Nel     more/most curious
 
     HaFCaL                    `noun`    {- OaToraf -}          [ "more/most curious" ],
+
+    -- ;; >uToruwfap_1
+    -- >Trwf   >uToruwf        Napdu   masterpiece
+    -- ATrwf   >uToruwf        Napdu   masterpiece
+
+    HuFCUL |< aT              `noun`    {- OuToruwfap -}       [ "masterpiece" ],
 
     -- ;; miToraf_1
     -- mTrf    miToraf Ndu     shawl
@@ -6324,14 +6320,19 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCACiL
                            {- `others`  [ ".tazAzin Ndip" ] -} ]
 
- |> ".tA^giyk" <| [
+ |> ".tA^gIk" <| [
 
     -- ;; TAjiyk_1
     -- TAjyk   TAjiyk  N0      Tajiks
 
-    Identity                  `noun`    {- TAjiyk -}           [ "Tajiks" ] ]
+    Identity                  `noun`    {- TAjiyk -}           [ "Tajiks" ],
 
- |> ".tA^giykistAn" <| [
+    -- ;; TAjiykiy~_1
+    -- TAjyky  TAjiykiy~       Nall    Tajik
+
+    Identity |< Iy            `adj`     {- TAjiykiy~ -}        [ "Tajik" ] ]
+
+ |> ".tA^gIkistAn" <| [
 
     -- ;; TAjiykisotAn_1
     -- TAjykstAn       TAjiykisotAn    N0      Tajikistan
@@ -6346,13 +6347,6 @@ lexicon = listing "Lexicon's properties"
     -- tAjykstAny      tAjiykisotAniy~ Nall    Tajikistani     [[tAjiykisotAniy~/ADJ]]
 
     Identity |< Iy            `adj`     {- TAjiykisotAniy~ -}  [ "Tajikistani" ] ]
-
- |> ".tA^giykiyy" <| [
-
-    -- ;; TAjiykiy~_1
-    -- TAjyky  TAjiykiy~       Nall    Tajik
-
-    Identity                  `noun`    {- TAjiykiy~ -}        [ "Tajik" ] ]
 
  |> ".tAlamA" <| [
 
@@ -6379,6 +6373,52 @@ lexicon = listing "Lexicon's properties"
     -- TAlbAny TAlibAniy~      N0      Talibani
 
     Identity |< Iy            `adj`     {- TAlibAniy~ -}       [ "Talibani" ] ]
+
+ |> ".tUb^g" <| [
+
+    -- ;; Tuwbojiy~_1
+    -- Twbjy   Tuwbojiy~       Nall    artilleryman     [[Tuwbojiy~/ADJ]]
+    -- Twbjy   Tuwbojiy~       Nap     artillerymen     [[Tuwbojiy~/NOUN]]
+
+    Identity |< Iy            `adj`     {- Tuwbojiy~ -}        [ "artilleryman", "artillerymen" ],
+
+    -- ;; Tuwbojiy~ap_1
+    -- Twbjy   Tuwbojiy~       Nap     artillery     [[Tuwbojiy~/NOUN]]
+
+    Identity |< Iy |< aT      `noun`    {- Tuwbojiy~ap -}      [ "artillery" ] ]
+
+ |> ".tUkiyU" <| [
+
+    -- ;; Tuwkiyuw_1
+    -- Twkyw   Tuwkiyuw        N0      Tokyo
+
+    Identity                  `noun`    {- Tuwkiyuw -}         [ "Tokyo" ] ]
+
+ |> ".tUlkarm" <| [
+
+    -- ;; Tuwlokarm_1
+    -- Twlkrm  Tuwlokarm       N0      Tulkarem
+
+    Identity                  `noun`    {- Tuwlokarm -}        [ "Tulkarem" ] ]
+
+ |> ".tUmsUn" <| [
+
+    -- ;; Tuwmosuwn_1
+    -- Twmswn  Tuwmosuwn       N0      Thomson;Tomson
+
+    Identity                  `noun`    {- Tuwmosuwn -}        [ "Thomson", "Tomson" ] ]
+
+ |> ".tUrbIn" <| [
+
+    -- ;; Tuwrobiyn_1
+    -- Twrbyn  Tuwrobiyn       NduAt   turbine
+
+    Identity                  `noun`    {- Tuwrobiyn -}        [ "turbine" ],
+
+    -- ;; Tuwrobiyniy~_1
+    -- Twrbyny Tuwrobiyniy~    N-ap    turbine;turbo     [[Tuwrobiyniy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- Tuwrobiyniy~ -}     [ "turbine", "turbo" ] ]
 
  |> ".t_ah" <| [
 
@@ -6415,7 +6455,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- TanoTA -}           [ "Tanta" ] ]
 
- |> ".tarAbizuwn" <| [
+ |> ".tarAbizUn" <| [
 
     -- ;; TarAbizuwn_1
     -- TrAbzwn TarAbizuwn      Ndip    Trabzon
@@ -6458,7 +6498,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Taro$A -}           [ "Tarsha" ] ]
 
- |> ".tara.tuwr" <| [
+ |> ".tara.tUr" <| [
 
     -- ;; TaraTuwr_1
     -- TrTwr   TaraTuwr        N       mayonnaise
@@ -6489,27 +6529,27 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Timir~ -}           [ "race horse" ] ]
 
- |> ".tubuw.grAfiyA" <| [
+ |> ".tubU.grAf" <| [
+
+    -- ;; TubuwgrAfiy~_1
+    -- TbwgrAfy        TubuwgrAfiy~    Nall    topographic     [[TubuwgrAfiy~/ADJ]]
+    -- TwbwgrAfy       TuwbuwgrAfiy~   Nall    topographic     [[TuwbuwgrAfiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- TubuwgrAfiy~ -}     [ "topographic" ],
+
+    -- ;; TubuwgrAfiy~ap_1
+    -- TbwgrAfy        TubuwgrAfiy~    Nap     topography     [[TubuwgrAfiy~/NOUN]]
+    -- TwbwgrAfy       TuwbuwgrAfiy~   Nap     topography     [[TuwbuwgrAfiy~/NOUN]]
+
+    Identity |< Iy |< aT      `noun`    {- TubuwgrAfiy~ap -}   [ "topography" ] ]
+
+ |> ".tubU.grAfiyA" <| [
 
     -- ;; TubuwgrAfiyA_1
     -- TbwgrAfyA       TubuwgrAfiyA    N0      topography
     -- TwbwgrAfyA      TuwbuwgrAfiyA   N0      topography
 
     Identity                  `noun`    {- TubuwgrAfiyA -}     [ "topography" ] ]
-
- |> ".tubuw.grAfiyy" <| [
-
-    -- ;; TubuwgrAfiy~_1
-    -- TbwgrAfy        TubuwgrAfiy~    Nall    topographic     [[TubuwgrAfiy~/ADJ]]
-    -- TwbwgrAfy       TuwbuwgrAfiy~   Nall    topographic     [[TuwbuwgrAfiy~/ADJ]]
-
-    Identity                  `adj`     {- TubuwgrAfiy~ -}     [ "topographic" ],
-
-    -- ;; TubuwgrAfiy~ap_1
-    -- TbwgrAfy        TubuwgrAfiy~    Nap     topography     [[TubuwgrAfiy~/NOUN]]
-    -- TwbwgrAfy       TuwbuwgrAfiy~   Nap     topography     [[TuwbuwgrAfiy~/NOUN]]
-
-    Identity |< aT            `noun`    {- TubuwgrAfiy~ap -}   [ "topography" ] ]
 
  |> ".tulay.til" <| [
 
@@ -6518,7 +6558,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- TulayoTilap -}      [ "Toledo" ] ]
 
- |> ".tum'aniyn" <| [
+ |> ".tum'anIn" <| [
 
     -- ;; Tumo>aniynap_1
     -- Tm>nyn  Tumo>aniyn      Nap     calm;tranquillity
@@ -6543,52 +6583,6 @@ lexicon = listing "Lexicon's properties"
     -- Trmb    Turumob NapAt   pump
 
     Identity |< aT            `noun`    {- Turumobap -}        [ "pump" ] ]
-
- |> ".tuwb^g" <| [
-
-    -- ;; Tuwbojiy~_1
-    -- Twbjy   Tuwbojiy~       Nall    artilleryman     [[Tuwbojiy~/ADJ]]
-    -- Twbjy   Tuwbojiy~       Nap     artillerymen     [[Tuwbojiy~/NOUN]]
-
-    Identity |< Iy            `adj`     {- Tuwbojiy~ -}        [ "artilleryman", "artillerymen" ],
-
-    -- ;; Tuwbojiy~ap_1
-    -- Twbjy   Tuwbojiy~       Nap     artillery     [[Tuwbojiy~/NOUN]]
-
-    Identity |< Iy |< aT      `noun`    {- Tuwbojiy~ap -}      [ "artillery" ] ]
-
- |> ".tuwkiyuw" <| [
-
-    -- ;; Tuwkiyuw_1
-    -- Twkyw   Tuwkiyuw        N0      Tokyo
-
-    Identity                  `noun`    {- Tuwkiyuw -}         [ "Tokyo" ] ]
-
- |> ".tuwlkarm" <| [
-
-    -- ;; Tuwlokarm_1
-    -- Twlkrm  Tuwlokarm       N0      Tulkarem
-
-    Identity                  `noun`    {- Tuwlokarm -}        [ "Tulkarem" ] ]
-
- |> ".tuwmsuwn" <| [
-
-    -- ;; Tuwmosuwn_1
-    -- Twmswn  Tuwmosuwn       N0      Thomson;Tomson
-
-    Identity                  `noun`    {- Tuwmosuwn -}        [ "Thomson", "Tomson" ] ]
-
- |> ".tuwrbiyn" <| [
-
-    -- ;; Tuwrobiyn_1
-    -- Twrbyn  Tuwrobiyn       NduAt   turbine
-
-    Identity                  `noun`    {- Tuwrobiyn -}        [ "turbine" ],
-
-    -- ;; Tuwrobiyniy~_1
-    -- Twrbyny Tuwrobiyniy~    N-ap    turbine;turbo     [[Tuwrobiyniy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- Tuwrobiyniy~ -}     [ "turbine", "turbo" ] ]
 
  |> "ma.tba`^g" <| [
 

@@ -2446,21 +2446,25 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `conj`    {- HAlamA -}           [ "as soon as" ] ]
 
+ |> ".hIna_dAk" <| [
+
+    Identity                  `adv`     {- Hiyna*Ak -}         [ "then", "at the time" ] ]
+
+ |> ".hInamA" <| [
+
+    Identity                  `conj`    {- HiynamA -}          [ "when", "while" ] ]
+
  |> ".halab^g" <| [
 
     Identity |< aT            `noun`    {- Halabojap -}        [ "Halabja" ] ]
 
- |> ".hamAdy" <| [
+ |> ".hamIdI" <| [
 
-    Identity                  `noun`    {- HamAdy -}           [ "Hamadi" ] ]
+    Identity                  `noun`    {- Hamiydiy -}         [ "Hameedi", "Hamidi" ] ]
 
  |> ".hamdayn" <| [
 
     Identity                  `noun`    {- Hamodayon -}        [ "Hamdein", "Hamdeen", "Hamdain" ] ]
-
- |> ".hamiydiy" <| [
-
-    Identity                  `noun`    {- Hamiydiy -}         [ "Hameedi", "Hamidi" ] ]
 
  |> ".hasanayn" <| [
 
@@ -2474,21 +2478,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- HayofA -}           [ "Haifa" ] ]
 
- |> ".haziyrAn" <| [
+ |> ".hazIrAn" <| [
 
     Identity                  `noun`    {- HaziyrAn -}         [ "June" ] ]
 
  |> ".hikmatyAr" <| [
 
     Identity                  `noun`    {- HikomatoyAr -}      [ "Hikmatyar" ] ]
-
- |> ".hiyna_dAk" <| [
-
-    Identity                  `adv`     {- Hiyna*Ak -}         [ "then", "at the time" ] ]
-
- |> ".hiynamA" <| [
-
-    Identity                  `conj`    {- HiynamA -}          [ "when", "while" ] ]
 
  |> ".hu^gaylAn" <| [
 

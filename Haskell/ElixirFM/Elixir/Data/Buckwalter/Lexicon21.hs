@@ -9,7 +9,7 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'iqliyd" <| [
+ |> "'iqlId" <| [
 
     -- ;; <iqoliyd_1
     -- <qlyd   <iqoliyd        Ndu     key
@@ -56,36 +56,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OuqoSur -}          [ "Luxor" ] ]
 
- |> "'uq.suw.s" <| [
-
-    -- ;; >uqoSuwSap_1
-    -- >qSwS   >uqoSuwS        Napdu   tale;novella
-    -- AqSwS   >uqoSuwS        Napdu   tale;novella
-    -- >qASyS  >aqASiyS        Ndip    tales;novellas
-    -- AqASyS  >aqASiyS        Ndip    tales;novellas
-
-    Identity |< aT            `noun`    {- OuqoSuwSap -}       [ "tale", "novella" ] ]
-
- |> "'uqnuwm" <| [
-
-    -- ;; >uqonuwm_1
-    -- >qnwm   >uqonuwm        Ndu     hypostasis (person of the Trinity);basic element
-    -- Aqnwm   >uqonuwm        Ndu     hypostasis (person of the Trinity);basic element
-    -- >qAnym  >aqAniym        Ndip    hypostases (persons of the Trinity);basic elements
-    -- AqAnym  >aqAniym        Ndip    hypostases (persons of the Trinity);basic elements
-
-    Identity                  `noun`    {- Ouqonuwm -}         [ "hypostasis (person of the Trinity)", "basic element", "hypostases (persons of the Trinity)" ] ]
-
- |> "'uqsuwm" <| [
-
-    -- ;; >uqosuwmap_1
-    -- >qswm   >uqosuwm        Napdu   lot;portion
-    -- Aqswm   >uqosuwm        Napdu   lot;portion
-    -- >qAsym  >aqAsiym        Ndip    lots;portions
-    -- AqAsym  >aqAsiym        Ndip    lots;portions
-
-    Identity |< aT            `noun`    {- Ouqosuwmap -}       [ "lot", "portion" ] ]
-
  |> "maqbur" <| [
 
     -- ;; maqoburiy~_1
@@ -99,7 +69,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- maqoburiy~ -}       [ "Maqburi" ] ]
 
- |> "muqAwiluwn" <| [
+ |> "muqAwilUn" <| [
 
     -- ;; muqAwiluwn_1
     -- mqAwlwn muqAwiluwn      N0      Muqawiloun
@@ -1092,6 +1062,16 @@ lexicon = listing "Lexicon's properties"
     -- qSAS    qaS~AS  Nall    novelist;storyteller
 
     FaCCAL                    `noun`    {- qaS~AS -}           [ "novelist", "storyteller" ],
+
+    -- ;; >uqoSuwSap_1
+    -- >qSwS   >uqoSuwS        Napdu   tale;novella
+    -- AqSwS   >uqoSuwS        Napdu   tale;novella
+    -- >qASyS  >aqASiyS        Ndip    tales;novellas
+    -- AqASyS  >aqASiyS        Ndip    tales;novellas
+
+    HuFCUL |< aT              `noun`    {- OuqoSuwSap -}       [ "tale", "novella" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'aqA.siy.s Ndip" ] -},
 
     -- ;; miqaS~_1
     -- mqS     miqaS~  Ndu     scissors;shears
@@ -6786,7 +6766,16 @@ lexicon = listing "Lexicon's properties"
     -- ;; qahowAtiy~ap_1
     -- qhwAty  qahowAtiy~      Nap     cafe owners     [[qahowAtiy~/NOUN]]
 
-    FaCL |< At |< Iy |< aT    `noun`    {- qahowAtiy~ap -}     [ "cafe owners" ],
+    FaCL |< At |< Iy |< aT    `noun`    {- qahowAtiy~ap -}     [ "cafe owners" ] ]
+
+ |> "q h w ^g" <| [
+
+    -- ;; qahowajiy~_1
+    -- qhwjy   qahowajiy~      N-ap    cafe manager;coffee cook     [[qahowajiy~/ADJ]]
+
+    KaRDaS |< Iy              `adj`     {- qahowajiy~ -}       [ "cafe manager", "coffee cook" ] ]
+
+ |> "q h y" <| [
 
     -- ;; maqohaY_1
     -- mqhY    maqohaY N0      cafe;coffeehouse
@@ -6802,9 +6791,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; maqohAp_1
     -- mqhA    maqohA  Napdu   cafe;coffeehouse
 
-    MaFCY |< aT               `noun`    {- maqohAp -}          [ "cafe", "coffeehouse" ] ]
-
- |> "q h y" <| [
+    MaFCY |< aT               `noun`    {- maqohAp -}          [ "cafe", "coffeehouse" ],
 
     -- ;; qahiy-a_1
     -- qhy     qahiy   PV_no-w have no appetite
@@ -8985,7 +8972,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; qan~uwmap_1
     -- qnwm    qan~uwm Nap     qannuma (sacred fish in ancient Egypt)
 
-    FaCCUL |< aT              `noun`    {- qan~uwmap -}        [ "qannuma (sacred fish in ancient Egypt)" ] ]
+    FaCCUL |< aT              `noun`    {- qan~uwmap -}        [ "qannuma (sacred fish in ancient Egypt)" ],
+
+    -- ;; >uqonuwm_1
+    -- >qnwm   >uqonuwm        Ndu     hypostasis (person of the Trinity);basic element
+    -- Aqnwm   >uqonuwm        Ndu     hypostasis (person of the Trinity);basic element
+    -- >qAnym  >aqAniym        Ndip    hypostases (persons of the Trinity);basic elements
+    -- AqAnym  >aqAniym        Ndip    hypostases (persons of the Trinity);basic elements
+
+    HuFCUL                    `noun`    {- Ouqonuwm -}         [ "hypostasis (person of the Trinity)", "basic element", "hypostases (persons of the Trinity)" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'aqAniym Ndip" ] -} ]
 
  |> "q n n" <| [
 
@@ -11970,6 +11967,16 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL |< aT               `noun`    {- qasiymap -}         [ "coupon", "stub" ],
 
+    -- ;; >uqosuwmap_1
+    -- >qswm   >uqosuwm        Napdu   lot;portion
+    -- Aqswm   >uqosuwm        Napdu   lot;portion
+    -- >qAsym  >aqAsiym        Ndip    lots;portions
+    -- AqAsym  >aqAsiym        Ndip    lots;portions
+
+    HuFCUL |< aT              `noun`    {- Ouqosuwmap -}       [ "lot", "portion" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'aqAsiym Ndip" ] -},
+
     -- ;; maqosam_1
     -- mqsm    maqosam Ndu     compartment;distribution
     -- mqsm    maqosim Ndu     compartment;distribution
@@ -14853,7 +14860,13 @@ lexicon = listing "Lexicon's properties"
     -- ;; qazowiyn_1
     -- qzwyn   qazowiyn        Ndip    Caspian;Qazvin
 
-    KaRDIS                    `noun`    {- qazowiyn -}         [ "Caspian", "Qazvin" ] ]
+    KaRDIS                    `noun`    {- qazowiyn -}         [ "Caspian", "Qazvin" ],
+
+    -- ;; qazowiyniy~_1
+    -- qzwyny  qazowiyniy~     Nall    Caspian     [[qazowiyniy~/NOUN]]
+    -- qzwyny  qazowiyniy~     Nall    Caspian     [[qazowiyniy~/ADJ]]
+
+    KaRDIS |< Iy              `adj`     {- qazowiyniy~ -}      [ "Caspian" ] ]
 
  |> "q z z" <| [
 
@@ -14947,28 +14960,28 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy |< aT      `noun`    {- qA}imaqAmiy~ap -}   [ "administrative district" ] ]
 
- |> "qA.zimbuwr" <| [
+ |> "qA.zimbUr" <| [
 
     -- ;; qAZimbuwr_1
     -- qAZmbwr qAZimbuwr       Nprop   Kazempour
 
     Identity                  `noun`    {- qAZimbuwr -}        [ "Kazempour" ] ]
 
- |> "qA^sAniy" <| [
+ |> "qA^sAnI" <| [
 
     -- ;; qA$Aniy_1
     -- qA$Any  qA$Aniy N0      glazed tiles;porcelain
 
     Identity                  `noun`    {- qA$Aniy -}          [ "glazed tiles", "porcelain" ] ]
 
- |> "qAbiyl" <| [
+ |> "qAbIl" <| [
 
     -- ;; qAbiyl_1
     -- qAbyl   qAbiyl  Nprop   Qabil;Cain
 
     Identity                  `noun`    {- qAbiyl -}           [ "Qabil", "Cain" ] ]
 
- |> "qAdruwf" <| [
+ |> "qAdrUf" <| [
 
     -- ;; qAdruwf_1
     -- qAdrwf  qAdruwf Nprop   Kadyrov
@@ -15018,6 +15031,49 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- qAwuq -}            [ "headgear" ] ]
 
+ |> "qI^sAnI" <| [
+
+    -- ;; qiy$Aniy_1
+    -- qy$Any  qiy$Aniy        N0      glazed tiles;porcelain
+
+    Identity                  `noun`    {- qiy$Aniy -}         [ "glazed tiles", "porcelain" ] ]
+
+ |> "qImar" <| [
+
+    -- ;; qiymariy~_1
+    -- qymry   qiymariy~       N0      Qimari
+
+    Identity |< Iy            `adj`     {- qiymariy~ -}        [ "Qimari" ] ]
+
+ |> "qUmandAn" <| [
+
+    -- ;; quwmanodAn_1
+    -- qwmndAn quwmanodAn      N       commandant
+
+    Identity                  `noun`    {- quwmanodAn -}       [ "commandant" ] ]
+
+ |> "qUmisIr" <| [
+
+    -- ;; quwmisiyr_1
+    -- qwmsyr  quwmisiyr       N       commissioner
+
+    Identity                  `noun`    {- quwmisiyr -}        [ "commissioner" ] ]
+
+ |> "qUquryAl" <| [
+
+    -- ;; quwquroyAl_1
+    -- qwqryAl quwquroyAl      Nprop   Gogorial (Gorgorial??)
+
+    Identity                  `noun`    {- quwquroyAl -}       [ "Gogorial (Gorgorial??)" ] ]
+
+ |> "qUrInA'" <| [
+
+    -- ;; quwriynA}iy~_1
+    -- qwrynA}y        quwriynA}iy~    Nall    Cyrenaic     [[quwriynA}iy~/NOUN]]
+    -- qwrynA}y        quwriynA}iy~    Nall    Cyrenaic     [[quwriynA}iy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- quwriynA}iy~ -}     [ "Cyrenaic" ] ]
+
  |> "qa.tar^g" <| [
 
     -- ;; qaTarojiy~_1
@@ -15026,12 +15082,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `noun`    {- qaTarojiy~ -}       [ "shunter", "switchman", "switchmen" ] ]
 
- |> "qa.tramiyz" <| [
+ |> "qa.tramIz" <| [
 
     -- ;; qaToramiyz_1
     -- qTrmyz  qaToramiyz      N       large glass bottle
 
     Identity                  `noun`    {- qaToramiyz -}       [ "large glass bottle" ] ]
+
+ |> "qabUdAn" <| [
+
+    -- ;; qabuwdAn_1
+    -- qbwdAn  qabuwdAn        N       captain
+
+    Identity                  `noun`    {- qabuwdAn -}         [ "captain" ] ]
 
  |> "qaba.dAy" <| [
 
@@ -15055,14 +15118,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `conj`    {- qabolamA -}         [ "before" ] ]
 
- |> "qabuwdAn" <| [
-
-    -- ;; qabuwdAn_1
-    -- qbwdAn  qabuwdAn        N       captain
-
-    Identity                  `noun`    {- qabuwdAn -}         [ "captain" ] ]
-
- |> "qadduwmiy" <| [
+ |> "qaddUmI" <| [
 
     -- ;; qad~uwmiy_1
     -- qdwmy   qad~uwmiy       N0      Qaddumi;Qaddoumi;Kaddumi;Kaddoumi
@@ -15085,14 +15141,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- qahoramAn -}        [ "household manager", "butler", "housekeeper" ] ]
 
- |> "qahwa^giyy" <| [
-
-    -- ;; qahowajiy~_1
-    -- qhwjy   qahowajiy~      N-ap    cafe manager;coffee cook     [[qahowajiy~/ADJ]]
-
-    Identity                  `adj`     {- qahowajiy~ -}       [ "cafe manager", "coffee cook" ] ]
-
- |> "qalAwuw.z" <| [
+ |> "qalAwU.z" <| [
 
     -- ;; qalAwuwZ_1
     -- qlAwwZ  qalAwuwZ        N       ship's pilot
@@ -15104,7 +15153,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- qalAwuwZ -}         [ "screw" ] ]
 
- |> "qalAwuwz" <| [
+ |> "qalAwUz" <| [
 
     -- ;; qalAwuwz_1
     -- qlAwwz  qalAwuwz        N       ship's pilot
@@ -15116,7 +15165,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- qalAwuwz -}         [ "screw" ] ]
 
- |> "qalAyiydih" <| [
+ |> "qalAyIdih" <| [
 
     -- ;; qalAyiydih_1
     -- qlAyydh qalAyiydih      Nprop   Galaydeh
@@ -15130,7 +15179,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- qalanodAr -}        [ "wandering dervish", "calender" ] ]
 
- |> "qalansuw" <| [
+ |> "qalansU" <| [
 
     -- ;; qalanosuwap_1
     -- qlnsw   qalanosuw       Napdu   hood;cap
@@ -15150,7 +15199,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `conj`    {- qal~amA -}          [ "rarely", "seldom" ] ]
 
- |> "qalqiyliy" <| [
+ |> "qalqIlI" <| [
 
     -- ;; qaloqiyliyap_1
     -- qlqylyp qaloqiyliyap    N0      Qalqilya
@@ -15209,7 +15258,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- qarAniyA -}         [ "dogwood" ] ]
 
- |> "qarAquw^s" <| [
+ |> "qarAqU^s" <| [
 
     -- ;; qarAquw$_1
     -- qrAqw$  qarAquw$        N       puppet
@@ -15223,14 +15272,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- qaraDAwiy~ -}       [ "Qaradawi" ] ]
 
- |> "qarabiyn" <| [
+ |> "qarabIn" <| [
 
     -- ;; qarabiynap_1
     -- qrbyn   qarabiyn        NapAt   carbine
 
     Identity |< aT            `noun`    {- qarabiynap -}       [ "carbine" ] ]
 
- |> "qarabuws" <| [
+ |> "qarabUs" <| [
 
     -- ;; qarabuws_1
     -- qrbws   qarabuws        Ndu     saddlebow
@@ -15260,14 +15309,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- qaranoq -}          [ "Garang" ] ]
 
- |> "qaraquwl" <| [
+ |> "qaraqUl" <| [
 
     -- ;; qaraquwl_1
     -- qrqwl   qaraquwl        N       puppet
 
     Identity                  `noun`    {- qaraquwl -}         [ "puppet" ] ]
 
- |> "qaraquwz" <| [
+ |> "qaraqUz" <| [
 
     -- ;; qaraquwz_1
     -- qrqwz   qaraquwz        N       puppet
@@ -15275,7 +15324,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- qaraquwz -}         [ "puppet" ] ]
 
- |> "qarnabiy.t" <| [
+ |> "qarnabI.t" <| [
 
     -- ;; qaronabiyT_1
     -- qrnbyT  qaronabiyT      N       cauliflower
@@ -15337,14 +15386,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- qayowayon -}        [ "Qaiwain" ] ]
 
- |> "qazwiyniyy" <| [
-
-    -- ;; qazowiyniy~_1
-    -- qzwyny  qazowiyniy~     Nall    Caspian     [[qazowiyniy~/NOUN]]
-    -- qzwyny  qazowiyniy~     Nall    Caspian     [[qazowiyniy~/ADJ]]
-
-    Identity                  `adj`     {- qazowiyniy~ -}      [ "Caspian" ] ]
-
  |> "qima.tr" <| [
 
     -- ;; qimaTor_1
@@ -15366,7 +15407,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- qin~abiy~ -}        [ "hempen", "hemp" ] ]
 
- |> "qir.giyzstAn" <| [
+ |> "qir.gIzstAn" <| [
 
     -- ;; qirogiyzostAn_1
     -- qrgyzstAn       qirogiyzostAn   N0      Kyrgyzstan
@@ -15379,6 +15420,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- qirogiyzostAniy~ -} [ "Kyrgyzstani" ] ]
 
+ |> "qirIm" <| [
+
+    -- ;; qiriym_1
+    -- qrym    qiriym  N       Crimea
+
+    Identity                  `noun`    {- qiriym -}           [ "Crimea" ] ]
+
  |> "qirillY" <| [
 
     -- ;; qiril~aY_1
@@ -15386,33 +15434,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- qiril~aY -}         [ "kingfisher" ] ]
 
- |> "qiriym" <| [
+ |> "qrU^g" <| [
 
-    -- ;; qiriym_1
-    -- qrym    qiriym  N       Crimea
-
-    Identity                  `noun`    {- qiriym -}           [ "Crimea" ] ]
-
- |> "qiy^sAniy" <| [
-
-    -- ;; qiy$Aniy_1
-    -- qy$Any  qiy$Aniy        N0      glazed tiles;porcelain
-
-    Identity                  `noun`    {- qiy$Aniy -}         [ "glazed tiles", "porcelain" ] ]
-
- |> "qiymar" <| [
-
-    -- ;; qiymariy~_1
-    -- qymry   qiymariy~       N0      Qimari
-
-    Identity |< Iy            `adj`     {- qiymariy~ -}        [ "Qimari" ] ]
-
- |> "qrw^g" <| [
-
-    -- ;; qrwj_1
+    -- ;; qruwj_1
     -- qrwj    qrwj    N0      Geurrouj
 
-    Identity                  `noun`    {- qrwj -}             [ "Geurrouj" ] ]
+    Identity                  `noun`    {- qruwj -}            [ "Geurrouj" ] ]
 
  |> "qu.surmill" <| [
 
@@ -15421,14 +15448,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- quSuromil~ -}       [ "ashes" ] ]
 
- |> "qu^s`ariyr" <| [
+ |> "qu^s`arIr" <| [
 
     -- ;; qu$oEariyrap_1
     -- q$Eryr  qu$oEariyr      Nap     shuddering;trembling;goose bumps
 
     Identity |< aT            `noun`    {- qu$oEariyrap -}     [ "shuddering", "trembling", "goose bumps" ] ]
 
- |> "qulansiy" <| [
+ |> "qulansI" <| [
 
     -- ;; qulanosiyap_1
     -- qlnsy   qulanosiy       Napdu   hood;cap
@@ -15444,14 +15471,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- qum~uS -}           [ "archpriest" ] ]
 
- |> "qun.sulAtuw" <| [
+ |> "qun.sulAtU" <| [
 
     -- ;; qunoSulAtuw_1
     -- qnSlAtw qunoSulAtuw     N0      consulate
 
     Identity                  `noun`    {- qunoSulAtuw -}      [ "consulate" ] ]
 
- |> "qunnabiy.t" <| [
+ |> "qunnabI.t" <| [
 
     -- ;; qun~abiyT_1
     -- qnbyT   qun~abiyT       N       cauliflower
@@ -15496,7 +15523,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- qurunod -}          [ "corundum" ] ]
 
- |> "qus.tan.tiyn" <| [
+ |> "qus.tan.tIn" <| [
 
     -- ;; qusoTanoTiyn_1
     -- qsTnTyn qusoTanoTiyn    N0      Constantine
@@ -15508,6 +15535,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy |< aT      `noun`    {- qusoTanoTiyniy~ap -} [ "Constantinople" ] ]
 
+ |> "qusan.tIn" <| [
+
+    -- ;; qusanoTiynap_1
+    -- qsnTynp qusanoTiynap    Nprop   Constantine
+
+    Identity |< aT            `noun`    {- qusanoTiynap -}     [ "Constantine" ] ]
+
  |> "qusan.tin" <| [
 
     -- ;; qusanoTiniy~_1
@@ -15515,13 +15549,6 @@ lexicon = listing "Lexicon's properties"
     -- qsnTyny qusanoTiyniy~   Nall    from/of Constantine     [[qusanoTiyniy~/ADJ]]
 
     Identity |< Iy            `adj`     {- qusanoTiniy~ -}     [ "from/of Constantine" ] ]
-
- |> "qusan.tiyn" <| [
-
-    -- ;; qusanoTiynap_1
-    -- qsnTynp qusanoTiynap    Nprop   Constantine
-
-    Identity |< aT            `noun`    {- qusanoTiynap -}     [ "Constantine" ] ]
 
  |> "quwatl" <| [
 
@@ -15537,36 +15564,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- quwayosimap -}      [ "Quweisma" ] ]
 
- |> "quwmandAn" <| [
+ |> "quzmU.grAf" <| [
 
-    -- ;; quwmanodAn_1
-    -- qwmndAn quwmanodAn      N       commandant
+    -- ;; quzomuwgrAfiy~_1
+    -- qzmwgrAfy       quzomuwgrAfiy~  N-ap    cosmographic     [[quzomuwgrAfiy~/ADJ]]
 
-    Identity                  `noun`    {- quwmanodAn -}       [ "commandant" ] ]
+    Identity |< Iy            `adj`     {- quzomuwgrAfiy~ -}   [ "cosmographic" ],
 
- |> "quwmisiyr" <| [
+    -- ;; quzomuwgrAfiy~_2
+    -- qzmwgrAfy       quzomuwgrAfiy~  Nall    cosmographer     [[quzomuwgrAfiy~/ADJ]]
 
-    -- ;; quwmisiyr_1
-    -- qwmsyr  quwmisiyr       N       commissioner
+    Identity |< Iy            `adj`     {- quzomuwgrAfiy~ -}   [ "cosmographer" ] ]
 
-    Identity                  `noun`    {- quwmisiyr -}        [ "commissioner" ] ]
-
- |> "quwquryAl" <| [
-
-    -- ;; quwquroyAl_1
-    -- qwqryAl quwquroyAl      Nprop   Gogorial (Gorgorial??)
-
-    Identity                  `noun`    {- quwquroyAl -}       [ "Gogorial (Gorgorial??)" ] ]
-
- |> "quwriynA'" <| [
-
-    -- ;; quwriynA}iy~_1
-    -- qwrynA}y        quwriynA}iy~    Nall    Cyrenaic     [[quwriynA}iy~/NOUN]]
-    -- qwrynA}y        quwriynA}iy~    Nall    Cyrenaic     [[quwriynA}iy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- quwriynA}iy~ -}     [ "Cyrenaic" ] ]
-
- |> "quzmuw.grAfiyA" <| [
+ |> "quzmU.grAfiyA" <| [
 
     -- ;; quzomuwgrAfiyA_1
     -- qzmwgrAfyA      quzomuwgrAfiyA  N0      cosmography
@@ -15574,19 +15584,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- quzomuwgrAfiyA -}   [ "cosmography" ] ]
 
- |> "quzmuw.grAfiyy" <| [
-
-    -- ;; quzomuwgrAfiy~_1
-    -- qzmwgrAfy       quzomuwgrAfiy~  N-ap    cosmographic     [[quzomuwgrAfiy~/ADJ]]
-
-    Identity                  `adj`     {- quzomuwgrAfiy~ -}   [ "cosmographic" ],
-
-    -- ;; quzomuwgrAfiy~_2
-    -- qzmwgrAfy       quzomuwgrAfiy~  Nall    cosmographer     [[quzomuwgrAfiy~/ADJ]]
-
-    Identity                  `adj`     {- quzomuwgrAfiy~ -}   [ "cosmographer" ] ]
-
- |> "yaq.tiyn" <| [
+ |> "yaq.tIn" <| [
 
     -- ;; yaqoTiyn_1
     -- yqTyn   yaqoTiyn        N       squash

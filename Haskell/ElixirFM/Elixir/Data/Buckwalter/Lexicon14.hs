@@ -17,16 +17,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< At |< Iy      `adj`     {- OaSowAtiy~ -}       [ "phonetician" ] ]
 
- |> "'u.sbuw`" <| [
-
-    -- ;; >uSobuwE_1
-    -- >SbwE   >uSobuwE        Ndu     finger;toe
-    -- ASbwE   >uSobuwE        Ndu     finger;toe
-    -- >SAbyE  >aSAbiyE        Ndip    fingers;toes
-    -- ASAbyE  >aSAbiyE        Ndip    fingers;toes
-
-    Identity                  `noun`    {- OuSobuwE -}         [ "finger", "toe" ] ]
-
  |> ".s ' .g" <| [
 
     -- ;; SAg_1
@@ -1622,6 +1612,16 @@ lexicon = listing "Lexicon's properties"
     FuCAL                     `noun`    {- SubAE -}            [ "finger", "toe" ]
                               `plural`     FawACiL
                            {- `others`  [ ".sawAbi` Ndip" ] -},
+
+    -- ;; >uSobuwE_1
+    -- >SbwE   >uSobuwE        Ndu     finger;toe
+    -- ASbwE   >uSobuwE        Ndu     finger;toe
+    -- >SAbyE  >aSAbiyE        Ndip    fingers;toes
+    -- ASAbyE  >aSAbiyE        Ndip    fingers;toes
+
+    HuFCUL                    `noun`    {- OuSobuwE -}         [ "finger", "toe" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a.sAbiy` Ndip" ] -},
 
     -- ;; muSab~aE_1
     -- mSbE    muSab~aE        NduAt   grill;gridiron
@@ -7937,6 +7937,41 @@ lexicon = listing "Lexicon's properties"
 
     FaCCiL                    `noun`    {- Say~it -}           [ "megaphone" ] ]
 
+ |> ".sUdA" <| [
+
+    -- ;; SuwdA_1
+    -- SwdA    SuwdA   N0      soda
+
+    Identity                  `noun`    {- SuwdA -}            [ "soda" ] ]
+
+ |> ".sUdiyUm" <| [
+
+    -- ;; Suwdiyuwm_1
+    -- Swdywm  Suwdiyuwm       N0      sodium
+
+    Identity                  `noun`    {- Suwdiyuwm -}        [ "sodium" ] ]
+
+ |> ".sUfA" <| [
+
+    -- ;; SuwfA_1
+    -- SwfA    SuwfA   N0      sofa
+
+    Identity                  `noun`    {- SuwfA -}            [ "sofa" ] ]
+
+ |> ".sUfiyA" <| [
+
+    -- ;; SuwfiyA_1
+    -- SwfyA   SuwfiyA N0      Sofia
+
+    Identity                  `noun`    {- SuwfiyA -}          [ "Sofia" ] ]
+
+ |> ".sUyA" <| [
+
+    -- ;; SuwyA_1
+    -- SwyA    SuwyA   N0      soya
+
+    Identity                  `noun`    {- SuwyA -}            [ "soya" ] ]
+
  |> ".sabrA" <| [
 
     -- ;; SaborA_1
@@ -7944,7 +7979,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- SaborA -}           [ "Sabra" ] ]
 
- |> ".samuw'iyl" <| [
+ |> ".samU'Il" <| [
 
     -- ;; Samuw}iyl_1
     -- Smw}yl  Samuw}iyl       Nprop   Samuel;Samu'il
@@ -8000,7 +8035,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- SayodalAniy~ -}     [ "pharmacist" ] ]
 
- |> ".siddiyqiy" <| [
+ |> ".siddIqI" <| [
 
     -- ;; Sid~iyqiy_1
     -- Sdyqy   Sid~iyqiy       N0      Siddiqi
@@ -8036,41 +8071,6 @@ lexicon = listing "Lexicon's properties"
     -- SwyHb   SuwayoHib       Nall    little friend
 
     Identity                  `noun`    {- SuwayoHib -}        [ "little friend" ] ]
-
- |> ".suwdA" <| [
-
-    -- ;; SuwdA_1
-    -- SwdA    SuwdA   N0      soda
-
-    Identity                  `noun`    {- SuwdA -}            [ "soda" ] ]
-
- |> ".suwdiyuwm" <| [
-
-    -- ;; Suwdiyuwm_1
-    -- Swdywm  Suwdiyuwm       N0      sodium
-
-    Identity                  `noun`    {- Suwdiyuwm -}        [ "sodium" ] ]
-
- |> ".suwfA" <| [
-
-    -- ;; SuwfA_1
-    -- SwfA    SuwfA   N0      sofa
-
-    Identity                  `noun`    {- SuwfA -}            [ "sofa" ] ]
-
- |> ".suwfiyA" <| [
-
-    -- ;; SuwfiyA_1
-    -- SwfyA   SuwfiyA N0      Sofia
-
-    Identity                  `noun`    {- SuwfiyA -}          [ "Sofia" ] ]
-
- |> ".suwyA" <| [
-
-    -- ;; SuwyA_1
-    -- SwyA    SuwyA   N0      soya
-
-    Identity                  `noun`    {- SuwyA -}            [ "soya" ] ]
 
  |> "mun.sA`" <| [
 

@@ -1236,7 +1236,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dA -}               [ "Da" ] ]
 
- |> "dAfiydiy" <| [
+ |> "dAfIdI" <| [
 
     Identity                  `noun`    {- dAfiydiy -}         [ "Davide" ] ]
 
@@ -1244,7 +1244,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dAkAr -}            [ "Dakar" ] ]
 
- |> "dAnfuwr_t" <| [
+ |> "dAnIlInkU" <| [
+
+    Identity                  `noun`    {- dAniyliynokuw -}    [ "Danilenko" ] ]
+
+ |> "dAnfUr_t" <| [
 
     Identity                  `noun`    {- dAnofuwrv -}        [ "Danforth" ] ]
 
@@ -1252,19 +1256,15 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dAniyAl -}          [ "Daniel" ] ]
 
- |> "dAniyiyl" <| [
+ |> "dAniyIl" <| [
 
     Identity                  `noun`    {- dAniyiyl -}         [ "Daniel" ] ]
-
- |> "dAniyliynkuw" <| [
-
-    Identity                  `noun`    {- dAniyliynokuw -}    [ "Danilenko" ] ]
 
  |> "dArA" <| [
 
     Identity                  `noun`    {- dArA -}             [ "Dara" ] ]
 
- |> "dArfuwr" <| [
+ |> "dArfUr" <| [
 
     Identity                  `noun`    {- dArofuwr -}         [ "Darfour", "Darfur" ] ]
 
@@ -1272,7 +1272,81 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dAwud -}            [ "David", "Daud", "Daoud" ] ]
 
- |> "damanhuwr" <| [
+ |> "dIbUrtIfU" <| [
+
+    Identity                  `noun`    {- diybuwrotiyfuw -}   [ "Deportivo" ] ]
+
+ |> "dIktAtUr" <| [
+
+    Identity                  `noun`    {- diykotAtuwr -}      [ "dictator" ],
+
+    Identity |< Iy            `adj`     {- diykotAtuwriy~ -}   [ "dictatorial" ],
+
+    Identity |< Iy |< aT      `noun`    {- diykotAtuwriy~ap -} [ "dictatorship" ] ]
+
+ |> "dImItrI" <| [
+
+    Identity                  `noun`    {- diymiytriy -}       [ "Dimitri" ] ]
+
+ |> "dImU.grAf" <| [
+
+    Identity |< Iy            `adj`     {- diymuwgrAfiy~ -}    [ "demographic" ],
+
+    Identity |< Iy            `adj`     {- diymuwgrAfiy~ -}    [ "demographer" ] ]
+
+ |> "dImU.grAfiyA" <| [
+
+    Identity                  `noun`    {- diymuwgrAfiyA -}    [ "demography" ] ]
+
+ |> "dImUqrA.t" <| [
+
+    Identity |< Iy            `adj`     {- diymuwqrATiy~ -}    [ "democratic" ],
+
+    Identity |< Iy |< aT      `noun`    {- diymuwqrATiy~ap -}  [ "democracy" ] ]
+
+ |> "dInAmIk" <| [
+
+    Identity |< Iy            `adj`     {- diynAmiykiy~ -}     [ "dynamic", "dynamism" ] ]
+
+ |> "dInAmIt" <| [
+
+    Identity                  `noun`    {- diynAmiyt -}        [ "dynamite" ] ]
+
+ |> "dIsambir" <| [
+
+    Identity                  `noun`    {- diysamobir -}       [ "December" ] ]
+
+ |> "dIzIrIh" <| [
+
+    Identity                  `noun`    {- diyziyriyh -}       [ "Desire", "Desiree" ] ]
+
+ |> "dIznI" <| [
+
+    Identity                  `noun`    {- diyzoniy -}         [ "Disney" ] ]
+
+ |> "dU.glAs" <| [
+
+    Identity                  `noun`    {- duwgolAs -}         [ "Douglas" ] ]
+
+ |> "dUmA" <| [
+
+    Identity                  `noun`    {- duwmA -}            [ "Duma" ] ]
+
+ |> "dUmInIk" <| [
+
+    Identity                  `noun`    {- duwmiyniyk -}       [ "Dominik" ],
+
+    Identity                  `noun`    {- duwmiyniyk -}       [ "Dominique" ] ]
+
+ |> "dUnAld" <| [
+
+    Identity                  `noun`    {- duwnAld -}          [ "Donald" ] ]
+
+ |> "dUstum" <| [
+
+    Identity                  `noun`    {- duwsotum -}         [ "Dustum" ] ]
+
+ |> "damanhUr" <| [
 
     Identity                  `noun`    {- damanohuwr -}       [ "Damanhour" ] ]
 
@@ -1284,11 +1358,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- danimArok -}        [ "Denmark" ] ]
 
- |> "dayfinbuwrt" <| [
+ |> "dayfinbUrt" <| [
 
     Identity                  `noun`    {- dayofinbuwrt -}     [ "Davenport" ] ]
 
- |> "dibluwmAs" <| [
+ |> "diblUmAs" <| [
 
     Identity |< Iy            `adj`     {- dibluwmAsiy~ -}     [ "diplomatic" ],
 
@@ -1314,7 +1388,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dirAmA -}           [ "drama" ] ]
 
- |> "dirAmAtiyk" <| [
+ |> "dirAmAtIk" <| [
 
     Identity |< Iy            `adj`     {- dirAmAtiykiy~ -}    [ "dramatic" ] ]
 
@@ -1322,7 +1396,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- diroham -}          [ "dirham" ] ]
 
- |> "diyA^giyuw" <| [
+ |> "diyA^giyU" <| [
 
     Identity                  `noun`    {- diyAjiyuw -}        [ "Diageo" ] ]
 
@@ -1330,93 +1404,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- diyAnA -}           [ "Diana" ] ]
 
- |> "diybuwrtiyfuw" <| [
-
-    Identity                  `noun`    {- diybuwrotiyfuw -}   [ "Deportivo" ] ]
-
- |> "diyktAtuwr" <| [
-
-    Identity                  `noun`    {- diykotAtuwr -}      [ "dictator" ],
-
-    Identity |< Iy            `adj`     {- diykotAtuwriy~ -}   [ "dictatorial" ],
-
-    Identity |< Iy |< aT      `noun`    {- diykotAtuwriy~ap -} [ "dictatorship" ] ]
-
- |> "diymiytriy" <| [
-
-    Identity                  `noun`    {- diymiytriy -}       [ "Dimitri" ] ]
-
- |> "diymuw.grAf" <| [
-
-    Identity |< Iy            `adj`     {- diymuwgrAfiy~ -}    [ "demographic" ],
-
-    Identity |< Iy            `adj`     {- diymuwgrAfiy~ -}    [ "demographer" ] ]
-
- |> "diymuw.grAfiyA" <| [
-
-    Identity                  `noun`    {- diymuwgrAfiyA -}    [ "demography" ] ]
-
- |> "diymuwqrA.t" <| [
-
-    Identity |< Iy            `adj`     {- diymuwqrATiy~ -}    [ "democratic" ],
-
-    Identity |< Iy |< aT      `noun`    {- diymuwqrATiy~ap -}  [ "democracy" ] ]
-
- |> "diynAmiyk" <| [
-
-    Identity |< Iy            `adj`     {- diynAmiykiy~ -}     [ "dynamic", "dynamism" ] ]
-
- |> "diynAmiyt" <| [
-
-    Identity                  `noun`    {- diynAmiyt -}        [ "dynamite" ] ]
-
- |> "diysambir" <| [
-
-    Identity                  `noun`    {- diysamobir -}       [ "December" ] ]
-
- |> "diyuwkAnuwfiyt^s" <| [
+ |> "diyUkAnUfIt^s" <| [
 
     Identity                  `noun`    {- diyuwkAnuwfiyt$ -}  [ "Djukanovic" ] ]
 
- |> "diyziyriyh" <| [
+ |> "drUrI" <| [
 
-    Identity                  `noun`    {- diyziyriyh -}       [ "Desire", "Desiree" ] ]
-
- |> "diyzniy" <| [
-
-    Identity                  `noun`    {- diyzoniy -}         [ "Disney" ] ]
+    Identity                  `noun`    {- druwriy -}          [ "Drury" ] ]
 
  |> "drisdin" <| [
 
     Identity                  `noun`    {- drisodin -}         [ "Dresden" ] ]
 
- |> "druwriy" <| [
-
-    Identity                  `noun`    {- druwriy -}          [ "Drury" ] ]
-
- |> "duktuwrY" <| [
+ |> "duktUrY" <| [
 
     Identity |< aT            `noun`    {- dukotuwrAp -}       [ "doctorate" ] ]
-
- |> "duw.glAs" <| [
-
-    Identity                  `noun`    {- duwgolAs -}         [ "Douglas" ] ]
-
- |> "duwmA" <| [
-
-    Identity                  `noun`    {- duwmA -}            [ "Duma" ] ]
-
- |> "duwmiyniyk" <| [
-
-    Identity                  `noun`    {- duwmiyniyk -}       [ "Dominik" ],
-
-    Identity                  `noun`    {- duwmiyniyk -}       [ "Dominique" ] ]
-
- |> "duwnAld" <| [
-
-    Identity                  `noun`    {- duwnAld -}          [ "Donald" ] ]
-
- |> "duwstum" <| [
-
-    Identity                  `noun`    {- duwsotum -}         [ "Dustum" ] ]
 

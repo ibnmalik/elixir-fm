@@ -9,21 +9,7 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'ihlayla^g" <| [
-
-    -- ;; <iholayolaj_1
-    -- <hlylj  <iholayolaj     Ndu     ellipse
-    -- Ahlylj  <iholayolaj     Ndu     ellipse
-
-    Identity                  `noun`    {- Iiholayolaj -}      [ "ellipse" ],
-
-    -- ;; <iholayolajiy~_1
-    -- <hlyljy <iholayolajiy~  N-ap    elliptical     [[<iholayolajiy~/ADJ]]
-    -- Ahlyljy <iholayolajiy~  N-ap    elliptical     [[<iholayolajiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- Iiholayolajiy~ -}   [ "elliptical" ] ]
-
- |> "'ihliyla^g" <| [
+ |> "'ihlIla^g" <| [
 
     -- ;; <iholiylaj_1
     -- <hlylj  <iholiylaj      Ndu     ellipse
@@ -37,53 +23,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- Iiholiylajiy~ -}    [ "elliptical" ] ]
 
- |> "'uh^guww" <| [
+ |> "'ihlayla^g" <| [
 
-    -- ;; >uhojuw~ap_1
-    -- >hjw    >uhojuw~        Napdu   satirical poem;lampoon
-    -- Ahjw    >uhojuw~        Napdu   satirical poem;lampoon
-    -- >hjy    >uhojiy~        Napdu   satirical poem;lampoon     [[>uhojiy~/NOUN]]
-    -- Ahjy    >uhojiy~        Napdu   satirical poem;lampoon     [[>uhojiy~/NOUN]]
-    -- >hAjy   >ahAjiy~        N0_Nh   satirical poems;lampoons
-    -- AhAjy   >ahAjiy~        N0_Nh   satirical poems;lampoons
+    -- ;; <iholayolaj_1
+    -- <hlylj  <iholayolaj     Ndu     ellipse
+    -- Ahlylj  <iholayolaj     Ndu     ellipse
 
-    Identity |< aT            `noun`    {- Ouhojuw~ap -}       [ "satirical poem", "lampoon" ] ]
+    Identity                  `noun`    {- Iiholayolaj -}      [ "ellipse" ],
 
- |> "'uhbuw.t" <| [
+    -- ;; <iholayolajiy~_1
+    -- <hlyljy <iholayolajiy~  N-ap    elliptical     [[<iholayolajiy~/ADJ]]
+    -- Ahlyljy <iholayolajiy~  N-ap    elliptical     [[<iholayolajiy~/ADJ]]
 
-    -- ;; >uhobuwTap_1
-    -- >hbwT   >uhobuwT        Napdu   parachute
-    -- AhbwT   >uhobuwT        Napdu   parachute
-    -- >hAbyT  >ahAbiyT        Ndip    parachutes
-    -- AhAbyT  >ahAbiyT        Ndip    parachutes
-
-    Identity |< aT            `noun`    {- OuhobuwTap -}       [ "parachute" ] ]
-
- |> "'uhkuwm" <| [
-
-    -- ;; >uhokuwmap_1
-    -- >hkwm   >uhokuwm        Nap     derision;mockery
-    -- Ahkwm   >uhokuwm        Nap     derision;mockery
-
-    Identity |< aT            `noun`    {- Ouhokuwmap -}       [ "derision", "mockery" ] ]
-
- |> "'uhwiyy" <| [
-
-    -- ;; >uhowiy~ap_1
-    -- >hwy    >uhowiy~        Napdu   abyss;chasm     [[>uhowiy~/NOUN]]
-    -- Ahwy    >uhowiy~        Napdu   abyss;chasm     [[>uhowiy~/NOUN]]
-
-    Identity |< aT            `noun`    {- Ouhowiy~ap -}       [ "abyss", "chasm" ] ]
-
- |> "'uhzuw^g" <| [
-
-    -- ;; >uhozuwjap_1
-    -- >hzwj   >uhozuwj        Napdu   song
-    -- Ahzwj   >uhozuwj        Napdu   song
-    -- >hAzyj  >ahAziyj        Ndip    songs
-    -- AhAzyj  >ahAziyj        Ndip    songs
-
-    Identity |< aT            `noun`    {- Ouhozuwjap -}       [ "song" ] ]
+    Identity |< Iy            `adj`     {- Iiholayolajiy~ -}   [ "elliptical" ] ]
 
  |> "h ' '" <| [
 
@@ -924,6 +876,16 @@ lexicon = listing "Lexicon's properties"
 
     FiCA' |< Iy               `adj`     {- hijA}iy~ -}         [ "alphabetical" ],
 
+    -- ;; >uhojuw~ap_1
+    -- >hjw    >uhojuw~        Napdu   satirical poem;lampoon
+    -- Ahjw    >uhojuw~        Napdu   satirical poem;lampoon
+    -- >hjy    >uhojiy~        Napdu   satirical poem;lampoon     [[>uhojiy~/NOUN]]
+    -- Ahjy    >uhojiy~        Napdu   satirical poem;lampoon     [[>uhojiy~/NOUN]]
+    -- >hAjy   >ahAjiy~        N0_Nh   satirical poems;lampoons
+    -- AhAjy   >ahAjiy~        N0_Nh   satirical poems;lampoons
+
+    HuFCUL |< aT              `noun`    {- Ouhojuw~ap -}       [ "satirical poem", "lampoon" ],
+
     -- ;; tahojiyap_1
     -- thjy    tahojiy Nap     spelling
 
@@ -1322,6 +1284,16 @@ lexicon = listing "Lexicon's properties"
     -- hbyT    habiyT  N-ap    emaciated;worn out     [[habiyT/ADJ]]
 
     FaCIL                     `adj`     {- habiyT -}           [ "emaciated", "worn out" ],
+
+    -- ;; >uhobuwTap_1
+    -- >hbwT   >uhobuwT        Napdu   parachute
+    -- AhbwT   >uhobuwT        Napdu   parachute
+    -- >hAbyT  >ahAbiyT        Ndip    parachutes
+    -- AhAbyT  >ahAbiyT        Ndip    parachutes
+
+    HuFCUL |< aT              `noun`    {- OuhobuwTap -}       [ "parachute" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'ahAbiy.t Ndip" ] -},
 
     -- ;; mahobiT_1
     -- mhbT    mahobiT Ndu     airstrip;runway
@@ -2688,6 +2660,12 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- tahak~am -}         [ "mock", "ridicule", "be dilapidated" ],
 
+    -- ;; >uhokuwmap_1
+    -- >hkwm   >uhokuwm        Nap     derision;mockery
+    -- Ahkwm   >uhokuwm        Nap     derision;mockery
+
+    HuFCUL |< aT              `noun`    {- Ouhokuwmap -}       [ "derision", "mockery" ],
+
     -- ;; tahak~um_1
     -- thkm    tahak~um        N/At    scorn;sarcasm
 
@@ -3720,16 +3698,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "h m w" <| [
 
-    -- ;; hamA-u_1
-    -- hmA     hamA    PV_0    flow;pour
-    -- hmw     hamaw   PV_Atn  flow;pour
-    -- hm      ham     PV_ttAw flow;pour
-    -- hmw     homuw   IV_0hAnn        flow;pour
-    -- hm      hom     IV_0hwnyn       flow;pour
-
-    FaCA                      `verb`    {- hamA-u -}           [ "flow", "pour" ]
-                              `imperf`     FCU,
-
     -- ;; hamow_1
     -- hmw     hamow   N       flowing;pouring
 
@@ -3740,7 +3708,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; hum_1
     -- hm      hum     FW-Wa   they [masc.pl]       [[hum/PRON_3MP]]
 
-    FuC                       `pron`    {- hum -}              [ "they [masc.pl]" ] ]
+    FuC                       `pron`    {- hum -}              [ "they [masc.pl]" ],
+
+    -- ;; hamA-u_1
+    -- hmA     hamA    PV_0    flow;pour
+    -- hmw     hamaw   PV_Atn  flow;pour
+    -- hm      ham     PV_ttAw flow;pour
+    -- hmw     homuw   IV_0hAnn        flow;pour
+    -- hm      hom     IV_0hwnyn       flow;pour
+
+    FaCA                      `verb`    {- hamA-u -}           [ "flow", "pour" ]
+                              `imperf`     FCU ]
 
  |> "h m z" <| [
 
@@ -4836,6 +4814,14 @@ lexicon = listing "Lexicon's properties"
     -- hsys    hasiys  N       whisper;whispering
 
     FaCIL                     `noun`    {- hasiys -}           [ "whisper", "whispering" ] ]
+
+ |> "h s t r" <| [
+
+    -- ;; hisotiyriy~_1
+    -- hstyry  hisotiyriy~     Nall    hysterical     [[hisotiyriy~/ADJ]]
+    -- hystyry hiysotiyriy~    Nall    hysterical     [[hiysotiyriy~/ADJ]]
+
+    KiRDIS |< Iy              `adj`     {- hisotiyriy~ -}      [ "hysterical" ] ]
 
  |> "h t f" <| [
 
@@ -6046,6 +6032,12 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `noun`    {- OahowaY -}          [ "more/most desirable", "more/most preferable", "most desirable/preferable" ],
 
+    -- ;; >uhowiy~ap_1
+    -- >hwy    >uhowiy~        Napdu   abyss;chasm     [[>uhowiy~/NOUN]]
+    -- Ahwy    >uhowiy~        Napdu   abyss;chasm     [[>uhowiy~/NOUN]]
+
+    HuFCIL |< aT              `noun`    {- Ouhowiy~ap -}       [ "abyss", "chasm" ],
+
     -- ;; mahowaY_1
     -- mhwY    mahowaY N0      crevasse;precipice
     -- mhwA    mahowA  Nhy     crevasse;precipice
@@ -6688,6 +6680,13 @@ lexicon = listing "Lexicon's properties"
 
     FIL                       `noun`    {- hiyol -}            [ "Hill" ] ]
 
+ |> "h y l n" <| [
+
+    -- ;; hiyliyniy~ap_1
+    -- hylyny  hiyliyniy~      Nap     Hellenism     [[hiyliyniy~/NOUN]]
+
+    KiRDIS |< Iy |< aT        `noun`    {- hiyliyniy~ap -}     [ "Hellenism" ] ]
+
  |> "h y m" <| [
 
     -- ;; hAm-i_1
@@ -6857,6 +6856,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "h y t" <| [
 
+    -- ;; hAytiy~_1
+    -- hAyty   hAytiy~ Nall    Haitian     [[hAytiy~/NOUN]]
+    -- hAyty   hAytiy~ Nall    Haitian     [[hAytiy~/ADJ]]
+
+    FACL |< Iy                `adj`     {- hAytiy~ -}          [ "Haitian" ],
+
     -- ;; hay~at_1
     -- hyt     hay~at  PV-t    call
     -- hyt     hay~it  IV_yu   call
@@ -7000,7 +7005,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; hazaj_1
     -- hzj     hazaj   N       hazaj (poetic meter)
 
-    FaCaL                     `noun`    {- hazaj -}            [ "hazaj (poetic meter)" ] ]
+    FaCaL                     `noun`    {- hazaj -}            [ "hazaj (poetic meter)" ],
+
+    -- ;; >uhozuwjap_1
+    -- >hzwj   >uhozuwj        Napdu   song
+    -- Ahzwj   >uhozuwj        Napdu   song
+    -- >hAzyj  >ahAziyj        Ndip    songs
+    -- AhAzyj  >ahAziyj        Ndip    songs
+
+    HuFCUL |< aT              `noun`    {- Ouhozuwjap -}       [ "song" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'ahAziy^g Ndip" ] -} ]
 
  |> "h z `" <| [
 
@@ -7367,14 +7382,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hAgAnA -}           [ "Hagana" ] ]
 
- |> "hA^siymuwtuw" <| [
+ |> "hA^sImUtU" <| [
 
     -- ;; hA$iymuwtuw_1
     -- hA$ymwtw        hA$iymuwtuw     Nprop   Hashimoto
 
     Identity                  `noun`    {- hA$iymuwtuw -}      [ "Hashimoto" ] ]
 
- |> "hAbiyl" <| [
+ |> "hAbIl" <| [
 
     -- ;; hAbiyl_1
     -- hAbyl   hAbiyl  Nprop   Habil;Abel
@@ -7388,14 +7403,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hAfAnA -}           [ "Havana" ] ]
 
- |> "hAfiylAn^g" <| [
+ |> "hAfIlAn^g" <| [
 
     -- ;; hAfiylAnj_1
     -- hAfylAnj        hAfiylAnj       Nprop   Havilang
 
     Identity                  `noun`    {- hAfiylAnj -}        [ "Havilang" ] ]
 
- |> "hAfiylAnd" <| [
+ |> "hAfIlAnd" <| [
 
     -- ;; hAfiylAnd_1
     -- hAfylAnd        hAfiylAnd       Nprop   Haviland
@@ -7416,20 +7431,28 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hAlAr -}            [ "Halard" ] ]
 
- |> "hAliyfiy" <| [
+ |> "hAlIfI" <| [
 
     -- ;; hAliyfiy_1
     -- hAlyfy  hAliyfiy        Nprop   Halevi;Halevy
 
     Identity                  `noun`    {- hAliyfiy -}         [ "Halevi", "Halevy" ] ]
 
- |> "hAmbuwr.g" <| [
+ |> "hAmbUr.g" <| [
 
     -- ;; hAmobuwrog_1
     -- hAmbwrg hAmobuwrog      Nprop   Hamburg
     -- hAmbwrj hAmobuwroj      Nprop   Hamburg
 
     Identity                  `noun`    {- hAmobuwrog -}       [ "Hamburg" ] ]
+
+ |> "hAnUfir" <| [
+
+    -- ;; hAnuwfir_1
+    -- hAnwfr  hAnuwfir        Nprop   Hannover
+    -- hAnwfyr hAnuwfiyr       Nprop   Hannover
+
+    Identity                  `noun`    {- hAnuwfir -}         [ "Hannover" ] ]
 
  |> "hAnt^sk" <| [
 
@@ -7438,20 +7461,26 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hAnot$k -}          [ "Hantschk" ] ]
 
- |> "hAnuwfir" <| [
-
-    -- ;; hAnuwfir_1
-    -- hAnwfr  hAnuwfir        Nprop   Hannover
-    -- hAnwfyr hAnuwfiyr       Nprop   Hannover
-
-    Identity                  `noun`    {- hAnuwfir -}         [ "Hannover" ] ]
-
  |> "hAnzA" <| [
 
     -- ;; hAnozA_1
     -- hAnzA   hAnozA  Nprop   Hansa
 
     Identity                  `noun`    {- hAnozA -}           [ "Hansa" ] ]
+
+ |> "hArIl" <| [
+
+    -- ;; hAriyl_1
+    -- hAryl   hAriyl  Nprop   Harel
+
+    Identity                  `noun`    {- hAriyl -}           [ "Harel" ] ]
+
+ |> "hArIs" <| [
+
+    -- ;; hAriys_1
+    -- hArys   hAriys  Nprop   Harris
+
+    Identity                  `noun`    {- hAriys -}           [ "Harris" ] ]
 
  |> "hArdAwAy" <| [
 
@@ -7460,33 +7489,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hArodAwAy -}        [ "Hardaway" ] ]
 
- |> "hArfard" <| [
-
-    -- ;; hArofarod_1
-    -- hArfrd  hArofarod       Nprop   Harvard
-
-    Identity                  `noun`    {- hArofarod -}        [ "Harvard" ] ]
-
- |> "hArfiy" <| [
+ |> "hArfI" <| [
 
     -- ;; hArofiy_1
     -- hArfy   hArofiy Nprop   Harvey
 
     Identity                  `noun`    {- hArofiy -}          [ "Harvey" ] ]
 
- |> "hAriyl" <| [
+ |> "hArfard" <| [
 
-    -- ;; hAriyl_1
-    -- hAryl   hAriyl  Nprop   Harel
+    -- ;; hArofarod_1
+    -- hArfrd  hArofarod       Nprop   Harvard
 
-    Identity                  `noun`    {- hAriyl -}           [ "Harel" ] ]
-
- |> "hAriys" <| [
-
-    -- ;; hAriys_1
-    -- hArys   hAriys  Nprop   Harris
-
-    Identity                  `noun`    {- hAriys -}           [ "Harris" ] ]
+    Identity                  `noun`    {- hArofarod -}        [ "Harvard" ] ]
 
  |> "hArts" <| [
 
@@ -7495,14 +7510,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hArots -}           [ "Hearts" ] ]
 
- |> "hAt^siynsuwn" <| [
+ |> "hAt^sInsUn" <| [
 
     -- ;; hAto$iynosuwn_1
     -- hAt$ynswn       hAto$iynosuwn   Nprop   Hutchinson
 
     Identity                  `noun`    {- hAto$iynosuwn -}    [ "Hutchinson" ] ]
 
- |> "hAwA'iy" <| [
+ |> "hAwA'I" <| [
 
     -- ;; hAwA}iy_1
     -- hAwA}y  hAwA}iy N0      Hawaii
@@ -7530,20 +7545,264 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hAwun -}            [ "mortar" ] ]
 
- |> "hAytiy" <| [
+ |> "hAytI" <| [
 
     -- ;; hAytiy_1
     -- hAyty   hAytiy  N0      Haiti
 
     Identity                  `noun`    {- hAytiy -}           [ "Haiti" ] ]
 
- |> "hAytiyy" <| [
+ |> "hIdrA" <| [
 
-    -- ;; hAytiy~_1
-    -- hAyty   hAytiy~ Nall    Haitian     [[hAytiy~/NOUN]]
-    -- hAyty   hAytiy~ Nall    Haitian     [[hAytiy~/ADJ]]
+    -- ;; hiydrA_1
+    -- hydrA   hiydrA  Nprop   Hydra
 
-    Identity                  `adj`     {- hAytiy~ -}          [ "Haitian" ] ]
+    Identity                  `noun`    {- hiydrA -}           [ "Hydra" ] ]
+
+ |> "hIdrU" <| [
+
+    -- ;; hiydruw_1
+    -- hydrw   hiydruw N0      hydro-
+
+    Identity                  `noun`    {- hiydruw -}          [ "hydro-" ] ]
+
+ |> "hIdrU^gIn" <| [
+
+    -- ;; hiydruwjiyn_1
+    -- hydrwjyn        hiydruwjiyn     N0      hydrogen
+    -- hydrwjyn        hayodruwjiyn    N0      hydrogen
+
+    Identity                  `noun`    {- hiydruwjiyn -}      [ "hydrogen" ],
+
+    -- ;; hiydruwjiyniy~_1
+    -- hydrwjyny       hiydruwjiyniy~  Nall    hydrogen;hydrogenous     [[hiydruwjiyniy~/ADJ]]
+    -- hydrwjyny       hayodruwjiyniy~ Nall    hydrogen;hydrogenous     [[hayodruwjiyniy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- hiydruwjiyniy~ -}   [ "hydrogen", "hydrogenous" ] ]
+
+ |> "hIdrUmitr" <| [
+
+    -- ;; hiydruwmitr_1
+    -- hydrwmtr        hiydruwmitr     N0      hydrometer
+    -- hydrwmtr        hayodruwmitr    N0      hydrometer
+
+    Identity                  `noun`    {- hiydruwmitr -}      [ "hydrometer" ] ]
+
+ |> "hIktUr" <| [
+
+    -- ;; hiykotuwr_1
+    -- hyktwr  hiykotuwr       Nprop   Hector
+
+    Identity                  `noun`    {- hiykotuwr -}        [ "Hector" ] ]
+
+ |> "hIlArI" <| [
+
+    -- ;; hiylAriy_1
+    -- hylAry  hiylAriy        Nprop   Hillary
+
+    Identity                  `noun`    {- hiylAriy -}         [ "Hillary" ] ]
+
+ |> "hIlIkUbtar" <| [
+
+    -- ;; hiyliykuwbotar_1
+    -- hylykwbtr       hiyliykuwbotar  NduAt   helicopter
+
+    Identity                  `noun`    {- hiyliykuwbotar -}   [ "helicopter" ] ]
+
+ |> "hIliyUm" <| [
+
+    -- ;; hiyliyuwm_1
+    -- hylywm  hiyliyuwm       N       helium
+
+    Identity                  `noun`    {- hiyliyuwm -}        [ "helium" ] ]
+
+ |> "hIn.gIs" <| [
+
+    -- ;; hiynogiys_1
+    -- hyngys  hiynogiys       Nprop   Hingis
+
+    Identity                  `noun`    {- hiynogiys -}        [ "Hingis" ] ]
+
+ |> "hIrA.tIq" <| [
+
+    -- ;; hiyrATiyqiy~_1
+    -- hyrATyqy        hiyrATiyqiy~    Nall    hieratic     [[hiyrATiyqiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- hiyrATiyqiy~ -}     [ "hieratic" ] ]
+
+ |> "hIrU.glIf" <| [
+
+    -- ;; hiyruwgliyfiy~_1
+    -- hyrwglyfy       hiyruwgliyfiy~  Nall    hieroglyphic     [[hiyruwgliyfiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- hiyruwgliyfiy~ -}   [ "hieroglyphic" ] ]
+
+ |> "hIrU^sImA" <| [
+
+    -- ;; hiyruw$iymA_1
+    -- hyrw$ymA        hiyruw$iymA     Nprop   Hiroshima
+
+    Identity                  `noun`    {- hiyruw$iymA -}      [ "Hiroshima" ] ]
+
+ |> "hIrUt^sI" <| [
+
+    -- ;; hiyruwt$iy_1
+    -- hyrwt$y hiyruwt$iy      Nprop   Hiroshi
+
+    Identity                  `noun`    {- hiyruwt$iy -}       [ "Hiroshi" ] ]
+
+ |> "hIrtz" <| [
+
+    -- ;; hiyrotz_1
+    -- hyrtz   hiyrotz NduAt   hertz;Hz
+
+    Identity                  `noun`    {- hiyrotz -}          [ "hertz", "Hz" ] ]
+
+ |> "hIruwIn" <| [
+
+    -- ;; hiyruwiyn_1
+    -- hyrwyn  hiyruwiyn       N0      heroin
+    -- hyrwyyn hiyruwiyyn      N0      heroin
+
+    Identity                  `noun`    {- hiyruwiyn -}        [ "heroin" ] ]
+
+ |> "hIsb" <| [
+
+    -- ;; hiysb_1
+    -- hysb    hiysb   Nprop   Hesp
+
+    Identity                  `noun`    {- hiysb -}            [ "Hesp" ] ]
+
+ |> "hIskI" <| [
+
+    -- ;; hiysokiy_1
+    -- hysky   hiysokiy        N0      Heskey
+
+    Identity                  `noun`    {- hiysokiy -}         [ "Heskey" ] ]
+
+ |> "hUbsUn" <| [
+
+    -- ;; huwbsuwn_1
+    -- hwbswn  huwbsuwn        Nprop   Hobson
+
+    Identity                  `noun`    {- huwbsuwn -}         [ "Hobson" ] ]
+
+ |> "hUlAnd" <| [
+
+    -- ;; huwlAnodiy~_1
+    -- hwlAndy huwlAnodiy~     Nall    Dutch                     [[huwlAnodiy~/NOUN]]
+    -- hwlAndy huwlAnodiy~     Nall    Dutch;of/from Holland     [[huwlAnodiy~/ADJ]]
+    -- hwlndy  huwlanodiy~     Nall    Dutch                     [[huwlanodiy~/NOUN]]
+    -- hwlndy  huwlanodiy~     Nall    Dutch;of/from Holland     [[huwlanodiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- huwlAnodiy~ -}      [ "Dutch", "of/from Holland" ] ]
+
+ |> "hUlAndA" <| [
+
+    -- ;; huwlAnodA_1
+    -- hwlAndA huwlAnodA       N0      Holland
+    -- hwlAndh huwlAnodah      N0      Holland
+    -- hwlndA  huwlanodA       N0      Holland
+    -- hwlndh  huwlanodah      N0      Holland
+
+    Identity                  `noun`    {- huwlAnodA -}        [ "Holland" ] ]
+
+ |> "hUlIwUd" <| [
+
+    -- ;; huwliywuwd_1
+    -- hwlywwd huwliywuwd      N0      Hollywood
+    -- hwlywd  huwliywud       N0      Hollywood
+
+    Identity                  `noun`    {- huwliywuwd -}       [ "Hollywood" ] ]
+
+ |> "hUlbrUk" <| [
+
+    -- ;; huwlobruwk_1
+    -- hwlbrwk huwlobruwk      Nprop   Holbrooke
+
+    Identity                  `noun`    {- huwlobruwk -}       [ "Holbrooke" ] ]
+
+ |> "hUlmAn" <| [
+
+    -- ;; huwlomAn_1
+    -- hwlmAn  huwlomAn        Nprop   Holeman;Hallman
+
+    Identity                  `noun`    {- huwlomAn -}         [ "Holeman", "Hallman" ] ]
+
+ |> "hUnUlUlU" <| [
+
+    -- ;; huwnuwluwluw_1
+    -- hwnwlwlw        huwnuwluwluw    Nprop   Honolulu
+
+    Identity                  `noun`    {- huwnuwluwluw -}     [ "Honolulu" ] ]
+
+ |> "hUn^g" <| [
+
+    -- ;; huwnoj_1
+    -- hwnj    huwnoj  N0      Hong
+    -- hwng    huwnog  N0      Hong
+
+    Identity                  `noun`    {- huwnoj -}           [ "Hong" ] ]
+
+ |> "hUndA" <| [
+
+    -- ;; huwnodA_1
+    -- hwndA   huwnodA N0      Honda
+
+    Identity                  `noun`    {- huwnodA -}          [ "Honda" ] ]
+
+ |> "hUndUr" <| [
+
+    -- ;; huwnoduwriy~_1
+    -- hwndwry huwnoduwriy~    Nall    Honduran     [[huwnoduwriy~/NOUN]]
+    -- hndwry  hunoduwriy~     Nall    Honduran     [[hunoduwriy~/NOUN]]
+    -- hwndwry huwnoduwriy~    Nall    Honduran     [[huwnoduwriy~/ADJ]]
+    -- hndwry  hunoduwriy~     Nall    Honduran     [[hunoduwriy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- huwnoduwriy~ -}     [ "Honduran" ] ]
+
+ |> "hUndUrAs" <| [
+
+    -- ;; huwnoduwrAs_1
+    -- hwndwrAs        huwnoduwrAs     N0      Honduras
+    -- hndwrAs hunoduwrAs      N0      Honduras
+
+    Identity                  `noun`    {- huwnoduwrAs -}      [ "Honduras" ] ]
+
+ |> "hUrmUn" <| [
+
+    -- ;; huwromuwn_1
+    -- hwrmwn  huwromuwn       NduAt   hormone
+    -- hrmwn   huromuwn        NduAt   hormone
+
+    Identity                  `noun`    {- huwromuwn -}        [ "hormone" ],
+
+    -- ;; huwromuwniy~_1
+    -- hwrmwny huwromuwniy~    Nall    hormonal
+    -- hrmwny  huromuwniy~     Nall    hormonal
+
+    Identity |< Iy            `adj`     {- huwromuwniy~ -}     [ "hormonal" ] ]
+
+ |> "hUrst" <| [
+
+    -- ;; huwrosot_1
+    -- hwrst   huwrosot        Nprop   Horst
+
+    Identity                  `noun`    {- huwrosot -}         [ "Horst" ] ]
+
+ |> "hUtUmU" <| [
+
+    -- ;; huwtuwmuw_1
+    -- hwtwmw  huwtuwmuw       Nprop   Hutomo
+
+    Identity                  `noun`    {- huwtuwmuw -}        [ "Hutomo" ] ]
+
+ |> "hUyAmA" <| [
+
+    -- ;; huwyAmA_1
+    -- hwyAmA  huwyAmA Nprop   Hoyama
+
+    Identity                  `noun`    {- huwyAmA -}          [ "Hoyama" ] ]
 
  |> "h_a_dA" <| [
 
@@ -7576,7 +7835,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hadAdayok -}        [ "slowly!", "gently!" ] ]
 
- |> "haliyla^g" <| [
+ |> "halIla^g" <| [
 
     -- ;; haliylaj_1
     -- hlylj   haliylaj        Ndu     ellipse
@@ -7595,7 +7854,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `part`    {- hal~A -}            [ "doesn't/don't?", "didn't?", "isn't/aren't?" ] ]
 
- |> "halliluwyA" <| [
+ |> "hallilUyA" <| [
 
     -- ;; hal~iluwyA_1
     -- hllwyA  hal~iluwyA      N0      hallelujah
@@ -7616,6 +7875,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- harodaba$t -}       [ "nonsense", "rubbish" ] ]
 
+ |> "hayUlAn" <| [
+
+    -- ;; hayuwlAniy~_1
+    -- hywlAny hayuwlAniy~     N-ap    material     [[hayuwlAniy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- hayuwlAniy~ -}      [ "material" ] ]
+
  |> "hay^gA" <| [
 
     -- ;; hayojA_1
@@ -7623,31 +7889,31 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hayojA -}           [ "Haija" ] ]
 
- |> "haydruwkarbuwn" <| [
+ |> "haydrUkarbUn" <| [
 
     -- ;; hayodruwkarbuwn_1
     -- hydrwkrbwn      hayodruwkarbuwn N0      hydrocarbon
 
     Identity                  `noun`    {- hayodruwkarbuwn -}  [ "hydrocarbon" ] ]
 
- |> "haydruwliykiyy" <| [
+ |> "haydrUlIk" <| [
 
     -- ;; hayodruwliykiy~_1
     -- hydrwlyky       hayodruwliykiy~ Nall    hydraulic     [[hayodruwliykiy~/ADJ]]
 
-    Identity                  `adj`     {- hayodruwliykiy~ -}  [ "hydraulic" ] ]
+    Identity |< Iy            `adj`     {- hayodruwliykiy~ -}  [ "hydraulic" ] ]
 
- |> "haydruwluw^giyy" <| [
+ |> "haydrUlU^g" <| [
 
     -- ;; hayodruwluwjiy~_1
     -- hydrwlwjy       hayodruwluwjiy~ N-ap    hydrological     [[hayodruwluwjiy~/ADJ]]
 
-    Identity                  `adj`     {- hayodruwluwjiy~ -}  [ "hydrological" ],
+    Identity |< Iy            `adj`     {- hayodruwluwjiy~ -}  [ "hydrological" ],
 
     -- ;; hayodruwluwjiy~_2
     -- hydrwlwjy       hayodruwluwjiy~ Nall    hydrologist     [[hayodruwluwjiy~/ADJ]]
 
-    Identity                  `adj`     {- hayodruwluwjiy~ -}  [ "hydrologist" ] ]
+    Identity |< Iy            `adj`     {- hayodruwluwjiy~ -}  [ "hydrologist" ] ]
 
  |> "haylamAn" <| [
 
@@ -7656,13 +7922,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hayolamAn -}        [ "heaps", "large sums" ] ]
 
- |> "hayuwlAn" <| [
-
-    -- ;; hayuwlAniy~_1
-    -- hywlAny hayuwlAniy~     N-ap    material     [[hayuwlAniy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- hayuwlAniy~ -}      [ "material" ] ]
-
  |> "hayyA" <| [
 
     -- ;; hay~A_1
@@ -7670,7 +7929,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hay~A -}            [ "let's go!" ] ]
 
- |> "hayyuwlY" <| [
+ |> "hayyUlY" <| [
 
     -- ;; hay~uwlaY_1
     -- hywlY   hay~uwlaY       N0      primordial matter
@@ -7693,21 +7952,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hidAyat -}          [ "Hedayet" ] ]
 
- |> "hilikuwbtar" <| [
-
-    -- ;; hilikuwbotar_1
-    -- hlkwbtr hilikuwbotar    NduAt   helicopter
-    -- hlykwbtr        hiliykuwbotar   NduAt   helicopter
-
-    Identity                  `noun`    {- hilikuwbotar -}     [ "helicopter" ] ]
-
- |> "hiliynist" <| [
+ |> "hilInist" <| [
 
     -- ;; hiliynisotiy~_1
     -- hlynsty hiliynisotiy~   Nall    Hellenistic     [[hiliynisotiy~/NOUN]]
     -- hlynsty hiliynisotiy~   Nall    Hellenistic     [[hiliynisotiy~/ADJ]]
 
     Identity |< Iy            `adj`     {- hiliynisotiy~ -}    [ "Hellenistic" ] ]
+
+ |> "hilikUbtar" <| [
+
+    -- ;; hilikuwbotar_1
+    -- hlkwbtr hilikuwbotar    NduAt   helicopter
+    -- hlykwbtr        hiliykuwbotar   NduAt   helicopter
+
+    Identity                  `noun`    {- hilikuwbotar -}     [ "helicopter" ] ]
 
  |> "hillam" <| [
 
@@ -7723,7 +7982,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hil~awof -}         [ "bearded", "bristly" ] ]
 
- |> "hilsinkiy" <| [
+ |> "hilsinkI" <| [
 
     -- ;; hilosinkiy_1
     -- hlsnky  hilosinkiy      N0      Helsinki
@@ -7731,7 +7990,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hilosinkiy -}       [ "Helsinki" ] ]
 
- |> "hilyuwskuwb" <| [
+ |> "hilyUskUb" <| [
 
     -- ;; hilyuwskuwb_1
     -- hlywskwb        hilyuwskuwb     NduAt   helioscope
@@ -7756,14 +8015,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hinodab -}          [ "endive", "wild chicory" ] ]
 
- |> "hindriyks" <| [
+ |> "hindrIks" <| [
 
     -- ;; hinodriyks_1
     -- hndryks hinodriyks      Nprop   Hendricks
 
     Identity                  `noun`    {- hinodriyks -}       [ "Hendricks" ] ]
 
- |> "hinriyiytA" <| [
+ |> "hinriyItA" <| [
 
     -- ;; hinoriyiytA_1
     -- hnryytA hinoriyiytA     Nprop   Henrieta;Henrietta
@@ -7778,7 +8037,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hiraqol -}          [ "Hercules", "Heraclius" ] ]
 
- |> "histiyriyA" <| [
+ |> "histIriyA" <| [
 
     -- ;; hisotiyriyA_1
     -- hstyryA hisotiyriyA     N0      hysteria
@@ -7786,15 +8045,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hisotiyriyA -}      [ "hysteria" ] ]
 
- |> "histiyriyy" <| [
-
-    -- ;; hisotiyriy~_1
-    -- hstyry  hisotiyriy~     Nall    hysterical     [[hisotiyriy~/ADJ]]
-    -- hystyry hiysotiyriy~    Nall    hysterical     [[hiysotiyriy~/ADJ]]
-
-    Identity                  `adj`     {- hisotiyriy~ -}      [ "hysterical" ] ]
-
- |> "histuwluw^giyA" <| [
+ |> "histUlU^giyA" <| [
 
     -- ;; hisotuwluwjiyA_1
     -- hstwlwjyA       hisotuwluwjiyA  N0      histology
@@ -7809,172 +8060,35 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hitolar -}          [ "Hitler" ] ]
 
- |> "hiydrA" <| [
-
-    -- ;; hiydrA_1
-    -- hydrA   hiydrA  Nprop   Hydra
-
-    Identity                  `noun`    {- hiydrA -}           [ "Hydra" ] ]
-
- |> "hiydruw" <| [
-
-    -- ;; hiydruw_1
-    -- hydrw   hiydruw N0      hydro-
-
-    Identity                  `noun`    {- hiydruw -}          [ "hydro-" ] ]
-
- |> "hiydruw^giyn" <| [
-
-    -- ;; hiydruwjiyn_1
-    -- hydrwjyn        hiydruwjiyn     N0      hydrogen
-    -- hydrwjyn        hayodruwjiyn    N0      hydrogen
-
-    Identity                  `noun`    {- hiydruwjiyn -}      [ "hydrogen" ] ]
-
- |> "hiydruw^giyniyy" <| [
-
-    -- ;; hiydruwjiyniy~_1
-    -- hydrwjyny       hiydruwjiyniy~  Nall    hydrogen;hydrogenous     [[hiydruwjiyniy~/ADJ]]
-    -- hydrwjyny       hayodruwjiyniy~ Nall    hydrogen;hydrogenous     [[hayodruwjiyniy~/ADJ]]
-
-    Identity                  `adj`     {- hiydruwjiyniy~ -}   [ "hydrogen", "hydrogenous" ] ]
-
- |> "hiydruwmitr" <| [
-
-    -- ;; hiydruwmitr_1
-    -- hydrwmtr        hiydruwmitr     N0      hydrometer
-    -- hydrwmtr        hayodruwmitr    N0      hydrometer
-
-    Identity                  `noun`    {- hiydruwmitr -}      [ "hydrometer" ] ]
-
- |> "hiyktuwr" <| [
-
-    -- ;; hiykotuwr_1
-    -- hyktwr  hiykotuwr       Nprop   Hector
-
-    Identity                  `noun`    {- hiykotuwr -}        [ "Hector" ] ]
-
- |> "hiylAriy" <| [
-
-    -- ;; hiylAriy_1
-    -- hylAry  hiylAriy        Nprop   Hillary
-
-    Identity                  `noun`    {- hiylAriy -}         [ "Hillary" ] ]
-
- |> "hiyliykuwbtar" <| [
-
-    -- ;; hiyliykuwbotar_1
-    -- hylykwbtr       hiyliykuwbotar  NduAt   helicopter
-
-    Identity                  `noun`    {- hiyliykuwbotar -}   [ "helicopter" ] ]
-
- |> "hiyliyniyy" <| [
-
-    -- ;; hiyliyniy~ap_1
-    -- hylyny  hiyliyniy~      Nap     Hellenism     [[hiyliyniy~/NOUN]]
-
-    Identity |< aT            `noun`    {- hiyliyniy~ap -}     [ "Hellenism" ] ]
-
- |> "hiyliyuwm" <| [
-
-    -- ;; hiyliyuwm_1
-    -- hylywm  hiyliyuwm       N       helium
-
-    Identity                  `noun`    {- hiyliyuwm -}        [ "helium" ] ]
-
- |> "hiyn.giys" <| [
-
-    -- ;; hiynogiys_1
-    -- hyngys  hiynogiys       Nprop   Hingis
-
-    Identity                  `noun`    {- hiynogiys -}        [ "Hingis" ] ]
-
- |> "hiyrA.tiyq" <| [
-
-    -- ;; hiyrATiyqiy~_1
-    -- hyrATyqy        hiyrATiyqiy~    Nall    hieratic     [[hiyrATiyqiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- hiyrATiyqiy~ -}     [ "hieratic" ] ]
-
- |> "hiyrtz" <| [
-
-    -- ;; hiyrotz_1
-    -- hyrtz   hiyrotz NduAt   hertz;Hz
-
-    Identity                  `noun`    {- hiyrotz -}          [ "hertz", "Hz" ] ]
-
- |> "hiyruw.gliyfiyy" <| [
-
-    -- ;; hiyruwgliyfiy~_1
-    -- hyrwglyfy       hiyruwgliyfiy~  Nall    hieroglyphic     [[hiyruwgliyfiy~/ADJ]]
-
-    Identity                  `adj`     {- hiyruwgliyfiy~ -}   [ "hieroglyphic" ] ]
-
- |> "hiyruw^siymA" <| [
-
-    -- ;; hiyruw$iymA_1
-    -- hyrw$ymA        hiyruw$iymA     Nprop   Hiroshima
-
-    Identity                  `noun`    {- hiyruw$iymA -}      [ "Hiroshima" ] ]
-
- |> "hiyruwiyn" <| [
-
-    -- ;; hiyruwiyn_1
-    -- hyrwyn  hiyruwiyn       N0      heroin
-    -- hyrwyyn hiyruwiyyn      N0      heroin
-
-    Identity                  `noun`    {- hiyruwiyn -}        [ "heroin" ] ]
-
- |> "hiyruwt^siy" <| [
-
-    -- ;; hiyruwt$iy_1
-    -- hyrwt$y hiyruwt$iy      Nprop   Hiroshi
-
-    Identity                  `noun`    {- hiyruwt$iy -}       [ "Hiroshi" ] ]
-
- |> "hiysb" <| [
-
-    -- ;; hiysb_1
-    -- hysb    hiysb   Nprop   Hesp
-
-    Identity                  `noun`    {- hiysb -}            [ "Hesp" ] ]
-
- |> "hiyskiy" <| [
-
-    -- ;; hiysokiy_1
-    -- hysky   hiysokiy        N0      Heskey
-
-    Identity                  `noun`    {- hiysokiy -}         [ "Heskey" ] ]
-
- |> "hiyuw" <| [
+ |> "hiyU" <| [
 
     -- ;; hiyuw_1
     -- hyw     hiyuw   Nprop   Hugh
 
     Identity                  `noun`    {- hiyuw -}            [ "Hugh" ] ]
 
- |> "hiyuwn" <| [
+ |> "hiyUn" <| [
 
     -- ;; hiyuwn_1
     -- hywn    hiyuwn  Nprop   Hyun
 
     Identity                  `noun`    {- hiyuwn -}           [ "Hyun" ] ]
 
- |> "hiyuwrAkAn" <| [
+ |> "hiyUrAkAn" <| [
 
     -- ;; hiyuwrAkAn_1
     -- hywrAkAn        hiyuwrAkAn      Nprop   Huracan
 
     Identity                  `noun`    {- hiyuwrAkAn -}       [ "Huracan" ] ]
 
- |> "hiyuwstun" <| [
+ |> "hiyUstun" <| [
 
     -- ;; hiyuwsotun_1
     -- hywstn  hiyuwsotun      Nprop   Houston
 
     Identity                  `noun`    {- hiyuwsotun -}       [ "Houston" ] ]
 
- |> "hiyuwz" <| [
+ |> "hiyUz" <| [
 
     -- ;; hiyuwz_1
     -- hywz    hiyuwz  Nprop   Hughes
@@ -7995,19 +8109,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hizabor -}          [ "Hizabr" ] ]
 
- |> "hrbAtiy" <| [
-
-    -- ;; hrbAtiy_1
-    -- hrbAty  hrbAtiy Nprop   Hrbaty
-
-    Identity                  `noun`    {- hrbAtiy -}          [ "Hrbaty" ] ]
-
- |> "hriystuw" <| [
+ |> "hrIstU" <| [
 
     -- ;; hriystuw_1
     -- hrystw  hriystuw        Nprop   Hristo
 
     Identity                  `noun`    {- hriystuw -}         [ "Hristo" ] ]
+
+ |> "hrbAtI" <| [
+
+    -- ;; hrbAtiy_1
+    -- hrbAty  hrbAtiy Nprop   Hrbaty
+
+    Identity                  `noun`    {- hrbAtiy -}          [ "Hrbaty" ] ]
 
  |> "humA" <| [
 
@@ -8016,12 +8130,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `pron`    {- humA -}             [ "they (both)" ] ]
 
- |> "humAyuwniyy" <| [
+ |> "humAyUn" <| [
 
     -- ;; humAyuwniy~_1
     -- hmAywny humAyuwniy~     Nall    imperial     [[humAyuwniy~/ADJ]]
 
-    Identity                  `adj`     {- humAyuwniy~ -}      [ "imperial" ] ]
+    Identity |< Iy            `adj`     {- humAyuwniy~ -}      [ "imperial" ] ]
 
  |> "hun.gAriyA" <| [
 
@@ -8053,138 +8167,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- huwayonA -}         [ "gentleness", "leisure" ] ]
 
- |> "huwbsuwn" <| [
-
-    -- ;; huwbsuwn_1
-    -- hwbswn  huwbsuwn        Nprop   Hobson
-
-    Identity                  `noun`    {- huwbsuwn -}         [ "Hobson" ] ]
-
- |> "huwlAnd" <| [
-
-    -- ;; huwlAnodiy~_1
-    -- hwlAndy huwlAnodiy~     Nall    Dutch                     [[huwlAnodiy~/NOUN]]
-    -- hwlAndy huwlAnodiy~     Nall    Dutch;of/from Holland     [[huwlAnodiy~/ADJ]]
-    -- hwlndy  huwlanodiy~     Nall    Dutch                     [[huwlanodiy~/NOUN]]
-    -- hwlndy  huwlanodiy~     Nall    Dutch;of/from Holland     [[huwlanodiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- huwlAnodiy~ -}      [ "Dutch", "of/from Holland" ] ]
-
- |> "huwlAndA" <| [
-
-    -- ;; huwlAnodA_1
-    -- hwlAndA huwlAnodA       N0      Holland
-    -- hwlAndh huwlAnodah      N0      Holland
-    -- hwlndA  huwlanodA       N0      Holland
-    -- hwlndh  huwlanodah      N0      Holland
-
-    Identity                  `noun`    {- huwlAnodA -}        [ "Holland" ] ]
-
- |> "huwlbruwk" <| [
-
-    -- ;; huwlobruwk_1
-    -- hwlbrwk huwlobruwk      Nprop   Holbrooke
-
-    Identity                  `noun`    {- huwlobruwk -}       [ "Holbrooke" ] ]
-
- |> "huwliywuwd" <| [
-
-    -- ;; huwliywuwd_1
-    -- hwlywwd huwliywuwd      N0      Hollywood
-    -- hwlywd  huwliywud       N0      Hollywood
-
-    Identity                  `noun`    {- huwliywuwd -}       [ "Hollywood" ] ]
-
- |> "huwlmAn" <| [
-
-    -- ;; huwlomAn_1
-    -- hwlmAn  huwlomAn        Nprop   Holeman;Hallman
-
-    Identity                  `noun`    {- huwlomAn -}         [ "Holeman", "Hallman" ] ]
-
- |> "huwn^g" <| [
-
-    -- ;; huwnoj_1
-    -- hwnj    huwnoj  N0      Hong
-    -- hwng    huwnog  N0      Hong
-
-    Identity                  `noun`    {- huwnoj -}           [ "Hong" ] ]
-
- |> "huwndA" <| [
-
-    -- ;; huwnodA_1
-    -- hwndA   huwnodA N0      Honda
-
-    Identity                  `noun`    {- huwnodA -}          [ "Honda" ] ]
-
- |> "huwnduwr" <| [
-
-    -- ;; huwnoduwriy~_1
-    -- hwndwry huwnoduwriy~    Nall    Honduran     [[huwnoduwriy~/NOUN]]
-    -- hndwry  hunoduwriy~     Nall    Honduran     [[hunoduwriy~/NOUN]]
-    -- hwndwry huwnoduwriy~    Nall    Honduran     [[huwnoduwriy~/ADJ]]
-    -- hndwry  hunoduwriy~     Nall    Honduran     [[hunoduwriy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- huwnoduwriy~ -}     [ "Honduran" ] ]
-
- |> "huwnduwrAs" <| [
-
-    -- ;; huwnoduwrAs_1
-    -- hwndwrAs        huwnoduwrAs     N0      Honduras
-    -- hndwrAs hunoduwrAs      N0      Honduras
-
-    Identity                  `noun`    {- huwnoduwrAs -}      [ "Honduras" ] ]
-
- |> "huwnuwluwluw" <| [
-
-    -- ;; huwnuwluwluw_1
-    -- hwnwlwlw        huwnuwluwluw    Nprop   Honolulu
-
-    Identity                  `noun`    {- huwnuwluwluw -}     [ "Honolulu" ] ]
-
- |> "huwrmuwn" <| [
-
-    -- ;; huwromuwn_1
-    -- hwrmwn  huwromuwn       NduAt   hormone
-    -- hrmwn   huromuwn        NduAt   hormone
-
-    Identity                  `noun`    {- huwromuwn -}        [ "hormone" ],
-
-    -- ;; huwromuwniy~_1
-    -- hwrmwny huwromuwniy~    Nall    hormonal
-    -- hrmwny  huromuwniy~     Nall    hormonal
-
-    Identity |< Iy            `adj`     {- huwromuwniy~ -}     [ "hormonal" ] ]
-
- |> "huwrst" <| [
-
-    -- ;; huwrosot_1
-    -- hwrst   huwrosot        Nprop   Horst
-
-    Identity                  `noun`    {- huwrosot -}         [ "Horst" ] ]
-
- |> "huwtuwmuw" <| [
-
-    -- ;; huwtuwmuw_1
-    -- hwtwmw  huwtuwmuw       Nprop   Hutomo
-
-    Identity                  `noun`    {- huwtuwmuw -}        [ "Hutomo" ] ]
-
- |> "huwyAmA" <| [
-
-    -- ;; huwyAmA_1
-    -- hwyAmA  huwyAmA Nprop   Hoyama
-
-    Identity                  `noun`    {- huwyAmA -}          [ "Hoyama" ] ]
-
- |> "mAhuw" <| [
+ |> "mAhU" <| [
 
     -- ;; mAhuwa_1
     -- mAhw    mAhuwa  FW-Wa   what     [[mAhuwa/REL_PRON]]
 
     Identity |<< "a"          `pron`    {- mAhuwa -}           [ "what" ] ]
 
- |> "mahdAwiy" <| [
+ |> "mahdAwI" <| [
 
     -- ;; mahodAwiy_1
     -- mhdAwy  mahodAwiy       N0      Mahdawi;Mehdawi;Mahdavi;Mehdavi

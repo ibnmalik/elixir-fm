@@ -528,6 +528,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'wAtsU^sI' => [
+    {
+      'types' => {
+        'wAtsuw^sy' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'wAtsuw^siy',
+      'form' => 'wAtsuw^siy',
+      'lines' => [
+        ';; wAtosuw$iy_1',
+        'wAtsw$y wAtosuw$y       Nprop   Watsushi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Watsushi'
+      ],
+      'orig' => 'wAtosuw$iy',
+      'prefix' => ''
+    }
+  ],
   'w _t n' => [
     {
       'types' => {
@@ -3053,27 +3078,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'wAnt^suwb' => [
-    {
-      'types' => {},
-      'entry' => 'wAnt^suwb',
-      'form' => 'wAnt^suwb',
-      'lines' => [
-        ';; wAnt$uwb_1',
-        'wAnt$wb wAnt$uwb        Nprop   Wanchope'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Wanchope'
-      ],
-      'orig' => 'wAnt$uwb',
-      'prefix' => ''
-    }
-  ],
   'w y .h' => [
     {
       'types' => {
@@ -3314,35 +3318,6 @@ $Lexicon = {
         'valleys'
       ],
       'orig' => 'wAdiy',
-      'prefix' => ''
-    }
-  ],
-  'miyq' => [
-    {
-      'types' => {
-        'mawAqiyt' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'miyq',
-      'form' => 'miyqAt',
-      'lines' => [
-        ';; miyqAt_1',
-        'myqAt   miyqAt  Ndu     appointed time;meeting point',
-        'mwAqyt  mawAqiyt        Ndip    timetables;rendezvous points and times'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'appointed time',
-        'meeting point',
-        'timetables',
-        'rendezvous points and times'
-      ],
-      'orig' => 'miyqAt',
       'prefix' => ''
     }
   ],
@@ -4306,6 +4281,36 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'wIlyAm' => [
+    {
+      'types' => {
+        'wilyam' => {
+          'Nprop' => 1
+        },
+        'wilyAm' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'wiylyAm',
+      'form' => 'wiylyAm',
+      'lines' => [
+        ';; wiyloyAm_1',
+        'wylyAm  wiyloyAm        Nprop   William',
+        'wlyAm   wiloyAm Nprop   William',
+        'wlym    wiloyam Nprop   William'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'William'
+      ],
+      'orig' => 'wiyloyAm',
+      'prefix' => ''
+    }
+  ],
   'w k `' => [
     {
       'types' => {
@@ -4376,27 +4381,6 @@ $Lexicon = {
         'plowshare'
       ],
       'orig' => 'miykaEap',
-      'prefix' => ''
-    }
-  ],
-  'wuwdruwf' => [
-    {
-      'types' => {},
-      'entry' => 'wuwdruwf',
-      'form' => 'wuwdruwf',
-      'lines' => [
-        ';; wuwdoruwf_1',
-        'wwdrwf  wuwdoruwf       Nprop   Woodruff'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Woodruff'
-      ],
-      'orig' => 'wuwdoruwf',
       'prefix' => ''
     }
   ],
@@ -5500,6 +5484,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'wUdrUf' => [
+    {
+      'types' => {},
+      'entry' => 'wuwdruwf',
+      'form' => 'wuwdruwf',
+      'lines' => [
+        ';; wuwdoruwf_1',
+        'wwdrwf  wuwdoruwf       Nprop   Woodruff'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Woodruff'
+      ],
+      'orig' => 'wuwdoruwf',
+      'prefix' => ''
+    }
+  ],
   'w _t \'' => [
     {
       'types' => {
@@ -6391,6 +6396,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'wUrldkUm' => [
+    {
+      'types' => {},
+      'entry' => 'wuwrldkuwm',
+      'form' => 'wuwrldkuwm',
+      'lines' => [
+        ';; wuwrldkuwm_1',
+        'wwrldkwm        wuwrldkuwm      Nprop   WorldCom'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'WorldCom'
+      ],
+      'orig' => 'wuwrldkuwm',
+      'prefix' => ''
+    }
+  ],
   'w ` y' => [
     {
       'types' => {
@@ -7119,27 +7145,6 @@ $Lexicon = {
         'Wa\'il'
       ],
       'orig' => 'wA}il',
-      'prefix' => ''
-    }
-  ],
-  'wulfirhAmbtuwn' => [
-    {
-      'types' => {},
-      'entry' => 'wulfirhAmbtuwn',
-      'form' => 'wulfirhAmbtuwn',
-      'lines' => [
-        ';; wulofirohAmbotuwn_1',
-        'wlfrhAmbtwn     wulofirohAmbotuwn       Nprop   Wolverhampton'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Wolverhampton'
-      ],
-      'orig' => 'wulofirohAmbotuwn',
       'prefix' => ''
     }
   ],
@@ -8096,27 +8101,6 @@ $Lexicon = {
         'malice'
       ],
       'orig' => 'wagor',
-      'prefix' => ''
-    }
-  ],
-  'wiylkinz' => [
-    {
-      'types' => {},
-      'entry' => 'wiylkinz',
-      'form' => 'wiylkinz',
-      'lines' => [
-        ';; wiylokinoz_1',
-        'wylknz  wiylokinoz      Nprop   Wilkins'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Wilkins'
-      ],
-      'orig' => 'wiylokinoz',
       'prefix' => ''
     }
   ],
@@ -12076,30 +12060,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'wiqiyy' => [
-    {
-      'types' => {},
-      'entry' => 'wiqiyy',
-      'form' => 'wiqiyyaT',
-      'lines' => [
-        ';; wiqiy~ap_1',
-        'wqy     wiqiy~  NapAt   uqiya (measure = 1/12 ratl; Beirut: 213 gr; Jerusalem 240 gr.;Aleppo 320 gr.)'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'uqiya (measure = 1/12 ratl',
-        'Beirut: 213 gr',
-        'Jerusalem 240 gr.',
-        'Aleppo 320 gr.)'
-      ],
-      'orig' => 'wiqiy~ap',
-      'prefix' => ''
-    }
-  ],
   'w ` .z' => [
     {
       'types' => {
@@ -12452,6 +12412,28 @@ $Lexicon = {
         'longings'
       ],
       'orig' => 'waHomaY',
+      'prefix' => ''
+    }
+  ],
+  'wIrkU' => [
+    {
+      'types' => {},
+      'entry' => 'wiyrkuw',
+      'form' => 'wiyrkuw',
+      'lines' => [
+        ';; wiyrokuw_1',
+        'wyrkw   wiyrokuw        N0      excise tax;real-estate tax'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'excise tax',
+        'real-estate tax'
+      ],
+      'orig' => 'wiyrokuw',
       'prefix' => ''
     }
   ],
@@ -13613,6 +13595,27 @@ $Lexicon = {
         'climb'
       ],
       'orig' => 'tawaq~al',
+      'prefix' => ''
+    }
+  ],
+  'wulfirhAmbtUn' => [
+    {
+      'types' => {},
+      'entry' => 'wulfirhAmbtuwn',
+      'form' => 'wulfirhAmbtuwn',
+      'lines' => [
+        ';; wulofirohAmbotuwn_1',
+        'wlfrhAmbtwn     wulofirohAmbotuwn       Nprop   Wolverhampton'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Wolverhampton'
+      ],
+      'orig' => 'wulofirohAmbotuwn',
       'prefix' => ''
     }
   ],
@@ -16670,27 +16673,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'wuwkir' => [
-    {
-      'types' => {},
-      'entry' => 'wuwkir',
-      'form' => 'wuwkir',
-      'lines' => [
-        ';; wuwkir_1',
-        'wwkr    wuwkir  Nprop   Walker'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Walker'
-      ],
-      'orig' => 'wuwkir',
-      'prefix' => ''
-    }
-  ],
   'w r l' => [
     {
       'types' => {
@@ -18420,40 +18402,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'wiylyAms' => [
-    {
-      'types' => {
-        'wiylyAmz' => {
-          'Nprop' => 1
-        },
-        'wilyAmz' => {
-          'Nprop' => 1
-        },
-        'wilyAms' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'wiylyAms',
-      'form' => 'wiylyAms',
-      'lines' => [
-        ';; wiyloyAms_1',
-        'wylyAms wiyloyAms       Nprop   Williams',
-        'wlyAms  wiloyAms        Nprop   Williams',
-        'wylyAmz wiyloyAmz       Nprop   Williams',
-        'wlyAmz  wiloyAmz        Nprop   Williams'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Williams'
-      ],
-      'orig' => 'wiyloyAms',
-      'prefix' => ''
-    }
-  ],
   'w \' h' => [
     {
       'types' => {
@@ -19075,28 +19023,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'taqiyy' => [
-    {
-      'types' => {},
-      'entry' => 'taqiyy',
-      'form' => 'taqiyyaT',
-      'lines' => [
-        ';; taqiy~ap_2',
-        'tqy     taqiy~  Nap     prudence;caution     [[taqiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'prudence',
-        'caution'
-      ],
-      'orig' => 'taqiy~ap',
-      'prefix' => ''
-    }
-  ],
   'w ^s l' => [
     {
       'types' => {
@@ -19126,6 +19052,27 @@ $Lexicon = {
         'tears'
       ],
       'orig' => 'wa$al',
+      'prefix' => ''
+    }
+  ],
+  'wIlkinz' => [
+    {
+      'types' => {},
+      'entry' => 'wiylkinz',
+      'form' => 'wiylkinz',
+      'lines' => [
+        ';; wiylokinoz_1',
+        'wylknz  wiylokinoz      Nprop   Wilkins'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Wilkins'
+      ],
+      'orig' => 'wiylokinoz',
       'prefix' => ''
     }
   ],
@@ -19973,6 +19920,27 @@ $Lexicon = {
         'convinced'
       ],
       'orig' => 'mutawak~id',
+      'prefix' => ''
+    }
+  ],
+  'wIltUrd' => [
+    {
+      'types' => {},
+      'entry' => 'wiyltuwrd',
+      'form' => 'wiyltuwrd',
+      'lines' => [
+        ';; wiylotuwrod_1',
+        'wyltwrd wiylotuwrod     Nprop   Wiltord'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Wiltord'
+      ],
+      'orig' => 'wiylotuwrod',
       'prefix' => ''
     }
   ],
@@ -21527,27 +21495,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'wymbldwn' => [
-    {
-      'types' => {},
-      'entry' => 'wymbldwn',
-      'form' => 'wymbldwn',
-      'lines' => [
-        ';; wymbldwn_1',
-        'wymbldwn        wymbldwn        Nprop   Wimbledon'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Wimbledon'
-      ],
-      'orig' => 'wymbldwn',
-      'prefix' => ''
-    }
-  ],
   'w h r' => [
     {
       'types' => {
@@ -21667,6 +21614,27 @@ $Lexicon = {
         'Oran (Alg.)'
       ],
       'orig' => 'wahorAn',
+      'prefix' => ''
+    }
+  ],
+  'wArsU' => [
+    {
+      'types' => {},
+      'entry' => 'wArsuw',
+      'form' => 'wArsuw',
+      'lines' => [
+        ';; wArosuw_1',
+        'wArsw   wArosuw N0      Warsaw'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Warsaw'
+      ],
+      'orig' => 'wArosuw',
       'prefix' => ''
     }
   ],
@@ -21982,6 +21950,56 @@ $Lexicon = {
         'harmony'
       ],
       'orig' => 'muwA\'am',
+      'prefix' => ''
+    }
+  ],
+  'wA^sin.tUn' => [
+    {
+      'types' => {
+        'wA^sin.tun' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'wA^sin.tuwn',
+      'form' => 'wA^sin.tuwn',
+      'lines' => [
+        ';; wA$inoTuwn_1',
+        'wA$nTwn wA$inoTuwn      N0      Washington',
+        'wA$nTn  wA$inoTun       N0      Washington'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Washington'
+      ],
+      'orig' => 'wA$inoTuwn',
+      'prefix' => ''
+    }
+  ],
+  'wiqIy' => [
+    {
+      'types' => {},
+      'entry' => 'wiqiyy',
+      'form' => 'wiqiyyaT',
+      'lines' => [
+        ';; wiqiy~ap_1',
+        'wqy     wiqiy~  NapAt   uqiya (measure = 1/12 ratl; Beirut: 213 gr; Jerusalem 240 gr.;Aleppo 320 gr.)'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'uqiya (measure = 1/12 ratl',
+        'Beirut: 213 gr',
+        'Jerusalem 240 gr.',
+        'Aleppo 320 gr.)'
+      ],
+      'orig' => 'wiqiy~ap',
       'prefix' => ''
     }
   ],
@@ -24305,32 +24323,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'wuwtir^giyt' => [
-    {
-      'types' => {
-        'wuwtir.giyt' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'wuwtir^giyt',
-      'form' => 'wuwtir^giyt',
-      'lines' => [
-        ';; wuwtirojiyt_1',
-        'wwtrjyt wuwtirojiyt     N0      Wategate',
-        'wwtrgyt wuwtirogiyt     N0      Wategate'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Wategate'
-      ],
-      'orig' => 'wuwtirojiyt',
-      'prefix' => ''
-    }
-  ],
   'w' => [
     {
       'types' => {},
@@ -25506,27 +25498,6 @@ $Lexicon = {
         'predisposing factors'
       ],
       'orig' => 'muwaT~i}',
-      'prefix' => ''
-    }
-  ],
-  'wiyltuwrd' => [
-    {
-      'types' => {},
-      'entry' => 'wiyltuwrd',
-      'form' => 'wiyltuwrd',
-      'lines' => [
-        ';; wiylotuwrod_1',
-        'wyltwrd wiylotuwrod     Nprop   Wiltord'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Wiltord'
-      ],
-      'orig' => 'wiylotuwrod',
       'prefix' => ''
     }
   ],
@@ -29537,6 +29508,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'taqIy' => [
+    {
+      'types' => {},
+      'entry' => 'taqiyy',
+      'form' => 'taqiyyaT',
+      'lines' => [
+        ';; taqiy~ap_2',
+        'tqy     taqiy~  Nap     prudence;caution     [[taqiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'prudence',
+        'caution'
+      ],
+      'orig' => 'taqiy~ap',
+      'prefix' => ''
+    }
+  ],
   'w q .h' => [
     {
       'types' => {
@@ -30322,27 +30315,6 @@ $Lexicon = {
         'crane'
       ],
       'orig' => 'wino$',
-      'prefix' => ''
-    }
-  ],
-  'wuwrldkuwm' => [
-    {
-      'types' => {},
-      'entry' => 'wuwrldkuwm',
-      'form' => 'wuwrldkuwm',
-      'lines' => [
-        ';; wuwrldkuwm_1',
-        'wwrldkwm        wuwrldkuwm      Nprop   WorldCom'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'WorldCom'
-      ],
-      'orig' => 'wuwrldkuwm',
       'prefix' => ''
     }
   ],
@@ -31944,14 +31916,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'wuwrnar' => [
+  'wAndirlI' => [
     {
       'types' => {},
-      'entry' => 'wuwrnar',
-      'form' => 'wuwrnar',
+      'entry' => 'wAndirliy',
+      'form' => 'wAndirliy',
       'lines' => [
-        ';; wuwrnar_1',
-        'wwrnr   wuwrnar N0      Warner'
+        ';; wAnodiroliy_1',
+        'wAndrly wAnodiroliy     Nprop   Wanderley'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31959,30 +31931,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Warner'
+        'Wanderley'
       ],
-      'orig' => 'wuwrnar',
-      'prefix' => ''
-    }
-  ],
-  'wAtirfuwrd' => [
-    {
-      'types' => {},
-      'entry' => 'wAtirfuwrd',
-      'form' => 'wAtirfuwrd',
-      'lines' => [
-        ';; wAtirofuwrd_1',
-        'wAtrfwrd        wAtirofuwrd     Nprop   Waterford'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Waterford'
-      ],
-      'orig' => 'wAtirofuwrd',
+      'orig' => 'wAnodiroliy',
       'prefix' => ''
     }
   ],
@@ -33525,27 +33476,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'wAtsuw^sy' => [
-    {
-      'types' => {},
-      'entry' => 'wAtsuw^sy',
-      'form' => 'wAtsuw^sy',
-      'lines' => [
-        ';; wAtosuw$y_1',
-        'wAtsw$y wAtosuw$y       Nprop   Watsushi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Watsushi'
-      ],
-      'orig' => 'wAtosuw$y',
-      'prefix' => ''
-    }
-  ],
   'w h q' => [
     {
       'types' => {
@@ -34844,6 +34774,40 @@ $Lexicon = {
         'non-native'
       ],
       'orig' => 'muwal~ad',
+      'prefix' => ''
+    }
+  ],
+  'wIlyAms' => [
+    {
+      'types' => {
+        'wiylyAmz' => {
+          'Nprop' => 1
+        },
+        'wilyAmz' => {
+          'Nprop' => 1
+        },
+        'wilyAms' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'wiylyAms',
+      'form' => 'wiylyAms',
+      'lines' => [
+        ';; wiyloyAms_1',
+        'wylyAms wiyloyAms       Nprop   Williams',
+        'wlyAms  wiloyAms        Nprop   Williams',
+        'wylyAmz wiyloyAmz       Nprop   Williams',
+        'wlyAmz  wiloyAmz        Nprop   Williams'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Williams'
+      ],
+      'orig' => 'wiyloyAms',
       'prefix' => ''
     }
   ],
@@ -37962,6 +37926,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'wAnt^sUb' => [
+    {
+      'types' => {},
+      'entry' => 'wAnt^suwb',
+      'form' => 'wAnt^suwb',
+      'lines' => [
+        ';; wAnt$uwb_1',
+        'wAnt$wb wAnt$uwb        Nprop   Wanchope'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Wanchope'
+      ],
+      'orig' => 'wAnt$uwb',
+      'prefix' => ''
+    }
+  ],
+  'wAtirfUrd' => [
+    {
+      'types' => {},
+      'entry' => 'wAtirfuwrd',
+      'form' => 'wAtirfuwrd',
+      'lines' => [
+        ';; wAtirofuwrd_1',
+        'wAtrfwrd        wAtirofuwrd     Nprop   Waterford'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Waterford'
+      ],
+      'orig' => 'wAtirofuwrd',
+      'prefix' => ''
+    }
+  ],
   'tu^gAh' => [
     {
       'types' => {
@@ -38479,27 +38485,6 @@ $Lexicon = {
         'abstract'
       ],
       'orig' => 'muwjaz',
-      'prefix' => ''
-    }
-  ],
-  'wAndirliy' => [
-    {
-      'types' => {},
-      'entry' => 'wAndirliy',
-      'form' => 'wAndirliy',
-      'lines' => [
-        ';; wAnodiroliy_1',
-        'wAndrly wAnodiroliy     Nprop   Wanderley'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Wanderley'
-      ],
-      'orig' => 'wAnodiroliy',
       'prefix' => ''
     }
   ],
@@ -39413,6 +39398,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'wUrnar' => [
+    {
+      'types' => {},
+      'entry' => 'wuwrnar',
+      'form' => 'wuwrnar',
+      'lines' => [
+        ';; wuwrnar_1',
+        'wwrnr   wuwrnar N0      Warner'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Warner'
+      ],
+      'orig' => 'wuwrnar',
+      'prefix' => ''
+    }
+  ],
   'w t d' => [
     {
       'types' => {
@@ -39649,32 +39655,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'wA^sin.tuwn' => [
-    {
-      'types' => {
-        'wA^sin.tun' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'wA^sin.tuwn',
-      'form' => 'wA^sin.tuwn',
-      'lines' => [
-        ';; wA$inoTuwn_1',
-        'wA$nTwn wA$inoTuwn      N0      Washington',
-        'wA$nTn  wA$inoTun       N0      Washington'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Washington'
-      ],
-      'orig' => 'wA$inoTuwn',
-      'prefix' => ''
-    }
-  ],
   'w .g d' => [
     {
       'types' => {
@@ -39716,24 +39696,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'wArsuw' => [
+  'mIq' => [
     {
-      'types' => {},
-      'entry' => 'wArsuw',
-      'form' => 'wArsuw',
+      'types' => {
+        'mawAqiyt' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'miyq',
+      'form' => 'miyqAt',
       'lines' => [
-        ';; wArosuw_1',
-        'wArsw   wArosuw N0      Warsaw'
+        ';; miyqAt_1',
+        'myqAt   miyqAt  Ndu     appointed time;meeting point',
+        'mwAqyt  mawAqiyt        Ndip    timetables;rendezvous points and times'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'Identity |< At',
+      'suffix' => ' |< At',
       'glosses' => [
-        'Warsaw'
+        'appointed time',
+        'meeting point',
+        'timetables',
+        'rendezvous points and times'
       ],
-      'orig' => 'wArosuw',
+      'orig' => 'miyqAt',
       'prefix' => ''
     }
   ],
@@ -41024,6 +41012,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'wUkir' => [
+    {
+      'types' => {},
+      'entry' => 'wuwkir',
+      'form' => 'wuwkir',
+      'lines' => [
+        ';; wuwkir_1',
+        'wwkr    wuwkir  Nprop   Walker'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Walker'
+      ],
+      'orig' => 'wuwkir',
+      'prefix' => ''
+    }
+  ],
   'w l d n' => [
     {
       'types' => {},
@@ -41194,6 +41203,31 @@ $Lexicon = {
         'fear'
       ],
       'orig' => 'mawojal',
+      'prefix' => ''
+    }
+  ],
+  'wImbldUn' => [
+    {
+      'types' => {
+        'wymbldwn' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'wiymblduwn',
+      'form' => 'wiymblduwn',
+      'lines' => [
+        ';; wiymblduwn_1',
+        'wymbldwn        wymbldwn        Nprop   Wimbledon'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Wimbledon'
+      ],
+      'orig' => 'wiymblduwn',
       'prefix' => ''
     }
   ],
@@ -41606,36 +41640,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'wiylyAm' => [
-    {
-      'types' => {
-        'wilyam' => {
-          'Nprop' => 1
-        },
-        'wilyAm' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'wiylyAm',
-      'form' => 'wiylyAm',
-      'lines' => [
-        ';; wiyloyAm_1',
-        'wylyAm  wiyloyAm        Nprop   William',
-        'wlyAm   wiloyAm Nprop   William',
-        'wlym    wiloyam Nprop   William'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'William'
-      ],
-      'orig' => 'wiyloyAm',
-      'prefix' => ''
-    }
-  ],
   'w ^s ^s' => [
     {
       'types' => {},
@@ -41961,28 +41965,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'wiyrkuw' => [
-    {
-      'types' => {},
-      'entry' => 'wiyrkuw',
-      'form' => 'wiyrkuw',
-      'lines' => [
-        ';; wiyrokuw_1',
-        'wyrkw   wiyrokuw        N0      excise tax;real-estate tax'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'excise tax',
-        'real-estate tax'
-      ],
-      'orig' => 'wiyrokuw',
-      'prefix' => ''
-    }
-  ],
   'w z `' => [
     {
       'types' => {
@@ -42217,6 +42199,32 @@ $Lexicon = {
         'charges'
       ],
       'orig' => 'tuhomap',
+      'prefix' => ''
+    }
+  ],
+  'wUtir^gIt' => [
+    {
+      'types' => {
+        'wuwtir.giyt' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'wuwtir^giyt',
+      'form' => 'wuwtir^giyt',
+      'lines' => [
+        ';; wuwtirojiyt_1',
+        'wwtrjyt wuwtirojiyt     N0      Wategate',
+        'wwtrgyt wuwtirogiyt     N0      Wategate'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Wategate'
+      ],
+      'orig' => 'wuwtirojiyt',
       'prefix' => ''
     }
   ],

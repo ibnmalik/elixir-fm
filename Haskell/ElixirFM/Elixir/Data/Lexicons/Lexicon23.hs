@@ -1045,7 +1045,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `part`    {- lA -}               [ "no", "not" ] ]
 
- |> "lA^suwtiyn" <| [
+ |> "lA^sUtIn" <| [
 
     Identity                  `noun`    {- lA$uwtiyn -}        [ "Lashutin" ] ]
 
@@ -1053,9 +1053,69 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- lAhAy -}            [ "The Hague" ] ]
 
- |> "lAtiyn" <| [
+ |> "lAtIn" <| [
 
     Identity |< Iy            `adj`     {- lAtiyniy~ -}        [ "Latin" ] ]
+
+ |> "lIbIriyA" <| [
+
+    Identity                  `noun`    {- liybiyriyA -}       [ "Liberia" ] ]
+
+ |> "lIbirAl" <| [
+
+    Identity |< Iy            `adj`     {- liybirAliy~ -}      [ "liberal", "liberalism" ] ]
+
+ |> "lIbirmAn" <| [
+
+    Identity                  `noun`    {- liybiromAn -}       [ "Lieberman" ],
+
+    Identity                  `noun`    {- liybiromAn -}       [ "Liberman" ] ]
+
+ |> "lIbiyA" <| [
+
+    Identity                  `noun`    {- liybiyA -}          [ "Libya" ] ]
+
+ |> "lIfirkUzin" <| [
+
+    Identity                  `noun`    {- liyfirokuwzin -}    [ "Leverkusen" ] ]
+
+ |> "lIndsAy" <| [
+
+    Identity                  `noun`    {- liyndosAy -}        [ "Lindsay" ] ]
+
+ |> "lItr" <| [
+
+    Identity                  `noun`    {- liytor -}           [ "liter" ] ]
+
+ |> "lU^gist" <| [
+
+    Identity |< Iy            `adj`     {- luwjisotiy~ -}      [ "logistic" ],
+
+    Identity |< Iy            `adj`     {- luwjisotiy~ -}      [ "logistician" ] ]
+
+ |> "lUkirbI" <| [
+
+    Identity                  `noun`    {- luwkirobiy -}       [ "Lockerbie" ] ]
+
+ |> "lUmUnd" <| [
+
+    Identity                  `noun`    {- luwmuwnd -}         [ "Le Monde" ] ]
+
+ |> "lUn.g" <| [
+
+    Identity                  `noun`    {- luwnog -}           [ "Long" ] ]
+
+ |> "lUrAns" <| [
+
+    Identity                  `noun`    {- luwrAns -}          [ "Laurence" ] ]
+
+ |> "lUsAkA" <| [
+
+    Identity                  `noun`    {- luwsAkA -}          [ "Lusaka" ] ]
+
+ |> "lUsIrn" <| [
+
+    Identity                  `noun`    {- luwsiyrn -}         [ "Lucerne" ] ]
 
  |> "l_akin" <| [
 
@@ -1081,91 +1141,27 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- litwAniyA -}        [ "Lithuania" ] ]
 
- |> "liybirAl" <| [
-
-    Identity |< Iy            `adj`     {- liybirAliy~ -}      [ "liberal", "liberalism" ] ]
-
- |> "liybirmAn" <| [
-
-    Identity                  `noun`    {- liybiromAn -}       [ "Lieberman" ],
-
-    Identity                  `noun`    {- liybiromAn -}       [ "Liberman" ] ]
-
- |> "liybiyA" <| [
-
-    Identity                  `noun`    {- liybiyA -}          [ "Libya" ] ]
-
- |> "liybiyriyA" <| [
-
-    Identity                  `noun`    {- liybiyriyA -}       [ "Liberia" ] ]
-
- |> "liyfirkuwzin" <| [
-
-    Identity                  `noun`    {- liyfirokuwzin -}    [ "Leverkusen" ] ]
-
- |> "liyndsAy" <| [
-
-    Identity                  `noun`    {- liyndosAy -}        [ "Lindsay" ] ]
-
- |> "liytr" <| [
-
-    Identity                  `noun`    {- liytor -}           [ "liter" ] ]
-
- |> "liyuwbArd" <| [
+ |> "liyUbArd" <| [
 
     Identity                  `noun`    {- liyuwbArod -}       [ "Leopard" ] ]
 
- |> "liyuwbliyAnA" <| [
+ |> "liyUbliyAnA" <| [
 
     Identity                  `noun`    {- liyuwboliyAnA -}    [ "Ljubljana" ] ]
 
- |> "liyuwn" <| [
+ |> "liyUn" <| [
 
     Identity                  `noun`    {- liyuwn -}           [ "Leon" ],
 
     Identity                  `noun`    {- liyuwn -}           [ "Lyon" ] ]
 
- |> "liyuwr" <| [
+ |> "liyUr" <| [
 
     Identity                  `noun`    {- liyuwr -}           [ "Lior" ] ]
 
- |> "luw^gist" <| [
-
-    Identity |< Iy            `adj`     {- luwjisotiy~ -}      [ "logistic" ],
-
-    Identity |< Iy            `adj`     {- luwjisotiy~ -}      [ "logistician" ] ]
-
- |> "luwkirbiy" <| [
-
-    Identity                  `noun`    {- luwkirobiy -}       [ "Lockerbie" ] ]
-
- |> "luwmuwnd" <| [
-
-    Identity                  `noun`    {- luwmuwnd -}         [ "Le Monde" ] ]
-
- |> "luwn.g" <| [
-
-    Identity                  `noun`    {- luwnog -}           [ "Long" ] ]
-
- |> "luwrAns" <| [
-
-    Identity                  `noun`    {- luwrAns -}          [ "Laurence" ] ]
-
- |> "luwsAkA" <| [
-
-    Identity                  `noun`    {- luwsAkA -}          [ "Lusaka" ] ]
-
- |> "luwsiyrn" <| [
-
-    Identity                  `noun`    {- luwsiyrn -}         [ "Lucerne" ] ]
-
- |> "luwuwn.g" <| [
+ |> "luwUn.g" <| [
 
     Identity                  `noun`    {- luwuwnog -}         [ "Luong" ] ]
-
- |> "lybrfyl" <| [
-
-    Identity                  `noun`    {- lybrfyl -}          [ "Libreville" ] ]
 
  |> "mAlam" <| [
 

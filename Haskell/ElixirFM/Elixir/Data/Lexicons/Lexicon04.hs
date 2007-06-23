@@ -283,14 +283,12 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- vaqAfap -}          [ "culture", "civilization" ],
 
+    FaCAL |< Iy               `adj`     {- vaqAfiy~ -}         [ "cultural", "intellectual" ],
+
     TaFCIL                    `noun`    {- tavoqiyf -}         [ "education", "cultivation" ]
                               `plural`     TaFCIL |< At,
 
     MuFaCCaL                  `noun`    {- muvaq~af -}         [ "intellectual", "cultivated", "cultured", "educated" ] ]
-
- |> "_t q f y" <| [
-
-    KaRADIS                   `adj`     {- vaqAfiy~ -}         [ "cultural", "intellectual" ] ]
 
  |> "_t q l" <| [
 
@@ -394,6 +392,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFIL                     `noun`    {- muviyr -}           [ "provoking", "agitating", "stirring up" ] ]
 
+ |> "_tUrmUnt" <| [
+
+    Identity                  `noun`    {- vuwromuwnot -}      [ "Thurmont" ] ]
+
  |> "_talA_tmA'" <| [
 
     Identity |< aT            `noun`    {- valAvmA}ap -}       [ "three-hundred" ] ]
@@ -401,10 +403,6 @@ lexicon = listing "Lexicon's properties"
  |> "_tulA_tA'" <| [
 
     Identity                  `noun`    {- vulAvA' -}          [ "Tuesday" ] ]
-
- |> "_tuwrmuwnt" <| [
-
-    Identity                  `noun`    {- vuwromuwnot -}      [ "Thurmont" ] ]
 
  |> "i_tnA" <| [
 

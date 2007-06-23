@@ -13,7 +13,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OuqoSur -}          [ "Luxor" ] ]
 
- |> "muqAwiluwn" <| [
+ |> "muqAwilUn" <| [
 
     Identity                  `noun`    {- muqAwiluwn -}       [ "Muqawiloun" ] ]
 
@@ -993,7 +993,9 @@ lexicon = listing "Lexicon's properties"
  |> "q h w" <| [
 
     FaCL |< aT                `noun`    {- qahowap -}          [ "coffee" ]
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCaL |< At ]
+
+ |> "q h y" <| [
 
     MaFCY                     `noun`    {- maqohaY -}          [ "cafe", "coffeehouse" ]
                               `plural`     MaFACI
@@ -2096,15 +2098,19 @@ lexicon = listing "Lexicon's properties"
 
     KaRDIS                    `noun`    {- qazowiyn -}         [ "Caspian", "Qazvin" ] ]
 
- |> "qA.zimbuwr" <| [
+ |> "qA.zimbUr" <| [
 
     Identity                  `noun`    {- qAZimbuwr -}        [ "Kazempour" ] ]
 
- |> "qAdruwf" <| [
+ |> "qAdrUf" <| [
 
     Identity                  `noun`    {- qAdruwf -}          [ "Kadyrov" ] ]
 
- |> "qalansuw" <| [
+ |> "qUquryAl" <| [
+
+    Identity                  `noun`    {- quwquroyAl -}       [ "Gogorial (Gorgorial??)" ] ]
+
+ |> "qalansU" <| [
 
     Identity |< aT            `noun`    {- qalanosuwap -}      [ "hood", "cap" ],
 
@@ -2128,7 +2134,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- qayorawAn -}        [ "caravan" ] ]
 
- |> "qir.giyzstAn" <| [
+ |> "qir.gIzstAn" <| [
 
     Identity                  `noun`    {- qirogiyzostAn -}    [ "Kyrgyzstan" ],
 
@@ -2137,8 +2143,4 @@ lexicon = listing "Lexicon's properties"
  |> "quwatl" <| [
 
     Identity |< Iy            `adj`     {- quwatoliy~ -}       [ "Quwatli" ] ]
-
- |> "quwquryAl" <| [
-
-    Identity                  `noun`    {- quwquroyAl -}       [ "Gogorial (Gorgorial??)" ] ]
 

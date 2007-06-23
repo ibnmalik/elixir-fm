@@ -134,34 +134,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ziylAnd' => [
-    {
-      'types' => {
-        'ziylandiyy' => {
-          'Nall' => 2
-        }
-      },
-      'entry' => 'ziylAnd',
-      'form' => 'ziylAndiyy',
-      'lines' => [
-        ';; ziylAnodiy~_1',
-        'zylAndy ziylAnodiy~     Nall    Zealander     [[ziylAnodiy~/NOUN]]',
-        'zylAndy ziylAnodiy~     Nall    Zealander     [[ziylAnodiy~/ADJ]]',
-        'zylndy  ziylanodiy~     Nall    Zealander     [[ziylanodiy~/NOUN]]',
-        'zylndy  ziylanodiy~     Nall    Zealander     [[ziylanodiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Zealander'
-      ],
-      'orig' => 'ziylAnodiy~',
-      'prefix' => ''
-    }
-  ],
   'z r b l' => [
     {
       'types' => {
@@ -335,32 +307,6 @@ $Lexicon = {
         'Zanganeh'
       ],
       'orig' => 'zanoqAnap',
-      'prefix' => ''
-    }
-  ],
-  'zakariyyA' => [
-    {
-      'types' => {
-        'zakariyyY' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'zakariyyA',
-      'form' => 'zakariyyA',
-      'lines' => [
-        ';; zakariy~A_1',
-        'zkryA   zakariy~A       Nprop   Zakariya;Zecharia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Zakariya',
-        'Zecharia'
-      ],
-      'orig' => 'zakariy~A',
       'prefix' => ''
     }
   ],
@@ -2448,27 +2394,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'zA\'iyr' => [
-    {
-      'types' => {},
-      'entry' => 'zA\'iyr',
-      'form' => 'zA\'iyr',
-      'lines' => [
-        ';; zA}iyr_1',
-        'zA}yr   zA}iyr  N       Zaire'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Zaire'
-      ],
-      'orig' => 'zA}iyr',
-      'prefix' => ''
-    }
-  ],
   'z m ^g r' => [
     {
       'types' => {
@@ -2885,32 +2810,6 @@ $Lexicon = {
         'nomination by acclamation'
       ],
       'orig' => 'tazokiyap',
-      'prefix' => ''
-    }
-  ],
-  'zan^gabiyl' => [
-    {
-      'types' => {
-        'zanzabiyl' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'zan^gabiyl',
-      'form' => 'zan^gabiyl',
-      'lines' => [
-        ';; zanojabiyl_1',
-        'znjbyl  zanojabiyl      N       ginger',
-        'znzbyl  zanozabiyl      N       ginger'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'ginger'
-      ],
-      'orig' => 'zanojabiyl',
       'prefix' => ''
     }
   ],
@@ -3599,27 +3498,6 @@ $Lexicon = {
         'switch buttons'
       ],
       'orig' => 'zir~',
-      'prefix' => ''
-    }
-  ],
-  'ziyfAdiynuwfiyt^s' => [
-    {
-      'types' => {},
-      'entry' => 'ziyfAdiynuwfiyt^s',
-      'form' => 'ziyfAdiynuwfiyt^s',
-      'lines' => [
-        ';; ziyfAdiynuwfiyt$_1',
-        'zyfAdynwfyt$    ziyfAdiynuwfiyt$        Nprop   Zivadinovic'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Zivadinovic'
-      ],
-      'orig' => 'ziyfAdiynuwfiyt$',
       'prefix' => ''
     }
   ],
@@ -5779,28 +5657,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'zamhariyr' => [
-    {
-      'types' => {},
-      'entry' => 'zamhariyr',
-      'form' => 'zamhariyr',
-      'lines' => [
-        ';; zamohariyr_1',
-        'zmhryr  zamohariyr      N       bitter cold;severe frost'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bitter cold',
-        'severe frost'
-      ],
-      'orig' => 'zamohariyr',
-      'prefix' => ''
-    }
-  ],
   'z y f' => [
     {
       'types' => {
@@ -7813,6 +7669,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'zImbAbwI' => [
+    {
+      'types' => {},
+      'entry' => 'ziymbAbwiy',
+      'form' => 'ziymbAbwiy',
+      'lines' => [
+        ';; ziymobAbowiy_1',
+        'zymbAbwy        ziymobAbowiy    Nprop   Zimbabwe'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Zimbabwe'
+      ],
+      'orig' => 'ziymobAbowiy',
+      'prefix' => ''
+    }
+  ],
   'z r `' => [
     {
       'types' => {
@@ -8259,27 +8136,6 @@ $Lexicon = {
         'planted land'
       ],
       'orig' => 'munozariE',
-      'prefix' => ''
-    }
-  ],
-  'ziynkuw' => [
-    {
-      'types' => {},
-      'entry' => 'ziynkuw',
-      'form' => 'ziynkuw',
-      'lines' => [
-        ';; ziynokuw_1',
-        'zynkw   ziynokuw        N0      zinc'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'zinc'
-      ],
-      'orig' => 'ziynokuw',
       'prefix' => ''
     }
   ],
@@ -9074,27 +8930,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ziymbAbw' => [
-    {
-      'types' => {},
-      'entry' => 'ziymbAbw',
-      'form' => 'ziymbAbwiyy',
-      'lines' => [
-        ';; ziymobAbowiy~_1',
-        'zymbAbwy        ziymobAbowiy~   Nall    Zimbabwean'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Zimbabwean'
-      ],
-      'orig' => 'ziymobAbowiy~',
-      'prefix' => ''
-    }
-  ],
   'z _h _h' => [
     {
       'types' => {},
@@ -9181,6 +9016,32 @@ $Lexicon = {
         'wild Thyme'
       ],
       'orig' => 'zaEotar',
+      'prefix' => ''
+    }
+  ],
+  'zakarIyA' => [
+    {
+      'types' => {
+        'zakariyyY' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'zakariyyA',
+      'form' => 'zakariyyA',
+      'lines' => [
+        ';; zakariy~A_1',
+        'zkryA   zakariy~A       Nprop   Zakariya;Zecharia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Zakariya',
+        'Zecharia'
+      ],
+      'orig' => 'zakariy~A',
       'prefix' => ''
     }
   ],
@@ -9274,6 +9135,27 @@ $Lexicon = {
         'dysentery'
       ],
       'orig' => 'zinoTAriy~ap',
+      'prefix' => ''
+    }
+  ],
+  'zAbAlItA' => [
+    {
+      'types' => {},
+      'entry' => 'zAbAliytA',
+      'form' => 'zAbAliytA',
+      'lines' => [
+        ';; zAbAliytA_1',
+        'zAbAlytA        zAbAliytA       Nprop   Zabaleta'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Zabaleta'
+      ],
+      'orig' => 'zAbAliytA',
       'prefix' => ''
     }
   ],
@@ -9463,6 +9345,59 @@ $Lexicon = {
         'gray with white patches'
       ],
       'orig' => 'zurozuwriy~',
+      'prefix' => ''
+    }
+  ],
+  'zullUm' => [
+    {
+      'types' => {
+        'zalAliym' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'zulluwm',
+      'form' => 'zulluwmaT',
+      'lines' => [
+        ';; zul~uwmap_1',
+        'zlwm    zul~uwm Nap     elephant trunk',
+        'zlAlym  zalAliym        Ndip    elephant trunks'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'elephant trunk',
+        'elephant trunks'
+      ],
+      'orig' => 'zul~uwmap',
+      'prefix' => ''
+    }
+  ],
+  'zIlAndA' => [
+    {
+      'types' => {
+        'ziylandA' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'ziylAndA',
+      'form' => 'ziylAndA',
+      'lines' => [
+        ';; ziylAnodA_1',
+        'zylAndA ziylAnodA       N0      Zealand',
+        'zylndA  ziylanodA       N0      Zealand'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Zealand'
+      ],
+      'orig' => 'ziylAnodA',
       'prefix' => ''
     }
   ],
@@ -10132,28 +10067,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'zayzafuwn' => [
-    {
-      'types' => {},
-      'entry' => 'zayzafuwn',
-      'form' => 'zayzafuwn',
-      'lines' => [
-        ';; zayozafuwn_1',
-        'zyzfwn  zayozafuwn      N       jujube;linden tree'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'jujube',
-        'linden tree'
-      ],
-      'orig' => 'zayozafuwn',
-      'prefix' => ''
-    }
-  ],
   'za`za`An' => [
     {
       'types' => {},
@@ -10490,27 +10403,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'zuwluw^giyA' => [
-    {
-      'types' => {},
-      'entry' => 'zuwluw^giyA',
-      'form' => 'zuwluw^giyA',
-      'lines' => [
-        ';; zuwluwjiyA_1',
-        'zwlwjyA zuwluwjiyA      N0      zoology'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'zoology'
-      ],
-      'orig' => 'zuwluwjiyA',
-      'prefix' => ''
-    }
-  ],
   'z m h r' => [
     {
       'types' => {
@@ -10584,6 +10476,27 @@ $Lexicon = {
         'be bloodshot'
       ],
       'orig' => 'Aizomahar~',
+      'prefix' => ''
+    }
+  ],
+  'zImbAbw' => [
+    {
+      'types' => {},
+      'entry' => 'ziymbAbw',
+      'form' => 'ziymbAbwiyy',
+      'lines' => [
+        ';; ziymobAbowiy~_1',
+        'zymbAbwy        ziymobAbowiy~   Nall    Zimbabwean'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Zimbabwean'
+      ],
+      'orig' => 'ziymobAbowiy~',
       'prefix' => ''
     }
   ],
@@ -11345,6 +11258,34 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'zIlAnd' => [
+    {
+      'types' => {
+        'ziylandiyy' => {
+          'Nall' => 2
+        }
+      },
+      'entry' => 'ziylAnd',
+      'form' => 'ziylAndiyy',
+      'lines' => [
+        ';; ziylAnodiy~_1',
+        'zylAndy ziylAnodiy~     Nall    Zealander     [[ziylAnodiy~/NOUN]]',
+        'zylAndy ziylAnodiy~     Nall    Zealander     [[ziylAnodiy~/ADJ]]',
+        'zylndy  ziylanodiy~     Nall    Zealander     [[ziylanodiy~/NOUN]]',
+        'zylndy  ziylanodiy~     Nall    Zealander     [[ziylanodiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Zealander'
+      ],
+      'orig' => 'ziylAnodiy~',
+      'prefix' => ''
+    }
+  ],
   'z y t n' => [
     {
       'types' => {},
@@ -11621,27 +11562,6 @@ $Lexicon = {
         'hornets'
       ],
       'orig' => 'zunobuwr',
-      'prefix' => ''
-    }
-  ],
-  'zAbAliytA' => [
-    {
-      'types' => {},
-      'entry' => 'zAbAliytA',
-      'form' => 'zAbAliytA',
-      'lines' => [
-        ';; zAbAliytA_1',
-        'zAbAlytA        zAbAliytA       Nprop   Zabaleta'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Zabaleta'
-      ],
-      'orig' => 'zAbAliytA',
       'prefix' => ''
     }
   ],
@@ -11992,27 +11912,6 @@ $Lexicon = {
         'obscure'
       ],
       'orig' => 'munozawiy',
-      'prefix' => ''
-    }
-  ],
-  'zuluw^giyy' => [
-    {
-      'types' => {},
-      'entry' => 'zuluw^giyy',
-      'form' => 'zuluw^giyy',
-      'lines' => [
-        ';; zuluwjiy~_1',
-        'zlwjy   zuluwjiy~       Nall    zoological     [[zuluwjiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'zoological'
-      ],
-      'orig' => 'zuluwjiy~',
       'prefix' => ''
     }
   ],
@@ -12442,32 +12341,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ziylAndA' => [
-    {
-      'types' => {
-        'ziylandA' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'ziylAndA',
-      'form' => 'ziylAndA',
-      'lines' => [
-        ';; ziylAnodA_1',
-        'zylAndA ziylAnodA       N0      Zealand',
-        'zylndA  ziylanodA       N0      Zealand'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Zealand'
-      ],
-      'orig' => 'ziylAnodA',
-      'prefix' => ''
-    }
-  ],
   'z n \'' => [
     {
       'types' => {
@@ -12803,6 +12676,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'zan^gabIl' => [
+    {
+      'types' => {
+        'zanzabiyl' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'zan^gabiyl',
+      'form' => 'zan^gabiyl',
+      'lines' => [
+        ';; zanojabiyl_1',
+        'znjbyl  zanojabiyl      N       ginger',
+        'znzbyl  zanozabiyl      N       ginger'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'ginger'
+      ],
+      'orig' => 'zanojabiyl',
+      'prefix' => ''
+    }
+  ],
   'z h d y' => [
     {
       'types' => {},
@@ -12915,54 +12814,6 @@ $Lexicon = {
         'crows'
       ],
       'orig' => 'zAg',
-      'prefix' => ''
-    }
-  ],
-  'ziyliykuw' => [
-    {
-      'types' => {},
-      'entry' => 'ziyliykuw',
-      'form' => 'ziyliykuw',
-      'lines' => [
-        ';; ziyliykuw_1',
-        'zylykw  ziyliykuw       Nprop   Zeljko'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Zeljko'
-      ],
-      'orig' => 'ziyliykuw',
-      'prefix' => ''
-    }
-  ],
-  'zulluwm' => [
-    {
-      'types' => {
-        'zalAliym' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'zulluwm',
-      'form' => 'zulluwmaT',
-      'lines' => [
-        ';; zul~uwmap_1',
-        'zlwm    zul~uwm Nap     elephant trunk',
-        'zlAlym  zalAliym        Ndip    elephant trunks'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'elephant trunk',
-        'elephant trunks'
-      ],
-      'orig' => 'zul~uwmap',
       'prefix' => ''
     }
   ],
@@ -13242,6 +13093,27 @@ $Lexicon = {
         'Zhi'
       ],
       'orig' => 'zhiy',
+      'prefix' => ''
+    }
+  ],
+  'zA^gUrA' => [
+    {
+      'types' => {},
+      'entry' => 'zA^guwrA',
+      'form' => 'zA^guwrA',
+      'lines' => [
+        ';; zAjuwrA_1',
+        'zAjwrA  zAjuwrA N0      Zagora'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Zagora'
+      ],
+      'orig' => 'zAjuwrA',
       'prefix' => ''
     }
   ],
@@ -14196,27 +14068,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'zA^guwrA' => [
-    {
-      'types' => {},
-      'entry' => 'zA^guwrA',
-      'form' => 'zA^guwrA',
-      'lines' => [
-        ';; zAjuwrA_1',
-        'zAjwrA  zAjuwrA N0      Zagora'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Zagora'
-      ],
-      'orig' => 'zAjuwrA',
-      'prefix' => ''
-    }
-  ],
   'z r \'' => [
     {
       'types' => {},
@@ -14368,6 +14219,28 @@ $Lexicon = {
         'cinnabar'
       ],
       'orig' => 'zunojufor',
+      'prefix' => ''
+    }
+  ],
+  'zamharIr' => [
+    {
+      'types' => {},
+      'entry' => 'zamhariyr',
+      'form' => 'zamhariyr',
+      'lines' => [
+        ';; zamohariyr_1',
+        'zmhryr  zamohariyr      N       bitter cold;severe frost'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'bitter cold',
+        'severe frost'
+      ],
+      'orig' => 'zamohariyr',
       'prefix' => ''
     }
   ],
@@ -14735,6 +14608,44 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'z b r ^g' => [
+    {
+      'types' => {},
+      'entry' => 'zibri^g',
+      'form' => 'zibri^g',
+      'lines' => [
+        ';; ziborij_1',
+        'zbrj    ziborij N       ornament;decoration'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KiRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'ornament',
+        'decoration'
+      ],
+      'orig' => 'ziborij',
+      'prefix' => ''
+    }
+  ],
+  'z k \'' => [
+    {
+      'types' => {},
+      'entry' => 'zakA\'',
+      'form' => 'zakA\'',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'zakA\'',
+      'prefix' => ''
+    }
+  ],
   'z m l' => [
     {
       'types' => {
@@ -14883,44 +14794,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'z b r ^g' => [
-    {
-      'types' => {},
-      'entry' => 'zibri^g',
-      'form' => 'zibri^g',
-      'lines' => [
-        ';; ziborij_1',
-        'zbrj    ziborij N       ornament;decoration'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KiRDiS',
-      'suffix' => '',
-      'glosses' => [
-        'ornament',
-        'decoration'
-      ],
-      'orig' => 'ziborij',
-      'prefix' => ''
-    }
-  ],
-  'z k \'' => [
-    {
-      'types' => {},
-      'entry' => 'zakA\'',
-      'form' => 'zakA\'',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'zakA\'',
-      'prefix' => ''
-    }
-  ],
   'zumurrud' => [
     {
       'types' => {},
@@ -14961,14 +14834,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ziymbAbwiy' => [
+  'zUlU^giyA' => [
     {
       'types' => {},
-      'entry' => 'ziymbAbwiy',
-      'form' => 'ziymbAbwiy',
+      'entry' => 'zuwluw^giyA',
+      'form' => 'zuwluw^giyA',
       'lines' => [
-        ';; ziymobAbowiy_1',
-        'zymbAbwy        ziymobAbowiy    Nprop   Zimbabwe'
+        ';; zuwluwjiyA_1',
+        'zwlwjyA zuwluwjiyA      N0      zoology'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14976,9 +14849,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Zimbabwe'
+        'zoology'
       ],
-      'orig' => 'ziymobAbowiy',
+      'orig' => 'zuwluwjiyA',
       'prefix' => ''
     }
   ],
@@ -16174,6 +16047,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'zA\'Ir' => [
+    {
+      'types' => {},
+      'entry' => 'zA\'iyr',
+      'form' => 'zA\'iyr',
+      'lines' => [
+        ';; zA}iyr_1',
+        'zA}yr   zA}iyr  N       Zaire'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Zaire'
+      ],
+      'orig' => 'zA}iyr',
+      'prefix' => ''
+    }
+  ],
   'z k r' => [
     {
       'types' => {
@@ -16482,6 +16376,27 @@ $Lexicon = {
         'trails'
       ],
       'orig' => 'zaqiylap',
+      'prefix' => ''
+    }
+  ],
+  'zIlIkU' => [
+    {
+      'types' => {},
+      'entry' => 'ziyliykuw',
+      'form' => 'ziyliykuw',
+      'lines' => [
+        ';; ziyliykuw_1',
+        'zylykw  ziyliykuw       Nprop   Zeljko'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Zeljko'
+      ],
+      'orig' => 'ziyliykuw',
       'prefix' => ''
     }
   ],
@@ -16924,6 +16839,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'zInkU' => [
+    {
+      'types' => {},
+      'entry' => 'ziynkuw',
+      'form' => 'ziynkuw',
+      'lines' => [
+        ';; ziynokuw_1',
+        'zynkw   ziynokuw        N0      zinc'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'zinc'
+      ],
+      'orig' => 'ziynokuw',
+      'prefix' => ''
+    }
+  ],
   'z n n' => [
     {
       'types' => {
@@ -17351,27 +17287,6 @@ $Lexicon = {
         'mercury'
       ],
       'orig' => 'zA\'uwq',
-      'prefix' => ''
-    }
-  ],
-  'zintariy' => [
-    {
-      'types' => {},
-      'entry' => 'zintariy',
-      'form' => 'zintariy',
-      'lines' => [
-        ';; zinotariy_1',
-        'zntry   zinotariy       N0      dysentery'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'dysentery'
-      ],
-      'orig' => 'zinotariy',
       'prefix' => ''
     }
   ],
@@ -17841,6 +17756,28 @@ $Lexicon = {
         'hurricanes'
       ],
       'orig' => 'zawobaEap',
+      'prefix' => ''
+    }
+  ],
+  'zayzafUn' => [
+    {
+      'types' => {},
+      'entry' => 'zayzafuwn',
+      'form' => 'zayzafuwn',
+      'lines' => [
+        ';; zayozafuwn_1',
+        'zyzfwn  zayozafuwn      N       jujube;linden tree'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'jujube',
+        'linden tree'
+      ],
+      'orig' => 'zayozafuwn',
       'prefix' => ''
     }
   ],
@@ -18684,6 +18621,25 @@ $Lexicon = {
       ],
       'orig' => 'zulayojiy~',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'zuluw^g',
+      'form' => 'zuluw^giyy',
+      'lines' => [
+        ';; zuluwjiy~_1',
+        'zlwjy   zuluwjiy~       Nall    zoological     [[zuluwjiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuCUL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'zoological'
+      ],
+      'orig' => 'zuluwjiy~',
+      'prefix' => ''
     }
   ],
   'z b b' => [
@@ -18777,6 +18733,27 @@ $Lexicon = {
         'shaggy'
       ],
       'orig' => 'Oazab~',
+      'prefix' => ''
+    }
+  ],
+  'zintarI' => [
+    {
+      'types' => {},
+      'entry' => 'zintariy',
+      'form' => 'zintariy',
+      'lines' => [
+        ';; zinotariy_1',
+        'zntry   zinotariy       N0      dysentery'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'dysentery'
+      ],
+      'orig' => 'zinotariy',
       'prefix' => ''
     }
   ],
@@ -21097,6 +21074,27 @@ $Lexicon = {
         'Zamboanga'
       ],
       'orig' => 'zAmobuwAnogA',
+      'prefix' => ''
+    }
+  ],
+  'zIfAdInUfIt^s' => [
+    {
+      'types' => {},
+      'entry' => 'ziyfAdiynuwfiyt^s',
+      'form' => 'ziyfAdiynuwfiyt^s',
+      'lines' => [
+        ';; ziyfAdiynuwfiyt$_1',
+        'zyfAdynwfyt$    ziyfAdiynuwfiyt$        Nprop   Zivadinovic'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Zivadinovic'
+      ],
+      'orig' => 'ziyfAdiynuwfiyt$',
       'prefix' => ''
     }
   ],

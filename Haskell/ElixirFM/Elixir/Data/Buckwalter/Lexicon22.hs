@@ -9,7 +9,7 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'ikliyl" <| [
+ |> "'iklIl" <| [
 
     -- ;; <ikoliyl_1
     -- <klyl   <ikoliyl        Ndu     halo;corona
@@ -36,16 +36,6 @@ lexicon = listing "Lexicon's properties"
     -- Aklyly  <ikoliyliy~     N-ap    coronal     [[<ikoliyliy~/ADJ]]
 
     Identity |< Iy            `adj`     {- Iikoliyliy~ -}      [ "coronal" ] ]
-
- |> "'uk_duwb" <| [
-
-    -- ;; >uko*uwbap_1
-    -- >k*wb   >uko*uwb        Napdu   lie
-    -- Ak*wb   >uko*uwb        Napdu   lie
-    -- >kA*yb  >akA*iyb        Ndip    lies
-    -- AkA*yb  >akA*iyb        Ndip    lies
-
-    Identity |< aT            `noun`    {- Ouko*uwbap -}       [ "lie" ] ]
 
  |> "k ' b" <| [
 
@@ -932,6 +922,16 @@ lexicon = listing "Lexicon's properties"
     -- k*Ab    ka*~Ab  Nall    liar
 
     FaCCAL                    `noun`    {- ka*~Ab -}           [ "liar" ],
+
+    -- ;; >uko*uwbap_1
+    -- >k*wb   >uko*uwb        Napdu   lie
+    -- Ak*wb   >uko*uwb        Napdu   lie
+    -- >kA*yb  >akA*iyb        Ndip    lies
+    -- AkA*yb  >akA*iyb        Ndip    lies
+
+    HuFCUL |< aT              `noun`    {- Ouko*uwbap -}       [ "lie" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'akA_diyb Ndip" ] -},
 
     -- ;; >ako*ab_2
     -- >k*b    >ako*ab Nel     bigger/biggest liar
@@ -3513,7 +3513,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; kaluw'_1
     -- klw'    kaluw'  N-ap    sleepless     [[kaluw'/ADJ]]
 
-    FaCUL                     `adj`     {- kaluw' -}           [ "sleepless" ] ]
+    FaCUL                     `adj`     {- kaluw' -}           [ "sleepless" ],
+
+    -- ;; kulAwiy~_1
+    -- klAwy   kulAwiy~        N-ap    renal;kidney     [[kalAwiy~/ADJ]]
+
+    FuCAL |< Iy               `adj`     {- kulAwiy~ -}         [ "renal", "kidney" ] ]
 
  |> "k l .h" <| [
 
@@ -4170,7 +4175,12 @@ lexicon = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- kulowap -}          [ "kidney" ]
                               `plural`     FuCY
-                           {- `others`  [ "kulY N0" ] -} ]
+                           {- `others`  [ "kulY N0" ] -},
+
+    -- ;; kilowiy~_1
+    -- klwy    kilowiy~        N/ap    renal;kidney     [[kilowiy~/ADJ]]
+
+    FiCL |< Iy                `adj`     {- kilowiy~ -}         [ "renal", "kidney" ] ]
 
  |> "k l w r" <| [
 
@@ -4185,12 +4195,12 @@ lexicon = listing "Lexicon's properties"
 
     KaRDaS |< aT              `noun`    {- kalowarap -}        [ "chlorination" ] ]
 
- |> "k l w y" <| [
+ |> "k l y" <| [
 
-    -- ;; kilowiy~_1
-    -- klwy    kilowiy~        N/ap    renal;kidney     [[kilowiy~/ADJ]]
+    -- ;; kulAwiy~_1
+    -- klAwy   kulAwiy~        N-ap    renal;kidney     [[kalAwiy~/ADJ]]
 
-    KiRDIS                    `adj`     {- kilowiy~ -}         [ "renal", "kidney" ] ]
+    FuCA' |< Iy               `adj`     {- kulAwiy~ -}         [ "renal", "kidney" ] ]
 
  |> "k m '" <| [
 
@@ -6695,12 +6705,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "k r w" <| [
 
-    -- ;; kArw_1
-    -- kArw    kArw    N0      cart;wagon
-    -- kArwh   kAruwh  NAt     carts;wagons
-
-    FACL                      `noun`    {- kArw -}             [ "cart", "wagon" ],
-
     -- ;; karA-u_1
     -- krA     karA    PV_0h   excavate
     -- krw     karaw   PV_Atn  excavate
@@ -8340,6 +8344,13 @@ lexicon = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- kaw~A' -}           [ "slanderer" ]
                               `plural`     FaCCAL |< Un ]
 
+ |> "k w ^g" <| [
+
+    -- ;; makowajiy~_1
+    -- mkwjy   makowajiy~      Nall    ironing man;laundryman     [[makowajiy~/ADJ]]
+
+    MaFCaL |< Iy              `adj`     {- makowajiy~ -}       [ "ironing man", "laundryman" ] ]
+
  |> "k w ^s" <| [
 
     -- ;; kaw~a$_1
@@ -8653,6 +8664,13 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaL
                               `plural`     FUL |< At
                            {- `others`  [ "kuwam N" ] -} ]
+
+ |> "k w m d" <| [
+
+    -- ;; kuwmiydiy~_1
+    -- kwmydy  kuwmiydiy~      Nall    comic;comedic     [[kuwmiydiy~/ADJ]]
+
+    KuRDIS |< Iy              `adj`     {- kuwmiydiy~ -}       [ "comic", "comedic" ] ]
 
  |> "k w m r" <| [
 
@@ -9617,14 +9635,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- kazAzap -}          [ "dryness", "stinginess" ] ]
 
- |> "kA_tiriyn" <| [
-
-    -- ;; kAviriyn_1
-    -- kAvryn  kAviriyn        N0      Catherine
-
-    Identity                  `noun`    {- kAviriyn -}         [ "Catherine" ] ]
-
- |> "kA_tuwliyk" <| [
+ |> "kA_tUlIk" <| [
 
     -- ;; kAvuwliykiy~_1
     -- kAvwlyky        kAvuwliykiy~    Nall    Catholic     [[kAvuwliykiy~/NOUN]]
@@ -9633,14 +9644,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- kAvuwliykiy~ -}     [ "Catholic" ] ]
 
- |> "kAbiylA" <| [
+ |> "kA_tirIn" <| [
+
+    -- ;; kAviriyn_1
+    -- kAvryn  kAviriyn        N0      Catherine
+
+    Identity                  `noun`    {- kAviriyn -}         [ "Catherine" ] ]
+
+ |> "kAbIlA" <| [
 
     -- ;; kAbiylA_1
     -- kAbylA  kAbiylA Nprop   Kabila
 
     Identity                  `noun`    {- kAbiylA -}          [ "Kabila" ] ]
 
- |> "kAbiyn" <| [
+ |> "kAbIn" <| [
 
     -- ;; kAbiyn_1
     -- kAbyn   kAbiyn  N       cabin
@@ -9693,21 +9711,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- kAbuliy~ -}         [ "Kabuli" ] ]
 
- |> "kAdmiyuwm" <| [
+ |> "kAdmiyUm" <| [
 
     -- ;; kAdomiyuwm_1
     -- kAdmywm kAdomiyuwm      N0      cadmium
 
     Identity                  `noun`    {- kAdomiyuwm -}       [ "cadmium" ] ]
 
- |> "kAfitiyriyA" <| [
+ |> "kAfitIriyA" <| [
 
     -- ;; kAfitiyriyA_1
     -- kAftyryA        kAfitiyriyA     N0      cafeteria
 
     Identity                  `noun`    {- kAfitiyriyA -}      [ "cafeteria" ] ]
 
- |> "kAfiyiyn" <| [
+ |> "kAfiyIn" <| [
 
     -- ;; kAfiyiyn_1
     -- kAfyyn  kAfiyiyn        N       caffeine
@@ -9728,6 +9746,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kAlAtrAfA -}        [ "Calatrava" ] ]
 
+ |> "kAlIfUrn" <| [
+
+    -- ;; kAliyfuwroniy~_1
+    -- kAlyfwrny       kAliyfuwroniy~  Nall    Californian     [[kAliyfuwroniy~/NOUN]]
+    -- kAlyfwrny       kAliyfuwroniy~  Nall    Californian     [[kAliyfuwroniy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- kAliyfuwroniy~ -}   [ "Californian" ] ]
+
+ |> "kAlIfUrniyA" <| [
+
+    -- ;; kAliyfuwroniyA_1
+    -- kAlyfwrnyA      kAliyfuwroniyA  N0      California
+
+    Identity                  `noun`    {- kAliyfuwroniyA -}   [ "California" ] ]
+
  |> "kAlfin" <| [
 
     -- ;; kAlofin_1
@@ -9735,29 +9768,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kAlofin -}          [ "Calvin" ] ]
 
- |> "kAliyAriy" <| [
+ |> "kAliyArI" <| [
 
     -- ;; kAliyAriy_1
     -- kAlyAry kAliyAriy       N0      Cagliari
 
     Identity                  `noun`    {- kAliyAriy -}        [ "Cagliari" ] ]
 
- |> "kAliyfuwrniyA" <| [
-
-    -- ;; kAliyfuwroniyA_1
-    -- kAlyfwrnyA      kAliyfuwroniyA  N0      California
-
-    Identity                  `noun`    {- kAliyfuwroniyA -}   [ "California" ] ]
-
- |> "kAliyfuwrniyy" <| [
-
-    -- ;; kAliyfuwroniy~_1
-    -- kAlyfwrny       kAliyfuwroniy~  Nall    Californian     [[kAliyfuwroniy~/NOUN]]
-    -- kAlyfwrny       kAliyfuwroniy~  Nall    Californian     [[kAliyfuwroniy~/ADJ]]
-
-    Identity                  `adj`     {- kAliyfuwroniy~ -}   [ "Californian" ] ]
-
- |> "kAlluw" <| [
+ |> "kAllU" <| [
 
     -- ;; kAl~uw_1
     -- kAlw    kAl~uw  N0      callus;corn
@@ -9765,36 +9783,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kAl~uw -}           [ "callus", "corn" ] ]
 
- |> "kAmAt^suw" <| [
+ |> "kAmAt^sU" <| [
 
     -- ;; kAmAt$uw_1
     -- kAmAt$w kAmAt$uw        Nprop   Camacho
 
     Identity                  `noun`    {- kAmAt$uw -}         [ "Camacho" ] ]
 
- |> "kAmbiyuw" <| [
-
-    -- ;; kAmobiyuw_1
-    -- kAmbyw  kAmobiyuw       N0      rate of exchange
-
-    Identity                  `noun`    {- kAmobiyuw -}        [ "rate of exchange" ] ]
-
- |> "kAmbiyuwh" <| [
-
-    -- ;; kAmobiyuwhAt_1
-    -- kAmbywh kAmobiyuwh      NAt     rates of exchange
-
-    Identity |< At            `noun`    {- kAmobiyuwhAt -}     [ "rates of exchange" ] ]
-
- |> "kAmbuwdiyA" <| [
-
-    -- ;; kAmobuwdiyA_1
-    -- kAmbwdyA        kAmobuwdiyA     N0      Cambodia;Kampuchea
-    -- kmbwdyA kamobuwdiyA     N0      Cambodia;Kampuchea
-
-    Identity                  `noun`    {- kAmobuwdiyA -}      [ "Cambodia", "Kampuchea" ] ]
-
- |> "kAmbuwdiyy" <| [
+ |> "kAmbUd" <| [
 
     -- ;; kAmobuwdiy~_1
     -- kAmbwdy kAmobuwdiy~     Nall    Cambodian;Kampuchean     [[kAmobuwdiy~/NOUN]]
@@ -9803,16 +9799,38 @@ lexicon = listing "Lexicon's properties"
     -- kmbwdy  kamobuwdiy~     Nall    Cambodian;Kampuchean     [[kamobuwdiy~/ADJ]]
     -- kmbwdj  kamobuwdj       N0      Cambodians;Kampucheans
 
-    Identity                  `adj`     {- kAmobuwdiy~ -}      [ "Cambodian", "Kampuchean" ] ]
+    Identity |< Iy            `adj`     {- kAmobuwdiy~ -}      [ "Cambodian", "Kampuchean" ] ]
 
- |> "kAmbuwmAyuwriynziy" <| [
+ |> "kAmbUdiyA" <| [
+
+    -- ;; kAmobuwdiyA_1
+    -- kAmbwdyA        kAmobuwdiyA     N0      Cambodia;Kampuchea
+    -- kmbwdyA kamobuwdiyA     N0      Cambodia;Kampuchea
+
+    Identity                  `noun`    {- kAmobuwdiyA -}      [ "Cambodia", "Kampuchea" ] ]
+
+ |> "kAmbUmAyUrInzI" <| [
 
     -- ;; kAmbuwmAyuwriynoziy_1
     -- kAmbwmAywrynzy  kAmbuwmAyuwriynoziy     N0      Campomaiorense
 
     Identity                  `noun`    {- kAmbuwmAyuwriynoziy -} [ "Campomaiorense" ] ]
 
- |> "kAmdiysuw" <| [
+ |> "kAmbiyU" <| [
+
+    -- ;; kAmobiyuw_1
+    -- kAmbyw  kAmobiyuw       N0      rate of exchange
+
+    Identity                  `noun`    {- kAmobiyuw -}        [ "rate of exchange" ] ]
+
+ |> "kAmbiyUh" <| [
+
+    -- ;; kAmobiyuwhAt_1
+    -- kAmbywh kAmobiyuwh      NAt     rates of exchange
+
+    Identity |< At            `noun`    {- kAmobiyuwhAt -}     [ "rates of exchange" ] ]
+
+ |> "kAmdIsU" <| [
 
     -- ;; kAmodiysuw_1
     -- kAmdysw kAmodiysuw      Nprop   Camdessus
@@ -9829,19 +9847,27 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kAmirA -}           [ "camera" ] ]
 
- |> "kAn.suwl" <| [
+ |> "kAn.sUl" <| [
 
     -- ;; kAnoSuwl_1
     -- kAnSwl  kAnoSuwl        N/At    console
 
     Identity                  `noun`    {- kAnoSuwl -}         [ "console" ] ]
 
- |> "kAniyn.ghAm" <| [
+ |> "kAnIn.ghAm" <| [
 
     -- ;; kAniyngohAm_1
     -- kAnynghAm       kAniyngohAm     Nprop   Cunnigham
 
     Identity                  `noun`    {- kAniyngohAm -}      [ "Cunnigham" ] ]
+
+ |> "kAnU" <| [
+
+    -- ;; kAnuw_1
+    -- kAnw    kAnuw   N0      canoe
+    -- kAnwh   kAnuwh  NAt     canoe
+
+    Identity                  `noun`    {- kAnuw -}            [ "canoe" ] ]
 
  |> "kAnkAn" <| [
 
@@ -9850,7 +9876,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kAnokAn -}          [ "Can-Can" ] ]
 
- |> "kAnkuwn" <| [
+ |> "kAnkUn" <| [
 
     -- ;; kAnokuwn_1
     -- kAnkwn  kAnokuwn        N0      Cancun
@@ -9864,50 +9890,42 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kAnosAy -}          [ "Kansai" ] ]
 
- |> "kAntirbriy" <| [
-
-    -- ;; kAnotirobriy_1
-    -- kAntrbry        kAnotirobriy    N0      Canterbury
-
-    Identity                  `noun`    {- kAnotirobriy -}     [ "Canterbury" ] ]
-
- |> "kAntiyn" <| [
+ |> "kAntIn" <| [
 
     -- ;; kAnotiyn_1
     -- kAntyn  kAnotiyn        N/At    canteen
 
     Identity                  `noun`    {- kAnotiyn -}         [ "canteen" ] ]
 
- |> "kAntuw" <| [
+ |> "kAntU" <| [
 
     -- ;; kAnotuw_1
     -- kAntw   kAnotuw N0      secondhand goods
 
     Identity                  `noun`    {- kAnotuw -}          [ "secondhand goods" ] ]
 
- |> "kAntuwn" <| [
+ |> "kAntUn" <| [
 
     -- ;; kAnotuwn_1
     -- kAntwn  kAnotuwn        N/At    canton
 
     Identity                  `noun`    {- kAnotuwn -}         [ "canton" ] ]
 
- |> "kAnuw" <| [
+ |> "kAntirbrI" <| [
 
-    -- ;; kAnuw_1
-    -- kAnw    kAnuw   N0      canoe
-    -- kAnwh   kAnuwh  NAt     canoe
+    -- ;; kAnotirobriy_1
+    -- kAntrbry        kAnotirobriy    N0      Canterbury
 
-    Identity                  `noun`    {- kAnuw -}            [ "canoe" ] ]
+    Identity                  `noun`    {- kAnotirobriy -}     [ "Canterbury" ] ]
 
- |> "kArA^giyt^s" <| [
+ |> "kArA^gIt^s" <| [
 
     -- ;; kArAjiyt$_1
     -- kArAjyt$        kArAjiyt$       Nprop   Karajic
 
     Identity                  `noun`    {- kArAjiyt$ -}        [ "Karajic" ] ]
 
- |> "kArAdiyt^s" <| [
+ |> "kArAdIt^s" <| [
 
     -- ;; kArAdiyt$_1
     -- kArAdyt$        kArAdiyt$       Nprop   Karadzic
@@ -9929,15 +9947,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kArAr -}            [ "Carar" ] ]
 
- |> "kArAt^siy" <| [
-
-    -- ;; kArAto$iy_1
-    -- kArAt$y kArAto$iy       N0      Karachi
-    -- krAt$y  karAto$iy       N0      Karachi
-
-    Identity                  `noun`    {- kArAto$iy -}        [ "Karachi" ] ]
-
- |> "kArAtiyh" <| [
+ |> "kArAtIh" <| [
 
     -- ;; kArAtiyh_1
     -- kArAtyh kArAtiyh        N0      karate
@@ -9945,14 +9955,22 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kArAtiyh -}         [ "karate" ] ]
 
- |> "kAriybiy" <| [
+ |> "kArAt^sI" <| [
+
+    -- ;; kArAto$iy_1
+    -- kArAt$y kArAto$iy       N0      Karachi
+    -- krAt$y  karAto$iy       N0      Karachi
+
+    Identity                  `noun`    {- kArAto$iy -}        [ "Karachi" ] ]
+
+ |> "kArIbI" <| [
 
     -- ;; kAriybiy_1
     -- kAryby  kAriybiy        N0      Caribbean
 
     Identity                  `noun`    {- kAriybiy -}         [ "Caribbean" ] ]
 
- |> "kAriykAtuwr" <| [
+ |> "kArIkAtUr" <| [
 
     -- ;; kAriykAtuwr_1
     -- kArykAtwr       kAriykAtuwr     N       caricature;cartoon
@@ -9966,14 +9984,29 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- kAriykAtuwriy~ -}   [ "caricature", "cartoon" ] ]
 
- |> "kArluw" <| [
+ |> "kArU" <| [
+
+    -- ;; kAruw_1
+    -- kArw    kArw    N0      cart;wagon
+    -- kArwh   kAruwh  NAt     carts;wagons
+
+    Identity                  `noun`    {- kAruw -}            [ "cart", "wagon" ] ]
+
+ |> "kArUsIl" <| [
+
+    -- ;; kAruwsiyl_1
+    -- kArwsyl kAruwsiyl       N0      Carousel
+
+    Identity                  `noun`    {- kAruwsiyl -}        [ "Carousel" ] ]
+
+ |> "kArlU" <| [
 
     -- ;; kAroluw_1
     -- kArlw   kAroluw Nprop   Carlo
 
     Identity                  `noun`    {- kAroluw -}          [ "Carlo" ] ]
 
- |> "kArluws" <| [
+ |> "kArlUs" <| [
 
     -- ;; kAroluws_1
     -- kArlws  kAroluws        Nprop   Carlos
@@ -9987,21 +10020,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kAronAtAkA -}       [ "Karnataka" ] ]
 
- |> "kArniy" <| [
+ |> "kArnI" <| [
 
     -- ;; kAroniy_1
     -- kArny   kAroniy Nprop   Karni
 
     Identity                  `noun`    {- kAroniy -}          [ "Karni" ] ]
 
- |> "kArniy^suwfAs" <| [
+ |> "kArnI^sUfAs" <| [
 
     -- ;; kAroniy$uwfAs_1
     -- kArny$wfAs      kAroniy$uwfAs   Nprop   Karnisovas
 
     Identity                  `noun`    {- kAroniy$uwfAs -}    [ "Karnisovas" ] ]
 
- |> "kArniyh" <| [
+ |> "kArnIh" <| [
 
     -- ;; kAroniyh_1
     -- kArnyh  kAroniyh        N/At    identity card;carnet
@@ -10022,47 +10055,40 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kAruwAnA -}         [ "Caruana" ] ]
 
- |> "kAruwsiyl" <| [
-
-    -- ;; kAruwsiyl_1
-    -- kArwsyl kAruwsiyl       N0      Carousel
-
-    Identity                  `noun`    {- kAruwsiyl -}        [ "Carousel" ] ]
-
- |> "kAsiymuwf" <| [
+ |> "kAsImUf" <| [
 
     -- ;; kAsiymuwf_1
     -- kAsymwf kAsiymuwf       Nprop   Kasimov
 
     Identity                  `noun`    {- kAsiymuwf -}        [ "Kasimov" ] ]
 
- |> "kAsiyt" <| [
+ |> "kAsIt" <| [
 
     -- ;; kAsiyt_1
     -- kAsyt   kAsiyt  NduAt   cassette
 
     Identity                  `noun`    {- kAsiyt -}           [ "cassette" ] ]
 
- |> "kAsriylz" <| [
+ |> "kAsrIlz" <| [
 
     -- ;; kAsoriylz_1
     -- kAsrylz kAsoriylz       Nprop   Kasrils
 
     Identity                  `noun`    {- kAsoriylz -}        [ "Kasrils" ] ]
 
- |> "kAstiylA" <| [
+ |> "kAstIlA" <| [
 
     -- ;; kAsotiylA_1
     -- kAstylA kAsotiylA       Nprop   Castilla
 
     Identity                  `noun`    {- kAsotiylA -}        [ "Castilla" ] ]
 
- |> "kAstrw" <| [
+ |> "kAstrU" <| [
 
-    -- ;; kAstrw_1
+    -- ;; kAstruw_1
     -- kAstrw  kAstrw  Nprop   Castro
 
-    Identity                  `noun`    {- kAstrw -}           [ "Castro" ] ]
+    Identity                  `noun`    {- kAstruw -}          [ "Castro" ] ]
 
  |> "kAtidrA'" <| [
 
@@ -10071,7 +10097,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy |< aT      `noun`    {- kAtidrA}iy~ap -}    [ "cathedral" ] ]
 
- |> "kAtyuw^sA" <| [
+ |> "kAtyU^sA" <| [
 
     -- ;; kAtoyuw$A_1
     -- kAtyw$A kAtoyuw$A       N       Katyusha
@@ -10101,14 +10127,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kAwto$uq -}         [ "rubber" ] ]
 
- |> "kAylAhuwn" <| [
+ |> "kAylAhUn" <| [
 
     -- ;; kAylAhuwn_1
     -- kAylAhwn        kAylAhuwn       Nprop   Kailahun
 
     Identity                  `noun`    {- kAylAhuwn -}        [ "Kailahun" ] ]
 
- |> "kAyzirsluwtirn" <| [
+ |> "kAyzirslUtirn" <| [
 
     -- ;; kAyzirsoluwtirn_1
     -- kAyzrslwtrn     kAyzirsoluwtirn N0      Kaiserslautern
@@ -10131,7 +10157,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- kAzAxostAniy~ -}    [ "Kazakhstani" ] ]
 
- |> "kAziynuw" <| [
+ |> "kAzInU" <| [
 
     -- ;; kAziynuw_1
     -- kAzynw  kAziynuw        N0      casino;nightclub
@@ -10139,6 +10165,677 @@ lexicon = listing "Lexicon's properties"
     -- kAzynwh kAziynuwh       NAt     casinos;nightclubs
 
     Identity                  `noun`    {- kAziynuw -}         [ "casino", "nightclub" ] ]
+
+ |> "kI_hiyA" <| [
+
+    -- ;; kiyxiyA_1
+    -- kyxyA   kiyxiyA N0      Kekhya;Kikhya
+
+    Identity                  `noun`    {- kiyxiyA -}          [ "Kekhya", "Kikhya" ] ]
+
+ |> "kIbUts" <| [
+
+    -- ;; kiybuwts_1
+    -- kybwts  kiybuwts        NduAt   kibbutz
+    -- kybwts  kiybuwts        N0      Kibbutz
+
+    Identity                  `noun`    {- kiybuwts -}         [ "kibbutz", "Kibbutz" ] ]
+
+ |> "kIbkU" <| [
+
+    -- ;; kiybokuw_1
+    -- kybkw   kiybokuw        Nprop   Kibko
+
+    Identity                  `noun`    {- kiybokuw -}         [ "Kibko" ] ]
+
+ |> "kIlU" <| [
+
+    -- ;; kiyluw_1
+    -- kylw    kiyluw  N0      kilo;kilogram
+
+    Identity                  `noun`    {- kiyluw -}           [ "kilo", "kilogram" ] ]
+
+ |> "kIlU^grAm" <| [
+
+    -- ;; kiyluwjrAm_1
+    -- kylwjrAm        kiyluwjrAm      N/At    kilogram
+    -- kylwgrAm        kiyluwgrAm      N/At    kilogram
+
+    Identity                  `noun`    {- kiyluwjrAm -}       [ "kilogram" ] ]
+
+ |> "kIlUhIrtz" <| [
+
+    -- ;; kiyluwhiyrotz_1
+    -- kylwhyrtz       kiyluwhiyrotz   NduAt   kilohertz;KHz
+
+    Identity                  `noun`    {- kiyluwhiyrotz -}    [ "kilohertz", "KHz" ] ]
+
+ |> "kIlUmitr" <| [
+
+    -- ;; kiyluwmitr_1
+    -- kylwmtr kiyluwmitr      N/At    kilometer(s)
+
+    Identity                  `noun`    {- kiyluwmitr -}       [ "kilometer(s)" ] ]
+
+ |> "kIlUsIkl" <| [
+
+    -- ;; kiyluwsiykl_1
+    -- kylwsykl        kiyluwsiykl     N/At    kilocycles
+
+    Identity                  `noun`    {- kiyluwsiykl -}      [ "kilocycles" ] ]
+
+ |> "kIlUwA.t" <| [
+
+    -- ;; kiyluwwAT_1
+    -- kylwwAT kiyluwwAT       N/At    kilowatts
+
+    Identity                  `noun`    {- kiyluwwAT -}        [ "kilowatts" ] ]
+
+ |> "kImiyA'IyA.t" <| [
+
+    -- ;; kiymiyA}iy~AT_1
+    -- kymyA}y kiymiyA}iy~     NAt     chemicals     [[kiymiyA}iy~/NOUN]]
+    -- kymyAwy kiymiyAwiy~     NAt     chemicals     [[kiymiyAwiy~/NOUN]]
+
+    Identity                  `noun`    {- kiymiyA}iy~AT -}    [ "chemicals" ] ]
+
+ |> "kIn.gstUn" <| [
+
+    -- ;; kiyngostuwn_1
+    -- kyngstwn        kiyngostuwn     N0      Kingston;Kingstown
+
+    Identity                  `noun`    {- kiyngostuwn -}      [ "Kingston", "Kingstown" ] ]
+
+ |> "kInA" <| [
+
+    -- ;; kiynA_1
+    -- kynA    kiynA   N0      quinine
+
+    Identity                  `noun`    {- kiynA -}            [ "quinine" ] ]
+
+ |> "kInIdI" <| [
+
+    -- ;; kiyniydiy_1
+    -- kynydy  kiyniydiy       Nprop   Kennedy
+
+    Identity                  `noun`    {- kiyniydiy -}        [ "Kennedy" ] ]
+
+ |> "kIn^sAsA" <| [
+
+    -- ;; kiyno$AsA_1
+    -- kyn$AsA kiyno$AsA       Nprop   Kinshasa
+    -- kn$AsA  kino$AsA        Nprop   Kinshasa
+
+    Identity                  `noun`    {- kiyno$AsA -}        [ "Kinshasa" ] ]
+
+ |> "kIniyA" <| [
+
+    -- ;; kiyniyA_1
+    -- kynyA   kiyniyA N0      Kenya
+
+    Identity                  `noun`    {- kiyniyA -}          [ "Kenya" ] ]
+
+ |> "kIrIyinkU" <| [
+
+    -- ;; kiyriyyinokuw_1
+    -- kyryynkw        kiyriyyinokuw   Nprop   Kiriyenko
+
+    Identity                  `noun`    {- kiyriyyinokuw -}    [ "Kiriyenko" ] ]
+
+ |> "kIrUsIn" <| [
+
+    -- ;; kiyruwsiyn_1
+    -- kyrwsyn kiyruwsiyn      N0      kerosene
+
+    Identity                  `noun`    {- kiyruwsiyn -}       [ "kerosene" ] ]
+
+ |> "kIsUfIm" <| [
+
+    -- ;; kiysuwfiym_1
+    -- kyswfym kiysuwfiym      Nprop   Kissufim
+
+    Identity                  `noun`    {- kiysuwfiym -}       [ "Kissufim" ] ]
+
+ |> "kIsin^gir" <| [
+
+    -- ;; kiysinojir_1
+    -- kysnjr  kiysinojir      Nprop   Kissinger
+    -- kysynjr kiysiynojir     Nprop   Kissinger
+
+    Identity                  `noun`    {- kiysinojir -}       [ "Kissinger" ] ]
+
+ |> "kUbA" <| [
+
+    -- ;; kuwbA_1
+    -- kwbA    kuwbA   N0      Cuba
+
+    Identity                  `noun`    {- kuwbA -}            [ "Cuba" ] ]
+
+ |> "kUbinhA.g" <| [
+
+    -- ;; kuwbinohAg_1
+    -- kwbnhAg kuwbinohAg      Nprop   Copenhagen
+    -- kwbnhAj kuwbinohAj      Nprop   Copenhagen
+
+    Identity                  `noun`    {- kuwbinohAg -}       [ "Copenhagen" ] ]
+
+ |> "kUbinhA.gin" <| [
+
+    -- ;; kuwbinohAgin_1
+    -- kwbnhAgn        kuwbinohAgin    Nprop   Copenhagen
+    -- kwbnhAjn        kuwbinohAjin    Nprop   Copenhagen
+
+    Identity                  `noun`    {- kuwbinohAgin -}     [ "Copenhagen" ] ]
+
+ |> "kUbirz" <| [
+
+    -- ;; kuwbirz_1
+    -- kwbrz   kuwbirz Nprop   Coopers
+
+    Identity                  `noun`    {- kuwbirz -}          [ "Coopers" ] ]
+
+ |> "kUbrI" <| [
+
+    -- ;; kuwboriy_1
+    -- kwbry   kuwboriy        N0      bridge;overpass
+
+    Identity                  `noun`    {- kuwboriy -}         [ "bridge", "overpass" ] ]
+
+ |> "kUdrIn" <| [
+
+    -- ;; kuwdriyn_1
+    -- kwdryn  kuwdriyn        Nprop   Kudrin
+
+    Identity                  `noun`    {- kuwdriyn -}         [ "Kudrin" ] ]
+
+ |> "kUfA'In" <| [
+
+    -- ;; kuwfA}iyn_1
+    -- kwfA}yn kuwfA}iyn       N0      caffeine
+    -- kwfAyyn kuwfAyiyn       N0      caffeine
+
+    Identity                  `noun`    {- kuwfA}iyn -}        [ "caffeine" ] ]
+
+ |> "kUfAsIfIt^s" <| [
+
+    -- ;; kuwfAsiyfiyt$_1
+    -- kwfAsyfyt$      kuwfAsiyfiyt$   N0      Kovacevich
+
+    Identity                  `noun`    {- kuwfAsiyfiyt$ -}    [ "Kovacevich" ] ]
+
+ |> "kUhlir" <| [
+
+    -- ;; kuwholir_1
+    -- kwhlr   kuwholir        Nprop   Kohler;Koehler
+
+    Identity                  `noun`    {- kuwholir -}         [ "Kohler", "Koehler" ] ]
+
+ |> "kUkA" <| [
+
+    -- ;; kuwkA_1
+    -- kwkA    kuwkA   N0      Coca
+
+    Identity                  `noun`    {- kuwkA -}            [ "Coca" ] ]
+
+ |> "kUkAyIn" <| [
+
+    -- ;; kuwkAyiyn_1
+    -- kwkAyyn kuwkAyiyn       N       cocaine
+    -- kwkA}yn kuwkA}iyn       N       cocaine
+
+    Identity                  `noun`    {- kuwkAyiyn -}        [ "cocaine" ] ]
+
+ |> "kUktIl" <| [
+
+    -- ;; kuwkotiyl_1
+    -- kwktyl  kuwkotiyl       N0      cocktail
+
+    Identity                  `noun`    {- kuwkotiyl -}        [ "cocktail" ] ]
+
+ |> "kUlA" <| [
+
+    -- ;; kuwlA_1
+    -- kwlA    kuwlA   N0      Cola
+
+    Identity                  `noun`    {- kuwlA -}            [ "Cola" ] ]
+
+ |> "kUlIrA" <| [
+
+    -- ;; kuwliyrA_1
+    -- kwlyrA  kuwliyrA        N0      cholera
+
+    Identity                  `noun`    {- kuwliyrA -}         [ "cholera" ] ]
+
+ |> "kUlUmb" <| [
+
+    -- ;; kuwluwmobiy~_1
+    -- kwlwmby kuwluwmobiy~    Nall    Colombian     [[kuwluwmobiy~/NOUN]]
+    -- kwlwmby kuwluwmobiy~    Nall    Colombian     [[kuwluwmobiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- kuwluwmobiy~ -}     [ "Colombian" ] ]
+
+ |> "kUlUmbU" <| [
+
+    -- ;; kuwluwmobuw_1
+    -- kwlwmbw kuwluwmobw      N0      Colombo
+
+    Identity                  `noun`    {- kuwluwmobuw -}      [ "Colombo" ] ]
+
+ |> "kUlUmbiyA" <| [
+
+    -- ;; kuwluwmobiyA_1
+    -- kwlwmbyA        kuwluwmobiyA    N0      Colombia;Columbia
+
+    Identity                  `noun`    {- kuwluwmobiyA -}     [ "Colombia", "Columbia" ] ]
+
+ |> "kUlUnIl" <| [
+
+    -- ;; kuwluwniyl_1
+    -- kwlwnyl kuwluwniyl      NduAt   colonel
+
+    Identity                  `noun`    {- kuwluwniyl -}       [ "colonel" ] ]
+
+ |> "kUlUniyA" <| [
+
+    -- ;; kuwluwniyA_1
+    -- kwlwnyA kuwluwniyA      N0      Cologne;cologne
+
+    Identity                  `noun`    {- kuwluwniyA -}       [ "Cologne", "cologne" ] ]
+
+ |> "kUl_hUz" <| [
+
+    -- ;; kuwloxuwz_1
+    -- kwlxwz  kuwloxuwz       N       kolkhoz
+
+    Identity                  `noun`    {- kuwloxuwz -}        [ "kolkhoz" ] ]
+
+ |> "kUlistirUl" <| [
+
+    -- ;; kuwlisotiruwl_1
+    -- kwlstrwl        kuwlisotiruwl   N0      cholesterol
+
+    Identity                  `noun`    {- kuwlisotiruwl -}    [ "cholesterol" ] ]
+
+ |> "kUlyIh" <| [
+
+    -- ;; kuwloyiyh_1
+    -- kwlyyh  kuwloyiyh       Nprop   Collier
+
+    Identity                  `noun`    {- kuwloyiyh -}        [ "Collier" ] ]
+
+ |> "kUmAndAn" <| [
+
+    -- ;; kuwmAnodAn_1
+    -- kwmAndAn        kuwmAnodAn      N0      commandant;commander
+
+    Identity                  `noun`    {- kuwmAnodAn -}       [ "commandant", "commander" ] ]
+
+ |> "kUmAndUz" <| [
+
+    -- ;; kuwmAnoduwz_1
+    -- kwmAndwz        kuwmAnoduwz     N       commandos
+    -- kwmAndws        kuwmAnoduws     N       commandos
+
+    Identity                  `noun`    {- kuwmAnoduwz -}      [ "commandos" ] ]
+
+ |> "kUmIdiyA" <| [
+
+    -- ;; kuwmiydiyA_1
+    -- kwmydyA kuwmiydiyA      N0      comedy
+
+    Identity                  `noun`    {- kuwmiydiyA -}       [ "comedy" ] ]
+
+ |> "kUmIdiyAn" <| [
+
+    -- ;; kuwmiydiyAn_1
+    -- kwmydyAn        kuwmiydiyAn     N0      comedian
+
+    Identity                  `noun`    {- kuwmiydiyAn -}      [ "comedian" ] ]
+
+ |> "kUmIdyIn" <| [
+
+    -- ;; kuwmiydoyiyn_1
+    -- kwmydyyn        kuwmiydoyiyn    N0      comedian
+
+    Identity                  `noun`    {- kuwmiydoyiyn -}     [ "comedian" ] ]
+
+ |> "kUmUdInU" <| [
+
+    -- ;; kuwmuwdiynuw_1
+    -- kwmwdynw        kuwmuwdiynuw    N0      bedside table
+
+    Identity                  `noun`    {- kuwmuwdiynuw -}     [ "bedside table" ] ]
+
+ |> "kUmbAk" <| [
+
+    -- ;; kuwmobAk_1
+    -- kwmbAk  kuwmobAk        Nprop   Compaq
+
+    Identity                  `noun`    {- kuwmobAk -}         [ "Compaq" ] ]
+
+ |> "kUmisyUn^g" <| [
+
+    -- ;; kuwmisyuwnjiy~_1
+    -- kwmsywnjy       kuwmisyuwnjiy~  Nall    commission merchant     [[kuwmisywnjiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- kuwmisyuwnjiy~ -}   [ "commission merchant" ] ]
+
+ |> "kUmlInUfIt^s" <| [
+
+    -- ;; kuwmoliynuwfiyt$_1
+    -- kwmlynwfyt$     kuwmoliynuwfiyt$        Nprop   Komljenovic
+
+    Identity                  `noun`    {- kuwmoliynuwfiyt$ -} [ "Komljenovic" ] ]
+
+ |> "kUmsAr" <| [
+
+    -- ;; kuwmosAriy~_1
+    -- kwmsAry kuwmosAriy~     Ndu     conductor;ticket man
+    -- kwmsAry kuwmosAriy~     Nap     conductors;ticket men     [[kuwmsAriy~/NOUN]]
+
+    Identity |< Iy            `noun`    {- kuwmosAriy~ -}      [ "conductor", "ticket man", "ticket men" ] ]
+
+ |> "kUmunwil_t" <| [
+
+    -- ;; kuwmunwilov_1
+    -- kwmnwlv kuwmunwilov     N0      Commonwealth
+
+    Identity                  `noun`    {- kuwmunwilov -}      [ "Commonwealth" ] ]
+
+ |> "kUn.gU" <| [
+
+    -- ;; kuwnoguw_1
+    -- kwngw   kuwnoguw        N0      Congo
+    -- kwnjw   kuwnojuw        N0      Congo
+
+    Identity                  `noun`    {- kuwnoguw -}         [ "Congo" ] ]
+
+ |> "kUn.gUl" <| [
+
+    -- ;; kuwnoguwliy~_1
+    -- kwngwly kuwnoguwliy~    Nall    Congolese     [[kuwnoguwliy~/NOUN]]
+    -- kwngwly kuwnoguwliy~    Nall    Congolese     [[kuwnoguwliy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- kuwnoguwliy~ -}     [ "Congolese" ] ]
+
+ |> "kUn^g" <| [
+
+    -- ;; kuwnoj_1
+    -- kwnj    kuwnoj  N0      Kong
+    -- kwng    kuwnog  N0      Kong
+
+    Identity                  `noun`    {- kuwnoj -}           [ "Kong" ] ]
+
+ |> "kUn^gris" <| [
+
+    -- ;; kuwnojris_1
+    -- kwnjrs  kuwnojris       N0      Congress
+    -- kwngrs  kuwnogris       N0      Congress
+
+    Identity                  `noun`    {- kuwnojris -}        [ "Congress" ] ]
+
+ |> "kUn^sItA" <| [
+
+    -- ;; kuwno$iytA_1
+    -- kwn$ytA kuwno$iytA      Nprop   Conchita
+
+    Identity                  `noun`    {- kuwno$iytA -}       [ "Conchita" ] ]
+
+ |> "kUndUlIzA" <| [
+
+    -- ;; kuwnoduwliyzA_1
+    -- kwndwlyzA       kuwnoduwliyzA   Nprop   Condoleezza
+
+    Identity                  `noun`    {- kuwnoduwliyzA -}    [ "Condoleezza" ] ]
+
+ |> "kUnkAkAf" <| [
+
+    -- ;; kuwnokAkAf_1
+    -- kwnkAkAf        kuwnokAkAf      N0      CONCACAF (Confederation of North, Central American and Caribbean Association Football)
+
+    Identity                  `noun`    {- kuwnokAkAf -}       [ "CONCACAF (Confederation of North, Central American and Caribbean Association Football)" ] ]
+
+ |> "kUnkAn" <| [
+
+    -- ;; kuwnokAn_1
+    -- kwnkAn  kuwnokAn        N0      card game
+
+    Identity                  `noun`    {- kuwnokAn -}         [ "card game" ] ]
+
+ |> "kUnkUrd" <| [
+
+    -- ;; kuwnokuwrod_1
+    -- kwnkwrd kuwnokuwrod     N0      Concorde
+
+    Identity                  `noun`    {- kuwnokuwrod -}      [ "Concorde" ] ]
+
+ |> "kUnkurdAtU" <| [
+
+    -- ;; kuwnokurodAtuw_1
+    -- kwnkrdAtw       kuwnokurodAtuw  N0      settlement
+
+    Identity                  `noun`    {- kuwnokurodAtuw -}   [ "settlement" ] ]
+
+ |> "kUnsUlU" <| [
+
+    -- ;; kuwnosuwluw_1
+    -- kwnswlw kuwnosuwluw     N0      Consolo
+
+    Identity                  `noun`    {- kuwnosuwluw -}      [ "Consolo" ] ]
+
+ |> "kUnt" <| [
+
+    -- ;; kuwnot_1
+    -- kwnt    kuwnot  N0      Count
+
+    Identity                  `noun`    {- kuwnot -}           [ "Count" ],
+
+    -- ;; kuwnotiy~ap_1
+    -- kwnty   kuwnotiy~       NapAt   county
+
+    Identity |< Iy |< aT      `noun`    {- kuwnotiy~ap -}      [ "county" ] ]
+
+ |> "kUntI" <| [
+
+    -- ;; kuwnotiy_1
+    -- kwnty   kuwnotiy        Nprop   Conti
+
+    Identity                  `noun`    {- kuwnotiy -}         [ "Conti" ] ]
+
+ |> "kUntirbA.s" <| [
+
+    -- ;; kuwnotirobAS_1
+    -- kwntrbAS        kuwnotirobAS    N0      contrabass
+
+    Identity                  `noun`    {- kuwnotirobAS -}     [ "contrabass" ] ]
+
+ |> "kUntrAtU" <| [
+
+    -- ;; kuwnotrAtuw_1
+    -- kwntrAtw        kuwnotrAtw      N0      contract
+
+    Identity                  `noun`    {- kuwnotrAtuw -}      [ "contract" ] ]
+
+ |> "kUnyAk" <| [
+
+    -- ;; kuwnoyAk_1
+    -- kwnyAk  kuwnoyAk        N       cognac
+
+    Identity                  `noun`    {- kuwnoyAk -}         [ "cognac" ] ]
+
+ |> "kUrIt_hA" <| [
+
+    -- ;; kuwriytoxA_1
+    -- kwrytxA kuwriytoxA      N0      Corretja
+
+    Identity                  `noun`    {- kuwriytoxA -}       [ "Corretja" ] ]
+
+ |> "kUrUyidUf" <| [
+
+    -- ;; kuwruwyiduwf_1
+    -- kwrwydwf        kuwruwyiduwf    Nprop   Kuroyedov
+    -- kwrwyydwf       kuwruwyiyduwf   Nprop   Kuroyedov
+    -- kwrwywdwf       kuwruwyuwduwf   Nprop   Kuroyedov
+
+    Identity                  `noun`    {- kuwruwyiduwf -}     [ "Kuroyedov" ] ]
+
+ |> "kUrb" <| [
+
+    -- ;; kuwrob_1
+    -- kwrb    kuwrob  Nprop   Corp.
+
+    Identity                  `noun`    {- kuwrob -}           [ "Corp." ] ]
+
+ |> "kUrbIs" <| [
+
+    -- ;; kuwrbiys_1
+    -- kwrbys  kwrbys  Nprop   Courbis
+
+    Identity                  `noun`    {- kuwrbiys -}         [ "Courbis" ] ]
+
+ |> "kUrdUn" <| [
+
+    -- ;; kuwroduwn_1
+    -- kwrdwn  kuwroduwn       NduAt   cordon;ribbon
+
+    Identity                  `noun`    {- kuwroduwn -}        [ "cordon", "ribbon" ] ]
+
+ |> "kUriyA" <| [
+
+    -- ;; kuwriyA_1
+    -- kwryA   kuwriyA N0      Korea
+
+    Identity                  `noun`    {- kuwriyA -}          [ "Korea" ] ]
+
+ |> "kUrnIkUfA" <| [
+
+    -- ;; kuwroniykuwfA_1
+    -- kwrnykwfA       kuwroniykuwfA   Nprop   Kournikova
+
+    Identity                  `noun`    {- kuwroniykuwfA -}    [ "Kournikova" ] ]
+
+ |> "kUrsIh" <| [
+
+    -- ;; kuwrosiyh_1
+    -- kwrsyh  kuwrosiyh       N/At    corset
+
+    Identity                  `noun`    {- kuwrosiyh -}        [ "corset" ] ]
+
+ |> "kUrsIkA" <| [
+
+    -- ;; kuwrosiykA_1
+    -- kwrsykA kuwrosiykA      N0      Corsica
+
+    Identity                  `noun`    {- kuwrosiykA -}       [ "Corsica" ] ]
+
+ |> "kUrsk" <| [
+
+    -- ;; kuwrosk_1
+    -- kwrsk   kuwrosk N0      Kursk
+
+    Identity                  `noun`    {- kuwrosk -}          [ "Kursk" ] ]
+
+ |> "kUrtIzUn" <| [
+
+    -- ;; kuwrotiyzuwn_1
+    -- kwrtyzwn        kuwrotiyzuwn    N0      cortisone
+
+    Identity                  `noun`    {- kuwrotiyzuwn -}     [ "cortisone" ] ]
+
+ |> "kUsA" <| [
+
+    -- ;; kuwsA_1
+    -- kwsA    kuwsA   N0      zucchini
+    -- kwsY    kuwsaY  N0      zucchini
+    -- kwsAy   kuwsAy  Nap     zucchini
+
+    Identity                  `noun`    {- kuwsA -}            [ "zucchini" ] ]
+
+ |> "kUsUfA" <| [
+
+    -- ;; kuwsuwfA_1
+    -- kwswfA  kuwsuwfA        Nprop   Kosova
+
+    Identity                  `noun`    {- kuwsuwfA -}         [ "Kosova" ] ]
+
+ |> "kUsUfU" <| [
+
+    -- ;; kuwsuwfuw_1
+    -- kwswfw  kuwsuwfuw       Nprop   Kosovo
+    -- kwsfw   kuwsufuw        Nprop   Kosovo
+
+    Identity                  `noun`    {- kuwsuwfuw -}        [ "Kosovo" ] ]
+
+ |> "kUsbI" <| [
+
+    -- ;; kuwsobiy_1
+    -- kwsby   kuwsobiy        Nprop   Kospi
+
+    Identity                  `noun`    {- kuwsobiy -}         [ "Kospi" ] ]
+
+ |> "kUstA" <| [
+
+    -- ;; kuwsotA_1
+    -- kwstA   kuwsotA Nprop   Costa
+
+    Identity                  `noun`    {- kuwsotA -}          [ "Costa" ] ]
+
+ |> "kUstArIk" <| [
+
+    -- ;; kuwsotAriykiy~_1
+    -- kwstAryky       kuwsotAriykiy~  Nall    Costa Rican     [[kuwsotAriykiy~/NOUN]]
+    -- kwstAryky       kuwsotAriykiy~  Nall    Costa Rican     [[kuwsotAriykiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- kuwsotAriykiy~ -}   [ "Costa Rican" ] ]
+
+ |> "kUstArIkA" <| [
+
+    -- ;; kuwsotAriykA_1
+    -- kwstArykA       kuwsotAriykA    N0      Costa Rica
+
+    Identity                  `noun`    {- kuwsotAriykA -}     [ "Costa Rica" ] ]
+
+ |> "kUstIllU" <| [
+
+    -- ;; kuwsotiyloluw_1
+    -- kwstyllw        kuwsotiyloluw   Nprop   Costello
+
+    Identity                  `noun`    {- kuwsotiyloluw -}    [ "Costello" ] ]
+
+ |> "kUtIdiyAn" <| [
+
+    -- ;; kuwtiydiyAn_1
+    -- kwtydyAn        kuwtiydiyAn     Nprop   Quotidien
+
+    Identity                  `noun`    {- kuwtiydiyAn -}      [ "Quotidien" ] ]
+
+ |> "kUt^sIn" <| [
+
+    -- ;; kuwto$iynap_1
+    -- kwt$yn  kuwto$iyn       Nap     card game
+
+    Identity |< aT            `noun`    {- kuwto$iynap -}      [ "card game" ] ]
+
+ |> "kUtbUs" <| [
+
+    -- ;; kuwtobuws_1
+    -- kwtbws  kuwtobuws       Nprop   Cottbus
+
+    Identity                  `noun`    {- kuwtobuws -}        [ "Cottbus" ] ]
+
+ |> "kUtzir" <| [
+
+    -- ;; kuwtozir_1
+    -- kwtzr   kuwtozir        Nprop   Coetzer
+
+    Identity                  `noun`    {- kuwtozir -}         [ "Coetzer" ] ]
+
+ |> "kUykU" <| [
+
+    -- ;; kuwyokuw_1
+    -- kwykw   kuwyokuw        Nprop   Koiko
+
+    Identity                  `noun`    {- kuwyokuw -}         [ "Koiko" ] ]
 
  |> "k^gm" <| [
 
@@ -10148,7 +10845,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kjm -}              [ "kilogram" ] ]
 
- |> "ka_tiyrA'" <| [
+ |> "ka_tIrA'" <| [
 
     -- ;; kaviyrA'_1
     -- kvyrA'  kaviyrA'        Ndip    tragacanth (gum substance)
@@ -10156,21 +10853,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kaviyrA' -}         [ "tragacanth (gum substance)", "tragacanth (gum plant)" ] ]
 
- |> "kabiyka^g" <| [
+ |> "kabIka^g" <| [
 
     -- ;; kabiykaj_1
     -- kbykj   kabiykaj        N0      Asian crowfoot
 
     Identity                  `noun`    {- kabiykaj -}         [ "Asian crowfoot" ] ]
 
- |> "kabuwriyA" <| [
+ |> "kabUriyA" <| [
 
     -- ;; kabuwriyA_1
     -- kbwryA  kabuwriyA       N0      crab
 
     Identity                  `noun`    {- kabuwriyA -}        [ "crab" ] ]
 
- |> "kahanuwt" <| [
+ |> "kahanUt" <| [
 
     -- ;; kahanuwt_1
     -- khnwt   kahanuwt        N       priesthood
@@ -10188,7 +10885,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy |< aT      `noun`    {- kahanuwtiy~ap -}    [ "priesthood" ] ]
 
- |> "kahra.tiys" <| [
+ |> "kahra.tIs" <| [
 
     -- ;; kahoraTiysiy~_1
     -- khrTysy kahoraTiysiy~   N-ap    electromagnetic     [[kahoraTiysiy~/ADJ]]
@@ -10219,7 +10916,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `adj`     {- kahoramAn -}        [ "amber" ] ]
 
- |> "kalA^snikuwf" <| [
+ |> "kalA^snikUf" <| [
 
     -- ;; kalA$onikuwf_1
     -- klA$nkwf        kalA$onikuwf    N0      Kalashnikov
@@ -10247,7 +10944,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kal~A -}            [ "not at all", "definitely not" ] ]
 
- |> "kalsiyuwm" <| [
+ |> "kalsiyUm" <| [
 
     -- ;; kalosiyuwm_1
     -- klsywm  kalosiyuwm      N0      calcium
@@ -10283,7 +10980,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kamobAlA -}         [ "Kampala" ] ]
 
- |> "kambariyt" <| [
+ |> "kambarIt" <| [
 
     -- ;; kamobariyt_1
     -- kmbryt  kamobariyt      N0      cambric
@@ -10297,7 +10994,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- kamobiyAlap -}      [ "bill of exchange", "loan payment" ] ]
 
- |> "kambiyuw" <| [
+ |> "kambiyU" <| [
 
     -- ;; kamobiyuw_1
     -- kmbyw   kamobiyuw       N0      rate of exchange
@@ -10313,23 +11010,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kamobrij -}         [ "Cambridge" ] ]
 
- |> "kambyuwtir" <| [
+ |> "kambyUtir" <| [
 
     -- ;; kamobyuwtir_1
     -- kmbywtr kamobyuwtir     NduAt   computer
     -- kwmbywtr        kuwmobyuwtir    NduAt   computer
 
-    Identity                  `noun`    {- kamobyuwtir -}      [ "computer" ] ]
-
- |> "kambyuwtiriyy" <| [
+    Identity                  `noun`    {- kamobyuwtir -}      [ "computer" ],
 
     -- ;; kamobyuwtiriy~_1
     -- kmbywtry        kamobyuwtiriy~  Nall    computer     [[kamobyuwtiriy~/ADJ]]
     -- kwmbywtry       kuwmobyuwtiriy~ Nall    computer     [[kuwmobyuwtiriy~/ADJ]]
 
-    Identity                  `adj`     {- kamobyuwtiriy~ -}   [ "computer" ] ]
+    Identity |< Iy            `adj`     {- kamobyuwtiriy~ -}   [ "computer" ] ]
 
- |> "kamiruwn" <| [
+ |> "kamirUn" <| [
 
     -- ;; kamiruwn_1
     -- kmrwn   kamiruwn        N0      Cameroon;Cameroun
@@ -10347,7 +11042,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- kamiruwniy~ -}      [ "from/of the Cameroon/Cameroun" ] ]
 
- |> "kan^garuw" <| [
+ |> "kan^garU" <| [
 
     -- ;; kanojaruw_1
     -- knjrw   kanojaruw       N0      kangaroo
@@ -10355,7 +11050,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kanojaruw -}        [ "kangaroo" ] ]
 
- |> "kanabiyh" <| [
+ |> "kanabIh" <| [
 
     -- ;; kanabiyh_1
     -- knbyh   kanabiyh        N/At    sofa
@@ -10376,7 +11071,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kanahowar -}        [ "clouds", "cumuli" ] ]
 
- |> "kanakiynA" <| [
+ |> "kanakInA" <| [
 
     -- ;; kanakiynA_1
     -- knkynA  kanakiynA       N0      quinine
@@ -10397,6 +11092,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- karAfat~ap -}       [ "necktie" ] ]
 
+ |> "karUbIm" <| [
+
+    -- ;; karuwbiym_1
+    -- krwbym  karuwbiym       N0      cherubim
+    -- kArwbym kAruwbiym       N0      cherubim
+
+    Identity                  `noun`    {- karuwbiym -}        [ "cherubim" ] ]
+
  |> "kar_hAn^g" <| [
 
     -- ;; karoxAnojiy~_1
@@ -10411,14 +11114,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- karafos -}          [ "celery" ] ]
 
- |> "karakuwn" <| [
+ |> "karakUn" <| [
 
     -- ;; karakuwn_1
     -- krkwn   karakuwn        N       police station
 
     Identity                  `noun`    {- karakuwn -}         [ "police station" ] ]
 
- |> "karakuwz" <| [
+ |> "karakUz" <| [
 
     -- ;; karakuwz_1
     -- krkwz   karakuwz        N       shadow puppet
@@ -10446,7 +11149,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- karobalA}iy~ -}     [ "from/of Karbala" ] ]
 
- |> "karbirAtiyr" <| [
+ |> "karbirAtIr" <| [
 
     -- ;; karobirAtiyr_1
     -- krbrAtyr        karobirAtiyr    N0      carburetor
@@ -10490,7 +11193,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- karonAfAliy~ -}     [ "carnival-related", "carnival-like" ] ]
 
- |> "karriy.t" <| [
+ |> "karrI.t" <| [
 
     -- ;; kar~iyTap_1
     -- kryT    kar~iyT Napdu   cart;wagon
@@ -10498,15 +11201,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- kar~iyTap -}        [ "cart", "wagon" ] ]
 
- |> "karuwbiym" <| [
-
-    -- ;; karuwbiym_1
-    -- krwbym  karuwbiym       N0      cherubim
-    -- kArwbym kAruwbiym       N0      cherubim
-
-    Identity                  `noun`    {- karuwbiym -}        [ "cherubim" ] ]
-
- |> "kasaruwn" <| [
+ |> "kasarUn" <| [
 
     -- ;; kasaruwnap_1
     -- ksrwn   kasaruwn        Nap     casserole
@@ -10527,7 +11222,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- kasotanA}iy~ -}     [ "chestnut-colored", "maroon" ] ]
 
- |> "katAluw^g" <| [
+ |> "katAlU^g" <| [
 
     -- ;; katAluwj_1
     -- ktAlwj  katAluwj        Ndu     catalogue
@@ -10567,21 +11262,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `conj`    {- kaymA -}            [ "in order to" ] ]
 
- |> "kazaruwn" <| [
+ |> "kazarUn" <| [
 
     -- ;; kazaruwnap_1
     -- kzrwn   kazaruwn        Nap     casserole
 
     Identity |< aT            `noun`    {- kazaruwnap -}       [ "casserole" ] ]
 
- |> "kibriytiyd" <| [
+ |> "kibrItId" <| [
 
     -- ;; kibriytiyd_1
     -- kbrytyd kibriytiyd      N0      sulfide
 
     Identity                  `noun`    {- kibriytiyd -}       [ "sulfide" ] ]
 
- |> "kibriytiyk" <| [
+ |> "kibrItIk" <| [
 
     -- ;; kibriytiyk_1
     -- kbrytyk kibriytiyk      N0      sulfuric
@@ -10600,7 +11295,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `part`    {- kilA -}             [ "both of", "both of them" ] ]
 
- |> "kiliym" <| [
+ |> "kilIm" <| [
 
     -- ;; kiliym_1
     -- klym    kiliym  N0      carpet;rug
@@ -10616,7 +11311,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- kil~imAniy~ -}      [ "eloquent" ] ]
 
- |> "kinidiy" <| [
+ |> "kinIsit" <| [
+
+    -- ;; kiniysit_1
+    -- knyst   kiniysit        N0      Knesset
+
+    Identity                  `noun`    {- kiniysit -}         [ "Knesset" ] ]
+
+ |> "kinidI" <| [
 
     -- ;; kinidiy_1
     -- kndy    kinidiy N0      Kennedy
@@ -10624,14 +11326,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kinidiy -}          [ "Kennedy" ] ]
 
- |> "kiniysit" <| [
-
-    -- ;; kiniysit_1
-    -- knyst   kiniysit        N0      Knesset
-
-    Identity                  `noun`    {- kiniysit -}         [ "Knesset" ] ]
-
- |> "kiriyt" <| [
+ |> "kirIt" <| [
 
     -- ;; kiriyt_1
     -- kryt    kiriyt  N0      Crete
@@ -10655,12 +11350,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- kitAboxAnap -}      [ "library", "bookstore" ] ]
 
- |> "kiy_hiyA" <| [
+ |> "kiyUbId" <| [
 
-    -- ;; kiyxiyA_1
-    -- kyxyA   kiyxiyA N0      Kekhya;Kikhya
+    -- ;; kiyuwbiyd_1
+    -- kywbyd  kiyuwbiyd       N0      Cupid
 
-    Identity                  `noun`    {- kiyxiyA -}          [ "Kekhya", "Kikhya" ] ]
+    Identity                  `noun`    {- kiyuwbiyd -}        [ "Cupid" ] ]
+
+ |> "kiyUtU" <| [
+
+    -- ;; kiyuwtuw_1
+    -- kywtw   kiyuwtuw        N0      Kyoto
+
+    Identity                  `noun`    {- kiyuwtuw -}         [ "Kyoto" ] ]
 
  |> "kiyahk" <| [
 
@@ -10670,151 +11372,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kiyahk -}           [ "Kiyahk" ] ]
 
- |> "kiybkuw" <| [
-
-    -- ;; kiybokuw_1
-    -- kybkw   kiybokuw        Nprop   Kibko
-
-    Identity                  `noun`    {- kiybokuw -}         [ "Kibko" ] ]
-
- |> "kiybuwts" <| [
-
-    -- ;; kiybuwts_1
-    -- kybwts  kiybuwts        NduAt   kibbutz
-    -- kybwts  kiybuwts        N0      Kibbutz
-
-    Identity                  `noun`    {- kiybuwts -}         [ "kibbutz", "Kibbutz" ] ]
-
- |> "kiyluw" <| [
-
-    -- ;; kiyluw_1
-    -- kylw    kiyluw  N0      kilo;kilogram
-
-    Identity                  `noun`    {- kiyluw -}           [ "kilo", "kilogram" ] ]
-
- |> "kiyluw^grAm" <| [
-
-    -- ;; kiyluwjrAm_1
-    -- kylwjrAm        kiyluwjrAm      N/At    kilogram
-    -- kylwgrAm        kiyluwgrAm      N/At    kilogram
-
-    Identity                  `noun`    {- kiyluwjrAm -}       [ "kilogram" ] ]
-
- |> "kiyluwhiyrtz" <| [
-
-    -- ;; kiyluwhiyrotz_1
-    -- kylwhyrtz       kiyluwhiyrotz   NduAt   kilohertz;KHz
-
-    Identity                  `noun`    {- kiyluwhiyrotz -}    [ "kilohertz", "KHz" ] ]
-
- |> "kiyluwmitr" <| [
-
-    -- ;; kiyluwmitr_1
-    -- kylwmtr kiyluwmitr      N/At    kilometer(s)
-
-    Identity                  `noun`    {- kiyluwmitr -}       [ "kilometer(s)" ] ]
-
- |> "kiyluwsiykl" <| [
-
-    -- ;; kiyluwsiykl_1
-    -- kylwsykl        kiyluwsiykl     N/At    kilocycles
-
-    Identity                  `noun`    {- kiyluwsiykl -}      [ "kilocycles" ] ]
-
- |> "kiyluwwA.t" <| [
-
-    -- ;; kiyluwwAT_1
-    -- kylwwAT kiyluwwAT       N/At    kilowatts
-
-    Identity                  `noun`    {- kiyluwwAT -}        [ "kilowatts" ] ]
-
- |> "kiymiyA'iyyA.t" <| [
-
-    -- ;; kiymiyA}iy~AT_1
-    -- kymyA}y kiymiyA}iy~     NAt     chemicals     [[kiymiyA}iy~/NOUN]]
-    -- kymyAwy kiymiyAwiy~     NAt     chemicals     [[kiymiyAwiy~/NOUN]]
-
-    Identity                  `noun`    {- kiymiyA}iy~AT -}    [ "chemicals" ] ]
-
- |> "kiyn.gstuwn" <| [
-
-    -- ;; kiyngostuwn_1
-    -- kyngstwn        kiyngostuwn     N0      Kingston;Kingstown
-
-    Identity                  `noun`    {- kiyngostuwn -}      [ "Kingston", "Kingstown" ] ]
-
- |> "kiynA" <| [
-
-    -- ;; kiynA_1
-    -- kynA    kiynA   N0      quinine
-
-    Identity                  `noun`    {- kiynA -}            [ "quinine" ] ]
-
- |> "kiyn^sAsA" <| [
-
-    -- ;; kiyno$AsA_1
-    -- kyn$AsA kiyno$AsA       Nprop   Kinshasa
-    -- kn$AsA  kino$AsA        Nprop   Kinshasa
-
-    Identity                  `noun`    {- kiyno$AsA -}        [ "Kinshasa" ] ]
-
- |> "kiyniyA" <| [
-
-    -- ;; kiyniyA_1
-    -- kynyA   kiyniyA N0      Kenya
-
-    Identity                  `noun`    {- kiyniyA -}          [ "Kenya" ] ]
-
- |> "kiyniydiy" <| [
-
-    -- ;; kiyniydiy_1
-    -- kynydy  kiyniydiy       Nprop   Kennedy
-
-    Identity                  `noun`    {- kiyniydiy -}        [ "Kennedy" ] ]
-
- |> "kiyriyyinkuw" <| [
-
-    -- ;; kiyriyyinokuw_1
-    -- kyryynkw        kiyriyyinokuw   Nprop   Kiriyenko
-
-    Identity                  `noun`    {- kiyriyyinokuw -}    [ "Kiriyenko" ] ]
-
- |> "kiyruwsiyn" <| [
-
-    -- ;; kiyruwsiyn_1
-    -- kyrwsyn kiyruwsiyn      N0      kerosene
-
-    Identity                  `noun`    {- kiyruwsiyn -}       [ "kerosene" ] ]
-
- |> "kiysin^gir" <| [
-
-    -- ;; kiysinojir_1
-    -- kysnjr  kiysinojir      Nprop   Kissinger
-    -- kysynjr kiysiynojir     Nprop   Kissinger
-
-    Identity                  `noun`    {- kiysinojir -}       [ "Kissinger" ] ]
-
- |> "kiysuwfiym" <| [
-
-    -- ;; kiysuwfiym_1
-    -- kyswfym kiysuwfiym      Nprop   Kissufim
-
-    Identity                  `noun`    {- kiysuwfiym -}       [ "Kissufim" ] ]
-
- |> "kiyuwbiyd" <| [
-
-    -- ;; kiyuwbiyd_1
-    -- kywbyd  kiyuwbiyd       N0      Cupid
-
-    Identity                  `noun`    {- kiyuwbiyd -}        [ "Cupid" ] ]
-
- |> "kiyuwtuw" <| [
-
-    -- ;; kiyuwtuw_1
-    -- kywtw   kiyuwtuw        N0      Kyoto
-
-    Identity                  `noun`    {- kiyuwtuw -}         [ "Kyoto" ] ]
-
  |> "kl.g" <| [
 
     -- ;; klg_1
@@ -10823,7 +11380,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- klg -}              [ "kilogram" ] ]
 
- |> "klAkiyt" <| [
+ |> "klAkIt" <| [
 
     -- ;; klAkiyt_1
     -- klAkyt  klAkiyt N0      clapper;clap stick
@@ -10851,7 +11408,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- klArk -}            [ "Clark", "Klerk" ] ]
 
- |> "klAsiyk" <| [
+ |> "klAsIk" <| [
 
     -- ;; klAsiykiy~_1
     -- klAsyky klAsiykiy~      Nall    classic;classical     [[kilAsiykiy~/ADJ]]
@@ -10859,7 +11416,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- klAsiykiy~ -}       [ "classic", "classical" ] ]
 
- |> "klAwdiyuw" <| [
+ |> "klAwdiyU" <| [
 
     -- ;; klAwodiyuw_1
     -- klAwdyw klAwodiyuw      N0      Claudio
@@ -10880,42 +11437,42 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- klAy -}             [ "Clay" ] ]
 
- |> "klAytuwn" <| [
+ |> "klAytUn" <| [
 
     -- ;; klAyotuwn_1
     -- klAytwn klAyotuwn       Nprop   Clayton
 
     Identity                  `noun`    {- klAyotuwn -}        [ "Clayton" ] ]
 
- |> "kliy^siyh" <| [
+ |> "klI^sIh" <| [
 
     -- ;; kliy$iyh_1
     -- kly$yh  kliy$iyh        NduAt   cliche
 
     Identity                  `noun`    {- kliy$iyh -}         [ "cliche" ] ]
 
- |> "kliybAnuwf" <| [
+ |> "klIbAnUf" <| [
 
     -- ;; kliybAnuwf_1
     -- klybAnwf        kliybAnuwf      Nprop   Klebanov
 
     Identity                  `noun`    {- kliybAnuwf -}       [ "Klebanov" ] ]
 
- |> "kliymints" <| [
+ |> "klImints" <| [
 
     -- ;; kliyminots_1
     -- klymnts kliyminots      Nprop   Clements
 
     Identity                  `noun`    {- kliyminots -}       [ "Clements" ] ]
 
- |> "kliyntuwn" <| [
+ |> "klIntUn" <| [
 
     -- ;; kliynotuwn_1
     -- klyntwn kliynotuwn      Nprop   Clinton
 
     Identity                  `noun`    {- kliynotuwn -}       [ "Clinton" ] ]
 
- |> "kliyriydiys" <| [
+ |> "klIrIdIs" <| [
 
     -- ;; kliyriydiys_1
     -- klyrydys        kliyriydiys     Nprop   Clerides
@@ -10923,40 +11480,40 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kliyriydiys -}      [ "Clerides" ] ]
 
- |> "klm" <| [
-
-    -- ;; klm_1
-    -- klm     klm     FW      kilometer(s)     [[klm/ABBREV]]
-
-    Identity                  `noun`    {- klm -}              [ "kilometer(s)" ] ]
-
- |> "kluwb" <| [
+ |> "klUb" <| [
 
     -- ;; kluwb_1
     -- klwb    kluwb   N0      Club
 
     Identity                  `noun`    {- kluwb -}            [ "Club" ] ]
 
- |> "kluwd" <| [
+ |> "klUd" <| [
 
     -- ;; kluwd_1
     -- klwd    kluwd   Nprop   Claude
 
     Identity                  `noun`    {- kluwd -}            [ "Claude" ] ]
 
- |> "kluwruwfuwrm" <| [
+ |> "klUrUfUrm" <| [
 
     -- ;; kluwruwfuwrom_1
     -- klwrwfwrm       kluwruwfuwrom   N0      chloroform
 
     Identity                  `noun`    {- kluwruwfuwrom -}    [ "chloroform" ] ]
 
- |> "kluwtin" <| [
+ |> "klUtin" <| [
 
     -- ;; kluwtin_1
     -- klwtn   kluwtin Nprop   Kloten
 
     Identity                  `noun`    {- kluwtin -}          [ "Kloten" ] ]
+
+ |> "klm" <| [
+
+    -- ;; klm_1
+    -- klm     klm     FW      kilometer(s)     [[klm/ABBREV]]
+
+    Identity                  `noun`    {- klm -}              [ "kilometer(s)" ] ]
 
  |> "km" <| [
 
@@ -10972,14 +11529,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- krAfot -}           [ "Kraft" ] ]
 
- |> "krAkuwfiyA" <| [
+ |> "krAkUfiyA" <| [
 
     -- ;; krAkuwfiyA_1
     -- krAkwfyA        krAkuwfiyA      N0      Cracow;Krakow
 
     Identity                  `noun`    {- krAkuwfiyA -}       [ "Cracow", "Krakow" ] ]
 
- |> "krAyiynA" <| [
+ |> "krAyInA" <| [
 
     -- ;; krAyiynA_1
     -- krAyynA krAyiynA        Nprop   Krajina
@@ -10998,12 +11555,125 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- krAyoslir -}        [ "Kreisler" ] ]
 
- |> "krAyzilbuwr.g" <| [
+ |> "krAyzilbUr.g" <| [
 
     -- ;; krAyzilobuwrg_1
     -- krAyzlbwrg      krAyzilobuwrg   Nprop   Krayzelburg
 
     Identity                  `noun`    {- krAyzilobuwrg -}    [ "Krayzelburg" ] ]
+
+ |> "krI.g" <| [
+
+    -- ;; kriyg_1
+    -- kryg    kriyg   Nprop   Craig
+
+    Identity                  `noun`    {- kriyg -}            [ "Craig" ] ]
+
+ |> "krIkAr" <| [
+
+    -- ;; kriykAr_1
+    -- krykAr  kriykAr N0      Krekar
+
+    Identity                  `noun`    {- kriykAr -}          [ "Krekar" ] ]
+
+ |> "krIm" <| [
+
+    -- ;; kriym_1
+    -- krym    kriym   N/At    creme
+    -- krym    kriym   NapAt   cream
+
+    Identity                  `noun`    {- kriym -}            [ "creme", "cream" ] ]
+
+ |> "krIs" <| [
+
+    -- ;; kriys_1
+    -- krys    kriys   Nprop   Chris
+
+    Identity                  `noun`    {- kriys -}            [ "Chris" ] ]
+
+ |> "krIstAl" <| [
+
+    -- ;; kriysotAl_1
+    -- krystAl kriysotAl       N0      crystal
+
+    Identity                  `noun`    {- kriysotAl -}        [ "crystal" ] ]
+
+ |> "krIstI" <| [
+
+    -- ;; kriystiy_1
+    -- krysty  kriystiy        Nprop   Kristy
+
+    Identity                  `noun`    {- kriystiy -}         [ "Kristy" ] ]
+
+ |> "krIstUf" <| [
+
+    -- ;; kriysotuwf_1
+    -- krystwf kriysotuwf      Nprop   Christoph;Kristof
+
+    Identity                  `noun`    {- kriysotuwf -}       [ "Christoph", "Kristof" ] ]
+
+ |> "krIstUfar" <| [
+
+    -- ;; kriysotuwfar_1
+    -- krystwfr        kriysotuwfar    Nprop   Christopher
+
+    Identity                  `noun`    {- kriysotuwfar -}     [ "Christopher" ] ]
+
+ |> "krIstiyAnU" <| [
+
+    -- ;; kriysotiyAnuw_1
+    -- krystyAnw       kriysotiyAnuw   Nprop   Cristiano;Christiano
+
+    Identity                  `noun`    {- kriysotiyAnuw -}    [ "Cristiano", "Christiano" ] ]
+
+ |> "krIstyAn" <| [
+
+    -- ;; kriysotyAn_1
+    -- krystyAn        kriysotyAn      Nprop   Christian
+
+    Identity                  `noun`    {- kriysotyAn -}       [ "Christian" ] ]
+
+ |> "krU^sIh" <| [
+
+    -- ;; kruw$iyh_1
+    -- krw$yh  kruw$iyh        N0      crocheting
+
+    Identity                  `noun`    {- kruw$iyh -}         [ "crocheting" ] ]
+
+ |> "krUk" <| [
+
+    -- ;; kruwkiy~_1
+    -- krwky   kruwkiy~        NduAt   sketch     [[kruwkiy~/NOUN]]
+
+    Identity |< Iy            `noun`    {- kruwkiy~ -}         [ "sketch" ] ]
+
+ |> "krUkIh" <| [
+
+    -- ;; kruwkiyh_1
+    -- krwkyh  kruwkiyh        N0      croquet
+
+    Identity                  `noun`    {- kruwkiyh -}         [ "croquet" ] ]
+
+ |> "krUm" <| [
+
+    -- ;; kruwm_1
+    -- krwm    kruwm   N0      chrome
+
+    Identity                  `noun`    {- kruwm -}            [ "chrome" ] ]
+
+ |> "krUmUsUm" <| [
+
+    -- ;; kruwmuwsuwm_1
+    -- krwmwswm        kruwmuwsuwm     NduAt   chromosome
+
+    Identity                  `noun`    {- kruwmuwsuwm -}      [ "chromosome" ] ]
+
+ |> "krUn" <| [
+
+    -- ;; kruwnap_1
+    -- krwn    kruwn   NapAt   krone
+
+    Identity |< aT            `noun`    {- kruwnap -}          [ "krone" ] ]
 
  |> "krank" <| [
 
@@ -11012,127 +11682,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kranok -}           [ "crank shaft" ] ]
 
- |> "krimliyn" <| [
+ |> "krimlIn" <| [
 
     -- ;; krimoliyn_1
     -- krmlyn  krimoliyn       N0      Kremlin
 
     Identity                  `noun`    {- krimoliyn -}        [ "Kremlin" ] ]
 
- |> "kriy.g" <| [
-
-    -- ;; kriyg_1
-    -- kryg    kriyg   Nprop   Craig
-
-    Identity                  `noun`    {- kriyg -}            [ "Craig" ] ]
-
- |> "kriykAr" <| [
-
-    -- ;; kriykAr_1
-    -- krykAr  kriykAr N0      Krekar
-
-    Identity                  `noun`    {- kriykAr -}          [ "Krekar" ] ]
-
- |> "kriym" <| [
-
-    -- ;; kriym_1
-    -- krym    kriym   N/At    creme
-    -- krym    kriym   NapAt   cream
-
-    Identity                  `noun`    {- kriym -}            [ "creme", "cream" ] ]
-
- |> "kriys" <| [
-
-    -- ;; kriys_1
-    -- krys    kriys   Nprop   Chris
-
-    Identity                  `noun`    {- kriys -}            [ "Chris" ] ]
-
- |> "kriystAl" <| [
-
-    -- ;; kriysotAl_1
-    -- krystAl kriysotAl       N0      crystal
-
-    Identity                  `noun`    {- kriysotAl -}        [ "crystal" ] ]
-
- |> "kriystiy" <| [
-
-    -- ;; kriystiy_1
-    -- krysty  kriystiy        Nprop   Kristy
-
-    Identity                  `noun`    {- kriystiy -}         [ "Kristy" ] ]
-
- |> "kriystiyAnuw" <| [
-
-    -- ;; kriysotiyAnuw_1
-    -- krystyAnw       kriysotiyAnuw   Nprop   Cristiano;Christiano
-
-    Identity                  `noun`    {- kriysotiyAnuw -}    [ "Cristiano", "Christiano" ] ]
-
- |> "kriystuwf" <| [
-
-    -- ;; kriysotuwf_1
-    -- krystwf kriysotuwf      Nprop   Christoph;Kristof
-
-    Identity                  `noun`    {- kriysotuwf -}       [ "Christoph", "Kristof" ] ]
-
- |> "kriystuwfar" <| [
-
-    -- ;; kriysotuwfar_1
-    -- krystwfr        kriysotuwfar    Nprop   Christopher
-
-    Identity                  `noun`    {- kriysotuwfar -}     [ "Christopher" ] ]
-
- |> "kriystyAn" <| [
-
-    -- ;; kriysotyAn_1
-    -- krystyAn        kriysotyAn      Nprop   Christian
-
-    Identity                  `noun`    {- kriysotyAn -}       [ "Christian" ] ]
-
- |> "kruw^siyh" <| [
-
-    -- ;; kruw$iyh_1
-    -- krw$yh  kruw$iyh        N0      crocheting
-
-    Identity                  `noun`    {- kruw$iyh -}         [ "crocheting" ] ]
-
- |> "kruwk" <| [
-
-    -- ;; kruwkiy~_1
-    -- krwky   kruwkiy~        NduAt   sketch     [[kruwkiy~/NOUN]]
-
-    Identity |< Iy            `noun`    {- kruwkiy~ -}         [ "sketch" ] ]
-
- |> "kruwkiyh" <| [
-
-    -- ;; kruwkiyh_1
-    -- krwkyh  kruwkiyh        N0      croquet
-
-    Identity                  `noun`    {- kruwkiyh -}         [ "croquet" ] ]
-
- |> "kruwm" <| [
-
-    -- ;; kruwm_1
-    -- krwm    kruwm   N0      chrome
-
-    Identity                  `noun`    {- kruwm -}            [ "chrome" ] ]
-
- |> "kruwmuwsuwm" <| [
-
-    -- ;; kruwmuwsuwm_1
-    -- krwmwswm        kruwmuwsuwm     NduAt   chromosome
-
-    Identity                  `noun`    {- kruwmuwsuwm -}      [ "chromosome" ] ]
-
- |> "kruwn" <| [
-
-    -- ;; kruwnap_1
-    -- krwn    kruwn   NapAt   krone
-
-    Identity |< aT            `noun`    {- kruwnap -}          [ "krone" ] ]
-
- |> "ksiyAmiyn" <| [
+ |> "ksiyAmIn" <| [
 
     -- ;; ksiyAmiyn_1
     -- ksyAmyn ksiyAmiyn       Nprop   Xiamen
@@ -11173,13 +11730,6 @@ lexicon = listing "Lexicon's properties"
     -- khyrby  kuhayoribiy~    N-ap    electron     [[kuhayoribiy~/ADJ]]
 
     Identity |< Iy            `adj`     {- kuhayoribiy~ -}     [ "electron" ] ]
-
- |> "kulAwiyy" <| [
-
-    -- ;; kulAwiy~_1
-    -- klAwy   kulAwiy~        N-ap    renal;kidney     [[kalAwiy~/ADJ]]
-
-    Identity                  `adj`     {- kulAwiy~ -}         [ "renal", "kidney" ] ]
 
  |> "kullamA" <| [
 
@@ -11228,7 +11778,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy |< aT      `noun`    {- kunofidrAliy~ap -}  [ "confederation" ] ]
 
- |> "kurantiyn" <| [
+ |> "kurantIn" <| [
 
     -- ;; kuranotiynap_1
     -- krntyn  kuranotiyn      NapAt   quarantine
@@ -11264,7 +11814,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kuruwAtiyA -}       [ "Croatia" ] ]
 
- |> "kuskusuw" <| [
+ |> "kuskusU" <| [
 
     -- ;; kusokusuw_1
     -- ksksw   kusokusuw       N0      couscous
@@ -11280,7 +11830,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kusotubAn -}        [ "thimble" ] ]
 
- |> "kustuliytah" <| [
+ |> "kustulItah" <| [
 
     -- ;; kusotuliytah_1
     -- kstlyth kusotuliytah    N0      cutlet
@@ -11294,7 +11844,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kutay~ib -}         [ "booklet" ] ]
 
- |> "kuwAfiyr" <| [
+ |> "kuwAfIr" <| [
 
     -- ;; kuwAfiyr_1
     -- kwAfyr  kuwAfiyr        N       hairdresser
@@ -11313,12 +11863,26 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kuwAlA -}           [ "Kuala" ] ]
 
- |> "kuwAlAlambuwr" <| [
+ |> "kuwAlAlambUr" <| [
 
     -- ;; kuwAlAlamobuwr_1
     -- kwAlAlmbwr      kuwAlAlamobuwr  Nprop   Kuala Lumpur
 
     Identity                  `noun`    {- kuwAlAlamobuwr -}   [ "Kuala Lumpur" ] ]
+
+ |> "kuwIrtin" <| [
+
+    -- ;; kuwiyrotin_1
+    -- kwyrtn  kuwiyrotin      Nprop   Kuerten
+
+    Identity                  `noun`    {- kuwiyrotin -}       [ "Kuerten" ] ]
+
+ |> "kuwIttA" <| [
+
+    -- ;; kuwiyt~A_1
+    -- kwytA   kuwiyt~A        Nprop   Quetta
+
+    Identity                  `noun`    {- kuwiyt~A -}         [ "Quetta" ] ]
 
  |> "kuwaykib" <| [
 
@@ -11333,553 +11897,6 @@ lexicon = listing "Lexicon's properties"
     -- kwys    kuway~is        N       good;nice
 
     Identity                  `noun`    {- kuway~is -}         [ "good", "nice" ] ]
-
- |> "kuwbA" <| [
-
-    -- ;; kuwbA_1
-    -- kwbA    kuwbA   N0      Cuba
-
-    Identity                  `noun`    {- kuwbA -}            [ "Cuba" ] ]
-
- |> "kuwbinhA.g" <| [
-
-    -- ;; kuwbinohAg_1
-    -- kwbnhAg kuwbinohAg      Nprop   Copenhagen
-    -- kwbnhAj kuwbinohAj      Nprop   Copenhagen
-
-    Identity                  `noun`    {- kuwbinohAg -}       [ "Copenhagen" ] ]
-
- |> "kuwbinhA.gin" <| [
-
-    -- ;; kuwbinohAgin_1
-    -- kwbnhAgn        kuwbinohAgin    Nprop   Copenhagen
-    -- kwbnhAjn        kuwbinohAjin    Nprop   Copenhagen
-
-    Identity                  `noun`    {- kuwbinohAgin -}     [ "Copenhagen" ] ]
-
- |> "kuwbirz" <| [
-
-    -- ;; kuwbirz_1
-    -- kwbrz   kuwbirz Nprop   Coopers
-
-    Identity                  `noun`    {- kuwbirz -}          [ "Coopers" ] ]
-
- |> "kuwbriy" <| [
-
-    -- ;; kuwboriy_1
-    -- kwbry   kuwboriy        N0      bridge;overpass
-
-    Identity                  `noun`    {- kuwboriy -}         [ "bridge", "overpass" ] ]
-
- |> "kuwdriyn" <| [
-
-    -- ;; kuwdriyn_1
-    -- kwdryn  kuwdriyn        Nprop   Kudrin
-
-    Identity                  `noun`    {- kuwdriyn -}         [ "Kudrin" ] ]
-
- |> "kuwfA'iyn" <| [
-
-    -- ;; kuwfA}iyn_1
-    -- kwfA}yn kuwfA}iyn       N0      caffeine
-    -- kwfAyyn kuwfAyiyn       N0      caffeine
-
-    Identity                  `noun`    {- kuwfA}iyn -}        [ "caffeine" ] ]
-
- |> "kuwfAsiyfiyt^s" <| [
-
-    -- ;; kuwfAsiyfiyt$_1
-    -- kwfAsyfyt$      kuwfAsiyfiyt$   N0      Kovacevich
-
-    Identity                  `noun`    {- kuwfAsiyfiyt$ -}    [ "Kovacevich" ] ]
-
- |> "kuwhlir" <| [
-
-    -- ;; kuwholir_1
-    -- kwhlr   kuwholir        Nprop   Kohler;Koehler
-
-    Identity                  `noun`    {- kuwholir -}         [ "Kohler", "Koehler" ] ]
-
- |> "kuwiyrtin" <| [
-
-    -- ;; kuwiyrotin_1
-    -- kwyrtn  kuwiyrotin      Nprop   Kuerten
-
-    Identity                  `noun`    {- kuwiyrotin -}       [ "Kuerten" ] ]
-
- |> "kuwiyttA" <| [
-
-    -- ;; kuwiyt~A_1
-    -- kwytA   kuwiyt~A        Nprop   Quetta
-
-    Identity                  `noun`    {- kuwiyt~A -}         [ "Quetta" ] ]
-
- |> "kuwkA" <| [
-
-    -- ;; kuwkA_1
-    -- kwkA    kuwkA   N0      Coca
-
-    Identity                  `noun`    {- kuwkA -}            [ "Coca" ] ]
-
- |> "kuwkAyiyn" <| [
-
-    -- ;; kuwkAyiyn_1
-    -- kwkAyyn kuwkAyiyn       N       cocaine
-    -- kwkA}yn kuwkA}iyn       N       cocaine
-
-    Identity                  `noun`    {- kuwkAyiyn -}        [ "cocaine" ] ]
-
- |> "kuwktiyl" <| [
-
-    -- ;; kuwkotiyl_1
-    -- kwktyl  kuwkotiyl       N0      cocktail
-
-    Identity                  `noun`    {- kuwkotiyl -}        [ "cocktail" ] ]
-
- |> "kuwlA" <| [
-
-    -- ;; kuwlA_1
-    -- kwlA    kuwlA   N0      Cola
-
-    Identity                  `noun`    {- kuwlA -}            [ "Cola" ] ]
-
- |> "kuwl_huwz" <| [
-
-    -- ;; kuwloxuwz_1
-    -- kwlxwz  kuwloxuwz       N       kolkhoz
-
-    Identity                  `noun`    {- kuwloxuwz -}        [ "kolkhoz" ] ]
-
- |> "kuwlistiruwl" <| [
-
-    -- ;; kuwlisotiruwl_1
-    -- kwlstrwl        kuwlisotiruwl   N0      cholesterol
-
-    Identity                  `noun`    {- kuwlisotiruwl -}    [ "cholesterol" ] ]
-
- |> "kuwliyrA" <| [
-
-    -- ;; kuwliyrA_1
-    -- kwlyrA  kuwliyrA        N0      cholera
-
-    Identity                  `noun`    {- kuwliyrA -}         [ "cholera" ] ]
-
- |> "kuwluwmbiyA" <| [
-
-    -- ;; kuwluwmobiyA_1
-    -- kwlwmbyA        kuwluwmobiyA    N0      Colombia;Columbia
-
-    Identity                  `noun`    {- kuwluwmobiyA -}     [ "Colombia", "Columbia" ] ]
-
- |> "kuwluwmbiyy" <| [
-
-    -- ;; kuwluwmobiy~_1
-    -- kwlwmby kuwluwmobiy~    Nall    Colombian     [[kuwluwmobiy~/NOUN]]
-    -- kwlwmby kuwluwmobiy~    Nall    Colombian     [[kuwluwmobiy~/ADJ]]
-
-    Identity                  `adj`     {- kuwluwmobiy~ -}     [ "Colombian" ] ]
-
- |> "kuwluwmbw" <| [
-
-    -- ;; kuwluwmobw_1
-    -- kwlwmbw kuwluwmobw      N0      Colombo
-
-    Identity                  `noun`    {- kuwluwmobw -}       [ "Colombo" ] ]
-
- |> "kuwluwniyA" <| [
-
-    -- ;; kuwluwniyA_1
-    -- kwlwnyA kuwluwniyA      N0      Cologne;cologne
-
-    Identity                  `noun`    {- kuwluwniyA -}       [ "Cologne", "cologne" ] ]
-
- |> "kuwluwniyl" <| [
-
-    -- ;; kuwluwniyl_1
-    -- kwlwnyl kuwluwniyl      NduAt   colonel
-
-    Identity                  `noun`    {- kuwluwniyl -}       [ "colonel" ] ]
-
- |> "kuwlyiyh" <| [
-
-    -- ;; kuwloyiyh_1
-    -- kwlyyh  kuwloyiyh       Nprop   Collier
-
-    Identity                  `noun`    {- kuwloyiyh -}        [ "Collier" ] ]
-
- |> "kuwmAndAn" <| [
-
-    -- ;; kuwmAnodAn_1
-    -- kwmAndAn        kuwmAnodAn      N0      commandant;commander
-
-    Identity                  `noun`    {- kuwmAnodAn -}       [ "commandant", "commander" ] ]
-
- |> "kuwmAnduwz" <| [
-
-    -- ;; kuwmAnoduwz_1
-    -- kwmAndwz        kuwmAnoduwz     N       commandos
-    -- kwmAndws        kuwmAnoduws     N       commandos
-
-    Identity                  `noun`    {- kuwmAnoduwz -}      [ "commandos" ] ]
-
- |> "kuwmbAk" <| [
-
-    -- ;; kuwmobAk_1
-    -- kwmbAk  kuwmobAk        Nprop   Compaq
-
-    Identity                  `noun`    {- kuwmobAk -}         [ "Compaq" ] ]
-
- |> "kuwmisyuwn^g" <| [
-
-    -- ;; kuwmisyuwnjiy~_1
-    -- kwmsywnjy       kuwmisyuwnjiy~  Nall    commission merchant     [[kuwmisywnjiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- kuwmisyuwnjiy~ -}   [ "commission merchant" ] ]
-
- |> "kuwmiydiyA" <| [
-
-    -- ;; kuwmiydiyA_1
-    -- kwmydyA kuwmiydiyA      N0      comedy
-
-    Identity                  `noun`    {- kuwmiydiyA -}       [ "comedy" ] ]
-
- |> "kuwmiydiyAn" <| [
-
-    -- ;; kuwmiydiyAn_1
-    -- kwmydyAn        kuwmiydiyAn     N0      comedian
-
-    Identity                  `noun`    {- kuwmiydiyAn -}      [ "comedian" ] ]
-
- |> "kuwmiydiyy" <| [
-
-    -- ;; kuwmiydiy~_1
-    -- kwmydy  kuwmiydiy~      Nall    comic;comedic     [[kuwmiydiy~/ADJ]]
-
-    Identity                  `adj`     {- kuwmiydiy~ -}       [ "comic", "comedic" ] ]
-
- |> "kuwmiydyiyn" <| [
-
-    -- ;; kuwmiydoyiyn_1
-    -- kwmydyyn        kuwmiydoyiyn    N0      comedian
-
-    Identity                  `noun`    {- kuwmiydoyiyn -}     [ "comedian" ] ]
-
- |> "kuwmliynuwfiyt^s" <| [
-
-    -- ;; kuwmoliynuwfiyt$_1
-    -- kwmlynwfyt$     kuwmoliynuwfiyt$        Nprop   Komljenovic
-
-    Identity                  `noun`    {- kuwmoliynuwfiyt$ -} [ "Komljenovic" ] ]
-
- |> "kuwmsAr" <| [
-
-    -- ;; kuwmosAriy~_1
-    -- kwmsAry kuwmosAriy~     Ndu     conductor;ticket man
-    -- kwmsAry kuwmosAriy~     Nap     conductors;ticket men     [[kuwmsAriy~/NOUN]]
-
-    Identity |< Iy            `noun`    {- kuwmosAriy~ -}      [ "conductor", "ticket man", "ticket men" ] ]
-
- |> "kuwmunwil_t" <| [
-
-    -- ;; kuwmunwilov_1
-    -- kwmnwlv kuwmunwilov     N0      Commonwealth
-
-    Identity                  `noun`    {- kuwmunwilov -}      [ "Commonwealth" ] ]
-
- |> "kuwmuwdiynuw" <| [
-
-    -- ;; kuwmuwdiynuw_1
-    -- kwmwdynw        kuwmuwdiynuw    N0      bedside table
-
-    Identity                  `noun`    {- kuwmuwdiynuw -}     [ "bedside table" ] ]
-
- |> "kuwn.guw" <| [
-
-    -- ;; kuwnoguw_1
-    -- kwngw   kuwnoguw        N0      Congo
-    -- kwnjw   kuwnojuw        N0      Congo
-
-    Identity                  `noun`    {- kuwnoguw -}         [ "Congo" ] ]
-
- |> "kuwn.guwl" <| [
-
-    -- ;; kuwnoguwliy~_1
-    -- kwngwly kuwnoguwliy~    Nall    Congolese     [[kuwnoguwliy~/NOUN]]
-    -- kwngwly kuwnoguwliy~    Nall    Congolese     [[kuwnoguwliy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- kuwnoguwliy~ -}     [ "Congolese" ] ]
-
- |> "kuwn^g" <| [
-
-    -- ;; kuwnoj_1
-    -- kwnj    kuwnoj  N0      Kong
-    -- kwng    kuwnog  N0      Kong
-
-    Identity                  `noun`    {- kuwnoj -}           [ "Kong" ] ]
-
- |> "kuwn^gris" <| [
-
-    -- ;; kuwnojris_1
-    -- kwnjrs  kuwnojris       N0      Congress
-    -- kwngrs  kuwnogris       N0      Congress
-
-    Identity                  `noun`    {- kuwnojris -}        [ "Congress" ] ]
-
- |> "kuwn^siytA" <| [
-
-    -- ;; kuwno$iytA_1
-    -- kwn$ytA kuwno$iytA      Nprop   Conchita
-
-    Identity                  `noun`    {- kuwno$iytA -}       [ "Conchita" ] ]
-
- |> "kuwnduwliyzA" <| [
-
-    -- ;; kuwnoduwliyzA_1
-    -- kwndwlyzA       kuwnoduwliyzA   Nprop   Condoleezza
-
-    Identity                  `noun`    {- kuwnoduwliyzA -}    [ "Condoleezza" ] ]
-
- |> "kuwnkAkAf" <| [
-
-    -- ;; kuwnokAkAf_1
-    -- kwnkAkAf        kuwnokAkAf      N0      CONCACAF (Confederation of North, Central American and Caribbean Association Football)
-
-    Identity                  `noun`    {- kuwnokAkAf -}       [ "CONCACAF (Confederation of North, Central American and Caribbean Association Football)" ] ]
-
- |> "kuwnkAn" <| [
-
-    -- ;; kuwnokAn_1
-    -- kwnkAn  kuwnokAn        N0      card game
-
-    Identity                  `noun`    {- kuwnokAn -}         [ "card game" ] ]
-
- |> "kuwnkurdAtuw" <| [
-
-    -- ;; kuwnokurodAtuw_1
-    -- kwnkrdAtw       kuwnokurodAtuw  N0      settlement
-
-    Identity                  `noun`    {- kuwnokurodAtuw -}   [ "settlement" ] ]
-
- |> "kuwnkuwrd" <| [
-
-    -- ;; kuwnokuwrod_1
-    -- kwnkwrd kuwnokuwrod     N0      Concorde
-
-    Identity                  `noun`    {- kuwnokuwrod -}      [ "Concorde" ] ]
-
- |> "kuwnsuwluw" <| [
-
-    -- ;; kuwnosuwluw_1
-    -- kwnswlw kuwnosuwluw     N0      Consolo
-
-    Identity                  `noun`    {- kuwnosuwluw -}      [ "Consolo" ] ]
-
- |> "kuwnt" <| [
-
-    -- ;; kuwnot_1
-    -- kwnt    kuwnot  N0      Count
-
-    Identity                  `noun`    {- kuwnot -}           [ "Count" ],
-
-    -- ;; kuwnotiy~ap_1
-    -- kwnty   kuwnotiy~       NapAt   county
-
-    Identity |< Iy |< aT      `noun`    {- kuwnotiy~ap -}      [ "county" ] ]
-
- |> "kuwntirbA.s" <| [
-
-    -- ;; kuwnotirobAS_1
-    -- kwntrbAS        kuwnotirobAS    N0      contrabass
-
-    Identity                  `noun`    {- kuwnotirobAS -}     [ "contrabass" ] ]
-
- |> "kuwntiy" <| [
-
-    -- ;; kuwnotiy_1
-    -- kwnty   kuwnotiy        Nprop   Conti
-
-    Identity                  `noun`    {- kuwnotiy -}         [ "Conti" ] ]
-
- |> "kuwntrAtw" <| [
-
-    -- ;; kuwnotrAtw_1
-    -- kwntrAtw        kuwnotrAtw      N0      contract
-
-    Identity                  `noun`    {- kuwnotrAtw -}       [ "contract" ] ]
-
- |> "kuwnyAk" <| [
-
-    -- ;; kuwnoyAk_1
-    -- kwnyAk  kuwnoyAk        N       cognac
-
-    Identity                  `noun`    {- kuwnoyAk -}         [ "cognac" ] ]
-
- |> "kuwrb" <| [
-
-    -- ;; kuwrob_1
-    -- kwrb    kuwrob  Nprop   Corp.
-
-    Identity                  `noun`    {- kuwrob -}           [ "Corp." ] ]
-
- |> "kuwrduwn" <| [
-
-    -- ;; kuwroduwn_1
-    -- kwrdwn  kuwroduwn       NduAt   cordon;ribbon
-
-    Identity                  `noun`    {- kuwroduwn -}        [ "cordon", "ribbon" ] ]
-
- |> "kuwriyA" <| [
-
-    -- ;; kuwriyA_1
-    -- kwryA   kuwriyA N0      Korea
-
-    Identity                  `noun`    {- kuwriyA -}          [ "Korea" ] ]
-
- |> "kuwriyt_hA" <| [
-
-    -- ;; kuwriytoxA_1
-    -- kwrytxA kuwriytoxA      N0      Corretja
-
-    Identity                  `noun`    {- kuwriytoxA -}       [ "Corretja" ] ]
-
- |> "kuwrniykuwfA" <| [
-
-    -- ;; kuwroniykuwfA_1
-    -- kwrnykwfA       kuwroniykuwfA   Nprop   Kournikova
-
-    Identity                  `noun`    {- kuwroniykuwfA -}    [ "Kournikova" ] ]
-
- |> "kuwrsiyh" <| [
-
-    -- ;; kuwrosiyh_1
-    -- kwrsyh  kuwrosiyh       N/At    corset
-
-    Identity                  `noun`    {- kuwrosiyh -}        [ "corset" ] ]
-
- |> "kuwrsiykA" <| [
-
-    -- ;; kuwrosiykA_1
-    -- kwrsykA kuwrosiykA      N0      Corsica
-
-    Identity                  `noun`    {- kuwrosiykA -}       [ "Corsica" ] ]
-
- |> "kuwrsk" <| [
-
-    -- ;; kuwrosk_1
-    -- kwrsk   kuwrosk N0      Kursk
-
-    Identity                  `noun`    {- kuwrosk -}          [ "Kursk" ] ]
-
- |> "kuwrtiyzuwn" <| [
-
-    -- ;; kuwrotiyzuwn_1
-    -- kwrtyzwn        kuwrotiyzuwn    N0      cortisone
-
-    Identity                  `noun`    {- kuwrotiyzuwn -}     [ "cortisone" ] ]
-
- |> "kuwruwyiduwf" <| [
-
-    -- ;; kuwruwyiduwf_1
-    -- kwrwydwf        kuwruwyiduwf    Nprop   Kuroyedov
-    -- kwrwyydwf       kuwruwyiyduwf   Nprop   Kuroyedov
-    -- kwrwywdwf       kuwruwyuwduwf   Nprop   Kuroyedov
-
-    Identity                  `noun`    {- kuwruwyiduwf -}     [ "Kuroyedov" ] ]
-
- |> "kuwsA" <| [
-
-    -- ;; kuwsA_1
-    -- kwsA    kuwsA   N0      zucchini
-    -- kwsY    kuwsaY  N0      zucchini
-    -- kwsAy   kuwsAy  Nap     zucchini
-
-    Identity                  `noun`    {- kuwsA -}            [ "zucchini" ] ]
-
- |> "kuwsbiy" <| [
-
-    -- ;; kuwsobiy_1
-    -- kwsby   kuwsobiy        Nprop   Kospi
-
-    Identity                  `noun`    {- kuwsobiy -}         [ "Kospi" ] ]
-
- |> "kuwstA" <| [
-
-    -- ;; kuwsotA_1
-    -- kwstA   kuwsotA Nprop   Costa
-
-    Identity                  `noun`    {- kuwsotA -}          [ "Costa" ] ]
-
- |> "kuwstAriyk" <| [
-
-    -- ;; kuwsotAriykiy~_1
-    -- kwstAryky       kuwsotAriykiy~  Nall    Costa Rican     [[kuwsotAriykiy~/NOUN]]
-    -- kwstAryky       kuwsotAriykiy~  Nall    Costa Rican     [[kuwsotAriykiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- kuwsotAriykiy~ -}   [ "Costa Rican" ] ]
-
- |> "kuwstAriykA" <| [
-
-    -- ;; kuwsotAriykA_1
-    -- kwstArykA       kuwsotAriykA    N0      Costa Rica
-
-    Identity                  `noun`    {- kuwsotAriykA -}     [ "Costa Rica" ] ]
-
- |> "kuwstiylluw" <| [
-
-    -- ;; kuwsotiyloluw_1
-    -- kwstyllw        kuwsotiyloluw   Nprop   Costello
-
-    Identity                  `noun`    {- kuwsotiyloluw -}    [ "Costello" ] ]
-
- |> "kuwsuwfA" <| [
-
-    -- ;; kuwsuwfA_1
-    -- kwswfA  kuwsuwfA        Nprop   Kosova
-
-    Identity                  `noun`    {- kuwsuwfA -}         [ "Kosova" ] ]
-
- |> "kuwsuwfuw" <| [
-
-    -- ;; kuwsuwfuw_1
-    -- kwswfw  kuwsuwfuw       Nprop   Kosovo
-    -- kwsfw   kuwsufuw        Nprop   Kosovo
-
-    Identity                  `noun`    {- kuwsuwfuw -}        [ "Kosovo" ] ]
-
- |> "kuwt^siyn" <| [
-
-    -- ;; kuwto$iynap_1
-    -- kwt$yn  kuwto$iyn       Nap     card game
-
-    Identity |< aT            `noun`    {- kuwto$iynap -}      [ "card game" ] ]
-
- |> "kuwtbuws" <| [
-
-    -- ;; kuwtobuws_1
-    -- kwtbws  kuwtobuws       Nprop   Cottbus
-
-    Identity                  `noun`    {- kuwtobuws -}        [ "Cottbus" ] ]
-
- |> "kuwtiydiyAn" <| [
-
-    -- ;; kuwtiydiyAn_1
-    -- kwtydyAn        kuwtiydiyAn     Nprop   Quotidien
-
-    Identity                  `noun`    {- kuwtiydiyAn -}      [ "Quotidien" ] ]
-
- |> "kuwtzir" <| [
-
-    -- ;; kuwtozir_1
-    -- kwtzr   kuwtozir        Nprop   Coetzer
-
-    Identity                  `noun`    {- kuwtozir -}         [ "Coetzer" ] ]
-
- |> "kuwykuw" <| [
-
-    -- ;; kuwyokuw_1
-    -- kwykw   kuwyokuw        Nprop   Koiko
-
-    Identity                  `noun`    {- kuwyokuw -}         [ "Koiko" ] ]
 
  |> "kwAn" <| [
 
@@ -11900,7 +11917,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kwAzAr -}           [ "quasar" ] ]
 
- |> "kwiy.gliy" <| [
+ |> "kwI.glI" <| [
 
     -- ;; kwiygoliy_1
     -- kwygly  kwiygoliy       Nprop   Quigley
@@ -11914,13 +11931,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kwl -}              [ "Kohl" ] ]
 
- |> "kwrbys" <| [
-
-    -- ;; kwrbys_1
-    -- kwrbys  kwrbys  Nprop   Courbis
-
-    Identity                  `noun`    {- kwrbys -}           [ "Courbis" ] ]
-
  |> "kynkl" <| [
 
     -- ;; kynkl_1
@@ -11928,12 +11938,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kynkl -}            [ "Kinkle ??" ] ]
 
- |> "kzAfyyh" <| [
+ |> "kzAfiyIh" <| [
 
-    -- ;; kzAfyyh_1
+    -- ;; kzAfiyiyh_1
     -- kzAfyyh kzAfyyh Nprop   Xavier
 
-    Identity                  `noun`    {- kzAfyyh -}          [ "Xavier" ] ]
+    Identity                  `noun`    {- kzAfiyiyh -}        [ "Xavier" ] ]
 
  |> "makruh" <| [
 
@@ -11949,13 +11959,6 @@ lexicon = listing "Lexicon's properties"
     -- mkArm   makArim Ndip    noble deeds
 
     Identity |< aT            `noun`    {- makorumap -}        [ "noble deed" ] ]
-
- |> "makwa^giyy" <| [
-
-    -- ;; makowajiy~_1
-    -- mkwjy   makowajiy~      Nall    ironing man;laundryman     [[makowajiy~/ADJ]]
-
-    Identity                  `adj`     {- makowajiy~ -}       [ "ironing man", "laundryman" ] ]
 
  |> "muk.hul" <| [
 
@@ -11985,7 +11988,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `adj`     {- tikil~Am -}         [ "eloquent", "garrulous" ] ]
 
- |> "yakuwn" <| [
+ |> "yakUn" <| [
 
     -- ;; yakuwn_1
     -- ykwn    yakuwn  N0      sum total

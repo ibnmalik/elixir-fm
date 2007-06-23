@@ -9,27 +9,19 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'adriyy" <| [
+ |> "'adr" <| [
 
     -- ;; lA>adoriy~_1
     -- lA>dry  lA>adoriy~      Nall_L  skeptic;agnostic     [[lA>adoriy~/ADJ]]
     -- lAAdry  lA>adoriy~      Nall_L  skeptic;agnostic     [[lAAadoriy~/ADJ]]
 
-    lA >| Identity            `adj`     {- lAOadoriy~ -}       [ "skeptic", "agnostic" ],
+    lA >| Identity |< Iy      `adj`     {- lAOadoriy~ -}       [ "skeptic", "agnostic" ],
 
     -- ;; lA>adoriy~ap_1
     -- lA>dry  lA>adoriy~      Nap_L   skepticism;agnosticism     [[lA>adoriy~/NOUN]]
     -- lAAdry  lA>adoriy~      Nap_L   skepticism;agnosticism     [[lAAadoriy~/NOUN]]
 
-    lA >| Identity |< aT      `noun`    {- lAOadoriy~ap -}     [ "skepticism", "agnosticism" ] ]
-
- |> "'ud.hiyy" <| [
-
-    -- ;; >udoHiy~ap_1
-    -- >dHy    >udoHiy~        NapAt   ostrich nest     [[>udoHiy~/NOUN]]
-    -- AdHy    >udoHiy~        NapAt   ostrich nest     [[>udoHiy~/NOUN]]
-
-    Identity |< aT            `noun`    {- OudoHiy~ap -}       [ "ostrich nest" ] ]
+    lA >| Identity |< Iy |< aT `noun`    {- lAOadoriy~ap -}     [ "skepticism", "agnosticism" ] ]
 
  |> "d ' _h" <| [
 
@@ -527,6 +519,14 @@ lexicon = listing "Lexicon's properties"
     MiFCY                     `noun`    {- midoHaY -}          [ "steamroller", "roller" ]
                               `plural`     MaFACI
                            {- `others`  [ "madA.hiy N0_Nh" ] -} ]
+
+ |> "d .h y" <| [
+
+    -- ;; >udoHiy~ap_1
+    -- >dHy    >udoHiy~        NapAt   ostrich nest     [[>udoHiy~/NOUN]]
+    -- AdHy    >udoHiy~        NapAt   ostrich nest     [[>udoHiy~/NOUN]]
+
+    HuFCIL |< aT              `noun`    {- OudoHiy~ap -}       [ "ostrich nest" ] ]
 
  |> "d ^g ^g" <| [
 
@@ -1119,7 +1119,12 @@ lexicon = listing "Lexicon's properties"
     -- dAxY    dAxaY   IV_0_Pass_yu    be pampered;be spoiled
     -- dAxy    dAxay   IV_Ann_Pass_yu  be pampered;be spoiled
 
-    FACY                      `verb`    {- dAxaY -}            [ "pamper", "spoil" ] ]
+    FACY                      `verb`    {- dAxaY -}            [ "pamper", "spoil" ],
+
+    -- ;; duwxiy_1
+    -- dwxy    duwxiy~ N0      Doukhi
+
+    FUCI                      `noun`    {- duwxiy -}           [ "Doukhi" ] ]
 
  |> "d _t r" <| [
 
@@ -4674,7 +4679,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; dumoyAT_1
     -- dmyAT   dumoyAT Ndip    Damietta
 
-    KuRDAS                    `noun`    {- dumoyAT -}          [ "Damietta" ] ]
+    KuRDAS                    `noun`    {- dumoyAT -}          [ "Damietta" ],
+
+    -- ;; dumoyATiy~_1
+    -- dmyATy  dumoyATiy~      Nall    from/of Damietta     [[dumoyATiy~/ADJ]]
+
+    KuRDAS |< Iy              `adj`     {- dumoyATiy~ -}       [ "from/of Damietta" ] ]
 
  |> "d n '" <| [
 
@@ -6928,6 +6938,13 @@ lexicon = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- tadowiyx -}         [ "conquest", "subjugation" ]
                               `plural`     TaFCIL |< At ]
 
+ |> "d w _h y" <| [
+
+    -- ;; duwxiy_1
+    -- dwxy    duwxiy~ N0      Doukhi
+
+    KuRDI                     `noun`    {- duwxiy -}           [ "Doukhi" ] ]
+
  |> "d w b" <| [
 
     -- ;; dAb-u_1
@@ -7002,6 +7019,13 @@ lexicon = listing "Lexicon's properties"
     -- dwdyk   duwdiyk Nprop   Dodik
 
     KuRDIS                    `noun`    {- duwdiyk -}          [ "Dodik" ] ]
+
+ |> "d w d m" <| [
+
+    -- ;; dawAdimiy~_1
+    -- dwAdmy  dawAdimiy~      N0      Dawadimi
+
+    KaRADiS |< Iy             `adj`     {- dawAdimiy~ -}       [ "Dawadimi" ] ]
 
  |> "d w d y" <| [
 
@@ -8461,28 +8485,28 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dA -}               [ "Da" ] ]
 
- |> "dAfiyd" <| [
+ |> "dAfId" <| [
 
     -- ;; dAfiyd_1
     -- dAfyd   dAfiyd  N0      David
 
     Identity                  `noun`    {- dAfiyd -}           [ "David" ] ]
 
- |> "dAfiydiy" <| [
+ |> "dAfIdI" <| [
 
     -- ;; dAfiydiy_1
     -- dAfydy  dAfiydiy        N0      Davide
 
     Identity                  `noun`    {- dAfiydiy -}         [ "Davide" ] ]
 
- |> "dAfiyn^siy" <| [
+ |> "dAfIn^sI" <| [
 
     -- ;; dAfiyno$iy_1
     -- dAfyn$y dAfiyno$iy      Nprop   Da Vinci
 
     Identity                  `noun`    {- dAfiyno$iy -}       [ "Da Vinci" ] ]
 
- |> "dAhuwmiy" <| [
+ |> "dAhUmI" <| [
 
     -- ;; dAhuwmiy_1
     -- dAhwmy  dAhuwmiy        N0      Dahomey
@@ -8503,7 +8527,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dAk~A -}            [ "Dhaka" ] ]
 
- |> "dAltuwn" <| [
+ |> "dAltUn" <| [
 
     -- ;; dAlotuwn_1
     -- dAltwn  dAlotuwn        N0      Dalton
@@ -8517,21 +8541,35 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dAmA -}             [ "checkers" ] ]
 
- |> "dAmiyAnuw" <| [
+ |> "dAmiyAnU" <| [
 
     -- ;; dAmiyAnuw_1
     -- dAmyAnw dAmiyAnuw       Nprop   Damiano
 
     Identity                  `noun`    {- dAmiyAnuw -}        [ "Damiano" ] ]
 
- |> "dAmruwn.g" <| [
+ |> "dAmrUn.g" <| [
 
     -- ;; dAmoruwng_1
     -- dAmrwng dAmoruwng       Nprop   Damrong
 
     Identity                  `noun`    {- dAmoruwng -}        [ "Damrong" ] ]
 
- |> "dAnfuwr_t" <| [
+ |> "dAnIlInkU" <| [
+
+    -- ;; dAniyliynokuw_1
+    -- dAnylynkw       dAniyliynokuw   Nprop   Danilenko
+
+    Identity                  `noun`    {- dAniyliynokuw -}    [ "Danilenko" ] ]
+
+ |> "dAnIlUfIt^s" <| [
+
+    -- ;; dAniyluwfiyt$_1
+    -- dAnylwfyt$      dAniyluwfiyt$   Nprop   Danilovic;Danjlovic
+
+    Identity                  `noun`    {- dAniyluwfiyt$ -}    [ "Danilovic", "Danjlovic" ] ]
+
+ |> "dAnfUr_t" <| [
 
     -- ;; dAnofuwrv_1
     -- dAnfwrv dAnofuwrv       N0      Danforth
@@ -8558,35 +8596,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dAniyAl -}          [ "Daniel" ] ]
 
- |> "dAniyiyl" <| [
+ |> "dAniyIl" <| [
 
     -- ;; dAniyiyl_1
     -- dAnyyl  dAniyiyl        Nprop   Daniel
 
     Identity                  `noun`    {- dAniyiyl -}         [ "Daniel" ] ]
 
- |> "dAniyliynkuw" <| [
-
-    -- ;; dAniyliynokuw_1
-    -- dAnylynkw       dAniyliynokuw   Nprop   Danilenko
-
-    Identity                  `noun`    {- dAniyliynokuw -}    [ "Danilenko" ] ]
-
- |> "dAniyluwfiyt^s" <| [
-
-    -- ;; dAniyluwfiyt$_1
-    -- dAnylwfyt$      dAniyluwfiyt$   Nprop   Danilovic;Danjlovic
-
-    Identity                  `noun`    {- dAniyluwfiyt$ -}    [ "Danilovic", "Danjlovic" ] ]
-
- |> "dAntiyl" <| [
+ |> "dAntIl" <| [
 
     -- ;; dAnotiyl_1
     -- dAntyl  dAnotiyl        N       lacework
 
     Identity                  `noun`    {- dAnotiyl -}         [ "lacework" ] ]
 
- |> "dAntiyllA" <| [
+ |> "dAntIllA" <| [
 
     -- ;; dAnotiyl~A_1
     -- dAntylA dAnotiyl~A      N0      lacework
@@ -8600,14 +8624,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dArA -}             [ "Dara" ] ]
 
- |> "dArfuwr" <| [
+ |> "dArfUr" <| [
 
     -- ;; dArofuwr_1
     -- dArfwr  dArofuwr        Nprop   Darfour;Darfur
 
     Identity                  `noun`    {- dArofuwr -}         [ "Darfour", "Darfur" ] ]
 
- |> "dArkuw" <| [
+ |> "dArkU" <| [
 
     -- ;; dArokuw_1
     -- dArkw   dArokuw Nprop   Darko
@@ -8622,14 +8646,385 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dAwud -}            [ "David", "Daud", "Daoud" ] ]
 
- |> "dAytuwn" <| [
+ |> "dAytUn" <| [
 
     -- ;; dAyotuwn_1
     -- dAytwn  dAyotuwn        Nprop   Dayton
 
     Identity                  `noun`    {- dAyotuwn -}         [ "Dayton" ] ]
 
- |> "d^guwrkAyif" <| [
+ |> "dI^gAnIrU" <| [
+
+    -- ;; diyjAniyruw_1
+    -- dyjAnyrw        diyjAniyruw     N0      De Janiero
+
+    Identity                  `noun`    {- diyjAniyruw -}      [ "De Janiero" ] ]
+
+ |> "dI^gItAl" <| [
+
+    -- ;; diyjiytAl_1
+    -- dyjytAl diyjiytAl       N0      Digital
+
+    Identity                  `noun`    {- diyjiytAl -}        [ "Digital" ] ]
+
+ |> "dIbUrtIfU" <| [
+
+    -- ;; diybuwrotiyfuw_1
+    -- dybwrtyfw       diybuwrotiyfuw  Nprop   Deportivo
+
+    Identity                  `noun`    {- diybuwrotiyfuw -}   [ "Deportivo" ] ]
+
+ |> "dIdIyih" <| [
+
+    -- ;; diydiyyih_1
+    -- dydyyh  diydiyyih       Nprop   Didier
+
+    Identity                  `noun`    {- diydiyyih -}        [ "Didier" ] ]
+
+ |> "dIfAt^s" <| [
+
+    -- ;; diyfAt$_1
+    -- dyfAt$  diyfAt$ Nprop   Divac
+
+    Identity                  `noun`    {- diyfAt$ -}          [ "Divac" ] ]
+
+ |> "dIfilIh" <| [
+
+    -- ;; diyfiliyh_1
+    -- dyflyh  diyfiliyh       N       marching past
+
+    Identity                  `noun`    {- diyfiliyh -}        [ "marching past" ] ]
+
+ |> "dIfuwAr" <| [
+
+    -- ;; diyfuwAr_1
+    -- dyfwAr  diyfuwAr        Nprop   d'Ivoire     [[diyfuwAr/NOUN_PROP]]
+
+    Identity                  `noun`    {- diyfuwAr -}         [ "d'Ivoire" ] ]
+
+ |> "dIkAtlUn" <| [
+
+    -- ;; diykAtoluwn_1
+    -- dykAtlwn        diykAtoluwn     N       decathlon
+    -- dykAvlwn        diykAvoluwn     N       decathlon
+
+    Identity                  `noun`    {- diykAtoluwn -}      [ "decathlon" ] ]
+
+ |> "dIkU^gI" <| [
+
+    -- ;; diykuwjiy_1
+    -- dykwjy  diykuwjiy       Nprop   Decugis
+
+    Identity                  `noun`    {- diykuwjiy -}        [ "Decugis" ] ]
+
+ |> "dIkUltIh" <| [
+
+    -- ;; diykuwlotiyh_1
+    -- dykwltyh        diykuwlotiyh    N       decollete
+
+    Identity                  `noun`    {- diykuwlotiyh -}     [ "decollete" ] ]
+
+ |> "dIkmAn" <| [
+
+    -- ;; diykomAn_1
+    -- dykmAn  diykomAn        Nprop   Dickman
+
+    Identity                  `noun`    {- diykomAn -}         [ "Dickman" ] ]
+
+ |> "dIktAtUr" <| [
+
+    -- ;; diykotAtuwr_1
+    -- dyktAtwr        diykotAtuwr     N       dictator
+    -- dktAtwr dikotAtuwr      N       dictator
+
+    Identity                  `noun`    {- diykotAtuwr -}      [ "dictator" ],
+
+    -- ;; diykotAtuwriy~_1
+    -- dyktAtwry       diykotAtuwriy~  Nall    dictatorial     [[diykotAtuwriy~/ADJ]]
+    -- dktAtwry        dikotAtuwriy~   Nall    dictatorial     [[dikotAtuwriy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- diykotAtuwriy~ -}   [ "dictatorial" ],
+
+    -- ;; diykotAtuwriy~ap_1
+    -- dyktAtwry       diykotAtuwriy~  Napdu   dictatorship     [[diykotAtuwriy~/NOUN]]
+    -- dyktAtwry       diykotAtuwriy~  NAt     dictatorships     [[diykotAtuwriy~/NOUN]]
+    -- dktAtwry        dikotAtuwriy~   Napdu   dictatorship     [[dikotAtuwriy~/NOUN]]
+    -- dktAtwry        dikotAtuwriy~   NAt     dictatorships     [[dikotAtuwriy~/NOUN]]
+
+    Identity |< Iy |< aT      `noun`    {- diykotAtuwriy~ap -} [ "dictatorship" ] ]
+
+ |> "dImA^gU^g" <| [
+
+    -- ;; diymAjuwjiy~_1
+    -- dymAjwjy        diymAjuwjiy~    Nall    demagogic     [[diymAjuwjiy~/ADJ]]
+    -- dymAgwjy        diymAguwjiy~    Nall    demagogic     [[diymAguwjiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- diymAjuwjiy~ -}     [ "demagogic" ],
+
+    -- ;; diymAjuwjiy~ap_1
+    -- dymAjwjy        diymAjuwjiy~    Nap     demagoguery     [[diymAjuwjiy~/NOUN]]
+    -- dymAgwjy        diymAguwjiy~    Nap     demagoguery     [[diymAguwjiy~/NOUN]]
+
+    Identity |< Iy |< aT      `noun`    {- diymAjuwjiy~ap -}   [ "demagoguery" ] ]
+
+ |> "dImArIh" <| [
+
+    -- ;; diymAriyh_1
+    -- dymAryh diymAriyh       Nprop   Demaret
+
+    Identity                  `noun`    {- diymAriyh -}        [ "Demaret" ] ]
+
+ |> "dImIrIl" <| [
+
+    -- ;; diymiyriyl_1
+    -- dymyryl diymiyriyl      Nprop   Demirel
+
+    Identity                  `noun`    {- diymiyriyl -}       [ "Demirel" ] ]
+
+ |> "dImItrI" <| [
+
+    -- ;; diymiytriy_1
+    -- dymytry diymiytriy      Nprop   Dimitri
+
+    Identity                  `noun`    {- diymiytriy -}       [ "Dimitri" ] ]
+
+ |> "dImU.grAf" <| [
+
+    -- ;; diymuwgrAfiy~_1
+    -- dymwgrAfy       diymuwgrAfiy~   N-ap    demographic     [[diymuwgrAfiy~/ADJ]]
+    -- dymwjrAfy       diymuwjrAfiy~   N-ap    demographic     [[diymuwjrAfiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- diymuwgrAfiy~ -}    [ "demographic" ],
+
+    -- ;; diymuwgrAfiy~_2
+    -- dymwgrAfy       diymuwgrAfiy~   Nall    demographer     [[diymuwgrAfiy~/ADJ]]
+    -- dymwjrAfy       diymuwjrAfiy~   Nall    demographer     [[diymuwjrAfiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- diymuwgrAfiy~ -}    [ "demographer" ] ]
+
+ |> "dImU.grAfiyA" <| [
+
+    -- ;; diymuwgrAfiyA_1
+    -- dymwgrAfyA      diymuwgrAfiyA   N0      demography
+    -- dymwjrAfyA      diymuwjrAfiyA   N0      demography
+
+    Identity                  `noun`    {- diymuwgrAfiyA -}    [ "demography" ] ]
+
+ |> "dImU.tIq" <| [
+
+    -- ;; diymuwTiyqiy~_1
+    -- dymwTyqy        diymuwTiyqiy~   Nall    demotic     [[diymuwTiyqiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- diymuwTiyqiy~ -}    [ "demotic" ] ]
+
+ |> "dImUqrA.t" <| [
+
+    -- ;; diymuwqrATiy~_1
+    -- dymwqrATy       diymuwqrATiy~   Nall    democratic     [[diymuwqrATiy~/ADJ]]
+    -- dymqrATy        diymuqrATiy~    Nall    democratic     [[diymuqrATiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- diymuwqrATiy~ -}    [ "democratic" ],
+
+    -- ;; diymuwqrATiy~ap_1
+    -- dymwqrATy       diymuwqrATiy~   NapAt   democracy     [[diymuwqrATiy~/NOUN]]
+    -- dymqrATy        diymuqrATiy~    NapAt   democracy     [[diymuqrATiy~/NOUN]]
+
+    Identity |< Iy |< aT      `noun`    {- diymuwqrATiy~ap -}  [ "democracy" ] ]
+
+ |> "dInA" <| [
+
+    -- ;; diynA_1
+    -- dynA    diynA   Nprop   Dina
+
+    Identity                  `noun`    {- diynA -}            [ "Dina" ] ]
+
+ |> "dInAmIk" <| [
+
+    -- ;; diynAmiykiy~_1
+    -- dynAmyky        diynAmiykiy~    Nall    dynamic     [[diynAmiykiy~/ADJ]]
+    -- dynAmyky        diynAmiykiy~    Nap     dynamism     [[diynAmiykiy~/NOUN]]
+
+    Identity |< Iy            `adj`     {- diynAmiykiy~ -}     [ "dynamic", "dynamism" ] ]
+
+ |> "dInAmIks" <| [
+
+    -- ;; diynAmiyks_1
+    -- dynAmyks        diynAmiyks      N0      Dynamics
+
+    Identity                  `noun`    {- diynAmiyks -}       [ "Dynamics" ] ]
+
+ |> "dInAmIt" <| [
+
+    -- ;; diynAmiyt_1
+    -- dynAmyt diynAmiyt       N       dynamite
+
+    Identity                  `noun`    {- diynAmiyt -}        [ "dynamite" ] ]
+
+ |> "dInAmU" <| [
+
+    -- ;; diynAmuw_1
+    -- dynAmw  diynAmuw        N0      dynamo;generator
+    -- dynAmwh diynAmuwh       NAt     dynamos;generators
+
+    Identity                  `noun`    {- diynAmuw -}         [ "dynamo", "generator" ] ]
+
+ |> "dIrnir" <| [
+
+    -- ;; diyrnir_1
+    -- dyrnr   diyrnir Nprop   Derner
+
+    Identity                  `noun`    {- diyrnir -}          [ "Derner" ] ]
+
+ |> "dIsambir" <| [
+
+    -- ;; diysamobir_1
+    -- dysmbr  diysamobir      N0      December
+    -- dsmbr   disamobir       N0      December
+
+    Identity                  `noun`    {- diysamobir -}       [ "December" ] ]
+
+ |> "dItrUyt" <| [
+
+    -- ;; diytruwyt_1
+    -- dytrwyt diytruwyt       N0      Detroit
+
+    Identity                  `noun`    {- diytruwyt -}        [ "Detroit" ] ]
+
+ |> "dIzIrIh" <| [
+
+    -- ;; diyziyriyh_1
+    -- dyzyryh diyziyriyh      Nprop   Desire
+    -- dyzyryh diyziyriyh      Nprop   Desiree
+
+    Identity                  `noun`    {- diyziyriyh -}       [ "Desire", "Desiree" ] ]
+
+ |> "dIznI" <| [
+
+    -- ;; diyzoniy_1
+    -- dyzny   diyzoniy        Nprop   Disney
+
+    Identity                  `noun`    {- diyzoniy -}         [ "Disney" ] ]
+
+ |> "dU.glAs" <| [
+
+    -- ;; duwgolAs_1
+    -- dwglAs  duwgolAs        Nprop   Douglas
+
+    Identity                  `noun`    {- duwgolAs -}         [ "Douglas" ] ]
+
+ |> "dU^sIfAr" <| [
+
+    -- ;; duw$iyfAr_1
+    -- dw$yfAr duw$iyfAr       Nprop   Doshifar ??
+
+    Identity                  `noun`    {- duw$iyfAr -}        [ "Doshifar ??" ] ]
+
+ |> "dUblA^g" <| [
+
+    -- ;; duwblAj_1
+    -- dwblAj  duwblAj N       dubbing
+
+    Identity                  `noun`    {- duwblAj -}          [ "dubbing" ] ]
+
+ |> "dUblIr" <| [
+
+    -- ;; duwbliyr_1
+    -- dwblyr  duwbliyr        N/ap    double;substitute
+
+    Identity                  `noun`    {- duwbliyr -}         [ "double", "substitute" ] ]
+
+ |> "dUfdIfAn" <| [
+
+    -- ;; duwfodiyfAn_1
+    -- dwfdyfAn        duwfodiyfAn     Nprop   Dov Devan
+
+    Identity                  `noun`    {- duwfodiyfAn -}      [ "Dov Devan" ] ]
+
+ |> "dUhAldI" <| [
+
+    -- ;; duwhAlodiy_1
+    -- dwhAldy duwhAlodiy      N0      Duhalde
+
+    Identity                  `noun`    {- duwhAlodiy -}       [ "Duhalde" ] ]
+
+ |> "dUkUmU" <| [
+
+    -- ;; duwkuwmuw_1
+    -- dwkwmw  duwkuwmuw       Nprop   DOCOMO
+
+    Identity                  `noun`    {- duwkuwmuw -}        [ "DOCOMO" ] ]
+
+ |> "dUmA" <| [
+
+    -- ;; duwmA_1
+    -- dwmA    duwmA   N0      Duma
+
+    Identity                  `noun`    {- duwmA -}            [ "Duma" ] ]
+
+ |> "dUmAn^g" <| [
+
+    -- ;; duwmAnojiy~_1
+    -- dwmAnjy duwmAnojiy~     Nall    helmsman;steersman     [[duwmAnojiy~/ADJ]]
+
+    Identity |< Iy            `adj`     {- duwmAnojiy~ -}      [ "helmsman", "steersman" ] ]
+
+ |> "dUmInIk" <| [
+
+    -- ;; duwmiyniyk_1
+    -- dwmynyk duwmiyniyk      Nprop   Dominik
+
+    Identity                  `noun`    {- duwmiyniyk -}       [ "Dominik" ],
+
+    -- ;; duwmiyniyk_2
+    -- dwmynyk duwmiyniyk      Nprop   Dominique
+
+    Identity                  `noun`    {- duwmiyniyk -}       [ "Dominique" ] ]
+
+ |> "dUmarI" <| [
+
+    -- ;; lAduwmariy_1
+    -- lAdwmry lAduwmariy      N0_L    nobody;no one
+
+    lA >| Identity            `noun`    {- lAduwmariy -}       [ "nobody", "no one" ] ]
+
+ |> "dUnAld" <| [
+
+    -- ;; duwnAld_1
+    -- dwnAld  duwnAld N0      Donald
+
+    Identity                  `noun`    {- duwnAld -}          [ "Donald" ] ]
+
+ |> "dUrtmUnd" <| [
+
+    -- ;; duwrotmuwnod_1
+    -- dwrtmwnd        duwrotmuwnod    Nprop   Dortmund
+
+    Identity                  `noun`    {- duwrotmuwnod -}     [ "Dortmund" ] ]
+
+ |> "dUsin.tAriyA" <| [
+
+    -- ;; duwsinoTAriyA_1
+    -- dwsnTAryA       duwsinoTAriyA   N0      dysentery
+    -- dwsntAryA       duwsinotAriyA   N0      dysentery
+
+    Identity                  `noun`    {- duwsinoTAriyA -}    [ "dysentery" ] ]
+
+ |> "dUsiyih" <| [
+
+    -- ;; duwsiyih_1
+    -- dwsyh   duwsiyih        NduAt   dossier;file
+    -- dwsyyh  duwsoyiyh       NduAt   dossier;file
+
+    Identity                  `noun`    {- duwsiyih -}         [ "dossier", "file" ] ]
+
+ |> "dUstum" <| [
+
+    -- ;; duwsotum_1
+    -- dwstm   duwsotum        Nprop   Dustum
+
+    Identity                  `noun`    {- duwsotum -}         [ "Dustum" ] ]
+
+ |> "d^gUrkAyif" <| [
 
     -- ;; djuwrokAyif_1
     -- djwrkAyf        djuwrokAyif     Nprop   Djorkaeff
@@ -8643,7 +9038,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- dafotaroxAnap -}    [ "archives", "public records" ] ]
 
- |> "damanhuwr" <| [
+ |> "damanhUr" <| [
 
     -- ;; damanohuwr_1
     -- dmnhwr  damanohuwr      Ndip    Damanhour
@@ -8711,7 +9106,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- darabuk~ap -}       [ "darabukka" ] ]
 
- |> "darbaziyn" <| [
+ |> "darbazIn" <| [
 
     -- ;; darobaziyn_1
     -- drbzyn  darobaziyn      N       banister;railing
@@ -8719,20 +9114,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- darobaziyn -}       [ "banister", "railing" ] ]
 
- |> "dardabiys" <| [
+ |> "dardabIs" <| [
 
     -- ;; darodabiys_1
     -- drdbys  darodabiys      N       old hag;ugly old woman
     -- drAdb   darAdib Ndip    old hags;ugly old women
 
     Identity                  `noun`    {- darodabiys -}       [ "old hag", "ugly old woman", "ugly old women" ] ]
-
- |> "dawAdimiyy" <| [
-
-    -- ;; dawAdimiy~_1
-    -- dwAdmy  dawAdimiy~      N0      Dawadimi
-
-    Identity                  `noun`    {- dawAdimiy~ -}       [ "Dawadimi" ] ]
 
  |> "dawAlayk" <| [
 
@@ -8750,28 +9138,28 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dayodabAn -}        [ "sentry", "guard" ] ]
 
- |> "dayfinbuwrt" <| [
+ |> "dayfinbUrt" <| [
 
     -- ;; dayofinbuwrt_1
     -- dyfnbwrt        dayofinbuwrt    Nprop   Davenport
 
     Identity                  `noun`    {- dayofinbuwrt -}     [ "Davenport" ] ]
 
- |> "dazziyn" <| [
+ |> "dazzIn" <| [
 
     -- ;; daz~iynap_1
     -- dzyn    daz~iyn NapAt   dozen
 
     Identity |< aT            `noun`    {- daz~iynap -}        [ "dozen" ] ]
 
- |> "ddiyn" <| [
+ |> "ddIn" <| [
 
     -- ;; Ald~iyn_1
     -- Aldyn   Ald~iyn FW      Al-Din;El-Din;Eddin     [[Ald~iyn/NOUN_PROP]]
 
     al >| Identity            `noun`    {- Ald~iyn -}          [ "Al-Din", "El-Din", "Eddin" ] ]
 
- |> "dibluwmAs" <| [
+ |> "diblUmAs" <| [
 
     -- ;; dibluwmAsiy~_1
     -- dblwmAsy        dibluwmAsiy~    N-ap    diplomatic     [[dibluwmAsiy~/ADJ]]
@@ -8798,7 +9186,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dibriyAj -}         [ "clutch" ] ]
 
- |> "didiy" <| [
+ |> "didI" <| [
 
     -- ;; didiy_1
     -- ddy     didiy   Nprop   Didi
@@ -8813,7 +9201,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- difotiriyA -}       [ "diphtheria" ] ]
 
- |> "dikriytuw" <| [
+ |> "dikrItU" <| [
 
     -- ;; dikoriytuw_1
     -- dkrytw  dikoriytuw      N0      decree
@@ -8821,7 +9209,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dikoriytuw -}       [ "decree" ] ]
 
- |> "dil.gAduw" <| [
+ |> "dil.gAdU" <| [
 
     -- ;; dilogAduw_1
     -- dlgAdw  dilogAduw       Nprop   Delgado
@@ -8895,14 +9283,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dirAmA -}           [ "drama" ] ]
 
- |> "dirAmAtiyk" <| [
+ |> "dirAmAtIk" <| [
 
     -- ;; dirAmAtiykiy~_1
     -- drAmAtyky       dirAmAtiykiy~   Nall    dramatic     [[dirAmAtiykiy~/ADJ]]
 
     Identity |< Iy            `adj`     {- dirAmAtiykiy~ -}    [ "dramatic" ] ]
 
- |> "dirAmAtuwr^g" <| [
+ |> "dirAmAtUr^g" <| [
 
     -- ;; dirAmAtuwrojiy~_1
     -- drAmAtwrjy      dirAmAtuwrojiy~ Nall    dramaturgist     [[dirAmAtuwrojiy~/ADJ]]
@@ -8931,14 +9319,22 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- disotAynd -}        [ "Destined" ] ]
 
- |> "diyA^giyuw" <| [
+ |> "diyA^giyU" <| [
 
     -- ;; diyAjiyuw_1
     -- dyAjyw  diyAjiyuw       N0      Diageo
 
     Identity                  `noun`    {- diyAjiyuw -}        [ "Diageo" ] ]
 
- |> "diyAliktiyk" <| [
+ |> "diyAlU^g" <| [
+
+    -- ;; diyAluwj_1
+    -- dyAlwj  diyAluwj        N/At    dialog
+    -- dyAlwg  diyAluwg        N/At    dialog
+
+    Identity                  `noun`    {- diyAluwj -}         [ "dialog" ] ]
+
+ |> "diyAliktIk" <| [
 
     -- ;; diyAlikotiyk_1
     -- dyAlktyk        diyAlikotiyk    N       dialectics
@@ -8950,14 +9346,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- diyAlikotiykiy~ -}  [ "dialectical" ] ]
 
- |> "diyAluw^g" <| [
-
-    -- ;; diyAluwj_1
-    -- dyAlwj  diyAluwj        N/At    dialog
-    -- dyAlwg  diyAluwg        N/At    dialog
-
-    Identity                  `noun`    {- diyAluwj -}         [ "dialog" ] ]
-
  |> "diyAnA" <| [
 
     -- ;; diyAnA_1
@@ -8965,278 +9353,47 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- diyAnA -}           [ "Diana" ] ]
 
- |> "diy^gAniyruw" <| [
-
-    -- ;; diyjAniyruw_1
-    -- dyjAnyrw        diyjAniyruw     N0      De Janiero
-
-    Identity                  `noun`    {- diyjAniyruw -}      [ "De Janiero" ] ]
-
- |> "diy^giytAl" <| [
-
-    -- ;; diyjiytAl_1
-    -- dyjytAl diyjiytAl       N0      Digital
-
-    Identity                  `noun`    {- diyjiytAl -}        [ "Digital" ] ]
-
- |> "diybuwrtiyfuw" <| [
-
-    -- ;; diybuwrotiyfuw_1
-    -- dybwrtyfw       diybuwrotiyfuw  Nprop   Deportivo
-
-    Identity                  `noun`    {- diybuwrotiyfuw -}   [ "Deportivo" ] ]
-
- |> "diydiyyih" <| [
-
-    -- ;; diydiyyih_1
-    -- dydyyh  diydiyyih       Nprop   Didier
-
-    Identity                  `noun`    {- diydiyyih -}        [ "Didier" ] ]
-
- |> "diyfAt^s" <| [
-
-    -- ;; diyfAt$_1
-    -- dyfAt$  diyfAt$ Nprop   Divac
-
-    Identity                  `noun`    {- diyfAt$ -}          [ "Divac" ] ]
-
- |> "diyfiliyh" <| [
-
-    -- ;; diyfiliyh_1
-    -- dyflyh  diyfiliyh       N       marching past
-
-    Identity                  `noun`    {- diyfiliyh -}        [ "marching past" ] ]
-
- |> "diyfuwAr" <| [
-
-    -- ;; diyfuwAr_1
-    -- dyfwAr  diyfuwAr        Nprop   d'Ivoire     [[diyfuwAr/NOUN_PROP]]
-
-    Identity                  `noun`    {- diyfuwAr -}         [ "d'Ivoire" ] ]
-
- |> "diykAtluwn" <| [
-
-    -- ;; diykAtoluwn_1
-    -- dykAtlwn        diykAtoluwn     N       decathlon
-    -- dykAvlwn        diykAvoluwn     N       decathlon
-
-    Identity                  `noun`    {- diykAtoluwn -}      [ "decathlon" ] ]
-
- |> "diykmAn" <| [
-
-    -- ;; diykomAn_1
-    -- dykmAn  diykomAn        Nprop   Dickman
-
-    Identity                  `noun`    {- diykomAn -}         [ "Dickman" ] ]
-
- |> "diyktAtuwr" <| [
-
-    -- ;; diykotAtuwr_1
-    -- dyktAtwr        diykotAtuwr     N       dictator
-    -- dktAtwr dikotAtuwr      N       dictator
-
-    Identity                  `noun`    {- diykotAtuwr -}      [ "dictator" ],
-
-    -- ;; diykotAtuwriy~_1
-    -- dyktAtwry       diykotAtuwriy~  Nall    dictatorial     [[diykotAtuwriy~/ADJ]]
-    -- dktAtwry        dikotAtuwriy~   Nall    dictatorial     [[dikotAtuwriy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- diykotAtuwriy~ -}   [ "dictatorial" ],
-
-    -- ;; diykotAtuwriy~ap_1
-    -- dyktAtwry       diykotAtuwriy~  Napdu   dictatorship     [[diykotAtuwriy~/NOUN]]
-    -- dyktAtwry       diykotAtuwriy~  NAt     dictatorships     [[diykotAtuwriy~/NOUN]]
-    -- dktAtwry        dikotAtuwriy~   Napdu   dictatorship     [[dikotAtuwriy~/NOUN]]
-    -- dktAtwry        dikotAtuwriy~   NAt     dictatorships     [[dikotAtuwriy~/NOUN]]
-
-    Identity |< Iy |< aT      `noun`    {- diykotAtuwriy~ap -} [ "dictatorship" ] ]
-
- |> "diykuw^giy" <| [
-
-    -- ;; diykuwjiy_1
-    -- dykwjy  diykuwjiy       Nprop   Decugis
-
-    Identity                  `noun`    {- diykuwjiy -}        [ "Decugis" ] ]
-
- |> "diykuwltiyh" <| [
-
-    -- ;; diykuwlotiyh_1
-    -- dykwltyh        diykuwlotiyh    N       decollete
-
-    Identity                  `noun`    {- diykuwlotiyh -}     [ "decollete" ] ]
-
- |> "diymA^guw^g" <| [
-
-    -- ;; diymAjuwjiy~_1
-    -- dymAjwjy        diymAjuwjiy~    Nall    demagogic     [[diymAjuwjiy~/ADJ]]
-    -- dymAgwjy        diymAguwjiy~    Nall    demagogic     [[diymAguwjiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- diymAjuwjiy~ -}     [ "demagogic" ],
-
-    -- ;; diymAjuwjiy~ap_1
-    -- dymAjwjy        diymAjuwjiy~    Nap     demagoguery     [[diymAjuwjiy~/NOUN]]
-    -- dymAgwjy        diymAguwjiy~    Nap     demagoguery     [[diymAguwjiy~/NOUN]]
-
-    Identity |< Iy |< aT      `noun`    {- diymAjuwjiy~ap -}   [ "demagoguery" ] ]
-
- |> "diymAriyh" <| [
-
-    -- ;; diymAriyh_1
-    -- dymAryh diymAriyh       Nprop   Demaret
-
-    Identity                  `noun`    {- diymAriyh -}        [ "Demaret" ] ]
-
- |> "diymiyriyl" <| [
-
-    -- ;; diymiyriyl_1
-    -- dymyryl diymiyriyl      Nprop   Demirel
-
-    Identity                  `noun`    {- diymiyriyl -}       [ "Demirel" ] ]
-
- |> "diymiytriy" <| [
-
-    -- ;; diymiytriy_1
-    -- dymytry diymiytriy      Nprop   Dimitri
-
-    Identity                  `noun`    {- diymiytriy -}       [ "Dimitri" ] ]
-
- |> "diymuw.grAf" <| [
-
-    -- ;; diymuwgrAfiy~_1
-    -- dymwgrAfy       diymuwgrAfiy~   N-ap    demographic     [[diymuwgrAfiy~/ADJ]]
-    -- dymwjrAfy       diymuwjrAfiy~   N-ap    demographic     [[diymuwjrAfiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- diymuwgrAfiy~ -}    [ "demographic" ],
-
-    -- ;; diymuwgrAfiy~_2
-    -- dymwgrAfy       diymuwgrAfiy~   Nall    demographer     [[diymuwgrAfiy~/ADJ]]
-    -- dymwjrAfy       diymuwjrAfiy~   Nall    demographer     [[diymuwjrAfiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- diymuwgrAfiy~ -}    [ "demographer" ] ]
-
- |> "diymuw.grAfiyA" <| [
-
-    -- ;; diymuwgrAfiyA_1
-    -- dymwgrAfyA      diymuwgrAfiyA   N0      demography
-    -- dymwjrAfyA      diymuwjrAfiyA   N0      demography
-
-    Identity                  `noun`    {- diymuwgrAfiyA -}    [ "demography" ] ]
-
- |> "diymuw.tiyq" <| [
-
-    -- ;; diymuwTiyqiy~_1
-    -- dymwTyqy        diymuwTiyqiy~   Nall    demotic     [[diymuwTiyqiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- diymuwTiyqiy~ -}    [ "demotic" ] ]
-
- |> "diymuwqrA.t" <| [
-
-    -- ;; diymuwqrATiy~_1
-    -- dymwqrATy       diymuwqrATiy~   Nall    democratic     [[diymuwqrATiy~/ADJ]]
-    -- dymqrATy        diymuqrATiy~    Nall    democratic     [[diymuqrATiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- diymuwqrATiy~ -}    [ "democratic" ],
-
-    -- ;; diymuwqrATiy~ap_1
-    -- dymwqrATy       diymuwqrATiy~   NapAt   democracy     [[diymuwqrATiy~/NOUN]]
-    -- dymqrATy        diymuqrATiy~    NapAt   democracy     [[diymuqrATiy~/NOUN]]
-
-    Identity |< Iy |< aT      `noun`    {- diymuwqrATiy~ap -}  [ "democracy" ] ]
-
- |> "diynA" <| [
-
-    -- ;; diynA_1
-    -- dynA    diynA   Nprop   Dina
-
-    Identity                  `noun`    {- diynA -}            [ "Dina" ] ]
-
- |> "diynAmiyk" <| [
-
-    -- ;; diynAmiykiy~_1
-    -- dynAmyky        diynAmiykiy~    Nall    dynamic     [[diynAmiykiy~/ADJ]]
-    -- dynAmyky        diynAmiykiy~    Nap     dynamism     [[diynAmiykiy~/NOUN]]
-
-    Identity |< Iy            `adj`     {- diynAmiykiy~ -}     [ "dynamic", "dynamism" ] ]
-
- |> "diynAmiyks" <| [
-
-    -- ;; diynAmiyks_1
-    -- dynAmyks        diynAmiyks      N0      Dynamics
-
-    Identity                  `noun`    {- diynAmiyks -}       [ "Dynamics" ] ]
-
- |> "diynAmiyt" <| [
-
-    -- ;; diynAmiyt_1
-    -- dynAmyt diynAmiyt       N       dynamite
-
-    Identity                  `noun`    {- diynAmiyt -}        [ "dynamite" ] ]
-
- |> "diynAmuw" <| [
-
-    -- ;; diynAmuw_1
-    -- dynAmw  diynAmuw        N0      dynamo;generator
-    -- dynAmwh diynAmuwh       NAt     dynamos;generators
-
-    Identity                  `noun`    {- diynAmuw -}         [ "dynamo", "generator" ] ]
-
- |> "diyrnir" <| [
-
-    -- ;; diyrnir_1
-    -- dyrnr   diyrnir Nprop   Derner
-
-    Identity                  `noun`    {- diyrnir -}          [ "Derner" ] ]
-
- |> "diysambir" <| [
-
-    -- ;; diysamobir_1
-    -- dysmbr  diysamobir      N0      December
-    -- dsmbr   disamobir       N0      December
-
-    Identity                  `noun`    {- diysamobir -}       [ "December" ] ]
-
- |> "diytruwyt" <| [
-
-    -- ;; diytruwyt_1
-    -- dytrwyt diytruwyt       N0      Detroit
-
-    Identity                  `noun`    {- diytruwyt -}        [ "Detroit" ] ]
-
- |> "diyuwf" <| [
+ |> "diyUf" <| [
 
     -- ;; diyuwf_1
     -- dywf    diyuwf  Nprop   Diouf
 
     Identity                  `noun`    {- diyuwf -}           [ "Diouf" ] ]
 
- |> "diyuwkAnuwfiyt^s" <| [
+ |> "diyUkAnUfIt^s" <| [
 
     -- ;; diyuwkAnuwfiyt$_1
     -- dywkAnwfyt$     diyuwkAnuwfiyt$ Nprop   Djukanovic
 
     Identity                  `noun`    {- diyuwkAnuwfiyt$ -}  [ "Djukanovic" ] ]
 
- |> "diyuwrdiyyifiyt^s" <| [
+ |> "diyUrdIyifIt^s" <| [
 
     -- ;; diyuwrodiyyifiyt$_1
     -- dywrdyyfyt$     diyuwrodiyyifiyt$       Nprop   Djordjevic
 
     Identity                  `noun`    {- diyuwrodiyyifiyt$ -} [ "Djordjevic" ] ]
 
- |> "diyziyriyh" <| [
+ |> "drIks" <| [
 
-    -- ;; diyziyriyh_1
-    -- dyzyryh diyziyriyh      Nprop   Desire
-    -- dyzyryh diyziyriyh      Nprop   Desiree
+    -- ;; driykos_1
+    -- dryks   driykos Nprop   Drixie
 
-    Identity                  `noun`    {- diyziyriyh -}       [ "Desire", "Desiree" ] ]
+    Identity                  `noun`    {- driykos -}          [ "Drixie" ] ]
 
- |> "diyzniy" <| [
+ |> "drIm" <| [
 
-    -- ;; diyzoniy_1
-    -- dyzny   diyzoniy        Nprop   Disney
+    -- ;; driym_1
+    -- drym    driym   N0      Dream
 
-    Identity                  `noun`    {- diyzoniy -}         [ "Disney" ] ]
+    Identity                  `noun`    {- driym -}            [ "Dream" ] ]
+
+ |> "drUrI" <| [
+
+    -- ;; druwriy_1
+    -- drwry   druwriy Nprop   Drury
+
+    Identity                  `noun`    {- druwriy -}          [ "Drury" ] ]
 
  |> "drisdin" <| [
 
@@ -9244,27 +9401,6 @@ lexicon = listing "Lexicon's properties"
     -- drsdn   drisodin        Nprop   Dresden
 
     Identity                  `noun`    {- drisodin -}         [ "Dresden" ] ]
-
- |> "driyks" <| [
-
-    -- ;; driykos_1
-    -- dryks   driykos Nprop   Drixie
-
-    Identity                  `noun`    {- driykos -}          [ "Drixie" ] ]
-
- |> "driym" <| [
-
-    -- ;; driym_1
-    -- drym    driym   N0      Dream
-
-    Identity                  `noun`    {- driym -}            [ "Dream" ] ]
-
- |> "druwriy" <| [
-
-    -- ;; druwriy_1
-    -- drwry   druwriy Nprop   Drury
-
-    Identity                  `noun`    {- druwriy -}          [ "Drury" ] ]
 
  |> "du^ganbir" <| [
 
@@ -9287,7 +9423,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- duk~Anojiy~ -}      [ "shopkeeper" ] ]
 
- |> "duktuwrY" <| [
+ |> "duktUrY" <| [
 
     -- ;; dukotuwrAp_1
     -- dktwrA  dukotuwrA       Napdu   doctorate
@@ -9301,13 +9437,6 @@ lexicon = listing "Lexicon's properties"
     -- dmAnjy  dumAnojiy~      Nall    helmsman;steersman     [[dumAnojiy~/ADJ]]
 
     Identity |< Iy            `adj`     {- dumAnojiy~ -}       [ "helmsman", "steersman" ] ]
-
- |> "dumyA.tiyy" <| [
-
-    -- ;; dumoyATiy~_1
-    -- dmyATy  dumoyATiy~      Nall    from/of Damietta     [[dumoyATiy~/ADJ]]
-
-    Identity                  `adj`     {- dumoyATiy~ -}       [ "from/of Damietta" ] ]
 
  |> "dunqulah" <| [
 
@@ -9324,7 +9453,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< At            `noun`    {- durayohimAt -}      [ "pennies" ] ]
 
- |> "dusilduwrf" <| [
+ |> "dusildUrf" <| [
 
     -- ;; dusiloduwrf_1
     -- dsldwrf dusiloduwrf     N0      Dusseldorf
@@ -9332,19 +9461,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dusiloduwrf -}      [ "Dusseldorf" ] ]
 
- |> "duw.glAs" <| [
+ |> "duwItU" <| [
 
-    -- ;; duwgolAs_1
-    -- dwglAs  duwgolAs        Nprop   Douglas
+    -- ;; duwiytuw_1
+    -- dwytw   duwiytuw        N0      duet;duetto
 
-    Identity                  `noun`    {- duwgolAs -}         [ "Douglas" ] ]
-
- |> "duw^siyfAr" <| [
-
-    -- ;; duw$iyfAr_1
-    -- dw$yfAr duw$iyfAr       Nprop   Doshifar ??
-
-    Identity                  `noun`    {- duw$iyfAr -}        [ "Doshifar ??" ] ]
+    Identity                  `noun`    {- duwiytuw -}         [ "duet", "duetto" ] ]
 
  |> "duwaybib" <| [
 
@@ -9352,125 +9474,6 @@ lexicon = listing "Lexicon's properties"
     -- dwybb   duwayobib       Nap     small animal;insect
 
     Identity |< aT            `noun`    {- duwayobibap -}      [ "small animal", "insect" ] ]
-
- |> "duwblA^g" <| [
-
-    -- ;; duwblAj_1
-    -- dwblAj  duwblAj N       dubbing
-
-    Identity                  `noun`    {- duwblAj -}          [ "dubbing" ] ]
-
- |> "duwbliyr" <| [
-
-    -- ;; duwbliyr_1
-    -- dwblyr  duwbliyr        N/ap    double;substitute
-
-    Identity                  `noun`    {- duwbliyr -}         [ "double", "substitute" ] ]
-
- |> "duwfdiyfAn" <| [
-
-    -- ;; duwfodiyfAn_1
-    -- dwfdyfAn        duwfodiyfAn     Nprop   Dov Devan
-
-    Identity                  `noun`    {- duwfodiyfAn -}      [ "Dov Devan" ] ]
-
- |> "duwhAldiy" <| [
-
-    -- ;; duwhAlodiy_1
-    -- dwhAldy duwhAlodiy      N0      Duhalde
-
-    Identity                  `noun`    {- duwhAlodiy -}       [ "Duhalde" ] ]
-
- |> "duwiytuw" <| [
-
-    -- ;; duwiytuw_1
-    -- dwytw   duwiytuw        N0      duet;duetto
-
-    Identity                  `noun`    {- duwiytuw -}         [ "duet", "duetto" ] ]
-
- |> "duwkuwmuw" <| [
-
-    -- ;; duwkuwmuw_1
-    -- dwkwmw  duwkuwmuw       Nprop   DOCOMO
-
-    Identity                  `noun`    {- duwkuwmuw -}        [ "DOCOMO" ] ]
-
- |> "duwmA" <| [
-
-    -- ;; duwmA_1
-    -- dwmA    duwmA   N0      Duma
-
-    Identity                  `noun`    {- duwmA -}            [ "Duma" ] ]
-
- |> "duwmAn^g" <| [
-
-    -- ;; duwmAnojiy~_1
-    -- dwmAnjy duwmAnojiy~     Nall    helmsman;steersman     [[duwmAnojiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- duwmAnojiy~ -}      [ "helmsman", "steersman" ] ]
-
- |> "duwmariy" <| [
-
-    -- ;; lAduwmariy_1
-    -- lAdwmry lAduwmariy      N0_L    nobody;no one
-
-    lA >| Identity            `noun`    {- lAduwmariy -}       [ "nobody", "no one" ] ]
-
- |> "duwmiyniyk" <| [
-
-    -- ;; duwmiyniyk_1
-    -- dwmynyk duwmiyniyk      Nprop   Dominik
-
-    Identity                  `noun`    {- duwmiyniyk -}       [ "Dominik" ],
-
-    -- ;; duwmiyniyk_2
-    -- dwmynyk duwmiyniyk      Nprop   Dominique
-
-    Identity                  `noun`    {- duwmiyniyk -}       [ "Dominique" ] ]
-
- |> "duwnAld" <| [
-
-    -- ;; duwnAld_1
-    -- dwnAld  duwnAld N0      Donald
-
-    Identity                  `noun`    {- duwnAld -}          [ "Donald" ] ]
-
- |> "duwrtmuwnd" <| [
-
-    -- ;; duwrotmuwnod_1
-    -- dwrtmwnd        duwrotmuwnod    Nprop   Dortmund
-
-    Identity                  `noun`    {- duwrotmuwnod -}     [ "Dortmund" ] ]
-
- |> "duwsin.tAriyA" <| [
-
-    -- ;; duwsinoTAriyA_1
-    -- dwsnTAryA       duwsinoTAriyA   N0      dysentery
-    -- dwsntAryA       duwsinotAriyA   N0      dysentery
-
-    Identity                  `noun`    {- duwsinoTAriyA -}    [ "dysentery" ] ]
-
- |> "duwsiyih" <| [
-
-    -- ;; duwsiyih_1
-    -- dwsyh   duwsiyih        NduAt   dossier;file
-    -- dwsyyh  duwsoyiyh       NduAt   dossier;file
-
-    Identity                  `noun`    {- duwsiyih -}         [ "dossier", "file" ] ]
-
- |> "duwstum" <| [
-
-    -- ;; duwsotum_1
-    -- dwstm   duwsotum        Nprop   Dustum
-
-    Identity                  `noun`    {- duwsotum -}         [ "Dustum" ] ]
-
- |> "dw_hy" <| [
-
-    -- ;; dwxy_1
-    -- dwxy    duwxiy~ N0      Doukhi
-
-    Identity                  `noun`    {- dwxy -}             [ "Doukhi" ] ]
 
  |> "dwdAyf" <| [
 
@@ -9498,14 +9501,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- midrap -}           [ "punting pole" ] ]
 
- |> "tadmuriy" <| [
+ |> "tadmurI" <| [
 
     -- ;; lAtadomuriy_1
     -- lAtdmry lAtadomuriy     N0_L    nobody;no one
 
     lA >| Identity            `noun`    {- lAtadomuriy -}      [ "nobody", "no one" ] ]
 
- |> "yAduwb" <| [
+ |> "yAdUb" <| [
 
     -- ;; yAduwb_1
     -- yAdwb   yAduwb  FW-Wa   almost;barely     [[yAduwb/ADV]]

@@ -9,7 +9,7 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'i.hliyl" <| [
+ |> "'i.hlIl" <| [
 
     -- ;; <iHoliyl_1
     -- <Hlyl   <iHoliyl        N       urethra
@@ -24,42 +24,6 @@ lexicon = listing "Lexicon's properties"
     -- AHylY   >uHayolaY       FW      how sweet!     [[>uHayolaY/INTERJ]]
 
     Identity                  `noun`    {- OuHayolaY -}        [ "how sweet!" ] ]
-
- |> "'u.hbuwl" <| [
-
-    -- ;; >uHobuwlap_1
-    -- >Hbwl   >uHobuwl        Napdu   snare;trick
-    -- AHbwl   >uHobuwl        Napdu   snare;trick
-    -- >HAbyl  >aHAbiyl        Ndip    snares;tricks
-    -- AHAbyl  >aHAbiyl        Ndip    snares;tricks
-
-    Identity |< aT            `noun`    {- OuHobuwlap -}       [ "snare", "trick" ] ]
-
- |> "'u.hduw_t" <| [
-
-    -- ;; >uHoduwvap_1
-    -- >Hdwv   >uHoduwv        Napdu   chat;chatter
-    -- AHdwv   >uHoduwv        Napdu   chat;chatter
-
-    Identity |< aT            `noun`    {- OuHoduwvap -}       [ "chat", "chatter" ] ]
-
- |> "'u.hduww" <| [
-
-    -- ;; >uHoduw~ap_1
-    -- >Hdw    >uHoduw~        Napdu   singsong;chant
-    -- AHdw    >uHoduw~        Napdu   singsong;chant
-
-    Identity |< aT            `noun`    {- OuHoduw~ap -}       [ "singsong", "chant" ] ]
-
- |> "'u.hfuwr" <| [
-
-    -- ;; >uHofuwr_1
-    -- >Hfwr   >uHofuwr        Ndu     fossil;excavation
-    -- AHfwr   >uHofuwr        Ndu     fossil;excavation
-    -- >HAfyr  >aHAfiyr        Ndip    fossils;excavations
-    -- AHAfyr  >aHAfiyr        Ndip    fossils;excavations
-
-    Identity                  `noun`    {- OuHofuwr -}         [ "fossil", "excavation" ] ]
 
  |> ".h  '" <| [
 
@@ -2023,6 +1987,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCCAL |< aT              `noun`    {- Huj~Ayap -}         [ "riddle", "puzzle" ]
                               `plural`     HaFACI
+                              `plural`     HuFCIL |< aT
                            {- `others`  [ "'a.hA^giy N0_Nh" ] -} ]
 
  |> ".h ^g z" <| [
@@ -3421,6 +3386,16 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCALY
                            {- `others`  [ ".habAlY N0" ] -},
 
+    -- ;; >uHobuwlap_1
+    -- >Hbwl   >uHobuwl        Napdu   snare;trick
+    -- AHbwl   >uHobuwl        Napdu   snare;trick
+    -- >HAbyl  >aHAbiyl        Ndip    snares;tricks
+    -- AHAbyl  >aHAbiyl        Ndip    snares;tricks
+
+    HuFCUL |< aT              `noun`    {- OuHobuwlap -}       [ "snare", "trick" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a.hAbiyl Ndip" ] -},
+
     -- ;; HibAlap_1
     -- HbAl    HibAl   Napdu   snare;net
     -- HbA}l   HabA}il Ndip    snares;nets
@@ -3888,6 +3863,12 @@ lexicon = listing "Lexicon's properties"
     -- HdvAn   HidovAn N       misfortunes;adversities
 
     FiCLAn                    `noun`    {- HidovAn -}          [ "misfortunes", "adversities" ],
+
+    -- ;; >uHoduwvap_1
+    -- >Hdwv   >uHoduwv        Napdu   chat;chatter
+    -- AHdwv   >uHoduwv        Napdu   chat;chatter
+
+    HuFCUL |< aT              `noun`    {- OuHoduwvap -}       [ "chat", "chatter" ],
 
     -- ;; taHodiyv_1
     -- tHdyv   taHodiyv        NduAt   updating;renewing
@@ -4464,6 +4445,12 @@ lexicon = listing "Lexicon's properties"
 
     FuCA'                     `noun`    {- HudA' -}            [ "chanting" ],
 
+    -- ;; >uHoduw~ap_1
+    -- >Hdw    >uHoduw~        Napdu   singsong;chant
+    -- AHdw    >uHoduw~        Napdu   singsong;chant
+
+    HuFCUL |< aT              `noun`    {- OuHoduw~ap -}       [ "singsong", "chant" ],
+
     -- ;; taHad~iy_1
     -- tHdy    taHad~iy        N0_Nh   challenge
     -- tHd     taHad~  NK      challenge
@@ -4984,6 +4971,16 @@ lexicon = listing "Lexicon's properties"
     -- HfA}r   HafA}ir Ndip    excavations
 
     FaCIL |< aT               `noun`    {- Hafiyrap -}         [ "excavation" ],
+
+    -- ;; >uHofuwr_1
+    -- >Hfwr   >uHofuwr        Ndu     fossil;excavation
+    -- AHfwr   >uHofuwr        Ndu     fossil;excavation
+    -- >HAfyr  >aHAfiyr        Ndip    fossils;excavations
+    -- AHAfyr  >aHAfiyr        Ndip    fossils;excavations
+
+    HuFCUL                    `noun`    {- OuHofuwr -}         [ "fossil", "excavation" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a.hAfiyr Ndip" ] -},
 
     -- ;; miHofar_1
     -- mHfr    miHofar Ndu     spade
@@ -6950,6 +6947,11 @@ lexicon = listing "Lexicon's properties"
     -- HmAdp   HamAdap Nprop   Hamada
 
     FaCAL |< aT               `noun`    {- HamAdap -}          [ "Hamada" ],
+
+    -- ;; HamAdiy_1
+    -- HmAdy   HamAdiy N0      Hamadi
+
+    FaCALI                    `noun`    {- HamAdiy -}          [ "Hamadi" ],
 
     -- ;; maHomadap_1
     -- mHmd    maHomad Nap     commendable act
@@ -13900,12 +13902,33 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `conj`    {- HAlamA -}           [ "as soon as" ] ]
 
- |> ".hAyiym" <| [
+ |> ".hAyIm" <| [
 
     -- ;; HAyiym_1
     -- HAyym   HAyiym  Nprop   Haim;Chaim
 
     Identity                  `noun`    {- HAyiym -}           [ "Haim", "Chaim" ] ]
+
+ |> ".hIna'i_diN" <| [
+
+    -- ;; Hiyna}i*K_1
+    -- Hyn}*   Hiyna}i*K       FW-Wa   then;at the time     [[Hiyna}i*K/ADV]]
+
+    Identity                  `adv`     {- Hiyna}i*K -}        [ "then", "at the time" ] ]
+
+ |> ".hIna_dAk" <| [
+
+    -- ;; Hiyna*Ak_1
+    -- Hyn*Ak  Hiyna*Ak        FW-Wa   then;at the time     [[Hiyna*Ak/ADV]]
+
+    Identity                  `adv`     {- Hiyna*Ak -}         [ "then", "at the time" ] ]
+
+ |> ".hInamA" <| [
+
+    -- ;; HiynamA_1
+    -- HynmA   HiynamA FW-Wa   when;while     [[HiynamA/CONJ]]
+
+    Identity                  `conj`    {- HiynamA -}          [ "when", "while" ] ]
 
  |> ".ha.dramawt" <| [
 
@@ -13921,7 +13944,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- HaSAlubAn -}        [ "rosemary" ] ]
 
- |> ".habaquwq" <| [
+ |> ".habaqUq" <| [
 
     -- ;; Habaquwq_1
     -- Hbqwq   Habaquwq        Ndip    Habbakuk
@@ -13942,7 +13965,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Hab~ahAn -}         [ "cardamom" ] ]
 
- |> ".hakiymbA^siy" <| [
+ |> ".hakImbA^sI" <| [
 
     -- ;; HakiymobA$iy_1
     -- HkymbA$y        HakiymobA$iy    N0      senior physician;chief surgeon
@@ -13963,7 +13986,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- Halanojiy~ -}       [ "swindler", "cheat" ] ]
 
- |> ".halazuwn" <| [
+ |> ".halazUn" <| [
 
     -- ;; Halazuwn_1
     -- Hlzwn   Halazuwn        N       snail;spiral
@@ -13976,12 +13999,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- Halazuwniy~ -}      [ "spiral", "winding" ] ]
 
- |> ".hamAdy" <| [
+ |> ".hamIdI" <| [
 
-    -- ;; HamAdy_1
-    -- HmAdy   HamAdiy N0      Hamadi
+    -- ;; Hamiydiy_1
+    -- Hmydy   Hamiydiy        N0      Hameedi;Hamidi
 
-    Identity                  `noun`    {- HamAdy -}           [ "Hamadi" ] ]
+    Identity                  `noun`    {- Hamiydiy -}         [ "Hameedi", "Hamidi" ] ]
 
  |> ".hamdayn" <| [
 
@@ -13990,12 +14013,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Hamodayon -}        [ "Hamdein", "Hamdeen", "Hamdain" ] ]
 
- |> ".hamiydiy" <| [
+ |> ".hammAdI" <| [
 
-    -- ;; Hamiydiy_1
-    -- Hmydy   Hamiydiy        N0      Hameedi;Hamidi
+    -- ;; Ham~Adiy_1
+    -- HmAdy   Ham~Adiy        N0      Hammadi
 
-    Identity                  `noun`    {- Hamiydiy -}         [ "Hameedi", "Hamidi" ] ]
+    Identity                  `noun`    {- Ham~Adiy -}         [ "Hammadi" ] ]
 
  |> ".hammAdT" <| [
 
@@ -14003,13 +14026,6 @@ lexicon = listing "Lexicon's properties"
     -- HmAdp   Ham~Adap        Nprop   Hammada
 
     Identity                  `noun`    {- Ham~Adp -}          [ "Hammada" ] ]
-
- |> ".hammAdy" <| [
-
-    -- ;; Ham~Ady_1
-    -- HmAdy   Ham~Adiy        N0      Hammadi
-
-    Identity                  `noun`    {- Ham~Ady -}          [ "Hammadi" ] ]
 
  |> ".hanAnay-" <| [
 
@@ -14022,7 +14038,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `pron`    {- HanAnay- -}         [ "mercy! + you [masc.sg.]", "mercy! + you [fem.sg.]", "mercy! + you both", "mercy! + you [masc.pl.]", "mercy! + you [fem.pl.]" ] ]
 
- |> ".handaquwq" <| [
+ |> ".handaqUq" <| [
 
     -- ;; Hanodaquwq_1
     -- Hndqwq  Hanodaquwq      N       melilot;sweet clover
@@ -14082,7 +14098,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- HayofA -}           [ "Haifa" ] ]
 
- |> ".haziyrAn" <| [
+ |> ".hazIrAn" <| [
 
     -- ;; HaziyrAn_1
     -- HzyrAn  HaziyrAn        Ndip    June
@@ -14134,27 +14150,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Hiro*awon -}        [ "lizard" ] ]
 
- |> ".hiyna'i_diN" <| [
-
-    -- ;; Hiyna}i*K_1
-    -- Hyn}*   Hiyna}i*K       FW-Wa   then;at the time     [[Hiyna}i*K/ADV]]
-
-    Identity                  `adv`     {- Hiyna}i*K -}        [ "then", "at the time" ] ]
-
- |> ".hiyna_dAk" <| [
-
-    -- ;; Hiyna*Ak_1
-    -- Hyn*Ak  Hiyna*Ak        FW-Wa   then;at the time     [[Hiyna*Ak/ADV]]
-
-    Identity                  `adv`     {- Hiyna*Ak -}         [ "then", "at the time" ] ]
-
- |> ".hiynamA" <| [
-
-    -- ;; HiynamA_1
-    -- HynmA   HiynamA FW-Wa   when;while     [[HiynamA/CONJ]]
-
-    Identity                  `conj`    {- HiynamA -}          [ "when", "while" ] ]
-
  |> ".hu^gaylAn" <| [
 
     -- ;; HujayolAn_1
@@ -14169,7 +14164,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- HubAHib -}          [ "firefly", "glowworm" ] ]
 
- |> ".humaydiy" <| [
+ |> ".humaydI" <| [
 
     -- ;; Humayodiy_1
     -- Hmydy   Humayodiy       N0      Humaidi
@@ -14238,7 +14233,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- taHonAn -}          [ "compassion", "affection" ] ]
 
- |> "ya.hmuwr" <| [
+ |> "ya.hmUr" <| [
 
     -- ;; yaHomuwr_1
     -- yHmwr   yaHomuwr        N       deer;hemoglobin

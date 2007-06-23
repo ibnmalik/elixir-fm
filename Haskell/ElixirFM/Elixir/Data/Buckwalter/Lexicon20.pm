@@ -6,14 +6,14 @@ package Elixir::Data::Buckwalter::Lexicon20;
 
 
 $Lexicon = {
-  'firnAnduw' => [
+  'fIdAkUfIt^s' => [
     {
       'types' => {},
-      'entry' => 'firnAnduw',
-      'form' => 'firnAnduw',
+      'entry' => 'fiydAkuwfiyt^s',
+      'form' => 'fiydAkuwfiyt^s',
       'lines' => [
-        ';; fironAnoduw_1',
-        'frnAndw fironAnoduw     Nprop   Fernando'
+        ';; fiydAkuwfiyt$_1',
+        'fydAkwfyt$      fiydAkuwfiyt$   N0      Vedakovic'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21,20 +21,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Fernando'
+        'Vedakovic'
       ],
-      'orig' => 'fironAnoduw',
+      'orig' => 'fiydAkuwfiyt$',
       'prefix' => ''
     }
   ],
-  'fiy_tA.guwras' => [
+  'filUr' => [
     {
       'types' => {},
-      'entry' => 'fiy_tA.guwras',
-      'form' => 'fiy_tA.guwras',
+      'entry' => 'filuwr',
+      'form' => 'filuwr',
       'lines' => [
-        ';; fiyvAguwras_1',
-        'fyvAgwrs        fiyvAguwras     N0      Pythagoras'
+        ';; filuwr_1',
+        'flwr    filuwr  N0      fluorine'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42,51 +42,28 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Pythagoras'
+        'fluorine'
       ],
-      'orig' => 'fiyvAguwras',
+      'orig' => 'filuwr',
       'prefix' => ''
-    }
-  ],
-  'fiyrnir' => [
+    },
     {
       'types' => {},
-      'entry' => 'fiyrnir',
-      'form' => 'fiyrnir',
+      'entry' => 'filuwr',
+      'form' => 'filuwriyy',
       'lines' => [
-        ';; fiyronir_1',
-        'fyrnr   fiyronir        Nprop   Werner'
+        ';; filuwriy~_1',
+        'flwry   filuwriy~       N-ap    fluorescent     [[filuwriy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'Werner'
+        'fluorescent'
       ],
-      'orig' => 'fiyronir',
-      'prefix' => ''
-    }
-  ],
-  'fAtiykAn' => [
-    {
-      'types' => {},
-      'entry' => 'fAtiykAn',
-      'form' => 'fAtiykAn',
-      'lines' => [
-        ';; fAtiykAn_1',
-        'fAtykAn fAtiykAn        N0      Vatican'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Vatican'
-      ],
-      'orig' => 'fAtiykAn',
+      'orig' => 'filuwriy~',
       'prefix' => ''
     }
   ],
@@ -108,53 +85,6 @@ $Lexicon = {
         'Willy'
       ],
       'orig' => 'fiyliy',
-      'prefix' => ''
-    }
-  ],
-  'fiyktuwr' => [
-    {
-      'types' => {
-        'fiktuwr' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'fiyktuwr',
-      'form' => 'fiyktuwr',
-      'lines' => [
-        ';; fiykotuwr_1',
-        'fyktwr  fiykotuwr       Nprop   Victor;Viktor',
-        'fktwr   fikotuwr        Nprop   Victor;Viktor'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Victor',
-        'Viktor'
-      ],
-      'orig' => 'fiykotuwr',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'fiyktuwr',
-      'form' => 'fiyktuwriyy',
-      'lines' => [
-        ';; fiykotuwriy~_1',
-        'fyktwry fiykotuwriy~    Nall    Victorian     [[fiykotuwriy~/NOUN]]',
-        'fyktwry fiykotuwriy~    Nall    Victorian     [[fiykotuwriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Victorian'
-      ],
-      'orig' => 'fiykotuwriy~',
       'prefix' => ''
     }
   ],
@@ -226,6 +156,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fa_hrAldIn' => [
+    {
+      'types' => {},
+      'entry' => 'fa_hrAldiyn',
+      'form' => 'fa_hrAldiyn',
+      'lines' => [
+        ';; faxorAldiyn_1',
+        'fxrAldyn        faxorAldiyn     N0      Fakhr Eddin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Fakhr Eddin'
+      ],
+      'orig' => 'faxorAldiyn',
+      'prefix' => ''
+    }
+  ],
   'f w l' => [
     {
       'types' => {
@@ -273,27 +224,6 @@ $Lexicon = {
         'beans vendor'
       ],
       'orig' => 'faw~Al',
-      'prefix' => ''
-    }
-  ],
-  'fiykuwfiyt^s' => [
-    {
-      'types' => {},
-      'entry' => 'fiykuwfiyt^s',
-      'form' => 'fiykuwfiyt^s',
-      'lines' => [
-        ';; fiykuwfiyt$_1',
-        'fykwfyt$        fiykuwfiyt$     Nprop   Vickovic'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Vickovic'
-      ],
-      'orig' => 'fiykuwfiyt$',
       'prefix' => ''
     }
   ],
@@ -531,14 +461,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fuwrmuwlA' => [
+  'flAdI' => [
     {
       'types' => {},
-      'entry' => 'fuwrmuwlA',
-      'form' => 'fuwrmuwlA',
+      'entry' => 'flAdiy',
+      'form' => 'flAdiy',
       'lines' => [
-        ';; fuwromuwlA_1',
-        'fwrmwlA fuwromuwlA      N0      Formula'
+        ';; flAdiy_1',
+        'flAdy   flAdiy  Nprop   Vladi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -546,9 +476,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Formula'
+        'Vladi'
       ],
-      'orig' => 'fuwromuwlA',
+      'orig' => 'flAdiy',
       'prefix' => ''
     }
   ],
@@ -861,14 +791,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fluwrisint' => [
+  'fiyUmIt^sInU' => [
     {
-      'types' => {},
-      'entry' => 'fluwrisint',
-      'form' => 'fluwrisint',
+      'types' => {
+        'fiyuwmiy^siynuw' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'fiyuwmiyt^siynuw',
+      'form' => 'fiyuwmiyt^siynuw',
       'lines' => [
-        ';; fluwrisint_1',
-        'flwrsnt fluwrisint      N0      fluorescent'
+        ';; fiyuwmiyt$iynuw_1',
+        'fywmyt$ynw      fiyuwmiyt$iynuw N0      Fiumicino',
+        'fywmy$ynw       fiyuwmiy$iynuw  N0      Fiumicino'
       ],
       'patterns' => {},
       'index' => '1',
@@ -876,9 +811,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'fluorescent'
+        'Fiumicino'
       ],
-      'orig' => 'fluwrisint',
+      'orig' => 'fiyuwmiyt$iynuw',
       'prefix' => ''
     }
   ],
@@ -1060,6 +995,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fAwstU' => [
+    {
+      'types' => {},
+      'entry' => 'fAwstuw',
+      'form' => 'fAwstuw',
+      'lines' => [
+        ';; fAwstuw_1',
+        'fAwstw  fAwstuw N0      Fausto'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Fausto'
+      ],
+      'orig' => 'fAwstuw',
+      'prefix' => ''
+    }
+  ],
   'f w w' => [
     {
       'types' => {},
@@ -1100,27 +1056,6 @@ $Lexicon = {
         'Fuji'
       ],
       'orig' => 'fuwjiy',
-      'prefix' => ''
-    }
-  ],
-  'fuwks' => [
-    {
-      'types' => {},
-      'entry' => 'fuwks',
-      'form' => 'fuwks',
-      'lines' => [
-        ';; fuwkos_1',
-        'fwks    fuwkos  Nprop   Fox'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Fox'
-      ],
-      'orig' => 'fuwkos',
       'prefix' => ''
     }
   ],
@@ -1262,33 +1197,6 @@ $Lexicon = {
         'unsuccessful'
       ],
       'orig' => 'fA$il',
-      'prefix' => ''
-    }
-  ],
-  'fAniysA' => [
-    {
-      'types' => {
-        'fAniyk' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'fAniysA',
-      'form' => 'fAniysA',
-      'lines' => [
-        ';; fAniysA_1',
-        'fAnysA  fAniysA Nprop   Vanessa',
-        'fAnyk   fAniyk  Nprop   Vanek'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Vanessa',
-        'Vanek'
-      ],
-      'orig' => 'fAniysA',
       'prefix' => ''
     }
   ],
@@ -1547,33 +1455,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiytAmiyn' => [
-    {
-      'types' => {
-        'fiytAmiyn' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'fiytAmiyn',
-      'form' => 'fiytAmiyn',
-      'lines' => [
-        ';; fiytAmiyn_1',
-        'fytAmyn fiytAmiyn       Ndu     vitamin',
-        'fytAmyn fiytAmiyn       NAt     vitamins'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'vitamin',
-        'vitamins'
-      ],
-      'orig' => 'fiytAmiyn',
-      'prefix' => ''
-    }
-  ],
   'f s q y' => [
     {
       'types' => {
@@ -1745,6 +1626,27 @@ $Lexicon = {
         'Europeanized'
       ],
       'orig' => 'mutafaronij',
+      'prefix' => ''
+    }
+  ],
+  'fInIqiyA' => [
+    {
+      'types' => {},
+      'entry' => 'fiyniyqiyA',
+      'form' => 'fiyniyqiyA',
+      'lines' => [
+        ';; fiyniyqiyA_1',
+        'fynyqyA fiyniyqiyA      N0      Phoenicia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Phoenicia'
+      ],
+      'orig' => 'fiyniyqiyA',
       'prefix' => ''
     }
   ],
@@ -2091,6 +1993,27 @@ $Lexicon = {
         'Weiss'
       ],
       'orig' => 'fAys',
+      'prefix' => ''
+    }
+  ],
+  'fIrink' => [
+    {
+      'types' => {},
+      'entry' => 'fiyrink',
+      'form' => 'fiyrink',
+      'lines' => [
+        ';; fiyrinok_1',
+        'fyrnk   fiyrinok        Nprop   Ferenc'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Ferenc'
+      ],
+      'orig' => 'fiyrinok',
       'prefix' => ''
     }
   ],
@@ -2547,6 +2470,27 @@ $Lexicon = {
         'buckle'
       ],
       'orig' => 'furotiykap',
+      'prefix' => ''
+    }
+  ],
+  'fI_tA.gUras' => [
+    {
+      'types' => {},
+      'entry' => 'fiy_tA.guwras',
+      'form' => 'fiy_tA.guwras',
+      'lines' => [
+        ';; fiyvAguwras_1',
+        'fyvAgwrs        fiyvAguwras     N0      Pythagoras'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Pythagoras'
+      ],
+      'orig' => 'fiyvAguwras',
       'prefix' => ''
     }
   ],
@@ -3181,14 +3125,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fAskiyz' => [
+  'fa.sUliyA' => [
     {
-      'types' => {},
-      'entry' => 'fAskiyz',
-      'form' => 'fAskiyz',
+      'types' => {
+        'fa.suwliyah' => {
+          'N0' => 1
+        },
+        'fA.suwliy' => {
+          'Nap' => 1
+        },
+        'fA.suwliyA' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'fa.suwliyA',
+      'form' => 'fa.suwliyA',
       'lines' => [
-        ';; fAsokiyz_1',
-        'fAskyz  fAsokiyz        Nprop   Vasquez'
+        ';; faSuwliyA_1',
+        'fSwlyA  faSuwliyA       N0      beans',
+        'fSwlyh  faSuwliyah      N0      beans',
+        'fASwlyA fASuwliyA       N0      beans',
+        'fASwly  fASuwliy        Nap     beans'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3196,9 +3153,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Vasquez'
+        'beans'
       ],
-      'orig' => 'fAsokiyz',
+      'orig' => 'faSuwliyA',
+      'prefix' => ''
+    }
+  ],
+  'firdawsI' => [
+    {
+      'types' => {},
+      'entry' => 'firdawsiy',
+      'form' => 'firdawsiy',
+      'lines' => [
+        ';; firodawosiy_1',
+        'frdwsy  firodawosiy     N0      Ferdosi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Ferdosi'
+      ],
+      'orig' => 'firodawosiy',
       'prefix' => ''
     }
   ],
@@ -3234,27 +3212,6 @@ $Lexicon = {
       'suffix' => ' |< Iy',
       'glosses' => [],
       'orig' => 'fiylAliy~',
-      'prefix' => ''
-    }
-  ],
-  'flA^siyn.g' => [
-    {
-      'types' => {},
-      'entry' => 'flA^siyn.g',
-      'form' => 'flA^siyn.g',
-      'lines' => [
-        ';; flA$iyng_1',
-        'flA$yng flA$iyng        N0      Flashing'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Flashing'
-      ],
-      'orig' => 'flA$iyng',
       'prefix' => ''
     }
   ],
@@ -4017,6 +3974,57 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fasUliyA' => [
+    {
+      'types' => {
+        'fasuwliyah' => {
+          'N0' => 1
+        },
+        'fasuwliy' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'fasuwliyA',
+      'form' => 'fasuwliyA',
+      'lines' => [
+        ';; fasuwliyA_1',
+        'fswlyA  fasuwliyA       N0      beans',
+        'fswlyh  fasuwliyah      N0      beans',
+        'fswly   fasuwliy        Nap     beans'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'beans'
+      ],
+      'orig' => 'fasuwliyA',
+      'prefix' => ''
+    }
+  ],
+  'flA^sIn.g' => [
+    {
+      'types' => {},
+      'entry' => 'flA^siyn.g',
+      'form' => 'flA^siyn.g',
+      'lines' => [
+        ';; flA$iyng_1',
+        'flA$yng flA$iyng        N0      Flashing'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Flashing'
+      ],
+      'orig' => 'flA$iyng',
+      'prefix' => ''
+    }
+  ],
   'fAsiyA\'' => [
     {
       'types' => {
@@ -4042,6 +4050,28 @@ $Lexicon = {
         'dung beetles'
       ],
       'orig' => 'fAsiyA\'',
+      'prefix' => ''
+    }
+  ],
+  'finIq' => [
+    {
+      'types' => {},
+      'entry' => 'finiyq',
+      'form' => 'finiyqiyy',
+      'lines' => [
+        ';; finiyqiy~_1',
+        'fnyqy   finiyqiy~       Nall    Phoenician     [[finiyqiy~/NOUN]]',
+        'fnyqy   finiyqiy~       Nall    Phoenician     [[finiyqiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Phoenician'
+      ],
+      'orig' => 'finiyqiy~',
       'prefix' => ''
     }
   ],
@@ -4353,27 +4383,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fuwr^s' => [
-    {
-      'types' => {},
-      'entry' => 'fuwr^s',
-      'form' => 'fuwr^saT',
-      'lines' => [
-        ';; fuwr$ap_1',
-        'fwr$    fuwr$   NapAt   brush'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'brush'
-      ],
-      'orig' => 'fuwr$ap',
-      'prefix' => ''
-    }
-  ],
   'f l `' => [
     {
       'types' => {
@@ -4648,56 +4657,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiyzyuwluw^giyy' => [
-    {
-      'types' => {
-        'fiysyuwluw^giyy' => {
-          'N-ap' => 1
-        }
-      },
-      'entry' => 'fiyzyuwluw^giyy',
-      'form' => 'fiyzyuwluw^giyy',
-      'lines' => [
-        ';; fiyzyuwluwjiy~_1',
-        'fyzywlwjy       fiyzyuwluwjiy~  N-ap    physiological     [[fiyzyuwluwjiy~/ADJ]]',
-        'fysywlwjy       fiysyuwluwjiy~  N-ap    physiological     [[fiysyuwluwjiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'physiological'
-      ],
-      'orig' => 'fiyzyuwluwjiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'fiysyuwluw^giyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'fiyzyuwluw^giyy',
-      'form' => 'fiyzyuwluw^giyy',
-      'lines' => [
-        ';; fiyzyuwluwjiy~_2',
-        'fyzywlwjy       fiyzyuwluwjiy~  Nall    physiologist     [[fiyzyuwluwjiy~/ADJ]]',
-        'fysywlwjy       fiysyuwluwjiy~  Nall    physiologist     [[fiysyuwluwjiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'physiologist'
-      ],
-      'orig' => 'fiyzyuwluwjiy~',
-      'prefix' => ''
-    }
-  ],
   'f s t n' => [
     {
       'types' => {
@@ -4830,61 +4789,6 @@ $Lexicon = {
         'sprain'
       ],
       'orig' => 'fako$',
-      'prefix' => ''
-    }
-  ],
-  'fa.suwliyA' => [
-    {
-      'types' => {
-        'fa.suwliyah' => {
-          'N0' => 1
-        },
-        'fA.suwliy' => {
-          'Nap' => 1
-        },
-        'fA.suwliyA' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'fa.suwliyA',
-      'form' => 'fa.suwliyA',
-      'lines' => [
-        ';; faSuwliyA_1',
-        'fSwlyA  faSuwliyA       N0      beans',
-        'fSwlyh  faSuwliyah      N0      beans',
-        'fASwlyA fASuwliyA       N0      beans',
-        'fASwly  fASuwliy        Nap     beans'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'beans'
-      ],
-      'orig' => 'faSuwliyA',
-      'prefix' => ''
-    }
-  ],
-  'fiyrdir' => [
-    {
-      'types' => {},
-      'entry' => 'fiyrdir',
-      'form' => 'fiyrdir',
-      'lines' => [
-        ';; fiyrodir_1',
-        'fyrdr   fiyrodir        Nprop   Pferder'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Pferder'
-      ],
-      'orig' => 'fiyrodir',
       'prefix' => ''
     }
   ],
@@ -5395,110 +5299,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fAbriyk' => [
-    {
-      'types' => {
-        'fAbriyq' => {
-          'NapAt' => 1
-        }
-      },
-      'entry' => 'fAbriyk',
-      'form' => 'fAbriykaT',
-      'lines' => [
-        ';; fAboriykap_1',
-        'fAbryk  fAboriyk        NapAt   factory',
-        'fAbryq  fAboriyq        NapAt   factory'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'factory'
-      ],
-      'orig' => 'fAboriykap',
-      'prefix' => ''
-    }
-  ],
-  'fiyllA' => [
-    {
-      'types' => {
-        'fillA' => {
-          'Nprop' => 1
-        },
-        'fyllA' => {
-          'Nprop' => 1
-        },
-        'fiyll' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'fiyllA',
-      'form' => 'fiyllA',
-      'lines' => [
-        ';; fiyl~A_1',
-        'fylA    fiyl~A  N0      villa',
-        'fyl     fiyl~   NAt     villas',
-        'fllA    filolA  Nprop   Villa',
-        'fyllA   fylolA  Nprop   Villa'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'villa',
-        'villas',
-        'Villa'
-      ],
-      'orig' => 'fiyl~A',
-      'prefix' => ''
-    }
-  ],
-  'fiyliybbiyn' => [
-    {
-      'types' => {
-        'filiybbiyn' => {
-          'N0' => 1
-        },
-        'fiylibbiyn' => {
-          'N0' => 1
-        },
-        'filibbiyn' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'fiyliybbiyn',
-      'form' => 'fiyliybbiyn',
-      'lines' => [
-        ';; fiyliyb~iyn_1',
-        'fylybyn fiyliyb~iyn     N0      Philippines',
-        'fylbyn  fiylib~iyn      N0      Philippines',
-        'flybyn  filiyb~iyn      N0      Philippines',
-        'flbyn   filib~iyn       N0      Philippines'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Philippines'
-      ],
-      'orig' => 'fiyliyb~iyn',
-      'prefix' => ''
-    }
-  ],
-  'fiyniyqiyA' => [
+  'fA^gbAyI' => [
     {
       'types' => {},
-      'entry' => 'fiyniyqiyA',
-      'form' => 'fiyniyqiyA',
+      'entry' => 'fA^gbAyiy',
+      'form' => 'fA^gbAyiy',
       'lines' => [
-        ';; fiyniyqiyA_1',
-        'fynyqyA fiyniyqiyA      N0      Phoenicia'
+        ';; fAjobAyiy_1',
+        'fAjbAyy fAjobAyiy       Nprop   Vajpayee'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5506,30 +5314,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Phoenicia'
+        'Vajpayee'
       ],
-      'orig' => 'fiyniyqiyA',
-      'prefix' => ''
-    }
-  ],
-  'farsuwfiyA' => [
-    {
-      'types' => {},
-      'entry' => 'farsuwfiyA',
-      'form' => 'farsuwfiyA',
-      'lines' => [
-        ';; farosuwfiyA_1',
-        'frswfyA farosuwfiyA     N0      Warsaw'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Warsaw'
-      ],
-      'orig' => 'farosuwfiyA',
+      'orig' => 'fAjobAyiy',
       'prefix' => ''
     }
   ],
@@ -5578,56 +5365,6 @@ $Lexicon = {
         'virus'
       ],
       'orig' => 'fayoruwsiy~',
-      'prefix' => ''
-    }
-  ],
-  'fuwsfuwr' => [
-    {
-      'types' => {
-        'fuw.sfuwr' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'fuwsfuwr',
-      'form' => 'fuwsfuwr',
-      'lines' => [
-        ';; fuwsofuwr_1',
-        'fwsfwr  fuwsofuwr       N       phosphorus',
-        'fwSfwr  fuwSofuwr       N       phosphorus'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'phosphorus'
-      ],
-      'orig' => 'fuwsofuwr',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'fuw.sfuwriyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'fuwsfuwr',
-      'form' => 'fuwsfuwriyy',
-      'lines' => [
-        ';; fuwsofuwriy~_1',
-        'fwsfwry fuwsofuwriy~    Nall    phosphorous     [[fuwsofuwriy~/ADJ]]',
-        'fwSfwry fuwSofuwriy~    Nall    phosphorous     [[fuwSofuwriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'phosphorous'
-      ],
-      'orig' => 'fuwsofuwriy~',
       'prefix' => ''
     }
   ],
@@ -5798,6 +5535,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fAtIkAn' => [
+    {
+      'types' => {},
+      'entry' => 'fAtiykAn',
+      'form' => 'fAtiykAn',
+      'lines' => [
+        ';; fAtiykAn_1',
+        'fAtykAn fAtiykAn        N0      Vatican'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Vatican'
+      ],
+      'orig' => 'fAtiykAn',
+      'prefix' => ''
+    }
+  ],
   'f _h t' => [
     {
       'types' => {
@@ -5869,6 +5627,27 @@ $Lexicon = {
         'piercing'
       ],
       'orig' => 'fAxit',
+      'prefix' => ''
+    }
+  ],
+  'fIlIbU' => [
+    {
+      'types' => {},
+      'entry' => 'fiyliybuw',
+      'form' => 'fiyliybuw',
+      'lines' => [
+        ';; fiyliybuw_1',
+        'fylybw  fiyliybuw       N0      Filippo'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Filippo'
+      ],
+      'orig' => 'fiyliybuw',
       'prefix' => ''
     }
   ],
@@ -5962,27 +5741,6 @@ $Lexicon = {
         'Versailles'
       ],
       'orig' => 'firosAy',
-      'prefix' => ''
-    }
-  ],
-  'fA^gbAyiy' => [
-    {
-      'types' => {},
-      'entry' => 'fA^gbAyiy',
-      'form' => 'fA^gbAyiy',
-      'lines' => [
-        ';; fAjobAyiy_1',
-        'fAjbAyy fAjobAyiy       Nprop   Vajpayee'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Vajpayee'
-      ],
-      'orig' => 'fAjobAyiy',
       'prefix' => ''
     }
   ],
@@ -6200,27 +5958,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fuwnuwluw^giyA' => [
-    {
-      'types' => {},
-      'entry' => 'fuwnuwluw^giyA',
-      'form' => 'fuwnuwluw^giyA',
-      'lines' => [
-        ';; fuwnuwluwjiyA_1',
-        'fwnwlwjyA       fuwnuwluwjiyA   N0      phonology'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'phonology'
-      ],
-      'orig' => 'fuwnuwluwjiyA',
-      'prefix' => ''
-    }
-  ],
   '\'uf`uwAn' => [
     {
       'types' => {},
@@ -6240,6 +5977,80 @@ $Lexicon = {
         'male viper'
       ],
       'orig' => 'OufoEuwAn',
+      'prefix' => ''
+    }
+  ],
+  'fizyUlU^gIy' => [
+    {
+      'types' => {
+        'fiyzyuwluw^giyy' => {
+          'N-ap' => 1
+        }
+      },
+      'entry' => 'fizyuwluw^giyy',
+      'form' => 'fizyuwluw^giyy',
+      'lines' => [
+        ';; fizoyuwluwjiy~_1',
+        'fzywlwjy        fizoyuwluwjiy~  N-ap    physiological     [[fizoyuwluwjiy~/ADJ]]',
+        'fyzywlwjy       fiyzoyuwluwjiy~ N-ap    physiological     [[fiyzoyuwluwjiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'physiological'
+      ],
+      'orig' => 'fizoyuwluwjiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'fiyzyuwluw^giyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'fizyuwluw^giyy',
+      'form' => 'fizyuwluw^giyy',
+      'lines' => [
+        ';; fizoyuwluwjiy~_2',
+        'fzywlwjy        fizoyuwluwjiy~  Nall    physiologist     [[fizoyuwluwjiy~/ADJ]]',
+        'fyzywlwjy       fiyzoyuwluwjiy~ Nall    physiologist     [[fiyzoyuwluwjiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'physiologist'
+      ],
+      'orig' => 'fizoyuwluwjiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'fiyzyuwluw^giyy' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'fizyuwluw^giyy',
+      'form' => 'fizyuwluw^giyyaT',
+      'lines' => [
+        ';; fizoyuwluwjiy~ap_1',
+        'fzywlwjy        fizoyuwluwjiy~  Nap     physiology     [[fizoyuwluwjiy~/NOUN]]',
+        'fyzywlwjy       fiyzoyuwluwjiy~ Nap     physiology     [[fiyzoyuwluwjiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'physiology'
+      ],
+      'orig' => 'fizoyuwluwjiy~ap',
       'prefix' => ''
     }
   ],
@@ -6430,6 +6241,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fIlIbUsIs' => [
+    {
+      'types' => {},
+      'entry' => 'fiyliybuwsiys',
+      'form' => 'fiyliybuwsiys',
+      'lines' => [
+        ';; fiyliybuwsiys_1',
+        'fylybwsys       fiyliybuwsiys   Nprop   Philippoussis'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Philippoussis'
+      ],
+      'orig' => 'fiyliybuwsiys',
+      'prefix' => ''
+    }
+  ],
   'f r q d' => [
     {
       'types' => {},
@@ -6448,6 +6280,53 @@ $Lexicon = {
         'calf'
       ],
       'orig' => 'faroqad',
+      'prefix' => ''
+    }
+  ],
+  'fAbrIk' => [
+    {
+      'types' => {
+        'fAbriyq' => {
+          'NapAt' => 1
+        }
+      },
+      'entry' => 'fAbriyk',
+      'form' => 'fAbriykaT',
+      'lines' => [
+        ';; fAboriykap_1',
+        'fAbryk  fAboriyk        NapAt   factory',
+        'fAbryq  fAboriyq        NapAt   factory'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'factory'
+      ],
+      'orig' => 'fAboriykap',
+      'prefix' => ''
+    }
+  ],
+  'firnAndU' => [
+    {
+      'types' => {},
+      'entry' => 'firnAnduw',
+      'form' => 'firnAnduw',
+      'lines' => [
+        ';; fironAnoduw_1',
+        'frnAndw fironAnoduw     Nprop   Fernando'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Fernando'
+      ],
+      'orig' => 'fironAnoduw',
       'prefix' => ''
     }
   ],
@@ -7037,6 +6916,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fAlIrI' => [
+    {
+      'types' => {},
+      'entry' => 'fAliyriy',
+      'form' => 'fAliyriy',
+      'lines' => [
+        ';; fAliyriy_1',
+        'fAlyry  fAliyriy        Nprop   Valerie;Valery'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Valerie',
+        'Valery'
+      ],
+      'orig' => 'fAliyriy',
+      'prefix' => ''
+    }
+  ],
   'f .t \' r' => [
     {
       'types' => {
@@ -7478,6 +7379,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fayUlIn' => [
+    {
+      'types' => {},
+      'entry' => 'fayuwliyn',
+      'form' => 'fayuwliyn',
+      'lines' => [
+        ';; fayuwliyn_1',
+        'fywlyn  fayuwliyn       N       violin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'violin'
+      ],
+      'orig' => 'fayuwliyn',
+      'prefix' => ''
+    }
+  ],
+  'fran^gIh' => [
+    {
+      'types' => {},
+      'entry' => 'fran^giyh',
+      'form' => 'fran^giyh',
+      'lines' => [
+        ';; franojiyh_1',
+        'frnjyh  franojiyh       N0      Franjieh'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Franjieh'
+      ],
+      'orig' => 'franojiyh',
+      'prefix' => ''
+    }
+  ],
   'f r .s d' => [
     {
       'types' => {},
@@ -7541,14 +7484,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'flAdiymiyr' => [
+  'fIlIbbIn' => [
     {
-      'types' => {},
-      'entry' => 'flAdiymiyr',
-      'form' => 'flAdiymiyr',
+      'types' => {
+        'filiybbiyn' => {
+          'N0' => 1
+        },
+        'fiylibbiyn' => {
+          'N0' => 1
+        },
+        'filibbiyn' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'fiyliybbiyn',
+      'form' => 'fiyliybbiyn',
       'lines' => [
-        ';; flAdiymiyr_1',
-        'flAdymyr        flAdiymiyr      Nprop   Vladimir'
+        ';; fiyliyb~iyn_1',
+        'fylybyn fiyliyb~iyn     N0      Philippines',
+        'fylbyn  fiylib~iyn      N0      Philippines',
+        'flybyn  filiyb~iyn      N0      Philippines',
+        'flbyn   filib~iyn       N0      Philippines'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7556,9 +7512,46 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Vladimir'
+        'Philippines'
       ],
-      'orig' => 'flAdiymiyr',
+      'orig' => 'fiyliyb~iyn',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'fiylibbiyniyy' => {
+          'Nall' => 2
+        },
+        'filibbiyniyy' => {
+          'Nall' => 2
+        },
+        'filiybbiyniyy' => {
+          'Nall' => 2
+        }
+      },
+      'entry' => 'fiyliybbiyn',
+      'form' => 'fiyliybbiyniyy',
+      'lines' => [
+        ';; fiyliyb~iyniy~_1',
+        'fylybyny        fiyliyb~iyniy~  Nall    Philippine;Filipino     [[filiyb~iyniy~/NOUN]]',
+        'fylybyny        fiyliyb~iyniy~  Nall    Philippine;Filipino     [[filiyb~iyniy~/ADJ]]',
+        'fylbyny fiylib~iyniy~   Nall    Philippine;Filipino     [[fiylib~iyniy~/NOUN]]',
+        'fylbyny fiylib~iyniy~   Nall    Philippine;Filipino     [[fiylib~iyniy~/ADJ]]',
+        'flybyny filiyb~iyniy~   Nall    Philippine;Filipino     [[filiyb~iyniy~/NOUN]]',
+        'flybyny filiyb~iyniy~   Nall    Philippine;Filipino     [[filiyb~iyniy~/ADJ]]',
+        'flbyny  filib~iyniy~    Nall    Philippine;Filipino     [[filib~iyniy~/NOUN]]',
+        'flbyny  filib~iyniy~    Nall    Philippine;Filipino     [[filib~iyniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Philippine',
+        'Filipino'
+      ],
+      'orig' => 'fiyliyb~iyniy~',
       'prefix' => ''
     }
   ],
@@ -8500,6 +8493,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fAskU' => [
+    {
+      'types' => {},
+      'entry' => 'fAskuw',
+      'form' => 'fAskuw',
+      'lines' => [
+        ';; fAsokuw_1',
+        'fAskw   fAsokuw Nprop   Vasco'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Vasco'
+      ],
+      'orig' => 'fAsokuw',
+      'prefix' => ''
+    }
+  ],
+  'flI.hAn' => [
+    {
+      'types' => {},
+      'entry' => 'fliy.hAn',
+      'form' => 'fliy.hAn',
+      'lines' => [
+        ';; fliyHAn_1',
+        'flyHAn  fliyHAn N0      Fleihan'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Fleihan'
+      ],
+      'orig' => 'fliyHAn',
+      'prefix' => ''
+    }
+  ],
   'f s .h' => [
     {
       'types' => {
@@ -9359,27 +9394,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiyriyruw' => [
-    {
-      'types' => {},
-      'entry' => 'fiyriyruw',
-      'form' => 'fiyriyruw',
-      'lines' => [
-        ';; fiyriyruw_1',
-        'fyryrw  fiyriyruw       Nprop   Ferrero'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Ferrero'
-      ],
-      'orig' => 'fiyriyruw',
-      'prefix' => ''
-    }
-  ],
   'farand' => [
     {
       'types' => {},
@@ -9643,59 +9657,6 @@ $Lexicon = {
         'purple'
       ],
       'orig' => 'firofiyr',
-      'prefix' => ''
-    }
-  ],
-  'firdiynAnd' => [
-    {
-      'types' => {
-        'firdinAnd' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'firdiynAnd',
-      'form' => 'firdiynAnd',
-      'lines' => [
-        ';; firodiynAnod_1',
-        'frdynAnd        firodiynAnod    N0      Ferdinand',
-        'frdnAnd firodinAnod     N0      Ferdinand'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Ferdinand'
-      ],
-      'orig' => 'firodiynAnod',
-      'prefix' => ''
-    }
-  ],
-  'fiydyuw' => [
-    {
-      'types' => {
-        'fiydyuwh' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'fiydyuw',
-      'form' => 'fiydyuw',
-      'lines' => [
-        ';; fiydoyuw_1',
-        'fydyw   fiydoyuw        N0      video',
-        'fydywh  fiydoyuwh       NAt     videos'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'video',
-        'videos'
-      ],
-      'orig' => 'fiydoyuw',
       'prefix' => ''
     }
   ],
@@ -10637,6 +10598,46 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'frIwAy' => [
+    {
+      'types' => {},
+      'entry' => 'friywAy',
+      'form' => 'friywAy',
+      'lines' => [
+        ';; friywAy_1',
+        'frywAy  friywAy N0      freeway'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'freeway'
+      ],
+      'orig' => 'friywAy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'friywAy',
+      'form' => 'friywAy',
+      'lines' => [
+        ';; friywAy_2',
+        'frywAy  friywAy N0      Freeway'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Freeway'
+      ],
+      'orig' => 'friywAy',
+      'prefix' => ''
+    }
+  ],
   'f .g w' => [
     {
       'types' => {},
@@ -10823,14 +10824,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiydriyn' => [
+  'fIzyUlU^giyA' => [
     {
-      'types' => {},
-      'entry' => 'fiydriyn',
-      'form' => 'fiydriyn',
+      'types' => {
+        'fiysyuwluw^giyA' => {
+          'N0' => 1
+        },
+        'fiysyuwluw^giyy' => {
+          'Nap' => 1
+        },
+        'fiyzyuwluw^giyy' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'fiyzyuwluw^giyA',
+      'form' => 'fiyzyuwluw^giyA',
       'lines' => [
-        ';; fiydoriyn_1',
-        'fydryn  fiydoriyn       Nprop   Vedrine'
+        ';; fiyzyuwluwjiyA_1',
+        'fyzywlwjyA      fiyzyuwluwjiyA  N0      physiology',
+        'fysywlwjyA      fiysyuwluwjiyA  N0      physiology',
+        'fyzywlwjy       fiyzyuwluwjiy~  Nap     physiology     [[fiyzyuwluwjiy~/NOUN]]',
+        'fysywlwjy       fiysyuwluwjiy~  Nap     physiology     [[fiysyuwluwjiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10838,9 +10852,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Vedrine'
+        'physiology'
       ],
-      'orig' => 'fiydoriyn',
+      'orig' => 'fiyzyuwluwjiyA',
       'prefix' => ''
     }
   ],
@@ -10862,6 +10876,27 @@ $Lexicon = {
         'Furik'
       ],
       'orig' => 'fuwriyk',
+      'prefix' => ''
+    }
+  ],
+  'fU.gts' => [
+    {
+      'types' => {},
+      'entry' => 'fuw.gts',
+      'form' => 'fuw.gts',
+      'lines' => [
+        ';; fuwgts_1',
+        'fwgts   fuwgts  Nprop   Vogts'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Vogts'
+      ],
+      'orig' => 'fuwgts',
       'prefix' => ''
     }
   ],
@@ -10933,14 +10968,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fAliyriy' => [
+  'fidirIkU' => [
     {
       'types' => {},
-      'entry' => 'fAliyriy',
-      'form' => 'fAliyriy',
+      'entry' => 'fidiriykuw',
+      'form' => 'fidiriykuw',
       'lines' => [
-        ';; fAliyriy_1',
-        'fAlyry  fAliyriy        Nprop   Valerie;Valery'
+        ';; fidiriykuw_1',
+        'fdrykw  fidiriykuw      Nprop   Federico'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10948,21 +10983,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Valerie',
-        'Valery'
+        'Federico'
       ],
-      'orig' => 'fAliyriy',
+      'orig' => 'fidiriykuw',
       'prefix' => ''
     }
   ],
-  'fiyruwza^g' => [
+  'flAdImIr' => [
     {
       'types' => {},
-      'entry' => 'fiyruwza^g',
-      'form' => 'fiyruwza^g',
+      'entry' => 'flAdiymiyr',
+      'form' => 'flAdiymiyr',
       'lines' => [
-        ';; fiyruwzaj_1',
-        'fyrwzj  fiyruwzaj       N       turquoise'
+        ';; flAdiymiyr_1',
+        'flAdymyr        flAdiymiyr      Nprop   Vladimir'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10970,9 +11004,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'turquoise'
+        'Vladimir'
       ],
-      'orig' => 'fiyruwzaj',
+      'orig' => 'flAdiymiyr',
       'prefix' => ''
     }
   ],
@@ -11019,14 +11053,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fArsuwfiyA' => [
+  'frAnkfUrt' => [
     {
-      'types' => {},
-      'entry' => 'fArsuwfiyA',
-      'form' => 'fArsuwfiyA',
+      'types' => {
+        'frankfuwrt' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'frAnkfuwrt',
+      'form' => 'frAnkfuwrt',
       'lines' => [
-        ';; fArsuwfiyA_1',
-        'fArswfyA        fArsuwfiyA      Nprop   Warsaw'
+        ';; frAnokofuwrot_1',
+        'frAnkfwrt       frAnokofuwrot   Nprop   Frankfurt',
+        'frnkfwrt        franokofuwrot   Nprop   Frankfurt'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11034,9 +11073,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Warsaw'
+        'Frankfurt'
       ],
-      'orig' => 'fArsuwfiyA',
+      'orig' => 'frAnokofuwrot',
+      'prefix' => ''
+    }
+  ],
+  'fIlAnuwIfA' => [
+    {
+      'types' => {},
+      'entry' => 'fiylAnuwiyfA',
+      'form' => 'fiylAnuwiyfA',
+      'lines' => [
+        ';; fiylAnuwiyfA_1',
+        'fylAnwyfA       fiylAnuwiyfA    Nprop   Villanueva'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Villanueva'
+      ],
+      'orig' => 'fiylAnuwiyfA',
       'prefix' => ''
     }
   ],
@@ -11063,53 +11123,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiyliybuw' => [
-    {
-      'types' => {},
-      'entry' => 'fiyliybuw',
-      'form' => 'fiyliybuw',
-      'lines' => [
-        ';; fiyliybuw_1',
-        'fylybw  fiyliybuw       N0      Filippo'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Filippo'
-      ],
-      'orig' => 'fiyliybuw',
-      'prefix' => ''
-    }
-  ],
-  'fhyd' => [
-    {
-      'types' => {
-        'fuhayd' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'fhyd',
-      'form' => 'fhyd',
-      'lines' => [
-        ';; fhyd_1',
-        'fhyd    fuhayod N0      Fuhaid;Fuheid'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Fuhaid',
-        'Fuheid'
-      ],
-      'orig' => 'fhyd',
-      'prefix' => ''
-    }
-  ],
   'f r q .t' => [
     {
       'types' => {},
@@ -11128,6 +11141,28 @@ $Lexicon = {
         'frigate'
       ],
       'orig' => 'firoqATap',
+      'prefix' => ''
+    }
+  ],
+  'f y n q' => [
+    {
+      'types' => {},
+      'entry' => 'fiyniyq',
+      'form' => 'fiyniyqiyy',
+      'lines' => [
+        ';; fiyniyqiy~_1',
+        'fynyqy  fiyniyqiy~      Nall    Phoenician     [[fiyniyqiy~/NOUN]]',
+        'fynyqy  fiyniyqiy~      Nall    Phoenician     [[fiyniyqiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KiRDIS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Phoenician'
+      ],
+      'orig' => 'fiyniyqiy~',
       'prefix' => ''
     }
   ],
@@ -11682,14 +11717,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiyAkuwm' => [
+  'fIllA' => [
     {
-      'types' => {},
-      'entry' => 'fiyAkuwm',
-      'form' => 'fiyAkuwm',
+      'types' => {
+        'fillA' => {
+          'Nprop' => 1
+        },
+        'fyllA' => {
+          'Nprop' => 1
+        },
+        'fiyll' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'fiyllA',
+      'form' => 'fiyllA',
       'lines' => [
-        ';; fiyAkuwm_1',
-        'fyAkwm  fiyAkuwm        Nprop   Viacom'
+        ';; fiyl~A_1',
+        'fylA    fiyl~A  N0      villa',
+        'fyl     fiyl~   NAt     villas',
+        'fllA    filolA  Nprop   Villa',
+        'fyllA   fylolA  Nprop   Villa'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11697,9 +11745,11 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Viacom'
+        'villa',
+        'villas',
+        'Villa'
       ],
-      'orig' => 'fiyAkuwm',
+      'orig' => 'fiyl~A',
       'prefix' => ''
     }
   ],
@@ -12557,19 +12607,35 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'firnAndiyz' => [
+  'fUr^s' => [
     {
-      'types' => {
-        'firnAndiz' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'firnAndiyz',
-      'form' => 'firnAndiyz',
+      'types' => {},
+      'entry' => 'fuwr^s',
+      'form' => 'fuwr^saT',
       'lines' => [
-        ';; fironAnodiyz_1',
-        'frnAndyz        fironAnodiyz    Nprop   Fernandez',
-        'frnAndz fironAnodiz     Nprop   Fernandez'
+        ';; fuwr$ap_1',
+        'fwr$    fuwr$   NapAt   brush'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'brush'
+      ],
+      'orig' => 'fuwr$ap',
+      'prefix' => ''
+    }
+  ],
+  'fiyUlunt^sillU' => [
+    {
+      'types' => {},
+      'entry' => 'fiyuwlunt^silluw',
+      'form' => 'fiyuwlunt^silluw',
+      'lines' => [
+        ';; fiyuwlunot$iloluw_1',
+        'fywlnt$llw      fiyuwlunot$iloluw       N       violoncello'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12577,9 +12643,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Fernandez'
+        'violoncello'
       ],
-      'orig' => 'fironAnodiyz',
+      'orig' => 'fiyuwlunot$iloluw',
       'prefix' => ''
     }
   ],
@@ -13488,6 +13554,28 @@ $Lexicon = {
         'Fatafita'
       ],
       'orig' => 'faTAfiTap',
+      'prefix' => ''
+    }
+  ],
+  'fAl.sU' => [
+    {
+      'types' => {},
+      'entry' => 'fAl.suw',
+      'form' => 'fAl.suw',
+      'lines' => [
+        ';; fAloSuw_1',
+        'fAlSw   fAloSuw N0      bogus;false'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'bogus',
+        'false'
+      ],
+      'orig' => 'fAloSuw',
       'prefix' => ''
     }
   ],
@@ -14497,6 +14585,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fIlIbs' => [
+    {
+      'types' => {},
+      'entry' => 'fiyliybs',
+      'form' => 'fiyliybs',
+      'lines' => [
+        ';; fiyliybs_1',
+        'fylybs  fiyliybs        N0      Phillips;Philips'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Phillips',
+        'Philips'
+      ],
+      'orig' => 'fiyliybs',
+      'prefix' => ''
+    }
+  ],
   'ifti\'' => [
     {
       'types' => {
@@ -14521,27 +14631,6 @@ $Lexicon = {
         'violence'
       ],
       'orig' => 'Aifoti}At',
-      'prefix' => ''
-    }
-  ],
-  'finiyk' => [
-    {
-      'types' => {},
-      'entry' => 'finiyk',
-      'form' => 'finiyk',
-      'lines' => [
-        ';; finiyk_1',
-        'fnyk    finiyk  N       phenol'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'phenol'
-      ],
-      'orig' => 'finiyk',
       'prefix' => ''
     }
   ],
@@ -14950,27 +15039,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiyfA' => [
-    {
-      'types' => {},
-      'entry' => 'fiyfA',
-      'form' => 'fiyfA',
-      'lines' => [
-        ';; fiyfA_1',
-        'fyfA    fiyfA   N0      FIFA (Federation Internationale de Football Association)'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'FIFA (Federation Internationale de Football Association)'
-      ],
-      'orig' => 'fiyfA',
-      'prefix' => ''
-    }
-  ],
   'firank' => [
     {
       'types' => {
@@ -14994,34 +15062,6 @@ $Lexicon = {
         'franc'
       ],
       'orig' => 'firanok',
-      'prefix' => ''
-    }
-  ],
-  'faransiyskAn' => [
-    {
-      'types' => {
-        'faransiyskAn' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'faransiyskAn',
-      'form' => 'faransiyskAniyy',
-      'lines' => [
-        ';; faranosiysokAniy~_1',
-        'frnsyskAny      faranosiysokAniy~       Nall    Franciscan     [[faranosiysokAniy~/NOUN]]',
-        'frnsyskAny      faranosiysokAniy~       Nall    Franciscan     [[faranosiysokAniy~/ADJ]]',
-        'frnsyskAn       faranosiysokAn  N0      Franciscans'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Franciscan',
-        'Franciscans'
-      ],
-      'orig' => 'faranosiysokAniy~',
       'prefix' => ''
     }
   ],
@@ -15112,6 +15152,80 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fisyUlU^gIy' => [
+    {
+      'types' => {
+        'fiysyuwluw^giyy' => {
+          'N-ap' => 1
+        }
+      },
+      'entry' => 'fisyuwluw^giyy',
+      'form' => 'fisyuwluw^giyy',
+      'lines' => [
+        ';; fisoyuwluwjiy~_1',
+        'fsywlwjy        fisoyuwluwjiy~  N-ap    physiological     [[fisoyuwluwjiy~/ADJ]]',
+        'fysywlwjy       fiysoyuwluwjiy~ N-ap    physiological     [[fiysoyuwluwjiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'physiological'
+      ],
+      'orig' => 'fisoyuwluwjiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'fiysyuwluw^giyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'fisyuwluw^giyy',
+      'form' => 'fisyuwluw^giyy',
+      'lines' => [
+        ';; fisoyuwluwjiy~_2',
+        'fsywlwjy        fisoyuwluwjiy~  Nall    physiologist     [[fisoyuwluwjiy~/ADJ]]',
+        'fysywlwjy       fiysoyuwluwjiy~ Nall    physiologist     [[fiysoyuwluwjiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'physiologist'
+      ],
+      'orig' => 'fisoyuwluwjiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'fiysyuwluw^giyy' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'fisyuwluw^giyy',
+      'form' => 'fisyuwluw^giyyaT',
+      'lines' => [
+        ';; fisoyuwluwjiy~ap_1',
+        'fsywlwjy        fisoyuwluwjiy~  Nap     physiology     [[fisoyuwluwjiy~/NOUN]]',
+        'fysywlwjy       fiysoyuwluwjiy~ Nap     physiology     [[fiysoyuwluwjiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'physiology'
+      ],
+      'orig' => 'fisoyuwluwjiy~ap',
+      'prefix' => ''
+    }
+  ],
   'f y l b' => [
     {
       'types' => {},
@@ -15157,6 +15271,48 @@ $Lexicon = {
         'pepper'
       ],
       'orig' => 'fulayofil',
+      'prefix' => ''
+    }
+  ],
+  'fUlfU' => [
+    {
+      'types' => {},
+      'entry' => 'fuwlfuw',
+      'form' => 'fuwlfuw',
+      'lines' => [
+        ';; fuwlofuw_1',
+        'fwlfw   fuwlofuw        Nprop   Volvo'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Volvo'
+      ],
+      'orig' => 'fuwlofuw',
+      'prefix' => ''
+    }
+  ],
+  'fIr^gIniyA' => [
+    {
+      'types' => {},
+      'entry' => 'fiyr^giyniyA',
+      'form' => 'fiyr^giyniyA',
+      'lines' => [
+        ';; fiyrojiyniyA_1',
+        'fyrjynyA        fiyrojiyniyA    Nprop   Virginia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Virginia'
+      ],
+      'orig' => 'fiyrojiyniyA',
       'prefix' => ''
     }
   ],
@@ -15654,6 +15810,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'frItAwn' => [
+    {
+      'types' => {},
+      'entry' => 'friytAwn',
+      'form' => 'friytAwn',
+      'lines' => [
+        ';; friytAwn_1',
+        'frytAwn friytAwn        N0      Freetown'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Freetown'
+      ],
+      'orig' => 'friytAwn',
+      'prefix' => ''
+    }
+  ],
+  'farsUfiyA' => [
+    {
+      'types' => {},
+      'entry' => 'farsuwfiyA',
+      'form' => 'farsuwfiyA',
+      'lines' => [
+        ';; farosuwfiyA_1',
+        'frswfyA farosuwfiyA     N0      Warsaw'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Warsaw'
+      ],
+      'orig' => 'farosuwfiyA',
+      'prefix' => ''
+    }
+  ],
   'f s _h' => [
     {
       'types' => {
@@ -15941,6 +16139,34 @@ $Lexicon = {
         'decomposed'
       ],
       'orig' => 'mutafas~ix',
+      'prefix' => ''
+    }
+  ],
+  'faransIskAn' => [
+    {
+      'types' => {
+        'faransiyskAn' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'faransiyskAn',
+      'form' => 'faransiyskAniyy',
+      'lines' => [
+        ';; faranosiysokAniy~_1',
+        'frnsyskAny      faranosiysokAniy~       Nall    Franciscan     [[faranosiysokAniy~/NOUN]]',
+        'frnsyskAny      faranosiysokAniy~       Nall    Franciscan     [[faranosiysokAniy~/ADJ]]',
+        'frnsyskAn       faranosiysokAn  N0      Franciscans'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Franciscan',
+        'Franciscans'
+      ],
+      'orig' => 'faranosiysokAniy~',
       'prefix' => ''
     }
   ],
@@ -16255,6 +16481,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fAwstInU' => [
+    {
+      'types' => {},
+      'entry' => 'fAwstiynuw',
+      'form' => 'fAwstiynuw',
+      'lines' => [
+        ';; fAwsotiynuw_1',
+        'fAwstynw        fAwsotiynuw     N0      Faustino'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Faustino'
+      ],
+      'orig' => 'fAwsotiynuw',
+      'prefix' => ''
+    }
+  ],
   'f w ^g' => [
     {
       'types' => {
@@ -16381,14 +16628,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiylhilm' => [
+  'fIdrIn' => [
     {
       'types' => {},
-      'entry' => 'fiylhilm',
-      'form' => 'fiylhilm',
+      'entry' => 'fiydriyn',
+      'form' => 'fiydriyn',
       'lines' => [
-        ';; fiylohilom_1',
-        'fylhlm  fiylohilom      Nprop   Wilhelm'
+        ';; fiydoriyn_1',
+        'fydryn  fiydoriyn       Nprop   Vedrine'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16396,83 +16643,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Wilhelm'
+        'Vedrine'
       ],
-      'orig' => 'fiylohilom',
+      'orig' => 'fiydoriyn',
       'prefix' => ''
     }
   ],
-  'fisyuwluw^giyy' => [
+  'fiyUrintInA' => [
     {
-      'types' => {
-        'fiysyuwluw^giyy' => {
-          'N-ap' => 1
-        }
-      },
-      'entry' => 'fisyuwluw^giyy',
-      'form' => 'fisyuwluw^giyy',
+      'types' => {},
+      'entry' => 'fiyuwrintiynA',
+      'form' => 'fiyuwrintiynA',
       'lines' => [
-        ';; fisoyuwluwjiy~_1',
-        'fsywlwjy        fisoyuwluwjiy~  N-ap    physiological     [[fisoyuwluwjiy~/ADJ]]',
-        'fysywlwjy       fiysoyuwluwjiy~ N-ap    physiological     [[fiysoyuwluwjiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'physiological'
-      ],
-      'orig' => 'fisoyuwluwjiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'fiysyuwluw^giyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'fisyuwluw^giyy',
-      'form' => 'fisyuwluw^giyy',
-      'lines' => [
-        ';; fisoyuwluwjiy~_2',
-        'fsywlwjy        fisoyuwluwjiy~  Nall    physiologist     [[fisoyuwluwjiy~/ADJ]]',
-        'fysywlwjy       fiysoyuwluwjiy~ Nall    physiologist     [[fiysoyuwluwjiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'physiologist'
-      ],
-      'orig' => 'fisoyuwluwjiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'fiysyuwluw^giyy' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'fisyuwluw^giyy',
-      'form' => 'fisyuwluw^giyyaT',
-      'lines' => [
-        ';; fisoyuwluwjiy~ap_1',
-        'fsywlwjy        fisoyuwluwjiy~  Nap     physiology     [[fisoyuwluwjiy~/NOUN]]',
-        'fysywlwjy       fiysoyuwluwjiy~ Nap     physiology     [[fiysoyuwluwjiy~/NOUN]]'
+        ';; fiyuwrinotiynA_1',
+        'fywrntynA       fiyuwrinotiynA  Nprop   Fiorentina'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'physiology'
+        'Fiorentina'
       ],
-      'orig' => 'fisoyuwluwjiy~ap',
+      'orig' => 'fiyuwrinotiynA',
       'prefix' => ''
     }
   ],
@@ -16510,6 +16704,56 @@ $Lexicon = {
         'usurer'
       ],
       'orig' => 'fAyiZojiy~',
+      'prefix' => ''
+    }
+  ],
+  'fUsf' => [
+    {
+      'types' => {
+        'fuw.sfAt' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'fuwsf',
+      'form' => 'fuwsfAt',
+      'lines' => [
+        ';; fuwsofAt_1',
+        'fwsfAt  fuwsofAt        N       phosphate',
+        'fwSfAt  fuwSofAt        N       phosphate'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'phosphate'
+      ],
+      'orig' => 'fuwsofAt',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'fuw.sfAtiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'fuwsf',
+      'form' => 'fuwsfAtiyy',
+      'lines' => [
+        ';; fuwsofAtiy~_1',
+        'fwsfAty fuwsofAtiy~     Nall    phosphate     [[fuwsofAtiy~/ADJ]]',
+        'fwSfAty fuwSofAtiy~     Nall    phosphate     [[fuwSofAtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< At |< Iy',
+      'suffix' => ' |< At |< Iy',
+      'glosses' => [
+        'phosphate'
+      ],
+      'orig' => 'fuwsofAtiy~',
       'prefix' => ''
     }
   ],
@@ -16614,27 +16858,6 @@ $Lexicon = {
         'self-sacrifice'
       ],
       'orig' => 'AifotidA\'',
-      'prefix' => ''
-    }
-  ],
-  'fiy.guw' => [
-    {
-      'types' => {},
-      'entry' => 'fiy.guw',
-      'form' => 'fiy.guw',
-      'lines' => [
-        ';; fiyguw_1',
-        'fygw    fiyguw  Nprop   Figo'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Figo'
-      ],
-      'orig' => 'fiyguw',
       'prefix' => ''
     }
   ],
@@ -16964,27 +17187,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiytAliy' => [
-    {
-      'types' => {},
-      'entry' => 'fiytAliy',
-      'form' => 'fiytAliy',
-      'lines' => [
-        ';; fiytAliy_1',
-        'fytAly  fiytAliy        Nprop   Vitale'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Vitale'
-      ],
-      'orig' => 'fiytAliy',
-      'prefix' => ''
-    }
-  ],
   'f l f l' => [
     {
       'types' => {
@@ -17121,19 +17323,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fisyuwluw^giyA' => [
+  'frImasun' => [
     {
       'types' => {
-        'fiysyuwluw^giyA' => {
+        'frimasuwn' => {
           'N0' => 1
         }
       },
-      'entry' => 'fisyuwluw^giyA',
-      'form' => 'fisyuwluw^giyA',
+      'entry' => 'friymasun',
+      'form' => 'friymasun',
       'lines' => [
-        ';; fisoyuwluwjiyA_1',
-        'fsywlwjyA       fisoyuwluwjiyA  N0      physiology',
-        'fysywlwjyA      fiysoyuwluwjiyA N0      physiology'
+        ';; friymasun_1',
+        'frymsn  friymasun       N0      Freemason',
+        'frmswn  frimasuwn       N0      Freemason'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17141,30 +17343,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'physiology'
+        'Freemason'
       ],
-      'orig' => 'fisoyuwluwjiyA',
-      'prefix' => ''
-    }
-  ],
-  'firdawsiy' => [
-    {
-      'types' => {},
-      'entry' => 'firdawsiy',
-      'form' => 'firdawsiy',
-      'lines' => [
-        ';; firodawosiy_1',
-        'frdwsy  firodawosiy     N0      Ferdosi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Ferdosi'
-      ],
-      'orig' => 'firodawosiy',
+      'orig' => 'friymasun',
       'prefix' => ''
     }
   ],
@@ -17215,32 +17396,6 @@ $Lexicon = {
         'brush'
       ],
       'orig' => 'furo$Ayap',
-      'prefix' => ''
-    }
-  ],
-  'frAnkfuwrt' => [
-    {
-      'types' => {
-        'frankfuwrt' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'frAnkfuwrt',
-      'form' => 'frAnkfuwrt',
-      'lines' => [
-        ';; frAnokofuwrot_1',
-        'frAnkfwrt       frAnokofuwrot   Nprop   Frankfurt',
-        'frnkfwrt        franokofuwrot   Nprop   Frankfurt'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Frankfurt'
-      ],
-      'orig' => 'frAnokofuwrot',
       'prefix' => ''
     }
   ],
@@ -17708,6 +17863,81 @@ $Lexicon = {
         'twirling stick'
       ],
       'orig' => 'miforAk',
+      'prefix' => ''
+    }
+  ],
+  'fIlm' => [
+    {
+      'types' => {
+        '\'aflAm' => {
+          'N' => 2
+        },
+        'film' => {
+          'Ndu' => 1
+        }
+      },
+      'entry' => 'fiylm',
+      'form' => 'fiylm',
+      'lines' => [
+        ';; fiylom_1',
+        'fylm    fiylm   Ndu     film;movie',
+        'flm     filom   Ndu     film;movie',
+        '>flAm   >afolAm N       films;movies',
+        'AflAm   >afolAm N       films;movies'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'film',
+        'movie',
+        'films',
+        'movies'
+      ],
+      'orig' => 'fiylom',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'fiylm',
+      'form' => 'fiylmiyy',
+      'lines' => [
+        ';; fiylomiy~_1',
+        'fylmy   fiylomiy~       N-ap    film;cinematic     [[fiylmiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'film',
+        'cinematic'
+      ],
+      'orig' => 'fiylomiy~',
+      'prefix' => ''
+    }
+  ],
+  'fIrUza^g' => [
+    {
+      'types' => {},
+      'entry' => 'fiyruwza^g',
+      'form' => 'fiyruwza^g',
+      'lines' => [
+        ';; fiyruwzaj_1',
+        'fyrwzj  fiyruwzaj       N       turquoise'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'turquoise'
+      ],
+      'orig' => 'fiyruwzaj',
       'prefix' => ''
     }
   ],
@@ -18709,81 +18939,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiyzA' => [
-    {
-      'types' => {},
-      'entry' => 'fiyzA',
-      'form' => 'fiyzA',
-      'lines' => [
-        ';; fiyzA_1',
-        'fyzA    fiyzA   N0      visa'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'visa'
-      ],
-      'orig' => 'fiyzA',
-      'prefix' => ''
-    }
-  ],
-  'fiylm' => [
-    {
-      'types' => {
-        '\'aflAm' => {
-          'N' => 2
-        },
-        'film' => {
-          'Ndu' => 1
-        }
-      },
-      'entry' => 'fiylm',
-      'form' => 'fiylm',
-      'lines' => [
-        ';; fiylom_1',
-        'fylm    fiylm   Ndu     film;movie',
-        'flm     filom   Ndu     film;movie',
-        '>flAm   >afolAm N       films;movies',
-        'AflAm   >afolAm N       films;movies'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'film',
-        'movie',
-        'films',
-        'movies'
-      ],
-      'orig' => 'fiylom',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'fiylm',
-      'form' => 'fiylmiyy',
-      'lines' => [
-        ';; fiylomiy~_1',
-        'fylmy   fiylomiy~       N-ap    film;cinematic     [[fiylmiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'film',
-        'cinematic'
-      ],
-      'orig' => 'fiylomiy~',
-      'prefix' => ''
-    }
-  ],
   'f s l' => [
     {
       'types' => {
@@ -19091,58 +19246,6 @@ $Lexicon = {
         'phoenix-like'
       ],
       'orig' => 'fuqonusiy~',
-      'prefix' => ''
-    }
-  ],
-  'fiyd^g' => [
-    {
-      'types' => {
-        'fiy^giyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'fiyd^g',
-      'form' => 'fiyd^giyy',
-      'lines' => [
-        ';; fiydojiy~_1',
-        'fydjy   fiydojiy~       Nall    Fijian     [[fiydojiy~/ADJ]]',
-        'fyjy    fiyjiy~ Nall    Fijian     [[fiydojiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Fijian'
-      ],
-      'orig' => 'fiydojiy~',
-      'prefix' => ''
-    }
-  ],
-  'flAminkuw' => [
-    {
-      'types' => {
-        'flAmiynkuw' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'flAminkuw',
-      'form' => 'flAminkuw',
-      'lines' => [
-        ';; flAminokuw_1',
-        'flAmnkw flAminokuw      N0      flamenco',
-        'flAmynkw        flAmiynokuw     N0      flamenco'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'flamenco'
-      ],
-      'orig' => 'flAminokuw',
       'prefix' => ''
     }
   ],
@@ -19588,6 +19691,33 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fIdyU' => [
+    {
+      'types' => {
+        'fiydyuwh' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'fiydyuw',
+      'form' => 'fiydyuw',
+      'lines' => [
+        ';; fiydoyuw_1',
+        'fydyw   fiydoyuw        N0      video',
+        'fydywh  fiydoyuwh       NAt     videos'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'video',
+        'videos'
+      ],
+      'orig' => 'fiydoyuw',
+      'prefix' => ''
+    }
+  ],
   'frAns' => [
     {
       'types' => {},
@@ -19711,19 +19841,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiyd^giy' => [
+  'fizyUlU^giyA' => [
     {
       'types' => {
-        'fiy^giy' => {
-          'Nprop' => 1
+        'fiyzyuwluw^giyA' => {
+          'N0' => 1
         }
       },
-      'entry' => 'fiyd^giy',
-      'form' => 'fiyd^giy',
+      'entry' => 'fizyuwluw^giyA',
+      'form' => 'fizyuwluw^giyA',
       'lines' => [
-        ';; fiydojiy_1',
-        'fydjy   fiydojiy        Nprop   Fiji',
-        'fyjy    fiyjiy  Nprop   Fiji'
+        ';; fizoyuwluwjiyA_1',
+        'fzywlwjyA       fizoyuwluwjiyA  N0      physiology',
+        'fyzywlwjyA      fiyzoyuwluwjiyA N0      physiology'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19731,9 +19861,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Fiji'
+        'physiology'
       ],
-      'orig' => 'fiydojiy',
+      'orig' => 'fizoyuwluwjiyA',
       'prefix' => ''
     }
   ],
@@ -19873,27 +20003,6 @@ $Lexicon = {
         'blank cartridges'
       ],
       'orig' => 'fa$iyk',
-      'prefix' => ''
-    }
-  ],
-  'friydmAn' => [
-    {
-      'types' => {},
-      'entry' => 'friydmAn',
-      'form' => 'friydmAn',
-      'lines' => [
-        ';; friydomAn_1',
-        'frydmAn friydomAn       N0      Friedman'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Friedman'
-      ],
-      'orig' => 'friydomAn',
       'prefix' => ''
     }
   ],
@@ -20262,45 +20371,68 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fAwstuw' => [
+  'fImA' => [
     {
-      'types' => {},
-      'entry' => 'fAwstuw',
-      'form' => 'fAwstuw',
+      'types' => {
+        'fiyma' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => 'fiymA',
+      'form' => 'fiymA',
       'lines' => [
-        ';; fAwstuw_1',
-        'fAwstw  fAwstuw N0      Fausto'
+        ';; fiymA_1',
+        'fymA    fiymA   FW-Wa   in what  [[fiy/PREP+mA/REL_PRON]]',
+        'fym     fiyma   FW-Wa   in what  [[fiy/PREP+mA/INTERROG]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'prep',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Fausto'
+        'in what'
       ],
-      'orig' => 'fAwstuw',
+      'orig' => 'fiymA',
       'prefix' => ''
-    }
-  ],
-  'fiyniyks' => [
+    },
     {
       'types' => {},
-      'entry' => 'fiyniyks',
-      'form' => 'fiyniyks',
+      'entry' => 'fiymA',
+      'form' => 'fiymA',
       'lines' => [
-        ';; fiyniyks_1',
-        'fynyks  fiyniyks        N0      Phoenix'
+        ';; fiymA_2',
+        'fymA    fiymA   FW      while;during which     [[fiymA/CONJ]]'
       ],
       'patterns' => {},
-      'index' => '1',
+      'index' => '2',
+      'entity' => 'conj',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'while',
+        'during which'
+      ],
+      'orig' => 'fiymA',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'fiymA',
+      'form' => 'fiymA',
+      'lines' => [
+        ';; fiymA_3',
+        'fymA    fiymA   N0      FEMA (Federal Emergency Management Agency)'
+      ],
+      'patterns' => {},
+      'index' => '3',
       'entity' => 'noun',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Phoenix'
+        'FEMA (Federal Emergency Management Agency)'
       ],
-      'orig' => 'fiyniyks',
+      'orig' => 'fiymA',
       'prefix' => ''
     }
   ],
@@ -20322,32 +20454,6 @@ $Lexicon = {
         'Palestinization'
       ],
       'orig' => 'filasoTanap',
-      'prefix' => ''
-    }
-  ],
-  'friymasun' => [
-    {
-      'types' => {
-        'frimasuwn' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'friymasun',
-      'form' => 'friymasun',
-      'lines' => [
-        ';; friymasun_1',
-        'frymsn  friymasun       N0      Freemason',
-        'frmswn  frimasuwn       N0      Freemason'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Freemason'
-      ],
-      'orig' => 'friymasun',
       'prefix' => ''
     }
   ],
@@ -20561,6 +20667,87 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fIzyUlU^g' => [
+    {
+      'types' => {
+        'fiysyuwluw^giyy' => {
+          'N-ap' => 1
+        }
+      },
+      'entry' => 'fiyzyuwluw^g',
+      'form' => 'fiyzyuwluw^giyy',
+      'lines' => [
+        ';; fiyzyuwluwjiy~_1',
+        'fyzywlwjy       fiyzyuwluwjiy~  N-ap    physiological     [[fiyzyuwluwjiy~/ADJ]]',
+        'fysywlwjy       fiysyuwluwjiy~  N-ap    physiological     [[fiysyuwluwjiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'physiological'
+      ],
+      'orig' => 'fiyzyuwluwjiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'fiysyuwluw^giyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'fiyzyuwluw^g',
+      'form' => 'fiyzyuwluw^giyy',
+      'lines' => [
+        ';; fiyzyuwluwjiy~_2',
+        'fyzywlwjy       fiyzyuwluwjiy~  Nall    physiologist     [[fiyzyuwluwjiy~/ADJ]]',
+        'fysywlwjy       fiysyuwluwjiy~  Nall    physiologist     [[fiysyuwluwjiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'physiologist'
+      ],
+      'orig' => 'fiyzyuwluwjiy~',
+      'prefix' => ''
+    }
+  ],
+  'faylasUf' => [
+    {
+      'types' => {
+        'faylasuwf' => {
+          'NapAt' => 1
+        },
+        'falAsif' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'faylasuwf',
+      'form' => 'faylasuwf',
+      'lines' => [
+        ';; fayolasuwf_1',
+        'fylswf  fayolasuwf      Ndu     philosopher',
+        'fylswf  fayolasuwf      NapAt   philosopher',
+        'flAsf   falAsif Nap     philosophers'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'philosopher',
+        'philosophers'
+      ],
+      'orig' => 'fayolasuwf',
+      'prefix' => ''
+    }
+  ],
   'f .d f .d' => [
     {
       'types' => {
@@ -20630,27 +20817,6 @@ $Lexicon = {
         'pompous'
       ],
       'orig' => 'faDofAD',
-      'prefix' => ''
-    }
-  ],
-  'fAskuw' => [
-    {
-      'types' => {},
-      'entry' => 'fAskuw',
-      'form' => 'fAskuw',
-      'lines' => [
-        ';; fAsokuw_1',
-        'fAskw   fAsokuw Nprop   Vasco'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Vasco'
-      ],
-      'orig' => 'fAsokuw',
       'prefix' => ''
     }
   ],
@@ -21906,44 +22072,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiydirAl' => [
-    {
-      'types' => {
-        'fidirAliyy' => {
-          'Nall' => 2
-        },
-        'fiydiyrAliyy' => {
-          'Nall' => 2
-        },
-        'fidiyrAliyy' => {
-          'Nall' => 2
-        }
-      },
-      'entry' => 'fiydirAl',
-      'form' => 'fiydirAliyy',
-      'lines' => [
-        ';; fiydirAliy~_1',
-        'fydrAly fiydirAliy~     Nall    Federal     [[fiydirAliy~/NOUN]]',
-        'fydrAly fiydirAliy~     Nall    Federal     [[fiydirAliy~/ADJ]]',
-        'fdrAly  fidirAliy~      Nall    Federal     [[fidirAliy~/NOUN]]',
-        'fdrAly  fidirAliy~      Nall    Federal     [[fidirAliy~/ADJ]]',
-        'fdyrAly fidiyrAliy~     Nall    Federal     [[fidiyrAliy~/NOUN]]',
-        'fdyrAly fidiyrAliy~     Nall    Federal     [[fidiyrAliy~/ADJ]]',
-        'fydyrAly        fiydiyrAliy~    Nall    Federal     [[fiydiyrAliy~/NOUN]]',
-        'fydyrAly        fiydiyrAliy~    Nall    Federal     [[fiydiyrAliy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Federal'
-      ],
-      'orig' => 'fiydirAliy~',
-      'prefix' => ''
-    }
-  ],
   'f \' .z' => [
     {
       'types' => {},
@@ -21957,6 +22085,27 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'fA}iZ',
+      'prefix' => ''
+    }
+  ],
+  'fIrnir' => [
+    {
+      'types' => {},
+      'entry' => 'fiyrnir',
+      'form' => 'fiyrnir',
+      'lines' => [
+        ';; fiyronir_1',
+        'fyrnr   fiyronir        Nprop   Werner'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Werner'
+      ],
+      'orig' => 'fiyronir',
       'prefix' => ''
     }
   ],
@@ -22165,28 +22314,6 @@ $Lexicon = {
         'scalps'
       ],
       'orig' => 'farowap',
-      'prefix' => ''
-    }
-  ],
-  'fAl.suw' => [
-    {
-      'types' => {},
-      'entry' => 'fAl.suw',
-      'form' => 'fAl.suw',
-      'lines' => [
-        ';; fAloSuw_1',
-        'fAlSw   fAloSuw N0      bogus;false'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bogus',
-        'false'
-      ],
-      'orig' => 'fAloSuw',
       'prefix' => ''
     }
   ],
@@ -22477,56 +22604,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fuwlkluwr' => [
-    {
-      'types' => {
-        'fulkluwr' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'fuwlkluwr',
-      'form' => 'fuwlkluwr',
-      'lines' => [
-        ';; fuwlkluwr_1',
-        'fwlklwr fuwlkluwr       N       folklore',
-        'flklwr  fulokluwr       N       folklore'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'folklore'
-      ],
-      'orig' => 'fuwlkluwr',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'fulkluwriyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'fuwlkluwr',
-      'form' => 'fuwlkluwriyy',
-      'lines' => [
-        ';; fuwlkluwriy~_1',
-        'fwlklwry        fuwlkluwriy~    Nall    folkloric     [[fuwlkluwriy~/ADJ]]',
-        'flklwry fulokluwriy~    Nall    folkloric     [[fulokluwriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'folkloric'
-      ],
-      'orig' => 'fuwlkluwriy~',
-      'prefix' => ''
-    }
-  ],
   'f z l n' => [
     {
       'types' => {},
@@ -22545,6 +22622,27 @@ $Lexicon = {
         'vaseline'
       ],
       'orig' => 'fazoliyn',
+      'prefix' => ''
+    }
+  ],
+  'fArsUfiyA' => [
+    {
+      'types' => {},
+      'entry' => 'fArsuwfiyA',
+      'form' => 'fArsuwfiyA',
+      'lines' => [
+        ';; fArsuwfiyA_1',
+        'fArswfyA        fArsuwfiyA      Nprop   Warsaw'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Warsaw'
+      ],
+      'orig' => 'fArsuwfiyA',
       'prefix' => ''
     }
   ],
@@ -22599,45 +22697,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiyliybbiyniyy' => [
-    {
-      'types' => {
-        'fiylibbiyniyy' => {
-          'Nall' => 2
-        },
-        'filibbiyniyy' => {
-          'Nall' => 2
-        },
-        'filiybbiyniyy' => {
-          'Nall' => 2
-        }
-      },
-      'entry' => 'fiyliybbiyniyy',
-      'form' => 'fiyliybbiyniyy',
-      'lines' => [
-        ';; fiyliyb~iyniy~_1',
-        'fylybyny        fiyliyb~iyniy~  Nall    Philippine;Filipino     [[filiyb~iyniy~/NOUN]]',
-        'fylybyny        fiyliyb~iyniy~  Nall    Philippine;Filipino     [[filiyb~iyniy~/ADJ]]',
-        'fylbyny fiylib~iyniy~   Nall    Philippine;Filipino     [[fiylib~iyniy~/NOUN]]',
-        'fylbyny fiylib~iyniy~   Nall    Philippine;Filipino     [[fiylib~iyniy~/ADJ]]',
-        'flybyny filiyb~iyniy~   Nall    Philippine;Filipino     [[filiyb~iyniy~/NOUN]]',
-        'flybyny filiyb~iyniy~   Nall    Philippine;Filipino     [[filiyb~iyniy~/ADJ]]',
-        'flbyny  filib~iyniy~    Nall    Philippine;Filipino     [[filib~iyniy~/NOUN]]',
-        'flbyny  filib~iyniy~    Nall    Philippine;Filipino     [[filib~iyniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Philippine',
-        'Filipino'
-      ],
-      'orig' => 'fiyliyb~iyniy~',
-      'prefix' => ''
-    }
-  ],
   'f k n' => [
     {
       'types' => {
@@ -22671,14 +22730,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'frAnkuw' => [
+  'finIqiyA' => [
     {
       'types' => {},
-      'entry' => 'frAnkuw',
-      'form' => 'frAnkuw',
+      'entry' => 'finiyqiyA',
+      'form' => 'finiyqiyA',
       'lines' => [
-        ';; frAnokuw_1',
-        'frAnkw  frAnokuw        Nprop   Franco'
+        ';; finiyqiyA_1',
+        'fnyqyA  finiyqiyA       N0      Phoenicia'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22686,30 +22745,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Franco'
+        'Phoenicia'
       ],
-      'orig' => 'frAnokuw',
-      'prefix' => ''
-    }
-  ],
-  'fuwtuw.grAfiyy' => [
-    {
-      'types' => {},
-      'entry' => 'fuwtuw.grAfiyy',
-      'form' => 'fuwtuw.grAfiyy',
-      'lines' => [
-        ';; fuwtuwgrAfiy~_1',
-        'fwtwgrAfy       fuwtuwgrAfiy~   Nall    photographic     [[fuwtuwgrAfiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'photographic'
-      ],
-      'orig' => 'fuwtuwgrAfiy~',
+      'orig' => 'finiyqiyA',
       'prefix' => ''
     }
   ],
@@ -23097,56 +23135,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fuwsf' => [
-    {
-      'types' => {
-        'fuw.sfAt' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'fuwsf',
-      'form' => 'fuwsfAt',
-      'lines' => [
-        ';; fuwsofAt_1',
-        'fwsfAt  fuwsofAt        N       phosphate',
-        'fwSfAt  fuwSofAt        N       phosphate'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'phosphate'
-      ],
-      'orig' => 'fuwsofAt',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'fuw.sfAtiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'fuwsf',
-      'form' => 'fuwsfAtiyy',
-      'lines' => [
-        ';; fuwsofAtiy~_1',
-        'fwsfAty fuwsofAtiy~     Nall    phosphate     [[fuwsofAtiy~/ADJ]]',
-        'fwSfAty fuwSofAtiy~     Nall    phosphate     [[fuwSofAtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< At |< Iy',
-      'suffix' => ' |< At |< Iy',
-      'glosses' => [
-        'phosphate'
-      ],
-      'orig' => 'fuwsofAtiy~',
-      'prefix' => ''
-    }
-  ],
   'f d f d' => [
     {
       'types' => {
@@ -23196,27 +23184,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'fA}iD',
-      'prefix' => ''
-    }
-  ],
-  'finiyqiyA' => [
-    {
-      'types' => {},
-      'entry' => 'finiyqiyA',
-      'form' => 'finiyqiyA',
-      'lines' => [
-        ';; finiyqiyA_1',
-        'fnyqyA  finiyqiyA       N0      Phoenicia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Phoenicia'
-      ],
-      'orig' => 'finiyqiyA',
       'prefix' => ''
     }
   ],
@@ -23428,27 +23395,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiylAdilfiyA' => [
-    {
-      'types' => {},
-      'entry' => 'fiylAdilfiyA',
-      'form' => 'fiylAdilfiyA',
-      'lines' => [
-        ';; fiylAdilofiyA_1',
-        'fylAdlfyA       fiylAdilofiyA   N0      Philadelphia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Philadelphia'
-      ],
-      'orig' => 'fiylAdilofiyA',
-      'prefix' => ''
-    }
-  ],
   'f y .h' => [
     {
       'types' => {
@@ -23631,6 +23577,27 @@ $Lexicon = {
         'French'
       ],
       'orig' => 'faranosiy~',
+      'prefix' => ''
+    }
+  ],
+  'fa_hrU' => [
+    {
+      'types' => {},
+      'entry' => 'fa_hruw',
+      'form' => 'fa_hruw',
+      'lines' => [
+        ';; faxoruw_1',
+        'fxrw    faxoruw Nprop   Fakhrow'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Fakhrow'
+      ],
+      'orig' => 'faxoruw',
       'prefix' => ''
     }
   ],
@@ -24914,6 +24881,83 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fUsfUr' => [
+    {
+      'types' => {
+        'fuw.sfuwr' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'fuwsfuwr',
+      'form' => 'fuwsfuwr',
+      'lines' => [
+        ';; fuwsofuwr_1',
+        'fwsfwr  fuwsofuwr       N       phosphorus',
+        'fwSfwr  fuwSofuwr       N       phosphorus'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'phosphorus'
+      ],
+      'orig' => 'fuwsofuwr',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'fuw.sfuwriyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'fuwsfuwr',
+      'form' => 'fuwsfuwriyy',
+      'lines' => [
+        ';; fuwsofuwriy~_1',
+        'fwsfwry fuwsofuwriy~    Nall    phosphorous     [[fuwsofuwriy~/ADJ]]',
+        'fwSfwry fuwSofuwriy~    Nall    phosphorous     [[fuwSofuwriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'phosphorous'
+      ],
+      'orig' => 'fuwsofuwriy~',
+      'prefix' => ''
+    }
+  ],
+  'fItAmIn' => [
+    {
+      'types' => {
+        'fiytAmiyn' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'fiytAmiyn',
+      'form' => 'fiytAmiyn',
+      'lines' => [
+        ';; fiytAmiyn_1',
+        'fytAmyn fiytAmiyn       Ndu     vitamin',
+        'fytAmyn fiytAmiyn       NAt     vitamins'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'vitamin',
+        'vitamins'
+      ],
+      'orig' => 'fiytAmiyn',
+      'prefix' => ''
+    }
+  ],
   'f l w r' => [
     {
       'types' => {},
@@ -25992,14 +26036,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'frAybuwr.g' => [
+  'fInIks' => [
     {
       'types' => {},
-      'entry' => 'frAybuwr.g',
-      'form' => 'frAybuwr.g',
+      'entry' => 'fiyniyks',
+      'form' => 'fiyniyks',
       'lines' => [
-        ';; frAyobuwrog_1',
-        'frAybwrg        frAyobuwrog     Nprop   Freiburg'
+        ';; fiyniyks_1',
+        'fynyks  fiyniyks        N0      Phoenix'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26007,46 +26051,25 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Freiburg'
+        'Phoenix'
       ],
-      'orig' => 'frAyobuwrog',
+      'orig' => 'fiyniyks',
       'prefix' => ''
     }
   ],
-  'fiyyinnA' => [
-    {
-      'types' => {},
-      'entry' => 'fiyyinnA',
-      'form' => 'fiyyinnA',
-      'lines' => [
-        ';; fiyyin~A_1',
-        'fyynA   fiyyin~A        N0      Vienna'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Vienna'
-      ],
-      'orig' => 'fiyyin~A',
-      'prefix' => ''
-    }
-  ],
-  'fizyuwluw^giyA' => [
+  'fIktUr' => [
     {
       'types' => {
-        'fiyzyuwluw^giyA' => {
-          'N0' => 1
+        'fiktuwr' => {
+          'Nprop' => 1
         }
       },
-      'entry' => 'fizyuwluw^giyA',
-      'form' => 'fizyuwluw^giyA',
+      'entry' => 'fiyktuwr',
+      'form' => 'fiyktuwr',
       'lines' => [
-        ';; fizoyuwluwjiyA_1',
-        'fzywlwjyA       fizoyuwluwjiyA  N0      physiology',
-        'fyzywlwjyA      fiyzoyuwluwjiyA N0      physiology'
+        ';; fiykotuwr_1',
+        'fyktwr  fiykotuwr       Nprop   Victor;Viktor',
+        'fktwr   fikotuwr        Nprop   Victor;Viktor'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26054,9 +26077,51 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'physiology'
+        'Victor',
+        'Viktor'
       ],
-      'orig' => 'fizoyuwluwjiyA',
+      'orig' => 'fiykotuwr',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'fiyktuwr',
+      'form' => 'fiyktuwriyy',
+      'lines' => [
+        ';; fiykotuwriy~_1',
+        'fyktwry fiykotuwriy~    Nall    Victorian     [[fiykotuwriy~/NOUN]]',
+        'fyktwry fiykotuwriy~    Nall    Victorian     [[fiykotuwriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Victorian'
+      ],
+      'orig' => 'fiykotuwriy~',
+      'prefix' => ''
+    }
+  ],
+  'fIrIrU' => [
+    {
+      'types' => {},
+      'entry' => 'fiyriyruw',
+      'form' => 'fiyriyruw',
+      'lines' => [
+        ';; fiyriyruw_1',
+        'fyryrw  fiyriyruw       Nprop   Ferrero'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Ferrero'
+      ],
+      'orig' => 'fiyriyruw',
       'prefix' => ''
     }
   ],
@@ -26131,41 +26196,57 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiytuw' => [
+  'fIdirAl' => [
     {
       'types' => {
-        'fiytuwh' => {
-          'NAt' => 1
+        'fidirAliyy' => {
+          'Nall' => 2
+        },
+        'fiydiyrAliyy' => {
+          'Nall' => 2
+        },
+        'fidiyrAliyy' => {
+          'Nall' => 2
         }
       },
-      'entry' => 'fiytuw',
-      'form' => 'fiytuw',
+      'entry' => 'fiydirAl',
+      'form' => 'fiydirAliyy',
       'lines' => [
-        ';; fiytuw_1',
-        'fytw    fiytuw  N0      veto',
-        'fytwh   fiytuwh NAt     vetos'
+        ';; fiydirAliy~_1',
+        'fydrAly fiydirAliy~     Nall    Federal     [[fiydirAliy~/NOUN]]',
+        'fydrAly fiydirAliy~     Nall    Federal     [[fiydirAliy~/ADJ]]',
+        'fdrAly  fidirAliy~      Nall    Federal     [[fidirAliy~/NOUN]]',
+        'fdrAly  fidirAliy~      Nall    Federal     [[fidirAliy~/ADJ]]',
+        'fdyrAly fidiyrAliy~     Nall    Federal     [[fidiyrAliy~/NOUN]]',
+        'fdyrAly fidiyrAliy~     Nall    Federal     [[fidiyrAliy~/ADJ]]',
+        'fydyrAly        fiydiyrAliy~    Nall    Federal     [[fiydiyrAliy~/NOUN]]',
+        'fydyrAly        fiydiyrAliy~    Nall    Federal     [[fiydiyrAliy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'veto',
-        'vetos'
+        'Federal'
       ],
-      'orig' => 'fiytuw',
+      'orig' => 'fiydirAliy~',
       'prefix' => ''
     }
   ],
-  'fAwstiynuw' => [
+  'firdInAnd' => [
     {
-      'types' => {},
-      'entry' => 'fAwstiynuw',
-      'form' => 'fAwstiynuw',
+      'types' => {
+        'firdinAnd' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'firdiynAnd',
+      'form' => 'firdiynAnd',
       'lines' => [
-        ';; fAwsotiynuw_1',
-        'fAwstynw        fAwsotiynuw     N0      Faustino'
+        ';; firodiynAnod_1',
+        'frdynAnd        firodiynAnod    N0      Ferdinand',
+        'frdnAnd firodinAnod     N0      Ferdinand'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26173,9 +26254,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Faustino'
+        'Ferdinand'
       ],
-      'orig' => 'fAwsotiynuw',
+      'orig' => 'firodiynAnod',
       'prefix' => ''
     }
   ],
@@ -26615,53 +26696,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiyuwmiyt^siynuw' => [
-    {
-      'types' => {
-        'fiyuwmiy^siynuw' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'fiyuwmiyt^siynuw',
-      'form' => 'fiyuwmiyt^siynuw',
-      'lines' => [
-        ';; fiyuwmiyt$iynuw_1',
-        'fywmyt$ynw      fiyuwmiyt$iynuw N0      Fiumicino',
-        'fywmy$ynw       fiyuwmiy$iynuw  N0      Fiumicino'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Fiumicino'
-      ],
-      'orig' => 'fiyuwmiyt$iynuw',
-      'prefix' => ''
-    }
-  ],
-  'fAzliyn' => [
-    {
-      'types' => {},
-      'entry' => 'fAzliyn',
-      'form' => 'fAzliyn',
-      'lines' => [
-        ';; fAzoliyn_1',
-        'fAzlyn  fAzoliyn        N0      vaseline'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'vaseline'
-      ],
-      'orig' => 'fAzoliyn',
-      'prefix' => ''
-    }
-  ],
   'f ^g ^g' => [
     {
       'types' => {
@@ -26831,6 +26865,33 @@ $Lexicon = {
         'anal sphincters'
       ],
       'orig' => 'faqoHap',
+      'prefix' => ''
+    }
+  ],
+  'iftI' => [
+    {
+      'types' => {
+        'iftiyAt' => {
+          'NAt' => 2
+        }
+      },
+      'entry' => 'iftiy',
+      'form' => 'iftiyAt',
+      'lines' => [
+        ';; {ifotiyAt_1',
+        '<ftyAt  {ifotiyAt       N/At    betrayal;offense',
+        'AftyAt  {ifotiyAt       N/At    betrayal;offense'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'betrayal',
+        'offense'
+      ],
+      'orig' => 'AifotiyAt',
       'prefix' => ''
     }
   ],
@@ -27185,48 +27246,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiyAlly' => [
-    {
-      'types' => {},
-      'entry' => 'fiyAlly',
-      'form' => 'fiyAlly',
-      'lines' => [
-        ';; fiyAlly_1',
-        'fyAlly  fiyAlly Nprop   Vialli'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Vialli'
-      ],
-      'orig' => 'fiyAlly',
-      'prefix' => ''
-    }
-  ],
-  'fAtriyn' => [
-    {
-      'types' => {},
-      'entry' => 'fAtriyn',
-      'form' => 'fAtriynaT',
-      'lines' => [
-        ';; fAtoriynap_1',
-        'fAtryn  fAtoriyn        NapAt   display window'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'display window'
-      ],
-      'orig' => 'fAtoriynap',
-      'prefix' => ''
-    }
-  ],
   'frAnsuwA' => [
     {
       'types' => {},
@@ -27354,6 +27373,27 @@ $Lexicon = {
         'vacationing'
       ],
       'orig' => 'mufar~iS',
+      'prefix' => ''
+    }
+  ],
+  'fIzA' => [
+    {
+      'types' => {},
+      'entry' => 'fiyzA',
+      'form' => 'fiyzA',
+      'lines' => [
+        ';; fiyzA_1',
+        'fyzA    fiyzA   N0      visa'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'visa'
+      ],
+      'orig' => 'fiyzA',
       'prefix' => ''
     }
   ],
@@ -28736,14 +28776,35 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiyliybs' => [
+  'fUtU.grAfIy' => [
     {
       'types' => {},
-      'entry' => 'fiyliybs',
-      'form' => 'fiyliybs',
+      'entry' => 'fuwtuw.grAfiyy',
+      'form' => 'fuwtuw.grAfiyy',
       'lines' => [
-        ';; fiyliybs_1',
-        'fylybs  fiyliybs        N0      Phillips;Philips'
+        ';; fuwtuwgrAfiy~_1',
+        'fwtwgrAfy       fuwtuwgrAfiy~   Nall    photographic     [[fuwtuwgrAfiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'photographic'
+      ],
+      'orig' => 'fuwtuwgrAfiy~',
+      'prefix' => ''
+    }
+  ],
+  'fUtU.grAfiyA' => [
+    {
+      'types' => {},
+      'entry' => 'fuwtuw.grAfiyA',
+      'form' => 'fuwtuw.grAfiyA',
+      'lines' => [
+        ';; fuwtuwgrAfiyA_1',
+        'fwtwgrAfyA      fuwtuwgrAfiyA   N0      photography'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28751,10 +28812,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Phillips',
-        'Philips'
+        'photography'
       ],
-      'orig' => 'fiyliybs',
+      'orig' => 'fuwtuwgrAfiyA',
       'prefix' => ''
     }
   ],
@@ -28920,6 +28980,27 @@ $Lexicon = {
       'suffix' => ' |< Iy',
       'glosses' => [],
       'orig' => 'AisotifotA}iy~',
+      'prefix' => ''
+    }
+  ],
+  'fAzlIn' => [
+    {
+      'types' => {},
+      'entry' => 'fAzliyn',
+      'form' => 'fAzliyn',
+      'lines' => [
+        ';; fAzoliyn_1',
+        'fAzlyn  fAzoliyn        N0      vaseline'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'vaseline'
+      ],
+      'orig' => 'fAzoliyn',
       'prefix' => ''
     }
   ],
@@ -29181,6 +29262,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'frAnkU' => [
+    {
+      'types' => {},
+      'entry' => 'frAnkuw',
+      'form' => 'frAnkuw',
+      'lines' => [
+        ';; frAnokuw_1',
+        'frAnkw  frAnokuw        Nprop   Franco'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Franco'
+      ],
+      'orig' => 'frAnokuw',
+      'prefix' => ''
+    }
+  ],
   'f .s f t' => [
     {
       'types' => {
@@ -29246,6 +29348,32 @@ $Lexicon = {
         'treated with phosphate'
       ],
       'orig' => 'mufaSofat',
+      'prefix' => ''
+    }
+  ],
+  'flAminkU' => [
+    {
+      'types' => {
+        'flAmiynkuw' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'flAminkuw',
+      'form' => 'flAminkuw',
+      'lines' => [
+        ';; flAminokuw_1',
+        'flAmnkw flAminokuw      N0      flamenco',
+        'flAmynkw        flAmiynokuw     N0      flamenco'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'flamenco'
+      ],
+      'orig' => 'flAminokuw',
       'prefix' => ''
     }
   ],
@@ -29652,14 +29780,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fuwlfuw' => [
+  'fIfrI' => [
     {
       'types' => {},
-      'entry' => 'fuwlfuw',
-      'form' => 'fuwlfuw',
+      'entry' => 'fiyfriy',
+      'form' => 'fiyfriy',
       'lines' => [
-        ';; fuwlofuw_1',
-        'fwlfw   fuwlofuw        Nprop   Volvo'
+        ';; fiyfriy_1',
+        'fyfry   fiyfriy N0      February'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29667,20 +29795,25 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Volvo'
+        'February'
       ],
-      'orig' => 'fuwlofuw',
+      'orig' => 'fiyfriy',
       'prefix' => ''
     }
   ],
-  'fluwriydA' => [
+  'fAnIsA' => [
     {
-      'types' => {},
-      'entry' => 'fluwriydA',
-      'form' => 'fluwriydA',
+      'types' => {
+        'fAniyk' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'fAniysA',
+      'form' => 'fAniysA',
       'lines' => [
-        ';; fluwriydA_1',
-        'flwrydA fluwriydA       Nprop   Florida'
+        ';; fAniysA_1',
+        'fAnysA  fAniysA Nprop   Vanessa',
+        'fAnyk   fAniyk  Nprop   Vanek'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29688,9 +29821,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Florida'
+        'Vanessa',
+        'Vanek'
       ],
-      'orig' => 'fluwriydA',
+      'orig' => 'fAniysA',
       'prefix' => ''
     }
   ],
@@ -29712,6 +29846,47 @@ $Lexicon = {
         'Vedpathak'
       ],
       'orig' => 'fadobAtAk',
+      'prefix' => ''
+    }
+  ],
+  'filas.tIn' => [
+    {
+      'types' => {},
+      'entry' => 'filas.tiyn',
+      'form' => 'filas.tiyn',
+      'lines' => [
+        ';; filasoTiyn_1',
+        'flsTyn  filasoTiyn      Ndip    Palestine'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Palestine'
+      ],
+      'orig' => 'filasoTiyn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'filas.tiyn',
+      'form' => 'filas.tiyniyy',
+      'lines' => [
+        ';; filasoTiyniy~_1',
+        'flsTyny filasoTiyniy~   Nall    Palestinian     [[filasoTiyniy~/NOUN]]',
+        'flsTyny filasoTiyniy~   Nall    Palestinian     [[filasoTiyniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Palestinian'
+      ],
+      'orig' => 'filasoTiyniy~',
       'prefix' => ''
     }
   ],
@@ -29780,6 +29955,27 @@ $Lexicon = {
         'treated with phosphate'
       ],
       'orig' => 'mufasofat',
+      'prefix' => ''
+    }
+  ],
+  'fUltA' => [
+    {
+      'types' => {},
+      'entry' => 'fuwltA',
+      'form' => 'fuwltA',
+      'lines' => [
+        ';; fuwlotA_1',
+        'fwltA   fuwlotA N0      Volta'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Volta'
+      ],
+      'orig' => 'fuwlotA',
       'prefix' => ''
     }
   ],
@@ -29908,6 +30104,37 @@ $Lexicon = {
         'Fuhais'
       ],
       'orig' => 'fuHayoS',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'afA.hiy.s' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'uf.huw.s',
+      'form' => '\'uf.huw.s',
+      'lines' => [
+        ';; >ufoHuwS_1',
+        '>fHwS   >ufoHuwS        Ndu     nesting place',
+        'AfHwS   >ufoHuwS        Ndu     nesting place',
+        '>fAHyS  >afAHiyS        Ndip    nesting places',
+        'AfAHyS  >afAHiyS        Ndip    nesting places'
+      ],
+      'patterns' => {
+        '\'afA.hiy.s' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL',
+      'suffix' => '',
+      'glosses' => [
+        'nesting place',
+        'nesting places'
+      ],
+      'orig' => 'OufoHuwS',
       'prefix' => ''
     },
     {
@@ -30199,6 +30426,27 @@ $Lexicon = {
         'herniated'
       ],
       'orig' => 'mafotuwq',
+      'prefix' => ''
+    }
+  ],
+  'fAlU_da^g' => [
+    {
+      'types' => {},
+      'entry' => 'fAluw_da^g',
+      'form' => 'fAluw_da^g',
+      'lines' => [
+        ';; fAluw*aj_1',
+        'fAlw*j  fAluw*aj        N0      pastry'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'pastry'
+      ],
+      'orig' => 'fAluw*aj',
       'prefix' => ''
     }
   ],
@@ -30738,14 +30986,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiydAkuwfiyt^s' => [
+  'flUrIdA' => [
     {
       'types' => {},
-      'entry' => 'fiydAkuwfiyt^s',
-      'form' => 'fiydAkuwfiyt^s',
+      'entry' => 'fluwriydA',
+      'form' => 'fluwriydA',
       'lines' => [
-        ';; fiydAkuwfiyt$_1',
-        'fydAkwfyt$      fiydAkuwfiyt$   N0      Vedakovic'
+        ';; fluwriydA_1',
+        'flwrydA fluwriydA       Nprop   Florida'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30753,27 +31001,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Vedakovic'
+        'Florida'
       ],
-      'orig' => 'fiydAkuwfiyt$',
+      'orig' => 'fluwriydA',
       'prefix' => ''
     }
   ],
-  '\'ufnuwn' => [
+  'fAhAnIn' => [
     {
-      'types' => {
-        '\'afAniyn' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'ufnuwn',
-      'form' => '\'ufnuwn',
+      'types' => {},
+      'entry' => 'fAhAniyn',
+      'form' => 'fAhAniyn',
       'lines' => [
-        ';; >ufonuwn_1',
-        '>fnwn   >ufonuwn        Ndu     category;technique',
-        'Afnwn   >ufonuwn        Ndu     category;technique',
-        '>fAnyn  >afAniyn        Ndip    categories;techniques',
-        'AfAnyn  >afAniyn        Ndip    categories;techniques'
+        ';; fAhAniyn_1',
+        'fAhAnyn fAhAniyn        Nprop   Vahanen'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30781,23 +31022,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'category',
-        'technique',
-        'categories',
-        'techniques'
+        'Vahanen'
       ],
-      'orig' => 'Oufonuwn',
+      'orig' => 'fAhAniyn',
       'prefix' => ''
     }
   ],
-  'fiylAnuwiyfA' => [
+  'frAnsIskU' => [
     {
       'types' => {},
-      'entry' => 'fiylAnuwiyfA',
-      'form' => 'fiylAnuwiyfA',
+      'entry' => 'frAnsiyskuw',
+      'form' => 'frAnsiyskuw',
       'lines' => [
-        ';; fiylAnuwiyfA_1',
-        'fylAnwyfA       fiylAnuwiyfA    Nprop   Villanueva'
+        ';; frAnosiysokuw_1',
+        'frAnsyskw       frAnosiysokuw   Nprop   Francisco'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30805,9 +31043,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Villanueva'
+        'Francisco'
       ],
-      'orig' => 'fiylAnuwiyfA',
+      'orig' => 'frAnosiysokuw',
       'prefix' => ''
     }
   ],
@@ -31418,14 +31656,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fAluw_da^g' => [
+  'fiktUriyA' => [
     {
-      'types' => {},
-      'entry' => 'fAluw_da^g',
-      'form' => 'fAluw_da^g',
+      'types' => {
+        'fiyktuwriyA' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'fiktuwriyA',
+      'form' => 'fiktuwriyA',
       'lines' => [
-        ';; fAluw*aj_1',
-        'fAlw*j  fAluw*aj        N0      pastry'
+        ';; fikotuwriyA_1',
+        'fyktwryA        fiykotuwriyA    Nprop   Victoria',
+        'fktwryA fikotuwriyA     Nprop   Victoria'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31433,9 +31676,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'pastry'
+        'Victoria'
       ],
-      'orig' => 'fAluw*aj',
+      'orig' => 'fikotuwriyA',
+      'prefix' => ''
+    }
+  ],
+  'fI^gIstI' => [
+    {
+      'types' => {},
+      'entry' => 'fiy^giystiy',
+      'form' => 'fiy^giystiy',
+      'lines' => [
+        ';; fiyjiysotiy_1',
+        'fyjysty fiyjiysotiy     Nprop   Vijesti'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Vijesti'
+      ],
+      'orig' => 'fiyjiysotiy',
       'prefix' => ''
     }
   ],
@@ -32146,6 +32410,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fUrmUlA' => [
+    {
+      'types' => {},
+      'entry' => 'fuwrmuwlA',
+      'form' => 'fuwrmuwlA',
+      'lines' => [
+        ';; fuwromuwlA_1',
+        'fwrmwlA fuwromuwlA      N0      Formula'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Formula'
+      ],
+      'orig' => 'fuwromuwlA',
+      'prefix' => ''
+    }
+  ],
   'frAydmAn' => [
     {
       'types' => {},
@@ -32164,47 +32449,6 @@ $Lexicon = {
         'Frydman'
       ],
       'orig' => 'frAydomAn',
-      'prefix' => ''
-    }
-  ],
-  'filas.tiyn' => [
-    {
-      'types' => {},
-      'entry' => 'filas.tiyn',
-      'form' => 'filas.tiyn',
-      'lines' => [
-        ';; filasoTiyn_1',
-        'flsTyn  filasoTiyn      Ndip    Palestine'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Palestine'
-      ],
-      'orig' => 'filasoTiyn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'filas.tiyn',
-      'form' => 'filas.tiyniyy',
-      'lines' => [
-        ';; filasoTiyniy~_1',
-        'flsTyny filasoTiyniy~   Nall    Palestinian     [[filasoTiyniy~/NOUN]]',
-        'flsTyny filasoTiyniy~   Nall    Palestinian     [[filasoTiyniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Palestinian'
-      ],
-      'orig' => 'filasoTiyniy~',
       'prefix' => ''
     }
   ],
@@ -33041,37 +33285,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'faylasuwf' => [
-    {
-      'types' => {
-        'faylasuwf' => {
-          'NapAt' => 1
-        },
-        'falAsif' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'faylasuwf',
-      'form' => 'faylasuwf',
-      'lines' => [
-        ';; fayolasuwf_1',
-        'fylswf  fayolasuwf      Ndu     philosopher',
-        'fylswf  fayolasuwf      NapAt   philosopher',
-        'flAsf   falAsif Nap     philosophers'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'philosopher',
-        'philosophers'
-      ],
-      'orig' => 'fayolasuwf',
-      'prefix' => ''
-    }
-  ],
   '\'ifl' => [
     {
       'types' => {
@@ -33630,6 +33843,27 @@ $Lexicon = {
         'brush'
       ],
       'orig' => 'firjawon',
+      'prefix' => ''
+    }
+  ],
+  'frIdmAn' => [
+    {
+      'types' => {},
+      'entry' => 'friydmAn',
+      'form' => 'friydmAn',
+      'lines' => [
+        ';; friydomAn_1',
+        'frydmAn friydomAn       N0      Friedman'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Friedman'
+      ],
+      'orig' => 'friydomAn',
       'prefix' => ''
     }
   ],
@@ -34402,6 +34636,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fUnUlU^giyA' => [
+    {
+      'types' => {},
+      'entry' => 'fuwnuwluw^giyA',
+      'form' => 'fuwnuwluw^giyA',
+      'lines' => [
+        ';; fuwnuwluwjiyA_1',
+        'fwnwlwjyA       fuwnuwluwjiyA   N0      phonology'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'phonology'
+      ],
+      'orig' => 'fuwnuwluwjiyA',
+      'prefix' => ''
+    }
+  ],
   'f w n m' => [
     {
       'types' => {
@@ -34466,6 +34721,27 @@ $Lexicon = {
         'Frazier'
       ],
       'orig' => 'frAyozir',
+      'prefix' => ''
+    }
+  ],
+  'fiyAkUm' => [
+    {
+      'types' => {},
+      'entry' => 'fiyAkuwm',
+      'form' => 'fiyAkuwm',
+      'lines' => [
+        ';; fiyAkuwm_1',
+        'fyAkwm  fiyAkuwm        Nprop   Viacom'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Viacom'
+      ],
+      'orig' => 'fiyAkuwm',
       'prefix' => ''
     }
   ],
@@ -34637,33 +34913,6 @@ $Lexicon = {
         'calamities'
       ],
       'orig' => 'fAdiHap',
-      'prefix' => ''
-    }
-  ],
-  'iftiy' => [
-    {
-      'types' => {
-        'iftiyAt' => {
-          'NAt' => 2
-        }
-      },
-      'entry' => 'iftiy',
-      'form' => 'iftiyAt',
-      'lines' => [
-        ';; {ifotiyAt_1',
-        '<ftyAt  {ifotiyAt       N/At    betrayal;offense',
-        'AftyAt  {ifotiyAt       N/At    betrayal;offense'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'betrayal',
-        'offense'
-      ],
-      'orig' => 'AifotiyAt',
       'prefix' => ''
     }
   ],
@@ -35040,54 +35289,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiyzyA\'' => [
+  'faransIs' => [
     {
       'types' => {
-        'fiyzyA\'iyy' => {
-          'N-ap' => 1
-        },
-        'fiyzyY' => {
+        'fransiys' => {
           'N0' => 1
         }
       },
-      'entry' => 'fiyzyA\'',
-      'form' => 'fiyzyA\'',
+      'entry' => 'faransiys',
+      'form' => 'faransiys',
       'lines' => [
-        ';; fiyzyA\'_1',
-        'fyzyA\'  fiyzyA\' N0_Nh   physics',
-        'fyzyA&  fiyzyA& Nh      physics',
-        'fyzyA}  fiyzyA} Nhy     physics',
-        'fyzyA   fiyzyA  N0      physics',
-        'fyzyA}y fiyzyA}iy~      N-ap    physics     [[fiyzyA}iy~/ADJ]]'
+        ';; faranosiys_1',
+        'frnsys  franosiys       N0      Francis'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'noun',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'physics'
+        'Francis'
       ],
-      'orig' => 'fiyzyA\'',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'fiyzyA\'',
-      'form' => 'fiyzyA\'iyy',
-      'lines' => [
-        ';; fiyzyA}iy~_1',
-        'fyzyA}y fiyzyA}iy~      Nall    physicist     [[fiyzyA}iy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'physicist'
-      ],
-      'orig' => 'fiyzyA}iy~',
+      'orig' => 'faranosiys',
       'prefix' => ''
     }
   ],
@@ -35556,27 +35779,6 @@ $Lexicon = {
       'suffix' => ' |<< "awIy"',
       'glosses' => [],
       'orig' => 'fatawiy~',
-      'prefix' => ''
-    }
-  ],
-  'fa_hruw' => [
-    {
-      'types' => {},
-      'entry' => 'fa_hruw',
-      'form' => 'fa_hruw',
-      'lines' => [
-        ';; faxoruw_1',
-        'fxrw    faxoruw Nprop   Fakhrow'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Fakhrow'
-      ],
-      'orig' => 'faxoruw',
       'prefix' => ''
     }
   ],
@@ -36578,36 +36780,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fasuwliyA' => [
-    {
-      'types' => {
-        'fasuwliyah' => {
-          'N0' => 1
-        },
-        'fasuwliy' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'fasuwliyA',
-      'form' => 'fasuwliyA',
-      'lines' => [
-        ';; fasuwliyA_1',
-        'fswlyA  fasuwliyA       N0      beans',
-        'fswlyh  fasuwliyah      N0      beans',
-        'fswly   fasuwliy        Nap     beans'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'beans'
-      ],
-      'orig' => 'fasuwliyA',
-      'prefix' => ''
-    }
-  ],
   'f y .s l' => [
     {
       'types' => {},
@@ -36690,6 +36862,33 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fItU' => [
+    {
+      'types' => {
+        'fiytuwh' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'fiytuw',
+      'form' => 'fiytuw',
+      'lines' => [
+        ';; fiytuw_1',
+        'fytw    fiytuw  N0      veto',
+        'fytwh   fiytuwh NAt     vetos'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'veto',
+        'vetos'
+      ],
+      'orig' => 'fiytuw',
+      'prefix' => ''
+    }
+  ],
   'f n q' => [
     {
       'types' => {},
@@ -36709,27 +36908,6 @@ $Lexicon = {
         'live in comfort'
       ],
       'orig' => 'tafan~aq',
-      'prefix' => ''
-    }
-  ],
-  'fa_hrAldiyn' => [
-    {
-      'types' => {},
-      'entry' => 'fa_hrAldiyn',
-      'form' => 'fa_hrAldiyn',
-      'lines' => [
-        ';; faxorAldiyn_1',
-        'fxrAldyn        faxorAldiyn     N0      Fakhr Eddin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Fakhr Eddin'
-      ],
-      'orig' => 'faxorAldiyn',
       'prefix' => ''
     }
   ],
@@ -36850,28 +37028,6 @@ $Lexicon = {
         'Fashir'
       ],
       'orig' => 'fa$iyr',
-      'prefix' => ''
-    }
-  ],
-  'fiyniyqiyy' => [
-    {
-      'types' => {},
-      'entry' => 'fiyniyqiyy',
-      'form' => 'fiyniyqiyy',
-      'lines' => [
-        ';; fiyniyqiy~_1',
-        'fynyqy  fiyniyqiy~      Nall    Phoenician     [[fiyniyqiy~/NOUN]]',
-        'fynyqy  fiyniyqiy~      Nall    Phoenician     [[fiyniyqiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Phoenician'
-      ],
-      'orig' => 'fiyniyqiy~',
       'prefix' => ''
     }
   ],
@@ -37552,92 +37708,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiymA' => [
-    {
-      'types' => {
-        'fiyma' => {
-          'FW-Wa' => 1
-        }
-      },
-      'entry' => 'fiymA',
-      'form' => 'fiymA',
-      'lines' => [
-        ';; fiymA_1',
-        'fymA    fiymA   FW-Wa   in what  [[fiy/PREP+mA/REL_PRON]]',
-        'fym     fiyma   FW-Wa   in what  [[fiy/PREP+mA/INTERROG]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'prep',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'in what'
-      ],
-      'orig' => 'fiymA',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'fiymA',
-      'form' => 'fiymA',
-      'lines' => [
-        ';; fiymA_2',
-        'fymA    fiymA   FW      while;during which     [[fiymA/CONJ]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'conj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'while',
-        'during which'
-      ],
-      'orig' => 'fiymA',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'fiymA',
-      'form' => 'fiymA',
-      'lines' => [
-        ';; fiymA_3',
-        'fymA    fiymA   N0      FEMA (Federal Emergency Management Agency)'
-      ],
-      'patterns' => {},
-      'index' => '3',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'FEMA (Federal Emergency Management Agency)'
-      ],
-      'orig' => 'fiymA',
-      'prefix' => ''
-    }
-  ],
-  'fran^giyh' => [
-    {
-      'types' => {},
-      'entry' => 'fran^giyh',
-      'form' => 'fran^giyh',
-      'lines' => [
-        ';; franojiyh_1',
-        'frnjyh  franojiyh       N0      Franjieh'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Franjieh'
-      ],
-      'orig' => 'franojiyh',
-      'prefix' => ''
-    }
-  ],
   'f r m' => [
     {
       'types' => {
@@ -38210,27 +38280,6 @@ $Lexicon = {
         'Venezuela'
       ],
       'orig' => 'finizuwil~A',
-      'prefix' => ''
-    }
-  ],
-  'flAdiy' => [
-    {
-      'types' => {},
-      'entry' => 'flAdiy',
-      'form' => 'flAdiy',
-      'lines' => [
-        ';; flAdiy_1',
-        'flAdy   flAdiy  Nprop   Vladi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Vladi'
-      ],
-      'orig' => 'flAdiy',
       'prefix' => ''
     }
   ],
@@ -38825,14 +38874,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fu\'Adiy' => [
+  'fIlAdilfiyA' => [
     {
       'types' => {},
-      'entry' => 'fu\'Adiy',
-      'form' => 'fu\'Adiy',
+      'entry' => 'fiylAdilfiyA',
+      'form' => 'fiylAdilfiyA',
       'lines' => [
-        ';; fu&Adiy_1',
-        'f&Ady   fu&Adiy N0      Fuadi;Fouadi'
+        ';; fiylAdilofiyA_1',
+        'fylAdlfyA       fiylAdilofiyA   N0      Philadelphia'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38840,10 +38889,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Fuadi',
-        'Fouadi'
+        'Philadelphia'
       ],
-      'orig' => 'fuWAdiy',
+      'orig' => 'fiylAdilofiyA',
+      'prefix' => ''
+    }
+  ],
+  'fI.gU' => [
+    {
+      'types' => {},
+      'entry' => 'fiy.guw',
+      'form' => 'fiy.guw',
+      'lines' => [
+        ';; fiyguw_1',
+        'fygw    fiyguw  Nprop   Figo'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Figo'
+      ],
+      'orig' => 'fiyguw',
       'prefix' => ''
     }
   ],
@@ -39612,14 +39681,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiy^giystiy' => [
+  'frAybUr.g' => [
     {
       'types' => {},
-      'entry' => 'fiy^giystiy',
-      'form' => 'fiy^giystiy',
+      'entry' => 'frAybuwr.g',
+      'form' => 'frAybuwr.g',
       'lines' => [
-        ';; fiyjiysotiy_1',
-        'fyjysty fiyjiysotiy     Nprop   Vijesti'
+        ';; frAyobuwrog_1',
+        'frAybwrg        frAyobuwrog     Nprop   Freiburg'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39627,9 +39696,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Vijesti'
+        'Freiburg'
       ],
-      'orig' => 'fiyjiysotiy',
+      'orig' => 'frAyobuwrog',
       'prefix' => ''
     }
   ],
@@ -39656,6 +39725,31 @@ $Lexicon = {
         'Viagra'
       ],
       'orig' => 'fiyAgrA',
+      'prefix' => ''
+    }
+  ],
+  'frAyntI' => [
+    {
+      'types' => {
+        'frAynty' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'frAyntiy',
+      'form' => 'frAyntiy',
+      'lines' => [
+        ';; frAyntiy_1',
+        'frAynty frAynty Nprop   Vraientti ??'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Vraientti ??'
+      ],
+      'orig' => 'frAyntiy',
       'prefix' => ''
     }
   ],
@@ -39713,14 +39807,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'frAynty' => [
+  'fIfA' => [
     {
       'types' => {},
-      'entry' => 'frAynty',
-      'form' => 'frAynty',
+      'entry' => 'fiyfA',
+      'form' => 'fiyfA',
       'lines' => [
-        ';; frAynty_1',
-        'frAynty frAynty Nprop   Vraientti ??'
+        ';; fiyfA_1',
+        'fyfA    fiyfA   N0      FIFA (Federation Internationale de Football Association)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39728,9 +39822,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Vraientti ??'
+        'FIFA (Federation Internationale de Football Association)'
       ],
-      'orig' => 'frAynty',
+      'orig' => 'fiyfA',
       'prefix' => ''
     }
   ],
@@ -39878,14 +39972,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fuw.gts' => [
+  'firnAndIz' => [
     {
-      'types' => {},
-      'entry' => 'fuw.gts',
-      'form' => 'fuw.gts',
+      'types' => {
+        'firnAndiz' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'firnAndiyz',
+      'form' => 'firnAndiyz',
       'lines' => [
-        ';; fuwgts_1',
-        'fwgts   fuwgts  Nprop   Vogts'
+        ';; fironAnodiyz_1',
+        'frnAndyz        fironAnodiyz    Nprop   Fernandez',
+        'frnAndz fironAnodiz     Nprop   Fernandez'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39893,9 +39992,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Vogts'
+        'Fernandez'
       ],
-      'orig' => 'fuwgts',
+      'orig' => 'fironAnodiyz',
       'prefix' => ''
     }
   ],
@@ -39945,70 +40044,45 @@ $Lexicon = {
       ],
       'orig' => 'fiytuwr',
       'prefix' => ''
-    }
-  ],
-  'fiyliybuwsiys' => [
-    {
-      'types' => {},
-      'entry' => 'fiyliybuwsiys',
-      'form' => 'fiyliybuwsiys',
-      'lines' => [
-        ';; fiyliybuwsiys_1',
-        'fylybwsys       fiyliybuwsiys   Nprop   Philippoussis'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Philippoussis'
-      ],
-      'orig' => 'fiyliybuwsiys',
-      'prefix' => ''
-    }
-  ],
-  'fuwnuw.grAf' => [
-    {
-      'types' => {
-        'fuwnuw.grAf' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'fuwnuw.grAf',
-      'form' => 'fuwnuw.grAf',
-      'lines' => [
-        ';; fuwnuwgrAf_1',
-        'fwnwgrAf        fuwnuwgrAf      N/At    phonograph'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'phonograph'
-      ],
-      'orig' => 'fuwnuwgrAf',
-      'prefix' => ''
     },
     {
       'types' => {},
-      'entry' => 'fuwnuw.grAf',
-      'form' => 'fuwnuw.grAfiyy',
+      'entry' => 'fiytuwr',
+      'form' => 'fiytuwriyy',
       'lines' => [
-        ';; fuwnuwgrAfiy~_1',
-        'fwnwgrAfy       fuwnuwgrAfiy~   Nall    phonographic     [[fuwnuwgrAfiy~/ADJ]]'
+        ';; fiytuwriy~_1',
+        'fytwry  fiytuwriy~      N0      Fitouri;Fituri'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
+      'morphs' => 'KiRDUS |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'phonographic'
+        'Fitouri',
+        'Fituri'
       ],
-      'orig' => 'fuwnuwgrAfiy~',
+      'orig' => 'fiytuwriy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'faytuwr',
+      'form' => 'faytuwriyy',
+      'lines' => [
+        ';; fayotuwriy~_1',
+        'fytwry  fayotuwriy~     N0      Faitouri;Faituri'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KaRDUS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Faitouri',
+        'Faituri'
+      ],
+      'orig' => 'fayotuwriy~',
       'prefix' => ''
     }
   ],
@@ -40218,6 +40292,27 @@ $Lexicon = {
         'Financial'
       ],
       'orig' => 'fAynAn$Al',
+      'prefix' => ''
+    }
+  ],
+  'flUrisint' => [
+    {
+      'types' => {},
+      'entry' => 'fluwrisint',
+      'form' => 'fluwrisint',
+      'lines' => [
+        ';; fluwrisint_1',
+        'flwrsnt fluwrisint      N0      fluorescent'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'fluorescent'
+      ],
+      'orig' => 'fluwrisint',
       'prefix' => ''
     }
   ],
@@ -40470,6 +40565,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fAskIz' => [
+    {
+      'types' => {},
+      'entry' => 'fAskiyz',
+      'form' => 'fAskiyz',
+      'lines' => [
+        ';; fAsokiyz_1',
+        'fAskyz  fAsokiyz        Nprop   Vasquez'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Vasquez'
+      ],
+      'orig' => 'fAsokiyz',
+      'prefix' => ''
+    }
+  ],
   'f m m' => [
     {
       'types' => {},
@@ -40518,14 +40634,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiytuwriyy' => [
+  'fIt^sanzA' => [
     {
       'types' => {},
-      'entry' => 'fiytuwriyy',
-      'form' => 'fiytuwriyy',
+      'entry' => 'fiyt^sanzA',
+      'form' => 'fiyt^sanzA',
       'lines' => [
-        ';; fiytuwriy~_1',
-        'fytwry  fiytuwriy~      N0      Fitouri;Fituri'
+        ';; fiyt$anozA_1',
+        'fyt$nzA fiyt$anozA      Nprop   Vicenza'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40533,10 +40649,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Fitouri',
-        'Fituri'
+        'Vicenza'
       ],
-      'orig' => 'fiytuwriy~',
+      'orig' => 'fiyt$anozA',
       'prefix' => ''
     }
   ],
@@ -40608,27 +40723,6 @@ $Lexicon = {
         'astride'
       ],
       'orig' => 'mufaro$ix',
-      'prefix' => ''
-    }
-  ],
-  'fuwtuw.grAfiyA' => [
-    {
-      'types' => {},
-      'entry' => 'fuwtuw.grAfiyA',
-      'form' => 'fuwtuw.grAfiyA',
-      'lines' => [
-        ';; fuwtuwgrAfiyA_1',
-        'fwtwgrAfyA      fuwtuwgrAfiyA   N0      photography'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'photography'
-      ],
-      'orig' => 'fuwtuwgrAfiyA',
       'prefix' => ''
     }
   ],
@@ -41015,14 +41109,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fuwtsiy' => [
+  'fIkUfIt^s' => [
     {
       'types' => {},
-      'entry' => 'fuwtsiy',
-      'form' => 'fuwtsiy',
+      'entry' => 'fiykuwfiyt^s',
+      'form' => 'fiykuwfiyt^s',
       'lines' => [
-        ';; fuwtosiy_1',
-        'fwtsy   fuwtosiy        N0      FTSE (Financial Times Stock Exchange)'
+        ';; fiykuwfiyt$_1',
+        'fykwfyt$        fiykuwfiyt$     Nprop   Vickovic'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41030,9 +41124,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'FTSE (Financial Times Stock Exchange)'
+        'Vickovic'
       ],
-      'orig' => 'fuwtosiy',
+      'orig' => 'fiykuwfiyt$',
       'prefix' => ''
     }
   ],
@@ -41294,6 +41388,39 @@ $Lexicon = {
     },
     {
       'types' => {
+        '\'afAniyn' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'ufnuwn',
+      'form' => '\'ufnuwn',
+      'lines' => [
+        ';; >ufonuwn_1',
+        '>fnwn   >ufonuwn        Ndu     category;technique',
+        'Afnwn   >ufonuwn        Ndu     category;technique',
+        '>fAnyn  >afAniyn        Ndip    categories;techniques',
+        'AfAnyn  >afAniyn        Ndip    categories;techniques'
+      ],
+      'patterns' => {
+        '\'afAniyn' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL',
+      'suffix' => '',
+      'glosses' => [
+        'category',
+        'technique',
+        'categories',
+        'techniques'
+      ],
+      'orig' => 'Oufonuwn',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'tafannun' => {
           'NAt' => 1
         }
@@ -41388,6 +41515,56 @@ $Lexicon = {
         'masterful'
       ],
       'orig' => 'mufotan~',
+      'prefix' => ''
+    }
+  ],
+  'fUlklUr' => [
+    {
+      'types' => {
+        'fulkluwr' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'fuwlkluwr',
+      'form' => 'fuwlkluwr',
+      'lines' => [
+        ';; fuwlkluwr_1',
+        'fwlklwr fuwlkluwr       N       folklore',
+        'flklwr  fulokluwr       N       folklore'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'folklore'
+      ],
+      'orig' => 'fuwlkluwr',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'fulkluwriyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'fuwlkluwr',
+      'form' => 'fuwlkluwriyy',
+      'lines' => [
+        ';; fuwlkluwriy~_1',
+        'fwlklwry        fuwlkluwriy~    Nall    folkloric     [[fuwlkluwriy~/ADJ]]',
+        'flklwry fulokluwriy~    Nall    folkloric     [[fulokluwriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'folkloric'
+      ],
+      'orig' => 'fuwlkluwriy~',
       'prefix' => ''
     }
   ],
@@ -42975,26 +43152,25 @@ $Lexicon = {
       ],
       'orig' => 'fahod',
       'prefix' => ''
-    }
-  ],
-  'fliy.hAn' => [
+    },
     {
       'types' => {},
-      'entry' => 'fliy.hAn',
-      'form' => 'fliy.hAn',
+      'entry' => 'fuhayd',
+      'form' => 'fuhayd',
       'lines' => [
-        ';; fliyHAn_1',
-        'flyHAn  fliyHAn N0      Fleihan'
+        ';; fuhayd_1',
+        'fhyd    fuhayod N0      Fuhaid;Fuheid'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'FuCayL',
       'suffix' => '',
       'glosses' => [
-        'Fleihan'
+        'Fuhaid',
+        'Fuheid'
       ],
-      'orig' => 'fliyHAn',
+      'orig' => 'fuhayd',
       'prefix' => ''
     }
   ],
@@ -43016,31 +43192,6 @@ $Lexicon = {
         'fruit vendor'
       ],
       'orig' => 'fAkihAniy~',
-      'prefix' => ''
-    }
-  ],
-  'faransiys' => [
-    {
-      'types' => {
-        'fransiys' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'faransiys',
-      'form' => 'faransiys',
-      'lines' => [
-        ';; faranosiys_1',
-        'frnsys  franosiys       N0      Francis'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Francis'
-      ],
-      'orig' => 'faranosiys',
       'prefix' => ''
     }
   ],
@@ -43514,27 +43665,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiyzyuwluw^giyA' => [
+  'fIrdir' => [
     {
-      'types' => {
-        'fiysyuwluw^giyA' => {
-          'N0' => 1
-        },
-        'fiysyuwluw^giyy' => {
-          'Nap' => 1
-        },
-        'fiyzyuwluw^giyy' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'fiyzyuwluw^giyA',
-      'form' => 'fiyzyuwluw^giyA',
+      'types' => {},
+      'entry' => 'fiyrdir',
+      'form' => 'fiyrdir',
       'lines' => [
-        ';; fiyzyuwluwjiyA_1',
-        'fyzywlwjyA      fiyzyuwluwjiyA  N0      physiology',
-        'fysywlwjyA      fiysyuwluwjiyA  N0      physiology',
-        'fyzywlwjy       fiyzyuwluwjiy~  Nap     physiology     [[fiyzyuwluwjiy~/NOUN]]',
-        'fysywlwjy       fiysyuwluwjiy~  Nap     physiology     [[fiysyuwluwjiy~/NOUN]]'
+        ';; fiyrodir_1',
+        'fyrdr   fiyrodir        Nprop   Pferder'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43542,9 +43680,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'physiology'
+        'Pferder'
       ],
-      'orig' => 'fiyzyuwluwjiyA',
+      'orig' => 'fiyrodir',
       'prefix' => ''
     }
   ],
@@ -43633,27 +43771,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiyfriy' => [
-    {
-      'types' => {},
-      'entry' => 'fiyfriy',
-      'form' => 'fiyfriy',
-      'lines' => [
-        ';; fiyfriy_1',
-        'fyfry   fiyfriy N0      February'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'February'
-      ],
-      'orig' => 'fiyfriy',
-      'prefix' => ''
-    }
-  ],
   'f s t q' => [
     {
       'types' => {},
@@ -43713,19 +43830,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiktuwriyA' => [
+  'fiyInnA' => [
     {
-      'types' => {
-        'fiyktuwriyA' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'fiktuwriyA',
-      'form' => 'fiktuwriyA',
+      'types' => {},
+      'entry' => 'fiyiynnA',
+      'form' => 'fiyiynnA',
       'lines' => [
-        ';; fikotuwriyA_1',
-        'fyktwryA        fiykotuwriyA    Nprop   Victoria',
-        'fktwryA fikotuwriyA     Nprop   Victoria'
+        ';; fiyiyn~A_1',
+        'fyynA   fiyiyn~A        N0      Vienna'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43733,9 +43845,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Victoria'
+        'Vienna'
       ],
-      'orig' => 'fikotuwriyA',
+      'orig' => 'fiyiyn~A',
       'prefix' => ''
     }
   ],
@@ -43966,6 +44078,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fUks' => [
+    {
+      'types' => {},
+      'entry' => 'fuwks',
+      'form' => 'fuwks',
+      'lines' => [
+        ';; fuwkos_1',
+        'fwks    fuwkos  Nprop   Fox'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Fox'
+      ],
+      'orig' => 'fuwkos',
+      'prefix' => ''
+    }
+  ],
   'f ^g w' => [
     {
       'types' => {
@@ -44095,6 +44228,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fItAlI' => [
+    {
+      'types' => {},
+      'entry' => 'fiytAliy',
+      'form' => 'fiytAliy',
+      'lines' => [
+        ';; fiytAliy_1',
+        'fytAly  fiytAliy        Nprop   Vitale'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Vitale'
+      ],
+      'orig' => 'fiytAliy',
+      'prefix' => ''
+    }
+  ],
   'f y q' => [
     {
       'types' => {},
@@ -44136,48 +44290,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'musotafiyq',
-      'prefix' => ''
-    }
-  ],
-  'fAhAniyn' => [
-    {
-      'types' => {},
-      'entry' => 'fAhAniyn',
-      'form' => 'fAhAniyn',
-      'lines' => [
-        ';; fAhAniyn_1',
-        'fAhAnyn fAhAniyn        Nprop   Vahanen'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Vahanen'
-      ],
-      'orig' => 'fAhAniyn',
-      'prefix' => ''
-    }
-  ],
-  'fayuwliyn' => [
-    {
-      'types' => {},
-      'entry' => 'fayuwliyn',
-      'form' => 'fayuwliyn',
-      'lines' => [
-        ';; fayuwliyn_1',
-        'fywlyn  fayuwliyn       N       violin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'violin'
-      ],
-      'orig' => 'fayuwliyn',
       'prefix' => ''
     }
   ],
@@ -44600,77 +44712,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiyuwlunt^silluw' => [
-    {
-      'types' => {},
-      'entry' => 'fiyuwlunt^silluw',
-      'form' => 'fiyuwlunt^silluw',
-      'lines' => [
-        ';; fiyuwlunot$iloluw_1',
-        'fywlnt$llw      fiyuwlunot$iloluw       N       violoncello'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'violoncello'
-      ],
-      'orig' => 'fiyuwlunot$iloluw',
-      'prefix' => ''
-    }
-  ],
-  'fidiriykuw' => [
-    {
-      'types' => {},
-      'entry' => 'fidiriykuw',
-      'form' => 'fidiriykuw',
-      'lines' => [
-        ';; fidiriykuw_1',
-        'fdrykw  fidiriykuw      Nprop   Federico'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Federico'
-      ],
-      'orig' => 'fidiriykuw',
-      'prefix' => ''
-    }
-  ],
-  '\'uf.huw.s' => [
-    {
-      'types' => {
-        '\'afA.hiy.s' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'uf.huw.s',
-      'form' => '\'uf.huw.s',
-      'lines' => [
-        ';; >ufoHuwS_1',
-        '>fHwS   >ufoHuwS        Ndu     nesting place',
-        'AfHwS   >ufoHuwS        Ndu     nesting place',
-        '>fAHyS  >afAHiyS        Ndip    nesting places',
-        'AfAHyS  >afAHiyS        Ndip    nesting places'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'nesting place',
-        'nesting places'
-      ],
-      'orig' => 'OufoHuwS',
-      'prefix' => ''
-    }
-  ],
   'fidirAl' => [
     {
       'types' => {
@@ -44753,46 +44794,6 @@ $Lexicon = {
         'brushing'
       ],
       'orig' => 'farojanap',
-      'prefix' => ''
-    }
-  ],
-  'friywAy' => [
-    {
-      'types' => {},
-      'entry' => 'friywAy',
-      'form' => 'friywAy',
-      'lines' => [
-        ';; friywAy_1',
-        'frywAy  friywAy N0      freeway'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'freeway'
-      ],
-      'orig' => 'friywAy',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'friywAy',
-      'form' => 'friywAy',
-      'lines' => [
-        ';; friywAy_2',
-        'frywAy  friywAy N0      Freeway'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Freeway'
-      ],
-      'orig' => 'friywAy',
       'prefix' => ''
     }
   ],
@@ -44904,6 +44905,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fAtrIn' => [
+    {
+      'types' => {},
+      'entry' => 'fAtriyn',
+      'form' => 'fAtriynaT',
+      'lines' => [
+        ';; fAtoriynap_1',
+        'fAtryn  fAtoriyn        NapAt   display window'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'display window'
+      ],
+      'orig' => 'fAtoriynap',
+      'prefix' => ''
+    }
+  ],
+  'fIlhilm' => [
+    {
+      'types' => {},
+      'entry' => 'fiylhilm',
+      'form' => 'fiylhilm',
+      'lines' => [
+        ';; fiylohilom_1',
+        'fylhlm  fiylohilom      Nprop   Wilhelm'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Wilhelm'
+      ],
+      'orig' => 'fiylohilom',
+      'prefix' => ''
+    }
+  ],
   'f y l q' => [
     {
       'types' => {
@@ -44997,28 +45040,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'faytuwriyy' => [
-    {
-      'types' => {},
-      'entry' => 'faytuwriyy',
-      'form' => 'faytuwriyy',
-      'lines' => [
-        ';; fayotuwriy~_1',
-        'fytwry  fayotuwriy~     N0      Faitouri;Faituri'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Faitouri',
-        'Faituri'
-      ],
-      'orig' => 'fayotuwriy~',
-      'prefix' => ''
-    }
-  ],
   'f n ^g l' => [
     {
       'types' => {
@@ -45050,27 +45071,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiyt^sanzA' => [
-    {
-      'types' => {},
-      'entry' => 'fiyt^sanzA',
-      'form' => 'fiyt^sanzA',
-      'lines' => [
-        ';; fiyt$anozA_1',
-        'fyt$nzA fiyt$anozA      Nprop   Vicenza'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Vicenza'
-      ],
-      'orig' => 'fiyt$anozA',
-      'prefix' => ''
-    }
-  ],
   'f w m' => [
     {
       'types' => {},
@@ -45089,80 +45089,6 @@ $Lexicon = {
         'garlic'
       ],
       'orig' => 'fuwm',
-      'prefix' => ''
-    }
-  ],
-  'fizyuwluw^giyy' => [
-    {
-      'types' => {
-        'fiyzyuwluw^giyy' => {
-          'N-ap' => 1
-        }
-      },
-      'entry' => 'fizyuwluw^giyy',
-      'form' => 'fizyuwluw^giyy',
-      'lines' => [
-        ';; fizoyuwluwjiy~_1',
-        'fzywlwjy        fizoyuwluwjiy~  N-ap    physiological     [[fizoyuwluwjiy~/ADJ]]',
-        'fyzywlwjy       fiyzoyuwluwjiy~ N-ap    physiological     [[fiyzoyuwluwjiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'physiological'
-      ],
-      'orig' => 'fizoyuwluwjiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'fiyzyuwluw^giyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'fizyuwluw^giyy',
-      'form' => 'fizyuwluw^giyy',
-      'lines' => [
-        ';; fizoyuwluwjiy~_2',
-        'fzywlwjy        fizoyuwluwjiy~  Nall    physiologist     [[fizoyuwluwjiy~/ADJ]]',
-        'fyzywlwjy       fiyzoyuwluwjiy~ Nall    physiologist     [[fiyzoyuwluwjiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'physiologist'
-      ],
-      'orig' => 'fizoyuwluwjiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'fiyzyuwluw^giyy' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'fizyuwluw^giyy',
-      'form' => 'fizyuwluw^giyyaT',
-      'lines' => [
-        ';; fizoyuwluwjiy~ap_1',
-        'fzywlwjy        fizoyuwluwjiy~  Nap     physiology     [[fizoyuwluwjiy~/NOUN]]',
-        'fyzywlwjy       fiyzoyuwluwjiy~ Nap     physiology     [[fiyzoyuwluwjiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'physiology'
-      ],
-      'orig' => 'fizoyuwluwjiy~ap',
       'prefix' => ''
     }
   ],
@@ -45798,6 +45724,50 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'fUnU.grAf' => [
+    {
+      'types' => {
+        'fuwnuw.grAf' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'fuwnuw.grAf',
+      'form' => 'fuwnuw.grAf',
+      'lines' => [
+        ';; fuwnuwgrAf_1',
+        'fwnwgrAf        fuwnuwgrAf      N/At    phonograph'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'phonograph'
+      ],
+      'orig' => 'fuwnuwgrAf',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'fuwnuw.grAf',
+      'form' => 'fuwnuw.grAfiyy',
+      'lines' => [
+        ';; fuwnuwgrAfiy~_1',
+        'fwnwgrAfy       fuwnuwgrAfiy~   Nall    phonographic     [[fuwnuwgrAfiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'phonographic'
+      ],
+      'orig' => 'fuwnuwgrAfiy~',
+      'prefix' => ''
+    }
+  ],
   'f \' q' => [
     {
       'types' => {},
@@ -45895,24 +45865,29 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiyrink' => [
+  'fId^g' => [
     {
-      'types' => {},
-      'entry' => 'fiyrink',
-      'form' => 'fiyrink',
+      'types' => {
+        'fiy^giyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'fiyd^g',
+      'form' => 'fiyd^giyy',
       'lines' => [
-        ';; fiyrinok_1',
-        'fyrnk   fiyrinok        Nprop   Ferenc'
+        ';; fiydojiy~_1',
+        'fydjy   fiydojiy~       Nall    Fijian     [[fiydojiy~/ADJ]]',
+        'fyjy    fiyjiy~ Nall    Fijian     [[fiydojiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'Ferenc'
+        'Fijian'
       ],
-      'orig' => 'fiyrinok',
+      'orig' => 'fiydojiy~',
       'prefix' => ''
     }
   ],
@@ -46428,36 +46403,54 @@ $Lexicon = {
       ],
       'orig' => 'fAyiz',
       'prefix' => ''
-    }
-  ],
-  '\'ufkuwh' => [
+    },
     {
       'types' => {
-        '\'afAkiyh' => {
-          'Ndip' => 2
+        'fiyziyA' => {
+          'N0' => 1
+        },
+        'fiyziyA\'iyy' => {
+          'N-ap' => 1
         }
       },
-      'entry' => '\'ufkuwh',
-      'form' => '\'ufkuwhaT',
+      'entry' => 'fiyziyA\'',
+      'form' => 'fiyziyA\'',
       'lines' => [
-        ';; >ufokuwhap_1',
-        '>fkwh   >ufokuwh        Napdu   joke;witticism',
-        'Afkwh   >ufokuwh        Napdu   joke;witticism',
-        '>fAkyh  >afAkiyh        Ndip    jokes;witticisms',
-        'AfAkyh  >afAkiyh        Ndip    jokes;witticisms'
+        ';; fiyziyA\'_1',
+        'fyzyA\'  fiyziyA\' N0_Nh   physics',
+        'fyzyA&  fiyziyA& Nh      physics',
+        'fyzyA}  fiyziyA} Nhy     physics',
+        'fyzyA   fiyziyA  N0      physics',
+        'fyzyA}y fiyziyA}iy~      N-ap    physics     [[fiyzyA}iy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'entity' => 'adj',
+      'morphs' => 'FILiyA\'',
+      'suffix' => '',
       'glosses' => [
-        'joke',
-        'witticism',
-        'jokes',
-        'witticisms'
+        'physics'
       ],
-      'orig' => 'Oufokuwhap',
+      'orig' => 'fiyziyA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'fiyziyA\'',
+      'form' => 'fiyziyA\'iyy',
+      'lines' => [
+        ';; fiyziyA}iy~_1',
+        'fyzyA}y fiyziyA}iy~      Nall    physicist     [[fiyzyA}iy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FILiyA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'physicist'
+      ],
+      'orig' => 'fiyziyA}iy~',
       'prefix' => ''
     }
   ],
@@ -46724,14 +46717,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fuwltA' => [
+  'fisyUlU^giyA' => [
     {
-      'types' => {},
-      'entry' => 'fuwltA',
-      'form' => 'fuwltA',
+      'types' => {
+        'fiysyuwluw^giyA' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'fisyuwluw^giyA',
+      'form' => 'fisyuwluw^giyA',
       'lines' => [
-        ';; fuwlotA_1',
-        'fwltA   fuwlotA N0      Volta'
+        ';; fisoyuwluwjiyA_1',
+        'fsywlwjyA       fisoyuwluwjiyA  N0      physiology',
+        'fysywlwjyA      fiysoyuwluwjiyA N0      physiology'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46739,30 +46737,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Volta'
+        'physiology'
       ],
-      'orig' => 'fuwlotA',
-      'prefix' => ''
-    }
-  ],
-  'friytAwn' => [
-    {
-      'types' => {},
-      'entry' => 'friytAwn',
-      'form' => 'friytAwn',
-      'lines' => [
-        ';; friytAwn_1',
-        'frytAwn friytAwn        N0      Freetown'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Freetown'
-      ],
-      'orig' => 'friytAwn',
+      'orig' => 'fisoyuwluwjiyA',
       'prefix' => ''
     }
   ],
@@ -46784,6 +46761,27 @@ $Lexicon = {
         'Waltz'
       ],
       'orig' => 'fAltz',
+      'prefix' => ''
+    }
+  ],
+  'fUtsI' => [
+    {
+      'types' => {},
+      'entry' => 'fuwtsiy',
+      'form' => 'fuwtsiy',
+      'lines' => [
+        ';; fuwtosiy_1',
+        'fwtsy   fuwtosiy        N0      FTSE (Financial Times Stock Exchange)'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'FTSE (Financial Times Stock Exchange)'
+      ],
+      'orig' => 'fuwtosiy',
       'prefix' => ''
     }
   ],
@@ -46859,27 +46857,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fiyr^giyniyA' => [
-    {
-      'types' => {},
-      'entry' => 'fiyr^giyniyA',
-      'form' => 'fiyr^giyniyA',
-      'lines' => [
-        ';; fiyrojiyniyA_1',
-        'fyrjynyA        fiyrojiyniyA    Nprop   Virginia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Virginia'
-      ],
-      'orig' => 'fiyrojiyniyA',
-      'prefix' => ''
-    }
-  ],
   'filas.tin' => [
     {
       'types' => {},
@@ -46899,6 +46876,28 @@ $Lexicon = {
         'Palestinian'
       ],
       'orig' => 'filasoTiniy~',
+      'prefix' => ''
+    }
+  ],
+  'fu\'AdI' => [
+    {
+      'types' => {},
+      'entry' => 'fu\'Adiy',
+      'form' => 'fu\'Adiy',
+      'lines' => [
+        ';; fu&Adiy_1',
+        'f&Ady   fu&Adiy N0      Fuadi;Fouadi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Fuadi',
+        'Fouadi'
+      ],
+      'orig' => 'fuWAdiy',
       'prefix' => ''
     }
   ],
@@ -47601,25 +47600,54 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'finiyq' => [
+  'fId^gI' => [
     {
-      'types' => {},
-      'entry' => 'finiyq',
-      'form' => 'finiyqiyy',
+      'types' => {
+        'fiy^giy' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'fiyd^giy',
+      'form' => 'fiyd^giy',
       'lines' => [
-        ';; finiyqiy~_1',
-        'fnyqy   finiyqiy~       Nall    Phoenician     [[finiyqiy~/NOUN]]',
-        'fnyqy   finiyqiy~       Nall    Phoenician     [[finiyqiy~/ADJ]]'
+        ';; fiydojiy_1',
+        'fydjy   fiydojiy        Nprop   Fiji',
+        'fyjy    fiyjiy  Nprop   Fiji'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'Phoenician'
+        'Fiji'
       ],
-      'orig' => 'finiyqiy~',
+      'orig' => 'fiydojiy',
+      'prefix' => ''
+    }
+  ],
+  'fiyAllI' => [
+    {
+      'types' => {
+        'fiyAlly' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'fiyAlliy',
+      'form' => 'fiyAlliy',
+      'lines' => [
+        ';; fiyAlliy_1',
+        'fyAlly  fiyAlly Nprop   Vialli'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Vialli'
+      ],
+      'orig' => 'fiyAlliy',
       'prefix' => ''
     }
   ],
@@ -47639,14 +47667,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'frAnsiyskuw' => [
+  'finIk' => [
     {
       'types' => {},
-      'entry' => 'frAnsiyskuw',
-      'form' => 'frAnsiyskuw',
+      'entry' => 'finiyk',
+      'form' => 'finiyk',
       'lines' => [
-        ';; frAnosiysokuw_1',
-        'frAnsyskw       frAnosiysokuw   Nprop   Francisco'
+        ';; finiyk_1',
+        'fnyk    finiyk  N       phenol'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47654,30 +47682,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Francisco'
+        'phenol'
       ],
-      'orig' => 'frAnosiysokuw',
-      'prefix' => ''
-    }
-  ],
-  'fiyuwrintiynA' => [
-    {
-      'types' => {},
-      'entry' => 'fiyuwrintiynA',
-      'form' => 'fiyuwrintiynA',
-      'lines' => [
-        ';; fiyuwrinotiynA_1',
-        'fywrntynA       fiyuwrinotiynA  Nprop   Fiorentina'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Fiorentina'
-      ],
-      'orig' => 'fiyuwrinotiynA',
+      'orig' => 'finiyk',
       'prefix' => ''
     }
   ],
@@ -47880,6 +47887,39 @@ $Lexicon = {
         'facetious'
       ],
       'orig' => 'fukAhiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'afAkiyh' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'ufkuwh',
+      'form' => '\'ufkuwhaT',
+      'lines' => [
+        ';; >ufokuwhap_1',
+        '>fkwh   >ufokuwh        Napdu   joke;witticism',
+        'Afkwh   >ufokuwh        Napdu   joke;witticism',
+        '>fAkyh  >afAkiyh        Ndip    jokes;witticisms',
+        'AfAkyh  >afAkiyh        Ndip    jokes;witticisms'
+      ],
+      'patterns' => {
+        '\'afAkiyh' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'joke',
+        'witticism',
+        'jokes',
+        'witticisms'
+      ],
+      'orig' => 'Oufokuwhap',
       'prefix' => ''
     },
     {
@@ -48099,46 +48139,6 @@ $Lexicon = {
         'morsels'
       ],
       'orig' => 'fatofuwtap',
-      'prefix' => ''
-    }
-  ],
-  'filuwr' => [
-    {
-      'types' => {},
-      'entry' => 'filuwr',
-      'form' => 'filuwr',
-      'lines' => [
-        ';; filuwr_1',
-        'flwr    filuwr  N0      fluorine'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'fluorine'
-      ],
-      'orig' => 'filuwr',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'filuwr',
-      'form' => 'filuwriyy',
-      'lines' => [
-        ';; filuwriy~_1',
-        'flwry   filuwriy~       N-ap    fluorescent     [[filuwriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'fluorescent'
-      ],
-      'orig' => 'filuwriy~',
       'prefix' => ''
     }
   ]

@@ -142,8 +142,8 @@ kArnyh  kAroniyh        N/At    identity card;carnet
 ;; kAroniy$uwfAs_1
 kArny$wfAs      kAroniy$uwfAs   Nprop   Karnisovas
 ;
-;--- kArw
-;; kArw_1
+; ;--- kArw
+;; kAruw_1
 kArw    kArw    N0      cart;wagon
 kArwh   kAruwh  NAt     carts;wagons
 ;
@@ -196,7 +196,7 @@ k&ws    ku&uws  N       cups
 k}As    ki}As   N       cups
 ;
 ;--- kAst
-;; kAstrw_1
+;; kAstruw_1
 kAstrw  kAstrw  Nprop   Castro
 ;
 ;; kAsotiylA_1
@@ -249,7 +249,7 @@ kAlAtrAfA       kAlAtrAfA       N0      Calatrava
 ;; kAlofin_1
 kAlfn   kAlofin Nprop   Calvin
 ;
-;--- kAlw
+; ;--- kAlw
 ;; kAl~uw_1
 kAlw    kAl~uw  N0      callus;corn
 kAlwh   kAl~uwh NAt     calluses;corns
@@ -259,7 +259,7 @@ kAlwh   kAl~uwh NAt     calluses;corns
 ;; kAluwn_1
 kAlwn   kAluwn  N/At    gallon
 ;
-;--- kAly
+; ;--- kAly
 ; Italian soccer team (www.italian-soccer.com)
 ;; kAliyAriy_1
 kAlyAry kAliyAriy       N0      Cagliari
@@ -278,7 +278,7 @@ kAmAt$w kAmAt$uw        Nprop   Camacho
 ;; kAmob_1
 kAmb    kAmob   N0      Camp
 ;
-;--- kAmbw
+; ;--- kAmbw
 ;; kAmobuwdiyA_1
 kAmbwdyA        kAmobuwdiyA     N0      Cambodia;Kampuchea
 kmbwdyA kamobuwdiyA     N0      Cambodia;Kampuchea
@@ -2419,7 +2419,7 @@ kzAz    kazAz   Nap     dryness;stinginess
 ;
 ;--- kzA
 ; AFP corpus spelling!
-;; kzAfyyh_1
+;; kzAfiyiyh_1
 kzAfyyh kzAfyyh Nprop   Xavier
 ;
 ;--- kzbr
@@ -3942,7 +3942,7 @@ kwAlyn  kawAliyn        Ndip    door locks
 kwAlyny kawAliyniy~     Ndu     locksmith
 kwAlyny kawAliyniy~     Nap     locksmiths     <pos>kawAliyniy~/NOUN</pos>
 ;
-;--- klw
+; ;--- klw
 ;; kulowap_1
 klw     kulow   NapAt   kidney
 kly     kuloy   NapAt   kidney
@@ -4069,11 +4069,11 @@ kmbrdj  kamobridj       N0      Cambridge
 ;; kamobariyt_1
 kmbryt  kamobariyt      N0      cambric
 ;
-;--- kmbw
+; ;--- kmbw
 ;; kamobuw$ap_1
 kmbw$   kamobuw$        Nap     prompter's box
 ;
-;--- kmby
+; ;--- kmby
 ;; kamobiyAlap_1
 kmbyAl  kamobiyAl       NapAt   bill of exchange;loan payment
 ;
@@ -5037,7 +5037,7 @@ kwrAl   kuwrAl  N/At    choir
 ;; kuwrob_1
 kwrb    kuwrob  Nprop   Corp.
 ;
-;; kwrbys_1
+;; kuwrbiys_1
 kwrbys  kwrbys  Nprop   Courbis
 ;
 ;--- kwrt
@@ -5249,8 +5249,8 @@ kwlstrwl        kuwlisotiruwl   N0      cholesterol
 ;; kuwlin_1
 kwln    kuwlin  Nprop   Colin
 ;
-;--- kwlw
-;; kuwluwmobw_1
+; ;--- kwlw
+;; kuwluwmobuw_1
 kwlwmbw kuwluwmobw      N0      Colombo
 ;
 ;; kuwluwmobiyA_1
@@ -5265,7 +5265,7 @@ kwlwnyA kuwluwniyA      N0      Cologne;cologne
 ;; kuwluwniyl_1
 kwlwnyl kuwluwniyl      NduAt   colonel
 ;
-;--- kwly
+; ;--- kwly
 ;; kuwliyrA_1
 kwlyrA  kuwliyrA        N0      cholera
 ;
@@ -5323,11 +5323,11 @@ kwmlynwfyt$     kuwmoliynuwfiyt$        Nprop   Komljenovic
 ;; kuwmunwilov_1
 kwmnwlv kuwmunwilov     N0      Commonwealth
 ;
-;--- kwmw
+; ;--- kwmw
 ;; kuwmuwdiynuw_1
 kwmwdynw        kuwmuwdiynuw    N0      bedside table
 ;
-;--- kwmy
+; ;--- kwmy
 ;; kuwmiydiyA_1
 kwmydyA kuwmiydiyA      N0      comedy
 ;; kuwmiydiy~_1
@@ -5403,7 +5403,7 @@ ykwn    yakuwn  N0      sum total
 ;; kuwnot_1
 kwnt    kuwnot  N0      Count
 ;
-;; kuwnotrAtw_1
+;; kuwnotrAtuw_1
 kwntrAtw        kuwnotrAtw      N0      contract
 ;
 ;; kuwnotirobAS_1
@@ -5527,13 +5527,14 @@ mkAw    makAw   NK      ironing irons
 mkwY    makowaY N       ironing shop
 mkwA    makowA  Nhy     ironing shop
 mkwy    makoway NAn_Nayn        ironing shops
-;; makowajiy~_1
-mkwjy   makowajiy~      Nall    ironing man;laundryman     <pos>makowajiy~/ADJ</pos>
 ;; kAwiy_1
 kAwy    kAwiy   N0F     caustic
 kAw     kAw     NK      caustic
 kAwy    kAwiy   NAn_Nayn        caustic
 kAwy    kAwiy   NapAt   caustic
+;--- kwyj
+;; makowajiy~_1
+mkwjy   makowajiy~      Nall    ironing man;laundryman     <pos>makowajiy~/ADJ</pos>
 ;
 ;--- kwyt
 ;; kuwiyt~A_1

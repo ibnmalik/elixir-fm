@@ -131,7 +131,7 @@ h>h|    ha>oha| PV-|    laugh
 h>h&    ha>oha& PV_w    laugh
 h>h}    ha>ohi} IV_yu   laugh
 ;
-;--- hAw
+; ;--- hAw
 ;; hAward_1
 hAwrd   hAward  Nprop   Howard
 hwArd   hawArd  Nprop   Howard
@@ -148,7 +148,7 @@ hwAwyn  hawAwiyn        Ndip    mortars
 >hwAn   >ahowAn N       mortars
 AhwAn   >ahowAn N       mortars
 ;
-;--- hAy
+; ;--- hAy
 ;; hAytiy_1
 hAyty   hAytiy  N0      Haiti
 ;; hAytiy~_1
@@ -1899,11 +1899,11 @@ hs      has~    Ndu     whisper;soliloquy
 ;; hasiys_1
 hsys    hasiys  N       whisper;whispering
 ;
-;--- hstw
+; ;--- hstw
 ;; hisotuwluwjiyA_1
 hstwlwjyA       hisotuwluwjiyA  N0      histology
 ;
-;--- hsty
+; ;--- hsty
 ;; hisotiyriyA_1
 hstyryA hisotiyriyA     N0      hysteria
 hystyryA        hiysotiyriyA    N0      hysteria
@@ -2728,7 +2728,7 @@ hmhm    hamohim IV_yu   say "ahem"
 hmhm    hamoham NapAt   saying "ahem";droning;humming
 hmAhm   hamAhim Ndip    saying "ahem";droning;humming
 ;
-;--- hmw
+; ;--- hmw
 ;; hamA-u_1
 hmA     hamA    PV_0    flow;pour
 hmw     hamaw   PV_Atn  flow;pour
@@ -2738,7 +2738,7 @@ hm      hom     IV_0hwnyn       flow;pour
 ;; hamow_1
 hmw     hamow   N       flowing;pouring
 ;
-;--- hmy
+; ;--- hmy
 ;; humAyuwniy~_1
 hmAywny humAyuwniy~     Nall    imperial     <pos>humAyuwniy~/ADJ</pos>
 ;
@@ -3767,7 +3767,7 @@ mhtAj   muhotAj Nall    agitated;impassioned     <pos>muhotAj/ADJ</pos>
 ;; hiydrA_1
 hydrA   hiydrA  Nprop   Hydra
 ;
-;--- hydrw
+; ;--- hydrw
 ;; hiydruw_1
 hydrw   hiydruw N0      hydro-
 ;
@@ -3812,6 +3812,7 @@ hyrtz   hiyrotz NduAt   hertz;Hz
 ;; hiyruwt$iy_1
 hyrwt$y hiyruwt$iy      Nprop   Hiroshi
 ;
+;--- hr
 ;; hiyruw$iymA_1
 hyrw$ymA        hiyruw$iymA     Nprop   Hiroshima
 ;
@@ -3972,7 +3973,7 @@ hylAry  hiylAriy        Nprop   Hillary
 ;; hayolamAn_1
 hylmAn  hayolamAn       N       heaps;large sums
 ;
-;--- hyly
+; ;--- hyly
 ;; hiyliykuwbotar_1
 hylykwbtr       hiyliykuwbotar  NduAt   helicopter
 ;

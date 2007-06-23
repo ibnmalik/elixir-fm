@@ -6,14 +6,14 @@ package Elixir::Data::Buckwalter::Lexicon08;
 
 
 $Lexicon = {
-  'dAltuwn' => [
+  'dUmInIk' => [
     {
       'types' => {},
-      'entry' => 'dAltuwn',
-      'form' => 'dAltuwn',
+      'entry' => 'duwmiyniyk',
+      'form' => 'duwmiyniyk',
       'lines' => [
-        ';; dAlotuwn_1',
-        'dAltwn  dAlotuwn        N0      Dalton'
+        ';; duwmiyniyk_1',
+        'dwmynyk duwmiyniyk      Nprop   Dominik'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21,25 +21,39 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Dalton'
+        'Dominik'
       ],
-      'orig' => 'dAlotuwn',
+      'orig' => 'duwmiyniyk',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'duwmiyniyk',
+      'form' => 'duwmiyniyk',
+      'lines' => [
+        ';; duwmiyniyk_2',
+        'dwmynyk duwmiyniyk      Nprop   Dominique'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Dominique'
+      ],
+      'orig' => 'duwmiyniyk',
       'prefix' => ''
     }
   ],
-  'dusilduwrf' => [
+  'dUnAld' => [
     {
-      'types' => {
-        'duwsilduwrf' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'dusilduwrf',
-      'form' => 'dusilduwrf',
+      'types' => {},
+      'entry' => 'duwnAld',
+      'form' => 'duwnAld',
       'lines' => [
-        ';; dusiloduwrf_1',
-        'dsldwrf dusiloduwrf     N0      Dusseldorf',
-        'dwsldwrf        duwsiloduwrf    N0      Dusseldorf'
+        ';; duwnAld_1',
+        'dwnAld  duwnAld N0      Donald'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47,9 +61,72 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Dusseldorf'
+        'Donald'
       ],
-      'orig' => 'dusiloduwrf',
+      'orig' => 'duwnAld',
+      'prefix' => ''
+    }
+  ],
+  'd w d m' => [
+    {
+      'types' => {},
+      'entry' => 'dawAdim',
+      'form' => 'dawAdimiyy',
+      'lines' => [
+        ';; dawAdimiy~_1',
+        'dwAdmy  dawAdimiy~      N0      Dawadimi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KaRADiS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Dawadimi'
+      ],
+      'orig' => 'dawAdimiy~',
+      'prefix' => ''
+    }
+  ],
+  'dAfId' => [
+    {
+      'types' => {},
+      'entry' => 'dAfiyd',
+      'form' => 'dAfiyd',
+      'lines' => [
+        ';; dAfiyd_1',
+        'dAfyd   dAfiyd  N0      David'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'David'
+      ],
+      'orig' => 'dAfiyd',
+      'prefix' => ''
+    }
+  ],
+  'dUmA' => [
+    {
+      'types' => {},
+      'entry' => 'duwmA',
+      'form' => 'duwmA',
+      'lines' => [
+        ';; duwmA_1',
+        'dwmA    duwmA   N0      Duma'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Duma'
+      ],
+      'orig' => 'duwmA',
       'prefix' => ''
     }
   ],
@@ -471,50 +548,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'adriyy' => [
-    {
-      'types' => {},
-      'entry' => '\'adriyy',
-      'form' => 'lA\'adriyy',
-      'lines' => [
-        ';; lA>adoriy~_1',
-        'lA>dry  lA>adoriy~      Nall_L  skeptic;agnostic     [[lA>adoriy~/ADJ]]',
-        'lAAdry  lA>adoriy~      Nall_L  skeptic;agnostic     [[lAAadoriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'lA >| Identity',
-      'suffix' => '',
-      'glosses' => [
-        'skeptic',
-        'agnostic'
-      ],
-      'orig' => 'lAOadoriy~',
-      'prefix' => 'lA >| '
-    },
-    {
-      'types' => {},
-      'entry' => '\'adriyy',
-      'form' => 'lA\'adriyyaT',
-      'lines' => [
-        ';; lA>adoriy~ap_1',
-        'lA>dry  lA>adoriy~      Nap_L   skepticism;agnosticism     [[lA>adoriy~/NOUN]]',
-        'lAAdry  lA>adoriy~      Nap_L   skepticism;agnosticism     [[lAAadoriy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'lA >| Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'skepticism',
-        'agnosticism'
-      ],
-      'orig' => 'lAOadoriy~ap',
-      'prefix' => 'lA >| '
-    }
-  ],
   'd ^s r' => [
     {
       'types' => {
@@ -565,14 +598,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'duwrtmuwnd' => [
+  'dInAmIt' => [
     {
       'types' => {},
-      'entry' => 'duwrtmuwnd',
-      'form' => 'duwrtmuwnd',
+      'entry' => 'diynAmiyt',
+      'form' => 'diynAmiyt',
       'lines' => [
-        ';; duwrotmuwnod_1',
-        'dwrtmwnd        duwrotmuwnod    Nprop   Dortmund'
+        ';; diynAmiyt_1',
+        'dynAmyt diynAmiyt       N       dynamite'
       ],
       'patterns' => {},
       'index' => '1',
@@ -580,9 +613,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Dortmund'
+        'dynamite'
       ],
-      'orig' => 'duwrotmuwnod',
+      'orig' => 'diynAmiyt',
       'prefix' => ''
     }
   ],
@@ -1836,6 +1869,57 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'dArfUr' => [
+    {
+      'types' => {},
+      'entry' => 'dArfuwr',
+      'form' => 'dArfuwr',
+      'lines' => [
+        ';; dArofuwr_1',
+        'dArfwr  dArofuwr        Nprop   Darfour;Darfur'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Darfour',
+        'Darfur'
+      ],
+      'orig' => 'dArofuwr',
+      'prefix' => ''
+    }
+  ],
+  'diyAlU^g' => [
+    {
+      'types' => {
+        'diyAluw^g' => {
+          'NAt' => 1
+        },
+        'diyAluw.g' => {
+          'N/At' => 1
+        }
+      },
+      'entry' => 'diyAluw^g',
+      'form' => 'diyAluw^g',
+      'lines' => [
+        ';; diyAluwj_1',
+        'dyAlwj  diyAluwj        N/At    dialog',
+        'dyAlwg  diyAluwg        N/At    dialog'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'dialog'
+      ],
+      'orig' => 'diyAluwj',
+      'prefix' => ''
+    }
+  ],
   'd n q l' => [
     {
       'types' => {},
@@ -1985,25 +2069,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'ud.hiyy' => [
+  'drUrI' => [
     {
       'types' => {},
-      'entry' => '\'ud.hiyy',
-      'form' => '\'ud.hiyyaT',
+      'entry' => 'druwriy',
+      'form' => 'druwriy',
       'lines' => [
-        ';; >udoHiy~ap_1',
-        '>dHy    >udoHiy~        NapAt   ostrich nest     [[>udoHiy~/NOUN]]',
-        'AdHy    >udoHiy~        NapAt   ostrich nest     [[>udoHiy~/NOUN]]'
+        ';; druwriy_1',
+        'drwry   druwriy Nprop   Drury'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'ostrich nest'
+        'Drury'
       ],
-      'orig' => 'OudoHiy~ap',
+      'orig' => 'druwriy',
       'prefix' => ''
     }
   ],
@@ -2501,14 +2584,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diymiyriyl' => [
+  'dIbUrtIfU' => [
     {
       'types' => {},
-      'entry' => 'diymiyriyl',
-      'form' => 'diymiyriyl',
+      'entry' => 'diybuwrtiyfuw',
+      'form' => 'diybuwrtiyfuw',
       'lines' => [
-        ';; diymiyriyl_1',
-        'dymyryl diymiyriyl      Nprop   Demirel'
+        ';; diybuwrotiyfuw_1',
+        'dybwrtyfw       diybuwrotiyfuw  Nprop   Deportivo'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2516,47 +2599,41 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Demirel'
+        'Deportivo'
       ],
-      'orig' => 'diymiyriyl',
+      'orig' => 'diybuwrotiyfuw',
       'prefix' => ''
     }
   ],
-  'darbaziyn' => [
+  'dirAmAtUr^g' => [
     {
-      'types' => {
-        'darAbziyn' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'darbaziyn',
-      'form' => 'darbaziyn',
+      'types' => {},
+      'entry' => 'dirAmAtuwr^g',
+      'form' => 'dirAmAtuwr^giyy',
       'lines' => [
-        ';; darobaziyn_1',
-        'drbzyn  darobaziyn      N       banister;railing',
-        'drAbzyn darAboziyn      N       banister;railing'
+        ';; dirAmAtuwrojiy~_1',
+        'drAmAtwrjy      dirAmAtuwrojiy~ Nall    dramaturgist     [[dirAmAtuwrojiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'banister',
-        'railing'
+        'dramaturgist'
       ],
-      'orig' => 'darobaziyn',
+      'orig' => 'dirAmAtuwrojiy~',
       'prefix' => ''
     }
   ],
-  'diymAriyh' => [
+  'dAfIn^sI' => [
     {
       'types' => {},
-      'entry' => 'diymAriyh',
-      'form' => 'diymAriyh',
+      'entry' => 'dAfiyn^siy',
+      'form' => 'dAfiyn^siy',
       'lines' => [
-        ';; diymAriyh_1',
-        'dymAryh diymAriyh       Nprop   Demaret'
+        ';; dAfiyno$iy_1',
+        'dAfyn$y dAfiyno$iy      Nprop   Da Vinci'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2564,9 +2641,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Demaret'
+        'Da Vinci'
       ],
-      'orig' => 'diymAriyh',
+      'orig' => 'dAfiyno$iy',
       'prefix' => ''
     }
   ],
@@ -3010,31 +3087,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'dw_hy' => [
-    {
-      'types' => {
-        'duw_hiyy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'dw_hy',
-      'form' => 'dw_hy',
-      'lines' => [
-        ';; dwxy_1',
-        'dwxy    duwxiy~ N0      Doukhi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Doukhi'
-      ],
-      'orig' => 'dwxy',
-      'prefix' => ''
-    }
-  ],
   'd .g d .g' => [
     {
       'types' => {
@@ -3084,35 +3136,36 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diyuwrdiyyifiyt^s' => [
+  'd .h y' => [
     {
       'types' => {},
-      'entry' => 'diyuwrdiyyifiyt^s',
-      'form' => 'diyuwrdiyyifiyt^s',
+      'entry' => '\'ud.hiyy',
+      'form' => '\'ud.hiyyaT',
       'lines' => [
-        ';; diyuwrodiyyifiyt$_1',
-        'dywrdyyfyt$     diyuwrodiyyifiyt$       Nprop   Djordjevic'
+        ';; >udoHiy~ap_1',
+        '>dHy    >udoHiy~        NapAt   ostrich nest     [[>udoHiy~/NOUN]]',
+        'AdHy    >udoHiy~        NapAt   ostrich nest     [[>udoHiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'HuFCIL |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
-        'Djordjevic'
+        'ostrich nest'
       ],
-      'orig' => 'diyuwrodiyyifiyt$',
+      'orig' => 'OudoHiy~ap',
       'prefix' => ''
     }
   ],
-  'diytruwyt' => [
+  'dAmrUn.g' => [
     {
       'types' => {},
-      'entry' => 'diytruwyt',
-      'form' => 'diytruwyt',
+      'entry' => 'dAmruwn.g',
+      'form' => 'dAmruwn.g',
       'lines' => [
-        ';; diytruwyt_1',
-        'dytrwyt diytruwyt       N0      Detroit'
+        ';; dAmoruwng_1',
+        'dAmrwng dAmoruwng       Nprop   Damrong'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3120,20 +3173,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Detroit'
+        'Damrong'
       ],
-      'orig' => 'diytruwyt',
+      'orig' => 'dAmoruwng',
       'prefix' => ''
     }
   ],
-  'duwblA^g' => [
+  'dIfilIh' => [
     {
       'types' => {},
-      'entry' => 'duwblA^g',
-      'form' => 'duwblA^g',
+      'entry' => 'diyfiliyh',
+      'form' => 'diyfiliyh',
       'lines' => [
-        ';; duwblAj_1',
-        'dwblAj  duwblAj N       dubbing'
+        ';; diyfiliyh_1',
+        'dyflyh  diyfiliyh       N       marching past'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3141,9 +3194,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'dubbing'
+        'marching past'
       ],
-      'orig' => 'duwblAj',
+      'orig' => 'diyfiliyh',
       'prefix' => ''
     }
   ],
@@ -3219,26 +3272,28 @@ $Lexicon = {
       ],
       'orig' => 'dAxaY',
       'prefix' => ''
-    }
-  ],
-  'diyuwkAnuwfiyt^s' => [
+    },
     {
-      'types' => {},
-      'entry' => 'diyuwkAnuwfiyt^s',
-      'form' => 'diyuwkAnuwfiyt^s',
+      'types' => {
+        'duw_hiyy' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'duw_hiy',
+      'form' => 'duw_hiy',
       'lines' => [
-        ';; diyuwkAnuwfiyt$_1',
-        'dywkAnwfyt$     diyuwkAnuwfiyt$ Nprop   Djukanovic'
+        ';; duwxiy_1',
+        'dwxy    duwxiy~ N0      Doukhi'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
-        'Djukanovic'
+        'Doukhi'
       ],
-      'orig' => 'diyuwkAnuwfiyt$',
+      'orig' => 'duwxiy',
       'prefix' => ''
     }
   ],
@@ -3866,6 +3921,75 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'dikrItU' => [
+    {
+      'types' => {
+        'dikriyt' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'dikriytuw',
+      'form' => 'dikriytuw',
+      'lines' => [
+        ';; dikoriytuw_1',
+        'dkrytw  dikoriytuw      N0      decree',
+        'dkryt   dikoriyt        NAt     decrees'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'decree',
+        'decrees'
+      ],
+      'orig' => 'dikoriytuw',
+      'prefix' => ''
+    }
+  ],
+  'dIkmAn' => [
+    {
+      'types' => {},
+      'entry' => 'diykmAn',
+      'form' => 'diykmAn',
+      'lines' => [
+        ';; diykomAn_1',
+        'dykmAn  diykomAn        Nprop   Dickman'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Dickman'
+      ],
+      'orig' => 'diykomAn',
+      'prefix' => ''
+    }
+  ],
+  'dUkUmU' => [
+    {
+      'types' => {},
+      'entry' => 'duwkuwmuw',
+      'form' => 'duwkuwmuw',
+      'lines' => [
+        ';; duwkuwmuw_1',
+        'dwkwmw  duwkuwmuw       Nprop   DOCOMO'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'DOCOMO'
+      ],
+      'orig' => 'duwkuwmuw',
+      'prefix' => ''
+    }
+  ],
   'd n ^g l' => [
     {
       'types' => {
@@ -3899,25 +4023,26 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diy^gAniyruw' => [
+  'dUmarI' => [
     {
       'types' => {},
-      'entry' => 'diy^gAniyruw',
-      'form' => 'diy^gAniyruw',
+      'entry' => 'duwmariy',
+      'form' => 'lAduwmariy',
       'lines' => [
-        ';; diyjAniyruw_1',
-        'dyjAnyrw        diyjAniyruw     N0      De Janiero'
+        ';; lAduwmariy_1',
+        'lAdwmry lAduwmariy      N0_L    nobody;no one'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'lA >| Identity',
       'suffix' => '',
       'glosses' => [
-        'De Janiero'
+        'nobody',
+        'no one'
       ],
-      'orig' => 'diyjAniyruw',
-      'prefix' => ''
+      'orig' => 'lAduwmariy',
+      'prefix' => 'lA >| '
     }
   ],
   'd r d r' => [
@@ -4030,6 +4155,27 @@ $Lexicon = {
         'vortex'
       ],
       'orig' => 'duroduwr',
+      'prefix' => ''
+    }
+  ],
+  'drIks' => [
+    {
+      'types' => {},
+      'entry' => 'driyks',
+      'form' => 'driyks',
+      'lines' => [
+        ';; driykos_1',
+        'dryks   driykos Nprop   Drixie'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Drixie'
+      ],
+      'orig' => 'driykos',
       'prefix' => ''
     }
   ],
@@ -4434,14 +4580,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diykuw^giy' => [
+  'dIkUltIh' => [
     {
       'types' => {},
-      'entry' => 'diykuw^giy',
-      'form' => 'diykuw^giy',
+      'entry' => 'diykuwltiyh',
+      'form' => 'diykuwltiyh',
       'lines' => [
-        ';; diykuwjiy_1',
-        'dykwjy  diykuwjiy       Nprop   Decugis'
+        ';; diykuwlotiyh_1',
+        'dykwltyh        diykuwlotiyh    N       decollete'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4449,9 +4595,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Decugis'
+        'decollete'
       ],
-      'orig' => 'diykuwjiy',
+      'orig' => 'diykuwlotiyh',
       'prefix' => ''
     }
   ],
@@ -5834,6 +5980,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'dUhAldI' => [
+    {
+      'types' => {},
+      'entry' => 'duwhAldiy',
+      'form' => 'duwhAldiy',
+      'lines' => [
+        ';; duwhAlodiy_1',
+        'dwhAldy duwhAlodiy      N0      Duhalde'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Duhalde'
+      ],
+      'orig' => 'duwhAlodiy',
+      'prefix' => ''
+    }
+  ],
   'd b s' => [
     {
       'types' => {},
@@ -5940,40 +6107,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diykAtluwn' => [
-    {
-      'types' => {
-        'diykA_tluwn' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'diykAtluwn',
-      'form' => 'diykAtluwn',
-      'lines' => [
-        ';; diykAtoluwn_1',
-        'dykAtlwn        diykAtoluwn     N       decathlon',
-        'dykAvlwn        diykAvoluwn     N       decathlon'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'decathlon'
-      ],
-      'orig' => 'diykAtoluwn',
-      'prefix' => ''
-    }
-  ],
-  'dayfinbuwrt' => [
+  'dAnIlInkU' => [
     {
       'types' => {},
-      'entry' => 'dayfinbuwrt',
-      'form' => 'dayfinbuwrt',
+      'entry' => 'dAniyliynkuw',
+      'form' => 'dAniyliynkuw',
       'lines' => [
-        ';; dayofinbuwrt_1',
-        'dyfnbwrt        dayofinbuwrt    Nprop   Davenport'
+        ';; dAniyliynokuw_1',
+        'dAnylynkw       dAniyliynokuw   Nprop   Danilenko'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5981,30 +6122,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Davenport'
+        'Danilenko'
       ],
-      'orig' => 'dayofinbuwrt',
-      'prefix' => ''
-    }
-  ],
-  'dil.gAduw' => [
-    {
-      'types' => {},
-      'entry' => 'dil.gAduw',
-      'form' => 'dil.gAduw',
-      'lines' => [
-        ';; dilogAduw_1',
-        'dlgAdw  dilogAduw       Nprop   Delgado'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Delgado'
-      ],
-      'orig' => 'dilogAduw',
+      'orig' => 'dAniyliynokuw',
       'prefix' => ''
     }
   ],
@@ -6069,74 +6189,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'dumyA.tiyy' => [
+  'dIznI' => [
     {
       'types' => {},
-      'entry' => 'dumyA.tiyy',
-      'form' => 'dumyA.tiyy',
+      'entry' => 'diyzniy',
+      'form' => 'diyzniy',
       'lines' => [
-        ';; dumoyATiy~_1',
-        'dmyATy  dumoyATiy~      Nall    from/of Damietta     [[dumoyATiy~/ADJ]]'
+        ';; diyzoniy_1',
+        'dyzny   diyzoniy        Nprop   Disney'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'noun',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'from/of Damietta'
+        'Disney'
       ],
-      'orig' => 'dumoyATiy~',
-      'prefix' => ''
-    }
-  ],
-  'diymuw.grAf' => [
-    {
-      'types' => {
-        'diymuw^grAfiyy' => {
-          'N-ap' => 1
-        }
-      },
-      'entry' => 'diymuw.grAf',
-      'form' => 'diymuw.grAfiyy',
-      'lines' => [
-        ';; diymuwgrAfiy~_1',
-        'dymwgrAfy       diymuwgrAfiy~   N-ap    demographic     [[diymuwgrAfiy~/ADJ]]',
-        'dymwjrAfy       diymuwjrAfiy~   N-ap    demographic     [[diymuwjrAfiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'demographic'
-      ],
-      'orig' => 'diymuwgrAfiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'diymuw^grAfiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'diymuw.grAf',
-      'form' => 'diymuw.grAfiyy',
-      'lines' => [
-        ';; diymuwgrAfiy~_2',
-        'dymwgrAfy       diymuwgrAfiy~   Nall    demographer     [[diymuwgrAfiy~/ADJ]]',
-        'dymwjrAfy       diymuwjrAfiy~   Nall    demographer     [[diymuwjrAfiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'demographer'
-      ],
-      'orig' => 'diymuwgrAfiy~',
+      'orig' => 'diyzoniy',
       'prefix' => ''
     }
   ],
@@ -6238,53 +6308,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diymuwqrA.t' => [
+  'dIkU^gI' => [
     {
-      'types' => {
-        'diymuqrA.tiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'diymuwqrA.t',
-      'form' => 'diymuwqrA.tiyy',
+      'types' => {},
+      'entry' => 'diykuw^giy',
+      'form' => 'diykuw^giy',
       'lines' => [
-        ';; diymuwqrATiy~_1',
-        'dymwqrATy       diymuwqrATiy~   Nall    democratic     [[diymuwqrATiy~/ADJ]]',
-        'dymqrATy        diymuqrATiy~    Nall    democratic     [[diymuqrATiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'democratic'
-      ],
-      'orig' => 'diymuwqrATiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'diymuqrA.tiyy' => {
-          'NapAt' => 1
-        }
-      },
-      'entry' => 'diymuwqrA.t',
-      'form' => 'diymuwqrA.tiyyaT',
-      'lines' => [
-        ';; diymuwqrATiy~ap_1',
-        'dymwqrATy       diymuwqrATiy~   NapAt   democracy     [[diymuwqrATiy~/NOUN]]',
-        'dymqrATy        diymuqrATiy~    NapAt   democracy     [[diymuqrATiy~/NOUN]]'
+        ';; diykuwjiy_1',
+        'dykwjy  diykuwjiy       Nprop   Decugis'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'democracy'
+        'Decugis'
       ],
-      'orig' => 'diymuwqrATiy~ap',
+      'orig' => 'diykuwjiy',
       'prefix' => ''
     }
   ],
@@ -6522,14 +6563,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'dAhuwmiy' => [
+  'dI^gItAl' => [
     {
       'types' => {},
-      'entry' => 'dAhuwmiy',
-      'form' => 'dAhuwmiy',
+      'entry' => 'diy^giytAl',
+      'form' => 'diy^giytAl',
       'lines' => [
-        ';; dAhuwmiy_1',
-        'dAhwmy  dAhuwmiy        N0      Dahomey'
+        ';; diyjiytAl_1',
+        'dyjytAl diyjiytAl       N0      Digital'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6537,30 +6578,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Dahomey'
+        'Digital'
       ],
-      'orig' => 'dAhuwmiy',
-      'prefix' => ''
-    }
-  ],
-  'diykuwltiyh' => [
-    {
-      'types' => {},
-      'entry' => 'diykuwltiyh',
-      'form' => 'diykuwltiyh',
-      'lines' => [
-        ';; diykuwlotiyh_1',
-        'dykwltyh        diykuwlotiyh    N       decollete'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'decollete'
-      ],
-      'orig' => 'diykuwlotiyh',
+      'orig' => 'diyjiytAl',
       'prefix' => ''
     }
   ],
@@ -6625,49 +6645,6 @@ $Lexicon = {
         'ricochets'
       ],
       'orig' => 'dAlif',
-      'prefix' => ''
-    }
-  ],
-  'dawAdimiyy' => [
-    {
-      'types' => {},
-      'entry' => 'dawAdimiyy',
-      'form' => 'dawAdimiyy',
-      'lines' => [
-        ';; dawAdimiy~_1',
-        'dwAdmy  dawAdimiy~      N0      Dawadimi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Dawadimi'
-      ],
-      'orig' => 'dawAdimiy~',
-      'prefix' => ''
-    }
-  ],
-  'dArfuwr' => [
-    {
-      'types' => {},
-      'entry' => 'dArfuwr',
-      'form' => 'dArfuwr',
-      'lines' => [
-        ';; dArofuwr_1',
-        'dArfwr  dArofuwr        Nprop   Darfour;Darfur'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Darfour',
-        'Darfur'
-      ],
-      'orig' => 'dArofuwr',
       'prefix' => ''
     }
   ],
@@ -6808,101 +6785,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'dibluwmAs' => [
-    {
-      'types' => {
-        'diybluwmAsiyy' => {
-          'N-ap' => 1
-        }
-      },
-      'entry' => 'dibluwmAs',
-      'form' => 'dibluwmAsiyy',
-      'lines' => [
-        ';; dibluwmAsiy~_1',
-        'dblwmAsy        dibluwmAsiy~    N-ap    diplomatic     [[dibluwmAsiy~/ADJ]]',
-        'dyblwmAsy       diybluwmAsiy~   N-ap    diplomatic     [[diybluwmAsiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'diplomatic'
-      ],
-      'orig' => 'dibluwmAsiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'diybluwmAsiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'dibluwmAs',
-      'form' => 'dibluwmAsiyy',
-      'lines' => [
-        ';; dibluwmAsiy~_2',
-        'dblwmAsy        dibluwmAsiy~    Nall    diplomat     [[dibluwmAsiy~/NOUN]]',
-        'dyblwmAsy       diybluwmAsiy~   Nall    diplomat     [[diybluwmAsiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'diplomat'
-      ],
-      'orig' => 'dibluwmAsiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'diybluwmAsiyy' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'dibluwmAs',
-      'form' => 'dibluwmAsiyyaT',
-      'lines' => [
-        ';; dibluwmAsiy~ap_1',
-        'dblwmAsy        dibluwmAsiy~    Nap     diplomacy     [[dibluwmAsiy~/NOUN]]',
-        'dyblwmAsy       diybluwmAsiy~   Nap     diplomacy     [[diybluwmAsiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'diplomacy'
-      ],
-      'orig' => 'dibluwmAsiy~ap',
-      'prefix' => ''
-    }
-  ],
-  'diykmAn' => [
-    {
-      'types' => {},
-      'entry' => 'diykmAn',
-      'form' => 'diykmAn',
-      'lines' => [
-        ';; diykomAn_1',
-        'dykmAn  diykomAn        Nprop   Dickman'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Dickman'
-      ],
-      'orig' => 'diykomAn',
-      'prefix' => ''
-    }
-  ],
   'd .g .s' => [
     {
       'types' => {
@@ -6965,14 +6847,35 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'dAniyluwfiyt^s' => [
+  'dazzIn' => [
     {
       'types' => {},
-      'entry' => 'dAniyluwfiyt^s',
-      'form' => 'dAniyluwfiyt^s',
+      'entry' => 'dazziyn',
+      'form' => 'dazziynaT',
       'lines' => [
-        ';; dAniyluwfiyt$_1',
-        'dAnylwfyt$      dAniyluwfiyt$   Nprop   Danilovic;Danjlovic'
+        ';; daz~iynap_1',
+        'dzyn    daz~iyn NapAt   dozen'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'dozen'
+      ],
+      'orig' => 'daz~iynap',
+      'prefix' => ''
+    }
+  ],
+  'dU.glAs' => [
+    {
+      'types' => {},
+      'entry' => 'duw.glAs',
+      'form' => 'duw.glAs',
+      'lines' => [
+        ';; duwgolAs_1',
+        'dwglAs  duwgolAs        Nprop   Douglas'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6980,10 +6883,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Danilovic',
-        'Danjlovic'
+        'Douglas'
       ],
-      'orig' => 'dAniyluwfiyt$',
+      'orig' => 'duwgolAs',
+      'prefix' => ''
+    }
+  ],
+  'dUrtmUnd' => [
+    {
+      'types' => {},
+      'entry' => 'duwrtmuwnd',
+      'form' => 'duwrtmuwnd',
+      'lines' => [
+        ';; duwrotmuwnod_1',
+        'dwrtmwnd        duwrotmuwnod    Nprop   Dortmund'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Dortmund'
+      ],
+      'orig' => 'duwrotmuwnod',
       'prefix' => ''
     }
   ],
@@ -7221,27 +7144,6 @@ $Lexicon = {
         'moisture-laden clouds'
       ],
       'orig' => 'daluwH',
-      'prefix' => ''
-    }
-  ],
-  'dAniyliynkuw' => [
-    {
-      'types' => {},
-      'entry' => 'dAniyliynkuw',
-      'form' => 'dAniyliynkuw',
-      'lines' => [
-        ';; dAniyliynokuw_1',
-        'dAnylynkw       dAniyliynokuw   Nprop   Danilenko'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Danilenko'
-      ],
-      'orig' => 'dAniyliynokuw',
       'prefix' => ''
     }
   ],
@@ -7601,27 +7503,6 @@ $Lexicon = {
         'temporal'
       ],
       'orig' => 'dunoyawiy~',
-      'prefix' => ''
-    }
-  ],
-  'dirAmAtuwr^g' => [
-    {
-      'types' => {},
-      'entry' => 'dirAmAtuwr^g',
-      'form' => 'dirAmAtuwr^giyy',
-      'lines' => [
-        ';; dirAmAtuwrojiy~_1',
-        'drAmAtwrjy      dirAmAtuwrojiy~ Nall    dramaturgist     [[dirAmAtuwrojiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'dramaturgist'
-      ],
-      'orig' => 'dirAmAtuwrojiy~',
       'prefix' => ''
     }
   ],
@@ -8072,49 +7953,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'duwmAn^g' => [
-    {
-      'types' => {},
-      'entry' => 'duwmAn^g',
-      'form' => 'duwmAn^giyy',
-      'lines' => [
-        ';; duwmAnojiy~_1',
-        'dwmAnjy duwmAnojiy~     Nall    helmsman;steersman     [[duwmAnojiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'helmsman',
-        'steersman'
-      ],
-      'orig' => 'duwmAnojiy~',
-      'prefix' => ''
-    }
-  ],
-  'driyks' => [
-    {
-      'types' => {},
-      'entry' => 'driyks',
-      'form' => 'driyks',
-      'lines' => [
-        ';; driykos_1',
-        'dryks   driykos Nprop   Drixie'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Drixie'
-      ],
-      'orig' => 'driykos',
-      'prefix' => ''
-    }
-  ],
   'd s s' => [
     {
       'types' => {
@@ -8446,36 +8284,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'duwmariy' => [
+  'dUstum' => [
     {
       'types' => {},
-      'entry' => 'duwmariy',
-      'form' => 'lAduwmariy',
+      'entry' => 'duwstum',
+      'form' => 'duwstum',
       'lines' => [
-        ';; lAduwmariy_1',
-        'lAdwmry lAduwmariy      N0_L    nobody;no one'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'lA >| Identity',
-      'suffix' => '',
-      'glosses' => [
-        'nobody',
-        'no one'
-      ],
-      'orig' => 'lAduwmariy',
-      'prefix' => 'lA >| '
-    }
-  ],
-  'duwiytuw' => [
-    {
-      'types' => {},
-      'entry' => 'duwiytuw',
-      'form' => 'duwiytuw',
-      'lines' => [
-        ';; duwiytuw_1',
-        'dwytw   duwiytuw        N0      duet;duetto'
+        ';; duwsotum_1',
+        'dwstm   duwsotum        Nprop   Dustum'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8483,10 +8299,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'duet',
-        'duetto'
+        'Dustum'
       ],
-      'orig' => 'duwiytuw',
+      'orig' => 'duwsotum',
       'prefix' => ''
     }
   ],
@@ -8741,6 +8556,27 @@ $Lexicon = {
         'black-eyed'
       ],
       'orig' => 'OadoEaj',
+      'prefix' => ''
+    }
+  ],
+  'diyUrdIyifIt^s' => [
+    {
+      'types' => {},
+      'entry' => 'diyuwrdiyyifiyt^s',
+      'form' => 'diyuwrdiyyifiyt^s',
+      'lines' => [
+        ';; diyuwrodiyyifiyt$_1',
+        'dywrdyyfyt$     diyuwrodiyyifiyt$       Nprop   Djordjevic'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Djordjevic'
+      ],
+      'orig' => 'diyuwrodiyyifiyt$',
       'prefix' => ''
     }
   ],
@@ -9144,6 +8980,29 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'ddIn' => [
+    {
+      'types' => {},
+      'entry' => 'ddiyn',
+      'form' => 'Alddiyn',
+      'lines' => [
+        ';; Ald~iyn_1',
+        'Aldyn   Ald~iyn FW      Al-Din;El-Din;Eddin     [[Ald~iyn/NOUN_PROP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'al >| Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Al-Din',
+        'El-Din',
+        'Eddin'
+      ],
+      'orig' => 'Ald~iyn',
+      'prefix' => 'al >| '
+    }
+  ],
   'd w l b' => [
     {
       'types' => {
@@ -9179,27 +9038,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diynAmiyt' => [
-    {
-      'types' => {},
-      'entry' => 'diynAmiyt',
-      'form' => 'diynAmiyt',
-      'lines' => [
-        ';; diynAmiyt_1',
-        'dynAmyt diynAmiyt       N       dynamite'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'dynamite'
-      ],
-      'orig' => 'diynAmiyt',
-      'prefix' => ''
-    }
-  ],
   'd r .g m' => [
     {
       'types' => {},
@@ -9218,27 +9056,6 @@ $Lexicon = {
         'Dirgham'
       ],
       'orig' => 'dirogAm',
-      'prefix' => ''
-    }
-  ],
-  'dAntiyl' => [
-    {
-      'types' => {},
-      'entry' => 'dAntiyl',
-      'form' => 'dAntiyl',
-      'lines' => [
-        ';; dAnotiyl_1',
-        'dAntyl  dAnotiyl        N       lacework'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'lacework'
-      ],
-      'orig' => 'dAnotiyl',
       'prefix' => ''
     }
   ],
@@ -9889,27 +9706,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'dazziyn' => [
-    {
-      'types' => {},
-      'entry' => 'dazziyn',
-      'form' => 'dazziynaT',
-      'lines' => [
-        ';; daz~iynap_1',
-        'dzyn    daz~iyn NapAt   dozen'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'dozen'
-      ],
-      'orig' => 'daz~iynap',
-      'prefix' => ''
-    }
-  ],
   'd h s' => [
     {
       'types' => {
@@ -9942,6 +9738,27 @@ $Lexicon = {
         'FCaL'
       ],
       'orig' => 'dahas-a',
+      'prefix' => ''
+    }
+  ],
+  'dIfuwAr' => [
+    {
+      'types' => {},
+      'entry' => 'diyfuwAr',
+      'form' => 'diyfuwAr',
+      'lines' => [
+        ';; diyfuwAr_1',
+        'dyfwAr  diyfuwAr        Nprop   d\'Ivoire     [[diyfuwAr/NOUN_PROP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'd\'Ivoire'
+      ],
+      'orig' => 'diyfuwAr',
       'prefix' => ''
     }
   ],
@@ -10186,6 +10003,25 @@ $Lexicon = {
       ],
       'orig' => 'dumoyAT',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'dumyA.t',
+      'form' => 'dumyA.tiyy',
+      'lines' => [
+        ';; dumoyATiy~_1',
+        'dmyATy  dumoyATiy~      Nall    from/of Damietta     [[dumoyATiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KuRDAS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'from/of Damietta'
+      ],
+      'orig' => 'dumoyATiy~',
+      'prefix' => ''
     }
   ],
   'd f n' => [
@@ -10380,27 +10216,6 @@ $Lexicon = {
         'hidden'
       ],
       'orig' => 'madofuwn',
-      'prefix' => ''
-    }
-  ],
-  'dirAmAtiyk' => [
-    {
-      'types' => {},
-      'entry' => 'dirAmAtiyk',
-      'form' => 'dirAmAtiykiyy',
-      'lines' => [
-        ';; dirAmAtiykiy~_1',
-        'drAmAtyky       dirAmAtiykiy~   Nall    dramatic     [[dirAmAtiykiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'dramatic'
-      ],
-      'orig' => 'dirAmAtiykiy~',
       'prefix' => ''
     }
   ],
@@ -10645,27 +10460,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'duwmA' => [
-    {
-      'types' => {},
-      'entry' => 'duwmA',
-      'form' => 'duwmA',
-      'lines' => [
-        ';; duwmA_1',
-        'dwmA    duwmA   N0      Duma'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Duma'
-      ],
-      'orig' => 'duwmA',
-      'prefix' => ''
-    }
-  ],
   'd r b s' => [
     {
       'types' => {
@@ -10741,129 +10535,6 @@ $Lexicon = {
         'door bolts'
       ],
       'orig' => 'dirobAs',
-      'prefix' => ''
-    }
-  ],
-  'diyktAtuwr' => [
-    {
-      'types' => {
-        'diktAtuwr' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'diyktAtuwr',
-      'form' => 'diyktAtuwr',
-      'lines' => [
-        ';; diykotAtuwr_1',
-        'dyktAtwr        diykotAtuwr     N       dictator',
-        'dktAtwr dikotAtuwr      N       dictator'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'dictator'
-      ],
-      'orig' => 'diykotAtuwr',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'diktAtuwriyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'diyktAtuwr',
-      'form' => 'diyktAtuwriyy',
-      'lines' => [
-        ';; diykotAtuwriy~_1',
-        'dyktAtwry       diykotAtuwriy~  Nall    dictatorial     [[diykotAtuwriy~/ADJ]]',
-        'dktAtwry        dikotAtuwriy~   Nall    dictatorial     [[dikotAtuwriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'dictatorial'
-      ],
-      'orig' => 'diykotAtuwriy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'diktAtuwriyy' => {
-          'NAt' => 1,
-          'Napdu' => 1
-        },
-        'diyktAtuwriyy' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'diyktAtuwr',
-      'form' => 'diyktAtuwriyyaT',
-      'lines' => [
-        ';; diykotAtuwriy~ap_1',
-        'dyktAtwry       diykotAtuwriy~  Napdu   dictatorship     [[diykotAtuwriy~/NOUN]]',
-        'dyktAtwry       diykotAtuwriy~  NAt     dictatorships     [[diykotAtuwriy~/NOUN]]',
-        'dktAtwry        dikotAtuwriy~   Napdu   dictatorship     [[dikotAtuwriy~/NOUN]]',
-        'dktAtwry        dikotAtuwriy~   NAt     dictatorships     [[dikotAtuwriy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'dictatorship',
-        'dictatorships'
-      ],
-      'orig' => 'diykotAtuwriy~ap',
-      'prefix' => ''
-    }
-  ],
-  'diyrnir' => [
-    {
-      'types' => {},
-      'entry' => 'diyrnir',
-      'form' => 'diyrnir',
-      'lines' => [
-        ';; diyrnir_1',
-        'dyrnr   diyrnir Nprop   Derner'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Derner'
-      ],
-      'orig' => 'diyrnir',
-      'prefix' => ''
-    }
-  ],
-  'diybuwrtiyfuw' => [
-    {
-      'types' => {},
-      'entry' => 'diybuwrtiyfuw',
-      'form' => 'diybuwrtiyfuw',
-      'lines' => [
-        ';; diybuwrotiyfuw_1',
-        'dybwrtyfw       diybuwrotiyfuw  Nprop   Deportivo'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Deportivo'
-      ],
-      'orig' => 'diybuwrotiyfuw',
       'prefix' => ''
     }
   ],
@@ -11005,6 +10676,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'dInAmIks' => [
+    {
+      'types' => {},
+      'entry' => 'diynAmiyks',
+      'form' => 'diynAmiyks',
+      'lines' => [
+        ';; diynAmiyks_1',
+        'dynAmyks        diynAmiyks      N0      Dynamics'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Dynamics'
+      ],
+      'orig' => 'diynAmiyks',
+      'prefix' => ''
+    }
+  ],
   'd f y' => [
     {
       'types' => {
@@ -11035,27 +10727,6 @@ $Lexicon = {
         'heaters'
       ],
       'orig' => 'daf~Ayap',
-      'prefix' => ''
-    }
-  ],
-  'diy^giytAl' => [
-    {
-      'types' => {},
-      'entry' => 'diy^giytAl',
-      'form' => 'diy^giytAl',
-      'lines' => [
-        ';; diyjiytAl_1',
-        'dyjytAl diyjiytAl       N0      Digital'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Digital'
-      ],
-      'orig' => 'diyjiytAl',
       'prefix' => ''
     }
   ],
@@ -11487,14 +11158,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diyuwf' => [
+  'dil.gAdU' => [
     {
       'types' => {},
-      'entry' => 'diyuwf',
-      'form' => 'diyuwf',
+      'entry' => 'dil.gAduw',
+      'form' => 'dil.gAduw',
       'lines' => [
-        ';; diyuwf_1',
-        'dywf    diyuwf  Nprop   Diouf'
+        ';; dilogAduw_1',
+        'dlgAdw  dilogAduw       Nprop   Delgado'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11502,9 +11173,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Diouf'
+        'Delgado'
       ],
-      'orig' => 'diyuwf',
+      'orig' => 'dilogAduw',
       'prefix' => ''
     }
   ],
@@ -11612,14 +11283,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diynA' => [
+  'dUblIr' => [
     {
       'types' => {},
-      'entry' => 'diynA',
-      'form' => 'diynA',
+      'entry' => 'duwbliyr',
+      'form' => 'duwbliyr',
       'lines' => [
-        ';; diynA_1',
-        'dynA    diynA   Nprop   Dina'
+        ';; duwbliyr_1',
+        'dwblyr  duwbliyr        N/ap    double;substitute'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11627,30 +11298,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Dina'
+        'double',
+        'substitute'
       ],
-      'orig' => 'diynA',
-      'prefix' => ''
-    }
-  ],
-  'duwnAld' => [
-    {
-      'types' => {},
-      'entry' => 'duwnAld',
-      'form' => 'duwnAld',
-      'lines' => [
-        ';; duwnAld_1',
-        'dwnAld  duwnAld N0      Donald'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Donald'
-      ],
-      'orig' => 'duwnAld',
+      'orig' => 'duwbliyr',
       'prefix' => ''
     }
   ],
@@ -11713,6 +11364,32 @@ $Lexicon = {
         'Diab'
       ],
       'orig' => 'diyAb',
+      'prefix' => ''
+    }
+  ],
+  'dIsambir' => [
+    {
+      'types' => {
+        'disambir' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'diysambir',
+      'form' => 'diysambir',
+      'lines' => [
+        ';; diysamobir_1',
+        'dysmbr  diysamobir      N0      December',
+        'dsmbr   disamobir       N0      December'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'December'
+      ],
+      'orig' => 'diysamobir',
       'prefix' => ''
     }
   ],
@@ -12133,27 +11810,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'driym' => [
-    {
-      'types' => {},
-      'entry' => 'driym',
-      'form' => 'driym',
-      'lines' => [
-        ';; driym_1',
-        'drym    driym   N0      Dream'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Dream'
-      ],
-      'orig' => 'driym',
-      'prefix' => ''
-    }
-  ],
   'd y ^s' => [
     {
       'types' => {},
@@ -12172,27 +11828,6 @@ $Lexicon = {
         'Deschamps'
       ],
       'orig' => 'diy$An',
-      'prefix' => ''
-    }
-  ],
-  'diyfAt^s' => [
-    {
-      'types' => {},
-      'entry' => 'diyfAt^s',
-      'form' => 'diyfAt^s',
-      'lines' => [
-        ';; diyfAt$_1',
-        'dyfAt$  diyfAt$ Nprop   Divac'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Divac'
-      ],
-      'orig' => 'diyfAt$',
       'prefix' => ''
     }
   ],
@@ -12790,6 +12425,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'dAntIl' => [
+    {
+      'types' => {},
+      'entry' => 'dAntiyl',
+      'form' => 'dAntiyl',
+      'lines' => [
+        ';; dAnotiyl_1',
+        'dAntyl  dAnotiyl        N       lacework'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'lacework'
+      ],
+      'orig' => 'dAnotiyl',
+      'prefix' => ''
+    }
+  ],
   'd \' m' => [
     {
       'types' => {},
@@ -13246,27 +12902,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diyA^giyuw' => [
-    {
-      'types' => {},
-      'entry' => 'diyA^giyuw',
-      'form' => 'diyA^giyuw',
-      'lines' => [
-        ';; diyAjiyuw_1',
-        'dyAjyw  diyAjiyuw       N0      Diageo'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Diageo'
-      ],
-      'orig' => 'diyAjiyuw',
-      'prefix' => ''
-    }
-  ],
   'd y m m' => [
     {
       'types' => {},
@@ -13720,6 +13355,32 @@ $Lexicon = {
         'stinking'
       ],
       'orig' => 'dafir',
+      'prefix' => ''
+    }
+  ],
+  'dUsin.tAriyA' => [
+    {
+      'types' => {
+        'duwsintAriyA' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'duwsin.tAriyA',
+      'form' => 'duwsin.tAriyA',
+      'lines' => [
+        ';; duwsinoTAriyA_1',
+        'dwsnTAryA       duwsinoTAriyA   N0      dysentery',
+        'dwsntAryA       duwsinotAriyA   N0      dysentery'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'dysentery'
+      ],
+      'orig' => 'duwsinoTAriyA',
       'prefix' => ''
     }
   ],
@@ -14495,27 +14156,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'dAfiydiy' => [
-    {
-      'types' => {},
-      'entry' => 'dAfiydiy',
-      'form' => 'dAfiydiy',
-      'lines' => [
-        ';; dAfiydiy_1',
-        'dAfydy  dAfiydiy        N0      Davide'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Davide'
-      ],
-      'orig' => 'dAfiydiy',
-      'prefix' => ''
-    }
-  ],
   'd h w r' => [
     {
       'types' => {
@@ -14770,29 +14410,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'duwsin.tAriyA' => [
+  'dirAmAtIk' => [
     {
-      'types' => {
-        'duwsintAriyA' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'duwsin.tAriyA',
-      'form' => 'duwsin.tAriyA',
+      'types' => {},
+      'entry' => 'dirAmAtiyk',
+      'form' => 'dirAmAtiykiyy',
       'lines' => [
-        ';; duwsinoTAriyA_1',
-        'dwsnTAryA       duwsinoTAriyA   N0      dysentery',
-        'dwsntAryA       duwsinotAriyA   N0      dysentery'
+        ';; dirAmAtiykiy~_1',
+        'drAmAtyky       dirAmAtiykiy~   Nall    dramatic     [[dirAmAtiykiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'dysentery'
+        'dramatic'
       ],
-      'orig' => 'duwsinoTAriyA',
+      'orig' => 'dirAmAtiykiy~',
       'prefix' => ''
     }
   ],
@@ -14855,27 +14490,6 @@ $Lexicon = {
         'Dov'
       ],
       'orig' => 'duwf',
-      'prefix' => ''
-    }
-  ],
-  'diyfiliyh' => [
-    {
-      'types' => {},
-      'entry' => 'diyfiliyh',
-      'form' => 'diyfiliyh',
-      'lines' => [
-        ';; diyfiliyh_1',
-        'dyflyh  diyfiliyh       N       marching past'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'marching past'
-      ],
-      'orig' => 'diyfiliyh',
       'prefix' => ''
     }
   ],
@@ -15415,6 +15029,28 @@ $Lexicon = {
       ],
       'orig' => 'danodan',
       'prefix' => ''
+    }
+  ],
+  'tadmurI' => [
+    {
+      'types' => {},
+      'entry' => 'tadmuriy',
+      'form' => 'lAtadmuriy',
+      'lines' => [
+        ';; lAtadomuriy_1',
+        'lAtdmry lAtadomuriy     N0_L    nobody;no one'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'lA >| Identity',
+      'suffix' => '',
+      'glosses' => [
+        'nobody',
+        'no one'
+      ],
+      'orig' => 'lAtadomuriy',
+      'prefix' => 'lA >| '
     }
   ],
   'dirbakk' => [
@@ -16711,6 +16347,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'dImItrI' => [
+    {
+      'types' => {},
+      'entry' => 'diymiytriy',
+      'form' => 'diymiytriy',
+      'lines' => [
+        ';; diymiytriy_1',
+        'dymytry diymiytriy      Nprop   Dimitri'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Dimitri'
+      ],
+      'orig' => 'diymiytriy',
+      'prefix' => ''
+    }
+  ],
   'd b k' => [
     {
       'types' => {
@@ -16761,27 +16418,6 @@ $Lexicon = {
         'dabka (dance)'
       ],
       'orig' => 'dabokap',
-      'prefix' => ''
-    }
-  ],
-  'diymiytriy' => [
-    {
-      'types' => {},
-      'entry' => 'diymiytriy',
-      'form' => 'diymiytriy',
-      'lines' => [
-        ';; diymiytriy_1',
-        'dymytry diymiytriy      Nprop   Dimitri'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Dimitri'
-      ],
-      'orig' => 'diymiytriy',
       'prefix' => ''
     }
   ],
@@ -17051,6 +16687,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'dUmAn^g' => [
+    {
+      'types' => {},
+      'entry' => 'duwmAn^g',
+      'form' => 'duwmAn^giyy',
+      'lines' => [
+        ';; duwmAnojiy~_1',
+        'dwmAnjy duwmAnojiy~     Nall    helmsman;steersman     [[duwmAnojiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'helmsman',
+        'steersman'
+      ],
+      'orig' => 'duwmAnojiy~',
+      'prefix' => ''
+    }
+  ],
   'd n k' => [
     {
       'types' => {},
@@ -17090,27 +16748,6 @@ $Lexicon = {
         'clutch'
       ],
       'orig' => 'dibriyAj',
-      'prefix' => ''
-    }
-  ],
-  'diynAmiyks' => [
-    {
-      'types' => {},
-      'entry' => 'diynAmiyks',
-      'form' => 'diynAmiyks',
-      'lines' => [
-        ';; diynAmiyks_1',
-        'dynAmyks        diynAmiyks      N0      Dynamics'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Dynamics'
-      ],
-      'orig' => 'diynAmiyks',
       'prefix' => ''
     }
   ],
@@ -17291,22 +16928,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diyAluw^g' => [
+  'dInA' => [
     {
-      'types' => {
-        'diyAluw^g' => {
-          'NAt' => 1
-        },
-        'diyAluw.g' => {
-          'N/At' => 1
-        }
-      },
-      'entry' => 'diyAluw^g',
-      'form' => 'diyAluw^g',
+      'types' => {},
+      'entry' => 'diynA',
+      'form' => 'diynA',
       'lines' => [
-        ';; diyAluwj_1',
-        'dyAlwj  diyAluwj        N/At    dialog',
-        'dyAlwg  diyAluwg        N/At    dialog'
+        ';; diynA_1',
+        'dynA    diynA   Nprop   Dina'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17314,9 +16943,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'dialog'
+        'Dina'
       ],
-      'orig' => 'diyAluwj',
+      'orig' => 'diynA',
       'prefix' => ''
     }
   ],
@@ -17551,19 +17180,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diynAmuw' => [
+  'dImArIh' => [
     {
-      'types' => {
-        'diynAmuwh' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'diynAmuw',
-      'form' => 'diynAmuw',
+      'types' => {},
+      'entry' => 'diymAriyh',
+      'form' => 'diymAriyh',
       'lines' => [
-        ';; diynAmuw_1',
-        'dynAmw  diynAmuw        N0      dynamo;generator',
-        'dynAmwh diynAmuwh       NAt     dynamos;generators'
+        ';; diymAriyh_1',
+        'dymAryh diymAriyh       Nprop   Demaret'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17571,12 +17195,31 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'dynamo',
-        'generator',
-        'dynamos',
-        'generators'
+        'Demaret'
       ],
-      'orig' => 'diynAmuw',
+      'orig' => 'diymAriyh',
+      'prefix' => ''
+    }
+  ],
+  'duwItU' => [
+    {
+      'types' => {},
+      'entry' => 'duwiytuw',
+      'form' => 'duwiytuw',
+      'lines' => [
+        ';; duwiytuw_1',
+        'dwytw   duwiytuw        N0      duet;duetto'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'duet',
+        'duetto'
+      ],
+      'orig' => 'duwiytuw',
       'prefix' => ''
     }
   ],
@@ -17718,6 +17361,48 @@ $Lexicon = {
         'amaranth'
       ],
       'orig' => 'dayosam',
+      'prefix' => ''
+    }
+  ],
+  'dayfinbUrt' => [
+    {
+      'types' => {},
+      'entry' => 'dayfinbuwrt',
+      'form' => 'dayfinbuwrt',
+      'lines' => [
+        ';; dayofinbuwrt_1',
+        'dyfnbwrt        dayofinbuwrt    Nprop   Davenport'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Davenport'
+      ],
+      'orig' => 'dayofinbuwrt',
+      'prefix' => ''
+    }
+  ],
+  'dAnfUr_t' => [
+    {
+      'types' => {},
+      'entry' => 'dAnfuwr_t',
+      'form' => 'dAnfuwr_t',
+      'lines' => [
+        ';; dAnofuwrv_1',
+        'dAnfwrv dAnofuwrv       N0      Danforth'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Danforth'
+      ],
+      'orig' => 'dAnofuwrv',
       'prefix' => ''
     }
   ],
@@ -17952,27 +17637,6 @@ $Lexicon = {
         'atheism'
       ],
       'orig' => 'dahoriy~ap',
-      'prefix' => ''
-    }
-  ],
-  'dArkuw' => [
-    {
-      'types' => {},
-      'entry' => 'dArkuw',
-      'form' => 'dArkuw',
-      'lines' => [
-        ';; dArokuw_1',
-        'dArkw   dArokuw Nprop   Darko'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Darko'
-      ],
-      'orig' => 'dArokuw',
       'prefix' => ''
     }
   ],
@@ -18436,27 +18100,6 @@ $Lexicon = {
         'shopkeeper'
       ],
       'orig' => 'duk~Anojiy~',
-      'prefix' => ''
-    }
-  ],
-  'duwkuwmuw' => [
-    {
-      'types' => {},
-      'entry' => 'duwkuwmuw',
-      'form' => 'duwkuwmuw',
-      'lines' => [
-        ';; duwkuwmuw_1',
-        'dwkwmw  duwkuwmuw       Nprop   DOCOMO'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'DOCOMO'
-      ],
-      'orig' => 'duwkuwmuw',
       'prefix' => ''
     }
   ],
@@ -19348,6 +18991,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'yAdUb' => [
+    {
+      'types' => {},
+      'entry' => 'yAduwb',
+      'form' => 'yAduwb',
+      'lines' => [
+        ';; yAduwb_1',
+        'yAdwb   yAduwb  FW-Wa   almost;barely     [[yAduwb/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'almost',
+        'barely'
+      ],
+      'orig' => 'yAduwb',
+      'prefix' => ''
+    }
+  ],
   'd b q' => [
     {
       'types' => {
@@ -19766,27 +19431,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'duwhAldiy' => [
-    {
-      'types' => {},
-      'entry' => 'duwhAldiy',
-      'form' => 'duwhAldiy',
-      'lines' => [
-        ';; duwhAlodiy_1',
-        'dwhAldy duwhAlodiy      N0      Duhalde'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Duhalde'
-      ],
-      'orig' => 'duwhAlodiy',
-      'prefix' => ''
-    }
-  ],
   'd n y l' => [
     {
       'types' => {},
@@ -19805,6 +19449,27 @@ $Lexicon = {
         'Daniel'
       ],
       'orig' => 'danoyAl',
+      'prefix' => ''
+    }
+  ],
+  'dIrnir' => [
+    {
+      'types' => {},
+      'entry' => 'diyrnir',
+      'form' => 'diyrnir',
+      'lines' => [
+        ';; diyrnir_1',
+        'dyrnr   diyrnir Nprop   Derner'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Derner'
+      ],
+      'orig' => 'diyrnir',
       'prefix' => ''
     }
   ],
@@ -19956,15 +19621,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diyziyriyh' => [
+  'dIkAtlUn' => [
     {
-      'types' => {},
-      'entry' => 'diyziyriyh',
-      'form' => 'diyziyriyh',
+      'types' => {
+        'diykA_tluwn' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'diykAtluwn',
+      'form' => 'diykAtluwn',
       'lines' => [
-        ';; diyziyriyh_1',
-        'dyzyryh diyziyriyh      Nprop   Desire',
-        'dyzyryh diyziyriyh      Nprop   Desiree'
+        ';; diykAtoluwn_1',
+        'dykAtlwn        diykAtoluwn     N       decathlon',
+        'dykAvlwn        diykAvoluwn     N       decathlon'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19972,10 +19641,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Desire',
-        'Desiree'
+        'decathlon'
       ],
-      'orig' => 'diyziyriyh',
+      'orig' => 'diykAtoluwn',
       'prefix' => ''
     }
   ],
@@ -19997,6 +19665,27 @@ $Lexicon = {
         'Dodi'
       ],
       'orig' => 'duwdiy',
+      'prefix' => ''
+    }
+  ],
+  'dAntIllA' => [
+    {
+      'types' => {},
+      'entry' => 'dAntiyllA',
+      'form' => 'dAntiyllA',
+      'lines' => [
+        ';; dAnotiyl~A_1',
+        'dAntylA dAnotiyl~A      N0      lacework'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'lacework'
+      ],
+      'orig' => 'dAnotiyl~A',
       'prefix' => ''
     }
   ],
@@ -20394,6 +20083,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'dI^gAnIrU' => [
+    {
+      'types' => {},
+      'entry' => 'diy^gAniyruw',
+      'form' => 'diy^gAniyruw',
+      'lines' => [
+        ';; diyjAniyruw_1',
+        'dyjAnyrw        diyjAniyruw     N0      De Janiero'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'De Janiero'
+      ],
+      'orig' => 'diyjAniyruw',
+      'prefix' => ''
+    }
+  ],
+  'dAhUmI' => [
+    {
+      'types' => {},
+      'entry' => 'dAhuwmiy',
+      'form' => 'dAhuwmiy',
+      'lines' => [
+        ';; dAhuwmiy_1',
+        'dAhwmy  dAhuwmiy        N0      Dahomey'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Dahomey'
+      ],
+      'orig' => 'dAhuwmiy',
+      'prefix' => ''
+    }
+  ],
   'd s m' => [
     {
       'types' => {},
@@ -20536,6 +20267,87 @@ $Lexicon = {
         'stopper'
       ],
       'orig' => 'disAm',
+      'prefix' => ''
+    }
+  ],
+  'dIktAtUr' => [
+    {
+      'types' => {
+        'diktAtuwr' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'diyktAtuwr',
+      'form' => 'diyktAtuwr',
+      'lines' => [
+        ';; diykotAtuwr_1',
+        'dyktAtwr        diykotAtuwr     N       dictator',
+        'dktAtwr dikotAtuwr      N       dictator'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'dictator'
+      ],
+      'orig' => 'diykotAtuwr',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'diktAtuwriyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'diyktAtuwr',
+      'form' => 'diyktAtuwriyy',
+      'lines' => [
+        ';; diykotAtuwriy~_1',
+        'dyktAtwry       diykotAtuwriy~  Nall    dictatorial     [[diykotAtuwriy~/ADJ]]',
+        'dktAtwry        dikotAtuwriy~   Nall    dictatorial     [[dikotAtuwriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'dictatorial'
+      ],
+      'orig' => 'diykotAtuwriy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'diktAtuwriyy' => {
+          'NAt' => 1,
+          'Napdu' => 1
+        },
+        'diyktAtuwriyy' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'diyktAtuwr',
+      'form' => 'diyktAtuwriyyaT',
+      'lines' => [
+        ';; diykotAtuwriy~ap_1',
+        'dyktAtwry       diykotAtuwriy~  Napdu   dictatorship     [[diykotAtuwriy~/NOUN]]',
+        'dyktAtwry       diykotAtuwriy~  NAt     dictatorships     [[diykotAtuwriy~/NOUN]]',
+        'dktAtwry        dikotAtuwriy~   Napdu   dictatorship     [[dikotAtuwriy~/NOUN]]',
+        'dktAtwry        dikotAtuwriy~   NAt     dictatorships     [[dikotAtuwriy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'dictatorship',
+        'dictatorships'
+      ],
+      'orig' => 'diykotAtuwriy~ap',
       'prefix' => ''
     }
   ],
@@ -21273,27 +21085,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'dAmiyAnuw' => [
-    {
-      'types' => {},
-      'entry' => 'dAmiyAnuw',
-      'form' => 'dAmiyAnuw',
-      'lines' => [
-        ';; dAmiyAnuw_1',
-        'dAmyAnw dAmiyAnuw       Nprop   Damiano'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Damiano'
-      ],
-      'orig' => 'dAmiyAnuw',
-      'prefix' => ''
-    }
-  ],
   'd ^g n' => [
     {
       'types' => {
@@ -21562,29 +21353,6 @@ $Lexicon = {
       ],
       'orig' => 'mudaj~an',
       'prefix' => ''
-    }
-  ],
-  'ddiyn' => [
-    {
-      'types' => {},
-      'entry' => 'ddiyn',
-      'form' => 'Alddiyn',
-      'lines' => [
-        ';; Ald~iyn_1',
-        'Aldyn   Ald~iyn FW      Al-Din;El-Din;Eddin     [[Ald~iyn/NOUN_PROP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'al >| Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Al-Din',
-        'El-Din',
-        'Eddin'
-      ],
-      'orig' => 'Ald~iyn',
-      'prefix' => 'al >| '
     }
   ],
   'd w ^s' => [
@@ -22423,6 +22191,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'duktUrY' => [
+    {
+      'types' => {
+        'duktuwrAh' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'duktuwrY',
+      'form' => 'duktuwrAT',
+      'lines' => [
+        ';; dukotuwrAp_1',
+        'dktwrA  dukotuwrA       Napdu   doctorate',
+        'dktwrAh dukotuwrAh      N       doctorate'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'doctorate'
+      ],
+      'orig' => 'dukotuwrAp',
+      'prefix' => ''
+    }
+  ],
   'd y _t' => [
     {
       'types' => {},
@@ -22443,6 +22237,28 @@ $Lexicon = {
         'cuckold'
       ],
       'orig' => 'day~uwv',
+      'prefix' => ''
+    }
+  ],
+  'dAnIlUfIt^s' => [
+    {
+      'types' => {},
+      'entry' => 'dAniyluwfiyt^s',
+      'form' => 'dAniyluwfiyt^s',
+      'lines' => [
+        ';; dAniyluwfiyt$_1',
+        'dAnylwfyt$      dAniyluwfiyt$   Nprop   Danilovic;Danjlovic'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Danilovic',
+        'Danjlovic'
+      ],
+      'orig' => 'dAniyluwfiyt$',
       'prefix' => ''
     }
   ],
@@ -24179,56 +23995,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diymA^guw^g' => [
-    {
-      'types' => {
-        'diymA.guw^giyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'diymA^guw^g',
-      'form' => 'diymA^guw^giyy',
-      'lines' => [
-        ';; diymAjuwjiy~_1',
-        'dymAjwjy        diymAjuwjiy~    Nall    demagogic     [[diymAjuwjiy~/ADJ]]',
-        'dymAgwjy        diymAguwjiy~    Nall    demagogic     [[diymAguwjiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'demagogic'
-      ],
-      'orig' => 'diymAjuwjiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'diymA.guw^giyy' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'diymA^guw^g',
-      'form' => 'diymA^guw^giyyaT',
-      'lines' => [
-        ';; diymAjuwjiy~ap_1',
-        'dymAjwjy        diymAjuwjiy~    Nap     demagoguery     [[diymAjuwjiy~/NOUN]]',
-        'dymAgwjy        diymAguwjiy~    Nap     demagoguery     [[diymAguwjiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'demagoguery'
-      ],
-      'orig' => 'diymAjuwjiy~ap',
-      'prefix' => ''
-    }
-  ],
   'd h l y' => [
     {
       'types' => {},
@@ -24505,40 +24271,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diymuw.grAfiyA' => [
-    {
-      'types' => {
-        'diymuw^grAfiyA' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'diymuw.grAfiyA',
-      'form' => 'diymuw.grAfiyA',
-      'lines' => [
-        ';; diymuwgrAfiyA_1',
-        'dymwgrAfyA      diymuwgrAfiyA   N0      demography',
-        'dymwjrAfyA      diymuwjrAfiyA   N0      demography'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'demography'
-      ],
-      'orig' => 'diymuwgrAfiyA',
-      'prefix' => ''
-    }
-  ],
-  'dAfiyn^siy' => [
+  'dAltUn' => [
     {
       'types' => {},
-      'entry' => 'dAfiyn^siy',
-      'form' => 'dAfiyn^siy',
+      'entry' => 'dAltuwn',
+      'form' => 'dAltuwn',
       'lines' => [
-        ';; dAfiyno$iy_1',
-        'dAfyn$y dAfiyno$iy      Nprop   Da Vinci'
+        ';; dAlotuwn_1',
+        'dAltwn  dAlotuwn        N0      Dalton'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24546,9 +24286,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Da Vinci'
+        'Dalton'
       ],
-      'orig' => 'dAfiyno$iy',
+      'orig' => 'dAlotuwn',
       'prefix' => ''
     }
   ],
@@ -25302,27 +25042,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diymuw.tiyq' => [
-    {
-      'types' => {},
-      'entry' => 'diymuw.tiyq',
-      'form' => 'diymuw.tiyqiyy',
-      'lines' => [
-        ';; diymuwTiyqiy~_1',
-        'dymwTyqy        diymuwTiyqiy~   Nall    demotic     [[diymuwTiyqiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'demotic'
-      ],
-      'orig' => 'diymuwTiyqiy~',
-      'prefix' => ''
-    }
-  ],
   'd \' l' => [
     {
       'types' => {
@@ -25411,33 +25130,6 @@ $Lexicon = {
         'public records'
       ],
       'orig' => 'dafotaroxAnap',
-      'prefix' => ''
-    }
-  ],
-  'dikriytuw' => [
-    {
-      'types' => {
-        'dikriyt' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'dikriytuw',
-      'form' => 'dikriytuw',
-      'lines' => [
-        ';; dikoriytuw_1',
-        'dkrytw  dikoriytuw      N0      decree',
-        'dkryt   dikoriyt        NAt     decrees'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'decree',
-        'decrees'
-      ],
-      'orig' => 'dikoriytuw',
       'prefix' => ''
     }
   ],
@@ -26026,6 +25718,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'dUblA^g' => [
+    {
+      'types' => {},
+      'entry' => 'duwblA^g',
+      'form' => 'duwblA^g',
+      'lines' => [
+        ';; duwblAj_1',
+        'dwblAj  duwblAj N       dubbing'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'dubbing'
+      ],
+      'orig' => 'duwblAj',
+      'prefix' => ''
+    }
+  ],
   'd b ^s' => [
     {
       'types' => {},
@@ -26595,6 +26308,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'dU^sIfAr' => [
+    {
+      'types' => {},
+      'entry' => 'duw^siyfAr',
+      'form' => 'duw^siyfAr',
+      'lines' => [
+        ';; duw$iyfAr_1',
+        'dw$yfAr duw$iyfAr       Nprop   Doshifar ??'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Doshifar ??'
+      ],
+      'orig' => 'duw$iyfAr',
+      'prefix' => ''
+    }
+  ],
   'd ^g r' => [
     {
       'types' => {
@@ -26730,6 +26464,77 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'dIdIyih' => [
+    {
+      'types' => {},
+      'entry' => 'diydiyyih',
+      'form' => 'diydiyyih',
+      'lines' => [
+        ';; diydiyyih_1',
+        'dydyyh  diydiyyih       Nprop   Didier'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Didier'
+      ],
+      'orig' => 'diydiyyih',
+      'prefix' => ''
+    }
+  ],
+  'dImU.grAf' => [
+    {
+      'types' => {
+        'diymuw^grAfiyy' => {
+          'N-ap' => 1
+        }
+      },
+      'entry' => 'diymuw.grAf',
+      'form' => 'diymuw.grAfiyy',
+      'lines' => [
+        ';; diymuwgrAfiy~_1',
+        'dymwgrAfy       diymuwgrAfiy~   N-ap    demographic     [[diymuwgrAfiy~/ADJ]]',
+        'dymwjrAfy       diymuwjrAfiy~   N-ap    demographic     [[diymuwjrAfiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'demographic'
+      ],
+      'orig' => 'diymuwgrAfiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'diymuw^grAfiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'diymuw.grAf',
+      'form' => 'diymuw.grAfiyy',
+      'lines' => [
+        ';; diymuwgrAfiy~_2',
+        'dymwgrAfy       diymuwgrAfiy~   Nall    demographer     [[diymuwgrAfiy~/ADJ]]',
+        'dymwjrAfy       diymuwjrAfiy~   Nall    demographer     [[diymuwjrAfiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'demographer'
+      ],
+      'orig' => 'diymuwgrAfiy~',
+      'prefix' => ''
+    }
+  ],
   'dA' => [
     {
       'types' => {},
@@ -26784,6 +26589,148 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'd^gUrkAyif' => [
+    {
+      'types' => {},
+      'entry' => 'd^guwrkAyif',
+      'form' => 'd^guwrkAyif',
+      'lines' => [
+        ';; djuwrokAyif_1',
+        'djwrkAyf        djuwrokAyif     Nprop   Djorkaeff'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Djorkaeff'
+      ],
+      'orig' => 'djuwrokAyif',
+      'prefix' => ''
+    }
+  ],
+  'dImU.grAfiyA' => [
+    {
+      'types' => {
+        'diymuw^grAfiyA' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'diymuw.grAfiyA',
+      'form' => 'diymuw.grAfiyA',
+      'lines' => [
+        ';; diymuwgrAfiyA_1',
+        'dymwgrAfyA      diymuwgrAfiyA   N0      demography',
+        'dymwjrAfyA      diymuwjrAfiyA   N0      demography'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'demography'
+      ],
+      'orig' => 'diymuwgrAfiyA',
+      'prefix' => ''
+    }
+  ],
+  'diblUmAs' => [
+    {
+      'types' => {
+        'diybluwmAsiyy' => {
+          'N-ap' => 1
+        }
+      },
+      'entry' => 'dibluwmAs',
+      'form' => 'dibluwmAsiyy',
+      'lines' => [
+        ';; dibluwmAsiy~_1',
+        'dblwmAsy        dibluwmAsiy~    N-ap    diplomatic     [[dibluwmAsiy~/ADJ]]',
+        'dyblwmAsy       diybluwmAsiy~   N-ap    diplomatic     [[diybluwmAsiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'diplomatic'
+      ],
+      'orig' => 'dibluwmAsiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'diybluwmAsiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'dibluwmAs',
+      'form' => 'dibluwmAsiyy',
+      'lines' => [
+        ';; dibluwmAsiy~_2',
+        'dblwmAsy        dibluwmAsiy~    Nall    diplomat     [[dibluwmAsiy~/NOUN]]',
+        'dyblwmAsy       diybluwmAsiy~   Nall    diplomat     [[diybluwmAsiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'diplomat'
+      ],
+      'orig' => 'dibluwmAsiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'diybluwmAsiyy' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'dibluwmAs',
+      'form' => 'dibluwmAsiyyaT',
+      'lines' => [
+        ';; dibluwmAsiy~ap_1',
+        'dblwmAsy        dibluwmAsiy~    Nap     diplomacy     [[dibluwmAsiy~/NOUN]]',
+        'dyblwmAsy       diybluwmAsiy~   Nap     diplomacy     [[diybluwmAsiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'diplomacy'
+      ],
+      'orig' => 'dibluwmAsiy~ap',
+      'prefix' => ''
+    }
+  ],
+  'dAmiyAnU' => [
+    {
+      'types' => {},
+      'entry' => 'dAmiyAnuw',
+      'form' => 'dAmiyAnuw',
+      'lines' => [
+        ';; dAmiyAnuw_1',
+        'dAmyAnw dAmiyAnuw       Nprop   Damiano'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Damiano'
+      ],
+      'orig' => 'dAmiyAnuw',
+      'prefix' => ''
+    }
+  ],
   'd n d y' => [
     {
       'types' => {},
@@ -26826,48 +26773,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'dAniyiyl' => [
-    {
-      'types' => {},
-      'entry' => 'dAniyiyl',
-      'form' => 'dAniyiyl',
-      'lines' => [
-        ';; dAniyiyl_1',
-        'dAnyyl  dAniyiyl        Nprop   Daniel'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Daniel'
-      ],
-      'orig' => 'dAniyiyl',
-      'prefix' => ''
-    }
-  ],
-  'duwfdiyfAn' => [
-    {
-      'types' => {},
-      'entry' => 'duwfdiyfAn',
-      'form' => 'duwfdiyfAn',
-      'lines' => [
-        ';; duwfodiyfAn_1',
-        'dwfdyfAn        duwfodiyfAn     Nprop   Dov Devan'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Dov Devan'
-      ],
-      'orig' => 'duwfodiyfAn',
-      'prefix' => ''
-    }
-  ],
   'dAkkA' => [
     {
       'types' => {},
@@ -26886,32 +26791,6 @@ $Lexicon = {
         'Dhaka'
       ],
       'orig' => 'dAk~A',
-      'prefix' => ''
-    }
-  ],
-  'duktuwrY' => [
-    {
-      'types' => {
-        'duktuwrAh' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'duktuwrY',
-      'form' => 'duktuwrAT',
-      'lines' => [
-        ';; dukotuwrAp_1',
-        'dktwrA  dukotuwrA       Napdu   doctorate',
-        'dktwrAh dukotuwrAh      N       doctorate'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'doctorate'
-      ],
-      'orig' => 'dukotuwrAp',
       'prefix' => ''
     }
   ],
@@ -27802,6 +27681,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'dusildUrf' => [
+    {
+      'types' => {
+        'duwsilduwrf' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'dusilduwrf',
+      'form' => 'dusilduwrf',
+      'lines' => [
+        ';; dusiloduwrf_1',
+        'dsldwrf dusiloduwrf     N0      Dusseldorf',
+        'dwsldwrf        duwsiloduwrf    N0      Dusseldorf'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Dusseldorf'
+      ],
+      'orig' => 'dusiloduwrf',
+      'prefix' => ''
+    }
+  ],
   'd y ^g' => [
     {
       'types' => {},
@@ -27815,27 +27720,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'dayAjiy',
-      'prefix' => ''
-    }
-  ],
-  'dAntiyllA' => [
-    {
-      'types' => {},
-      'entry' => 'dAntiyllA',
-      'form' => 'dAntiyllA',
-      'lines' => [
-        ';; dAnotiyl~A_1',
-        'dAntylA dAnotiyl~A      N0      lacework'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'lacework'
-      ],
-      'orig' => 'dAnotiyl~A',
       'prefix' => ''
     }
   ],
@@ -28147,33 +28031,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'dardabiys' => [
+  '\'adr' => [
     {
-      'types' => {
-        'darAdib' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'dardabiys',
-      'form' => 'dardabiys',
+      'types' => {},
+      'entry' => '\'adr',
+      'form' => 'lA\'adriyy',
       'lines' => [
-        ';; darodabiys_1',
-        'drdbys  darodabiys      N       old hag;ugly old woman',
-        'drAdb   darAdib Ndip    old hags;ugly old women'
+        ';; lA>adoriy~_1',
+        'lA>dry  lA>adoriy~      Nall_L  skeptic;agnostic     [[lA>adoriy~/ADJ]]',
+        'lAAdry  lA>adoriy~      Nall_L  skeptic;agnostic     [[lAAadoriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'lA >| Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'skeptic',
+        'agnostic'
+      ],
+      'orig' => 'lAOadoriy~',
+      'prefix' => 'lA >| '
+    },
+    {
+      'types' => {},
+      'entry' => '\'adr',
+      'form' => 'lA\'adriyyaT',
+      'lines' => [
+        ';; lA>adoriy~ap_1',
+        'lA>dry  lA>adoriy~      Nap_L   skepticism;agnosticism     [[lA>adoriy~/NOUN]]',
+        'lAAdry  lA>adoriy~      Nap_L   skepticism;agnosticism     [[lAAadoriy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'lA >| Identity |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
       'glosses' => [
-        'old hag',
-        'ugly old woman',
-        'old hags',
-        'ugly old women'
+        'skepticism',
+        'agnosticism'
       ],
-      'orig' => 'darodabiys',
-      'prefix' => ''
+      'orig' => 'lAOadoriy~ap',
+      'prefix' => 'lA >| '
     }
   ],
   'd y .h' => [
@@ -28194,27 +28093,6 @@ $Lexicon = {
         'Daihani'
       ],
       'orig' => 'dayoHAniy~',
-      'prefix' => ''
-    }
-  ],
-  'duw^siyfAr' => [
-    {
-      'types' => {},
-      'entry' => 'duw^siyfAr',
-      'form' => 'duw^siyfAr',
-      'lines' => [
-        ';; duw$iyfAr_1',
-        'dw$yfAr duw$iyfAr       Nprop   Doshifar ??'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Doshifar ??'
-      ],
-      'orig' => 'duw$iyfAr',
       'prefix' => ''
     }
   ],
@@ -28240,33 +28118,15 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diyAliktiyk' => [
+  'dInAmIk' => [
     {
       'types' => {},
-      'entry' => 'diyAliktiyk',
-      'form' => 'diyAliktiyk',
+      'entry' => 'diynAmiyk',
+      'form' => 'diynAmiykiyy',
       'lines' => [
-        ';; diyAlikotiyk_1',
-        'dyAlktyk        diyAlikotiyk    N       dialectics'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'dialectics'
-      ],
-      'orig' => 'diyAlikotiyk',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'diyAliktiyk',
-      'form' => 'diyAliktiykiyy',
-      'lines' => [
-        ';; diyAlikotiykiy~_1',
-        'dyAlktyky       diyAlikotiykiy~ Nall    dialectical     [[diyAlikotiykiy~/ADJ]]'
+        ';; diynAmiykiy~_1',
+        'dynAmyky        diynAmiykiy~    Nall    dynamic     [[diynAmiykiy~/ADJ]]',
+        'dynAmyky        diynAmiykiy~    Nap     dynamism     [[diynAmiykiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28274,9 +28134,10 @@ $Lexicon = {
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'dialectical'
+        'dynamic',
+        'dynamism'
       ],
-      'orig' => 'diyAlikotiykiy~',
+      'orig' => 'diynAmiykiy~',
       'prefix' => ''
     }
   ],
@@ -29152,6 +29013,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'dUfdIfAn' => [
+    {
+      'types' => {},
+      'entry' => 'duwfdiyfAn',
+      'form' => 'duwfdiyfAn',
+      'lines' => [
+        ';; duwfodiyfAn_1',
+        'dwfdyfAn        duwfodiyfAn     Nprop   Dov Devan'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Dov Devan'
+      ],
+      'orig' => 'duwfodiyfAn',
+      'prefix' => ''
+    }
+  ],
   'd h \'' => [
     {
       'types' => {},
@@ -29488,27 +29370,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diyzniy' => [
-    {
-      'types' => {},
-      'entry' => 'diyzniy',
-      'form' => 'diyzniy',
-      'lines' => [
-        ';; diyzoniy_1',
-        'dyzny   diyzoniy        Nprop   Disney'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Disney'
-      ],
-      'orig' => 'diyzoniy',
-      'prefix' => ''
-    }
-  ],
   'd w m n' => [
     {
       'types' => {},
@@ -29525,14 +29386,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'dAnfuwr_t' => [
+  'diyUf' => [
     {
       'types' => {},
-      'entry' => 'dAnfuwr_t',
-      'form' => 'dAnfuwr_t',
+      'entry' => 'diyuwf',
+      'form' => 'diyuwf',
       'lines' => [
-        ';; dAnofuwrv_1',
-        'dAnfwrv dAnofuwrv       N0      Danforth'
+        ';; diyuwf_1',
+        'dywf    diyuwf  Nprop   Diouf'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29540,9 +29401,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Danforth'
+        'Diouf'
       ],
-      'orig' => 'dAnofuwrv',
+      'orig' => 'diyuwf',
+      'prefix' => ''
+    }
+  ],
+  'drIm' => [
+    {
+      'types' => {},
+      'entry' => 'driym',
+      'form' => 'driym',
+      'lines' => [
+        ';; driym_1',
+        'drym    driym   N0      Dream'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Dream'
+      ],
+      'orig' => 'driym',
       'prefix' => ''
     }
   ],
@@ -30509,6 +30391,33 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'darbazIn' => [
+    {
+      'types' => {
+        'darAbziyn' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'darbaziyn',
+      'form' => 'darbaziyn',
+      'lines' => [
+        ';; darobaziyn_1',
+        'drbzyn  darobaziyn      N       banister;railing',
+        'drAbzyn darAboziyn      N       banister;railing'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'banister',
+        'railing'
+      ],
+      'orig' => 'darobaziyn',
+      'prefix' => ''
+    }
+  ],
   'drisdin' => [
     {
       'types' => {},
@@ -30527,27 +30436,6 @@ $Lexicon = {
         'Dresden'
       ],
       'orig' => 'drisodin',
-      'prefix' => ''
-    }
-  ],
-  'duwstum' => [
-    {
-      'types' => {},
-      'entry' => 'duwstum',
-      'form' => 'duwstum',
-      'lines' => [
-        ';; duwsotum_1',
-        'dwstm   duwsotum        Nprop   Dustum'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Dustum'
-      ],
-      'orig' => 'duwsotum',
       'prefix' => ''
     }
   ],
@@ -30570,6 +30458,36 @@ $Lexicon = {
         'protecting screen/wall'
       ],
       'orig' => 'dirowap',
+      'prefix' => ''
+    }
+  ],
+  'dUsiyih' => [
+    {
+      'types' => {
+        'duwsyiyh' => {
+          'NduAt' => 1
+        },
+        'duwsiyih' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'duwsiyih',
+      'form' => 'duwsiyih',
+      'lines' => [
+        ';; duwsiyih_1',
+        'dwsyh   duwsiyih        NduAt   dossier;file',
+        'dwsyyh  duwsoyiyh       NduAt   dossier;file'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'dossier',
+        'file'
+      ],
+      'orig' => 'duwsiyih',
       'prefix' => ''
     }
   ],
@@ -30634,6 +30552,27 @@ $Lexicon = {
         'dollar-based'
       ],
       'orig' => 'duwlAriy~',
+      'prefix' => ''
+    }
+  ],
+  'dAfIdI' => [
+    {
+      'types' => {},
+      'entry' => 'dAfiydiy',
+      'form' => 'dAfiydiy',
+      'lines' => [
+        ';; dAfiydiy_1',
+        'dAfydy  dAfiydiy        N0      Davide'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Davide'
+      ],
+      'orig' => 'dAfiydiy',
       'prefix' => ''
     }
   ],
@@ -30939,27 +30878,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'dAytuwn' => [
-    {
-      'types' => {},
-      'entry' => 'dAytuwn',
-      'form' => 'dAytuwn',
-      'lines' => [
-        ';; dAyotuwn_1',
-        'dAytwn  dAyotuwn        Nprop   Dayton'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Dayton'
-      ],
-      'orig' => 'dAyotuwn',
-      'prefix' => ''
-    }
-  ],
   'duwaybib' => [
     {
       'types' => {},
@@ -30982,14 +30900,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'duw.glAs' => [
+  'dItrUyt' => [
     {
       'types' => {},
-      'entry' => 'duw.glAs',
-      'form' => 'duw.glAs',
+      'entry' => 'diytruwyt',
+      'form' => 'diytruwyt',
       'lines' => [
-        ';; duwgolAs_1',
-        'dwglAs  duwgolAs        Nprop   Douglas'
+        ';; diytruwyt_1',
+        'dytrwyt diytruwyt       N0      Detroit'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30997,9 +30915,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Douglas'
+        'Detroit'
       ],
-      'orig' => 'duwgolAs',
+      'orig' => 'diytruwyt',
       'prefix' => ''
     }
   ],
@@ -31108,6 +31026,62 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'd w _h y' => [
+    {
+      'types' => {},
+      'entry' => 'duw_hiy',
+      'form' => 'duw_hiy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'duwxiy',
+      'prefix' => ''
+    }
+  ],
+  'diyAliktIk' => [
+    {
+      'types' => {},
+      'entry' => 'diyAliktiyk',
+      'form' => 'diyAliktiyk',
+      'lines' => [
+        ';; diyAlikotiyk_1',
+        'dyAlktyk        diyAlikotiyk    N       dialectics'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'dialectics'
+      ],
+      'orig' => 'diyAlikotiyk',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'diyAliktiyk',
+      'form' => 'diyAliktiykiyy',
+      'lines' => [
+        ';; diyAlikotiykiy~_1',
+        'dyAlktyky       diyAlikotiykiy~ Nall    dialectical     [[diyAlikotiykiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'dialectical'
+      ],
+      'orig' => 'diyAlikotiykiy~',
+      'prefix' => ''
+    }
+  ],
   'd l \'' => [
     {
       'types' => {},
@@ -31126,57 +31100,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'IidolA\'',
-      'prefix' => ''
-    }
-  ],
-  'duwsiyih' => [
-    {
-      'types' => {
-        'duwsyiyh' => {
-          'NduAt' => 1
-        },
-        'duwsiyih' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'duwsiyih',
-      'form' => 'duwsiyih',
-      'lines' => [
-        ';; duwsiyih_1',
-        'dwsyh   duwsiyih        NduAt   dossier;file',
-        'dwsyyh  duwsoyiyh       NduAt   dossier;file'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'dossier',
-        'file'
-      ],
-      'orig' => 'duwsiyih',
-      'prefix' => ''
-    }
-  ],
-  'didiy' => [
-    {
-      'types' => {},
-      'entry' => 'didiy',
-      'form' => 'didiy',
-      'lines' => [
-        ';; didiy_1',
-        'ddy     didiy   Nprop   Didi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Didi'
-      ],
-      'orig' => 'didiy',
       'prefix' => ''
     }
   ],
@@ -31505,6 +31428,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'dArkU' => [
+    {
+      'types' => {},
+      'entry' => 'dArkuw',
+      'form' => 'dArkuw',
+      'lines' => [
+        ';; dArokuw_1',
+        'dArkw   dArokuw Nprop   Darko'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Darko'
+      ],
+      'orig' => 'dArokuw',
+      'prefix' => ''
+    }
+  ],
   'distAynd' => [
     {
       'types' => {},
@@ -31556,15 +31500,61 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'diynAmiyk' => [
+  'dImIrIl' => [
     {
       'types' => {},
-      'entry' => 'diynAmiyk',
-      'form' => 'diynAmiykiyy',
+      'entry' => 'diymiyriyl',
+      'form' => 'diymiyriyl',
       'lines' => [
-        ';; diynAmiykiy~_1',
-        'dynAmyky        diynAmiykiy~    Nall    dynamic     [[diynAmiykiy~/ADJ]]',
-        'dynAmyky        diynAmiykiy~    Nap     dynamism     [[diynAmiykiy~/NOUN]]'
+        ';; diymiyriyl_1',
+        'dymyryl diymiyriyl      Nprop   Demirel'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Demirel'
+      ],
+      'orig' => 'diymiyriyl',
+      'prefix' => ''
+    }
+  ],
+  'didI' => [
+    {
+      'types' => {},
+      'entry' => 'didiy',
+      'form' => 'didiy',
+      'lines' => [
+        ';; didiy_1',
+        'ddy     didiy   Nprop   Didi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Didi'
+      ],
+      'orig' => 'didiy',
+      'prefix' => ''
+    }
+  ],
+  'dImUqrA.t' => [
+    {
+      'types' => {
+        'diymuqrA.tiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'diymuwqrA.t',
+      'form' => 'diymuwqrA.tiyy',
+      'lines' => [
+        ';; diymuwqrATiy~_1',
+        'dymwqrATy       diymuwqrATiy~   Nall    democratic     [[diymuwqrATiy~/ADJ]]',
+        'dymqrATy        diymuqrATiy~    Nall    democratic     [[diymuqrATiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31572,10 +31562,33 @@ $Lexicon = {
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'dynamic',
-        'dynamism'
+        'democratic'
       ],
-      'orig' => 'diynAmiykiy~',
+      'orig' => 'diymuwqrATiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'diymuqrA.tiyy' => {
+          'NapAt' => 1
+        }
+      },
+      'entry' => 'diymuwqrA.t',
+      'form' => 'diymuwqrA.tiyyaT',
+      'lines' => [
+        ';; diymuwqrATiy~ap_1',
+        'dymwqrATy       diymuwqrATiy~   NapAt   democracy     [[diymuwqrATiy~/NOUN]]',
+        'dymqrATy        diymuqrATiy~    NapAt   democracy     [[diymuqrATiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'democracy'
+      ],
+      'orig' => 'diymuwqrATiy~ap',
       'prefix' => ''
     }
   ],
@@ -31677,6 +31690,27 @@ $Lexicon = {
         'roosters'
       ],
       'orig' => 'diyk',
+      'prefix' => ''
+    }
+  ],
+  'dImU.tIq' => [
+    {
+      'types' => {},
+      'entry' => 'diymuw.tiyq',
+      'form' => 'diymuw.tiyqiyy',
+      'lines' => [
+        ';; diymuwTiyqiy~_1',
+        'dymwTyqy        diymuwTiyqiy~   Nall    demotic     [[diymuwTiyqiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'demotic'
+      ],
+      'orig' => 'diymuwTiyqiy~',
       'prefix' => ''
     }
   ],
@@ -31803,53 +31837,6 @@ $Lexicon = {
         'Dane'
       ],
       'orig' => 'danimarokiy~',
-      'prefix' => ''
-    }
-  ],
-  'diyfuwAr' => [
-    {
-      'types' => {},
-      'entry' => 'diyfuwAr',
-      'form' => 'diyfuwAr',
-      'lines' => [
-        ';; diyfuwAr_1',
-        'dyfwAr  diyfuwAr        Nprop   d\'Ivoire     [[diyfuwAr/NOUN_PROP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'd\'Ivoire'
-      ],
-      'orig' => 'diyfuwAr',
-      'prefix' => ''
-    }
-  ],
-  'diysambir' => [
-    {
-      'types' => {
-        'disambir' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'diysambir',
-      'form' => 'diysambir',
-      'lines' => [
-        ';; diysamobir_1',
-        'dysmbr  diysamobir      N0      December',
-        'dsmbr   disamobir       N0      December'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'December'
-      ],
-      'orig' => 'diysamobir',
       'prefix' => ''
     }
   ],
@@ -32000,6 +31987,27 @@ $Lexicon = {
         'counterfeit'
       ],
       'orig' => 'mudal~as',
+      'prefix' => ''
+    }
+  ],
+  'dAytUn' => [
+    {
+      'types' => {},
+      'entry' => 'dAytuwn',
+      'form' => 'dAytuwn',
+      'lines' => [
+        ';; dAyotuwn_1',
+        'dAytwn  dAyotuwn        Nprop   Dayton'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Dayton'
+      ],
+      'orig' => 'dAyotuwn',
       'prefix' => ''
     }
   ],
@@ -32190,27 +32198,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'musotadiyr',
-      'prefix' => ''
-    }
-  ],
-  'dAmruwn.g' => [
-    {
-      'types' => {},
-      'entry' => 'dAmruwn.g',
-      'form' => 'dAmruwn.g',
-      'lines' => [
-        ';; dAmoruwng_1',
-        'dAmrwng dAmoruwng       Nprop   Damrong'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Damrong'
-      ],
-      'orig' => 'dAmoruwng',
       'prefix' => ''
     }
   ],
@@ -32703,6 +32690,29 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'dIzIrIh' => [
+    {
+      'types' => {},
+      'entry' => 'diyziyriyh',
+      'form' => 'diyziyriyh',
+      'lines' => [
+        ';; diyziyriyh_1',
+        'dyzyryh diyziyriyh      Nprop   Desire',
+        'dyzyryh diyziyriyh      Nprop   Desiree'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Desire',
+        'Desiree'
+      ],
+      'orig' => 'diyziyriyh',
+      'prefix' => ''
+    }
+  ],
   'dArA' => [
     {
       'types' => {},
@@ -32751,14 +32761,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'dAfiyd' => [
+  'dIfAt^s' => [
     {
       'types' => {},
-      'entry' => 'dAfiyd',
-      'form' => 'dAfiyd',
+      'entry' => 'diyfAt^s',
+      'form' => 'diyfAt^s',
       'lines' => [
-        ';; dAfiyd_1',
-        'dAfyd   dAfiyd  N0      David'
+        ';; diyfAt$_1',
+        'dyfAt$  diyfAt$ Nprop   Divac'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32766,9 +32776,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'David'
+        'Divac'
       ],
-      'orig' => 'dAfiyd',
+      'orig' => 'diyfAt$',
       'prefix' => ''
     }
   ],
@@ -32859,25 +32869,43 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yAduwb' => [
+  'damanhUr' => [
     {
       'types' => {},
-      'entry' => 'yAduwb',
-      'form' => 'yAduwb',
+      'entry' => 'damanhuwr',
+      'form' => 'damanhuwr',
       'lines' => [
-        ';; yAduwb_1',
-        'yAdwb   yAduwb  FW-Wa   almost;barely     [[yAduwb/ADV]]'
+        ';; damanohuwr_1',
+        'dmnhwr  damanohuwr      Ndip    Damanhour'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adv',
+      'entity' => 'noun',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'almost',
-        'barely'
+        'Damanhour'
       ],
-      'orig' => 'yAduwb',
+      'orig' => 'damanohuwr',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'damanhuwr',
+      'form' => 'damanhuwriyy',
+      'lines' => [
+        ';; damanohuwriy~_1',
+        'dmnhwry damanohuwriy~   Nall    from/of Damanhour     [[damanohuwriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'from/of Damanhour'
+      ],
+      'orig' => 'damanohuwriy~',
       'prefix' => ''
     }
   ],
@@ -33077,6 +33105,56 @@ $Lexicon = {
         'registers'
       ],
       'orig' => 'dafotar',
+      'prefix' => ''
+    }
+  ],
+  'diyUkAnUfIt^s' => [
+    {
+      'types' => {},
+      'entry' => 'diyuwkAnuwfiyt^s',
+      'form' => 'diyuwkAnuwfiyt^s',
+      'lines' => [
+        ';; diyuwkAnuwfiyt$_1',
+        'dywkAnwfyt$     diyuwkAnuwfiyt$ Nprop   Djukanovic'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Djukanovic'
+      ],
+      'orig' => 'diyuwkAnuwfiyt$',
+      'prefix' => ''
+    }
+  ],
+  'dardabIs' => [
+    {
+      'types' => {
+        'darAdib' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'dardabiys',
+      'form' => 'dardabiys',
+      'lines' => [
+        ';; darodabiys_1',
+        'drdbys  darodabiys      N       old hag;ugly old woman',
+        'drAdb   darAdib Ndip    old hags;ugly old women'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'old hag',
+        'ugly old woman',
+        'old hags',
+        'ugly old women'
+      ],
+      'orig' => 'darodabiys',
       'prefix' => ''
     }
   ],
@@ -33461,27 +33539,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'druwriy' => [
-    {
-      'types' => {},
-      'entry' => 'druwriy',
-      'form' => 'druwriy',
-      'lines' => [
-        ';; druwriy_1',
-        'drwry   druwriy Nprop   Drury'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Drury'
-      ],
-      'orig' => 'druwriy',
-      'prefix' => ''
-    }
-  ],
   'd r q' => [
     {
       'types' => {},
@@ -33666,6 +33723,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'dAniyIl' => [
+    {
+      'types' => {},
+      'entry' => 'dAniyiyl',
+      'form' => 'dAniyiyl',
+      'lines' => [
+        ';; dAniyiyl_1',
+        'dAnyyl  dAniyiyl        Nprop   Daniel'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Daniel'
+      ],
+      'orig' => 'dAniyiyl',
+      'prefix' => ''
+    }
+  ],
   'du^gunn' => [
     {
       'types' => {},
@@ -33685,28 +33763,6 @@ $Lexicon = {
         'gloom'
       ],
       'orig' => 'dujun~ap',
-      'prefix' => ''
-    }
-  ],
-  'duwbliyr' => [
-    {
-      'types' => {},
-      'entry' => 'duwbliyr',
-      'form' => 'duwbliyr',
-      'lines' => [
-        ';; duwbliyr_1',
-        'dwblyr  duwbliyr        N/ap    double;substitute'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'double',
-        'substitute'
-      ],
-      'orig' => 'duwbliyr',
       'prefix' => ''
     }
   ],
@@ -33845,27 +33901,6 @@ $Lexicon = {
         'politeness'
       ],
       'orig' => 'damAvap',
-      'prefix' => ''
-    }
-  ],
-  'd^guwrkAyif' => [
-    {
-      'types' => {},
-      'entry' => 'd^guwrkAyif',
-      'form' => 'd^guwrkAyif',
-      'lines' => [
-        ';; djuwrokAyif_1',
-        'djwrkAyf        djuwrokAyif     Nprop   Djorkaeff'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Djorkaeff'
-      ],
-      'orig' => 'djuwrokAyif',
       'prefix' => ''
     }
   ],
@@ -34121,33 +34156,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'damanhuwr' => [
+  'dImA^gU^g' => [
     {
-      'types' => {},
-      'entry' => 'damanhuwr',
-      'form' => 'damanhuwr',
+      'types' => {
+        'diymA.guw^giyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'diymA^guw^g',
+      'form' => 'diymA^guw^giyy',
       'lines' => [
-        ';; damanohuwr_1',
-        'dmnhwr  damanohuwr      Ndip    Damanhour'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Damanhour'
-      ],
-      'orig' => 'damanohuwr',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'damanhuwr',
-      'form' => 'damanhuwriyy',
-      'lines' => [
-        ';; damanohuwriy~_1',
-        'dmnhwry damanohuwriy~   Nall    from/of Damanhour     [[damanohuwriy~/ADJ]]'
+        ';; diymAjuwjiy~_1',
+        'dymAjwjy        diymAjuwjiy~    Nall    demagogic     [[diymAjuwjiy~/ADJ]]',
+        'dymAgwjy        diymAguwjiy~    Nall    demagogic     [[diymAguwjiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34155,70 +34176,33 @@ $Lexicon = {
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'from/of Damanhour'
+        'demagogic'
       ],
-      'orig' => 'damanohuwriy~',
-      'prefix' => ''
-    }
-  ],
-  'duwmiyniyk' => [
-    {
-      'types' => {},
-      'entry' => 'duwmiyniyk',
-      'form' => 'duwmiyniyk',
-      'lines' => [
-        ';; duwmiyniyk_1',
-        'dwmynyk duwmiyniyk      Nprop   Dominik'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Dominik'
-      ],
-      'orig' => 'duwmiyniyk',
+      'orig' => 'diymAjuwjiy~',
       'prefix' => ''
     },
     {
-      'types' => {},
-      'entry' => 'duwmiyniyk',
-      'form' => 'duwmiyniyk',
+      'types' => {
+        'diymA.guw^giyy' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'diymA^guw^g',
+      'form' => 'diymA^guw^giyyaT',
       'lines' => [
-        ';; duwmiyniyk_2',
-        'dwmynyk duwmiyniyk      Nprop   Dominique'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Dominique'
-      ],
-      'orig' => 'duwmiyniyk',
-      'prefix' => ''
-    }
-  ],
-  'diydiyyih' => [
-    {
-      'types' => {},
-      'entry' => 'diydiyyih',
-      'form' => 'diydiyyih',
-      'lines' => [
-        ';; diydiyyih_1',
-        'dydyyh  diydiyyih       Nprop   Didier'
+        ';; diymAjuwjiy~ap_1',
+        'dymAjwjy        diymAjuwjiy~    Nap     demagoguery     [[diymAjuwjiy~/NOUN]]',
+        'dymAgwjy        diymAguwjiy~    Nap     demagoguery     [[diymAguwjiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'Identity |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
       'glosses' => [
-        'Didier'
+        'demagoguery'
       ],
-      'orig' => 'diydiyyih',
+      'orig' => 'diymAjuwjiy~ap',
       'prefix' => ''
     }
   ],
@@ -34242,28 +34226,6 @@ $Lexicon = {
       ],
       'orig' => 'duw',
       'prefix' => ''
-    }
-  ],
-  'tadmuriy' => [
-    {
-      'types' => {},
-      'entry' => 'tadmuriy',
-      'form' => 'lAtadmuriy',
-      'lines' => [
-        ';; lAtadomuriy_1',
-        'lAtdmry lAtadomuriy     N0_L    nobody;no one'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'lA >| Identity',
-      'suffix' => '',
-      'glosses' => [
-        'nobody',
-        'no one'
-      ],
-      'orig' => 'lAtadomuriy',
-      'prefix' => 'lA >| '
     }
   ],
   'd m r' => [
@@ -34568,6 +34530,27 @@ $Lexicon = {
         'Nile flood season'
       ],
       'orig' => 'damiyrap',
+      'prefix' => ''
+    }
+  ],
+  'diyA^giyU' => [
+    {
+      'types' => {},
+      'entry' => 'diyA^giyuw',
+      'form' => 'diyA^giyuw',
+      'lines' => [
+        ';; diyAjiyuw_1',
+        'dyAjyw  diyAjiyuw       N0      Diageo'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Diageo'
+      ],
+      'orig' => 'diyAjiyuw',
       'prefix' => ''
     }
   ],
@@ -35075,6 +35058,35 @@ $Lexicon = {
       'orig' => 'daEiyE',
       'prefix' => ''
     }
+  ],
+  'dInAmU' => [
+    {
+      'types' => {
+        'diynAmuwh' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'diynAmuw',
+      'form' => 'diynAmuw',
+      'lines' => [
+        ';; diynAmuw_1',
+        'dynAmw  diynAmuw        N0      dynamo;generator',
+        'dynAmwh diynAmuwh       NAt     dynamos;generators'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'dynamo',
+        'generator',
+        'dynamos',
+        'generators'
+      ],
+      'orig' => 'diynAmuw',
+      'prefix' => ''
+    }
   ]
 };
 $Lexicon->{'d n y'}[4]{'types'} = $Lexicon->{'d n y y'}[0]{'types'};
@@ -35204,6 +35216,9 @@ $Lexicon->{'d n w'}[16]{'glosses'} = $Lexicon->{'d n y'}[7]{'glosses'};
 $Lexicon->{'d ^g w'}[5]{'types'} = $Lexicon->{'d ^g y'}[0]{'types'};
 $Lexicon->{'d ^g w'}[5]{'lines'} = $Lexicon->{'d ^g y'}[0]{'lines'};
 $Lexicon->{'d ^g w'}[5]{'glosses'} = $Lexicon->{'d ^g y'}[0]{'glosses'};
+$Lexicon->{'d w _h y'}[0]{'types'} = $Lexicon->{'d _h y'}[1]{'types'};
+$Lexicon->{'d w _h y'}[0]{'lines'} = $Lexicon->{'d _h y'}[1]{'lines'};
+$Lexicon->{'d w _h y'}[0]{'glosses'} = $Lexicon->{'d _h y'}[1]{'glosses'};
 $Lexicon->{'d l \''}[0]{'types'} = $Lexicon->{'d l y'}[3]{'types'};
 $Lexicon->{'d l \''}[0]{'lines'} = $Lexicon->{'d l y'}[3]{'lines'};
 $Lexicon->{'d l \''}[0]{'glosses'} = $Lexicon->{'d l y'}[3]{'glosses'};

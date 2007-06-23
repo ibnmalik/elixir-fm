@@ -1800,9 +1800,17 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- biyAr -}            [ "Pierre" ] ]
 
+ |> "b y r f" <| [
+
+    KiRDUS |< Iy              `adj`     {- biyruwfiy~ -}       [ "Peruvian" ] ]
+
  |> "b y r t" <| [
 
-    KaRDUS                    `noun`    {- bayoruwt -}         [ "Beirut" ] ]
+    KaRDUS                    `noun`    {- bayoruwt -}         [ "Beirut" ],
+
+    KaRDUS |< Iy              `adj`     {- bayoruwtiy~ -}      [ "Beiruti" ],
+
+    KaRDUS |< Iy              `adj`     {- bayoruwtiy~ -}      [ "Beirouti", "Bairuti" ] ]
 
  |> "b y r y" <| [
 
@@ -1849,13 +1857,17 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bAbA -}             [ "Pope" ] ]
 
- |> "bAbAmuwbiyl" <| [
+ |> "bAbAmUbIl" <| [
 
     Identity                  `noun`    {- bAbAmuwbiyl -}      [ "Popemobile" ] ]
 
- |> "bAbAndriyuw" <| [
+ |> "bAbAndriyU" <| [
 
     Identity                  `noun`    {- bAbAnodriyuw -}     [ "Papandreou" ] ]
+
+ |> "bAbIt^sIf" <| [
+
+    Identity                  `noun`    {- bAbiyt$iyf -}       [ "Babichev" ] ]
 
  |> "bAbY" <| [
 
@@ -1867,13 +1879,15 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- bAbiliy~ -}         [ "Babylonian" ] ]
 
- |> "bAbiyt^siyf" <| [
-
-    Identity                  `noun`    {- bAbiyt$iyf -}       [ "Babichev" ] ]
-
- |> "bAfluwf" <| [
+ |> "bAflUf" <| [
 
     Identity                  `noun`    {- bAfoluwf -}         [ "Pavlov" ] ]
+
+ |> "bAkU" <| [
+
+    Identity                  `noun`    {- bAkuw -}            [ "Baku" ],
+
+    Identity                  `noun`    {- bAkuw -}            [ "packet" ] ]
 
  |> "bAkistAn" <| [
 
@@ -1881,21 +1895,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- bAkistAniy~ -}      [ "Pakistani" ] ]
 
- |> "bAkuw" <| [
-
-    Identity                  `noun`    {- bAkuw -}            [ "Baku" ],
-
-    Identity                  `noun`    {- bAkuw -}            [ "packet" ] ]
-
- |> "bAliyrmuw" <| [
+ |> "bAlIrmU" <| [
 
     Identity                  `noun`    {- bAliyromuw -}       [ "Palermo" ] ]
 
- |> "bAltiyAnskiy" <| [
+ |> "bAltiyAnskI" <| [
 
     Identity                  `noun`    {- bAlotiyAnosokiy -}  [ "Baltiansky" ] ]
 
- |> "bAnkuwk" <| [
+ |> "bAnUfA" <| [
+
+    Identity                  `noun`    {- bAnuwfA -}          [ "Panova" ] ]
+
+ |> "bAnkUk" <| [
 
     Identity                  `noun`    {- bAnokuwk -}         [ "Bankok" ] ]
 
@@ -1903,11 +1915,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bAnt$ -}            [ "Punch" ] ]
 
- |> "bAnuwfA" <| [
-
-    Identity                  `noun`    {- bAnuwfA -}          [ "Panova" ] ]
-
- |> "bArAduwrn" <| [
+ |> "bArAdUrn" <| [
 
     Identity                  `noun`    {- bArAduwrn -}        [ "Paradorn" ] ]
 
@@ -1915,11 +1923,17 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bArAk -}            [ "Barak" ] ]
 
- |> "bArAnuwf" <| [
+ |> "bArAnUf" <| [
 
     Identity                  `noun`    {- bArAnuwf -}         [ "Baranov" ] ]
 
- |> "bArbAduws" <| [
+ |> "bArIs" <| [
+
+    Identity                  `noun`    {- bAriys -}           [ "Paris" ],
+
+    Identity |< Iy            `adj`     {- bAriysiy~ -}        [ "Parisian" ] ]
+
+ |> "bArbAdUs" <| [
 
     Identity                  `noun`    {- bArobAduws -}       [ "Barbados" ] ]
 
@@ -1927,17 +1941,15 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bArinots -}         [ "Barents" ] ]
 
- |> "bAriys" <| [
-
-    Identity                  `noun`    {- bAriys -}           [ "Paris" ],
-
-    Identity |< Iy            `adj`     {- bAriysiy~ -}        [ "Parisian" ] ]
-
  |> "bArkir" <| [
 
     Identity                  `noun`    {- bArokir -}          [ "Parker" ],
 
     Identity                  `noun`    {- bArokir -}          [ "Barker" ] ]
+
+ |> "bAsU" <| [
+
+    Identity                  `noun`    {- bAsuw -}            [ "Paso" ] ]
 
  |> "bAskuwAl" <| [
 
@@ -1947,11 +1959,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bAsotil -}          [ "Bastl" ] ]
 
- |> "bAsuw" <| [
-
-    Identity                  `noun`    {- bAsuw -}            [ "Paso" ] ]
-
- |> "bAtiystuwtA" <| [
+ |> "bAtIstUtA" <| [
 
     Identity                  `noun`    {- bAtiysotuwtA -}     [ "Batistuta" ] ]
 
@@ -1959,7 +1967,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bAtolar -}          [ "Butler" ] ]
 
- |> "bAtriyk" <| [
+ |> "bAtrIk" <| [
 
     Identity                  `noun`    {- bAtriyk -}          [ "Patrick" ] ]
 
@@ -1967,7 +1975,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bAwolA -}           [ "Paula" ] ]
 
- |> "bAwluw" <| [
+ |> "bAwlU" <| [
 
     Identity                  `noun`    {- bAwoluw -}          [ "Paulo" ] ]
 
@@ -1982,6 +1990,202 @@ lexicon = listing "Lexicon's properties"
  |> "bAyts" <| [
 
     Identity                  `noun`    {- bAytos -}           [ "Bates" ] ]
+
+ |> "bI.gUfIt^s" <| [
+
+    Identity                  `noun`    {- biyguwfiyt$ -}      [ "Begovich" ] ]
+
+ |> "bI^sAwar" <| [
+
+    Identity                  `noun`    {- biy$Awar -}         [ "Peshawar" ] ]
+
+ |> "bIdA.gU^g" <| [
+
+    Identity |< Iy            `adj`     {- biydAguwjiy~ -}     [ "pedagogical" ] ]
+
+ |> "bIfIrlI" <| [
+
+    Identity                  `noun`    {- biyfiyroliy -}      [ "Beverley" ] ]
+
+ |> "bIhArI" <| [
+
+    Identity                  `noun`    {- biyhAriy -}         [ "Behari" ] ]
+
+ |> "bIlArUs" <| [
+
+    Identity                  `noun`    {- biylAruws -}        [ "Belarus" ],
+
+    Identity |< Iy            `adj`     {- biylAruwsiy~ -}     [ "Belarusian" ] ]
+
+ |> "bIlIfIld" <| [
+
+    Identity                  `noun`    {- biyliyfiylod -}     [ "Bielefeld" ] ]
+
+ |> "bIliyUn" <| [
+
+    Identity                  `noun`    {- biyliyuwn -}        [ "Pelion" ] ]
+
+ |> "bIlzbUrI" <| [
+
+    Identity                  `noun`    {- biylzobuwriy -}     [ "Pillsbury" ] ]
+
+ |> "bInU^sIh" <| [
+
+    Identity                  `noun`    {- biynuw$iyh -}       [ "Pinochet" ] ]
+
+ |> "bIrA" <| [
+
+    Identity                  `noun`    {- biyrA -}            [ "beer" ] ]
+
+ |> "bIrU" <| [
+
+    Identity                  `noun`    {- biyruw -}           [ "Peru" ] ]
+
+ |> "bIrUqrA.t" <| [
+
+    Identity |< Iy |< aT      `noun`    {- biyruwqrATiy~ap -}  [ "bureaucracy" ] ]
+
+ |> "bIrUzI" <| [
+
+    Identity                  `noun`    {- biyruwziy -}        [ "Piruzi" ] ]
+
+ |> "bIrd" <| [
+
+    Identity                  `noun`    {- biyrd -}            [ "Beard", "Byrd", "Bird" ] ]
+
+ |> "bIrhUf" <| [
+
+    Identity                  `noun`    {- biyrohuwf -}        [ "Bierhoff" ] ]
+
+ |> "bIrl" <| [
+
+    Identity                  `noun`    {- biyrl -}            [ "Pearle" ] ]
+
+ |> "bIrnz" <| [
+
+    Identity                  `noun`    {- biyrnoz -}          [ "Burns" ] ]
+
+ |> "bIrsI" <| [
+
+    Identity                  `noun`    {- biyrosiy -}         [ "Bercy" ],
+
+    Identity                  `noun`    {- biyrosiy -}         [ "Percy" ] ]
+
+ |> "bIrsUl" <| [
+
+    Identity                  `noun`    {- biyrosuwl -}        [ "Peirsol" ] ]
+
+ |> "bIrtI" <| [
+
+    Identity                  `noun`    {- biyrotiy -}         [ "Berti" ] ]
+
+ |> "bIt^s" <| [
+
+    Identity                  `noun`    {- biyt$ -}            [ "Beach" ] ]
+
+ |> "bItzA" <| [
+
+    Identity                  `noun`    {- biytozA -}          [ "pizza" ] ]
+
+ |> "bU^skIn" <| [
+
+    Identity                  `noun`    {- buw$okiyn -}        [ "Pushkin" ] ]
+
+ |> "bUd.gUrIt^sA" <| [
+
+    Identity                  `noun`    {- buwdoguwriyt$A -}   [ "Podgorica" ] ]
+
+ |> "bUlIfiyA" <| [
+
+    Identity                  `noun`    {- buwliyfiyA -}       [ "Bolivia" ] ]
+
+ |> "bUlIsAriyU" <| [
+
+    Identity                  `noun`    {- buwliysAriyuw -}    [ "Polisario" ] ]
+
+ |> "bUlUniyA" <| [
+
+    Identity                  `noun`    {- buwluwniyA -}       [ "Bologna" ] ]
+
+ |> "bUland" <| [
+
+    Identity |< Iy            `adj`     {- buwlanodiy~ -}      [ "Polish" ] ]
+
+ |> "bUlandA" <| [
+
+    Identity                  `noun`    {- buwlanodA -}        [ "Poland" ] ]
+
+ |> "bUmirdAs" <| [
+
+    Identity                  `noun`    {- buwmirodAs -}       [ "Boumerdes", "Boumerdas" ] ]
+
+ |> "bUnyA" <| [
+
+    Identity                  `noun`    {- buwnoyA -}          [ "Bonia ??" ] ]
+
+ |> "bUr.gAs" <| [
+
+    Identity                  `noun`    {- buwrogAs -}         [ "Burgas" ] ]
+
+ |> "bUr.s" <| [
+
+    Identity |< aT            `noun`    {- buwroSap -}         [ "stock exchange", "bourse" ] ]
+
+ |> "bUrUndI" <| [
+
+    Identity                  `noun`    {- buwruwnodiy -}      [ "Burundi" ] ]
+
+ |> "bUr^guwAz" <| [
+
+    Identity |< Iy |< aT      `noun`    {- buwrojuwAziy~ap -}  [ "bourgeoisie" ] ]
+
+ |> "bUrsUdAn" <| [
+
+    Identity                  `noun`    {- buwrosuwdAn -}      [ "Port Sudan" ] ]
+
+ |> "bUrsa`Id" <| [
+
+    Identity                  `noun`    {- buwrosaEiyd -}      [ "Port Said" ] ]
+
+ |> "bUrtU" <| [
+
+    Identity                  `noun`    {- buwrotuw -}         [ "Porto" ],
+
+    Identity                  `noun`    {- buwrotuw -}         [ "Puerto" ] ]
+
+ |> "bUrtlAnd" <| [
+
+    Identity                  `noun`    {- buwrotlAnod -}      [ "Portland" ] ]
+
+ |> "bUs.tun" <| [
+
+    Identity                  `noun`    {- buwsoTun -}         [ "Boston" ] ]
+
+ |> "bUsfUr" <| [
+
+    Identity                  `noun`    {- buwsofuwr -}        [ "Bosphorus", "Bosporus" ] ]
+
+ |> "bUsn" <| [
+
+    Identity |< Iy            `adj`     {- buwsoniy~ -}        [ "Bosnian" ],
+
+    Identity |< aT            `noun`    {- buwsonap -}         [ "Bosnia" ] ]
+
+ |> "bUst" <| [
+
+    Identity                  `noun`    {- buwsot -}           [ "Post" ] ]
+
+ |> "bUtA^gAz" <| [
+
+    Identity                  `noun`    {- buwtAjAz -}         [ "gas stove" ] ]
+
+ |> "bUtaflIq" <| [
+
+    Identity |< aT            `noun`    {- buwtafliyqap -}     [ "Bouteflika" ] ]
+
+ |> "bUtzI" <| [
+
+    Identity                  `noun`    {- buwtoziy -}         [ "Pozzi" ] ]
 
  |> "ba.hrayn" <| [
 
@@ -2011,11 +2215,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- baEolabak~iy~ -}    [ "Baalbakki" ] ]
 
- |> "bakAluwriyA" <| [
+ |> "bakAlUriyA" <| [
 
     Identity                  `noun`    {- bakAluwriyA -}      [ "baccalaureate", "B.A." ] ]
 
- |> "baktiyriyA" <| [
+ |> "baktIriyA" <| [
 
     Identity                  `noun`    {- bakotiyriyA -}      [ "bacteria" ] ]
 
@@ -2023,11 +2227,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- balogrAd -}         [ "Belgrade" ] ]
 
- |> "baluw^siystAn" <| [
+ |> "balU^sIstAn" <| [
 
     Identity                  `noun`    {- baluw$iysotAn -}    [ "Baluchistan" ] ]
 
- |> "ban^glAdiy^s" <| [
+ |> "ban^glAdI^s" <| [
 
     Identity                  `noun`    {- banojlAdiy$ -}      [ "Bangladesh" ],
 
@@ -2037,7 +2241,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- banamA -}           [ "Panama" ] ]
 
- |> "banknuwt" <| [
+ |> "banknUt" <| [
 
     Identity                  `noun`    {- bankonuwt -}        [ "bank note" ] ]
 
@@ -2059,157 +2263,51 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `conj`    {- bayonamA -}         [ "while" ] ]
 
- |> "bayruwtiyy" <| [
-
-    Identity                  `adj`     {- bayoruwtiy~ -}      [ "Beiruti" ],
-
-    Identity                  `noun`    {- bayoruwtiy~ -}      [ "Beirouti", "Bairuti" ] ]
-
- |> "bikiyn" <| [
+ |> "bikIn" <| [
 
     Identity                  `noun`    {- bikiyn -}           [ "Peking", "Beijing" ] ]
 
- |> "bil^giykA" <| [
+ |> "bil^gIkA" <| [
 
     Identity                  `noun`    {- bilojiykA -}        [ "Belgium" ] ]
 
- |> "binfiykA" <| [
-
-    Identity                  `noun`    {- binfiykA -}         [ "Benfica" ] ]
-
- |> "biniyn" <| [
+ |> "binIn" <| [
 
     Identity                  `noun`    {- biniyn -}           [ "Benin" ] ]
+
+ |> "binfIkA" <| [
+
+    Identity                  `noun`    {- binfiykA -}         [ "Benfica" ] ]
 
  |> "binsilfAniyA" <| [
 
     Identity                  `noun`    {- binosilofAniyA -}   [ "Pennsylvania" ] ]
 
- |> "bintA.guwn" <| [
+ |> "bintA.gUn" <| [
 
     Identity                  `noun`    {- binotAguwn -}       [ "Pentagon" ] ]
 
- |> "binyAmiyn" <| [
+ |> "binyAmIn" <| [
 
     Identity                  `noun`    {- binoyAmiyn -}       [ "Benyamin", "Benjamin" ] ]
 
- |> "bitruwkiymA'" <| [
+ |> "bitrUkImA'" <| [
 
     Identity |< Iy            `adj`     {- bitruwkiymAwiy~ -}  [ "petrochemical" ] ]
 
- |> "bitruwliyuwm" <| [
+ |> "bitrUliyUm" <| [
 
     Identity                  `noun`    {- bitruwliyuwm -}     [ "Petroleum" ] ]
 
- |> "biy.guwfiyt^s" <| [
-
-    Identity                  `noun`    {- biyguwfiyt$ -}      [ "Begovich" ] ]
-
- |> "biyAnuw" <| [
+ |> "biyAnU" <| [
 
     Identity                  `noun`    {- biyAnuw -}          [ "piano" ] ]
 
- |> "biy^sAwar" <| [
+ |> "biyUlU^g" <| [
 
-    Identity                  `noun`    {- biy$Awar -}         [ "Peshawar" ] ]
+    Identity |< Iy            `adj`     {- biyuwluwjiy~ -}     [ "biological" ] ]
 
- |> "biydA.guw^g" <| [
-
-    Identity |< Iy            `adj`     {- biydAguwjiy~ -}     [ "pedagogical" ] ]
-
- |> "biyfiyrliy" <| [
-
-    Identity                  `noun`    {- biyfiyroliy -}      [ "Beverley" ] ]
-
- |> "biyhAriy" <| [
-
-    Identity                  `noun`    {- biyhAriy -}         [ "Behari" ] ]
-
- |> "biylAruws" <| [
-
-    Identity                  `noun`    {- biylAruws -}        [ "Belarus" ],
-
-    Identity |< Iy            `adj`     {- biylAruwsiy~ -}     [ "Belarusian" ] ]
-
- |> "biyliyfiyld" <| [
-
-    Identity                  `noun`    {- biyliyfiylod -}     [ "Bielefeld" ] ]
-
- |> "biyliyuwn" <| [
-
-    Identity                  `noun`    {- biyliyuwn -}        [ "Pelion" ] ]
-
- |> "biylzbuwriy" <| [
-
-    Identity                  `noun`    {- biylzobuwriy -}     [ "Pillsbury" ] ]
-
- |> "biynuw^siyh" <| [
-
-    Identity                  `noun`    {- biynuw$iyh -}       [ "Pinochet" ] ]
-
- |> "biyrA" <| [
-
-    Identity                  `noun`    {- biyrA -}            [ "beer" ] ]
-
- |> "biyrd" <| [
-
-    Identity                  `noun`    {- biyrd -}            [ "Beard", "Byrd", "Bird" ] ]
-
- |> "biyrhuwf" <| [
-
-    Identity                  `noun`    {- biyrohuwf -}        [ "Bierhoff" ] ]
-
- |> "biyrl" <| [
-
-    Identity                  `noun`    {- biyrl -}            [ "Pearle" ] ]
-
- |> "biyrnz" <| [
-
-    Identity                  `noun`    {- biyrnoz -}          [ "Burns" ] ]
-
- |> "biyrsiy" <| [
-
-    Identity                  `noun`    {- biyrosiy -}         [ "Bercy" ],
-
-    Identity                  `noun`    {- biyrosiy -}         [ "Percy" ] ]
-
- |> "biyrsuwl" <| [
-
-    Identity                  `noun`    {- biyrosuwl -}        [ "Peirsol" ] ]
-
- |> "biyrtiy" <| [
-
-    Identity                  `noun`    {- biyrotiy -}         [ "Berti" ] ]
-
- |> "biyruw" <| [
-
-    Identity                  `noun`    {- biyruw -}           [ "Peru" ] ]
-
- |> "biyruwfiyy" <| [
-
-    Identity                  `adj`     {- biyruwfiy~ -}       [ "Peruvian" ] ]
-
- |> "biyruwqrA.tiyy" <| [
-
-    Identity |< aT            `noun`    {- biyruwqrATiy~ap -}  [ "bureaucracy" ] ]
-
- |> "biyruwziy" <| [
-
-    Identity                  `noun`    {- biyruwziy -}        [ "Piruzi" ] ]
-
- |> "biyt^s" <| [
-
-    Identity                  `noun`    {- biyt$ -}            [ "Beach" ] ]
-
- |> "biytzA" <| [
-
-    Identity                  `noun`    {- biytozA -}          [ "pizza" ] ]
-
- |> "biyuwluw^giyy" <| [
-
-    Identity                  `adj`     {- biyuwluwjiy~ -}     [ "biological" ] ]
-
- |> "biyuwrkmAn" <| [
+ |> "biyUrkmAn" <| [
 
     Identity                  `noun`    {- biyuwrkomAn -}      [ "Bjorkman" ] ]
 
@@ -2217,11 +2315,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- blAk -}             [ "Black" ] ]
 
- |> "blAnkuw" <| [
+ |> "blAnkU" <| [
 
     Identity                  `noun`    {- blAnokuw -}         [ "Blanco" ] ]
 
- |> "blAntiyr" <| [
+ |> "blAntIr" <| [
 
     Identity                  `noun`    {- blAnotiyr -}        [ "Blantyre" ] ]
 
@@ -2229,17 +2327,17 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- blAs -}             [ "Blas" ] ]
 
- |> "blAstiyk" <| [
+ |> "blAstIk" <| [
 
     Identity                  `noun`    {- blAsotiyk -}        [ "plastic" ],
 
     Identity |< Iy            `adj`     {- blAsotiykiy~ -}     [ "plastic" ] ]
 
- |> "bliyr" <| [
+ |> "blIr" <| [
 
     Identity                  `noun`    {- bliyr -}            [ "Blair" ] ]
 
- |> "bluwz" <| [
+ |> "blUz" <| [
 
     Identity                  `noun`    {- bluwz -}            [ "blouse" ] ]
 
@@ -2247,7 +2345,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- brAfodA -}          [ "Pravda" ] ]
 
- |> "brAmAtArskiy" <| [
+ |> "brAmAtArskI" <| [
 
     Identity                  `noun`    {- brAmAtAroskiy -}    [ "Pramatarski" ] ]
 
@@ -2259,53 +2357,53 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- brAyin -}           [ "Brian" ] ]
 
- |> "brint" <| [
-
-    Identity                  `noun`    {- brint -}            [ "Brent" ] ]
-
- |> "briy.tAn" <| [
+ |> "brI.tAn" <| [
 
     Identity |< Iy            `adj`     {- briyTAniy~ -}       [ "British" ] ]
 
- |> "briy.tAniyA" <| [
+ |> "brI.tAniyA" <| [
 
     Identity                  `noun`    {- briyTAniyA -}       [ "Britain" ] ]
 
- |> "briysliy" <| [
+ |> "brIslI" <| [
 
     Identity                  `noun`    {- briysoliy -}        [ "Presley" ] ]
 
- |> "briytiy^s" <| [
+ |> "brItI^s" <| [
 
     Identity                  `noun`    {- briytiy$ -}         [ "British" ] ]
 
- |> "briyzbAn" <| [
+ |> "brIzbAn" <| [
 
     Identity                  `noun`    {- briyzobAn -}        [ "Brisbane" ] ]
 
- |> "bruwfisuwr" <| [
+ |> "brUfisUr" <| [
 
     Identity                  `noun`    {- bruwfisuwr -}       [ "professor" ] ]
 
- |> "bruwksil" <| [
+ |> "brUksil" <| [
 
     Identity                  `noun`    {- bruwkosil -}        [ "Brussels" ] ]
 
- |> "bruwnAy" <| [
+ |> "brUnAy" <| [
 
     Identity                  `noun`    {- bruwnAy -}          [ "Brunei" ] ]
 
- |> "bruwtistAnt" <| [
-
-    Identity |< Iy            `adj`     {- bruwtisotAnotiy~ -} [ "Protestant" ] ]
-
- |> "bruwtiyn" <| [
+ |> "brUtIn" <| [
 
     Identity                  `noun`    {- bruwtiyn -}         [ "protein" ] ]
 
- |> "bruwtuwkuwl" <| [
+ |> "brUtUkUl" <| [
 
     Identity                  `noun`    {- bruwtuwkuwl -}      [ "protocol" ] ]
+
+ |> "brUtistAnt" <| [
+
+    Identity |< Iy            `adj`     {- bruwtisotAnotiy~ -} [ "Protestant" ] ]
+
+ |> "brint" <| [
+
+    Identity                  `noun`    {- brint -}            [ "Brent" ] ]
 
  |> "bul.gAriyA" <| [
 
@@ -2314,6 +2412,12 @@ lexicon = listing "Lexicon's properties"
  |> "buland" <| [
 
     Identity                  `noun`    {- bulanod -}          [ "Bulent", "Boland", "Buland" ] ]
+
+ |> "burUnz" <| [
+
+    Identity                  `noun`    {- buruwnz -}          [ "bronze" ],
+
+    Identity |< Iy            `adj`     {- buruwnoziy~ -}      [ "bronze" ] ]
 
  |> "burtu.gAl" <| [
 
@@ -2327,127 +2431,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- burotuqAliy~ -}     [ "orange" ] ]
 
- |> "buruwnz" <| [
-
-    Identity                  `noun`    {- buruwnz -}          [ "bronze" ],
-
-    Identity |< Iy            `adj`     {- buruwnoziy~ -}      [ "bronze" ] ]
-
- |> "buw^skiyn" <| [
-
-    Identity                  `noun`    {- buw$okiyn -}        [ "Pushkin" ] ]
-
- |> "buwd.guwriyt^sA" <| [
-
-    Identity                  `noun`    {- buwdoguwriyt$A -}   [ "Podgorica" ] ]
-
- |> "buwiyn.g" <| [
+ |> "buwIn.g" <| [
 
     Identity                  `noun`    {- buwiyng -}          [ "Boeing" ] ]
 
- |> "buwiynus" <| [
+ |> "buwInus" <| [
 
     Identity                  `noun`    {- buwiynus -}         [ "Buenos" ] ]
-
- |> "buwland" <| [
-
-    Identity |< Iy            `adj`     {- buwlanodiy~ -}      [ "Polish" ] ]
-
- |> "buwlandA" <| [
-
-    Identity                  `noun`    {- buwlanodA -}        [ "Poland" ] ]
-
- |> "buwliyfiyA" <| [
-
-    Identity                  `noun`    {- buwliyfiyA -}       [ "Bolivia" ] ]
-
- |> "buwliysAriyuw" <| [
-
-    Identity                  `noun`    {- buwliysAriyuw -}    [ "Polisario" ] ]
-
- |> "buwluwniyA" <| [
-
-    Identity                  `noun`    {- buwluwniyA -}       [ "Bologna" ] ]
-
- |> "buwmirdAs" <| [
-
-    Identity                  `noun`    {- buwmirodAs -}       [ "Boumerdes", "Boumerdas" ] ]
-
- |> "buwnyA" <| [
-
-    Identity                  `noun`    {- buwnoyA -}          [ "Bonia ??" ] ]
-
- |> "buwr.gAs" <| [
-
-    Identity                  `noun`    {- buwrogAs -}         [ "Burgas" ] ]
-
- |> "buwr.s" <| [
-
-    Identity |< aT            `noun`    {- buwroSap -}         [ "stock exchange", "bourse" ] ]
-
- |> "buwr^guwAz" <| [
-
-    Identity |< Iy |< aT      `noun`    {- buwrojuwAziy~ap -}  [ "bourgeoisie" ] ]
-
- |> "buwrsa`iyd" <| [
-
-    Identity                  `noun`    {- buwrosaEiyd -}      [ "Port Said" ] ]
-
- |> "buwrsuwdAn" <| [
-
-    Identity                  `noun`    {- buwrosuwdAn -}      [ "Port Sudan" ] ]
-
- |> "buwrtlAnd" <| [
-
-    Identity                  `noun`    {- buwrotlAnod -}      [ "Portland" ] ]
-
- |> "buwrtuw" <| [
-
-    Identity                  `noun`    {- buwrotuw -}         [ "Porto" ],
-
-    Identity                  `noun`    {- buwrotuw -}         [ "Puerto" ] ]
-
- |> "buwruwndiy" <| [
-
-    Identity                  `noun`    {- buwruwnodiy -}      [ "Burundi" ] ]
-
- |> "buws.tun" <| [
-
-    Identity                  `noun`    {- buwsoTun -}         [ "Boston" ] ]
-
- |> "buwsfuwr" <| [
-
-    Identity                  `noun`    {- buwsofuwr -}        [ "Bosphorus", "Bosporus" ] ]
-
- |> "buwsn" <| [
-
-    Identity |< Iy            `adj`     {- buwsoniy~ -}        [ "Bosnian" ],
-
-    Identity |< aT            `noun`    {- buwsonap -}         [ "Bosnia" ] ]
-
- |> "buwst" <| [
-
-    Identity                  `noun`    {- buwsot -}           [ "Post" ] ]
-
- |> "buwtA^gAz" <| [
-
-    Identity                  `noun`    {- buwtAjAz -}         [ "gas stove" ] ]
-
- |> "buwtafliyq" <| [
-
-    Identity |< aT            `noun`    {- buwtafliyqap -}     [ "Bouteflika" ] ]
-
- |> "buwtziy" <| [
-
-    Identity                  `noun`    {- buwtoziy -}         [ "Pozzi" ] ]
-
- |> "by.dwn" <| [
-
-    Identity                  `noun`    {- byDwn -}            [ "Baidun", "Baidoun" ] ]
-
- |> "bylyn" <| [
-
-    Identity                  `noun`    {- bylyn -}            [ "Bilin", "Billin" ] ]
 
  |> "mAbayn" <| [
 

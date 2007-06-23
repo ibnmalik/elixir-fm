@@ -910,7 +910,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hAfAnA -}           [ "Havana" ] ]
 
- |> "hAnuwfir" <| [
+ |> "hAnUfir" <| [
 
     Identity                  `noun`    {- hAnuwfir -}         [ "Hannover" ] ]
 
@@ -918,19 +918,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hAnozA -}           [ "Hansa" ] ]
 
+ |> "hArIl" <| [
+
+    Identity                  `noun`    {- hAriyl -}           [ "Harel" ] ]
+
  |> "hArfard" <| [
 
     Identity                  `noun`    {- hArofarod -}        [ "Harvard" ] ]
 
- |> "hAriyl" <| [
-
-    Identity                  `noun`    {- hAriyl -}           [ "Harel" ] ]
-
- |> "hAt^siynsuwn" <| [
+ |> "hAt^sInsUn" <| [
 
     Identity                  `noun`    {- hAto$iynosuwn -}    [ "Hutchinson" ] ]
 
- |> "hAwA'iy" <| [
+ |> "hAwA'I" <| [
 
     Identity                  `noun`    {- hAwA}iy -}          [ "Hawaii" ] ]
 
@@ -941,6 +941,72 @@ lexicon = listing "Lexicon's properties"
  |> "hAwun" <| [
 
     Identity                  `noun`    {- hAwun -}            [ "mortar" ] ]
+
+ |> "hIdrA" <| [
+
+    Identity                  `noun`    {- hiydrA -}           [ "Hydra" ] ]
+
+ |> "hIktUr" <| [
+
+    Identity                  `noun`    {- hiykotuwr -}        [ "Hector" ] ]
+
+ |> "hIlArI" <| [
+
+    Identity                  `noun`    {- hiylAriy -}         [ "Hillary" ] ]
+
+ |> "hIliyUm" <| [
+
+    Identity                  `noun`    {- hiyliyuwm -}        [ "helium" ] ]
+
+ |> "hIn.gIs" <| [
+
+    Identity                  `noun`    {- hiynogiys -}        [ "Hingis" ] ]
+
+ |> "hIrU.glIf" <| [
+
+    Identity |< Iy            `adj`     {- hiyruwgliyfiy~ -}   [ "hieroglyphic" ] ]
+
+ |> "hIrU^sImA" <| [
+
+    Identity                  `noun`    {- hiyruw$iymA -}      [ "Hiroshima" ] ]
+
+ |> "hIruwIn" <| [
+
+    Identity                  `noun`    {- hiyruwiyn -}        [ "heroin" ] ]
+
+ |> "hIsb" <| [
+
+    Identity                  `noun`    {- hiysb -}            [ "Hesp" ] ]
+
+ |> "hUlAnd" <| [
+
+    Identity |< Iy            `adj`     {- huwlAnodiy~ -}      [ "Dutch", "of/from Holland" ] ]
+
+ |> "hUlAndA" <| [
+
+    Identity                  `noun`    {- huwlAnodA -}        [ "Holland" ] ]
+
+ |> "hUlIwUd" <| [
+
+    Identity                  `noun`    {- huwliywuwd -}       [ "Hollywood" ] ]
+
+ |> "hUn^g" <| [
+
+    Identity                  `noun`    {- huwnoj -}           [ "Hong" ] ]
+
+ |> "hUndUrAs" <| [
+
+    Identity                  `noun`    {- huwnoduwrAs -}      [ "Honduras" ] ]
+
+ |> "hUrmUn" <| [
+
+    Identity                  `noun`    {- huwromuwn -}        [ "hormone" ],
+
+    Identity |< Iy            `adj`     {- huwromuwniy~ -}     [ "hormonal" ] ]
+
+ |> "hUrst" <| [
+
+    Identity                  `noun`    {- huwrosot -}         [ "Horst" ] ]
 
  |> "h_a_dA" <| [
 
@@ -954,23 +1020,23 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `part`    {- hal~A -}            [ "doesn't/don't?", "didn't?", "isn't/aren't?" ] ]
 
- |> "hilikuwbtar" <| [
+ |> "hilikUbtar" <| [
 
     Identity                  `noun`    {- hilikuwbotar -}     [ "helicopter" ] ]
 
- |> "hilsinkiy" <| [
+ |> "hilsinkI" <| [
 
     Identity                  `noun`    {- hilosinkiy -}       [ "Helsinki" ] ]
 
- |> "hindriyks" <| [
+ |> "hindrIks" <| [
 
     Identity                  `noun`    {- hinodriyks -}       [ "Hendricks" ] ]
 
- |> "hinriyiytA" <| [
+ |> "hinriyItA" <| [
 
     Identity                  `noun`    {- hinoriyiytA -}      [ "Henrieta", "Henrietta" ] ]
 
- |> "histiyriyA" <| [
+ |> "histIriyA" <| [
 
     Identity                  `noun`    {- hisotiyriyA -}      [ "hysteria" ] ]
 
@@ -978,47 +1044,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- hitolar -}          [ "Hitler" ] ]
 
- |> "hiydrA" <| [
-
-    Identity                  `noun`    {- hiydrA -}           [ "Hydra" ] ]
-
- |> "hiyktuwr" <| [
-
-    Identity                  `noun`    {- hiykotuwr -}        [ "Hector" ] ]
-
- |> "hiylAriy" <| [
-
-    Identity                  `noun`    {- hiylAriy -}         [ "Hillary" ] ]
-
- |> "hiyliyuwm" <| [
-
-    Identity                  `noun`    {- hiyliyuwm -}        [ "helium" ] ]
-
- |> "hiyn.giys" <| [
-
-    Identity                  `noun`    {- hiynogiys -}        [ "Hingis" ] ]
-
- |> "hiyruw.gliyfiyy" <| [
-
-    Identity                  `adj`     {- hiyruwgliyfiy~ -}   [ "hieroglyphic" ] ]
-
- |> "hiyruw^siymA" <| [
-
-    Identity                  `noun`    {- hiyruw$iymA -}      [ "Hiroshima" ] ]
-
- |> "hiyruwiyn" <| [
-
-    Identity                  `noun`    {- hiyruwiyn -}        [ "heroin" ] ]
-
- |> "hiysb" <| [
-
-    Identity                  `noun`    {- hiysb -}            [ "Hesp" ] ]
-
- |> "hiyuwn" <| [
+ |> "hiyUn" <| [
 
     Identity                  `noun`    {- hiyuwn -}           [ "Hyun" ] ]
 
- |> "hiyuwstun" <| [
+ |> "hiyUstun" <| [
 
     Identity                  `noun`    {- hiyuwsotun -}       [ "Houston" ] ]
 
@@ -1030,37 +1060,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `adv`     {- hunA -}             [ "here" ] ]
 
- |> "huwlAnd" <| [
-
-    Identity |< Iy            `adj`     {- huwlAnodiy~ -}      [ "Dutch", "of/from Holland" ] ]
-
- |> "huwlAndA" <| [
-
-    Identity                  `noun`    {- huwlAnodA -}        [ "Holland" ] ]
-
- |> "huwliywuwd" <| [
-
-    Identity                  `noun`    {- huwliywuwd -}       [ "Hollywood" ] ]
-
- |> "huwn^g" <| [
-
-    Identity                  `noun`    {- huwnoj -}           [ "Hong" ] ]
-
- |> "huwnduwrAs" <| [
-
-    Identity                  `noun`    {- huwnoduwrAs -}      [ "Honduras" ] ]
-
- |> "huwrmuwn" <| [
-
-    Identity                  `noun`    {- huwromuwn -}        [ "hormone" ],
-
-    Identity |< Iy            `adj`     {- huwromuwniy~ -}     [ "hormonal" ] ]
-
- |> "huwrst" <| [
-
-    Identity                  `noun`    {- huwrosot -}         [ "Horst" ] ]
-
- |> "mAhuw" <| [
+ |> "mAhU" <| [
 
     Identity |<< "a"          `pron`    {- mAhuwa -}           [ "what" ] ]
 

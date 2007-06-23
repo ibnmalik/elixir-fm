@@ -130,6 +130,9 @@ data Nest =     NestL Root [Entry PatternL]
 
     deriving Show
 
+
+root :: Nest -> Root
+
 root (NestL r _) = r
 root (NestT r _) = r
 root (NestQ r _) = r
@@ -137,7 +140,7 @@ root (NestQ r _) = r
 
 class Template a => Nestable a where
 
-    (>:) :: String -> [Entry a] -> Nest
+    (>:) :: Root -> [Entry a] -> Nest
 
 
 infixl 6 >:, <|
@@ -313,7 +316,7 @@ countEach (NestQ _ l) = length l
 countEach (NestL _ l) = length l
 
 
-lookupRoot :: String -> Lexicon -> [Nest]
+lookupRoot :: Root -> Lexicon -> [Nest]
 
 lookupRoot r l = [ n | n <- l, root n == r ]
 

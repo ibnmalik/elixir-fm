@@ -6,14 +6,19 @@ package Elixir::Data::Buckwalter::Lexicon03;
 
 
 $Lexicon = {
-  'tAliybAw' => [
+  'tUbA.gU' => [
     {
-      'types' => {},
-      'entry' => 'tAliybAw',
-      'form' => 'tAliybAw',
+      'types' => {
+        'tuwbA^guw' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'tuwbA.guw',
+      'form' => 'tuwbA.guw',
       'lines' => [
-        ';; tAliybAw_1',
-        'tAlybAw tAliybAw        Nprop   Talebao'
+        ';; tuwbAguw_1',
+        'twbAgw  tuwbAguw        Nprop   Tobago',
+        'twbAjw  tuwbAjuw        Nprop   Tobago'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21,9 +26,72 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Talebao'
+        'Tobago'
       ],
-      'orig' => 'tAliybAw',
+      'orig' => 'tuwbAguw',
+      'prefix' => ''
+    }
+  ],
+  'tAlbUt' => [
+    {
+      'types' => {},
+      'entry' => 'tAlbuwt',
+      'form' => 'tAlbuwt',
+      'lines' => [
+        ';; tAlobuwt_1',
+        'tAlbwt  tAlobuwt        Nprop   Talbot'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Talbot'
+      ],
+      'orig' => 'tAlobuwt',
+      'prefix' => ''
+    }
+  ],
+  'tAdIrAn' => [
+    {
+      'types' => {},
+      'entry' => 'tAdiyrAn',
+      'form' => 'tAdiyrAn',
+      'lines' => [
+        ';; tAdiyrAn_1',
+        'tAdyrAn tAdiyrAn        N0      Tadiran'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tadiran'
+      ],
+      'orig' => 'tAdiyrAn',
+      'prefix' => ''
+    }
+  ],
+  'tarbantIn' => [
+    {
+      'types' => {},
+      'entry' => 'tarbantiyn',
+      'form' => 'tarbantiyn',
+      'lines' => [
+        ';; tarobanotiyn_1',
+        'trbntyn tarobanotiyn    N       turpentine'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'turpentine'
+      ],
+      'orig' => 'tarobanotiyn',
       'prefix' => ''
     }
   ],
@@ -319,31 +387,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'triyliyuwn' => [
-    {
-      'types' => {
-        'triyliyuwn' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'triyliyuwn',
-      'form' => 'triyliyuwn',
-      'lines' => [
-        ';; triyliyuwn_1',
-        'trylywn triyliyuwn      NduAt   trillion'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'trillion'
-      ],
-      'orig' => 'triyliyuwn',
-      'prefix' => ''
-    }
-  ],
   't z h' => [
     {
       'types' => {
@@ -452,6 +495,48 @@ $Lexicon = {
         'Taimur'
       ],
       'orig' => 'tayomuwr',
+      'prefix' => ''
+    }
+  ],
+  'tsUbIl' => [
+    {
+      'types' => {},
+      'entry' => 'tsuwbiyl',
+      'form' => 'tsuwbiyl',
+      'lines' => [
+        ';; tsuwbiyl_1',
+        'tswbyl  tsuwbiyl        Nprop   Tzobel'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tzobel'
+      ],
+      'orig' => 'tsuwbiyl',
+      'prefix' => ''
+    }
+  ],
+  'tAnIlA' => [
+    {
+      'types' => {},
+      'entry' => 'tAniylA',
+      'form' => 'tAniylA',
+      'lines' => [
+        ';; tAniylA_1',
+        'tAnylA  tAniylA Nprop   Tanella'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tanella'
+      ],
+      'orig' => 'tAniylA',
       'prefix' => ''
     }
   ],
@@ -806,27 +891,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tiytsiww' => [
-    {
-      'types' => {},
-      'entry' => 'tiytsiww',
-      'form' => 'tiytsiww',
-      'lines' => [
-        ';; tiytsiww_1',
-        'tytsww  tiytsiww        Nprop   Tetsu'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tetsu'
-      ],
-      'orig' => 'tiytsiww',
-      'prefix' => ''
-    }
-  ],
   't s `' => [
     {
       'types' => {},
@@ -887,27 +951,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'truwsyiyh' => [
-    {
-      'types' => {},
-      'entry' => 'truwsyiyh',
-      'form' => 'truwsyiyh',
-      'lines' => [
-        ';; truwsoyiyh_1',
-        'trwsyyh truwsoyiyh      Nprop   Troussier'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Troussier'
-      ],
-      'orig' => 'truwsoyiyh',
-      'prefix' => ''
-    }
-  ],
   't  s' => [
     {
       'types' => {},
@@ -929,14 +972,22 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'timbarwuwlfz' => [
+  'tAblUh' => [
     {
-      'types' => {},
-      'entry' => 'timbarwuwlfz',
-      'form' => 'timbarwuwlfz',
+      'types' => {
+        'tAbluwh' => {
+          'NAt' => 1
+        },
+        'tabluwh' => {
+          'N/At' => 1
+        }
+      },
+      'entry' => 'tAbluwh',
+      'form' => 'tAbluwh',
       'lines' => [
-        ';; timobarwuwlfz_1',
-        'tmbrwwlfz       timobarwuwlfz   N0      Timberwolves'
+        ';; tAboluwh_1',
+        'tAblwh  tAboluwh        N/At    tableau;scene',
+        'tblwh   taboluwh        N/At    tableau;scene'
       ],
       'patterns' => {},
       'index' => '1',
@@ -944,20 +995,55 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Timberwolves'
+        'tableau',
+        'scene'
       ],
-      'orig' => 'timobarwuwlfz',
+      'orig' => 'tAboluwh',
       'prefix' => ''
     }
   ],
-  'turumbiy.t' => [
+  't w ^g y' => [
+    {
+      'types' => {
+        'tuw.gw' => {
+          'N0' => 1
+        },
+        'tuwd' => {
+          'Nprop' => 1
+        },
+        'tuw^gw' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'tuw^guw',
+      'form' => 'tuw^guw',
+      'lines' => [
+        ';; tuwjuw_1',
+        'twjw    tuwjw   N0      Togo',
+        'twgw    tuwgw   N0      Togo',
+        'twd     tuwd    Nprop   Tod'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDU',
+      'suffix' => '',
+      'glosses' => [
+        'Togo',
+        'Tod'
+      ],
+      'orig' => 'tuwjuw',
+      'prefix' => ''
+    }
+  ],
+  'tAlIbAw' => [
     {
       'types' => {},
-      'entry' => 'turumbiy.t',
-      'form' => 'turumbiy.t',
+      'entry' => 'tAliybAw',
+      'form' => 'tAliybAw',
       'lines' => [
-        ';; turumobiyT_1',
-        'trmbyT  turumobiyT      N/ap    drum'
+        ';; tAliybAw_1',
+        'tAlybAw tAliybAw        Nprop   Talebao'
       ],
       'patterns' => {},
       'index' => '1',
@@ -965,9 +1051,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'drum'
+        'Talebao'
       ],
-      'orig' => 'turumobiyT',
+      'orig' => 'tAliybAw',
       'prefix' => ''
     }
   ],
@@ -1118,6 +1204,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tannIn' => [
+    {
+      'types' => {},
+      'entry' => 'tanniyn',
+      'form' => 'tanniyn',
+      'lines' => [
+        ';; tan~iyn_1',
+        'tnyn    tan~iyn N       tannin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'tannin'
+      ],
+      'orig' => 'tan~iyn',
+      'prefix' => ''
+    }
+  ],
+  'triyAtlUn' => [
+    {
+      'types' => {},
+      'entry' => 'triyAtluwn',
+      'form' => 'triyAtluwn',
+      'lines' => [
+        ';; triyAtoluwn_1',
+        'tryAtlwn        triyAtoluwn     N       Triathlon'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Triathlon'
+      ],
+      'orig' => 'triyAtoluwn',
+      'prefix' => ''
+    }
+  ],
   't y r b' => [
     {
       'types' => {},
@@ -1205,32 +1333,6 @@ $Lexicon = {
         'typhus'
       ],
       'orig' => 'tiyfuws',
-      'prefix' => ''
-    }
-  ],
-  'tiyriyzA' => [
-    {
-      'types' => {
-        'tiyriysA' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'tiyriyzA',
-      'form' => 'tiyriyzA',
-      'lines' => [
-        ';; tiyriyzA_1',
-        'tyryzA  tiyriyzA        Nprop   Teresa',
-        'tyrysA  tiyriysA        Nprop   Teresa'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Teresa'
-      ],
-      'orig' => 'tiyriyzA',
       'prefix' => ''
     }
   ],
@@ -1608,6 +1710,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tAbiyUkA' => [
+    {
+      'types' => {
+        'tabiyuwkA' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'tAbiyuwkA',
+      'form' => 'tAbiyuwkA',
+      'lines' => [
+        ';; tAbiyuwkA_1',
+        'tAbywkA tAbiyuwkA       N0      tapioca',
+        'tbywkA  tabiyuwkA       N0      tapioca'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'tapioca'
+      ],
+      'orig' => 'tAbiyuwkA',
+      'prefix' => ''
+    }
+  ],
   't h m' => [
     {
       'types' => {},
@@ -1647,27 +1775,6 @@ $Lexicon = {
         'tobacco'
       ],
       'orig' => 'tunobAk',
-      'prefix' => ''
-    }
-  ],
-  'tanniyn' => [
-    {
-      'types' => {},
-      'entry' => 'tanniyn',
-      'form' => 'tanniyn',
-      'lines' => [
-        ';; tan~iyn_1',
-        'tnyn    tan~iyn N       tannin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'tannin'
-      ],
-      'orig' => 'tan~iyn',
       'prefix' => ''
     }
   ],
@@ -1945,32 +2052,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tuwtiyA' => [
-    {
-      'types' => {
-        'tuwtiyA\'' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'tuwtiyA',
-      'form' => 'tuwtiyA',
-      'lines' => [
-        ';; tuwtiyA_1',
-        'twtyA   tuwtiyA N0      zinc',
-        'twtyA\'  tuwtiyA\'        N       zinc'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'zinc'
-      ],
-      'orig' => 'tuwtiyA',
-      'prefix' => ''
-    }
-  ],
   'litawwi-' => [
     {
       'types' => {
@@ -2051,15 +2132,15 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  't^siyl' => [
+  't^sIk' => [
     {
       'types' => {},
-      'entry' => 't^siyl',
-      'form' => 't^siyliyy',
+      'entry' => 't^siyk',
+      'form' => 't^siykiyy',
       'lines' => [
-        ';; t$iyliy~_1',
-        't$yly   t$iyliy~        Nall    Chilean     [[t$iyliy~/NOUN]]',
-        't$yly   t$iyliy~        Nall    Chilean     [[t$iyliy~/ADJ]]'
+        ';; t$iykiy~_1',
+        't$yky   t$iykiy~        Nall    Czech     [[t$iykiy~/NOUN]]',
+        't$yky   t$iykiy~        Nall    Czech     [[t$iykiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2067,51 +2148,9 @@ $Lexicon = {
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'Chilean'
+        'Czech'
       ],
-      'orig' => 't$iyliy~',
-      'prefix' => ''
-    }
-  ],
-  'tuwmAsiy' => [
-    {
-      'types' => {},
-      'entry' => 'tuwmAsiy',
-      'form' => 'tuwmAsiy',
-      'lines' => [
-        ';; tuwmAsiy_1',
-        'twmAsy  tuwmAsiy        Nprop   Tomassi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tomassi'
-      ],
-      'orig' => 'tuwmAsiy',
-      'prefix' => ''
-    }
-  ],
-  'triyliyuwniyr' => [
-    {
-      'types' => {},
-      'entry' => 'triyliyuwniyr',
-      'form' => 'triyliyuwniyr',
-      'lines' => [
-        ';; triyliyuwniyr_1',
-        'trylywnyr       triyliyuwniyr   Nall    trillionaire'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'trillionaire'
-      ],
-      'orig' => 'triyliyuwniyr',
+      'orig' => 't$iykiy~',
       'prefix' => ''
     }
   ],
@@ -2137,25 +2176,49 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'biAltAliy' => [
+  'tItsiwU' => [
     {
-      'types' => {},
-      'entry' => 'biAltAliy',
-      'form' => 'biAltAliy',
+      'types' => {
+        'tiytsiww' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'tiytsiwuw',
+      'form' => 'tiytsiwuw',
       'lines' => [
-        ';; biAltAliy_1',
-        'bAltAly biAltAliy       FW-Wa   therefore;consequently  [[biAltAliy/ADV]]'
+        ';; tiytsiwuw_1',
+        'tytsww  tiytsiww        Nprop   Tetsu'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adv',
+      'entity' => 'noun',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'therefore',
-        'consequently'
+        'Tetsu'
       ],
-      'orig' => 'biAltAliy',
+      'orig' => 'tiytsiwuw',
+      'prefix' => ''
+    }
+  ],
+  'tirmUmitr' => [
+    {
+      'types' => {},
+      'entry' => 'tirmuwmitr',
+      'form' => 'tirmuwmitr',
+      'lines' => [
+        ';; tiromuwmitr_1',
+        'trmwmtr tiromuwmitr     N       thermometer'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'thermometer'
+      ],
+      'orig' => 'tiromuwmitr',
       'prefix' => ''
     }
   ],
@@ -2178,6 +2241,46 @@ $Lexicon = {
         'postage'
       ],
       'orig' => 'tAmobar',
+      'prefix' => ''
+    }
+  ],
+  'trInIdAd' => [
+    {
+      'types' => {},
+      'entry' => 'triyniydAd',
+      'form' => 'triyniydAd',
+      'lines' => [
+        ';; triyniydAd_1',
+        'trynydAd        triyniydAd      Nprop   Trinidad'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Trinidad'
+      ],
+      'orig' => 'triyniydAd',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'triyniydAd',
+      'form' => 'triyniydAdiyy',
+      'lines' => [
+        ';; triyniydAdiy~_1',
+        'trynydAdy       triyniydAdiy~   Nall    Trinidadian'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Trinidadian'
+      ],
+      'orig' => 'triyniydAdiy~',
       'prefix' => ''
     }
   ],
@@ -2414,6 +2517,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tUziyA' => [
+    {
+      'types' => {},
+      'entry' => 'tuwziyA',
+      'form' => 'tuwziyA',
+      'lines' => [
+        ';; tuwziyA_1',
+        'twzyA   tuwziyA Nprop   Tauziat'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tauziat'
+      ],
+      'orig' => 'tuwziyA',
+      'prefix' => ''
+    }
+  ],
   'tinis' => [
     {
       'types' => {
@@ -2440,14 +2564,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  't^siyniy' => [
+  'titanUs' => [
     {
       'types' => {},
-      'entry' => 't^siyniy',
-      'form' => 't^siyniy',
+      'entry' => 'titanuws',
+      'form' => 'titanuws',
       'lines' => [
-        ';; t$iyniy_1',
-        't$yny   t$iyniy Nprop   Cheney'
+        ';; titanuws_1',
+        'ttnws   titanuws        N       tetanus'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2455,9 +2579,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Cheney'
+        'tetanus'
       ],
-      'orig' => 't$iyniy',
+      'orig' => 'titanuws',
       'prefix' => ''
     }
   ],
@@ -2482,19 +2606,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'talliys' => [
+  'tUn^g' => [
     {
-      'types' => {
-        'talAliys' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'talliys',
-      'form' => 'talliys',
+      'types' => {},
+      'entry' => 'tuwn^g',
+      'form' => 'tuwn^g',
       'lines' => [
-        ';; tal~iys_1',
-        'tlys    tal~iys Ndu     sack',
-        'tlAlys  talAliys        Ndip    sacks'
+        ';; tuwnj_1',
+        'twnj    tuwnj   N       bronze'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2502,10 +2621,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'sack',
-        'sacks'
+        'bronze'
       ],
-      'orig' => 'tal~iys',
+      'orig' => 'tuwnj',
       'prefix' => ''
     }
   ],
@@ -2759,14 +2877,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tuwriynuw' => [
+  't^sArltUn' => [
     {
       'types' => {},
-      'entry' => 'tuwriynuw',
-      'form' => 'tuwriynuw',
+      'entry' => 't^sArltuwn',
+      'form' => 't^sArltuwn',
       'lines' => [
-        ';; tuwriynuw_1',
-        'twrynw  tuwriynuw       Nprop   Torino'
+        ';; t$Arlotuwn_1',
+        't$Arltwn        t$Arlotuwn      Nprop   Charlton'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2774,9 +2892,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Torino'
+        'Charlton'
       ],
-      'orig' => 'tuwriynuw',
+      'orig' => 't$Arlotuwn',
       'prefix' => ''
     }
   ],
@@ -3113,24 +3231,25 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tun^gstiyn' => [
+  'tra^gId' => [
     {
       'types' => {},
-      'entry' => 'tun^gstiyn',
-      'form' => 'tun^gstiyn',
+      'entry' => 'tra^giyd',
+      'form' => 'tra^giydiyy',
       'lines' => [
-        ';; tunojostiyn_1',
-        'tnjstyn tunojostiyn     N       tungsten'
+        ';; trajiydiy~_1',
+        'trjydy  trajiydiy~      Nall    tragedy;tragic     [[trajiydiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'tungsten'
+        'tragedy',
+        'tragic'
       ],
-      'orig' => 'tunojostiyn',
+      'orig' => 'trajiydiy~',
       'prefix' => ''
     }
   ],
@@ -3197,49 +3316,6 @@ $Lexicon = {
         'Thawatchai'
       ],
       'orig' => 'tAwAt$Ay',
-      'prefix' => ''
-    }
-  ],
-  't^siykuwsluwfAk' => [
-    {
-      'types' => {},
-      'entry' => 't^siykuwsluwfAk',
-      'form' => 't^siykuwsluwfAkiyy',
-      'lines' => [
-        ';; t$iykuwsoluwfAkiy~_1',
-        't$ykwslwfAky    t$iykuwsoluwfAkiy~      Nall    Czech     [[t$iykuwsoluwfAkiy~/NOUN]]',
-        't$ykwslwfAky    t$iykuwsoluwfAkiy~      Nall    Czech     [[t$iykuwsoluwfAkiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Czech'
-      ],
-      'orig' => 't$iykuwsoluwfAkiy~',
-      'prefix' => ''
-    }
-  ],
-  'tiylstruwm' => [
-    {
-      'types' => {},
-      'entry' => 'tiylstruwm',
-      'form' => 'tiylstruwm',
-      'lines' => [
-        ';; tiylostruwm_1',
-        'tylstrwm        tiylostruwm     Nprop   Tillstrom'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tillstrom'
-      ],
-      'orig' => 'tiylostruwm',
       'prefix' => ''
     }
   ],
@@ -3446,19 +3522,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tarA_huwmA' => [
+  'tUtsI' => [
     {
-      'types' => {
-        'tarA_huwm' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'tarA_huwmA',
-      'form' => 'tarA_huwmA',
+      'types' => {},
+      'entry' => 'tuwtsiy',
+      'form' => 'tuwtsiy',
       'lines' => [
-        ';; tarAxuwmA_1',
-        'trAxwmA tarAxuwmA       N0      trachoma',
-        'trAxwm  tarAxuwm        Nap     trachoma'
+        ';; tuwtosiy_1',
+        'twtsy   tuwtosiy        N0      Tutsi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3466,9 +3537,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'trachoma'
+        'Tutsi'
       ],
-      'orig' => 'tarAxuwmA',
+      'orig' => 'tuwtosiy',
       'prefix' => ''
     }
   ],
@@ -3494,6 +3565,27 @@ $Lexicon = {
         'taxi'
       ],
       'orig' => 'tAkosiy~',
+      'prefix' => ''
+    }
+  ],
+  'tIr.g' => [
+    {
+      'types' => {},
+      'entry' => 'tiyr.g',
+      'form' => 'tiyr.gAt',
+      'lines' => [
+        ';; tiyrogAt_1',
+        'tyrgAt  tiyrogAt        N0      Tergat'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'Tergat'
+      ],
+      'orig' => 'tiyrogAt',
       'prefix' => ''
     }
   ],
@@ -3613,6 +3705,32 @@ $Lexicon = {
         'spittoon'
       ],
       'orig' => 'mitofalap',
+      'prefix' => ''
+    }
+  ],
+  'tarA_hUmA' => [
+    {
+      'types' => {
+        'tarA_huwm' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'tarA_huwmA',
+      'form' => 'tarA_huwmA',
+      'lines' => [
+        ';; tarAxuwmA_1',
+        'trAxwmA tarAxuwmA       N0      trachoma',
+        'trAxwm  tarAxuwm        Nap     trachoma'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'trachoma'
+      ],
+      'orig' => 'tarAxuwmA',
       'prefix' => ''
     }
   ],
@@ -3854,59 +3972,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tilfizyuwn' => [
-    {
-      'types' => {
-        'tilfizyuwn' => {
-          'NAt' => 1
-        },
-        'tiliyfizyuwn' => {
-          'N/At' => 1
-        }
-      },
-      'entry' => 'tilfizyuwn',
-      'form' => 'tilfizyuwn',
-      'lines' => [
-        ';; tilfizyuwn_1',
-        'tlfzywn tilfizyuwn      N/At    television',
-        'tlyfzywn        tiliyfizyuwn    N/At    television'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'television'
-      ],
-      'orig' => 'tilfizyuwn',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'tiliyfizyuwniyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'tilfizyuwn',
-      'form' => 'tilfizyuwniyy',
-      'lines' => [
-        ';; tilfizyuwniy~_1',
-        'tlfzywny        tilfizyuwniy~   Nall    television     [[tilfizyuwniy~/ADJ]]',
-        'tlyfzywny       tiliyfizyuwniy~ Nall    television     [[tiliyfizyuwniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'television'
-      ],
-      'orig' => 'tilfizyuwniy~',
-      'prefix' => ''
-    }
-  ],
   'tamArA' => [
     {
       'types' => {},
@@ -3925,6 +3990,27 @@ $Lexicon = {
         'Tamara'
       ],
       'orig' => 'tamArA',
+      'prefix' => ''
+    }
+  ],
+  'tiknUlU^giyA' => [
+    {
+      'types' => {},
+      'entry' => 'tiknuwluw^giyA',
+      'form' => 'tiknuwluw^giyA',
+      'lines' => [
+        ';; tikonuwluwjiyA_1',
+        'tknwlwjyA       tikonuwluwjiyA  N0      technology'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'technology'
+      ],
+      'orig' => 'tikonuwluwjiyA',
       'prefix' => ''
     }
   ],
@@ -3949,14 +4035,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  't^siyliy' => [
+  'tuwIst' => [
     {
       'types' => {},
-      'entry' => 't^siyliy',
-      'form' => 't^siyliy',
+      'entry' => 'tuwiyst',
+      'form' => 'tuwiyst',
       'lines' => [
-        ';; t$iyliy_1',
-        't$yly   t$iyliy N0      Chile'
+        ';; tuwiysot_1',
+        'twyst   tuwiysot        N0      twist'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3964,9 +4050,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Chile'
+        'twist'
       ],
-      'orig' => 't$iyliy',
+      'orig' => 'tuwiysot',
       'prefix' => ''
     }
   ],
@@ -4011,14 +4097,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'truwb' => [
+  'tuhAmI' => [
     {
       'types' => {},
-      'entry' => 'truwb',
-      'form' => 'truwb',
+      'entry' => 'tuhAmiy',
+      'form' => 'tuhAmiy',
       'lines' => [
-        ';; truwb_1',
-        'trwb    truwb   N       squadron'
+        ';; tuhAmiy_1',
+        'thAmy   tuhAmiy Nprop   Tuhami'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4026,9 +4112,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'squadron'
+        'Tuhami'
       ],
-      'orig' => 'truwb',
+      'orig' => 'tuhAmiy',
       'prefix' => ''
     }
   ],
@@ -4090,6 +4176,27 @@ $Lexicon = {
         'typhoid'
       ],
       'orig' => 'tiyfuwdiy~',
+      'prefix' => ''
+    }
+  ],
+  'turumbI.t' => [
+    {
+      'types' => {},
+      'entry' => 'turumbiy.t',
+      'form' => 'turumbiy.t',
+      'lines' => [
+        ';; turumobiyT_1',
+        'trmbyT  turumobiyT      N/ap    drum'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'drum'
+      ],
+      'orig' => 'turumobiyT',
       'prefix' => ''
     }
   ],
@@ -4372,31 +4479,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tuwrbiyn' => [
-    {
-      'types' => {
-        'tuwrbiyn' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'tuwrbiyn',
-      'form' => 'tuwrbiyn',
-      'lines' => [
-        ';; tuwrobiyn_1',
-        'twrbyn  tuwrobiyn       NduAt   turbine'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'turbine'
-      ],
-      'orig' => 'tuwrobiyn',
-      'prefix' => ''
-    }
-  ],
   'trAn' => [
     {
       'types' => {},
@@ -4437,32 +4519,6 @@ $Lexicon = {
         'adversities'
       ],
       'orig' => 'talAtiyl',
-      'prefix' => ''
-    }
-  ],
-  'tuwbuw.grAfiyA' => [
-    {
-      'types' => {
-        'tuwbuw^grAfiyA' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'tuwbuw.grAfiyA',
-      'form' => 'tuwbuw.grAfiyA',
-      'lines' => [
-        ';; tuwbuwgrAfiyA_1',
-        'twbwgrAfyA      tuwbuwgrAfiyA   N0      topography',
-        'twbwjrAfyA      tuwbuwjrAfiyA   N0      topography'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'topography'
-      ],
-      'orig' => 'tuwbuwgrAfiyA',
       'prefix' => ''
     }
   ],
@@ -4586,14 +4642,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tiytAnuws' => [
+  'tUtiyA' => [
     {
-      'types' => {},
-      'entry' => 'tiytAnuws',
-      'form' => 'tiytAnuws',
+      'types' => {
+        'tuwtiyA\'' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'tuwtiyA',
+      'form' => 'tuwtiyA',
       'lines' => [
-        ';; tiytAnuws_1',
-        'tytAnws tiytAnuws       N       tetanus'
+        ';; tuwtiyA_1',
+        'twtyA   tuwtiyA N0      zinc',
+        'twtyA\'  tuwtiyA\'        N       zinc'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4601,9 +4662,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'tetanus'
+        'zinc'
       ],
-      'orig' => 'tiytAnuws',
+      'orig' => 'tuwtiyA',
       'prefix' => ''
     }
   ],
@@ -4711,27 +4772,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tArAniy' => [
-    {
-      'types' => {},
-      'entry' => 'tArAniy',
-      'form' => 'tArAniy',
-      'lines' => [
-        ';; tArAniy_1',
-        'tArAny  tArAniy N0      Tarani'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tarani'
-      ],
-      'orig' => 'tArAniy',
-      'prefix' => ''
-    }
-  ],
   'taraktar' => [
     {
       'types' => {
@@ -4761,19 +4801,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tilifriyk' => [
+  't^sInI' => [
     {
-      'types' => {
-        'tiliyfriyk' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'tilifriyk',
-      'form' => 'tilifriyk',
+      'types' => {},
+      'entry' => 't^siyniy',
+      'form' => 't^siyniy',
       'lines' => [
-        ';; tilifriyk_1',
-        'tlfryk  tilifriyk       N       cableway',
-        'tlyfryk tiliyfriyk      N       cableway'
+        ';; t$iyniy_1',
+        't$yny   t$iyniy Nprop   Cheney'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4781,9 +4816,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'cableway'
+        'Cheney'
       ],
-      'orig' => 'tilifriyk',
+      'orig' => 't$iyniy',
       'prefix' => ''
     }
   ],
@@ -4827,27 +4862,6 @@ $Lexicon = {
         'inherited'
       ],
       'orig' => 'turAviy~',
-      'prefix' => ''
-    }
-  ],
-  'tuwtsiy' => [
-    {
-      'types' => {},
-      'entry' => 'tuwtsiy',
-      'form' => 'tuwtsiy',
-      'lines' => [
-        ';; tuwtosiy_1',
-        'twtsy   tuwtosiy        N0      Tutsi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tutsi'
-      ],
-      'orig' => 'tuwtosiy',
       'prefix' => ''
     }
   ],
@@ -5088,6 +5102,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tInIsI' => [
+    {
+      'types' => {},
+      'entry' => 'tiyniysiy',
+      'form' => 'tiyniysiy',
+      'lines' => [
+        ';; tiyniysiy_1',
+        'tynysy  tiyniysiy       N0      Tennessee'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tennessee'
+      ],
+      'orig' => 'tiyniysiy',
+      'prefix' => ''
+    }
+  ],
   't w q' => [
     {
       'types' => {
@@ -5208,46 +5243,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'triyniydAd' => [
-    {
-      'types' => {},
-      'entry' => 'triyniydAd',
-      'form' => 'triyniydAd',
-      'lines' => [
-        ';; triyniydAd_1',
-        'trynydAd        triyniydAd      Nprop   Trinidad'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Trinidad'
-      ],
-      'orig' => 'triyniydAd',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'triyniydAd',
-      'form' => 'triyniydAdiyy',
-      'lines' => [
-        ';; triyniydAdiy~_1',
-        'trynydAdy       triyniydAdiy~   Nall    Trinidadian'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Trinidadian'
-      ],
-      'orig' => 'triyniydAdiy~',
-      'prefix' => ''
-    }
-  ],
   't q w' => [
     {
       'types' => {
@@ -5311,6 +5306,71 @@ $Lexicon = {
         'nurse'
       ],
       'orig' => 'tamarojiy~',
+      'prefix' => ''
+    }
+  ],
+  'tiliskUb' => [
+    {
+      'types' => {
+        'tiliskuwb' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'tiliskuwb',
+      'form' => 'tiliskuwb',
+      'lines' => [
+        ';; tilisokuwb_1',
+        'tlskwb  tilisokuwb      NduAt   telescope'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'telescope'
+      ],
+      'orig' => 'tilisokuwb',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tiliskuwb',
+      'form' => 'tiliskuwbiyy',
+      'lines' => [
+        ';; tilisokuwbiy~_1',
+        'tlskwby tilisokuwbiy~   N-ap    telescopic     [[tiliskuwbiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'telescopic'
+      ],
+      'orig' => 'tilisokuwbiy~',
+      'prefix' => ''
+    }
+  ],
+  'trUykA' => [
+    {
+      'types' => {},
+      'entry' => 'truwykA',
+      'form' => 'truwykA',
+      'lines' => [
+        ';; truwyokA_1',
+        'trwykA  truwyokA        N0      Troika'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Troika'
+      ],
+      'orig' => 'truwyokA',
       'prefix' => ''
     }
   ],
@@ -5413,27 +5473,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tuwn^g' => [
-    {
-      'types' => {},
-      'entry' => 'tuwn^g',
-      'form' => 'tuwn^g',
-      'lines' => [
-        ';; tuwnj_1',
-        'twnj    tuwnj   N       bronze'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bronze'
-      ],
-      'orig' => 'tuwnj',
-      'prefix' => ''
-    }
-  ],
   'tAkAhArA' => [
     {
       'types' => {},
@@ -5452,6 +5491,28 @@ $Lexicon = {
         'Takahara'
       ],
       'orig' => 'tAkAhArA',
+      'prefix' => ''
+    }
+  ],
+  'biAltAlI' => [
+    {
+      'types' => {},
+      'entry' => 'biAltAliy',
+      'form' => 'biAltAliy',
+      'lines' => [
+        ';; biAltAliy_1',
+        'bAltAly biAltAliy       FW-Wa   therefore;consequently  [[biAltAliy/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'therefore',
+        'consequently'
+      ],
+      'orig' => 'biAltAliy',
       'prefix' => ''
     }
   ],
@@ -5516,32 +5577,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tAbiyuwkA' => [
-    {
-      'types' => {
-        'tabiyuwkA' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'tAbiyuwkA',
-      'form' => 'tAbiyuwkA',
-      'lines' => [
-        ';; tAbiyuwkA_1',
-        'tAbywkA tAbiyuwkA       N0      tapioca',
-        'tbywkA  tabiyuwkA       N0      tapioca'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'tapioca'
-      ],
-      'orig' => 'tAbiyuwkA',
-      'prefix' => ''
-    }
-  ],
   't r f s' => [
     {
       'types' => {},
@@ -5560,27 +5595,6 @@ $Lexicon = {
         'truffle'
       ],
       'orig' => 'tirfAs',
-      'prefix' => ''
-    }
-  ],
-  'triyAtluwn' => [
-    {
-      'types' => {},
-      'entry' => 'triyAtluwn',
-      'form' => 'triyAtluwn',
-      'lines' => [
-        ';; triyAtoluwn_1',
-        'tryAtlwn        triyAtoluwn     N       Triathlon'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Triathlon'
-      ],
-      'orig' => 'triyAtoluwn',
       'prefix' => ''
     }
   ],
@@ -5693,14 +5707,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tAykwAnduw' => [
+  'tUyUtA' => [
     {
       'types' => {},
-      'entry' => 'tAykwAnduw',
-      'form' => 'tAykwAnduw',
+      'entry' => 'tuwyuwtA',
+      'form' => 'tuwyuwtA',
       'lines' => [
-        ';; tAyokwAnoduw_1',
-        'tAykwAndw       tAyokwAnoduw    N0      Taekwondo'
+        ';; tuwyuwtA_1',
+        'twywtA  tuwyuwtA        N0      Toyota'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5708,20 +5722,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Taekwondo'
+        'Toyota'
       ],
-      'orig' => 'tAyokwAnoduw',
+      'orig' => 'tuwyuwtA',
       'prefix' => ''
     }
   ],
-  'tuwlstuwy' => [
+  'trUb' => [
     {
       'types' => {},
-      'entry' => 'tuwlstuwy',
-      'form' => 'tuwlstuwy',
+      'entry' => 'truwb',
+      'form' => 'truwb',
       'lines' => [
-        ';; tuwlostuwy_1',
-        'twlstwy tuwlostuwy      N0      Tolstoy;Tolstoi'
+        ';; truwb_1',
+        'trwb    truwb   N       squadron'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5729,10 +5743,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Tolstoy',
-        'Tolstoi'
+        'squadron'
       ],
-      'orig' => 'tuwlostuwy',
+      'orig' => 'truwb',
       'prefix' => ''
     }
   ],
@@ -5929,6 +5942,22 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  't w ^g w' => [
+    {
+      'types' => {},
+      'entry' => 'tuw^guw',
+      'form' => 'tuw^guw',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDU',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'tuwjuw',
+      'prefix' => ''
+    }
+  ],
   't y l' => [
     {
       'types' => {
@@ -5989,14 +6018,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tsuwbiyl' => [
+  't^sIlI' => [
     {
       'types' => {},
-      'entry' => 'tsuwbiyl',
-      'form' => 'tsuwbiyl',
+      'entry' => 't^siyliy',
+      'form' => 't^siyliy',
       'lines' => [
-        ';; tsuwbiyl_1',
-        'tswbyl  tsuwbiyl        Nprop   Tzobel'
+        ';; t$iyliy_1',
+        't$yly   t$iyliy N0      Chile'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6004,56 +6033,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Tzobel'
+        'Chile'
       ],
-      'orig' => 'tsuwbiyl',
-      'prefix' => ''
-    }
-  ],
-  'tirsw' => [
-    {
-      'types' => {},
-      'entry' => 'tirsw',
-      'form' => 'tirsw',
-      'lines' => [
-        ';; tirsw_1',
-        'trsw    tirsw   N       third class'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'third class'
-      ],
-      'orig' => 'tirsw',
-      'prefix' => ''
-    }
-  ],
-  'tiyniynbawm' => [
-    {
-      'types' => {
-        'tiniynbawm' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'tiyniynbawm',
-      'form' => 'tiyniynbawm',
-      'lines' => [
-        ';; tiyniynobawom_1',
-        'tynynbwm        tiyniynobawom   Nprop   Tannenbaum',
-        'tnynbwm tiniynobawom    Nprop   Tannenbaum'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tannenbaum'
-      ],
-      'orig' => 'tiyniynobawom',
+      'orig' => 't$iyliy',
       'prefix' => ''
     }
   ],
@@ -6245,6 +6227,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tiknUlU^g' => [
+    {
+      'types' => {},
+      'entry' => 'tiknuwluw^g',
+      'form' => 'tiknuwluw^giyy',
+      'lines' => [
+        ';; tikonuwluwjiy~_1',
+        'tknwlwjy        tikonuwluwjiy~  Nall    technological     [[tikonuwluwjiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'technological'
+      ],
+      'orig' => 'tikonuwluwjiy~',
+      'prefix' => ''
+    }
+  ],
   't r `' => [
     {
       'types' => {
@@ -6365,6 +6368,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tAnsU' => [
+    {
+      'types' => {},
+      'entry' => 'tAnsuw',
+      'form' => 'tAnsuw',
+      'lines' => [
+        ';; tAnosuw_1',
+        'tAnsw   tAnosuw Nprop   Tansu'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tansu'
+      ],
+      'orig' => 'tAnosuw',
+      'prefix' => ''
+    }
+  ],
+  'tArAnI' => [
+    {
+      'types' => {},
+      'entry' => 'tArAniy',
+      'form' => 'tArAniy',
+      'lines' => [
+        ';; tArAniy_1',
+        'tArAny  tArAniy N0      Tarani'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tarani'
+      ],
+      'orig' => 'tArAniy',
+      'prefix' => ''
+    }
+  ],
   't l h' => [
     {
       'types' => {
@@ -6459,14 +6504,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'titanuws' => [
+  'trIliyUnIr' => [
     {
       'types' => {},
-      'entry' => 'titanuws',
-      'form' => 'titanuws',
+      'entry' => 'triyliyuwniyr',
+      'form' => 'triyliyuwniyr',
       'lines' => [
-        ';; titanuws_1',
-        'ttnws   titanuws        N       tetanus'
+        ';; triyliyuwniyr_1',
+        'trylywnyr       triyliyuwniyr   Nall    trillionaire'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6474,30 +6519,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'tetanus'
+        'trillionaire'
       ],
-      'orig' => 'titanuws',
-      'prefix' => ''
-    }
-  ],
-  'triyziy.giyh' => [
-    {
-      'types' => {},
-      'entry' => 'triyziy.giyh',
-      'form' => 'triyziy.giyh',
-      'lines' => [
-        ';; triyziygiyh_1',
-        'tryzygyh        triyziygiyh     Nprop   Trezeguet'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Trezeguet'
-      ],
-      'orig' => 'triyziygiyh',
+      'orig' => 'triyliyuwniyr',
       'prefix' => ''
     }
   ],
@@ -7000,27 +7024,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  't^syrnwmyrdyn' => [
-    {
-      'types' => {},
-      'entry' => 't^syrnwmyrdyn',
-      'form' => 't^syrnwmyrdyn',
-      'lines' => [
-        ';; t$yrnwmyrdyn_1',
-        't$yrnwmyrdyn    t$yrnwmyrdyn    Nprop   Chernomyrdin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Chernomyrdin'
-      ],
-      'orig' => 't$yrnwmyrdyn',
-      'prefix' => ''
-    }
-  ],
   'titik' => [
     {
       'types' => {},
@@ -7042,14 +7045,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tirmuwmitr' => [
+  'tIrIzA' => [
     {
-      'types' => {},
-      'entry' => 'tirmuwmitr',
-      'form' => 'tirmuwmitr',
+      'types' => {
+        'tiyriysA' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'tiyriyzA',
+      'form' => 'tiyriyzA',
       'lines' => [
-        ';; tiromuwmitr_1',
-        'trmwmtr tiromuwmitr     N       thermometer'
+        ';; tiyriyzA_1',
+        'tyryzA  tiyriyzA        Nprop   Teresa',
+        'tyrysA  tiyriysA        Nprop   Teresa'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7057,9 +7065,51 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'thermometer'
+        'Teresa'
       ],
-      'orig' => 'tiromuwmitr',
+      'orig' => 'tiyriyzA',
+      'prefix' => ''
+    }
+  ],
+  'tUrInU' => [
+    {
+      'types' => {},
+      'entry' => 'tuwriynuw',
+      'form' => 'tuwriynuw',
+      'lines' => [
+        ';; tuwriynuw_1',
+        'twrynw  tuwriynuw       Nprop   Torino'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Torino'
+      ],
+      'orig' => 'tuwriynuw',
+      'prefix' => ''
+    }
+  ],
+  'tItAnUs' => [
+    {
+      'types' => {},
+      'entry' => 'tiytAnuws',
+      'form' => 'tiytAnuws',
+      'lines' => [
+        ';; tiytAnuws_1',
+        'tytAnws tiytAnuws       N       tetanus'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'tetanus'
+      ],
+      'orig' => 'tiytAnuws',
       'prefix' => ''
     }
   ],
@@ -7081,6 +7131,31 @@ $Lexicon = {
         'tailor'
       ],
       'orig' => 'taroziy~',
+      'prefix' => ''
+    }
+  ],
+  'tUrbIn' => [
+    {
+      'types' => {
+        'tuwrbiyn' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'tuwrbiyn',
+      'form' => 'tuwrbiyn',
+      'lines' => [
+        ';; tuwrobiyn_1',
+        'twrbyn  tuwrobiyn       NduAt   turbine'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'turbine'
+      ],
+      'orig' => 'tuwrobiyn',
       'prefix' => ''
     }
   ],
@@ -7811,37 +7886,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tuw^gw' => [
-    {
-      'types' => {
-        'tuw.gw' => {
-          'N0' => 1
-        },
-        'tuwd' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'tuw^gw',
-      'form' => 'tuw^gw',
-      'lines' => [
-        ';; tuwjw_1',
-        'twjw    tuwjw   N0      Togo',
-        'twgw    tuwgw   N0      Togo',
-        'twd     tuwd    Nprop   Tod'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Togo',
-        'Tod'
-      ],
-      'orig' => 'tuwjw',
-      'prefix' => ''
-    }
-  ],
   't .t w' => [
     {
       'types' => {},
@@ -8249,50 +8293,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tiliskuwb' => [
-    {
-      'types' => {
-        'tiliskuwb' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'tiliskuwb',
-      'form' => 'tiliskuwb',
-      'lines' => [
-        ';; tilisokuwb_1',
-        'tlskwb  tilisokuwb      NduAt   telescope'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'telescope'
-      ],
-      'orig' => 'tilisokuwb',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'tiliskuwb',
-      'form' => 'tiliskuwbiyy',
-      'lines' => [
-        ';; tilisokuwbiy~_1',
-        'tlskwby tilisokuwbiy~   N-ap    telescopic     [[tiliskuwbiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'telescopic'
-      ],
-      'orig' => 'tilisokuwbiy~',
-      'prefix' => ''
-    }
-  ],
   't n k' => [
     {
       'types' => {},
@@ -8311,6 +8311,31 @@ $Lexicon = {
         'jerry can'
       ],
       'orig' => 'tanakap',
+      'prefix' => ''
+    }
+  ],
+  't^sIrnUmIrdIn' => [
+    {
+      'types' => {
+        't^syrnwmyrdyn' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 't^siyrnuwmiyrdiyn',
+      'form' => 't^siyrnuwmiyrdiyn',
+      'lines' => [
+        ';; t$iyrnuwmiyrdiyn_1',
+        't$yrnwmyrdyn    t$yrnwmyrdyn    Nprop   Chernomyrdin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Chernomyrdin'
+      ],
+      'orig' => 't$iyrnuwmiyrdiyn',
       'prefix' => ''
     }
   ],
@@ -8454,6 +8479,32 @@ $Lexicon = {
         'zinc'
       ],
       'orig' => 'tuwtiy~',
+      'prefix' => ''
+    }
+  ],
+  'tUbU.grAf' => [
+    {
+      'types' => {
+        'tuwbuw^grAfiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'tuwbuw.grAf',
+      'form' => 'tuwbuw.grAfiyy',
+      'lines' => [
+        ';; tuwbuwgrAfiy~_1',
+        'twbwgrAfy       tuwbuwgrAfiy~   Nall    topographic     [[tuwbuwgrAfiy~/ADJ]]',
+        'twbwjrAfy       tuwbuwjrAfiy~   Nall    topographic     [[tuwbuwjrAfiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'topographic'
+      ],
+      'orig' => 'tuwbuwgrAfiy~',
       'prefix' => ''
     }
   ],
@@ -8789,14 +8840,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tiknuwqrA.t' => [
+  'tun^gstIn' => [
     {
       'types' => {},
-      'entry' => 'tiknuwqrA.t',
-      'form' => 'tiknuwqrA.t',
+      'entry' => 'tun^gstiyn',
+      'form' => 'tun^gstiyn',
       'lines' => [
-        ';; tikonuwqrAT_1',
-        'tknwqrAT        tikonuwqrAT     N       technocrat'
+        ';; tunojostiyn_1',
+        'tnjstyn tunojostiyn     N       tungsten'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8804,30 +8855,51 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'technocrat'
+        'tungsten'
       ],
-      'orig' => 'tikonuwqrAT',
+      'orig' => 'tunojostiyn',
       'prefix' => ''
-    },
+    }
+  ],
+  'tAlAhAsI' => [
     {
       'types' => {},
-      'entry' => 'tiknuwqrA.t',
-      'form' => 'tiknuwqrA.tiyy',
+      'entry' => 'tAlAhAsiy',
+      'form' => 'tAlAhAsiy',
       'lines' => [
-        ';; tikonuwqrATiy~_1',
-        'tknwqrATy       tikonuwqrATiy~  Nall    technocrat     [[tikonuwqrATiy~/ADJ]]',
-        'tknwqrATy       tikonuwqrATiy~  N-ap    technocratic     [[tikonuwqrATiy~/ADJ]]'
+        ';; tAlAhAsiy_1',
+        'tAlAhAsy        tAlAhAsiy       N0      Tallahassee'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'technocrat',
-        'technocratic'
+        'Tallahassee'
       ],
-      'orig' => 'tikonuwqrATiy~',
+      'orig' => 'tAlAhAsiy',
+      'prefix' => ''
+    }
+  ],
+  'tAkIn' => [
+    {
+      'types' => {},
+      'entry' => 'tAkiyn',
+      'form' => 'tAkiyn',
+      'lines' => [
+        ';; tAkiyn_1',
+        'tAkyn   tAkiyn  Nprop   Takin ??'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Takin ??'
+      ],
+      'orig' => 'tAkiyn',
       'prefix' => ''
     }
   ],
@@ -9142,27 +9214,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tuwyuwtA' => [
-    {
-      'types' => {},
-      'entry' => 'tuwyuwtA',
-      'form' => 'tuwyuwtA',
-      'lines' => [
-        ';; tuwyuwtA_1',
-        'twywtA  tuwyuwtA        N0      Toyota'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Toyota'
-      ],
-      'orig' => 'tuwyuwtA',
-      'prefix' => ''
-    }
-  ],
   't f k' => [
     {
       'types' => {
@@ -9226,27 +9277,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tiyrAnA' => [
-    {
-      'types' => {},
-      'entry' => 'tiyrAnA',
-      'form' => 'tiyrAnA',
-      'lines' => [
-        ';; tiyrAnA_1',
-        'tyrAnA  tiyrAnA Nprop   Tirana'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tirana'
-      ],
-      'orig' => 'tiyrAnA',
-      'prefix' => ''
-    }
-  ],
   't r w d' => [
     {
       'types' => {},
@@ -9268,14 +9298,58 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  't^sArltuwn' => [
+  't^sIkUslUfAk' => [
     {
       'types' => {},
-      'entry' => 't^sArltuwn',
-      'form' => 't^sArltuwn',
+      'entry' => 't^siykuwsluwfAk',
+      'form' => 't^siykuwsluwfAkiyy',
       'lines' => [
-        ';; t$Arlotuwn_1',
-        't$Arltwn        t$Arlotuwn      Nprop   Charlton'
+        ';; t$iykuwsoluwfAkiy~_1',
+        't$ykwslwfAky    t$iykuwsoluwfAkiy~      Nall    Czech     [[t$iykuwsoluwfAkiy~/NOUN]]',
+        't$ykwslwfAky    t$iykuwsoluwfAkiy~      Nall    Czech     [[t$iykuwsoluwfAkiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Czech'
+      ],
+      'orig' => 't$iykuwsoluwfAkiy~',
+      'prefix' => ''
+    }
+  ],
+  't^sIl' => [
+    {
+      'types' => {},
+      'entry' => 't^siyl',
+      'form' => 't^siyliyy',
+      'lines' => [
+        ';; t$iyliy~_1',
+        't$yly   t$iyliy~        Nall    Chilean     [[t$iyliy~/NOUN]]',
+        't$yly   t$iyliy~        Nall    Chilean     [[t$iyliy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Chilean'
+      ],
+      'orig' => 't$iyliy~',
+      'prefix' => ''
+    }
+  ],
+  'tarA^gIdiyA' => [
+    {
+      'types' => {},
+      'entry' => 'tarA^giydiyA',
+      'form' => 'tarA^giydiyA',
+      'lines' => [
+        ';; tarAjiydiyA_1',
+        'trAjydyA        tarAjiydiyA     N0      tragedy'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9283,9 +9357,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Charlton'
+        'tragedy'
       ],
-      'orig' => 't$Arlotuwn',
+      'orig' => 'tarAjiydiyA',
       'prefix' => ''
     }
   ],
@@ -9435,14 +9509,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tuwziyA' => [
+  'tra^gIdiyA' => [
     {
       'types' => {},
-      'entry' => 'tuwziyA',
-      'form' => 'tuwziyA',
+      'entry' => 'tra^giydiyA',
+      'form' => 'tra^giydiyA',
       'lines' => [
-        ';; tuwziyA_1',
-        'twzyA   tuwziyA Nprop   Tauziat'
+        ';; trajiydiyA_1',
+        'trjydyA trajiydiyA      N0      tragedy'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9450,9 +9524,55 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Tauziat'
+        'tragedy'
       ],
-      'orig' => 'tuwziyA',
+      'orig' => 'trajiydiyA',
+      'prefix' => ''
+    }
+  ],
+  'trIliyUn' => [
+    {
+      'types' => {
+        'triyliyuwn' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'triyliyuwn',
+      'form' => 'triyliyuwn',
+      'lines' => [
+        ';; triyliyuwn_1',
+        'trylywn triyliyuwn      NduAt   trillion'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'trillion'
+      ],
+      'orig' => 'triyliyuwn',
+      'prefix' => ''
+    }
+  ],
+  'tsUhAtsUbUlUs' => [
+    {
+      'types' => {},
+      'entry' => 'tsuwhAtsuwbuwluws',
+      'form' => 'tsuwhAtsuwbuwluws',
+      'lines' => [
+        ';; tsuwhAtsuwbuwluws_1',
+        'tswhAtswbwlws   tsuwhAtsuwbuwluws       Nprop   Tsohatzopoulos'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tsohatzopoulos'
+      ],
+      'orig' => 'tsuwhAtsuwbuwluws',
       'prefix' => ''
     }
   ],
@@ -9573,14 +9693,67 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tiknuwluw^g' => [
+  't^sIlir' => [
     {
       'types' => {},
-      'entry' => 'tiknuwluw^g',
-      'form' => 'tiknuwluw^giyy',
+      'entry' => 't^siylir',
+      'form' => 't^siylir',
       'lines' => [
-        ';; tikonuwluwjiy~_1',
-        'tknwlwjy        tikonuwluwjiy~  Nall    technological     [[tikonuwluwjiy~/ADJ]]'
+        ';; t$iylir_1',
+        't$ylr   t$iylir Nprop   Ciller'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Ciller'
+      ],
+      'orig' => 't$iylir',
+      'prefix' => ''
+    }
+  ],
+  'tilfizyUn' => [
+    {
+      'types' => {
+        'tilfizyuwn' => {
+          'NAt' => 1
+        },
+        'tiliyfizyuwn' => {
+          'N/At' => 1
+        }
+      },
+      'entry' => 'tilfizyuwn',
+      'form' => 'tilfizyuwn',
+      'lines' => [
+        ';; tilfizyuwn_1',
+        'tlfzywn tilfizyuwn      N/At    television',
+        'tlyfzywn        tiliyfizyuwn    N/At    television'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'television'
+      ],
+      'orig' => 'tilfizyuwn',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'tiliyfizyuwniyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'tilfizyuwn',
+      'form' => 'tilfizyuwniyy',
+      'lines' => [
+        ';; tilfizyuwniy~_1',
+        'tlfzywny        tilfizyuwniy~   Nall    television     [[tilfizyuwniy~/ADJ]]',
+        'tlyfzywny       tiliyfizyuwniy~ Nall    television     [[tiliyfizyuwniy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9588,9 +9761,9 @@ $Lexicon = {
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'technological'
+        'television'
       ],
-      'orig' => 'tikonuwluwjiy~',
+      'orig' => 'tilfizyuwniy~',
       'prefix' => ''
     }
   ],
@@ -9615,27 +9788,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tAlAhAsiy' => [
-    {
-      'types' => {},
-      'entry' => 'tAlAhAsiy',
-      'form' => 'tAlAhAsiy',
-      'lines' => [
-        ';; tAlAhAsiy_1',
-        'tAlAhAsy        tAlAhAsiy       N0      Tallahassee'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tallahassee'
-      ],
-      'orig' => 'tAlAhAsiy',
-      'prefix' => ''
-    }
-  ],
   't r m _d' => [
     {
       'types' => {},
@@ -9654,6 +9806,27 @@ $Lexicon = {
         'Tirmidhi'
       ],
       'orig' => 'tiromi*iy~',
+      'prefix' => ''
+    }
+  ],
+  'trUsyIh' => [
+    {
+      'types' => {},
+      'entry' => 'truwsyiyh',
+      'form' => 'truwsyiyh',
+      'lines' => [
+        ';; truwsoyiyh_1',
+        'trwsyyh truwsoyiyh      Nprop   Troussier'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Troussier'
+      ],
+      'orig' => 'truwsoyiyh',
       'prefix' => ''
     }
   ],
@@ -9826,70 +9999,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tAkiynArdiy' => [
-    {
-      'types' => {},
-      'entry' => 'tAkiynArdiy',
-      'form' => 'tAkiynArdiy',
-      'lines' => [
-        ';; tAkiynArodiy_1',
-        'tAkynArdy       tAkiynArodiy    Nprop   Tacchinardi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tacchinardi'
-      ],
-      'orig' => 'tAkiynArodiy',
-      'prefix' => ''
-    }
-  ],
-  'tAyluwr' => [
-    {
-      'types' => {},
-      'entry' => 'tAyluwr',
-      'form' => 'tAyluwr',
-      'lines' => [
-        ';; tAyoluwr_1',
-        'tAylwr  tAyoluwr        Nprop   Taylor'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Taylor'
-      ],
-      'orig' => 'tAyoluwr',
-      'prefix' => ''
-    }
-  ],
-  't^siyk' => [
-    {
-      'types' => {},
-      'entry' => 't^siyk',
-      'form' => 't^siykiyy',
-      'lines' => [
-        ';; t$iykiy~_1',
-        't$yky   t$iykiy~        Nall    Czech     [[t$iykiy~/NOUN]]',
-        't$yky   t$iykiy~        Nall    Czech     [[t$iykiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Czech'
-      ],
-      'orig' => 't$iykiy~',
-      'prefix' => ''
-    }
-  ],
   'tanak^g' => [
     {
       'types' => {},
@@ -9989,6 +10098,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tuwAlIt' => [
+    {
+      'types' => {},
+      'entry' => 'tuwAliyt',
+      'form' => 'tuwAliyt',
+      'lines' => [
+        ';; tuwAliyt_1',
+        'twAlyt  tuwAliyt        N       toilette'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'toilette'
+      ],
+      'orig' => 'tuwAliyt',
+      'prefix' => ''
+    }
+  ],
   't n r' => [
     {
       'types' => {
@@ -10069,31 +10199,6 @@ $Lexicon = {
         'cases'
       ],
       'orig' => 'tAbuwt',
-      'prefix' => ''
-    }
-  ],
-  'tarAnsfuwrm' => [
-    {
-      'types' => {
-        'tarAnsfuwrm' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'tarAnsfuwrm',
-      'form' => 'tarAnsfuwrm',
-      'lines' => [
-        ';; tarAnosfuwrom_1',
-        'trAnsfwrm       tarAnosfuwrom   N/At    transformer'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'transformer'
-      ],
-      'orig' => 'tarAnosfuwrom',
       'prefix' => ''
     }
   ],
@@ -10216,14 +10321,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  't^siylir' => [
+  'tUbU.grAfiyA' => [
     {
-      'types' => {},
-      'entry' => 't^siylir',
-      'form' => 't^siylir',
+      'types' => {
+        'tuwbuw^grAfiyA' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'tuwbuw.grAfiyA',
+      'form' => 'tuwbuw.grAfiyA',
       'lines' => [
-        ';; t$iylir_1',
-        't$ylr   t$iylir Nprop   Ciller'
+        ';; tuwbuwgrAfiyA_1',
+        'twbwgrAfyA      tuwbuwgrAfiyA   N0      topography',
+        'twbwjrAfyA      tuwbuwjrAfiyA   N0      topography'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10231,31 +10341,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Ciller'
+        'topography'
       ],
-      'orig' => 't$iylir',
-      'prefix' => ''
-    }
-  ],
-  'tra^giyd' => [
-    {
-      'types' => {},
-      'entry' => 'tra^giyd',
-      'form' => 'tra^giydiyy',
-      'lines' => [
-        ';; trajiydiy~_1',
-        'trjydy  trajiydiy~      Nall    tragedy;tragic     [[trajiydiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'tragedy',
-        'tragic'
-      ],
-      'orig' => 'trajiydiy~',
+      'orig' => 'tuwbuwgrAfiyA',
       'prefix' => ''
     }
   ],
@@ -10360,32 +10448,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tuwbuw.grAf' => [
-    {
-      'types' => {
-        'tuwbuw^grAfiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'tuwbuw.grAf',
-      'form' => 'tuwbuw.grAfiyy',
-      'lines' => [
-        ';; tuwbuwgrAfiy~_1',
-        'twbwgrAfy       tuwbuwgrAfiy~   Nall    topographic     [[tuwbuwgrAfiy~/ADJ]]',
-        'twbwjrAfy       tuwbuwjrAfiy~   Nall    topographic     [[tuwbuwjrAfiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'topographic'
-      ],
-      'orig' => 'tuwbuwgrAfiy~',
-      'prefix' => ''
-    }
-  ],
   't y r' => [
     {
       'types' => {
@@ -10419,14 +10481,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tiybAzah' => [
+  'tAylUr' => [
     {
       'types' => {},
-      'entry' => 'tiybAzah',
-      'form' => 'tiybAzah',
+      'entry' => 'tAyluwr',
+      'form' => 'tAyluwr',
       'lines' => [
-        ';; tiybAzah_1',
-        'tybAzh  tiybAzah        Nprop   Tipasa'
+        ';; tAyoluwr_1',
+        'tAylwr  tAyoluwr        Nprop   Taylor'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10434,20 +10496,25 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Tipasa'
+        'Taylor'
       ],
-      'orig' => 'tiybAzah',
+      'orig' => 'tAyoluwr',
       'prefix' => ''
     }
   ],
-  'tiyhuwmiyr' => [
+  'tUrUntU' => [
     {
-      'types' => {},
-      'entry' => 'tiyhuwmiyr',
-      'form' => 'tiyhuwmiyr',
+      'types' => {
+        'tuwriys' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'tuwruwntuw',
+      'form' => 'tuwruwntuw',
       'lines' => [
-        ';; tiyhuwmiyr_1',
-        'tyhwmyr tiyhuwmiyr      Nprop   Tihomir'
+        ';; tuwruwnotuw_1',
+        'twrwntw tuwruwnotuw     N0      Toronto',
+        'twrys   tuwriys Nprop   Torres'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10455,9 +10522,37 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Tihomir'
+        'Toronto',
+        'Torres'
       ],
-      'orig' => 'tiyhuwmiyr',
+      'orig' => 'tuwruwnotuw',
+      'prefix' => ''
+    }
+  ],
+  'tiyAtrU' => [
+    {
+      'types' => {
+        'tiyAtruwh' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'tiyAtruw',
+      'form' => 'tiyAtruw',
+      'lines' => [
+        ';; tiyAtruw_1',
+        'tyAtrw  tiyAtruw        N0      theater',
+        'tyAtrwh tiyAtruwh       NAt     theaters'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'theater',
+        'theaters'
+      ],
+      'orig' => 'tiyAtruw',
       'prefix' => ''
     }
   ],
@@ -10797,27 +10892,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tuwskA' => [
-    {
-      'types' => {},
-      'entry' => 'tuwskA',
-      'form' => 'tuwskA',
-      'lines' => [
-        ';; tuwsokA_1',
-        'twskA   tuwsokA Nprop   Tosca'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tosca'
-      ],
-      'orig' => 'tuwsokA',
-      'prefix' => ''
-    }
-  ],
   't r .g l' => [
     {
       'types' => {
@@ -10857,6 +10931,27 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'tA}ih',
+      'prefix' => ''
+    }
+  ],
+  't^sIlUbA' => [
+    {
+      'types' => {},
+      'entry' => 't^siyluwbA',
+      'form' => 't^siyluwbA',
+      'lines' => [
+        ';; t$iyluwbA_1',
+        't$ylwbA t$iyluwbA       Nprop   Chiluba'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Chiluba'
+      ],
+      'orig' => 't$iyluwbA',
       'prefix' => ''
     }
   ],
@@ -10975,6 +11070,74 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tiknUqrA.t' => [
+    {
+      'types' => {},
+      'entry' => 'tiknuwqrA.t',
+      'form' => 'tiknuwqrA.t',
+      'lines' => [
+        ';; tikonuwqrAT_1',
+        'tknwqrAT        tikonuwqrAT     N       technocrat'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'technocrat'
+      ],
+      'orig' => 'tikonuwqrAT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tiknuwqrA.t',
+      'form' => 'tiknuwqrA.tiyy',
+      'lines' => [
+        ';; tikonuwqrATiy~_1',
+        'tknwqrATy       tikonuwqrATiy~  Nall    technocrat     [[tikonuwqrATiy~/ADJ]]',
+        'tknwqrATy       tikonuwqrATiy~  N-ap    technocratic     [[tikonuwqrATiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'technocrat',
+        'technocratic'
+      ],
+      'orig' => 'tikonuwqrATiy~',
+      'prefix' => ''
+    }
+  ],
+  'tilifrIk' => [
+    {
+      'types' => {
+        'tiliyfriyk' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'tilifriyk',
+      'form' => 'tilifriyk',
+      'lines' => [
+        ';; tilifriyk_1',
+        'tlfryk  tilifriyk       N       cableway',
+        'tlyfryk tiliyfriyk      N       cableway'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'cableway'
+      ],
+      'orig' => 'tilifriyk',
+      'prefix' => ''
+    }
+  ],
   't w w' => [
     {
       'types' => {},
@@ -11054,81 +11217,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tuwrA' => [
-    {
-      'types' => {},
-      'entry' => 'tuwrA',
-      'form' => 'tuwrA',
-      'lines' => [
-        ';; tuwrA_1',
-        'twrA    tuwrA   Nprop   Tora'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tora'
-      ],
-      'orig' => 'tuwrA',
-      'prefix' => ''
-    }
-  ],
-  'tAnsuw' => [
-    {
-      'types' => {},
-      'entry' => 'tAnsuw',
-      'form' => 'tAnsuw',
-      'lines' => [
-        ';; tAnosuw_1',
-        'tAnsw   tAnosuw Nprop   Tansu'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tansu'
-      ],
-      'orig' => 'tAnosuw',
-      'prefix' => ''
-    }
-  ],
-  'tAdiyrAn' => [
-    {
-      'types' => {},
-      'entry' => 'tAdiyrAn',
-      'form' => 'tAdiyrAn',
-      'lines' => [
-        ';; tAdiyrAn_1',
-        'tAdyrAn tAdiyrAn        N0      Tadiran'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tadiran'
-      ],
-      'orig' => 'tAdiyrAn',
-      'prefix' => ''
-    }
-  ],
-  'tuwrbiyd' => [
+  'tarAnsfUrm' => [
     {
       'types' => {
-        'tuwrbiyd' => {
-          'NduAt' => 1
+        'tarAnsfuwrm' => {
+          'NAt' => 1
         }
       },
-      'entry' => 'tuwrbiyd',
-      'form' => 'tuwrbiyd',
+      'entry' => 'tarAnsfuwrm',
+      'form' => 'tarAnsfuwrm',
       'lines' => [
-        ';; tuwrobiyd_1',
-        'twrbyd  tuwrobiyd       NduAt   torpedo'
+        ';; tarAnosfuwrom_1',
+        'trAnsfwrm       tarAnosfuwrom   N/At    transformer'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11136,9 +11236,51 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'torpedo'
+        'transformer'
       ],
-      'orig' => 'tuwrobiyd',
+      'orig' => 'tarAnosfuwrom',
+      'prefix' => ''
+    }
+  ],
+  'tIlstrUm' => [
+    {
+      'types' => {},
+      'entry' => 'tiylstruwm',
+      'form' => 'tiylstruwm',
+      'lines' => [
+        ';; tiylostruwm_1',
+        'tylstrwm        tiylostruwm     Nprop   Tillstrom'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tillstrom'
+      ],
+      'orig' => 'tiylostruwm',
+      'prefix' => ''
+    }
+  ],
+  'tAykwAndU' => [
+    {
+      'types' => {},
+      'entry' => 'tAykwAnduw',
+      'form' => 'tAykwAnduw',
+      'lines' => [
+        ';; tAyokwAnoduw_1',
+        'tAykwAndw       tAyokwAnoduw    N0      Taekwondo'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Taekwondo'
+      ],
+      'orig' => 'tAyokwAnoduw',
       'prefix' => ''
     }
   ],
@@ -11193,27 +11335,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  't^siykuwsluwfAkiyA' => [
-    {
-      'types' => {},
-      'entry' => 't^siykuwsluwfAkiyA',
-      'form' => 't^siykuwsluwfAkiyA',
-      'lines' => [
-        ';; t$iykuwsoluwfAkiyA_1',
-        't$ykwslwfAkyA   t$iykuwsoluwfAkiyA      N0      Czechoslovakia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Czechoslovakia'
-      ],
-      'orig' => 't$iykuwsoluwfAkiyA',
-      'prefix' => ''
-    }
-  ],
   't f d' => [
     {
       'types' => {},
@@ -11233,6 +11354,32 @@ $Lexicon = {
         'Tafida'
       ],
       'orig' => 'tafiydap',
+      'prefix' => ''
+    }
+  ],
+  'tInInbawm' => [
+    {
+      'types' => {
+        'tiniynbawm' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'tiyniynbawm',
+      'form' => 'tiyniynbawm',
+      'lines' => [
+        ';; tiyniynobawom_1',
+        'tynynbwm        tiyniynobawom   Nprop   Tannenbaum',
+        'tnynbwm tiniynobawom    Nprop   Tannenbaum'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tannenbaum'
+      ],
+      'orig' => 'tiyniynobawom',
       'prefix' => ''
     }
   ],
@@ -11552,6 +11699,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tUrA' => [
+    {
+      'types' => {},
+      'entry' => 'tuwrA',
+      'form' => 'tuwrA',
+      'lines' => [
+        ';; tuwrA_1',
+        'twrA    tuwrA   Nprop   Tora'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tora'
+      ],
+      'orig' => 'tuwrA',
+      'prefix' => ''
+    }
+  ],
   'tis`mA\'' => [
     {
       'types' => {},
@@ -11573,22 +11741,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tilifuwn' => [
+  't^silsI' => [
     {
-      'types' => {
-        'tiliyfuwn' => {
-          'N/At' => 1
-        },
-        'tilifuwn' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'tilifuwn',
-      'form' => 'tilifuwn',
+      'types' => {},
+      'entry' => 't^silsiy',
+      'form' => 't^silsiy',
       'lines' => [
-        ';; tilifuwn_1',
-        'tlfwn   tilifuwn        N/At    telephone',
-        'tlyfwn  tiliyfuwn       N/At    telephone'
+        ';; t$ilosiy_1',
+        't$lsy   t$ilosiy        Nprop   Chelsea'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11596,33 +11756,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'telephone'
+        'Chelsea'
       ],
-      'orig' => 'tilifuwn',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'tiliyfuwniyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'tilifuwn',
-      'form' => 'tilifuwniyy',
-      'lines' => [
-        ';; tilifuwniy~_1',
-        'tlfwny  tilifuwniy~     Nall    telephonic     [[tilifuwniy~/ADJ]]',
-        'tlyfwny tiliyfuwniy~    Nall    telephonic     [[tiliyfuwniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'telephonic'
-      ],
-      'orig' => 'tilifuwniy~',
+      'orig' => 't$ilosiy',
       'prefix' => ''
     }
   ],
@@ -11728,14 +11864,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tuwmyAnuwfiyt^s' => [
+  'tAkInArdI' => [
     {
       'types' => {},
-      'entry' => 'tuwmyAnuwfiyt^s',
-      'form' => 'tuwmyAnuwfiyt^s',
+      'entry' => 'tAkiynArdiy',
+      'form' => 'tAkiynArdiy',
       'lines' => [
-        ';; tuwmoyAnuwfiyt$_1',
-        'twmyAnwfyt$     tuwmoyAnuwfiyt$ Nprop   Tomjanovich'
+        ';; tAkiynArodiy_1',
+        'tAkynArdy       tAkiynArodiy    Nprop   Tacchinardi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11743,9 +11879,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Tomjanovich'
+        'Tacchinardi'
       ],
-      'orig' => 'tuwmoyAnuwfiyt$',
+      'orig' => 'tAkiynArodiy',
       'prefix' => ''
     }
   ],
@@ -11847,48 +11983,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tarbantiyn' => [
-    {
-      'types' => {},
-      'entry' => 'tarbantiyn',
-      'form' => 'tarbantiyn',
-      'lines' => [
-        ';; tarobanotiyn_1',
-        'trbntyn tarobanotiyn    N       turpentine'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'turpentine'
-      ],
-      'orig' => 'tarobanotiyn',
-      'prefix' => ''
-    }
-  ],
-  'truwykA' => [
-    {
-      'types' => {},
-      'entry' => 'truwykA',
-      'form' => 'truwykA',
-      'lines' => [
-        ';; truwyokA_1',
-        'trwykA  truwyokA        N0      Troika'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Troika'
-      ],
-      'orig' => 'truwyokA',
-      'prefix' => ''
-    }
-  ],
   't \' r' => [
     {
       'types' => {
@@ -11952,54 +12046,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tAkiyn' => [
-    {
-      'types' => {},
-      'entry' => 'tAkiyn',
-      'form' => 'tAkiyn',
-      'lines' => [
-        ';; tAkiyn_1',
-        'tAkyn   tAkiyn  Nprop   Takin ??'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Takin ??'
-      ],
-      'orig' => 'tAkiyn',
-      'prefix' => ''
-    }
-  ],
-  'tuwruwntuw' => [
-    {
-      'types' => {
-        'tuwriys' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'tuwruwntuw',
-      'form' => 'tuwruwntuw',
-      'lines' => [
-        ';; tuwruwnotuw_1',
-        'twrwntw tuwruwnotuw     N0      Toronto',
-        'twrys   tuwriys Nprop   Torres'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Toronto',
-        'Torres'
-      ],
-      'orig' => 'tuwruwnotuw',
-      'prefix' => ''
-    }
-  ],
   'turkumAn' => [
     {
       'types' => {},
@@ -12019,36 +12065,6 @@ $Lexicon = {
         'Turkmen'
       ],
       'orig' => 'turokumAn',
-      'prefix' => ''
-    }
-  ],
-  'tAbluwh' => [
-    {
-      'types' => {
-        'tAbluwh' => {
-          'NAt' => 1
-        },
-        'tabluwh' => {
-          'N/At' => 1
-        }
-      },
-      'entry' => 'tAbluwh',
-      'form' => 'tAbluwh',
-      'lines' => [
-        ';; tAboluwh_1',
-        'tAblwh  tAboluwh        N/At    tableau;scene',
-        'tblwh   taboluwh        N/At    tableau;scene'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'tableau',
-        'scene'
-      ],
-      'orig' => 'tAboluwh',
       'prefix' => ''
     }
   ],
@@ -12093,6 +12109,31 @@ $Lexicon = {
         'telephone'
       ],
       'orig' => 'talofan',
+      'prefix' => ''
+    }
+  ],
+  'tirsU' => [
+    {
+      'types' => {
+        'tirsw' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'tirsuw',
+      'form' => 'tirsuw',
+      'lines' => [
+        ';; tirsuw_1',
+        'trsw    tirsw   N       third class'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'third class'
+      ],
+      'orig' => 'tirsuw',
       'prefix' => ''
     }
   ],
@@ -12333,33 +12374,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tiyAtruw' => [
-    {
-      'types' => {
-        'tiyAtruwh' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'tiyAtruw',
-      'form' => 'tiyAtruw',
-      'lines' => [
-        ';; tiyAtruw_1',
-        'tyAtrw  tiyAtruw        N0      theater',
-        'tyAtrwh tiyAtruwh       NAt     theaters'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'theater',
-        'theaters'
-      ],
-      'orig' => 'tiyAtruw',
-      'prefix' => ''
-    }
-  ],
   'tili.grAf' => [
     {
       'types' => {
@@ -12437,6 +12451,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tUrbId' => [
+    {
+      'types' => {
+        'tuwrbiyd' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'tuwrbiyd',
+      'form' => 'tuwrbiyd',
+      'lines' => [
+        ';; tuwrobiyd_1',
+        'twrbyd  tuwrobiyd       NduAt   torpedo'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'torpedo'
+      ],
+      'orig' => 'tuwrobiyd',
+      'prefix' => ''
+    }
+  ],
   'ta_htarawAn' => [
     {
       'types' => {
@@ -12503,6 +12542,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tUbiks' => [
+    {
+      'types' => {
+        'tuwbiyks' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'tuwbiks',
+      'form' => 'tuwbiks',
+      'lines' => [
+        ';; tuwbiks_1',
+        'twbks   tuwbiks N0      Topix',
+        'twbyks  tuwbiyks        N0      Topix'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Topix'
+      ],
+      'orig' => 'tuwbiks',
+      'prefix' => ''
+    }
+  ],
   't r s n' => [
     {
       'types' => {
@@ -12551,27 +12616,6 @@ $Lexicon = {
         'Tirsana'
       ],
       'orig' => 'tirosAnap',
-      'prefix' => ''
-    }
-  ],
-  'tiyr.g' => [
-    {
-      'types' => {},
-      'entry' => 'tiyr.g',
-      'form' => 'tiyr.gAt',
-      'lines' => [
-        ';; tiyrogAt_1',
-        'tyrgAt  tiyrogAt        N0      Tergat'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'Tergat'
-      ],
-      'orig' => 'tiyrogAt',
       'prefix' => ''
     }
   ],
@@ -12798,6 +12842,33 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tallIs' => [
+    {
+      'types' => {
+        'talAliys' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'talliys',
+      'form' => 'talliys',
+      'lines' => [
+        ';; tal~iys_1',
+        'tlys    tal~iys Ndu     sack',
+        'tlAlys  talAliys        Ndip    sacks'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'sack',
+        'sacks'
+      ],
+      'orig' => 'tal~iys',
+      'prefix' => ''
+    }
+  ],
   't l m' => [
     {
       'types' => {
@@ -12855,27 +12926,6 @@ $Lexicon = {
         'furrows'
       ],
       'orig' => 'talam',
-      'prefix' => ''
-    }
-  ],
-  'tarA^giydiyA' => [
-    {
-      'types' => {},
-      'entry' => 'tarA^giydiyA',
-      'form' => 'tarA^giydiyA',
-      'lines' => [
-        ';; tarAjiydiyA_1',
-        'trAjydyA        tarAjiydiyA     N0      tragedy'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'tragedy'
-      ],
-      'orig' => 'tarAjiydiyA',
       'prefix' => ''
     }
   ],
@@ -12972,6 +13022,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'timbarwUlfz' => [
+    {
+      'types' => {},
+      'entry' => 'timbarwuwlfz',
+      'form' => 'timbarwuwlfz',
+      'lines' => [
+        ';; timobarwuwlfz_1',
+        'tmbrwwlfz       timobarwuwlfz   N0      Timberwolves'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Timberwolves'
+      ],
+      'orig' => 'timobarwuwlfz',
+      'prefix' => ''
+    }
+  ],
   't m z' => [
     {
       'types' => {},
@@ -12993,6 +13064,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tUlstUy' => [
+    {
+      'types' => {},
+      'entry' => 'tuwlstuwy',
+      'form' => 'tuwlstuwy',
+      'lines' => [
+        ';; tuwlostuwy_1',
+        'twlstwy tuwlostuwy      N0      Tolstoy;Tolstoi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tolstoy',
+        'Tolstoi'
+      ],
+      'orig' => 'tuwlostuwy',
+      'prefix' => ''
+    }
+  ],
   't y n' => [
     {
       'types' => {},
@@ -13011,27 +13104,6 @@ $Lexicon = {
         'fig'
       ],
       'orig' => 'tiyn',
-      'prefix' => ''
-    }
-  ],
-  'tuhAmiy' => [
-    {
-      'types' => {},
-      'entry' => 'tuhAmiy',
-      'form' => 'tuhAmiy',
-      'lines' => [
-        ';; tuhAmiy_1',
-        'thAmy   tuhAmiy Nprop   Tuhami'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tuhami'
-      ],
-      'orig' => 'tuhAmiy',
       'prefix' => ''
     }
   ],
@@ -13125,6 +13197,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tIbAzah' => [
+    {
+      'types' => {},
+      'entry' => 'tiybAzah',
+      'form' => 'tiybAzah',
+      'lines' => [
+        ';; tiybAzah_1',
+        'tybAzh  tiybAzah        Nprop   Tipasa'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tipasa'
+      ],
+      'orig' => 'tiybAzah',
+      'prefix' => ''
+    }
+  ],
   't r f l' => [
     {
       'types' => {
@@ -13152,6 +13245,59 @@ $Lexicon = {
         'strut'
       ],
       'orig' => 'tarofal',
+      'prefix' => ''
+    }
+  ],
+  'tilifUn' => [
+    {
+      'types' => {
+        'tiliyfuwn' => {
+          'N/At' => 1
+        },
+        'tilifuwn' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'tilifuwn',
+      'form' => 'tilifuwn',
+      'lines' => [
+        ';; tilifuwn_1',
+        'tlfwn   tilifuwn        N/At    telephone',
+        'tlyfwn  tiliyfuwn       N/At    telephone'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'telephone'
+      ],
+      'orig' => 'tilifuwn',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'tiliyfuwniyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'tilifuwn',
+      'form' => 'tilifuwniyy',
+      'lines' => [
+        ';; tilifuwniy~_1',
+        'tlfwny  tilifuwniy~     Nall    telephonic     [[tilifuwniy~/ADJ]]',
+        'tlyfwny tiliyfuwniy~    Nall    telephonic     [[tiliyfuwniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'telephonic'
+      ],
+      'orig' => 'tilifuwniy~',
       'prefix' => ''
     }
   ],
@@ -13275,6 +13421,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'tUskA' => [
+    {
+      'types' => {},
+      'entry' => 'tuwskA',
+      'form' => 'tuwskA',
+      'lines' => [
+        ';; tuwsokA_1',
+        'twskA   tuwsokA Nprop   Tosca'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tosca'
+      ],
+      'orig' => 'tuwsokA',
+      'prefix' => ''
+    }
+  ],
   't h t h' => [
     {
       'types' => {
@@ -13303,27 +13470,6 @@ $Lexicon = {
         'stutter'
       ],
       'orig' => 'tahotah',
-      'prefix' => ''
-    }
-  ],
-  'tra^giydiyA' => [
-    {
-      'types' => {},
-      'entry' => 'tra^giydiyA',
-      'form' => 'tra^giydiyA',
-      'lines' => [
-        ';; trajiydiyA_1',
-        'trjydyA trajiydiyA      N0      tragedy'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'tragedy'
-      ],
-      'orig' => 'trajiydiyA',
       'prefix' => ''
     }
   ],
@@ -13395,27 +13541,6 @@ $Lexicon = {
         'fir'
       ],
       'orig' => 'tan~uwb',
-      'prefix' => ''
-    }
-  ],
-  'tuwiyst' => [
-    {
-      'types' => {},
-      'entry' => 'tuwiyst',
-      'form' => 'tuwiyst',
-      'lines' => [
-        ';; tuwiysot_1',
-        'twyst   tuwiysot        N0      twist'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'twist'
-      ],
-      'orig' => 'tuwiysot',
       'prefix' => ''
     }
   ],
@@ -13847,14 +13972,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tsuwhAtsuwbuwluws' => [
+  'tIhUmIr' => [
     {
       'types' => {},
-      'entry' => 'tsuwhAtsuwbuwluws',
-      'form' => 'tsuwhAtsuwbuwluws',
+      'entry' => 'tiyhuwmiyr',
+      'form' => 'tiyhuwmiyr',
       'lines' => [
-        ';; tsuwhAtsuwbuwluws_1',
-        'tswhAtswbwlws   tsuwhAtsuwbuwluws       Nprop   Tsohatzopoulos'
+        ';; tiyhuwmiyr_1',
+        'tyhwmyr tiyhuwmiyr      Nprop   Tihomir'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13862,9 +13987,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Tsohatzopoulos'
+        'Tihomir'
       ],
-      'orig' => 'tsuwhAtsuwbuwluws',
+      'orig' => 'tiyhuwmiyr',
+      'prefix' => ''
+    }
+  ],
+  't^sIkUslUfAkiyA' => [
+    {
+      'types' => {},
+      'entry' => 't^siykuwsluwfAkiyA',
+      'form' => 't^siykuwsluwfAkiyA',
+      'lines' => [
+        ';; t$iykuwsoluwfAkiyA_1',
+        't$ykwslwfAkyA   t$iykuwsoluwfAkiyA      N0      Czechoslovakia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Czechoslovakia'
+      ],
+      'orig' => 't$iykuwsoluwfAkiyA',
       'prefix' => ''
     }
   ],
@@ -14080,14 +14226,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tAniylA' => [
+  'trIzI.gIh' => [
     {
       'types' => {},
-      'entry' => 'tAniylA',
-      'form' => 'tAniylA',
+      'entry' => 'triyziy.giyh',
+      'form' => 'triyziy.giyh',
       'lines' => [
-        ';; tAniylA_1',
-        'tAnylA  tAniylA Nprop   Tanella'
+        ';; triyziygiyh_1',
+        'tryzygyh        triyziygiyh     Nprop   Trezeguet'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14095,9 +14241,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Tanella'
+        'Trezeguet'
       ],
-      'orig' => 'tAniylA',
+      'orig' => 'triyziygiyh',
       'prefix' => ''
     }
   ],
@@ -14120,74 +14266,6 @@ $Lexicon = {
         'Tanzanian'
       ],
       'orig' => 'tanzAniy~',
-      'prefix' => ''
-    }
-  ],
-  'tuwAliyt' => [
-    {
-      'types' => {},
-      'entry' => 'tuwAliyt',
-      'form' => 'tuwAliyt',
-      'lines' => [
-        ';; tuwAliyt_1',
-        'twAlyt  tuwAliyt        N       toilette'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'toilette'
-      ],
-      'orig' => 'tuwAliyt',
-      'prefix' => ''
-    }
-  ],
-  'tuwbA.guw' => [
-    {
-      'types' => {
-        'tuwbA^guw' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'tuwbA.guw',
-      'form' => 'tuwbA.guw',
-      'lines' => [
-        ';; tuwbAguw_1',
-        'twbAgw  tuwbAguw        Nprop   Tobago',
-        'twbAjw  tuwbAjuw        Nprop   Tobago'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tobago'
-      ],
-      'orig' => 'tuwbAguw',
-      'prefix' => ''
-    }
-  ],
-  'tiknuwluw^giyA' => [
-    {
-      'types' => {},
-      'entry' => 'tiknuwluw^giyA',
-      'form' => 'tiknuwluw^giyA',
-      'lines' => [
-        ';; tikonuwluwjiyA_1',
-        'tknwlwjyA       tikonuwluwjiyA  N0      technology'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'technology'
-      ],
-      'orig' => 'tikonuwluwjiyA',
       'prefix' => ''
     }
   ],
@@ -14335,40 +14413,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tuwbiks' => [
-    {
-      'types' => {
-        'tuwbiyks' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'tuwbiks',
-      'form' => 'tuwbiks',
-      'lines' => [
-        ';; tuwbiks_1',
-        'twbks   tuwbiks N0      Topix',
-        'twbyks  tuwbiyks        N0      Topix'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Topix'
-      ],
-      'orig' => 'tuwbiks',
-      'prefix' => ''
-    }
-  ],
-  't^silsiy' => [
+  'tUmyAnUfIt^s' => [
     {
       'types' => {},
-      'entry' => 't^silsiy',
-      'form' => 't^silsiy',
+      'entry' => 'tuwmyAnuwfiyt^s',
+      'form' => 'tuwmyAnuwfiyt^s',
       'lines' => [
-        ';; t$ilosiy_1',
-        't$lsy   t$ilosiy        Nprop   Chelsea'
+        ';; tuwmoyAnuwfiyt$_1',
+        'twmyAnwfyt$     tuwmoyAnuwfiyt$ Nprop   Tomjanovich'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14376,30 +14428,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Chelsea'
+        'Tomjanovich'
       ],
-      'orig' => 't$ilosiy',
-      'prefix' => ''
-    }
-  ],
-  'tAlbuwt' => [
-    {
-      'types' => {},
-      'entry' => 'tAlbuwt',
-      'form' => 'tAlbuwt',
-      'lines' => [
-        ';; tAlobuwt_1',
-        'tAlbwt  tAlobuwt        Nprop   Talbot'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Talbot'
-      ],
-      'orig' => 'tAlobuwt',
+      'orig' => 'tuwmoyAnuwfiyt$',
       'prefix' => ''
     }
   ],
@@ -14854,14 +14885,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tiyniysiy' => [
+  'tUmAsI' => [
     {
       'types' => {},
-      'entry' => 'tiyniysiy',
-      'form' => 'tiyniysiy',
+      'entry' => 'tuwmAsiy',
+      'form' => 'tuwmAsiy',
       'lines' => [
-        ';; tiyniysiy_1',
-        'tynysy  tiyniysiy       N0      Tennessee'
+        ';; tuwmAsiy_1',
+        'twmAsy  tuwmAsiy        Nprop   Tomassi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14869,9 +14900,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Tennessee'
+        'Tomassi'
       ],
-      'orig' => 'tiyniysiy',
+      'orig' => 'tuwmAsiy',
+      'prefix' => ''
+    }
+  ],
+  'tIrAnA' => [
+    {
+      'types' => {},
+      'entry' => 'tiyrAnA',
+      'form' => 'tiyrAnA',
+      'lines' => [
+        ';; tiyrAnA_1',
+        'tyrAnA  tiyrAnA Nprop   Tirana'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Tirana'
+      ],
+      'orig' => 'tiyrAnA',
       'prefix' => ''
     }
   ],
@@ -14969,27 +15021,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  't^siyluwbA' => [
-    {
-      'types' => {},
-      'entry' => 't^siyluwbA',
-      'form' => 't^siyluwbA',
-      'lines' => [
-        ';; t$iyluwbA_1',
-        't$ylwbA t$iyluwbA       Nprop   Chiluba'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Chiluba'
-      ],
-      'orig' => 't$iyluwbA',
-      'prefix' => ''
-    }
-  ],
   't y m \'' => [
     {
       'types' => {},
@@ -15025,6 +15056,9 @@ $Lexicon->{'t m \''}[1]{'glosses'} = $Lexicon->{'t m \''}[0]{'glosses'};
 $Lexicon->{'t w q'}[4]{'types'} = $Lexicon->{'t \' q'}[1]{'types'};
 $Lexicon->{'t w q'}[4]{'lines'} = $Lexicon->{'t \' q'}[1]{'lines'};
 $Lexicon->{'t w q'}[4]{'glosses'} = $Lexicon->{'t \' q'}[1]{'glosses'};
+$Lexicon->{'t w ^g w'}[0]{'types'} = $Lexicon->{'t w ^g y'}[0]{'types'};
+$Lexicon->{'t w ^g w'}[0]{'lines'} = $Lexicon->{'t w ^g y'}[0]{'lines'};
+$Lexicon->{'t w ^g w'}[0]{'glosses'} = $Lexicon->{'t w ^g y'}[0]{'glosses'};
 $Lexicon->{'t .t w n'}[0]{'types'} = $Lexicon->{'t .t w'}[0]{'types'};
 $Lexicon->{'t .t w n'}[0]{'lines'} = $Lexicon->{'t .t w'}[0]{'lines'};
 $Lexicon->{'t .t w n'}[0]{'glosses'} = $Lexicon->{'t .t w'}[0]{'glosses'};

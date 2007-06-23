@@ -557,6 +557,9 @@ data PatternT =
 
         |   HaFCiLA'    |   HACiLA'     |   HaFILA'
 
+        |   HuFCUL      |   HUCUL
+        |   HuFCIL      |   HUCIL
+
         |   FACUL
 
         |   FawACiL                     |   FawA'iL     |   FawACI

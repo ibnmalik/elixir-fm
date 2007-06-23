@@ -110,7 +110,7 @@ dAnyyl  dAniyiyl        Nprop   Daniel
 ;; dAhuwmiy_1
 dAhwmy  dAhuwmiy        N0      Dahomey
 ;
-;--- dAw
+; ;--- dAw
 ;; dAw_1
 dAw     dAw     N0      Dow
 ;
@@ -1286,12 +1286,6 @@ dr      dar     PV_ttAw know;be aware of;notice
 dry     doriy   IV_0hAnn        know;be aware of;notice
 dr      dor     IV_0hwnyn       know;be aware of;notice
 drY     doraY   IV_0_Pass_yu    be known;be noticed
-;; lA>adoriy~_1
-lA>dry  lA>adoriy~      Nall_L  skeptic;agnostic     <pos>lA>adoriy~/ADJ</pos>
-lAAdry  lA>adoriy~      Nall_L  skeptic;agnostic     <pos>lAAadoriy~/ADJ</pos>
-;; lA>adoriy~ap_1
-lA>dry  lA>adoriy~      Nap_L   skepticism;agnosticism     <pos>lA>adoriy~/NOUN</pos>
-lAAdry  lA>adoriy~      Nap_L   skepticism;agnosticism     <pos>lAAadoriy~/NOUN</pos>
 ;; dAraY_1
 dArY    dAraY   PV_0    flatter;deceive;shelter
 dArA    dArA    PV_h    flatter;deceive;shelter
@@ -1349,6 +1343,13 @@ mdrA    midorA  Napdu   punting pole
 mdAry   madAriy N0_Nh   punting poles
 mdAr    madAr   NK      punting poles
 ;
+;--- dr
+;; lA>adoriy~_1
+lA>dry  lA>adoriy~      Nall_L  skeptic;agnostic     <pos>lA>adoriy~/ADJ</pos>
+lAAdry  lA>adoriy~      Nall_L  skeptic;agnostic     <pos>lAAadoriy~/ADJ</pos>
+;; lA>adoriy~ap_1
+lA>dry  lA>adoriy~      Nap_L   skepticism;agnosticism     <pos>lA>adoriy~/NOUN</pos>
+lAAdry  lA>adoriy~      Nap_L   skepticism;agnosticism     <pos>lAAadoriy~/NOUN</pos>
 ;--- dryq
 ;; diroyAq_1
 dryAq   diroyAq N       antidote;theriaca
@@ -3013,6 +3014,7 @@ dmy     dumoy   Nap     statuette;effigy;puppet
 dmY     dumaY   N0      statuettes;effigies;puppets
 dmA     dumA    Nhy     statuettes;effigies;puppets
 ;
+;--- dm
 ;; dumoyAT_1
 dmyAT   dumoyAT Ndip    Damietta
 ;; dumoyATiy~_1
@@ -3646,7 +3648,7 @@ dwx     daw~ax  PV      conquer;molest
 dwx     daw~ix  IV_yu   conquer;molest
 ;; dawoxap_1
 dwx     dawox   Nap     vertigo;nausea
-;; dwxy_1
+;; duwxiy_1
 dwxy    duwxiy~ N0      Doukhi
 ;; dA}ix_1
 dA}x    dA}ix   Nall    dizzy     <pos>dA}ix/ADJ</pos>

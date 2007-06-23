@@ -884,17 +884,15 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`    {- TAzij -}            [ "fresh" ]
                               `plural`     FaCiL |< aT ]
 
- |> ".tA^giyk" <| [
+ |> ".tA^gIk" <| [
 
-    Identity                  `noun`    {- TAjiyk -}           [ "Tajiks" ] ]
+    Identity                  `noun`    {- TAjiyk -}           [ "Tajiks" ],
 
- |> ".tA^giykistAn" <| [
+    Identity |< Iy            `adj`     {- TAjiykiy~ -}        [ "Tajik" ] ]
+
+ |> ".tA^gIkistAn" <| [
 
     Identity                  `noun`    {- TAjiykisotAn -}     [ "Tajikistan" ] ]
-
- |> ".tA^giykiyy" <| [
-
-    Identity                  `noun`    {- TAjiykiy~ -}        [ "Tajik" ] ]
 
  |> ".tAlamA" <| [
 
@@ -907,6 +905,18 @@ lexicon = listing "Lexicon's properties"
     Identity |< Iy            `adj`     {- TAlibAniy~ -}       [ "Taleban" ],
 
     Identity |< Iy            `adj`     {- TAlibAniy~ -}       [ "Talibani" ] ]
+
+ |> ".tUkiyU" <| [
+
+    Identity                  `noun`    {- Tuwkiyuw -}         [ "Tokyo" ] ]
+
+ |> ".tUlkarm" <| [
+
+    Identity                  `noun`    {- Tuwlokarm -}        [ "Tulkarem" ] ]
+
+ |> ".tUmsUn" <| [
+
+    Identity                  `noun`    {- Tuwmosuwn -}        [ "Thomson", "Tomson" ] ]
 
  |> ".t_ah" <| [
 
@@ -934,19 +944,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- TarAbulus -}        [ "Tripoli (Leb.)" ] ]
 
- |> ".tum'aniyn" <| [
+ |> ".tum'anIn" <| [
 
     Identity |< aT            `noun`    {- TumoOaniynap -}     [ "calm", "tranquillity" ] ]
-
- |> ".tuwkiyuw" <| [
-
-    Identity                  `noun`    {- Tuwkiyuw -}         [ "Tokyo" ] ]
-
- |> ".tuwlkarm" <| [
-
-    Identity                  `noun`    {- Tuwlokarm -}        [ "Tulkarem" ] ]
-
- |> ".tuwmsuwn" <| [
-
-    Identity                  `noun`    {- Tuwmosuwn -}        [ "Thomson", "Tomson" ] ]
 

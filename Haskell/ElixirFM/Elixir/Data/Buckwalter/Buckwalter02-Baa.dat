@@ -190,7 +190,7 @@ bArmA   bAromA  N0      Parma
 bArnts  bArinots        N0      Barents
 ;
 ; AFP corpus
-;; bArnysAndnwbl_1
+;; bArniysAndnuwbl_1
 bArnysAndnwbl   bArnysAndnwbl   Nprop   Barnes and Noble
 ;
 ;; bAruwn_1
@@ -4536,7 +4536,7 @@ bftyk   bifotiyk        N       beefsteak
 ;; bfiysotir_1
 bfystr  bfiysotir       Nprop   Pfister
 ;
-;; bfyl$yftr_1
+;; bfiyl$iyftr_1
 bfyl$yftr       bfyl$yftr       N0      Pfeilschifter
 ;
 ;; baq~-u_1
@@ -5614,9 +5614,6 @@ bAly    bAliy   IV_0hAnn_yu     care;concern;worry
 bAl     bAl     IV_0hwnyn_yu    care;concern;worry
 bAlY    bAlaY   IV_0_Pass_yu    be cared for;be a matter of concern
 bAly    bAlay   IV_Ann_Pass_yu  be cared for;be a matter of concern
-;; lA>ubAliy~ap_1
-lA>bAly lA>ubAliy~      Nap_L   indifference     <pos>lA>ubAliy~/NOUN</pos>
-lAAbAly lA>ubAliy~      Nap_L   indifference     <pos>lAAubAliy~/NOUN</pos>
 ;
 ;; >abolaY_1
 >blY    >abolaY PV_0    wear out;grind
@@ -5686,9 +5683,6 @@ mbAl    mubAl   NK      concerned;caring
 mbAly   mubAliy NAn_Nayn        concerned;caring
 mbAl    mubAl   Nuwn_Niyn       concerned;caring
 mbAly   mubAliy NapAt   concerned;caring
-;; lAmubAliy~_1
-lAmbAly lAmubAliy~      Nall_L  indifferent;apathetic     <pos>lAmubAliy~/ADJ</pos>
-lAmbAly lAmubAliy~      Nap_L   indifference;apathy     <pos>lAmubAliy~/NOUN</pos>
 ;; mubotaliy_1
 mbtly   mubotaliy       N0_Nh   afflicting;testing;trying
 mbtl    mubotal NK      afflicting;testing;trying
@@ -5703,6 +5697,13 @@ mbtl    mubotal Nuwn_Niyn       afflicted;suffering
 mbtlA   mubotalA        Napdu   afflicted;suffering
 mbtly   mubotalay       NAt     afflicted;suffering
 ;
+;--- bl
+;; lA>ubAliy~ap_1
+lA>bAly lA>ubAliy~      Nap_L   indifference     <pos>lA>ubAliy~/NOUN</pos>
+lAAbAly lA>ubAliy~      Nap_L   indifference     <pos>lAAubAliy~/NOUN</pos>
+;; lAmubAliy~_1
+lAmbAly lAmubAliy~      Nall_L  indifferent;apathetic     <pos>lAmubAliy~/ADJ</pos>
+lAmbAly lAmubAliy~      Nap_L   indifference;apathy     <pos>lAmubAliy~/NOUN</pos>
 ;--- blwt
 ;; bluwtuw_1
 blwtw   bluwtuw N       Pluto
@@ -5766,7 +5767,7 @@ bllwn   baloluwn        N/ap    balloon
 ;; bliyr_1
 blyr    bliyr   Nprop   Blair
 ;
-;; biloyArodw_1
+;; biloyAroduw_1
 blyArdw biloyArodw      N0      billiards
 ;
 ;; biliyz_1
@@ -7138,7 +7139,7 @@ bwhymy  buwhiymiy~      Nall    Bohemian     <pos>buwhiymiy~/ADJ</pos>
 ;; buwyap_1
 bwy     buwy    NapAt   paint
 ;
-;; bwyz_1
+;; buwyz_1
 bwyz    bwyz    Nprop   Boys
 ;
 ;; buwiyng_1
@@ -7237,7 +7238,7 @@ bytsylym        biytosiyliym    N0      B'Tselem
 byt$    biyt$   Nprop   Beach
 ;
 ; AFP Corpus
-;; byt$nyk_1
+;; biyt$niyk_1
 byt$nyk byt$nyk Nprop   Bichnik;Pitchnick;Beachnik ??
 ;
 ;; biytozA_1
@@ -7363,7 +7364,7 @@ byrnyh  biyriniyh       N0      Pyrenees
 ;; biyrohuwf_1
 byrhwf  biyrohuwf       Nprop   Bierhoff
 ;
-;--- byrw
+; ;--- byrw
 ;; biyruw_1
 byrw    biyruw  N0      Peru
 ;; biyruwfiy~_1
@@ -7399,7 +7400,7 @@ byrwn   biyruwn Nprop   Peron
 ;; biyruwniy~_1
 byrwny  biyruwniy~      N0      Biruni;Birouni
 ;
-;--- byry
+; ;--- byry
 ;; biyriy_1
 byry    biyriy  Nprop   Perry
 ;
@@ -7479,7 +7480,7 @@ bwyD    buwayoD Ndu     ovule;ovum;small egg
 byyD    buyayoD Ndu     ovule;ovum;small egg
 bwyD    buwayoD NapAt   ovule;ovum;small egg
 byyD    buyayoD NapAt   ovule;ovum;small egg
-;; byDwn_1
+;; bayDuwn_1
 byDwn   byDwn   Nprop   Baidun;Baidoun
 ;; bayAD_1
 byAD    bayAD   N       whiteness
@@ -7629,7 +7630,7 @@ byl     biyl    Nprop   Bill
 byl     biyl    N       ball bearing;marble
 ;
 ; Romanian coach Ilie Balaci
-;; biylAto$y_1
+;; biylAto$iy_1
 bylAt$y biylAto$y       Nprop   Balaci
 ;
 ;; biylAruws_1
@@ -7648,7 +7649,7 @@ bylhArsy        biylohArosiy    Nap     bilharzia;schistosomiasis
 ;; biyliyfiylod_1
 bylyfyld        biyliyfiylod    N0      Bielefeld
 ;
-;; bylyn_1
+;; biyliyn_1
 bylyn   bylyn   Nprop   Bilin;Billin
 ;
 ;; biyloyah_1
@@ -7803,13 +7804,13 @@ bywmy   bay~umiy~       N0      Bayyoumi
 ;; biyhAriy_1
 byhAry  biyhAriy        Nprop   Behari
 ;
-;--- byw
+; ;--- byw
 ;; biyuwluwjiyA_1
 bywlwjyA        biyuwluwjiyA    N       biology
 ;; biyuwluwjiy~_1
 bywlwjy biyuwluwjiy~    Nall    biological     <pos>biyuwluwjiy~/ADJ</pos>
 ;
-;--- byy
+; ;--- byy
 ; AFP Corpus: Italian soccer league team Del Piero
 ;; biyiyruw_1
 byyrw   biyiyruw        Nprop   Piero

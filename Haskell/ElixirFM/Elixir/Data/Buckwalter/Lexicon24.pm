@@ -6,14 +6,14 @@ package Elixir::Data::Buckwalter::Lexicon24;
 
 
 $Lexicon = {
-  'muwntiy' => [
+  'mAkmAhUn' => [
     {
       'types' => {},
-      'entry' => 'muwntiy',
-      'form' => 'muwntiy',
+      'entry' => 'mAkmAhuwn',
+      'form' => 'mAkmAhuwn',
       'lines' => [
-        ';; muwnotiy_1',
-        'mwnty   muwnotiy        Nprop   Monte;Monty'
+        ';; mAkomAhuwn_1',
+        'mAkmAhwn        mAkomAhuwn      Nprop   McMahon'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21,10 +21,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Monte',
-        'Monty'
+        'McMahon'
       ],
-      'orig' => 'muwnotiy',
+      'orig' => 'mAkomAhuwn',
       'prefix' => ''
     }
   ],
@@ -261,48 +260,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'maqadiy^suw' => [
-    {
-      'types' => {},
-      'entry' => 'maqadiy^suw',
-      'form' => 'maqadiy^suw',
-      'lines' => [
-        ';; maqadiy$uw_1',
-        'mqdy$w  maqadiy$uw      Nprop   Mogadishu'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mogadishu'
-      ],
-      'orig' => 'maqadiy$uw',
-      'prefix' => ''
-    }
-  ],
-  'miy_tuwluw^giyA' => [
-    {
-      'types' => {},
-      'entry' => 'miy_tuwluw^giyA',
-      'form' => 'miy_tuwluw^giyA',
-      'lines' => [
-        ';; miyvuwluwjiyA_1',
-        'myvwlwjyA       miyvuwluwjiyA   N0      mythology'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'mythology'
-      ],
-      'orig' => 'miyvuwluwjiyA',
-      'prefix' => ''
-    }
-  ],
   'm r k' => [
     {
       'types' => {},
@@ -367,68 +324,6 @@ $Lexicon = {
         'trademark'
       ],
       'orig' => 'mArokap',
-      'prefix' => ''
-    }
-  ],
-  'miykAnizm' => [
-    {
-      'types' => {
-        'miykAniykiyy' => {
-          'N-ap' => 1
-        },
-        'miykAniyk' => {
-          'N0' => 1
-        },
-        'miykAniyy' => {
-          'N-ap' => 1
-        },
-        'miykAniykA' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'miykAnizm',
-      'form' => 'miykAnizm',
-      'lines' => [
-        ';; miykAnizm_1',
-        'mykAnzm miykAnizm       N0      mechanism',
-        'mykAny  miykAniy~       N-ap    mechanical     [[miykAniy~/ADJ]]',
-        'mykAnyk miykAniyk       N0      mechanics',
-        'mykAnykA        miykAniykA      N0      mechanics',
-        'mykAnyky        miykAniykiy~    N-ap    mechanical;motorized     [[miykAniykiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'mechanism',
-        'mechanical',
-        'mechanics',
-        'motorized'
-      ],
-      'orig' => 'miykAnizm',
-      'prefix' => ''
-    }
-  ],
-  'miytAfiyziyqA' => [
-    {
-      'types' => {},
-      'entry' => 'miytAfiyziyqA',
-      'form' => 'miytAfiyziyqA',
-      'lines' => [
-        ';; miytAfiyziyqA_1',
-        'mytAfyzyqA      miytAfiyziyqA   N0      metaphysics'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'metaphysics'
-      ],
-      'orig' => 'miytAfiyziyqA',
       'prefix' => ''
     }
   ],
@@ -1004,14 +899,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mardaquw^s' => [
+  'mIzUbUtAmiyA' => [
     {
       'types' => {},
-      'entry' => 'mardaquw^s',
-      'form' => 'mardaquw^s',
+      'entry' => 'miyzuwbuwtAmiyA',
+      'form' => 'miyzuwbuwtAmiyA',
       'lines' => [
-        ';; marodaquw$_1',
-        'mrdqw$  marodaquw$      N0      marjoram'
+        ';; miyzuwbuwtAmiyA_1',
+        'myzwbwtAmyA     miyzuwbuwtAmiyA N0      Mesopotamia'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1019,20 +914,33 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'marjoram'
+        'Mesopotamia'
       ],
-      'orig' => 'marodaquw$',
+      'orig' => 'miyzuwbuwtAmiyA',
       'prefix' => ''
     }
   ],
-  'miysAtAm' => [
+  'man^ganIq' => [
     {
-      'types' => {},
-      'entry' => 'miysAtAm',
-      'form' => 'miysAtAm',
+      'types' => {
+        'ma^gAniq' => {
+          'Ndip' => 1
+        },
+        'ma^gAniyq' => {
+          'Ndip' => 1
+        },
+        'man^ganiyq' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'man^ganiyq',
+      'form' => 'man^ganiyq',
       'lines' => [
-        ';; miysAtAm_1',
-        'mysAtAm miysAtAm        Nprop   Misatam;Missatam;Miesatam;Maysatam;Miyasatam ??'
+        ';; manojaniyq_1',
+        'mnjnyq  manojaniyq      Ndu     catapult',
+        'mnjnyq  manojaniyq      NAt     catapults',
+        'mjAnq   majAniq Ndip    catapults',
+        'mjAnyq  majAniyq        Ndip    catapults'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1040,13 +948,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Misatam',
-        'Missatam',
-        'Miesatam',
-        'Maysatam',
-        'Miyasatam ??'
+        'catapult',
+        'catapults'
       ],
-      'orig' => 'miysAtAm',
+      'orig' => 'manojaniyq',
       'prefix' => ''
     }
   ],
@@ -1466,14 +1371,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mamAduw' => [
+  'mIlAnU' => [
     {
       'types' => {},
-      'entry' => 'mamAduw',
-      'form' => 'mamAduw',
+      'entry' => 'miylAnuw',
+      'form' => 'miylAnuw',
       'lines' => [
-        ';; mamAduw_1',
-        'mmAdw   mamAduw Nprop   Mamadou'
+        ';; miylAnuw_1',
+        'mylAnw  miylAnuw        N0      Milano;Milan'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1481,20 +1386,26 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Mamadou'
+        'Milano',
+        'Milan'
       ],
-      'orig' => 'mamAduw',
+      'orig' => 'miylAnuw',
       'prefix' => ''
     }
   ],
-  'mAtsArylly' => [
+  'mUrfIn' => [
     {
-      'types' => {},
-      'entry' => 'mAtsArylly',
-      'form' => 'mAtsArylly',
+      'types' => {
+        'murfiyn' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'muwrfiyn',
+      'form' => 'muwrfiyn',
       'lines' => [
-        ';; mAtsArylly_1',
-        'mAtsArylly      mAtosArylly     Nprop   Mazzarelli'
+        ';; muwrofiyn_1',
+        'mwrfyn  muwrofiyn       N0      morphine',
+        'mrfyn   murofiyn        N0      morphine'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1502,9 +1413,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Mazzarelli'
+        'morphine'
       ],
-      'orig' => 'mAtsArylly',
+      'orig' => 'muwrofiyn',
       'prefix' => ''
     }
   ],
@@ -1627,32 +1538,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwrdi_hAy' => [
-    {
-      'types' => {
-        'murdi_hAy' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'muwrdi_hAy',
-      'form' => 'muwrdi_hAy',
-      'lines' => [
-        ';; muwrodixAy_1',
-        'mwrdxAy muwrodixAy      Nprop   Mordechai',
-        'mrdxAy  murodixAy       Nprop   Mordechai'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mordechai'
-      ],
-      'orig' => 'muwrodixAy',
-      'prefix' => ''
-    }
-  ],
   'm y .h .h' => [
     {
       'types' => {},
@@ -1672,6 +1557,48 @@ $Lexicon = {
         'waddling'
       ],
       'orig' => 'mayoHuwHap',
+      'prefix' => ''
+    }
+  ],
+  'mitrAlyUz' => [
+    {
+      'types' => {},
+      'entry' => 'mitrAlyuwz',
+      'form' => 'mitrAlyuwz',
+      'lines' => [
+        ';; mitorAloyuwz_1',
+        'mtrAlywz        mitorAloyuwz    N0      machine gun'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'machine gun'
+      ],
+      'orig' => 'mitorAloyuwz',
+      'prefix' => ''
+    }
+  ],
+  'm w s \'' => [
+    {
+      'types' => {},
+      'entry' => 'muwsA\'',
+      'form' => 'muwsAwiyy',
+      'lines' => [
+        ';; muwsAwiy~_1',
+        'mwsAwy  muwsAwiy~       N0      Moussaoui'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KuRDAS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Moussaoui'
+      ],
+      'orig' => 'muwsAwiy~',
       'prefix' => ''
     }
   ],
@@ -2013,40 +1940,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miytAfiyziyq' => [
-    {
-      'types' => {},
-      'entry' => 'miytAfiyziyq',
-      'form' => 'miytAfiyziyqiyy',
-      'lines' => [
-        ';; miytAfiyziyqiy~_1',
-        'mytAfyzyqy      miytAfiyziyqiy~ Nall    metaphysical     [[miytAfiyziyqiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'metaphysical'
-      ],
-      'orig' => 'miytAfiyziyqiy~',
-      'prefix' => ''
-    }
-  ],
-  'mAlan_huwliyA' => [
+  'maksIkU' => [
     {
       'types' => {
-        'mAliy_huwliyA' => {
+        'maksikuw' => {
           'N0' => 1
         }
       },
-      'entry' => 'mAlan_huwliyA',
-      'form' => 'mAlan_huwliyA',
+      'entry' => 'maksiykuw',
+      'form' => 'maksiykuw',
       'lines' => [
-        ';; mAlanoxuwliyA_1',
-        'mAlnxwlyA       mAlanoxuwliyA   N0      melancholia',
-        'mAlyxwlyA       mAliyxuwliyA    N0      melancholia'
+        ';; makosiykuw_1',
+        'mksykw  makosiykuw      N0      Mexico',
+        'mkskw   makosikuw       N0      Mexico'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2054,9 +1960,55 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'melancholia'
+        'Mexico'
       ],
-      'orig' => 'mAlanoxuwliyA',
+      'orig' => 'makosiykuw',
+      'prefix' => ''
+    }
+  ],
+  'mAn^gU' => [
+    {
+      'types' => {},
+      'entry' => 'mAn^guw',
+      'form' => 'mAn^guw',
+      'lines' => [
+        ';; mAnojuw_1',
+        'mAnjw   mAnojuw N0      mango'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'mango'
+      ],
+      'orig' => 'mAnojuw',
+      'prefix' => ''
+    }
+  ],
+  'mAriyU' => [
+    {
+      'types' => {
+        'mAryw' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'mAriyuw',
+      'form' => 'mAriyuw',
+      'lines' => [
+        ';; mAriyuw_1',
+        'mAryw   mAryw   Nprop   Mario'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Mario'
+      ],
+      'orig' => 'mAriyuw',
       'prefix' => ''
     }
   ],
@@ -2078,40 +2030,6 @@ $Lexicon = {
         'Moscow'
       ],
       'orig' => 'musokuw',
-      'prefix' => ''
-    }
-  ],
-  '\'umsiyy' => [
-    {
-      'types' => {
-        '\'amAsiyy' => {
-          'N0_Nh' => 2
-        },
-        '\'umsiyy' => {
-          'NapAt' => 2
-        }
-      },
-      'entry' => '\'umsiyy',
-      'form' => '\'umsiyy',
-      'lines' => [
-        ';; >umosiy~_1',
-        '>msy    >umosiy~        NapAt   evening;soiree     [[>umosiy~/NOUN]]',
-        'Amsy    >umosiy~        NapAt   evening;soiree     [[>umosiy~/NOUN]]',
-        '>mAsy   >amAsiy~        N0_Nh   evenings;soirees',
-        'AmAsy   >amAsiy~        N0_Nh   evenings;soirees'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'evening',
-        'soiree',
-        'evenings',
-        'soirees'
-      ],
-      'orig' => 'Oumosiy~',
       'prefix' => ''
     }
   ],
@@ -2229,28 +2147,6 @@ $Lexicon = {
         'enteric'
       ],
       'orig' => 'miEawiy~',
-      'prefix' => ''
-    }
-  ],
-  '\'um.huw.d' => [
-    {
-      'types' => {},
-      'entry' => '\'um.huw.d',
-      'form' => '\'um.huw.daT',
-      'lines' => [
-        ';; >umoHuwDap_1',
-        '>mHwD   >umoHuwD        Napdu   sincere advice',
-        'AmHwD   >umoHuwD        Napdu   sincere advice'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'sincere advice'
-      ],
-      'orig' => 'OumoHuwDap',
       'prefix' => ''
     }
   ],
@@ -2778,27 +2674,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mAyuwrkA' => [
-    {
-      'types' => {},
-      'entry' => 'mAyuwrkA',
-      'form' => 'mAyuwrkA',
-      'lines' => [
-        ';; mAyuwrokA_1',
-        'mAywrkA mAyuwrokA       N0      Majorca'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Majorca'
-      ],
-      'orig' => 'mAyuwrokA',
-      'prefix' => ''
-    }
-  ],
   'm ` \'' => [
     {
       'types' => {},
@@ -2890,6 +2765,49 @@ $Lexicon = {
         'spoil'
       ],
       'orig' => 'maromaT',
+      'prefix' => ''
+    }
+  ],
+  'manafIllA' => [
+    {
+      'types' => {},
+      'entry' => 'manafiyllA',
+      'form' => 'manafiyllA',
+      'lines' => [
+        ';; manafiyl~A_1',
+        'mnfylA  manafiyl~A      N0      crank',
+        'mnfyllA manafiylolA     N0      crank'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'crank'
+      ],
+      'orig' => 'manafiyl~A',
+      'prefix' => ''
+    }
+  ],
+  'mun.gUliyA' => [
+    {
+      'types' => {},
+      'entry' => 'mun.guwliyA',
+      'form' => 'mun.guwliyA',
+      'lines' => [
+        ';; munoguwliyA_1',
+        'mngwlyA munoguwliyA     N0      Mongolia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Mongolia'
+      ],
+      'orig' => 'munoguwliyA',
       'prefix' => ''
     }
   ],
@@ -3023,14 +2941,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwniykA' => [
+  'mAnUliyA' => [
     {
       'types' => {},
-      'entry' => 'muwniykA',
-      'form' => 'muwniykA',
+      'entry' => 'mAnuwliyA',
+      'form' => 'mAnuwliyA',
       'lines' => [
-        ';; muwniykA_1',
-        'mwnykA  muwniykA        Nprop   Monica'
+        ';; mAnuwliyA_1',
+        'mAnwlyA mAnuwliyA       N0      magnolia'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3038,20 +2956,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Monica'
+        'magnolia'
       ],
-      'orig' => 'muwniykA',
+      'orig' => 'mAnuwliyA',
       'prefix' => ''
     }
   ],
-  'mAn^guwst' => [
+  'mIrAlAy' => [
     {
       'types' => {},
-      'entry' => 'mAn^guwst',
-      'form' => 'mAn^guwst',
+      'entry' => 'miyrAlAy',
+      'form' => 'miyrAlAy',
       'lines' => [
-        ';; mAnojuwst_1',
-        'mAnjwst mAnojuwst       N0      mongoose'
+        ';; miyrAlAy_1',
+        'myrAlAy miyrAlAy        N0      brigadier general'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3059,9 +2977,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'mongoose'
+        'brigadier general'
       ],
-      'orig' => 'mAnojuwst',
+      'orig' => 'miyrAlAy',
       'prefix' => ''
     }
   ],
@@ -3113,6 +3031,31 @@ $Lexicon = {
         'Moven'
       ],
       'orig' => 'muwfiyn',
+      'prefix' => ''
+    }
+  ],
+  'mA`Un^g' => [
+    {
+      'types' => {},
+      'entry' => 'mA`uwn^g',
+      'form' => 'mA`uwn^giyy',
+      'lines' => [
+        ';; mAEuwnojiy~_1',
+        'mAEwnjy mAEuwnojiy~     Ndu     boatman;bargeman',
+        'mAEwnjy mAEuwnojiy~     Nap     boatmen;bargemen     [[mAEuwnojiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'boatman',
+        'bargeman',
+        'boatmen',
+        'bargemen'
+      ],
+      'orig' => 'mAEuwnojiy~',
       'prefix' => ''
     }
   ],
@@ -4114,6 +4057,74 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mArtIn' => [
+    {
+      'types' => {},
+      'entry' => 'mArtiyn',
+      'form' => 'mArtiyn',
+      'lines' => [
+        ';; mArotiyn_1',
+        'mArtyn  mArotiyn        N0      Martin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Martin'
+      ],
+      'orig' => 'mArotiyn',
+      'prefix' => ''
+    }
+  ],
+  'malIll' => [
+    {
+      'types' => {
+        'maliyllA' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'maliyll',
+      'form' => 'maliyllaT',
+      'lines' => [
+        ';; maliyl~ap_1',
+        'mlylp   maliyl~ap       N0      Melilla',
+        'mlylA   maliyl~A        N0      Melilla'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'Melilla'
+      ],
+      'orig' => 'maliyl~ap',
+      'prefix' => ''
+    }
+  ],
+  'mArtInIz' => [
+    {
+      'types' => {},
+      'entry' => 'mArtiyniyz',
+      'form' => 'mArtiyniyz',
+      'lines' => [
+        ';; mArotiyniyz_1',
+        'mArtynyz        mArotiyniyz     N0      Martinez'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Martinez'
+      ],
+      'orig' => 'mArotiyniyz',
+      'prefix' => ''
+    }
+  ],
   'm .s m .s' => [
     {
       'types' => {
@@ -4166,18 +4177,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'manuwmitr' => [
+  'mArAdUnA' => [
     {
       'types' => {
-        'manuwmitr' => {
-          'NAt' => 1
+        'mArAdwnA' => {
+          'Nprop' => 1
         }
       },
-      'entry' => 'manuwmitr',
-      'form' => 'manuwmitr',
+      'entry' => 'mArAduwnA',
+      'form' => 'mArAduwnA',
       'lines' => [
-        ';; manuwmitr_1',
-        'mnwmtr  manuwmitr       N/At    manometer'
+        ';; mArAduwnA_1',
+        'mArAdwnA        mArAdwnA        Nprop   Maradona'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4185,82 +4196,60 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'manometer'
+        'Maradona'
       ],
-      'orig' => 'manuwmitr',
+      'orig' => 'mArAduwnA',
       'prefix' => ''
     }
   ],
-  'muwdiyn.giy' => [
-    {
-      'types' => {},
-      'entry' => 'muwdiyn.giy',
-      'form' => 'muwdiyn.giy',
-      'lines' => [
-        ';; muwdiynogiy_1',
-        'mwdyngy muwdiynogiy     Nprop   Mudenge'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mudenge'
-      ],
-      'orig' => 'muwdiynogiy',
-      'prefix' => ''
-    }
-  ],
-  'mAmiyyt' => [
-    {
-      'types' => {},
-      'entry' => 'mAmiyyt',
-      'form' => 'mAmiyyt',
-      'lines' => [
-        ';; mAmiyyt_1',
-        'mAmyyt  mAmiyyt Nprop   Mamiit'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mamiit'
-      ],
-      'orig' => 'mAmiyyt',
-      'prefix' => ''
-    }
-  ],
-  '\'umluw.h' => [
+  'mUstAr' => [
     {
       'types' => {
-        '\'amAliy.h' => {
-          'Ndip' => 2
+        'muwstar' => {
+          'Nprop' => 1
         }
       },
-      'entry' => '\'umluw.h',
-      'form' => '\'umluw.haT',
+      'entry' => 'muwstAr',
+      'form' => 'muwstAr',
       'lines' => [
-        ';; >umoluwHap_1',
-        '>mlwH   >umoluwH        Napdu   joke;anecdote',
-        'AmlwH   >umoluwH        Napdu   joke;anecdote',
-        '>mAlyH  >amAliyH        Ndip    jokes;anecdotes',
-        'AmAlyH  >amAliyH        Ndip    jokes;anecdotes'
+        ';; muwsotAr_1',
+        'mwstAr  muwsotAr        Nprop   Mostar',
+        'mwstr   muwsotar        Nprop   Mostar'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'joke',
-        'anecdote',
-        'jokes',
-        'anecdotes'
+        'Mostar'
       ],
-      'orig' => 'OumoluwHap',
+      'orig' => 'muwsotAr',
+      'prefix' => ''
+    }
+  ],
+  'mUnUlU^g' => [
+    {
+      'types' => {
+        'muwnuwluw^g' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'muwnuwluw^g',
+      'form' => 'muwnuwluw^g',
+      'lines' => [
+        ';; muwnuwluwj_1',
+        'mwnwlwj muwnuwluwj      NduAt   monologue'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'monologue'
+      ],
+      'orig' => 'muwnuwluwj',
       'prefix' => ''
     }
   ],
@@ -4876,43 +4865,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ma.gna.tiys' => [
+  'mIr.gan' => [
     {
-      'types' => {
-        'ma.gnA.tiys' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'ma.gna.tiys',
-      'form' => 'ma.gna.tiys',
+      'types' => {},
+      'entry' => 'miyr.gan',
+      'form' => 'miyr.ganiyy',
       'lines' => [
-        ';; magonaTiys_1',
-        'mgnTys  magonaTiys      N       magnet',
-        'mgnATys magonATiys      N       magnet'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'magnet'
-      ],
-      'orig' => 'magonaTiys',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ma.gnA.tiysiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'ma.gna.tiys',
-      'form' => 'ma.gna.tiysiyy',
-      'lines' => [
-        ';; magonaTiysiy~_1',
-        'mgnTysy magonaTiysiy~   Nall    magnetic;hypnotic     [[magonaTiysiy~/ADJ]]',
-        'mgnATysy        magonATiysiy~   Nall    magnetic;hypnotic     [[magonATiysiy~/ADJ]]'
+        ';; miyroganiy~_1',
+        'myrgny  miyroganiy~     N0      Mirghani'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4920,34 +4880,9 @@ $Lexicon = {
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'magnetic',
-        'hypnotic'
+        'Mirghani'
       ],
-      'orig' => 'magonaTiysiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ma.gnA.tiysiyy' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'ma.gna.tiys',
-      'form' => 'ma.gna.tiysiyyaT',
-      'lines' => [
-        ';; magonaTiysiy~ap_1',
-        'mgnTysy magonaTiysiy~   Nap     magnetism     [[magonaTiysiy~/NOUN]]',
-        'mgnATysy        magonATiysiy~   Nap     magnetism     [[magonATiysiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'magnetism'
-      ],
-      'orig' => 'magonaTiysiy~ap',
+      'orig' => 'miyroganiy~',
       'prefix' => ''
     }
   ],
@@ -5252,19 +5187,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miy.gAbAyt' => [
+  'mU.gAbI' => [
     {
       'types' => {
-        'miy^gAbAyt' => {
-          'N' => 1
+        'muw^gAbiy' => {
+          'Nprop' => 1
         }
       },
-      'entry' => 'miy.gAbAyt',
-      'form' => 'miy.gAbAyt',
+      'entry' => 'muw.gAbiy',
+      'form' => 'muw.gAbiy',
       'lines' => [
-        ';; miygAbAyt_1',
-        'mygAbAyt        miygAbAyt       N       megabyte',
-        'myjAbAyt        miyjAbAyt       N       megabyte'
+        ';; muwgAbiy_1',
+        'mwgAby  muwgAbiy        Nprop   Mugabe',
+        'mwjAby  muwjAbiy        Nprop   Mugabe'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5272,9 +5207,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'megabyte'
+        'Mugabe'
       ],
-      'orig' => 'miygAbAyt',
+      'orig' => 'muwgAbiy',
+      'prefix' => ''
+    }
+  ],
+  'mItirAn' => [
+    {
+      'types' => {},
+      'entry' => 'miytirAn',
+      'form' => 'miytirAn',
+      'lines' => [
+        ';; miytirAn_1',
+        'mytrAn  miytirAn        Nprop   Mitterand'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Mitterand'
+      ],
+      'orig' => 'miytirAn',
       'prefix' => ''
     }
   ],
@@ -5317,48 +5273,6 @@ $Lexicon = {
         'mafia'
       ],
       'orig' => 'mAfiyA',
-      'prefix' => ''
-    }
-  ],
-  'miy_hA\'iyl' => [
-    {
-      'types' => {},
-      'entry' => 'miy_hA\'iyl',
-      'form' => 'miy_hA\'iyl',
-      'lines' => [
-        ';; miyxA}iyl_1',
-        'myxA}yl miyxA}iyl       Nprop   Mikhail'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mikhail'
-      ],
-      'orig' => 'miyxA}iyl',
-      'prefix' => ''
-    }
-  ],
-  'muwriyuwkA' => [
-    {
-      'types' => {},
-      'entry' => 'muwriyuwkA',
-      'form' => 'muwriyuwkA',
-      'lines' => [
-        ';; muwriyuwkA_1',
-        'mwrywkA muwriyuwkA      Nprop   Morioka'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Morioka'
-      ],
-      'orig' => 'muwriyuwkA',
       'prefix' => ''
     }
   ],
@@ -5410,27 +5324,6 @@ $Lexicon = {
         'brain'
       ],
       'orig' => 'mux~iy~',
-      'prefix' => ''
-    }
-  ],
-  'mAniyfistuw' => [
-    {
-      'types' => {},
-      'entry' => 'mAniyfistuw',
-      'form' => 'mAniyfistuw',
-      'lines' => [
-        ';; mAniyfisotuw_1',
-        'mAnyfstw        mAniyfisotuw    N0      manifesto'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'manifesto'
-      ],
-      'orig' => 'mAniyfisotuw',
       'prefix' => ''
     }
   ],
@@ -5494,14 +5387,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muw_hiykA' => [
+  'mIkA' => [
     {
       'types' => {},
-      'entry' => 'muw_hiykA',
-      'form' => 'muw_hiykA',
+      'entry' => 'miykA',
+      'form' => 'miykA',
       'lines' => [
-        ';; muwxiykA_1',
-        'mwxykA  muwxiykA        Nprop   Mugica;Mujica'
+        ';; miykA_1',
+        'mykA    miykA   N0      mica'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5509,10 +5402,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Mugica',
-        'Mujica'
+        'mica'
       ],
-      'orig' => 'muwxiykA',
+      'orig' => 'miykA',
       'prefix' => ''
     }
   ],
@@ -5543,14 +5435,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'malAyuw' => [
+  'mUnUtayb' => [
     {
       'types' => {},
-      'entry' => 'malAyuw',
-      'form' => 'malAyuw',
+      'entry' => 'muwnuwtayb',
+      'form' => 'muwnuwtayb',
       'lines' => [
-        ';; malAyuw_1',
-        'mlAyw   malAyuw N0      Malay'
+        ';; muwnuwtayob_1',
+        'mwnwtyb muwnuwtayob     N0      Monotype'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5558,39 +5450,25 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Malay'
+        'Monotype'
       ],
-      'orig' => 'malAyuw',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'malAyuw',
-      'form' => 'malAyuw',
-      'lines' => [
-        ';; malAyuw_2',
-        'mlAyw   malAyuw N0      Malayan'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Malayan'
-      ],
-      'orig' => 'malAyuw',
+      'orig' => 'muwnuwtayob',
       'prefix' => ''
     }
   ],
-  'mAdAn^giyt' => [
+  'mAlan_hUliyA' => [
     {
-      'types' => {},
-      'entry' => 'mAdAn^giyt',
-      'form' => 'mAdAn^giyt',
+      'types' => {
+        'mAliy_huwliyA' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'mAlan_huwliyA',
+      'form' => 'mAlan_huwliyA',
       'lines' => [
-        ';; mAdAnojiyt_1',
-        'mAdAnjyt        mAdAnojiyt      Nprop   Madanjeet'
+        ';; mAlanoxuwliyA_1',
+        'mAlnxwlyA       mAlanoxuwliyA   N0      melancholia',
+        'mAlyxwlyA       mAliyxuwliyA    N0      melancholia'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5598,9 +5476,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Madanjeet'
+        'melancholia'
       ],
-      'orig' => 'mAdAnojiyt',
+      'orig' => 'mAlanoxuwliyA',
       'prefix' => ''
     }
   ],
@@ -5717,14 +5595,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mAyuwniyz' => [
+  'marsIliyA' => [
     {
       'types' => {},
-      'entry' => 'mAyuwniyz',
-      'form' => 'mAyuwniyz',
+      'entry' => 'marsiyliyA',
+      'form' => 'marsiyliyA',
       'lines' => [
-        ';; mAyuwniyz_1',
-        'mAywnyz mAyuwniyz       N0      mayonnaise'
+        ';; marosiyliyA_1',
+        'mrsylyA marosiyliyA     N0      Marseille'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5732,9 +5610,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'mayonnaise'
+        'Marseille'
       ],
-      'orig' => 'mAyuwniyz',
+      'orig' => 'marosiyliyA',
       'prefix' => ''
     }
   ],
@@ -5756,6 +5634,31 @@ $Lexicon = {
         'Majdal'
       ],
       'orig' => 'majodal',
+      'prefix' => ''
+    }
+  ],
+  'milImitr' => [
+    {
+      'types' => {
+        'miliymitr' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'miliymitr',
+      'form' => 'miliymitr',
+      'lines' => [
+        ';; miliymitr_1',
+        'mlymtr  miliymitr       NduAt   millimeter'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'millimeter'
+      ],
+      'orig' => 'miliymitr',
       'prefix' => ''
     }
   ],
@@ -5829,18 +5732,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miyliymitr' => [
+  'mIkU' => [
     {
-      'types' => {
-        'miyliymitr' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'miyliymitr',
-      'form' => 'miyliymitr',
+      'types' => {},
+      'entry' => 'miykuw',
+      'form' => 'miykuw',
       'lines' => [
-        ';; miyliymitr_1',
-        'mylymtr miyliymitr      NduAt   millimeter'
+        ';; miykuw_1',
+        'mykw    miykuw  Nprop   Meko;Mico ??'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5848,9 +5747,40 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'millimeter'
+        'Meko',
+        'Mico ??'
       ],
-      'orig' => 'miyliymitr',
+      'orig' => 'miykuw',
+      'prefix' => ''
+    }
+  ],
+  'mI.gAhIrtz' => [
+    {
+      'types' => {
+        'miy^gAhiyrtz' => {
+          'NduAt' => 1
+        },
+        'miy.gAhiyrtz' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'miy.gAhiyrtz',
+      'form' => 'miy.gAhiyrtz',
+      'lines' => [
+        ';; miygAhiyrotz_1',
+        'mygAhyrtz       miygAhiyrotz    NduAt   megahertz;MHz',
+        'myjAhyrtz       miyjAhiyrotz    NduAt   megahertz;MHz'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'megahertz',
+        'MHz'
+      ],
+      'orig' => 'miygAhiyrotz',
       'prefix' => ''
     }
   ],
@@ -5930,27 +5860,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miyr.gan' => [
-    {
-      'types' => {},
-      'entry' => 'miyr.gan',
-      'form' => 'miyr.ganiyy',
-      'lines' => [
-        ';; miyroganiy~_1',
-        'myrgny  miyroganiy~     N0      Mirghani'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Mirghani'
-      ],
-      'orig' => 'miyroganiy~',
-      'prefix' => ''
-    }
-  ],
   'm k d m' => [
     {
       'types' => {
@@ -5982,15 +5891,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'manafiyllA' => [
+  'mIlImitr' => [
     {
-      'types' => {},
-      'entry' => 'manafiyllA',
-      'form' => 'manafiyllA',
+      'types' => {
+        'miyliymitr' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'miyliymitr',
+      'form' => 'miyliymitr',
       'lines' => [
-        ';; manafiyl~A_1',
-        'mnfylA  manafiyl~A      N0      crank',
-        'mnfyllA manafiylolA     N0      crank'
+        ';; miyliymitr_1',
+        'mylymtr miyliymitr      NduAt   millimeter'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5998,9 +5910,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'crank'
+        'millimeter'
       ],
-      'orig' => 'manafiyl~A',
+      'orig' => 'miyliymitr',
+      'prefix' => ''
+    }
+  ],
+  'mUrs' => [
+    {
+      'types' => {},
+      'entry' => 'muwrs',
+      'form' => 'muwrs',
+      'lines' => [
+        ';; muwrs_1',
+        'mwrs    muwrs   N0      Morse'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Morse'
+      ],
+      'orig' => 'muwrs',
       'prefix' => ''
     }
   ],
@@ -6502,6 +6435,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mAlIs' => [
+    {
+      'types' => {},
+      'entry' => 'mAliys',
+      'form' => 'mAliys',
+      'lines' => [
+        ';; mAliys_1',
+        'mAlys   mAliys  Nprop   Malisse'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Malisse'
+      ],
+      'orig' => 'mAliys',
+      'prefix' => ''
+    }
+  ],
   'm .g n .t' => [
     {
       'types' => {
@@ -6865,27 +6819,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwbuwtuw' => [
-    {
-      'types' => {},
-      'entry' => 'muwbuwtuw',
-      'form' => 'muwbuwtuw',
-      'lines' => [
-        ';; muwbuwtuw_1',
-        'mwbwtw  muwbuwtuw       Nprop   Mobutu'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mobutu'
-      ],
-      'orig' => 'muwbuwtuw',
-      'prefix' => ''
-    }
-  ],
   'm w ^s y' => [
     {
       'types' => {},
@@ -6925,29 +6858,6 @@ $Lexicon = {
         'Mahatma'
       ],
       'orig' => 'mahAtomA',
-      'prefix' => ''
-    }
-  ],
-  'miyrliwA\'' => [
-    {
-      'types' => {},
-      'entry' => 'miyrliwA\'',
-      'form' => 'miyrliwA\'',
-      'lines' => [
-        ';; miyroliwA\'_1',
-        'myrlwA\' miyroliwA\'      N0_Nh   major general',
-        'myrlwA& miyroliwA&      Nh      major general',
-        'myrlwA} miyroliwA}      Nhy     major general'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'major general'
-      ],
-      'orig' => 'miyroliwA\'',
       'prefix' => ''
     }
   ],
@@ -7373,14 +7283,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'malakuwt' => [
+  'mUlUtUf' => [
     {
       'types' => {},
-      'entry' => 'malakuwt',
-      'form' => 'malakuwt',
+      'entry' => 'muwluwtuwf',
+      'form' => 'muwluwtuwf',
       'lines' => [
-        ';; malakuwt_1',
-        'mlkwt   malakuwt        N       kingdom'
+        ';; muwluwtuwf_1',
+        'mwlwtwf muwluwtuwf      N0      Molotov'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7388,29 +7298,35 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'kingdom'
+        'Molotov'
       ],
-      'orig' => 'malakuwt',
+      'orig' => 'muwluwtuwf',
       'prefix' => ''
-    },
+    }
+  ],
+  'mI.gAwAtI' => [
     {
-      'types' => {},
-      'entry' => 'malakuwt',
-      'form' => 'malakuwtiyy',
+      'types' => {
+        'miy^gAwAtiy' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'miy.gAwAtiy',
+      'form' => 'miy.gAwAtiy',
       'lines' => [
-        ';; malakuwtiy~_1',
-        'mlkwty  malakuwtiy~     Nall    divine;heavenly     [[malakuwtiy~/ADJ]]'
+        ';; miygAwAtiy_1',
+        'mygAwAty        miygAwAtiy      N0      Megawati',
+        'myjAwAty        miyjAwAtiy      N0      Megawati'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'divine',
-        'heavenly'
+        'Megawati'
       ],
-      'orig' => 'malakuwtiy~',
+      'orig' => 'miygAwAtiy',
       'prefix' => ''
     }
   ],
@@ -7456,27 +7372,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'man^ganiyq' => [
+  'mAriyAnU' => [
     {
-      'types' => {
-        'ma^gAniq' => {
-          'Ndip' => 1
-        },
-        'ma^gAniyq' => {
-          'Ndip' => 1
-        },
-        'man^ganiyq' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'man^ganiyq',
-      'form' => 'man^ganiyq',
+      'types' => {},
+      'entry' => 'mAriyAnuw',
+      'form' => 'mAriyAnuw',
       'lines' => [
-        ';; manojaniyq_1',
-        'mnjnyq  manojaniyq      Ndu     catapult',
-        'mnjnyq  manojaniyq      NAt     catapults',
-        'mjAnq   majAniq Ndip    catapults',
-        'mjAnyq  majAniyq        Ndip    catapults'
+        ';; mAriyAnuw_1',
+        'mAryAnw mAriyAnuw       Nprop   Mariano'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7484,21 +7387,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'catapult',
-        'catapults'
+        'Mariano'
       ],
-      'orig' => 'manojaniyq',
+      'orig' => 'mAriyAnuw',
       'prefix' => ''
     }
   ],
-  'mArtiyn' => [
+  'mI^sIlI' => [
     {
       'types' => {},
-      'entry' => 'mArtiyn',
-      'form' => 'mArtiyn',
+      'entry' => 'miy^siyliy',
+      'form' => 'miy^siyliy',
       'lines' => [
-        ';; mArotiyn_1',
-        'mArtyn  mArotiyn        N0      Martin'
+        ';; miy$iyliy_1',
+        'my$yly  miy$iyliy       Nprop   Michellie'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7506,9 +7408,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Martin'
+        'Michellie'
       ],
-      'orig' => 'mArotiyn',
+      'orig' => 'miy$iyliy',
+      'prefix' => ''
+    }
+  ],
+  'ma.gnIsiyA' => [
+    {
+      'types' => {},
+      'entry' => 'ma.gniysiyA',
+      'form' => 'ma.gniysiyA',
+      'lines' => [
+        ';; magoniysiyA_1',
+        'mgnysyA magoniysiyA     N0      magnesia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'magnesia'
+      ],
+      'orig' => 'magoniysiyA',
       'prefix' => ''
     }
   ],
@@ -7552,40 +7475,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mAn^guw' => [
-    {
-      'types' => {},
-      'entry' => 'mAn^guw',
-      'form' => 'mAn^guw',
-      'lines' => [
-        ';; mAnojuw_1',
-        'mAnjw   mAnojuw N0      mango'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'mango'
-      ],
-      'orig' => 'mAnojuw',
-      'prefix' => ''
-    }
-  ],
-  'mA^sAkuws' => [
+  'mAyyUh' => [
     {
       'types' => {
-        'ma^sAkuws' => {
-          'N0' => 1
+        'mAyyuwh' => {
+          'NduAt' => 1
         }
       },
-      'entry' => 'mA^sAkuws',
-      'form' => 'mA^sAkuws',
+      'entry' => 'mAyyuwh',
+      'form' => 'mAyyuwh',
       'lines' => [
-        ';; mA$Akuws_1',
-        'mA$Akws mA$Akuws        N0      Machakos',
-        'm$Akws  ma$Akuws        N0      Machakos'
+        ';; mAy~uwh_1',
+        'mAywh   mAy~uwh NduAt   bathing suit'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7593,30 +7494,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Machakos'
+        'bathing suit'
       ],
-      'orig' => 'mA$Akuws',
-      'prefix' => ''
-    }
-  ],
-  'muwsiyfiyniy' => [
-    {
-      'types' => {},
-      'entry' => 'muwsiyfiyniy',
-      'form' => 'muwsiyfiyniy',
-      'lines' => [
-        ';; muwsiyfiyniy_1',
-        'mwsyfyny        muwsiyfiyniy    N0      Museveni'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Museveni'
-      ],
-      'orig' => 'muwsiyfiyniy',
+      'orig' => 'mAy~uwh',
       'prefix' => ''
     }
   ],
@@ -7641,19 +7521,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ma^gniyziywm' => [
+  'mIsAtAm' => [
     {
-      'types' => {
-        'ma.gniyziywm' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'ma^gniyziywm',
-      'form' => 'ma^gniyziywm',
+      'types' => {},
+      'entry' => 'miysAtAm',
+      'form' => 'miysAtAm',
       'lines' => [
-        ';; majoniyziywm_1',
-        'mjnyzywm        majoniyziywm    N0      magnesium',
-        'mgnyzywm        magoniyziywm    N0      magnesium'
+        ';; miysAtAm_1',
+        'mysAtAm miysAtAm        Nprop   Misatam;Missatam;Miesatam;Maysatam;Miyasatam ??'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7661,20 +7536,24 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'magnesium'
+        'Misatam',
+        'Missatam',
+        'Miesatam',
+        'Maysatam',
+        'Miyasatam ??'
       ],
-      'orig' => 'majoniyziywm',
+      'orig' => 'miysAtAm',
       'prefix' => ''
     }
   ],
-  'muwtziy' => [
+  'mAnuwIl' => [
     {
       'types' => {},
-      'entry' => 'muwtziy',
-      'form' => 'muwtziy',
+      'entry' => 'mAnuwiyl',
+      'form' => 'mAnuwiyl',
       'lines' => [
-        ';; muwtoziy_1',
-        'mwtzy   muwtoziy        Nprop   Muzzi'
+        ';; mAnuwiyl_1',
+        'mAnwyl  mAnuwiyl        Nprop   Manuel'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7682,9 +7561,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Muzzi'
+        'Manuel'
       ],
-      'orig' => 'muwtoziy',
+      'orig' => 'mAnuwiyl',
       'prefix' => ''
     }
   ],
@@ -7745,27 +7624,6 @@ $Lexicon = {
         'following (as a disciple)'
       ],
       'orig' => 'mutama*ohib',
-      'prefix' => ''
-    }
-  ],
-  'man.ganiys' => [
-    {
-      'types' => {},
-      'entry' => 'man.ganiys',
-      'form' => 'man.ganiys',
-      'lines' => [
-        ';; manoganiys_1',
-        'mngnys  manoganiys      N0      manganese'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'manganese'
-      ],
-      'orig' => 'manoganiys',
       'prefix' => ''
     }
   ],
@@ -8085,35 +7943,6 @@ $Lexicon = {
         'hairless'
       ],
       'orig' => 'OamolaT',
-      'prefix' => ''
-    }
-  ],
-  'miyliy^grAm' => [
-    {
-      'types' => {
-        'miyliy^grAm' => {
-          'NduAt' => 1
-        },
-        'miyliy.grAm' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'miyliy^grAm',
-      'form' => 'miyliy^grAm',
-      'lines' => [
-        ';; miyliyjrAm_1',
-        'mylyjrAm        miyliyjrAm      NduAt   milligram',
-        'mylygrAm        miyliygrAm      NduAt   milligram'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'milligram'
-      ],
-      'orig' => 'miyliyjrAm',
       'prefix' => ''
     }
   ],
@@ -9192,14 +9021,22 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miyrzA' => [
+  'milI^grAm' => [
     {
-      'types' => {},
-      'entry' => 'miyrzA',
-      'form' => 'miyrzA',
+      'types' => {
+        'miliy.grAm' => {
+          'NduAt' => 1
+        },
+        'miliy^grAm' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'miliy^grAm',
+      'form' => 'miliy^grAm',
       'lines' => [
-        ';; miyrozA_1',
-        'myrzA   miyrozA Nprop   Mirza'
+        ';; miliyjrAm_1',
+        'mlyjrAm miliyjrAm       NduAt   milligram',
+        'mlygrAm miliygrAm       NduAt   milligram'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9207,9 +9044,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Mirza'
+        'milligram'
       ],
-      'orig' => 'miyrozA',
+      'orig' => 'miliyjrAm',
       'prefix' => ''
     }
   ],
@@ -9299,28 +9136,6 @@ $Lexicon = {
         'albino'
       ],
       'orig' => 'mahaq',
-      'prefix' => ''
-    }
-  ],
-  'miykuw' => [
-    {
-      'types' => {},
-      'entry' => 'miykuw',
-      'form' => 'miykuw',
-      'lines' => [
-        ';; miykuw_1',
-        'mykw    miykuw  Nprop   Meko;Mico ??'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Meko',
-        'Mico ??'
-      ],
-      'orig' => 'miykuw',
       'prefix' => ''
     }
   ],
@@ -9745,14 +9560,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miykA' => [
+  'mAkintU^s' => [
     {
-      'types' => {},
-      'entry' => 'miykA',
-      'form' => 'miykA',
+      'types' => {
+        'mAkntw^s' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'mAkintuw^s',
+      'form' => 'mAkintuw^s',
       'lines' => [
-        ';; miykA_1',
-        'mykA    miykA   N0      mica'
+        ';; mAkintuw$_1',
+        'mAkntw$ mAkntw$ Nprop   Macintosh'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9760,9 +9579,55 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'mica'
+        'Macintosh'
       ],
-      'orig' => 'miykA',
+      'orig' => 'mAkintuw$',
+      'prefix' => ''
+    }
+  ],
+  'mUnUlU^gist' => [
+    {
+      'types' => {
+        'muwnuwluw^gist' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'muwnuwluw^gist',
+      'form' => 'muwnuwluw^gist',
+      'lines' => [
+        ';; muwnuwluwjisot_1',
+        'mwnwlwjst       muwnuwluwjisot  NduAt   monologue artist'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'monologue artist'
+      ],
+      'orig' => 'muwnuwluwjisot',
+      'prefix' => ''
+    }
+  ],
+  'mAlIziyA' => [
+    {
+      'types' => {},
+      'entry' => 'mAliyziyA',
+      'form' => 'mAliyziyA',
+      'lines' => [
+        ';; mAliyziyA_1',
+        'mAlyzyA mAliyziyA       N0      Malaysia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Malaysia'
+      ],
+      'orig' => 'mAliyziyA',
       'prefix' => ''
     }
   ],
@@ -9797,18 +9662,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwtuwsiykl' => [
+  'mI.gAbAyt' => [
     {
       'types' => {
-        'muwtuwsiykl' => {
-          'NAt' => 1
+        'miy^gAbAyt' => {
+          'N' => 1
         }
       },
-      'entry' => 'muwtuwsiykl',
-      'form' => 'muwtuwsiykl',
+      'entry' => 'miy.gAbAyt',
+      'form' => 'miy.gAbAyt',
       'lines' => [
-        ';; muwtuwsiykl_1',
-        'mwtwsykl        muwtuwsiykl     N/At    motorcycle'
+        ';; miygAbAyt_1',
+        'mygAbAyt        miygAbAyt       N       megabyte',
+        'myjAbAyt        miyjAbAyt       N       megabyte'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9816,80 +9682,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'motorcycle'
+        'megabyte'
       ],
-      'orig' => 'muwtuwsiykl',
-      'prefix' => ''
-    }
-  ],
-  'muwriytAniyA' => [
-    {
-      'types' => {},
-      'entry' => 'muwriytAniyA',
-      'form' => 'muwriytAniyA',
-      'lines' => [
-        ';; muwriytAniyA_1',
-        'mwrytAnyA       muwriytAniyA    N0      Mauritania'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mauritania'
-      ],
-      'orig' => 'muwriytAniyA',
-      'prefix' => ''
-    }
-  ],
-  'miliy^grAm' => [
-    {
-      'types' => {
-        'miliy.grAm' => {
-          'NduAt' => 1
-        },
-        'miliy^grAm' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'miliy^grAm',
-      'form' => 'miliy^grAm',
-      'lines' => [
-        ';; miliyjrAm_1',
-        'mlyjrAm miliyjrAm       NduAt   milligram',
-        'mlygrAm miliygrAm       NduAt   milligram'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'milligram'
-      ],
-      'orig' => 'miliyjrAm',
-      'prefix' => ''
-    }
-  ],
-  'mA^giyk' => [
-    {
-      'types' => {},
-      'entry' => 'mA^giyk',
-      'form' => 'mA^giyk',
-      'lines' => [
-        ';; mAjiyk_1',
-        'mAjyk   mAjiyk  Nprop   Magic'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Magic'
-      ],
-      'orig' => 'mAjiyk',
+      'orig' => 'miygAbAyt',
       'prefix' => ''
     }
   ],
@@ -10040,32 +9835,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'marza_huw^s' => [
-    {
-      'types' => {
-        'marzan_huw^s' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'marza_huw^s',
-      'form' => 'marza_huw^s',
-      'lines' => [
-        ';; marozaxuw$_1',
-        'mrzxw$  marozaxuw$      N0      marjoram',
-        'mrznxw$ marozanoxuw$    N0      marjoram'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'marjoram'
-      ],
-      'orig' => 'marozaxuw$',
-      'prefix' => ''
-    }
-  ],
   'm y d l' => [
     {
       'types' => {},
@@ -10084,6 +9853,86 @@ $Lexicon = {
         'Middle'
       ],
       'orig' => 'miydil',
+      'prefix' => ''
+    }
+  ],
+  'm w s' => [
+    {
+      'types' => {},
+      'entry' => 'muwsY',
+      'form' => 'muwsY',
+      'lines' => [
+        ';; muwsaY_1',
+        'mwsY    muwsaY  Nprop   Mousa;Moussa'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FULY',
+      'suffix' => '',
+      'glosses' => [
+        'Mousa',
+        'Moussa'
+      ],
+      'orig' => 'muwsaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muwsY',
+      'form' => 'muwsY',
+      'lines' => [
+        ';; muwsaY_2',
+        'mwsY    muwsaY  Nprop   Moses'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FULY',
+      'suffix' => '',
+      'glosses' => [
+        'Moses'
+      ],
+      'orig' => 'muwsaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muwsY',
+      'form' => 'muwsawiyy',
+      'lines' => [
+        ';; muwsawiy~_1',
+        'mwswy   muwsawiy~       N0      Moussaoui'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FULY |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Moussaoui'
+      ],
+      'orig' => 'muwsawiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muwsY',
+      'form' => 'muwsawiyy',
+      'lines' => [
+        ';; muwsawiy~_2',
+        'mwswy   muwsawiy~       N-ap    Mosaic;Moses     [[muwsawiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'FULY |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Mosaic',
+        'Moses'
+      ],
+      'orig' => 'muwsawiy~',
       'prefix' => ''
     }
   ],
@@ -10114,89 +9963,6 @@ $Lexicon = {
         'sip'
       ],
       'orig' => 'mazomaz',
-      'prefix' => ''
-    }
-  ],
-  'mAliys' => [
-    {
-      'types' => {},
-      'entry' => 'mAliys',
-      'form' => 'mAliys',
-      'lines' => [
-        ';; mAliys_1',
-        'mAlys   mAliys  Nprop   Malisse'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Malisse'
-      ],
-      'orig' => 'mAliys',
-      'prefix' => ''
-    }
-  ],
-  'mArtiyniyz' => [
-    {
-      'types' => {},
-      'entry' => 'mArtiyniyz',
-      'form' => 'mArtiyniyz',
-      'lines' => [
-        ';; mArotiyniyz_1',
-        'mArtynyz        mArotiyniyz     N0      Martinez'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Martinez'
-      ],
-      'orig' => 'mArotiyniyz',
-      'prefix' => ''
-    }
-  ],
-  'muwndiyAl' => [
-    {
-      'types' => {},
-      'entry' => 'muwndiyAl',
-      'form' => 'muwndiyAl',
-      'lines' => [
-        ';; muwnodiyAl_1',
-        'mwndyAl muwnodiyAl      N0_Nh   Mondial (World Cup)'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mondial (World Cup)'
-      ],
-      'orig' => 'muwnodiyAl',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'muwndiyAl',
-      'form' => 'muwndiyAliyy',
-      'lines' => [
-        ';; muwnodiyAliy~_1',
-        'mwndyAly        muwnodiyAliy~   Nall    Mondial (World Cup)     [[muwnodiyAliy~/NOUN]]',
-        'mwndyAly        muwnodiyAliy~   Nall    Mondial (World Cup)     [[muwnodiyAliy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Mondial (World Cup)'
-      ],
-      'orig' => 'muwnodiyAliy~',
       'prefix' => ''
     }
   ],
@@ -10378,14 +10144,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'munuwluw^gist' => [
+  'mUntUbAn' => [
     {
       'types' => {},
-      'entry' => 'munuwluw^gist',
-      'form' => 'munuwluw^gist',
+      'entry' => 'muwntuwbAn',
+      'form' => 'muwntuwbAn',
       'lines' => [
-        ';; munuwluwjisot_1',
-        'mnwlwjst        munuwluwjisot   N       monologue artist'
+        ';; muwnotuwbAn_1',
+        'mwntwbAn        muwnotuwbAn     Nprop   Montauban'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10393,9 +10159,105 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'monologue artist'
+        'Montauban'
       ],
-      'orig' => 'munuwluwjisot',
+      'orig' => 'muwnotuwbAn',
+      'prefix' => ''
+    }
+  ],
+  'mAykrUbA.s' => [
+    {
+      'types' => {
+        'mAykruwbA.s' => {
+          'NduAt' => 1
+        },
+        'maykruwbA.s' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'mAykruwbA.s',
+      'form' => 'mAykruwbA.s',
+      'lines' => [
+        ';; mAyokruwbAS_1',
+        'mAykrwbAS       mAyokruwbAS     NduAt   microbus',
+        'mykrwbAS        mayokruwbAS     NduAt   microbus'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'microbus'
+      ],
+      'orig' => 'mAyokruwbAS',
+      'prefix' => ''
+    }
+  ],
+  'mArA_tUn' => [
+    {
+      'types' => {},
+      'entry' => 'mArA_tuwn',
+      'form' => 'mArA_tuwn',
+      'lines' => [
+        ';; mArAvuwn_1',
+        'mArAvwn mArAvuwn        N0      Marathon'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Marathon'
+      ],
+      'orig' => 'mArAvuwn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mArA_tuwn',
+      'form' => 'mArA_tuwn',
+      'lines' => [
+        ';; mArAvuwn_2',
+        'mArAvwn mArAvuwn        N       marathon'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'marathon'
+      ],
+      'orig' => 'mArAvuwn',
+      'prefix' => ''
+    }
+  ],
+  'mIlUdrAmA' => [
+    {
+      'types' => {
+        'miyluwdrAmiyy' => {
+          'N-ap' => 1
+        }
+      },
+      'entry' => 'miyluwdrAmA',
+      'form' => 'miyluwdrAmA',
+      'lines' => [
+        ';; miyluwdrAmA_1',
+        'mylwdrAmA       miyluwdrAmA     N0      melodrama',
+        'mylwdrAmy       miyluwdrAmiy~   N-ap    melodramatic     [[miyluwdrAmiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'melodrama',
+        'melodramatic'
+      ],
+      'orig' => 'miyluwdrAmA',
       'prefix' => ''
     }
   ],
@@ -10566,19 +10428,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'man^guw' => [
+  'mA_ht^sAyIf' => [
     {
       'types' => {
-        'man.guw' => {
-          'N0' => 1
+        'mA_ht^sAyyf' => {
+          'Nprop' => 1
         }
       },
-      'entry' => 'man^guw',
-      'form' => 'man^guw',
+      'entry' => 'mA_ht^sAyiyf',
+      'form' => 'mA_ht^sAyiyf',
       'lines' => [
-        ';; manojuw_1',
-        'mnjw    manojuw N0      mango',
-        'mngw    manoguw N0      mango'
+        ';; mAxt$Ayiyf_1',
+        'mAxt$Ayyf       mAxt$Ayyf       Nprop   Makhchayev'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10586,9 +10447,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'mango'
+        'Makhchayev'
       ],
-      'orig' => 'manojuw',
+      'orig' => 'mAxt$Ayiyf',
       'prefix' => ''
     }
   ],
@@ -11388,14 +11249,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miliyyit' => [
+  'mIlUrAd' => [
     {
       'types' => {},
-      'entry' => 'miliyyit',
-      'form' => 'miliyyit',
+      'entry' => 'miyluwrAd',
+      'form' => 'miyluwrAd',
       'lines' => [
-        ';; miliyyit_1',
-        'mlyyt   miliyyit        Nprop   Milliyet'
+        ';; miyluwrAd_1',
+        'mylwrAd miyluwrAd       Nprop   Milorad'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11403,9 +11264,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Milliyet'
+        'Milorad'
       ],
-      'orig' => 'miliyyit',
+      'orig' => 'miyluwrAd',
       'prefix' => ''
     }
   ],
@@ -11896,6 +11757,41 @@ $Lexicon = {
         'arraignment'
       ],
       'orig' => 'muvuwl',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'amA_tiyl' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'um_tuwl',
+      'form' => '\'um_tuwlaT',
+      'lines' => [
+        ';; >umovuwlap_1',
+        '>mvwl   >umovuwl        NapAt   example;lesson;warning',
+        'Amvwl   >umovuwl        NapAt   example;lesson;warning',
+        '>mAvyl  >amAviyl        Ndip    examples;lessons;warnings',
+        'AmAvyl  >amAviyl        Ndip    examples;lessons;warnings'
+      ],
+      'patterns' => {
+        '\'amA_tiyl' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'example',
+        'lesson',
+        'warning',
+        'examples',
+        'lessons',
+        'warnings'
+      ],
+      'orig' => 'Oumovuwlap',
       'prefix' => ''
     },
     {
@@ -12395,14 +12291,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mAn^guwt' => [
+  'mI_hA\'Il' => [
     {
       'types' => {},
-      'entry' => 'mAn^guwt',
-      'form' => 'mAn^guwt',
+      'entry' => 'miy_hA\'iyl',
+      'form' => 'miy_hA\'iyl',
       'lines' => [
-        ';; mAnojuwt_1',
-        'mAnjwt  mAnojuwt        Nprop   Mangut'
+        ';; miyxA}iyl_1',
+        'myxA}yl miyxA}iyl       Nprop   Mikhail'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12410,9 +12306,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Mangut'
+        'Mikhail'
       ],
-      'orig' => 'mAnojuwt',
+      'orig' => 'miyxA}iyl',
       'prefix' => ''
     }
   ],
@@ -12438,6 +12334,35 @@ $Lexicon = {
         'Madhya'
       ],
       'orig' => 'midoyA',
+      'prefix' => ''
+    }
+  ],
+  'mIlI^grAm' => [
+    {
+      'types' => {
+        'miyliy^grAm' => {
+          'NduAt' => 1
+        },
+        'miyliy.grAm' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'miyliy^grAm',
+      'form' => 'miyliy^grAm',
+      'lines' => [
+        ';; miyliyjrAm_1',
+        'mylyjrAm        miyliyjrAm      NduAt   milligram',
+        'mylygrAm        miyliygrAm      NduAt   milligram'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'milligram'
+      ],
+      'orig' => 'miyliyjrAm',
       'prefix' => ''
     }
   ],
@@ -12553,27 +12478,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mAdliyn' => [
-    {
-      'types' => {},
-      'entry' => 'mAdliyn',
-      'form' => 'mAdliyn',
-      'lines' => [
-        ';; mAdoliyn_1',
-        'mAdlyn  mAdoliyn        Nprop   Madeleine'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Madeleine'
-      ],
-      'orig' => 'mAdoliyn',
-      'prefix' => ''
-    }
-  ],
   'mAlA^gA^s' => [
     {
       'types' => {
@@ -12600,14 +12504,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mAlAwiy' => [
+  'mUndiyAl' => [
     {
       'types' => {},
-      'entry' => 'mAlAwiy',
-      'form' => 'mAlAwiy',
+      'entry' => 'muwndiyAl',
+      'form' => 'muwndiyAl',
       'lines' => [
-        ';; mAlAwiy_1',
-        'mAlAwy  mAlAwiy N0      Malawi'
+        ';; muwnodiyAl_1',
+        'mwndyAl muwnodiyAl      N0_Nh   Mondial (World Cup)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12615,9 +12519,79 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Malawi'
+        'Mondial (World Cup)'
       ],
-      'orig' => 'mAlAwiy',
+      'orig' => 'muwnodiyAl',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muwndiyAl',
+      'form' => 'muwndiyAliyy',
+      'lines' => [
+        ';; muwnodiyAliy~_1',
+        'mwndyAly        muwnodiyAliy~   Nall    Mondial (World Cup)     [[muwnodiyAliy~/NOUN]]',
+        'mwndyAly        muwnodiyAliy~   Nall    Mondial (World Cup)     [[muwnodiyAliy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Mondial (World Cup)'
+      ],
+      'orig' => 'muwnodiyAliy~',
+      'prefix' => ''
+    }
+  ],
+  'mArkUfIt^s' => [
+    {
+      'types' => {},
+      'entry' => 'mArkuwfiyt^s',
+      'form' => 'mArkuwfiyt^s',
+      'lines' => [
+        ';; mArokuwfiyt$_1',
+        'mArkwfyt$       mArokuwfiyt$    Nprop   Markovic'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Markovic'
+      ],
+      'orig' => 'mArokuwfiyt$',
+      'prefix' => ''
+    }
+  ],
+  'munUlU^g' => [
+    {
+      'types' => {
+        'munuwluw^g' => {
+          'NAt' => 1
+        },
+        'munuwluw.g' => {
+          'N/At' => 1
+        }
+      },
+      'entry' => 'munuwluw^g',
+      'form' => 'munuwluw^g',
+      'lines' => [
+        ';; munuwluwj_1',
+        'mnwlwj  munuwluwj       N/At    monologue',
+        'mnwlwg  munuwluwg       N/At    monologue'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'monologue'
+      ],
+      'orig' => 'munuwluwj',
       'prefix' => ''
     }
   ],
@@ -12799,6 +12773,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mIdlzbruh' => [
+    {
+      'types' => {},
+      'entry' => 'miydlzbruh',
+      'form' => 'miydlzbruh',
+      'lines' => [
+        ';; miydlzobruh_1',
+        'mydlzbrh        miydlzobruh     Nprop   Middlesbrough'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Middlesbrough'
+      ],
+      'orig' => 'miydlzobruh',
+      'prefix' => ''
+    }
+  ],
   'mala.gA^s' => [
     {
       'types' => {},
@@ -12840,14 +12835,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miydlzbruh' => [
+  'mIkrUbiyUlU^giyA' => [
     {
       'types' => {},
-      'entry' => 'miydlzbruh',
-      'form' => 'miydlzbruh',
+      'entry' => 'miykruwbiyuwluw^giyA',
+      'form' => 'miykruwbiyuwluw^giyA',
       'lines' => [
-        ';; miydlzobruh_1',
-        'mydlzbrh        miydlzobruh     Nprop   Middlesbrough'
+        ';; miykoruwbiyuwluwjiyA_1',
+        'mykrwbywlwjyA   miykoruwbiyuwluwjiyA    N0      microbiology'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12855,25 +12850,49 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Middlesbrough'
+        'microbiology'
       ],
-      'orig' => 'miydlzobruh',
+      'orig' => 'miykoruwbiyuwluwjiyA',
       'prefix' => ''
     }
   ],
-  'maqduwniyy' => [
+  'mAdAn^gIt' => [
+    {
+      'types' => {},
+      'entry' => 'mAdAn^giyt',
+      'form' => 'mAdAn^giyt',
+      'lines' => [
+        ';; mAdAnojiyt_1',
+        'mAdAnjyt        mAdAnojiyt      Nprop   Madanjeet'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Madanjeet'
+      ],
+      'orig' => 'mAdAnojiyt',
+      'prefix' => ''
+    }
+  ],
+  'marmi.tUn' => [
     {
       'types' => {
-        'makduwniyy' => {
-          'Nall' => 1
+        'marmituwn' => {
+          'N/At' => 1
+        },
+        'marmi.tuwn' => {
+          'NAt' => 1
         }
       },
-      'entry' => 'maqduwniyy',
-      'form' => 'maqduwniyy',
+      'entry' => 'marmi.tuwn',
+      'form' => 'marmi.tuwn',
       'lines' => [
-        ';; maqoduwniy~_1',
-        'mqdwny  maqoduwniy~     Nall    Macedonian     [[maqoduwniy~/NOUN]]',
-        'mkdwny  makoduwniy~     Nall    Macedonian     [[makoduwniy~/NOUN]]'
+        ';; maromiTuwn_1',
+        'mrmTwn  maromiTuwn      N/At    kitchen boy;scullery boy',
+        'mrmtwn  maromituwn      N/At    kitchen boy;scullery boy'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12881,97 +12900,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Macedonian'
+        'kitchen boy',
+        'scullery boy'
       ],
-      'orig' => 'maqoduwniy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'makduwniyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'maqduwniyy',
-      'form' => 'maqduwniyy',
-      'lines' => [
-        ';; maqoduwniy~_2',
-        'mqdwny  maqoduwniy~     Nall    Macedonian     [[maqoduwniy~/ADJ]]',
-        'mkdwny  makoduwniy~     Nall    Macedonian     [[makoduwniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Macedonian'
-      ],
-      'orig' => 'maqoduwniy~',
-      'prefix' => ''
-    }
-  ],
-  'muskuwfiyy' => [
-    {
-      'types' => {},
-      'entry' => 'muskuwfiyy',
-      'form' => 'muskuwfiyy',
-      'lines' => [
-        ';; musokuwfiy~_1',
-        'mskwfy  musokuwfiy~     Nall    Muscovite     [[musokuwfiy~/NOUN]]',
-        'mskwfy  musokuwfiy~     Nall    Muscovite     [[musokuwfiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Muscovite'
-      ],
-      'orig' => 'musokuwfiy~',
-      'prefix' => ''
-    }
-  ],
-  'muwtuwrz' => [
-    {
-      'types' => {},
-      'entry' => 'muwtuwrz',
-      'form' => 'muwtuwrz',
-      'lines' => [
-        ';; muwtuwrz_1',
-        'mwtwrz  muwtuwrz        Nprop   Motors'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Motors'
-      ],
-      'orig' => 'muwtuwrz',
-      'prefix' => ''
-    }
-  ],
-  'marsiyliyA' => [
-    {
-      'types' => {},
-      'entry' => 'marsiyliyA',
-      'form' => 'marsiyliyA',
-      'lines' => [
-        ';; marosiyliyA_1',
-        'mrsylyA marosiyliyA     N0      Marseille'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Marseille'
-      ],
-      'orig' => 'marosiyliyA',
+      'orig' => 'maromiTuwn',
       'prefix' => ''
     }
   ],
@@ -12993,113 +12925,6 @@ $Lexicon = {
         'Mossad'
       ],
       'orig' => 'muwsAd',
-      'prefix' => ''
-    }
-  ],
-  'ma`karuwn' => [
-    {
-      'types' => {
-        'ma`karuwnah' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'ma`karuwn',
-      'form' => 'ma`karuwnaT',
-      'lines' => [
-        ';; maEokaruwnap_1',
-        'mEkrwn  maEokaruwn      Nap     macaroni',
-        'mEkrwnh maEokaruwnah    N0      macaroni'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'macaroni'
-      ],
-      'orig' => 'maEokaruwnap',
-      'prefix' => ''
-    }
-  ],
-  'miykruwbA.s' => [
-    {
-      'types' => {
-        'miykruwbAs' => {
-          'N/At' => 1
-        },
-        'miykruwbA.s' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'miykruwbA.s',
-      'form' => 'miykruwbA.s',
-      'lines' => [
-        ';; miykoruwbAS_1',
-        'mykrwbAS        miykoruwbAS     N/At    microbus',
-        'mykrwbAs        miykoruwbAs     N/At    microbus'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'microbus'
-      ],
-      'orig' => 'miykoruwbAS',
-      'prefix' => ''
-    }
-  ],
-  'muwzambiyq' => [
-    {
-      'types' => {
-        'muwzAmbiyq' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'muwzambiyq',
-      'form' => 'muwzambiyq',
-      'lines' => [
-        ';; muwzamobiyq_1',
-        'mwzmbyq muwzamobiyq     N0      Mozambique',
-        'mwzAmbyq        muwzAmobiyq     N0      Mozambique'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mozambique'
-      ],
-      'orig' => 'muwzamobiyq',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'muwzAmbiyqiyy' => {
-          'Nall' => 2
-        }
-      },
-      'entry' => 'muwzambiyq',
-      'form' => 'muwzambiyqiyy',
-      'lines' => [
-        ';; muwzamobiyqiy~_1',
-        'mwzmbyqy        muwzamobiyqiy~  Nall    Mozambican     [[muwzamobiyqiy~/NOUN]]',
-        'mwzmbyqy        muwzamobiyqiy~  Nall    Mozambican     [[muwzamobiyqiy~/ADJ]]',
-        'mwzAmbyqy       muwzAmobiyqiy~  Nall    Mozambican     [[muwzAmobiyqiy~/NOUN]]',
-        'mwzAmbyqy       muwzAmobiyqiy~  Nall    Mozambican     [[muwzAmobiyqiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Mozambican'
-      ],
-      'orig' => 'muwzamobiyqiy~',
       'prefix' => ''
     }
   ],
@@ -13494,48 +13319,6 @@ $Lexicon = {
         'mess (communal table)'
       ],
       'orig' => 'miys',
-      'prefix' => ''
-    }
-  ],
-  'makaruwn' => [
-    {
-      'types' => {},
-      'entry' => 'makaruwn',
-      'form' => 'makaruwnaT',
-      'lines' => [
-        ';; makaruwnap_1',
-        'mkrwn   makaruwn        Nap     macaroni'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'macaroni'
-      ],
-      'orig' => 'makaruwnap',
-      'prefix' => ''
-    }
-  ],
-  'miyrd^galAl' => [
-    {
-      'types' => {},
-      'entry' => 'miyrd^galAl',
-      'form' => 'miyrd^galAl',
-      'lines' => [
-        ';; miyrdojalAl_1',
-        'myrdjlAl        miyrdojalAl     Nprop   Mirdjalal'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mirdjalal'
-      ],
-      'orig' => 'miyrdojalAl',
       'prefix' => ''
     }
   ],
@@ -14058,6 +13841,26 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => 'malA\'',
+      'form' => 'malAwiyy',
+      'lines' => [
+        ';; malAwiy~_1',
+        'mlAwy   malAwiy~        Nall    Malawian     [[malAwiy~/NOUN]]',
+        'mlAwy   malAwiy~        Nall    Malawian     [[malAwiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Malawian'
+      ],
+      'orig' => 'malAwiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'maliyy',
       'form' => 'maliyy',
       'lines' => [
@@ -14321,6 +14124,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mUnIkA' => [
+    {
+      'types' => {},
+      'entry' => 'muwniykA',
+      'form' => 'muwniykA',
+      'lines' => [
+        ';; muwniykA_1',
+        'mwnykA  muwniykA        Nprop   Monica'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Monica'
+      ],
+      'orig' => 'muwniykA',
+      'prefix' => ''
+    }
+  ],
   'm _d y' => [
     {
       'types' => {
@@ -14346,6 +14170,33 @@ $Lexicon = {
         'since then'
       ],
       'orig' => 'mu*',
+      'prefix' => ''
+    }
+  ],
+  'mIlI^siyA' => [
+    {
+      'types' => {
+        'miyliy^siy' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'miyliy^siyA',
+      'form' => 'miyliy^siyA',
+      'lines' => [
+        ';; miyliy$iyA_1',
+        'myly$yA miyliy$iyA      N0      militia',
+        'myly$y  miyliy$iy       NAt     militias'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'militia',
+        'militias'
+      ],
+      'orig' => 'miyliy$iyA',
       'prefix' => ''
     }
   ],
@@ -14386,29 +14237,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'maliyll' => [
+  'mUnbUlyIh' => [
     {
-      'types' => {
-        'maliyllA' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'maliyll',
-      'form' => 'maliyllaT',
+      'types' => {},
+      'entry' => 'muwnbuwlyiyh',
+      'form' => 'muwnbuwlyiyh',
       'lines' => [
-        ';; maliyl~ap_1',
-        'mlylp   maliyl~ap       N0      Melilla',
-        'mlylA   maliyl~A        N0      Melilla'
+        ';; muwnobuwloyiyh_1',
+        'mwnbwlyyh       muwnobuwloyiyh  Nprop   Montpellier'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'Melilla'
+        'Montpellier'
       ],
-      'orig' => 'maliyl~ap',
+      'orig' => 'muwnobuwloyiyh',
       'prefix' => ''
     }
   ],
@@ -14978,6 +14824,20 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => 'malA\'',
+      'form' => 'malAwiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'malAwiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => '\'imlA\'',
       'form' => '\'imlA\'',
       'lines' => [],
@@ -15010,82 +14870,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'malliym' => [
-    {
-      'types' => {
-        'malAliym' => {
-          'Ndip' => 1
-        },
-        'malliym' => {
-          'NduAt' => 1
-        },
-        'maliym' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'malliym',
-      'form' => 'malliym',
-      'lines' => [
-        ';; mal~iym_1',
-        'mlym    mal~iym NduAt   millieme',
-        'mlym    maliym  NduAt   millieme',
-        'mlAlym  malAliym        Ndip    milliemes'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'millieme',
-        'milliemes'
-      ],
-      'orig' => 'mal~iym',
-      'prefix' => ''
-    }
-  ],
-  'mAsuwniyy' => [
-    {
-      'types' => {},
-      'entry' => 'mAsuwniyy',
-      'form' => 'mAsuwniyy',
-      'lines' => [
-        ';; mAsuwniy~_1',
-        'mAswny  mAsuwniy~       Nall    Freemason;Masonic     [[mAsuwniy~/NOUN]]',
-        'mAswny  mAsuwniy~       Nall    Freemason;Masonic     [[mAsuwniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Freemason',
-        'Masonic'
-      ],
-      'orig' => 'mAsuwniy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mAsuwniyy',
-      'form' => 'mAsuwniyyaT',
-      'lines' => [
-        ';; mAsuwniy~ap_1',
-        'mAswny  mAsuwniy~       Nap     Freemasonry     [[mAsuwniy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'Freemasonry'
-      ],
-      'orig' => 'mAsuwniy~ap',
-      'prefix' => ''
-    }
-  ],
   'tamyA.t' => [
     {
       'types' => {},
@@ -15104,6 +14888,27 @@ $Lexicon = {
         'Tamyat'
       ],
       'orig' => 'tamoyAT',
+      'prefix' => ''
+    }
+  ],
+  'mIkUn.g' => [
+    {
+      'types' => {},
+      'entry' => 'miykuwn.g',
+      'form' => 'miykuwn.g',
+      'lines' => [
+        ';; miykuwng_1',
+        'mykwng  miykuwng        N0      Mekong'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Mekong'
+      ],
+      'orig' => 'miykuwng',
       'prefix' => ''
     }
   ],
@@ -15225,36 +15030,16 @@ $Lexicon = {
       'glosses' => [],
       'orig' => 'malAwiy',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'malAwiyy',
-      'form' => 'malAwiyy',
-      'lines' => [
-        ';; malAwiy~_1',
-        'mlAwy   malAwiy~        Nall    Malawian     [[malAwiy~/NOUN]]',
-        'mlAwy   malAwiy~        Nall    Malawian     [[malAwiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KaRADIS',
-      'suffix' => '',
-      'glosses' => [
-        'Malawian'
-      ],
-      'orig' => 'malAwiy~',
-      'prefix' => ''
     }
   ],
-  'mAtiyniyh' => [
+  'mUtUrz' => [
     {
       'types' => {},
-      'entry' => 'mAtiyniyh',
-      'form' => 'mAtiyniyh',
+      'entry' => 'muwtuwrz',
+      'form' => 'muwtuwrz',
       'lines' => [
-        ';; mAtiyniyh_1',
-        'mAtynyh mAtiyniyh       N0      matinee'
+        ';; muwtuwrz_1',
+        'mwtwrz  muwtuwrz        Nprop   Motors'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15262,9 +15047,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'matinee'
+        'Motors'
       ],
-      'orig' => 'mAtiyniyh',
+      'orig' => 'muwtuwrz',
       'prefix' => ''
     }
   ],
@@ -15347,6 +15132,27 @@ $Lexicon = {
         'walker'
       ],
       'orig' => 'ma$~A\'',
+      'prefix' => ''
+    }
+  ],
+  'malan_hUliyA' => [
+    {
+      'types' => {},
+      'entry' => 'malan_huwliyA',
+      'form' => 'malan_huwliyA',
+      'lines' => [
+        ';; malanoxuwliyA_1',
+        'mlnxwlyA        malanoxuwliyA   N0      melancholia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'melancholia'
+      ],
+      'orig' => 'malanoxuwliyA',
       'prefix' => ''
     }
   ],
@@ -15848,54 +15654,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mAnuwiyl' => [
-    {
-      'types' => {},
-      'entry' => 'mAnuwiyl',
-      'form' => 'mAnuwiyl',
-      'lines' => [
-        ';; mAnuwiyl_1',
-        'mAnwyl  mAnuwiyl        Nprop   Manuel'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Manuel'
-      ],
-      'orig' => 'mAnuwiyl',
-      'prefix' => ''
-    }
-  ],
-  'miyluwdrAmA' => [
-    {
-      'types' => {
-        'miyluwdrAmiyy' => {
-          'N-ap' => 1
-        }
-      },
-      'entry' => 'miyluwdrAmA',
-      'form' => 'miyluwdrAmA',
-      'lines' => [
-        ';; miyluwdrAmA_1',
-        'mylwdrAmA       miyluwdrAmA     N0      melodrama',
-        'mylwdrAmy       miyluwdrAmiy~   N-ap    melodramatic     [[miyluwdrAmiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'melodrama',
-        'melodramatic'
-      ],
-      'orig' => 'miyluwdrAmA',
-      'prefix' => ''
-    }
-  ],
   'm y .h' => [
     {
       'types' => {
@@ -16084,67 +15842,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwnbuwlyiyh' => [
-    {
-      'types' => {},
-      'entry' => 'muwnbuwlyiyh',
-      'form' => 'muwnbuwlyiyh',
-      'lines' => [
-        ';; muwnobuwloyiyh_1',
-        'mwnbwlyyh       muwnobuwloyiyh  Nprop   Montpellier'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Montpellier'
-      ],
-      'orig' => 'muwnobuwloyiyh',
-      'prefix' => ''
-    }
-  ],
-  'mArkws' => [
-    {
-      'types' => {},
-      'entry' => 'mArkws',
-      'form' => 'mArkws',
-      'lines' => [
-        ';; mArkws_1',
-        'mArkws  mArkws  Nprop   Marcos'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Marcos'
-      ],
-      'orig' => 'mArkws',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mArkws',
-      'form' => 'mArkws',
-      'lines' => [
-        ';; mArkws_2',
-        'mArkws  mArkws  Nprop   Markus'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Markus'
-      ],
-      'orig' => 'mArkws',
-      'prefix' => ''
-    }
-  ],
   'mAt^sAlA' => [
     {
       'types' => {},
@@ -16166,71 +15863,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'maliy_huwliyA' => [
+  'mIkAnIk' => [
     {
       'types' => {},
-      'entry' => 'maliy_huwliyA',
-      'form' => 'maliy_huwliyA',
+      'entry' => 'miykAniyk',
+      'form' => 'miykAniykiyyaT',
       'lines' => [
-        ';; maliyxuwliyA_1',
-        'mlyxwlyA        maliyxuwliyA    N0      melancholia'
+        ';; miykAniykiy~ap_1',
+        'mykAnyky        miykAniykiy~    Nap     mechanics     [[miykAniykiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'Identity |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
       'glosses' => [
-        'melancholia'
+        'mechanics'
       ],
-      'orig' => 'maliyxuwliyA',
-      'prefix' => ''
-    }
-  ],
-  'miy^siyliy' => [
-    {
-      'types' => {},
-      'entry' => 'miy^siyliy',
-      'form' => 'miy^siyliy',
-      'lines' => [
-        ';; miy$iyliy_1',
-        'my$yly  miy$iyliy       Nprop   Michellie'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Michellie'
-      ],
-      'orig' => 'miy$iyliy',
-      'prefix' => ''
-    }
-  ],
-  'muw.gAbiy' => [
-    {
-      'types' => {
-        'muw^gAbiy' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'muw.gAbiy',
-      'form' => 'muw.gAbiy',
-      'lines' => [
-        ';; muwgAbiy_1',
-        'mwgAby  muwgAbiy        Nprop   Mugabe',
-        'mwjAby  muwjAbiy        Nprop   Mugabe'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mugabe'
-      ],
-      'orig' => 'muwgAbiy',
+      'orig' => 'miykAniykiy~ap',
       'prefix' => ''
     }
   ],
@@ -16252,6 +15902,35 @@ $Lexicon = {
         'Maariv'
       ],
       'orig' => 'maEAriyf',
+      'prefix' => ''
+    }
+  ],
+  'mAnIkAn' => [
+    {
+      'types' => {
+        'mAnuwkAn' => {
+          'N/At' => 1
+        },
+        'mAniykAn' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'mAniykAn',
+      'form' => 'mAniykAn',
+      'lines' => [
+        ';; mAniykAn_1',
+        'mAnykAn mAniykAn        N/At    mannequin',
+        'mAnwkAn mAnuwkAn        N/At    mannequin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'mannequin'
+      ],
+      'orig' => 'mAniykAn',
       'prefix' => ''
     }
   ],
@@ -16277,14 +15956,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miytirAn' => [
+  'mAndIlA' => [
     {
       'types' => {},
-      'entry' => 'miytirAn',
-      'form' => 'miytirAn',
+      'entry' => 'mAndiylA',
+      'form' => 'mAndiylA',
       'lines' => [
-        ';; miytirAn_1',
-        'mytrAn  miytirAn        Nprop   Mitterand'
+        ';; mAnodiylA_1',
+        'mAndylA mAnodiylA       Nprop   Mandela'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16292,9 +15971,51 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Mitterand'
+        'Mandela'
       ],
-      'orig' => 'miytirAn',
+      'orig' => 'mAnodiylA',
+      'prefix' => ''
+    }
+  ],
+  'mIrU' => [
+    {
+      'types' => {},
+      'entry' => 'miyruw',
+      'form' => 'miyruw',
+      'lines' => [
+        ';; miyruw_1',
+        'myrw    miyruw  Nprop   Miro'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Miro'
+      ],
+      'orig' => 'miyruw',
+      'prefix' => ''
+    }
+  ],
+  'mUntriyAl' => [
+    {
+      'types' => {},
+      'entry' => 'muwntriyAl',
+      'form' => 'muwntriyAl',
+      'lines' => [
+        ';; muwnotriyAl_1',
+        'mwntryAl        muwnotriyAl     Nprop   Montreal'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Montreal'
+      ],
+      'orig' => 'muwnotriyAl',
       'prefix' => ''
     }
   ],
@@ -16417,7 +16138,7 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miylt^siyuwr' => [
+  'mIlt^siyUr' => [
     {
       'types' => {},
       'entry' => 'miylt^siyuwr',
@@ -16520,31 +16241,6 @@ $Lexicon = {
         'festival'
       ],
       'orig' => 'mahorajAniy~',
-      'prefix' => ''
-    }
-  ],
-  'miykruwfiylm' => [
-    {
-      'types' => {
-        'miykruwfiylm' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'miykruwfiylm',
-      'form' => 'miykruwfiylm',
-      'lines' => [
-        ';; miykoruwfiylm_1',
-        'mykrwfylm       miykoruwfiylm   N/At    microfilm'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'microfilm'
-      ],
-      'orig' => 'miykoruwfiylm',
       'prefix' => ''
     }
   ],
@@ -16899,19 +16595,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwsiyqY' => [
+  'milyArdIr' => [
     {
-      'types' => {
-        'muwsiyqA' => {
-          'Nh' => 1
-        }
-      },
-      'entry' => 'muwsiyqY',
-      'form' => 'muwsiyqY',
+      'types' => {},
+      'entry' => 'milyArdiyr',
+      'form' => 'milyArdiyr',
       'lines' => [
-        ';; muwsiyqaY_1',
-        'mwsyqY  muwsiyqaY       N0      music',
-        'mwsyqA  muwsiyqA        Nh      music'
+        ';; miloyArodiyr_1',
+        'mlyArdyr        miloyArodiyr    N-ap    billionaire'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16919,9 +16610,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'music'
+        'billionaire'
       ],
-      'orig' => 'muwsiyqaY',
+      'orig' => 'miloyArodiyr',
       'prefix' => ''
     }
   ],
@@ -17200,28 +16891,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miydAwiyy' => [
-    {
-      'types' => {},
-      'entry' => 'miydAwiyy',
-      'form' => 'miydAwiyy',
-      'lines' => [
-        ';; miydAwiy~_1',
-        'mydAwy  miydAwiy~       N0      Midaoui;Midawi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Midaoui',
-        'Midawi'
-      ],
-      'orig' => 'miydAwiy~',
-      'prefix' => ''
-    }
-  ],
   'm _t n' => [
     {
       'types' => {},
@@ -17243,22 +16912,36 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'marmi.tuwn' => [
+  'mIzUbUtAm' => [
     {
-      'types' => {
-        'marmituwn' => {
-          'N/At' => 1
-        },
-        'marmi.tuwn' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'marmi.tuwn',
-      'form' => 'marmi.tuwn',
+      'types' => {},
+      'entry' => 'miyzuwbuwtAm',
+      'form' => 'miyzuwbuwtAmiyy',
       'lines' => [
-        ';; maromiTuwn_1',
-        'mrmTwn  maromiTuwn      N/At    kitchen boy;scullery boy',
-        'mrmtwn  maromituwn      N/At    kitchen boy;scullery boy'
+        ';; miyzuwbuwtAmiy~_1',
+        'myzwbwtAmy      miyzuwbuwtAmiy~ Nall    Mesopotamian     [[miyzuwbuwtAmiy~/NOUN]]',
+        'myzwbwtAmy      miyzuwbuwtAmiy~ Nall    Mesopotamian     [[miyzuwbuwtAmiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Mesopotamian'
+      ],
+      'orig' => 'miyzuwbuwtAmiy~',
+      'prefix' => ''
+    }
+  ],
+  'mAyUrInzI' => [
+    {
+      'types' => {},
+      'entry' => 'mAyuwriynziy',
+      'form' => 'mAyuwriynziy',
+      'lines' => [
+        ';; mAyuwriynoziy_1',
+        'mAywrynzy       mAyuwriynoziy   N0      Mayorense'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17266,10 +16949,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'kitchen boy',
-        'scullery boy'
+        'Mayorense'
       ],
-      'orig' => 'maromiTuwn',
+      'orig' => 'mAyuwriynoziy',
+      'prefix' => ''
+    }
+  ],
+  'mIrnyI' => [
+    {
+      'types' => {},
+      'entry' => 'miyrnyiy',
+      'form' => 'miyrnyiy',
+      'lines' => [
+        ';; miyronyiy_1',
+        'myrnyy  miyronyiy       Nprop   Mirnyi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Mirnyi'
+      ],
+      'orig' => 'miyronyiy',
       'prefix' => ''
     }
   ],
@@ -18129,24 +17832,36 @@ $Lexicon = {
       ],
       'orig' => 'mamoruwr',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mir',
+      'form' => 'miriyy',
+      'lines' => [
+        ';; miriy~_1',
+        'mry     miriy~  N0      Meri;Miri'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FiL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Meri',
+        'Miri'
+      ],
+      'orig' => 'miriy~',
+      'prefix' => ''
     }
   ],
-  'mAykruwbA.s' => [
+  'mIndAnAw' => [
     {
-      'types' => {
-        'mAykruwbA.s' => {
-          'NduAt' => 1
-        },
-        'maykruwbA.s' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'mAykruwbA.s',
-      'form' => 'mAykruwbA.s',
+      'types' => {},
+      'entry' => 'miyndAnAw',
+      'form' => 'miyndAnAw',
       'lines' => [
-        ';; mAyokruwbAS_1',
-        'mAykrwbAS       mAyokruwbAS     NduAt   microbus',
-        'mykrwbAS        mayokruwbAS     NduAt   microbus'
+        ';; miynodAnAw_1',
+        'myndAnAw        miynodAnAw      Nprop   Mindanao'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18154,9 +17869,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'microbus'
+        'Mindanao'
       ],
-      'orig' => 'mAyokruwbAS',
+      'orig' => 'miynodAnAw',
       'prefix' => ''
     }
   ],
@@ -18277,6 +17992,54 @@ $Lexicon = {
         'spittle'
       ],
       'orig' => 'mujAj',
+      'prefix' => ''
+    }
+  ],
+  'mArkUs' => [
+    {
+      'types' => {
+        'mArkws' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'mArkuws',
+      'form' => 'mArkuws',
+      'lines' => [
+        ';; mArkuws_1',
+        'mArkws  mArkws  Nprop   Marcos'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Marcos'
+      ],
+      'orig' => 'mArkuws',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'mArkws' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'mArkuws',
+      'form' => 'mArkuws',
+      'lines' => [
+        ';; mArkuws_2',
+        'mArkws  mArkws  Nprop   Markus'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Markus'
+      ],
+      'orig' => 'mArkuws',
       'prefix' => ''
     }
   ],
@@ -18535,27 +18298,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'munastiyr' => [
-    {
-      'types' => {},
-      'entry' => 'munastiyr',
-      'form' => 'munastiyr',
-      'lines' => [
-        ';; munastiyr_1',
-        'mnstyr  munastiyr       N0      Monastir'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Monastir'
-      ],
-      'orig' => 'munastiyr',
-      'prefix' => ''
-    }
-  ],
   'm w r w' => [
     {
       'types' => {},
@@ -18574,6 +18316,31 @@ $Lexicon = {
         'Moro'
       ],
       'orig' => 'muwruw',
+      'prefix' => ''
+    }
+  ],
+  'mUrIskU' => [
+    {
+      'types' => {
+        'muwriyskw' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'muwriyskuw',
+      'form' => 'muwriyskuw',
+      'lines' => [
+        ';; muwriyskuw_1',
+        'mwryskw muwriyskw       N0      Morisco'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Morisco'
+      ],
+      'orig' => 'muwriyskuw',
       'prefix' => ''
     }
   ],
@@ -18596,50 +18363,101 @@ $Lexicon = {
       ],
       'orig' => 'mAsuwn',
       'prefix' => ''
-    }
-  ],
-  'mAriy^guwAnA' => [
+    },
     {
       'types' => {},
-      'entry' => 'mAriy^guwAnA',
-      'form' => 'mAriy^guwAnA',
+      'entry' => 'mAsuwn',
+      'form' => 'mAsuwniyy',
       'lines' => [
-        ';; mAriyjuwAnA_1',
-        'mAryjwAnA       mAriyjuwAnA     N0      marijuana'
+        ';; mAsuwniy~_1',
+        'mAswny  mAsuwniy~       Nall    Freemason;Masonic     [[mAsuwniy~/NOUN]]',
+        'mAswny  mAsuwniy~       Nall    Freemason;Masonic     [[mAsuwniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACUL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Freemason',
+        'Masonic'
+      ],
+      'orig' => 'mAsuwniy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mAsuwn',
+      'form' => 'mAsuwniyyaT',
+      'lines' => [
+        ';; mAsuwniy~ap_1',
+        'mAswny  mAsuwniy~       Nap     Freemasonry     [[mAsuwniy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'FACUL |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
       'glosses' => [
-        'marijuana'
+        'Freemasonry'
       ],
-      'orig' => 'mAriyjuwAnA',
+      'orig' => 'mAsuwniy~ap',
       'prefix' => ''
     }
   ],
-  'miy.gAbitt' => [
+  'mIkAnizm' => [
     {
       'types' => {
-        'miy^gAbiyt' => {
-          'N' => 1
+        'miykAniykiyy' => {
+          'N-ap' => 1
         },
-        'miy.gAbiyt' => {
-          'N' => 1
+        'miykAniyk' => {
+          'N0' => 1
         },
-        'miy^gAbitt' => {
-          'N' => 1
+        'miykAniyy' => {
+          'N-ap' => 1
+        },
+        'miykAniykA' => {
+          'N0' => 1
         }
       },
-      'entry' => 'miy.gAbitt',
-      'form' => 'miy.gAbitt',
+      'entry' => 'miykAnizm',
+      'form' => 'miykAnizm',
       'lines' => [
-        ';; miygAbit~_1',
-        'mygAbt  miygAbit~       N       megabit',
-        'myjAbt  miyjAbit~       N       megabit',
-        'mygAbyt miygAbiyt       N       megabit',
-        'myjAbyt miyjAbiyt       N       megabit'
+        ';; miykAnizm_1',
+        'mykAnzm miykAnizm       N0      mechanism',
+        'mykAny  miykAniy~       N-ap    mechanical     [[miykAniy~/ADJ]]',
+        'mykAnyk miykAniyk       N0      mechanics',
+        'mykAnykA        miykAniykA      N0      mechanics',
+        'mykAnyky        miykAniykiy~    N-ap    mechanical;motorized     [[miykAniykiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'mechanism',
+        'mechanical',
+        'mechanics',
+        'motorized'
+      ],
+      'orig' => 'miykAnizm',
+      'prefix' => ''
+    }
+  ],
+  'mAmiyIt' => [
+    {
+      'types' => {
+        'mAmiyyt' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'mAmiyiyt',
+      'form' => 'mAmiyiyt',
+      'lines' => [
+        ';; mAmiyiyt_1',
+        'mAmyyt  mAmiyyt Nprop   Mamiit'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18647,9 +18465,35 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'megabit'
+        'Mamiit'
       ],
-      'orig' => 'miygAbit~',
+      'orig' => 'mAmiyiyt',
+      'prefix' => ''
+    }
+  ],
+  'maqdUniyA' => [
+    {
+      'types' => {
+        'makduwniyA' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'maqduwniyA',
+      'form' => 'maqduwniyA',
+      'lines' => [
+        ';; maqoduwniyA_1',
+        'mqdwnyA maqoduwniyA     N0      Macedonia',
+        'mkdwnyA makoduwniyA     N0      Macedonia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Macedonia'
+      ],
+      'orig' => 'maqoduwniyA',
       'prefix' => ''
     }
   ],
@@ -18717,6 +18561,27 @@ $Lexicon = {
         'Minh (in "Ho Chi Minh")'
       ],
       'orig' => 'minoh',
+      'prefix' => ''
+    }
+  ],
+  'man.ganIs' => [
+    {
+      'types' => {},
+      'entry' => 'man.ganiys',
+      'form' => 'man.ganiys',
+      'lines' => [
+        ';; manoganiys_1',
+        'mngnys  manoganiys      N0      manganese'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'manganese'
+      ],
+      'orig' => 'manoganiys',
       'prefix' => ''
     }
   ],
@@ -18908,6 +18773,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mA^gIk' => [
+    {
+      'types' => {},
+      'entry' => 'mA^giyk',
+      'form' => 'mA^giyk',
+      'lines' => [
+        ';; mAjiyk_1',
+        'mAjyk   mAjiyk  Nprop   Magic'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Magic'
+      ],
+      'orig' => 'mAjiyk',
+      'prefix' => ''
+    }
+  ],
   'm r k z' => [
     {
       'types' => {},
@@ -18998,6 +18884,40 @@ $Lexicon = {
         'marquis'
       ],
       'orig' => 'marokiyz',
+      'prefix' => ''
+    }
+  ],
+  'mallIm' => [
+    {
+      'types' => {
+        'malAliym' => {
+          'Ndip' => 1
+        },
+        'malliym' => {
+          'NduAt' => 1
+        },
+        'maliym' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'malliym',
+      'form' => 'malliym',
+      'lines' => [
+        ';; mal~iym_1',
+        'mlym    mal~iym NduAt   millieme',
+        'mlym    maliym  NduAt   millieme',
+        'mlAlym  malAliym        Ndip    milliemes'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'millieme',
+        'milliemes'
+      ],
+      'orig' => 'mal~iym',
       'prefix' => ''
     }
   ],
@@ -19279,14 +19199,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwsAwiyy' => [
+  'mArtInA' => [
     {
       'types' => {},
-      'entry' => 'muwsAwiyy',
-      'form' => 'muwsAwiyy',
+      'entry' => 'mArtiynA',
+      'form' => 'mArtiynA',
       'lines' => [
-        ';; muwsAwiy~_1',
-        'mwsAwy  muwsAwiy~       N0      Moussaoui'
+        ';; mArotiynA_1',
+        'mArtynA mArotiynA       N0      Martina'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19294,47 +19214,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Moussaoui'
+        'Martina'
       ],
-      'orig' => 'muwsAwiy~',
+      'orig' => 'mArotiynA',
       'prefix' => ''
     }
   ],
-  'muwbiyliyA' => [
-    {
-      'types' => {
-        'muwbiyliy' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'muwbiyliyA',
-      'form' => 'muwbiyliyA',
-      'lines' => [
-        ';; muwbiyliyA_1',
-        'mwbylyA muwbiyliyA      N0      furniture;furnishings',
-        'mwbyly  muwbiyliy       NAt     furniture;furnishings'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'furniture',
-        'furnishings'
-      ],
-      'orig' => 'muwbiyliyA',
-      'prefix' => ''
-    }
-  ],
-  'miyzAniyn' => [
+  'mItAfIzIqA' => [
     {
       'types' => {},
-      'entry' => 'miyzAniyn',
-      'form' => 'miyzAniyn',
+      'entry' => 'miytAfiyziyqA',
+      'form' => 'miytAfiyziyqA',
       'lines' => [
-        ';; miyzAniyn_1',
-        'myzAnyn miyzAniyn       N0      mezzanine'
+        ';; miytAfiyziyqA_1',
+        'mytAfyzyqA      miytAfiyziyqA   N0      metaphysics'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19342,30 +19235,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'mezzanine'
+        'metaphysics'
       ],
-      'orig' => 'miyzAniyn',
-      'prefix' => ''
-    }
-  ],
-  'miyliyt^s' => [
-    {
-      'types' => {},
-      'entry' => 'miyliyt^s',
-      'form' => 'miyliyt^s',
-      'lines' => [
-        ';; miyliyt$_1',
-        'mylyt$  miyliyt$        Nprop   Millic'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Millic'
-      ],
-      'orig' => 'miyliyt$',
+      'orig' => 'miytAfiyziyqA',
       'prefix' => ''
     }
   ],
@@ -19623,102 +19495,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwriytAn' => [
+  'mIkrUfIlm' => [
     {
-      'types' => {},
-      'entry' => 'muwriytAn',
-      'form' => 'muwriytAniyy',
+      'types' => {
+        'miykruwfiylm' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'miykruwfiylm',
+      'form' => 'miykruwfiylm',
       'lines' => [
-        ';; muwriytAniy~_1',
-        'mwrytAny        muwriytAniy~    Nall    Mauritanian     [[muwriytAniy~/NOUN]]',
-        'mwrytAny        muwriytAniy~    Nall    Mauritanian     [[muwriytAniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Mauritanian'
-      ],
-      'orig' => 'muwriytAniy~',
-      'prefix' => ''
-    }
-  ],
-  'mAsuw_hiyy' => [
-    {
-      'types' => {},
-      'entry' => 'mAsuw_hiyy',
-      'form' => 'mAsuw_hiyy',
-      'lines' => [
-        ';; mAsuwxiy~_1',
-        'mAswxy  mAsuwxiy~       Nall    masochist     [[mAsuwxiy~/ADJ]]',
-        'mAswxy  mAsuwxiy~       Nap     masochism     [[mAsuwxiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'masochist',
-        'masochism'
-      ],
-      'orig' => 'mAsuwxiy~',
-      'prefix' => ''
-    }
-  ],
-  'mAhiyy' => [
-    {
-      'types' => {},
-      'entry' => 'mAhiyy',
-      'form' => 'mAhiyyaT',
-      'lines' => [
-        ';; mAhiy~ap_1',
-        'mAhy    mAhiy~  NapAt   nature;quality     [[mAhiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'nature',
-        'quality'
-      ],
-      'orig' => 'mAhiy~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mAhiyy',
-      'form' => 'mAhiyyaT',
-      'lines' => [
-        ';; mAhiy~ap_2',
-        'mAhy    mAhiy~  NapAt   salary;income;pay     [[mAhiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'salary',
-        'income',
-        'pay'
-      ],
-      'orig' => 'mAhiy~ap',
-      'prefix' => ''
-    }
-  ],
-  'mAkuwniy' => [
-    {
-      'types' => {},
-      'entry' => 'mAkuwniy',
-      'form' => 'mAkuwniy',
-      'lines' => [
-        ';; mAkuwniy_1',
-        'mAkwny  mAkuwniy        Nprop   Makoni'
+        ';; miykoruwfiylm_1',
+        'mykrwfylm       miykoruwfiylm   N/At    microfilm'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19726,9 +19514,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Makoni'
+        'microfilm'
       ],
-      'orig' => 'mAkuwniy',
+      'orig' => 'miykoruwfiylm',
       'prefix' => ''
     }
   ],
@@ -20126,6 +19914,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'manUmitr' => [
+    {
+      'types' => {
+        'manuwmitr' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'manuwmitr',
+      'form' => 'manuwmitr',
+      'lines' => [
+        ';; manuwmitr_1',
+        'mnwmtr  manuwmitr       N/At    manometer'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'manometer'
+      ],
+      'orig' => 'manuwmitr',
+      'prefix' => ''
+    }
+  ],
   'm r ^s' => [
     {
       'types' => {
@@ -20156,28 +19969,6 @@ $Lexicon = {
         'FCuL'
       ],
       'orig' => 'mara$-u',
-      'prefix' => ''
-    }
-  ],
-  'muwriy.tAn' => [
-    {
-      'types' => {},
-      'entry' => 'muwriy.tAn',
-      'form' => 'muwriy.tAniyy',
-      'lines' => [
-        ';; muwriyTAniy~_1',
-        'mwryTAny        muwriyTAniy~    Nall    Mauritanian     [[muwriyTAniy~/NOUN]]',
-        'mwryTAny        muwriyTAniy~    Nall    Mauritanian     [[muwriyTAniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Mauritanian'
-      ],
-      'orig' => 'muwriyTAniy~',
       'prefix' => ''
     }
   ],
@@ -20439,6 +20230,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mUrAtizm' => [
+    {
+      'types' => {},
+      'entry' => 'muwrAtizm',
+      'form' => 'muwrAtizm',
+      'lines' => [
+        ';; muwrAtizm_1',
+        'mwrAtzm muwrAtizm       N0      rheumatism'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'rheumatism'
+      ],
+      'orig' => 'muwrAtizm',
+      'prefix' => ''
+    }
+  ],
   'm \' .z' => [
     {
       'types' => {},
@@ -20457,6 +20269,27 @@ $Lexicon = {
         'appetizers'
       ],
       'orig' => 'mAZap',
+      'prefix' => ''
+    }
+  ],
+  'mAnIfistU' => [
+    {
+      'types' => {},
+      'entry' => 'mAniyfistuw',
+      'form' => 'mAniyfistuw',
+      'lines' => [
+        ';; mAniyfisotuw_1',
+        'mAnyfstw        mAniyfisotuw    N0      manifesto'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'manifesto'
+      ],
+      'orig' => 'mAniyfisotuw',
       'prefix' => ''
     }
   ],
@@ -21251,14 +21084,23 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mAkntw^s' => [
+  'mInA' => [
     {
-      'types' => {},
-      'entry' => 'mAkntw^s',
-      'form' => 'mAkntw^s',
+      'types' => {
+        'miynA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'miynA',
+      'form' => 'miynA',
       'lines' => [
-        ';; mAkntw$_1',
-        'mAkntw$ mAkntw$ Nprop   Macintosh'
+        ';; miynA_1',
+        'mynA    miynA   N0      glaze;enamel',
+        'mynA\'   miynA\'  N0_Nh   glaze;enamel',
+        'mynA&   miynA&  Nh      glaze;enamel',
+        'mynA}   miynA}  Nhy     glaze;enamel'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21266,30 +21108,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Macintosh'
+        'glaze',
+        'enamel'
       ],
-      'orig' => 'mAkntw$',
-      'prefix' => ''
-    }
-  ],
-  'muwnA' => [
-    {
-      'types' => {},
-      'entry' => 'muwnA',
-      'form' => 'muwnA',
-      'lines' => [
-        ';; muwnA_1',
-        'mwnA    muwnA   Nprop   Mona'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mona'
-      ],
-      'orig' => 'muwnA',
+      'orig' => 'miynA',
       'prefix' => ''
     }
   ],
@@ -21312,28 +21134,6 @@ $Lexicon = {
         'madam'
       ],
       'orig' => 'madAm',
-      'prefix' => ''
-    }
-  ],
-  'miylAnuw' => [
-    {
-      'types' => {},
-      'entry' => 'miylAnuw',
-      'form' => 'miylAnuw',
-      'lines' => [
-        ';; miylAnuw_1',
-        'mylAnw  miylAnuw        N0      Milano;Milan'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Milano',
-        'Milan'
-      ],
-      'orig' => 'miylAnuw',
       'prefix' => ''
     }
   ],
@@ -21383,6 +21183,27 @@ $Lexicon = {
         'Moroccanization'
       ],
       'orig' => 'magorabap',
+      'prefix' => ''
+    }
+  ],
+  'mAynhUf' => [
+    {
+      'types' => {},
+      'entry' => 'mAynhuwf',
+      'form' => 'mAynhuwf',
+      'lines' => [
+        ';; mAynohuwf_1',
+        'mAynhwf mAynohuwf       Nprop   Meinhoff'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Meinhoff'
+      ],
+      'orig' => 'mAynohuwf',
       'prefix' => ''
     }
   ],
@@ -21612,20 +21433,30 @@ $Lexicon = {
       ],
       'orig' => 'mirA\'',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mir',
+      'form' => 'miriyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FiC |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'miriy~',
+      'prefix' => ''
     }
   ],
-  'miliymitr' => [
+  'maksIkAlI' => [
     {
-      'types' => {
-        'miliymitr' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'miliymitr',
-      'form' => 'miliymitr',
+      'types' => {},
+      'entry' => 'maksiykAliy',
+      'form' => 'maksiykAliy',
       'lines' => [
-        ';; miliymitr_1',
-        'mlymtr  miliymitr       NduAt   millimeter'
+        ';; makosiykAliy_1',
+        'mksykAly        makosiykAliy    N0      Mexicali'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21633,9 +21464,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'millimeter'
+        'Mexicali'
       ],
-      'orig' => 'miliymitr',
+      'orig' => 'makosiykAliy',
       'prefix' => ''
     }
   ],
@@ -21743,6 +21574,32 @@ $Lexicon = {
         'stormy'
       ],
       'orig' => 'mA}ij',
+      'prefix' => ''
+    }
+  ],
+  'ma`karUn' => [
+    {
+      'types' => {
+        'ma`karuwnah' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'ma`karuwn',
+      'form' => 'ma`karuwnaT',
+      'lines' => [
+        ';; maEokaruwnap_1',
+        'mEkrwn  maEokaruwn      Nap     macaroni',
+        'mEkrwnh maEokaruwnah    N0      macaroni'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'macaroni'
+      ],
+      'orig' => 'maEokaruwnap',
       'prefix' => ''
     }
   ],
@@ -21862,6 +21719,33 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mUbIliyA' => [
+    {
+      'types' => {
+        'muwbiyliy' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'muwbiyliyA',
+      'form' => 'muwbiyliyA',
+      'lines' => [
+        ';; muwbiyliyA_1',
+        'mwbylyA muwbiyliyA      N0      furniture;furnishings',
+        'mwbyly  muwbiyliy       NAt     furniture;furnishings'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'furniture',
+        'furnishings'
+      ],
+      'orig' => 'muwbiyliyA',
+      'prefix' => ''
+    }
+  ],
   'm \' `' => [
     {
       'types' => {},
@@ -21918,53 +21802,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'maqduwniyA' => [
-    {
-      'types' => {
-        'makduwniyA' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'maqduwniyA',
-      'form' => 'maqduwniyA',
-      'lines' => [
-        ';; maqoduwniyA_1',
-        'mqdwnyA maqoduwniyA     N0      Macedonia',
-        'mkdwnyA makoduwniyA     N0      Macedonia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Macedonia'
-      ],
-      'orig' => 'maqoduwniyA',
-      'prefix' => ''
-    }
-  ],
-  'muwriyskw' => [
-    {
-      'types' => {},
-      'entry' => 'muwriyskw',
-      'form' => 'muwriyskw',
-      'lines' => [
-        ';; muwriyskw_1',
-        'mwryskw muwriyskw       N0      Morisco'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Morisco'
-      ],
-      'orig' => 'muwriyskw',
-      'prefix' => ''
-    }
-  ],
   'm y k' => [
     {
       'types' => {},
@@ -21986,14 +21823,36 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mA^gistiyr' => [
+  'mAnIfAtUr' => [
     {
       'types' => {},
-      'entry' => 'mA^gistiyr',
-      'form' => 'mA^gistiyr',
+      'entry' => 'mAniyfAtuwr',
+      'form' => 'mAniyfAtuwraT',
       'lines' => [
-        ';; mAjisotiyr_1',
-        'mAjstyr mAjisotiyr      N       master\'s degree'
+        ';; mAniyfAtuwrap_1',
+        'mAnyfAtwr       mAniyfAtuwr     Nap     manufactured goods;textiles'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'manufactured goods',
+        'textiles'
+      ],
+      'orig' => 'mAniyfAtuwrap',
+      'prefix' => ''
+    }
+  ],
+  'mAmU_t' => [
+    {
+      'types' => {},
+      'entry' => 'mAmuw_t',
+      'form' => 'mAmuw_t',
+      'lines' => [
+        ';; mAmuwv_1',
+        'mAmwv   mAmuwv  N       mammoth'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22001,9 +21860,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'master\'s degree'
+        'mammoth'
       ],
-      'orig' => 'mAjisotiyr',
+      'orig' => 'mAmuwv',
       'prefix' => ''
     }
   ],
@@ -22028,14 +21887,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwluwtuwf' => [
+  'mUsIqY' => [
     {
-      'types' => {},
-      'entry' => 'muwluwtuwf',
-      'form' => 'muwluwtuwf',
+      'types' => {
+        'muwsiyqA' => {
+          'Nh' => 1
+        }
+      },
+      'entry' => 'muwsiyqY',
+      'form' => 'muwsiyqY',
       'lines' => [
-        ';; muwluwtuwf_1',
-        'mwlwtwf muwluwtuwf      N0      Molotov'
+        ';; muwsiyqaY_1',
+        'mwsyqY  muwsiyqaY       N0      music',
+        'mwsyqA  muwsiyqA        Nh      music'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22043,9 +21907,51 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Molotov'
+        'music'
       ],
-      'orig' => 'muwluwtuwf',
+      'orig' => 'muwsiyqaY',
+      'prefix' => ''
+    }
+  ],
+  'mUr.gInstIrn' => [
+    {
+      'types' => {},
+      'entry' => 'muwr.giynstiyrn',
+      'form' => 'muwr.giynstiyrn',
+      'lines' => [
+        ';; muwrogiynstiyrn_1',
+        'mwrgynstyrn     muwrogiynstiyrn Nprop   Morgenstern'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Morgenstern'
+      ],
+      'orig' => 'muwrogiynstiyrn',
+      'prefix' => ''
+    }
+  ],
+  'mIkAyil' => [
+    {
+      'types' => {},
+      'entry' => 'miykAyil',
+      'form' => 'miykAyil',
+      'lines' => [
+        ';; miykAyil_1',
+        'mykAyl  miykAyil        Nprop   Mikael'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Mikael'
+      ],
+      'orig' => 'miykAyil',
       'prefix' => ''
     }
   ],
@@ -22080,14 +21986,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miysmir' => [
+  'mAtsArIllI' => [
     {
-      'types' => {},
-      'entry' => 'miysmir',
-      'form' => 'miysmir',
+      'types' => {
+        'mAtsArylly' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'mAtsAriylliy',
+      'form' => 'mAtsAriylliy',
       'lines' => [
-        ';; miysomir_1',
-        'mysmr   miysomir        Nprop   Messmer'
+        ';; mAtsAriylliy_1',
+        'mAtsArylly      mAtosArylly     Nprop   Mazzarelli'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22095,30 +22005,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Messmer'
+        'Mazzarelli'
       ],
-      'orig' => 'miysomir',
-      'prefix' => ''
-    }
-  ],
-  'muwrAtizm' => [
-    {
-      'types' => {},
-      'entry' => 'muwrAtizm',
-      'form' => 'muwrAtizm',
-      'lines' => [
-        ';; muwrAtizm_1',
-        'mwrAtzm muwrAtizm       N0      rheumatism'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'rheumatism'
-      ],
-      'orig' => 'muwrAtizm',
+      'orig' => 'mAtsAriylliy',
       'prefix' => ''
     }
   ],
@@ -22465,6 +22354,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mA^sAkUs' => [
+    {
+      'types' => {
+        'ma^sAkuws' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'mA^sAkuws',
+      'form' => 'mA^sAkuws',
+      'lines' => [
+        ';; mA$Akuws_1',
+        'mA$Akws mA$Akuws        N0      Machakos',
+        'm$Akws  ma$Akuws        N0      Machakos'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Machakos'
+      ],
+      'orig' => 'mA$Akuws',
+      'prefix' => ''
+    }
+  ],
   'm d \'' => [
     {
       'types' => {},
@@ -22548,27 +22463,82 @@ $Lexicon = {
       'glosses' => [],
       'orig' => 'miydA\'a',
       'prefix' => ''
-    }
-  ],
-  'mAliyziyy' => [
+    },
     {
       'types' => {},
-      'entry' => 'mAliyziyy',
-      'form' => 'mAliyziyy',
+      'entry' => 'miydA\'',
+      'form' => 'miydAwiyy',
       'lines' => [
-        ';; mAliyziy~_1',
-        'mAlyzy  mAliyziy~       Nall    Malaysian     [[mAliyziy~/NOUN]]',
-        'mAlyzy  mAliyziy~       Nall    Malaysian     [[mAliyziy~/ADJ]]'
+        ';; miydAwiy~_1',
+        'mydAwy  miydAwiy~       N0      Midaoui;Midawi'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
+      'morphs' => 'MICAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Midaoui',
+        'Midawi'
+      ],
+      'orig' => 'miydAwiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'miydA\'',
+      'form' => 'miydAwiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FICAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'miydAwiy~',
+      'prefix' => ''
+    }
+  ],
+  'mU_hIkA' => [
+    {
+      'types' => {},
+      'entry' => 'muw_hiykA',
+      'form' => 'muw_hiykA',
+      'lines' => [
+        ';; muwxiykA_1',
+        'mwxykA  muwxiykA        Nprop   Mugica;Mujica'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Malaysian'
+        'Mugica',
+        'Mujica'
       ],
-      'orig' => 'mAliyziy~',
+      'orig' => 'muwxiykA',
+      'prefix' => ''
+    }
+  ],
+  'munastIr' => [
+    {
+      'types' => {},
+      'entry' => 'munastiyr',
+      'form' => 'munastiyr',
+      'lines' => [
+        ';; munastiyr_1',
+        'mnstyr  munastiyr       N0      Monastir'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Monastir'
+      ],
+      'orig' => 'munastiyr',
       'prefix' => ''
     }
   ],
@@ -23510,48 +23480,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'man^suwriyA' => [
-    {
-      'types' => {},
-      'entry' => 'man^suwriyA',
-      'form' => 'man^suwriyA',
-      'lines' => [
-        ';; mano$uwriyA_1',
-        'mn$wryA mano$uwriyA     N0      Manchuria'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Manchuria'
-      ],
-      'orig' => 'mano$uwriyA',
-      'prefix' => ''
-    }
-  ],
-  'mAryw' => [
-    {
-      'types' => {},
-      'entry' => 'mAryw',
-      'form' => 'mAryw',
-      'lines' => [
-        ';; mAryw_1',
-        'mAryw   mAryw   Nprop   Mario'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mario'
-      ],
-      'orig' => 'mAryw',
-      'prefix' => ''
-    }
-  ],
   'm y .g n' => [
     {
       'types' => {},
@@ -23891,18 +23819,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miykruwfuwn' => [
+  'mitrU' => [
     {
-      'types' => {
-        'miykruwfuwn' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'miykruwfuwn',
-      'form' => 'miykruwfuwn',
+      'types' => {},
+      'entry' => 'mitruw',
+      'form' => 'mitruw',
       'lines' => [
-        ';; miykoruwfuwn_1',
-        'mykrwfwn        miykoruwfuwn    N/At    microphone'
+        ';; mitoruw_1',
+        'mtrw    mitoruw N0      metro;subway'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23910,9 +23834,31 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'microphone'
+        'metro',
+        'subway'
       ],
-      'orig' => 'miykoruwfuwn',
+      'orig' => 'mitoruw',
+      'prefix' => ''
+    }
+  ],
+  'mAyUrkA' => [
+    {
+      'types' => {},
+      'entry' => 'mAyuwrkA',
+      'form' => 'mAyuwrkA',
+      'lines' => [
+        ';; mAyuwrokA_1',
+        'mAywrkA mAyuwrokA       N0      Majorca'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Majorca'
+      ],
+      'orig' => 'mAyuwrokA',
       'prefix' => ''
     }
   ],
@@ -24073,14 +24019,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miylz' => [
+  'man^gU' => [
     {
-      'types' => {},
-      'entry' => 'miylz',
-      'form' => 'miylz',
+      'types' => {
+        'man.guw' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'man^guw',
+      'form' => 'man^guw',
       'lines' => [
-        ';; miyloz_1',
-        'mylz    miyloz  Nprop   Mills'
+        ';; manojuw_1',
+        'mnjw    manojuw N0      mango',
+        'mngw    manoguw N0      mango'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24088,9 +24039,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Mills'
+        'mango'
       ],
-      'orig' => 'miyloz',
+      'orig' => 'manojuw',
       'prefix' => ''
     }
   ],
@@ -24214,24 +24165,25 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'malan_huwliyA' => [
+  'mUrItAn' => [
     {
       'types' => {},
-      'entry' => 'malan_huwliyA',
-      'form' => 'malan_huwliyA',
+      'entry' => 'muwriytAn',
+      'form' => 'muwriytAniyy',
       'lines' => [
-        ';; malanoxuwliyA_1',
-        'mlnxwlyA        malanoxuwliyA   N0      melancholia'
+        ';; muwriytAniy~_1',
+        'mwrytAny        muwriytAniy~    Nall    Mauritanian     [[muwriytAniy~/NOUN]]',
+        'mwrytAny        muwriytAniy~    Nall    Mauritanian     [[muwriytAniy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'melancholia'
+        'Mauritanian'
       ],
-      'orig' => 'malanoxuwliyA',
+      'orig' => 'muwriytAniy~',
       'prefix' => ''
     }
   ],
@@ -24256,55 +24208,25 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miy.gAhiyrtz' => [
+  'mIdAlI' => [
     {
-      'types' => {
-        'miy^gAhiyrtz' => {
-          'NduAt' => 1
-        },
-        'miy.gAhiyrtz' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'miy.gAhiyrtz',
-      'form' => 'miy.gAhiyrtz',
+      'types' => {},
+      'entry' => 'miydAliy',
+      'form' => 'miydAliyaT',
       'lines' => [
-        ';; miygAhiyrotz_1',
-        'mygAhyrtz       miygAhiyrotz    NduAt   megahertz;MHz',
-        'myjAhyrtz       miyjAhiyrotz    NduAt   megahertz;MHz'
+        ';; miydAliyap_1',
+        'mydAly  miydAliy        NapAt   medal;medallion'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
-        'megahertz',
-        'MHz'
+        'medal',
+        'medallion'
       ],
-      'orig' => 'miygAhiyrotz',
-      'prefix' => ''
-    }
-  ],
-  'muwriysk' => [
-    {
-      'types' => {},
-      'entry' => 'muwriysk',
-      'form' => 'muwriyskiyy',
-      'lines' => [
-        ';; muwriyskiy~_1',
-        'mwrysky muwriyskiy~     Nall    Morisco     [[muwriyskiy~/NOUN]]',
-        'mwrysky muwriyskiy~     Nall    Morisco     [[muwriyskiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Morisco'
-      ],
-      'orig' => 'muwriyskiy~',
+      'orig' => 'miydAliyap',
       'prefix' => ''
     }
   ],
@@ -24347,27 +24269,6 @@ $Lexicon = {
         'keeper of the seal'
       ],
       'orig' => 'muhoradAr',
-      'prefix' => ''
-    }
-  ],
-  'miytsuwbiy^siy' => [
-    {
-      'types' => {},
-      'entry' => 'miytsuwbiy^siy',
-      'form' => 'miytsuwbiy^siy',
-      'lines' => [
-        ';; miytosuwbiy$iy_1',
-        'mytswby$y       miytosuwbiy$iy  Nprop   Mitsubishi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mitsubishi'
-      ],
-      'orig' => 'miytosuwbiy$iy',
       'prefix' => ''
     }
   ],
@@ -24505,16 +24406,36 @@ $Lexicon = {
       ],
       'orig' => 'maHoD',
       'prefix' => ''
-    }
-  ],
-  'miytuwruwluw^giyA' => [
+    },
     {
       'types' => {},
-      'entry' => 'miytuwruwluw^giyA',
-      'form' => 'miytuwruwluw^giyA',
+      'entry' => '\'um.huw.d',
+      'form' => '\'um.huw.daT',
       'lines' => [
-        ';; miytuwruwluwjiyA_1',
-        'mytwrwlwjyA     miytuwruwluwjiyA        N0      meteorology'
+        ';; >umoHuwDap_1',
+        '>mHwD   >umoHuwD        Napdu   sincere advice',
+        'AmHwD   >umoHuwD        Napdu   sincere advice'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'sincere advice'
+      ],
+      'orig' => 'OumoHuwDap',
+      'prefix' => ''
+    }
+  ],
+  'mAyUnIz' => [
+    {
+      'types' => {},
+      'entry' => 'mAyuwniyz',
+      'form' => 'mAyuwniyz',
+      'lines' => [
+        ';; mAyuwniyz_1',
+        'mAywnyz mAyuwniyz       N0      mayonnaise'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24522,9 +24443,43 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'meteorology'
+        'mayonnaise'
       ],
-      'orig' => 'miytuwruwluwjiyA',
+      'orig' => 'mAyuwniyz',
+      'prefix' => ''
+    }
+  ],
+  'mI.gAbitt' => [
+    {
+      'types' => {
+        'miy^gAbiyt' => {
+          'N' => 1
+        },
+        'miy.gAbiyt' => {
+          'N' => 1
+        },
+        'miy^gAbitt' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'miy.gAbitt',
+      'form' => 'miy.gAbitt',
+      'lines' => [
+        ';; miygAbit~_1',
+        'mygAbt  miygAbit~       N       megabit',
+        'myjAbt  miyjAbit~       N       megabit',
+        'mygAbyt miygAbiyt       N       megabit',
+        'myjAbyt miyjAbiyt       N       megabit'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'megabit'
+      ],
+      'orig' => 'miygAbit~',
       'prefix' => ''
     }
   ],
@@ -24569,27 +24524,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miyzuwbuwtAmiyA' => [
-    {
-      'types' => {},
-      'entry' => 'miyzuwbuwtAmiyA',
-      'form' => 'miyzuwbuwtAmiyA',
-      'lines' => [
-        ';; miyzuwbuwtAmiyA_1',
-        'myzwbwtAmyA     miyzuwbuwtAmiyA N0      Mesopotamia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mesopotamia'
-      ],
-      'orig' => 'miyzuwbuwtAmiyA',
-      'prefix' => ''
-    }
-  ],
   'm \' r' => [
     {
       'types' => {},
@@ -24628,32 +24562,6 @@ $Lexicon = {
         'Marat'
       ],
       'orig' => 'mArAt',
-      'prefix' => ''
-    }
-  ],
-  'mar.gariyn' => [
-    {
-      'types' => {
-        'mar^gariyn' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'mar.gariyn',
-      'form' => 'mar.gariyn',
-      'lines' => [
-        ';; marogariyn_1',
-        'mrgryn  marogariyn      N0      margarine',
-        'mrjryn  marojariyn      N0      margarine'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'margarine'
-      ],
-      'orig' => 'marogariyn',
       'prefix' => ''
     }
   ],
@@ -24882,14 +24790,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mArtiynA' => [
+  'mUrAtInUs' => [
     {
       'types' => {},
-      'entry' => 'mArtiynA',
-      'form' => 'mArtiynA',
+      'entry' => 'muwrAtiynuws',
+      'form' => 'muwrAtiynuws',
       'lines' => [
-        ';; mArotiynA_1',
-        'mArtynA mArotiynA       N0      Martina'
+        ';; muwrAtiynuws_1',
+        'mwrAtynws       muwrAtiynuws    Nprop   Moratinos'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24897,9 +24805,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Martina'
+        'Moratinos'
       ],
-      'orig' => 'mArotiynA',
+      'orig' => 'muwrAtiynuws',
       'prefix' => ''
     }
   ],
@@ -25495,18 +25403,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miykruwskuwb' => [
+  'mInIsUtA' => [
     {
-      'types' => {
-        'miykruwskuwb' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'miykruwskuwb',
-      'form' => 'miykruwskuwb',
+      'types' => {},
+      'entry' => 'miyniysuwtA',
+      'form' => 'miyniysuwtA',
       'lines' => [
-        ';; miykoruwskuwb_1',
-        'mykrwskwb       miykoruwskuwb   N/At    microscope'
+        ';; miyniysuwtA_1',
+        'mynyswtA        miyniysuwtA     Nprop   Minnesota'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25514,39 +25418,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'microscope'
+        'Minnesota'
       ],
-      'orig' => 'miykoruwskuwb',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'miykruwskuwb',
-      'form' => 'miykruwskuwbiyy',
-      'lines' => [
-        ';; miykoruwskuwbiy~_1',
-        'mykrwskwby      miykoruwskuwbiy~        Nall    microscopic     [[miykoruwskuwbiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'microscopic'
-      ],
-      'orig' => 'miykoruwskuwbiy~',
+      'orig' => 'miyniysuwtA',
       'prefix' => ''
     }
   ],
-  'mA_ht^sAyyf' => [
+  'mUntIfIdiyU' => [
     {
       'types' => {},
-      'entry' => 'mA_ht^sAyyf',
-      'form' => 'mA_ht^sAyyf',
+      'entry' => 'muwntiyfiydiyuw',
+      'form' => 'muwntiyfiydiyuw',
       'lines' => [
-        ';; mAxt$Ayyf_1',
-        'mAxt$Ayyf       mAxt$Ayyf       Nprop   Makhchayev'
+        ';; muwnotiyfiydiyuw_1',
+        'mwntyfydyw      muwnotiyfiydiyuw        Nprop   Montevideo'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25554,30 +25439,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Makhchayev'
+        'Montevideo'
       ],
-      'orig' => 'mAxt$Ayyf',
-      'prefix' => ''
-    }
-  ],
-  'mA.gAly' => [
-    {
-      'types' => {},
-      'entry' => 'mA.gAly',
-      'form' => 'mA.gAly',
-      'lines' => [
-        ';; mAgAly_1',
-        'mAgAly  mAgAly  N0      Magali'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Magali'
-      ],
-      'orig' => 'mAgAly',
+      'orig' => 'muwnotiyfiydiyuw',
       'prefix' => ''
     }
   ],
@@ -25798,48 +25662,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mAlkuwm' => [
-    {
-      'types' => {},
-      'entry' => 'mAlkuwm',
-      'form' => 'mAlkuwm',
-      'lines' => [
-        ';; mAlokuwm_1',
-        'mAlkwm  mAlokuwm        Nprop   Malcolm'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Malcolm'
-      ],
-      'orig' => 'mAlokuwm',
-      'prefix' => ''
-    }
-  ],
-  'mun.guwliyA' => [
-    {
-      'types' => {},
-      'entry' => 'mun.guwliyA',
-      'form' => 'mun.guwliyA',
-      'lines' => [
-        ';; munoguwliyA_1',
-        'mngwlyA munoguwliyA     N0      Mongolia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mongolia'
-      ],
-      'orig' => 'munoguwliyA',
-      'prefix' => ''
-    }
-  ],
   'm \' z' => [
     {
       'types' => {
@@ -25983,6 +25805,47 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'malakUt' => [
+    {
+      'types' => {},
+      'entry' => 'malakuwt',
+      'form' => 'malakuwt',
+      'lines' => [
+        ';; malakuwt_1',
+        'mlkwt   malakuwt        N       kingdom'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'kingdom'
+      ],
+      'orig' => 'malakuwt',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'malakuwt',
+      'form' => 'malakuwtiyy',
+      'lines' => [
+        ';; malakuwtiy~_1',
+        'mlkwty  malakuwtiy~     Nall    divine;heavenly     [[malakuwtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'divine',
+        'heavenly'
+      ],
+      'orig' => 'malakuwtiy~',
+      'prefix' => ''
+    }
+  ],
   'mimmA' => [
     {
       'types' => {},
@@ -26122,6 +25985,27 @@ $Lexicon = {
         'motor'
       ],
       'orig' => 'muwtuwr',
+      'prefix' => ''
+    }
+  ],
+  'mArInz' => [
+    {
+      'types' => {},
+      'entry' => 'mAriynz',
+      'form' => 'mAriynz',
+      'lines' => [
+        ';; mAriynz_1',
+        'mArynz  mAriynz N0      Marines'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Marines'
+      ],
+      'orig' => 'mAriynz',
       'prefix' => ''
     }
   ],
@@ -26635,35 +26519,64 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mAynhuwf' => [
+  'm q d n' => [
     {
-      'types' => {},
-      'entry' => 'mAynhuwf',
-      'form' => 'mAynhuwf',
+      'types' => {
+        'makduwniyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'maqduwn',
+      'form' => 'maqduwniyy',
       'lines' => [
-        ';; mAynohuwf_1',
-        'mAynhwf mAynohuwf       Nprop   Meinhoff'
+        ';; maqoduwniy~_1',
+        'mqdwny  maqoduwniy~     Nall    Macedonian     [[maqoduwniy~/NOUN]]',
+        'mkdwny  makoduwniy~     Nall    Macedonian     [[makoduwniy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'KaRDUS |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'Meinhoff'
+        'Macedonian'
       ],
-      'orig' => 'mAynohuwf',
+      'orig' => 'maqoduwniy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'makduwniyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'maqduwn',
+      'form' => 'maqduwniyy',
+      'lines' => [
+        ';; maqoduwniy~_2',
+        'mqdwny  maqoduwniy~     Nall    Macedonian     [[maqoduwniy~/ADJ]]',
+        'mkdwny  makoduwniy~     Nall    Macedonian     [[makoduwniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'KaRDUS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Macedonian'
+      ],
+      'orig' => 'maqoduwniy~',
       'prefix' => ''
     }
   ],
-  'mAniykiyr' => [
+  'maqadI^sU' => [
     {
       'types' => {},
-      'entry' => 'mAniykiyr',
-      'form' => 'mAniykiyr',
+      'entry' => 'maqadiy^suw',
+      'form' => 'maqadiy^suw',
       'lines' => [
-        ';; mAniykiyr_1',
-        'mAnykyr mAniykiyr       N0      manicure'
+        ';; maqadiy$uw_1',
+        'mqdy$w  maqadiy$uw      Nprop   Mogadishu'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26671,30 +26584,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'manicure'
+        'Mogadishu'
       ],
-      'orig' => 'mAniykiyr',
-      'prefix' => ''
-    }
-  ],
-  'mAtiyuw' => [
-    {
-      'types' => {},
-      'entry' => 'mAtiyuw',
-      'form' => 'mAtiyuw',
-      'lines' => [
-        ';; mAtiyuw_1',
-        'mAtyw   mAtiyuw Nprop   Mathieu'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mathieu'
-      ],
-      'orig' => 'mAtiyuw',
+      'orig' => 'maqadiy$uw',
       'prefix' => ''
     }
   ],
@@ -26762,6 +26654,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mArAtsInA' => [
+    {
+      'types' => {},
+      'entry' => 'mArAtsiynA',
+      'form' => 'mArAtsiynA',
+      'lines' => [
+        ';; mArAtsiynA_1',
+        'mArAtsynA       mArAtsiynA      Nprop   Marazzina'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Marazzina'
+      ],
+      'orig' => 'mArAtsiynA',
+      'prefix' => ''
+    }
+  ],
   'm l z' => [
     {
       'types' => {},
@@ -26780,6 +26693,27 @@ $Lexicon = {
         'larch'
       ],
       'orig' => 'malaz',
+      'prefix' => ''
+    }
+  ],
+  'mAkUnI' => [
+    {
+      'types' => {},
+      'entry' => 'mAkuwniy',
+      'form' => 'mAkuwniy',
+      'lines' => [
+        ';; mAkuwniy_1',
+        'mAkwny  mAkuwniy        Nprop   Makoni'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Makoni'
+      ],
+      'orig' => 'mAkuwniy',
       'prefix' => ''
     }
   ],
@@ -26937,6 +26871,27 @@ $Lexicon = {
         'serum'
       ],
       'orig' => 'maSoliy~',
+      'prefix' => ''
+    }
+  ],
+  'mUrnIn.g' => [
+    {
+      'types' => {},
+      'entry' => 'muwrniyn.g',
+      'form' => 'muwrniyn.g',
+      'lines' => [
+        ';; muwroniyng_1',
+        'mwrnyng muwroniyng      Nprop   Mourning'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Mourning'
+      ],
+      'orig' => 'muwroniyng',
       'prefix' => ''
     }
   ],
@@ -27461,6 +27416,39 @@ $Lexicon = {
     },
     {
       'types' => {
+        '\'amAliy.h' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'umluw.h',
+      'form' => '\'umluw.haT',
+      'lines' => [
+        ';; >umoluwHap_1',
+        '>mlwH   >umoluwH        Napdu   joke;anecdote',
+        'AmlwH   >umoluwH        Napdu   joke;anecdote',
+        '>mAlyH  >amAliyH        Ndip    jokes;anecdotes',
+        'AmAlyH  >amAliyH        Ndip    jokes;anecdotes'
+      ],
+      'patterns' => {
+        '\'amAliy.h' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'joke',
+        'anecdote',
+        'jokes',
+        'anecdotes'
+      ],
+      'orig' => 'OumoluwHap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'mamAli.h' => {
           'Ndip' => 1
         }
@@ -27632,28 +27620,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mitruw' => [
-    {
-      'types' => {},
-      'entry' => 'mitruw',
-      'form' => 'mitruw',
-      'lines' => [
-        ';; mitoruw_1',
-        'mtrw    mitoruw N0      metro;subway'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'metro',
-        'subway'
-      ],
-      'orig' => 'mitoruw',
-      'prefix' => ''
-    }
-  ],
   'm ^g d y' => [
     {
       'types' => {},
@@ -27676,52 +27642,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwnuwluw^g' => [
-    {
-      'types' => {
-        'muwnuwluw^g' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'muwnuwluw^g',
-      'form' => 'muwnuwluw^g',
-      'lines' => [
-        ';; muwnuwluwj_1',
-        'mwnwlwj muwnuwluwj      NduAt   monologue'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'monologue'
-      ],
-      'orig' => 'muwnuwluwj',
-      'prefix' => ''
-    }
-  ],
-  'mAtfiyf' => [
-    {
-      'types' => {},
-      'entry' => 'mAtfiyf',
-      'form' => 'mAtfiyf',
-      'lines' => [
-        ';; mAtofiyf_1',
-        'mAtfyf  mAtofiyf        Nprop   Matveev'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Matveev'
-      ],
-      'orig' => 'mAtofiyf',
-      'prefix' => ''
-    }
-  ],
   'm_t' => [
     {
       'types' => {},
@@ -27740,27 +27660,6 @@ $Lexicon = {
         'fem.'
       ],
       'orig' => 'mv',
-      'prefix' => ''
-    }
-  ],
-  'muwntiyniy.gruw' => [
-    {
-      'types' => {},
-      'entry' => 'muwntiyniy.gruw',
-      'form' => 'muwntiyniy.gruw',
-      'lines' => [
-        ';; muwnotiyniygoruw_1',
-        'mwntynygrw      muwnotiyniygoruw        Nprop   Montenegro'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Montenegro'
-      ],
-      'orig' => 'muwnotiyniygoruw',
       'prefix' => ''
     }
   ],
@@ -27834,6 +27733,35 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mIlU^sIfIt^s' => [
+    {
+      'types' => {
+        'mylwsyfyt^s' => {
+          'Nprop' => 1
+        },
+        'mylw^syfyt^s' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'miyluw^siyfiyt^s',
+      'form' => 'miyluw^siyfiyt^s',
+      'lines' => [
+        ';; miyluw$iyfiyt$_1',
+        'mylw$yfyt$      mylw$yfyt$      Nprop   Milosevic',
+        'mylwsyfyt$      mylwsyfyt$      Nprop   Milosevic'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Milosevic'
+      ],
+      'orig' => 'miyluw$iyfiyt$',
+      'prefix' => ''
+    }
+  ],
   'm ^g s' => [
     {
       'types' => {},
@@ -27895,6 +27823,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mAykrUsUft' => [
+    {
+      'types' => {
+        'maykruwsuwft' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'mAykruwsuwft',
+      'form' => 'mAykruwsuwft',
+      'lines' => [
+        ';; mAyokruwsuwft_1',
+        'mAykrwswft      mAyokruwsuwft   Nprop   Microsoft',
+        'mykrwswft       mayokruwsuwft   Nprop   Microsoft'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Microsoft'
+      ],
+      'orig' => 'mAyokruwsuwft',
+      'prefix' => ''
+    }
+  ],
   'm s m r' => [
     {
       'types' => {
@@ -27922,6 +27876,95 @@ $Lexicon = {
         'nail up'
       ],
       'orig' => 'masomar',
+      'prefix' => ''
+    }
+  ],
+  'muskAtI' => [
+    {
+      'types' => {},
+      'entry' => 'muskAtiy',
+      'form' => 'muskAtiy',
+      'lines' => [
+        ';; musokAtiy_1',
+        'mskAty  musokAtiy       N0      muscatel wine'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'muscatel wine'
+      ],
+      'orig' => 'musokAtiy',
+      'prefix' => ''
+    }
+  ],
+  'milyUnAr' => [
+    {
+      'types' => {
+        'milyuwniyr' => {
+          'N/At' => 1
+        }
+      },
+      'entry' => 'milyuwnAr',
+      'form' => 'milyuwnAriyy',
+      'lines' => [
+        ';; miloyuwnAriy~_1',
+        'mlywnAry        miloyuwnAriy~   Nall    millionaire     [[miloyuwnAriy~/ADJ]]',
+        'mlywnyr miloyuwniyr     N/At    millionaire'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'millionaire'
+      ],
+      'orig' => 'miloyuwnAriy~',
+      'prefix' => ''
+    }
+  ],
+  'mUrItAniyA' => [
+    {
+      'types' => {},
+      'entry' => 'muwriytAniyA',
+      'form' => 'muwriytAniyA',
+      'lines' => [
+        ';; muwriytAniyA_1',
+        'mwrytAnyA       muwriytAniyA    N0      Mauritania'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Mauritania'
+      ],
+      'orig' => 'muwriytAniyA',
+      'prefix' => ''
+    }
+  ],
+  'mAn^gUst' => [
+    {
+      'types' => {},
+      'entry' => 'mAn^guwst',
+      'form' => 'mAn^guwst',
+      'lines' => [
+        ';; mAnojuwst_1',
+        'mAnjwst mAnojuwst       N0      mongoose'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'mongoose'
+      ],
+      'orig' => 'mAnojuwst',
       'prefix' => ''
     }
   ],
@@ -27965,41 +28008,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miyliy^siyA' => [
-    {
-      'types' => {
-        'miyliy^siy' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'miyliy^siyA',
-      'form' => 'miyliy^siyA',
-      'lines' => [
-        ';; miyliy$iyA_1',
-        'myly$yA miyliy$iyA      N0      militia',
-        'myly$y  miyliy$iy       NAt     militias'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'militia',
-        'militias'
-      ],
-      'orig' => 'miyliy$iyA',
-      'prefix' => ''
-    }
-  ],
-  'muwruwmbiy' => [
+  'mUrI.tAniyA' => [
     {
       'types' => {},
-      'entry' => 'muwruwmbiy',
-      'form' => 'muwruwmbiy',
+      'entry' => 'muwriy.tAniyA',
+      'form' => 'muwriy.tAniyA',
       'lines' => [
-        ';; muwruwmobiy_1',
-        'mwrwmby muwruwmobiy     Nprop   Morumbi'
+        ';; muwriyTAniyA_1',
+        'mwryTAnyA       muwriyTAniyA    N0      Mauritania'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28007,35 +28023,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Morumbi'
+        'Mauritania'
       ],
-      'orig' => 'muwruwmobiy',
-      'prefix' => ''
-    }
-  ],
-  'muwzAykuw' => [
-    {
-      'types' => {
-        'muwzAyiyk' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'muwzAykuw',
-      'form' => 'muwzAykuw',
-      'lines' => [
-        ';; muwzAyokuw_1',
-        'mwzAykw muwzAyokuw      N0      mosaic',
-        'mwzAyyk muwzAyiyk       N0      mosaic'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'mosaic'
-      ],
-      'orig' => 'muwzAyokuw',
+      'orig' => 'muwriyTAniyA',
       'prefix' => ''
     }
   ],
@@ -28057,49 +28047,6 @@ $Lexicon = {
         'Murcia'
       ],
       'orig' => 'murosiyap',
-      'prefix' => ''
-    }
-  ],
-  'malAyuwiyy' => [
-    {
-      'types' => {},
-      'entry' => 'malAyuwiyy',
-      'form' => 'malAyuwiyy',
-      'lines' => [
-        ';; malAyuwiy~_1',
-        'mlAywy  malAyuwiy~      Nall    Malayan     [[malAyuwiy~/NOUN]]',
-        'mlAywy  malAyuwiy~      Nall    Malayan     [[malAyuwiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Malayan'
-      ],
-      'orig' => 'malAyuwiy~',
-      'prefix' => ''
-    }
-  ],
-  'muskAtiy' => [
-    {
-      'types' => {},
-      'entry' => 'muskAtiy',
-      'form' => 'muskAtiy',
-      'lines' => [
-        ';; musokAtiy_1',
-        'mskAty  musokAtiy       N0      muscatel wine'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'muscatel wine'
-      ],
-      'orig' => 'musokAtiy',
       'prefix' => ''
     }
   ],
@@ -28383,52 +28330,6 @@ $Lexicon = {
         'rinse (mouth)'
       ],
       'orig' => 'maxomaD',
-      'prefix' => ''
-    }
-  ],
-  'mAnuw^sir' => [
-    {
-      'types' => {},
-      'entry' => 'mAnuw^sir',
-      'form' => 'mAnuw^sir',
-      'lines' => [
-        ';; mAnuw$ir_1',
-        'mAnw$r  mAnuw$ir        Nprop   Manusher'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Manusher'
-      ],
-      'orig' => 'mAnuw$ir',
-      'prefix' => ''
-    }
-  ],
-  'muwnuwluw^gist' => [
-    {
-      'types' => {
-        'muwnuwluw^gist' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'muwnuwluw^gist',
-      'form' => 'muwnuwluw^gist',
-      'lines' => [
-        ';; muwnuwluwjisot_1',
-        'mwnwlwjst       muwnuwluwjisot  NduAt   monologue artist'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'monologue artist'
-      ],
-      'orig' => 'muwnuwluwjisot',
       'prefix' => ''
     }
   ],
@@ -28765,6 +28666,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mI_tUlU^giyA' => [
+    {
+      'types' => {},
+      'entry' => 'miy_tuwluw^giyA',
+      'form' => 'miy_tuwluw^giyA',
+      'lines' => [
+        ';; miyvuwluwjiyA_1',
+        'myvwlwjyA       miyvuwluwjiyA   N0      mythology'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'mythology'
+      ],
+      'orig' => 'miyvuwluwjiyA',
+      'prefix' => ''
+    }
+  ],
   'm _h r q' => [
     {
       'types' => {
@@ -28816,14 +28738,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miyuwniy_h' => [
+  'mAnIkIr' => [
     {
       'types' => {},
-      'entry' => 'miyuwniy_h',
-      'form' => 'miyuwniy_h',
+      'entry' => 'mAniykiyr',
+      'form' => 'mAniykiyr',
       'lines' => [
-        ';; miyuwniyx_1',
-        'mywnyx  miyuwniyx       N0      Munich'
+        ';; mAniykiyr_1',
+        'mAnykyr mAniykiyr       N0      manicure'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28831,130 +28753,31 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Munich'
+        'manicure'
       ],
-      'orig' => 'miyuwniyx',
+      'orig' => 'mAniykiyr',
       'prefix' => ''
     }
   ],
-  'munuwluw^g' => [
-    {
-      'types' => {
-        'munuwluw^g' => {
-          'NAt' => 1
-        },
-        'munuwluw.g' => {
-          'N/At' => 1
-        }
-      },
-      'entry' => 'munuwluw^g',
-      'form' => 'munuwluw^g',
-      'lines' => [
-        ';; munuwluwj_1',
-        'mnwlwj  munuwluwj       N/At    monologue',
-        'mnwlwg  munuwluwg       N/At    monologue'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'monologue'
-      ],
-      'orig' => 'munuwluwj',
-      'prefix' => ''
-    }
-  ],
-  'mitrAlyuwz' => [
+  'mUrIsk' => [
     {
       'types' => {},
-      'entry' => 'mitrAlyuwz',
-      'form' => 'mitrAlyuwz',
+      'entry' => 'muwriysk',
+      'form' => 'muwriyskiyy',
       'lines' => [
-        ';; mitorAloyuwz_1',
-        'mtrAlywz        mitorAloyuwz    N0      machine gun'
+        ';; muwriyskiy~_1',
+        'mwrysky muwriyskiy~     Nall    Morisco     [[muwriyskiy~/NOUN]]',
+        'mwrysky muwriyskiy~     Nall    Morisco     [[muwriyskiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'machine gun'
+        'Morisco'
       ],
-      'orig' => 'mitorAloyuwz',
-      'prefix' => ''
-    }
-  ],
-  'miyrAlAy' => [
-    {
-      'types' => {},
-      'entry' => 'miyrAlAy',
-      'form' => 'miyrAlAy',
-      'lines' => [
-        ';; miyrAlAy_1',
-        'myrAlAy miyrAlAy        N0      brigadier general'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'brigadier general'
-      ],
-      'orig' => 'miyrAlAy',
-      'prefix' => ''
-    }
-  ],
-  'mAniykAn' => [
-    {
-      'types' => {
-        'mAnuwkAn' => {
-          'N/At' => 1
-        },
-        'mAniykAn' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'mAniykAn',
-      'form' => 'mAniykAn',
-      'lines' => [
-        ';; mAniykAn_1',
-        'mAnykAn mAniykAn        N/At    mannequin',
-        'mAnwkAn mAnuwkAn        N/At    mannequin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'mannequin'
-      ],
-      'orig' => 'mAniykAn',
-      'prefix' => ''
-    }
-  ],
-  'miyrnyiy' => [
-    {
-      'types' => {},
-      'entry' => 'miyrnyiy',
-      'form' => 'miyrnyiy',
-      'lines' => [
-        ';; miyronyiy_1',
-        'myrnyy  miyronyiy       Nprop   Mirnyi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mirnyi'
-      ],
-      'orig' => 'miyronyiy',
+      'orig' => 'muwriyskiy~',
       'prefix' => ''
     }
   ],
@@ -29226,6 +29049,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mAyistrU' => [
+    {
+      'types' => {
+        'mAyistrw' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'mAyistruw',
+      'form' => 'mAyistruw',
+      'lines' => [
+        ';; mAyisotruw_1',
+        'mAystrw mAyisotrw       N0      maestro;conductor'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'maestro',
+        'conductor'
+      ],
+      'orig' => 'mAyisotruw',
+      'prefix' => ''
+    }
+  ],
   'm y r n' => [
     {
       'types' => {},
@@ -29247,19 +29096,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'maksiykuw' => [
+  'mUyA' => [
     {
       'types' => {
-        'maksikuw' => {
-          'N0' => 1
+        'muwyY' => {
+          'Nprop' => 1
         }
       },
-      'entry' => 'maksiykuw',
-      'form' => 'maksiykuw',
+      'entry' => 'muwyA',
+      'form' => 'muwyA',
       'lines' => [
-        ';; makosiykuw_1',
-        'mksykw  makosiykuw      N0      Mexico',
-        'mkskw   makosikuw       N0      Mexico'
+        ';; muwyA_1',
+        'mwyA    muwyA   Nprop   Moya'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29267,34 +29115,35 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Mexico'
+        'Moya'
       ],
-      'orig' => 'makosiykuw',
-      'prefix' => ''
-    }
-  ],
-  'miytaduwr' => [
-    {
-      'types' => {},
-      'entry' => 'miytaduwr',
-      'form' => 'miytaduwr',
-      'lines' => [
-        ';; miytaduwr_1',
-        'mytdwr  miytaduwr       N0      matador'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'matador'
-      ],
-      'orig' => 'miytaduwr',
+      'orig' => 'muwyA',
       'prefix' => ''
     }
   ],
   'm n y' => [
+    {
+      'types' => {},
+      'entry' => 'mAnY',
+      'form' => 'mAnawiyy',
+      'lines' => [
+        ';; mAnawiy~_1',
+        'mAnwy   mAnawiy~        Nall    Manichaean     [[mAnawiy~/NOUN]]',
+        'mAnwy   mAnawiy~        Nall    Manichaean     [[mAnawiy~/ADJ]]',
+        'mAnwy   mAnawiy~        Nap     Manichaeism     [[mAnawiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACY |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Manichaean',
+        'Manichaeism'
+      ],
+      'orig' => 'mAnawiy~',
+      'prefix' => ''
+    },
     {
       'types' => {
         'lamin' => {
@@ -29414,6 +29263,9 @@ $Lexicon = {
         'AmAn    >amAn   NK      wishes;desires;aspirations'
       ],
       'patterns' => {
+        '\'umniyy' => [
+          'HuFCIL'
+        ],
         'miny' => [
           'FiCL'
         ],
@@ -29488,6 +29340,48 @@ $Lexicon = {
         'desiring'
       ],
       'orig' => 'mutaman~iy',
+      'prefix' => ''
+    }
+  ],
+  'marsIdis' => [
+    {
+      'types' => {},
+      'entry' => 'marsiydis',
+      'form' => 'marsiydis',
+      'lines' => [
+        ';; marosiydis_1',
+        'mrsyds  marosiydis      Nprop   Mercedes'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Mercedes'
+      ],
+      'orig' => 'marosiydis',
+      'prefix' => ''
+    }
+  ],
+  'mardaqU^s' => [
+    {
+      'types' => {},
+      'entry' => 'mardaquw^s',
+      'form' => 'mardaquw^s',
+      'lines' => [
+        ';; marodaquw$_1',
+        'mrdqw$  marodaquw$      N0      marjoram'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'marjoram'
+      ],
+      'orig' => 'marodaquw$',
       'prefix' => ''
     }
   ],
@@ -29601,6 +29495,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'madmAzIl' => [
+    {
+      'types' => {
+        'madmAziyl' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'madmAziyl',
+      'form' => 'madmAziyl',
+      'lines' => [
+        ';; madomAziyl_1',
+        'mdmAzyl madomAziyl      NduAt   mademoiselle;miss'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'mademoiselle',
+        'miss'
+      ],
+      'orig' => 'madomAziyl',
+      'prefix' => ''
+    }
+  ],
   'm ` k' => [
     {
       'types' => {
@@ -29631,32 +29551,6 @@ $Lexicon = {
         'FCaL'
       ],
       'orig' => 'maEak-a',
-      'prefix' => ''
-    }
-  ],
-  'mylw^syfyt^s' => [
-    {
-      'types' => {
-        'mylwsyfyt^s' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'mylw^syfyt^s',
-      'form' => 'mylw^syfyt^s',
-      'lines' => [
-        ';; mylw$yfyt$_1',
-        'mylw$yfyt$      mylw$yfyt$      Nprop   Milosevic',
-        'mylwsyfyt$      mylwsyfyt$      Nprop   Milosevic'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Milosevic'
-      ],
-      'orig' => 'mylw$yfyt$',
       'prefix' => ''
     }
   ],
@@ -30357,28 +30251,46 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mwbyl' => [
+  'm s y' => [
     {
-      'types' => {},
-      'entry' => 'mwbyl',
-      'form' => 'mwbyl',
+      'types' => {
+        '\'amAsiyy' => {
+          'N0_Nh' => 2
+        },
+        '\'umsiyy' => {
+          'NapAt' => 2
+        }
+      },
+      'entry' => '\'umsiyy',
+      'form' => '\'umsiyy',
       'lines' => [
-        ';; mwbyl_1',
-        'mwbyl   mwbyl   Nprop   Mobil'
+        ';; >umosiy~_1',
+        '>msy    >umosiy~        NapAt   evening;soiree     [[>umosiy~/NOUN]]',
+        'Amsy    >umosiy~        NapAt   evening;soiree     [[>umosiy~/NOUN]]',
+        '>mAsy   >amAsiy~        N0_Nh   evenings;soirees',
+        'AmAsy   >amAsiy~        N0_Nh   evenings;soirees'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'amAsiyy' => [
+          'HaFACIL'
+        ],
+        '\'umsiyy' => [
+          'HuFCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'HuFCIL',
       'suffix' => '',
       'glosses' => [
-        'Mobil'
+        'evening',
+        'soiree',
+        'evenings',
+        'soirees'
       ],
-      'orig' => 'mwbyl',
+      'orig' => 'Oumosiy~',
       'prefix' => ''
-    }
-  ],
-  'm s y' => [
+    },
     {
       'types' => {
         'mums' => {
@@ -30476,47 +30388,61 @@ $Lexicon = {
       ],
       'orig' => 'masaY-i',
       'prefix' => ''
-    }
-  ],
-  'muwrAfiyk' => [
+    },
     {
       'types' => {},
-      'entry' => 'muwrAfiyk',
-      'form' => 'muwrAfiyk',
-      'lines' => [
-        ';; muwrAfiyk_1',
-        'mwrAfyk muwrAfiyk       Nprop   Moravec'
-      ],
+      'entry' => 'muwsY',
+      'form' => 'muwsY',
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'MUCY',
       'suffix' => '',
-      'glosses' => [
-        'Moravec'
-      ],
-      'orig' => 'muwrAfiyk',
+      'glosses' => [],
+      'orig' => 'muwsaY',
       'prefix' => ''
-    }
-  ],
-  'miykAniyk' => [
+    },
     {
       'types' => {},
-      'entry' => 'miykAniyk',
-      'form' => 'miykAniykiyyaT',
-      'lines' => [
-        ';; miykAniykiy~ap_1',
-        'mykAnyky        miykAniykiy~    Nap     mechanics     [[miykAniykiy~/NOUN]]'
-      ],
+      'entry' => 'muwsY',
+      'form' => 'muwsY',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'MUCY',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'muwsaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muwsY',
+      'form' => 'muwsawiyy',
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'mechanics'
-      ],
-      'orig' => 'miykAniykiy~ap',
+      'entity' => 'adj',
+      'morphs' => 'MUCY |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'muwsawiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muwsY',
+      'form' => 'muwsawiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'MUCY |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'muwsawiy~',
       'prefix' => ''
     }
   ],
@@ -30562,73 +30488,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwntuwbAn' => [
-    {
-      'types' => {},
-      'entry' => 'muwntuwbAn',
-      'form' => 'muwntuwbAn',
-      'lines' => [
-        ';; muwnotuwbAn_1',
-        'mwntwbAn        muwnotuwbAn     Nprop   Montauban'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Montauban'
-      ],
-      'orig' => 'muwnotuwbAn',
-      'prefix' => ''
-    }
-  ],
-  'mAyyuwh' => [
-    {
-      'types' => {
-        'mAyyuwh' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'mAyyuwh',
-      'form' => 'mAyyuwh',
-      'lines' => [
-        ';; mAy~uwh_1',
-        'mAywh   mAy~uwh NduAt   bathing suit'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bathing suit'
-      ],
-      'orig' => 'mAy~uwh',
-      'prefix' => ''
-    }
-  ],
-  'mAndiylA' => [
-    {
-      'types' => {},
-      'entry' => 'mAndiylA',
-      'form' => 'mAndiylA',
-      'lines' => [
-        ';; mAnodiylA_1',
-        'mAndylA mAnodiylA       Nprop   Mandela'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mandela'
-      ],
-      'orig' => 'mAnodiylA',
-      'prefix' => ''
-    }
-  ],
   'm \' d' => [
     {
       'types' => {},
@@ -30661,6 +30520,53 @@ $Lexicon = {
       'suffix' => ' |< aT',
       'glosses' => [],
       'orig' => 'mA}idap',
+      'prefix' => ''
+    }
+  ],
+  'mIlI.gInI' => [
+    {
+      'types' => {
+        'miyliy^giyniy' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'miyliy.giyniy',
+      'form' => 'miyliy.giyniy',
+      'lines' => [
+        ';; miyliygiyniy_1',
+        'mylygyny        miyliygiyniy    Nprop   Meligeni',
+        'mylyjyny        miyliyjiyniy    Nprop   Meligeni'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Meligeni'
+      ],
+      'orig' => 'miyliygiyniy',
+      'prefix' => ''
+    }
+  ],
+  'mUbUtU' => [
+    {
+      'types' => {},
+      'entry' => 'muwbuwtuw',
+      'form' => 'muwbuwtuw',
+      'lines' => [
+        ';; muwbuwtuw_1',
+        'mwbwtw  muwbuwtuw       Nprop   Mobutu'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Mobutu'
+      ],
+      'orig' => 'muwbuwtuw',
       'prefix' => ''
     }
   ],
@@ -30817,14 +30723,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miriyy' => [
+  'mUrUmbI' => [
     {
       'types' => {},
-      'entry' => 'miriyy',
-      'form' => 'miriyy',
+      'entry' => 'muwruwmbiy',
+      'form' => 'muwruwmbiy',
       'lines' => [
-        ';; miriy~_1',
-        'mry     miriy~  N0      Meri;Miri'
+        ';; muwruwmobiy_1',
+        'mwrwmby muwruwmobiy     Nprop   Morumbi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30832,21 +30738,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Meri',
-        'Miri'
+        'Morumbi'
       ],
-      'orig' => 'miriy~',
+      'orig' => 'muwruwmobiy',
       'prefix' => ''
     }
   ],
-  'muwskuw' => [
+  'mIzAnIn' => [
     {
       'types' => {},
-      'entry' => 'muwskuw',
-      'form' => 'muwskuw',
+      'entry' => 'miyzAniyn',
+      'form' => 'miyzAniyn',
       'lines' => [
-        ';; muwsokuw_1',
-        'mwskw   muwsokuw        N0      Moscow'
+        ';; miyzAniyn_1',
+        'myzAnyn miyzAniyn       N0      mezzanine'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30854,29 +30759,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Moscow'
+        'mezzanine'
       ],
-      'orig' => 'muwsokuw',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'muwskuw',
-      'form' => 'muwskuwiyy',
-      'lines' => [
-        ';; muwsokuwiy~_1',
-        'mwskwy  muwsokuwiy~     Nall    Muscovite     [[muwsokuwiy~/NOUN]]',
-        'mwskwy  muwsokuwiy~     Nall    Muscovite     [[muwsokuwiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Muscovite'
-      ],
-      'orig' => 'muwsokuwiy~',
+      'orig' => 'miyzAniyn',
       'prefix' => ''
     }
   ],
@@ -30893,32 +30778,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'miynA\'',
-      'prefix' => ''
-    }
-  ],
-  'madmAziyl' => [
-    {
-      'types' => {
-        'madmAziyl' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'madmAziyl',
-      'form' => 'madmAziyl',
-      'lines' => [
-        ';; madomAziyl_1',
-        'mdmAzyl madomAziyl      NduAt   mademoiselle;miss'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'mademoiselle',
-        'miss'
-      ],
-      'orig' => 'madomAziyl',
       'prefix' => ''
     }
   ],
@@ -30959,27 +30818,6 @@ $Lexicon = {
         'Marwani'
       ],
       'orig' => 'marowAniy~',
-      'prefix' => ''
-    }
-  ],
-  'mAniylA' => [
-    {
-      'types' => {},
-      'entry' => 'mAniylA',
-      'form' => 'mAniylA',
-      'lines' => [
-        ';; mAniylA_1',
-        'mAnylA  mAniylA N0      Manila'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Manila'
-      ],
-      'orig' => 'mAniylA',
       'prefix' => ''
     }
   ],
@@ -31096,27 +30934,6 @@ $Lexicon = {
         'yes-man'
       ],
       'orig' => 'maEomaEiy~',
-      'prefix' => ''
-    }
-  ],
-  'ma.gniysiyA' => [
-    {
-      'types' => {},
-      'entry' => 'ma.gniysiyA',
-      'form' => 'ma.gniysiyA',
-      'lines' => [
-        ';; magoniysiyA_1',
-        'mgnysyA magoniysiyA     N0      magnesia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'magnesia'
-      ],
-      'orig' => 'magoniysiyA',
       'prefix' => ''
     }
   ],
@@ -31637,6 +31454,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'maqdUnis' => [
+    {
+      'types' => {},
+      'entry' => 'maqduwnis',
+      'form' => 'maqduwnis',
+      'lines' => [
+        ';; maqoduwnis_1',
+        'mqdwns  maqoduwnis      N       parsley'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'parsley'
+      ],
+      'orig' => 'maqoduwnis',
+      'prefix' => ''
+    }
+  ],
   'm d y' => [
     {
       'types' => {
@@ -32078,27 +31916,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'marsiydis' => [
-    {
-      'types' => {},
-      'entry' => 'marsiydis',
-      'form' => 'marsiydis',
-      'lines' => [
-        ';; marosiydis_1',
-        'mrsyds  marosiydis      Nprop   Mercedes'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mercedes'
-      ],
-      'orig' => 'marosiydis',
-      'prefix' => ''
-    }
-  ],
   'marzubAn' => [
     {
       'types' => {
@@ -32225,14 +32042,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miykuwn.g' => [
+  'mUzAykU' => [
     {
-      'types' => {},
-      'entry' => 'miykuwn.g',
-      'form' => 'miykuwn.g',
+      'types' => {
+        'muwzAyiyk' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'muwzAykuw',
+      'form' => 'muwzAykuw',
       'lines' => [
-        ';; miykuwng_1',
-        'mykwng  miykuwng        N0      Mekong'
+        ';; muwzAyokuw_1',
+        'mwzAykw muwzAyokuw      N0      mosaic',
+        'mwzAyyk muwzAyiyk       N0      mosaic'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32240,30 +32062,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Mekong'
+        'mosaic'
       ],
-      'orig' => 'miykuwng',
-      'prefix' => ''
-    }
-  ],
-  'miykruwbiyuwluw^giyA' => [
-    {
-      'types' => {},
-      'entry' => 'miykruwbiyuwluw^giyA',
-      'form' => 'miykruwbiyuwluw^giyA',
-      'lines' => [
-        ';; miykoruwbiyuwluwjiyA_1',
-        'mykrwbywlwjyA   miykoruwbiyuwluwjiyA    N0      microbiology'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'microbiology'
-      ],
-      'orig' => 'miykoruwbiyuwluwjiyA',
+      'orig' => 'muwzAyokuw',
       'prefix' => ''
     }
   ],
@@ -32294,45 +32095,25 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mAnuwliyA' => [
+  'mAlIzIy' => [
     {
       'types' => {},
-      'entry' => 'mAnuwliyA',
-      'form' => 'mAnuwliyA',
+      'entry' => 'mAliyziyy',
+      'form' => 'mAliyziyy',
       'lines' => [
-        ';; mAnuwliyA_1',
-        'mAnwlyA mAnuwliyA       N0      magnolia'
+        ';; mAliyziy~_1',
+        'mAlyzy  mAliyziy~       Nall    Malaysian     [[mAliyziy~/NOUN]]',
+        'mAlyzy  mAliyziy~       Nall    Malaysian     [[mAliyziy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'magnolia'
+        'Malaysian'
       ],
-      'orig' => 'mAnuwliyA',
-      'prefix' => ''
-    }
-  ],
-  'muwrAtiynuws' => [
-    {
-      'types' => {},
-      'entry' => 'muwrAtiynuws',
-      'form' => 'muwrAtiynuws',
-      'lines' => [
-        ';; muwrAtiynuws_1',
-        'mwrAtynws       muwrAtiynuws    Nprop   Moratinos'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Moratinos'
-      ],
-      'orig' => 'muwrAtiynuws',
+      'orig' => 'mAliyziy~',
       'prefix' => ''
     }
   ],
@@ -32553,14 +32334,61 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mAsiymuw' => [
+  'm \' h' => [
     {
       'types' => {},
-      'entry' => 'mAsiymuw',
-      'form' => 'mAsiymuw',
+      'entry' => 'mAh',
+      'form' => 'mAhiyyaT',
       'lines' => [
-        ';; mAsiymuw_1',
-        'mAsymw  mAsiymuw        Nprop   Massimo'
+        ';; mAhiy~ap_1',
+        'mAhy    mAhiy~  NapAt   nature;quality     [[mAhiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FAL |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'nature',
+        'quality'
+      ],
+      'orig' => 'mAhiy~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mAh',
+      'form' => 'mAhiyyaT',
+      'lines' => [
+        ';; mAhiy~ap_2',
+        'mAhy    mAhiy~  NapAt   salary;income;pay     [[mAhiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FAL |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'salary',
+        'income',
+        'pay'
+      ],
+      'orig' => 'mAhiy~ap',
+      'prefix' => ''
+    }
+  ],
+  'mIkrUfUn' => [
+    {
+      'types' => {
+        'miykruwfuwn' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'miykruwfuwn',
+      'form' => 'miykruwfuwn',
+      'lines' => [
+        ';; miykoruwfuwn_1',
+        'mykrwfwn        miykoruwfuwn    N/At    microphone'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32568,20 +32396,25 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Massimo'
+        'microphone'
       ],
-      'orig' => 'mAsiymuw',
+      'orig' => 'miykoruwfuwn',
       'prefix' => ''
     }
   ],
-  'mAyuw' => [
+  'mar.garIn' => [
     {
-      'types' => {},
-      'entry' => 'mAyuw',
-      'form' => 'mAyuw',
+      'types' => {
+        'mar^gariyn' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'mar.gariyn',
+      'form' => 'mar.gariyn',
       'lines' => [
-        ';; mAyuw_1',
-        'mAyw    mAyuw   N0      May'
+        ';; marogariyn_1',
+        'mrgryn  marogariyn      N0      margarine',
+        'mrjryn  marojariyn      N0      margarine'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32589,52 +32422,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'May'
+        'margarine'
       ],
-      'orig' => 'mAyuw',
-      'prefix' => ''
-    }
-  ],
-  'muwrs' => [
-    {
-      'types' => {},
-      'entry' => 'muwrs',
-      'form' => 'muwrs',
-      'lines' => [
-        ';; muwrs_1',
-        'mwrs    muwrs   N0      Morse'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Morse'
-      ],
-      'orig' => 'muwrs',
-      'prefix' => ''
-    }
-  ],
-  'mAniyfAtuwr' => [
-    {
-      'types' => {},
-      'entry' => 'mAniyfAtuwr',
-      'form' => 'mAniyfAtuwraT',
-      'lines' => [
-        ';; mAniyfAtuwrap_1',
-        'mAnyfAtwr       mAniyfAtuwr     Nap     manufactured goods;textiles'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'manufactured goods',
-        'textiles'
-      ],
-      'orig' => 'mAniyfAtuwrap',
+      'orig' => 'marogariyn',
       'prefix' => ''
     }
   ],
@@ -32699,19 +32489,30 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwrfiyn' => [
+  'm s k y' => [
     {
-      'types' => {
-        'murfiyn' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'muwrfiyn',
-      'form' => 'muwrfiyn',
+      'types' => {},
+      'entry' => 'muskuw',
+      'form' => 'muskuw',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDU',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'musokuw',
+      'prefix' => ''
+    }
+  ],
+  'milIyit' => [
+    {
+      'types' => {},
+      'entry' => 'miliyyit',
+      'form' => 'miliyyit',
       'lines' => [
-        ';; muwrofiyn_1',
-        'mwrfyn  muwrofiyn       N0      morphine',
-        'mrfyn   murofiyn        N0      morphine'
+        ';; miliyyit_1',
+        'mlyyt   miliyyit        Nprop   Milliyet'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32719,9 +32520,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'morphine'
+        'Milliyet'
       ],
-      'orig' => 'muwrofiyn',
+      'orig' => 'miliyyit',
       'prefix' => ''
     }
   ],
@@ -32778,28 +32579,49 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'm w n k' => [
+  'mAtiyU' => [
     {
       'types' => {},
-      'entry' => 'muwniyk',
-      'form' => 'muwniyk',
+      'entry' => 'mAtiyuw',
+      'form' => 'mAtiyuw',
       'lines' => [
-        ';; muwniyk_1',
-        'mwnyk   muwniyk Nprop   Monique'
+        ';; mAtiyuw_1',
+        'mAtyw   mAtiyuw Nprop   Mathieu'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'KuRDIS',
+      'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Monique'
+        'Mathieu'
       ],
-      'orig' => 'muwniyk',
+      'orig' => 'mAtiyuw',
       'prefix' => ''
     }
   ],
-  'munuluw^g' => [
+  'miyUnI_h' => [
+    {
+      'types' => {},
+      'entry' => 'miyuwniy_h',
+      'form' => 'miyuwniy_h',
+      'lines' => [
+        ';; miyuwniyx_1',
+        'mywnyx  miyuwniyx       N0      Munich'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Munich'
+      ],
+      'orig' => 'miyuwniyx',
+      'prefix' => ''
+    }
+  ],
+  'munulU^g' => [
     {
       'types' => {
         'munuluw^g' => {
@@ -32821,6 +32643,27 @@ $Lexicon = {
         'monologue'
       ],
       'orig' => 'munuluwj',
+      'prefix' => ''
+    }
+  ],
+  'm w n k' => [
+    {
+      'types' => {},
+      'entry' => 'muwniyk',
+      'form' => 'muwniyk',
+      'lines' => [
+        ';; muwniyk_1',
+        'mwnyk   muwniyk Nprop   Monique'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDIS',
+      'suffix' => '',
+      'glosses' => [
+        'Monique'
+      ],
+      'orig' => 'muwniyk',
       'prefix' => ''
     }
   ],
@@ -33562,28 +33405,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mAniyliyy' => [
-    {
-      'types' => {},
-      'entry' => 'mAniyliyy',
-      'form' => 'mAniyliyy',
-      'lines' => [
-        ';; mAniyliy~_1',
-        'mAnyly  mAniyliy~       Nall    Manilan     [[mAniyliy~/NOUN]]',
-        'mAnyly  mAniyliy~       Nall    Manilan     [[mAniyliy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Manilan'
-      ],
-      'orig' => 'mAniyliy~',
-      'prefix' => ''
-    }
-  ],
   'mA' => [
     {
       'types' => {},
@@ -33659,6 +33480,29 @@ $Lexicon = {
         'how...!'
       ],
       'orig' => 'mA',
+      'prefix' => ''
+    }
+  ],
+  'mUmyA\'' => [
+    {
+      'types' => {},
+      'entry' => 'muwmyA\'',
+      'form' => 'muwmyA\'',
+      'lines' => [
+        ';; muwmoyA\'_1',
+        'mwmyA\'  muwmoyA\'        N0_Nh   mummy',
+        'mwmyA&  muwmoyA&        Nh      mummy',
+        'mwmyA}  muwmoyA}        Nhy     mummy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'mummy'
+      ],
+      'orig' => 'muwmoyA\'',
       'prefix' => ''
     }
   ],
@@ -33901,14 +33745,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwntriyAl' => [
+  'mIrd^galAl' => [
     {
       'types' => {},
-      'entry' => 'muwntriyAl',
-      'form' => 'muwntriyAl',
+      'entry' => 'miyrd^galAl',
+      'form' => 'miyrd^galAl',
       'lines' => [
-        ';; muwnotriyAl_1',
-        'mwntryAl        muwnotriyAl     Nprop   Montreal'
+        ';; miyrdojalAl_1',
+        'myrdjlAl        miyrdojalAl     Nprop   Mirdjalal'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33916,20 +33760,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Montreal'
+        'Mirdjalal'
       ],
-      'orig' => 'muwnotriyAl',
+      'orig' => 'miyrdojalAl',
       'prefix' => ''
     }
   ],
-  'mArAdwnA' => [
+  'malI_hUliyA' => [
     {
       'types' => {},
-      'entry' => 'mArAdwnA',
-      'form' => 'mArAdwnA',
+      'entry' => 'maliy_huwliyA',
+      'form' => 'maliy_huwliyA',
       'lines' => [
-        ';; mArAdwnA_1',
-        'mArAdwnA        mArAdwnA        Nprop   Maradona'
+        ';; maliyxuwliyA_1',
+        'mlyxwlyA        maliyxuwliyA    N0      melancholia'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33937,20 +33781,28 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Maradona'
+        'melancholia'
       ],
-      'orig' => 'mArAdwnA',
+      'orig' => 'maliyxuwliyA',
       'prefix' => ''
     }
   ],
-  'misyuw' => [
+  'ma^gnIziyUm' => [
     {
-      'types' => {},
-      'entry' => 'misyuw',
-      'form' => 'misyuw',
+      'types' => {
+        'ma.gniyziywm' => {
+          'N0' => 1
+        },
+        'ma^gniyziywm' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'ma^gniyziyuwm',
+      'form' => 'ma^gniyziyuwm',
       'lines' => [
-        ';; misoyuw_1',
-        'msyw    misoyuw N0      Monsieur'
+        ';; majoniyziyuwm_1',
+        'mjnyzywm        majoniyziywm    N0      magnesium',
+        'mgnyzywm        magoniyziywm    N0      magnesium'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33958,34 +33810,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Monsieur'
+        'magnesium'
       ],
-      'orig' => 'misoyuw',
-      'prefix' => ''
-    }
-  ],
-  'mA`uwn^g' => [
-    {
-      'types' => {},
-      'entry' => 'mA`uwn^g',
-      'form' => 'mA`uwn^giyy',
-      'lines' => [
-        ';; mAEuwnojiy~_1',
-        'mAEwnjy mAEuwnojiy~     Ndu     boatman;bargeman',
-        'mAEwnjy mAEuwnojiy~     Nap     boatmen;bargemen     [[mAEuwnojiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'boatman',
-        'bargeman',
-        'boatmen',
-        'bargemen'
-      ],
-      'orig' => 'mAEuwnojiy~',
+      'orig' => 'majoniyziyuwm',
       'prefix' => ''
     }
   ],
@@ -34299,27 +34126,6 @@ $Lexicon = {
         'flatterer'
       ],
       'orig' => 'mutamal~iq',
-      'prefix' => ''
-    }
-  ],
-  'muwrfuwluw^giyA' => [
-    {
-      'types' => {},
-      'entry' => 'muwrfuwluw^giyA',
-      'form' => 'muwrfuwluw^giyA',
-      'lines' => [
-        ';; muwrofuwluwjiyA_1',
-        'mwrfwlwjyA      muwrofuwluwjiyA N0      morphology'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'morphology'
-      ],
-      'orig' => 'muwrofuwluwjiyA',
       'prefix' => ''
     }
   ],
@@ -34642,6 +34448,27 @@ $Lexicon = {
         'love songs'
       ],
       'orig' => 'maw~Al',
+      'prefix' => ''
+    }
+  ],
+  'mItUrUlU^giyA' => [
+    {
+      'types' => {},
+      'entry' => 'miytuwruwluw^giyA',
+      'form' => 'miytuwruwluw^giyA',
+      'lines' => [
+        ';; miytuwruwluwjiyA_1',
+        'mytwrwlwjyA     miytuwruwluwjiyA        N0      meteorology'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'meteorology'
+      ],
+      'orig' => 'miytuwruwluwjiyA',
       'prefix' => ''
     }
   ],
@@ -35083,7 +34910,49 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mUnAkU' => [
+    {
+      'types' => {},
+      'entry' => 'muwnAkuw',
+      'form' => 'muwnAkuw',
+      'lines' => [
+        ';; muwnAkuw_1',
+        'mwnAkw  muwnAkuw        Nprop   Monaco'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Monaco'
+      ],
+      'orig' => 'muwnAkuw',
+      'prefix' => ''
+    }
+  ],
   'm s _h' => [
+    {
+      'types' => {},
+      'entry' => 'mAsuw_h',
+      'form' => 'mAsuw_hiyy',
+      'lines' => [
+        ';; mAsuwxiy~_1',
+        'mAswxy  mAsuwxiy~       Nall    masochist     [[mAsuwxiy~/ADJ]]',
+        'mAswxy  mAsuwxiy~       Nap     masochism     [[mAsuwxiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACUL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'masochist',
+        'masochism'
+      ],
+      'orig' => 'mAsuwxiy~',
+      'prefix' => ''
+    },
     {
       'types' => {
         'msa_h' => {
@@ -35495,6 +35364,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mIlz' => [
+    {
+      'types' => {},
+      'entry' => 'miylz',
+      'form' => 'miylz',
+      'lines' => [
+        ';; miyloz_1',
+        'mylz    miyloz  Nprop   Mills'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Mills'
+      ],
+      'orig' => 'miyloz',
+      'prefix' => ''
+    }
+  ],
   'm _d l' => [
     {
       'types' => {
@@ -35569,14 +35459,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miyndAnAw' => [
+  'mUdIn.gI' => [
     {
       'types' => {},
-      'entry' => 'miyndAnAw',
-      'form' => 'miyndAnAw',
+      'entry' => 'muwdiyn.giy',
+      'form' => 'muwdiyn.giy',
       'lines' => [
-        ';; miynodAnAw_1',
-        'myndAnAw        miynodAnAw      Nprop   Mindanao'
+        ';; muwdiynogiy_1',
+        'mwdyngy muwdiynogiy     Nprop   Mudenge'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35584,9 +35474,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Mindanao'
+        'Mudenge'
       ],
-      'orig' => 'miynodAnAw',
+      'orig' => 'muwdiynogiy',
+      'prefix' => ''
+    }
+  ],
+  'mAyU' => [
+    {
+      'types' => {},
+      'entry' => 'mAyuw',
+      'form' => 'mAyuw',
+      'lines' => [
+        ';; mAyuw_1',
+        'mAyw    mAyuw   N0      May'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'May'
+      ],
+      'orig' => 'mAyuw',
       'prefix' => ''
     }
   ],
@@ -35694,6 +35605,52 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'muwsAd',
+      'prefix' => ''
+    }
+  ],
+  'mAsImU' => [
+    {
+      'types' => {},
+      'entry' => 'mAsiymuw',
+      'form' => 'mAsiymuw',
+      'lines' => [
+        ';; mAsiymuw_1',
+        'mAsymw  mAsiymuw        Nprop   Massimo'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Massimo'
+      ],
+      'orig' => 'mAsiymuw',
+      'prefix' => ''
+    }
+  ],
+  'mA.gAlI' => [
+    {
+      'types' => {
+        'mA.gAly' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'mA.gAliy',
+      'form' => 'mA.gAliy',
+      'lines' => [
+        ';; mAgAliy_1',
+        'mAgAly  mAgAly  N0      Magali'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Magali'
+      ],
+      'orig' => 'mAgAliy',
       'prefix' => ''
     }
   ],
@@ -36402,14 +36359,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'madAliywn' => [
+  'mIt^sil' => [
     {
-      'types' => {},
-      'entry' => 'madAliywn',
-      'form' => 'madAliywn',
+      'types' => {
+        'miyt^siyl' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'miyt^sil',
+      'form' => 'miyt^sil',
       'lines' => [
-        ';; madAliywn_1',
-        'mdAlywn madAliywn       N0      medallion'
+        ';; miyto$il_1',
+        'myt$l   miyto$il        N0      Mitchell',
+        'myt$yl  miyto$iyl       N0      Mitchell'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36417,9 +36379,31 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'medallion'
+        'Mitchell'
       ],
-      'orig' => 'madAliywn',
+      'orig' => 'miyto$il',
+      'prefix' => ''
+    }
+  ],
+  'mAnIl' => [
+    {
+      'types' => {},
+      'entry' => 'mAniyl',
+      'form' => 'mAniyliyy',
+      'lines' => [
+        ';; mAniyliy~_1',
+        'mAnyly  mAniyliy~       Nall    Manilan     [[mAniyliy~/NOUN]]',
+        'mAnyly  mAniyliy~       Nall    Manilan     [[mAniyliy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Manilan'
+      ],
+      'orig' => 'mAniyliy~',
       'prefix' => ''
     }
   ],
@@ -36648,6 +36632,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mAlkUm' => [
+    {
+      'types' => {},
+      'entry' => 'mAlkuwm',
+      'form' => 'mAlkuwm',
+      'lines' => [
+        ';; mAlokuwm_1',
+        'mAlkwm  mAlokuwm        Nprop   Malcolm'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Malcolm'
+      ],
+      'orig' => 'mAlokuwm',
+      'prefix' => ''
+    }
+  ],
   'm ` d' => [
     {
       'types' => {
@@ -36822,27 +36827,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miyniysuwtA' => [
-    {
-      'types' => {},
-      'entry' => 'miyniysuwtA',
-      'form' => 'miyniysuwtA',
-      'lines' => [
-        ';; miyniysuwtA_1',
-        'mynyswtA        miyniysuwtA     Nprop   Minnesota'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Minnesota'
-      ],
-      'orig' => 'miyniysuwtA',
-      'prefix' => ''
-    }
-  ],
   'm y y' => [
     {
       'types' => {},
@@ -36897,6 +36881,35 @@ $Lexicon = {
         'mastic'
       ],
       'orig' => 'maSoTakA\'',
+      'prefix' => ''
+    }
+  ],
+  'mIkrUbA.s' => [
+    {
+      'types' => {
+        'miykruwbAs' => {
+          'N/At' => 1
+        },
+        'miykruwbA.s' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'miykruwbA.s',
+      'form' => 'miykruwbA.s',
+      'lines' => [
+        ';; miykoruwbAS_1',
+        'mykrwbAS        miykoruwbAS     N/At    microbus',
+        'mykrwbAs        miykoruwbAs     N/At    microbus'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'microbus'
+      ],
+      'orig' => 'miykoruwbAS',
       'prefix' => ''
     }
   ],
@@ -36970,6 +36983,37 @@ $Lexicon = {
         'Machlas'
       ],
       'orig' => 'mAxolAs',
+      'prefix' => ''
+    }
+  ],
+  'mAkdUnAld' => [
+    {
+      'types' => {
+        'mAkduwnAldz' => {
+          'Nprop' => 1
+        },
+        'mAkduwnAlds' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'mAkduwnAld',
+      'form' => 'mAkduwnAld',
+      'lines' => [
+        ';; mAkoduwnAlod_1',
+        'mAkdwnAld       mAkoduwnAlod    Nprop   McDonald',
+        'mAkdwnAldz      mAkoduwnAlodz   Nprop   McDonald\'s',
+        'mAkdwnAlds      mAkoduwnAlods   Nprop   McDonald\'s'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'McDonald',
+        'McDonald\'s'
+      ],
+      'orig' => 'mAkoduwnAlod',
       'prefix' => ''
     }
   ],
@@ -37091,6 +37135,27 @@ $Lexicon = {
         'rotten'
       ],
       'orig' => 'ma*ir',
+      'prefix' => ''
+    }
+  ],
+  'mIrzA' => [
+    {
+      'types' => {},
+      'entry' => 'miyrzA',
+      'form' => 'miyrzA',
+      'lines' => [
+        ';; miyrozA_1',
+        'myrzA   miyrozA Nprop   Mirza'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Mirza'
+      ],
+      'orig' => 'miyrozA',
       'prefix' => ''
     }
   ],
@@ -37506,6 +37571,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mUnA' => [
+    {
+      'types' => {},
+      'entry' => 'muwnA',
+      'form' => 'muwnA',
+      'lines' => [
+        ';; muwnA_1',
+        'mwnA    muwnA   Nprop   Mona'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Mona'
+      ],
+      'orig' => 'muwnA',
+      'prefix' => ''
+    }
+  ],
   'm ` ^g' => [
     {
       'types' => {},
@@ -37525,74 +37611,6 @@ $Lexicon = {
         'meander'
       ],
       'orig' => 'tamaE~aj',
-      'prefix' => ''
-    }
-  ],
-  'mAliyziyA' => [
-    {
-      'types' => {},
-      'entry' => 'mAliyziyA',
-      'form' => 'mAliyziyA',
-      'lines' => [
-        ';; mAliyziyA_1',
-        'mAlyzyA mAliyziyA       N0      Malaysia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Malaysia'
-      ],
-      'orig' => 'mAliyziyA',
-      'prefix' => ''
-    }
-  ],
-  'mArkuwfiyt^s' => [
-    {
-      'types' => {},
-      'entry' => 'mArkuwfiyt^s',
-      'form' => 'mArkuwfiyt^s',
-      'lines' => [
-        ';; mArokuwfiyt$_1',
-        'mArkwfyt$       mArokuwfiyt$    Nprop   Markovic'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Markovic'
-      ],
-      'orig' => 'mArokuwfiyt$',
-      'prefix' => ''
-    }
-  ],
-  'miy.gAwAtiy' => [
-    {
-      'types' => {
-        'miy^gAwAtiy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'miy.gAwAtiy',
-      'form' => 'miy.gAwAtiy',
-      'lines' => [
-        ';; miygAwAtiy_1',
-        'mygAwAty        miygAwAtiy      N0      Megawati',
-        'myjAwAty        miyjAwAtiy      N0      Megawati'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Megawati'
-      ],
-      'orig' => 'miygAwAtiy',
       'prefix' => ''
     }
   ],
@@ -37838,72 +37856,7 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwr.giynstiyrn' => [
-    {
-      'types' => {},
-      'entry' => 'muwr.giynstiyrn',
-      'form' => 'muwr.giynstiyrn',
-      'lines' => [
-        ';; muwrogiynstiyrn_1',
-        'mwrgynstyrn     muwrogiynstiyrn Nprop   Morgenstern'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Morgenstern'
-      ],
-      'orig' => 'muwrogiynstiyrn',
-      'prefix' => ''
-    }
-  ],
-  'miyzuwbuwtAmiyy' => [
-    {
-      'types' => {},
-      'entry' => 'miyzuwbuwtAmiyy',
-      'form' => 'miyzuwbuwtAmiyy',
-      'lines' => [
-        ';; miyzuwbuwtAmiy~_1',
-        'myzwbwtAmy      miyzuwbuwtAmiy~ Nall    Mesopotamian     [[miyzuwbuwtAmiy~/NOUN]]',
-        'myzwbwtAmy      miyzuwbuwtAmiy~ Nall    Mesopotamian     [[miyzuwbuwtAmiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mesopotamian'
-      ],
-      'orig' => 'miyzuwbuwtAmiy~',
-      'prefix' => ''
-    }
-  ],
   'm n w' => [
-    {
-      'types' => {},
-      'entry' => 'mAnY',
-      'form' => 'mAnawiyy',
-      'lines' => [
-        ';; mAnawiy~_1',
-        'mAnwy   mAnawiy~        Nall    Manichaean     [[mAnawiy~/NOUN]]',
-        'mAnwy   mAnawiy~        Nall    Manichaean     [[mAnawiy~/ADJ]]',
-        'mAnwy   mAnawiy~        Nap     Manichaeism     [[mAnawiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACY |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Manichaean',
-        'Manichaeism'
-      ],
-      'orig' => 'mAnawiy~',
-      'prefix' => ''
-    },
     {
       'types' => {
         'mnuw' => {
@@ -38414,27 +38367,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwntiyfiydiyuw' => [
-    {
-      'types' => {},
-      'entry' => 'muwntiyfiydiyuw',
-      'form' => 'muwntiyfiydiyuw',
-      'lines' => [
-        ';; muwnotiyfiydiyuw_1',
-        'mwntyfydyw      muwnotiyfiydiyuw        Nprop   Montevideo'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Montevideo'
-      ],
-      'orig' => 'muwnotiyfiydiyuw',
-      'prefix' => ''
-    }
-  ],
   'mi_tlamA' => [
     {
       'types' => {},
@@ -38478,14 +38410,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miyluwrAd' => [
+  'marza_hU^s' => [
     {
-      'types' => {},
-      'entry' => 'miyluwrAd',
-      'form' => 'miyluwrAd',
+      'types' => {
+        'marzan_huw^s' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'marza_huw^s',
+      'form' => 'marza_huw^s',
       'lines' => [
-        ';; miyluwrAd_1',
-        'mylwrAd miyluwrAd       Nprop   Milorad'
+        ';; marozaxuw$_1',
+        'mrzxw$  marozaxuw$      N0      marjoram',
+        'mrznxw$ marozanoxuw$    N0      marjoram'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38493,9 +38430,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Milorad'
+        'marjoram'
       ],
-      'orig' => 'miyluwrAd',
+      'orig' => 'marozaxuw$',
       'prefix' => ''
     }
   ],
@@ -38681,19 +38618,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'muwsY',
       'form' => 'muwsY',
-      'lines' => [
-        ';; muwsaY_1',
-        'mwsY    muwsaY  Nprop   Mousa;Moussa'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KuRDY',
       'suffix' => '',
-      'glosses' => [
-        'Mousa',
-        'Moussa'
-      ],
+      'glosses' => [],
       'orig' => 'muwsaY',
       'prefix' => ''
     },
@@ -38701,18 +38632,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'muwsY',
       'form' => 'muwsY',
-      'lines' => [
-        ';; muwsaY_2',
-        'mwsY    muwsaY  Nprop   Moses'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'KuRDY',
       'suffix' => '',
-      'glosses' => [
-        'Moses'
-      ],
+      'glosses' => [],
       'orig' => 'muwsaY',
       'prefix' => ''
     },
@@ -38720,18 +38646,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'muwsY',
       'form' => 'muwsawiyy',
-      'lines' => [
-        ';; muwsawiy~_1',
-        'mwswy   muwsawiy~       N0      Moussaoui'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'KuRDY |< Iy',
       'suffix' => ' |< Iy',
-      'glosses' => [
-        'Moussaoui'
-      ],
+      'glosses' => [],
       'orig' => 'muwsawiy~',
       'prefix' => ''
     },
@@ -38739,31 +38660,25 @@ $Lexicon = {
       'types' => {},
       'entry' => 'muwsY',
       'form' => 'muwsawiyy',
-      'lines' => [
-        ';; muwsawiy~_2',
-        'mwswy   muwsawiy~       N-ap    Mosaic;Moses     [[muwsawiy~/ADJ]]'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '2',
       'entity' => 'adj',
       'morphs' => 'KuRDY |< Iy',
       'suffix' => ' |< Iy',
-      'glosses' => [
-        'Mosaic',
-        'Moses'
-      ],
+      'glosses' => [],
       'orig' => 'muwsawiy~',
       'prefix' => ''
     }
   ],
-  'muwnAkuw' => [
+  'mAlAwI' => [
     {
       'types' => {},
-      'entry' => 'muwnAkuw',
-      'form' => 'muwnAkuw',
+      'entry' => 'mAlAwiy',
+      'form' => 'mAlAwiy',
       'lines' => [
-        ';; muwnAkuw_1',
-        'mwnAkw  muwnAkuw        Nprop   Monaco'
+        ';; mAlAwiy_1',
+        'mAlAwy  mAlAwiy N0      Malawi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38771,9 +38686,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Monaco'
+        'Malawi'
       ],
-      'orig' => 'muwnAkuw',
+      'orig' => 'mAlAwiy',
       'prefix' => ''
     }
   ],
@@ -38826,32 +38741,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwstAr' => [
-    {
-      'types' => {
-        'muwstar' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'muwstAr',
-      'form' => 'muwstAr',
-      'lines' => [
-        ';; muwsotAr_1',
-        'mwstAr  muwsotAr        Nprop   Mostar',
-        'mwstr   muwsotar        Nprop   Mostar'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mostar'
-      ],
-      'orig' => 'muwsotAr',
-      'prefix' => ''
-    }
-  ],
   'm y k n' => [
     {
       'types' => {},
@@ -38871,40 +38760,6 @@ $Lexicon = {
         'motorization'
       ],
       'orig' => 'mayokanap',
-      'prefix' => ''
-    }
-  ],
-  'miykruwb' => [
-    {
-      'types' => {
-        'miykruwb' => {
-          'NAt' => 1
-        },
-        'makAriyb' => {
-          'Ndip' => 1
-        },
-        'mikruwb' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'miykruwb',
-      'form' => 'miykruwb',
-      'lines' => [
-        ';; miykoruwb_1',
-        'mykrwb  miykoruwb       N/At    microbe',
-        'mkrwb   mikoruwb        NduAt   microbe',
-        'mkAryb  makAriyb        Ndip    microbes'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'microbe',
-        'microbes'
-      ],
-      'orig' => 'miykoruwb',
       'prefix' => ''
     }
   ],
@@ -39020,6 +38875,27 @@ $Lexicon = {
         'mediocre'
       ],
       'orig' => 'midolin',
+      'prefix' => ''
+    }
+  ],
+  'man^sUriyA' => [
+    {
+      'types' => {},
+      'entry' => 'man^suwriyA',
+      'form' => 'man^suwriyA',
+      'lines' => [
+        ';; mano$uwriyA_1',
+        'mn$wryA mano$uwriyA     N0      Manchuria'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Manchuria'
+      ],
+      'orig' => 'mano$uwriyA',
       'prefix' => ''
     }
   ],
@@ -39169,6 +39045,20 @@ $Lexicon = {
       'suffix' => ' |<< "a"',
       'glosses' => [],
       'orig' => 'miydA\'a',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'miydA\'',
+      'form' => 'miydAwiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KiRDAS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'miydAwiy~',
       'prefix' => ''
     }
   ],
@@ -39440,18 +39330,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwyA' => [
+  'malAyU' => [
     {
-      'types' => {
-        'muwyY' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'muwyA',
-      'form' => 'muwyA',
+      'types' => {},
+      'entry' => 'malAyuw',
+      'form' => 'malAyuw',
       'lines' => [
-        ';; muwyA_1',
-        'mwyA    muwyA   Nprop   Moya'
+        ';; malAyuw_1',
+        'mlAyw   malAyuw N0      Malay'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39459,9 +39345,48 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Moya'
+        'Malay'
       ],
-      'orig' => 'muwyA',
+      'orig' => 'malAyuw',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'malAyuw',
+      'form' => 'malAyuw',
+      'lines' => [
+        ';; malAyuw_2',
+        'mlAyw   malAyuw N0      Malayan'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Malayan'
+      ],
+      'orig' => 'malAyuw',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'malAyuw',
+      'form' => 'malAyuwiyy',
+      'lines' => [
+        ';; malAyuwiy~_1',
+        'mlAywy  malAyuwiy~      Nall    Malayan     [[malAyuwiy~/NOUN]]',
+        'mlAywy  malAyuwiy~      Nall    Malayan     [[malAyuwiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Malayan'
+      ],
+      'orig' => 'malAyuwiy~',
       'prefix' => ''
     }
   ],
@@ -40049,6 +39974,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mAdlIn' => [
+    {
+      'types' => {},
+      'entry' => 'mAdliyn',
+      'form' => 'mAdliyn',
+      'lines' => [
+        ';; mAdoliyn_1',
+        'mAdlyn  mAdoliyn        Nprop   Madeleine'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Madeleine'
+      ],
+      'orig' => 'mAdoliyn',
+      'prefix' => ''
+    }
+  ],
   'mAndAlA' => [
     {
       'types' => {},
@@ -40067,37 +40013,6 @@ $Lexicon = {
         'Mandala'
       ],
       'orig' => 'mAnodAlA',
-      'prefix' => ''
-    }
-  ],
-  'miynA' => [
-    {
-      'types' => {
-        'miynA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => 'miynA',
-      'form' => 'miynA',
-      'lines' => [
-        ';; miynA_1',
-        'mynA    miynA   N0      glaze;enamel',
-        'mynA\'   miynA\'  N0_Nh   glaze;enamel',
-        'mynA&   miynA&  Nh      glaze;enamel',
-        'mynA}   miynA}  Nhy     glaze;enamel'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'glaze',
-        'enamel'
-      ],
-      'orig' => 'miynA',
       'prefix' => ''
     }
   ],
@@ -40219,27 +40134,6 @@ $Lexicon = {
         'goatherd'
       ],
       'orig' => 'maE~Az',
-      'prefix' => ''
-    }
-  ],
-  'mAriynz' => [
-    {
-      'types' => {},
-      'entry' => 'mAriynz',
-      'form' => 'mAriynz',
-      'lines' => [
-        ';; mAriynz_1',
-        'mArynz  mAriynz N0      Marines'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Marines'
-      ],
-      'orig' => 'mAriynz',
       'prefix' => ''
     }
   ],
@@ -40469,27 +40363,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'mat~aY',
-      'prefix' => ''
-    }
-  ],
-  'mAriyAnuw' => [
-    {
-      'types' => {},
-      'entry' => 'mAriyAnuw',
-      'form' => 'mAriyAnuw',
-      'lines' => [
-        ';; mAriyAnuw_1',
-        'mAryAnw mAriyAnuw       Nprop   Mariano'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mariano'
-      ],
-      'orig' => 'mAriyAnuw',
       'prefix' => ''
     }
   ],
@@ -40757,58 +40630,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mAyuwriynziy' => [
-    {
-      'types' => {},
-      'entry' => 'mAyuwriynziy',
-      'form' => 'mAyuwriynziy',
-      'lines' => [
-        ';; mAyuwriynoziy_1',
-        'mAywrynzy       mAyuwriynoziy   N0      Mayorense'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mayorense'
-      ],
-      'orig' => 'mAyuwriynoziy',
-      'prefix' => ''
-    }
-  ],
-  'mAkduwnAld' => [
-    {
-      'types' => {
-        'mAkduwnAldz' => {
-          'Nprop' => 1
-        },
-        'mAkduwnAlds' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'mAkduwnAld',
-      'form' => 'mAkduwnAld',
-      'lines' => [
-        ';; mAkoduwnAlod_1',
-        'mAkdwnAld       mAkoduwnAlod    Nprop   McDonald',
-        'mAkdwnAldz      mAkoduwnAlodz   Nprop   McDonald\'s',
-        'mAkdwnAlds      mAkoduwnAlods   Nprop   McDonald\'s'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'McDonald',
-        'McDonald\'s'
-      ],
-      'orig' => 'mAkoduwnAlod',
-      'prefix' => ''
-    }
-  ],
   'm d l y' => [
     {
       'types' => {},
@@ -40847,6 +40668,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'misyU' => [
+    {
+      'types' => {},
+      'entry' => 'misyuw',
+      'form' => 'misyuw',
+      'lines' => [
+        ';; misoyuw_1',
+        'msyw    misoyuw N0      Monsieur'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Monsieur'
+      ],
+      'orig' => 'misoyuw',
+      'prefix' => ''
+    }
+  ],
   'mistikah' => [
     {
       'types' => {},
@@ -40868,6 +40710,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mUntInI.grU' => [
+    {
+      'types' => {},
+      'entry' => 'muwntiyniy.gruw',
+      'form' => 'muwntiyniy.gruw',
+      'lines' => [
+        ';; muwnotiyniygoruw_1',
+        'mwntynygrw      muwnotiyniygoruw        Nprop   Montenegro'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Montenegro'
+      ],
+      'orig' => 'muwnotiyniygoruw',
+      'prefix' => ''
+    }
+  ],
   'm w f z' => [
     {
       'types' => {},
@@ -40884,7 +40747,76 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mAtfIf' => [
+    {
+      'types' => {},
+      'entry' => 'mAtfiyf',
+      'form' => 'mAtfiyf',
+      'lines' => [
+        ';; mAtofiyf_1',
+        'mAtfyf  mAtofiyf        Nprop   Matveev'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Matveev'
+      ],
+      'orig' => 'mAtofiyf',
+      'prefix' => ''
+    }
+  ],
   'm s k' => [
+    {
+      'types' => {
+        'mAsuw^siyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'mAsuwk',
+      'form' => 'mAsuwkiyy',
+      'lines' => [
+        ';; mAsuwkiy~_1',
+        'mAswky  mAsuwkiy~       Nall    masochist     [[mAsuwkiy~/ADJ]]',
+        'mAsw$y  mAsuw$iy~       Nall    masochist     [[mAsuw$iy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACUL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'masochist'
+      ],
+      'orig' => 'mAsuwkiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'mAsuw^siyy' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'mAsuwk',
+      'form' => 'mAsuwkiyyaT',
+      'lines' => [
+        ';; mAsuwkiy~ap_1',
+        'mAswky  mAsuwkiy~       Nap     masochism     [[mAsuwkiy~/NOUN]]',
+        'mAsw$y  mAsuw$iy~       Nap     masochism     [[mAsuw$iy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACUL |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'masochism'
+      ],
+      'orig' => 'mAsuwkiy~ap',
+      'prefix' => ''
+    },
     {
       'types' => {
         'msik' => {
@@ -41538,14 +41470,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwsiyqAr' => [
+  'mIsmir' => [
     {
       'types' => {},
-      'entry' => 'muwsiyqAr',
-      'form' => 'muwsiyqAr',
+      'entry' => 'miysmir',
+      'form' => 'miysmir',
       'lines' => [
-        ';; muwsiyqAr_1',
-        'mwsyqAr muwsiyqAr       N       musician'
+        ';; miysomir_1',
+        'mysmr   miysomir        Nprop   Messmer'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41553,20 +41485,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'musician'
+        'Messmer'
       ],
-      'orig' => 'muwsiyqAr',
+      'orig' => 'miysomir',
       'prefix' => ''
     }
   ],
-  'muwriy.tAniyA' => [
+  'mUskU' => [
     {
       'types' => {},
-      'entry' => 'muwriy.tAniyA',
-      'form' => 'muwriy.tAniyA',
+      'entry' => 'muwskuw',
+      'form' => 'muwskuw',
       'lines' => [
-        ';; muwriyTAniyA_1',
-        'mwryTAnyA       muwriyTAniyA    N0      Mauritania'
+        ';; muwsokuw_1',
+        'mwskw   muwsokuw        N0      Moscow'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41574,9 +41506,114 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Mauritania'
+        'Moscow'
       ],
-      'orig' => 'muwriyTAniyA',
+      'orig' => 'muwsokuw',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muwskuw',
+      'form' => 'muwskuwiyy',
+      'lines' => [
+        ';; muwsokuwiy~_1',
+        'mwskwy  muwsokuwiy~     Nall    Muscovite     [[muwsokuwiy~/NOUN]]',
+        'mwskwy  muwsokuwiy~     Nall    Muscovite     [[muwsokuwiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Muscovite'
+      ],
+      'orig' => 'muwsokuwiy~',
+      'prefix' => ''
+    }
+  ],
+  'mItAfIzIq' => [
+    {
+      'types' => {},
+      'entry' => 'miytAfiyziyq',
+      'form' => 'miytAfiyziyqiyy',
+      'lines' => [
+        ';; miytAfiyziyqiy~_1',
+        'mytAfyzyqy      miytAfiyziyqiy~ Nall    metaphysical     [[miytAfiyziyqiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'metaphysical'
+      ],
+      'orig' => 'miytAfiyziyqiy~',
+      'prefix' => ''
+    }
+  ],
+  'mUntI' => [
+    {
+      'types' => {},
+      'entry' => 'muwntiy',
+      'form' => 'muwntiy',
+      'lines' => [
+        ';; muwnotiy_1',
+        'mwnty   muwnotiy        Nprop   Monte;Monty'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Monte',
+        'Monty'
+      ],
+      'orig' => 'muwnotiy',
+      'prefix' => ''
+    }
+  ],
+  'mUrAfIk' => [
+    {
+      'types' => {},
+      'entry' => 'muwrAfiyk',
+      'form' => 'muwrAfiyk',
+      'lines' => [
+        ';; muwrAfiyk_1',
+        'mwrAfyk muwrAfiyk       Nprop   Moravec'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Moravec'
+      ],
+      'orig' => 'muwrAfiyk',
+      'prefix' => ''
+    }
+  ],
+  'mAtInIh' => [
+    {
+      'types' => {},
+      'entry' => 'mAtiyniyh',
+      'form' => 'mAtiyniyh',
+      'lines' => [
+        ';; mAtiyniyh_1',
+        'mAtynyh mAtiyniyh       N0      matinee'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'matinee'
+      ],
+      'orig' => 'mAtiyniyh',
       'prefix' => ''
     }
   ],
@@ -41739,16 +41776,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwmyA\'' => [
+  'mUrfUlU^giyA' => [
     {
       'types' => {},
-      'entry' => 'muwmyA\'',
-      'form' => 'muwmyA\'',
+      'entry' => 'muwrfuwluw^giyA',
+      'form' => 'muwrfuwluw^giyA',
       'lines' => [
-        ';; muwmoyA\'_1',
-        'mwmyA\'  muwmoyA\'        N0_Nh   mummy',
-        'mwmyA&  muwmoyA&        Nh      mummy',
-        'mwmyA}  muwmoyA}        Nhy     mummy'
+        ';; muwrofuwluwjiyA_1',
+        'mwrfwlwjyA      muwrofuwluwjiyA N0      morphology'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41756,70 +41791,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'mummy'
+        'morphology'
       ],
-      'orig' => 'muwmoyA\'',
+      'orig' => 'muwrofuwluwjiyA',
       'prefix' => ''
     }
   ],
-  'mAsuwkiyy' => [
-    {
-      'types' => {
-        'mAsuw^siyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'mAsuwkiyy',
-      'form' => 'mAsuwkiyy',
-      'lines' => [
-        ';; mAsuwkiy~_1',
-        'mAswky  mAsuwkiy~       Nall    masochist     [[mAsuwkiy~/ADJ]]',
-        'mAsw$y  mAsuw$iy~       Nall    masochist     [[mAsuw$iy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'masochist'
-      ],
-      'orig' => 'mAsuwkiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'mAsuw^siyy' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'mAsuwkiyy',
-      'form' => 'mAsuwkiyyaT',
-      'lines' => [
-        ';; mAsuwkiy~ap_1',
-        'mAswky  mAsuwkiy~       Nap     masochism     [[mAsuwkiy~/NOUN]]',
-        'mAsw$y  mAsuw$iy~       Nap     masochism     [[mAsuw$iy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'masochism'
-      ],
-      'orig' => 'mAsuwkiy~ap',
-      'prefix' => ''
-    }
-  ],
-  'muwnuwtayb' => [
+  'mAnU^sir' => [
     {
       'types' => {},
-      'entry' => 'muwnuwtayb',
-      'form' => 'muwnuwtayb',
+      'entry' => 'mAnuw^sir',
+      'form' => 'mAnuw^sir',
       'lines' => [
-        ';; muwnuwtayob_1',
-        'mwnwtyb muwnuwtayob     N0      Monotype'
+        ';; mAnuw$ir_1',
+        'mAnw$r  mAnuw$ir        Nprop   Manusher'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41827,51 +41812,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Monotype'
+        'Manusher'
       ],
-      'orig' => 'muwnuwtayob',
-      'prefix' => ''
-    }
-  ],
-  'mAkmAhuwn' => [
-    {
-      'types' => {},
-      'entry' => 'mAkmAhuwn',
-      'form' => 'mAkmAhuwn',
-      'lines' => [
-        ';; mAkomAhuwn_1',
-        'mAkmAhwn        mAkomAhuwn      Nprop   McMahon'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'McMahon'
-      ],
-      'orig' => 'mAkomAhuwn',
-      'prefix' => ''
-    }
-  ],
-  'mAmuw_t' => [
-    {
-      'types' => {},
-      'entry' => 'mAmuw_t',
-      'form' => 'mAmuw_t',
-      'lines' => [
-        ';; mAmuwv_1',
-        'mAmwv   mAmuwv  N       mammoth'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'mammoth'
-      ],
-      'orig' => 'mAmuwv',
+      'orig' => 'mAnuw$ir',
       'prefix' => ''
     }
   ],
@@ -41891,14 +41834,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mArA_tuwn' => [
+  'mUriyUkA' => [
     {
       'types' => {},
-      'entry' => 'mArA_tuwn',
-      'form' => 'mArA_tuwn',
+      'entry' => 'muwriyuwkA',
+      'form' => 'muwriyuwkA',
       'lines' => [
-        ';; mArAvuwn_1',
-        'mArAvwn mArAvuwn        N0      Marathon'
+        ';; muwriyuwkA_1',
+        'mwrywkA muwriyuwkA      Nprop   Morioka'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41906,28 +41849,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Marathon'
+        'Morioka'
       ],
-      'orig' => 'mArAvuwn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mArA_tuwn',
-      'form' => 'mArA_tuwn',
-      'lines' => [
-        ';; mArAvuwn_2',
-        'mArAvwn mArAvuwn        N       marathon'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'marathon'
-      ],
-      'orig' => 'mArAvuwn',
+      'orig' => 'muwriyuwkA',
       'prefix' => ''
     }
   ],
@@ -42233,6 +42157,27 @@ $Lexicon = {
         'cisterns'
       ],
       'orig' => 'mAjin',
+      'prefix' => ''
+    }
+  ],
+  'munUlU^gist' => [
+    {
+      'types' => {},
+      'entry' => 'munuwluw^gist',
+      'form' => 'munuwluw^gist',
+      'lines' => [
+        ';; munuwluwjisot_1',
+        'mnwlwjst        munuwluwjisot   N       monologue artist'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'monologue artist'
+      ],
+      'orig' => 'munuwluwjisot',
       'prefix' => ''
     }
   ],
@@ -42808,6 +42753,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mItadUr' => [
+    {
+      'types' => {},
+      'entry' => 'miytaduwr',
+      'form' => 'miytaduwr',
+      'lines' => [
+        ';; miytaduwr_1',
+        'mytdwr  miytaduwr       N0      matador'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'matador'
+      ],
+      'orig' => 'miytaduwr',
+      'prefix' => ''
+    }
+  ],
+  'malan_hUl' => [
+    {
+      'types' => {},
+      'entry' => 'malan_huwl',
+      'form' => 'malan_huwliyy',
+      'lines' => [
+        ';; malanoxuwliy~_1',
+        'mlnxwly malanoxuwliy~   Nall    melancholic'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'melancholic'
+      ],
+      'orig' => 'malanoxuwliy~',
+      'prefix' => ''
+    }
+  ],
   'm w ^g' => [
     {
       'types' => {
@@ -43131,28 +43118,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miydAliy' => [
-    {
-      'types' => {},
-      'entry' => 'miydAliy',
-      'form' => 'miydAliyaT',
-      'lines' => [
-        ';; miydAliyap_1',
-        'mydAly  miydAliy        NapAt   medal;medallion'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'medal',
-        'medallion'
-      ],
-      'orig' => 'miydAliyap',
-      'prefix' => ''
-    }
-  ],
   'm n d l' => [
     {
       'types' => {},
@@ -43254,14 +43219,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'maqduwnis' => [
+  'mamAdU' => [
     {
       'types' => {},
-      'entry' => 'maqduwnis',
-      'form' => 'maqduwnis',
+      'entry' => 'mamAduw',
+      'form' => 'mamAduw',
       'lines' => [
-        ';; maqoduwnis_1',
-        'mqdwns  maqoduwnis      N       parsley'
+        ';; mamAduw_1',
+        'mmAdw   mamAduw Nprop   Mamadou'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43269,9 +43234,43 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'parsley'
+        'Mamadou'
       ],
-      'orig' => 'maqoduwnis',
+      'orig' => 'mamAduw',
+      'prefix' => ''
+    }
+  ],
+  'mIkrUb' => [
+    {
+      'types' => {
+        'miykruwb' => {
+          'NAt' => 1
+        },
+        'makAriyb' => {
+          'Ndip' => 1
+        },
+        'mikruwb' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'miykruwb',
+      'form' => 'miykruwb',
+      'lines' => [
+        ';; miykoruwb_1',
+        'mykrwb  miykoruwb       N/At    microbe',
+        'mkrwb   mikoruwb        NduAt   microbe',
+        'mkAryb  makAriyb        Ndip    microbes'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'microbe',
+        'microbes'
+      ],
+      'orig' => 'miykoruwb',
       'prefix' => ''
     }
   ],
@@ -43889,6 +43888,58 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mUzambIq' => [
+    {
+      'types' => {
+        'muwzAmbiyq' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'muwzambiyq',
+      'form' => 'muwzambiyq',
+      'lines' => [
+        ';; muwzamobiyq_1',
+        'mwzmbyq muwzamobiyq     N0      Mozambique',
+        'mwzAmbyq        muwzAmobiyq     N0      Mozambique'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Mozambique'
+      ],
+      'orig' => 'muwzamobiyq',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'muwzAmbiyqiyy' => {
+          'Nall' => 2
+        }
+      },
+      'entry' => 'muwzambiyq',
+      'form' => 'muwzambiyqiyy',
+      'lines' => [
+        ';; muwzamobiyqiy~_1',
+        'mwzmbyqy        muwzamobiyqiy~  Nall    Mozambican     [[muwzamobiyqiy~/NOUN]]',
+        'mwzmbyqy        muwzamobiyqiy~  Nall    Mozambican     [[muwzamobiyqiy~/ADJ]]',
+        'mwzAmbyqy       muwzAmobiyqiy~  Nall    Mozambican     [[muwzAmobiyqiy~/NOUN]]',
+        'mwzAmbyqy       muwzAmobiyqiy~  Nall    Mozambican     [[muwzAmobiyqiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Mozambican'
+      ],
+      'orig' => 'muwzamobiyqiy~',
+      'prefix' => ''
+    }
+  ],
   'm t n' => [
     {
       'types' => {
@@ -44081,19 +44132,16 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miyliy.giyniy' => [
+  'mIrliwA\'' => [
     {
-      'types' => {
-        'miyliy^giyniy' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'miyliy.giyniy',
-      'form' => 'miyliy.giyniy',
+      'types' => {},
+      'entry' => 'miyrliwA\'',
+      'form' => 'miyrliwA\'',
       'lines' => [
-        ';; miyliygiyniy_1',
-        'mylygyny        miyliygiyniy    Nprop   Meligeni',
-        'mylyjyny        miyliyjiyniy    Nprop   Meligeni'
+        ';; miyroliwA\'_1',
+        'myrlwA\' miyroliwA\'      N0_Nh   major general',
+        'myrlwA& miyroliwA&      Nh      major general',
+        'myrlwA} miyroliwA}      Nhy     major general'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44101,9 +44149,35 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Meligeni'
+        'major general'
       ],
-      'orig' => 'miyliygiyniy',
+      'orig' => 'miyroliwA\'',
+      'prefix' => ''
+    }
+  ],
+  'mUrdi_hAy' => [
+    {
+      'types' => {
+        'murdi_hAy' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'muwrdi_hAy',
+      'form' => 'muwrdi_hAy',
+      'lines' => [
+        ';; muwrodixAy_1',
+        'mwrdxAy muwrodixAy      Nprop   Mordechai',
+        'mrdxAy  murodixAy       Nprop   Mordechai'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Mordechai'
+      ],
+      'orig' => 'muwrodixAy',
       'prefix' => ''
     }
   ],
@@ -44197,40 +44271,18 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muwrniyn.g' => [
-    {
-      'types' => {},
-      'entry' => 'muwrniyn.g',
-      'form' => 'muwrniyn.g',
-      'lines' => [
-        ';; muwroniyng_1',
-        'mwrnyng muwroniyng      Nprop   Mourning'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mourning'
-      ],
-      'orig' => 'muwroniyng',
-      'prefix' => ''
-    }
-  ],
-  'mAykruwsuwft' => [
+  'mUtUsIkl' => [
     {
       'types' => {
-        'maykruwsuwft' => {
-          'Nprop' => 1
+        'muwtuwsiykl' => {
+          'NAt' => 1
         }
       },
-      'entry' => 'mAykruwsuwft',
-      'form' => 'mAykruwsuwft',
+      'entry' => 'muwtuwsiykl',
+      'form' => 'muwtuwsiykl',
       'lines' => [
-        ';; mAyokruwsuwft_1',
-        'mAykrwswft      mAyokruwsuwft   Nprop   Microsoft',
-        'mykrwswft       mayokruwsuwft   Nprop   Microsoft'
+        ';; muwtuwsiykl_1',
+        'mwtwsykl        muwtuwsiykl     N/At    motorcycle'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44238,9 +44290,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Microsoft'
+        'motorcycle'
       ],
-      'orig' => 'mAyokruwsuwft',
+      'orig' => 'muwtuwsiykl',
       'prefix' => ''
     }
   ],
@@ -44593,14 +44645,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'minA.hiym' => [
+  'mUtzI' => [
     {
       'types' => {},
-      'entry' => 'minA.hiym',
-      'form' => 'minA.hiym',
+      'entry' => 'muwtziy',
+      'form' => 'muwtziy',
       'lines' => [
-        ';; minAHiym_1',
-        'mnAHym  minAHiym        Nprop   Menahem'
+        ';; muwtoziy_1',
+        'mwtzy   muwtoziy        Nprop   Muzzi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44608,30 +44660,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Menahem'
+        'Muzzi'
       ],
-      'orig' => 'minAHiym',
+      'orig' => 'muwtoziy',
       'prefix' => ''
     }
   ],
-  'malan_huwl' => [
+  'mAn^gUt' => [
     {
       'types' => {},
-      'entry' => 'malan_huwl',
-      'form' => 'malan_huwliyy',
+      'entry' => 'mAn^guwt',
+      'form' => 'mAn^guwt',
       'lines' => [
-        ';; malanoxuwliy~_1',
-        'mlnxwly malanoxuwliy~   Nall    melancholic'
+        ';; mAnojuwt_1',
+        'mAnjwt  mAnojuwt        Nprop   Mangut'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'melancholic'
+        'Mangut'
       ],
-      'orig' => 'malanoxuwliy~',
+      'orig' => 'mAnojuwt',
       'prefix' => ''
     }
   ],
@@ -44648,6 +44700,50 @@ $Lexicon = {
       'suffix' => ' |< At',
       'glosses' => [],
       'orig' => 'mawAt',
+      'prefix' => ''
+    }
+  ],
+  'mIkrUskUb' => [
+    {
+      'types' => {
+        'miykruwskuwb' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'miykruwskuwb',
+      'form' => 'miykruwskuwb',
+      'lines' => [
+        ';; miykoruwskuwb_1',
+        'mykrwskwb       miykoruwskuwb   N/At    microscope'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'microscope'
+      ],
+      'orig' => 'miykoruwskuwb',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'miykruwskuwb',
+      'form' => 'miykruwskuwbiyy',
+      'lines' => [
+        ';; miykoruwskuwbiy~_1',
+        'mykrwskwby      miykoruwskuwbiy~        Nall    microscopic     [[miykoruwskuwbiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'microscopic'
+      ],
+      'orig' => 'miykoruwskuwbiy~',
       'prefix' => ''
     }
   ],
@@ -44693,6 +44789,41 @@ $Lexicon = {
       'glosses' => [],
       'orig' => 'masA}iy~ap',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muwsA\'',
+      'form' => 'muwsAwiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FUCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'muwsAwiy~',
+      'prefix' => ''
+    }
+  ],
+  'makarUn' => [
+    {
+      'types' => {},
+      'entry' => 'makaruwn',
+      'form' => 'makaruwnaT',
+      'lines' => [
+        ';; makaruwnap_1',
+        'mkrwn   makaruwn        Nap     macaroni'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'macaroni'
+      ],
+      'orig' => 'makaruwnap',
+      'prefix' => ''
     }
   ],
   'm y m y' => [
@@ -44708,27 +44839,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'mayAmiy',
-      'prefix' => ''
-    }
-  ],
-  'mArAtsiynA' => [
-    {
-      'types' => {},
-      'entry' => 'mArAtsiynA',
-      'form' => 'mArAtsiynA',
-      'lines' => [
-        ';; mArAtsiynA_1',
-        'mArAtsynA       mArAtsiynA      Nprop   Marazzina'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Marazzina'
-      ],
-      'orig' => 'mArAtsiynA',
       'prefix' => ''
     }
   ],
@@ -44753,6 +44863,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'mAnIlA' => [
+    {
+      'types' => {},
+      'entry' => 'mAniylA',
+      'form' => 'mAniylA',
+      'lines' => [
+        ';; mAniylA_1',
+        'mAnylA  mAniylA N0      Manila'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Manila'
+      ],
+      'orig' => 'mAniylA',
+      'prefix' => ''
+    }
+  ],
   'mAstirz' => [
     {
       'types' => {},
@@ -44774,40 +44905,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miyt^sil' => [
-    {
-      'types' => {
-        'miyt^siyl' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'miyt^sil',
-      'form' => 'miyt^sil',
-      'lines' => [
-        ';; miyto$il_1',
-        'myt$l   miyto$il        N0      Mitchell',
-        'myt$yl  miyto$iyl       N0      Mitchell'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mitchell'
-      ],
-      'orig' => 'miyto$il',
-      'prefix' => ''
-    }
-  ],
-  'mAyistrw' => [
+  'minA.hIm' => [
     {
       'types' => {},
-      'entry' => 'mAyistrw',
-      'form' => 'mAyistrw',
+      'entry' => 'minA.hiym',
+      'form' => 'minA.hiym',
       'lines' => [
-        ';; mAyisotrw_1',
-        'mAystrw mAyisotrw       N0      maestro;conductor'
+        ';; minAHiym_1',
+        'mnAHym  minAHiym        Nprop   Menahem'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44815,10 +44920,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'maestro',
-        'conductor'
+        'Menahem'
       ],
-      'orig' => 'mAyisotrw',
+      'orig' => 'minAHiym',
       'prefix' => ''
     }
   ],
@@ -44870,19 +44974,61 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'milyuwnAr' => [
+  'mIlIt^s' => [
+    {
+      'types' => {},
+      'entry' => 'miyliyt^s',
+      'form' => 'miyliyt^s',
+      'lines' => [
+        ';; miyliyt$_1',
+        'mylyt$  miyliyt$        Nprop   Millic'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Millic'
+      ],
+      'orig' => 'miyliyt$',
+      'prefix' => ''
+    }
+  ],
+  'madAliyUn' => [
     {
       'types' => {
-        'milyuwniyr' => {
-          'N/At' => 1
+        'madAliywn' => {
+          'N0' => 1
         }
       },
-      'entry' => 'milyuwnAr',
-      'form' => 'milyuwnAriyy',
+      'entry' => 'madAliyuwn',
+      'form' => 'madAliyuwn',
       'lines' => [
-        ';; miloyuwnAriy~_1',
-        'mlywnAry        miloyuwnAriy~   Nall    millionaire     [[miloyuwnAriy~/ADJ]]',
-        'mlywnyr miloyuwniyr     N/At    millionaire'
+        ';; madAliyuwn_1',
+        'mdAlywn madAliywn       N0      medallion'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'medallion'
+      ],
+      'orig' => 'madAliyuwn',
+      'prefix' => ''
+    }
+  ],
+  'mUrI.tAn' => [
+    {
+      'types' => {},
+      'entry' => 'muwriy.tAn',
+      'form' => 'muwriy.tAniyy',
+      'lines' => [
+        ';; muwriyTAniy~_1',
+        'mwryTAny        muwriyTAniy~    Nall    Mauritanian     [[muwriyTAniy~/NOUN]]',
+        'mwryTAny        muwriyTAniy~    Nall    Mauritanian     [[muwriyTAniy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44890,9 +45036,9 @@ $Lexicon = {
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'millionaire'
+        'Mauritanian'
       ],
-      'orig' => 'miloyuwnAriy~',
+      'orig' => 'muwriyTAniy~',
       'prefix' => ''
     }
   ],
@@ -45222,6 +45368,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'm s k f' => [
+    {
+      'types' => {},
+      'entry' => 'muskuwf',
+      'form' => 'muskuwfiyy',
+      'lines' => [
+        ';; musokuwfiy~_1',
+        'mskwfy  musokuwfiy~     Nall    Muscovite     [[musokuwfiy~/NOUN]]',
+        'mskwfy  musokuwfiy~     Nall    Muscovite     [[musokuwfiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KuRDUS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Muscovite'
+      ],
+      'orig' => 'musokuwfiy~',
+      'prefix' => ''
+    }
+  ],
   'm .t l' => [
     {
       'types' => {
@@ -45353,36 +45521,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'um_tuwl' => [
+  'mIlUtInUfIt^s' => [
     {
-      'types' => {
-        '\'amA_tiyl' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'um_tuwl',
-      'form' => '\'um_tuwlaT',
+      'types' => {},
+      'entry' => 'miyluwtiynuwfiyt^s',
+      'form' => 'miyluwtiynuwfiyt^s',
       'lines' => [
-        ';; >umovuwlap_1',
-        '>mvwl   >umovuwl        NapAt   example;lesson;warning',
-        'Amvwl   >umovuwl        NapAt   example;lesson;warning',
-        '>mAvyl  >amAviyl        Ndip    examples;lessons;warnings',
-        'AmAvyl  >amAviyl        Ndip    examples;lessons;warnings'
+        ';; miyluwtiynuwfiyt$_1',
+        'mylwtynwfyt$    miyluwtiynuwfiyt$       Nprop   Milutinovic'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'example',
-        'lesson',
-        'warning',
-        'examples',
-        'lessons',
-        'warnings'
+        'Milutinovic'
       ],
-      'orig' => 'Oumovuwlap',
+      'orig' => 'miyluwtiynuwfiyt$',
       'prefix' => ''
     }
   ],
@@ -45407,14 +45563,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'maksiykAliy' => [
+  'ma.gna.tIs' => [
     {
-      'types' => {},
-      'entry' => 'maksiykAliy',
-      'form' => 'maksiykAliy',
+      'types' => {
+        'ma.gnA.tiys' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'ma.gna.tiys',
+      'form' => 'ma.gna.tiys',
       'lines' => [
-        ';; makosiykAliy_1',
-        'mksykAly        makosiykAliy    N0      Mexicali'
+        ';; magonaTiys_1',
+        'mgnTys  magonaTiys      N       magnet',
+        'mgnATys magonATiys      N       magnet'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45422,20 +45583,69 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Mexicali'
+        'magnet'
       ],
-      'orig' => 'makosiykAliy',
+      'orig' => 'magonaTiys',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ma.gnA.tiysiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'ma.gna.tiys',
+      'form' => 'ma.gna.tiysiyy',
+      'lines' => [
+        ';; magonaTiysiy~_1',
+        'mgnTysy magonaTiysiy~   Nall    magnetic;hypnotic     [[magonaTiysiy~/ADJ]]',
+        'mgnATysy        magonATiysiy~   Nall    magnetic;hypnotic     [[magonATiysiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'magnetic',
+        'hypnotic'
+      ],
+      'orig' => 'magonaTiysiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ma.gnA.tiysiyy' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'ma.gna.tiys',
+      'form' => 'ma.gna.tiysiyyaT',
+      'lines' => [
+        ';; magonaTiysiy~ap_1',
+        'mgnTysy magonaTiysiy~   Nap     magnetism     [[magonaTiysiy~/NOUN]]',
+        'mgnATysy        magonATiysiy~   Nap     magnetism     [[magonATiysiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'magnetism'
+      ],
+      'orig' => 'magonaTiysiy~ap',
       'prefix' => ''
     }
   ],
-  'milyArdiyr' => [
+  'mItsUbI^sI' => [
     {
       'types' => {},
-      'entry' => 'milyArdiyr',
-      'form' => 'milyArdiyr',
+      'entry' => 'miytsuwbiy^siy',
+      'form' => 'miytsuwbiy^siy',
       'lines' => [
-        ';; miloyArodiyr_1',
-        'mlyArdyr        miloyArodiyr    N-ap    billionaire'
+        ';; miytosuwbiy$iy_1',
+        'mytswby$y       miytosuwbiy$iy  Nprop   Mitsubishi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45443,9 +45653,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'billionaire'
+        'Mitsubishi'
       ],
-      'orig' => 'miloyArodiyr',
+      'orig' => 'miytosuwbiy$iy',
+      'prefix' => ''
+    }
+  ],
+  'mUsIfInI' => [
+    {
+      'types' => {},
+      'entry' => 'muwsiyfiyniy',
+      'form' => 'muwsiyfiyniy',
+      'lines' => [
+        ';; muwsiyfiyniy_1',
+        'mwsyfyny        muwsiyfiyniy    N0      Museveni'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Museveni'
+      ],
+      'orig' => 'muwsiyfiyniy',
       'prefix' => ''
     }
   ],
@@ -45467,27 +45698,6 @@ $Lexicon = {
         'state'
       ],
       'orig' => 'miyriy',
-      'prefix' => ''
-    }
-  ],
-  'miykAyil' => [
-    {
-      'types' => {},
-      'entry' => 'miykAyil',
-      'form' => 'miykAyil',
-      'lines' => [
-        ';; miykAyil_1',
-        'mykAyl  miykAyil        Nprop   Mikael'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Mikael'
-      ],
-      'orig' => 'miykAyil',
       'prefix' => ''
     }
   ],
@@ -45533,24 +45743,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miyluwtiynuwfiyt^s' => [
+  'm w b l' => [
     {
-      'types' => {},
-      'entry' => 'miyluwtiynuwfiyt^s',
-      'form' => 'miyluwtiynuwfiyt^s',
+      'types' => {
+        'mwbyl' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'muwbiyl',
+      'form' => 'muwbiyl',
       'lines' => [
-        ';; miyluwtiynuwfiyt$_1',
-        'mylwtynwfyt$    miyluwtiynuwfiyt$       Nprop   Milutinovic'
+        ';; muwbiyl_1',
+        'mwbyl   mwbyl   Nprop   Mobil'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'KuRDIS',
       'suffix' => '',
       'glosses' => [
-        'Milutinovic'
+        'Mobil'
       ],
-      'orig' => 'miyluwtiynuwfiyt$',
+      'orig' => 'muwbiyl',
       'prefix' => ''
     }
   ],
@@ -45575,14 +45789,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'miyruw' => [
+  'mUsIqAr' => [
     {
       'types' => {},
-      'entry' => 'miyruw',
-      'form' => 'miyruw',
+      'entry' => 'muwsiyqAr',
+      'form' => 'muwsiyqAr',
       'lines' => [
-        ';; miyruw_1',
-        'myrw    miyruw  Nprop   Miro'
+        ';; muwsiyqAr_1',
+        'mwsyqAr muwsiyqAr       N       musician'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45590,9 +45804,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Miro'
+        'musician'
       ],
-      'orig' => 'miyruw',
+      'orig' => 'muwsiyqAr',
       'prefix' => ''
     }
   ],
@@ -45711,6 +45925,48 @@ $Lexicon = {
       'orig' => 'mutama$owir',
       'prefix' => ''
     }
+  ],
+  'mArI^guwAnA' => [
+    {
+      'types' => {},
+      'entry' => 'mAriy^guwAnA',
+      'form' => 'mAriy^guwAnA',
+      'lines' => [
+        ';; mAriyjuwAnA_1',
+        'mAryjwAnA       mAriyjuwAnA     N0      marijuana'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'marijuana'
+      ],
+      'orig' => 'mAriyjuwAnA',
+      'prefix' => ''
+    }
+  ],
+  'mA^gistIr' => [
+    {
+      'types' => {},
+      'entry' => 'mA^gistiyr',
+      'form' => 'mA^gistiyr',
+      'lines' => [
+        ';; mAjisotiyr_1',
+        'mAjstyr mAjisotiyr      N       master\'s degree'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'master\'s degree'
+      ],
+      'orig' => 'mAjisotiyr',
+      'prefix' => ''
+    }
   ]
 };
 $Lexicon->{'m .g n'}[2]{'types'} = $Lexicon->{'m .g n'}[1]{'types'};
@@ -45737,12 +45993,15 @@ $Lexicon->{'m \' \''}[3]{'glosses'} = $Lexicon->{'m \' \''}[2]{'glosses'};
 $Lexicon->{'m \' \''}[5]{'types'} = $Lexicon->{'m \' \''}[4]{'types'};
 $Lexicon->{'m \' \''}[5]{'lines'} = $Lexicon->{'m \' \''}[4]{'lines'};
 $Lexicon->{'m \' \''}[5]{'glosses'} = $Lexicon->{'m \' \''}[4]{'glosses'};
-$Lexicon->{'m l \''}[16]{'types'} = $Lexicon->{'m l w'}[10]{'types'};
-$Lexicon->{'m l \''}[16]{'lines'} = $Lexicon->{'m l w'}[10]{'lines'};
-$Lexicon->{'m l \''}[16]{'glosses'} = $Lexicon->{'m l w'}[10]{'glosses'};
-$Lexicon->{'m l \''}[17]{'types'} = $Lexicon->{'m l w'}[11]{'types'};
-$Lexicon->{'m l \''}[17]{'lines'} = $Lexicon->{'m l w'}[11]{'lines'};
-$Lexicon->{'m l \''}[17]{'glosses'} = $Lexicon->{'m l w'}[11]{'glosses'};
+$Lexicon->{'m l \''}[16]{'types'} = $Lexicon->{'m l y'}[3]{'types'};
+$Lexicon->{'m l \''}[16]{'lines'} = $Lexicon->{'m l y'}[3]{'lines'};
+$Lexicon->{'m l \''}[16]{'glosses'} = $Lexicon->{'m l y'}[3]{'glosses'};
+$Lexicon->{'m l \''}[17]{'types'} = $Lexicon->{'m l w'}[10]{'types'};
+$Lexicon->{'m l \''}[17]{'lines'} = $Lexicon->{'m l w'}[10]{'lines'};
+$Lexicon->{'m l \''}[17]{'glosses'} = $Lexicon->{'m l w'}[10]{'glosses'};
+$Lexicon->{'m l \''}[18]{'types'} = $Lexicon->{'m l w'}[11]{'types'};
+$Lexicon->{'m l \''}[18]{'lines'} = $Lexicon->{'m l w'}[11]{'lines'};
+$Lexicon->{'m l \''}[18]{'glosses'} = $Lexicon->{'m l w'}[11]{'glosses'};
 $Lexicon->{'m l w y'}[0]{'types'} = $Lexicon->{'m l w'}[0]{'types'};
 $Lexicon->{'m l w y'}[0]{'lines'} = $Lexicon->{'m l w'}[0]{'lines'};
 $Lexicon->{'m l w y'}[0]{'glosses'} = $Lexicon->{'m l w'}[0]{'glosses'};
@@ -45761,12 +46020,18 @@ $Lexicon->{'m ` y'}[5]{'glosses'} = $Lexicon->{'m ` \''}[1]{'glosses'};
 $Lexicon->{'m ` y'}[6]{'types'} = $Lexicon->{'m ` `'}[3]{'types'};
 $Lexicon->{'m ` y'}[6]{'lines'} = $Lexicon->{'m ` `'}[3]{'lines'};
 $Lexicon->{'m ` y'}[6]{'glosses'} = $Lexicon->{'m ` `'}[3]{'glosses'};
+$Lexicon->{'m r y'}[6]{'types'} = $Lexicon->{'m r r'}[27]{'types'};
+$Lexicon->{'m r y'}[6]{'lines'} = $Lexicon->{'m r r'}[27]{'lines'};
+$Lexicon->{'m r y'}[6]{'glosses'} = $Lexicon->{'m r r'}[27]{'glosses'};
 $Lexicon->{'m d \''}[1]{'types'} = $Lexicon->{'m d \''}[0]{'types'};
 $Lexicon->{'m d \''}[1]{'lines'} = $Lexicon->{'m d \''}[0]{'lines'};
 $Lexicon->{'m d \''}[1]{'glosses'} = $Lexicon->{'m d \''}[0]{'glosses'};
 $Lexicon->{'m d \''}[3]{'types'} = $Lexicon->{'m d \''}[2]{'types'};
 $Lexicon->{'m d \''}[3]{'lines'} = $Lexicon->{'m d \''}[2]{'lines'};
 $Lexicon->{'m d \''}[3]{'glosses'} = $Lexicon->{'m d \''}[2]{'glosses'};
+$Lexicon->{'m d \''}[5]{'types'} = $Lexicon->{'m d \''}[4]{'types'};
+$Lexicon->{'m d \''}[5]{'lines'} = $Lexicon->{'m d \''}[4]{'lines'};
+$Lexicon->{'m d \''}[5]{'glosses'} = $Lexicon->{'m d \''}[4]{'glosses'};
 $Lexicon->{'m y l'}[11]{'types'} = $Lexicon->{'m \' l'}[0]{'types'};
 $Lexicon->{'m y l'}[11]{'lines'} = $Lexicon->{'m \' l'}[0]{'lines'};
 $Lexicon->{'m y l'}[11]{'glosses'} = $Lexicon->{'m \' l'}[0]{'glosses'};
@@ -45785,6 +46050,18 @@ $Lexicon->{'m n \''}[3]{'glosses'} = $Lexicon->{'m n \''}[2]{'glosses'};
 $Lexicon->{'m ` w'}[1]{'types'} = $Lexicon->{'m ` \''}[0]{'types'};
 $Lexicon->{'m ` w'}[1]{'lines'} = $Lexicon->{'m ` \''}[0]{'lines'};
 $Lexicon->{'m ` w'}[1]{'glosses'} = $Lexicon->{'m ` \''}[0]{'glosses'};
+$Lexicon->{'m s y'}[3]{'types'} = $Lexicon->{'m w s'}[0]{'types'};
+$Lexicon->{'m s y'}[3]{'lines'} = $Lexicon->{'m w s'}[0]{'lines'};
+$Lexicon->{'m s y'}[3]{'glosses'} = $Lexicon->{'m w s'}[0]{'glosses'};
+$Lexicon->{'m s y'}[4]{'types'} = $Lexicon->{'m w s'}[1]{'types'};
+$Lexicon->{'m s y'}[4]{'lines'} = $Lexicon->{'m w s'}[1]{'lines'};
+$Lexicon->{'m s y'}[4]{'glosses'} = $Lexicon->{'m w s'}[1]{'glosses'};
+$Lexicon->{'m s y'}[5]{'types'} = $Lexicon->{'m w s'}[2]{'types'};
+$Lexicon->{'m s y'}[5]{'lines'} = $Lexicon->{'m w s'}[2]{'lines'};
+$Lexicon->{'m s y'}[5]{'glosses'} = $Lexicon->{'m w s'}[2]{'glosses'};
+$Lexicon->{'m s y'}[6]{'types'} = $Lexicon->{'m w s'}[3]{'types'};
+$Lexicon->{'m s y'}[6]{'lines'} = $Lexicon->{'m w s'}[3]{'lines'};
+$Lexicon->{'m s y'}[6]{'glosses'} = $Lexicon->{'m w s'}[3]{'glosses'};
 $Lexicon->{'m \' d'}[0]{'types'} = $Lexicon->{'m y d'}[4]{'types'};
 $Lexicon->{'m \' d'}[0]{'lines'} = $Lexicon->{'m y d'}[4]{'lines'};
 $Lexicon->{'m \' d'}[0]{'glosses'} = $Lexicon->{'m y d'}[4]{'glosses'};
@@ -45800,6 +46077,9 @@ $Lexicon->{'m ^s ^s'}[4]{'glosses'} = $Lexicon->{'m ^s \''}[0]{'glosses'};
 $Lexicon->{'m d y'}[6]{'types'} = $Lexicon->{'m d d'}[32]{'types'};
 $Lexicon->{'m d y'}[6]{'lines'} = $Lexicon->{'m d d'}[32]{'lines'};
 $Lexicon->{'m d y'}[6]{'glosses'} = $Lexicon->{'m d d'}[32]{'glosses'};
+$Lexicon->{'m s k y'}[0]{'types'} = $Lexicon->{'m s k w'}[0]{'types'};
+$Lexicon->{'m s k y'}[0]{'lines'} = $Lexicon->{'m s k w'}[0]{'lines'};
+$Lexicon->{'m s k y'}[0]{'glosses'} = $Lexicon->{'m s k w'}[0]{'glosses'};
 $Lexicon->{'m .h w'}[9]{'types'} = $Lexicon->{'m .h y'}[1]{'types'};
 $Lexicon->{'m .h w'}[9]{'lines'} = $Lexicon->{'m .h y'}[1]{'lines'};
 $Lexicon->{'m .h w'}[9]{'glosses'} = $Lexicon->{'m .h y'}[1]{'glosses'};
@@ -45818,39 +46098,54 @@ $Lexicon->{'m .d y'}[7]{'glosses'} = $Lexicon->{'m .d \''}[1]{'glosses'};
 $Lexicon->{'m .d y'}[8]{'types'} = $Lexicon->{'m .d \''}[2]{'types'};
 $Lexicon->{'m .d y'}[8]{'lines'} = $Lexicon->{'m .d \''}[2]{'lines'};
 $Lexicon->{'m .d y'}[8]{'glosses'} = $Lexicon->{'m .d \''}[2]{'glosses'};
-$Lexicon->{'m n w'}[11]{'types'} = $Lexicon->{'m n y'}[5]{'types'};
-$Lexicon->{'m n w'}[11]{'lines'} = $Lexicon->{'m n y'}[5]{'lines'};
-$Lexicon->{'m n w'}[11]{'glosses'} = $Lexicon->{'m n y'}[5]{'glosses'};
-$Lexicon->{'m n w'}[12]{'types'} = $Lexicon->{'m n \''}[0]{'types'};
-$Lexicon->{'m n w'}[12]{'lines'} = $Lexicon->{'m n \''}[0]{'lines'};
-$Lexicon->{'m n w'}[12]{'glosses'} = $Lexicon->{'m n \''}[0]{'glosses'};
-$Lexicon->{'m n w'}[14]{'types'} = $Lexicon->{'m n \''}[1]{'types'};
-$Lexicon->{'m n w'}[14]{'lines'} = $Lexicon->{'m n \''}[1]{'lines'};
-$Lexicon->{'m n w'}[14]{'glosses'} = $Lexicon->{'m n \''}[1]{'glosses'};
-$Lexicon->{'m n w'}[15]{'types'} = $Lexicon->{'m n y'}[6]{'types'};
-$Lexicon->{'m n w'}[15]{'lines'} = $Lexicon->{'m n y'}[6]{'lines'};
-$Lexicon->{'m n w'}[15]{'glosses'} = $Lexicon->{'m n y'}[6]{'glosses'};
+$Lexicon->{'m n w'}[10]{'types'} = $Lexicon->{'m n y'}[6]{'types'};
+$Lexicon->{'m n w'}[10]{'lines'} = $Lexicon->{'m n y'}[6]{'lines'};
+$Lexicon->{'m n w'}[10]{'glosses'} = $Lexicon->{'m n y'}[6]{'glosses'};
+$Lexicon->{'m n w'}[11]{'types'} = $Lexicon->{'m n \''}[0]{'types'};
+$Lexicon->{'m n w'}[11]{'lines'} = $Lexicon->{'m n \''}[0]{'lines'};
+$Lexicon->{'m n w'}[11]{'glosses'} = $Lexicon->{'m n \''}[0]{'glosses'};
+$Lexicon->{'m n w'}[13]{'types'} = $Lexicon->{'m n \''}[1]{'types'};
+$Lexicon->{'m n w'}[13]{'lines'} = $Lexicon->{'m n \''}[1]{'lines'};
+$Lexicon->{'m n w'}[13]{'glosses'} = $Lexicon->{'m n \''}[1]{'glosses'};
+$Lexicon->{'m n w'}[14]{'types'} = $Lexicon->{'m n y'}[7]{'types'};
+$Lexicon->{'m n w'}[14]{'lines'} = $Lexicon->{'m n y'}[7]{'lines'};
+$Lexicon->{'m n w'}[14]{'glosses'} = $Lexicon->{'m n y'}[7]{'glosses'};
+$Lexicon->{'m w s y'}[0]{'types'} = $Lexicon->{'m w s'}[0]{'types'};
+$Lexicon->{'m w s y'}[0]{'lines'} = $Lexicon->{'m w s'}[0]{'lines'};
+$Lexicon->{'m w s y'}[0]{'glosses'} = $Lexicon->{'m w s'}[0]{'glosses'};
+$Lexicon->{'m w s y'}[1]{'types'} = $Lexicon->{'m w s'}[1]{'types'};
+$Lexicon->{'m w s y'}[1]{'lines'} = $Lexicon->{'m w s'}[1]{'lines'};
+$Lexicon->{'m w s y'}[1]{'glosses'} = $Lexicon->{'m w s'}[1]{'glosses'};
+$Lexicon->{'m w s y'}[2]{'types'} = $Lexicon->{'m w s'}[2]{'types'};
+$Lexicon->{'m w s y'}[2]{'lines'} = $Lexicon->{'m w s'}[2]{'lines'};
+$Lexicon->{'m w s y'}[2]{'glosses'} = $Lexicon->{'m w s'}[2]{'glosses'};
+$Lexicon->{'m w s y'}[3]{'types'} = $Lexicon->{'m w s'}[3]{'types'};
+$Lexicon->{'m w s y'}[3]{'lines'} = $Lexicon->{'m w s'}[3]{'lines'};
+$Lexicon->{'m w s y'}[3]{'glosses'} = $Lexicon->{'m w s'}[3]{'glosses'};
 $Lexicon->{'m y d \''}[0]{'types'} = $Lexicon->{'m d \''}[0]{'types'};
 $Lexicon->{'m y d \''}[0]{'lines'} = $Lexicon->{'m d \''}[0]{'lines'};
 $Lexicon->{'m y d \''}[0]{'glosses'} = $Lexicon->{'m d \''}[0]{'glosses'};
 $Lexicon->{'m y d \''}[1]{'types'} = $Lexicon->{'m d \''}[2]{'types'};
 $Lexicon->{'m y d \''}[1]{'lines'} = $Lexicon->{'m d \''}[2]{'lines'};
 $Lexicon->{'m y d \''}[1]{'glosses'} = $Lexicon->{'m d \''}[2]{'glosses'};
-$Lexicon->{'m s w'}[6]{'types'} = $Lexicon->{'m s y'}[0]{'types'};
-$Lexicon->{'m s w'}[6]{'lines'} = $Lexicon->{'m s y'}[0]{'lines'};
-$Lexicon->{'m s w'}[6]{'glosses'} = $Lexicon->{'m s y'}[0]{'glosses'};
-$Lexicon->{'m n n'}[0]{'types'} = $Lexicon->{'m n y'}[0]{'types'};
-$Lexicon->{'m n n'}[0]{'lines'} = $Lexicon->{'m n y'}[0]{'lines'};
-$Lexicon->{'m n n'}[0]{'glosses'} = $Lexicon->{'m n y'}[0]{'glosses'};
-$Lexicon->{'m n n'}[1]{'types'} = $Lexicon->{'m n y'}[1]{'types'};
-$Lexicon->{'m n n'}[1]{'lines'} = $Lexicon->{'m n y'}[1]{'lines'};
-$Lexicon->{'m n n'}[1]{'glosses'} = $Lexicon->{'m n y'}[1]{'glosses'};
-$Lexicon->{'m n n'}[2]{'types'} = $Lexicon->{'m n y'}[2]{'types'};
-$Lexicon->{'m n n'}[2]{'lines'} = $Lexicon->{'m n y'}[2]{'lines'};
-$Lexicon->{'m n n'}[2]{'glosses'} = $Lexicon->{'m n y'}[2]{'glosses'};
-$Lexicon->{'m n n'}[3]{'types'} = $Lexicon->{'m n w'}[9]{'types'};
-$Lexicon->{'m n n'}[3]{'lines'} = $Lexicon->{'m n w'}[9]{'lines'};
-$Lexicon->{'m n n'}[3]{'glosses'} = $Lexicon->{'m n w'}[9]{'glosses'};
+$Lexicon->{'m y d \''}[2]{'types'} = $Lexicon->{'m d \''}[4]{'types'};
+$Lexicon->{'m y d \''}[2]{'lines'} = $Lexicon->{'m d \''}[4]{'lines'};
+$Lexicon->{'m y d \''}[2]{'glosses'} = $Lexicon->{'m d \''}[4]{'glosses'};
+$Lexicon->{'m s w'}[6]{'types'} = $Lexicon->{'m s y'}[1]{'types'};
+$Lexicon->{'m s w'}[6]{'lines'} = $Lexicon->{'m s y'}[1]{'lines'};
+$Lexicon->{'m s w'}[6]{'glosses'} = $Lexicon->{'m s y'}[1]{'glosses'};
+$Lexicon->{'m n n'}[0]{'types'} = $Lexicon->{'m n y'}[1]{'types'};
+$Lexicon->{'m n n'}[0]{'lines'} = $Lexicon->{'m n y'}[1]{'lines'};
+$Lexicon->{'m n n'}[0]{'glosses'} = $Lexicon->{'m n y'}[1]{'glosses'};
+$Lexicon->{'m n n'}[1]{'types'} = $Lexicon->{'m n y'}[2]{'types'};
+$Lexicon->{'m n n'}[1]{'lines'} = $Lexicon->{'m n y'}[2]{'lines'};
+$Lexicon->{'m n n'}[1]{'glosses'} = $Lexicon->{'m n y'}[2]{'glosses'};
+$Lexicon->{'m n n'}[2]{'types'} = $Lexicon->{'m n y'}[3]{'types'};
+$Lexicon->{'m n n'}[2]{'lines'} = $Lexicon->{'m n y'}[3]{'lines'};
+$Lexicon->{'m n n'}[2]{'glosses'} = $Lexicon->{'m n y'}[3]{'glosses'};
+$Lexicon->{'m n n'}[3]{'types'} = $Lexicon->{'m n w'}[8]{'types'};
+$Lexicon->{'m n n'}[3]{'lines'} = $Lexicon->{'m n w'}[8]{'lines'};
+$Lexicon->{'m n n'}[3]{'glosses'} = $Lexicon->{'m n w'}[8]{'glosses'};
 $Lexicon->{'m \' t'}[0]{'types'} = $Lexicon->{'m w t'}[10]{'types'};
 $Lexicon->{'m \' t'}[0]{'lines'} = $Lexicon->{'m w t'}[10]{'lines'};
 $Lexicon->{'m \' t'}[0]{'glosses'} = $Lexicon->{'m w t'}[10]{'glosses'};
@@ -45887,6 +46182,9 @@ $Lexicon->{'m s \''}[1]{'glosses'} = $Lexicon->{'m s w'}[4]{'glosses'};
 $Lexicon->{'m s \''}[2]{'types'} = $Lexicon->{'m s w'}[5]{'types'};
 $Lexicon->{'m s \''}[2]{'lines'} = $Lexicon->{'m s w'}[5]{'lines'};
 $Lexicon->{'m s \''}[2]{'glosses'} = $Lexicon->{'m s w'}[5]{'glosses'};
+$Lexicon->{'m s \''}[3]{'types'} = $Lexicon->{'m w s \''}[0]{'types'};
+$Lexicon->{'m s \''}[3]{'lines'} = $Lexicon->{'m w s \''}[0]{'lines'};
+$Lexicon->{'m s \''}[3]{'glosses'} = $Lexicon->{'m w s \''}[0]{'glosses'};
 $Lexicon->{'m y m y'}[0]{'types'} = $Lexicon->{'m y m'}[0]{'types'};
 $Lexicon->{'m y m y'}[0]{'lines'} = $Lexicon->{'m y m'}[0]{'lines'};
 $Lexicon->{'m y m y'}[0]{'glosses'} = $Lexicon->{'m y m'}[0]{'glosses'};

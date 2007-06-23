@@ -9,12 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'u`^guwb" <| [
-
-    Identity |< aT            `prep`    {- OuEojuwbap -}       [ "miracle", "miraculously" ],
-
-    Identity |< aT            `noun`    {- OuEojuwbap -}       [ "marvel", "wonder" ] ]
-
  |> "` ' ^s" <| [
 
     FACiL                     `noun`    {- EA}i$ -}            [ "living", "alive" ] ]
@@ -403,6 +397,12 @@ lexicon = listing "Lexicon's properties"
     FaCIL                     `noun`    {- Eajiyb -}           [ "Ajeeb" ],
 
     HaFCaL                    `noun`    {- OaEojab -}          [ "more/most wonderful" ],
+
+    HuFCUL |< aT              `prep`    {- OuEojuwbap -}       [ "miracle", "miraculously" ],
+
+    HuFCUL |< aT              `noun`    {- OuEojuwbap -}       [ "marvel", "wonder" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a`A^giyb Ndip" ] -},
 
     HiFCAL                    `noun`    {- IiEojAb -}          [ "admiration", "wonder", "surprise" ]
                               `plural`     HiFCAL |< At,
@@ -2828,19 +2828,23 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCL                   `noun`    {- muEotaz~ -}         [ "Mu'tazz" ] ]
 
- |> "`abdAl'amiyr" <| [
+ |> "`IdarUs" <| [
+
+    Identity                  `noun`    {- Eiydaruws -}        [ "Eidarous" ] ]
+
+ |> "`abdAl'amIr" <| [
 
     Identity                  `noun`    {- EabodAlOamiyr -}    [ "Abdel Amir" ] ]
 
- |> "`abdAl.hakiym" <| [
+ |> "`abdAl.hakIm" <| [
 
     Identity                  `noun`    {- EabodAlHakiym -}    [ "Abdel Hakeem" ] ]
 
- |> "`abdAl.haliym" <| [
+ |> "`abdAl.halIm" <| [
 
     Identity                  `noun`    {- EabodAlHaliym -}    [ "Abdel Haleem" ] ]
 
- |> "`abdAl.hamiyd" <| [
+ |> "`abdAl.hamId" <| [
 
     Identity                  `noun`    {- EabodAlHamiyd -}    [ "Abdel Hameed" ] ]
 
@@ -2852,7 +2856,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAljawAd -}     [ "Abdel Jawad" ] ]
 
- |> "`abdAl^sakuwr" <| [
+ |> "`abdAl^sakUr" <| [
 
     Identity                  `noun`    {- EabodAl$akuwr -}    [ "Abdel Shakour" ] ]
 
@@ -2864,7 +2868,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlEAl -}       [ "Abdel Aal" ] ]
 
- |> "`abdAl`aziyz" <| [
+ |> "`abdAl`azIz" <| [
 
     Identity                  `noun`    {- EabodAlEaziyz -}    [ "Abdel Aziz" ] ]
 
@@ -2872,11 +2876,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlfat~AH -}    [ "Abdel Fattah" ] ]
 
- |> "`abdAlhAdiy" <| [
+ |> "`abdAlhAdI" <| [
 
     Identity                  `noun`    {- EabodAlhAdiy -}     [ "Abdel Hadi" ] ]
 
- |> "`abdAlkariym" <| [
+ |> "`abdAlkarIm" <| [
 
     Identity                  `noun`    {- EabodAlkariym -}    [ "Abdel Kareem" ] ]
 
@@ -2888,11 +2892,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlmAlik -}     [ "Abdel Malik" ] ]
 
- |> "`abdAlma^giyd" <| [
+ |> "`abdAlma^gId" <| [
 
     Identity                  `noun`    {- EabodAlmajiyd -}    [ "Abdel Majeed", "Abdel Meguid" ] ]
 
- |> "`abdAlmaq.suwd" <| [
+ |> "`abdAlmaq.sUd" <| [
 
     Identity                  `noun`    {- EabodAlmaqoSuwd -}  [ "Abdel Maqsoud" ] ]
 
@@ -2904,7 +2908,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- EabodAlnabiy~ -}    [ "Abdel Nabi" ] ]
 
- |> "`abdAlra.hiym" <| [
+ |> "`abdAlra.hIm" <| [
 
     Identity                  `noun`    {- EabodAlraHiym -}    [ "Abdel Raheem" ] ]
 
@@ -2912,7 +2916,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlraHoman -}   [ "Abdel Rahman" ] ]
 
- |> "`abdAlra^siyd" <| [
+ |> "`abdAlra^sId" <| [
 
     Identity                  `noun`    {- EabodAlra$iyd -}    [ "Abdel Rasheed" ] ]
 
@@ -2952,10 +2956,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `conj`    {- EinodamA -}         [ "when" ] ]
 
- |> "`iydaruws" <| [
-
-    Identity                  `noun`    {- Eiydaruws -}        [ "Eidarous" ] ]
-
  |> "`izzat" <| [
 
     Identity                  `noun`    {- Eiz~at -}           [ "Izzat", "Ezzat" ] ]
@@ -2976,7 +2976,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- taEodAd -}          [ "counting", "enumeration", "calculation" ] ]
 
- |> "ya`quwb" <| [
+ |> "ya`qUb" <| [
 
     Identity                  `noun`    {- yaEoquwb -}         [ "Yaqoub", "Jacob" ] ]
 

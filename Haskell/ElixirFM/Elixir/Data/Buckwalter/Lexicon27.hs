@@ -25,20 +25,20 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< At            `noun`    {- OuwayoqAt -}        [ "short times", "good times" ] ]
 
- |> "matAwil" <| [
-
-    -- ;; matAwilap_1
-    -- mtAwl   matAwil Nap     Metuali (Shiite sect)
-
-    Identity |< aT            `noun`    {- matAwilap -}        [ "Metuali (Shiite sect)" ] ]
-
- |> "miyq" <| [
+ |> "mIq" <| [
 
     -- ;; miyqAt_1
     -- myqAt   miyqAt  Ndu     appointed time;meeting point
     -- mwAqyt  mawAqiyt        Ndip    timetables;rendezvous points and times
 
     Identity |< At            `noun`    {- miyqAt -}           [ "appointed time", "meeting point", "timetables", "rendezvous points and times" ] ]
+
+ |> "matAwil" <| [
+
+    -- ;; matAwilap_1
+    -- mtAwl   matAwil Nap     Metuali (Shiite sect)
+
+    Identity |< aT            `noun`    {- matAwilap -}        [ "Metuali (Shiite sect)" ] ]
 
  |> "muttifaq" <| [
 
@@ -47,7 +47,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `adj`     {- mut~ifaq -}         [ "in agreement" ] ]
 
- |> "taqiyy" <| [
+ |> "taqIy" <| [
 
     -- ;; taqiy~ap_2
     -- tqy     taqiy~  Nap     prudence;caution     [[taqiy~/NOUN]]
@@ -10975,7 +10975,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- wA -}               [ "oh!" ] ]
 
- |> "wA^sin.tuwn" <| [
+ |> "wA^sin.tUn" <| [
 
     -- ;; wA$inoTuwn_1
     -- wA$nTwn wA$inoTuwn      N0      Washington
@@ -10997,14 +10997,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- wAlotiroz -}        [ "Walters" ] ]
 
- |> "wAndirliy" <| [
+ |> "wAndirlI" <| [
 
     -- ;; wAnodiroliy_1
     -- wAndrly wAnodiroliy     Nprop   Wanderley
 
     Identity                  `noun`    {- wAnodiroliy -}      [ "Wanderley" ] ]
 
- |> "wAnt^suwb" <| [
+ |> "wAnt^sUb" <| [
 
     -- ;; wAnt$uwb_1
     -- wAnt$wb wAnt$uwb        Nprop   Wanchope
@@ -11018,26 +11018,26 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- wAroTAn -}          [ "Wartan" ] ]
 
- |> "wArsuw" <| [
+ |> "wArsU" <| [
 
     -- ;; wArosuw_1
     -- wArsw   wArosuw N0      Warsaw
 
     Identity                  `noun`    {- wArosuw -}          [ "Warsaw" ] ]
 
- |> "wAtirfuwrd" <| [
+ |> "wAtirfUrd" <| [
 
     -- ;; wAtirofuwrd_1
     -- wAtrfwrd        wAtirofuwrd     Nprop   Waterford
 
     Identity                  `noun`    {- wAtirofuwrd -}      [ "Waterford" ] ]
 
- |> "wAtsuw^sy" <| [
+ |> "wAtsU^sI" <| [
 
-    -- ;; wAtosuw$y_1
+    -- ;; wAtosuw$iy_1
     -- wAtsw$y wAtosuw$y       Nprop   Watsushi
 
-    Identity                  `noun`    {- wAtosuw$y -}        [ "Watsushi" ] ]
+    Identity                  `noun`    {- wAtosuw$iy -}       [ "Watsushi" ] ]
 
  |> "wAyzmAn" <| [
 
@@ -11047,28 +11047,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- wAyzomAn -}         [ "Weizman" ] ]
 
- |> "wiqiyy" <| [
-
-    -- ;; wiqiy~ap_1
-    -- wqy     wiqiy~  NapAt   uqiya (measure = 1/12 ratl; Beirut: 213 gr; Jerusalem 240 gr.;Aleppo 320 gr.)
-
-    Identity |< aT            `noun`    {- wiqiy~ap -}         [ "uqiya (measure = 1/12 ratl", "Beirut: 213 gr", "Jerusalem 240 gr.", "Aleppo 320 gr.)" ] ]
-
- |> "wiylkinz" <| [
+ |> "wIlkinz" <| [
 
     -- ;; wiylokinoz_1
     -- wylknz  wiylokinoz      Nprop   Wilkins
 
     Identity                  `noun`    {- wiylokinoz -}       [ "Wilkins" ] ]
 
- |> "wiyltuwrd" <| [
+ |> "wIltUrd" <| [
 
     -- ;; wiylotuwrod_1
     -- wyltwrd wiylotuwrod     Nprop   Wiltord
 
     Identity                  `noun`    {- wiylotuwrod -}      [ "Wiltord" ] ]
 
- |> "wiylyAm" <| [
+ |> "wIlyAm" <| [
 
     -- ;; wiyloyAm_1
     -- wylyAm  wiyloyAm        Nprop   William
@@ -11077,7 +11070,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- wiyloyAm -}         [ "William" ] ]
 
- |> "wiylyAms" <| [
+ |> "wIlyAms" <| [
 
     -- ;; wiyloyAms_1
     -- wylyAms wiyloyAms       Nprop   Williams
@@ -11087,49 +11080,49 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- wiyloyAms -}        [ "Williams" ] ]
 
- |> "wiyrkuw" <| [
+ |> "wImbldUn" <| [
+
+    -- ;; wiymblduwn_1
+    -- wymbldwn        wymbldwn        Nprop   Wimbledon
+
+    Identity                  `noun`    {- wiymblduwn -}       [ "Wimbledon" ] ]
+
+ |> "wIrkU" <| [
 
     -- ;; wiyrokuw_1
     -- wyrkw   wiyrokuw        N0      excise tax;real-estate tax
 
     Identity                  `noun`    {- wiyrokuw -}         [ "excise tax", "real-estate tax" ] ]
 
- |> "wulfirhAmbtuwn" <| [
-
-    -- ;; wulofirohAmbotuwn_1
-    -- wlfrhAmbtwn     wulofirohAmbotuwn       Nprop   Wolverhampton
-
-    Identity                  `noun`    {- wulofirohAmbotuwn -} [ "Wolverhampton" ] ]
-
- |> "wuwdruwf" <| [
+ |> "wUdrUf" <| [
 
     -- ;; wuwdoruwf_1
     -- wwdrwf  wuwdoruwf       Nprop   Woodruff
 
     Identity                  `noun`    {- wuwdoruwf -}        [ "Woodruff" ] ]
 
- |> "wuwkir" <| [
+ |> "wUkir" <| [
 
     -- ;; wuwkir_1
     -- wwkr    wuwkir  Nprop   Walker
 
     Identity                  `noun`    {- wuwkir -}           [ "Walker" ] ]
 
- |> "wuwrldkuwm" <| [
+ |> "wUrldkUm" <| [
 
     -- ;; wuwrldkuwm_1
     -- wwrldkwm        wuwrldkuwm      Nprop   WorldCom
 
     Identity                  `noun`    {- wuwrldkuwm -}       [ "WorldCom" ] ]
 
- |> "wuwrnar" <| [
+ |> "wUrnar" <| [
 
     -- ;; wuwrnar_1
     -- wwrnr   wuwrnar N0      Warner
 
     Identity                  `noun`    {- wuwrnar -}          [ "Warner" ] ]
 
- |> "wuwtir^giyt" <| [
+ |> "wUtir^gIt" <| [
 
     -- ;; wuwtirojiyt_1
     -- wwtrjyt wuwtirojiyt     N0      Wategate
@@ -11137,17 +11130,24 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- wuwtirojiyt -}      [ "Wategate" ] ]
 
+ |> "wiqIy" <| [
+
+    -- ;; wiqiy~ap_1
+    -- wqy     wiqiy~  NapAt   uqiya (measure = 1/12 ratl; Beirut: 213 gr; Jerusalem 240 gr.;Aleppo 320 gr.)
+
+    Identity |< aT            `noun`    {- wiqiy~ap -}         [ "uqiya (measure = 1/12 ratl", "Beirut: 213 gr", "Jerusalem 240 gr.", "Aleppo 320 gr.)" ] ]
+
+ |> "wulfirhAmbtUn" <| [
+
+    -- ;; wulofirohAmbotuwn_1
+    -- wlfrhAmbtwn     wulofirohAmbotuwn       Nprop   Wolverhampton
+
+    Identity                  `noun`    {- wulofirohAmbotuwn -} [ "Wolverhampton" ] ]
+
  |> "wwl" <| [
 
     -- ;; wwl_1
     -- wwl     wwl     N0      Wall
 
     Identity                  `noun`    {- wwl -}              [ "Wall" ] ]
-
- |> "wymbldwn" <| [
-
-    -- ;; wymbldwn_1
-    -- wymbldwn        wymbldwn        Nprop   Wimbledon
-
-    Identity                  `noun`    {- wymbldwn -}         [ "Wimbledon" ] ]
 

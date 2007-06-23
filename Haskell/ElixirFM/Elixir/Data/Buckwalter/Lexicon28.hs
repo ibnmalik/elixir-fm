@@ -1408,7 +1408,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; yAwir_1
     -- yAwr    yAwir   Ndu     adjutant;aide-de-camp
 
-    FACiL                     `noun`    {- yAwir -}            [ "adjutant", "aide-de-camp" ] ]
+    FACiL                     `noun`    {- yAwir -}            [ "adjutant", "aide-de-camp" ],
+
+    -- ;; yAwiriy~ap_1
+    -- yAwry   yAwiriy~        Nap     adjutants;aides-de-camp     [[yAwiriy~/NOUN]]
+
+    FACiL |< Iy |< aT         `noun`    {- yAwiriy~ap -}       [ "adjutants", "aides-de-camp" ] ]
 
  |> "y w r n" <| [
 
@@ -1550,7 +1555,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- yAmAhA -}           [ "Yamaha" ] ]
 
- |> "yAmiy^s" <| [
+ |> "yAmI^s" <| [
 
     -- ;; yAmiy$_1
     -- yAmy$   yAmiy$  N       dried fruits
@@ -1564,14 +1569,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- yAnA -}             [ "Jana" ] ]
 
- |> "yAnA.giysAwA" <| [
+ |> "yAnA.gIsAwA" <| [
 
     -- ;; yAnAgiysAwA_1
     -- yAnAgysAwA      yAnAgiysAwA     Nprop   Yanagisawa
 
     Identity                  `noun`    {- yAnAgiysAwA -}      [ "Yanagisawa" ] ]
 
- |> "yAnisuwn" <| [
+ |> "yAnisUn" <| [
 
     -- ;; yAnisuwn_1
     -- yAnswn  yAnisuwn        N       aniseed;anise
@@ -1585,6 +1590,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- yArokAs -}          [ "Yarkas" ] ]
 
+ |> "yAsIn" <| [
+
+    -- ;; yAsiyn_1
+    -- yAsyn   yAsiyn  Nprop   Yaseen;Yacine
+
+    Identity                  `noun`    {- yAsiyn -}           [ "Yaseen", "Yacine" ] ]
+
  |> "yAsint" <| [
 
     -- ;; yAsinot_1
@@ -1592,14 +1604,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- yAsinot -}          [ "hyacinth" ] ]
 
- |> "yAsiyn" <| [
-
-    -- ;; yAsiyn_1
-    -- yAsyn   yAsiyn  Nprop   Yaseen;Yacine
-
-    Identity                  `noun`    {- yAsiyn -}           [ "Yaseen", "Yacine" ] ]
-
- |> "yAsmiyn" <| [
+ |> "yAsmIn" <| [
 
     -- ;; yAsomiyn_1
     -- yAsmyn  yAsomiyn        Nprop   Yasmin;Yasmeen;Jasmine
@@ -1610,13 +1615,6 @@ lexicon = listing "Lexicon's properties"
     -- yAsmyn  yAsomiyn        N       jasmine
 
     Identity                  `noun`    {- yAsomiyn -}         [ "jasmine" ] ]
-
- |> "yAwiriyy" <| [
-
-    -- ;; yAwiriy~ap_1
-    -- yAwry   yAwiriy~        Nap     adjutants;aides-de-camp     [[yAwiriy~/NOUN]]
-
-    Identity |< aT            `noun`    {- yAwiriy~ap -}       [ "adjutants", "aides-de-camp" ] ]
 
  |> "yAzir^g" <| [
 
@@ -1631,14 +1629,204 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- yAzirojiy~ -}       [ "Yazirji" ] ]
 
- |> "yadiy`uwt" <| [
+ |> "yU.gUrt" <| [
+
+    -- ;; yuwguwrot_1
+    -- ywgwrt  yuwguwrot       N       yogurt
+
+    Identity                  `noun`    {- yuwguwrot -}        [ "yogurt" ] ]
+
+ |> "yU.gUslAf" <| [
+
+    -- ;; yuwguwsolAfiy~_1
+    -- ywgwslAfy       yuwguwsolAfiy~  Nall    Yugoslavian     [[yuwguwsolAfiy~/NOUN]]
+    -- ywjwslAfy       yuwjuwsolAfiy~  Nall    Yugoslavian     [[yuwjuwsolAfiy~/NOUN]]
+    -- ywgwslAfy       yuwguwsolAfiy~  Nall    Yugoslavian     [[yuwguwsolAfiy~/ADJ]]
+    -- ywjwslAfy       yuwjuwsolAfiy~  Nall    Yugoslavian     [[yuwjuwsolAfiy~/ADJ]]
+    -- ywgslAfy        yuwgusolAfiy~   Nall    Yugoslavian     [[yuwgusolAfiy~/NOUN]]
+    -- ywjslAfy        yuwjusolAfiy~   Nall    Yugoslavian     [[yuwgusolAfiy~/NOUN]]
+    -- ywgslAfy        yuwgusolAfiy~   Nall    Yugoslavian     [[yuwgusolAfiy~/ADJ]]
+    -- ywjslAfy        yuwjusolAfiy~   Nall    Yugoslavian     [[yuwgusolAfiy~/ADJ]]
+    -- ywgwslAf        yuwguwsolAf     N       Yugoslavians     [[yuwguwsolAf/NOUN]]
+    -- ywjwslAf        yuwjuwsolAf     N       Yugoslavians     [[yuwguwsolAf/NOUN]]
+    -- ywgwslAf        yuwguwsolAf     N       Yugoslavians     [[yuwguwsolAf/ADJ]]
+    -- ywjwslAf        yuwjuwsolAf     N       Yugoslavians     [[yuwguwsolAf/ADJ]]
+    -- ywgslAf yuwgusolAf      N       Yugoslavians     [[yuwgusolAf/NOUN]]
+    -- ywjslAf yuwjusolAf      N       Yugoslavians     [[yuwgusolAf/NOUN]]
+    -- ywgslAf yuwgusolAf      N       Yugoslavians     [[yuwgusolAf/ADJ]]
+    -- ywjslAf yuwjusolAf      N       Yugoslavians     [[yuwgusolAf/ADJ]]
+
+    Identity |< Iy            `adj`     {- yuwguwsolAfiy~ -}   [ "Yugoslavian" ] ]
+
+ |> "yU.gUslAfiyA" <| [
+
+    -- ;; yuwguwsolAfiyA_1
+    -- ywgwslAfyA      yuwguwsolAfiyA  N0      Yugoslavia
+    -- ywjwslAfyA      yuwjuwsolAfiyA  N0      Yugoslavia
+    -- ywgslAfyA       yuwgusolAfiyA   N0      Yugoslavia
+    -- ywjslAfyA       yuwjusolAfiyA   N0      Yugoslavia
+
+    Identity                  `noun`    {- yuwguwsolAfiyA -}   [ "Yugoslavia" ] ]
+
+ |> "yU.tn" <| [
+
+    -- ;; yuwTonap_1
+    -- ywTn    yuwTon  Nap     lieutenant
+
+    Identity |< aT            `noun`    {- yuwTonap -}         [ "lieutenant" ] ]
+
+ |> "yUfAnUfIt^s" <| [
+
+    -- ;; yuwfAnuwfiyt$_1
+    -- ywfAnwfyt$      yuwfAnuwfiyt$   Nprop   Jovanovic;Jovanovich
+
+    Identity                  `noun`    {- yuwfAnuwfiyt$ -}    [ "Jovanovic", "Jovanovich" ] ]
+
+ |> "yUfintUs" <| [
+
+    -- ;; yuwfinotuws_1
+    -- ywfntws yuwfinotuws     Nprop   Juventus
+
+    Identity                  `noun`    {- yuwfinotuws -}      [ "Juventus" ] ]
+
+ |> "yUhAnsUn" <| [
+
+    -- ;; yuwhAnosuwn_1
+    -- ywhAnswn        yuwhAnosuwn     Nprop   Johansson
+
+    Identity                  `noun`    {- yuwhAnosuwn -}      [ "Johansson" ] ]
+
+ |> "yUkUhAmA" <| [
+
+    -- ;; yuwkuwhAmA_1
+    -- ywkwhAmA        yuwkuwhAmA      N0      Yokohama
+
+    Identity                  `noun`    {- yuwkuwhAmA -}       [ "Yokohama" ] ]
+
+ |> "yUliyU" <| [
+
+    -- ;; yuwliyuw_1
+    -- ywlyw   yuwliyuw        N0      July
+    -- ywlyh   yuwliyah        N0      July
+    -- ywlywz  yuwloyuwz       N0      July
+
+    Identity                  `noun`    {- yuwliyuw -}         [ "July" ] ]
+
+ |> "yUn.g" <| [
+
+    -- ;; yuwnog_1
+    -- ywng    yuwnog  Nprop   Jong;Jung;Yung
+    -- ywnj    yuwnoj  Nprop   Jong;Jung;Yung
+
+    Identity                  `noun`    {- yuwnog -}           [ "Jong", "Jung", "Yung" ],
+
+    -- ;; yuwnog_2
+    -- ywng    yuwnog  Nprop   Young
+    -- ywnj    yuwnoj  Nprop   Young
+
+    Identity                  `noun`    {- yuwnog -}           [ "Young" ] ]
+
+ |> "yUnAytid" <| [
+
+    -- ;; yuwnAyotid_1
+    -- ywnAytd yuwnAyotid      Nprop   United
+
+    Identity                  `noun`    {- yuwnAyotid -}       [ "United" ] ]
+
+ |> "yUnIsif" <| [
+
+    -- ;; yuwniysif_1
+    -- ywnysf  yuwniysif       N0      UNICEF
+    -- ywnysyf yuwniysiyf      N0      UNICEF
+    -- ywnsyf  yuwnisiyf       N0      UNICEF
+
+    Identity                  `noun`    {- yuwniysif -}        [ "UNICEF" ] ]
+
+ |> "yUnIskU" <| [
+
+    -- ;; yuwniysokuw_1
+    -- ywnyskw yuwniysokuw     N0      UNESCO
+    -- ywnskw  yuwnisokuw      N0      UNESCO
+
+    Identity                  `noun`    {- yuwniysokuw -}      [ "UNESCO" ] ]
+
+ |> "yUnItA" <| [
+
+    -- ;; yuwniytA_1
+    -- ywnytA  yuwniytA        N0      UNITA
+
+    Identity                  `noun`    {- yuwniytA -}         [ "UNITA" ] ]
+
+ |> "yUnUsfIr" <| [
+
+    -- ;; yuwnuwsofiyr_1
+    -- ywnwsfyr        yuwnuwsofiyr    N0      ionosphere
+
+    Identity                  `noun`    {- yuwnuwsofiyr -}     [ "ionosphere" ] ]
+
+ |> "yUniyU" <| [
+
+    -- ;; yuwniyuw_1
+    -- ywnyw   yuwniyuw        Nprop   June
+    -- ywnyh   yuwniyah        Nprop   June
+    -- ywnyp   yuwniyap        Nprop   June
+
+    Identity                  `noun`    {- yuwniyuw -}         [ "June" ] ]
+
+ |> "yUnskUm" <| [
+
+    -- ;; yuwnoskuwm_1
+    -- ywnskwm yuwnoskuwm      Nprop   UNSCOM
+
+    Identity                  `noun`    {- yuwnoskuwm -}       [ "UNSCOM" ] ]
+
+ |> "yUrAniyUm" <| [
+
+    -- ;; yuwrAniyuwm_1
+    -- ywrAnywm        yuwrAniyuwm     N0      uranium
+    -- >wrAnywm        >uwrAniyuwm     N0      uranium
+    -- AwrAnywm        >uwrAniyuwm     N0      uranium
+
+    Identity                  `noun`    {- yuwrAniyuwm -}      [ "uranium" ] ]
+
+ |> "yUrUmId" <| [
+
+    -- ;; yuwruwmiyd_1
+    -- ywrwmyd yuwruwmiyd      N0      Euro-Med (European-Mediterranean)
+
+    Identity                  `noun`    {- yuwruwmiyd -}       [ "Euro-Med (European-Mediterranean)" ] ]
+
+ |> "yUrk" <| [
+
+    -- ;; yuwrk_1
+    -- ywrk    yuwrk   N0      York
+
+    Identity                  `noun`    {- yuwrk -}            [ "York" ] ]
+
+ |> "yUtA" <| [
+
+    -- ;; yuwtA_1
+    -- ywtA    yuwtA   Nprop   Utah
+    -- ywTA    yuwTA   Nprop   Utah
+
+    Identity                  `noun`    {- yuwtA -}            [ "Utah" ] ]
+
+ |> "yUzbA^s" <| [
+
+    -- ;; yuwzobA$iy~_1
+    -- ywzbA$y yuwzobA$iy~     N/ap    captain     [[yuwzobA$iy~/ADJ]]
+    -- ywzbA$y yuwzobA$iy~     Nap     captains     [[yuwzobA$iy~/NOUN]]
+
+    Identity |< Iy            `adj`     {- yuwzobA$iy~ -}      [ "captain" ] ]
+
+ |> "yadI`Ut" <| [
 
     -- ;; yadiyEuwt_1
     -- ydyEwt  yadiyEuwt       Nprop   Yediot
 
     Identity                  `noun`    {- yadiyEuwt -}        [ "Yediot" ] ]
 
- |> "yahuw_dA" <| [
+ |> "yahU_dA" <| [
 
     -- ;; yahuw*A_1
     -- yhw*A   yahuw*A Nprop   Judah;Judea
@@ -1675,7 +1863,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- yazarojap -}        [ "astrology" ] ]
 
- |> "yif.giyniy" <| [
+ |> "yif.gInI" <| [
 
     -- ;; yifogiyniy_1
     -- yfgyny  yifogiyniy      Nprop   Yevgeni
@@ -1703,196 +1891,6 @@ lexicon = listing "Lexicon's properties"
     -- yHnA    yuHan~A N0      Yuhanna;John
 
     Identity                  `noun`    {- yuHan~A -}          [ "Yuhanna", "John" ] ]
-
- |> "yuw.guwrt" <| [
-
-    -- ;; yuwguwrot_1
-    -- ywgwrt  yuwguwrot       N       yogurt
-
-    Identity                  `noun`    {- yuwguwrot -}        [ "yogurt" ] ]
-
- |> "yuw.guwslAf" <| [
-
-    -- ;; yuwguwsolAfiy~_1
-    -- ywgwslAfy       yuwguwsolAfiy~  Nall    Yugoslavian     [[yuwguwsolAfiy~/NOUN]]
-    -- ywjwslAfy       yuwjuwsolAfiy~  Nall    Yugoslavian     [[yuwjuwsolAfiy~/NOUN]]
-    -- ywgwslAfy       yuwguwsolAfiy~  Nall    Yugoslavian     [[yuwguwsolAfiy~/ADJ]]
-    -- ywjwslAfy       yuwjuwsolAfiy~  Nall    Yugoslavian     [[yuwjuwsolAfiy~/ADJ]]
-    -- ywgslAfy        yuwgusolAfiy~   Nall    Yugoslavian     [[yuwgusolAfiy~/NOUN]]
-    -- ywjslAfy        yuwjusolAfiy~   Nall    Yugoslavian     [[yuwgusolAfiy~/NOUN]]
-    -- ywgslAfy        yuwgusolAfiy~   Nall    Yugoslavian     [[yuwgusolAfiy~/ADJ]]
-    -- ywjslAfy        yuwjusolAfiy~   Nall    Yugoslavian     [[yuwgusolAfiy~/ADJ]]
-    -- ywgwslAf        yuwguwsolAf     N       Yugoslavians     [[yuwguwsolAf/NOUN]]
-    -- ywjwslAf        yuwjuwsolAf     N       Yugoslavians     [[yuwguwsolAf/NOUN]]
-    -- ywgwslAf        yuwguwsolAf     N       Yugoslavians     [[yuwguwsolAf/ADJ]]
-    -- ywjwslAf        yuwjuwsolAf     N       Yugoslavians     [[yuwguwsolAf/ADJ]]
-    -- ywgslAf yuwgusolAf      N       Yugoslavians     [[yuwgusolAf/NOUN]]
-    -- ywjslAf yuwjusolAf      N       Yugoslavians     [[yuwgusolAf/NOUN]]
-    -- ywgslAf yuwgusolAf      N       Yugoslavians     [[yuwgusolAf/ADJ]]
-    -- ywjslAf yuwjusolAf      N       Yugoslavians     [[yuwgusolAf/ADJ]]
-
-    Identity |< Iy            `adj`     {- yuwguwsolAfiy~ -}   [ "Yugoslavian" ] ]
-
- |> "yuw.guwslAfiyA" <| [
-
-    -- ;; yuwguwsolAfiyA_1
-    -- ywgwslAfyA      yuwguwsolAfiyA  N0      Yugoslavia
-    -- ywjwslAfyA      yuwjuwsolAfiyA  N0      Yugoslavia
-    -- ywgslAfyA       yuwgusolAfiyA   N0      Yugoslavia
-    -- ywjslAfyA       yuwjusolAfiyA   N0      Yugoslavia
-
-    Identity                  `noun`    {- yuwguwsolAfiyA -}   [ "Yugoslavia" ] ]
-
- |> "yuw.tn" <| [
-
-    -- ;; yuwTonap_1
-    -- ywTn    yuwTon  Nap     lieutenant
-
-    Identity |< aT            `noun`    {- yuwTonap -}         [ "lieutenant" ] ]
-
- |> "yuwfAnuwfiyt^s" <| [
-
-    -- ;; yuwfAnuwfiyt$_1
-    -- ywfAnwfyt$      yuwfAnuwfiyt$   Nprop   Jovanovic;Jovanovich
-
-    Identity                  `noun`    {- yuwfAnuwfiyt$ -}    [ "Jovanovic", "Jovanovich" ] ]
-
- |> "yuwfintuws" <| [
-
-    -- ;; yuwfinotuws_1
-    -- ywfntws yuwfinotuws     Nprop   Juventus
-
-    Identity                  `noun`    {- yuwfinotuws -}      [ "Juventus" ] ]
-
- |> "yuwhAnsuwn" <| [
-
-    -- ;; yuwhAnosuwn_1
-    -- ywhAnswn        yuwhAnosuwn     Nprop   Johansson
-
-    Identity                  `noun`    {- yuwhAnosuwn -}      [ "Johansson" ] ]
-
- |> "yuwkuwhAmA" <| [
-
-    -- ;; yuwkuwhAmA_1
-    -- ywkwhAmA        yuwkuwhAmA      N0      Yokohama
-
-    Identity                  `noun`    {- yuwkuwhAmA -}       [ "Yokohama" ] ]
-
- |> "yuwliyuw" <| [
-
-    -- ;; yuwliyuw_1
-    -- ywlyw   yuwliyuw        N0      July
-    -- ywlyh   yuwliyah        N0      July
-    -- ywlywz  yuwloyuwz       N0      July
-
-    Identity                  `noun`    {- yuwliyuw -}         [ "July" ] ]
-
- |> "yuwn.g" <| [
-
-    -- ;; yuwnog_1
-    -- ywng    yuwnog  Nprop   Jong;Jung;Yung
-    -- ywnj    yuwnoj  Nprop   Jong;Jung;Yung
-
-    Identity                  `noun`    {- yuwnog -}           [ "Jong", "Jung", "Yung" ],
-
-    -- ;; yuwnog_2
-    -- ywng    yuwnog  Nprop   Young
-    -- ywnj    yuwnoj  Nprop   Young
-
-    Identity                  `noun`    {- yuwnog -}           [ "Young" ] ]
-
- |> "yuwnAytid" <| [
-
-    -- ;; yuwnAyotid_1
-    -- ywnAytd yuwnAyotid      Nprop   United
-
-    Identity                  `noun`    {- yuwnAyotid -}       [ "United" ] ]
-
- |> "yuwniysif" <| [
-
-    -- ;; yuwniysif_1
-    -- ywnysf  yuwniysif       N0      UNICEF
-    -- ywnysyf yuwniysiyf      N0      UNICEF
-    -- ywnsyf  yuwnisiyf       N0      UNICEF
-
-    Identity                  `noun`    {- yuwniysif -}        [ "UNICEF" ] ]
-
- |> "yuwniyskuw" <| [
-
-    -- ;; yuwniysokuw_1
-    -- ywnyskw yuwniysokuw     N0      UNESCO
-    -- ywnskw  yuwnisokuw      N0      UNESCO
-
-    Identity                  `noun`    {- yuwniysokuw -}      [ "UNESCO" ] ]
-
- |> "yuwniytA" <| [
-
-    -- ;; yuwniytA_1
-    -- ywnytA  yuwniytA        N0      UNITA
-
-    Identity                  `noun`    {- yuwniytA -}         [ "UNITA" ] ]
-
- |> "yuwniyuw" <| [
-
-    -- ;; yuwniyuw_1
-    -- ywnyw   yuwniyuw        Nprop   June
-    -- ywnyh   yuwniyah        Nprop   June
-    -- ywnyp   yuwniyap        Nprop   June
-
-    Identity                  `noun`    {- yuwniyuw -}         [ "June" ] ]
-
- |> "yuwnskuwm" <| [
-
-    -- ;; yuwnoskuwm_1
-    -- ywnskwm yuwnoskuwm      Nprop   UNSCOM
-
-    Identity                  `noun`    {- yuwnoskuwm -}       [ "UNSCOM" ] ]
-
- |> "yuwnuwsfiyr" <| [
-
-    -- ;; yuwnuwsofiyr_1
-    -- ywnwsfyr        yuwnuwsofiyr    N0      ionosphere
-
-    Identity                  `noun`    {- yuwnuwsofiyr -}     [ "ionosphere" ] ]
-
- |> "yuwrAniyuwm" <| [
-
-    -- ;; yuwrAniyuwm_1
-    -- ywrAnywm        yuwrAniyuwm     N0      uranium
-    -- >wrAnywm        >uwrAniyuwm     N0      uranium
-    -- AwrAnywm        >uwrAniyuwm     N0      uranium
-
-    Identity                  `noun`    {- yuwrAniyuwm -}      [ "uranium" ] ]
-
- |> "yuwrk" <| [
-
-    -- ;; yuwrk_1
-    -- ywrk    yuwrk   N0      York
-
-    Identity                  `noun`    {- yuwrk -}            [ "York" ] ]
-
- |> "yuwruwmiyd" <| [
-
-    -- ;; yuwruwmiyd_1
-    -- ywrwmyd yuwruwmiyd      N0      Euro-Med (European-Mediterranean)
-
-    Identity                  `noun`    {- yuwruwmiyd -}       [ "Euro-Med (European-Mediterranean)" ] ]
-
- |> "yuwtA" <| [
-
-    -- ;; yuwtA_1
-    -- ywtA    yuwtA   Nprop   Utah
-    -- ywTA    yuwTA   Nprop   Utah
-
-    Identity                  `noun`    {- yuwtA -}            [ "Utah" ] ]
-
- |> "yuwzbA^s" <| [
-
-    -- ;; yuwzobA$iy~_1
-    -- ywzbA$y yuwzobA$iy~     N/ap    captain     [[yuwzobA$iy~/ADJ]]
-    -- ywzbA$y yuwzobA$iy~     Nap     captains     [[yuwzobA$iy~/NOUN]]
-
-    Identity |< Iy            `adj`     {- yuwzobA$iy~ -}      [ "captain" ] ]
 
  |> "ywmbl.gAz" <| [
 

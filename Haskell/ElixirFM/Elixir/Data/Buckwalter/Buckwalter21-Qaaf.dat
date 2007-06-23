@@ -1707,7 +1707,7 @@ mqrwt   maqoruwt        N-ap    bluish     <pos>maqoruwt/ADJ</pos>
 ;
 ;--- qrj
 ; Moroccan runner Hicham El Guerrouj
-;; qrwj_1
+;; qruwj_1
 qrwj    qrwj    N0      Geurrouj
 ;
 ;--- qrH
@@ -2682,7 +2682,7 @@ qzmy    qazamiy~        Nall    stunted;dwarfed     <pos>qazamiy~/ADJ</pos>
 ;; qazim_1
 qzm     qazim   N-ap    stunted;dwarfish     <pos>qazim/ADJ</pos>
 ;
-;--- qzmw
+; ;--- qzmw
 ;; quzomuwgrAfiyA_1
 qzmwgrAfyA      quzomuwgrAfiyA  N0      cosmography
 qzmwgrAfy       quzomuwgrAfiy~  Nap     cosmography     <pos>quzomuwgrAfiy~/NOUN</pos>
@@ -2695,7 +2695,7 @@ qzmwgrAfy       quzomuwgrAfiy~  Nall    cosmographer     <pos>quzomuwgrAfiy~/ADJ
 ;; qazAn_1
 qzAn    qazAn   NduAt   kettle;caldron
 ;
-;--- qzwy
+; ;--- qzwy
 ;; qazowiyn_1
 qzwyn   qazowiyn        Ndip    Caspian;Qazvin
 ;; qazowiyniy~_1
@@ -6200,7 +6200,7 @@ mqhqh   muqahoqih       Nall    laughing
 ;; muqahoqih_2
 mqhqh   muqahoqih       N-ap    hilarious     <pos>muqahoqih/ADJ</pos>
 ;
-;--- qhw
+; ;--- qhw
 ;; qahowap_1
 qhw     qahow   Napdu   coffee
 qhw     qahaw   NAt     coffees

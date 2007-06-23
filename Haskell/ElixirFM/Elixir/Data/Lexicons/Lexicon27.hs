@@ -9,7 +9,7 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "miyq" <| [
+ |> "mIq" <| [
 
     Identity |< At            `noun`    {- miyqAt -}           [ "appointed time", "meeting point", "timetables", "rendezvous points and times" ] ]
 
@@ -1795,7 +1795,7 @@ lexicon = listing "Lexicon's properties"
     MutaFACI                  `adj`     {- mutawAziy -}        [ "parallel", "equivalent", "egalitarian" ]
                               `plural`     MutaFACI |< At ]
 
- |> "wA^sin.tuwn" <| [
+ |> "wA^sin.tUn" <| [
 
     Identity                  `noun`    {- wA$inoTuwn -}       [ "Washington" ] ]
 
@@ -1807,31 +1807,31 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- wAlotiroz -}        [ "Walters" ] ]
 
- |> "wAnt^suwb" <| [
+ |> "wAnt^sUb" <| [
 
     Identity                  `noun`    {- wAnt$uwb -}         [ "Wanchope" ] ]
 
- |> "wArsuw" <| [
+ |> "wArsU" <| [
 
     Identity                  `noun`    {- wArosuw -}          [ "Warsaw" ] ]
 
- |> "wiylkinz" <| [
+ |> "wIlkinz" <| [
 
     Identity                  `noun`    {- wiylokinoz -}       [ "Wilkins" ] ]
 
- |> "wiylyAm" <| [
+ |> "wIlyAm" <| [
 
     Identity                  `noun`    {- wiyloyAm -}         [ "William" ] ]
 
- |> "wiylyAms" <| [
+ |> "wIlyAms" <| [
 
     Identity                  `noun`    {- wiyloyAms -}        [ "Williams" ] ]
 
- |> "wuwdruwf" <| [
+ |> "wUdrUf" <| [
 
     Identity                  `noun`    {- wuwdoruwf -}        [ "Woodruff" ] ]
 
- |> "wuwkir" <| [
+ |> "wUkir" <| [
 
     Identity                  `noun`    {- wuwkir -}           [ "Walker" ] ]
 

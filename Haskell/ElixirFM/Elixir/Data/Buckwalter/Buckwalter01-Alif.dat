@@ -551,7 +551,7 @@ Aybr$y  <iybaro$iy~     N/ap    diocese;bishopric     <pos><iybaro$iy~/NOUN</pos
 AtAgy   >atAgiy Nprop   Atagi
 ;
 ; r}ys AlwzrA' Alhndy AtAl byhAry fAjbAyy
-;; AtAl_1
+;; >atAl_1
 AtAl    AtAl    Nprop   Atal
 ;
 ; AFP Corpus: Italian soccer team
@@ -960,7 +960,7 @@ AvnwlwjyA       <ivonuwluwjiyA  N0      ethnology
 <vnwlwjy        <ivonuwluwjiy~  Nall    ethnological     <pos><ivonuwluwjiy~/ADJ</pos>
 Avnwlwjy        <ivonuwluwjiy~  Nall    ethnological     <pos><ivonuwluwjiy~/ADJ</pos>
 ;
-;; >avylyn_1
+;; >aviyliyn_1
 >vylyn  >avylyn N       ethylene
 Avylyn  >avylyn N       ethylene
 ;
@@ -2271,7 +2271,7 @@ Ardn    >urodun~        N       Jordan
 Ardny   >urodun~iy~     Nall    Jordanian     <pos>>urodun~iy~/NOUN</pos>
 Ardny   >urodun~iy~     Nall    Jordanian     <pos>>urodun~iy~/ADJ</pos>
 ;
-;--- Ardw
+; ;--- Ardw
 ;; >uroduw_1
 >rdw    >uroduw N0      Urdu
 Ardw    >uroduw N0      Urdu
@@ -3814,7 +3814,7 @@ Aswjy   >asuwjiy~       Nall    Swedish     <pos>>asuwjiy~/ADJ</pos>
 ;
 ; AFP Corpus: Benin soccer player Aysyfw AswmA (Asuma ??)
 ; no Google data found for "soccer/football benin asuma/asouma/osuma/osoma/assoma/ussuma"
-;; AswmA_1
+;; >asuwmA_1
 AswmA   AswmA   Nprop   Asuma
 ;
 ;; >asoyA_1
@@ -4240,7 +4240,7 @@ AgAdyr  >agAdiyr        Nprop   Agadir
 AgAsy   >agAsiy Nprop   Agasi
 ;
 ; AFP Corpus: Bordeaux soccer player Aghbou ?? (no Google data)
-;; Agbwh_1
+;; Agbuwh_1
 Agbwh   Agbwh   Nprop   Aghbou
 ;
 ;; <igoriyqiy~_1
@@ -5478,7 +5478,7 @@ Alw     >alow   Napdu   aloe
 Alw     >alaw   NAt     aloes
 ;
 ; AFP corpus; Belgian soccer team Aalst ??
-;; Alwst_1
+;; Aluwst_1
 Alwst   Alwst   Nprop   Aalst
 ;
 ;; >aluwnozuw_1
@@ -7309,7 +7309,7 @@ mt>hl   muta>ah~il      Nall    qualified;married
 mst>hl  musota>ohil     Nall    worthy;entitled;qualified
 ;
 ; AFP corpus "Paz Ahora"
-;; AhwrA_1
+;; >ahuwrA_1
 AhwrA   AhwrA   Nprop   Ahora
 ;
 ; see under hlylj
@@ -8097,7 +8097,7 @@ Awnyskw >uwniysokuw     N0      UNESCO
 Awnsyns >uwnosiyns      Nprop   Oncins
 ;
 ; AFP corpus; Thai soccer player Thawatchai Damrong-Ongtrakul
-;; AwngtrAkwl_1
+;; AuwngtrAkuwl_1
 AwngtrAkwl      AwngtrAkwl      Nprop   Ongtrakul
 ;
 ;; >uwnuw_1
@@ -8230,7 +8230,7 @@ m|w     ma|w    NK      shelters
 ;
 ; AFP corpus: Altai festival (Bairam) Al-Oiyn
 ;--- Awyyn
-;; >wyyn_1
+;; >uwyiyn_1
 >wyyn   >uwyiyn N0      Oiyn
 Awyyn   >uwyiyn N0      Oiyn
 ;
@@ -8351,7 +8351,7 @@ AytAr   <iytAr  Nprop   ITAR
 <ytAr   <iytAr  Nprop   ITAR
 ;
 ; AFP corpus
-;; Ayt$ybyryA_1
+;; Aiyt$iybiyryA_1
 Ayt$ybyryA      Ayt$ybyryA      N0      Echeverria
 ;
 ;; <iyjih_1
@@ -8525,7 +8525,7 @@ AyslAndy        <iyslAnodiy~    Nall    Icelandic     <pos><iyslAnodiy~/ADJ</pos
 Ayslndy <iyslanodiy~    Nall    Icelandic     <pos><iyslAnodiy~/ADJ</pos>
 ;
 ; AFP Corpus: Benin soccer player Aysyfw AswmA (no data found for "soccer benin asuma/asouma/osuma/osoma")
-;; Aysyfw_1
+;; <iysiyfuw_1
 Aysyfw  Aysyfw  Nprop   Isifu ??
 ;
 ;--- AyD

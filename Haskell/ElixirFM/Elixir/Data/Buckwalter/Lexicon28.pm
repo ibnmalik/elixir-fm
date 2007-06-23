@@ -6,6 +6,32 @@ package Elixir::Data::Buckwalter::Lexicon28;
 
 
 $Lexicon = {
+  'yUtA' => [
+    {
+      'types' => {
+        'yuw.tA' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'yuwtA',
+      'form' => 'yuwtA',
+      'lines' => [
+        ';; yuwtA_1',
+        'ywtA    yuwtA   Nprop   Utah',
+        'ywTA    yuwTA   Nprop   Utah'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Utah'
+      ],
+      'orig' => 'yuwtA',
+      'prefix' => ''
+    }
+  ],
   'y f .t' => [
     {
       'types' => {
@@ -83,27 +109,25 @@ $Lexicon = {
       ],
       'orig' => 'yAwir',
       'prefix' => ''
-    }
-  ],
-  'yAsiyn' => [
+    },
     {
       'types' => {},
-      'entry' => 'yAsiyn',
-      'form' => 'yAsiyn',
+      'entry' => 'yAwir',
+      'form' => 'yAwiriyyaT',
       'lines' => [
-        ';; yAsiyn_1',
-        'yAsyn   yAsiyn  Nprop   Yaseen;Yacine'
+        ';; yAwiriy~ap_1',
+        'yAwry   yAwiriy~        Nap     adjutants;aides-de-camp     [[yAwiriy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'FACiL |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
       'glosses' => [
-        'Yaseen',
-        'Yacine'
+        'adjutants',
+        'aides-de-camp'
       ],
-      'orig' => 'yAsiyn',
+      'orig' => 'yAwiriy~ap',
       'prefix' => ''
     }
   ],
@@ -235,6 +259,57 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'yUfintUs' => [
+    {
+      'types' => {},
+      'entry' => 'yuwfintuws',
+      'form' => 'yuwfintuws',
+      'lines' => [
+        ';; yuwfinotuws_1',
+        'ywfntws yuwfinotuws     Nprop   Juventus'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Juventus'
+      ],
+      'orig' => 'yuwfinotuws',
+      'prefix' => ''
+    }
+  ],
+  'yUliyU' => [
+    {
+      'types' => {
+        'yuwlyuwz' => {
+          'N0' => 1
+        },
+        'yuwliyah' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'yuwliyuw',
+      'form' => 'yuwliyuw',
+      'lines' => [
+        ';; yuwliyuw_1',
+        'ywlyw   yuwliyuw        N0      July',
+        'ywlyh   yuwliyah        N0      July',
+        'ywlywz  yuwloyuwz       N0      July'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'July'
+      ],
+      'orig' => 'yuwliyuw',
+      'prefix' => ''
+    }
+  ],
   'y f _t' => [
     {
       'types' => {},
@@ -351,27 +426,6 @@ $Lexicon = {
         'hand'
       ],
       'orig' => 'yadawiy~',
-      'prefix' => ''
-    }
-  ],
-  'yuwhAnsuwn' => [
-    {
-      'types' => {},
-      'entry' => 'yuwhAnsuwn',
-      'form' => 'yuwhAnsuwn',
-      'lines' => [
-        ';; yuwhAnosuwn_1',
-        'ywhAnswn        yuwhAnosuwn     Nprop   Johansson'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Johansson'
-      ],
-      'orig' => 'yuwhAnosuwn',
       'prefix' => ''
     }
   ],
@@ -560,14 +614,20 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yahuw_dA' => [
+  'yUrAniyUm' => [
     {
-      'types' => {},
-      'entry' => 'yahuw_dA',
-      'form' => 'yahuw_dA',
+      'types' => {
+        '\'uwrAniyuwm' => {
+          'N0' => 2
+        }
+      },
+      'entry' => 'yuwrAniyuwm',
+      'form' => 'yuwrAniyuwm',
       'lines' => [
-        ';; yahuw*A_1',
-        'yhw*A   yahuw*A Nprop   Judah;Judea'
+        ';; yuwrAniyuwm_1',
+        'ywrAnywm        yuwrAniyuwm     N0      uranium',
+        '>wrAnywm        >uwrAniyuwm     N0      uranium',
+        'AwrAnywm        >uwrAniyuwm     N0      uranium'
       ],
       'patterns' => {},
       'index' => '1',
@@ -575,10 +635,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Judah',
-        'Judea'
+        'uranium'
       ],
-      'orig' => 'yahuw*A',
+      'orig' => 'yuwrAniyuwm',
       'prefix' => ''
     }
   ],
@@ -621,27 +680,6 @@ $Lexicon = {
         'Jesuit'
       ],
       'orig' => 'yasuwEiy~',
-      'prefix' => ''
-    }
-  ],
-  'yuw.guwrt' => [
-    {
-      'types' => {},
-      'entry' => 'yuw.guwrt',
-      'form' => 'yuw.guwrt',
-      'lines' => [
-        ';; yuwguwrot_1',
-        'ywgwrt  yuwguwrot       N       yogurt'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'yogurt'
-      ],
-      'orig' => 'yuwguwrot',
       'prefix' => ''
     }
   ],
@@ -1566,14 +1604,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yif.giyniy' => [
+  'yAmI^s' => [
     {
       'types' => {},
-      'entry' => 'yif.giyniy',
-      'form' => 'yif.giyniy',
+      'entry' => 'yAmiy^s',
+      'form' => 'yAmiy^s',
       'lines' => [
-        ';; yifogiyniy_1',
-        'yfgyny  yifogiyniy      Nprop   Yevgeni'
+        ';; yAmiy$_1',
+        'yAmy$   yAmiy$  N       dried fruits'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1581,9 +1619,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Yevgeni'
+        'dried fruits'
       ],
-      'orig' => 'yifogiyniy',
+      'orig' => 'yAmiy$',
       'prefix' => ''
     }
   ],
@@ -1626,32 +1664,6 @@ $Lexicon = {
         'jasmine'
       ],
       'orig' => 'yasomiyn',
-      'prefix' => ''
-    }
-  ],
-  'yuwniyskuw' => [
-    {
-      'types' => {
-        'yuwniskuw' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'yuwniyskuw',
-      'form' => 'yuwniyskuw',
-      'lines' => [
-        ';; yuwniysokuw_1',
-        'ywnyskw yuwniysokuw     N0      UNESCO',
-        'ywnskw  yuwnisokuw      N0      UNESCO'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'UNESCO'
-      ],
-      'orig' => 'yuwniysokuw',
       'prefix' => ''
     }
   ],
@@ -2851,14 +2863,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yadiy`uwt' => [
+  'yahU_dA' => [
     {
       'types' => {},
-      'entry' => 'yadiy`uwt',
-      'form' => 'yadiy`uwt',
+      'entry' => 'yahuw_dA',
+      'form' => 'yahuw_dA',
       'lines' => [
-        ';; yadiyEuwt_1',
-        'ydyEwt  yadiyEuwt       Nprop   Yediot'
+        ';; yahuw*A_1',
+        'yhw*A   yahuw*A Nprop   Judah;Judea'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2866,9 +2878,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Yediot'
+        'Judah',
+        'Judea'
       ],
-      'orig' => 'yadiyEuwt',
+      'orig' => 'yahuw*A',
       'prefix' => ''
     }
   ],
@@ -3610,27 +3623,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yAmiy^s' => [
-    {
-      'types' => {},
-      'entry' => 'yAmiy^s',
-      'form' => 'yAmiy^s',
-      'lines' => [
-        ';; yAmiy$_1',
-        'yAmy$   yAmiy$  N       dried fruits'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'dried fruits'
-      ],
-      'orig' => 'yAmiy$',
-      'prefix' => ''
-    }
-  ],
   'y .h b r' => [
     {
       'types' => {},
@@ -3674,14 +3666,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yAwiriyy' => [
+  'yU.tn' => [
     {
       'types' => {},
-      'entry' => 'yAwiriyy',
-      'form' => 'yAwiriyyaT',
+      'entry' => 'yuw.tn',
+      'form' => 'yuw.tnaT',
       'lines' => [
-        ';; yAwiriy~ap_1',
-        'yAwry   yAwiriy~        Nap     adjutants;aides-de-camp     [[yAwiriy~/NOUN]]'
+        ';; yuwTonap_1',
+        'ywTn    yuwTon  Nap     lieutenant'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3689,10 +3681,9 @@ $Lexicon = {
       'morphs' => 'Identity |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'adjutants',
-        'aides-de-camp'
+        'lieutenant'
       ],
-      'orig' => 'yAwiriy~ap',
+      'orig' => 'yuwTonap',
       'prefix' => ''
     }
   ],
@@ -3715,65 +3706,6 @@ $Lexicon = {
         'mallet'
       ],
       'orig' => 'miyHAr',
-      'prefix' => ''
-    }
-  ],
-  'yuw.guwslAf' => [
-    {
-      'types' => {
-        'yuw^guslAf' => {
-          'N' => 2
-        },
-        'yuw^guslAfiyy' => {
-          'Nall' => 2
-        },
-        'yuw.guwslAf' => {
-          'N' => 2
-        },
-        'yuw.guslAfiyy' => {
-          'Nall' => 2
-        },
-        'yuw.guslAf' => {
-          'N' => 2
-        },
-        'yuw^guwslAf' => {
-          'N' => 2
-        },
-        'yuw^guwslAfiyy' => {
-          'Nall' => 2
-        }
-      },
-      'entry' => 'yuw.guwslAf',
-      'form' => 'yuw.guwslAfiyy',
-      'lines' => [
-        ';; yuwguwsolAfiy~_1',
-        'ywgwslAfy       yuwguwsolAfiy~  Nall    Yugoslavian     [[yuwguwsolAfiy~/NOUN]]',
-        'ywjwslAfy       yuwjuwsolAfiy~  Nall    Yugoslavian     [[yuwjuwsolAfiy~/NOUN]]',
-        'ywgwslAfy       yuwguwsolAfiy~  Nall    Yugoslavian     [[yuwguwsolAfiy~/ADJ]]',
-        'ywjwslAfy       yuwjuwsolAfiy~  Nall    Yugoslavian     [[yuwjuwsolAfiy~/ADJ]]',
-        'ywgslAfy        yuwgusolAfiy~   Nall    Yugoslavian     [[yuwgusolAfiy~/NOUN]]',
-        'ywjslAfy        yuwjusolAfiy~   Nall    Yugoslavian     [[yuwgusolAfiy~/NOUN]]',
-        'ywgslAfy        yuwgusolAfiy~   Nall    Yugoslavian     [[yuwgusolAfiy~/ADJ]]',
-        'ywjslAfy        yuwjusolAfiy~   Nall    Yugoslavian     [[yuwgusolAfiy~/ADJ]]',
-        'ywgwslAf        yuwguwsolAf     N       Yugoslavians     [[yuwguwsolAf/NOUN]]',
-        'ywjwslAf        yuwjuwsolAf     N       Yugoslavians     [[yuwguwsolAf/NOUN]]',
-        'ywgwslAf        yuwguwsolAf     N       Yugoslavians     [[yuwguwsolAf/ADJ]]',
-        'ywjwslAf        yuwjuwsolAf     N       Yugoslavians     [[yuwguwsolAf/ADJ]]',
-        'ywgslAf yuwgusolAf      N       Yugoslavians     [[yuwgusolAf/NOUN]]',
-        'ywjslAf yuwjusolAf      N       Yugoslavians     [[yuwgusolAf/NOUN]]',
-        'ywgslAf yuwgusolAf      N       Yugoslavians     [[yuwgusolAf/ADJ]]',
-        'ywjslAf yuwjusolAf      N       Yugoslavians     [[yuwgusolAf/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Yugoslavian',
-        'Yugoslavians'
-      ],
-      'orig' => 'yuwguwsolAfiy~',
       'prefix' => ''
     }
   ],
@@ -4002,14 +3934,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yuwfintuws' => [
+  'yAsIn' => [
     {
       'types' => {},
-      'entry' => 'yuwfintuws',
-      'form' => 'yuwfintuws',
+      'entry' => 'yAsiyn',
+      'form' => 'yAsiyn',
       'lines' => [
-        ';; yuwfinotuws_1',
-        'ywfntws yuwfinotuws     Nprop   Juventus'
+        ';; yAsiyn_1',
+        'yAsyn   yAsiyn  Nprop   Yaseen;Yacine'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4017,35 +3949,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Juventus'
+        'Yaseen',
+        'Yacine'
       ],
-      'orig' => 'yuwfinotuws',
-      'prefix' => ''
-    }
-  ],
-  'yuwtA' => [
-    {
-      'types' => {
-        'yuw.tA' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'yuwtA',
-      'form' => 'yuwtA',
-      'lines' => [
-        ';; yuwtA_1',
-        'ywtA    yuwtA   Nprop   Utah',
-        'ywTA    yuwTA   Nprop   Utah'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Utah'
-      ],
-      'orig' => 'yuwtA',
+      'orig' => 'yAsiyn',
       'prefix' => ''
     }
   ],
@@ -4432,6 +4339,82 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'yUnItA' => [
+    {
+      'types' => {},
+      'entry' => 'yuwniytA',
+      'form' => 'yuwniytA',
+      'lines' => [
+        ';; yuwniytA_1',
+        'ywnytA  yuwniytA        N0      UNITA'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'UNITA'
+      ],
+      'orig' => 'yuwniytA',
+      'prefix' => ''
+    }
+  ],
+  'yU.gUslAfiyA' => [
+    {
+      'types' => {
+        'yuw^guslAfiyA' => {
+          'N0' => 1
+        },
+        'yuw.guslAfiyA' => {
+          'N0' => 1
+        },
+        'yuw^guwslAfiyA' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'yuw.guwslAfiyA',
+      'form' => 'yuw.guwslAfiyA',
+      'lines' => [
+        ';; yuwguwsolAfiyA_1',
+        'ywgwslAfyA      yuwguwsolAfiyA  N0      Yugoslavia',
+        'ywjwslAfyA      yuwjuwsolAfiyA  N0      Yugoslavia',
+        'ywgslAfyA       yuwgusolAfiyA   N0      Yugoslavia',
+        'ywjslAfyA       yuwjusolAfiyA   N0      Yugoslavia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Yugoslavia'
+      ],
+      'orig' => 'yuwguwsolAfiyA',
+      'prefix' => ''
+    }
+  ],
+  'yif.gInI' => [
+    {
+      'types' => {},
+      'entry' => 'yif.giyniy',
+      'form' => 'yif.giyniy',
+      'lines' => [
+        ';; yifogiyniy_1',
+        'yfgyny  yifogiyniy      Nprop   Yevgeni'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Yevgeni'
+      ],
+      'orig' => 'yifogiyniy',
+      'prefix' => ''
+    }
+  ],
   'yAzir^g' => [
     {
       'types' => {},
@@ -4495,36 +4478,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yuwniyuw' => [
-    {
-      'types' => {
-        'yuwniyaT' => {
-          'Nprop' => 1
-        },
-        'yuwniyah' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'yuwniyuw',
-      'form' => 'yuwniyuw',
-      'lines' => [
-        ';; yuwniyuw_1',
-        'ywnyw   yuwniyuw        Nprop   June',
-        'ywnyh   yuwniyah        Nprop   June',
-        'ywnyp   yuwniyap        Nprop   June'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'June'
-      ],
-      'orig' => 'yuwniyuw',
-      'prefix' => ''
-    }
-  ],
   'y y y' => [
     {
       'types' => {},
@@ -4543,27 +4496,6 @@ $Lexicon = {
         'Yi'
       ],
       'orig' => 'yiy',
-      'prefix' => ''
-    }
-  ],
-  'yuw.tn' => [
-    {
-      'types' => {},
-      'entry' => 'yuw.tn',
-      'form' => 'yuw.tnaT',
-      'lines' => [
-        ';; yuwTonap_1',
-        'ywTn    yuwTon  Nap     lieutenant'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'lieutenant'
-      ],
-      'orig' => 'yuwTonap',
       'prefix' => ''
     }
   ],
@@ -4627,33 +4559,6 @@ $Lexicon = {
         'jasper'
       ],
       'orig' => 'yaSob',
-      'prefix' => ''
-    }
-  ],
-  'yuwrAniyuwm' => [
-    {
-      'types' => {
-        '\'uwrAniyuwm' => {
-          'N0' => 2
-        }
-      },
-      'entry' => 'yuwrAniyuwm',
-      'form' => 'yuwrAniyuwm',
-      'lines' => [
-        ';; yuwrAniyuwm_1',
-        'ywrAnywm        yuwrAniyuwm     N0      uranium',
-        '>wrAnywm        >uwrAniyuwm     N0      uranium',
-        'AwrAnywm        >uwrAniyuwm     N0      uranium'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'uranium'
-      ],
-      'orig' => 'yuwrAniyuwm',
       'prefix' => ''
     }
   ],
@@ -4849,48 +4754,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yAnA.giysAwA' => [
-    {
-      'types' => {},
-      'entry' => 'yAnA.giysAwA',
-      'form' => 'yAnA.giysAwA',
-      'lines' => [
-        ';; yAnAgiysAwA_1',
-        'yAnAgysAwA      yAnAgiysAwA     Nprop   Yanagisawa'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Yanagisawa'
-      ],
-      'orig' => 'yAnAgiysAwA',
-      'prefix' => ''
-    }
-  ],
-  'yuwnuwsfiyr' => [
-    {
-      'types' => {},
-      'entry' => 'yuwnuwsfiyr',
-      'form' => 'yuwnuwsfiyr',
-      'lines' => [
-        ';; yuwnuwsofiyr_1',
-        'ywnwsfyr        yuwnuwsofiyr    N0      ionosphere'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'ionosphere'
-      ],
-      'orig' => 'yuwnuwsofiyr',
-      'prefix' => ''
-    }
-  ],
   'yA.tA^s' => [
     {
       'types' => {},
@@ -4909,6 +4772,57 @@ $Lexicon = {
         'piecework'
       ],
       'orig' => 'yATA$',
+      'prefix' => ''
+    }
+  ],
+  'yUniyU' => [
+    {
+      'types' => {
+        'yuwniyaT' => {
+          'Nprop' => 1
+        },
+        'yuwniyah' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'yuwniyuw',
+      'form' => 'yuwniyuw',
+      'lines' => [
+        ';; yuwniyuw_1',
+        'ywnyw   yuwniyuw        Nprop   June',
+        'ywnyh   yuwniyah        Nprop   June',
+        'ywnyp   yuwniyap        Nprop   June'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'June'
+      ],
+      'orig' => 'yuwniyuw',
+      'prefix' => ''
+    }
+  ],
+  'yUhAnsUn' => [
+    {
+      'types' => {},
+      'entry' => 'yuwhAnsuwn',
+      'form' => 'yuwhAnsuwn',
+      'lines' => [
+        ';; yuwhAnosuwn_1',
+        'ywhAnswn        yuwhAnosuwn     Nprop   Johansson'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Johansson'
+      ],
+      'orig' => 'yuwhAnosuwn',
       'prefix' => ''
     }
   ],
@@ -4981,14 +4895,23 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yuwnskuwm' => [
+  'yUnIsif' => [
     {
-      'types' => {},
-      'entry' => 'yuwnskuwm',
-      'form' => 'yuwnskuwm',
+      'types' => {
+        'yuwnisiyf' => {
+          'N0' => 1
+        },
+        'yuwniysiyf' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'yuwniysif',
+      'form' => 'yuwniysif',
       'lines' => [
-        ';; yuwnoskuwm_1',
-        'ywnskwm yuwnoskuwm      Nprop   UNSCOM'
+        ';; yuwniysif_1',
+        'ywnysf  yuwniysif       N0      UNICEF',
+        'ywnysyf yuwniysiyf      N0      UNICEF',
+        'ywnsyf  yuwnisiyf       N0      UNICEF'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4996,9 +4919,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'UNSCOM'
+        'UNICEF'
       ],
-      'orig' => 'yuwnoskuwm',
+      'orig' => 'yuwniysif',
       'prefix' => ''
     }
   ],
@@ -5081,6 +5004,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'yUkUhAmA' => [
+    {
+      'types' => {},
+      'entry' => 'yuwkuwhAmA',
+      'form' => 'yuwkuwhAmA',
+      'lines' => [
+        ';; yuwkuwhAmA_1',
+        'ywkwhAmA        yuwkuwhAmA      N0      Yokohama'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Yokohama'
+      ],
+      'orig' => 'yuwkuwhAmA',
+      'prefix' => ''
+    }
+  ],
   'y w s f' => [
     {
       'types' => {},
@@ -5120,6 +5064,48 @@ $Lexicon = {
         'tangerines'
       ],
       'orig' => 'yuwsufiy~',
+      'prefix' => ''
+    }
+  ],
+  'yUrUmId' => [
+    {
+      'types' => {},
+      'entry' => 'yuwruwmiyd',
+      'form' => 'yuwruwmiyd',
+      'lines' => [
+        ';; yuwruwmiyd_1',
+        'ywrwmyd yuwruwmiyd      N0      Euro-Med (European-Mediterranean)'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Euro-Med (European-Mediterranean)'
+      ],
+      'orig' => 'yuwruwmiyd',
+      'prefix' => ''
+    }
+  ],
+  'yadI`Ut' => [
+    {
+      'types' => {},
+      'entry' => 'yadiy`uwt',
+      'form' => 'yadiy`uwt',
+      'lines' => [
+        ';; yadiyEuwt_1',
+        'ydyEwt  yadiyEuwt       Nprop   Yediot'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Yediot'
+      ],
+      'orig' => 'yadiyEuwt',
       'prefix' => ''
     }
   ],
@@ -5428,14 +5414,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yuwniytA' => [
+  'yAsmIn' => [
     {
       'types' => {},
-      'entry' => 'yuwniytA',
-      'form' => 'yuwniytA',
+      'entry' => 'yAsmiyn',
+      'form' => 'yAsmiyn',
       'lines' => [
-        ';; yuwniytA_1',
-        'ywnytA  yuwniytA        N0      UNITA'
+        ';; yAsomiyn_1',
+        'yAsmyn  yAsomiyn        Nprop   Yasmin;Yasmeen;Jasmine'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5443,9 +5429,30 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'UNITA'
+        'Yasmin',
+        'Yasmeen',
+        'Jasmine'
       ],
-      'orig' => 'yuwniytA',
+      'orig' => 'yAsomiyn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yAsmiyn',
+      'form' => 'yAsmiyn',
+      'lines' => [
+        ';; yAsomiyn_2',
+        'yAsmyn  yAsomiyn        N       jasmine'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'jasmine'
+      ],
+      'orig' => 'yAsomiyn',
       'prefix' => ''
     }
   ],
@@ -5482,6 +5489,51 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'yUfAnUfIt^s' => [
+    {
+      'types' => {},
+      'entry' => 'yuwfAnuwfiyt^s',
+      'form' => 'yuwfAnuwfiyt^s',
+      'lines' => [
+        ';; yuwfAnuwfiyt$_1',
+        'ywfAnwfyt$      yuwfAnuwfiyt$   Nprop   Jovanovic;Jovanovich'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Jovanovic',
+        'Jovanovich'
+      ],
+      'orig' => 'yuwfAnuwfiyt$',
+      'prefix' => ''
+    }
+  ],
+  'yUzbA^s' => [
+    {
+      'types' => {},
+      'entry' => 'yuwzbA^s',
+      'form' => 'yuwzbA^siyy',
+      'lines' => [
+        ';; yuwzobA$iy~_1',
+        'ywzbA$y yuwzobA$iy~     N/ap    captain     [[yuwzobA$iy~/ADJ]]',
+        'ywzbA$y yuwzobA$iy~     Nap     captains     [[yuwzobA$iy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'captain',
+        'captains'
+      ],
+      'orig' => 'yuwzobA$iy~',
+      'prefix' => ''
+    }
+  ],
   'y n ^s' => [
     {
       'types' => {},
@@ -5500,27 +5552,6 @@ $Lexicon = {
         'Jonas'
       ],
       'orig' => 'yuwnA$',
-      'prefix' => ''
-    }
-  ],
-  'yuwrk' => [
-    {
-      'types' => {},
-      'entry' => 'yuwrk',
-      'form' => 'yuwrk',
-      'lines' => [
-        ';; yuwrk_1',
-        'ywrk    yuwrk   N0      York'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'York'
-      ],
-      'orig' => 'yuwrk',
       'prefix' => ''
     }
   ],
@@ -5620,29 +5651,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yuwzbA^s' => [
-    {
-      'types' => {},
-      'entry' => 'yuwzbA^s',
-      'form' => 'yuwzbA^siyy',
-      'lines' => [
-        ';; yuwzobA$iy~_1',
-        'ywzbA$y yuwzobA$iy~     N/ap    captain     [[yuwzobA$iy~/ADJ]]',
-        'ywzbA$y yuwzobA$iy~     Nap     captains     [[yuwzobA$iy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'captain',
-        'captains'
-      ],
-      'orig' => 'yuwzobA$iy~',
-      'prefix' => ''
-    }
-  ],
   'y w n n' => [
     {
       'types' => {},
@@ -5673,6 +5681,65 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'yU.gUslAf' => [
+    {
+      'types' => {
+        'yuw^guslAf' => {
+          'N' => 2
+        },
+        'yuw^guslAfiyy' => {
+          'Nall' => 2
+        },
+        'yuw.guwslAf' => {
+          'N' => 2
+        },
+        'yuw.guslAfiyy' => {
+          'Nall' => 2
+        },
+        'yuw.guslAf' => {
+          'N' => 2
+        },
+        'yuw^guwslAf' => {
+          'N' => 2
+        },
+        'yuw^guwslAfiyy' => {
+          'Nall' => 2
+        }
+      },
+      'entry' => 'yuw.guwslAf',
+      'form' => 'yuw.guwslAfiyy',
+      'lines' => [
+        ';; yuwguwsolAfiy~_1',
+        'ywgwslAfy       yuwguwsolAfiy~  Nall    Yugoslavian     [[yuwguwsolAfiy~/NOUN]]',
+        'ywjwslAfy       yuwjuwsolAfiy~  Nall    Yugoslavian     [[yuwjuwsolAfiy~/NOUN]]',
+        'ywgwslAfy       yuwguwsolAfiy~  Nall    Yugoslavian     [[yuwguwsolAfiy~/ADJ]]',
+        'ywjwslAfy       yuwjuwsolAfiy~  Nall    Yugoslavian     [[yuwjuwsolAfiy~/ADJ]]',
+        'ywgslAfy        yuwgusolAfiy~   Nall    Yugoslavian     [[yuwgusolAfiy~/NOUN]]',
+        'ywjslAfy        yuwjusolAfiy~   Nall    Yugoslavian     [[yuwgusolAfiy~/NOUN]]',
+        'ywgslAfy        yuwgusolAfiy~   Nall    Yugoslavian     [[yuwgusolAfiy~/ADJ]]',
+        'ywjslAfy        yuwjusolAfiy~   Nall    Yugoslavian     [[yuwgusolAfiy~/ADJ]]',
+        'ywgwslAf        yuwguwsolAf     N       Yugoslavians     [[yuwguwsolAf/NOUN]]',
+        'ywjwslAf        yuwjuwsolAf     N       Yugoslavians     [[yuwguwsolAf/NOUN]]',
+        'ywgwslAf        yuwguwsolAf     N       Yugoslavians     [[yuwguwsolAf/ADJ]]',
+        'ywjwslAf        yuwjuwsolAf     N       Yugoslavians     [[yuwguwsolAf/ADJ]]',
+        'ywgslAf yuwgusolAf      N       Yugoslavians     [[yuwgusolAf/NOUN]]',
+        'ywjslAf yuwjusolAf      N       Yugoslavians     [[yuwgusolAf/NOUN]]',
+        'ywgslAf yuwgusolAf      N       Yugoslavians     [[yuwgusolAf/ADJ]]',
+        'ywjslAf yuwjusolAf      N       Yugoslavians     [[yuwgusolAf/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Yugoslavian',
+        'Yugoslavians'
+      ],
+      'orig' => 'yuwguwsolAfiy~',
+      'prefix' => ''
+    }
+  ],
   'y w n ^s' => [
     {
       'types' => {},
@@ -5689,44 +5756,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yuwniysif' => [
-    {
-      'types' => {
-        'yuwnisiyf' => {
-          'N0' => 1
-        },
-        'yuwniysiyf' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'yuwniysif',
-      'form' => 'yuwniysif',
-      'lines' => [
-        ';; yuwniysif_1',
-        'ywnysf  yuwniysif       N0      UNICEF',
-        'ywnysyf yuwniysiyf      N0      UNICEF',
-        'ywnsyf  yuwnisiyf       N0      UNICEF'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'UNICEF'
-      ],
-      'orig' => 'yuwniysif',
-      'prefix' => ''
-    }
-  ],
-  'yuwnAytid' => [
+  'yAnisUn' => [
     {
       'types' => {},
-      'entry' => 'yuwnAytid',
-      'form' => 'yuwnAytid',
+      'entry' => 'yAnisuwn',
+      'form' => 'yAnisuwn',
       'lines' => [
-        ';; yuwnAyotid_1',
-        'ywnAytd yuwnAyotid      Nprop   United'
+        ';; yAnisuwn_1',
+        'yAnswn  yAnisuwn        N       aniseed;anise'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5734,9 +5771,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'United'
+        'aniseed',
+        'anise'
       ],
-      'orig' => 'yuwnAyotid',
+      'orig' => 'yAnisuwn',
       'prefix' => ''
     }
   ],
@@ -5787,19 +5825,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yuwn.g' => [
+  'yU.gUrt' => [
     {
-      'types' => {
-        'yuwn^g' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'yuwn.g',
-      'form' => 'yuwn.g',
+      'types' => {},
+      'entry' => 'yuw.guwrt',
+      'form' => 'yuw.guwrt',
       'lines' => [
-        ';; yuwnog_1',
-        'ywng    yuwnog  Nprop   Jong;Jung;Yung',
-        'ywnj    yuwnoj  Nprop   Jong;Jung;Yung'
+        ';; yuwguwrot_1',
+        'ywgwrt  yuwguwrot       N       yogurt'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5807,35 +5840,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Jong',
-        'Jung',
-        'Yung'
+        'yogurt'
       ],
-      'orig' => 'yuwnog',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'yuwn^g' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'yuwn.g',
-      'form' => 'yuwn.g',
-      'lines' => [
-        ';; yuwnog_2',
-        'ywng    yuwnog  Nprop   Young',
-        'ywnj    yuwnoj  Nprop   Young'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Young'
-      ],
-      'orig' => 'yuwnog',
+      'orig' => 'yuwguwrot',
       'prefix' => ''
     }
   ],
@@ -5869,40 +5876,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yuw.guwslAfiyA' => [
-    {
-      'types' => {
-        'yuw^guslAfiyA' => {
-          'N0' => 1
-        },
-        'yuw.guslAfiyA' => {
-          'N0' => 1
-        },
-        'yuw^guwslAfiyA' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'yuw.guwslAfiyA',
-      'form' => 'yuw.guwslAfiyA',
-      'lines' => [
-        ';; yuwguwsolAfiyA_1',
-        'ywgwslAfyA      yuwguwsolAfiyA  N0      Yugoslavia',
-        'ywjwslAfyA      yuwjuwsolAfiyA  N0      Yugoslavia',
-        'ywgslAfyA       yuwgusolAfiyA   N0      Yugoslavia',
-        'ywjslAfyA       yuwjusolAfiyA   N0      Yugoslavia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Yugoslavia'
-      ],
-      'orig' => 'yuwguwsolAfiyA',
-      'prefix' => ''
-    }
-  ],
   'yAsint' => [
     {
       'types' => {},
@@ -5921,6 +5894,27 @@ $Lexicon = {
         'hyacinth'
       ],
       'orig' => 'yAsinot',
+      'prefix' => ''
+    }
+  ],
+  'yUnAytid' => [
+    {
+      'types' => {},
+      'entry' => 'yuwnAytid',
+      'form' => 'yuwnAytid',
+      'lines' => [
+        ';; yuwnAyotid_1',
+        'ywnAytd yuwnAyotid      Nprop   United'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'United'
+      ],
+      'orig' => 'yuwnAyotid',
       'prefix' => ''
     }
   ],
@@ -5996,36 +5990,6 @@ $Lexicon = {
         'Yafa'
       ],
       'orig' => 'yAfA',
-      'prefix' => ''
-    }
-  ],
-  'yuwliyuw' => [
-    {
-      'types' => {
-        'yuwlyuwz' => {
-          'N0' => 1
-        },
-        'yuwliyah' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'yuwliyuw',
-      'form' => 'yuwliyuw',
-      'lines' => [
-        ';; yuwliyuw_1',
-        'ywlyw   yuwliyuw        N0      July',
-        'ywlyh   yuwliyah        N0      July',
-        'ywlywz  yuwloyuwz       N0      July'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'July'
-      ],
-      'orig' => 'yuwliyuw',
       'prefix' => ''
     }
   ],
@@ -6169,32 +6133,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yiltsin' => [
-    {
-      'types' => {
-        'yiltsiyn' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'yiltsin',
-      'form' => 'yiltsin',
-      'lines' => [
-        ';; yilotsin_1',
-        'yltsn   yilotsin        Nprop   Yeltsin',
-        'yltsyn  yilotsiyn       Nprop   Yeltsin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Yeltsin'
-      ],
-      'orig' => 'yilotsin',
-      'prefix' => ''
-    }
-  ],
   'yazar^g' => [
     {
       'types' => {
@@ -6221,6 +6159,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'yiltsin' => [
+    {
+      'types' => {
+        'yiltsiyn' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'yiltsin',
+      'form' => 'yiltsin',
+      'lines' => [
+        ';; yilotsin_1',
+        'yltsn   yilotsin        Nprop   Yeltsin',
+        'yltsyn  yilotsiyn       Nprop   Yeltsin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Yeltsin'
+      ],
+      'orig' => 'yilotsin',
+      'prefix' => ''
+    }
+  ],
   'y n s n' => [
     {
       'types' => {},
@@ -6240,48 +6204,6 @@ $Lexicon = {
         'anise'
       ],
       'orig' => 'yanosuwn',
-      'prefix' => ''
-    }
-  ],
-  'yAsmiyn' => [
-    {
-      'types' => {},
-      'entry' => 'yAsmiyn',
-      'form' => 'yAsmiyn',
-      'lines' => [
-        ';; yAsomiyn_1',
-        'yAsmyn  yAsomiyn        Nprop   Yasmin;Yasmeen;Jasmine'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Yasmin',
-        'Yasmeen',
-        'Jasmine'
-      ],
-      'orig' => 'yAsomiyn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'yAsmiyn',
-      'form' => 'yAsmiyn',
-      'lines' => [
-        ';; yAsomiyn_2',
-        'yAsmyn  yAsomiyn        N       jasmine'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'jasmine'
-      ],
-      'orig' => 'yAsomiyn',
       'prefix' => ''
     }
   ],
@@ -6395,14 +6317,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yAnisuwn' => [
+  'yUnskUm' => [
     {
       'types' => {},
-      'entry' => 'yAnisuwn',
-      'form' => 'yAnisuwn',
+      'entry' => 'yuwnskuwm',
+      'form' => 'yuwnskuwm',
       'lines' => [
-        ';; yAnisuwn_1',
-        'yAnswn  yAnisuwn        N       aniseed;anise'
+        ';; yuwnoskuwm_1',
+        'ywnskwm yuwnoskuwm      Nprop   UNSCOM'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6410,21 +6332,20 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'aniseed',
-        'anise'
+        'UNSCOM'
       ],
-      'orig' => 'yAnisuwn',
+      'orig' => 'yuwnoskuwm',
       'prefix' => ''
     }
   ],
-  'yuwruwmiyd' => [
+  'yUnUsfIr' => [
     {
       'types' => {},
-      'entry' => 'yuwruwmiyd',
-      'form' => 'yuwruwmiyd',
+      'entry' => 'yuwnuwsfiyr',
+      'form' => 'yuwnuwsfiyr',
       'lines' => [
-        ';; yuwruwmiyd_1',
-        'ywrwmyd yuwruwmiyd      N0      Euro-Med (European-Mediterranean)'
+        ';; yuwnuwsofiyr_1',
+        'ywnwsfyr        yuwnuwsofiyr    N0      ionosphere'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6432,9 +6353,51 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Euro-Med (European-Mediterranean)'
+        'ionosphere'
       ],
-      'orig' => 'yuwruwmiyd',
+      'orig' => 'yuwnuwsofiyr',
+      'prefix' => ''
+    }
+  ],
+  'yUrk' => [
+    {
+      'types' => {},
+      'entry' => 'yuwrk',
+      'form' => 'yuwrk',
+      'lines' => [
+        ';; yuwrk_1',
+        'ywrk    yuwrk   N0      York'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'York'
+      ],
+      'orig' => 'yuwrk',
+      'prefix' => ''
+    }
+  ],
+  'yAnA.gIsAwA' => [
+    {
+      'types' => {},
+      'entry' => 'yAnA.giysAwA',
+      'form' => 'yAnA.giysAwA',
+      'lines' => [
+        ';; yAnAgiysAwA_1',
+        'yAnAgysAwA      yAnAgiysAwA     Nprop   Yanagisawa'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Yanagisawa'
+      ],
+      'orig' => 'yAnAgiysAwA',
       'prefix' => ''
     }
   ],
@@ -6507,14 +6470,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yuwfAnuwfiyt^s' => [
+  'yUnIskU' => [
     {
-      'types' => {},
-      'entry' => 'yuwfAnuwfiyt^s',
-      'form' => 'yuwfAnuwfiyt^s',
+      'types' => {
+        'yuwniskuw' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'yuwniyskuw',
+      'form' => 'yuwniyskuw',
       'lines' => [
-        ';; yuwfAnuwfiyt$_1',
-        'ywfAnwfyt$      yuwfAnuwfiyt$   Nprop   Jovanovic;Jovanovich'
+        ';; yuwniysokuw_1',
+        'ywnyskw yuwniysokuw     N0      UNESCO',
+        'ywnskw  yuwnisokuw      N0      UNESCO'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6522,21 +6490,25 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Jovanovic',
-        'Jovanovich'
+        'UNESCO'
       ],
-      'orig' => 'yuwfAnuwfiyt$',
+      'orig' => 'yuwniysokuw',
       'prefix' => ''
     }
   ],
-  'yuwkuwhAmA' => [
+  'yUn.g' => [
     {
-      'types' => {},
-      'entry' => 'yuwkuwhAmA',
-      'form' => 'yuwkuwhAmA',
+      'types' => {
+        'yuwn^g' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'yuwn.g',
+      'form' => 'yuwn.g',
       'lines' => [
-        ';; yuwkuwhAmA_1',
-        'ywkwhAmA        yuwkuwhAmA      N0      Yokohama'
+        ';; yuwnog_1',
+        'ywng    yuwnog  Nprop   Jong;Jung;Yung',
+        'ywnj    yuwnoj  Nprop   Jong;Jung;Yung'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6544,9 +6516,35 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Yokohama'
+        'Jong',
+        'Jung',
+        'Yung'
       ],
-      'orig' => 'yuwkuwhAmA',
+      'orig' => 'yuwnog',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yuwn^g' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'yuwn.g',
+      'form' => 'yuwn.g',
+      'lines' => [
+        ';; yuwnog_2',
+        'ywng    yuwnog  Nprop   Young',
+        'ywnj    yuwnoj  Nprop   Young'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Young'
+      ],
+      'orig' => 'yuwnog',
       'prefix' => ''
     }
   ],

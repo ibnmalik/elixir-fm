@@ -9,17 +9,13 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'ikliyl" <| [
+ |> "'iklIl" <| [
 
     Identity                  `noun`    {- Iikoliyl -}         [ "halo", "corona" ],
 
     Identity                  `noun`    {- Iikoliyl -}         [ "wedding ceremony" ],
 
     Identity |< Iy            `adj`     {- Iikoliyliy~ -}      [ "coronal" ] ]
-
- |> "'uk_duwb" <| [
-
-    Identity |< aT            `noun`    {- Ouko*uwbap -}       [ "lie" ] ]
 
  |> "k ' b" <| [
 
@@ -122,6 +118,10 @@ lexicon = listing "Lexicon's properties"
     FiCL                      `noun`    {- ki*ob -}            [ "lying", "falsehood" ],
 
     FiCL |< aT                `noun`    {- ki*obap -}          [ "lie", "untruth" ],
+
+    HuFCUL |< aT              `noun`    {- Ouko*uwbap -}       [ "lie" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'akA_diyb Ndip" ] -},
 
     TaFCIL                    `noun`    {- tako*iyb -}         [ "denial", "refutation" ]
                               `plural`     TaFCIL |< At,
@@ -1088,6 +1088,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                            {- `others`  [ "'akwAm N" ] -} ]
 
+ |> "k w m d" <| [
+
+    KuRDIS |< Iy              `adj`     {- kuwmiydiy~ -}       [ "comic", "comedic" ] ]
+
  |> "k w n" <| [
 
     FAL                       `verb`    {- kAn-u -}            [ "was", "were", "is", "are" ]
@@ -1252,15 +1256,15 @@ lexicon = listing "Lexicon's properties"
 
     FaL                       `conj`    {- kay -}              [ "in order to" ] ]
 
- |> "kA_tuwliyk" <| [
+ |> "kA_tUlIk" <| [
 
     Identity |< Iy            `adj`     {- kAvuwliykiy~ -}     [ "Catholic" ] ]
 
- |> "kAbiylA" <| [
+ |> "kAbIlA" <| [
 
     Identity                  `noun`    {- kAbiylA -}          [ "Kabila" ] ]
 
- |> "kAbiyn" <| [
+ |> "kAbIn" <| [
 
     Identity |< aT            `noun`    {- kAbiynap -}         [ "cabinet", "cabinet posts" ] ]
 
@@ -1274,27 +1278,27 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kAbul -}            [ "Kabul" ] ]
 
- |> "kAfiyiyn" <| [
+ |> "kAfiyIn" <| [
 
     Identity                  `noun`    {- kAfiyiyn -}         [ "caffeine" ] ]
 
- |> "kAliyAriy" <| [
-
-    Identity                  `noun`    {- kAliyAriy -}        [ "Cagliari" ] ]
-
- |> "kAliyfuwrniyA" <| [
+ |> "kAlIfUrniyA" <| [
 
     Identity                  `noun`    {- kAliyfuwroniyA -}   [ "California" ] ]
 
- |> "kAmAt^suw" <| [
+ |> "kAliyArI" <| [
+
+    Identity                  `noun`    {- kAliyAriy -}        [ "Cagliari" ] ]
+
+ |> "kAmAt^sU" <| [
 
     Identity                  `noun`    {- kAmAt$uw -}         [ "Camacho" ] ]
 
- |> "kAmbuwdiyA" <| [
+ |> "kAmbUdiyA" <| [
 
     Identity                  `noun`    {- kAmobuwdiyA -}      [ "Cambodia", "Kampuchea" ] ]
 
- |> "kAmdiysuw" <| [
+ |> "kAmdIsU" <| [
 
     Identity                  `noun`    {- kAmodiysuw -}       [ "Camdessus" ] ]
 
@@ -1306,15 +1310,15 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kArAkAs -}          [ "Caracas" ] ]
 
- |> "kArAt^siy" <| [
+ |> "kArAt^sI" <| [
 
     Identity                  `noun`    {- kArAto$iy -}        [ "Karachi" ] ]
 
- |> "kAriybiy" <| [
+ |> "kArIbI" <| [
 
     Identity                  `noun`    {- kAriybiy -}         [ "Caribbean" ] ]
 
- |> "kArluws" <| [
+ |> "kArlUs" <| [
 
     Identity                  `noun`    {- kAroluws -}         [ "Carlos" ] ]
 
@@ -1322,13 +1326,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kArotir -}          [ "Carter" ] ]
 
- |> "kAsriylz" <| [
+ |> "kAsrIlz" <| [
 
     Identity                  `noun`    {- kAsoriylz -}        [ "Kasrils" ] ]
-
- |> "kAstrw" <| [
-
-    Identity                  `noun`    {- kAstrw -}           [ "Castro" ] ]
 
  |> "kAtidrA'" <| [
 
@@ -1337,6 +1337,174 @@ lexicon = listing "Lexicon's properties"
  |> "kAzA_hstAn" <| [
 
     Identity                  `noun`    {- kAzAxostAn -}       [ "Kazakhstan" ] ]
+
+ |> "kIlU" <| [
+
+    Identity                  `noun`    {- kiyluw -}           [ "kilo", "kilogram" ] ]
+
+ |> "kIlU^grAm" <| [
+
+    Identity                  `noun`    {- kiyluwjrAm -}       [ "kilogram" ] ]
+
+ |> "kIlUmitr" <| [
+
+    Identity                  `noun`    {- kiyluwmitr -}       [ "kilometer(s)" ] ]
+
+ |> "kIn.gstUn" <| [
+
+    Identity                  `noun`    {- kiyngostuwn -}      [ "Kingston", "Kingstown" ] ]
+
+ |> "kInIdI" <| [
+
+    Identity                  `noun`    {- kiyniydiy -}        [ "Kennedy" ] ]
+
+ |> "kIn^sAsA" <| [
+
+    Identity                  `noun`    {- kiyno$AsA -}        [ "Kinshasa" ] ]
+
+ |> "kIniyA" <| [
+
+    Identity                  `noun`    {- kiyniyA -}          [ "Kenya" ] ]
+
+ |> "kIsin^gir" <| [
+
+    Identity                  `noun`    {- kiysinojir -}       [ "Kissinger" ] ]
+
+ |> "kUbA" <| [
+
+    Identity                  `noun`    {- kuwbA -}            [ "Cuba" ] ]
+
+ |> "kUbinhA.gin" <| [
+
+    Identity                  `noun`    {- kuwbinohAgin -}     [ "Copenhagen" ] ]
+
+ |> "kUdrIn" <| [
+
+    Identity                  `noun`    {- kuwdriyn -}         [ "Kudrin" ] ]
+
+ |> "kUhlir" <| [
+
+    Identity                  `noun`    {- kuwholir -}         [ "Kohler", "Koehler" ] ]
+
+ |> "kUkA" <| [
+
+    Identity                  `noun`    {- kuwkA -}            [ "Coca" ] ]
+
+ |> "kUkAyIn" <| [
+
+    Identity                  `noun`    {- kuwkAyiyn -}        [ "cocaine" ] ]
+
+ |> "kUlA" <| [
+
+    Identity                  `noun`    {- kuwlA -}            [ "Cola" ] ]
+
+ |> "kUlIrA" <| [
+
+    Identity                  `noun`    {- kuwliyrA -}         [ "cholera" ] ]
+
+ |> "kUlUmb" <| [
+
+    Identity |< Iy            `adj`     {- kuwluwmobiy~ -}     [ "Colombian" ] ]
+
+ |> "kUlUmbiyA" <| [
+
+    Identity                  `noun`    {- kuwluwmobiyA -}     [ "Colombia", "Columbia" ] ]
+
+ |> "kUlUnIl" <| [
+
+    Identity                  `noun`    {- kuwluwniyl -}       [ "colonel" ] ]
+
+ |> "kUmunwil_t" <| [
+
+    Identity                  `noun`    {- kuwmunwilov -}      [ "Commonwealth" ] ]
+
+ |> "kUn.gU" <| [
+
+    Identity                  `noun`    {- kuwnoguw -}         [ "Congo" ] ]
+
+ |> "kUn.gUl" <| [
+
+    Identity |< Iy            `adj`     {- kuwnoguwliy~ -}     [ "Congolese" ] ]
+
+ |> "kUn^g" <| [
+
+    Identity                  `noun`    {- kuwnoj -}           [ "Kong" ] ]
+
+ |> "kUn^gris" <| [
+
+    Identity                  `noun`    {- kuwnojris -}        [ "Congress" ] ]
+
+ |> "kUn^sItA" <| [
+
+    Identity                  `noun`    {- kuwno$iytA -}       [ "Conchita" ] ]
+
+ |> "kUndUlIzA" <| [
+
+    Identity                  `noun`    {- kuwnoduwliyzA -}    [ "Condoleezza" ] ]
+
+ |> "kUnkAkAf" <| [
+
+    Identity                  `noun`    {- kuwnokAkAf -}       [ "CONCACAF (Confederation of North, Central American and Caribbean Association Football)" ] ]
+
+ |> "kUnkUrd" <| [
+
+    Identity                  `noun`    {- kuwnokuwrod -}      [ "Concorde" ] ]
+
+ |> "kUnt" <| [
+
+    Identity |< Iy |< aT      `noun`    {- kuwnotiy~ap -}      [ "county" ] ]
+
+ |> "kUrIt_hA" <| [
+
+    Identity                  `noun`    {- kuwriytoxA -}       [ "Corretja" ] ]
+
+ |> "kUrUyidUf" <| [
+
+    Identity                  `noun`    {- kuwruwyiduwf -}     [ "Kuroyedov" ] ]
+
+ |> "kUrb" <| [
+
+    Identity                  `noun`    {- kuwrob -}           [ "Corp." ] ]
+
+ |> "kUriyA" <| [
+
+    Identity                  `noun`    {- kuwriyA -}          [ "Korea" ] ]
+
+ |> "kUrnIkUfA" <| [
+
+    Identity                  `noun`    {- kuwroniykuwfA -}    [ "Kournikova" ] ]
+
+ |> "kUrsIkA" <| [
+
+    Identity                  `noun`    {- kuwrosiykA -}       [ "Corsica" ] ]
+
+ |> "kUrsk" <| [
+
+    Identity                  `noun`    {- kuwrosk -}          [ "Kursk" ] ]
+
+ |> "kUsUfU" <| [
+
+    Identity                  `noun`    {- kuwsuwfuw -}        [ "Kosovo" ] ]
+
+ |> "kUstA" <| [
+
+    Identity                  `noun`    {- kuwsotA -}          [ "Costa" ] ]
+
+ |> "kUstArIk" <| [
+
+    Identity |< Iy            `adj`     {- kuwsotAriykiy~ -}   [ "Costa Rican" ] ]
+
+ |> "kUstArIkA" <| [
+
+    Identity                  `noun`    {- kuwsotAriykA -}     [ "Costa Rica" ] ]
+
+ |> "kUtIdiyAn" <| [
+
+    Identity                  `noun`    {- kuwtiydiyAn -}      [ "Quotidien" ] ]
+
+ |> "kUtzir" <| [
+
+    Identity                  `noun`    {- kuwtozir -}         [ "Coetzer" ] ]
 
  |> "k^gm" <| [
 
@@ -1348,7 +1516,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- kahorabA}iy~ -}     [ "electrician" ] ]
 
- |> "kalA^snikuwf" <| [
+ |> "kalA^snikUf" <| [
 
     Identity                  `noun`    {- kalA$onikuwf -}     [ "Kalashnikov" ] ]
 
@@ -1372,11 +1540,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kamobrij -}         [ "Cambridge" ] ]
 
- |> "kambyuwtir" <| [
+ |> "kambyUtir" <| [
 
     Identity                  `noun`    {- kamobyuwtir -}      [ "computer" ] ]
 
- |> "kamiruwn" <| [
+ |> "kamirUn" <| [
 
     Identity                  `noun`    {- kamiruwn -}         [ "Cameroon", "Cameroun" ],
 
@@ -1394,7 +1562,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `conj`    {- kayofamA -}         [ "whichever/however" ] ]
 
- |> "kibriytiyk" <| [
+ |> "kibrItIk" <| [
 
     Identity                  `noun`    {- kibriytiyk -}       [ "sulfuric" ] ]
 
@@ -1402,43 +1570,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `part`    {- kilA -}             [ "both of", "both of them" ] ]
 
- |> "kiniysit" <| [
+ |> "kinIsit" <| [
 
     Identity                  `noun`    {- kiniysit -}         [ "Knesset" ] ]
 
- |> "kiyluw" <| [
-
-    Identity                  `noun`    {- kiyluw -}           [ "kilo", "kilogram" ] ]
-
- |> "kiyluw^grAm" <| [
-
-    Identity                  `noun`    {- kiyluwjrAm -}       [ "kilogram" ] ]
-
- |> "kiyluwmitr" <| [
-
-    Identity                  `noun`    {- kiyluwmitr -}       [ "kilometer(s)" ] ]
-
- |> "kiyn.gstuwn" <| [
-
-    Identity                  `noun`    {- kiyngostuwn -}      [ "Kingston", "Kingstown" ] ]
-
- |> "kiyn^sAsA" <| [
-
-    Identity                  `noun`    {- kiyno$AsA -}        [ "Kinshasa" ] ]
-
- |> "kiyniyA" <| [
-
-    Identity                  `noun`    {- kiyniyA -}          [ "Kenya" ] ]
-
- |> "kiyniydiy" <| [
-
-    Identity                  `noun`    {- kiyniydiy -}        [ "Kennedy" ] ]
-
- |> "kiysin^gir" <| [
-
-    Identity                  `noun`    {- kiysinojir -}       [ "Kissinger" ] ]
-
- |> "kiyuwtuw" <| [
+ |> "kiyUtU" <| [
 
     Identity                  `noun`    {- kiyuwtuw -}         [ "Kyoto" ] ]
 
@@ -1454,57 +1590,57 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- klArk -}            [ "Clark", "Klerk" ] ]
 
- |> "klAsiyk" <| [
+ |> "klAsIk" <| [
 
     Identity |< Iy            `adj`     {- klAsiykiy~ -}       [ "classic", "classical" ] ]
 
- |> "klAwdiyuw" <| [
+ |> "klAwdiyU" <| [
 
     Identity                  `noun`    {- klAwodiyuw -}       [ "Claudio" ] ]
 
- |> "kliybAnuwf" <| [
+ |> "klIbAnUf" <| [
 
     Identity                  `noun`    {- kliybAnuwf -}       [ "Klebanov" ] ]
 
- |> "kliyntuwn" <| [
+ |> "klIntUn" <| [
 
     Identity                  `noun`    {- kliynotuwn -}       [ "Clinton" ] ]
+
+ |> "klUd" <| [
+
+    Identity                  `noun`    {- kluwd -}            [ "Claude" ] ]
 
  |> "klm" <| [
 
     Identity                  `noun`    {- klm -}              [ "kilometer(s)" ] ]
 
- |> "kluwd" <| [
-
-    Identity                  `noun`    {- kluwd -}            [ "Claude" ] ]
-
  |> "krAft" <| [
 
     Identity                  `noun`    {- krAfot -}           [ "Kraft" ] ]
 
- |> "krAyzilbuwr.g" <| [
+ |> "krAyzilbUr.g" <| [
 
     Identity                  `noun`    {- krAyzilobuwrg -}    [ "Krayzelburg" ] ]
 
- |> "krimliyn" <| [
-
-    Identity                  `noun`    {- krimoliyn -}        [ "Kremlin" ] ]
-
- |> "kriy.g" <| [
+ |> "krI.g" <| [
 
     Identity                  `noun`    {- kriyg -}            [ "Craig" ] ]
 
- |> "kriys" <| [
+ |> "krIs" <| [
 
     Identity                  `noun`    {- kriys -}            [ "Chris" ] ]
 
- |> "kriystiy" <| [
+ |> "krIstI" <| [
 
     Identity                  `noun`    {- kriystiy -}         [ "Kristy" ] ]
 
- |> "kriystuwf" <| [
+ |> "krIstUf" <| [
 
     Identity                  `noun`    {- kriysotuwf -}       [ "Christoph", "Kristof" ] ]
+
+ |> "krimlIn" <| [
+
+    Identity                  `noun`    {- krimoliyn -}        [ "Kremlin" ] ]
 
  |> "kullamA" <| [
 
@@ -1528,157 +1664,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kuwAlA -}           [ "Kuala" ] ]
 
- |> "kuwAlAlambuwr" <| [
+ |> "kuwAlAlambUr" <| [
 
     Identity                  `noun`    {- kuwAlAlamobuwr -}   [ "Kuala Lumpur" ] ]
 
- |> "kuwbA" <| [
-
-    Identity                  `noun`    {- kuwbA -}            [ "Cuba" ] ]
-
- |> "kuwbinhA.gin" <| [
-
-    Identity                  `noun`    {- kuwbinohAgin -}     [ "Copenhagen" ] ]
-
- |> "kuwdriyn" <| [
-
-    Identity                  `noun`    {- kuwdriyn -}         [ "Kudrin" ] ]
-
- |> "kuwhlir" <| [
-
-    Identity                  `noun`    {- kuwholir -}         [ "Kohler", "Koehler" ] ]
-
- |> "kuwiyrtin" <| [
+ |> "kuwIrtin" <| [
 
     Identity                  `noun`    {- kuwiyrotin -}       [ "Kuerten" ] ]
-
- |> "kuwkA" <| [
-
-    Identity                  `noun`    {- kuwkA -}            [ "Coca" ] ]
-
- |> "kuwkAyiyn" <| [
-
-    Identity                  `noun`    {- kuwkAyiyn -}        [ "cocaine" ] ]
-
- |> "kuwlA" <| [
-
-    Identity                  `noun`    {- kuwlA -}            [ "Cola" ] ]
-
- |> "kuwliyrA" <| [
-
-    Identity                  `noun`    {- kuwliyrA -}         [ "cholera" ] ]
-
- |> "kuwluwmbiyA" <| [
-
-    Identity                  `noun`    {- kuwluwmobiyA -}     [ "Colombia", "Columbia" ] ]
-
- |> "kuwluwmbiyy" <| [
-
-    Identity                  `adj`     {- kuwluwmobiy~ -}     [ "Colombian" ] ]
-
- |> "kuwluwmbw" <| [
-
-    Identity                  `noun`    {- kuwluwmobw -}       [ "Colombo" ] ]
-
- |> "kuwluwniyl" <| [
-
-    Identity                  `noun`    {- kuwluwniyl -}       [ "colonel" ] ]
-
- |> "kuwmiydiyy" <| [
-
-    Identity                  `adj`     {- kuwmiydiy~ -}       [ "comic", "comedic" ] ]
-
- |> "kuwmunwil_t" <| [
-
-    Identity                  `noun`    {- kuwmunwilov -}      [ "Commonwealth" ] ]
-
- |> "kuwn.guw" <| [
-
-    Identity                  `noun`    {- kuwnoguw -}         [ "Congo" ] ]
-
- |> "kuwn.guwl" <| [
-
-    Identity |< Iy            `adj`     {- kuwnoguwliy~ -}     [ "Congolese" ] ]
-
- |> "kuwn^g" <| [
-
-    Identity                  `noun`    {- kuwnoj -}           [ "Kong" ] ]
-
- |> "kuwn^gris" <| [
-
-    Identity                  `noun`    {- kuwnojris -}        [ "Congress" ] ]
-
- |> "kuwn^siytA" <| [
-
-    Identity                  `noun`    {- kuwno$iytA -}       [ "Conchita" ] ]
-
- |> "kuwnduwliyzA" <| [
-
-    Identity                  `noun`    {- kuwnoduwliyzA -}    [ "Condoleezza" ] ]
-
- |> "kuwnkAkAf" <| [
-
-    Identity                  `noun`    {- kuwnokAkAf -}       [ "CONCACAF (Confederation of North, Central American and Caribbean Association Football)" ] ]
-
- |> "kuwnkuwrd" <| [
-
-    Identity                  `noun`    {- kuwnokuwrod -}      [ "Concorde" ] ]
-
- |> "kuwnt" <| [
-
-    Identity |< Iy |< aT      `noun`    {- kuwnotiy~ap -}      [ "county" ] ]
-
- |> "kuwrb" <| [
-
-    Identity                  `noun`    {- kuwrob -}           [ "Corp." ] ]
-
- |> "kuwriyA" <| [
-
-    Identity                  `noun`    {- kuwriyA -}          [ "Korea" ] ]
-
- |> "kuwriyt_hA" <| [
-
-    Identity                  `noun`    {- kuwriytoxA -}       [ "Corretja" ] ]
-
- |> "kuwrniykuwfA" <| [
-
-    Identity                  `noun`    {- kuwroniykuwfA -}    [ "Kournikova" ] ]
-
- |> "kuwrsiykA" <| [
-
-    Identity                  `noun`    {- kuwrosiykA -}       [ "Corsica" ] ]
-
- |> "kuwrsk" <| [
-
-    Identity                  `noun`    {- kuwrosk -}          [ "Kursk" ] ]
-
- |> "kuwruwyiduwf" <| [
-
-    Identity                  `noun`    {- kuwruwyiduwf -}     [ "Kuroyedov" ] ]
-
- |> "kuwstA" <| [
-
-    Identity                  `noun`    {- kuwsotA -}          [ "Costa" ] ]
-
- |> "kuwstAriyk" <| [
-
-    Identity |< Iy            `adj`     {- kuwsotAriykiy~ -}   [ "Costa Rican" ] ]
-
- |> "kuwstAriykA" <| [
-
-    Identity                  `noun`    {- kuwsotAriykA -}     [ "Costa Rica" ] ]
-
- |> "kuwsuwfuw" <| [
-
-    Identity                  `noun`    {- kuwsuwfuw -}        [ "Kosovo" ] ]
-
- |> "kuwtiydiyAn" <| [
-
-    Identity                  `noun`    {- kuwtiydiyAn -}      [ "Quotidien" ] ]
-
- |> "kuwtzir" <| [
-
-    Identity                  `noun`    {- kuwtozir -}         [ "Coetzer" ] ]
 
  |> "kwAn" <| [
 
@@ -1686,13 +1678,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kwAn -}             [ "Kwan" ] ]
 
- |> "kwiy.gliy" <| [
+ |> "kwI.glI" <| [
 
     Identity                  `noun`    {- kwiygoliy -}        [ "Quigley" ] ]
-
- |> "kzAfyyh" <| [
-
-    Identity                  `noun`    {- kzAfyyh -}          [ "Xavier" ] ]
 
  |> "takrAr" <| [
 

@@ -9,14 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'um_tuwl" <| [
-
-    Identity |< aT            `noun`    {- Oumovuwlap -}       [ "example", "lesson", "warning" ] ]
-
- |> "'umsiyy" <| [
-
-    Identity                  `noun`    {- Oumosiy~ -}         [ "evening", "soiree" ] ]
-
  |> "imra'" <| [
 
     Identity |< aT            `noun`    {- AimoraOap -}        [ "woman" ] ]
@@ -55,6 +47,12 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACiL
                               `plural`     FawA'iL
                            {- `others`  [ "mawA'id Ndip" ] -} ]
+
+ |> "m ' h" <| [
+
+    FAL |< Iy |< aT           `noun`    {- mAhiy~ap -}         [ "nature", "quality" ],
+
+    FAL |< Iy |< aT           `noun`    {- mAhiy~ap -}         [ "salary", "income", "pay" ] ]
 
  |> "m ' l" <| [
 
@@ -344,6 +342,10 @@ lexicon = listing "Lexicon's properties"
     FaCIL                     `noun`    {- maviyl -}           [ "equal", "match", "peer" ],
 
     FuCUL                     `noun`    {- muvuwl -}           [ "appearance", "presentation", "arraignment" ],
+
+    HuFCUL |< aT              `noun`    {- Oumovuwlap -}       [ "example", "lesson", "warning" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'amA_tiyl Ndip" ] -},
 
     HaFCaL                    `noun`    {- Oamoval -}          [ "exemplary", "ideal" ]
                               `plural`     FuCLY |< At
@@ -918,12 +920,19 @@ lexicon = listing "Lexicon's properties"
     FaC                       `part`    {- man -}              [ "who/whom" ],
 
     FuCL |< aT                `noun`    {- munoyap -}          [ "wish", "desire", "aspiration" ]
+                              `plural`     HuFCIL
                               `plural`     HaFACI
                               `plural`     FiCL |< aT
-                           {- `others`  [ "'amAniy N0_Nh" ] -},
+                           {- `others`  [ "'umniyy Napdu", "'amAniy N0_Nh" ] -},
 
     MutaFaCCI                 `noun`    {- mutaman~iy -}       [ "wishing", "desiring" ]
                               `plural`     MutaFaCCI |< At ]
+
+ |> "m q d n" <| [
+
+    KaRDUS |< Iy              `noun`    {- maqoduwniy~ -}      [ "Macedonian" ],
+
+    KaRDUS |< Iy              `adj`     {- maqoduwniy~ -}      [ "Macedonian" ] ]
 
  |> "m q l" <| [
 
@@ -1228,6 +1237,21 @@ lexicon = listing "Lexicon's properties"
 
     FaCA' |< Iy               `adj`     {- masA}iy~ -}         [ "evening" ] ]
 
+ |> "m s y" <| [
+
+    HuFCIL                    `noun`    {- Oumosiy~ -}         [ "evening", "soiree" ]
+                              `plural`     HaFACIL
+                              `plural`     HuFCIL |< At
+                           {- `others`  [ "'amAsiyy N0_Nh" ] -},
+
+    MUCY                      `noun`    {- muwsaY -}           [ "Mousa", "Moussa" ],
+
+    MUCY                      `noun`    {- muwsaY -}           [ "Moses" ],
+
+    MUCY |< Iy                `adj`     {- muwsawiy~ -}        [ "Moussaoui" ],
+
+    MUCY |< Iy                `adj`     {- muwsawiy~ -}        [ "Mosaic", "Moses" ] ]
+
  |> "m t `" <| [
 
     HaFCaL                    `verb`    {- OamotaE -}          [ "make enjoy", "furnish", "be made to enjoy" ],
@@ -1315,6 +1339,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                            {- `others`  [ "'amwA^g N" ] -} ]
 
+ |> "m w b l" <| [
+
+    KuRDIS                    `noun`    {- muwbiyl -}          [ "Mobil" ] ]
+
  |> "m w f n" <| [
 
     KuRDIS                    `noun`    {- muwfiyn -}          [ "Moven" ] ]
@@ -1371,6 +1399,16 @@ lexicon = listing "Lexicon's properties"
  |> "m w r s" <| [
 
     KuRDIS                    `noun`    {- muwriys -}          [ "Maurice", "Morris" ] ]
+
+ |> "m w s" <| [
+
+    FULY                      `noun`    {- muwsaY -}           [ "Mousa", "Moussa" ],
+
+    FULY                      `noun`    {- muwsaY -}           [ "Moses" ],
+
+    FULY |< Iy                `adj`     {- muwsawiy~ -}        [ "Moussaoui" ],
+
+    FULY |< Iy                `adj`     {- muwsawiy~ -}        [ "Mosaic", "Moses" ] ]
 
  |> "m w s d" <| [
 
@@ -1621,11 +1659,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `part`    {- mA*A -}             [ "what" ] ]
 
- |> "mA_ht^sAyyf" <| [
-
-    Identity                  `noun`    {- mAxt$Ayyf -}        [ "Makhchayev" ] ]
-
- |> "mAdliyn" <| [
+ |> "mAdlIn" <| [
 
     Identity                  `noun`    {- mAdoliyn -}         [ "Madeleine" ] ]
 
@@ -1633,13 +1667,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mAfiyA -}           [ "mafia" ] ]
 
- |> "mAhiyy" <| [
+ |> "mAkUnI" <| [
 
-    Identity |< aT            `noun`    {- mAhiy~ap -}         [ "nature", "quality" ],
+    Identity                  `noun`    {- mAkuwniy -}         [ "Makoni" ] ]
 
-    Identity |< aT            `noun`    {- mAhiy~ap -}         [ "salary", "income", "pay" ] ]
-
- |> "mAkduwnAld" <| [
+ |> "mAkdUnAld" <| [
 
     Identity                  `noun`    {- mAkoduwnAlod -}     [ "McDonald", "McDonald's" ] ]
 
@@ -1647,37 +1679,33 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mAkiyAj -}          [ "facial make-up" ] ]
 
- |> "mAkuwniy" <| [
-
-    Identity                  `noun`    {- mAkuwniy -}         [ "Makoni" ] ]
-
  |> "mAl.tA" <| [
 
     Identity                  `noun`    {- mAloTA -}           [ "Malta" ] ]
 
- |> "mAlAwiy" <| [
+ |> "mAlAwI" <| [
 
     Identity                  `noun`    {- mAlAwiy -}          [ "Malawi" ] ]
 
- |> "mAliys" <| [
+ |> "mAlIs" <| [
 
     Identity                  `noun`    {- mAliys -}           [ "Malisse" ] ]
 
- |> "mAliyziyA" <| [
-
-    Identity                  `noun`    {- mAliyziyA -}        [ "Malaysia" ] ]
-
- |> "mAliyziyy" <| [
+ |> "mAlIzIy" <| [
 
     Identity                  `adj`     {- mAliyziy~ -}        [ "Malaysian" ] ]
 
- |> "mAlkuwm" <| [
+ |> "mAlIziyA" <| [
+
+    Identity                  `noun`    {- mAliyziyA -}        [ "Malaysia" ] ]
+
+ |> "mAlkUm" <| [
 
     Identity                  `noun`    {- mAlokuwm -}         [ "Malcolm" ] ]
 
- |> "mAmiyyt" <| [
+ |> "mAnIlA" <| [
 
-    Identity                  `noun`    {- mAmiyyt -}          [ "Mamiit" ] ]
+    Identity                  `noun`    {- mAniylA -}          [ "Manila" ] ]
 
  |> "mAn^sistar" <| [
 
@@ -1687,67 +1715,219 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mAnohAtan -}        [ "Manhattan" ] ]
 
- |> "mAniylA" <| [
-
-    Identity                  `noun`    {- mAniylA -}          [ "Manila" ] ]
-
- |> "mAnuwiyl" <| [
+ |> "mAnuwIl" <| [
 
     Identity                  `noun`    {- mAnuwiyl -}         [ "Manuel" ] ]
 
- |> "mArA_tuwn" <| [
+ |> "mArA_tUn" <| [
 
     Identity                  `noun`    {- mArAvuwn -}         [ "Marathon" ],
 
     Identity                  `noun`    {- mArAvuwn -}         [ "marathon" ] ]
 
+ |> "mArInz" <| [
+
+    Identity                  `noun`    {- mAriynz -}          [ "Marines" ] ]
+
  |> "mAriyA" <| [
 
     Identity                  `noun`    {- mAriyA -}           [ "Maria" ] ]
 
- |> "mAriyAnuw" <| [
+ |> "mAriyAnU" <| [
 
     Identity                  `noun`    {- mAriyAnuw -}        [ "Mariano" ] ]
 
- |> "mAriynz" <| [
+ |> "mAriyU" <| [
 
-    Identity                  `noun`    {- mAriynz -}          [ "Marines" ] ]
+    Identity                  `noun`    {- mAriyuw -}          [ "Mario" ] ]
+
+ |> "mArtInA" <| [
+
+    Identity                  `noun`    {- mArotiynA -}        [ "Martina" ] ]
+
+ |> "mArtInIz" <| [
+
+    Identity                  `noun`    {- mArotiyniyz -}      [ "Martinez" ] ]
 
  |> "mArtin" <| [
 
     Identity                  `noun`    {- mArotin -}          [ "Martin" ] ]
 
- |> "mArtiynA" <| [
-
-    Identity                  `noun`    {- mArotiynA -}        [ "Martina" ] ]
-
- |> "mArtiyniyz" <| [
-
-    Identity                  `noun`    {- mArotiyniyz -}      [ "Martinez" ] ]
-
- |> "mAtfiyf" <| [
+ |> "mAtfIf" <| [
 
     Identity                  `noun`    {- mAtofiyf -}         [ "Matveev" ] ]
 
- |> "mAtiyuw" <| [
+ |> "mAtiyU" <| [
 
     Identity                  `noun`    {- mAtiyuw -}          [ "Mathieu" ] ]
+
+ |> "mAyU" <| [
+
+    Identity                  `noun`    {- mAyuw -}            [ "May" ] ]
 
  |> "mAykil" <| [
 
     Identity                  `noun`    {- mAyokil -}          [ "Michael" ] ]
 
- |> "mAykruwsuwft" <| [
+ |> "mAykrUsUft" <| [
 
     Identity                  `noun`    {- mAyokruwsuwft -}    [ "Microsoft" ] ]
 
- |> "mAyuw" <| [
-
-    Identity                  `noun`    {- mAyuw -}            [ "May" ] ]
-
- |> "mAyyuwh" <| [
+ |> "mAyyUh" <| [
 
     Identity                  `noun`    {- mAy~uwh -}          [ "bathing suit" ] ]
+
+ |> "mI.gAhIrtz" <| [
+
+    Identity                  `noun`    {- miygAhiyrotz -}     [ "megahertz", "MHz" ] ]
+
+ |> "mI_hA'Il" <| [
+
+    Identity                  `noun`    {- miyxA}iyl -}        [ "Mikhail" ] ]
+
+ |> "mIdAlI" <| [
+
+    Identity |< aT            `noun`    {- miydAliyap -}       [ "medal", "medallion" ] ]
+
+ |> "mIdlzbruh" <| [
+
+    Identity                  `noun`    {- miydlzobruh -}      [ "Middlesbrough" ] ]
+
+ |> "mIkAyil" <| [
+
+    Identity                  `noun`    {- miykAyil -}         [ "Mikael" ] ]
+
+ |> "mIkrUfUn" <| [
+
+    Identity                  `noun`    {- miykoruwfuwn -}     [ "microphone" ] ]
+
+ |> "mIlAnU" <| [
+
+    Identity                  `noun`    {- miylAnuw -}         [ "Milano", "Milan" ] ]
+
+ |> "mIlI.gInI" <| [
+
+    Identity                  `noun`    {- miyliygiyniy -}     [ "Meligeni" ] ]
+
+ |> "mIlI^siyA" <| [
+
+    Identity                  `noun`    {- miyliy$iyA -}       [ "militia" ] ]
+
+ |> "mIlImitr" <| [
+
+    Identity                  `noun`    {- miyliymitr -}       [ "millimeter" ] ]
+
+ |> "mIlUdrAmA" <| [
+
+    Identity                  `adj`     {- miyluwdrAmA -}      [ "melodrama", "melodramatic" ] ]
+
+ |> "mIlz" <| [
+
+    Identity                  `noun`    {- miyloz -}           [ "Mills" ] ]
+
+ |> "mInIsUtA" <| [
+
+    Identity                  `noun`    {- miyniysuwtA -}      [ "Minnesota" ] ]
+
+ |> "mIndAnAw" <| [
+
+    Identity                  `noun`    {- miynodAnAw -}       [ "Mindanao" ] ]
+
+ |> "mIr.gan" <| [
+
+    Identity |< Iy            `adj`     {- miyroganiy~ -}      [ "Mirghani" ] ]
+
+ |> "mIrU" <| [
+
+    Identity                  `noun`    {- miyruw -}           [ "Miro" ] ]
+
+ |> "mIrnyI" <| [
+
+    Identity                  `noun`    {- miyronyiy -}        [ "Mirnyi" ] ]
+
+ |> "mIt^sil" <| [
+
+    Identity                  `noun`    {- miyto$il -}         [ "Mitchell" ] ]
+
+ |> "mU.gAbI" <| [
+
+    Identity                  `noun`    {- muwgAbiy -}         [ "Mugabe" ] ]
+
+ |> "mUdIn.gI" <| [
+
+    Identity                  `noun`    {- muwdiynogiy -}      [ "Mudenge" ] ]
+
+ |> "mUnAkU" <| [
+
+    Identity                  `noun`    {- muwnAkuw -}         [ "Monaco" ] ]
+
+ |> "mUndiyAl" <| [
+
+    Identity                  `noun`    {- muwnodiyAl -}       [ "Mondial (World Cup)" ],
+
+    Identity |< Iy            `adj`     {- muwnodiyAliy~ -}    [ "Mondial (World Cup)" ] ]
+
+ |> "mUntInI.grU" <| [
+
+    Identity                  `noun`    {- muwnotiyniygoruw -} [ "Montenegro" ] ]
+
+ |> "mUntUbAn" <| [
+
+    Identity                  `noun`    {- muwnotuwbAn -}      [ "Montauban" ] ]
+
+ |> "mUntriyAl" <| [
+
+    Identity                  `noun`    {- muwnotriyAl -}      [ "Montreal" ] ]
+
+ |> "mUrAtInUs" <| [
+
+    Identity                  `noun`    {- muwrAtiynuws -}     [ "Moratinos" ] ]
+
+ |> "mUrItAn" <| [
+
+    Identity |< Iy            `adj`     {- muwriytAniy~ -}     [ "Mauritanian" ] ]
+
+ |> "mUrItAniyA" <| [
+
+    Identity                  `noun`    {- muwriytAniyA -}     [ "Mauritania" ] ]
+
+ |> "mUrUmbI" <| [
+
+    Identity                  `noun`    {- muwruwmobiy -}      [ "Morumbi" ] ]
+
+ |> "mUrdi_hAy" <| [
+
+    Identity                  `noun`    {- muwrodixAy -}       [ "Mordechai" ] ]
+
+ |> "mUrs" <| [
+
+    Identity                  `noun`    {- muwrs -}            [ "Morse" ] ]
+
+ |> "mUsIqAr" <| [
+
+    Identity                  `noun`    {- muwsiyqAr -}        [ "musician" ] ]
+
+ |> "mUsIqY" <| [
+
+    Identity                  `noun`    {- muwsiyqaY -}        [ "music" ] ]
+
+ |> "mUskU" <| [
+
+    Identity                  `noun`    {- muwsokuw -}         [ "Moscow" ] ]
+
+ |> "mUtUrz" <| [
+
+    Identity                  `noun`    {- muwtuwrz -}         [ "Motors" ] ]
+
+ |> "mUyA" <| [
+
+    Identity                  `noun`    {- muwyA -}            [ "Moya" ] ]
+
+ |> "mUzambIq" <| [
+
+    Identity                  `noun`    {- muwzamobiyq -}      [ "Mozambique" ],
+
+    Identity |< Iy            `adj`     {- muwzamobiyqiy~ -}   [ "Mozambican" ] ]
 
  |> "mahmA" <| [
 
@@ -1757,7 +1937,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mahorajAn -}        [ "festival" ] ]
 
- |> "maksiykuw" <| [
+ |> "maksIkU" <| [
 
     Identity                  `noun`    {- makosiykuw -}       [ "Mexico" ] ]
 
@@ -1765,21 +1945,15 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- malAriyA -}         [ "malaria" ] ]
 
- |> "malakuwt" <| [
+ |> "malakUt" <| [
 
     Identity                  `noun`    {- malakuwt -}         [ "kingdom" ] ]
 
- |> "maqadiy^suw" <| [
+ |> "maqadI^sU" <| [
 
     Identity                  `noun`    {- maqadiy$uw -}       [ "Mogadishu" ] ]
 
- |> "maqduwniyy" <| [
-
-    Identity                  `noun`    {- maqoduwniy~ -}      [ "Macedonian" ],
-
-    Identity                  `adj`     {- maqoduwniy~ -}      [ "Macedonian" ] ]
-
- |> "marsiyliyA" <| [
+ |> "marsIliyA" <| [
 
     Identity                  `noun`    {- marosiyliyA -}      [ "Marseille" ] ]
 
@@ -1787,7 +1961,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `conj`    {- mivolamA -}         [ "like", "as" ] ]
 
- |> "miliyyit" <| [
+ |> "milIyit" <| [
 
     Identity                  `noun`    {- miliyyit -}         [ "Milliyet" ] ]
 
@@ -1797,7 +1971,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `prep`    {- mim~A -}            [ "from + what" ] ]
 
- |> "minA.hiym" <| [
+ |> "minA.hIm" <| [
 
     Identity                  `noun`    {- minAHiym -}         [ "Menahem" ] ]
 
@@ -1805,83 +1979,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- minoyA -}           [ "Minya" ] ]
 
- |> "mitruw" <| [
+ |> "mitrU" <| [
 
     Identity                  `noun`    {- mitoruw -}          [ "metro", "subway" ] ]
 
- |> "miy.gAhiyrtz" <| [
-
-    Identity                  `noun`    {- miygAhiyrotz -}     [ "megahertz", "MHz" ] ]
-
- |> "miy_hA'iyl" <| [
-
-    Identity                  `noun`    {- miyxA}iyl -}        [ "Mikhail" ] ]
-
- |> "miydAliy" <| [
-
-    Identity |< aT            `noun`    {- miydAliyap -}       [ "medal", "medallion" ] ]
-
- |> "miydlzbruh" <| [
-
-    Identity                  `noun`    {- miydlzobruh -}      [ "Middlesbrough" ] ]
-
- |> "miykAyil" <| [
-
-    Identity                  `noun`    {- miykAyil -}         [ "Mikael" ] ]
-
- |> "miykruwfuwn" <| [
-
-    Identity                  `noun`    {- miykoruwfuwn -}     [ "microphone" ] ]
-
- |> "miylAnuw" <| [
-
-    Identity                  `noun`    {- miylAnuw -}         [ "Milano", "Milan" ] ]
-
- |> "miyliy.giyniy" <| [
-
-    Identity                  `noun`    {- miyliygiyniy -}     [ "Meligeni" ] ]
-
- |> "miyliy^siyA" <| [
-
-    Identity                  `noun`    {- miyliy$iyA -}       [ "militia" ] ]
-
- |> "miyliymitr" <| [
-
-    Identity                  `noun`    {- miyliymitr -}       [ "millimeter" ] ]
-
- |> "miyluwdrAmA" <| [
-
-    Identity                  `adj`     {- miyluwdrAmA -}      [ "melodrama", "melodramatic" ] ]
-
- |> "miylz" <| [
-
-    Identity                  `noun`    {- miyloz -}           [ "Mills" ] ]
-
- |> "miyndAnAw" <| [
-
-    Identity                  `noun`    {- miynodAnAw -}       [ "Mindanao" ] ]
-
- |> "miyniysuwtA" <| [
-
-    Identity                  `noun`    {- miyniysuwtA -}      [ "Minnesota" ] ]
-
- |> "miyr.gan" <| [
-
-    Identity |< Iy            `adj`     {- miyroganiy~ -}      [ "Mirghani" ] ]
-
- |> "miyrnyiy" <| [
-
-    Identity                  `noun`    {- miyronyiy -}        [ "Mirnyi" ] ]
-
- |> "miyruw" <| [
-
-    Identity                  `noun`    {- miyruw -}           [ "Miro" ] ]
-
- |> "miyt^sil" <| [
-
-    Identity                  `noun`    {- miyto$il -}         [ "Mitchell" ] ]
-
- |> "miyuwniy_h" <| [
+ |> "miyUnI_h" <| [
 
     Identity                  `noun`    {- miyuwniyx -}        [ "Munich" ] ]
 
@@ -1893,99 +1995,15 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mul~A -}            [ "Mulla" ] ]
 
- |> "mun.guwliyA" <| [
+ |> "mun.gUliyA" <| [
 
     Identity                  `noun`    {- munoguwliyA -}      [ "Mongolia" ] ]
 
- |> "munastiyr" <| [
+ |> "munastIr" <| [
 
     Identity                  `noun`    {- munastiyr -}        [ "Monastir" ] ]
-
- |> "muw.gAbiy" <| [
-
-    Identity                  `noun`    {- muwgAbiy -}         [ "Mugabe" ] ]
-
- |> "muwdiyn.giy" <| [
-
-    Identity                  `noun`    {- muwdiynogiy -}      [ "Mudenge" ] ]
-
- |> "muwnAkuw" <| [
-
-    Identity                  `noun`    {- muwnAkuw -}         [ "Monaco" ] ]
-
- |> "muwndiyAl" <| [
-
-    Identity                  `noun`    {- muwnodiyAl -}       [ "Mondial (World Cup)" ],
-
-    Identity |< Iy            `adj`     {- muwnodiyAliy~ -}    [ "Mondial (World Cup)" ] ]
-
- |> "muwntiyniy.gruw" <| [
-
-    Identity                  `noun`    {- muwnotiyniygoruw -} [ "Montenegro" ] ]
-
- |> "muwntriyAl" <| [
-
-    Identity                  `noun`    {- muwnotriyAl -}      [ "Montreal" ] ]
-
- |> "muwntuwbAn" <| [
-
-    Identity                  `noun`    {- muwnotuwbAn -}      [ "Montauban" ] ]
-
- |> "muwrAtiynuws" <| [
-
-    Identity                  `noun`    {- muwrAtiynuws -}     [ "Moratinos" ] ]
-
- |> "muwrdi_hAy" <| [
-
-    Identity                  `noun`    {- muwrodixAy -}       [ "Mordechai" ] ]
-
- |> "muwriytAn" <| [
-
-    Identity |< Iy            `adj`     {- muwriytAniy~ -}     [ "Mauritanian" ] ]
-
- |> "muwriytAniyA" <| [
-
-    Identity                  `noun`    {- muwriytAniyA -}     [ "Mauritania" ] ]
-
- |> "muwrs" <| [
-
-    Identity                  `noun`    {- muwrs -}            [ "Morse" ] ]
-
- |> "muwruwmbiy" <| [
-
-    Identity                  `noun`    {- muwruwmobiy -}      [ "Morumbi" ] ]
-
- |> "muwsiyqAr" <| [
-
-    Identity                  `noun`    {- muwsiyqAr -}        [ "musician" ] ]
-
- |> "muwsiyqY" <| [
-
-    Identity                  `noun`    {- muwsiyqaY -}        [ "music" ] ]
-
- |> "muwskuw" <| [
-
-    Identity                  `noun`    {- muwsokuw -}         [ "Moscow" ] ]
-
- |> "muwtuwrz" <| [
-
-    Identity                  `noun`    {- muwtuwrz -}         [ "Motors" ] ]
-
- |> "muwyA" <| [
-
-    Identity                  `noun`    {- muwyA -}            [ "Moya" ] ]
-
- |> "muwzambiyq" <| [
-
-    Identity                  `noun`    {- muwzamobiyq -}      [ "Mozambique" ],
-
-    Identity |< Iy            `adj`     {- muwzamobiyqiy~ -}   [ "Mozambican" ] ]
 
  |> "mylAn" <| [
 
     Identity                  `noun`    {- mylAn -}            [ "Milan" ] ]
-
- |> "mylw^syfyt^s" <| [
-
-    Identity                  `noun`    {- mylw$yfyt$ -}       [ "Milosevic" ] ]
 

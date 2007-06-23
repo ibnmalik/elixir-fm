@@ -6,6 +6,28 @@ package Elixir::Data::Buckwalter::Lexicon00;
 
 
 $Lexicon = {
+  '\'Ih' => [
+    {
+      'types' => {},
+      'entry' => '\'iyh',
+      'form' => '\'iyh',
+      'lines' => [
+        ';; <iyh_1',
+        '<yh     <iyh    FW      A.     [[>ay/ABBREV]]',
+        'Ayh     <iyh    FW      A.     [[>ay/ABBREV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'A.'
+      ],
+      'orig' => 'Iiyh',
+      'prefix' => ''
+    }
+  ],
   '.t' => [
     {
       'types' => {},
@@ -174,27 +196,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'dabilyuw' => [
-    {
-      'types' => {},
-      'entry' => 'dabilyuw',
-      'form' => 'dabilyuw',
-      'lines' => [
-        ';; dabiloyuw_1',
-        'dblyw   dabiloyuw       N0      W.'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'W.'
-      ],
-      'orig' => 'dabiloyuw',
-      'prefix' => ''
-    }
-  ],
   't' => [
     {
       'types' => {},
@@ -334,6 +335,27 @@ $Lexicon = {
         '26th'
       ],
       'orig' => 'D',
+      'prefix' => ''
+    }
+  ],
+  'dabilyU' => [
+    {
+      'types' => {},
+      'entry' => 'dabilyuw',
+      'form' => 'dabilyuw',
+      'lines' => [
+        ';; dabiloyuw_1',
+        'dblyw   dabiloyuw       N0      W.'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'W.'
+      ],
+      'orig' => 'dabiloyuw',
       'prefix' => ''
     }
   ],
@@ -734,28 +756,6 @@ $Lexicon = {
         'M.'
       ],
       'orig' => 'Iim',
-      'prefix' => ''
-    }
-  ],
-  '\'iyh' => [
-    {
-      'types' => {},
-      'entry' => '\'iyh',
-      'form' => '\'iyh',
-      'lines' => [
-        ';; <iyh_1',
-        '<yh     <iyh    FW      A.     [[>ay/ABBREV]]',
-        'Ayh     <iyh    FW      A.     [[>ay/ABBREV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'A.'
-      ],
-      'orig' => 'Iiyh',
       'prefix' => ''
     }
   ],

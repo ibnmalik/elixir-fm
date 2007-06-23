@@ -896,7 +896,7 @@ lexicon = listing "Lexicon's properties"
 
     MutaFACiL                 `noun`    {- mutajAnis -}        [ "homogeneous", "related" ] ]
 
- |> "^g n w" <| [
+ |> "^g n y" <| [
 
     FaCY                      `verb`    {- janaY-i -}          [ "commit a crime", "be committed (crime)" ]
                               `imperf`     FCI,
@@ -904,9 +904,15 @@ lexicon = listing "Lexicon's properties"
     FaCY                      `verb`    {- janaY-i -}          [ "harvest", "collect" ]
                               `imperf`     FCI,
 
+    FaCL                      `noun`    {- janoy -}            [ "harvest" ]
+                              `plural`     FaCY |< At,
+
     FaCY                      `noun`    {- janaY -}            [ "fruits" ]
                               `plural`     HaFCA'
                            {- `others`  [ "'a^gnA' Nh N0_Nh Nhy" ] -},
+
+    FiCAL |< aT               `noun`    {- jinAyap -}          [ "crime", "felony", "penal code" ]
+                              `plural`     FiCAL |< At,
 
     FiCA' |< Iy               `adj`     {- jinA}iy~ -}         [ "criminal", "penal" ],
 
@@ -915,18 +921,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FACI |< At,
 
     MaFCIy                    `adj`     {- majoniy~ -}         [ "victimized", "aggrieved" ] ]
-
- |> "^g n y" <| [
-
-    FaCL                      `noun`    {- janoy -}            [ "harvest" ]
-                              `plural`     FaCY |< At,
-
-    FiCAL |< aT               `noun`    {- jinAyap -}          [ "crime", "felony", "penal code" ]
-                              `plural`     FiCAL |< At,
-
-    FACI                      `noun`    {- jAniy -}            [ "delinquent", "criminal" ]
-                              `plural`     FuCY |< aT
-                              `plural`     FACI |< At ]
 
  |> "^g n z" <| [
 
@@ -1571,19 +1565,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- jAlA -}             [ "Jala" ] ]
 
- |> "^gAmuw" <| [
+ |> "^gAmU" <| [
 
     Identity                  `noun`    {- jAmuw -}            [ "Jammu" ] ]
 
- |> "^gAnfiy" <| [
+ |> "^gAnfI" <| [
 
     Identity                  `noun`    {- jAnfiy -}           [ "January" ] ]
 
- |> "^gAnfrAnkuw" <| [
+ |> "^gAnfrAnkU" <| [
 
     Identity                  `noun`    {- jAnofrAnokuw -}     [ "Gianfranco" ] ]
 
- |> "^gAnluwkA" <| [
+ |> "^gAnlUkA" <| [
 
     Identity                  `noun`    {- jAnoluwkA -}        [ "Gianluca" ] ]
 
@@ -1595,7 +1589,55 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- jArodiyAn -}        [ "Guardian" ] ]
 
- |> "^gabra'iyl" <| [
+ |> "^gIbUtI" <| [
+
+    Identity                  `noun`    {- jiybuwtiy -}        [ "Djibouti" ] ]
+
+ |> "^gIrUzAlIm" <| [
+
+    Identity                  `noun`    {- jiyruwzAliym -}     [ "Jerusalem" ] ]
+
+ |> "^gUhAnisbUr^g" <| [
+
+    Identity                  `noun`    {- juwhAnisobuwrj -}   [ "Johannesburg" ] ]
+
+ |> "^gUliyU" <| [
+
+    Identity                  `noun`    {- juwliyuw -}         [ "Giulio", "Julio" ] ]
+
+ |> "^gUn.g" <| [
+
+    Identity                  `noun`    {- juwnog -}           [ "Jong" ] ]
+
+ |> "^gUniyUr" <| [
+
+    Identity                  `noun`    {- juwniyuwr -}        [ "Junior" ] ]
+
+ |> "^gUnsUn" <| [
+
+    Identity                  `noun`    {- juwnosuwn -}        [ "Johnson" ] ]
+
+ |> "^gUnz" <| [
+
+    Identity                  `noun`    {- juwnoz -}           [ "Jones" ] ]
+
+ |> "^gUr^g" <| [
+
+    Identity                  `noun`    {- juwroj -}           [ "George" ] ]
+
+ |> "^gUr^giyA" <| [
+
+    Identity                  `noun`    {- juwrojiyA -}        [ "Georgia" ] ]
+
+ |> "^gUrnAl" <| [
+
+    Identity                  `noun`    {- juwronAl -}         [ "Journal" ] ]
+
+ |> "^gUzIfA" <| [
+
+    Identity                  `noun`    {- juwziyfA -}         [ "Josefa" ] ]
+
+ |> "^gabra'Il" <| [
 
     Identity                  `noun`    {- jabora}iyl -}       [ "Jibril", "Gabriel" ] ]
 
@@ -1611,33 +1653,25 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- januwA -}           [ "Genoa" ] ]
 
+ |> "^ginIf" <| [
+
+    Identity                  `noun`    {- jiniyf -}           [ "Geneva" ] ]
+
+ |> "^ginIn" <| [
+
+    Identity                  `noun`    {- jiniyn -}           [ "Jenin" ] ]
+
  |> "^ginirAl" <| [
 
     Identity                  `noun`    {- jinirAl -}          [ "General" ],
 
     Identity                  `noun`    {- jinirAl -}          [ "general" ] ]
 
- |> "^giniyf" <| [
-
-    Identity                  `noun`    {- jiniyf -}           [ "Geneva" ] ]
-
- |> "^giniyn" <| [
-
-    Identity                  `noun`    {- jiniyn -}           [ "Jenin" ] ]
-
  |> "^giyAn.g" <| [
 
     Identity                  `noun`    {- jiyAnog -}          [ "Jiyang" ] ]
 
- |> "^giybuwtiy" <| [
-
-    Identity                  `noun`    {- jiybuwtiy -}        [ "Djibouti" ] ]
-
- |> "^giyruwzAliym" <| [
-
-    Identity                  `noun`    {- jiyruwzAliym -}     [ "Jerusalem" ] ]
-
- |> "^giyuwluw^g" <| [
+ |> "^giyUlU^g" <| [
 
     Identity |< Iy            `adj`     {- jiyuwluwjiy~ -}     [ "geological", "geologist" ] ]
 
@@ -1645,11 +1679,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- jrAm -}             [ "gram" ] ]
 
- |> "^grAniyt" <| [
+ |> "^grAnIt" <| [
 
     Identity                  `noun`    {- jrAniyt -}          [ "granite" ] ]
 
- |> "^griynit^s" <| [
+ |> "^grInit^s" <| [
 
     Identity                  `noun`    {- jriynito$ -}        [ "Greenwich" ] ]
 
@@ -1665,55 +1699,15 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- junoblAT -}         [ "Jumblatt" ] ]
 
- |> "^guwAtiymAlA" <| [
+ |> "^guwAtImAlA" <| [
 
     Identity                  `noun`    {- juwAtiymAlA -}      [ "Guatemala" ] ]
 
- |> "^guwhAnisbuwr^g" <| [
-
-    Identity                  `noun`    {- juwhAnisobuwrj -}   [ "Johannesburg" ] ]
-
- |> "^guwiyliy" <| [
+ |> "^guwIlI" <| [
 
     Identity                  `noun`    {- juwiyliy -}         [ "July" ] ]
 
- |> "^guwliyuw" <| [
-
-    Identity                  `noun`    {- juwliyuw -}         [ "Giulio", "Julio" ] ]
-
- |> "^guwn.g" <| [
-
-    Identity                  `noun`    {- juwnog -}           [ "Jong" ] ]
-
- |> "^guwniyuwr" <| [
-
-    Identity                  `noun`    {- juwniyuwr -}        [ "Junior" ] ]
-
- |> "^guwnsuwn" <| [
-
-    Identity                  `noun`    {- juwnosuwn -}        [ "Johnson" ] ]
-
- |> "^guwnz" <| [
-
-    Identity                  `noun`    {- juwnoz -}           [ "Jones" ] ]
-
- |> "^guwr^g" <| [
-
-    Identity                  `noun`    {- juwroj -}           [ "George" ] ]
-
- |> "^guwr^giyA" <| [
-
-    Identity                  `noun`    {- juwrojiyA -}        [ "Georgia" ] ]
-
- |> "^guwrnAl" <| [
-
-    Identity                  `noun`    {- juwronAl -}         [ "Journal" ] ]
-
- |> "^guwziyfA" <| [
-
-    Identity                  `noun`    {- juwziyfA -}         [ "Josefa" ] ]
-
- |> "^gwAntanAmuw" <| [
+ |> "^gwAntanAmU" <| [
 
     Identity                  `noun`    {- jwAnotanAmuw -}     [ "Guantanamo" ] ]
 

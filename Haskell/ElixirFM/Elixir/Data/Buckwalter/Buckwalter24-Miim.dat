@@ -27,7 +27,7 @@ mA}wy   miA}awiy~       Nall    one-hundred;hundreth;percentage     <pos>mi}awiy
 ;
 ;--- mAt
 ; Italian soccer player Giuseppe Mazzarelli
-;; mAtsArylly_1
+;; mAtsAriylliy_1
 mAtsArylly      mAtosArylly     Nprop   Mazzarelli
 ;
 ;; mAto$AlA_1
@@ -55,7 +55,7 @@ mAjyk   mAjiyk  Nprop   Magic
 ;
 ;--- mAx
 ; Grozny mayor Supyan (*byAn) Makhchayev
-;; mAxt$Ayyf_1
+;; mAxt$Ayiyf_1
 mAxt$Ayyf       mAxt$Ayyf       Nprop   Makhchayev
 ;
 ;; mAxolAs_1
@@ -92,7 +92,7 @@ mArAvwn mArAvuwn        N0      Marathon
 ;; mArAvuwn_2
 mArAvwn mArAvuwn        N       marathon
 ;
-;; mArAdwnA_1
+;; mArAduwnA_1
 mArAdwnA        mArAdwnA        Nprop   Maradona
 ;
 ;--- mArt
@@ -140,9 +140,9 @@ mArksy  mArokisiy~      Nall    Marxist     <pos>mArokisiy~/ADJ</pos>
 ;; mArokisiy~ap_1
 mArksy  mArokisiy~      NapAt   Marxism     <pos>mArokisiy~/NOUN</pos>
 ;
-;; mArkws_1
+;; mArkuws_1
 mArkws  mArkws  Nprop   Marcos
-;; mArkws_2
+;; mArkuws_2
 mArkws  mArkws  Nprop   Markus
 ;
 ;; mArokuwfiyt$_1
@@ -163,7 +163,7 @@ mAryjwAnA       mAriyjuwAnA     N0      marijuana
 ;; mAriynz_1
 mArynz  mAriynz N0      Marines
 ;
-;; mAryw_1
+;; mAriyuw_1
 mAryw   mAryw   Nprop   Mario
 ;
 ;--- mAz
@@ -191,7 +191,7 @@ mAsy    mAsiy~  N-ap    diamond     <pos>mAsiy~/ADJ</pos>
 ;; mAsotiroz_1
 mAstrz  mAsotiroz       N0      Masters
 ;
-;--- mAsw
+; ;--- mAsw
 ;; mAsuwxiy~_1
 mAswxy  mAsuwxiy~       Nall    masochist     <pos>mAsuwxiy~/ADJ</pos>
 mAswxy  mAsuwxiy~       Nap     masochism     <pos>mAsuwxiy~/NOUN</pos>
@@ -226,7 +226,7 @@ mAZ     mAZ     NapAt   appetizers
 ;
 ;--- mAg
 ; Swiss athlete Magali Messmer
-;; mAgAly_1
+;; mAgAliy_1
 mAgAly  mAgAly  N0      Magali
 ;
 ;--- mAf
@@ -269,7 +269,7 @@ mAks    mAkos   Nprop   Max
 mAkmAhwn        mAkomAhuwn      Nprop   McMahon
 ;
 ;--- mAkn
-;; mAkntw$_1
+;; mAkintuw$_1
 mAkntw$ mAkntw$ Nprop   Macintosh
 ;
 ;--- mAkw
@@ -341,7 +341,7 @@ mAmwv   mAmuwv  N       mammoth
 ;
 ;--- mAmy
 ; US tennis player Cecil Mamiit
-;; mAmiyyt_1
+;; mAmiyiyt_1
 mAmyyt  mAmiyyt Nprop   Mamiit
 ;
 ;--- mAn
@@ -388,7 +388,7 @@ mAn$str mAno$isotar     Nprop   Manchester
 ;; mAnohAtan_1
 mAnhAtn mAnohAtan       N0      Manhattan
 ;
-;--- mAnw
+; ;--- mAnw
 ;; mAnuw$ir_1
 mAnw$r  mAnuw$ir        Nprop   Manusher
 ;
@@ -403,7 +403,7 @@ mAnwy   mAnawiy~        Nap     Manichaeism     <pos>mAnawiy~/NOUN</pos>
 ;; mAnuwiyl_1
 mAnwyl  mAnuwiyl        Nprop   Manuel
 ;
-;--- mAny
+; ;--- mAny
 ;; mAniyfAtuwrap_1
 mAnyfAtwr       mAniyfAtuwr     Nap     manufactured goods;textiles
 ;
@@ -423,7 +423,7 @@ mAnylA  mAniylA N0      Manila
 mAnyly  mAniyliy~       Nall    Manilan     <pos>mAniyliy~/NOUN</pos>
 mAnyly  mAniyliy~       Nall    Manilan     <pos>mAniyliy~/ADJ</pos>
 ;
-;--- mAhy
+; ;--- mAhy
 ;; mAhiy~ap_1
 mAhy    mAhiy~  NapAt   nature;quality     <pos>mAhiy~/NOUN</pos>
 ;; mAhiy~ap_2
@@ -438,7 +438,7 @@ mAw     mAw     Nprop   Mao
 mAy     mAy     Nprop   May
 ;
 ;--- mAys
-;; mAyisotrw_1
+;; mAyisotruw_1
 mAystrw mAyisotrw       N0      maestro;conductor
 ;
 ;--- mAyk
@@ -863,7 +863,7 @@ mAjn    mAjin   Ndu     cistern
 mwAjn   mawAjin Ndip    cisterns
 ;
 ;--- mjny
-;; majoniyziywm_1
+;; majoniyziyuwm_1
 mjnyzywm        majoniyziywm    N0      magnesium
 mgnyzywm        magoniyziywm    N0      magnesium
 ;
@@ -1344,7 +1344,7 @@ mstmd   musotamad~      N-ap    taken;derived     <pos>musotamad~/ADJ</pos>
 ;--- mdAl
 ;; madAliyap_1
 mdAly   madAliy NapAt   medal
-;; madAliywn_1
+;; madAliyuwn_1
 mdAlywn madAliywn       N0      medallion
 ;
 ;--- mdAm
@@ -2218,6 +2218,7 @@ mrA'    mirA'   N0_Nh   quarrel;dispute
 mrA&    mirA&   Nh      quarrel;dispute
 mrA}    mirA}   Nhy     quarrel;dispute
 ;
+;--- mr
 ;; miriy~_1
 mry     miriy~  N0      Meri;Miri
 ;
@@ -2621,7 +2622,7 @@ mskn    masokan Nap     poverty;humility
 mskyn   misokiyn        Nall    poor;humble;miserable
 msAkyn  masAkiyn        Ndip    poor;humble;miserable
 ;
-;--- mskw
+; ;--- mskw
 ;; musokuw_1
 mskw    musokuw N0      Moscow
 ;; musokuwfiy~_1
@@ -3658,7 +3659,7 @@ mmqwt   mamoquwt        Nall    hated;loathsome     <pos>mamoquwt/ADJ</pos>
 ;; maqoduwnis_1
 mqdwns  maqoduwnis      N       parsley
 ;
-;--- mqdwny
+; ;--- mqdwny
 ;; maqoduwniyA_1
 mqdwnyA maqoduwniyA     N0      Macedonia
 mkdwnyA makoduwniyA     N0      Macedonia
@@ -4042,14 +4043,14 @@ mmtl}   mumotali}       Nall    full;replete
 ;; malAriyA_1
 mlAryA  malAriyA        N0      malaria
 ;
-;--- mlAw
+; ;--- mlAw
 ;; malAwiy_1
 mlAwy   malAwiy N0      Malawi
 ;; malAwiy~_1
 mlAwy   malAwiy~        Nall    Malawian     <pos>malAwiy~/NOUN</pos>
 mlAwy   malAwiy~        Nall    Malawian     <pos>malAwiy~/ADJ</pos>
 ;
-;--- mlAy
+; ;--- mlAy
 ;; malAyuw_1
 mlAyw   malAyuw N0      Malay
 ;; malAyuw_2
@@ -5091,7 +5092,7 @@ mwArtn  muwArotin       Nprop   Moarten
 mwbwtw  muwbuwtuw       Nprop   Mobutu
 ;
 ;--- mwby
-;; mwbyl_1
+;; muwbiyl_1
 mwbyl   mwbyl   Nprop   Mobil
 ;
 ;; muwbiyliyA_1
@@ -5313,7 +5314,7 @@ mwrytAny        muwriytAniy~    Nall    Mauritanian     <pos>muwriytAniy~/ADJ</p
 ;; muwriys_1
 mwrys   muwriys Nprop   Maurice;Morris
 ;
-;; muwriyskw_1
+;; muwriyskuw_1
 mwryskw muwriyskw       N0      Morisco
 ;; muwriyskiy~_1
 mwrysky muwriyskiy~     Nall    Morisco     <pos>muwriyskiy~/NOUN</pos>
@@ -5366,7 +5367,7 @@ mwsAd   muwsAd  N0      Mossad
 mwstAr  muwsotAr        Nprop   Mostar
 mwstr   muwsotar        Nprop   Mostar
 ;
-;--- mwsy
+; ;--- mwsy
 ;; muwsaY_1
 mwsY    muwsaY  Nprop   Mousa;Moussa
 ;; muwsaY_2
@@ -5729,7 +5730,7 @@ mydAny  mayodAniy~      NF      in the military field;militarily     <pos>mayodA
 ;; miydAliyap_1
 mydAly  miydAliy        NapAt   medal;medallion
 ;
-;--- mydAw
+; ;--- mydAw
 ;; miydAwiy~_1
 mydAwy  miydAwiy~       N0      Midaoui;Midawi
 ;
@@ -5883,7 +5884,7 @@ mmtAz   mumotAz N-ap    privileged;favored     <pos>mumotAz/ADJ</pos>
 ;; miyzAniyn_1
 myzAnyn miyzAniyn       N0      mezzanine
 ;
-;--- myzw
+; ;--- myzw
 ;; miyzuwbuwtAmiyA_1
 myzwbwtAmyA     miyzuwbuwtAmiyA N0      Mesopotamia
 ;; miyzuwbuwtAmiy~_1
@@ -6170,7 +6171,7 @@ mylwdrAmy       miyluwdrAmiy~   N-ap    melodramatic     <pos>miyluwdrAmiy~/ADJ<
 ;; miyluwrAd_1
 mylwrAd miyluwrAd       Nprop   Milorad
 ;
-;; mylw$yfyt$_1
+;; miyluw$iyfiyt$_1
 mylw$yfyt$      mylw$yfyt$      Nprop   Milosevic
 mylwsyfyt$      mylwsyfyt$      Nprop   Milosevic
 ;

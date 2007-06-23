@@ -17,34 +17,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< At            `noun`    {- IiEonAt -}          [ "torment", "harassment" ] ]
 
- |> "'u`^guwb" <| [
-
-    -- ;; >uEojuwbap_1
-    -- >Ejwb   >uEojuwb        Napdu   miracle
-    -- AEjwb   >uEojuwb        Napdu   miracle
-    -- b>Ejwbp b>uEojuwbp      FW-Wa   miraculously     [[bi/PREP+>uEojuwbap/NOUN]]
-    -- bAEjwbp b>uEojuwbp      FW-Wa   miraculously     [[bi/PREP+>uEojuwbap/NOUN]]
-
-    Identity |< aT            `prep`    {- OuEojuwbap -}       [ "miracle", "miraculously" ],
-
-    -- ;; >uEojuwbap_2
-    -- >Ejwb   >uEojuwb        Napdu   marvel;wonder
-    -- AEjwb   >uEojuwb        Napdu   marvel;wonder
-    -- >EAjyb  >aEAjiyb        Ndip    marvels;wonders
-    -- AEAjyb  >aEAjiyb        Ndip    marvels;wonders
-
-    Identity |< aT            `noun`    {- OuEojuwbap -}       [ "marvel", "wonder" ] ]
-
- |> "'u`luwm" <| [
-
-    -- ;; >uEoluwmap_1
-    -- >Elwm   >uEoluwm        Napdu   sign
-    -- AElwm   >uEoluwm        Napdu   sign
-    -- >EAlym  >aEAliym        Ndip    sign
-    -- AEAlym  >aEAliym        Ndip    sign
-
-    Identity |< aT            `noun`    {- OuEoluwmap -}       [ "sign" ] ]
-
  |> "` ' .d" <| [
 
     -- ;; EA}iD_1
@@ -2525,6 +2497,24 @@ lexicon = listing "Lexicon's properties"
     -- AEjb    >aEojab Nel     more/most wonderful
 
     HaFCaL                    `noun`    {- OaEojab -}          [ "more/most wonderful" ],
+
+    -- ;; >uEojuwbap_1
+    -- >Ejwb   >uEojuwb        Napdu   miracle
+    -- AEjwb   >uEojuwb        Napdu   miracle
+    -- b>Ejwbp b>uEojuwbp      FW-Wa   miraculously     [[bi/PREP+>uEojuwbap/NOUN]]
+    -- bAEjwbp b>uEojuwbp      FW-Wa   miraculously     [[bi/PREP+>uEojuwbap/NOUN]]
+
+    HuFCUL |< aT              `prep`    {- OuEojuwbap -}       [ "miracle", "miraculously" ],
+
+    -- ;; >uEojuwbap_2
+    -- >Ejwb   >uEojuwb        Napdu   marvel;wonder
+    -- AEjwb   >uEojuwb        Napdu   marvel;wonder
+    -- >EAjyb  >aEAjiyb        Ndip    marvels;wonders
+    -- AEAjyb  >aEAjiyb        Ndip    marvels;wonders
+
+    HuFCUL |< aT              `noun`    {- OuEojuwbap -}       [ "marvel", "wonder" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a`A^giyb Ndip" ] -},
 
     -- ;; taEojiyb_1
     -- tEjyb   taEojiyb        N/At    arousing admiration
@@ -7668,6 +7658,16 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- EalAmap -}          [ "mark", "sign", "point" ]
                               `plural`     FaCAL |< At,
+
+    -- ;; >uEoluwmap_1
+    -- >Elwm   >uEoluwm        Napdu   sign
+    -- AElwm   >uEoluwm        Napdu   sign
+    -- >EAlym  >aEAliym        Ndip    sign
+    -- AEAlym  >aEAliym        Ndip    sign
+
+    HuFCUL |< aT              `noun`    {- OuEoluwmap -}       [ "sign" ]
+                              `plural`     HaFACIL
+                           {- `others`  [ "'a`Aliym Ndip" ] -},
 
     -- ;; EAlam_1
     -- EAlm    EAlam   Ndu     world
@@ -17066,7 +17066,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCL                   `noun`    {- muEotaz~ -}         [ "Mu'tazz" ] ]
 
- |> "`A^g^guwr" <| [
+ |> "`A^g^gUr" <| [
 
     -- ;; EAj~uwriy~_1
     -- EAjwry  EAj~uwriy~      N0      Ajjouri
@@ -17101,6 +17101,20 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EAriDAn -}          [ "cheeks" ] ]
 
+ |> "`IdarUs" <| [
+
+    -- ;; Eiydaruws_1
+    -- Eydrws  Eiydaruws       Nprop   Eidarous
+
+    Identity                  `noun`    {- Eiydaruws -}        [ "Eidarous" ] ]
+
+ |> "`Ufr" <| [
+
+    -- ;; Euwforap_1
+    -- Ewfrp   Euwforap        N0      Ofra
+
+    Identity |< aT            `noun`    {- Euwforap -}         [ "Ofra" ] ]
+
  |> "`a.tAAlll_ah" <| [
 
     -- ;; EaTAAll~`h_1
@@ -17116,14 +17130,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- EaTa$ojiy~ -}       [ "stoker", "fireman", "firemen" ] ]
 
- |> "`a.zamuwt" <| [
+ |> "`a.zamUt" <| [
 
     -- ;; EaZamuwt_1
     -- EZmwt   EaZamuwt        N       grandeur;power
 
     Identity                  `noun`    {- EaZamuwt -}         [ "grandeur", "power" ] ]
 
- |> "`a^srAwiy" <| [
+ |> "`a^srAwI" <| [
 
     -- ;; Ea$orAwiy_1
     -- E$rAwy  Ea$orAwiy       Nprop   Ashrawi
@@ -17137,7 +17151,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabAdAn -}          [ "Abadan" ] ]
 
- |> "`abdAl'amiyr" <| [
+ |> "`abdAl'amIr" <| [
 
     -- ;; EabodAl>amiyr_1
     -- EbdAl>myr       EabodAl>amiyr   Nprop   Abdel Amir
@@ -17153,19 +17167,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlIilah -}     [ "Abdel Ilah" ] ]
 
+ |> "`abdAl.gafUr" <| [
+
+    -- ;; EabodAlgafuwr_1
+    -- EbdAlgfwr       EabodAlgafuwr   Nprop   Abdel Ghafour
+
+    Identity                  `noun`    {- EabodAlgafuwr -}    [ "Abdel Ghafour" ] ]
+
  |> "`abdAl.gaffAr" <| [
 
     -- ;; EabodAlgaf~Ar_1
     -- EbdAlgfAr       EabodAlgaf~Ar   Nprop   Abdel Ghaffar
 
     Identity                  `noun`    {- EabodAlgaf~Ar -}    [ "Abdel Ghaffar" ] ]
-
- |> "`abdAl.gafuwr" <| [
-
-    -- ;; EabodAlgafuwr_1
-    -- EbdAlgfwr       EabodAlgafuwr   Nprop   Abdel Ghafour
-
-    Identity                  `noun`    {- EabodAlgafuwr -}    [ "Abdel Ghafour" ] ]
 
  |> "`abdAl.gan" <| [
 
@@ -17195,19 +17209,26 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlHAriv -}     [ "Abdel Harith" ] ]
 
- |> "`abdAl.habiyb" <| [
+ |> "`abdAl.habIb" <| [
 
     -- ;; EabodAlHabiyb_1
     -- EbdAlHbyb       EabodAlHabiyb   Nprop   Abdel Habib
 
     Identity                  `noun`    {- EabodAlHabiyb -}    [ "Abdel Habib" ] ]
 
- |> "`abdAl.hafiy.z" <| [
+ |> "`abdAl.hafI.z" <| [
 
     -- ;; EabodAlHafiyZ_1
     -- EbdAlHfyZ       EabodAlHafiyZ   Nprop   Abdel Hafeez
 
     Identity                  `noun`    {- EabodAlHafiyZ -}    [ "Abdel Hafeez" ] ]
+
+ |> "`abdAl.hakIm" <| [
+
+    -- ;; EabodAlHakiym_1
+    -- EbdAlHkym       EabodAlHakiym   Nprop   Abdel Hakeem
+
+    Identity                  `noun`    {- EabodAlHakiym -}    [ "Abdel Hakeem" ] ]
 
  |> "`abdAl.hakam" <| [
 
@@ -17216,21 +17237,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlHakam -}     [ "Abdel Hakam" ] ]
 
- |> "`abdAl.hakiym" <| [
-
-    -- ;; EabodAlHakiym_1
-    -- EbdAlHkym       EabodAlHakiym   Nprop   Abdel Hakeem
-
-    Identity                  `noun`    {- EabodAlHakiym -}    [ "Abdel Hakeem" ] ]
-
- |> "`abdAl.haliym" <| [
+ |> "`abdAl.halIm" <| [
 
     -- ;; EabodAlHaliym_1
     -- EbdAlHlym       EabodAlHaliym   Nprop   Abdel Haleem
 
     Identity                  `noun`    {- EabodAlHaliym -}    [ "Abdel Haleem" ] ]
 
- |> "`abdAl.hamiyd" <| [
+ |> "`abdAl.hamId" <| [
 
     -- ;; EabodAlHamiyd_1
     -- EbdAlHmyd       EabodAlHamiyd   Nprop   Abdel Hameed
@@ -17244,19 +17258,19 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlHaq~ -}      [ "Abdel Haqq" ] ]
 
+ |> "`abdAl.hasIb" <| [
+
+    -- ;; EabodAlHasiyb_1
+    -- EbdAlHsyb       EabodAlHasiyb   Nprop   Abdel Haseeb
+
+    Identity                  `noun`    {- EabodAlHasiyb -}    [ "Abdel Haseeb" ] ]
+
  |> "`abdAl.hasan" <| [
 
     -- ;; EabodAlHasan_1
     -- EbdAlHsn        EabodAlHasan    Nprop   Abdel Hassan
 
     Identity                  `noun`    {- EabodAlHasan -}     [ "Abdel Hassan" ] ]
-
- |> "`abdAl.hasiyb" <| [
-
-    -- ;; EabodAlHasiyb_1
-    -- EbdAlHsyb       EabodAlHasiyb   Nprop   Abdel Haseeb
-
-    Identity                  `noun`    {- EabodAlHasiyb -}    [ "Abdel Haseeb" ] ]
 
  |> "`abdAl.hayy" <| [
 
@@ -17286,7 +17300,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlSAdiq -}     [ "Abdel Sadiq" ] ]
 
- |> "`abdAl.sabuwr" <| [
+ |> "`abdAl.sabUr" <| [
 
     -- ;; EabodAlSabuwr_1
     -- EbdAlSbwr       EabodAlSabuwr   Nprop   Abdel Sabour
@@ -17321,7 +17335,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAljab~Ar -}    [ "Abdel Jabbar" ] ]
 
- |> "`abdAl^galiyl" <| [
+ |> "`abdAl^galIl" <| [
 
     -- ;; EabodAljaliyl_1
     -- EbdAljlyl       EabodAljaliyl   Nprop   Abdel Jalil
@@ -17335,21 +17349,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAljawAd -}     [ "Abdel Jawad" ] ]
 
- |> "`abdAl^sAfiy" <| [
+ |> "`abdAl^sAfI" <| [
 
     -- ;; EabodAl$Afiy_1
     -- EbdAl$Afy       EabodAl$Afiy    Nprop   Abdel Shafi
 
     Identity                  `noun`    {- EabodAl$Afiy -}     [ "Abdel Shafi" ] ]
 
- |> "`abdAl^safiy`" <| [
+ |> "`abdAl^safI`" <| [
 
     -- ;; EabodAl$afiyE_1
     -- EbdAl$fyE       EabodAl$afiyE   Nprop   Abdel Shafee
 
     Identity                  `noun`    {- EabodAl$afiyE -}    [ "Abdel Shafee" ] ]
 
- |> "`abdAl^sakuwr" <| [
+ |> "`abdAl^sakUr" <| [
 
     -- ;; EabodAl$akuwr_1
     -- EbdAl$kwr       EabodAl$akuwr   Nprop   Abdel Shakour
@@ -17363,14 +17377,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlxAliq -}     [ "Abdel Khaliq" ] ]
 
- |> "`abdAl`.ziym" <| [
+ |> "`abdAl`.zIm" <| [
 
     -- ;; EabodAlEZiym_1
     -- EbdAlEZym       EabodAlEZiym    Nprop   Abdel Azeem
 
     Identity                  `noun`    {- EabodAlEZiym -}     [ "Abdel Azeem" ] ]
 
- |> "`abdAl`A.tiy" <| [
+ |> "`abdAl`A.tI" <| [
 
     -- ;; EabodAlEATiy_1
     -- EbdAlEATy       EabodAlEATiy    Nprop   Abdel Aati
@@ -17398,7 +17412,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlEab~As -}    [ "Abdel Abbas" ] ]
 
- |> "`abdAl`aziyz" <| [
+ |> "`abdAl`azIz" <| [
 
     -- ;; EabodAlEaziyz_1
     -- EbdAlEzyz       EabodAlEaziyz   Nprop   Abdel Aziz
@@ -17419,21 +17433,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- EabodAlEliy~ -}     [ "Abdel Ali" ] ]
 
- |> "`abdAl`liym" <| [
+ |> "`abdAl`lIm" <| [
 
     -- ;; EabodAlEliym_1
     -- EbdAlElym       EabodAlEliym    Nprop   Abdel Aleem
 
     Identity                  `noun`    {- EabodAlEliym -}     [ "Abdel Aleem" ] ]
 
- |> "`abdAlbAqiy" <| [
+ |> "`abdAlbAqI" <| [
 
     -- ;; EabodAlbAqiy_1
     -- EbdAlbAqy       EabodAlbAqiy    Nprop   Abdel Baqi
 
     Identity                  `noun`    {- EabodAlbAqiy -}     [ "Abdel Baqi" ] ]
 
- |> "`abdAlbAriy" <| [
+ |> "`abdAlbArI" <| [
 
     -- ;; EabodAlbAriy_1
     -- EbdAlbAry       EabodAlbAriy    Nprop   Abdel Bari
@@ -17447,7 +17461,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlbAsiT -}     [ "Abdel Basit" ] ]
 
- |> "`abdAlbadiy`" <| [
+ |> "`abdAlbadI`" <| [
 
     -- ;; EabodAlbadiyE_1
     -- EbdAlbdyE       EabodAlbadiyE   Nprop   Abdel Badii
@@ -17489,14 +17503,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlfADil -}     [ "Abdel Fadil" ] ]
 
- |> "`abdAlfa.diyl" <| [
+ |> "`abdAlfa.dIl" <| [
 
     -- ;; EabodAlfaDiyl_1
     -- EbdAlfDyl       EabodAlfaDiyl   Nprop   Abdel Fadeel
 
     Identity                  `noun`    {- EabodAlfaDiyl -}    [ "Abdel Fadeel" ] ]
 
- |> "`abdAlfahiym" <| [
+ |> "`abdAlfahIm" <| [
 
     -- ;; EabodAlfahiym_1
     -- EbdAlfhym       EabodAlfahiym   Nprop   Abdel Faheem
@@ -17517,42 +17531,42 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlhA$im -}     [ "Abdel Hashim" ] ]
 
- |> "`abdAlhAdiy" <| [
+ |> "`abdAlhAdI" <| [
 
     -- ;; EabodAlhAdiy_1
     -- EbdAlhAdy       EabodAlhAdiy    Nprop   Abdel Hadi
 
     Identity                  `noun`    {- EabodAlhAdiy -}     [ "Abdel Hadi" ] ]
 
- |> "`abdAlkAfiy" <| [
+ |> "`abdAlkAfI" <| [
 
     -- ;; EabodAlkAfiy_1
     -- EbdAlkAfy       EabodAlkAfiy    Nprop   Abdel Kafi
 
     Identity                  `noun`    {- EabodAlkAfiy -}     [ "Abdel Kafi" ] ]
 
- |> "`abdAlkabiyr" <| [
+ |> "`abdAlkabIr" <| [
 
     -- ;; EabodAlkabiyr_1
     -- EbdAlkbyr       EabodAlkabiyr   Nprop   Abdel Kabeer
 
     Identity                  `noun`    {- EabodAlkabiyr -}    [ "Abdel Kabeer" ] ]
 
- |> "`abdAlkariym" <| [
+ |> "`abdAlkarIm" <| [
 
     -- ;; EabodAlkariym_1
     -- EbdAlkrym       EabodAlkariym   Nprop   Abdel Kareem
 
     Identity                  `noun`    {- EabodAlkariym -}    [ "Abdel Kareem" ] ]
 
- |> "`abdAllAwiy" <| [
+ |> "`abdAllAwI" <| [
 
     -- ;; EabodAllAwiy_1
     -- EbdAllAwy       EabodAllAwiy    Nprop   Abdallawi
 
     Identity                  `noun`    {- EabodAllAwiy -}     [ "Abdallawi" ] ]
 
- |> "`abdAlla.tiyf" <| [
+ |> "`abdAlla.tIf" <| [
 
     -- ;; EabodAllaTiyf_1
     -- EbdAllTyf       EabodAllaTiyf   Nprop   Abdel Lateef
@@ -17585,28 +17599,28 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlmAlik -}     [ "Abdel Malik" ] ]
 
- |> "`abdAlma'muwn" <| [
+ |> "`abdAlma'mUn" <| [
 
     -- ;; EabodAlma>omuwn_1
     -- EbdAlm>mwn      EabodAlma>omuwn Nprop   Abdel Ma'moun
 
     Identity                  `noun`    {- EabodAlmaOomuwn -}  [ "Abdel Ma'moun" ] ]
 
- |> "`abdAlma.hmuwd" <| [
+ |> "`abdAlma.hmUd" <| [
 
     -- ;; EabodAlmaHomuwd_1
     -- EbdAlmHmwd      EabodAlmaHomuwd Nprop   Abdel Mahmoud
 
     Identity                  `noun`    {- EabodAlmaHomuwd -}  [ "Abdel Mahmoud" ] ]
 
- |> "`abdAlma^giyd" <| [
+ |> "`abdAlma^gId" <| [
 
     -- ;; EabodAlmajiyd_1
     -- EbdAlmjyd       EabodAlmajiyd   Nprop   Abdel Majeed;Abdel Meguid
 
     Identity                  `noun`    {- EabodAlmajiyd -}    [ "Abdel Majeed", "Abdel Meguid" ] ]
 
- |> "`abdAlmahdiy" <| [
+ |> "`abdAlmahdI" <| [
 
     -- ;; EabodAlmahodiy_1
     -- EbdAlmhdy       EabodAlmahodiy  Nprop   Abdel Mahdi
@@ -17627,7 +17641,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlmalik -}     [ "Abdel Malik" ] ]
 
- |> "`abdAlmaniyn" <| [
+ |> "`abdAlmanIn" <| [
 
     -- ;; EabodAlmaniyn_1
     -- EbdAlmnyn       EabodAlmaniyn   Nprop   Abdel Maneen
@@ -17641,21 +17655,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlman~An -}    [ "Abdel Mannan" ] ]
 
- |> "`abdAlmaq.suwd" <| [
+ |> "`abdAlmaq.sUd" <| [
 
     -- ;; EabodAlmaqoSuwd_1
     -- EbdAlmqSwd      EabodAlmaqoSuwd Nprop   Abdel Maqsoud
 
     Identity                  `noun`    {- EabodAlmaqoSuwd -}  [ "Abdel Maqsoud" ] ]
 
- |> "`abdAlmasiy.h" <| [
+ |> "`abdAlmasI.h" <| [
 
     -- ;; EabodAlmasiyH_1
     -- EbdAlmsyH       EabodAlmasiyH   Nprop   Abdel Maseeh
 
     Identity                  `noun`    {- EabodAlmasiyH -}    [ "Abdel Maseeh" ] ]
 
- |> "`abdAlmaw^guwd" <| [
+ |> "`abdAlmaw^gUd" <| [
 
     -- ;; EabodAlmawojuwd_1
     -- EbdAlmwjwd      EabodAlmawojuwd Nprop   Abdel Mawjoud
@@ -17676,7 +17690,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlmuWomin -}   [ "Abdel Mu'min" ] ]
 
- |> "`abdAlmu.giy_t" <| [
+ |> "`abdAlmu.gI_t" <| [
 
     -- ;; EabodAlmugiyv_1
     -- EbdAlmgyv       EabodAlmugiyv   Nprop   Abdel Mugheeth
@@ -17697,14 +17711,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlmuT~alib -}  [ "Abdel Muttalib" ] ]
 
- |> "`abdAlmu`.tiy" <| [
+ |> "`abdAlmu`.tI" <| [
 
     -- ;; EabodAlmuEoTiy_1
     -- EbdAlmETy       EabodAlmuEoTiy  Nprop   Abdel Mu'ti
 
     Identity                  `noun`    {- EabodAlmuEoTiy -}   [ "Abdel Mu'ti" ] ]
 
- |> "`abdAlmu`iyn" <| [
+ |> "`abdAlmu`In" <| [
 
     -- ;; EabodAlmuEiyn_1
     -- EbdAlmEyn       EabodAlmuEiyn   Nprop   Abdel Mueen
@@ -17732,14 +17746,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlmunoEim -}   [ "Abdel Munim" ] ]
 
- |> "`abdAlmuta`Aliy" <| [
+ |> "`abdAlmuta`AlI" <| [
 
     -- ;; EabodAlmutaEAliy_1
     -- EbdAlmtEAly     EabodAlmutaEAliy        Nprop   Abdel Mutaali
 
     Identity                  `noun`    {- EabodAlmutaEAliy -} [ "Abdel Mutaali" ] ]
 
- |> "`abdAlmuwalliy" <| [
+ |> "`abdAlmuwallI" <| [
 
     -- ;; EabodAlmuwal~iy_1
     -- EbdAlmwly       EabodAlmuwal~iy Nprop   Abdel Muwalli
@@ -17760,7 +17774,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlnAfiE -}     [ "Abdel Nafee" ] ]
 
- |> "`abdAlna`iym" <| [
+ |> "`abdAlnUr" <| [
+
+    -- ;; EabodAlnuwr_1
+    -- EbdAlnwr        EabodAlnuwr     Nprop   Abdel Nour
+
+    Identity                  `noun`    {- EabodAlnuwr -}      [ "Abdel Nour" ] ]
+
+ |> "`abdAlna`Im" <| [
 
     -- ;; EabodAlnaEiym_1
     -- EbdAlnEym       EabodAlnaEiym   Nprop   Abdel Naeem
@@ -17773,13 +17794,6 @@ lexicon = listing "Lexicon's properties"
     -- EbdAlnby        EabodAlnabiy~   Nprop   Abdel Nabi
 
     Identity |< Iy            `adj`     {- EabodAlnabiy~ -}    [ "Abdel Nabi" ] ]
-
- |> "`abdAlnuwr" <| [
-
-    -- ;; EabodAlnuwr_1
-    -- EbdAlnwr        EabodAlnuwr     Nprop   Abdel Nour
-
-    Identity                  `noun`    {- EabodAlnuwr -}      [ "Abdel Nour" ] ]
 
  |> "`abdAlqAdir" <| [
 
@@ -17809,7 +17823,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- EabodAlqawiy~ -}    [ "Abdel Qawi" ] ]
 
- |> "`abdAlqadiyr" <| [
+ |> "`abdAlqadIr" <| [
 
     -- ;; EabodAlqadiyr_1
     -- EbdAlqdyr       EabodAlqadiyr   Nprop   Abdel Qadeer
@@ -17823,21 +17837,21 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlqayos -}     [ "Abdel Qays" ] ]
 
- |> "`abdAlqayyuwm" <| [
+ |> "`abdAlqayyUm" <| [
 
     -- ;; EabodAlqay~uwm_1
     -- EbdAlqywm       EabodAlqay~uwm  Nprop   Abdel Qayyoum
 
     Identity                  `noun`    {- EabodAlqay~uwm -}   [ "Abdel Qayyoum" ] ]
 
- |> "`abdAlqudduws" <| [
+ |> "`abdAlquddUs" <| [
 
     -- ;; EabodAlqud~uws_1
     -- EbdAlqdws       EabodAlqud~uws  Nprop   Abdel Quddous
 
     Identity                  `noun`    {- EabodAlqud~uws -}   [ "Abdel Quddous" ] ]
 
- |> "`abdAlrA.diy" <| [
+ |> "`abdAlrA.dI" <| [
 
     -- ;; EabodAlrADiy_1
     -- EbdAlrADy       EabodAlrADiy    Nprop   Abdel Radi
@@ -17858,14 +17872,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlrAziq -}     [ "Abdel Raziq" ] ]
 
- |> "`abdAlra'uwf" <| [
+ |> "`abdAlra'Uf" <| [
 
     -- ;; EabodAlra&uwf_1
     -- EbdAlr&wf       EabodAlra&uwf   Nprop   Abdel Raouf
 
     Identity                  `noun`    {- EabodAlraWuwf -}    [ "Abdel Raouf" ] ]
 
- |> "`abdAlra.hiym" <| [
+ |> "`abdAlra.hIm" <| [
 
     -- ;; EabodAlraHiym_1
     -- EbdAlrHym       EabodAlraHiym   Nprop   Abdel Raheem
@@ -17879,7 +17893,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlraHomAn -}   [ "Abdel Rahman" ] ]
 
- |> "`abdAlra.hmAniy" <| [
+ |> "`abdAlra.hmAnI" <| [
 
     -- ;; EabodAlraHomAniy_1
     -- EbdAlrHmAny     EabodAlraHomAniy        Nprop   Abdel Rahmani
@@ -17893,7 +17907,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlraHoman -}   [ "Abdel Rahman" ] ]
 
- |> "`abdAlra^siyd" <| [
+ |> "`abdAlra^sId" <| [
 
     -- ;; EabodAlra$iyd_1
     -- EbdAlr$yd       EabodAlra$iyd   Nprop   Abdel Rasheed
@@ -17907,14 +17921,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlrab~ -}      [ "Abdel Rabb" ] ]
 
- |> "`abdAlraqiyb" <| [
+ |> "`abdAlraqIb" <| [
 
     -- ;; EabodAlraqiyb_1
     -- EbdAlrqyb       EabodAlraqiyb   Nprop   Abdel Raqeeb
 
     Identity                  `noun`    {- EabodAlraqiyb -}    [ "Abdel Raqeeb" ] ]
 
- |> "`abdAlrasuwl" <| [
+ |> "`abdAlrasUl" <| [
 
     -- ;; EabodAlrasuwl_1
     -- EbdAlrswl       EabodAlrasuwl   Nprop   Abdel Rasoul
@@ -17956,7 +17970,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlsalAm -}     [ "Abdel Salam" ] ]
 
- |> "`abdAlsamiy`" <| [
+ |> "`abdAlsamI`" <| [
 
     -- ;; EabodAlsamiyE_1
     -- EbdAlsmyE       EabodAlsamiyE   Nprop   Abdel Samee
@@ -17991,7 +18005,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlwAHid -}     [ "Abdel Wahid" ] ]
 
- |> "`abdAlwAliy" <| [
+ |> "`abdAlwAlI" <| [
 
     -- ;; EabodAlwAliy_1
     -- EbdAlwAly       EabodAlwAliy    Nprop   Abdel Wali
@@ -18012,14 +18026,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlwAsiE -}     [ "Abdel Wasee" ] ]
 
- |> "`abdAlwa.hiyd" <| [
+ |> "`abdAlwa.hId" <| [
 
     -- ;; EabodAlwaHiyd_1
     -- EbdAlwHyd       EabodAlwaHiyd   Nprop   Abdel Waheed
 
     Identity                  `noun`    {- EabodAlwaHiyd -}    [ "Abdel Waheed" ] ]
 
- |> "`abdAlwaduwd" <| [
+ |> "`abdAlwadUd" <| [
 
     -- ;; EabodAlwaduwd_1
     -- EbdAlwdwd       EabodAlwaduwd   Nprop   Abdel Wadoud
@@ -18033,7 +18047,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EabodAlwah~Ab -}    [ "Abdel Wahhab" ] ]
 
- |> "`abdAlwakiyl" <| [
+ |> "`abdAlwakIl" <| [
 
     -- ;; EabodAlwakiyl_1
     -- EbdAlwkyl       EabodAlwakiyl   Nprop   Abdel Wakeel
@@ -18047,7 +18061,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- EabodAlwaliy~ -}    [ "Abdel Wali" ] ]
 
- |> "`abdAlwaliyd" <| [
+ |> "`abdAlwalId" <| [
 
     -- ;; EabodAlwaliyd_1
     -- EbdAlwlyd       EabodAlwaliyd   Nprop   Abdel Waleed
@@ -18061,14 +18075,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- EabodAlzahorap -}   [ "Abdel Zahra" ] ]
 
- |> "`abdalAwiy" <| [
+ |> "`abdalAwI" <| [
 
     -- ;; EabodalAwiy_1
     -- EbdlAwy EabodalAwiy     N0      Abdallawi
 
     Identity                  `noun`    {- EabodalAwiy -}      [ "Abdallawi" ] ]
 
- |> "`abdaliy" <| [
+ |> "`abdalI" <| [
 
     -- ;; Eabodaliy_1
     -- Ebdly   Eabodaliy       N0      Abdali
@@ -18089,14 +18103,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Eabidorab~uh -}     [ "Abedrabboh", "Abidrabbuh" ] ]
 
- |> "`alA'Alddiyn" <| [
+ |> "`alA'AlddIn" <| [
 
     -- ;; EalA'Ald~iyn_1
     -- ElA'Aldyn       EalA'Ald~iyn    Nprop   Alaa Eddin;Alaa Al-Din;Aladdin
 
     Identity                  `noun`    {- EalA'Ald~iyn -}     [ "Alaa Eddin", "Alaa Al-Din", "Aladdin" ] ]
 
- |> "`amiyrAm" <| [
+ |> "`amIrAm" <| [
 
     -- ;; EamiyrAm_1
     -- EmyrAm  EamiyrAm        N0      Amiram
@@ -18118,7 +18132,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Eamorw -}           [ "Amr" ] ]
 
- |> "`andaliyb" <| [
+ |> "`andalIb" <| [
 
     -- ;; Eanodaliyb_1
     -- Endlyb  Eanodaliyb      NduAt   nightingale
@@ -18131,7 +18145,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Eanodaliyb -}       [ "Andalib" ] ]
 
- |> "`ankabuwt" <| [
+ |> "`ankabUt" <| [
 
     -- ;; Eanokabuwt_1
     -- Enkbwt  Eanokabuwt      Ndu     spider
@@ -18198,14 +18212,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Eivoyar -}          [ "dust", "sand" ] ]
 
- |> "`illiyyuwn" <| [
+ |> "`illIyUn" <| [
 
     -- ;; Eil~iy~uwn_1
     -- Elywn   Eil~iy~uwn      N       uppermost heaven;highest class
 
     Identity                  `noun`    {- Eil~iy~uwn -}       [ "uppermost heaven", "highest class" ] ]
 
- |> "`immAnuw'iyl" <| [
+ |> "`immAnU'Il" <| [
 
     -- ;; Eim~Anuw}iyl_1
     -- EmAnw}yl        Eim~Anuw}iyl    Ndip    Emmanuel
@@ -18240,21 +18254,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `conj`    {- EinodamA -}         [ "when" ] ]
 
- |> "`iydaruws" <| [
-
-    -- ;; Eiydaruws_1
-    -- Eydrws  Eiydaruws       Nprop   Eidarous
-
-    Identity                  `noun`    {- Eiydaruws -}        [ "Eidarous" ] ]
-
- |> "`izrA'iyl" <| [
+ |> "`izrA'Il" <| [
 
     -- ;; EizorA}iyl_1
     -- EzrA}yl EizorA}iyl      Ndip    Azrael
 
     Identity                  `noun`    {- EizorA}iyl -}       [ "Azrael" ] ]
 
- |> "`izzAlddiyn" <| [
+ |> "`izzAlddIn" <| [
 
     -- ;; Eiz~Ald~iyn_1
     -- EzAldyn Eiz~Ald~iyn     N0      Ezzedin;Izz Al-Din
@@ -18289,7 +18296,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- EuTAridiy~ -}       [ "Mercury", "Mercurial" ] ]
 
- |> "`u_taymiyn" <| [
+ |> "`u_taymIn" <| [
 
     -- ;; Euvayomiyn_1
     -- Evymyn  Euvayomiyn      N0      Uthaimeen
@@ -18356,13 +18363,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EuwayorAn -}        [ "Oweiran" ] ]
 
- |> "`uwfr" <| [
-
-    -- ;; Euwforap_1
-    -- Ewfrp   Euwforap        N0      Ofra
-
-    Identity |< aT            `noun`    {- Euwforap -}         [ "Ofra" ] ]
-
  |> "la`all" <| [
 
     -- ;; laEal~a_1
@@ -18384,7 +18384,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- maEomadAniy~ -}     [ "Baptist" ] ]
 
- |> "mawA`iziyz" <| [
+ |> "mawA`izIz" <| [
 
     -- ;; mawAEiziyz_1
     -- mwAEzyz mawAEiziyz      N0      Moaziz
@@ -18427,14 +18427,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- taEiz~ -}           [ "Taizz" ] ]
 
- |> "ya`bud" <| [
-
-    -- ;; yaEobud_1
-    -- yEbd    yaEobud Nprop   Yabud
-
-    Identity                  `noun`    {- yaEobud -}          [ "Yabud" ] ]
-
- |> "ya`buwb" <| [
+ |> "ya`bUb" <| [
 
     -- ;; yaEobuwb_1
     -- yEbwb   yaEobuwb        Ndu     torrent
@@ -18442,7 +18435,14 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- yaEobuwb -}         [ "torrent" ] ]
 
- |> "ya`fuwr" <| [
+ |> "ya`bud" <| [
+
+    -- ;; yaEobud_1
+    -- yEbd    yaEobud Nprop   Yabud
+
+    Identity                  `noun`    {- yaEobud -}          [ "Yabud" ] ]
+
+ |> "ya`fUr" <| [
 
     -- ;; yaEofuwr_1
     -- yEfwr   yaEofuwr        Ndu     gazelle
@@ -18450,7 +18450,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- yaEofuwr -}         [ "gazelle" ] ]
 
- |> "ya`quwb" <| [
+ |> "ya`qUb" <| [
 
     -- ;; yaEoquwb_1
     -- yEqwb   yaEoquwb        Nprop   Yaqoub;Jacob

@@ -887,7 +887,9 @@ lexicon = listing "Lexicon's properties"
                               `plural`     TaFaCCI |< At,
 
     FACI                      `adj`     {- xAliy -}            [ "empty", "devoid", "free" ]
-                              `plural`     FACI |< At ]
+                              `plural`     FACI |< At,
+
+    FuCayL |< Iy              `adj`     {- xulayowiy~ -}       [ "Khulaiwi" ] ]
 
  |> "_h l y" <| [
 
@@ -1231,6 +1233,10 @@ lexicon = listing "Lexicon's properties"
 
     KuRDU                     `noun`    {- xuwluw -}           [ "Jolo" ] ]
 
+ |> "_h w l y" <| [
+
+    KuRDU                     `noun`    {- xuwluw -}           [ "Jolo" ] ]
+
  |> "_h w n" <| [
 
     FAL                       `verb`    {- xAn-u -}            [ "betray", "deceive", "fail" ]
@@ -1417,7 +1423,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- xizoy -}            [ "shame", "disgrace" ] ]
 
- |> "_hAfiyiyr" <| [
+ |> "_hAfiyIr" <| [
 
     Identity                  `noun`    {- xAfiyiyr -}         [ "Javier" ] ]
 
@@ -1425,9 +1431,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- xAmani}iy~ -}       [ "Khamene'i" ] ]
 
- |> "_hAymiy" <| [
+ |> "_hAymI" <| [
 
     Identity                  `noun`    {- xAyomiy -}          [ "Jaime" ] ]
+
+ |> "_hUzistAn" <| [
+
+    Identity                  `noun`    {- xuwzisotAn -}       [ "Khuzistan" ] ]
 
  |> "_hamsmA'" <| [
 
@@ -1441,17 +1451,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- xiDam~ -}           [ "vast" ] ]
 
- |> "_hulaywiyy" <| [
-
-    Identity                  `noun`    {- xulayowiy~ -}       [ "Khulaiwi" ] ]
-
- |> "_humayniy" <| [
+ |> "_humaynI" <| [
 
     Identity                  `noun`    {- xumayoniy -}        [ "Khomeini" ] ]
-
- |> "_huwzistAn" <| [
-
-    Identity                  `noun`    {- xuwzisotAn -}       [ "Khuzistan" ] ]
 
  |> "_hwAn" <| [
 

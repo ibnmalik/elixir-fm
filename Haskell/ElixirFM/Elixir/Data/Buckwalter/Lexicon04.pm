@@ -1893,27 +1893,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_tuwriyuwm' => [
-    {
-      'types' => {},
-      'entry' => '_tuwriyuwm',
-      'form' => '_tuwriyuwm',
-      'lines' => [
-        ';; vuwriyuwm_1',
-        'vwrywm  vuwriyuwm       N       thorium'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'thorium'
-      ],
-      'orig' => 'vuwriyuwm',
-      'prefix' => ''
-    }
-  ],
   '_t w r y' => [
     {
       'types' => {},
@@ -2926,6 +2905,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_tiyU' => [
+    {
+      'types' => {},
+      'entry' => '_tiyuw',
+      'form' => '_tiyuw',
+      'lines' => [
+        ';; viyuw_1',
+        'vyw     viyuw   Nprop   Theo'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Theo'
+      ],
+      'orig' => 'viyuw',
+      'prefix' => ''
+    }
+  ],
   '_t d y' => [
     {
       'types' => {
@@ -3023,6 +3023,27 @@ $Lexicon = {
         'mammals'
       ],
       'orig' => 'vadoyiy~',
+      'prefix' => ''
+    }
+  ],
+  '_tUrb' => [
+    {
+      'types' => {},
+      'entry' => '_tuwrb',
+      'form' => '_tuwrb',
+      'lines' => [
+        ';; vuwrb_1',
+        'vwrb    vuwrb   Nprop   Thorpe'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Thorpe'
+      ],
+      'orig' => 'vuwrb',
       'prefix' => ''
     }
   ],
@@ -4988,27 +5009,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_tiyuw' => [
-    {
-      'types' => {},
-      'entry' => '_tiyuw',
-      'form' => '_tiyuw',
-      'lines' => [
-        ';; viyuw_1',
-        'vyw     viyuw   Nprop   Theo'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Theo'
-      ],
-      'orig' => 'viyuw',
-      'prefix' => ''
-    }
-  ],
   '_t m r' => [
     {
       'types' => {
@@ -5997,27 +5997,6 @@ $Lexicon = {
         'two'
       ],
       'orig' => 'AivonAni',
-      'prefix' => ''
-    }
-  ],
-  '_tuwrb' => [
-    {
-      'types' => {},
-      'entry' => '_tuwrb',
-      'form' => '_tuwrb',
-      'lines' => [
-        ';; vuwrb_1',
-        'vwrb    vuwrb   Nprop   Thorpe'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Thorpe'
-      ],
-      'orig' => 'vuwrb',
       'prefix' => ''
     }
   ],
@@ -7882,6 +7861,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_tUriyUm' => [
+    {
+      'types' => {},
+      'entry' => '_tuwriyuwm',
+      'form' => '_tuwriyuwm',
+      'lines' => [
+        ';; vuwriyuwm_1',
+        'vwrywm  vuwriyuwm       N       thorium'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'thorium'
+      ],
+      'orig' => 'vuwriyuwm',
+      'prefix' => ''
+    }
+  ],
   '_t r r' => [
     {
       'types' => {
@@ -8417,6 +8417,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_tUrmUnt' => [
+    {
+      'types' => {},
+      'entry' => '_tuwrmuwnt',
+      'form' => '_tuwrmuwnt',
+      'lines' => [
+        ';; vuwromuwnot_1',
+        'vwrmwnt vuwromuwnot     Nprop   Thurmont'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Thurmont'
+      ],
+      'orig' => 'vuwromuwnot',
+      'prefix' => ''
+    }
+  ],
   '_t \' y' => [
     {
       'types' => {
@@ -8499,28 +8520,6 @@ $Lexicon = {
       ],
       'orig' => 'AlAivonatA',
       'prefix' => 'al >| '
-    }
-  ],
-  '_t q f y' => [
-    {
-      'types' => {},
-      'entry' => '_taqAfiyy',
-      'form' => '_taqAfiyy',
-      'lines' => [
-        ';; vaqAfiy~_1',
-        'vqAfy   vaqAfiy~        Nall    cultural;intellectual     [[vaqAfiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KaRADIS',
-      'suffix' => '',
-      'glosses' => [
-        'cultural',
-        'intellectual'
-      ],
-      'orig' => 'vaqAfiy~',
-      'prefix' => ''
     }
   ],
   '_t .g m' => [
@@ -8822,6 +8821,26 @@ $Lexicon = {
         'civilization'
       ],
       'orig' => 'vaqAfap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_taqAf',
+      'form' => '_taqAfiyy',
+      'lines' => [
+        ';; vaqAfiy~_1',
+        'vqAfy   vaqAfiy~        Nall    cultural;intellectual     [[vaqAfiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'cultural',
+        'intellectual'
+      ],
+      'orig' => 'vaqAfiy~',
       'prefix' => ''
     },
     {
@@ -9887,27 +9906,6 @@ $Lexicon = {
         'breasts'
       ],
       'orig' => 'vunoduwap',
-      'prefix' => ''
-    }
-  ],
-  '_tuwrmuwnt' => [
-    {
-      'types' => {},
-      'entry' => '_tuwrmuwnt',
-      'form' => '_tuwrmuwnt',
-      'lines' => [
-        ';; vuwromuwnot_1',
-        'vwrmwnt vuwromuwnot     Nprop   Thurmont'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Thurmont'
-      ],
-      'orig' => 'vuwromuwnot',
       'prefix' => ''
     }
   ],

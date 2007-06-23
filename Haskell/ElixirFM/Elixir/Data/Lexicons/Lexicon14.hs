@@ -1232,11 +1232,23 @@ lexicon = listing "Lexicon's properties"
 
     KaRDUS |< aT              `noun`    {- Sayoruwrap -}       [ "becoming", "outcome", "result" ] ]
 
+ |> ".sUdA" <| [
+
+    Identity                  `noun`    {- SuwdA -}            [ "soda" ] ]
+
+ |> ".sUfiyA" <| [
+
+    Identity                  `noun`    {- SuwfiyA -}          [ "Sofia" ] ]
+
+ |> ".sUyA" <| [
+
+    Identity                  `noun`    {- SuwyA -}            [ "soya" ] ]
+
  |> ".sabrA" <| [
 
     Identity                  `noun`    {- SaborA -}           [ "Sabra" ] ]
 
- |> ".samuw'iyl" <| [
+ |> ".samU'Il" <| [
 
     Identity                  `noun`    {- Samuw}iyl -}        [ "Samuel", "Samu'il" ] ]
 
@@ -1251,18 +1263,6 @@ lexicon = listing "Lexicon's properties"
  |> ".siqill" <| [
 
     Identity |< Iy            `adj`     {- Siqil~iy~ -}        [ "Sicilian", "Sicily" ] ]
-
- |> ".suwdA" <| [
-
-    Identity                  `noun`    {- SuwdA -}            [ "soda" ] ]
-
- |> ".suwfiyA" <| [
-
-    Identity                  `noun`    {- SuwfiyA -}          [ "Sofia" ] ]
-
- |> ".suwyA" <| [
-
-    Identity                  `noun`    {- SuwyA -}            [ "soya" ] ]
 
  |> "ta.sfY" <| [
 

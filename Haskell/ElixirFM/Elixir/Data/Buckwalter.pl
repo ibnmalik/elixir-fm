@@ -202,14 +202,20 @@ sub storeEntry ($$) {
 
             my $match = $form;
 
-            $match =~ s/uw(?![aiuAIUY])/U/g;
-            $match =~ s/iy(?![aiuAIUY])/I/g;
+            $match =~ s/(?<!^)uw(?![aiuAIUY])/U/g;
+            $match =~ s/(?<!^)iy(?![aiuAIUY])/I/g;
 
             for (my $i = 0; $i < @template; $i++) {
 
                 push @{$Clone->{'patterns'}->{$form}}, $pAttErns[$i] if $template[$i] eq $match;
             }
         }
+    }
+
+    if ($ptrn eq 'Identity') {
+
+        $toor =~ s/(?<!^)uw(?![aiuAIUY])/U/g;
+        $toor =~ s/(?<!^)iy(?![aiuAIUY])/I/g;
     }
 
     push @{$Lexicon->{$toor}}, $Clone;
@@ -416,14 +422,14 @@ sub closeEntry {
 
                 next if defined $toor[0] and defined $toor[1] and $toor[0] eq $toor[1];
 
-                $ptrn =~ s/i[F](?![aiuAIUY])/I/     if defined $F and $F eq 'y';
-                $ptrn =~ s/u[F](?![aiuAIUY])/U/     if defined $F and $F eq 'w';
+                $ptrn =~ s/(?<!^)i[F](?![aiuAIUY])/I/   if defined $F and $F eq 'y';
+                $ptrn =~ s/(?<!^)u[F](?![aiuAIUY])/U/   if defined $F and $F eq 'w';
 
-                $ptrn =~ s/i[C](?![aiuAIUY])/I/     if defined $C and $C eq 'y';
-                $ptrn =~ s/u[C](?![aiuAIUY])/U/     if defined $C and $C eq 'w';
+                $ptrn =~ s/(?<!^)i[C](?![aiuAIUY])/I/   if defined $C and $C eq 'y';
+                $ptrn =~ s/(?<!^)u[C](?![aiuAIUY])/U/   if defined $C and $C eq 'w';
 
-                $ptrn =~ s/i[L](?![aiuAIUY])/I/     if defined $L and $L eq 'y';
-                $ptrn =~ s/u[L](?![aiuAIUY])/U/     if defined $L and $L eq 'w';
+                $ptrn =~ s/(?<!^)i[L](?![aiuAIUY])/I/   if defined $L and $L eq 'y';
+                $ptrn =~ s/(?<!^)u[L](?![aiuAIUY])/U/   if defined $L and $L eq 'w';
             }
             else {
 
@@ -433,8 +439,8 @@ sub closeEntry {
 
                 next if $toor[0] eq $toor[1] or $toor[1] eq $toor[2];
 
-                $ptrn =~ s/i[S](?![aiuAIUY])/I/     if defined $toor[3] and $toor[3] eq 'y';
-                $ptrn =~ s/u[S](?![aiuAIUY])/U/     if defined $toor[3] and $toor[3] eq 'w';
+                $ptrn =~ s/(?<!^)i[S](?![aiuAIUY])/I/   if defined $toor[3] and $toor[3] eq 'y';
+                $ptrn =~ s/(?<!^)u[S](?![aiuAIUY])/U/   if defined $toor[3] and $toor[3] eq 'w';
             }
 
             $root{join ' ', map { defined $_ ? $_ : '' } @toor}->{$ptrn}++;

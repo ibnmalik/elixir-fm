@@ -30,7 +30,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- \|y -}              [ "A.", "I." ] ]
 
- |> "'iyh" <| [
+ |> "'Ih" <| [
 
     -- ;; <iyh_1
     -- <yh     <iyh    FW      A.     [[>ay/ABBREV]]
@@ -274,7 +274,7 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- d -}                [ "D", "4th", "Dr.", "(minute)", "(dinar)", "(dirham)" ] ]
 
- |> "dabilyuw" <| [
+ |> "dabilyU" <| [
 
     -- ;; dabiloyuw_1
     -- dblyw   dabiloyuw       N0      W.

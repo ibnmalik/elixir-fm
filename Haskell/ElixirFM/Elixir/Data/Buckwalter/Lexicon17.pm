@@ -2486,6 +2486,41 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        '\'a.zAfiyr' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'u.zfuwr',
+      'form' => '\'u.zfuwr',
+      'lines' => [
+        ';; >uZofuwr_1',
+        '>Zfwr   >uZofuwr        Ndu     nail;claw;talon',
+        'AZfwr   >uZofuwr        Ndu     nail;claw;talon',
+        '>ZAfyr  >aZAfiyr        Ndip    nails;claws;talons',
+        'AZAfyr  >aZAfiyr        Ndip    nails;claws;talons'
+      ],
+      'patterns' => {
+        '\'a.zAfiyr' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL',
+      'suffix' => '',
+      'glosses' => [
+        'nail',
+        'claw',
+        'talon',
+        'nails',
+        'claws',
+        'talons'
+      ],
+      'orig' => 'OuZofuwr',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => '.zafar',
       'form' => '.zafar',
@@ -3550,39 +3585,6 @@ $Lexicon = {
         'transitory'
       ],
       'orig' => 'ZAEin',
-      'prefix' => ''
-    }
-  ],
-  '\'u.zfuwr' => [
-    {
-      'types' => {
-        '\'a.zAfiyr' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'u.zfuwr',
-      'form' => '\'u.zfuwr',
-      'lines' => [
-        ';; >uZofuwr_1',
-        '>Zfwr   >uZofuwr        Ndu     nail;claw;talon',
-        'AZfwr   >uZofuwr        Ndu     nail;claw;talon',
-        '>ZAfyr  >aZAfiyr        Ndip    nails;claws;talons',
-        'AZAfyr  >aZAfiyr        Ndip    nails;claws;talons'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'nail',
-        'claw',
-        'talon',
-        'nails',
-        'claws',
-        'talons'
-      ],
-      'orig' => 'OuZofuwr',
       'prefix' => ''
     }
   ],

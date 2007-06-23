@@ -6,32 +6,6 @@ package Elixir::Data::Buckwalter::Lexicon21;
 
 
 $Lexicon = {
-  'qalqiyliy' => [
-    {
-      'types' => {
-        'qalqiyliyA' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'qalqiyliy',
-      'form' => 'qalqiyliyaT',
-      'lines' => [
-        ';; qaloqiyliyap_1',
-        'qlqylyp qaloqiyliyap    N0      Qalqilya',
-        'qlqylyA qaloqiyliyA     N0      Qalqilya'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'Qalqilya'
-      ],
-      'orig' => 'qaloqiyliyap',
-      'prefix' => ''
-    }
-  ],
   'q f \'' => [
     {
       'types' => {},
@@ -1062,6 +1036,39 @@ $Lexicon = {
       ],
       'orig' => 'qan~uwmap',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'aqAniym' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'uqnuwm',
+      'form' => '\'uqnuwm',
+      'lines' => [
+        ';; >uqonuwm_1',
+        '>qnwm   >uqonuwm        Ndu     hypostasis (person of the Trinity);basic element',
+        'Aqnwm   >uqonuwm        Ndu     hypostasis (person of the Trinity);basic element',
+        '>qAnym  >aqAniym        Ndip    hypostases (persons of the Trinity);basic elements',
+        'AqAnym  >aqAniym        Ndip    hypostases (persons of the Trinity);basic elements'
+      ],
+      'patterns' => {
+        '\'aqAniym' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL',
+      'suffix' => '',
+      'glosses' => [
+        'hypostasis (person of the Trinity)',
+        'basic element',
+        'hypostases (persons of the Trinity)',
+        'basic elements'
+      ],
+      'orig' => 'Ouqonuwm',
+      'prefix' => ''
     }
   ],
   'q .d \'' => [
@@ -1965,27 +1972,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qaraquwl' => [
-    {
-      'types' => {},
-      'entry' => 'qaraquwl',
-      'form' => 'qaraquwl',
-      'lines' => [
-        ';; qaraquwl_1',
-        'qrqwl   qaraquwl        N       puppet'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'puppet'
-      ],
-      'orig' => 'qaraquwl',
-      'prefix' => ''
-    }
-  ],
   'q r .t ^g' => [
     {
       'types' => {},
@@ -2166,35 +2152,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'iqliyd' => [
-    {
-      'types' => {
-        '\'aqAliyd' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'iqliyd',
-      'form' => '\'iqliyd',
-      'lines' => [
-        ';; <iqoliyd_1',
-        '<qlyd   <iqoliyd        Ndu     key',
-        'Aqlyd   <iqoliyd        Ndu     key',
-        '>qAlyd  >aqAliyd        Ndip    keys',
-        'AqAlyd  >aqAliyd        Ndip    keys'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'key',
-        'keys'
-      ],
-      'orig' => 'Iiqoliyd',
-      'prefix' => ''
-    }
-  ],
   'q r f l' => [
     {
       'types' => {},
@@ -2254,54 +2211,6 @@ $Lexicon = {
         'saltwort'
       ],
       'orig' => 'qAqul~ap',
-      'prefix' => ''
-    }
-  ],
-  'qalansuw' => [
-    {
-      'types' => {
-        'qalAnis' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'qalansuw',
-      'form' => 'qalansuwaT',
-      'lines' => [
-        ';; qalanosuwap_1',
-        'qlnsw   qalanosuw       Napdu   hood;cap',
-        'qlAns   qalAnis Ndip    hoods;caps'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'hood',
-        'cap',
-        'hoods',
-        'caps'
-      ],
-      'orig' => 'qalanosuwap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'qalansuw',
-      'form' => 'qalansuwaT',
-      'lines' => [
-        ';; qalanosuwap_2',
-        'qlnsw   qalanosuw       Nap     Qalansua'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'Qalansua'
-      ],
-      'orig' => 'qalanosuwap',
       'prefix' => ''
     }
   ],
@@ -2454,6 +2363,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'qUmisIr' => [
+    {
+      'types' => {},
+      'entry' => 'quwmisiyr',
+      'form' => 'quwmisiyr',
+      'lines' => [
+        ';; quwmisiyr_1',
+        'qwmsyr  quwmisiyr       N       commissioner'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'commissioner'
+      ],
+      'orig' => 'quwmisiyr',
+      'prefix' => ''
+    }
+  ],
   'q .t w' => [
     {
       'types' => {
@@ -2513,6 +2443,27 @@ $Lexicon = {
         'sand grouses'
       ],
       'orig' => 'qaTAp',
+      'prefix' => ''
+    }
+  ],
+  'qusan.tIn' => [
+    {
+      'types' => {},
+      'entry' => 'qusan.tiyn',
+      'form' => 'qusan.tiynaT',
+      'lines' => [
+        ';; qusanoTiynap_1',
+        'qsnTynp qusanoTiynap    Nprop   Constantine'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'Constantine'
+      ],
+      'orig' => 'qusanoTiynap',
       'prefix' => ''
     }
   ],
@@ -2637,23 +2588,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qarabuws' => [
+  'qun.sulAtU' => [
     {
-      'types' => {
-        'qarAbiys' => {
-          'Ndip' => 1
-        },
-        'qarbuws' => {
-          'Ndu' => 1
-        }
-      },
-      'entry' => 'qarabuws',
-      'form' => 'qarabuws',
+      'types' => {},
+      'entry' => 'qun.sulAtuw',
+      'form' => 'qun.sulAtuw',
       'lines' => [
-        ';; qarabuws_1',
-        'qrbws   qarabuws        Ndu     saddlebow',
-        'qrbws   qarobuws        Ndu     saddlebow',
-        'qrAbys  qarAbiys        Ndip    saddlebows'
+        ';; qunoSulAtuw_1',
+        'qnSlAtw qunoSulAtuw     N0      consulate'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2661,10 +2603,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'saddlebow',
-        'saddlebows'
+        'consulate'
       ],
-      'orig' => 'qarabuws',
+      'orig' => 'qunoSulAtuw',
       'prefix' => ''
     }
   ],
@@ -2686,6 +2627,27 @@ $Lexicon = {
         'Qana'
       ],
       'orig' => 'qAnA',
+      'prefix' => ''
+    }
+  ],
+  'qUquryAl' => [
+    {
+      'types' => {},
+      'entry' => 'quwquryAl',
+      'form' => 'quwquryAl',
+      'lines' => [
+        ';; quwquroyAl_1',
+        'qwqryAl quwquroyAl      Nprop   Gogorial (Gorgorial??)'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Gogorial (Gorgorial??)'
+      ],
+      'orig' => 'quwquroyAl',
       'prefix' => ''
     }
   ],
@@ -2786,6 +2748,31 @@ $Lexicon = {
         'pursuing'
       ],
       'orig' => 'taqoyiyf',
+      'prefix' => ''
+    }
+  ],
+  'qrU^g' => [
+    {
+      'types' => {
+        'qrw^g' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'qruw^g',
+      'form' => 'qruw^g',
+      'lines' => [
+        ';; qruwj_1',
+        'qrwj    qrwj    N0      Geurrouj'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Geurrouj'
+      ],
+      'orig' => 'qruwj',
       'prefix' => ''
     }
   ],
@@ -4115,27 +4102,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qarabiyn' => [
-    {
-      'types' => {},
-      'entry' => 'qarabiyn',
-      'form' => 'qarabiynaT',
-      'lines' => [
-        ';; qarabiynap_1',
-        'qrbyn   qarabiyn        NapAt   carbine'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'carbine'
-      ],
-      'orig' => 'qarabiynap',
-      'prefix' => ''
-    }
-  ],
   'q r m ^s' => [
     {
       'types' => {
@@ -4989,6 +4955,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'qUmandAn' => [
+    {
+      'types' => {},
+      'entry' => 'quwmandAn',
+      'form' => 'quwmandAn',
+      'lines' => [
+        ';; quwmanodAn_1',
+        'qwmndAn quwmanodAn      N       commandant'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'commandant'
+      ],
+      'orig' => 'quwmanodAn',
+      'prefix' => ''
+    }
+  ],
   'q l f' => [
     {
       'types' => {
@@ -5240,6 +5227,26 @@ $Lexicon = {
         'Qazvin'
       ],
       'orig' => 'qazowiyn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qazwiyn',
+      'form' => 'qazwiyniyy',
+      'lines' => [
+        ';; qazowiyniy~_1',
+        'qzwyny  qazowiyniy~     Nall    Caspian     [[qazowiyniy~/NOUN]]',
+        'qzwyny  qazowiyniy~     Nall    Caspian     [[qazowiyniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KaRDIS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Caspian'
+      ],
+      'orig' => 'qazowiyniy~',
       'prefix' => ''
     }
   ],
@@ -6747,27 +6754,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muqAwiluwn' => [
-    {
-      'types' => {},
-      'entry' => 'muqAwiluwn',
-      'form' => 'muqAwiluwn',
-      'lines' => [
-        ';; muqAwiluwn_1',
-        'mqAwlwn muqAwiluwn      N0      Muqawiloun'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Muqawiloun'
-      ],
-      'orig' => 'muqAwiluwn',
-      'prefix' => ''
-    }
-  ],
   'q .s w' => [
     {
       'types' => {
@@ -7304,6 +7290,68 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'qir.gIzstAn' => [
+    {
+      'types' => {},
+      'entry' => 'qir.giyzstAn',
+      'form' => 'qir.giyzstAn',
+      'lines' => [
+        ';; qirogiyzostAn_1',
+        'qrgyzstAn       qirogiyzostAn   N0      Kyrgyzstan'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kyrgyzstan'
+      ],
+      'orig' => 'qirogiyzostAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qir.giyzstAn',
+      'form' => 'qir.giyzstAniyy',
+      'lines' => [
+        ';; qirogiyzostAniy~_1',
+        'qrgyzstAny      qirogiyzostAniy~        Nall    Kyrgyzstani     [[qirogiyzostAniy~/NOUN]]',
+        'qrgyzstAny      qirogiyzostAniy~        Nall    Kyrgyzstani     [[qirogiyzostAniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Kyrgyzstani'
+      ],
+      'orig' => 'qirogiyzostAniy~',
+      'prefix' => ''
+    }
+  ],
+  'qabUdAn' => [
+    {
+      'types' => {},
+      'entry' => 'qabuwdAn',
+      'form' => 'qabuwdAn',
+      'lines' => [
+        ';; qabuwdAn_1',
+        'qbwdAn  qabuwdAn        N       captain'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'captain'
+      ],
+      'orig' => 'qabuwdAn',
+      'prefix' => ''
+    }
+  ],
   'q l ` .t' => [
     {
       'types' => {
@@ -7395,38 +7443,14 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qu^s`ariyr' => [
+  'qaraqUl' => [
     {
       'types' => {},
-      'entry' => 'qu^s`ariyr',
-      'form' => 'qu^s`ariyraT',
+      'entry' => 'qaraquwl',
+      'form' => 'qaraquwl',
       'lines' => [
-        ';; qu$oEariyrap_1',
-        'q$Eryr  qu$oEariyr      Nap     shuddering;trembling;goose bumps'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'shuddering',
-        'trembling',
-        'goose bumps'
-      ],
-      'orig' => 'qu$oEariyrap',
-      'prefix' => ''
-    }
-  ],
-  'yaq.tiyn' => [
-    {
-      'types' => {},
-      'entry' => 'yaq.tiyn',
-      'form' => 'yaq.tiyn',
-      'lines' => [
-        ';; yaqoTiyn_1',
-        'yqTyn   yaqoTiyn        N       squash',
-        'yqTyn   yaqoTiyn        Napdu   squash'
+        ';; qaraquwl_1',
+        'qrqwl   qaraquwl        N       puppet'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7434,72 +7458,9 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'squash'
+        'puppet'
       ],
-      'orig' => 'yaqoTiyn',
-      'prefix' => ''
-    }
-  ],
-  'qa.tramiyz' => [
-    {
-      'types' => {},
-      'entry' => 'qa.tramiyz',
-      'form' => 'qa.tramiyz',
-      'lines' => [
-        ';; qaToramiyz_1',
-        'qTrmyz  qaToramiyz      N       large glass bottle'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'large glass bottle'
-      ],
-      'orig' => 'qaToramiyz',
-      'prefix' => ''
-    }
-  ],
-  'qunnabiy.t' => [
-    {
-      'types' => {},
-      'entry' => 'qunnabiy.t',
-      'form' => 'qunnabiy.t',
-      'lines' => [
-        ';; qun~abiyT_1',
-        'qnbyT   qun~abiyT       N       cauliflower'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'cauliflower'
-      ],
-      'orig' => 'qun~abiyT',
-      'prefix' => ''
-    }
-  ],
-  'qusan.tiyn' => [
-    {
-      'types' => {},
-      'entry' => 'qusan.tiyn',
-      'form' => 'qusan.tiynaT',
-      'lines' => [
-        ';; qusanoTiynap_1',
-        'qsnTynp qusanoTiynap    Nprop   Constantine'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'Constantine'
-      ],
-      'orig' => 'qusanoTiynap',
+      'orig' => 'qaraquwl',
       'prefix' => ''
     }
   ],
@@ -7519,24 +7480,29 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qarnabiy.t' => [
+  'qalqIlI' => [
     {
-      'types' => {},
-      'entry' => 'qarnabiy.t',
-      'form' => 'qarnabiy.t',
+      'types' => {
+        'qalqiyliyA' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'qalqiyliy',
+      'form' => 'qalqiyliyaT',
       'lines' => [
-        ';; qaronabiyT_1',
-        'qrnbyT  qaronabiyT      N       cauliflower'
+        ';; qaloqiyliyap_1',
+        'qlqylyp qaloqiyliyap    N0      Qalqilya',
+        'qlqylyA qaloqiyliyA     N0      Qalqilya'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
-        'cauliflower'
+        'Qalqilya'
       ],
-      'orig' => 'qaronabiyT',
+      'orig' => 'qaloqiyliyap',
       'prefix' => ''
     }
   ],
@@ -7867,6 +7833,27 @@ $Lexicon = {
         'ashes'
       ],
       'orig' => 'quSuromil~',
+      'prefix' => ''
+    }
+  ],
+  'qA.zimbUr' => [
+    {
+      'types' => {},
+      'entry' => 'qA.zimbuwr',
+      'form' => 'qA.zimbuwr',
+      'lines' => [
+        ';; qAZimbuwr_1',
+        'qAZmbwr qAZimbuwr       Nprop   Kazempour'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Kazempour'
+      ],
+      'orig' => 'qAZimbuwr',
       'prefix' => ''
     }
   ],
@@ -10945,6 +10932,39 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        '\'aqA.siy.s' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'uq.suw.s',
+      'form' => '\'uq.suw.saT',
+      'lines' => [
+        ';; >uqoSuwSap_1',
+        '>qSwS   >uqoSuwS        Napdu   tale;novella',
+        'AqSwS   >uqoSuwS        Napdu   tale;novella',
+        '>qASyS  >aqASiyS        Ndip    tales;novellas',
+        'AqASyS  >aqASiyS        Ndip    tales;novellas'
+      ],
+      'patterns' => {
+        '\'aqA.siy.s' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'tale',
+        'novella',
+        'tales',
+        'novellas'
+      ],
+      'orig' => 'OuqoSuwSap',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'miqa.s.s',
       'form' => 'miqa.s.s',
@@ -11240,27 +11260,6 @@ $Lexicon = {
         'moonfish'
       ],
       'orig' => 'qayoSAnap',
-      'prefix' => ''
-    }
-  ],
-  'qrw^g' => [
-    {
-      'types' => {},
-      'entry' => 'qrw^g',
-      'form' => 'qrw^g',
-      'lines' => [
-        ';; qrwj_1',
-        'qrwj    qrwj    N0      Geurrouj'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Geurrouj'
-      ],
-      'orig' => 'qrwj',
       'prefix' => ''
     }
   ],
@@ -12464,6 +12463,30 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'qaddUmI' => [
+    {
+      'types' => {},
+      'entry' => 'qadduwmiy',
+      'form' => 'qadduwmiy',
+      'lines' => [
+        ';; qad~uwmiy_1',
+        'qdwmy   qad~uwmiy       N0      Qaddumi;Qaddoumi;Kaddumi;Kaddoumi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Qaddumi',
+        'Qaddoumi',
+        'Kaddumi',
+        'Kaddoumi'
+      ],
+      'orig' => 'qad~uwmiy',
+      'prefix' => ''
+    }
+  ],
   'q w `' => [
     {
       'types' => {
@@ -13361,6 +13384,46 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'qalAwU.z' => [
+    {
+      'types' => {},
+      'entry' => 'qalAwuw.z',
+      'form' => 'qalAwuw.z',
+      'lines' => [
+        ';; qalAwuwZ_1',
+        'qlAwwZ  qalAwuwZ        N       ship\'s pilot'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'ship\'s pilot'
+      ],
+      'orig' => 'qalAwuwZ',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qalAwuw.z',
+      'form' => 'qalAwuw.z',
+      'lines' => [
+        ';; qalAwuwZ_2',
+        'qlAwwZ  qalAwuwZ        N       screw'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'screw'
+      ],
+      'orig' => 'qalAwuwZ',
+      'prefix' => ''
+    }
+  ],
   'q b \'' => [
     {
       'types' => {},
@@ -13958,6 +14021,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'qarnabI.t' => [
+    {
+      'types' => {},
+      'entry' => 'qarnabiy.t',
+      'form' => 'qarnabiy.t',
+      'lines' => [
+        ';; qaronabiyT_1',
+        'qrnbyT  qaronabiyT      N       cauliflower'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'cauliflower'
+      ],
+      'orig' => 'qaronabiyT',
+      'prefix' => ''
+    }
+  ],
   'qarqa_dAn' => [
     {
       'types' => {},
@@ -14065,47 +14149,6 @@ $Lexicon = {
         'unattractiveness'
       ],
       'orig' => 'qamA\'ap',
-      'prefix' => ''
-    }
-  ],
-  'qir.giyzstAn' => [
-    {
-      'types' => {},
-      'entry' => 'qir.giyzstAn',
-      'form' => 'qir.giyzstAn',
-      'lines' => [
-        ';; qirogiyzostAn_1',
-        'qrgyzstAn       qirogiyzostAn   N0      Kyrgyzstan'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kyrgyzstan'
-      ],
-      'orig' => 'qirogiyzostAn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'qir.giyzstAn',
-      'form' => 'qir.giyzstAniyy',
-      'lines' => [
-        ';; qirogiyzostAniy~_1',
-        'qrgyzstAny      qirogiyzostAniy~        Nall    Kyrgyzstani     [[qirogiyzostAniy~/NOUN]]',
-        'qrgyzstAny      qirogiyzostAniy~        Nall    Kyrgyzstani     [[qirogiyzostAniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Kyrgyzstani'
-      ],
-      'orig' => 'qirogiyzostAniy~',
       'prefix' => ''
     }
   ],
@@ -15263,32 +15306,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'quzmuw.grAfiyA' => [
-    {
-      'types' => {
-        'quzmuw.grAfiyy' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'quzmuw.grAfiyA',
-      'form' => 'quzmuw.grAfiyA',
-      'lines' => [
-        ';; quzomuwgrAfiyA_1',
-        'qzmwgrAfyA      quzomuwgrAfiyA  N0      cosmography',
-        'qzmwgrAfy       quzomuwgrAfiy~  Nap     cosmography     [[quzomuwgrAfiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'cosmography'
-      ],
-      'orig' => 'quzomuwgrAfiyA',
-      'prefix' => ''
-    }
-  ],
   'q z .h' => [
     {
       'types' => {
@@ -15617,6 +15634,28 @@ $Lexicon = {
         'Qahtani'
       ],
       'orig' => 'qaHoTAniy~',
+      'prefix' => ''
+    }
+  ],
+  'qUrInA\'' => [
+    {
+      'types' => {},
+      'entry' => 'quwriynA\'',
+      'form' => 'quwriynA\'iyy',
+      'lines' => [
+        ';; quwriynA}iy~_1',
+        'qwrynA}y        quwriynA}iy~    Nall    Cyrenaic     [[quwriynA}iy~/NOUN]]',
+        'qwrynA}y        quwriynA}iy~    Nall    Cyrenaic     [[quwriynA}iy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Cyrenaic'
+      ],
+      'orig' => 'quwriynA}iy~',
       'prefix' => ''
     }
   ],
@@ -17304,46 +17343,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qus.tan.tiyn' => [
-    {
-      'types' => {},
-      'entry' => 'qus.tan.tiyn',
-      'form' => 'qus.tan.tiyn',
-      'lines' => [
-        ';; qusoTanoTiyn_1',
-        'qsTnTyn qusoTanoTiyn    N0      Constantine'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Constantine'
-      ],
-      'orig' => 'qusoTanoTiyn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'qus.tan.tiyn',
-      'form' => 'qus.tan.tiyniyyaT',
-      'lines' => [
-        ';; qusoTanoTiyniy~ap_1',
-        'qsTnTynyp       qusoTanoTiyniy~ap       Nprop   Constantinople'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'Constantinople'
-      ],
-      'orig' => 'qusoTanoTiyniy~ap',
-      'prefix' => ''
-    }
-  ],
   'q _t \'' => [
     {
       'types' => {},
@@ -17667,6 +17666,27 @@ $Lexicon = {
         'chopping blocks'
       ],
       'orig' => 'quromap',
+      'prefix' => ''
+    }
+  ],
+  'qunnabI.t' => [
+    {
+      'types' => {},
+      'entry' => 'qunnabiy.t',
+      'form' => 'qunnabiy.t',
+      'lines' => [
+        ';; qun~abiyT_1',
+        'qnbyT   qun~abiyT       N       cauliflower'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'cauliflower'
+      ],
+      'orig' => 'qun~abiyT',
       'prefix' => ''
     }
   ],
@@ -18415,7 +18435,7 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qiymar' => [
+  'qImar' => [
     {
       'types' => {},
       'entry' => 'qiymar',
@@ -18433,35 +18453,6 @@ $Lexicon = {
         'Qimari'
       ],
       'orig' => 'qiymariy~',
-      'prefix' => ''
-    }
-  ],
-  'qulansiy' => [
-    {
-      'types' => {
-        'qalAniys' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'qulansiy',
-      'form' => 'qulansiyaT',
-      'lines' => [
-        ';; qulanosiyap_1',
-        'qlnsy   qulanosiy       Napdu   hood;cap',
-        'qlAnys  qalAniys        Ndip    hoods;caps'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'hood',
-        'cap',
-        'hoods',
-        'caps'
-      ],
-      'orig' => 'qulanosiyap',
       'prefix' => ''
     }
   ],
@@ -20688,28 +20679,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qAbiyl' => [
-    {
-      'types' => {},
-      'entry' => 'qAbiyl',
-      'form' => 'qAbiyl',
-      'lines' => [
-        ';; qAbiyl_1',
-        'qAbyl   qAbiyl  Nprop   Qabil;Cain'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Qabil',
-        'Cain'
-      ],
-      'orig' => 'qAbiyl',
-      'prefix' => ''
-    }
-  ],
   'qaradann' => [
     {
       'types' => {},
@@ -22764,6 +22733,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'qarAqU^s' => [
+    {
+      'types' => {},
+      'entry' => 'qarAquw^s',
+      'form' => 'qarAquw^s',
+      'lines' => [
+        ';; qarAquw$_1',
+        'qrAqw$  qarAquw$        N       puppet'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'puppet'
+      ],
+      'orig' => 'qarAquw$',
+      'prefix' => ''
+    }
+  ],
   'qahqarY' => [
     {
       'types' => {
@@ -22788,27 +22778,6 @@ $Lexicon = {
         'withdrawal'
       ],
       'orig' => 'qahoqaraY',
-      'prefix' => ''
-    }
-  ],
-  'qabuwdAn' => [
-    {
-      'types' => {},
-      'entry' => 'qabuwdAn',
-      'form' => 'qabuwdAn',
-      'lines' => [
-        ';; qabuwdAn_1',
-        'qbwdAn  qabuwdAn        N       captain'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'captain'
-      ],
-      'orig' => 'qabuwdAn',
       'prefix' => ''
     }
   ],
@@ -23016,6 +22985,27 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'qiyvAr',
+      'prefix' => ''
+    }
+  ],
+  'muqAwilUn' => [
+    {
+      'types' => {},
+      'entry' => 'muqAwiluwn',
+      'form' => 'muqAwiluwn',
+      'lines' => [
+        ';; muqAwiluwn_1',
+        'mqAwlwn muqAwiluwn      N0      Muqawiloun'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Muqawiloun'
+      ],
+      'orig' => 'muqAwiluwn',
       'prefix' => ''
     }
   ],
@@ -23792,6 +23782,28 @@ $Lexicon = {
         'depressed'
       ],
       'orig' => 'munoqabiD',
+      'prefix' => ''
+    }
+  ],
+  'q h w ^g' => [
+    {
+      'types' => {},
+      'entry' => 'qahwa^g',
+      'form' => 'qahwa^giyy',
+      'lines' => [
+        ';; qahowajiy~_1',
+        'qhwjy   qahowajiy~      N-ap    cafe manager;coffee cook     [[qahowajiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KaRDaS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'cafe manager',
+        'coffee cook'
+      ],
+      'orig' => 'qahowajiy~',
       'prefix' => ''
     }
   ],
@@ -25115,6 +25127,63 @@ $Lexicon = {
   'q h y' => [
     {
       'types' => {
+        'maqAhiy' => {
+          'N0_Nh' => 1
+        },
+        'maqhA' => {
+          'Nhy' => 1
+        }
+      },
+      'entry' => 'maqhY',
+      'form' => 'maqhY',
+      'lines' => [
+        ';; maqohaY_1',
+        'mqhY    maqohaY N0      cafe;coffeehouse',
+        'mqhA    maqohA  Nhy     cafe;coffeehouse',
+        'mqhy    maqohay NAn_Nayn        cafes;coffeehouses',
+        'mqAhy   maqAhiy N0_Nh   cafes;coffeehouses',
+        'mqAh    maqAh   NK      cafes;coffeehouses'
+      ],
+      'patterns' => {
+        'maqAhiy' => [
+          'MaFACI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCY',
+      'suffix' => '',
+      'glosses' => [
+        'cafe',
+        'coffeehouse',
+        'cafes',
+        'coffeehouses'
+      ],
+      'orig' => 'maqohaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'maqhY',
+      'form' => 'maqhAT',
+      'lines' => [
+        ';; maqohAp_1',
+        'mqhA    maqohA  Napdu   cafe;coffeehouse'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCY |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'cafe',
+        'coffeehouse'
+      ],
+      'orig' => 'maqohAp',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'qhay' => {
           'IV_Ann' => 1
         },
@@ -25494,6 +25563,35 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'qASiy',
+      'prefix' => ''
+    }
+  ],
+  '\'iqlId' => [
+    {
+      'types' => {
+        '\'aqAliyd' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'iqliyd',
+      'form' => '\'iqliyd',
+      'lines' => [
+        ';; <iqoliyd_1',
+        '<qlyd   <iqoliyd        Ndu     key',
+        'Aqlyd   <iqoliyd        Ndu     key',
+        '>qAlyd  >aqAliyd        Ndip    keys',
+        'AqAlyd  >aqAliyd        Ndip    keys'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'key',
+        'keys'
+      ],
+      'orig' => 'Iiqoliyd',
       'prefix' => ''
     }
   ],
@@ -28820,46 +28918,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qalAwuwz' => [
-    {
-      'types' => {},
-      'entry' => 'qalAwuwz',
-      'form' => 'qalAwuwz',
-      'lines' => [
-        ';; qalAwuwz_1',
-        'qlAwwz  qalAwuwz        N       ship\'s pilot'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'ship\'s pilot'
-      ],
-      'orig' => 'qalAwuwz',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'qalAwuwz',
-      'form' => 'qalAwuwz',
-      'lines' => [
-        ';; qalAwuwz_2',
-        'qlAwwz  qalAwuwz        N       screw'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'screw'
-      ],
-      'orig' => 'qalAwuwz',
-      'prefix' => ''
-    }
-  ],
   'q .s f' => [
     {
       'types' => {
@@ -29698,27 +29756,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qun.sulAtuw' => [
-    {
-      'types' => {},
-      'entry' => 'qun.sulAtuw',
-      'form' => 'qun.sulAtuw',
-      'lines' => [
-        ';; qunoSulAtuw_1',
-        'qnSlAtw qunoSulAtuw     N0      consulate'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'consulate'
-      ],
-      'orig' => 'qunoSulAtuw',
-      'prefix' => ''
-    }
-  ],
   'q l s' => [
     {
       'types' => {
@@ -29830,6 +29867,32 @@ $Lexicon = {
         'ropes'
       ],
       'orig' => 'qalos',
+      'prefix' => ''
+    }
+  ],
+  'quzmU.grAfiyA' => [
+    {
+      'types' => {
+        'quzmuw.grAfiyy' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'quzmuw.grAfiyA',
+      'form' => 'quzmuw.grAfiyA',
+      'lines' => [
+        ';; quzomuwgrAfiyA_1',
+        'qzmwgrAfyA      quzomuwgrAfiyA  N0      cosmography',
+        'qzmwgrAfy       quzomuwgrAfiy~  Nap     cosmography     [[quzomuwgrAfiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'cosmography'
+      ],
+      'orig' => 'quzomuwgrAfiyA',
       'prefix' => ''
     }
   ],
@@ -30279,27 +30342,6 @@ $Lexicon = {
         'perpetrator'
       ],
       'orig' => 'muqotarif',
-      'prefix' => ''
-    }
-  ],
-  'qalAyiydih' => [
-    {
-      'types' => {},
-      'entry' => 'qalAyiydih',
-      'form' => 'qalAyiydih',
-      'lines' => [
-        ';; qalAyiydih_1',
-        'qlAyydh qalAyiydih      Nprop   Galaydeh'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Galaydeh'
-      ],
-      'orig' => 'qalAyiydih',
       'prefix' => ''
     }
   ],
@@ -31200,32 +31242,6 @@ $Lexicon = {
         'hunchbacked'
       ],
       'orig' => 'muqawotab',
-      'prefix' => ''
-    }
-  ],
-  'qaraquwz' => [
-    {
-      'types' => {
-        'qarakuwz' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'qaraquwz',
-      'form' => 'qaraquwz',
-      'lines' => [
-        ';; qaraquwz_1',
-        'qrqwz   qaraquwz        N       puppet',
-        'qrkwz   qarakuwz        N       puppet'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'puppet'
-      ],
-      'orig' => 'qaraquwz',
       'prefix' => ''
     }
   ],
@@ -32284,28 +32300,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qiy^sAniy' => [
-    {
-      'types' => {},
-      'entry' => 'qiy^sAniy',
-      'form' => 'qiy^sAniy',
-      'lines' => [
-        ';; qiy$Aniy_1',
-        'qy$Any  qiy$Aniy        N0      glazed tiles;porcelain'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'glazed tiles',
-        'porcelain'
-      ],
-      'orig' => 'qiy$Aniy',
-      'prefix' => ''
-    }
-  ],
   'qablamA' => [
     {
       'types' => {},
@@ -32345,46 +32339,6 @@ $Lexicon = {
         'maple'
       ],
       'orig' => 'qayoqab',
-      'prefix' => ''
-    }
-  ],
-  'qalAwuw.z' => [
-    {
-      'types' => {},
-      'entry' => 'qalAwuw.z',
-      'form' => 'qalAwuw.z',
-      'lines' => [
-        ';; qalAwuwZ_1',
-        'qlAwwZ  qalAwuwZ        N       ship\'s pilot'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'ship\'s pilot'
-      ],
-      'orig' => 'qalAwuwZ',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'qalAwuw.z',
-      'form' => 'qalAwuw.z',
-      'lines' => [
-        ';; qalAwuwZ_2',
-        'qlAwwZ  qalAwuwZ        N       screw'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'screw'
-      ],
-      'orig' => 'qalAwuwZ',
       'prefix' => ''
     }
   ],
@@ -33513,6 +33467,27 @@ $Lexicon = {
       'suffix' => ' |< aT',
       'glosses' => [],
       'orig' => 'qAfiyap',
+      'prefix' => ''
+    }
+  ],
+  'qalAyIdih' => [
+    {
+      'types' => {},
+      'entry' => 'qalAyiydih',
+      'form' => 'qalAyiydih',
+      'lines' => [
+        ';; qalAyiydih_1',
+        'qlAyydh qalAyiydih      Nprop   Galaydeh'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Galaydeh'
+      ],
+      'orig' => 'qalAyiydih',
       'prefix' => ''
     }
   ],
@@ -35388,27 +35363,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'quwmandAn' => [
-    {
-      'types' => {},
-      'entry' => 'quwmandAn',
-      'form' => 'quwmandAn',
-      'lines' => [
-        ';; quwmanodAn_1',
-        'qwmndAn quwmanodAn      N       commandant'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'commandant'
-      ],
-      'orig' => 'quwmanodAn',
-      'prefix' => ''
-    }
-  ],
   'q z `' => [
     {
       'types' => {
@@ -36245,28 +36199,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qahwa^giyy' => [
-    {
-      'types' => {},
-      'entry' => 'qahwa^giyy',
-      'form' => 'qahwa^giyy',
-      'lines' => [
-        ';; qahowajiy~_1',
-        'qhwjy   qahowajiy~      N-ap    cafe manager;coffee cook     [[qahowajiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'cafe manager',
-        'coffee cook'
-      ],
-      'orig' => 'qahowajiy~',
-      'prefix' => ''
-    }
-  ],
   'q y \'' => [
     {
       'types' => {},
@@ -36793,14 +36725,23 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qarAquw^s' => [
+  'qarabUs' => [
     {
-      'types' => {},
-      'entry' => 'qarAquw^s',
-      'form' => 'qarAquw^s',
+      'types' => {
+        'qarAbiys' => {
+          'Ndip' => 1
+        },
+        'qarbuws' => {
+          'Ndu' => 1
+        }
+      },
+      'entry' => 'qarabuws',
+      'form' => 'qarabuws',
       'lines' => [
-        ';; qarAquw$_1',
-        'qrAqw$  qarAquw$        N       puppet'
+        ';; qarabuws_1',
+        'qrbws   qarabuws        Ndu     saddlebow',
+        'qrbws   qarobuws        Ndu     saddlebow',
+        'qrAbys  qarAbiys        Ndip    saddlebows'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36808,9 +36749,10 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'puppet'
+        'saddlebow',
+        'saddlebows'
       ],
-      'orig' => 'qarAquw$',
+      'orig' => 'qarabuws',
       'prefix' => ''
     }
   ],
@@ -37422,6 +37364,39 @@ $Lexicon = {
         'stubs'
       ],
       'orig' => 'qasiymap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'aqAsiym' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'uqsuwm',
+      'form' => '\'uqsuwmaT',
+      'lines' => [
+        ';; >uqosuwmap_1',
+        '>qswm   >uqosuwm        Napdu   lot;portion',
+        'Aqswm   >uqosuwm        Napdu   lot;portion',
+        '>qAsym  >aqAsiym        Ndip    lots;portions',
+        'AqAsym  >aqAsiym        Ndip    lots;portions'
+      ],
+      'patterns' => {
+        '\'aqAsiym' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'lot',
+        'portion',
+        'lots',
+        'portions'
+      ],
+      'orig' => 'Ouqosuwmap',
       'prefix' => ''
     },
     {
@@ -39108,6 +39083,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'qirIm' => [
+    {
+      'types' => {},
+      'entry' => 'qiriym',
+      'form' => 'qiriym',
+      'lines' => [
+        ';; qiriym_1',
+        'qrym    qiriym  N       Crimea'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Crimea'
+      ],
+      'orig' => 'qiriym',
+      'prefix' => ''
+    }
+  ],
   'q f z' => [
     {
       'types' => {
@@ -39487,6 +39483,46 @@ $Lexicon = {
         'unstable'
       ],
       'orig' => 'muqaloqal',
+      'prefix' => ''
+    }
+  ],
+  'qalAwUz' => [
+    {
+      'types' => {},
+      'entry' => 'qalAwuwz',
+      'form' => 'qalAwuwz',
+      'lines' => [
+        ';; qalAwuwz_1',
+        'qlAwwz  qalAwuwz        N       ship\'s pilot'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'ship\'s pilot'
+      ],
+      'orig' => 'qalAwuwz',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qalAwuwz',
+      'form' => 'qalAwuwz',
+      'lines' => [
+        ';; qalAwuwz_2',
+        'qlAwwz  qalAwuwz        N       screw'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'screw'
+      ],
+      'orig' => 'qalAwuwz',
       'prefix' => ''
     }
   ],
@@ -40325,6 +40361,28 @@ $Lexicon = {
         'dust particles'
       ],
       'orig' => 'qi*aY',
+      'prefix' => ''
+    }
+  ],
+  'qAbIl' => [
+    {
+      'types' => {},
+      'entry' => 'qAbiyl',
+      'form' => 'qAbiyl',
+      'lines' => [
+        ';; qAbiyl_1',
+        'qAbyl   qAbiyl  Nprop   Qabil;Cain'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Qabil',
+        'Cain'
+      ],
+      'orig' => 'qAbiyl',
       'prefix' => ''
     }
   ],
@@ -41800,27 +41858,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qiriym' => [
-    {
-      'types' => {},
-      'entry' => 'qiriym',
-      'form' => 'qiriym',
-      'lines' => [
-        ';; qiriym_1',
-        'qrym    qiriym  N       Crimea'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Crimea'
-      ],
-      'orig' => 'qiriym',
-      'prefix' => ''
-    }
-  ],
   'q ^s .t' => [
     {
       'types' => {
@@ -43105,6 +43142,46 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'qus.tan.tIn' => [
+    {
+      'types' => {},
+      'entry' => 'qus.tan.tiyn',
+      'form' => 'qus.tan.tiyn',
+      'lines' => [
+        ';; qusoTanoTiyn_1',
+        'qsTnTyn qusoTanoTiyn    N0      Constantine'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Constantine'
+      ],
+      'orig' => 'qusoTanoTiyn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qus.tan.tiyn',
+      'form' => 'qus.tan.tiyniyyaT',
+      'lines' => [
+        ';; qusoTanoTiyniy~ap_1',
+        'qsTnTynyp       qusoTanoTiyniy~ap       Nprop   Constantinople'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'Constantinople'
+      ],
+      'orig' => 'qusoTanoTiyniy~ap',
+      'prefix' => ''
+    }
+  ],
   'q r q' => [
     {
       'types' => {
@@ -43452,34 +43529,25 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'uq.suw.s' => [
+  'qI^sAnI' => [
     {
-      'types' => {
-        '\'aqA.siy.s' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'uq.suw.s',
-      'form' => '\'uq.suw.saT',
+      'types' => {},
+      'entry' => 'qiy^sAniy',
+      'form' => 'qiy^sAniy',
       'lines' => [
-        ';; >uqoSuwSap_1',
-        '>qSwS   >uqoSuwS        Napdu   tale;novella',
-        'AqSwS   >uqoSuwS        Napdu   tale;novella',
-        '>qASyS  >aqASiyS        Ndip    tales;novellas',
-        'AqASyS  >aqASiyS        Ndip    tales;novellas'
+        ';; qiy$Aniy_1',
+        'qy$Any  qiy$Aniy        N0      glazed tiles;porcelain'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'tale',
-        'novella',
-        'tales',
-        'novellas'
+        'glazed tiles',
+        'porcelain'
       ],
-      'orig' => 'OuqoSuwSap',
+      'orig' => 'qiy$Aniy',
       'prefix' => ''
     }
   ],
@@ -44806,27 +44874,6 @@ $Lexicon = {
         'before then'
       ],
       'orig' => 'qabola}i*K',
-      'prefix' => ''
-    }
-  ],
-  'quwquryAl' => [
-    {
-      'types' => {},
-      'entry' => 'quwquryAl',
-      'form' => 'quwquryAl',
-      'lines' => [
-        ';; quwquroyAl_1',
-        'qwqryAl quwquroyAl      Nprop   Gogorial (Gorgorial??)'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Gogorial (Gorgorial??)'
-      ],
-      'orig' => 'quwquroyAl',
       'prefix' => ''
     }
   ],
@@ -46517,6 +46564,29 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'qu^s`arIr' => [
+    {
+      'types' => {},
+      'entry' => 'qu^s`ariyr',
+      'form' => 'qu^s`ariyraT',
+      'lines' => [
+        ';; qu$oEariyrap_1',
+        'q$Eryr  qu$oEariyr      Nap     shuddering;trembling;goose bumps'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'shuddering',
+        'trembling',
+        'goose bumps'
+      ],
+      'orig' => 'qu$oEariyrap',
+      'prefix' => ''
+    }
+  ],
   'q t m' => [
     {
       'types' => {
@@ -47430,6 +47500,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'qA^sAnI' => [
+    {
+      'types' => {},
+      'entry' => 'qA^sAniy',
+      'form' => 'qA^sAniy',
+      'lines' => [
+        ';; qA$Aniy_1',
+        'qA$Any  qA$Aniy N0      glazed tiles;porcelain'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'glazed tiles',
+        'porcelain'
+      ],
+      'orig' => 'qA$Aniy',
+      'prefix' => ''
+    }
+  ],
   'q w r' => [
     {
       'types' => {
@@ -47674,28 +47766,6 @@ $Lexicon = {
         'gouge'
       ],
       'orig' => 'miqowarap',
-      'prefix' => ''
-    }
-  ],
-  'qA^sAniy' => [
-    {
-      'types' => {},
-      'entry' => 'qA^sAniy',
-      'form' => 'qA^sAniy',
-      'lines' => [
-        ';; qA$Aniy_1',
-        'qA$Any  qA$Aniy N0      glazed tiles;porcelain'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'glazed tiles',
-        'porcelain'
-      ],
-      'orig' => 'qA$Aniy',
       'prefix' => ''
     }
   ],
@@ -48631,6 +48701,54 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'qalansU' => [
+    {
+      'types' => {
+        'qalAnis' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'qalansuw',
+      'form' => 'qalansuwaT',
+      'lines' => [
+        ';; qalanosuwap_1',
+        'qlnsw   qalanosuw       Napdu   hood;cap',
+        'qlAns   qalAnis Ndip    hoods;caps'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'hood',
+        'cap',
+        'hoods',
+        'caps'
+      ],
+      'orig' => 'qalanosuwap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qalansuw',
+      'form' => 'qalansuwaT',
+      'lines' => [
+        ';; qalanosuwap_2',
+        'qlnsw   qalanosuw       Nap     Qalansua'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'Qalansua'
+      ],
+      'orig' => 'qalanosuwap',
+      'prefix' => ''
+    }
+  ],
   'q l y' => [
     {
       'types' => {},
@@ -49439,6 +49557,46 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'quzmU.grAf' => [
+    {
+      'types' => {},
+      'entry' => 'quzmuw.grAf',
+      'form' => 'quzmuw.grAfiyy',
+      'lines' => [
+        ';; quzomuwgrAfiy~_1',
+        'qzmwgrAfy       quzomuwgrAfiy~  N-ap    cosmographic     [[quzomuwgrAfiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'cosmographic'
+      ],
+      'orig' => 'quzomuwgrAfiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'quzmuw.grAf',
+      'form' => 'quzmuw.grAfiyy',
+      'lines' => [
+        ';; quzomuwgrAfiy~_2',
+        'qzmwgrAfy       quzomuwgrAfiy~  Nall    cosmographer     [[quzomuwgrAfiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'cosmographer'
+      ],
+      'orig' => 'quzomuwgrAfiy~',
+      'prefix' => ''
+    }
+  ],
   'q .s d' => [
     {
       'types' => {
@@ -50035,25 +50193,46 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'quwriynA\'' => [
+  'qAdrUf' => [
     {
       'types' => {},
-      'entry' => 'quwriynA\'',
-      'form' => 'quwriynA\'iyy',
+      'entry' => 'qAdruwf',
+      'form' => 'qAdruwf',
       'lines' => [
-        ';; quwriynA}iy~_1',
-        'qwrynA}y        quwriynA}iy~    Nall    Cyrenaic     [[quwriynA}iy~/NOUN]]',
-        'qwrynA}y        quwriynA}iy~    Nall    Cyrenaic     [[quwriynA}iy~/ADJ]]'
+        ';; qAdruwf_1',
+        'qAdrwf  qAdruwf Nprop   Kadyrov'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
       'glosses' => [
-        'Cyrenaic'
+        'Kadyrov'
       ],
-      'orig' => 'quwriynA}iy~',
+      'orig' => 'qAdruwf',
+      'prefix' => ''
+    }
+  ],
+  'yaq.tIn' => [
+    {
+      'types' => {},
+      'entry' => 'yaq.tiyn',
+      'form' => 'yaq.tiyn',
+      'lines' => [
+        ';; yaqoTiyn_1',
+        'yqTyn   yaqoTiyn        N       squash',
+        'yqTyn   yaqoTiyn        Napdu   squash'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'squash'
+      ],
+      'orig' => 'yaqoTiyn',
       'prefix' => ''
     }
   ],
@@ -50245,37 +50424,6 @@ $Lexicon = {
         'Castilians'
       ],
       'orig' => 'qasoTiyliy~',
-      'prefix' => ''
-    }
-  ],
-  '\'uqsuwm' => [
-    {
-      'types' => {
-        '\'aqAsiym' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'uqsuwm',
-      'form' => '\'uqsuwmaT',
-      'lines' => [
-        ';; >uqosuwmap_1',
-        '>qswm   >uqosuwm        Napdu   lot;portion',
-        'Aqswm   >uqosuwm        Napdu   lot;portion',
-        '>qAsym  >aqAsiym        Ndip    lots;portions',
-        'AqAsym  >aqAsiym        Ndip    lots;portions'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'lot',
-        'portion',
-        'lots',
-        'portions'
-      ],
-      'orig' => 'Ouqosuwmap',
       'prefix' => ''
     }
   ],
@@ -50512,6 +50660,27 @@ $Lexicon = {
         'Castilians'
       ],
       'orig' => 'qa$oTiyliy~',
+      'prefix' => ''
+    }
+  ],
+  'qa.tramIz' => [
+    {
+      'types' => {},
+      'entry' => 'qa.tramiyz',
+      'form' => 'qa.tramiyz',
+      'lines' => [
+        ';; qaToramiyz_1',
+        'qTrmyz  qaToramiyz      N       large glass bottle'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'large glass bottle'
+      ],
+      'orig' => 'qaToramiyz',
       'prefix' => ''
     }
   ],
@@ -51539,27 +51708,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qA.zimbuwr' => [
-    {
-      'types' => {},
-      'entry' => 'qA.zimbuwr',
-      'form' => 'qA.zimbuwr',
-      'lines' => [
-        ';; qAZimbuwr_1',
-        'qAZmbwr qAZimbuwr       Nprop   Kazempour'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kazempour'
-      ],
-      'orig' => 'qAZimbuwr',
-      'prefix' => ''
-    }
-  ],
   'qurray.s' => [
     {
       'types' => {},
@@ -51578,6 +51726,32 @@ $Lexicon = {
         'stinging nettle'
       ],
       'orig' => 'qur~ayoS',
+      'prefix' => ''
+    }
+  ],
+  'qaraqUz' => [
+    {
+      'types' => {
+        'qarakuwz' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'qaraquwz',
+      'form' => 'qaraquwz',
+      'lines' => [
+        ';; qaraquwz_1',
+        'qrqwz   qaraquwz        N       puppet',
+        'qrkwz   qarakuwz        N       puppet'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'puppet'
+      ],
+      'orig' => 'qaraquwz',
       'prefix' => ''
     }
   ],
@@ -52436,52 +52610,6 @@ $Lexicon = {
         'death-defying'
       ],
       'orig' => 'musotaqotil',
-      'prefix' => ''
-    }
-  ],
-  'qadduwmiy' => [
-    {
-      'types' => {},
-      'entry' => 'qadduwmiy',
-      'form' => 'qadduwmiy',
-      'lines' => [
-        ';; qad~uwmiy_1',
-        'qdwmy   qad~uwmiy       N0      Qaddumi;Qaddoumi;Kaddumi;Kaddoumi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Qaddumi',
-        'Qaddoumi',
-        'Kaddumi',
-        'Kaddoumi'
-      ],
-      'orig' => 'qad~uwmiy',
-      'prefix' => ''
-    }
-  ],
-  'qazwiyniyy' => [
-    {
-      'types' => {},
-      'entry' => 'qazwiyniyy',
-      'form' => 'qazwiyniyy',
-      'lines' => [
-        ';; qazowiyniy~_1',
-        'qzwyny  qazowiyniy~     Nall    Caspian     [[qazowiyniy~/NOUN]]',
-        'qzwyny  qazowiyniy~     Nall    Caspian     [[qazowiyniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Caspian'
-      ],
-      'orig' => 'qazowiyniy~',
       'prefix' => ''
     }
   ],
@@ -54040,6 +54168,35 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'qulansI' => [
+    {
+      'types' => {
+        'qalAniys' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'qulansiy',
+      'form' => 'qulansiyaT',
+      'lines' => [
+        ';; qulanosiyap_1',
+        'qlnsy   qulanosiy       Napdu   hood;cap',
+        'qlAnys  qalAniys        Ndip    hoods;caps'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'hood',
+        'cap',
+        'hoods',
+        'caps'
+      ],
+      'orig' => 'qulanosiyap',
+      'prefix' => ''
+    }
+  ],
   'q .t m r' => [
     {
       'types' => {},
@@ -54419,46 +54576,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'quzmuw.grAfiyy' => [
-    {
-      'types' => {},
-      'entry' => 'quzmuw.grAfiyy',
-      'form' => 'quzmuw.grAfiyy',
-      'lines' => [
-        ';; quzomuwgrAfiy~_1',
-        'qzmwgrAfy       quzomuwgrAfiy~  N-ap    cosmographic     [[quzomuwgrAfiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'cosmographic'
-      ],
-      'orig' => 'quzomuwgrAfiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'quzmuw.grAfiyy',
-      'form' => 'quzmuw.grAfiyy',
-      'lines' => [
-        ';; quzomuwgrAfiy~_2',
-        'qzmwgrAfy       quzomuwgrAfiy~  Nall    cosmographer     [[quzomuwgrAfiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'cosmographer'
-      ],
-      'orig' => 'quzomuwgrAfiy~',
-      'prefix' => ''
-    }
-  ],
   'q m .h' => [
     {
       'types' => {
@@ -54719,63 +54836,6 @@ $Lexicon = {
       ],
       'orig' => 'qahowAtiy~ap',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        'maqAhiy' => {
-          'N0_Nh' => 1
-        },
-        'maqhA' => {
-          'Nhy' => 1
-        }
-      },
-      'entry' => 'maqhY',
-      'form' => 'maqhY',
-      'lines' => [
-        ';; maqohaY_1',
-        'mqhY    maqohaY N0      cafe;coffeehouse',
-        'mqhA    maqohA  Nhy     cafe;coffeehouse',
-        'mqhy    maqohay NAn_Nayn        cafes;coffeehouses',
-        'mqAhy   maqAhiy N0_Nh   cafes;coffeehouses',
-        'mqAh    maqAh   NK      cafes;coffeehouses'
-      ],
-      'patterns' => {
-        'maqAhiy' => [
-          'MaFACI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MaFCY',
-      'suffix' => '',
-      'glosses' => [
-        'cafe',
-        'coffeehouse',
-        'cafes',
-        'coffeehouses'
-      ],
-      'orig' => 'maqohaY',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'maqhY',
-      'form' => 'maqhAT',
-      'lines' => [
-        ';; maqohAp_1',
-        'mqhA    maqohA  Napdu   cafe;coffeehouse'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MaFCY |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'cafe',
-        'coffeehouse'
-      ],
-      'orig' => 'maqohAp',
-      'prefix' => ''
     }
   ],
   'q r d' => [
@@ -54897,27 +54957,6 @@ $Lexicon = {
         'exhausted'
       ],
       'orig' => 'maqoruwd',
-      'prefix' => ''
-    }
-  ],
-  'qAdruwf' => [
-    {
-      'types' => {},
-      'entry' => 'qAdruwf',
-      'form' => 'qAdruwf',
-      'lines' => [
-        ';; qAdruwf_1',
-        'qAdrwf  qAdruwf Nprop   Kadyrov'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Kadyrov'
-      ],
-      'orig' => 'qAdruwf',
       'prefix' => ''
     }
   ],
@@ -55173,6 +55212,27 @@ $Lexicon = {
         'tetters'
       ],
       'orig' => 'quwabA\'',
+      'prefix' => ''
+    }
+  ],
+  'qarabIn' => [
+    {
+      'types' => {},
+      'entry' => 'qarabiyn',
+      'form' => 'qarabiynaT',
+      'lines' => [
+        ';; qarabiynap_1',
+        'qrbyn   qarabiyn        NapAt   carbine'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'carbine'
+      ],
+      'orig' => 'qarabiynap',
       'prefix' => ''
     }
   ],
@@ -55659,58 +55719,6 @@ $Lexicon = {
         'commanders'
       ],
       'orig' => 'quboTAn',
-      'prefix' => ''
-    }
-  ],
-  'quwmisiyr' => [
-    {
-      'types' => {},
-      'entry' => 'quwmisiyr',
-      'form' => 'quwmisiyr',
-      'lines' => [
-        ';; quwmisiyr_1',
-        'qwmsyr  quwmisiyr       N       commissioner'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'commissioner'
-      ],
-      'orig' => 'quwmisiyr',
-      'prefix' => ''
-    }
-  ],
-  '\'uqnuwm' => [
-    {
-      'types' => {
-        '\'aqAniym' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'uqnuwm',
-      'form' => '\'uqnuwm',
-      'lines' => [
-        ';; >uqonuwm_1',
-        '>qnwm   >uqonuwm        Ndu     hypostasis (person of the Trinity);basic element',
-        'Aqnwm   >uqonuwm        Ndu     hypostasis (person of the Trinity);basic element',
-        '>qAnym  >aqAniym        Ndip    hypostases (persons of the Trinity);basic elements',
-        'AqAnym  >aqAniym        Ndip    hypostases (persons of the Trinity);basic elements'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'hypostasis (person of the Trinity)',
-        'basic element',
-        'hypostases (persons of the Trinity)',
-        'basic elements'
-      ],
-      'orig' => 'Ouqonuwm',
       'prefix' => ''
     }
   ],
