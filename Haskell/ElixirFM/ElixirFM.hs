@@ -44,6 +44,8 @@ import Elixir.Template
 import FM.Arabic.Rules
 import FM.Arabic.Types
 
+import FM.Generic.General
+
 import Encode
 import Encode.Arabic
 

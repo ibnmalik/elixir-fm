@@ -31,6 +31,7 @@ data Tag = TagVerbP             [Voice] [Person] [Gender] [Number]
          | TagVerbI [Mood]      [Voice] [Person] [Gender] [Number]
          | TagVerbC                              [Gender] [Number]
          | TagNounS [Humanness] [Voice]          [Gender] [Number] [Case] [State]
+         | TagAdjA  [Humanness] [Voice]          [Gender] [Number] [Case] [State]
          | TagError String
 
     deriving Eq
@@ -54,6 +55,10 @@ instance Show Tag where
                                                 noshowlist, noshowlist]
 
     show (TagNounS h v g n c s) = "N" ++ concat [noshowlist, showlist h, showlist v,
+                                                 noshowlist, noshowlist, showlist g,
+                                                 showlist n, showlist c, showlist s]
+
+    show (TagAdjA  h v g n c s) = "A" ++ concat [noshowlist, showlist h, showlist v,
                                                  noshowlist, noshowlist, showlist g,
                                                  showlist n, showlist c, showlist s]
 
@@ -83,6 +88,12 @@ isTagParaNoun (TagNounS _ _ _ _ _ _) = True
 isTagParaNoun _ = False
 
 
+isTagParaAdj :: Tag -> Bool
+
+isTagParaAdj (TagAdjA _ _ _ _ _ _) = True
+isTagParaAdj _ = False
+
+
 expandTag :: Tag -> [String]    -- instance Inflect RootEntry Tag
 
 expandTag y = case y of
@@ -108,6 +119,13 @@ expandTag y = case y of
                                                 n' <- vals n,
                                                 c' <- vals c,
                                                 s' <- vals s ]
+
+    TagAdjA  h v   g n c s  ->  map show [ AdjA g' n' c' s' |
+                                                g' <- vals g,
+                                                n' <- vals n,
+                                                c' <- vals c,
+                                                s' <- vals s ]
+
     _                       ->  []
 
     where vals [] = values
@@ -126,6 +144,11 @@ readTags = unTags . read
 expandTags :: Tags -> [[String]]
 expandTags = map expandTag . unTags
 
+expandReadTags :: String -> [[String]]
+expandReadTags = map expandTag . readTags
+
+-- let t = "V--A-3----" in putStr $ unlines . map show $ zip (concat $ expandReadTags t) (inflect (RE "q w l" $ FAL `verb` []) t)
+
 
 instance Read Tags where
 
@@ -139,7 +162,7 @@ instance Read Tags where
                        (y6, x7) <- readSlot x6, (y7, x8) <- readSlot x7,
                        (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
 
-                let rs = [ r | v0 <- if y0 == "-" then "VN" else y0,
+                let rs = [ r | v0 <- if y0 == "-" then "VNA" else y0,
                                v1 <- if y1 == "-" then "PIC-" else y1,
                                let r = case [v0,v1] of
 
@@ -158,6 +181,13 @@ instance Read Tags where
                                                      (readData y7)
 
                                     "N-" -> TagNounS (readData y2)
+                                                     (readData y3)
+                                                     (readData y6)
+                                                     (readData y7)
+                                                     (readData y8)
+                                                     (readData y9)
+
+                                    "A-" -> TagAdjA  (readData y2)
                                                      (readData y3)
                                                      (readData y6)
                                                      (readData y7)
@@ -306,6 +336,22 @@ instance Show ParaNoun where
 instance Enum ParaNoun where
     fromEnum x = head [ n | (y, n) <- zip values [0 ..], x == y ]
     toEnum = (!!) values
+
+
+data ParaAdj    = AdjA       Gender Number Case State
+    deriving Eq
+
+
+instance Param ParaAdj where
+
+    values  =  [ AdjA   g n c s | n <- values, g <- values,
+                                  s <- values, c <- values ]
+
+
+instance Show ParaAdj where
+
+    show (AdjA   g n c s) =     "AA----" ++
+                                    [show' g, show' n, show' c, show' s]
 
 
 data Couple a b = a :-: b

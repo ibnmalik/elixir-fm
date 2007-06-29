@@ -48,6 +48,13 @@ type Root = String
 data RootEntry a = RE Root (Entry a)
 
 
+-- prettyInflect :: (Morphing a a, Forming a, Rules a, Template a, Inflect b c) => b a -> c -> IO ()
+prettyInflect x y = (putStr . unlines . map show) (zip tags infs)
+
+    where infs = inflect x y
+          tags = (concat . expandReadTags) y
+
+
 class Inflect m p where
 
     inflect :: (Template a, Rules a, Forming a, Morphing a a, Morphing (Morphs a) a) =>
@@ -70,6 +77,13 @@ head [ l | NestT r l <- lexicon, r == "k t b" ]  !! 3
 instance Inflect RootEntry a => Inflect Entry a where
 
     inflect x = inflect (RE "f ` l" x)
+
+
+-- instance Inflect RootEntry a => Inflect ((,) String . Entry) a where
+--
+--     inflect (r, x) = inflect (RE r x)
+
+inflect' (r, x) = inflect (RE r (x `adj` []))
 
 
 instance Inflect Entry ParaVerb where
@@ -107,6 +121,13 @@ instance Inflect RootEntry Tag where
                                                     n' <- vals n,
                                                     c' <- vals c,
                                                     s' <- vals s ]
+
+        TagAdjA  h v   g n c s  ->  inflect x [ AdjA g' n' c' s' |
+                                                    g' <- vals g,
+                                                    n' <- vals n,
+                                                    c' <- vals c,
+                                                    s' <- vals s ]
+
         _                       ->  []
 
         where vals [] = values
@@ -117,6 +138,7 @@ instance Inflect RootEntry String where
 
     inflect x@(RE r e) | isVerb et = inflectOnly isTagParaVerb x
                        | isNoun et = inflectOnly isTagParaNoun x
+                       | isAdj  et = inflectOnly isTagParaAdj  x
                        | otherwise = const []
 
         where inflectOnly x y = inflect y . filter x . -- more efficient --
@@ -508,6 +530,34 @@ paraVerbC g n i = case n of
                 Feminine  ->  prefix i . suffix "na"
 
 
+instance Inflect RootEntry ParaAdj where
+
+    inflect (RE r e) x  | (not . isAdj) (entity e) = []
+
+    inflect x@(RE r e) y@(AdjA g n c s) = [inflectAdjA x y]
+
+    inflect _          _               = error "Unexpected case ..."
+
+
+
+inflectAdjA (RE r e) (AdjA g n c s) = (map (inRules r c s) . inEntry' g n) e
+
+
+inEntry' Masculine Plural e = case entity e of Adj  l   _  | null l -> [Right (morphs e |< Un)]
+                                                           | otherwise -> l
+                                               _           -> error "Incompatible Adj"
+
+inEntry' Feminine  Plural e = [Right (morphs e |< At)]
+
+inEntry' Masculine Dual e = [Right (morphs e |< An)]
+
+inEntry' Feminine  Dual e = [Right (morphs e |< aT |< An)]
+
+inEntry' Masculine _ e = [Right (morphs e)]
+
+inEntry' Feminine  _ e = [Right (morphs e |< aT)]
+
+
 instance Inflect RootEntry ParaNoun where
 
     inflect (RE r e) x  | (not . isNoun) (entity e) = []
@@ -534,7 +584,7 @@ inRules r c (d :-: a) y = (merge root . article . endings c d a) m
 
     where (root, m@(Morphs t p s)) = either id (\ m -> (r, m)) y
 
-          article = case d of   Just True        -> id -- (al >|)
+          article = case d of   Just True        -> (al >|) -- id
                                 _                -> id
 
           endings = case s of   Un : _           -> paraMasculine `with` reduce

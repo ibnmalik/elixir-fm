@@ -30,37 +30,98 @@ import Elixir.Template
 import Encode
 import Encode.Arabic
 
-recode = map (encode Tim . decode TeX . (++) "\\noneplus ")
+import Data.List
+
+
+-- import FM.Generic.CommonMain (analyze) as FM
+
+-- import FM.Generic.CommonMain
+
+
+-- let y = "'a_hran.timu" in [ root x  | x <- lexicon, isSubsumed (root x) y, let s = case x of NestT r l -> [ inflect (RE r z) "----------" | z <- l ] ;NestQ r l -> [ inflect (RE r z) "----------" | z <- l ];NestL r l -> [ inflect (RE r z) "----------"| z <- l ], h <- s, i <- h, j<- i, j == y]
+
+
+-- analyze :: String -> Nest
+
+analyze' = analyzeWith lexicon
+
+analyzeWith l y  = [ root x | x <- l, isSubsumed (root x) y,
+                              let s = case x of
+                                        NestT r l -> [ inflect (RE r z) "----------" | z <- l ]
+                                        NestQ r l -> [ inflect (RE r z) "----------" | z <- l ]
+                                        NestL r l -> [ inflect (RE r z) "----------" | z <- l ],
+                              h <- s, i <- h, j <- i, j == y]
+
+
+-- analyzeTrie l y = FM.analyze (analysis t (composition l))
+
+analyzeTrie l y  = []
+
+    where dicts = (dictionary . -- (++) extradict .
+                                concat . map lex2dict)
+
+                    [ x | x <- l, isSubsumed (root x) y ]
+
+{-
+                              let s = case x of
+                                        NestT r l -> [ inflect (RE r z) "----------" | z <- l ]
+                                        NestQ r l -> [ inflect (RE r z) "----------" | z <- l ]
+                                        NestL r l -> [ inflect (RE r z) "----------" | z <- l ],
+                              h <- s, i <- h, j <- i, j == y]
+-}
+
+
+isSubsumed :: String -> String -> Bool
+
+isSubsumed [] _ = True
+isSubsumed cs w = let xs = (map head . group . words) cs
+                  in
+
+                  match xs w
+
+    where   match []    _ = True
+            match (x:y) z = if x `elem` ["'", "w", "y"]
+
+                                then match y z
+                                else if null z then False
+                                               else if x `isPrefixOf` z
+
+                                                    then match y (drop (length x) z)
+                                                    else match (x:y) (tail z)
+
+
+recode = map (encode Tim . decode TeX . (++) "\\noneplus ") . concat
 -- recode = id
 
 
 arabicDict :: Dictionary
 
-arabicDict = (dictionary . (++) extradict . concat . map lex2dict)  $ take 3000
+arabicDict = (dictionary . -- (++) extradict .
+                            concat . map lex2dict)  $ take 5 -- 0
                                                                     $ drop 1000
                                                                     lexicon
 
-    where   extradict = [ ("wa-", "Conj", [], [ ("\nC---------", (1, ["wa-"])) ]) ]
+extradict = [ ("wa-", "Conj", [], [ ("\nC---------", (1, ["wa-"])) ]) ]
 
-            lex2dict (NestT x ys) = [ case entity y of
+lex2dict (NestT x ys) = [ case entity y of
 
-                Noun _ _ _      -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaNoun -> [String]),
-                                    "Noun", [],
-                                    [ (show v, (0, recode (inflect (RE x y) v))) | v :: ParaNoun <- values ])
+    Noun _ _ _      -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaNoun -> [String]),
+                        "Noun", [],
+                        [ (show v, (0, recode (inflect (RE x y) v))) | v :: ParaNoun <- values ])
 
-                Adj _ _         -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaNoun -> [String]),
-                                    "Noun", [],
-                                    [ (show v, (0, recode (inflect (RE x y) v))) | v :: ParaNoun <- values ])
+    Adj _ _         -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaNoun -> [String]),
+                        "Adj", [],
+                        [ (show v, (0, recode (inflect (RE x y) v))) | v :: ParaAdj <- values ])
 
-                Verb _ _ _ _ _ _ -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaVerb -> [String]),
-                                    "Verb", [],
-                                    [ (show v, (0, recode (inflect (RE x y) v))) | v :: ParaVerb <- values ])
+    Verb _ _ _ _ _ _ -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaVerb -> [String]),
+                        "Verb", [],
+                        [ (show v, (0, recode (inflect (RE x y) v))) | v :: ParaVerb <- values ])
 
-                _               -> ("Dictword",
-                                    "Category", ["Inherent"], [ ("Untyped", (0, ["String"])) ]) | y <- ys ]
-                where root = words x
+    _               -> ("Dictword",
+                        "Category", ["Inherent"], [ ("Untyped", (0, ["String"])) ]) | y <- ys ]
+    where root = words x
 
-            lex2dict _            = [ ("Others", "Category", [], [ ("Untyped", (0, [])) ]) ]
+lex2dict _            = [ ("Others", "Category", [], [ ("Untyped", (0, [])) ]) ]
 
 {-
     where   lex2dict (NestT x ys) = [ (dictword $ inflect y,

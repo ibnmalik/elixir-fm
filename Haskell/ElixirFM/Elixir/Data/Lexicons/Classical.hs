@@ -53,3 +53,8 @@ lexicon = listing "Lexicon's properties"
 
     IFCaLY                    `verb`                           [ "pay attention" ] ]
 
+ |> "r ' y" <| [
+
+    FaCL                      `noun`    {- raOoy -}            [ "opinion", "view", "idea" ]
+                              `plural`  HACAL
+                                        `withRoot` "' r y" ]
