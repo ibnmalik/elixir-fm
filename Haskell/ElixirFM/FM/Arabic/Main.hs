@@ -27,7 +27,10 @@ import FM.Generic.GeneralIO
 
 
 main :: IO ()
-main = commonMain Arabic
+-- main = commonMain Arabic
+
+main = interact (unlines . map (show . length . resolve) . words)
+
 
 
 data Arabic = Arabic deriving Show

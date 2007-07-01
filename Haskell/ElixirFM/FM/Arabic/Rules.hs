@@ -48,6 +48,8 @@ type Root = String
 data RootEntry a = RE Root (Entry a)
 
 
+-- map (map (uncurry merge) . snd) .
+
 -- prettyInflect :: (Morphing a a, Forming a, Rules a, Template a, Inflect b c) => b a -> c -> IO ()
 prettyInflect x y = (putStr . unlines . map show) (zip tags infs)
 
@@ -58,7 +60,7 @@ prettyInflect x y = (putStr . unlines . map show) (zip tags infs)
 class Inflect m p where
 
     inflect :: (Template a, Rules a, Forming a, Morphing a a, Morphing (Morphs a) a) =>
-               m a -> p -> [[String]]
+               m a -> p -> [(String, [(Root, Morphs a)])]
 
     -- inflect :: Template b => a -> b -> Root -> [String]
 
@@ -193,16 +195,16 @@ instance Inflect RootEntry ParaVerb where
 
     inflect (RE r e) x  | (not . isVerb) (entity e) = []
 
-    inflect (RE r e) x@(VerbP   v p g n) = [inflectVerbP (RE r e) x]
-    inflect (RE r e) x@(VerbI m v p g n) = [inflectVerbI (RE r e) x]
-    inflect (RE r e) x@(VerbC       g n) = [inflectVerbC (RE r e) x]
+    inflect (RE r e) x@(VerbP   v p g n) = [(show x, inflectVerbP (RE r e) x)]
+    inflect (RE r e) x@(VerbI m v p g n) = [(show x, inflectVerbI (RE r e) x)]
+    inflect (RE r e) x@(VerbC       g n) = [(show x, inflectVerbC (RE r e) x)]
 
 
-inflectVerbP :: (Template a, Forming a, Eq a, Morphing a a) => RootEntry a -> ParaVerb -> [String]
+inflectVerbP :: (Template a, Forming a, Eq a, Morphing a a) => RootEntry a -> ParaVerb -> [(Root, Morphs a)]
 
 inflectVerbP (RE r e) x@(VerbP   v p g n) = paradigm (paraVerbP v p g n)
 
-    where paradigm p = map (merge r . p) inEntry
+    where paradigm p = map ((,) r . p) inEntry
 
           Morphs pattern _ _ = morphs e
 
@@ -230,11 +232,11 @@ inflectVerbP (RE r e) x@(VerbP   v p g n) = paradigm (paraVerbP v p g n)
                                 l <- nub ls ]
 
 
-inflectVerbI :: (Template a, Rules b, Morphing b a, Forming b) => RootEntry b -> ParaVerb -> [String]
+inflectVerbI :: (Template a, Rules b, Morphing b a, Forming b) => RootEntry b -> ParaVerb -> [(Root, Morphs a)]
 
 inflectVerbI (RE r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
 
-    where paradigm p = map (merge r . uncurry p) inEntry
+    where paradigm p = map ((,) r . uncurry p) inEntry
 
           Morphs pattern _ _ = morphs e
 
@@ -281,11 +283,11 @@ inflectVerbI (RE r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
                                 l <- nub ls ]
 
 
-inflectVerbC :: (Template a, Rules b, Morphing b a, Forming b) => RootEntry b -> ParaVerb -> [String]
+inflectVerbC :: (Template a, Rules b, Morphing b a, Forming b) => RootEntry b -> ParaVerb -> [(Root, Morphs a)]
 
 inflectVerbC (RE r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
 
-    where paradigm p = map (merge r . uncurry p) inEntry
+    where paradigm p = map ((,) r . uncurry p) inEntry
 
           Morphs pattern _ _ = morphs e
 
@@ -405,7 +407,7 @@ paraVerbP v p g n = case n of
             Singular    ->  case (p, g) of
 
                 (Third,  Masculine) ->  suffix "a"
-                (Third,  Feminine)  ->  suffix "at-i"
+                (Third,  Feminine)  ->  suffix "at"     -- "at-i"
                 (Second, Masculine) ->  suffix "ta"
                 (Second, Feminine)  ->  suffix "ti"
                 (First,      _    ) ->  suffix "tu"
@@ -421,7 +423,7 @@ paraVerbP v p g n = case n of
 
                 (Third,  Masculine) ->  suffix "UW"
                 (Third,  Feminine)  ->  suffix "na"
-                (Second, Masculine) ->  suffix "tum-u"
+                (Second, Masculine) ->  suffix "tum"    -- "tum-u"
                 (Second, Feminine)  ->  suffix "tunna"
                 (First,      _    ) ->  suffix "nA"
 
@@ -498,18 +500,18 @@ paraVerbI m v p g n i = prefixImperfect p g n i . case m of
 
             Singular    ->  case (p, g) of
 
-                (Second, Feminine)  ->  suffix "in|na"
-                (_,      _ )        ->  suffix "an|na"
+                (Second, Feminine)  ->  suffix "in"     -- "inna"
+                (_,      _ )        ->  suffix "an"     -- "anna"
 
             Dual        -> case (p, g) of
 
-                (First,  _    )     ->  suffix "an|na"
+                (First,  _    )     ->  suffix "an"     -- "anna"
                 ( _ ,    _    )     ->  suffix "Anni"
 
             Plural      -> case (p, g) of
 
-                (First, _    )      ->  suffix "an|na"
-                ( _ ,   Masculine)  ->  suffix "un|na"
+                (First, _    )      ->  suffix "an"     -- "anna"
+                ( _ ,   Masculine)  ->  suffix "un"     -- "unna"
                 ( _ ,   Feminine)   ->  suffix "nAnni"
 
 
@@ -534,7 +536,7 @@ instance Inflect RootEntry ParaAdj where
 
     inflect (RE r e) x  | (not . isAdj) (entity e) = []
 
-    inflect x@(RE r e) y@(AdjA g n c s) = [inflectAdjA x y]
+    inflect x@(RE r e) y@(AdjA g n c s) = [(show y, inflectAdjA x y)]
 
     inflect _          _               = error "Unexpected case ..."
 
@@ -562,7 +564,7 @@ instance Inflect RootEntry ParaNoun where
 
     inflect (RE r e) x  | (not . isNoun) (entity e) = []
 
-    inflect x@(RE r e) y@(NounS n c s) = [inflectNounS x y]
+    inflect x@(RE r e) y@(NounS n c s) = [(show y, inflectNounS x y)]
 
     inflect _          _               = error "Unexpected case ..."
 
@@ -580,7 +582,7 @@ inEntry Dual e = [Right (morphs e |< An)]
 inEntry _ e = [Right (morphs e)]
 
 
-inRules r c (d :-: a) y = (merge root . article . endings c d a) m
+inRules r c (d :-: a) y = ((,) root . article . endings c d a) m
 
     where (root, m@(Morphs t p s)) = either id (\ m -> (r, m)) y
 
@@ -658,7 +660,7 @@ paraDual c d a = case (c, d, a) of
         ( _ ,        _ , False)         -> suffix "ayni"
 
         (Nominative, _ , True)          -> suffix "A"
-        ( _ ,        _ , True)          -> suffix "ay-i"
+        ( _ ,        _ , True)          -> suffix "ay"  -- "ay-i"
 
 
 paraFeminine c d a = case (c, d, a) of

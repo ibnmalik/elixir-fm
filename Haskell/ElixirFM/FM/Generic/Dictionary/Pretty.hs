@@ -27,7 +27,7 @@ import FM.Generic.Dictionary.Pretty.XML
 
 import FM.Generic.General
 
-import FM.Arabic.Dictionary
+-- import FM.Arabic.Dictionary
 
 import FM.Generic.Dictionary
 
