@@ -61,7 +61,11 @@ instance Resolve String where
 instance Resolve [String] where
 
     resolve [] = []
-    resolve ys = {- (unzip . foldr f z) ys
+    resolve ys = []
+
+    {-  mapAccumL update_trie_resolve trie words
+
+        (unzip . foldr f z) ys
 
         where z = []
 
