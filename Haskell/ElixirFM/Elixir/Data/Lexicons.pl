@@ -16,7 +16,7 @@ use Getopt::Std;
 $Getopt::Std::STANDARD_HELP_VERSION = 1;
 
 
-our ($DIR, $Lexicon, $ID);
+our ($DIR, $Lexicon, $Index, $ID);
 
 our ($include, $options);
 
@@ -58,6 +58,8 @@ foreach $ARGV (@ARGV) {
 
     beginLexicon();
 
+    indexLexicon();
+
     printLexicon();
 
     closeLexicon();
@@ -69,9 +71,42 @@ foreach $ARGV (@ARGV) {
 # ##################################################################################################
 
 
+sub indexLexicon {
+
+    $Index = {};
+
+    foreach (keys %{$Lexicon}) {
+
+        my @entries = @{$Lexicon->{$_}};
+
+        @entries = grep { includeEntry($_) } @entries if defined $include;
+
+        foreach my $entry (@entries) {
+
+            $entry->{'glosses'} = reduceGlosses($entry->{'glosses'});
+
+            $Index->{$_}++ foreach @{$entry->{'glosses'}};
+        }
+    }
+}
+
+
 sub printLexicon {
 
     print showNest($Lexicon->{$_}, $_) foreach sort keys %{$Lexicon};
+
+    return unless keys %{$Index};
+
+    print STDERR (keys %{$Index}) . "\n";
+
+    print << "    return;";
+
+ where
+
+
+    return;
+
+    print showTwig($Index->{$_}, $_) foreach sort keys %{$Index};
 }
 
 
@@ -234,7 +269,7 @@ sub showEntry ($) {
         }
     }
 
-    $glosses = reduceGlosses($entry->{'glosses'});
+    $glosses = $entry->{'glosses'};                     # reduceGlosses($entry->{'glosses'})
 
     return sprintf "%s    %-25s %-9s %-22s %s",
                    (defined $include ? '' :
@@ -256,6 +291,20 @@ sub showEntry ($) {
 
                    (@{$others} > 0 ? '{- `others`  [ ' .
                             (join ", ", map { '"' . $_ . '"' } @{$others}) . ' ] -}' : ()));
+}
+
+
+sub showTwig ($$){
+
+    my ($n, $t) = @_;
+
+    warn $t . "\n" unless $n > 5;
+
+    my $i = $t;
+
+    $i =~ tr[ ][_];
+
+    return sprintf "    %-25s   =       \"%s\"\n\n", "_" . $i . "_", $t;
 }
 
 
@@ -291,10 +340,26 @@ sub reduceGlosses ($) {
 
 sub showGloss ($) {
 
+    my $data = $_[0];
+
+    if (exists $Index->{$data}) {
+
+        if ($Index->{$data} > 5 and $data =~ /^[ a-z]+$/) {
+
+            $data =~ tr[ ][_];
+
+            return "_" . $data . "_";
+        }
+        else {
+
+            delete $Index->{$data};
+        }
+    }
+
     $Data::Dumper::Terse = 1;
     $Data::Dumper::Useqq = 1;
 
-    my $data = Data::Dumper->Dump([$_[0]]);
+    $data = Data::Dumper->Dump([$data]);
 
     chomp $data;
 

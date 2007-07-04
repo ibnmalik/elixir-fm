@@ -24,44 +24,44 @@ import Elixir.Lexicon.Pretty
 import Elixir.Template
 import Data.List
 
-import Elixir.Data.Lexicons.Lexicon00 as Extra
+import Elixir.Data.Buckwalter.Lexicon00 as Extra
 
-import Elixir.Data.Lexicons.Lexicon01 as Alif
-import Elixir.Data.Lexicons.Lexicon02 as Baa
-import Elixir.Data.Lexicons.Lexicon03 as Taa
-import Elixir.Data.Lexicons.Lexicon04 as Thaa
+import Elixir.Data.Buckwalter.Lexicon01 as Alif
+import Elixir.Data.Buckwalter.Lexicon02 as Baa
+import Elixir.Data.Buckwalter.Lexicon03 as Taa
+import Elixir.Data.Buckwalter.Lexicon04 as Thaa
 
-import Elixir.Data.Lexicons.Lexicon05 as Jiim
-import Elixir.Data.Lexicons.Lexicon06 as Hhaa
-import Elixir.Data.Lexicons.Lexicon07 as Khaa
-import Elixir.Data.Lexicons.Lexicon08 as Daal
+import Elixir.Data.Buckwalter.Lexicon05 as Jiim
+import Elixir.Data.Buckwalter.Lexicon06 as Hhaa
+import Elixir.Data.Buckwalter.Lexicon07 as Khaa
+import Elixir.Data.Buckwalter.Lexicon08 as Daal
 
-import Elixir.Data.Lexicons.Lexicon09 as Dhaal
-import Elixir.Data.Lexicons.Lexicon10 as Raa
-import Elixir.Data.Lexicons.Lexicon11 as Zaay
-import Elixir.Data.Lexicons.Lexicon12 as Siin
+import Elixir.Data.Buckwalter.Lexicon09 as Dhaal
+import Elixir.Data.Buckwalter.Lexicon10 as Raa
+import Elixir.Data.Buckwalter.Lexicon11 as Zaay
+import Elixir.Data.Buckwalter.Lexicon12 as Siin
 
-import Elixir.Data.Lexicons.Lexicon13 as Shiin
-import Elixir.Data.Lexicons.Lexicon14 as Ssaad
-import Elixir.Data.Lexicons.Lexicon15 as Ddaad
-import Elixir.Data.Lexicons.Lexicon16 as Ttaa
+import Elixir.Data.Buckwalter.Lexicon13 as Shiin
+import Elixir.Data.Buckwalter.Lexicon14 as Ssaad
+import Elixir.Data.Buckwalter.Lexicon15 as Ddaad
+import Elixir.Data.Buckwalter.Lexicon16 as Ttaa
 
-import Elixir.Data.Lexicons.Lexicon17 as Zzaa
-import Elixir.Data.Lexicons.Lexicon18 as Eayn
-import Elixir.Data.Lexicons.Lexicon19 as Ghayn
-import Elixir.Data.Lexicons.Lexicon20 as Faa
+import Elixir.Data.Buckwalter.Lexicon17 as Zzaa
+import Elixir.Data.Buckwalter.Lexicon18 as Eayn
+import Elixir.Data.Buckwalter.Lexicon19 as Ghayn
+import Elixir.Data.Buckwalter.Lexicon20 as Faa
 
-import Elixir.Data.Lexicons.Lexicon21 as Qaaf
-import Elixir.Data.Lexicons.Lexicon22 as Kaaf
-import Elixir.Data.Lexicons.Lexicon23 as Laam
-import Elixir.Data.Lexicons.Lexicon24 as Miim
+import Elixir.Data.Buckwalter.Lexicon21 as Qaaf
+import Elixir.Data.Buckwalter.Lexicon22 as Kaaf
+import Elixir.Data.Buckwalter.Lexicon23 as Laam
+import Elixir.Data.Buckwalter.Lexicon24 as Miim
 
-import Elixir.Data.Lexicons.Lexicon25 as Nuun
-import Elixir.Data.Lexicons.Lexicon26 as Haa
-import Elixir.Data.Lexicons.Lexicon27 as Waaw
-import Elixir.Data.Lexicons.Lexicon28 as Yaa
+import Elixir.Data.Buckwalter.Lexicon25 as Nuun
+import Elixir.Data.Buckwalter.Lexicon26 as Haa
+import Elixir.Data.Buckwalter.Lexicon27 as Waaw
+import Elixir.Data.Buckwalter.Lexicon28 as Yaa
 
-import Elixir.Data.Lexicons.Classical as GCA
+-- import Elixir.Data.Buckwalter.Classical as GCA
 
 import Version
 
@@ -70,46 +70,52 @@ version = revised "$Revision$"
 
 lexicon :: Lexicon
 
-lexicon =  -- Extra.lexicon ++ Yaa.lexicon
+lexicon = concat chapters
 
-              Extra.lexicon
 
-           ++ Alif.lexicon
-           ++ Baa.lexicon
-           ++ Taa.lexicon
-           ++ Thaa.lexicon
+chapters :: [Lexicon]
 
-           ++ Jiim.lexicon
-           ++ Hhaa.lexicon
-           ++ Khaa.lexicon
-           ++ Daal.lexicon
+chapters =  [   Extra.lexicon,
 
-           ++ Dhaal.lexicon
-           ++ Raa.lexicon
-           ++ Zaay.lexicon
-           ++ Siin.lexicon
+                Alif.lexicon,
+                Baa.lexicon,
+                Taa.lexicon,
+                Thaa.lexicon,
 
-           ++ Shiin.lexicon
-           ++ Ssaad.lexicon
-           ++ Ddaad.lexicon
-           ++ Ttaa.lexicon
+                Jiim.lexicon,
+                Hhaa.lexicon,
+                Khaa.lexicon,
+                Daal.lexicon,
 
-           ++ Zzaa.lexicon
-           ++ Eayn.lexicon
-           ++ Ghayn.lexicon
-           ++ Faa.lexicon
+                Dhaal.lexicon,
+                Raa.lexicon,
+                Zaay.lexicon,
+                Siin.lexicon,
 
-           ++ Qaaf.lexicon
-           ++ Kaaf.lexicon
-           ++ Laam.lexicon
-           ++ Miim.lexicon
+                Shiin.lexicon,
+                Ssaad.lexicon,
+                Ddaad.lexicon,
+                Ttaa.lexicon,
 
-           ++ Nuun.lexicon
-           ++ Haa.lexicon
-           ++ Waaw.lexicon
-           ++ Yaa.lexicon
+                Zzaa.lexicon,
+                Eayn.lexicon,
+                Ghayn.lexicon,
+                Faa.lexicon,
 
-           ++ GCA.lexicon
+                Qaaf.lexicon,
+                Kaaf.lexicon,
+                Laam.lexicon,
+                Miim.lexicon,
+
+                Nuun.lexicon,
+                Haa.lexicon,
+                Waaw.lexicon,
+                Yaa.lexicon --,
+
+--                GCA.lexicon
+
+
+            ]
 
 {-
 
