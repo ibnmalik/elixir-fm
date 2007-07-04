@@ -710,7 +710,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "q b s" <| [
 
-    FACiL                     `noun`    {- qAbis -}            [ unwords [ "Gabes", "(", "Tun.", ")" ] ],
+    FACiL                     `noun`    {- qAbis -}            [ "Gabes" ],
 
     FACiL                     `noun`    {- qAbis -}            [ unwords [ "electrical", "plug" ] ] ]
 
@@ -1173,7 +1173,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "q l y b" <| [
 
-    KaRDUS |< Iy |< aT        `noun`    {- qaloyuwbiy~ap -}    [ unwords [ "Qalyubiyah", "(", "Egy.", "prov.", ")" ] ] ]
+    KaRDUS |< Iy |< aT        `noun`    {- qaloyuwbiy~ap -}    [ "Qalyubiyah" ] ]
 
  |> "q m .h" <| [
 
@@ -1254,7 +1254,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "q n .t r" <| [
 
-    KaRADiS                   `noun`    {- qanATir -}          [ unwords [ "Qanatir", "(", "Egy.", ")" ] ],
+    KaRADiS                   `noun`    {- qanATir -}          [ "Qanatir" ],
 
     KiRDAS                    `noun`    {- qinoTAr -}          [ unwords [ "qantar", "(", "weight", "measure", ")" ] ]
                               `plural`     KaRADIS
@@ -1626,7 +1626,7 @@ lexicon = listing "Lexicon's properties"
 
     FaL |<< "awIy"            `adj`     {- qarawiy~ -}         [ "peasant", "villager" ],
 
-    FaL |<< "awIy"            `adj`     {- qarawiy~ -}         [ unwords [ "of", "/", "from", "Kairouan", "(", "Tun.", ")" ] ] ]
+    FaL |<< "awIy"            `adj`     {- qarawiy~ -}         [ unwords [ "of", "/", "from", "Kairouan" ] ] ]
 
  |> "q r y" <| [
 
@@ -1644,7 +1644,7 @@ lexicon = listing "Lexicon's properties"
 
     FaC |<< "awIy"            `adj`     {- qarawiy~ -}         [ "peasant", "villager" ],
 
-    FaC |<< "awIy"            `adj`     {- qarawiy~ -}         [ unwords [ "of", "/", "from", "Kairouan", "(", "Tun.", ")" ] ] ]
+    FaC |<< "awIy"            `adj`     {- qarawiy~ -}         [ unwords [ "of", "/", "from", "Kairouan" ] ] ]
 
  |> "q s .t" <| [
 
@@ -1735,6 +1735,7 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "qusuws N", "qusus N" ] -},
 
     FiCCIL                    `noun`    {- qis~iys -}          [ "clergyman", "reverend", "clergymen" ]
+                              `plural`     HaFiCL |< aT
                               `plural`     FuCLAn
                            {- `others`  [ "qussAn N" ] -} ]
 
@@ -1796,7 +1797,8 @@ lexicon = listing "Lexicon's properties"
     FAL                       `noun`    {- qAE -}              [ "bottom", "floor", "depths" ]
                               `plural`     HaFCAL
                               `plural`     FILAn
-                           {- `others`  [ "'aqwA` N", "qiy`An N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ "'aqwA` N", "qiy`An N", "'aqwu` N" ] -},
 
     FAL |< aT                 `noun`    {- qAEap -}            [ "hall", "corridor", unwords [ "large", "room" ] ]
                               `plural`     FAL |< At ]

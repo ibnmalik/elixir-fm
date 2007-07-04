@@ -297,7 +297,7 @@ sub showEntry ($) {
 
                    (join "\n" . ' ' x 27,
 
-                   '[ ' . (join ", ", map { showGloss($_) } @{$glosses}) . ' ]',
+                   '[ ' . (join ", ", map { showGloss($_, $entry->{'morphs'}) } @{$glosses}) . ' ]',
 
                                 # ^^ never with # join ";", @{$glosses}
 
@@ -322,7 +322,7 @@ sub showTwig ($$){
 
     $i =~ tr[ ][_];
 
-    return sprintf "    %-25s   =       %s\n\n", "_" . $i . "_", showWords($t);
+    return sprintf "    %-25s   =       %s\n\n", "_" . $i . "_", showWords($t, '');
 }
 
 
@@ -331,8 +331,17 @@ sub reduceGlosses ($) {
     my $data = $_[0];
 
     my $derived = {};
+    my $essence = {};
 
     foreach my $one (@{$data}) {
+
+        $one =~ s/\[[a-z\.]+\]//g;
+
+        $one =~ s/ +/ /g;
+        $one =~ s/^ //;
+        $one =~ s/ $//;
+
+        next if $essence->{$one}++;
 
         my ($w, $c, $f, $y, $i, $u) = $one =~ /^(.+?)(?:([rl])|(fe?)|([y])|(is)|(us))$/;
 
@@ -352,13 +361,15 @@ sub reduceGlosses ($) {
         $derived->{$w . 'i'}++                  if defined $u;
     }
 
-    return [ grep { not exists $derived->{$_} } @{$data} ];
+    $essence = {};
+
+    return [ grep { not exists $derived->{$_} and ++$essence->{$_} == 1 } @{$data} ];
 }
 
 
-sub showGloss ($) {
+sub showGloss ($$) {
 
-    my $data = $_[0];
+    my ($data, $morphs) = @_;
 
     if ($indexed and exists $Index->{$data}) {
 
@@ -374,13 +385,13 @@ sub showGloss ($) {
         }
     }
 
-    return showWords($data);
+    return showWords($data, $morphs);
 }
 
 
-sub showWords ($) {
+sub showWords ($$) {
 
-    my $data = $_[0];
+    my ($data, $morphs) = @_;
 
     $Data::Dumper::Terse = 1;
     $Data::Dumper::Useqq = 1;
@@ -390,15 +401,24 @@ sub showWords ($) {
     $data =~ s/^\"//;
     $data =~ s/\"$//;
 
+    my $null = $morphs =~ /Identity/ && not defined $include;
+
     my @data = split ' ', $data;
 
-    @data = grep { $_ ne '' } map { split /([\+\-\?\!\/\(\)])/, $_ } @data;
+    @data = grep { $_ ne '' } map { split /([\+\-\=\?\!\/\(\)])/, $_ } @data;
 
-    $data = $unwords && @data > $unwords
+    if ($unwords and @data > $unwords) {
 
-                ? "unwords [ " . (join ", ", map { '"' . $_ . '"' } @data) . " ]"
+        $data = "unwords [ " . (join ", ", map { $null && $_ =~ /^[A-Z]/
+                                                        ? '"" {- "' . $_ . '" -}'
+                                                        : '"' . $_ . '"' } @data) . " ]";
+    }
+    else {
 
-                : '"' . (join " ", @data) . '"';
+        $data = '"' . (join " ", @data) . '"';
+
+        $data = '"" {- '. $data . ' -}' if $null && $data[0] =~ /^[A-Z]/;
+    }
 
     return $data;
 }

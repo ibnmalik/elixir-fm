@@ -38,7 +38,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; matAwilap_1
     -- mtAwl   matAwil Nap     Metuali (Shiite sect)
 
-    Identity |< aT            `noun`    {- matAwilap -}        [ unwords [ "Metuali", "(", "Shiite", "sect", ")" ] ] ]
+    Identity |< aT            `noun`    {- matAwilap -}        [ unwords [ "" {- "Metuali" -}, "(", "" {- "Shiite" -}, "sect", ")" ] ] ]
 
  |> "muttifaq" <| [
 
@@ -1601,14 +1601,14 @@ lexicon = listing "Lexicon's properties"
     FuCUL |< Iy |< aT         `noun`    {- wuSuwliy~ap -}      [ "careerism", "pushiness" ],
 
     -- ;; mawoSil_1
-    -- mwSl    mawoSil N       Mosul (Iraq)
+    -- mwSl    mawoSil N       Mosul
 
-    MaFCiL                    `noun`    {- mawoSil -}          [ unwords [ "Mosul", "(", "Iraq", ")" ] ],
+    MaFCiL                    `noun`    {- mawoSil -}          [ "Mosul" ],
 
     -- ;; mawoSiliy~_1
-    -- mwSly   mawoSiliy~      Nall    of/from Mosul (Iraq)
+    -- mwSly   mawoSiliy~      Nall    of/from Mosul
 
-    MaFCiL |< Iy              `adj`     {- mawoSiliy~ -}       [ unwords [ "of", "/", "from", "Mosul", "(", "Iraq", ")" ] ],
+    MaFCiL |< Iy              `adj`     {- mawoSiliy~ -}       [ unwords [ "of", "/", "from", "Mosul" ] ],
 
     -- ;; mawoSiliy~_2
     -- mwSly   mawoSiliy~      N0      Mawsili
@@ -6137,9 +6137,9 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- wahorap -}          [ "consternation", "fear" ],
 
     -- ;; wahorAn_1
-    -- whrAn   wahorAn Ndip    Oran (Alg.)
+    -- whrAn   wahorAn Ndip    Oran
 
-    FaCLAn                    `noun`    {- wahorAn -}          [ unwords [ "Oran", "(", "Alg.", ")" ] ] ]
+    FaCLAn                    `noun`    {- wahorAn -}          [ "Oran" ] ]
 
  |> "w h y" <| [
 
@@ -8532,16 +8532,16 @@ lexicon = listing "Lexicon's properties"
  |> "w q q" <| [
 
     -- ;; wuq~ap_1
-    -- wq      wuq~    NapAt   wuqqa/wiqqa (weight measure = 1.2 kg.)
-    -- wq      wiq~    NapAt   wuqqa/wiqqa (weight measure = 1.2 kg.)
+    -- wq      wuq~    NapAt   wuqqa/wiqqa
+    -- wq      wiq~    NapAt   wuqqa/wiqqa
 
-    FuCL |< aT                `noun`    {- wuq~ap -}           [ unwords [ "wuqqa", "/", "wiqqa", "(", "weight", "measure", "=", "1.2", "kg.", ")" ] ]
+    FuCL |< aT                `noun`    {- wuq~ap -}           [ unwords [ "wuqqa", "/", "wiqqa" ] ]
                               `plural`     FiCL |< At,
 
     -- ;; wAq_1
-    -- wAq     wAq     N0      Waq (in "Waq Waq": legendary islands);strange and faraway lands
+    -- wAq     wAq     N0      Waq;strange and faraway lands
 
-    FAL                       `noun`    {- wAq -}              [ unwords [ "Waq", "(", "in", "\"Waq", "Waq\":", "legendary", "islands", ")" ], unwords [ "strange", "and", "faraway", "lands" ] ] ]
+    FAL                       `noun`    {- wAq -}              [ "Waq", unwords [ "strange", "and", "faraway", "lands" ] ] ]
 
  |> "w q r" <| [
 
@@ -10510,7 +10510,7 @@ lexicon = listing "Lexicon's properties"
     -- wyHkm   wayoHakum       FW-Wa   woe unto + you [masc.pl.]    [[wayoHa/INTERJ+kum/PRON_2MP]]
     -- wyHkn   wayoHakun~a     FW-Wa   woe unto + you [fem.pl.]     [[wayoHa/INTERJ+kun~a/PRON_2FP]]
 
-    FaCL |<< "a"              `pron`    {- wayoHa -}           [ unwords [ "woe", "unto" ], unwords [ "woe", "unto", "+", "you", "[masc.sg.]" ], unwords [ "woe", "unto", "+", "you", "[fem.sg.]" ], unwords [ "woe", "unto", "+", "you", "both" ], unwords [ "woe", "unto", "+", "you", "[masc.pl.]" ], unwords [ "woe", "unto", "+", "you", "[fem.pl.]" ] ] ]
+    FaCL |<< "a"              `pron`    {- wayoHa -}           [ unwords [ "woe", "unto" ], unwords [ "woe", "unto", "+", "you" ], unwords [ "woe", "unto", "+", "you", "both" ] ] ]
 
  |> "w y b" <| [
 
@@ -10526,9 +10526,9 @@ lexicon = listing "Lexicon's properties"
     FIL                       `noun`    {- wiyb -}             [ "Web" ],
 
     -- ;; wayobap_1
-    -- wyb     wayob   NapAt   wayba (dry measure = 33 liters)
+    -- wyb     wayob   NapAt   wayba
 
-    FaCL |< aT                `noun`    {- wayobap -}          [ unwords [ "wayba", "(", "dry", "measure", "=", "33", "liters", ")" ] ] ]
+    FaCL |< aT                `noun`    {- wayobap -}          [ "wayba" ] ]
 
  |> "w y k" <| [
 
@@ -10578,7 +10578,7 @@ lexicon = listing "Lexicon's properties"
     -- wykm    wayokum FW-Wa   shame on + you [masc.pl.]    [[wayo/INTERJ+kum/PRON_2MP]]
     -- wykn    wayokun~a       FW-Wa   shame on + you [fem.pl.]     [[wayo/INTERJ+kun~a/PRON_2FP]]
 
-    FaC                       `pron`    {- way -}              [ unwords [ "shame", "on" ], unwords [ "shame", "on", "+", "you", "[masc.sg.]" ], unwords [ "shame", "on", "+", "you", "[fem.sg.]" ], unwords [ "shame", "on", "+", "you", "both" ], unwords [ "shame", "on", "+", "you", "[masc.pl.]" ], unwords [ "shame", "on", "+", "you", "[fem.pl.]" ] ],
+    FaC                       `pron`    {- way -}              [ unwords [ "shame", "on" ], unwords [ "shame", "on", "+", "you" ], unwords [ "shame", "on", "+", "you", "both" ] ],
 
     -- ;; way_1
     -- wy      wayo    FW-Wa   shame on                     [[wayo/INTERJ]]
@@ -10588,7 +10588,7 @@ lexicon = listing "Lexicon's properties"
     -- wykm    wayokum FW-Wa   shame on + you [masc.pl.]    [[wayo/INTERJ+kum/PRON_2MP]]
     -- wykn    wayokun~a       FW-Wa   shame on + you [fem.pl.]     [[wayo/INTERJ+kun~a/PRON_2FP]]
 
-    FaL                       `pron`    {- way -}              [ unwords [ "shame", "on" ], unwords [ "shame", "on", "+", "you", "[masc.sg.]" ], unwords [ "shame", "on", "+", "you", "[fem.sg.]" ], unwords [ "shame", "on", "+", "you", "both" ], unwords [ "shame", "on", "+", "you", "[masc.pl.]" ], unwords [ "shame", "on", "+", "you", "[fem.pl.]" ] ] ]
+    FaL                       `pron`    {- way -}              [ unwords [ "shame", "on" ], unwords [ "shame", "on", "+", "you" ], unwords [ "shame", "on", "+", "you", "both" ] ] ]
 
  |> "w z `" <| [
 
@@ -10981,63 +10981,63 @@ lexicon = listing "Lexicon's properties"
     -- wA$nTwn wA$inoTuwn      N0      Washington
     -- wA$nTn  wA$inoTun       N0      Washington
 
-    Identity                  `noun`    {- wA$inoTuwn -}       [ "Washington" ] ]
+    Identity                  `noun`    {- wA$inoTuwn -}       [ "" {- "Washington" -} ] ]
 
  |> "wAlAs" <| [
 
     -- ;; wAlAs_1
     -- wAlAs   wAlAs   Nprop   Wallace
 
-    Identity                  `noun`    {- wAlAs -}            [ "Wallace" ] ]
+    Identity                  `noun`    {- wAlAs -}            [ "" {- "Wallace" -} ] ]
 
  |> "wAltirz" <| [
 
     -- ;; wAlotiroz_1
     -- wAltrz  wAlotiroz       Nprop   Walters
 
-    Identity                  `noun`    {- wAlotiroz -}        [ "Walters" ] ]
+    Identity                  `noun`    {- wAlotiroz -}        [ "" {- "Walters" -} ] ]
 
  |> "wAndirlI" <| [
 
     -- ;; wAnodiroliy_1
     -- wAndrly wAnodiroliy     Nprop   Wanderley
 
-    Identity                  `noun`    {- wAnodiroliy -}      [ "Wanderley" ] ]
+    Identity                  `noun`    {- wAnodiroliy -}      [ "" {- "Wanderley" -} ] ]
 
  |> "wAnt^sUb" <| [
 
     -- ;; wAnt$uwb_1
     -- wAnt$wb wAnt$uwb        Nprop   Wanchope
 
-    Identity                  `noun`    {- wAnt$uwb -}         [ "Wanchope" ] ]
+    Identity                  `noun`    {- wAnt$uwb -}         [ "" {- "Wanchope" -} ] ]
 
  |> "wAr.tAn" <| [
 
     -- ;; wAroTAn_1
     -- wArTAn  wAroTAn Nprop   Wartan
 
-    Identity                  `noun`    {- wAroTAn -}          [ "Wartan" ] ]
+    Identity                  `noun`    {- wAroTAn -}          [ "" {- "Wartan" -} ] ]
 
  |> "wArsU" <| [
 
     -- ;; wArosuw_1
     -- wArsw   wArosuw N0      Warsaw
 
-    Identity                  `noun`    {- wArosuw -}          [ "Warsaw" ] ]
+    Identity                  `noun`    {- wArosuw -}          [ "" {- "Warsaw" -} ] ]
 
  |> "wAtirfUrd" <| [
 
     -- ;; wAtirofuwrd_1
     -- wAtrfwrd        wAtirofuwrd     Nprop   Waterford
 
-    Identity                  `noun`    {- wAtirofuwrd -}      [ "Waterford" ] ]
+    Identity                  `noun`    {- wAtirofuwrd -}      [ "" {- "Waterford" -} ] ]
 
  |> "wAtsU^sI" <| [
 
     -- ;; wAtosuw$iy_1
     -- wAtsw$y wAtosuw$y       Nprop   Watsushi
 
-    Identity                  `noun`    {- wAtosuw$iy -}       [ "Watsushi" ] ]
+    Identity                  `noun`    {- wAtosuw$iy -}       [ "" {- "Watsushi" -} ] ]
 
  |> "wAyzmAn" <| [
 
@@ -11045,21 +11045,21 @@ lexicon = listing "Lexicon's properties"
     -- wAyzmAn wAyzomAn        Nprop   Weizman
     -- wAyzmn  wAyzoman        Nprop   Weizman
 
-    Identity                  `noun`    {- wAyzomAn -}         [ "Weizman" ] ]
+    Identity                  `noun`    {- wAyzomAn -}         [ "" {- "Weizman" -} ] ]
 
  |> "wIlkinz" <| [
 
     -- ;; wiylokinoz_1
     -- wylknz  wiylokinoz      Nprop   Wilkins
 
-    Identity                  `noun`    {- wiylokinoz -}       [ "Wilkins" ] ]
+    Identity                  `noun`    {- wiylokinoz -}       [ "" {- "Wilkins" -} ] ]
 
  |> "wIltUrd" <| [
 
     -- ;; wiylotuwrod_1
     -- wyltwrd wiylotuwrod     Nprop   Wiltord
 
-    Identity                  `noun`    {- wiylotuwrod -}      [ "Wiltord" ] ]
+    Identity                  `noun`    {- wiylotuwrod -}      [ "" {- "Wiltord" -} ] ]
 
  |> "wIlyAm" <| [
 
@@ -11068,7 +11068,7 @@ lexicon = listing "Lexicon's properties"
     -- wlyAm   wiloyAm Nprop   William
     -- wlym    wiloyam Nprop   William
 
-    Identity                  `noun`    {- wiyloyAm -}         [ "William" ] ]
+    Identity                  `noun`    {- wiyloyAm -}         [ "" {- "William" -} ] ]
 
  |> "wIlyAms" <| [
 
@@ -11078,14 +11078,14 @@ lexicon = listing "Lexicon's properties"
     -- wylyAmz wiyloyAmz       Nprop   Williams
     -- wlyAmz  wiloyAmz        Nprop   Williams
 
-    Identity                  `noun`    {- wiyloyAms -}        [ "Williams" ] ]
+    Identity                  `noun`    {- wiyloyAms -}        [ "" {- "Williams" -} ] ]
 
  |> "wImbldUn" <| [
 
     -- ;; wiymblduwn_1
     -- wymbldwn        wymbldwn        Nprop   Wimbledon
 
-    Identity                  `noun`    {- wiymblduwn -}       [ "Wimbledon" ] ]
+    Identity                  `noun`    {- wiymblduwn -}       [ "" {- "Wimbledon" -} ] ]
 
  |> "wIrkU" <| [
 
@@ -11099,28 +11099,28 @@ lexicon = listing "Lexicon's properties"
     -- ;; wuwdoruwf_1
     -- wwdrwf  wuwdoruwf       Nprop   Woodruff
 
-    Identity                  `noun`    {- wuwdoruwf -}        [ "Woodruff" ] ]
+    Identity                  `noun`    {- wuwdoruwf -}        [ "" {- "Woodruff" -} ] ]
 
  |> "wUkir" <| [
 
     -- ;; wuwkir_1
     -- wwkr    wuwkir  Nprop   Walker
 
-    Identity                  `noun`    {- wuwkir -}           [ "Walker" ] ]
+    Identity                  `noun`    {- wuwkir -}           [ "" {- "Walker" -} ] ]
 
  |> "wUrldkUm" <| [
 
     -- ;; wuwrldkuwm_1
     -- wwrldkwm        wuwrldkuwm      Nprop   WorldCom
 
-    Identity                  `noun`    {- wuwrldkuwm -}       [ "WorldCom" ] ]
+    Identity                  `noun`    {- wuwrldkuwm -}       [ "" {- "WorldCom" -} ] ]
 
  |> "wUrnar" <| [
 
     -- ;; wuwrnar_1
     -- wwrnr   wuwrnar N0      Warner
 
-    Identity                  `noun`    {- wuwrnar -}          [ "Warner" ] ]
+    Identity                  `noun`    {- wuwrnar -}          [ "" {- "Warner" -} ] ]
 
  |> "wUtir^gIt" <| [
 
@@ -11128,26 +11128,26 @@ lexicon = listing "Lexicon's properties"
     -- wwtrjyt wuwtirojiyt     N0      Wategate
     -- wwtrgyt wuwtirogiyt     N0      Wategate
 
-    Identity                  `noun`    {- wuwtirojiyt -}      [ "Wategate" ] ]
+    Identity                  `noun`    {- wuwtirojiyt -}      [ "" {- "Wategate" -} ] ]
 
  |> "wiqIy" <| [
 
     -- ;; wiqiy~ap_1
-    -- wqy     wiqiy~  NapAt   uqiya (measure = 1/12 ratl; Beirut: 213 gr; Jerusalem 240 gr.;Aleppo 320 gr.)
+    -- wqy     wiqiy~  NapAt   uqiya
 
-    Identity |< aT            `noun`    {- wiqiy~ap -}         [ unwords [ "uqiya", "(", "measure", "=", "1", "/", "12", "ratl" ], unwords [ "Beirut:", "213", "gr" ], unwords [ "Jerusalem", "240", "gr." ], unwords [ "Aleppo", "320", "gr.", ")" ] ] ]
+    Identity |< aT            `noun`    {- wiqiy~ap -}         [ "uqiya" ] ]
 
  |> "wulfirhAmbtUn" <| [
 
     -- ;; wulofirohAmbotuwn_1
     -- wlfrhAmbtwn     wulofirohAmbotuwn       Nprop   Wolverhampton
 
-    Identity                  `noun`    {- wulofirohAmbotuwn -} [ "Wolverhampton" ] ]
+    Identity                  `noun`    {- wulofirohAmbotuwn -} [ "" {- "Wolverhampton" -} ] ]
 
  |> "wwl" <| [
 
     -- ;; wwl_1
     -- wwl     wwl     N0      Wall
 
-    Identity                  `noun`    {- wwl -}              [ "Wall" ] ]
+    Identity                  `noun`    {- wwl -}              [ "" {- "Wall" -} ] ]
 

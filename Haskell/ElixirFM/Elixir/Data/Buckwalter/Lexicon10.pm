@@ -10073,7 +10073,7 @@ $Lexicon = {
       'form' => 'rifA`',
       'lines' => [
         ';; rifAE_1',
-        'rfAE    rifAE   N       Shrovetide (Chr.)'
+        'rfAE    rifAE   N       Shrovetide'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10081,7 +10081,7 @@ $Lexicon = {
       'morphs' => 'FiCAL',
       'suffix' => '',
       'glosses' => [
-        'Shrovetide (Chr.)'
+        'Shrovetide'
       ],
       'orig' => 'rifAE',
       'prefix' => ''
@@ -14406,7 +14406,11 @@ $Lexicon = {
         '>rz     >aruz~  N       rice',
         'Arz     >aruz~  N       rice'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'aruzz' => [
+          'HaFuCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCL',
@@ -15451,6 +15455,9 @@ $Lexicon = {
         'Arsn    >arosin Nap     halters'
       ],
       'patterns' => {
+        '\'arsun' => [
+          'HaFCuL'
+        ],
         '\'arsin' => [
           'HaFCiL'
         ],
@@ -24782,9 +24789,9 @@ $Lexicon = {
       'form' => 'ra.tl',
       'lines' => [
         ';; raTol_1',
-        'rTl     raTol   Ndu     ratl (weight measure = 3 kg)',
-        '>rTAl   >aroTAl N       ratls (weight measure = 3 kg)',
-        'ArTAl   >aroTAl N       ratls (weight measure = 3 kg)'
+        'rTl     raTol   Ndu     ratl',
+        '>rTAl   >aroTAl N       ratls',
+        'ArTAl   >aroTAl N       ratls'
       ],
       'patterns' => {
         '\'ar.tAl' => [
@@ -24796,8 +24803,8 @@ $Lexicon = {
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
-        'ratl (weight measure = 3 kg)',
-        'ratls (weight measure = 3 kg)'
+        'ratl',
+        'ratls'
       ],
       'orig' => 'raTol',
       'prefix' => ''
@@ -33508,7 +33515,11 @@ $Lexicon = {
         '>rjl    >arojul N       legs',
         'Arjl    >arojul N       legs'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'ar^gul' => [
+          'HaFCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCL',
@@ -39960,6 +39971,9 @@ $Lexicon = {
         'Arsg    >arosug N       wrists'
       ],
       'patterns' => {
+        '\'arsu.g' => [
+          'HaFCuL'
+        ],
         '\'arsA.g' => [
           'HaFCAL'
         ]
@@ -40401,6 +40415,9 @@ $Lexicon = {
         'Ar&s    >aro&us N       heads;tops'
       ],
       'patterns' => {
+        '\'ar\'us' => [
+          'HaFCuL'
+        ],
         'ru\'uws' => [
           'FuCUL'
         ]
@@ -40458,6 +40475,9 @@ $Lexicon = {
         'Ar&s    >aro&us N       leaders;chiefs'
       ],
       'patterns' => {
+        '\'ar\'us' => [
+          'HaFCuL'
+        ],
         'ru\'uws' => [
           'FuCUL'
         ]
@@ -46718,6 +46738,9 @@ $Lexicon = {
         ],
         '\'arAhi.t' => [
           'HaFACiL'
+        ],
+        '\'arhu.t' => [
+          'HaFCuL'
         ]
       },
       'index' => '1',
@@ -52836,15 +52859,14 @@ $Lexicon = {
     {
       'types' => {
         'riyAl' => {
-          'NduAt' => 2
+          'NduAt' => 1
         }
       },
       'entry' => 'riyAl',
       'form' => 'riyAl',
       'lines' => [
         ';; riyAl_1',
-        'ryAl    riyAl   NduAt   riyal (S.Ar.=100 halala, Qatar=100 dirham, Yemen=100 fils)',
-        'ryAl    riyAl   NduAt   riyal (Egy.: 20 piasters)'
+        'ryAl    riyAl   NduAt   riyal'
       ],
       'patterns' => {
         'riyAl' => [
@@ -52856,8 +52878,7 @@ $Lexicon = {
       'morphs' => 'FiCAL',
       'suffix' => '',
       'glosses' => [
-        'riyal (S.Ar.=100 halala, Qatar=100 dirham, Yemen=100 fils)',
-        'riyal (Egy.: 20 piasters)'
+        'riyal'
       ],
       'orig' => 'riyAl',
       'prefix' => ''

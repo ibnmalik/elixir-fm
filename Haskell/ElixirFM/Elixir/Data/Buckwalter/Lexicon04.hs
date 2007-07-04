@@ -1208,10 +1208,10 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "'a_tmAn N" ] -},
 
     -- ;; vumonap_1
-    -- vmn     vumon   Napdu   thumna (Egy. = 0.285 l.; Pal. = 2.25 l.)
-    -- vmn     vuman   NAt     thumnas (Egy. = 0.285 l.; Pal. = 2.25 l.)
+    -- vmn     vumon   Napdu   thumna
+    -- vmn     vuman   NAt     thumnas
 
-    FuCL |< aT                `noun`    {- vumonap -}          [ unwords [ "thumna", "(", "Egy.", "=", "0.285", "l." ], unwords [ "Pal.", "=", "2.25", "l.", ")" ], unwords [ "thumnas", "(", "Egy.", "=", "0.285", "l." ] ]
+    FuCL |< aT                `noun`    {- vumonap -}          [ "thumna" ]
                               `plural`     FuCaL |< At,
 
     -- ;; vAmin_1
@@ -2602,7 +2602,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; vuwrb_1
     -- vwrb    vuwrb   Nprop   Thorpe
 
-    Identity                  `noun`    {- vuwrb -}            [ "Thorpe" ] ]
+    Identity                  `noun`    {- vuwrb -}            [ "" {- "Thorpe" -} ] ]
 
  |> "_tUriyUm" <| [
 
@@ -2616,14 +2616,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; vuwromuwnot_1
     -- vwrmwnt vuwromuwnot     Nprop   Thurmont
 
-    Identity                  `noun`    {- vuwromuwnot -}      [ "Thurmont" ] ]
+    Identity                  `noun`    {- vuwromuwnot -}      [ "" {- "Thurmont" -} ] ]
 
  |> "_ta`Alab" <| [
 
     -- ;; vaEAlabiy~_1
     -- vEAlby  vaEAlabiy~      N0      Tha'alabi
 
-    Identity |< Iy            `adj`     {- vaEAlabiy~ -}       [ "Tha'alabi" ] ]
+    Identity |< Iy            `adj`     {- vaEAlabiy~ -}       [ "" {- "Tha'alabi" -} ] ]
 
  |> "_talA_tmA'" <| [
 
@@ -2652,7 +2652,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; viyuw_1
     -- vyw     viyuw   Nprop   Theo
 
-    Identity                  `noun`    {- viyuw -}            [ "Theo" ] ]
+    Identity                  `noun`    {- viyuw -}            [ "" {- "Theo" -} ] ]
 
  |> "_tulA_tA'" <| [
 
@@ -2664,20 +2664,20 @@ lexicon = listing "Lexicon's properties"
     -- vlvA&   vulavA& Nh      Tuesday
     -- vlvA}   vulavA} Nhy     Tuesday
 
-    Identity                  `noun`    {- vulAvA' -}          [ "Tuesday" ] ]
+    Identity                  `noun`    {- vulAvA' -}          [ "" {- "Tuesday" -} ] ]
 
  |> "_turayyA" <| [
 
     -- ;; vuray~A_1
     -- vryA    vuray~A Nprop   Thuraya;Suraya;Surayya;Thurayya
 
-    Identity                  `noun`    {- vuray~A -}          [ "Thuraya", "Suraya", "Surayya", "Thurayya" ],
+    Identity                  `noun`    {- vuray~A -}          [ "" {- "Thuraya" -}, "" {- "Suraya" -}, "" {- "Surayya" -}, "" {- "Thurayya" -} ],
 
     -- ;; vuray~A_2
     -- vryA    vuray~A N0      Pleiades
     -- vryp    vuray~ap        N0      Pleiades
 
-    Identity                  `noun`    {- vuray~A -}          [ "Pleiades" ] ]
+    Identity                  `noun`    {- vuray~A -}          [ "" {- "Pleiades" -} ] ]
 
  |> "biAlAi_tnatay" <| [
 
@@ -2757,7 +2757,7 @@ lexicon = listing "Lexicon's properties"
     -- <vnyn   {ivonayoni      N0      Monday
     -- Avnyn   {ivonayoni      N0      Monday
 
-    Identity |<< "i"          `noun`    {- Aivonayoni -}       [ "Monday" ] ]
+    Identity |<< "i"          `noun`    {- Aivonayoni -}       [ "" {- "Monday" -} ] ]
 
  |> "kaAlAi_tnatay" <| [
 

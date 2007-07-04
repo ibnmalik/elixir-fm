@@ -3150,9 +3150,9 @@ lexicon = listing "Lexicon's properties"
     FaCLA' |< Iy              `adj`     {- SafoTAwiy~ -}       [ "Saftawi" ],
 
     -- ;; SafoTAwiy~_2
-    -- SfTAwy  SafoTAwiy~      Nall    from/of Safta (Pal.)     [[SafoTAwiy~/ADJ]]
+    -- SfTAwy  SafoTAwiy~      Nall    from/of Safta      [[SafoTAwiy~/ADJ]]
 
-    FaCLA' |< Iy              `adj`     {- SafoTAwiy~ -}       [ unwords [ "from", "/", "of", "Safta", "(", "Pal.", ")" ] ] ]
+    FaCLA' |< Iy              `adj`     {- SafoTAwiy~ -}       [ unwords [ "from", "/", "of", "Safta" ] ] ]
 
  |> ".s f `" <| [
 
@@ -5264,7 +5264,8 @@ lexicon = listing "Lexicon's properties"
     -- ASm     >aSim~  Nap     plugs;valves;stoppers
 
     FiCAL                     `noun`    {- SimAm -}            [ "plug", "valve", "stopper" ]
-                              `plural`     FiCAL |< At,
+                              `plural`     FiCAL |< At
+                              `plural`     HaFiCL |< aT,
 
     -- ;; SimAmap_1
     -- SmAm    SimAm   Nap     embolism
@@ -6056,7 +6057,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Saqor -}            [ "falcon", "hawk" ]
                               `plural`     FuCUL
-                           {- `others`  [ ".suquwr N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ ".suquwr N", "'a.squr N" ] -},
 
     -- ;; Saqoriy~_1
     -- Sqry    Saqoriy~        N/ap    falcon-like;hawk-like     [[Saqoriy~/ADJ]]
@@ -7963,7 +7965,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; SuwfiyA_1
     -- SwfyA   SuwfiyA N0      Sofia
 
-    Identity                  `noun`    {- SuwfiyA -}          [ "Sofia" ] ]
+    Identity                  `noun`    {- SuwfiyA -}          [ "" {- "Sofia" -} ] ]
 
  |> ".sUyA" <| [
 
@@ -7977,14 +7979,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; SaborA_1
     -- SbrA    SaborA  Nprop   Sabra
 
-    Identity                  `noun`    {- SaborA -}           [ "Sabra" ] ]
+    Identity                  `noun`    {- SaborA -}           [ "" {- "Sabra" -} ] ]
 
  |> ".samU'Il" <| [
 
     -- ;; Samuw}iyl_1
     -- Smw}yl  Samuw}iyl       Nprop   Samuel;Samu'il
 
-    Identity                  `noun`    {- Samuw}iyl -}        [ "Samuel", "Samu'il" ] ]
+    Identity                  `noun`    {- Samuw}iyl -}        [ "" {- "Samuel" -}, "" {- "Samu'il" -} ] ]
 
  |> ".sanawbar" <| [
 
@@ -8010,7 +8012,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; SarodA_1
     -- SrdA    SarodA  Nprop   Sarda
 
-    Identity                  `noun`    {- SarodA -}           [ "Sarda" ] ]
+    Identity                  `noun`    {- SarodA -}           [ "" {- "Sarda" -} ] ]
 
  |> ".sawla^gAn" <| [
 
@@ -8023,10 +8025,10 @@ lexicon = listing "Lexicon's properties"
  |> ".saydA" <| [
 
     -- ;; SayodA_1
-    -- SydA    SayodA  N0      Sidon (Leb.)
-    -- SydA'   SayodA' N0      Sidon (Leb.)
+    -- SydA    SayodA  N0      Sidon
+    -- SydA'   SayodA' N0      Sidon
 
-    Identity                  `noun`    {- SayodA -}           [ unwords [ "Sidon", "(", "Leb.", ")" ] ] ]
+    Identity                  `noun`    {- SayodA -}           [ "" {- "Sidon" -} ] ]
 
  |> ".saydalAn" <| [
 
@@ -8040,7 +8042,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Sid~iyqiy_1
     -- Sdyqy   Sid~iyqiy       N0      Siddiqi
 
-    Identity                  `noun`    {- Sid~iyqiy -}        [ "Siddiqi" ] ]
+    Identity                  `noun`    {- Sid~iyqiy -}        [ "" {- "Siddiqi" -} ] ]
 
  |> ".siqill" <| [
 
@@ -8049,21 +8051,21 @@ lexicon = listing "Lexicon's properties"
     -- Sqly    Siqil~iy~       Nall    Sicilian     [[Siqil~iy~/ADJ]]
     -- Sqly    Siqil~iy~       Nap     Sicily     [[Siqil~iy~/NOUN]]
 
-    Identity |< Iy            `adj`     {- Siqil~iy~ -}        [ "Sicilian", "Sicily" ] ]
+    Identity |< Iy            `adj`     {- Siqil~iy~ -}        [ "" {- "Sicilian" -}, "" {- "Sicily" -} ] ]
 
  |> ".sl`m" <| [
 
     -- ;; SlEm_1
     -- SlEm    SlEm    FW      Peace Be Upon Him     [[SlEm/ABBREV]]
 
-    Identity                  `noun`    {- SlEm -}             [ unwords [ "Peace", "Be", "Upon", "Him" ] ] ]
+    Identity                  `noun`    {- SlEm -}             [ unwords [ "" {- "Peace" -}, "" {- "Be" -}, "" {- "Upon" -}, "" {- "Him" -} ] ] ]
 
  |> ".subbayr" <| [
 
     -- ;; Sub~ayor_1
     -- Sbyr    Sub~ayor        N       Indian fig     [[Sub~ayor/NOUN]]
 
-    Identity                  `noun`    {- Sub~ayor -}         [ unwords [ "Indian", "fig" ] ] ]
+    Identity                  `noun`    {- Sub~ayor -}         [ unwords [ "" {- "Indian" -}, "fig" ] ] ]
 
  |> ".suway.hib" <| [
 

@@ -1549,7 +1549,7 @@ mnEdm   munoEadim       Nall    absent;nonexistent;vanished     <pos>munoEadim/A
 ;
 ;--- Edn
 ;; Eadon_1
-Edn     Eadon   Ndip    Aden (Yem.)
+Edn     Eadon   Ndip    Aden
 ;; Eadon_2
 Edn     Eadon   N       Eden
 ;; Eadoniy~_1
@@ -6759,7 +6759,7 @@ AEnAb   >aEonAb N       grapes
 EnAb    Eun~Ab  N       jujube
 EnAb    Eun~Ab  Napdu   jujube
 ;; Ean~Abap_1
-EnAb    Ean~Ab  Nap     Annaba (Alg.)
+EnAb    Ean~Ab  Nap     Annaba
 ;; Ean~Abiy~_1
 EnAby   Ean~Abiy~       N0      Annabi
 ;

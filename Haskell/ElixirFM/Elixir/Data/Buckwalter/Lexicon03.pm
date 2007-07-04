@@ -6532,7 +6532,7 @@ $Lexicon = {
       'form' => 'ti^sriyn',
       'lines' => [
         ';; ti$oriyn_1',
-        't$ryn   ti$oriyn        N0      Tishrin (part of month names Oct. and Nov.)'
+        't$ryn   ti$oriyn        N0      Tishrin (month)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6540,7 +6540,7 @@ $Lexicon = {
       'morphs' => 'KiRDIS',
       'suffix' => '',
       'glosses' => [
-        'Tishrin (part of month names Oct. and Nov.)'
+        'Tishrin (month)'
       ],
       'orig' => 'ti$oriyn',
       'prefix' => ''
@@ -6551,7 +6551,7 @@ $Lexicon = {
       'form' => 'ti^sriyn',
       'lines' => [
         ';; ti$oriyn_2',
-        't$ryn   ti$oriyn        N0      Tishrin (Syrian newspaper)'
+        't$ryn   ti$oriyn        N0      Tishrin (newspaper)'
       ],
       'patterns' => {},
       'index' => '2',
@@ -6559,7 +6559,7 @@ $Lexicon = {
       'morphs' => 'KiRDIS',
       'suffix' => '',
       'glosses' => [
-        'Tishrin (Syrian newspaper)'
+        'Tishrin (newspaper)'
       ],
       'orig' => 'ti$oriyn',
       'prefix' => ''
@@ -8449,7 +8449,7 @@ $Lexicon = {
       'form' => 'tuwt',
       'lines' => [
         ';; tuwt_2',
-        'twt     tuwt    Ndip    Tut (1st Coptic month, Sept. 11-Oct. 10)'
+        'twt     tuwt    Ndip    Tut'
       ],
       'patterns' => {},
       'index' => '2',
@@ -8457,7 +8457,7 @@ $Lexicon = {
       'morphs' => 'FUL',
       'suffix' => '',
       'glosses' => [
-        'Tut (1st Coptic month, Sept. 11-Oct. 10)'
+        'Tut'
       ],
       'orig' => 'tuwt',
       'prefix' => ''

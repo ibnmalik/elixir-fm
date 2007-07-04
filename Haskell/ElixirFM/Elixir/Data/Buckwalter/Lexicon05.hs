@@ -9,14 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'a^gsur" <| [
-
-    -- ;; >ajosur_1
-    -- >jsr    >ajosur N       bridges
-    -- Ajsr    >ajosur N       bridges
-
-    Identity                  `noun`    {- Oajosur -}          [ "bridges" ] ]
-
  |> "^g ' '" <| [
 
     -- ;; jAwiy~_1
@@ -1302,8 +1294,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- jaboH -}            [ "beehive" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCuL
                               `plural`     FiCAL
-                           {- `others`  [ "'a^gbA.h N", "^gibA.h N" ] -} ]
+                           {- `others`  [ "'a^gbA.h N", "'a^gbu.h N", "^gibA.h N" ] -} ]
 
  |> "^g b _d" <| [
 
@@ -1544,7 +1537,9 @@ lexicon = listing "Lexicon's properties"
     -- Ajbn    >ajobun N       fronts
 
     FuCuL                     `noun`    {- jubun -}            [ "fronts" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCuL
+                              `plural`     HaFCiL |< aT
+                           {- `others`  [ "'a^gbun N" ] -},
 
     -- ;; jabiyniy~_1
     -- jbyny   jabiyniy~       Nall    frontal     [[jabiyniy~/ADJ]]
@@ -5390,7 +5385,9 @@ lexicon = listing "Lexicon's properties"
     -- AjnH    >ajonuH N       wings;flanks
 
     FaCAL                     `noun`    {- janAH -}            [ "wing", "flank" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCuL
+                           {- `others`  [ "'a^gnu.h N" ] -},
 
     -- ;; junAH_1
     -- jnAH    junAH   N       misdemeanor
@@ -5869,7 +5866,10 @@ lexicon = listing "Lexicon's properties"
     -- >jn     >ajun~  N       fetuses
     -- Ajn     >ajun~  N       fetuses
 
-    FaCIL                     `noun`    {- janiyn -}           [ "fetus", "germ" ],
+    FaCIL                     `noun`    {- janiyn -}           [ "fetus", "germ" ]
+                              `plural`     HaFiCL |< aT
+                              `plural`     HaFuCL
+                           {- `others`  [ "'a^gunn N" ] -},
 
     -- ;; janiyniy~_1
     -- jnyny   janiyniy~       Nall    fetal     [[janiyniy~/ADJ]]
@@ -6558,9 +6558,9 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "^gawAriy^s Ndip" ] -},
 
     -- ;; jara$_1
-    -- jr$     jara$   Ndip    Jerash;Jarash (Jor.)
+    -- jr$     jara$   Ndip    Jerash;Jarash
 
-    FaCaL                     `noun`    {- jara$ -}            [ "Jerash", unwords [ "Jarash", "(", "Jor.", ")" ] ] ]
+    FaCaL                     `noun`    {- jara$ -}            [ "Jerash", "Jarash" ] ]
 
  |> "^g r _d" <| [
 
@@ -7676,6 +7676,12 @@ lexicon = listing "Lexicon's properties"
     FiCL                      `noun`    {- jisor -}            [ "bridge", unwords [ "(", "reinforcement", ")", "beam", "or", "bar" ], unwords [ "(", "reinforcement", ")", "beams", "or", "bars" ] ]
                               `plural`     FuCUL
                            {- `others`  [ "^gusuwr N" ] -},
+
+    -- ;; >ajosur_1
+    -- >jsr    >ajosur N       bridges
+    -- Ajsr    >ajosur N       bridges
+
+    HaFCuL                    `noun`    {- Oajosur -}          [ "bridges" ],
 
     -- ;; jasuwr_1
     -- jswr    jasuwr  Nall    bold;daring
@@ -9973,21 +9979,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; jAguwAr_1
     -- jAgwAr  jAguwAr Nprop   Jaguar
 
-    Identity                  `noun`    {- jAguwAr -}          [ "Jaguar" ] ]
+    Identity                  `noun`    {- jAguwAr -}          [ "" {- "Jaguar" -} ] ]
 
  |> "^gAdAllh" <| [
 
     -- ;; jAdAllh_1
     -- jAdAllh jAdAll~`h       N0      Jadallah;Gadallah
 
-    Identity                  `noun`    {- jAdAllh -}          [ "Jadallah", "Gadallah" ] ]
+    Identity                  `noun`    {- jAdAllh -}          [ "" {- "Jadallah" -}, "" {- "Gadallah" -} ] ]
 
  |> "^gAdIr" <| [
 
     -- ;; jAdiyr_1
     -- jAdyr   jAdiyr  N0      Jadir
 
-    Identity                  `noun`    {- jAdiyr -}           [ "Jadir" ] ]
+    Identity                  `noun`    {- jAdiyr -}           [ "" {- "Jadir" -} ] ]
 
  |> "^gAkArtA" <| [
 
@@ -9995,21 +10001,21 @@ lexicon = listing "Lexicon's properties"
     -- jAkArtA jAkArotA        Nprop   Jakarta
     -- jAkrtA  jAkarotA        Nprop   Jakarta
 
-    Identity                  `noun`    {- jAkArotA -}         [ "Jakarta" ] ]
+    Identity                  `noun`    {- jAkArotA -}         [ "" {- "Jakarta" -} ] ]
 
  |> "^gAksUn" <| [
 
     -- ;; jAkosuwn_1
     -- jAkswn  jAkosuwn        Nprop   Jackson
 
-    Identity                  `noun`    {- jAkosuwn -}         [ "Jackson" ] ]
+    Identity                  `noun`    {- jAkosuwn -}         [ "" {- "Jackson" -} ] ]
 
  |> "^gAlA" <| [
 
     -- ;; jAlA_1
     -- jAlA    jAlA    FW      Jala     [[jAlA/NOUN_PROP]]
 
-    Identity                  `noun`    {- jAlA -}             [ "Jala" ] ]
+    Identity                  `noun`    {- jAlA -}             [ "" {- "Jala" -} ] ]
 
  |> "^gAmA" <| [
 
@@ -10023,56 +10029,56 @@ lexicon = listing "Lexicon's properties"
     -- ;; jAmuw_1
     -- jAmw    jAmuw   N0      Jammu
 
-    Identity                  `noun`    {- jAmuw -}            [ "Jammu" ] ]
+    Identity                  `noun`    {- jAmuw -}            [ "" {- "Jammu" -} ] ]
 
  |> "^gAnIrU" <| [
 
     -- ;; jAniyruw_1
     -- jAnyrw  jAniyruw        Nprop   Janeiro
 
-    Identity                  `noun`    {- jAniyruw -}         [ "Janeiro" ] ]
+    Identity                  `noun`    {- jAniyruw -}         [ "" {- "Janeiro" -} ] ]
 
  |> "^gAnfI" <| [
 
     -- ;; jAnfiy_1
     -- jAnfy   jAnfiy  N0      January
 
-    Identity                  `noun`    {- jAnfiy -}           [ "January" ] ]
+    Identity                  `noun`    {- jAnfiy -}           [ "" {- "January" -} ] ]
 
  |> "^gAnfrAnkU" <| [
 
     -- ;; jAnofrAnokuw_1
     -- jAnfrAnkw       jAnofrAnokuw    Nprop   Gianfranco
 
-    Identity                  `noun`    {- jAnofrAnokuw -}     [ "Gianfranco" ] ]
+    Identity                  `noun`    {- jAnofrAnokuw -}     [ "" {- "Gianfranco" -} ] ]
 
  |> "^gAnlUkA" <| [
 
     -- ;; jAnoluwkA_1
     -- jAnlwkA jAnoluwkA       Nprop   Gianluca
 
-    Identity                  `noun`    {- jAnoluwkA -}        [ "Gianluca" ] ]
+    Identity                  `noun`    {- jAnoluwkA -}        [ "" {- "Gianluca" -} ] ]
 
  |> "^gAnluwI^gI" <| [
 
     -- ;; jAnoluwiyjiy_1
     -- jAnlwyjy        jAnoluwiyjiy    Nprop   Gianluigi
 
-    Identity                  `noun`    {- jAnoluwiyjiy -}     [ "Gianluigi" ] ]
+    Identity                  `noun`    {- jAnoluwiyjiy -}     [ "" {- "Gianluigi" -} ] ]
 
  |> "^gArAlll_ah" <| [
 
     -- ;; jArAll~`h_1
     -- jArAllh jArAll~`h       N0      Jarallah
 
-    Identity                  `noun`    {- jArAll~`h -}        [ "Jarallah" ] ]
+    Identity                  `noun`    {- jArAll~`h -}        [ "" {- "Jarallah" -} ] ]
 
  |> "^gArAn^g" <| [
 
     -- ;; jArAnoj_1
     -- jArAnj  jArAnoj N0      Garang
 
-    Identity                  `noun`    {- jArAnoj -}          [ "Garang" ] ]
+    Identity                  `noun`    {- jArAnoj -}          [ "" {- "Garang" -} ] ]
 
  |> "^gArdiyAn" <| [
 
@@ -10080,21 +10086,21 @@ lexicon = listing "Lexicon's properties"
     -- jArdyAn jArodiyAn       N0      Guardian
     -- gArdyAn gArodiyAn       N0      Guardian
 
-    Identity                  `noun`    {- jArodiyAn -}        [ "Guardian" ] ]
+    Identity                  `noun`    {- jArodiyAn -}        [ "" {- "Guardian" -} ] ]
 
  |> "^gAstIn" <| [
 
     -- ;; jAsotiyn_1
     -- jAstyn  jAsotiyn        Nprop   Justin
 
-    Identity                  `noun`    {- jAsotiyn -}         [ "Justin" ] ]
+    Identity                  `noun`    {- jAsotiyn -}         [ "" {- "Justin" -} ] ]
 
  |> "^gAtUrAbAtArAbUn.g" <| [
 
     -- ;; jAtuwrAbAtArAbuwng_1
     -- jAtwrAbAtArAbwng        jAtuwrAbAtArAbuwng      Nprop   Jatupatarapong
 
-    Identity                  `noun`    {- jAtuwrAbAtArAbuwng -} [ "Jatupatarapong" ] ]
+    Identity                  `noun`    {- jAtuwrAbAtArAbuwng -} [ "" {- "Jatupatarapong" -} ] ]
 
  |> "^gAwI^s" <| [
 
@@ -10108,42 +10114,42 @@ lexicon = listing "Lexicon's properties"
     -- ;; jAyomiy_1
     -- jAymy   jAyomiy Nprop   Jamie
 
-    Identity                  `noun`    {- jAyomiy -}          [ "Jamie" ] ]
+    Identity                  `noun`    {- jAyomiy -}          [ "" {- "Jamie" -} ] ]
 
  |> "^gAzAn" <| [
 
     -- ;; jAzAn_1
     -- jAzAn   jAzAn   Nprop   Jazan
 
-    Identity                  `noun`    {- jAzAn -}            [ "Jazan" ] ]
+    Identity                  `noun`    {- jAzAn -}            [ "" {- "Jazan" -} ] ]
 
  |> "^gIbUtI" <| [
 
     -- ;; jiybuwtiy_1
     -- jybwty  jiybuwtiy       N0      Djibouti
 
-    Identity                  `noun`    {- jiybuwtiy -}        [ "Djibouti" ] ]
+    Identity                  `noun`    {- jiybuwtiy -}        [ "" {- "Djibouti" -} ] ]
 
  |> "^gIfsUn" <| [
 
     -- ;; jiyfsuwn_1
     -- jyfswn  jyfswn  Nprop   Jephson
 
-    Identity                  `noun`    {- jiyfsuwn -}         [ "Jephson" ] ]
+    Identity                  `noun`    {- jiyfsuwn -}         [ "" {- "Jephson" -} ] ]
 
  |> "^gIl.gAl" <| [
 
     -- ;; jiylogAl_1
     -- jylgAl  jiylogAl        Nprop   Gilgal
 
-    Identity                  `noun`    {- jiylogAl -}         [ "Gilgal" ] ]
+    Identity                  `noun`    {- jiylogAl -}         [ "" {- "Gilgal" -} ] ]
 
  |> "^gIlArdInU" <| [
 
     -- ;; jiylArodiynuw_1
     -- jylArdynw       jiylArodiynuw   N0      Gilardino
 
-    Identity                  `noun`    {- jiylArodiynuw -}    [ "Gilardino" ] ]
+    Identity                  `noun`    {- jiylArodiynuw -}    [ "" {- "Gilardino" -} ] ]
 
  |> "^gIlAtI" <| [
 
@@ -10164,42 +10170,42 @@ lexicon = listing "Lexicon's properties"
     -- ;; jiyluw_1
     -- jylw    jiyluw  Nprop   Gilo
 
-    Identity                  `noun`    {- jiyluw -}           [ "Gilo" ] ]
+    Identity                  `noun`    {- jiyluw -}           [ "" {- "Gilo" -} ] ]
 
  |> "^gIlbirt" <| [
 
     -- ;; jiylobirot_1
     -- jylbrt  jiylobirot      Nprop   Gilbert
 
-    Identity                  `noun`    {- jiylobirot -}       [ "Gilbert" ] ]
+    Identity                  `noun`    {- jiylobirot -}       [ "" {- "Gilbert" -} ] ]
 
  |> "^gIlbirtU" <| [
 
     -- ;; jiylobirotuw_1
     -- jylbrtw jiylobirotuw    Nprop   Gilberto
 
-    Identity                  `noun`    {- jiylobirotuw -}     [ "Gilberto" ] ]
+    Identity                  `noun`    {- jiylobirotuw -}     [ "" {- "Gilberto" -} ] ]
 
  |> "^gIlz" <| [
 
     -- ;; jiylz_1
     -- jylz    jiylz   Nprop   Giles
 
-    Identity                  `noun`    {- jiylz -}            [ "Giles" ] ]
+    Identity                  `noun`    {- jiylz -}            [ "" {- "Giles" -} ] ]
 
  |> "^gIn.g" <| [
 
     -- ;; jiyng_1
     -- jyng    jiyng   Nprop   Jing
 
-    Identity                  `noun`    {- jiyng -}            [ "Jing" ] ]
+    Identity                  `noun`    {- jiyng -}            [ "" {- "Jing" -} ] ]
 
  |> "^gInArU" <| [
 
     -- ;; jiynAruw_1
     -- jynArw  jiynAruw        Nprop   Genaro
 
-    Identity                  `noun`    {- jiynAruw -}         [ "Genaro" ] ]
+    Identity                  `noun`    {- jiynAruw -}         [ "" {- "Genaro" -} ] ]
 
  |> "^gIrU" <| [
 
@@ -10214,43 +10220,43 @@ lexicon = listing "Lexicon's properties"
     -- jyrwzAlym       jiyruwzAliym    N0      Jerusalem
     -- jyrwzAlm        jiyruwzAlim     N0      Jerusalem
 
-    Identity                  `noun`    {- jiyruwzAliym -}     [ "Jerusalem" ] ]
+    Identity                  `noun`    {- jiyruwzAliym -}     [ "" {- "Jerusalem" -} ] ]
 
  |> "^gIr^gA" <| [
 
     -- ;; jiyrojA_1
-    -- jyrjA   jiyrojA N0      Jirga (in "Loya Jirga")
-    -- jyrgA   jiyrogA N0      Jirga (in "Loya Jirga")
+    -- jyrjA   jiyrojA N0      Jirga
+    -- jyrgA   jiyrogA N0      Jirga
 
-    Identity                  `noun`    {- jiyrojA -}          [ unwords [ "Jirga", "(", "in", "\"Loya", "Jirga\"", ")" ] ] ]
+    Identity                  `noun`    {- jiyrojA -}          [ "" {- "Jirga" -} ] ]
 
  |> "^gItiks" <| [
 
     -- ;; jiytikos_1
     -- jytks   jiytikos        Nprop   Gitex
 
-    Identity                  `noun`    {- jiytikos -}         [ "Gitex" ] ]
+    Identity                  `noun`    {- jiytikos -}         [ "" {- "Gitex" -} ] ]
 
  |> "^gIzhU" <| [
 
     -- ;; jiyzhuw_1
     -- jyzhw   jiyzhuw Nprop   Jizhu
 
-    Identity                  `noun`    {- jiyzhuw -}          [ "Jizhu" ] ]
+    Identity                  `noun`    {- jiyzhuw -}          [ "" {- "Jizhu" -} ] ]
 
  |> "^gUbA" <| [
 
     -- ;; juwbA_1
     -- jwbA    juwbA   Nprop   Juba
 
-    Identity                  `noun`    {- juwbA -}            [ "Juba" ] ]
+    Identity                  `noun`    {- juwbA -}            [ "" {- "Juba" -} ] ]
 
  |> "^gUfAnI" <| [
 
     -- ;; juwfAniy_1
     -- jwfAny  juwfAniy        N0      Giovanni
 
-    Identity                  `noun`    {- juwfAniy -}         [ "Giovanni" ] ]
+    Identity                  `noun`    {- juwfAniy -}         [ "" {- "Giovanni" -} ] ]
 
  |> "^gUhAnisbUr^g" <| [
 
@@ -10264,7 +10270,7 @@ lexicon = listing "Lexicon's properties"
     -- ywhAnsbrj       yuwhAnisoburj   N0      Johannesburg
     -- ywhAnsbrg       yuwhAnisoburg   N0      Johannesburg
 
-    Identity                  `noun`    {- juwhAnisobuwrj -}   [ "Johannesburg" ] ]
+    Identity                  `noun`    {- juwhAnisobuwrj -}   [ "" {- "Johannesburg" -} ] ]
 
  |> "^gUlf" <| [
 
@@ -10276,119 +10282,119 @@ lexicon = listing "Lexicon's properties"
     -- ;; juwlof_2
     -- jwlf    juwlof  Nprop   Gulf
 
-    Identity                  `noun`    {- juwlof -}           [ "Gulf" ] ]
+    Identity                  `noun`    {- juwlof -}           [ "" {- "Gulf" -} ] ]
 
  |> "^gUliyA" <| [
 
     -- ;; juwliyA_1
     -- jwlyA   juwliyA Nprop   Julia
 
-    Identity                  `noun`    {- juwliyA -}          [ "Julia" ] ]
+    Identity                  `noun`    {- juwliyA -}          [ "" {- "Julia" -} ] ]
 
  |> "^gUliyAn" <| [
 
     -- ;; juwliyAn_1
     -- jwlyAn  juwliyAn        Nprop   Julian;Julien
 
-    Identity                  `noun`    {- juwliyAn -}         [ "Julian", "Julien" ] ]
+    Identity                  `noun`    {- juwliyAn -}         [ "" {- "Julian" -}, "" {- "Julien" -} ] ]
 
  |> "^gUliyIt" <| [
 
     -- ;; juwliyiyt_1
     -- jwlyyt  juwliyiyt       Nprop   Juliette
 
-    Identity                  `noun`    {- juwliyiyt -}        [ "Juliette" ] ]
+    Identity                  `noun`    {- juwliyiyt -}        [ "" {- "Juliette" -} ] ]
 
  |> "^gUliyU" <| [
 
     -- ;; juwliyuw_1
     -- jwlyw   juwliyuw        Nprop   Giulio;Julio
 
-    Identity                  `noun`    {- juwliyuw -}         [ "Giulio", "Julio" ] ]
+    Identity                  `noun`    {- juwliyuw -}         [ "" {- "Giulio" -}, "" {- "Julio" -} ] ]
 
  |> "^gUn.g" <| [
 
     -- ;; juwnog_1
     -- jwng    juwnog  Nprop   Jong
 
-    Identity                  `noun`    {- juwnog -}           [ "Jong" ] ]
+    Identity                  `noun`    {- juwnog -}           [ "" {- "Jong" -} ] ]
 
  |> "^gUnA_tAn" <| [
 
     -- ;; juwnAvAn_1
     -- jwnAvAn juwnAvAn        Nprop   Jonathan
 
-    Identity                  `noun`    {- juwnAvAn -}         [ "Jonathan" ] ]
+    Identity                  `noun`    {- juwnAvAn -}         [ "" {- "Jonathan" -} ] ]
 
  |> "^gUnInyU" <| [
 
     -- ;; juwniynoyuw_1
     -- jwnynyw juwniynoyuw     Nprop   Juninio
 
-    Identity                  `noun`    {- juwniynoyuw -}      [ "Juninio" ] ]
+    Identity                  `noun`    {- juwniynoyuw -}      [ "" {- "Juninio" -} ] ]
 
  |> "^gUniyUr" <| [
 
     -- ;; juwniyuwr_1
     -- jwnywr  juwniyuwr       Nprop   Junior
 
-    Identity                  `noun`    {- juwniyuwr -}        [ "Junior" ] ]
+    Identity                  `noun`    {- juwniyuwr -}        [ "" {- "Junior" -} ] ]
 
  |> "^gUnsUn" <| [
 
     -- ;; juwnosuwn_1
     -- jwnswn  juwnosuwn       Nprop   Johnson
 
-    Identity                  `noun`    {- juwnosuwn -}        [ "Johnson" ] ]
+    Identity                  `noun`    {- juwnosuwn -}        [ "" {- "Johnson" -} ] ]
 
  |> "^gUnz" <| [
 
     -- ;; juwnoz_1
     -- jwnz    juwnoz  Nprop   Jones
 
-    Identity                  `noun`    {- juwnoz -}           [ "Jones" ] ]
+    Identity                  `noun`    {- juwnoz -}           [ "" {- "Jones" -} ] ]
 
  |> "^gUr^g" <| [
 
     -- ;; juwroj_1
     -- jwrj    juwroj  Nprop   George
 
-    Identity                  `noun`    {- juwroj -}           [ "George" ] ]
+    Identity                  `noun`    {- juwroj -}           [ "" {- "George" -} ] ]
 
  |> "^gUr^gI" <| [
 
     -- ;; juwrojiy_1
     -- jwrjy   juwrojiy        Nprop   Georgi;Gheorghe
 
-    Identity                  `noun`    {- juwrojiy -}         [ "Georgi", "Gheorghe" ] ]
+    Identity                  `noun`    {- juwrojiy -}         [ "" {- "Georgi" -}, "" {- "Gheorghe" -} ] ]
 
  |> "^gUr^gIt" <| [
 
     -- ;; juwrojiyt_1
     -- jwrjyt  juwrojiyt       Nprop   Georgette
 
-    Identity                  `noun`    {- juwrojiyt -}        [ "Georgette" ] ]
+    Identity                  `noun`    {- juwrojiyt -}        [ "" {- "Georgette" -} ] ]
 
  |> "^gUr^giyA" <| [
 
     -- ;; juwrojiyA_1
     -- jwrjyA  juwrojiyA       N0      Georgia
 
-    Identity                  `noun`    {- juwrojiyA -}        [ "Georgia" ] ]
+    Identity                  `noun`    {- juwrojiyA -}        [ "" {- "Georgia" -} ] ]
 
  |> "^gUrnAl" <| [
 
     -- ;; juwronAl_1
     -- jwrnAl  juwronAl        Nprop   Journal
 
-    Identity                  `noun`    {- juwronAl -}         [ "Journal" ] ]
+    Identity                  `noun`    {- juwronAl -}         [ "" {- "Journal" -} ] ]
 
  |> "^gUsbAn" <| [
 
     -- ;; juwsobAn_1
     -- jwsbAn  juwsobAn        Nprop   Jospin
 
-    Identity                  `noun`    {- juwsobAn -}         [ "Jospin" ] ]
+    Identity                  `noun`    {- juwsobAn -}         [ "" {- "Jospin" -} ] ]
 
  |> "^gUwA" <| [
 
@@ -10402,7 +10408,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; juwziyfA_1
     -- jwzyfA  juwziyfA        Nprop   Josefa
 
-    Identity                  `noun`    {- juwziyfA -}         [ "Josefa" ] ]
+    Identity                  `noun`    {- juwziyfA -}         [ "" {- "Josefa" -} ] ]
 
  |> "^gabalA'" <| [
 
@@ -10414,7 +10420,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; jabalAwiy~_2
     -- jblAwy  jabalAwiy~      Ndip    Gabalawi
 
-    Identity |< Iy            `adj`     {- jabalAwiy~ -}       [ "Gabalawi" ] ]
+    Identity |< Iy            `adj`     {- jabalAwiy~ -}       [ "" {- "Gabalawi" -} ] ]
 
  |> "^gabalAy" <| [
 
@@ -10437,14 +10443,14 @@ lexicon = listing "Lexicon's properties"
     -- jbrA}yl jiborA}iyl      N0      Jibril;Gabriel
     -- jbryl   jiboriyl        N0      Jibril;Gabriel
 
-    Identity                  `noun`    {- jabora}iyl -}       [ "Jibril", "Gabriel" ] ]
+    Identity                  `noun`    {- jabora}iyl -}       [ "" {- "Jibril" -}, "" {- "Gabriel" -} ] ]
 
  |> "^gahann" <| [
 
     -- ;; jahan~iy~_1
     -- jhny    jahan~iy~       N0      Jahanni
 
-    Identity |< Iy            `adj`     {- jahan~iy~ -}        [ "Jahanni" ] ]
+    Identity |< Iy            `adj`     {- jahan~iy~ -}        [ "" {- "Jahanni" -} ] ]
 
  |> "^gahannam" <| [
 
@@ -10474,7 +10480,7 @@ lexicon = listing "Lexicon's properties"
     -- jAmAyky jAmAyokiy~      Nall    Jamaican     [[jamAyokiy~/NOUN]]
     -- jAmAyky jAmAyokiy~      Nall    Jamaican     [[jamAyokiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- jamAyokiy~ -}       [ "Jamaican" ] ]
+    Identity |< Iy            `adj`     {- jamAyokiy~ -}       [ "" {- "Jamaican" -} ] ]
 
  |> "^gamAykA" <| [
 
@@ -10482,7 +10488,7 @@ lexicon = listing "Lexicon's properties"
     -- jmAykA  jamAyokA        N0      Jamaica
     -- jAmAykA jAmAyokA        N0      Jamaica
 
-    Identity                  `noun`    {- jamAyokA -}         [ "Jamaica" ] ]
+    Identity                  `noun`    {- jamAyokA -}         [ "" {- "Jamaica" -} ] ]
 
  |> "^gama^st" <| [
 
@@ -10525,7 +10531,7 @@ lexicon = listing "Lexicon's properties"
     -- jnwA    januwA  N0      Genoa
     -- jnwh    januwah N0      Genoa
 
-    Identity                  `noun`    {- januwA -}           [ "Genoa" ] ]
+    Identity                  `noun`    {- januwA -}           [ "" {- "Genoa" -} ] ]
 
  |> "^ganzabIl" <| [
 
@@ -10552,7 +10558,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; jhAroqanod_1
     -- jhArqnd jhAroqanod      Nprop   Jharkhand
 
-    Identity                  `noun`    {- jhAroqanod -}       [ "Jharkhand" ] ]
+    Identity                  `noun`    {- jhAroqanod -}       [ "" {- "Jharkhand" -} ] ]
 
  |> "^gibill" <| [
 
@@ -10597,7 +10603,7 @@ lexicon = listing "Lexicon's properties"
     -- jlq     jil~iq  Ndip    Damascus (old name)
     -- jlq     jil~aq  Ndip    Damascus (old name)
 
-    Identity                  `noun`    {- jil~iq -}           [ unwords [ "Damascus", "(", "old", "name", ")" ] ] ]
+    Identity                  `noun`    {- jil~iq -}           [ unwords [ "" {- "Damascus" -}, "(", "old", "name", ")" ] ] ]
 
  |> "^gilyUtIn" <| [
 
@@ -10611,7 +10617,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; jiniyf_1
     -- jnyf    jiniyf  N0      Geneva
 
-    Identity                  `noun`    {- jiniyf -}           [ "Geneva" ] ]
+    Identity                  `noun`    {- jiniyf -}           [ "" {- "Geneva" -} ] ]
 
  |> "^ginIh" <| [
 
@@ -10628,21 +10634,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; jiniyn_1
     -- jnyn    jiniyn  Nprop   Jenin
 
-    Identity                  `noun`    {- jiniyn -}           [ "Jenin" ] ]
+    Identity                  `noun`    {- jiniyn -}           [ "" {- "Jenin" -} ] ]
 
  |> "^ginIrAl" <| [
 
     -- ;; jiniyrAl_1
     -- jnyrAl  jiniyrAl        N0      General
 
-    Identity                  `noun`    {- jiniyrAl -}         [ "General" ] ]
+    Identity                  `noun`    {- jiniyrAl -}         [ "" {- "General" -} ] ]
 
  |> "^ginirAl" <| [
 
     -- ;; jinirAl_1
     -- jnrAl   jinirAl N0      General
 
-    Identity                  `noun`    {- jinirAl -}          [ "General" ],
+    Identity                  `noun`    {- jinirAl -}          [ "" {- "General" -} ],
 
     -- ;; jinirAl_2
     -- jnrAl   jinirAl NduAt   general
@@ -10654,14 +10660,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; jiroyas_1
     -- jrys    jiroyas Nprop   Jirias;Gerias
 
-    Identity                  `noun`    {- jiroyas -}          [ "Jirias", "Gerias" ] ]
+    Identity                  `noun`    {- jiroyas -}          [ "" {- "Jirias" -}, "" {- "Gerias" -} ] ]
 
  |> "^giyAn.g" <| [
 
     -- ;; jiyAnog_1
     -- jyAng   jiyAnog Nprop   Jiyang
 
-    Identity                  `noun`    {- jiyAnog -}          [ "Jiyang" ] ]
+    Identity                  `noun`    {- jiyAnog -}          [ "" {- "Jiyang" -} ] ]
 
  |> "^giyU.grAf" <| [
 
@@ -10683,7 +10689,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; jiyuwfAniy_1
     -- jywfAny jiyuwfAniy      Nprop   Giovanni
 
-    Identity                  `noun`    {- jiyuwfAniy -}       [ "Giovanni" ] ]
+    Identity                  `noun`    {- jiyuwfAniy -}       [ "" {- "Giovanni" -} ] ]
 
  |> "^giyUfIziyA" <| [
 
@@ -10774,7 +10780,7 @@ lexicon = listing "Lexicon's properties"
     -- jrynt$  jriynito$       Nprop   Greenwich
     -- grynt$  griynito$       Nprop   Greenwich
 
-    Identity                  `noun`    {- jriynito$ -}        [ "Greenwich" ] ]
+    Identity                  `noun`    {- jriynito$ -}        [ "" {- "Greenwich" -} ] ]
 
  |> "^grUs" <| [
 
@@ -10796,7 +10802,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; juHA_1
     -- jHA     juHA    Nprop   Juha
 
-    Identity                  `noun`    {- juHA -}             [ "Juha" ] ]
+    Identity                  `noun`    {- juHA -}             [ "" {- "Juha" -} ] ]
 
  |> "^gul^gulAn" <| [
 
@@ -10826,12 +10832,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; junoblAT_1
     -- jnblAT  junoblAT        Nprop   Jumblatt
 
-    Identity                  `noun`    {- junoblAT -}         [ "Jumblatt" ],
+    Identity                  `noun`    {- junoblAT -}         [ "" {- "Jumblatt" -} ],
 
     -- ;; junoblATiy~_1
     -- jnblATy junoblATiy~     Nall    Jumblattist     [[junoblATiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- junoblATiy~ -}      [ "Jumblattist" ] ]
+    Identity |< Iy            `adj`     {- junoblATiy~ -}      [ "" {- "Jumblattist" -} ] ]
 
  |> "^guwAntI" <| [
 
@@ -10847,21 +10853,21 @@ lexicon = listing "Lexicon's properties"
     -- jwAtymAly       juwAtiymAliy~   Nall    Guatemalan     [[juwAtiymAliy~/NOUN]]
     -- jwAtymAly       juwAtiymAliy~   Nall    Guatemalan     [[juwAtiymAliy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- juwAtiymAliy~ -}    [ "Guatemalan" ] ]
+    Identity |< Iy            `adj`     {- juwAtiymAliy~ -}    [ "" {- "Guatemalan" -} ] ]
 
  |> "^guwAtImAlA" <| [
 
     -- ;; juwAtiymAlA_1
     -- jwAtymAlA       juwAtiymAlA     N0      Guatemala
 
-    Identity                  `noun`    {- juwAtiymAlA -}      [ "Guatemala" ] ]
+    Identity                  `noun`    {- juwAtiymAlA -}      [ "" {- "Guatemala" -} ] ]
 
  |> "^guwIlI" <| [
 
     -- ;; juwiyliy_1
     -- jwyly   juwiyliy        Nap     July
 
-    Identity                  `noun`    {- juwiyliy -}         [ "July" ] ]
+    Identity                  `noun`    {- juwiyliy -}         [ "" {- "July" -} ] ]
 
  |> "^gwAntanAmU" <| [
 
@@ -10871,40 +10877,40 @@ lexicon = listing "Lexicon's properties"
     -- jwAntAnAmw      jwAnotAnAmuw    N0      Guantanamo
     -- gwAntAnAmw      gwAnotAnAmuw    N0      Guantanamo
 
-    Identity                  `noun`    {- jwAnotanAmuw -}     [ "Guantanamo" ] ]
+    Identity                  `noun`    {- jwAnotanAmuw -}     [ "" {- "Guantanamo" -} ] ]
 
  |> "^gwrdAn" <| [
 
     -- ;; jwrdAn_1
     -- jwrdAn  jwrdAn  Nprop   Jordan
 
-    Identity                  `noun`    {- jwrdAn -}           [ "Jordan" ] ]
+    Identity                  `noun`    {- jwrdAn -}           [ "" {- "Jordan" -} ] ]
 
  |> "^gyms" <| [
 
     -- ;; jyms_1
     -- jyms    jyms    Nprop   James
 
-    Identity                  `noun`    {- jyms -}             [ "James" ] ]
+    Identity                  `noun`    {- jyms -}             [ "" {- "James" -} ] ]
 
  |> "^gymz" <| [
 
     -- ;; jymz_1
     -- jymz    jymz    Nprop   James
 
-    Identity                  `noun`    {- jymz -}             [ "James" ] ]
+    Identity                  `noun`    {- jymz -}             [ "" {- "James" -} ] ]
 
  |> "^gyt" <| [
 
     -- ;; jyt_1
     -- jyt     jyt     Nprop   Gate
 
-    Identity                  `noun`    {- jyt -}              [ "Gate" ],
+    Identity                  `noun`    {- jyt -}              [ "" {- "Gate" -} ],
 
     -- ;; jyt_2
     -- jyt     jyt     Nprop   Jet
 
-    Identity                  `noun`    {- jyt -}              [ "Jet" ] ]
+    Identity                  `noun`    {- jyt -}              [ "" {- "Jet" -} ] ]
 
  |> "mA^garY" <| [
 
@@ -10918,7 +10924,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mujad~idiy_1
     -- mjddy   mujad~idiy      N0      Mojaddedi;Mujaddedi
 
-    Identity                  `noun`    {- mujad~idiy -}       [ "Mojaddedi", "Mujaddedi" ] ]
+    Identity                  `noun`    {- mujad~idiy -}       [ "" {- "Mojaddedi" -}, "" {- "Mujaddedi" -} ] ]
 
  |> "ta^gill" <| [
 

@@ -25204,10 +25204,10 @@ $Lexicon = {
       'form' => '_haw_h',
       'lines' => [
         ';; xawox_1',
-        'xwx     xawox   N       peach (Egy.Ir.)',
-        'xwx     xawox   N       plum (Lev.)',
-        'xwx     xawox   NapAt   peach (Egy.Ir.)',
-        'xwx     xawox   NapAt   plum (Lev.)'
+        'xwx     xawox   N       peach',
+        'xwx     xawox   N       plum',
+        'xwx     xawox   NapAt   peach',
+        'xwx     xawox   NapAt   plum'
       ],
       'patterns' => {
         '_haw_h' => [
@@ -25219,8 +25219,8 @@ $Lexicon = {
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
-        'peach (Egy.Ir.)',
-        'plum (Lev.)'
+        'peach',
+        'plum'
       ],
       'orig' => 'xawox',
       'prefix' => ''
@@ -28475,7 +28475,7 @@ $Lexicon = {
       'form' => '_harruwbaT',
       'lines' => [
         ';; xar~uwbap_2',
-        'xrwb    xar~uwb NapAt   kharouba (dry measure, = 0.129 l.)'
+        'xrwb    xar~uwb NapAt   kharouba'
       ],
       'patterns' => {},
       'index' => '2',
@@ -28483,7 +28483,7 @@ $Lexicon = {
       'morphs' => 'FaCCUL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'kharouba (dry measure, = 0.129 l.)'
+        'kharouba'
       ],
       'orig' => 'xar~uwbap',
       'prefix' => ''
@@ -34309,7 +34309,11 @@ $Lexicon = {
         '>xs     >axis~  Nap     despicable;miserable',
         'Axs     >axis~  Nap     despicable;miserable'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a_hiss' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',

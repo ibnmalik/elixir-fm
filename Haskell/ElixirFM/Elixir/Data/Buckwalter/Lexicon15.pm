@@ -1092,6 +1092,9 @@ $Lexicon = {
         'ADbE    >aDobuE N       hyenas'
       ],
       'patterns' => {
+        '\'a.dbu`' => [
+          'HaFCuL'
+        ],
         '.dibA`' => [
           'FiCAL'
         ]
@@ -7470,7 +7473,11 @@ $Lexicon = {
         '>Dn     >aDin~  Nap     stingy;economical',
         'ADn     >aDin~  Nap     stingy;economical'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.dinn' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -11630,6 +11637,9 @@ $Lexicon = {
         'DbAn    Dub~An  N       lizards'
       ],
       'patterns' => {
+        '\'a.dubb' => [
+          'HaFuCL'
+        ],
         '.dubbAn' => [
           'FuCLAn'
         ]

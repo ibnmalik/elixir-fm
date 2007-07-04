@@ -153,7 +153,8 @@ lexicon = listing "Lexicon's properties"
 
     FiCL |< Iy                `adj`     {- Tib~iy~ -}          [ "medical" ],
 
-    FaCIL                     `noun`    {- Tabiyb -}           [ "physician", "doctor" ],
+    FaCIL                     `noun`    {- Tabiyb -}           [ "physician", "doctor" ]
+                              `plural`     HaFiCL |< aT,
 
     FiCAL |< aT               `noun`    {- TibAbap -}          [ unwords [ "medical", "profession" ], unwords [ "medical", "treatment" ] ],
 
@@ -469,7 +470,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t n .t '" <| [
 
-    KaRDAS |< Iy              `adj`     {- TanoTAwiy~ -}       [ unwords [ "from", "/", "of", "Tanta", "[Egy.]" ] ],
+    KaRDAS |< Iy              `adj`     {- TanoTAwiy~ -}       [ unwords [ "from", "/", "of", "Tanta" ] ],
 
     KaRDAS |< Iy              `adj`     {- TanoTAwiy~ -}       [ "Tantawi", "Tantaoui" ] ]
 
@@ -491,8 +492,9 @@ lexicon = listing "Lexicon's properties"
  |> ".t q m" <| [
 
     FACiL                     `noun`    {- TAqim -}            [ "crew" ]
+                              `plural`     HaFCuL
                               `plural`     FawACiL
-                           {- `others`  [ ".tawAqim Ndip" ] -} ]
+                           {- `others`  [ "'a.tqum N", ".tawAqim Ndip" ] -} ]
 
  |> ".t q s" <| [
 
@@ -934,15 +936,11 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- TarAbulosiy~ -}     [ "Tarabulsi" ],
 
-    Identity |< Iy            `adj`     {- TarAbulosiy~ -}     [ unwords [ "of", "/", "from", "Tripoli", "(", "Libya", ")" ] ],
-
-    Identity |< Iy            `adj`     {- TarAbulosiy~ -}     [ unwords [ "of", "/", "from", "Tripoli", "(", "Leb.", ")" ] ] ]
+    Identity |< Iy            `adj`     {- TarAbulosiy~ -}     [ unwords [ "of", "/", "from", "Tripoli" ] ] ]
 
  |> ".tarAbulus" <| [
 
-    Identity                  `noun`    {- TarAbulus -}        [ unwords [ "Tripoli", "(", "Libya", ")" ] ],
-
-    Identity                  `noun`    {- TarAbulus -}        [ unwords [ "Tripoli", "(", "Leb.", ")" ] ] ]
+    Identity                  `noun`    {- TarAbulus -}        [ "Tripoli" ] ]
 
  |> ".tum'anIn" <| [
 

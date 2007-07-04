@@ -32,7 +32,7 @@ lexicon = listing "Lexicon's properties"
     -- ltwy    litaw~iy        FW-Wa   immediately + I                           [[litaw~/ADV+iy/PRON_1S]]
     -- ltwnA   litaw~inA       FW-Wa   immediately + we                          [[litaw~i/ADV+nA/PRON_1P]]
 
-    Identity                  `pron`    {- litaw~i- -}         [ unwords [ "immediately", "+", "it", "/", "he" ], unwords [ "immediately", "+", "they", "both" ], unwords [ "immediately", "+", "it", "/", "they", "/", "her" ], unwords [ "immediately", "+", "they", "[masc.pl.]" ], unwords [ "immediately", "+", "they", "[fem.pl.]" ], unwords [ "immediately", "+", "you", "[masc.sg.]" ], unwords [ "immediately", "+", "you", "[fem.sg.]" ], unwords [ "immediately", "+", "you", "both" ], unwords [ "immediately", "+", "you", "[masc.pl.]" ], unwords [ "immediately", "+", "you", "[fem.pl.]" ], unwords [ "immediately", "+", "I" ], unwords [ "immediately", "+", "we" ] ] ]
+    Identity                  `pron`    {- litaw~i- -}         [ unwords [ "immediately", "+", "it", "/", "he" ], unwords [ "immediately", "+", "they", "both" ], unwords [ "immediately", "+", "it", "/", "they", "/", "her" ], unwords [ "immediately", "+", "they" ], unwords [ "immediately", "+", "you" ], unwords [ "immediately", "+", "you", "both" ], unwords [ "immediately", "+", "" {- "I" -} ], unwords [ "immediately", "+", "we" ] ] ]
 
  |> "t  '" <| [
 
@@ -265,14 +265,14 @@ lexicon = listing "Lexicon's properties"
  |> "t ^s r n" <| [
 
     -- ;; ti$oriyn_1
-    -- t$ryn   ti$oriyn        N0      Tishrin (part of month names Oct. and Nov.)
+    -- t$ryn   ti$oriyn        N0      Tishrin (month)
 
-    KiRDIS                    `noun`    {- ti$oriyn -}         [ unwords [ "Tishrin", "(", "part", "of", "month", "names", "Oct.", "and", "Nov.", ")" ] ],
+    KiRDIS                    `noun`    {- ti$oriyn -}         [ unwords [ "Tishrin", "(", "month", ")" ] ],
 
     -- ;; ti$oriyn_2
-    -- t$ryn   ti$oriyn        N0      Tishrin (Syrian newspaper)
+    -- t$ryn   ti$oriyn        N0      Tishrin (newspaper)
 
-    KiRDIS                    `noun`    {- ti$oriyn -}         [ unwords [ "Tishrin", "(", "Syrian", "newspaper", ")" ] ],
+    KiRDIS                    `noun`    {- ti$oriyn -}         [ unwords [ "Tishrin", "(", "newspaper", ")" ] ],
 
     -- ;; ta$Ariyn_1
     -- t$Aryn  ta$Ariyn        Ndip    autumns;fall seasons
@@ -2859,9 +2859,9 @@ lexicon = listing "Lexicon's properties"
     FUL                       `noun`    {- tuwt -}             [ "mulberry" ],
 
     -- ;; tuwt_2
-    -- twt     tuwt    Ndip    Tut (1st Coptic month, Sept. 11-Oct. 10)
+    -- twt     tuwt    Ndip    Tut
 
-    FUL                       `noun`    {- tuwt -}             [ unwords [ "Tut", "(", "1st", "Coptic", "month,", "Sept.", "11", "-", "Oct.", "10", ")" ] ],
+    FUL                       `noun`    {- tuwt -}             [ "Tut" ],
 
     -- ;; tuwtiy~_1
     -- twty    tuwtiy~ N/ap    zinc     [[tuwtiy~/ADJ]]
@@ -3188,49 +3188,49 @@ lexicon = listing "Lexicon's properties"
     -- ;; tAdiyrAn_1
     -- tAdyrAn tAdiyrAn        N0      Tadiran
 
-    Identity                  `noun`    {- tAdiyrAn -}         [ "Tadiran" ] ]
+    Identity                  `noun`    {- tAdiyrAn -}         [ "" {- "Tadiran" -} ] ]
 
  |> "tAkAhArA" <| [
 
     -- ;; tAkAhArA_1
     -- tAkAhArA        tAkAhArA        Nprop   Takahara
 
-    Identity                  `noun`    {- tAkAhArA -}         [ "Takahara" ] ]
+    Identity                  `noun`    {- tAkAhArA -}         [ "" {- "Takahara" -} ] ]
 
  |> "tAkIn" <| [
 
     -- ;; tAkiyn_1
     -- tAkyn   tAkiyn  Nprop   Takin ??
 
-    Identity                  `noun`    {- tAkiyn -}           [ unwords [ "Takin", "?", "?" ] ] ]
+    Identity                  `noun`    {- tAkiyn -}           [ unwords [ "" {- "Takin" -}, "?", "?" ] ] ]
 
  |> "tAkInArdI" <| [
 
     -- ;; tAkiynArodiy_1
     -- tAkynArdy       tAkiynArodiy    Nprop   Tacchinardi
 
-    Identity                  `noun`    {- tAkiynArodiy -}     [ "Tacchinardi" ] ]
+    Identity                  `noun`    {- tAkiynArodiy -}     [ "" {- "Tacchinardi" -} ] ]
 
  |> "tAlAhAsI" <| [
 
     -- ;; tAlAhAsiy_1
     -- tAlAhAsy        tAlAhAsiy       N0      Tallahassee
 
-    Identity                  `noun`    {- tAlAhAsiy -}        [ "Tallahassee" ] ]
+    Identity                  `noun`    {- tAlAhAsiy -}        [ "" {- "Tallahassee" -} ] ]
 
  |> "tAlIbAw" <| [
 
     -- ;; tAliybAw_1
     -- tAlybAw tAliybAw        Nprop   Talebao
 
-    Identity                  `noun`    {- tAliybAw -}         [ "Talebao" ] ]
+    Identity                  `noun`    {- tAliybAw -}         [ "" {- "Talebao" -} ] ]
 
  |> "tAlbUt" <| [
 
     -- ;; tAlobuwt_1
     -- tAlbwt  tAlobuwt        Nprop   Talbot
 
-    Identity                  `noun`    {- tAlobuwt -}         [ "Talbot" ] ]
+    Identity                  `noun`    {- tAlobuwt -}         [ "" {- "Talbot" -} ] ]
 
  |> "tAmbar" <| [
 
@@ -3244,21 +3244,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; tAniylA_1
     -- tAnylA  tAniylA Nprop   Tanella
 
-    Identity                  `noun`    {- tAniylA -}          [ "Tanella" ] ]
+    Identity                  `noun`    {- tAniylA -}          [ "" {- "Tanella" -} ] ]
 
  |> "tAnsU" <| [
 
     -- ;; tAnosuw_1
     -- tAnsw   tAnosuw Nprop   Tansu
 
-    Identity                  `noun`    {- tAnosuw -}          [ "Tansu" ] ]
+    Identity                  `noun`    {- tAnosuw -}          [ "" {- "Tansu" -} ] ]
 
  |> "tAnyA" <| [
 
     -- ;; tAnoyA_1
     -- tAnyA   tAnoyA  Nprop   Tanya;Tania
 
-    Identity                  `noun`    {- tAnoyA -}           [ "Tanya", "Tania" ] ]
+    Identity                  `noun`    {- tAnoyA -}           [ "" {- "Tanya" -}, "" {- "Tania" -} ] ]
 
  |> "tAnzAn" <| [
 
@@ -3266,56 +3266,56 @@ lexicon = listing "Lexicon's properties"
     -- tAnzAny tAnozAniy~      Nall    Tanzanian     [[tAnozAniy~/NOUN]]
     -- tAnzAny tAnozAniy~      Nall    Tanzanian     [[tAnozAniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- tAnozAniy~ -}       [ "Tanzanian" ] ]
+    Identity |< Iy            `adj`     {- tAnozAniy~ -}       [ "" {- "Tanzanian" -} ] ]
 
  |> "tAnzAniyA" <| [
 
     -- ;; tAnozAniyA_1
     -- tAnzAnyA        tAnozAniyA      N0      Tanzania
 
-    Identity                  `noun`    {- tAnozAniyA -}       [ "Tanzania" ] ]
+    Identity                  `noun`    {- tAnozAniyA -}       [ "" {- "Tanzania" -} ] ]
 
  |> "tArAnI" <| [
 
     -- ;; tArAniy_1
     -- tArAny  tArAniy N0      Tarani
 
-    Identity                  `noun`    {- tArAniy -}          [ "Tarani" ] ]
+    Identity                  `noun`    {- tArAniy -}          [ "" {- "Tarani" -} ] ]
 
  |> "tAwAn" <| [
 
     -- ;; tAwAn_1
     -- tAwAn   tAwAn   Nprop   Tawan
 
-    Identity                  `noun`    {- tAwAn -}            [ "Tawan" ] ]
+    Identity                  `noun`    {- tAwAn -}            [ "" {- "Tawan" -} ] ]
 
  |> "tAwAt^sAy" <| [
 
     -- ;; tAwAt$Ay_1
     -- tAwAt$Ay        tAwAt$Ay        Nprop   Thawatchai
 
-    Identity                  `noun`    {- tAwAt$Ay -}         [ "Thawatchai" ] ]
+    Identity                  `noun`    {- tAwAt$Ay -}         [ "" {- "Thawatchai" -} ] ]
 
  |> "tAy.gA" <| [
 
     -- ;; tAyogA_1
     -- tAygA   tAyogA  N0      Taiga
 
-    Identity                  `noun`    {- tAyogA -}           [ "Taiga" ] ]
+    Identity                  `noun`    {- tAyogA -}           [ "" {- "Taiga" -} ] ]
 
  |> "tAykwAndU" <| [
 
     -- ;; tAyokwAnoduw_1
     -- tAykwAndw       tAyokwAnoduw    N0      Taekwondo
 
-    Identity                  `noun`    {- tAyokwAnoduw -}     [ "Taekwondo" ] ]
+    Identity                  `noun`    {- tAyokwAnoduw -}     [ "" {- "Taekwondo" -} ] ]
 
  |> "tAylUr" <| [
 
     -- ;; tAyoluwr_1
     -- tAylwr  tAyoluwr        Nprop   Taylor
 
-    Identity                  `noun`    {- tAyoluwr -}         [ "Taylor" ] ]
+    Identity                  `noun`    {- tAyoluwr -}         [ "" {- "Taylor" -} ] ]
 
  |> "tAyland" <| [
 
@@ -3324,7 +3324,7 @@ lexicon = listing "Lexicon's properties"
     -- tAylAnd tAyolAnod       N       Thailand
     -- tylAnd  tayolAnod       N       Thailand
 
-    Identity                  `noun`    {- tAyolanod -}        [ "Thailand" ],
+    Identity                  `noun`    {- tAyolanod -}        [ "" {- "Thailand" -} ],
 
     -- ;; tAyolanodiy~_1
     -- tAylndy tAyolanodiy~    Nall    Thai     [[tAyolanodiy~/NOUN]]
@@ -3334,7 +3334,7 @@ lexicon = listing "Lexicon's properties"
     -- tylAndy tayolAnodiy~    Nall    Thai     [[tayolAnodiy~/NOUN]]
     -- tylAndy tayolAnodiy~    Nall    Thai     [[tayolAnodiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- tAyolanodiy~ -}     [ "Thai" ] ]
+    Identity |< Iy            `adj`     {- tAyolanodiy~ -}     [ "" {- "Thai" -} ] ]
 
  |> "tAymz" <| [
 
@@ -3342,13 +3342,13 @@ lexicon = listing "Lexicon's properties"
     -- tAymz   tAyomz  N0      Times
     -- tymz    tayomoz N0      Times
 
-    Identity                  `noun`    {- tAyomz -}           [ "Times" ],
+    Identity                  `noun`    {- tAyomz -}           [ "" {- "Times" -} ],
 
     -- ;; tAyomz_2
     -- tAymz   tAyomz  N0      Thames
     -- tymz    tayomoz N0      Thames
 
-    Identity                  `noun`    {- tAyomz -}           [ "Thames" ] ]
+    Identity                  `noun`    {- tAyomz -}           [ "" {- "Thames" -} ] ]
 
  |> "tAywAn" <| [
 
@@ -3356,34 +3356,34 @@ lexicon = listing "Lexicon's properties"
     -- tAywAn  tAyowAn Nprop   Taiwan
     -- TywAn   TayowAn Nprop   Taiwan
 
-    Identity                  `noun`    {- tAyowAn -}          [ "Taiwan" ],
+    Identity                  `noun`    {- tAyowAn -}          [ "" {- "Taiwan" -} ],
 
     -- ;; tAyowAniy~_1
     -- tAywAny tAyowAniy~      Nall    Taiwanese
     -- TywAny  TayowAniy~      Nall    Taiwanese
 
-    Identity |< Iy            `adj`     {- tAyowAniy~ -}       [ "Taiwanese" ] ]
+    Identity |< Iy            `adj`     {- tAyowAniy~ -}       [ "" {- "Taiwanese" -} ] ]
 
  |> "tIbAzah" <| [
 
     -- ;; tiybAzah_1
     -- tybAzh  tiybAzah        Nprop   Tipasa
 
-    Identity                  `noun`    {- tiybAzah -}         [ "Tipasa" ] ]
+    Identity                  `noun`    {- tiybAzah -}         [ "" {- "Tipasa" -} ] ]
 
  |> "tIhUmIr" <| [
 
     -- ;; tiyhuwmiyr_1
     -- tyhwmyr tiyhuwmiyr      Nprop   Tihomir
 
-    Identity                  `noun`    {- tiyhuwmiyr -}       [ "Tihomir" ] ]
+    Identity                  `noun`    {- tiyhuwmiyr -}       [ "" {- "Tihomir" -} ] ]
 
  |> "tIlstrUm" <| [
 
     -- ;; tiylostruwm_1
     -- tylstrwm        tiylostruwm     Nprop   Tillstrom
 
-    Identity                  `noun`    {- tiylostruwm -}      [ "Tillstrom" ] ]
+    Identity                  `noun`    {- tiylostruwm -}      [ "" {- "Tillstrom" -} ] ]
 
  |> "tInInbawm" <| [
 
@@ -3391,28 +3391,28 @@ lexicon = listing "Lexicon's properties"
     -- tynynbwm        tiyniynobawom   Nprop   Tannenbaum
     -- tnynbwm tiniynobawom    Nprop   Tannenbaum
 
-    Identity                  `noun`    {- tiyniynobawom -}    [ "Tannenbaum" ] ]
+    Identity                  `noun`    {- tiyniynobawom -}    [ "" {- "Tannenbaum" -} ] ]
 
  |> "tInIsI" <| [
 
     -- ;; tiyniysiy_1
     -- tynysy  tiyniysiy       N0      Tennessee
 
-    Identity                  `noun`    {- tiyniysiy -}        [ "Tennessee" ] ]
+    Identity                  `noun`    {- tiyniysiy -}        [ "" {- "Tennessee" -} ] ]
 
  |> "tIr.g" <| [
 
     -- ;; tiyrogAt_1
     -- tyrgAt  tiyrogAt        N0      Tergat
 
-    Identity |< At            `noun`    {- tiyrogAt -}         [ "Tergat" ] ]
+    Identity |< At            `noun`    {- tiyrogAt -}         [ "" {- "Tergat" -} ] ]
 
  |> "tIrAnA" <| [
 
     -- ;; tiyrAnA_1
     -- tyrAnA  tiyrAnA Nprop   Tirana
 
-    Identity                  `noun`    {- tiyrAnA -}          [ "Tirana" ] ]
+    Identity                  `noun`    {- tiyrAnA -}          [ "" {- "Tirana" -} ] ]
 
  |> "tIrIzA" <| [
 
@@ -3420,7 +3420,7 @@ lexicon = listing "Lexicon's properties"
     -- tyryzA  tiyriyzA        Nprop   Teresa
     -- tyrysA  tiyriysA        Nprop   Teresa
 
-    Identity                  `noun`    {- tiyriyzA -}         [ "Teresa" ] ]
+    Identity                  `noun`    {- tiyriyzA -}         [ "" {- "Teresa" -} ] ]
 
  |> "tItAnUs" <| [
 
@@ -3434,7 +3434,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tiytsiwuw_1
     -- tytsww  tiytsiww        Nprop   Tetsu
 
-    Identity                  `noun`    {- tiytsiwuw -}        [ "Tetsu" ] ]
+    Identity                  `noun`    {- tiytsiwuw -}        [ "" {- "Tetsu" -} ] ]
 
  |> "tUbA.gU" <| [
 
@@ -3442,7 +3442,7 @@ lexicon = listing "Lexicon's properties"
     -- twbAgw  tuwbAguw        Nprop   Tobago
     -- twbAjw  tuwbAjuw        Nprop   Tobago
 
-    Identity                  `noun`    {- tuwbAguw -}         [ "Tobago" ] ]
+    Identity                  `noun`    {- tuwbAguw -}         [ "" {- "Tobago" -} ] ]
 
  |> "tUbU.grAf" <| [
 
@@ -3466,28 +3466,28 @@ lexicon = listing "Lexicon's properties"
     -- twbks   tuwbiks N0      Topix
     -- twbyks  tuwbiyks        N0      Topix
 
-    Identity                  `noun`    {- tuwbiks -}          [ "Topix" ] ]
+    Identity                  `noun`    {- tuwbiks -}          [ "" {- "Topix" -} ] ]
 
  |> "tUlstUy" <| [
 
     -- ;; tuwlostuwy_1
     -- twlstwy tuwlostuwy      N0      Tolstoy;Tolstoi
 
-    Identity                  `noun`    {- tuwlostuwy -}       [ "Tolstoy", "Tolstoi" ] ]
+    Identity                  `noun`    {- tuwlostuwy -}       [ "" {- "Tolstoy" -}, "" {- "Tolstoi" -} ] ]
 
  |> "tUmAsI" <| [
 
     -- ;; tuwmAsiy_1
     -- twmAsy  tuwmAsiy        Nprop   Tomassi
 
-    Identity                  `noun`    {- tuwmAsiy -}         [ "Tomassi" ] ]
+    Identity                  `noun`    {- tuwmAsiy -}         [ "" {- "Tomassi" -} ] ]
 
  |> "tUmyAnUfIt^s" <| [
 
     -- ;; tuwmoyAnuwfiyt$_1
     -- twmyAnwfyt$     tuwmoyAnuwfiyt$ Nprop   Tomjanovich
 
-    Identity                  `noun`    {- tuwmoyAnuwfiyt$ -}  [ "Tomjanovich" ] ]
+    Identity                  `noun`    {- tuwmoyAnuwfiyt$ -}  [ "" {- "Tomjanovich" -} ] ]
 
  |> "tUn^g" <| [
 
@@ -3501,14 +3501,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; tuwrA_1
     -- twrA    tuwrA   Nprop   Tora
 
-    Identity                  `noun`    {- tuwrA -}            [ "Tora" ] ]
+    Identity                  `noun`    {- tuwrA -}            [ "" {- "Tora" -} ] ]
 
  |> "tUrInU" <| [
 
     -- ;; tuwriynuw_1
     -- twrynw  tuwriynuw       Nprop   Torino
 
-    Identity                  `noun`    {- tuwriynuw -}        [ "Torino" ] ]
+    Identity                  `noun`    {- tuwriynuw -}        [ "" {- "Torino" -} ] ]
 
  |> "tUrUntU" <| [
 
@@ -3516,7 +3516,7 @@ lexicon = listing "Lexicon's properties"
     -- twrwntw tuwruwnotuw     N0      Toronto
     -- twrys   tuwriys Nprop   Torres
 
-    Identity                  `noun`    {- tuwruwnotuw -}      [ "Toronto", "Torres" ] ]
+    Identity                  `noun`    {- tuwruwnotuw -}      [ "" {- "Toronto" -}, "" {- "Torres" -} ] ]
 
  |> "tUrbId" <| [
 
@@ -3537,7 +3537,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tuwsokA_1
     -- twskA   tuwsokA Nprop   Tosca
 
-    Identity                  `noun`    {- tuwsokA -}          [ "Tosca" ] ]
+    Identity                  `noun`    {- tuwsokA -}          [ "" {- "Tosca" -} ] ]
 
  |> "tUtiyA" <| [
 
@@ -3552,69 +3552,69 @@ lexicon = listing "Lexicon's properties"
     -- ;; tuwtosiy_1
     -- twtsy   tuwtosiy        N0      Tutsi
 
-    Identity                  `noun`    {- tuwtosiy -}         [ "Tutsi" ] ]
+    Identity                  `noun`    {- tuwtosiy -}         [ "" {- "Tutsi" -} ] ]
 
  |> "tUyUtA" <| [
 
     -- ;; tuwyuwtA_1
     -- twywtA  tuwyuwtA        N0      Toyota
 
-    Identity                  `noun`    {- tuwyuwtA -}         [ "Toyota" ] ]
+    Identity                  `noun`    {- tuwyuwtA -}         [ "" {- "Toyota" -} ] ]
 
  |> "tUziyA" <| [
 
     -- ;; tuwziyA_1
     -- twzyA   tuwziyA Nprop   Tauziat
 
-    Identity                  `noun`    {- tuwziyA -}          [ "Tauziat" ] ]
+    Identity                  `noun`    {- tuwziyA -}          [ "" {- "Tauziat" -} ] ]
 
  |> "t^sAd" <| [
 
     -- ;; t$Ad_1
     -- t$Ad    t$Ad    N       Chad
 
-    Identity                  `noun`    {- t$Ad -}             [ "Chad" ],
+    Identity                  `noun`    {- t$Ad -}             [ "" {- "Chad" -} ],
 
     -- ;; t$Adiy~_1
     -- t$Ady   t$Adiy~ Nall    Chadian     [[t$Adiy~/NOUN]]
     -- t$Ady   t$Adiy~ Nall    Chadian     [[t$Adiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- t$Adiy~ -}          [ "Chadian" ] ]
+    Identity |< Iy            `adj`     {- t$Adiy~ -}          [ "" {- "Chadian" -} ] ]
 
  |> "t^sAn.g" <| [
 
     -- ;; t$Ang_1
     -- t$Ang   t$Ang   Nprop   Chang
 
-    Identity                  `noun`    {- t$Ang -}            [ "Chang" ] ]
+    Identity                  `noun`    {- t$Ang -}            [ "" {- "Chang" -} ] ]
 
  |> "t^sAndA" <| [
 
     -- ;; t$AnodA_1
     -- t$AndA  t$AnodA Nprop   Chanda
 
-    Identity                  `noun`    {- t$AnodA -}          [ "Chanda" ] ]
+    Identity                  `noun`    {- t$AnodA -}          [ "" {- "Chanda" -} ] ]
 
  |> "t^sArltUn" <| [
 
     -- ;; t$Arlotuwn_1
     -- t$Arltwn        t$Arlotuwn      Nprop   Charlton
 
-    Identity                  `noun`    {- t$Arlotuwn -}       [ "Charlton" ] ]
+    Identity                  `noun`    {- t$Arlotuwn -}       [ "" {- "Charlton" -} ] ]
 
  |> "t^sArlz" <| [
 
     -- ;; t$Arolz_1
     -- t$Arlz  t$Arolz Nprop   Charles
 
-    Identity                  `noun`    {- t$Arolz -}          [ "Charles" ] ]
+    Identity                  `noun`    {- t$Arolz -}          [ "" {- "Charles" -} ] ]
 
  |> "t^sAynA" <| [
 
     -- ;; t$AyonA_1
     -- t$AynA  t$AyonA Nprop   China
 
-    Identity                  `noun`    {- t$AyonA -}          [ "China" ] ]
+    Identity                  `noun`    {- t$AyonA -}          [ "" {- "China" -} ] ]
 
  |> "t^sIk" <| [
 
@@ -3622,7 +3622,7 @@ lexicon = listing "Lexicon's properties"
     -- t$yky   t$iykiy~        Nall    Czech     [[t$iykiy~/NOUN]]
     -- t$yky   t$iykiy~        Nall    Czech     [[t$iykiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- t$iykiy~ -}         [ "Czech" ] ]
+    Identity |< Iy            `adj`     {- t$iykiy~ -}         [ "" {- "Czech" -} ] ]
 
  |> "t^sIkUslUfAk" <| [
 
@@ -3630,14 +3630,14 @@ lexicon = listing "Lexicon's properties"
     -- t$ykwslwfAky    t$iykuwsoluwfAkiy~      Nall    Czech     [[t$iykuwsoluwfAkiy~/NOUN]]
     -- t$ykwslwfAky    t$iykuwsoluwfAkiy~      Nall    Czech     [[t$iykuwsoluwfAkiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- t$iykuwsoluwfAkiy~ -} [ "Czech" ] ]
+    Identity |< Iy            `adj`     {- t$iykuwsoluwfAkiy~ -} [ "" {- "Czech" -} ] ]
 
  |> "t^sIkUslUfAkiyA" <| [
 
     -- ;; t$iykuwsoluwfAkiyA_1
     -- t$ykwslwfAkyA   t$iykuwsoluwfAkiyA      N0      Czechoslovakia
 
-    Identity                  `noun`    {- t$iykuwsoluwfAkiyA -} [ "Czechoslovakia" ] ]
+    Identity                  `noun`    {- t$iykuwsoluwfAkiyA -} [ "" {- "Czechoslovakia" -} ] ]
 
  |> "t^sIl" <| [
 
@@ -3645,49 +3645,49 @@ lexicon = listing "Lexicon's properties"
     -- t$yly   t$iyliy~        Nall    Chilean     [[t$iyliy~/NOUN]]
     -- t$yly   t$iyliy~        Nall    Chilean     [[t$iyliy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- t$iyliy~ -}         [ "Chilean" ] ]
+    Identity |< Iy            `adj`     {- t$iyliy~ -}         [ "" {- "Chilean" -} ] ]
 
  |> "t^sIlI" <| [
 
     -- ;; t$iyliy_1
     -- t$yly   t$iyliy N0      Chile
 
-    Identity                  `noun`    {- t$iyliy -}          [ "Chile" ] ]
+    Identity                  `noun`    {- t$iyliy -}          [ "" {- "Chile" -} ] ]
 
  |> "t^sIlUbA" <| [
 
     -- ;; t$iyluwbA_1
     -- t$ylwbA t$iyluwbA       Nprop   Chiluba
 
-    Identity                  `noun`    {- t$iyluwbA -}        [ "Chiluba" ] ]
+    Identity                  `noun`    {- t$iyluwbA -}        [ "" {- "Chiluba" -} ] ]
 
  |> "t^sIlir" <| [
 
     -- ;; t$iylir_1
     -- t$ylr   t$iylir Nprop   Ciller
 
-    Identity                  `noun`    {- t$iylir -}          [ "Ciller" ] ]
+    Identity                  `noun`    {- t$iylir -}          [ "" {- "Ciller" -} ] ]
 
  |> "t^sInI" <| [
 
     -- ;; t$iyniy_1
     -- t$yny   t$iyniy Nprop   Cheney
 
-    Identity                  `noun`    {- t$iyniy -}          [ "Cheney" ] ]
+    Identity                  `noun`    {- t$iyniy -}          [ "" {- "Cheney" -} ] ]
 
  |> "t^sIrnUmIrdIn" <| [
 
     -- ;; t$iyrnuwmiyrdiyn_1
     -- t$yrnwmyrdyn    t$yrnwmyrdyn    Nprop   Chernomyrdin
 
-    Identity                  `noun`    {- t$iyrnuwmiyrdiyn -} [ "Chernomyrdin" ] ]
+    Identity                  `noun`    {- t$iyrnuwmiyrdiyn -} [ "" {- "Chernomyrdin" -} ] ]
 
  |> "t^silsI" <| [
 
     -- ;; t$ilosiy_1
     -- t$lsy   t$ilosiy        Nprop   Chelsea
 
-    Identity                  `noun`    {- t$ilosiy -}         [ "Chelsea" ] ]
+    Identity                  `noun`    {- t$ilosiy -}         [ "" {- "Chelsea" -} ] ]
 
  |> "ta_htarawAn" <| [
 
@@ -3701,17 +3701,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; tadomur_1
     -- tdmr    tadomur Nprop   Palmyra
 
-    Identity                  `noun`    {- tadomur -}          [ "Palmyra" ],
+    Identity                  `noun`    {- tadomur -}          [ "" {- "Palmyra" -} ],
 
     -- ;; tadomuriy~_1
     -- tdmry   tadomuriy~      Nall    from/of Palmyra
 
-    Identity |< Iy            `adj`     {- tadomuriy~ -}       [ unwords [ "from", "/", "of", "Palmyra" ] ],
+    Identity |< Iy            `adj`     {- tadomuriy~ -}       [ unwords [ "from", "/", "of", "" {- "Palmyra" -} ] ],
 
     -- ;; tadomuriy~_2
     -- tdmry   tadomuriy~      N0      Tadmuri
 
-    Identity |< Iy            `adj`     {- tadomuriy~ -}       [ "Tadmuri" ] ]
+    Identity |< Iy            `adj`     {- tadomuriy~ -}       [ "" {- "Tadmuri" -} ] ]
 
  |> "tadru^g" <| [
 
@@ -3734,7 +3734,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tamArA_1
     -- tmArA   tamArA  Nprop   Tamara
 
-    Identity                  `noun`    {- tamArA -}           [ "Tamara" ] ]
+    Identity                  `noun`    {- tamArA -}           [ "" {- "Tamara" -} ] ]
 
  |> "tamar^g" <| [
 
@@ -3762,14 +3762,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; tanozAniyA_1
     -- tnzAnyA tanozAniyA      N0      Tanzania
 
-    Identity                  `noun`    {- tanozAniyA -}       [ "Tanzania" ] ]
+    Identity                  `noun`    {- tanozAniyA -}       [ "" {- "Tanzania" -} ] ]
 
  |> "tar.gA" <| [
 
     -- ;; tarogA_1
     -- trgA    tarogA  Nprop   Targha
 
-    Identity                  `noun`    {- tarogA -}           [ "Targha" ] ]
+    Identity                  `noun`    {- tarogA -}           [ "" {- "Targha" -} ] ]
 
  |> "tarA^gIdiyA" <| [
 
@@ -3822,7 +3822,7 @@ lexicon = listing "Lexicon's properties"
     -- ttr     tatar   N       Tartars
     -- ttAr    tatAr   N       Tartars
 
-    Identity                  `noun`    {- tatar -}            [ "Tartars" ],
+    Identity                  `noun`    {- tatar -}            [ "" {- "Tartars" -} ],
 
     -- ;; tatariy~_1
     -- ttry    tatariy~        Nall    Tartar     [[tatariy~/NOUN]]
@@ -3830,7 +3830,7 @@ lexicon = listing "Lexicon's properties"
     -- ttAry   tatAriy~        Nall    Tartar     [[tatAriy~/NOUN]]
     -- ttAry   tatAriy~        Nall    Tartar     [[tatAriy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- tatariy~ -}         [ "Tartar" ] ]
+    Identity |< Iy            `adj`     {- tatariy~ -}         [ "" {- "Tartar" -} ] ]
 
  |> "tatimm" <| [
 
@@ -3844,13 +3844,13 @@ lexicon = listing "Lexicon's properties"
     -- ;; tibit_1
     -- tbt     tibit   N       Tibet
 
-    Identity                  `noun`    {- tibit -}            [ "Tibet" ],
+    Identity                  `noun`    {- tibit -}            [ "" {- "Tibet" -} ],
 
     -- ;; tibitiy~_1
     -- tbty    tibitiy~        Nall    Tibetan     [[tibitiy~/NOUN]]
     -- tbty    tibitiy~        Nall    Tibetan     [[tibitiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- tibitiy~ -}         [ "Tibetan" ] ]
+    Identity |< Iy            `adj`     {- tibitiy~ -}         [ "" {- "Tibetan" -} ] ]
 
  |> "tikarz" <| [
 
@@ -3913,7 +3913,7 @@ lexicon = listing "Lexicon's properties"
     -- tljrAf  tilijrAf        N0      Telegraph
     -- tlyjrAf tiliyjrAf       N0      Telegraph
 
-    Identity                  `noun`    {- tiligrAf -}         [ "Telegraph" ],
+    Identity                  `noun`    {- tiligrAf -}         [ "" {- "Telegraph" -} ],
 
     -- ;; tiligrAfiy~_1
     -- tlgrAfy tiligrAfiy~     Nall    telegraphic     [[tiligrAfiy~/ADJ]]
@@ -3962,17 +3962,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; tilimosAn_1
     -- tlmsAn  tilimosAn       N       Tlemcen
 
-    Identity                  `noun`    {- tilimosAn -}        [ "Tlemcen" ],
+    Identity                  `noun`    {- tilimosAn -}        [ "" {- "Tlemcen" -} ],
 
     -- ;; tilimosAniy~_1
     -- tlmsAny tilimosAniy~    N0      of/from Tlemcen
 
-    Identity |< Iy            `adj`     {- tilimosAniy~ -}     [ unwords [ "of", "/", "from", "Tlemcen" ] ],
+    Identity |< Iy            `adj`     {- tilimosAniy~ -}     [ unwords [ "of", "/", "from", "" {- "Tlemcen" -} ] ],
 
     -- ;; tilimosAniy~_2
     -- tlmsAny tilimosAniy~    N0      Tlemcani;Tilimsani
 
-    Identity |< Iy            `adj`     {- tilimosAniy~ -}     [ "Tlemcani", "Tilimsani" ] ]
+    Identity |< Iy            `adj`     {- tilimosAniy~ -}     [ "" {- "Tlemcani" -}, "" {- "Tilimsani" -} ] ]
 
  |> "tiliskUb" <| [
 
@@ -3991,7 +3991,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; timobarwuwlfz_1
     -- tmbrwwlfz       timobarwuwlfz   N0      Timberwolves
 
-    Identity                  `noun`    {- timobarwuwlfz -}    [ "Timberwolves" ] ]
+    Identity                  `noun`    {- timobarwuwlfz -}    [ "" {- "Timberwolves" -} ] ]
 
  |> "tinis" <| [
 
@@ -4021,7 +4021,7 @@ lexicon = listing "Lexicon's properties"
     -- trwAdh  tirowAdah       N0      Troy
     -- trwAd   tirowAd Nap     Troy
 
-    Identity                  `noun`    {- tirowAdah -}        [ "Troy" ] ]
+    Identity                  `noun`    {- tirowAdah -}        [ "" {- "Troy" -} ] ]
 
  |> "tis`mA'" <| [
 
@@ -4057,7 +4057,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; trAn_1
     -- trAn    trAn    Nprop   Tran
 
-    Identity                  `noun`    {- trAn -}             [ "Tran" ] ]
+    Identity                  `noun`    {- trAn -}             [ "" {- "Tran" -} ] ]
 
  |> "trIliyUn" <| [
 
@@ -4078,19 +4078,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; triyniydAd_1
     -- trynydAd        triyniydAd      Nprop   Trinidad
 
-    Identity                  `noun`    {- triyniydAd -}       [ "Trinidad" ],
+    Identity                  `noun`    {- triyniydAd -}       [ "" {- "Trinidad" -} ],
 
     -- ;; triyniydAdiy~_1
     -- trynydAdy       triyniydAdiy~   Nall    Trinidadian
 
-    Identity |< Iy            `adj`     {- triyniydAdiy~ -}    [ "Trinidadian" ] ]
+    Identity |< Iy            `adj`     {- triyniydAdiy~ -}    [ "" {- "Trinidadian" -} ] ]
 
  |> "trIzI.gIh" <| [
 
     -- ;; triyziygiyh_1
     -- tryzygyh        triyziygiyh     Nprop   Trezeguet
 
-    Identity                  `noun`    {- triyziygiyh -}      [ "Trezeguet" ] ]
+    Identity                  `noun`    {- triyziygiyh -}      [ "" {- "Trezeguet" -} ] ]
 
  |> "trUb" <| [
 
@@ -4104,14 +4104,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; truwsoyiyh_1
     -- trwsyyh truwsoyiyh      Nprop   Troussier
 
-    Identity                  `noun`    {- truwsoyiyh -}       [ "Troussier" ] ]
+    Identity                  `noun`    {- truwsoyiyh -}       [ "" {- "Troussier" -} ] ]
 
  |> "trUykA" <| [
 
     -- ;; truwyokA_1
     -- trwykA  truwyokA        N0      Troika
 
-    Identity                  `noun`    {- truwyokA -}         [ "Troika" ] ]
+    Identity                  `noun`    {- truwyokA -}         [ "" {- "Troika" -} ] ]
 
  |> "tra^gId" <| [
 
@@ -4132,35 +4132,35 @@ lexicon = listing "Lexicon's properties"
     -- ;; triyAtoluwn_1
     -- tryAtlwn        triyAtoluwn     N       Triathlon
 
-    Identity                  `noun`    {- triyAtoluwn -}      [ "Triathlon" ] ]
+    Identity                  `noun`    {- triyAtoluwn -}      [ "" {- "Triathlon" -} ] ]
 
  |> "tsUbIl" <| [
 
     -- ;; tsuwbiyl_1
     -- tswbyl  tsuwbiyl        Nprop   Tzobel
 
-    Identity                  `noun`    {- tsuwbiyl -}         [ "Tzobel" ] ]
+    Identity                  `noun`    {- tsuwbiyl -}         [ "" {- "Tzobel" -} ] ]
 
  |> "tsUhAtsUbUlUs" <| [
 
     -- ;; tsuwhAtsuwbuwluws_1
     -- tswhAtswbwlws   tsuwhAtsuwbuwluws       Nprop   Tsohatzopoulos
 
-    Identity                  `noun`    {- tsuwhAtsuwbuwluws -} [ "Tsohatzopoulos" ] ]
+    Identity                  `noun`    {- tsuwhAtsuwbuwluws -} [ "" {- "Tsohatzopoulos" -} ] ]
 
  |> "tu.hutmis" <| [
 
     -- ;; tuHutomis_1
     -- tHtms   tuHutomis       N       Thutmose
 
-    Identity                  `noun`    {- tuHutomis -}        [ "Thutmose" ] ]
+    Identity                  `noun`    {- tuHutomis -}        [ "" {- "Thutmose" -} ] ]
 
  |> "tuhAmI" <| [
 
     -- ;; tuhAmiy_1
     -- thAmy   tuhAmiy Nprop   Tuhami
 
-    Identity                  `noun`    {- tuhAmiy -}          [ "Tuhami" ] ]
+    Identity                  `noun`    {- tuhAmiy -}          [ "" {- "Tuhami" -} ] ]
 
  |> "tun^gstIn" <| [
 
@@ -4181,39 +4181,39 @@ lexicon = listing "Lexicon's properties"
     -- ;; turokisotAn_1
     -- trkstAn turokisotAn     N       Turkistan
 
-    Identity                  `noun`    {- turokisotAn -}      [ "Turkistan" ],
+    Identity                  `noun`    {- turokisotAn -}      [ "" {- "Turkistan" -} ],
 
     -- ;; turokisotAniy~_1
     -- trkstAny        turokisotAniy~  Nall    Turkistani     [[turokisotAniy~/NOUN]]
     -- trkstAny        turokisotAniy~  Nall    Turkistani     [[turokisotAniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- turokisotAniy~ -}   [ "Turkistani" ] ]
+    Identity |< Iy            `adj`     {- turokisotAniy~ -}   [ "" {- "Turkistani" -} ] ]
 
  |> "turkiyA" <| [
 
     -- ;; turkiyA_1
     -- trkyA   turkiyA N0      Turkey
 
-    Identity                  `noun`    {- turkiyA -}          [ "Turkey" ] ]
+    Identity                  `noun`    {- turkiyA -}          [ "" {- "Turkey" -} ] ]
 
  |> "turkmAnistAn" <| [
 
     -- ;; turokmAnisotAn_1
     -- trkmAnstAn      turokmAnisotAn  Nprop   Turkmenistan
 
-    Identity                  `noun`    {- turokmAnisotAn -}   [ "Turkmenistan" ],
+    Identity                  `noun`    {- turokmAnisotAn -}   [ "" {- "Turkmenistan" -} ],
 
     -- ;; turokmAnisotAniy~_1
     -- trkmAnstAny     turokmAnisotAniy~       Nprop   Turkmenistan
 
-    Identity |< Iy            `adj`     {- turokmAnisotAniy~ -} [ "Turkmenistan" ] ]
+    Identity |< Iy            `adj`     {- turokmAnisotAniy~ -} [ "" {- "Turkmenistan" -} ] ]
 
  |> "turkumAn" <| [
 
     -- ;; turokumAn_1
     -- trkmAn  turokumAn       N       Turkoman;Turkmen
 
-    Identity                  `noun`    {- turokumAn -}        [ "Turkoman", "Turkmen" ] ]
+    Identity                  `noun`    {- turokumAn -}        [ "" {- "Turkoman" -}, "" {- "Turkmen" -} ] ]
 
  |> "turumbI.t" <| [
 
@@ -4248,5 +4248,5 @@ lexicon = listing "Lexicon's properties"
     -- ;; tuwayojriy~_1
     -- twyjry  tuwayojriy~     N0      Tuwaijri
 
-    Identity |< Iy            `adj`     {- tuwayojriy~ -}      [ "Tuwaijri" ] ]
+    Identity |< Iy            `adj`     {- tuwayojriy~ -}      [ "" {- "Tuwaijri" -} ] ]
 

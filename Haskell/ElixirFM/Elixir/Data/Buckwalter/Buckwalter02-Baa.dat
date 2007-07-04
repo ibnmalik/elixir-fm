@@ -2085,7 +2085,7 @@ brdy    barodiy~        NapAt   papyrology     <pos>barodiy~/NOUN</pos>
 brdy    burodiy~        NapAt   papyrology     <pos>burodiy~/NOUN</pos>
 ;
 ;; baradaY_1
-brdY    baradaY N0      Barada (river in Syr.)
+brdY    baradaY N0      Barada
 ;
 ;; burayodap_1
 brydp   burayodap       N0      Bureida
@@ -2591,7 +2591,8 @@ brmq    baromaq N       baluster;post;spike
 brAmq   barAmiq N       balusters;posts;spikes
 ;
 ;; baramohAt_1
-brmhAt  baramohAt       N0      Baramhat (7th Coptic month, Mar. 10-Apr. 8)
+brmhAt  baramohAt       N0      Baramhat
+; (7th Coptic month, Mar. 10-Apr. 8)
 ;
 ;; biromuwdA_1
 brmwdA  biromuwdA       N0      Bermuda
@@ -2600,7 +2601,8 @@ brmwdy  biromuwdiy~     Nall    Bermudan     <pos>biromuwdiy~/NOUN</pos>
 brmwdy  biromuwdiy~     Nall    Bermudan     <pos>biromuwdiy~/ADJ</pos>
 ;
 ;; baromuwdap_1
-brmwdp  baromuwdap      N0      Barmudah (8th Coptic month, Apr. 9-May 8)
+brmwdp  baromuwdap      N0      Barmudah
+; (8th Coptic month, Apr. 9-May 8)
 ;
 ;; baromiyl_1
 brmyl   baromiyl        N       barrel
@@ -3266,10 +3268,13 @@ AbtsAm  {ibotisAm       NapAt   smile
 bsm     bisomi  FW-Wa   in/by + (the) Name of     <pos>bi/PREP+somi/NOUN</pos>
 ;
 ;; basomal_1
-bsml    basomal PV      say "bismillah" (in the name of God, the Merciful, the Compassionate)
-bsml    basomil IV_yu   say "bismillah" (in the name of God, the Merciful, the Compassionate)
+bsml    basomal PV      say "bismillah"
+; (in the name of God, the Merciful, the Compassionate)
+bsml    basomil IV_yu   say "bismillah"
+; (in the name of God, the Merciful, the Compassionate)
 ;; basomalap_1
-bsml    basomal NapAt   "bismillah" (in the name of God, the Merciful, the Compassionate)
+bsml    basomal NapAt   "bismillah"
+; (in the name of God, the Merciful, the Compassionate)
 ;
 ;; busayonap_1
 bsyn    busayon Nap     kitty
@@ -4382,7 +4387,8 @@ bg$     baga$   NAt     showers
 bg$     bugo$   NapAt   bughsha (Yemeni copper coin)
 ;
 ;; bugA$ap_1
-bgA$    bugA$   NapAt   boughashah ("cigar" pastries with walnut filling)
+bgA$    bugA$   NapAt   boughashah
+; ("cigar" pastries with walnut filling)
 ;
 ;; bagiD-a_1
 bgD     bagiD   PV      despise;hate
@@ -6922,17 +6928,20 @@ bwT     buwT    Nap     crucible;melting pot
 ;
 ;--- bwZ
 ;; buwZap_1
-bwZ     buwZ    Nap     ice-cream (Levant)
+bwZ     buwZ    Nap     ice-cream
 ;; buwZap_2
-bwZ     buwZ    Nap     beer (Egy.)
+bwZ     buwZ    Nap     beer
 ;
 ;--- bwE
 ;; buwE_1
 bwE     buwE    N       metatarsal
 ;; bAE_1
-bAE     bAE     Ndu     fathom (3 meters)
->bwAE   >abowAE Ndip    fathoms (3 meters ea.)
-AbwAE   >abowAE Ndip    fathoms (3 meters ea.)
+bAE     bAE     Ndu     fathom
+; (3 meters)
+>bwAE   >abowAE Ndip    fathoms
+; (3 meters ea.)
+AbwAE   >abowAE Ndip    fathoms
+; (3 meters ea.)
 ;
 ;; buwEaziyz_1
 bwEzyz  buwEaziyz       N0      Bouaziz

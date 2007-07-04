@@ -15,7 +15,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "yazAl" <| [
 
-    lA >| Identity            `part`    {- lAyazAl -}          [ unwords [ "not", "+", "stop", "/", "cease", "+", "he", "/", "it", "(", "he", "/", "it", "continues", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "[masc.du.]", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "it", "/", "she", "/", "they", "(", "it", "/", "she", "/", "they", "continue", "(", "s", ")", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "[fem.du.]", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "[fem.]", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[masc.sg.]", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[du.]", "(", "you", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[masc.pl.]", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[fem.sg.]", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[fem.pl.]", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "I", "(", "I", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "we", "(", "we", "continue", ")" ] ] ]
+    lA >| Identity            `part`    {- lAyazAl -}          [ unwords [ "not", "+", "stop", "/", "cease", "+", "he", "/", "it", "(", "he", "/", "it", "continues", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "it", "/", "she", "/", "they", "(", "it", "/", "she", "/", "they", "continue", "(", "s", ")", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "I", "(", "I", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "we", "(", "we", "continue", ")" ] ] ]
 
  |> "z ' d" <| [
 
@@ -42,7 +42,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "z .h l" <| [
 
-    FaCL |< aT                `noun`    {- zaHolap -}          [ unwords [ "Zahle", "(", "Leb.", ")" ] ] ]
+    FaCL |< aT                `noun`    {- zaHolap -}          [ "Zahle" ] ]
 
  |> "z .h m" <| [
 
@@ -322,7 +322,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "z q q" <| [
 
-    FuCAL                     `noun`    {- zuqAq -}            [ "alley", "corridor", unwords [ "cul", "-", "de", "-", "sac" ] ],
+    FuCAL                     `noun`    {- zuqAq -}            [ "alley", "corridor", unwords [ "cul", "-", "de", "-", "sac" ] ]
+                              `plural`     HaFiCL |< aT,
 
     FuCAL |< Iy               `adj`     {- zuqAqiy~ -}         [ unwords [ "alley", "dweller" ] ] ]
 

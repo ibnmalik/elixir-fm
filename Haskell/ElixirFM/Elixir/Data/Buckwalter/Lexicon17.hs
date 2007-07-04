@@ -9,14 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'a.zhur" <| [
-
-    -- ;; >aZohur_1
-    -- >Zhr    >aZohur N       rear part
-    -- AZhr    >aZohur N       rear part
-
-    Identity                  `noun`    {- OaZohur -}          [ unwords [ "rear", "part" ] ] ]
-
  |> ".z  '" <| [
 
     -- ;; ZA'_1
@@ -253,6 +245,12 @@ lexicon = listing "Lexicon's properties"
     -- Zhry    Zahoriy~        N-ap    dorsal     [[Zahoriy~/ADJ]]
 
     FaCL |< Iy                `adj`     {- Zahoriy~ -}         [ "dorsal" ],
+
+    -- ;; >aZohur_1
+    -- >Zhr    >aZohur N       rear part
+    -- AZhr    >aZohur N       rear part
+
+    HaFCuL                    `noun`    {- OaZohur -}          [ unwords [ "rear", "part" ] ],
 
     -- ;; Zuhor_1
     -- Zhr     Zuhor   N       noon;afternoon

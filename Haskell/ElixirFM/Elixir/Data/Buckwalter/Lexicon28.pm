@@ -2375,6 +2375,9 @@ $Lexicon = {
         'AymAn   >ayomAn N       oaths'
       ],
       'patterns' => {
+        '\'aymun' => [
+          'HaFCuL'
+        ],
         '\'aymAn' => [
           'HaFCAL'
         ]

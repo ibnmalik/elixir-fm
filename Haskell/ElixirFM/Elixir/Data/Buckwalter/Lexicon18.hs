@@ -931,8 +931,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- EaSor -}            [ "age", "period", "epoch" ]
                               `plural`     FuCUL
+                              `plural`     HaFCuL
                               `plural`     HaFCAL
-                           {- `others`  [ "`u.suwr N", "'a`.sAr N" ] -},
+                           {- `others`  [ "`u.suwr N", "'a`.sur N", "'a`.sAr N" ] -},
 
     -- ;; EaSor_2
     -- ESr     EaSor   N       compression;squeezing
@@ -5466,9 +5467,9 @@ lexicon = listing "Lexicon's properties"
  |> "` d n" <| [
 
     -- ;; Eadon_1
-    -- Edn     Eadon   Ndip    Aden (Yem.)
+    -- Edn     Eadon   Ndip    Aden
 
-    FaCL                      `noun`    {- Eadon -}            [ unwords [ "Aden", "(", "Yem.", ")" ] ],
+    FaCL                      `noun`    {- Eadon -}            [ "Aden" ],
 
     -- ;; Eadon_2
     -- Edn     Eadon   N       Eden
@@ -6138,7 +6139,8 @@ lexicon = listing "Lexicon's properties"
     -- >Ef     >aEif~  Nap     virtuous;honest
     -- AEf     >aEif~  Nap     virtuous;honest
 
-    FaCIL                     `adj`     {- Eafiyf -}           [ "virtuous", "honest" ],
+    FaCIL                     `adj`     {- Eafiyf -}           [ "virtuous", "honest" ]
+                              `plural`     HaFiCL |< aT,
 
     -- ;; Eafiyf_2
     -- Efyf    Eafiyf  N0      Afeef;Afif
@@ -9633,9 +9635,9 @@ lexicon = listing "Lexicon's properties"
     FuCCAL                    `noun`    {- Eun~Ab -}           [ "jujube" ],
 
     -- ;; Ean~Abap_1
-    -- EnAb    Ean~Ab  Nap     Annaba (Alg.)
+    -- EnAb    Ean~Ab  Nap     Annaba
 
-    FaCCAL |< aT              `noun`    {- Ean~Abap -}         [ unwords [ "Annaba", "(", "Alg.", ")" ] ],
+    FaCCAL |< aT              `noun`    {- Ean~Abap -}         [ "Annaba" ],
 
     -- ;; Ean~Abiy~_1
     -- EnAby   Ean~Abiy~       N0      Annabi
@@ -9903,7 +9905,8 @@ lexicon = listing "Lexicon's properties"
     -- >En     >aEin~  Nap     reins
     -- AEn     >aEin~  Nap     reins
 
-    FiCAL                     `noun`    {- EinAn -}            [ "reins", "bridle" ],
+    FiCAL                     `noun`    {- EinAn -}            [ "reins", "bridle" ]
+                              `plural`     HaFiCL |< aT,
 
     -- ;; Ein~iyn_1
     -- Enyn    Ein~iyn Ndu     impotent
@@ -9959,7 +9962,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- EanAq -}            [ unwords [ "she", "-", "goat" ] ]
                               `plural`     FuCUL
-                           {- `others`  [ "`unuwq N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ "`unuwq N", "'a`nuq N" ] -},
 
     -- ;; EanoqA'_1
     -- EnqA'   EanoqA' N0_Nh   griffin;phoenix
@@ -10427,7 +10431,8 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- Eanoz -}            [ "goat" ]
                               `plural`     FuCUL
                               `plural`     FiCAL
-                           {- `others`  [ "`unuwz N", "`inAz N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ "`unuwz N", "`inAz N", "'a`nuz N" ] -},
 
     -- ;; Eanozap_1
     -- Enz     Eanoz   Napdu   goat
@@ -10612,8 +10617,9 @@ lexicon = listing "Lexicon's properties"
     -- EqbAn   EiqobAn N       eagles
 
     FuCAL                     `noun`    {- EuqAb -}            [ "eagle" ]
+                              `plural`     HaFCuL
                               `plural`     FiCLAn
-                           {- `others`  [ "`iqbAn N" ] -},
+                           {- `others`  [ "'a`qub N", "`iqbAn N" ] -},
 
     -- ;; EuqAb_3
     -- EqAb    EuqAb   N0      Uqab
@@ -11383,7 +11389,8 @@ lexicon = listing "Lexicon's properties"
     -- >Eq     >aEiq~  Nap     canyons;ravines
     -- AEq     >aEiq~  Nap     canyons;ravines
 
-    FaCIL                     `noun`    {- Eaqiyq -}           [ "canyon", "ravine" ],
+    FaCIL                     `noun`    {- Eaqiyq -}           [ "canyon", "ravine" ]
+                              `plural`     HaFiCL |< aT,
 
     -- ;; Eaqiyq_2
     -- Eqyq    Eaqiyq  N-ap    agate;carnelian
@@ -13773,7 +13780,9 @@ lexicon = listing "Lexicon's properties"
     -- AEtd    >aEotid Nap     war material;ammunition
 
     FaCAL                     `noun`    {- EatAd -}            [ unwords [ "war", "material" ], "ammunition" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCuL
+                              `plural`     HaFCiL |< aT
+                           {- `others`  [ "'a`tud N" ] -},
 
     -- ;; Eatiyd_1
     -- Etyd    Eatiyd  N/ap    prepared     [[Eatiyd/ADJ]]
@@ -15983,8 +15992,9 @@ lexicon = listing "Lexicon's properties"
     -- AEyn    >aEoyun N       eyes
 
     FaCL                      `noun`    {- Eayon -}            [ "eye" ]
+                              `plural`     HaFCuL
                               `plural`     FuCUL
-                           {- `others`  [ "`uyuwn N" ] -},
+                           {- `others`  [ "'a`yun N", "`uyuwn N" ] -},
 
     -- ;; Eayon_3
     -- Eyn     Eayon   N       water spring;water source
@@ -16990,7 +17000,8 @@ lexicon = listing "Lexicon's properties"
     -- >Ez     >aEiz~  Nap     dear;precious     [[>aEiz~/ADJ]]
     -- AEz     >aEiz~  Nap     dear;precious     [[>aEiz~/ADJ]]
 
-    FaCIL                     `adj`     {- Eaziyz -}           [ "dear", "precious" ],
+    FaCIL                     `adj`     {- Eaziyz -}           [ "dear", "precious" ]
+                              `plural`     HaFiCL |< aT,
 
     -- ;; Eaziyziy~_1
     -- Ezyzy   Eaziyziy~       N0      Azizi
@@ -17071,7 +17082,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; EAj~uwriy~_1
     -- EAjwry  EAj~uwriy~      N0      Ajjouri
 
-    Identity |< Iy            `adj`     {- EAj~uwriy~ -}       [ "Ajjouri" ] ]
+    Identity |< Iy            `adj`     {- EAj~uwriy~ -}       [ "" {- "Ajjouri" -} ] ]
 
  |> "`AlamAn" <| [
 
@@ -17106,21 +17117,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; Eiydaruws_1
     -- Eydrws  Eiydaruws       Nprop   Eidarous
 
-    Identity                  `noun`    {- Eiydaruws -}        [ "Eidarous" ] ]
+    Identity                  `noun`    {- Eiydaruws -}        [ "" {- "Eidarous" -} ] ]
 
  |> "`Ufr" <| [
 
     -- ;; Euwforap_1
     -- Ewfrp   Euwforap        N0      Ofra
 
-    Identity |< aT            `noun`    {- Euwforap -}         [ "Ofra" ] ]
+    Identity |< aT            `noun`    {- Euwforap -}         [ "" {- "Ofra" -} ] ]
 
  |> "`a.tAAlll_ah" <| [
 
     -- ;; EaTAAll~`h_1
     -- ETAAllh EaTAAll~`h      Nprop   Attallah
 
-    Identity                  `noun`    {- EaTAAll~`h -}       [ "Attallah" ] ]
+    Identity                  `noun`    {- EaTAAll~`h -}       [ "" {- "Attallah" -} ] ]
 
  |> "`a.ta^s^g" <| [
 
@@ -17142,14 +17153,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; Ea$orAwiy_1
     -- E$rAwy  Ea$orAwiy       Nprop   Ashrawi
 
-    Identity                  `noun`    {- Ea$orAwiy -}        [ "Ashrawi" ] ]
+    Identity                  `noun`    {- Ea$orAwiy -}        [ "" {- "Ashrawi" -} ] ]
 
  |> "`abAdAn" <| [
 
     -- ;; EabAdAn_1
     -- EbAdAn  EabAdAn N0      Abadan
 
-    Identity                  `noun`    {- EabAdAn -}          [ "Abadan" ] ]
+    Identity                  `noun`    {- EabAdAn -}          [ "" {- "Abadan" -} ] ]
 
  |> "`abdAl'amIr" <| [
 
@@ -17157,7 +17168,7 @@ lexicon = listing "Lexicon's properties"
     -- EbdAl>myr       EabodAl>amiyr   Nprop   Abdel Amir
     -- EbdAlAmyr       EabodAl>amiyr   Nprop   Abdel Amir
 
-    Identity                  `noun`    {- EabodAlOamiyr -}    [ unwords [ "Abdel", "Amir" ] ] ]
+    Identity                  `noun`    {- EabodAlOamiyr -}    [ unwords [ "" {- "Abdel" -}, "" {- "Amir" -} ] ] ]
 
  |> "`abdAl'ilah" <| [
 
@@ -17165,957 +17176,957 @@ lexicon = listing "Lexicon's properties"
     -- EbdAl<lh        EabodAl<ilah    Nprop   Abdel Ilah
     -- EbdAlAlh        EabodAl<ilah    Nprop   Abdel Ilah
 
-    Identity                  `noun`    {- EabodAlIilah -}     [ unwords [ "Abdel", "Ilah" ] ] ]
+    Identity                  `noun`    {- EabodAlIilah -}     [ unwords [ "" {- "Abdel" -}, "" {- "Ilah" -} ] ] ]
 
  |> "`abdAl.gafUr" <| [
 
     -- ;; EabodAlgafuwr_1
     -- EbdAlgfwr       EabodAlgafuwr   Nprop   Abdel Ghafour
 
-    Identity                  `noun`    {- EabodAlgafuwr -}    [ unwords [ "Abdel", "Ghafour" ] ] ]
+    Identity                  `noun`    {- EabodAlgafuwr -}    [ unwords [ "" {- "Abdel" -}, "" {- "Ghafour" -} ] ] ]
 
  |> "`abdAl.gaffAr" <| [
 
     -- ;; EabodAlgaf~Ar_1
     -- EbdAlgfAr       EabodAlgaf~Ar   Nprop   Abdel Ghaffar
 
-    Identity                  `noun`    {- EabodAlgaf~Ar -}    [ unwords [ "Abdel", "Ghaffar" ] ] ]
+    Identity                  `noun`    {- EabodAlgaf~Ar -}    [ unwords [ "" {- "Abdel" -}, "" {- "Ghaffar" -} ] ] ]
 
  |> "`abdAl.gan" <| [
 
     -- ;; EabodAlganiy~_1
     -- EbdAlgny        EabodAlganiy~   Nprop   Abdel Ghani
 
-    Identity |< Iy            `adj`     {- EabodAlganiy~ -}    [ unwords [ "Abdel", "Ghani" ] ] ]
+    Identity |< Iy            `adj`     {- EabodAlganiy~ -}    [ unwords [ "" {- "Abdel" -}, "" {- "Ghani" -} ] ] ]
 
  |> "`abdAl.hAfi.z" <| [
 
     -- ;; EabodAlHAfiZ_1
     -- EbdAlHAfZ       EabodAlHAfiZ    Nprop   Abdel Hafiz
 
-    Identity                  `noun`    {- EabodAlHAfiZ -}     [ unwords [ "Abdel", "Hafiz" ] ] ]
+    Identity                  `noun`    {- EabodAlHAfiZ -}     [ unwords [ "" {- "Abdel" -}, "" {- "Hafiz" -} ] ] ]
 
  |> "`abdAl.hAkim" <| [
 
     -- ;; EabodAlHAkim_1
     -- EbdAlHAkm       EabodAlHAkim    Nprop   Abdel Hakim
 
-    Identity                  `noun`    {- EabodAlHAkim -}     [ unwords [ "Abdel", "Hakim" ] ] ]
+    Identity                  `noun`    {- EabodAlHAkim -}     [ unwords [ "" {- "Abdel" -}, "" {- "Hakim" -} ] ] ]
 
  |> "`abdAl.hAri_t" <| [
 
     -- ;; EabodAlHAriv_1
     -- EbdAlHArv       EabodAlHAriv    Nprop   Abdel Harith
 
-    Identity                  `noun`    {- EabodAlHAriv -}     [ unwords [ "Abdel", "Harith" ] ] ]
+    Identity                  `noun`    {- EabodAlHAriv -}     [ unwords [ "" {- "Abdel" -}, "" {- "Harith" -} ] ] ]
 
  |> "`abdAl.habIb" <| [
 
     -- ;; EabodAlHabiyb_1
     -- EbdAlHbyb       EabodAlHabiyb   Nprop   Abdel Habib
 
-    Identity                  `noun`    {- EabodAlHabiyb -}    [ unwords [ "Abdel", "Habib" ] ] ]
+    Identity                  `noun`    {- EabodAlHabiyb -}    [ unwords [ "" {- "Abdel" -}, "" {- "Habib" -} ] ] ]
 
  |> "`abdAl.hafI.z" <| [
 
     -- ;; EabodAlHafiyZ_1
     -- EbdAlHfyZ       EabodAlHafiyZ   Nprop   Abdel Hafeez
 
-    Identity                  `noun`    {- EabodAlHafiyZ -}    [ unwords [ "Abdel", "Hafeez" ] ] ]
+    Identity                  `noun`    {- EabodAlHafiyZ -}    [ unwords [ "" {- "Abdel" -}, "" {- "Hafeez" -} ] ] ]
 
  |> "`abdAl.hakIm" <| [
 
     -- ;; EabodAlHakiym_1
     -- EbdAlHkym       EabodAlHakiym   Nprop   Abdel Hakeem
 
-    Identity                  `noun`    {- EabodAlHakiym -}    [ unwords [ "Abdel", "Hakeem" ] ] ]
+    Identity                  `noun`    {- EabodAlHakiym -}    [ unwords [ "" {- "Abdel" -}, "" {- "Hakeem" -} ] ] ]
 
  |> "`abdAl.hakam" <| [
 
     -- ;; EabodAlHakam_1
     -- EbdAlHkm        EabodAlHakam    Nprop   Abdel Hakam
 
-    Identity                  `noun`    {- EabodAlHakam -}     [ unwords [ "Abdel", "Hakam" ] ] ]
+    Identity                  `noun`    {- EabodAlHakam -}     [ unwords [ "" {- "Abdel" -}, "" {- "Hakam" -} ] ] ]
 
  |> "`abdAl.halIm" <| [
 
     -- ;; EabodAlHaliym_1
     -- EbdAlHlym       EabodAlHaliym   Nprop   Abdel Haleem
 
-    Identity                  `noun`    {- EabodAlHaliym -}    [ unwords [ "Abdel", "Haleem" ] ] ]
+    Identity                  `noun`    {- EabodAlHaliym -}    [ unwords [ "" {- "Abdel" -}, "" {- "Haleem" -} ] ] ]
 
  |> "`abdAl.hamId" <| [
 
     -- ;; EabodAlHamiyd_1
     -- EbdAlHmyd       EabodAlHamiyd   Nprop   Abdel Hameed
 
-    Identity                  `noun`    {- EabodAlHamiyd -}    [ unwords [ "Abdel", "Hameed" ] ] ]
+    Identity                  `noun`    {- EabodAlHamiyd -}    [ unwords [ "" {- "Abdel" -}, "" {- "Hameed" -} ] ] ]
 
  |> "`abdAl.haqq" <| [
 
     -- ;; EabodAlHaq~_1
     -- EbdAlHq EabodAlHaq~     Nprop   Abdel Haqq
 
-    Identity                  `noun`    {- EabodAlHaq~ -}      [ unwords [ "Abdel", "Haqq" ] ] ]
+    Identity                  `noun`    {- EabodAlHaq~ -}      [ unwords [ "" {- "Abdel" -}, "" {- "Haqq" -} ] ] ]
 
  |> "`abdAl.hasIb" <| [
 
     -- ;; EabodAlHasiyb_1
     -- EbdAlHsyb       EabodAlHasiyb   Nprop   Abdel Haseeb
 
-    Identity                  `noun`    {- EabodAlHasiyb -}    [ unwords [ "Abdel", "Haseeb" ] ] ]
+    Identity                  `noun`    {- EabodAlHasiyb -}    [ unwords [ "" {- "Abdel" -}, "" {- "Haseeb" -} ] ] ]
 
  |> "`abdAl.hasan" <| [
 
     -- ;; EabodAlHasan_1
     -- EbdAlHsn        EabodAlHasan    Nprop   Abdel Hassan
 
-    Identity                  `noun`    {- EabodAlHasan -}     [ unwords [ "Abdel", "Hassan" ] ] ]
+    Identity                  `noun`    {- EabodAlHasan -}     [ unwords [ "" {- "Abdel" -}, "" {- "Hassan" -} ] ] ]
 
  |> "`abdAl.hayy" <| [
 
     -- ;; EabodAlHay~_1
     -- EbdAlHy EabodAlHay~     Nprop   Abdel Hay
 
-    Identity                  `noun`    {- EabodAlHay~ -}      [ unwords [ "Abdel", "Hay" ] ] ]
+    Identity                  `noun`    {- EabodAlHay~ -}      [ unwords [ "" {- "Abdel" -}, "" {- "Hay" -} ] ] ]
 
  |> "`abdAl.husayn" <| [
 
     -- ;; EabodAlHusayon_1
     -- EbdAlHsyn       EabodAlHusayon  Nprop   Abdel Hussein
 
-    Identity                  `noun`    {- EabodAlHusayon -}   [ unwords [ "Abdel", "Hussein" ] ] ]
+    Identity                  `noun`    {- EabodAlHusayon -}   [ unwords [ "" {- "Abdel" -}, "" {- "Hussein" -} ] ] ]
 
  |> "`abdAl.sA.hib" <| [
 
     -- ;; EabodAlSAHib_1
     -- EbdAlSAHb       EabodAlSAHib    Nprop   Abdel Sahib
 
-    Identity                  `noun`    {- EabodAlSAHib -}     [ unwords [ "Abdel", "Sahib" ] ] ]
+    Identity                  `noun`    {- EabodAlSAHib -}     [ unwords [ "" {- "Abdel" -}, "" {- "Sahib" -} ] ] ]
 
  |> "`abdAl.sAdiq" <| [
 
     -- ;; EabodAlSAdiq_1
     -- EbdAlSAdq       EabodAlSAdiq    Nprop   Abdel Sadiq
 
-    Identity                  `noun`    {- EabodAlSAdiq -}     [ unwords [ "Abdel", "Sadiq" ] ] ]
+    Identity                  `noun`    {- EabodAlSAdiq -}     [ unwords [ "" {- "Abdel" -}, "" {- "Sadiq" -} ] ] ]
 
  |> "`abdAl.sabUr" <| [
 
     -- ;; EabodAlSabuwr_1
     -- EbdAlSbwr       EabodAlSabuwr   Nprop   Abdel Sabour
 
-    Identity                  `noun`    {- EabodAlSabuwr -}    [ unwords [ "Abdel", "Sabour" ] ] ]
+    Identity                  `noun`    {- EabodAlSabuwr -}    [ unwords [ "" {- "Abdel" -}, "" {- "Sabour" -} ] ] ]
 
  |> "`abdAl.samad" <| [
 
     -- ;; EabodAlSamad_1
     -- EbdAlSmd        EabodAlSamad    Nprop   Abdel Samad
 
-    Identity                  `noun`    {- EabodAlSamad -}     [ unwords [ "Abdel", "Samad" ] ] ]
+    Identity                  `noun`    {- EabodAlSamad -}     [ unwords [ "" {- "Abdel" -}, "" {- "Samad" -} ] ] ]
 
  |> "`abdAl.zAhir" <| [
 
     -- ;; EabodAlZAhir_1
     -- EbdAlZAhr       EabodAlZAhir    Nprop   Abdel Zahir
 
-    Identity                  `noun`    {- EabodAlZAhir -}     [ unwords [ "Abdel", "Zahir" ] ] ]
+    Identity                  `noun`    {- EabodAlZAhir -}     [ unwords [ "" {- "Abdel" -}, "" {- "Zahir" -} ] ] ]
 
  |> "`abdAl^gAbir" <| [
 
     -- ;; EabodAljAbir_1
     -- EbdAljAbr       EabodAljAbir    Nprop   Abdel Jabir
 
-    Identity                  `noun`    {- EabodAljAbir -}     [ unwords [ "Abdel", "Jabir" ] ] ]
+    Identity                  `noun`    {- EabodAljAbir -}     [ unwords [ "" {- "Abdel" -}, "" {- "Jabir" -} ] ] ]
 
  |> "`abdAl^gabbAr" <| [
 
     -- ;; EabodAljab~Ar_1
     -- EbdAljbAr       EabodAljab~Ar   Nprop   Abdel Jabbar
 
-    Identity                  `noun`    {- EabodAljab~Ar -}    [ unwords [ "Abdel", "Jabbar" ] ] ]
+    Identity                  `noun`    {- EabodAljab~Ar -}    [ unwords [ "" {- "Abdel" -}, "" {- "Jabbar" -} ] ] ]
 
  |> "`abdAl^galIl" <| [
 
     -- ;; EabodAljaliyl_1
     -- EbdAljlyl       EabodAljaliyl   Nprop   Abdel Jalil
 
-    Identity                  `noun`    {- EabodAljaliyl -}    [ unwords [ "Abdel", "Jalil" ] ] ]
+    Identity                  `noun`    {- EabodAljaliyl -}    [ unwords [ "" {- "Abdel" -}, "" {- "Jalil" -} ] ] ]
 
  |> "`abdAl^gawAd" <| [
 
     -- ;; EabodAljawAd_1
     -- EbdAljwAd       EabodAljawAd    Nprop   Abdel Jawad
 
-    Identity                  `noun`    {- EabodAljawAd -}     [ unwords [ "Abdel", "Jawad" ] ] ]
+    Identity                  `noun`    {- EabodAljawAd -}     [ unwords [ "" {- "Abdel" -}, "" {- "Jawad" -} ] ] ]
 
  |> "`abdAl^sAfI" <| [
 
     -- ;; EabodAl$Afiy_1
     -- EbdAl$Afy       EabodAl$Afiy    Nprop   Abdel Shafi
 
-    Identity                  `noun`    {- EabodAl$Afiy -}     [ unwords [ "Abdel", "Shafi" ] ] ]
+    Identity                  `noun`    {- EabodAl$Afiy -}     [ unwords [ "" {- "Abdel" -}, "" {- "Shafi" -} ] ] ]
 
  |> "`abdAl^safI`" <| [
 
     -- ;; EabodAl$afiyE_1
     -- EbdAl$fyE       EabodAl$afiyE   Nprop   Abdel Shafee
 
-    Identity                  `noun`    {- EabodAl$afiyE -}    [ unwords [ "Abdel", "Shafee" ] ] ]
+    Identity                  `noun`    {- EabodAl$afiyE -}    [ unwords [ "" {- "Abdel" -}, "" {- "Shafee" -} ] ] ]
 
  |> "`abdAl^sakUr" <| [
 
     -- ;; EabodAl$akuwr_1
     -- EbdAl$kwr       EabodAl$akuwr   Nprop   Abdel Shakour
 
-    Identity                  `noun`    {- EabodAl$akuwr -}    [ unwords [ "Abdel", "Shakour" ] ] ]
+    Identity                  `noun`    {- EabodAl$akuwr -}    [ unwords [ "" {- "Abdel" -}, "" {- "Shakour" -} ] ] ]
 
  |> "`abdAl_hAliq" <| [
 
     -- ;; EabodAlxAliq_1
     -- EbdAlxAlq       EabodAlxAliq    Nprop   Abdel Khaliq
 
-    Identity                  `noun`    {- EabodAlxAliq -}     [ unwords [ "Abdel", "Khaliq" ] ] ]
+    Identity                  `noun`    {- EabodAlxAliq -}     [ unwords [ "" {- "Abdel" -}, "" {- "Khaliq" -} ] ] ]
 
  |> "`abdAl`.zIm" <| [
 
     -- ;; EabodAlEZiym_1
     -- EbdAlEZym       EabodAlEZiym    Nprop   Abdel Azeem
 
-    Identity                  `noun`    {- EabodAlEZiym -}     [ unwords [ "Abdel", "Azeem" ] ] ]
+    Identity                  `noun`    {- EabodAlEZiym -}     [ unwords [ "" {- "Abdel" -}, "" {- "Azeem" -} ] ] ]
 
  |> "`abdAl`A.tI" <| [
 
     -- ;; EabodAlEATiy_1
     -- EbdAlEATy       EabodAlEATiy    Nprop   Abdel Aati
 
-    Identity                  `noun`    {- EabodAlEATiy -}     [ unwords [ "Abdel", "Aati" ] ] ]
+    Identity                  `noun`    {- EabodAlEATiy -}     [ unwords [ "" {- "Abdel" -}, "" {- "Aati" -} ] ] ]
 
  |> "`abdAl`Al" <| [
 
     -- ;; EabodAlEAl_1
     -- EbdAlEAl        EabodAlEAl      Nprop   Abdel Aal
 
-    Identity                  `noun`    {- EabodAlEAl -}       [ unwords [ "Abdel", "Aal" ] ] ]
+    Identity                  `noun`    {- EabodAlEAl -}       [ unwords [ "" {- "Abdel" -}, "" {- "Aal" -} ] ] ]
 
  |> "`abdAl`Alim" <| [
 
     -- ;; EabodAlEAlim_1
     -- EbdAlEAlm       EabodAlEAlim    Nprop   Abdel Alim
 
-    Identity                  `noun`    {- EabodAlEAlim -}     [ unwords [ "Abdel", "Alim" ] ] ]
+    Identity                  `noun`    {- EabodAlEAlim -}     [ unwords [ "" {- "Abdel" -}, "" {- "Alim" -} ] ] ]
 
  |> "`abdAl`abbAs" <| [
 
     -- ;; EabodAlEab~As_1
     -- EbdAlEbAs       EabodAlEab~As   Nprop   Abdel Abbas
 
-    Identity                  `noun`    {- EabodAlEab~As -}    [ unwords [ "Abdel", "Abbas" ] ] ]
+    Identity                  `noun`    {- EabodAlEab~As -}    [ unwords [ "" {- "Abdel" -}, "" {- "Abbas" -} ] ] ]
 
  |> "`abdAl`azIz" <| [
 
     -- ;; EabodAlEaziyz_1
     -- EbdAlEzyz       EabodAlEaziyz   Nprop   Abdel Aziz
 
-    Identity                  `noun`    {- EabodAlEaziyz -}    [ unwords [ "Abdel", "Aziz" ] ] ]
+    Identity                  `noun`    {- EabodAlEaziyz -}    [ unwords [ "" {- "Abdel" -}, "" {- "Aziz" -} ] ] ]
 
  |> "`abdAl`izz" <| [
 
     -- ;; EabodAlEiz~_1
     -- EbdAlEz EabodAlEiz~     Nprop   Abdel Izz
 
-    Identity                  `noun`    {- EabodAlEiz~ -}      [ unwords [ "Abdel", "Izz" ] ] ]
+    Identity                  `noun`    {- EabodAlEiz~ -}      [ unwords [ "" {- "Abdel" -}, "" {- "Izz" -} ] ] ]
 
  |> "`abdAl`l" <| [
 
     -- ;; EabodAlEliy~_1
     -- EbdAlEly        EabodAlEliy~    Nprop   Abdel Ali
 
-    Identity |< Iy            `adj`     {- EabodAlEliy~ -}     [ unwords [ "Abdel", "Ali" ] ] ]
+    Identity |< Iy            `adj`     {- EabodAlEliy~ -}     [ unwords [ "" {- "Abdel" -}, "" {- "Ali" -} ] ] ]
 
  |> "`abdAl`lIm" <| [
 
     -- ;; EabodAlEliym_1
     -- EbdAlElym       EabodAlEliym    Nprop   Abdel Aleem
 
-    Identity                  `noun`    {- EabodAlEliym -}     [ unwords [ "Abdel", "Aleem" ] ] ]
+    Identity                  `noun`    {- EabodAlEliym -}     [ unwords [ "" {- "Abdel" -}, "" {- "Aleem" -} ] ] ]
 
  |> "`abdAlbAqI" <| [
 
     -- ;; EabodAlbAqiy_1
     -- EbdAlbAqy       EabodAlbAqiy    Nprop   Abdel Baqi
 
-    Identity                  `noun`    {- EabodAlbAqiy -}     [ unwords [ "Abdel", "Baqi" ] ] ]
+    Identity                  `noun`    {- EabodAlbAqiy -}     [ unwords [ "" {- "Abdel" -}, "" {- "Baqi" -} ] ] ]
 
  |> "`abdAlbArI" <| [
 
     -- ;; EabodAlbAriy_1
     -- EbdAlbAry       EabodAlbAriy    Nprop   Abdel Bari
 
-    Identity                  `noun`    {- EabodAlbAriy -}     [ unwords [ "Abdel", "Bari" ] ] ]
+    Identity                  `noun`    {- EabodAlbAriy -}     [ unwords [ "" {- "Abdel" -}, "" {- "Bari" -} ] ] ]
 
  |> "`abdAlbAsi.t" <| [
 
     -- ;; EabodAlbAsiT_1
     -- EbdAlbAsT       EabodAlbAsiT    Nprop   Abdel Basit
 
-    Identity                  `noun`    {- EabodAlbAsiT -}     [ unwords [ "Abdel", "Basit" ] ] ]
+    Identity                  `noun`    {- EabodAlbAsiT -}     [ unwords [ "" {- "Abdel" -}, "" {- "Basit" -} ] ] ]
 
  |> "`abdAlbadI`" <| [
 
     -- ;; EabodAlbadiyE_1
     -- EbdAlbdyE       EabodAlbadiyE   Nprop   Abdel Badii
 
-    Identity                  `noun`    {- EabodAlbadiyE -}    [ unwords [ "Abdel", "Badii" ] ] ]
+    Identity                  `noun`    {- EabodAlbadiyE -}    [ unwords [ "" {- "Abdel" -}, "" {- "Badii" -} ] ] ]
 
  |> "`abdAldA'im" <| [
 
     -- ;; EabodAldA}im_1
     -- EbdAldA}m       EabodAldA}im    Nprop   Abdel Daim
 
-    Identity                  `noun`    {- EabodAldA}im -}     [ unwords [ "Abdel", "Daim" ] ] ]
+    Identity                  `noun`    {- EabodAldA}im -}     [ unwords [ "" {- "Abdel" -}, "" {- "Daim" -} ] ] ]
 
  |> "`abdAldAfi`" <| [
 
     -- ;; EabodAldAfiE_1
     -- EbdAldAfE       EabodAldAfiE    Nprop   Abdel Dafi
 
-    Identity                  `noun`    {- EabodAldAfiE -}     [ unwords [ "Abdel", "Dafi" ] ] ]
+    Identity                  `noun`    {- EabodAldAfiE -}     [ unwords [ "" {- "Abdel" -}, "" {- "Dafi" -} ] ] ]
 
  |> "`abdAldAr" <| [
 
     -- ;; EabodAldAr_1
     -- EbdAldAr        EabodAldAr      Nprop   Abdel Dar
 
-    Identity                  `noun`    {- EabodAldAr -}       [ unwords [ "Abdel", "Dar" ] ] ]
+    Identity                  `noun`    {- EabodAldAr -}       [ unwords [ "" {- "Abdel" -}, "" {- "Dar" -} ] ] ]
 
  |> "`abdAldAyim" <| [
 
     -- ;; EabodAldAyim_1
     -- EbdAldAym       EabodAldAyim    Nprop   Abdel Dayim
 
-    Identity                  `noun`    {- EabodAldAyim -}     [ unwords [ "Abdel", "Dayim" ] ] ]
+    Identity                  `noun`    {- EabodAldAyim -}     [ unwords [ "" {- "Abdel" -}, "" {- "Dayim" -} ] ] ]
 
  |> "`abdAlfA.dil" <| [
 
     -- ;; EabodAlfADil_1
     -- EbdAlfADl       EabodAlfADil    Nprop   Abdel Fadil
 
-    Identity                  `noun`    {- EabodAlfADil -}     [ unwords [ "Abdel", "Fadil" ] ] ]
+    Identity                  `noun`    {- EabodAlfADil -}     [ unwords [ "" {- "Abdel" -}, "" {- "Fadil" -} ] ] ]
 
  |> "`abdAlfa.dIl" <| [
 
     -- ;; EabodAlfaDiyl_1
     -- EbdAlfDyl       EabodAlfaDiyl   Nprop   Abdel Fadeel
 
-    Identity                  `noun`    {- EabodAlfaDiyl -}    [ unwords [ "Abdel", "Fadeel" ] ] ]
+    Identity                  `noun`    {- EabodAlfaDiyl -}    [ unwords [ "" {- "Abdel" -}, "" {- "Fadeel" -} ] ] ]
 
  |> "`abdAlfahIm" <| [
 
     -- ;; EabodAlfahiym_1
     -- EbdAlfhym       EabodAlfahiym   Nprop   Abdel Faheem
 
-    Identity                  `noun`    {- EabodAlfahiym -}    [ unwords [ "Abdel", "Faheem" ] ] ]
+    Identity                  `noun`    {- EabodAlfahiym -}    [ unwords [ "" {- "Abdel" -}, "" {- "Faheem" -} ] ] ]
 
  |> "`abdAlfattA.h" <| [
 
     -- ;; EabodAlfat~AH_1
     -- EbdAlftAH       EabodAlfat~AH   Nprop   Abdel Fattah
 
-    Identity                  `noun`    {- EabodAlfat~AH -}    [ unwords [ "Abdel", "Fattah" ] ] ]
+    Identity                  `noun`    {- EabodAlfat~AH -}    [ unwords [ "" {- "Abdel" -}, "" {- "Fattah" -} ] ] ]
 
  |> "`abdAlhA^sim" <| [
 
     -- ;; EabodAlhA$im_1
     -- EbdAlhA$m       EabodAlhA$im    Nprop   Abdel Hashim
 
-    Identity                  `noun`    {- EabodAlhA$im -}     [ unwords [ "Abdel", "Hashim" ] ] ]
+    Identity                  `noun`    {- EabodAlhA$im -}     [ unwords [ "" {- "Abdel" -}, "" {- "Hashim" -} ] ] ]
 
  |> "`abdAlhAdI" <| [
 
     -- ;; EabodAlhAdiy_1
     -- EbdAlhAdy       EabodAlhAdiy    Nprop   Abdel Hadi
 
-    Identity                  `noun`    {- EabodAlhAdiy -}     [ unwords [ "Abdel", "Hadi" ] ] ]
+    Identity                  `noun`    {- EabodAlhAdiy -}     [ unwords [ "" {- "Abdel" -}, "" {- "Hadi" -} ] ] ]
 
  |> "`abdAlkAfI" <| [
 
     -- ;; EabodAlkAfiy_1
     -- EbdAlkAfy       EabodAlkAfiy    Nprop   Abdel Kafi
 
-    Identity                  `noun`    {- EabodAlkAfiy -}     [ unwords [ "Abdel", "Kafi" ] ] ]
+    Identity                  `noun`    {- EabodAlkAfiy -}     [ unwords [ "" {- "Abdel" -}, "" {- "Kafi" -} ] ] ]
 
  |> "`abdAlkabIr" <| [
 
     -- ;; EabodAlkabiyr_1
     -- EbdAlkbyr       EabodAlkabiyr   Nprop   Abdel Kabeer
 
-    Identity                  `noun`    {- EabodAlkabiyr -}    [ unwords [ "Abdel", "Kabeer" ] ] ]
+    Identity                  `noun`    {- EabodAlkabiyr -}    [ unwords [ "" {- "Abdel" -}, "" {- "Kabeer" -} ] ] ]
 
  |> "`abdAlkarIm" <| [
 
     -- ;; EabodAlkariym_1
     -- EbdAlkrym       EabodAlkariym   Nprop   Abdel Kareem
 
-    Identity                  `noun`    {- EabodAlkariym -}    [ unwords [ "Abdel", "Kareem" ] ] ]
+    Identity                  `noun`    {- EabodAlkariym -}    [ unwords [ "" {- "Abdel" -}, "" {- "Kareem" -} ] ] ]
 
  |> "`abdAllAwI" <| [
 
     -- ;; EabodAllAwiy_1
     -- EbdAllAwy       EabodAllAwiy    Nprop   Abdallawi
 
-    Identity                  `noun`    {- EabodAllAwiy -}     [ "Abdallawi" ] ]
+    Identity                  `noun`    {- EabodAllAwiy -}     [ "" {- "Abdallawi" -} ] ]
 
  |> "`abdAlla.tIf" <| [
 
     -- ;; EabodAllaTiyf_1
     -- EbdAllTyf       EabodAllaTiyf   Nprop   Abdel Lateef
 
-    Identity                  `noun`    {- EabodAllaTiyf -}    [ unwords [ "Abdel", "Lateef" ] ],
+    Identity                  `noun`    {- EabodAllaTiyf -}    [ unwords [ "" {- "Abdel" -}, "" {- "Lateef" -} ] ],
 
     -- ;; EabodAllaTiyfiy~_1
     -- EbdAllTyfy      EabodAllaTiyfiy~        Nprop   Abdel Lateefi
 
-    Identity |< Iy            `adj`     {- EabodAllaTiyfiy~ -} [ unwords [ "Abdel", "Lateefi" ] ] ]
+    Identity |< Iy            `adj`     {- EabodAllaTiyfiy~ -} [ unwords [ "" {- "Abdel" -}, "" {- "Lateefi" -} ] ] ]
 
  |> "`abdAlll_ah" <| [
 
     -- ;; EabodAll~`h_1
     -- EbdAllh EabodAll~`h     N0      Abdallah
 
-    Identity                  `noun`    {- EabodAll~`h -}      [ "Abdallah" ] ]
+    Identity                  `noun`    {- EabodAll~`h -}      [ "" {- "Abdallah" -} ] ]
 
  |> "`abdAlmA^gid" <| [
 
     -- ;; EabodAlmAjid_1
     -- EbdAlmAjd       EabodAlmAjid    Nprop   Abdel Majid
 
-    Identity                  `noun`    {- EabodAlmAjid -}     [ unwords [ "Abdel", "Majid" ] ] ]
+    Identity                  `noun`    {- EabodAlmAjid -}     [ unwords [ "" {- "Abdel" -}, "" {- "Majid" -} ] ] ]
 
  |> "`abdAlmAlik" <| [
 
     -- ;; EabodAlmAlik_1
     -- EbdAlmAlk       EabodAlmAlik    Nprop   Abdel Malik
 
-    Identity                  `noun`    {- EabodAlmAlik -}     [ unwords [ "Abdel", "Malik" ] ] ]
+    Identity                  `noun`    {- EabodAlmAlik -}     [ unwords [ "" {- "Abdel" -}, "" {- "Malik" -} ] ] ]
 
  |> "`abdAlma'mUn" <| [
 
     -- ;; EabodAlma>omuwn_1
     -- EbdAlm>mwn      EabodAlma>omuwn Nprop   Abdel Ma'moun
 
-    Identity                  `noun`    {- EabodAlmaOomuwn -}  [ unwords [ "Abdel", "Ma'moun" ] ] ]
+    Identity                  `noun`    {- EabodAlmaOomuwn -}  [ unwords [ "" {- "Abdel" -}, "" {- "Ma'moun" -} ] ] ]
 
  |> "`abdAlma.hmUd" <| [
 
     -- ;; EabodAlmaHomuwd_1
     -- EbdAlmHmwd      EabodAlmaHomuwd Nprop   Abdel Mahmoud
 
-    Identity                  `noun`    {- EabodAlmaHomuwd -}  [ unwords [ "Abdel", "Mahmoud" ] ] ]
+    Identity                  `noun`    {- EabodAlmaHomuwd -}  [ unwords [ "" {- "Abdel" -}, "" {- "Mahmoud" -} ] ] ]
 
  |> "`abdAlma^gId" <| [
 
     -- ;; EabodAlmajiyd_1
     -- EbdAlmjyd       EabodAlmajiyd   Nprop   Abdel Majeed;Abdel Meguid
 
-    Identity                  `noun`    {- EabodAlmajiyd -}    [ unwords [ "Abdel", "Majeed" ], unwords [ "Abdel", "Meguid" ] ] ]
+    Identity                  `noun`    {- EabodAlmajiyd -}    [ unwords [ "" {- "Abdel" -}, "" {- "Majeed" -} ], unwords [ "" {- "Abdel" -}, "" {- "Meguid" -} ] ] ]
 
  |> "`abdAlmahdI" <| [
 
     -- ;; EabodAlmahodiy_1
     -- EbdAlmhdy       EabodAlmahodiy  Nprop   Abdel Mahdi
 
-    Identity                  `noun`    {- EabodAlmahodiy -}   [ unwords [ "Abdel", "Mahdi" ] ] ]
+    Identity                  `noun`    {- EabodAlmahodiy -}   [ unwords [ "" {- "Abdel" -}, "" {- "Mahdi" -} ] ] ]
 
  |> "`abdAlmalAk" <| [
 
     -- ;; EabodAlmalAk_1
     -- EbdAlmlAk       EabodAlmalAk    Nprop   Abdel Malak
 
-    Identity                  `noun`    {- EabodAlmalAk -}     [ unwords [ "Abdel", "Malak" ] ] ]
+    Identity                  `noun`    {- EabodAlmalAk -}     [ unwords [ "" {- "Abdel" -}, "" {- "Malak" -} ] ] ]
 
  |> "`abdAlmalik" <| [
 
     -- ;; EabodAlmalik_1
     -- EbdAlmlk        EabodAlmalik    Nprop   Abdel Malik
 
-    Identity                  `noun`    {- EabodAlmalik -}     [ unwords [ "Abdel", "Malik" ] ] ]
+    Identity                  `noun`    {- EabodAlmalik -}     [ unwords [ "" {- "Abdel" -}, "" {- "Malik" -} ] ] ]
 
  |> "`abdAlmanIn" <| [
 
     -- ;; EabodAlmaniyn_1
     -- EbdAlmnyn       EabodAlmaniyn   Nprop   Abdel Maneen
 
-    Identity                  `noun`    {- EabodAlmaniyn -}    [ unwords [ "Abdel", "Maneen" ] ] ]
+    Identity                  `noun`    {- EabodAlmaniyn -}    [ unwords [ "" {- "Abdel" -}, "" {- "Maneen" -} ] ] ]
 
  |> "`abdAlmannAn" <| [
 
     -- ;; EabodAlman~An_1
     -- EbdAlmnAn       EabodAlman~An   Nprop   Abdel Mannan
 
-    Identity                  `noun`    {- EabodAlman~An -}    [ unwords [ "Abdel", "Mannan" ] ] ]
+    Identity                  `noun`    {- EabodAlman~An -}    [ unwords [ "" {- "Abdel" -}, "" {- "Mannan" -} ] ] ]
 
  |> "`abdAlmaq.sUd" <| [
 
     -- ;; EabodAlmaqoSuwd_1
     -- EbdAlmqSwd      EabodAlmaqoSuwd Nprop   Abdel Maqsoud
 
-    Identity                  `noun`    {- EabodAlmaqoSuwd -}  [ unwords [ "Abdel", "Maqsoud" ] ] ]
+    Identity                  `noun`    {- EabodAlmaqoSuwd -}  [ unwords [ "" {- "Abdel" -}, "" {- "Maqsoud" -} ] ] ]
 
  |> "`abdAlmasI.h" <| [
 
     -- ;; EabodAlmasiyH_1
     -- EbdAlmsyH       EabodAlmasiyH   Nprop   Abdel Maseeh
 
-    Identity                  `noun`    {- EabodAlmasiyH -}    [ unwords [ "Abdel", "Maseeh" ] ] ]
+    Identity                  `noun`    {- EabodAlmasiyH -}    [ unwords [ "" {- "Abdel" -}, "" {- "Maseeh" -} ] ] ]
 
  |> "`abdAlmaw^gUd" <| [
 
     -- ;; EabodAlmawojuwd_1
     -- EbdAlmwjwd      EabodAlmawojuwd Nprop   Abdel Mawjoud
 
-    Identity                  `noun`    {- EabodAlmawojuwd -}  [ unwords [ "Abdel", "Mawjoud" ] ] ]
+    Identity                  `noun`    {- EabodAlmawojuwd -}  [ unwords [ "" {- "Abdel" -}, "" {- "Mawjoud" -} ] ] ]
 
  |> "`abdAlmawlY" <| [
 
     -- ;; EabodAlmawolaY_1
     -- EbdAlmwlY       EabodAlmawolaY  Nprop   Abdel Mawla
 
-    Identity                  `noun`    {- EabodAlmawolaY -}   [ unwords [ "Abdel", "Mawla" ] ] ]
+    Identity                  `noun`    {- EabodAlmawolaY -}   [ unwords [ "" {- "Abdel" -}, "" {- "Mawla" -} ] ] ]
 
  |> "`abdAlmu'min" <| [
 
     -- ;; EabodAlmu&omin_1
     -- EbdAlm&mn       EabodAlmu&omin  Nprop   Abdel Mu'min
 
-    Identity                  `noun`    {- EabodAlmuWomin -}   [ unwords [ "Abdel", "Mu'min" ] ] ]
+    Identity                  `noun`    {- EabodAlmuWomin -}   [ unwords [ "" {- "Abdel" -}, "" {- "Mu'min" -} ] ] ]
 
  |> "`abdAlmu.gI_t" <| [
 
     -- ;; EabodAlmugiyv_1
     -- EbdAlmgyv       EabodAlmugiyv   Nprop   Abdel Mugheeth
 
-    Identity                  `noun`    {- EabodAlmugiyv -}    [ unwords [ "Abdel", "Mugheeth" ] ] ]
+    Identity                  `noun`    {- EabodAlmugiyv -}    [ unwords [ "" {- "Abdel" -}, "" {- "Mugheeth" -} ] ] ]
 
  |> "`abdAlmu.hsin" <| [
 
     -- ;; EabodAlmuHosin_1
     -- EbdAlmHsn       EabodAlmuHosin  Nprop   Abdel Muhsin
 
-    Identity                  `noun`    {- EabodAlmuHosin -}   [ unwords [ "Abdel", "Muhsin" ] ] ]
+    Identity                  `noun`    {- EabodAlmuHosin -}   [ unwords [ "" {- "Abdel" -}, "" {- "Muhsin" -} ] ] ]
 
  |> "`abdAlmu.t.talib" <| [
 
     -- ;; EabodAlmuT~alib_1
     -- EbdAlmTlb       EabodAlmuT~alib Nprop   Abdel Muttalib
 
-    Identity                  `noun`    {- EabodAlmuT~alib -}  [ unwords [ "Abdel", "Muttalib" ] ] ]
+    Identity                  `noun`    {- EabodAlmuT~alib -}  [ unwords [ "" {- "Abdel" -}, "" {- "Muttalib" -} ] ] ]
 
  |> "`abdAlmu`.tI" <| [
 
     -- ;; EabodAlmuEoTiy_1
     -- EbdAlmETy       EabodAlmuEoTiy  Nprop   Abdel Mu'ti
 
-    Identity                  `noun`    {- EabodAlmuEoTiy -}   [ unwords [ "Abdel", "Mu'ti" ] ] ]
+    Identity                  `noun`    {- EabodAlmuEoTiy -}   [ unwords [ "" {- "Abdel" -}, "" {- "Mu'ti" -} ] ] ]
 
  |> "`abdAlmu`In" <| [
 
     -- ;; EabodAlmuEiyn_1
     -- EbdAlmEyn       EabodAlmuEiyn   Nprop   Abdel Mueen
 
-    Identity                  `noun`    {- EabodAlmuEiyn -}    [ unwords [ "Abdel", "Mueen" ] ] ]
+    Identity                  `noun`    {- EabodAlmuEiyn -}    [ unwords [ "" {- "Abdel" -}, "" {- "Mueen" -} ] ] ]
 
  |> "`abdAlmuhaymin" <| [
 
     -- ;; EabodAlmuhayomin_1
     -- EbdAlmhymn      EabodAlmuhayomin        Nprop   Abdel Muhaymin
 
-    Identity                  `noun`    {- EabodAlmuhayomin -} [ unwords [ "Abdel", "Muhaymin" ] ] ]
+    Identity                  `noun`    {- EabodAlmuhayomin -} [ unwords [ "" {- "Abdel" -}, "" {- "Muhaymin" -} ] ] ]
 
  |> "`abdAlmun.sif" <| [
 
     -- ;; EabodAlmunoSif_1
     -- EbdAlmnSf       EabodAlmunoSif  Nprop   Abdel Munsif
 
-    Identity                  `noun`    {- EabodAlmunoSif -}   [ unwords [ "Abdel", "Munsif" ] ] ]
+    Identity                  `noun`    {- EabodAlmunoSif -}   [ unwords [ "" {- "Abdel" -}, "" {- "Munsif" -} ] ] ]
 
  |> "`abdAlmun`im" <| [
 
     -- ;; EabodAlmunoEim_1
     -- EbdAlmnEm       EabodAlmunoEim  Nprop   Abdel Munim
 
-    Identity                  `noun`    {- EabodAlmunoEim -}   [ unwords [ "Abdel", "Munim" ] ] ]
+    Identity                  `noun`    {- EabodAlmunoEim -}   [ unwords [ "" {- "Abdel" -}, "" {- "Munim" -} ] ] ]
 
  |> "`abdAlmuta`AlI" <| [
 
     -- ;; EabodAlmutaEAliy_1
     -- EbdAlmtEAly     EabodAlmutaEAliy        Nprop   Abdel Mutaali
 
-    Identity                  `noun`    {- EabodAlmutaEAliy -} [ unwords [ "Abdel", "Mutaali" ] ] ]
+    Identity                  `noun`    {- EabodAlmutaEAliy -} [ unwords [ "" {- "Abdel" -}, "" {- "Mutaali" -} ] ] ]
 
  |> "`abdAlmuwallI" <| [
 
     -- ;; EabodAlmuwal~iy_1
     -- EbdAlmwly       EabodAlmuwal~iy Nprop   Abdel Muwalli
 
-    Identity                  `noun`    {- EabodAlmuwal~iy -}  [ unwords [ "Abdel", "Muwalli" ] ] ]
+    Identity                  `noun`    {- EabodAlmuwal~iy -}  [ unwords [ "" {- "Abdel" -}, "" {- "Muwalli" -} ] ] ]
 
  |> "`abdAlnA.sir" <| [
 
     -- ;; EabodAlnASir_1
     -- EbdAlnASr       EabodAlnASir    Nprop   Abdel Nasser
 
-    Identity                  `noun`    {- EabodAlnASir -}     [ unwords [ "Abdel", "Nasser" ] ] ]
+    Identity                  `noun`    {- EabodAlnASir -}     [ unwords [ "" {- "Abdel" -}, "" {- "Nasser" -} ] ] ]
 
  |> "`abdAlnAfi`" <| [
 
     -- ;; EabodAlnAfiE_1
     -- EbdAlnAfE       EabodAlnAfiE    Nprop   Abdel Nafee
 
-    Identity                  `noun`    {- EabodAlnAfiE -}     [ unwords [ "Abdel", "Nafee" ] ] ]
+    Identity                  `noun`    {- EabodAlnAfiE -}     [ unwords [ "" {- "Abdel" -}, "" {- "Nafee" -} ] ] ]
 
  |> "`abdAlnUr" <| [
 
     -- ;; EabodAlnuwr_1
     -- EbdAlnwr        EabodAlnuwr     Nprop   Abdel Nour
 
-    Identity                  `noun`    {- EabodAlnuwr -}      [ unwords [ "Abdel", "Nour" ] ] ]
+    Identity                  `noun`    {- EabodAlnuwr -}      [ unwords [ "" {- "Abdel" -}, "" {- "Nour" -} ] ] ]
 
  |> "`abdAlna`Im" <| [
 
     -- ;; EabodAlnaEiym_1
     -- EbdAlnEym       EabodAlnaEiym   Nprop   Abdel Naeem
 
-    Identity                  `noun`    {- EabodAlnaEiym -}    [ unwords [ "Abdel", "Naeem" ] ] ]
+    Identity                  `noun`    {- EabodAlnaEiym -}    [ unwords [ "" {- "Abdel" -}, "" {- "Naeem" -} ] ] ]
 
  |> "`abdAlnab" <| [
 
     -- ;; EabodAlnabiy~_1
     -- EbdAlnby        EabodAlnabiy~   Nprop   Abdel Nabi
 
-    Identity |< Iy            `adj`     {- EabodAlnabiy~ -}    [ unwords [ "Abdel", "Nabi" ] ] ]
+    Identity |< Iy            `adj`     {- EabodAlnabiy~ -}    [ unwords [ "" {- "Abdel" -}, "" {- "Nabi" -} ] ] ]
 
  |> "`abdAlqAdir" <| [
 
     -- ;; EabodAlqAdir_1
     -- EbdAlqAdr       EabodAlqAdir    Nprop   Abdel Qadir
 
-    Identity                  `noun`    {- EabodAlqAdir -}     [ unwords [ "Abdel", "Qadir" ] ] ]
+    Identity                  `noun`    {- EabodAlqAdir -}     [ unwords [ "" {- "Abdel" -}, "" {- "Qadir" -} ] ] ]
 
  |> "`abdAlqAhir" <| [
 
     -- ;; EabodAlqAhir_1
     -- EbdAlqAhr       EabodAlqAhir    Nprop   Abdel Qahir
 
-    Identity                  `noun`    {- EabodAlqAhir -}     [ unwords [ "Abdel", "Qahir" ] ] ]
+    Identity                  `noun`    {- EabodAlqAhir -}     [ unwords [ "" {- "Abdel" -}, "" {- "Qahir" -} ] ] ]
 
  |> "`abdAlqAsim" <| [
 
     -- ;; EabodAlqAsim_1
     -- EbdAlqAsm       EabodAlqAsim    Nprop   Abdel Qasim
 
-    Identity                  `noun`    {- EabodAlqAsim -}     [ unwords [ "Abdel", "Qasim" ] ] ]
+    Identity                  `noun`    {- EabodAlqAsim -}     [ unwords [ "" {- "Abdel" -}, "" {- "Qasim" -} ] ] ]
 
  |> "`abdAlqY" <| [
 
     -- ;; EabodAlqawiy~_1
     -- EbdAlqwy        EabodAlqawiy~   Nprop   Abdel Qawi
 
-    Identity |< Iy            `adj`     {- EabodAlqawiy~ -}    [ unwords [ "Abdel", "Qawi" ] ] ]
+    Identity |< Iy            `adj`     {- EabodAlqawiy~ -}    [ unwords [ "" {- "Abdel" -}, "" {- "Qawi" -} ] ] ]
 
  |> "`abdAlqadIr" <| [
 
     -- ;; EabodAlqadiyr_1
     -- EbdAlqdyr       EabodAlqadiyr   Nprop   Abdel Qadeer
 
-    Identity                  `noun`    {- EabodAlqadiyr -}    [ unwords [ "Abdel", "Qadeer" ] ] ]
+    Identity                  `noun`    {- EabodAlqadiyr -}    [ unwords [ "" {- "Abdel" -}, "" {- "Qadeer" -} ] ] ]
 
  |> "`abdAlqays" <| [
 
     -- ;; EabodAlqayos_1
     -- EbdAlqys        EabodAlqayos    Nprop   Abdel Qays
 
-    Identity                  `noun`    {- EabodAlqayos -}     [ unwords [ "Abdel", "Qays" ] ] ]
+    Identity                  `noun`    {- EabodAlqayos -}     [ unwords [ "" {- "Abdel" -}, "" {- "Qays" -} ] ] ]
 
  |> "`abdAlqayyUm" <| [
 
     -- ;; EabodAlqay~uwm_1
     -- EbdAlqywm       EabodAlqay~uwm  Nprop   Abdel Qayyoum
 
-    Identity                  `noun`    {- EabodAlqay~uwm -}   [ unwords [ "Abdel", "Qayyoum" ] ] ]
+    Identity                  `noun`    {- EabodAlqay~uwm -}   [ unwords [ "" {- "Abdel" -}, "" {- "Qayyoum" -} ] ] ]
 
  |> "`abdAlquddUs" <| [
 
     -- ;; EabodAlqud~uws_1
     -- EbdAlqdws       EabodAlqud~uws  Nprop   Abdel Quddous
 
-    Identity                  `noun`    {- EabodAlqud~uws -}   [ unwords [ "Abdel", "Quddous" ] ] ]
+    Identity                  `noun`    {- EabodAlqud~uws -}   [ unwords [ "" {- "Abdel" -}, "" {- "Quddous" -} ] ] ]
 
  |> "`abdAlrA.dI" <| [
 
     -- ;; EabodAlrADiy_1
     -- EbdAlrADy       EabodAlrADiy    Nprop   Abdel Radi
 
-    Identity                  `noun`    {- EabodAlrADiy -}     [ unwords [ "Abdel", "Radi" ] ] ]
+    Identity                  `noun`    {- EabodAlrADiy -}     [ unwords [ "" {- "Abdel" -}, "" {- "Radi" -} ] ] ]
 
  |> "`abdAlrAfi`" <| [
 
     -- ;; EabodAlrAfiE_1
     -- EbdAlrAfE       EabodAlrAfiE    Nprop   Abdel Rafi
 
-    Identity                  `noun`    {- EabodAlrAfiE -}     [ unwords [ "Abdel", "Rafi" ] ] ]
+    Identity                  `noun`    {- EabodAlrAfiE -}     [ unwords [ "" {- "Abdel" -}, "" {- "Rafi" -} ] ] ]
 
  |> "`abdAlrAziq" <| [
 
     -- ;; EabodAlrAziq_1
     -- EbdAlrAzq       EabodAlrAziq    Nprop   Abdel Raziq
 
-    Identity                  `noun`    {- EabodAlrAziq -}     [ unwords [ "Abdel", "Raziq" ] ] ]
+    Identity                  `noun`    {- EabodAlrAziq -}     [ unwords [ "" {- "Abdel" -}, "" {- "Raziq" -} ] ] ]
 
  |> "`abdAlra'Uf" <| [
 
     -- ;; EabodAlra&uwf_1
     -- EbdAlr&wf       EabodAlra&uwf   Nprop   Abdel Raouf
 
-    Identity                  `noun`    {- EabodAlraWuwf -}    [ unwords [ "Abdel", "Raouf" ] ] ]
+    Identity                  `noun`    {- EabodAlraWuwf -}    [ unwords [ "" {- "Abdel" -}, "" {- "Raouf" -} ] ] ]
 
  |> "`abdAlra.hIm" <| [
 
     -- ;; EabodAlraHiym_1
     -- EbdAlrHym       EabodAlraHiym   Nprop   Abdel Raheem
 
-    Identity                  `noun`    {- EabodAlraHiym -}    [ unwords [ "Abdel", "Raheem" ] ] ]
+    Identity                  `noun`    {- EabodAlraHiym -}    [ unwords [ "" {- "Abdel" -}, "" {- "Raheem" -} ] ] ]
 
  |> "`abdAlra.hmAn" <| [
 
     -- ;; EabodAlraHomAn_1
     -- EbdAlrHmAn      EabodAlraHomAn  Nprop   Abdel Rahman
 
-    Identity                  `noun`    {- EabodAlraHomAn -}   [ unwords [ "Abdel", "Rahman" ] ] ]
+    Identity                  `noun`    {- EabodAlraHomAn -}   [ unwords [ "" {- "Abdel" -}, "" {- "Rahman" -} ] ] ]
 
  |> "`abdAlra.hmAnI" <| [
 
     -- ;; EabodAlraHomAniy_1
     -- EbdAlrHmAny     EabodAlraHomAniy        Nprop   Abdel Rahmani
 
-    Identity                  `noun`    {- EabodAlraHomAniy -} [ unwords [ "Abdel", "Rahmani" ] ] ]
+    Identity                  `noun`    {- EabodAlraHomAniy -} [ unwords [ "" {- "Abdel" -}, "" {- "Rahmani" -} ] ] ]
 
  |> "`abdAlra.hman" <| [
 
     -- ;; EabodAlraHoman_1
     -- EbdAlrHmn       EabodAlraHoman  Nprop   Abdel Rahman
 
-    Identity                  `noun`    {- EabodAlraHoman -}   [ unwords [ "Abdel", "Rahman" ] ] ]
+    Identity                  `noun`    {- EabodAlraHoman -}   [ unwords [ "" {- "Abdel" -}, "" {- "Rahman" -} ] ] ]
 
  |> "`abdAlra^sId" <| [
 
     -- ;; EabodAlra$iyd_1
     -- EbdAlr$yd       EabodAlra$iyd   Nprop   Abdel Rasheed
 
-    Identity                  `noun`    {- EabodAlra$iyd -}    [ unwords [ "Abdel", "Rasheed" ] ] ]
+    Identity                  `noun`    {- EabodAlra$iyd -}    [ unwords [ "" {- "Abdel" -}, "" {- "Rasheed" -} ] ] ]
 
  |> "`abdAlrabb" <| [
 
     -- ;; EabodAlrab~_1
     -- EbdAlrb EabodAlrab~     Nprop   Abdel Rabb
 
-    Identity                  `noun`    {- EabodAlrab~ -}      [ unwords [ "Abdel", "Rabb" ] ] ]
+    Identity                  `noun`    {- EabodAlrab~ -}      [ unwords [ "" {- "Abdel" -}, "" {- "Rabb" -} ] ] ]
 
  |> "`abdAlraqIb" <| [
 
     -- ;; EabodAlraqiyb_1
     -- EbdAlrqyb       EabodAlraqiyb   Nprop   Abdel Raqeeb
 
-    Identity                  `noun`    {- EabodAlraqiyb -}    [ unwords [ "Abdel", "Raqeeb" ] ] ]
+    Identity                  `noun`    {- EabodAlraqiyb -}    [ unwords [ "" {- "Abdel" -}, "" {- "Raqeeb" -} ] ] ]
 
  |> "`abdAlrasUl" <| [
 
     -- ;; EabodAlrasuwl_1
     -- EbdAlrswl       EabodAlrasuwl   Nprop   Abdel Rasoul
 
-    Identity                  `noun`    {- EabodAlrasuwl -}    [ unwords [ "Abdel", "Rasoul" ] ] ]
+    Identity                  `noun`    {- EabodAlrasuwl -}    [ unwords [ "" {- "Abdel" -}, "" {- "Rasoul" -} ] ] ]
 
  |> "`abdAlrazzAq" <| [
 
     -- ;; EabodAlraz~Aq_1
     -- EbdAlrzAq       EabodAlraz~Aq   Nprop   Abdel Razzaq
 
-    Identity                  `noun`    {- EabodAlraz~Aq -}    [ unwords [ "Abdel", "Razzaq" ] ] ]
+    Identity                  `noun`    {- EabodAlraz~Aq -}    [ unwords [ "" {- "Abdel" -}, "" {- "Razzaq" -} ] ] ]
 
  |> "`abdAlri.dA" <| [
 
     -- ;; EabodAlriDA_1
     -- EbdAlrDA        EabodAlriDA     Nprop   Abdel Rida
 
-    Identity                  `noun`    {- EabodAlriDA -}      [ unwords [ "Abdel", "Rida" ] ] ]
+    Identity                  `noun`    {- EabodAlriDA -}      [ unwords [ "" {- "Abdel" -}, "" {- "Rida" -} ] ] ]
 
  |> "`abdAlri.dY" <| [
 
     -- ;; EabodAlriDaY_1
     -- EbdAlrDY        EabodAlriDaY    Nprop   Abdel Rida
 
-    Identity                  `noun`    {- EabodAlriDaY -}     [ unwords [ "Abdel", "Rida" ] ] ]
+    Identity                  `noun`    {- EabodAlriDaY -}     [ unwords [ "" {- "Abdel" -}, "" {- "Rida" -} ] ] ]
 
  |> "`abdAlsAtir" <| [
 
     -- ;; EabodAlsAtir_1
     -- EbdAlsAtr       EabodAlsAtir    Nprop   Abdel Satir
 
-    Identity                  `noun`    {- EabodAlsAtir -}     [ unwords [ "Abdel", "Satir" ] ] ]
+    Identity                  `noun`    {- EabodAlsAtir -}     [ unwords [ "" {- "Abdel" -}, "" {- "Satir" -} ] ] ]
 
  |> "`abdAlsalAm" <| [
 
     -- ;; EabodAlsalAm_1
     -- EbdAlslAm       EabodAlsalAm    Nprop   Abdel Salam
 
-    Identity                  `noun`    {- EabodAlsalAm -}     [ unwords [ "Abdel", "Salam" ] ] ]
+    Identity                  `noun`    {- EabodAlsalAm -}     [ unwords [ "" {- "Abdel" -}, "" {- "Salam" -} ] ] ]
 
  |> "`abdAlsamI`" <| [
 
     -- ;; EabodAlsamiyE_1
     -- EbdAlsmyE       EabodAlsamiyE   Nprop   Abdel Samee
 
-    Identity                  `noun`    {- EabodAlsamiyE -}    [ unwords [ "Abdel", "Samee" ] ] ]
+    Identity                  `noun`    {- EabodAlsamiyE -}    [ unwords [ "" {- "Abdel" -}, "" {- "Samee" -} ] ] ]
 
  |> "`abdAlsattAr" <| [
 
     -- ;; EabodAlsat~Ar_1
     -- EbdAlstAr       EabodAlsat~Ar   Nprop   Abdel Sattar
 
-    Identity                  `noun`    {- EabodAlsat~Ar -}    [ unwords [ "Abdel", "Sattar" ] ] ]
+    Identity                  `noun`    {- EabodAlsat~Ar -}    [ unwords [ "" {- "Abdel" -}, "" {- "Sattar" -} ] ] ]
 
  |> "`abdAlsayyid" <| [
 
     -- ;; EabodAlsay~id_1
     -- EbdAlsyd        EabodAlsay~id   Nprop   Abdel Sayyid
 
-    Identity                  `noun`    {- EabodAlsay~id -}    [ unwords [ "Abdel", "Sayyid" ] ] ]
+    Identity                  `noun`    {- EabodAlsay~id -}    [ unwords [ "" {- "Abdel" -}, "" {- "Sayyid" -} ] ] ]
 
  |> "`abdAltawwAb" <| [
 
     -- ;; EabodAltaw~Ab_1
     -- EbdAltwAb       EabodAltaw~Ab   Nprop   Abdel Tawwab
 
-    Identity                  `noun`    {- EabodAltaw~Ab -}    [ unwords [ "Abdel", "Tawwab" ] ] ]
+    Identity                  `noun`    {- EabodAltaw~Ab -}    [ unwords [ "" {- "Abdel" -}, "" {- "Tawwab" -} ] ] ]
 
  |> "`abdAlwA.hid" <| [
 
     -- ;; EabodAlwAHid_1
     -- EbdAlwAHd       EabodAlwAHid    Nprop   Abdel Wahid
 
-    Identity                  `noun`    {- EabodAlwAHid -}     [ unwords [ "Abdel", "Wahid" ] ] ]
+    Identity                  `noun`    {- EabodAlwAHid -}     [ unwords [ "" {- "Abdel" -}, "" {- "Wahid" -} ] ] ]
 
  |> "`abdAlwAlI" <| [
 
     -- ;; EabodAlwAliy_1
     -- EbdAlwAly       EabodAlwAliy    Nprop   Abdel Wali
 
-    Identity                  `noun`    {- EabodAlwAliy -}     [ unwords [ "Abdel", "Wali" ] ] ]
+    Identity                  `noun`    {- EabodAlwAliy -}     [ unwords [ "" {- "Abdel" -}, "" {- "Wali" -} ] ] ]
 
  |> "`abdAlwAri_t" <| [
 
     -- ;; EabodAlwAriv_1
     -- EbdAlwArv       EabodAlwAriv    Nprop   Abdel Warith
 
-    Identity                  `noun`    {- EabodAlwAriv -}     [ unwords [ "Abdel", "Warith" ] ] ]
+    Identity                  `noun`    {- EabodAlwAriv -}     [ unwords [ "" {- "Abdel" -}, "" {- "Warith" -} ] ] ]
 
  |> "`abdAlwAsi`" <| [
 
     -- ;; EabodAlwAsiE_1
     -- EbdAlwAsE       EabodAlwAsiE    Nprop   Abdel Wasee
 
-    Identity                  `noun`    {- EabodAlwAsiE -}     [ unwords [ "Abdel", "Wasee" ] ] ]
+    Identity                  `noun`    {- EabodAlwAsiE -}     [ unwords [ "" {- "Abdel" -}, "" {- "Wasee" -} ] ] ]
 
  |> "`abdAlwa.hId" <| [
 
     -- ;; EabodAlwaHiyd_1
     -- EbdAlwHyd       EabodAlwaHiyd   Nprop   Abdel Waheed
 
-    Identity                  `noun`    {- EabodAlwaHiyd -}    [ unwords [ "Abdel", "Waheed" ] ] ]
+    Identity                  `noun`    {- EabodAlwaHiyd -}    [ unwords [ "" {- "Abdel" -}, "" {- "Waheed" -} ] ] ]
 
  |> "`abdAlwadUd" <| [
 
     -- ;; EabodAlwaduwd_1
     -- EbdAlwdwd       EabodAlwaduwd   Nprop   Abdel Wadoud
 
-    Identity                  `noun`    {- EabodAlwaduwd -}    [ unwords [ "Abdel", "Wadoud" ] ] ]
+    Identity                  `noun`    {- EabodAlwaduwd -}    [ unwords [ "" {- "Abdel" -}, "" {- "Wadoud" -} ] ] ]
 
  |> "`abdAlwahhAb" <| [
 
     -- ;; EabodAlwah~Ab_1
     -- EbdAlwhAb       EabodAlwah~Ab   Nprop   Abdel Wahhab
 
-    Identity                  `noun`    {- EabodAlwah~Ab -}    [ unwords [ "Abdel", "Wahhab" ] ] ]
+    Identity                  `noun`    {- EabodAlwah~Ab -}    [ unwords [ "" {- "Abdel" -}, "" {- "Wahhab" -} ] ] ]
 
  |> "`abdAlwakIl" <| [
 
     -- ;; EabodAlwakiyl_1
     -- EbdAlwkyl       EabodAlwakiyl   Nprop   Abdel Wakeel
 
-    Identity                  `noun`    {- EabodAlwakiyl -}    [ unwords [ "Abdel", "Wakeel" ] ] ]
+    Identity                  `noun`    {- EabodAlwakiyl -}    [ unwords [ "" {- "Abdel" -}, "" {- "Wakeel" -} ] ] ]
 
  |> "`abdAlwal" <| [
 
     -- ;; EabodAlwaliy~_1
     -- EbdAlwly        EabodAlwaliy~   Nprop   Abdel Wali
 
-    Identity |< Iy            `adj`     {- EabodAlwaliy~ -}    [ unwords [ "Abdel", "Wali" ] ] ]
+    Identity |< Iy            `adj`     {- EabodAlwaliy~ -}    [ unwords [ "" {- "Abdel" -}, "" {- "Wali" -} ] ] ]
 
  |> "`abdAlwalId" <| [
 
     -- ;; EabodAlwaliyd_1
     -- EbdAlwlyd       EabodAlwaliyd   Nprop   Abdel Waleed
 
-    Identity                  `noun`    {- EabodAlwaliyd -}    [ unwords [ "Abdel", "Waleed" ] ] ]
+    Identity                  `noun`    {- EabodAlwaliyd -}    [ unwords [ "" {- "Abdel" -}, "" {- "Waleed" -} ] ] ]
 
  |> "`abdAlzahr" <| [
 
     -- ;; EabodAlzahorap_1
     -- EbdAlzhrp       EabodAlzahorap  Nprop   Abdel Zahra
 
-    Identity |< aT            `noun`    {- EabodAlzahorap -}   [ unwords [ "Abdel", "Zahra" ] ] ]
+    Identity |< aT            `noun`    {- EabodAlzahorap -}   [ unwords [ "" {- "Abdel" -}, "" {- "Zahra" -} ] ] ]
 
  |> "`abdalAwI" <| [
 
     -- ;; EabodalAwiy_1
     -- EbdlAwy EabodalAwiy     N0      Abdallawi
 
-    Identity                  `noun`    {- EabodalAwiy -}      [ "Abdallawi" ] ]
+    Identity                  `noun`    {- EabodalAwiy -}      [ "" {- "Abdallawi" -} ] ]
 
  |> "`abdalI" <| [
 
     -- ;; Eabodaliy_1
     -- Ebdly   Eabodaliy       N0      Abdali
 
-    Identity                  `noun`    {- Eabodaliy -}        [ "Abdali" ] ]
+    Identity                  `noun`    {- Eabodaliy -}        [ "" {- "Abdali" -} ] ]
 
  |> "`abduh" <| [
 
     -- ;; Eaboduh_1
     -- Ebdh    Eaboduh N0      Abdo;Abduh
 
-    Identity                  `noun`    {- Eaboduh -}          [ "Abdo", "Abduh" ] ]
+    Identity                  `noun`    {- Eaboduh -}          [ "" {- "Abdo" -}, "" {- "Abduh" -} ] ]
 
  |> "`abidrabbuh" <| [
 
     -- ;; Eabidorab~uh_1
     -- Ebdrbh  Eabidorab~uh    N0      Abedrabboh;Abidrabbuh
 
-    Identity                  `noun`    {- Eabidorab~uh -}     [ "Abedrabboh", "Abidrabbuh" ] ]
+    Identity                  `noun`    {- Eabidorab~uh -}     [ "" {- "Abedrabboh" -}, "" {- "Abidrabbuh" -} ] ]
 
  |> "`alA'AlddIn" <| [
 
     -- ;; EalA'Ald~iyn_1
     -- ElA'Aldyn       EalA'Ald~iyn    Nprop   Alaa Eddin;Alaa Al-Din;Aladdin
 
-    Identity                  `noun`    {- EalA'Ald~iyn -}     [ unwords [ "Alaa", "Eddin" ], unwords [ "Alaa", "Al", "-", "Din" ], "Aladdin" ] ]
+    Identity                  `noun`    {- EalA'Ald~iyn -}     [ unwords [ "" {- "Alaa" -}, "" {- "Eddin" -} ], unwords [ "" {- "Alaa" -}, "" {- "Al" -}, "-", "" {- "Din" -} ], "" {- "Aladdin" -} ] ]
 
  |> "`amIrAm" <| [
 
     -- ;; EamiyrAm_1
     -- EmyrAm  EamiyrAm        N0      Amiram
 
-    Identity                  `noun`    {- EamiyrAm -}         [ "Amiram" ] ]
+    Identity                  `noun`    {- EamiyrAm -}         [ "" {- "Amiram" -} ] ]
 
  |> "`ammA" <| [
 
@@ -18130,7 +18141,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Eamorw_1
     -- Emrw    Eamorw  Nprop   Amr
 
-    Identity                  `noun`    {- Eamorw -}           [ "Amr" ] ]
+    Identity                  `noun`    {- Eamorw -}           [ "" {- "Amr" -} ] ]
 
  |> "`andalIb" <| [
 
@@ -18143,7 +18154,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Eanodaliyb_2
     -- Endlyb  Eanodaliyb      N0      Andalib
 
-    Identity                  `noun`    {- Eanodaliyb -}       [ "Andalib" ] ]
+    Identity                  `noun`    {- Eanodaliyb -}       [ "" {- "Andalib" -} ] ]
 
  |> "`ankabUt" <| [
 
@@ -18168,14 +18179,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; EarabosAt_1
     -- ErbsAt  EarabosAt       N0      Arabsat
 
-    Identity |< At            `noun`    {- EarabosAt -}        [ "Arabsat" ] ]
+    Identity |< At            `noun`    {- EarabosAt -}        [ "" {- "Arabsat" -} ] ]
 
  |> "`arafA'" <| [
 
     -- ;; EarafAwiy~_1
     -- ErfAwy  EarafAwiy~      N0      Arfaoui;Arafawi
 
-    Identity |< Iy            `adj`     {- EarafAwiy~ -}       [ "Arfaoui", "Arafawi" ] ]
+    Identity |< Iy            `adj`     {- EarafAwiy~ -}       [ "" {- "Arfaoui" -}, "" {- "Arafawi" -} ] ]
 
  |> "`arba_hAn" <| [
 
@@ -18189,14 +18200,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; EarotA_1
     -- ErtA    EarotA  Nprop   Arta
 
-    Identity                  `noun`    {- EarotA -}           [ "Arta" ] ]
+    Identity                  `noun`    {- EarotA -}           [ "" {- "Arta" -} ] ]
 
  |> "`asqalAn" <| [
 
     -- ;; EasoqalAn_1
     -- EsqlAn  EasoqalAn       Ndip    Ashkelon
 
-    Identity                  `noun`    {- EasoqalAn -}        [ "Ashkelon" ] ]
+    Identity                  `noun`    {- EasoqalAn -}        [ "" {- "Ashkelon" -} ] ]
 
  |> "`aysalAn" <| [
 
@@ -18224,7 +18235,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Eim~Anuw}iyl_1
     -- EmAnw}yl        Eim~Anuw}iyl    Ndip    Emmanuel
 
-    Identity                  `noun`    {- Eim~Anuw}iyl -}     [ "Emmanuel" ] ]
+    Identity                  `noun`    {- Eim~Anuw}iyl -}     [ "" {- "Emmanuel" -} ] ]
 
  |> "`inda'i_diN" <| [
 
@@ -18259,21 +18270,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; EizorA}iyl_1
     -- EzrA}yl EizorA}iyl      Ndip    Azrael
 
-    Identity                  `noun`    {- EizorA}iyl -}       [ "Azrael" ] ]
+    Identity                  `noun`    {- EizorA}iyl -}       [ "" {- "Azrael" -} ] ]
 
  |> "`izzAlddIn" <| [
 
     -- ;; Eiz~Ald~iyn_1
     -- EzAldyn Eiz~Ald~iyn     N0      Ezzedin;Izz Al-Din
 
-    Identity                  `noun`    {- Eiz~Ald~iyn -}      [ "Ezzedin", unwords [ "Izz", "Al", "-", "Din" ] ] ]
+    Identity                  `noun`    {- Eiz~Ald~iyn -}      [ "" {- "Ezzedin" -}, unwords [ "" {- "Izz" -}, "" {- "Al" -}, "-", "" {- "Din" -} ] ] ]
 
  |> "`izzat" <| [
 
     -- ;; Eiz~at_1
     -- Ezt     Eiz~at  Nprop   Izzat;Ezzat
 
-    Identity                  `noun`    {- Eiz~at -}           [ "Izzat", "Ezzat" ] ]
+    Identity                  `noun`    {- Eiz~at -}           [ "" {- "Izzat" -}, "" {- "Ezzat" -} ] ]
 
  |> "`u.smAnl" <| [
 
@@ -18281,41 +18292,41 @@ lexicon = listing "Lexicon's properties"
     -- ESmAnly EuSomAnoliy~    Nall    Ottoman;old-fashioned     [[EuSomAnoliy~/NOUN]]
     -- ESmAnly EuSomAnoliy~    Nall    Ottoman;old-fashioned     [[EuSomAnoliy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- EuSomAnoliy~ -}     [ "Ottoman", unwords [ "old", "-", "fashioned" ] ] ]
+    Identity |< Iy            `adj`     {- EuSomAnoliy~ -}     [ "" {- "Ottoman" -}, unwords [ "old", "-", "fashioned" ] ] ]
 
  |> "`u.tArid" <| [
 
     -- ;; EuTArid_1
     -- ETArd   EuTArid Ndip    Mercury
 
-    Identity                  `noun`    {- EuTArid -}          [ "Mercury" ],
+    Identity                  `noun`    {- EuTArid -}          [ "" {- "Mercury" -} ],
 
     -- ;; EuTAridiy~_1
     -- ETArdy  EuTAridiy~      Ndip    Mercury
     -- ETArdy  EuTAridiy~      Ndip    Mercurial     [[EuTAridiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- EuTAridiy~ -}       [ "Mercury", "Mercurial" ] ]
+    Identity |< Iy            `adj`     {- EuTAridiy~ -}       [ "" {- "Mercury" -}, "" {- "Mercurial" -} ] ]
 
  |> "`u_taymIn" <| [
 
     -- ;; Euvayomiyn_1
     -- Evymyn  Euvayomiyn      N0      Uthaimeen
 
-    Identity                  `noun`    {- Euvayomiyn -}       [ "Uthaimeen" ] ]
+    Identity                  `noun`    {- Euvayomiyn -}       [ "" {- "Uthaimeen" -} ] ]
 
  |> "`ubaydAllh" <| [
 
     -- ;; EubayodAllh_1
     -- EbydAllh        EubayodAllh     Nprop   Obeidullah;Obaidullah;Ubeidullah;Ubaidullah
 
-    Identity                  `noun`    {- EubayodAllh -}      [ "Obeidullah", "Obaidullah", "Ubeidullah", "Ubaidullah" ] ]
+    Identity                  `noun`    {- EubayodAllh -}      [ "" {- "Obeidullah" -}, "" {- "Obaidullah" -}, "" {- "Ubeidullah" -}, "" {- "Ubaidullah" -} ] ]
 
  |> "`ubaydl" <| [
 
     -- ;; Eubayodoliy~_1
     -- Ebydly  Eubayodoliy~    N       Ubaidli
 
-    Identity |< Iy            `adj`     {- Eubayodoliy~ -}     [ "Ubaidli" ] ]
+    Identity |< Iy            `adj`     {- Eubayodoliy~ -}     [ "" {- "Ubaidli" -} ] ]
 
  |> "`ullayq" <| [
 
@@ -18361,7 +18372,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; EuwayorAn_1
     -- EwyrAn  EuwayorAn       N0      Oweiran
 
-    Identity                  `noun`    {- EuwayorAn -}        [ "Oweiran" ] ]
+    Identity                  `noun`    {- EuwayorAn -}        [ "" {- "Oweiran" -} ] ]
 
  |> "la`all" <| [
 
@@ -18376,27 +18387,27 @@ lexicon = listing "Lexicon's properties"
     -- ;; maEomadAn_1
     -- mEmdAn  maEomadAn       N       Baptist
 
-    Identity                  `noun`    {- maEomadAn -}        [ "Baptist" ],
+    Identity                  `noun`    {- maEomadAn -}        [ "" {- "Baptist" -} ],
 
     -- ;; maEomadAniy~_1
     -- mEmdAny maEomadAniy~    Nall    Baptist     [[maEomadAniy~/NOUN]]
     -- mEmdAny maEomadAniy~    Nall    Baptist     [[maEomadAniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- maEomadAniy~ -}     [ "Baptist" ] ]
+    Identity |< Iy            `adj`     {- maEomadAniy~ -}     [ "" {- "Baptist" -} ] ]
 
  |> "mawA`izIz" <| [
 
     -- ;; mawAEiziyz_1
     -- mwAEzyz mawAEiziyz      N0      Moaziz
 
-    Identity                  `noun`    {- mawAEiziyz -}       [ "Moaziz" ] ]
+    Identity                  `noun`    {- mawAEiziyz -}       [ "" {- "Moaziz" -} ] ]
 
  |> "mu`allA" <| [
 
     -- ;; muEal~A_1
     -- mElA    muEal~A N0      Mualla
 
-    Identity                  `noun`    {- muEal~A -}          [ "Mualla" ] ]
+    Identity                  `noun`    {- muEal~A -}          [ "" {- "Mualla" -} ] ]
 
  |> "ta`bA'" <| [
 
@@ -18425,7 +18436,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taEiz~_1
     -- tEz     taEiz~  N0      Taizz
 
-    Identity                  `noun`    {- taEiz~ -}           [ "Taizz" ] ]
+    Identity                  `noun`    {- taEiz~ -}           [ "" {- "Taizz" -} ] ]
 
  |> "ya`bUb" <| [
 
@@ -18440,7 +18451,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yaEobud_1
     -- yEbd    yaEobud Nprop   Yabud
 
-    Identity                  `noun`    {- yaEobud -}          [ "Yabud" ] ]
+    Identity                  `noun`    {- yaEobud -}          [ "" {- "Yabud" -} ] ]
 
  |> "ya`fUr" <| [
 
@@ -18455,5 +18466,5 @@ lexicon = listing "Lexicon's properties"
     -- ;; yaEoquwb_1
     -- yEqwb   yaEoquwb        Nprop   Yaqoub;Jacob
 
-    Identity                  `noun`    {- yaEoquwb -}         [ "Yaqoub", "Jacob" ] ]
+    Identity                  `noun`    {- yaEoquwb -}         [ "" {- "Yaqoub" -}, "" {- "Jacob" -} ] ]
 

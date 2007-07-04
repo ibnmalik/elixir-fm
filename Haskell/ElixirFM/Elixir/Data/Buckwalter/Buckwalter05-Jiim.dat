@@ -1375,7 +1375,7 @@ jrA$    jar~A$  NapAt   crusher;grinder
 jArw$   jAruw$  Napdu   quern;hand mill
 jwAry$  jawAriy$        Ndip    querns;hand mills
 ;; jara$_1
-jr$     jara$   Ndip    Jerash;Jarash (Jor.)
+jr$     jara$   Ndip    Jerash;Jarash
 ;
 ;; jariD-a_1
 jrD     jariD   PV      choke;be upset;be moved
@@ -4877,8 +4877,10 @@ jyAr    jay~Ar  N/ap    unslaked lime
 jyAr    jay~Ar  NapAt   lime kiln
 ;
 ;; jiyrojA_1
-jyrjA   jiyrojA N0      Jirga (in "Loya Jirga")
-jyrgA   jiyrogA N0      Jirga (in "Loya Jirga")
+jyrjA   jiyrojA N0      Jirga
+; (in "Loya Jirga")
+jyrgA   jiyrogA N0      Jirga
+; (in "Loya Jirga")
 ;
 ;; jiyruw_1
 jyrw    jiyruw  N0      endorsement (cheque)

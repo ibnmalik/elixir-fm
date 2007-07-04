@@ -735,7 +735,11 @@ $Lexicon = {
         '>*m     >a*im~  Nap     claims;custody;protection',
         'A*m     >a*im~  Nap     claims;custody;protection'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a_dimm' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -1400,6 +1404,9 @@ $Lexicon = {
         '*bAn    *ib~An  N       flies'
       ],
       'patterns' => {
+        '\'a_dibb' => [
+          'HaFiCL'
+        ],
         '_dibbAn' => [
           'FiCLAn'
         ]
@@ -5508,6 +5515,9 @@ $Lexicon = {
         '*rEAn   *uroEAn N       arms'
       ],
       'patterns' => {
+        '\'a_dru`' => [
+          'HaFCuL'
+        ],
         '_dur`An' => [
           'FuCLAn'
         ]
@@ -5542,6 +5552,9 @@ $Lexicon = {
         '*rEAn   *uroEAn N       levers;cranks'
       ],
       'patterns' => {
+        '\'a_dru`' => [
+          'HaFCuL'
+        ],
         '_dur`An' => [
           'FuCLAn'
         ]
@@ -6552,7 +6565,11 @@ $Lexicon = {
         '>*l     >a*il~  Nap     despised;submissive',
         'A*l     >a*il~  Nap     despised;submissive'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a_dill' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',

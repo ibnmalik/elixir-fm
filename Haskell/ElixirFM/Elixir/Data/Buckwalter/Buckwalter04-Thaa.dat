@@ -776,8 +776,10 @@ vmn     vumon   Ndu     eighth
 >vmAn   >avomAn N       eighths
 AvmAn   >avomAn N       eighths
 ;; vumonap_1
-vmn     vumon   Napdu   thumna (Egy. = 0.285 l.; Pal. = 2.25 l.)
-vmn     vuman   NAt     thumnas (Egy. = 0.285 l.; Pal. = 2.25 l.)
+vmn     vumon   Napdu   thumna
+; (Egy. = 0.285 l.; Pal. = 2.25 l.)
+vmn     vuman   NAt     thumnas
+; (Egy. = 0.285 l.; Pal. = 2.25 l.)
 ;; vAmin_1
 vAmn    vAmin   Nall    eighth     <pos>vAmin/ADJ</pos>
 ;; vamAniyn_1

@@ -927,9 +927,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL |< Iy               `adj`     {- OamAmiy~ -}         [ "front", "forward" ],
 
-    FiCAL                     `noun`    {- IimAm -}            [ "Imam" ],
+    FiCAL                     `noun`    {- IimAm -}            [ "Imam" ]
+                              `plural`     HaFiCL |< aT,
 
-    FiCAL                     `noun`    {- IimAm -}            [ "leader", "imam" ],
+    FiCAL                     `noun`    {- IimAm -}            [ "leader", "imam" ]
+                              `plural`     HaFiCL |< aT,
 
     FuCL |< aT                `noun`    {- Oum~ap -}           [ "nation", "people" ]
                               `plural`     FuCaL
@@ -1236,9 +1238,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "' n t" <| [
 
-    FaCL |<< "a"              `pron`    {- Oanota -}           [ unwords [ "you", "[masc.sg.]" ] ],
+    FaCL |<< "a"              `pron`    {- Oanota -}           [ "you" ],
 
-    FaCL |<< "i"              `pron`    {- Oanoti -}           [ unwords [ "you", "[fem.sg.]" ] ] ]
+    FaCL |<< "i"              `pron`    {- Oanoti -}           [ "you" ] ]
 
  |> "' n w" <| [
 
@@ -1863,7 +1865,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aN                `part`    {- Oay~AF -}           [ "whatever", "whichever" ],
 
-    FaCL                      `part`    {- Oay~ -}             [ "which", unwords [ "which", "one", "of", "the", "two" ], unwords [ "which", "one", "of", "them", "[masc.pl.]" ], unwords [ "which", "one", "of", "them" ], unwords [ "which", "one", "of", "them", "[fem.pl.]" ], unwords [ "which", "one", "of", "you", "two" ], unwords [ "which", "one", "of", "you", "[masc.pl.]" ], unwords [ "which", "one", "of", "you", "[fem.pl.]" ], unwords [ "which", "one", "of", "us" ], unwords [ "which", "one", "of", "you", "two", "[fem.du.]" ] ],
+    FaCL                      `part`    {- Oay~ -}             [ "which", unwords [ "which", "one", "of", "the", "two" ], unwords [ "which", "one", "of", "them" ], unwords [ "which", "one", "of", "you", "two" ], unwords [ "which", "one", "of", "you" ], unwords [ "which", "one", "of", "us" ] ],
 
     FAL |< aT                 `noun`    {- \|yap -}            [ unwords [ "Quranic", "verse" ], "miracle", "sign", "wonder" ] ]
 
@@ -2413,7 +2415,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "'antum" <| [
 
-    Identity                  `pron`    {- Oanotum -}          [ unwords [ "you", "[masc.pl.]" ] ] ]
+    Identity                  `pron`    {- Oanotum -}          [ "you" ] ]
 
  |> "'ar.durUm" <| [
 
@@ -2543,7 +2545,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "'ayyuhA" <| [
 
-    Identity                  `part`    {- Oay~uhA -}          [ unwords [ "O", "!", "[voc.masc.]" ], unwords [ "O", "!", "[voc.fem.]" ] ] ]
+    Identity                  `part`    {- Oay~uhA -}          [ unwords [ "O", "!" ] ] ]
 
  |> "'i.sfahAn" <| [
 
@@ -2865,7 +2867,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "la_dI" <| [
 
-    al >| Identity            `prep`    {- Al~a*iy -}          [ "which", "who", "whom", unwords [ "which", "/", "who", "/", "whom", "[fem.sg.]" ], unwords [ "which", "/", "who", "/", "whom", "[du.]" ], unwords [ "which", "/", "who", "/", "whom", "[fem.du.]" ], unwords [ "who", "/", "whom", "[pl.]" ], unwords [ "with", "/", "by", "+", "those", "(", "people", ")", "who", "/", "whom", "[pl.]" ], unwords [ "to", "/", "for", "+", "those", "(", "people", ")", "who", "/", "whom", "[pl.]" ], unwords [ "who", "/", "whom", "[fem.pl.]" ], unwords [ "who's", "and", "whom's" ] ] ]
+    al >| Identity            `prep`    {- Al~a*iy -}          [ "which", "who", "whom", unwords [ "which", "/", "who", "/", "whom" ], unwords [ "who", "/", "whom" ], unwords [ "with", "/", "by", "+", "those", "(", "people", ")", "who", "/", "whom" ], unwords [ "to", "/", "for", "+", "those", "(", "people", ")", "who", "/", "whom" ], unwords [ "who's", "and", "whom's" ] ] ]
 
  |> "li'allA" <| [
 

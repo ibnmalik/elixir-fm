@@ -5760,7 +5760,7 @@ $Lexicon = {
       'form' => 'lA_diqiyyaT',
       'lines' => [
         ';; lA*iqiy~ap_1',
-        'lA*qy   lA*iqiy~        Nap_L   Latakia (Syr.)     [[lA*iqiy~/NOUN]]'
+        'lA*qy   lA*iqiy~        Nap_L   Latakia      [[lA*iqiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5768,7 +5768,7 @@ $Lexicon = {
       'morphs' => 'FACiL |< Iy |< aT',
       'suffix' => ' |< Iy |< aT',
       'glosses' => [
-        'Latakia (Syr.)'
+        'Latakia'
       ],
       'orig' => 'lA*iqiy~ap',
       'prefix' => ''
@@ -14592,7 +14592,7 @@ $Lexicon = {
       'form' => 'la.hm',
       'lines' => [
         ';; laHom_1',
-        'lHm     laHom   FW      Lahm (2nd word in Beit Lahm = "Bethlehem")     [[laHom/NOUN_PROP]]'
+        'lHm     laHom   FW      Lahm      [[laHom/NOUN_PROP]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14600,7 +14600,7 @@ $Lexicon = {
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
-        'Lahm (2nd word in Beit Lahm = "Bethlehem")'
+        'Lahm'
       ],
       'orig' => 'laHom',
       'prefix' => ''
@@ -15876,7 +15876,7 @@ $Lexicon = {
       'form' => 'lu.hayyaT',
       'lines' => [
         ';; luHay~ap_1',
-        'lHy     luHay~  Nap_L   Luhaiya (Yem.)'
+        'lHy     luHay~  Nap_L   Luhaiya'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15884,7 +15884,7 @@ $Lexicon = {
       'morphs' => 'FuCayL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'Luhaiya (Yem.)'
+        'Luhaiya'
       ],
       'orig' => 'luHay~ap',
       'prefix' => ''
@@ -17899,7 +17899,7 @@ $Lexicon = {
       'form' => 'luwyA',
       'lines' => [
         ';; luwyA_1',
-        'lwyA    luwyA   N0_L    Loya (in "Loya Jirga")'
+        'lwyA    luwyA   N0_L    Loya'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17907,7 +17907,7 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Loya (in "Loya Jirga")'
+        'Loya'
       ],
       'orig' => 'luwyA',
       'prefix' => ''
@@ -23513,7 +23513,7 @@ $Lexicon = {
       'form' => 'lidd',
       'lines' => [
         ';; lid~_1',
-        'ld      lid~    N_L     Lydda (Isr.)'
+        'ld      lid~    N_L     Lydda'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23521,7 +23521,7 @@ $Lexicon = {
       'morphs' => 'FiCL',
       'suffix' => '',
       'glosses' => [
-        'Lydda (Isr.)'
+        'Lydda'
       ],
       'orig' => 'lid~',
       'prefix' => ''
@@ -32394,6 +32394,9 @@ $Lexicon = {
         'Alsn    >alosun N       tongues'
       ],
       'patterns' => {
+        '\'alsun' => [
+          'HaFCuL'
+        ],
         '\'alsin' => [
           'HaFCiL'
         ]
@@ -32429,6 +32432,9 @@ $Lexicon = {
         'Alsn    >alosun N       languages'
       ],
       'patterns' => {
+        '\'alsun' => [
+          'HaFCuL'
+        ],
         '\'alsin' => [
           'HaFCiL'
         ]
@@ -32561,7 +32567,7 @@ $Lexicon = {
       'form' => 'la.ha^g',
       'lines' => [
         ';; laHaj_1',
-        'lHj     laHaj   N0_L    Lahej;Lahij (Yemeni Sultanate, abolished in Aug. 1967)'
+        'lHj     laHaj   N0_L    Lahej;Lahij'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32570,7 +32576,7 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [
         'Lahej',
-        'Lahij (Yemeni Sultanate, abolished in Aug. 1967)'
+        'Lahij'
       ],
       'orig' => 'laHaj',
       'prefix' => ''

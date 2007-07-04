@@ -770,7 +770,8 @@ lexicon = listing "Lexicon's properties"
     FaCCaL                    `verb`    {- Sam~am -}           [ unwords [ "be", "determined" ], unwords [ "be", "persistent" ] ],
 
     FiCAL                     `noun`    {- SimAm -}            [ "plug", "valve", "stopper" ]
-                              `plural`     FiCAL |< At,
+                              `plural`     FiCAL |< At
+                              `plural`     HaFiCL |< aT,
 
     FaCIL                     `noun`    {- Samiym -}           [ "depth", "innermost" ],
 
@@ -883,7 +884,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Saqor -}            [ "falcon", "hawk" ]
                               `plural`     FuCUL
-                           {- `others`  [ ".suquwr N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ ".suquwr N", "'a.squr N" ] -},
 
     FaCL |< Iy                `adj`     {- Saqoriy~ -}         [ unwords [ "falcon", "-", "like" ], unwords [ "hawk", "-", "like" ] ] ]
 
@@ -1258,7 +1260,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".saydA" <| [
 
-    Identity                  `noun`    {- SayodA -}           [ unwords [ "Sidon", "(", "Leb.", ")" ] ] ]
+    Identity                  `noun`    {- SayodA -}           [ "Sidon" ] ]
 
  |> ".siqill" <| [
 

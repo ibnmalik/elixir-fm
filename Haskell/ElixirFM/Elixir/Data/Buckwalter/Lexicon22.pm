@@ -4661,6 +4661,9 @@ $Lexicon = {
       'patterns' => {
         '\'akAri`' => [
           'HaFACiL'
+        ],
+        '\'akru`' => [
+          'HaFCuL'
         ]
       },
       'index' => '1',
@@ -20166,7 +20169,11 @@ $Lexicon = {
         '>km}    >akomu} Nhy     truffles;mushrooms',
         'Akm}    >akomu} Nhy     truffles;mushrooms'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'akmu\'' => [
+          'HaFCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL',
@@ -30208,6 +30215,9 @@ $Lexicon = {
         'Akn     >akin~  Nap     shelters;refuge'
       ],
       'patterns' => {
+        '\'akinn' => [
+          'HaFiCL'
+        ],
         '\'aknAn' => [
           'HaFCAL'
         ]
@@ -30288,7 +30298,7 @@ $Lexicon = {
       'form' => 'kinAnaT',
       'lines' => [
         ';; kinAnap_1',
-        'knAn    kinAn   Nap     Kinana (Egypt)'
+        'knAn    kinAn   Nap     Kinana'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30296,7 +30306,7 @@ $Lexicon = {
       'morphs' => 'FiCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'Kinana (Egypt)'
+        'Kinana'
       ],
       'orig' => 'kinAnap',
       'prefix' => ''
@@ -30307,7 +30317,7 @@ $Lexicon = {
       'form' => 'kAnuwn',
       'lines' => [
         ';; kAnuwn_1',
-        'kAnwn   kAnuwn  N0      Kanun (part of month names Dec. and Jan.)'
+        'kAnwn   kAnuwn  N0      Kanun'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30315,7 +30325,7 @@ $Lexicon = {
       'morphs' => 'FACUL',
       'suffix' => '',
       'glosses' => [
-        'Kanun (part of month names Dec. and Jan.)'
+        'Kanun'
       ],
       'orig' => 'kAnuwn',
       'prefix' => ''
@@ -32474,6 +32484,9 @@ $Lexicon = {
         'Akf     >akuf~  N       palms of the hands'
       ],
       'patterns' => {
+        '\'akuff' => [
+          'HaFuCL'
+        ],
         'kufuwf' => [
           'FuCUL'
         ]
@@ -32551,6 +32564,9 @@ $Lexicon = {
         'Akf     >akuf~  N       balance scales'
       ],
       'patterns' => {
+        '\'akuff' => [
+          'HaFuCL'
+        ],
         'kufuwf' => [
           'FuCUL'
         ]
@@ -38758,7 +38774,7 @@ $Lexicon = {
       'form' => 'kuwfaT',
       'lines' => [
         ';; kuwfap_1',
-        'kwf     kuwf    Nap     Kufa;Koufa (Iraq)'
+        'kwf     kuwf    Nap     Kufa;Koufa'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38767,7 +38783,7 @@ $Lexicon = {
       'suffix' => ' |< aT',
       'glosses' => [
         'Kufa',
-        'Koufa (Iraq)'
+        'Koufa'
       ],
       'orig' => 'kuwfap',
       'prefix' => ''
@@ -38778,7 +38794,7 @@ $Lexicon = {
       'form' => 'kuwfiyy',
       'lines' => [
         ';; kuwfiy~_1',
-        'kwfy    kuwfiy~ Nall    of/from Kufa (Iraq);Kufic     [[kuwfiy~/ADJ]]'
+        'kwfy    kuwfiy~ Nall    of/from Kufa;Kufic     [[kuwfiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38786,7 +38802,7 @@ $Lexicon = {
       'morphs' => 'FUL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'of/from Kufa (Iraq)',
+        'of/from Kufa',
         'Kufic'
       ],
       'orig' => 'kuwfiy~',
@@ -41024,6 +41040,9 @@ $Lexicon = {
       'patterns' => {
         '\'akwAr' => [
           'HaFCAL'
+        ],
+        '\'akwur' => [
+          'HaFCuL'
         ]
       },
       'index' => '1',

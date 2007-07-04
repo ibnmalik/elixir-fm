@@ -342,6 +342,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- hilAl -}            [ "crescent", unwords [ "new", "moon" ] ]
                               `plural`     HaFACIL
+                              `plural`     HaFiCL |< aT
                            {- `others`  [ "'ahAliyl Ndip" ] -},
 
     FiCAL                     `noun`    {- hilAl -}            [ "Crescent" ],
@@ -405,7 +406,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "h m m" <| [
 
-    FuL                       `pron`    {- hum -}              [ unwords [ "they", "[masc.pl]" ] ],
+    FuL                       `pron`    {- hum -}              [ "they" ],
 
     FaCL                      `verb`    {- ham~-u -}           [ unwords [ "be", "ready" ], "intend" ]
                               `imperf`     FuCL
@@ -452,7 +453,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "h m y" <| [
 
-    FuC                       `pron`    {- hum -}              [ unwords [ "they", "[masc.pl]" ] ] ]
+    FuC                       `pron`    {- hum -}              [ "they" ] ]
 
  |> "h n '" <| [
 
@@ -517,7 +518,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "h n n" <| [
 
-    FuCL |<< "a"              `pron`    {- hun~a -}            [ unwords [ "they", "[fem.pl.]" ] ] ]
+    FuCL |<< "a"              `pron`    {- hun~a -}            [ "they" ] ]
 
  |> "h n r y" <| [
 

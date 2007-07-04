@@ -11,7 +11,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "litawwi-" <| [
 
-    Identity                  `pron`    {- litaw~i- -}         [ unwords [ "immediately", "+", "it", "/", "he" ], unwords [ "immediately", "+", "they", "both" ], unwords [ "immediately", "+", "it", "/", "they", "/", "her" ], unwords [ "immediately", "+", "they", "[masc.pl.]" ], unwords [ "immediately", "+", "they", "[fem.pl.]" ], unwords [ "immediately", "+", "you", "[masc.sg.]" ], unwords [ "immediately", "+", "you", "[fem.sg.]" ], unwords [ "immediately", "+", "you", "both" ], unwords [ "immediately", "+", "you", "[masc.pl.]" ], unwords [ "immediately", "+", "you", "[fem.pl.]" ], unwords [ "immediately", "+", "I" ], unwords [ "immediately", "+", "we" ] ] ]
+    Identity                  `pron`    {- litaw~i- -}         [ unwords [ "immediately", "+", "it", "/", "he" ], unwords [ "immediately", "+", "they", "both" ], unwords [ "immediately", "+", "it", "/", "they", "/", "her" ], unwords [ "immediately", "+", "they" ], unwords [ "immediately", "+", "you" ], unwords [ "immediately", "+", "you", "both" ], unwords [ "immediately", "+", "I" ], unwords [ "immediately", "+", "we" ] ] ]
 
  |> "t  s" <| [
 
@@ -60,9 +60,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "t ^s r n" <| [
 
-    KiRDIS                    `noun`    {- ti$oriyn -}         [ unwords [ "Tishrin", "(", "part", "of", "month", "names", "Oct.", "and", "Nov.", ")" ] ],
+    KiRDIS                    `noun`    {- ti$oriyn -}         [ unwords [ "Tishrin", "(", "month", ")" ] ],
 
-    KiRDIS                    `noun`    {- ti$oriyn -}         [ unwords [ "Tishrin", "(", "Syrian", "newspaper", ")" ] ] ]
+    KiRDIS                    `noun`    {- ti$oriyn -}         [ unwords [ "Tishrin", "(", "newspaper", ")" ] ] ]
 
  |> "t _h m" <| [
 

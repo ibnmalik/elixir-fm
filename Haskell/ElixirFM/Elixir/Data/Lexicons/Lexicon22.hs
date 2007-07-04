@@ -353,8 +353,9 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- kaf~ -}             [ "refraining", "discontinuation", "stoppage" ],
 
     FaCL                      `noun`    {- kaf~ -}             [ unwords [ "palm", "of", "the", "hand" ], unwords [ "palms", "of", "the", "hands" ] ]
+                              `plural`     HaFuCL
                               `plural`     FuCUL
-                           {- `others`  [ "kufuwf N" ] -},
+                           {- `others`  [ "'akuff N", "kufuwf N" ] -},
 
     FiCL |< aT                `noun`    {- kif~ap -}           [ unwords [ "palm", "of", "the", "hand" ], unwords [ "palms", "of", "the", "hands" ] ]
                               `plural`     FiCaL
@@ -363,8 +364,9 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "kifaf N", "kifAf N", "kaff Napdu" ] -},
 
     FaCL                      `noun`    {- kaf~ -}             [ unwords [ "balance", "scale" ] ]
+                              `plural`     HaFuCL
                               `plural`     FuCUL
-                           {- `others`  [ "kufuwf N" ] -},
+                           {- `others`  [ "'akuff N", "kufuwf N" ] -},
 
     FiCL |< aT                `noun`    {- kif~ap -}           [ unwords [ "balance", "scale" ] ]
                               `plural`     FiCaL
@@ -682,7 +684,7 @@ lexicon = listing "Lexicon's properties"
 
     HaFaCL                    `verb`    {- Oakan~ -}           [ "conceal", "hide", unwords [ "be", "hidden" ] ],
 
-    FACUL                     `noun`    {- kAnuwn -}           [ unwords [ "Kanun", "(", "part", "of", "month", "names", "Dec.", "and", "Jan.", ")" ] ],
+    FACUL                     `noun`    {- kAnuwn -}           [ "Kanun" ],
 
     FACUL                     `noun`    {- kAnuwn -}           [ "stove" ]
                               `plural`     FawACIL
@@ -1048,7 +1050,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "k w f" <| [
 
-    FUL |< Iy                 `adj`     {- kuwfiy~ -}          [ unwords [ "of", "/", "from", "Kufa", "(", "Iraq", ")" ], "Kufic" ],
+    FUL |< Iy                 `adj`     {- kuwfiy~ -}          [ unwords [ "of", "/", "from", "Kufa" ], "Kufic" ],
 
     FUL |< Iy                 `adj`     {- kuwfiy~ -}          [ "Kufi", "Koufi" ],
 

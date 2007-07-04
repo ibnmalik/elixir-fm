@@ -1102,8 +1102,9 @@ lexicon = listing "Lexicon's properties"
     -- ADbE    >aDobuE N       hyenas
 
     FaCL                      `noun`    {- DaboE -}            [ "hyena" ]
+                              `plural`     HaFCuL
                               `plural`     FiCAL
-                           {- `others`  [ ".dibA` N" ] -} ]
+                           {- `others`  [ "'a.dbu` N", ".dibA` N" ] -} ]
 
  |> ".d b b" <| [
 
@@ -1151,7 +1152,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Dab~ -}             [ "lizard" ]
                               `plural`     FuCLAn
-                           {- `others`  [ ".dubbAn N" ] -} ]
+                              `plural`     HaFuCL
+                           {- `others`  [ ".dubbAn N", "'a.dubb N" ] -} ]
 
  |> ".d b n" <| [
 
@@ -2219,7 +2221,8 @@ lexicon = listing "Lexicon's properties"
     -- >Dn     >aDin~  Nap     stingy;economical
     -- ADn     >aDin~  Nap     stingy;economical
 
-    FaCIL                     `adj`     {- Daniyn -}           [ "stingy", "economical" ] ]
+    FaCIL                     `adj`     {- Daniyn -}           [ "stingy", "economical" ]
+                              `plural`     HaFiCL |< aT ]
 
  |> ".d n y" <| [
 

@@ -160,13 +160,15 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- saToH -}            [ "surface" ]
                               `plural`     FuCUL
+                              `plural`     HaFCuL
                               `plural`     HaFCiL |< aT
-                           {- `others`  [ "su.tuw.h N" ] -},
+                           {- `others`  [ "su.tuw.h N", "'as.tu.h N" ] -},
 
     FaCL                      `noun`    {- saToH -}            [ "roof", "terrace" ]
                               `plural`     FuCUL
+                              `plural`     HaFCuL
                               `plural`     HaFCiL |< aT
-                           {- `others`  [ "su.tuw.h N" ] -},
+                           {- `others`  [ "su.tuw.h N", "'as.tu.h N" ] -},
 
     FaCL |< Iy                `adj`     {- saToHiy~ -}         [ "superficial", "outward", "surface" ],
 
@@ -187,7 +189,8 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- saTor -}            [ "line", "row" ]
                               `plural`     FuCUL
                               `plural`     HaFCAL
-                           {- `others`  [ "su.tuwr N", "'as.tAr N" ] -} ]
+                              `plural`     HaFCuL
+                           {- `others`  [ "su.tuwr N", "'as.tAr N", "'as.tur N" ] -} ]
 
  |> "s .t w" <| [
 
@@ -429,8 +432,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- saboE -}            [ "lion", unwords [ "predatory", "beast" ] ]
                               `plural`     FiCAL
+                              `plural`     HaFCuL
                               `plural`     FuCUL |< aT
-                           {- `others`  [ "sibA` N", "subuw` N" ] -},
+                           {- `others`  [ "sibA` N", "'asbu` N", "subuw` N" ] -},
 
     FaCL                      `adj`     {- saboE -}            [ "seven", "seventy" ],
 
@@ -699,7 +703,9 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `verb`    {- Oasoham -}          [ "participate", "contribute", "share", unwords [ "be", "contributed", "to" ], unwords [ "be", "shared", "in" ] ],
 
-    FaCL                      `noun`    {- sahom -}            [ "share", "stock" ],
+    FaCL                      `noun`    {- sahom -}            [ "share", "stock" ]
+                              `plural`     HaFCuL
+                           {- `others`  [ "'ashum N" ] -},
 
     FaCL                      `noun`    {- sahom -}            [ "arrow" ]
                               `plural`     FiCAL
@@ -1317,6 +1323,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- san~ -}             [ "enactment", "prescription" ],
 
     FiCL                      `noun`    {- sin~ -}             [ "tooth", "teeth", "spearheads" ]
+                              `plural`     HaFiCL |< aT
                               `plural`     HaFCAL
                            {- `others`  [ "'asnAn N" ] -},
 
@@ -1393,8 +1400,9 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- saqof -}            [ "roof" ]
                               `plural`     FuCUL |< At
                               `plural`     FuCUL
+                              `plural`     HaFCuL
                               `plural`     FuCuL
-                           {- `others`  [ "suquf N" ] -} ]
+                           {- `others`  [ "'asquf N", "suquf N" ] -} ]
 
  |> "s q q" <| [
 
@@ -1928,7 +1936,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "s y d" <| [
 
-    FaCCiL                    `noun`    {- say~id -}           [ "Sir", "Mr.", "Mister", "Messrs.", "gentlement" ]
+    FaCCiL                    `noun`    {- say~id -}           [ "Sir", "Mr.", "Mister", "gentlement" ]
                               `plural`     FAL |< aT
                               `plural`     HaFCAL
                            {- `others`  [ "'asyAd N" ] -},

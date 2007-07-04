@@ -3332,8 +3332,8 @@ $Lexicon = {
       'form' => 'wuqqaT',
       'lines' => [
         ';; wuq~ap_1',
-        'wq      wuq~    NapAt   wuqqa/wiqqa (weight measure = 1.2 kg.)',
-        'wq      wiq~    NapAt   wuqqa/wiqqa (weight measure = 1.2 kg.)'
+        'wq      wuq~    NapAt   wuqqa/wiqqa',
+        'wq      wiq~    NapAt   wuqqa/wiqqa'
       ],
       'patterns' => {
         'wiqq' => [
@@ -3345,7 +3345,7 @@ $Lexicon = {
       'morphs' => 'FuCL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'wuqqa/wiqqa (weight measure = 1.2 kg.)'
+        'wuqqa/wiqqa'
       ],
       'orig' => 'wuq~ap',
       'prefix' => ''
@@ -3356,7 +3356,7 @@ $Lexicon = {
       'form' => 'wAq',
       'lines' => [
         ';; wAq_1',
-        'wAq     wAq     N0      Waq (in "Waq Waq": legendary islands);strange and faraway lands'
+        'wAq     wAq     N0      Waq;strange and faraway lands'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3364,7 +3364,7 @@ $Lexicon = {
       'morphs' => 'FAL',
       'suffix' => '',
       'glosses' => [
-        'Waq (in "Waq Waq": legendary islands)',
+        'Waq',
         'strange and faraway lands'
       ],
       'orig' => 'wAq',
@@ -14261,7 +14261,7 @@ $Lexicon = {
       'form' => 'waybaT',
       'lines' => [
         ';; wayobap_1',
-        'wyb     wayob   NapAt   wayba (dry measure = 33 liters)'
+        'wyb     wayob   NapAt   wayba'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14269,7 +14269,7 @@ $Lexicon = {
       'morphs' => 'FaCL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'wayba (dry measure = 33 liters)'
+        'wayba'
       ],
       'orig' => 'wayobap',
       'prefix' => ''
@@ -17946,7 +17946,7 @@ $Lexicon = {
       'form' => 'maw.sil',
       'lines' => [
         ';; mawoSil_1',
-        'mwSl    mawoSil N       Mosul (Iraq)'
+        'mwSl    mawoSil N       Mosul'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17954,7 +17954,7 @@ $Lexicon = {
       'morphs' => 'MaFCiL',
       'suffix' => '',
       'glosses' => [
-        'Mosul (Iraq)'
+        'Mosul'
       ],
       'orig' => 'mawoSil',
       'prefix' => ''
@@ -17965,7 +17965,7 @@ $Lexicon = {
       'form' => 'maw.siliyy',
       'lines' => [
         ';; mawoSiliy~_1',
-        'mwSly   mawoSiliy~      Nall    of/from Mosul (Iraq)'
+        'mwSly   mawoSiliy~      Nall    of/from Mosul'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17973,7 +17973,7 @@ $Lexicon = {
       'morphs' => 'MaFCiL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'of/from Mosul (Iraq)'
+        'of/from Mosul'
       ],
       'orig' => 'mawoSiliy~',
       'prefix' => ''
@@ -21603,7 +21603,7 @@ $Lexicon = {
       'form' => 'wahrAn',
       'lines' => [
         ';; wahorAn_1',
-        'whrAn   wahorAn Ndip    Oran (Alg.)'
+        'whrAn   wahorAn Ndip    Oran'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21611,7 +21611,7 @@ $Lexicon = {
       'morphs' => 'FaCLAn',
       'suffix' => '',
       'glosses' => [
-        'Oran (Alg.)'
+        'Oran'
       ],
       'orig' => 'wahorAn',
       'prefix' => ''
@@ -21986,7 +21986,7 @@ $Lexicon = {
       'form' => 'wiqiyyaT',
       'lines' => [
         ';; wiqiy~ap_1',
-        'wqy     wiqiy~  NapAt   uqiya (measure = 1/12 ratl; Beirut: 213 gr; Jerusalem 240 gr.;Aleppo 320 gr.)'
+        'wqy     wiqiy~  NapAt   uqiya'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21994,10 +21994,7 @@ $Lexicon = {
       'morphs' => 'Identity |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'uqiya (measure = 1/12 ratl',
-        'Beirut: 213 gr',
-        'Jerusalem 240 gr.',
-        'Aleppo 320 gr.)'
+        'uqiya'
       ],
       'orig' => 'wiqiy~ap',
       'prefix' => ''

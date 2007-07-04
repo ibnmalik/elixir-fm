@@ -2343,9 +2343,9 @@ srmdy   saromadiy~      Nap     eternity
 ;
 ;--- srndb
 ;; saranodiyb_1
-srndyb  saranodiyb      Ndip     Serendip (Ceylon)
+srndyb  saranodiyb      Ndip     Serendip
 ;; saranodiybiy~_1
-srndyby saranodiybiy~   Nall     of/from Serendip (Ceylon)
+srndyby saranodiybiy~   Nall     of/from Serendip
 ;
 ;--- srw
 ;; sar~aY_1
@@ -6159,9 +6159,10 @@ mswd    musaw~ad        NapAt   rough draft
 mswd    musowad~        NapAt   rough draft
 ;; say~id_1
 syd     say~id  Ndu     Sir;Mr.;Mister
-sAd     sAd     Nap     Sirs;Messrs.;gentlement
->syAd   >asoyAd N       Sirs;Messrs.;gentlement
-AsyAd   >asoyAd N       Sirs;Messrs.;gentlement
+sAd     sAd     Nap     Sirs;gentlement
+>syAd   >asoyAd N       Sirs;gentlement
+AsyAd   >asoyAd N       Sirs;gentlement
+; Sirs;Messrs.;gentlement
 ;; say~id_2
 syd     say~id  N0      Sayyid
 ;; sAdAt_1

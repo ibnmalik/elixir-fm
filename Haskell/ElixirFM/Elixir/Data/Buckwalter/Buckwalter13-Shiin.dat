@@ -204,7 +204,8 @@ $b      $ab~    N       alum
 $b      $ab~    NapAt   alum;styptic pencil
 ; Morrocan soccer team $bAb Almsyrp = Jeunesse de la Massira
 ;; $abAb_1
-$bAb    $abAb   N0      Jeunesse (in "Jeunesse de la Massira")
+$bAb    $abAb   N0      Jeunesse
+; (in "Jeunesse de la Massira")
 ;; $abAbiy~_1
 $bAby   $abAbiy~        N/ap    youthful;juvenile     <pos>$abAbiy~/ADJ</pos>
 ;; $ubuwb_1
@@ -4484,11 +4485,11 @@ Ast$hAd {isoti$ohAd     NduAt   martyrdom
 <st$hAd {isoti$ohAd     NduAt   quotation
 Ast$hAd {isoti$ohAd     NduAt   quotation
 ;; {isoti$ohAdiy~_1
-<st$hAdy        {isoti$ohAdiy~  Nall    martyr ("suicide" in Western media)     <pos>{isoti$ohAdiy~/NOUN</pos>
-Ast$hAdy        {isoti$ohAdiy~  Nall    martyr ("suicide" in Western media)     <pos>{isoti$ohAdiy~/NOUN</pos>
-<st$hAdy        {isoti$ohAdiy~  Nall    martyr ("suicide" in Western media)     <pos>{isoti$ohAdiy~/ADJ</pos>
-Ast$hAdy        {isoti$ohAdiy~  Nall    martyr ("suicide" in Western media)     <pos>{isoti$ohAdiy~/ADJ</pos>
-;
+<st$hAdy        {isoti$ohAdiy~  Nall    martyr      <pos>{isoti$ohAdiy~/NOUN</pos>
+Ast$hAdy        {isoti$ohAdiy~  Nall    martyr      <pos>{isoti$ohAdiy~/NOUN</pos>
+<st$hAdy        {isoti$ohAdiy~  Nall    martyr      <pos>{isoti$ohAdiy~/ADJ</pos>
+Ast$hAdy        {isoti$ohAdiy~  Nall    martyr      <pos>{isoti$ohAdiy~/ADJ</pos>
+; ("suicide" in Western media);
 ;--- $hr
 ;; $ahar-a_1
 $hr     $ahar   PV      declare;make public

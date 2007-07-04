@@ -35353,9 +35353,9 @@ $Lexicon = {
       'form' => 'faddAn',
       'lines' => [
         ';; fad~An_1',
-        'fdAn    fad~An  Ndu     feddan (4.2 sq.m., Ar.Eg.Sud.; 5.7 sq.m Lev.)',
-        '>fdn    >afodin Nap     feddans (1 feddan = 4.2 sq.m., Ar.Eg.Sud.; 5.7 sq.m Lev.)',
-        'Afdn    >afodin Nap     feddans (1 feddan = 4.2 sq.m., Ar.Eg.Sud.; 5.7 sq.m Lev.)'
+        'fdAn    fad~An  Ndu     feddan',
+        '>fdn    >afodin Nap     feddans',
+        'Afdn    >afodin Nap     feddans'
       ],
       'patterns' => {
         '\'afdin' => [
@@ -35367,9 +35367,8 @@ $Lexicon = {
       'morphs' => 'FaCCAL',
       'suffix' => '',
       'glosses' => [
-        'feddan (4.2 sq.m., Ar.Eg.Sud.',
-        '5.7 sq.m Lev.)',
-        'feddans (1 feddan = 4.2 sq.m., Ar.Eg.Sud.'
+        'feddan',
+        'feddans'
       ],
       'orig' => 'fad~An',
       'prefix' => ''
@@ -36029,6 +36028,9 @@ $Lexicon = {
       'patterns' => {
         'fu\'uws' => [
           'FuCUL'
+        ],
+        '\'af\'us' => [
+          'HaFCuL'
         ]
       },
       'index' => '1',
@@ -42686,7 +42688,7 @@ $Lexicon = {
       'form' => 'mafraq',
       'lines' => [
         ';; maforaq_1',
-        'mfrq    maforaq N       Mafraq (Jor.)'
+        'mfrq    maforaq N       Mafraq'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42694,7 +42696,7 @@ $Lexicon = {
       'morphs' => 'MaFCaL',
       'suffix' => '',
       'glosses' => [
-        'Mafraq (Jor.)'
+        'Mafraq'
       ],
       'orig' => 'maforaq',
       'prefix' => ''
@@ -43138,6 +43140,9 @@ $Lexicon = {
         'Afhd    >afohud N       lynxes'
       ],
       'patterns' => {
+        '\'afhud' => [
+          'HaFCuL'
+        ],
         'fuhuwd' => [
           'FuCUL'
         ]
@@ -43565,6 +43570,9 @@ $Lexicon = {
       'patterns' => {
         'fu\'uwl' => [
           'FuCUL'
+        ],
+        '\'af\'ul' => [
+          'HaFCuL'
         ]
       },
       'index' => '1',
@@ -43949,6 +43957,9 @@ $Lexicon = {
         'frx     farax   NAt     chickens;hens'
       ],
       'patterns' => {
+        '\'afru_h' => [
+          'HaFCuL'
+        ],
         'fara_h' => [
           'FaCaL'
         ],

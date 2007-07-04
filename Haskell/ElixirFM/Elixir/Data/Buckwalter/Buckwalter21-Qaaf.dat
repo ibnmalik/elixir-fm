@@ -174,7 +174,7 @@ mqAbs   maqAbis Ndip    socket
 <qtbAs  {iqotibAs       N/At    quotation;acquisition;adaptation
 AqtbAs  {iqotibAs       N/At    quotation;acquisition;adaptation
 ;; qAbis_1
-qAbs    qAbis   Ndip    Gabes (Tun.)
+qAbs    qAbis   Ndip    Gabes
 ;; qAbis_2
 qAbs    qAbis   Ndu     electrical plug
 ;; muqotabas_1
@@ -870,9 +870,12 @@ qdH     qadaH   Ndu     cup;goblet;tumbler
 >qdAH   >aqodAH N       cups;goblets;tumblers
 AqdAH   >aqodAH N       cups;goblets;tumblers
 ;; qadaH_2
-qdH     qadaH   Ndu     qadah (2 liters)
->qdAH   >aqodAH N       qadahs (1 = 2 liters)
-AqdAH   >aqodAH N       qadahs (1 = 2 liters)
+qdH     qadaH   Ndu     qadah
+; (2 liters)
+>qdAH   >aqodAH N       qadahs
+; (1 = 2 liters)
+AqdAH   >aqodAH N       qadahs
+; (1 = 2 liters)
 ;; qad~AH_1
 qdAH    qad~AH  Ndu     flint;lighter
 qdAH    qad~AH  NapAt   flints;lighters
@@ -2582,7 +2585,7 @@ qrwy    qarawiy~        N-ap    rural;village     <pos>qarawiy~/ADJ</pos>
 ;; qarawiy~_2
 qrwy    qarawiy~        Nall    peasant;villager     <pos>qarawiy~/ADJ</pos>
 ;; qarawiy~_3
-qrwy    qarawiy~        Nall    of/from Kairouan (Tun.)     <pos>qarawiy~/ADJ</pos>
+qrwy    qarawiy~        Nall    of/from Kairouan     <pos>qarawiy~/ADJ</pos>
 ;
 ;--- qz
 ;; qaz~-u_1
@@ -4715,9 +4718,12 @@ qfz     qafaz   NAt     leaps;bounds
 qfAz    quf~Az  NduAt   gloves
 qfAfyz  qafAfiyz        Ndip    gloves
 ;; qafiyz_1
-qfyz    qafiyz  Ndu     qafiz (dry measure = 528 liters)
->qfz    >aqofiz Nap     qafiz (dry measure = 528 liters)
-Aqfz    >aqofiz Nap     qafiz (dry measure = 528 liters)
+qfyz    qafiyz  Ndu     qafiz
+; (dry measure = 528 liters)
+>qfz    >aqofiz Nap     qafiz
+; (dry measure = 528 liters)
+Aqfz    >aqofiz Nap     qafiz
+; (dry measure = 528 liters)
 ;; maqofiz_1
 mqfz    maqofiz Ndu     springboard
 mqAfz   maqAfiz Ndip    springboards
@@ -5009,8 +5015,10 @@ qlwb    quluwb  N       hearts
 ;; qalobiy~_1
 qlby    qalobiy~        N-ap    cardiac;hearty     <pos>qalobiy~/ADJ</pos>
 ;; qalobap_1
-qlb     qalob   Napdu   qalba (capacity measure = 20 liters)
-qlb     qalab   NAt     qalba (capacity measure = 20 liters)
+qlb     qalob   Napdu   qalba
+; (capacity measure = 20 liters)
+qlb     qalab   NAt     qalba
+; (capacity measure = 20 liters)
 ;; qAlib_1
 qAlb    qAlib   Ndu     form;model;mold
 qAlb    qAlab   Ndu     form;model;mold
@@ -5405,11 +5413,11 @@ qlAwwZ  qalAwuwZ        N       screw
 ;
 ;--- qlyb
 ;; qaloyuwb_1
-qlywb   qaloyuwb        Ndip    Qalyub (Egy.)
+qlywb   qaloyuwb        Ndip    Qalyub
 ;; qaloyuwbiy~ap_1
-qlywby  qaloyuwbiy~     Nap     Qalyubiyah (Egy. prov.)     <pos>qaloyuwbiy~/NOUN</pos>
+qlywby  qaloyuwbiy~     Nap     Qalyubiyah     <pos>qaloyuwbiy~/NOUN</pos>
 ;; qaloyuwbiy~_1
-qlywby  qaloyuwbiy~     Nall    from/of Qalyub (Egy.)     <pos>qaloyuwbiy~/ADJ</pos>
+qlywby  qaloyuwbiy~     Nall    from/of Qalyub     <pos>qaloyuwbiy~/ADJ</pos>
 ;
 ;--- qm
 ;; qam~-u_1
@@ -5940,7 +5948,7 @@ qnTr    qanoTir IV_yu   arch;span;vault
 qnTr    qanoTar Napdu   aqueduct;bridge
 qnATr   qanATir Ndip    aqueducts;bridges
 ;; qanATir_1
-qnATr   qanATir N0      Qanatir (Egy.)
+qnATr   qanATir N0      Qanatir
 ;; qanoTariy~_1
 qnTry   qanoTariy~      N-ap    arched;vaulted;arcaded     <pos>qanoTariy~/ADJ</pos>
 ;; muqanoTar_1

@@ -3436,9 +3436,12 @@ mrTb    muraT~ib        NduAt   humidified;moisturizer
 ;
 ;--- rTl
 ;; raTol_1
-rTl     raTol   Ndu     ratl (weight measure = 3 kg)
->rTAl   >aroTAl N       ratls (weight measure = 3 kg)
-ArTAl   >aroTAl N       ratls (weight measure = 3 kg)
+rTl     raTol   Ndu     ratl
+; (weight measure = 3 kg)
+>rTAl   >aroTAl N       ratls
+; (weight measure = 3 kg)
+ArTAl   >aroTAl N       ratls
+; (weight measure = 3 kg)
 ;
 ;--- rTl
 ;; raTam-u_1
@@ -4092,7 +4095,7 @@ rfE     rafoE   Nap     lift
 ;; rifoEap_1
 rfE     rifoE   Nap     height;elevation;high rank
 ;; rifAE_1
-rfAE    rifAE   N       Shrovetide (Chr.)
+rfAE    rifAE   N       Shrovetide
 ;; rifAEiy~_1
 rfAEy   rifAEiy~        N0      Rifa'i
 ;; rafiyE_1
@@ -6555,8 +6558,8 @@ ryA     ray~A   N0_Nhy  fragrance;aroma;scent
 ;
 ;--- ryA
 ;; riyAl_1
-ryAl    riyAl   NduAt   riyal (S.Ar.=100 halala, Qatar=100 dirham, Yemen=100 fils)
-ryAl    riyAl   NduAt   riyal (Egy.: 20 piasters)
+ryAl    riyAl   NduAt   riyal
+; S.Ar.=100 halala, Qatar=100 dirham, Yemen=100 fils, Egy.=20 piasters
 ;
 ;--- ryb
 ;; rAb-i_1

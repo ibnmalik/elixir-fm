@@ -155,7 +155,7 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCaL                   `verb`    {- AilotaHam -}        [ unwords [ "cling", "together" ], unwords [ "hold", "firmly", "together" ] ],
 
-    FaCL                      `noun`    {- laHom -}            [ unwords [ "Lahm", "(", "2nd", "word", "in", "Beit", "Lahm", "=", "\"Bethlehem\"", ")" ] ],
+    FaCL                      `noun`    {- laHom -}            [ "Lahm" ],
 
     FaCL                      `noun`    {- laHom -}            [ "meat", "flesh" ]
                               `plural`     FuCUL
@@ -305,7 +305,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "l _d q" <| [
 
-    FACiL |< Iy |< aT         `noun`    {- lA*iqiy~ap -}       [ unwords [ "Latakia", "(", "Syr.", ")" ] ] ]
+    FACiL |< Iy |< aT         `noun`    {- lA*iqiy~ap -}       [ "Latakia" ] ]
 
  |> "l _d y" <| [
 
@@ -436,7 +436,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "l d d" <| [
 
-    FiCL                      `noun`    {- lid~ -}             [ unwords [ "Lydda", "(", "Isr.", ")" ] ],
+    FiCL                      `noun`    {- lid~ -}             [ "Lydda" ],
 
     FaCUL                     `noun`    {- laduwd -}           [ "implacable", "mortal" ] ]
 
@@ -774,10 +774,14 @@ lexicon = listing "Lexicon's properties"
  |> "l s n" <| [
 
     FiCAL                     `noun`    {- lisAn -}            [ "tongue" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCuL
+                              `plural`     HaFCiL |< aT
+                           {- `others`  [ "'alsun N" ] -},
 
     FiCAL                     `noun`    {- lisAn -}            [ "language" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCuL
+                              `plural`     HaFCiL |< aT
+                           {- `others`  [ "'alsun N" ] -},
 
     FiCAL                     `noun`    {- lisAn -}            [ "mouthpiece" ] ]
 
@@ -975,7 +979,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "l y s" <| [
 
-    FaCL |<< "a"              `part`    {- layosa -}           [ unwords [ "not", "+", "he", "/", "it", "(", "he", "/", "it", "is", "not", ")" ], unwords [ "not", "+", "they", "[masc.du.]", "(", "they", "are", "not", ")" ], unwords [ "not", "+", "they", "(", "they", "are", "not", ")" ], unwords [ "not", "+", "it", "/", "she", "/", "they", "(", "it", "/", "she", "is", "not,", "they", "are", "not", ")" ], unwords [ "not", "+", "they", "[fem.du.]", "(", "they", "are", "not", ")" ], unwords [ "not", "+", "they", "[fem.]", "(", "they", "are", "not", ")" ], unwords [ "not", "+", "you", "[masc.sg.]", "(", "you", "are", "not", ")" ], unwords [ "not", "+", "you", "[masc.du.]", "(", "you", "are", "not", ")" ], unwords [ "not", "+", "you", "[masc.pl.]", "(", "you", "are", "not", ")" ], unwords [ "not", "+", "you", "[fem.sg.]", "(", "you", "are", "not", ")" ], unwords [ "not", "+", "you", "[fem.du.]", "(", "you", "are", "not", ")" ], unwords [ "not", "+", "you", "[fem.pl.]", "(", "you", "are", "not", ")" ], unwords [ "not", "+", "I", "(", "I", "am", "not", ")" ], unwords [ "not", "+", "we", "(", "we", "are", "not", ")" ] ],
+    FaCL |<< "a"              `part`    {- layosa -}           [ unwords [ "not", "+", "he", "/", "it", "(", "he", "/", "it", "is", "not", ")" ], unwords [ "not", "+", "they", "(", "they", "are", "not", ")" ], unwords [ "not", "+", "it", "/", "she", "/", "they", "(", "it", "/", "she", "is", "not,", "they", "are", "not", ")" ], unwords [ "not", "+", "you", "(", "you", "are", "not", ")" ], unwords [ "not", "+", "I", "(", "I", "am", "not", ")" ], unwords [ "not", "+", "we", "(", "we", "are", "not", ")" ] ],
 
     FaCiL                     `verb`    {- layis-a -}          [ unwords [ "be", "valiant" ] ]
                               `imperf`     FCaL ]
@@ -1135,7 +1139,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "li-" <| [
 
-    Identity                  `prep`    {- li- -}              [ unwords [ "to", "/", "for", "+", "it", "/", "him", "(", "it", "/", "he", "has", ")" ], unwords [ "to", "/", "for", "+", "them", "both", "(", "they", "both", "have", ")" ], unwords [ "to", "/", "for", "+", "it", "/", "them", "/", "her", "(", "it", "/", "she", "has,", "they", "have", ")" ], unwords [ "to", "/", "for", "+", "them", "[masc.pl.]", "(", "they", "have", ")" ], unwords [ "to", "/", "for", "+", "them", "[fem.pl.]", "(", "they", "have", ")" ], unwords [ "to", "/", "for", "+", "you", "[masc.sg.]", "(", "you", "have", ")" ], unwords [ "to", "/", "for", "+", "you", "[fem.sg.]", "(", "you", "have", ")" ], unwords [ "to", "/", "for", "+", "you", "both", "(", "you", "both", "have", ")" ], unwords [ "to", "/", "for", "+", "you", "[masc.pl.]", "(", "you", "have", ")" ], unwords [ "to", "/", "for", "+", "you", "[fem.pl.]", "(", "you", "have", ")" ], unwords [ "to", "/", "for", "+", "me", "(", "I", "have", ")" ], unwords [ "to", "/", "for", "+", "us", "(", "we", "have", ")" ] ] ]
+    Identity                  `prep`    {- li- -}              [ unwords [ "to", "/", "for", "+", "it", "/", "him", "(", "it", "/", "he", "has", ")" ], unwords [ "to", "/", "for", "+", "them", "both", "(", "they", "both", "have", ")" ], unwords [ "to", "/", "for", "+", "it", "/", "them", "/", "her", "(", "it", "/", "she", "has,", "they", "have", ")" ], unwords [ "to", "/", "for", "+", "them", "(", "they", "have", ")" ], unwords [ "to", "/", "for", "+", "you", "(", "you", "have", ")" ], unwords [ "to", "/", "for", "+", "you", "both", "(", "you", "both", "have", ")" ], unwords [ "to", "/", "for", "+", "me", "(", "I", "have", ")" ], unwords [ "to", "/", "for", "+", "us", "(", "we", "have", ")" ] ] ]
 
  |> "litwAniyA" <| [
 

@@ -219,6 +219,9 @@ $Lexicon = {
         'Asn     >asin~  Nap     spearheads'
       ],
       'patterns' => {
+        '\'asinn' => [
+          'HaFiCL'
+        ],
         '\'asnAn' => [
           'HaFCAL'
         ]
@@ -12808,7 +12811,7 @@ $Lexicon = {
       'form' => 'sarandiyb',
       'lines' => [
         ';; saranodiyb_1',
-        'srndyb  saranodiyb      Ndip     Serendip (Ceylon)'
+        'srndyb  saranodiyb      Ndip     Serendip'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12816,7 +12819,7 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Serendip (Ceylon)'
+        'Serendip'
       ],
       'orig' => 'saranodiyb',
       'prefix' => ''
@@ -12827,7 +12830,7 @@ $Lexicon = {
       'form' => 'sarandiybiyy',
       'lines' => [
         ';; saranodiybiy~_1',
-        'srndyby saranodiybiy~   Nall     of/from Serendip (Ceylon)'
+        'srndyby saranodiybiy~   Nall     of/from Serendip'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12835,7 +12838,7 @@ $Lexicon = {
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'of/from Serendip (Ceylon)'
+        'of/from Serendip'
       ],
       'orig' => 'saranodiybiy~',
       'prefix' => ''
@@ -14122,7 +14125,11 @@ $Lexicon = {
         '>shm    >asohum N       shares;stocks',
         'Ashm    >asohum N       shares;stocks'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'ashum' => [
+          'HaFCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL',
@@ -14182,6 +14189,27 @@ $Lexicon = {
         'Siham'
       ],
       'orig' => 'sihAm',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'ashum',
+      'form' => '\'ashumiyy',
+      'lines' => [
+        ';; >asohumiy~_1',
+        '>shmy   >asohumiy~      N-ap    shares;stocks     [[>asohumiy~/ADJ]]',
+        'Ashmy   >asohumiy~      N-ap    shares;stocks     [[>asohumiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'HaFCuL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'shares',
+        'stocks'
+      ],
+      'orig' => 'Oasohumiy~',
       'prefix' => ''
     },
     {
@@ -18361,6 +18389,9 @@ $Lexicon = {
         'sibA`' => [
           'FiCAL'
         ],
+        '\'asbu`' => [
+          'HaFCuL'
+        ],
         'subuw`' => [
           'FuCUL'
         ]
@@ -20679,6 +20710,9 @@ $Lexicon = {
         'su.tuw.h' => [
           'FuCUL'
         ],
+        '\'as.tu.h' => [
+          'HaFCuL'
+        ],
         '\'as.ti.h' => [
           'HaFCiL'
         ]
@@ -20720,6 +20754,9 @@ $Lexicon = {
       'patterns' => {
         'su.tuw.h' => [
           'FuCUL'
+        ],
+        '\'as.tu.h' => [
+          'HaFCuL'
         ],
         '\'as.ti.h' => [
           'HaFCiL'
@@ -30945,6 +30982,9 @@ $Lexicon = {
         'su.tuwr' => [
           'FuCUL'
         ],
+        '\'as.tur' => [
+          'HaFCuL'
+        ],
         '\'as.tAr' => [
           'HaFCAL'
         ]
@@ -34711,7 +34751,11 @@ $Lexicon = {
         '>sd     >asid~  Nap     plugs;stoppers',
         'Asd     >asid~  Nap     plugs;stoppers'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'asidd' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -39160,7 +39204,11 @@ $Lexicon = {
         '>sr     >asir~  Nap     umbilical cords',
         'Asr     >asir~  Nap     umbilical cords'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'asirr' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCL',
@@ -39737,6 +39785,9 @@ $Lexicon = {
       'patterns' => {
         'suquwf' => [
           'FuCUL'
+        ],
+        '\'asquf' => [
+          'HaFCuL'
         ],
         'suquf' => [
           'FuCuL'
@@ -47081,9 +47132,9 @@ $Lexicon = {
       'lines' => [
         ';; say~id_1',
         'syd     say~id  Ndu     Sir;Mr.;Mister',
-        'sAd     sAd     Nap     Sirs;Messrs.;gentlement',
-        '>syAd   >asoyAd N       Sirs;Messrs.;gentlement',
-        'AsyAd   >asoyAd N       Sirs;Messrs.;gentlement'
+        'sAd     sAd     Nap     Sirs;gentlement',
+        '>syAd   >asoyAd N       Sirs;gentlement',
+        'AsyAd   >asoyAd N       Sirs;gentlement'
       ],
       'patterns' => {
         'sAd' => [
@@ -47102,7 +47153,6 @@ $Lexicon = {
         'Mr.',
         'Mister',
         'Sirs',
-        'Messrs.',
         'gentlement'
       ],
       'orig' => 'say~id',
@@ -55005,29 +55055,6 @@ $Lexicon = {
         'City'
       ],
       'orig' => 'siytiy',
-      'prefix' => ''
-    }
-  ],
-  '\'ashum' => [
-    {
-      'types' => {},
-      'entry' => '\'ashum',
-      'form' => '\'ashumiyy',
-      'lines' => [
-        ';; >asohumiy~_1',
-        '>shmy   >asohumiy~      N-ap    shares;stocks     [[>asohumiy~/ADJ]]',
-        'Ashmy   >asohumiy~      N-ap    shares;stocks     [[>asohumiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'shares',
-        'stocks'
-      ],
-      'orig' => 'Oasohumiy~',
       'prefix' => ''
     }
   ],

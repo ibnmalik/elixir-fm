@@ -3580,6 +3580,9 @@ $Lexicon = {
       'patterns' => {
         '\'a^srAr' => [
           'HaFCAL'
+        ],
+        '\'a^sirr' => [
+          'HaFiCL'
         ]
       },
       'index' => '1',
@@ -8276,10 +8279,10 @@ $Lexicon = {
       'form' => 'isti^shAdiyy',
       'lines' => [
         ';; {isoti$ohAdiy~_1',
-        '<st$hAdy        {isoti$ohAdiy~  Nall    martyr ("suicide" in Western media)     [[{isoti$ohAdiy~/NOUN]]',
-        'Ast$hAdy        {isoti$ohAdiy~  Nall    martyr ("suicide" in Western media)     [[{isoti$ohAdiy~/NOUN]]',
-        '<st$hAdy        {isoti$ohAdiy~  Nall    martyr ("suicide" in Western media)     [[{isoti$ohAdiy~/ADJ]]',
-        'Ast$hAdy        {isoti$ohAdiy~  Nall    martyr ("suicide" in Western media)     [[{isoti$ohAdiy~/ADJ]]'
+        '<st$hAdy        {isoti$ohAdiy~  Nall    martyr      [[{isoti$ohAdiy~/NOUN]]',
+        'Ast$hAdy        {isoti$ohAdiy~  Nall    martyr      [[{isoti$ohAdiy~/NOUN]]',
+        '<st$hAdy        {isoti$ohAdiy~  Nall    martyr      [[{isoti$ohAdiy~/ADJ]]',
+        'Ast$hAdy        {isoti$ohAdiy~  Nall    martyr      [[{isoti$ohAdiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8287,7 +8290,7 @@ $Lexicon = {
       'morphs' => 'IstiFCAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'martyr ("suicide" in Western media)'
+        'martyr'
       ],
       'orig' => 'Aisoti$ohAdiy~',
       'prefix' => ''
@@ -13033,29 +13036,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'a^sudd' => [
-    {
-      'types' => {},
-      'entry' => '\'a^sudd',
-      'form' => '\'a^sudd',
-      'lines' => [
-        ';; >a$ud~_1',
-        '>$d     >a$ud~  N       maturity;climax',
-        'A$d     >a$ud~  N       maturity;climax'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'maturity',
-        'climax'
-      ],
-      'orig' => 'Oa$ud~',
-      'prefix' => ''
-    }
-  ],
   '^s r n q' => [
     {
       'types' => {
@@ -16356,6 +16336,9 @@ $Lexicon = {
       'patterns' => {
         '^si.hA.h' => [
           'FiCAL'
+        ],
+        '\'a^si.h.h' => [
+          'HaFiCL'
         ]
       },
       'index' => '1',
@@ -18824,7 +18807,7 @@ $Lexicon = {
       'form' => '^sabAb',
       'lines' => [
         ';; $abAb_1',
-        '$bAb    $abAb   N0      Jeunesse (in "Jeunesse de la Massira")'
+        '$bAb    $abAb   N0      Jeunesse'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18832,7 +18815,7 @@ $Lexicon = {
       'morphs' => 'FaCAL',
       'suffix' => '',
       'glosses' => [
-        'Jeunesse (in "Jeunesse de la Massira")'
+        'Jeunesse'
       ],
       'orig' => '$abAb',
       'prefix' => ''
@@ -23375,6 +23358,9 @@ $Lexicon = {
         'A$Tr    >a$oTur N       portions'
       ],
       'patterns' => {
+        '\'a^s.tur' => [
+          'HaFCuL'
+        ],
         '^su.tuwr' => [
           'FuCUL'
         ]
@@ -25896,7 +25882,11 @@ $Lexicon = {
         '>$qA}   >a$iq~A}        Nhy     brothers',
         'A$qA}   >a$iq~A}        Nhy     brothers'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a^siqq' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -27757,7 +27747,11 @@ $Lexicon = {
         '>$d     >a$id~  Nap     saddles',
         'A$d     >a$id~  Nap     saddles'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a^sidd' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCAL',
@@ -27867,6 +27861,27 @@ $Lexicon = {
         'more/most intense'
       ],
       'orig' => 'Oa$ad~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'a^sudd',
+      'form' => '\'a^sudd',
+      'lines' => [
+        ';; >a$ud~_1',
+        '>$d     >a$ud~  N       maturity;climax',
+        'A$d     >a$ud~  N       maturity;climax'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFuCL',
+      'suffix' => '',
+      'glosses' => [
+        'maturity',
+        'climax'
+      ],
+      'orig' => 'Oa$ud~',
       'prefix' => ''
     },
     {
@@ -28682,7 +28697,11 @@ $Lexicon = {
         '>$E     >a$iE~  Nap     rays',
         'A$E     >a$iE~  Nap     rays'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a^si``' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCAL',
@@ -43722,6 +43741,9 @@ $Lexicon = {
       'patterns' => {
         '^suhuwr' => [
           'FuCUL'
+        ],
+        '\'a^shur' => [
+          'HaFCuL'
         ]
       },
       'index' => '1',

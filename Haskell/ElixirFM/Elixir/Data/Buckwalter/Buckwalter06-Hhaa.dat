@@ -1206,8 +1206,8 @@ tHd     taHad~  NK      challenge
 tHdy    taHad~iy        NAn_Nayn        challenges
 tHdy    taHad~iy        NAt     challenges
 ;; HAdiy_1
-HAdy    HAdiy   N0      first (word in "11th", "21st", "31st", through "91st")     <pos>HAdiy/ADJ</pos>
-HAdyp   HAdiyap N0      first (word in "11th", "21st", "31st", through "91st")     <pos>HAdiyap/ADJ</pos>
+HAdy    HAdiy   N0      first (word in "11th" through "91st")     <pos>HAdiy/ADJ</pos>
+HAdyp   HAdiyap N0      first (word in "11th" through "91st")     <pos>HAdiyap/ADJ</pos>
 ;; HAdiy_2
 HAdy    HAdiy   N0F     leader;cameleer
 HAd     HAd     NK      leader;cameleer
@@ -4642,7 +4642,7 @@ HlAw    HalAw   Nap     sweetness;candies
 ;; HalAwap_2
 HlAwp   HalAwap N0      Halawa
 ;; HulowAn_1
-HlwAn   HulowAn Ndip    Helwan (Egy.)
+HlwAn   HulowAn Ndip    Helwan
 ;; HulowAn_2
 HlwAn   HulowAn N       gratuity;tip
 ;; HulowAniy~_1
@@ -4913,7 +4913,8 @@ mHmdy   muHam~adiy~     Nall    of or relating to Muhammad     <pos>muHam~adiy~/
 Hmdl    Hamodal PV      praising God
 Hmdl    Hamodil IV_yu   praising God
 ;; Hamodalap_1
-Hmdl    Hamodal Nap     praising God (saying "al-hamdu lillah" = "praise be to God")
+Hmdl    Hamodal Nap     praising God (saying "al-hamdu lillah")
+; = "praise be to God"
 ;
 ;--- Hmr
 ;; Ham~ar_1
@@ -5032,11 +5033,11 @@ HmS     Hum~uS  N0      Hummus;Homos
 ;; miHomaSap_1
 mHmS    miHomaS Nap     coffee roaster
 ;; HimoS_1
-HmS     HimoS   Ndip    Homs (Syr.)
+HmS     HimoS   Ndip    Homs
 ;; HimoSiy~_1
 HmSy    HimoSiy~        N0      Himsi
 ;; HimoSiy~_2
-HmSy    HimoSiy~        Nall    from/of Homs (Syr.)
+HmSy    HimoSiy~        Nall    from/of Homs
 ;
 ;--- HmD
 ;; HamuD-u_1

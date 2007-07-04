@@ -3181,6 +3181,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- Habiyb -}           [ "dear", "beloved" ]
                               `plural`     HaFCAL
+                              `plural`     HaFiCL |< aT
                            {- `others`  [ "'a.hbAb N" ] -},
 
     -- ;; >aHab~_2
@@ -3353,10 +3354,11 @@ lexicon = listing "Lexicon's properties"
     -- AHbAl   >aHobAl N       cords;cables
 
     FaCL                      `noun`    {- Habol -}            [ "cord", "cable" ]
+                              `plural`     HaFCuL
                               `plural`     FuCUL
                               `plural`     HaFCAL
                               `plural`     FiCAL
-                           {- `others`  [ ".hubuwl N", "'a.hbAl N", ".hibAl N" ] -},
+                           {- `others`  [ "'a.hbul N", ".hubuwl N", "'a.hbAl N", ".hibAl N" ] -},
 
     -- ;; Habal_1
     -- Hbl     Habal   N       conception;pregnancy
@@ -4461,10 +4463,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     TaFaCCI |< At,
 
     -- ;; HAdiy_1
-    -- HAdy    HAdiy   N0      first (word in "11th", "21st", "31st", through "91st")     [[HAdiy/ADJ]]
-    -- HAdyp   HAdiyap N0      first (word in "11th", "21st", "31st", through "91st")     [[HAdiyap/ADJ]]
+    -- HAdy    HAdiy   N0      first (word in "11th" through "91st")     [[HAdiy/ADJ]]
+    -- HAdyp   HAdiyap N0      first (word in "11th" through "91st")     [[HAdiyap/ADJ]]
 
-    FACI                      `adj`     {- HAdiy -}            [ unwords [ "first", "(", "word", "in", "\"11th\",", "\"21st\",", "\"31st\",", "through", "\"91st\"", ")" ] ],
+    FACI                      `adj`     {- HAdiy -}            [ unwords [ "first", "(", "word", "in", "\"11th\"", "through", "\"91st\"", ")" ] ],
 
     -- ;; HAdiy_2
     -- HAdy    HAdiy   N0F     leader;cameleer
@@ -4496,10 +4498,10 @@ lexicon = listing "Lexicon's properties"
  |> ".h d y" <| [
 
     -- ;; HAdiy_1
-    -- HAdy    HAdiy   N0      first (word in "11th", "21st", "31st", through "91st")     [[HAdiy/ADJ]]
-    -- HAdyp   HAdiyap N0      first (word in "11th", "21st", "31st", through "91st")     [[HAdiyap/ADJ]]
+    -- HAdy    HAdiy   N0      first (word in "11th" through "91st")     [[HAdiy/ADJ]]
+    -- HAdyp   HAdiyap N0      first (word in "11th" through "91st")     [[HAdiyap/ADJ]]
 
-    FACI                      `adj`     {- HAdiy -}            [ unwords [ "first", "(", "word", "in", "\"11th\",", "\"21st\",", "\"31st\",", "through", "\"91st\"", ")" ] ],
+    FACI                      `adj`     {- HAdiy -}            [ unwords [ "first", "(", "word", "in", "\"11th\"", "through", "\"91st\"", ")" ] ],
 
     -- ;; HAdiy_2
     -- HAdy    HAdiy   N0F     leader;cameleer
@@ -4775,7 +4777,8 @@ lexicon = listing "Lexicon's properties"
     -- >Hf     >aHif~  Nap     sides;edges
     -- AHf     >aHif~  Nap     sides;edges
 
-    FiCAL                     `noun`    {- HifAf -}            [ "side", "edge" ],
+    FiCAL                     `noun`    {- HifAf -}            [ "side", "edge" ]
+                              `plural`     HaFiCL |< aT,
 
     -- ;; Hafiyf_1
     -- Hfyf    Hafiyf  N       rustling;murmuring
@@ -6497,9 +6500,9 @@ lexicon = listing "Lexicon's properties"
     FaCAL |< aT               `noun`    {- HalAwap -}          [ "Halawa" ],
 
     -- ;; HulowAn_1
-    -- HlwAn   HulowAn Ndip    Helwan (Egy.)
+    -- HlwAn   HulowAn Ndip    Helwan
 
-    FuCLAn                    `noun`    {- HulowAn -}          [ unwords [ "Helwan", "(", "Egy.", ")" ] ],
+    FuCLAn                    `noun`    {- HulowAn -}          [ "Helwan" ],
 
     -- ;; HulowAn_2
     -- HlwAn   HulowAn N       gratuity;tip
@@ -6795,9 +6798,9 @@ lexicon = listing "Lexicon's properties"
     MiFCaL |< aT              `noun`    {- miHomaSap -}        [ unwords [ "coffee", "roaster" ] ],
 
     -- ;; HimoS_1
-    -- HmS     HimoS   Ndip    Homs (Syr.)
+    -- HmS     HimoS   Ndip    Homs
 
-    FiCL                      `noun`    {- HimoS -}            [ unwords [ "Homs", "(", "Syr.", ")" ] ],
+    FiCL                      `noun`    {- HimoS -}            [ "Homs" ],
 
     -- ;; HimoSiy~_1
     -- HmSy    HimoSiy~        N0      Himsi
@@ -6805,9 +6808,9 @@ lexicon = listing "Lexicon's properties"
     FiCL |< Iy                `adj`     {- HimoSiy~ -}         [ "Himsi" ],
 
     -- ;; HimoSiy~_2
-    -- HmSy    HimoSiy~        Nall    from/of Homs (Syr.)
+    -- HmSy    HimoSiy~        Nall    from/of Homs
 
-    FiCL |< Iy                `adj`     {- HimoSiy~ -}         [ unwords [ "from", "/", "of", "Homs", "(", "Syr.", ")" ] ] ]
+    FiCL |< Iy                `adj`     {- HimoSiy~ -}         [ unwords [ "from", "/", "of", "Homs" ] ] ]
 
  |> ".h m .t" <| [
 
@@ -6990,9 +6993,9 @@ lexicon = listing "Lexicon's properties"
     KaRDaS                    `verb`    {- Hamodal -}          [ unwords [ "praising", "God" ] ],
 
     -- ;; Hamodalap_1
-    -- Hmdl    Hamodal Nap     praising God (saying "al-hamdu lillah" = "praise be to God")
+    -- Hmdl    Hamodal Nap     praising God (saying "al-hamdu lillah")
 
-    KaRDaS |< aT              `noun`    {- Hamodalap -}        [ unwords [ "praising", "God", "(", "saying", "\"al", "-", "hamdu", "lillah\"", "=", "\"praise", "be", "to", "God\"", ")" ] ] ]
+    KaRDaS |< aT              `noun`    {- Hamodalap -}        [ unwords [ "praising", "God", "(", "saying", "\"al", "-", "hamdu", "lillah\"", ")" ] ] ]
 
  |> ".h m d n" <| [
 
@@ -9419,7 +9422,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Harof -}            [ "letter" ]
                               `plural`     FuCUL
-                           {- `others`  [ ".huruwf N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ ".huruwf N", "'a.hruf N" ] -},
 
     -- ;; Harofiy~_1
     -- Hrfy    Harofiy~        N/ap    literal     [[Harofiy~/ADJ]]
@@ -13907,7 +13911,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HAyiym_1
     -- HAyym   HAyiym  Nprop   Haim;Chaim
 
-    Identity                  `noun`    {- HAyiym -}           [ "Haim", "Chaim" ] ]
+    Identity                  `noun`    {- HAyiym -}           [ "" {- "Haim" -}, "" {- "Chaim" -} ] ]
 
  |> ".hIna'i_diN" <| [
 
@@ -13935,7 +13939,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HaDoramawot_1
     -- HDrmwt  HaDoramawot     Ndip    Hadramaut
 
-    Identity                  `noun`    {- HaDoramawot -}      [ "Hadramaut" ] ]
+    Identity                  `noun`    {- HaDoramawot -}      [ "" {- "Hadramaut" -} ] ]
 
  |> ".ha.sAlubAn" <| [
 
@@ -13949,7 +13953,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Habaquwq_1
     -- Hbqwq   Habaquwq        Ndip    Habbakuk
 
-    Identity                  `noun`    {- Habaquwq -}         [ "Habbakuk" ] ]
+    Identity                  `noun`    {- Habaquwq -}         [ "" {- "Habbakuk" -} ] ]
 
  |> ".habba_dA" <| [
 
@@ -13977,7 +13981,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Halabojap_1
     -- Hlbjp   Halabojap       N0      Halabja
 
-    Identity |< aT            `noun`    {- Halabojap -}        [ "Halabja" ] ]
+    Identity |< aT            `noun`    {- Halabojap -}        [ "" {- "Halabja" -} ] ]
 
  |> ".halan^g" <| [
 
@@ -14004,28 +14008,28 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hamiydiy_1
     -- Hmydy   Hamiydiy        N0      Hameedi;Hamidi
 
-    Identity                  `noun`    {- Hamiydiy -}         [ "Hameedi", "Hamidi" ] ]
+    Identity                  `noun`    {- Hamiydiy -}         [ "" {- "Hameedi" -}, "" {- "Hamidi" -} ] ]
 
  |> ".hamdayn" <| [
 
     -- ;; Hamodayon_1
     -- Hmdyn   Hamodayon       N0      Hamdein;Hamdeen;Hamdain
 
-    Identity                  `noun`    {- Hamodayon -}        [ "Hamdein", "Hamdeen", "Hamdain" ] ]
+    Identity                  `noun`    {- Hamodayon -}        [ "" {- "Hamdein" -}, "" {- "Hamdeen" -}, "" {- "Hamdain" -} ] ]
 
  |> ".hammAdI" <| [
 
     -- ;; Ham~Adiy_1
     -- HmAdy   Ham~Adiy        N0      Hammadi
 
-    Identity                  `noun`    {- Ham~Adiy -}         [ "Hammadi" ] ]
+    Identity                  `noun`    {- Ham~Adiy -}         [ "" {- "Hammadi" -} ] ]
 
  |> ".hammAdT" <| [
 
     -- ;; Ham~Adp_1
     -- HmAdp   Ham~Adap        Nprop   Hammada
 
-    Identity                  `noun`    {- Ham~Adp -}          [ "Hammada" ] ]
+    Identity                  `noun`    {- Ham~Adp -}          [ "" {- "Hammada" -} ] ]
 
  |> ".hanAnay-" <| [
 
@@ -14036,7 +14040,7 @@ lexicon = listing "Lexicon's properties"
     -- HnAnykm HanAnayokum     FW-Wa   mercy! + you [masc.pl.]              [[HanAnay/INTERJ+kum/PRON_2MP]]
     -- HnAnykn HanAnayokun~a   FW-Wa   mercy! + you [fem.pl.]   [[HanAnay/INTERJ+kun~a/PRON_2FP]]
 
-    Identity                  `pron`    {- HanAnay- -}         [ unwords [ "mercy", "!", "+", "you", "[masc.sg.]" ], unwords [ "mercy", "!", "+", "you", "[fem.sg.]" ], unwords [ "mercy", "!", "+", "you", "both" ], unwords [ "mercy", "!", "+", "you", "[masc.pl.]" ], unwords [ "mercy", "!", "+", "you", "[fem.pl.]" ] ] ]
+    Identity                  `pron`    {- HanAnay- -}         [ unwords [ "mercy", "!", "+", "you" ], unwords [ "mercy", "!", "+", "you", "both" ] ] ]
 
  |> ".handaqUq" <| [
 
@@ -14066,7 +14070,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hasanayon_1
     -- Hsnyn   Hasanayon       N0      Hassanein
 
-    Identity                  `noun`    {- Hasanayon -}        [ "Hassanein" ] ]
+    Identity                  `noun`    {- Hasanayon -}        [ "" {- "Hassanein" -} ] ]
 
  |> ".hattamA" <| [
 
@@ -14089,14 +14093,14 @@ lexicon = listing "Lexicon's properties"
     -- HydrAbAd        Hayodar|bAd     Nprop   Hyderabad
     -- Hydr>bAd        Hayodar|bAd     Nprop   Hyderabad
 
-    Identity                  `noun`    {- Hayodar|bAd -}      [ "Hyderabad" ] ]
+    Identity                  `noun`    {- Hayodar|bAd -}      [ "" {- "Hyderabad" -} ] ]
 
  |> ".hayfA" <| [
 
     -- ;; HayofA_1
     -- HyfA    HayofA  Nprop   Haifa
 
-    Identity                  `noun`    {- HayofA -}           [ "Haifa" ] ]
+    Identity                  `noun`    {- HayofA -}           [ "" {- "Haifa" -} ] ]
 
  |> ".hazIrAn" <| [
 
@@ -14104,7 +14108,7 @@ lexicon = listing "Lexicon's properties"
     -- HzyrAn  HaziyrAn        Ndip    June
     -- HzyrAn  HuzayorAn       Ndip    June
 
-    Identity                  `noun`    {- HaziyrAn -}         [ "June" ] ]
+    Identity                  `noun`    {- HaziyrAn -}         [ "" {- "June" -} ] ]
 
  |> ".hikimdAr" <| [
 
@@ -14125,14 +14129,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hikomat_1
     -- Hkmt    Hikomat Nprop   Hikmat
 
-    Identity                  `noun`    {- Hikomat -}          [ "Hikmat" ] ]
+    Identity                  `noun`    {- Hikomat -}          [ "" {- "Hikmat" -} ] ]
 
  |> ".hikmatyAr" <| [
 
     -- ;; HikomatoyAr_1
     -- HkmtyAr HikomatoyAr     Nprop   Hikmatyar
 
-    Identity                  `noun`    {- HikomatoyAr -}      [ "Hikmatyar" ] ]
+    Identity                  `noun`    {- HikomatoyAr -}      [ "" {- "Hikmatyar" -} ] ]
 
  |> ".himalAyA" <| [
 
@@ -14140,7 +14144,7 @@ lexicon = listing "Lexicon's properties"
     -- HmlAyA  HimalAyA        N0      Himalayas;Himalayan
     -- HmAlAyA HimAlAyA        N0      Himalayas;Himalayan
 
-    Identity                  `noun`    {- HimalAyA -}         [ "Himalayas", "Himalayan" ] ]
+    Identity                  `noun`    {- HimalAyA -}         [ "" {- "Himalayas" -}, "" {- "Himalayan" -} ] ]
 
  |> ".hir_dawn" <| [
 
@@ -14155,7 +14159,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HujayolAn_1
     -- HjylAn  HujayolAn       N0      Hejailan;Hujailan
 
-    Identity                  `noun`    {- HujayolAn -}        [ "Hejailan", "Hujailan" ] ]
+    Identity                  `noun`    {- HujayolAn -}        [ "" {- "Hejailan" -}, "" {- "Hujailan" -} ] ]
 
  |> ".hubA.hib" <| [
 
@@ -14169,7 +14173,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Humayodiy_1
     -- Hmydy   Humayodiy       N0      Humaidi
 
-    Identity                  `noun`    {- Humayodiy -}        [ "Humaidi" ] ]
+    Identity                  `noun`    {- Humayodiy -}        [ "" {- "Humaidi" -} ] ]
 
  |> ".hummu.s" <| [
 
@@ -14181,7 +14185,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hum~uS_2
     -- HmS     Hum~uS  N0      Hummus;Homos
 
-    Identity                  `noun`    {- Hum~uS -}           [ "Hummus", "Homos" ] ]
+    Identity                  `noun`    {- Hum~uS -}           [ "" {- "Hummus" -}, "" {- "Homos" -} ] ]
 
  |> ".huway.sil" <| [
 
@@ -14217,7 +14221,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muHay~A_1
     -- mHyA    muHay~A N0      Muhaya;Muhayya
 
-    Identity                  `noun`    {- muHay~A -}          [ "Muhaya", "Muhayya" ] ]
+    Identity                  `noun`    {- muHay~A -}          [ "" {- "Muhaya" -}, "" {- "Muhayya" -} ] ]
 
  |> "mun.hAz" <| [
 

@@ -287,7 +287,7 @@ lexicon = listing "Lexicon's properties"
     FuCUL                     `noun`    {- wuSuwl -}           [ "receipt", "voucher" ]
                               `plural`     FuCUL |< At,
 
-    MaFCiL                    `noun`    {- mawoSil -}          [ unwords [ "Mosul", "(", "Iraq", ")" ] ],
+    MaFCiL                    `noun`    {- mawoSil -}          [ "Mosul" ],
 
     TaFCIL                    `noun`    {- tawoSiyl -}         [ "connection", "contact" ]
                               `plural`     TaFCIL |< At,
@@ -1002,7 +1002,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "w h r" <| [
 
-    FaCLAn                    `noun`    {- wahorAn -}          [ unwords [ "Oran", "(", "Alg.", ")" ] ] ]
+    FaCLAn                    `noun`    {- wahorAn -}          [ "Oran" ] ]
 
  |> "w h y" <| [
 

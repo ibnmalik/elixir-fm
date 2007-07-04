@@ -902,7 +902,8 @@ xrwb    xar~uwb N       carob;locust
 ;; xar~uwbap_1
 xrwb    xar~uwb Nap     carob bean;locust pod
 ;; xar~uwbap_2
-xrwb    xar~uwb NapAt   kharouba (dry measure, = 0.129 l.)
+xrwb    xar~uwb NapAt   kharouba
+; (dry measure, = 0.129 l.)
 ;; xar~uwbap_3
 xrwbp   xar~uwbap       N0      Kharroubeh
 xrwbh   xar~uwbap       N0      Kharroubeh
@@ -4221,10 +4222,10 @@ xwjp    xawojap N0      Khoja
 ;
 ;--- xwx
 ;; xawox_1
-xwx     xawox   N       peach (Egy.Ir.)
-xwx     xawox   N       plum (Lev.)
-xwx     xawox   NapAt   peach (Egy.Ir.)
-xwx     xawox   NapAt   plum (Lev.)
+xwx     xawox   N       peach
+xwx     xawox   N       plum
+xwx     xawox   NapAt   peach
+xwx     xawox   NapAt   plum
 ;
 ;; xaw~ax_1
 xwx     xaw~ax  PV      rot;decay;spoil

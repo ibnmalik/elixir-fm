@@ -299,7 +299,7 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL |< Iy              `adj`     {- manoSuwriy~ -}      [ "Mansouri" ],
 
-    MaFCUL |< Iy              `adj`     {- manoSuwriy~ -}      [ unwords [ "of", "/", "from", "Mansoura", "(", "Egy.", ")" ] ],
+    MaFCUL |< Iy              `adj`     {- manoSuwriy~ -}      [ unwords [ "of", "/", "from", "Mansoura" ] ],
 
     MuFACiL                   `noun`    {- munASir -}          [ "supported", "defender" ],
 
@@ -522,7 +522,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "n ^g f" <| [
 
-    FaCaL                     `noun`    {- najaf -}            [ unwords [ "Najaf", "(", "Iraq", ")" ] ],
+    FaCaL                     `noun`    {- najaf -}            [ "Najaf" ],
 
     FaCaL                     `noun`    {- najaf -}            [ "hill", "dune" ] ]
 
@@ -543,7 +543,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- najom -}            [ "star", "constellation" ]
                               `plural`     FuCUL
-                           {- `others`  [ "nu^guwm N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ "nu^guwm N", "'an^gum N" ] -},
 
     FaCL |< aT                `noun`    {- najomap -}          [ "star", "asterisk" ]
                               `plural`     FaCaL |< At,
@@ -830,8 +831,9 @@ lexicon = listing "Lexicon's properties"
     FaCCaL                    `verb`    {- naE~am -}           [ "soften", "pulverize" ],
 
     FiCL |< aT                `noun`    {- niEomap -}          [ "blessing" ]
+                              `plural`     HaFCuL
                               `plural`     FiCaL
-                           {- `others`  [ "ni`am N" ] -},
+                           {- `others`  [ "'an`um N", "ni`am N" ] -},
 
     FuCLAn                    `noun`    {- nuEomAn -}          [ "Nu'man" ],
 
@@ -1270,7 +1272,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "n f s" <| [
 
-    FaCL                      `noun`    {- nafos -}            [ "same", "self" ],
+    FaCL                      `noun`    {- nafos -}            [ "same", "self" ]
+                              `plural`     HaFCuL
+                           {- `others`  [ "'anfus N" ] -},
 
     FACaL                     `verb`    {- nAfas -}            [ unwords [ "compete", "with" ] ],
 
@@ -1278,7 +1282,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- nafos -}            [ "soul" ]
                               `plural`     FuCUL
-                           {- `others`  [ "nufuws N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ "nufuws N", "'anfus N" ] -},
 
     FaCL |< Iy                `adj`     {- nafosiy~ -}         [ "mental", "spiritual", "psychological" ],
 
@@ -1420,13 +1425,15 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- nahor -}            [ "river" ]
                               `plural`     HaFCAL
                               `plural`     FuCUL
-                           {- `others`  [ "'anhAr N", "nuhuwr N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ "'anhAr N", "nuhuwr N", "'anhur N" ] -},
 
     FaCL |< Iy                `adj`     {- nahoriy~ -}         [ "river", "fluvial" ],
 
     FaCAL                     `adv`     {- nahAr -}            [ "daytime", "day", unwords [ "by", "day" ] ]
                               `plural`     FuCuL
-                           {- `others`  [ "nuhur N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ "nuhur N", "'anhur N" ] -},
 
     FaCAL                     `noun`    {- nahAr -}            [ "Nahar" ],
 
@@ -1584,7 +1591,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "n m r" <| [
 
-    FuCUL                     `noun`    {- numuwr -}           [ unwords [ "Tigers", "(", "in", "\"Tamil", "Tigers\"", ")" ] ] ]
+    FuCUL                     `noun`    {- numuwr -}           [ "Tigers" ] ]
 
  |> "n m s '" <| [
 

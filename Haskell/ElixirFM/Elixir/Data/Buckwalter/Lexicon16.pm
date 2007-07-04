@@ -5011,7 +5011,7 @@ $Lexicon = {
       'form' => '.tuwbaT',
       'lines' => [
         ';; Tuwbap_1',
-        'Twbp    Tuwbap  N0      Tuba (5th Coptic month, Jan. 9-Feb. 7)'
+        'Twbp    Tuwbap  N0      Tuba'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5019,7 +5019,7 @@ $Lexicon = {
       'morphs' => 'FUL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'Tuba (5th Coptic month, Jan. 9-Feb. 7)'
+        'Tuba'
       ],
       'orig' => 'Tuwbap',
       'prefix' => ''
@@ -8615,7 +8615,7 @@ $Lexicon = {
       'form' => '.tarAbulus',
       'lines' => [
         ';; TarAbulus_1',
-        'TrAbls  TarAbulus       Ndip    Tripoli (Libya)'
+        'TrAbls  TarAbulus       Ndip    Tripoli'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8623,26 +8623,7 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Tripoli (Libya)'
-      ],
-      'orig' => 'TarAbulus',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '.tarAbulus',
-      'form' => '.tarAbulus',
-      'lines' => [
-        ';; TarAbulus_2',
-        'TrAbls  TarAbulus       Ndip    Tripoli (Leb.)'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Tripoli (Leb.)'
+        'Tripoli'
       ],
       'orig' => 'TarAbulus',
       'prefix' => ''
@@ -10279,7 +10260,11 @@ $Lexicon = {
         '>Tb     >aTib~  Nap     physicians;doctors',
         'ATb     >aTib~  Nap     physicians;doctors'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.tibb' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -13417,7 +13402,7 @@ $Lexicon = {
       'form' => '.tarAbulsiyy',
       'lines' => [
         ';; TarAbulosiy~_2',
-        'TrAblsy TarAbulosiy~    Nall    of/from Tripoli (Libya)    [[TarAbulosiy~/ADJ]]'
+        'TrAblsy TarAbulosiy~    Nall    of/from Tripoli     [[TarAbulosiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -13425,26 +13410,7 @@ $Lexicon = {
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'of/from Tripoli (Libya)'
-      ],
-      'orig' => 'TarAbulosiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '.tarAbuls',
-      'form' => '.tarAbulsiyy',
-      'lines' => [
-        ';; TarAbulosiy~_3',
-        'TrAblsy TarAbulosiy~    Nall    of/from Tripoli (Leb.)    [[TarAbulosiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '3',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'of/from Tripoli (Leb.)'
+        'of/from Tripoli'
       ],
       'orig' => 'TarAbulosiy~',
       'prefix' => ''
@@ -15484,7 +15450,7 @@ $Lexicon = {
       'form' => '.tan.tAwiyy',
       'lines' => [
         ';; TanoTAwiy~_1',
-        'TnTAwy  TanoTAwiy~      Nall    from/of Tanta [Egy.]     [[TanoTAwiy~/ADJ]]'
+        'TnTAwy  TanoTAwiy~      Nall    from/of Tanta      [[TanoTAwiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15492,7 +15458,7 @@ $Lexicon = {
       'morphs' => 'KaRDAS |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'from/of Tanta [Egy.]'
+        'from/of Tanta'
       ],
       'orig' => 'TanoTAwiy~',
       'prefix' => ''
@@ -20115,6 +20081,9 @@ $Lexicon = {
       'patterns' => {
         '.tuquwm' => [
           'FuCUL'
+        ],
+        '\'a.tqum' => [
+          'HaFCuL'
         ]
       },
       'index' => '1',
@@ -20149,6 +20118,9 @@ $Lexicon = {
         'ATqm    >aToqum N       crew'
       ],
       'patterns' => {
+        '\'a.tqum' => [
+          'HaFCuL'
+        ],
         '.tawAqim' => [
           'FawACiL'
         ]
@@ -20561,7 +20533,7 @@ $Lexicon = {
       'form' => '.tar.tuws',
       'lines' => [
         ';; TaroTuws_1',
-        'TrTws   TaroTuws        Ndip    Tartous (Syr.)'
+        'TrTws   TaroTuws        Ndip    Tartous'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20569,7 +20541,7 @@ $Lexicon = {
       'morphs' => 'KaRDUS',
       'suffix' => '',
       'glosses' => [
-        'Tartous (Syr.)'
+        'Tartous'
       ],
       'orig' => 'TaroTuws',
       'prefix' => ''
@@ -20580,7 +20552,7 @@ $Lexicon = {
       'form' => '.tar.tuwsiyy',
       'lines' => [
         ';; TaroTuwsiy~_1',
-        'TrTwsy  TaroTuwsiy~     Nall    of/from Tartous (Syr.)'
+        'TrTwsy  TaroTuwsiy~     Nall    of/from Tartous'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20588,7 +20560,7 @@ $Lexicon = {
       'morphs' => 'KaRDUS |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'of/from Tartous (Syr.)'
+        'of/from Tartous'
       ],
       'orig' => 'TaroTuwsiy~',
       'prefix' => ''

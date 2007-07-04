@@ -51,8 +51,9 @@ lexicon = listing "Lexicon's properties"
     FuCL                      `noun`    {- buWos -}            [ "dejection", "misery" ]
                               `plural`     FuCUL
                               `plural`     FuCLY
+                              `plural`     HaFCuL
                               `plural`     FaCLA'
-                           {- `others`  [ "bu'uws N", "bu'sY N0", "ba'sA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "bu'uws N", "bu'sY N0", "'ab'us N", "ba'sA' Nh N0_Nh Nhy" ] -},
 
     FACiL                     `noun`    {- bA}is -}            [ "dejected", "miserable" ] ]
 
@@ -139,7 +140,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                               `plural`     FiCAL
                               `plural`     FuCUL
-                           {- `others`  [ "'ab.hAr N", "bi.hAr N", "bu.huwr N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ "'ab.hAr N", "bi.hAr N", "bu.huwr N", "'ab.hur N" ] -},
 
     FaCL |< Iy                `adj`     {- baHoriy~ -}         [ "naval", "maritime" ],
 
@@ -246,7 +248,9 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- baTan-u -}          [ "hide", "conceal" ]
                               `imperf`     FCuL,
 
-    FaCL                      `noun`    {- baTon -}            [ "stomach", "depth", "interior" ],
+    FaCL                      `noun`    {- baTon -}            [ "stomach", "depth", "interior" ]
+                              `plural`     HaFCuL
+                           {- `others`  [ "'ab.tun N" ] -},
 
     FaCCAL |< Iy |< aT        `noun`    {- baT~Aniy~ap -}      [ "blanket" ]
                               `plural`     FaCACIL
@@ -667,7 +671,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- badan -}            [ "body" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'abdAn N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ "'abdAn N", "'abdun N" ] -},
 
     FaCaL |< Iy               `adj`     {- badaniy~ -}         [ "physical", "bodily" ],
 
@@ -836,7 +841,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- bakor -}            [ unwords [ "young", "camel" ] ]
                               `plural`     FuCLAn
-                           {- `others`  [ "bukrAn N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ "bukrAn N", "'abkur N" ] -},
 
     FaCL |< aT                `noun`    {- bakorap -}          [ "reel", "pulley", "winch" ]
                               `plural`     FaCaL |< At
@@ -1294,7 +1300,7 @@ lexicon = listing "Lexicon's properties"
 
     FACUL                     `noun`    {- bAruwd -}           [ "gunpowder" ],
 
-    FaCaLY                    `noun`    {- baradaY -}          [ unwords [ "Barada", "(", "river", "in", "Syr.", ")" ] ] ]
+    FaCaLY                    `noun`    {- baradaY -}          [ "Barada" ] ]
 
  |> "b r d `" <| [
 
@@ -1586,7 +1592,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "b w `" <| [
 
-    FAL                       `noun`    {- bAE -}              [ unwords [ "fathom", "(", "3", "meters", ")" ], unwords [ "fathoms", "(", "3", "meters", "ea.", ")" ] ]
+    FAL                       `noun`    {- bAE -}              [ "fathom" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'abwA` Ndip" ] -} ]
 

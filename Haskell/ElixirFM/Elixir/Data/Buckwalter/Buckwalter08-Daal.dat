@@ -4154,8 +4154,10 @@ dwn     duwn    N       inferior;poor
 dwnAld  duwnAld N0      Donald
 ;
 ;; duwnum_1
-dwnm    duwnum  Ndu     dunum (Lev. 919 sq. meters)
-dwnm    duwnum  NAt     dunums (Lev. 919 sq. meters ea.)
+dwnm    duwnum  Ndu     dunum
+; (Lev. 919 sq. meters)
+dwnm    duwnum  NAt     dunums
+; (Lev. 919 sq. meters ea.)
 ;
 ;--- dwhA
 ;; duwhAlodiy_1

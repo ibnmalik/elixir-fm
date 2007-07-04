@@ -532,6 +532,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- Habiyb -}           [ "dear", "beloved" ]
                               `plural`     HaFCAL
+                              `plural`     HaFiCL |< aT
                            {- `others`  [ "'a.hbAb N" ] -},
 
     HaFaCL                    `noun`    {- OaHab~ -}           [ "dearer", unwords [ "more", "/", "most", "desirable" ] ],
@@ -550,10 +551,11 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCaL,
 
     FaCL                      `noun`    {- Habol -}            [ "cord", "cable" ]
+                              `plural`     HaFCuL
                               `plural`     FuCUL
                               `plural`     HaFCAL
                               `plural`     FiCAL
-                           {- `others`  [ ".hubuwl N", "'a.hbAl N", ".hibAl N" ] -} ]
+                           {- `others`  [ "'a.hbul N", ".hubuwl N", "'a.hbAl N", ".hibAl N" ] -} ]
 
  |> ".h b s" <| [
 
@@ -736,7 +738,7 @@ lexicon = listing "Lexicon's properties"
     TaFaCCI                   `noun`    {- taHad~iy -}         [ "challenge" ]
                               `plural`     TaFaCCI |< At,
 
-    FACI                      `adj`     {- HAdiy -}            [ unwords [ "first", "(", "word", "in", "\"11th\",", "\"21st\",", "\"31st\",", "through", "\"91st\"", ")" ] ],
+    FACI                      `adj`     {- HAdiy -}            [ unwords [ "first", "(", "word", "in", "\"11th\"", "through", "\"91st\"", ")" ] ],
 
     FACI                      `noun`    {- HAdiy -}            [ "leader", "cameleer" ]
                               `plural`     FuCY |< aT
@@ -746,7 +748,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h d y" <| [
 
-    FACI                      `adj`     {- HAdiy -}            [ unwords [ "first", "(", "word", "in", "\"11th\",", "\"21st\",", "\"31st\",", "through", "\"91st\"", ")" ] ],
+    FACI                      `adj`     {- HAdiy -}            [ unwords [ "first", "(", "word", "in", "\"11th\"", "through", "\"91st\"", ")" ] ],
 
     FACI                      `noun`    {- HAdiy -}            [ "leader", "cameleer" ]
                               `plural`     FuCY |< aT
@@ -1147,7 +1149,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- HalAwap -}          [ "Halawa" ],
 
-    FuCLAn                    `noun`    {- HulowAn -}          [ unwords [ "Helwan", "(", "Egy.", ")" ] ],
+    FuCLAn                    `noun`    {- HulowAn -}          [ "Helwan" ],
 
     FuCLAn                    `noun`    {- HulowAn -}          [ "gratuity", "tip" ] ]
 
@@ -1189,7 +1191,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h m .s" <| [
 
-    FiCL                      `noun`    {- HimoS -}            [ unwords [ "Homs", "(", "Syr.", ")" ] ] ]
+    FiCL                      `noun`    {- HimoS -}            [ "Homs" ] ]
 
  |> ".h m d" <| [
 
@@ -1592,7 +1594,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Harof -}            [ "letter" ]
                               `plural`     FuCUL
-                           {- `others`  [ ".huruwf N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ ".huruwf N", "'a.hruf N" ] -},
 
     FaCL |< Iy                `adj`     {- Harofiy~ -}         [ "literal" ],
 

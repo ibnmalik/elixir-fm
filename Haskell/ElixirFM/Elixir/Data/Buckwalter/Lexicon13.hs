@@ -17,14 +17,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< At            `noun`    {- Oa$otAt -}          [ "varieties", "dispersed", "scattered" ] ]
 
- |> "'a^sudd" <| [
-
-    -- ;; >a$ud~_1
-    -- >$d     >a$ud~  N       maturity;climax
-    -- A$d     >a$ud~  N       maturity;climax
-
-    Identity                  `noun`    {- Oa$ud~ -}           [ "maturity", "climax" ] ]
-
  |> "'i^sAr^g" <| [
 
     -- ;; <i$Arojiy~_1
@@ -581,6 +573,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- \$aHiyH -}          [ "meager", "sparse", "stingy" ]
                               `plural`     FiCAL
+                              `plural`     HaFiCL |< aT
                            {- `others`  [ "^si.hA.h N" ] -},
 
     -- ;; mu$AH~ap_1
@@ -1146,8 +1139,9 @@ lexicon = listing "Lexicon's properties"
     -- A$Tr    >a$oTur N       portions
 
     FaCL                      `noun`    {- \$aTor -}           [ "portion" ]
+                              `plural`     HaFCuL
                               `plural`     FuCUL
-                           {- `others`  [ "^su.tuwr N" ] -},
+                           {- `others`  [ "'a^s.tur N", "^su.tuwr N" ] -},
 
     -- ;; $aTora_1
     -- \$Tr     $aTora  FW-Wa   towards     [[$aTora/PREP]]
@@ -2135,7 +2129,8 @@ lexicon = listing "Lexicon's properties"
     -- >$E     >a$iE~  Nap     rays
     -- A$E     >a$iE~  Nap     rays
 
-    FuCAL                     `noun`    {- \$uEAE -}           [ "rays" ],
+    FuCAL                     `noun`    {- \$uEAE -}           [ "rays" ]
+                              `plural`     HaFiCL |< aT,
 
     -- ;; $uEAEiy~_1
     -- \$EAEy   $uEAEiy~        N-ap    radiation     [[$uEAEiy~/ADJ]]
@@ -2897,9 +2892,9 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCL |< At,
 
     -- ;; $abAb_1
-    -- \$bAb    $abAb   N0      Jeunesse (in "Jeunesse de la Massira")
+    -- \$bAb    $abAb   N0      Jeunesse
 
-    FaCAL                     `noun`    {- \$abAb -}           [ unwords [ "Jeunesse", "(", "in", "\"Jeunesse", "de", "la", "Massira\"", ")" ] ],
+    FaCAL                     `noun`    {- \$abAb -}           [ "Jeunesse" ],
 
     -- ;; $abAbiy~_1
     -- \$bAby   $abAbiy~        N/ap    youthful;juvenile     [[$abAbiy~/ADJ]]
@@ -3454,7 +3449,8 @@ lexicon = listing "Lexicon's properties"
     -- >$d     >a$id~  Nap     saddles
     -- A$d     >a$id~  Nap     saddles
 
-    FaCAL                     `noun`    {- \$adAd -}           [ "saddle" ],
+    FaCAL                     `noun`    {- \$adAd -}           [ "saddle" ]
+                              `plural`     HaFiCL |< aT,
 
     -- ;; $ad~Ad_1
     -- \$dAd    $ad~Ad  N0      Shaddad
@@ -3485,6 +3481,12 @@ lexicon = listing "Lexicon's properties"
     -- A$d     >a$ad~  Nel     stronger/strongest;more/most intense
 
     HaFaCL                    `noun`    {- Oa$ad~ -}           [ unwords [ "stronger", "/", "strongest" ], unwords [ "more", "/", "most", "intense" ] ],
+
+    -- ;; >a$ud~_1
+    -- >$d     >a$ud~  N       maturity;climax
+    -- A$d     >a$ud~  N       maturity;climax
+
+    HaFuCL                    `noun`    {- Oa$ud~ -}           [ "maturity", "climax" ],
 
     -- ;; mi$ad~_1
     -- m$d     mi$ad~  NduAt   corset;stays
@@ -4614,12 +4616,12 @@ lexicon = listing "Lexicon's properties"
                               `plural`     IstiFCAL |< At,
 
     -- ;; {isoti$ohAdiy~_1
-    -- <st$hAdy        {isoti$ohAdiy~  Nall    martyr ("suicide" in Western media)     [[{isoti$ohAdiy~/NOUN]]
-    -- Ast$hAdy        {isoti$ohAdiy~  Nall    martyr ("suicide" in Western media)     [[{isoti$ohAdiy~/NOUN]]
-    -- <st$hAdy        {isoti$ohAdiy~  Nall    martyr ("suicide" in Western media)     [[{isoti$ohAdiy~/ADJ]]
-    -- Ast$hAdy        {isoti$ohAdiy~  Nall    martyr ("suicide" in Western media)     [[{isoti$ohAdiy~/ADJ]]
+    -- <st$hAdy        {isoti$ohAdiy~  Nall    martyr      [[{isoti$ohAdiy~/NOUN]]
+    -- Ast$hAdy        {isoti$ohAdiy~  Nall    martyr      [[{isoti$ohAdiy~/NOUN]]
+    -- <st$hAdy        {isoti$ohAdiy~  Nall    martyr      [[{isoti$ohAdiy~/ADJ]]
+    -- Ast$hAdy        {isoti$ohAdiy~  Nall    martyr      [[{isoti$ohAdiy~/ADJ]]
 
-    IstiFCAL |< Iy            `adj`     {- Aisoti$ohAdiy~ -}   [ unwords [ "martyr", "(", "\"suicide\"", "in", "Western", "media", ")" ] ] ]
+    IstiFCAL |< Iy            `adj`     {- Aisoti$ohAdiy~ -}   [ "martyr" ] ]
 
  |> "^s h l" <| [
 
@@ -4751,8 +4753,9 @@ lexicon = listing "Lexicon's properties"
     -- A$hr    >a$ohur N       months
 
     FaCL                      `noun`    {- \$ahor -}           [ "month" ]
+                              `plural`     HaFCuL
                               `plural`     FuCUL
-                           {- `others`  [ "^suhuwr N" ] -},
+                           {- `others`  [ "'a^shur N", "^suhuwr N" ] -},
 
     -- ;; $ahoriy~_1
     -- \$hry    $ahoriy~        N-ap    monthly     [[$ahoriy~/ADJ]]
@@ -7089,7 +7092,8 @@ lexicon = listing "Lexicon's properties"
     -- >$qA}   >a$iq~A}        Nhy     brothers
     -- A$qA}   >a$iq~A}        Nhy     brothers
 
-    FaCIL                     `noun`    {- \$aqiyq -}          [ "brother" ],
+    FaCIL                     `noun`    {- \$aqiyq -}          [ "brother" ]
+                              `plural`     HaFiCL |< aT,
 
     -- ;; $aqiyq_2
     -- \$qyq    $aqiyq  Ndu     fraternal;brotherly     [[$aqiyq/ADJ]]
@@ -8923,6 +8927,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- \$ariyr -}          [ "bad", "wicked", "evil" ]
                               `plural`     HaFCAL
+                              `plural`     HaFiCL |< aT
                            {- `others`  [ "'a^srAr N" ] -},
 
     -- ;; $ir~iyr_1
@@ -11339,7 +11344,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $Afiyz_1
     -- \$Afyz   $Afiyz  Nprop   Chavez
 
-    Identity                  `noun`    {- \$Afiyz -}          [ "Chavez" ] ]
+    Identity                  `noun`    {- \$Afiyz -}          [ "" {- "Chavez" -} ] ]
 
  |> "^sAhAn" <| [
 
@@ -11347,27 +11352,27 @@ lexicon = listing "Lexicon's properties"
     -- \$AhAny  $AhAniy~        Nall    Shah-related;imperial     [[$AhAniy~/NOUN]]
     -- \$AhAny  $AhAniy~        Nall    Shah-related;imperial     [[$AhAniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- \$AhAniy~ -}        [ unwords [ "Shah", "-", "related" ], "imperial" ] ]
+    Identity |< Iy            `adj`     {- \$AhAniy~ -}        [ unwords [ "" {- "Shah" -}, "-", "related" ], "imperial" ] ]
 
  |> "^sAhIn" <| [
 
     -- ;; $Ahiyn_1
     -- \$Ahyn   $Ahiyn  N0      Shaheen;Chahine
 
-    Identity                  `noun`    {- \$Ahiyn -}          [ "Shaheen", "Chahine" ],
+    Identity                  `noun`    {- \$Ahiyn -}          [ "" {- "Shaheen" -}, "" {- "Chahine" -} ],
 
     -- ;; $Ahiyn_2
     -- \$Ahyn   $Ahiyn  Ndu     shahin (Indian falcon)
     -- \$wAhyn  $awAhiyn        Ndip    shahins (Indian falcons)
 
-    Identity                  `noun`    {- \$Ahiyn -}          [ unwords [ "shahin", "(", "Indian", "falcon", ")" ], unwords [ "shahins", "(", "Indian", "falcons", ")" ] ] ]
+    Identity                  `noun`    {- \$Ahiyn -}          [ unwords [ "shahin", "(", "" {- "Indian" -}, "falcon", ")" ], unwords [ "shahins", "(", "" {- "Indian" -}, "falcons", ")" ] ] ]
 
  |> "^sAkIl" <| [
 
     -- ;; $Akiyl_1
     -- \$Akyl   $Akiyl  Nprop   Shaquille
 
-    Identity                  `noun`    {- \$Akiyl -}          [ "Shaquille" ] ]
+    Identity                  `noun`    {- \$Akiyl -}          [ "" {- "Shaquille" -} ] ]
 
  |> "^sAlIh" <| [
 
@@ -11381,28 +11386,28 @@ lexicon = listing "Lexicon's properties"
     -- ;; $Alokih_1
     -- \$Alkh   $Alokih Nprop   Schalke
 
-    Identity                  `noun`    {- \$Alokih -}         [ "Schalke" ] ]
+    Identity                  `noun`    {- \$Alokih -}         [ "" {- "Schalke" -} ] ]
 
  |> "^sAmIr" <| [
 
     -- ;; $Amiyr_1
     -- \$Amyr   $Amyr   Nprop   Shamir
 
-    Identity                  `noun`    {- \$Amiyr -}          [ "Shamir" ] ]
+    Identity                  `noun`    {- \$Amiyr -}          [ "" {- "Shamir" -} ] ]
 
  |> "^sAm_hAnI" <| [
 
     -- ;; $AmoxAniy_1
     -- \$AmxAny $AmoxAniy       Nprop   Shamkhani
 
-    Identity                  `noun`    {- \$AmoxAniy -}       [ "Shamkhani" ] ]
+    Identity                  `noun`    {- \$AmoxAniy -}       [ "" {- "Shamkhani" -} ] ]
 
  |> "^sAn.ghAy" <| [
 
     -- ;; $AngohAy_1
     -- \$AnghAy $AngohAy        N0      Shanghai
 
-    Identity                  `noun`    {- \$AngohAy -}        [ "Shanghai" ] ]
+    Identity                  `noun`    {- \$AngohAy -}        [ "" {- "Shanghai" -} ] ]
 
  |> "^sAntA^g" <| [
 
@@ -11416,14 +11421,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; $Arobiynog_1
     -- \$Arbyng $Arobiynog      Nprop   Scharping
 
-    Identity                  `noun`    {- \$Arobiynog -}      [ "Scharping" ] ]
+    Identity                  `noun`    {- \$Arobiynog -}      [ "" {- "Scharping" -} ] ]
 
  |> "^sAtIlA" <| [
 
     -- ;; $AtiylA_1
     -- \$AtylA  $AtiylA Nprop   Shatila;Shatilla
 
-    Identity                  `noun`    {- \$AtiylA -}         [ "Shatila", "Shatilla" ] ]
+    Identity                  `noun`    {- \$AtiylA -}         [ "" {- "Shatila" -}, "" {- "Shatilla" -} ] ]
 
  |> "^sAtIs.gAr" <| [
 
@@ -11431,7 +11436,7 @@ lexicon = listing "Lexicon's properties"
     -- \$AtysgAr        $AtysgAr        Nprop   Chattisgarh
     -- \$hAtysgAr       $hAtysgAr       Nprop   Chattisgarh
 
-    Identity                  `noun`    {- \$AtiysgAr -}       [ "Chattisgarh" ] ]
+    Identity                  `noun`    {- \$AtiysgAr -}       [ "" {- "Chattisgarh" -} ] ]
 
  |> "^sAwI^s" <| [
 
@@ -11462,21 +11467,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; $Awu$_2
     -- \$Aw$    $Awu$   N0      Shawsh;Chaouch
 
-    Identity                  `noun`    {- \$Awu$ -}           [ "Shawsh", "Chaouch" ] ]
+    Identity                  `noun`    {- \$Awu$ -}           [ "" {- "Shawsh" -}, "" {- "Chaouch" -} ] ]
 
  |> "^sAyniyU" <| [
 
     -- ;; $Ayoniyuw_1
     -- \$Aynyw  $Ayoniyuw       Nprop   Shineo
 
-    Identity                  `noun`    {- \$Ayoniyuw -}       [ "Shineo" ] ]
+    Identity                  `noun`    {- \$Ayoniyuw -}       [ "" {- "Shineo" -} ] ]
 
  |> "^sIfrUn" <| [
 
     -- ;; $iyforuwn_1
     -- \$yfrwn  $iyforuwn       Nprop   Chevron
 
-    Identity                  `noun`    {- \$iyforuwn -}       [ "Chevron" ] ]
+    Identity                  `noun`    {- \$iyforuwn -}       [ "" {- "Chevron" -} ] ]
 
  |> "^sIkA.gU" <| [
 
@@ -11484,7 +11489,7 @@ lexicon = listing "Lexicon's properties"
     -- \$ykAgw  $iykAguw        Nprop   Chicago
     -- \$ykAjw  $iykAjuw        Nprop   Chicago
 
-    Identity                  `noun`    {- \$iykAguw -}        [ "Chicago" ] ]
+    Identity                  `noun`    {- \$iykAguw -}        [ "" {- "Chicago" -} ] ]
 
  |> "^sIlA" <| [
 
@@ -11492,7 +11497,7 @@ lexicon = listing "Lexicon's properties"
     -- \$ylA    $iylA   Nprop   Chela;Sheila
     -- \$yly    $iyliy  N0      Chile
 
-    Identity                  `noun`    {- \$iylA -}           [ "Chela", "Sheila", "Chile" ] ]
+    Identity                  `noun`    {- \$iylA -}           [ "" {- "Chela" -}, "" {- "Sheila" -}, "" {- "Chile" -} ] ]
 
  |> "^sIlmAn" <| [
 
@@ -11515,14 +11520,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; $iynAmAsA_1
     -- \$ynAmAsA        $iynAmAsA       Nprop   Chinamasa
 
-    Identity                  `noun`    {- \$iynAmAsA -}       [ "Chinamasa" ] ]
+    Identity                  `noun`    {- \$iynAmAsA -}       [ "" {- "Chinamasa" -} ] ]
 
  |> "^sIrAtUn" <| [
 
     -- ;; $iyrAtuwn_1
     -- \$yrAtwn $iyrAtuwn       N0      Sheraton
 
-    Identity                  `noun`    {- \$iyrAtuwn -}       [ "Sheraton" ] ]
+    Identity                  `noun`    {- \$iyrAtuwn -}       [ "" {- "Sheraton" -} ] ]
 
  |> "^sIra^g" <| [
 
@@ -11550,14 +11555,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; $uwbayr_1
     -- \$wbyr   $wbyr   Nprop   Shubair
 
-    Identity                  `noun`    {- \$uwbayr -}         [ "Shubair" ] ]
+    Identity                  `noun`    {- \$uwbayr -}         [ "" {- "Shubair" -} ] ]
 
  |> "^sUdrI" <| [
 
     -- ;; $uwdoriy_1
     -- \$wdry   $uwdoriy        Nprop   Chaudhry
 
-    Identity                  `noun`    {- \$uwdoriy -}        [ "Chaudhry" ] ]
+    Identity                  `noun`    {- \$uwdoriy -}        [ "" {- "Chaudhry" -} ] ]
 
  |> "^sUfInIy" <| [
 
@@ -11576,14 +11581,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; $uwsotiykuwf_1
     -- \$wstykwf        $uwsotiykuwf    Nprop   Shustikov
 
-    Identity                  `noun`    {- \$uwsotiykuwf -}    [ "Shustikov" ] ]
+    Identity                  `noun`    {- \$uwsotiykuwf -}    [ "" {- "Shustikov" -} ] ]
 
  |> "^sUstir" <| [
 
     -- ;; $uwsotir_1
     -- \$wstr   $uwsotir        Nprop   Schuster
 
-    Identity                  `noun`    {- \$uwsotir -}        [ "Schuster" ] ]
+    Identity                  `noun`    {- \$uwsotir -}        [ "" {- "Schuster" -} ] ]
 
  |> "^sa.g.gIl" <| [
 
@@ -11628,14 +11633,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; $abaEA_1
     -- \$bEA    $abaEA  FW      Shabaa
 
-    Identity                  `noun`    {- \$abaEA -}          [ "Shabaa" ] ]
+    Identity                  `noun`    {- \$abaEA -}          [ "" {- "Shabaa" -} ] ]
 
  |> "^sabak^sI" <| [
 
     -- ;; $abako$iy_1
     -- \$bk$y   $abako$iy       Nprop   Shabakshi
 
-    Identity                  `noun`    {- \$abako$iy -}       [ "Shabakshi" ] ]
+    Identity                  `noun`    {- \$abako$iy -}       [ "" {- "Shabakshi" -} ] ]
 
  |> "^sam`adAn" <| [
 
@@ -11680,21 +11685,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; $angohAy_1
     -- \$nghAy  $angohAy        Nprop   Shanghai
 
-    Identity                  `noun`    {- \$angohAy -}        [ "Shanghai" ] ]
+    Identity                  `noun`    {- \$angohAy -}        [ "" {- "Shanghai" -} ] ]
 
  |> "^sarI`AtI" <| [
 
     -- ;; $ariyEAtiy_1
     -- \$ryEAty $ariyEAtiy      N0      Shariati
 
-    Identity                  `noun`    {- \$ariyEAtiy -}      [ "Shariati" ] ]
+    Identity                  `noun`    {- \$ariyEAtiy -}      [ "" {- "Shariati" -} ] ]
 
  |> "^sarIfbUr" <| [
 
     -- ;; $ariyfobuwr_1
     -- \$ryfbwr $ariyfobuwr     N0      Sharifpour
 
-    Identity                  `noun`    {- \$ariyfobuwr -}     [ "Sharifpour" ] ]
+    Identity                  `noun`    {- \$ariyfobuwr -}     [ "" {- "Sharifpour" -} ] ]
 
  |> "^sawA_d_d" <| [
 
@@ -11723,21 +11728,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; $aw~A_1
     -- \$wA     $aw~A   N0      Shawwa
 
-    Identity                  `noun`    {- \$aw~A -}           [ "Shawwa" ] ]
+    Identity                  `noun`    {- \$aw~A -}           [ "" {- "Shawwa" -} ] ]
 
  |> "^sbI.gil" <| [
 
     -- ;; $biygil_1
     -- \$bygl   $biygil Nprop   Spiegel
 
-    Identity                  `noun`    {- \$biygil -}         [ "Spiegel" ] ]
+    Identity                  `noun`    {- \$biygil -}         [ "" {- "Spiegel" -} ] ]
 
  |> "^shAtIs.gAr" <| [
 
     -- ;; $hAtiysgAr_1
     -- \$hAtysgAr       $hAtiysgAr      Nprop   Chattisgarh
 
-    Identity                  `noun`    {- \$hAtiysgAr -}      [ "Chattisgarh" ] ]
+    Identity                  `noun`    {- \$hAtiysgAr -}      [ "" {- "Chattisgarh" -} ] ]
 
  |> "^si^sm" <| [
 
@@ -11773,7 +11778,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $ifto$inokuw_1
     -- \$ft$nkw $ifto$inokuw    Nprop   Shevchenko
 
-    Identity                  `noun`    {- \$ifto$inokuw -}    [ "Shevchenko" ] ]
+    Identity                  `noun`    {- \$ifto$inokuw -}    [ "" {- "Shevchenko" -} ] ]
 
  |> "^sifti^sI" <| [
 
@@ -11787,7 +11792,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $ikosbiyr_1
     -- \$ksbyr  $ikosbiyr       Nprop   Shakespeare
 
-    Identity                  `noun`    {- \$ikosbiyr -}       [ "Shakespeare" ] ]
+    Identity                  `noun`    {- \$ikosbiyr -}       [ "" {- "Shakespeare" -} ] ]
 
  |> "^silin" <| [
 
@@ -11802,63 +11807,63 @@ lexicon = listing "Lexicon's properties"
     -- \$nwdp   $inuwdap        Nprop   Shenouda
     -- \$nwdh   $inuwdah        Nprop   Shenouda
 
-    Identity |< aT            `noun`    {- \$inuwdap -}        [ "Shenouda" ] ]
+    Identity |< aT            `noun`    {- \$inuwdap -}        [ "" {- "Shenouda" -} ] ]
 
  |> "^slAdkUfA" <| [
 
     -- ;; $lAdokuwfA_1
     -- \$lAdkwfA        $lAdokuwfA      Nprop   Chladkova
 
-    Identity                  `noun`    {- \$lAdokuwfA -}      [ "Chladkova" ] ]
+    Identity                  `noun`    {- \$lAdokuwfA -}      [ "" {- "Chladkova" -} ] ]
 
  |> "^slUmU" <| [
 
     -- ;; $luwmuw_1
     -- \$lwmw   $luwmuw Nprop   Shlomo
 
-    Identity                  `noun`    {- \$luwmuw -}         [ "Shlomo" ] ]
+    Identity                  `noun`    {- \$luwmuw -}         [ "" {- "Shlomo" -} ] ]
 
  |> "^snAydar" <| [
 
     -- ;; $nAyodar_1
     -- \$nAydr  $nAyodar        Nprop   Schneider
 
-    Identity                  `noun`    {- \$nAyodar -}        [ "Schneider" ] ]
+    Identity                  `noun`    {- \$nAyodar -}        [ "" {- "Schneider" -} ] ]
 
  |> "^srIti.h" <| [
 
     -- ;; $riytiH_1
     -- \$rytH   $riytiH Nprop   Shriteh
 
-    Identity                  `noun`    {- \$riytiH -}         [ "Shriteh" ] ]
+    Identity                  `noun`    {- \$riytiH -}         [ "" {- "Shriteh" -} ] ]
 
  |> "^srUdir" <| [
 
     -- ;; $ruwdir_1
     -- \$rwdr   $ruwdir Nprop   Schroder
 
-    Identity                  `noun`    {- \$ruwdir -}         [ "Schroder" ] ]
+    Identity                  `noun`    {- \$ruwdir -}         [ "" {- "Schroder" -} ] ]
 
  |> "^stAyn" <| [
 
     -- ;; $tAyn_1
     -- \$tAyn   $tAyn   Nprop   Stein
 
-    Identity                  `noun`    {- \$tAyn -}           [ "Stein" ] ]
+    Identity                  `noun`    {- \$tAyn -}           [ "" {- "Stein" -} ] ]
 
  |> "^stIrn" <| [
 
     -- ;; $tiyron_1
     -- \$tyrn   $tiyron Nprop   Stern
 
-    Identity                  `noun`    {- \$tiyron -}         [ "Stern" ] ]
+    Identity                  `noun`    {- \$tiyron -}         [ "" {- "Stern" -} ] ]
 
  |> "^stUt.gArt" <| [
 
     -- ;; $tuwtogArot_1
     -- \$twtgArt        $tuwtogArot     Nprop   Stuttgart
 
-    Identity                  `noun`    {- \$tuwtogArot -}     [ "Stuttgart" ] ]
+    Identity                  `noun`    {- \$tuwtogArot -}     [ "" {- "Stuttgart" -} ] ]
 
  |> "^sukUlAt" <| [
 
@@ -11876,14 +11881,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; $utanobir_1
     -- \$tnbr   $utanobir       N0      September (Maghrebi spelling)
 
-    Identity                  `noun`    {- \$utanobir -}       [ unwords [ "September", "(", "Maghrebi", "spelling", ")" ] ] ]
+    Identity                  `noun`    {- \$utanobir -}       [ unwords [ "" {- "September" -}, "(", "" {- "Maghrebi" -}, "spelling", ")" ] ] ]
 
  |> "^suwitlar" <| [
 
     -- ;; $uwitolar_1
     -- \$wtlr   $uwitolar       Nprop   Schuettler
 
-    Identity                  `noun`    {- \$uwitolar -}       [ "Schuettler" ] ]
+    Identity                  `noun`    {- \$uwitolar -}       [ "" {- "Schuettler" -} ] ]
 
  |> "^suyayy'" <| [
 
@@ -11897,7 +11902,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $wArtz_1
     -- \$wArtz  $wArtz  Nprop   Schwartz;Schwarz
 
-    Identity                  `noun`    {- \$wArtz -}          [ "Schwartz", "Schwarz" ] ]
+    Identity                  `noun`    {- \$wArtz -}          [ "" {- "Schwartz" -}, "" {- "Schwarz" -} ] ]
 
  |> "mu^sa^s_han" <| [
 

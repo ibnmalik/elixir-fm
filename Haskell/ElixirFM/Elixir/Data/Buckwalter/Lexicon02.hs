@@ -260,8 +260,9 @@ lexicon = listing "Lexicon's properties"
     FuCL                      `noun`    {- buWos -}            [ "dejection", "misery" ]
                               `plural`     FuCUL
                               `plural`     FuCLY
+                              `plural`     HaFCuL
                               `plural`     FaCLA'
-                           {- `others`  [ "bu'uws N", "bu'sY N0", "ba'sA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "bu'uws N", "bu'sY N0", "'ab'us N", "ba'sA' Nh N0_Nh Nhy" ] -},
 
     -- ;; ba}iys_1
     -- b}ys    ba}iys  Nall    dejected;miserable
@@ -592,9 +593,9 @@ lexicon = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- bugo$ap -}          [ unwords [ "bughsha", "(", "Yemeni", "copper", "coin", ")" ] ],
 
     -- ;; bugA$ap_1
-    -- bgA$    bugA$   NapAt   boughashah ("cigar" pastries with walnut filling)
+    -- bgA$    bugA$   NapAt   boughashah
 
-    FuCAL |< aT               `noun`    {- bugA$ap -}          [ unwords [ "boughashah", "(", "\"cigar\"", "pastries", "with", "walnut", "filling", ")" ] ] ]
+    FuCAL |< aT               `noun`    {- bugA$ap -}          [ "boughashah" ] ]
 
  |> "b .g _t" <| [
 
@@ -1160,7 +1161,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                               `plural`     FiCAL
                               `plural`     FuCUL
-                           {- `others`  [ "'ab.hAr N", "bi.hAr N", "bu.huwr N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ "'ab.hAr N", "bi.hAr N", "bu.huwr N", "'ab.hur N" ] -},
 
     -- ;; baHoriy~_1
     -- bHry    baHoriy~        Nall    naval;maritime     [[baHoriy~/ADJ]]
@@ -2087,7 +2089,9 @@ lexicon = listing "Lexicon's properties"
     -- >bTn    >aboTun N       stomachs;interior
     -- AbTn    >aboTun N       stomachs;interior
 
-    FaCL                      `noun`    {- baTon -}            [ "stomach", "depth", "interior" ],
+    FaCL                      `noun`    {- baTon -}            [ "stomach", "depth", "interior" ]
+                              `plural`     HaFCuL
+                           {- `others`  [ "'ab.tun N" ] -},
 
     -- ;; buTuwn_1
     -- bTwn    buTuwn  N       interior
@@ -4741,7 +4745,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- badan -}            [ "body" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'abdAn N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ "'abdAn N", "'abdun N" ] -},
 
     -- ;; badaniy~_1
     -- bdny    badaniy~        Nall    physical;bodily     [[badaniy~/ADJ]]
@@ -6083,7 +6088,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- bakor -}            [ unwords [ "young", "camel" ] ]
                               `plural`     FuCLAn
-                           {- `others`  [ "bukrAn N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ "bukrAn N", "'abkur N" ] -},
 
     -- ;; bikor_1
     -- bkr     bikor   N       eldest;first-born     [[bikor/ADJ]]
@@ -9789,9 +9795,9 @@ lexicon = listing "Lexicon's properties"
     FaCL |< Iy |< aT          `noun`    {- barodiy~ap -}       [ "papyrology" ],
 
     -- ;; baradaY_1
-    -- brdY    baradaY N0      Barada (river in Syr.)
+    -- brdY    baradaY N0      Barada
 
-    FaCaLY                    `noun`    {- baradaY -}          [ unwords [ "Barada", "(", "river", "in", "Syr.", ")" ] ],
+    FaCaLY                    `noun`    {- baradaY -}          [ "Barada" ],
 
     -- ;; burayodap_1
     -- brydp   burayodap       N0      Bureida
@@ -10250,9 +10256,9 @@ lexicon = listing "Lexicon's properties"
     KiRDUS |< Iy              `adj`     {- biromuwdiy~ -}      [ "Bermudan" ],
 
     -- ;; baromuwdap_1
-    -- brmwdp  baromuwdap      N0      Barmudah (8th Coptic month, Apr. 9-May 8)
+    -- brmwdp  baromuwdap      N0      Barmudah
 
-    KaRDUS |< aT              `noun`    {- baromuwdap -}       [ unwords [ "Barmudah", "(", "8th", "Coptic", "month,", "Apr.", "9", "-", "May", "8", ")" ] ] ]
+    KaRDUS |< aT              `noun`    {- baromuwdap -}       [ "Barmudah" ] ]
 
  |> "b r m l" <| [
 
@@ -11410,15 +11416,15 @@ lexicon = listing "Lexicon's properties"
  |> "b s m l" <| [
 
     -- ;; basomal_1
-    -- bsml    basomal PV      say "bismillah" (in the name of God, the Merciful, the Compassionate)
-    -- bsml    basomil IV_yu   say "bismillah" (in the name of God, the Merciful, the Compassionate)
+    -- bsml    basomal PV      say "bismillah"
+    -- bsml    basomil IV_yu   say "bismillah"
 
-    KaRDaS                    `verb`    {- basomal -}          [ unwords [ "say", "\"bismillah\"", "(", "in", "the", "name", "of", "God,", "the", "Merciful,", "the", "Compassionate", ")" ] ],
+    KaRDaS                    `verb`    {- basomal -}          [ unwords [ "say", "\"bismillah\"" ] ],
 
     -- ;; basomalap_1
-    -- bsml    basomal NapAt   "bismillah" (in the name of God, the Merciful, the Compassionate)
+    -- bsml    basomal NapAt   "bismillah"
 
-    KaRDaS |< aT              `noun`    {- basomalap -}        [ unwords [ "\"bismillah\"", "(", "in", "the", "name", "of", "God,", "the", "Merciful,", "the", "Compassionate", ")" ] ] ]
+    KaRDaS |< aT              `noun`    {- basomalap -}        [ "\"bismillah\"" ] ]
 
  |> "b s n" <| [
 
@@ -12055,14 +12061,14 @@ lexicon = listing "Lexicon's properties"
  |> "b w .z" <| [
 
     -- ;; buwZap_1
-    -- bwZ     buwZ    Nap     ice-cream (Levant)
+    -- bwZ     buwZ    Nap     ice-cream
 
-    FUL |< aT                 `noun`    {- buwZap -}           [ unwords [ "ice", "-", "cream", "(", "Levant", ")" ] ],
+    FUL |< aT                 `noun`    {- buwZap -}           [ unwords [ "ice", "-", "cream" ] ],
 
     -- ;; buwZap_2
-    -- bwZ     buwZ    Nap     beer (Egy.)
+    -- bwZ     buwZ    Nap     beer
 
-    FUL |< aT                 `noun`    {- buwZap -}           [ unwords [ "beer", "(", "Egy.", ")" ] ] ]
+    FUL |< aT                 `noun`    {- buwZap -}           [ "beer" ] ]
 
  |> "b w ^g h" <| [
 
@@ -12167,11 +12173,11 @@ lexicon = listing "Lexicon's properties"
     FUL                       `noun`    {- buwE -}             [ "metatarsal" ],
 
     -- ;; bAE_1
-    -- bAE     bAE     Ndu     fathom (3 meters)
-    -- >bwAE   >abowAE Ndip    fathoms (3 meters ea.)
-    -- AbwAE   >abowAE Ndip    fathoms (3 meters ea.)
+    -- bAE     bAE     Ndu     fathom
+    -- >bwAE   >abowAE Ndip    fathoms
+    -- AbwAE   >abowAE Ndip    fathoms
 
-    FAL                       `noun`    {- bAE -}              [ unwords [ "fathom", "(", "3", "meters", ")" ], unwords [ "fathoms", "(", "3", "meters", "ea.", ")" ] ]
+    FAL                       `noun`    {- bAE -}              [ "fathom" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'abwA` Ndip" ] -} ]
 
@@ -13949,7 +13955,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bAjiyuw_1
     -- bAjyw   bAjiyuw Nprop   Baggio
 
-    Identity                  `noun`    {- bAjiyuw -}          [ "Baggio" ] ]
+    Identity                  `noun`    {- bAjiyuw -}          [ "" {- "Baggio" -} ] ]
 
  |> "bA^s.hakIm" <| [
 
@@ -13986,7 +13992,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bA$kAyA_1
     -- bA$kAyA bA$kAyA Nprop   Bashkaya
 
-    Identity                  `noun`    {- bA$kAyA -}          [ "Bashkaya" ] ]
+    Identity                  `noun`    {- bA$kAyA -}          [ "" {- "Bashkaya" -} ] ]
 
  |> "bA^smufatti^s" <| [
 
@@ -14014,7 +14020,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bA$oqirod_1
     -- bA$qrd  bA$oqirod       N       Bashkir
 
-    Identity                  `noun`    {- bA$oqirod -}        [ "Bashkir" ] ]
+    Identity                  `noun`    {- bA$oqirod -}        [ "" {- "Bashkir" -} ] ]
 
  |> "bA_din^gAn" <| [
 
@@ -14037,42 +14043,42 @@ lexicon = listing "Lexicon's properties"
     -- bAvwlwjyA       bAvuwluwjiyA    N0      pathology
     -- bAjbyr  bAjobiyr        N0      Bajbeir
 
-    Identity                  `noun`    {- bAvuwluwjiyA -}     [ "pathology", "Bajbeir" ] ]
+    Identity                  `noun`    {- bAvuwluwjiyA -}     [ "pathology", "" {- "Bajbeir" -} ] ]
 
  |> "bA`ubayd" <| [
 
     -- ;; bAEubayod_1
     -- bAEbyd  bAEubayod       N0      Baobaid
 
-    Identity                  `noun`    {- bAEubayod -}        [ "Baobaid" ] ]
+    Identity                  `noun`    {- bAEubayod -}        [ "" {- "Baobaid" -} ] ]
 
  |> "bAbA" <| [
 
     -- ;; bAbA_1
     -- bAbA    bAbA    N0      Pope
 
-    Identity                  `noun`    {- bAbA -}             [ "Pope" ] ]
+    Identity                  `noun`    {- bAbA -}             [ "" {- "Pope" -} ] ]
 
  |> "bAbAmUbIl" <| [
 
     -- ;; bAbAmuwbiyl_1
     -- bAbAmwbyl       bAbAmuwbiyl     N0      Popemobile
 
-    Identity                  `noun`    {- bAbAmuwbiyl -}      [ "Popemobile" ] ]
+    Identity                  `noun`    {- bAbAmuwbiyl -}      [ "" {- "Popemobile" -} ] ]
 
  |> "bAbAndriyU" <| [
 
     -- ;; bAbAnodriyuw_1
     -- bAbAndryw       bAbAnodriyuw    Nprop   Papandreou
 
-    Identity                  `noun`    {- bAbAnodriyuw -}     [ "Papandreou" ] ]
+    Identity                  `noun`    {- bAbAnodriyuw -}     [ "" {- "Papandreou" -} ] ]
 
  |> "bAbIt^sIf" <| [
 
     -- ;; bAbiyt$iyf_1
     -- bAbyt$yf        bAbiyt$iyf      Nprop   Babichev
 
-    Identity                  `noun`    {- bAbiyt$iyf -}       [ "Babichev" ] ]
+    Identity                  `noun`    {- bAbiyt$iyf -}       [ "" {- "Babichev" -} ] ]
 
  |> "bAbU^g" <| [
 
@@ -14115,55 +14121,55 @@ lexicon = listing "Lexicon's properties"
     -- ;; bAbih_1
     -- bAbh    bAbih   N0      Babih
 
-    Identity                  `noun`    {- bAbih -}            [ "Babih" ] ]
+    Identity                  `noun`    {- bAbih -}            [ "" {- "Babih" -} ] ]
 
  |> "bAbil" <| [
 
     -- ;; bAbil_1
     -- bAbl    bAbil   N       Babel;Babylon
 
-    Identity                  `noun`    {- bAbil -}            [ "Babel", "Babylon" ],
+    Identity                  `noun`    {- bAbil -}            [ "" {- "Babel" -}, "" {- "Babylon" -} ],
 
     -- ;; bAbiliy~_1
     -- bAbly   bAbiliy~        Nall    Babylonian     [[bAbiliy~/NOUN]]
     -- bAbly   bAbiliy~        Nall    Babylonian     [[bAbiliy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- bAbiliy~ -}         [ "Babylonian" ] ]
+    Identity |< Iy            `adj`     {- bAbiliy~ -}         [ "" {- "Babylonian" -} ] ]
 
  |> "bAblU" <| [
 
     -- ;; bAboluw_1
     -- bAblw   bAboluw Nprop   Pablo
 
-    Identity                  `noun`    {- bAboluw -}          [ "Pablo" ] ]
+    Identity                  `noun`    {- bAboluw -}          [ "" {- "Pablo" -} ] ]
 
  |> "bAfAriyA" <| [
 
     -- ;; bAfAriyA_1
     -- bAfAryA bAfAriyA        Nprop   Bavaria
 
-    Identity                  `noun`    {- bAfAriyA -}         [ "Bavaria" ] ]
+    Identity                  `noun`    {- bAfAriyA -}         [ "" {- "Bavaria" -} ] ]
 
  |> "bAflUf" <| [
 
     -- ;; bAfoluwf_1
     -- bAflwf  bAfoluwf        Nprop   Pavlov
 
-    Identity                  `noun`    {- bAfoluwf -}         [ "Pavlov" ] ]
+    Identity                  `noun`    {- bAfoluwf -}         [ "" {- "Pavlov" -} ] ]
 
  |> "bAkAl" <| [
 
     -- ;; bAkAl_1
     -- bAkAl   bAkAl   Nprop   Bacall
 
-    Identity                  `noun`    {- bAkAl -}            [ "Bacall" ] ]
+    Identity                  `noun`    {- bAkAl -}            [ "" {- "Bacall" -} ] ]
 
  |> "bAkU" <| [
 
     -- ;; bAkuw_1
     -- bAkw    bAkuw   N0      Baku
 
-    Identity                  `noun`    {- bAkuw -}            [ "Baku" ],
+    Identity                  `noun`    {- bAkuw -}            [ "" {- "Baku" -} ],
 
     -- ;; bAkuw_2
     -- bAkw    bAkuw   N       packet
@@ -14176,13 +14182,13 @@ lexicon = listing "Lexicon's properties"
     -- ;; bAkisotAn_1
     -- bAkstAn bAkisotAn       N       Pakistan
 
-    Identity                  `noun`    {- bAkisotAn -}        [ "Pakistan" ],
+    Identity                  `noun`    {- bAkisotAn -}        [ "" {- "Pakistan" -} ],
 
     -- ;; bAkistAniy~_1
     -- bAkstAny        bAkistAniy~     Nall    Pakistani     [[bAkistAniy~/NOUN]]
     -- bAkstAny        bAkistAniy~     Nall    Pakistani     [[bAkistAniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- bAkistAniy~ -}      [ "Pakistani" ] ]
+    Identity |< Iy            `adj`     {- bAkistAniy~ -}      [ "" {- "Pakistani" -} ] ]
 
  |> "bAktIr" <| [
 
@@ -14218,42 +14224,42 @@ lexicon = listing "Lexicon's properties"
     -- ;; bAliyromuw_1
     -- bAlyrmw bAliyromuw      Nprop   Palermo
 
-    Identity                  `noun`    {- bAliyromuw -}       [ "Palermo" ] ]
+    Identity                  `noun`    {- bAliyromuw -}       [ "" {- "Palermo" -} ] ]
 
  |> "bAlbId" <| [
 
     -- ;; bAlobiyd_1
     -- bAlbyd  bAlobiyd        Nprop   Balbeed
 
-    Identity                  `noun`    {- bAlobiyd -}         [ "Balbeed" ] ]
+    Identity                  `noun`    {- bAlobiyd -}         [ "" {- "Balbeed" -} ] ]
 
  |> "bAliyAr" <| [
 
     -- ;; bAliyAr_1
     -- bAlyAr  bAliyAr N       Balearic
 
-    Identity                  `noun`    {- bAliyAr -}          [ "Balearic" ] ]
+    Identity                  `noun`    {- bAliyAr -}          [ "" {- "Balearic" -} ] ]
 
  |> "bAlsIls" <| [
 
     -- ;; bAlosiyls_1
     -- bAlsyls bAlosiyls       Nprop   Balcells
 
-    Identity                  `noun`    {- bAlosiyls -}        [ "Balcells" ] ]
+    Identity                  `noun`    {- bAlosiyls -}        [ "" {- "Balcells" -} ] ]
 
  |> "bAltAsAr" <| [
 
     -- ;; bAltAsAr_1
     -- bAltAsAr        bAltAsAr        N0      Baltasar;Baltazar
 
-    Identity                  `noun`    {- bAltAsAr -}         [ "Baltasar", "Baltazar" ] ]
+    Identity                  `noun`    {- bAltAsAr -}         [ "" {- "Baltasar" -}, "" {- "Baltazar" -} ] ]
 
  |> "bAltiyAnskI" <| [
 
     -- ;; bAlotiyAnosokiy_1
     -- bAltyAnsky      bAlotiyAnosokiy N0      Baltiansky
 
-    Identity                  `noun`    {- bAlotiyAnosokiy -}  [ "Baltiansky" ] ]
+    Identity                  `noun`    {- bAlotiyAnosokiy -}  [ "" {- "Baltiansky" -} ] ]
 
  |> "bAmiyA" <| [
 
@@ -14275,21 +14281,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; bAniyk_1
     -- bAnyk   bAniyk  Nprop   Banik
 
-    Identity                  `noun`    {- bAniyk -}           [ "Banik" ] ]
+    Identity                  `noun`    {- bAniyk -}           [ "" {- "Banik" -} ] ]
 
  |> "bAnIt^sbAkdI" <| [
 
     -- ;; bAniyt$obAkodiy_1
     -- bAnyt$bAkdy     bAniyt$obAkodiy Nprop   Panitchpakdi
 
-    Identity                  `noun`    {- bAniyt$obAkodiy -}  [ "Panitchpakdi" ] ]
+    Identity                  `noun`    {- bAniyt$obAkodiy -}  [ "" {- "Panitchpakdi" -} ] ]
 
  |> "bAnUfA" <| [
 
     -- ;; bAnuwfA_1
     -- bAnwfA  bAnuwfA Nprop   Panova
 
-    Identity                  `noun`    {- bAnuwfA -}          [ "Panova" ] ]
+    Identity                  `noun`    {- bAnuwfA -}          [ "" {- "Panova" -} ] ]
 
  |> "bAnUrAm" <| [
 
@@ -14310,7 +14316,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bAnamA_1
     -- bAnmA   bAnamA  N0      Panama
 
-    Identity                  `noun`    {- bAnamA -}           [ "Panama" ] ]
+    Identity                  `noun`    {- bAnamA -}           [ "" {- "Panama" -} ] ]
 
  |> "bAndA^g" <| [
 
@@ -14324,21 +14330,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; bAnduwnoduw_1
     -- bAndwndw        bAnduwnoduw     N0      Bandondo
 
-    Identity                  `noun`    {- bAnduwnoduw -}      [ "Bandondo" ] ]
+    Identity                  `noun`    {- bAnduwnoduw -}      [ "" {- "Bandondo" -} ] ]
 
  |> "bAnkUk" <| [
 
     -- ;; bAnokuwk_1
     -- bAnkwk  bAnokuwk        Nprop   Bankok
 
-    Identity                  `noun`    {- bAnokuwk -}         [ "Bankok" ] ]
+    Identity                  `noun`    {- bAnokuwk -}         [ "" {- "Bankok" -} ] ]
 
  |> "bAntIlIf" <| [
 
     -- ;; bAnotiyliyf_1
     -- bAntylyf        bAnotiyliyf     Nprop   Pantilev
 
-    Identity                  `noun`    {- bAnotiyliyf -}      [ "Pantilev" ] ]
+    Identity                  `noun`    {- bAnotiyliyf -}      [ "" {- "Pantilev" -} ] ]
 
  |> "bAntUmIm" <| [
 
@@ -14352,14 +14358,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; bAnt$_1
     -- bAnt$   bAnt$   Nprop   Punch
 
-    Identity                  `noun`    {- bAnt$ -}            [ "Punch" ] ]
+    Identity                  `noun`    {- bAnt$ -}            [ "" {- "Punch" -} ] ]
 
  |> "bAnyAs" <| [
 
     -- ;; bAnoyAs_1
     -- bAnyAs  bAnoyAs Nprop   Banias;Banyas
 
-    Identity                  `noun`    {- bAnoyAs -}          [ "Banias", "Banyas" ] ]
+    Identity                  `noun`    {- bAnoyAs -}          [ "" {- "Banias" -}, "" {- "Banyas" -} ] ]
 
  |> "bArA^sUt" <| [
 
@@ -14373,7 +14379,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bArAduwrn_1
     -- bArAdwrn        bArAduwrn       Nprop   Paradorn
 
-    Identity                  `noun`    {- bArAduwrn -}        [ "Paradorn" ] ]
+    Identity                  `noun`    {- bArAduwrn -}        [ "" {- "Paradorn" -} ] ]
 
  |> "bArAk" <| [
 
@@ -14381,14 +14387,14 @@ lexicon = listing "Lexicon's properties"
     -- bArAk   bArAk   Nprop   Barak
     -- bArk    bArak   Nprop   Barak
 
-    Identity                  `noun`    {- bArAk -}            [ "Barak" ] ]
+    Identity                  `noun`    {- bArAk -}            [ "" {- "Barak" -} ] ]
 
  |> "bArAnUf" <| [
 
     -- ;; bArAnuwf_1
     -- bArAnwf bArAnuwf        Nprop   Baranov
 
-    Identity                  `noun`    {- bArAnuwf -}         [ "Baranov" ] ]
+    Identity                  `noun`    {- bArAnuwf -}         [ "" {- "Baranov" -} ] ]
 
  |> "bArAnUyA" <| [
 
@@ -14402,27 +14408,27 @@ lexicon = listing "Lexicon's properties"
     -- ;; bAriyba_1
     -- bArybA  bAriybA Nprop   Bariba
 
-    Identity |<< "a"          `noun`    {- bAriyba -}          [ "Bariba" ] ]
+    Identity |<< "a"          `noun`    {- bAriyba -}          [ "" {- "Bariba" -} ] ]
 
  |> "bArIs" <| [
 
     -- ;; bAriys_1
     -- bArys   bAriys  Nprop   Paris
 
-    Identity                  `noun`    {- bAriys -}           [ "Paris" ],
+    Identity                  `noun`    {- bAriys -}           [ "" {- "Paris" -} ],
 
     -- ;; bAriysiy~_1
     -- bArysy  bAriysiy~       Nall    Parisian     [[bAriysiy~/NOUN]]
     -- bArysy  bAriysiy~       Nall    Parisian     [[bAriysiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- bAriysiy~ -}        [ "Parisian" ] ]
+    Identity |< Iy            `adj`     {- bAriysiy~ -}        [ "" {- "Parisian" -} ] ]
 
  |> "bArIziyAn" <| [
 
     -- ;; bAriyziyAn_1
     -- bAryzyAn        bAriyziyAn      N0      Parisien
 
-    Identity                  `noun`    {- bAriyziyAn -}       [ "Parisien" ] ]
+    Identity                  `noun`    {- bAriyziyAn -}       [ "" {- "Parisien" -} ] ]
 
  |> "bAra^guwA'" <| [
 
@@ -14434,7 +14440,7 @@ lexicon = listing "Lexicon's properties"
     -- brAjwA}y        barAjwA}iy~     Nall    Paraguayan
     -- brAgwA}y        barAgwA}iy~     Nall    Paraguayan
 
-    Identity |< Iy            `adj`     {- bArajuwA}iy~ -}     [ "Paraguayan" ] ]
+    Identity |< Iy            `adj`     {- bArajuwA}iy~ -}     [ "" {- "Paraguayan" -} ] ]
 
  |> "bAra^guwAy" <| [
 
@@ -14446,7 +14452,7 @@ lexicon = listing "Lexicon's properties"
     -- brAjwAy barAjwAy        N0      Paraguay
     -- brAgwAy barAgwAy        N0      Paraguay
 
-    Identity                  `noun`    {- bArajuwAy -}        [ "Paraguay" ] ]
+    Identity                  `noun`    {- bArajuwAy -}        [ "" {- "Paraguay" -} ] ]
 
  |> "bArbAdUs" <| [
 
@@ -14454,14 +14460,14 @@ lexicon = listing "Lexicon's properties"
     -- bArbAdws        bArobAduws      N0      Barbados
     -- brbAdws barobAduws      N0      Barbados
 
-    Identity                  `noun`    {- bArobAduws -}       [ "Barbados" ] ]
+    Identity                  `noun`    {- bArobAduws -}       [ "" {- "Barbados" -} ] ]
 
  |> "bArbir" <| [
 
     -- ;; bArobir_1
     -- bArbr   bArobir N0      Barber
 
-    Identity                  `noun`    {- bArobir -}          [ "Barber" ] ]
+    Identity                  `noun`    {- bArobir -}          [ "" {- "Barber" -} ] ]
 
  |> "bArfAn" <| [
 
@@ -14475,7 +14481,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bArinots_1
     -- bArnts  bArinots        N0      Barents
 
-    Identity                  `noun`    {- bArinots -}         [ "Barents" ] ]
+    Identity                  `noun`    {- bArinots -}         [ "" {- "Barents" -} ] ]
 
  |> "bAriyUm" <| [
 
@@ -14489,33 +14495,33 @@ lexicon = listing "Lexicon's properties"
     -- ;; bArokir_1
     -- bArkr   bArokir Nprop   Parker
 
-    Identity                  `noun`    {- bArokir -}          [ "Parker" ],
+    Identity                  `noun`    {- bArokir -}          [ "" {- "Parker" -} ],
 
     -- ;; bArokir_2
     -- bArkr   bArokir Nprop   Barker
 
-    Identity                  `noun`    {- bArokir -}          [ "Barker" ] ]
+    Identity                  `noun`    {- bArokir -}          [ "" {- "Barker" -} ] ]
 
  |> "bArlUr" <| [
 
     -- ;; bAroluwr_1
     -- bArlwr  bAroluwr        N0      Parlour
 
-    Identity                  `noun`    {- bAroluwr -}         [ "Parlour" ] ]
+    Identity                  `noun`    {- bAroluwr -}         [ "" {- "Parlour" -} ] ]
 
  |> "bArmA" <| [
 
     -- ;; bAromA_1
     -- bArmA   bAromA  N0      Parma
 
-    Identity                  `noun`    {- bAromA -}           [ "Parma" ] ]
+    Identity                  `noun`    {- bAromA -}           [ "" {- "Parma" -} ] ]
 
  |> "bArnIsAndnUbl" <| [
 
     -- ;; bArniysAndnuwbl_1
     -- bArnysAndnwbl   bArnysAndnwbl   Nprop   Barnes and Noble
 
-    Identity                  `noun`    {- bArniysAndnuwbl -}  [ unwords [ "Barnes", "and", "Noble" ] ] ]
+    Identity                  `noun`    {- bArniysAndnuwbl -}  [ unwords [ "" {- "Barnes" -}, "and", "" {- "Noble" -} ] ] ]
 
  |> "bArtU" <| [
 
@@ -14523,21 +14529,21 @@ lexicon = listing "Lexicon's properties"
     -- bArtw   bArotuw Nprop   Barto
     -- bArtyz  bArotiyz        Nprop   Barthez
 
-    Identity                  `noun`    {- bArotuw -}          [ "Barto", "Barthez" ] ]
+    Identity                  `noun`    {- bArotuw -}          [ "" {- "Barto" -}, "" {- "Barthez" -} ] ]
 
  |> "bArtnraz" <| [
 
     -- ;; bArtonraz_1
     -- bArtnrz bArtonraz       N0      Partners
 
-    Identity                  `noun`    {- bArtonraz -}        [ "Partners" ] ]
+    Identity                  `noun`    {- bArtonraz -}        [ "" {- "Partners" -} ] ]
 
  |> "bAsId^gI" <| [
 
     -- ;; bAsiydjiy_1
     -- bAsydjy bAsiydjiy       N0      Basiji
 
-    Identity                  `noun`    {- bAsiydjiy -}        [ "Basiji" ] ]
+    Identity                  `noun`    {- bAsiydjiy -}        [ "" {- "Basiji" -} ] ]
 
  |> "bAsIl" <| [
 
@@ -14551,7 +14557,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bAsuw_1
     -- bAsw    bAsuw   N0      Paso
 
-    Identity                  `noun`    {- bAsuw -}            [ "Paso" ] ]
+    Identity                  `noun`    {- bAsuw -}            [ "" {- "Paso" -} ] ]
 
  |> "bAsbUr" <| [
 
@@ -14565,7 +14571,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bAsokuwAl_1
     -- bAskwAl bAsokuwAl       N0      Pascual
 
-    Identity                  `noun`    {- bAsokuwAl -}        [ "Pascual" ] ]
+    Identity                  `noun`    {- bAsokuwAl -}        [ "" {- "Pascual" -} ] ]
 
  |> "bAstIl" <| [
 
@@ -14580,21 +14586,21 @@ lexicon = listing "Lexicon's properties"
     -- bAstl   bAsotil Nprop   Bastl
     -- bAstyl  bAsotiyl        Nprop   Bastl
 
-    Identity                  `noun`    {- bAsotil -}          [ "Bastl" ] ]
+    Identity                  `noun`    {- bAsotil -}          [ "" {- "Bastl" -} ] ]
 
  |> "bAstiyA" <| [
 
     -- ;; bAsotiyA_1
     -- bAstyA  bAsotiyA        N0      Bastia
 
-    Identity                  `noun`    {- bAsotiyA -}         [ "Bastia" ] ]
+    Identity                  `noun`    {- bAsotiyA -}         [ "" {- "Bastia" -} ] ]
 
  |> "bAtIstUtA" <| [
 
     -- ;; bAtiysotuwtA_1
     -- bAtystwtA       bAtiysotuwtA    Nprop   Batistuta
 
-    Identity                  `noun`    {- bAtiysotuwtA -}     [ "Batistuta" ] ]
+    Identity                  `noun`    {- bAtiysotuwtA -}     [ "" {- "Batistuta" -} ] ]
 
  |> "bAtUlA" <| [
 
@@ -14616,49 +14622,49 @@ lexicon = listing "Lexicon's properties"
     -- bAtlr   bAtolar Nprop   Butler
     -- btlr    batolar Nprop   Butler
 
-    Identity                  `noun`    {- bAtolar -}          [ "Butler" ] ]
+    Identity                  `noun`    {- bAtolar -}          [ "" {- "Butler" -} ] ]
 
  |> "bAtrIk" <| [
 
     -- ;; bAtriyk_1
     -- bAtryk  bAtriyk Nprop   Patrick
 
-    Identity                  `noun`    {- bAtriyk -}          [ "Patrick" ] ]
+    Identity                  `noun`    {- bAtriyk -}          [ "" {- "Patrick" -} ] ]
 
  |> "bAwlA" <| [
 
     -- ;; bAwolA_1
     -- bAwlA   bAwolA  Nprop   Paula
 
-    Identity                  `noun`    {- bAwolA -}           [ "Paula" ] ]
+    Identity                  `noun`    {- bAwolA -}           [ "" {- "Paula" -} ] ]
 
  |> "bAwlU" <| [
 
     -- ;; bAwoluw_1
     -- bAwlw   bAwoluw Nprop   Paulo
 
-    Identity                  `noun`    {- bAwoluw -}          [ "Paulo" ] ]
+    Identity                  `noun`    {- bAwoluw -}          [ "" {- "Paulo" -} ] ]
 
  |> "bAwmAn" <| [
 
     -- ;; bAwmAn_1
     -- bAwmAn  bAwmAn  Nprop   Bauman
 
-    Identity                  `noun`    {- bAwmAn -}           [ "Bauman" ] ]
+    Identity                  `noun`    {- bAwmAn -}           [ "" {- "Bauman" -} ] ]
 
  |> "bAwnd" <| [
 
     -- ;; bAwnd_1
     -- bAwnd   bAwnd   Nprop   Pound
 
-    Identity                  `noun`    {- bAwnd -}            [ "Pound" ] ]
+    Identity                  `noun`    {- bAwnd -}            [ "" {- "Pound" -} ] ]
 
  |> "bAwt^sir" <| [
 
     -- ;; bAwto$ir_1
     -- bAwt$r  bAwto$ir        Nprop   Voucher
 
-    Identity                  `noun`    {- bAwto$ir -}         [ "Voucher" ] ]
+    Identity                  `noun`    {- bAwto$ir -}         [ "" {- "Voucher" -} ] ]
 
  |> "bAyA" <| [
 
@@ -14666,21 +14672,21 @@ lexicon = listing "Lexicon's properties"
     -- bAyA    bAyA    Nprop   Baia
     -- byA     bayA    Nprop   Baia
 
-    Identity                  `noun`    {- bAyA -}             [ "Baia" ] ]
+    Identity                  `noun`    {- bAyA -}             [ "" {- "Baia" -} ] ]
 
  |> "bAybil" <| [
 
     -- ;; bAybil_1
     -- bAybl   bAybil  Nprop   Bible ??
 
-    Identity                  `noun`    {- bAybil -}           [ unwords [ "Bible", "?", "?" ] ] ]
+    Identity                  `noun`    {- bAybil -}           [ unwords [ "" {- "Bible" -}, "?", "?" ] ] ]
 
  |> "bAyirn" <| [
 
     -- ;; bAyiron_1
     -- bAyrn   bAyiron Nprop   Bayern
 
-    Identity                  `noun`    {- bAyiron -}          [ "Bayern" ] ]
+    Identity                  `noun`    {- bAyiron -}          [ "" {- "Bayern" -} ] ]
 
  |> "bAykUn" <| [
 
@@ -14688,28 +14694,28 @@ lexicon = listing "Lexicon's properties"
     -- bAykwn  bAyokuwn        Nprop   Bacon
     -- bAykn   bAyokun Nprop   Bacon
 
-    Identity                  `noun`    {- bAyokuwn -}         [ "Bacon" ] ]
+    Identity                  `noun`    {- bAyokuwn -}         [ "" {- "Bacon" -} ] ]
 
  |> "bAynlI_h" <| [
 
     -- ;; bAynoliyx_1
     -- bAynlyx bAynoliyx       Nprop   Beinlich
 
-    Identity                  `noun`    {- bAynoliyx -}        [ "Beinlich" ] ]
+    Identity                  `noun`    {- bAynoliyx -}        [ "" {- "Beinlich" -} ] ]
 
  |> "bAytUn" <| [
 
     -- ;; bAytuwn_1
     -- bAytwn  bAytuwn Nprop   Payton
 
-    Identity                  `noun`    {- bAytuwn -}          [ "Payton" ] ]
+    Identity                  `noun`    {- bAytuwn -}          [ "" {- "Payton" -} ] ]
 
  |> "bAyts" <| [
 
     -- ;; bAytos_1
     -- bAyts   bAytos  Nprop   Bates
 
-    Identity                  `noun`    {- bAytos -}           [ "Bates" ] ]
+    Identity                  `noun`    {- bAytos -}           [ "" {- "Bates" -} ] ]
 
  |> "bAzAr" <| [
 
@@ -14737,14 +14743,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; biygAwAn_1
     -- bygAwAn biygAwAn        Nprop   Begawan
 
-    Identity                  `noun`    {- biygAwAn -}         [ "Begawan" ] ]
+    Identity                  `noun`    {- biygAwAn -}         [ "" {- "Begawan" -} ] ]
 
  |> "bI.gUfIt^s" <| [
 
     -- ;; biyguwfiyt$_1
     -- bygwfyt$        biyguwfiyt$     Nprop   Begovich
 
-    Identity                  `noun`    {- biyguwfiyt$ -}      [ "Begovich" ] ]
+    Identity                  `noun`    {- biyguwfiyt$ -}      [ "" {- "Begovich" -} ] ]
 
  |> "bI^gAmA" <| [
 
@@ -14759,7 +14765,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; biy$Awar_1
     -- by$Awr  biy$Awar        Nprop   Peshawar
 
-    Identity                  `noun`    {- biy$Awar -}         [ "Peshawar" ] ]
+    Identity                  `noun`    {- biy$Awar -}         [ "" {- "Peshawar" -} ] ]
 
  |> "bIdA.gU^g" <| [
 
@@ -14774,7 +14780,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; biyfiyroliy_1
     -- byfyrly biyfiyroliy     Nprop   Beverley
 
-    Identity                  `noun`    {- biyfiyroliy -}      [ "Beverley" ] ]
+    Identity                  `noun`    {- biyfiyroliy -}      [ "" {- "Beverley" -} ] ]
 
  |> "bIftIk" <| [
 
@@ -14788,54 +14794,54 @@ lexicon = listing "Lexicon's properties"
     -- ;; biyhAriy_1
     -- byhAry  biyhAriy        Nprop   Behari
 
-    Identity                  `noun`    {- biyhAriy -}         [ "Behari" ] ]
+    Identity                  `noun`    {- biyhAriy -}         [ "" {- "Behari" -} ] ]
 
  |> "bIkIn.ghAm" <| [
 
     -- ;; biykiyngohAm_1
     -- bykynghAm       biykiyngohAm    Nprop   Beckingham
 
-    Identity                  `noun`    {- biykiyngohAm -}     [ "Beckingham" ] ]
+    Identity                  `noun`    {- biykiyngohAm -}     [ "" {- "Beckingham" -} ] ]
 
  |> "bIklIr" <| [
 
     -- ;; biykliyr_1
     -- byklyr  biykliyr        Nprop   Beclere
 
-    Identity                  `noun`    {- biykliyr -}         [ "Beclere" ] ]
+    Identity                  `noun`    {- biykliyr -}         [ "" {- "Beclere" -} ] ]
 
  |> "bIktil" <| [
 
     -- ;; biykotil_1
     -- byktl   biykotil        Nprop   Bechtel
 
-    Identity                  `noun`    {- biykotil -}         [ "Bechtel" ] ]
+    Identity                  `noun`    {- biykotil -}         [ "" {- "Bechtel" -} ] ]
 
  |> "bIlArUs" <| [
 
     -- ;; biylAruws_1
     -- bylArws biylAruws       N0      Belarus
 
-    Identity                  `noun`    {- biylAruws -}        [ "Belarus" ],
+    Identity                  `noun`    {- biylAruws -}        [ "" {- "Belarus" -} ],
 
     -- ;; biylAruwsiy~_1
     -- bylArwsy        biylAruwsiy~    Nall    Belarusian
 
-    Identity |< Iy            `adj`     {- biylAruwsiy~ -}     [ "Belarusian" ] ]
+    Identity |< Iy            `adj`     {- biylAruwsiy~ -}     [ "" {- "Belarusian" -} ] ]
 
  |> "bIlAt^sI" <| [
 
     -- ;; biylAto$iy_1
     -- bylAt$y biylAto$y       Nprop   Balaci
 
-    Identity                  `noun`    {- biylAto$iy -}       [ "Balaci" ] ]
+    Identity                  `noun`    {- biylAto$iy -}       [ "" {- "Balaci" -} ] ]
 
  |> "bIlIfIld" <| [
 
     -- ;; biyliyfiylod_1
     -- bylyfyld        biyliyfiylod    N0      Bielefeld
 
-    Identity                  `noun`    {- biyliyfiylod -}     [ "Bielefeld" ] ]
+    Identity                  `noun`    {- biyliyfiylod -}     [ "" {- "Bielefeld" -} ] ]
 
  |> "bIlhArsiyA" <| [
 
@@ -14850,7 +14856,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; biyliyuwn_1
     -- bylywn  biyliyuwn       N0      Pelion
 
-    Identity                  `noun`    {- biyliyuwn -}        [ "Pelion" ] ]
+    Identity                  `noun`    {- biyliyuwn -}        [ "" {- "Pelion" -} ] ]
 
  |> "bIlyah" <| [
 
@@ -14864,7 +14870,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; biylzobuwriy_1
     -- bylzbwry        biylzobuwriy    N0      Pillsbury
 
-    Identity                  `noun`    {- biylzobuwriy -}     [ "Pillsbury" ] ]
+    Identity                  `noun`    {- biylzobuwriy -}     [ "" {- "Pillsbury" -} ] ]
 
  |> "bImAristAn" <| [
 
@@ -14878,14 +14884,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; biynuw$iyh_1
     -- bynw$yh biynuw$iyh      Nprop   Pinochet
 
-    Identity                  `noun`    {- biynuw$iyh -}       [ "Pinochet" ] ]
+    Identity                  `noun`    {- biynuw$iyh -}       [ "" {- "Pinochet" -} ] ]
 
  |> "bIndIksIn" <| [
 
     -- ;; biynodiykosiyn_1
     -- byndyksyn       biynodiykosiyn  Nprop   Bendixen
 
-    Identity                  `noun`    {- biynodiykosiyn -}   [ "Bendixen" ] ]
+    Identity                  `noun`    {- biynodiykosiyn -}   [ "" {- "Bendixen" -} ] ]
 
  |> "bIrA" <| [
 
@@ -14900,21 +14906,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; biyriyxiyl_1
     -- byryxyl biyriyxiyl      N0      Perejil
 
-    Identity                  `noun`    {- biyriyxiyl -}       [ "Perejil" ] ]
+    Identity                  `noun`    {- biyriyxiyl -}       [ "" {- "Perejil" -} ] ]
 
  |> "bIrIrA" <| [
 
     -- ;; biyriyrA_1
     -- byryrA  biyriyrA        Nprop   Pereira;Parreira
 
-    Identity                  `noun`    {- biyriyrA -}         [ "Pereira", "Parreira" ] ]
+    Identity                  `noun`    {- biyriyrA -}         [ "" {- "Pereira" -}, "" {- "Parreira" -} ] ]
 
  |> "bIrU" <| [
 
     -- ;; biyruw_1
     -- byrw    biyruw  N0      Peru
 
-    Identity                  `noun`    {- biyruw -}           [ "Peru" ] ]
+    Identity                  `noun`    {- biyruw -}           [ "" {- "Peru" -} ] ]
 
  |> "bIrUqrA.t" <| [
 
@@ -14933,68 +14939,68 @@ lexicon = listing "Lexicon's properties"
     -- ;; biyruwziy_1
     -- byrwzy  biyruwziy       N0      Piruzi
 
-    Identity                  `noun`    {- biyruwziy -}        [ "Piruzi" ] ]
+    Identity                  `noun`    {- biyruwziy -}        [ "" {- "Piruzi" -} ] ]
 
  |> "bIrd" <| [
 
     -- ;; biyrd_1
     -- byrd    biyrd   Nprop   Beard;Byrd;Bird
 
-    Identity                  `noun`    {- biyrd -}            [ "Beard", "Byrd", "Bird" ] ]
+    Identity                  `noun`    {- biyrd -}            [ "" {- "Beard" -}, "" {- "Byrd" -}, "" {- "Bird" -} ] ]
 
  |> "bIrhUf" <| [
 
     -- ;; biyrohuwf_1
     -- byrhwf  biyrohuwf       Nprop   Bierhoff
 
-    Identity                  `noun`    {- biyrohuwf -}        [ "Bierhoff" ] ]
+    Identity                  `noun`    {- biyrohuwf -}        [ "" {- "Bierhoff" -} ] ]
 
  |> "bIrinIh" <| [
 
     -- ;; biyriniyh_1
     -- byrnyh  biyriniyh       N0      Pyrenees
 
-    Identity                  `noun`    {- biyriniyh -}        [ "Pyrenees" ] ]
+    Identity                  `noun`    {- biyriniyh -}        [ "" {- "Pyrenees" -} ] ]
 
  |> "bIrl" <| [
 
     -- ;; biyrl_1
     -- byrl    biyrl   Nprop   Pearle
 
-    Identity                  `noun`    {- biyrl -}            [ "Pearle" ] ]
+    Identity                  `noun`    {- biyrl -}            [ "" {- "Pearle" -} ] ]
 
  |> "bIrnz" <| [
 
     -- ;; biyrnoz_1
     -- byrnz   biyrnoz Nprop   Burns
 
-    Identity                  `noun`    {- biyrnoz -}          [ "Burns" ] ]
+    Identity                  `noun`    {- biyrnoz -}          [ "" {- "Burns" -} ] ]
 
  |> "bIrsI" <| [
 
     -- ;; biyrosiy_1
     -- byrsy   biyrosiy        Nprop   Bercy
 
-    Identity                  `noun`    {- biyrosiy -}         [ "Bercy" ],
+    Identity                  `noun`    {- biyrosiy -}         [ "" {- "Bercy" -} ],
 
     -- ;; biyrosiy_2
     -- byrsy   biyrosiy        Nprop   Percy
 
-    Identity                  `noun`    {- biyrosiy -}         [ "Percy" ] ]
+    Identity                  `noun`    {- biyrosiy -}         [ "" {- "Percy" -} ] ]
 
  |> "bIrsUl" <| [
 
     -- ;; biyrosuwl_1
     -- byrswl  biyrosuwl       Nprop   Peirsol
 
-    Identity                  `noun`    {- biyrosuwl -}        [ "Peirsol" ] ]
+    Identity                  `noun`    {- biyrosuwl -}        [ "" {- "Peirsol" -} ] ]
 
  |> "bIrtI" <| [
 
     -- ;; biyrotiy_1
     -- byrty   biyrotiy        N0      Berti
 
-    Identity                  `noun`    {- biyrotiy -}         [ "Berti" ] ]
+    Identity                  `noun`    {- biyrotiy -}         [ "" {- "Berti" -} ] ]
 
  |> "bIrwAn" <| [
 
@@ -15002,7 +15008,7 @@ lexicon = listing "Lexicon's properties"
     -- byrwAny biyrwAniy~      Nall    Peruvian     [[biyrwAniy~/NOUN]]
     -- byrwAny biyrwAniy~      Nall    Peruvian     [[biyrwAniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- biyrwAniy~ -}       [ "Peruvian" ] ]
+    Identity |< Iy            `adj`     {- biyrwAniy~ -}       [ "" {- "Peruvian" -} ] ]
 
  |> "bIsU" <| [
 
@@ -15023,35 +15029,35 @@ lexicon = listing "Lexicon's properties"
     -- ;; biytuwrAtAnA_1
     -- bytwrAtAnA      biytuwrAtAnA    Nprop   Pituratana
 
-    Identity                  `noun`    {- biytuwrAtAnA -}     [ "Pituratana" ] ]
+    Identity                  `noun`    {- biytuwrAtAnA -}     [ "" {- "Pituratana" -} ] ]
 
  |> "bIt^s" <| [
 
     -- ;; biyt$_1
     -- byt$    biyt$   Nprop   Beach
 
-    Identity                  `noun`    {- biyt$ -}            [ "Beach" ] ]
+    Identity                  `noun`    {- biyt$ -}            [ "" {- "Beach" -} ] ]
 
  |> "bIt^snIk" <| [
 
     -- ;; biyt$niyk_1
     -- byt$nyk byt$nyk Nprop   Bichnik;Pitchnick;Beachnik ??
 
-    Identity                  `noun`    {- biyt$niyk -}        [ "Bichnik", "Pitchnick", unwords [ "Beachnik", "?", "?" ] ] ]
+    Identity                  `noun`    {- biyt$niyk -}        [ "" {- "Bichnik" -}, "" {- "Pitchnick" -}, unwords [ "" {- "Beachnik" -}, "?", "?" ] ] ]
 
  |> "bItrIt^s" <| [
 
     -- ;; biytoriyt$_1
     -- bytryt$ biytoriyt$      Nprop   Petrich
 
-    Identity                  `noun`    {- biytoriyt$ -}       [ "Petrich" ] ]
+    Identity                  `noun`    {- biytoriyt$ -}       [ "" {- "Petrich" -} ] ]
 
  |> "bItsIlIm" <| [
 
     -- ;; biytosiyliym_1
     -- bytsylym        biytosiyliym    N0      B'Tselem
 
-    Identity                  `noun`    {- biytosiyliym -}     [ "B'Tselem" ] ]
+    Identity                  `noun`    {- biytosiyliym -}     [ "" {- "B'Tselem" -} ] ]
 
  |> "bItzA" <| [
 
@@ -15074,75 +15080,75 @@ lexicon = listing "Lexicon's properties"
     -- byznTy  biyzanoTiy~     Nall    Byzantine     [[biyzanoTiy~/NOUN]]
     -- byznTy  biyzanoTiy~     Nall    Byzantine     [[biyzanoTiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- biyzanoTiy~ -}      [ "Byzantine" ] ]
+    Identity |< Iy            `adj`     {- biyzanoTiy~ -}      [ "" {- "Byzantine" -} ] ]
 
  |> "bU.halIq" <| [
 
     -- ;; buwHaliyqap_1
     -- bwHlyqp buwHaliyqap     N0      Buhaliqa
 
-    Identity |< aT            `noun`    {- buwHaliyqap -}      [ "Buhaliqa" ] ]
+    Identity |< aT            `noun`    {- buwHaliyqap -}      [ "" {- "Buhaliqa" -} ] ]
 
  |> "bU^sa`Ib" <| [
 
     -- ;; buw$aEiyb_1
     -- bw$Eyb  buw$aEiyb       Nprop   Bouchaib
 
-    Identity                  `noun`    {- buw$aEiyb -}        [ "Bouchaib" ] ]
+    Identity                  `noun`    {- buw$aEiyb -}        [ "" {- "Bouchaib" -} ] ]
 
  |> "bU^skA^s" <| [
 
     -- ;; buw$kA$_1
     -- bw$kA$  buw$kA$ Nprop   Puskas
 
-    Identity                  `noun`    {- buw$kA$ -}          [ "Puskas" ] ]
+    Identity                  `noun`    {- buw$kA$ -}          [ "" {- "Puskas" -} ] ]
 
  |> "bU^skIn" <| [
 
     -- ;; buw$okiyn_1
     -- bw$kyn  buw$okiyn       Nprop   Pushkin
 
-    Identity                  `noun`    {- buw$okiyn -}        [ "Pushkin" ] ]
+    Identity                  `noun`    {- buw$okiyn -}        [ "" {- "Pushkin" -} ] ]
 
  |> "bU_dA" <| [
 
     -- ;; buw*A_1
     -- bw*A    buw*A   N0      Buddha
 
-    Identity                  `noun`    {- buw*A -}            [ "Buddha" ] ]
+    Identity                  `noun`    {- buw*A -}            [ "" {- "Buddha" -} ] ]
 
  |> "bU_hArist" <| [
 
     -- ;; buwxArisot_1
     -- bwxArst buwxArisot      Nprop   Bucharest
 
-    Identity                  `noun`    {- buwxArisot -}       [ "Bucharest" ],
+    Identity                  `noun`    {- buwxArisot -}       [ "" {- "Bucharest" -} ],
 
     -- ;; buwxArisotiy~_1
     -- bwxArsty        buwxArisotiy~   Nall    of/from Bucharest     [[buwxArisotiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- buwxArisotiy~ -}    [ unwords [ "of", "/", "from", "Bucharest" ] ] ]
+    Identity |< Iy            `adj`     {- buwxArisotiy~ -}    [ unwords [ "of", "/", "from", "" {- "Bucharest" -} ] ] ]
 
  |> "bU`aynayn" <| [
 
     -- ;; buwEayonayon_1
     -- bwEynyn buwEayonayon    N0      Bouainein
 
-    Identity                  `noun`    {- buwEayonayon -}     [ "Bouainein" ] ]
+    Identity                  `noun`    {- buwEayonayon -}     [ "" {- "Bouainein" -} ] ]
 
  |> "bU`azIz" <| [
 
     -- ;; buwEaziyz_1
     -- bwEzyz  buwEaziyz       N0      Bouaziz
 
-    Identity                  `noun`    {- buwEaziyz -}        [ "Bouaziz" ] ]
+    Identity                  `noun`    {- buwEaziyz -}        [ "" {- "Bouaziz" -} ] ]
 
  |> "bU`azIzI" <| [
 
     -- ;; buwEaziyziy_1
     -- bwEzyzy buwEaziyziy     N0      Bouazizi
 
-    Identity                  `noun`    {- buwEaziyziy -}      [ "Bouazizi" ] ]
+    Identity                  `noun`    {- buwEaziyziy -}      [ "" {- "Bouazizi" -} ] ]
 
  |> "bUblIn" <| [
 
@@ -15156,26 +15162,26 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwdoguwriyt$A_1
     -- bwdgwryt$A      buwdoguwriyt$A  Nprop   Podgorica
 
-    Identity                  `noun`    {- buwdoguwriyt$A -}   [ "Podgorica" ] ]
+    Identity                  `noun`    {- buwdoguwriyt$A -}   [ "" {- "Podgorica" -} ] ]
 
  |> "bUdAbist" <| [
 
     -- ;; buwdAbisot_1
     -- bwdAbst buwdAbisot      Nprop   Budapest
 
-    Identity                  `noun`    {- buwdAbisot -}       [ "Budapest" ],
+    Identity                  `noun`    {- buwdAbisot -}       [ "" {- "Budapest" -} ],
 
     -- ;; buwdAbisotiy~_1
     -- bwdAbsty        buwdAbisotiy~   Nall    of/from Budapest     [[buwdAbisotiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- buwdAbisotiy~ -}    [ unwords [ "of", "/", "from", "Budapest" ] ] ]
+    Identity |< Iy            `adj`     {- buwdAbisotiy~ -}    [ unwords [ "of", "/", "from", "" {- "Budapest" -} ] ] ]
 
  |> "bUdIrU.gA" <| [
 
     -- ;; buwdiyruwgA_1
     -- bwdyrwgA        buwdiyruwgA     Nprop   Bodiroga
 
-    Identity                  `noun`    {- buwdiyruwgA -}      [ "Bodiroga" ] ]
+    Identity                  `noun`    {- buwdiyruwgA -}      [ "" {- "Bodiroga" -} ] ]
 
  |> "bUdr" <| [
 
@@ -15189,7 +15195,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwfAriy_1
     -- bwfAry  buwfAriy        Nprop   Bovary
 
-    Identity                  `noun`    {- buwfAriy -}         [ "Bovary" ] ]
+    Identity                  `noun`    {- buwfAriy -}         [ "" {- "Bovary" -} ] ]
 
  |> "bUks" <| [
 
@@ -15203,21 +15209,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwliyfiyA_1
     -- bwlyfyA buwliyfiyA      N0      Bolivia
 
-    Identity                  `noun`    {- buwliyfiyA -}       [ "Bolivia" ] ]
+    Identity                  `noun`    {- buwliyfiyA -}       [ "" {- "Bolivia" -} ] ]
 
  |> "bUlIsAriyU" <| [
 
     -- ;; buwliysAriyuw_1
     -- bwlysAryw       buwliysAriyuw   N0      Polisario
 
-    Identity                  `noun`    {- buwliysAriyuw -}    [ "Polisario" ] ]
+    Identity                  `noun`    {- buwliysAriyuw -}    [ "" {- "Polisario" -} ] ]
 
  |> "bUlUniyA" <| [
 
     -- ;; buwluwniyA_1
     -- bwlwnyA buwluwniyA      N0      Bologna
 
-    Identity                  `noun`    {- buwluwniyA -}       [ "Bologna" ] ]
+    Identity                  `noun`    {- buwluwniyA -}       [ "" {- "Bologna" -} ] ]
 
  |> "bUland" <| [
 
@@ -15225,7 +15231,7 @@ lexicon = listing "Lexicon's properties"
     -- bwlndy  buwlanodiy~     Nall    Polish     [[buwlanodiy~/NOUN]]
     -- bwlndy  buwlanodiy~     Nall    Polish     [[buwlanodiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- buwlanodiy~ -}      [ "Polish" ] ]
+    Identity |< Iy            `adj`     {- buwlanodiy~ -}      [ "" {- "Polish" -} ] ]
 
  |> "bUlandA" <| [
 
@@ -15233,7 +15239,7 @@ lexicon = listing "Lexicon's properties"
     -- bwlndA  buwlanodA       N0      Poland
     -- bwlnd   buwlanod        Nap     Poland
 
-    Identity                  `noun`    {- buwlanodA -}        [ "Poland" ] ]
+    Identity                  `noun`    {- buwlanodA -}        [ "" {- "Poland" -} ] ]
 
  |> "bUlfAr" <| [
 
@@ -15247,63 +15253,63 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwlotuwn_1
     -- bwltwn  buwlotuwn       Nprop   Bolton
 
-    Identity                  `noun`    {- buwlotuwn -}        [ "Bolton" ] ]
+    Identity                  `noun`    {- buwlotuwn -}        [ "" {- "Bolton" -} ] ]
 
  |> "bUlz" <| [
 
     -- ;; buwloz_1
     -- bwlz    buwloz  Nprop   Bulls
 
-    Identity                  `noun`    {- buwloz -}           [ "Bulls" ] ]
+    Identity                  `noun`    {- buwloz -}           [ "" {- "Bulls" -} ] ]
 
  |> "bUmirdAs" <| [
 
     -- ;; buwmirodAs_1
     -- bwmrdAs buwmirodAs      N0      Boumerdes;Boumerdas
 
-    Identity                  `noun`    {- buwmirodAs -}       [ "Boumerdes", "Boumerdas" ] ]
+    Identity                  `noun`    {- buwmirodAs -}       [ "" {- "Boumerdes" -}, "" {- "Boumerdas" -} ] ]
 
  |> "bUndislI.g" <| [
 
     -- ;; buwnodisoliyg_1
     -- bwndslyg        buwnodisoliyg   N0      Bundeslig
 
-    Identity                  `noun`    {- buwnodisoliyg -}    [ "Bundeslig" ] ]
+    Identity                  `noun`    {- buwnodisoliyg -}    [ "" {- "Bundeslig" -} ] ]
 
  |> "bUndislI.gah" <| [
 
     -- ;; buwnodisoliygah_1
     -- bwndslygh       buwnodisoliygah N0      Bundesliga
 
-    Identity                  `noun`    {- buwnodisoliygah -}  [ "Bundesliga" ] ]
+    Identity                  `noun`    {- buwnodisoliygah -}  [ "" {- "Bundesliga" -} ] ]
 
  |> "bUntA" <| [
 
     -- ;; buwnotA_1
     -- bwntA   buwnotA Nprop   Punta
 
-    Identity                  `noun`    {- buwnotA -}          [ "Punta" ] ]
+    Identity                  `noun`    {- buwnotA -}          [ "" {- "Punta" -} ] ]
 
  |> "bUnyA" <| [
 
     -- ;; buwnoyA_1
     -- bwnyA   buwnoyA Nprop   Bonia ??
 
-    Identity                  `noun`    {- buwnoyA -}          [ unwords [ "Bonia", "?", "?" ] ] ]
+    Identity                  `noun`    {- buwnoyA -}          [ unwords [ "" {- "Bonia" -}, "?", "?" ] ] ]
 
  |> "bUr.g" <| [
 
     -- ;; buwrog_1
     -- bwrg    buwrog  Nprop   Burg;Bourg
 
-    Identity                  `noun`    {- buwrog -}           [ "Burg", "Bourg" ] ]
+    Identity                  `noun`    {- buwrog -}           [ "" {- "Burg" -}, "" {- "Bourg" -} ] ]
 
  |> "bUr.gAs" <| [
 
     -- ;; buwrogAs_1
     -- bwrgAs  buwrogAs        Nprop   Burgas
 
-    Identity                  `noun`    {- buwrogAs -}         [ "Burgas" ] ]
+    Identity                  `noun`    {- buwrogAs -}         [ "" {- "Burgas" -} ] ]
 
  |> "bUr.s" <| [
 
@@ -15317,7 +15323,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwrA_1
     -- bwrA    buwrA   Nprop   Bora
 
-    Identity                  `noun`    {- buwrA -}            [ "Bora" ] ]
+    Identity                  `noun`    {- buwrA -}            [ "" {- "Bora" -} ] ]
 
  |> "bUrUndI" <| [
 
@@ -15326,21 +15332,21 @@ lexicon = listing "Lexicon's properties"
     -- brwndy  buruwnodiy      Nprop   Burundi
     -- brndy   burunodiy       Nprop   Burundi
 
-    Identity                  `noun`    {- buwruwnodiy -}      [ "Burundi" ] ]
+    Identity                  `noun`    {- buwruwnodiy -}      [ "" {- "Burundi" -} ] ]
 
  |> "bUrUsiyA" <| [
 
     -- ;; buwruwsiyA_1
     -- bwrwsyA buwruwsiyA      Nprop   Borussia
 
-    Identity                  `noun`    {- buwruwsiyA -}       [ "Borussia" ] ]
+    Identity                  `noun`    {- buwruwsiyA -}       [ "" {- "Borussia" -} ] ]
 
  |> "bUr^g" <| [
 
     -- ;; buwroj_1
     -- bwrj    buwroj  Nprop   Burg
 
-    Identity                  `noun`    {- buwroj -}           [ "Burg" ] ]
+    Identity                  `noun`    {- buwroj -}           [ "" {- "Burg" -} ] ]
 
  |> "bUr^guwAz" <| [
 
@@ -15361,14 +15367,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwroduw_1
     -- bwrdw   buwroduw        Nprop   Bordeaux
 
-    Identity                  `noun`    {- buwroduw -}         [ "Bordeaux" ] ]
+    Identity                  `noun`    {- buwroduw -}         [ "" {- "Bordeaux" -} ] ]
 
  |> "bUrdir" <| [
 
     -- ;; buwrodir_1
     -- bwrdr   buwrodir        Nprop   Burdir ??
 
-    Identity                  `noun`    {- buwrodir -}         [ unwords [ "Burdir", "?", "?" ] ] ]
+    Identity                  `noun`    {- buwrodir -}         [ unwords [ "" {- "Burdir" -}, "?", "?" ] ] ]
 
  |> "bUrm" <| [
 
@@ -15376,78 +15382,78 @@ lexicon = listing "Lexicon's properties"
     -- bwrmy   buwromiy~       Nall    Burmese     [[buwromiy~/NOUN]]
     -- bwrmy   buwromiy~       Nall    Burmese     [[buwromiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- buwromiy~ -}        [ "Burmese" ] ]
+    Identity |< Iy            `adj`     {- buwromiy~ -}        [ "" {- "Burmese" -} ] ]
 
  |> "bUrmA" <| [
 
     -- ;; buwromA_1
     -- bwrmA   buwromA N0      Burma
 
-    Identity                  `noun`    {- buwromA -}          [ "Burma" ] ]
+    Identity                  `noun`    {- buwromA -}          [ "" {- "Burma" -} ] ]
 
  |> "bUrsUdAn" <| [
 
     -- ;; buwrosuwdAn_1
     -- bwrswdAn        buwrosuwdAn     Nprop   Port Sudan
 
-    Identity                  `noun`    {- buwrosuwdAn -}      [ unwords [ "Port", "Sudan" ] ],
+    Identity                  `noun`    {- buwrosuwdAn -}      [ unwords [ "" {- "Port" -}, "" {- "Sudan" -} ] ],
 
     -- ;; buwrosuwdAniy~_1
     -- bwrswdAny       buwrosuwdAniy~  Nall    from/of Port Sudan     [[buwrosuwdAniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- buwrosuwdAniy~ -}   [ unwords [ "from", "/", "of", "Port", "Sudan" ] ] ]
+    Identity |< Iy            `adj`     {- buwrosuwdAniy~ -}   [ unwords [ "from", "/", "of", "" {- "Port" -}, "" {- "Sudan" -} ] ] ]
 
  |> "bUrsa`Id" <| [
 
     -- ;; buwrosaEiyd_1
     -- bwrsEyd buwrosaEiyd     Nprop   Port Said
 
-    Identity                  `noun`    {- buwrosaEiyd -}      [ unwords [ "Port", "Said" ] ],
+    Identity                  `noun`    {- buwrosaEiyd -}      [ unwords [ "" {- "Port" -}, "" {- "Said" -} ] ],
 
     -- ;; buwrosaEiydiy~_1
     -- bwrsEydy        buwrosaEiydiy~  Nall    from/of Port Said     [[buwrosaEiydiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- buwrosaEiydiy~ -}   [ unwords [ "from", "/", "of", "Port", "Said" ] ] ]
+    Identity |< Iy            `adj`     {- buwrosaEiydiy~ -}   [ unwords [ "from", "/", "of", "" {- "Port" -}, "" {- "Said" -} ] ] ]
 
  |> "bUrtAs" <| [
 
     -- ;; buwrotAs_1
     -- bwrtAs  buwrotAs        Nprop   Portas
 
-    Identity                  `noun`    {- buwrotAs -}         [ "Portas" ] ]
+    Identity                  `noun`    {- buwrotAs -}         [ "" {- "Portas" -} ] ]
 
  |> "bUrtU" <| [
 
     -- ;; buwrotuw_1
     -- bwrtw   buwrotuw        Nprop   Porto
 
-    Identity                  `noun`    {- buwrotuw -}         [ "Porto" ],
+    Identity                  `noun`    {- buwrotuw -}         [ "" {- "Porto" -} ],
 
     -- ;; buwrotuw_2
     -- bwrtw   buwrotuw        Nprop   Puerto
 
-    Identity                  `noun`    {- buwrotuw -}         [ "Puerto" ] ]
+    Identity                  `noun`    {- buwrotuw -}         [ "" {- "Puerto" -} ] ]
 
  |> "bUrtUrIk" <| [
 
     -- ;; buwrotuwriykiy~_1
     -- bwrtwryky       buwrotuwriykiy~ Nall    Puerto Rican
 
-    Identity |< Iy            `adj`     {- buwrotuwriykiy~ -}  [ unwords [ "Puerto", "Rican" ] ] ]
+    Identity |< Iy            `adj`     {- buwrotuwriykiy~ -}  [ unwords [ "" {- "Puerto" -}, "" {- "Rican" -} ] ] ]
 
  |> "bUrtUrIkU" <| [
 
     -- ;; buwrotuwriykuw_1
     -- bwrtwrykw       buwrotuwriykuw  Nprop   Puerto Rico
 
-    Identity                  `noun`    {- buwrotuwriykuw -}   [ unwords [ "Puerto", "Rico" ] ] ]
+    Identity                  `noun`    {- buwrotuwriykuw -}   [ unwords [ "" {- "Puerto" -}, "" {- "Rico" -} ] ] ]
 
  |> "bUrtlAnd" <| [
 
     -- ;; buwrotlAnod_1
     -- bwrtlAnd        buwrotlAnod     Nprop   Portland
 
-    Identity                  `noun`    {- buwrotlAnod -}      [ "Portland" ] ]
+    Identity                  `noun`    {- buwrotlAnod -}      [ "" {- "Portland" -} ] ]
 
  |> "bUrund" <| [
 
@@ -15456,7 +15462,7 @@ lexicon = listing "Lexicon's properties"
     -- brwndy  buruwnodiy~     Nall    Burundian     [[buruwnodiy~/ADJ]]
     -- brndy   burunodiy~      Nall    Burundian     [[burunodiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- buwrunodiy~ -}      [ "Burundian" ] ]
+    Identity |< Iy            `adj`     {- buwrunodiy~ -}      [ "" {- "Burundian" -} ] ]
 
  |> "bUs.t" <| [
 
@@ -15478,21 +15484,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwsoTun_1
     -- bwsTn   buwsoTun        Nprop   Boston
 
-    Identity                  `noun`    {- buwsoTun -}         [ "Boston" ] ]
+    Identity                  `noun`    {- buwsoTun -}         [ "" {- "Boston" -} ] ]
 
  |> "bUsUfAliyUk" <| [
 
     -- ;; buwsuwfAliyuwk_1
     -- bwswfAlywk      buwsuwfAliyuwk  Nprop   Posovaliuk
 
-    Identity                  `noun`    {- buwsuwfAliyuwk -}   [ "Posovaliuk" ] ]
+    Identity                  `noun`    {- buwsuwfAliyuwk -}   [ "" {- "Posovaliuk" -} ] ]
 
  |> "bUsfUr" <| [
 
     -- ;; buwsofuwr_1
     -- bwsfwr  buwsofuwr       N       Bosphorus;Bosporus
 
-    Identity                  `noun`    {- buwsofuwr -}        [ "Bosphorus", "Bosporus" ] ]
+    Identity                  `noun`    {- buwsofuwr -}        [ "" {- "Bosphorus" -}, "" {- "Bosporus" -} ] ]
 
  |> "bUsn" <| [
 
@@ -15501,19 +15507,19 @@ lexicon = listing "Lexicon's properties"
     -- bwsny   buwsoniy~       Nall    Bosnian     [[buwsoniy~/ADJ]]
     -- bwsn    buwson  Nap     Bosnians
 
-    Identity |< Iy            `adj`     {- buwsoniy~ -}        [ "Bosnian" ],
+    Identity |< Iy            `adj`     {- buwsoniy~ -}        [ "" {- "Bosnian" -} ],
 
     -- ;; buwsonap_1
     -- bwsn    buwson  Nap     Bosnia
 
-    Identity |< aT            `noun`    {- buwsonap -}         [ "Bosnia" ] ]
+    Identity |< aT            `noun`    {- buwsonap -}         [ "" {- "Bosnia" -} ] ]
 
  |> "bUst" <| [
 
     -- ;; buwsot_1
     -- bwst    buwsot  N0      Post
 
-    Identity                  `noun`    {- buwsot -}           [ "Post" ] ]
+    Identity                  `noun`    {- buwsot -}           [ "" {- "Post" -} ] ]
 
  |> "bUtA^gAz" <| [
 
@@ -15535,55 +15541,55 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwtafliyqap_1
     -- bwtflyqp        buwtafliyqap    N0      Bouteflika
 
-    Identity |< aT            `noun`    {- buwtafliyqap -}     [ "Bouteflika" ] ]
+    Identity |< aT            `noun`    {- buwtafliyqap -}     [ "" {- "Bouteflika" -} ] ]
 
  |> "bUtiyih" <| [
 
     -- ;; buwtiyih_1
     -- bwtyh   buwtiyih        Nprop   Boutier
 
-    Identity                  `noun`    {- buwtiyih -}         [ "Boutier" ] ]
+    Identity                  `noun`    {- buwtiyih -}         [ "" {- "Boutier" -} ] ]
 
  |> "bUtrA" <| [
 
     -- ;; buwtrA_1
     -- bwtrA   buwtrA  Nprop   Putra
 
-    Identity                  `noun`    {- buwtrA -}           [ "Putra" ] ]
+    Identity                  `noun`    {- buwtrA -}           [ "" {- "Putra" -} ] ]
 
  |> "bUtzI" <| [
 
     -- ;; buwtoziy_1
     -- bwtzy   buwtoziy        Nprop   Pozzi
 
-    Identity                  `noun`    {- buwtoziy -}         [ "Pozzi" ] ]
+    Identity                  `noun`    {- buwtoziy -}         [ "" {- "Pozzi" -} ] ]
 
  |> "bUyz" <| [
 
     -- ;; buwyz_1
     -- bwyz    bwyz    Nprop   Boys
 
-    Identity                  `noun`    {- buwyz -}            [ "Boys" ] ]
+    Identity                  `noun`    {- buwyz -}            [ "" {- "Boys" -} ] ]
 
  |> "ba.hrayn" <| [
 
     -- ;; baHorayoni_1
     -- bHryn   baHorayoni      N0      Bahrain
 
-    Identity |<< "i"          `noun`    {- baHorayoni -}       [ "Bahrain" ],
+    Identity |<< "i"          `noun`    {- baHorayoni -}       [ "" {- "Bahrain" -} ],
 
     -- ;; baHorayoniy~_1
     -- bHryny  baHorayoniy~    Nall    Bahraini     [[baHorayoniy~/NOUN]]
     -- bHryny  baHorayoniy~    Nall    Bahraini     [[baHorayoniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- baHorayoniy~ -}     [ "Bahraini" ] ]
+    Identity |< Iy            `adj`     {- baHorayoniy~ -}     [ "" {- "Bahraini" -} ] ]
 
  |> "ba.sratAn" <| [
 
     -- ;; baSoratAn_1
     -- bSrt    baSorat NAn_Nayn        Basras (Basra and Kufa)
 
-    Identity                  `noun`    {- baSoratAn -}        [ unwords [ "Basras", "(", "Basra", "and", "Kufa", ")" ] ] ]
+    Identity                  `noun`    {- baSoratAn -}        [ unwords [ "" {- "Basras" -}, "(", "" {- "Basra" -}, "and", "" {- "Kufa" -}, ")" ] ] ]
 
  |> "ba.t.tI_h" <| [
 
@@ -15606,7 +15612,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; baTaloyawos_1
     -- bTlyws  baTaloyawos     N       Badajoz
 
-    Identity                  `noun`    {- baTaloyawos -}      [ "Badajoz" ] ]
+    Identity                  `noun`    {- baTaloyawos -}      [ "" {- "Badajoz" -} ] ]
 
  |> "ba.tlaymUs" <| [
 
@@ -15614,7 +15620,7 @@ lexicon = listing "Lexicon's properties"
     -- bTlymws baTolayomuws    N       Ptolemy
     -- bTlmyws baTolamiyuws    N       Ptolemy
 
-    Identity                  `noun`    {- baTolayomuws -}     [ "Ptolemy" ],
+    Identity                  `noun`    {- baTolayomuws -}     [ "" {- "Ptolemy" -} ],
 
     -- ;; baTolayomuwsiy~_1
     -- bTlymwsy        baTolayomuwsiy~ Nall    Ptolemaic     [[baTolayomuwsiy~/NOUN]]
@@ -15622,7 +15628,7 @@ lexicon = listing "Lexicon's properties"
     -- bTlmywsy        baTolamiyuwsiy~ Nall    Ptolemaic     [[baTolamiyuwsiy~/NOUN]]
     -- bTlmywsy        baTolamiyuwsiy~ Nall    Ptolemaic     [[baTolamiyuwsiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- baTolayomuwsiy~ -}  [ "Ptolemaic" ] ]
+    Identity |< Iy            `adj`     {- baTolayomuwsiy~ -}  [ "" {- "Ptolemaic" -} ] ]
 
  |> "ba.tra^sIl" <| [
 
@@ -15645,7 +15651,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; baToriyarok_1
     -- bTryrk  baToriyarok     N       Patriarch
 
-    Identity                  `noun`    {- baToriyarok -}      [ "Patriarch" ],
+    Identity                  `noun`    {- baToriyarok -}      [ "" {- "Patriarch" -} ],
 
     -- ;; baToriyarokiy~ap_1
     -- bTryrky baToriyarokiy~  Nap     patriarchate     [[baToriyarkiy~/NOUN]]
@@ -15657,7 +15663,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; ba$anos_1
     -- b$ns    ba$anos N0      Bashans (9th Coptic month, May 9-June 7)
 
-    Identity                  `noun`    {- ba$anos -}          [ unwords [ "Bashans", "(", "9th", "Coptic", "month,", "May", "9", "-", "June", "7", ")" ] ] ]
+    Identity                  `noun`    {- ba$anos -}          [ unwords [ "" {- "Bashans" -}, "(", "9th", "" {- "Coptic" -}, "month,", "" {- "May" -}, "9", "-", "" {- "June" -}, "7", ")" ] ] ]
 
  |> "ba^sarU^s" <| [
 
@@ -15671,7 +15677,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; baEabodA_1
     -- bEbdA   baEabodA        N0      Baabda
 
-    Identity                  `noun`    {- baEabodA -}         [ "Baabda" ] ]
+    Identity                  `noun`    {- baEabodA -}         [ "" {- "Baabda" -} ] ]
 
  |> "ba`damA" <| [
 
@@ -15690,17 +15696,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; baEolabak~_1
     -- bElbk   baEolabak~      N0      Baalbek
 
-    Identity                  `noun`    {- baEolabak~ -}       [ "Baalbek" ],
+    Identity                  `noun`    {- baEolabak~ -}       [ "" {- "Baalbek" -} ],
 
     -- ;; baEolabak~iy~_1
     -- bElbky  baEolabak~iy~   Nall    from/of Baalbek     [[baEolabak~iy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- baEolabak~iy~ -}    [ unwords [ "from", "/", "of", "Baalbek" ] ],
+    Identity |< Iy            `adj`     {- baEolabak~iy~ -}    [ unwords [ "from", "/", "of", "" {- "Baalbek" -} ] ],
 
     -- ;; baEolabak~iy~_2
     -- bElbky  baEolabak~iy~   N0      Baalbakki
 
-    Identity |< Iy            `adj`     {- baEolabak~iy~ -}    [ "Baalbakki" ] ]
+    Identity |< Iy            `adj`     {- baEolabak~iy~ -}    [ "" {- "Baalbakki" -} ] ]
 
  |> "bab.gA'" <| [
 
@@ -15729,14 +15735,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; bahAmA_1
     -- bhAmA   bahAmA  N0      Bahamas
 
-    Identity                  `noun`    {- bahAmA -}           [ "Bahamas" ] ]
+    Identity                  `noun`    {- bahAmA -}           [ "" {- "Bahamas" -} ] ]
 
  |> "bahbahAnI" <| [
 
     -- ;; bahobahAniy_1
     -- bhbhAny bahobahAniy     N0      Bahbahani
 
-    Identity                  `noun`    {- bahobahAniy -}      [ "Bahbahani" ] ]
+    Identity                  `noun`    {- bahobahAniy -}      [ "" {- "Bahbahani" -} ] ]
 
  |> "bahlawAn" <| [
 
@@ -15764,14 +15770,14 @@ lexicon = listing "Lexicon's properties"
     -- bkAlwryA        bakAluwriyA     N0      baccalaureate;B.A.
     -- bklwryA bakaluwriyA     N0      baccalaureate;B.A.
 
-    Identity                  `noun`    {- bakAluwriyA -}      [ "baccalaureate", "B.A." ] ]
+    Identity                  `noun`    {- bakAluwriyA -}      [ "baccalaureate", "" {- "B.A." -} ] ]
 
  |> "bakItA" <| [
 
     -- ;; bakiytA_1
     -- bkytA   bakiytA Nprop   Bakita
 
-    Identity                  `noun`    {- bakiytA -}          [ "Bakita" ] ]
+    Identity                  `noun`    {- bakiytA -}          [ "" {- "Bakita" -} ] ]
 
  |> "bakalAh" <| [
 
@@ -15786,7 +15792,7 @@ lexicon = listing "Lexicon's properties"
     -- bklwryws        bakaluwriyuws   N       Bachelor's;B.A.
     -- bkAlwryws       bakAluwriyuws   N       Bachelor's;B.A.
 
-    Identity                  `noun`    {- bakaluwriyuws -}    [ "Bachelor's", "B.A." ] ]
+    Identity                  `noun`    {- bakaluwriyuws -}    [ "" {- "Bachelor's" -}, "" {- "B.A." -} ] ]
 
  |> "bakitt" <| [
 
@@ -15808,13 +15814,13 @@ lexicon = listing "Lexicon's properties"
     -- blgrAd  balogrAd        Nprop   Belgrade
     -- bljrAd  balojrAd        Nprop   Belgrade
 
-    Identity                  `noun`    {- balogrAd -}         [ "Belgrade" ],
+    Identity                  `noun`    {- balogrAd -}         [ "" {- "Belgrade" -} ],
 
     -- ;; balogrAdiy~_1
     -- blgrAdy balogrAdiy~     Nall    Belgrade     [[balogrAdiy~/ADJ]]
     -- bljrAdy balojrAdiy~     Nall    Belgrade     [[balojrAdiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- balogrAdiy~ -}      [ "Belgrade" ] ]
+    Identity |< Iy            `adj`     {- balogrAdiy~ -}      [ "" {- "Belgrade" -} ] ]
 
  |> "balA^grA" <| [
 
@@ -15835,7 +15841,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; baluw$iysotAn_1
     -- blw$ystAn       baluw$iysotAn   N0      Baluchistan
 
-    Identity                  `noun`    {- baluw$iysotAn -}    [ "Baluchistan" ] ]
+    Identity                  `noun`    {- baluw$iysotAn -}    [ "" {- "Baluchistan" -} ] ]
 
  |> "bala^sUn" <| [
 
@@ -15850,7 +15856,7 @@ lexicon = listing "Lexicon's properties"
     -- blnsy   balanosiy       Nap     Valencia
     -- blnsyA  balanosiyA      N0      Valencia
 
-    Identity |< aT            `noun`    {- balanosiyap -}      [ "Valencia" ] ]
+    Identity |< aT            `noun`    {- balanosiyap -}      [ "" {- "Valencia" -} ] ]
 
  |> "balarInA" <| [
 
@@ -15872,12 +15878,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; banogAluwr_1
     -- bngAlwr banogAluwr      N0      Bangalore
 
-    Identity                  `noun`    {- banogAluwr -}       [ "Bangalore" ],
+    Identity                  `noun`    {- banogAluwr -}       [ "" {- "Bangalore" -} ],
 
     -- ;; banogAluwriy~_1
     -- bngAlwry        banogAluwriy~   Nall    Bangalorean
 
-    Identity |< Iy            `adj`     {- banogAluwriy~ -}    [ "Bangalorean" ] ]
+    Identity |< Iy            `adj`     {- banogAluwriy~ -}    [ "" {- "Bangalorean" -} ] ]
 
  |> "ban.talUn" <| [
 
@@ -15902,7 +15908,7 @@ lexicon = listing "Lexicon's properties"
     -- bnglAdy$        banoglAdiy$     N       Bangladesh
     -- bnglAd$ banoglAdi$      N       Bangladesh
 
-    Identity                  `noun`    {- banojlAdiy$ -}      [ "Bangladesh" ],
+    Identity                  `noun`    {- banojlAdiy$ -}      [ "" {- "Bangladesh" -} ],
 
     -- ;; banojlAdiy$iy~_1
     -- bnjlAdy$y       banojlAdiy$iy~  Nall    Bangladesh     [[banojalAdiy$iy~/NOUN]]
@@ -15910,7 +15916,7 @@ lexicon = listing "Lexicon's properties"
     -- bnjlAdy$y       banojlAdiy$iy~  Nall    Bangladesh     [[banojalAdiy$iy~/ADJ]]
     -- bnglAdy$y       banoglAdiy$iy~  Nall    Bangladesh     [[banogalAdiy$iy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- banojlAdiy$iy~ -}   [ "Bangladesh" ] ]
+    Identity |< Iy            `adj`     {- banojlAdiy$iy~ -}   [ "" {- "Bangladesh" -} ] ]
 
  |> "banafsa^g" <| [
 
@@ -15929,14 +15935,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; banamA_1
     -- bnmA    banamA  N0      Panama
 
-    Identity                  `noun`    {- banamA -}           [ "Panama" ] ]
+    Identity                  `noun`    {- banamA -}           [ "" {- "Panama" -} ] ]
 
  |> "banamA'" <| [
 
     -- ;; banamAwiy~_1
     -- bnmAwy  banamAwiy~      Nall    Panamanian
 
-    Identity |< Iy            `adj`     {- banamAwiy~ -}       [ "Panamanian" ] ]
+    Identity |< Iy            `adj`     {- banamAwiy~ -}       [ "" {- "Panamanian" -} ] ]
 
  |> "bandA" <| [
 
@@ -15951,7 +15957,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; banohA_1
     -- bnhA    banohA  N0      Benha
 
-    Identity                  `noun`    {- banohA -}           [ "Benha" ] ]
+    Identity                  `noun`    {- banohA -}           [ "" {- "Benha" -} ] ]
 
  |> "banknUt" <| [
 
@@ -16011,14 +16017,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; baro$iluwnah_1
     -- br$lwnp baro$iluwnap    N0      Barcelona
 
-    Identity                  `noun`    {- baro$iluwnah -}     [ "Barcelona" ] ]
+    Identity                  `noun`    {- baro$iluwnah -}     [ "" {- "Barcelona" -} ] ]
 
  |> "barahmA" <| [
 
     -- ;; barahomA_1
     -- brhmA   barahomA        N0      Brahma
 
-    Identity                  `noun`    {- barahomA -}         [ "Brahma" ] ]
+    Identity                  `noun`    {- barahomA -}         [ "" {- "Brahma" -} ] ]
 
  |> "barahman" <| [
 
@@ -16026,14 +16032,14 @@ lexicon = listing "Lexicon's properties"
     -- brhmn   barahoman       N       Brahman
     -- brAhm   barAhim Nap     Brahmans
 
-    Identity                  `noun`    {- barahoman -}        [ "Brahman" ] ]
+    Identity                  `noun`    {- barahoman -}        [ "" {- "Brahman" -} ] ]
 
  |> "baramh" <| [
 
     -- ;; baramohAt_1
-    -- brmhAt  baramohAt       N0      Baramhat (7th Coptic month, Mar. 10-Apr. 8)
+    -- brmhAt  baramohAt       N0      Baramhat
 
-    Identity |< At            `noun`    {- baramohAt -}        [ unwords [ "Baramhat", "(", "7th", "Coptic", "month,", "Mar.", "10", "-", "Apr.", "8", ")" ] ] ]
+    Identity |< At            `noun`    {- baramohAt -}        [ "" {- "Baramhat" -} ] ]
 
  |> "barbArA" <| [
 
@@ -16041,7 +16047,7 @@ lexicon = listing "Lexicon's properties"
     -- brbArA  barobArA        Nprop   Barbara
     -- brbArp  barobArap       Nprop   Barbara
 
-    Identity                  `noun`    {- barobArA -}         [ "Barbara" ] ]
+    Identity                  `noun`    {- barobArA -}         [ "" {- "Barbara" -} ] ]
 
  |> "bardaqU^s" <| [
 
@@ -16074,7 +16080,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; baromAwiy_1
     -- brmAwy  baromAwiy       N0      Barmawi
 
-    Identity                  `noun`    {- baromAwiy -}        [ "Barmawi" ] ]
+    Identity                  `noun`    {- baromAwiy -}        [ "" {- "Barmawi" -} ] ]
 
  |> "barnAma^g" <| [
 
@@ -16116,7 +16122,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; basoyuwniy_1
     -- bsywny  basoyuwniy      N0      Basyouni;Bassiuni
 
-    Identity                  `noun`    {- basoyuwniy -}       [ "Basyouni", "Bassiuni" ] ]
+    Identity                  `noun`    {- basoyuwniy -}       [ "" {- "Basyouni" -}, "" {- "Bassiuni" -} ] ]
 
  |> "baynamA" <| [
 
@@ -16137,21 +16143,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; bay~umiy~_1
     -- bywmy   bay~umiy~       N0      Bayyoumi
 
-    Identity |< Iy            `adj`     {- bay~umiy~ -}        [ "Bayyoumi" ] ]
+    Identity |< Iy            `adj`     {- bay~umiy~ -}        [ "" {- "Bayyoumi" -} ] ]
 
  |> "bfIl^sIftr" <| [
 
     -- ;; bfiyl$iyftr_1
     -- bfyl$yftr       bfyl$yftr       N0      Pfeilschifter
 
-    Identity                  `noun`    {- bfiyl$iyftr -}      [ "Pfeilschifter" ] ]
+    Identity                  `noun`    {- bfiyl$iyftr -}      [ "" {- "Pfeilschifter" -} ] ]
 
  |> "bfIstir" <| [
 
     -- ;; bfiysotir_1
     -- bfystr  bfiysotir       Nprop   Pfister
 
-    Identity                  `noun`    {- bfiysotir -}        [ "Pfister" ] ]
+    Identity                  `noun`    {- bfiysotir -}        [ "" {- "Pfister" -} ] ]
 
  |> "bi'samA" <| [
 
@@ -16176,7 +16182,7 @@ lexicon = listing "Lexicon's properties"
     -- by      biya    FW-Wa   with/by + me                           [[bi/PREP+ya/PRON_1S]]
     -- bnA     binA    FW-Wa   with/by + us                           [[bi/PREP+nA/PRON_1P]]
 
-    Identity                  `prep`    {- bi- -}              [ unwords [ "with", "/", "by", "+", "it", "/", "him" ], unwords [ "with", "/", "by", "+", "them", "both" ], unwords [ "with", "/", "by", "+", "it", "/", "them", "/", "her" ], unwords [ "with", "/", "by", "+", "them", "[masc.pl.]" ], unwords [ "with", "/", "by", "+", "them", "[fem.pl.]" ], unwords [ "with", "/", "by", "+", "you", "[masc.sg.]" ], unwords [ "with", "/", "by", "+", "you", "[fem.sg.]" ], unwords [ "with", "/", "by", "+", "you", "both" ], unwords [ "with", "/", "by", "+", "you", "[masc.pl.]" ], unwords [ "with", "/", "by", "+", "you", "[fem.pl.]" ], unwords [ "with", "/", "by", "+", "me" ], unwords [ "with", "/", "by", "+", "us" ] ] ]
+    Identity                  `prep`    {- bi- -}              [ unwords [ "with", "/", "by", "+", "it", "/", "him" ], unwords [ "with", "/", "by", "+", "them", "both" ], unwords [ "with", "/", "by", "+", "it", "/", "them", "/", "her" ], unwords [ "with", "/", "by", "+", "them" ], unwords [ "with", "/", "by", "+", "you" ], unwords [ "with", "/", "by", "+", "you", "both" ], unwords [ "with", "/", "by", "+", "me" ], unwords [ "with", "/", "by", "+", "us" ] ] ]
 
  |> "bi^sill" <| [
 
@@ -16197,7 +16203,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bikiyn_1
     -- bkyn    bikiyn  Ndip    Peking;Beijing
 
-    Identity                  `noun`    {- bikiyn -}           [ "Peking", "Beijing" ] ]
+    Identity                  `noun`    {- bikiyn -}           [ "" {- "Peking" -}, "" {- "Beijing" -} ] ]
 
  |> "bilA^sakk" <| [
 
@@ -16211,19 +16217,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; biliyz_1
     -- blyz    biliyz  N0      Belize
 
-    Identity                  `noun`    {- biliyz -}           [ "Belize" ],
+    Identity                  `noun`    {- biliyz -}           [ "" {- "Belize" -} ],
 
     -- ;; biliyziy~_1
     -- blyzy   biliyziy~       Nall    Belizean;Belizian
 
-    Identity |< Iy            `adj`     {- biliyziy~ -}        [ "Belizean", "Belizian" ] ]
+    Identity |< Iy            `adj`     {- biliyziy~ -}        [ "" {- "Belizean" -}, "" {- "Belizian" -} ] ]
 
  |> "bil^gIkA" <| [
 
     -- ;; bilojiykA_1
     -- bljykA  bilojiykA       N0      Belgium
 
-    Identity                  `noun`    {- bilojiykA -}        [ "Belgium" ] ]
+    Identity                  `noun`    {- bilojiykA -}        [ "" {- "Belgium" -} ] ]
 
  |> "bilhArsiyA" <| [
 
@@ -16245,7 +16251,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; biloliytruw_1
     -- bllytrw biloliytruw     Nprop   Pelletreau
 
-    Identity                  `noun`    {- biloliytruw -}      [ "Pelletreau" ] ]
+    Identity                  `noun`    {- biloliytruw -}      [ "" {- "Pelletreau" -} ] ]
 
  |> "billawr" <| [
 
@@ -16297,14 +16303,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; biniyn_1
     -- bnyn    biniyn  N0      Benin
 
-    Identity                  `noun`    {- biniyn -}           [ "Benin" ] ]
+    Identity                  `noun`    {- biniyn -}           [ "" {- "Benin" -} ] ]
 
  |> "binfIkA" <| [
 
     -- ;; binfiykA_1
     -- bnfykA  binfiykA        Nprop   Benfica
 
-    Identity                  `noun`    {- binfiykA -}         [ "Benfica" ] ]
+    Identity                  `noun`    {- binfiykA -}         [ "" {- "Benfica" -} ] ]
 
  |> "binisilIn" <| [
 
@@ -16320,14 +16326,14 @@ lexicon = listing "Lexicon's properties"
     -- bnslfAny        binosilofAniy~  Nall    Pennsylvanian     [[binosilofAniy~/NOUN]]
     -- bnslfAny        binosilofAniy~  Nall    Pennsylvanian     [[binosilofAniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- binosilofAniy~ -}   [ "Pennsylvanian" ] ]
+    Identity |< Iy            `adj`     {- binosilofAniy~ -}   [ "" {- "Pennsylvanian" -} ] ]
 
  |> "binsilfAniyA" <| [
 
     -- ;; binosilofAniyA_1
     -- bnslfAnyA       binosilofAniyA  Nprop   Pennsylvania
 
-    Identity                  `noun`    {- binosilofAniyA -}   [ "Pennsylvania" ] ]
+    Identity                  `noun`    {- binosilofAniyA -}   [ "" {- "Pennsylvania" -} ] ]
 
  |> "bintA.gUn" <| [
 
@@ -16335,14 +16341,14 @@ lexicon = listing "Lexicon's properties"
     -- bntAgwn binotAguwn      N0      Pentagon
     -- bntAjwn binotAjuwn      N0      Pentagon
 
-    Identity                  `noun`    {- binotAguwn -}       [ "Pentagon" ] ]
+    Identity                  `noun`    {- binotAguwn -}       [ "" {- "Pentagon" -} ] ]
 
  |> "binyAmIn" <| [
 
     -- ;; binoyAmiyn_1
     -- bnyAmyn binoyAmiyn      Nprop   Benyamin;Benjamin
 
-    Identity                  `noun`    {- binoyAmiyn -}       [ "Benyamin", "Benjamin" ] ]
+    Identity                  `noun`    {- binoyAmiyn -}       [ "" {- "Benyamin" -}, "" {- "Benjamin" -} ] ]
 
  |> "birIstrUykA" <| [
 
@@ -16371,7 +16377,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; biromuwdA_1
     -- brmwdA  biromuwdA       N0      Bermuda
 
-    Identity                  `noun`    {- biromuwdA -}        [ "Bermuda" ] ]
+    Identity                  `noun`    {- biromuwdA -}        [ "" {- "Bermuda" -} ] ]
 
  |> "birnAdUt" <| [
 
@@ -16379,21 +16385,21 @@ lexicon = listing "Lexicon's properties"
     -- brnAdwt bironAduwt      Nprop   Bernadotte
     -- byrnAdwt        biyronAduwt     Nprop   Bernadotte
 
-    Identity                  `noun`    {- bironAduwt -}       [ "Bernadotte" ] ]
+    Identity                  `noun`    {- bironAduwt -}       [ "" {- "Bernadotte" -} ] ]
 
  |> "birtUtU" <| [
 
     -- ;; birotuwtuw_1
     -- brtwtw  birotuwtuw      Nprop   Bertotto
 
-    Identity                  `noun`    {- birotuwtuw -}       [ "Bertotto" ] ]
+    Identity                  `noun`    {- birotuwtuw -}       [ "" {- "Bertotto" -} ] ]
 
  |> "bisArAbiyA" <| [
 
     -- ;; bisArAbiyA_1
     -- bsArAbyA        bisArAbiyA      N0      Bessarabia
 
-    Identity                  `noun`    {- bisArAbiyA -}       [ "Bessarabia" ] ]
+    Identity                  `noun`    {- bisArAbiyA -}       [ "" {- "Bessarabia" -} ] ]
 
  |> "biskilIt" <| [
 
@@ -16415,14 +16421,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; bitruwliyuwm_1
     -- btrwlywm        bitruwliyuwm    Nprop   Petroleum
 
-    Identity                  `noun`    {- bitruwliyuwm -}     [ "Petroleum" ] ]
+    Identity                  `noun`    {- bitruwliyuwm -}     [ "" {- "Petroleum" -} ] ]
 
  |> "bitrUstrAtI^gI" <| [
 
     -- ;; bitoruwstrAtiyjiy_1
     -- btrwstrAtyjy    bitoruwstrAtiyjiy       N0      Petrostrategy
 
-    Identity                  `noun`    {- bitoruwstrAtiyjiy -} [ "Petrostrategy" ] ]
+    Identity                  `noun`    {- bitoruwstrAtiyjiy -} [ "" {- "Petrostrategy" -} ] ]
 
  |> "biyAnU" <| [
 
@@ -16437,7 +16443,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; biyAt$notiyniy_1
     -- byAt$ntyny      biyAt$notiyniy  Nprop   Piacentini
 
-    Identity                  `noun`    {- biyAt$notiyniy -}   [ "Piacentini" ] ]
+    Identity                  `noun`    {- biyAt$notiyniy -}   [ "" {- "Piacentini" -} ] ]
 
  |> "biyU.grAf" <| [
 
@@ -16475,7 +16481,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; biyuwrkomAn_1
     -- bywrkmAn        biyuwrkomAn     Nprop   Bjorkman
 
-    Identity                  `noun`    {- biyuwrkomAn -}      [ "Bjorkman" ] ]
+    Identity                  `noun`    {- biyuwrkomAn -}      [ "" {- "Bjorkman" -} ] ]
 
  |> "biyanAl" <| [
 
@@ -16490,7 +16496,7 @@ lexicon = listing "Lexicon's properties"
     -- bznTy   bizanoTiy~      Nall    Byzantine     [[bizanoTiy~/NOUN]]
     -- bznTy   bizanoTiy~      Nall    Byzantine     [[bizanoTiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- bizanoTiy~ -}       [ "Byzantine" ] ]
+    Identity |< Iy            `adj`     {- bizanoTiy~ -}       [ "" {- "Byzantine" -} ] ]
 
  |> "bizill" <| [
 
@@ -16513,49 +16519,49 @@ lexicon = listing "Lexicon's properties"
     -- ;; blAk_1
     -- blAk    blAk    Nprop   Black
 
-    Identity                  `noun`    {- blAk -}             [ "Black" ] ]
+    Identity                  `noun`    {- blAk -}             [ "" {- "Black" -} ] ]
 
  |> "blAkhUk" <| [
 
     -- ;; blAkohuwk_1
     -- blAkhwk blAkohuwk       N0      Black Hawk
 
-    Identity                  `noun`    {- blAkohuwk -}        [ unwords [ "Black", "Hawk" ] ] ]
+    Identity                  `noun`    {- blAkohuwk -}        [ unwords [ "" {- "Black" -}, "" {- "Hawk" -} ] ] ]
 
  |> "blAnIt" <| [
 
     -- ;; blAniyt_1
     -- blAnyt  blAniyt N0      Planet
 
-    Identity                  `noun`    {- blAniyt -}          [ "Planet" ] ]
+    Identity                  `noun`    {- blAniyt -}          [ "" {- "Planet" -} ] ]
 
  |> "blAnkU" <| [
 
     -- ;; blAnokuw_1
     -- blAnkw  blAnokuw        N0      Blanco
 
-    Identity                  `noun`    {- blAnokuw -}         [ "Blanco" ] ]
+    Identity                  `noun`    {- blAnokuw -}         [ "" {- "Blanco" -} ] ]
 
  |> "blAntI^sn" <| [
 
     -- ;; blAnotiy$n_1
     -- blAnty$n        blAnotiy$n      N0      Plantation
 
-    Identity                  `noun`    {- blAnotiy$n -}       [ "Plantation" ] ]
+    Identity                  `noun`    {- blAnotiy$n -}       [ "" {- "Plantation" -} ] ]
 
  |> "blAntIr" <| [
 
     -- ;; blAnotiyr_1
     -- blAntyr blAnotiyr       N0      Blantyre
 
-    Identity                  `noun`    {- blAnotiyr -}        [ "Blantyre" ] ]
+    Identity                  `noun`    {- blAnotiyr -}        [ "" {- "Blantyre" -} ] ]
 
  |> "blAs" <| [
 
     -- ;; blAs_1
     -- blAs    blAs    Nprop   Blas
 
-    Identity                  `noun`    {- blAs -}             [ "Blas" ] ]
+    Identity                  `noun`    {- blAs -}             [ "" {- "Blas" -} ] ]
 
  |> "blAstIk" <| [
 
@@ -16588,28 +16594,28 @@ lexicon = listing "Lexicon's properties"
     -- ;; blAto$iy_1
     -- blAt$y  blAto$iy        Nprop   Blatchy
 
-    Identity                  `noun`    {- blAto$iy -}         [ "Blatchy" ] ]
+    Identity                  `noun`    {- blAto$iy -}         [ "" {- "Blatchy" -} ] ]
 
  |> "blAtir" <| [
 
     -- ;; blAtir_1
     -- blAtr   blAtir  Nprop   Blatter
 
-    Identity                  `noun`    {- blAtir -}           [ "Blatter" ] ]
+    Identity                  `noun`    {- blAtir -}           [ "" {- "Blatter" -} ] ]
 
  |> "blIks" <| [
 
     -- ;; bliyks_1
     -- blyks   bliyks  Nprop   Blicks
 
-    Identity                  `noun`    {- bliyks -}           [ "Blicks" ] ]
+    Identity                  `noun`    {- bliyks -}           [ "" {- "Blicks" -} ] ]
 
  |> "blIr" <| [
 
     -- ;; bliyr_1
     -- blyr    bliyr   Nprop   Blair
 
-    Identity                  `noun`    {- bliyr -}            [ "Blair" ] ]
+    Identity                  `noun`    {- bliyr -}            [ "" {- "Blair" -} ] ]
 
  |> "blIz" <| [
 
@@ -16630,7 +16636,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bliyziroz_1
     -- blyzrz  bliyziroz       N0      Blazers
 
-    Identity                  `noun`    {- bliyziroz -}        [ "Blazers" ] ]
+    Identity                  `noun`    {- bliyziroz -}        [ "" {- "Blazers" -} ] ]
 
  |> "blU^gInz" <| [
 
@@ -16645,7 +16651,7 @@ lexicon = listing "Lexicon's properties"
     -- blwtw   bluwtuw N       Pluto
     -- blwTw   bluwTuw N       Pluto
 
-    Identity                  `noun`    {- bluwtuw -}          [ "Pluto" ] ]
+    Identity                  `noun`    {- bluwtuw -}          [ "" {- "Pluto" -} ] ]
 
  |> "blUtUn" <| [
 
@@ -16691,21 +16697,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; brAg_1
     -- brAg    brAg    N       Prague
 
-    Identity                  `noun`    {- brAg -}             [ "Prague" ] ]
+    Identity                  `noun`    {- brAg -}             [ "" {- "Prague" -} ] ]
 
  |> "brA_hA" <| [
 
     -- ;; brAxA_1
     -- brAxA   brAxA   Nprop   Brakha
 
-    Identity                  `noun`    {- brAxA -}            [ "Brakha" ] ]
+    Identity                  `noun`    {- brAxA -}            [ "" {- "Brakha" -} ] ]
 
  |> "brAdI^s" <| [
 
     -- ;; brAdiy$_1
     -- brAdy$  brAdiy$ Nprop   Pradesh
 
-    Identity                  `noun`    {- brAdiy$ -}          [ "Pradesh" ] ]
+    Identity                  `noun`    {- brAdiy$ -}          [ "" {- "Pradesh" -} ] ]
 
  |> "brAfU" <| [
 
@@ -16719,21 +16725,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; brAfodA_1
     -- brAfdA  brAfodA N0      Pravda
 
-    Identity                  `noun`    {- brAfodA -}          [ "Pravda" ] ]
+    Identity                  `noun`    {- brAfodA -}          [ "" {- "Pravda" -} ] ]
 
  |> "brAkiyU" <| [
 
     -- ;; brAkiyuw_1
     -- brAkyw  brAkiyuw        Nprop   Bracio
 
-    Identity                  `noun`    {- brAkiyuw -}         [ "Bracio" ] ]
+    Identity                  `noun`    {- brAkiyuw -}         [ "" {- "Bracio" -} ] ]
 
  |> "brAmAtArskI" <| [
 
     -- ;; brAmAtAroskiy_1
     -- brAmAtArsky     brAmAtAroskiy   Nprop   Pramatarski
 
-    Identity                  `noun`    {- brAmAtAroskiy -}    [ "Pramatarski" ] ]
+    Identity                  `noun`    {- brAmAtAroskiy -}    [ "" {- "Pramatarski" -} ] ]
 
  |> "brAndI" <| [
 
@@ -16745,49 +16751,49 @@ lexicon = listing "Lexicon's properties"
     -- ;; brAnodiy_2
     -- brAndy  brAnodiy        N0      Brandy
 
-    Identity                  `noun`    {- brAnodiy -}         [ "Brandy" ] ]
+    Identity                  `noun`    {- brAnodiy -}         [ "" {- "Brandy" -} ] ]
 
  |> "brAnnIkUf" <| [
 
     -- ;; brAn~iykuwf_1
     -- brAnykwf        brAn~iykuwf     N0      Barannikov
 
-    Identity                  `noun`    {- brAn~iykuwf -}      [ "Barannikov" ] ]
+    Identity                  `noun`    {- brAn~iykuwf -}      [ "" {- "Barannikov" -} ] ]
 
  |> "brAwn" <| [
 
     -- ;; brAwn_1
     -- brAwn   brAwn   Nprop   Brown
 
-    Identity                  `noun`    {- brAwn -}            [ "Brown" ] ]
+    Identity                  `noun`    {- brAwn -}            [ "" {- "Brown" -} ] ]
 
  |> "brAyin" <| [
 
     -- ;; brAyin_1
     -- brAyn   brAyin  N0      Brian
 
-    Identity                  `noun`    {- brAyin -}           [ "Brian" ] ]
+    Identity                  `noun`    {- brAyin -}           [ "" {- "Brian" -} ] ]
 
  |> "brAyint" <| [
 
     -- ;; brAyinot_1
     -- brAynt  brAyinot        Nprop   Bryant
 
-    Identity                  `noun`    {- brAyinot -}         [ "Bryant" ] ]
+    Identity                  `noun`    {- brAyinot -}         [ "" {- "Bryant" -} ] ]
 
  |> "brAzAfIl" <| [
 
     -- ;; brAzAfiyl_1
     -- brAzAfyl        brAzAfiyl       N0      Brazzaville
 
-    Identity                  `noun`    {- brAzAfiyl -}        [ "Brazzaville" ] ]
+    Identity                  `noun`    {- brAzAfiyl -}        [ "" {- "Brazzaville" -} ] ]
 
  |> "brI.g" <| [
 
     -- ;; briyg_1
     -- bryg    briyg   Nprop   Brig
 
-    Identity                  `noun`    {- briyg -}            [ "Brig" ] ]
+    Identity                  `noun`    {- briyg -}            [ "" {- "Brig" -} ] ]
 
  |> "brI.tAn" <| [
 
@@ -16795,63 +16801,63 @@ lexicon = listing "Lexicon's properties"
     -- bryTAny briyTAniy~      Nall    British     [[biriyTAniy~/NOUN]]
     -- bryTAny briyTAniy~      Nall    British     [[biriyTAniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- briyTAniy~ -}       [ "British" ] ]
+    Identity |< Iy            `adj`     {- briyTAniy~ -}       [ "" {- "British" -} ] ]
 
  |> "brI.tAniyA" <| [
 
     -- ;; briyTAniyA_1
     -- bryTAnyA        briyTAniyA      N0      Britain
 
-    Identity                  `noun`    {- briyTAniyA -}       [ "Britain" ] ]
+    Identity                  `noun`    {- briyTAniyA -}       [ "" {- "Britain" -} ] ]
 
  |> "brI^gIt" <| [
 
     -- ;; briyjiyt_1
     -- bryjyt  briyjiyt        Nprop   Brigite;Bridget;Bridgitte;Brighit
 
-    Identity                  `noun`    {- briyjiyt -}         [ "Brigite", "Bridget", "Bridgitte", "Brighit" ] ]
+    Identity                  `noun`    {- briyjiyt -}         [ "" {- "Brigite" -}, "" {- "Bridget" -}, "" {- "Bridgitte" -}, "" {- "Brighit" -} ] ]
 
  |> "brI^siyA" <| [
 
     -- ;; briy$iyA_1
     -- bry$yA  briy$iyA        Nprop   Brescia
 
-    Identity                  `noun`    {- briy$iyA -}         [ "Brescia" ] ]
+    Identity                  `noun`    {- briy$iyA -}         [ "" {- "Brescia" -} ] ]
 
  |> "brIdrA.g" <| [
 
     -- ;; briydrAg_1
     -- brydrAg briydrAg        Nprop   Predrag
 
-    Identity                  `noun`    {- briydrAg -}         [ "Predrag" ] ]
+    Identity                  `noun`    {- briydrAg -}         [ "" {- "Predrag" -} ] ]
 
  |> "brImAkUf" <| [
 
     -- ;; briymAkuwf_1
     -- brymAkwf        briymAkuwf      Nprop   Primakoff
 
-    Identity                  `noun`    {- briymAkuwf -}       [ "Primakoff" ] ]
+    Identity                  `noun`    {- briymAkuwf -}       [ "" {- "Primakoff" -} ] ]
 
  |> "brImin" <| [
 
     -- ;; briymin_1
     -- brymn   briymin N0      Bremen
 
-    Identity                  `noun`    {- briymin -}          [ "Bremen" ] ]
+    Identity                  `noun`    {- briymin -}          [ "" {- "Bremen" -} ] ]
 
  |> "brInt" <| [
 
     -- ;; briynt_1
     -- brynt   briynt  Nprop   Print
 
-    Identity                  `noun`    {- briynt -}           [ "Print" ] ]
+    Identity                  `noun`    {- briynt -}           [ "" {- "Print" -} ] ]
 
  |> "brIslI" <| [
 
     -- ;; briysoliy_1
     -- brysly  briysoliy       Nprop   Presley
 
-    Identity                  `noun`    {- briysoliy -}        [ "Presley" ] ]
+    Identity                  `noun`    {- briysoliy -}        [ "" {- "Presley" -} ] ]
 
  |> "brItI^s" <| [
 
@@ -16859,21 +16865,21 @@ lexicon = listing "Lexicon's properties"
     -- bryty$  briytiy$        N0      British
     -- bryt$   briyti$ N0      British
 
-    Identity                  `noun`    {- briytiy$ -}         [ "British" ] ]
+    Identity                  `noun`    {- briytiy$ -}         [ "" {- "British" -} ] ]
 
  |> "brIzbAn" <| [
 
     -- ;; briyzobAn_1
     -- bryzbAn briyzobAn       N0      Brisbane
 
-    Identity                  `noun`    {- briyzobAn -}        [ "Brisbane" ] ]
+    Identity                  `noun`    {- briyzobAn -}        [ "" {- "Brisbane" -} ] ]
 
  |> "brU^g" <| [
 
     -- ;; bruwj_1
     -- brwj    bruwj   Nprop   Brugge
 
-    Identity                  `noun`    {- bruwj -}            [ "Brugge" ] ]
+    Identity                  `noun`    {- bruwj -}            [ "" {- "Brugge" -} ] ]
 
  |> "brU^grAm" <| [
 
@@ -16911,7 +16917,7 @@ lexicon = listing "Lexicon's properties"
     -- brwksAl bruwkosAl       Nprop   Brussels
     -- brwksyl bruwkosiyl      Nprop   Brussels
 
-    Identity                  `noun`    {- bruwkosil -}        [ "Brussels" ] ]
+    Identity                  `noun`    {- bruwkosil -}        [ "" {- "Brussels" -} ] ]
 
  |> "brUlItAr" <| [
 
@@ -16932,21 +16938,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; bruwnAy_1
     -- brwnAy  bruwnAy N0      Brunei
 
-    Identity                  `noun`    {- bruwnAy -}          [ "Brunei" ] ]
+    Identity                  `noun`    {- bruwnAy -}          [ "" {- "Brunei" -} ] ]
 
  |> "brUs" <| [
 
     -- ;; bruws_1
     -- brws    bruws   Nprop   Bruce
 
-    Identity                  `noun`    {- bruws -}            [ "Bruce" ] ]
+    Identity                  `noun`    {- bruws -}            [ "" {- "Bruce" -} ] ]
 
  |> "brUsiyA" <| [
 
     -- ;; bruwsiyA_1
     -- brwsyA  bruwsiyA        N0      Prussia
 
-    Identity                  `noun`    {- bruwsiyA -}         [ "Prussia" ] ]
+    Identity                  `noun`    {- bruwsiyA -}         [ "" {- "Prussia" -} ] ]
 
  |> "brUtIn" <| [
 
@@ -16984,7 +16990,7 @@ lexicon = listing "Lexicon's properties"
     -- brwtstAntyny    bruwtisotAnotiyniy~     Nall    Protestant     [[bruwtisotAntiyniy~/ADJ]]
     -- brwtstAnt       bruwtisotAnt    N       Protestants
 
-    Identity |< Iy            `adj`     {- bruwtisotAnotiy~ -} [ "Protestant" ] ]
+    Identity |< Iy            `adj`     {- bruwtisotAnotiy~ -} [ "" {- "Protestant" -} ] ]
 
  |> "brUtistU" <| [
 
@@ -17006,21 +17012,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; brint_1
     -- brnt    brint   Nprop   Brent
 
-    Identity                  `noun`    {- brint -}            [ "Brent" ] ]
+    Identity                  `noun`    {- brint -}            [ "" {- "Brent" -} ] ]
 
  |> "bruwArd" <| [
 
     -- ;; bruwArod_1
     -- brwArd  bruwArod        N0      Brouard
 
-    Identity                  `noun`    {- bruwArod -}         [ "Brouard" ] ]
+    Identity                  `noun`    {- bruwArod -}         [ "" {- "Brouard" -} ] ]
 
  |> "bruwIn" <| [
 
     -- ;; bruwiyn_1
     -- brwyn   bruwiyn Nprop   Bruijn;Bruin
 
-    Identity                  `noun`    {- bruwiyn -}          [ "Bruijn", "Bruin" ] ]
+    Identity                  `noun`    {- bruwiyn -}          [ "" {- "Bruijn" -}, "" {- "Bruin" -} ] ]
 
  |> "bsIkUlU^g" <| [
 
@@ -17041,7 +17047,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; buTorusogrAd_1
     -- bTrsgrAd        buTorusogrAd    Nprop   St. Petersburg
 
-    Identity                  `noun`    {- buTorusogrAd -}     [ unwords [ "St.", "Petersburg" ] ] ]
+    Identity                  `noun`    {- buTorusogrAd -}     [ unwords [ "" {- "St." -}, "" {- "Petersburg" -} ] ] ]
 
  |> "buksumAd" <| [
 
@@ -17056,7 +17062,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bulogAriyA_1
     -- blgAryA bulogAriyA      N0      Bulgaria
 
-    Identity                  `noun`    {- bulogAriyA -}       [ "Bulgaria" ] ]
+    Identity                  `noun`    {- bulogAriyA -}       [ "" {- "Bulgaria" -} ] ]
 
  |> "bulUfir" <| [
 
@@ -17078,7 +17084,7 @@ lexicon = listing "Lexicon's properties"
     -- blnd    bulanod Nprop   Bulent;Boland;Buland
     -- bwlnd   buwlanod        Nprop   Bulent;Boland;Buland
 
-    Identity                  `noun`    {- bulanod -}          [ "Bulent", "Boland", "Buland" ] ]
+    Identity                  `noun`    {- bulanod -}          [ "" {- "Bulent" -}, "" {- "Boland" -}, "" {- "Buland" -} ] ]
 
  |> "bulay.hA'" <| [
 
@@ -17093,7 +17099,7 @@ lexicon = listing "Lexicon's properties"
     -- bndqAny bunoduqAniy~    Nall    Venetian     [[bunoduqAniy~/NOUN]]
     -- bndqAny bunoduqAniy~    Nall    Venetian     [[bunoduqAniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- bunoduqAniy~ -}     [ "Venetian" ] ]
+    Identity |< Iy            `adj`     {- bunoduqAniy~ -}     [ "" {- "Venetian" -} ] ]
 
  |> "burUnz" <| [
 
@@ -17120,7 +17126,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; buromA_1
     -- brmA    buromA  N0      Burma
 
-    Identity                  `noun`    {- buromA -}           [ "Burma" ] ]
+    Identity                  `noun`    {- buromA -}           [ "" {- "Burma" -} ] ]
 
  |> "burnay.t" <| [
 
@@ -17128,7 +17134,7 @@ lexicon = listing "Lexicon's properties"
     -- brnyT   buronayoT       NapAt   (Western) hat
     -- brAnyT  barAniyT        Ndip    (Western) hats
 
-    Identity |< aT            `noun`    {- buronayoTap -}      [ unwords [ "(", "Western", ")", "hat" ] ] ]
+    Identity |< aT            `noun`    {- buronayoTap -}      [ unwords [ "(", "" {- "Western" -}, ")", "hat" ] ] ]
 
  |> "burtU.gAl" <| [
 
@@ -17136,7 +17142,7 @@ lexicon = listing "Lexicon's properties"
     -- brtwgAly        burotuwgAliy~   Nall    Portuguese     [[burotuwgAliy~/NOUN]]
     -- brtwgAly        burotuwgAliy~   Nall    Portuguese     [[burotuwgAliy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- burotuwgAliy~ -}    [ "Portuguese" ] ]
+    Identity |< Iy            `adj`     {- burotuwgAliy~ -}    [ "" {- "Portuguese" -} ] ]
 
  |> "burtu.gAl" <| [
 
@@ -17144,13 +17150,13 @@ lexicon = listing "Lexicon's properties"
     -- brtgAl  burotugAl       N       Portugal
     -- brtwgAl burotuwgAl      N       Portugal
 
-    Identity                  `noun`    {- burotugAl -}        [ "Portugal" ],
+    Identity                  `noun`    {- burotugAl -}        [ "" {- "Portugal" -} ],
 
     -- ;; burotugAliy~_1
     -- brtgAly burotugAliy~    Nall    Portuguese     [[burotugAliy~/NOUN]]
     -- brtgAly burotugAliy~    Nall    Portuguese     [[burotugAliy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- burotugAliy~ -}     [ "Portuguese" ] ]
+    Identity |< Iy            `adj`     {- burotugAliy~ -}     [ "" {- "Portuguese" -} ] ]
 
  |> "burtuqAl" <| [
 
@@ -17180,7 +17186,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwAfiysotA_1
     -- bwAfystA        buwAfiysotA     N0      Boavista
 
-    Identity                  `noun`    {- buwAfiysotA -}      [ "Boavista" ] ]
+    Identity                  `noun`    {- buwAfiysotA -}      [ "" {- "Boavista" -} ] ]
 
  |> "buwIn.g" <| [
 
@@ -17188,7 +17194,7 @@ lexicon = listing "Lexicon's properties"
     -- bwyng   buwiyng N0      Boeing
     -- bwynj   buwiynj N0      Boeing
 
-    Identity                  `noun`    {- buwiyng -}          [ "Boeing" ] ]
+    Identity                  `noun`    {- buwiyng -}          [ "" {- "Boeing" -} ] ]
 
  |> "buwInus" <| [
 
@@ -17196,7 +17202,7 @@ lexicon = listing "Lexicon's properties"
     -- bwyns   buwiynus        N0      Buenos
     -- bywns   biyuwnus        N0      Buenos
 
-    Identity                  `noun`    {- buwiynus -}         [ "Buenos" ] ]
+    Identity                  `noun`    {- buwiynus -}         [ "" {- "Buenos" -} ] ]
 
  |> "buway_hir" <| [
 
@@ -17210,26 +17216,26 @@ lexicon = listing "Lexicon's properties"
     -- ;; byruwjiyA_1
     -- byrwjyA byruwjiyA       N0      Peruggia
 
-    Identity                  `noun`    {- byruwjiyA -}        [ "Peruggia" ] ]
+    Identity                  `noun`    {- byruwjiyA -}        [ "" {- "Peruggia" -} ] ]
 
  |> "byrs" <| [
 
     -- ;; byrs_1
     -- byrs    byrs    Nprop   Pierce
 
-    Identity                  `noun`    {- byrs -}             [ "Pierce" ],
+    Identity                  `noun`    {- byrs -}             [ "" {- "Pierce" -} ],
 
     -- ;; byrs_2
     -- byrs    byrs    Nprop   Peres
 
-    Identity                  `noun`    {- byrs -}             [ "Peres" ] ]
+    Identity                  `noun`    {- byrs -}             [ "" {- "Peres" -} ] ]
 
  |> "bytr" <| [
 
     -- ;; bytr_1
     -- bytr    bytr    Nprop   Peter
 
-    Identity                  `noun`    {- bytr -}             [ "Peter" ] ]
+    Identity                  `noun`    {- bytr -}             [ "" {- "Peter" -} ] ]
 
  |> "mAbayn" <| [
 

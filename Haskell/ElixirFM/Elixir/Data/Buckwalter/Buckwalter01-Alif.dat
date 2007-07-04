@@ -509,8 +509,8 @@ Abyk    >abiyk  N0      APEC (Asia-Pacific Economic Cooperation)
 ;
 ; AFP Corpus: Paris soccer stadium Abbe-Deschamps
 ;; >abiyh_1
->byh    >abiyh  Nprop   Abbe (in "Abbe-Deschamps")
-Abyh    >abiyh  Nprop   Abbe (in "Abbe-Deschamps")
+>byh    >abiyh  Nprop   Abbe
+Abyh    >abiyh  Nprop   Abbe
 ;
 ;--- Abn
 ;; {ibon_1
@@ -4262,10 +4262,10 @@ AgsTs   >agusoTus       N0      August
 AgnAsyw <igonAsiyuw     N0      Ignacio
 ;
 ;; >aguwrap_1
->gwr    >aguwr  Napdu   agura (approx.: Israeli cent)
-Agwr    >aguwr  Napdu   agura (approx.: Israeli cent)
->gwrwt  >aguwruwt       N0      agurot (approx.: Israeli cents)
-Agwrwt  >aguwruwt       N0      agurot (approx.: Israeli cents)
+>gwr    >aguwr  Napdu   agura (Israeli cent)
+Agwr    >aguwr  Napdu   agura (Israeli cent)
+>gwrwt  >aguwruwt       N0      agurot (Israeli cents)
+Agwrwt  >aguwruwt       N0      agurot (Israeli cents)
 ;
 ;; ta>af~af_1
 t>ff    ta>af~af        PV      complain;grumble
@@ -5938,8 +5938,10 @@ Ams     >amos   N       yesterday
 AmstrdAm        >amostirodAm    N0      Amsterdam
 ;
 ;; >amo$iyr_1
->m$yr   >amo$iyr        N       Amshir (6th Coptic month, Feb. 8-Mar. 9)
-Am$yr   >amo$iyr        N       Amshir (6th Coptic month, Feb. 8-Mar. 9)
+>m$yr   >amo$iyr        N       Amshir
+; (6th Coptic month, Feb. 8-Mar. 9)
+Am$yr   >amo$iyr        N       Amshir
+; (6th Coptic month, Feb. 8-Mar. 9)
 ;
 ;; <im~aE_1
 <mE     <im~aE  N       yes-man;opportunist

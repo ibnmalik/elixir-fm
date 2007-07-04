@@ -71,6 +71,9 @@ $Lexicon = {
       'patterns' => {
         '.suquwr' => [
           'FuCUL'
+        ],
+        '\'a.squr' => [
+          'HaFCuL'
         ]
       },
       'index' => '2',
@@ -9380,8 +9383,8 @@ $Lexicon = {
       'form' => '.saydA',
       'lines' => [
         ';; SayodA_1',
-        'SydA    SayodA  N0      Sidon (Leb.)',
-        'SydA\'   SayodA\' N0      Sidon (Leb.)'
+        'SydA    SayodA  N0      Sidon',
+        'SydA\'   SayodA\' N0      Sidon'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9389,7 +9392,7 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Sidon (Leb.)'
+        'Sidon'
       ],
       'orig' => 'SayodA',
       'prefix' => ''
@@ -13006,6 +13009,9 @@ $Lexicon = {
       'patterns' => {
         '.simAm' => [
           'FiCAL'
+        ],
+        '\'a.simm' => [
+          'HaFiCL'
         ]
       },
       'index' => '1',
@@ -22773,7 +22779,7 @@ $Lexicon = {
       'form' => '.saf.tAwiyy',
       'lines' => [
         ';; SafoTAwiy~_2',
-        'SfTAwy  SafoTAwiy~      Nall    from/of Safta (Pal.)     [[SafoTAwiy~/ADJ]]'
+        'SfTAwy  SafoTAwiy~      Nall    from/of Safta      [[SafoTAwiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -22781,7 +22787,7 @@ $Lexicon = {
       'morphs' => 'FaCLA\' |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'from/of Safta (Pal.)'
+        'from/of Safta'
       ],
       'orig' => 'SafoTAwiy~',
       'prefix' => ''

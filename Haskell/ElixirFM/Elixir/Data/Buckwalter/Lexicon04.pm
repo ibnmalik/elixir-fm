@@ -1626,8 +1626,8 @@ $Lexicon = {
       'form' => '_tumnaT',
       'lines' => [
         ';; vumonap_1',
-        'vmn     vumon   Napdu   thumna (Egy. = 0.285 l.; Pal. = 2.25 l.)',
-        'vmn     vuman   NAt     thumnas (Egy. = 0.285 l.; Pal. = 2.25 l.)'
+        'vmn     vumon   Napdu   thumna',
+        'vmn     vuman   NAt     thumnas'
       ],
       'patterns' => {
         '_tuman' => [
@@ -1639,9 +1639,8 @@ $Lexicon = {
       'morphs' => 'FuCL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'thumna (Egy. = 0.285 l.',
-        'Pal. = 2.25 l.)',
-        'thumnas (Egy. = 0.285 l.'
+        'thumna',
+        'thumnas'
       ],
       'orig' => 'vumonap',
       'prefix' => ''

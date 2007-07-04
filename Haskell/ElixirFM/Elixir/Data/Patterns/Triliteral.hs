@@ -550,7 +550,9 @@ data PatternT =
         |   MiFCaL      |   MICaL                       |   MiFCY       |   MiFaCL      |   MICY
 
         |   HaFCAL      |   HACAL                       |   HaFCA'                      |   HACA'
-        |   HaFCiL      |   HACiL       |   HaFIL       |   HaFCI                       |   HACI
+
+        |   HaFCiL      |   HACiL       |   HaFIL       |   HaFCI       |   HaFiCL      |   HACI
+        |   HaFCuL      |   HACuL       |   HaFUL       |   HaFCU       |   HaFuCL      |   HACU
 
         |   HaFACiL                                     |   HaFACI
         |   HaFACIL

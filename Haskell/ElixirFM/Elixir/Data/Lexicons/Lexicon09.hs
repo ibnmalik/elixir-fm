@@ -219,12 +219,14 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- \*aroE -}           [ "power", "capability" ],
 
     FiCAL                     `noun`    {- \*irAE -}           [ "arm" ]
+                              `plural`     HaFCuL
                               `plural`     FuCLAn
-                           {- `others`  [ "_dur`An N" ] -},
+                           {- `others`  [ "'a_dru` N", "_dur`An N" ] -},
 
     FiCAL                     `noun`    {- \*irAE -}           [ "lever", "crank" ]
+                              `plural`     HaFCuL
                               `plural`     FuCLAn
-                           {- `others`  [ "_dur`An N" ] -},
+                           {- `others`  [ "'a_dru` N", "_dur`An N" ] -},
 
     FaCIL                     `adj`     {- \*ariyE -}          [ "rapid", "sweeping" ],
 

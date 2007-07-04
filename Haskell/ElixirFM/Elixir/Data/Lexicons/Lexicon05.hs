@@ -804,7 +804,9 @@ lexicon = listing "Lexicon's properties"
     FiCL                      `noun`    {- jinoH -}            [ "side" ],
 
     FaCAL                     `noun`    {- janAH -}            [ "wing", "flank" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCuL
+                           {- `others`  [ "'a^gnu.h N" ] -},
 
     FuCAL                     `noun`    {- junAH -}            [ "misdemeanor" ] ]
 
@@ -871,7 +873,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- janiyn -}           [ "germ" ],
 
-    FaCIL                     `noun`    {- janiyn -}           [ "fetus", "germ" ],
+    FaCIL                     `noun`    {- janiyn -}           [ "fetus", "germ" ]
+                              `plural`     HaFiCL |< aT
+                              `plural`     HaFuCL
+                           {- `others`  [ "'a^gunn N" ] -},
 
     FuCUL                     `noun`    {- junuwn -}           [ "madness", "insanity" ] ]
 

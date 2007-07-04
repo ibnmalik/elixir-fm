@@ -3665,7 +3665,7 @@ $Lexicon = {
       'form' => 'qarawiyy',
       'lines' => [
         ';; qarawiy~_3',
-        'qrwy    qarawiy~        Nall    of/from Kairouan (Tun.)     [[qarawiy~/ADJ]]'
+        'qrwy    qarawiy~        Nall    of/from Kairouan     [[qarawiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '3',
@@ -3673,7 +3673,7 @@ $Lexicon = {
       'morphs' => 'FaL |<< "awIy"',
       'suffix' => ' |<< "awIy"',
       'glosses' => [
-        'of/from Kairouan (Tun.)'
+        'of/from Kairouan'
       ],
       'orig' => 'qarawiy~',
       'prefix' => ''
@@ -7711,7 +7711,7 @@ $Lexicon = {
       'form' => 'qAbis',
       'lines' => [
         ';; qAbis_1',
-        'qAbs    qAbis   Ndip    Gabes (Tun.)'
+        'qAbs    qAbis   Ndip    Gabes'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7719,7 +7719,7 @@ $Lexicon = {
       'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [
-        'Gabes (Tun.)'
+        'Gabes'
       ],
       'orig' => 'qAbis',
       'prefix' => ''
@@ -10270,7 +10270,11 @@ $Lexicon = {
         '>qb     >aqub~  N       hubs;levers;beams',
         'Aqb     >aqub~  N       hubs;levers;beams'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'aqubb' => [
+          'HaFuCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL',
@@ -12517,6 +12521,9 @@ $Lexicon = {
         ],
         'qiy`An' => [
           'FILAn'
+        ],
+        '\'aqwu`' => [
+          'HaFCuL'
         ]
       },
       'index' => '1',
@@ -13964,6 +13971,9 @@ $Lexicon = {
         'qsAws   qasAwis Nap     clergymen'
       ],
       'patterns' => {
+        '\'aqiss' => [
+          'HaFiCL'
+        ],
         'qussAn' => [
           'FuCLAn'
         ]
@@ -19626,8 +19636,8 @@ $Lexicon = {
       'form' => 'qalbaT',
       'lines' => [
         ';; qalobap_1',
-        'qlb     qalob   Napdu   qalba (capacity measure = 20 liters)',
-        'qlb     qalab   NAt     qalba (capacity measure = 20 liters)'
+        'qlb     qalob   Napdu   qalba',
+        'qlb     qalab   NAt     qalba'
       ],
       'patterns' => {
         'qalab' => [
@@ -19639,7 +19649,7 @@ $Lexicon = {
       'morphs' => 'FaCL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'qalba (capacity measure = 20 liters)'
+        'qalba'
       ],
       'orig' => 'qalobap',
       'prefix' => ''
@@ -21466,7 +21476,7 @@ $Lexicon = {
       'form' => 'qalyuwb',
       'lines' => [
         ';; qaloyuwb_1',
-        'qlywb   qaloyuwb        Ndip    Qalyub (Egy.)'
+        'qlywb   qaloyuwb        Ndip    Qalyub'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21474,7 +21484,7 @@ $Lexicon = {
       'morphs' => 'KaRDUS',
       'suffix' => '',
       'glosses' => [
-        'Qalyub (Egy.)'
+        'Qalyub'
       ],
       'orig' => 'qaloyuwb',
       'prefix' => ''
@@ -21485,7 +21495,7 @@ $Lexicon = {
       'form' => 'qalyuwbiyyaT',
       'lines' => [
         ';; qaloyuwbiy~ap_1',
-        'qlywby  qaloyuwbiy~     Nap     Qalyubiyah (Egy. prov.)     [[qaloyuwbiy~/NOUN]]'
+        'qlywby  qaloyuwbiy~     Nap     Qalyubiyah     [[qaloyuwbiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21493,7 +21503,7 @@ $Lexicon = {
       'morphs' => 'KaRDUS |< Iy |< aT',
       'suffix' => ' |< Iy |< aT',
       'glosses' => [
-        'Qalyubiyah (Egy. prov.)'
+        'Qalyubiyah'
       ],
       'orig' => 'qaloyuwbiy~ap',
       'prefix' => ''
@@ -21504,7 +21514,7 @@ $Lexicon = {
       'form' => 'qalyuwbiyy',
       'lines' => [
         ';; qaloyuwbiy~_1',
-        'qlywby  qaloyuwbiy~     Nall    from/of Qalyub (Egy.)     [[qaloyuwbiy~/ADJ]]'
+        'qlywby  qaloyuwbiy~     Nall    from/of Qalyub     [[qaloyuwbiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21512,7 +21522,7 @@ $Lexicon = {
       'morphs' => 'KaRDUS |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'from/of Qalyub (Egy.)'
+        'from/of Qalyub'
       ],
       'orig' => 'qaloyuwbiy~',
       'prefix' => ''
@@ -30847,6 +30857,9 @@ $Lexicon = {
       'patterns' => {
         '\'aqnAn' => [
           'HaFCAL'
+        ],
+        '\'aqinn' => [
+          'HaFiCL'
         ]
       },
       'index' => '1',
@@ -35147,7 +35160,7 @@ $Lexicon = {
       'form' => 'qanA.tir',
       'lines' => [
         ';; qanATir_1',
-        'qnATr   qanATir N0      Qanatir (Egy.)'
+        'qnATr   qanATir N0      Qanatir'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35155,7 +35168,7 @@ $Lexicon = {
       'morphs' => 'KaRADiS',
       'suffix' => '',
       'glosses' => [
-        'Qanatir (Egy.)'
+        'Qanatir'
       ],
       'orig' => 'qanATir',
       'prefix' => ''
@@ -38558,7 +38571,11 @@ $Lexicon = {
         '>qd     >aqud~  N       straps;thongs',
         'Aqd     >aqud~  N       straps;thongs'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'aqudd' => [
+          'HaFuCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCL',
@@ -39274,9 +39291,9 @@ $Lexicon = {
       'form' => 'qafiyz',
       'lines' => [
         ';; qafiyz_1',
-        'qfyz    qafiyz  Ndu     qafiz (dry measure = 528 liters)',
-        '>qfz    >aqofiz Nap     qafiz (dry measure = 528 liters)',
-        'Aqfz    >aqofiz Nap     qafiz (dry measure = 528 liters)'
+        'qfyz    qafiyz  Ndu     qafiz',
+        '>qfz    >aqofiz Nap     qafiz',
+        'Aqfz    >aqofiz Nap     qafiz'
       ],
       'patterns' => {
         '\'aqfiz' => [
@@ -39288,7 +39305,7 @@ $Lexicon = {
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
-        'qafiz (dry measure = 528 liters)'
+        'qafiz'
       ],
       'orig' => 'qafiyz',
       'prefix' => ''
@@ -53420,6 +53437,9 @@ $Lexicon = {
         'AqAdyH  >aqAdiyH        Ndip    arrows'
       ],
       'patterns' => {
+        '\'aqdu.h' => [
+          'HaFCuL'
+        ],
         'qidA.h' => [
           'FiCAL'
         ],
@@ -53505,9 +53525,9 @@ $Lexicon = {
       'form' => 'qada.h',
       'lines' => [
         ';; qadaH_2',
-        'qdH     qadaH   Ndu     qadah (2 liters)',
-        '>qdAH   >aqodAH N       qadahs (1 = 2 liters)',
-        'AqdAH   >aqodAH N       qadahs (1 = 2 liters)'
+        'qdH     qadaH   Ndu     qadah',
+        '>qdAH   >aqodAH N       qadahs',
+        'AqdAH   >aqodAH N       qadahs'
       ],
       'patterns' => {
         '\'aqdA.h' => [
@@ -53519,8 +53539,8 @@ $Lexicon = {
       'morphs' => 'FaCaL',
       'suffix' => '',
       'glosses' => [
-        'qadah (2 liters)',
-        'qadahs (1 = 2 liters)'
+        'qadah',
+        'qadahs'
       ],
       'orig' => 'qadaH',
       'prefix' => ''

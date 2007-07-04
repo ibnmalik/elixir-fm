@@ -4213,6 +4213,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '\' n k' => [
+    {
+      'types' => {},
+      'entry' => '\'Anuk',
+      'form' => '\'Anuk',
+      'lines' => [
+        ';; |nuk_1',
+        '|nk     |nuk    N       lead'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HACuL',
+      'suffix' => '',
+      'glosses' => [
+        'lead'
+      ],
+      'orig' => '|nuk',
+      'prefix' => ''
+    }
+  ],
   '\' l b' => [
     {
       'types' => {
@@ -6616,27 +6637,6 @@ $Lexicon = {
         'children'
       ],
       'orig' => 'OabonA\'',
-      'prefix' => ''
-    }
-  ],
-  '\'Anuk' => [
-    {
-      'types' => {},
-      'entry' => '\'Anuk',
-      'form' => '\'Anuk',
-      'lines' => [
-        ';; |nuk_1',
-        '|nk     |nuk    N       lead'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'lead'
-      ],
-      'orig' => '|nuk',
       'prefix' => ''
     }
   ],
@@ -14477,8 +14477,8 @@ $Lexicon = {
       'form' => '\'am^siyr',
       'lines' => [
         ';; >amo$iyr_1',
-        '>m$yr   >amo$iyr        N       Amshir (6th Coptic month, Feb. 8-Mar. 9)',
-        'Am$yr   >amo$iyr        N       Amshir (6th Coptic month, Feb. 8-Mar. 9)'
+        '>m$yr   >amo$iyr        N       Amshir',
+        'Am$yr   >amo$iyr        N       Amshir'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14486,7 +14486,7 @@ $Lexicon = {
       'morphs' => 'KaRDIS',
       'suffix' => '',
       'glosses' => [
-        'Amshir (6th Coptic month, Feb. 8-Mar. 9)'
+        'Amshir'
       ],
       'orig' => 'Oamo$iyr',
       'prefix' => ''
@@ -41156,8 +41156,8 @@ $Lexicon = {
       'form' => '\'abiyh',
       'lines' => [
         ';; >abiyh_1',
-        '>byh    >abiyh  Nprop   Abbe (in "Abbe-Deschamps")',
-        'Abyh    >abiyh  Nprop   Abbe (in "Abbe-Deschamps")'
+        '>byh    >abiyh  Nprop   Abbe',
+        'Abyh    >abiyh  Nprop   Abbe'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41165,7 +41165,7 @@ $Lexicon = {
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
-        'Abbe (in "Abbe-Deschamps")'
+        'Abbe'
       ],
       'orig' => 'Oabiyh',
       'prefix' => ''
@@ -45723,10 +45723,10 @@ $Lexicon = {
       'form' => '\'a.guwraT',
       'lines' => [
         ';; >aguwrap_1',
-        '>gwr    >aguwr  Napdu   agura (approx.: Israeli cent)',
-        'Agwr    >aguwr  Napdu   agura (approx.: Israeli cent)',
-        '>gwrwt  >aguwruwt       N0      agurot (approx.: Israeli cents)',
-        'Agwrwt  >aguwruwt       N0      agurot (approx.: Israeli cents)'
+        '>gwr    >aguwr  Napdu   agura (Israeli cent)',
+        'Agwr    >aguwr  Napdu   agura (Israeli cent)',
+        '>gwrwt  >aguwruwt       N0      agurot (Israeli cents)',
+        'Agwrwt  >aguwruwt       N0      agurot (Israeli cents)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45734,8 +45734,8 @@ $Lexicon = {
       'morphs' => 'FaCUL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'agura (approx.: Israeli cent)',
-        'agurot (approx.: Israeli cents)'
+        'agura (Israeli cent)',
+        'agurot (Israeli cents)'
       ],
       'orig' => 'Oaguwrap',
       'prefix' => ''
@@ -52083,7 +52083,11 @@ $Lexicon = {
         '>ym     >ayim~  Nap     Imams',
         'Aym     >ayim~  Nap     Imams'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a\'imm' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -52115,7 +52119,11 @@ $Lexicon = {
         '>ym     >ayim~  Nap     leaders;imams',
         'Aym     >ayim~  Nap     leaders;imams'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a\'imm' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FiCAL',

@@ -9083,7 +9083,7 @@ $Lexicon = {
       'form' => 'harAT',
       'lines' => [
         ';; harAp_1',
-        'hrA     harA    Nap     Herat (Afgh.)'
+        'hrA     harA    Nap     Herat'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9091,7 +9091,7 @@ $Lexicon = {
       'morphs' => 'FaCY |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'Herat (Afgh.)'
+        'Herat'
       ],
       'orig' => 'harAp',
       'prefix' => ''
@@ -9102,7 +9102,7 @@ $Lexicon = {
       'form' => 'harawiyy',
       'lines' => [
         ';; harawiy~_1',
-        'hrwy    harawiy~        Nall    of/from Herat (Afgh.)     [[harawiy~/ADJ]]'
+        'hrwy    harawiy~        Nall    of/from Herat      [[harawiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9110,7 +9110,7 @@ $Lexicon = {
       'morphs' => 'FaC |<< "awIy"',
       'suffix' => ' |<< "awIy"',
       'glosses' => [
-        'of/from Herat (Afgh.)'
+        'of/from Herat'
       ],
       'orig' => 'harawiy~',
       'prefix' => ''
@@ -16641,6 +16641,9 @@ $Lexicon = {
       'patterns' => {
         '\'ahAliyl' => [
           'HaFACIL'
+        ],
+        '\'ahill' => [
+          'HaFiCL'
         ]
       },
       'index' => '1',
@@ -19622,7 +19625,7 @@ $Lexicon = {
       'form' => 'hAtuwr',
       'lines' => [
         ';; hAtuwr_1',
-        'hAtwr   hAtuwr  Ndip    Hator (3rd Coptic month, Nov. 10-Dec. 9)'
+        'hAtwr   hAtuwr  Ndip    Hator'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19630,7 +19633,7 @@ $Lexicon = {
       'morphs' => 'FACUL',
       'suffix' => '',
       'glosses' => [
-        'Hator (3rd Coptic month, Nov. 10-Dec. 9)'
+        'Hator'
       ],
       'orig' => 'hAtuwr',
       'prefix' => ''

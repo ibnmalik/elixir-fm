@@ -817,9 +817,10 @@ t$Ang   t$Ang   Nprop   Chang
 t$AynA  t$AyonA Nprop   China
 ;
 ;; ti$oriyn_1
-t$ryn   ti$oriyn        N0      Tishrin (part of month names Oct. and Nov.)
+t$ryn   ti$oriyn        N0      Tishrin (month)
+; (part of month names Oct. and Nov.)
 ;; ti$oriyn_2
-t$ryn   ti$oriyn        N0      Tishrin (Syrian newspaper)
+t$ryn   ti$oriyn        N0      Tishrin (newspaper)
 ;; ta$Ariyn_1
 t$Aryn  ta$Ariyn        Ndip    autumns;fall seasons
 ;
@@ -1579,7 +1580,8 @@ twbwjrAfy       tuwbuwjrAfiy~   Nall    topographic     <pos>tuwbuwjrAfiy~/ADJ</
 twt     tuwt    N       mulberry
 ;
 ;; tuwt_2
-twt     tuwt    Ndip    Tut (1st Coptic month, Sept. 11-Oct. 10)
+twt     tuwt    Ndip    Tut
+; (1st Coptic month, Sept. 11-Oct. 10)
 ;
 ;; tuwtAl_1
 twtAl   tuwtAl  N0      Total

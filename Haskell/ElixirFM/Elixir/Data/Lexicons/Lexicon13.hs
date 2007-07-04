@@ -9,10 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'a^sudd" <| [
-
-    Identity                  `noun`    {- Oa$ud~ -}           [ "maturity", "climax" ] ]
-
  |> "^s ' `" <| [
 
     FACiL                     `adj`     {- \$A}iE -}           [ "widespread", unwords [ "well", "-", "known" ] ] ]
@@ -126,6 +122,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- \$aHiyH -}          [ "meager", "sparse", "stingy" ]
                               `plural`     FiCAL
+                              `plural`     HaFiCL |< aT
                            {- `others`  [ "^si.hA.h N" ] -},
 
     FaCL |< At                `noun`    {- \$aH~At -}          [ "beggar" ] ]
@@ -195,8 +192,9 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- \$aTor -}           [ "bisecting" ],
 
     FaCL                      `noun`    {- \$aTor -}           [ "portion" ]
+                              `plural`     HaFCuL
                               `plural`     FuCUL
-                           {- `others`  [ "^su.tuwr N" ] -},
+                           {- `others`  [ "'a^s.tur N", "^su.tuwr N" ] -},
 
     FACiL                     `adj`     {- \$ATir -}           [ "clever", "smart", "cute" ]
                               `plural`     FuCCAL
@@ -318,7 +316,8 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FiCL
                               `pfirst`     FaCaL,
 
-    FuCAL                     `noun`    {- \$uEAE -}           [ "rays" ],
+    FuCAL                     `noun`    {- \$uEAE -}           [ "rays" ]
+                              `plural`     HaFiCL |< aT,
 
     FuCAL |< Iy               `adj`     {- \$uEAEiy~ -}        [ "radiation" ],
 
@@ -473,7 +472,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- \$ab~ -}            [ "alum", unwords [ "styptic", "pencil" ] ]
                               `plural`     FaCL |< At,
 
-    FaCAL                     `noun`    {- \$abAb -}           [ unwords [ "Jeunesse", "(", "in", "\"Jeunesse", "de", "la", "Massira\"", ")" ] ],
+    FaCAL                     `noun`    {- \$abAb -}           [ "Jeunesse" ],
 
     FaCAL |< Iy               `adj`     {- \$abAbiy~ -}        [ "youthful", "juvenile" ],
 
@@ -584,6 +583,8 @@ lexicon = listing "Lexicon's properties"
     FaCIL                     `noun`    {- \$adiyd -}          [ "Shadeed" ],
 
     HaFaCL                    `noun`    {- Oa$ad~ -}           [ unwords [ "stronger", "/", "strongest" ], unwords [ "more", "/", "most", "intense" ] ],
+
+    HaFuCL                    `noun`    {- Oa$ud~ -}           [ "maturity", "climax" ],
 
     MiFaCL                    `noun`    {- mi$ad~ -}           [ "corset", "stays" ]
                               `plural`     MiFaCL |< At,
@@ -782,7 +783,7 @@ lexicon = listing "Lexicon's properties"
     IstiFCAL                  `noun`    {- Aisoti$ohAd -}      [ "quotation" ]
                               `plural`     IstiFCAL |< At,
 
-    IstiFCAL |< Iy            `adj`     {- Aisoti$ohAdiy~ -}   [ unwords [ "martyr", "(", "\"suicide\"", "in", "Western", "media", ")" ] ] ]
+    IstiFCAL |< Iy            `adj`     {- Aisoti$ohAdiy~ -}   [ "martyr" ] ]
 
  |> "^s h q" <| [
 
@@ -799,8 +800,9 @@ lexicon = listing "Lexicon's properties"
     IFtaCaL                   `verb`    {- Ai$otahar -}        [ unwords [ "become", "famous" ] ],
 
     FaCL                      `noun`    {- \$ahor -}           [ "month" ]
+                              `plural`     HaFCuL
                               `plural`     FuCUL
-                           {- `others`  [ "^suhuwr N" ] -},
+                           {- `others`  [ "'a^shur N", "^suhuwr N" ] -},
 
     FaCL |< Iy                `adj`     {- \$ahoriy~ -}        [ "monthly" ],
 
@@ -1107,7 +1109,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaL
                            {- `others`  [ "^suqaq N" ] -},
 
-    FaCIL                     `noun`    {- \$aqiyq -}          [ "brother" ],
+    FaCIL                     `noun`    {- \$aqiyq -}          [ "brother" ]
+                              `plural`     HaFiCL |< aT,
 
     FaCIL                     `adj`     {- \$aqiyq -}          [ "fraternal", "brotherly" ],
 
@@ -1413,6 +1416,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- \$ariyr -}          [ "bad", "wicked", "evil" ]
                               `plural`     HaFCAL
+                              `plural`     HaFiCL |< aT
                            {- `others`  [ "'a^srAr N" ] -},
 
     FaCAL |< aT               `noun`    {- \$arArap -}         [ "spark" ]

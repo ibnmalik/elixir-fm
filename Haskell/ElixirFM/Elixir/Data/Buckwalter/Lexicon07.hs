@@ -7152,9 +7152,9 @@ lexicon = listing "Lexicon's properties"
     FaCCUL |< aT              `noun`    {- xar~uwbap -}        [ unwords [ "carob", "bean" ], unwords [ "locust", "pod" ] ],
 
     -- ;; xar~uwbap_2
-    -- xrwb    xar~uwb NapAt   kharouba (dry measure, = 0.129 l.)
+    -- xrwb    xar~uwb NapAt   kharouba
 
-    FaCCUL |< aT              `noun`    {- xar~uwbap -}        [ unwords [ "kharouba", "(", "dry", "measure,", "=", "0.129", "l.", ")" ] ],
+    FaCCUL |< aT              `noun`    {- xar~uwbap -}        [ "kharouba" ],
 
     -- ;; xar~uwbap_3
     -- xrwbp   xar~uwbap       N0      Kharroubeh
@@ -7905,7 +7905,8 @@ lexicon = listing "Lexicon's properties"
     -- >xs     >axis~  Nap     despicable;miserable
     -- Axs     >axis~  Nap     despicable;miserable
 
-    FaCIL                     `noun`    {- xasiys -}           [ "despicable", "miserable" ],
+    FaCIL                     `noun`    {- xasiys -}           [ "despicable", "miserable" ]
+                              `plural`     HaFiCL |< aT,
 
     -- ;; xasiys_2
     -- xsys    xasiys  N/ap    mean trick;infamy
@@ -8240,12 +8241,12 @@ lexicon = listing "Lexicon's properties"
  |> "_h w _h" <| [
 
     -- ;; xawox_1
-    -- xwx     xawox   N       peach (Egy.Ir.)
-    -- xwx     xawox   N       plum (Lev.)
-    -- xwx     xawox   NapAt   peach (Egy.Ir.)
-    -- xwx     xawox   NapAt   plum (Lev.)
+    -- xwx     xawox   N       peach
+    -- xwx     xawox   N       plum
+    -- xwx     xawox   NapAt   peach
+    -- xwx     xawox   NapAt   plum
 
-    FaCL                      `noun`    {- xawox -}            [ unwords [ "peach", "(", "Egy.Ir.", ")" ], unwords [ "plum", "(", "Lev.", ")" ] ]
+    FaCL                      `noun`    {- xawox -}            [ "peach", "plum" ]
                               `plural`     FaCL |< At,
 
     -- ;; xaw~ax_1
@@ -9735,21 +9736,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; xAfiyiyr_1
     -- xAfyyr  xAfiyiyr        Nprop   Javier
 
-    Identity                  `noun`    {- xAfiyiyr -}         [ "Javier" ] ]
+    Identity                  `noun`    {- xAfiyiyr -}         [ "" {- "Javier" -} ] ]
 
  |> "_hAmani'" <| [
 
     -- ;; xAmani}iy~_1
     -- xAmn}y  xAmani}iy~      Nprop   Khamene'i
 
-    Identity |< Iy            `adj`     {- xAmani}iy~ -}       [ "Khamene'i" ] ]
+    Identity |< Iy            `adj`     {- xAmani}iy~ -}       [ "" {- "Khamene'i" -} ] ]
 
  |> "_hAnyUnis" <| [
 
     -- ;; xAnoyuwnis_1
     -- xAnywns xAnoyuwnis      Nprop   Khanyounis;Khanyunis
 
-    Identity                  `noun`    {- xAnoyuwnis -}       [ "Khanyounis", "Khanyunis" ] ]
+    Identity                  `noun`    {- xAnoyuwnis -}       [ "" {- "Khanyounis" -}, "" {- "Khanyunis" -} ] ]
 
  |> "_hAqAn" <| [
 
@@ -9776,7 +9777,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; xAsAnosk_1
     -- xAsAnsk xAsAnosk        Nprop   Khasansk
 
-    Identity                  `noun`    {- xAsAnosk -}         [ "Khasansk" ] ]
+    Identity                  `noun`    {- xAsAnosk -}         [ "" {- "Khasansk" -} ] ]
 
  |> "_hAtAm" <| [
 
@@ -9791,45 +9792,45 @@ lexicon = listing "Lexicon's properties"
     -- ;; xAyomiy_1
     -- xAymy   xAyomiy Nprop   Jaime
 
-    Identity                  `noun`    {- xAyomiy -}          [ "Jaime" ] ]
+    Identity                  `noun`    {- xAyomiy -}          [ "" {- "Jaime" -} ] ]
 
  |> "_hUdAdAd" <| [
 
     -- ;; xuwdAdAd_1
     -- xwdAdAd xuwdAdAd        Nprop   Khodadad
 
-    Identity                  `noun`    {- xuwdAdAd -}         [ "Khodadad" ] ]
+    Identity                  `noun`    {- xuwdAdAd -}         [ "" {- "Khodadad" -} ] ]
 
  |> "_hUr_hI" <| [
 
     -- ;; xuwroxiy_1
     -- xwrxy   xuwroxiy        Nprop   Jorge
 
-    Identity                  `noun`    {- xuwroxiy -}         [ "Jorge" ] ]
+    Identity                  `noun`    {- xuwroxiy -}         [ "" {- "Jorge" -} ] ]
 
  |> "_hUst" <| [
 
     -- ;; xuwst_1
     -- xwst    xuwst   N0      Khost
 
-    Identity                  `noun`    {- xuwst -}            [ "Khost" ] ]
+    Identity                  `noun`    {- xuwst -}            [ "" {- "Khost" -} ] ]
 
  |> "_hUzistAn" <| [
 
     -- ;; xuwzisotAn_1
     -- xwzstAn xuwzisotAn      Nprop   Khuzistan
 
-    Identity                  `noun`    {- xuwzisotAn -}       [ "Khuzistan" ],
+    Identity                  `noun`    {- xuwzisotAn -}       [ "" {- "Khuzistan" -} ],
 
     -- ;; xuwzisotAniy~_1
     -- xwzstAny        xuwzisotAniy~   Nall    from/of Khuzistan
 
-    Identity |< Iy            `adj`     {- xuwzisotAniy~ -}    [ unwords [ "from", "/", "of", "Khuzistan" ] ],
+    Identity |< Iy            `adj`     {- xuwzisotAniy~ -}    [ unwords [ "from", "/", "of", "" {- "Khuzistan" -} ] ],
 
     -- ;; xuwzisotAniy~_2
     -- xwzstAny        xuwzisotAniy~   N0      Khuzistani
 
-    Identity |< Iy            `adj`     {- xuwzisotAniy~ -}    [ "Khuzistani" ] ]
+    Identity |< Iy            `adj`     {- xuwzisotAniy~ -}    [ "" {- "Khuzistani" -} ] ]
 
  |> "_ha.t.tIf" <| [
 
@@ -9865,7 +9866,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; xan~uw$iy_1
     -- xnw$y   xan~uw$y        N0      Khannouchi
 
-    Identity                  `noun`    {- xan~uw$iy -}        [ "Khannouchi" ] ]
+    Identity                  `noun`    {- xan~uw$iy -}        [ "" {- "Khannouchi" -} ] ]
 
  |> "_harman^g" <| [
 
@@ -9886,7 +9887,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; xayorAllh_1
     -- xyrAllh xayorAll~`h     N0      Khairallah;Kheirallah;Khairullah
 
-    Identity                  `noun`    {- xayorAllh -}        [ "Khairallah", "Kheirallah", "Khairullah" ] ]
+    Identity                  `noun`    {- xayorAllh -}        [ "" {- "Khairallah" -}, "" {- "Kheirallah" -}, "" {- "Khairullah" -} ] ]
 
  |> "_hayzUrAn" <| [
 
@@ -9901,7 +9902,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; xazanodAr_1
     -- xzndAr  xazanodAr       N0      Khazandar
 
-    Identity                  `noun`    {- xazanodAr -}        [ "Khazandar" ],
+    Identity                  `noun`    {- xazanodAr -}        [ "" {- "Khazandar" -} ],
 
     -- ;; xazanodAr_2
     -- xzndAr  xazanodAr       N       treasurer
@@ -9912,7 +9913,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; xazanodAriy~_1
     -- xzndAry xazanodAriy~    N0      Khazandari
 
-    Identity |< Iy            `adj`     {- xazanodAriy~ -}     [ "Khazandari" ],
+    Identity |< Iy            `adj`     {- xazanodAriy~ -}     [ "" {- "Khazandari" -} ],
 
     -- ;; xazanodAriy~_2
     -- xzndAry xazanodAriy~    Nall    treasurer     [[xazanodAriy~/ADJ]]
@@ -9955,7 +9956,7 @@ lexicon = listing "Lexicon's properties"
     -- xDyrA&  xuDayorA&       Nh      Paradise
     -- xDyrA}  xuDayorA}       Nhy     Paradise
 
-    Identity                  `noun`    {- xuDayorA' -}        [ "Paradise" ] ]
+    Identity                  `noun`    {- xuDayorA' -}        [ "" {- "Paradise" -} ] ]
 
  |> "_hulun^gAn" <| [
 
@@ -9969,7 +9970,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; xumayoniy_1
     -- xmyny   xumayoniy       N0      Khomeini
 
-    Identity                  `noun`    {- xumayoniy -}        [ "Khomeini" ] ]
+    Identity                  `noun`    {- xumayoniy -}        [ "" {- "Khomeini" -} ] ]
 
  |> "_hunzuwAn" <| [
 
@@ -9984,17 +9985,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; xurAsAn_1
     -- xrAsAn  xurAsAn Ndip    Khurasan
 
-    Identity                  `noun`    {- xurAsAn -}          [ "Khurasan" ],
+    Identity                  `noun`    {- xurAsAn -}          [ "" {- "Khurasan" -} ],
 
     -- ;; xurAsAniy~_1
     -- xrAsAny xurAsAniy~      Nall    from/of Khurasan     [[xurAsAniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- xurAsAniy~ -}       [ unwords [ "from", "/", "of", "Khurasan" ] ],
+    Identity |< Iy            `adj`     {- xurAsAniy~ -}       [ unwords [ "from", "/", "of", "" {- "Khurasan" -} ] ],
 
     -- ;; xurAsAniy~_2
     -- xrAsAny xurAsAniy~      N0      Khurasani
 
-    Identity |< Iy            `adj`     {- xurAsAniy~ -}       [ "Khurasani" ] ]
+    Identity |< Iy            `adj`     {- xurAsAniy~ -}       [ "" {- "Khurasani" -} ] ]
 
  |> "_huza`bal" <| [
 
@@ -10009,7 +10010,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; xwAn_1
     -- xwAn    xwAn    Nprop   Juan
 
-    Identity                  `noun`    {- xwAn -}             [ "Juan" ] ]
+    Identity                  `noun`    {- xwAn -}             [ "" {- "Juan" -} ] ]
 
  |> "kUrfisqufUs" <| [
 

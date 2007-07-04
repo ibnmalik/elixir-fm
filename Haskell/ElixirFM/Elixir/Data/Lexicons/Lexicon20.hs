@@ -543,7 +543,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "f d n" <| [
 
-    FaCCAL                    `noun`    {- fad~An -}           [ unwords [ "feddan", "(", "4.2", "sq.m.,", "Ar.Eg.Sud." ], unwords [ "5.7", "sq.m", "Lev.", ")" ], unwords [ "feddans", "(", "1", "feddan", "=", "4.2", "sq.m.,", "Ar.Eg.Sud." ] ]
+    FaCCAL                    `noun`    {- fad~An -}           [ "feddan" ]
                               `plural`     HaFCiL |< aT,
 
     FaCCAL                    `noun`    {- fad~An -}           [ unwords [ "yoke", "of", "oxen" ], unwords [ "yokes", "of", "oxen" ] ]
@@ -573,8 +573,9 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- fahod -}            [ "Fahd" ],
 
     FaCL                      `noun`    {- fahod -}            [ "lynx" ]
+                              `plural`     HaFCuL
                               `plural`     FuCUL
-                           {- `others`  [ "fuhuwd N" ] -} ]
+                           {- `others`  [ "'afhud N", "fuhuwd N" ] -} ]
 
  |> "f h m" <| [
 
@@ -1120,7 +1121,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACiL
                            {- `others`  [ "mafAriq Ndip" ] -},
 
-    MaFCaL                    `noun`    {- maforaq -}          [ unwords [ "Mafraq", "(", "Jor.", ")" ] ],
+    MaFCaL                    `noun`    {- maforaq -}          [ "Mafraq" ],
 
     TaFCIL                    `noun`    {- taforiyq -}         [ "separation", "division" ]
                               `plural`     TaFCIL |< At,

@@ -158,8 +158,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- EaSor -}            [ "age", "period", "epoch" ]
                               `plural`     FuCUL
+                              `plural`     HaFCuL
                               `plural`     HaFCAL
-                           {- `others`  [ "`u.suwr N", "'a`.sAr N" ] -},
+                           {- `others`  [ "`u.suwr N", "'a`.sur N", "'a`.sAr N" ] -},
 
     FaCL                      `noun`    {- EaSor -}            [ "compression", "squeezing" ],
 
@@ -877,7 +878,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "` d n" <| [
 
-    FaCL                      `noun`    {- Eadon -}            [ unwords [ "Aden", "(", "Yem.", ")" ] ],
+    FaCL                      `noun`    {- Eadon -}            [ "Aden" ],
 
     FaCL                      `noun`    {- Eadon -}            [ "Eden" ],
 
@@ -987,7 +988,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- EafAf -}            [ "Afaf" ],
 
-    FaCIL                     `adj`     {- Eafiyf -}           [ "virtuous", "honest" ],
+    FaCIL                     `adj`     {- Eafiyf -}           [ "virtuous", "honest" ]
+                              `plural`     HaFiCL |< aT,
 
     FaCIL                     `noun`    {- Eafiyf -}           [ "Afeef", "Afif" ] ]
 
@@ -2312,7 +2314,9 @@ lexicon = listing "Lexicon's properties"
  |> "` t d" <| [
 
     FaCAL                     `noun`    {- EatAd -}            [ unwords [ "war", "material" ], "ammunition" ]
-                              `plural`     HaFCiL |< aT ]
+                              `plural`     HaFCuL
+                              `plural`     HaFCiL |< aT
+                           {- `others`  [ "'a`tud N" ] -} ]
 
  |> "` t q" <| [
 
@@ -2634,8 +2638,9 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- Eayon -}            [ "Ain", "Ein" ],
 
     FaCL                      `noun`    {- Eayon -}            [ "eye" ]
+                              `plural`     HaFCuL
                               `plural`     FuCUL
-                           {- `others`  [ "`uyuwn N" ] -},
+                           {- `others`  [ "'a`yun N", "`uyuwn N" ] -},
 
     FaCL                      `noun`    {- Eayon -}            [ unwords [ "water", "spring" ], unwords [ "water", "source" ] ]
                               `plural`     FuCUL
@@ -2806,7 +2811,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- Eaziyz -}           [ "Aziz" ],
 
-    FaCIL                     `adj`     {- Eaziyz -}           [ "dear", "precious" ],
+    FaCIL                     `adj`     {- Eaziyz -}           [ "dear", "precious" ]
+                              `plural`     HaFiCL |< aT,
 
     TaFCIL                    `adv`     {- taEoziyz -}         [ "support", "backing", unwords [ "in", "support", "of" ] ],
 

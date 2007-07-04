@@ -1160,9 +1160,12 @@ fdAm    fidAm   N       muzzle
 fdn     fad~an  PV-n    level
 fdn     fad~in  IV-n_yu level
 ;; fad~An_1
-fdAn    fad~An  Ndu     feddan (4.2 sq.m., Ar.Eg.Sud.; 5.7 sq.m Lev.)
->fdn    >afodin Nap     feddans (1 feddan = 4.2 sq.m., Ar.Eg.Sud.; 5.7 sq.m Lev.)
-Afdn    >afodin Nap     feddans (1 feddan = 4.2 sq.m., Ar.Eg.Sud.; 5.7 sq.m Lev.)
+fdAn    fad~An  Ndu     feddan
+; (4.2 sq.m., Ar.Eg.Sud.; 5.7 sq.m Lev.)
+>fdn    >afodin Nap     feddans
+; (1 feddan = 4.2 sq.m., Ar.Eg.Sud.; 5.7 sq.m Lev.)
+Afdn    >afodin Nap     feddans
+; (1 feddan = 4.2 sq.m., Ar.Eg.Sud.; 5.7 sq.m Lev.)
 ;; fad~An_2
 fdAn    fad~An  Ndu     yoke of oxen
 fdAdyn  fadAdiyn        Ndip    yokes of oxen
@@ -2147,7 +2150,7 @@ fArwqy  fAruwqiy~       NapAt   farouqiya (aviator cap)     <pos>fAruwqiy~/NOUN<
 mfrq    maforiq Ndu     intersection;crossroads;junction
 mfArq   mafAriq Ndip    intersections;crossroads;junctions
 ;; maforaq_1
-mfrq    maforaq N       Mafraq (Jor.)
+mfrq    maforaq N       Mafraq
 ;; miforaq_1
 mfrq    miforaq N       potentiometer
 ;; taforiyq_1

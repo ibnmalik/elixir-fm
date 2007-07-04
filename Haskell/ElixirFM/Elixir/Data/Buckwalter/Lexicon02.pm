@@ -594,7 +594,7 @@ $Lexicon = {
       'form' => 'buw.zaT',
       'lines' => [
         ';; buwZap_1',
-        'bwZ     buwZ    Nap     ice-cream (Levant)'
+        'bwZ     buwZ    Nap     ice-cream'
       ],
       'patterns' => {},
       'index' => '1',
@@ -602,7 +602,7 @@ $Lexicon = {
       'morphs' => 'FUL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'ice-cream (Levant)'
+        'ice-cream'
       ],
       'orig' => 'buwZap',
       'prefix' => ''
@@ -613,7 +613,7 @@ $Lexicon = {
       'form' => 'buw.zaT',
       'lines' => [
         ';; buwZap_2',
-        'bwZ     buwZ    Nap     beer (Egy.)'
+        'bwZ     buwZ    Nap     beer'
       ],
       'patterns' => {},
       'index' => '2',
@@ -621,7 +621,7 @@ $Lexicon = {
       'morphs' => 'FUL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'beer (Egy.)'
+        'beer'
       ],
       'orig' => 'buwZap',
       'prefix' => ''
@@ -5524,7 +5524,7 @@ $Lexicon = {
       'form' => 'bu.gA^saT',
       'lines' => [
         ';; bugA$ap_1',
-        'bgA$    bugA$   NapAt   boughashah ("cigar" pastries with walnut filling)'
+        'bgA$    bugA$   NapAt   boughashah'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5532,7 +5532,7 @@ $Lexicon = {
       'morphs' => 'FuCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'boughashah ("cigar" pastries with walnut filling)'
+        'boughashah'
       ],
       'orig' => 'bugA$ap',
       'prefix' => ''
@@ -5841,7 +5841,11 @@ $Lexicon = {
         '>bTn    >aboTun N       stomachs;interior',
         'AbTn    >aboTun N       stomachs;interior'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'ab.tun' => [
+          'HaFCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL',
@@ -8678,9 +8682,9 @@ $Lexicon = {
       'form' => 'bA`',
       'lines' => [
         ';; bAE_1',
-        'bAE     bAE     Ndu     fathom (3 meters)',
-        '>bwAE   >abowAE Ndip    fathoms (3 meters ea.)',
-        'AbwAE   >abowAE Ndip    fathoms (3 meters ea.)'
+        'bAE     bAE     Ndu     fathom',
+        '>bwAE   >abowAE Ndip    fathoms',
+        'AbwAE   >abowAE Ndip    fathoms'
       ],
       'patterns' => {
         '\'abwA`' => [
@@ -8692,8 +8696,8 @@ $Lexicon = {
       'morphs' => 'FAL',
       'suffix' => '',
       'glosses' => [
-        'fathom (3 meters)',
-        'fathoms (3 meters ea.)'
+        'fathom',
+        'fathoms'
       ],
       'orig' => 'bAE',
       'prefix' => ''
@@ -23812,7 +23816,7 @@ $Lexicon = {
       'form' => 'baramhAt',
       'lines' => [
         ';; baramohAt_1',
-        'brmhAt  baramohAt       N0      Baramhat (7th Coptic month, Mar. 10-Apr. 8)'
+        'brmhAt  baramohAt       N0      Baramhat'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23820,7 +23824,7 @@ $Lexicon = {
       'morphs' => 'Identity |< At',
       'suffix' => ' |< At',
       'glosses' => [
-        'Baramhat (7th Coptic month, Mar. 10-Apr. 8)'
+        'Baramhat'
       ],
       'orig' => 'baramohAt',
       'prefix' => ''
@@ -26749,6 +26753,9 @@ $Lexicon = {
         ],
         'bu.huwr' => [
           'FuCUL'
+        ],
+        '\'ab.hur' => [
+          'HaFCuL'
         ]
       },
       'index' => '1',
@@ -31213,7 +31220,7 @@ $Lexicon = {
       'form' => 'baradY',
       'lines' => [
         ';; baradaY_1',
-        'brdY    baradaY N0      Barada (river in Syr.)'
+        'brdY    baradaY N0      Barada'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31221,7 +31228,7 @@ $Lexicon = {
       'morphs' => 'FaCaLY',
       'suffix' => '',
       'glosses' => [
-        'Barada (river in Syr.)'
+        'Barada'
       ],
       'orig' => 'baradaY',
       'prefix' => ''
@@ -33666,8 +33673,8 @@ $Lexicon = {
       'form' => 'basmal',
       'lines' => [
         ';; basomal_1',
-        'bsml    basomal PV      say "bismillah" (in the name of God, the Merciful, the Compassionate)',
-        'bsml    basomil IV_yu   say "bismillah" (in the name of God, the Merciful, the Compassionate)'
+        'bsml    basomal PV      say "bismillah"',
+        'bsml    basomil IV_yu   say "bismillah"'
       ],
       'patterns' => {
         'basmil' => [
@@ -33679,7 +33686,7 @@ $Lexicon = {
       'morphs' => 'KaRDaS',
       'suffix' => '',
       'glosses' => [
-        'say "bismillah" (in the name of God, the Merciful, the Compassionate)'
+        'say "bismillah"'
       ],
       'orig' => 'basomal',
       'prefix' => ''
@@ -33690,7 +33697,7 @@ $Lexicon = {
       'form' => 'basmalaT',
       'lines' => [
         ';; basomalap_1',
-        'bsml    basomal NapAt   "bismillah" (in the name of God, the Merciful, the Compassionate)'
+        'bsml    basomal NapAt   "bismillah"'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33698,7 +33705,7 @@ $Lexicon = {
       'morphs' => 'KaRDaS |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        '"bismillah" (in the name of God, the Merciful, the Compassionate)'
+        '"bismillah"'
       ],
       'orig' => 'basomalap',
       'prefix' => ''
@@ -35018,6 +35025,9 @@ $Lexicon = {
         ],
         'bu\'sY' => [
           'FuCLY'
+        ],
+        '\'ab\'us' => [
+          'HaFCuL'
         ],
         'ba\'sA\'' => [
           'FaCLA\''
@@ -43181,6 +43191,9 @@ $Lexicon = {
       'patterns' => {
         'bukrAn' => [
           'FuCLAn'
+        ],
+        '\'abkur' => [
+          'HaFCuL'
         ]
       },
       'index' => '2',
@@ -45089,7 +45102,7 @@ $Lexicon = {
       'form' => 'barmuwdaT',
       'lines' => [
         ';; baromuwdap_1',
-        'brmwdp  baromuwdap      N0      Barmudah (8th Coptic month, Apr. 9-May 8)'
+        'brmwdp  baromuwdap      N0      Barmudah'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45097,7 +45110,7 @@ $Lexicon = {
       'morphs' => 'KaRDUS |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'Barmudah (8th Coptic month, Apr. 9-May 8)'
+        'Barmudah'
       ],
       'orig' => 'baromuwdap',
       'prefix' => ''
@@ -59859,6 +59872,9 @@ $Lexicon = {
       'patterns' => {
         '\'abdAn' => [
           'HaFCAL'
+        ],
+        '\'abdun' => [
+          'HaFCuL'
         ]
       },
       'index' => '1',

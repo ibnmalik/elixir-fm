@@ -4257,7 +4257,11 @@ $Lexicon = {
         '>d&b    >ado&ub N       habits',
         'Ad&b    >ado&ub N       habits'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'ad\'ub' => [
+          'HaFCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL',
@@ -11404,8 +11408,8 @@ $Lexicon = {
       'form' => 'duwnum',
       'lines' => [
         ';; duwnum_1',
-        'dwnm    duwnum  Ndu     dunum (Lev. 919 sq. meters)',
-        'dwnm    duwnum  NAt     dunums (Lev. 919 sq. meters ea.)'
+        'dwnm    duwnum  Ndu     dunum',
+        'dwnm    duwnum  NAt     dunums'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11413,8 +11417,8 @@ $Lexicon = {
       'morphs' => 'KuRDuS',
       'suffix' => '',
       'glosses' => [
-        'dunum (Lev. 919 sq. meters)',
-        'dunums (Lev. 919 sq. meters ea.)'
+        'dunum',
+        'dunums'
       ],
       'orig' => 'duwnum',
       'prefix' => ''
@@ -15922,7 +15926,11 @@ $Lexicon = {
         '>dl     >adil~  Nap     evidence;proof;indications',
         'Adl     >adil~  Nap     evidence;proof;indications'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'adill' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -17545,6 +17553,9 @@ $Lexicon = {
       'patterns' => {
         'duhuwr' => [
           'FuCUL'
+        ],
+        '\'adhur' => [
+          'HaFCuL'
         ]
       },
       'index' => '1',
@@ -18668,6 +18679,9 @@ $Lexicon = {
       'patterns' => {
         'diqAq' => [
           'FiCAL'
+        ],
+        '\'adiqq' => [
+          'HaFiCL'
         ]
       },
       'index' => '1',
@@ -34828,6 +34842,9 @@ $Lexicon = {
         ],
         '\'adrA`' => [
           'HaFCAL'
+        ],
+        '\'adru`' => [
+          'HaFCuL'
         ]
       },
       'index' => '1',

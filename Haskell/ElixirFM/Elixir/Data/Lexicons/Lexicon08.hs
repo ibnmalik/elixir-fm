@@ -445,7 +445,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- dahor -}            [ "fate", "fortune", "circumstance" ]
                               `plural`     FuCUL
-                           {- `others`  [ "duhuwr N" ] -} ]
+                              `plural`     HaFCuL
+                           {- `others`  [ "duhuwr N", "'adhur N" ] -} ]
 
  |> "d h s" <| [
 
@@ -518,7 +519,8 @@ lexicon = listing "Lexicon's properties"
     FaCIL                     `noun`    {- daliyl -}           [ "directory", "manual", unwords [ "guide", "-", "book" ] ]
                               `plural`     FaCIL |< At,
 
-    FaCIL                     `noun`    {- daliyl -}           [ "evidence", "proof", "indication" ],
+    FaCIL                     `noun`    {- daliyl -}           [ "evidence", "proof", "indication" ]
+                              `plural`     HaFiCL |< aT,
 
     FaCIL                     `noun`    {- daliyl -}           [ "indicator", "guide" ],
 
@@ -692,6 +694,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- daqiyq -}           [ "precise", "minute", "delicate" ]
                               `plural`     FiCAL
+                              `plural`     HaFiCL |< aT
                            {- `others`  [ "diqAq N" ] -},
 
     FaCIL                     `noun`    {- daqiyq -}           [ "flour" ],
@@ -759,7 +762,8 @@ lexicon = listing "Lexicon's properties"
     FiCL                      `noun`    {- diroE -}            [ "armor", unwords [ "plate", "armor" ] ]
                               `plural`     HaFCAL
                               `plural`     FuCUL
-                           {- `others`  [ "'adrA` N", "duruw` N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ "'adrA` N", "duruw` N", "'adru` N" ] -},
 
     MuFaCCaL                  `adj`     {- mudar~aE -}         [ "armored" ],
 

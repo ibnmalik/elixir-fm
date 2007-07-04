@@ -394,10 +394,10 @@ tzHl    tazaH~al        IV      withdraw;retire
 ;; zuHal_1
 zHl     zuHal   Ndip    Saturn
 ;; zaHolap_1
-zHlp    zaHolap Nprop   Zahle (Leb.)
+zHlp    zaHolap Nprop   Zahle
 ;; zaHolawiy~_1
-zHlwy   zaHolawiy~      Nall    of/from Zahle (Leb.)     <pos>zaHolawiy~/ADJ</pos>
-zHlAwy  zaHolAwiy~      Nall    of/from Zahle (Leb.)     <pos>zaHolawiy~/ADJ</pos>
+zHlwy   zaHolawiy~      Nall    of/from Zahle      <pos>zaHolawiy~/ADJ</pos>
+zHlAwy  zaHolAwiy~      Nall    of/from Zahle      <pos>zaHolawiy~/ADJ</pos>
 ;; zaHolawiy~_2
 zHlwy   zaHolawiy~      N0      Zahlaoui;Zahlawi
 zHlAwy  zaHolAwiy~      N0      Zahlaoui;Zahlawi
@@ -1218,7 +1218,8 @@ zqm     zoqam   IV_Pass_yu      be made to swallow or gulp
 Azdqm   {izodaqam       PV      swallow;gulp
 zdqm    zodaqim IV      swallow;gulp
 ;; zaq~uwm_1
-zqwm    zaq~uwm N       Zaqqoum (tree in Hell; Quran 37:62)
+zqwm    zaq~uwm N       Zaqqoum (tree in Hell)
+;  (Quran 37:62)
 ;
 ;--- zqw
 ;; zaqA-u_1

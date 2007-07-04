@@ -9528,7 +9528,7 @@ $Lexicon = {
       'form' => 'zaqquwm',
       'lines' => [
         ';; zaq~uwm_1',
-        'zqwm    zaq~uwm N       Zaqqoum (tree in Hell; Quran 37:62)'
+        'zqwm    zaq~uwm N       Zaqqoum (tree in Hell)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9536,8 +9536,7 @@ $Lexicon = {
       'morphs' => 'FaCCUL',
       'suffix' => '',
       'glosses' => [
-        'Zaqqoum (tree in Hell',
-        'Quran 37:62)'
+        'Zaqqoum (tree in Hell)'
       ],
       'orig' => 'zaq~uwm',
       'prefix' => ''
@@ -12613,7 +12612,7 @@ $Lexicon = {
       'form' => 'za.hlaT',
       'lines' => [
         ';; zaHolap_1',
-        'zHlp    zaHolap Nprop   Zahle (Leb.)'
+        'zHlp    zaHolap Nprop   Zahle'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12621,7 +12620,7 @@ $Lexicon = {
       'morphs' => 'FaCL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'Zahle (Leb.)'
+        'Zahle'
       ],
       'orig' => 'zaHolap',
       'prefix' => ''
@@ -12636,8 +12635,8 @@ $Lexicon = {
       'form' => 'za.hlawiyy',
       'lines' => [
         ';; zaHolawiy~_1',
-        'zHlwy   zaHolawiy~      Nall    of/from Zahle (Leb.)     [[zaHolawiy~/ADJ]]',
-        'zHlAwy  zaHolAwiy~      Nall    of/from Zahle (Leb.)     [[zaHolawiy~/ADJ]]'
+        'zHlwy   zaHolawiy~      Nall    of/from Zahle      [[zaHolawiy~/ADJ]]',
+        'zHlAwy  zaHolAwiy~      Nall    of/from Zahle      [[zaHolawiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12645,7 +12644,7 @@ $Lexicon = {
       'morphs' => 'FaCLY |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'of/from Zahle (Leb.)'
+        'of/from Zahle'
       ],
       'orig' => 'zaHolawiy~',
       'prefix' => ''
@@ -16262,7 +16261,11 @@ $Lexicon = {
         '>zq     >aziq~  Nap     alleys;corridors;cul-de-sacs',
         'Azq     >aziq~  Nap     alleys;corridors;cul-de-sacs'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'aziqq' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCAL',

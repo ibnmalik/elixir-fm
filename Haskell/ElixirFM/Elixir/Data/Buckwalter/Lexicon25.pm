@@ -1651,6 +1651,9 @@ $Lexicon = {
         'nu.suwl' => [
           'FuCUL'
         ],
+        '\'an.sul' => [
+          'HaFCuL'
+        ],
         'ni.sAl' => [
           'FiCAL'
         ]
@@ -8891,7 +8894,11 @@ $Lexicon = {
         '>nfs    >anofus N       selves',
         'Anfs    >anofus N       selves'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'anfus' => [
+          'HaFCuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL',
@@ -9086,6 +9093,9 @@ $Lexicon = {
       'patterns' => {
         'nufuws' => [
           'FuCUL'
+        ],
+        '\'anfus' => [
+          'HaFCuL'
         ]
       },
       'index' => '2',
@@ -20206,7 +20216,11 @@ $Lexicon = {
         '>nqE    >anoquE N       stagnant water;quagmire',
         'AnqE    >anoquE N       stagnant water;quagmire'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'anqu`' => [
+          'HaFCuL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCL',
@@ -32081,6 +32095,9 @@ $Lexicon = {
         'AnEl    >anoEul N       soles;sandals'
       ],
       'patterns' => {
+        '\'an`ul' => [
+          'HaFCuL'
+        ],
         'ni`Al' => [
           'FiCAL'
         ]
@@ -36669,6 +36686,9 @@ $Lexicon = {
         'AnEm    >anoEum N       blessings'
       ],
       'patterns' => {
+        '\'an`um' => [
+          'HaFCuL'
+        ],
         'ni`am' => [
           'FiCaL'
         ]
@@ -40426,7 +40446,7 @@ $Lexicon = {
       'form' => 'na^gaf',
       'lines' => [
         ';; najaf_1',
-        'njf     najaf   N       Najaf (Iraq)'
+        'njf     najaf   N       Najaf'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40434,7 +40454,7 @@ $Lexicon = {
       'morphs' => 'FaCaL',
       'suffix' => '',
       'glosses' => [
-        'Najaf (Iraq)'
+        'Najaf'
       ],
       'orig' => 'najaf',
       'prefix' => ''
@@ -41615,7 +41635,7 @@ $Lexicon = {
       'form' => 'numuwr',
       'lines' => [
         ';; numuwr_1',
-        'nmwr    numuwr  N       Tigers (in "Tamil Tigers")'
+        'nmwr    numuwr  N       Tigers'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41623,7 +41643,7 @@ $Lexicon = {
       'morphs' => 'FuCUL',
       'suffix' => '',
       'glosses' => [
-        'Tigers (in "Tamil Tigers")'
+        'Tigers'
       ],
       'orig' => 'numuwr',
       'prefix' => ''
@@ -46729,6 +46749,9 @@ $Lexicon = {
       'patterns' => {
         'nu^guwm' => [
           'FuCUL'
+        ],
+        '\'an^gum' => [
+          'HaFCuL'
         ]
       },
       'index' => '1',
@@ -50682,6 +50705,9 @@ $Lexicon = {
         '\'anhAr' => [
           'HaFCAL'
         ],
+        '\'anhur' => [
+          'HaFCuL'
+        ],
         'nuhuwr' => [
           'FuCUL'
         ]
@@ -50739,6 +50765,9 @@ $Lexicon = {
       'patterns' => {
         'nuhur' => [
           'FuCuL'
+        ],
+        '\'anhur' => [
+          'HaFCuL'
         ]
       },
       'index' => '1',
@@ -65492,7 +65521,7 @@ $Lexicon = {
       'form' => 'man.suwriyy',
       'lines' => [
         ';; manoSuwriy~_2',
-        'mnSwry  manoSuwriy~     Nall    of/from Mansoura (Egy.)'
+        'mnSwry  manoSuwriy~     Nall    of/from Mansoura'
       ],
       'patterns' => {},
       'index' => '2',
@@ -65500,7 +65529,7 @@ $Lexicon = {
       'morphs' => 'MaFCUL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'of/from Mansoura (Egy.)'
+        'of/from Mansoura'
       ],
       'orig' => 'manoSuwriy~',
       'prefix' => ''

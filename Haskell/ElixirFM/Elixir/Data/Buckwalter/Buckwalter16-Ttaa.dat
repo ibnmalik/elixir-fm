@@ -612,15 +612,15 @@ TrAbzwn TarAbizuwn      Ndip    Trabzon
 ;
 ;--- Trbl
 ;; TarAbulus_1
-TrAbls  TarAbulus       Ndip    Tripoli (Libya)
-;; TarAbulus_2
-TrAbls  TarAbulus       Ndip    Tripoli (Leb.)
+TrAbls  TarAbulus       Ndip    Tripoli
+; ;; TarAbulus_2
+; TrAbls  TarAbulus       Ndip    Tripoli
 ;; TarAbulosiy~_1
 TrAblsy TarAbulosiy~    N0      Tarabulsi
 ;; TarAbulosiy~_2
-TrAblsy TarAbulosiy~    Nall    of/from Tripoli (Libya)    <pos>TarAbulosiy~/ADJ</pos>
-;; TarAbulosiy~_3
-TrAblsy TarAbulosiy~    Nall    of/from Tripoli (Leb.)    <pos>TarAbulosiy~/ADJ</pos>
+TrAblsy TarAbulosiy~    Nall    of/from Tripoli     <pos>TarAbulosiy~/ADJ</pos>
+; ;; TarAbulosiy~_3
+; TrAblsy TarAbulosiy~    Nall    of/from Tripoli     <pos>TarAbulosiy~/ADJ</pos>
 ;
 ;--- Trb$
 ;; Tarobuw$_1
@@ -865,9 +865,9 @@ TrATwr  TarATuwr        N       mayonnaise
 ;
 ;--- TrTs
 ;; TaroTuws_1
-TrTws   TaroTuws        Ndip    Tartous (Syr.)
+TrTws   TaroTuws        Ndip    Tartous
 ;; TaroTuwsiy~_1
-TrTwsy  TaroTuwsiy~     Nall    of/from Tartous (Syr.)
+TrTwsy  TaroTuwsiy~     Nall    of/from Tartous
 ;; TaroTuwsiy~_2
 TrTwsy  TaroTuwsiy~     N0      Tartousi
 ;
@@ -2160,7 +2160,7 @@ Tnjyr   Tanojiyr        Ndu     casserole;pot
 ;; TanoTA_1
 TnTA    TanoTA  N0      Tanta
 ;; TanoTAwiy~_1
-TnTAwy  TanoTAwiy~      Nall    from/of Tanta [Egy.]     <pos>TanoTAwiy~/ADJ</pos>
+TnTAwy  TanoTAwiy~      Nall    from/of Tanta      <pos>TanoTAwiy~/ADJ</pos>
 ;; TanoTAwiy~_2
 TnTAwy  TanoTAwiy~      N0      Tantawi;Tantaoui
 ;
@@ -2306,7 +2306,8 @@ tTwyb   taTowiyb        N/At    beatification
 Twb     Tuwb    N       bricks
 Twb     Tuwb    Napdu   brick
 ;; Tuwbap_1
-Twbp    Tuwbap  N0      Tuba (5th Coptic month, Jan. 9-Feb. 7)
+Twbp    Tuwbap  N0      Tuba
+; (5th Coptic month, Jan. 9-Feb. 7)
 ;; Taw~Ab_1
 TwAb    Taw~Ab  Nall    brick-maker
 ;; Taw~Ab_2

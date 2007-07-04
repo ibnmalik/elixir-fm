@@ -2556,7 +2556,7 @@ $Lexicon = {
       'form' => '.hulwAn',
       'lines' => [
         ';; HulowAn_1',
-        'HlwAn   HulowAn Ndip    Helwan (Egy.)'
+        'HlwAn   HulowAn Ndip    Helwan'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2564,7 +2564,7 @@ $Lexicon = {
       'morphs' => 'FuCLAn',
       'suffix' => '',
       'glosses' => [
-        'Helwan (Egy.)'
+        'Helwan'
       ],
       'orig' => 'HulowAn',
       'prefix' => ''
@@ -4480,6 +4480,9 @@ $Lexicon = {
       'patterns' => {
         '.huruwf' => [
           'FuCUL'
+        ],
+        '\'a.hruf' => [
+          'HaFCuL'
         ]
       },
       'index' => '1',
@@ -23760,8 +23763,8 @@ $Lexicon = {
       'form' => '.hAdiy',
       'lines' => [
         ';; HAdiy_1',
-        'HAdy    HAdiy   N0      first (word in "11th", "21st", "31st", through "91st")     [[HAdiy/ADJ]]',
-        'HAdyp   HAdiyap N0      first (word in "11th", "21st", "31st", through "91st")     [[HAdiyap/ADJ]]'
+        'HAdy    HAdiy   N0      first (word in "11th" through "91st")     [[HAdiy/ADJ]]',
+        'HAdyp   HAdiyap N0      first (word in "11th" through "91st")     [[HAdiyap/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23769,7 +23772,7 @@ $Lexicon = {
       'morphs' => 'FACI',
       'suffix' => '',
       'glosses' => [
-        'first (word in "11th", "21st", "31st", through "91st")'
+        'first (word in "11th" through "91st")'
       ],
       'orig' => 'HAdiy',
       'prefix' => ''
@@ -24218,7 +24221,11 @@ $Lexicon = {
         '>Hf     >aHif~  Nap     sides;edges',
         'AHf     >aHif~  Nap     sides;edges'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.hiff' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -42273,6 +42280,9 @@ $Lexicon = {
         '.hubuwl' => [
           'FuCUL'
         ],
+        '\'a.hbul' => [
+          'HaFCuL'
+        ],
         '\'a.hbAl' => [
           'HaFCAL'
         ],
@@ -49118,6 +49128,9 @@ $Lexicon = {
         'HbA}b   HabA}ib Ndip    dear;beloved'
       ],
       'patterns' => {
+        '\'a.hibb' => [
+          'HaFiCL'
+        ],
         '\'a.hbAb' => [
           'HaFCAL'
         ]
@@ -50908,7 +50921,7 @@ $Lexicon = {
       'form' => '.hamdalaT',
       'lines' => [
         ';; Hamodalap_1',
-        'Hmdl    Hamodal Nap     praising God (saying "al-hamdu lillah" = "praise be to God")'
+        'Hmdl    Hamodal Nap     praising God (saying "al-hamdu lillah")'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50916,7 +50929,7 @@ $Lexicon = {
       'morphs' => 'KaRDaS |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'praising God (saying "al-hamdu lillah" = "praise be to God")'
+        'praising God (saying "al-hamdu lillah")'
       ],
       'orig' => 'Hamodalap',
       'prefix' => ''
@@ -52103,7 +52116,7 @@ $Lexicon = {
       'form' => '.him.s',
       'lines' => [
         ';; HimoS_1',
-        'HmS     HimoS   Ndip    Homs (Syr.)'
+        'HmS     HimoS   Ndip    Homs'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52111,7 +52124,7 @@ $Lexicon = {
       'morphs' => 'FiCL',
       'suffix' => '',
       'glosses' => [
-        'Homs (Syr.)'
+        'Homs'
       ],
       'orig' => 'HimoS',
       'prefix' => ''
@@ -52141,7 +52154,7 @@ $Lexicon = {
       'form' => '.him.siyy',
       'lines' => [
         ';; HimoSiy~_2',
-        'HmSy    HimoSiy~        Nall    from/of Homs (Syr.)'
+        'HmSy    HimoSiy~        Nall    from/of Homs'
       ],
       'patterns' => {},
       'index' => '2',
@@ -52149,7 +52162,7 @@ $Lexicon = {
       'morphs' => 'FiCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
-        'from/of Homs (Syr.)'
+        'from/of Homs'
       ],
       'orig' => 'HimoSiy~',
       'prefix' => ''

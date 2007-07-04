@@ -1137,7 +1137,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "_h s s" <| [
 
-    FaCIL                     `noun`    {- xasiys -}           [ "despicable", "miserable" ],
+    FaCIL                     `noun`    {- xasiys -}           [ "despicable", "miserable" ]
+                              `plural`     HaFiCL |< aT,
 
     FaCIL                     `noun`    {- xasiys -}           [ unwords [ "mean", "trick" ], "infamy" ] ]
 

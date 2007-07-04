@@ -829,7 +829,7 @@ lwAHb   lawAHib Ndip_L  electrodes
 ;
 ;--- lHj
 ;; laHaj_1
-lHj     laHaj   N0_L    Lahej;Lahij (Yemeni Sultanate, abolished in Aug. 1967)
+lHj     laHaj   N0_L    Lahej;Lahij
 ;
 ;--- lHd
 ;; laHad-a_1
@@ -1041,7 +1041,8 @@ tlAHm   talAHam IV      cling together;hold firmly together
 AltHm   {ilotaHam       PV      cling together;hold firmly together
 ltHm    lotaHim IV      cling together;hold firmly together
 ;; laHom_1
-lHm     laHom   FW      Lahm (2nd word in Beit Lahm = "Bethlehem")     <pos>laHom/NOUN_PROP</pos>
+lHm     laHom   FW      Lahm      <pos>laHom/NOUN_PROP</pos>
+; (2nd word in Beit Lahm = "Bethlehem")
 ;; laHom_2
 lHm     laHom   N_L     meat;flesh
 lHwm    luHuwm  N_L     meat;flesh
@@ -1166,7 +1167,7 @@ lHA     luHA    Nhy_L   beard
 lHY     liHaY   N0_L    beard
 lHA     liHA    Nhy_L   beard
 ;; luHay~ap_1
-lHy     luHay~  Nap_L   Luhaiya (Yem.)
+lHy     luHay~  Nap_L   Luhaiya
 ;; liHA'_1
 lHA'    liHA'   N0_Nh_L inner bark
 lHA&    liHA&   Nh_L    inner bark
@@ -1255,7 +1256,7 @@ ldd     lad~id  IV_yu   defame;slander
 tldd    talad~ad        PV_intr be bewildered
 tldd    talad~ad        IV_intr be bewildered
 ;; lid~_1
-ld      lid~    N_L     Lydda (Isr.)
+ld      lid~    N_L     Lydda
 ;; ladad_1
 ldd     ladad   N_L     quarrel;dispute
 ;; laduwd_1
@@ -1408,7 +1409,7 @@ lw*Ey   lawo*aEiy~      Nap_L   wit;quick-wittedness     <pos>lawo*aEiy~/NOUN</p
 ;
 ;--- l*q
 ;; lA*iqiy~ap_1
-lA*qy   lA*iqiy~        Nap_L   Latakia (Syr.)     <pos>lA*iqiy~/NOUN</pos>
+lA*qy   lA*iqiy~        Nap_L   Latakia      <pos>lA*iqiy~/NOUN</pos>
 ;
 ;--- l*y
 ;; la*iy-a_1
@@ -4196,7 +4197,8 @@ mltwy   mulotaway       NAn_Nayn        turns;curves;curvatures
 mltwy   mulotaway       NAt     turns;curves;curvatures
 ;
 ;; luwyA_1
-lwyA    luwyA   N0_L    Loya (in "Loya Jirga")
+lwyA    luwyA   N0_L    Loya
+; (in "Loya Jirga")
 ;
 ;--- lwys
 ;; luwiys_1

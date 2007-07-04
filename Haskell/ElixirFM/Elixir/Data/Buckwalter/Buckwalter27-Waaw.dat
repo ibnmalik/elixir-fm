@@ -2585,9 +2585,9 @@ wSwly   wuSuwliy~       Nall    careerist;parvenu     <pos>wuSuwliy~/ADJ</pos>
 ;; wuSuwliy~ap_1
 wSwly   wuSuwliy~       Nap     careerism;pushiness     <pos>wuSuwliy~/NOUN</pos>
 ;; mawoSil_1
-mwSl    mawoSil N       Mosul (Iraq)
+mwSl    mawoSil N       Mosul
 ;; mawoSiliy~_1
-mwSly   mawoSiliy~      Nall    of/from Mosul (Iraq)
+mwSly   mawoSiliy~      Nall    of/from Mosul
 ;; mawoSiliy~_2
 mwSly   mawoSiliy~      N0      Mawsili
 ;; tawoSiyl_1
@@ -3850,8 +3850,10 @@ mtwfy   mutawaf~ay      NAt     deceased;having died
 ;
 ;--- wq
 ;; wuq~ap_1
-wq      wuq~    NapAt   wuqqa/wiqqa (weight measure = 1.2 kg.)
-wq      wiq~    NapAt   wuqqa/wiqqa (weight measure = 1.2 kg.)
+wq      wuq~    NapAt   wuqqa/wiqqa
+; (weight measure = 1.2 kg.)
+wq      wiq~    NapAt   wuqqa/wiqqa
+; (weight measure = 1.2 kg.)
 ;
 ;--- wqb
 ;; waqab-i_1
@@ -4217,7 +4219,8 @@ wqwAq   waqowAq Ndu     cuckoo
 wqwAq   waqowAq N0      Waq Waq (legendary islands);strange and faraway lands
 wAqwAq  wAqowAq N0      Waq Waq (legendary islands);strange and faraway lands
 ;; wAq_1
-wAq     wAq     N0      Waq (in "Waq Waq": legendary islands);strange and faraway lands
+wAq     wAq     N0      Waq;strange and faraway lands
+; (in "Waq Waq": legendary islands)
 ;
 ;--- wqy(1)
 ;; waqaY-i_1
@@ -4296,7 +4299,8 @@ wAqy    wAqiy   Napdu   shelter;shield
 ;
 ;--- wqy(2)
 ;; wiqiy~ap_1
-wqy     wiqiy~  NapAt   uqiya (measure = 1/12 ratl; Beirut: 213 gr; Jerusalem 240 gr.;Aleppo 320 gr.)
+wqy     wiqiy~  NapAt   uqiya
+; (measure = 1/12 ratl) Beirut: 213 gr; Jerusalem 240 gr; Aleppo 320 gr
 ;
 ;--- wkA
 ;; tawak~a>_1
@@ -5222,7 +5226,7 @@ whr     wahor   N       disconcerting;frightening
 ;; wahorap_1
 whr     wahor   Nap     consternation;fear
 ;; wahorAn_1
-whrAn   wahorAn Ndip    Oran (Alg.)
+whrAn   wahorAn Ndip    Oran
 ;
 ;--- whq
 ;; wahoq_1
@@ -5396,7 +5400,8 @@ wyb     wiyb    N0      Web
 wb      wib~    N0      Web
 ;
 ;; wayobap_1
-wyb     wayob   NapAt   wayba (dry measure = 33 liters)
+wyb     wayob   NapAt   wayba
+; (dry measure = 33 liters)
 ;
 ;--- wyt
 ;; wiytuwn_1

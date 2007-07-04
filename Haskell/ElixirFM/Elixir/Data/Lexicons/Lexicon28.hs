@@ -84,8 +84,9 @@ lexicon = listing "Lexicon's properties"
     FaCIL                     `noun`    {- yamiyn -}           [ unwords [ "right", "side" ], unwords [ "right", "hand" ] ],
 
     FaCIL                     `noun`    {- yamiyn -}           [ "oath" ]
+                              `plural`     HaFCuL
                               `plural`     HaFCAL
-                           {- `others`  [ "'aymAn N" ] -},
+                           {- `others`  [ "'aymun N", "'aymAn N" ] -},
 
     FaCIL |< Iy               `adj`     {- yamiyniy~ -}        [ "rightist", unwords [ "right", "-", "wing" ] ],
 

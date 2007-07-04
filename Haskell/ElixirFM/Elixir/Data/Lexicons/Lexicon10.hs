@@ -85,14 +85,16 @@ lexicon = listing "Lexicon's properties"
     TaFaCCaL                  `verb`    {- taraO~as -}         [ "lead", unwords [ "be", "head", "of" ], "direct" ],
 
     FaCL                      `noun`    {- raOos -}            [ "head", "top" ]
+                              `plural`     HaFCuL
                               `plural`     FuCUL
-                           {- `others`  [ "ru'uws N" ] -},
+                           {- `others`  [ "'ar'us N", "ru'uws N" ] -},
 
     FaCL                      `noun`    {- raOos -}            [ unwords [ "Ras", "(", "cape", ")" ] ],
 
     FaCL                      `noun`    {- raOos -}            [ "leader", "chief" ]
+                              `plural`     HaFCuL
                               `plural`     FuCUL
-                           {- `others`  [ "ru'uws N" ] -},
+                           {- `others`  [ "'ar'us N", "ru'uws N" ] -},
 
     FaCIL                     `noun`    {- ra}iys -}           [ "president", "head", "chairman" ]
                               `plural`     FuCaLA'
@@ -469,7 +471,9 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- taraj~al -}         [ "walk", "march" ],
 
-    FiCL                      `noun`    {- rijol -}            [ "leg" ],
+    FiCL                      `noun`    {- rijol -}            [ "leg" ]
+                              `plural`     HaFCuL
+                           {- `others`  [ "'ar^gul N" ] -},
 
     FaCuL                     `noun`    {- rajul -}            [ "man", "men", "people" ]
                               `plural`     FiCAL
@@ -2044,7 +2048,7 @@ lexicon = listing "Lexicon's properties"
 
     FUCAL                     `noun`    {- ruwyAl -}           [ "Royal" ],
 
-    FiCAL                     `noun`    {- riyAl -}            [ unwords [ "riyal", "(", "S.Ar.=100", "halala,", "Qatar=100", "dirham,", "Yemen=100", "fils", ")" ], unwords [ "riyal", "(", "Egy.:", "20", "piasters", ")" ] ]
+    FiCAL                     `noun`    {- riyAl -}            [ "riyal" ]
                               `plural`     FiCAL |< At ]
 
  |> "r y m" <| [
@@ -2114,7 +2118,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "r z z" <| [
 
-    FuCL                      `noun`    {- ruz~ -}             [ "rice" ] ]
+    FuCL                      `noun`    {- ruz~ -}             [ "rice" ]
+                              `plural`     HaFuCL
+                           {- `others`  [ "'aruzz N" ] -} ]
 
  |> "rA^sIfskI" <| [
 

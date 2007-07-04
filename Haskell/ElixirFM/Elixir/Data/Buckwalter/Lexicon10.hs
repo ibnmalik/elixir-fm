@@ -395,8 +395,9 @@ lexicon = listing "Lexicon's properties"
     -- Ar&s    >aro&us N       heads;tops
 
     FaCL                      `noun`    {- raOos -}            [ "head", "top" ]
+                              `plural`     HaFCuL
                               `plural`     FuCUL
-                           {- `others`  [ "ru'uws N" ] -},
+                           {- `others`  [ "'ar'us N", "ru'uws N" ] -},
 
     -- ;; ra>os_2
     -- r>s     ra>os   Nprop   Ras (cape)
@@ -412,8 +413,9 @@ lexicon = listing "Lexicon's properties"
     -- Ar&s    >aro&us N       leaders;chiefs
 
     FaCL                      `noun`    {- raOos -}            [ "leader", "chief" ]
+                              `plural`     HaFCuL
                               `plural`     FuCUL
-                           {- `others`  [ "ru'uws N" ] -},
+                           {- `others`  [ "'ar'us N", "ru'uws N" ] -},
 
     -- ;; ra>osiy~_1
     -- r>sy    ra>osiy~        Nall    principal;main     [[ra>osiy~/ADJ]]
@@ -2189,11 +2191,11 @@ lexicon = listing "Lexicon's properties"
  |> "r .t l" <| [
 
     -- ;; raTol_1
-    -- rTl     raTol   Ndu     ratl (weight measure = 3 kg)
-    -- >rTAl   >aroTAl N       ratls (weight measure = 3 kg)
-    -- ArTAl   >aroTAl N       ratls (weight measure = 3 kg)
+    -- rTl     raTol   Ndu     ratl
+    -- >rTAl   >aroTAl N       ratls
+    -- ArTAl   >aroTAl N       ratls
 
-    FaCL                      `noun`    {- raTol -}            [ unwords [ "ratl", "(", "weight", "measure", "=", "3", "kg", ")" ], unwords [ "ratls", "(", "weight", "measure", "=", "3", "kg", ")" ] ]
+    FaCL                      `noun`    {- raTol -}            [ "ratl" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'ar.tAl N" ] -} ]
 
@@ -2766,7 +2768,9 @@ lexicon = listing "Lexicon's properties"
     -- >rjl    >arojul N       legs
     -- Arjl    >arojul N       legs
 
-    FiCL                      `noun`    {- rijol -}            [ "leg" ],
+    FiCL                      `noun`    {- rijol -}            [ "leg" ]
+                              `plural`     HaFCuL
+                           {- `others`  [ "'ar^gul N" ] -},
 
     -- ;; >arojAl_1
     -- >rjAl   >arojAl N       swarms
@@ -6640,9 +6644,9 @@ lexicon = listing "Lexicon's properties"
     FiCL |< aT                `noun`    {- rifoEap -}          [ "height", "elevation", unwords [ "high", "rank" ] ],
 
     -- ;; rifAE_1
-    -- rfAE    rifAE   N       Shrovetide (Chr.)
+    -- rfAE    rifAE   N       Shrovetide
 
-    FiCAL                     `noun`    {- rifAE -}            [ unwords [ "Shrovetide", "(", "Chr.", ")" ] ],
+    FiCAL                     `noun`    {- rifAE -}            [ "Shrovetide" ],
 
     -- ;; rifAEiy~_1
     -- rfAEy   rifAEiy~        N0      Rifa'i
@@ -7230,7 +7234,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                               `plural`     HaFACIL
                               `plural`     HaFACiL
-                           {- `others`  [ "'arhA.t N", "'arAhiy.t Ndip", "'arAhi.t Ndip" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ "'arhA.t N", "'arAhiy.t Ndip", "'arAhi.t Ndip", "'arhu.t N" ] -},
 
     -- ;; rahoT_2
     -- rhT     rahoT   Ndu     leather loincloth
@@ -10129,8 +10134,9 @@ lexicon = listing "Lexicon's properties"
     -- Arsg    >arosug N       wrists
 
     FuCL                      `noun`    {- rusog -}            [ "wrist" ]
+                              `plural`     HaFCuL
                               `plural`     HaFCAL
-                           {- `others`  [ "'arsA.g N" ] -} ]
+                           {- `others`  [ "'arsu.g N", "'arsA.g N" ] -} ]
 
  |> "r s .h" <| [
 
@@ -10590,8 +10596,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- rasan -}            [ "halter" ]
                               `plural`     HaFCiL |< aT
+                              `plural`     HaFCuL
                               `plural`     HaFCAL
-                           {- `others`  [ "'arsAn N" ] -} ]
+                           {- `others`  [ "'arsun N", "'arsAn N" ] -} ]
 
  |> "r s r s" <| [
 
@@ -12934,10 +12941,9 @@ lexicon = listing "Lexicon's properties"
     FUCAL                     `noun`    {- ruwyAl -}           [ "Royal" ],
 
     -- ;; riyAl_1
-    -- ryAl    riyAl   NduAt   riyal (S.Ar.=100 halala, Qatar=100 dirham, Yemen=100 fils)
-    -- ryAl    riyAl   NduAt   riyal (Egy.: 20 piasters)
+    -- ryAl    riyAl   NduAt   riyal
 
-    FiCAL                     `noun`    {- riyAl -}            [ unwords [ "riyal", "(", "S.Ar.=100", "halala,", "Qatar=100", "dirham,", "Yemen=100", "fils", ")" ], unwords [ "riyal", "(", "Egy.:", "20", "piasters", ")" ] ]
+    FiCAL                     `noun`    {- riyAl -}            [ "riyal" ]
                               `plural`     FiCAL |< At,
 
     -- ;; rAl-i_1
@@ -13394,7 +13400,9 @@ lexicon = listing "Lexicon's properties"
     -- >rz     >aruz~  N       rice
     -- Arz     >aruz~  N       rice
 
-    FuCL                      `noun`    {- ruz~ -}             [ "rice" ],
+    FuCL                      `noun`    {- ruz~ -}             [ "rice" ]
+                              `plural`     HaFuCL
+                           {- `others`  [ "'aruzz N" ] -},
 
     -- ;; raz~ap_1
     -- rz      raz~    NapAt   ring screw;joint pin
@@ -13422,7 +13430,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; rAHiyl_1
     -- rAHyl   rAHiyl  Ndip    Rachel
 
-    Identity                  `noun`    {- rAHiyl -}           [ "Rachel" ] ]
+    Identity                  `noun`    {- rAHiyl -}           [ "" {- "Rachel" -} ] ]
 
  |> "rA^gA" <| [
 
@@ -13431,56 +13439,56 @@ lexicon = listing "Lexicon's properties"
     -- rAjAw   rAjAw   NAn_Nayn        Rajahs
     -- rAjAw   rAjAw   NAt     Rajahs
 
-    Identity                  `noun`    {- rAjA -}             [ "Rajah" ] ]
+    Identity                  `noun`    {- rAjA -}             [ "" {- "Rajah" -} ] ]
 
  |> "rA^gkUmAr" <| [
 
     -- ;; rAjokuwmAr_1
     -- rAjkwmAr        rAjokuwmAr      Nprop   Rajkumar
 
-    Identity                  `noun`    {- rAjokuwmAr -}       [ "Rajkumar" ] ]
+    Identity                  `noun`    {- rAjokuwmAr -}       [ "" {- "Rajkumar" -} ] ]
 
  |> "rA^sIfskI" <| [
 
     -- ;; rA$iyfskiy_1
     -- rA$yfsky        rA$iyfskiy      Nprop   Rashevsky
 
-    Identity                  `noun`    {- rA$iyfskiy -}       [ "Rashevsky" ] ]
+    Identity                  `noun`    {- rA$iyfskiy -}       [ "" {- "Rashevsky" -} ] ]
 
  |> "rAbAyIt^s" <| [
 
     -- ;; rAbAyiyt$_1
     -- rAbAyyt$        rAbAyiyt$       Nprop   Rapaic
 
-    Identity                  `noun`    {- rAbAyiyt$ -}        [ "Rapaic" ] ]
+    Identity                  `noun`    {- rAbAyiyt$ -}        [ "" {- "Rapaic" -} ] ]
 
  |> "rAbId" <| [
 
     -- ;; rAbiyd_1
     -- rAbyd   rAbiyd  Nprop   Rapid
 
-    Identity                  `noun`    {- rAbiyd -}           [ "Rapid" ] ]
+    Identity                  `noun`    {- rAbiyd -}           [ "" {- "Rapid" -} ] ]
 
  |> "rAbIn" <| [
 
     -- ;; rAbiyn_1
     -- rAbyn   rAbiyn  Nprop   Rabin
 
-    Identity                  `noun`    {- rAbiyn -}           [ "Rabin" ] ]
+    Identity                  `noun`    {- rAbiyn -}           [ "" {- "Rabin" -} ] ]
 
  |> "rAbInUfIt^s" <| [
 
     -- ;; rAbiynuwfiyt$_1
     -- rAbynwfyt$      rAbiynuwfiyt$   N0      Rabinovich;Rabinovitch
 
-    Identity                  `noun`    {- rAbiynuwfiyt$ -}    [ "Rabinovich", "Rabinovitch" ] ]
+    Identity                  `noun`    {- rAbiynuwfiyt$ -}    [ "" {- "Rabinovich" -}, "" {- "Rabinovitch" -} ] ]
 
  |> "rAbtUrz" <| [
 
     -- ;; rAbtuwrz_1
     -- rAbtwrz rAbtuwrz        Nprop   Raptors
 
-    Identity                  `noun`    {- rAbtuwrz -}         [ "Raptors" ] ]
+    Identity                  `noun`    {- rAbtuwrz -}         [ "" {- "Raptors" -} ] ]
 
  |> "rAdAr" <| [
 
@@ -13517,7 +13525,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; rAduwfAn_1
     -- rAdwfAn rAduwfAn        Nprop   Radovan
 
-    Identity                  `noun`    {- rAduwfAn -}         [ "Radovan" ] ]
+    Identity                  `noun`    {- rAduwfAn -}         [ "" {- "Radovan" -} ] ]
 
  |> "rAdiyU" <| [
 
@@ -13558,14 +13566,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; rAfAyiyl_1
     -- rAfAyyl rAfAyiyl        Nprop   Rafael;Raphael
 
-    Identity                  `noun`    {- rAfAyiyl -}         [ "Rafael", "Raphael" ] ]
+    Identity                  `noun`    {- rAfAyiyl -}         [ "" {- "Rafael" -}, "" {- "Raphael" -} ] ]
 
  |> "rAfidAn" <| [
 
     -- ;; rAfidAn_1
     -- rAfd    rAfid   NAn_Nayn        Mesopotamia;Iraq
 
-    Identity                  `noun`    {- rAfidAn -}          [ "Mesopotamia", "Iraq" ] ]
+    Identity                  `noun`    {- rAfidAn -}          [ "" {- "Mesopotamia" -}, "" {- "Iraq" -} ] ]
 
  |> "rAfiyA" <| [
 
@@ -13579,35 +13587,35 @@ lexicon = listing "Lexicon's properties"
     -- ;; rAfotir_1
     -- rAftr   rAfotir Nprop   Rafter
 
-    Identity                  `noun`    {- rAfotir -}          [ "Rafter" ] ]
+    Identity                  `noun`    {- rAfotir -}          [ "" {- "Rafter" -} ] ]
 
  |> "rAmAkAntA" <| [
 
     -- ;; rAmAkAnotA_1
     -- rAmAkAntA       rAmAkAnotA      Nprop   Ramakanta
 
-    Identity                  `noun`    {- rAmAkAnotA -}       [ "Ramakanta" ] ]
+    Identity                  `noun`    {- rAmAkAnotA -}       [ "" {- "Ramakanta" -} ] ]
 
  |> "rAmAkrI^snA" <| [
 
     -- ;; rAmAkriy$onA_1
     -- rAmAkry$nA      rAmAkriy$onA    N0      Ramakrishna
 
-    Identity                  `noun`    {- rAmAkriy$onA -}     [ "Ramakrishna" ] ]
+    Identity                  `noun`    {- rAmAkriy$onA -}     [ "" {- "Ramakrishna" -} ] ]
 
  |> "rAmIn" <| [
 
     -- ;; rAmiyn_1
     -- rAmyn   rAmiyn  N0      Ramin
 
-    Identity                  `noun`    {- rAmiyn -}           [ "Ramin" ] ]
+    Identity                  `noun`    {- rAmiyn -}           [ "" {- "Ramin" -} ] ]
 
  |> "rAm^stAyin" <| [
 
     -- ;; rAmo$tAyin_1
     -- rAm$tAyn        rAmo$tAyin      N0      Ramstein
 
-    Identity                  `noun`    {- rAmo$tAyin -}       [ "Ramstein" ] ]
+    Identity                  `noun`    {- rAmo$tAyin -}       [ "" {- "Ramstein" -} ] ]
 
  |> "rAmsfild" <| [
 
@@ -13615,7 +13623,7 @@ lexicon = listing "Lexicon's properties"
     -- rAmsfld rAmsofild       N0      Rumsfeld
     -- rAmsfyld        rAmsofiyld      N0      Rumsfeld
 
-    Identity                  `noun`    {- rAmsofild -}        [ "Rumsfeld" ] ]
+    Identity                  `noun`    {- rAmsofild -}        [ "" {- "Rumsfeld" -} ] ]
 
  |> "rAnA" <| [
 
@@ -13623,28 +13631,28 @@ lexicon = listing "Lexicon's properties"
     -- rAnA    rAnA    Nprop   Rana
     -- rnA     ranA    Nprop   Rana
 
-    Identity                  `noun`    {- rAnA -}             [ "Rana" ] ]
+    Identity                  `noun`    {- rAnA -}             [ "" {- "Rana" -} ] ]
 
  |> "rAniyA" <| [
 
     -- ;; rAniyA_1
     -- rAnyA   rAniyA  Nprop   Rania
 
-    Identity                  `noun`    {- rAniyA -}           [ "Rania" ] ]
+    Identity                  `noun`    {- rAniyA -}           [ "" {- "Rania" -} ] ]
 
  |> "rAnyIrI" <| [
 
     -- ;; rAnoyiyriy_1
     -- rAnyyry rAnoyiyriy      N0      Ranieri
 
-    Identity                  `noun`    {- rAnoyiyriy -}       [ "Ranieri" ] ]
+    Identity                  `noun`    {- rAnoyiyriy -}       [ "" {- "Ranieri" -} ] ]
 
  |> "rAsIn.g" <| [
 
     -- ;; rAsiyng_1
     -- rAsyng  rAsiyng Nprop   Racing
 
-    Identity                  `noun`    {- rAsiyng -}          [ "Racing" ] ]
+    Identity                  `noun`    {- rAsiyng -}          [ "" {- "Racing" -} ] ]
 
  |> "rAtIn" <| [
 
@@ -13667,7 +13675,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; rAtuw_1
     -- rAtw    rAtuw   Nprop   Ratu
 
-    Identity                  `noun`    {- rAtuw -}            [ "Ratu" ] ]
+    Identity                  `noun`    {- rAtuw -}            [ "" {- "Ratu" -} ] ]
 
  |> "rAwand" <| [
 
@@ -13681,21 +13689,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; rAyonir_1
     -- rAynr   rAyonir Nprop   Reiner
 
-    Identity                  `noun`    {- rAyonir -}          [ "Reiner" ] ]
+    Identity                  `noun`    {- rAyonir -}          [ "" {- "Reiner" -} ] ]
 
  |> "rI^gInA" <| [
 
     -- ;; riyjiynA_1
     -- ryjynA  riyjiynA        Nprop   Regina
 
-    Identity                  `noun`    {- riyjiynA -}         [ "Regina" ] ]
+    Identity                  `noun`    {- riyjiynA -}         [ "" {- "Regina" -} ] ]
 
  |> "rI^stir" <| [
 
     -- ;; riy$otir_1
     -- ry$tr   riy$otir        N0      Richter
 
-    Identity                  `noun`    {- riy$otir -}         [ "Richter" ] ]
+    Identity                  `noun`    {- riy$otir -}         [ "" {- "Richter" -} ] ]
 
  |> "rIbUrtA^g" <| [
 
@@ -13709,14 +13717,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; riybrAt$A_1
     -- rybrAt$A        riybrAt$A       Nprop   Rebraca
 
-    Identity                  `noun`    {- riybrAt$A -}        [ "Rebraca" ] ]
+    Identity                  `noun`    {- riybrAt$A -}        [ "" {- "Rebraca" -} ] ]
 
  |> "rIfkind" <| [
 
     -- ;; riyfokinod_1
     -- ryfknd  riyfokinod      Nprop   Rivkind;Rifkind
 
-    Identity                  `noun`    {- riyfokinod -}       [ "Rivkind", "Rifkind" ] ]
+    Identity                  `noun`    {- riyfokinod -}       [ "" {- "Rivkind" -}, "" {- "Rifkind" -} ] ]
 
  |> "rIfyIrA" <| [
 
@@ -13728,7 +13736,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; riyfoyiyrA_2
     -- ryfyyrA riyfoyiyrA      N0      Riviera
 
-    Identity                  `noun`    {- riyfoyiyrA -}       [ "Riviera" ] ]
+    Identity                  `noun`    {- riyfoyiyrA -}       [ "" {- "Riviera" -} ] ]
 
  |> "rIkUrdar" <| [
 
@@ -13742,25 +13750,25 @@ lexicon = listing "Lexicon's properties"
     -- ;; riymuwnd_1
     -- rymwnd  riymuwnd        Nprop   Raymond
 
-    Identity                  `noun`    {- riymuwnd -}         [ "Raymond" ],
+    Identity                  `noun`    {- riymuwnd -}         [ "" {- "Raymond" -} ],
 
     -- ;; riymuwndap_1
     -- rymwndp rayomuwndap     Nprop   Raimonda
     -- rymwndh rayomuwndap     Nprop   Raimonda
 
-    Identity |< aT            `noun`    {- riymuwndap -}       [ "Raimonda" ] ]
+    Identity |< aT            `noun`    {- riymuwndap -}       [ "" {- "Raimonda" -} ] ]
 
  |> "rInU" <| [
 
     -- ;; riynuw_1
     -- rynw    rynw    Nprop   Renault
 
-    Identity                  `noun`    {- riynuw -}           [ "Renault" ],
+    Identity                  `noun`    {- riynuw -}           [ "" {- "Renault" -} ],
 
     -- ;; riynuw_2
     -- rynw    rynw    Nprop   Reno
 
-    Identity                  `noun`    {- riynuw -}           [ "Reno" ] ]
+    Identity                  `noun`    {- riynuw -}           [ "" {- "Reno" -} ] ]
 
  |> "rIntIrA" <| [
 
@@ -13769,49 +13777,49 @@ lexicon = listing "Lexicon's properties"
     -- ryntryA riynotiriyA     Nprop   Renteria
     -- ryntyryA        riynotiyriyA    Nprop   Renteria
 
-    Identity                  `noun`    {- riynotiyrA -}       [ "Renteria" ] ]
+    Identity                  `noun`    {- riynotiyrA -}       [ "" {- "Renteria" -} ] ]
 
  |> "rIstU" <| [
 
     -- ;; riysotuw_1
     -- rystw   riysotuw        Nprop   Risto
 
-    Identity                  `noun`    {- riysotuw -}         [ "Risto" ] ]
+    Identity                  `noun`    {- riysotuw -}         [ "" {- "Risto" -} ] ]
 
  |> "rIt^sArd" <| [
 
     -- ;; riyto$Arod_1
     -- ryt$Ard riyto$Arod      Nprop   Richard
 
-    Identity                  `noun`    {- riyto$Arod -}       [ "Richard" ] ]
+    Identity                  `noun`    {- riyto$Arod -}       [ "" {- "Richard" -} ] ]
 
  |> "rIt^sArdsUn" <| [
 
     -- ;; riyto$Ardosuwn_1
     -- ryt$Ardswn      riyto$Ardosuwn  Nprop   Richardson
 
-    Identity                  `noun`    {- riyto$Ardosuwn -}   [ "Richardson" ] ]
+    Identity                  `noun`    {- riyto$Ardosuwn -}   [ "" {- "Richardson" -} ] ]
 
  |> "rU.gUzIn" <| [
 
     -- ;; ruwguwziyn_1
     -- rwgwzyn ruwguwziyn      Nprop   Rogozin
 
-    Identity                  `noun`    {- ruwguwziyn -}       [ "Rogozin" ] ]
+    Identity                  `noun`    {- ruwguwziyn -}       [ "" {- "Rogozin" -} ] ]
 
  |> "rU^gIriyU" <| [
 
     -- ;; ruwjiyriyuw_1
     -- rwjyryw ruwjiyriyuw     Nprop   Rogerio
 
-    Identity                  `noun`    {- ruwjiyriyuw -}      [ "Rogerio" ] ]
+    Identity                  `noun`    {- ruwjiyriyuw -}      [ "" {- "Rogerio" -} ] ]
 
  |> "rU^giyih" <| [
 
     -- ;; ruwjiyih_1
     -- rwjyh   ruwjiyih        Nprop   Rogier
 
-    Identity                  `noun`    {- ruwjiyih -}         [ "Rogier" ] ]
+    Identity                  `noun`    {- ruwjiyih -}         [ "" {- "Rogier" -} ] ]
 
  |> "rU^sitt" <| [
 
@@ -13828,40 +13836,40 @@ lexicon = listing "Lexicon's properties"
     -- ;; ruwbinosuwn_1
     -- rwbnswn ruwbinosuwn     N0      Robinson
 
-    Identity                  `noun`    {- ruwbinosuwn -}      [ "Robinson" ] ]
+    Identity                  `noun`    {- ruwbinosuwn -}      [ "" {- "Robinson" -} ] ]
 
  |> "rUbirt" <| [
 
     -- ;; ruwbirot_1
     -- rwbrt   ruwbirot        Nprop   Robert
 
-    Identity                  `noun`    {- ruwbirot -}         [ "Robert" ],
+    Identity                  `noun`    {- ruwbirot -}         [ "" {- "Robert" -} ],
 
     -- ;; ruwbirot_2
     -- rwbrt   ruwbirot        Nprop   Rupert
 
-    Identity                  `noun`    {- ruwbirot -}         [ "Rupert" ] ]
+    Identity                  `noun`    {- ruwbirot -}         [ "" {- "Rupert" -} ] ]
 
  |> "rUbirtU" <| [
 
     -- ;; ruwbirotuw_1
     -- rwbrtw  ruwbirotuw      Nprop   Roberto
 
-    Identity                  `noun`    {- ruwbirotuw -}       [ "Roberto" ] ]
+    Identity                  `noun`    {- ruwbirotuw -}       [ "" {- "Roberto" -} ] ]
 
  |> "rUdIsiyA" <| [
 
     -- ;; ruwdiysiyA_1
     -- rwdysyA ruwdiysiyA      N0      Rhodesia
 
-    Identity                  `noun`    {- ruwdiysiyA -}       [ "Rhodesia" ] ]
+    Identity                  `noun`    {- ruwdiysiyA -}       [ "" {- "Rhodesia" -} ] ]
 
  |> "rUdUlf" <| [
 
     -- ;; ruwduwlof_1
     -- rwdwlf  ruwduwlof       Nprop   Rudolf
 
-    Identity                  `noun`    {- ruwduwlof -}        [ "Rudolf" ] ]
+    Identity                  `noun`    {- ruwduwlof -}        [ "" {- "Rudolf" -} ] ]
 
  |> "rUdrI^gIz" <| [
 
@@ -13871,21 +13879,21 @@ lexicon = listing "Lexicon's properties"
     -- rwdrygyz        ruwdoriygiyz    Nprop   Rodriguez
     -- rwdrygys        ruwdoriygiys    Nprop   Rodriguez
 
-    Identity                  `noun`    {- ruwdoriyjiyz -}     [ "Rodriguez" ] ]
+    Identity                  `noun`    {- ruwdoriyjiyz -}     [ "" {- "Rodriguez" -} ] ]
 
  |> "rUfA'Il" <| [
 
     -- ;; ruwfA}iyl_1
     -- rwfA}yl ruwfA}iyl       Nprop   Rufa'il;Raphael
 
-    Identity                  `noun`    {- ruwfA}iyl -}        [ "Rufa'il", "Raphael" ] ]
+    Identity                  `noun`    {- ruwfA}iyl -}        [ "" {- "Rufa'il" -}, "" {- "Raphael" -} ] ]
 
  |> "rUkits" <| [
 
     -- ;; ruwkits_1
     -- rwkts   ruwkits Nprop   Rockets
 
-    Identity                  `noun`    {- ruwkits -}          [ "Rockets" ] ]
+    Identity                  `noun`    {- ruwkits -}          [ "" {- "Rockets" -} ] ]
 
  |> "rUlA" <| [
 
@@ -13893,7 +13901,7 @@ lexicon = listing "Lexicon's properties"
     -- rwlA    ruwlA   Nprop   Rola;Rula;Roula
     -- rlA     rulA    Nprop   Rola;Rula;Roula
 
-    Identity                  `noun`    {- ruwlA -}            [ "Rola", "Rula", "Roula" ] ]
+    Identity                  `noun`    {- ruwlA -}            [ "" {- "Rola" -}, "" {- "Rula" -}, "" {- "Roula" -} ] ]
 
  |> "rUmA" <| [
 
@@ -13901,7 +13909,7 @@ lexicon = listing "Lexicon's properties"
     -- rwmA    ruwmA   N0      Rome
     -- rwm     ruwm    Nap     Rome
 
-    Identity                  `noun`    {- ruwmA -}            [ "Rome" ] ]
+    Identity                  `noun`    {- ruwmA -}            [ "" {- "Rome" -} ] ]
 
  |> "rUmAn.tIq" <| [
 
@@ -13916,14 +13924,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; ruwmAnuws_1
     -- rwmAnws ruwmAnuws       Nprop   Romanos
 
-    Identity                  `noun`    {- ruwmAnuws -}        [ "Romanos" ] ]
+    Identity                  `noun`    {- ruwmAnuws -}        [ "" {- "Romanos" -} ] ]
 
  |> "rUmAniyA" <| [
 
     -- ;; ruwmAniyA_1
     -- rwmAnyA ruwmAniyA       N0      Romania
 
-    Identity                  `noun`    {- ruwmAniyA -}        [ "Romania" ] ]
+    Identity                  `noun`    {- ruwmAniyA -}        [ "" {- "Romania" -} ] ]
 
  |> "rUmAns" <| [
 
@@ -13952,7 +13960,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; ruwmiydAl_1
     -- rwmydAl ruwmiydAl       N0      Romedal
 
-    Identity                  `noun`    {- ruwmiydAl -}        [ "Romedal" ] ]
+    Identity                  `noun`    {- ruwmiydAl -}        [ "" {- "Romedal" -} ] ]
 
  |> "rUman.tIq" <| [
 
@@ -13983,63 +13991,63 @@ lexicon = listing "Lexicon's properties"
     -- ;; ruwnAloduw_1
     -- rwnAldw ruwnAloduw      Nprop   Ronaldo
 
-    Identity                  `noun`    {- ruwnAloduw -}       [ "Ronaldo" ] ]
+    Identity                  `noun`    {- ruwnAloduw -}       [ "" {- "Ronaldo" -} ] ]
 
  |> "rUsiyA" <| [
 
     -- ;; ruwsiyA_1
     -- rwsyA   ruwsiyA N0      Russia
 
-    Identity                  `noun`    {- ruwsiyA -}          [ "Russia" ] ]
+    Identity                  `noun`    {- ruwsiyA -}          [ "" {- "Russia" -} ] ]
 
  |> "rUskI_h" <| [
 
     -- ;; ruwsokiyx_1
     -- rwskyx  ruwsokiyx       Nprop   Russkikh
 
-    Identity                  `noun`    {- ruwsokiyx -}        [ "Russkikh" ] ]
+    Identity                  `noun`    {- ruwsokiyx -}        [ "" {- "Russkikh" -} ] ]
 
  |> "rUstUk" <| [
 
     -- ;; ruwsotuwk_1
     -- rwstwk  ruwsotuwk       Nprop   Rostock
 
-    Identity                  `noun`    {- ruwsotuwk -}        [ "Rostock" ] ]
+    Identity                  `noun`    {- ruwsotuwk -}        [ "" {- "Rostock" -} ] ]
 
  |> "rUytir" <| [
 
     -- ;; ruwyotir_1
     -- rwytr   ruwyotir        Nprop   Reuters
 
-    Identity                  `noun`    {- ruwyotir -}         [ "Reuters" ] ]
+    Identity                  `noun`    {- ruwyotir -}         [ "" {- "Reuters" -} ] ]
 
  |> "rUytirs" <| [
 
     -- ;; ruwyotirs_1
     -- rwytrs  ruwyotirs       Nprop   Reuters
 
-    Identity                  `noun`    {- ruwyotirs -}        [ "Reuters" ] ]
+    Identity                  `noun`    {- ruwyotirs -}        [ "" {- "Reuters" -} ] ]
 
  |> "rUytirz" <| [
 
     -- ;; ruwyotirz_1
     -- rwytrz  ruwyotirz       Nprop   Reuters
 
-    Identity                  `noun`    {- ruwyotirz -}        [ "Reuters" ] ]
+    Identity                  `noun`    {- ruwyotirz -}        [ "" {- "Reuters" -} ] ]
 
  |> "rUzIt^s" <| [
 
     -- ;; ruwziyt$_1
     -- rwzyt$  ruwziyt$        Nprop   Rosic
 
-    Identity                  `noun`    {- ruwziyt$ -}         [ "Rosic" ] ]
+    Identity                  `noun`    {- ruwziyt$ -}         [ "" {- "Rosic" -} ] ]
 
  |> "rUzUfIt^s" <| [
 
     -- ;; ruwzuwfiyt$_1
     -- rwzwfyt$        ruwzuwfiyt$     Nprop   Rusovick
 
-    Identity                  `noun`    {- ruwzuwfiyt$ -}      [ "Rusovick" ] ]
+    Identity                  `noun`    {- ruwzuwfiyt$ -}      [ "" {- "Rusovick" -} ] ]
 
  |> "rUzfilt" <| [
 
@@ -14047,7 +14055,7 @@ lexicon = listing "Lexicon's properties"
     -- rwzflt  ruwzofilot      N0      Roosevelt
     -- rwzfylt ruwzofiylot     N0      Roosevelt
 
-    Identity                  `noun`    {- ruwzofilot -}       [ "Roosevelt" ] ]
+    Identity                  `noun`    {- ruwzofilot -}       [ "" {- "Roosevelt" -} ] ]
 
  |> "rUznAm" <| [
 
@@ -14082,7 +14090,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; raHobAriyfArod_1
     -- rHbAryfArd      raHobAriyfArod  Nprop   Rahbarifard
 
-    Identity                  `noun`    {- raHobAriyfArod -}   [ "Rahbarifard" ] ]
+    Identity                  `noun`    {- raHobAriyfArod -}   [ "" {- "Rahbarifard" -} ] ]
 
  |> "ra.hm_an" <| [
 
@@ -14090,7 +14098,7 @@ lexicon = listing "Lexicon's properties"
     -- rHmn    raHom`n N0      Rahman
     -- rHmAn   raHomAn N0      Rahman
 
-    Identity                  `noun`    {- raHom`n -}          [ "Rahman" ],
+    Identity                  `noun`    {- raHom`n -}          [ "" {- "Rahman" -} ],
 
     -- ;; raHom`n_2
     -- rHmn    raHom`n N       merciful     [[raHom`n/ADJ]]
@@ -14117,14 +14125,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; rafosanojAniy~_1
     -- rfsnjAny        rafosanojAniy~  Nprop   Rafsanjani
 
-    Identity |< Iy            `adj`     {- rafosanojAniy~ -}   [ "Rafsanjani" ] ]
+    Identity |< Iy            `adj`     {- rafosanojAniy~ -}   [ "" {- "Rafsanjani" -} ] ]
 
  |> "ram_tA" <| [
 
     -- ;; ramovA_1
     -- rmvA    ramovA  N0      Ramtha
 
-    Identity                  `noun`    {- ramovA -}           [ "Ramtha" ] ]
+    Identity                  `noun`    {- ramovA -}           [ "" {- "Ramtha" -} ] ]
 
  |> "ramsfild" <| [
 
@@ -14132,7 +14140,7 @@ lexicon = listing "Lexicon's properties"
     -- rmsfld  ramsofild       N0      Rumsfeld
     -- rmsfyld ramsofiyld      N0      Rumsfeld
 
-    Identity                  `noun`    {- ramsofild -}        [ "Rumsfeld" ] ]
+    Identity                  `noun`    {- ramsofild -}        [ "" {- "Rumsfeld" -} ] ]
 
  |> "ratIna^g" <| [
 
@@ -14146,7 +14154,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; rawAlobinodiy_1
     -- rwAlbndy        rawAlobinodiy   N0      Rawalpindi
 
-    Identity                  `noun`    {- rawAlobinodiy -}    [ "Rawalpindi" ] ]
+    Identity                  `noun`    {- rawAlobinodiy -}    [ "" {- "Rawalpindi" -} ] ]
 
  |> "ray_tamA" <| [
 
@@ -14160,7 +14168,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; riDA_1
     -- rDA     riDA    Nprop   Rida;Reza
 
-    Identity                  `noun`    {- riDA -}             [ "Rida", "Reza" ] ]
+    Identity                  `noun`    {- riDA -}             [ "" {- "Rida" -}, "" {- "Reza" -} ] ]
 
  |> "ri^gIm" <| [
 
@@ -14195,14 +14203,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; ridomuwnod_1
     -- rdmwnd  ridomuwnod      Nprop   Redmond
 
-    Identity                  `noun`    {- ridomuwnod -}       [ "Redmond" ] ]
+    Identity                  `noun`    {- ridomuwnod -}       [ "" {- "Redmond" -} ] ]
 
  |> "rif`at" <| [
 
     -- ;; rifoEat_1
     -- rfEt    rifoEat Nprop   Rifa'at;Rif'at
 
-    Identity                  `noun`    {- rifoEat -}          [ "Rifa'at", "Rif'at" ] ]
+    Identity                  `noun`    {- rifoEat -}          [ "" {- "Rifa'at" -}, "" {- "Rif'at" -} ] ]
 
  |> "ritU^s" <| [
 
@@ -14223,21 +14231,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; riyiynA_1
     -- ryynA   riyynA  Nprop   Reina
 
-    Identity                  `noun`    {- riyiynA -}          [ "Reina" ] ]
+    Identity                  `noun`    {- riyiynA -}          [ "" {- "Reina" -} ] ]
 
  |> "riyU" <| [
 
     -- ;; riyuw_1
     -- ryw     riyuw   Nprop   Rio
 
-    Identity                  `noun`    {- riyuw -}            [ "Rio" ] ]
+    Identity                  `noun`    {- riyuw -}            [ "" {- "Rio" -} ] ]
 
  |> "riyUzU" <| [
 
     -- ;; riyuwzuw_1
     -- rywzw   riyuwzuw        Nprop   Ryuzo
 
-    Identity                  `noun`    {- riyuwzuw -}         [ "Ryuzo" ] ]
+    Identity                  `noun`    {- riyuwzuw -}         [ "" {- "Ryuzo" -} ] ]
 
  |> "ru.taynY" <| [
 
@@ -14277,35 +14285,35 @@ lexicon = listing "Lexicon's properties"
     -- ;; ruwAnuw_1
     -- rwAnw   ruwAnuw Nprop   Ruano
 
-    Identity                  `noun`    {- ruwAnuw -}          [ "Ruano" ] ]
+    Identity                  `noun`    {- ruwAnuw -}          [ "" {- "Ruano" -} ] ]
 
  |> "ruwAndA" <| [
 
     -- ;; ruwAnodA_1
     -- rwAndA  ruwAnodA        N0      Rwanda
 
-    Identity                  `noun`    {- ruwAnodA -}         [ "Rwanda" ] ]
+    Identity                  `noun`    {- ruwAnodA -}         [ "" {- "Rwanda" -} ] ]
 
  |> "ruway^sid" <| [
 
     -- ;; ruwayo$id_1
     -- rwy$d   ruwayo$id       N0      Ruwaishid
 
-    Identity                  `noun`    {- ruwayo$id -}        [ "Ruwaishid" ] ]
+    Identity                  `noun`    {- ruwayo$id -}        [ "" {- "Ruwaishid" -} ] ]
 
  |> "rwn" <| [
 
     -- ;; rwn_1
     -- rwn     rwn     Nprop   Ron
 
-    Identity                  `noun`    {- rwn -}              [ "Ron" ] ]
+    Identity                  `noun`    {- rwn -}              [ "" {- "Ron" -} ] ]
 
  |> "rwnAld" <| [
 
     -- ;; rwnAld_1
     -- rwnAld  rwnAld  Nprop   Ronald
 
-    Identity                  `noun`    {- rwnAld -}           [ "Ronald" ] ]
+    Identity                  `noun`    {- rwnAld -}           [ "" {- "Ronald" -} ] ]
 
  |> "tArI`" <| [
 

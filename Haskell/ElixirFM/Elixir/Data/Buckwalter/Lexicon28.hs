@@ -554,8 +554,9 @@ lexicon = listing "Lexicon's properties"
     -- AymAn   >ayomAn N       oaths
 
     FaCIL                     `noun`    {- yamiyn -}           [ "oath" ]
+                              `plural`     HaFCuL
                               `plural`     HaFCAL
-                           {- `others`  [ "'aymAn N" ] -},
+                           {- `others`  [ "'aymun N", "'aymAn N" ] -},
 
     -- ;; yamiyniy~_1
     -- ymyny   yamiyniy~       Nall    rightist;right-wing     [[yamiyniy~/ADJ]]
@@ -1533,27 +1534,27 @@ lexicon = listing "Lexicon's properties"
     -- ;; yAbAn_1
     -- yAbAn   yAbAn   N       Japan
 
-    Identity                  `noun`    {- yAbAn -}            [ "Japan" ],
+    Identity                  `noun`    {- yAbAn -}            [ "" {- "Japan" -} ],
 
     -- ;; yAbAniy~_1
     -- yAbAny  yAbAniy~        Nall    Japanese     [[yAbAniy~/NOUN]]
     -- yAbAny  yAbAniy~        Nall    Japanese     [[yAbAniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- yAbAniy~ -}         [ "Japanese" ] ]
+    Identity |< Iy            `adj`     {- yAbAniy~ -}         [ "" {- "Japanese" -} ] ]
 
  |> "yAfA" <| [
 
     -- ;; yAfA_1
     -- yAfA    yAfA    Nprop   Jaffa;Yafa
 
-    Identity                  `noun`    {- yAfA -}             [ "Jaffa", "Yafa" ] ]
+    Identity                  `noun`    {- yAfA -}             [ "" {- "Jaffa" -}, "" {- "Yafa" -} ] ]
 
  |> "yAmAhA" <| [
 
     -- ;; yAmAhA_1
     -- yAmAhA  yAmAhA  Nprop   Yamaha
 
-    Identity                  `noun`    {- yAmAhA -}           [ "Yamaha" ] ]
+    Identity                  `noun`    {- yAmAhA -}           [ "" {- "Yamaha" -} ] ]
 
  |> "yAmI^s" <| [
 
@@ -1567,14 +1568,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; yAnA_1
     -- yAnA    yAnA    Nprop   Jana
 
-    Identity                  `noun`    {- yAnA -}             [ "Jana" ] ]
+    Identity                  `noun`    {- yAnA -}             [ "" {- "Jana" -} ] ]
 
  |> "yAnA.gIsAwA" <| [
 
     -- ;; yAnAgiysAwA_1
     -- yAnAgysAwA      yAnAgiysAwA     Nprop   Yanagisawa
 
-    Identity                  `noun`    {- yAnAgiysAwA -}      [ "Yanagisawa" ] ]
+    Identity                  `noun`    {- yAnAgiysAwA -}      [ "" {- "Yanagisawa" -} ] ]
 
  |> "yAnisUn" <| [
 
@@ -1588,14 +1589,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; yArokAs_1
     -- yArkAs  yArokAs N0      Yarkas
 
-    Identity                  `noun`    {- yArokAs -}          [ "Yarkas" ] ]
+    Identity                  `noun`    {- yArokAs -}          [ "" {- "Yarkas" -} ] ]
 
  |> "yAsIn" <| [
 
     -- ;; yAsiyn_1
     -- yAsyn   yAsiyn  Nprop   Yaseen;Yacine
 
-    Identity                  `noun`    {- yAsiyn -}           [ "Yaseen", "Yacine" ] ]
+    Identity                  `noun`    {- yAsiyn -}           [ "" {- "Yaseen" -}, "" {- "Yacine" -} ] ]
 
  |> "yAsint" <| [
 
@@ -1609,7 +1610,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yAsomiyn_1
     -- yAsmyn  yAsomiyn        Nprop   Yasmin;Yasmeen;Jasmine
 
-    Identity                  `noun`    {- yAsomiyn -}         [ "Yasmin", "Yasmeen", "Jasmine" ],
+    Identity                  `noun`    {- yAsomiyn -}         [ "" {- "Yasmin" -}, "" {- "Yasmeen" -}, "" {- "Jasmine" -} ],
 
     -- ;; yAsomiyn_2
     -- yAsmyn  yAsomiyn        N       jasmine
@@ -1627,7 +1628,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yAzirojiy~_2
     -- yAzrjy  yAzirojiy~      N       Yazirji
 
-    Identity |< Iy            `adj`     {- yAzirojiy~ -}       [ "Yazirji" ] ]
+    Identity |< Iy            `adj`     {- yAzirojiy~ -}       [ "" {- "Yazirji" -} ] ]
 
  |> "yU.gUrt" <| [
 
@@ -1656,7 +1657,7 @@ lexicon = listing "Lexicon's properties"
     -- ywgslAf yuwgusolAf      N       Yugoslavians     [[yuwgusolAf/ADJ]]
     -- ywjslAf yuwjusolAf      N       Yugoslavians     [[yuwgusolAf/ADJ]]
 
-    Identity |< Iy            `adj`     {- yuwguwsolAfiy~ -}   [ "Yugoslavian" ] ]
+    Identity |< Iy            `adj`     {- yuwguwsolAfiy~ -}   [ "" {- "Yugoslavian" -} ] ]
 
  |> "yU.gUslAfiyA" <| [
 
@@ -1666,7 +1667,7 @@ lexicon = listing "Lexicon's properties"
     -- ywgslAfyA       yuwgusolAfiyA   N0      Yugoslavia
     -- ywjslAfyA       yuwjusolAfiyA   N0      Yugoslavia
 
-    Identity                  `noun`    {- yuwguwsolAfiyA -}   [ "Yugoslavia" ] ]
+    Identity                  `noun`    {- yuwguwsolAfiyA -}   [ "" {- "Yugoslavia" -} ] ]
 
  |> "yU.tn" <| [
 
@@ -1680,28 +1681,28 @@ lexicon = listing "Lexicon's properties"
     -- ;; yuwfAnuwfiyt$_1
     -- ywfAnwfyt$      yuwfAnuwfiyt$   Nprop   Jovanovic;Jovanovich
 
-    Identity                  `noun`    {- yuwfAnuwfiyt$ -}    [ "Jovanovic", "Jovanovich" ] ]
+    Identity                  `noun`    {- yuwfAnuwfiyt$ -}    [ "" {- "Jovanovic" -}, "" {- "Jovanovich" -} ] ]
 
  |> "yUfintUs" <| [
 
     -- ;; yuwfinotuws_1
     -- ywfntws yuwfinotuws     Nprop   Juventus
 
-    Identity                  `noun`    {- yuwfinotuws -}      [ "Juventus" ] ]
+    Identity                  `noun`    {- yuwfinotuws -}      [ "" {- "Juventus" -} ] ]
 
  |> "yUhAnsUn" <| [
 
     -- ;; yuwhAnosuwn_1
     -- ywhAnswn        yuwhAnosuwn     Nprop   Johansson
 
-    Identity                  `noun`    {- yuwhAnosuwn -}      [ "Johansson" ] ]
+    Identity                  `noun`    {- yuwhAnosuwn -}      [ "" {- "Johansson" -} ] ]
 
  |> "yUkUhAmA" <| [
 
     -- ;; yuwkuwhAmA_1
     -- ywkwhAmA        yuwkuwhAmA      N0      Yokohama
 
-    Identity                  `noun`    {- yuwkuwhAmA -}       [ "Yokohama" ] ]
+    Identity                  `noun`    {- yuwkuwhAmA -}       [ "" {- "Yokohama" -} ] ]
 
  |> "yUliyU" <| [
 
@@ -1710,7 +1711,7 @@ lexicon = listing "Lexicon's properties"
     -- ywlyh   yuwliyah        N0      July
     -- ywlywz  yuwloyuwz       N0      July
 
-    Identity                  `noun`    {- yuwliyuw -}         [ "July" ] ]
+    Identity                  `noun`    {- yuwliyuw -}         [ "" {- "July" -} ] ]
 
  |> "yUn.g" <| [
 
@@ -1718,20 +1719,20 @@ lexicon = listing "Lexicon's properties"
     -- ywng    yuwnog  Nprop   Jong;Jung;Yung
     -- ywnj    yuwnoj  Nprop   Jong;Jung;Yung
 
-    Identity                  `noun`    {- yuwnog -}           [ "Jong", "Jung", "Yung" ],
+    Identity                  `noun`    {- yuwnog -}           [ "" {- "Jong" -}, "" {- "Jung" -}, "" {- "Yung" -} ],
 
     -- ;; yuwnog_2
     -- ywng    yuwnog  Nprop   Young
     -- ywnj    yuwnoj  Nprop   Young
 
-    Identity                  `noun`    {- yuwnog -}           [ "Young" ] ]
+    Identity                  `noun`    {- yuwnog -}           [ "" {- "Young" -} ] ]
 
  |> "yUnAytid" <| [
 
     -- ;; yuwnAyotid_1
     -- ywnAytd yuwnAyotid      Nprop   United
 
-    Identity                  `noun`    {- yuwnAyotid -}       [ "United" ] ]
+    Identity                  `noun`    {- yuwnAyotid -}       [ "" {- "United" -} ] ]
 
  |> "yUnIsif" <| [
 
@@ -1740,7 +1741,7 @@ lexicon = listing "Lexicon's properties"
     -- ywnysyf yuwniysiyf      N0      UNICEF
     -- ywnsyf  yuwnisiyf       N0      UNICEF
 
-    Identity                  `noun`    {- yuwniysif -}        [ "UNICEF" ] ]
+    Identity                  `noun`    {- yuwniysif -}        [ "" {- "UNICEF" -} ] ]
 
  |> "yUnIskU" <| [
 
@@ -1748,14 +1749,14 @@ lexicon = listing "Lexicon's properties"
     -- ywnyskw yuwniysokuw     N0      UNESCO
     -- ywnskw  yuwnisokuw      N0      UNESCO
 
-    Identity                  `noun`    {- yuwniysokuw -}      [ "UNESCO" ] ]
+    Identity                  `noun`    {- yuwniysokuw -}      [ "" {- "UNESCO" -} ] ]
 
  |> "yUnItA" <| [
 
     -- ;; yuwniytA_1
     -- ywnytA  yuwniytA        N0      UNITA
 
-    Identity                  `noun`    {- yuwniytA -}         [ "UNITA" ] ]
+    Identity                  `noun`    {- yuwniytA -}         [ "" {- "UNITA" -} ] ]
 
  |> "yUnUsfIr" <| [
 
@@ -1771,14 +1772,14 @@ lexicon = listing "Lexicon's properties"
     -- ywnyh   yuwniyah        Nprop   June
     -- ywnyp   yuwniyap        Nprop   June
 
-    Identity                  `noun`    {- yuwniyuw -}         [ "June" ] ]
+    Identity                  `noun`    {- yuwniyuw -}         [ "" {- "June" -} ] ]
 
  |> "yUnskUm" <| [
 
     -- ;; yuwnoskuwm_1
     -- ywnskwm yuwnoskuwm      Nprop   UNSCOM
 
-    Identity                  `noun`    {- yuwnoskuwm -}       [ "UNSCOM" ] ]
+    Identity                  `noun`    {- yuwnoskuwm -}       [ "" {- "UNSCOM" -} ] ]
 
  |> "yUrAniyUm" <| [
 
@@ -1794,14 +1795,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; yuwruwmiyd_1
     -- ywrwmyd yuwruwmiyd      N0      Euro-Med (European-Mediterranean)
 
-    Identity                  `noun`    {- yuwruwmiyd -}       [ unwords [ "Euro", "-", "Med", "(", "European", "-", "Mediterranean", ")" ] ] ]
+    Identity                  `noun`    {- yuwruwmiyd -}       [ unwords [ "" {- "Euro" -}, "-", "" {- "Med" -}, "(", "" {- "European" -}, "-", "" {- "Mediterranean" -}, ")" ] ] ]
 
  |> "yUrk" <| [
 
     -- ;; yuwrk_1
     -- ywrk    yuwrk   N0      York
 
-    Identity                  `noun`    {- yuwrk -}            [ "York" ] ]
+    Identity                  `noun`    {- yuwrk -}            [ "" {- "York" -} ] ]
 
  |> "yUtA" <| [
 
@@ -1809,7 +1810,7 @@ lexicon = listing "Lexicon's properties"
     -- ywtA    yuwtA   Nprop   Utah
     -- ywTA    yuwTA   Nprop   Utah
 
-    Identity                  `noun`    {- yuwtA -}            [ "Utah" ] ]
+    Identity                  `noun`    {- yuwtA -}            [ "" {- "Utah" -} ] ]
 
  |> "yUzbA^s" <| [
 
@@ -1824,14 +1825,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; yadiyEuwt_1
     -- ydyEwt  yadiyEuwt       Nprop   Yediot
 
-    Identity                  `noun`    {- yadiyEuwt -}        [ "Yediot" ] ]
+    Identity                  `noun`    {- yadiyEuwt -}        [ "" {- "Yediot" -} ] ]
 
  |> "yahU_dA" <| [
 
     -- ;; yahuw*A_1
     -- yhw*A   yahuw*A Nprop   Judah;Judea
 
-    Identity                  `noun`    {- yahuw*A -}          [ "Judah", "Judea" ] ]
+    Identity                  `noun`    {- yahuw*A -}          [ "" {- "Judah" -}, "" {- "Judea" -} ] ]
 
  |> "yasaq^g" <| [
 
@@ -1868,7 +1869,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yifogiyniy_1
     -- yfgyny  yifogiyniy      Nprop   Yevgeni
 
-    Identity                  `noun`    {- yifogiyniy -}       [ "Yevgeni" ] ]
+    Identity                  `noun`    {- yifogiyniy -}       [ "" {- "Yevgeni" -} ] ]
 
  |> "yiltsin" <| [
 
@@ -1876,26 +1877,26 @@ lexicon = listing "Lexicon's properties"
     -- yltsn   yilotsin        Nprop   Yeltsin
     -- yltsyn  yilotsiyn       Nprop   Yeltsin
 
-    Identity                  `noun`    {- yilotsin -}         [ "Yeltsin" ] ]
+    Identity                  `noun`    {- yilotsin -}         [ "" {- "Yeltsin" -} ] ]
 
  |> "yits.hAk" <| [
 
     -- ;; yitsoHAk_1
     -- ytsHAk  yitsoHAk        Nprop   Yitzhak
 
-    Identity                  `noun`    {- yitsoHAk -}         [ "Yitzhak" ] ]
+    Identity                  `noun`    {- yitsoHAk -}         [ "" {- "Yitzhak" -} ] ]
 
  |> "yu.hannA" <| [
 
     -- ;; yuHan~A_1
     -- yHnA    yuHan~A N0      Yuhanna;John
 
-    Identity                  `noun`    {- yuHan~A -}          [ "Yuhanna", "John" ] ]
+    Identity                  `noun`    {- yuHan~A -}          [ "" {- "Yuhanna" -}, "" {- "John" -} ] ]
 
  |> "ywmbl.gAz" <| [
 
     -- ;; ywmblgAz_1
     -- ywmblgAz        ywmblgAz        Nprop   Iompelgas ??
 
-    Identity                  `noun`    {- ywmblgAz -}         [ unwords [ "Iompelgas", "?", "?" ] ] ]
+    Identity                  `noun`    {- ywmblgAz -}         [ unwords [ "" {- "Iompelgas" -}, "?", "?" ] ] ]
 

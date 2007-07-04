@@ -752,6 +752,26 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => '\'a.zhur',
+      'form' => '\'a.zhur',
+      'lines' => [
+        ';; >aZohur_1',
+        '>Zhr    >aZohur N       rear part',
+        'AZhr    >aZohur N       rear part'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFCuL',
+      'suffix' => '',
+      'glosses' => [
+        'rear part'
+      ],
+      'orig' => 'OaZohur',
+      'prefix' => ''
+    },
+    {
       'types' => {
         '\'a.zhAr' => {
           'N' => 2
@@ -1862,28 +1882,6 @@ $Lexicon = {
         'rheumatism'
       ],
       'orig' => 'ZulAE',
-      'prefix' => ''
-    }
-  ],
-  '\'a.zhur' => [
-    {
-      'types' => {},
-      'entry' => '\'a.zhur',
-      'form' => '\'a.zhur',
-      'lines' => [
-        ';; >aZohur_1',
-        '>Zhr    >aZohur N       rear part',
-        'AZhr    >aZohur N       rear part'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'rear part'
-      ],
-      'orig' => 'OaZohur',
       'prefix' => ''
     }
   ],

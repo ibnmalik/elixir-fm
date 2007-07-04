@@ -1316,7 +1316,7 @@ mntjE   munotajaE       NduAt   resort (vacation place)
 ;
 ;--- njf
 ;; najaf_1
-njf     najaf   N       Najaf (Iraq)
+njf     najaf   N       Najaf
 ;; najaf_2
 njf     najaf   N       hill;dune
 ;; najafap_1
@@ -4223,7 +4223,7 @@ mnSwr   manoSuwr        Nap     Mansoura
 ;; manoSuwriy~_1
 mnSwry  manoSuwriy~     N0      Mansouri
 ;; manoSuwriy~_2
-mnSwry  manoSuwriy~     Nall    of/from Mansoura (Egy.)
+mnSwry  manoSuwriy~     Nall    of/from Mansoura
 ;; munASir_1
 mnASr   munASir Nall    supported;defender
 ;; mutanaS~ir_1
@@ -7132,7 +7132,8 @@ nmwr    numuwr  N       tigers;leopards;panthers
 >nmAr   >anomAr N       tigers;leopards;panthers
 AnmAr   >anomAr N       tigers;leopards;panthers
 ;; numuwr_1
-nmwr    numuwr  N       Tigers (in "Tamil Tigers")
+nmwr    numuwr  N       Tigers
+; (in "Tamil Tigers")
 ;; namir_2
 nmr     namir   N-ap    clean;wholesome
 ;; numorap_1

@@ -54,7 +54,7 @@ lexicon = listing "Lexicon's properties"
     -- >qSr    >uqoSur N0      Luxor
     -- AqSr    >uqoSur N0      Luxor
 
-    Identity                  `noun`    {- OuqoSur -}          [ "Luxor" ] ]
+    Identity                  `noun`    {- OuqoSur -}          [ "" {- "Luxor" -} ] ]
 
  |> "maqbur" <| [
 
@@ -67,14 +67,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; maqoburiy~_2
     -- mqbry   maqoburiy~      N0      Maqburi
 
-    Identity |< Iy            `adj`     {- maqoburiy~ -}       [ "Maqburi" ] ]
+    Identity |< Iy            `adj`     {- maqoburiy~ -}       [ "" {- "Maqburi" -} ] ]
 
  |> "muqAwilUn" <| [
 
     -- ;; muqAwiluwn_1
     -- mqAwlwn muqAwiluwn      N0      Muqawiloun
 
-    Identity                  `noun`    {- muqAwiluwn -}       [ "Muqawiloun" ] ]
+    Identity                  `noun`    {- muqAwiluwn -}       [ "" {- "Muqawiloun" -} ] ]
 
  |> "q" <| [
 
@@ -4511,7 +4511,9 @@ lexicon = listing "Lexicon's properties"
     -- >qb     >aqub~  N       hubs;levers;beams
     -- Aqb     >aqub~  N       hubs;levers;beams
 
-    FaCL                      `noun`    {- qab~ -}             [ "hub", "lever", "beam" ],
+    FaCL                      `noun`    {- qab~ -}             [ "hub", "lever", "beam" ]
+                              `plural`     HaFuCL
+                           {- `others`  [ "'aqubb N" ] -},
 
     -- ;; qub~ap_1
     -- qb      qub~    Napdu   dome;cupola
@@ -5009,9 +5011,9 @@ lexicon = listing "Lexicon's properties"
                               `plural`     IFtiCAL |< At,
 
     -- ;; qAbis_1
-    -- qAbs    qAbis   Ndip    Gabes (Tun.)
+    -- qAbs    qAbis   Ndip    Gabes
 
-    FACiL                     `noun`    {- qAbis -}            [ unwords [ "Gabes", "(", "Tun.", ")" ] ],
+    FACiL                     `noun`    {- qAbis -}            [ "Gabes" ],
 
     -- ;; qAbis_2
     -- qAbs    qAbis   Ndu     electrical plug
@@ -5151,10 +5153,11 @@ lexicon = listing "Lexicon's properties"
     -- AqAdyH  >aqAdiyH        Ndip    arrows
 
     FiCL                      `noun`    {- qidoH -}            [ "arrow" ]
+                              `plural`     HaFCuL
                               `plural`     FiCAL
                               `plural`     HaFACIL
                               `plural`     HaFCAL
-                           {- `others`  [ "qidA.h N", "'aqAdiy.h Ndip", "'aqdA.h N" ] -},
+                           {- `others`  [ "'aqdu.h N", "qidA.h N", "'aqAdiy.h Ndip", "'aqdA.h N" ] -},
 
     -- ;; qidoH_2
     -- qdH     qidoH   N       preponderance;decisive influence
@@ -5171,11 +5174,11 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "'aqdA.h N" ] -},
 
     -- ;; qadaH_2
-    -- qdH     qadaH   Ndu     qadah (2 liters)
-    -- >qdAH   >aqodAH N       qadahs (1 = 2 liters)
-    -- AqdAH   >aqodAH N       qadahs (1 = 2 liters)
+    -- qdH     qadaH   Ndu     qadah
+    -- >qdAH   >aqodAH N       qadahs
+    -- AqdAH   >aqodAH N       qadahs
 
-    FaCaL                     `noun`    {- qadaH -}            [ unwords [ "qadah", "(", "2", "liters", ")" ], unwords [ "qadahs", "(", "1", "=", "2", "liters", ")" ] ]
+    FaCaL                     `noun`    {- qadaH -}            [ "qadah" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'aqdA.h N" ] -},
 
@@ -5270,7 +5273,9 @@ lexicon = listing "Lexicon's properties"
     -- >qd     >aqud~  N       straps;thongs
     -- Aqd     >aqud~  N       straps;thongs
 
-    FiCL                      `noun`    {- qid~ -}             [ "strap", "thong" ],
+    FiCL                      `noun`    {- qid~ -}             [ "strap", "thong" ]
+                              `plural`     HaFuCL
+                           {- `others`  [ "'aqudd N" ] -},
 
     -- ;; qid~ap_1
     -- qd      qid~    Napdu   rail;ruler
@@ -6614,11 +6619,11 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "qafAfiyz Ndip" ] -},
 
     -- ;; qafiyz_1
-    -- qfyz    qafiyz  Ndu     qafiz (dry measure = 528 liters)
-    -- >qfz    >aqofiz Nap     qafiz (dry measure = 528 liters)
-    -- Aqfz    >aqofiz Nap     qafiz (dry measure = 528 liters)
+    -- qfyz    qafiyz  Ndu     qafiz
+    -- >qfz    >aqofiz Nap     qafiz
+    -- Aqfz    >aqofiz Nap     qafiz
 
-    FaCIL                     `noun`    {- qafiyz -}           [ unwords [ "qafiz", "(", "dry", "measure", "=", "528", "liters", ")" ] ]
+    FaCIL                     `noun`    {- qafiyz -}           [ "qafiz" ]
                               `plural`     HaFCiL |< aT,
 
     -- ;; maqofiz_1
@@ -7103,10 +7108,10 @@ lexicon = listing "Lexicon's properties"
     FaCL |< Iy                `adj`     {- qalobiy~ -}         [ "cardiac", "hearty" ],
 
     -- ;; qalobap_1
-    -- qlb     qalob   Napdu   qalba (capacity measure = 20 liters)
-    -- qlb     qalab   NAt     qalba (capacity measure = 20 liters)
+    -- qlb     qalob   Napdu   qalba
+    -- qlb     qalab   NAt     qalba
 
-    FaCL |< aT                `noun`    {- qalobap -}          [ unwords [ "qalba", "(", "capacity", "measure", "=", "20", "liters", ")" ] ]
+    FaCL |< aT                `noun`    {- qalobap -}          [ "qalba" ]
                               `plural`     FaCaL |< At,
 
     -- ;; qAlib_1
@@ -7832,19 +7837,19 @@ lexicon = listing "Lexicon's properties"
  |> "q l y b" <| [
 
     -- ;; qaloyuwb_1
-    -- qlywb   qaloyuwb        Ndip    Qalyub (Egy.)
+    -- qlywb   qaloyuwb        Ndip    Qalyub
 
-    KaRDUS                    `noun`    {- qaloyuwb -}         [ unwords [ "Qalyub", "(", "Egy.", ")" ] ],
+    KaRDUS                    `noun`    {- qaloyuwb -}         [ "Qalyub" ],
 
     -- ;; qaloyuwbiy~ap_1
-    -- qlywby  qaloyuwbiy~     Nap     Qalyubiyah (Egy. prov.)     [[qaloyuwbiy~/NOUN]]
+    -- qlywby  qaloyuwbiy~     Nap     Qalyubiyah     [[qaloyuwbiy~/NOUN]]
 
-    KaRDUS |< Iy |< aT        `noun`    {- qaloyuwbiy~ap -}    [ unwords [ "Qalyubiyah", "(", "Egy.", "prov.", ")" ] ],
+    KaRDUS |< Iy |< aT        `noun`    {- qaloyuwbiy~ap -}    [ "Qalyubiyah" ],
 
     -- ;; qaloyuwbiy~_1
-    -- qlywby  qaloyuwbiy~     Nall    from/of Qalyub (Egy.)     [[qaloyuwbiy~/ADJ]]
+    -- qlywby  qaloyuwbiy~     Nall    from/of Qalyub     [[qaloyuwbiy~/ADJ]]
 
-    KaRDUS |< Iy              `adj`     {- qaloyuwbiy~ -}      [ unwords [ "from", "/", "of", "Qalyub", "(", "Egy.", ")" ] ] ]
+    KaRDUS |< Iy              `adj`     {- qaloyuwbiy~ -}      [ unwords [ "from", "/", "of", "Qalyub" ] ] ]
 
  |> "q m '" <| [
 
@@ -8607,9 +8612,9 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "qanA.tir Ndip" ] -},
 
     -- ;; qanATir_1
-    -- qnATr   qanATir N0      Qanatir (Egy.)
+    -- qnATr   qanATir N0      Qanatir
 
-    KaRADiS                   `noun`    {- qanATir -}          [ unwords [ "Qanatir", "(", "Egy.", ")" ] ],
+    KaRADiS                   `noun`    {- qanATir -}          [ "Qanatir" ],
 
     -- ;; qanoTariy~_1
     -- qnTry   qanoTariy~      N-ap    arched;vaulted;arcaded     [[qanoTariy~/ADJ]]
@@ -9009,6 +9014,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- qin~ -}             [ "slave", "serf" ]
                               `plural`     HaFCAL
+                              `plural`     HaFiCL |< aT
                            {- `others`  [ "'aqnAn N" ] -},
 
     -- ;; qun~ap_1
@@ -11419,9 +11425,9 @@ lexicon = listing "Lexicon's properties"
     FaL |<< "awIy"            `adj`     {- qarawiy~ -}         [ "peasant", "villager" ],
 
     -- ;; qarawiy~_3
-    -- qrwy    qarawiy~        Nall    of/from Kairouan (Tun.)     [[qarawiy~/ADJ]]
+    -- qrwy    qarawiy~        Nall    of/from Kairouan     [[qarawiy~/ADJ]]
 
-    FaL |<< "awIy"            `adj`     {- qarawiy~ -}         [ unwords [ "of", "/", "from", "Kairouan", "(", "Tun.", ")" ] ] ]
+    FaL |<< "awIy"            `adj`     {- qarawiy~ -}         [ unwords [ "of", "/", "from", "Kairouan" ] ] ]
 
  |> "q r s" <| [
 
@@ -11648,9 +11654,9 @@ lexicon = listing "Lexicon's properties"
     FaC |<< "awIy"            `adj`     {- qarawiy~ -}         [ "peasant", "villager" ],
 
     -- ;; qarawiy~_3
-    -- qrwy    qarawiy~        Nall    of/from Kairouan (Tun.)     [[qarawiy~/ADJ]]
+    -- qrwy    qarawiy~        Nall    of/from Kairouan     [[qarawiy~/ADJ]]
 
-    FaC |<< "awIy"            `adj`     {- qarawiy~ -}         [ unwords [ "of", "/", "from", "Kairouan", "(", "Tun.", ")" ] ] ]
+    FaC |<< "awIy"            `adj`     {- qarawiy~ -}         [ unwords [ "of", "/", "from", "Kairouan" ] ] ]
 
  |> "q s .h" <| [
 
@@ -12190,6 +12196,7 @@ lexicon = listing "Lexicon's properties"
     -- qsAws   qasAwis Nap     clergymen
 
     FiCCIL                    `noun`    {- qis~iys -}          [ "clergyman", "reverend", "clergymen" ]
+                              `plural`     HaFiCL |< aT
                               `plural`     FuCLAn
                            {- `others`  [ "qussAn N" ] -},
 
@@ -12855,7 +12862,8 @@ lexicon = listing "Lexicon's properties"
     FAL                       `noun`    {- qAE -}              [ "bottom", "floor", "depths" ]
                               `plural`     HaFCAL
                               `plural`     FILAn
-                           {- `others`  [ "'aqwA` N", "qiy`An N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ "'aqwA` N", "qiy`An N", "'aqwu` N" ] -},
 
     -- ;; qAEap_1
     -- qAE     qAE     Napdu   hall;corridor;large room
@@ -14965,7 +14973,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qAZimbuwr_1
     -- qAZmbwr qAZimbuwr       Nprop   Kazempour
 
-    Identity                  `noun`    {- qAZimbuwr -}        [ "Kazempour" ] ]
+    Identity                  `noun`    {- qAZimbuwr -}        [ "" {- "Kazempour" -} ] ]
 
  |> "qA^sAnI" <| [
 
@@ -14979,21 +14987,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; qAbiyl_1
     -- qAbyl   qAbiyl  Nprop   Qabil;Cain
 
-    Identity                  `noun`    {- qAbiyl -}           [ "Qabil", "Cain" ] ]
+    Identity                  `noun`    {- qAbiyl -}           [ "" {- "Qabil" -}, "" {- "Cain" -} ] ]
 
  |> "qAdrUf" <| [
 
     -- ;; qAdruwf_1
     -- qAdrwf  qAdruwf Nprop   Kadyrov
 
-    Identity                  `noun`    {- qAdruwf -}          [ "Kadyrov" ] ]
+    Identity                  `noun`    {- qAdruwf -}          [ "" {- "Kadyrov" -} ] ]
 
  |> "qAnA" <| [
 
     -- ;; qAnA_1
     -- qAnA    qAnA    N0      Qana
 
-    Identity                  `noun`    {- qAnA -}             [ "Qana" ] ]
+    Identity                  `noun`    {- qAnA -}             [ "" {- "Qana" -} ] ]
 
  |> "qAqull" <| [
 
@@ -15043,7 +15051,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qiymariy~_1
     -- qymry   qiymariy~       N0      Qimari
 
-    Identity |< Iy            `adj`     {- qiymariy~ -}        [ "Qimari" ] ]
+    Identity |< Iy            `adj`     {- qiymariy~ -}        [ "" {- "Qimari" -} ] ]
 
  |> "qUmandAn" <| [
 
@@ -15064,7 +15072,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; quwquroyAl_1
     -- qwqryAl quwquroyAl      Nprop   Gogorial (Gorgorial??)
 
-    Identity                  `noun`    {- quwquroyAl -}       [ unwords [ "Gogorial", "(", "Gorgorial", "?", "?", ")" ] ] ]
+    Identity                  `noun`    {- quwquroyAl -}       [ unwords [ "" {- "Gogorial" -}, "(", "" {- "Gorgorial" -}, "?", "?", ")" ] ] ]
 
  |> "qUrInA'" <| [
 
@@ -15072,7 +15080,7 @@ lexicon = listing "Lexicon's properties"
     -- qwrynA}y        quwriynA}iy~    Nall    Cyrenaic     [[quwriynA}iy~/NOUN]]
     -- qwrynA}y        quwriynA}iy~    Nall    Cyrenaic     [[quwriynA}iy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- quwriynA}iy~ -}     [ "Cyrenaic" ] ]
+    Identity |< Iy            `adj`     {- quwriynA}iy~ -}     [ "" {- "Cyrenaic" -} ] ]
 
  |> "qa.tar^g" <| [
 
@@ -15123,7 +15131,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qad~uwmiy_1
     -- qdwmy   qad~uwmiy       N0      Qaddumi;Qaddoumi;Kaddumi;Kaddoumi
 
-    Identity                  `noun`    {- qad~uwmiy -}        [ "Qaddumi", "Qaddoumi", "Kaddumi", "Kaddoumi" ] ]
+    Identity                  `noun`    {- qad~uwmiy -}        [ "" {- "Qaddumi" -}, "" {- "Qaddoumi" -}, "" {- "Kaddumi" -}, "" {- "Kaddoumi" -} ] ]
 
  |> "qahqarY" <| [
 
@@ -15170,7 +15178,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qalAyiydih_1
     -- qlAyydh qalAyiydih      Nprop   Galaydeh
 
-    Identity                  `noun`    {- qalAyiydih -}       [ "Galaydeh" ] ]
+    Identity                  `noun`    {- qalAyiydih -}       [ "" {- "Galaydeh" -} ] ]
 
  |> "qalandAr" <| [
 
@@ -15190,7 +15198,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qalanosuwap_2
     -- qlnsw   qalanosuw       Nap     Qalansua
 
-    Identity |< aT            `noun`    {- qalanosuwap -}      [ "Qalansua" ] ]
+    Identity |< aT            `noun`    {- qalanosuwap -}      [ "" {- "Qalansua" -} ] ]
 
  |> "qallamA" <| [
 
@@ -15205,7 +15213,7 @@ lexicon = listing "Lexicon's properties"
     -- qlqylyp qaloqiyliyap    N0      Qalqilya
     -- qlqylyA qaloqiyliyA     N0      Qalqilya
 
-    Identity |< aT            `noun`    {- qaloqiyliyap -}     [ "Qalqilya" ] ]
+    Identity |< aT            `noun`    {- qaloqiyliyap -}     [ "" {- "Qalqilya" -} ] ]
 
  |> "qan.tarm" <| [
 
@@ -15219,19 +15227,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; qanodahAr_1
     -- qndhAr  qanodahAr       N0      Kandahar;Qandahar
 
-    Identity                  `noun`    {- qanodahAr -}        [ "Kandahar", "Qandahar" ],
+    Identity                  `noun`    {- qanodahAr -}        [ "" {- "Kandahar" -}, "" {- "Qandahar" -} ],
 
     -- ;; qanodahAriy~_1
     -- qndhAry qanodahAriy~    Nall    from/of Kandahar     [[qanodahAriy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- qanodahAriy~ -}     [ unwords [ "from", "/", "of", "Kandahar" ] ] ]
+    Identity |< Iy            `adj`     {- qanodahAriy~ -}     [ unwords [ "from", "/", "of", "" {- "Kandahar" -} ] ] ]
 
  |> "qandalaft" <| [
 
     -- ;; qanodalafot_1
     -- qndlft  qanodalafot     Nprop   Qandalaft
 
-    Identity                  `noun`    {- qanodalafot -}      [ "Qandalaft" ],
+    Identity                  `noun`    {- qanodalafot -}      [ "" {- "Qandalaft" -} ],
 
     -- ;; qanodalafot_2
     -- qndlft  qanodalafot     N       sexton;sacristan
@@ -15249,7 +15257,7 @@ lexicon = listing "Lexicon's properties"
     -- qrTAjnp qaroTAjan~ap    Nprop   Cartagena;Carthage
     -- qrTjnp  qaroTajan~ap    Nprop   Cartagena;Carthage
 
-    Identity |< aT            `noun`    {- qaroTAjan~ap -}     [ "Cartagena", "Carthage" ] ]
+    Identity |< aT            `noun`    {- qaroTAjan~ap -}     [ "" {- "Cartagena" -}, "" {- "Carthage" -} ] ]
 
  |> "qarAniyA" <| [
 
@@ -15270,7 +15278,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qaraDAwiy~_1
     -- qrDAwy  qaraDAwiy~      N0      Qaradawi
 
-    Identity |< Iy            `adj`     {- qaraDAwiy~ -}       [ "Qaradawi" ] ]
+    Identity |< Iy            `adj`     {- qaraDAwiy~ -}       [ "" {- "Qaradawi" -} ] ]
 
  |> "qarabIn" <| [
 
@@ -15307,7 +15315,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qaranoq_1
     -- qrnq    qaranoq Nprop   Garang
 
-    Identity                  `noun`    {- qaranoq -}          [ "Garang" ] ]
+    Identity                  `noun`    {- qaranoq -}          [ "" {- "Garang" -} ] ]
 
  |> "qaraqUl" <| [
 
@@ -15344,14 +15352,14 @@ lexicon = listing "Lexicon's properties"
     -- qrwATy  qaruwATiy~      Nall    Croatian     [[qaruwATiy~/NOUN]]
     -- qrwATy  qaruwATiy~      Nall    Croatian     [[qaruwATiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- qaruwATiy~ -}       [ "Croatian" ] ]
+    Identity |< Iy            `adj`     {- qaruwATiy~ -}       [ "" {- "Croatian" -} ] ]
 
  |> "qaruwA.tiyA" <| [
 
     -- ;; qaruwATiyA_1
     -- qrwATyA qaruwATiyA      N0      Croatia
 
-    Identity                  `noun`    {- qaruwATiyA -}       [ "Croatia" ] ]
+    Identity                  `noun`    {- qaruwATiyA -}       [ "" {- "Croatia" -} ] ]
 
  |> "qawlan^g" <| [
 
@@ -15372,7 +15380,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qayorawAn_1
     -- qyrwAn  qayorawAn       N       Kairouan
 
-    Identity                  `noun`    {- qayorawAn -}        [ "Kairouan" ],
+    Identity                  `noun`    {- qayorawAn -}        [ "" {- "Kairouan" -} ],
 
     -- ;; qayorawAn_2
     -- qyrwAn  qayorawAn       NduAt   caravan
@@ -15384,7 +15392,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qayowayon_1
     -- qywyn   qayowayon       N0      Qaiwain
 
-    Identity                  `noun`    {- qayowayon -}        [ "Qaiwain" ] ]
+    Identity                  `noun`    {- qayowayon -}        [ "" {- "Qaiwain" -} ] ]
 
  |> "qima.tr" <| [
 
@@ -15412,20 +15420,20 @@ lexicon = listing "Lexicon's properties"
     -- ;; qirogiyzostAn_1
     -- qrgyzstAn       qirogiyzostAn   N0      Kyrgyzstan
 
-    Identity                  `noun`    {- qirogiyzostAn -}    [ "Kyrgyzstan" ],
+    Identity                  `noun`    {- qirogiyzostAn -}    [ "" {- "Kyrgyzstan" -} ],
 
     -- ;; qirogiyzostAniy~_1
     -- qrgyzstAny      qirogiyzostAniy~        Nall    Kyrgyzstani     [[qirogiyzostAniy~/NOUN]]
     -- qrgyzstAny      qirogiyzostAniy~        Nall    Kyrgyzstani     [[qirogiyzostAniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- qirogiyzostAniy~ -} [ "Kyrgyzstani" ] ]
+    Identity |< Iy            `adj`     {- qirogiyzostAniy~ -} [ "" {- "Kyrgyzstani" -} ] ]
 
  |> "qirIm" <| [
 
     -- ;; qiriym_1
     -- qrym    qiriym  N       Crimea
 
-    Identity                  `noun`    {- qiriym -}           [ "Crimea" ] ]
+    Identity                  `noun`    {- qiriym -}           [ "" {- "Crimea" -} ] ]
 
  |> "qirillY" <| [
 
@@ -15439,7 +15447,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qruwj_1
     -- qrwj    qrwj    N0      Geurrouj
 
-    Identity                  `noun`    {- qruwj -}            [ "Geurrouj" ] ]
+    Identity                  `noun`    {- qruwj -}            [ "" {- "Geurrouj" -} ] ]
 
  |> "qu.surmill" <| [
 
@@ -15528,19 +15536,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; qusoTanoTiyn_1
     -- qsTnTyn qusoTanoTiyn    N0      Constantine
 
-    Identity                  `noun`    {- qusoTanoTiyn -}     [ "Constantine" ],
+    Identity                  `noun`    {- qusoTanoTiyn -}     [ "" {- "Constantine" -} ],
 
     -- ;; qusoTanoTiyniy~ap_1
     -- qsTnTynyp       qusoTanoTiyniy~ap       Nprop   Constantinople
 
-    Identity |< Iy |< aT      `noun`    {- qusoTanoTiyniy~ap -} [ "Constantinople" ] ]
+    Identity |< Iy |< aT      `noun`    {- qusoTanoTiyniy~ap -} [ "" {- "Constantinople" -} ] ]
 
  |> "qusan.tIn" <| [
 
     -- ;; qusanoTiynap_1
     -- qsnTynp qusanoTiynap    Nprop   Constantine
 
-    Identity |< aT            `noun`    {- qusanoTiynap -}     [ "Constantine" ] ]
+    Identity |< aT            `noun`    {- qusanoTiynap -}     [ "" {- "Constantine" -} ] ]
 
  |> "qusan.tin" <| [
 
@@ -15548,21 +15556,21 @@ lexicon = listing "Lexicon's properties"
     -- qsnTny  qusanoTiniy~    Nall    from/of Constantine     [[qusanoTiniy~/ADJ]]
     -- qsnTyny qusanoTiyniy~   Nall    from/of Constantine     [[qusanoTiyniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- qusanoTiniy~ -}     [ unwords [ "from", "/", "of", "Constantine" ] ] ]
+    Identity |< Iy            `adj`     {- qusanoTiniy~ -}     [ unwords [ "from", "/", "of", "" {- "Constantine" -} ] ] ]
 
  |> "quwatl" <| [
 
     -- ;; quwatoliy~_1
     -- qwtly   quwatoliy~      N0      Quwatli
 
-    Identity |< Iy            `adj`     {- quwatoliy~ -}       [ "Quwatli" ] ]
+    Identity |< Iy            `adj`     {- quwatoliy~ -}       [ "" {- "Quwatli" -} ] ]
 
  |> "quwaysim" <| [
 
     -- ;; quwayosimap_1
     -- qwysmp  quwayosimap     N0      Quweisma
 
-    Identity |< aT            `noun`    {- quwayosimap -}      [ "Quweisma" ] ]
+    Identity |< aT            `noun`    {- quwayosimap -}      [ "" {- "Quweisma" -} ] ]
 
  |> "quzmU.grAf" <| [
 

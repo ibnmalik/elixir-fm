@@ -23,20 +23,20 @@ lexicon = listing "Lexicon's properties"
     -- <frnj   <iforanoj       N       westerners;Europeans
     -- Afrnj   <iforanoj       N       westerners;Europeans
 
-    Identity                  `noun`    {- Iiforanoj -}        [ "westerners", "Europeans" ],
+    Identity                  `noun`    {- Iiforanoj -}        [ "westerners", "" {- "Europeans" -} ],
 
     -- ;; <iforanojiy~_1
     -- <frnjy  <iforanojiy~    Nall    westerner;European     [[<iforanojiy~/NOUN]]
     -- Afrnjy  <iforanojiy~    Nall    westerner;European     [[<iforanojiy~/NOUN]]
     -- frnj    faranoj Nap     westerners;Europeans
 
-    Identity |< Iy            `noun`    {- Iiforanojiy~ -}     [ "westerner", "European" ],
+    Identity |< Iy            `noun`    {- Iiforanojiy~ -}     [ "westerner", "" {- "European" -} ],
 
     -- ;; <iforanojiy~_2
     -- <frnjy  <iforanojiy~    Nall    westerner;European     [[<iforanojiy~/ADJ]]
     -- Afrnjy  <iforanojiy~    Nall    westerner;European     [[<iforanojiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- Iiforanojiy~ -}     [ "westerner", "European" ] ]
+    Identity |< Iy            `adj`     {- Iiforanojiy~ -}     [ "westerner", "" {- "European" -} ] ]
 
  |> "'uf`uwAn" <| [
 
@@ -133,8 +133,9 @@ lexicon = listing "Lexicon's properties"
     -- Af&l    >afo&ul N       good omens;auspicious signs
 
     FaCL                      `noun`    {- faOol -}            [ unwords [ "good", "omen" ], unwords [ "auspicious", "sign" ] ]
+                              `plural`     HaFCuL
                               `plural`     FuCUL
-                           {- `others`  [ "fu'uwl N" ] -},
+                           {- `others`  [ "'af'ul N", "fu'uwl N" ] -},
 
     -- ;; tafA&ul_1
     -- tfA&l   tafA&ul N/At    optimism
@@ -230,7 +231,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- faOos -}            [ "hatchet", "ax", "hoe" ]
                               `plural`     FuCUL
-                           {- `others`  [ "fu'uws N" ] -},
+                              `plural`     HaFCuL
+                           {- `others`  [ "fu'uws N", "'af'us N" ] -},
 
     -- ;; fAs_1
     -- fAs     fAs     N0      Fez;Fes
@@ -3635,11 +3637,11 @@ lexicon = listing "Lexicon's properties"
     FaCCaL                    `verb`    {- fad~an -}           [ "level" ],
 
     -- ;; fad~An_1
-    -- fdAn    fad~An  Ndu     feddan (4.2 sq.m., Ar.Eg.Sud.; 5.7 sq.m Lev.)
-    -- >fdn    >afodin Nap     feddans (1 feddan = 4.2 sq.m., Ar.Eg.Sud.; 5.7 sq.m Lev.)
-    -- Afdn    >afodin Nap     feddans (1 feddan = 4.2 sq.m., Ar.Eg.Sud.; 5.7 sq.m Lev.)
+    -- fdAn    fad~An  Ndu     feddan
+    -- >fdn    >afodin Nap     feddans
+    -- Afdn    >afodin Nap     feddans
 
-    FaCCAL                    `noun`    {- fad~An -}           [ unwords [ "feddan", "(", "4.2", "sq.m.,", "Ar.Eg.Sud." ], unwords [ "5.7", "sq.m", "Lev.", ")" ], unwords [ "feddans", "(", "1", "feddan", "=", "4.2", "sq.m.,", "Ar.Eg.Sud." ] ]
+    FaCCAL                    `noun`    {- fad~An -}           [ "feddan" ]
                               `plural`     HaFCiL |< aT,
 
     -- ;; fad~An_2
@@ -3821,8 +3823,9 @@ lexicon = listing "Lexicon's properties"
     -- Afhd    >afohud N       lynxes
 
     FaCL                      `noun`    {- fahod -}            [ "lynx" ]
+                              `plural`     HaFCuL
                               `plural`     FuCUL
-                           {- `others`  [ "fuhuwd N" ] -},
+                           {- `others`  [ "'afhud N", "fuhuwd N" ] -},
 
     -- ;; fuhayd_1
     -- fhyd    fuhayod N0      Fuhaid;Fuheid
@@ -7204,9 +7207,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- farox -}            [ "chicken", "hen" ]
                               `plural`     FaCaL |< At
+                              `plural`     HaFCuL
                               `plural`     FuCUL
                               `plural`     HaFCAL
-                           {- `others`  [ "furuw_h N", "'afrA_h N" ] -},
+                           {- `others`  [ "'afru_h N", "furuw_h N", "'afrA_h N" ] -},
 
     -- ;; firAx_1
     -- frAx    firAx   N       poultry
@@ -7985,9 +7989,9 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "mafAriq Ndip" ] -},
 
     -- ;; maforaq_1
-    -- mfrq    maforaq N       Mafraq (Jor.)
+    -- mfrq    maforaq N       Mafraq
 
-    MaFCaL                    `noun`    {- maforaq -}          [ unwords [ "Mafraq", "(", "Jor.", ")" ] ],
+    MaFCaL                    `noun`    {- maforaq -}          [ "Mafraq" ],
 
     -- ;; miforaq_1
     -- mfrq    miforaq N       potentiometer
@@ -11566,7 +11570,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; fAjobAyiy_1
     -- fAjbAyy fAjobAyiy       Nprop   Vajpayee
 
-    Identity                  `noun`    {- fAjobAyiy -}        [ "Vajpayee" ] ]
+    Identity                  `noun`    {- fAjobAyiy -}        [ "" {- "Vajpayee" -} ] ]
 
  |> "fA^sist" <| [
 
@@ -11598,7 +11602,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; fAhAniyn_1
     -- fAhAnyn fAhAniyn        Nprop   Vahanen
 
-    Identity                  `noun`    {- fAhAniyn -}         [ "Vahanen" ] ]
+    Identity                  `noun`    {- fAhAniyn -}         [ "" {- "Vahanen" -} ] ]
 
  |> "fAkihAn" <| [
 
@@ -11619,7 +11623,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; fAliyriy_1
     -- fAlyry  fAliyriy        Nprop   Valerie;Valery
 
-    Identity                  `noun`    {- fAliyriy -}         [ "Valerie", "Valery" ] ]
+    Identity                  `noun`    {- fAliyriy -}         [ "" {- "Valerie" -}, "" {- "Valery" -} ] ]
 
  |> "fAlU_da^g" <| [
 
@@ -11633,21 +11637,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; fAljAn_1
     -- fAljAn  fAlojAn Nprop   Valjean
 
-    Identity                  `noun`    {- fAljAn -}           [ "Valjean" ] ]
+    Identity                  `noun`    {- fAljAn -}           [ "" {- "Valjean" -} ] ]
 
  |> "fAlinsiyA" <| [
 
     -- ;; fAlinosiyA_1
     -- fAlnsyA fAlinosiyA      Nprop   Valencia
 
-    Identity                  `noun`    {- fAlinosiyA -}       [ "Valencia" ] ]
+    Identity                  `noun`    {- fAlinosiyA -}       [ "" {- "Valencia" -} ] ]
 
  |> "fAltz" <| [
 
     -- ;; fAltz_1
     -- fAltz   fAltz   Nprop   Waltz
 
-    Identity                  `noun`    {- fAltz -}            [ "Waltz" ] ]
+    Identity                  `noun`    {- fAltz -}            [ "" {- "Waltz" -} ] ]
 
  |> "fAnIsA" <| [
 
@@ -11655,7 +11659,7 @@ lexicon = listing "Lexicon's properties"
     -- fAnysA  fAniysA Nprop   Vanessa
     -- fAnyk   fAniyk  Nprop   Vanek
 
-    Identity                  `noun`    {- fAniysA -}          [ "Vanessa", "Vanek" ] ]
+    Identity                  `noun`    {- fAniysA -}          [ "" {- "Vanessa" -}, "" {- "Vanek" -} ] ]
 
  |> "fAnill" <| [
 
@@ -11672,14 +11676,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; fArogAs_1
     -- fArgAs  fArogAs N0      Vargas
 
-    Identity                  `noun`    {- fArogAs -}          [ "Vargas" ] ]
+    Identity                  `noun`    {- fArogAs -}          [ "" {- "Vargas" -} ] ]
 
  |> "fArsUfiyA" <| [
 
     -- ;; fArsuwfiyA_1
     -- fArswfyA        fArsuwfiyA      Nprop   Warsaw
 
-    Identity                  `noun`    {- fArsuwfiyA -}       [ "Warsaw" ] ]
+    Identity                  `noun`    {- fArsuwfiyA -}       [ "" {- "Warsaw" -} ] ]
 
  |> "fAsiyA'" <| [
 
@@ -11695,21 +11699,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; fAsokiyz_1
     -- fAskyz  fAsokiyz        Nprop   Vasquez
 
-    Identity                  `noun`    {- fAsokiyz -}         [ "Vasquez" ] ]
+    Identity                  `noun`    {- fAsokiyz -}         [ "" {- "Vasquez" -} ] ]
 
  |> "fAskU" <| [
 
     -- ;; fAsokuw_1
     -- fAskw   fAsokuw Nprop   Vasco
 
-    Identity                  `noun`    {- fAsokuw -}          [ "Vasco" ] ]
+    Identity                  `noun`    {- fAsokuw -}          [ "" {- "Vasco" -} ] ]
 
  |> "fAtIkAn" <| [
 
     -- ;; fAtiykAn_1
     -- fAtykAn fAtiykAn        N0      Vatican
 
-    Identity                  `noun`    {- fAtiykAn -}         [ "Vatican" ] ]
+    Identity                  `noun`    {- fAtiykAn -}         [ "" {- "Vatican" -} ] ]
 
  |> "fAtrIn" <| [
 
@@ -11723,14 +11727,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; fAwsotiynuw_1
     -- fAwstynw        fAwsotiynuw     N0      Faustino
 
-    Identity                  `noun`    {- fAwsotiynuw -}      [ "Faustino" ] ]
+    Identity                  `noun`    {- fAwsotiynuw -}      [ "" {- "Faustino" -} ] ]
 
  |> "fAwstU" <| [
 
     -- ;; fAwstuw_1
     -- fAwstw  fAwstuw N0      Fausto
 
-    Identity                  `noun`    {- fAwstuw -}          [ "Fausto" ] ]
+    Identity                  `noun`    {- fAwstuw -}          [ "" {- "Fausto" -} ] ]
 
  |> "fAyi.z^g" <| [
 
@@ -11744,21 +11748,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; fAyomar_1
     -- fAymr   fAyomar N0      Weimar
 
-    Identity                  `noun`    {- fAyomar -}          [ "Weimar" ] ]
+    Identity                  `noun`    {- fAyomar -}          [ "" {- "Weimar" -} ] ]
 
  |> "fAynAn^sAl" <| [
 
     -- ;; fAynAn$Al_1
     -- fAynAn$Al       fAynAn$Al       N0      Financial
 
-    Identity                  `noun`    {- fAynAn$Al -}        [ "Financial" ] ]
+    Identity                  `noun`    {- fAynAn$Al -}        [ "" {- "Financial" -} ] ]
 
  |> "fAys.gls" <| [
 
     -- ;; fAysgls_1
     -- fAysgls fAysgls Nprop   Weisglas;Weissglas
 
-    Identity                  `noun`    {- fAysgls -}          [ "Weisglas", "Weissglas" ] ]
+    Identity                  `noun`    {- fAysgls -}          [ "" {- "Weisglas" -}, "" {- "Weissglas" -} ] ]
 
  |> "fAzlIn" <| [
 
@@ -11772,28 +11776,28 @@ lexicon = listing "Lexicon's properties"
     -- ;; fiyguw_1
     -- fygw    fiyguw  Nprop   Figo
 
-    Identity                  `noun`    {- fiyguw -}           [ "Figo" ] ]
+    Identity                  `noun`    {- fiyguw -}           [ "" {- "Figo" -} ] ]
 
  |> "fI^gIstI" <| [
 
     -- ;; fiyjiysotiy_1
     -- fyjysty fiyjiysotiy     Nprop   Vijesti
 
-    Identity                  `noun`    {- fiyjiysotiy -}      [ "Vijesti" ] ]
+    Identity                  `noun`    {- fiyjiysotiy -}      [ "" {- "Vijesti" -} ] ]
 
  |> "fI_tA.gUras" <| [
 
     -- ;; fiyvAguwras_1
     -- fyvAgwrs        fiyvAguwras     N0      Pythagoras
 
-    Identity                  `noun`    {- fiyvAguwras -}      [ "Pythagoras" ] ]
+    Identity                  `noun`    {- fiyvAguwras -}      [ "" {- "Pythagoras" -} ] ]
 
  |> "fIdAkUfIt^s" <| [
 
     -- ;; fiydAkuwfiyt$_1
     -- fydAkwfyt$      fiydAkuwfiyt$   N0      Vedakovic
 
-    Identity                  `noun`    {- fiydAkuwfiyt$ -}    [ "Vedakovic" ] ]
+    Identity                  `noun`    {- fiydAkuwfiyt$ -}    [ "" {- "Vedakovic" -} ] ]
 
  |> "fId^g" <| [
 
@@ -11801,7 +11805,7 @@ lexicon = listing "Lexicon's properties"
     -- fydjy   fiydojiy~       Nall    Fijian     [[fiydojiy~/ADJ]]
     -- fyjy    fiyjiy~ Nall    Fijian     [[fiydojiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- fiydojiy~ -}        [ "Fijian" ] ]
+    Identity |< Iy            `adj`     {- fiydojiy~ -}        [ "" {- "Fijian" -} ] ]
 
  |> "fId^gI" <| [
 
@@ -11809,7 +11813,7 @@ lexicon = listing "Lexicon's properties"
     -- fydjy   fiydojiy        Nprop   Fiji
     -- fyjy    fiyjiy  Nprop   Fiji
 
-    Identity                  `noun`    {- fiydojiy -}         [ "Fiji" ] ]
+    Identity                  `noun`    {- fiydojiy -}         [ "" {- "Fiji" -} ] ]
 
  |> "fIdirAl" <| [
 
@@ -11823,14 +11827,14 @@ lexicon = listing "Lexicon's properties"
     -- fydyrAly        fiydiyrAliy~    Nall    Federal     [[fiydiyrAliy~/NOUN]]
     -- fydyrAly        fiydiyrAliy~    Nall    Federal     [[fiydiyrAliy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- fiydirAliy~ -}      [ "Federal" ] ]
+    Identity |< Iy            `adj`     {- fiydirAliy~ -}      [ "" {- "Federal" -} ] ]
 
  |> "fIdrIn" <| [
 
     -- ;; fiydoriyn_1
     -- fydryn  fiydoriyn       Nprop   Vedrine
 
-    Identity                  `noun`    {- fiydoriyn -}        [ "Vedrine" ] ]
+    Identity                  `noun`    {- fiydoriyn -}        [ "" {- "Vedrine" -} ] ]
 
  |> "fIdyU" <| [
 
@@ -11845,21 +11849,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; fiyfA_1
     -- fyfA    fiyfA   N0      FIFA (Federation Internationale de Football Association)
 
-    Identity                  `noun`    {- fiyfA -}            [ unwords [ "FIFA", "(", "Federation", "Internationale", "de", "Football", "Association", ")" ] ] ]
+    Identity                  `noun`    {- fiyfA -}            [ unwords [ "" {- "FIFA" -}, "(", "" {- "Federation" -}, "" {- "Internationale" -}, "de", "" {- "Football" -}, "" {- "Association" -}, ")" ] ] ]
 
  |> "fIfrI" <| [
 
     -- ;; fiyfriy_1
     -- fyfry   fiyfriy N0      February
 
-    Identity                  `noun`    {- fiyfriy -}          [ "February" ] ]
+    Identity                  `noun`    {- fiyfriy -}          [ "" {- "February" -} ] ]
 
  |> "fIkUfIt^s" <| [
 
     -- ;; fiykuwfiyt$_1
     -- fykwfyt$        fiykuwfiyt$     Nprop   Vickovic
 
-    Identity                  `noun`    {- fiykuwfiyt$ -}      [ "Vickovic" ] ]
+    Identity                  `noun`    {- fiykuwfiyt$ -}      [ "" {- "Vickovic" -} ] ]
 
  |> "fIktUr" <| [
 
@@ -11867,41 +11871,41 @@ lexicon = listing "Lexicon's properties"
     -- fyktwr  fiykotuwr       Nprop   Victor;Viktor
     -- fktwr   fikotuwr        Nprop   Victor;Viktor
 
-    Identity                  `noun`    {- fiykotuwr -}        [ "Victor", "Viktor" ],
+    Identity                  `noun`    {- fiykotuwr -}        [ "" {- "Victor" -}, "" {- "Viktor" -} ],
 
     -- ;; fiykotuwriy~_1
     -- fyktwry fiykotuwriy~    Nall    Victorian     [[fiykotuwriy~/NOUN]]
     -- fyktwry fiykotuwriy~    Nall    Victorian     [[fiykotuwriy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- fiykotuwriy~ -}     [ "Victorian" ] ]
+    Identity |< Iy            `adj`     {- fiykotuwriy~ -}     [ "" {- "Victorian" -} ] ]
 
  |> "fIlAdilfiyA" <| [
 
     -- ;; fiylAdilofiyA_1
     -- fylAdlfyA       fiylAdilofiyA   N0      Philadelphia
 
-    Identity                  `noun`    {- fiylAdilofiyA -}    [ "Philadelphia" ] ]
+    Identity                  `noun`    {- fiylAdilofiyA -}    [ "" {- "Philadelphia" -} ] ]
 
  |> "fIlAnuwIfA" <| [
 
     -- ;; fiylAnuwiyfA_1
     -- fylAnwyfA       fiylAnuwiyfA    Nprop   Villanueva
 
-    Identity                  `noun`    {- fiylAnuwiyfA -}     [ "Villanueva" ] ]
+    Identity                  `noun`    {- fiylAnuwiyfA -}     [ "" {- "Villanueva" -} ] ]
 
  |> "fIlIbU" <| [
 
     -- ;; fiyliybuw_1
     -- fylybw  fiyliybuw       N0      Filippo
 
-    Identity                  `noun`    {- fiyliybuw -}        [ "Filippo" ] ]
+    Identity                  `noun`    {- fiyliybuw -}        [ "" {- "Filippo" -} ] ]
 
  |> "fIlIbUsIs" <| [
 
     -- ;; fiyliybuwsiys_1
     -- fylybwsys       fiyliybuwsiys   Nprop   Philippoussis
 
-    Identity                  `noun`    {- fiyliybuwsiys -}    [ "Philippoussis" ] ]
+    Identity                  `noun`    {- fiyliybuwsiys -}    [ "" {- "Philippoussis" -} ] ]
 
  |> "fIlIbbIn" <| [
 
@@ -11911,7 +11915,7 @@ lexicon = listing "Lexicon's properties"
     -- flybyn  filiyb~iyn      N0      Philippines
     -- flbyn   filib~iyn       N0      Philippines
 
-    Identity                  `noun`    {- fiyliyb~iyn -}      [ "Philippines" ],
+    Identity                  `noun`    {- fiyliyb~iyn -}      [ "" {- "Philippines" -} ],
 
     -- ;; fiyliyb~iyniy~_1
     -- fylybyny        fiyliyb~iyniy~  Nall    Philippine;Filipino     [[filiyb~iyniy~/NOUN]]
@@ -11923,21 +11927,21 @@ lexicon = listing "Lexicon's properties"
     -- flbyny  filib~iyniy~    Nall    Philippine;Filipino     [[filib~iyniy~/NOUN]]
     -- flbyny  filib~iyniy~    Nall    Philippine;Filipino     [[filib~iyniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- fiyliyb~iyniy~ -}   [ "Philippine", "Filipino" ] ]
+    Identity |< Iy            `adj`     {- fiyliyb~iyniy~ -}   [ "" {- "Philippine" -}, "" {- "Filipino" -} ] ]
 
  |> "fIlIbs" <| [
 
     -- ;; fiyliybs_1
     -- fylybs  fiyliybs        N0      Phillips;Philips
 
-    Identity                  `noun`    {- fiyliybs -}         [ "Phillips", "Philips" ] ]
+    Identity                  `noun`    {- fiyliybs -}         [ "" {- "Phillips" -}, "" {- "Philips" -} ] ]
 
  |> "fIlhilm" <| [
 
     -- ;; fiylohilom_1
     -- fylhlm  fiylohilom      Nprop   Wilhelm
 
-    Identity                  `noun`    {- fiylohilom -}       [ "Wilhelm" ] ]
+    Identity                  `noun`    {- fiylohilom -}       [ "" {- "Wilhelm" -} ] ]
 
  |> "fIllA" <| [
 
@@ -11947,7 +11951,7 @@ lexicon = listing "Lexicon's properties"
     -- fllA    filolA  Nprop   Villa
     -- fyllA   fylolA  Nprop   Villa
 
-    Identity                  `noun`    {- fiyl~A -}           [ "villa", "Villa" ] ]
+    Identity                  `noun`    {- fiyl~A -}           [ "villa", "" {- "Villa" -} ] ]
 
  |> "fIlm" <| [
 
@@ -11980,28 +11984,28 @@ lexicon = listing "Lexicon's properties"
     -- ;; fiymA_3
     -- fymA    fiymA   N0      FEMA (Federal Emergency Management Agency)
 
-    Identity                  `noun`    {- fiymA -}            [ unwords [ "FEMA", "(", "Federal", "Emergency", "Management", "Agency", ")" ] ] ]
+    Identity                  `noun`    {- fiymA -}            [ unwords [ "" {- "FEMA" -}, "(", "" {- "Federal" -}, "" {- "Emergency" -}, "" {- "Management" -}, "" {- "Agency" -}, ")" ] ] ]
 
  |> "fInIks" <| [
 
     -- ;; fiyniyks_1
     -- fynyks  fiyniyks        N0      Phoenix
 
-    Identity                  `noun`    {- fiyniyks -}         [ "Phoenix" ] ]
+    Identity                  `noun`    {- fiyniyks -}         [ "" {- "Phoenix" -} ] ]
 
  |> "fInIqiyA" <| [
 
     -- ;; fiyniyqiyA_1
     -- fynyqyA fiyniyqiyA      N0      Phoenicia
 
-    Identity                  `noun`    {- fiyniyqiyA -}       [ "Phoenicia" ] ]
+    Identity                  `noun`    {- fiyniyqiyA -}       [ "" {- "Phoenicia" -} ] ]
 
  |> "fIrIrU" <| [
 
     -- ;; fiyriyruw_1
     -- fyryrw  fiyriyruw       Nprop   Ferrero
 
-    Identity                  `noun`    {- fiyriyruw -}        [ "Ferrero" ] ]
+    Identity                  `noun`    {- fiyriyruw -}        [ "" {- "Ferrero" -} ] ]
 
  |> "fIrUza^g" <| [
 
@@ -12015,35 +12019,35 @@ lexicon = listing "Lexicon's properties"
     -- ;; fiyrojiyniyA_1
     -- fyrjynyA        fiyrojiyniyA    Nprop   Virginia
 
-    Identity                  `noun`    {- fiyrojiyniyA -}     [ "Virginia" ] ]
+    Identity                  `noun`    {- fiyrojiyniyA -}     [ "" {- "Virginia" -} ] ]
 
  |> "fIrdir" <| [
 
     -- ;; fiyrodir_1
     -- fyrdr   fiyrodir        Nprop   Pferder
 
-    Identity                  `noun`    {- fiyrodir -}         [ "Pferder" ] ]
+    Identity                  `noun`    {- fiyrodir -}         [ "" {- "Pferder" -} ] ]
 
  |> "fIrink" <| [
 
     -- ;; fiyrinok_1
     -- fyrnk   fiyrinok        Nprop   Ferenc
 
-    Identity                  `noun`    {- fiyrinok -}         [ "Ferenc" ] ]
+    Identity                  `noun`    {- fiyrinok -}         [ "" {- "Ferenc" -} ] ]
 
  |> "fIrnir" <| [
 
     -- ;; fiyronir_1
     -- fyrnr   fiyronir        Nprop   Werner
 
-    Identity                  `noun`    {- fiyronir -}         [ "Werner" ] ]
+    Identity                  `noun`    {- fiyronir -}         [ "" {- "Werner" -} ] ]
 
  |> "fItAlI" <| [
 
     -- ;; fiytAliy_1
     -- fytAly  fiytAliy        Nprop   Vitale
 
-    Identity                  `noun`    {- fiytAliy -}         [ "Vitale" ] ]
+    Identity                  `noun`    {- fiytAliy -}         [ "" {- "Vitale" -} ] ]
 
  |> "fItAmIn" <| [
 
@@ -12066,7 +12070,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; fiyt$anozA_1
     -- fyt$nzA fiyt$anozA      Nprop   Vicenza
 
-    Identity                  `noun`    {- fiyt$anozA -}       [ "Vicenza" ] ]
+    Identity                  `noun`    {- fiyt$anozA -}       [ "" {- "Vicenza" -} ] ]
 
  |> "fIzA" <| [
 
@@ -12104,21 +12108,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; fuwgts_1
     -- fwgts   fuwgts  Nprop   Vogts
 
-    Identity                  `noun`    {- fuwgts -}           [ "Vogts" ] ]
+    Identity                  `noun`    {- fuwgts -}           [ "" {- "Vogts" -} ] ]
 
  |> "fUks" <| [
 
     -- ;; fuwkos_1
     -- fwks    fuwkos  Nprop   Fox
 
-    Identity                  `noun`    {- fuwkos -}           [ "Fox" ] ]
+    Identity                  `noun`    {- fuwkos -}           [ "" {- "Fox" -} ] ]
 
  |> "fUlfU" <| [
 
     -- ;; fuwlofuw_1
     -- fwlfw   fuwlofuw        Nprop   Volvo
 
-    Identity                  `noun`    {- fuwlofuw -}         [ "Volvo" ] ]
+    Identity                  `noun`    {- fuwlofuw -}         [ "" {- "Volvo" -} ] ]
 
  |> "fUlklUr" <| [
 
@@ -12139,7 +12143,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; fuwlotA_1
     -- fwltA   fuwlotA N0      Volta
 
-    Identity                  `noun`    {- fuwlotA -}          [ "Volta" ] ]
+    Identity                  `noun`    {- fuwlotA -}          [ "" {- "Volta" -} ] ]
 
  |> "fUnU.grAf" <| [
 
@@ -12172,7 +12176,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; fuwromuwlA_1
     -- fwrmwlA fuwromuwlA      N0      Formula
 
-    Identity                  `noun`    {- fuwromuwlA -}       [ "Formula" ] ]
+    Identity                  `noun`    {- fuwromuwlA -}       [ "" {- "Formula" -} ] ]
 
  |> "fUsf" <| [
 
@@ -12221,7 +12225,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; fuwtosiy_1
     -- fwtsy   fuwtosiy        N0      FTSE (Financial Times Stock Exchange)
 
-    Identity                  `noun`    {- fuwtosiy -}         [ unwords [ "FTSE", "(", "Financial", "Times", "Stock", "Exchange", ")" ] ] ]
+    Identity                  `noun`    {- fuwtosiy -}         [ unwords [ "" {- "FTSE" -}, "(", "" {- "Financial" -}, "" {- "Times" -}, "" {- "Stock" -}, "" {- "Exchange" -}, ")" ] ] ]
 
  |> "fa.sUliyA" <| [
 
@@ -12238,21 +12242,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; faxorAldiyn_1
     -- fxrAldyn        faxorAldiyn     N0      Fakhr Eddin
 
-    Identity                  `noun`    {- faxorAldiyn -}      [ unwords [ "Fakhr", "Eddin" ] ] ]
+    Identity                  `noun`    {- faxorAldiyn -}      [ unwords [ "" {- "Fakhr" -}, "" {- "Eddin" -} ] ] ]
 
  |> "fa_hrU" <| [
 
     -- ;; faxoruw_1
     -- fxrw    faxoruw Nprop   Fakhrow
 
-    Identity                  `noun`    {- faxoruw -}          [ "Fakhrow" ] ]
+    Identity                  `noun`    {- faxoruw -}          [ "" {- "Fakhrow" -} ] ]
 
  |> "fadbAtAk" <| [
 
     -- ;; fadobAtAk_1
     -- fdbAtAk fadobAtAk       Nprop   Vedpathak
 
-    Identity                  `noun`    {- fadobAtAk -}        [ "Vedpathak" ] ]
+    Identity                  `noun`    {- fadobAtAk -}        [ "" {- "Vedpathak" -} ] ]
 
  |> "falamand" <| [
 
@@ -12260,7 +12264,7 @@ lexicon = listing "Lexicon's properties"
     -- flmndy  falamanodiy~    Nall    Flemish     [[falamanodiy~/NOUN]]
     -- flmndy  falamanodiy~    Nall    Flemish     [[falamanodiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- falamanodiy~ -}     [ "Flemish" ] ]
+    Identity |< Iy            `adj`     {- falamanodiy~ -}     [ "" {- "Flemish" -} ] ]
 
  |> "falamank" <| [
 
@@ -12268,7 +12272,7 @@ lexicon = listing "Lexicon's properties"
     -- flmnky  falamanokiy~    Nall    Netherlander     [[falamanokiy~/NOUN]]
     -- flmnky  falamanokiy~    Nall    Netherlander     [[falamanokiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- falamanokiy~ -}     [ "Netherlander" ] ]
+    Identity |< Iy            `adj`     {- falamanokiy~ -}     [ "" {- "Netherlander" -} ] ]
 
  |> "falank" <| [
 
@@ -12295,7 +12299,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; farArojiy~_2
     -- frArjy  farArojiy~      N0      Fararji
 
-    Identity |< Iy            `adj`     {- farArojiy~ -}       [ "Fararji" ] ]
+    Identity |< Iy            `adj`     {- farArojiy~ -}       [ "" {- "Fararji" -} ] ]
 
  |> "faran^g" <| [
 
@@ -12303,13 +12307,13 @@ lexicon = listing "Lexicon's properties"
     -- frnjy   faranojiy~      Nall    westerner;European     [[faranojiy~/NOUN]]
     -- frnjy   faranojiy~      Nall    westerner;European     [[faranojiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- faranojiy~ -}       [ "westerner", "European" ],
+    Identity |< Iy            `adj`     {- faranojiy~ -}       [ "westerner", "" {- "European" -} ],
 
     -- ;; faranojiy~_2
     -- frnjy   faranojiy~      Nall    Farengi     [[faranojiy~/NOUN]]
     -- frnjy   faranojiy~      Nall    Farengi     [[faranojiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- faranojiy~ -}       [ "Farengi" ] ]
+    Identity |< Iy            `adj`     {- faranojiy~ -}       [ "" {- "Farengi" -} ] ]
 
  |> "farand" <| [
 
@@ -12325,14 +12329,14 @@ lexicon = listing "Lexicon's properties"
     -- frnsy   faranosiy~      Nall    French     [[faranosiy~/ADJ]]
     -- frnsys  faranosiys      N0      French
 
-    Identity |< Iy            `adj`     {- faranosiy~ -}       [ "French" ] ]
+    Identity |< Iy            `adj`     {- faranosiy~ -}       [ "" {- "French" -} ] ]
 
  |> "faransA" <| [
 
     -- ;; faranosA_1
     -- frnsA   faranosA        N0      France
 
-    Identity                  `noun`    {- faranosA -}         [ "France" ] ]
+    Identity                  `noun`    {- faranosA -}         [ "" {- "France" -} ] ]
 
  |> "faransA'" <| [
 
@@ -12340,14 +12344,14 @@ lexicon = listing "Lexicon's properties"
     -- frnsAwy faranosAwiy~    Nall    French     [[faranosAwiy~/NOUN]]
     -- frnsAwy faranosAwiy~    Nall    French     [[faranosAwiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- faranosAwiy~ -}     [ "French" ] ]
+    Identity |< Iy            `adj`     {- faranosAwiy~ -}     [ "" {- "French" -} ] ]
 
  |> "faransIs" <| [
 
     -- ;; faranosiys_1
     -- frnsys  franosiys       N0      Francis
 
-    Identity                  `noun`    {- faranosiys -}       [ "Francis" ] ]
+    Identity                  `noun`    {- faranosiys -}       [ "" {- "Francis" -} ] ]
 
  |> "faransIskAn" <| [
 
@@ -12356,7 +12360,7 @@ lexicon = listing "Lexicon's properties"
     -- frnsyskAny      faranosiysokAniy~       Nall    Franciscan     [[faranosiysokAniy~/ADJ]]
     -- frnsyskAn       faranosiysokAn  N0      Franciscans
 
-    Identity |< Iy            `adj`     {- faranosiysokAniy~ -} [ "Franciscan" ] ]
+    Identity |< Iy            `adj`     {- faranosiysokAniy~ -} [ "" {- "Franciscan" -} ] ]
 
  |> "farmal^g" <| [
 
@@ -12377,7 +12381,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; farosuwfiyA_1
     -- frswfyA farosuwfiyA     N0      Warsaw
 
-    Identity                  `noun`    {- farosuwfiyA -}      [ "Warsaw" ] ]
+    Identity                  `noun`    {- farosuwfiyA -}      [ "" {- "Warsaw" -} ] ]
 
  |> "fasUliyA" <| [
 
@@ -12416,7 +12420,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; fiborAyir_1
     -- fbrAyr  fiborAyir       N0      February
 
-    Identity                  `noun`    {- fiborAyir -}        [ "February" ] ]
+    Identity                  `noun`    {- fiborAyir -}        [ "" {- "February" -} ] ]
 
  |> "fidirAl" <| [
 
@@ -12433,7 +12437,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; fidiriykuw_1
     -- fdrykw  fidiriykuw      Nprop   Federico
 
-    Identity                  `noun`    {- fidiriykuw -}       [ "Federico" ] ]
+    Identity                  `noun`    {- fidiriykuw -}       [ "" {- "Federico" -} ] ]
 
  |> "fiktUriyA" <| [
 
@@ -12441,7 +12445,7 @@ lexicon = listing "Lexicon's properties"
     -- fyktwryA        fiykotuwriyA    Nprop   Victoria
     -- fktwryA fikotuwriyA     Nprop   Victoria
 
-    Identity                  `noun`    {- fikotuwriyA -}      [ "Victoria" ] ]
+    Identity                  `noun`    {- fikotuwriyA -}      [ "" {- "Victoria" -} ] ]
 
  |> "filUr" <| [
 
@@ -12460,27 +12464,27 @@ lexicon = listing "Lexicon's properties"
     -- ;; filanodirap_1
     -- flndr   filanodir       Nap     Flanders
 
-    Identity |< aT            `noun`    {- filanodirap -}      [ "Flanders" ] ]
+    Identity |< aT            `noun`    {- filanodirap -}      [ "" {- "Flanders" -} ] ]
 
  |> "filas.tIn" <| [
 
     -- ;; filasoTiyn_1
     -- flsTyn  filasoTiyn      Ndip    Palestine
 
-    Identity                  `noun`    {- filasoTiyn -}       [ "Palestine" ],
+    Identity                  `noun`    {- filasoTiyn -}       [ "" {- "Palestine" -} ],
 
     -- ;; filasoTiyniy~_1
     -- flsTyny filasoTiyniy~   Nall    Palestinian     [[filasoTiyniy~/NOUN]]
     -- flsTyny filasoTiyniy~   Nall    Palestinian     [[filasoTiyniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- filasoTiyniy~ -}    [ "Palestinian" ] ]
+    Identity |< Iy            `adj`     {- filasoTiyniy~ -}    [ "" {- "Palestinian" -} ] ]
 
  |> "filas.tan" <| [
 
     -- ;; filasoTanap_1
     -- flsTn   filasoTan       Nap     Palestinization
 
-    Identity |< aT            `noun`    {- filasoTanap -}      [ "Palestinization" ] ]
+    Identity |< aT            `noun`    {- filasoTanap -}      [ "" {- "Palestinization" -} ] ]
 
  |> "filas.tin" <| [
 
@@ -12488,7 +12492,7 @@ lexicon = listing "Lexicon's properties"
     -- flsTny  filasoTiniy~    Nall    Palestinian     [[filasoTiniy~/NOUN]]
     -- flsTny  filasoTiniy~    Nall    Palestinian     [[filasoTiniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- filasoTiniy~ -}     [ "Palestinian" ] ]
+    Identity |< Iy            `adj`     {- filasoTiniy~ -}     [ "" {- "Palestinian" -} ] ]
 
  |> "filizz" <| [
 
@@ -12510,14 +12514,14 @@ lexicon = listing "Lexicon's properties"
     -- fnyqy   finiyqiy~       Nall    Phoenician     [[finiyqiy~/NOUN]]
     -- fnyqy   finiyqiy~       Nall    Phoenician     [[finiyqiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- finiyqiy~ -}        [ "Phoenician" ] ]
+    Identity |< Iy            `adj`     {- finiyqiy~ -}        [ "" {- "Phoenician" -} ] ]
 
  |> "finIqiyA" <| [
 
     -- ;; finiyqiyA_1
     -- fnyqyA  finiyqiyA       N0      Phoenicia
 
-    Identity                  `noun`    {- finiyqiyA -}        [ "Phoenicia" ] ]
+    Identity                  `noun`    {- finiyqiyA -}        [ "" {- "Phoenicia" -} ] ]
 
  |> "finizuwill" <| [
 
@@ -12529,7 +12533,7 @@ lexicon = listing "Lexicon's properties"
     -- fnzwylly        finizowiyloliy~ Nall    Venezuelan     [[finizowiyloliy~/NOUN]]
     -- fnzwylly        finizowiyloliy~ Nall    Venezuelan     [[finizowiyloliy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- finizuwil~iy~ -}    [ "Venezuelan" ] ]
+    Identity |< Iy            `adj`     {- finizuwil~iy~ -}    [ "" {- "Venezuelan" -} ] ]
 
  |> "finizuwillA" <| [
 
@@ -12538,7 +12542,7 @@ lexicon = listing "Lexicon's properties"
     -- fnzwylA finizowiyl~A    N0      Venezuela
     -- fnzwyllA        finizowiylolA   N0      Venezuela
 
-    Identity                  `noun`    {- finizuwil~A -}      [ "Venezuela" ] ]
+    Identity                  `noun`    {- finizuwil~A -}      [ "" {- "Venezuela" -} ] ]
 
  |> "finland" <| [
 
@@ -12546,14 +12550,14 @@ lexicon = listing "Lexicon's properties"
     -- fnlndy  finolanodiy~    Nall    Finnish     [[finolanodiy~/NOUN]]
     -- fnlndy  finolanodiy~    Nall    Finnish     [[finolanodiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- finolanodiy~ -}     [ "Finnish" ] ]
+    Identity |< Iy            `adj`     {- finolanodiy~ -}     [ "" {- "Finnish" -} ] ]
 
  |> "finlandA" <| [
 
     -- ;; finolanodA_1
     -- fnlndA  finolanodA      N0      Finland
 
-    Identity                  `noun`    {- finolanodA -}       [ "Finland" ] ]
+    Identity                  `noun`    {- finolanodA -}       [ "" {- "Finland" -} ] ]
 
  |> "fir^gan" <| [
 
@@ -12575,18 +12579,18 @@ lexicon = listing "Lexicon's properties"
     -- frEwn   firoEawon       Ndu     Pharaoh
     -- frAEn   farAEin Nap     Pharaohs
 
-    Identity                  `noun`    {- firoEawon -}        [ "Pharaoh" ],
+    Identity                  `noun`    {- firoEawon -}        [ "" {- "Pharaoh" -} ],
 
     -- ;; firoEawon_2
     -- frEwn   firoEawon       N0      Firaun;Firoun
 
-    Identity                  `noun`    {- firoEawon -}        [ "Firaun", "Firoun" ],
+    Identity                  `noun`    {- firoEawon -}        [ "" {- "Firaun" -}, "" {- "Firoun" -} ],
 
     -- ;; firoEawoniy~_1
     -- frEwny  firoEawoniy~    Nall    Pharaonic     [[firoEawoniy~/NOUN]]
     -- frEwny  firoEawoniy~    Nall    Pharaonic     [[firoEawoniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- firoEawoniy~ -}     [ "Pharaonic" ] ]
+    Identity |< Iy            `adj`     {- firoEawoniy~ -}     [ "" {- "Pharaonic" -} ] ]
 
  |> "firank" <| [
 
@@ -12602,7 +12606,7 @@ lexicon = listing "Lexicon's properties"
     -- frdynAnd        firodiynAnod    N0      Ferdinand
     -- frdnAnd firodinAnod     N0      Ferdinand
 
-    Identity                  `noun`    {- firodiynAnod -}     [ "Ferdinand" ] ]
+    Identity                  `noun`    {- firodiynAnod -}     [ "" {- "Ferdinand" -} ] ]
 
  |> "firdaws" <| [
 
@@ -12622,7 +12626,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; firodawosiy_1
     -- frdwsy  firodawosiy     N0      Ferdosi
 
-    Identity                  `noun`    {- firodawosiy -}      [ "Ferdosi" ] ]
+    Identity                  `noun`    {- firodawosiy -}      [ "" {- "Ferdosi" -} ] ]
 
  |> "firind" <| [
 
@@ -12637,14 +12641,14 @@ lexicon = listing "Lexicon's properties"
     -- frnAndyz        fironAnodiyz    Nprop   Fernandez
     -- frnAndz fironAnodiz     Nprop   Fernandez
 
-    Identity                  `noun`    {- fironAnodiyz -}     [ "Fernandez" ] ]
+    Identity                  `noun`    {- fironAnodiyz -}     [ "" {- "Fernandez" -} ] ]
 
  |> "firnAndU" <| [
 
     -- ;; fironAnoduw_1
     -- frnAndw fironAnoduw     Nprop   Fernando
 
-    Identity                  `noun`    {- fironAnoduw -}      [ "Fernando" ] ]
+    Identity                  `noun`    {- fironAnoduw -}      [ "" {- "Fernando" -} ] ]
 
  |> "fisyUlU^gIy" <| [
 
@@ -12680,28 +12684,28 @@ lexicon = listing "Lexicon's properties"
     -- fyAgrA  fiyAgrA N0      Viagra
     -- fyAjrA  fiyAjrA N0      Viagra
 
-    Identity                  `noun`    {- fiyAgrA -}          [ "Viagra" ] ]
+    Identity                  `noun`    {- fiyAgrA -}          [ "" {- "Viagra" -} ] ]
 
  |> "fiyAkUm" <| [
 
     -- ;; fiyAkuwm_1
     -- fyAkwm  fiyAkuwm        Nprop   Viacom
 
-    Identity                  `noun`    {- fiyAkuwm -}         [ "Viacom" ] ]
+    Identity                  `noun`    {- fiyAkuwm -}         [ "" {- "Viacom" -} ] ]
 
  |> "fiyAllI" <| [
 
     -- ;; fiyAlliy_1
     -- fyAlly  fiyAlly Nprop   Vialli
 
-    Identity                  `noun`    {- fiyAlliy -}         [ "Vialli" ] ]
+    Identity                  `noun`    {- fiyAlliy -}         [ "" {- "Vialli" -} ] ]
 
  |> "fiyInnA" <| [
 
     -- ;; fiyiyn~A_1
     -- fyynA   fiyiyn~A        N0      Vienna
 
-    Identity                  `noun`    {- fiyiyn~A -}         [ "Vienna" ] ]
+    Identity                  `noun`    {- fiyiyn~A -}         [ "" {- "Vienna" -} ] ]
 
  |> "fiyUlunt^sillU" <| [
 
@@ -12716,27 +12720,27 @@ lexicon = listing "Lexicon's properties"
     -- fywmyt$ynw      fiyuwmiyt$iynuw N0      Fiumicino
     -- fywmy$ynw       fiyuwmiy$iynuw  N0      Fiumicino
 
-    Identity                  `noun`    {- fiyuwmiyt$iynuw -}  [ "Fiumicino" ] ]
+    Identity                  `noun`    {- fiyuwmiyt$iynuw -}  [ "" {- "Fiumicino" -} ] ]
 
  |> "fiyUrintInA" <| [
 
     -- ;; fiyuwrinotiynA_1
     -- fywrntynA       fiyuwrinotiynA  Nprop   Fiorentina
 
-    Identity                  `noun`    {- fiyuwrinotiynA -}   [ "Fiorentina" ] ]
+    Identity                  `noun`    {- fiyuwrinotiynA -}   [ "" {- "Fiorentina" -} ] ]
 
  |> "fiyatnAm" <| [
 
     -- ;; fiyatonAm_1
     -- fytnAm  fiyatonAm       N0      Vietnam
 
-    Identity                  `noun`    {- fiyatonAm -}        [ "Vietnam" ],
+    Identity                  `noun`    {- fiyatonAm -}        [ "" {- "Vietnam" -} ],
 
     -- ;; fiyatonAmiy~_1
     -- fytnAmy fiyatonAmiy~    Nall    Vietnamese     [[fiyatonAmiy~/NOUN]]
     -- fytnAmy fiyatonAmiy~    Nall    Vietnamese     [[fiyatonAmiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- fiyatonAmiy~ -}     [ "Vietnamese" ] ]
+    Identity |< Iy            `adj`     {- fiyatonAmiy~ -}     [ "" {- "Vietnamese" -} ] ]
 
  |> "fizyUlU^gIy" <| [
 
@@ -12771,28 +12775,28 @@ lexicon = listing "Lexicon's properties"
     -- ;; flA$_1
     -- flA$    flA$    N0      Flash
 
-    Identity                  `noun`    {- flA$ -}             [ "Flash" ] ]
+    Identity                  `noun`    {- flA$ -}             [ "" {- "Flash" -} ] ]
 
  |> "flA^sIn.g" <| [
 
     -- ;; flA$iyng_1
     -- flA$yng flA$iyng        N0      Flashing
 
-    Identity                  `noun`    {- flA$iyng -}         [ "Flashing" ] ]
+    Identity                  `noun`    {- flA$iyng -}         [ "" {- "Flashing" -} ] ]
 
  |> "flAdI" <| [
 
     -- ;; flAdiy_1
     -- flAdy   flAdiy  Nprop   Vladi
 
-    Identity                  `noun`    {- flAdiy -}           [ "Vladi" ] ]
+    Identity                  `noun`    {- flAdiy -}           [ "" {- "Vladi" -} ] ]
 
  |> "flAdImIr" <| [
 
     -- ;; flAdiymiyr_1
     -- flAdymyr        flAdiymiyr      Nprop   Vladimir
 
-    Identity                  `noun`    {- flAdiymiyr -}       [ "Vladimir" ] ]
+    Identity                  `noun`    {- flAdiymiyr -}       [ "" {- "Vladimir" -} ] ]
 
  |> "flAminkU" <| [
 
@@ -12807,14 +12811,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; fliyHAn_1
     -- flyHAn  fliyHAn N0      Fleihan
 
-    Identity                  `noun`    {- fliyHAn -}          [ "Fleihan" ] ]
+    Identity                  `noun`    {- fliyHAn -}          [ "" {- "Fleihan" -} ] ]
 
  |> "flUrIdA" <| [
 
     -- ;; fluwriydA_1
     -- flwrydA fluwriydA       Nprop   Florida
 
-    Identity                  `noun`    {- fluwriydA -}        [ "Florida" ] ]
+    Identity                  `noun`    {- fluwriydA -}        [ "" {- "Florida" -} ] ]
 
  |> "flUrisint" <| [
 
@@ -12842,7 +12846,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; frAnokuw_1
     -- frAnkw  frAnokuw        Nprop   Franco
 
-    Identity                  `noun`    {- frAnokuw -}         [ "Franco" ] ]
+    Identity                  `noun`    {- frAnokuw -}         [ "" {- "Franco" -} ] ]
 
  |> "frAnkfUrt" <| [
 
@@ -12850,70 +12854,70 @@ lexicon = listing "Lexicon's properties"
     -- frAnkfwrt       frAnokofuwrot   Nprop   Frankfurt
     -- frnkfwrt        franokofuwrot   Nprop   Frankfurt
 
-    Identity                  `noun`    {- frAnokofuwrot -}    [ "Frankfurt" ] ]
+    Identity                  `noun`    {- frAnokofuwrot -}    [ "" {- "Frankfurt" -} ] ]
 
  |> "frAns" <| [
 
     -- ;; frAnos_1
     -- frAns   frAnos  Nprop   France
 
-    Identity                  `noun`    {- frAnos -}           [ "France" ] ]
+    Identity                  `noun`    {- frAnos -}           [ "" {- "France" -} ] ]
 
  |> "frAnsA" <| [
 
     -- ;; frAnosA_1
     -- frAnsA  frAnosA Nprop   Fransa
 
-    Identity                  `noun`    {- frAnosA -}          [ "Fransa" ] ]
+    Identity                  `noun`    {- frAnosA -}          [ "" {- "Fransa" -} ] ]
 
  |> "frAnsIskU" <| [
 
     -- ;; frAnosiysokuw_1
     -- frAnsyskw       frAnosiysokuw   Nprop   Francisco
 
-    Identity                  `noun`    {- frAnosiysokuw -}    [ "Francisco" ] ]
+    Identity                  `noun`    {- frAnosiysokuw -}    [ "" {- "Francisco" -} ] ]
 
  |> "frAnsuwA" <| [
 
     -- ;; frAnosuwA_1
     -- frAnswA frAnosuwA       Nprop   Francois
 
-    Identity                  `noun`    {- frAnosuwA -}        [ "Francois" ] ]
+    Identity                  `noun`    {- frAnosuwA -}        [ "" {- "Francois" -} ] ]
 
  |> "frAybUr.g" <| [
 
     -- ;; frAyobuwrog_1
     -- frAybwrg        frAyobuwrog     Nprop   Freiburg
 
-    Identity                  `noun`    {- frAyobuwrog -}      [ "Freiburg" ] ]
+    Identity                  `noun`    {- frAyobuwrog -}      [ "" {- "Freiburg" -} ] ]
 
  |> "frAydmAn" <| [
 
     -- ;; frAydomAn_1
     -- frAydmAn        frAydomAn       Nprop   Frydman
 
-    Identity                  `noun`    {- frAydomAn -}        [ "Frydman" ] ]
+    Identity                  `noun`    {- frAydomAn -}        [ "" {- "Frydman" -} ] ]
 
  |> "frAyntI" <| [
 
     -- ;; frAyntiy_1
     -- frAynty frAynty Nprop   Vraientti ??
 
-    Identity                  `noun`    {- frAyntiy -}         [ unwords [ "Vraientti", "?", "?" ] ] ]
+    Identity                  `noun`    {- frAyntiy -}         [ unwords [ "" {- "Vraientti" -}, "?", "?" ] ] ]
 
  |> "frAyzir" <| [
 
     -- ;; frAyozir_1
     -- frAyzr  frAyozir        Nprop   Frazier
 
-    Identity                  `noun`    {- frAyozir -}         [ "Frazier" ] ]
+    Identity                  `noun`    {- frAyozir -}         [ "" {- "Frazier" -} ] ]
 
  |> "frIdmAn" <| [
 
     -- ;; friydomAn_1
     -- frydmAn friydomAn       N0      Friedman
 
-    Identity                  `noun`    {- friydomAn -}        [ "Friedman" ] ]
+    Identity                  `noun`    {- friydomAn -}        [ "" {- "Friedman" -} ] ]
 
  |> "frImasun" <| [
 
@@ -12921,14 +12925,14 @@ lexicon = listing "Lexicon's properties"
     -- frymsn  friymasun       N0      Freemason
     -- frmswn  frimasuwn       N0      Freemason
 
-    Identity                  `noun`    {- friymasun -}        [ "Freemason" ] ]
+    Identity                  `noun`    {- friymasun -}        [ "" {- "Freemason" -} ] ]
 
  |> "frItAwn" <| [
 
     -- ;; friytAwn_1
     -- frytAwn friytAwn        N0      Freetown
 
-    Identity                  `noun`    {- friytAwn -}         [ "Freetown" ] ]
+    Identity                  `noun`    {- friytAwn -}         [ "" {- "Freetown" -} ] ]
 
  |> "frIwAy" <| [
 
@@ -12940,14 +12944,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; friywAy_2
     -- frywAy  friywAy N0      Freeway
 
-    Identity                  `noun`    {- friywAy -}          [ "Freeway" ] ]
+    Identity                  `noun`    {- friywAy -}          [ "" {- "Freeway" -} ] ]
 
  |> "fran^gIh" <| [
 
     -- ;; franojiyh_1
     -- frnjyh  franojiyh       N0      Franjieh
 
-    Identity                  `noun`    {- franojiyh -}        [ "Franjieh" ] ]
+    Identity                  `noun`    {- franojiyh -}        [ "" {- "Franjieh" -} ] ]
 
  |> "frank" <| [
 
@@ -12955,21 +12959,21 @@ lexicon = listing "Lexicon's properties"
     -- frnk    franok  Nprop   Frank
     -- frAnk   frAnok  Nprop   Frank
 
-    Identity                  `noun`    {- franok -}           [ "Frank" ] ]
+    Identity                  `noun`    {- franok -}           [ "" {- "Frank" -} ] ]
 
  |> "fransuwA" <| [
 
     -- ;; franosuwA_1
     -- frnswA  franosuwA       Nprop   Francois
 
-    Identity                  `noun`    {- franosuwA -}        [ "Francois" ] ]
+    Identity                  `noun`    {- franosuwA -}        [ "" {- "Francois" -} ] ]
 
  |> "fu'AdI" <| [
 
     -- ;; fu&Adiy_1
     -- f&Ady   fu&Adiy N0      Fuadi;Fouadi
 
-    Identity                  `noun`    {- fuWAdiy -}          [ "Fuadi", "Fouadi" ] ]
+    Identity                  `noun`    {- fuWAdiy -}          [ "" {- "Fuadi" -}, "" {- "Fouadi" -} ] ]
 
  |> "fulayfil" <| [
 
@@ -12995,7 +12999,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; fuqohA_1
     -- fqhA    fuqohA  Nprop   Fuqha
 
-    Identity                  `noun`    {- fuqohA -}           [ "Fuqha" ] ]
+    Identity                  `noun`    {- fuqohA -}           [ "" {- "Fuqha" -} ] ]
 
  |> "fusayfisA'" <| [
 

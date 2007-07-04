@@ -2341,7 +2341,8 @@ mglwT   magoluwT        N-ap    false;wrong     <pos>magoluwT/ADJ</pos>
 mgAlT   mugAliT Nall    fallacious;falsifying
 ;
 ;; galaTap_1
-glTp    galaTap Nprop   Galata (in "Galatasaray")
+glTp    galaTap Nprop   Galata
+; (in "Galatasaray")
 ;
 ;--- glZ
 ;; galuZ-u_1

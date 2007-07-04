@@ -402,6 +402,7 @@ lexicon = listing "Lexicon's properties"
     -- \*bAn    *ib~An  N       flies
 
     FuCAL                     `noun`    {- \*ubAb -}           [ "fly" ]
+                              `plural`     HaFiCL |< aT
                               `plural`     FiCLAn
                            {- `others`  [ "_dibbAn N" ] -},
 
@@ -1033,7 +1034,8 @@ lexicon = listing "Lexicon's properties"
     -- >*l     >a*il~  Nap     despised;submissive
     -- A*l     >a*il~  Nap     despised;submissive
 
-    FaCIL                     `adj`     {- \*aliyl -}          [ "despised", "submissive" ],
+    FaCIL                     `adj`     {- \*aliyl -}          [ "despised", "submissive" ]
+                              `plural`     HaFiCL |< aT,
 
     -- ;; *aluwl_1
     -- \*lwl    *aluwl  N/ap    docile;tractable     [[*aluwl/ADJ]]
@@ -1145,7 +1147,8 @@ lexicon = listing "Lexicon's properties"
     -- >*m     >a*im~  Nap     claims;custody;protection
     -- A*m     >a*im~  Nap     claims;custody;protection
 
-    FiCAL                     `noun`    {- \*imAm -}           [ "claim", "custody", "protection" ],
+    FiCAL                     `noun`    {- \*imAm -}           [ "claim", "custody", "protection" ]
+                              `plural`     HaFiCL |< aT,
 
     -- ;; *amiym_1
     -- \*mym    *amiym  Nall    censured;reprehensible     [[*amiym/ADJ]]
@@ -1338,8 +1341,9 @@ lexicon = listing "Lexicon's properties"
     -- \*rEAn   *uroEAn N       arms
 
     FiCAL                     `noun`    {- \*irAE -}           [ "arm" ]
+                              `plural`     HaFCuL
                               `plural`     FuCLAn
-                           {- `others`  [ "_dur`An N" ] -},
+                           {- `others`  [ "'a_dru` N", "_dur`An N" ] -},
 
     -- ;; *irAE_2
     -- \*rAE    *irAE   Ndu     lever;crank
@@ -1348,8 +1352,9 @@ lexicon = listing "Lexicon's properties"
     -- \*rEAn   *uroEAn N       levers;cranks
 
     FiCAL                     `noun`    {- \*irAE -}           [ "lever", "crank" ]
+                              `plural`     HaFCuL
                               `plural`     FuCLAn
-                           {- `others`  [ "_dur`An N" ] -},
+                           {- `others`  [ "'a_dru` N", "_dur`An N" ] -},
 
     -- ;; *ariyE_1
     -- \*ryE    *ariyE  N       rapid;sweeping     [[*ariyE/ADJ]]

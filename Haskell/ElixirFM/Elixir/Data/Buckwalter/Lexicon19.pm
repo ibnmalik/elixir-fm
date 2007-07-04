@@ -16261,7 +16261,7 @@ $Lexicon = {
       'form' => '.gala.taT',
       'lines' => [
         ';; galaTap_1',
-        'glTp    galaTap Nprop   Galata (in "Galatasaray")'
+        'glTp    galaTap Nprop   Galata'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16269,7 +16269,7 @@ $Lexicon = {
       'morphs' => 'FaCaL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'Galata (in "Galatasaray")'
+        'Galata'
       ],
       'orig' => 'galaTap',
       'prefix' => ''
@@ -22455,7 +22455,11 @@ $Lexicon = {
         '>gr     >agir~  Nap     misled;deceived;naive',
         'Agr     >agir~  Nap     misled;deceived;naive'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.girr' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -25824,6 +25828,9 @@ $Lexicon = {
       'patterns' => {
         '\'a.grib' => [
           'HaFCiL'
+        ],
+        '\'a.grub' => [
+          'HaFCuL'
         ],
         '.girbAn' => [
           'FiCLAn'

@@ -13687,6 +13687,9 @@ $Lexicon = {
         'AmrAE   >amorAE N       pastures'
       ],
       'patterns' => {
+        '\'amru`' => [
+          'HaFCuL'
+        ],
         '\'amrA`' => [
           'HaFCAL'
         ]

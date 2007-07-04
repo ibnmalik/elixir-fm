@@ -15,7 +15,7 @@ lexicon = listing "Lexicon's properties"
     -- gAt     gAt     N0      GATT
     -- jAt     jAt     N0      GATT
 
-    Identity |< At            `noun`    {- gAt -}              [ "GATT" ] ]
+    Identity |< At            `noun`    {- gAt -}              [ "" {- "GATT" -} ] ]
 
  |> ".g ' .s" <| [
 
@@ -2747,9 +2747,9 @@ lexicon = listing "Lexicon's properties"
     MuFACiL                   `noun`    {- mugAliT -}          [ "fallacious", "falsifying" ],
 
     -- ;; galaTap_1
-    -- glTp    galaTap Nprop   Galata (in "Galatasaray")
+    -- glTp    galaTap Nprop   Galata
 
-    FaCaL |< aT               `noun`    {- galaTap -}          [ unwords [ "Galata", "(", "in", "\"Galatasaray\"", ")" ] ] ]
+    FaCaL |< aT               `noun`    {- galaTap -}          [ "Galata" ] ]
 
  |> ".g l .z" <| [
 
@@ -5078,8 +5078,9 @@ lexicon = listing "Lexicon's properties"
 
     FuCAL                     `noun`    {- gurAb -}            [ "crow" ]
                               `plural`     HaFCiL |< aT
+                              `plural`     HaFCuL
                               `plural`     FiCLAn
-                           {- `others`  [ ".girbAn N" ] -},
+                           {- `others`  [ "'a.grub N", ".girbAn N" ] -},
 
     -- ;; gariyb_1
     -- gryb    gariyb  N-ap    strange     [[gariyb/ADJ]]
@@ -5720,7 +5721,8 @@ lexicon = listing "Lexicon's properties"
     -- >gr     >agir~  Nap     misled;deceived;naive
     -- Agr     >agir~  Nap     misled;deceived;naive
 
-    FaCIL                     `adj`     {- gariyr -}           [ "misled", "deceived", "naive" ],
+    FaCIL                     `adj`     {- gariyr -}           [ "misled", "deceived", "naive" ]
+                              `plural`     HaFiCL |< aT,
 
     -- ;; girAr_1
     -- grAr    girAr   N       manner;way;haste
@@ -8053,14 +8055,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; gAbriyyil_1
     -- gAbryyl gAbriyyil       Nprop   Gabriel
 
-    Identity                  `noun`    {- gAbriyyil -}        [ "Gabriel" ] ]
+    Identity                  `noun`    {- gAbriyyil -}        [ "" {- "Gabriel" -} ] ]
 
  |> ".gAbrIyillA" <| [
 
     -- ;; gAbriyyil~A_1
     -- gAbryylA        gAbriyyil~A     Nprop   Gabriela
 
-    Identity                  `noun`    {- gAbriyyil~A -}      [ "Gabriela" ] ]
+    Identity                  `noun`    {- gAbriyyil~A -}      [ "" {- "Gabriela" -} ] ]
 
  |> ".gAlIr" <| [
 
@@ -8074,21 +8076,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; gAluw_1
     -- gAlw    gAluw   Nprop   Galo
 
-    Identity                  `noun`    {- gAluw -}            [ "Galo" ] ]
+    Identity                  `noun`    {- gAluw -}            [ "" {- "Galo" -} ] ]
 
  |> ".gAlkInA" <| [
 
     -- ;; gAlokiynA_1
     -- gAlkynA gAlokiynA       Nprop   Galkina
 
-    Identity                  `noun`    {- gAlokiynA -}        [ "Galkina" ] ]
+    Identity                  `noun`    {- gAlokiynA -}        [ "" {- "Galkina" -} ] ]
 
  |> ".gAlwAy" <| [
 
     -- ;; gAlowAy_1
     -- gAlwAy  gAlowAy N0      Galway
 
-    Identity                  `noun`    {- gAlowAy -}          [ "Galway" ] ]
+    Identity                  `noun`    {- gAlowAy -}          [ "" {- "Galway" -} ] ]
 
  |> ".gAmA" <| [
 
@@ -8100,35 +8102,35 @@ lexicon = listing "Lexicon's properties"
     -- ;; gAmA_2
     -- gAmA    gAmA    Nprop   Gama
 
-    Identity                  `noun`    {- gAmA -}             [ "Gama" ] ]
+    Identity                  `noun`    {- gAmA -}             [ "" {- "Gama" -} ] ]
 
  |> ".gAmbIl" <| [
 
     -- ;; gAmobiyl_1
     -- gAmbyl  gAmobiyl        Nprop   Gambill
 
-    Identity                  `noun`    {- gAmobiyl -}         [ "Gambill" ] ]
+    Identity                  `noun`    {- gAmobiyl -}         [ "" {- "Gambill" -} ] ]
 
  |> ".gAmbiyA" <| [
 
     -- ;; gAmobiyA_1
     -- gAmbyA  gAmobiyA        N0      Gambia
 
-    Identity                  `noun`    {- gAmobiyA -}         [ "Gambia" ] ]
+    Identity                  `noun`    {- gAmobiyA -}         [ "" {- "Gambia" -} ] ]
 
  |> ".gAndI" <| [
 
     -- ;; gAnodiy_1
     -- gAndy   gAnodiy Nprop   Ghandi
 
-    Identity                  `noun`    {- gAnodiy -}          [ "Ghandi" ] ]
+    Identity                  `noun`    {- gAnodiy -}          [ "" {- "Ghandi" -} ] ]
 
  |> ".gAntz" <| [
 
     -- ;; gAntz_1
     -- gAntz   gAntz   Nprop   Gantz
 
-    Identity                  `noun`    {- gAntz -}            [ "Gantz" ] ]
+    Identity                  `noun`    {- gAntz -}            [ "" {- "Gantz" -} ] ]
 
  |> ".gArUdI" <| [
 
@@ -8136,63 +8138,63 @@ lexicon = listing "Lexicon's properties"
     -- gArwdy  gAruwdy Nprop   Garoudy
     -- jArwdy  jAruwdy Nprop   Garoudy
 
-    Identity                  `noun`    {- gAruwdiy -}         [ "Garoudy" ] ]
+    Identity                  `noun`    {- gAruwdiy -}         [ "" {- "Garoudy" -} ] ]
 
  |> ".gArmIndiyA" <| [
 
     -- ;; gAromiyndiyA_1
     -- gArmyndyA       gAromiyndiyA    Nprop   Garmendia
 
-    Identity                  `noun`    {- gAromiyndiyA -}     [ "Garmendia" ] ]
+    Identity                  `noun`    {- gAromiyndiyA -}     [ "" {- "Garmendia" -} ] ]
 
  |> ".gArnIt" <| [
 
     -- ;; gAroniyt_1
     -- gArnyt  gAroniyt        Nprop   Garnett
 
-    Identity                  `noun`    {- gAroniyt -}         [ "Garnett" ] ]
+    Identity                  `noun`    {- gAroniyt -}         [ "" {- "Garnett" -} ] ]
 
  |> ".gAstUn" <| [
 
     -- ;; gAsotuwn_1
     -- gAstwn  gAsotuwn        Nprop   Gaston
 
-    Identity                  `noun`    {- gAsotuwn -}         [ "Gaston" ] ]
+    Identity                  `noun`    {- gAsotuwn -}         [ "" {- "Gaston" -} ] ]
 
  |> ".gAtUsU" <| [
 
     -- ;; gAtuwsuw_1
     -- gAtwsw  gAtuwsuw        N0      Gattuso
 
-    Identity                  `noun`    {- gAtuwsuw -}         [ "Gattuso" ] ]
+    Identity                  `noun`    {- gAtuwsuw -}         [ "" {- "Gattuso" -} ] ]
 
  |> ".gAzaryAn" <| [
 
     -- ;; gAzaroyAn_1
     -- gAzryAn gAzaroyAn       N0      Gazarian
 
-    Identity                  `noun`    {- gAzaroyAn -}        [ "Gazarian" ] ]
+    Identity                  `noun`    {- gAzaroyAn -}        [ "" {- "Gazarian" -} ] ]
 
  |> ".gImArAyi^s" <| [
 
     -- ;; giymArAyi$_1
     -- gymArAy$        giymArAyi$      N0      Guimaraes
 
-    Identity                  `noun`    {- giymArAyi$ -}       [ "Guimaraes" ] ]
+    Identity                  `noun`    {- giymArAyi$ -}       [ "" {- "Guimaraes" -} ] ]
 
  |> ".gImlstUb" <| [
 
     -- ;; giymlstuwb_1
     -- gymlstwb        gymlstwb        N0      Gimelstob
 
-    Identity                  `noun`    {- giymlstuwb -}       [ "Gimelstob" ] ]
+    Identity                  `noun`    {- giymlstuwb -}       [ "" {- "Gimelstob" -} ] ]
 
  |> ".gInAdI" <| [
 
     -- ;; giynAdiy_1
     -- gynAdy  giynAdiy        N0      Gennady
 
-    Identity                  `noun`    {- giynAdiy -}         [ "Gennady" ] ]
+    Identity                  `noun`    {- giynAdiy -}         [ "" {- "Gennady" -} ] ]
 
  |> ".gItU" <| [
 
@@ -8207,7 +8209,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; guwdiromiys_1
     -- gwdrmys guwdiromiys     Nprop   Gudermes
 
-    Identity                  `noun`    {- guwdiromiys -}      [ "Gudermes" ] ]
+    Identity                  `noun`    {- guwdiromiys -}      [ "" {- "Gudermes" -} ] ]
 
  |> ".gUld" <| [
 
@@ -8215,7 +8217,7 @@ lexicon = listing "Lexicon's properties"
     -- gwld    guwlod  Nprop   Gold
     -- jwld    juwlod  Nprop   Gold
 
-    Identity                  `noun`    {- guwlod -}           [ "Gold" ] ]
+    Identity                  `noun`    {- guwlod -}           [ "" {- "Gold" -} ] ]
 
  |> ".gUlf" <| [
 
@@ -8227,21 +8229,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; guwlof_2
     -- gwlf    guwlof  Nprop   Gulf
 
-    Identity                  `noun`    {- guwlof -}           [ "Gulf" ] ]
+    Identity                  `noun`    {- guwlof -}           [ "" {- "Gulf" -} ] ]
 
  |> ".gUlmAr" <| [
 
     -- ;; guwlomAr_1
     -- gwlmAr  guwlomAr        Nprop   Golmar
 
-    Identity                  `noun`    {- guwlomAr -}         [ "Golmar" ] ]
+    Identity                  `noun`    {- guwlomAr -}         [ "" {- "Golmar" -} ] ]
 
  |> ".gUlnir" <| [
 
     -- ;; guwlonir_1
     -- gwlnr   guwlonir        Nprop   Goellner
 
-    Identity                  `noun`    {- guwlonir -}         [ "Goellner" ] ]
+    Identity                  `noun`    {- guwlonir -}         [ "" {- "Goellner" -} ] ]
 
  |> ".gUltI" <| [
 
@@ -8249,7 +8251,7 @@ lexicon = listing "Lexicon's properties"
     -- gwlty   guwlotiy        Nprop   Ghoulti
     -- qwlty   quwlotiy        Nprop   Ghoulti
 
-    Identity                  `noun`    {- guwlotiy -}         [ "Ghoulti" ] ]
+    Identity                  `noun`    {- guwlotiy -}         [ "" {- "Ghoulti" -} ] ]
 
  |> ".gUrIllA" <| [
 
@@ -8268,7 +8270,7 @@ lexicon = listing "Lexicon's properties"
     -- gwrbAt$wf       guwrobAto$uwf   Nprop   Gorbachev
     -- gwrnw   guwronuw        Nprop   Gorno
 
-    Identity                  `noun`    {- guwrobAto$uwf -}    [ "Gorbachev", "Gorno" ] ]
+    Identity                  `noun`    {- guwrobAto$uwf -}    [ "" {- "Gorbachev" -}, "" {- "Gorno" -} ] ]
 
  |> ".gUriyUn" <| [
 
@@ -8276,14 +8278,14 @@ lexicon = listing "Lexicon's properties"
     -- gwrywn  guwriyuwn       Nprop   Gurion
     -- jwrywn  juwruyuwn       Nprop   Gurion
 
-    Identity                  `noun`    {- guwriyuwn -}        [ "Gurion" ] ]
+    Identity                  `noun`    {- guwriyuwn -}        [ "" {- "Gurion" -} ] ]
 
  |> ".gUsbIt^s" <| [
 
     -- ;; guwsobiyt$_1
     -- gwsbyt$ guwsobiyt$      Nprop   Gospic
 
-    Identity                  `noun`    {- guwsobiyt$ -}       [ "Gospic" ] ]
+    Identity                  `noun`    {- guwsobiyt$ -}       [ "" {- "Gospic" -} ] ]
 
  |> ".gUstAf" <| [
 
@@ -8291,7 +8293,7 @@ lexicon = listing "Lexicon's properties"
     -- gwstAf  guwsotAf        Nprop   Gustav
     -- jwstAf  juwsotAf        Nprop   Gustav
 
-    Identity                  `noun`    {- guwsotAf -}         [ "Gustav" ] ]
+    Identity                  `noun`    {- guwsotAf -}         [ "" {- "Gustav" -} ] ]
 
  |> ".gUyAnA" <| [
 
@@ -8301,21 +8303,21 @@ lexicon = listing "Lexicon's properties"
     -- jwyAnA  juwyAnA N0      Guyana
     -- jwAyAnA guwAyAnA        N0      Guyana
 
-    Identity                  `noun`    {- guwyAnA -}          [ "Guyana" ] ]
+    Identity                  `noun`    {- guwyAnA -}          [ "" {- "Guyana" -} ] ]
 
  |> ".g^stAd" <| [
 
     -- ;; g$tAd_1
     -- g$tAd   g$tAd   Nprop   Gstaad
 
-    Identity                  `noun`    {- g$tAd -}            [ "Gstaad" ] ]
+    Identity                  `noun`    {- g$tAd -}            [ "" {- "Gstaad" -} ] ]
 
  |> ".ga.danfar" <| [
 
     -- ;; gaDanofar_1
     -- gDnfr   gaDanofar       N0      Ghadanfar
 
-    Identity                  `noun`    {- gaDanofar -}        [ "Ghadanfar" ],
+    Identity                  `noun`    {- gaDanofar -}        [ "" {- "Ghadanfar" -} ],
 
     -- ;; gaDanofar_2
     -- gDnfr   gaDanofar       N-ap    lion;powerful
@@ -8325,7 +8327,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; gaDanofariy~_1
     -- gDnfry  gaDanofariy~    N0      Ghadanfari
 
-    Identity |< Iy            `adj`     {- gaDanofariy~ -}     [ "Ghadanfari" ],
+    Identity |< Iy            `adj`     {- gaDanofariy~ -}     [ "" {- "Ghadanfari" -} ],
 
     -- ;; gaDanofariy~_2
     -- gDnfry  gaDanofariy~    Nall    lion-like;powerful     [[gaDanofariy~/ADJ]]
@@ -8369,14 +8371,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; garoviyA_1
     -- grvyA   garoviyA        Nprop   Garcia
 
-    Identity                  `noun`    {- garoviyA -}         [ "Garcia" ] ]
+    Identity                  `noun`    {- garoviyA -}         [ "" {- "Garcia" -} ] ]
 
  |> ".gawdiyU" <| [
 
     -- ;; gawodiyuw_1
     -- gwdyw   gawodiyuw       Nprop   Gaudio
 
-    Identity                  `noun`    {- gawodiyuw -}        [ "Gaudio" ] ]
+    Identity                  `noun`    {- gawodiyuw -}        [ "" {- "Gaudio" -} ] ]
 
  |> ".gi.tamm" <| [
 
@@ -8397,14 +8399,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; glAfokuws_1
     -- glAfkws glAfokuws       Nprop   Glafcos
 
-    Identity                  `noun`    {- glAfokuws -}        [ "Glafcos" ] ]
+    Identity                  `noun`    {- glAfokuws -}        [ "" {- "Glafcos" -} ] ]
 
  |> ".glAskU" <| [
 
     -- ;; glAsokuw_1
     -- glAskw  glAsokuw        Nprop   Glasgow
 
-    Identity                  `noun`    {- glAsokuw -}         [ "Glasgow" ] ]
+    Identity                  `noun`    {- glAsokuw -}         [ "" {- "Glasgow" -} ] ]
 
  |> ".glAznUst" <| [
 
@@ -8426,7 +8428,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; gluwriy_1
     -- glwry   gluwriy Nprop   Glory
 
-    Identity                  `noun`    {- gluwriy -}          [ "Glory" ] ]
+    Identity                  `noun`    {- gluwriy -}          [ "" {- "Glory" -} ] ]
 
  |> ".grAhAm" <| [
 
@@ -8434,35 +8436,35 @@ lexicon = listing "Lexicon's properties"
     -- grAhAm  grAhAm  N0      Graham
     -- jrAhAm  jrAhAm  N0      Graham
 
-    Identity                  `noun`    {- grAhAm -}           [ "Graham" ] ]
+    Identity                  `noun`    {- grAhAm -}           [ "" {- "Graham" -} ] ]
 
  |> ".grIfI_t" <| [
 
     -- ;; griyfiyv_1
     -- gryfyv  griyfiyv        Nprop   Griffith
 
-    Identity                  `noun`    {- griyfiyv -}         [ "Griffith" ] ]
+    Identity                  `noun`    {- griyfiyv -}         [ "" {- "Griffith" -} ] ]
 
  |> ".grIn" <| [
 
     -- ;; griyn_1
     -- gryn    griyn   Nprop   Green
 
-    Identity                  `noun`    {- griyn -}            [ "Green" ] ]
+    Identity                  `noun`    {- griyn -}            [ "" {- "Green" -} ] ]
 
  |> ".grU^gAn" <| [
 
     -- ;; gruwjAn_1
     -- grwjAn  gruwjAn Nprop   Grosjean
 
-    Identity                  `noun`    {- gruwjAn -}          [ "Grosjean" ] ]
+    Identity                  `noun`    {- gruwjAn -}          [ "" {- "Grosjean" -} ] ]
 
  |> ".grUznI" <| [
 
     -- ;; gruwzoniy_1
     -- grwzny  gruwzoniy       Nprop   Grozny
 
-    Identity                  `noun`    {- gruwzoniy -}        [ "Grozny" ] ]
+    Identity                  `noun`    {- gruwzoniy -}        [ "" {- "Grozny" -} ] ]
 
  |> ".gunAfir" <| [
 
@@ -8484,14 +8486,14 @@ lexicon = listing "Lexicon's properties"
     -- gwAtymAly       guwAtiymAliy~   Nall    Guatemalan     [[guwAtiymAliy~/NOUN]]
     -- gwAtymAly       guwAtiymAliy~   Nall    Guatemalan     [[guwAtiymAliy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- guwAtiymAliy~ -}    [ "Guatemalan" ] ]
+    Identity |< Iy            `adj`     {- guwAtiymAliy~ -}    [ "" {- "Guatemalan" -} ] ]
 
  |> ".guwAtImAlA" <| [
 
     -- ;; guwAtiymAlA_1
     -- gwAtymAlA       guwAtiymAlA     N0      Guatemala
 
-    Identity                  `noun`    {- guwAtiymAlA -}      [ "Guatemala" ] ]
+    Identity                  `noun`    {- guwAtiymAlA -}      [ "" {- "Guatemala" -} ] ]
 
  |> "mun.gA.z" <| [
 

@@ -28,7 +28,7 @@ lexicon = listing "Lexicon's properties"
     -- mA|zAl  mA>azAl FW-Wa   not + stop/cease + I (I continue)                        [[mA/NEG_PART+>a/IV1S+zAl/VERB_IMPERFECT]]
     -- mAnzAl  mAnazAl FW-Wa   not + stop/cease + we (we continue)                      [[mA/NEG_PART+na/IV1P+zAl/VERB_IMPERFECT]]
 
-    Identity                  `part`    {- mAyazAl -}          [ unwords [ "not", "+", "stop", "/", "cease", "+", "he", "/", "it", "(", "he", "/", "it", "continues", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "[masc.du.]", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "it", "/", "she", "/", "they", "(", "it", "/", "she", "/", "they", "continue", "(", "s", ")", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "[fem.du.]", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "[fem.]", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[masc.sg.]", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[du.]", "(", "you", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[masc.pl.]", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[fem.sg.]", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[fem.pl.]", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "I", "(", "I", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "we", "(", "we", "continue", ")" ] ] ]
+    Identity                  `part`    {- mAyazAl -}          [ unwords [ "not", "+", "stop", "/", "cease", "+", "he", "/", "it", "(", "he", "/", "it", "continues", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "it", "/", "she", "/", "they", "(", "it", "/", "she", "/", "they", "continue", "(", "s", ")", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "" {- "I" -}, "(", "" {- "I" -}, "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "we", "(", "we", "continue", ")" ] ] ]
 
  |> "mAzAl" <| [
 
@@ -47,7 +47,7 @@ lexicon = listing "Lexicon's properties"
     -- mAzlt   mAzilotu        FW-Wa   not + stop/cease + I (I continue)                         [[mA/NEG_PART+zil/VERB_PERFECT+tu/PVSUFF_SUBJ:1S]]
     -- mAzlnA  mAzilonA        FW-Wa   not + stop/cease + we (we continue)                       [[mA/NEG_PART+zil/VERB_PERFECT+nA/PVSUFF_SUBJ:1P]]
 
-    Identity |<< "a"          `part`    {- mAzAla -}           [ unwords [ "not", "+", "stop", "/", "cease", "+", "he", "/", "it", "(", "he", "/", "it", "continues", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "it", "/", "she", "/", "they", "(", "it", "/", "she", "/", "they", "continue", "(", "s", ")", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "I", "(", "I", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "we", "(", "we", "continue", ")" ] ] ]
+    Identity |<< "a"          `part`    {- mAzAla -}           [ unwords [ "not", "+", "stop", "/", "cease", "+", "he", "/", "it", "(", "he", "/", "it", "continues", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "it", "/", "she", "/", "they", "(", "it", "/", "she", "/", "they", "continue", "(", "s", ")", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "" {- "I" -}, "(", "" {- "I" -}, "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "we", "(", "we", "continue", ")" ] ] ]
 
  |> "mazra`An" <| [
 
@@ -75,7 +75,7 @@ lexicon = listing "Lexicon's properties"
     -- lA|zAl  lA>azAl FW-Wa   not + stop/cease + I (I continue)                        [[lA/NEG_PART+>a/IV1S+zAl/VERB_IMPERFECT]]
     -- lAnzAl  lAnazAl FW-Wa   not + stop/cease + we (we continue)                      [[lA/NEG_PART+na/IV1P+zAl/VERB_IMPERFECT]]
 
-    lA >| Identity            `part`    {- lAyazAl -}          [ unwords [ "not", "+", "stop", "/", "cease", "+", "he", "/", "it", "(", "he", "/", "it", "continues", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "[masc.du.]", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "it", "/", "she", "/", "they", "(", "it", "/", "she", "/", "they", "continue", "(", "s", ")", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "[fem.du.]", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "[fem.]", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[masc.sg.]", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[du.]", "(", "you", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[masc.pl.]", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[fem.sg.]", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[fem.pl.]", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "I", "(", "I", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "we", "(", "we", "continue", ")" ] ] ]
+    lA >| Identity            `part`    {- lAyazAl -}          [ unwords [ "not", "+", "stop", "/", "cease", "+", "he", "/", "it", "(", "he", "/", "it", "continues", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "it", "/", "she", "/", "they", "(", "it", "/", "she", "/", "they", "continue", "(", "s", ")", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "" {- "I" -}, "(", "" {- "I" -}, "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "we", "(", "we", "continue", ")" ] ] ]
 
  |> "z  '" <| [
 
@@ -451,15 +451,15 @@ lexicon = listing "Lexicon's properties"
     FuCaL                     `noun`    {- zuHal -}            [ "Saturn" ],
 
     -- ;; zaHolap_1
-    -- zHlp    zaHolap Nprop   Zahle (Leb.)
+    -- zHlp    zaHolap Nprop   Zahle
 
-    FaCL |< aT                `noun`    {- zaHolap -}          [ unwords [ "Zahle", "(", "Leb.", ")" ] ],
+    FaCL |< aT                `noun`    {- zaHolap -}          [ "Zahle" ],
 
     -- ;; zaHolawiy~_1
-    -- zHlwy   zaHolawiy~      Nall    of/from Zahle (Leb.)     [[zaHolawiy~/ADJ]]
-    -- zHlAwy  zaHolAwiy~      Nall    of/from Zahle (Leb.)     [[zaHolawiy~/ADJ]]
+    -- zHlwy   zaHolawiy~      Nall    of/from Zahle      [[zaHolawiy~/ADJ]]
+    -- zHlAwy  zaHolAwiy~      Nall    of/from Zahle      [[zaHolawiy~/ADJ]]
 
-    FaCLY |< Iy               `adj`     {- zaHolawiy~ -}       [ unwords [ "of", "/", "from", "Zahle", "(", "Leb.", ")" ] ],
+    FaCLY |< Iy               `adj`     {- zaHolawiy~ -}       [ unwords [ "of", "/", "from", "Zahle" ] ],
 
     -- ;; zaHolawiy~_2
     -- zHlwy   zaHolawiy~      N0      Zahlaoui;Zahlawi
@@ -3694,9 +3694,9 @@ lexicon = listing "Lexicon's properties"
     IFtaCaL                   `verb`    {- Aizodaqam -}        [ "swallow", "gulp" ],
 
     -- ;; zaq~uwm_1
-    -- zqwm    zaq~uwm N       Zaqqoum (tree in Hell; Quran 37:62)
+    -- zqwm    zaq~uwm N       Zaqqoum (tree in Hell)
 
-    FaCCUL                    `noun`    {- zaq~uwm -}          [ unwords [ "Zaqqoum", "(", "tree", "in", "Hell" ], unwords [ "Quran", "37:62", ")" ] ] ]
+    FaCCUL                    `noun`    {- zaq~uwm -}          [ unwords [ "Zaqqoum", "(", "tree", "in", "Hell", ")" ] ] ]
 
  |> "z q q" <| [
 
@@ -3728,7 +3728,8 @@ lexicon = listing "Lexicon's properties"
     -- >zq     >aziq~  Nap     alleys;corridors;cul-de-sacs
     -- Azq     >aziq~  Nap     alleys;corridors;cul-de-sacs
 
-    FuCAL                     `noun`    {- zuqAq -}            [ "alley", "corridor", unwords [ "cul", "-", "de", "-", "sac" ] ],
+    FuCAL                     `noun`    {- zuqAq -}            [ "alley", "corridor", unwords [ "cul", "-", "de", "-", "sac" ] ]
+                              `plural`     HaFiCL |< aT,
 
     -- ;; zuqAqiy~_1
     -- zqAqy   zuqAqiy~        Nall    alley dweller
@@ -5753,49 +5754,49 @@ lexicon = listing "Lexicon's properties"
     -- ;; zA}iyr_1
     -- zA}yr   zA}iyr  N       Zaire
 
-    Identity                  `noun`    {- zA}iyr -}           [ "Zaire" ] ]
+    Identity                  `noun`    {- zA}iyr -}           [ "" {- "Zaire" -} ] ]
 
  |> "zA^gUrA" <| [
 
     -- ;; zAjuwrA_1
     -- zAjwrA  zAjuwrA N0      Zagora
 
-    Identity                  `noun`    {- zAjuwrA -}          [ "Zagora" ] ]
+    Identity                  `noun`    {- zAjuwrA -}          [ "" {- "Zagora" -} ] ]
 
  |> "zAbAlItA" <| [
 
     -- ;; zAbAliytA_1
     -- zAbAlytA        zAbAliytA       Nprop   Zabaleta
 
-    Identity                  `noun`    {- zAbAliytA -}        [ "Zabaleta" ] ]
+    Identity                  `noun`    {- zAbAliytA -}        [ "" {- "Zabaleta" -} ] ]
 
  |> "zAmbiyA" <| [
 
     -- ;; zAmobiyA_1
     -- zAmbyA  zAmobiyA        N0      Zambia
 
-    Identity                  `noun`    {- zAmobiyA -}         [ "Zambia" ] ]
+    Identity                  `noun`    {- zAmobiyA -}         [ "" {- "Zambia" -} ] ]
 
  |> "zAmbuwAn.gA" <| [
 
     -- ;; zAmobuwAnogA_1
     -- zAmbwAngA       zAmobuwAnogA    N0      Zamboanga
 
-    Identity                  `noun`    {- zAmobuwAnogA -}     [ "Zamboanga" ] ]
+    Identity                  `noun`    {- zAmobuwAnogA -}     [ "" {- "Zamboanga" -} ] ]
 
  |> "zAyst" <| [
 
     -- ;; zAyst_1
     -- zAyst   zAyst   Nprop   Zeist
 
-    Identity                  `noun`    {- zAyst -}            [ "Zeist" ] ]
+    Identity                  `noun`    {- zAyst -}            [ "" {- "Zeist" -} ] ]
 
  |> "zIfAdInUfIt^s" <| [
 
     -- ;; ziyfAdiynuwfiyt$_1
     -- zyfAdynwfyt$    ziyfAdiynuwfiyt$        Nprop   Zivadinovic
 
-    Identity                  `noun`    {- ziyfAdiynuwfiyt$ -} [ "Zivadinovic" ] ]
+    Identity                  `noun`    {- ziyfAdiynuwfiyt$ -} [ "" {- "Zivadinovic" -} ] ]
 
  |> "zIlAnd" <| [
 
@@ -5805,7 +5806,7 @@ lexicon = listing "Lexicon's properties"
     -- zylndy  ziylanodiy~     Nall    Zealander     [[ziylanodiy~/NOUN]]
     -- zylndy  ziylanodiy~     Nall    Zealander     [[ziylanodiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- ziylAnodiy~ -}      [ "Zealander" ] ]
+    Identity |< Iy            `adj`     {- ziylAnodiy~ -}      [ "" {- "Zealander" -} ] ]
 
  |> "zIlAndA" <| [
 
@@ -5813,28 +5814,28 @@ lexicon = listing "Lexicon's properties"
     -- zylAndA ziylAnodA       N0      Zealand
     -- zylndA  ziylanodA       N0      Zealand
 
-    Identity                  `noun`    {- ziylAnodA -}        [ "Zealand" ] ]
+    Identity                  `noun`    {- ziylAnodA -}        [ "" {- "Zealand" -} ] ]
 
  |> "zIlIkU" <| [
 
     -- ;; ziyliykuw_1
     -- zylykw  ziyliykuw       Nprop   Zeljko
 
-    Identity                  `noun`    {- ziyliykuw -}        [ "Zeljko" ] ]
+    Identity                  `noun`    {- ziyliykuw -}        [ "" {- "Zeljko" -} ] ]
 
  |> "zImbAbw" <| [
 
     -- ;; ziymobAbowiy~_1
     -- zymbAbwy        ziymobAbowiy~   Nall    Zimbabwean
 
-    Identity |< Iy            `adj`     {- ziymobAbowiy~ -}    [ "Zimbabwean" ] ]
+    Identity |< Iy            `adj`     {- ziymobAbowiy~ -}    [ "" {- "Zimbabwean" -} ] ]
 
  |> "zImbAbwI" <| [
 
     -- ;; ziymobAbowiy_1
     -- zymbAbwy        ziymobAbowiy    Nprop   Zimbabwe
 
-    Identity                  `noun`    {- ziymobAbowiy -}     [ "Zimbabwe" ] ]
+    Identity                  `noun`    {- ziymobAbowiy -}     [ "" {- "Zimbabwe" -} ] ]
 
  |> "zInkU" <| [
 
@@ -5876,14 +5877,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; zakariy~A_1
     -- zkryA   zakariy~A       Nprop   Zakariya;Zecharia
 
-    Identity                  `noun`    {- zakariy~A -}        [ "Zakariya", "Zecharia" ] ]
+    Identity                  `noun`    {- zakariy~A -}        [ "" {- "Zakariya" -}, "" {- "Zecharia" -} ] ]
 
  |> "zakariyA'" <| [
 
     -- ;; zakariyA'_1
     -- zkryA'  zakariyA'       Nprop   Zacharias;Zechariah
 
-    Identity                  `noun`    {- zakariyA' -}        [ "Zacharias", "Zechariah" ] ]
+    Identity                  `noun`    {- zakariyA' -}        [ "" {- "Zacharias" -}, "" {- "Zechariah" -} ] ]
 
  |> "zamharIr" <| [
 
@@ -5898,7 +5899,7 @@ lexicon = listing "Lexicon's properties"
     -- zngAnh  zanogAnih       Nprop   Zanganeh
     -- zngAnp  zanogAnap       Nprop   Zanganeh
 
-    Identity                  `noun`    {- zanogAnih -}        [ "Zanganeh" ] ]
+    Identity                  `noun`    {- zanogAnih -}        [ "" {- "Zanganeh" -} ] ]
 
  |> "zan^gabAr" <| [
 
@@ -5906,7 +5907,7 @@ lexicon = listing "Lexicon's properties"
     -- znjbAr  zanojabAr       N       Zanzibar
     -- znzbAr  zanozibAr       N       Zanzibar
 
-    Identity                  `noun`    {- zanojabAr -}        [ "Zanzibar" ] ]
+    Identity                  `noun`    {- zanojabAr -}        [ "" {- "Zanzibar" -} ] ]
 
  |> "zan^gabIl" <| [
 
@@ -5937,21 +5938,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; zanozalaxot_1
     -- znzlxt  zanozalaxot     N       China tree
 
-    Identity                  `noun`    {- zanozalaxot -}      [ unwords [ "China", "tree" ] ] ]
+    Identity                  `noun`    {- zanozalaxot -}      [ unwords [ "" {- "China" -}, "tree" ] ] ]
 
  |> "zarAdu^st" <| [
 
     -- ;; zarAdu$ot_1
     -- zrAd$t  zarAdu$ot       N       Zoroaster
 
-    Identity                  `noun`    {- zarAdu$ot -}        [ "Zoroaster" ],
+    Identity                  `noun`    {- zarAdu$ot -}        [ "" {- "Zoroaster" -} ],
 
     -- ;; zarAdu$otiy~_1
     -- zrAd$ty zarAdu$otiy~    Nall    Zoroastrian     [[zarAdu$otiy~/NOUN]]
     -- zrAd$ty zarAdu$otiy~    Nall    Zoroastrian     [[zarAdu$otiy~/ADJ]]
     -- zrAd$ty zarAdu$otiy~    Nap     Zoroastrianism     [[zarAdu$otiy~/NOUN]]
 
-    Identity |< Iy            `adj`     {- zarAdu$otiy~ -}     [ "Zoroastrian", "Zoroastrianism" ] ]
+    Identity |< Iy            `adj`     {- zarAdu$otiy~ -}     [ "" {- "Zoroastrian" -}, "" {- "Zoroastrianism" -} ] ]
 
  |> "zayzafUn" <| [
 
@@ -5965,7 +5966,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; zhAnjiyAng_1
     -- zhAnjyAng       zhAnjiyAng      Nprop   Zhan-Jiang
 
-    Identity                  `noun`    {- zhAnjiyAng -}       [ unwords [ "Zhan", "-", "Jiang" ] ] ]
+    Identity                  `noun`    {- zhAnjiyAng -}       [ unwords [ "" {- "Zhan" -}, "-", "" {- "Jiang" -} ] ] ]
 
  |> "zi'baq" <| [
 
@@ -6020,5 +6021,5 @@ lexicon = listing "Lexicon's properties"
     -- ;; zuwAng_1
     -- zwAng   zuwAng  Nprop   Zhuang
 
-    Identity                  `noun`    {- zuwAng -}           [ "Zhuang" ] ]
+    Identity                  `noun`    {- zuwAng -}           [ "" {- "Zhuang" -} ] ]
 

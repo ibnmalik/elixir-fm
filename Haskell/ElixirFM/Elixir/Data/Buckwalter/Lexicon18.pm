@@ -2607,6 +2607,9 @@ $Lexicon = {
       'patterns' => {
         '`unuwq' => [
           'FuCUL'
+        ],
+        '\'a`nuq' => [
+          'HaFCuL'
         ]
       },
       'index' => '1',
@@ -5545,7 +5548,11 @@ $Lexicon = {
         '>Ef     >aEif~  Nap     virtuous;honest',
         'AEf     >aEif~  Nap     virtuous;honest'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a`iff' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -20921,6 +20928,9 @@ $Lexicon = {
         'AEtd    >aEotid Nap     war material;ammunition'
       ],
       'patterns' => {
+        '\'a`tud' => [
+          'HaFCuL'
+        ],
         '\'a`tid' => [
           'HaFCiL'
         ]
@@ -23109,7 +23119,11 @@ $Lexicon = {
         '>Eq     >aEiq~  Nap     canyons;ravines',
         'AEq     >aEiq~  Nap     canyons;ravines'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a`iqq' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -26401,7 +26415,7 @@ $Lexicon = {
       'form' => '`adn',
       'lines' => [
         ';; Eadon_1',
-        'Edn     Eadon   Ndip    Aden (Yem.)'
+        'Edn     Eadon   Ndip    Aden'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26409,7 +26423,7 @@ $Lexicon = {
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
-        'Aden (Yem.)'
+        'Aden'
       ],
       'orig' => 'Eadon',
       'prefix' => ''
@@ -27942,7 +27956,11 @@ $Lexicon = {
         '>Ez     >aEiz~  Nap     dear;precious     [[>aEiz~/ADJ]]',
         'AEz     >aEiz~  Nap     dear;precious     [[>aEiz~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a`izz' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '2',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -29804,7 +29822,7 @@ $Lexicon = {
       'form' => '`annAbaT',
       'lines' => [
         ';; Ean~Abap_1',
-        'EnAb    Ean~Ab  Nap     Annaba (Alg.)'
+        'EnAb    Ean~Ab  Nap     Annaba'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29812,7 +29830,7 @@ $Lexicon = {
       'morphs' => 'FaCCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'Annaba (Alg.)'
+        'Annaba'
       ],
       'orig' => 'Ean~Abap',
       'prefix' => ''
@@ -30376,7 +30394,11 @@ $Lexicon = {
         '>En     >aEin~  Nap     reins',
         'AEn     >aEin~  Nap     reins'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a`inn' => [
+          'HaFiCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -37190,6 +37212,9 @@ $Lexicon = {
         'EqbAn   EiqobAn N       eagles'
       ],
       'patterns' => {
+        '\'a`qub' => [
+          'HaFCuL'
+        ],
         '`iqbAn' => [
           'FiCLAn'
         ]
@@ -50123,6 +50148,9 @@ $Lexicon = {
         'AESAr   >aEoSAr N       ages;periods;epochs'
       ],
       'patterns' => {
+        '\'a`.sur' => [
+          'HaFCuL'
+        ],
         '`u.suwr' => [
           'FuCUL'
         ],
@@ -56804,6 +56832,9 @@ $Lexicon = {
         'AEyn    >aEoyun N       eyes'
       ],
       'patterns' => {
+        '\'a`yun' => [
+          'HaFCuL'
+        ],
         '`uyuwn' => [
           'FuCUL'
         ]
@@ -58224,6 +58255,9 @@ $Lexicon = {
       'patterns' => {
         '`unuwz' => [
           'FuCUL'
+        ],
+        '\'a`nuz' => [
+          'HaFCuL'
         ],
         '`inAz' => [
           'FiCAL'

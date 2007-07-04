@@ -3045,6 +3045,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- hilAl -}            [ "crescent", unwords [ "new", "moon" ] ]
                               `plural`     HaFACIL
+                              `plural`     HaFiCL |< aT
                            {- `others`  [ "'ahAliyl Ndip" ] -},
 
     -- ;; hilAl_2
@@ -3491,7 +3492,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hum_1
     -- hm      hum     FW-Wa   they [masc.pl]       [[hum/PRON_3MP]]
 
-    FuL                       `pron`    {- hum -}              [ unwords [ "they", "[masc.pl]" ] ],
+    FuL                       `pron`    {- hum -}              [ "they" ],
 
     -- ;; ham~-u_1
     -- hm      ham~    PV_V    be ready;intend
@@ -3708,7 +3709,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hum_1
     -- hm      hum     FW-Wa   they [masc.pl]       [[hum/PRON_3MP]]
 
-    FuC                       `pron`    {- hum -}              [ unwords [ "they", "[masc.pl]" ] ],
+    FuC                       `pron`    {- hum -}              [ "they" ],
 
     -- ;; hamA-u_1
     -- hmA     hamA    PV_0    flow;pour
@@ -4117,7 +4118,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hun~a_1
     -- hn      hun~a   FW-Wa   they [fem.pl.]       [[hun~a/PRON_3FP]]
 
-    FuCL |<< "a"              `pron`    {- hun~a -}            [ unwords [ "they", "[fem.pl.]" ] ],
+    FuCL |<< "a"              `pron`    {- hun~a -}            [ "they" ],
 
     -- ;; han~-i_1
     -- hn      han~    PV_V_intr       weep;sigh;yearn
@@ -4656,9 +4657,9 @@ lexicon = listing "Lexicon's properties"
     FaCALI                    `noun`    {- harAriy -}          [ "Harare" ],
 
     -- ;; harawiy~_1
-    -- hrwy    harawiy~        Nall    of/from Herat (Afgh.)     [[harawiy~/ADJ]]
+    -- hrwy    harawiy~        Nall    of/from Herat      [[harawiy~/ADJ]]
 
-    FaL |<< "awIy"            `adj`     {- harawiy~ -}         [ unwords [ "of", "/", "from", "Herat", "(", "Afgh.", ")" ] ] ]
+    FaL |<< "awIy"            `adj`     {- harawiy~ -}         [ unwords [ "of", "/", "from", "Herat" ] ] ]
 
  |> "h r s" <| [
 
@@ -4735,14 +4736,14 @@ lexicon = listing "Lexicon's properties"
     FaCALI                    `noun`    {- harAwiy -}          [ "Hrawi" ],
 
     -- ;; harAp_1
-    -- hrA     harA    Nap     Herat (Afgh.)
+    -- hrA     harA    Nap     Herat
 
-    FaCY |< aT                `noun`    {- harAp -}            [ unwords [ "Herat", "(", "Afgh.", ")" ] ],
+    FaCY |< aT                `noun`    {- harAp -}            [ "Herat" ],
 
     -- ;; harawiy~_1
-    -- hrwy    harawiy~        Nall    of/from Herat (Afgh.)     [[harawiy~/ADJ]]
+    -- hrwy    harawiy~        Nall    of/from Herat      [[harawiy~/ADJ]]
 
-    FaC |<< "awIy"            `adj`     {- harawiy~ -}         [ unwords [ "of", "/", "from", "Herat", "(", "Afgh.", ")" ] ] ]
+    FaC |<< "awIy"            `adj`     {- harawiy~ -}         [ unwords [ "of", "/", "from", "Herat" ] ] ]
 
  |> "h r w l" <| [
 
@@ -5064,9 +5065,9 @@ lexicon = listing "Lexicon's properties"
     MustaFCaL                 `adj`     {- musotahotar -}      [ "infatuated" ],
 
     -- ;; hAtuwr_1
-    -- hAtwr   hAtuwr  Ndip    Hator (3rd Coptic month, Nov. 10-Dec. 9)
+    -- hAtwr   hAtuwr  Ndip    Hator
 
-    FACUL                     `noun`    {- hAtuwr -}           [ unwords [ "Hator", "(", "3rd", "Coptic", "month,", "Nov.", "10", "-", "Dec.", "9", ")" ] ] ]
+    FACUL                     `noun`    {- hAtuwr -}           [ "Hator" ] ]
 
  |> "h w '" <| [
 
@@ -7380,63 +7381,63 @@ lexicon = listing "Lexicon's properties"
     -- ;; hAgAnA_1
     -- hAgAnA  hAgAnA  N0      Hagana
 
-    Identity                  `noun`    {- hAgAnA -}           [ "Hagana" ] ]
+    Identity                  `noun`    {- hAgAnA -}           [ "" {- "Hagana" -} ] ]
 
  |> "hA^sImUtU" <| [
 
     -- ;; hA$iymuwtuw_1
     -- hA$ymwtw        hA$iymuwtuw     Nprop   Hashimoto
 
-    Identity                  `noun`    {- hA$iymuwtuw -}      [ "Hashimoto" ] ]
+    Identity                  `noun`    {- hA$iymuwtuw -}      [ "" {- "Hashimoto" -} ] ]
 
  |> "hAbIl" <| [
 
     -- ;; hAbiyl_1
     -- hAbyl   hAbiyl  Nprop   Habil;Abel
 
-    Identity                  `noun`    {- hAbiyl -}           [ "Habil", "Abel" ] ]
+    Identity                  `noun`    {- hAbiyl -}           [ "" {- "Habil" -}, "" {- "Abel" -} ] ]
 
  |> "hAfAnA" <| [
 
     -- ;; hAfAnA_1
     -- hAfAnA  hAfAnA  Nprop   Havana
 
-    Identity                  `noun`    {- hAfAnA -}           [ "Havana" ] ]
+    Identity                  `noun`    {- hAfAnA -}           [ "" {- "Havana" -} ] ]
 
  |> "hAfIlAn^g" <| [
 
     -- ;; hAfiylAnj_1
     -- hAfylAnj        hAfiylAnj       Nprop   Havilang
 
-    Identity                  `noun`    {- hAfiylAnj -}        [ "Havilang" ] ]
+    Identity                  `noun`    {- hAfiylAnj -}        [ "" {- "Havilang" -} ] ]
 
  |> "hAfIlAnd" <| [
 
     -- ;; hAfiylAnd_1
     -- hAfylAnd        hAfiylAnd       Nprop   Haviland
 
-    Identity                  `noun`    {- hAfiylAnd -}        [ "Haviland" ] ]
+    Identity                  `noun`    {- hAfiylAnd -}        [ "" {- "Haviland" -} ] ]
 
  |> "hAkAn" <| [
 
     -- ;; hAkAn_1
     -- hAkAn   hAkAn   Nprop   Hakan
 
-    Identity                  `noun`    {- hAkAn -}            [ "Hakan" ] ]
+    Identity                  `noun`    {- hAkAn -}            [ "" {- "Hakan" -} ] ]
 
  |> "hAlAr" <| [
 
     -- ;; hAlAr_1
     -- hAlAr   hAlAr   Nprop   Halard
 
-    Identity                  `noun`    {- hAlAr -}            [ "Halard" ] ]
+    Identity                  `noun`    {- hAlAr -}            [ "" {- "Halard" -} ] ]
 
  |> "hAlIfI" <| [
 
     -- ;; hAliyfiy_1
     -- hAlyfy  hAliyfiy        Nprop   Halevi;Halevy
 
-    Identity                  `noun`    {- hAliyfiy -}         [ "Halevi", "Halevy" ] ]
+    Identity                  `noun`    {- hAliyfiy -}         [ "" {- "Halevi" -}, "" {- "Halevy" -} ] ]
 
  |> "hAmbUr.g" <| [
 
@@ -7444,7 +7445,7 @@ lexicon = listing "Lexicon's properties"
     -- hAmbwrg hAmobuwrog      Nprop   Hamburg
     -- hAmbwrj hAmobuwroj      Nprop   Hamburg
 
-    Identity                  `noun`    {- hAmobuwrog -}       [ "Hamburg" ] ]
+    Identity                  `noun`    {- hAmobuwrog -}       [ "" {- "Hamburg" -} ] ]
 
  |> "hAnUfir" <| [
 
@@ -7452,70 +7453,70 @@ lexicon = listing "Lexicon's properties"
     -- hAnwfr  hAnuwfir        Nprop   Hannover
     -- hAnwfyr hAnuwfiyr       Nprop   Hannover
 
-    Identity                  `noun`    {- hAnuwfir -}         [ "Hannover" ] ]
+    Identity                  `noun`    {- hAnuwfir -}         [ "" {- "Hannover" -} ] ]
 
  |> "hAnt^sk" <| [
 
     -- ;; hAnot$k_1
     -- hAnt$k  hAnot$k Nprop   Hantschk
 
-    Identity                  `noun`    {- hAnot$k -}          [ "Hantschk" ] ]
+    Identity                  `noun`    {- hAnot$k -}          [ "" {- "Hantschk" -} ] ]
 
  |> "hAnzA" <| [
 
     -- ;; hAnozA_1
     -- hAnzA   hAnozA  Nprop   Hansa
 
-    Identity                  `noun`    {- hAnozA -}           [ "Hansa" ] ]
+    Identity                  `noun`    {- hAnozA -}           [ "" {- "Hansa" -} ] ]
 
  |> "hArIl" <| [
 
     -- ;; hAriyl_1
     -- hAryl   hAriyl  Nprop   Harel
 
-    Identity                  `noun`    {- hAriyl -}           [ "Harel" ] ]
+    Identity                  `noun`    {- hAriyl -}           [ "" {- "Harel" -} ] ]
 
  |> "hArIs" <| [
 
     -- ;; hAriys_1
     -- hArys   hAriys  Nprop   Harris
 
-    Identity                  `noun`    {- hAriys -}           [ "Harris" ] ]
+    Identity                  `noun`    {- hAriys -}           [ "" {- "Harris" -} ] ]
 
  |> "hArdAwAy" <| [
 
     -- ;; hArodAwAy_1
     -- hArdAwAy        hArodAwAy       Nprop   Hardaway
 
-    Identity                  `noun`    {- hArodAwAy -}        [ "Hardaway" ] ]
+    Identity                  `noun`    {- hArodAwAy -}        [ "" {- "Hardaway" -} ] ]
 
  |> "hArfI" <| [
 
     -- ;; hArofiy_1
     -- hArfy   hArofiy Nprop   Harvey
 
-    Identity                  `noun`    {- hArofiy -}          [ "Harvey" ] ]
+    Identity                  `noun`    {- hArofiy -}          [ "" {- "Harvey" -} ] ]
 
  |> "hArfard" <| [
 
     -- ;; hArofarod_1
     -- hArfrd  hArofarod       Nprop   Harvard
 
-    Identity                  `noun`    {- hArofarod -}        [ "Harvard" ] ]
+    Identity                  `noun`    {- hArofarod -}        [ "" {- "Harvard" -} ] ]
 
  |> "hArts" <| [
 
     -- ;; hArots_1
     -- hArts   hArots  N0      Hearts
 
-    Identity                  `noun`    {- hArots -}           [ "Hearts" ] ]
+    Identity                  `noun`    {- hArots -}           [ "" {- "Hearts" -} ] ]
 
  |> "hAt^sInsUn" <| [
 
     -- ;; hAto$iynosuwn_1
     -- hAt$ynswn       hAto$iynosuwn   Nprop   Hutchinson
 
-    Identity                  `noun`    {- hAto$iynosuwn -}    [ "Hutchinson" ] ]
+    Identity                  `noun`    {- hAto$iynosuwn -}    [ "" {- "Hutchinson" -} ] ]
 
  |> "hAwA'I" <| [
 
@@ -7524,7 +7525,7 @@ lexicon = listing "Lexicon's properties"
     -- hAwAy   hAwAy   N0      Hawaii
     -- hAwAyy  hAwAyiy N0      Hawaii
 
-    Identity                  `noun`    {- hAwA}iy -}          [ "Hawaii" ] ]
+    Identity                  `noun`    {- hAwA}iy -}          [ "" {- "Hawaii" -} ] ]
 
  |> "hAward" <| [
 
@@ -7532,7 +7533,7 @@ lexicon = listing "Lexicon's properties"
     -- hAwrd   hAward  Nprop   Howard
     -- hwArd   hawArd  Nprop   Howard
 
-    Identity                  `noun`    {- hAward -}           [ "Howard" ] ]
+    Identity                  `noun`    {- hAward -}           [ "" {- "Howard" -} ] ]
 
  |> "hAwun" <| [
 
@@ -7550,14 +7551,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; hAytiy_1
     -- hAyty   hAytiy  N0      Haiti
 
-    Identity                  `noun`    {- hAytiy -}           [ "Haiti" ] ]
+    Identity                  `noun`    {- hAytiy -}           [ "" {- "Haiti" -} ] ]
 
  |> "hIdrA" <| [
 
     -- ;; hiydrA_1
     -- hydrA   hiydrA  Nprop   Hydra
 
-    Identity                  `noun`    {- hiydrA -}           [ "Hydra" ] ]
+    Identity                  `noun`    {- hiydrA -}           [ "" {- "Hydra" -} ] ]
 
  |> "hIdrU" <| [
 
@@ -7593,14 +7594,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; hiykotuwr_1
     -- hyktwr  hiykotuwr       Nprop   Hector
 
-    Identity                  `noun`    {- hiykotuwr -}        [ "Hector" ] ]
+    Identity                  `noun`    {- hiykotuwr -}        [ "" {- "Hector" -} ] ]
 
  |> "hIlArI" <| [
 
     -- ;; hiylAriy_1
     -- hylAry  hiylAriy        Nprop   Hillary
 
-    Identity                  `noun`    {- hiylAriy -}         [ "Hillary" ] ]
+    Identity                  `noun`    {- hiylAriy -}         [ "" {- "Hillary" -} ] ]
 
  |> "hIlIkUbtar" <| [
 
@@ -7621,7 +7622,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hiynogiys_1
     -- hyngys  hiynogiys       Nprop   Hingis
 
-    Identity                  `noun`    {- hiynogiys -}        [ "Hingis" ] ]
+    Identity                  `noun`    {- hiynogiys -}        [ "" {- "Hingis" -} ] ]
 
  |> "hIrA.tIq" <| [
 
@@ -7642,21 +7643,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; hiyruw$iymA_1
     -- hyrw$ymA        hiyruw$iymA     Nprop   Hiroshima
 
-    Identity                  `noun`    {- hiyruw$iymA -}      [ "Hiroshima" ] ]
+    Identity                  `noun`    {- hiyruw$iymA -}      [ "" {- "Hiroshima" -} ] ]
 
  |> "hIrUt^sI" <| [
 
     -- ;; hiyruwt$iy_1
     -- hyrwt$y hiyruwt$iy      Nprop   Hiroshi
 
-    Identity                  `noun`    {- hiyruwt$iy -}       [ "Hiroshi" ] ]
+    Identity                  `noun`    {- hiyruwt$iy -}       [ "" {- "Hiroshi" -} ] ]
 
  |> "hIrtz" <| [
 
     -- ;; hiyrotz_1
     -- hyrtz   hiyrotz NduAt   hertz;Hz
 
-    Identity                  `noun`    {- hiyrotz -}          [ "hertz", "Hz" ] ]
+    Identity                  `noun`    {- hiyrotz -}          [ "hertz", "" {- "Hz" -} ] ]
 
  |> "hIruwIn" <| [
 
@@ -7671,21 +7672,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; hiysb_1
     -- hysb    hiysb   Nprop   Hesp
 
-    Identity                  `noun`    {- hiysb -}            [ "Hesp" ] ]
+    Identity                  `noun`    {- hiysb -}            [ "" {- "Hesp" -} ] ]
 
  |> "hIskI" <| [
 
     -- ;; hiysokiy_1
     -- hysky   hiysokiy        N0      Heskey
 
-    Identity                  `noun`    {- hiysokiy -}         [ "Heskey" ] ]
+    Identity                  `noun`    {- hiysokiy -}         [ "" {- "Heskey" -} ] ]
 
  |> "hUbsUn" <| [
 
     -- ;; huwbsuwn_1
     -- hwbswn  huwbsuwn        Nprop   Hobson
 
-    Identity                  `noun`    {- huwbsuwn -}         [ "Hobson" ] ]
+    Identity                  `noun`    {- huwbsuwn -}         [ "" {- "Hobson" -} ] ]
 
  |> "hUlAnd" <| [
 
@@ -7695,7 +7696,7 @@ lexicon = listing "Lexicon's properties"
     -- hwlndy  huwlanodiy~     Nall    Dutch                     [[huwlanodiy~/NOUN]]
     -- hwlndy  huwlanodiy~     Nall    Dutch;of/from Holland     [[huwlanodiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- huwlAnodiy~ -}      [ "Dutch", unwords [ "of", "/", "from", "Holland" ] ] ]
+    Identity |< Iy            `adj`     {- huwlAnodiy~ -}      [ "" {- "Dutch" -}, unwords [ "of", "/", "from", "" {- "Holland" -} ] ] ]
 
  |> "hUlAndA" <| [
 
@@ -7705,7 +7706,7 @@ lexicon = listing "Lexicon's properties"
     -- hwlndA  huwlanodA       N0      Holland
     -- hwlndh  huwlanodah      N0      Holland
 
-    Identity                  `noun`    {- huwlAnodA -}        [ "Holland" ] ]
+    Identity                  `noun`    {- huwlAnodA -}        [ "" {- "Holland" -} ] ]
 
  |> "hUlIwUd" <| [
 
@@ -7713,28 +7714,28 @@ lexicon = listing "Lexicon's properties"
     -- hwlywwd huwliywuwd      N0      Hollywood
     -- hwlywd  huwliywud       N0      Hollywood
 
-    Identity                  `noun`    {- huwliywuwd -}       [ "Hollywood" ] ]
+    Identity                  `noun`    {- huwliywuwd -}       [ "" {- "Hollywood" -} ] ]
 
  |> "hUlbrUk" <| [
 
     -- ;; huwlobruwk_1
     -- hwlbrwk huwlobruwk      Nprop   Holbrooke
 
-    Identity                  `noun`    {- huwlobruwk -}       [ "Holbrooke" ] ]
+    Identity                  `noun`    {- huwlobruwk -}       [ "" {- "Holbrooke" -} ] ]
 
  |> "hUlmAn" <| [
 
     -- ;; huwlomAn_1
     -- hwlmAn  huwlomAn        Nprop   Holeman;Hallman
 
-    Identity                  `noun`    {- huwlomAn -}         [ "Holeman", "Hallman" ] ]
+    Identity                  `noun`    {- huwlomAn -}         [ "" {- "Holeman" -}, "" {- "Hallman" -} ] ]
 
  |> "hUnUlUlU" <| [
 
     -- ;; huwnuwluwluw_1
     -- hwnwlwlw        huwnuwluwluw    Nprop   Honolulu
 
-    Identity                  `noun`    {- huwnuwluwluw -}     [ "Honolulu" ] ]
+    Identity                  `noun`    {- huwnuwluwluw -}     [ "" {- "Honolulu" -} ] ]
 
  |> "hUn^g" <| [
 
@@ -7742,14 +7743,14 @@ lexicon = listing "Lexicon's properties"
     -- hwnj    huwnoj  N0      Hong
     -- hwng    huwnog  N0      Hong
 
-    Identity                  `noun`    {- huwnoj -}           [ "Hong" ] ]
+    Identity                  `noun`    {- huwnoj -}           [ "" {- "Hong" -} ] ]
 
  |> "hUndA" <| [
 
     -- ;; huwnodA_1
     -- hwndA   huwnodA N0      Honda
 
-    Identity                  `noun`    {- huwnodA -}          [ "Honda" ] ]
+    Identity                  `noun`    {- huwnodA -}          [ "" {- "Honda" -} ] ]
 
  |> "hUndUr" <| [
 
@@ -7759,7 +7760,7 @@ lexicon = listing "Lexicon's properties"
     -- hwndwry huwnoduwriy~    Nall    Honduran     [[huwnoduwriy~/ADJ]]
     -- hndwry  hunoduwriy~     Nall    Honduran     [[hunoduwriy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- huwnoduwriy~ -}     [ "Honduran" ] ]
+    Identity |< Iy            `adj`     {- huwnoduwriy~ -}     [ "" {- "Honduran" -} ] ]
 
  |> "hUndUrAs" <| [
 
@@ -7767,7 +7768,7 @@ lexicon = listing "Lexicon's properties"
     -- hwndwrAs        huwnoduwrAs     N0      Honduras
     -- hndwrAs hunoduwrAs      N0      Honduras
 
-    Identity                  `noun`    {- huwnoduwrAs -}      [ "Honduras" ] ]
+    Identity                  `noun`    {- huwnoduwrAs -}      [ "" {- "Honduras" -} ] ]
 
  |> "hUrmUn" <| [
 
@@ -7788,21 +7789,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; huwrosot_1
     -- hwrst   huwrosot        Nprop   Horst
 
-    Identity                  `noun`    {- huwrosot -}         [ "Horst" ] ]
+    Identity                  `noun`    {- huwrosot -}         [ "" {- "Horst" -} ] ]
 
  |> "hUtUmU" <| [
 
     -- ;; huwtuwmuw_1
     -- hwtwmw  huwtuwmuw       Nprop   Hutomo
 
-    Identity                  `noun`    {- huwtuwmuw -}        [ "Hutomo" ] ]
+    Identity                  `noun`    {- huwtuwmuw -}        [ "" {- "Hutomo" -} ] ]
 
  |> "hUyAmA" <| [
 
     -- ;; huwyAmA_1
     -- hwyAmA  huwyAmA Nprop   Hoyama
 
-    Identity                  `noun`    {- huwyAmA -}          [ "Hoyama" ] ]
+    Identity                  `noun`    {- huwyAmA -}          [ "" {- "Hoyama" -} ] ]
 
  |> "h_a_dA" <| [
 
@@ -7826,7 +7827,7 @@ lexicon = listing "Lexicon's properties"
     -- h|rts   ha|rits Nprop   Haaretz
     -- hArts   ha|rits Nprop   Haaretz
 
-    Identity                  `noun`    {- ha|rits -}          [ "Haaretz" ] ]
+    Identity                  `noun`    {- ha|rits -}          [ "" {- "Haaretz" -} ] ]
 
  |> "hadAdayk" <| [
 
@@ -7887,7 +7888,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hayojA_1
     -- hyjA    hayojA  N0      Haija
 
-    Identity                  `noun`    {- hayojA -}           [ "Haija" ] ]
+    Identity                  `noun`    {- hayojA -}           [ "" {- "Haija" -} ] ]
 
  |> "haydrUkarbUn" <| [
 
@@ -7950,7 +7951,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hidAyat_1
     -- hdAyt   hidAyat Nprop   Hedayet
 
-    Identity                  `noun`    {- hidAyat -}          [ "Hedayet" ] ]
+    Identity                  `noun`    {- hidAyat -}          [ "" {- "Hedayet" -} ] ]
 
  |> "hilInist" <| [
 
@@ -7958,7 +7959,7 @@ lexicon = listing "Lexicon's properties"
     -- hlynsty hiliynisotiy~   Nall    Hellenistic     [[hiliynisotiy~/NOUN]]
     -- hlynsty hiliynisotiy~   Nall    Hellenistic     [[hiliynisotiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- hiliynisotiy~ -}    [ "Hellenistic" ] ]
+    Identity |< Iy            `adj`     {- hiliynisotiy~ -}    [ "" {- "Hellenistic" -} ] ]
 
  |> "hilikUbtar" <| [
 
@@ -7988,7 +7989,7 @@ lexicon = listing "Lexicon's properties"
     -- hlsnky  hilosinkiy      N0      Helsinki
     -- hlsynky hilosiynkiy     N0      Helsinki
 
-    Identity                  `noun`    {- hilosinkiy -}       [ "Helsinki" ] ]
+    Identity                  `noun`    {- hilosinkiy -}       [ "" {- "Helsinki" -} ] ]
 
  |> "hilyUskUb" <| [
 
@@ -8003,7 +8004,7 @@ lexicon = listing "Lexicon's properties"
     -- hmlAyA  himalAyA        N0      Himalayas;Himalayan
     -- hmAlAyA himAlAyA        N0      Himalayas;Himalayan
 
-    Identity                  `noun`    {- himalAyA -}         [ "Himalayas", "Himalayan" ] ]
+    Identity                  `noun`    {- himalAyA -}         [ "" {- "Himalayas" -}, "" {- "Himalayan" -} ] ]
 
  |> "hindab" <| [
 
@@ -8020,14 +8021,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; hinodriyks_1
     -- hndryks hinodriyks      Nprop   Hendricks
 
-    Identity                  `noun`    {- hinodriyks -}       [ "Hendricks" ] ]
+    Identity                  `noun`    {- hinodriyks -}       [ "" {- "Hendricks" -} ] ]
 
  |> "hinriyItA" <| [
 
     -- ;; hinoriyiytA_1
     -- hnryytA hinoriyiytA     Nprop   Henrieta;Henrietta
 
-    Identity                  `noun`    {- hinoriyiytA -}      [ "Henrieta", "Henrietta" ] ]
+    Identity                  `noun`    {- hinoriyiytA -}      [ "" {- "Henrieta" -}, "" {- "Henrietta" -} ] ]
 
  |> "hiraql" <| [
 
@@ -8035,7 +8036,7 @@ lexicon = listing "Lexicon's properties"
     -- hrql    hiraqol Nprop   Hercules;Heraclius
     -- hrql    hiroqil Nprop   Hercules;Heraclius
 
-    Identity                  `noun`    {- hiraqol -}          [ "Hercules", "Heraclius" ] ]
+    Identity                  `noun`    {- hiraqol -}          [ "" {- "Hercules" -}, "" {- "Heraclius" -} ] ]
 
  |> "histIriyA" <| [
 
@@ -8058,42 +8059,42 @@ lexicon = listing "Lexicon's properties"
     -- htlr    hitolar Nprop   Hitler
     -- hytlr   hiytolar        Nprop   Hitler
 
-    Identity                  `noun`    {- hitolar -}          [ "Hitler" ] ]
+    Identity                  `noun`    {- hitolar -}          [ "" {- "Hitler" -} ] ]
 
  |> "hiyU" <| [
 
     -- ;; hiyuw_1
     -- hyw     hiyuw   Nprop   Hugh
 
-    Identity                  `noun`    {- hiyuw -}            [ "Hugh" ] ]
+    Identity                  `noun`    {- hiyuw -}            [ "" {- "Hugh" -} ] ]
 
  |> "hiyUn" <| [
 
     -- ;; hiyuwn_1
     -- hywn    hiyuwn  Nprop   Hyun
 
-    Identity                  `noun`    {- hiyuwn -}           [ "Hyun" ] ]
+    Identity                  `noun`    {- hiyuwn -}           [ "" {- "Hyun" -} ] ]
 
  |> "hiyUrAkAn" <| [
 
     -- ;; hiyuwrAkAn_1
     -- hywrAkAn        hiyuwrAkAn      Nprop   Huracan
 
-    Identity                  `noun`    {- hiyuwrAkAn -}       [ "Huracan" ] ]
+    Identity                  `noun`    {- hiyuwrAkAn -}       [ "" {- "Huracan" -} ] ]
 
  |> "hiyUstun" <| [
 
     -- ;; hiyuwsotun_1
     -- hywstn  hiyuwsotun      Nprop   Houston
 
-    Identity                  `noun`    {- hiyuwsotun -}       [ "Houston" ] ]
+    Identity                  `noun`    {- hiyuwsotun -}       [ "" {- "Houston" -} ] ]
 
  |> "hiyUz" <| [
 
     -- ;; hiyuwz_1
     -- hywz    hiyuwz  Nprop   Hughes
 
-    Identity                  `noun`    {- hiyuwz -}           [ "Hughes" ] ]
+    Identity                  `noun`    {- hiyuwz -}           [ "" {- "Hughes" -} ] ]
 
  |> "hizabr" <| [
 
@@ -8107,21 +8108,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; hizabor_2
     -- hzbr    hizabor Nprop   Hizabr
 
-    Identity                  `noun`    {- hizabor -}          [ "Hizabr" ] ]
+    Identity                  `noun`    {- hizabor -}          [ "" {- "Hizabr" -} ] ]
 
  |> "hrIstU" <| [
 
     -- ;; hriystuw_1
     -- hrystw  hriystuw        Nprop   Hristo
 
-    Identity                  `noun`    {- hriystuw -}         [ "Hristo" ] ]
+    Identity                  `noun`    {- hriystuw -}         [ "" {- "Hristo" -} ] ]
 
  |> "hrbAtI" <| [
 
     -- ;; hrbAtiy_1
     -- hrbAty  hrbAtiy Nprop   Hrbaty
 
-    Identity                  `noun`    {- hrbAtiy -}          [ "Hrbaty" ] ]
+    Identity                  `noun`    {- hrbAtiy -}          [ "" {- "Hrbaty" -} ] ]
 
  |> "humA" <| [
 
@@ -8143,7 +8144,7 @@ lexicon = listing "Lexicon's properties"
     -- hngAryA hunogAriyA      N0      Hungary
     -- hnjAryA hunojAriyA      N0      Hungary
 
-    Identity                  `noun`    {- hunogAriyA -}       [ "Hungary" ] ]
+    Identity                  `noun`    {- hunogAriyA -}       [ "" {- "Hungary" -} ] ]
 
  |> "hunA" <| [
 
@@ -8179,7 +8180,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mahodAwiy_1
     -- mhdAwy  mahodAwiy       N0      Mahdawi;Mehdawi;Mahdavi;Mehdavi
 
-    Identity                  `noun`    {- mahodAwiy -}        [ "Mahdawi", "Mehdawi", "Mahdavi", "Mehdavi" ] ]
+    Identity                  `noun`    {- mahodAwiy -}        [ "" {- "Mahdawi" -}, "" {- "Mehdawi" -}, "" {- "Mahdavi" -}, "" {- "Mehdavi" -} ] ]
 
  |> "mahraqAn" <| [
 
@@ -8195,7 +8196,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muhan~A_1
     -- mhnA    muhan~A N0      Muhanna
 
-    Identity                  `noun`    {- muhan~A -}          [ "Muhanna" ] ]
+    Identity                  `noun`    {- muhan~A -}          [ "" {- "Muhanna" -} ] ]
 
  |> "muhrAq" <| [
 

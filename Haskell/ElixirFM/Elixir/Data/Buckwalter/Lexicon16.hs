@@ -1066,7 +1066,8 @@ lexicon = listing "Lexicon's properties"
     -- >Tb     >aTib~  Nap     physicians;doctors
     -- ATb     >aTib~  Nap     physicians;doctors
 
-    FaCIL                     `noun`    {- Tabiyb -}           [ "physician", "doctor" ],
+    FaCIL                     `noun`    {- Tabiyb -}           [ "physician", "doctor" ]
+                              `plural`     HaFiCL |< aT,
 
     -- ;; TibAbap_1
     -- TbAb    TibAb   Nap     medical profession;medical treatment
@@ -3206,9 +3207,9 @@ lexicon = listing "Lexicon's properties"
  |> ".t n .t '" <| [
 
     -- ;; TanoTAwiy~_1
-    -- TnTAwy  TanoTAwiy~      Nall    from/of Tanta [Egy.]     [[TanoTAwiy~/ADJ]]
+    -- TnTAwy  TanoTAwiy~      Nall    from/of Tanta      [[TanoTAwiy~/ADJ]]
 
-    KaRDAS |< Iy              `adj`     {- TanoTAwiy~ -}       [ unwords [ "from", "/", "of", "Tanta", "[Egy.]" ] ],
+    KaRDAS |< Iy              `adj`     {- TanoTAwiy~ -}       [ unwords [ "from", "/", "of", "Tanta" ] ],
 
     -- ;; TanoTAwiy~_2
     -- TnTAwy  TanoTAwiy~      N0      Tantawi;Tantaoui
@@ -3468,8 +3469,9 @@ lexicon = listing "Lexicon's properties"
     -- ATqm    >aToqum N       series;sets
 
     FaCL                      `noun`    {- Taqom -}            [ "collection", "series", "set" ]
+                              `plural`     HaFCuL
                               `plural`     FuCUL |< aT
-                           {- `others`  [ ".tuquwm N" ] -},
+                           {- `others`  [ "'a.tqum N", ".tuquwm N" ] -},
 
     -- ;; TAqim_1
     -- TAqm    TAqim   Ndu     crew
@@ -3478,8 +3480,9 @@ lexicon = listing "Lexicon's properties"
     -- ATqm    >aToqum N       crew
 
     FACiL                     `noun`    {- TAqim -}            [ "crew" ]
+                              `plural`     HaFCuL
                               `plural`     FawACiL
-                           {- `others`  [ ".tawAqim Ndip" ] -},
+                           {- `others`  [ "'a.tqum N", ".tawAqim Ndip" ] -},
 
     -- ;; taToqiym_1
     -- tTqym   taToqiym        N/At    harnessing;bridling
@@ -3851,14 +3854,14 @@ lexicon = listing "Lexicon's properties"
  |> ".t r .t s" <| [
 
     -- ;; TaroTuws_1
-    -- TrTws   TaroTuws        Ndip    Tartous (Syr.)
+    -- TrTws   TaroTuws        Ndip    Tartous
 
-    KaRDUS                    `noun`    {- TaroTuws -}         [ unwords [ "Tartous", "(", "Syr.", ")" ] ],
+    KaRDUS                    `noun`    {- TaroTuws -}         [ "Tartous" ],
 
     -- ;; TaroTuwsiy~_1
-    -- TrTwsy  TaroTuwsiy~     Nall    of/from Tartous (Syr.)
+    -- TrTwsy  TaroTuwsiy~     Nall    of/from Tartous
 
-    KaRDUS |< Iy              `adj`     {- TaroTuwsiy~ -}      [ unwords [ "of", "/", "from", "Tartous", "(", "Syr.", ")" ] ],
+    KaRDUS |< Iy              `adj`     {- TaroTuwsiy~ -}      [ unwords [ "of", "/", "from", "Tartous" ] ],
 
     -- ;; TaroTuwsiy~_2
     -- TrTwsy  TaroTuwsiy~     N0      Tartousi
@@ -5067,9 +5070,9 @@ lexicon = listing "Lexicon's properties"
     FUL                       `noun`    {- Tuwb -}             [ "brick" ],
 
     -- ;; Tuwbap_1
-    -- Twbp    Tuwbap  N0      Tuba (5th Coptic month, Jan. 9-Feb. 7)
+    -- Twbp    Tuwbap  N0      Tuba
 
-    FUL |< aT                 `noun`    {- Tuwbap -}           [ unwords [ "Tuba", "(", "5th", "Coptic", "month,", "Jan.", "9", "-", "Feb.", "7", ")" ] ],
+    FUL |< aT                 `noun`    {- Tuwbap -}           [ "Tuba" ],
 
     -- ;; Taw~Ab_1
     -- TwAb    Taw~Ab  Nall    brick-maker
@@ -6325,12 +6328,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; TAjiyk_1
     -- TAjyk   TAjiyk  N0      Tajiks
 
-    Identity                  `noun`    {- TAjiyk -}           [ "Tajiks" ],
+    Identity                  `noun`    {- TAjiyk -}           [ "" {- "Tajiks" -} ],
 
     -- ;; TAjiykiy~_1
     -- TAjyky  TAjiykiy~       Nall    Tajik
 
-    Identity |< Iy            `adj`     {- TAjiykiy~ -}        [ "Tajik" ] ]
+    Identity |< Iy            `adj`     {- TAjiykiy~ -}        [ "" {- "Tajik" -} ] ]
 
  |> ".tA^gIkistAn" <| [
 
@@ -6338,7 +6341,7 @@ lexicon = listing "Lexicon's properties"
     -- TAjykstAn       TAjiykisotAn    N0      Tajikistan
     -- tAjykstAn       tAjiykisotAn    N0      Tajikistan
 
-    Identity                  `noun`    {- TAjiykisotAn -}     [ "Tajikistan" ],
+    Identity                  `noun`    {- TAjiykisotAn -}     [ "" {- "Tajikistan" -} ],
 
     -- ;; TAjiykisotAniy~_1
     -- TAjykstAny      TAjiykisotAniy~ Nall    Tajikistani     [[TAjiykisotAniy~/NOUN]]
@@ -6346,7 +6349,7 @@ lexicon = listing "Lexicon's properties"
     -- tAjykstAny      tAjiykisotAniy~ Nall    Tajikistani     [[tAjiykisotAniy~/NOUN]]
     -- tAjykstAny      tAjiykisotAniy~ Nall    Tajikistani     [[tAjiykisotAniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- TAjiykisotAniy~ -}  [ "Tajikistani" ] ]
+    Identity |< Iy            `adj`     {- TAjiykisotAniy~ -}  [ "" {- "Tajikistani" -} ] ]
 
  |> ".tAlamA" <| [
 
@@ -6361,18 +6364,18 @@ lexicon = listing "Lexicon's properties"
     -- ;; TAlibAn_1
     -- TAlbAn  TAlibAn N0      Taleban
 
-    Identity                  `noun`    {- TAlibAn -}          [ "Taleban" ],
+    Identity                  `noun`    {- TAlibAn -}          [ "" {- "Taleban" -} ],
 
     -- ;; TAlibAniy~_1
     -- TAlbAny TAlibAniy~      Nall    Taleban     [[TAlibAniy~/NOUN]]
     -- TAlbAny TAlibAniy~      Nall    Taleban     [[TAlibAniy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- TAlibAniy~ -}       [ "Taleban" ],
+    Identity |< Iy            `adj`     {- TAlibAniy~ -}       [ "" {- "Taleban" -} ],
 
     -- ;; TAlibAniy~_2
     -- TAlbAny TAlibAniy~      N0      Talibani
 
-    Identity |< Iy            `adj`     {- TAlibAniy~ -}       [ "Talibani" ] ]
+    Identity |< Iy            `adj`     {- TAlibAniy~ -}       [ "" {- "Talibani" -} ] ]
 
  |> ".tUb^g" <| [
 
@@ -6392,21 +6395,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; Tuwkiyuw_1
     -- Twkyw   Tuwkiyuw        N0      Tokyo
 
-    Identity                  `noun`    {- Tuwkiyuw -}         [ "Tokyo" ] ]
+    Identity                  `noun`    {- Tuwkiyuw -}         [ "" {- "Tokyo" -} ] ]
 
  |> ".tUlkarm" <| [
 
     -- ;; Tuwlokarm_1
     -- Twlkrm  Tuwlokarm       N0      Tulkarem
 
-    Identity                  `noun`    {- Tuwlokarm -}        [ "Tulkarem" ] ]
+    Identity                  `noun`    {- Tuwlokarm -}        [ "" {- "Tulkarem" -} ] ]
 
  |> ".tUmsUn" <| [
 
     -- ;; Tuwmosuwn_1
     -- Twmswn  Tuwmosuwn       N0      Thomson;Tomson
 
-    Identity                  `noun`    {- Tuwmosuwn -}        [ "Thomson", "Tomson" ] ]
+    Identity                  `noun`    {- Tuwmosuwn -}        [ "" {- "Thomson" -}, "" {- "Tomson" -} ] ]
 
  |> ".tUrbIn" <| [
 
@@ -6425,14 +6428,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; T`ha_1
     -- Th      T`ha    N0      Taha
 
-    Identity |<< "a"          `noun`    {- T`ha -}             [ "Taha" ] ]
+    Identity |<< "a"          `noun`    {- T`ha -}             [ "" {- "Taha" -} ] ]
 
  |> ".ta^sqand" <| [
 
     -- ;; Ta$oqanod_1
     -- T$qnd   Ta$oqanod       Ndip    Tashkent
 
-    Identity                  `noun`    {- Ta$oqanod -}        [ "Tashkent" ] ]
+    Identity                  `noun`    {- Ta$oqanod -}        [ "" {- "Tashkent" -} ] ]
 
  |> ".taban^g" <| [
 
@@ -6453,50 +6456,40 @@ lexicon = listing "Lexicon's properties"
     -- ;; TanoTA_1
     -- TnTA    TanoTA  N0      Tanta
 
-    Identity                  `noun`    {- TanoTA -}           [ "Tanta" ] ]
+    Identity                  `noun`    {- TanoTA -}           [ "" {- "Tanta" -} ] ]
 
  |> ".tarAbizUn" <| [
 
     -- ;; TarAbizuwn_1
     -- TrAbzwn TarAbizuwn      Ndip    Trabzon
 
-    Identity                  `noun`    {- TarAbizuwn -}       [ "Trabzon" ] ]
+    Identity                  `noun`    {- TarAbizuwn -}       [ "" {- "Trabzon" -} ] ]
 
  |> ".tarAbuls" <| [
 
     -- ;; TarAbulosiy~_1
     -- TrAblsy TarAbulosiy~    N0      Tarabulsi
 
-    Identity |< Iy            `adj`     {- TarAbulosiy~ -}     [ "Tarabulsi" ],
+    Identity |< Iy            `adj`     {- TarAbulosiy~ -}     [ "" {- "Tarabulsi" -} ],
 
     -- ;; TarAbulosiy~_2
-    -- TrAblsy TarAbulosiy~    Nall    of/from Tripoli (Libya)    [[TarAbulosiy~/ADJ]]
+    -- TrAblsy TarAbulosiy~    Nall    of/from Tripoli     [[TarAbulosiy~/ADJ]]
 
-    Identity |< Iy            `adj`     {- TarAbulosiy~ -}     [ unwords [ "of", "/", "from", "Tripoli", "(", "Libya", ")" ] ],
-
-    -- ;; TarAbulosiy~_3
-    -- TrAblsy TarAbulosiy~    Nall    of/from Tripoli (Leb.)    [[TarAbulosiy~/ADJ]]
-
-    Identity |< Iy            `adj`     {- TarAbulosiy~ -}     [ unwords [ "of", "/", "from", "Tripoli", "(", "Leb.", ")" ] ] ]
+    Identity |< Iy            `adj`     {- TarAbulosiy~ -}     [ unwords [ "of", "/", "from", "" {- "Tripoli" -} ] ] ]
 
  |> ".tarAbulus" <| [
 
     -- ;; TarAbulus_1
-    -- TrAbls  TarAbulus       Ndip    Tripoli (Libya)
+    -- TrAbls  TarAbulus       Ndip    Tripoli
 
-    Identity                  `noun`    {- TarAbulus -}        [ unwords [ "Tripoli", "(", "Libya", ")" ] ],
-
-    -- ;; TarAbulus_2
-    -- TrAbls  TarAbulus       Ndip    Tripoli (Leb.)
-
-    Identity                  `noun`    {- TarAbulus -}        [ unwords [ "Tripoli", "(", "Leb.", ")" ] ] ]
+    Identity                  `noun`    {- TarAbulus -}        [ "" {- "Tripoli" -} ] ]
 
  |> ".tar^sA" <| [
 
     -- ;; Taro$A_1
     -- Tr$A    Taro$A  N0      Tarsha
 
-    Identity                  `noun`    {- Taro$A -}           [ "Tarsha" ] ]
+    Identity                  `noun`    {- Taro$A -}           [ "" {- "Tarsha" -} ] ]
 
  |> ".tara.tUr" <| [
 
@@ -6556,7 +6549,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; TulayoTilap_1
     -- TlyTl   TulayoTil       Nap     Toledo
 
-    Identity |< aT            `noun`    {- TulayoTilap -}      [ "Toledo" ] ]
+    Identity |< aT            `noun`    {- TulayoTilap -}      [ "" {- "Toledo" -} ] ]
 
  |> ".tum'anIn" <| [
 
@@ -6596,7 +6589,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; minoTAr_1
     -- mnTAr   minoTAr N0      Mintar
 
-    Identity                  `noun`    {- minoTAr -}          [ "Mintar" ] ]
+    Identity                  `noun`    {- minoTAr -}          [ "" {- "Mintar" -} ] ]
 
  |> "mun.tAd" <| [
 

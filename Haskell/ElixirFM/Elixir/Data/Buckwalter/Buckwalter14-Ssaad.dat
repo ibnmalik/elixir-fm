@@ -1880,7 +1880,7 @@ SfSf    SafoSaf N-ap    barren;desolate
 ;; SafoTAwiy~_1
 SfTAwy  SafoTAwiy~      N0      Saftawi
 ;; SafoTAwiy~_2
-SfTAwy  SafoTAwiy~      Nall    from/of Safta (Pal.)     <pos>SafoTAwiy~/ADJ</pos>
+SfTAwy  SafoTAwiy~      Nall    from/of Safta      <pos>SafoTAwiy~/ADJ</pos>
 ;
 ;--- SfE
 ;; SafaE-a_1
@@ -3640,8 +3640,8 @@ mSyd    maSoyad Nap     hunting ground;fishing ground
 mSyd    miSoyad Nap     trap;net
 mSAyd   maSAyid Ndip    traps;nets
 ;; SayodA_1
-SydA    SayodA  N0      Sidon (Leb.)
-SydA'   SayodA' N0      Sidon (Leb.)
+SydA    SayodA  N0      Sidon
+SydA'   SayodA' N0      Sidon
 ;
 ;--- Sydl
 ;; Sayodalap_1

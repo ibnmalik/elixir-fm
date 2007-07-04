@@ -357,7 +357,8 @@ msthtr  musotahotir     Nall    reckless;irresponsible     <pos>musotahotir/ADJ<
 msthtr  musotahotar     Nall    infatuated     <pos>musotahotar/ADJ</pos>
 ;
 ;; hAtuwr_1
-hAtwr   hAtuwr  Ndip    Hator (3rd Coptic month, Nov. 10-Dec. 9)
+hAtwr   hAtuwr  Ndip    Hator
+; (3rd Coptic month, Nov. 10-Dec. 9)
 ;
 ;--- htf
 ;; hataf-i_1
@@ -1606,9 +1607,9 @@ hrAw    hirAw   NAt     sticks;batons;truncheons
 ;; harAwiy_1
 hrAwy   harAwiy N0      Hrawi
 ;; harAp_1
-hrA     harA    Nap     Herat (Afgh.)
+hrA     harA    Nap     Herat
 ;; harawiy~_1
-hrwy    harawiy~        Nall    of/from Herat (Afgh.)     <pos>harawiy~/ADJ</pos>
+hrwy    harawiy~        Nall    of/from Herat      <pos>harawiy~/ADJ</pos>
 ;
 ;--- hrwl
 ;; harowal_1

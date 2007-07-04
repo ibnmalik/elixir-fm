@@ -558,6 +558,9 @@ $Lexicon = {
         'Ajbn    >ajobun N       fronts'
       ],
       'patterns' => {
+        '\'a^gbun' => [
+          'HaFCuL'
+        ],
         '\'a^gbin' => [
           'HaFCiL'
         ]
@@ -7933,7 +7936,14 @@ $Lexicon = {
         '>jn     >ajun~  N       fetuses',
         'Ajn     >ajun~  N       fetuses'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a^ginn' => [
+          'HaFiCL'
+        ],
+        '\'a^gunn' => [
+          'HaFuCL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -13121,28 +13131,6 @@ $Lexicon = {
         'July'
       ],
       'orig' => 'juwiyliy',
-      'prefix' => ''
-    }
-  ],
-  '\'a^gsur' => [
-    {
-      'types' => {},
-      'entry' => '\'a^gsur',
-      'form' => '\'a^gsur',
-      'lines' => [
-        ';; >ajosur_1',
-        '>jsr    >ajosur N       bridges',
-        'Ajsr    >ajosur N       bridges'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bridges'
-      ],
-      'orig' => 'Oajosur',
       'prefix' => ''
     }
   ],
@@ -18914,7 +18902,7 @@ $Lexicon = {
       'form' => '^gara^s',
       'lines' => [
         ';; jara$_1',
-        'jr$     jara$   Ndip    Jerash;Jarash (Jor.)'
+        'jr$     jara$   Ndip    Jerash;Jarash'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18923,7 +18911,7 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [
         'Jerash',
-        'Jarash (Jor.)'
+        'Jarash'
       ],
       'orig' => 'jara$',
       'prefix' => ''
@@ -20591,8 +20579,8 @@ $Lexicon = {
       'form' => '^giyr^gA',
       'lines' => [
         ';; jiyrojA_1',
-        'jyrjA   jiyrojA N0      Jirga (in "Loya Jirga")',
-        'jyrgA   jiyrogA N0      Jirga (in "Loya Jirga")'
+        'jyrjA   jiyrojA N0      Jirga',
+        'jyrgA   jiyrogA N0      Jirga'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20600,7 +20588,7 @@ $Lexicon = {
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
-        'Jirga (in "Loya Jirga")'
+        'Jirga'
       ],
       'orig' => 'jiyrojA',
       'prefix' => ''
@@ -22546,6 +22534,9 @@ $Lexicon = {
       'patterns' => {
         '\'a^gni.h' => [
           'HaFCiL'
+        ],
+        '\'a^gnu.h' => [
+          'HaFCuL'
         ]
       },
       'index' => '1',
@@ -30676,6 +30667,9 @@ $Lexicon = {
         '\'a^gbA.h' => [
           'HaFCAL'
         ],
+        '\'a^gbu.h' => [
+          'HaFCuL'
+        ],
         '^gibA.h' => [
           'FiCAL'
         ]
@@ -37410,6 +37404,26 @@ $Lexicon = {
         '(reinforcement) beams or bars'
       ],
       'orig' => 'jisor',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'a^gsur',
+      'form' => '\'a^gsur',
+      'lines' => [
+        ';; >ajosur_1',
+        '>jsr    >ajosur N       bridges',
+        'Ajsr    >ajosur N       bridges'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFCuL',
+      'suffix' => '',
+      'glosses' => [
+        'bridges'
+      ],
+      'orig' => 'Oajosur',
       'prefix' => ''
     },
     {
