@@ -15,11 +15,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "Ai_tnAn" <| [
 
-    al >| Identity |<< "i"    `adj`     {- AlAivonAni -}       [ "the + two" ] ]
+    al >| Identity |<< "i"    `adj`     {- AlAivonAni -}       [ unwords [ "the", "+", "two" ] ] ]
 
  |> "_t ' r" <| [
 
-    FaCaL                     `verb`    {- vaOar-a -}          [ "avenge", "take revenge" ]
+    FaCaL                     `verb`    {- vaOar-a -}          [ "avenge", unwords [ "take", "revenge" ] ]
                               `imperf`     FCaL,
 
     FaCL                      `noun`    {- vaOor -}            [ "revenge", "retaliation" ]
@@ -50,7 +50,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_t b t" <| [
 
-    FaCaL                     `verb`    {- vabat-u -}          [ "be stable", "be established" ]
+    FaCaL                     `verb`    {- vabat-u -}          [ unwords [ "be", "stable" ], unwords [ "be", "established" ] ]
                               `imperf`     FCuL,
 
     FaCCaL                    `verb`    {- vab~at -}           [ "confirm", "reinforce" ],
@@ -63,7 +63,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCUL |< Iy               `adj`     {- vubuwtiy~ -}        [ "evidential", "supporting" ],
 
-    HaFCaL                    `noun`    {- Oavobat -}          [ "more/most reliable", "steadier" ],
+    HaFCaL                    `noun`    {- Oavobat -}          [ unwords [ "more", "/", "most", "reliable" ], "steadier" ],
 
     TaFCIL                    `noun`    {- tavobiyt -}         [ "substantiation", "stabilization" ]
                               `plural`     TaFCIL |< At,
@@ -73,11 +73,11 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- vAbit -}            [ "established", "proven", "permanent" ],
 
-    FACiL |< aT               `noun`    {- vAbitap -}          [ "fixed star" ]
+    FACiL |< aT               `noun`    {- vAbitap -}          [ unwords [ "fixed", "star" ] ]
                               `plural`     FawACiL
                            {- `others`  [ "_tawAbit Ndip" ] -},
 
-    MuFaCCiL                  `noun`    {- muvab~it -}         [ "fixative", "fixing fluid" ] ]
+    MuFaCCiL                  `noun`    {- muvab~it -}         [ "fixative", unwords [ "fixing", "fluid" ] ] ]
 
  |> "_t b y" <| [
 
@@ -116,7 +116,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_t l _t" <| [
 
-    FuCL                      `noun`    {- vulov -}            [ "one third", "thirds" ]
+    FuCL                      `noun`    {- vulov -}            [ unwords [ "one", "third" ], "thirds" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a_tlA_t N" ] -},
 
@@ -128,7 +128,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCAL |< Iy               `noun`    {- vulAviy~ -}         [ "trio" ],
 
-    FuCAL |< Iy               `adj`     {- vulAviy~ -}         [ "three-part", "trio", "corner (shot)" ],
+    FuCAL |< Iy               `adj`     {- vulAviy~ -}         [ unwords [ "three", "-", "part" ], "trio", unwords [ "corner", "(", "shot", ")" ] ],
 
     MuFaCCaL                  `noun`    {- muval~av -}         [ "triangle", "triple" ] ]
 
@@ -146,9 +146,9 @@ lexicon = listing "Lexicon's properties"
 
     FuCL |<< "a"              `adv`     {- vum~a -}            [ "then", "thereupon" ],
 
-    FaCL |<< "a"              `adv`     {- vam~a -}            [ "therefore", "there (is/are)" ],
+    FaCL |<< "a"              `adv`     {- vam~a -}            [ "therefore", unwords [ "there", "(", "is", "/", "are", ")" ] ],
 
-    FaCL |< aT |<< "a"        `adv`     {- vam~apa -}          [ "there (is/are)" ] ]
+    FaCL |< aT |<< "a"        `adv`     {- vam~apa -}          [ unwords [ "there", "(", "is", "/", "are", ")" ] ] ]
 
  |> "_t m n" <| [
 
@@ -163,14 +163,14 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCAL
                            {- `others`  [ "_timAn N" ] -},
 
-    HaFCaL                    `noun`    {- Oavoman -}          [ "costlier", "more valuable" ],
+    HaFCaL                    `noun`    {- Oavoman -}          [ "costlier", unwords [ "more", "valuable" ] ],
 
     TaFCIL                    `noun`    {- tavomiyn -}         [ "appraisal", "rating" ]
                               `plural`     TaFCIL |< At,
 
     MuFCaL                    `noun`    {- muvoman -}          [ "valuable" ],
 
-    FuCL                      `noun`    {- vumon -}            [ "one-eighth", "eighth" ]
+    FuCL                      `noun`    {- vumon -}            [ unwords [ "one", "-", "eighth" ], "eighth" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a_tmAn N" ] -},
 
@@ -190,7 +190,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_t m r" <| [
 
-    FaCaL                     `verb`    {- vamar-u -}          [ "bear fruit" ]
+    FaCaL                     `verb`    {- vamar-u -}          [ unwords [ "bear", "fruit" ] ]
                               `imperf`     FCuL,
 
     HaFCaL                    `verb`    {- Oavomar -}          [ "result" ],
@@ -264,7 +264,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FACI
                            {- `others`  [ "_tAniy NF" ] -},
 
-    FACI |< aT                `noun`    {- vAniyap -}          [ "second (time span)", "seconds (time span)" ]
+    FACI |< aT                `noun`    {- vAniyap -}          [ unwords [ "second", "(", "time", "span", ")" ], unwords [ "seconds", "(", "time", "span", ")" ] ]
                               `plural`     FawACI
                            {- `others`  [ "_tawAniy N0_Nh" ] -},
 
@@ -343,11 +343,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                            {- `others`  [ "'a_twAb N" ] -},
 
-    MaFAL |< aT               `noun`    {- mavAbap -}          [ "virtually", "tantamount to" ] ]
+    MaFAL |< aT               `noun`    {- mavAbap -}          [ "virtually", unwords [ "tantamount", "to" ] ] ]
 
  |> "_t w m" <| [
 
-    FUL                       `noun`    {- vuwm -}             [ "garlic", "garlic clove" ]
+    FUL                       `noun`    {- vuwm -}             [ "garlic", unwords [ "garlic", "clove" ] ]
                               `plural`     FUL |< At ]
 
  |> "_t w r" <| [
@@ -370,7 +370,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- vaworiy~ -}         [ "revolutionary" ],
 
-    FaCaLAn                   `noun`    {- vawarAn -}          [ "agitation", "flare-up" ],
+    FaCaLAn                   `noun`    {- vawarAn -}          [ "agitation", unwords [ "flare", "-", "up" ] ],
 
     MaFAL                     `noun`    {- mavAr -}            [ "incentive", "motive" ],
 
@@ -384,13 +384,13 @@ lexicon = listing "Lexicon's properties"
 
     MuFIL                     `noun`    {- muviyr -}           [ "influential", "provocative" ],
 
-    MuFIL                     `noun`    {- muviyr -}           [ "provoking", "agitating", "stirring up" ] ]
+    MuFIL                     `noun`    {- muviyr -}           [ "provoking", "agitating", unwords [ "stirring", "up" ] ] ]
 
  |> "_t y r" <| [
 
     MuFIL                     `noun`    {- muviyr -}           [ "influential", "provocative" ],
 
-    MuFIL                     `noun`    {- muviyr -}           [ "provoking", "agitating", "stirring up" ] ]
+    MuFIL                     `noun`    {- muviyr -}           [ "provoking", "agitating", unwords [ "stirring", "up" ] ] ]
 
  |> "_tUrmUnt" <| [
 
@@ -398,7 +398,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_talA_tmA'" <| [
 
-    Identity |< aT            `noun`    {- valAvmA}ap -}       [ "three-hundred" ] ]
+    Identity |< aT            `noun`    {- valAvmA}ap -}       [ unwords [ "three", "-", "hundred" ] ] ]
 
  |> "_tulA_tA'" <| [
 
@@ -406,7 +406,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "i_tnA" <| [
 
-    Identity                  `adj`     {- AivonA -}           [ "(1st word in \"twelve\")" ] ]
+    Identity                  `adj`     {- AivonA -}           [ unwords [ "(", "1st", "word", "in", "\"twelve\"", ")" ] ] ]
 
  |> "i_tnAn" <| [
 
@@ -414,7 +414,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "i_tnatA" <| [
 
-    Identity                  `adj`     {- AivonatA -}         [ "(1st word in \"twelve\")" ] ]
+    Identity                  `adj`     {- AivonatA -}         [ unwords [ "(", "1st", "word", "in", "\"twelve\"", ")" ] ] ]
 
  |> "i_tnatAn" <| [
 

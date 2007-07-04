@@ -11,11 +11,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "mAzAl" <| [
 
-    Identity |<< "a"          `part`    {- mAzAla -}           [ "not + stop/cease + he/it (he/it continues)", "not + stop/cease + they (they both continue)", "not + stop/cease + they (they continue)", "not + stop/cease + it/she/they (it/she/they continue(s))", "not + stop/cease + you (you continue)", "not + stop/cease + you (you both continue)", "not + stop/cease + I (I continue)", "not + stop/cease + we (we continue)" ] ]
+    Identity |<< "a"          `part`    {- mAzAla -}           [ unwords [ "not", "+", "stop", "/", "cease", "+", "he", "/", "it", "(", "he", "/", "it", "continues", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "it", "/", "she", "/", "they", "(", "it", "/", "she", "/", "they", "continue", "(", "s", ")", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "I", "(", "I", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "we", "(", "we", "continue", ")" ] ] ]
 
  |> "yazAl" <| [
 
-    lA >| Identity            `part`    {- lAyazAl -}          [ "not + stop/cease + he/it (he/it continues)", "not + stop/cease + they [masc.du.] (they both continue)", "not + stop/cease + they (they continue)", "not + stop/cease + it/she/they (it/she/they continue(s))", "not + stop/cease + they [fem.du.] (they both continue)", "not + stop/cease + they [fem.] (they continue)", "not + stop/cease + you [masc.sg.] (you continue)", "not + stop/cease + you [du.] (you both continue)", "not + stop/cease + you [masc.pl.] (you continue)", "not + stop/cease + you [fem.sg.] (you continue)", "not + stop/cease + you [fem.pl.] (you continue)", "not + stop/cease + I (I continue)", "not + stop/cease + we (we continue)" ] ]
+    lA >| Identity            `part`    {- lAyazAl -}          [ unwords [ "not", "+", "stop", "/", "cease", "+", "he", "/", "it", "(", "he", "/", "it", "continues", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "[masc.du.]", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "it", "/", "she", "/", "they", "(", "it", "/", "she", "/", "they", "continue", "(", "s", ")", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "[fem.du.]", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "[fem.]", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[masc.sg.]", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[du.]", "(", "you", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[masc.pl.]", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[fem.sg.]", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "[fem.pl.]", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "I", "(", "I", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "we", "(", "we", "continue", ")" ] ] ]
 
  |> "z ' d" <| [
 
@@ -36,17 +36,17 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- zaHaf-a -}          [ "crawl", "advance", "march" ]
                               `imperf`     FCaL,
 
-    FaCL                      `noun`    {- zaHof -}            [ "crawling", "advance", "march", "marching column" ]
+    FaCL                      `noun`    {- zaHof -}            [ "crawling", "advance", "march", unwords [ "marching", "column" ] ]
                               `plural`     FuCUL
                            {- `others`  [ "zu.huwf N" ] -} ]
 
  |> "z .h l" <| [
 
-    FaCL |< aT                `noun`    {- zaHolap -}          [ "Zahle (Leb.)" ] ]
+    FaCL |< aT                `noun`    {- zaHolap -}          [ unwords [ "Zahle", "(", "Leb.", ")" ] ] ]
 
  |> "z .h m" <| [
 
-    FiCAL                     `noun`    {- ziHAm -}            [ "crowded", "traffic jam" ],
+    FiCAL                     `noun`    {- ziHAm -}            [ "crowded", unwords [ "traffic", "jam" ] ],
 
     MuFACaL |< aT             `noun`    {- muzAHamap -}        [ "competition", "rivalry" ],
 
@@ -69,7 +69,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "z _h m" <| [
 
-    FaCaL                     `verb`    {- zaxam-a -}          [ "thrust back" ]
+    FaCaL                     `verb`    {- zaxam-a -}          [ unwords [ "thrust", "back" ] ]
                               `imperf`     FCaL,
 
     FaCiL                     `verb`    {- zaxim-a -}          [ "stink" ]
@@ -112,11 +112,11 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- zaEam-u -}          [ "allege", "claim" ]
                               `imperf`     FCuL,
 
-    TaFaCCaL                  `verb`    {- tazaE~am -}         [ "lead", "head", "preside over" ],
+    TaFaCCaL                  `verb`    {- tazaE~am -}         [ "lead", "head", unwords [ "preside", "over" ] ],
 
     FaCL                      `noun`    {- zaEom -}            [ "allegation", "claim" ],
 
-    FaCIL                     `noun`    {- zaEiym -}           [ "leader", "head of state", "heads of state" ]
+    FaCIL                     `noun`    {- zaEiym -}           [ "leader", unwords [ "head", "of", "state" ], unwords [ "heads", "of", "state" ] ]
                               `plural`     FuCaLA'
                            {- `others`  [ "zu`amA' Nh N0_Nh Nhy" ] -},
 
@@ -127,7 +127,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACiL
                            {- `others`  [ "mazA`im Ndip" ] -},
 
-    MaFCUL                    `adj`     {- mazoEuwm -}         [ "alleged", "claimed", "so-called" ] ]
+    MaFCUL                    `adj`     {- mazoEuwm -}         [ "alleged", "claimed", unwords [ "so", "-", "called" ] ] ]
 
  |> "z ` q" <| [
 
@@ -138,7 +138,7 @@ lexicon = listing "Lexicon's properties"
 
     KaRDaS                    `verb`    {- zaEozaE -}          [ "convulse", "shake" ],
 
-    TaKaRDaS                  `verb`    {- tazaEozaE -}        [ "be convulsed", "shake" ],
+    TaKaRDaS                  `verb`    {- tazaEozaE -}        [ unwords [ "be", "convulsed" ], "shake" ],
 
     KaRDaS                    `adj`     {- zaEozaE -}          [ "convulsing", "shaking" ],
 
@@ -148,7 +148,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "z b d" <| [
 
-    FaCAL |< Iy               `adj`     {- zabAdiy~ -}         [ "curdled milk", "yogurt" ] ]
+    FaCAL |< Iy               `adj`     {- zabAdiy~ -}         [ unwords [ "curdled", "milk" ], "yogurt" ] ]
 
  |> "z b n" <| [
 
@@ -193,7 +193,7 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oazohar -}          [ "Azhar" ],
 
-    HaFCaL                    `noun`    {- Oazohar -}          [ "more/most radiant" ],
+    HaFCaL                    `noun`    {- Oazohar -}          [ unwords [ "more", "/", "most", "radiant" ] ],
 
     IFtiCAL                   `noun`    {- AizodihAr -}        [ "prosperity", "thriving" ]
                               `plural`     IFtiCAL |< At ]
@@ -204,7 +204,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCA' |<< "a"             `prep`    {- zuhA'a -}           [ "roughly", "approximately" ],
 
-    HaFCY                     `noun`    {- OazohaY -}          [ "more/most splendid", "more/most conceited", "most splendid", "most conceited" ],
+    HaFCY                     `noun`    {- OazohaY -}          [ unwords [ "more", "/", "most", "splendid" ], unwords [ "more", "/", "most", "conceited" ], unwords [ "most", "splendid" ], unwords [ "most", "conceited" ] ],
 
     FACI                      `adj`     {- zAhiy -}            [ "resplendent", "magnificent" ]
                               `plural`     FACI |< At ]
@@ -216,14 +216,14 @@ lexicon = listing "Lexicon's properties"
 
  |> "z k m" <| [
 
-    FuCAL                     `noun`    {- zukAm -}            [ "common cold" ] ]
+    FuCAL                     `noun`    {- zukAm -}            [ unwords [ "common", "cold" ] ] ]
 
  |> "z k w" <| [
 
     FaCY |< aT                `noun`    {- zakAp -}            [ "alms", "charity" ]
                               `plural`     FaCaL |< At,
 
-    TaFCI |< aT               `noun`    {- tazokiyap -}        [ "purification", "nomination by acclamation" ] ]
+    TaFCI |< aT               `noun`    {- tazokiyap -}        [ "purification", unwords [ "nomination", "by", "acclamation" ] ] ]
 
  |> "z k y" <| [
 
@@ -231,30 +231,30 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCiLA'
                            {- `others`  [ "'azkiyA' Nh N0_Nh Nhy" ] -},
 
-    TaFCI |< aT               `noun`    {- tazokiyap -}        [ "purification", "nomination by acclamation" ] ]
+    TaFCI |< aT               `noun`    {- tazokiyap -}        [ "purification", unwords [ "nomination", "by", "acclamation" ] ] ]
 
  |> "z l q" <| [
 
     FaCaL                     `verb`    {- zalaq-u -}          [ "slip", "glide" ]
                               `imperf`     FCuL,
 
-    InFaCaL                   `verb`    {- Ainozalaq -}        [ "slide", "skate/ski", "drift" ],
+    InFaCaL                   `verb`    {- Ainozalaq -}        [ "slide", unwords [ "skate", "/", "ski" ], "drift" ],
 
-    MaFCaL                    `noun`    {- mazolaq -}          [ "slippery spot", "perilous ground" ]
+    MaFCaL                    `noun`    {- mazolaq -}          [ unwords [ "slippery", "spot" ], unwords [ "perilous", "ground" ] ]
                               `plural`     MaFACiL
                            {- `others`  [ "mazAliq Ndip" ] -},
 
-    MaFCaL                    `noun`    {- mazolaq -}          [ "loading ramp", "railroad crossing" ]
+    MaFCaL                    `noun`    {- mazolaq -}          [ unwords [ "loading", "ramp" ], unwords [ "railroad", "crossing" ] ]
                               `plural`     MaFCaL |< At,
 
     MiFCaL |< aT              `noun`    {- mizolaqap -}        [ "sleigh", "sled" ]
                               `plural`     MaFACiL
                            {- `others`  [ "mazAliq Ndip" ] -},
 
-    InFiCAL                   `noun`    {- AinozilAq -}        [ "slipping", "skating/skiing", "drift" ]
+    InFiCAL                   `noun`    {- AinozilAq -}        [ "slipping", unwords [ "skating", "/", "skiing" ], "drift" ]
                               `plural`     InFiCAL |< At,
 
-    MunFaCiL                  `adj`     {- munozaliq -}        [ "sliding", "skating/skiing", "drifting" ] ]
+    MunFaCiL                  `adj`     {- munozaliq -}        [ "sliding", unwords [ "skating", "/", "skiing" ], "drifting" ] ]
 
  |> "z l z l" <| [
 
@@ -284,7 +284,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "z m n" <| [
 
-    TaFACaL                   `verb`    {- tazAman -}          [ "coincide", "be simultaneous", "occur simultaneously" ],
+    TaFACaL                   `verb`    {- tazAman -}          [ "coincide", unwords [ "be", "simultaneous" ], unwords [ "occur", "simultaneously" ] ],
 
     FaCaL                     `noun`    {- zaman -}            [ "time", "period", "duration" ]
                               `plural`     HaFCAL
@@ -317,14 +317,14 @@ lexicon = listing "Lexicon's properties"
 
  |> "z n z n" <| [
 
-    KiRDAS |< aT              `noun`    {- zinozAnap -}        [ "prison cell" ]
+    KiRDAS |< aT              `noun`    {- zinozAnap -}        [ unwords [ "prison", "cell" ] ]
                               `plural`     KiRDAS |< At ]
 
  |> "z q q" <| [
 
-    FuCAL                     `noun`    {- zuqAq -}            [ "alley", "corridor", "cul-de-sac" ],
+    FuCAL                     `noun`    {- zuqAq -}            [ "alley", "corridor", unwords [ "cul", "-", "de", "-", "sac" ] ],
 
-    FuCAL |< Iy               `adj`     {- zuqAqiy~ -}         [ "alley dweller" ] ]
+    FuCAL |< Iy               `adj`     {- zuqAqiy~ -}         [ unwords [ "alley", "dweller" ] ] ]
 
  |> "z r '" <| [
 
@@ -337,7 +337,7 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- zaraE-a -}          [ "plant", "implant", "cultivate" ]
                               `imperf`     FCaL,
 
-    FaCL                      `noun`    {- zaroE -}            [ "planting (seed)", "implanting (artificial heart)", "laying (mine)" ],
+    FaCL                      `noun`    {- zaroE -}            [ unwords [ "planting", "(", "seed", ")" ], unwords [ "implanting", "(", "artificial", "heart", ")" ], unwords [ "laying", "(", "mine", ")" ] ],
 
     FiCAL |< aT               `noun`    {- zirAEap -}          [ "agriculture", "cultivation" ],
 
@@ -345,17 +345,17 @@ lexicon = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- zar~AE -}           [ "peasant", "farmer" ],
 
-    MaFCaL                    `noun`    {- mazoraE -}          [ "farm", "arable land", "plantation" ]
+    MaFCaL                    `noun`    {- mazoraE -}          [ "farm", unwords [ "arable", "land" ], "plantation" ]
                               `plural`     MaFACiL
                            {- `others`  [ "mazAri` Ndip" ] -},
 
     MaFCUL                    `adj`     {- mazoruwE -}         [ "cultivated", "planted", "transplanted" ],
 
-    MaFCUL |< aT              `noun`    {- mazoruwEap -}       [ "farm", "planted field" ],
+    MaFCUL |< aT              `noun`    {- mazoruwEap -}       [ "farm", unwords [ "planted", "field" ] ],
 
     MuFACiL                   `noun`    {- muzAriE -}          [ "farmer" ],
 
-    MunFaCiL                  `noun`    {- munozariE -}        [ "farmland", "planted land" ] ]
+    MunFaCiL                  `noun`    {- munozariE -}        [ "farmland", unwords [ "planted", "land" ] ] ]
 
  |> "z r h n" <| [
 
@@ -372,11 +372,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "z r r" <| [
 
-    FaCL                      `verb`    {- zar~-u -}           [ "button up", "contort" ]
+    FaCL                      `verb`    {- zar~-u -}           [ unwords [ "button", "up" ], "contort" ]
                               `imperf`     FuCL
                               `pfirst`     FaCaL,
 
-    FiCL                      `noun`    {- zir~ -}             [ "button", "switch button" ]
+    FiCL                      `noun`    {- zir~ -}             [ "button", unwords [ "switch", "button" ] ]
                               `plural`     HaFCAL
                            {- `others`  [ "'azrAr N" ] -} ]
 
@@ -387,11 +387,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "z w ^g" <| [
 
-    FaCCaL                    `verb`    {- zaw~aj -}           [ "join/couple", "marry off" ],
+    FaCCaL                    `verb`    {- zaw~aj -}           [ unwords [ "join", "/", "couple" ], unwords [ "marry", "off" ] ],
 
-    TaFaCCaL                  `verb`    {- tazaw~aj -}         [ "get married" ],
+    TaFaCCaL                  `verb`    {- tazaw~aj -}         [ unwords [ "get", "married" ] ],
 
-    FaCL                      `noun`    {- zawoj -}            [ "spouse", "husband", "married couple" ]
+    FaCL                      `noun`    {- zawoj -}            [ "spouse", "husband", unwords [ "married", "couple" ] ]
                               `plural`     HaFCAL
                            {- `others`  [ "'azwA^g N" ] -},
 
@@ -410,9 +410,9 @@ lexicon = listing "Lexicon's properties"
     IFtiCAL                   `noun`    {- AizodiwAj -}        [ "duality" ]
                               `plural`     IFtiCAL |< At,
 
-    IFtiCAL |< Iy             `adj`     {- AizodiwAjiy~ -}     [ "dual", "bi-" ],
+    IFtiCAL |< Iy             `adj`     {- AizodiwAjiy~ -}     [ "dual", unwords [ "bi", "-" ] ],
 
-    IFtiCAL |< Iy |< aT       `noun`    {- AizodiwAjiy~ap -}   [ "duality", "bi-" ],
+    IFtiCAL |< Iy |< aT       `noun`    {- AizodiwAjiy~ap -}   [ "duality", unwords [ "bi", "-" ] ],
 
     MutaFaCCiL                `adj`     {- mutazaw~ij -}       [ "married" ],
 
@@ -430,9 +430,9 @@ lexicon = listing "Lexicon's properties"
 
     HaFAL                     `verb`    {- OazAd -}            [ "supply", "provide" ],
 
-    TaFaCCaL                  `verb`    {- tazaw~ad -}         [ "be supplied", "be provided" ],
+    TaFaCCaL                  `verb`    {- tazaw~ad -}         [ unwords [ "be", "supplied" ], unwords [ "be", "provided" ] ],
 
-    TaFaCCuL                  `noun`    {- tazaw~ud -}         [ "being supplied", "being provided" ]
+    TaFaCCuL                  `noun`    {- tazaw~ud -}         [ unwords [ "being", "supplied" ], unwords [ "being", "provided" ] ]
                               `plural`     TaFaCCuL |< At,
 
     FAL                       `noun`    {- zAd -}              [ "provisions", "stores" ],
@@ -450,7 +450,7 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL,
 
-    FAL                       `verb`    {- zAl-a -}            [ "cease", "stop being", "stop doing" ]
+    FAL                       `verb`    {- zAl-a -}            [ "cease", unwords [ "stop", "being" ], unwords [ "stop", "doing" ] ]
                               `pfirst`     FiL,
 
     FACaL                     `verb`    {- zAwal -}            [ "pursue" ],
@@ -477,7 +477,7 @@ lexicon = listing "Lexicon's properties"
 
     FUL                       `noun`    {- zuwr -}             [ "lie", "falsehood", "force" ],
 
-    MaFAL                     `noun`    {- mazAr -}            [ "visit place", "shrine", "sanctuary" ]
+    MaFAL                     `noun`    {- mazAr -}            [ unwords [ "visit", "place" ], "shrine", "sanctuary" ]
                               `plural`     MaFAL |< At,
 
     TaFCIL                    `noun`    {- tazowiyr -}         [ "forgery", "falsification" ]
@@ -541,16 +541,16 @@ lexicon = listing "Lexicon's properties"
     MaFAL                     `noun`    {- mazAd -}            [ "auction" ]
                               `plural`     MaFAL |< At,
 
-    MaFIL                     `noun`    {- maziyd -}           [ "more", "greater number" ],
+    MaFIL                     `noun`    {- maziyd -}           [ "more", unwords [ "greater", "number" ] ],
 
     MaFIL                     `adj`     {- maziyd -}           [ "increased" ],
 
-    MuFACaL |< aT             `noun`    {- muzAyadap -}        [ "auction", "public tender", "exaggeration" ],
+    MuFACaL |< aT             `noun`    {- muzAyadap -}        [ "auction", unwords [ "public", "tender" ], "exaggeration" ],
 
     TaFaCCuL                  `noun`    {- tazay~ud -}         [ "exaggeration" ]
                               `plural`     TaFaCCuL |< At,
 
-    TaFACuL                   `noun`    {- tazAyud -}          [ "increment", "gradual increase" ]
+    TaFACuL                   `noun`    {- tazAyud -}          [ "increment", unwords [ "gradual", "increase" ] ]
                               `plural`     TaFACuL |< At,
 
     IFtiCAL                   `noun`    {- AizodiyAd -}        [ "increase", "intensification" ]
@@ -565,7 +565,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "z y f" <| [
 
-    FaCCaL                    `verb`    {- zay~af -}           [ "counterfeit", "consider spurious" ],
+    FaCCaL                    `verb`    {- zay~af -}           [ "counterfeit", unwords [ "consider", "spurious" ] ],
 
     TaFCIL                    `noun`    {- tazoyiyf -}         [ "forgery", "falsification" ]
                               `plural`     TaFCIL |< At,
@@ -603,11 +603,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCUL
                            {- `others`  [ "zuyuwt N" ] -},
 
-    FaCL |< Iy                `adj`     {- zayotiy~ -}         [ "oily", "oil-bearing" ] ]
+    FaCL |< Iy                `adj`     {- zayotiy~ -}         [ "oily", unwords [ "oil", "-", "bearing" ] ] ]
 
  |> "z y t n" <| [
 
-    KaRDUS                    `noun`    {- zayotuwn -}         [ "olives", "olive tree" ] ]
+    KaRDUS                    `noun`    {- zayotuwn -}         [ "olives", unwords [ "olive", "tree" ] ] ]
 
  |> "z y y" <| [
 
@@ -617,7 +617,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< At                `noun`    {- zay~At -}           [ "Zayyat" ],
 
-    FaCL |< At                `noun`    {- zay~At -}           [ "oil dealer", "oilman" ] ]
+    FaCL |< At                `noun`    {- zay~At -}           [ unwords [ "oil", "dealer" ], "oilman" ] ]
 
  |> "zAbAlItA" <| [
 

@@ -178,7 +178,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; g_1
     -- g       g       FW      GH;28th;(Greenwich);(piaster);(gram)     [[g/ABBREV]]
 
-    Identity                  `noun`    {- g -}                [ "GH", "28th", "(Greenwich)", "(piaster)", "(gram)" ] ]
+    Identity                  `noun`    {- g -}                [ "GH", "28th", unwords [ "(", "Greenwich", ")" ], unwords [ "(", "piaster", ")" ], unwords [ "(", "gram", ")" ] ] ]
 
  |> ".h" <| [
 
@@ -222,14 +222,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; j_1
     -- j       j       FW      J;3rd;(pounds/lira);(answer);(republic);(gram)     [[j/ABBREV]]
 
-    Identity                  `noun`    {- j -}                [ "J", "3rd", "(pounds/lira)", "(answer)", "(republic)", "(gram)" ] ]
+    Identity                  `noun`    {- j -}                [ "J", "3rd", unwords [ "(", "pounds", "/", "lira", ")" ], unwords [ "(", "answer", ")" ], unwords [ "(", "republic", ")" ], unwords [ "(", "gram", ")" ] ] ]
 
  |> "^s" <| [
 
     -- ;; $_1
     -- \$       $       FW      SH;21st;(street)     [[$/ABBREV]]
 
-    Identity                  `noun`    {- \$ -}               [ "SH", "21st", "(street)" ] ]
+    Identity                  `noun`    {- \$ -}               [ "SH", "21st", unwords [ "(", "street", ")" ] ] ]
 
  |> "_d" <| [
 
@@ -257,7 +257,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; E_1
     -- E       E       FW      ('ayn);16th;(Arab)     [[E/ABBREV]]
 
-    Identity                  `noun`    {- E -}                [ "('ayn)", "16th", "(Arab)" ] ]
+    Identity                  `noun`    {- E -}                [ unwords [ "(", "'ayn", ")" ], "16th", unwords [ "(", "Arab", ")" ] ] ]
 
  |> "b" <| [
 
@@ -272,7 +272,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; d_1
     -- d       d       FW      D;4th;Dr.;(minute);(dinar);(dirham)     [[d/ABBREV]]
 
-    Identity                  `noun`    {- d -}                [ "D", "4th", "Dr.", "(minute)", "(dinar)", "(dirham)" ] ]
+    Identity                  `noun`    {- d -}                [ "D", "4th", "Dr.", unwords [ "(", "minute", ")" ], unwords [ "(", "dinar", ")" ], unwords [ "(", "dirham", ")" ] ] ]
 
  |> "dabilyU" <| [
 
@@ -287,14 +287,14 @@ lexicon = listing "Lexicon's properties"
     -- f       fa      FW      and;so     [[fa/CONJ]]
     -- f       f       FW      F;17th;(fils)     [[f/ABBREV]]
 
-    Identity |<< "a"          `conj`    {- fa -}               [ "and", "so", "F", "17th", "(fils)" ] ]
+    Identity |<< "a"          `conj`    {- fa -}               [ "and", "so", "F", "17th", unwords [ "(", "fils", ")" ] ] ]
 
  |> "h" <| [
 
     -- ;; h_1
     -- h       h       FW      H;(Hijrah);5th     [[h/ABBREV]]
 
-    Identity                  `noun`    {- h -}                [ "H", "(Hijrah)", "5th" ] ]
+    Identity                  `noun`    {- h -}                [ "H", unwords [ "(", "Hijrah", ")" ], "5th" ] ]
 
  |> "k" <| [
 
@@ -302,7 +302,7 @@ lexicon = listing "Lexicon's properties"
     -- k       ka      FW      as;like     [[ka/PREP]]
     -- k       k       FW      K;11th;(kilo-)     [[k/ABBREV]]
 
-    Identity |<< "a"          `prep`    {- ka -}               [ "as", "like", "K", "11th", "(kilo-)" ] ]
+    Identity |<< "a"          `prep`    {- ka -}               [ "as", "like", "K", "11th", unwords [ "(", "kilo", "-", ")" ] ] ]
 
  |> "l" <| [
 
@@ -310,14 +310,14 @@ lexicon = listing "Lexicon's properties"
     -- l       li      FW      for;to     [[li/PREP]]
     -- l       l       FW      L;12th;(pounds/lira)     [[l/ABBREV]]
 
-    Identity |<< "i"          `prep`    {- li -}               [ "for", "to", "L", "12th", "(pounds/lira)" ] ]
+    Identity |<< "i"          `prep`    {- li -}               [ "for", "to", "L", "12th", unwords [ "(", "pounds", "/", "lira", ")" ] ] ]
 
  |> "m" <| [
 
     -- ;; m_1
     -- m       m       FW      (A.D.);M;13th;meter     [[m/ABBREV]]
 
-    Identity                  `noun`    {- m -}                [ "(A.D.)", "M", "13th", "meter" ] ]
+    Identity                  `noun`    {- m -}                [ unwords [ "(", "A.D.", ")" ], "M", "13th", "meter" ] ]
 
  |> "n" <| [
 
@@ -331,7 +331,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; q_1
     -- q       q       FW      Q;Qatari;19th;(before);(piaster)     [[q/ABBREV]]
 
-    Identity                  `noun`    {- q -}                [ "Q", "Qatari", "19th", "(before)", "(piaster)" ] ]
+    Identity                  `noun`    {- q -}                [ "Q", "Qatari", "19th", unwords [ "(", "before", ")" ], unwords [ "(", "piaster", ")" ] ] ]
 
  |> "r" <| [
 
@@ -339,21 +339,21 @@ lexicon = listing "Lexicon's properties"
     -- r       r       FW      R;20th;(Reuters);(rial)     [[r/ABBREV]]
     -- r       r       FW      (numeric comma)     [[r/NUMERIC_COMMA]]
 
-    Identity                  `noun`    {- r -}                [ "R", "20th", "(Reuters)", "(rial)", "(numeric comma)" ] ]
+    Identity                  `noun`    {- r -}                [ "R", "20th", unwords [ "(", "Reuters", ")" ], unwords [ "(", "rial", ")" ], unwords [ "(", "numeric", "comma", ")" ] ] ]
 
  |> "s" <| [
 
     -- ;; s_1
     -- s       s       FW      S;15th;(question);(hour)     [[s/ABBREV]]
 
-    Identity                  `noun`    {- s -}                [ "S", "15th", "(question)", "(hour)" ] ]
+    Identity                  `noun`    {- s -}                [ "S", "15th", unwords [ "(", "question", ")" ], unwords [ "(", "hour", ")" ] ] ]
 
  |> "t" <| [
 
     -- ;; t_1
     -- t       t       FW      T;(date);(time/timing);(died);22nd     [[t/ABBREV]]
 
-    Identity                  `noun`    {- t -}                [ "T", "(date)", "(time/timing)", "(died)", "22nd" ] ]
+    Identity                  `noun`    {- t -}                [ "T", unwords [ "(", "date", ")" ], unwords [ "(", "time", "/", "timing", ")" ], unwords [ "(", "died", ")" ], "22nd" ] ]
 
  |> "t.g" <| [
 

@@ -30,13 +30,13 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- Zahar-a -}          [ "appear", "emerge" ]
                               `imperf`     FCaL,
 
-    HaFCaL                    `verb`    {- OaZohar -}          [ "show", "manifest", "demonstrate", "be shown", "be manifest" ],
+    HaFCaL                    `verb`    {- OaZohar -}          [ "show", "manifest", "demonstrate", unwords [ "be", "shown" ], unwords [ "be", "manifest" ] ],
 
     TaFACaL                   `verb`    {- taZAhar -}          [ "manifest", "demonstrate" ],
 
     FaCL                      `noun`    {- Zahor -}            [ "back", "spine", "midst" ],
 
-    FuCL                      `adv`     {- Zuhor -}            [ "noon", "afternoon", "in the afternoon", "at noon" ]
+    FuCL                      `adv`     {- Zuhor -}            [ "noon", "afternoon", unwords [ "in", "the", "afternoon" ], unwords [ "at", "noon" ] ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.zhAr N" ] -},
 
@@ -44,7 +44,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCUL                     `noun`    {- Zuhuwr -}           [ "appearance", "emergence" ],
 
-    HaFCaL                    `noun`    {- OaZohar -}          [ "clearer/clearest", "more/most apparent" ],
+    HaFCaL                    `noun`    {- OaZohar -}          [ unwords [ "clearer", "/", "clearest" ], unwords [ "more", "/", "most", "apparent" ] ],
 
     MaFCaL                    `noun`    {- maZohar -}          [ "appearance", "facade", "features", "manifestations" ]
                               `plural`     MaFACiL
@@ -108,7 +108,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCaL |< aT
                            {- `others`  [ ".zullAm N" ] -},
 
-    MaFCUL                    `adj`     {- maZoluwm -}         [ "oppressed", "treated unjustly" ],
+    MaFCUL                    `adj`     {- maZoluwm -}         [ "oppressed", unwords [ "treated", "unjustly" ] ],
 
     MuFCiL                    `adj`     {- muZolim -}          [ "dark", "gloomy" ] ]
 

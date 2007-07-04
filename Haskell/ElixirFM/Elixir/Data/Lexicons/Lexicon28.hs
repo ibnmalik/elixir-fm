@@ -67,10 +67,10 @@ lexicon = listing "Lexicon's properties"
 
  |> "y m n" <| [
 
-    FaCaL                     `verb`    {- yaman-u -}          [ "be lucky", "be fortunate" ]
+    FaCaL                     `verb`    {- yaman-u -}          [ unwords [ "be", "lucky" ], unwords [ "be", "fortunate" ] ]
                               `imperf`     FCuL,
 
-    FaCaL                     `noun`    {- yaman -}            [ "right side" ]
+    FaCaL                     `noun`    {- yaman -}            [ unwords [ "right", "side" ] ]
                               `plural`     FaCL |< aT,
 
     FaCaL                     `noun`    {- yaman -}            [ "Yemen" ],
@@ -81,19 +81,19 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL |< Iy               `adj`     {- yamAniy~ -}         [ "Yamani" ],
 
-    FaCIL                     `noun`    {- yamiyn -}           [ "right side", "right hand" ],
+    FaCIL                     `noun`    {- yamiyn -}           [ unwords [ "right", "side" ], unwords [ "right", "hand" ] ],
 
     FaCIL                     `noun`    {- yamiyn -}           [ "oath" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'aymAn N" ] -},
 
-    FaCIL |< Iy               `adj`     {- yamiyniy~ -}        [ "rightist", "right-wing" ],
+    FaCIL |< Iy               `adj`     {- yamiyniy~ -}        [ "rightist", unwords [ "right", "-", "wing" ] ],
 
     HaFCaL                    `noun`    {- Oayoman -}          [ "Ayman", "Aiman" ],
 
-    HaFCaL                    `adj`     {- Oayoman -}          [ "right", "right hand", "lucky" ],
+    HaFCaL                    `adj`     {- Oayoman -}          [ "right", unwords [ "right", "hand" ], "lucky" ],
 
-    FuCLY                     `adj`     {- yumonaY -}          [ "right hand", "right side", "lucky" ]
+    FuCLY                     `adj`     {- yumonaY -}          [ unwords [ "right", "hand" ], unwords [ "right", "side" ], "lucky" ]
                               `plural`     FuCLY |< At,
 
     FuCLY                     `noun`    {- yumonaY -}          [ "Youmna", "Yumna" ],
@@ -126,17 +126,17 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `verb`    {- OayoqaZ -}          [ "awaken", "warn" ],
 
-    IstaFCaL                  `verb`    {- AisotayoqaZ -}      [ "wake up", "be roused", "be alert" ],
+    IstaFCaL                  `verb`    {- AisotayoqaZ -}      [ unwords [ "wake", "up" ], unwords [ "be", "roused" ], unwords [ "be", "alert" ] ],
 
     HICAL                     `noun`    {- IiyqAZ -}           [ "awakening", "reveille" ]
                               `plural`     HICAL |< At ]
 
  |> "y q n" <| [
 
-    FaCiL                     `verb`    {- yaqin-a -}          [ "be sure", "know for certain" ]
+    FaCiL                     `verb`    {- yaqin-a -}          [ unwords [ "be", "sure" ], unwords [ "know", "for", "certain" ] ]
                               `imperf`     FCaL,
 
-    HaFCaL                    `verb`    {- Oayoqan -}          [ "ascertain", "be convinced" ],
+    HaFCaL                    `verb`    {- Oayoqan -}          [ "ascertain", unwords [ "be", "convinced" ] ],
 
     FaCiL                     `noun`    {- yaqin -}            [ "credulous", "ingenuous" ]
                               `plural`     FaCaL |< aT,
@@ -149,17 +149,17 @@ lexicon = listing "Lexicon's properties"
 
  |> "y s `" <| [
 
-    FaCUL                     `noun`    {- yasuwE -}           [ "Jesus (in Christianity)", "Yasou" ],
+    FaCUL                     `noun`    {- yasuwE -}           [ unwords [ "Jesus", "(", "in", "Christianity", ")" ], "Yasou" ],
 
     FaCUL |< Iy               `adj`     {- yasuwEiy~ -}        [ "Jesuit" ] ]
 
  |> "y s r" <| [
 
-    FaCCaL                    `verb`    {- yas~ar -}           [ "facilitate", "make easy" ],
+    FaCCaL                    `verb`    {- yas~ar -}           [ "facilitate", unwords [ "make", "easy" ] ],
 
-    HaFCaL                    `verb`    {- Oayosar -}          [ "live in comfort", "be made easy", "be facilitated" ],
+    HaFCaL                    `verb`    {- Oayosar -}          [ unwords [ "live", "in", "comfort" ], unwords [ "be", "made", "easy" ], unwords [ "be", "facilitated" ] ],
 
-    FaCAL                     `adv`     {- yasAr -}            [ "left", "to the left" ],
+    FaCAL                     `adv`     {- yasAr -}            [ "left", unwords [ "to", "the", "left" ] ],
 
     FaCAL                     `noun`    {- yasAr -}            [ "comfort", "affluence" ],
 
@@ -169,11 +169,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- yasiyr -}           [ "small", "short" ],
 
-    HaFCaL                    `noun`    {- Oayosar -}          [ "left", "left hand" ]
+    HaFCaL                    `noun`    {- Oayosar -}          [ "left", unwords [ "left", "hand" ] ]
                               `plural`     FuCLY |< At
                            {- `others`  [ "yusrY N0 NAn_Nayn" ] -},
 
-    HaFCaL                    `noun`    {- Oayosar -}          [ "easier/easiest", "smaller/smallest" ],
+    HaFCaL                    `noun`    {- Oayosar -}          [ unwords [ "easier", "/", "easiest" ], unwords [ "smaller", "/", "smallest" ] ],
 
     TaFCIL                    `noun`    {- tayosiyr -}         [ "facilitation" ]
                               `plural`     TaFCIL |< At,
@@ -182,7 +182,7 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- yAsir -}            [ "Yasser", "Yasir" ],
 
-    MuFaCCaL                  `adj`     {- muyas~ar -}         [ "made easy", "facilitated", "well-to-do" ] ]
+    MuFaCCaL                  `adj`     {- muyas~ar -}         [ unwords [ "made", "easy" ], "facilitated", unwords [ "well", "-", "to", "-", "do" ] ] ]
 
  |> "y s r y" <| [
 
@@ -207,13 +207,13 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- yawom -}            [ "day" ],
 
-    FaCL                      `adv`     {- yawom -}            [ "some day" ],
+    FaCL                      `adv`     {- yawom -}            [ unwords [ "some", "day" ] ],
 
     FaCL                      `adv`     {- yawom -}            [ "today" ],
 
     FaCL                      `noun`    {- yawom -}            [ "Youm" ],
 
-    FaCL |< Iy                `adj`     {- yawomiy~ -}         [ "daily", "per diem", "on a daily basis" ] ]
+    FaCL |< Iy                `adj`     {- yawomiy~ -}         [ "daily", unwords [ "per", "diem" ], unwords [ "on", "a", "daily", "basis" ] ] ]
 
  |> "y w n" <| [
 
@@ -285,7 +285,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "yAmI^s" <| [
 
-    Identity                  `noun`    {- yAmiy$ -}           [ "dried fruits" ] ]
+    Identity                  `noun`    {- yAmiy$ -}           [ unwords [ "dried", "fruits" ] ] ]
 
  |> "yAnA" <| [
 
@@ -357,5 +357,5 @@ lexicon = listing "Lexicon's properties"
 
  |> "ywmbl.gAz" <| [
 
-    Identity                  `noun`    {- ywmblgAz -}         [ "Iompelgas ??" ] ]
+    Identity                  `noun`    {- ywmblgAz -}         [ unwords [ "Iompelgas", "?", "?" ] ] ]
 

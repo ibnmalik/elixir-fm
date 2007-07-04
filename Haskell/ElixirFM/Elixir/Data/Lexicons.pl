@@ -18,7 +18,7 @@ $Getopt::Std::STANDARD_HELP_VERSION = 1;
 
 our ($DIR, $Lexicon, $Index, $ID);
 
-our ($include, $options);
+our ($include, $indexed, $unwords, $options);
 
 
 $/ = "\n";
@@ -27,12 +27,22 @@ $/ = "\n";
 
 $options = {};
 
-getopts('d:i:v', $options);
+getopts('x:d:yi:w:v', $options);
 
 die $VERSION . "\n" if exists $options->{'v'};
 
 
 $DIR = exists $options->{'d'} ? $options->{'d'} : 'Lexicons';
+
+
+$indexed = exists $options->{'x'} ? $options->{'x'} + 0 : 0;
+
+$indexed = 0 if $indexed < 0;
+
+
+$unwords = exists $options->{'w'} ? $options->{'w'} + 0 : 0;
+
+$unwords = 0 if $unwords < 0;
 
 
 if (exists $options->{'i'}) {
@@ -74,6 +84,8 @@ foreach $ARGV (@ARGV) {
 sub indexLexicon {
 
     $Index = {};
+
+    return unless $indexed;
 
     foreach (keys %{$Lexicon}) {
 
@@ -269,10 +281,14 @@ sub showEntry ($) {
         }
     }
 
-    $glosses = $entry->{'glosses'};                     # reduceGlosses($entry->{'glosses'})
+    $entry->{'glosses'} = reduceGlosses($entry->{'glosses'}) unless $indexed;
+
+    $glosses = $entry->{'glosses'};
 
     return sprintf "%s    %-25s %-9s %-22s %s",
-                   (defined $include ? '' :
+
+                   (exists $options->{'y'} ? '' :
+
                             (join "\n", map { '    -- ' . escape($_) } @{$entry->{'lines'}}) . "\n\n"),
 
                    $entry->{'morphs'}, '`' . $entry->{'entity'} . '`',
@@ -282,6 +298,8 @@ sub showEntry ($) {
                    (join "\n" . ' ' x 27,
 
                    '[ ' . (join ", ", map { showGloss($_) } @{$glosses}) . ' ]',
+
+                                # ^^ never with # join ";", @{$glosses}
 
                    (@{$imperf} > 0 ? map { '   `imperf`     ' . $_ } @{$imperf} : ()),
                    (@{$pfirst} > 0 ? map { '   `pfirst`     ' . $_ } @{$pfirst} : ()),
@@ -298,13 +316,13 @@ sub showTwig ($$){
 
     my ($n, $t) = @_;
 
-    warn $t . "\n" unless $n > 5;
+    warn $t . "\n" unless $n >= $indexed;
 
     my $i = $t;
 
     $i =~ tr[ ][_];
 
-    return sprintf "    %-25s   =       \"%s\"\n\n", "_" . $i . "_", $t;
+    return sprintf "    %-25s   =       %s\n\n", "_" . $i . "_", showWords($t);
 }
 
 
@@ -342,9 +360,9 @@ sub showGloss ($) {
 
     my $data = $_[0];
 
-    if (exists $Index->{$data}) {
+    if ($indexed and exists $Index->{$data}) {
 
-        if ($Index->{$data} > 5 and $data =~ /^[ a-z]+$/) {
+        if ($Index->{$data} >= $indexed and $data =~ /^[A-Za-z][\ a-z]+$/) {
 
             $data =~ tr[ ][_];
 
@@ -356,12 +374,31 @@ sub showGloss ($) {
         }
     }
 
+    return showWords($data);
+}
+
+
+sub showWords ($) {
+
+    my $data = $_[0];
+
     $Data::Dumper::Terse = 1;
     $Data::Dumper::Useqq = 1;
 
     $data = Data::Dumper->Dump([$data]);
 
-    chomp $data;
+    $data =~ s/^\"//;
+    $data =~ s/\"$//;
+
+    my @data = split ' ', $data;
+
+    @data = grep { $_ ne '' } map { split /([\+\-\?\!\/\(\)])/, $_ } @data;
+
+    $data = $unwords && @data > $unwords
+
+                ? "unwords [ " . (join ", ", map { '"' . $_ . '"' } @data) . " ]"
+
+                : '"' . (join " ", @data) . '"';
 
     return $data;
 }

@@ -11,7 +11,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "litawwi-" <| [
 
-    Identity                  `pron`    {- litaw~i- -}         [ "immediately + it/he", "immediately + they both", "immediately + it/they/her", "immediately + they [masc.pl.]", "immediately + they [fem.pl.]", "immediately + you [masc.sg.]", "immediately + you [fem.sg.]", "immediately + you both", "immediately + you [masc.pl.]", "immediately + you [fem.pl.]", "immediately + I", "immediately + we" ] ]
+    Identity                  `pron`    {- litaw~i- -}         [ unwords [ "immediately", "+", "it", "/", "he" ], unwords [ "immediately", "+", "they", "both" ], unwords [ "immediately", "+", "it", "/", "they", "/", "her" ], unwords [ "immediately", "+", "they", "[masc.pl.]" ], unwords [ "immediately", "+", "they", "[fem.pl.]" ], unwords [ "immediately", "+", "you", "[masc.sg.]" ], unwords [ "immediately", "+", "you", "[fem.sg.]" ], unwords [ "immediately", "+", "you", "both" ], unwords [ "immediately", "+", "you", "[masc.pl.]" ], unwords [ "immediately", "+", "you", "[fem.pl.]" ], unwords [ "immediately", "+", "I" ], unwords [ "immediately", "+", "we" ] ] ]
 
  |> "t  s" <| [
 
@@ -23,7 +23,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "t .h f" <| [
 
-    FuCL |< aT                `noun`    {- tuHofap -}          [ "gift", "museum article" ]
+    FuCL |< aT                `noun`    {- tuHofap -}          [ "gift", unwords [ "museum", "article" ] ]
                               `plural`     FuCaL
                            {- `others`  [ "tu.haf N" ] -},
 
@@ -37,11 +37,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCL
                            {- `others`  [ "ta.ht FW-Wa-o" ] -},
 
-    FaCL |< Iy                `adj`     {- taHotiy~ -}         [ "under", "infra-" ] ]
+    FaCL |< Iy                `adj`     {- taHotiy~ -}         [ "under", unwords [ "infra", "-" ] ] ]
 
  |> "t ^g r" <| [
 
-    FACaL                     `verb`    {- tAjar -}            [ "deal with", "do business" ],
+    FACaL                     `verb`    {- tAjar -}            [ unwords [ "deal", "with" ], unwords [ "do", "business" ] ],
 
     FiCAL |< aT               `noun`    {- tijArap -}          [ "commerce", "business" ],
 
@@ -60,9 +60,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "t ^s r n" <| [
 
-    KiRDIS                    `noun`    {- ti$oriyn -}         [ "Tishrin (part of month names Oct. and Nov.)" ],
+    KiRDIS                    `noun`    {- ti$oriyn -}         [ unwords [ "Tishrin", "(", "part", "of", "month", "names", "Oct.", "and", "Nov.", ")" ] ],
 
-    KiRDIS                    `noun`    {- ti$oriyn -}         [ "Tishrin (Syrian newspaper)" ] ]
+    KiRDIS                    `noun`    {- ti$oriyn -}         [ unwords [ "Tishrin", "(", "Syrian", "newspaper", ")" ] ] ]
 
  |> "t _h m" <| [
 
@@ -77,10 +77,10 @@ lexicon = listing "Lexicon's properties"
 
  |> "t ` b" <| [
 
-    FaCiL                     `verb`    {- taEib-a -}          [ "be tired", "work hard" ]
+    FaCiL                     `verb`    {- taEib-a -}          [ unwords [ "be", "tired" ], unwords [ "work", "hard" ] ]
                               `imperf`     FCaL,
 
-    HaFCaL                    `verb`    {- OatoEab -}          [ "bother", "make tired", "be tired out" ],
+    HaFCaL                    `verb`    {- OatoEab -}          [ "bother", unwords [ "make", "tired" ], unwords [ "be", "tired", "out" ] ],
 
     HaFCAL                    `noun`    {- OatoEAb -}          [ "inconveniences", "labor" ],
 
@@ -105,13 +105,13 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCaL                   `verb`    {- Ait~abaE -}         [ "follow", "observe" ],
 
-    IstaFCaL                  `verb`    {- AisotatobaE -}      [ "result in", "make follow" ],
+    IstaFCaL                  `verb`    {- AisotatobaE -}      [ unwords [ "result", "in" ], unwords [ "make", "follow" ] ],
 
     FaCaL                     `noun`    {- tabaE -}            [ "subordinate", "follower" ],
 
     FaCiL |< aT               `noun`    {- tabiEap -}          [ "consequence", "responsibility" ],
 
-    FiCAL |< aN               `adv`     {- tibAEAF -}          [ "in succession", "consecutively" ]
+    FiCAL |< aN               `adv`     {- tibAEAF -}          [ unwords [ "in", "succession" ], "consecutively" ]
                               `plural`     FiCAL
                            {- `others`  [ "tibA` NF" ] -},
 
@@ -182,7 +182,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "t l m _d" <| [
 
-    TaKaRDaS                  `verb`    {- tataloma* -}        [ "be pupil", "be apprentice" ],
+    TaKaRDaS                  `verb`    {- tataloma* -}        [ unwords [ "be", "pupil" ], unwords [ "be", "apprentice" ] ],
 
     KiRDIS                    `noun`    {- tilomiy* -}         [ "student", "pupil" ]
                               `plural`     KaRADIS
@@ -210,7 +210,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "t m m" <| [
 
-    FaCL                      `verb`    {- tam~-i -}           [ "conclude", "take place" ]
+    FaCL                      `verb`    {- tam~-i -}           [ "conclude", unwords [ "take", "place" ] ]
                               `imperf`     FiCL
                               `pfirst`     FaCaL,
 
@@ -224,7 +224,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL |< Iy               `adj`     {- tamiymiy~ -}        [ "Tamimi" ],
 
-    HaFaCL                    `noun`    {- Oatam~ -}           [ "more/most complete", "more/most perfect" ],
+    HaFaCL                    `noun`    {- Oatam~ -}           [ unwords [ "more", "/", "most", "complete" ], unwords [ "more", "/", "most", "perfect" ] ],
 
     HiFCAL                    `noun`    {- IitomAm -}          [ "completion", "realization" ]
                               `plural`     HiFCAL |< At,
@@ -413,7 +413,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "t w h" <| [
 
-    FAL                       `verb`    {- tAh-u -}            [ "go astray", "get lost" ]
+    FAL                       `verb`    {- tAh-u -}            [ unwords [ "go", "astray" ], unwords [ "get", "lost" ] ]
                               `imperf`     FUL
                               `pfirst`     FuL ]
 
@@ -470,7 +470,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "t y .h" <| [
 
-    HaFAL                     `verb`    {- OatAH -}            [ "grant", "provide", "be available" ],
+    HaFAL                     `verb`    {- OatAH -}            [ "grant", "provide", unwords [ "be", "available" ] ],
 
     HiFAL |< aT               `noun`    {- IitAHap -}          [ "granting", "providing" ],
 
@@ -482,7 +482,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "t y h" <| [
 
-    FAL                       `verb`    {- tAh-i -}            [ "get lost", "perish" ]
+    FAL                       `verb`    {- tAh-i -}            [ unwords [ "get", "lost" ], "perish" ]
                               `imperf`     FIL
                               `pfirst`     FiL,
 

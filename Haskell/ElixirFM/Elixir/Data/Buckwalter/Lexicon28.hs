@@ -17,7 +17,7 @@ lexicon = listing "Lexicon's properties"
     -- yA}     yA}     Nhy     ya' (Arabic letter)
     -- yA'     yA'     NAt     ya's (Arabic letter)
 
-    FAL                       `noun`    {- yA' -}              [ "ya' (Arabic letter)", "ya's (Arabic letter)" ]
+    FAL                       `noun`    {- yA' -}              [ unwords [ "ya'", "(", "Arabic", "letter", ")" ], unwords [ "ya's", "(", "Arabic", "letter", ")" ] ]
                               `plural`     FAL |< At ]
 
  |> "y ' m" <| [
@@ -41,7 +41,7 @@ lexicon = listing "Lexicon's properties"
     -- y>s     yo>as   IV      despair;be hopeless
     -- y}s     yo}is   IV      despair;be hopeless
 
-    FaCiL                     `verb`    {- ya}is-ai -}         [ "despair", "be hopeless" ]
+    FaCiL                     `verb`    {- ya}is-ai -}         [ "despair", unwords [ "be", "hopeless" ] ]
                               `imperf`     FCaL
                               `imperf`     FCiL,
 
@@ -50,14 +50,14 @@ lexicon = listing "Lexicon's properties"
     -- Ay>s    >ayo>as PV      make despair
     -- y}s     yo}is   IV_yu   make despair
 
-    HaFCaL                    `verb`    {- OayoOas -}          [ "make despair" ],
+    HaFCaL                    `verb`    {- OayoOas -}          [ unwords [ "make", "despair" ] ],
 
     -- ;; {isotayo>as_1
     -- <sty>s  {isotayo>as     PV      despair;be hopeless
     -- Asty>s  {isotayo>as     PV      despair;be hopeless
     -- sty}s   sotayo}is       IV      despair;be hopeless
 
-    IstaFCaL                  `verb`    {- AisotayoOas -}      [ "despair", "be hopeless" ],
+    IstaFCaL                  `verb`    {- AisotayoOas -}      [ "despair", unwords [ "be", "hopeless" ] ],
 
     -- ;; ya>os_1
     -- y>s     ya>os   N       despair;hopelessness
@@ -104,7 +104,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yaHobuwr_1
     -- yHbwr   yaHobuwr        N       bustard chick
 
-    KaRDUS                    `noun`    {- yaHobuwr -}         [ "bustard chick" ] ]
+    KaRDUS                    `noun`    {- yaHobuwr -}         [ unwords [ "bustard", "chick" ] ] ]
 
  |> "y .h r" <| [
 
@@ -173,12 +173,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; yaxonap_1
     -- yxn     yaxon   Nap     ragout;meat and vegetable stew
 
-    FaCL |< aT                `noun`    {- yaxonap -}          [ "ragout", "meat and vegetable stew" ],
+    FaCL |< aT                `noun`    {- yaxonap -}          [ "ragout", unwords [ "meat", "and", "vegetable", "stew" ] ],
 
     -- ;; yaxoniy~_1
     -- yxny    yaxoniy~        N-ap    ragout;meat and vegetable stew     [[yaxoniy~/ADJ]]
 
-    FaCL |< Iy                `adj`     {- yaxoniy~ -}         [ "ragout", "meat and vegetable stew" ] ]
+    FaCL |< Iy                `adj`     {- yaxoniy~ -}         [ "ragout", unwords [ "meat", "and", "vegetable", "stew" ] ] ]
 
  |> "y _h t" <| [
 
@@ -210,14 +210,14 @@ lexicon = listing "Lexicon's properties"
     -- ybs     yabis   PV_intr become dry
     -- ybs     yobas   IV_intr become dry
 
-    FaCiL                     `verb`    {- yabis-a -}          [ "become dry" ]
+    FaCiL                     `verb`    {- yabis-a -}          [ unwords [ "become", "dry" ] ]
                               `imperf`     FCaL,
 
     -- ;; yab~as_1
     -- ybs     yab~as  PV      make dry;desiccate
     -- ybs     yab~is  IV_yu   make dry;desiccate
 
-    FaCCaL                    `verb`    {- yab~as -}           [ "make dry", "desiccate" ],
+    FaCCaL                    `verb`    {- yab~as -}           [ unwords [ "make", "dry" ], "desiccate" ],
 
     -- ;; >ayobas_1
     -- >ybs    >ayobas PV      make dry;desiccate
@@ -225,7 +225,7 @@ lexicon = listing "Lexicon's properties"
     -- wbs     wbis    IV_yu   make dry;desiccate
     -- wbs     wbas    IV_Pass_yu      be dried;be desiccated
 
-    HaFCaL                    `verb`    {- Oayobas -}          [ "make dry", "desiccate", "be dried" ],
+    HaFCaL                    `verb`    {- Oayobas -}          [ unwords [ "make", "dry" ], "desiccate", unwords [ "be", "dried" ] ],
 
     -- ;; yabos_1
     -- ybs     yabos   N       dryness
@@ -240,7 +240,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yabis_1
     -- ybs     yabis   N-ap    dried out;desiccated     [[yabis/ADJ]]
 
-    FaCiL                     `adj`     {- yabis -}            [ "dried out", "desiccated" ],
+    FaCiL                     `adj`     {- yabis -}            [ unwords [ "dried", "out" ], "desiccated" ],
 
     -- ;; yubuwsap_1
     -- ybws    yubuws  Nap     dryness
@@ -250,7 +250,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yAbis_1
     -- yAbs    yAbis   Nall    dried out;desiccated     [[yAbis/ADJ]]
 
-    FACiL                     `adj`     {- yAbis -}            [ "dried out", "desiccated" ] ]
+    FACiL                     `adj`     {- yAbis -}            [ unwords [ "dried", "out" ], "desiccated" ] ]
 
  |> "y d d" <| [
 
@@ -313,7 +313,7 @@ lexicon = listing "Lexicon's properties"
     -- yAfwx   yAfuwx  Ndu     vertex;crown of the head
     -- ywAfyx  yawAfiyx        Ndip    vertexes;crowns of heads
 
-    FACUL                     `noun`    {- yAfuwx -}           [ "vertex", "crown of the head", "crowns of heads" ]
+    FACUL                     `noun`    {- yAfuwx -}           [ "vertex", unwords [ "crown", "of", "the", "head" ], unwords [ "crowns", "of", "heads" ] ]
                               `plural`     FawACIL
                            {- `others`  [ "yawAfiy_h Ndip" ] -} ]
 
@@ -330,7 +330,7 @@ lexicon = listing "Lexicon's properties"
     -- yfE     yafaE   PV      reach adolescence
     -- yfE     yofaE   IV      reach adolescence
 
-    FaCaL                     `verb`    {- yafaE-a -}          [ "reach adolescence" ]
+    FaCaL                     `verb`    {- yafaE-a -}          [ unwords [ "reach", "adolescence" ] ]
                               `imperf`     FCaL,
 
     -- ;; >ayofaE_1
@@ -338,13 +338,13 @@ lexicon = listing "Lexicon's properties"
     -- AyfE    >ayofaE PV      reach adolescence
     -- wfE     wfiE    IV_yu   reach adolescence
 
-    HaFCaL                    `verb`    {- OayofaE -}          [ "reach adolescence" ],
+    HaFCaL                    `verb`    {- OayofaE -}          [ unwords [ "reach", "adolescence" ] ],
 
     -- ;; tayaf~aE_1
     -- tyfE    tayaf~aE        PV      reach adolescence
     -- tyfE    tayaf~aE        IV      reach adolescence
 
-    TaFaCCaL                  `verb`    {- tayaf~aE -}         [ "reach adolescence" ],
+    TaFaCCaL                  `verb`    {- tayaf~aE -}         [ unwords [ "reach", "adolescence" ] ],
 
     -- ;; yafoE_1
     -- yfE     yafoE   N       adolescence;puberty
@@ -413,18 +413,18 @@ lexicon = listing "Lexicon's properties"
     -- ymm     yam~am  PV      head for;turn to
     -- ymm     yam~im  IV_yu   head for;turn to
 
-    FaCCaL                    `verb`    {- yam~am -}           [ "head for", "turn to" ],
+    FaCCaL                    `verb`    {- yam~am -}           [ unwords [ "head", "for" ], unwords [ "turn", "to" ] ],
 
     -- ;; tayam~am_1
     -- tymm    tayam~am        PV      turn to;head for;aim at
     -- tymm    tayam~am        IV      turn to;head for;aim at
 
-    TaFaCCaL                  `verb`    {- tayam~am -}         [ "turn to", "head for", "aim at" ],
+    TaFaCCaL                  `verb`    {- tayam~am -}         [ unwords [ "turn", "to" ], unwords [ "head", "for" ], unwords [ "aim", "at" ] ],
 
     -- ;; yumuwm_1
     -- ymwm    yumuwm  N       open seas;side;part
 
-    FuCUL                     `noun`    {- yumuwm -}           [ "open seas", "side", "part" ],
+    FuCUL                     `noun`    {- yumuwm -}           [ unwords [ "open", "seas" ], "side", "part" ],
 
     -- ;; yamAm_1
     -- ymAm    yamAm   N       pigeon;dove
@@ -440,77 +440,77 @@ lexicon = listing "Lexicon's properties"
     -- ymn     yaman   PV-n_intr       be lucky;be fortunate
     -- ymn     yomun   IV-n_intr       be lucky;be fortunate
 
-    FaCaL                     `verb`    {- yaman-u -}          [ "be lucky", "be fortunate" ]
+    FaCaL                     `verb`    {- yaman-u -}          [ unwords [ "be", "lucky" ], unwords [ "be", "fortunate" ] ]
                               `imperf`     FCuL,
 
     -- ;; yamin-a_1
     -- ymn     yamin   PV-n_intr       be lucky;be fortunate
     -- ymn     yoman   IV-n_intr       be lucky;be fortunate
 
-    FaCiL                     `verb`    {- yamin-a -}          [ "be lucky", "be fortunate" ]
+    FaCiL                     `verb`    {- yamin-a -}          [ unwords [ "be", "lucky" ], unwords [ "be", "fortunate" ] ]
                               `imperf`     FCaL,
 
     -- ;; yamun-u_1
     -- ymn     yamun   PV-n_intr       be lucky;be fortunate
     -- ymn     yomun   IV-n_intr       be lucky;be fortunate
 
-    FaCuL                     `verb`    {- yamun-u -}          [ "be lucky", "be fortunate" ]
+    FaCuL                     `verb`    {- yamun-u -}          [ unwords [ "be", "lucky" ], unwords [ "be", "fortunate" ] ]
                               `imperf`     FCuL,
 
     -- ;; yam~an_1
     -- ymn     yam~an  PV-n    go to the right
     -- ymn     yam~in  IV-n_yu go to the right
 
-    FaCCaL                    `verb`    {- yam~an -}           [ "go to the right" ],
+    FaCCaL                    `verb`    {- yam~an -}           [ unwords [ "go", "to", "the", "right" ] ],
 
     -- ;; tayam~an_1
     -- tymn    tayam~an        PV-n    see a good omen;regard as auspicious
     -- tymn    tayam~an        IV-n    see a good omen;regard as auspicious
 
-    TaFaCCaL                  `verb`    {- tayam~an -}         [ "see a good omen", "regard as auspicious" ],
+    TaFaCCaL                  `verb`    {- tayam~an -}         [ unwords [ "see", "a", "good", "omen" ], unwords [ "regard", "as", "auspicious" ] ],
 
     -- ;; {isotayoman_1
     -- <stymn  {isotayoman     PV-n    see a good omen;regard as auspicious
     -- Astymn  {isotayoman     PV-n    see a good omen;regard as auspicious
     -- stymn   sotayomin       IV-n    see a good omen;regard as auspicious
 
-    IstaFCaL                  `verb`    {- Aisotayoman -}      [ "see a good omen", "regard as auspicious" ],
+    IstaFCaL                  `verb`    {- Aisotayoman -}      [ unwords [ "see", "a", "good", "omen" ], unwords [ "regard", "as", "auspicious" ] ],
 
     -- ;; yumon_1
     -- ymn     yumon   N       good fortune;success
 
-    FuCL                      `noun`    {- yumon -}            [ "good fortune", "success" ],
+    FuCL                      `noun`    {- yumon -}            [ unwords [ "good", "fortune" ], "success" ],
 
     -- ;; yaman_1
     -- ymn     yaman   N       right side
     -- ymn     yamon   Nap     right side
 
-    FaCaL                     `noun`    {- yaman -}            [ "right side" ]
+    FaCaL                     `noun`    {- yaman -}            [ unwords [ "right", "side" ] ]
                               `plural`     FaCL |< aT,
 
     -- ;; yamanAF_1
     -- ymn     yaman   NF      to the right     [[yaman/ADV]]
 
-    FaCaL |< aN               `adv`     {- yamanAF -}          [ "to the right" ]
+    FaCaL |< aN               `adv`     {- yamanAF -}          [ unwords [ "to", "the", "right" ] ]
                               `plural`     FaCaL
                            {- `others`  [ "yaman NF" ] -},
 
     -- ;; yamanAF_2
     -- ymn     yaman   NF      to the south     [[yaman/ADV]]
 
-    FaCaL |< aN               `adv`     {- yamanAF -}          [ "to the south" ]
+    FaCaL |< aN               `adv`     {- yamanAF -}          [ unwords [ "to", "the", "south" ] ]
                               `plural`     FaCaL
                            {- `others`  [ "yaman NF" ] -},
 
     -- ;; yamonap_1
     -- ymn     yamon   Nap     to the right
 
-    FaCL |< aT                `noun`    {- yamonap -}          [ "to the right" ],
+    FaCL |< aT                `noun`    {- yamonap -}          [ unwords [ "to", "the", "right" ] ],
 
     -- ;; yamonap_2
     -- ymn     yamon   Nap     to the south
 
-    FaCL |< aT                `noun`    {- yamonap -}          [ "to the south" ],
+    FaCL |< aT                `noun`    {- yamonap -}          [ unwords [ "to", "the", "south" ] ],
 
     -- ;; yaman_2
     -- ymn     yaman   N       Yemen
@@ -537,12 +537,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; yamiyn_1
     -- ymyn    yamiyn  N       right side;right hand
 
-    FaCIL                     `noun`    {- yamiyn -}           [ "right side", "right hand" ],
+    FaCIL                     `noun`    {- yamiyn -}           [ unwords [ "right", "side" ], unwords [ "right", "hand" ] ],
 
     -- ;; yamiynAF_1
     -- ymyn    yamiyn  NF      to the right     [[yamiyn/ADV]]
 
-    FaCIL |< aN               `adv`     {- yamiynAF -}         [ "to the right" ]
+    FaCIL |< aN               `adv`     {- yamiynAF -}         [ unwords [ "to", "the", "right" ] ]
                               `plural`     FaCIL
                            {- `others`  [ "yamiyn NF" ] -},
 
@@ -560,7 +560,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yamiyniy~_1
     -- ymyny   yamiyniy~       Nall    rightist;right-wing     [[yamiyniy~/ADJ]]
 
-    FaCIL |< Iy               `adj`     {- yamiyniy~ -}        [ "rightist", "right-wing" ],
+    FaCIL |< Iy               `adj`     {- yamiyniy~ -}        [ "rightist", unwords [ "right", "-", "wing" ] ],
 
     -- ;; >ayoman_1
     -- >ymn    >ayoman Nprop   Ayman;Aiman
@@ -572,7 +572,7 @@ lexicon = listing "Lexicon's properties"
     -- >ymn    >ayoman Nel     right;right hand;lucky     [[>ayoman/ADJ]]
     -- Aymn    >ayoman Nel     right;right hand;lucky     [[>ayoman/ADJ]]
 
-    HaFCaL                    `adj`     {- Oayoman -}          [ "right", "right hand", "lucky" ],
+    HaFCaL                    `adj`     {- Oayoman -}          [ "right", unwords [ "right", "hand" ], "lucky" ],
 
     -- ;; yumonaY_1
     -- ymnY    yumonaY N0      right hand;right side;lucky     [[yumonY/ADJ]]
@@ -580,7 +580,7 @@ lexicon = listing "Lexicon's properties"
     -- ymny    yumonay NAn_Nayn        right hand;right side;lucky     [[yumonay/ADJ]]
     -- ymny    yumonay NAt     right hands;right sides;lucky     [[yumonay/ADJ]]
 
-    FuCLY                     `adj`     {- yumonaY -}          [ "right hand", "right side", "lucky" ]
+    FuCLY                     `adj`     {- yumonaY -}          [ unwords [ "right", "hand" ], unwords [ "right", "side" ], "lucky" ]
                               `plural`     FuCLY |< At,
 
     -- ;; yumonaY_2
@@ -592,14 +592,14 @@ lexicon = listing "Lexicon's properties"
     -- mymn    mayoman Nap     right wing;right side
     -- myAmn   mayAmin Ndip    right wings;right sides
 
-    MaFCaL |< aT              `noun`    {- mayomanap -}        [ "right wing", "right side" ]
+    MaFCaL |< aT              `noun`    {- mayomanap -}        [ unwords [ "right", "wing" ], unwords [ "right", "side" ] ]
                               `plural`     MaFACiL
                            {- `others`  [ "mayAmin Ndip" ] -},
 
     -- ;; tayam~un_1
     -- tymn    tayam~un        N/At    good omen;auspiciousness
 
-    TaFaCCuL                  `noun`    {- tayam~un -}         [ "good omen", "auspiciousness" ]
+    TaFaCCuL                  `noun`    {- tayam~un -}         [ unwords [ "good", "omen" ], "auspiciousness" ]
                               `plural`     TaFaCCuL |< At,
 
     -- ;; mayomuwn_1
@@ -618,7 +618,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muyAmin_1
     -- myAmn   muyAmin Nall    rightist;standing on the right side
 
-    MuFACiL                   `noun`    {- muyAmin -}          [ "rightist", "standing on the right side" ],
+    MuFACiL                   `noun`    {- muyAmin -}          [ "rightist", unwords [ "standing", "on", "the", "right", "side" ] ],
 
     -- ;; yAmuwn_1
     -- yAmwn   yAmuwn  N0      Yamoun
@@ -726,14 +726,14 @@ lexicon = listing "Lexicon's properties"
     -- yqZ     yaqiZ   PV_intr be awake;be alert
     -- yqZ     yoqaZ   IV_intr be awake;be alert
 
-    FaCiL                     `verb`    {- yaqiZ-a -}          [ "be awake", "be alert" ]
+    FaCiL                     `verb`    {- yaqiZ-a -}          [ unwords [ "be", "awake" ], unwords [ "be", "alert" ] ]
                               `imperf`     FCaL,
 
     -- ;; yaquZ-u_1
     -- yqZ     yaquZ   PV_intr be awake;be alert
     -- yqZ     yoquZ   IV_intr be awake;be alert
 
-    FaCuL                     `verb`    {- yaquZ-u -}          [ "be awake", "be alert" ]
+    FaCuL                     `verb`    {- yaquZ-u -}          [ unwords [ "be", "awake" ], unwords [ "be", "alert" ] ]
                               `imperf`     FCuL,
 
     -- ;; yaq~aZ_1
@@ -754,14 +754,14 @@ lexicon = listing "Lexicon's properties"
     -- tyqZ    tayaq~aZ        PV_intr be awake;be alert
     -- tyqZ    tayaq~aZ        IV_intr be awake;be alert
 
-    TaFaCCaL                  `verb`    {- tayaq~aZ -}         [ "be awake", "be alert" ],
+    TaFaCCaL                  `verb`    {- tayaq~aZ -}         [ unwords [ "be", "awake" ], unwords [ "be", "alert" ] ],
 
     -- ;; {isotayoqaZ_1
     -- <styqZ  {isotayoqaZ     PV      wake up;be roused;be alert
     -- AstyqZ  {isotayoqaZ     PV      wake up;be roused;be alert
     -- styqZ   sotayoqiZ       IV      wake up;be roused;be alert
 
-    IstaFCaL                  `verb`    {- AisotayoqaZ -}      [ "wake up", "be roused", "be alert" ],
+    IstaFCaL                  `verb`    {- AisotayoqaZ -}      [ unwords [ "wake", "up" ], unwords [ "be", "roused" ], unwords [ "be", "alert" ] ],
 
     -- ;; yaqiZ_1
     -- yqZ     yaqiZ   N-ap    awake;alert;vigilant     [[yaqiZ/ADJ]]
@@ -834,7 +834,7 @@ lexicon = listing "Lexicon's properties"
     -- yqn     yaqin   PV-n_intr       be sure;know for certain
     -- yqn     yoqan   IV-n_intr       be sure;know for certain
 
-    FaCiL                     `verb`    {- yaqin-a -}          [ "be sure", "know for certain" ]
+    FaCiL                     `verb`    {- yaqin-a -}          [ unwords [ "be", "sure" ], unwords [ "know", "for", "certain" ] ]
                               `imperf`     FCaL,
 
     -- ;; >ayoqan_1
@@ -842,20 +842,20 @@ lexicon = listing "Lexicon's properties"
     -- Ayqn    >ayoqan PV-n    ascertain;be convinced
     -- yqn     yoqin   IV-n    ascertain;be convinced
 
-    HaFCaL                    `verb`    {- Oayoqan -}          [ "ascertain", "be convinced" ],
+    HaFCaL                    `verb`    {- Oayoqan -}          [ "ascertain", unwords [ "be", "convinced" ] ],
 
     -- ;; tayaq~an_1
     -- tyqn    tayaq~an        PV-n    ascertain;be convinced
     -- tyqn    tayaq~an        IV-n    ascertain;be convinced
 
-    TaFaCCaL                  `verb`    {- tayaq~an -}         [ "ascertain", "be convinced" ],
+    TaFaCCaL                  `verb`    {- tayaq~an -}         [ "ascertain", unwords [ "be", "convinced" ] ],
 
     -- ;; {isotayoqan_1
     -- <styqn  {isotayoqan     PV-n    ascertain;be convinced
     -- Astyqn  {isotayoqan     PV-n    ascertain;be convinced
     -- styqn   sotayoqin       IV-n    ascertain;be convinced
 
-    IstaFCaL                  `verb`    {- Aisotayoqan -}      [ "ascertain", "be convinced" ],
+    IstaFCaL                  `verb`    {- Aisotayoqan -}      [ "ascertain", unwords [ "be", "convinced" ] ],
 
     -- ;; yaqon_1
     -- yqn     yaqon   N       certainty
@@ -883,7 +883,7 @@ lexicon = listing "Lexicon's properties"
     -- yqyny   yaqiyniy~       N-ap    indisputable;certain     [[yaqiyniy~/ADJ]]
     -- yqyny   yaqiyniy~       NAt     indisputable facts;established truths     [[yaqiyniy~/NOUN]]
 
-    FaCIL |< Iy               `adj`     {- yaqiyniy~ -}        [ "indisputable", "certain", "indisputable facts", "established truths" ],
+    FaCIL |< Iy               `adj`     {- yaqiyniy~ -}        [ "indisputable", "certain", unwords [ "indisputable", "facts" ], unwords [ "established", "truths" ] ],
 
     -- ;; miyqAn_1
     -- myqAn   miyqAn  Nall    credulous
@@ -917,7 +917,7 @@ lexicon = listing "Lexicon's properties"
     -- yAqwt   yAquwt  Napdu   precious stone;ruby
     -- ywAqyt  yawAqiyt        Ndip    precious stones;rubies
 
-    FACUL                     `noun`    {- yAquwt -}           [ "precious stone", "ruby" ]
+    FACUL                     `noun`    {- yAquwt -}           [ unwords [ "precious", "stone" ], "ruby" ]
                               `plural`     FawACIL
                            {- `others`  [ "yawAqiyt Ndip" ] -} ]
 
@@ -927,7 +927,7 @@ lexicon = listing "Lexicon's properties"
     -- yrE     yariE   PV_intr be cowardly
     -- yrE     yoraE   IV_intr be cowardly
 
-    FaCiL                     `verb`    {- yariE-a -}          [ "be cowardly" ]
+    FaCiL                     `verb`    {- yariE-a -}          [ unwords [ "be", "cowardly" ] ]
                               `imperf`     FCaL,
 
     -- ;; yaraE_1
@@ -938,7 +938,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yarAE_1
     -- yrAE    yarAE   N       reed pen;firefly
 
-    FaCAL                     `noun`    {- yarAE -}            [ "reed pen", "firefly" ],
+    FaCAL                     `noun`    {- yarAE -}            [ unwords [ "reed", "pen" ], "firefly" ],
 
     -- ;; yarAEap_1
     -- yrAE    yarAE   Napdu   firefly
@@ -968,7 +968,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yaromuwkiy~_1
     -- yrmwky  yaromuwkiy~     Nall    from/of Yarmouk     [[yaromuwkiy~/ADJ]]
 
-    KaRDUS |< Iy              `adj`     {- yaromuwkiy~ -}      [ "from/of Yarmouk" ] ]
+    KaRDUS |< Iy              `adj`     {- yaromuwkiy~ -}      [ unwords [ "from", "/", "of", "Yarmouk" ] ] ]
 
  |> "y r q" <| [
 
@@ -1008,7 +1008,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yasuwE_1
     -- yswE    yasuwE  Nprop   Jesus (in Christianity);Yasou
 
-    FaCUL                     `noun`    {- yasuwE -}           [ "Jesus (in Christianity)", "Yasou" ],
+    FaCUL                     `noun`    {- yasuwE -}           [ unwords [ "Jesus", "(", "in", "Christianity", ")" ], "Yasou" ],
 
     -- ;; yasuwEiy~_1
     -- yswEy   yasuwEiy~       Nall    Jesuit     [[yasuwEiy~/NOUN]]
@@ -1041,27 +1041,27 @@ lexicon = listing "Lexicon's properties"
     -- ysr     yasir   PV_intr become easy
     -- ysr     yosar   IV_intr become easy
 
-    FaCiL                     `verb`    {- yasir-a -}          [ "become easy" ]
+    FaCiL                     `verb`    {- yasir-a -}          [ unwords [ "become", "easy" ] ]
                               `imperf`     FCaL,
 
     -- ;; yasur-u_1
     -- ysr     yasur   PV_intr become easy;be small
     -- ysr     yosur   IV_intr become easy;be small
 
-    FaCuL                     `verb`    {- yasur-u -}          [ "become easy", "be small" ]
+    FaCuL                     `verb`    {- yasur-u -}          [ unwords [ "become", "easy" ], unwords [ "be", "small" ] ]
                               `imperf`     FCuL,
 
     -- ;; yas~ar_1
     -- ysr     yas~ar  PV      facilitate;make easy
     -- ysr     yas~ir  IV_yu   facilitate;make easy
 
-    FaCCaL                    `verb`    {- yas~ar -}           [ "facilitate", "make easy" ],
+    FaCCaL                    `verb`    {- yas~ar -}           [ "facilitate", unwords [ "make", "easy" ] ],
 
     -- ;; yAsar_1
     -- yAsr    yAsar   PV_intr be lenient with;be obliging with
     -- yAsr    yAsir   IV_intr_yu      be lenient with;be obliging with
 
-    FACaL                     `verb`    {- yAsar -}            [ "be lenient with", "be obliging with" ],
+    FACaL                     `verb`    {- yAsar -}            [ unwords [ "be", "lenient", "with" ], unwords [ "be", "obliging", "with" ] ],
 
     -- ;; >ayosar_1
     -- >ysr    >ayosar PV      live in comfort
@@ -1069,20 +1069,20 @@ lexicon = listing "Lexicon's properties"
     -- wsr     wsir    IV_yu   live in comfort
     -- wsr     wsar    IV_Pass_yu      be made easy;be facilitated
 
-    HaFCaL                    `verb`    {- Oayosar -}          [ "live in comfort", "be made easy", "be facilitated" ],
+    HaFCaL                    `verb`    {- Oayosar -}          [ unwords [ "live", "in", "comfort" ], unwords [ "be", "made", "easy" ], unwords [ "be", "facilitated" ] ],
 
     -- ;; tayas~ar_1
     -- tysr    tayas~ar        PV_intr be made easy;be facilitated
     -- tysr    tayas~ar        IV_intr be made easy;be facilitated
 
-    TaFaCCaL                  `verb`    {- tayas~ar -}         [ "be made easy", "be facilitated" ],
+    TaFaCCaL                  `verb`    {- tayas~ar -}         [ unwords [ "be", "made", "easy" ], unwords [ "be", "facilitated" ] ],
 
     -- ;; {isotayosar_1
     -- <stysr  {isotayosar     PV_intr be easy;be successful
     -- Astysr  {isotayosar     PV_intr be easy;be successful
     -- stysr   sotayosir       IV_intr be easy;be successful
 
-    IstaFCaL                  `verb`    {- Aisotayosar -}      [ "be easy", "be successful" ],
+    IstaFCaL                  `verb`    {- Aisotayosar -}      [ unwords [ "be", "easy" ], unwords [ "be", "successful" ] ],
 
     -- ;; yusor_1
     -- ysr     yusor   N       ease;facility;affluence
@@ -1092,13 +1092,13 @@ lexicon = listing "Lexicon's properties"
     -- ;; yasorap_1
     -- ysr     yasor   Nap     left side
 
-    FaCL |< aT                `noun`    {- yasorap -}          [ "left side" ],
+    FaCL |< aT                `noun`    {- yasorap -}          [ unwords [ "left", "side" ] ],
 
     -- ;; yasAr_1
     -- ysAr    yasAr   N       left
     -- ysAr    yasAr   NF      to the left     [[yasAr/ADV]]
 
-    FaCAL                     `adv`     {- yasAr -}            [ "left", "to the left" ],
+    FaCAL                     `adv`     {- yasAr -}            [ "left", unwords [ "to", "the", "left" ] ],
 
     -- ;; yasAr_2
     -- ysAr    yasAr   N       comfort;affluence
@@ -1128,7 +1128,7 @@ lexicon = listing "Lexicon's properties"
     -- ysry    yusoray NAn_Nayn        left;left hands
     -- ysry    yusoray NAt     left;left hands
 
-    HaFCaL                    `noun`    {- Oayosar -}          [ "left", "left hand" ]
+    HaFCaL                    `noun`    {- Oayosar -}          [ "left", unwords [ "left", "hand" ] ]
                               `plural`     FuCLY |< At
                            {- `others`  [ "yusrY N0 NAn_Nayn" ] -},
 
@@ -1136,18 +1136,18 @@ lexicon = listing "Lexicon's properties"
     -- >ysr    >ayosar Nel     easier/easiest;smaller/smallest
     -- Aysr    >ayosar Nel     easier/easiest;smaller/smallest
 
-    HaFCaL                    `noun`    {- Oayosar -}          [ "easier/easiest", "smaller/smallest" ],
+    HaFCaL                    `noun`    {- Oayosar -}          [ unwords [ "easier", "/", "easiest" ], unwords [ "smaller", "/", "smallest" ] ],
 
     -- ;; mayosir_1
     -- mysr    mayosir N       maisir (pre-Islamic gambling)
 
-    MaFCiL                    `noun`    {- mayosir -}          [ "maisir (pre-Islamic gambling)" ],
+    MaFCiL                    `noun`    {- mayosir -}          [ unwords [ "maisir", "(", "pre", "-", "Islamic", "gambling", ")" ] ],
 
     -- ;; mayosarap_1
     -- mysr    mayosar Napdu   left wing;left side
     -- myAsr   mayAsir Ndip    left wings;left sides
 
-    MaFCaL |< aT              `noun`    {- mayosarap -}        [ "left wing", "left side" ]
+    MaFCaL |< aT              `noun`    {- mayosarap -}        [ unwords [ "left", "wing" ], unwords [ "left", "side" ] ]
                               `plural`     MaFACiL
                            {- `others`  [ "mayAsir Ndip" ] -},
 
@@ -1179,29 +1179,29 @@ lexicon = listing "Lexicon's properties"
     -- myswr   mayosuwr        N-ap    easily accomplished;feasible;well-to-do
     -- myAsyr  mayAsiyr        Ndip    easily accomplished;feasible;well-to-do
 
-    MaFCUL                    `noun`    {- mayosuwr -}         [ "easily accomplished", "feasible", "well-to-do" ]
+    MaFCUL                    `noun`    {- mayosuwr -}         [ unwords [ "easily", "accomplished" ], "feasible", unwords [ "well", "-", "to", "-", "do" ] ]
                               `plural`     MaFACIL
                            {- `others`  [ "mayAsiyr Ndip" ] -},
 
     -- ;; muyas~ar_1
     -- mysr    muyas~ar        N-ap    made easy;facilitated;well-to-do     [[muyas~ar/ADJ]]
 
-    MuFaCCaL                  `adj`     {- muyas~ar -}         [ "made easy", "facilitated", "well-to-do" ],
+    MuFaCCaL                  `adj`     {- muyas~ar -}         [ unwords [ "made", "easy" ], "facilitated", unwords [ "well", "-", "to", "-", "do" ] ],
 
     -- ;; muwsir_1
     -- mwsr    muwsir  Nall    well-to-do
 
-    MUCiL                     `noun`    {- muwsir -}           [ "well-to-do" ],
+    MUCiL                     `noun`    {- muwsir -}           [ unwords [ "well", "-", "to", "-", "do" ] ],
 
     -- ;; mutayas~ir_1
     -- mtysr   mutayas~ir      N-ap    made easy;facilitated     [[mutayas~ir/ADJ]]
 
-    MutaFaCCiL                `adj`     {- mutayas~ir -}       [ "made easy", "facilitated" ],
+    MutaFaCCiL                `adj`     {- mutayas~ir -}       [ unwords [ "made", "easy" ], "facilitated" ],
 
     -- ;; mutayas~ir_2
     -- mtysr   mutayas~ir      Nall    well-to-do
 
-    MutaFaCCiL                `noun`    {- mutayas~ir -}       [ "well-to-do" ] ]
+    MutaFaCCiL                `noun`    {- mutayas~ir -}       [ unwords [ "well", "-", "to", "-", "do" ] ] ]
 
  |> "y s r y" <| [
 
@@ -1228,21 +1228,21 @@ lexicon = listing "Lexicon's properties"
     -- ytm     yatam   PV_intr be orphaned
     -- ytm     yotim   IV_intr be orphaned
 
-    FaCaL                     `verb`    {- yatam-i -}          [ "be orphaned" ]
+    FaCaL                     `verb`    {- yatam-i -}          [ unwords [ "be", "orphaned" ] ]
                               `imperf`     FCiL,
 
     -- ;; yatum-u_1
     -- ytm     yatum   PV_intr be orphaned
     -- ytm     yotum   IV_intr be orphaned
 
-    FaCuL                     `verb`    {- yatum-u -}          [ "be orphaned" ]
+    FaCuL                     `verb`    {- yatum-u -}          [ unwords [ "be", "orphaned" ] ]
                               `imperf`     FCuL,
 
     -- ;; yatim-a_1
     -- ytm     yatim   PV_intr be orphaned
     -- ytm     yotam   IV_intr be orphaned
 
-    FaCiL                     `verb`    {- yatim-a -}          [ "be orphaned" ]
+    FaCiL                     `verb`    {- yatim-a -}          [ unwords [ "be", "orphaned" ] ]
                               `imperf`     FCaL,
 
     -- ;; >ayotam_1
@@ -1251,13 +1251,13 @@ lexicon = listing "Lexicon's properties"
     -- wtm     wtim    IV_yu   make orphan
     -- wtm     wtam    IV_Pass_yu      be orphaned
 
-    HaFCaL                    `verb`    {- Oayotam -}          [ "make orphan", "be orphaned" ],
+    HaFCaL                    `verb`    {- Oayotam -}          [ unwords [ "make", "orphan" ], unwords [ "be", "orphaned" ] ],
 
     -- ;; tayat~am_1
     -- tytm    tayat~am        PV_intr be orphaned
     -- tytm    tayat~am        IV_intr be orphaned
 
-    TaFaCCaL                  `verb`    {- tayat~am -}         [ "be orphaned" ],
+    TaFaCCaL                  `verb`    {- tayat~am -}         [ unwords [ "be", "orphaned" ] ],
 
     -- ;; yatiym_1
     -- ytym    yatiym  N/ap    orphan;unique
@@ -1313,7 +1313,7 @@ lexicon = listing "Lexicon's properties"
     -- yAwm    yAwam   PV      hire (as a day laborer)
     -- yAwm    yAwim   IV_yu   hire (as a day laborer)
 
-    FACaL                     `verb`    {- yAwam -}            [ "hire (as a day laborer)" ],
+    FACaL                     `verb`    {- yAwam -}            [ unwords [ "hire", "(", "as", "a", "day", "laborer", ")" ] ],
 
     -- ;; yawom_1
     -- ywm     yawom   Ndu     day
@@ -1325,7 +1325,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yawom_2
     -- ywmA    yawomAF FW-Wa   some day    [[yawomAF/ADV]]
 
-    FaCL                      `adv`     {- yawom -}            [ "some day" ],
+    FaCL                      `adv`     {- yawom -}            [ unwords [ "some", "day" ] ],
 
     -- ;; yawom_3
     -- Alywm   Aloyawoma       FW-Wa   today       [[Aloyawoma/ADV]]
@@ -1341,7 +1341,7 @@ lexicon = listing "Lexicon's properties"
     -- ywmy    yawomiy~        NF      daily;per diem;on a daily basis     [[yawomiy~/ADV]]
     -- ywmy    yawomiy~        N-ap    daily     [[yawomiy~/ADJ]]
 
-    FaCL |< Iy                `adj`     {- yawomiy~ -}         [ "daily", "per diem", "on a daily basis" ],
+    FaCL |< Iy                `adj`     {- yawomiy~ -}         [ "daily", unwords [ "per", "diem" ], unwords [ "on", "a", "daily", "basis" ] ],
 
     -- ;; yawomiy~At_1
     -- ywmy    yawomiy~        NAt     diary;memoirs     [[yawomiy~/NOUN]]
@@ -1351,17 +1351,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; muyAwamap_1
     -- myAwm   muyAwam NapAt   day labor
 
-    MuFACaL |< aT             `noun`    {- muyAwamap -}        [ "day labor" ],
+    MuFACaL |< aT             `noun`    {- muyAwamap -}        [ unwords [ "day", "labor" ] ],
 
     -- ;; muyAwamapF_1
     -- myAwmp  muyAwamapF      FW-Wa   daily;per diem    [[muyAwamapF/ADV]]
 
-    MuFACaL |< aT |< aN       `adv`     {- muyAwamapF -}       [ "daily", "per diem" ],
+    MuFACaL |< aT |< aN       `adv`     {- muyAwamapF -}       [ "daily", unwords [ "per", "diem" ] ],
 
     -- ;; muyAwam_1
     -- myAwm   muyAwam Nall    day laborer
 
-    MuFACaL                   `noun`    {- muyAwam -}          [ "day laborer" ] ]
+    MuFACaL                   `noun`    {- muyAwam -}          [ unwords [ "day", "laborer" ] ] ]
 
  |> "y w n" <| [
 
@@ -1408,12 +1408,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; yAwir_1
     -- yAwr    yAwir   Ndu     adjutant;aide-de-camp
 
-    FACiL                     `noun`    {- yAwir -}            [ "adjutant", "aide-de-camp" ],
+    FACiL                     `noun`    {- yAwir -}            [ "adjutant", unwords [ "aide", "-", "de", "-", "camp" ] ],
 
     -- ;; yAwiriy~ap_1
     -- yAwry   yAwiriy~        Nap     adjutants;aides-de-camp     [[yAwiriy~/NOUN]]
 
-    FACiL |< Iy |< aT         `noun`    {- yAwiriy~ap -}       [ "adjutants", "aides-de-camp" ] ]
+    FACiL |< Iy |< aT         `noun`    {- yAwiriy~ap -}       [ "adjutants", unwords [ "aides", "-", "de", "-", "camp" ] ] ]
 
  |> "y w r n" <| [
 
@@ -1512,7 +1512,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yAzuwl_1
     -- yAzwl   yAzuwl  N       wild garlic
 
-    FACUL                     `noun`    {- yAzuwl -}           [ "wild garlic" ] ]
+    FACUL                     `noun`    {- yAzuwl -}           [ unwords [ "wild", "garlic" ] ] ]
 
  |> "yA" <| [
 
@@ -1560,7 +1560,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yAmiy$_1
     -- yAmy$   yAmiy$  N       dried fruits
 
-    Identity                  `noun`    {- yAmiy$ -}           [ "dried fruits" ] ]
+    Identity                  `noun`    {- yAmiy$ -}           [ unwords [ "dried", "fruits" ] ] ]
 
  |> "yAnA" <| [
 
@@ -1794,7 +1794,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yuwruwmiyd_1
     -- ywrwmyd yuwruwmiyd      N0      Euro-Med (European-Mediterranean)
 
-    Identity                  `noun`    {- yuwruwmiyd -}       [ "Euro-Med (European-Mediterranean)" ] ]
+    Identity                  `noun`    {- yuwruwmiyd -}       [ unwords [ "Euro", "-", "Med", "(", "European", "-", "Mediterranean", ")" ] ] ]
 
  |> "yUrk" <| [
 
@@ -1846,14 +1846,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; yawoma}i*K_1
     -- ywm}*   yawoma}i*K      FW-Wa   on that day     [[yawoma}i*K/ADV]]
 
-    Identity                  `adv`     {- yawoma}i*K -}       [ "on that day" ] ]
+    Identity                  `adv`     {- yawoma}i*K -}       [ unwords [ "on", "that", "day" ] ] ]
 
  |> "yawma_dAk" <| [
 
     -- ;; yawoma*Ak_1
     -- ywm*Ak  yawoma*Ak       FW-Wa   on that day     [[yawoma*Ak/ADV]]
 
-    Identity                  `adv`     {- yawoma*Ak -}        [ "on that day" ] ]
+    Identity                  `adv`     {- yawoma*Ak -}        [ unwords [ "on", "that", "day" ] ] ]
 
  |> "yazar^g" <| [
 
@@ -1897,5 +1897,5 @@ lexicon = listing "Lexicon's properties"
     -- ;; ywmblgAz_1
     -- ywmblgAz        ywmblgAz        Nprop   Iompelgas ??
 
-    Identity                  `noun`    {- ywmblgAz -}         [ "Iompelgas ??" ] ]
+    Identity                  `noun`    {- ywmblgAz -}         [ unwords [ "Iompelgas", "?", "?" ] ] ]
 

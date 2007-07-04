@@ -17,7 +17,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d ' `" <| [
 
-    FACiL                     `adj`     {- \*A}iE -}           [ "widespread", "widely known" ] ]
+    FACiL                     `adj`     {- \*A}iE -}           [ "widespread", unwords [ "widely", "known" ] ] ]
 
  |> "_d ' b" <| [
 
@@ -46,7 +46,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d ` n" <| [
 
-    HaFCaL                    `verb`    {- Oa*oEan -}          [ "submit", "yield", "obey", "be submitted to", "be yielded to" ],
+    HaFCaL                    `verb`    {- Oa*oEan -}          [ "submit", "yield", "obey", unwords [ "be", "submitted", "to" ], unwords [ "be", "yielded", "to" ] ],
 
     HiFCAL                    `noun`    {- Ii*oEAn -}          [ "submissiveness", "compliance", "obedience" ]
                               `plural`     HiFCAL |< At ]
@@ -82,14 +82,14 @@ lexicon = listing "Lexicon's properties"
 
     FuCLAn                    `noun`    {- \*uboyAn -}         [ "Dhubyan", "Dhubian" ],
 
-    FuCLAn                    `noun`    {- \*uboyAn -}         [ "Supyan (Makhchayev)" ] ]
+    FuCLAn                    `noun`    {- \*uboyAn -}         [ unwords [ "Supyan", "(", "Makhchayev", ")" ] ] ]
 
  |> "_d h b" <| [
 
     FaCaL                     `verb`    {- \*ahab-a -}         [ "go", "depart" ]
                               `imperf`     FCaL,
 
-    FaCaL                     `verb`    {- \*ahab-a -}         [ "take (with)" ]
+    FaCaL                     `verb`    {- \*ahab-a -}         [ unwords [ "take", "(", "with", ")" ] ]
                               `imperf`     FCaL,
 
     FaCaL                     `noun`    {- \*ahab -}           [ "gold" ],
@@ -112,7 +112,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d h l" <| [
 
-    FaCaL                     `verb`    {- \*ahal-a -}         [ "be stunned", "be dazed", "overlook" ]
+    FaCaL                     `verb`    {- \*ahal-a -}         [ unwords [ "be", "stunned" ], unwords [ "be", "dazed" ], "overlook" ]
                               `imperf`     FCaL,
 
     FuCUL                     `noun`    {- \*uhuwl -}          [ "numbness", "indifference", "confusion" ],
@@ -164,7 +164,7 @@ lexicon = listing "Lexicon's properties"
 
     FACiL |< aT               `noun`    {- \*Akirap -}         [ "memory" ],
 
-    MaFCUL                    `adj`     {- ma*okuwr -}         [ "mentioned", "worthy of mention" ],
+    MaFCUL                    `adj`     {- ma*okuwr -}         [ "mentioned", unwords [ "worthy", "of", "mention" ] ],
 
     MuFaCCiL |< aT            `noun`    {- mu*ak~irap -}       [ "reminder", "memorandum" ] ]
 
@@ -263,14 +263,14 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d w `" <| [
 
-    HaFAL                     `verb`    {- Oa*AE -}            [ "broadcast", "propagate", "be broadcast" ],
+    HaFAL                     `verb`    {- Oa*AE -}            [ "broadcast", "propagate", unwords [ "be", "broadcast" ] ],
 
     HiFAL |< aT               `noun`    {- Ii*AEap -}          [ "broadcast", "transmission" ]
                               `plural`     HiFAL |< At,
 
     HiFAL |< Iy               `adj`     {- Ii*AEiy~ -}         [ "radio", "broadcast", "transmission" ],
 
-    FA'iL                     `adj`     {- \*A}iE -}           [ "widespread", "widely known" ],
+    FA'iL                     `adj`     {- \*A}iE -}           [ "widespread", unwords [ "widely", "known" ] ],
 
     MuFIL                     `noun`    {- mu*iyE -}           [ "broadcaster", "transmitter", "announcer" ] ]
 
@@ -284,7 +284,7 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL,
 
-    HaFAL                     `verb`    {- Oa*Aq -}            [ "make taste", "make sample", "make experience", "be made to taste/sample", "be made to make experience" ],
+    HaFAL                     `verb`    {- Oa*Aq -}            [ unwords [ "make", "taste" ], unwords [ "make", "sample" ], unwords [ "make", "experience" ], unwords [ "be", "made", "to", "taste", "/", "sample" ], unwords [ "be", "made", "to", "make", "experience" ] ],
 
     FaCL                      `noun`    {- \*awoq -}           [ "taste", "sense", "sensitivity" ]
                               `plural`     HaFCAL
@@ -294,7 +294,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d w w" <| [
 
-    FU                        `pron`    {- \*uw -}             [ "of", "with", "(two relatives) of", "(relatives) of", "family" ]
+    FU                        `pron`    {- \*uw -}             [ "of", "with", unwords [ "(", "two", "relatives", ")", "of" ], unwords [ "(", "relatives", ")", "of" ], "family" ]
                               `plural`     FaCU
                               `plural`     FaCI
                               `plural`     FaCA
@@ -321,15 +321,15 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d_alik" <| [
 
-    Identity |<< "a"          `pron`    {- \*`lika -}          [ "that", "that one", "those" ] ]
+    Identity |<< "a"          `pron`    {- \*`lika -}          [ "that", unwords [ "that", "one" ], "those" ] ]
 
  |> "bi_dA" <| [
 
-    Identity                  `prep`    {- bi*A -}             [ "with that" ] ]
+    Identity                  `prep`    {- bi*A -}             [ unwords [ "with", "that" ] ] ]
 
  |> "h_aka_dA" <| [
 
-    Identity                  `conj`    {- h`ka*A -}           [ "thus", "as such" ] ]
+    Identity                  `conj`    {- h`ka*A -}           [ "thus", unwords [ "as", "such" ] ] ]
 
  |> "ka_dA" <| [
 

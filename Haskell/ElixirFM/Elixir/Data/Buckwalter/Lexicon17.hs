@@ -15,7 +15,7 @@ lexicon = listing "Lexicon's properties"
     -- >Zhr    >aZohur N       rear part
     -- AZhr    >aZohur N       rear part
 
-    Identity                  `noun`    {- OaZohur -}          [ "rear part" ] ]
+    Identity                  `noun`    {- OaZohur -}          [ unwords [ "rear", "part" ] ] ]
 
  |> ".z  '" <| [
 
@@ -25,7 +25,7 @@ lexicon = listing "Lexicon's properties"
     -- ZA}     ZA}     Nhy     Za' (Arabic letter)
     -- ZA'     ZA'     NAt     Za's (Arabic letter)
 
-    FAL                       `noun`    {- ZA' -}              [ "Za' (Arabic letter)", "Za's (Arabic letter)" ]
+    FAL                       `noun`    {- ZA' -}              [ unwords [ "Za'", "(", "Arabic", "letter", ")" ], unwords [ "Za's", "(", "Arabic", "letter", ")" ] ]
                               `plural`     FAL |< At
                               `plural`     FACL |< At ]
 
@@ -34,7 +34,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Zi}or_1
     -- Z}r     Zi}or   N       wet nurse
 
-    FiCL                      `noun`    {- Zi}or -}            [ "wet nurse" ] ]
+    FiCL                      `noun`    {- Zi}or -}            [ unwords [ "wet", "nurse" ] ] ]
 
  |> ".z ` n" <| [
 
@@ -42,7 +42,7 @@ lexicon = listing "Lexicon's properties"
     -- ZEn     ZaEan   PV-n    depart;move away
     -- ZEn     ZoEan   IV-n    depart;move away
 
-    FaCaL                     `verb`    {- ZaEan-a -}          [ "depart", "move away" ]
+    FaCaL                     `verb`    {- ZaEan-a -}          [ "depart", unwords [ "move", "away" ] ]
                               `imperf`     FCaL,
 
     -- ;; ZaEon_1
@@ -56,14 +56,14 @@ lexicon = listing "Lexicon's properties"
     -- AZEAn   >aZoEAn N       camel loads
     -- ZEA}n   ZaEA}in Ndip    camel loads
 
-    FaCIL |< aT               `noun`    {- ZaEiynap -}         [ "camel load" ]
+    FaCIL |< aT               `noun`    {- ZaEiynap -}         [ unwords [ "camel", "load" ] ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.z`An N" ] -},
 
     -- ;; ZaEuwn_1
     -- ZEwn    ZaEuwn  N       load camel
 
-    FaCUL                     `noun`    {- ZaEuwn -}           [ "load camel" ],
+    FaCUL                     `noun`    {- ZaEuwn -}           [ unwords [ "load", "camel" ] ],
 
     -- ;; ZAEin_1
     -- ZAEn    ZAEin   Nall    ephemeral;transitory     [[ZAEin/ADJ]]
@@ -97,7 +97,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; ZuboyAniy~_1
     -- ZbyAny  ZuboyAniy~      Nall    from/of Abu Dhabi     [[ZuboyAniy~/ADJ]]
 
-    FuCLAn |< Iy              `adj`     {- ZuboyAniy~ -}       [ "from/of Abu Dhabi" ] ]
+    FuCLAn |< Iy              `adj`     {- ZuboyAniy~ -}       [ unwords [ "from", "/", "of", "Abu", "Dhabi" ] ] ]
 
  |> ".z f r" <| [
 
@@ -112,7 +112,7 @@ lexicon = listing "Lexicon's properties"
     -- Zfr     Zaf~ar  PV      grant victory
     -- Zfr     Zaf~ir  IV_yu   grant victory
 
-    FaCCaL                    `verb`    {- Zaf~ar -}           [ "grant victory" ],
+    FaCCaL                    `verb`    {- Zaf~ar -}           [ unwords [ "grant", "victory" ] ],
 
     -- ;; >aZofar_1
     -- >Zfr    >aZofar PV      grant victory
@@ -120,13 +120,13 @@ lexicon = listing "Lexicon's properties"
     -- Zfr     Zofir   IV_yu   grant victory
     -- Zfr     Zofar   IV_Pass_yu      be granted victory
 
-    HaFCaL                    `verb`    {- OaZofar -}          [ "grant victory", "be granted victory" ],
+    HaFCaL                    `verb`    {- OaZofar -}          [ unwords [ "grant", "victory" ], unwords [ "be", "granted", "victory" ] ],
 
     -- ;; taZAfar_1
     -- tZAfr   taZAfar PV_intr be allied with
     -- tZAfr   taZAfar IV_intr be allied with
 
-    TaFACaL                   `verb`    {- taZAfar -}          [ "be allied with" ],
+    TaFACaL                   `verb`    {- taZAfar -}          [ unwords [ "be", "allied", "with" ] ],
 
     -- ;; Zufur_1
     -- Zfr     Zufur   Ndu     nail;claw;talon
@@ -228,7 +228,7 @@ lexicon = listing "Lexicon's properties"
     -- Zhr     Zohir   IV_yu   show;manifest;demonstrate
     -- Zhr     Zohar   IV_Pass_yu      be shown;be manifest;be demonstrated
 
-    HaFCaL                    `verb`    {- OaZohar -}          [ "show", "manifest", "demonstrate", "be shown", "be manifest" ],
+    HaFCaL                    `verb`    {- OaZohar -}          [ "show", "manifest", "demonstrate", unwords [ "be", "shown" ], unwords [ "be", "manifest" ] ],
 
     -- ;; taZAhar_1
     -- tZAhr   taZAhar PV      manifest;demonstrate
@@ -260,7 +260,7 @@ lexicon = listing "Lexicon's properties"
     -- >ZhAr   >aZohAr N       afternoons
     -- AZhAr   >aZohAr N       afternoons
 
-    FuCL                      `adv`     {- Zuhor -}            [ "noon", "afternoon", "in the afternoon", "at noon" ]
+    FuCL                      `adv`     {- Zuhor -}            [ "noon", "afternoon", unwords [ "in", "the", "afternoon" ], unwords [ "at", "noon" ] ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.zhAr N" ] -},
 
@@ -298,7 +298,7 @@ lexicon = listing "Lexicon's properties"
     -- >Zhr    >aZohar Nel     clearer/clearest;more/most apparent
     -- AZhr    >aZohar Nel     clearer/clearest;more/most apparent
 
-    HaFCaL                    `noun`    {- OaZohar -}          [ "clearer/clearest", "more/most apparent" ],
+    HaFCaL                    `noun`    {- OaZohar -}          [ unwords [ "clearer", "/", "clearest" ], unwords [ "more", "/", "most", "apparent" ] ],
 
     -- ;; maZohar_1
     -- mZhr    maZohar Ndu     appearance;facade
@@ -317,7 +317,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taZohiyr_2
     -- tZhyr   taZohiyr        N/At    (photo) developing
 
-    TaFCIL                    `noun`    {- taZohiyr -}         [ "(photo) developing" ]
+    TaFCIL                    `noun`    {- taZohiyr -}         [ unwords [ "(", "photo", ")", "developing" ] ]
                               `plural`     TaFCIL |< At,
 
     -- ;; ZihAr_1
@@ -449,7 +449,7 @@ lexicon = listing "Lexicon's properties"
     -- >ZlAf   >aZolAf N       cloven hoof
     -- AZlAf   >aZolAf N       cloven hoof
 
-    FiCL                      `noun`    {- Zilof -}            [ "cloven hoof" ]
+    FiCL                      `noun`    {- Zilof -}            [ unwords [ "cloven", "hoof" ] ]
                               `plural`     FuCUL
                               `plural`     HaFCAL
                            {- `others`  [ ".zuluwf N", "'a.zlAf N" ] -} ]
@@ -489,7 +489,7 @@ lexicon = listing "Lexicon's properties"
     -- tZll    taZal~al        PV_intr be shaded
     -- tZll    taZal~al        IV_intr be shaded
 
-    TaFaCCaL                  `verb`    {- taZal~al -}         [ "be shaded" ],
+    TaFaCCaL                  `verb`    {- taZal~al -}         [ unwords [ "be", "shaded" ] ],
 
     -- ;; {isotaZal~_1
     -- <stZl   {isotaZal~      PV_V    seek refuge;seek shade
@@ -499,7 +499,7 @@ lexicon = listing "Lexicon's properties"
     -- stZl    sotaZil~        IV_V    seek refuge;seek shade
     -- stZll   sotaZolil       IV_C    seek refuge;seek shade
 
-    IstaFaCL                  `verb`    {- AisotaZal~ -}       [ "seek refuge", "seek shade" ],
+    IstaFaCL                  `verb`    {- AisotaZal~ -}       [ unwords [ "seek", "refuge" ], unwords [ "seek", "shade" ] ],
 
     -- ;; Zil~_1
     -- Zl      Zil~    N       patronage;shelter
@@ -565,7 +565,7 @@ lexicon = listing "Lexicon's properties"
     -- Zlm     Zolim   IV_intr be unjust;oppress
     -- Zlm     Zolam   IV_Pass_yu      be oppressed
 
-    FaCaL                     `verb`    {- Zalam-i -}          [ "be unjust", "oppress" ]
+    FaCaL                     `verb`    {- Zalam-i -}          [ unwords [ "be", "unjust" ], "oppress" ]
                               `imperf`     FCiL,
 
     -- ;; >aZolam_1
@@ -574,7 +574,7 @@ lexicon = listing "Lexicon's properties"
     -- Zlm     Zolim   IV_intr_yu      become dark
     -- Zlm     Zolam   IV_Pass_yu      be darkened
 
-    HaFCaL                    `verb`    {- OaZolam -}          [ "become dark", "be darkened" ],
+    HaFCaL                    `verb`    {- OaZolam -}          [ unwords [ "become", "dark" ], unwords [ "be", "darkened" ] ],
 
     -- ;; taZal~am_1
     -- tZlm    taZal~am        PV      complain
@@ -587,14 +587,14 @@ lexicon = listing "Lexicon's properties"
     -- AnZlm   {inoZalam       PV_intr be wronged
     -- nZlm    noZalim IV_intr be wronged
 
-    InFaCaL                   `verb`    {- AinoZalam -}        [ "be wronged" ],
+    InFaCaL                   `verb`    {- AinoZalam -}        [ unwords [ "be", "wronged" ] ],
 
     -- ;; {iZ~alam_1
     -- <Zlm    {iZ~alam        PV_intr be wronged
     -- AZlm    {iZ~alam        PV_intr be wronged
     -- Zlm     Z~alim  IV_intr be wronged
 
-    IFtaCaL                   `verb`    {- AiZ~alam -}         [ "be wronged" ],
+    IFtaCaL                   `verb`    {- AiZ~alam -}         [ unwords [ "be", "wronged" ] ],
 
     -- ;; Zulom_1
     -- Zlm     Zulom   N       injustice
@@ -644,7 +644,7 @@ lexicon = listing "Lexicon's properties"
     -- >Zlm    >aZolam Nel     darker/darkest;viler/vilest
     -- AZlm    >aZolam Nel     darker/darkest;viler/vilest
 
-    HaFCaL                    `noun`    {- OaZolam -}          [ "darker/darkest", "viler/vilest" ],
+    HaFCaL                    `noun`    {- OaZolam -}          [ unwords [ "darker", "/", "darkest" ], unwords [ "viler", "/", "vilest" ] ],
 
     -- ;; maZolimap_1
     -- mZlm    maZolim Napdu   injustice;misdeed
@@ -680,7 +680,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; maZoluwm_1
     -- mZlwm   maZoluwm        Nall    oppressed;treated unjustly     [[maZoluwm/ADJ]]
 
-    MaFCUL                    `adj`     {- maZoluwm -}         [ "oppressed", "treated unjustly" ],
+    MaFCUL                    `adj`     {- maZoluwm -}         [ "oppressed", unwords [ "treated", "unjustly" ] ],
 
     -- ;; muZolim_1
     -- mZlm    muZolim Nall    dark;gloomy     [[muZolim/ADJ]]
@@ -696,7 +696,7 @@ lexicon = listing "Lexicon's properties"
     -- Zm&     Zoma&   IV_wn   be thirsty
     -- Zm}     Zoma}   IV_yn   be thirsty
 
-    FaCiL                     `verb`    {- Zami}-a -}          [ "be thirsty" ]
+    FaCiL                     `verb`    {- Zami}-a -}          [ unwords [ "be", "thirsty" ] ]
                               `imperf`     FCaL,
 
     -- ;; Zam~a>_1
@@ -705,7 +705,7 @@ lexicon = listing "Lexicon's properties"
     -- Zm&     Zam~a&  PV_w    make thirsty
     -- Zm}     Zam~i}  IV_yu   make thirsty
 
-    FaCCaL                    `verb`    {- Zam~aO -}           [ "make thirsty" ],
+    FaCCaL                    `verb`    {- Zam~aO -}           [ unwords [ "make", "thirsty" ] ],
 
     -- ;; >aZoma>_1
     -- >Zm>    >aZoma> PV->    make thirsty
@@ -717,7 +717,7 @@ lexicon = listing "Lexicon's properties"
     -- Zm}     Zomi}   IV_yu   make thirsty
     -- Zm>     Zoma>   IV_Pass_yu      be made thirsty
 
-    HaFCaL                    `verb`    {- OaZomaO -}          [ "make thirsty", "be made thirsty" ],
+    HaFCaL                    `verb`    {- OaZomaO -}          [ unwords [ "make", "thirsty" ], unwords [ "be", "made", "thirsty" ] ],
 
     -- ;; Zama>_1
     -- Zm>     Zama>   N0_Nh   thirst
@@ -835,7 +835,7 @@ lexicon = listing "Lexicon's properties"
     -- Zrf     Zaruf   PV_intr be charming;be witty
     -- Zrf     Zoruf   IV_intr be charming;be witty
 
-    FaCuL                     `verb`    {- Zaruf-u -}          [ "be charming", "be witty" ]
+    FaCuL                     `verb`    {- Zaruf-u -}          [ unwords [ "be", "charming" ], unwords [ "be", "witty" ] ]
                               `imperf`     FCuL,
 
     -- ;; Zar~af_1
@@ -848,20 +848,20 @@ lexicon = listing "Lexicon's properties"
     -- tZrf    taZar~af        PV_intr be elegant
     -- tZrf    taZar~af        IV_intr be elegant
 
-    TaFaCCaL                  `verb`    {- taZar~af -}         [ "be elegant" ],
+    TaFaCCaL                  `verb`    {- taZar~af -}         [ unwords [ "be", "elegant" ] ],
 
     -- ;; taZAraf_1
     -- tZArf   taZAraf PV_intr be elegant
     -- tZArf   taZAraf IV_intr be elegant
 
-    TaFACaL                   `verb`    {- taZAraf -}          [ "be elegant" ],
+    TaFACaL                   `verb`    {- taZAraf -}          [ unwords [ "be", "elegant" ] ],
 
     -- ;; {isotaZoraf_1
     -- <stZrf  {isotaZoraf     PV      deem charming
     -- AstZrf  {isotaZoraf     PV      deem charming
     -- stZrf   sotaZorif       IV      deem charming
 
-    IstaFCaL                  `verb`    {- AisotaZoraf -}      [ "deem charming" ],
+    IstaFCaL                  `verb`    {- AisotaZoraf -}      [ unwords [ "deem", "charming" ] ],
 
     -- ;; Zarof_1
     -- Zrf     Zarof   N       charm
@@ -911,7 +911,7 @@ lexicon = listing "Lexicon's properties"
     -- >Zrf    >aZoraf Nel     more/most elegant;wittier/wittiest
     -- AZrf    >aZoraf Nel     more/most elegant;wittier/wittiest
 
-    HaFCaL                    `noun`    {- OaZoraf -}          [ "more/most elegant", "wittier/wittiest" ],
+    HaFCaL                    `noun`    {- OaZoraf -}          [ unwords [ "more", "/", "most", "elegant" ], unwords [ "wittier", "/", "wittiest" ] ],
 
     -- ;; taZoriyf_1
     -- tZryf   taZoriyf        N/At    wittiness;courtesy

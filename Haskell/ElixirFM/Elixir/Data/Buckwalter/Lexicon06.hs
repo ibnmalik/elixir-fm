@@ -23,7 +23,7 @@ lexicon = listing "Lexicon's properties"
     -- >HylY   >uHayolaY       FW      how sweet!     [[>uHayolaY/INTERJ]]
     -- AHylY   >uHayolaY       FW      how sweet!     [[>uHayolaY/INTERJ]]
 
-    Identity                  `noun`    {- OuHayolaY -}        [ "how sweet!" ] ]
+    Identity                  `noun`    {- OuHayolaY -}        [ unwords [ "how", "sweet", "!" ] ] ]
 
  |> ".h  '" <| [
 
@@ -33,7 +33,7 @@ lexicon = listing "Lexicon's properties"
     -- HA}     HA}     Nhy     Ha' (Arabic letter)
     -- HA'     HA'     NAt     Ha's (Arabic letter)
 
-    FAL                       `noun`    {- HA' -}              [ "Ha' (Arabic letter)", "Ha's (Arabic letter)" ]
+    FAL                       `noun`    {- HA' -}              [ unwords [ "Ha'", "(", "Arabic", "letter", ")" ], unwords [ "Ha's", "(", "Arabic", "letter", ")" ] ]
                               `plural`     FAL |< At
                               `plural`     FACL |< At ]
 
@@ -105,7 +105,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HAm_1
     -- HAm     HAm     Nprop   Ham (Noah's 2nd son)
 
-    FAL                       `noun`    {- HAm -}              [ "Ham (Noah's 2nd son)" ],
+    FAL                       `noun`    {- HAm -}              [ unwords [ "Ham", "(", "Noah's", "2nd", "son", ")" ] ],
 
     -- ;; HAmiy~_1
     -- HAmy    HAmiy~  Nall    Hamite     [[HAmiy~/NOUN]]
@@ -256,13 +256,13 @@ lexicon = listing "Lexicon's properties"
     -- HDr     HoDir   IV_yu   bring;supply
     -- HDr     HoDar   IV_Pass_yu      be brought;be supplied
 
-    HaFCaL                    `verb`    {- OaHoDar -}          [ "bring", "supply", "be brought" ],
+    HaFCaL                    `verb`    {- OaHoDar -}          [ "bring", "supply", unwords [ "be", "brought" ] ],
 
     -- ;; taHaD~ar_1
     -- tHDr    taHaD~ar        PV_intr be prepared
     -- tHDr    taHaD~ar        IV_intr be prepared
 
-    TaFaCCaL                  `verb`    {- taHaD~ar -}         [ "be prepared" ],
+    TaFaCCaL                  `verb`    {- taHaD~ar -}         [ unwords [ "be", "prepared" ] ],
 
     -- ;; {iHotaDar_1
     -- <HtDr   {iHotaDar       PV_intr be present
@@ -272,7 +272,7 @@ lexicon = listing "Lexicon's properties"
     -- AHtDr   {uHotuDir       PV_Pass be dying
     -- HtDr    HotaDar IV_Pass_yu      be dying
 
-    IFtaCaL                   `verb`    {- AiHotaDar -}        [ "be present", "be dying" ],
+    IFtaCaL                   `verb`    {- AiHotaDar -}        [ unwords [ "be", "present" ], unwords [ "be", "dying" ] ],
 
     -- ;; {isotaHoDar_1
     -- <stHDr  {isotaHoDar     PV      summon;prepare
@@ -284,7 +284,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HaDar_1
     -- HDr     HaDar   N       sedentary population
 
-    FaCaL                     `noun`    {- HaDar -}            [ "sedentary population" ],
+    FaCaL                     `noun`    {- HaDar -}            [ unwords [ "sedentary", "population" ] ],
 
     -- ;; HaDariy~_1
     -- HDry    HaDariy~        Nall    sedentary     [[HaDariy~/ADJ]]
@@ -380,7 +380,7 @@ lexicon = listing "Lexicon's properties"
     -- HADr    HADir   Nap     metropolis
     -- HwADr   HawADir Ndip    capital cities
 
-    FACiL |< aT               `noun`    {- HADirap -}          [ "metropolis", "capital cities" ]
+    FACiL |< aT               `noun`    {- HADirap -}          [ "metropolis", unwords [ "capital", "cities" ] ]
                               `plural`     FawACiL
                            {- `others`  [ ".hawA.dir Ndip" ] -},
 
@@ -426,7 +426,7 @@ lexicon = listing "Lexicon's properties"
     -- HDArm   HaDArim Ndip    Hadramautis
     -- HDArm   HaDArim Nap     Hadramautis
 
-    KaRDaS |< Iy              `adj`     {- HaDoramiy~ -}       [ "from/of Hadramaut", "Hadramauti" ]
+    KaRDaS |< Iy              `adj`     {- HaDoramiy~ -}       [ unwords [ "from", "/", "of", "Hadramaut" ], "Hadramauti" ]
                               `plural`     KaRADiS |< aT
                            {- `others`  [ ".ha.dArim Ndip" ] -} ]
 
@@ -468,7 +468,7 @@ lexicon = listing "Lexicon's properties"
     -- HSHS    HaSoHaS PV_intr become clear;be manifest;come to light
     -- HSHS    HaSoHiS IV_intr_yu      become clear;be manifest;come to light
 
-    KaRDaS                    `verb`    {- HaSoHaS -}          [ "become clear", "be manifest", "come to light" ] ]
+    KaRDaS                    `verb`    {- HaSoHaS -}          [ unwords [ "become", "clear" ], unwords [ "be", "manifest" ], unwords [ "come", "to", "light" ] ] ]
 
  |> ".h .s .s" <| [
 
@@ -478,7 +478,7 @@ lexicon = listing "Lexicon's properties"
     -- HS      HuS~    IV_V_intr       be a quota to;be a share to
     -- HSS     HoSuS   IV_C_intr       be a quota to;be a share to
 
-    FaCL                      `verb`    {- HaS~-u -}           [ "be a quota to", "be a share to" ]
+    FaCL                      `verb`    {- HaS~-u -}           [ unwords [ "be", "a", "quota", "to" ], unwords [ "be", "a", "share", "to" ] ]
                               `imperf`     FuCL
                               `pfirst`     FaCaL,
 
@@ -499,7 +499,7 @@ lexicon = listing "Lexicon's properties"
     -- HSS     HoSiS   IV_C_yu allot a share;allot a quota
     -- HS      HaS~    IV_V_Pass_yu    be alloted
 
-    HaFaCL                    `verb`    {- OaHaS~ -}           [ "allot a share", "allot a quota", "be alloted" ],
+    HaFaCL                    `verb`    {- OaHaS~ -}           [ unwords [ "allot", "a", "share" ], unwords [ "allot", "a", "quota" ], unwords [ "be", "alloted" ] ],
 
     -- ;; HuS~_1
     -- HS      HuS~    N       saffron
@@ -517,12 +517,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; HiS~ap_2
     -- HS      HiS~    Napdu   class period
 
-    FiCL |< aT                `noun`    {- HiS~ap -}           [ "class period" ],
+    FiCL |< aT                `noun`    {- HiS~ap -}           [ unwords [ "class", "period" ] ],
 
     -- ;; taHoSiyS_1
     -- tHSyS   taHoSiyS        NduAt   quota system;apportionment
 
-    TaFCIL                    `noun`    {- taHoSiyS -}         [ "quota system", "apportionment" ]
+    TaFCIL                    `noun`    {- taHoSiyS -}         [ unwords [ "quota", "system" ], "apportionment" ]
                               `plural`     TaFCIL |< At,
 
     -- ;; muHAS~ap_1
@@ -550,7 +550,7 @@ lexicon = listing "Lexicon's properties"
     -- HSb     HaSib   PV      have measles
     -- HSb     HoSab   IV      have measles
 
-    FaCiL                     `verb`    {- HaSib-a -}          [ "have measles" ]
+    FaCiL                     `verb`    {- HaSib-a -}          [ unwords [ "have", "measles" ] ]
                               `imperf`     FCaL,
 
     -- ;; HaS~ab_1
@@ -595,21 +595,21 @@ lexicon = listing "Lexicon's properties"
     -- AHSd    >aHoSad PV_intr be ripe
     -- HSd     HoSid   IV_intr_yu      be ripe
 
-    HaFCaL                    `verb`    {- OaHoSad -}          [ "be ripe" ],
+    HaFCaL                    `verb`    {- OaHoSad -}          [ unwords [ "be", "ripe" ] ],
 
     -- ;; {iHotaSad_1
     -- <HtSd   {iHotaSad       PV_intr be ripe
     -- AHtSd   {iHotaSad       PV_intr be ripe
     -- HtSd    HotaSid IV_intr be ripe
 
-    IFtaCaL                   `verb`    {- AiHotaSad -}        [ "be ripe" ],
+    IFtaCaL                   `verb`    {- AiHotaSad -}        [ unwords [ "be", "ripe" ] ],
 
     -- ;; {isotaHoSad_1
     -- <stHSd  {isotaHoSad     PV_intr be ripe
     -- AstHSd  {isotaHoSad     PV_intr be ripe
     -- stHSd   sotaHoSid       IV_intr be ripe
 
-    IstaFCaL                  `verb`    {- AisotaHoSad -}      [ "be ripe" ],
+    IstaFCaL                  `verb`    {- AisotaHoSad -}      [ unwords [ "be", "ripe" ] ],
 
     -- ;; HaSod_1
     -- HSd     HaSod   N       harvest
@@ -677,7 +677,7 @@ lexicon = listing "Lexicon's properties"
     -- HSf     HaSuf   PV_intr be sensible;be judicious;be discriminating
     -- HSf     HoSuf   IV_intr be sensible;be judicious;be discriminating
 
-    FaCuL                     `verb`    {- HaSuf-u -}          [ "be sensible", "be judicious", "be discriminating" ]
+    FaCuL                     `verb`    {- HaSuf-u -}          [ unwords [ "be", "sensible" ], unwords [ "be", "judicious" ], unwords [ "be", "discriminating" ] ]
                               `imperf`     FCuL,
 
     -- ;; HaSif_1
@@ -698,7 +698,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HaSAfap_1
     -- HSAf    HaSAf   Nap     sensibility;judiciousness;sound judgment
 
-    FaCAL |< aT               `noun`    {- HaSAfap -}          [ "sensibility", "judiciousness", "sound judgment" ],
+    FaCAL |< aT               `noun`    {- HaSAfap -}          [ "sensibility", "judiciousness", unwords [ "sound", "judgment" ] ],
 
     -- ;; HaSAfiy~_1
     -- HSAfy   HaSAfiy~        N0      Hassafi
@@ -718,7 +718,7 @@ lexicon = listing "Lexicon's properties"
     -- HSl     HaSal   PV_intr occur;happen;take place
     -- HSl     HoSul   IV_intr occur;happen;take place
 
-    FaCaL                     `verb`    {- HaSal-u -}          [ "occur", "happen", "take place" ]
+    FaCaL                     `verb`    {- HaSal-u -}          [ "occur", "happen", unwords [ "take", "place" ] ]
                               `imperf`     FCuL,
 
     -- ;; taHaS~al_1
@@ -749,7 +749,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HaS~Alap_1
     -- HSAl    HaS~Al  NapAt   cash box;money box
 
-    FaCCAL |< aT              `noun`    {- HaS~Alap -}         [ "cash box", "money box" ],
+    FaCCAL |< aT              `noun`    {- HaS~Alap -}         [ unwords [ "cash", "box" ], unwords [ "money", "box" ] ],
 
     -- ;; maHoSal_1
     -- mHSl    maHoSal Ndu     outcome;result
@@ -805,14 +805,14 @@ lexicon = listing "Lexicon's properties"
     -- HSn     HaSun   PV-n_intr       be inaccessible;be fortified
     -- HSn     HoSun   IV-n_intr       be inaccessible;be fortified
 
-    FaCuL                     `verb`    {- HaSun-u -}          [ "be inaccessible", "be fortified" ]
+    FaCuL                     `verb`    {- HaSun-u -}          [ unwords [ "be", "inaccessible" ], unwords [ "be", "fortified" ] ]
                               `imperf`     FCuL,
 
     -- ;; HaS~an_1
     -- HSn     HaS~an  PV-n    make inaccessible;fortify;immunize
     -- HSn     HaS~in  IV-n_yu make inaccessible;fortify;immunize
 
-    FaCCaL                    `verb`    {- HaS~an -}           [ "make inaccessible", "fortify", "immunize" ],
+    FaCCaL                    `verb`    {- HaS~an -}           [ unwords [ "make", "inaccessible" ], "fortify", "immunize" ],
 
     -- ;; >aHoSan_1
     -- >HSn    >aHoSan PV-n    make inaccessible;fortify
@@ -820,13 +820,13 @@ lexicon = listing "Lexicon's properties"
     -- HSn     HoSin   IV-n_yu make inaccessible;fortify
     -- HSn     HoSan   IV-n_Pass_yu    be made inaccessible;be fortified
 
-    HaFCaL                    `verb`    {- OaHoSan -}          [ "make inaccessible", "fortify", "be made inaccessible" ],
+    HaFCaL                    `verb`    {- OaHoSan -}          [ unwords [ "make", "inaccessible" ], "fortify", unwords [ "be", "made", "inaccessible" ] ],
 
     -- ;; taHaS~an_1
     -- tHSn    taHaS~an        PV-n_intr       be fortified;be protected
     -- tHSn    taHaS~an        IV-n_intr       be fortified;be protected
 
-    TaFaCCaL                  `verb`    {- taHaS~an -}         [ "be fortified", "be protected" ],
+    TaFaCCaL                  `verb`    {- taHaS~an -}         [ unwords [ "be", "fortified" ], unwords [ "be", "protected" ] ],
 
     -- ;; HiSon_1
     -- HSn     HiSon   N       fortification;protection
@@ -855,7 +855,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HuSayon_1
     -- HSyn    HuSayon N       fox;little horse
 
-    FuCayL                    `noun`    {- HuSayon -}          [ "fox", "little horse" ],
+    FuCayL                    `noun`    {- HuSayon -}          [ "fox", unwords [ "little", "horse" ] ],
 
     -- ;; HaSAnap_1
     -- HSAn    HaSAn   Nap     immunity;impregnability
@@ -913,7 +913,7 @@ lexicon = listing "Lexicon's properties"
     -- HSr     HaSir   PV_intr be in a dilemma
     -- HSr     HoSar   IV_intr be in a dilemma
 
-    FaCiL                     `verb`    {- HaSir-a -}          [ "be in a dilemma" ]
+    FaCiL                     `verb`    {- HaSir-a -}          [ unwords [ "be", "in", "a", "dilemma" ] ]
                               `imperf`     FCaL,
 
     -- ;; HASar_1
@@ -928,7 +928,7 @@ lexicon = listing "Lexicon's properties"
     -- AnHSr   {inoHaSar       PV_intr be confined;be united
     -- nHSr    noHaSir IV_intr be confined;be united
 
-    InFaCaL                   `verb`    {- AinoHaSar -}        [ "be confined", "be united" ],
+    InFaCaL                   `verb`    {- AinoHaSar -}        [ unwords [ "be", "confined" ], unwords [ "be", "united" ] ],
 
     -- ;; HaSor_1
     -- HSr     HaSor   N       exclusive;limited;strict
@@ -965,7 +965,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HaS~Ar_1
     -- HSAr    HaS~Ar  Nall    mat weaver
 
-    FaCCAL                    `noun`    {- HaS~Ar -}           [ "mat weaver" ],
+    FaCCAL                    `noun`    {- HaS~Ar -}           [ unwords [ "mat", "weaver" ] ],
 
     -- ;; HiSAr_1
     -- HSAr    HiSAr   N       siege;blockade
@@ -1001,7 +1001,7 @@ lexicon = listing "Lexicon's properties"
     -- HSrm    HiSorim N       sour grapes
     -- HSrm    HiSorim Nap     sour grape
 
-    KiRDiS                    `noun`    {- HiSorim -}          [ "sour grape" ] ]
+    KiRDiS                    `noun`    {- HiSorim -}          [ unwords [ "sour", "grape" ] ] ]
 
  |> ".h .s w" <| [
 
@@ -1103,7 +1103,7 @@ lexicon = listing "Lexicon's properties"
     -- HT      HuT~    IV_V    set down;lower
     -- HTT     HoTuT   IV_C    set down;lower
 
-    FaCL                      `verb`    {- HaT~-u -}           [ "set down", "lower" ]
+    FaCL                      `verb`    {- HaT~-u -}           [ unwords [ "set", "down" ], "lower" ]
                               `imperf`     FuCL
                               `pfirst`     FaCaL,
 
@@ -1111,7 +1111,7 @@ lexicon = listing "Lexicon's properties"
     -- HTT     HaT~aT  PV      set down;unload
     -- HTT     HaT~iT  IV_yu   set down;unload
 
-    FaCCaL                    `verb`    {- HaT~aT -}           [ "set down", "unload" ],
+    FaCCaL                    `verb`    {- HaT~aT -}           [ unwords [ "set", "down" ], "unload" ],
 
     -- ;; {inoHaT~_1
     -- <nHT    {inoHaT~        PV_V    descend;decrease;decline
@@ -1131,12 +1131,12 @@ lexicon = listing "Lexicon's properties"
     -- HtT     HotaT~  IV_V    set down
     -- HtTT    HotaTiT IV_C    set down
 
-    IFtaCL                    `verb`    {- AiHotaT~ -}         [ "set down" ],
+    IFtaCL                    `verb`    {- AiHotaT~ -}         [ unwords [ "set", "down" ] ],
 
     -- ;; HaT~_1
     -- HT      HaT~    N       putting down;reduction;decrease
 
-    FaCL                      `noun`    {- HaT~ -}             [ "putting down", "reduction", "decrease" ],
+    FaCL                      `noun`    {- HaT~ -}             [ unwords [ "putting", "down" ], "reduction", "decrease" ],
 
     -- ;; HiT~ap_1
     -- HT      HiT~    Nap     mitigation;degradation
@@ -1152,12 +1152,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; HaTiyTap_1
     -- HTyT    HaTiyT  Nap     price reduction
 
-    FaCIL |< aT               `noun`    {- HaTiyTap -}         [ "price reduction" ],
+    FaCIL |< aT               `noun`    {- HaTiyTap -}         [ unwords [ "price", "reduction" ] ],
 
     -- ;; maHaT~_1
     -- mHT     maHaT~  Ndu     stopping place;station
 
-    MaFaCL                    `noun`    {- maHaT~ -}           [ "stopping place", "station" ],
+    MaFaCL                    `noun`    {- maHaT~ -}           [ unwords [ "stopping", "place" ], "station" ],
 
     -- ;; maHaT~ap_1
     -- mHT     maHaT~  NapAt   station
@@ -1182,7 +1182,7 @@ lexicon = listing "Lexicon's properties"
     -- HTb     HaTab   PV      support;back;gather firewood
     -- HTb     HoTib   IV      support;back;gather firewood
 
-    FaCaL                     `verb`    {- HaTab-i -}          [ "support", "back", "gather firewood" ]
+    FaCaL                     `verb`    {- HaTab-i -}          [ "support", "back", unwords [ "gather", "firewood" ] ]
                               `imperf`     FCiL,
 
     -- ;; {iHotaTab_1
@@ -1190,7 +1190,7 @@ lexicon = listing "Lexicon's properties"
     -- AHtTb   {iHotaTab       PV      gather firewood
     -- HtTb    HotaTib IV      gather firewood
 
-    IFtaCaL                   `verb`    {- AiHotaTab -}        [ "gather firewood" ],
+    IFtaCaL                   `verb`    {- AiHotaTab -}        [ unwords [ "gather", "firewood" ] ],
 
     -- ;; HaTab_1
     -- HTb     HaTab   N       firewood
@@ -1204,18 +1204,18 @@ lexicon = listing "Lexicon's properties"
     -- ;; HaT~Ab_1
     -- HTAb    HaT~Ab  Nall    woodcutter;wood vendor
 
-    FaCCAL                    `noun`    {- HaT~Ab -}           [ "woodcutter", "wood vendor" ],
+    FaCCAL                    `noun`    {- HaT~Ab -}           [ "woodcutter", unwords [ "wood", "vendor" ] ],
 
     -- ;; taHoTiyb_1
     -- tHTyb   taHoTiyb        NduAt   singlestick fencing
 
-    TaFCIL                    `noun`    {- taHoTiyb -}         [ "singlestick fencing" ]
+    TaFCIL                    `noun`    {- taHoTiyb -}         [ unwords [ "singlestick", "fencing" ] ]
                               `plural`     TaFCIL |< At,
 
     -- ;; HATib_1
     -- HATb    HATib   Nall    woodcutter;wood vendor
 
-    FACiL                     `noun`    {- HATib -}            [ "woodcutter", "wood vendor" ],
+    FACiL                     `noun`    {- HATib -}            [ "woodcutter", unwords [ "wood", "vendor" ] ],
 
     -- ;; HaTATibap_1
     -- HTATbp  HaTATibap       N0      Hattatba
@@ -1310,7 +1310,7 @@ lexicon = listing "Lexicon's properties"
     -- HZ      HaZ~    IV_V_intr       be fortunate
     -- HZZ     HoZaZ   IV_C_intr       be fortunate
 
-    FaCL                      `verb`    {- HaZ~-a -}           [ "be fortunate" ]
+    FaCL                      `verb`    {- HaZ~-a -}           [ unwords [ "be", "fortunate" ] ]
                               `pfirst`     FaCaL,
 
     -- ;; >aHaZ~_1
@@ -1321,13 +1321,13 @@ lexicon = listing "Lexicon's properties"
     -- HZ      HiZ~    IV_V_intr_yu    be fortunate
     -- HZZ     HoZiZ   IV_C_intr_yu    be fortunate
 
-    HaFaCL                    `verb`    {- OaHaZ~ -}           [ "be fortunate" ],
+    HaFaCL                    `verb`    {- OaHaZ~ -}           [ unwords [ "be", "fortunate" ] ],
 
     -- ;; HaZ~_1
     -- HZ      HaZ~    Ndu     luck;fortune
     -- HZwZ    HuZuwZ  N       shares;participation ??
 
-    FaCL                      `noun`    {- HaZ~ -}             [ "luck", "fortune", "shares", "participation ??" ]
+    FaCL                      `noun`    {- HaZ~ -}             [ "luck", "fortune", "shares", unwords [ "participation", "?", "?" ] ]
                               `plural`     FuCUL
                            {- `others`  [ ".hu.zuw.z N" ] -},
 
@@ -1347,7 +1347,7 @@ lexicon = listing "Lexicon's properties"
     -- HZr     HaZar   PV      prohibit;fence in
     -- HZr     HoZur   IV      prohibit;fence in
 
-    FaCaL                     `verb`    {- HaZar-u -}          [ "prohibit", "fence in" ]
+    FaCaL                     `verb`    {- HaZar-u -}          [ "prohibit", unwords [ "fence", "in" ] ]
                               `imperf`     FCuL,
 
     -- ;; HaZor_1
@@ -1430,7 +1430,7 @@ lexicon = listing "Lexicon's properties"
     -- Hj      Huj~    IV_V    make a pilgrimage;confute
     -- Hjj     Hojuj   IV_C    make a pilgrimage;confute
 
-    FaCL                      `verb`    {- Haj~-u -}           [ "make a pilgrimage", "confute" ]
+    FaCL                      `verb`    {- Haj~-u -}           [ unwords [ "make", "a", "pilgrimage" ], "confute" ]
                               `imperf`     FuCL
                               `pfirst`     FaCaL,
 
@@ -1513,7 +1513,7 @@ lexicon = listing "Lexicon's properties"
     -- <HtjAj  {iHotijAj       NF      protesting;in protest (of)     [[{iHotijAj/ADV]]
     -- AHtjAj  {iHotijAj       NF      protesting;in protest (of)     [[{iHotijAj/ADV]]
 
-    IFtiCAL                   `adv`     {- AiHotijAj -}        [ "protest", "protesting", "in protest (of)" ]
+    IFtiCAL                   `adv`     {- AiHotijAj -}        [ "protest", "protesting", unwords [ "in", "protest", "(", "of", ")" ] ]
                               `plural`     IFtiCAL |< At,
 
     -- ;; HAj~_2
@@ -1540,7 +1540,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mutaHaj~ij_1
     -- mtHjj   mutaHaj~ij      Nall    making excuses;having a pretext
 
-    MutaFaCCiL                `noun`    {- mutaHaj~ij -}       [ "making excuses", "having a pretext" ],
+    MutaFaCCiL                `noun`    {- mutaHaj~ij -}       [ unwords [ "making", "excuses" ], unwords [ "having", "a", "pretext" ] ],
 
     -- ;; muHotaj~_1
     -- mHtj    muHotaj~        Nall    protester
@@ -1573,14 +1573,14 @@ lexicon = listing "Lexicon's properties"
     -- AnHjb   {inoHajab       PV_intr be veiled;be hidden;be obscured
     -- nHjb    noHajib IV_intr be veiled;be hidden;be obscured
 
-    InFaCaL                   `verb`    {- AinoHajab -}        [ "be veiled", "be hidden", "be obscured" ],
+    InFaCaL                   `verb`    {- AinoHajab -}        [ unwords [ "be", "veiled" ], unwords [ "be", "hidden" ], unwords [ "be", "obscured" ] ],
 
     -- ;; {iHotajab_1
     -- <Htjb   {iHotajab       PV      withdraw;seclude oneself;elude;
     -- AHtjb   {iHotajab       PV      withdraw;seclude oneself;elude;
     -- Htjb    Hotajib IV      withdraw;seclude oneself;elude;
 
-    IFtaCaL                   `verb`    {- AiHotajab -}        [ "withdraw", "seclude oneself", "elude" ],
+    IFtaCaL                   `verb`    {- AiHotajab -}        [ "withdraw", unwords [ "seclude", "oneself" ], "elude" ],
 
     -- ;; Hajob_1
     -- Hjb     Hajob   N       seclusion
@@ -1704,7 +1704,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muHaj~al_1
     -- mHjl    muHaj~al        Nall    with anklets;bright
 
-    MuFaCCaL                  `noun`    {- muHaj~al -}         [ "with anklets", "bright" ] ]
+    MuFaCCaL                  `noun`    {- muHaj~al -}         [ unwords [ "with", "anklets" ], "bright" ] ]
 
  |> ".h ^g m" <| [
 
@@ -1721,7 +1721,7 @@ lexicon = listing "Lexicon's properties"
     -- Hjm     Hojim   IV_yu   abstain;recoil;withdraw
     -- Hjm     Hojam   IV_Pass_yu      be recoiled;be withdrawn
 
-    HaFCaL                    `verb`    {- OaHojam -}          [ "abstain", "recoil", "withdraw", "be withdrawn" ],
+    HaFCaL                    `verb`    {- OaHojam -}          [ "abstain", "recoil", "withdraw", unwords [ "be", "withdrawn" ] ],
 
     -- ;; Hajom_1
     -- Hjm     Hajom   N       volume;size
@@ -1752,7 +1752,7 @@ lexicon = listing "Lexicon's properties"
     -- mHjm    miHojam Napdu   cupping glass
     -- mHAjm   maHAjim Ndip    cupping glass
 
-    MiFCaL                    `noun`    {- miHojam -}          [ "cupping glass" ]
+    MiFCaL                    `noun`    {- miHojam -}          [ unwords [ "cupping", "glass" ] ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma.hA^gim Ndip" ] -},
 
@@ -1802,7 +1802,7 @@ lexicon = listing "Lexicon's properties"
     -- Hjr     Hajar   PV      prohibit;deny access;detain
     -- Hjr     Hojur   IV      prohibit;deny access;detain
 
-    FaCaL                     `verb`    {- Hajar-u -}          [ "prohibit", "deny access", "detain" ]
+    FaCaL                     `verb`    {- Hajar-u -}          [ "prohibit", unwords [ "deny", "access" ], "detain" ]
                               `imperf`     FCuL,
 
     -- ;; Haj~ar_1
@@ -1815,21 +1815,21 @@ lexicon = listing "Lexicon's properties"
     -- tHjr    taHaj~ar        PV      turn to stone;be petrified;fossilize
     -- tHjr    taHaj~ar        IV      turn to stone;be petrified;fossilize
 
-    TaFaCCaL                  `verb`    {- taHaj~ar -}         [ "turn to stone", "be petrified", "fossilize" ],
+    TaFaCCaL                  `verb`    {- taHaj~ar -}         [ unwords [ "turn", "to", "stone" ], unwords [ "be", "petrified" ], "fossilize" ],
 
     -- ;; {iHotajar_1
     -- <Htjr   {iHotajar       PV      delimit;make a border
     -- AHtjr   {iHotajar       PV      delimit;make a border
     -- Htjr    Hotajir IV      delimit;make a border
 
-    IFtaCaL                   `verb`    {- AiHotajar -}        [ "delimit", "make a border" ],
+    IFtaCaL                   `verb`    {- AiHotajar -}        [ "delimit", unwords [ "make", "a", "border" ] ],
 
     -- ;; {isotaHojar_1
     -- <stHjr  {isotaHojar     PV      turn to stone;become petrified;fossilize
     -- AstHjr  {isotaHojar     PV      turn to stone;become petrified;fossilize
     -- stHjr   sotaHojir       IV      turn to stone;become petrified;fossilize
 
-    IstaFCaL                  `verb`    {- AisotaHojar -}      [ "turn to stone", "become petrified", "fossilize" ],
+    IstaFCaL                  `verb`    {- AisotaHojar -}      [ unwords [ "turn", "to", "stone" ], unwords [ "become", "petrified" ], "fossilize" ],
 
     -- ;; Hajor_1
     -- Hjr     Hajor   N       restriction;barring;detention
@@ -1853,7 +1853,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Haj~Ar_1
     -- HjAr    Haj~Ar  Nall    stone mason
 
-    FaCCAL                    `noun`    {- Haj~Ar -}           [ "stone mason" ],
+    FaCCAL                    `noun`    {- Haj~Ar -}           [ unwords [ "stone", "mason" ] ],
 
     -- ;; Hijor_1
     -- Hjr     Hijor   N       forbidden
@@ -1880,7 +1880,7 @@ lexicon = listing "Lexicon's properties"
     -- mHjr    maHojir Ndu     stone quarry
     -- mHAjr   maHAjir Ndip    stone quarries
 
-    MaFCiL                    `noun`    {- maHojir -}          [ "stone quarry" ]
+    MaFCiL                    `noun`    {- maHojir -}          [ unwords [ "stone", "quarry" ] ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma.hA^gir Ndip" ] -},
 
@@ -1942,7 +1942,7 @@ lexicon = listing "Lexicon's properties"
     -- HAjY    HAjaY   IV_0_Pass_yu    be spoken to in riddles;be treated enigmatically
     -- HAjy    HAjay   IV_Ann_Pass_yu  be spoken to in riddles;be treated enigmatically
 
-    FACY                      `verb`    {- HAjaY -}            [ "speak in riddles", "be enigmatic", "be spoken to in riddles", "be treated enigmatically" ],
+    FACY                      `verb`    {- HAjaY -}            [ unwords [ "speak", "in", "riddles" ], unwords [ "be", "enigmatic" ], unwords [ "be", "spoken", "to", "in", "riddles" ], unwords [ "be", "treated", "enigmatically" ] ],
 
     -- ;; HijaY_1
     -- HjY     HijaY   N0      intelligence;wit
@@ -1967,7 +1967,7 @@ lexicon = listing "Lexicon's properties"
     -- >Hjy    >aHojay NAn_Nayn        more/most appropriate/correct
     -- AHjy    >aHojay NAn_Nayn        more/most appropriate/correct
 
-    HaFCY                     `noun`    {- OaHojaY -}          [ "more/most appropriate/correct" ] ]
+    HaFCY                     `noun`    {- OaHojaY -}          [ unwords [ "more", "/", "most", "appropriate", "/", "correct" ] ] ]
 
  |> ".h ^g y" <| [
 
@@ -2015,7 +2015,7 @@ lexicon = listing "Lexicon's properties"
     -- AHtjz   {iHotajaz       PV      confiscate;hold captive;reserve
     -- Htjz    Hotajiz IV      confiscate;hold captive;reserve
 
-    IFtaCaL                   `verb`    {- AiHotajaz -}        [ "confiscate", "hold captive", "reserve" ],
+    IFtaCaL                   `verb`    {- AiHotajaz -}        [ "confiscate", unwords [ "hold", "captive" ], "reserve" ],
 
     -- ;; Hajoz_1
     -- Hjz     Hajoz   N       detention;reservation;confiscation
@@ -2030,7 +2030,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HijAziy~_1
     -- HjAzy   HijAziy~        Nall    from/of Hejaz     [[HijAziy~/ADJ]]
 
-    FiCAL |< Iy               `adj`     {- HijAziy~ -}         [ "from/of Hejaz" ],
+    FiCAL |< Iy               `adj`     {- HijAziy~ -}         [ unwords [ "from", "/", "of", "Hejaz" ] ],
 
     -- ;; HijAziy~_2
     -- HjAzy   HijAziy~        N0      Hejazi
@@ -2074,7 +2074,7 @@ lexicon = listing "Lexicon's properties"
     -- H$$     Ha$~a$  PV      smoke hashish
     -- H$$     Ha$~i$  IV_yu   smoke hashish
 
-    FaCCaL                    `verb`    {- Ha$~a$ -}           [ "smoke hashish" ],
+    FaCCaL                    `verb`    {- Ha$~a$ -}           [ unwords [ "smoke", "hashish" ] ],
 
     -- ;; Ha$iy$_1
     -- H$y$    Ha$iy$  N       grass;lawn
@@ -2090,20 +2090,20 @@ lexicon = listing "Lexicon's properties"
     -- ;; Ha$~A$_1
     -- H$A$    Ha$~A$  Nall    hashish user
 
-    FaCCAL                    `noun`    {- Ha$~A$ -}           [ "hashish user" ],
+    FaCCAL                    `noun`    {- Ha$~A$ -}           [ unwords [ "hashish", "user" ] ],
 
     -- ;; Hu$A$_1
     -- H$A$    Hu$A$   N       last breath
     -- H$A$    Hu$A$   Nap     last breath
 
-    FuCAL                     `noun`    {- Hu$A$ -}            [ "last breath" ],
+    FuCAL                     `noun`    {- Hu$A$ -}            [ unwords [ "last", "breath" ] ],
 
     -- ;; miHa$~_1
     -- mH$     miHa$~  Ndu     sickle;fire iron
     -- mH$     miHa$~  Napdu   sickle;fire iron
     -- mHA$    maHA$~  Ndip    sickles;fire irons
 
-    MiFaCL                    `noun`    {- miHa$~ -}           [ "sickle", "fire iron" ]
+    MiFaCL                    `noun`    {- miHa$~ -}           [ "sickle", unwords [ "fire", "iron" ] ]
                               `plural`     MaFACL
                            {- `others`  [ "ma.hA^s^s Ndip" ] -},
 
@@ -2117,7 +2117,7 @@ lexicon = listing "Lexicon's properties"
     -- mH$$    maHo$a$ NapAt   hashish den
     -- mHA$$   maHA$i$ Ndip    hashish dens
 
-    MaFCaL                    `noun`    {- maHo$a$ -}          [ "hashish den" ]
+    MaFCaL                    `noun`    {- maHo$a$ -}          [ unwords [ "hashish", "den" ] ]
                               `plural`     MaFCaL |< At
                               `plural`     MaFACiL
                            {- `others`  [ "ma.hA^si^s Ndip" ] -} ]
@@ -2189,12 +2189,12 @@ lexicon = listing "Lexicon's properties"
     -- tH$f    taHa$~af        PV      dress shabbily;dress slovenly
     -- tH$f    taHa$~af        IV      dress shabbily;dress slovenly
 
-    TaFaCCaL                  `verb`    {- taHa$~af -}         [ "dress shabbily", "dress slovenly" ],
+    TaFaCCaL                  `verb`    {- taHa$~af -}         [ unwords [ "dress", "shabbily" ], unwords [ "dress", "slovenly" ] ],
 
     -- ;; Ha$af_1
     -- H$f     Ha$af   N       dates of inferior quality
 
-    FaCaL                     `noun`    {- Ha$af -}            [ "dates of inferior quality" ],
+    FaCaL                     `noun`    {- Ha$af -}            [ unwords [ "dates", "of", "inferior", "quality" ] ],
 
     -- ;; Ha$afap_1
     -- H$f     Ha$af   Nap     penis
@@ -2216,14 +2216,14 @@ lexicon = listing "Lexicon's properties"
     -- H$m     Ha$am   PV      shame;put to shame
     -- H$m     Ho$im   IV      shame;put to shame
 
-    FaCaL                     `verb`    {- Ha$am-i -}          [ "shame", "put to shame" ]
+    FaCaL                     `verb`    {- Ha$am-i -}          [ "shame", unwords [ "put", "to", "shame" ] ]
                               `imperf`     FCiL,
 
     -- ;; Ha$~am_1
     -- H$m     Ha$~am  PV      shame;put to shame
     -- H$m     Ha$~im  IV_yu   shame;put to shame
 
-    FaCCaL                    `verb`    {- Ha$~am -}           [ "shame", "put to shame" ],
+    FaCCaL                    `verb`    {- Ha$~am -}           [ "shame", unwords [ "put", "to", "shame" ] ],
 
     -- ;; >aHo$am_1
     -- >H$m    >aHo$am PV      shame;put to shame
@@ -2231,20 +2231,20 @@ lexicon = listing "Lexicon's properties"
     -- H$m     Ho$im   IV_yu   shame;put to shame
     -- H$m     Ho$am   IV_Pass_yu      be shamed;be put to shame
 
-    HaFCaL                    `verb`    {- OaHo$am -}          [ "shame", "put to shame", "be put to shame" ],
+    HaFCaL                    `verb`    {- OaHo$am -}          [ "shame", unwords [ "put", "to", "shame" ], unwords [ "be", "put", "to", "shame" ] ],
 
     -- ;; taHa$~am_1
     -- tH$m    taHa$~am        PV_intr be ashamed;be modest;be shy
     -- tH$m    taHa$~am        IV_intr be ashamed;be modest;be shy
 
-    TaFaCCaL                  `verb`    {- taHa$~am -}         [ "be ashamed", "be modest", "be shy" ],
+    TaFaCCaL                  `verb`    {- taHa$~am -}         [ unwords [ "be", "ashamed" ], unwords [ "be", "modest" ], unwords [ "be", "shy" ] ],
 
     -- ;; {iHota$am_1
     -- <Ht$m   {iHota$am       PV_intr be intimidated;be ashamed;be modest
     -- AHt$m   {iHota$am       PV_intr be intimidated;be ashamed;be modest
     -- Ht$m    Hota$im IV_intr be intimidated;be ashamed;be modest
 
-    IFtaCaL                   `verb`    {- AiHota$am -}        [ "be intimidated", "be ashamed", "be modest" ],
+    IFtaCaL                   `verb`    {- AiHota$am -}        [ unwords [ "be", "intimidated" ], unwords [ "be", "ashamed" ], unwords [ "be", "modest" ] ],
 
     -- ;; Ha$am_1
     -- H$m     Ha$am   N       servants;entourage
@@ -2339,18 +2339,18 @@ lexicon = listing "Lexicon's properties"
     -- H$rj    Ha$oraj PV      rattle in the throat
     -- H$rj    Ha$orij IV_yu   rattle in the throat
 
-    KaRDaS                    `verb`    {- Ha$oraj -}          [ "rattle in the throat" ],
+    KaRDaS                    `verb`    {- Ha$oraj -}          [ unwords [ "rattle", "in", "the", "throat" ] ],
 
     -- ;; taHa$oraj_1
     -- tH$rj   taHa$oraj       PV      rattle in the throat
     -- tH$rj   taHa$oraj       IV      rattle in the throat
 
-    TaKaRDaS                  `verb`    {- taHa$oraj -}        [ "rattle in the throat" ],
+    TaKaRDaS                  `verb`    {- taHa$oraj -}        [ unwords [ "rattle", "in", "the", "throat" ] ],
 
     -- ;; Ha$orajap_1
     -- H$rj    Ha$oraj Nap     rattling;rattle in the throat
 
-    KaRDaS |< aT              `noun`    {- Ha$orajap -}        [ "rattling", "rattle in the throat" ] ]
+    KaRDaS |< aT              `noun`    {- Ha$orajap -}        [ "rattling", unwords [ "rattle", "in", "the", "throat" ] ] ]
 
  |> ".h ^s w" <| [
 
@@ -2427,7 +2427,7 @@ lexicon = listing "Lexicon's properties"
     -- Ht$     Hota$   IV_0hwnyn       be stuffed;be filled
     -- Ht$Y    Hota$aY IV_0_Pass_yu    be stuffed;be filled
 
-    IFtaCY                    `verb`    {- AiHota$aY -}        [ "be stuffed", "be filled" ],
+    IFtaCY                    `verb`    {- AiHota$aY -}        [ unwords [ "be", "stuffed" ], unwords [ "be", "filled" ] ],
 
     -- ;; Ha$ow_1
     -- H$w     Ha$ow   N       stuffing;filling;insertion
@@ -2475,7 +2475,7 @@ lexicon = listing "Lexicon's properties"
     -- HA$Y    HA$aY   FW-Wa   except for     [[HA$aY/PREP]]
     -- HA$A    HA$A    FW-Wa-A except for     [[HA$A/PREP]]
 
-    FACY                      `prep`    {- HA$aY -}            [ "except for" ],
+    FACY                      `prep`    {- HA$aY -}            [ unwords [ "except", "for" ] ],
 
     -- ;; HA$iyap_1
     -- HA$y    HA$iy   Napdu   margin;edge;retinue
@@ -2490,7 +2490,7 @@ lexicon = listing "Lexicon's properties"
     -- mH$w    maHo$uw~        Nall    stuffed;filled;loaded     [[maHo$uw~/ADJ]]
     -- mH$w    maHo$uw~        NAt     stuffed food
 
-    MaFCUL                    `adj`     {- maHo$uw~ -}         [ "stuffed", "filled", "loaded", "stuffed food" ]
+    MaFCUL                    `adj`     {- maHo$uw~ -}         [ "stuffed", "filled", "loaded", unwords [ "stuffed", "food" ] ]
                               `plural`     MaFCUL |< At,
 
     -- ;; maHo$iy~_1
@@ -2544,7 +2544,7 @@ lexicon = listing "Lexicon's properties"
     -- >H*y    >aHo*iy Nap     shoes
     -- AH*y    >aHo*iy Nap     shoes
 
-    FiCAL                     `noun`    {- Hi*A' -}            [ "(pair of) shoes", "shoes" ]
+    FiCAL                     `noun`    {- Hi*A' -}            [ unwords [ "(", "pair", "of", ")", "shoes" ], "shoes" ]
                               `plural`     HaFCI |< aT,
 
     -- ;; Hi*A'a_1
@@ -2554,7 +2554,7 @@ lexicon = listing "Lexicon's properties"
     -- H*A}    Hi*A}i  FW-Wa-i opposite;face to face with     [[Hi*A}i/PREP]]
     -- bH*A}   biHi*A}i        FW-Wa-i opposite;face to face with     [[biHi*A}i/PREP]]
 
-    FiCAL |<< "a"             `prep`    {- Hi*A'a -}           [ "opposite", "face to face with" ],
+    FiCAL |<< "a"             `prep`    {- Hi*A'a -}           [ "opposite", unwords [ "face", "to", "face", "with" ] ],
 
     -- ;; Ha*~A'_1
     -- H*A'    Ha*~A'  N0_Nh   shoemaker
@@ -2610,7 +2610,7 @@ lexicon = listing "Lexicon's properties"
     -- AnH*f   {inoHa*af       PV_intr be eliminated;be deleted
     -- nH*f    noHa*if IV_intr be eliminated;be deleted
 
-    InFaCaL                   `verb`    {- AinoHa*af -}        [ "be eliminated", "be deleted" ],
+    InFaCaL                   `verb`    {- AinoHa*af -}        [ unwords [ "be", "eliminated" ], unwords [ "be", "deleted" ] ],
 
     -- ;; Ha*of_1
     -- H*f     Ha*of   N       deletion;shortening
@@ -2625,7 +2625,7 @@ lexicon = listing "Lexicon's properties"
     -- H*Afyr  Ha*Afiyr        Ndip    sides
     -- H*Afyr  Ha*Afiyr        Ndip    entirety;entirely (all of __)
 
-    KiRDAS                    `noun`    {- Hi*fAr -}           [ "side", "entirety", "entirely (all of __)" ]
+    KiRDAS                    `noun`    {- Hi*fAr -}           [ "side", "entirety", unwords [ "entirely", "(", "all", "of", "__", ")" ] ]
                               `plural`     KaRADIS
                               `plural`     KuRDUS
                            {- `others`  [ ".ha_dAfiyr Ndip", ".hu_dfuwr Ndu" ] -} ]
@@ -2636,7 +2636,7 @@ lexicon = listing "Lexicon's properties"
     -- tH*lq   taHa*olaq       PV      feign erudition;be pedantic
     -- tH*lq   taHa*olaq       IV      feign erudition;be pedantic
 
-    TaKaRDaS                  `verb`    {- taHa*olaq -}        [ "feign erudition", "be pedantic" ],
+    TaKaRDaS                  `verb`    {- taHa*olaq -}        [ unwords [ "feign", "erudition" ], unwords [ "be", "pedantic" ] ],
 
     -- ;; Ha*olaqap_1
     -- H*lq    Ha*olaq Nap     pedantry
@@ -2654,28 +2654,28 @@ lexicon = listing "Lexicon's properties"
     -- H*q     Ha*iq   PV_intr be skilled;be proficient
     -- H*q     Ho*aq   IV_intr be skilled;be proficient
 
-    FaCiL                     `verb`    {- Ha*iq-a -}          [ "be skilled", "be proficient" ]
+    FaCiL                     `verb`    {- Ha*iq-a -}          [ unwords [ "be", "skilled" ], unwords [ "be", "proficient" ] ]
                               `imperf`     FCaL,
 
     -- ;; Ha*aq-i_1
     -- H*q     Ha*aq   PV_intr be skilled;be proficient
     -- H*q     Ho*iq   IV_intr be skilled;be proficient
 
-    FaCaL                     `verb`    {- Ha*aq-i -}          [ "be skilled", "be proficient" ]
+    FaCaL                     `verb`    {- Ha*aq-i -}          [ unwords [ "be", "skilled" ], unwords [ "be", "proficient" ] ]
                               `imperf`     FCiL,
 
     -- ;; Ha*aq-u_1
     -- H*q     Ha*aq   PV      turn sour
     -- H*q     Ho*uq   IV      turn sour
 
-    FaCaL                     `verb`    {- Ha*aq-u -}          [ "turn sour" ]
+    FaCaL                     `verb`    {- Ha*aq-u -}          [ unwords [ "turn", "sour" ] ]
                               `imperf`     FCuL,
 
     -- ;; taHa*~aq_1
     -- tH*q    taHa*~aq        PV      feign skillfulness;feign smartness
     -- tH*q    taHa*~aq        IV      feign skillfulness;feign smartness
 
-    TaFaCCaL                  `verb`    {- taHa*~aq -}         [ "feign skillfulness", "feign smartness" ],
+    TaFaCCaL                  `verb`    {- taHa*~aq -}         [ unwords [ "feign", "skillfulness" ], unwords [ "feign", "smartness" ] ],
 
     -- ;; Hi*oq_1
     -- H*q     Hi*oq   N       skill;intelligence
@@ -2701,7 +2701,7 @@ lexicon = listing "Lexicon's properties"
     -- H*r     Ha*ir   PV_intr be cautious;beware
     -- H*r     Ho*ar   IV_intr be cautious;beware
 
-    FaCiL                     `verb`    {- Ha*ir-a -}          [ "be cautious", "beware" ]
+    FaCiL                     `verb`    {- Ha*ir-a -}          [ unwords [ "be", "cautious" ], "beware" ]
                               `imperf`     FCaL,
 
     -- ;; Ha*~ar_1
@@ -2714,20 +2714,20 @@ lexicon = listing "Lexicon's properties"
     -- HA*r    HA*ar   PV      watch out;be careful
     -- HA*r    HA*ir   IV_yu   watch out;be careful
 
-    FACaL                     `verb`    {- HA*ar -}            [ "watch out", "be careful" ],
+    FACaL                     `verb`    {- HA*ar -}            [ unwords [ "watch", "out" ], unwords [ "be", "careful" ] ],
 
     -- ;; taHa*~ar_1
     -- tH*r    taHa*~ar        PV      beware;act cautiously
     -- tH*r    taHa*~ar        IV      beware;act cautiously
 
-    TaFaCCaL                  `verb`    {- taHa*~ar -}         [ "beware", "act cautiously" ],
+    TaFaCCaL                  `verb`    {- taHa*~ar -}         [ "beware", unwords [ "act", "cautiously" ] ],
 
     -- ;; {iHota*ar_1
     -- <Ht*r   {iHota*ar       PV_intr be on guard;be cautious;beware
     -- AHt*r   {iHota*ar       PV_intr be on guard;be cautious;beware
     -- Ht*r    Hota*ir IV_intr be on guard;be cautious;beware
 
-    IFtaCaL                   `verb`    {- AiHota*ar -}        [ "be on guard", "be cautious", "beware" ],
+    IFtaCaL                   `verb`    {- AiHota*ar -}        [ unwords [ "be", "on", "guard" ], unwords [ "be", "cautious" ], "beware" ],
 
     -- ;; Hi*or_1
     -- H*r     Hi*or   N       caution
@@ -2740,7 +2740,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Ha*Ari_1
     -- H*Ar    Ha*Ari  FW-Wa   beware;watch out     [[Ha*Ari/INTERJ]]
 
-    FaCAL |<< "i"             `noun`    {- Ha*Ari -}           [ "beware", "watch out" ],
+    FaCAL |<< "i"             `noun`    {- Ha*Ari -}           [ "beware", unwords [ "watch", "out" ] ],
 
     -- ;; taHo*iyr_1
     -- tH*yr   taHo*iyr        NduAt   warning;caution
@@ -2787,7 +2787,7 @@ lexicon = listing "Lexicon's properties"
     -- HA*Y    HA*aY   IV_0_Pass_yu    be opposite;be parallel
     -- HA*y    HA*ay   IV_Ann_Pass_yu  be opposite;be parallel
 
-    FACY                      `verb`    {- HA*aY -}            [ "be opposite", "be parallel" ],
+    FACY                      `verb`    {- HA*aY -}            [ unwords [ "be", "opposite" ], unwords [ "be", "parallel" ] ],
 
     -- ;; taHA*aY_1
     -- tHA*Y   taHA*aY PV_0    be opposite;be parallel
@@ -2799,7 +2799,7 @@ lexicon = listing "Lexicon's properties"
     -- tHA*y   taHA*ay IV_Ann  be opposite;be parallel
     -- tHA*    taHA*   IV_0hwnyn       be opposite;be parallel
 
-    TaFACY                    `verb`    {- taHA*aY -}          [ "be opposite", "be parallel" ],
+    TaFACY                    `verb`    {- taHA*aY -}          [ unwords [ "be", "opposite" ], unwords [ "be", "parallel" ] ],
 
     -- ;; {iHota*aY_1
     -- <Ht*Y   {iHota*aY       PV_0    imitate;wear
@@ -2825,7 +2825,7 @@ lexicon = listing "Lexicon's properties"
     -- H*w     Ha*owa  FW-Wa   opposite;in front of     [[Ha*owa/PREP]]
     -- H*w     Ha*owa  FW-Wa-a opposite;in front of     [[Ha*owa/PREP]]
 
-    FaCL |<< "a"              `prep`    {- Ha*owa -}           [ "opposite", "in front of" ],
+    FaCL |<< "a"              `prep`    {- Ha*owa -}           [ "opposite", unwords [ "in", "front", "of" ] ],
 
     -- ;; Hi*A'_1
     -- H*A'    Hi*A'   N0_Nh   (pair of) shoes
@@ -2834,7 +2834,7 @@ lexicon = listing "Lexicon's properties"
     -- >H*y    >aHo*iy Nap     shoes
     -- AH*y    >aHo*iy Nap     shoes
 
-    FiCA'                     `noun`    {- Hi*A' -}            [ "(pair of) shoes", "shoes" ]
+    FiCA'                     `noun`    {- Hi*A' -}            [ unwords [ "(", "pair", "of", ")", "shoes" ], "shoes" ]
                               `plural`     HaFCI |< aT,
 
     -- ;; Hi*A'a_1
@@ -2844,12 +2844,12 @@ lexicon = listing "Lexicon's properties"
     -- H*A}    Hi*A}i  FW-Wa-i opposite;face to face with     [[Hi*A}i/PREP]]
     -- bH*A}   biHi*A}i        FW-Wa-i opposite;face to face with     [[biHi*A}i/PREP]]
 
-    FiCA' |<< "a"             `prep`    {- Hi*A'a -}           [ "opposite", "face to face with" ],
+    FiCA' |<< "a"             `prep`    {- Hi*A'a -}           [ "opposite", unwords [ "face", "to", "face", "with" ] ],
 
     -- ;; muHA*Ap_1
     -- mHA*A   muHA*A  Nap     alongside;parallel to
 
-    MuFACY |< aT              `noun`    {- muHA*Ap -}          [ "alongside", "parallel to" ],
+    MuFACY |< aT              `noun`    {- muHA*Ap -}          [ "alongside", unwords [ "parallel", "to" ] ],
 
     -- ;; {iHoti*A'_1
     -- <Ht*A'  {iHoti*A'       N0_Nh   imitation;copying
@@ -2881,7 +2881,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muHA*awAt_1
     -- mHA*w   muHA*aw NAt     alongside;parallel to
 
-    MuFACaL |< At             `noun`    {- muHA*awAt -}        [ "alongside", "parallel to" ]
+    MuFACaL |< At             `noun`    {- muHA*awAt -}        [ "alongside", unwords [ "parallel", "to" ] ]
                               `plural`     MuFACaL |< At ]
 
  |> ".h _d y" <| [
@@ -2960,7 +2960,7 @@ lexicon = listing "Lexicon's properties"
     -- Hvr     Havir   PV_intr congeal;be lumpy
     -- Hvr     Hovar   IV_intr congeal;be lumpy
 
-    FaCiL                     `verb`    {- Havir-a -}          [ "congeal", "be lumpy" ]
+    FaCiL                     `verb`    {- Havir-a -}          [ "congeal", unwords [ "be", "lumpy" ] ]
                               `imperf`     FCaL ]
 
  |> ".h _t w" <| [
@@ -2974,7 +2974,7 @@ lexicon = listing "Lexicon's properties"
     -- HvY     HovaY   IV_0_Pass_yu    be spread;be dispersed
     -- Hvy     Hovay   IV_Ann_Pass_yu  be spread;be dispersed
 
-    FaCA                      `verb`    {- HavA-u -}           [ "spread", "disperse", "be spread" ]
+    FaCA                      `verb`    {- HavA-u -}           [ "spread", "disperse", unwords [ "be", "spread" ] ]
                               `imperf`     FCU ]
 
  |> ".h b '" <| [
@@ -3111,7 +3111,7 @@ lexicon = listing "Lexicon's properties"
     -- tHAb    taHAb~  IV_V    love one another
     -- tHAbb   taHAbib IV_C    love one another
 
-    TaFACL                    `verb`    {- taHAb~ -}           [ "love one another" ],
+    TaFACL                    `verb`    {- taHAb~ -}           [ unwords [ "love", "one", "another" ] ],
 
     -- ;; {isotaHab~_1
     -- <stHb   {isotaHab~      PV_V    deem desirable;prefer
@@ -3121,13 +3121,13 @@ lexicon = listing "Lexicon's properties"
     -- stHb    sotaHib~        IV_V    deem desirable;prefer
     -- stHbb   sotaHobib       IV_C    deem desirable;prefer
 
-    IstaFaCL                  `verb`    {- AisotaHab~ -}       [ "deem desirable", "prefer" ],
+    IstaFaCL                  `verb`    {- AisotaHab~ -}       [ unwords [ "deem", "desirable" ], "prefer" ],
 
     -- ;; Hub~_1
     -- Hb      Hub~    N       love;affection
     -- Hb      Hub~    NF      out of affection for;for love of     [[Hub~/ADV]]
 
-    FuCL                      `adv`     {- Hub~ -}             [ "love", "affection", "out of affection for", "for love of" ],
+    FuCL                      `adv`     {- Hub~ -}             [ "love", "affection", unwords [ "out", "of", "affection", "for" ], unwords [ "for", "love", "of" ] ],
 
     -- ;; Hub~iy~_1
     -- Hby     Hub~iy~ Nall    amicable     [[Hub~iy~/ADJ]]
@@ -3187,7 +3187,7 @@ lexicon = listing "Lexicon's properties"
     -- >Hb     >aHab~  Nel     dearer;more/most desirable
     -- AHb     >aHab~  Nel     dearer;more/most desirable
 
-    HaFaCL                    `noun`    {- OaHab~ -}           [ "dearer", "more/most desirable" ],
+    HaFaCL                    `noun`    {- OaHab~ -}           [ "dearer", unwords [ "more", "/", "most", "desirable" ] ],
 
     -- ;; maHab~ap_1
     -- mHb     maHab~  Nap     love;affection
@@ -3297,7 +3297,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; maHobuwk_1
     -- mHbwk   maHobuwk        Nall    solid;well-knit     [[maHobuwk/ADJ]]
 
-    MaFCUL                    `adj`     {- maHobuwk -}         [ "solid", "well-knit" ],
+    MaFCUL                    `adj`     {- maHobuwk -}         [ "solid", unwords [ "well", "-", "knit" ] ],
 
     -- ;; muHotabik_1
     -- mHtbk   muHotabik       Nall    interwoven
@@ -3319,14 +3319,14 @@ lexicon = listing "Lexicon's properties"
     -- Hbl     Hubil   PV_Pass be conceived
     -- Hbl     Hobal   IV_Pass_yu      be conceived
 
-    FaCiL                     `verb`    {- Habil-a -}          [ "become pregnant", "conceive" ]
+    FaCiL                     `verb`    {- Habil-a -}          [ unwords [ "become", "pregnant" ], "conceive" ]
                               `imperf`     FCaL,
 
     -- ;; Hab~al_1
     -- Hbl     Hab~al  PV      make pregnant
     -- Hbl     Hab~il  IV_yu   make pregnant
 
-    FaCCaL                    `verb`    {- Hab~al -}           [ "make pregnant" ],
+    FaCCaL                    `verb`    {- Hab~al -}           [ unwords [ "make", "pregnant" ] ],
 
     -- ;; >aHobal_1
     -- >Hbl    >aHobal PV      make pregnant
@@ -3334,7 +3334,7 @@ lexicon = listing "Lexicon's properties"
     -- Hbl     Hobil   IV_yu   make pregnant
     -- Hbl     Hobal   IV_Pass_yu      be made pregnant
 
-    HaFCaL                    `verb`    {- OaHobal -}          [ "make pregnant", "be made pregnant" ],
+    HaFCaL                    `verb`    {- OaHobal -}          [ unwords [ "make", "pregnant" ], unwords [ "be", "made", "pregnant" ] ],
 
     -- ;; {iHotabal_1
     -- <Htbl   {iHotabal       PV      ensnare;trap
@@ -3419,14 +3419,14 @@ lexicon = listing "Lexicon's properties"
     -- AHbn    >aHoban Nel     suffering from edema
     -- HbnA'   HabonA' N0      suffering from edema
 
-    HaFCaL                    `noun`    {- OaHoban -}          [ "suffering from edema" ]
+    HaFCaL                    `noun`    {- OaHoban -}          [ unwords [ "suffering", "from", "edema" ] ]
                               `plural`     FaCLA'
                            {- `others`  [ ".habnA' N0" ] -},
 
     -- ;; HAbin_1
     -- HAbn    HAbin   Nall    suffering from edema
 
-    FACiL                     `noun`    {- HAbin -}            [ "suffering from edema" ] ]
+    FACiL                     `noun`    {- HAbin -}            [ unwords [ "suffering", "from", "edema" ] ] ]
 
  |> ".h b q" <| [
 
@@ -3458,7 +3458,7 @@ lexicon = listing "Lexicon's properties"
     -- Hbr     Habir   PV_intr be happy
     -- Hbr     Hobar   IV_intr be happy
 
-    FaCiL                     `verb`    {- Habir-a -}          [ "be happy" ]
+    FaCiL                     `verb`    {- Habir-a -}          [ unwords [ "be", "happy" ] ]
                               `imperf`     FCaL,
 
     -- ;; Hab~ar_1
@@ -3534,7 +3534,7 @@ lexicon = listing "Lexicon's properties"
     -- AnHbs   {inoHabas       PV_intr be restrained
     -- nHbs    noHabis IV_intr be restrained
 
-    InFaCaL                   `verb`    {- AinoHabas -}        [ "be restrained" ],
+    InFaCaL                   `verb`    {- AinoHabas -}        [ unwords [ "be", "restrained" ] ],
 
     -- ;; {iHotabas_1
     -- <Htbs   {iHotabas       PV      confine;retain
@@ -3568,7 +3568,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Habuws_1
     -- Hbws    Habuws  N       habous (Maghrebi waqf);foundation
 
-    FaCUL                     `noun`    {- Habuws -}           [ "habous (Maghrebi waqf)", "foundation" ],
+    FaCUL                     `noun`    {- Habuws -}           [ unwords [ "habous", "(", "Maghrebi", "waqf", ")" ], "foundation" ],
 
     -- ;; Habiys_1
     -- Hbys    Habiys  N/ap    secluded;restrained     [[Habiys/ADJ]]
@@ -3585,7 +3585,7 @@ lexicon = listing "Lexicon's properties"
     -- mHbs    maHobis Ndu     prison;cell
     -- mHAbs   maHAbis Ndip    prisons;cells;shutoff valves
 
-    MaFCaL                    `noun`    {- maHobas -}          [ "prison", "cell", "shutoff valves" ]
+    MaFCaL                    `noun`    {- maHobas -}          [ "prison", "cell", unwords [ "shutoff", "valves" ] ]
                               `plural`     MaFCiL
                               `plural`     MaFACiL
                            {- `others`  [ "ma.hbis Ndu", "ma.hAbis Ndip" ] -},
@@ -3593,7 +3593,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; miHobas_1
     -- mHbs    miHobas Ndu     shutoff valve
 
-    MiFCaL                    `noun`    {- miHobas -}          [ "shutoff valve" ],
+    MiFCaL                    `noun`    {- miHobas -}          [ unwords [ "shutoff", "valve" ] ],
 
     -- ;; maHobasap_1
     -- mHbs    maHobas Nap     hermitage
@@ -3634,7 +3634,7 @@ lexicon = listing "Lexicon's properties"
     -- HbY     HobaY   IV_0_Pass_yu    be given
     -- Hby     Hobay   IV_Ann_Pass_yu  be given
 
-    FaCA                      `verb`    {- HabA-u -}           [ "crawl", "give", "be given" ]
+    FaCA                      `verb`    {- HabA-u -}           [ "crawl", "give", unwords [ "be", "given" ] ]
                               `imperf`     FCU,
 
     -- ;; HAbaY_1
@@ -3647,7 +3647,7 @@ lexicon = listing "Lexicon's properties"
     -- HAbY    HAbaY   IV_0_Pass_yu    be favored
     -- HAby    HAbay   IV_Ann_Pass_yu  be favored
 
-    FACY                      `verb`    {- HAbaY -}            [ "favor", "be partial" ],
+    FACY                      `verb`    {- HAbaY -}            [ "favor", unwords [ "be", "partial" ] ],
 
     -- ;; {iHotabaY_1
     -- <HtbY   {iHotabaY       PV_0    sit down
@@ -3662,7 +3662,7 @@ lexicon = listing "Lexicon's properties"
     -- Htb     Hotab   IV_0hwnyn       sit down
     -- HtbY    HotabaY IV_0    sit down
 
-    IFtaCY                    `verb`    {- AiHotabaY -}        [ "sit down" ],
+    IFtaCY                    `verb`    {- AiHotabaY -}        [ unwords [ "sit", "down" ] ],
 
     -- ;; Habow_1
     -- Hbw     Habow   N       crawling
@@ -3722,7 +3722,7 @@ lexicon = listing "Lexicon's properties"
     -- HdA}    Had~A}  Nhy     camel driver
     -- HdA}    Had~A}  NAn_Nayn        camel driver
 
-    FaCCAL                    `noun`    {- Had~A' -}           [ "camel driver" ] ]
+    FaCCAL                    `noun`    {- Had~A' -}           [ unwords [ "camel", "driver" ] ] ]
 
  |> ".h d ^g" <| [
 
@@ -3730,14 +3730,14 @@ lexicon = listing "Lexicon's properties"
     -- Hdj     Hadaj   PV      stare;look sharply
     -- Hdj     Hodij   IV      stare;look sharply
 
-    FaCaL                     `verb`    {- Hadaj-i -}          [ "stare", "look sharply" ]
+    FaCaL                     `verb`    {- Hadaj-i -}          [ "stare", unwords [ "look", "sharply" ] ]
                               `imperf`     FCiL,
 
     -- ;; Had~aj_1
     -- Hdj     Had~aj  PV      stare;look sharply
     -- Hdj     Had~ij  IV_yu   stare;look sharply
 
-    FaCCaL                    `verb`    {- Had~aj -}           [ "stare", "look sharply" ],
+    FaCCaL                    `verb`    {- Had~aj -}           [ "stare", unwords [ "look", "sharply" ] ],
 
     -- ;; Hidoj_1
     -- Hdj     Hidoj   N       load;burden
@@ -3754,7 +3754,7 @@ lexicon = listing "Lexicon's properties"
     -- HdAj    HidAj   Napdu   camel saddle
     -- HdA}j   HadA}ij Ndip    camel saddles
 
-    FiCAL |< aT               `noun`    {- HidAjap -}          [ "camel saddle" ] ]
+    FiCAL |< aT               `noun`    {- HidAjap -}          [ unwords [ "camel", "saddle" ] ] ]
 
  |> ".h d _t" <| [
 
@@ -3762,7 +3762,7 @@ lexicon = listing "Lexicon's properties"
     -- Hdv     Hadav   PV      happen;take place
     -- Hdv     Hoduv   IV      happen;take place
 
-    FaCaL                     `verb`    {- Hadav-u -}          [ "happen", "take place" ]
+    FaCaL                     `verb`    {- Hadav-u -}          [ "happen", unwords [ "take", "place" ] ]
                               `imperf`     FCuL,
 
     -- ;; HAdav_1
@@ -3777,7 +3777,7 @@ lexicon = listing "Lexicon's properties"
     -- Hdv     Hodiv   IV_yu   cause;bring about
     -- Hdv     Hodav   IV_Pass_yu      be caused;be brought about
 
-    HaFCaL                    `verb`    {- OaHodav -}          [ "cause", "bring about", "be brought about" ],
+    HaFCaL                    `verb`    {- OaHodav -}          [ "cause", unwords [ "bring", "about" ], unwords [ "be", "brought", "about" ] ],
 
     -- ;; taHad~av_1
     -- tHdv    taHad~av        PV      speak;discuss
@@ -3834,7 +3834,7 @@ lexicon = listing "Lexicon's properties"
     -- >HAdyv  >aHAdiyv        Ndip    Hadiths (Islamic traditions)
     -- AHAdyv  >aHAdiyv        Ndip    Hadiths (Islamic traditions)
 
-    FaCIL                     `noun`    {- Hadiyv -}           [ "Hadith (Islamic tradition)", "Hadiths (Islamic traditions)" ]
+    FaCIL                     `noun`    {- Hadiyv -}           [ unwords [ "Hadith", "(", "Islamic", "tradition", ")" ], unwords [ "Hadiths", "(", "Islamic", "traditions", ")" ] ]
                               `plural`     HaFACIL
                            {- `others`  [ "'a.hAdiy_t Ndip" ] -},
 
@@ -3857,7 +3857,7 @@ lexicon = listing "Lexicon's properties"
     -- >Hdv    >aHodav Nel     newer/newest;more/most recent
     -- AHdv    >aHodav Nel     newer/newest;more/most recent
 
-    HaFCaL                    `noun`    {- OaHodav -}          [ "newer/newest", "more/most recent" ],
+    HaFCaL                    `noun`    {- OaHodav -}          [ unwords [ "newer", "/", "newest" ], unwords [ "more", "/", "most", "recent" ] ],
 
     -- ;; HidovAn_1
     -- HdvAn   HidovAn N       misfortunes;adversities
@@ -3948,27 +3948,27 @@ lexicon = listing "Lexicon's properties"
     -- Hdb     Hadib   PV_intr be convex;be hunchbacked;be nice
     -- Hdb     Hodab   IV_intr be convex;be hunchbacked;be nice
 
-    FaCiL                     `verb`    {- Hadib-a -}          [ "be convex", "be hunchbacked", "be nice" ]
+    FaCiL                     `verb`    {- Hadib-a -}          [ unwords [ "be", "convex" ], unwords [ "be", "hunchbacked" ], unwords [ "be", "nice" ] ]
                               `imperf`     FCaL,
 
     -- ;; Had~ab_1
     -- Hdb     Had~ab  PV      make convex;vault;emboss
     -- Hdb     Had~ib  IV_yu   make convex;vault;emboss
 
-    FaCCaL                    `verb`    {- Had~ab -}           [ "make convex", "vault", "emboss" ],
+    FaCCaL                    `verb`    {- Had~ab -}           [ unwords [ "make", "convex" ], "vault", "emboss" ],
 
     -- ;; taHad~ab_1
     -- tHdb    taHad~ab        PV_intr be vaulted;be embossed;be convex
     -- tHdb    taHad~ab        IV_intr be vaulted;be embossed;be convex
 
-    TaFaCCaL                  `verb`    {- taHad~ab -}         [ "be vaulted", "be embossed", "be convex" ],
+    TaFaCCaL                  `verb`    {- taHad~ab -}         [ unwords [ "be", "vaulted" ], unwords [ "be", "embossed" ], unwords [ "be", "convex" ] ],
 
     -- ;; {iHodawodab_1
     -- <Hdwdb  {iHodawodab     PV_intr be vaulted;be embossed;be convex
     -- AHdwdb  {iHodawodab     PV_intr be vaulted;be embossed;be convex
     -- Hdwdb   Hodawodib       IV_intr be vaulted;be embossed;be convex
 
-    IFCawCaL                  `verb`    {- AiHodawodab -}      [ "be vaulted", "be embossed", "be convex" ],
+    IFCawCaL                  `verb`    {- AiHodawodab -}      [ unwords [ "be", "vaulted" ], unwords [ "be", "embossed" ], unwords [ "be", "convex" ] ],
 
     -- ;; Hadab_1
     -- Hdb     Hadab   N       affection;kindness
@@ -4022,7 +4022,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muHodawodib_1
     -- mHdwdb  muHodawodib     Nall    mounded;bowed upward;hunchbacked
 
-    MuFCawCiL                 `noun`    {- muHodawodib -}      [ "mounded", "bowed upward", "hunchbacked" ] ]
+    MuFCawCiL                 `noun`    {- muHodawodib -}      [ "mounded", unwords [ "bowed", "upward" ], "hunchbacked" ] ]
 
  |> ".h d d" <| [
 
@@ -4042,7 +4042,7 @@ lexicon = listing "Lexicon's properties"
     -- Hd      Hid~    IV_V_intr       be furious
     -- Hdd     Hodid   IV_C_intr       be furious
 
-    FaCL                      `verb`    {- Had~-i -}           [ "be furious" ]
+    FaCL                      `verb`    {- Had~-i -}           [ unwords [ "be", "furious" ] ]
                               `imperf`     FiCL
                               `pfirst`     FaCaL,
 
@@ -4075,7 +4075,7 @@ lexicon = listing "Lexicon's properties"
     -- tHdd    taHad~ad        PV_intr be defined;be determined;be specified
     -- tHdd    taHad~ad        IV_intr be defined;be determined;be specified
 
-    TaFaCCaL                  `verb`    {- taHad~ad -}         [ "be defined", "be determined", "be specified" ],
+    TaFaCCaL                  `verb`    {- taHad~ad -}         [ unwords [ "be", "defined" ], unwords [ "be", "determined" ], unwords [ "be", "specified" ] ],
 
     -- ;; {iHotad~_1
     -- <Htd    {iHotad~        PV_V_intr       be angry;be agitated
@@ -4085,7 +4085,7 @@ lexicon = listing "Lexicon's properties"
     -- Htd     Hotad~  IV_V_intr       be angry;be agitated
     -- Htdd    Hotadid IV_C_intr       be angry;be agitated
 
-    IFtaCL                    `verb`    {- AiHotad~ -}         [ "be angry", "be agitated" ],
+    IFtaCL                    `verb`    {- AiHotad~ -}         [ unwords [ "be", "angry" ], unwords [ "be", "agitated" ] ],
 
     -- ;; Had~_1
     -- Hd      Had~    N       stop;halt
@@ -4186,7 +4186,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; maHoduwdiy~ap_1
     -- mHdwdy  maHoduwdiy~     Nap     limited nature;restricted nature     [[maHoduwdiy~/NOUN]]
 
-    MaFCUL |< Iy |< aT        `noun`    {- maHoduwdiy~ap -}    [ "limited nature", "restricted nature" ],
+    MaFCUL |< Iy |< aT        `noun`    {- maHoduwdiy~ap -}    [ unwords [ "limited", "nature" ], unwords [ "restricted", "nature" ] ],
 
     -- ;; muHad~ad_1
     -- mHdd    muHad~ad        Nall    set;determined;defined     [[muHad~ad/ADJ]]
@@ -4205,14 +4205,14 @@ lexicon = listing "Lexicon's properties"
     -- HdA}    Had~A}  Nhy     camel driver
     -- HdA}    Had~A}  NAn_Nayn        camel driver
 
-    FaCLA'                    `noun`    {- Had~A' -}           [ "camel driver" ] ]
+    FaCLA'                    `noun`    {- Had~A' -}           [ unwords [ "camel", "driver" ] ] ]
 
  |> ".h d f" <| [
 
     -- ;; Had~Af_1
     -- HdAf    Had~Af  N/ap    weaving guide
 
-    FaCCAL                    `noun`    {- Had~Af -}           [ "weaving guide" ] ]
+    FaCCAL                    `noun`    {- Had~Af -}           [ unwords [ "weaving", "guide" ] ] ]
 
  |> ".h d l" <| [
 
@@ -4238,7 +4238,7 @@ lexicon = listing "Lexicon's properties"
     -- AHtdm   {iHotadam       PV      flare up;blaze;be furious
     -- Htdm    Hotadim IV      flare up;blaze;be furious
 
-    IFtaCaL                   `verb`    {- AiHotadam -}        [ "flare up", "blaze", "be furious" ],
+    IFtaCaL                   `verb`    {- AiHotadam -}        [ unwords [ "flare", "up" ], "blaze", unwords [ "be", "furious" ] ],
 
     -- ;; {iHotidAm_1
     -- <HtdAm  {iHotidAm       NduAt   paroxysm;outburst
@@ -4265,7 +4265,7 @@ lexicon = listing "Lexicon's properties"
     -- Hdq     Had~aq  PV      look;stare;make sour
     -- Hdq     Had~iq  IV_yu   look;stare;make sour
 
-    FaCCaL                    `verb`    {- Had~aq -}           [ "look", "stare", "make sour" ],
+    FaCCaL                    `verb`    {- Had~aq -}           [ "look", "stare", unwords [ "make", "sour" ] ],
 
     -- ;; >aHodaq_1
     -- >Hdq    >aHodaq PV      surround;encompass;enclose
@@ -4350,7 +4350,7 @@ lexicon = listing "Lexicon's properties"
     -- AnHdr   {inoHadar       PV      come (from)
     -- nHdr    noHadir IV      come (from)
 
-    InFaCaL                   `verb`    {- AinoHadar -}        [ "come (from)" ],
+    InFaCaL                   `verb`    {- AinoHadar -}        [ unwords [ "come", "(", "from", ")" ] ],
 
     -- ;; Haduwr_1
     -- Hdwr    Haduwr  N       slope;declivity
@@ -4418,7 +4418,7 @@ lexicon = listing "Lexicon's properties"
     -- HdY     HodaY   IV_0_Pass_yu    be spurred on;be instigated
     -- Hdy     Hoday   IV_Ann_Pass_yu  be spurred on;be instigated
 
-    FaCA                      `verb`    {- HadA-u -}           [ "spur on", "instigate", "be spurred on" ]
+    FaCA                      `verb`    {- HadA-u -}           [ unwords [ "spur", "on" ], "instigate", unwords [ "be", "spurred", "on" ] ]
                               `imperf`     FCU,
 
     -- ;; taHad~aY_1
@@ -4464,7 +4464,7 @@ lexicon = listing "Lexicon's properties"
     -- HAdy    HAdiy   N0      first (word in "11th", "21st", "31st", through "91st")     [[HAdiy/ADJ]]
     -- HAdyp   HAdiyap N0      first (word in "11th", "21st", "31st", through "91st")     [[HAdiyap/ADJ]]
 
-    FACI                      `adj`     {- HAdiy -}            [ "first (word in \"11th\", \"21st\", \"31st\", through \"91st\")" ],
+    FACI                      `adj`     {- HAdiy -}            [ unwords [ "first", "(", "word", "in", "\"11th\",", "\"21st\",", "\"31st\",", "through", "\"91st\"", ")" ] ],
 
     -- ;; HAdiy_2
     -- HAdy    HAdiy   N0F     leader;cameleer
@@ -4485,7 +4485,7 @@ lexicon = listing "Lexicon's properties"
     -- Hdy     Hoday   IV_Ann  remain;not move
     -- Hd      Hoda    IV_0hwnyn       remain;not move
 
-    FaCI                      `verb`    {- Hadiy-a -}          [ "remain", "not move" ]
+    FaCI                      `verb`    {- Hadiy-a -}          [ "remain", unwords [ "not", "move" ] ]
                               `imperf`     FCY,
 
     -- ;; HAdiy_3
@@ -4499,7 +4499,7 @@ lexicon = listing "Lexicon's properties"
     -- HAdy    HAdiy   N0      first (word in "11th", "21st", "31st", through "91st")     [[HAdiy/ADJ]]
     -- HAdyp   HAdiyap N0      first (word in "11th", "21st", "31st", through "91st")     [[HAdiyap/ADJ]]
 
-    FACI                      `adj`     {- HAdiy -}            [ "first (word in \"11th\", \"21st\", \"31st\", through \"91st\")" ],
+    FACI                      `adj`     {- HAdiy -}            [ unwords [ "first", "(", "word", "in", "\"11th\",", "\"21st\",", "\"31st\",", "through", "\"91st\"", ")" ] ],
 
     -- ;; HAdiy_2
     -- HAdy    HAdiy   N0F     leader;cameleer
@@ -4520,7 +4520,7 @@ lexicon = listing "Lexicon's properties"
     -- Hdy     Hoday   IV_Ann  remain;not move
     -- Hd      Hoda    IV_0hwnyn       remain;not move
 
-    FaCI                      `verb`    {- Hadiy-a -}          [ "remain", "not move" ]
+    FaCI                      `verb`    {- Hadiy-a -}          [ "remain", unwords [ "not", "move" ] ]
                               `imperf`     FCY,
 
     -- ;; HAdiy_3
@@ -4580,7 +4580,7 @@ lexicon = listing "Lexicon's properties"
     -- tHfZ    taHaf~aZ        PV_intr be cautious
     -- tHfZ    taHaf~aZ        IV_intr be cautious
 
-    TaFaCCaL                  `verb`    {- taHaf~aZ -}         [ "be cautious" ],
+    TaFaCCaL                  `verb`    {- taHaf~aZ -}         [ unwords [ "be", "cautious" ] ],
 
     -- ;; {iHotafaZ_1
     -- <HtfZ   {iHotafaZ       PV      maintain;preserve
@@ -4594,7 +4594,7 @@ lexicon = listing "Lexicon's properties"
     -- AstHfZ  {isotaHofaZ     PV      entrust;seek protection
     -- stHfZ   sotaHofiZ       IV      entrust;seek protection
 
-    IstaFCaL                  `verb`    {- AisotaHofaZ -}      [ "entrust", "seek protection" ],
+    IstaFCaL                  `verb`    {- AisotaHofaZ -}      [ "entrust", unwords [ "seek", "protection" ] ],
 
     -- ;; HifoZ_1
     -- HfZ     HifoZ   N       preservation;retention;guarding
@@ -4672,7 +4672,7 @@ lexicon = listing "Lexicon's properties"
     -- HfAZ    Huf~AZ  N       guardians;custodians;memorizers (of the Quran)
     -- HfZ     HafaZ   Nap     guardians;custodians;memorizers (of the Quran)
 
-    FACiL                     `noun`    {- HAfiZ -}            [ "guardian", "custodian", "memorizer (of the Quran)", "memorizers (of the Quran)" ]
+    FACiL                     `noun`    {- HAfiZ -}            [ "guardian", "custodian", unwords [ "memorizer", "(", "of", "the", "Quran", ")" ], unwords [ "memorizers", "(", "of", "the", "Quran", ")" ] ]
                               `plural`     FaCaL |< aT
                               `plural`     FuCCAL
                            {- `others`  [ ".huffA.z N" ] -},
@@ -4814,7 +4814,7 @@ lexicon = listing "Lexicon's properties"
     -- Hfl     Hafal   PV      gather;abound;be concerned
     -- Hfl     Hofil   IV      gather;abound;be concerned
 
-    FaCaL                     `verb`    {- Hafal-i -}          [ "gather", "abound", "be concerned" ]
+    FaCaL                     `verb`    {- Hafal-i -}          [ "gather", "abound", unwords [ "be", "concerned" ] ]
                               `imperf`     FCiL,
 
     -- ;; Haf~al_1
@@ -4900,7 +4900,7 @@ lexicon = listing "Lexicon's properties"
     -- Hfn     Hafan   PV-n    scoop up
     -- Hfn     Hofun   IV-n    scoop up
 
-    FaCaL                     `verb`    {- Hafan-u -}          [ "scoop up" ]
+    FaCaL                     `verb`    {- Hafan-u -}          [ unwords [ "scoop", "up" ] ]
                               `imperf`     FCuL,
 
     -- ;; Hafonap_1
@@ -4924,7 +4924,7 @@ lexicon = listing "Lexicon's properties"
     -- AnHfr   {inoHafar       PV_intr be drilled;be excavated;be carved
     -- nHfr    noHafir IV_intr be drilled;be excavated;be carved
 
-    InFaCaL                   `verb`    {- AinoHafar -}        [ "be drilled", "be excavated", "be carved" ],
+    InFaCaL                   `verb`    {- AinoHafar -}        [ unwords [ "be", "drilled" ], unwords [ "be", "excavated" ], unwords [ "be", "carved" ] ],
 
     -- ;; {iHotafar_1
     -- <Htfr   {iHotafar       PV      dig
@@ -4959,7 +4959,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Haf~Arap_1
     -- HfAr    Haf~Ar  NapAt   drilling rig;driller
 
-    FaCCAL |< aT              `noun`    {- Haf~Arap -}         [ "drilling rig", "driller" ],
+    FaCCAL |< aT              `noun`    {- Haf~Arap -}         [ unwords [ "drilling", "rig" ], "driller" ],
 
     -- ;; Hafiyr_1
     -- Hfyr    Hafiyr  N/ap    excavated;dug
@@ -4998,12 +4998,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; HAfiriy~_1
     -- HAfry   HAfiriy~        Nall    having hoofs;hooflike     [[HAfiriy~/ADJ]]
 
-    FACiL |< Iy               `adj`     {- HAfiriy~ -}         [ "having hoofs", "hooflike" ],
+    FACiL |< Iy               `adj`     {- HAfiriy~ -}         [ unwords [ "having", "hoofs" ], "hooflike" ],
 
     -- ;; HAfirap_1
     -- HAfr    HAfir   NapAt   original state;beginning
 
-    FACiL |< aT               `noun`    {- HAfirap -}          [ "original state", "beginning" ],
+    FACiL |< aT               `noun`    {- HAfirap -}          [ unwords [ "original", "state" ], "beginning" ],
 
     -- ;; maHofuwr_1
     -- mHfwr   maHofuwr        Nall    dug;carved;engraved
@@ -5027,7 +5027,7 @@ lexicon = listing "Lexicon's properties"
     -- Hfy     Hofay   IV_Ann  receive kindly;welcome
     -- Hf      Hofa    IV_0hwnyn       receive kindly;welcome
 
-    FaCI                      `verb`    {- Hafiy-a -}          [ "receive kindly", "welcome" ]
+    FaCI                      `verb`    {- Hafiy-a -}          [ unwords [ "receive", "kindly" ], "welcome" ]
                               `imperf`     FCY,
 
     -- ;; Hafiy-a_2
@@ -5037,7 +5037,7 @@ lexicon = listing "Lexicon's properties"
     -- Hfy     Hofay   IV_Ann  go barefoot
     -- Hf      Hofa    IV_0hwnyn       go barefoot
 
-    FaCI                      `verb`    {- Hafiy-a -}          [ "go barefoot" ]
+    FaCI                      `verb`    {- Hafiy-a -}          [ unwords [ "go", "barefoot" ] ]
                               `imperf`     FCY,
 
     -- ;; taHaf~aY_1
@@ -5050,7 +5050,7 @@ lexicon = listing "Lexicon's properties"
     -- tHfy    taHaf~ay        IV_Ann  be affectionate
     -- tHf     taHaf~  IV_0hwnyn       be affectionate
 
-    TaFaCCY                   `verb`    {- taHaf~aY -}         [ "be affectionate" ],
+    TaFaCCY                   `verb`    {- taHaf~aY -}         [ unwords [ "be", "affectionate" ] ],
 
     -- ;; {iHotafaY_1
     -- <HtfY   {iHotafaY       PV_0    be affectionate;celebrate
@@ -5065,7 +5065,7 @@ lexicon = listing "Lexicon's properties"
     -- Htf     Hotaf   IV_0hwnyn       be affectionate;celebrate
     -- HtfY    HotafaY IV_0_Pass_yu    be affectionate;celebrate
 
-    IFtaCY                    `verb`    {- AiHotafaY -}        [ "be affectionate", "celebrate" ],
+    IFtaCY                    `verb`    {- AiHotafaY -}        [ unwords [ "be", "affectionate" ], "celebrate" ],
 
     -- ;; Hafiy~_1
     -- Hfy     Hafiy~  Nall    welcoming;greeting     [[Hafiy~/ADJ]]
@@ -5117,14 +5117,14 @@ lexicon = listing "Lexicon's properties"
     -- tHfz    taHaf~az        PV      get ready
     -- tHfz    taHaf~az        IV      get ready
 
-    TaFaCCaL                  `verb`    {- taHaf~az -}         [ "get ready" ],
+    TaFaCCaL                  `verb`    {- taHaf~az -}         [ unwords [ "get", "ready" ] ],
 
     -- ;; {iHotafaz_1
     -- <Htfz   {iHotafaz       PV_intr be ready
     -- AHtfz   {iHotafaz       PV_intr be ready
     -- Htfz    Hotafiz IV_intr be ready
 
-    IFtaCaL                   `verb`    {- AiHotafaz -}        [ "be ready" ],
+    IFtaCaL                   `verb`    {- AiHotafaz -}        [ unwords [ "be", "ready" ] ],
 
     -- ;; taHaf~uz_1
     -- tHfz    taHaf~uz        NduAt   readiness
@@ -5253,7 +5253,7 @@ lexicon = listing "Lexicon's properties"
     -- Hk      Huk~    Napdu   small box;jar
     -- Hkk     Hukak   N       small boxes;jars
 
-    FuCL |< aT                `noun`    {- Huk~ap -}           [ "small box", "jar" ]
+    FuCL |< aT                `noun`    {- Huk~ap -}           [ unwords [ "small", "box" ], "jar" ]
                               `plural`     FuCaL
                            {- `others`  [ ".hukak N" ] -},
 
@@ -5324,7 +5324,7 @@ lexicon = listing "Lexicon's properties"
     -- AstHkm  {isotaHokam     PV_intr be strong
     -- stHkm   sotaHokim       IV_intr be strong
 
-    IstaFCaL                  `verb`    {- AisotaHokam -}      [ "be strong" ],
+    IstaFCaL                  `verb`    {- AisotaHokam -}      [ unwords [ "be", "strong" ] ],
 
     -- ;; Hukom_1
     -- Hkm     Hukom   N       judgment;decision
@@ -5404,7 +5404,7 @@ lexicon = listing "Lexicon's properties"
     -- >Hkm    >aHokam Nel     wiser/wisest
     -- AHkm    >aHokam Nel     wiser/wisest
 
-    HaFCaL                    `noun`    {- OaHokam -}          [ "wiser/wisest" ],
+    HaFCaL                    `noun`    {- OaHokam -}          [ unwords [ "wiser", "/", "wisest" ] ],
 
     -- ;; maHokamap_1
     -- mHkm    maHokam Napdu   court;tribunal
@@ -5428,7 +5428,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muHAkamap_1
     -- mHAkm   muHAkam NapAt   judicial proceeding;legal prosecution
 
-    MuFACaL |< aT             `noun`    {- muHAkamap -}        [ "judicial proceeding", "legal prosecution" ],
+    MuFACaL |< aT             `noun`    {- muHAkamap -}        [ unwords [ "judicial", "proceeding" ], unwords [ "legal", "prosecution" ] ],
 
     -- ;; <iHokAm_1
     -- <HkAm   <iHokAm NduAt   accuracy;precision
@@ -5512,7 +5512,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; musotaHokam_1
     -- mstHkm  musotaHokam     Nall    fortified;deep-rooted;fortification
 
-    MustaFCaL                 `noun`    {- musotaHokam -}      [ "fortified", "deep-rooted", "fortification" ] ]
+    MustaFCaL                 `noun`    {- musotaHokam -}      [ "fortified", unwords [ "deep", "-", "rooted" ], "fortification" ] ]
 
  |> ".h k r" <| [
 
@@ -5541,7 +5541,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HAkuwrap_1
     -- HAkwr   HAkuwr  Nap     small vegetable garden
 
-    FACUL |< aT               `noun`    {- HAkuwrap -}         [ "small vegetable garden" ],
+    FACUL |< aT               `noun`    {- HAkuwrap -}         [ unwords [ "small", "vegetable", "garden" ] ],
 
     -- ;; {iHotikAr_1
     -- <HtkAr  {iHotikAr       NduAt   monopoly;hoarding
@@ -5628,7 +5628,7 @@ lexicon = listing "Lexicon's properties"
     -- HlHl    HaloHal PV      remove;shove away
     -- HlHl    HaloHil IV_yu   remove;shove away
 
-    KaRDaS                    `verb`    {- HaloHal -}          [ "remove", "shove away" ],
+    KaRDaS                    `verb`    {- HaloHal -}          [ "remove", unwords [ "shove", "away" ] ],
 
     -- ;; taHaloHal_1
     -- tHlHl   taHaloHal       PV      move;budge
@@ -5639,7 +5639,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HaloHuwl_1
     -- HlHwl   HaloHuwl        N0      Halhoul (West Bank)
 
-    KaRDUS                    `noun`    {- HaloHuwl -}         [ "Halhoul (West Bank)" ] ]
+    KaRDUS                    `noun`    {- HaloHuwl -}         [ unwords [ "Halhoul", "(", "West", "Bank", ")" ] ] ]
 
  |> ".h l ^g" <| [
 
@@ -5671,23 +5671,23 @@ lexicon = listing "Lexicon's properties"
     -- HlAj    Hal~Aj  Nall    cotton ginner
     -- HlAj    Hal~Aj  N0      Hallaj
 
-    FaCCAL                    `noun`    {- Hal~Aj -}           [ "cotton ginner", "Hallaj" ],
+    FaCCAL                    `noun`    {- Hal~Aj -}           [ unwords [ "cotton", "ginner" ], "Hallaj" ],
 
     -- ;; miHolaj_1
     -- mHlj    miHolaj Ndu     cotton gin
 
-    MiFCaL                    `noun`    {- miHolaj -}          [ "cotton gin" ],
+    MiFCaL                    `noun`    {- miHolaj -}          [ unwords [ "cotton", "gin" ] ],
 
     -- ;; maHolaj_1
     -- mHlj    maHolaj Ndu     cotton ginnery
 
-    MaFCaL                    `noun`    {- maHolaj -}          [ "cotton ginnery" ],
+    MaFCaL                    `noun`    {- maHolaj -}          [ unwords [ "cotton", "ginnery" ] ],
 
     -- ;; miHolajap_1
     -- mHlj    miHolaj Napdu   cotton gin
     -- mHAlj   maHAlij Ndip    cotton gin
 
-    MiFCaL |< aT              `noun`    {- miHolajap -}        [ "cotton gin" ]
+    MiFCaL |< aT              `noun`    {- miHolajap -}        [ unwords [ "cotton", "gin" ] ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma.hAli^g Ndip" ] -} ]
 
@@ -5706,7 +5706,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Halabiy~_2
     -- Hlby    Halabiy~        Nall    from/of Aleppo;Aleppan     [[Halabiy~/ADJ]]
 
-    FaCaL |< Iy               `adj`     {- Halabiy~ -}         [ "from/of Aleppo", "Aleppan" ],
+    FaCaL |< Iy               `adj`     {- Halabiy~ -}         [ unwords [ "from", "/", "of", "Aleppo" ], "Aleppan" ],
 
     -- ;; Halab-iu_1
     -- Hlb     Halab   PV      milk
@@ -5752,7 +5752,7 @@ lexicon = listing "Lexicon's properties"
     -- Hlb     Halab   NAt     arenas;tracks
     -- HlAyb   HalAyib Ndip    arenas;tracks ??
 
-    FaCL |< aT                `noun`    {- Halobap -}          [ "arena", "track", "tracks ??" ]
+    FaCL |< aT                `noun`    {- Halobap -}          [ "arena", "track", unwords [ "tracks", "?", "?" ] ]
                               `plural`     FaCaL |< At,
 
     -- ;; Haliyb_1
@@ -5773,7 +5773,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HilAbap_1
     -- HlAb    HilAb   Nap     dairy farming
 
-    FiCAL |< aT               `noun`    {- HilAbap -}          [ "dairy farming" ],
+    FiCAL |< aT               `noun`    {- HilAbap -}          [ unwords [ "dairy", "farming" ] ],
 
     -- ;; Hal~Ab_1
     -- HlAb    Hal~Ab  Nall    milker
@@ -5783,7 +5783,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hal~Abap_1
     -- HlAb    Hal~Ab  NapAt   dairymaid;milking cow
 
-    FaCCAL |< aT              `noun`    {- Hal~Abap -}         [ "dairymaid", "milking cow" ],
+    FaCCAL |< aT              `noun`    {- Hal~Abap -}         [ "dairymaid", unwords [ "milking", "cow" ] ],
 
     -- ;; maHolab_1
     -- mHlb    maHolab N       mahleb
@@ -5806,33 +5806,33 @@ lexicon = listing "Lexicon's properties"
     -- Hlf     Halaf   PV      swear;take an oath
     -- Hlf     Holif   IV      swear;take an oath
 
-    FaCaL                     `verb`    {- Halaf-i -}          [ "swear", "take an oath" ]
+    FaCaL                     `verb`    {- Halaf-i -}          [ "swear", unwords [ "take", "an", "oath" ] ]
                               `imperf`     FCiL,
 
     -- ;; Hal~af_1
     -- Hlf     Hal~af  PV      make swear;adjure
     -- Hlf     Hal~if  IV_yu   make swear;adjure
 
-    FaCCaL                    `verb`    {- Hal~af -}           [ "make swear", "adjure" ],
+    FaCCaL                    `verb`    {- Hal~af -}           [ unwords [ "make", "swear" ], "adjure" ],
 
     -- ;; HAlaf_1
     -- HAlf    HAlaf   PV      ally with;confederate with
     -- HAlf    HAlif   IV_yu   ally with;confederate with
 
-    FACaL                     `verb`    {- HAlaf -}            [ "ally with", "confederate with" ],
+    FACaL                     `verb`    {- HAlaf -}            [ unwords [ "ally", "with" ], unwords [ "confederate", "with" ] ],
 
     -- ;; taHAlaf_1
     -- tHAlf   taHAlaf PV      ally;join in alliance
     -- tHAlf   taHAlaf IV      ally;join in alliance
 
-    TaFACaL                   `verb`    {- taHAlaf -}          [ "ally", "join in alliance" ],
+    TaFACaL                   `verb`    {- taHAlaf -}          [ "ally", unwords [ "join", "in", "alliance" ] ],
 
     -- ;; {isotaHolaf_1
     -- <stHlf  {isotaHolaf     PV      make swear
     -- AstHlf  {isotaHolaf     PV      make swear
     -- stHlf   sotaHolif       IV      make swear
 
-    IstaFCaL                  `verb`    {- AisotaHolaf -}      [ "make swear" ],
+    IstaFCaL                  `verb`    {- AisotaHolaf -}      [ unwords [ "make", "swear" ] ],
 
     -- ;; Halof_1
     -- Hlf     Halof   N       oath
@@ -5862,14 +5862,14 @@ lexicon = listing "Lexicon's properties"
     -- Hlwf    Hal~uwf Ndu     wild boar;swine
     -- HlAlyf  HalAliyf        Ndip    wild boar;swine
 
-    FaCCUL                    `noun`    {- Hal~uwf -}          [ "wild boar", "swine" ]
+    FaCCUL                    `noun`    {- Hal~uwf -}          [ unwords [ "wild", "boar" ], "swine" ]
                               `plural`     FaCACIL
                            {- `others`  [ ".halAliyf Ndip" ] -},
 
     -- ;; taHoliyf_1
     -- tHlyf   taHoliyf        NduAt   swearing in;taking of oath
 
-    TaFCIL                    `noun`    {- taHoliyf -}         [ "swearing in", "taking of oath" ]
+    TaFCIL                    `noun`    {- taHoliyf -}         [ unwords [ "swearing", "in" ], unwords [ "taking", "of", "oath" ] ]
                               `plural`     TaFCIL |< At,
 
     -- ;; muHAlafap_1
@@ -5886,7 +5886,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muHal~af_1
     -- mHlf    muHal~af        Nall    sworn;bound by oath;juror
 
-    MuFaCCaL                  `noun`    {- muHal~af -}         [ "sworn", "bound by oath", "juror" ],
+    MuFaCCaL                  `noun`    {- muHal~af -}         [ "sworn", unwords [ "bound", "by", "oath" ], "juror" ],
 
     -- ;; mutaHAlif_1
     -- mtHAlf  mutaHAlif       Nall    allied
@@ -5899,7 +5899,7 @@ lexicon = listing "Lexicon's properties"
     -- Hlk     Halik   PV_intr be pitch-black
     -- Hlk     Holak   IV_intr be pitch-black
 
-    FaCiL                     `verb`    {- Halik-a -}          [ "be pitch-black" ]
+    FaCiL                     `verb`    {- Halik-a -}          [ unwords [ "be", "pitch", "-", "black" ] ]
                               `imperf`     FCaL,
 
     -- ;; {iHolawolak_1
@@ -5907,22 +5907,22 @@ lexicon = listing "Lexicon's properties"
     -- AHlwlk  {iHolawolak     PV_intr be pitch-black
     -- Hlwlk   Holawolik       IV_intr be pitch-black
 
-    IFCawCaL                  `verb`    {- AiHolawolak -}      [ "be pitch-black" ],
+    IFCawCaL                  `verb`    {- AiHolawolak -}      [ unwords [ "be", "pitch", "-", "black" ] ],
 
     -- ;; Halak_1
     -- Hlk     Halak   N       pitch-black
 
-    FaCaL                     `noun`    {- Halak -}            [ "pitch-black" ],
+    FaCaL                     `noun`    {- Halak -}            [ unwords [ "pitch", "-", "black" ] ],
 
     -- ;; Hulokap_1
     -- Hlk     Hulok   Nap     pitch-black
 
-    FuCL |< aT                `noun`    {- Hulokap -}          [ "pitch-black" ],
+    FuCL |< aT                `noun`    {- Hulokap -}          [ unwords [ "pitch", "-", "black" ] ],
 
     -- ;; Halik_1
     -- Hlk     Halik   N/ap    jet-black;murky
 
-    FaCiL                     `noun`    {- Halik -}            [ "jet-black", "murky" ],
+    FaCiL                     `noun`    {- Halik -}            [ unwords [ "jet", "-", "black" ], "murky" ],
 
     -- ;; Huluwkap_1
     -- Hlwk    Huluwk  Nap     darkness;blackness
@@ -5932,7 +5932,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HAlik_1
     -- HAlk    HAlik   N/ap    pitch-black;murky
 
-    FACiL                     `noun`    {- HAlik -}            [ "pitch-black", "murky" ] ]
+    FACiL                     `noun`    {- HAlik -}            [ unwords [ "pitch", "-", "black" ], "murky" ] ]
 
  |> ".h l l" <| [
 
@@ -5987,7 +5987,7 @@ lexicon = listing "Lexicon's properties"
     -- nHl     noHal~  IV_V_intr       be dissolved;be disbanded
     -- nHll    noHalil IV_C_intr       be dissolved;be disbanded
 
-    InFaCL                    `verb`    {- AinoHal~ -}         [ "be dissolved", "be disbanded" ],
+    InFaCL                    `verb`    {- AinoHal~ -}         [ unwords [ "be", "dissolved" ], unwords [ "be", "disbanded" ] ],
 
     -- ;; {iHotal~_1
     -- <Htl    {iHotal~        PV_V    occupy
@@ -6007,7 +6007,7 @@ lexicon = listing "Lexicon's properties"
     -- stHl    sotaHil~        IV_V    regard as lawful
     -- stHll   sotaHolil       IV_C    regard as lawful
 
-    IstaFaCL                  `verb`    {- AisotaHal~ -}       [ "regard as lawful" ],
+    IstaFaCL                  `verb`    {- AisotaHal~ -}       [ unwords [ "regard", "as", "lawful" ] ],
 
     -- ;; Hal~_1
     -- Hl      Hal~    Ndu     solution;dissolution;cancellation
@@ -6026,7 +6026,7 @@ lexicon = listing "Lexicon's properties"
     -- Hl      Hal~    Napdu   cooking pot
     -- Hll     Hilal   N       cooking pots
 
-    FaCL |< aT                `noun`    {- Hal~ap -}           [ "cooking pot" ]
+    FaCL |< aT                `noun`    {- Hal~ap -}           [ unwords [ "cooking", "pot" ] ]
                               `plural`     FiCaL
                            {- `others`  [ ".hilal N" ] -},
 
@@ -6034,7 +6034,7 @@ lexicon = listing "Lexicon's properties"
     -- Hl      Hul~    Napdu   suit of clothes
     -- Hll     Hulal   N       clothing
 
-    FuCL |< aT                `noun`    {- Hul~ap -}           [ "suit of clothes", "clothing" ]
+    FuCL |< aT                `noun`    {- Hul~ap -}           [ unwords [ "suit", "of", "clothes" ], "clothing" ]
                               `plural`     FuCaL
                            {- `others`  [ ".hulal N" ] -},
 
@@ -6083,7 +6083,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; maHal~ap_1
     -- mHl     maHal~  NapAt   way station;stopover
 
-    MaFaCL |< aT              `noun`    {- maHal~ap -}         [ "way station", "stopover" ],
+    MaFaCL |< aT              `noun`    {- maHal~ap -}         [ unwords [ "way", "station" ], "stopover" ],
 
     -- ;; maHal~ap_2
     -- mHl     maHal~  Nap     Mahalla
@@ -6108,7 +6108,7 @@ lexicon = listing "Lexicon's properties"
     -- <HlAl   <iHolAl NduAt   achieving;bringing about;replacing
     -- AHlAl   <iHolAl NduAt   achieving;bringing about;replacing
 
-    HiFCAL                    `noun`    {- IiHolAl -}          [ "achieving", "bringing about", "replacing" ]
+    HiFCAL                    `noun`    {- IiHolAl -}          [ "achieving", unwords [ "bringing", "about" ], "replacing" ]
                               `plural`     HiFCAL |< At,
 
     -- ;; taHal~ul_1
@@ -6188,7 +6188,7 @@ lexicon = listing "Lexicon's properties"
     -- Hlm     Halum   PV_intr be gentle
     -- Hlm     Holum   IV_intr be gentle
 
-    FaCuL                     `verb`    {- Halum-u -}          [ "be gentle" ]
+    FaCuL                     `verb`    {- Halum-u -}          [ unwords [ "be", "gentle" ] ]
                               `imperf`     FCuL,
 
     -- ;; {iHotalam_1
@@ -6196,7 +6196,7 @@ lexicon = listing "Lexicon's properties"
     -- AHtlm   {iHotalam       PV      attain puberty
     -- Htlm    Hotalim IV      attain puberty
 
-    IFtaCaL                   `verb`    {- AiHotalam -}        [ "attain puberty" ],
+    IFtaCaL                   `verb`    {- AiHotalam -}        [ unwords [ "attain", "puberty" ] ],
 
     -- ;; Hulom_1
     -- Hlm     Hulom   Ndu     dream
@@ -6237,7 +6237,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Halamiy~_1
     -- Hlmy    Halamiy~        Nall    parasitic;nipple-shaped     [[Halamiy~/ADJ]]
 
-    FaCaL |< Iy               `adj`     {- Halamiy~ -}         [ "parasitic", "nipple-shaped" ],
+    FaCaL |< Iy               `adj`     {- Halamiy~ -}         [ "parasitic", unwords [ "nipple", "-", "shaped" ] ],
 
     -- ;; Haliym_1
     -- Hlym    Haliym  N0      Haleem;Halim
@@ -6257,7 +6257,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Haluwm_1
     -- Hlwm    Haluwm  N       (Egyptian) cheese
 
-    FaCUL                     `noun`    {- Haluwm -}           [ "(Egyptian) cheese" ],
+    FaCUL                     `noun`    {- Haluwm -}           [ unwords [ "(", "Egyptian", ")", "cheese" ] ],
 
     -- ;; HAlim_1
     -- HAlm    HAlim   Nall    dreamer
@@ -6267,7 +6267,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muHotalim_1
     -- mHtlm   muHotalim       Nall    pubescent;sexually mature
 
-    MuFtaCiL                  `noun`    {- muHotalim -}        [ "pubescent", "sexually mature" ] ]
+    MuFtaCiL                  `noun`    {- muHotalim -}        [ "pubescent", unwords [ "sexually", "mature" ] ] ]
 
  |> ".h l q" <| [
 
@@ -6288,7 +6288,7 @@ lexicon = listing "Lexicon's properties"
     -- tHlq    taHal~aq        PV      form a circle;gather in a circle
     -- tHlq    taHal~aq        IV      form a circle;gather in a circle
 
-    TaFaCCaL                  `verb`    {- taHal~aq -}         [ "form a circle", "gather in a circle" ],
+    TaFaCCaL                  `verb`    {- taHal~aq -}         [ unwords [ "form", "a", "circle" ], unwords [ "gather", "in", "a", "circle" ] ],
 
     -- ;; Haloq_1
     -- Hlq     Haloq   N       shaving;shave
@@ -6355,7 +6355,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taHoliyq_1
     -- tHlyq   taHoliyq        NduAt   flight;flying;take-off
 
-    TaFCIL                    `noun`    {- taHoliyq -}         [ "flight", "flying", "take-off" ]
+    TaFCIL                    `noun`    {- taHoliyq -}         [ "flight", "flying", unwords [ "take", "-", "off" ] ]
                               `plural`     TaFCIL |< At,
 
     -- ;; HAliq_1
@@ -6387,7 +6387,7 @@ lexicon = listing "Lexicon's properties"
     -- >HlAs   >aHolAs N       addicted to;given to
     -- AHlAs   >aHolAs N       addicted to;given to
 
-    FiCL                      `noun`    {- Hilos -}            [ "addicted to", "given to" ]
+    FiCL                      `noun`    {- Hilos -}            [ unwords [ "addicted", "to" ], unwords [ "given", "to" ] ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.hlAs N" ] -},
 
@@ -6396,7 +6396,7 @@ lexicon = listing "Lexicon's properties"
     -- >HlAs   >aHolAs N       saddle blankets
     -- AHlAs   >aHolAs N       saddle blankets
 
-    FiCL                      `noun`    {- Hilos -}            [ "saddle blanket" ]
+    FiCL                      `noun`    {- Hilos -}            [ unwords [ "saddle", "blanket" ] ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.hlAs N" ] -},
 
@@ -6432,7 +6432,7 @@ lexicon = listing "Lexicon's properties"
     -- Hl      Hol     IV_0hwnyn       be sweet;be pleasant
     -- HlY     HolaY   IV_0_Pass_yu    be sweet;be pleasant
 
-    FaCU                      `verb`    {- Haluw-u -}          [ "be sweet", "be pleasant" ]
+    FaCU                      `verb`    {- Haluw-u -}          [ unwords [ "be", "sweet" ], unwords [ "be", "pleasant" ] ]
                               `imperf`     FCU
                            {- `others`  [ ".halA PV" ] -},
 
@@ -6484,7 +6484,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HalowA}iy~_1
     -- HlwA}y  HalowA}iy~      Nall    confectioner;pastry cook     [[HalowA}iy~/ADJ]]
 
-    FaCLA' |< Iy              `adj`     {- HalowA}iy~ -}       [ "confectioner", "pastry cook" ],
+    FaCLA' |< Iy              `adj`     {- HalowA}iy~ -}       [ "confectioner", unwords [ "pastry", "cook" ] ],
 
     -- ;; HalAwap_1
     -- HlAw    HalAw   Nap     sweetness;candies
@@ -6499,7 +6499,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HulowAn_1
     -- HlwAn   HulowAn Ndip    Helwan (Egy.)
 
-    FuCLAn                    `noun`    {- HulowAn -}          [ "Helwan (Egy.)" ],
+    FuCLAn                    `noun`    {- HulowAn -}          [ unwords [ "Helwan", "(", "Egy.", ")" ] ],
 
     -- ;; HulowAn_2
     -- HlwAn   HulowAn N       gratuity;tip
@@ -6509,7 +6509,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HulowAniy~_1
     -- HlwAny  HulowAniy~      Nall    confectioner;pastry cook     [[HulowAniy~/ADJ]]
 
-    FuCLAn |< Iy              `adj`     {- HulowAniy~ -}       [ "confectioner", "pastry cook" ],
+    FuCLAn |< Iy              `adj`     {- HulowAniy~ -}       [ "confectioner", unwords [ "pastry", "cook" ] ],
 
     -- ;; >aHolaY_1
     -- >HlY    >aHolaY N0      sweeter;sweetest
@@ -6530,7 +6530,7 @@ lexicon = listing "Lexicon's properties"
     -- Hly     Holay   IV_Ann  be sweet;be pleasant;be adorned
     -- Hl      Hola    IV_0hwnyn       be sweet;be pleasant;be adorned
 
-    FaCI                      `verb`    {- Haliy-a -}          [ "be sweet", "be pleasant", "be adorned" ]
+    FaCI                      `verb`    {- Haliy-a -}          [ unwords [ "be", "sweet" ], unwords [ "be", "pleasant" ], unwords [ "be", "adorned" ] ]
                               `imperf`     FCY,
 
     -- ;; HalaY-i_1
@@ -6568,7 +6568,7 @@ lexicon = listing "Lexicon's properties"
     -- tHly    taHal~ay        IV_Ann  be adorned;be furnished;remaining (patient, confident)
     -- tHl     taHal~  IV_0hwnyn       be adorned;be furnished;remaining (patient, confident)
 
-    TaFaCCY                   `verb`    {- taHal~aY -}         [ "be adorned", "be furnished", "remaining (patient, confident)" ],
+    TaFaCCY                   `verb`    {- taHal~aY -}         [ unwords [ "be", "adorned" ], unwords [ "be", "furnished" ], unwords [ "remaining", "(", "patient,", "confident", ")" ] ],
 
     -- ;; {isotaHolaY_1
     -- <stHlY  {isotaHolaY     PV_0    be delighted
@@ -6580,7 +6580,7 @@ lexicon = listing "Lexicon's properties"
     -- stHly   sotaHoliy       IV_0hAnn        be delighted
     -- stHl    sotaHol IV_0hwnyn       be delighted
 
-    IstaFCY                   `verb`    {- AisotaHolaY -}      [ "be delighted" ],
+    IstaFCY                   `verb`    {- AisotaHolaY -}      [ unwords [ "be", "delighted" ] ],
 
     -- ;; Haloy_1
     -- Hly     Haloy   N       jewelry
@@ -6614,7 +6614,7 @@ lexicon = listing "Lexicon's properties"
     -- tHly    taHal~iy        NAn_Nayn        being adorned;being furnished;remaining (patient, confident)
     -- tHly    taHal~iy        NAt     being adorned;being furnished;remaining (patient, confident)
 
-    TaFaCCI                   `noun`    {- taHal~iy -}         [ "being adorned", "being furnished", "remaining (patient, confident)" ]
+    TaFaCCI                   `noun`    {- taHal~iy -}         [ unwords [ "being", "adorned" ], unwords [ "being", "furnished" ], unwords [ "remaining", "(", "patient,", "confident", ")" ] ]
                               `plural`     TaFaCCI |< At,
 
     -- ;; muHal~aY_1
@@ -6633,7 +6633,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HalAyib_1
     -- HlAyb   HalAyib Ndip    lactiferous ??
 
-    KaRADiS                   `noun`    {- HalAyib -}          [ "lactiferous ??" ],
+    KaRADiS                   `noun`    {- HalAyib -}          [ unwords [ "lactiferous", "?", "?" ] ],
 
     -- ;; HalAyib_2
     -- HlAyb   HalAyib N0      Halayib
@@ -6651,7 +6651,7 @@ lexicon = listing "Lexicon's properties"
     -- Hm&     Homa&   IV_wn   clean out;dredge
     -- Hm}     Homa}   IV_yn   clean out;dredge
 
-    FaCaL                     `verb`    {- HamaO-a -}          [ "clean out", "dredge" ]
+    FaCaL                     `verb`    {- HamaO-a -}          [ unwords [ "clean", "out" ], "dredge" ]
                               `imperf`     FCaL,
 
     -- ;; Hami}-a_1
@@ -6661,7 +6661,7 @@ lexicon = listing "Lexicon's properties"
     -- Hm&     Homa&   IV_wn   become angry
     -- Hm}     Homa}   IV_yn   become angry
 
-    FaCiL                     `verb`    {- Hami}-a -}          [ "become angry" ]
+    FaCiL                     `verb`    {- Hami}-a -}          [ unwords [ "become", "angry" ] ]
                               `imperf`     FCaL,
 
     -- ;; Hama>_1
@@ -6689,7 +6689,7 @@ lexicon = listing "Lexicon's properties"
     -- <HtmA'  {iHotimA'       NAt     seeking cover;shelters
     -- AHtmA'  {iHotimA'       NAt     seeking cover;shelters
 
-    IFtiCAL                   `noun`    {- AiHotimA' -}        [ "seeking cover", "shelter" ]
+    IFtiCAL                   `noun`    {- AiHotimA' -}        [ unwords [ "seeking", "cover" ], "shelter" ]
                               `plural`     IFtiCAL |< At
                               `plural`     IFtiCA' |< At ]
 
@@ -6699,14 +6699,14 @@ lexicon = listing "Lexicon's properties"
     -- HmD     HamuD   PV_intr be sour;be acidic
     -- HmD     HomuD   IV_intr be sour;be acidic
 
-    FaCuL                     `verb`    {- HamuD-u -}          [ "be sour", "be acidic" ]
+    FaCuL                     `verb`    {- HamuD-u -}          [ unwords [ "be", "sour" ], unwords [ "be", "acidic" ] ]
                               `imperf`     FCuL,
 
     -- ;; Ham~aD_1
     -- HmD     Ham~aD  PV      make sour;oxidize
     -- HmD     Ham~iD  IV_yu   make sour;oxidize
 
-    FaCCaL                    `verb`    {- Ham~aD -}           [ "make sour", "oxidize" ],
+    FaCCaL                    `verb`    {- Ham~aD -}           [ unwords [ "make", "sour" ], "oxidize" ],
 
     -- ;; HamoD_1
     -- HmD     HamoD   N       acid
@@ -6725,7 +6725,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HamoDiy~ap_1
     -- HmDy    HamoDiy~        NapAt   citrus fruit     [[HamoDiy~/NOUN]]
 
-    FaCL |< Iy |< aT          `noun`    {- HamoDiy~ap -}       [ "citrus fruit" ],
+    FaCL |< Iy |< aT          `noun`    {- HamoDiy~ap -}       [ unwords [ "citrus", "fruit" ] ],
 
     -- ;; HumuwDap_1
     -- HmwD    HumuwD  Nap     sourness;acidity
@@ -6735,7 +6735,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hum~AD_1
     -- HmAD    Hum~AD  N       sorrel (salad plant)
 
-    FuCCAL                    `noun`    {- Hum~AD -}           [ "sorrel (salad plant)" ],
+    FuCCAL                    `noun`    {- Hum~AD -}           [ unwords [ "sorrel", "(", "salad", "plant", ")" ] ],
 
     -- ;; taHomiyD_1
     -- tHmyD   taHomiyD        NduAt   souring;acidification
@@ -6779,7 +6779,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HimoHim_1
     -- HmHm    HimoHim N       ox tongue
 
-    KiRDiS                    `noun`    {- HimoHim -}          [ "ox tongue" ] ]
+    KiRDiS                    `noun`    {- HimoHim -}          [ unwords [ "ox", "tongue" ] ] ]
 
  |> ".h m .s" <| [
 
@@ -6792,12 +6792,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; miHomaSap_1
     -- mHmS    miHomaS Nap     coffee roaster
 
-    MiFCaL |< aT              `noun`    {- miHomaSap -}        [ "coffee roaster" ],
+    MiFCaL |< aT              `noun`    {- miHomaSap -}        [ unwords [ "coffee", "roaster" ] ],
 
     -- ;; HimoS_1
     -- HmS     HimoS   Ndip    Homs (Syr.)
 
-    FiCL                      `noun`    {- HimoS -}            [ "Homs (Syr.)" ],
+    FiCL                      `noun`    {- HimoS -}            [ unwords [ "Homs", "(", "Syr.", ")" ] ],
 
     -- ;; HimoSiy~_1
     -- HmSy    HimoSiy~        N0      Himsi
@@ -6807,7 +6807,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HimoSiy~_2
     -- HmSy    HimoSiy~        Nall    from/of Homs (Syr.)
 
-    FiCL |< Iy                `adj`     {- HimoSiy~ -}         [ "from/of Homs (Syr.)" ] ]
+    FiCL |< Iy                `adj`     {- HimoSiy~ -}         [ unwords [ "from", "/", "of", "Homs", "(", "Syr.", ")" ] ] ]
 
  |> ".h m .t" <| [
 
@@ -6815,7 +6815,7 @@ lexicon = listing "Lexicon's properties"
     -- HmAT    HamAT   N       fig trees
     -- HmAT    HamAT   NapAt   fig tree
 
-    FaCAL                     `noun`    {- HamAT -}            [ "fig tree" ]
+    FaCAL                     `noun`    {- HamAT -}            [ unwords [ "fig", "tree" ] ]
                               `plural`     FaCAL |< At ]
 
  |> ".h m ^s" <| [
@@ -6917,7 +6917,7 @@ lexicon = listing "Lexicon's properties"
     -- >Hmd    >aHomad Nel     more praiseworthy
     -- AHmd    >aHomad Nel     more praiseworthy
 
-    HaFCaL                    `noun`    {- OaHomad -}          [ "more praiseworthy" ],
+    HaFCaL                    `noun`    {- OaHomad -}          [ unwords [ "more", "praiseworthy" ] ],
 
     -- ;; >aHomadiy~_1
     -- >Hmdy   >aHomadiy~      Nall    Ahmadi     [[>aHomadiy~/NOUN]]
@@ -6957,7 +6957,7 @@ lexicon = listing "Lexicon's properties"
     -- mHmd    maHomad Nap     commendable act
     -- mHAmd   maHAmid Ndip    commendable acts;encomia
 
-    MaFCaL |< aT              `noun`    {- maHomadap -}        [ "commendable act", "encomia" ]
+    MaFCaL |< aT              `noun`    {- maHomadap -}        [ unwords [ "commendable", "act" ], "encomia" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma.hAmid Ndip" ] -},
 
@@ -6979,7 +6979,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muHam~adiy~_1
     -- mHmdy   muHam~adiy~     Nall    of or relating to Muhammad     [[muHam~adiy~/ADJ]]
 
-    MuFaCCaL |< Iy            `adj`     {- muHam~adiy~ -}      [ "of or relating to Muhammad" ] ]
+    MuFaCCaL |< Iy            `adj`     {- muHam~adiy~ -}      [ unwords [ "of", "or", "relating", "to", "Muhammad" ] ] ]
 
  |> ".h m d l" <| [
 
@@ -6987,12 +6987,12 @@ lexicon = listing "Lexicon's properties"
     -- Hmdl    Hamodal PV      praising God
     -- Hmdl    Hamodil IV_yu   praising God
 
-    KaRDaS                    `verb`    {- Hamodal -}          [ "praising God" ],
+    KaRDaS                    `verb`    {- Hamodal -}          [ unwords [ "praising", "God" ] ],
 
     -- ;; Hamodalap_1
     -- Hmdl    Hamodal Nap     praising God (saying "al-hamdu lillah" = "praise be to God")
 
-    KaRDaS |< aT              `noun`    {- Hamodalap -}        [ "praising God (saying \"al-hamdu lillah\" = \"praise be to God\")" ] ]
+    KaRDaS |< aT              `noun`    {- Hamodalap -}        [ unwords [ "praising", "God", "(", "saying", "\"al", "-", "hamdu", "lillah\"", "=", "\"praise", "be", "to", "God\"", ")" ] ] ]
 
  |> ".h m d n" <| [
 
@@ -7021,13 +7021,13 @@ lexicon = listing "Lexicon's properties"
     -- Hml     Ham~al  PV      charge (with responsibility);blame;impose;make carry
     -- Hml     Ham~il  IV_yu   charge (with responsibility);blame;impose;make carry
 
-    FaCCaL                    `verb`    {- Ham~al -}           [ "charge (with responsibility)", "blame", "impose", "make carry" ],
+    FaCCaL                    `verb`    {- Ham~al -}           [ unwords [ "charge", "(", "with", "responsibility", ")" ], "blame", "impose", unwords [ "make", "carry" ] ],
 
     -- ;; taHam~al_1
     -- tHml    taHam~al        PV      assume;bear (reponsibility)
     -- tHml    taHam~al        IV      assume;bear (reponsibility)
 
-    TaFaCCaL                  `verb`    {- taHam~al -}         [ "assume", "bear (reponsibility)" ],
+    TaFaCCaL                  `verb`    {- taHam~al -}         [ "assume", unwords [ "bear", "(", "reponsibility", ")" ] ],
 
     -- ;; taHAmal_1
     -- tHAml   taHAmal PV      mistreat
@@ -7040,7 +7040,7 @@ lexicon = listing "Lexicon's properties"
     -- AHtml   {iHotamal       PV      tolerate;expect;be likely
     -- Html    Hotamil IV      tolerate;expect;be likely
 
-    IFtaCaL                   `verb`    {- AiHotamal -}        [ "tolerate", "expect", "be likely" ],
+    IFtaCaL                   `verb`    {- AiHotamal -}        [ "tolerate", "expect", unwords [ "be", "likely" ] ],
 
     -- ;; Hamol_1
     -- Hml     Hamol   N       carrying
@@ -7096,13 +7096,13 @@ lexicon = listing "Lexicon's properties"
     -- ;; Humuwlap_1
     -- Hmwl    Humuwl  NapAt   tonnage;load capacity
 
-    FuCUL |< aT               `noun`    {- Humuwlap -}         [ "tonnage", "load capacity" ],
+    FuCUL |< aT               `noun`    {- Humuwlap -}         [ "tonnage", unwords [ "load", "capacity" ] ],
 
     -- ;; >aHomal_1
     -- >Hml    >aHomal Nel     more/most tolerant
     -- AHml    >aHomal Nel     more/most tolerant
 
-    HaFCaL                    `noun`    {- OaHomal -}          [ "more/most tolerant" ],
+    HaFCaL                    `noun`    {- OaHomal -}          [ unwords [ "more", "/", "most", "tolerant" ] ],
 
     -- ;; maHomal_1
     -- mHml    maHomal Ndu     bearing
@@ -7176,7 +7176,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; maHomuwl_1
     -- mHmwl   maHomuwl        N-ap    mobile (phone);carried
 
-    MaFCUL                    `noun`    {- maHomuwl -}         [ "mobile (phone)", "carried" ],
+    MaFCUL                    `noun`    {- maHomuwl -}         [ unwords [ "mobile", "(", "phone", ")" ], "carried" ],
 
     -- ;; maHomuwl_2
     -- mHmwl   maHomuwl        Nall    tolerable
@@ -7220,7 +7220,7 @@ lexicon = listing "Lexicon's properties"
     -- Hm      Hum~    IV_V    make hot;be fated
     -- Hmm     Homum   IV_C    make hot;be fated
 
-    FaCL                      `verb`    {- Ham~-u -}           [ "make hot", "be fated" ]
+    FaCL                      `verb`    {- Ham~-u -}           [ unwords [ "make", "hot" ], unwords [ "be", "fated" ] ]
                               `imperf`     FuCL
                               `pfirst`     FaCaL,
 
@@ -7230,7 +7230,7 @@ lexicon = listing "Lexicon's properties"
     -- Hm      Hum~    IV_V_intr       be feverish;have a fever
     -- Hmm     Homum   IV_C_intr       be feverish;have a fever
 
-    FaCL                      `verb`    {- Ham~-u -}           [ "be feverish", "have a fever" ]
+    FaCL                      `verb`    {- Ham~-u -}           [ unwords [ "be", "feverish" ], unwords [ "have", "a", "fever" ] ]
                               `imperf`     FuCL
                               `pfirst`     FaCaL,
 
@@ -7238,7 +7238,7 @@ lexicon = listing "Lexicon's properties"
     -- Hmm     Ham~am  PV      make hot;wash
     -- Hmm     Ham~im  IV_yu   make hot;wash
 
-    FaCCaL                    `verb`    {- Ham~am -}           [ "make hot", "wash" ],
+    FaCCaL                    `verb`    {- Ham~am -}           [ unwords [ "make", "hot" ], "wash" ],
 
     -- ;; >aHam~_1
     -- >Hm     >aHam~  PV_V    make hot
@@ -7249,7 +7249,7 @@ lexicon = listing "Lexicon's properties"
     -- Hmm     Homim   IV_C_yu make hot
     -- Hm      Ham~    IV_V_Pass_yu    be made hot
 
-    HaFaCL                    `verb`    {- OaHam~ -}           [ "make hot", "be made hot" ],
+    HaFaCL                    `verb`    {- OaHam~ -}           [ unwords [ "make", "hot" ], unwords [ "be", "made", "hot" ] ],
 
     -- ;; {isotaHam~_1
     -- <stHm   {isotaHam~      PV_V    bathe
@@ -7264,7 +7264,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Ham~ap_1
     -- Hm      Ham~    Napdu   hot spring
 
-    FaCL |< aT                `noun`    {- Ham~ap -}           [ "hot spring" ],
+    FaCL |< aT                `noun`    {- Ham~ap -}           [ unwords [ "hot", "spring" ] ],
 
     -- ;; Hum~ap_1
     -- Hm      Hum~    Nap     fever
@@ -7315,7 +7315,7 @@ lexicon = listing "Lexicon's properties"
     -- >HmA}   >aHim~A}        Nhy     close friends;intimates
     -- AHmA}   >aHim~A}        Nhy     close friends;intimates
 
-    FaCIL                     `noun`    {- Hamiym -}           [ "close friend", "intimate" ],
+    FaCIL                     `noun`    {- Hamiym -}           [ unwords [ "close", "friend" ], "intimate" ],
 
     -- ;; >aHam~_2
     -- >Hm     >aHam~  Nel     black
@@ -7364,7 +7364,7 @@ lexicon = listing "Lexicon's properties"
     -- >HmA}   >aHomA} Nhy     fathers-in-law
     -- AHmA}   >aHomA} Nhy     fathers-in-law
 
-    FaL                       `pron`    {- Ham -}              [ "father-in-law", "father-in-law + my", "father-in-law of", "fathers-in-law" ]
+    FaL                       `pron`    {- Ham -}              [ unwords [ "father", "-", "in", "-", "law" ], unwords [ "father", "-", "in", "-", "law", "+", "my" ], unwords [ "father", "-", "in", "-", "law", "of" ], unwords [ "fathers", "-", "in", "-", "law" ] ]
                               `plural`     FaCA
                               `plural`     FaCU
                               `plural`     FaCI
@@ -7383,7 +7383,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hamawiy~_1
     -- Hmwy    Hamawiy~        Nall    from/of Hama     [[Hamawiy~/ADJ]]
 
-    FaL |<< "awIy"            `adj`     {- Hamawiy~ -}         [ "from/of Hama" ] ]
+    FaL |<< "awIy"            `adj`     {- Hamawiy~ -}         [ unwords [ "from", "/", "of", "Hama" ] ] ]
 
  |> ".h m q" <| [
 
@@ -7391,21 +7391,21 @@ lexicon = listing "Lexicon's properties"
     -- Hmq     Hamiq   PV_intr be stupid
     -- Hmq     Homaq   IV_intr be stupid
 
-    FaCiL                     `verb`    {- Hamiq-a -}          [ "be stupid" ]
+    FaCiL                     `verb`    {- Hamiq-a -}          [ unwords [ "be", "stupid" ] ]
                               `imperf`     FCaL,
 
     -- ;; Hamuq-u_1
     -- Hmq     Hamuq   PV_intr be stupid
     -- Hmq     Homuq   IV_intr be stupid
 
-    FaCuL                     `verb`    {- Hamuq-u -}          [ "be stupid" ]
+    FaCuL                     `verb`    {- Hamuq-u -}          [ unwords [ "be", "stupid" ] ]
                               `imperf`     FCuL,
 
     -- ;; Ham~aq_1
     -- Hmq     Ham~aq  PV      regard as stupid
     -- Hmq     Ham~iq  IV_yu   regard as stupid
 
-    FaCCaL                    `verb`    {- Ham~aq -}           [ "regard as stupid" ],
+    FaCCaL                    `verb`    {- Ham~aq -}           [ unwords [ "regard", "as", "stupid" ] ],
 
     -- ;; >aHomaq_1
     -- >Hmq    >aHomaq PV      regard as stupid
@@ -7413,27 +7413,27 @@ lexicon = listing "Lexicon's properties"
     -- Hmq     Homiq   IV_yu   regard as stupid
     -- Hmq     Homaq   IV_Pass_yu      be regarded as stupid
 
-    HaFCaL                    `verb`    {- OaHomaq -}          [ "regard as stupid", "be regarded as stupid" ],
+    HaFCaL                    `verb`    {- OaHomaq -}          [ unwords [ "regard", "as", "stupid" ], unwords [ "be", "regarded", "as", "stupid" ] ],
 
     -- ;; taHAmaq_1
     -- tHAmq   taHAmaq PV      feign stupidity
     -- tHAmq   taHAmaq IV      feign stupidity
 
-    TaFACaL                   `verb`    {- taHAmaq -}          [ "feign stupidity" ],
+    TaFACaL                   `verb`    {- taHAmaq -}          [ unwords [ "feign", "stupidity" ] ],
 
     -- ;; {inoHamaq_1
     -- <nHmq   {inoHamaq       PV_intr become angry
     -- AnHmq   {inoHamaq       PV_intr become angry
     -- nHmq    noHamiq IV_intr become angry
 
-    InFaCaL                   `verb`    {- AinoHamaq -}        [ "become angry" ],
+    InFaCaL                   `verb`    {- AinoHamaq -}        [ unwords [ "become", "angry" ] ],
 
     -- ;; {isotaHomaq_1
     -- <stHmq  {isotaHomaq     PV      regard as stupid
     -- AstHmq  {isotaHomaq     PV      regard as stupid
     -- stHmq   sotaHomiq       IV      regard as stupid
 
-    IstaFCaL                  `verb`    {- AisotaHomaq -}      [ "regard as stupid" ],
+    IstaFCaL                  `verb`    {- AisotaHomaq -}      [ unwords [ "regard", "as", "stupid" ] ],
 
     -- ;; Humoq_1
     -- Hmq     Humoq   N       stupidity
@@ -7481,7 +7481,7 @@ lexicon = listing "Lexicon's properties"
     -- Hmr     Homar~  IV_V    turn red;blush
     -- Hmrr    Homarir IV_C    turn red;blush
 
-    IFCaLL                    `verb`    {- AiHomar~ -}         [ "turn red", "blush" ],
+    IFCaLL                    `verb`    {- AiHomar~ -}         [ unwords [ "turn", "red" ], "blush" ],
 
     -- ;; Humar_1
     -- Hmr     Humar   N       asphalt
@@ -7515,7 +7515,7 @@ lexicon = listing "Lexicon's properties"
     -- HmAr    HimAr   Napdu   she-ass
     -- HmA}r   HamA}ir Ndip    she-asses
 
-    FiCAL |< aT               `noun`    {- HimArap -}          [ "she-ass" ],
+    FiCAL |< aT               `noun`    {- HimArap -}          [ unwords [ "she", "-", "ass" ] ],
 
     -- ;; Humuwr_1
     -- Hmwr    Humuwr  N       redness
@@ -7531,7 +7531,7 @@ lexicon = listing "Lexicon's properties"
     -- HmAr    Ham~Ar  Ndu     donkey driver
     -- HmAr    Ham~Ar  Nap     donkey drivers
 
-    FaCCAL                    `noun`    {- Ham~Ar -}           [ "donkey driver" ],
+    FaCCAL                    `noun`    {- Ham~Ar -}           [ unwords [ "donkey", "driver" ] ],
 
     -- ;; >aHomar_1
     -- >Hmr    >aHomar Nel     red
@@ -7582,20 +7582,20 @@ lexicon = listing "Lexicon's properties"
     -- Hms     Hamis   PV_intr be enthusiastic;be zealous
     -- Hms     Homas   IV_intr be enthusiastic;be zealous
 
-    FaCiL                     `verb`    {- Hamis-a -}          [ "be enthusiastic", "be zealous" ]
+    FaCiL                     `verb`    {- Hamis-a -}          [ unwords [ "be", "enthusiastic" ], unwords [ "be", "zealous" ] ]
                               `imperf`     FCaL,
 
     -- ;; Ham~as_1
     -- Hms     Ham~as  PV      make enthusiastic
     -- Hms     Ham~is  IV_yu   make enthusiastic
 
-    FaCCaL                    `verb`    {- Ham~as -}           [ "make enthusiastic" ],
+    FaCCaL                    `verb`    {- Ham~as -}           [ unwords [ "make", "enthusiastic" ] ],
 
     -- ;; taHam~as_1
     -- tHms    taHam~as        PV_intr be enthusiastic;be overzealous
     -- tHms    taHam~as        IV_intr be enthusiastic;be overzealous
 
-    TaFaCCaL                  `verb`    {- taHam~as -}         [ "be enthusiastic", "be overzealous" ],
+    TaFaCCaL                  `verb`    {- taHam~as -}         [ unwords [ "be", "enthusiastic" ], unwords [ "be", "overzealous" ] ],
 
     -- ;; Hamis_1
     -- Hms     Hamis   N/ap    enthusiastic;lively
@@ -7661,7 +7661,7 @@ lexicon = listing "Lexicon's properties"
     -- >HmA}   >aHomA} Nhy     fathers-in-law
     -- AHmA}   >aHomA} Nhy     fathers-in-law
 
-    FaC                       `pron`    {- Ham -}              [ "father-in-law", "father-in-law + my", "father-in-law of", "fathers-in-law" ]
+    FaC                       `pron`    {- Ham -}              [ unwords [ "father", "-", "in", "-", "law" ], unwords [ "father", "-", "in", "-", "law", "+", "my" ], unwords [ "father", "-", "in", "-", "law", "of" ], unwords [ "fathers", "-", "in", "-", "law" ] ]
                               `plural`     FaCA
                               `plural`     FaCU
                               `plural`     FaCI
@@ -7672,7 +7672,7 @@ lexicon = listing "Lexicon's properties"
     -- HmA     HamA    Napdu   mother-in-law
     -- Hmw     Hamaw   NAt     mothers-in-law
 
-    FaCY |< aT                `noun`    {- HamAp -}            [ "mother-in-law", "mothers-in-law" ]
+    FaCY |< aT                `noun`    {- HamAp -}            [ unwords [ "mother", "-", "in", "-", "law" ], unwords [ "mothers", "-", "in", "-", "law" ] ]
                               `plural`     FaCaL |< At,
 
     -- ;; Hamow_1
@@ -7705,7 +7705,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hamawiy~_1
     -- Hmwy    Hamawiy~        Nall    from/of Hama     [[Hamawiy~/ADJ]]
 
-    FaC |<< "awIy"            `adj`     {- Hamawiy~ -}         [ "from/of Hama" ] ]
+    FaC |<< "awIy"            `adj`     {- Hamawiy~ -}         [ unwords [ "from", "/", "of", "Hama" ] ] ]
 
  |> ".h m y" <| [
 
@@ -7716,7 +7716,7 @@ lexicon = listing "Lexicon's properties"
     -- Hmy     Homay   IV_Ann  glow;flare up
     -- Hm      Homa    IV_0hwnyn       glow;flare up
 
-    FaCI                      `verb`    {- Hamiy-a -}          [ "glow", "flare up" ]
+    FaCI                      `verb`    {- Hamiy-a -}          [ "glow", unwords [ "flare", "up" ] ]
                               `imperf`     FCY,
 
     -- ;; HamaY-i_1
@@ -7742,7 +7742,7 @@ lexicon = listing "Lexicon's properties"
     -- HmY     Ham~aY  IV_0_Pass_yu    be heated;be kindled
     -- Hmy     Ham~ay  IV_Ann_Pass_yu  be heated;be kindled
 
-    FaCCY                     `verb`    {- Ham~aY -}           [ "make hot", "kindle", "be heated" ],
+    FaCCY                     `verb`    {- Ham~aY -}           [ unwords [ "make", "hot" ], "kindle", unwords [ "be", "heated" ] ],
 
     -- ;; HAmaY_1
     -- HAmY    HAmaY   PV_0    defend;advocate
@@ -7770,7 +7770,7 @@ lexicon = listing "Lexicon's properties"
     -- HmY     HomaY   IV_0_Pass_yu    be made hot;be kindled
     -- Hmy     Homay   IV_Ann_Pass_yu  be made hot;be kindled
 
-    HaFCY                     `verb`    {- OaHomaY -}          [ "make hot", "kindle", "be made hot" ],
+    HaFCY                     `verb`    {- OaHomaY -}          [ unwords [ "make", "hot" ], "kindle", unwords [ "be", "made", "hot" ] ],
 
     -- ;; taHAmaY_1
     -- tHAmY   taHAmaY PV_0    shun;avoid
@@ -7797,7 +7797,7 @@ lexicon = listing "Lexicon's properties"
     -- Htm     Hotam   IV_0hwnyn       take refuge
     -- HtmY    HotamaY IV_0    take refuge
 
-    IFtaCY                    `verb`    {- AiHotamaY -}        [ "take refuge" ],
+    IFtaCY                    `verb`    {- AiHotamaY -}        [ unwords [ "take", "refuge" ] ],
 
     -- ;; HimaY_1
     -- HmY     HimaY   N0      protection
@@ -7853,7 +7853,7 @@ lexicon = listing "Lexicon's properties"
     -- <HtmA'  {iHotimA'       NAt     seeking cover;shelters
     -- AHtmA'  {iHotimA'       NAt     seeking cover;shelters
 
-    IFtiCA'                   `noun`    {- AiHotimA' -}        [ "seeking cover", "shelter" ]
+    IFtiCA'                   `noun`    {- AiHotimA' -}        [ unwords [ "seeking", "cover" ], "shelter" ]
                               `plural`     IFtiCA' |< At,
 
     -- ;; HAmiy_1
@@ -7895,7 +7895,7 @@ lexicon = listing "Lexicon's properties"
     -- mHAm    muHAm   Nuwn_Niyn       lawyers;defense counsel
     -- mHAmy   muHAmiy NapAt   lawyer;defense counsel
 
-    MuFACI                    `noun`    {- muHAmiy -}          [ "lawyer", "defense counsel" ]
+    MuFACI                    `noun`    {- muHAmiy -}          [ "lawyer", unwords [ "defense", "counsel" ] ]
                               `plural`     MuFACI |< At,
 
     -- ;; muHotamiy_1
@@ -7935,7 +7935,7 @@ lexicon = listing "Lexicon's properties"
     -- Hn&     Han~a&  PV_w    dye red
     -- Hn}     Han~i}  IV_yu   dye red
 
-    FaCCaL                    `verb`    {- Han~aO -}           [ "dye red" ],
+    FaCCaL                    `verb`    {- Han~aO -}           [ unwords [ "dye", "red" ] ],
 
     -- ;; Hin~A'_1
     -- HnA'    Hin~A'  N0_Nh   henna
@@ -7984,7 +7984,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HinoTiy~_1
     -- HnTy    HinoTiy~        Nall    wheat-colored;tanned     [[HinoTiy~/ADJ]]
 
-    FiCL |< Iy                `adj`     {- HinoTiy~ -}         [ "wheat-colored", "tanned" ],
+    FiCL |< Iy                `adj`     {- HinoTiy~ -}         [ unwords [ "wheat", "-", "colored" ], "tanned" ],
 
     -- ;; HinATap_1
     -- HnAT    HinAT   Nap     embalming
@@ -8009,7 +8009,7 @@ lexicon = listing "Lexicon's properties"
     -- HnTwr   HanoTuwr        Napdu   hantour (covered horse carriage)
     -- HnATyr  HanATiyr        Ndip    hantours (covered horse carriages)
 
-    KaRDUS                    `noun`    {- HanoTuwr -}         [ "hantour (covered horse carriage)", "hantours (covered horse carriages)" ]
+    KaRDUS                    `noun`    {- HanoTuwr -}         [ unwords [ "hantour", "(", "covered", "horse", "carriage", ")" ], unwords [ "hantours", "(", "covered", "horse", "carriages", ")" ] ]
                               `plural`     KaRADIS
                            {- `others`  [ ".hanA.tiyr Ndip" ] -} ]
 
@@ -8077,7 +8077,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HanA$At_1
     -- HnA$At  HanA$At N0      Hanashat ??
 
-    FaCAL |< At               `noun`    {- HanA$At -}          [ "Hanashat ??" ] ]
+    FaCAL |< At               `noun`    {- HanA$At -}          [ unwords [ "Hanashat", "?", "?" ] ] ]
 
  |> ".h n _t" <| [
 
@@ -8085,14 +8085,14 @@ lexicon = listing "Lexicon's properties"
     -- Hnv     Haniv   PV      perjure;break oath
     -- Hnv     Honav   IV      perjure;break oath
 
-    FaCiL                     `verb`    {- Haniv-a -}          [ "perjure", "break oath" ]
+    FaCiL                     `verb`    {- Haniv-a -}          [ "perjure", unwords [ "break", "oath" ] ]
                               `imperf`     FCaL,
 
     -- ;; taHan~av_1
     -- tHnv    taHan~av        PV_intr be pious
     -- tHnv    taHan~av        IV_intr be pious
 
-    TaFaCCaL                  `verb`    {- taHan~av -}         [ "be pious" ],
+    TaFaCCaL                  `verb`    {- taHan~av -}         [ unwords [ "be", "pious" ] ],
 
     -- ;; Hinov_1
     -- Hnv     Hinov   N       perjury;sin
@@ -8109,7 +8109,7 @@ lexicon = listing "Lexicon's properties"
     -- HAnb    HAnib   Napdu   hamba (palace gendarme)
     -- HwAnb   HawAnib Ndip    hamba (palace gendarme)
 
-    FACiL |< aT               `noun`    {- HAnibap -}          [ "hamba (palace gendarme)" ]
+    FACiL |< aT               `noun`    {- HAnibap -}          [ unwords [ "hamba", "(", "palace", "gendarme", ")" ] ]
                               `plural`     FawACiL
                            {- `others`  [ ".hawAnib Ndip" ] -} ]
 
@@ -8134,7 +8134,7 @@ lexicon = listing "Lexicon's properties"
     -- Hnds    Hinodis Ndu     dark night
     -- HnAds   HanAdis Ndip    dark nights
 
-    KiRDiS                    `noun`    {- Hinodis -}          [ "dark night" ]
+    KiRDiS                    `noun`    {- Hinodis -}          [ unwords [ "dark", "night" ] ]
                               `plural`     KaRADiS
                            {- `others`  [ ".hanAdis Ndip" ] -} ]
 
@@ -8144,7 +8144,7 @@ lexicon = listing "Lexicon's properties"
     -- Hnf     Hanaf   PV      turn sideways;bend sideways
     -- Hnf     Honif   IV      turn sideways;bend sideways
 
-    FaCaL                     `verb`    {- Hanaf-i -}          [ "turn sideways", "bend sideways" ]
+    FaCaL                     `verb`    {- Hanaf-i -}          [ unwords [ "turn", "sideways" ], unwords [ "bend", "sideways" ] ]
                               `imperf`     FCiL,
 
     -- ;; Haniyf_1
@@ -8197,7 +8197,7 @@ lexicon = listing "Lexicon's properties"
     -- Hnk     Honik   IV      sophisticate;make experienced;make world-wise
     -- Hnk     Honuk   IV      sophisticate;make experienced;make world-wise
 
-    FaCaL                     `verb`    {- Hanak-iu -}         [ "sophisticate", "make experienced", "make world-wise" ]
+    FaCaL                     `verb`    {- Hanak-iu -}         [ "sophisticate", unwords [ "make", "experienced" ], unwords [ "make", "world", "-", "wise" ] ]
                               `imperf`     FCiL
                               `imperf`     FCuL,
 
@@ -8205,14 +8205,14 @@ lexicon = listing "Lexicon's properties"
     -- Hnk     Han~ak  PV      sophisticate;make experienced;make world-wise
     -- Hnk     Han~ik  IV_yu   sophisticate;make experienced;make world-wise
 
-    FaCCaL                    `verb`    {- Han~ak -}           [ "sophisticate", "make experienced", "make world-wise" ],
+    FaCCaL                    `verb`    {- Han~ak -}           [ "sophisticate", unwords [ "make", "experienced" ], unwords [ "make", "world", "-", "wise" ] ],
 
     -- ;; >aHonak_1
     -- >Hnk    >aHonak PV      sophisticate;make experienced;make world-wise
     -- AHnk    >aHonak PV      sophisticate;make experienced;make world-wise
     -- Hnk     Honik   IV_yu   sophisticate;make experienced;make world-wise
 
-    HaFCaL                    `verb`    {- OaHonak -}          [ "sophisticate", "make experienced", "make world-wise" ],
+    HaFCaL                    `verb`    {- OaHonak -}          [ "sophisticate", unwords [ "make", "experienced" ], unwords [ "make", "world", "-", "wise" ] ],
 
     -- ;; Hanak_1
     -- Hnk     Hanak   N       palate
@@ -8249,13 +8249,13 @@ lexicon = listing "Lexicon's properties"
     -- Hnn     Han~an  PV-n    move;evoke compassion
     -- Hnn     Han~in  IV-n_yu move;evoke compassion
 
-    FaCCaL                    `verb`    {- Han~an -}           [ "move", "evoke compassion" ],
+    FaCCaL                    `verb`    {- Han~an -}           [ "move", unwords [ "evoke", "compassion" ] ],
 
     -- ;; taHan~an_1
     -- tHnn    taHan~an        PV-n    commiserate;be affectionate
     -- tHnn    taHan~an        IV-n    commiserate;be affectionate
 
-    TaFaCCaL                  `verb`    {- taHan~an -}         [ "commiserate", "be affectionate" ],
+    TaFaCCaL                  `verb`    {- taHan~an -}         [ "commiserate", unwords [ "be", "affectionate" ] ],
 
     -- ;; Han~ap_1
     -- Hn      Han~    Nap     sympathy;advantage
@@ -8299,7 +8299,7 @@ lexicon = listing "Lexicon's properties"
     -- Hnq     Haniq   PV_intr be furious;be annoyed
     -- Hnq     Honaq   IV_intr be furious;be annoyed
 
-    FaCiL                     `verb`    {- Haniq-a -}          [ "be furious", "be annoyed" ]
+    FaCiL                     `verb`    {- Haniq-a -}          [ unwords [ "be", "furious" ], unwords [ "be", "annoyed" ] ]
                               `imperf`     FCaL,
 
     -- ;; >aHonaq_1
@@ -8348,7 +8348,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HAnuwtiy~_1
     -- HAnwty  HAnuwtiy~       Nall    shop keeper;undertaker     [[HAnuwtiy~/ADJ]]
 
-    FACUL |< Iy               `adj`     {- HAnuwtiy~ -}        [ "shop keeper", "undertaker" ],
+    FACUL |< Iy               `adj`     {- HAnuwtiy~ -}        [ unwords [ "shop", "keeper" ], "undertaker" ],
 
     -- ;; HAnuwtiy~_2
     -- HAnwty  HAnuwtiy~       N0      Hanouti
@@ -8484,7 +8484,7 @@ lexicon = listing "Lexicon's properties"
     -- AHtqb   {iHotaqab       PV      put in a bag
     -- Htqb    Hotaqib IV      put in a bag
 
-    IFtaCaL                   `verb`    {- AiHotaqab -}        [ "put in a bag" ],
+    IFtaCaL                   `verb`    {- AiHotaqab -}        [ unwords [ "put", "in", "a", "bag" ] ],
 
     -- ;; Huqob_1
     -- Hqb     Huqob   N       long period
@@ -8493,7 +8493,7 @@ lexicon = listing "Lexicon's properties"
     -- HqAb    HiqAb   N       long periods
     -- Hqb     Hiqob   NapAt   long period
 
-    FuCL                      `noun`    {- Huqob -}            [ "long period" ]
+    FuCL                      `noun`    {- Huqob -}            [ unwords [ "long", "period" ] ]
                               `plural`     FiCL |< At
                               `plural`     FiCAL
                               `plural`     HaFCAL
@@ -8539,7 +8539,7 @@ lexicon = listing "Lexicon's properties"
     -- tHAqd   taHAqad PV      hate one another
     -- tHAqd   taHAqad IV      hate one another
 
-    TaFACaL                   `verb`    {- taHAqad -}          [ "hate one another" ],
+    TaFACaL                   `verb`    {- taHAqad -}          [ unwords [ "hate", "one", "another" ] ],
 
     -- ;; Hiqod_1
     -- Hqd     Hiqod   N       malice;resentment
@@ -8588,7 +8588,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muHAqalap_1
     -- mHAql   muHAqal NapAt   grain selling
 
-    MuFACaL |< aT             `noun`    {- muHAqalap -}        [ "grain selling" ] ]
+    MuFACaL |< aT             `noun`    {- muHAqalap -}        [ unwords [ "grain", "selling" ] ] ]
 
  |> ".h q n" <| [
 
@@ -8616,7 +8616,7 @@ lexicon = listing "Lexicon's properties"
     -- AHtqn   {iHotaqan       PV-n_intr       be congested;be flushed
     -- Htqn    Hotaqin IV-n_intr       be congested;be flushed
 
-    IFtaCaL                   `verb`    {- AiHotaqan -}        [ "be congested", "be flushed" ],
+    IFtaCaL                   `verb`    {- AiHotaqan -}        [ unwords [ "be", "congested" ], unwords [ "be", "flushed" ] ],
 
     -- ;; Haqon_1
     -- Hqn     Haqon   N       retention;injection
@@ -8661,7 +8661,7 @@ lexicon = listing "Lexicon's properties"
     -- Hq      Huq~    IV_V_intr       be correct;be right
     -- Hqq     Hoquq   IV_C_intr       be correct;be right
 
-    FaCL                      `verb`    {- Haq~-iu -}          [ "be correct", "be right" ]
+    FaCL                      `verb`    {- Haq~-iu -}          [ unwords [ "be", "correct" ], unwords [ "be", "right" ] ]
                               `imperf`     FuCL
                               `imperf`     FiCL
                               `pfirst`     FaCaL,
@@ -8679,7 +8679,7 @@ lexicon = listing "Lexicon's properties"
     -- HAq     HAq~    IV_V_yu contest a right;litigate
     -- HAqq    HAqiq   IV_C_yu contest a right;litigate
 
-    FACL                      `verb`    {- HAq~ -}             [ "contest a right", "litigate" ],
+    FACL                      `verb`    {- HAq~ -}             [ unwords [ "contest", "a", "right" ], "litigate" ],
 
     -- ;; >aHaq~_1
     -- >Hq     >aHaq~  PV_V_intr       be right;be allowed
@@ -8689,7 +8689,7 @@ lexicon = listing "Lexicon's properties"
     -- Hq      Hiq~    IV_V_intr_yu    be right;be allowed
     -- Hqq     Hoqiq   IV_C_intr_yu    be right;be allowed
 
-    HaFaCL                    `verb`    {- OaHaq~ -}           [ "be right", "be allowed" ],
+    HaFaCL                    `verb`    {- OaHaq~ -}           [ unwords [ "be", "right" ], unwords [ "be", "allowed" ] ],
 
     -- ;; >aHaq~_2
     -- >Hq     >aHaq~  PV_V    enforce;make right
@@ -8699,13 +8699,13 @@ lexicon = listing "Lexicon's properties"
     -- Hq      Hiq~    IV_V_yu enforce;make right
     -- Hqq     Hoqiq   IV_C_yu enforce;make right
 
-    HaFaCL                    `verb`    {- OaHaq~ -}           [ "enforce", "make right" ],
+    HaFaCL                    `verb`    {- OaHaq~ -}           [ "enforce", unwords [ "make", "right" ] ],
 
     -- ;; taHaq~aq_1
     -- tHqq    taHaq~aq        PV      materialize;be realized
     -- tHqq    taHaq~aq        IV      materialize;be realized
 
-    TaFaCCaL                  `verb`    {- taHaq~aq -}         [ "materialize", "be realized" ],
+    TaFaCCaL                  `verb`    {- taHaq~aq -}         [ "materialize", unwords [ "be", "realized" ] ],
 
     -- ;; {isotaHaq~_1
     -- <stHq   {isotaHaq~      PV_V    deserve;merit
@@ -8740,7 +8740,7 @@ lexicon = listing "Lexicon's properties"
     -- >HqAq   >aHoqAq N       small boxes;containers
     -- AHqAq   >aHoqAq N       small boxes;containers
 
-    FuCL |< aT                `noun`    {- Huq~ap -}           [ "small box", "container" ]
+    FuCL |< aT                `noun`    {- Huq~ap -}           [ unwords [ "small", "box" ], "container" ]
                               `plural`     FiCAL
                               `plural`     HaFCAL
                            {- `others`  [ ".hiqAq N", "'a.hqAq N" ] -},
@@ -8775,7 +8775,7 @@ lexicon = listing "Lexicon's properties"
     -- >Hq     >aHaq~  Nel     worthier/worthiest
     -- AHq     >aHaq~  Nel     worthier/worthiest
 
-    HaFaCL                    `noun`    {- OaHaq~ -}           [ "worthier/worthiest" ],
+    HaFaCL                    `noun`    {- OaHaq~ -}           [ unwords [ "worthier", "/", "worthiest" ] ],
 
     -- ;; >aHaq~iy~ap_1
     -- >Hqy    >aHaq~iy~       Nap     priority;preference     [[>aHaq~iy~/NOUN]]
@@ -8838,7 +8838,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muHiq~_1
     -- mHq     muHiq~  Nall    justified;in the right     [[muHiq~/ADJ]]
 
-    MuFiCL                    `adj`     {- muHiq~ -}           [ "justified", "in the right" ],
+    MuFiCL                    `adj`     {- muHiq~ -}           [ "justified", unwords [ "in", "the", "right" ] ],
 
     -- ;; mutaHaq~iq_1
     -- mtHqq   mutaHaq~iq      Nall    certain;convinced     [[mutaHaq~iq/ADJ]]
@@ -8863,7 +8863,7 @@ lexicon = listing "Lexicon's properties"
     -- Hqr     Haqur   PV_intr be contemptible;be despised
     -- Hqr     Hoqur   IV_intr be contemptible;be despised
 
-    FaCuL                     `verb`    {- Haqur-u -}          [ "be contemptible", "be despised" ]
+    FaCuL                     `verb`    {- Haqur-u -}          [ unwords [ "be", "contemptible" ], unwords [ "be", "despised" ] ]
                               `imperf`     FCuL,
 
     -- ;; Haq~ar_1
@@ -8900,7 +8900,7 @@ lexicon = listing "Lexicon's properties"
     -- >Hqr    >aHoqar Nel     more/most contemptible
     -- AHqr    >aHoqar Nel     more/most contemptible
 
-    HaFCaL                    `noun`    {- OaHoqar -}          [ "more/most contemptible" ],
+    HaFCaL                    `noun`    {- OaHoqar -}          [ unwords [ "more", "/", "most", "contemptible" ] ],
 
     -- ;; HaqArap_1
     -- HqAr    HaqAr   Nap     vulgarity;ignominy
@@ -8964,7 +8964,7 @@ lexicon = listing "Lexicon's properties"
     -- HrD     HaraD   PV      fail;get weak
     -- HrD     HoriD   IV      fail;get weak
 
-    FaCaL                     `verb`    {- HaraD-i -}          [ "fail", "get weak" ]
+    FaCaL                     `verb`    {- HaraD-i -}          [ "fail", unwords [ "get", "weak" ] ]
                               `imperf`     FCiL,
 
     -- ;; Har~aD_1
@@ -9005,21 +9005,21 @@ lexicon = listing "Lexicon's properties"
     -- HrS     HaraS   PV      desire;be eager
     -- HrS     HoriS   IV      desire;be eager
 
-    FaCaL                     `verb`    {- HaraS-i -}          [ "desire", "be eager" ]
+    FaCaL                     `verb`    {- HaraS-i -}          [ "desire", unwords [ "be", "eager" ] ]
                               `imperf`     FCiL,
 
     -- ;; HariS-a_1
     -- HrS     HariS   PV      desire;be eager
     -- HrS     HoraS   IV      desire;be eager
 
-    FaCiL                     `verb`    {- HariS-a -}          [ "desire", "be eager" ]
+    FaCiL                     `verb`    {- HariS-a -}          [ "desire", unwords [ "be", "eager" ] ]
                               `imperf`     FCaL,
 
     -- ;; HiroS_1
     -- HrS     HiroS   N       desire;eagerness;keenness
     -- HrS     HiroS   NF      out of concern for;desirous of     [[HiroS/ADV]]
 
-    FiCL                      `adv`     {- HiroS -}            [ "desire", "eagerness", "keenness", "out of concern for", "desirous of" ],
+    FiCL                      `adv`     {- HiroS -}            [ "desire", "eagerness", "keenness", unwords [ "out", "of", "concern", "for" ], unwords [ "desirous", "of" ] ],
 
     -- ;; HariyS_1
     -- HryS    HariyS  Nall    eager;desirous     [[HariyS/ADJ]]
@@ -9032,14 +9032,14 @@ lexicon = listing "Lexicon's properties"
     -- Hrj     Harij   PV_intr be oppressed;be tight;be forbidden
     -- Hrj     Horaj   IV_intr be oppressed;be tight;be forbidden
 
-    FaCiL                     `verb`    {- Harij-a -}          [ "be oppressed", "be tight", "be forbidden" ]
+    FaCiL                     `verb`    {- Harij-a -}          [ unwords [ "be", "oppressed" ], unwords [ "be", "tight" ], unwords [ "be", "forbidden" ] ]
                               `imperf`     FCaL,
 
     -- ;; Har~aj_1
     -- Hrj     Har~aj  PV      narrow;make difficult;forbid
     -- Hrj     Har~ij  IV_yu   narrow;make difficult;forbid
 
-    FaCCaL                    `verb`    {- Har~aj -}           [ "narrow", "make difficult", "forbid" ],
+    FaCCaL                    `verb`    {- Har~aj -}           [ "narrow", unwords [ "make", "difficult" ], "forbid" ],
 
     -- ;; >aHoraj_1
     -- >Hrj    >aHoraj PV      embarrass;confine;complicate
@@ -9053,7 +9053,7 @@ lexicon = listing "Lexicon's properties"
     -- tHrj    taHar~aj        PV      refrain;be cornered;become difficult
     -- tHrj    taHar~aj        IV      refrain;be cornered;become difficult
 
-    TaFaCCaL                  `verb`    {- taHar~aj -}         [ "refrain", "be cornered", "become difficult" ],
+    TaFaCCaL                  `verb`    {- taHar~aj -}         [ "refrain", unwords [ "be", "cornered" ], unwords [ "become", "difficult" ] ],
 
     -- ;; Haraj_1
     -- Hrj     Haraj   N       impediment;difficulty
@@ -9080,7 +9080,7 @@ lexicon = listing "Lexicon's properties"
     -- >Hrj    >aHoraj Nel     narrower/narrowest;more/most critical
     -- AHrj    >aHoraj Nel     narrower/narrowest;more/most critical
 
-    HaFCaL                    `noun`    {- OaHoraj -}          [ "narrower/narrowest", "more/most critical" ],
+    HaFCaL                    `noun`    {- OaHoraj -}          [ unwords [ "narrower", "/", "narrowest" ], unwords [ "more", "/", "most", "critical" ] ],
 
     -- ;; HarAj_1
     -- HrAj    HarAj   N       auction
@@ -9266,13 +9266,13 @@ lexicon = listing "Lexicon's properties"
     -- HArb    HArab   PV      fight;wage war
     -- HArb    HArib   IV_yu   fight;wage war
 
-    FACaL                     `verb`    {- HArab -}            [ "fight", "wage war" ],
+    FACaL                     `verb`    {- HArab -}            [ "fight", unwords [ "wage", "war" ] ],
 
     -- ;; taHArab_1
     -- tHArb   taHArab PV      fight;wage war
     -- tHArb   taHArab IV      fight;wage war
 
-    TaFACaL                   `verb`    {- taHArab -}          [ "fight", "wage war" ],
+    TaFACaL                   `verb`    {- taHArab -}          [ "fight", unwords [ "wage", "war" ] ],
 
     -- ;; {iHotarab_1
     -- <Htrb   {iHotarab       PV      fight
@@ -9292,12 +9292,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; lAHarob_1
     -- lAHrb   lAHarob N_L     no war;non-belligerency
 
-    lA >| FaCL                `noun`    {- lAHarob -}          [ "no war", "non-belligerency" ],
+    lA >| FaCL                `noun`    {- lAHarob -}          [ unwords [ "no", "war" ], unwords [ "non", "-", "belligerency" ] ],
 
     -- ;; Harobiy~_1
     -- Hrby    Harobiy~        N-ap    military;war-related     [[Harobiy~/ADJ]]
 
-    FaCL |< Iy                `adj`     {- Harobiy~ -}         [ "military", "war-related" ],
+    FaCL |< Iy                `adj`     {- Harobiy~ -}         [ "military", unwords [ "war", "-", "related" ] ],
 
     -- ;; Harobap_1
     -- Hrb     Harob   Napdu   lance;bayonet
@@ -9311,14 +9311,14 @@ lexicon = listing "Lexicon's properties"
     -- mHrAb   miHorAb Ndu     mihrab (prayer niche);sanctum
     -- mHArb   maHArib Ndip    mihrabs (prayer niches);sanctums
 
-    MiFCAL                    `noun`    {- miHorAb -}          [ "mihrab (prayer niche)", "sanctum", "mihrabs (prayer niches)" ]
+    MiFCAL                    `noun`    {- miHorAb -}          [ unwords [ "mihrab", "(", "prayer", "niche", ")" ], "sanctum", unwords [ "mihrabs", "(", "prayer", "niches", ")" ] ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma.hArib Ndip" ] -},
 
     -- ;; muHArabap_1
     -- mHArb   muHArab NapAt   struggle against;combat
 
-    MuFACaL |< aT             `noun`    {- muHArabap -}        [ "struggle against", "combat" ],
+    MuFACaL |< aT             `noun`    {- muHArabap -}        [ unwords [ "struggle", "against" ], "combat" ],
 
     -- ;; muHArib_1
     -- mHArb   muHArib Nall    warrior;combatant;belligerent
@@ -9353,7 +9353,7 @@ lexicon = listing "Lexicon's properties"
     -- Hrd     Harid   PV_intr be annoyed;be angry
     -- Hrd     Horad   IV_intr be annoyed;be angry
 
-    FaCiL                     `verb`    {- Harid-a -}          [ "be annoyed", "be angry" ]
+    FaCiL                     `verb`    {- Harid-a -}          [ unwords [ "be", "annoyed" ], unwords [ "be", "angry" ] ]
                               `imperf`     FCaL,
 
     -- ;; Harad_1
@@ -9395,21 +9395,21 @@ lexicon = listing "Lexicon's properties"
     -- tHrf    taHar~af        PV      digress;be distorted
     -- tHrf    taHar~af        IV      digress;be distorted
 
-    TaFaCCaL                  `verb`    {- taHar~af -}         [ "digress", "be distorted" ],
+    TaFaCCaL                  `verb`    {- taHar~af -}         [ "digress", unwords [ "be", "distorted" ] ],
 
     -- ;; {inoHaraf_1
     -- <nHrf   {inoHaraf       PV      deviate;be corrupted
     -- AnHrf   {inoHaraf       PV      deviate;be corrupted
     -- nHrf    noHarif IV      deviate;be corrupted
 
-    InFaCaL                   `verb`    {- AinoHaraf -}        [ "deviate", "be corrupted" ],
+    InFaCaL                   `verb`    {- AinoHaraf -}        [ "deviate", unwords [ "be", "corrupted" ] ],
 
     -- ;; {iHotaraf_1
     -- <Htrf   {iHotaraf       PV      do professionally
     -- AHtrf   {iHotaraf       PV      do professionally
     -- Htrf    Hotarif IV      do professionally
 
-    IFtaCaL                   `verb`    {- AiHotaraf -}        [ "do professionally" ],
+    IFtaCaL                   `verb`    {- AiHotaraf -}        [ unwords [ "do", "professionally" ] ],
 
     -- ;; Harof_1
     -- Hrf     Harof   Ndu     letter
@@ -9429,7 +9429,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Harofiy~ap_1
     -- Hrfy    Harofiy~        Nap     literal meaning     [[Harofiy~/NOUN]]
 
-    FaCL |< Iy |< aT          `noun`    {- Harofiy~ap -}       [ "literal meaning" ],
+    FaCL |< Iy |< aT          `noun`    {- Harofiy~ap -}       [ unwords [ "literal", "meaning" ] ],
 
     -- ;; Hirofap_1
     -- Hrf     Hirof   Napdu   trade;handicraft
@@ -9524,13 +9524,13 @@ lexicon = listing "Lexicon's properties"
     -- Hrk     Har~ik  IV_yu   make move;activate;stimulate
     -- Hrk     Har~ak  IV_Pass_yu      be moved;be stimulated;be activated
 
-    FaCCaL                    `verb`    {- Har~ak -}           [ "make move", "activate", "stimulate", "be moved" ],
+    FaCCaL                    `verb`    {- Har~ak -}           [ unwords [ "make", "move" ], "activate", "stimulate", unwords [ "be", "moved" ] ],
 
     -- ;; taHar~ak_1
     -- tHrk    taHar~ak        PV      move;get moving;be set in motion
     -- tHrk    taHar~ak        IV      move;get moving;be set in motion
 
-    TaFaCCaL                  `verb`    {- taHar~ak -}         [ "move", "get moving", "be set in motion" ],
+    TaFaCCaL                  `verb`    {- taHar~ak -}         [ "move", unwords [ "get", "moving" ], unwords [ "be", "set", "in", "motion" ] ],
 
     -- ;; Harakap_1
     -- Hrk     Harak   NapAt   movement;activity;organization
@@ -9556,12 +9556,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; miHorAk_1
     -- mHrAk   miHorAk Ndu     poker;fire iron
 
-    MiFCAL                    `noun`    {- miHorAk -}          [ "poker", "fire iron" ],
+    MiFCAL                    `noun`    {- miHorAk -}          [ "poker", unwords [ "fire", "iron" ] ],
 
     -- ;; taHoriyk_1
     -- tHryk   taHoriyk        N/At    making move;stimulating;activating
 
-    TaFCIL                    `noun`    {- taHoriyk -}         [ "making move", "stimulating", "activating" ]
+    TaFCIL                    `noun`    {- taHoriyk -}         [ unwords [ "making", "move" ], "stimulating", "activating" ]
                               `plural`     TaFCIL |< At,
 
     -- ;; taHoriykiy~_1
@@ -9593,7 +9593,7 @@ lexicon = listing "Lexicon's properties"
     -- Hrk$    Haroka$ PV      stir up;agitate
     -- Hrk$    Haroki$ IV_yu   stir up;agitate
 
-    KaRDaS                    `verb`    {- Haroka$ -}          [ "stir up", "agitate" ] ]
+    KaRDaS                    `verb`    {- Haroka$ -}          [ unwords [ "stir", "up" ], "agitate" ] ]
 
  |> ".h r k _t" <| [
 
@@ -9601,7 +9601,7 @@ lexicon = listing "Lexicon's properties"
     -- Hrkv    Harokav PV      stir up;agitate
     -- Hrkv    Harokiv IV_yu   stir up;agitate
 
-    KaRDaS                    `verb`    {- Harokav -}          [ "stir up", "agitate" ] ]
+    KaRDaS                    `verb`    {- Harokav -}          [ unwords [ "stir", "up" ], "agitate" ] ]
 
  |> ".h r m" <| [
 
@@ -9609,14 +9609,14 @@ lexicon = listing "Lexicon's properties"
     -- Hrm     Harum   PV_intr be forbidden
     -- Hrm     Horum   IV_intr be forbidden
 
-    FaCuL                     `verb`    {- Harum-u -}          [ "be forbidden" ]
+    FaCuL                     `verb`    {- Harum-u -}          [ unwords [ "be", "forbidden" ] ]
                               `imperf`     FCuL,
 
     -- ;; Harim-a_1
     -- Hrm     Harim   PV_intr be forbidden
     -- Hrm     Horam   IV_intr be forbidden
 
-    FaCiL                     `verb`    {- Harim-a -}          [ "be forbidden" ]
+    FaCiL                     `verb`    {- Harim-a -}          [ unwords [ "be", "forbidden" ] ]
                               `imperf`     FCaL,
 
     -- ;; Haram-iu_1
@@ -9638,7 +9638,7 @@ lexicon = listing "Lexicon's properties"
     -- tHrm    taHar~am        PV_intr be forbidden;be sacred
     -- tHrm    taHar~am        IV_intr be forbidden;be sacred
 
-    TaFaCCaL                  `verb`    {- taHar~am -}         [ "be forbidden", "be sacred" ],
+    TaFaCCaL                  `verb`    {- taHar~am -}         [ unwords [ "be", "forbidden" ], unwords [ "be", "sacred" ] ],
 
     -- ;; {iHotaram_1
     -- <Htrm   {iHotaram       PV      respect;revere
@@ -9652,7 +9652,7 @@ lexicon = listing "Lexicon's properties"
     -- AstHrm  {isotaHoram     PV      deem sacred;deem unlawful;be in heat
     -- stHrm   sotaHorim       IV      deem sacred;deem unlawful;be in heat
 
-    IstaFCaL                  `verb`    {- AisotaHoram -}      [ "deem sacred", "deem unlawful", "be in heat" ],
+    IstaFCaL                  `verb`    {- AisotaHoram -}      [ unwords [ "deem", "sacred" ], unwords [ "deem", "unlawful" ], unwords [ "be", "in", "heat" ] ],
 
     -- ;; Haram_1
     -- Hrm     Haram   N       taboo;sacred     [[Haram/ADJ]]
@@ -9669,7 +9669,7 @@ lexicon = listing "Lexicon's properties"
     -- >HrAm   >aHorAm N       holy sites
     -- AHrAm   >aHorAm N       holy sites
 
-    FaCaL                     `noun`    {- Haram -}            [ "holy site", "campus", "Two Holy Sites (Mecca and Medina)" ]
+    FaCaL                     `noun`    {- Haram -}            [ unwords [ "holy", "site" ], "campus", unwords [ "Two", "Holy", "Sites", "(", "Mecca", "and", "Medina", ")" ] ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.hrAm N" ] -},
 
@@ -9709,7 +9709,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hariymiy~_1
     -- Hrymy   Hariymiy~       Nall    women's;harem-related     [[Hariymiy~/ADJ]]
 
-    FaCIL |< Iy               `adj`     {- Hariymiy~ -}        [ "women's", "harem-related" ],
+    FaCIL |< Iy               `adj`     {- Hariymiy~ -}        [ "women's", unwords [ "harem", "-", "related" ] ],
 
     -- ;; Huruwm_1
     -- Hrwm    Huruwm  N       excommunication
@@ -9758,7 +9758,7 @@ lexicon = listing "Lexicon's properties"
     -- <HrAm   <iHorAm NduAt   state of ritual consecration;pilgrimage garments
     -- AHrAm   <iHorAm NduAt   state of ritual consecration;pilgrimage garments
 
-    HiFCAL                    `noun`    {- IiHorAm -}          [ "state of ritual consecration", "pilgrimage garments" ]
+    HiFCAL                    `noun`    {- IiHorAm -}          [ unwords [ "state", "of", "ritual", "consecration" ], unwords [ "pilgrimage", "garments" ] ]
                               `plural`     HiFCAL |< At,
 
     -- ;; {iHotirAm_1
@@ -9767,7 +9767,7 @@ lexicon = listing "Lexicon's properties"
     -- <HtrAm  {iHotirAm       NF      out of respect for;in honor of     [[{iHotirAm/ADV]]
     -- AHtrAm  {iHotirAm       NF      out of respect for;in honor of     [[{iHotirAm/ADV]]
 
-    IFtiCAL                   `adv`     {- AiHotirAm -}        [ "respect", "honoring", "out of respect for", "in honor of" ]
+    IFtiCAL                   `adv`     {- AiHotirAm -}        [ "respect", "honoring", unwords [ "out", "of", "respect", "for" ], unwords [ "in", "honor", "of" ] ]
                               `plural`     IFtiCAL |< At,
 
     -- ;; maHoruwm_1
@@ -9783,7 +9783,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muHar~am_2
     -- mHrm    muHar~am        Ndip    Muharram (month)
 
-    MuFaCCaL                  `noun`    {- muHar~am -}         [ "Muharram (month)" ],
+    MuFaCCaL                  `noun`    {- muHar~am -}         [ unwords [ "Muharram", "(", "month", ")" ] ],
 
     -- ;; muHotaram_1
     -- mHtrm   muHotaram       Nall    esteemed;respected
@@ -9795,7 +9795,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Haromal_1
     -- Hrml    Haromal N       African rue
 
-    KaRDaS                    `noun`    {- Haromal -}          [ "African rue" ],
+    KaRDaS                    `noun`    {- Haromal -}          [ unwords [ "African", "rue" ] ],
 
     -- ;; Haromalap_1
     -- Hrml    Haromal Napdu   cape;garment
@@ -9821,14 +9821,14 @@ lexicon = listing "Lexicon's properties"
     -- Hrn     Haran   PV-n_intr       be obstinate;be headstrong;be stubborn
     -- Hrn     Horun   IV-n_intr       be obstinate;be headstrong;be stubborn
 
-    FaCaL                     `verb`    {- Haran-u -}          [ "be obstinate", "be headstrong", "be stubborn" ]
+    FaCaL                     `verb`    {- Haran-u -}          [ unwords [ "be", "obstinate" ], unwords [ "be", "headstrong" ], unwords [ "be", "stubborn" ] ]
                               `imperf`     FCuL,
 
     -- ;; Harun-u_1
     -- Hrn     Harun   PV-n_intr       be obstinate;be headstrong;be stubborn
     -- Hrn     Horun   IV-n_intr       be obstinate;be headstrong;be stubborn
 
-    FaCuL                     `verb`    {- Harun-u -}          [ "be obstinate", "be headstrong", "be stubborn" ]
+    FaCuL                     `verb`    {- Harun-u -}          [ unwords [ "be", "obstinate" ], unwords [ "be", "headstrong" ], unwords [ "be", "stubborn" ] ]
                               `imperf`     FCuL,
 
     -- ;; Haruwn_1
@@ -9875,14 +9875,14 @@ lexicon = listing "Lexicon's properties"
     -- tHrq    taHar~aq        PV_intr be burned
     -- tHrq    taHar~aq        IV_intr be burned
 
-    TaFaCCaL                  `verb`    {- taHar~aq -}         [ "be burned" ],
+    TaFaCCaL                  `verb`    {- taHar~aq -}         [ unwords [ "be", "burned" ] ],
 
     -- ;; {iHotaraq_1
     -- <Htrq   {iHotaraq       PV      burn up;be burned
     -- AHtrq   {iHotaraq       PV      burn up;be burned
     -- Htrq    Hotariq IV      burn up;be burned
 
-    IFtaCaL                   `verb`    {- AiHotaraq -}        [ "burn up", "be burned" ],
+    IFtaCaL                   `verb`    {- AiHotaraq -}        [ unwords [ "burn", "up" ], unwords [ "be", "burned" ] ],
 
     -- ;; Haroq_1
     -- Hrq     Haroq   N       burning;fire
@@ -9940,7 +9940,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taHAriyq_1
     -- tHAryq  taHAriyq        Ndip    hottest season
 
-    TaFACIL                   `noun`    {- taHAriyq -}         [ "hottest season" ],
+    TaFACIL                   `noun`    {- taHAriyq -}         [ unwords [ "hottest", "season" ] ],
 
     -- ;; <iHorAq_1
     -- <HrAq   <iHorAq NduAt   burning;combustion
@@ -9993,7 +9993,7 @@ lexicon = listing "Lexicon's properties"
     -- Hrqd    Haroqad Nap     Adam's apple
     -- HrAqd   HarAqid Ndip    Adam's apples
 
-    KaRDaS |< aT              `noun`    {- Haroqadap -}        [ "Adam's apple" ]
+    KaRDaS |< aT              `noun`    {- Haroqadap -}        [ unwords [ "Adam's", "apple" ] ]
                               `plural`     KaRADiS
                            {- `others`  [ ".harAqid Ndip" ] -} ]
 
@@ -10007,7 +10007,7 @@ lexicon = listing "Lexicon's properties"
     -- Hr      Hir~    IV_V_intr       be hot
     -- Hrr     Horir   IV_C_intr       be hot
 
-    FaCL                      `verb`    {- Har~-ui -}          [ "be hot" ]
+    FaCL                      `verb`    {- Har~-ui -}          [ unwords [ "be", "hot" ] ]
                               `imperf`     FuCL
                               `imperf`     FiCL
                               `pfirst`     FaCaL,
@@ -10028,7 +10028,7 @@ lexicon = listing "Lexicon's properties"
     -- tHrr    taHar~ar        PV_intr be liberated
     -- tHrr    taHar~ar        IV_intr be liberated
 
-    TaFaCCaL                  `verb`    {- taHar~ar -}         [ "be liberated" ],
+    TaFaCCaL                  `verb`    {- taHar~ar -}         [ unwords [ "be", "liberated" ] ],
 
     -- ;; {isotaHar~_1
     -- <stHr   {isotaHar~      PV_V    flare up;be heated
@@ -10038,7 +10038,7 @@ lexicon = listing "Lexicon's properties"
     -- stHr    sotaHir~        IV_V    flare up;be heated
     -- stHrr   sotaHorir       IV_C    flare up;be heated
 
-    IstaFaCL                  `verb`    {- AisotaHar~ -}       [ "flare up", "be heated" ],
+    IstaFaCL                  `verb`    {- AisotaHar~ -}       [ unwords [ "flare", "up" ], unwords [ "be", "heated" ] ],
 
     -- ;; Har~_1
     -- Hr      Har~    N       warmth;heat
@@ -10059,7 +10059,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Har~ap_1
     -- Hr      Har~    NapAt   stony area;lava field
 
-    FaCL |< aT                `noun`    {- Har~ap -}           [ "stony area", "lava field" ],
+    FaCL |< aT                `noun`    {- Har~ap -}           [ unwords [ "stony", "area" ], unwords [ "lava", "field" ] ],
 
     -- ;; Hur~iy~ap_1
     -- Hry     Hur~iy~ NapAt   freedom     [[Hur~iy~/NOUN]]
@@ -10086,7 +10086,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Har~Ar_1
     -- HrAr    Har~Ar  N       silk weaver
 
-    FaCCAL                    `noun`    {- Har~Ar -}           [ "silk weaver" ],
+    FaCCAL                    `noun`    {- Har~Ar -}           [ unwords [ "silk", "weaver" ] ],
 
     -- ;; HarArap_1
     -- HrAr    HarAr   Nap     temperature;heat;fever
@@ -10112,7 +10112,7 @@ lexicon = listing "Lexicon's properties"
     -- Hrwr    Haruwr  N       hot wind
     -- HrA}r   HarA}ir Ndip    hot winds
 
-    FaCUL                     `noun`    {- Haruwr -}           [ "hot wind" ],
+    FaCUL                     `noun`    {- Haruwr -}           [ unwords [ "hot", "wind" ] ],
 
     -- ;; Har~An_1
     -- HrAn    Har~An  Ndip    thirsty;passionate
@@ -10130,12 +10130,12 @@ lexicon = listing "Lexicon's properties"
     -- >Hr     >aHar~  Nel     hotter/hottest;warmer/warmest
     -- AHr     >aHar~  Nel     hotter/hottest;warmer/warmest
 
-    HaFaCL                    `noun`    {- OaHar~ -}           [ "hotter/hottest", "warmer/warmest" ],
+    HaFaCL                    `noun`    {- OaHar~ -}           [ unwords [ "hotter", "/", "hottest" ], unwords [ "warmer", "/", "warmest" ] ],
 
     -- ;; miHar~_1
     -- mHr     miHar~  Ndu     heating system
 
-    MiFaCL                    `noun`    {- miHar~ -}           [ "heating system" ],
+    MiFaCL                    `noun`    {- miHar~ -}           [ unwords [ "heating", "system" ] ],
 
     -- ;; taHoriyr_1
     -- tHryr   taHoriyr        NduAt   liberation;liberating
@@ -10198,14 +10198,14 @@ lexicon = listing "Lexicon's properties"
     -- tHrs    taHar~as        PV_intr be wary;be on guard
     -- tHrs    taHar~as        IV_intr be wary;be on guard
 
-    TaFaCCaL                  `verb`    {- taHar~as -}         [ "be wary", "be on guard" ],
+    TaFaCCaL                  `verb`    {- taHar~as -}         [ unwords [ "be", "wary" ], unwords [ "be", "on", "guard" ] ],
 
     -- ;; {iHotaras_1
     -- <Htrs   {iHotaras       PV_intr be wary;be on guard
     -- AHtrs   {iHotaras       PV_intr be wary;be on guard
     -- Htrs    Hotaris IV_intr be wary;be on guard
 
-    IFtaCaL                   `verb`    {- AiHotaras -}        [ "be wary", "be on guard" ],
+    IFtaCaL                   `verb`    {- AiHotaras -}        [ unwords [ "be", "wary" ], unwords [ "be", "on", "guard" ] ],
 
     -- ;; Haras_1
     -- Hrs     Haras   N       guard;bodyguard
@@ -10229,7 +10229,7 @@ lexicon = listing "Lexicon's properties"
     -- HrAs    Hur~As  N       guards;sentries;guardians
     -- Hrs     Haras   Nap     guards;sentries;guardians
 
-    FACiL                     `noun`    {- HAris -}            [ "vigilant", "sentry", "guard", "keeper", "goal-keeper", "guardians" ]
+    FACiL                     `noun`    {- HAris -}            [ "vigilant", "sentry", "guard", "keeper", unwords [ "goal", "-", "keeper" ], "guardians" ]
                               `plural`     FuCCAL
                               `plural`     FaCaL |< aT
                            {- `others`  [ ".hurrAs N" ] -},
@@ -10262,7 +10262,7 @@ lexicon = listing "Lexicon's properties"
     -- Hr      Hor     IV_0hwnyn       be able;be possible
     -- HrY     HoraY   IV_0_Pass_yu    be able;be possible
 
-    FaCY                      `verb`    {- HaraY-i -}          [ "be able", "be possible" ]
+    FaCY                      `verb`    {- HaraY-i -}          [ unwords [ "be", "able" ], unwords [ "be", "possible" ] ]
                               `imperf`     FCI,
 
     -- ;; >aHoraY_1
@@ -10279,7 +10279,7 @@ lexicon = listing "Lexicon's properties"
     -- HrY     HoraY   IV_0_Pass_yu    be made worthy
     -- Hry     Horay   IV_Ann_Pass_yu  be made worthy
 
-    HaFCY                     `verb`    {- OaHoraY -}          [ "make worthy", "be made worthy" ],
+    HaFCY                     `verb`    {- OaHoraY -}          [ unwords [ "make", "worthy" ], unwords [ "be", "made", "worthy" ] ],
 
     -- ;; taHar~aY_1
     -- tHrY    taHar~aY        PV_0    investigate;pursue
@@ -10319,7 +10319,7 @@ lexicon = listing "Lexicon's properties"
     -- >Hry    >aHoray NAn_Nayn        more/most adequate;better/best
     -- AHry    >aHoray NAn_Nayn        more/most adequate;better/best
 
-    HaFCY                     `noun`    {- OaHoraY -}          [ "more/most adequate", "better/best" ],
+    HaFCY                     `noun`    {- OaHoraY -}          [ unwords [ "more", "/", "most", "adequate" ], unwords [ "better", "/", "best" ] ],
 
     -- ;; taHar~iy_1
     -- tHry    taHar~iy        N0_Nh   investigation;inquiry
@@ -10343,21 +10343,21 @@ lexicon = listing "Lexicon's properties"
     -- Hrz     Haruz   PV_intr be strong;be fortified
     -- Hrz     Horuz   IV_intr be strong;be fortified
 
-    FaCuL                     `verb`    {- Haruz-u -}          [ "be strong", "be fortified" ]
+    FaCuL                     `verb`    {- Haruz-u -}          [ unwords [ "be", "strong" ], unwords [ "be", "fortified" ] ]
                               `imperf`     FCuL,
 
     -- ;; Hariz-a_1
     -- Hrz     Hariz   PV_intr be strong;be fortified
     -- Hrz     Horaz   IV_intr be strong;be fortified
 
-    FaCiL                     `verb`    {- Hariz-a -}          [ "be strong", "be fortified" ]
+    FaCiL                     `verb`    {- Hariz-a -}          [ unwords [ "be", "strong" ], unwords [ "be", "fortified" ] ]
                               `imperf`     FCaL,
 
     -- ;; Har~az_1
     -- Hrz     Har~az  PV      shelter;offer asylum
     -- Hrz     Har~iz  IV_yu   shelter;offer asylum
 
-    FaCCaL                    `verb`    {- Har~az -}           [ "shelter", "offer asylum" ],
+    FaCCaL                    `verb`    {- Har~az -}           [ "shelter", unwords [ "offer", "asylum" ] ],
 
     -- ;; >aHoraz_1
     -- >Hrz    >aHoraz PV      gain;win;preserve
@@ -10365,20 +10365,20 @@ lexicon = listing "Lexicon's properties"
     -- Hrz     Horiz   IV_yu   gain;win;preserve
     -- Hrz     Horaz   IV_Pass_yu      be gained;be won;be preserved
 
-    HaFCaL                    `verb`    {- OaHoraz -}          [ "gain", "win", "preserve", "be won" ],
+    HaFCaL                    `verb`    {- OaHoraz -}          [ "gain", "win", "preserve", unwords [ "be", "won" ] ],
 
     -- ;; taHar~az_1
     -- tHrz    taHar~az        PV_intr be wary;be on guard
     -- tHrz    taHar~az        IV_intr be wary;be on guard
 
-    TaFaCCaL                  `verb`    {- taHar~az -}         [ "be wary", "be on guard" ],
+    TaFaCCaL                  `verb`    {- taHar~az -}         [ unwords [ "be", "wary" ], unwords [ "be", "on", "guard" ] ],
 
     -- ;; {iHotaraz_1
     -- <Htrz   {iHotaraz       PV_intr be careful;be wary
     -- AHtrz   {iHotaraz       PV_intr be careful;be wary
     -- Htrz    Hotariz IV_intr be careful;be wary
 
-    IFtaCaL                   `verb`    {- AiHotaraz -}        [ "be careful", "be wary" ],
+    IFtaCaL                   `verb`    {- AiHotaraz -}        [ unwords [ "be", "careful" ], unwords [ "be", "wary" ] ],
 
     -- ;; Hiroz_1
     -- Hrz     Hiroz   Ndu     refuge;safe
@@ -10438,7 +10438,7 @@ lexicon = listing "Lexicon's properties"
     -- >HsA'   >aHosA' N0      Hasa (S.Ar.)
     -- AHsA'   >aHosA' N0      Hasa (S.Ar.)
 
-    HaFCAL                    `noun`    {- OaHosA' -}          [ "Hasa (S.Ar.)" ] ]
+    HaFCAL                    `noun`    {- OaHosA' -}          [ unwords [ "Hasa", "(", "S.Ar.", ")" ] ] ]
 
  |> ".h s b" <| [
 
@@ -10460,33 +10460,33 @@ lexicon = listing "Lexicon's properties"
     -- Hsb     Hasub   PV_intr be esteemed;be valued
     -- Hsb     Hosub   IV_intr be esteemed;be valued
 
-    FaCuL                     `verb`    {- Hasub-u -}          [ "be esteemed", "be valued" ]
+    FaCuL                     `verb`    {- Hasub-u -}          [ unwords [ "be", "esteemed" ], unwords [ "be", "valued" ] ]
                               `imperf`     FCuL,
 
     -- ;; HAsab_1
     -- HAsb    HAsab   PV      hold responsible;get even with
     -- HAsb    HAsib   IV_yu   hold responsible;get even with
 
-    FACaL                     `verb`    {- HAsab -}            [ "hold responsible", "get even with" ],
+    FACaL                     `verb`    {- HAsab -}            [ unwords [ "hold", "responsible" ], unwords [ "get", "even", "with" ] ],
 
     -- ;; taHas~ab_1
     -- tHsb    taHas~ab        PV_intr be careful;take precautions
     -- tHsb    taHas~ab        IV_intr be careful;take precautions
 
-    TaFaCCaL                  `verb`    {- taHas~ab -}         [ "be careful", "take precautions" ],
+    TaFaCCaL                  `verb`    {- taHas~ab -}         [ unwords [ "be", "careful" ], unwords [ "take", "precautions" ] ],
 
     -- ;; taHAsab_1
     -- tHAsb   taHAsab PV      settle a mutual account
     -- tHAsb   taHAsab IV      settle a mutual account
 
-    TaFACaL                   `verb`    {- taHAsab -}          [ "settle a mutual account" ],
+    TaFACaL                   `verb`    {- taHAsab -}          [ unwords [ "settle", "a", "mutual", "account" ] ],
 
     -- ;; {iHotasab_1
     -- <Htsb   {iHotasab       PV      take into consideration
     -- AHtsb   {iHotasab       PV      take into consideration
     -- Htsb    Hotasib IV      take into consideration
 
-    IFtaCaL                   `verb`    {- AiHotasab -}        [ "take into consideration" ],
+    IFtaCaL                   `verb`    {- AiHotasab -}        [ unwords [ "take", "into", "consideration" ] ],
 
     -- ;; Hasob_1
     -- Hsb     Hasob   N       reckoning;calculation
@@ -10497,7 +10497,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hasab_1
     -- Hsb     Hasab   N       according to;depending on
 
-    FaCaL                     `noun`    {- Hasab -}            [ "according to", "depending on" ],
+    FaCaL                     `noun`    {- Hasab -}            [ unwords [ "according", "to" ], unwords [ "depending", "on" ] ],
 
     -- ;; Hisobap_1
     -- Hsb     Hisob   Nap     calculation
@@ -10563,7 +10563,7 @@ lexicon = listing "Lexicon's properties"
     -- tHsb    taHas~ub        N/At    expectation;precaution
     -- tHsb    taHas~ub        NF      in expectation of;as a precaution     [[taHas~ub/ADV]]
 
-    TaFaCCuL                  `adv`     {- taHas~ub -}         [ "expectation", "precaution", "in expectation of", "as a precaution" ]
+    TaFaCCuL                  `adv`     {- taHas~ub -}         [ "expectation", "precaution", unwords [ "in", "expectation", "of" ], unwords [ "as", "a", "precaution" ] ]
                               `plural`     TaFaCCuL |< At,
 
     -- ;; taHas~ubiy~_1
@@ -10675,7 +10675,7 @@ lexicon = listing "Lexicon's properties"
     -- Hsm     Hasam   PV      cut off;finish;discount
     -- Hsm     Hosim   IV      cut off;finish;discount
 
-    FaCaL                     `verb`    {- Hasam-i -}          [ "cut off", "finish", "discount" ]
+    FaCaL                     `verb`    {- Hasam-i -}          [ unwords [ "cut", "off" ], "finish", "discount" ]
                               `imperf`     FCiL,
 
     -- ;; {inoHasam_1
@@ -10683,7 +10683,7 @@ lexicon = listing "Lexicon's properties"
     -- AnHsm   {inoHasam       PV_intr be cut off;be finished;be settled
     -- nHsm    noHasim IV_intr be cut off;be finished;be settled
 
-    InFaCaL                   `verb`    {- AinoHasam -}        [ "be cut off", "be finished", "be settled" ],
+    InFaCaL                   `verb`    {- AinoHasam -}        [ unwords [ "be", "cut", "off" ], unwords [ "be", "finished" ], unwords [ "be", "settled" ] ],
 
     -- ;; Hasom_1
     -- Hsm     Hasom   N       settlement;termination
@@ -10716,7 +10716,7 @@ lexicon = listing "Lexicon's properties"
     -- Hsn     Hasun   PV-n_intr       be beautiful;be good
     -- Hsn     Hosun   IV-n_intr       be beautiful;be good
 
-    FaCuL                     `verb`    {- Hasun-u -}          [ "be beautiful", "be good" ]
+    FaCuL                     `verb`    {- Hasun-u -}          [ unwords [ "be", "beautiful" ], unwords [ "be", "good" ] ]
                               `imperf`     FCuL,
 
     -- ;; Has~an_1
@@ -10729,7 +10729,7 @@ lexicon = listing "Lexicon's properties"
     -- HAsn    HAsan   PV-n    treat with kindliness
     -- HAsn    HAsin   IV-n_yu treat with kindliness
 
-    FACaL                     `verb`    {- HAsan -}            [ "treat with kindliness" ],
+    FACaL                     `verb`    {- HAsan -}            [ unwords [ "treat", "with", "kindliness" ] ],
 
     -- ;; >aHosan_1
     -- >Hsn    >aHosan PV-n    master;do well;be proficient
@@ -10737,7 +10737,7 @@ lexicon = listing "Lexicon's properties"
     -- Hsn     Hosin   IV-n_yu master;do well;be proficient
     -- Hsn     Hosan   IV-n_Pass_yu    be mastered;be done well
 
-    HaFCaL                    `verb`    {- OaHosan -}          [ "master", "do well", "be proficient", "be done well" ],
+    HaFCaL                    `verb`    {- OaHosan -}          [ "master", unwords [ "do", "well" ], unwords [ "be", "proficient" ], unwords [ "be", "done", "well" ] ],
 
     -- ;; taHas~an_1
     -- tHsn    taHas~an        PV-n    improve
@@ -10750,7 +10750,7 @@ lexicon = listing "Lexicon's properties"
     -- AstHsn  {isotaHosan     PV-n    approve;know well
     -- stHsn   sotaHosin       IV-n    approve;know well
 
-    IstaFCaL                  `verb`    {- AisotaHosan -}      [ "approve", "know well" ],
+    IstaFCaL                  `verb`    {- AisotaHosan -}      [ "approve", unwords [ "know", "well" ] ],
 
     -- ;; Huson_1
     -- Hsn     Huson   N       good;beauty
@@ -10799,7 +10799,7 @@ lexicon = listing "Lexicon's properties"
     -- Hsny    Husonay NAn_Nayn        best;beauty
     -- Hsny    Husonay NAt     best;beauties
 
-    HaFCaL                    `noun`    {- OaHosan -}          [ "better/best", "beauty", "belle", "best" ]
+    HaFCaL                    `noun`    {- OaHosan -}          [ unwords [ "better", "/", "best" ], "beauty", "belle", "best" ]
                               `plural`     FaCLA'
                               `plural`     HaFACiL
                               `plural`     FuCLY |< At
@@ -10808,22 +10808,22 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hasanap_1
     -- Hsn     Hasan   NapAt   good deed;merit
 
-    FaCaL |< aT               `noun`    {- Hasanap -}          [ "good deed", "merit" ],
+    FaCaL |< aT               `noun`    {- Hasanap -}          [ unwords [ "good", "deed" ], "merit" ],
 
     -- ;; maHosanap_1
     -- mHsn    maHosan Nap     good quality;merit
 
-    MaFCaL |< aT              `noun`    {- maHosanap -}        [ "good quality", "merit" ],
+    MaFCaL |< aT              `noun`    {- maHosanap -}        [ unwords [ "good", "quality" ], "merit" ],
 
     -- ;; maHAsin_1
     -- mHAsn   maHAsin Ndip    merits;good qualities
 
-    MaFACiL                   `noun`    {- maHAsin -}          [ "merits", "good qualities" ],
+    MaFACiL                   `noun`    {- maHAsin -}          [ "merits", unwords [ "good", "qualities" ] ],
 
     -- ;; taHosiyn_1
     -- tHsyn   taHosiyn        N       improving;making better
 
-    TaFCIL                    `noun`    {- taHosiyn -}         [ "improving", "making better" ],
+    TaFCIL                    `noun`    {- taHosiyn -}         [ "improving", unwords [ "making", "better" ] ],
 
     -- ;; taHosiyn_2
     -- tHsyn   taHosiyn        Ndu     improvement;beautification
@@ -10850,7 +10850,7 @@ lexicon = listing "Lexicon's properties"
     -- <HsAn   <iHosAn NduAt   good deeds;charity
     -- AHsAn   <iHosAn NduAt   good deeds;charity
 
-    HiFCAL                    `noun`    {- IiHosAn -}          [ "good deeds", "charity" ]
+    HiFCAL                    `noun`    {- IiHosAn -}          [ unwords [ "good", "deeds" ], "charity" ]
                               `plural`     HiFCAL |< At,
 
     -- ;; taHas~un_1
@@ -10910,14 +10910,14 @@ lexicon = listing "Lexicon's properties"
     -- Hsr     Hasir   PV_intr be aggrieved;be tired
     -- Hsr     Hosar   IV_intr be aggrieved;be tired
 
-    FaCiL                     `verb`    {- Hasir-a -}          [ "be aggrieved", "be tired" ]
+    FaCiL                     `verb`    {- Hasir-a -}          [ unwords [ "be", "aggrieved" ], unwords [ "be", "tired" ] ]
                               `imperf`     FCaL,
 
     -- ;; Has~ar_1
     -- Hsr     Has~ar  PV      make tired;uncover
     -- Hsr     Has~ir  IV_yu   make tired;uncover
 
-    FaCCaL                    `verb`    {- Has~ar -}           [ "make tired", "uncover" ],
+    FaCCaL                    `verb`    {- Has~ar -}           [ unwords [ "make", "tired" ], "uncover" ],
 
     -- ;; taHas~ar_1
     -- tHsr    taHas~ar        PV      mourn;regret
@@ -10930,7 +10930,7 @@ lexicon = listing "Lexicon's properties"
     -- AnHsr   {inoHasar       PV_intr be removed;disappear
     -- nHsr    noHasir IV_intr be removed;disappear
 
-    InFaCaL                   `verb`    {- AinoHasar -}        [ "be removed", "disappear" ],
+    InFaCaL                   `verb`    {- AinoHasar -}        [ unwords [ "be", "removed" ], "disappear" ],
 
     -- ;; Hasar_1
     -- Hsr     Hasar   N       fatigue;weakness
@@ -11018,7 +11018,7 @@ lexicon = listing "Lexicon's properties"
     -- Hss     Hosis   IV_C_yu feel;perceive
     -- Hs      Has~    IV_V_Pass_yu    be felt;be perceived
 
-    HaFaCL                    `verb`    {- OaHas~ -}           [ "feel", "perceive", "be felt" ],
+    HaFaCL                    `verb`    {- OaHas~ -}           [ "feel", "perceive", unwords [ "be", "felt" ] ],
 
     -- ;; taHas~as_1
     -- tHss    taHas~as        PV      feel
@@ -11044,7 +11044,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hasiys_1
     -- Hsys    Hasiys  N       faint noise
 
-    FaCIL                     `noun`    {- Hasiys -}           [ "faint noise" ],
+    FaCIL                     `noun`    {- Hasiys -}           [ unwords [ "faint", "noise" ] ],
 
     -- ;; Has~As_1
     -- HsAs    Has~As  Nall    sensitive
@@ -11097,7 +11097,7 @@ lexicon = listing "Lexicon's properties"
     -- HsY     HosaY   IV_0_Pass_yu    be sipped
     -- Hsy     Hosay   IV_Ann_Pass_yu  be sipped
 
-    FaCA                      `verb`    {- HasA-u -}           [ "drink", "sip", "be sipped" ]
+    FaCA                      `verb`    {- HasA-u -}           [ "drink", "sip", unwords [ "be", "sipped" ] ]
                               `imperf`     FCU,
 
     -- ;; taHas~aY_1
@@ -11153,7 +11153,7 @@ lexicon = listing "Lexicon's properties"
     -- >HsA'   >aHosA' N0      Hasa (S.Ar.)
     -- AHsA'   >aHosA' N0      Hasa (S.Ar.)
 
-    HaFCA'                    `noun`    {- OaHosA' -}          [ "Hasa (S.Ar.)" ] ]
+    HaFCA'                    `noun`    {- OaHosA' -}          [ unwords [ "Hasa", "(", "S.Ar.", ")" ] ] ]
 
  |> ".h t d" <| [
 
@@ -11161,13 +11161,13 @@ lexicon = listing "Lexicon's properties"
     -- Htd     Hatid   PV_intr be of pure origin
     -- Htd     Hotad   IV_intr be of pure origin
 
-    FaCiL                     `verb`    {- Hatid-a -}          [ "be of pure origin" ]
+    FaCiL                     `verb`    {- Hatid-a -}          [ unwords [ "be", "of", "pure", "origin" ] ]
                               `imperf`     FCaL,
 
     -- ;; Hatid_1
     -- Htd     Hatid   N-ap    of noble birth     [[Hatid/ADJ]]
 
-    FaCiL                     `adj`     {- Hatid -}            [ "of noble birth" ],
+    FaCiL                     `adj`     {- Hatid -}            [ unwords [ "of", "noble", "birth" ] ],
 
     -- ;; maHotid_1
     -- mHtd    maHotid N       lineage;descent
@@ -11206,13 +11206,13 @@ lexicon = listing "Lexicon's properties"
     -- Htm     Hat~am  PV      prescribe;make a duty;decide
     -- Htm     Hat~im  IV_yu   prescribe;make a duty;decide
 
-    FaCCaL                    `verb`    {- Hat~am -}           [ "prescribe", "make a duty", "decide" ],
+    FaCCaL                    `verb`    {- Hat~am -}           [ "prescribe", unwords [ "make", "a", "duty" ], "decide" ],
 
     -- ;; taHat~am_1
     -- tHtm    taHat~am        PV_intr be incumbent;be necessary
     -- tHtm    taHat~am        IV_intr be incumbent;be necessary
 
-    TaFaCCaL                  `verb`    {- taHat~am -}         [ "be incumbent", "be necessary" ],
+    TaFaCCaL                  `verb`    {- taHat~am -}         [ unwords [ "be", "incumbent" ], unwords [ "be", "necessary" ] ],
 
     -- ;; Hatom_1
     -- Htm     Hatom   N       imposition;necessity
@@ -11233,7 +11233,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; lAHatomiy~ap_1
     -- lAHtmy  lAHatomiy~      Nap_L   indeterminism;non-urgency     [[lAHatomiy~/NOUN]]
 
-    lA >| FaCL |< Iy |< aT    `noun`    {- lAHatomiy~ap -}     [ "indeterminism", "non-urgency" ],
+    lA >| FaCL |< Iy |< aT    `noun`    {- lAHatomiy~ap -}     [ "indeterminism", unwords [ "non", "-", "urgency" ] ],
 
     -- ;; HAtim_1
     -- HAtm    HAtim   Nprop   Hatim;Hatem
@@ -11253,7 +11253,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mutaHat~im_1
     -- mtHtm   mutaHat~im      Nall    imperative;absolutely necessary     [[mutaHat~im/ADJ]]
 
-    MutaFaCCiL                `adj`     {- mutaHat~im -}       [ "imperative", "absolutely necessary" ] ]
+    MutaFaCCiL                `adj`     {- mutaHat~im -}       [ "imperative", unwords [ "absolutely", "necessary" ] ] ]
 
  |> ".h t r" <| [
 
@@ -11288,7 +11288,7 @@ lexicon = listing "Lexicon's properties"
     -- Ht      Hut~    IV_V    rub off;scrape off;corrode
     -- Htt     Hotut   IV_C    rub off;scrape off;corrode
 
-    FaCL                      `verb`    {- Hat~-u -}           [ "rub off", "scrape off", "corrode" ]
+    FaCL                      `verb`    {- Hat~-u -}           [ unwords [ "rub", "off" ], unwords [ "scrape", "off" ], "corrode" ]
                               `imperf`     FuCL
                               `pfirst`     FaCaL,
 
@@ -11338,19 +11338,19 @@ lexicon = listing "Lexicon's properties"
     -- HtY     Hat~aY  FW-Wa   until;up to                     [[Hat~aY/PREP]]
     -- Hty     Hat~aY  FW-Wa   until;up to                     [[Hat~aY/PREP]]
 
-    FaCLY                     `prep`    {- Hat~aY -}           [ "until", "up to" ],
+    FaCLY                     `prep`    {- Hat~aY -}           [ "until", unwords [ "up", "to" ] ],
 
     -- ;; Hat~aY_2
     -- HtY     Hat~aY  FW-Wa   in order to                     [[Hat~aY/CONJ]]
     -- Hty     Hat~aY  FW-Wa   in order to                     [[Hat~aY/CONJ]]
 
-    FaCLY                     `conj`    {- Hat~aY -}           [ "in order to" ],
+    FaCLY                     `conj`    {- Hat~aY -}           [ unwords [ "in", "order", "to" ] ],
 
     -- ;; Hat~aY_3
     -- HtY     Hat~aY  FW-Wa   even;even though;although       [[Hat~aY/ADV]]
     -- Hty     Hat~aY  FW-Wa   even;even though;although       [[Hat~aY/ADV]]
 
-    FaCLY                     `adv`     {- Hat~aY -}           [ "even", "even though", "although" ] ]
+    FaCLY                     `adv`     {- Hat~aY -}           [ "even", unwords [ "even", "though" ], "although" ] ]
 
  |> ".h t y" <| [
 
@@ -11363,19 +11363,19 @@ lexicon = listing "Lexicon's properties"
     -- HtY     Hat~aY  FW-Wa   until;up to                     [[Hat~aY/PREP]]
     -- Hty     Hat~aY  FW-Wa   until;up to                     [[Hat~aY/PREP]]
 
-    FaCCY                     `prep`    {- Hat~aY -}           [ "until", "up to" ],
+    FaCCY                     `prep`    {- Hat~aY -}           [ "until", unwords [ "up", "to" ] ],
 
     -- ;; Hat~aY_2
     -- HtY     Hat~aY  FW-Wa   in order to                     [[Hat~aY/CONJ]]
     -- Hty     Hat~aY  FW-Wa   in order to                     [[Hat~aY/CONJ]]
 
-    FaCCY                     `conj`    {- Hat~aY -}           [ "in order to" ],
+    FaCCY                     `conj`    {- Hat~aY -}           [ unwords [ "in", "order", "to" ] ],
 
     -- ;; Hat~aY_3
     -- HtY     Hat~aY  FW-Wa   even;even though;although       [[Hat~aY/ADV]]
     -- Hty     Hat~aY  FW-Wa   even;even though;although       [[Hat~aY/ADV]]
 
-    FaCCY                     `adv`     {- Hat~aY -}           [ "even", "even though", "although" ] ]
+    FaCCY                     `adv`     {- Hat~aY -}           [ "even", unwords [ "even", "though" ], "although" ] ]
 
  |> ".h w '" <| [
 
@@ -11414,7 +11414,7 @@ lexicon = listing "Lexicon's properties"
     -- HyAD    HiyAD   N       safe havens
     -- HyDAn   HiyDAn  N       basins;reservoirs
 
-    FaCL                      `noun`    {- HawoD -}            [ "basin", "reservoir", "safe havens" ]
+    FaCL                      `noun`    {- HawoD -}            [ "basin", "reservoir", unwords [ "safe", "havens" ] ]
                               `plural`     FILAn
                               `plural`     HaFCAL
                            {- `others`  [ ".hiy.dAn N", "'a.hwA.d N" ] -},
@@ -11422,7 +11422,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HuwayoDap_1
     -- HwyD    HuwayoD Nap     renal pelvis
 
-    FuCayL |< aT              `noun`    {- HuwayoDap -}        [ "renal pelvis" ] ]
+    FuCayL |< aT              `noun`    {- HuwayoDap -}        [ unwords [ "renal", "pelvis" ] ] ]
 
  |> ".h w .s" <| [
 
@@ -11475,7 +11475,7 @@ lexicon = listing "Lexicon's properties"
     -- HAwT    HAwaT   PV      try to outwit;mislead
     -- HAwT    HAwiT   IV_yu   try to outwit;mislead
 
-    FACaL                     `verb`    {- HAwaT -}            [ "try to outwit", "mislead" ],
+    FACaL                     `verb`    {- HAwaT -}            [ unwords [ "try", "to", "outwit" ], "mislead" ],
 
     -- ;; >aHAT_1
     -- >HAT    >aHAT   PV_V    surround;encircle
@@ -11493,7 +11493,7 @@ lexicon = listing "Lexicon's properties"
     -- tHwT    taHaw~aT        PV      take precautions;guard;be careful
     -- tHwT    taHaw~aT        IV      take precautions;guard;be careful
 
-    TaFaCCaL                  `verb`    {- taHaw~aT -}         [ "take precautions", "guard", "be careful" ],
+    TaFaCCaL                  `verb`    {- taHaw~aT -}         [ unwords [ "take", "precautions" ], "guard", unwords [ "be", "careful" ] ],
 
     -- ;; {iHotAT_1
     -- <HtAT   {iHotAT PV_V    take precautions;be careful;surround
@@ -11503,7 +11503,7 @@ lexicon = listing "Lexicon's properties"
     -- HtAT    HotAT   IV_V    take precautions;be careful;surround
     -- HtT     HotaT   IV_C    take precautions;be careful;surround
 
-    IFtAL                     `verb`    {- AiHotAT -}          [ "take precautions", "be careful", "surround" ],
+    IFtAL                     `verb`    {- AiHotAT -}          [ unwords [ "take", "precautions" ], unwords [ "be", "careful" ], "surround" ],
 
     -- ;; HiyTap_1
     -- HyT     HiyT    Nap     caution;care
@@ -11537,7 +11537,7 @@ lexicon = listing "Lexicon's properties"
     -- <HtyAT  {iHotiyAT       NduAt   reserve (econ., geol., milit., spo.)
     -- AHtyAT  {iHotiyAT       NduAt   reserve (econ., geol., milit., spo.)
 
-    IFtiyAL                   `noun`    {- AiHotiyAT -}        [ "reserve (econ., geol., milit., spo.)" ]
+    IFtiyAL                   `noun`    {- AiHotiyAT -}        [ unwords [ "reserve", "(", "econ.,", "geol.,", "milit.,", "spo.", ")" ] ]
                               `plural`     IFtiyAL |< At,
 
     -- ;; {iHotiyAT_2
@@ -11557,7 +11557,7 @@ lexicon = listing "Lexicon's properties"
     -- <HtyATy {iHotiyATiy~    NduAt   reserves (econ., geol., milit., spo.)    [[{iHotiyATiy~/NOUN]]
     -- AHtyATy {iHotiyATiy~    NduAt   reserves (econ., geol., milit., spo.)    [[{iHotiyATiy~/NOUN]]
 
-    IFtiyAL |< Iy             `noun`    {- AiHotiyATiy~ -}     [ "reserves (econ., geol., milit., spo.)" ],
+    IFtiyAL |< Iy             `noun`    {- AiHotiyATiy~ -}     [ unwords [ "reserves", "(", "econ.,", "geol.,", "milit.,", "spo.", ")" ] ],
 
     -- ;; HA}iT_1
     -- HA}T    HA}iT   Ndu     wall
@@ -11608,7 +11608,7 @@ lexicon = listing "Lexicon's properties"
     -- Hwj     Howij   IV_yu   need;require
     -- Hwj     Howaj   IV_Pass_yu      be need;be required
 
-    HaFCaL                    `verb`    {- OaHowaj -}          [ "need", "require", "be need" ],
+    HaFCaL                    `verb`    {- OaHowaj -}          [ "need", "require", unwords [ "be", "need" ] ],
 
     -- ;; {iHotAj_1
     -- <HtAj   {iHotAj PV_V    need;want
@@ -11644,13 +11644,13 @@ lexicon = listing "Lexicon's properties"
     -- ;; muHotAj_1
     -- mHtAj   muHotAj Nall    in need;wanting;requiring
 
-    MuFtAL                    `noun`    {- muHotAj -}          [ "in need", "wanting", "requiring" ],
+    MuFtAL                    `noun`    {- muHotAj -}          [ unwords [ "in", "need" ], "wanting", "requiring" ],
 
     -- ;; >aHowaj_2
     -- >Hwj    >aHowaj Nel     in greater need;more necessary
     -- AHwj    >aHowaj Nel     in greater need;more necessary
 
-    HaFCaL                    `noun`    {- OaHowaj -}          [ "in greater need", "more necessary" ],
+    HaFCaL                    `noun`    {- OaHowaj -}          [ unwords [ "in", "greater", "need" ], unwords [ "more", "necessary" ] ],
 
     -- ;; maHAwiyj_1
     -- mHAwyj  maHAwiyj        Ndip    poor;destitute
@@ -11675,7 +11675,7 @@ lexicon = listing "Lexicon's properties"
     -- Hw$     Huw$    IV_V    round up;stop;hinder
     -- H$      Hu$     IV_C    round up;stop;hinder
 
-    FAL                       `verb`    {- HA$-u -}            [ "round up", "stop", "hinder" ]
+    FAL                       `verb`    {- HA$-u -}            [ unwords [ "round", "up" ], "stop", "hinder" ]
                               `imperf`     FUL
                               `pfirst`     FuL,
 
@@ -11714,7 +11714,7 @@ lexicon = listing "Lexicon's properties"
     -- Hw*     Huw*    IV_V    urge on;spur on
     -- H*      Hu*     IV_C    urge on;spur on
 
-    FAL                       `verb`    {- HA*-u -}            [ "urge on", "spur on" ]
+    FAL                       `verb`    {- HA*-u -}            [ unwords [ "urge", "on" ], unwords [ "spur", "on" ] ]
                               `imperf`     FUL
                               `pfirst`     FuL,
 
@@ -11724,7 +11724,7 @@ lexicon = listing "Lexicon's properties"
     -- Hw*     Howi*   IV_yu   urge on;spur on
     -- Hw*     Howa*   IV_Pass_yu      be urged on;be spurred on
 
-    HaFCaL                    `verb`    {- OaHowa* -}          [ "urge on", "spur on", "be urged on", "be spurred on" ],
+    HaFCaL                    `verb`    {- OaHowa* -}          [ unwords [ "urge", "on" ], unwords [ "spur", "on" ], unwords [ "be", "urged", "on" ], unwords [ "be", "spurred", "on" ] ],
 
     -- ;; {isotaHowa*_1
     -- <stHw*  {isotaHowa*     PV      overwhelm;seize;usurp
@@ -11777,7 +11777,7 @@ lexicon = listing "Lexicon's properties"
     -- tHwb    taHaw~ab        PV      abstain;be pious
     -- tHwb    taHaw~ab        IV      abstain;be pious
 
-    TaFaCCaL                  `verb`    {- taHaw~ab -}         [ "abstain", "be pious" ],
+    TaFaCCaL                  `verb`    {- taHaw~ab -}         [ "abstain", unwords [ "be", "pious" ] ],
 
     -- ;; Hawobap_1
     -- Hwb     Hawob   Nap     sin;misdeed
@@ -11799,7 +11799,7 @@ lexicon = listing "Lexicon's properties"
     -- Hwd     Huwd    IV_V    turn aside;turn away
     -- Hd      Hud     IV_C    turn aside;turn away
 
-    FAL                       `verb`    {- HAd-u -}            [ "turn aside", "turn away" ]
+    FAL                       `verb`    {- HAd-u -}            [ unwords [ "turn", "aside" ], unwords [ "turn", "away" ] ]
                               `imperf`     FUL
                               `pfirst`     FuL,
 
@@ -11807,7 +11807,7 @@ lexicon = listing "Lexicon's properties"
     -- Hwd     Haw~ad  PV      turn off;turn
     -- Hwd     Haw~id  IV_yu   turn off;turn
 
-    FaCCaL                    `verb`    {- Haw~ad -}           [ "turn off", "turn" ],
+    FaCCaL                    `verb`    {- Haw~ad -}           [ unwords [ "turn", "off" ], "turn" ],
 
     -- ;; Hawodap_1
     -- Hwd     Hawod   Nap     turn;turning
@@ -11900,13 +11900,13 @@ lexicon = listing "Lexicon's properties"
     -- HAl     HAl     IV_V_Pass_yu    appear (in court);be referred;be assigned
     -- Hl      Hal     IV_C_Pass_yu    appear (in court);be referred;be assigned
 
-    HaFAL                     `verb`    {- OaHAl -}            [ "refer", "assign", "appear (in court)", "be referred" ],
+    HaFAL                     `verb`    {- OaHAl -}            [ "refer", "assign", unwords [ "appear", "(", "in", "court", ")" ], unwords [ "be", "referred" ] ],
 
     -- ;; taHaw~al_1
     -- tHwl    taHaw~al        PV_intr be changed;be transformed
     -- tHwl    taHaw~al        IV_intr be changed;be transformed
 
-    TaFaCCaL                  `verb`    {- taHaw~al -}         [ "be changed", "be transformed" ],
+    TaFaCCaL                  `verb`    {- taHaw~al -}         [ unwords [ "be", "changed" ], unwords [ "be", "transformed" ] ],
 
     -- ;; taHAwal_1
     -- tHAwl   taHAwal PV      endeavor;strive
@@ -11932,7 +11932,7 @@ lexicon = listing "Lexicon's properties"
     -- Hwl     Howal~  IV_V_intr       be cross-eyed;squint
     -- Hwll    Howalil IV_C_intr       be cross-eyed;squint
 
-    IFCaLL                    `verb`    {- AiHowal~ -}         [ "be cross-eyed", "squint" ],
+    IFCaLL                    `verb`    {- AiHowal~ -}         [ unwords [ "be", "cross", "-", "eyed" ], "squint" ],
 
     -- ;; {isotaHAl_1
     -- <stHAl  {isotaHAl       PV_V_intr       be impossible;be transformed
@@ -11942,7 +11942,7 @@ lexicon = listing "Lexicon's properties"
     -- stHyl   sotaHiyl        IV_V_intr       be impossible;be transformed
     -- stHl    sotaHil IV_C_intr       be impossible;be transformed
 
-    IstaFAL                   `verb`    {- AisotaHAl -}        [ "be impossible", "be transformed" ],
+    IstaFAL                   `verb`    {- AisotaHAl -}        [ unwords [ "be", "impossible" ], unwords [ "be", "transformed" ] ],
 
     -- ;; HAl_1
     -- HAl     HAl     N       situation;condition;case
@@ -12100,7 +12100,7 @@ lexicon = listing "Lexicon's properties"
     -- HwlA&   HawolA& Nh      squinting;cross-eyed
     -- HwlA}   HawolA} Nhy     squinting;cross-eyed
 
-    HaFCaL                    `noun`    {- OaHowal -}          [ "squinting", "cross-eyed" ]
+    HaFCaL                    `noun`    {- OaHowal -}          [ "squinting", unwords [ "cross", "-", "eyed" ] ]
                               `plural`     FaCLA'
                            {- `others`  [ ".hawlA' Nh N0_Nh Nhy" ] -},
 
@@ -12179,12 +12179,12 @@ lexicon = listing "Lexicon's properties"
     -- Hwql    Hawoqal PV      say "God alone is mighty"
     -- Hwql    Hawoqil IV_yu   say "God alone is mighty"
 
-    KaRDaS                    `verb`    {- Hawoqal -}          [ "say \"God alone is mighty\"" ],
+    KaRDaS                    `verb`    {- Hawoqal -}          [ unwords [ "say", "\"God", "alone", "is", "mighty\"" ] ],
 
     -- ;; Hawoqalap_1
     -- Hwql    Hawoqal Nap     hawqala (saying "God alone is mighty")
 
-    KaRDaS |< aT              `noun`    {- Hawoqalap -}        [ "hawqala (saying \"God alone is mighty\")" ],
+    KaRDaS |< aT              `noun`    {- Hawoqalap -}        [ unwords [ "hawqala", "(", "saying", "\"God", "alone", "is", "mighty\"", ")" ] ],
 
     -- ;; Hawoqalap_2
     -- Hwql    Hawoqal Napdu   flask;vial
@@ -12200,7 +12200,7 @@ lexicon = listing "Lexicon's properties"
     -- Hwr     Hawir   PV_intr be very dark
     -- Hwr     Howar   IV_intr be very dark
 
-    FaCiL                     `verb`    {- Hawir-a -}          [ "be very dark" ]
+    FaCiL                     `verb`    {- Hawir-a -}          [ unwords [ "be", "very", "dark" ] ]
                               `imperf`     FCaL,
 
     -- ;; HAr-u_1
@@ -12223,7 +12223,7 @@ lexicon = listing "Lexicon's properties"
     -- HAwr    HAwar   PV      converse with;discuss with
     -- HAwr    HAwir   IV_yu   converse with;discuss with
 
-    FACaL                     `verb`    {- HAwar -}            [ "converse with", "discuss with" ],
+    FACaL                     `verb`    {- HAwar -}            [ unwords [ "converse", "with" ], unwords [ "discuss", "with" ] ],
 
     -- ;; >aHAr_1
     -- >HAr    >aHAr   PV_V    answer;reply
@@ -12241,7 +12241,7 @@ lexicon = listing "Lexicon's properties"
     -- tHwr    taHaw~ar        PV_intr be altered;be transformed
     -- tHwr    taHaw~ar        IV_intr be altered;be transformed
 
-    TaFaCCaL                  `verb`    {- taHaw~ar -}         [ "be altered", "be transformed" ],
+    TaFaCCaL                  `verb`    {- taHaw~ar -}         [ unwords [ "be", "altered" ], unwords [ "be", "transformed" ] ],
 
     -- ;; taHAwar_1
     -- tHAwr   taHAwar PV      discuss
@@ -12252,7 +12252,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hawar_1
     -- Hwr     Hawar   N       white poplar
 
-    FaCaL                     `noun`    {- Hawar -}            [ "white poplar" ],
+    FaCaL                     `noun`    {- Hawar -}            [ unwords [ "white", "poplar" ] ],
 
     -- ;; HiwAr_1
     -- HwAr    HiwAr   Ndu     conversation;dialogue;discussion
@@ -12269,7 +12269,7 @@ lexicon = listing "Lexicon's properties"
     -- HwrA}   HaworA} Nhy     white and black
     -- Hwr     Huwr    N       white and black
 
-    HaFCaL                    `noun`    {- OaHowar -}          [ "white and black" ]
+    HaFCaL                    `noun`    {- OaHowar -}          [ unwords [ "white", "and", "black" ] ]
                               `plural`     FUL
                               `plural`     FaCLA'
                            {- `others`  [ ".huwr N", ".hawrA' Nh N0_Nh Nhy" ] -},
@@ -12277,7 +12277,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Haw~Arap_1
     -- HwAr    Haw~Ar  Nap     cretaceous rock;chalk
 
-    FaCCAL |< aT              `noun`    {- Haw~Arap -}         [ "cretaceous rock", "chalk" ],
+    FaCCAL |< aT              `noun`    {- Haw~Arap -}         [ unwords [ "cretaceous", "rock" ], "chalk" ],
 
     -- ;; HawAriy~_1
     -- HwAry   HawAriy~        Nall    disciple;apostle     [[HawAriy~/ADJ]]
@@ -12287,7 +12287,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Huw~Arap_1
     -- HwAr    Huw~Ar  Nap     cretaceous rock;chalk
 
-    FUCAL |< aT               `noun`    {- Huw~Arap -}         [ "cretaceous rock", "chalk" ],
+    FUCAL |< aT               `noun`    {- Huw~Arap -}         [ unwords [ "cretaceous", "rock" ], "chalk" ],
 
     -- ;; Huwriy~ap_1
     -- Hwry    Huwriy~ NapAt   nymph;houri     [[Huwriy~/NOUN]]
@@ -12315,7 +12315,7 @@ lexicon = listing "Lexicon's properties"
     -- mHAr    maHAr   N       oysters;shellfish;mother-of-pearl
     -- mHAr    maHAr   NapAt   oyster;shellfish;mother-of-pearl
 
-    MaFAL                     `noun`    {- maHAr -}            [ "shellfish", "mother-of-pearl", "oyster" ]
+    MaFAL                     `noun`    {- maHAr -}            [ "shellfish", unwords [ "mother", "-", "of", "-", "pearl" ], "oyster" ]
                               `plural`     MaFAL |< At,
 
     -- ;; miHowar_1
@@ -12391,7 +12391,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Huwt_3
     -- Hwt     Huwt    N0      Hout (12th month of solar year, in S.Ar.)
 
-    FUL                       `noun`    {- Huwt -}             [ "Hout (12th month of solar year, in S.Ar.)" ],
+    FUL                       `noun`    {- Huwt -}             [ unwords [ "Hout", "(", "12th", "month", "of", "solar", "year,", "in", "S.Ar.", ")" ] ],
 
     -- ;; Huwt_4
     -- Hwt     Huwt    N0      Pisces
@@ -12431,7 +12431,7 @@ lexicon = listing "Lexicon's properties"
     -- tHwy    taHaw~ay        IV_Ann  curl up;coil up
     -- tHw     taHaw~  IV_0hwnyn       curl up;coil up
 
-    TaFaCCY                   `verb`    {- taHaw~aY -}         [ "curl up", "coil up" ],
+    TaFaCCY                   `verb`    {- taHaw~aY -}         [ unwords [ "curl", "up" ], unwords [ "coil", "up" ] ],
 
     -- ;; {iHotawaY_1
     -- <HtwY   {iHotawaY       PV_0    contain;include
@@ -12459,7 +12459,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HawAyap_1
     -- HwAy    HawAy   NapAt   head pad
 
-    FaCAL |< aT               `noun`    {- HawAyap -}          [ "head pad" ],
+    FaCAL |< aT               `noun`    {- HawAyap -}          [ unwords [ "head", "pad" ] ],
 
     -- ;; HAwiy_1
     -- HAwy    HAwiy   N0F     magician;juggler
@@ -12526,7 +12526,7 @@ lexicon = listing "Lexicon's properties"
     -- Hyz     Hiyz    IV_V    drive on;urge on (camels)
     -- Hz      Hiz     IV_C    drive on;urge on (camels)
 
-    FAL                       `verb`    {- HAz-i -}            [ "drive on", "urge on (camels)" ]
+    FAL                       `verb`    {- HAz-i -}            [ unwords [ "drive", "on" ], unwords [ "urge", "on", "(", "camels", ")" ] ]
                               `imperf`     FIL
                               `pfirst`     FiL,
 
@@ -12544,7 +12544,7 @@ lexicon = listing "Lexicon's properties"
     -- nHAz    noHAz   IV_V_intr       be aligned;be biased (politically)
     -- nHz     noHaz   IV_C_intr       be aligned;be biased (politically)
 
-    InFAL                     `verb`    {- AinoHAz -}          [ "be aligned", "be biased (politically)" ],
+    InFAL                     `verb`    {- AinoHAz -}          [ unwords [ "be", "aligned" ], unwords [ "be", "biased", "(", "politically", ")" ] ],
 
     -- ;; {iHotAz_1
     -- <HtAz   {iHotAz PV_V    possess;take possession of
@@ -12554,7 +12554,7 @@ lexicon = listing "Lexicon's properties"
     -- HtAz    HotAz   IV_V    possess;take possession of
     -- Htz     Hotaz   IV_C    possess;take possession of
 
-    IFtAL                     `verb`    {- AiHotAz -}          [ "possess", "take possession of" ],
+    IFtAL                     `verb`    {- AiHotAz -}          [ "possess", unwords [ "take", "possession", "of" ] ],
 
     -- ;; Hawoz_1
     -- Hwz     Hawoz   N       possession;attainment;occupancy
@@ -12568,7 +12568,7 @@ lexicon = listing "Lexicon's properties"
     -- >HwAz   >aHowAz N       surrounding area;suburbs
     -- AHwAz   >aHowAz N       surrounding area;suburbs
 
-    FaCL                      `noun`    {- Hawoz -}            [ "boundary", "enclosure", "surrounding area", "suburbs" ]
+    FaCL                      `noun`    {- Hawoz -}            [ "boundary", "enclosure", unwords [ "surrounding", "area" ], "suburbs" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.hwAz N" ] -},
 
@@ -12586,7 +12586,7 @@ lexicon = listing "Lexicon's properties"
     -- <nHyAz  {inoHiyAz       NduAt   alignment;bias;prejudice (political)
     -- AnHyAz  {inoHiyAz       NduAt   alignment;bias;prejudice (political)
 
-    InFiyAL                   `noun`    {- AinoHiyAz -}        [ "alignment", "bias", "prejudice (political)" ]
+    InFiyAL                   `noun`    {- AinoHiyAz -}        [ "alignment", "bias", unwords [ "prejudice", "(", "political", ")" ] ]
                               `plural`     InFiyAL |< At,
 
     -- ;; HA}iz_1
@@ -12692,7 +12692,7 @@ lexicon = listing "Lexicon's properties"
     -- HyS     HiyS    IV_V    escape;turn away
     -- HS      HiS     IV_C    escape;turn away
 
-    FAL                       `verb`    {- HAS-i -}            [ "escape", "turn away" ]
+    FAL                       `verb`    {- HAS-i -}            [ "escape", unwords [ "turn", "away" ] ]
                               `imperf`     FIL
                               `pfirst`     FiL,
 
@@ -12704,7 +12704,7 @@ lexicon = listing "Lexicon's properties"
     -- nHAS    noHAS   IV_V    escape;turn away
     -- nHS     noHaS   IV_C    escape;turn away
 
-    InFAL                     `verb`    {- AinoHAS -}          [ "escape", "turn away" ],
+    InFAL                     `verb`    {- AinoHAS -}          [ "escape", unwords [ "turn", "away" ] ],
 
     -- ;; HayoS_1
     -- HyS     HayoS   N       escape
@@ -12737,7 +12737,7 @@ lexicon = listing "Lexicon's properties"
     -- <HtyAT  {iHotiyAT       NduAt   reserve (econ., geol., milit., spo.)
     -- AHtyAT  {iHotiyAT       NduAt   reserve (econ., geol., milit., spo.)
 
-    IFtiCAL                   `noun`    {- AiHotiyAT -}        [ "reserve (econ., geol., milit., spo.)" ]
+    IFtiCAL                   `noun`    {- AiHotiyAT -}        [ unwords [ "reserve", "(", "econ.,", "geol.,", "milit.,", "spo.", ")" ] ]
                               `plural`     IFtiCAL |< At
                               `plural`     IFtiyAL |< At,
 
@@ -12759,7 +12759,7 @@ lexicon = listing "Lexicon's properties"
     -- <HtyATy {iHotiyATiy~    NduAt   reserves (econ., geol., milit., spo.)    [[{iHotiyATiy~/NOUN]]
     -- AHtyATy {iHotiyATiy~    NduAt   reserves (econ., geol., milit., spo.)    [[{iHotiyATiy~/NOUN]]
 
-    IFtiCAL |< Iy             `noun`    {- AiHotiyATiy~ -}     [ "reserves (econ., geol., milit., spo.)" ],
+    IFtiCAL |< Iy             `noun`    {- AiHotiyATiy~ -}     [ unwords [ "reserves", "(", "econ.,", "geol.,", "milit.,", "spo.", ")" ] ],
 
     -- ;; muHiyT_1
     -- mHyT    muHiyT  Ndu     Ocean
@@ -12792,7 +12792,7 @@ lexicon = listing "Lexicon's properties"
     -- Hyv     Hayovu  FW-Wa   where;whereby;since;given that     [[Hayovu/CONJ]]
     -- bHyv    biHayovu        FW-Wa   where;whereby;since;given that     [[biHayovu/CONJ]]
 
-    FaCL |<< "u"              `conj`    {- Hayovu -}           [ "where", "whereby", "since", "given that" ],
+    FaCL |<< "u"              `conj`    {- Hayovu -}           [ "where", "whereby", "since", unwords [ "given", "that" ] ],
 
     -- ;; Hayoviy~ap_1
     -- Hyvy    Hayoviy~        Napdu   viewpoint;opinion     [[Hayoviy~/NOUN]]
@@ -12816,7 +12816,7 @@ lexicon = listing "Lexicon's properties"
     -- Hyd     Hay~ad  PV      keep aside;put aside
     -- Hyd     Hay~id  IV_yu   keep aside;put aside
 
-    FaCCaL                    `verb`    {- Hay~ad -}           [ "keep aside", "put aside" ],
+    FaCCaL                    `verb`    {- Hay~ad -}           [ unwords [ "keep", "aside" ], unwords [ "put", "aside" ] ],
 
     -- ;; HAyad_1
     -- HAyd    HAyad   PV      avoid;shun
@@ -12911,7 +12911,7 @@ lexicon = listing "Lexicon's properties"
     -- Hyf     Hiyf    IV_V_intr       be unjust;restrict;encroach
     -- Hf      Hif     IV_C_intr       be unjust;restrict;encroach
 
-    FAL                       `verb`    {- HAf-i -}            [ "be unjust", "restrict", "encroach" ]
+    FAL                       `verb`    {- HAf-i -}            [ unwords [ "be", "unjust" ], "restrict", "encroach" ]
                               `imperf`     FIL
                               `pfirst`     FiL,
 
@@ -12942,7 +12942,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hiyk_1
     -- Hyk     Hiyk    FW      like that!;thus!     [[Hiyk/INTERJ]]
 
-    FIL                       `noun`    {- Hiyk -}             [ "like that!", "thus!" ] ]
+    FIL                       `noun`    {- Hiyk -}             [ unwords [ "like", "that", "!" ], unwords [ "thus", "!" ] ] ]
 
  |> ".h y l" <| [
 
@@ -12952,7 +12952,7 @@ lexicon = listing "Lexicon's properties"
     -- HyAl    HiyAla  FW-Wa-a concerning;with regard to     [[HiyAla/PREP]]
     -- HyAl    HiyAli  FW-Wa-i concerning;with regard to     [[HiyAli/PREP]]
 
-    FiCAL |<< "a"             `prep`    {- HiyAla -}           [ "concerning", "with regard to" ],
+    FiCAL |<< "a"             `prep`    {- HiyAla -}           [ "concerning", unwords [ "with", "regard", "to" ] ],
 
     -- ;; {iHotiyAl_1
     -- <HtyAl  {iHotiyAl       NduAt   fraud;deception;cheating
@@ -12981,7 +12981,7 @@ lexicon = listing "Lexicon's properties"
     -- tHyl    taHay~al        PV      employ artful means;ponder ways and means
     -- tHyl    taHay~al        IV      employ artful means;ponder ways and means
 
-    TaFaCCaL                  `verb`    {- taHay~al -}         [ "employ artful means", "ponder ways and means" ],
+    TaFaCCaL                  `verb`    {- taHay~al -}         [ unwords [ "employ", "artful", "means" ], unwords [ "ponder", "ways", "and", "means" ] ],
 
     -- ;; Hayol_1
     -- Hyl     Hayol   N       strength;force
@@ -13008,7 +13008,7 @@ lexicon = listing "Lexicon's properties"
     -- >Hyl    >aHoyal Nel     craftier;more cunning
     -- AHyl    >aHoyal Nel     craftier;more cunning
 
-    HaFCaL                    `noun`    {- OaHoyal -}          [ "craftier", "more cunning" ],
+    HaFCaL                    `noun`    {- OaHoyal -}          [ "craftier", unwords [ "more", "cunning" ] ],
 
     -- ;; taHay~ul_1
     -- tHyl    taHay~ul        NduAt   trickery
@@ -13065,7 +13065,7 @@ lexicon = listing "Lexicon's properties"
     -- AstHyn  {isotaHoyan     PV-n    wait for the right time
     -- stHyn   sotaHoyin       IV-n    wait for the right time
 
-    IstaFCaL                  `verb`    {- AisotaHoyan -}      [ "wait for the right time" ],
+    IstaFCaL                  `verb`    {- AisotaHoyan -}      [ unwords [ "wait", "for", "the", "right", "time" ] ],
 
     -- ;; Hayon_1
     -- Hyn     Hayon   N       death;destruction
@@ -13105,7 +13105,7 @@ lexicon = listing "Lexicon's properties"
     -- HAq     HAq     IV_V_Pass_yu    be surrounded;be brought down
     -- Hq      Haq     IV_C_Pass_yu    be surrounded;be brought down
 
-    HaFAL                     `verb`    {- OaHAq -}            [ "surround", "bring down", "be brought down" ],
+    HaFAL                     `verb`    {- OaHAq -}            [ "surround", unwords [ "bring", "down" ], unwords [ "be", "brought", "down" ] ],
 
     -- ;; Hayoq_1
     -- Hyq     Hayoq   N       consequence;effect;repercussion
@@ -13120,7 +13120,7 @@ lexicon = listing "Lexicon's properties"
     -- HAr     HAr     IV_V_intr_yu    be confused;be helpless;hesitate
     -- Hr      Har     IV_C_intr       be confused;be helpless;hesitate
 
-    FAL                       `verb`    {- HAr-a -}            [ "be confused", "be helpless", "hesitate" ]
+    FAL                       `verb`    {- HAr-a -}            [ unwords [ "be", "confused" ], unwords [ "be", "helpless" ], "hesitate" ]
                               `pfirst`     FiL,
 
     -- ;; Hay~ar_1
@@ -13133,7 +13133,7 @@ lexicon = listing "Lexicon's properties"
     -- tHyr    taHay~ar        PV_intr be confused;be dismayed;waver
     -- tHyr    taHay~ar        IV_intr be confused;be dismayed;waver
 
-    TaFaCCaL                  `verb`    {- taHay~ar -}         [ "be confused", "be dismayed", "waver" ],
+    TaFaCCaL                  `verb`    {- taHay~ar -}         [ unwords [ "be", "confused" ], unwords [ "be", "dismayed" ], "waver" ],
 
     -- ;; {iHotAr_1
     -- <HtAr   {iHotAr PV_V_intr       become confused;be or become dismayed;waver
@@ -13143,7 +13143,7 @@ lexicon = listing "Lexicon's properties"
     -- HtAr    HotAr   IV_V_intr       become confused;be or become dismayed;waver
     -- Htr     Hotar   IV_C_intr       become confused;be or become dismayed;waver
 
-    IFtAL                     `verb`    {- AiHotAr -}          [ "become confused", "be or become dismayed", "waver" ],
+    IFtAL                     `verb`    {- AiHotAr -}          [ unwords [ "become", "confused" ], unwords [ "be", "or", "become", "dismayed" ], "waver" ],
 
     -- ;; Hayor_1
     -- Hyr     Hayor   N       enclosure;yard
@@ -13213,7 +13213,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HayawAniy~ap_1
     -- HywAny  HayawAniy~      Nap     bestiality;animal nature     [[HayawAniy~/NOUN]]
 
-    FaCaLAn |< Iy |< aT       `noun`    {- HayawAniy~ap -}     [ "bestiality", "animal nature" ] ]
+    FaCaLAn |< Iy |< aT       `noun`    {- HayawAniy~ap -}     [ "bestiality", unwords [ "animal", "nature" ] ] ]
 
  |> ".h y y" <| [
 
@@ -13248,7 +13248,7 @@ lexicon = listing "Lexicon's properties"
     -- HyY     Hay~aY  IV_0_Pass_yu    be granted a long life
     -- Hyy     Hay~ay  IV_Ann_Pass_yu  be granted a long life
 
-    FaCCY                     `verb`    {- Hay~aY -}           [ "grant a long life", "be granted a long life" ],
+    FaCCY                     `verb`    {- Hay~aY -}           [ unwords [ "grant", "a", "long", "life" ], unwords [ "be", "granted", "a", "long", "life" ] ],
 
     -- ;; >aHoyaY_1
     -- >HyY    >aHoyaY PV_0    enliven;celebrate
@@ -13279,7 +13279,7 @@ lexicon = listing "Lexicon's properties"
     -- stHy    sotaHoy IV_0hwnyn       let live;keep alive
     -- stHyY   sotaHoyaY       IV_0_Pass_yu    be allowed to live;be keep alive
 
-    IstaFCY                   `verb`    {- AisotaHoyaY -}      [ "let live", "keep alive", "be allowed to live", "be keep alive" ],
+    IstaFCY                   `verb`    {- AisotaHoyaY -}      [ unwords [ "let", "live" ], unwords [ "keep", "alive" ], unwords [ "be", "allowed", "to", "live" ], unwords [ "be", "keep", "alive" ] ],
 
     -- ;; {isotaHoyaY_2
     -- <stHyY  {isotaHoyaY     PV_0    be embarrassed;be shy
@@ -13293,7 +13293,7 @@ lexicon = listing "Lexicon's properties"
     -- stHyy   sotaHoyiy       IV_0hAnn        be embarrassed;be shy
     -- stHy    sotaHoy IV_0hwnyn       be embarrassed;be shy
 
-    IstaFCY                   `verb`    {- AisotaHoyaY -}      [ "be embarrassed", "be shy", "let live", "keep alive" ],
+    IstaFCY                   `verb`    {- AisotaHoyaY -}      [ unwords [ "be", "embarrassed" ], unwords [ "be", "shy" ], unwords [ "let", "live" ], unwords [ "keep", "alive" ] ],
 
     -- ;; {isotaHaY_2
     -- <stHyY  {isotaHaY     	PV_0    be embarrassed;be shy
@@ -13307,7 +13307,7 @@ lexicon = listing "Lexicon's properties"
     -- stHyy   sotaHiy       	IV_0hAnn        be embarrassed;be shy
     -- stHy    sotaH 	IV_0hwnyn       be embarrassed;be shy
 
-    IstaFY                    `verb`    {- AisotaHaY -}        [ "be embarrassed", "be shy", "let live", "keep alive" ],
+    IstaFY                    `verb`    {- AisotaHaY -}        [ unwords [ "be", "embarrassed" ], unwords [ "be", "shy" ], unwords [ "let", "live" ], unwords [ "keep", "alive" ] ],
 
     -- ;; Hay~_1
     -- Hy      Hay~    N0      Hayy
@@ -13338,7 +13338,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hay~a_1
     -- Hy      Hay~a   FW      come!     [[Hay~a/INTERJ]]
 
-    FaCL |<< "a"              `noun`    {- Hay~a -}            [ "come!" ],
+    FaCL |<< "a"              `noun`    {- Hay~a -}            [ unwords [ "come", "!" ] ],
 
     -- ;; muHoyiy_1
     -- mHyy    muHoyiy Nprop   Muhi
@@ -13450,7 +13450,7 @@ lexicon = listing "Lexicon's properties"
     -- >Hyw    >aHoyaw NAn_Nayn        liveliest;most vital
     -- AHyw    >aHoyaw NAn_Nayn        liveliest;most vital
 
-    HaFCY                     `noun`    {- OaHoyaY -}          [ "livelier/liveliest", "more/most vital", "liveliest", "most vital" ],
+    HaFCY                     `noun`    {- OaHoyaY -}          [ unwords [ "livelier", "/", "liveliest" ], unwords [ "more", "/", "most", "vital" ], "liveliest", unwords [ "most", "vital" ] ],
 
     -- ;; <iHoyA'_1
     -- <HyA'   <iHoyA' N0_Nh   commemoration
@@ -13481,7 +13481,7 @@ lexicon = listing "Lexicon's properties"
     -- tHyz    taHay~az        PV_intr be biased;take sides
     -- tHyz    taHay~az        IV_intr be biased;take sides
 
-    TaFaCCaL                  `verb`    {- taHay~az -}         [ "be biased", "take sides" ],
+    TaFaCCaL                  `verb`    {- taHay~az -}         [ unwords [ "be", "biased" ], unwords [ "take", "sides" ] ],
 
     -- ;; Hay~iz_1
     -- Hyz     Hay~iz  Ndu     scope;domain;sphere
@@ -13509,7 +13509,7 @@ lexicon = listing "Lexicon's properties"
     -- <nHyAz  {inoHiyAz       NduAt   alignment;bias;prejudice (political)
     -- AnHyAz  {inoHiyAz       NduAt   alignment;bias;prejudice (political)
 
-    InFiCAL                   `noun`    {- AinoHiyAz -}        [ "alignment", "bias", "prejudice (political)" ]
+    InFiCAL                   `noun`    {- AinoHiyAz -}        [ "alignment", "bias", unwords [ "prejudice", "(", "political", ")" ] ]
                               `plural`     InFiCAL |< At
                               `plural`     InFiyAL |< At,
 
@@ -13531,19 +13531,19 @@ lexicon = listing "Lexicon's properties"
     -- Hzb     Haz~ab  PV      rally;create a party
     -- Hzb     Haz~ib  IV_yu   rally;create a party
 
-    FaCCaL                    `verb`    {- Haz~ab -}           [ "rally", "create a party" ],
+    FaCCaL                    `verb`    {- Haz~ab -}           [ "rally", unwords [ "create", "a", "party" ] ],
 
     -- ;; HAzab_1
     -- HAzb    HAzab   PV      side;adhere to
     -- HAzb    HAzib   IV_yu   side;adhere to
 
-    FACaL                     `verb`    {- HAzab -}            [ "side", "adhere to" ],
+    FACaL                     `verb`    {- HAzab -}            [ "side", unwords [ "adhere", "to" ] ],
 
     -- ;; taHaz~ab_1
     -- tHzb    taHaz~ab        PV      take sides;join forces
     -- tHzb    taHaz~ab        IV      take sides;join forces
 
-    TaFaCCaL                  `verb`    {- taHaz~ab -}         [ "take sides", "join forces" ],
+    TaFaCCaL                  `verb`    {- taHaz~ab -}         [ unwords [ "take", "sides" ], unwords [ "join", "forces" ] ],
 
     -- ;; Hizob_1
     -- Hzb     Hizob   Ndu     party;band
@@ -13598,7 +13598,7 @@ lexicon = listing "Lexicon's properties"
     -- Hzm     Hazum   PV_intr be resolute;be determined
     -- Hzm     Hozum   IV_intr be resolute;be determined
 
-    FaCuL                     `verb`    {- Hazum-u -}          [ "be resolute", "be determined" ]
+    FaCuL                     `verb`    {- Hazum-u -}          [ unwords [ "be", "resolute" ], unwords [ "be", "determined" ] ]
                               `imperf`     FCuL,
 
     -- ;; Haz~am_1
@@ -13611,14 +13611,14 @@ lexicon = listing "Lexicon's properties"
     -- tHzm    taHaz~am        PV_intr be girded
     -- tHzm    taHaz~am        IV_intr be girded
 
-    TaFaCCaL                  `verb`    {- taHaz~am -}         [ "be girded" ],
+    TaFaCCaL                  `verb`    {- taHaz~am -}         [ unwords [ "be", "girded" ] ],
 
     -- ;; {iHotazam_1
     -- <Htzm   {iHotazam       PV_intr be girded
     -- AHtzm   {iHotazam       PV_intr be girded
     -- Htzm    Hotazim IV_intr be girded
 
-    IFtaCaL                   `verb`    {- AiHotazam -}        [ "be girded" ],
+    IFtaCaL                   `verb`    {- AiHotazam -}        [ unwords [ "be", "girded" ] ],
 
     -- ;; Hazom_1
     -- Hzm     Hazom   N       determination;resoluteness
@@ -13649,7 +13649,7 @@ lexicon = listing "Lexicon's properties"
     -- >Hzm    >aHozam Nel     more/most determined
     -- AHzm    >aHozam Nel     more/most determined
 
-    HaFCaL                    `noun`    {- OaHozam -}          [ "more/most determined" ],
+    HaFCaL                    `noun`    {- OaHozam -}          [ unwords [ "more", "/", "most", "determined" ] ],
 
     -- ;; taHoziym_1
     -- tHzym   taHoziym        NduAt   wrapping;packing
@@ -13695,7 +13695,7 @@ lexicon = listing "Lexicon's properties"
     -- Hzn     Hazin   PV-n_intr       be sad;grieve
     -- Hzn     Hozan   IV-n_intr       be sad;grieve
 
-    FaCiL                     `verb`    {- Hazin-a -}          [ "be sad", "grieve" ]
+    FaCiL                     `verb`    {- Hazin-a -}          [ unwords [ "be", "sad" ], "grieve" ]
                               `imperf`     FCaL,
 
     -- ;; Haz~an_1
@@ -13710,7 +13710,7 @@ lexicon = listing "Lexicon's properties"
     -- Hzn     Hozin   IV-n_yu make sad;sadden;grieve
     -- Hzn     Hozan   IV-n_Pass_yu    be saddened
 
-    HaFCaL                    `verb`    {- OaHozan -}          [ "make sad", "sadden", "grieve" ],
+    HaFCaL                    `verb`    {- OaHozan -}          [ unwords [ "make", "sad" ], "sadden", "grieve" ],
 
     -- ;; Huzon_1
     -- Hzn     Huzon   N       sadness
@@ -13753,7 +13753,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HazonAn_1
     -- HznAn   HazonAn N/ap    very sad;mourning
 
-    FaCLAn                    `noun`    {- HazonAn -}          [ "very sad", "mourning" ],
+    FaCLAn                    `noun`    {- HazonAn -}          [ unwords [ "very", "sad" ], "mourning" ],
 
     -- ;; taHaz~un_1
     -- tHzn    taHaz~un        NduAt   sadness;mourning
@@ -13777,7 +13777,7 @@ lexicon = listing "Lexicon's properties"
     -- Hzq     Hazaq   PV      strap down;tie down
     -- Hzq     Hoziq   IV      strap down;tie down
 
-    FaCaL                     `verb`    {- Hazaq-i -}          [ "strap down", "tie down" ]
+    FaCaL                     `verb`    {- Hazaq-i -}          [ unwords [ "strap", "down" ], unwords [ "tie", "down" ] ]
                               `imperf`     FCiL,
 
     -- ;; Hazuwqap_1
@@ -13853,7 +13853,7 @@ lexicon = listing "Lexicon's properties"
     -- Hz      Haz~    Ndu     nick of time
     -- Hzwz    Huzuwz  N       nick of time
 
-    FaCL                      `noun`    {- Haz~ -}             [ "nick of time" ]
+    FaCL                      `noun`    {- Haz~ -}             [ unwords [ "nick", "of", "time" ] ]
                               `plural`     FuCUL
                            {- `others`  [ ".huzuwz N" ] -},
 
@@ -13900,7 +13900,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HAlamA_1
     -- HAlmA   HAlamA  FW-Wa   as soon as    [[HAlamA/CONJ]]
 
-    Identity                  `conj`    {- HAlamA -}           [ "as soon as" ] ]
+    Identity                  `conj`    {- HAlamA -}           [ unwords [ "as", "soon", "as" ] ] ]
 
  |> ".hAyIm" <| [
 
@@ -13914,14 +13914,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hiyna}i*K_1
     -- Hyn}*   Hiyna}i*K       FW-Wa   then;at the time     [[Hiyna}i*K/ADV]]
 
-    Identity                  `adv`     {- Hiyna}i*K -}        [ "then", "at the time" ] ]
+    Identity                  `adv`     {- Hiyna}i*K -}        [ "then", unwords [ "at", "the", "time" ] ] ]
 
  |> ".hIna_dAk" <| [
 
     -- ;; Hiyna*Ak_1
     -- Hyn*Ak  Hiyna*Ak        FW-Wa   then;at the time     [[Hiyna*Ak/ADV]]
 
-    Identity                  `adv`     {- Hiyna*Ak -}         [ "then", "at the time" ] ]
+    Identity                  `adv`     {- Hiyna*Ak -}         [ "then", unwords [ "at", "the", "time" ] ] ]
 
  |> ".hInamA" <| [
 
@@ -13956,7 +13956,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hab~a*A_1
     -- Hb*A    Hab~a*A FW-Wa   how nice!       [[Hab~a*A/INTERJ]]
 
-    Identity                  `noun`    {- Hab~a*A -}          [ "how nice!" ] ]
+    Identity                  `noun`    {- Hab~a*A -}          [ unwords [ "how", "nice", "!" ] ] ]
 
  |> ".habbahAn" <| [
 
@@ -13970,7 +13970,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HakiymobA$iy_1
     -- HkymbA$y        HakiymobA$iy    N0      senior physician;chief surgeon
 
-    Identity                  `noun`    {- HakiymobA$iy -}     [ "senior physician", "chief surgeon" ] ]
+    Identity                  `noun`    {- HakiymobA$iy -}     [ unwords [ "senior", "physician" ], unwords [ "chief", "surgeon" ] ] ]
 
  |> ".halab^g" <| [
 
@@ -14036,14 +14036,14 @@ lexicon = listing "Lexicon's properties"
     -- HnAnykm HanAnayokum     FW-Wa   mercy! + you [masc.pl.]              [[HanAnay/INTERJ+kum/PRON_2MP]]
     -- HnAnykn HanAnayokun~a   FW-Wa   mercy! + you [fem.pl.]   [[HanAnay/INTERJ+kun~a/PRON_2FP]]
 
-    Identity                  `pron`    {- HanAnay- -}         [ "mercy! + you [masc.sg.]", "mercy! + you [fem.sg.]", "mercy! + you both", "mercy! + you [masc.pl.]", "mercy! + you [fem.pl.]" ] ]
+    Identity                  `pron`    {- HanAnay- -}         [ unwords [ "mercy", "!", "+", "you", "[masc.sg.]" ], unwords [ "mercy", "!", "+", "you", "[fem.sg.]" ], unwords [ "mercy", "!", "+", "you", "both" ], unwords [ "mercy", "!", "+", "you", "[masc.pl.]" ], unwords [ "mercy", "!", "+", "you", "[fem.pl.]" ] ] ]
 
  |> ".handaqUq" <| [
 
     -- ;; Hanodaquwq_1
     -- Hndqwq  Hanodaquwq      N       melilot;sweet clover
 
-    Identity                  `noun`    {- Hanodaquwq -}       [ "melilot", "sweet clover" ] ]
+    Identity                  `noun`    {- Hanodaquwq -}       [ "melilot", unwords [ "sweet", "clover" ] ] ]
 
  |> ".harabAh" <| [
 
@@ -14051,7 +14051,7 @@ lexicon = listing "Lexicon's properties"
     -- HrbAh   HarabAh FW-Wa   oh no!     [[HarabAh/INTERJ]]
     -- wAHrbAh wAHarabAh       FW-Wa   oh no!     [[wAHarabAh/INTERJ]]
 
-    Identity                  `noun`    {- HarabAh -}          [ "oh no!" ] ]
+    Identity                  `noun`    {- HarabAh -}          [ unwords [ "oh", "no", "!" ] ] ]
 
  |> ".hasabamA" <| [
 
@@ -14059,7 +14059,7 @@ lexicon = listing "Lexicon's properties"
     -- HsbmA   HasabamA        FW-Wa   according to         [[HasabamA/CONJ]]
     -- HsbmA   HasobamA        FW-Wa   according to         [[HasobamA/CONJ]]
 
-    Identity                  `conj`    {- HasabamA -}         [ "according to" ] ]
+    Identity                  `conj`    {- HasabamA -}         [ unwords [ "according", "to" ] ] ]
 
  |> ".hasanayn" <| [
 
@@ -14073,7 +14073,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hat~amA_1
     -- HtmA    Hat~amA FW-Wa   until when   [[Hat~amA/CONJ]]
 
-    Identity                  `conj`    {- Hat~amA -}          [ "until when" ] ]
+    Identity                  `conj`    {- Hat~amA -}          [ unwords [ "until", "when" ] ] ]
 
  |> ".hay_tumA" <| [
 
@@ -14111,14 +14111,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; HikimodAr_1
     -- HkmdAr  HikimodAr       N       commandant;chief of police
 
-    Identity                  `noun`    {- HikimodAr -}        [ "commandant", "chief of police" ] ]
+    Identity                  `noun`    {- HikimodAr -}        [ "commandant", unwords [ "chief", "of", "police" ] ] ]
 
  |> ".hikimdar" <| [
 
     -- ;; Hikimodariy~ap_1
     -- Hkmdry  Hikimodariy~    Nap     commandant's office     [[Hikimodariy~/NOUN]]
 
-    Identity |< Iy |< aT      `noun`    {- Hikimodariy~ap -}   [ "commandant's office" ] ]
+    Identity |< Iy |< aT      `noun`    {- Hikimodariy~ap -}   [ unwords [ "commandant's", "office" ] ] ]
 
  |> ".hikmat" <| [
 
@@ -14196,7 +14196,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Huway~in_1
     -- Hwyn    Huway~in        N-ap    small animal
 
-    Identity                  `noun`    {- Huway~in -}         [ "small animal" ] ]
+    Identity                  `noun`    {- Huway~in -}         [ unwords [ "small", "animal" ] ] ]
 
  |> ".huzuqqAn" <| [
 
