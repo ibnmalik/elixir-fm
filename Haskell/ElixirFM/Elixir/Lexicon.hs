@@ -64,7 +64,7 @@ module Elixir.Lexicon (
 
         root,
 
-        verb, noun, adj, pron, adv, prep, conj, part,
+        verb, noun, adj, pron, num, adv, prep, conj, part, intj,
 
         imperf, pfirst, ithird, second,
 
@@ -219,19 +219,21 @@ verb m l = Entry (Verb forms [] [] [] justT justV) (morph m) l
                                     else Nothing
 
 
-noun, adj, pron, adv, prep, conj, part :: (Morphing a b, Nestable b) => a -> Lexref -> Entry b
+noun, adj, pron, num, adv, prep, conj, part, intj :: (Morphing a b, Nestable b) => a -> Lexref -> Entry b
 
 noun m l = Entry (Noun [] Nothing Nothing) (morph m) l
 
 adj  m l = Entry (Adj [] Nothing) (morph m) l
 
 pron = noun
+num = noun
 adv = noun
 prep = noun
 conj = noun
 part = noun
+intj = noun
 
-infixl 3 `verb`, `noun`, `adj`, `pron`, `adv`, `prep`, `conj`, `part`
+infixl 3 `verb`, `noun`, `adj`, `pron`, `num`, `adv`, `prep`, `conj`, `part`, `intj`
 
 
 {-

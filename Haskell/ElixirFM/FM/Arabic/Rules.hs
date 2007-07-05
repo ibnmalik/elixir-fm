@@ -51,11 +51,14 @@ data RootEntry a = RE Root (Entry a)
 -- map (map (uncurry merge) . snd) .
 
 -- prettyInflect :: (Morphing a a, Forming a, Rules a, Template a, Inflect b c) => b a -> c -> IO ()
-prettyInflect x y = (putStr . unlines . map show) (zip tags infs)
+prettyInflect x y = (putStr . unlines . map show) (inflect x y)
+
+{-
+    (putStr . unlines . map show) (zip tags infs)
 
     where infs = inflect x y
           tags = (concat . expandReadTags) y
-
+-}
 
 class Inflect m p where
 

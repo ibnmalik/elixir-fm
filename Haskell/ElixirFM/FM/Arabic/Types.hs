@@ -18,13 +18,8 @@
 module FM.Arabic.Types where
 
 import FM.Generic.General
-import FM.Generic.Invariant
 
 import Data.Char (readLitChar)
-
-
-type Verb = ParaVerb -> Str
-type Noun = ParaNoun -> Str
 
 
 data Tag = TagVerbP             [Voice] [Person] [Gender] [Number]
@@ -32,6 +27,15 @@ data Tag = TagVerbP             [Voice] [Person] [Gender] [Number]
          | TagVerbC                              [Gender] [Number]
          | TagNounS [Humanness] [Voice]          [Gender] [Number] [Case] [State]
          | TagAdjA  [Humanness] [Voice]          [Gender] [Number] [Case] [State]
+         | TagPronP                     [Person] [Gender] [Number] [Case]
+         | TagPronD                              [Gender] [Number] [Case]
+         | TagPronR                              [Gender] [Number] [Case]
+         | TagNum
+         | TagAdv
+         | TagPrep
+         | TagConj
+         | TagPart
+         | TagIntj
          | TagError String
 
     deriving Eq
@@ -62,7 +66,29 @@ instance Show Tag where
                                                  noshowlist, noshowlist, showlist g,
                                                  showlist n, showlist c, showlist s]
 
-    show (TagError s)           = s
+    show (TagPronP p g n c) = "SP" ++ concat [noshowlist, noshowlist,
+                                              noshowlist, showlist p,
+                                              showlist g, showlist n,
+                                              showlist c, noshowlist]
+
+    show (TagPronD   g n c) = "SD" ++ concat [noshowlist, noshowlist,
+                                              noshowlist, noshowlist,
+                                              showlist g, showlist n,
+                                              showlist c, noshowlist]
+
+    show (TagPronR   g n c) = "SR" ++ concat [noshowlist, noshowlist,
+                                              noshowlist, noshowlist,
+                                              showlist g, showlist n,
+                                              showlist c, noshowlist]
+
+    show TagNum         = "Q-" ++ noinflects
+    show TagAdv         = "D-" ++ noinflects
+    show TagPrep        = "P-" ++ noinflects
+    show TagConj        = "C-" ++ noinflects
+    show TagPart        = "F-" ++ noinflects
+    show TagIntj        = "I-" ++ noinflects
+
+    show (TagError s)   = s
 
 
 showlist :: Show a => [a] -> String
@@ -72,6 +98,7 @@ showlist [x] = [show' x]
 showlist xs  = '[' : foldr ((:) . show')  "]" xs
 
 noshowlist = "-"
+noinflects = replicate 8 '-'
 
 
 isTagParaVerb :: Tag -> Bool
@@ -126,7 +153,23 @@ expandTag y = case y of
                                                 c' <- vals c,
                                                 s' <- vals s ]
 
-    _                       ->  []
+    TagPronP     p g n c    ->  map show [ PronP p' g' n' c' |
+                                                p' <- vals p,
+                                                g' <- vals g,
+                                                n' <- vals n,
+                                                c' <- vals c ]
+
+    TagPronD       g n c    ->  map show [ PronD g' n' c' |
+                                                g' <- vals g,
+                                                n' <- vals n,
+                                                c' <- vals c ]
+
+    TagPronR       g n c    ->  map show [ PronR g' n' c' |
+                                                g' <- vals g,
+                                                n' <- vals n,
+                                                c' <- vals c ]
+
+    _                       ->  [show y]
 
     where vals [] = values
           vals vs = vs
@@ -162,8 +205,8 @@ instance Read Tags where
                        (y6, x7) <- readSlot x6, (y7, x8) <- readSlot x7,
                        (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
 
-                let rs = [ r | v0 <- if y0 == "-" then "VNA" else y0,
-                               v1 <- if y1 == "-" then "PIC-" else y1,
+                let rs = [ r | v0 <- if y0 == "-" then "VNASQDPCFI" else y0,
+                               v1 <- if y1 == "-" then "PICDR-" else y1,
                                let r = case [v0,v1] of
 
                                     "VP" -> TagVerbP (readData y3)
@@ -193,6 +236,26 @@ instance Read Tags where
                                                      (readData y7)
                                                      (readData y8)
                                                      (readData y9)
+
+                                    "SP" -> TagPronP (readData y6)
+                                                     (readData y7)
+                                                     (readData y8)
+                                                     (readData y9)
+
+                                    "SD" -> TagPronD (readData y7)
+                                                     (readData y8)
+                                                     (readData y9)
+
+                                    "SR" -> TagPronR (readData y7)
+                                                     (readData y8)
+                                                     (readData y9)
+
+                                    "Q-" -> TagNum
+                                    "D-" -> TagAdv
+                                    "P-" -> TagPrep
+                                    "C-" -> TagConj
+                                    "F-" -> TagPart
+                                    "I-" -> TagIntj
 
                                     _    -> TagError "", r /= TagError "" ] ]
 
@@ -307,8 +370,8 @@ instance Param Number   where values = enum
 
 
 data ParaNoun   = NounS              Number Case State
-                | NounP Voice Gender Number Case State
-                | NounA       Gender Number Case State
+             -- | NounP Voice Gender Number Case State
+             -- | NounA       Gender Number Case State
     deriving Eq
 
 
@@ -326,11 +389,11 @@ instance Show ParaNoun where
 
     show (NounS     n c s) =    "NS-----" ++ [show' n, show' c, show' s]
 
-    show (NounP v g n c s) =    "NP-" ++ [show' v] ++ "--" ++
-                                    [show' g, show' n, show' c, show' s]
+ -- show (NounP v g n c s) =    "NP-" ++ [show' v] ++ "--" ++
+ --                                 [show' g, show' n, show' c, show' s]
 
-    show (NounA   g n c s) =    "NA----" ++
-                                    [show' g, show' n, show' c, show' s]
+ -- show (NounA   g n c s) =    "NA----" ++
+ --                                 [show' g, show' n, show' c, show' s]
 
 
 instance Enum ParaNoun where
@@ -339,6 +402,7 @@ instance Enum ParaNoun where
 
 
 data ParaAdj    = AdjA       Gender Number Case State
+
     deriving Eq
 
 
@@ -438,8 +502,9 @@ newtype Logical a = Logical a
 
     deriving (Eq, Show)
 
+{-
 
-data ParaPron   = PronN Person Gender Number Case
+data ParaPron   = PronP Person Gender Number Case
                 | PronD        Gender Number Case
                 | PronR        Gender Number Case
     deriving Eq
@@ -447,7 +512,7 @@ data ParaPron   = PronN Person Gender Number Case
 
 instance Param ParaPron where
 
-    values  =  [ PronN p g n c | n <- values, p <- values,
+    values  =  [ PronP p g n c | n <- values, p <- values,
                                               g <- values, c <- values ]
             ++ [ PronD   g n c | n <- values, g <- values, c <- values ]
             ++ [ PronR   g n c | n <- values, g <- values, c <- values ]
@@ -455,72 +520,128 @@ instance Param ParaPron where
 
 instance Show ParaPron where
 
-    show (PronN p g n c) =  "SN---" ++
+    show (PronP p g n c) =  "SP---" ++
                                [show' p, show' g, show' n, show' c] ++ "-"
 
     show (PronD   g n c) =  "SD----" ++ [show' g, show' n, show' c] ++ "-"
 
     show (PronR   g n c) =  "SR----" ++ [show' g, show' n, show' c] ++ "-"
 
+-}
 
---instance Inflect ParaPron
+data ParaPronP  = PronP Person Gender Number Case
+
+    deriving Eq
+
+instance Param ParaPronP where
+
+    values  =  [ PronP p g n c | n <- values, p <- values,
+                                              g <- values, c <- values ]
+
+instance Show ParaPronP where
+
+    show (PronP p g n c) =  "SP---" ++
+                               [show' p, show' g, show' n, show' c] ++ "-"
 
 
-------------------------------------------------------------
--- Arabic Adverbs
+data ParaPronD  = PronD        Gender Number Case
 
-data Grade  = Normal
-            | Elative
+    deriving Eq
+
+instance Param ParaPronD where
+
+    values  =  [ PronD   g n c | n <- values, g <- values, c <- values ]
+
+instance Show ParaPronD where
+
+    show (PronD   g n c) =  "SD----" ++ [show' g, show' n, show' c] ++ "-"
+
+
+data ParaPronR  = PronR        Gender Number Case
+
+    deriving Eq
+
+instance Param ParaPronR where
+
+    values  =  [ PronR   g n c | n <- values, g <- values, c <- values ]
+
+instance Show ParaPronR where
+
+    show (PronR   g n c) =  "SR----" ++ [show' g, show' n, show' c] ++ "-"
+
+
+{-
+
+data Grade  = Normal | Elative
+
     deriving (Eq, Enum, Show)
 
 instance Param Grade    where values = enum
 
-
-data AdverbForm = AdverbForm Grade
-    deriving Eq
-
-instance Param AdverbForm where
-    values  = [ AdverbForm g | g <- values ]
-
-instance Show AdverbForm where
-    show (AdverbForm g) = show g
-
-instance Enum AdverbForm
-
-type Adverb = AdverbForm -> Str
+-}
 
 
+data ParaNum = ParaNum  deriving (Eq, Enum)
 
-data ParticleForm = ParticleForm Invariant
-    deriving Eq
+instance Param ParaNum where
 
-instance Param ParticleForm where
-    values     = [ ParticleForm p | p <- values ]
+    values = [ParaNum]
 
-instance Show ParticleForm where
-    show _ = "Invariant"
+instance Show ParaNum where
 
-instance Enum ParticleForm
+    show ParaNum = "Q---------"
 
 
-type Particle   = ParticleForm -> Str
+data ParaAdv = ParaAdv  deriving (Eq, Enum)
+
+instance Param ParaAdv where
+
+    values = [ParaAdv]
+
+instance Show ParaAdv where
+
+    show ParaAdv = "D---------"
 
 
-------------------------------------------------------------
--- Arabic Prepositions
+data ParaPrep = ParaPrep  deriving (Eq, Enum)
+
+instance Param ParaPrep where
+
+    values = [ParaPrep]
+
+instance Show ParaPrep where
+
+    show ParaPrep = "P---------"
 
 
-data PrepForm = PrepForm Invariant
-    deriving Eq
+data ParaConj = ParaConj  deriving (Eq, Enum)
 
-instance Param PrepForm where
-    values     = [ PrepForm p | p <- values ]
+instance Param ParaConj where
 
-instance Show PrepForm where
-    show _  = "Invariant"
+    values = [ParaConj]
 
+instance Show ParaConj where
 
-instance Enum PrepForm
+    show ParaConj = "C---------"
 
 
-type Preposition = PrepForm -> Str
+data ParaPart = ParaPart  deriving (Eq, Enum)
+
+instance Param ParaPart where
+
+    values = [ParaPart]
+
+instance Show ParaPart where
+
+    show ParaPart = "F---------"
+
+
+data ParaIntj = ParaIntj  deriving (Eq, Enum)
+
+instance Param ParaIntj where
+
+    values = [ParaIntj]
+
+instance Show ParaIntj where
+
+    show ParaIntj = "I---------"
