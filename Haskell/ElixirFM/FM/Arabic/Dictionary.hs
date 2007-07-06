@@ -27,7 +27,10 @@ import FM.Generic.Trie
 import FM.Arabic.Types
 import FM.Arabic.Rules
 
-import Elixir.Data.Lexicons
+import Elixir.Data.Buckwalter
+
+-- import Elixir.Data.Lexicons
+
 import Elixir.Lexicon
 import Elixir.Template
 

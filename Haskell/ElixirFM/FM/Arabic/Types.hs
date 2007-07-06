@@ -387,7 +387,7 @@ instance Param ParaNoun where
 
 instance Show ParaNoun where
 
-    show (NounS     n c s) =    "NS-----" ++ [show' n, show' c, show' s]
+    show (NounS     n c s) =    "N------" ++ [show' n, show' c, show' s]
 
  -- show (NounP v g n c s) =    "NP-" ++ [show' v] ++ "--" ++
  --                                 [show' g, show' n, show' c, show' s]
@@ -414,7 +414,7 @@ instance Param ParaAdj where
 
 instance Show ParaAdj where
 
-    show (AdjA   g n c s) =     "AA----" ++
+    show (AdjA   g n c s) =     "A-----" ++
                                     [show' g, show' n, show' c, show' s]
 
 

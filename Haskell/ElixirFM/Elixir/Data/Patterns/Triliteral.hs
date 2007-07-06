@@ -120,7 +120,7 @@ instance Forming PatternT where
                             XV      ->  [IFCanLY ..]
 
    -- Fischer (2001), par. 239 (ra'Y, wa'Y), 258 (ya.hyY, ista.hY), 224 (participles)
-   -- Fischer (2001), par. 243 (uy > uu), 33 ff (combinatory phonology)
+   -- Fischer (2001), par. 243 (uy > uu), 33 ff (combinatory phonology), 250 (types)
    -- Fischer (2001), par. 208, 218, 220 (inflecting IX-3, XI-3, and IV-4 verbs)
 
     verbStems I r
