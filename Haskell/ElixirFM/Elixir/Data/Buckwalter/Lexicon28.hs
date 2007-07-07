@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "y ' '" <| [
@@ -145,6 +148,10 @@ lexicon = listing "Lexicon's properties"
     -- y$b     ya$ob   N       jasper
 
     FaCL                      `noun`    {- ya$ob -}            [ "jasper" ] ]
+
+
+section_2   = listing "Lexicon's properties"
+
 
  |> "y ^s m" <| [
 
@@ -307,6 +314,10 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- yafoTap -}          [ "placard", "sign" ]
                               `plural`     FACL |< At ]
 
+
+section_3   = listing "Lexicon's properties"
+
+
  |> "y f _h" <| [
 
     -- ;; yAfuwx_1
@@ -433,6 +444,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- yamAm -}            [ "pigeon", "dove" ]
                               `plural`     FaCAL |< At ]
+
+
+section_4   = listing "Lexicon's properties"
+
 
  |> "y m n" <| [
 
@@ -626,6 +641,10 @@ lexicon = listing "Lexicon's properties"
 
     FACUL                     `noun`    {- yAmuwn -}           [ "Yamoun" ] ]
 
+
+section_5   = listing "Lexicon's properties"
+
+
  |> "y n ^s" <| [
 
     -- ;; yuwnA$_1
@@ -720,6 +739,10 @@ lexicon = listing "Lexicon's properties"
     -- ynA}r   yanA}ir N0      January
 
     KaRADiS                   `noun`    {- yanAyir -}          [ "January" ] ]
+
+
+section_6   = listing "Lexicon's properties"
+
 
  |> "y q .z" <| [
 
@@ -828,6 +851,10 @@ lexicon = listing "Lexicon's properties"
     -- mstyqZ  musotayoqiZ     Nall    awake     [[musotayoqiZ/ADJ]]
 
     MustaFCiL                 `adj`     {- musotayoqiZ -}      [ "awake" ] ]
+
+
+section_7   = listing "Lexicon's properties"
+
 
  |> "y q n" <| [
 
@@ -951,6 +978,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `adj`     {- yarAE -}            [ "cowardly" ] ]
 
+
+section_8   = listing "Lexicon's properties"
+
+
  |> "y r d" <| [
 
     -- ;; yArodap_1
@@ -1035,6 +1066,10 @@ lexicon = listing "Lexicon's properties"
     -- myswn   mayosuwn        Nprop   Maysoun;Maisoun
 
     MaFCUL                    `noun`    {- mayosuwn -}         [ "Maysoun", "Maisoun" ] ]
+
+
+section_9   = listing "Lexicon's properties"
+
 
  |> "y s r" <| [
 
@@ -1204,6 +1239,10 @@ lexicon = listing "Lexicon's properties"
 
     MutaFaCCiL                `noun`    {- mutayas~ir -}       [ unwords [ "well", "-", "to", "-", "do" ] ] ]
 
+
+section_10  = listing "Lexicon's properties"
+
+
  |> "y s r y" <| [
 
     -- ;; yusoriy_1
@@ -1307,6 +1346,10 @@ lexicon = listing "Lexicon's properties"
     -- ywd     yuwd    N       iodine
 
     FaCCaL                    `verb`    {- yaw~ad -}           [ "iodize", "iodine" ] ]
+
+
+section_11  = listing "Lexicon's properties"
+
 
  |> "y w m" <| [
 
@@ -1429,6 +1472,10 @@ lexicon = listing "Lexicon's properties"
     -- ywrw    yuwruw  N0      Euro
 
     KuRDU                     `noun`    {- yuwruw -}           [ "Euro" ] ]
+
+
+section_12  = listing "Lexicon's properties"
+
 
  |> "y w r y" <| [
 
@@ -1569,6 +1616,10 @@ lexicon = listing "Lexicon's properties"
     -- yAnA    yAnA    Nprop   Jana
 
     Identity                  `noun`    {- yAnA -}             [ "" {- "Jana" -} ] ]
+
+
+section_13  = listing "Lexicon's properties"
+
 
  |> "yAnA.gIsAwA" <| [
 
@@ -1727,6 +1778,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- yuwnog -}           [ "" {- "Young" -} ] ]
 
+
+section_14  = listing "Lexicon's properties"
+
+
  |> "yUnAytid" <| [
 
     -- ;; yuwnAyotid_1
@@ -1879,6 +1934,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- yilotsin -}         [ "" {- "Yeltsin" -} ] ]
 
+
+section_15  = listing "Lexicon's properties"
+
+
  |> "yits.hAk" <| [
 
     -- ;; yitsoHAk_1
@@ -1899,4 +1958,21 @@ lexicon = listing "Lexicon's properties"
     -- ywmblgAz        ywmblgAz        Nprop   Iompelgas ??
 
     Identity                  `noun`    {- ywmblgAz -}         [ unwords [ "" {- "Iompelgas" -}, "?", "?" ] ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15 ]
 

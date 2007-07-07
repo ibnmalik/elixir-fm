@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "d ' b" <| [
@@ -77,6 +80,10 @@ lexicon = listing "Lexicon's properties"
 
     FiCL |< aT                `noun`    {- dijolap -}          [ "Tigris" ] ]
 
+
+section_2   = listing "Lexicon's properties"
+
+
  |> "d ^g n" <| [
 
     FawACiL                   `noun`    {- dawAjin -}          [ "poultry" ] ]
@@ -87,6 +94,10 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- tado$iyn -}         [ "consecration", "dedication", "inauguration" ]
                               `plural`     TaFCIL |< At ]
+
+
+section_3   = listing "Lexicon's properties"
+
 
  |> "d _h l" <| [
 
@@ -135,6 +146,10 @@ lexicon = listing "Lexicon's properties"
     MuFCaL                    `noun`    {- mudoxal -}          [ "introduction" ],
 
     MutaFaCCiL                `noun`    {- mutadax~il -}       [ "intervening", "interfering" ] ]
+
+
+section_4   = listing "Lexicon's properties"
+
 
  |> "d _h n" <| [
 
@@ -200,6 +215,10 @@ lexicon = listing "Lexicon's properties"
     FaCAL |< aT               `noun`    {- daEArap -}          [ "indecency", "immorality" ]
                               `plural`     FiCAL |< aT ]
 
+
+section_5   = listing "Lexicon's properties"
+
+
  |> "d ` w" <| [
 
     FaCA                      `verb`    {- daEA-u -}           [ "call", "invite" ]
@@ -254,6 +273,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MuFtaCI |< At,
 
     MuFtaCY                   `noun`    {- mud~aEaY -}         [ "defendant" ] ]
+
+
+section_6   = listing "Lexicon's properties"
+
 
  |> "d ` y" <| [
 
@@ -313,6 +336,10 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- dAfi} -}            [ "warm" ] ]
 
+
+section_7   = listing "Lexicon's properties"
+
+
  |> "d f `" <| [
 
     FaCaL                     `verb`    {- dafaE-a -}          [ "push", "motivate", "pay" ]
@@ -368,6 +395,10 @@ lexicon = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- madofuwE -}         [ "paid" ],
 
     MuFACiL                   `noun`    {- mudAfiE -}          [ "defender", "advocate" ] ]
+
+
+section_8   = listing "Lexicon's properties"
+
 
  |> "d f f" <| [
 
@@ -429,6 +460,10 @@ lexicon = listing "Lexicon's properties"
     FACaL                     `verb`    {- dAham -}            [ "raid", "attack", "storm", "surprise" ],
 
     MuFACaL |< aT             `noun`    {- mudAhamap -}        [ "raid", "storming", "search" ] ]
+
+
+section_9   = listing "Lexicon's properties"
+
 
  |> "d h n" <| [
 
@@ -504,6 +539,10 @@ lexicon = listing "Lexicon's properties"
 
     KiRDI                     `noun`    {- dilohiy -}          [ "Delhi" ] ]
 
+
+section_10  = listing "Lexicon's properties"
+
+
  |> "d l l" <| [
 
     FaCL                      `verb`    {- dal~-u -}           [ "point", "indicate" ]
@@ -555,6 +594,10 @@ lexicon = listing "Lexicon's properties"
     FiCAL                     `noun`    {- dimAg -}            [ "brain" ]
                               `plural`     HaFCiL |< aT ]
 
+
+section_11  = listing "Lexicon's properties"
+
+
  |> "d m ^g" <| [
 
     HaFCaL                    `verb`    {- Oadomaj -}          [ "insert", "incorporate", "interpolate", "integrate" ],
@@ -605,6 +648,10 @@ lexicon = listing "Lexicon's properties"
     MuFaCCiL                  `adj`     {- mudam~ir -}         [ "destructive" ],
 
     MuFaCCaL                  `adj`     {- mudam~ar -}         [ "destroyed" ] ]
+
+
+section_12  = listing "Lexicon's properties"
+
 
  |> "d m y" <| [
 
@@ -674,6 +721,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCAL
                            {- `others`  [ "diqAl N" ] -} ]
 
+
+section_13  = listing "Lexicon's properties"
+
+
  |> "d q q" <| [
 
     FaCL                      `verb`    {- daq~-i -}           [ unwords [ "be", "minute" ], unwords [ "be", "fragile" ] ]
@@ -715,6 +766,10 @@ lexicon = listing "Lexicon's properties"
  |> "d r .g m" <| [
 
     KiRDAS                    `noun`    {- dirogAm -}          [ "Dirgham" ] ]
+
+
+section_14  = listing "Lexicon's properties"
+
 
  |> "d r ^g" <| [
 
@@ -769,6 +824,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL |< aT            `noun`    {- mudar~aEap -}       [ unwords [ "armored", "vehicle" ] ] ]
 
+
+section_15  = listing "Lexicon's properties"
+
+
  |> "d r b" <| [
 
     FaCCaL                    `verb`    {- dar~ab -}           [ "habituate", unwords [ "give", "training" ], "coach" ],
@@ -822,6 +881,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCL                      `noun`    {- dur~ -}             [ "pearl" ]
                               `plural`     FuCL |< At ]
+
+
+section_16  = listing "Lexicon's properties"
+
 
  |> "d r s" <| [
 
@@ -878,6 +941,10 @@ lexicon = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- dirAyap -}          [ "knowledge", "knowing" ],
 
     HaFCY                     `noun`    {- OadoraY -}          [ unwords [ "more", "/", "most", "knowledgeable" ], unwords [ "more", "/", "most", "informed" ] ] ]
+
+
+section_17  = listing "Lexicon's properties"
+
 
  |> "d r z" <| [
 
@@ -936,6 +1003,10 @@ lexicon = listing "Lexicon's properties"
 
     FUL                       `noun`    {- duwk -}             [ "Duke" ] ]
 
+
+section_18  = listing "Lexicon's properties"
+
+
  |> "d w l" <| [
 
     TaFACaL                   `verb`    {- tadAwal -}          [ "alternate", "parley", "circulate" ],
@@ -974,6 +1045,10 @@ lexicon = listing "Lexicon's properties"
     KuRDAS                    `noun`    {- duwlAr -}           [ "dollar" ],
 
     KuRDAS |< Iy              `adj`     {- duwlAriy~ -}        [ "dollar", unwords [ "dollar", "-", "based" ] ] ]
+
+
+section_19  = listing "Lexicon's properties"
+
 
  |> "d w m" <| [
 
@@ -1019,6 +1094,10 @@ lexicon = listing "Lexicon's properties"
     MuFaCCaL                  `noun`    {- mudaw~an -}         [ "record", "entry", "document" ],
 
     FUL                       `noun`    {- duwn -}             [ "inferior", "poor" ] ]
+
+
+section_20  = listing "Lexicon's properties"
+
 
  |> "d w r" <| [
 
@@ -1084,6 +1163,10 @@ lexicon = listing "Lexicon's properties"
     MuFIL |< Iy |< aT         `noun`    {- mudiyriy~ap -}      [ "district", "province" ],
 
     MustaFIL                  `noun`    {- musotadiyr -}       [ "round", "circular" ] ]
+
+
+section_21  = listing "Lexicon's properties"
+
 
  |> "d w s" <| [
 
@@ -1157,6 +1240,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRDI                     `noun`    {- dayoliy -}          [ "Daily" ] ]
 
+
+section_22  = listing "Lexicon's properties"
+
+
  |> "d y m" <| [
 
     FACiL                     `noun`    {- dAyim -}            [ "Dayim" ],
@@ -1212,6 +1299,10 @@ lexicon = listing "Lexicon's properties"
  |> "d y n s" <| [
 
     KiRDIS                    `noun`    {- diyniys -}          [ "Dennis" ] ]
+
+
+section_23  = listing "Lexicon's properties"
+
 
  |> "d y r" <| [
 
@@ -1279,6 +1370,10 @@ lexicon = listing "Lexicon's properties"
  |> "dIbUrtIfU" <| [
 
     Identity                  `noun`    {- diybuwrotiyfuw -}   [ "Deportivo" ] ]
+
+
+section_24  = listing "Lexicon's properties"
+
 
  |> "dIktAtUr" <| [
 
@@ -1349,6 +1444,10 @@ lexicon = listing "Lexicon's properties"
  |> "dUstum" <| [
 
     Identity                  `noun`    {- duwsotum -}         [ "Dustum" ] ]
+
+
+section_25  = listing "Lexicon's properties"
+
 
  |> "damanhUr" <| [
 
@@ -1423,4 +1522,31 @@ lexicon = listing "Lexicon's properties"
  |> "duktUrY" <| [
 
     Identity |< aT            `noun`    {- dukotuwrAp -}       [ "doctorate" ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15,
+             section_16,
+             section_17,
+             section_18,
+             section_19,
+             section_20,
+             section_21,
+             section_22,
+             section_23,
+             section_24,
+             section_25 ]
 

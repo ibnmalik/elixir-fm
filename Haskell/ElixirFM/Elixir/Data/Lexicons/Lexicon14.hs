@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> ".s ' .g" <| [
@@ -73,6 +76,10 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `adj`     {- SAgiy -}            [ "attentive", "listening" ] ]
 
+
+section_2   = listing "Lexicon's properties"
+
+
  |> ".s .h .h" <| [
 
     FaCL                      `verb`    {- SaH~-i -}           [ unwords [ "be", "correct" ], unwords [ "be", "true" ] ]
@@ -121,6 +128,10 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ ".su.hbAn N", "'a.s.hAb N" ] -},
 
     MaFCUL                    `adj`     {- maSoHuwb -}         [ "accompanied" ] ]
+
+
+section_3   = listing "Lexicon's properties"
+
 
  |> ".s .h f" <| [
 
@@ -180,6 +191,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Saxor -}            [ "Sakhr" ] ]
 
+
+section_4   = listing "Lexicon's properties"
+
+
  |> ".s ` b" <| [
 
     FaCuL                     `verb`    {- SaEub-u -}          [ unwords [ "be", "difficult" ] ]
@@ -232,6 +247,10 @@ lexicon = listing "Lexicon's properties"
 
     MutaFACiL                 `noun`    {- mutaSAEid -}        [ "rising", "ascending" ] ]
 
+
+section_5   = listing "Lexicon's properties"
+
+
  |> ".s ` q" <| [
 
     FaCaL                     `verb`    {- SaEaq-a -}          [ "stun", "strike" ]
@@ -282,6 +301,10 @@ lexicon = listing "Lexicon's properties"
     HiFCaL                    `noun`    {- IiSobaE -}          [ "finger" ]
                               `plural`     HaFACiL
                            {- `others`  [ "'a.sAbi` Ndip" ] -} ]
+
+
+section_6   = listing "Lexicon's properties"
+
 
  |> ".s b b" <| [
 
@@ -346,6 +369,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- Sadad -}            [ "respect", "regard", "purpose" ] ]
 
+
+section_7   = listing "Lexicon's properties"
+
+
  |> ".s d f" <| [
 
     FACaL                     `verb`    {- SAdaf -}            [ "coincide", "concur", "encounter" ],
@@ -381,6 +408,10 @@ lexicon = listing "Lexicon's properties"
     IFtiCAL                   `noun`    {- AiSoTidAm -}        [ "collision", "shock", "impact" ]
                               `plural`     IFtiCAL |< At ]
 
+
+section_8   = listing "Lexicon's properties"
+
+
  |> ".s d q" <| [
 
     FaCCaL                    `verb`    {- Sad~aq -}           [ "believe", unwords [ "give", "credence", "to" ], "confirm" ],
@@ -413,6 +444,10 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`    {- SAdiq -}            [ "veracious", "truthful" ],
 
     FACiL                     `noun`    {- SAdiq -}            [ "Sadiq" ] ]
+
+
+section_9   = listing "Lexicon's properties"
+
 
  |> ".s d r" <| [
 
@@ -463,6 +498,10 @@ lexicon = listing "Lexicon's properties"
     MuFACaL                   `noun`    {- muSAdar -}          [ "confiscated", "requisitioned" ],
 
     MutaFaCCiL                `adj`     {- mutaSad~ir -}       [ "presiding", "leading", "heading" ] ]
+
+
+section_10  = listing "Lexicon's properties"
+
 
  |> ".s d y" <| [
 
@@ -527,6 +566,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACL
                            {- `others`  [ "ma.sAff Ndip" ] -} ]
 
+
+section_11  = listing "Lexicon's properties"
+
+
  |> ".s f q" <| [
 
     FaCL |< aT                `noun`    {- Safoqap -}          [ "deal", "transaction" ]
@@ -562,6 +605,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCL |< At,
 
     FiCL |< Iy                `adj`     {- Siforiy~ -}         [ "null", "negative" ] ]
+
+
+section_12  = listing "Lexicon's properties"
+
 
  |> ".s f w" <| [
 
@@ -600,6 +647,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MuFtaCY |< At,
 
     MuFtaCY                   `noun`    {- muSoTafaY -}        [ unwords [ "chosen", "one", "(", "Muhammad", ")" ] ] ]
+
+
+section_13  = listing "Lexicon's properties"
+
 
  |> ".s f y" <| [
 
@@ -648,6 +699,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCAL
                               `plural`     FuCUL
                            {- `others`  [ ".sikAk N", ".sukuwk N" ] -} ]
+
+
+section_14  = listing "Lexicon's properties"
+
 
  |> ".s l .h" <| [
 
@@ -703,6 +758,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCaL                  `noun`    {- muSoTalaH -}        [ unwords [ "technical", "term" ], "terminology" ]
                               `plural`     MuFtaCaL |< At ]
+
+
+section_15  = listing "Lexicon's properties"
+
 
  |> ".s l b" <| [
 
@@ -765,6 +824,10 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- SAmid -}            [ "steadfast", "resistant" ] ]
 
+
+section_16  = listing "Lexicon's properties"
+
+
  |> ".s m m" <| [
 
     FaCCaL                    `verb`    {- Sam~am -}           [ unwords [ "be", "determined" ], unwords [ "be", "persistent" ] ],
@@ -802,6 +865,10 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `adj`     {- SAmit -}            [ "silent" ]
                               `plural`     FawACiL
                            {- `others`  [ ".sawAmit Ndip" ] -} ]
+
+
+section_17  = listing "Lexicon's properties"
+
 
  |> ".s n `" <| [
 
@@ -855,6 +922,10 @@ lexicon = listing "Lexicon's properties"
  |> ".s n d y" <| [
 
     KaRDAS                    `noun`    {- SanodAy -}          [ "Sunday" ] ]
+
+
+section_18  = listing "Lexicon's properties"
+
 
  |> ".s n f" <| [
 
@@ -920,6 +991,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRDUS                    `noun`    {- SaroSuwr -}         [ "Sarsour" ] ]
 
+
+section_19  = listing "Lexicon's properties"
+
+
  |> ".s r _h" <| [
 
     FaCaL                     `verb`    {- Sarax-u -}          [ "shout", "scream" ]
@@ -960,6 +1035,10 @@ lexicon = listing "Lexicon's properties"
     FiCL |< Iy                `adj`     {- Sirobiy~ -}         [ "Serbian" ]
                               `plural`     FiCL
                            {- `others`  [ ".sirb N" ] -} ]
+
+
+section_20  = listing "Lexicon's properties"
+
 
  |> ".s r f" <| [
 
@@ -1009,6 +1088,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HiFCAL |< At,
 
     MuFiCL                    `adj`     {- muSir~ -}           [ "determined", "insistent" ] ]
+
+
+section_21  = listing "Lexicon's properties"
+
 
  |> ".s w .g" <| [
 
@@ -1068,6 +1151,10 @@ lexicon = listing "Lexicon's properties"
 
     MutaFaCCiL                `noun`    {- mutaSaw~if -}       [ "Sufi", unwords [ "Muslim", "mystic" ] ] ]
 
+
+section_22  = listing "Lexicon's properties"
+
+
  |> ".s w m" <| [
 
     FAL                       `verb`    {- SAm-u -}            [ "abstain", "fast" ]
@@ -1098,6 +1185,10 @@ lexicon = listing "Lexicon's properties"
                               `pfirst`     FuL,
 
     FaCL                      `noun`    {- Sawon -}            [ "maintenance", "preservation", "protection" ] ]
+
+
+section_23  = listing "Lexicon's properties"
+
 
  |> ".s w r" <| [
 
@@ -1151,6 +1242,10 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- taSowiyt -}         [ "voting" ]
                               `plural`     TaFCIL |< At ]
+
+
+section_24  = listing "Lexicon's properties"
+
 
  |> ".s y .g" <| [
 
@@ -1225,6 +1320,10 @@ lexicon = listing "Lexicon's properties"
 
     MaFIL |< Iy               `adj`     {- maSiyriy~ -}        [ "crucial", "decisive", "fateful" ] ]
 
+
+section_25  = listing "Lexicon's properties"
+
+
  |> ".s y r f" <| [
 
     KaRDaS |< Iy              `noun`    {- Sayorafiy~ -}       [ unwords [ "money", "changer" ], "cashier" ]
@@ -1269,4 +1368,31 @@ lexicon = listing "Lexicon's properties"
  |> "ta.sfY" <| [
 
     Identity |< Iy            `adj`     {- taSofawiy~ -}       [ "definitive", "radical" ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15,
+             section_16,
+             section_17,
+             section_18,
+             section_19,
+             section_20,
+             section_21,
+             section_22,
+             section_23,
+             section_24,
+             section_25 ]
 

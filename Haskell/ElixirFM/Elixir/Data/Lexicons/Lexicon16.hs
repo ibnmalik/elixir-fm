@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> ".t  '" <| [
@@ -74,6 +77,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACiL
                            {- `others`  [ "ma.t.han Napdu", "ma.tA.hin Ndip" ] -} ]
 
+
+section_2   = listing "Lexicon's properties"
+
+
  |> ".t ` m" <| [
 
     FaCL                      `noun`    {- TaEom -}            [ "taste", "food" ],
@@ -110,6 +117,10 @@ lexicon = listing "Lexicon's properties"
     MaFCaL                    `noun`    {- maTobax -}          [ "kitchen" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma.tAbi_h Ndip" ] -} ]
+
+
+section_3   = listing "Lexicon's properties"
+
 
  |> ".t b `" <| [
 
@@ -169,6 +180,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCUL
                               `plural`     HaFCAL
                            {- `others`  [ ".tubuwl N", "'a.tbAl N" ] -} ]
+
+
+section_4   = listing "Lexicon's properties"
+
 
  |> ".t b q" <| [
 
@@ -234,6 +249,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCUL |< aT               `noun`    {- Tufuwlap -}         [ "infancy" ] ]
 
+
+section_5   = listing "Lexicon's properties"
+
+
  |> ".t f r" <| [
 
     FaCL |< aT                `noun`    {- Taforap -}          [ "leap", "jump" ]
@@ -281,6 +300,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCY |< aT
                               `plural`     FACI |< At ]
 
+
+section_6   = listing "Lexicon's properties"
+
+
  |> ".t l `" <| [
 
     FaCaL                     `verb`    {- TalaE-u -}          [ "appear", "rise" ]
@@ -321,6 +344,10 @@ lexicon = listing "Lexicon's properties"
     IstiFCAL |< Iy            `adj`     {- AisotiTolAEiy~ -}   [ "reconnaissance" ],
 
     MuFtaCiL                  `adj`     {- muT~aliE -}         [ unwords [ "well", "-", "informed" ], "observer" ] ]
+
+
+section_7   = listing "Lexicon's properties"
+
 
  |> ".t l b" <| [
 
@@ -374,6 +401,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFiCL                    `adj`     {- muTil~ -}           [ "overlooking", "facing" ] ]
 
+
+section_8   = listing "Lexicon's properties"
+
+
  |> ".t l q" <| [
 
     FaCaL                     `verb`    {- Talaq-u -}          [ unwords [ "let", "go" ] ]
@@ -418,6 +449,10 @@ lexicon = listing "Lexicon's properties"
  |> ".t l s" <| [
 
     FaCAL                     `noun`    {- TalAs -}            [ "Tlas" ] ]
+
+
+section_9   = listing "Lexicon's properties"
+
 
  |> ".t m ' n" <| [
 
@@ -496,6 +531,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACiL
                            {- `others`  [ "'a.tqum N", ".tawAqim Ndip" ] -} ]
 
+
+section_10  = listing "Lexicon's properties"
+
+
  |> ".t q s" <| [
 
     FaCL                      `noun`    {- Taqos -}            [ "weather", "climate" ],
@@ -544,6 +583,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KuRDIS |< At
                               `plural`     KaRADIS
                            {- `others`  [ ".tarAbiyd Ndip" ] -} ]
+
+
+section_11  = listing "Lexicon's properties"
+
 
  |> ".t r d" <| [
 
@@ -595,6 +638,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     MutaFaCCiL                `noun`    {- mutaTar~if -}       [ "extremist", "radical" ] ]
+
+
+section_12  = listing "Lexicon's properties"
+
 
  |> ".t r q" <| [
 
@@ -650,6 +697,10 @@ lexicon = listing "Lexicon's properties"
 
     HiFAL |< aT               `noun`    {- IiTAHap -}          [ "overthrow", "topple" ] ]
 
+
+section_13  = listing "Lexicon's properties"
+
+
  |> ".t w `" <| [
 
     TaFaCCaL                  `verb`    {- taTaw~aE -}         [ "volunteer" ],
@@ -699,6 +750,10 @@ lexicon = listing "Lexicon's properties"
     FA'iL |< Iy               `adj`     {- TA}ifiy~ -}         [ "sectarian", "factional", "sectarianism", "factionalism" ],
 
     MaFAL                     `noun`    {- maTAf -}            [ "consequence", "upshot" ] ]
+
+
+section_14  = listing "Lexicon's properties"
+
 
  |> ".t w l" <| [
 
@@ -751,6 +806,10 @@ lexicon = listing "Lexicon's properties"
  |> ".t w n y" <| [
 
     KuRDI                     `noun`    {- Tuwniy -}           [ "Tony" ] ]
+
+
+section_15  = listing "Lexicon's properties"
+
 
  |> ".t w q" <| [
 
@@ -808,6 +867,10 @@ lexicon = listing "Lexicon's properties"
  |> ".t y `" <| [
 
     FaCCiL                    `adj`     {- Tay~iE -}           [ "compliant" ] ]
+
+
+section_16  = listing "Lexicon's properties"
+
 
  |> ".t y b" <| [
 
@@ -873,6 +936,10 @@ lexicon = listing "Lexicon's properties"
     FA'iL |< aT               `noun`    {- TA}irap -}          [ "aircraft", "airplane" ],
 
     MuFaCL |< Iy              `adj`     {- muTayoriy~ -}       [ "Mutairi" ] ]
+
+
+section_17  = listing "Lexicon's properties"
+
 
  |> ".t y y" <| [
 
@@ -945,4 +1012,23 @@ lexicon = listing "Lexicon's properties"
  |> ".tum'anIn" <| [
 
     Identity |< aT            `noun`    {- TumoOaniynap -}     [ "calm", "tranquillity" ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15,
+             section_16,
+             section_17 ]
 

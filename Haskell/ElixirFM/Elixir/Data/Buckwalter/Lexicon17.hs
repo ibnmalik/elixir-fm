@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> ".z  '" <| [
@@ -90,6 +93,10 @@ lexicon = listing "Lexicon's properties"
     -- ZbyAny  ZuboyAniy~      Nall    from/of Abu Dhabi     [[ZuboyAniy~/ADJ]]
 
     FuCLAn |< Iy              `adj`     {- ZuboyAniy~ -}       [ unwords [ "from", "/", "of", "Abu", "Dhabi" ] ] ]
+
+
+section_2   = listing "Lexicon's properties"
+
 
  |> ".z f r" <| [
 
@@ -186,6 +193,10 @@ lexicon = listing "Lexicon's properties"
     -- Zfyry   Zufayoriy~      N0      Zufairi
 
     FuCayL |< Iy              `adj`     {- Zufayoriy~ -}       [ "Zufairi" ] ]
+
+
+section_3   = listing "Lexicon's properties"
+
 
  |> ".z h r" <| [
 
@@ -415,6 +426,10 @@ lexicon = listing "Lexicon's properties"
 
     MutaFACiL                 `noun`    {- mutaZAhir -}        [ "demonstrator" ] ]
 
+
+section_4   = listing "Lexicon's properties"
+
+
  |> ".z l `" <| [
 
     -- ;; ZalaE-a_1
@@ -556,6 +571,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFiCL                    `adj`     {- muZil~ -}           [ "shady", "shadowy" ] ]
 
+
+section_5   = listing "Lexicon's properties"
+
+
  |> ".z l m" <| [
 
     -- ;; Zalam-i_1
@@ -684,6 +703,10 @@ lexicon = listing "Lexicon's properties"
     -- mZlm    muZolim Nall    dark;gloomy     [[muZolim/ADJ]]
 
     MuFCiL                    `adj`     {- muZolim -}          [ "dark", "gloomy" ] ]
+
+
+section_6   = listing "Lexicon's properties"
+
 
  |> ".z m '" <| [
 
@@ -827,6 +850,10 @@ lexicon = listing "Lexicon's properties"
 
     FiCLAn                    `noun`    {- ZirobAn -}          [ "polecat", "fitchew" ] ]
 
+
+section_7   = listing "Lexicon's properties"
+
+
  |> ".z r f" <| [
 
     -- ;; Zaruf-u_1
@@ -948,6 +975,10 @@ lexicon = listing "Lexicon's properties"
 
     FiCCAL                    `noun`    {- Zir~An -}           [ "flint" ] ]
 
+
+section_8   = listing "Lexicon's properties"
+
+
  |> ".z r r" <| [
 
     -- ;; Zir~_1
@@ -967,4 +998,14 @@ lexicon = listing "Lexicon's properties"
     -- mZAn    maZAn~  Ndip    presumptions;prejudices
 
     Identity |< aT            `noun`    {- maZin~ap -}         [ "presumption", "prejudice" ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8 ]
 

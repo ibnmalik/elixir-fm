@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "_d" <| [
@@ -114,6 +117,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                               `plural`     FuCUL
                            {- `others`  [ "'a_d.hAl N", "_du.huwl N" ] -} ]
+
+
+section_2   = listing "Lexicon's properties"
+
 
  |> "_d _h r" <| [
 
@@ -241,6 +248,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- \*aEoq -}           [ "frightening", "startling" ] ]
 
+
+section_3   = listing "Lexicon's properties"
+
+
  |> "_d ` r" <| [
 
     -- ;; *aEar-a_1
@@ -339,6 +350,10 @@ lexicon = listing "Lexicon's properties"
     MaFCaL |< aT              `noun`    {- ma*obaHap -}        [ "massacre", "slaughter", "slaughterhouses" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma_dAbi.h Ndip" ] -} ]
+
+
+section_4   = listing "Lexicon's properties"
+
 
  |> "_d b _d b" <| [
 
@@ -474,6 +489,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCLAn                    `noun`    {- \*uboyAn -}         [ unwords [ "Supyan", "(", "Makhchayev", ")" ] ] ]
 
+
+section_5   = listing "Lexicon's properties"
+
+
  |> "_d f r" <| [
 
     -- ;; *afar_1
@@ -579,6 +598,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL                  `adj`     {- mu*ah~ab -}         [ "gilded", "golden" ] ]
 
+
+section_6   = listing "Lexicon's properties"
+
+
  |> "_d h l" <| [
 
     -- ;; *ahal-a_1
@@ -668,6 +691,10 @@ lexicon = listing "Lexicon's properties"
     -- \*kA}    *akA}   Nhy     cleverness
 
     FaCAL                     `noun`    {- \*akA' -}           [ "cleverness" ] ]
+
+
+section_7   = listing "Lexicon's properties"
+
 
  |> "_d k r" <| [
 
@@ -829,6 +856,10 @@ lexicon = listing "Lexicon's properties"
     MuFaCCiL |< At            `noun`    {- mu*ak~irAt -}       [ "memoirs", "diary" ]
                               `plural`     MuFaCCiL |< At ]
 
+
+section_8   = listing "Lexicon's properties"
+
+
  |> "_d k w" <| [
 
     -- ;; *akA-u_1
@@ -978,6 +1009,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCLA'
                            {- `others`  [ "_dulf N", "_dalfA' Nh N0_Nh Nhy" ] -} ]
 
+
+section_9   = listing "Lexicon's properties"
+
+
  |> "_d l l" <| [
 
     -- ;; *al~al_1
@@ -1106,6 +1141,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- \*amA' -}           [ unwords [ "last", "remnant" ], unwords [ "last", "breath" ] ] ]
 
+
+section_10  = listing "Lexicon's properties"
+
+
  |> "_d m m" <| [
 
     -- ;; *am~-u_1
@@ -1213,6 +1252,10 @@ lexicon = listing "Lexicon's properties"
     -- \*mA}    *amA}   Nhy     last remnant;last breath
 
     FaCA'                     `noun`    {- \*amA' -}           [ unwords [ "last", "remnant" ], unwords [ "last", "breath" ] ] ]
+
+
+section_11  = listing "Lexicon's properties"
+
 
  |> "_d n b" <| [
 
@@ -1367,6 +1410,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL |< aT               `noun`    {- \*ariyEap -}        [ "means", "pretext", "expedient", "expediency", "pragmatics" ] ]
 
+
+section_12  = listing "Lexicon's properties"
+
+
  |> "_d r b" <| [
 
     -- ;; *arib-a_1
@@ -1453,6 +1500,10 @@ lexicon = listing "Lexicon's properties"
     -- \*rq     *aroq   N       bird droppings;bird excrement
 
     FaCL                      `noun`    {- \*aroq -}           [ unwords [ "bird", "droppings" ], unwords [ "bird", "excrement" ] ] ]
+
+
+section_13  = listing "Lexicon's properties"
+
 
  |> "_d r r" <| [
 
@@ -1579,6 +1630,10 @@ lexicon = listing "Lexicon's properties"
     MiFCY                     `noun`    {- mi*oraY -}          [ "winnow" ]
                               `plural`     MaFACI
                            {- `others`  [ "ma_dAriy N0_Nh" ] -} ]
+
+
+section_14  = listing "Lexicon's properties"
+
 
  |> "_d r y" <| [
 
@@ -1712,6 +1767,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFIL                     `noun`    {- mu*iyE -}           [ "broadcaster", "transmitter", "announcer" ] ]
 
+
+section_15  = listing "Lexicon's properties"
+
+
  |> "_d w b" <| [
 
     -- ;; *Ab-u_1
@@ -1822,6 +1881,10 @@ lexicon = listing "Lexicon's properties"
     -- \*wlqy   *awolaqiy~      N-ap    apical (with tip of the tongue)    [[*awolaqiy~/ADJ]]
 
     KaRDaS |< Iy              `adj`     {- \*awolaqiy~ -}      [ unwords [ "apical", "(", "with", "tip", "of", "the", "tongue", ")" ] ] ]
+
+
+section_16  = listing "Lexicon's properties"
+
 
  |> "_d w q" <| [
 
@@ -1936,6 +1999,10 @@ lexicon = listing "Lexicon's properties"
     -- \*wAty   *awAtiy~        Nall    high-class;exclusive     [[*awAtiy~/ADJ]]
 
     FaL |< At |< Iy           `adj`     {- \*awAtiy~ -}        [ unwords [ "high", "-", "class" ], "exclusive" ] ]
+
+
+section_17  = listing "Lexicon's properties"
+
 
  |> "_d w y" <| [
 
@@ -2101,6 +2168,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `conj`    {- h`ka*A -}           [ "thus", unwords [ "as", "such" ] ] ]
 
+
+section_18  = listing "Lexicon's properties"
+
+
  |> "ka_dA" <| [
 
     -- ;; ka*A_1
@@ -2160,4 +2231,24 @@ lexicon = listing "Lexicon's properties"
     -- t*krjy  ta*karojiy~     Nall    ticket clerk     [[ta*karojiy~/ADJ]]
 
     Identity |< Iy            `adj`     {- ta*karojiy~ -}      [ unwords [ "ticket", "clerk" ] ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15,
+             section_16,
+             section_17,
+             section_18 ]
 

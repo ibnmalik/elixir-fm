@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "' .g d" <| [
@@ -77,6 +80,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACiL
                            {- `others`  [ "'awA.sir Ndip" ] -} ]
 
+
+section_2   = listing "Lexicon's properties"
+
+
  |> "' .t l" <| [
 
     FICAL |< Iy               `adj`     {- IiyTAliy~ -}        [ "Italian" ],
@@ -125,6 +132,10 @@ lexicon = listing "Lexicon's properties"
  |> "' ^g n" <| [
 
     HUCIL                     `noun`    {- Ouwjiyn -}          [ "Eugene" ] ]
+
+
+section_3   = listing "Lexicon's properties"
+
 
  |> "' ^g r" <| [
 
@@ -197,6 +208,10 @@ lexicon = listing "Lexicon's properties"
     FILAn                     `noun`    {- Iiy*An -}           [ "declaration", "proclamation" ]
                               `plural`     FILAn |< At ]
 
+
+section_4   = listing "Lexicon's properties"
+
+
  |> "' _d n" <| [
 
     FiCaL                     `adv`     {- Ii*an -}            [ "therefore", "so", "then" ],
@@ -252,6 +267,10 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- IixA' -}            [ "Akha" ] ]
 
+
+section_5   = listing "Lexicon's properties"
+
+
  |> "' _h _d" <| [
 
     FaCaL                     `verb`    {- Oaxa*-u -}          [ "take", "begin" ]
@@ -287,6 +306,10 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "'a_hiy N0_Nh FW-WaBi", "'a_huw N0_Nh", "'a_hA N0_Nh" ] -},
 
     FaL |<< "awIy"            `adj`     {- Oaxawiy~ -}         [ "fraternal", "brotherly" ] ]
+
+
+section_6   = listing "Lexicon's properties"
+
 
  |> "' _h r" <| [
 
@@ -350,6 +373,10 @@ lexicon = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- IixA' -}            [ "Akha" ] ]
 
+
+section_7   = listing "Lexicon's properties"
+
+
  |> "' _t _t" <| [
 
     FaCAL                     `noun`    {- OavAv -}            [ "furniture", "equipment" ]
@@ -367,6 +394,10 @@ lexicon = listing "Lexicon's properties"
     HACiL                     `noun`    {- \|vim -}            [ "sinful", "evil" ],
 
     FACiL                     `noun`    {- \|vim -}            [ "sinful", "evil" ] ]
+
+
+section_8   = listing "Lexicon's properties"
+
 
  |> "' _t r" <| [
 
@@ -422,6 +453,10 @@ lexicon = listing "Lexicon's properties"
  |> "' b ^s r" <| [
 
     KaRDIS                    `noun`    {- Oabo$iyr -}         [ "Abshir" ] ]
+
+
+section_9   = listing "Lexicon's properties"
+
 
  |> "' b b" <| [
 
@@ -487,6 +522,10 @@ lexicon = listing "Lexicon's properties"
     KaRDIS                    `noun`    {- Oaboriyl -}         [ "April", "Aprilia" ]
                               `plural`     KiRDIS
                            {- `others`  [ "'ibriyl Nprop" ] -} ]
+
+
+section_10  = listing "Lexicon's properties"
+
 
  |> "' b w" <| [
 
@@ -556,6 +595,10 @@ lexicon = listing "Lexicon's properties"
 
     KiRDUS                    `noun`    {- Iidomuwn -}         [ "Edmond" ] ]
 
+
+section_11  = listing "Lexicon's properties"
+
+
  |> "' d r s" <| [
 
     KiRDIS                    `noun`    {- Iidoriys -}         [ "Idris", "Edris" ] ]
@@ -623,6 +666,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCI                      `noun`    {- Oafiy -}            [ "Avi" ] ]
 
+
+section_12  = listing "Lexicon's properties"
+
+
  |> "' h b" <| [
 
     TaFaCCaL                  `verb`    {- taOah~ab -}         [ unwords [ "be", "ready" ], unwords [ "be", "on", "alert" ] ],
@@ -666,6 +713,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     MutaFaCCiL                `noun`    {- mutaOah~il -}       [ "qualified", "married" ] ]
+
+
+section_13  = listing "Lexicon's properties"
+
 
  |> "' k d" <| [
 
@@ -719,6 +770,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     TaFACuL |< At,
 
     MutaFACiL                 `noun`    {- muta|kil -}         [ "eroded", "corroded" ] ]
+
+
+section_14  = listing "Lexicon's properties"
+
 
  |> "' k s" <| [
 
@@ -786,6 +841,10 @@ lexicon = listing "Lexicon's properties"
 
     FiL                       `noun`    {- Iil -}              [ "El" ] ]
 
+
+section_15  = listing "Lexicon's properties"
+
+
  |> "' l m" <| [
 
     FaCiL                     `verb`    {- Oalim-a -}          [ unwords [ "feel", "pain" ], "suffer" ]
@@ -842,6 +901,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FACaL
                               `plural`     HACaL
                            {- `others`  [ "'Alan Nprop" ] -} ]
+
+
+section_16  = listing "Lexicon's properties"
+
 
  |> "' l q" <| [
 
@@ -903,6 +966,10 @@ lexicon = listing "Lexicon's properties"
     TaFaCCuL                  `noun`    {- taOam~ul -}         [ "consideration", "contemplation", "speculation" ]
                               `plural`     TaFaCCuL |< At ]
 
+
+section_17  = listing "Lexicon's properties"
+
+
  |> "' m m" <| [
 
     FaL                       `conj`    {- Oam -}              [ "or" ],
@@ -954,6 +1021,10 @@ lexicon = listing "Lexicon's properties"
     FaL |< aT                 `noun`    {- Oamap -}            [ "bondmaid", unwords [ "slave", "girl" ] ]
                               `plural`     FiCA'
                            {- `others`  [ "'imA' Nh N0_Nh Nhy" ] -} ]
+
+
+section_18  = listing "Lexicon's properties"
+
 
  |> "' m n" <| [
 
@@ -1025,6 +1096,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCaL                  `noun`    {- muWotaman -}        [ "trustworthy", "entrusted" ] ]
 
+
+section_19  = listing "Lexicon's properties"
+
+
  |> "' m r" <| [
 
     FaCaL                     `verb`    {- Oamar-u -}          [ "command", "order", "prescribe" ]
@@ -1087,6 +1162,10 @@ lexicon = listing "Lexicon's properties"
  |> "' m y" <| [
 
     FaC                       `conj`    {- Oam -}              [ "or" ] ]
+
+
+section_20  = listing "Lexicon's properties"
+
 
  |> "' n '" <| [
 
@@ -1153,6 +1232,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FACL
                            {- `others`  [ "'And FW" ] -} ]
 
+
+section_21  = listing "Lexicon's properties"
+
+
  |> "' n f" <| [
 
     IstaFCaL                  `verb`    {- AisotaOonaf -}      [ "resume", unwords [ "start", "over" ], "appeal" ],
@@ -1206,6 +1289,10 @@ lexicon = listing "Lexicon's properties"
 
     KiRDUS                    `noun`    {- Iinoruwn -}         [ "Enron" ] ]
 
+
+section_22  = listing "Lexicon's properties"
+
+
  |> "' n s" <| [
 
     FiCL                      `noun`    {- Iinos -}            [ "humans", "people" ]
@@ -1254,6 +1341,10 @@ lexicon = listing "Lexicon's properties"
 
     MutaFaCCI                 `noun`    {- mutaOan~iy -}       [ "circumspect", "prudent" ]
                               `plural`     MutaFaCCI |< At ]
+
+
+section_23  = listing "Lexicon's properties"
+
 
  |> "' q l m" <| [
 
@@ -1334,6 +1425,10 @@ lexicon = listing "Lexicon's properties"
 
     FAL |< Iy                 `adj`     {- \|riy~ -}           [ "Aryan" ] ]
 
+
+section_24  = listing "Lexicon's properties"
+
+
  |> "' r s" <| [
 
     FaCaL                     `verb`    {- Oaras-i -}          [ unwords [ "till", "the", "land" ] ]
@@ -1409,6 +1504,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFCiL                    `noun`    {- muWosif -}          [ "regrettable", "unfortunate" ] ]
 
+
+section_25  = listing "Lexicon's properties"
+
+
  |> "' s l m" <| [
 
     KaRDaS |< aT              `noun`    {- Oasolamap -}        [ "Islamicization", "Islamification" ] ]
@@ -1477,6 +1576,10 @@ lexicon = listing "Lexicon's properties"
  |> "' s t" <| [
 
     FiCLAn |< aT              `noun`    {- IisotAnap -}        [ "Istana" ] ]
+
+
+section_26  = listing "Lexicon's properties"
+
 
  |> "' s t _d" <| [
 
@@ -1550,6 +1653,10 @@ lexicon = listing "Lexicon's properties"
 
     HICAL                     `noun`    {- IiytAr -}           [ "ITAR" ] ]
 
+
+section_27  = listing "Lexicon's properties"
+
+
  |> "' t y" <| [
 
     FaCY                      `verb`    {- OataY-i -}          [ "arrive", "come", "reach" ]
@@ -1618,6 +1725,10 @@ lexicon = listing "Lexicon's properties"
 
     FUL                       `noun`    {- Ouwf -}             [ "Of" ] ]
 
+
+section_28  = listing "Lexicon's properties"
+
+
  |> "' w h" <| [
 
     FAL                       `verb`    {- \|h-u -}            [ "moan", "sigh" ]
@@ -1674,6 +1785,10 @@ lexicon = listing "Lexicon's properties"
  |> "' w t w" <| [
 
     KuRDU                     `noun`    {- Ouwtuw -}           [ "Otto" ] ]
+
+
+section_29  = listing "Lexicon's properties"
+
 
  |> "' w t y" <| [
 
@@ -1745,6 +1860,10 @@ lexicon = listing "Lexicon's properties"
 
     KiRDAS                    `noun`    {- Iiy*An -}           [ "declaration", "proclamation" ] ]
 
+
+section_30  = listing "Lexicon's properties"
+
+
  |> "' y b" <| [
 
     FiCAL                     `noun`    {- IiyAb -}            [ "return" ],
@@ -1811,6 +1930,10 @@ lexicon = listing "Lexicon's properties"
 
     FILAn                     `noun`    {- IiymAn -}           [ "Iman" ] ]
 
+
+section_31  = listing "Lexicon's properties"
+
+
  |> "' y m n" <| [
 
     KiRDAS                    `noun`    {- IiymAn -}           [ "belief", "faith" ],
@@ -1854,6 +1977,10 @@ lexicon = listing "Lexicon's properties"
  |> "' y w '" <| [
 
     KiRDAS                    `noun`    {- IiywA' -}           [ "accommodation", "housing" ] ]
+
+
+section_32  = listing "Lexicon's properties"
+
 
  |> "' y y" <| [
 
@@ -1922,6 +2049,10 @@ lexicon = listing "Lexicon's properties"
  |> "'Ana_dAk" <| [
 
     Identity                  `adv`     {- \|na*Ak -}          [ "then", unwords [ "at", "that", "time" ] ] ]
+
+
+section_33  = listing "Lexicon's properties"
+
 
  |> "'AyA" <| [
 
@@ -2003,6 +2134,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- Ouwganodiy~ -}      [ "Ugandan" ] ]
 
+
+section_34  = listing "Lexicon's properties"
+
+
  |> "'U.gandA" <| [
 
     Identity                  `noun`    {- OuwganodA -}        [ "Uganda" ] ]
@@ -2083,6 +2218,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OuwlimobiyAd -}     [ "Olympiad", "Olympics" ] ]
 
+
+section_35  = listing "Lexicon's properties"
+
+
  |> "'UlyIt" <| [
 
     Identity                  `noun`    {- Ouwloyiyt -}        [ "Ullyett" ] ]
@@ -2161,6 +2300,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Oa$okiynAziy -}     [ "Ashkenazi" ] ]
 
+
+section_36  = listing "Lexicon's properties"
+
+
  |> "'a^skrUft" <| [
 
     Identity                  `noun`    {- Oa$okruwft -}       [ "Ashcroft" ] ]
@@ -2238,6 +2381,10 @@ lexicon = listing "Lexicon's properties"
  |> "'af.gAnistAn" <| [
 
     Identity                  `noun`    {- OafogAnisotAn -}    [ "Afghanistan" ] ]
+
+
+section_37  = listing "Lexicon's properties"
+
 
  |> "'afI.gdUr" <| [
 
@@ -2319,6 +2466,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OamAnodA -}         [ "Amanda" ] ]
 
+
+section_38  = listing "Lexicon's properties"
+
+
  |> "'amIlkAr" <| [
 
     Identity                  `noun`    {- OamiylokAr -}       [ "Amilcar" ] ]
@@ -2397,6 +2548,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Oanodriyyifuw -}    [ "Andreevo" ] ]
 
+
+section_39  = listing "Lexicon's properties"
+
+
  |> "'andriyA" <| [
 
     Identity                  `noun`    {- OanodriyA -}        [ "Andrea" ] ]
@@ -2474,6 +2629,10 @@ lexicon = listing "Lexicon's properties"
  |> "'armIniyA" <| [
 
     Identity                  `noun`    {- OaromiyniyA -}      [ "Armenia" ] ]
+
+
+section_40  = listing "Lexicon's properties"
+
 
  |> "'armItA^g" <| [
 
@@ -2555,6 +2714,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `conj`    {- Ii*A -}             [ unwords [ "if", "/", "whether" ] ] ]
 
+
+section_41  = listing "Lexicon's properties"
+
+
  |> "'ibrAhIm" <| [
 
     Identity                  `noun`    {- IiborAhiym -}       [ "Ibrahim" ],
@@ -2630,6 +2793,10 @@ lexicon = listing "Lexicon's properties"
  |> "'imbirA.tUr" <| [
 
     Identity |< Iy |< aT      `noun`    {- IimobirATuwriy~ap -} [ "empire" ] ]
+
+
+section_42  = listing "Lexicon's properties"
+
 
  |> "'imbiriyAl" <| [
 
@@ -2707,6 +2874,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- IinotarnA$oyuwnAl -} [ "International" ] ]
 
+
+section_43  = listing "Lexicon's properties"
+
+
  |> "'intirnit" <| [
 
     Identity                  `noun`    {- Iinotironit -}      [ "Internet" ] ]
@@ -2774,6 +2945,10 @@ lexicon = listing "Lexicon's properties"
     Identity                  `noun`    {- IisorA}iyl -}       [ "Israel" ],
 
     Identity |< Iy            `adj`     {- IisorA}iyliy~ -}    [ "Israeli" ] ]
+
+
+section_44  = listing "Lexicon's properties"
+
 
  |> "'istUkhUlm" <| [
 
@@ -2847,6 +3022,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `adv`     {- biAltaOokiyd -}     [ "certainly", "undoubtedly" ] ]
 
+
+section_45  = listing "Lexicon's properties"
+
+
  |> "ibn" <| [
 
     Identity                  `noun`    {- Aibon -}            [ "son" ],
@@ -2898,4 +3077,51 @@ lexicon = listing "Lexicon's properties"
  |> "wa'in" <| [
 
     Identity                  `conj`    {- waIin -}            [ unwords [ "even", "if" ] ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15,
+             section_16,
+             section_17,
+             section_18,
+             section_19,
+             section_20,
+             section_21,
+             section_22,
+             section_23,
+             section_24,
+             section_25,
+             section_26,
+             section_27,
+             section_28,
+             section_29,
+             section_30,
+             section_31,
+             section_32,
+             section_33,
+             section_34,
+             section_35,
+             section_36,
+             section_37,
+             section_38,
+             section_39,
+             section_40,
+             section_41,
+             section_42,
+             section_43,
+             section_44,
+             section_45 ]
 

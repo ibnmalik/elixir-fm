@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "'i_tb" <| [
@@ -173,6 +176,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawA'iL
                            {- `others`  [ "_tawA'ir Ndip" ] -} ]
 
+
+section_2   = listing "Lexicon's properties"
+
+
  |> "_t ' y" <| [
 
     -- ;; va>aY_1
@@ -335,6 +342,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaLA'
                            {- `others`  [ "_tu_hanA' Nh N0_Nh Nhy" ] -} ]
 
+
+section_3   = listing "Lexicon's properties"
+
+
  |> "_t ` b" <| [
 
     -- ;; vaEab-a_1
@@ -473,6 +484,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACiL
                            {- `others`  [ "ma_tAbin Ndip" ] -} ]
 
+
+section_4   = listing "Lexicon's properties"
+
+
  |> "_t b q" <| [
 
     -- ;; vabaq-i_1
@@ -524,6 +539,10 @@ lexicon = listing "Lexicon's properties"
     -- AvryA}  >avoriyA}       Nhy     wealthy
 
     FaL |< Iy                 `adj`     {- variy~ -}           [ "wealthy" ] ]
+
+
+section_5   = listing "Lexicon's properties"
+
 
  |> "_t b t" <| [
 
@@ -640,6 +659,10 @@ lexicon = listing "Lexicon's properties"
     -- vbAty   vabAtiy~        Nap     stability     [[vabAtiy~/NOUN]]
 
     FaC |< At |< Iy |< aT     `noun`    {- vabAtiy~ap -}       [ "stability" ] ]
+
+
+section_6   = listing "Lexicon's properties"
+
 
  |> "_t d y" <| [
 
@@ -802,6 +825,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaL
                            {- `others`  [ "_takn Napdu", "_tukan N" ] -} ]
 
+
+section_7   = listing "Lexicon's properties"
+
+
  |> "_t l ^g" <| [
 
     -- ;; valaj-u_1
@@ -867,6 +894,10 @@ lexicon = listing "Lexicon's properties"
     -- mvlj    muval~aj        Nall    frozen
 
     MuFaCCaL                  `noun`    {- muval~aj -}         [ "frozen" ] ]
+
+
+section_8   = listing "Lexicon's properties"
+
 
  |> "_t l _t" <| [
 
@@ -978,6 +1009,10 @@ lexicon = listing "Lexicon's properties"
     -- vAlb    vAlib   Nall    slanderous;defamatory
 
     FACiL                     `noun`    {- vAlib -}            [ "slanderous", "defamatory" ] ]
+
+
+section_9   = listing "Lexicon's properties"
+
 
  |> "_t l l" <| [
 
@@ -1114,6 +1149,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCAL |< aT               `noun`    {- vumAlap -}          [ "residue", "dregs" ] ]
 
+
+section_10  = listing "Lexicon's properties"
+
+
  |> "_t m m" <| [
 
     -- ;; vum~a_1
@@ -1244,6 +1283,10 @@ lexicon = listing "Lexicon's properties"
     KaRADIS                   `noun`    {- vamAniyn -}         [ "eighties" ]
                               `plural`     KaRADIS |< At ]
 
+
+section_11  = listing "Lexicon's properties"
+
+
  |> "_t m r" <| [
 
     -- ;; vamar-u_1
@@ -1323,6 +1366,10 @@ lexicon = listing "Lexicon's properties"
     -- vAmr    vAmir   Nprop   Thamir
 
     FACiL                     `noun`    {- vAmir -}            [ "Thamir" ] ]
+
+
+section_12  = listing "Lexicon's properties"
+
 
  |> "_t n '" <| [
 
@@ -1444,6 +1491,10 @@ lexicon = listing "Lexicon's properties"
     -- vnwy    vanawiy~        NapAt   dualism     [[vanawiy~/NOUN]]
 
     FaL |<< "awIy" |< aT      `noun`    {- vanawiy~ap -}       [ "dualism" ] ]
+
+
+section_13  = listing "Lexicon's properties"
+
 
  |> "_t n y" <| [
 
@@ -1733,6 +1784,10 @@ lexicon = listing "Lexicon's properties"
     MustaFCY                  `noun`    {- musotavonaY -}      [ "excepted", "excluded" ]
                               `plural`     MustaFCY |< At ]
 
+
+section_14  = listing "Lexicon's properties"
+
+
  |> "_t q b" <| [
 
     -- ;; vaqab-u_1
@@ -1822,6 +1877,10 @@ lexicon = listing "Lexicon's properties"
     FiCAL |< At               `noun`    {- viqAbAt -}          [ "drills", "borers" ]
                               `plural`     FiCAL |< At ]
 
+
+section_15  = listing "Lexicon's properties"
+
+
  |> "_t q f" <| [
 
     -- ;; vaqif-a_1
@@ -1887,6 +1946,10 @@ lexicon = listing "Lexicon's properties"
     -- mvqf    muvaq~af        Nall    intellectual;cultivated;cultured;educated
 
     MuFaCCaL                  `noun`    {- muvaq~af -}         [ "intellectual", "cultivated", "cultured", "educated" ] ]
+
+
+section_16  = listing "Lexicon's properties"
+
 
  |> "_t q l" <| [
 
@@ -2027,6 +2090,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HiFCAL |< At
                               `plural`     HiFCA' |< At ]
 
+
+section_17  = listing "Lexicon's properties"
+
+
  |> "_t r _t r" <| [
 
     -- ;; varovar_1
@@ -2143,6 +2210,10 @@ lexicon = listing "Lexicon's properties"
     -- vrwt    varowat Nprop   Tharwat;Sarwat
 
     KaRDaS                    `noun`    {- varowat -}          [ "Tharwat", "Sarwat" ] ]
+
+
+section_18  = listing "Lexicon's properties"
+
 
  |> "_t r y" <| [
 
@@ -2311,6 +2382,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACiL
                            {- `others`  [ "ma_tAwib Ndip" ] -} ]
 
+
+section_19  = listing "Lexicon's properties"
+
+
  |> "_t w l" <| [
 
     -- ;; tavaw~al_1
@@ -2342,6 +2417,10 @@ lexicon = listing "Lexicon's properties"
 
     FUL                       `noun`    {- vuwm -}             [ "garlic", unwords [ "garlic", "clove" ] ]
                               `plural`     FUL |< At ]
+
+
+section_20  = listing "Lexicon's properties"
+
 
  |> "_t w r" <| [
 
@@ -2477,6 +2556,10 @@ lexicon = listing "Lexicon's properties"
     -- vwrwy   vaworawiy~      Nall    revolutionary     [[vaworawiy~/ADJ]]
 
     KaRDY |< Iy               `adj`     {- vaworawiy~ -}       [ "revolutionary" ] ]
+
+
+section_21  = listing "Lexicon's properties"
+
 
  |> "_t w w" <| [
 
@@ -2639,6 +2722,10 @@ lexicon = listing "Lexicon's properties"
     -- vmAnmA} vamAnimA}       Nap     eight-hundred
 
     Identity |< aT            `noun`    {- vamAnimA}ap -}      [ unwords [ "eight", "-", "hundred" ] ] ]
+
+
+section_22  = listing "Lexicon's properties"
+
 
  |> "_tanAyA" <| [
 
@@ -2807,6 +2894,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity |<< "i"          `prep`    {- liloAivonatayoni -} [ unwords [ "to", "/", "for", "+", "the", "+", "two" ] ] ]
 
+
+section_23  = listing "Lexicon's properties"
+
+
  |> "lilAi_tnay" <| [
 
     -- ;; lil{ivonayo_1
@@ -2822,4 +2913,29 @@ lexicon = listing "Lexicon's properties"
     -- llAvnyn lilo{ivonayoni  FW-Wa   to/for + the + two    [[li/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN]]
 
     Identity |<< "i"          `prep`    {- liloAivonayoni -}   [ unwords [ "to", "/", "for", "+", "the", "+", "two" ] ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15,
+             section_16,
+             section_17,
+             section_18,
+             section_19,
+             section_20,
+             section_21,
+             section_22,
+             section_23 ]
 

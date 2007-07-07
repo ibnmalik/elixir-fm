@@ -24991,28 +24991,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mun.hAz' => [
-    {
-      'types' => {},
-      'entry' => 'mun.hAz',
-      'form' => 'mun.hAz',
-      'lines' => [
-        ';; munoHAz_1',
-        'mnHAz   munoHAz Nall    aligned;biased'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'aligned',
-        'biased'
-      ],
-      'orig' => 'munoHAz',
-      'prefix' => ''
-    }
-  ],
   '.h w \'' => [
     {
       'types' => {},
@@ -37959,6 +37937,26 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'HA}iz',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mun.hAz',
+      'form' => 'mun.hAz',
+      'lines' => [
+        ';; munoHAz_1',
+        'mnHAz   munoHAz Nall    aligned;biased'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MunFAL',
+      'suffix' => '',
+      'glosses' => [
+        'aligned',
+        'biased'
+      ],
+      'orig' => 'munoHAz',
       'prefix' => ''
     }
   ],

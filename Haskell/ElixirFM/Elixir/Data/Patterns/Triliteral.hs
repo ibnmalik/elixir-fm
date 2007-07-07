@@ -672,7 +672,7 @@ data PatternT =
 
         |   InFiCAL                     |   InFiyAL     |   InFiCA'
 
-        |   MunFaCiL                                    |   MunFaCI     |   MunFaCL
+        |   MunFaCiL                    |   MunFAL      |   MunFaCI     |   MunFaCL
         |   MunFaCaL                                    |   MunFaCY
 
 --  Form VIII

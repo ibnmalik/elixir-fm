@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> ".z b y" <| [
@@ -24,6 +27,10 @@ lexicon = listing "Lexicon's properties"
     MuFaCCaL                  `noun`    {- muZaf~ar -}         [ "victorious" ],
 
     MuFaCCaL                  `noun`    {- muZaf~ar -}         [ "Muzaffar" ] ]
+
+
+section_2   = listing "Lexicon's properties"
+
 
  |> ".z h r" <| [
 
@@ -69,6 +76,10 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ ".zawAhir Ndip" ] -},
 
     MutaFACiL                 `noun`    {- mutaZAhir -}        [ "demonstrator" ] ]
+
+
+section_3   = listing "Lexicon's properties"
+
 
  |> ".z l l" <| [
 
@@ -123,6 +134,10 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL                    `adj`     {- maZonuwn -}         [ "presumed", "suspected", "suspicious" ] ]
 
+
+section_4   = listing "Lexicon's properties"
+
+
  |> ".z r f" <| [
 
     FaCL                      `noun`    {- Zarof -}            [ "charm" ],
@@ -144,4 +159,10 @@ lexicon = listing "Lexicon's properties"
     MaFCUL                    `noun`    {- maZoruwf -}         [ "envelope" ]
                               `plural`     MaFACIL
                            {- `others`  [ "ma.zAriyf Ndip" ] -} ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4 ]
 

@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> ".g" <| [
@@ -76,6 +79,10 @@ lexicon = listing "Lexicon's properties"
     TaFACI                    `noun`    {- tagADiy -}          [ "indifference", "condoning" ]
                               `plural`     TaFACI |< At ]
 
+
+section_2   = listing "Lexicon's properties"
+
+
  |> ".g .d y" <| [
 
     TaFACI                    `noun`    {- tagADiy -}          [ "indifference", "condoning" ]
@@ -137,6 +144,10 @@ lexicon = listing "Lexicon's properties"
  |> ".g .t y" <| [
 
     TaFCI |< aT               `noun`    {- tagoTiyap -}        [ "coverage", "covering" ] ]
+
+
+section_3   = listing "Lexicon's properties"
+
 
  |> ".g ^s ^s" <| [
 
@@ -200,6 +211,10 @@ lexicon = listing "Lexicon's properties"
  |> ".g b n" <| [
 
     FACUL                     `noun`    {- gAbuwn -}           [ "Gabon" ] ]
+
+
+section_4   = listing "Lexicon's properties"
+
 
  |> ".g b r" <| [
 
@@ -274,6 +289,10 @@ lexicon = listing "Lexicon's properties"
     TaKaRDuS                  `noun`    {- tagalogul -}        [ "penetration", "invasion" ]
                               `plural`     TaKaRDuS |< At ]
 
+
+section_5   = listing "Lexicon's properties"
+
+
  |> ".g l .t" <| [
 
     FaCL |< aT                `noun`    {- galoTap -}          [ "error", "blunder" ]
@@ -325,6 +344,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL                  `noun`    {- mugal~af -}         [ "envelope", "package" ]
                               `plural`     MuFaCCaL |< At ]
+
+
+section_6   = listing "Lexicon's properties"
+
 
  |> ".g l l" <| [
 
@@ -378,6 +401,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCaLAn                   `noun`    {- galayAn -}          [ "boiling" ] ]
 
+
+section_7   = listing "Lexicon's properties"
+
+
  |> ".g l y n" <| [
 
     KaRDUS                    `noun`    {- galoyuwn -}         [ unwords [ "tobacco", "pipe" ] ]
@@ -430,6 +457,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADiS |< aT,
 
     KaRDUS                    `noun`    {- ganoduwr -}         [ "Ghandour" ] ]
+
+
+section_8   = listing "Lexicon's properties"
+
 
  |> ".g n m" <| [
 
@@ -493,6 +524,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                            {- `others`  [ "'a.grA.d N" ] -} ]
 
+
+section_9   = listing "Lexicon's properties"
+
+
  |> ".g r b" <| [
 
     HaFCaL                    `verb`    {- Oagorab -}          [ "exaggerate" ],
@@ -548,6 +583,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCiL                     `verb`    {- garid-a -}          [ "twitter", "warble" ]
                               `imperf`     FCaL ]
+
+
+section_10  = listing "Lexicon's properties"
+
 
  |> ".g r f" <| [
 
@@ -618,6 +657,10 @@ lexicon = listing "Lexicon's properties"
     MuFCI                     `adj`     {- mugoriy -}          [ "inciting", "instigating", "alluring" ]
                               `plural`     MuFCI |< At ]
 
+
+section_11  = listing "Lexicon's properties"
+
+
  |> ".g r z" <| [
 
     FaCIL |< aT               `noun`    {- gariyzap -}         [ unwords [ "natural", "instinct" ], unwords [ "natural", "impulse" ] ] ]
@@ -684,6 +727,10 @@ lexicon = listing "Lexicon's properties"
     FA'iL |< aT               `noun`    {- gA}ilap -}          [ "calamity", "havoc" ]
                               `plural`     FawA'iL
                            {- `others`  [ ".gawA'il Ndip" ] -} ]
+
+
+section_12  = listing "Lexicon's properties"
+
 
  |> ".g w m ^s" <| [
 
@@ -756,6 +803,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     IFtiCAL |< At
                               `plural`     IFtiyAL |< At ]
 
+
+section_13  = listing "Lexicon's properties"
+
+
  |> ".g y r" <| [
 
     FaCL                      `part`    {- gayor -}            [ "not", "other" ],
@@ -809,6 +860,10 @@ lexicon = listing "Lexicon's properties"
     MaFCiL                    `noun`    {- magozil -}          [ unwords [ "spinning", "mill" ], "spindles" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma.gAzil Ndip" ] -} ]
+
+
+section_14  = listing "Lexicon's properties"
+
 
  |> ".g z r" <| [
 
@@ -890,6 +945,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- g$tAd -}            [ "Gstaad" ] ]
 
+
+section_15  = listing "Lexicon's properties"
+
+
  |> ".gawdiyU" <| [
 
     Identity                  `noun`    {- gawodiyuw -}        [ "Gaudio" ] ]
@@ -917,4 +976,21 @@ lexicon = listing "Lexicon's properties"
  |> ".guwAtImAlA" <| [
 
     Identity                  `noun`    {- guwAtiymAlA -}      [ "Guatemala" ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15 ]
 

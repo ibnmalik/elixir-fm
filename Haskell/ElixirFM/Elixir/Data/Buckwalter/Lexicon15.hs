@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> ".d  d" <| [
@@ -139,6 +142,10 @@ lexicon = listing "Lexicon's properties"
     -- DgDg    DagoDag Nap     chewing;munching;mumbling
 
     KaRDaS |< aT              `noun`    {- DagoDagap -}        [ "chewing", "munching", "mumbling" ] ]
+
+
+section_2   = listing "Lexicon's properties"
+
 
  |> ".d .g .t" <| [
 
@@ -275,6 +282,10 @@ lexicon = listing "Lexicon's properties"
     -- DAgn    DAgin   Nall    spiteful;resentful
 
     FACiL                     `noun`    {- DAgin -}            [ "spiteful", "resentful" ] ]
+
+
+section_3   = listing "Lexicon's properties"
+
 
  |> ".d .h .d .h" <| [
 
@@ -414,6 +425,10 @@ lexicon = listing "Lexicon's properties"
     -- DHAl    DaHAl   Nap     shallowness;triviality
 
     FaCAL |< aT               `noun`    {- DaHAlap -}          [ "shallowness", "triviality" ] ]
+
+
+section_4   = listing "Lexicon's properties"
+
 
  |> ".d .h w" <| [
 
@@ -570,6 +585,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACI
                            {- `others`  [ ".dawA.hiy N0_Nh" ] -} ]
 
+
+section_5   = listing "Lexicon's properties"
+
+
  |> ".d ^g ^g" <| [
 
     -- ;; Daj~-i_1
@@ -697,6 +716,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCaL                  `noun`    {- muDoTajaE -}        [ "couch" ] ]
 
+
+section_6   = listing "Lexicon's properties"
+
+
  |> ".d ^g r" <| [
 
     -- ;; Dajir-a_1
@@ -822,6 +845,10 @@ lexicon = listing "Lexicon's properties"
     MuFaCCiL                  `noun`    {- muDax~im -}         [ "amplifier" ]
                               `plural`     MuFaCCiL |< At ]
 
+
+section_7   = listing "Lexicon's properties"
+
+
  |> ".d ` .d `" <| [
 
     -- ;; DaEoDaE_1
@@ -851,6 +878,10 @@ lexicon = listing "Lexicon's properties"
 
     TaKaRDuS                  `noun`    {- taDaEoDuE -}        [ "debacle" ]
                               `plural`     TaKaRDuS |< At ]
+
+
+section_8   = listing "Lexicon's properties"
+
 
  |> ".d ` f" <| [
 
@@ -982,6 +1013,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL                  `noun`    {- muDaE~af -}         [ "doubled", "compounded" ] ]
 
+
+section_9   = listing "Lexicon's properties"
+
+
  |> ".d b .h" <| [
 
     -- ;; DabaH-a_1
@@ -1106,6 +1141,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCAL
                            {- `others`  [ "'a.dbu` N", ".dibA` N" ] -} ]
 
+
+section_10  = listing "Lexicon's properties"
+
+
  |> ".d b b" <| [
 
     -- ;; Dab~-i_1
@@ -1217,6 +1256,10 @@ lexicon = listing "Lexicon's properties"
     -- Dbs     Dibos   N       nasty;malicious     [[Dibos/ADJ]]
 
     FiCL                      `adj`     {- Dibos -}            [ "nasty", "malicious" ] ]
+
+
+section_11  = listing "Lexicon's properties"
+
 
  |> ".d d d" <| [
 
@@ -1339,6 +1382,10 @@ lexicon = listing "Lexicon's properties"
     -- Dff     Dafaf   N       poverty;destitution
 
     FaCaL                     `noun`    {- Dafaf -}            [ "poverty", "destitution" ] ]
+
+
+section_12  = listing "Lexicon's properties"
+
 
  |> ".d f r" <| [
 
@@ -1500,6 +1547,10 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- DAhir -}            [ "Dahir", "Daher" ] ]
 
+
+section_13  = listing "Lexicon's properties"
+
+
  |> ".d h y" <| [
 
     -- ;; DAhaY_1
@@ -1543,6 +1594,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFACI                    `adj`     {- muDAhiy -}          [ "analogous", "similar", "corresponding" ]
                               `plural`     MuFACI |< At ]
+
+
+section_14  = listing "Lexicon's properties"
+
 
  |> ".d l `" <| [
 
@@ -1643,6 +1698,10 @@ lexicon = listing "Lexicon's properties"
     -- mDTlE   muDoTaliE       Nall    knowledgeable;expert
 
     MuFtaCiL                  `noun`    {- muDoTaliE -}        [ "knowledgeable", "expert" ] ]
+
+
+section_15  = listing "Lexicon's properties"
+
 
  |> ".d l l" <| [
 
@@ -1783,6 +1842,10 @@ lexicon = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- taDomiyx -}         [ unwords [ "wearing", "perfume" ], unwords [ "wearing", "lipstick" ] ]
                               `plural`     TaFCIL |< At ]
 
+
+section_16  = listing "Lexicon's properties"
+
+
  |> ".d m d" <| [
 
     -- ;; Damad-u_1
@@ -1836,6 +1899,10 @@ lexicon = listing "Lexicon's properties"
     -- mDmd    muDam~id        NapAt   compress;bandage
 
     MuFaCCiL |< aT            `noun`    {- muDam~idap -}       [ "compress", "bandage" ] ]
+
+
+section_17  = listing "Lexicon's properties"
+
 
  |> ".d m m" <| [
 
@@ -1925,6 +1992,10 @@ lexicon = listing "Lexicon's properties"
     -- mDmwm   maDomuwm        N-ap    joined;annexed     [[maDomuwm/ADJ]]
 
     MaFCUL                    `adj`     {- maDomuwm -}         [ "joined", "annexed" ] ]
+
+
+section_18  = listing "Lexicon's properties"
+
 
  |> ".d m n" <| [
 
@@ -2055,6 +2126,10 @@ lexicon = listing "Lexicon's properties"
 
     MutaFACiL                 `adj`     {- mutaDAmin -}        [ unwords [ "in", "solidarity" ], "cooperative" ] ]
 
+
+section_19  = listing "Lexicon's properties"
+
+
  |> ".d m r" <| [
 
     -- ;; Damar-u_1
@@ -2164,6 +2239,10 @@ lexicon = listing "Lexicon's properties"
     -- DnHAny  DanoHAniy~      N0      Danhani
 
     FaCLAn |< Iy              `adj`     {- DanoHAniy~ -}       [ "Danhani" ] ]
+
+
+section_20  = listing "Lexicon's properties"
+
 
  |> ".d n k" <| [
 
@@ -2334,6 +2413,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADiS |< aT
                            {- `others`  [ ".dir.gAm N", ".darA.gim Ndip" ] -} ]
 
+
+section_21  = listing "Lexicon's properties"
+
+
  |> ".d r .h" <| [
 
     -- ;; DariyH_1
@@ -2410,6 +2493,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL                  `noun`    {- muDar~aj -}         [ "bloody" ] ]
 
+
+section_22  = listing "Lexicon's properties"
+
+
  |> ".d r `" <| [
 
     -- ;; DaraE-u_1
@@ -2484,6 +2571,10 @@ lexicon = listing "Lexicon's properties"
     -- mDArE   muDAriE Nall    similar;resembling
 
     MuFACiL                   `noun`    {- muDAriE -}          [ "similar", "resembling" ] ]
+
+
+section_23  = listing "Lexicon's properties"
+
 
  |> ".d r b" <| [
 
@@ -2680,6 +2771,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCiL                  `noun`    {- muDoTarib -}        [ "disturbed", "agitated", "disrupted" ] ]
 
+
+section_24  = listing "Lexicon's properties"
+
+
  |> ".d r m" <| [
 
     -- ;; Darim-a_1
@@ -2735,6 +2830,10 @@ lexicon = listing "Lexicon's properties"
 
     HiFCAL                    `noun`    {- IiDorAm -}          [ "kindling", "exciting" ]
                               `plural`     HiFCAL |< At ]
+
+
+section_25  = listing "Lexicon's properties"
+
 
  |> ".d r r" <| [
 
@@ -2882,6 +2981,10 @@ lexicon = listing "Lexicon's properties"
 
     MutaFaCCiL                `adj`     {- mutaDar~ir -}       [ "damaged" ] ]
 
+
+section_26  = listing "Lexicon's properties"
+
+
  |> ".d r s" <| [
 
     -- ;; Dar~as_1
@@ -2981,6 +3084,10 @@ lexicon = listing "Lexicon's properties"
     -- tDry    taDoriy Nap     provocation
 
     TaFCI |< aT               `noun`    {- taDoriyap -}        [ "provocation" ] ]
+
+
+section_27  = listing "Lexicon's properties"
+
 
  |> ".d w '" <| [
 
@@ -3167,6 +3274,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- DawoE -}            [ "fragrance" ] ]
 
+
+section_28  = listing "Lexicon's properties"
+
+
  |> ".d w r" <| [
 
     -- ;; DawAriy_1
@@ -3313,6 +3424,10 @@ lexicon = listing "Lexicon's properties"
     MunFaCI                   `adj`     {- munoDawiy -}        [ unwords [ "seeking", "refuge" ], unwords [ "rallying", "around" ] ]
                               `plural`     MunFaCI |< At ]
 
+
+section_29  = listing "Lexicon's properties"
+
+
  |> ".d y '" <| [
 
     -- ;; DiyA'_1
@@ -3366,6 +3481,10 @@ lexicon = listing "Lexicon's properties"
     -- mDy}    muDiy}  Napdu   shining;bright
 
     MuFIL                     `adj`     {- muDiy' -}           [ "shining", "bright" ] ]
+
+
+section_30  = listing "Lexicon's properties"
+
 
  |> ".d y `" <| [
 
@@ -3457,6 +3576,10 @@ lexicon = listing "Lexicon's properties"
     -- mDyE    muDay~iE        Nall    squandering;wasteful     [[muDay~iE/ADJ]]
 
     MuFaCCiL                  `adj`     {- muDay~iE -}         [ "squandering", "wasteful" ] ]
+
+
+section_31  = listing "Lexicon's properties"
+
 
  |> ".d y f" <| [
 
@@ -3582,6 +3705,10 @@ lexicon = listing "Lexicon's properties"
     -- AstDAf  {isotiDAf       NapAt   hosting
 
     IstiFAL |< aT             `noun`    {- AisotiDAfap -}      [ "hosting" ] ]
+
+
+section_32  = listing "Lexicon's properties"
+
 
  |> ".d y m" <| [
 
@@ -3723,6 +3850,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `verb`    {- AiD~ajaE -}         [ unwords [ "lie", "down" ], "sleep" ] ]
 
+
+section_33  = listing "Lexicon's properties"
+
+
  |> "mu.d.da^ga`" <| [
 
     -- ;; muD~ajaE_1
@@ -3736,4 +3867,39 @@ lexicon = listing "Lexicon's properties"
     -- mtDAd   mutaDAd~        N-ap    opposing;contrary;antagonistic     [[mutaDAd~/ADJ]]
 
     Identity                  `adj`     {- mutaDAd~ -}         [ "opposing", "contrary", "antagonistic" ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15,
+             section_16,
+             section_17,
+             section_18,
+             section_19,
+             section_20,
+             section_21,
+             section_22,
+             section_23,
+             section_24,
+             section_25,
+             section_26,
+             section_27,
+             section_28,
+             section_29,
+             section_30,
+             section_31,
+             section_32,
+             section_33 ]
 

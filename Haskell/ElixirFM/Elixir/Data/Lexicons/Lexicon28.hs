@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "y ' q" <| [
@@ -64,6 +67,10 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "yahuwd N" ] -},
 
     FaCUL |< Iy |< aT         `noun`    {- yahuwdiy~ap -}      [ "Judaism" ] ]
+
+
+section_2   = listing "Lexicon's properties"
+
 
  |> "y m n" <| [
 
@@ -123,6 +130,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRADiS                   `noun`    {- yanAyir -}          [ "January" ] ]
 
+
+section_3   = listing "Lexicon's properties"
+
+
  |> "y q .z" <| [
 
     HaFCaL                    `verb`    {- OayoqaZ -}          [ "awaken", "warn" ],
@@ -153,6 +164,10 @@ lexicon = listing "Lexicon's properties"
     FaCUL                     `noun`    {- yasuwE -}           [ unwords [ "Jesus", "(", "in", "Christianity", ")" ], "Yasou" ],
 
     FaCUL |< Iy               `adj`     {- yasuwEiy~ -}        [ "Jesuit" ] ]
+
+
+section_4   = listing "Lexicon's properties"
+
 
  |> "y s r" <| [
 
@@ -203,6 +218,10 @@ lexicon = listing "Lexicon's properties"
  |> "y w b l" <| [
 
     KuRDIS                    `noun`    {- yuwbiyl -}          [ "jubilee" ] ]
+
+
+section_5   = listing "Lexicon's properties"
+
 
  |> "y w m" <| [
 
@@ -269,6 +288,10 @@ lexicon = listing "Lexicon's properties"
  |> "yA" <| [
 
     Identity                  `noun`    {- yA -}               [ "oh", "you" ] ]
+
+
+section_6   = listing "Lexicon's properties"
+
 
  |> "yAbAn" <| [
 
@@ -344,6 +367,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- yuwrAniyuwm -}      [ "uranium" ] ]
 
+
+section_7   = listing "Lexicon's properties"
+
+
  |> "yUrk" <| [
 
     Identity                  `noun`    {- yuwrk -}            [ "York" ] ]
@@ -359,4 +386,13 @@ lexicon = listing "Lexicon's properties"
  |> "ywmbl.gAz" <| [
 
     Identity                  `noun`    {- ywmblgAz -}         [ unwords [ "Iompelgas", "?", "?" ] ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7 ]
 

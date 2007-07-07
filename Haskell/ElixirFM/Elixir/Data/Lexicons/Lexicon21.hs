@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "'uq.sur" <| [
@@ -67,6 +70,10 @@ lexicon = listing "Lexicon's properties"
     InFiCAL                   `noun`    {- AinoqiDAD -}        [ "assault", "attack" ]
                               `plural`     InFiCAL |< At ]
 
+
+section_2   = listing "Lexicon's properties"
+
+
  |> "q .d b" <| [
 
     FaCIL                     `noun`    {- qaDiyb -}           [ "stick", "bar", "rod" ]
@@ -79,6 +86,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCaL                  `noun`    {- muqotaDab -}        [ "summary" ]
                               `plural`     MuFtaCaL |< At ]
+
+
+section_3   = listing "Lexicon's properties"
+
 
  |> "q .d y" <| [
 
@@ -135,6 +146,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCY                   `noun`    {- muqotaDaY -}        [ "requirement", "exigency" ]
                               `plural`     MuFtaCY |< At ]
+
+
+section_4   = listing "Lexicon's properties"
+
 
  |> "q .h .t" <| [
 
@@ -202,6 +217,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCaL |< At
                            {- `others`  [ "qa.sb Napdu" ] -} ]
 
+
+section_5   = listing "Lexicon's properties"
+
+
  |> "q .s d" <| [
 
     FaCaL                     `verb`    {- qaSad-i -}          [ "intend", "mean", "pursue", unwords [ "be", "meant" ] ]
@@ -243,6 +262,10 @@ lexicon = listing "Lexicon's properties"
  |> "q .s q .s" <| [
 
     KaRDaS |< aT              `noun`    {- qaSoqaSap -}        [ "breaking", "shattering", "trimming" ] ]
+
+
+section_6   = listing "Lexicon's properties"
+
 
  |> "q .s r" <| [
 
@@ -296,6 +319,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACiL
                            {- `others`  [ "maqA.sir Ndip" ] -} ]
 
+
+section_7   = listing "Lexicon's properties"
+
+
  |> "q .s w" <| [
 
     HaFCY                     `verb`    {- OaqoSaY -}          [ "remove" ],
@@ -331,6 +358,10 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "qi.tA.t N", "qi.ta.t N" ] -},
 
     FiCL |< aT                `noun`    {- qiT~ap -}           [ unwords [ "female", "cat" ] ] ]
+
+
+section_8   = listing "Lexicon's properties"
+
 
  |> "q .t `" <| [
 
@@ -432,6 +463,10 @@ lexicon = listing "Lexicon's properties"
 
     MunFaCiL                  `adj`     {- munoqaTiE -}        [ "interrupted", "discontinued" ] ]
 
+
+section_9   = listing "Lexicon's properties"
+
+
  |> "q .t b" <| [
 
     IstaFCaL                  `verb`    {- AisotaqoTab -}      [ "unite", "polarize" ],
@@ -468,6 +503,10 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "'aq.tAn N" ] -},
 
     FuCL |< Iy                `adj`     {- quToniy~ -}         [ "cotton" ] ]
+
+
+section_10  = listing "Lexicon's properties"
+
 
  |> "q .t r" <| [
 
@@ -525,6 +564,10 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCaL,
 
     FaCiL                     `adj`     {- qa*ir -}            [ "impure", "dirty" ] ]
+
+
+section_11  = listing "Lexicon's properties"
+
 
  |> "q ` d" <| [
 
@@ -601,6 +644,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCLAn                    `noun`    {- quboTAn -}          [ "captain", "commander" ] ]
 
+
+section_12  = listing "Lexicon's properties"
+
+
  |> "q b `" <| [
 
     FaCaL                     `verb`    {- qabaE-a -}          [ unwords [ "retract", "the", "head" ], "withdraw", unwords [ "be", "confined" ] ]
@@ -616,6 +663,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCAL
                               `plural`     FuCaL
                            {- `others`  [ "qibAb N", "qubab N" ] -} ]
+
+
+section_13  = listing "Lexicon's properties"
+
 
  |> "q b l" <| [
 
@@ -689,6 +740,10 @@ lexicon = listing "Lexicon's properties"
 
     MustaFCaL |< Iy           `adj`     {- musotaqobaliy~ -}   [ "future" ] ]
 
+
+section_14  = listing "Lexicon's properties"
+
+
  |> "q b r" <| [
 
     FaCL                      `noun`    {- qabor -}            [ "tomb", "sepulcher" ]
@@ -721,6 +776,10 @@ lexicon = listing "Lexicon's properties"
     FaL                       `part`    {- qad -}              [ unwords [ "may", "/", "might" ] ],
 
     MiFCAL                    `noun`    {- miqodAd -}          [ "Miqdad" ] ]
+
+
+section_15  = listing "Lexicon's properties"
+
 
  |> "q d m" <| [
 
@@ -800,6 +859,10 @@ lexicon = listing "Lexicon's properties"
 
     MustaFCaL                 `adj`     {- musotaqodam -}      [ "summoned", "requested" ] ]
 
+
+section_16  = listing "Lexicon's properties"
+
+
  |> "q d r" <| [
 
     FaCaL                     `verb`    {- qadar-u -}          [ unwords [ "be", "able", "to" ], unwords [ "be", "capable", "of" ] ]
@@ -876,6 +939,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCiL                  `noun`    {- muqotadir -}        [ "Muqtadir" ] ]
 
+
+section_17  = listing "Lexicon's properties"
+
+
  |> "q d s" <| [
 
     FaCCaL                    `verb`    {- qad~as -}           [ "consecrate", "glorify", "venerate" ],
@@ -924,6 +991,10 @@ lexicon = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- qudowap -}          [ "example", "model", "pattern" ]
                               `plural`     FiCL
                            {- `others`  [ "qidw Napdu" ] -} ]
+
+
+section_18  = listing "Lexicon's properties"
+
 
  |> "q d y" <| [
 
@@ -1001,6 +1072,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACI
                            {- `others`  [ "maqAhiy N0_Nh" ] -} ]
 
+
+section_19  = listing "Lexicon's properties"
+
+
  |> "q l .s" <| [
 
     FaCaL                     `verb`    {- qalaS-i -}          [ "shrink", "diminish", "decline" ]
@@ -1043,6 +1118,10 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCAL                   `noun`    {- AiqotilAE -}        [ "uprooting", "extermination" ]
                               `plural`     IFtiCAL |< At ]
+
+
+section_20  = listing "Lexicon's properties"
+
 
  |> "q l b" <| [
 
@@ -1090,6 +1169,10 @@ lexicon = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- maqoluwb -}         [ unwords [ "turned", "over" ], "inverted", "reversed" ],
 
     MutaFaCCiL                `adj`     {- mutaqal~ib -}       [ "wavering", "changing", "inconstant" ] ]
+
+
+section_21  = listing "Lexicon's properties"
+
 
  |> "q l d" <| [
 
@@ -1146,6 +1229,10 @@ lexicon = listing "Lexicon's properties"
     MuFiCL                    `noun`    {- muqil~ -}           [ "destitute", "poor" ],
 
     MustaFiCL                 `adj`     {- musotaqil~ -}       [ "independent", "autonomous" ] ]
+
+
+section_22  = listing "Lexicon's properties"
+
 
  |> "q l m" <| [
 
@@ -1210,6 +1297,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCAL |< aT               `noun`    {- qumAmap -}          [ "rubbish" ] ]
 
+
+section_23  = listing "Lexicon's properties"
+
+
  |> "q m r" <| [
 
     FaCaL                     `verb`    {- qamar-i -}          [ "gamble" ]
@@ -1259,6 +1350,10 @@ lexicon = listing "Lexicon's properties"
     KiRDAS                    `noun`    {- qinoTAr -}          [ unwords [ "qantar", "(", "weight", "measure", ")" ] ]
                               `plural`     KaRADIS
                            {- `others`  [ "qanA.tiyr Ndip" ] -} ]
+
+
+section_24  = listing "Lexicon's properties"
+
 
  |> "q n `" <| [
 
@@ -1319,6 +1414,10 @@ lexicon = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- taqoniyn -}         [ "legislation", "lawmaking" ]
                               `plural`     TaFCIL |< At ]
 
+
+section_25  = listing "Lexicon's properties"
+
+
  |> "q n w" <| [
 
     FaCY |< aT                `noun`    {- qanAp -}            [ "canal", "channel" ]
@@ -1372,6 +1471,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     IFtiCAL |< At,
 
     MunFaCiL                  `adj`     {- munoqariD -}        [ "extinct" ] ]
+
+
+section_26  = listing "Lexicon's properties"
+
 
  |> "q r .h" <| [
 
@@ -1429,6 +1532,10 @@ lexicon = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- qiro$ -}            [ "shark" ] ]
 
+
+section_27  = listing "Lexicon's properties"
+
+
  |> "q r `" <| [
 
     FaCaL                     `verb`    {- qaraE-a -}          [ "knock", "strike", "ring" ]
@@ -1456,6 +1563,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     IFtiCAL |< At,
 
     MuFtaCiL                  `noun`    {- muqotariE -}        [ "voter", "voting" ] ]
+
+
+section_28  = listing "Lexicon's properties"
+
 
  |> "q r b" <| [
 
@@ -1528,6 +1639,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACiL
                            {- `others`  [ "qawArib Ndip" ] -} ]
 
+
+section_29  = listing "Lexicon's properties"
+
+
  |> "q r f" <| [
 
     IFtaCaL                   `verb`    {- Aiqotaraf -}        [ "commit", "perpetrate" ] ]
@@ -1567,6 +1682,10 @@ lexicon = listing "Lexicon's properties"
     MuFACiL                   `adj`     {- muqArin -}          [ "comparative" ],
 
     MuFACaL                   `adj`     {- muqAran -}          [ "comparative", "compared" ] ]
+
+
+section_30  = listing "Lexicon's properties"
+
 
  |> "q r r" <| [
 
@@ -1628,6 +1747,10 @@ lexicon = listing "Lexicon's properties"
 
     FaL |<< "awIy"            `adj`     {- qarawiy~ -}         [ unwords [ "of", "/", "from", "Kairouan" ] ] ]
 
+
+section_31  = listing "Lexicon's properties"
+
+
  |> "q r y" <| [
 
     FiCY                      `noun`    {- qiraY -}            [ "hospitality" ],
@@ -1661,6 +1784,10 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- taqosiyT -}         [ "rationing", "distribution" ]
                               `plural`     TaFCIL |< At ]
+
+
+section_32  = listing "Lexicon's properties"
+
 
  |> "q s m" <| [
 
@@ -1717,6 +1844,10 @@ lexicon = listing "Lexicon's properties"
 
     MunFaCiL                  `adj`     {- munoqasim -}        [ "shared" ] ]
 
+
+section_33  = listing "Lexicon's properties"
+
+
  |> "q s r" <| [
 
     FaCL                      `noun`    {- qasor -}            [ "force", "coercion" ],
@@ -1752,6 +1883,10 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `adj`     {- qAsiy -}            [ "harsh", "cruel", "brutal" ]
                               `plural`     FACI |< At ]
+
+
+section_34  = listing "Lexicon's properties"
+
 
  |> "q t l" <| [
 
@@ -1822,6 +1957,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FUCAL
                            {- `others`  [ "quwwAd N" ] -} ]
 
+
+section_35  = listing "Lexicon's properties"
+
+
  |> "q w l" <| [
 
     FAL                       `verb`    {- qAl-u -}            [ "say", unwords [ "be", "said" ] ]
@@ -1844,6 +1983,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFUL |< At,
 
     MuFACiL                   `noun`    {- muqAwil -}          [ "contractor" ] ]
+
+
+section_36  = listing "Lexicon's properties"
+
 
  |> "q w m" <| [
 
@@ -1919,6 +2062,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFAL                     `adj`     {- muqAm -}            [ "raised", "erected" ] ]
 
+
+section_37  = listing "Lexicon's properties"
+
+
  |> "q w n y" <| [
 
     KuRDI |< aT               `noun`    {- quwniyap -}         [ "Konya" ] ]
@@ -1986,6 +2133,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- muqAyaDap -}        [ "barter", "exchange" ] ]
 
+
+section_38  = listing "Lexicon's properties"
+
+
  |> "q y .s r" <| [
 
     KaRDaS                    `noun`    {- qayoSar -}          [ "Qaisar" ],
@@ -2039,6 +2190,10 @@ lexicon = listing "Lexicon's properties"
     IstiFAL |< aT             `noun`    {- AisotiqAlap -}      [ "resignation", "retirement" ],
 
     MustaFIL                  `noun`    {- musotaqiyl -}       [ "discharged", "retired" ] ]
+
+
+section_39  = listing "Lexicon's properties"
+
 
  |> "q y m" <| [
 
@@ -2108,6 +2263,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- qAdruwf -}          [ "Kadyrov" ] ]
 
+
+section_40  = listing "Lexicon's properties"
+
+
  |> "qUquryAl" <| [
 
     Identity                  `noun`    {- quwquroyAl -}       [ unwords [ "Gogorial", "(", "Gorgorial", "?", "?", ")" ] ] ]
@@ -2145,4 +2304,46 @@ lexicon = listing "Lexicon's properties"
  |> "quwatl" <| [
 
     Identity |< Iy            `adj`     {- quwatoliy~ -}       [ "Quwatli" ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15,
+             section_16,
+             section_17,
+             section_18,
+             section_19,
+             section_20,
+             section_21,
+             section_22,
+             section_23,
+             section_24,
+             section_25,
+             section_26,
+             section_27,
+             section_28,
+             section_29,
+             section_30,
+             section_31,
+             section_32,
+             section_33,
+             section_34,
+             section_35,
+             section_36,
+             section_37,
+             section_38,
+             section_39,
+             section_40 ]
 

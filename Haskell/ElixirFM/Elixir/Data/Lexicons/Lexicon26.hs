@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "h ' l" <| [
@@ -51,6 +54,10 @@ lexicon = listing "Lexicon's properties"
  |> "h ^g n" <| [
 
     IstaFCaL                  `verb`    {- Aisotahojan -}      [ "condemn", "disapprove" ] ]
+
+
+section_2   = listing "Lexicon's properties"
+
 
  |> "h ^g r" <| [
 
@@ -108,6 +115,10 @@ lexicon = listing "Lexicon's properties"
     FACiL |< Iy               `adj`     {- hA$imiy~ -}         [ "Hashimi", "Hashemi" ],
 
     FiCAL                     `noun`    {- hi$Am -}            [ "Hisham", "Hicham" ] ]
+
+
+section_3   = listing "Lexicon's properties"
+
 
  |> "h b .t" <| [
 
@@ -170,6 +181,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                            {- `others`  [ "hudub Ndu", "'ahdAb N" ] -} ]
 
+
+section_4   = listing "Lexicon's properties"
+
+
  |> "h d d" <| [
 
     FaCL                      `verb`    {- had~-i -}           [ unwords [ "be", "weak" ], unwords [ "be", "decrepit" ] ]
@@ -220,6 +235,10 @@ lexicon = listing "Lexicon's properties"
     MustaFCiL                 `adj`     {- musotahodif -}      [ "targeting", unwords [ "aiming", "at" ] ],
 
     MustaFCaL                 `adj`     {- musotahodaf -}      [ "guided", "targeted" ] ]
+
+
+section_5   = listing "Lexicon's properties"
+
 
  |> "h d m" <| [
 
@@ -277,6 +296,10 @@ lexicon = listing "Lexicon's properties"
 
     MaFCIy                    `adj`     {- mahodiy~ -}         [ "presented", "given" ] ]
 
+
+section_6   = listing "Lexicon's properties"
+
+
  |> "h f t" <| [
 
     TaFACaL                   `verb`    {- tahAfat -}          [ unwords [ "come", "in", "crowds" ], unwords [ "be", "infatuated" ] ],
@@ -327,6 +350,10 @@ lexicon = listing "Lexicon's properties"
     MutaFACiL                 `noun`    {- mutahAlik -}        [ "exhausted", unwords [ "broken", "down" ] ],
 
     MustaFCiL                 `noun`    {- musotaholik -}      [ "consumer" ] ]
+
+
+section_7   = listing "Lexicon's properties"
+
 
  |> "h l l" <| [
 
@@ -390,6 +417,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCUL                     `noun`    {- humuwd -}           [ "extinction", "subsiding", "fading" ] ]
 
+
+section_8   = listing "Lexicon's properties"
+
+
  |> "h m k" <| [
 
     InFaCaL                   `verb`    {- Ainohamak -}        [ unwords [ "be", "engrossed" ], unwords [ "be", "preoccupied" ], unwords [ "be", "dedicated" ] ] ]
@@ -450,6 +481,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCL                   `adj`     {- muhotam~ -}         [ "interested", "concerned", "tasks", "functions", "duties" ]
                               `plural`     MuFtaCL |< At ]
+
+
+section_9   = listing "Lexicon's properties"
+
 
  |> "h m y" <| [
 
@@ -520,6 +555,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCL |<< "a"              `pron`    {- hun~a -}            [ "they" ] ]
 
+
+section_10  = listing "Lexicon's properties"
+
+
  |> "h n r y" <| [
 
     KiRDI                     `noun`    {- hinoriy -}          [ "Henry", "Henri" ] ]
@@ -581,6 +620,10 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `noun`    {- haram -}            [ "pyramid" ]
                               `plural`     HaFCAL |< At
                               `plural`     HaFCAL ]
+
+
+section_11  = listing "Lexicon's properties"
+
 
  |> "h r n" <| [
 
@@ -660,6 +703,10 @@ lexicon = listing "Lexicon's properties"
 
     KuRDI                     `noun`    {- huwbiy -}           [ "Hobby" ] ]
 
+
+section_12  = listing "Lexicon's properties"
+
+
  |> "h w d" <| [
 
     TaFCIL                    `noun`    {- tahowiyd -}         [ "Judaization" ]
@@ -717,6 +764,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFIL                     `adj`     {- muhiyn -}           [ "insulting", "contemptuous" ] ]
 
+
+section_13  = listing "Lexicon's properties"
+
+
  |> "h w r" <| [
 
     InFAL                     `verb`    {- AinohAr -}          [ unwords [ "be", "demolished" ], "collapse" ],
@@ -727,7 +778,9 @@ lexicon = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     InFiyAL                   `noun`    {- AinohiyAr -}        [ "collapse", "downfall", "breakdown" ]
-                              `plural`     InFiyAL |< At ]
+                              `plural`     InFiyAL |< At,
+
+    MunFAL                    `adj`     {- munohAr -}          [ unwords [ "suffering", "a", "breakdown" ], "collapsing" ] ]
 
  |> "h w s" <| [
 
@@ -777,6 +830,10 @@ lexicon = listing "Lexicon's properties"
  |> "h w z" <| [
 
     HaFCAL                    `noun`    {- OahowAz -}          [ "Ahwaz" ] ]
+
+
+section_14  = listing "Lexicon's properties"
+
 
  |> "h y '" <| [
 
@@ -837,6 +894,10 @@ lexicon = listing "Lexicon's properties"
     InFAL                     `verb`    {- AinohAl -}          [ "shower", unwords [ "rain", "down" ], "precipitate" ],
 
     FIL                       `noun`    {- hiyol -}            [ "Hill" ] ]
+
+
+section_15  = listing "Lexicon's properties"
+
 
  |> "h y m n" <| [
 
@@ -906,6 +967,10 @@ lexicon = listing "Lexicon's properties"
  |> "hA" <| [
 
     Identity                  `noun`    {- hA -}               [ "look", "now" ] ]
+
+
+section_16  = listing "Lexicon's properties"
+
 
  |> "hAfAnA" <| [
 
@@ -987,6 +1052,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- huwlAnodA -}        [ "Holland" ] ]
 
+
+section_17  = listing "Lexicon's properties"
+
+
  |> "hUlIwUd" <| [
 
     Identity                  `noun`    {- huwliywuwd -}       [ "Hollywood" ] ]
@@ -1065,7 +1134,22 @@ lexicon = listing "Lexicon's properties"
 
     Identity |<< "a"          `pron`    {- mAhuwa -}           [ "what" ] ]
 
- |> "munhAr" <| [
 
-    Identity                  `adj`     {- munohAr -}          [ unwords [ "suffering", "a", "breakdown" ], "collapsing" ] ]
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15,
+             section_16,
+             section_17 ]
 

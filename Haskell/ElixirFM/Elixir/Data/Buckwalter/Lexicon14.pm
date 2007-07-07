@@ -7989,6 +7989,26 @@ $Lexicon = {
       'glosses' => [],
       'orig' => 'AinoSiyAE',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mun.sA`',
+      'form' => 'mun.sA`',
+      'lines' => [
+        ';; munoSAE_1',
+        'mnSAE   munoSAE Nall    submissive;obedient     [[munoSAE/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MunFAL',
+      'suffix' => '',
+      'glosses' => [
+        'submissive',
+        'obedient'
+      ],
+      'orig' => 'munoSAE',
+      'prefix' => ''
     }
   ],
   '.s ` r' => [
@@ -17351,28 +17371,6 @@ $Lexicon = {
         'cashiers'
       ],
       'orig' => 'Sayorafiy~',
-      'prefix' => ''
-    }
-  ],
-  'mun.sA`' => [
-    {
-      'types' => {},
-      'entry' => 'mun.sA`',
-      'form' => 'mun.sA`',
-      'lines' => [
-        ';; munoSAE_1',
-        'mnSAE   munoSAE Nall    submissive;obedient     [[munoSAE/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'submissive',
-        'obedient'
-      ],
-      'orig' => 'munoSAE',
       'prefix' => ''
     }
   ],

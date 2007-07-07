@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "iltif" <| [
@@ -93,6 +96,10 @@ lexicon = listing "Lexicon's properties"
 
     FACUL                     `noun`    {- lAguws -}           [ "Lagos" ] ]
 
+
+section_2   = listing "Lexicon's properties"
+
+
  |> "l .g w" <| [
 
     HaFCY                     `verb`    {- OalogaY -}          [ "cancel", "abrogate", "terminate", unwords [ "be", "cancelled" ] ],
@@ -151,6 +158,10 @@ lexicon = listing "Lexicon's properties"
 
     HiFCAL                    `noun`    {- IiloHAd -}          [ "atheism", "apostasy" ] ]
 
+
+section_3   = listing "Lexicon's properties"
+
+
  |> "l .h m" <| [
 
     IFtaCaL                   `verb`    {- AilotaHam -}        [ unwords [ "cling", "together" ], unwords [ "hold", "firmly", "together" ] ],
@@ -179,6 +190,10 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "talA.hiyn Ndip" ] -},
 
     MuFaCCiL                  `noun`    {- mulaH~in -}         [ unwords [ "music", "composer" ] ] ]
+
+
+section_4   = listing "Lexicon's properties"
+
 
  |> "l .h q" <| [
 
@@ -238,6 +253,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFCaL                    `adj`     {- muloSaq -}          [ "attached", unwords [ "pasted", "on" ], "fastened", "poster", "placard" ]
                               `plural`     MuFCaL |< At ]
+
+
+section_5   = listing "Lexicon's properties"
+
 
  |> "l .t _h" <| [
 
@@ -316,6 +335,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCCaL                    `verb`    {- lax~aS -}           [ unwords [ "sum", "up" ], "summarize" ] ]
 
+
+section_6   = listing "Lexicon's properties"
+
+
  |> "l _h s" <| [
 
     FACUL                     `noun`    {- lAxuws -}           [ unwords [ "Lakhous", "?", "?" ] ] ]
@@ -387,6 +410,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCLAn |< Iy              `adj`     {- lubonAniy~ -}       [ "Lebanese" ] ]
 
+
+section_7   = listing "Lexicon's properties"
+
+
  |> "l b q" <| [
 
     FaCiL                     `verb`    {- labiq-a -}          [ unwords [ "be", "adroit" ], unwords [ "be", "elegant" ] ]
@@ -449,6 +476,10 @@ lexicon = listing "Lexicon's properties"
     FaCY                      `prep`    {- ladaY -}            [ unwords [ "with", "/", "by" ], "with", "by" ]
                               `plural`     FaCaL
                            {- `others`  [ "laday FW-Wa-y" ] -} ]
+
+
+section_8   = listing "Lexicon's properties"
+
 
  |> "l f .z" <| [
 
@@ -513,6 +544,10 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- lahojap -}          [ "tone", "dialect" ]
                               `plural`     FaCaL |< At ]
 
+
+section_9   = listing "Lexicon's properties"
+
+
  |> "l h b" <| [
 
     IFtaCaL                   `verb`    {- Ailotahab -}        [ unwords [ "flare", "up" ], unwords [ "be", "inflamed" ] ],
@@ -573,6 +608,10 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "talAmiy.h Ndip" ] -},
 
     MuFaCCiL                  `adj`     {- mulam~iH -}         [ "alluding", "referring" ] ]
+
+
+section_10  = listing "Lexicon's properties"
+
 
  |> "l m `" <| [
 
@@ -638,6 +677,10 @@ lexicon = listing "Lexicon's properties"
 
     FaC                       `part`    {- lam -}              [ "not" ] ]
 
+
+section_11  = listing "Lexicon's properties"
+
+
  |> "l n d n" <| [
 
     KaRDaS                    `noun`    {- lanodan -}          [ "London" ],
@@ -701,6 +744,10 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- talaq~af -}         [ "seize", "catch" ] ]
 
+
+section_12  = listing "Lexicon's properties"
+
+
  |> "l q m" <| [
 
     FaCCaL                    `verb`    {- laq~am -}           [ "feed", "supply", "load", "upload" ],
@@ -718,6 +765,10 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- taloqiyn -}         [ "instruction", "dictation", "suggesting" ]
                               `plural`     TaFCIL |< At ]
+
+
+section_13  = listing "Lexicon's properties"
+
 
  |> "l q y" <| [
 
@@ -770,6 +821,10 @@ lexicon = listing "Lexicon's properties"
  |> "l r ^g" <| [
 
     FACL                      `noun`    {- lArj -}             [ "Large" ] ]
+
+
+section_14  = listing "Lexicon's properties"
+
 
  |> "l s n" <| [
 
@@ -836,6 +891,10 @@ lexicon = listing "Lexicon's properties"
 
     FUL                       `noun`    {- luwk -}             [ "Luke" ] ]
 
+
+section_15  = listing "Lexicon's properties"
+
+
  |> "l w m" <| [
 
     FAL                       `verb`    {- lAm-u -}            [ "blame", "censure" ]
@@ -890,6 +949,10 @@ lexicon = listing "Lexicon's properties"
     FaL                       `conj`    {- law -}              [ "if" ],
 
     FU                        `noun`    {- luw -}              [ "Le" ] ]
+
+
+section_16  = listing "Lexicon's properties"
+
 
  |> "l w y" <| [
 
@@ -961,6 +1024,10 @@ lexicon = listing "Lexicon's properties"
 
     KiRDI                     `noun`    {- liyniy -}           [ "Lenny" ] ]
 
+
+section_17  = listing "Lexicon's properties"
+
+
  |> "l y q" <| [
 
     FAL                       `verb`    {- lAq-i -}            [ unwords [ "be", "proper", "for" ], unwords [ "be", "suitable", "for" ] ]
@@ -991,6 +1058,10 @@ lexicon = listing "Lexicon's properties"
  |> "l y z r" <| [
 
     KaRDiS                    `noun`    {- layozir -}          [ "laser" ] ]
+
+
+section_18  = listing "Lexicon's properties"
+
 
  |> "l z m" <| [
 
@@ -1044,6 +1115,10 @@ lexicon = listing "Lexicon's properties"
 
     MustaFCaL                 `noun`    {- musotalozam -}      [ "requirements" ]
                               `plural`     MustaFCaL |< At ]
+
+
+section_19  = listing "Lexicon's properties"
+
 
  |> "lA" <| [
 
@@ -1121,6 +1196,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- luwsiyrn -}         [ "Lucerne" ] ]
 
+
+section_20  = listing "Lexicon's properties"
+
+
  |> "l_akin" <| [
 
     Identity                  `conj`    {- l`kin -}            [ "however" ] ]
@@ -1170,4 +1249,26 @@ lexicon = listing "Lexicon's properties"
  |> "mAlam" <| [
 
     Identity                  `conj`    {- mAlam -}            [ unwords [ "as", "long", "as" ] ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15,
+             section_16,
+             section_17,
+             section_18,
+             section_19,
+             section_20 ]
 

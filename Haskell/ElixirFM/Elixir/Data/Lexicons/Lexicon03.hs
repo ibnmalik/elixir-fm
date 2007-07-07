@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "litawwi-" <| [
@@ -75,6 +78,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFACiL                   `noun`    {- mutAxim -}          [ "neighboring", "adjacent" ] ]
 
+
+section_2   = listing "Lexicon's properties"
+
+
  |> "t ` b" <| [
 
     FaCiL                     `verb`    {- taEib-a -}          [ unwords [ "be", "tired" ], unwords [ "work", "hard" ] ]
@@ -93,6 +100,10 @@ lexicon = listing "Lexicon's properties"
     FiCL                      `noun`    {- tibog -}            [ "tobacco" ]
                               `plural`     FuCUL
                            {- `others`  [ "tubuw.g N" ] -} ]
+
+
+section_3   = listing "Lexicon's properties"
+
 
  |> "t b `" <| [
 
@@ -153,6 +164,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRDIS |< Iy              `adj`     {- takotiykiy~ -}      [ "tactical", "tactic" ] ]
 
+
+section_4   = listing "Lexicon's properties"
+
+
  |> "t l f" <| [
 
     FaCaL                     `noun`    {- talaf -}            [ "ruin", "loss" ],
@@ -207,6 +222,10 @@ lexicon = listing "Lexicon's properties"
  |> "t m l" <| [
 
     FACiL                     `noun`    {- tAmil -}            [ "Tamil" ] ]
+
+
+section_5   = listing "Lexicon's properties"
+
 
  |> "t m m" <| [
 
@@ -275,6 +294,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRDAS |< Iy              `adj`     {- tanzAniy~ -}        [ "Tanzanian" ] ]
 
+
+section_6   = listing "Lexicon's properties"
+
+
  |> "t q n" <| [
 
     FaCL |< Iy                `adj`     {- taqoniy~ -}         [ "technical" ],
@@ -342,6 +365,10 @@ lexicon = listing "Lexicon's properties"
  |> "t r h" <| [
 
     FuCCaL |< aT              `noun`    {- tur~ahap -}         [ "farce", "hoax" ] ]
+
+
+section_7   = listing "Lexicon's properties"
+
 
  |> "t r k" <| [
 
@@ -417,6 +444,10 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL ]
 
+
+section_8   = listing "Lexicon's properties"
+
+
  |> "t w m" <| [
 
     FUL                       `noun`    {- tuwm -}             [ "Tom" ] ]
@@ -488,6 +519,10 @@ lexicon = listing "Lexicon's properties"
 
     FIL                       `noun`    {- tiyh -}             [ "desert", "labyrinth" ] ]
 
+
+section_9   = listing "Lexicon's properties"
+
+
  |> "t y m" <| [
 
     FACL                      `noun`    {- tAyom -}            [ "TIME" ],
@@ -558,6 +593,10 @@ lexicon = listing "Lexicon's properties"
  |> "tUbA.gU" <| [
 
     Identity                  `noun`    {- tuwbAguw -}         [ "Tobago" ] ]
+
+
+section_10  = listing "Lexicon's properties"
+
 
  |> "tUrUntU" <| [
 
@@ -639,6 +678,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tikonuwluwjiyA -}   [ "technology" ] ]
 
+
+section_11  = listing "Lexicon's properties"
+
+
  |> "tilfizyUn" <| [
 
     Identity                  `noun`    {- tilfizyuwn -}       [ "television" ],
@@ -688,4 +731,17 @@ lexicon = listing "Lexicon's properties"
  |> "tuway^gr" <| [
 
     Identity |< Iy            `adj`     {- tuwayojriy~ -}      [ "Tuwaijri" ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11 ]
 

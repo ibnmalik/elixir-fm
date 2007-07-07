@@ -11056,55 +11056,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mun.tAd' => [
-    {
-      'types' => {
-        'manA.tiyd' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'mun.tAd',
-      'form' => 'mun.tAd',
-      'lines' => [
-        ';; munoTAd_1',
-        'mnTAd   munoTAd Ndu     blimp;dirigible',
-        'mnATyd  manATiyd        Ndip    blimps;dirigibles'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'blimp',
-        'dirigible',
-        'blimps',
-        'dirigibles'
-      ],
-      'orig' => 'munoTAd',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mun.tAd',
-      'form' => 'mun.tAdiyy',
-      'lines' => [
-        ';; munoTAdiy~_1',
-        'mnTAdy  munoTAdiy~      Nall    balloonist;dirigible     [[munoTAdiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'balloonist',
-        'dirigible'
-      ],
-      'orig' => 'munoTAdiy~',
-      'prefix' => ''
-    }
-  ],
   '.t w ^s' => [
     {
       'types' => {
@@ -21840,6 +21791,53 @@ $Lexicon = {
         'mountains'
       ],
       'orig' => 'Tawod',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'manA.tiyd' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'mun.tAd',
+      'form' => 'mun.tAd',
+      'lines' => [
+        ';; munoTAd_1',
+        'mnTAd   munoTAd Ndu     blimp;dirigible',
+        'mnATyd  manATiyd        Ndip    blimps;dirigibles'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MunFAL',
+      'suffix' => '',
+      'glosses' => [
+        'blimp',
+        'dirigible',
+        'blimps',
+        'dirigibles'
+      ],
+      'orig' => 'munoTAd',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mun.tAd',
+      'form' => 'mun.tAdiyy',
+      'lines' => [
+        ';; munoTAdiy~_1',
+        'mnTAdy  munoTAdiy~      Nall    balloonist;dirigible     [[munoTAdiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MunFAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'balloonist',
+        'dirigible'
+      ],
+      'orig' => 'munoTAdiy~',
       'prefix' => ''
     }
   ],

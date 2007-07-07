@@ -24342,28 +24342,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'munhAr' => [
-    {
-      'types' => {},
-      'entry' => 'munhAr',
-      'form' => 'munhAr',
-      'lines' => [
-        ';; munohAr_1',
-        'mnhAr   munohAr Nall    suffering a breakdown;collapsing     [[munohAr/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'suffering a breakdown',
-        'collapsing'
-      ],
-      'orig' => 'munohAr',
-      'prefix' => ''
-    }
-  ],
   'h r ^g l' => [
     {
       'types' => {},
@@ -26230,6 +26208,26 @@ $Lexicon = {
         'rash'
       ],
       'orig' => 'mutahaw~ir',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'munhAr',
+      'form' => 'munhAr',
+      'lines' => [
+        ';; munohAr_1',
+        'mnhAr   munohAr Nall    suffering a breakdown;collapsing     [[munohAr/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MunFAL',
+      'suffix' => '',
+      'glosses' => [
+        'suffering a breakdown',
+        'collapsing'
+      ],
+      'orig' => 'munohAr',
       'prefix' => ''
     }
   ],

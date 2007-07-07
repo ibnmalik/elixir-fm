@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "'ubAl" <| [
@@ -153,6 +156,10 @@ lexicon = listing "Lexicon's properties"
     -- bA}n    bA}in   Nap     dowry
 
     FACiL |< aT               `noun`    {- bA}inap -}          [ "dowry" ] ]
+
+
+section_2   = listing "Lexicon's properties"
+
 
  |> "b ' q" <| [
 
@@ -310,6 +317,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCUL
                            {- `others`  [ "bi'zAn N", "bu'uwz N" ] -} ]
 
+
+section_3   = listing "Lexicon's properties"
+
+
  |> "b .d .d" <| [
 
     -- ;; baD~-i_1
@@ -341,6 +352,10 @@ lexicon = listing "Lexicon's properties"
     -- bD      baD~    N/ap    soft-skinned
 
     FaCL                      `noun`    {- baD~ -}             [ unwords [ "soft", "-", "skinned" ] ] ]
+
+
+section_4   = listing "Lexicon's properties"
+
 
  |> "b .d `" <| [
 
@@ -441,6 +456,10 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCuL                  `noun`    {- tabaD~uE -}         [ "shopping" ]
                               `plural`     TaFaCCuL |< At ]
+
+
+section_5   = listing "Lexicon's properties"
+
 
  |> "b .g '" <| [
 
@@ -571,6 +590,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFCaL                    `noun`    {- mubogaD -}          [ "detested", "odious" ] ]
 
+
+section_6   = listing "Lexicon's properties"
+
+
  |> "b .g ^s" <| [
 
     -- ;; baga$-a_1
@@ -690,6 +713,10 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL                    `noun`    {- maboguwr -}         [ "drenched", "soaked" ] ]
 
+
+section_7   = listing "Lexicon's properties"
+
+
  |> "b .g t" <| [
 
     -- ;; bagat-a_1
@@ -738,6 +765,10 @@ lexicon = listing "Lexicon's properties"
     -- mbAgt   mubAgit Nall    sudden;unexpected     [[mubAgit/ADJ]]
 
     MuFACiL                   `adj`     {- mubAgit -}          [ "sudden", "unexpected" ] ]
+
+
+section_8   = listing "Lexicon's properties"
+
 
  |> "b .g y" <| [
 
@@ -904,6 +935,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACIL
                            {- `others`  [ "bawA.giyz Ndip" ] -} ]
 
+
+section_9   = listing "Lexicon's properties"
+
+
  |> "b .h .h" <| [
 
     -- ;; baH~-u_1
@@ -1048,6 +1083,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCCAL
                            {- `others`  [ "bu.h.hA_t N" ] -} ]
 
+
+section_10  = listing "Lexicon's properties"
+
+
  |> "b .h _t r" <| [
 
     -- ;; baHovar_1
@@ -1111,6 +1150,10 @@ lexicon = listing "Lexicon's properties"
     -- bHlq    baHoliq IV_yu   gaze
 
     KaRDaS                    `verb`    {- baHolaq -}          [ "gaze" ] ]
+
+
+section_11  = listing "Lexicon's properties"
+
 
  |> "b .h r" <| [
 
@@ -1237,6 +1280,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRDAS |< Iy              `adj`     {- baHorAwiy~ -}       [ "Bahrawi", "Bahraoui" ] ]
 
+
+section_12  = listing "Lexicon's properties"
+
+
  |> "b .h r n" <| [
 
     -- ;; buHorAn_1
@@ -1353,6 +1400,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL |< aT               `noun`    {- baSaxap -}          [ "Easter", unwords [ "Passion", "Week" ] ] ]
 
+
+section_13  = listing "Lexicon's properties"
+
+
  |> "b .s b .s" <| [
 
     -- ;; baSobaS_1
@@ -1438,6 +1489,10 @@ lexicon = listing "Lexicon's properties"
     MiFCaL |< aT              `noun`    {- miboSaqap -}        [ "spittoon" ]
                               `plural`     MaFACiL
                            {- `others`  [ "mabA.siq Ndip" ] -} ]
+
+
+section_14  = listing "Lexicon's properties"
+
 
  |> "b .s r" <| [
 
@@ -1606,6 +1661,10 @@ lexicon = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- biSArap -}          [ "porridge" ]
                               `plural`     FuCAL |< aT ]
 
+
+section_15  = listing "Lexicon's properties"
+
+
  |> "b .s w" <| [
 
     -- ;; baSowap_1
@@ -1746,6 +1805,10 @@ lexicon = listing "Lexicon's properties"
     -- mtbAT}  mutabATi}       Nall    delaying;slowing down
 
     MutaFACiL                 `noun`    {- mutabATi} -}        [ "delaying", unwords [ "slowing", "down" ] ] ]
+
+
+section_16  = listing "Lexicon's properties"
+
 
  |> "b .t .h" <| [
 
@@ -1891,6 +1954,10 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- baTo$ap -}          [ "impact" ]
                               `plural`     FaCaL |< At ]
 
+
+section_17  = listing "Lexicon's properties"
+
+
  |> "b .t b .t" <| [
 
     -- ;; baTobaT_1
@@ -2015,6 +2082,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- baTAl -}            [ "heroism" ] ]
 
+
+section_18  = listing "Lexicon's properties"
+
+
  |> "b .t l n" <| [
 
     -- ;; buTolAn_1
@@ -2040,6 +2111,10 @@ lexicon = listing "Lexicon's properties"
     -- bTmy    buTomiy~        NAt     terebinths     [[buTomiy~/NOUN]]
 
     FuCL |< Iy                `noun`    {- buTomiy~ -}         [ "terebinths" ] ]
+
+
+section_19  = listing "Lexicon's properties"
+
 
  |> "b .t n" <| [
 
@@ -2185,6 +2260,10 @@ lexicon = listing "Lexicon's properties"
 
     FACUL                     `noun`    {- bATuwn -}           [ "concrete" ] ]
 
+
+section_20  = listing "Lexicon's properties"
+
+
  |> "b .t q" <| [
 
     -- ;; biTAqap_1
@@ -2325,6 +2404,10 @@ lexicon = listing "Lexicon's properties"
     -- bTATs   baTATis N       potatoes
 
     FaCACiL                   `noun`    {- baTATis -}          [ "potatoes" ] ]
+
+
+section_21  = listing "Lexicon's properties"
+
 
  |> "b .t y" <| [
 
@@ -2469,6 +2552,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL                  `noun`    {- mubaj~al -}         [ "revered", "venerable" ] ]
 
+
+section_22  = listing "Lexicon's properties"
+
+
  |> "b ^g m" <| [
 
     -- ;; bajam-i_1
@@ -2578,6 +2665,10 @@ lexicon = listing "Lexicon's properties"
     -- bA$     bA$~    Nall    smiling;happy
 
     FACL                      `noun`    {- bA$~ -}             [ "smiling", "happy" ] ]
+
+
+section_23  = listing "Lexicon's properties"
+
 
  |> "b ^s `" <| [
 
@@ -2715,6 +2806,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRDaS                    `noun`    {- ba$omaq -}          [ "slipper" ] ]
 
+
+section_24  = listing "Lexicon's properties"
+
+
  |> "b ^s m r" <| [
 
     -- ;; ba$omAr_1
@@ -2752,6 +2847,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRDIS |< aT
                               `plural`     KaRADiS
                            {- `others`  [ "ba^sAniq Ndip" ] -} ]
+
+
+section_25  = listing "Lexicon's properties"
+
 
  |> "b ^s r" <| [
 
@@ -2950,6 +3049,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFACiL                   `noun`    {- mubA$ir -}          [ "direct", "immediate" ] ]
 
+
+section_26  = listing "Lexicon's properties"
+
+
  |> "b ^s t" <| [
 
     -- ;; bu$ot_1
@@ -3069,6 +3172,10 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`    {- bA*ix -}            [ "luxurious", "haughty" ]
                               `plural`     FawACiL
                            {- `others`  [ "bawA_di_h Ndip" ] -} ]
+
+
+section_27  = listing "Lexicon's properties"
+
 
  |> "b _d l" <| [
 
@@ -3197,6 +3304,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCiL                  `noun`    {- muba*~ir -}         [ "squanderer" ] ]
 
+
+section_28  = listing "Lexicon's properties"
+
+
  |> "b _d y" <| [
 
     -- ;; ba*A'_1
@@ -3319,6 +3430,10 @@ lexicon = listing "Lexicon's properties"
     HaFCaL                    `noun`    {- Oaboxaq -}          [ unwords [ "one", "-", "eyed" ] ]
                               `plural`     FaCLA'
                            {- `others`  [ "ba_hqA' Nh N0_Nh Nhy" ] -} ]
+
+
+section_29  = listing "Lexicon's properties"
+
 
  |> "b _h r" <| [
 
@@ -3445,6 +3560,10 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL                    `noun`    {- maboxuwt -}         [ "lucky", "fortunate" ] ]
 
+
+section_30  = listing "Lexicon's properties"
+
+
  |> "b _h t r" <| [
 
     -- ;; baxotar_1
@@ -3561,6 +3680,10 @@ lexicon = listing "Lexicon's properties"
 
     MunFaCaL                  `noun`    {- munobavaq -}        [ "result" ]
                               `plural`     MunFaCaL |< At ]
+
+
+section_31  = listing "Lexicon's properties"
+
 
  |> "b _t r" <| [
 
@@ -3689,6 +3812,10 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL                    `noun`    {- maboEuwj -}         [ "disemboweled" ] ]
 
+
+section_32  = listing "Lexicon's properties"
+
+
  |> "b ` _t" <| [
 
     -- ;; baEav-a_1
@@ -3814,6 +3941,10 @@ lexicon = listing "Lexicon's properties"
 
     MunFaCiL                  `noun`    {- munobaEiv -}        [ "resurgent" ] ]
 
+
+section_33  = listing "Lexicon's properties"
+
+
  |> "b ` _t r" <| [
 
     -- ;; baEovar_1
@@ -3848,6 +3979,10 @@ lexicon = listing "Lexicon's properties"
     KuRDuS                    `noun`    {- buEobuE -}          [ "monster", "specter" ]
                               `plural`     KaRADiS
                            {- `others`  [ "ba`Abi` Ndip" ] -} ]
+
+
+section_34  = listing "Lexicon's properties"
+
 
  |> "b ` d" <| [
 
@@ -4025,6 +4160,10 @@ lexicon = listing "Lexicon's properties"
 
     MaFCaL |< aT              `noun`    {- maboEadap -}        [ "distance", "remoteness" ] ]
 
+
+section_35  = listing "Lexicon's properties"
+
+
  |> "b ` k k" <| [
 
     -- ;; buEokuwkap_1
@@ -4121,6 +4260,10 @@ lexicon = listing "Lexicon's properties"
     -- mbEzq   mubaEoziq       Nall    squanderer;spendthrift
 
     MuKaRDiS                  `noun`    {- mubaEoziq -}        [ "squanderer", "spendthrift" ] ]
+
+
+section_36  = listing "Lexicon's properties"
+
 
  |> "b d '" <| [
 
@@ -4296,12 +4439,20 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HiFCAL |< At
                               `plural`     HiFCA' |< At ]
 
+
+section_37  = listing "Lexicon's properties"
+
+
  |> "b d ' h" <| [
 
     -- ;; badA}ih_1
     -- bdA}h   badA}ih Ndip    self-evident truths
 
     KaRADiS                   `noun`    {- badA}ih -}          [ unwords [ "self", "-", "evident", "truths" ] ] ]
+
+
+section_38  = listing "Lexicon's properties"
+
 
  |> "b d `" <| [
 
@@ -4426,6 +4577,10 @@ lexicon = listing "Lexicon's properties"
     -- mbtdE   mubotadiE       Nall    innovator;creative
 
     MuFtaCiL                  `noun`    {- mubotadiE -}        [ "innovator", "creative" ] ]
+
+
+section_39  = listing "Lexicon's properties"
+
 
  |> "b d d" <| [
 
@@ -4554,6 +4709,10 @@ lexicon = listing "Lexicon's properties"
     -- bdyhy   badiyhiy~       NapAt   platitude;axiom     [[badiyhiy~/NOUN]]
 
     FaCIL |< Iy |< aT         `noun`    {- badiyhiy~ap -}      [ "platitude", "axiom" ] ]
+
+
+section_40  = listing "Lexicon's properties"
+
 
  |> "b d l" <| [
 
@@ -4720,6 +4879,10 @@ lexicon = listing "Lexicon's properties"
 
     MustaFCaL                 `noun`    {- musotabodal -}      [ "replacement", "reserve" ] ]
 
+
+section_41  = listing "Lexicon's properties"
+
+
  |> "b d n" <| [
 
     -- ;; badun-u_1
@@ -4775,6 +4938,10 @@ lexicon = listing "Lexicon's properties"
     -- bAdn    bAdin   Nall    corpulent;obese
 
     FACiL                     `noun`    {- bAdin -}            [ "corpulent", "obese" ] ]
+
+
+section_42  = listing "Lexicon's properties"
+
 
  |> "b d r" <| [
 
@@ -4912,6 +5079,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- badAwap -}          [ unwords [ "desert", "life" ], "nomadism", unwords [ "Bedouin", "life" ] ]
                               `plural`     FiCAL |< aT ]
+
+
+section_43  = listing "Lexicon's properties"
+
 
  |> "b d y" <| [
 
@@ -5088,6 +5259,10 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- bAfil -}            [ "Pavel" ] ]
 
+
+section_44  = listing "Lexicon's properties"
+
+
  |> "b f s" <| [
 
     -- ;; bAfs_1
@@ -5223,6 +5398,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCiL                  `noun`    {- mubotahij -}        [ "delighted" ] ]
 
+
+section_45  = listing "Lexicon's properties"
+
+
  |> "b h ^g t" <| [
 
     -- ;; bahojat_1
@@ -5349,6 +5528,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRDY |< Iy               `adj`     {- baholawiy~ -}       [ "Bahlawi", "Bahlaoui" ] ]
 
+
+section_46  = listing "Lexicon's properties"
+
+
  |> "b h m" <| [
 
     -- ;; >aboham_1
@@ -5438,6 +5621,10 @@ lexicon = listing "Lexicon's properties"
     HaFCaL                    `noun`    {- Oabohaq -}          [ "herpetic" ]
                               `plural`     FaCLA'
                            {- `others`  [ "bahqA' N0" ] -} ]
+
+
+section_47  = listing "Lexicon's properties"
+
 
  |> "b h r" <| [
 
@@ -5563,6 +5750,10 @@ lexicon = listing "Lexicon's properties"
 
     MuKaRDaS                  `noun`    {- mubahoraj -}        [ "gaudy", "trashy" ] ]
 
+
+section_48  = listing "Lexicon's properties"
+
+
  |> "b h r z" <| [
 
     -- ;; bihoruwz_1
@@ -5684,6 +5875,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCA'
                            {- `others`  [ "'abhA' Nh N0_Nh Nhy" ] -} ]
 
+
+section_49  = listing "Lexicon's properties"
+
+
  |> "b h y" <| [
 
     -- ;; bahiy-a_1
@@ -5787,6 +5982,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- bahozap -}          [ "rejection" ]
                               `plural`     FaCaL |< At ]
+
+
+section_50  = listing "Lexicon's properties"
+
 
  |> "b k '" <| [
 
@@ -5986,6 +6185,10 @@ lexicon = listing "Lexicon's properties"
 
     FaL                       `conj`    {- bal -}              [ unwords [ "but", "rather" ], unwords [ "in", "fact" ] ] ]
 
+
+section_51  = listing "Lexicon's properties"
+
+
  |> "b k m" <| [
 
     -- ;; bakim-a_1
@@ -6033,6 +6236,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCL
                               `plural`     FaCLA'
                            {- `others`  [ "bukm N", "bakmA' Nh N0_Nh Nhy" ] -} ]
+
+
+section_52  = listing "Lexicon's properties"
+
 
  |> "b k r" <| [
 
@@ -6225,6 +6432,10 @@ lexicon = listing "Lexicon's properties"
 
     FICAL                     `noun`    {- biykAr -}           [ "compass", "dividers" ] ]
 
+
+section_53  = listing "Lexicon's properties"
+
+
  |> "b k r ^g" <| [
 
     -- ;; bakoraj_1
@@ -6343,6 +6554,10 @@ lexicon = listing "Lexicon's properties"
     IFtiCAL                   `noun`    {- AibotilA' -}        [ "affliction", "tribulation" ]
                               `plural`     IFtiCAL |< At
                               `plural`     IFtiCA' |< At ]
+
+
+section_54  = listing "Lexicon's properties"
+
 
  |> "b l .g" <| [
 
@@ -6498,6 +6713,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaL
                            {- `others`  [ "bula.g N" ] -} ]
 
+
+section_55  = listing "Lexicon's properties"
+
+
  |> "b l .g m" <| [
 
     -- ;; balogam_1
@@ -6635,6 +6854,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCaL |< At
                            {- `others`  [ "bula.t N" ] -} ]
 
+
+section_56  = listing "Lexicon's properties"
+
+
  |> "b l .t ^g" <| [
 
     -- ;; baloTajiy~_1
@@ -6763,6 +6986,10 @@ lexicon = listing "Lexicon's properties"
     -- bl$fy   balo$afiy~      Nap     Bolshevism     [[balo$afiy~/NOUN]]
 
     KaRDaS |< Iy |< aT        `noun`    {- balo$afiy~ap -}     [ "Bolshevism" ] ]
+
+
+section_57  = listing "Lexicon's properties"
+
 
  |> "b l `" <| [
 
@@ -6913,6 +7140,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADiS
                            {- `others`  [ "balAbil Ndip" ] -} ]
 
+
+section_58  = listing "Lexicon's properties"
+
+
  |> "b l d" <| [
 
     -- ;; balud-u_1
@@ -7031,6 +7262,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRDUS |< Iy              `adj`     {- balofuwriy~ -}      [ "Balfour" ] ]
 
+
+section_59  = listing "Lexicon's properties"
+
+
  |> "b l h" <| [
 
     -- ;; balih-a_1
@@ -7119,6 +7354,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRDUS                    `noun`    {- balokuwn -}         [ "balcony" ]
                               `plural`     KaRDUS |< At ]
+
+
+section_60  = listing "Lexicon's properties"
+
 
  |> "b l l" <| [
 
@@ -7246,6 +7485,10 @@ lexicon = listing "Lexicon's properties"
     -- lAmbAly lAmubAliy~      Nap_L   indifference;apathy     [[lAmubAliy~/NOUN]]
 
     lA >| MuFAL |< Iy         `adj`     {- lAmubAliy~ -}       [ "indifferent", "apathetic", "indifference", "apathy" ] ]
+
+
+section_61  = listing "Lexicon's properties"
+
 
  |> "b l m" <| [
 
@@ -7384,6 +7627,10 @@ lexicon = listing "Lexicon's properties"
     -- blsAn   balasAn N       garden balm;balm-tree
 
     FaCaLAn                   `noun`    {- balasAn -}          [ unwords [ "garden", "balm" ], unwords [ "balm", "-", "tree" ] ] ]
+
+
+section_62  = listing "Lexicon's properties"
+
 
  |> "b l s m" <| [
 
@@ -7561,6 +7808,10 @@ lexicon = listing "Lexicon's properties"
     MuFtaCY                   `noun`    {- mubotalaY -}        [ "afflicted", "suffering" ]
                               `plural`     MuFtaCY |< At ]
 
+
+section_63  = listing "Lexicon's properties"
+
+
  |> "b l w r" <| [
 
     -- ;; balowar_1
@@ -7700,6 +7951,10 @@ lexicon = listing "Lexicon's properties"
     -- bmbAy   bumobAy N       Bombay
 
     KuRDAS                    `noun`    {- bumobAy -}          [ "Bombay" ] ]
+
+
+section_64  = listing "Lexicon's properties"
+
 
  |> "b n '" <| [
 
@@ -7858,6 +8113,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- banoj -}            [ unwords [ "henbane", "(", "poisonous", "plant", ")" ], "anesthetic", "narcotic", "bong" ] ]
 
+
+section_65  = listing "Lexicon's properties"
+
+
  |> "b n ^g b" <| [
 
     -- ;; banojAb_1
@@ -7995,6 +8254,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRDaS                    `noun`    {- banofa$ -}          [ "amethyst" ] ]
 
+
+section_66  = listing "Lexicon's properties"
+
+
  |> "b n h" <| [
 
     -- ;; bahiy~_1
@@ -8128,6 +8391,10 @@ lexicon = listing "Lexicon's properties"
     FiCL                      `noun`    {- binot -}            [ "daughter", "girl" ]
                               `plural`     FaC |< At ]
 
+
+section_67  = listing "Lexicon's properties"
+
+
  |> "b n w" <| [
 
     -- ;; bunuw~ap_1
@@ -8146,6 +8413,10 @@ lexicon = listing "Lexicon's properties"
     -- bnwAr   banowAr N       baignoire
 
     KaRDAS                    `noun`    {- banowAr -}          [ "baignoire" ] ]
+
+
+section_68  = listing "Lexicon's properties"
+
 
  |> "b n y" <| [
 
@@ -8350,6 +8621,10 @@ lexicon = listing "Lexicon's properties"
 
     FUCI                      `noun`    {- buwniy -}           [ "Boni" ] ]
 
+
+section_69  = listing "Lexicon's properties"
+
+
  |> "b n y n" <| [
 
     -- ;; bunoyAn_1
@@ -8504,6 +8779,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACiL
                            {- `others`  [ "bawAqi` Ndip" ] -} ]
 
+
+section_70  = listing "Lexicon's properties"
+
+
  |> "b q b q" <| [
 
     -- ;; baqobaq_1
@@ -8624,6 +8903,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- baq~Aq -}           [ "loquacious" ] ]
 
+
+section_71  = listing "Lexicon's properties"
+
+
  |> "b q r" <| [
 
     -- ;; baqar-u_1
@@ -8712,6 +8995,10 @@ lexicon = listing "Lexicon's properties"
 
     KuRDuS |< At              `noun`    {- buqosumAt -}        [ "rusk", "biscuit" ]
                               `plural`     KuRDuS |< At ]
+
+
+section_72  = listing "Lexicon's properties"
+
 
  |> "b q y" <| [
 
@@ -8857,6 +9144,10 @@ lexicon = listing "Lexicon's properties"
 
     MutaFaCCI                 `noun`    {- mutabaq~iy -}       [ "residue", "remnant" ]
                               `plural`     MutaFaCCI |< At ]
+
+
+section_73  = listing "Lexicon's properties"
+
 
  |> "b r '" <| [
 
@@ -9054,6 +9345,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRDaS                    `noun`    {- baroga$ -}          [ "gnat", "midge" ] ]
 
+
+section_74  = listing "Lexicon's properties"
+
+
  |> "b r .g _t" <| [
 
     -- ;; baroguwv_1
@@ -9163,6 +9458,10 @@ lexicon = listing "Lexicon's properties"
     -- mbrH    mubar~aH        N       afflicted;tormented
 
     MuFaCCaL                  `noun`    {- mubar~aH -}         [ "afflicted", "tormented" ] ]
+
+
+section_75  = listing "Lexicon's properties"
+
 
  |> "b r .s" <| [
 
@@ -9314,6 +9613,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADiS
                            {- `others`  [ "barA^gim Ndip" ] -} ]
 
+
+section_76  = listing "Lexicon's properties"
+
+
  |> "b r ^g s" <| [
 
     -- ;; birojAs_1
@@ -9427,6 +9730,10 @@ lexicon = listing "Lexicon's properties"
     KuRDuS                    `noun`    {- burovun -}          [ "claw", "talon" ]
                               `plural`     KaRADiS
                            {- `others`  [ "barA_tin Ndip" ] -} ]
+
+
+section_77  = listing "Lexicon's properties"
+
 
  |> "b r `" <| [
 
@@ -9569,6 +9876,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADiS
                            {- `others`  [ "barAbi_h Ndip" ] -} ]
 
+
+section_78  = listing "Lexicon's properties"
+
+
  |> "b r b r" <| [
 
     -- ;; barobar_1
@@ -9609,6 +9920,10 @@ lexicon = listing "Lexicon's properties"
     -- brbys   barobiys        N       barbel
 
     KaRDIS                    `noun`    {- barobiys -}         [ "barbel" ] ]
+
+
+section_79  = listing "Lexicon's properties"
+
 
  |> "b r d" <| [
 
@@ -9804,6 +10119,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCayL |< aT              `noun`    {- burayodap -}        [ "Bureida" ] ]
 
+
+section_80  = listing "Lexicon's properties"
+
+
  |> "b r d _h" <| [
 
     -- ;; barodax_1
@@ -9930,6 +10249,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADIS
                            {- `others`  [ "barAhiyn Ndip" ] -} ]
 
+
+section_81  = listing "Lexicon's properties"
+
+
  |> "b r k" <| [
 
     -- ;; barak-u_1
@@ -10051,6 +10374,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCLAn |< Iy              `adj`     {- burokAniy~ -}       [ "volcanic" ] ]
 
+
+section_82  = listing "Lexicon's properties"
+
+
  |> "b r k n" <| [
 
     -- ;; burokAn_1
@@ -10079,6 +10406,10 @@ lexicon = listing "Lexicon's properties"
     -- brlyn   baroliyn        N0      Berlin
 
     KaRDIS                    `noun`    {- baroliyn -}         [ "Berlin" ] ]
+
+
+section_83  = listing "Lexicon's properties"
+
 
  |> "b r m" <| [
 
@@ -10207,6 +10538,10 @@ lexicon = listing "Lexicon's properties"
     -- brmAwy  baromAwiy~      Nall    amphibious     [[baromAwiy~/ADJ]]
 
     KaRDAS |< Iy              `adj`     {- baromA}iy~ -}       [ "amphibious" ] ]
+
+
+section_84  = listing "Lexicon's properties"
+
 
  |> "b r m ^g" <| [
 
@@ -10347,6 +10682,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRADiS                   `noun`    {- barAnis -}          [ "Pyrenees" ] ]
 
+
+section_85  = listing "Lexicon's properties"
+
+
  |> "b r n z" <| [
 
     -- ;; baronaz_1
@@ -10443,6 +10782,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- baroqap -}          [ "Cyrenaica" ] ]
 
+
+section_86  = listing "Lexicon's properties"
+
+
  |> "b r q ^s" <| [
 
     -- ;; baroqa$_1
@@ -10508,6 +10851,10 @@ lexicon = listing "Lexicon's properties"
     -- brqwqy  baroquwqiy~     Nall    plum;purple     [[baroquwqiy~/ADJ]]
 
     KaRDUS |< Iy              `adj`     {- baroquwqiy~ -}      [ "plum", "purple" ] ]
+
+
+section_87  = listing "Lexicon's properties"
+
 
  |> "b r r" <| [
 
@@ -10639,6 +10986,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCL
                            {- `others`  [ "barr N" ] -} ]
 
+
+section_88  = listing "Lexicon's properties"
+
+
  |> "b r s" <| [
 
     -- ;; bris_1
@@ -10690,6 +11041,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KiRDAS
                               `plural`     KaRADIS
                            {- `others`  [ "birwAz Ndu", "barAwiyz Ndip" ] -} ]
+
+
+section_89  = listing "Lexicon's properties"
+
 
  |> "b r y" <| [
 
@@ -10853,6 +11208,10 @@ lexicon = listing "Lexicon's properties"
     FUCI                      `noun`    {- buwriy -}           [ "bugle", unwords [ "signal", "horn" ] ]
                               `plural`     FUCI |< At ]
 
+
+section_90  = listing "Lexicon's properties"
+
+
  |> "b r z" <| [
 
     -- ;; baraz-u_1
@@ -10984,6 +11343,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCaLAn |< Iy             `adj`     {- barazAniy~ -}       [ "Barazani" ] ]
 
+
+section_91  = listing "Lexicon's properties"
+
+
  |> "b r z _h" <| [
 
     -- ;; barozax_1
@@ -11040,6 +11403,10 @@ lexicon = listing "Lexicon's properties"
     -- bsA}T   basA}iT Ndip    basic facts;elements
 
     KaRADiS                   `noun`    {- basA}iT -}          [ unwords [ "basic", "facts" ], "elements" ] ]
+
+
+section_92  = listing "Lexicon's properties"
+
 
  |> "b s .t" <| [
 
@@ -11209,6 +11576,10 @@ lexicon = listing "Lexicon's properties"
 
     MunFaCaL                  `noun`    {- munobasaT -}        [ "flat", "level" ] ]
 
+
+section_93  = listing "Lexicon's properties"
+
+
  |> "b s _h" <| [
 
     -- ;; basoxap_1
@@ -11317,6 +11688,10 @@ lexicon = listing "Lexicon's properties"
     -- mstbsl  musotabosil     Nall    fearless;intrepid
 
     MustaFCiL                 `noun`    {- musotabosil -}      [ "fearless", "intrepid" ] ]
+
+
+section_94  = listing "Lexicon's properties"
+
 
  |> "b s m" <| [
 
@@ -11432,6 +11807,10 @@ lexicon = listing "Lexicon's properties"
     -- bsyn    busayon Nap     kitty
 
     FuCayL |< aT              `noun`    {- busayonap -}        [ "kitty" ] ]
+
+
+section_95  = listing "Lexicon's properties"
+
 
  |> "b s q" <| [
 
@@ -11569,6 +11948,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRDUS |< Iy              `adj`     {- bastuwniy~ -}       [ "spades" ] ]
 
+
+section_96  = listing "Lexicon's properties"
+
+
  |> "b s t r" <| [
 
     -- ;; basotar_1
@@ -11693,6 +12076,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL |< aT               `noun`    {- batalap -}          [ "petal" ] ]
 
+
+section_97  = listing "Lexicon's properties"
+
+
  |> "b t r" <| [
 
     -- ;; batar-u_1
@@ -11778,6 +12165,10 @@ lexicon = listing "Lexicon's properties"
     -- btrwly  bitoruwliy~     Nall    petroleum     [[bitoruwliy~/ADJ]]
 
     KiRDUS |< Iy              `adj`     {- bitoruwliy~ -}      [ "petroleum" ] ]
+
+
+section_98  = listing "Lexicon's properties"
+
 
  |> "b t t" <| [
 
@@ -11928,6 +12319,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCCaL                    `verb`    {- baw~ag -}           [ "surprise" ] ]
 
+
+section_99  = listing "Lexicon's properties"
+
+
  |> "b w .g d" <| [
 
     -- ;; buwgAdap_1
@@ -12070,6 +12465,10 @@ lexicon = listing "Lexicon's properties"
 
     FUL |< aT                 `noun`    {- buwZap -}           [ "beer" ] ]
 
+
+section_100 = listing "Lexicon's properties"
+
+
  |> "b w ^g h" <| [
 
     -- ;; buwjiyh_1
@@ -12180,6 +12579,10 @@ lexicon = listing "Lexicon's properties"
     FAL                       `noun`    {- bAE -}              [ "fathom" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'abwA` Ndip" ] -} ]
+
+
+section_101 = listing "Lexicon's properties"
+
 
  |> "b w b" <| [
 
@@ -12302,6 +12705,10 @@ lexicon = listing "Lexicon's properties"
     -- bwkr    buwkar  N       poker
 
     KuRDaS                    `noun`    {- buwkar -}           [ "poker" ] ]
+
+
+section_102 = listing "Lexicon's properties"
+
 
  |> "b w l" <| [
 
@@ -12437,6 +12844,10 @@ lexicon = listing "Lexicon's properties"
 
     KuRDAS                    `noun`    {- buwlAq -}           [ "Bulaq" ] ]
 
+
+section_103 = listing "Lexicon's properties"
+
+
  |> "b w l s" <| [
 
     -- ;; buwliys_1
@@ -12557,6 +12968,10 @@ lexicon = listing "Lexicon's properties"
     KuRDAS                    `noun`    {- buwqAl -}           [ "mug" ]
                               `plural`     KaRADIS
                            {- `others`  [ "bawAqiyl Ndip" ] -} ]
+
+
+section_104 = listing "Lexicon's properties"
+
 
  |> "b w r" <| [
 
@@ -12703,6 +13118,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADiS
                            {- `others`  [ "bawAtiq Ndip" ] -} ]
 
+
+section_105 = listing "Lexicon's properties"
+
+
  |> "b w t w" <| [
 
     -- ;; buwtuw_1
@@ -12780,6 +13199,10 @@ lexicon = listing "Lexicon's properties"
     -- by}y    biy}iy~ Nall    environmental     [[biy}iy~/ADJ]]
 
     FIL |< Iy                 `adj`     {- biy}iy~ -}          [ "environmental" ] ]
+
+
+section_106 = listing "Lexicon's properties"
+
 
  |> "b y .d" <| [
 
@@ -12910,6 +13333,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL |< aT            `noun`    {- mubay~aDap -}       [ unwords [ "fair", "copy" ] ] ]
 
+
+section_107 = listing "Lexicon's properties"
+
+
  |> "b y .d n" <| [
 
     -- ;; bayDuwn_1
@@ -12969,6 +13396,10 @@ lexicon = listing "Lexicon's properties"
     -- by$y    biy$iy~ N0      Bishi
 
     FIL |< Iy                 `adj`     {- biy$iy~ -}          [ "Bishi" ] ]
+
+
+section_108 = listing "Lexicon's properties"
+
 
  |> "b y `" <| [
 
@@ -13104,6 +13535,10 @@ lexicon = listing "Lexicon's properties"
     -- byE     biyE    NapAt   church;synagogue
 
     FIL |< aT                 `noun`    {- biyEap -}           [ "church", "synagogue" ] ]
+
+
+section_109 = listing "Lexicon's properties"
+
 
  |> "b y b" <| [
 
@@ -13243,12 +13678,20 @@ lexicon = listing "Lexicon's properties"
 
     FIL                       `noun`    {- biyl -}             [ unwords [ "ball", "bearing" ], "marble" ] ]
 
+
+section_110 = listing "Lexicon's properties"
+
+
  |> "b y l n" <| [
 
     -- ;; biyliyn_1
     -- bylyn   bylyn   Nprop   Bilin;Billin
 
     KiRDIS                    `noun`    {- biyliyn -}          [ "Bilin", "Billin" ] ]
+
+
+section_111 = listing "Lexicon's properties"
+
 
  |> "b y n" <| [
 
@@ -13475,6 +13918,10 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL |< aT              `noun`    {- maboyuwnap -}       [ "distance" ] ]
 
+
+section_112 = listing "Lexicon's properties"
+
+
  |> "b y n n" <| [
 
     -- ;; biynuwn_1
@@ -13587,6 +14034,10 @@ lexicon = listing "Lexicon's properties"
     -- byswn   biysuwn N       bison
 
     KiRDUS                    `noun`    {- biysuwn -}          [ "bison" ] ]
+
+
+section_113 = listing "Lexicon's properties"
+
 
  |> "b y t" <| [
 
@@ -13725,6 +14176,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADIS
                            {- `others`  [ "bazAbiyz Ndip" ] -} ]
 
+
+section_114 = listing "Lexicon's properties"
+
+
  |> "b z l" <| [
 
     -- ;; bazal-u_1
@@ -13855,6 +14310,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACI
                               `plural`     FuCY |< aT
                            {- `others`  [ "bawAziy N0_Nh" ] -} ]
+
+
+section_115 = listing "Lexicon's properties"
+
 
  |> "b z z" <| [
 
@@ -14001,6 +14460,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bA$omufat~i$ -}     [ unwords [ "chief", "inspector" ] ] ]
 
+
+section_116 = listing "Lexicon's properties"
+
+
  |> "bA^smuftI" <| [
 
     -- ;; bA$omufotiy_1
@@ -14143,6 +14606,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bAboluw -}          [ "" {- "Pablo" -} ] ]
 
+
+section_117 = listing "Lexicon's properties"
+
+
  |> "bAfAriyA" <| [
 
     -- ;; bAfAriyA_1
@@ -14283,6 +14750,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bAniyk -}           [ "" {- "Banik" -} ] ]
 
+
+section_118 = listing "Lexicon's properties"
+
+
  |> "bAnIt^sbAkdI" <| [
 
     -- ;; bAniyt$obAkodiy_1
@@ -14422,6 +14893,10 @@ lexicon = listing "Lexicon's properties"
     -- bArysy  bAriysiy~       Nall    Parisian     [[bAriysiy~/ADJ]]
 
     Identity |< Iy            `adj`     {- bAriysiy~ -}        [ "" {- "Parisian" -} ] ]
+
+
+section_119 = listing "Lexicon's properties"
+
 
  |> "bArIziyAn" <| [
 
@@ -14573,6 +15048,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bAsokuwAl -}        [ "" {- "Pascual" -} ] ]
 
+
+section_120 = listing "Lexicon's properties"
+
+
  |> "bAstIl" <| [
 
     -- ;; bAsotiyl_1
@@ -14717,6 +15196,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bAytos -}           [ "" {- "Bates" -} ] ]
 
+
+section_121 = listing "Lexicon's properties"
+
+
  |> "bAzAr" <| [
 
     -- ;; bAzAr_1
@@ -14858,6 +15341,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- biyliyuwn -}        [ "" {- "Pelion" -} ] ]
 
+
+section_122 = listing "Lexicon's properties"
+
+
  |> "bIlyah" <| [
 
     -- ;; biyloyah_1
@@ -14994,6 +15481,10 @@ lexicon = listing "Lexicon's properties"
     -- byrswl  biyrosuwl       Nprop   Peirsol
 
     Identity                  `noun`    {- biyrosuwl -}        [ "" {- "Peirsol" -} ] ]
+
+
+section_123 = listing "Lexicon's properties"
+
 
  |> "bIrtI" <| [
 
@@ -15136,6 +15627,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- buwEayonayon -}     [ "" {- "Bouainein" -} ] ]
 
+
+section_124 = listing "Lexicon's properties"
+
+
  |> "bU`azIz" <| [
 
     -- ;; buwEaziyz_1
@@ -15276,6 +15771,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- buwnodisoliyg -}    [ "" {- "Bundeslig" -} ] ]
 
+
+section_125 = listing "Lexicon's properties"
+
+
  |> "bUndislI.gah" <| [
 
     -- ;; buwnodisoliygah_1
@@ -15414,6 +15913,10 @@ lexicon = listing "Lexicon's properties"
     -- bwrsEydy        buwrosaEiydiy~  Nall    from/of Port Said     [[buwrosaEiydiy~/ADJ]]
 
     Identity |< Iy            `adj`     {- buwrosaEiydiy~ -}   [ unwords [ "from", "/", "of", "" {- "Port" -}, "" {- "Said" -} ] ] ]
+
+
+section_126 = listing "Lexicon's properties"
+
 
  |> "bUrtAs" <| [
 
@@ -15557,6 +16060,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- buwtrA -}           [ "" {- "Putra" -} ] ]
 
+
+section_127 = listing "Lexicon's properties"
+
+
  |> "bUtzI" <| [
 
     -- ;; buwtoziy_1
@@ -15690,6 +16197,10 @@ lexicon = listing "Lexicon's properties"
     -- bEdmA   baEodamA        FW-Wa   after what                             [[baEoda/PREP+mA/REL_PRON]]
 
     Identity                  `prep`    {- baEodamA -}         [ unwords [ "after", "what" ] ] ]
+
+
+section_128 = listing "Lexicon's properties"
+
 
  |> "ba`labakk" <| [
 
@@ -15836,6 +16347,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- balAraj -}          [ "stork" ] ]
 
+
+section_129 = listing "Lexicon's properties"
+
+
  |> "balU^sIstAn" <| [
 
     -- ;; baluw$iysotAn_1
@@ -15978,6 +16493,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- bankriyAsiy~ -}     [ "pancreatic" ] ]
 
+
+section_130 = listing "Lexicon's properties"
+
+
  |> "bansiyUn" <| [
 
     -- ;; banosiyuwn_1
@@ -16116,6 +16635,10 @@ lexicon = listing "Lexicon's properties"
     -- bstl    basotil~        NapAt   tub
 
     Identity |< aT            `noun`    {- basotil~ap -}       [ "tub" ] ]
+
+
+section_131 = listing "Lexicon's properties"
+
 
  |> "basyUnI" <| [
 
@@ -16265,6 +16788,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- bil~aworiy~ -}      [ "crystalline" ] ]
 
+
+section_132 = listing "Lexicon's properties"
+
+
  |> "bilyArdU" <| [
 
     -- ;; biloyAroduw_1
@@ -16407,6 +16934,10 @@ lexicon = listing "Lexicon's properties"
     -- bsklyt  bisokiliyt      N/ap    bicycle
 
     Identity                  `noun`    {- bisokiliyt -}       [ "bicycle" ] ]
+
+
+section_133 = listing "Lexicon's properties"
+
 
  |> "bitrUkImA'" <| [
 
@@ -16556,6 +17087,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- blAnotiyr -}        [ "" {- "Blantyre" -} ] ]
 
+
+section_134 = listing "Lexicon's properties"
+
+
  |> "blAs" <| [
 
     -- ;; blAs_1
@@ -16691,6 +17226,10 @@ lexicon = listing "Lexicon's properties"
     -- blwz    bluwz   N/ap    blouse
 
     Identity                  `noun`    {- bluwz -}            [ "blouse" ] ]
+
+
+section_135 = listing "Lexicon's properties"
+
 
  |> "brA.g" <| [
 
@@ -16830,6 +17369,10 @@ lexicon = listing "Lexicon's properties"
     -- brydrAg briydrAg        Nprop   Predrag
 
     Identity                  `noun`    {- briydrAg -}         [ "" {- "Predrag" -} ] ]
+
+
+section_136 = listing "Lexicon's properties"
+
 
  |> "brImAkUf" <| [
 
@@ -16973,6 +17516,10 @@ lexicon = listing "Lexicon's properties"
     -- brwtwkwly       bruwtuwkuwliy~  Nall    protocol     [[bruwtuwkuwliy~/ADJ]]
 
     Identity |< Iy            `adj`     {- bruwtuwkuwliy~ -}   [ "protocol" ] ]
+
+
+section_137 = listing "Lexicon's properties"
+
 
  |> "brUtUn" <| [
 
@@ -17121,6 +17668,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- buro$Amojiy~ -}     [ "riveter", "riveting" ] ]
 
+
+section_138 = listing "Lexicon's properties"
+
+
  |> "burmA" <| [
 
     -- ;; buromA_1
@@ -17263,4 +17814,144 @@ lexicon = listing "Lexicon's properties"
     -- mbAr    mabAr   NK      sharpeners;pocket-knives
 
     Identity                  `noun`    {- miborA -}           [ "sharpener", unwords [ "pocket", "-", "knife" ] ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15,
+             section_16,
+             section_17,
+             section_18,
+             section_19,
+             section_20,
+             section_21,
+             section_22,
+             section_23,
+             section_24,
+             section_25,
+             section_26,
+             section_27,
+             section_28,
+             section_29,
+             section_30,
+             section_31,
+             section_32,
+             section_33,
+             section_34,
+             section_35,
+             section_36,
+             section_37,
+             section_38,
+             section_39,
+             section_40,
+             section_41,
+             section_42,
+             section_43,
+             section_44,
+             section_45,
+             section_46,
+             section_47,
+             section_48,
+             section_49,
+             section_50,
+             section_51,
+             section_52,
+             section_53,
+             section_54,
+             section_55,
+             section_56,
+             section_57,
+             section_58,
+             section_59,
+             section_60,
+             section_61,
+             section_62,
+             section_63,
+             section_64,
+             section_65,
+             section_66,
+             section_67,
+             section_68,
+             section_69,
+             section_70,
+             section_71,
+             section_72,
+             section_73,
+             section_74,
+             section_75,
+             section_76,
+             section_77,
+             section_78,
+             section_79,
+             section_80,
+             section_81,
+             section_82,
+             section_83,
+             section_84,
+             section_85,
+             section_86,
+             section_87,
+             section_88,
+             section_89,
+             section_90,
+             section_91,
+             section_92,
+             section_93,
+             section_94,
+             section_95,
+             section_96,
+             section_97,
+             section_98,
+             section_99,
+             section_100,
+             section_101,
+             section_102,
+             section_103,
+             section_104,
+             section_105,
+             section_106,
+             section_107,
+             section_108,
+             section_109,
+             section_110,
+             section_111,
+             section_112,
+             section_113,
+             section_114,
+             section_115,
+             section_116,
+             section_117,
+             section_118,
+             section_119,
+             section_120,
+             section_121,
+             section_122,
+             section_123,
+             section_124,
+             section_125,
+             section_126,
+             section_127,
+             section_128,
+             section_129,
+             section_130,
+             section_131,
+             section_132,
+             section_133,
+             section_134,
+             section_135,
+             section_136,
+             section_137,
+             section_138 ]
 

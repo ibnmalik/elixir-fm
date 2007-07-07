@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> ".d ' `" <| [
@@ -77,6 +80,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACI
                            {- `others`  [ ".dawA.hiy N0_Nh" ] -} ]
 
+
+section_2   = listing "Lexicon's properties"
+
+
  |> ".d .h y" <| [
 
     FaCIL |< aT               `noun`    {- DaHiy~ap -}         [ "victim" ]
@@ -128,6 +135,10 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCuL                  `noun`    {- taDax~um -}         [ "inflation" ]
                               `plural`     TaFaCCuL |< At ]
+
+
+section_3   = listing "Lexicon's properties"
+
 
  |> ".d ` f" <| [
 
@@ -194,6 +205,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- DabAb -}            [ "fog", "vapor" ] ]
 
+
+section_4   = listing "Lexicon's properties"
+
+
  |> ".d d d" <| [
 
     FiCL |<< "a"              `prep`    {- Did~a -}            [ "against" ]
@@ -251,6 +266,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFACY |< aT              `noun`    {- muDAhAp -}          [ "analogy", "comparison", "similarity" ]
                               `plural`     MuFACY |< At ]
+
+
+section_5   = listing "Lexicon's properties"
+
 
  |> ".d l `" <| [
 
@@ -312,6 +331,10 @@ lexicon = listing "Lexicon's properties"
 
     MunFaCL                   `adj`     {- munoDam~ -}         [ "affiliated", "annexed", "comprising" ] ]
 
+
+section_6   = listing "Lexicon's properties"
+
+
  |> ".d m n" <| [
 
     FiCL |<< "a"              `prep`    {- Dimona -}           [ "within", "inside", "among" ],
@@ -359,6 +382,10 @@ lexicon = listing "Lexicon's properties"
 
     MutaFACiL                 `adj`     {- mutaDAmin -}        [ unwords [ "in", "solidarity" ], "cooperative" ] ]
 
+
+section_7   = listing "Lexicon's properties"
+
+
  |> ".d m r" <| [
 
     HaFCaL                    `verb`    {- OaDomar -}          [ unwords [ "make", "thin" ], unwords [ "make", "weak" ], unwords [ "be", "thinned" ], unwords [ "be", "weakened" ] ],
@@ -391,6 +418,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- DariyH -}           [ "tomb", "mausoleum" ]
                               `plural`     HaFCiL |< aT ]
+
+
+section_8   = listing "Lexicon's properties"
+
 
  |> ".d r b" <| [
 
@@ -438,6 +469,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     IFtiCAL |< At,
 
     MuFtaCiL                  `noun`    {- muDoTarib -}        [ "disturbed", "agitated", "disrupted" ] ]
+
+
+section_9   = listing "Lexicon's properties"
+
 
  |> ".d r m" <| [
 
@@ -497,6 +532,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FACI |< At
                            {- `others`  [ ".dAriy NAn_Nayn N0F" ] -} ]
 
+
+section_10  = listing "Lexicon's properties"
+
+
  |> ".d w '" <| [
 
     HaFAL                     `verb`    {- OaDA' -}            [ "shine", "illuminate" ],
@@ -553,6 +592,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFIL                     `adj`     {- muDiy' -}           [ "shining", "bright" ] ]
 
+
+section_11  = listing "Lexicon's properties"
+
+
  |> ".d y `" <| [
 
     FAL                       `verb`    {- DAE-i -}            [ "disappear", "vanish" ]
@@ -595,6 +638,10 @@ lexicon = listing "Lexicon's properties"
 
     IstiFAL |< aT             `noun`    {- AisotiDAfap -}      [ "hosting" ] ]
 
+
+section_12  = listing "Lexicon's properties"
+
+
  |> ".d y q" <| [
 
     FAL                       `verb`    {- DAq-i -}            [ unwords [ "be", "narrow" ], unwords [ "be", "confined" ], unwords [ "be", "small" ] ]
@@ -624,4 +671,18 @@ lexicon = listing "Lexicon's properties"
     FA'iL |< aT               `noun`    {- DA}iqap -}          [ "crisis", "predicament" ]
                               `plural`     FawA'iL
                            {- `others`  [ ".dawA'iq Ndip" ] -} ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12 ]
 

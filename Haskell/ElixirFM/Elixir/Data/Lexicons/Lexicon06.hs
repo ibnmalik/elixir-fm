@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> ".h ' .t" <| [
@@ -56,6 +59,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACiL
                            {- `others`  [ ".hawA.din Ndip" ] -} ]
 
+
+section_2   = listing "Lexicon's properties"
+
+
  |> ".h .d r" <| [
 
     FaCaL                     `verb`    {- HaDar-u -}          [ "attend", "appear" ]
@@ -104,6 +111,10 @@ lexicon = listing "Lexicon's properties"
     MutaFaCCiL                `adj`     {- mutaHaD~ir -}       [ "civilized" ],
 
     MustaFCaL                 `noun`    {- musotaHoDar -}      [ "preparation" ] ]
+
+
+section_3   = listing "Lexicon's properties"
+
 
  |> ".h .s '" <| [
 
@@ -164,6 +175,10 @@ lexicon = listing "Lexicon's properties"
 
     MutaFaCCiL                `noun`    {- mutaHaS~il -}       [ "proceeds", "yield" ] ]
 
+
+section_4   = listing "Lexicon's properties"
+
+
  |> ".h .s n" <| [
 
     FaCCaL                    `verb`    {- HaS~an -}           [ unwords [ "make", "inaccessible" ], "fortify", "immunize" ],
@@ -189,6 +204,10 @@ lexicon = listing "Lexicon's properties"
     MuFaCCaL                  `adj`     {- muHaS~an -}         [ "fortified", "immune" ],
 
     MuFCiL                    `noun`    {- muHoSin -}          [ "sheltered", "chaste" ] ]
+
+
+section_5   = listing "Lexicon's properties"
+
 
  |> ".h .s r" <| [
 
@@ -230,6 +249,10 @@ lexicon = listing "Lexicon's properties"
     HiFCA' |< Iy              `adj`     {- IiHoSA}iy~ -}       [ "statistical" ],
 
     HiFCA' |< Iy              `adj`     {- IiHoSA}iy~ -}       [ "statistician" ] ]
+
+
+section_6   = listing "Lexicon's properties"
+
 
  |> ".h .t .t" <| [
 
@@ -296,6 +319,10 @@ lexicon = listing "Lexicon's properties"
     FaCI                      `verb`    {- HaZiy-a -}          [ "enjoy", "gain" ]
                               `imperf`     FCY ]
 
+
+section_7   = listing "Lexicon's properties"
+
+
  |> ".h ^g ^g" <| [
 
     FaCL                      `verb`    {- Haj~-u -}           [ unwords [ "make", "a", "pilgrimage" ], "confute" ]
@@ -351,6 +378,10 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ ".hu^g^gAb N" ] -},
 
     MaFCUL                    `noun`    {- maHojuwb -}         [ "veiled", "concealed" ] ]
+
+
+section_8   = listing "Lexicon's properties"
+
 
  |> ".h ^g m" <| [
 
@@ -416,6 +447,10 @@ lexicon = listing "Lexicon's properties"
  |> ".h ^s ^s" <| [
 
     FaCIL                     `noun`    {- Ha$iy$ -}           [ "grass", "lawn", "hashish", "dope" ] ]
+
+
+section_9   = listing "Lexicon's properties"
+
 
  |> ".h ^s d" <| [
 
@@ -491,6 +526,10 @@ lexicon = listing "Lexicon's properties"
     MuFACI                    `noun`    {- muHA*iy -}          [ "opposite", "facing" ]
                               `plural`     MuFACI |< At ]
 
+
+section_10  = listing "Lexicon's properties"
+
+
  |> ".h _d y" <| [
 
     MuFACI                    `noun`    {- muHA*iy -}          [ "opposite", "facing" ]
@@ -557,6 +596,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCAL
                            {- `others`  [ "'a.hbul N", ".hubuwl N", "'a.hbAl N", ".hibAl N" ] -} ]
 
+
+section_11  = listing "Lexicon's properties"
+
+
  |> ".h b s" <| [
 
     InFaCaL                   `verb`    {- AinoHabas -}        [ unwords [ "be", "restrained" ] ],
@@ -573,6 +616,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFACY |< aT              `noun`    {- muHAbAp -}          [ "favoritism", "partiality" ]
                               `plural`     MuFACaL |< At ]
+
+
+section_12  = listing "Lexicon's properties"
+
 
  |> ".h d _t" <| [
 
@@ -639,11 +686,19 @@ lexicon = listing "Lexicon's properties"
 
     MustaFCaL                 `noun`    {- musotaHodav -}      [ "innovations", "creations" ] ]
 
+
+section_13  = listing "Lexicon's properties"
+
+
  |> ".h d b" <| [
 
     HaFCaL                    `noun`    {- OaHodab -}          [ "hunchbacked" ]
                               `plural`     FaCLA'
                            {- `others`  [ ".hadbA' Nh N0_Nh Nhy" ] -} ]
+
+
+section_14  = listing "Lexicon's properties"
+
 
  |> ".h d d" <| [
 
@@ -699,6 +754,10 @@ lexicon = listing "Lexicon's properties"
     MaFCUL |< Iy |< aT        `noun`    {- maHoduwdiy~ap -}    [ unwords [ "limited", "nature" ], unwords [ "restricted", "nature" ] ],
 
     MuFaCCaL                  `adj`     {- muHad~ad -}         [ "set", "determined", "defined" ] ]
+
+
+section_15  = listing "Lexicon's properties"
+
 
  |> ".h d m" <| [
 
@@ -762,6 +821,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     IFtiCAL |< At
                               `plural`     IFtiCA' |< At ]
 
+
+section_16  = listing "Lexicon's properties"
+
+
  |> ".h f .z" <| [
 
     FaCiL                     `verb`    {- HafiZ-a -}          [ "preserve", "protect", "maintain" ]
@@ -816,6 +879,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                               `plural`     FaCIL |< At
                            {- `others`  [ "'a.hfAd N" ] -} ]
+
+
+section_17  = listing "Lexicon's properties"
+
 
  |> ".h f f" <| [
 
@@ -879,12 +946,20 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACiL
                            {- `others`  [ ".hawAfiz Ndip" ] -} ]
 
+
+section_18  = listing "Lexicon's properties"
+
+
  |> ".h k k" <| [
 
     MiFaCL                    `noun`    {- miHak~ -}           [ "touchstone", "test" ],
 
     IFtiCAL                   `noun`    {- AiHotikAk -}        [ "friction" ]
                               `plural`     IFtiCAL |< At ]
+
+
+section_19  = listing "Lexicon's properties"
+
 
  |> ".h k m" <| [
 
@@ -971,6 +1046,10 @@ lexicon = listing "Lexicon's properties"
 
     MutaFaCCaL                `noun`    {- mutaHak~am -}       [ "controlled", "controllable" ] ]
 
+
+section_20  = listing "Lexicon's properties"
+
+
  |> ".h k r" <| [
 
     IFtaCaL                   `verb`    {- AiHotakar -}        [ "monopolize", "hoard" ],
@@ -1032,6 +1111,10 @@ lexicon = listing "Lexicon's properties"
 
     MutaFACiL                 `noun`    {- mutaHAlif -}        [ "allied" ] ]
 
+
+section_21  = listing "Lexicon's properties"
+
+
  |> ".h l l" <| [
 
     FaCL                      `verb`    {- Hal~-u -}           [ "dissolve", "untie" ]
@@ -1085,6 +1168,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCL                   `adj`     {- muHotal~ -}         [ "occupying", "occupied" ] ]
 
+
+section_22  = listing "Lexicon's properties"
+
+
  |> ".h l m" <| [
 
     FaCaL                     `verb`    {- Halam-u -}          [ "dream" ]
@@ -1129,6 +1216,10 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- taHoliyq -}         [ "flight", "flying", unwords [ "take", "-", "off" ] ]
                               `plural`     TaFCIL |< At ]
+
+
+section_23  = listing "Lexicon's properties"
+
 
  |> ".h l w" <| [
 
@@ -1193,6 +1284,10 @@ lexicon = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- HimoS -}            [ "Homs" ] ]
 
+
+section_24  = listing "Lexicon's properties"
+
+
  |> ".h m d" <| [
 
     FaCCaL                    `verb`    {- Ham~ad -}           [ "praise" ],
@@ -1232,6 +1327,10 @@ lexicon = listing "Lexicon's properties"
  |> ".h m d y" <| [
 
     KaRDI                     `noun`    {- Hamodiy -}          [ "Hamdi" ] ]
+
+
+section_25  = listing "Lexicon's properties"
+
 
  |> ".h m l" <| [
 
@@ -1285,6 +1384,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCaL                  `adj`     {- muHotamal -}        [ "likely", "expected", "probable", "suspected" ] ]
 
+
+section_26  = listing "Lexicon's properties"
+
+
  |> ".h m m" <| [
 
     FuCaL                     `noun`    {- Humam -}            [ "magma", "cinders" ],
@@ -1331,6 +1434,10 @@ lexicon = listing "Lexicon's properties"
     FaCAL |< Iy               `adj`     {- HamAsiy~ -}         [ "zealous", "fervent" ],
 
     MutaFaCCiL                `noun`    {- mutaHam~is -}       [ "zealous", "enthusiasts" ] ]
+
+
+section_27  = listing "Lexicon's properties"
+
 
  |> ".h m y" <| [
 
@@ -1398,6 +1505,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- Hunokap -}          [ "experience", "prudence" ] ]
 
+
+section_28  = listing "Lexicon's properties"
+
+
  |> ".h n n" <| [
 
     FaCAL                     `noun`    {- HanAn -}            [ "sympathy", "affection" ],
@@ -1456,6 +1567,10 @@ lexicon = listing "Lexicon's properties"
     IFtiCAL                   `noun`    {- AiHotiqAn -}        [ "congestion", "flush" ]
                               `plural`     IFtiCAL |< At ]
 
+
+section_29  = listing "Lexicon's properties"
+
+
  |> ".h q q" <| [
 
     FaCL                      `verb`    {- Haq~-iu -}          [ unwords [ "be", "correct" ], unwords [ "be", "right" ] ]
@@ -1506,6 +1621,10 @@ lexicon = listing "Lexicon's properties"
     MuFiCL                    `adj`     {- muHiq~ -}           [ "justified", unwords [ "in", "the", "right" ] ],
 
     MustaFiCL                 `adj`     {- musotaHiq~ -}       [ "deserving", "entitled" ] ]
+
+
+section_30  = listing "Lexicon's properties"
+
 
  |> ".h q r" <| [
 
@@ -1570,6 +1689,10 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- HirAvap -}          [ "cultivation", "farming" ] ]
 
+
+section_31  = listing "Lexicon's properties"
+
+
  |> ".h r b" <| [
 
     FACaL                     `verb`    {- HArab -}            [ "fight", unwords [ "wage", "war" ] ],
@@ -1622,6 +1745,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCiL                  `noun`    {- muHotarif -}        [ "professional", "expert" ] ]
 
+
+section_32  = listing "Lexicon's properties"
+
+
  |> ".h r k" <| [
 
     FaCCaL                    `verb`    {- Har~ak -}           [ unwords [ "make", "move" ], "activate", "stimulate", unwords [ "be", "moved" ] ],
@@ -1645,6 +1772,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MuFaCCiL |< At,
 
     MutaFaCCiL                `adj`     {- mutaHar~ik -}       [ "moving", "mobile" ] ]
+
+
+section_33  = listing "Lexicon's properties"
+
 
  |> ".h r m" <| [
 
@@ -1693,6 +1824,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCaL                  `noun`    {- muHotaram -}        [ "esteemed", "respected" ] ]
 
+
+section_34  = listing "Lexicon's properties"
+
+
  |> ".h r q" <| [
 
     FaCaL                     `verb`    {- Haraq-i -}          [ "burn", "hurt" ]
@@ -1727,6 +1862,10 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL                    `adj`     {- maHoruwq -}         [ "burned", "combustible" ]
                               `plural`     MaFCUL |< At ]
+
+
+section_35  = listing "Lexicon's properties"
+
 
  |> ".h r r" <| [
 
@@ -1775,6 +1914,10 @@ lexicon = listing "Lexicon's properties"
 
     MutaFaCCiL                `noun`    {- mutaHar~ir -}       [ "emancipated" ] ]
 
+
+section_36  = listing "Lexicon's properties"
+
+
  |> ".h r s" <| [
 
     FaCaL                     `verb`    {- Haras-u -}          [ "safeguard", "supervise" ]
@@ -1816,6 +1959,10 @@ lexicon = listing "Lexicon's properties"
  |> ".h r z n" <| [
 
     KaRADIS                   `noun`    {- HarAziyn -}         [ "Harazeen" ] ]
+
+
+section_37  = listing "Lexicon's properties"
+
 
  |> ".h s b" <| [
 
@@ -1870,6 +2017,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCiL                  `noun`    {- muHotasib -}        [ "bursar", "treasurer" ] ]
 
+
+section_38  = listing "Lexicon's properties"
+
+
  |> ".h s d" <| [
 
     FaCaL                     `verb`    {- Hasad-u -}          [ "envy" ]
@@ -1889,6 +2040,10 @@ lexicon = listing "Lexicon's properties"
     FuCAL                     `noun`    {- HusAm -}            [ "sword" ],
 
     FACiL                     `adj`     {- HAsim -}            [ "decisive", "critical" ] ]
+
+
+section_39  = listing "Lexicon's properties"
+
 
  |> ".h s n" <| [
 
@@ -1948,6 +2103,10 @@ lexicon = listing "Lexicon's properties"
     InFiCAL                   `noun`    {- AinoHisAr -}        [ "disappearance", "mitigation" ]
                               `plural`     InFiCAL |< At ]
 
+
+section_40  = listing "Lexicon's properties"
+
+
  |> ".h s s" <| [
 
     FaCL                      `verb`    {- Has~-i -}           [ "feel" ]
@@ -1999,6 +2158,10 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`    {- HAtim -}            [ "Hatim", "Hatem" ],
 
     MaFCUL                    `adj`     {- maHotuwm -}         [ "imposed", "determined" ] ]
+
+
+section_41  = listing "Lexicon's properties"
+
 
  |> ".h t t" <| [
 
@@ -2059,6 +2222,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFAL                     `adj`     {- muHAT -}            [ "surrounded" ] ]
 
+
+section_42  = listing "Lexicon's properties"
+
+
  |> ".h w ^g" <| [
 
     IFtAL                     `verb`    {- AiHotAj -}          [ "need", "want" ],
@@ -2089,6 +2256,10 @@ lexicon = listing "Lexicon's properties"
     FAL                       `verb`    {- HAk-u -}            [ "contrive", "fabricate" ]
                               `imperf`     FUL
                               `pfirst`     FuL ]
+
+
+section_43  = listing "Lexicon's properties"
+
 
  |> ".h w l" <| [
 
@@ -2161,6 +2332,10 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- HiwAl -}            [ "obstacle", "partition" ] ]
 
+
+section_44  = listing "Lexicon's properties"
+
+
  |> ".h w m" <| [
 
     FAL                       `verb`    {- HAm-u -}            [ "hover", "circle", "glide" ]
@@ -2221,6 +2396,10 @@ lexicon = listing "Lexicon's properties"
     MuFtaCY                   `noun`    {- muHotawaY -}        [ "content" ]
                               `plural`     MuFtaCY |< At ]
 
+
+section_45  = listing "Lexicon's properties"
+
+
  |> ".h w z" <| [
 
     FAL                       `verb`    {- HAz-u -}            [ "possess", "attain" ]
@@ -2244,7 +2423,9 @@ lexicon = listing "Lexicon's properties"
     InFiyAL                   `noun`    {- AinoHiyAz -}        [ "alignment", "bias", unwords [ "prejudice", "(", "political", ")" ] ]
                               `plural`     InFiyAL |< At,
 
-    FA'iL                     `noun`    {- HA}iz -}            [ "holder", "possessor" ] ]
+    FA'iL                     `noun`    {- HA}iz -}            [ "holder", "possessor" ],
+
+    MunFAL                    `noun`    {- munoHAz -}          [ "aligned", "biased" ] ]
 
  |> ".h y '" <| [
 
@@ -2279,6 +2460,10 @@ lexicon = listing "Lexicon's properties"
     IFtiCAL                   `noun`    {- AiHotiyAj -}        [ "need", "requirement" ]
                               `plural`     IFtiCAL |< At
                               `plural`     IFtiyAL |< At ]
+
+
+section_46  = listing "Lexicon's properties"
+
 
  |> ".h y _t" <| [
 
@@ -2344,6 +2529,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCaLAn |< Iy             `adj`     {- HayawAniy~ -}       [ "animal", "zoological" ] ]
 
+
+section_47  = listing "Lexicon's properties"
+
+
  |> ".h y y" <| [
 
     FaCL                      `verb`    {- Hay~-a -}           [ "live", "experience", "witness" ]
@@ -2401,6 +2590,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     InFiyAL |< At,
 
     MutaFaCCiL                `noun`    {- mutaHay~iz -}       [ "biased", "prejudiced" ] ]
+
+
+section_48  = listing "Lexicon's properties"
+
 
  |> ".h z b" <| [
 
@@ -2477,6 +2670,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `conj`    {- HayovumA -}         [ "wherever" ] ]
 
+
+section_49  = listing "Lexicon's properties"
+
+
  |> ".hayfA" <| [
 
     Identity                  `noun`    {- HayofA -}           [ "Haifa" ] ]
@@ -2497,7 +2694,54 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- muHay~A -}          [ "Muhaya", "Muhayya" ] ]
 
- |> "mun.hAz" <| [
 
-    Identity                  `noun`    {- munoHAz -}          [ "aligned", "biased" ] ]
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15,
+             section_16,
+             section_17,
+             section_18,
+             section_19,
+             section_20,
+             section_21,
+             section_22,
+             section_23,
+             section_24,
+             section_25,
+             section_26,
+             section_27,
+             section_28,
+             section_29,
+             section_30,
+             section_31,
+             section_32,
+             section_33,
+             section_34,
+             section_35,
+             section_36,
+             section_37,
+             section_38,
+             section_39,
+             section_40,
+             section_41,
+             section_42,
+             section_43,
+             section_44,
+             section_45,
+             section_46,
+             section_47,
+             section_48,
+             section_49 ]
 

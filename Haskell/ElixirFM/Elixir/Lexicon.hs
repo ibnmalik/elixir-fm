@@ -42,9 +42,9 @@ module Elixir.Lexicon (
 
         -- * Methods
 
-        (>:), listing, revised,
+        (>:), listing, revised, include,
 
-        (|>), (<|),
+        (|>), (<|), (|>||<|),
 
         (>|), (|<), (>>|), (|<<),
 
@@ -92,34 +92,25 @@ version = revised "$Revision$"
 
 
 {-
-data Lexicon = (:<) Lexicon Nest | Listing String
 
+data Lexicon = (:<) Lexicon Nest | Listing String
 
 infixl 5 :<, |>
 
-
 instance Show Lexicon where
 
     showsPrec p (l :< r)    = shows l . ("\n" ++) . shows r
     showsPrec p (Listing l) = shows l
-
 
 listing = Listing
+
 -}
+
+
+include = concat    -- include f = concat . map f
+
 
 type Lexicon = [Nest]
-
-infixl 5 -- :<,
-        |>
-
-{-
-instance Show Lexicon where
-
-    showsPrec p (l :< r)    = shows l . ("\n" ++) . shows r
-    showsPrec p (Listing l) = shows l
--}
-
-listing _ = []
 
 
 type Root = String
@@ -153,12 +144,41 @@ instance Nestable PatternT where (>:) s l = NestT s l
 instance Nestable PatternQ where (>:) s l = NestQ s l
 
 
+-- minor difference in loading time -- 4:00 minutes
+
+infixl 5 |>
+
+listing _ = []
+
+
 -- (|>) x y = ((:) $! y) $! x
 
 (|>) = flip (:)
 
 (<|) x y = (>:) x y
 
+
+(|>||<|) x _ = x
+
+
+
+{-
+-- minor difference in loading time -- 3:30 minutes
+
+infixr 5 |>, |>|<|
+
+listing _ = (<|) "" ([] :: [Entry PatternT])
+
+
+-- (|>) x y = ((:) $! x) $! y
+
+(|>) = (:)
+
+(<|) x y = (>:) x y
+
+
+(|>||<|) x y = (:) x y
+-}
 
 type Lexref = [String]
 

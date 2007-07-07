@@ -8032,6 +8032,26 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => 'mun.gA.z',
+      'form' => 'mun.gA.z',
+      'lines' => [
+        ';; munogAZ_1',
+        'mngAZ   munogAZ Nall    irate;furious     [[munogAZ/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MunFAL',
+      'suffix' => '',
+      'glosses' => [
+        'irate',
+        'furious'
+      ],
+      'orig' => 'munogAZ',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'mu.gtA.z',
       'form' => 'mu.gtA.z',
       'lines' => [
@@ -11119,28 +11139,6 @@ $Lexicon = {
         'thinness'
       ],
       'orig' => 'guvuwvap',
-      'prefix' => ''
-    }
-  ],
-  'mun.gA.z' => [
-    {
-      'types' => {},
-      'entry' => 'mun.gA.z',
-      'form' => 'mun.gA.z',
-      'lines' => [
-        ';; munogAZ_1',
-        'mngAZ   munogAZ Nall    irate;furious     [[munogAZ/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'irate',
-        'furious'
-      ],
-      'orig' => 'munogAZ',
       'prefix' => ''
     }
   ],

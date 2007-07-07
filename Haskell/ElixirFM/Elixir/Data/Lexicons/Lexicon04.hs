@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "'i_tb" <| [
@@ -47,6 +50,10 @@ lexicon = listing "Lexicon's properties"
     MuFACaL |< aT             `noun`    {- muvAbarap -}        [ "persistence", "perseverance" ],
 
     FaL |< Iy                 `adj`     {- variy~ -}           [ "wealthy" ] ]
+
+
+section_2   = listing "Lexicon's properties"
+
 
  |> "_t b t" <| [
 
@@ -114,6 +121,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL                  `noun`    {- muval~aj -}         [ "frozen" ] ]
 
+
+section_3   = listing "Lexicon's properties"
+
+
  |> "_t l _t" <| [
 
     FuCL                      `noun`    {- vulov -}            [ unwords [ "one", "third" ], "thirds" ]
@@ -149,6 +160,10 @@ lexicon = listing "Lexicon's properties"
     FaCL |<< "a"              `adv`     {- vam~a -}            [ "therefore", unwords [ "there", "(", "is", "/", "are", ")" ] ],
 
     FaCL |< aT |<< "a"        `adv`     {- vam~apa -}          [ unwords [ "there", "(", "is", "/", "are", ")" ] ] ]
+
+
+section_4   = listing "Lexicon's properties"
+
 
  |> "_t m n" <| [
 
@@ -187,6 +202,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRADIS                   `noun`    {- vamAniyn -}         [ "eighties" ]
                               `plural`     KaRADIS |< At ]
+
+
+section_5   = listing "Lexicon's properties"
+
 
  |> "_t m r" <| [
 
@@ -234,6 +253,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     IstiFCA' |< At,
 
     IstiFCAL |< Iy            `adj`     {- AisotivonA}iy~ -}   [ "exceptional", "extraordinary" ] ]
+
+
+section_6   = listing "Lexicon's properties"
+
 
  |> "_t n y" <| [
 
@@ -289,6 +312,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     MuFaCCaL                  `noun`    {- muvaq~af -}         [ "intellectual", "cultivated", "cultured", "educated" ] ]
+
+
+section_7   = listing "Lexicon's properties"
+
 
  |> "_t q l" <| [
 
@@ -350,6 +377,10 @@ lexicon = listing "Lexicon's properties"
     FUL                       `noun`    {- vuwm -}             [ "garlic", unwords [ "garlic", "clove" ] ]
                               `plural`     FUL |< At ]
 
+
+section_8   = listing "Lexicon's properties"
+
+
  |> "_t w r" <| [
 
     FAL                       `verb`    {- vAr-u -}            [ "revolt", "arise" ]
@@ -408,6 +439,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `adj`     {- AivonA -}           [ unwords [ "(", "1st", "word", "in", "\"twelve\"", ")" ] ] ]
 
+
+section_9   = listing "Lexicon's properties"
+
+
  |> "i_tnAn" <| [
 
     Identity |<< "i"          `adj`     {- AivonAni -}         [ "two" ] ]
@@ -423,4 +458,15 @@ lexicon = listing "Lexicon's properties"
  |> "i_tnayn" <| [
 
     Identity |<< "i"          `noun`    {- Aivonayoni -}       [ "Monday" ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9 ]
 

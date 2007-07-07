@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "'iklIl" <| [
@@ -54,6 +57,10 @@ lexicon = listing "Lexicon's properties"
  |> "k .z m" <| [
 
     FACiL                     `noun`    {- kAZim -}            [ "Kazim" ] ]
+
+
+section_2   = listing "Lexicon's properties"
+
 
  |> "k ^s f" <| [
 
@@ -108,6 +115,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRDIS |< Iy              `adj`     {- ka$omiyriy~ -}      [ "Kashmiri" ] ]
 
+
+section_3   = listing "Lexicon's properties"
+
+
  |> "k _d b" <| [
 
     FaCaL                     `verb`    {- ka*ab-i -}          [ "lie", "deceive" ]
@@ -153,6 +164,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MuFaCCiL |< At,
 
     MuFaCCaL                  `adj`     {- mukav~af -}         [ "intensive", "concentrated" ] ]
+
+
+section_4   = listing "Lexicon's properties"
+
 
  |> "k _t r" <| [
 
@@ -220,6 +235,10 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`    {- kAbil -}            [ "cable" ]
                               `plural`     FawACiL
                            {- `others`  [ "kawAbil Ndip" ] -} ]
+
+
+section_5   = listing "Lexicon's properties"
+
 
  |> "k b r" <| [
 
@@ -294,6 +313,10 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- kadomap -}          [ "bite", "wound", "bruise" ]
                               `plural`     FaCaL |< At ]
 
+
+section_6   = listing "Lexicon's properties"
+
+
  |> "k d r" <| [
 
     FACiL                     `noun`    {- kAdir -}            [ "cadre", "functionaries", "staff" ]
@@ -343,6 +366,10 @@ lexicon = listing "Lexicon's properties"
     FiCAL |< Iy               `adj`     {- kifAHiy~ -}         [ "battle", "fighting" ],
 
     MuFACaL |< aT             `noun`    {- mukAfaHap -}        [ "confrontation", "battle" ] ]
+
+
+section_7   = listing "Lexicon's properties"
+
 
  |> "k f f" <| [
 
@@ -400,6 +427,10 @@ lexicon = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- makofuwl -}         [ "guaranteed" ],
 
     MaFCUL                    `adj`     {- makofuwl -}         [ "covered", "backed" ] ]
+
+
+section_8   = listing "Lexicon's properties"
+
 
  |> "k f r" <| [
 
@@ -470,6 +501,10 @@ lexicon = listing "Lexicon's properties"
 
     KuRDUS                    `noun`    {- kulovuwm -}         [ "Kulthoum" ] ]
 
+
+section_9   = listing "Lexicon's properties"
+
+
  |> "k l d" <| [
 
     FaCLAn                    `noun`    {- kalodAn -}          [ "Chaldeans" ],
@@ -522,6 +557,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCL |< Iy |< aT          `noun`    {- kul~iy~ap -}        [ "entirety", unwords [ "general", "aspects" ], unwords [ "major", "features" ] ] ]
 
+
+section_10  = listing "Lexicon's properties"
+
+
  |> "k l m" <| [
 
     TaFaCCaL                  `verb`    {- takal~am -}         [ "speak", "talk", "discuss" ],
@@ -572,6 +611,10 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- kAmid -}            [ "sad", "gloomy", "swarthy" ] ]
 
+
+section_11  = listing "Lexicon's properties"
+
+
  |> "k m l" <| [
 
     HaFCaL                    `verb`    {- Oakomal -}          [ "complete", "finish" ],
@@ -613,6 +656,10 @@ lexicon = listing "Lexicon's properties"
     MutaFACiL                 `adj`     {- mutakAmil -}        [ "perfect", "comprehensive", "integral" ],
 
     MuFtaCaL                  `adj`     {- mukotamal -}        [ "completed", "finished" ] ]
+
+
+section_12  = listing "Lexicon's properties"
+
 
  |> "k m m" <| [
 
@@ -679,6 +726,10 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `noun`    {- kanaf -}            [ "wing", "protection", "sponsorship" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'aknAf N" ] -} ]
+
+
+section_13  = listing "Lexicon's properties"
+
 
  |> "k n n" <| [
 
@@ -756,6 +807,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCCAL |< aT              `noun`    {- kar~Akap -}         [ unwords [ "dredging", "machine" ], "penitentiary" ] ]
 
+
+section_14  = listing "Lexicon's properties"
+
+
  |> "k r k k" <| [
 
     KaRDUS                    `noun`    {- karokuwk -}         [ "Kirkuk" ] ]
@@ -807,6 +862,10 @@ lexicon = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- karomal -}          [ unwords [ "Mt.", "Carmel", "(", "Palestine", ")" ] ],
 
     KaRDaS                    `noun`    {- karomal -}          [ "Karmal" ] ]
+
+
+section_15  = listing "Lexicon's properties"
+
 
  |> "k r r" <| [
 
@@ -866,6 +925,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRDUS                    `noun`    {- karotuwn -}         [ "carton", unwords [ "cardboard", "box" ] ]
                               `plural`     KaRDUS |< At ]
+
+
+section_16  = listing "Lexicon's properties"
+
 
  |> "k r w" <| [
 
@@ -932,6 +995,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCUL
                            {- `others`  [ "kusuwr N" ] -} ]
 
+
+section_17  = listing "Lexicon's properties"
+
+
  |> "k s w" <| [
 
     IFtaCY                    `verb`    {- AikotasaY -}        [ unwords [ "be", "clothed" ], unwords [ "be", "attired" ] ] ]
@@ -985,6 +1052,10 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "makAtiyb Ndip" ] -},
 
     MuFtaCiL                  `noun`    {- mukotatib -}        [ "subscriber" ] ]
+
+
+section_18  = listing "Lexicon's properties"
+
 
  |> "k t f" <| [
 
@@ -1048,6 +1119,10 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `prep`    {- kAd -}              [ "almost" ] ]
 
+
+section_19  = listing "Lexicon's properties"
+
+
  |> "k w f" <| [
 
     FUL |< Iy                 `adj`     {- kuwfiy~ -}          [ unwords [ "of", "/", "from", "Kufa" ], "Kufic" ],
@@ -1093,6 +1168,10 @@ lexicon = listing "Lexicon's properties"
  |> "k w m d" <| [
 
     KuRDIS |< Iy              `adj`     {- kuwmiydiy~ -}       [ "comic", "comedic" ] ]
+
+
+section_20  = listing "Lexicon's properties"
+
 
  |> "k w n" <| [
 
@@ -1144,6 +1223,10 @@ lexicon = listing "Lexicon's properties"
     KuRDIS |< aT              `noun`    {- kuwriy~ap -}        [ "Korea" ],
 
     KuRDIS                    `adj`     {- kuwriy~ -}          [ "Korean" ] ]
+
+
+section_21  = listing "Lexicon's properties"
+
 
  |> "k w t" <| [
 
@@ -1209,6 +1292,10 @@ lexicon = listing "Lexicon's properties"
  |> "k y l y" <| [
 
     KiRDI                     `noun`    {- kiyliy -}           [ "Kelly" ] ]
+
+
+section_22  = listing "Lexicon's properties"
+
 
  |> "k y m" <| [
 
@@ -1279,6 +1366,10 @@ lexicon = listing "Lexicon's properties"
  |> "kAbul" <| [
 
     Identity                  `noun`    {- kAbul -}            [ "Kabul" ] ]
+
+
+section_23  = listing "Lexicon's properties"
+
 
  |> "kAfiyIn" <| [
 
@@ -1360,6 +1451,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kiyniydiy -}        [ "Kennedy" ] ]
 
+
+section_24  = listing "Lexicon's properties"
+
+
  |> "kIn^sAsA" <| [
 
     Identity                  `noun`    {- kiyno$AsA -}        [ "Kinshasa" ] ]
@@ -1440,6 +1535,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kuwno$iytA -}       [ "Conchita" ] ]
 
+
+section_25  = listing "Lexicon's properties"
+
+
  |> "kUndUlIzA" <| [
 
     Identity                  `noun`    {- kuwnoduwliyzA -}    [ "Condoleezza" ] ]
@@ -1517,6 +1616,10 @@ lexicon = listing "Lexicon's properties"
     Identity                  `adj`     {- kahorabA' -}        [ "electricity", "electrical" ],
 
     Identity |< Iy            `adj`     {- kahorabA}iy~ -}     [ "electrician" ] ]
+
+
+section_26  = listing "Lexicon's properties"
+
 
  |> "kalA^snikUf" <| [
 
@@ -1596,6 +1699,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- klAsiykiy~ -}       [ "classic", "classical" ] ]
 
+
+section_27  = listing "Lexicon's properties"
+
+
  |> "klAwdiyU" <| [
 
     Identity                  `noun`    {- klAwodiyuw -}       [ "Claudio" ] ]
@@ -1674,6 +1781,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kuwiyrotin -}       [ "Kuerten" ] ]
 
+
+section_28  = listing "Lexicon's properties"
+
+
  |> "kwAn" <| [
 
     Identity                  `noun`    {- kwAn -}             [ "Quann" ],
@@ -1687,4 +1798,34 @@ lexicon = listing "Lexicon's properties"
  |> "takrAr" <| [
 
     Identity                  `adv`     {- takorAr -}          [ "repetition", "reiteration", "frequency", "repeatedly", "frequently" ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15,
+             section_16,
+             section_17,
+             section_18,
+             section_19,
+             section_20,
+             section_21,
+             section_22,
+             section_23,
+             section_24,
+             section_25,
+             section_26,
+             section_27,
+             section_28 ]
 

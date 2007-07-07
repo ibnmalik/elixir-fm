@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "mAyazAl" <| [
@@ -182,6 +185,10 @@ lexicon = listing "Lexicon's properties"
 
     FACUL                     `noun`    {- zA'uwq -}           [ "quicksilver", "mercury" ] ]
 
+
+section_2   = listing "Lexicon's properties"
+
+
  |> "z ' r" <| [
 
     -- ;; za>ar-ai_1
@@ -301,6 +308,10 @@ lexicon = listing "Lexicon's properties"
     MaFCaL                    `noun`    {- mazogal -}          [ "loophole", "embrasure" ]
                               `plural`     MaFACiL
                            {- `others`  [ "mazA.gil Ndip" ] -} ]
+
+
+section_3   = listing "Lexicon's properties"
+
 
  |> "z .g l l" <| [
 
@@ -424,6 +435,10 @@ lexicon = listing "Lexicon's properties"
 
     FawACiL                   `noun`    {- zawAHif -}          [ "reptiles" ] ]
 
+
+section_4   = listing "Lexicon's properties"
+
+
  |> "z .h l" <| [
 
     -- ;; zaHal-a_1
@@ -497,6 +512,10 @@ lexicon = listing "Lexicon's properties"
 
     TaKaRDuS                  `noun`    {- tazaHoluq -}        [ "skating", "skiing", "sliding" ]
                               `plural`     TaKaRDuS |< At ]
+
+
+section_5   = listing "Lexicon's properties"
+
 
  |> "z .h m" <| [
 
@@ -618,6 +637,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRDaS |< aT              `noun`    {- zaHozaHap -}        [ "removing", "snatching" ] ]
 
+
+section_6   = listing "Lexicon's properties"
+
+
  |> "z ^g ^g" <| [
 
     -- ;; zaj~-u_1
@@ -725,6 +748,10 @@ lexicon = listing "Lexicon's properties"
     -- zAjl    zAjil   N-ap    carrier;homing     [[zAjil/ADJ]]
 
     FACiL                     `adj`     {- zAjil -}            [ "carrier", "homing" ] ]
+
+
+section_7   = listing "Lexicon's properties"
+
 
  |> "z ^g r" <| [
 
@@ -843,6 +870,10 @@ lexicon = listing "Lexicon's properties"
     -- zx      zax~    NapAt   hail;downpour;shower;rain
 
     FaCL |< aT                `noun`    {- zax~ap -}           [ "hail", "downpour", "shower", "rain" ] ]
+
+
+section_8   = listing "Lexicon's properties"
+
 
  |> "z _h m" <| [
 
@@ -972,6 +1003,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- zaEoT -}            [ unwords [ "driving", "away" ], "expulsion" ] ]
 
+
+section_9   = listing "Lexicon's properties"
+
+
  |> "z ` ^g" <| [
 
     -- ;; zaEaj-a_1
@@ -1081,6 +1116,10 @@ lexicon = listing "Lexicon's properties"
     -- mzEf    muzoEif Nall    lethal;killing instantly     [[muzoEif/ADJ]]
 
     MuFCiL                    `adj`     {- muzoEif -}          [ "lethal", unwords [ "killing", "instantly" ] ] ]
+
+
+section_10  = listing "Lexicon's properties"
+
 
  |> "z ` l" <| [
 
@@ -1194,6 +1233,10 @@ lexicon = listing "Lexicon's properties"
     -- zEAnf   zaEAnif Ndip    fins;flippers
 
     KaRADiS                   `noun`    {- zaEAnif -}          [ "fins", "flippers" ] ]
+
+
+section_11  = listing "Lexicon's properties"
+
 
  |> "z ` q" <| [
 
@@ -1322,6 +1365,10 @@ lexicon = listing "Lexicon's properties"
 
     MutaKaRDiS                `adj`     {- mutazaEoziE -}      [ "shaky", "rocking" ] ]
 
+
+section_12  = listing "Lexicon's properties"
+
+
  |> "z b .t" <| [
 
     -- ;; zabaT-i_1
@@ -1370,6 +1417,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCL
                               `plural`     FaCLA'
                            {- `others`  [ "zubb N", "zabbA' Nh N0_Nh Nhy" ] -} ]
+
+
+section_13  = listing "Lexicon's properties"
+
 
  |> "z b d" <| [
 
@@ -1505,6 +1556,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACiL
                            {- `others`  [ "mazAbil Ndip" ] -} ]
 
+
+section_14  = listing "Lexicon's properties"
+
+
  |> "z b n" <| [
 
     -- ;; zabuwn_1
@@ -1626,6 +1681,10 @@ lexicon = listing "Lexicon's properties"
     -- zwfY    zuwfY   N0      hyssop
 
     FUCAL                     `noun`    {- zuwfA' -}           [ "hyssop" ] ]
+
+
+section_15  = listing "Lexicon's properties"
+
 
  |> "z f f" <| [
 
@@ -1756,6 +1815,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- zafiyr -}           [ unwords [ "zephyr", "cloth" ] ] ]
 
+
+section_16  = listing "Lexicon's properties"
+
+
  |> "z f t" <| [
 
     -- ;; zaf~at_1
@@ -1850,6 +1913,10 @@ lexicon = listing "Lexicon's properties"
     IFtiCAL                   `noun`    {- AizodihA' -}        [ "flourishing", "radiance", "pride" ]
                               `plural`     IFtiCAL |< At
                               `plural`     IFtiCA' |< At ]
+
+
+section_17  = listing "Lexicon's properties"
+
 
  |> "z h d" <| [
 
@@ -1964,6 +2031,10 @@ lexicon = listing "Lexicon's properties"
 
     FCiL                      `noun`    {- zhin -}             [ "Zhen", "Zhin" ] ]
 
+
+section_18  = listing "Lexicon's properties"
+
+
  |> "z h q" <| [
 
     -- ;; zahaq-a_1
@@ -1992,6 +2063,10 @@ lexicon = listing "Lexicon's properties"
 
     HiFCAL                    `noun`    {- IizohAq -}          [ "destroying", "killing" ]
                               `plural`     HiFCAL |< At ]
+
+
+section_19  = listing "Lexicon's properties"
+
 
  |> "z h r" <| [
 
@@ -2169,6 +2244,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCiL                  `adj`     {- muzodahir -}        [ "prospering", "flourishing" ] ]
 
+
+section_20  = listing "Lexicon's properties"
+
+
  |> "z h w" <| [
 
     -- ;; zahA-u_1
@@ -2336,6 +2415,10 @@ lexicon = listing "Lexicon's properties"
     -- zkA}    zakA}   Nhy     integrity;righteousness
 
     FaCAL                     `noun`    {- zakA' -}            [ "integrity", "righteousness" ] ]
+
+
+section_21  = listing "Lexicon's properties"
+
 
  |> "z k b" <| [
 
@@ -2506,6 +2589,10 @@ lexicon = listing "Lexicon's properties"
 
     TaFCI |< aT               `noun`    {- tazokiyap -}        [ "purification", unwords [ "nomination", "by", "acclamation" ] ] ]
 
+
+section_22  = listing "Lexicon's properties"
+
+
  |> "z k y" <| [
 
     -- ;; zakiy-a_1
@@ -2571,6 +2658,10 @@ lexicon = listing "Lexicon's properties"
     -- zlT     zalaT   Napdu   pebble;gravel
 
     FaCaL |< aT               `noun`    {- zalaTap -}          [ "pebble", "gravel" ] ]
+
+
+section_23  = listing "Lexicon's properties"
+
 
  |> "z l ^g" <| [
 
@@ -2667,6 +2758,10 @@ lexicon = listing "Lexicon's properties"
     KaRDUS                    `noun`    {- zaloEuwm -}         [ "throat", "gullet" ]
                               `plural`     KaRADIS
                            {- `others`  [ "zalA`iym Ndip" ] -} ]
+
+
+section_24  = listing "Lexicon's properties"
+
 
  |> "z l f" <| [
 
@@ -2805,6 +2900,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCUL                     `noun`    {- zuluwm -}           [ "Zuloum" ] ]
 
+
+section_25  = listing "Lexicon's properties"
+
+
  |> "z l q" <| [
 
     -- ;; zaliq-a_1
@@ -2910,6 +3009,10 @@ lexicon = listing "Lexicon's properties"
 
     MunFaCiL                  `adj`     {- munozaliq -}        [ "sliding", unwords [ "skating", "/", "skiing" ], "drifting" ] ]
 
+
+section_26  = listing "Lexicon's properties"
+
+
  |> "z l z l" <| [
 
     -- ;; zalozal_1
@@ -3012,6 +3115,10 @@ lexicon = listing "Lexicon's properties"
 
     IKRaDaSS                  `verb`    {- Aizomahar~ -}       [ unwords [ "become", "flushed" ], unwords [ "be", "bloodshot" ] ] ]
 
+
+section_27  = listing "Lexicon's properties"
+
+
  |> "z m l" <| [
 
     -- ;; zAmal_1
@@ -3090,6 +3197,10 @@ lexicon = listing "Lexicon's properties"
     -- mzmwm   mazomuwm        Nall    bridled     [[mazomuwm/ADJ]]
 
     MaFCUL                    `adj`     {- mazomuwm -}         [ "bridled" ] ]
+
+
+section_28  = listing "Lexicon's properties"
+
 
  |> "z m n" <| [
 
@@ -3193,6 +3304,10 @@ lexicon = listing "Lexicon's properties"
     -- lAmtzAmn        lAmutazAmin     Nall_L  non-simultaneous
 
     lA >| MutaFACiL           `noun`    {- lAmutazAmin -}      [ unwords [ "non", "-", "simultaneous" ] ] ]
+
+
+section_29  = listing "Lexicon's properties"
+
 
  |> "z m r" <| [
 
@@ -3315,6 +3430,10 @@ lexicon = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- zamozamap -}        [ unwords [ "lion's", "roar" ], unwords [ "roll", "of", "thunder" ], unwords [ "rolls", "of", "thunder" ] ]
                               `plural`     KaRADiS
                            {- `others`  [ "zamAzim Ndip" ] -} ]
+
+
+section_30  = listing "Lexicon's properties"
+
 
  |> "z n '" <| [
 
@@ -3480,6 +3599,10 @@ lexicon = listing "Lexicon's properties"
     FiCaL                     `noun`    {- zinad -}            [ unwords [ "fire", "steel" ], "flint", unwords [ "hammer", "(", "of", "a", "rifle", ")" ] ]
                               `plural`     HaFCiL |< aT ]
 
+
+section_31  = listing "Lexicon's properties"
+
+
  |> "z n d q" <| [
 
     -- ;; tazanodaq_1
@@ -3639,6 +3762,10 @@ lexicon = listing "Lexicon's properties"
 
     KiRDAS |< aT              `noun`    {- zinozAnap -}        [ unwords [ "prison", "cell" ] ]
                               `plural`     KiRDAS |< At ]
+
+
+section_32  = listing "Lexicon's properties"
+
 
  |> "z q '" <| [
 
@@ -3816,6 +3943,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     IFtiCAL |< At
                               `plural`     IFtiCA' |< At ]
 
+
+section_33  = listing "Lexicon's properties"
+
+
  |> "z r `" <| [
 
     -- ;; zaraE-a_1
@@ -3928,6 +4059,10 @@ lexicon = listing "Lexicon's properties"
     -- mnzrE   munozariE       N-ap    farmland;planted land
 
     MunFaCiL                  `noun`    {- munozariE -}        [ "farmland", unwords [ "planted", "land" ] ] ]
+
+
+section_34  = listing "Lexicon's properties"
+
 
  |> "z r b" <| [
 
@@ -4065,6 +4200,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRDUS |< Iy              `adj`     {- zarohuwniy~ -}      [ "Zerhouni", "Zarhouni" ] ]
 
+
+section_35  = listing "Lexicon's properties"
+
+
  |> "z r k ^s" <| [
 
     -- ;; zaroka$_1
@@ -4187,6 +4326,10 @@ lexicon = listing "Lexicon's properties"
     -- zrqwn   zaroquwn        N       bright red
 
     KaRDUS                    `noun`    {- zaroquwn -}         [ unwords [ "bright", "red" ] ] ]
+
+
+section_36  = listing "Lexicon's properties"
+
 
  |> "z r r" <| [
 
@@ -4402,6 +4545,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     InFiCAL |< At
                               `plural`     InFiCA' |< At ]
 
+
+section_37  = listing "Lexicon's properties"
+
+
  |> "z w .g" <| [
 
     -- ;; zAg-u_1
@@ -4439,6 +4586,10 @@ lexicon = listing "Lexicon's properties"
     FAL                       `verb`    {- zAH-u -}            [ "depart" ]
                               `imperf`     FUL
                               `pfirst`     FuL ]
+
+
+section_38  = listing "Lexicon's properties"
+
 
  |> "z w ^g" <| [
 
@@ -4577,6 +4728,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCiL                  `adj`     {- muzodawij -}        [ "double", "dual" ] ]
 
+
+section_39  = listing "Lexicon's properties"
+
+
  |> "z w b `" <| [
 
     -- ;; zawobaEap_1
@@ -4682,6 +4837,10 @@ lexicon = listing "Lexicon's properties"
     -- zwfY    zuwfY   N0      hyssop
 
     KuRDAS                    `noun`    {- zuwfA' -}           [ "hyssop" ] ]
+
+
+section_40  = listing "Lexicon's properties"
+
 
  |> "z w l" <| [
 
@@ -4823,6 +4982,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCAL                     `noun`    {- zuwAn -}            [ "darnel" ] ]
 
+
+section_41  = listing "Lexicon's properties"
+
+
  |> "z w q" <| [
 
     -- ;; zaw~aq_1
@@ -4840,6 +5003,10 @@ lexicon = listing "Lexicon's properties"
     -- mzwq    muzaw~aq        Nall    embellished;flowery;decorated
 
     MuFaCCaL                  `noun`    {- muzaw~aq -}         [ "embellished", "flowery", "decorated" ] ]
+
+
+section_42  = listing "Lexicon's properties"
+
 
  |> "z w r" <| [
 
@@ -4988,6 +5155,10 @@ lexicon = listing "Lexicon's properties"
     -- mzwr    muzaw~ar        N-ap    falsified;forged     [[muzaw~ar/ADJ]]
 
     MuFaCCaL                  `adj`     {- muzaw~ar -}         [ "falsified", "forged" ] ]
+
+
+section_43  = listing "Lexicon's properties"
+
 
  |> "z w r q" <| [
 
@@ -5143,6 +5314,10 @@ lexicon = listing "Lexicon's properties"
 
     FA'iL                     `noun`    {- zA}ig -}            [ "deviating", "distorted", "wandering" ] ]
 
+
+section_44  = listing "Lexicon's properties"
+
+
  |> "z y .h" <| [
 
     -- ;; zAH-i_1
@@ -5223,6 +5398,10 @@ lexicon = listing "Lexicon's properties"
     -- zybq    zayobaq N       quicksilver;mercury
 
     KaRDaS                    `noun`    {- zayobaq -}          [ "quicksilver", "mercury" ] ]
+
+
+section_45  = listing "Lexicon's properties"
+
 
  |> "z y d" <| [
 
@@ -5395,6 +5574,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtAL                    `noun`    {- muzodAd -}          [ "born" ] ]
 
+
+section_46  = listing "Lexicon's properties"
+
+
  |> "z y f" <| [
 
     -- ;; zAf-i_1
@@ -5480,6 +5663,10 @@ lexicon = listing "Lexicon's properties"
     -- zymyn   ziymiyn Nprop   Zemin
 
     KiRDIS                    `noun`    {- ziymiyn -}          [ "Zemin" ] ]
+
+
+section_47  = listing "Lexicon's properties"
+
 
  |> "z y n" <| [
 
@@ -5594,6 +5781,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRDaS                    `noun`    {- zayonab -}          [ "Zeinab", "Zenobia" ] ]
 
+
+section_48  = listing "Lexicon's properties"
+
+
  |> "z y q" <| [
 
     -- ;; zay~aq_1
@@ -5689,6 +5880,10 @@ lexicon = listing "Lexicon's properties"
     -- zytwny  zayotuwniy~     N-ap    olive-like;olive     [[zayotuwniy~/ADJ]]
 
     KaRDUS |< Iy              `adj`     {- zayotuwniy~ -}      [ unwords [ "olive", "-", "like" ], "olive" ] ]
+
+
+section_49  = listing "Lexicon's properties"
+
 
  |> "z y y" <| [
 
@@ -5844,6 +6039,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- ziynokuw -}         [ "zinc" ] ]
 
+
+section_50  = listing "Lexicon's properties"
+
+
  |> "zUlU^giyA" <| [
 
     -- ;; zuwluwjiyA_1
@@ -5989,6 +6188,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- zuguT~ap -}         [ "hiccup" ] ]
 
+
+section_51  = listing "Lexicon's properties"
+
+
  |> "zullUm" <| [
 
     -- ;; zul~uwmap_1
@@ -6022,4 +6225,57 @@ lexicon = listing "Lexicon's properties"
     -- zwAng   zuwAng  Nprop   Zhuang
 
     Identity                  `noun`    {- zuwAng -}           [ "" {- "Zhuang" -} ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15,
+             section_16,
+             section_17,
+             section_18,
+             section_19,
+             section_20,
+             section_21,
+             section_22,
+             section_23,
+             section_24,
+             section_25,
+             section_26,
+             section_27,
+             section_28,
+             section_29,
+             section_30,
+             section_31,
+             section_32,
+             section_33,
+             section_34,
+             section_35,
+             section_36,
+             section_37,
+             section_38,
+             section_39,
+             section_40,
+             section_41,
+             section_42,
+             section_43,
+             section_44,
+             section_45,
+             section_46,
+             section_47,
+             section_48,
+             section_49,
+             section_50,
+             section_51 ]
 

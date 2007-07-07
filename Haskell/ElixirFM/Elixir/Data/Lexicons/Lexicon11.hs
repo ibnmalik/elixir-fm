@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "mAzAl" <| [
@@ -77,6 +80,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCiL                     `adj`     {- zaxim -}            [ "stinking" ] ]
 
+
+section_2   = listing "Lexicon's properties"
+
+
  |> "z _h r" <| [
 
     FaCaL                     `verb`    {- zaxar-a -}          [ "abound", "overflow" ]
@@ -133,6 +140,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `verb`    {- zaEaq-a -}          [ "cry", "yell" ]
                               `imperf`     FCaL ]
+
+
+section_3   = listing "Lexicon's properties"
+
 
  |> "z ` z `" <| [
 
@@ -198,6 +209,10 @@ lexicon = listing "Lexicon's properties"
     IFtiCAL                   `noun`    {- AizodihAr -}        [ "prosperity", "thriving" ]
                               `plural`     IFtiCAL |< At ]
 
+
+section_4   = listing "Lexicon's properties"
+
+
  |> "z h w" <| [
 
     HaFCY                     `verb`    {- OazohaY -}          [ "flourish", "prosper" ],
@@ -255,6 +270,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     InFiCAL |< At,
 
     MunFaCiL                  `adj`     {- munozaliq -}        [ "sliding", unwords [ "skating", "/", "skiing" ], "drifting" ] ]
+
+
+section_5   = listing "Lexicon's properties"
+
 
  |> "z l z l" <| [
 
@@ -319,6 +338,10 @@ lexicon = listing "Lexicon's properties"
 
     KiRDAS |< aT              `noun`    {- zinozAnap -}        [ unwords [ "prison", "cell" ] ]
                               `plural`     KiRDAS |< At ]
+
+
+section_6   = listing "Lexicon's properties"
+
 
  |> "z q q" <| [
 
@@ -386,6 +409,10 @@ lexicon = listing "Lexicon's properties"
     IFtiCA'                   `noun`    {- AizodirA' -}        [ "contempt", "disregard" ]
                               `plural`     IFtiCA' |< At ]
 
+
+section_7   = listing "Lexicon's properties"
+
+
  |> "z w ^g" <| [
 
     FaCCaL                    `verb`    {- zaw~aj -}           [ unwords [ "join", "/", "couple" ], unwords [ "marry", "off" ] ],
@@ -424,6 +451,10 @@ lexicon = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- zawobaEap -}        [ "storm", "hurricane" ]
                               `plural`     KaRADiS
                            {- `others`  [ "zawAbi` Ndip" ] -} ]
+
+
+section_8   = listing "Lexicon's properties"
+
 
  |> "z w d" <| [
 
@@ -469,6 +500,10 @@ lexicon = listing "Lexicon's properties"
     FUL                       `noun`    {- zuwm -}             [ "juice", "sap" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'azwAm N" ] -} ]
+
+
+section_9   = listing "Lexicon's properties"
+
 
  |> "z w r" <| [
 
@@ -517,6 +552,10 @@ lexicon = listing "Lexicon's properties"
     FIL |< aT                 `noun`    {- ziyjap -}           [ "marriage" ]
                               `plural`     FIL |< At ]
 
+
+section_10  = listing "Lexicon's properties"
+
+
  |> "z y d" <| [
 
     FAL                       `verb`    {- zAd-i -}            [ "increase", "exceed", "add" ]
@@ -563,6 +602,10 @@ lexicon = listing "Lexicon's properties"
     FA'iL                     `noun`    {- zA}id -}            [ "additional", "exceeding", "excessive" ],
 
     MutaFACiL                 `adj`     {- mutazAyid -}        [ "increasing", "growing" ] ]
+
+
+section_11  = listing "Lexicon's properties"
+
 
  |> "z y f" <| [
 
@@ -628,6 +671,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- zAmobiyA -}         [ "Zambia" ] ]
 
+
+section_12  = listing "Lexicon's properties"
+
+
  |> "zAmbuwAn.gA" <| [
 
     Identity                  `noun`    {- zAmobuwAnogA -}     [ "Zamboanga" ] ]
@@ -655,4 +702,18 @@ lexicon = listing "Lexicon's properties"
  |> "zan^gabAr" <| [
 
     Identity                  `noun`    {- zanojabAr -}        [ "Zanzibar" ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12 ]
 

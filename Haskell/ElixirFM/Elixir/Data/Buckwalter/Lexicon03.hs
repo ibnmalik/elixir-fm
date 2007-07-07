@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "biAltAlI" <| [
@@ -172,6 +175,10 @@ lexicon = listing "Lexicon's properties"
 
     FiCLAn                    `noun`    {- tiTowAn -}          [ "Tetouan" ] ]
 
+
+section_2   = listing "Lexicon's properties"
+
+
  |> "t .t w n" <| [
 
     -- ;; tiTowAn_1
@@ -291,6 +298,10 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FuCL
                               `pfirst`     FaCaL ]
 
+
+section_3   = listing "Lexicon's properties"
+
+
  |> "t _h m" <| [
 
     -- ;; taxim-a_1
@@ -389,6 +400,10 @@ lexicon = listing "Lexicon's properties"
     -- txtx    taxotix IV_yu   rot;decay
 
     KaRDaS                    `verb`    {- taxotax -}          [ "rot", "decay" ] ]
+
+
+section_4   = listing "Lexicon's properties"
+
 
  |> "t ` b" <| [
 
@@ -516,6 +531,10 @@ lexicon = listing "Lexicon's properties"
     FiCL                      `noun`    {- tibog -}            [ "tobacco" ]
                               `plural`     FuCUL
                            {- `others`  [ "tubuw.g N" ] -} ]
+
+
+section_5   = listing "Lexicon's properties"
+
 
  |> "t b `" <| [
 
@@ -698,6 +717,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCaL                  `noun`    {- mut~abaE -}         [ "followed", "observed", "adhered" ] ]
 
+
+section_6   = listing "Lexicon's properties"
+
+
  |> "t b b" <| [
 
     -- ;; tab~-i_1
@@ -826,6 +849,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACiL
                            {- `others`  [ "matAbin Ndip" ] -} ]
 
+
+section_7   = listing "Lexicon's properties"
+
+
  |> "t b r" <| [
 
     -- ;; tabar-i_1
@@ -926,6 +953,10 @@ lexicon = listing "Lexicon's properties"
     -- tfAf    taf~Af  Nap     spittoon
 
     FaCCAL |< aT              `noun`    {- taf~Afap -}         [ "spittoon" ] ]
+
+
+section_8   = listing "Lexicon's properties"
+
 
  |> "t f h" <| [
 
@@ -1061,6 +1092,10 @@ lexicon = listing "Lexicon's properties"
 
     FiCL |< aT                `noun`    {- tik~ap -}           [ "ticking" ] ]
 
+
+section_9   = listing "Lexicon's properties"
+
+
  |> "t k n k" <| [
 
     -- ;; takoniyk_1
@@ -1168,6 +1203,10 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- tilAd -}            [ "inherited", unwords [ "time", "-", "honored" ] ] ]
 
+
+section_10  = listing "Lexicon's properties"
+
+
  |> "t l f" <| [
 
     -- ;; talif-a_1
@@ -1270,6 +1309,10 @@ lexicon = listing "Lexicon's properties"
     -- tlfyty  talofiytiy~     N0      Talfiti
 
     KaRDIS |< Iy              `adj`     {- talofiytiy~ -}      [ "Talfiti" ] ]
+
+
+section_11  = listing "Lexicon's properties"
+
 
  |> "t l f z" <| [
 
@@ -1409,6 +1452,10 @@ lexicon = listing "Lexicon's properties"
 
     KaRADIS                   `noun`    {- talAtiyl -}         [ "hardships", "adversities" ] ]
 
+
+section_12  = listing "Lexicon's properties"
+
+
  |> "t l w" <| [
 
     -- ;; tuluw~_1
@@ -1537,6 +1584,10 @@ lexicon = listing "Lexicon's properties"
     -- tAmyl   tAmiyl  N0      Tamil
 
     FACiL                     `noun`    {- tAmil -}            [ "Tamil" ] ]
+
+
+section_13  = listing "Lexicon's properties"
+
 
  |> "t m m" <| [
 
@@ -1678,6 +1729,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADIS
                            {- `others`  [ "tamAsiy.h Ndip" ] -} ]
 
+
+section_14  = listing "Lexicon's properties"
+
+
  |> "t m t m" <| [
 
     -- ;; tamotam_1
@@ -1817,6 +1872,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- tanowap -}          [ unwords [ "coffee", "dregs" ] ] ]
 
+
+section_15  = listing "Lexicon's properties"
+
+
  |> "t n y" <| [
 
     -- ;; tuwniy_1
@@ -1913,6 +1972,10 @@ lexicon = listing "Lexicon's properties"
     -- tqwA    taqowA  Nhy     piety
 
     KaRDY                     `noun`    {- taqowaY -}          [ "piety" ] ]
+
+
+section_16  = listing "Lexicon's properties"
+
 
  |> "t q y" <| [
 
@@ -2071,6 +2134,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCAL |< Iy               `adj`     {- turAviy~ -}         [ "historical", unwords [ "heritage", "-", "based" ], "inherited" ] ]
 
+
+section_17  = listing "Lexicon's properties"
+
+
  |> "t r `" <| [
 
     -- ;; tariE-a_1
@@ -2208,6 +2275,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFCiL                    `noun`    {- mutorib -}          [ "dusty" ] ]
 
+
+section_18  = listing "Lexicon's properties"
+
+
  |> "t r b n" <| [
 
     -- ;; turobiyn_1
@@ -2314,6 +2385,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCCaL |< aT              `noun`    {- tur~ahap -}         [ "farce", "hoax" ] ]
 
+
+section_19  = listing "Lexicon's properties"
+
+
  |> "t r k" <| [
 
     -- ;; tarak-u_1
@@ -2411,6 +2486,10 @@ lexicon = listing "Lexicon's properties"
     -- trms    turomus N       lupine
 
     KuRDuS                    `noun`    {- turomus -}          [ "lupine" ] ]
+
+
+section_20  = listing "Lexicon's properties"
+
 
  |> "t r s" <| [
 
@@ -2542,6 +2621,10 @@ lexicon = listing "Lexicon's properties"
 
     KiRDIS |< Iy              `noun`    {- tisoEiyniy~ -}      [ "nineties" ] ]
 
+
+section_21  = listing "Lexicon's properties"
+
+
  |> "t w ' m" <| [
 
     -- ;; tawo>am_1
@@ -2637,6 +2720,10 @@ lexicon = listing "Lexicon's properties"
     -- twd     tuwd    Nprop   Tod
 
     KuRDU                     `noun`    {- tuwjuw -}           [ "Togo", "Tod" ] ]
+
+
+section_22  = listing "Lexicon's properties"
+
 
  |> "t w b" <| [
 
@@ -2764,6 +2851,10 @@ lexicon = listing "Lexicon's properties"
 
     FUL |< aT                 `noun`    {- tuwnap -}           [ "tuna" ] ]
 
+
+section_23  = listing "Lexicon's properties"
+
+
  |> "t w n s" <| [
 
     -- ;; tuwnis_1
@@ -2888,6 +2979,10 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aN                `adv`     {- taw~AF -}           [ "immediately" ]
                               `plural`     FaCL
                            {- `others`  [ "taww NF" ] -} ]
+
+
+section_24  = listing "Lexicon's properties"
+
 
  |> "t y .h" <| [
 
@@ -3029,6 +3124,10 @@ lexicon = listing "Lexicon's properties"
     -- tA}h    tA}ih   Nall    straying;lost
 
     FA'iL                     `noun`    {- tA}ih -}            [ "straying", "lost" ] ]
+
+
+section_25  = listing "Lexicon's properties"
+
 
  |> "t y l" <| [
 
@@ -3175,6 +3274,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tAbiyuwkA -}        [ "tapioca" ] ]
 
+
+section_26  = listing "Lexicon's properties"
+
+
  |> "tAblUh" <| [
 
     -- ;; tAboluwh_1
@@ -3316,6 +3419,10 @@ lexicon = listing "Lexicon's properties"
     -- tAylwr  tAyoluwr        Nprop   Taylor
 
     Identity                  `noun`    {- tAyoluwr -}         [ "" {- "Taylor" -} ] ]
+
+
+section_27  = listing "Lexicon's properties"
+
 
  |> "tAyland" <| [
 
@@ -3468,6 +3575,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tuwbiks -}          [ "" {- "Topix" -} ] ]
 
+
+section_28  = listing "Lexicon's properties"
+
+
  |> "tUlstUy" <| [
 
     -- ;; tuwlostuwy_1
@@ -3608,6 +3719,10 @@ lexicon = listing "Lexicon's properties"
     -- t$Arlz  t$Arolz Nprop   Charles
 
     Identity                  `noun`    {- t$Arolz -}          [ "" {- "Charles" -} ] ]
+
+
+section_29  = listing "Lexicon's properties"
+
 
  |> "t^sAynA" <| [
 
@@ -3750,6 +3865,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- tanakojiy~ -}       [ "tinsmith" ] ]
 
+
+section_30  = listing "Lexicon's properties"
+
+
  |> "tannIn" <| [
 
     -- ;; tan~iyn_1
@@ -3885,6 +4004,10 @@ lexicon = listing "Lexicon's properties"
     -- tknwqrATy       tikonuwqrATiy~  N-ap    technocratic     [[tikonuwqrATiy~/ADJ]]
 
     Identity |< Iy            `adj`     {- tikonuwqrATiy~ -}   [ "technocrat", "technocratic" ] ]
+
+
+section_31  = listing "Lexicon's properties"
+
 
  |> "tilfizyUn" <| [
 
@@ -4022,6 +4145,10 @@ lexicon = listing "Lexicon's properties"
     -- trwAd   tirowAd Nap     Troy
 
     Identity                  `noun`    {- tirowAdah -}        [ "" {- "Troy" -} ] ]
+
+
+section_32  = listing "Lexicon's properties"
+
 
  |> "tis`mA'" <| [
 
@@ -4162,6 +4289,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tuhAmiy -}          [ "" {- "Tuhami" -} ] ]
 
+
+section_33  = listing "Lexicon's properties"
+
+
  |> "tun^gstIn" <| [
 
     -- ;; tunojostiyn_1
@@ -4249,4 +4380,39 @@ lexicon = listing "Lexicon's properties"
     -- twyjry  tuwayojriy~     N0      Tuwaijri
 
     Identity |< Iy            `adj`     {- tuwayojriy~ -}      [ "" {- "Tuwaijri" -} ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15,
+             section_16,
+             section_17,
+             section_18,
+             section_19,
+             section_20,
+             section_21,
+             section_22,
+             section_23,
+             section_24,
+             section_25,
+             section_26,
+             section_27,
+             section_28,
+             section_29,
+             section_30,
+             section_31,
+             section_32,
+             section_33 ]
 

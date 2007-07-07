@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "^g ' `" <| [
@@ -70,6 +73,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCUL
                               `plural`     HaFCAL
                            {- `others`  [ "^gu_duw` N", "'a^g_dA` N" ] -} ]
+
+
+section_2   = listing "Lexicon's properties"
+
 
  |> "^g _d b" <| [
 
@@ -138,6 +145,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- jaEol -}            [ "making", unwords [ "bringing", "about" ], "appointing" ] ]
 
+
+section_3   = listing "Lexicon's properties"
+
+
  |> "^g b h" <| [
 
     FaCL |< aT                `noun`    {- jabohap -}          [ "front", unwords [ "front", "line" ] ]
@@ -201,6 +212,10 @@ lexicon = listing "Lexicon's properties"
 
     KuRDAS                    `noun`    {- juborAn -}          [ "Gibran", "Jubran" ] ]
 
+
+section_4   = listing "Lexicon's properties"
+
+
  |> "^g b s" <| [
 
     FiCL                      `noun`    {- jibos -}            [ "gypsum", unwords [ "plaster", "of", "Paris" ] ] ]
@@ -218,6 +233,10 @@ lexicon = listing "Lexicon's properties"
     IstiFCAL                  `noun`    {- AisotijodA' -}      [ "plea", "supplication" ]
                               `plural`     IstiFCAL |< At
                               `plural`     IstiFCA' |< At ]
+
+
+section_5   = listing "Lexicon's properties"
+
 
  |> "^g d d" <| [
 
@@ -281,6 +300,10 @@ lexicon = listing "Lexicon's properties"
 
     MustaFiCL                 `noun`    {- musotajid~ -}       [ "recent", "incipient" ] ]
 
+
+section_6   = listing "Lexicon's properties"
+
+
  |> "^g d l" <| [
 
     FaCaL                     `verb`    {- jadal-ui -}         [ "twist", "braid" ]
@@ -325,6 +348,10 @@ lexicon = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- jadowal -}          [ "schedule", "chart" ]
                               `plural`     KaRADiS
                            {- `others`  [ "^gadAwil Ndip" ] -} ]
+
+
+section_7   = listing "Lexicon's properties"
+
 
  |> "^g d y" <| [
 
@@ -372,6 +399,10 @@ lexicon = listing "Lexicon's properties"
 
     HiFCAL                    `noun`    {- IijohAD -}          [ "abortion", "miscarriage" ]
                               `plural`     HiFCAL |< At ]
+
+
+section_8   = listing "Lexicon's properties"
+
 
  |> "^g h d" <| [
 
@@ -430,6 +461,10 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL                    `adj`     {- majohuwl -}         [ "unknown", "unidentified", unwords [ "unidentified", "(", "persons", ")" ] ] ]
 
+
+section_9   = listing "Lexicon's properties"
+
+
  |> "^g h r" <| [
 
     FACaL                     `verb`    {- jAhar -}            [ "confess", "express" ],
@@ -486,6 +521,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaLA'
                            {- `others`  [ "^gulabA' Nh N0_Nh Nhy" ] -} ]
 
+
+section_10  = listing "Lexicon's properties"
+
+
  |> "^g l d" <| [
 
     FaCaL                     `verb`    {- jalad-i -}          [ "flog" ]
@@ -508,6 +547,10 @@ lexicon = listing "Lexicon's properties"
     FaCUL                     `noun`    {- jaluwd -}           [ "patient" ],
 
     MuFaCCaL                  `noun`    {- mujal~ad -}         [ "frozen", "bound" ] ]
+
+
+section_11  = listing "Lexicon's properties"
+
 
  |> "^g l l" <| [
 
@@ -556,6 +599,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACiL
                            {- `others`  [ "ma^gAlis Ndip" ] -} ]
 
+
+section_12  = listing "Lexicon's properties"
+
+
  |> "^g l w" <| [
 
     TaFaCCY                   `verb`    {- tajal~aY -}         [ unwords [ "become", "clear" ], unwords [ "be", "evident" ], unwords [ "be", "manifest" ] ],
@@ -600,6 +647,10 @@ lexicon = listing "Lexicon's properties"
     KuRDuS |< aT              `noun`    {- jumojumap -}        [ "skull", "cranium", "crania" ]
                               `plural`     KaRADiS
                            {- `others`  [ "^gamA^gim Ndip" ] -} ]
+
+
+section_13  = listing "Lexicon's properties"
+
 
  |> "^g m `" <| [
 
@@ -679,6 +730,10 @@ lexicon = listing "Lexicon's properties"
     MuFtaCaL                  `noun`    {- mujotamaE -}        [ "society" ]
                               `plural`     MuFtaCaL |< At ]
 
+
+section_14  = listing "Lexicon's properties"
+
+
  |> "^g m b r" <| [
 
     KaRDaS |< Iy              `adj`     {- jamobariy~ -}       [ "shrimp" ] ]
@@ -715,6 +770,10 @@ lexicon = listing "Lexicon's properties"
     KaRADIS |< Iy             `adj`     {- jamAhiyriy~ -}      [ "mass", "throng" ],
 
     KaRADIS |< Iy |< aT       `noun`    {- jamAhiyriy~ap -}    [ "Jamahiriya" ] ]
+
+
+section_15  = listing "Lexicon's properties"
+
 
  |> "^g m l" <| [
 
@@ -769,6 +828,10 @@ lexicon = listing "Lexicon's properties"
     MuFCaL                    `noun`    {- mujomal -}          [ "summary", "total" ]
                               `plural`     MuFCaL |< At ]
 
+
+section_16  = listing "Lexicon's properties"
+
+
  |> "^g m m" <| [
 
     FaCL                      `verb`    {- jam~-iu -}          [ "concentrate", "rest" ]
@@ -809,6 +872,10 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "'a^gnu.h N" ] -},
 
     FuCAL                     `noun`    {- junAH -}            [ "misdemeanor" ] ]
+
+
+section_17  = listing "Lexicon's properties"
+
 
  |> "^g n b" <| [
 
@@ -864,6 +931,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     MuFaCCaL                  `adj`     {- mujan~ad -}         [ "recruited", "enlisted", "recruit", "draftee", "conscript" ] ]
+
+
+section_18  = listing "Lexicon's properties"
+
 
  |> "^g n n" <| [
 
@@ -932,6 +1003,10 @@ lexicon = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- jinAzap -}          [ "funeral" ]
                               `plural`     FiCAL |< At ]
 
+
+section_19  = listing "Lexicon's properties"
+
+
  |> "^g n z r" <| [
 
     KaRDUS |< Iy              `adj`     {- janozuwriy~ -}      [ "Janzouri" ],
@@ -992,6 +1067,10 @@ lexicon = listing "Lexicon's properties"
 
     KiRDiS                    `noun`    {- jirojis -}          [ "Girgis" ] ]
 
+
+section_20  = listing "Lexicon's properties"
+
+
  |> "^g r _t m" <| [
 
     KuRDUS                    `noun`    {- jurovuwm -}         [ "germ", "microbe" ]
@@ -1047,6 +1126,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL                  `noun`    {- mujar~ad -}         [ "bare", "pure" ] ]
 
+
+section_21  = listing "Lexicon's properties"
+
+
  |> "^g r f" <| [
 
     FaCaL                     `verb`    {- jaraf-u -}          [ unwords [ "tear", "out" ], "remove", unwords [ "sweep", "away" ] ]
@@ -1101,6 +1184,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                            {- `others`  [ "'a^grAs N" ] -} ]
 
+
+section_22  = listing "Lexicon's properties"
+
+
  |> "^g r y" <| [
 
     FaCY                      `verb`    {- jaraY-i -}          [ "occur", "happen", unwords [ "take", "place" ], "flow" ]
@@ -1148,6 +1235,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     MutaFaCCiL                `noun`    {- mutajas~id -}       [ "corporeal", "incarnate" ] ]
+
+
+section_23  = listing "Lexicon's properties"
+
 
  |> "^g s m" <| [
 
@@ -1207,6 +1298,10 @@ lexicon = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- tajowiyE -}         [ unwords [ "making", "starve" ] ]
                               `plural`     TaFCIL |< At ]
 
+
+section_24  = listing "Lexicon's properties"
+
+
  |> "^g w b" <| [
 
     FAL                       `verb`    {- jAb-u -}            [ "explore", "traverse" ]
@@ -1262,6 +1357,10 @@ lexicon = listing "Lexicon's properties"
  |> "^g w f" <| [
 
     FaCL |< Iy                `adj`     {- jawofiy~ -}         [ "interior", "subterranean" ] ]
+
+
+section_25  = listing "Lexicon's properties"
+
 
  |> "^g w h r" <| [
 
@@ -1328,6 +1427,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCL |< At
                            {- `others`  [ "'a^gwAq N" ] -} ]
 
+
+section_26  = listing "Lexicon's properties"
+
+
  |> "^g w r" <| [
 
     FAL                       `verb`    {- jAr-u -}            [ "tyrannize" ]
@@ -1358,6 +1461,10 @@ lexicon = listing "Lexicon's properties"
     FaCL |< Iy                `adj`     {- jaw~iy~ -}          [ "air", "aerial", "atmospheric" ],
 
     FU                        `noun`    {- juw -}              [ "Joe" ] ]
+
+
+section_27  = listing "Lexicon's properties"
+
 
  |> "^g w z" <| [
 
@@ -1417,6 +1524,10 @@ lexicon = listing "Lexicon's properties"
                               `pfirst`     FiL,
 
     MaFIL                     `noun`    {- majiy' -}           [ "arrival", "advent" ] ]
+
+
+section_28  = listing "Lexicon's properties"
+
 
  |> "^g y .h" <| [
 
@@ -1496,6 +1607,10 @@ lexicon = listing "Lexicon's properties"
 
     FILAn |< Iy               `adj`     {- jiyzAniy~ -}        [ "Jizani" ] ]
 
+
+section_29  = listing "Lexicon's properties"
+
+
  |> "^g z '" <| [
 
     TaFaCCaL                  `verb`    {- tajaz~aO -}         [ unwords [ "be", "divided" ], unwords [ "be", "separated" ] ],
@@ -1561,6 +1676,10 @@ lexicon = listing "Lexicon's properties"
  |> "^gA.guwAr" <| [
 
     Identity                  `noun`    {- jAguwAr -}          [ "Jaguar" ] ]
+
+
+section_30  = listing "Lexicon's properties"
+
 
  |> "^gAkArtA" <| [
 
@@ -1642,6 +1761,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- juwziyfA -}         [ "Josefa" ] ]
 
+
+section_31  = listing "Lexicon's properties"
+
+
  |> "^gabra'Il" <| [
 
     Identity                  `noun`    {- jabora}iyl -}       [ "Jibril", "Gabriel" ] ]
@@ -1720,7 +1843,45 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- jyms -}             [ "James" ] ]
 
+
+section_32  = listing "Lexicon's properties"
+
+
  |> "ta^gwAl" <| [
 
     Identity                  `noun`    {- tajowAl -}          [ "migration" ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15,
+             section_16,
+             section_17,
+             section_18,
+             section_19,
+             section_20,
+             section_21,
+             section_22,
+             section_23,
+             section_24,
+             section_25,
+             section_26,
+             section_27,
+             section_28,
+             section_29,
+             section_30,
+             section_31,
+             section_32 ]
 

@@ -16,18 +16,18 @@ use Getopt::Std;
 $Getopt::Std::STANDARD_HELP_VERSION = 1;
 
 
-our ($DIR, $Lexicon, $Index, $ID);
+our ($DIR, $Lexicon, $Index, $ID, $IDX, $CNT);
 
-our ($include, $indexed, $unwords, $options);
+our ($include, $indexed, $unwords, $section, $options);
 
 
 $/ = "\n";
 
 @ARGV = glob join " ", @ARGV;
 
-$options = {};
+$options = { 's' => 20, 'w' => 1 };
 
-getopts('x:d:yi:w:v', $options);
+getopts('x:d:yeti:s:w:v', $options);
 
 die $VERSION . "\n" if exists $options->{'v'};
 
@@ -43,6 +43,11 @@ $indexed = 0 if $indexed < 0;
 $unwords = exists $options->{'w'} ? $options->{'w'} + 0 : 0;
 
 $unwords = 0 if $unwords < 0;
+
+
+$section = exists $options->{'s'} ? $options->{'s'} + 0 : 0;
+
+$section = 0 if $section < 0;
 
 
 if (exists $options->{'i'}) {
@@ -103,25 +108,6 @@ sub indexLexicon {
 }
 
 
-sub printLexicon {
-
-    print showNest($Lexicon->{$_}, $_) foreach sort keys %{$Lexicon};
-
-    return unless keys %{$Index};
-
-    print STDERR (keys %{$Index}) . "\n";
-
-    print << "    return;";
-
- where
-
-
-    return;
-
-    print showTwig($Index->{$_}, $_) foreach sort keys %{$Index};
-}
-
-
 sub beginLexicon {
 
     no strict;
@@ -136,6 +122,12 @@ sub beginLexicon {
 
     select L;
 
+    $IDX = 0;
+
+    my @data = keys %{$Lexicon};
+
+    my $listing = $section && @data ? "include sections" : "listing \"Lexicon's properties\"";
+
     print << "    return;";
 
 module Elixir.Data.$DIR.Lexicon$ID where
@@ -145,8 +137,7 @@ import Elixir.Lexicon
 
 version = revised "\$Revision: \$"
 
-lexicon = listing "Lexicon's properties"
-
+lexicon = $listing
 
     return;
 }
@@ -160,16 +151,90 @@ sub closeLexicon {
 }
 
 
-sub showNest ($$) {
+sub printLexicon {
 
-    my @entries = @{$_[0]};
-    my $root = $_[1];
+    my @data = sort keys %{$Lexicon};
 
-    @entries = grep { includeEntry($_) } @entries if defined $include;
+    if ($section and @data) {
+
+        beginSection();
+
+        foreach my $root (@data) {
+
+            my @entries = defined $include ? grep { includeEntry($_) } @{$Lexicon->{$root}}
+                                                                     : @{$Lexicon->{$root}};
+
+            next unless @entries;
+
+            if ($CNT and @entries + $CNT > $section) {
+
+                closeSection();
+
+                beginSection();
+            }
+
+            $CNT += @entries;
+
+            print showNest($root, @entries);
+        }
+
+        closeSection();
+
+        print "\nsections = [ " . (join ",\n" . " " x 13, map { "section_$_" } 1 .. $IDX) . " ]\n\n";
+    }
+    else {
+
+        foreach my $root (@data) {
+
+            my @entries = defined $include ? grep { includeEntry($_) } @{$Lexicon->{$root}}
+                                                                     : @{$Lexicon->{$root}};
+
+            print showNest($root, @entries);
+        }
+    }
+
+    return unless keys %{$Index};
+
+    print STDERR (keys %{$Index}) . "\n";
+
+    print "\n";
+
+    print showTwig($Index->{$_}, $_) foreach sort keys %{$Index};
+}
+
+
+sub beginSection {
+
+    $CNT = 0;
+
+    my $idx = sprintf "%-3d", ++$IDX;
+
+    print << "    return;";
+
+section_$idx = listing "Lexicon's properties"
+
+
+    return;
+}
+
+
+sub closeSection {
+
+    print << "    return;" if exists $options->{'t'};
+
+ |>||<| [ ]
+
+    return;
+}
+
+
+sub showNest ($@) {
+
+    my ($root, @entries) = @_;
 
     return unless @entries;
 
-    return ' |> "' . $root . '" <| [' . "\n\n" .
+    return  ' |> "' . $root . '" <| [' . "\n\n" .
 
             ( join ",\n\n", map { showEntry($_) } @entries ) .
 
@@ -297,7 +362,8 @@ sub showEntry ($) {
 
                    (join "\n" . ' ' x 27,
 
-                   '[ ' . (join ", ", map { showGloss($_, $entry->{'morphs'}) } @{$glosses}) . ' ]',
+                   '[ ' . (exists $options->{'e'} ? '' :
+                            join ", ", map { showGloss($_, $entry->{'morphs'}) } @{$glosses}) . ' ]',
 
                                 # ^^ never with # join ";", @{$glosses}
 
@@ -322,7 +388,7 @@ sub showTwig ($$){
 
     $i =~ tr[ ][_];
 
-    return sprintf "    %-25s   =       %s\n\n", "_" . $i . "_", showWords($t, '');
+    return sprintf "%-25s   =       %s\n\n", "_" . $i . "_", showWords($t, '');
 }
 
 

@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "'ifl" <| [
@@ -80,6 +83,10 @@ lexicon = listing "Lexicon's properties"
 
     FiC |< aT                 `noun`    {- fi}ap -}            [ "faction", "party" ] ]
 
+
+section_2   = listing "Lexicon's properties"
+
+
  |> "f ' z" <| [
 
     FACiL                     `noun`    {- fA}iz -}            [ "winner", "victorious" ],
@@ -123,6 +130,10 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `adj`     {- fADiH -}            [ "scandalous" ],
 
     MaFCUL                    `adj`     {- mafoDuwH -}         [ "disgraced", "dishonored", "ignominious" ] ]
+
+
+section_3   = listing "Lexicon's properties"
+
 
  |> "f .d l" <| [
 
@@ -179,6 +190,10 @@ lexicon = listing "Lexicon's properties"
     FaCA' |< Iy               `adj`     {- faDA}iy~ -}         [ "space", "cosmic", unwords [ "satellite", "-", "based" ] ],
 
     FaCA' |< Iy               `adj`     {- faDA}iy~ -}         [ "astronaut" ] ]
+
+
+section_4   = listing "Lexicon's properties"
+
 
  |> "f .h .h" <| [
 
@@ -241,6 +256,10 @@ lexicon = listing "Lexicon's properties"
     HiFCAL                    `noun`    {- IifoSAH -}          [ unwords [ "clear", "expression" ], unwords [ "frank", "statement" ] ]
                               `plural`     HiFCAL |< At ]
 
+
+section_5   = listing "Lexicon's properties"
+
+
  |> "f .s l" <| [
 
     FaCaL                     `verb`    {- faSal-i -}          [ "separate", "detach", unwords [ "set", "apart" ] ]
@@ -289,6 +308,10 @@ lexicon = listing "Lexicon's properties"
  |> "f .t n" <| [
 
     TaFaCCaL                  `verb`    {- tafaT~an -}         [ "perceive", unwords [ "be", "aware" ] ] ]
+
+
+section_6   = listing "Lexicon's properties"
+
 
  |> "f .t r" <| [
 
@@ -345,6 +368,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCiL                  `adj`     {- mufaj~iE -}         [ "harrowing", "agonizing", "horrors" ]
                               `plural`     MuFaCCiL |< At ]
+
+
+section_7   = listing "Lexicon's properties"
+
 
  |> "f ^g r" <| [
 
@@ -406,6 +433,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- fa$iyr -}           [ "Fashir" ] ]
 
+
+section_8   = listing "Lexicon's properties"
+
+
  |> "f ^s w" <| [
 
     TaFaCCY                   `verb`    {- tafa$~aY -}         [ unwords [ "be", "disseminated" ], unwords [ "be", "spread" ] ],
@@ -464,6 +495,10 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`    {- fAxir -}            [ "proud", "vainglorious" ],
 
     FACiL                     `adj`     {- fAxir -}            [ "fine", unwords [ "de", "luxe" ], "magnificent" ] ]
+
+
+section_9   = listing "Lexicon's properties"
+
 
  |> "f ` l" <| [
 
@@ -527,6 +562,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCaL                  `adj`     {- mufotaEal -}        [ "falsified", "spurious" ] ]
 
+
+section_10  = listing "Lexicon's properties"
+
+
  |> "f ` m" <| [
 
     MuFCaL                    `adj`     {- mufoEam -}          [ "stuffed", unwords [ "jam", "-", "packed" ], "overflowing" ] ]
@@ -577,6 +616,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCUL
                            {- `others`  [ "'afhud N", "fuhuwd N" ] -} ]
 
+
+section_11  = listing "Lexicon's properties"
+
+
  |> "f h m" <| [
 
     FaCiL                     `verb`    {- fahim-a -}          [ "understand", unwords [ "be", "understood" ] ]
@@ -618,6 +661,10 @@ lexicon = listing "Lexicon's properties"
     FACiL |< aT               `noun`    {- fAkihap -}          [ "fruit" ]
                               `plural`     FawACiL
                            {- `others`  [ "fawAkih Ndip" ] -} ]
+
+
+section_12  = listing "Lexicon's properties"
+
 
  |> "f k k" <| [
 
@@ -664,6 +711,10 @@ lexicon = listing "Lexicon's properties"
  |> "f k s" <| [
 
     FACiL                     `noun`    {- fAkis -}            [ "fax", unwords [ "fax", "machine" ] ] ]
+
+
+section_13  = listing "Lexicon's properties"
+
 
  |> "f l .h" <| [
 
@@ -729,6 +780,10 @@ lexicon = listing "Lexicon's properties"
 
     InFaCaL                   `verb`    {- Ainofalat -}        [ "escape", "evade" ] ]
 
+
+section_14  = listing "Lexicon's properties"
+
+
  |> "f n '" <| [
 
     HiFCAL                    `noun`    {- IifonA' -}          [ "annihilation", "destruction" ]
@@ -788,6 +843,10 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- faqaT-u -}          [ unwords [ "tally", "up" ] ]
                               `imperf`     FCuL ]
 
+
+section_15  = listing "Lexicon's properties"
+
+
  |> "f q d" <| [
 
     FaCaL                     `verb`    {- faqad-i -}          [ "lose", unwords [ "be", "lost" ] ]
@@ -837,6 +896,10 @@ lexicon = listing "Lexicon's properties"
     FaCIL                     `noun`    {- faqiyh -}           [ unwords [ "faqih", "(", "expert", "in", "Islamic", "jurisprudence", ")" ], unwords [ "faqihs", "(", "experts", "in", "Islamic", "jurisprudence", ")" ] ]
                               `plural`     FuCaLA'
                            {- `others`  [ "fuqahA' Nh N0_Nh Nhy" ] -} ]
+
+
+section_16  = listing "Lexicon's properties"
+
 
  |> "f q m" <| [
 
@@ -895,6 +958,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCaL                  `adj`     {- mufotaraD -}        [ "supposed", "presumed" ] ]
 
+
+section_17  = listing "Lexicon's properties"
+
+
  |> "f r .g" <| [
 
     FaCaL                     `verb`    {- farag-u -}          [ unwords [ "be", "empty" ], unwords [ "be", "unoccupied" ] ]
@@ -948,6 +1015,10 @@ lexicon = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- furoSap -}          [ "holiday" ]
                               `plural`     FuCaL
                            {- `others`  [ "fura.s N" ] -} ]
+
+
+section_18  = listing "Lexicon's properties"
+
 
  |> "f r .t" <| [
 
@@ -1005,6 +1076,10 @@ lexicon = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- taforiyx -}         [ "hatching", "incubation" ]
                               `plural`     TaFCIL |< At ]
 
+
+section_19  = listing "Lexicon's properties"
+
+
  |> "f r `" <| [
 
     TaFaCCaL                  `verb`    {- tafar~aE -}         [ unwords [ "branch", "out" ], unwords [ "spread", "out" ] ],
@@ -1018,6 +1093,10 @@ lexicon = listing "Lexicon's properties"
     MutaFaCCiL                `adj`     {- mutafar~iE -}       [ "ramified", "derived" ],
 
     MutaFaCCiL                `adj`     {- mutafar~iE -}       [ unwords [ "branching", "out" ], unwords [ "spreading", "out" ] ] ]
+
+
+section_20  = listing "Lexicon's properties"
+
 
  |> "f r d" <| [
 
@@ -1078,6 +1157,10 @@ lexicon = listing "Lexicon's properties"
     FuCL                      `noun`    {- furon -}            [ "oven", "furnace" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'afrAn N" ] -} ]
+
+
+section_21  = listing "Lexicon's properties"
+
 
  |> "f r q" <| [
 
@@ -1147,6 +1230,10 @@ lexicon = listing "Lexicon's properties"
     MuFtaCaL                  `noun`    {- mufotaraq -}        [ "intersection", "crossroads", "junction" ]
                               `plural`     MuFtaCaL |< At ]
 
+
+section_22  = listing "Lexicon's properties"
+
+
  |> "f r r" <| [
 
     FaCL                      `verb`    {- far~-i -}           [ "escape", "flee", "defect", "desert" ]
@@ -1201,6 +1288,10 @@ lexicon = listing "Lexicon's properties"
     HaFCaL                    `verb`    {- Oaforaz -}          [ unwords [ "sort", "out" ], "select", "classify", unwords [ "be", "sorted", "out" ] ],
 
     FaCL                      `noun`    {- faroz -}            [ unwords [ "sorting", "out" ], "selecting", "screening" ] ]
+
+
+section_23  = listing "Lexicon's properties"
+
 
  |> "f s .h" <| [
 
@@ -1260,6 +1351,10 @@ lexicon = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- fisoq -}            [ "depravity", "sin" ] ]
 
+
+section_24  = listing "Lexicon's properties"
+
+
  |> "f s r" <| [
 
     FaCCaL                    `verb`    {- fas~ar -}           [ "explain", "interpret" ],
@@ -1291,6 +1386,10 @@ lexicon = listing "Lexicon's properties"
     IstiFCAL                  `noun`    {- AisotifotA' -}      [ "referendum", "poll", "questionnaire" ]
                               `plural`     IstiFCAL |< At
                               `plural`     IstiFCA' |< At ]
+
+
+section_25  = listing "Lexicon's properties"
+
 
  |> "f t .h" <| [
 
@@ -1341,6 +1440,10 @@ lexicon = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- mafotuwH -}         [ "open", "opened" ],
 
     MunFaCiL                  `adj`     {- munofatiH -}        [ "open", "responsive", "tolerant" ] ]
+
+
+section_26  = listing "Lexicon's properties"
+
 
  |> "f t ^s" <| [
 
@@ -1415,6 +1518,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFCI                     `noun`    {- mufotiy -}          [ "Mufti" ] ]
 
+
+section_27  = listing "Lexicon's properties"
+
+
  |> "f t y" <| [
 
     FaCIL                     `adj`     {- fatiy~ -}           [ "youthful" ],
@@ -1476,6 +1583,10 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL                  `adj`     {- mufaw~ah -}         [ "eloquent" ] ]
 
+
+section_28  = listing "Lexicon's properties"
+
+
  |> "f w l" <| [
 
     FUL                       `noun`    {- fuwl -}             [ "bean" ]
@@ -1530,6 +1641,10 @@ lexicon = listing "Lexicon's properties"
 
     FA'iL                     `adj`     {- fA}ir -}            [ "boiling" ] ]
 
+
+section_29  = listing "Lexicon's properties"
+
+
  |> "f w t" <| [
 
     FAL                       `verb`    {- fAt-u -}            [ "expire", unwords [ "go", "by" ] ]
@@ -1575,6 +1690,10 @@ lexicon = listing "Lexicon's properties"
 
     FiL |< aT                 `noun`    {- fi}ap -}            [ "faction", "party" ] ]
 
+
+section_30  = listing "Lexicon's properties"
+
+
  |> "f y .d" <| [
 
     IstaFAL                   `verb`    {- AisotafAD -}        [ "spread", unwords [ "be", "thorough" ] ],
@@ -1608,6 +1727,10 @@ lexicon = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- fayoSal -}          [ "arbiter" ],
 
     KaRDaS |< Iy              `adj`     {- fayoSaliy~ -}       [ "Faisali", "Faysali", "Feisali" ] ]
+
+
+section_31  = listing "Lexicon's properties"
+
 
  |> "f y d" <| [
 
@@ -1676,6 +1799,10 @@ lexicon = listing "Lexicon's properties"
     KaRDUS                    `noun`    {- fayoruwz -}         [ "Fayruz" ],
 
     KaRDUS                    `noun`    {- fayoruwz -}         [ "turquoise" ] ]
+
+
+section_32  = listing "Lexicon's properties"
+
 
  |> "f y t r" <| [
 
@@ -1758,6 +1885,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- fiydirAliy~ -}      [ "Federal" ] ]
 
+
+section_33  = listing "Lexicon's properties"
+
+
  |> "fIdrIn" <| [
 
     Identity                  `noun`    {- fiydoriyn -}        [ "Vedrine" ] ]
@@ -1831,6 +1962,10 @@ lexicon = listing "Lexicon's properties"
  |> "fUrmUlA" <| [
 
     Identity                  `noun`    {- fuwromuwlA -}       [ "Formula" ] ]
+
+
+section_34  = listing "Lexicon's properties"
+
 
  |> "fUsf" <| [
 
@@ -1906,6 +2041,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- fiyAgrA -}          [ "Viagra" ] ]
 
+
+section_35  = listing "Lexicon's properties"
+
+
  |> "fiyAkUm" <| [
 
     Identity                  `noun`    {- fiyAkuwm -}         [ "Viacom" ] ]
@@ -1963,4 +2102,41 @@ lexicon = listing "Lexicon's properties"
  |> "infil" <| [
 
     Identity |< At            `noun`    {- AinofilAt -}        [ "evasion", "release" ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6,
+             section_7,
+             section_8,
+             section_9,
+             section_10,
+             section_11,
+             section_12,
+             section_13,
+             section_14,
+             section_15,
+             section_16,
+             section_17,
+             section_18,
+             section_19,
+             section_20,
+             section_21,
+             section_22,
+             section_23,
+             section_24,
+             section_25,
+             section_26,
+             section_27,
+             section_28,
+             section_29,
+             section_30,
+             section_31,
+             section_32,
+             section_33,
+             section_34,
+             section_35 ]
 

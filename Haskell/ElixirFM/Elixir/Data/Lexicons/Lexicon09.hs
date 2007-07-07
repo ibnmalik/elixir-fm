@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "_d" <| [
@@ -78,6 +81,10 @@ lexicon = listing "Lexicon's properties"
 
     MutaKaRDiS                `adj`     {- muta*abo*ib -}      [ "oscillating" ] ]
 
+
+section_2   = listing "Lexicon's properties"
+
+
  |> "_d b y" <| [
 
     FuCLAn                    `noun`    {- \*uboyAn -}         [ "Dhubyan", "Dhubian" ],
@@ -132,6 +139,10 @@ lexicon = listing "Lexicon's properties"
  |> "_d k '" <| [
 
     FaCAL                     `noun`    {- \*akA' -}           [ "cleverness" ] ]
+
+
+section_3   = listing "Lexicon's properties"
+
 
  |> "_d k r" <| [
 
@@ -195,6 +206,10 @@ lexicon = listing "Lexicon's properties"
     FiCL |< aT                `noun`    {- \*im~ap -}          [ "protection", "security" ]
                               `plural`     FiCaL
                            {- `others`  [ "_dimam N" ] -} ]
+
+
+section_4   = listing "Lexicon's properties"
+
 
  |> "_d m r" <| [
 
@@ -262,6 +277,10 @@ lexicon = listing "Lexicon's properties"
  |> "_d r y" <| [
 
     FuC |< aT                 `noun`    {- \*urap -}           [ "sorghum", "maize" ] ]
+
+
+section_5   = listing "Lexicon's properties"
+
 
  |> "_d w `" <| [
 
@@ -341,6 +360,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity |<< "a"          `adv`     {- ka*`lika -}         [ "likewise", "also" ] ]
 
+
+section_6   = listing "Lexicon's properties"
+
+
  |> "li_dA" <| [
 
     Identity                  `conj`    {- li*A -}             [ "therefore" ] ]
@@ -358,4 +381,12 @@ lexicon = listing "Lexicon's properties"
  |> "ta_dkar" <| [
 
     Identity |< aT            `noun`    {- ta*okarap -}        [ "ticket", "card" ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3,
+             section_4,
+             section_5,
+             section_6 ]
 

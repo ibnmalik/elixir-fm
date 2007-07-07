@@ -6,7 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon's properties"
+lexicon = include sections
+
+
+section_1   = listing "Lexicon's properties"
 
 
  |> "'" <| [
@@ -82,6 +85,10 @@ lexicon = listing "Lexicon's properties"
  |> "-- t y" <| [
 
     CI                        `noun`    {- tiy -}              [ "T." ] ]
+
+
+section_2   = listing "Lexicon's properties"
+
 
  |> ".g" <| [
 
@@ -163,6 +170,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tg -}               [ "G.M.T." ] ]
 
+
+section_3   = listing "Lexicon's properties"
+
+
  |> "w" <| [
 
     Identity |<< "a"          `conj`    {- wa -}               [ "and", "W", "6th" ] ]
@@ -170,4 +181,9 @@ lexicon = listing "Lexicon's properties"
  |> "y" <| [
 
     Identity                  `noun`    {- y -}                [ "Y", "10th" ] ]
+
+
+sections = [ section_1,
+             section_2,
+             section_3 ]
 
