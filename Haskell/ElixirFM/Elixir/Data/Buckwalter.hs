@@ -68,12 +68,12 @@ version = revised "$Revision$"
 
 lexicon :: Lexicon
 
-lexicon = concat chapters
+lexicon = concat lexicons
 
 
-chapters :: [Lexicon]
+lexicons :: [Lexicon]
 
-chapters =  [   Extra.lexicon,
+lexicons =  [   Extra.lexicon,
 
                 Alif.lexicon,
                 Baa.lexicon,

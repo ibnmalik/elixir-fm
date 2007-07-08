@@ -16,7 +16,7 @@ use Getopt::Std;
 $Getopt::Std::STANDARD_HELP_VERSION = 1;
 
 
-our ($DIR, $Lexicon, $Index, $ID, $IDX, $CNT, $SectionIDX, $SectionCNT, $ClusterIDX, $ClusterCNT);
+our ($DIR, $Lexicon, @Roots, $Index, $ID, $SectionIDX, $SectionCNT, $ClusterIDX, $ClusterCNT);
 
 our ($include, $indexed, $unwords, $section, $cluster, $options);
 
@@ -25,9 +25,9 @@ $/ = "\n";
 
 @ARGV = glob join " ", @ARGV;
 
-$options = { 's' => 10, 'c' => 20, 'w' => 1 };
+$options = { 'c' => 20, 'w' => 1 };
 
-getopts('x:d:c:yeti:s:w:v', $options);
+getopts('x:d:c:fyeti:s:w:v', $options);
 
 die $VERSION . "\n" if exists $options->{'v'};
 
@@ -35,24 +35,26 @@ die $VERSION . "\n" if exists $options->{'v'};
 $DIR = exists $options->{'d'} ? $options->{'d'} : 'Lexicons';
 
 
-$indexed = exists $options->{'x'} ? $options->{'x'} + 0 : 0;
-
-$indexed = 0 if $indexed < 0;
-
-
 $unwords = exists $options->{'w'} ? $options->{'w'} + 0 : 0;
 
 $unwords = 0 if $unwords < 0;
 
 
-$section = exists $options->{'s'} ? $options->{'s'} + 0 : 0;
+$cluster = exists $options->{'c'} ? $options->{'c'} + 0 : 0;
+
+$cluster = 0 if $cluster < 0;
+
+
+$section = exists $options->{'s'} ? $options->{'s'} + 0
+
+                                  : $cluster ? 20 : 60;
 
 $section = 0 if $section < 0;
 
 
-$cluster = exists $options->{'c'} ? $options->{'c'} + 0 : 0;
+$indexed = exists $options->{'x'} ? $options->{'x'} + 0 : 0;
 
-$cluster = 0 if $cluster < 0;
+$indexed = 0 if $indexed < 0;
 
 
 if (exists $options->{'i'}) {
@@ -78,10 +80,6 @@ foreach $ARGV (@ARGV) {
 
     beginLexicon();
 
-    indexLexicon();
-
-    printLexicon();
-
     closeLexicon();
 }
 
@@ -94,8 +92,6 @@ foreach $ARGV (@ARGV) {
 sub indexLexicon {
 
     $Index = {};
-
-    return unless $indexed;
 
     foreach (keys %{$Lexicon}) {
 
@@ -121,21 +117,43 @@ sub beginLexicon {
 
     use strict;
 
-    print STDERR "Processing $ARGV\tinto Lexicon$ID.hs ...\n";
+    @Roots = sort keys %{$Lexicon};
 
-    open L, '>', "Lexicon$ID.hs" or die 'Do not redirect the standard output! Dying';
+    if ($section) {
 
-    select L;
+        my $module = "Chapter$ID";
 
-    $IDX = 0;
+        die "Directory $module in way, quitting ...\n" if -e $module and not exists $options->{'f'};
 
-    my @data = keys %{$Lexicon};
+        mkdir $module;
 
-    my $listing = $cluster && @data ? "include section" : "listing \"Lexicon's properties\"";
+        print STDERR "Processing $ARGV\t$module.hs ...\n";
 
-    print << "    return;";
+        open C, '>', "$module.hs" or die 'Do not redirect the standard output! Dying';
 
-module Elixir.Data.$DIR.Lexicon$ID where
+        beginChapter($module);
+
+        closeChapter($module);
+    }
+    else {
+
+        my $module = "Lexicon$ID";
+
+        print STDERR "Processing $ARGV\t$module.hs ...\n";
+
+        open C, '>', "$module.hs" or die 'Do not redirect the standard output! Dying';
+
+        select C;
+
+        indexLexicon() if $indexed;
+
+        $ClusterIDX = 0;
+
+        my $listing = $cluster ? "include section" : "listing \"Lexicon's properties\"";
+
+        print << "    return;";
+
+module Elixir.Data.$DIR.$module where
 
 import Elixir.Lexicon
 
@@ -145,87 +163,231 @@ version = revised "\$Revision: \$"
 lexicon = $listing
 
     return;
-}
 
+        if ($cluster) {
 
-sub closeLexicon {
+            beginCluster();
+        }
+        else {
 
-    close L;
+            print "\n";
+        }
 
-    print STDERR "\n";
-}
+        while (@Roots) {
 
-
-sub beginChapter {
-
-}
-
-
-sub closeChapter {
-
-}
-
-
-
-
-
-sub printLexicon {
-
-    my @data = sort keys %{$Lexicon};
-
-    if ($cluster and @data) {
-
-        beginSection();
-
-        foreach my $root (@data) {
+            my $root = shift @Roots;
 
             my @entries = defined $include ? grep { includeEntry($_) } @{$Lexicon->{$root}}
                                                                      : @{$Lexicon->{$root}};
 
             next unless @entries;
 
-            if ($CNT and @entries + $CNT > $cluster) {
+            if ($cluster) {
 
-                closeSection();
+                if ($ClusterCNT and @entries + $ClusterCNT > $cluster) {
 
-                beginSection();
+                    closeCluster();
+
+                    beginCluster();
+                }
+
+                $ClusterCNT += @entries;
             }
 
-            $CNT += @entries;
-
             print showNest($root, @entries);
         }
 
-        closeSection();
+        if ($cluster) {
 
-        print "\nsection = [ " . (join ",\n" . " " x 12, map { "cluster_$_" } 1 .. $IDX) . " ]\n\n";
-    }
-    else {
+            closeCluster();
 
-        foreach my $root (@data) {
+            my @idx = 1 .. $ClusterIDX;
 
-            my @entries = defined $include ? grep { includeEntry($_) } @{$Lexicon->{$root}}
-                                                                     : @{$Lexicon->{$root}};
-
-            print showNest($root, @entries);
+            print "\nsection = [ " . (join ",\n" . " " x 12, map { "cluster_$_" } @idx) . " ]\n\n";
         }
+        else {
+
+            print "\nsection = [ lexicon ]\n\n";
+        }
+
+        return unless keys %{$Index};
+
+        print STDERR (keys %{$Index}) . "\n";
+
+        print "\n";
+
+        print showTwig($Index->{$_}, $_) foreach sort keys %{$Index};
     }
-
-    return unless keys %{$Index};
-
-    print STDERR (keys %{$Index}) . "\n";
-
-    print "\n";
-
-    print showTwig($Index->{$_}, $_) foreach sort keys %{$Index};
 }
 
 
-sub beginSection {
+sub closeLexicon {
 
-    $CNT = 0;
+    close C;
 
-    my $idx = sprintf "%-3d", ++$IDX;
+    print STDERR "\n";
+}
+
+
+sub beginChapter ($) {
+
+    my $module = $_[0];
+
+    $SectionIDX = '00';
+    $ClusterIDX = 0;
+    $SectionCNT = 0;
+
+    select C;
+
+    print << "    return;";
+
+module Elixir.Data.$DIR.$module where
+
+import Elixir.Lexicon
+
+    return;
+
+    while (@Roots) {
+
+        my $root = shift @Roots;
+
+        my @entries = defined $include ? grep { includeEntry($_) } @{$Lexicon->{$root}}
+                                                                 : @{$Lexicon->{$root}};
+
+        next unless @entries;
+
+        beginSection($module) unless $SectionCNT;
+
+        if ($cluster) {
+
+            if ($ClusterCNT and @entries + $ClusterCNT > $cluster) {
+
+                closeCluster();
+
+                if ($SectionCNT >= $section) {
+
+                    unshift @Roots, $root;
+
+                    closeSection();
+
+                    next;
+                }
+
+                beginCluster();
+            }
+
+            $ClusterCNT += @entries;
+        }
+        else {
+
+            if ($SectionCNT >= $section) {
+
+                closeSection();
+
+                next;
+            }
+
+            $SectionCNT++;
+        }
+
+        print showNest($root, @entries);
+    }
+
+    closeSection() if $SectionCNT;
+}
+
+
+sub closeChapter($) {
+
+    my $module = $_[0];
+
+    select C;
+
+    print map { "import Elixir.Data.$DIR.$module.Section$_ as S$_\n" } '01' .. $SectionIDX;
+
+    print << "    return;";
+
+
+version = revised "\$Revision: \$"
+
+lexicon = (concat . concat) chapter
+
+
+    return;
+
+    print "chapter = [ " . (join ",\n" . " " x 12, map { "S$_.section" } '01' .. $SectionIDX) . " ]\n\n";
+}
+
+
+sub beginSection ($) {
+
+    my $module = $_[0];
+
+    $SectionCNT = 0;
+
+    $SectionIDX++;
+
+    print STDERR "\t\t\t\t\t$module.Section$SectionIDX.hs\n";
+
+    open S, '>', "$module/Section$SectionIDX.hs" or die;
+
+    select S;
+
+    my $listing = $cluster ? "include section" : "listing \"Lexicon's properties\"";
+
+
+    print << "    return;";
+
+module Elixir.Data.$DIR.$module.Section$SectionIDX where
+
+import Elixir.Lexicon
+
+
+version = revised "\$Revision: \$"
+
+lexicon = $listing
+
+    return;
+
+    if ($cluster) {
+
+        beginCluster();
+    }
+    else {
+
+        print "\n";
+    }
+}
+
+
+sub closeSection {
+
+    closeCluster() if $cluster;
+
+    if ($cluster) {
+
+        my @idx = $ClusterIDX - $SectionCNT + 1 .. $ClusterIDX;
+
+        print "\nsection = [ " . (join ",\n" . " " x 12, map { "cluster_$_" } @idx) . " ]\n\n";
+    }
+    else {
+
+        print "\nsection = [ lexicon ]\n\n";
+    }
+
+    $SectionCNT = 0;
+
+    close S;
+}
+
+
+sub beginCluster {
+
+    $ClusterCNT = 0;
+
+    $SectionCNT++;
+
+    my $idx = sprintf "%-3d", ++$ClusterIDX;
 
     print << "    return;";
 
@@ -236,7 +398,7 @@ cluster_$idx = listing "Lexicon's properties"
 }
 
 
-sub closeSection {
+sub closeCluster {
 
     print << "    return;" if exists $options->{'t'};
 
@@ -261,6 +423,8 @@ sub showNest ($@) {
 
 
 sub includeEntry ($) {
+
+    die "Here" unless defined $_[0];
 
     my $orig = $_[0]->{'orig'};
 
@@ -376,7 +540,7 @@ sub showEntry ($) {
 
     return sprintf "%s    %-25s %-9s %-22s %s",
 
-                   (exists $options->{'y'} ? '' :
+                   (! exists $options->{'y'} ? '' :
 
                             (join "\n", map { '    -- ' . escape($_) } @{$entry->{'lines'}}) . "\n\n"),
 
