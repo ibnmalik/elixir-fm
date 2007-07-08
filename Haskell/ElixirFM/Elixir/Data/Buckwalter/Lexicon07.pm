@@ -854,7 +854,9 @@ $Lexicon = {
         'xA}f    xA}if   Nall    afraid;fearful     [[xA}if/ADJ]]',
         'xwf     xuw~af  N       afraid;fearful'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_huwwaf' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FA\'iL',
@@ -1153,7 +1155,8 @@ $Lexicon = {
       'patterns' => {
         '_hAwiy' => [
           'FACI'
-        ]
+        ],
+        '_hAw' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -1189,7 +1192,8 @@ $Lexicon = {
       'patterns' => {
         'mu_hAwiy' => [
           'MuFACI'
-        ]
+        ],
+        'mu_hAw' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -1422,7 +1426,9 @@ $Lexicon = {
         'xwry    xuwriy  N0      priest',
         'xwArn   xawArin Nap     priests'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hawArin' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KuRDI',
@@ -1883,7 +1889,9 @@ $Lexicon = {
         ';; xuwfuw_1',
         'xwfw    xuwfw   N0      Cheops'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_huwfw' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KuRDU',
@@ -2040,7 +2048,11 @@ $Lexicon = {
         'xzAn    xizAn   NapAt   treasury;vault;coffer',
         'xzA}n   xazA}in Ndip    vaults;lockers;coffers'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hazA\'in' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL |< aT',
@@ -2868,7 +2880,11 @@ $Lexicon = {
         'xlyq    xaliyq  Nap     creation;nature;trait',
         'xlA}q   xalA}iq Ndip    creatures'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_halA\'iq' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -2897,7 +2913,9 @@ $Lexicon = {
         '>xlAqy  >axolAqiy~      NapAt   morality;ethics     [[>axolAqiy~/NOUN]]',
         'AxlAqy  >axolAqiy~      NapAt   morality;ethics     [[>axolAqiy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a_hlAqiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'HaFCAL |< Iy',
@@ -5714,6 +5732,7 @@ $Lexicon = {
         'AxAyr   >axAyir Ndip    better;superior'
       ],
       'patterns' => {
+        '_hiyrA' => [],
         '\'a_hAyir' => [
           'HaFACiL'
         ],
@@ -5984,7 +6003,9 @@ $Lexicon = {
         'mxtAr   muxotAr Nall    mukhtar (village chief)',
         'mxAtyr  maxAtyr Ndip    mukhtars (village chiefs)'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ma_hAtyr' => []
+      },
       'index' => '4',
       'entity' => 'noun',
       'morphs' => 'MuFtAL',
@@ -6570,6 +6591,7 @@ $Lexicon = {
         'xArj    xArij   FW-Wa-o outside;out of     [[xArij/PREP]]'
       ],
       'patterns' => {
+        '_hAri^gi' => [],
         '_hAri^g' => [
           'FACiL'
         ]
@@ -8258,7 +8280,8 @@ $Lexicon = {
       'patterns' => {
         '_hAliy' => [
           'FACI'
-        ]
+        ],
+        '_hAl' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -8437,7 +8460,11 @@ $Lexicon = {
         'xmyl    xamiyl  Nap     thicket;brush',
         'xmA}l   xamA}il Ndip    thicket;brush'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hamA\'il' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -9125,7 +9152,9 @@ $Lexicon = {
       'entry' => '_huwriy',
       'form' => '_huwriy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '_hawArin' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FUCI',
@@ -10039,7 +10068,8 @@ $Lexicon = {
       'patterns' => {
         'mu_hziy' => [
           'MuFCI'
-        ]
+        ],
+        'mu_hz' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -11358,7 +11388,8 @@ $Lexicon = {
         ],
         '_ha.taw' => [
           'FaCaL'
-        ]
+        ],
+        '_hu.tA' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -12527,6 +12558,7 @@ $Lexicon = {
         'xnAvA   xanAvA  Nhy     hermaphrodites'
       ],
       'patterns' => {
+        '_hun_tA' => [],
         '_hinA_t' => [
           'FiCAL'
         ],
@@ -12535,7 +12567,8 @@ $Lexicon = {
         ],
         '_hun_tY' => [
           'FuCLY'
-        ]
+        ],
+        '_hanA_tA' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -13408,8 +13441,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'i_htibA\'' => [
-          'IFtiCAL',
-          'IFtiCA\''
+          'IFtiCAL'
         ]
       },
       'index' => '1',
@@ -13436,7 +13468,9 @@ $Lexicon = {
         'xby}    xabiy}  Napdu   secret;cache',
         'xbAyA   xabAyA  N0_Nhy  hidden;natural resources'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_habAyY' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -13475,6 +13509,8 @@ $Lexicon = {
         'mxAb}   maxAbi} Ndip    hide-outs;shelters'
       ],
       'patterns' => {
+        'ma_hba' => [],
+        'ma_hba\'A' => [],
         'ma_hAbi\'' => [
           'MaFACiL'
         ]
@@ -13595,7 +13631,9 @@ $Lexicon = {
         'mxb>    muxab~a>        Napdu   hidden;secret',
         'mxb     muxab~a N-|t    hidden;secrets'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu_habba' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFaCCaL |< aT',
@@ -14082,7 +14120,9 @@ $Lexicon = {
         'xlAl    xilAla  FW-Wa-a during;through     [[xilAla/PREP]]',
         'xlAl    xilAli  FW-Wa-i during;through     [[xilAli/PREP]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hilAli' => []
+      },
       'index' => '1',
       'entity' => 'prep',
       'morphs' => 'FiCAL |<< "a"',
@@ -14177,6 +14217,7 @@ $Lexicon = {
         'xlAn    xul~An  N       friends'
       ],
       'patterns' => {
+        '\'a_hillA\'' => [],
         '_hullAn' => [
           'FuCLAn'
         ]
@@ -16585,7 +16626,9 @@ $Lexicon = {
         '>xSA}   >axiS~A}        Nhy     friends;confidants',
         'AxSA}   >axiS~A}        Nhy     friends;confidants'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a_hi.s.sA\'' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -16612,7 +16655,11 @@ $Lexicon = {
         'xSyS    xaSiyS  Napdu   peculiarity;feature',
         'xSA}S   xaSA}iS Ndip    attributes;features'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_ha.sA\'i.s' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -16930,7 +16977,9 @@ $Lexicon = {
         'xAS     xAS~    Nap     elite',
         'bxASp   bixAS~ap        FW-Wa   especially     [[bixAS~ap/ADV]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'bi_hA.s.saT' => []
+      },
       'index' => '1',
       'entity' => 'adv',
       'morphs' => 'FACL |< aT',
@@ -18407,7 +18456,11 @@ $Lexicon = {
         'xdyE    xadiyE  Nap     deception;lie',
         'xdA}E   xadA}iE Ndip    deceptions'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hadA\'i`' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -19402,7 +19455,11 @@ $Lexicon = {
         'xmyr    xamiyr  Nap     enzyme;yeast',
         'xmA}r   xamA}ir Ndip    enzymes;yeasts'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hamA\'ir' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -20798,7 +20855,9 @@ $Lexicon = {
         'xdywy   xudayowiy~      Nall    khedive     [[xudayowiy~/ADJ]]',
         'xdywy   xidiywiy~       Nall    khedivial     [[xidiywiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hidiywiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FuCayL |< Iy',
@@ -21392,6 +21451,7 @@ $Lexicon = {
         'xA$y    xA$iy   NapAt   timid;anxious'
       ],
       'patterns' => {
+        '_hA^s' => [],
         '_hA^siy' => [
           'FACI'
         ]
@@ -22253,7 +22313,8 @@ $Lexicon = {
       'patterns' => {
         '_hu.dar' => [
           'FuCaL'
-        ]
+        ],
+        '_ha.draw' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -23081,7 +23142,11 @@ $Lexicon = {
         'xryT    xariyT  Napdu   map;chart',
         'xrA}T   xarA}iT Ndip    maps;charts'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_harA\'i.t' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -23093,6 +23158,25 @@ $Lexicon = {
         'charts'
       ],
       'orig' => 'xariyTap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harA\'i.t',
+      'form' => '_harA\'i.tiyy',
+      'lines' => [
+        ';; xarA}iTiy~_1',
+        'xrA}Ty  xarA}iTiy~      Nall    cartographic     [[xarA}iTiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCA\'iL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'cartographic'
+      ],
+      'orig' => 'xarA}iTiy~',
       'prefix' => ''
     },
     {
@@ -23649,7 +23733,8 @@ $Lexicon = {
       'patterns' => {
         '_hAliy' => [
           'FACI'
-        ]
+        ],
+        '_hAl' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -24809,6 +24894,7 @@ $Lexicon = {
         'mstx*y  musotaxo*iy     NapAt   submissive;obedient'
       ],
       'patterns' => {
+        'musta_h_d' => [],
         'musta_h_diy' => [
           'MustaFCI'
         ]
@@ -25860,7 +25946,11 @@ $Lexicon = {
         'xzAm    xizAm   Napdu   nose ring',
         'xzA}m   xazA}im Ndip    nose rings'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hazA\'im' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -26360,7 +26450,9 @@ $Lexicon = {
         '>xs}    >axosa} Nayn    most despicable;meanest',
         'Axs}    >axosa} Nayn    most despicable;meanest'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a_hsa\'A' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -26754,8 +26846,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'isti_h_dA\'' => [
-          'IstiFCAL',
-          'IstiFCA\''
+          'IstiFCAL'
         ]
       },
       'index' => '1',
@@ -27253,8 +27344,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'i_hfA\'' => [
-          'HiFCAL',
-          'HiFCA\''
+          'HiFCAL'
         ]
       },
       'index' => '1',
@@ -27293,8 +27383,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'i_htifA\'' => [
-          'IFtiCAL',
-          'IFtiCA\''
+          'IFtiCAL'
         ]
       },
       'index' => '1',
@@ -28018,27 +28107,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_h r \' .t' => [
-    {
-      'types' => {},
-      'entry' => '_harA\'i.t',
-      'form' => '_harA\'i.tiyy',
-      'lines' => [
-        ';; xarA}iTiy~_1',
-        'xrA}Ty  xarA}iTiy~      Nall    cartographic     [[xarA}iTiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KaRADiS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'cartographic'
-      ],
-      'orig' => 'xarA}iTiy~',
-      'prefix' => ''
-    }
-  ],
   '_ha.t.tIf' => [
     {
       'types' => {
@@ -28289,7 +28357,11 @@ $Lexicon = {
         'xrAb    xarAb   NapAt   ruins',
         'xrA}b   xarA}ib Ndip    ruins'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_harA\'ib' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCAL |< aT',
@@ -28534,7 +28606,8 @@ $Lexicon = {
       'patterns' => {
         '_hanAfis' => [
           'KaRADiS'
-        ]
+        ],
+        '_hunfusA\'' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -28706,12 +28779,11 @@ $Lexicon = {
       ],
       'patterns' => {
         '_ha.tA\'' => [
-          'FaCAL',
-          'FaCA\''
+          'FaCAL'
         ],
+        '_ha.ta\'A' => [],
         '\'a_h.tA\'' => [
-          'HaFCAL',
-          'HaFCA\''
+          'HaFCAL'
         ]
       },
       'index' => '1',
@@ -28746,7 +28818,10 @@ $Lexicon = {
         'xTy     xaTiy~  NapAt   mistake;error;fault',
         'xTAyA   xaTAyA  N0_Nhy  mistakes;errors;faults'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_ha.tiyy' => [],
+        '_ha.tAyY' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -28901,6 +28976,7 @@ $Lexicon = {
         '_hiylAn' => [
           'FILAn'
         ],
+        '_hu\'uwl' => [],
         '\'a_hwAl' => [
           'HaFCAL'
         ]
@@ -29493,7 +29569,8 @@ $Lexicon = {
         ],
         '\'a_hfAf' => [
           'HaFCAL'
-        ]
+        ],
+        '\'a_hiffA\'' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -30422,7 +30499,9 @@ $Lexicon = {
       'entry' => '_hA\'if',
       'form' => '_hA\'if',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '_huwwaf' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FACiL',
@@ -30601,7 +30680,10 @@ $Lexicon = {
       'entry' => '_hA\'in',
       'form' => '_hA\'in',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '_hawn' => [],
+        '_huwwAn' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -31813,7 +31895,8 @@ $Lexicon = {
       'patterns' => {
         '_half' => [
           'FaCL'
-        ]
+        ],
+        '_halfi' => []
       },
       'index' => '1',
       'entity' => 'prep',
@@ -32089,6 +32172,9 @@ $Lexicon = {
       'patterns' => {
         '_hulafA\'' => [
           'FuCaLA\''
+        ],
+        '_halA\'if' => [
+          'FaCA\'iL'
         ]
       },
       'index' => '2',
@@ -32919,7 +33005,9 @@ $Lexicon = {
         'xfy     xufoy   Nap     secrecy',
         'xfyp    xufoyapF        FW-Wa   secretly;covertly    [[xufoyapF/ADV]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hufyaTaN' => []
+      },
       'index' => '1',
       'entity' => 'adv',
       'morphs' => 'FuCL |< aT',
@@ -33062,6 +33150,7 @@ $Lexicon = {
         'xAfy    xAfiy   NapAt   hidden;secret'
       ],
       'patterns' => {
+        '_hAf' => [],
         '_hAfiy' => [
           'FACI'
         ]
@@ -33155,7 +33244,8 @@ $Lexicon = {
       'patterns' => {
         'muta_haffiy' => [
           'MutaFaCCI'
-        ]
+        ],
+        'muta_haff' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -33187,6 +33277,7 @@ $Lexicon = {
         'mxtfy   muxotafiy       NapAt   hidden;secret'
       ],
       'patterns' => {
+        'mu_htaf' => [],
         'mu_htafiy' => [
           'MuFtaCI'
         ]
@@ -33217,7 +33308,9 @@ $Lexicon = {
         'mxtfA   muxotafA        Nhy     hide-out',
         'mxtfy   muxotafay       NAn_Nayn        hide-outs'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu_htafA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFtaCY',
@@ -33334,7 +33427,9 @@ $Lexicon = {
         'xls     xulos   Nap     stealth',
         'xlsp    xulosapF        FW-Wa   surreptitiously;furtively    [[xulosapF/ADV]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hulsaTaN' => []
+      },
       'index' => '1',
       'entity' => 'adv',
       'morphs' => 'FuCL |< aT',
@@ -34116,6 +34211,57 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h .d r m' => [
+    {
+      'types' => {
+        '_ha.dArim' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hi.drim',
+      'form' => '_hi.drim',
+      'lines' => [
+        ';; xiDorim_1',
+        'xDrm    xiDorim Ndu     abundant;generous',
+        'xDArm   xaDArim Ndip    abundant;generous'
+      ],
+      'patterns' => {
+        '_ha.dArim' => [
+          'KaRADiS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KiRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'abundant',
+        'generous'
+      ],
+      'orig' => 'xiDorim',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_ha.dram',
+      'form' => 'mu_ha.dram',
+      'lines' => [
+        ';; muxaDoram_1',
+        'mxDrm   muxaDoram       Nall    senior;middle-aged     [[muxaDoram/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuKaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'senior',
+        'middle-aged'
+      ],
+      'orig' => 'muxaDoram',
+      'prefix' => ''
+    }
+  ],
   '_h s s' => [
     {
       'types' => {
@@ -34338,7 +34484,11 @@ $Lexicon = {
         'xsys    xasiys  N/ap    mean trick;infamy',
         'xsA}s   xasA}is Ndip    mean tricks;infamies'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hasA\'is' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -34377,57 +34527,6 @@ $Lexicon = {
         'reduction'
       ],
       'orig' => 'taxosiys',
-      'prefix' => ''
-    }
-  ],
-  '_h .d r m' => [
-    {
-      'types' => {
-        '_ha.dArim' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hi.drim',
-      'form' => '_hi.drim',
-      'lines' => [
-        ';; xiDorim_1',
-        'xDrm    xiDorim Ndu     abundant;generous',
-        'xDArm   xaDArim Ndip    abundant;generous'
-      ],
-      'patterns' => {
-        '_ha.dArim' => [
-          'KaRADiS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KiRDiS',
-      'suffix' => '',
-      'glosses' => [
-        'abundant',
-        'generous'
-      ],
-      'orig' => 'xiDorim',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_ha.dram',
-      'form' => 'mu_ha.dram',
-      'lines' => [
-        ';; muxaDoram_1',
-        'mxDrm   muxaDoram       Nall    senior;middle-aged     [[muxaDoram/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuKaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'senior',
-        'middle-aged'
-      ],
-      'orig' => 'muxaDoram',
       'prefix' => ''
     }
   ],
@@ -35433,7 +35532,11 @@ $Lexicon = {
         'xryd    xariyd  Nap     virgin',
         'xrA}d   xarA}id Ndip    virgins;unbored pearls'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_harA\'id' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -35459,7 +35562,9 @@ $Lexicon = {
         'xrd     xurod   Nap     scrap metal',
         'xrdw    xurodaw NAt     novelties;scrap metal'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hurdaw' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCL |< aT',
@@ -35510,8 +35615,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '\'i_hlA\'' => [
-          'HiFCAL',
-          'HiFCA\''
+          'HiFCAL'
         ]
       },
       'index' => '1',
@@ -35529,8 +35633,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '\'i_hlA\'' => [
-          'HiFCAL',
-          'HiFCA\''
+          'HiFCAL'
         ]
       },
       'index' => '2',
@@ -35548,8 +35651,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'i_htilA\'' => [
-          'IFtiCAL',
-          'IFtiCA\''
+          'IFtiCAL'
         ]
       },
       'index' => '1',
@@ -35819,7 +35921,8 @@ $Lexicon = {
       'patterns' => {
         '_hu.sY' => [
           'FuCY'
-        ]
+        ],
+        '_hu.sA' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -37192,7 +37295,9 @@ $Lexicon = {
         'xmsyny  xamosiyniy~     NAt     fifties     [[xamosiyniy~/NOUN]]',
         'xmsyny  xamosiyniy~     N-ap    fiftieth;fifties     [[xamosiyniy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hamsiyniyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRDIS |< Iy',
@@ -37436,7 +37541,11 @@ $Lexicon = {
         'xsAr    xasAr   Napdu   loss;damage',
         'xsA}r   xasA}ir Ndip    losses;casualties;damages'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hasA\'ir' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCAL |< aT',
@@ -37832,7 +37941,9 @@ $Lexicon = {
       'entry' => '_huwfuw',
       'form' => '_huwfuw',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '_huwfw' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KuRDU',

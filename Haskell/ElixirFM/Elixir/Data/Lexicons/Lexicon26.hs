@@ -6,10 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = include sections
+lexicon = include section
 
 
-section_1   = listing "Lexicon's properties"
+cluster_1   = listing "Lexicon's properties"
 
 
  |> "h ' l" <| [
@@ -19,8 +19,7 @@ section_1   = listing "Lexicon's properties"
  |> "h .d b" <| [
 
     FaCL |< aT                `noun`    {- haDobap -}          [ "heights", "plateau" ]
-                              `plural`     FiCAL
-                           {- `others`  [ "hi.dAb N" ] -},
+                              `plural`     FiCAL,
 
     FuCayL |< Iy              `adj`     {- huDayobiy~ -}       [ "Hudeibi" ] ]
 
@@ -56,7 +55,7 @@ section_1   = listing "Lexicon's properties"
     IstaFCaL                  `verb`    {- Aisotahojan -}      [ "condemn", "disapprove" ] ]
 
 
-section_2   = listing "Lexicon's properties"
+cluster_2   = listing "Lexicon's properties"
 
 
  |> "h ^g r" <| [
@@ -68,8 +67,7 @@ section_2   = listing "Lexicon's properties"
     FiCL |< Iy                `adj`     {- hijoriy~ -}         [ "Hijri", unwords [ "Hegira", "(", "calendar", ")" ] ],
 
     MaFCaL                    `noun`    {- mahojar -}          [ "overseas", unwords [ "in", "exile" ], "diaspora", unwords [ "places", "emigrated", "to" ] ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "mahA^gir Ndip" ] -},
+                              `plural`     MaFACiL,
 
     TaFCIL                    `noun`    {- tahojiyr -}         [ "deportation", "relocation" ]
                               `plural`     TaFCIL |< At,
@@ -83,12 +81,10 @@ section_2   = listing "Lexicon's properties"
  |> "h ^g s" <| [
 
     FACiL                     `noun`    {- hAjis -}            [ "thought", "notion", "ideas" ]
-                              `plural`     FawACiL
-                           {- `others`  [ "hawA^gis Ndip" ] -},
+                              `plural`     FawACiL,
 
     FACiL                     `noun`    {- hAjis -}            [ "apprehension", "misgivings" ]
-                              `plural`     FawACiL
-                           {- `others`  [ "hawA^gis Ndip" ] -} ]
+                              `plural`     FawACiL ]
 
  |> "h ^g w" <| [
 
@@ -117,7 +113,7 @@ section_2   = listing "Lexicon's properties"
     FiCAL                     `noun`    {- hi$Am -}            [ "Hisham", "Hicham" ] ]
 
 
-section_3   = listing "Lexicon's properties"
+cluster_3   = listing "Lexicon's properties"
 
 
  |> "h b .t" <| [
@@ -129,12 +125,10 @@ section_3   = listing "Lexicon's properties"
     FuCUL                     `noun`    {- hubuwT -}           [ "landing", "descent", "drop", "fall", "downfall" ],
 
     MaFCiL                    `noun`    {- mahobiT -}          [ "airstrip", "runway" ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "mahAbi.t Ndip" ] -},
+                              `plural`     MaFACiL,
 
     MaFCiL                    `noun`    {- mahobiT -}          [ unwords [ "place", "of", "origin" ], unwords [ "places", "of", "origin" ] ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "mahAbi.t Ndip" ] -} ]
+                              `plural`     MaFACiL ]
 
  |> "h b b" <| [
 
@@ -157,7 +151,8 @@ section_3   = listing "Lexicon's properties"
 
     FuCUL                     `noun`    {- huduw' -}           [ "calm", "quiet", "tranquillity" ],
 
-    HaFCaL                    `noun`    {- OahodaO -}          [ unwords [ "more", "/", "most", "quiet" ], unwords [ "calmer", "/", "calmest" ], unwords [ "most", "quiet" ], "calmest" ],
+    HaFCaL                    `noun`    {- OahodaO -}          [ unwords [ "more", "/", "most", "quiet" ], unwords [ "calmer", "/", "calmest" ], unwords [ "most", "quiet" ], "calmest" ]
+                           {- `others`  [ "'ahda'A N-|" ] -},
 
     TaFCiL |< aT              `noun`    {- tahodi}ap -}        [ "calming", "appeasement" ],
 
@@ -166,23 +161,20 @@ section_3   = listing "Lexicon's properties"
     FACiL                     `adj`     {- hAdi} -}            [ "calm", "quiet", "peaceful" ],
 
     HiFCAL                    `noun`    {- IihodA' -}          [ "presenting", "leading" ]
-                              `plural`     HiFCAL |< At
-                              `plural`     HiFCA' |< At ]
+                              `plural`     HiFCAL |< At ]
 
  |> "h d b" <| [
 
     FuCL                      `noun`    {- hudob -}            [ "eyelashes" ]
                               `plural`     FuCuL
-                              `plural`     HaFCAL
-                           {- `others`  [ "hudub Ndu", "'ahdAb N" ] -},
+                              `plural`     HaFCAL,
 
     FuCL                      `noun`    {- hudob -}            [ "fringe", "tassel" ]
                               `plural`     FuCuL
-                              `plural`     HaFCAL
-                           {- `others`  [ "hudub Ndu", "'ahdAb N" ] -} ]
+                              `plural`     HaFCAL ]
 
 
-section_4   = listing "Lexicon's properties"
+cluster_4   = listing "Lexicon's properties"
 
 
  |> "h d d" <| [
@@ -218,12 +210,10 @@ section_4   = listing "Lexicon's properties"
     IstaFCaL                  `verb`    {- Aisotahodaf -}      [ "target", unwords [ "aim", "at" ], unwords [ "be", "aimed", "at" ] ],
 
     FaCaL                     `noun`    {- hadaf -}            [ "goal", "objective", "intention" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'ahdAf N" ] -},
+                              `plural`     HaFCAL,
 
     FaCaL                     `noun`    {- hadaf -}            [ "target" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'ahdAf N" ] -},
+                              `plural`     HaFCAL,
 
     FaCCAL                    `noun`    {- had~Af -}           [ "sharpshooter" ],
 
@@ -237,7 +227,7 @@ section_4   = listing "Lexicon's properties"
     MustaFCaL                 `adj`     {- musotahodaf -}      [ "guided", "targeted" ] ]
 
 
-section_5   = listing "Lexicon's properties"
+cluster_5   = listing "Lexicon's properties"
 
 
  |> "h d m" <| [
@@ -276,8 +266,7 @@ section_5   = listing "Lexicon's properties"
     FuCY                      `noun`    {- hudaY -}            [ "guidance", unwords [ "right", "path" ] ],
 
     FaCIL |< aT               `noun`    {- hadiy~ap -}         [ "gift", "present" ]
-                              `plural`     FaCALY
-                           {- `others`  [ "hadAyY N0_Nhy" ] -},
+                              `plural`     FaCALY,
 
     HaFCY                     `noun`    {- OahodaY -}          [ unwords [ "better", "/", "best", "guided" ], unwords [ "more", "/", "most", "correct" ], unwords [ "best", "guided" ], unwords [ "most", "correct" ] ],
 
@@ -297,7 +286,7 @@ section_5   = listing "Lexicon's properties"
     MaFCIy                    `adj`     {- mahodiy~ -}         [ "presented", "given" ] ]
 
 
-section_6   = listing "Lexicon's properties"
+cluster_6   = listing "Lexicon's properties"
 
 
  |> "h f t" <| [
@@ -329,8 +318,7 @@ section_6   = listing "Lexicon's properties"
 
     MaFCaL |< aT              `noun`    {- maholakap -}        [ unwords [ "dangerous", "situation" ], "peril", "dangers" ]
                               `plural`     MaFACiL
-                              `plural`     MaFCiL |< aT
-                           {- `others`  [ "mahAlik Ndip" ] -},
+                              `plural`     MaFCiL |< aT,
 
     IstiFCAL                  `noun`    {- AisotiholAk -}      [ "consuming", "consumption", "discharge", "amortization" ]
                               `plural`     IstiFCAL |< At,
@@ -340,19 +328,17 @@ section_6   = listing "Lexicon's properties"
     FACiL                     `adj`     {- hAlik -}            [ "mortal", "perishable", "doomed" ]
                               `plural`     FuCAL
                               `plural`     FaCLY
-                              `plural`     FuCCaL
-                           {- `others`  [ "hulAk N", "halkY N0", "hullak N" ] -},
+                              `plural`     FuCCaL,
 
     FACiL                     `noun`    {- hAlik -}            [ "lost", unwords [ "bad", "debt" ], "losses" ]
-                              `plural`     FawACiL
-                           {- `others`  [ "hawAlik Ndip" ] -},
+                              `plural`     FawACiL,
 
     MutaFACiL                 `noun`    {- mutahAlik -}        [ "exhausted", unwords [ "broken", "down" ] ],
 
     MustaFCiL                 `noun`    {- musotaholik -}      [ "consumer" ] ]
 
 
-section_7   = listing "Lexicon's properties"
+cluster_7   = listing "Lexicon's properties"
 
 
  |> "h l l" <| [
@@ -369,8 +355,7 @@ section_7   = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- hilAl -}            [ "crescent", unwords [ "new", "moon" ] ]
                               `plural`     HaFACIL
-                              `plural`     HaFiCL |< aT
-                           {- `others`  [ "'ahAliyl Ndip" ] -},
+                              `plural`     HaFiCL |< aT,
 
     FiCAL                     `noun`    {- hilAl -}            [ "Crescent" ],
 
@@ -405,8 +390,7 @@ section_7   = listing "Lexicon's properties"
  |> "h m ^s" <| [
 
     FACiL                     `noun`    {- hAmi$ -}            [ "margin", "periphery", "sideline" ]
-                              `plural`     FawACiL
-                           {- `others`  [ "hawAmi^s Ndip" ] -},
+                              `plural`     FawACiL,
 
     TaFCIL                    `noun`    {- tahomiy$ -}         [ "sidelining", "marginalizing", "excluding" ]
                               `plural`     TaFCIL |< At,
@@ -418,7 +402,7 @@ section_7   = listing "Lexicon's properties"
     FuCUL                     `noun`    {- humuwd -}           [ "extinction", "subsiding", "fading" ] ]
 
 
-section_8   = listing "Lexicon's properties"
+cluster_8   = listing "Lexicon's properties"
 
 
  |> "h m k" <| [
@@ -448,24 +432,20 @@ section_8   = listing "Lexicon's properties"
     IFtaCL                    `verb`    {- Aihotam~ -}         [ unwords [ "be", "concerned" ], unwords [ "be", "interested" ] ],
 
     FaCL                      `noun`    {- ham~ -}             [ "concern", "interest" ]
-                              `plural`     FuCUL
-                           {- `others`  [ "humuwm N" ] -},
+                              `plural`     FuCUL,
 
     FiCL |< aT                `noun`    {- him~ap -}           [ "ambition", "zeal", "aspirations" ]
-                              `plural`     FiCaL
-                           {- `others`  [ "himam N" ] -},
+                              `plural`     FiCaL,
 
     FuCAL                     `noun`    {- humAm -}            [ "magnanimous", "heroic" ]
-                              `plural`     FiCAL
-                           {- `others`  [ "himAm N" ] -},
+                              `plural`     FiCAL,
 
     HaFaCL                    `noun`    {- Oaham~ -}           [ unwords [ "more", "/", "most", "important" ] ],
 
     HaFaCL |< Iy |< aT        `noun`    {- Oaham~iy~ap -}      [ "importance", "significance" ],
 
     MaFaCL |< aT              `noun`    {- maham~ap -}         [ "task", "assignment", "mission" ]
-                              `plural`     MaFACL
-                           {- `others`  [ "mahAmm Ndip" ] -},
+                              `plural`     MaFACL,
 
     IFtiCAL                   `noun`    {- AihotimAm -}        [ "interest", "concern", "care", "attention" ]
                               `plural`     IFtiCAL |< At,
@@ -483,7 +463,7 @@ section_8   = listing "Lexicon's properties"
                               `plural`     MuFtaCL |< At ]
 
 
-section_9   = listing "Lexicon's properties"
+cluster_9   = listing "Lexicon's properties"
 
 
  |> "h m y" <| [
@@ -504,8 +484,7 @@ section_9   = listing "Lexicon's properties"
 
     TaFCiL |< aT              `noun`    {- tahoni}ap -}        [ "congratulations", "greetings" ]
                               `plural`     TaFACI
-                              `plural`     TaFACiL
-                           {- `others`  [ "tahAniy N0_Nh", "tahAni' Ndip" ] -},
+                              `plural`     TaFACiL,
 
     FACI                      `noun`    {- hAniy -}            [ "Hani" ],
 
@@ -513,15 +492,15 @@ section_9   = listing "Lexicon's properties"
 
  |> "h n .g r" <| [
 
-    KuRDAS |< Iy              `adj`     {- hunogAriy~ -}       [ "Hungarian" ] ]
+    KuRDAS |< Iy              `adj`     {- hunogAriy~ -}       [ "Hungarian" ]
+                           {- `others`  [ "hun^gAriyy Nall" ] -} ]
 
  |> "h n d" <| [
 
     FiCL                      `noun`    {- hinod -}            [ "India" ],
 
     FiCL |< Iy                `adj`     {- hinodiy~ -}         [ "Indian" ]
-                              `plural`     FuCUL
-                           {- `others`  [ "hunuwd N" ] -},
+                              `plural`     FuCUL,
 
     MuFaCCaL                  `noun`    {- muhan~ad -}         [ "Muhannad", "Mohannad" ],
 
@@ -543,20 +522,20 @@ section_9   = listing "Lexicon's properties"
 
  |> "h n k" <| [
 
-    FuCAL |<< "a"             `adv`     {- hunAka -}           [ "there", unwords [ "there", "(", "is", "/", "are", ")" ] ] ]
+    FuCAL |<< "a"             `adv`     {- hunAka -}           [ "there", unwords [ "there", "(", "is", "/", "are", ")" ] ]
+                           {- `others`  [ "hunAlika FW-Wa" ] -} ]
 
  |> "h n m" <| [
 
     FACiL                     `noun`    {- hAnim -}            [ "lady", "madame", "Lady" ]
-                              `plural`     FawACiL
-                           {- `others`  [ "hawAnim Ndip" ] -} ]
+                              `plural`     FawACiL ]
 
  |> "h n n" <| [
 
     FuCL |<< "a"              `pron`    {- hun~a -}            [ "they" ] ]
 
 
-section_10  = listing "Lexicon's properties"
+cluster_10  = listing "Lexicon's properties"
 
 
  |> "h n r y" <| [
@@ -622,7 +601,7 @@ section_10  = listing "Lexicon's properties"
                               `plural`     HaFCAL ]
 
 
-section_11  = listing "Lexicon's properties"
+cluster_11  = listing "Lexicon's properties"
 
 
  |> "h r n" <| [
@@ -659,12 +638,10 @@ section_11  = listing "Lexicon's properties"
                               `plural`     FuCAL |< At,
 
     FACiL                     `noun`    {- hAtif -}            [ "telephone" ]
-                              `plural`     FawACiL
-                           {- `others`  [ "hawAtif Ndip" ] -},
+                              `plural`     FawACiL,
 
     FACiL                     `noun`    {- hAtif -}            [ "shouting", "calling", "shouts", "exclamations" ]
-                              `plural`     FawACiL
-                           {- `others`  [ "hawAtif Ndip" ] -},
+                              `plural`     FawACiL,
 
     FACiL |< Iy               `adj`     {- hAtifiy~ -}         [ "telephone", "telephonic", unwords [ "by", "phone" ] ] ]
 
@@ -679,9 +656,7 @@ section_11  = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- hawA' -}            [ "air", "atmosphere", "climate" ]
                               `plural`     HaFCAL
-                              `plural`     HaFCA'
-                              `plural`     HaFCI |< aT
-                           {- `others`  [ "'ahwA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFCI |< aT,
 
     FaCAL |< Iy               `noun`    {- hawA}iy~ -}         [ "antenna" ],
 
@@ -704,7 +679,7 @@ section_11  = listing "Lexicon's properties"
     KuRDI                     `noun`    {- huwbiy -}           [ "Hobby" ] ]
 
 
-section_12  = listing "Lexicon's properties"
+cluster_12  = listing "Lexicon's properties"
 
 
  |> "h w d" <| [
@@ -736,12 +711,11 @@ section_12  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- hawol -}            [ "fright", "shock" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'ahwAl N" ] -},
+                           {- `others`  [ "hu'uwl N" ] -},
 
     TaFCIL                    `noun`    {- tahowiyl -}         [ "intimidation", "frightening", "embellishments" ]
                               `plural`     TaFACIL
-                              `plural`     TaFCIL |< At
-                           {- `others`  [ "tahAwiyl Ndip" ] -},
+                              `plural`     TaFCIL |< At,
 
     FA'iL                     `adj`     {- hA}il -}            [ "huge", "formidable", "appalling" ],
 
@@ -765,7 +739,7 @@ section_12  = listing "Lexicon's properties"
     MuFIL                     `adj`     {- muhiyn -}           [ "insulting", "contemptuous" ] ]
 
 
-section_13  = listing "Lexicon's properties"
+cluster_13  = listing "Lexicon's properties"
 
 
  |> "h w r" <| [
@@ -793,8 +767,7 @@ section_13  = listing "Lexicon's properties"
     FU                        `noun`    {- huw -}              [ unwords [ "Ho", "(", "in", "\"Ho", "Chi", "Minh\"", ")" ] ],
 
     FUL |< aT                 `noun`    {- huw~ap -}           [ "abyss", "chasm" ]
-                              `plural`     FuCY
-                           {- `others`  [ "huwY N0" ] -} ]
+                              `plural`     FuCY ]
 
  |> "h w y" <| [
 
@@ -806,13 +779,11 @@ section_13  = listing "Lexicon's properties"
     FaCY                      `noun`    {- hawaY -}            [ "affection", "inclination", "preference", "desires", "wishes" ]
                               `plural`     FaCA
                               `plural`     HaFCA'
-                              `plural`     FaCALY
-                           {- `others`  [ "hawA Nhy", "'ahwA' Nh N0_Nh Nhy", "hawAyY N0_Nhy" ] -},
+                              `plural`     FaCALY,
 
     FaCA'                     `noun`    {- hawA' -}            [ "air", "atmosphere", "climate" ]
                               `plural`     HaFCA'
-                              `plural`     HaFCI |< aT
-                           {- `others`  [ "'ahwA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFCI |< aT,
 
     FaCA' |< Iy               `noun`    {- hawA}iy~ -}         [ "antenna" ]
                               `plural`     FawA'IL |< At,
@@ -832,7 +803,7 @@ section_13  = listing "Lexicon's properties"
     HaFCAL                    `noun`    {- OahowAz -}          [ "Ahwaz" ] ]
 
 
-section_14  = listing "Lexicon's properties"
+cluster_14  = listing "Lexicon's properties"
 
 
  |> "h y '" <| [
@@ -843,8 +814,7 @@ section_14  = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- hayo}ap -}          [ "organization", "agency" ]
                               `plural`     FaCL |< At
-                              `plural`     FaC
-                           {- `others`  [ "hay N-|t" ] -},
+                              `plural`     FaC,
 
     TaFCiL |< aT              `noun`    {- tahoyi}ap -}        [ "preparation", "mobilization" ] ]
 
@@ -878,8 +848,7 @@ section_14  = listing "Lexicon's properties"
  |> "h y k l" <| [
 
     KaRDaS                    `noun`    {- hayokal -}          [ "framework", "structure", "skeleton" ]
-                              `plural`     KaRADiS
-                           {- `others`  [ "hayAkil Ndip" ] -},
+                              `plural`     KaRADiS,
 
     KaRDaS |< Iy              `adj`     {- hayokaliy~ -}       [ "structural", "skeletal", "framework" ],
 
@@ -896,7 +865,7 @@ section_14  = listing "Lexicon's properties"
     FIL                       `noun`    {- hiyol -}            [ "Hill" ] ]
 
 
-section_15  = listing "Lexicon's properties"
+cluster_15  = listing "Lexicon's properties"
 
 
  |> "h y m n" <| [
@@ -926,14 +895,12 @@ section_15  = listing "Lexicon's properties"
  |> "h z '" <| [
 
     FaCL                      `noun`    {- hazo' -}            [ "derision", "contempt" ]
-                              `plural`     FuCL
-                           {- `others`  [ "huz' N0F_Nh Nh Nhy" ] -} ]
+                              `plural`     FuCL ]
 
  |> "h z l" <| [
 
     MaFCaL |< aT              `noun`    {- mahozalap -}        [ "comedy", "farce" ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "mahAzil Ndip" ] -} ]
+                              `plural`     MaFACiL ]
 
  |> "h z m" <| [
 
@@ -944,7 +911,8 @@ section_15  = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- haziym -}           [ "fleeing", "fugitive" ],
 
-    FaCIL |< aT               `noun`    {- haziymap -}         [ "defeat" ] ]
+    FaCIL |< aT               `noun`    {- haziymap -}         [ "defeat" ]
+                              `plural`     FaCA'iL ]
 
  |> "h z z" <| [
 
@@ -969,7 +937,7 @@ section_15  = listing "Lexicon's properties"
     Identity                  `noun`    {- hA -}               [ "look", "now" ] ]
 
 
-section_16  = listing "Lexicon's properties"
+cluster_16  = listing "Lexicon's properties"
 
 
  |> "hAfAnA" <| [
@@ -1053,7 +1021,7 @@ section_16  = listing "Lexicon's properties"
     Identity                  `noun`    {- huwlAnodA -}        [ "Holland" ] ]
 
 
-section_17  = listing "Lexicon's properties"
+cluster_17  = listing "Lexicon's properties"
 
 
  |> "hUlIwUd" <| [
@@ -1135,21 +1103,21 @@ section_17  = listing "Lexicon's properties"
     Identity |<< "a"          `pron`    {- mAhuwa -}           [ "what" ] ]
 
 
-sections = [ section_1,
-             section_2,
-             section_3,
-             section_4,
-             section_5,
-             section_6,
-             section_7,
-             section_8,
-             section_9,
-             section_10,
-             section_11,
-             section_12,
-             section_13,
-             section_14,
-             section_15,
-             section_16,
-             section_17 ]
+section = [ cluster_1,
+            cluster_2,
+            cluster_3,
+            cluster_4,
+            cluster_5,
+            cluster_6,
+            cluster_7,
+            cluster_8,
+            cluster_9,
+            cluster_10,
+            cluster_11,
+            cluster_12,
+            cluster_13,
+            cluster_14,
+            cluster_15,
+            cluster_16,
+            cluster_17 ]
 

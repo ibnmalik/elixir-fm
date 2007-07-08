@@ -201,14 +201,32 @@ sub storeEntry ($$) {
         foreach my $form (keys %{$Clone->{'types'}}) {
 
             my $match = $form;
+            my $throw = {};
 
             $match =~ s/(?<!^)uw(?![aiuAIUY])/U/g;
             $match =~ s/(?<!^)iy(?![aiuAIUY])/I/g;
 
             for (my $i = 0; $i < @template; $i++) {
 
-                push @{$Clone->{'patterns'}->{$form}}, $pAttErns[$i] if $template[$i] eq $match;
+                if ($template[$i] eq $match) {
+
+                    unless (@toor > 3) {
+
+                        my $ptrn = $pAttErns[$i];
+
+                        $ptrn =~ s/C/\'/g if $toor[1] eq '\'';
+                        $ptrn =~ s/L/\'/g if $toor[2] eq '\'';
+
+                        $throw->{$ptrn}++ if $ptrn ne $pAttErns[$i];
+                    }
+
+                    push @{$Clone->{'patterns'}->{$form}}, $pAttErns[$i];
+                }
             }
+
+            @{$Clone->{'patterns'}->{$form}} = grep { not exists $throw->{$_} } @{$Clone->{'patterns'}->{$form}}
+
+                unless $Clone->{'entity'} eq 'verb' and not exists $Clone->{'patterns'}->{$form};
         }
     }
 

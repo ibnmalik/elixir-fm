@@ -401,7 +401,9 @@ $Lexicon = {
         'tAzh    tAzah   N       fresh;tender',
         'tAz     tAz     Nap     fresh;tender'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tAz' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACaL',
@@ -662,7 +664,11 @@ $Lexicon = {
         'tryk    tariyk  NapAt   spinster',
         'trA}k   tarA}ik Ndip    spinsters'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tarA\'ik' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -1023,7 +1029,11 @@ $Lexicon = {
         'twgw    tuwgw   N0      Togo',
         'twd     tuwd    Nprop   Tod'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tuw.gw' => [],
+        'tuwd' => [],
+        'tuw^gw' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KuRDU',
@@ -1910,7 +1920,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'tanAniyn' => [
-          'FaCACIL'
+          'FaCACIL',
+          'FaCALIn'
         ]
       },
       'index' => '2',
@@ -3556,7 +3567,9 @@ $Lexicon = {
         ';; tAkosiy~_1',
         'tAksy   tAkosiy~        N/At    taxi     [[tAkosiy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tAksiyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACL |< Iy',
@@ -5257,7 +5270,9 @@ $Lexicon = {
         'tqwY    taqowaY N0      piety',
         'tqwA    taqowA  Nhy     piety'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'taqwA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCLY',
@@ -5948,7 +5963,11 @@ $Lexicon = {
       'entry' => 'tuw^guw',
       'form' => 'tuw^guw',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'tuw.gw' => [],
+        'tuwd' => [],
+        'tuw^gw' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KuRDU',
@@ -6973,6 +6992,7 @@ $Lexicon = {
         'tAly    tAliy   NapAt   following;subsequent     [[tAliy/ADJ]]'
       ],
       'patterns' => {
+        'tAl' => [],
         'tAliy' => [
           'FACI'
         ]
@@ -7010,7 +7030,8 @@ $Lexicon = {
       'patterns' => {
         'mutatAliy' => [
           'MutaFACI'
-        ]
+        ],
+        'mutatAl' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -7500,6 +7521,25 @@ $Lexicon = {
         'adjunct'
       ],
       'orig' => 'tibAE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tabA\'i`',
+      'form' => 'tabA\'i`',
+      'lines' => [
+        ';; tabA}iE_1',
+        'tbA}E   tabA}iE Ndip    partisans'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCA\'iL',
+      'suffix' => '',
+      'glosses' => [
+        'partisans'
+      ],
+      'orig' => 'tabA}iE',
       'prefix' => ''
     },
     {
@@ -10060,7 +10100,9 @@ $Lexicon = {
         'trAbyz  tarAbiyz        NapAt   table',
         'trbyz   tarabiyz        NapAt   table'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tarabiyz' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRADIS |< aT',
@@ -10086,7 +10128,9 @@ $Lexicon = {
         'tAml    tAmil   N0      Tamil',
         'tAmyl   tAmiyl  N0      Tamil'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tAmiyl' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -10369,7 +10413,9 @@ $Lexicon = {
       'entry' => 'taqwY',
       'form' => 'taqwY',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'taqwA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRDY',
@@ -10478,6 +10524,22 @@ $Lexicon = {
         'streams'
       ],
       'orig' => 'tay~Ar',
+      'prefix' => ''
+    }
+  ],
+  't ^s r' => [
+    {
+      'types' => {},
+      'entry' => 'ta^sAriyn',
+      'form' => 'ta^sAriyn',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCALIn',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'ta$Ariyn',
       'prefix' => ''
     }
   ],
@@ -10906,7 +10968,9 @@ $Lexicon = {
         'trgl    turogul N       turtledove',
         'trgl    turogul~        Nap     turtledove'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tur.gull' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KuRDuS',
@@ -11404,27 +11468,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  't b \' `' => [
-    {
-      'types' => {},
-      'entry' => 'tabA\'i`',
-      'form' => 'tabA\'i`',
-      'lines' => [
-        ';; tabA}iE_1',
-        'tbA}E   tabA}iE Ndip    partisans'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRADiS',
-      'suffix' => '',
-      'glosses' => [
-        'partisans'
-      ],
-      'orig' => 'tabA}iE',
-      'prefix' => ''
-    }
-  ],
   'tadru^g' => [
     {
       'types' => {},
@@ -11460,7 +11503,9 @@ $Lexicon = {
         ';; tisoEuwn_1',
         'tsE     tisoE   Numb    ninety'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tis`' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KiRDUS',
@@ -12248,7 +12293,9 @@ $Lexicon = {
         '>tqy    >atoqay NAn_Nayn        more/most pious',
         'Atqy    >atoqay NAn_Nayn        more/most pious'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'atqA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCY',
@@ -12286,7 +12333,8 @@ $Lexicon = {
         ],
         'taqA' => [
           'FaCA'
-        ]
+        ],
+        'tuqA' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -12318,6 +12366,7 @@ $Lexicon = {
         'mtqy    mut~aqiy        NapAt   pious;devout'
       ],
       'patterns' => {
+        'muttaq' => [],
         'muttaqiy' => [
           'MuFtaCI'
         ]
@@ -13131,7 +13180,8 @@ $Lexicon = {
       'patterns' => {
         'ta.ht' => [
           'FaCL'
-        ]
+        ],
+        'ta.hti' => []
       },
       'index' => '1',
       'entity' => 'prep',
@@ -13832,7 +13882,11 @@ $Lexicon = {
         'tmym    tamiym  Napdu   amulet',
         'tmA}m   tamA}im Ndip    amulets'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tamA\'im' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -14801,7 +14855,11 @@ $Lexicon = {
         'tryb    tariyb  Nap     chest;thorax',
         'trA}b   tarA}ib Ndip    chests;thoraxes'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tarA\'ib' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -15077,6 +15135,9 @@ $Lexicon->{'t \' b'}[0]{'glosses'} = $Lexicon->{'t w b'}[6]{'glosses'};
 $Lexicon->{'t q w y'}[0]{'types'} = $Lexicon->{'t q w'}[0]{'types'};
 $Lexicon->{'t q w y'}[0]{'lines'} = $Lexicon->{'t q w'}[0]{'lines'};
 $Lexicon->{'t q w y'}[0]{'glosses'} = $Lexicon->{'t q w'}[0]{'glosses'};
+$Lexicon->{'t ^s r'}[0]{'types'} = $Lexicon->{'t ^s r n'}[2]{'types'};
+$Lexicon->{'t ^s r'}[0]{'lines'} = $Lexicon->{'t ^s r n'}[2]{'lines'};
+$Lexicon->{'t ^s r'}[0]{'glosses'} = $Lexicon->{'t ^s r n'}[2]{'glosses'};
 $Lexicon->{'t \' h'}[0]{'types'} = $Lexicon->{'t y h'}[11]{'types'};
 $Lexicon->{'t \' h'}[0]{'lines'} = $Lexicon->{'t y h'}[11]{'lines'};
 $Lexicon->{'t \' h'}[0]{'glosses'} = $Lexicon->{'t y h'}[11]{'glosses'};

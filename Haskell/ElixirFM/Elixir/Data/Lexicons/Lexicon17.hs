@@ -6,10 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = include sections
+lexicon = include section
 
 
-section_1   = listing "Lexicon's properties"
+cluster_1   = listing "Lexicon's properties"
 
 
  |> ".z b y" <| [
@@ -29,7 +29,7 @@ section_1   = listing "Lexicon's properties"
     MuFaCCaL                  `noun`    {- muZaf~ar -}         [ "Muzaffar" ] ]
 
 
-section_2   = listing "Lexicon's properties"
+cluster_2   = listing "Lexicon's properties"
 
 
  |> ".z h r" <| [
@@ -44,8 +44,7 @@ section_2   = listing "Lexicon's properties"
     FaCL                      `noun`    {- Zahor -}            [ "back", "spine", "midst" ],
 
     FuCL                      `adv`     {- Zuhor -}            [ "noon", "afternoon", unwords [ "in", "the", "afternoon" ], unwords [ "at", "noon" ] ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'a.zhAr N" ] -},
+                              `plural`     HaFCAL,
 
     FaCIL                     `noun`    {- Zahiyr -}           [ "assistant", "partisan" ],
 
@@ -54,8 +53,7 @@ section_2   = listing "Lexicon's properties"
     HaFCaL                    `noun`    {- OaZohar -}          [ unwords [ "clearer", "/", "clearest" ], unwords [ "more", "/", "most", "apparent" ] ],
 
     MaFCaL                    `noun`    {- maZohar -}          [ "appearance", "facade", "features", "manifestations" ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "ma.zAhir Ndip" ] -},
+                              `plural`     MaFACiL,
 
     MuFACaL |< aT             `noun`    {- muZAharap -}        [ "demonstration", "rally" ],
 
@@ -72,13 +70,12 @@ section_2   = listing "Lexicon's properties"
     FACiL                     `noun`    {- ZAhir -}            [ "Zahir" ],
 
     FACiL |< aT               `noun`    {- ZAhirap -}          [ "phenomenon", "phenomena" ]
-                              `plural`     FawACiL
-                           {- `others`  [ ".zawAhir Ndip" ] -},
+                              `plural`     FawACiL,
 
     MutaFACiL                 `noun`    {- mutaZAhir -}        [ "demonstrator" ] ]
 
 
-section_3   = listing "Lexicon's properties"
+cluster_3   = listing "Lexicon's properties"
 
 
  |> ".z l l" <| [
@@ -86,22 +83,18 @@ section_3   = listing "Lexicon's properties"
     FaCL |<< "a"              `noun`    {- Zal~a -}            [ "remain", "continue" ]
                               `plural`     FCaL
                               `plural`     FaCL
-                              `plural`     FaCiL
-                           {- `others`  [ ".zlal IV_C", ".zall PV_V IV_V", ".zalil PV_C" ] -},
+                              `plural`     FaCiL,
 
     FiCL                      `noun`    {- Zil~ -}             [ "patronage", "shelter", "auspices" ]
                               `plural`     FuCUL
                               `plural`     FiCAL
-                              `plural`     HaFCAL
-                           {- `others`  [ ".zuluwl N", ".zilAl N", "'a.zlAl N" ] -},
+                              `plural`     HaFCAL,
 
     MiFaCL |< aT              `noun`    {- miZal~ap -}         [ "umbrella" ]
-                              `plural`     MaFACL
-                           {- `others`  [ "ma.zAll Ndip" ] -},
+                              `plural`     MaFACL,
 
     MiFaCL |< aT              `noun`    {- miZal~ap -}         [ "parachute" ]
-                              `plural`     MaFACL
-                           {- `others`  [ "ma.zAll Ndip" ] -} ]
+                              `plural`     MaFACL ]
 
  |> ".z l m" <| [
 
@@ -116,8 +109,7 @@ section_3   = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- ZAlim -}            [ "oppressor", "tyrant" ]
                               `plural`     FuCCAL
-                              `plural`     FaCaL |< aT
-                           {- `others`  [ ".zullAm N" ] -},
+                              `plural`     FaCaL |< aT,
 
     MaFCUL                    `adj`     {- maZoluwm -}         [ "oppressed", unwords [ "treated", "unjustly" ] ],
 
@@ -135,7 +127,7 @@ section_3   = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- maZonuwn -}         [ "presumed", "suspected", "suspicious" ] ]
 
 
-section_4   = listing "Lexicon's properties"
+cluster_4   = listing "Lexicon's properties"
 
 
  |> ".z r f" <| [
@@ -145,24 +137,22 @@ section_4   = listing "Lexicon's properties"
     FaCL                      `noun`    {- Zarof -}            [ "envelope" ],
 
     FaCL                      `noun`    {- Zarof -}            [ "circumstance", "condition", "situation" ]
-                              `plural`     FuCUL
-                           {- `others`  [ ".zuruwf N" ] -},
+                              `plural`     FuCUL,
 
     FaCL |< Iy                `adj`     {- Zarofiy~ -}         [ "circumstantial" ],
 
     FaCIL                     `noun`    {- Zariyf -}           [ "adroit", "elegant", "courteous" ]
                               `plural`     FuCaLA'
-                           {- `others`  [ ".zurafA' Nh N0_Nh Nhy" ] -},
+                              `plural`     FaCA'iL,
 
     FaCIL                     `noun`    {- Zariyf -}           [ "Zarif" ],
 
     MaFCUL                    `noun`    {- maZoruwf -}         [ "envelope" ]
-                              `plural`     MaFACIL
-                           {- `others`  [ "ma.zAriyf Ndip" ] -} ]
+                              `plural`     MaFACIL ]
 
 
-sections = [ section_1,
-             section_2,
-             section_3,
-             section_4 ]
+section = [ cluster_1,
+            cluster_2,
+            cluster_3,
+            cluster_4 ]
 

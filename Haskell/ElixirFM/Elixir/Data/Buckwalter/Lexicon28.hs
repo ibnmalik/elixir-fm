@@ -6,10 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = include sections
+lexicon = include section
 
 
-section_1   = listing "Lexicon's properties"
+cluster_1   = listing "Lexicon's properties"
 
 
  |> "y ' '" <| [
@@ -150,7 +150,7 @@ section_1   = listing "Lexicon's properties"
     FaCL                      `noun`    {- ya$ob -}            [ "jasper" ] ]
 
 
-section_2   = listing "Lexicon's properties"
+cluster_2   = listing "Lexicon's properties"
 
 
  |> "y ^s m" <| [
@@ -166,7 +166,8 @@ section_2   = listing "Lexicon's properties"
     -- y$mq    ya$omaq N       veil
     -- y$mk    ya$omak N       veil
 
-    KaRDaS                    `noun`    {- ya$omaq -}          [ "veil" ] ]
+    KaRDaS                    `noun`    {- ya$omaq -}          [ "veil" ]
+                           {- `others`  [ "ya^smak N" ] -} ]
 
  |> "y ^s y" <| [
 
@@ -194,8 +195,7 @@ section_2   = listing "Lexicon's properties"
     -- yxwt    yuxuwt  N       yachts
 
     FaCL                      `noun`    {- yaxot -}            [ "yacht" ]
-                              `plural`     FuCUL
-                           {- `others`  [ "yu_huwt N" ] -} ]
+                              `plural`     FuCUL ]
 
  |> "y _t r b" <| [
 
@@ -241,8 +241,7 @@ section_2   = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- yabos -}            [ "dryness" ]
                               `plural`     FaCaL
-                              `plural`     FuCL
-                           {- `others`  [ "yabas N", "yubs N" ] -},
+                              `plural`     FuCL,
 
     -- ;; yabis_1
     -- ybs     yabis   N-ap    dried out;desiccated     [[yabis/ADJ]]
@@ -274,8 +273,7 @@ section_2   = listing "Lexicon's properties"
 
     FaL                       `noun`    {- yad -}              [ "hand" ]
                               `plural`     HaFCI
-                              `plural`     HaFACI
-                           {- `others`  [ "'aydiy N0_Nh", "'ayAdiy N0_Nh" ] -},
+                              `plural`     HaFACI,
 
     -- ;; yadawiy~_1
     -- ydwy    yadawiy~        Nall    manual;hand     [[yadawiy~/ADJ]]
@@ -297,8 +295,7 @@ section_2   = listing "Lexicon's properties"
 
     FaC                       `noun`    {- yad -}              [ "hand" ]
                               `plural`     HaFCI
-                              `plural`     HaFACI
-                           {- `others`  [ "'aydiy N0_Nh", "'ayAdiy N0_Nh" ] -},
+                              `plural`     HaFACI,
 
     -- ;; yadawiy~_1
     -- ydwy    yadawiy~        Nall    manual;hand     [[yadawiy~/ADJ]]
@@ -315,7 +312,7 @@ section_2   = listing "Lexicon's properties"
                               `plural`     FACL |< At ]
 
 
-section_3   = listing "Lexicon's properties"
+cluster_3   = listing "Lexicon's properties"
 
 
  |> "y f _h" <| [
@@ -325,8 +322,7 @@ section_3   = listing "Lexicon's properties"
     -- ywAfyx  yawAfiyx        Ndip    vertexes;crowns of heads
 
     FACUL                     `noun`    {- yAfuwx -}           [ "vertex", unwords [ "crown", "of", "the", "head" ], unwords [ "crowns", "of", "heads" ] ]
-                              `plural`     FawACIL
-                           {- `others`  [ "yawAfiy_h Ndip" ] -} ]
+                              `plural`     FawACIL ]
 
  |> "y f _t" <| [
 
@@ -373,8 +369,7 @@ section_3   = listing "Lexicon's properties"
     -- AyfAE   >ayofAE N       adolescents
 
     FaCaL                     `noun`    {- yafaE -}            [ "adolescent" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'ayfA` N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; yafAE_1
     -- yfAE    yafAE   N       hill
@@ -403,8 +398,7 @@ section_3   = listing "Lexicon's properties"
     -- yhwd    yahuwd  N       Jews
 
     FaCUL |< Iy               `adj`     {- yahuwdiy~ -}        [ "Jew" ]
-                              `plural`     FaCUL
-                           {- `others`  [ "yahuwd N" ] -},
+                              `plural`     FaCUL,
 
     -- ;; yahuwdiy~ap_1
     -- yhwdy   yahuwdiy~       Nap     Judaism     [[yahuwdiy~/NOUN]]
@@ -443,10 +437,11 @@ section_3   = listing "Lexicon's properties"
     -- ymA}m   yamA}im Ndip    pigeons;doves
 
     FaCAL                     `noun`    {- yamAm -}            [ "pigeon", "dove" ]
-                              `plural`     FaCAL |< At ]
+                              `plural`     FaCAL |< At
+                              `plural`     FaCA'iL ]
 
 
-section_4   = listing "Lexicon's properties"
+cluster_4   = listing "Lexicon's properties"
 
 
  |> "y m n" <| [
@@ -507,15 +502,13 @@ section_4   = listing "Lexicon's properties"
     -- ymn     yaman   NF      to the right     [[yaman/ADV]]
 
     FaCaL |< aN               `adv`     {- yamanAF -}          [ unwords [ "to", "the", "right" ] ]
-                              `plural`     FaCaL
-                           {- `others`  [ "yaman NF" ] -},
+                              `plural`     FaCaL,
 
     -- ;; yamanAF_2
     -- ymn     yaman   NF      to the south     [[yaman/ADV]]
 
     FaCaL |< aN               `adv`     {- yamanAF -}          [ unwords [ "to", "the", "south" ] ]
-                              `plural`     FaCaL
-                           {- `others`  [ "yaman NF" ] -},
+                              `plural`     FaCaL,
 
     -- ;; yamonap_1
     -- ymn     yamon   Nap     to the right
@@ -558,8 +551,7 @@ section_4   = listing "Lexicon's properties"
     -- ymyn    yamiyn  NF      to the right     [[yamiyn/ADV]]
 
     FaCIL |< aN               `adv`     {- yamiynAF -}         [ unwords [ "to", "the", "right" ] ]
-                              `plural`     FaCIL
-                           {- `others`  [ "yamiyn NF" ] -},
+                              `plural`     FaCIL,
 
     -- ;; yamiyn_2
     -- ymyn    yamiyn  Ndu     oath
@@ -570,8 +562,7 @@ section_4   = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- yamiyn -}           [ "oath" ]
                               `plural`     HaFCuL
-                              `plural`     HaFCAL
-                           {- `others`  [ "'aymun N", "'aymAn N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; yamiyniy~_1
     -- ymyny   yamiyniy~       Nall    rightist;right-wing     [[yamiyniy~/ADJ]]
@@ -609,8 +600,7 @@ section_4   = listing "Lexicon's properties"
     -- myAmn   mayAmin Ndip    right wings;right sides
 
     MaFCaL |< aT              `noun`    {- mayomanap -}        [ unwords [ "right", "wing" ], unwords [ "right", "side" ] ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "mayAmin Ndip" ] -},
+                              `plural`     MaFACiL,
 
     -- ;; tayam~un_1
     -- tymn    tayam~un        N/At    good omen;auspiciousness
@@ -623,8 +613,7 @@ section_4   = listing "Lexicon's properties"
     -- myAmyn  mayAmiyn        Ndip    lucky;fortunate
 
     MaFCUL                    `adj`     {- mayomuwn -}         [ "lucky", "fortunate" ]
-                              `plural`     MaFACIL
-                           {- `others`  [ "mayAmiyn Ndip" ] -},
+                              `plural`     MaFACIL,
 
     -- ;; muyam~an_1
     -- mymn    muyam~an        Nall    lucky;auspicious     [[muyam~an/ADJ]]
@@ -642,7 +631,7 @@ section_4   = listing "Lexicon's properties"
     FACUL                     `noun`    {- yAmuwn -}           [ "Yamoun" ] ]
 
 
-section_5   = listing "Lexicon's properties"
+cluster_5   = listing "Lexicon's properties"
 
 
  |> "y n ^s" <| [
@@ -738,10 +727,11 @@ section_5   = listing "Lexicon's properties"
     -- ynAyr   yanAyir N0      January
     -- ynA}r   yanA}ir N0      January
 
-    KaRADiS                   `noun`    {- yanAyir -}          [ "January" ] ]
+    KaRADiS                   `noun`    {- yanAyir -}          [ "January" ]
+                           {- `others`  [ "yanA'ir N0" ] -} ]
 
 
-section_6   = listing "Lexicon's properties"
+cluster_6   = listing "Lexicon's properties"
 
 
  |> "y q .z" <| [
@@ -795,8 +785,7 @@ section_6   = listing "Lexicon's properties"
 
     FaCiL                     `adj`     {- yaqiZ -}            [ "awake", "alert", "vigilant" ]
                               `plural`     HaFCAL
-                              `plural`     FaCuL |< aT
-                           {- `others`  [ "'ayqA.z N" ] -},
+                              `plural`     FaCuL |< aT,
 
     -- ;; yaqoZap_1
     -- yqZ     yaqoZ   Nap     alertness;wakefulness
@@ -819,8 +808,7 @@ section_6   = listing "Lexicon's properties"
 
     FaCLAn                    `adj`     {- yaqoZAn -}          [ "awake", "alert", "vigilant" ]
                               `plural`     FaCLY
-                              `plural`     FaCALY
-                           {- `others`  [ "yaq.zY N0", "yaqA.zY N0" ] -},
+                              `plural`     FaCALY,
 
     -- ;; <iyqAZ_1
     -- <yqAZ   <iyqAZ  N/At    awakening;reveille
@@ -853,7 +841,7 @@ section_6   = listing "Lexicon's properties"
     MustaFCiL                 `adj`     {- musotayoqiZ -}      [ "awake" ] ]
 
 
-section_7   = listing "Lexicon's properties"
+cluster_7   = listing "Lexicon's properties"
 
 
  |> "y q n" <| [
@@ -946,8 +934,7 @@ section_7   = listing "Lexicon's properties"
     -- ywAqyt  yawAqiyt        Ndip    precious stones;rubies
 
     FACUL                     `noun`    {- yAquwt -}           [ unwords [ "precious", "stone" ], "ruby" ]
-                              `plural`     FawACIL
-                           {- `others`  [ "yawAqiyt Ndip" ] -} ]
+                              `plural`     FawACIL ]
 
  |> "y r `" <| [
 
@@ -979,7 +966,7 @@ section_7   = listing "Lexicon's properties"
     FaCAL                     `adj`     {- yarAE -}            [ "cowardly" ] ]
 
 
-section_8   = listing "Lexicon's properties"
+cluster_8   = listing "Lexicon's properties"
 
 
  |> "y r d" <| [
@@ -1068,7 +1055,7 @@ section_8   = listing "Lexicon's properties"
     MaFCUL                    `noun`    {- mayosuwn -}         [ "Maysoun", "Maisoun" ] ]
 
 
-section_9   = listing "Lexicon's properties"
+cluster_9   = listing "Lexicon's properties"
 
 
  |> "y s r" <| [
@@ -1165,8 +1152,7 @@ section_9   = listing "Lexicon's properties"
     -- ysry    yusoray NAt     left;left hands
 
     HaFCaL                    `noun`    {- Oayosar -}          [ "left", unwords [ "left", "hand" ] ]
-                              `plural`     FuCLY |< At
-                           {- `others`  [ "yusrY N0 NAn_Nayn" ] -},
+                              `plural`     FuCLY |< At,
 
     -- ;; >ayosar_3
     -- >ysr    >ayosar Nel     easier/easiest;smaller/smallest
@@ -1184,8 +1170,7 @@ section_9   = listing "Lexicon's properties"
     -- myAsr   mayAsir Ndip    left wings;left sides
 
     MaFCaL |< aT              `noun`    {- mayosarap -}        [ unwords [ "left", "wing" ], unwords [ "left", "side" ] ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "mayAsir Ndip" ] -},
+                              `plural`     MaFACiL,
 
     -- ;; mayosarap_2
     -- mysr    mayosar Nap     comfort;affluence
@@ -1216,8 +1201,7 @@ section_9   = listing "Lexicon's properties"
     -- myAsyr  mayAsiyr        Ndip    easily accomplished;feasible;well-to-do
 
     MaFCUL                    `noun`    {- mayosuwr -}         [ unwords [ "easily", "accomplished" ], "feasible", unwords [ "well", "-", "to", "-", "do" ] ]
-                              `plural`     MaFACIL
-                           {- `others`  [ "mayAsiyr Ndip" ] -},
+                              `plural`     MaFACIL,
 
     -- ;; muyas~ar_1
     -- mysr    muyas~ar        N-ap    made easy;facilitated;well-to-do     [[muyas~ar/ADJ]]
@@ -1240,7 +1224,7 @@ section_9   = listing "Lexicon's properties"
     MutaFaCCiL                `noun`    {- mutayas~ir -}       [ unwords [ "well", "-", "to", "-", "do" ] ] ]
 
 
-section_10  = listing "Lexicon's properties"
+cluster_10  = listing "Lexicon's properties"
 
 
  |> "y s r y" <| [
@@ -1308,16 +1292,14 @@ section_10  = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- yatiym -}           [ "orphan", "unique" ]
                               `plural`     FaCALY
-                              `plural`     HaFCAL
-                           {- `others`  [ "yatAmY N0", "'aytAm N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; mayotam_1
     -- mytm    mayotam Ndu     orphanage
     -- myAtm   mayAtim Ndip    orphanages
 
     MaFCaL                    `noun`    {- mayotam -}          [ "orphanage" ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "mayAtim Ndip" ] -},
+                              `plural`     MaFACiL,
 
     -- ;; muyat~am_1
     -- mytm    muyat~am        Nall    orphaned;parentless;orphan
@@ -1348,7 +1330,7 @@ section_10  = listing "Lexicon's properties"
     FaCCaL                    `verb`    {- yaw~ad -}           [ "iodize", "iodine" ] ]
 
 
-section_11  = listing "Lexicon's properties"
+cluster_11  = listing "Lexicon's properties"
 
 
  |> "y w m" <| [
@@ -1364,17 +1346,20 @@ section_11  = listing "Lexicon's properties"
     -- >yAm    >ay~Am  N       days
     -- AyAm    >ay~Am  N       days
 
-    FaCL                      `noun`    {- yawom -}            [ "day" ],
+    FaCL                      `noun`    {- yawom -}            [ "day" ]
+                           {- `others`  [ "'ayyAm N" ] -},
 
     -- ;; yawom_2
     -- ywmA    yawomAF FW-Wa   some day    [[yawomAF/ADV]]
 
-    FaCL                      `adv`     {- yawom -}            [ unwords [ "some", "day" ] ],
+    FaCL                      `adv`     {- yawom -}            [ unwords [ "some", "day" ] ]
+                           {- `others`  [ "yawmaN FW-Wa" ] -},
 
     -- ;; yawom_3
     -- Alywm   Aloyawoma       FW-Wa   today       [[Aloyawoma/ADV]]
 
-    FaCL                      `adv`     {- yawom -}            [ "today" ],
+    FaCL                      `adv`     {- yawom -}            [ "today" ]
+                           {- `others`  [ "Alyawma FW-Wa" ] -},
 
     -- ;; yawom_4
     -- ywm     yawom   N0      Youm
@@ -1474,7 +1459,7 @@ section_11  = listing "Lexicon's properties"
     KuRDU                     `noun`    {- yuwruw -}           [ "Euro" ] ]
 
 
-section_12  = listing "Lexicon's properties"
+cluster_12  = listing "Lexicon's properties"
 
 
  |> "y w r y" <| [
@@ -1552,8 +1537,7 @@ section_12  = listing "Lexicon's properties"
     -- yzk     yazak   N       guards;sentries
 
     FaCaL |< Iy               `adj`     {- yazakiy~ -}         [ "guard", "sentry" ]
-                              `plural`     FaCaL
-                           {- `others`  [ "yazak N" ] -} ]
+                              `plural`     FaCaL ]
 
  |> "y z l" <| [
 
@@ -1618,7 +1602,7 @@ section_12  = listing "Lexicon's properties"
     Identity                  `noun`    {- yAnA -}             [ "" {- "Jana" -} ] ]
 
 
-section_13  = listing "Lexicon's properties"
+cluster_13  = listing "Lexicon's properties"
 
 
  |> "yAnA.gIsAwA" <| [
@@ -1779,7 +1763,7 @@ section_13  = listing "Lexicon's properties"
     Identity                  `noun`    {- yuwnog -}           [ "" {- "Young" -} ] ]
 
 
-section_14  = listing "Lexicon's properties"
+cluster_14  = listing "Lexicon's properties"
 
 
  |> "yUnAytid" <| [
@@ -1935,7 +1919,7 @@ section_14  = listing "Lexicon's properties"
     Identity                  `noun`    {- yilotsin -}         [ "" {- "Yeltsin" -} ] ]
 
 
-section_15  = listing "Lexicon's properties"
+cluster_15  = listing "Lexicon's properties"
 
 
  |> "yits.hAk" <| [
@@ -1960,19 +1944,19 @@ section_15  = listing "Lexicon's properties"
     Identity                  `noun`    {- ywmblgAz -}         [ unwords [ "" {- "Iompelgas" -}, "?", "?" ] ] ]
 
 
-sections = [ section_1,
-             section_2,
-             section_3,
-             section_4,
-             section_5,
-             section_6,
-             section_7,
-             section_8,
-             section_9,
-             section_10,
-             section_11,
-             section_12,
-             section_13,
-             section_14,
-             section_15 ]
+section = [ cluster_1,
+            cluster_2,
+            cluster_3,
+            cluster_4,
+            cluster_5,
+            cluster_6,
+            cluster_7,
+            cluster_8,
+            cluster_9,
+            cluster_10,
+            cluster_11,
+            cluster_12,
+            cluster_13,
+            cluster_14,
+            cluster_15 ]
 

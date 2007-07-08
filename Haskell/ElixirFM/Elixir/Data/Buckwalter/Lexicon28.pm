@@ -77,7 +77,9 @@ $Lexicon = {
         'y$mq    ya$omaq N       veil',
         'y$mk    ya$omak N       veil'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ya^smak' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRDaS',
@@ -602,7 +604,9 @@ $Lexicon = {
         'ynAyr   yanAyir N0      January',
         'ynA}r   yanA}ir N0      January'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'yanA\'ir' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRADiS',
@@ -1091,7 +1095,8 @@ $Lexicon = {
       'patterns' => {
         'yusrY' => [
           'FuCLY'
-        ]
+        ],
+        'yusrA' => []
       },
       'index' => '2',
       'entity' => 'noun',
@@ -1194,6 +1199,7 @@ $Lexicon = {
         'mysr    mayosir Nap     comfort;affluence'
       ],
       'patterns' => {
+        'maysur' => [],
         'maysir' => [
           'MaFCiL'
         ]
@@ -1821,6 +1827,9 @@ $Lexicon = {
       'patterns' => {
         'yamAm' => [
           'FaCAL'
+        ],
+        'yamA\'im' => [
+          'FaCA\'iL'
         ]
       },
       'index' => '1',
@@ -2475,6 +2484,7 @@ $Lexicon = {
         'ymny    yumonay NAt     right hands;right sides;lucky     [[yumonay/ADJ]]'
       ],
       'patterns' => {
+        'yumnA' => [],
         'yumnY' => [
           'FuCLY'
         ]
@@ -3174,6 +3184,8 @@ $Lexicon = {
         'yqAZA   yaqAZA  Nhy     awake;alert;vigilant'
       ],
       'patterns' => {
+        'yaqA.zA' => [],
+        'yaq.zA' => [],
         'yaq.zY' => [
           'FaCLY'
         ],
@@ -3755,7 +3767,9 @@ $Lexicon = {
         '>yAm    >ay~Am  N       days',
         'AyAm    >ay~Am  N       days'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'ayyAm' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL',
@@ -3779,7 +3793,9 @@ $Lexicon = {
         ';; yawom_2',
         'ywmA    yawomAF FW-Wa   some day    [[yawomAF/ADV]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'yawmaN' => []
+      },
       'index' => '2',
       'entity' => 'adv',
       'morphs' => 'FaCL',
@@ -3802,7 +3818,9 @@ $Lexicon = {
         ';; yawom_3',
         'Alywm   Aloyawoma       FW-Wa   today       [[Aloyawoma/ADV]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'Alyawma' => []
+      },
       'index' => '3',
       'entity' => 'adv',
       'morphs' => 'FaCL',
@@ -3866,7 +3884,9 @@ $Lexicon = {
         ';; yawomiy~At_1',
         'ywmy    yawomiy~        NAt     diary;memoirs     [[yawomiy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'yawmiyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL |< Iy |< At',
@@ -4256,7 +4276,8 @@ $Lexicon = {
         ],
         '\'aytAm' => [
           'HaFCAL'
-        ]
+        ],
+        'yatAmA' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -5323,7 +5344,9 @@ $Lexicon = {
         'yqyny   yaqiyniy~       N-ap    indisputable;certain     [[yaqiyniy~/ADJ]]',
         'yqyny   yaqiyniy~       NAt     indisputable facts;established truths     [[yaqiyniy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'yaqiyniyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL |< Iy',
@@ -5795,7 +5818,9 @@ $Lexicon = {
         'yArd    yArod   NapAt   yard',
         'yArdh   yArodah NduAt   yard'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'yArdah' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACL |< aT',

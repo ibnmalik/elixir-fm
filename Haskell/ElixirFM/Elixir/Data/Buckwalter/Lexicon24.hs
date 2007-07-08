@@ -6,10 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = include sections
+lexicon = include section
 
 
-section_1   = listing "Lexicon's properties"
+cluster_1   = listing "Lexicon's properties"
 
 
  |> "imra'" <| [
@@ -62,7 +62,8 @@ section_1   = listing "Lexicon's properties"
 
     FiL |< aT                 `noun`    {- mi}ap -}            [ "hundred" ]
                               `plural`     FiL |< At
-                              `plural`     FiC |< At,
+                              `plural`     FiC |< At
+                           {- `others`  [ "mi'uwn N0", "miA' Napdu" ] -},
 
     -- ;; mi}ap_1
     -- m}      mi}     Napdu   hundred
@@ -73,7 +74,8 @@ section_1   = listing "Lexicon's properties"
 
     FiC |< aT                 `noun`    {- mi}ap -}            [ "hundred" ]
                               `plural`     FiL |< At
-                              `plural`     FiC |< At,
+                              `plural`     FiC |< At
+                           {- `others`  [ "mi'uwn N0", "miA' Napdu" ] -},
 
     -- ;; mi}ap_2
     -- m}      mi}     Nap     (per) cent
@@ -91,13 +93,15 @@ section_1   = listing "Lexicon's properties"
     -- m}wy    mi}awiy~        Nall    one-hundred;hundreth;percentage     [[mi}awiy~/ADJ]]
     -- mA}wy   miA}awiy~       Nall    one-hundred;hundreth;percentage     [[mi}awiy~/ADJ]]
 
-    FiL |<< "awIy"            `adj`     {- mi}awiy~ -}         [ unwords [ "one", "-", "hundred" ], "hundreth", "percentage" ],
+    FiL |<< "awIy"            `adj`     {- mi}awiy~ -}         [ unwords [ "one", "-", "hundred" ], "hundreth", "percentage" ]
+                           {- `others`  [ "miA'awiyy Nall" ] -},
 
     -- ;; mi}awiy~_1
     -- m}wy    mi}awiy~        Nall    one-hundred;hundreth;percentage     [[mi}awiy~/ADJ]]
     -- mA}wy   miA}awiy~       Nall    one-hundred;hundreth;percentage     [[mi}awiy~/ADJ]]
 
-    FiC |<< "awIy"            `adj`     {- mi}awiy~ -}         [ unwords [ "one", "-", "hundred" ], "hundreth", "percentage" ] ]
+    FiC |<< "awIy"            `adj`     {- mi}awiy~ -}         [ unwords [ "one", "-", "hundred" ], "hundreth", "percentage" ]
+                           {- `others`  [ "miA'awiyy Nall" ] -} ]
 
  |> "m ' .z" <| [
 
@@ -127,8 +131,7 @@ section_1   = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- mA}iE -}            [ "fluid" ]
                               `plural`     FawACiL
-                              `plural`     FawA'iL
-                           {- `others`  [ "mawA'i` Ndip" ] -} ]
+                           {- `others`  [ "mawAyi` Ndip" ] -} ]
 
  |> "m ' d" <| [
 
@@ -137,16 +140,15 @@ section_1   = listing "Lexicon's properties"
     -- mydY    mayodaY N0      sea-sick
     -- mydA    mayodA  Nhy     sea-sick
 
-    FACiL                     `noun`    {- mA}id -}            [ "seasick", unwords [ "sea", "-", "sick" ] ],
+    FACiL                     `noun`    {- mA}id -}            [ "seasick", unwords [ "sea", "-", "sick" ] ]
+                           {- `others`  [ "maydY N0" ] -},
 
     -- ;; mA}idap_1
     -- mA}d    mA}id   Napdu   table
     -- mwA}d   mawA}id Ndip    tables
 
     FACiL |< aT               `noun`    {- mA}idap -}          [ "table" ]
-                              `plural`     FawACiL
-                              `plural`     FawA'iL
-                           {- `others`  [ "mawA'id Ndip" ] -} ]
+                              `plural`     FawACiL ]
 
  |> "m ' h" <| [
 
@@ -161,7 +163,7 @@ section_1   = listing "Lexicon's properties"
     FAL |< Iy |< aT           `noun`    {- mAhiy~ap -}         [ "salary", "income", "pay" ] ]
 
 
-section_2   = listing "Lexicon's properties"
+cluster_2   = listing "Lexicon's properties"
 
 
  |> "m ' l" <| [
@@ -212,8 +214,7 @@ section_2   = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- maOonap -}          [ "navel", unwords [ "umbilical", "hole" ] ]
                               `plural`     FuCUL
-                              `plural`     FaCaL |< At
-                           {- `others`  [ "mu'uwn N" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; mu&onap_1
     -- m&n     mu&on   Nap     provisions;supplies
@@ -222,8 +223,7 @@ section_2   = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- muWonap -}          [ "provisions", "supplies", "materiel" ]
                               `plural`     FuCaL
-                              `plural`     FaCUL |< aT
-                           {- `others`  [ "mu'an N" ] -} ]
+                              `plural`     FaCUL |< aT ]
 
  |> "m ' q" <| [
 
@@ -247,7 +247,7 @@ section_2   = listing "Lexicon's properties"
     FaCL                      `noun`    {- maOoq -}            [ unwords [ "inner", "corner", "of", "the", "eye" ], unwords [ "inner", "corners", "of", "the", "eye" ] ]
                               `plural`     FaCLY
                               `plural`     FaCALI
-                           {- `others`  [ "ma'qY N0 NAn_Nayn", "ma'Aqiy N0_Nh" ] -},
+                           {- `others`  [ "'AmAq N" ] -},
 
     -- ;; ma>oqap_1
     -- m>q     ma>oq   Nap     sobbing;sob
@@ -259,7 +259,8 @@ section_2   = listing "Lexicon's properties"
     -- \|mAq    |mAq    N       inner corners of the eye
     -- AmAq    |mAq    N       inner corners of the eye
 
-    FuCL                      `noun`    {- muWoq -}            [ unwords [ "inner", "corner", "of", "the", "eye" ], unwords [ "inner", "corners", "of", "the", "eye" ] ] ]
+    FuCL                      `noun`    {- muWoq -}            [ unwords [ "inner", "corner", "of", "the", "eye" ], unwords [ "inner", "corners", "of", "the", "eye" ] ]
+                           {- `others`  [ "'AmAq N" ] -} ]
 
  |> "m ' r" <| [
 
@@ -292,7 +293,8 @@ section_2   = listing "Lexicon's properties"
     -- mA}t    mA}it   Nall    moribund;mortal     [[mA}it/ADJ]]
     -- mAyt    mAyit   Nall    moribund;mortal
 
-    FACiL                     `adj`     {- mA}it -}            [ "moribund", "mortal" ] ]
+    FACiL                     `adj`     {- mA}it -}            [ "moribund", "mortal" ]
+                           {- `others`  [ "mAyit Nall" ] -} ]
 
  |> "m ' w" <| [
 
@@ -315,10 +317,11 @@ section_2   = listing "Lexicon's properties"
     -- mAzA    mAzA    N0      appetizers;entrees
     -- mAzw    mAzaw   NAt     appetizers;entrees
 
-    FAL |< aT                 `noun`    {- mAzap -}            [ "appetizers", "entrees" ] ]
+    FAL |< aT                 `noun`    {- mAzap -}            [ "appetizers", "entrees" ]
+                           {- `others`  [ "mAzA N0" ] -} ]
 
 
-section_3   = listing "Lexicon's properties"
+cluster_3   = listing "Lexicon's properties"
 
 
  |> "m .d '" <| [
@@ -335,8 +338,7 @@ section_3   = listing "Lexicon's properties"
     -- AmDy    >amoDay NAn_Nayn        sharpest;most effective
 
     FaCAL                     `noun`    {- maDA' -}            [ "sharpness", "discernment", "strength", "sharper", "sharpest", unwords [ "more", "/", "most", "effective" ], unwords [ "most", "effective" ] ]
-                              `plural`     HaFCY
-                           {- `others`  [ "'am.dY N0 NAn_Nayn" ] -},
+                              `plural`     HaFCY,
 
     -- ;; <imoDA'_1
     -- <mDA'   <imoDA' N0_Nh   signing;signature
@@ -353,8 +355,7 @@ section_3   = listing "Lexicon's properties"
     -- AmDA'   <imoDA' NAt     signing;signature
 
     HiFCAL                    `noun`    {- IimoDA' -}          [ "signing", "signature" ]
-                              `plural`     HiFCAL |< At
-                              `plural`     HiFCA' |< At,
+                              `plural`     HiFCAL |< At,
 
     -- ;; <imoDA'_2
     -- <mDA'   <imoDA' N0_Nh   accomplishment;completion
@@ -371,8 +372,7 @@ section_3   = listing "Lexicon's properties"
     -- AmDA'   <imoDA' NAt     accomplishment;completion
 
     HiFCAL                    `noun`    {- IimoDA' -}          [ "accomplishment", "completion" ]
-                              `plural`     HiFCAL |< At
-                              `plural`     HiFCA' |< At ]
+                              `plural`     HiFCAL |< At ]
 
  |> "m .d .d" <| [
 
@@ -452,8 +452,7 @@ section_3   = listing "Lexicon's properties"
     -- mDg     muDag   N       morsels;bites
 
     FuCL |< aT                `noun`    {- muDogap -}          [ "morsel", "bite" ]
-                              `plural`     FuCaL
-                           {- `others`  [ "mu.da.g N" ] -},
+                              `plural`     FuCaL,
 
     -- ;; muDAgap_1
     -- mDAg    muDAg   Nap     chewed;quid
@@ -480,7 +479,7 @@ section_3   = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- maDomaDap -}        [ "rinsing", "gargling" ] ]
 
 
-section_4   = listing "Lexicon's properties"
+cluster_4   = listing "Lexicon's properties"
 
 
  |> "m .d r" <| [
@@ -590,8 +589,7 @@ section_4   = listing "Lexicon's properties"
     -- AmDy    >amoDay NAn_Nayn        sharpest;most effective
 
     FaCA'                     `noun`    {- maDA' -}            [ "sharpness", "discernment", "strength", "sharper", "sharpest", unwords [ "more", "/", "most", "effective" ], unwords [ "most", "effective" ] ]
-                              `plural`     HaFCY
-                           {- `others`  [ "'am.dY N0 NAn_Nayn" ] -},
+                              `plural`     HaFCY,
 
     -- ;; tamoDiyap_1
     -- tmDy    tamoDiy Nap     spending;execution;completion
@@ -651,8 +649,7 @@ section_4   = listing "Lexicon's properties"
 
     FACI                      `adj`     {- mADiy -}            [ "incisive", "keen", "energetic", "efficient" ]
                               `plural`     FACI |< At
-                              `plural`     FawACI
-                           {- `others`  [ "mawA.diy N0_Nh" ] -},
+                              `plural`     FawACI,
 
     -- ;; mumoDiy_1
     -- mmDy    mumoDiy N0F_Nh  signatory;signer
@@ -676,7 +673,7 @@ section_4   = listing "Lexicon's properties"
                               `plural`     MuFCY |< At ]
 
 
-section_5   = listing "Lexicon's properties"
+cluster_5   = listing "Lexicon's properties"
 
 
  |> "m .g .s" <| [
@@ -766,8 +763,7 @@ section_5   = listing "Lexicon's properties"
     -- mgwl    muguwl  N       Mongols;Moguls
 
     FaCUL                     `noun`    {- maguwl -}           [ "Mongols", "Moguls" ]
-                              `plural`     FuCUL
-                           {- `others`  [ "mu.guwl N" ] -},
+                              `plural`     FuCUL,
 
     -- ;; maguwliy~_1
     -- mgwly   maguwliy~       Nall    Mongol;Mogul     [[maguwliy~/NOUN]]
@@ -775,7 +771,8 @@ section_5   = listing "Lexicon's properties"
     -- mgwly   maguwliy~       Nall    Mongol;Mogul     [[maguwliy~/ADJ]]
     -- mgwly   muguwliy~       Nall    Mongol;Mogul     [[muguwliy~/ADJ]]
 
-    FaCUL |< Iy               `adj`     {- maguwliy~ -}        [ "Mongol", "Mogul" ] ]
+    FaCUL |< Iy               `adj`     {- maguwliy~ -}        [ "Mongol", "Mogul" ]
+                           {- `others`  [ "mu.guwliyy Nall" ] -} ]
 
  |> "m .g n" <| [
 
@@ -788,16 +785,18 @@ section_5   = listing "Lexicon's properties"
     -- mygAn   miygAn  Nprop   Megan
     -- myjAn   miyjAn  Nprop   Megan
 
-    MICAL                     `noun`    {- miygAn -}           [ "Megan" ],
+    MICAL                     `noun`    {- miygAn -}           [ "Megan" ]
+                           {- `others`  [ "miy^gAn Nprop" ] -},
 
     -- ;; miygAn_1
     -- mygAn   miygAn  Nprop   Megan
     -- myjAn   miyjAn  Nprop   Megan
 
-    FICAL                     `noun`    {- miygAn -}           [ "Megan" ] ]
+    FICAL                     `noun`    {- miygAn -}           [ "Megan" ]
+                           {- `others`  [ "miy^gAn Nprop" ] -} ]
 
 
-section_6   = listing "Lexicon's properties"
+cluster_6   = listing "Lexicon's properties"
 
 
  |> "m .g n .t" <| [
@@ -898,9 +897,7 @@ section_6   = listing "Lexicon's properties"
     -- AmHA'   {im~iHA'        NAt     extinction;eradication
 
     InFiCAL                   `noun`    {- AinomiHA' -}        [ "extinction", "eradication" ]
-                              `plural`     InFiCAL |< At
-                              `plural`     InFiCA' |< At
-                           {- `others`  [ "immi.hA' Nh NAn_Nayn Nayn N0_Nh Nhy" ] -} ]
+                              `plural`     InFiCAL |< At ]
 
  |> "m .h .d" <| [
 
@@ -956,7 +953,7 @@ section_6   = listing "Lexicon's properties"
     FuCL                      `noun`    {- muH~ -}             [ "quintessence", unwords [ "egg", "yolk" ] ] ]
 
 
-section_7   = listing "Lexicon's properties"
+cluster_7   = listing "Lexicon's properties"
 
 
  |> "m .h .s" <| [
@@ -1069,7 +1066,7 @@ section_7   = listing "Lexicon's properties"
     MuFACiL                   `noun`    {- mumAHik -}          [ "quarrelsome", "contentious", "bickering" ] ]
 
 
-section_8   = listing "Lexicon's properties"
+cluster_8   = listing "Lexicon's properties"
 
 
  |> "m .h l" <| [
@@ -1144,8 +1141,7 @@ section_8   = listing "Lexicon's properties"
     -- mHn     miHan   N       ordeals;tests;trials
 
     FiCL |< aT                `noun`    {- miHonap -}          [ "ordeal", "test", "trial" ]
-                              `plural`     FiCaL
-                           {- `others`  [ "mi.han N" ] -},
+                              `plural`     FiCaL,
 
     -- ;; {imotiHAn_1
     -- <mtHAn  {imotiHAn       NduAt   test;trial;examination
@@ -1176,7 +1172,7 @@ section_8   = listing "Lexicon's properties"
     FuCayL |< Iy              `adj`     {- muHayoniy~ -}       [ "Muhaini", "Mahayni" ] ]
 
 
-section_9   = listing "Lexicon's properties"
+cluster_9   = listing "Lexicon's properties"
 
 
  |> "m .h q" <| [
@@ -1234,8 +1230,7 @@ section_9   = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- maHAq -}            [ "waning", "moonless" ]
                               `plural`     FuCAL
-                              `plural`     FiCAL
-                           {- `others`  [ "mu.hAq N", "mi.hAq N" ] -} ]
+                              `plural`     FiCAL ]
 
  |> "m .h w" <| [
 
@@ -1329,8 +1324,7 @@ section_9   = listing "Lexicon's properties"
     -- mmAH    mamAH   NK      erasers
 
     MiFCY |< aT               `noun`    {- mimoHAp -}          [ "eraser" ]
-                              `plural`     MaFACI
-                           {- `others`  [ "mamA.hiy N0_Nh" ] -},
+                              `plural`     MaFACI,
 
     -- ;; {inomiHA'_1
     -- <nmHA'  {inomiHA'       N0_Nh   extinction;eradication
@@ -1359,8 +1353,7 @@ section_9   = listing "Lexicon's properties"
     -- AmHA'   {im~iHA'        NAt     extinction;eradication
 
     InFiCA'                   `noun`    {- AinomiHA' -}        [ "extinction", "eradication" ]
-                              `plural`     InFiCA' |< At
-                           {- `others`  [ "immi.hA' Nh NAn_Nayn Nayn N0_Nh Nhy" ] -},
+                              `plural`     InFiCA' |< At,
 
     -- ;; mAHiyap_1
     -- mAHy    mAHiy   NapAt   eraser
@@ -1373,7 +1366,7 @@ section_9   = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- mamoHuw~ -}         [ "erased", unwords [ "wiped", "out" ] ] ]
 
 
-section_10  = listing "Lexicon's properties"
+cluster_10  = listing "Lexicon's properties"
 
 
  |> "m .h w r" <| [
@@ -1414,7 +1407,7 @@ section_10  = listing "Lexicon's properties"
     FACI |< aT                `noun`    {- mAHiyap -}          [ "eraser" ] ]
 
 
-section_11  = listing "Lexicon's properties"
+cluster_11  = listing "Lexicon's properties"
 
 
  |> "m .s .s" <| [
@@ -1538,8 +1531,7 @@ section_11  = listing "Lexicon's properties"
     -- AmSAl   >amoSAl N       vaccines;serums
 
     FaCL                      `noun`    {- maSol -}            [ "vaccine", "serum" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'am.sAl N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; maSoliy~_1
     -- mSly    maSoliy~        N-ap    serous;serum     [[maSoliy~/ADJ]]
@@ -1547,7 +1539,7 @@ section_11  = listing "Lexicon's properties"
     FaCL |< Iy                `adj`     {- maSoliy~ -}         [ "serous", "serum" ] ]
 
 
-section_12  = listing "Lexicon's properties"
+cluster_12  = listing "Lexicon's properties"
 
 
  |> "m .s m .s" <| [
@@ -1578,8 +1570,7 @@ section_12  = listing "Lexicon's properties"
     -- AmSAr   >amoSAr N       metropolises
 
     FiCL                      `noun`    {- miSor -}            [ "Egypt", "metropolises" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'am.sAr N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; miSoriy~_1
     -- mSry    miSoriy~        Nall    Egyptian     [[miSoriy~/NOUN]]
@@ -1611,9 +1602,9 @@ section_12  = listing "Lexicon's properties"
     -- mSAryn  maSAriyn        Ndip    entrails;guts
 
     FaCIL                     `noun`    {- maSiyr -}           [ "entrails", "guts" ]
+                              `plural`     FaCALIn
                               `plural`     FuCLAn
-                              `plural`     HaFCiL |< aT
-                           {- `others`  [ "mu.srAn N" ] -},
+                              `plural`     HaFCiL |< aT,
 
     -- ;; tamoSiyr_1
     -- tmSyr   tamoSiyr        N/At    colonization;settlement
@@ -1684,7 +1675,7 @@ section_12  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At ]
 
 
-section_13  = listing "Lexicon's properties"
+cluster_13  = listing "Lexicon's properties"
 
 
  |> "m .t l" <| [
@@ -1711,7 +1702,8 @@ section_13  = listing "Lexicon's properties"
     -- mTyl    maTiyl  Nap     wrought iron
     -- mTA}l   maTA}il Ndip    wrought iron
 
-    FaCIL |< aT               `noun`    {- maTiylap -}         [ unwords [ "wrought", "iron" ] ],
+    FaCIL |< aT               `noun`    {- maTiylap -}         [ unwords [ "wrought", "iron" ] ]
+                              `plural`     FaCA'iL,
 
     -- ;; mumATalap_1
     -- mmATl   mumATal NapAt   delaying;procrastination;postponement
@@ -1756,8 +1748,7 @@ section_13  = listing "Lexicon's properties"
     -- AmTAr   >amoTAr N       rain
 
     FaCaL                     `noun`    {- maTar -}            [ "rain" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'am.tAr N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; maTar_2
     -- mTr     maTar   Nprop   Matar
@@ -1786,8 +1777,7 @@ section_13  = listing "Lexicon's properties"
     MiFCaL                    `noun`    {- mimoTar -}          [ "raincoat", "rainy", unwords [ "abounding", "in", "rain" ] ]
                               `plural`     FACiL |< aT
                               `plural`     MaFACiL
-                              `plural`     MuFCiL |< aT
-                           {- `others`  [ "mamA.tir Ndip" ] -} ]
+                              `plural`     MuFCiL |< aT ]
 
  |> "m .t r n" <| [
 
@@ -1814,8 +1804,7 @@ section_13  = listing "Lexicon's properties"
                               `plural`     KaRADiS |< aT
                               `plural`     KiRDAS
                               `plural`     KaRADIS
-                              `plural`     KaRDAS
-                           {- `others`  [ "mi.trAn Ndu", "ma.tAriyn Ndip", "ma.trAn Ndu" ] -},
+                              `plural`     KaRDAS,
 
     -- ;; muTorAn_2
     -- mTrAn   muTorAn N0      Mutran
@@ -1838,7 +1827,7 @@ section_13  = listing "Lexicon's properties"
     KuRDAS |< Iy |< aT        `noun`    {- muTorAniy~ap -}     [ "archbishopric", "archdiocese" ] ]
 
 
-section_14  = listing "Lexicon's properties"
+cluster_14  = listing "Lexicon's properties"
 
 
  |> "m .t w" <| [
@@ -1906,8 +1895,7 @@ section_14  = listing "Lexicon's properties"
     -- mTAyA   maTAyA  N0_Nhy  expedients;instruments
 
     FaCIL |< aT               `noun`    {- maTiy~ap -}         [ "expedient", "instrument" ]
-                              `plural`     FaCALY
-                           {- `others`  [ "ma.tAyY N0_Nhy" ] -} ]
+                              `plural`     FaCALY ]
 
  |> "m ^g ^g" <| [
 
@@ -1939,7 +1927,7 @@ section_14  = listing "Lexicon's properties"
     FuCAL                     `noun`    {- mujAj -}            [ "saliva", "spittle" ] ]
 
 
-section_15  = listing "Lexicon's properties"
+cluster_15  = listing "Lexicon's properties"
 
 
  |> "m ^g d" <| [
@@ -1984,8 +1972,7 @@ section_15  = listing "Lexicon's properties"
     -- AmjAd   >amojAd N       glories;grandeur
 
     FaCL                      `noun`    {- majod -}            [ "glory", "grandeur" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'am^gAd N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; majodiy~_1
     -- mjdy    majodiy~        N-ap    glorious;laudable     [[majodiy~/ADJ]]
@@ -1998,8 +1985,7 @@ section_15  = listing "Lexicon's properties"
     -- AmjAd   >amojAd N       distinguished people
 
     FaCIL                     `noun`    {- majiyd -}           [ "glorious", "exalted", unwords [ "distinguished", "people" ] ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'am^gAd N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; majiyd_2
     -- mjyd    majiyd  N0      Majeed;Meguid
@@ -2070,11 +2056,10 @@ section_15  = listing "Lexicon's properties"
     -- mwAjl   mawAjil Ndip    cisterns
 
     FACiL                     `noun`    {- mAjil -}            [ "cistern" ]
-                              `plural`     FawACiL
-                           {- `others`  [ "mawA^gil Ndip" ] -} ]
+                              `plural`     FawACiL ]
 
 
-section_16  = listing "Lexicon's properties"
+cluster_16  = listing "Lexicon's properties"
 
 
  |> "m ^g m ^g" <| [
@@ -2163,19 +2148,17 @@ section_16  = listing "Lexicon's properties"
     -- mjAn    muj~An  N       impudent;jokers
 
     FACiL                     `noun`    {- mAjin -}            [ "impudent", "joker" ]
-                              `plural`     FuCCAL
-                           {- `others`  [ "mu^g^gAn N" ] -},
+                              `plural`     FuCCAL,
 
     -- ;; mAjin_2
     -- mAjn    mAjin   Ndu     cistern
     -- mwAjn   mawAjin Ndip    cisterns
 
     FACiL                     `noun`    {- mAjin -}            [ "cistern" ]
-                              `plural`     FawACiL
-                           {- `others`  [ "mawA^gin Ndip" ] -} ]
+                              `plural`     FawACiL ]
 
 
-section_17  = listing "Lexicon's properties"
+cluster_17  = listing "Lexicon's properties"
 
 
  |> "m ^g r" <| [
@@ -2206,8 +2189,7 @@ section_17  = listing "Lexicon's properties"
     -- mwAjyr  mawAjiyr        Ndip    large bowls
 
     FACUL                     `noun`    {- mAjuwr -}           [ unwords [ "large", "bowl" ] ]
-                              `plural`     FawACIL
-                           {- `others`  [ "mawA^giyr Ndip" ] -} ]
+                              `plural`     FawACIL ]
 
  |> "m ^g r .t" <| [
 
@@ -2264,7 +2246,7 @@ section_17  = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- ma$oHap -}          [ unwords [ "extreme", "unction" ] ] ]
 
 
-section_18  = listing "Lexicon's properties"
+cluster_18  = listing "Lexicon's properties"
 
 
  |> "m ^s .t" <| [
@@ -2307,8 +2289,7 @@ section_18  = listing "Lexicon's properties"
     FiCL                      `noun`    {- mi$oT -}            [ "comb" ]
                               `plural`     FuCL
                               `plural`     FiCAL
-                              `plural`     HaFCAL
-                           {- `others`  [ "mu^s.t Ndu", "mi^sA.t N", "'am^sA.t N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; mu$oTiy~_1
     -- m$Ty    mu$oTiy~        N-ap    indented;jagged;comb-like     [[mu$oTiy~/ADJ]]
@@ -2344,8 +2325,7 @@ section_18  = listing "Lexicon's properties"
     -- Am$Aj   >amo$Aj N       gamete;germ cells
 
     FaCIL                     `noun`    {- ma$iyj -}           [ "gamete", unwords [ "germ", "cell" ] ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'am^sA^g N" ] -} ]
+                              `plural`     HaFCAL ]
 
  |> "m ^s ^s" <| [
 
@@ -2389,8 +2369,7 @@ section_18  = listing "Lexicon's properties"
     -- mwA$k   mawA$ik Ndip    fire tongs
 
     FACiL                     `noun`    {- mA$ik -}            [ unwords [ "fire", "tongs" ] ]
-                              `plural`     FawACiL
-                           {- `others`  [ "mawA^sik Ndip" ] -} ]
+                              `plural`     FawACiL ]
 
  |> "m ^s m ^s" <| [
 
@@ -2406,7 +2385,7 @@ section_18  = listing "Lexicon's properties"
     KiRDiS |< Iy              `adj`     {- mi$omi$iy~ -}       [ unwords [ "apricot", "-", "colored" ] ] ]
 
 
-section_19  = listing "Lexicon's properties"
+cluster_19  = listing "Lexicon's properties"
 
 
  |> "m ^s q" <| [
@@ -2437,8 +2416,7 @@ section_19  = listing "Lexicon's properties"
     -- Am$Aq   >amo$Aq N       models;patterns
 
     FaCL                      `noun`    {- ma$oq -}            [ "model", "pattern" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'am^sAq N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; mi$oq_1
     -- m$q     mi$oq   N-ap    slender;slim
@@ -2450,8 +2428,7 @@ section_19  = listing "Lexicon's properties"
     -- m$q     mi$aq   N       wool;cotton;rags
 
     FiCL |< aT                `noun`    {- mi$oqap -}          [ "wool", "cotton", "rag" ]
-                              `plural`     FiCaL
-                           {- `others`  [ "mi^saq N" ] -},
+                              `plural`     FiCaL,
 
     -- ;; ma$iyq_1
     -- m$yq    ma$iyq  N-ap    slender;slim     [[ma$iyq/ADJ]]
@@ -2507,7 +2484,7 @@ section_19  = listing "Lexicon's properties"
     MutaKaRDiS                `adj`     {- mutama$owir -}      [ "walking", "promenading" ] ]
 
 
-section_20  = listing "Lexicon's properties"
+cluster_20  = listing "Lexicon's properties"
 
 
  |> "m ^s y" <| [
@@ -2611,8 +2588,7 @@ section_20  = listing "Lexicon's properties"
     -- mmA$    mamA$   NK      corridors;promenades
 
     MaFCY                     `noun`    {- mamo$aY -}          [ "corridor", "promenade" ]
-                              `plural`     MaFACI
-                           {- `others`  [ "mamA^siy N0_Nh" ] -},
+                              `plural`     MaFACI,
 
     -- ;; tamA$iy_1
     -- tmA$y   tamA$iy NF      in accordance with;in conformity with     [[tamA$iy/ADV]]
@@ -2639,8 +2615,7 @@ section_20  = listing "Lexicon's properties"
     -- mwA$    mawA$   NK      livestock;cattle
 
     FACI |< aT                `noun`    {- mA$iyap -}          [ "livestock", "cattle" ]
-                              `plural`     FawACI
-                           {- `others`  [ "mawA^siy N0_Nh" ] -} ]
+                              `plural`     FawACI ]
 
  |> "m _d _d" <| [
 
@@ -2649,7 +2624,8 @@ section_20  = listing "Lexicon's properties"
     -- m*Ak    mu*~Ak  FW-Wa   since then    [[mu*~Ak/PREP]]
     -- m**Ak   mu*o*Ak FW-Wa   since then    [[mu*o*Ak/PREP]]
 
-    FuL                       `prep`    {- mu* -}              [ "since", unwords [ "since", "then" ] ] ]
+    FuL                       `prep`    {- mu* -}              [ "since", unwords [ "since", "then" ] ]
+                           {- `others`  [ "mu_d_dAk FW-Wa" ] -} ]
 
  |> "m _d h b" <| [
 
@@ -2689,7 +2665,7 @@ section_20  = listing "Lexicon's properties"
     FaCAL                     `noun`    {- ma*Al -}            [ "revealing", "disclosing" ] ]
 
 
-section_21  = listing "Lexicon's properties"
+cluster_21  = listing "Lexicon's properties"
 
 
  |> "m _d q" <| [
@@ -2716,8 +2692,7 @@ section_21  = listing "Lexicon's properties"
     -- mmA*q   mumA*iq Nall    insincere;hypocrite
 
     FaCCAL                    `noun`    {- ma*~Aq -}           [ "insincere", "hypocrite" ]
-                              `plural`     MuFACiL
-                           {- `others`  [ "mumA_diq Nall" ] -} ]
+                              `plural`     MuFACiL ]
 
  |> "m _d r" <| [
 
@@ -2757,7 +2732,8 @@ section_21  = listing "Lexicon's properties"
     -- m*Ak    mu*~Ak  FW-Wa   since then    [[mu*~Ak/PREP]]
     -- m**Ak   mu*o*Ak FW-Wa   since then    [[mu*o*Ak/PREP]]
 
-    FuC                       `prep`    {- mu* -}              [ "since", unwords [ "since", "then" ] ] ]
+    FuC                       `prep`    {- mu* -}              [ "since", unwords [ "since", "then" ] ]
+                           {- `others`  [ "mu_d_dAk FW-Wa" ] -} ]
 
  |> "m _h .d" <| [
 
@@ -2805,11 +2781,10 @@ section_21  = listing "Lexicon's properties"
     -- mmAxD   mamAxiD Ndip    churns
 
     MiFCaL |< aT              `noun`    {- mimoxaDap -}        [ "churn" ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "mamA_hi.d Ndip" ] -} ]
+                              `plural`     MaFACiL ]
 
 
-section_22  = listing "Lexicon's properties"
+cluster_22  = listing "Lexicon's properties"
 
 
  |> "m _h .t" <| [
@@ -2864,8 +2839,7 @@ section_22  = listing "Lexicon's properties"
     -- mxAx    mixAx   N       brains
 
     FuCL                      `noun`    {- mux~ -}             [ "brain" ]
-                              `plural`     FiCAL
-                           {- `others`  [ "mi_hA_h N" ] -},
+                              `plural`     FiCAL,
 
     -- ;; mux~iy~_1
     -- mxy     mux~iy~ N-ap    cerebral;brain     [[mux~iy~/ADJ]]
@@ -2882,16 +2856,14 @@ section_22  = listing "Lexicon's properties"
 
     FuCL                      `noun`    {- muxol -}            [ "level", "crowbar" ]
                               `plural`     HaFCAL
-                              `plural`     FuCUL
-                           {- `others`  [ "'am_hAl N", "mu_huwl N" ] -},
+                              `plural`     FuCUL,
 
     -- ;; mixolap_1
     -- mxl     mixol   Nap     nosebag
     -- mxl     mixal   N       nosebags
 
     FiCL |< aT                `noun`    {- mixolap -}          [ "nosebag" ]
-                              `plural`     FiCaL
-                           {- `others`  [ "mi_hal N" ] -} ]
+                              `plural`     FiCaL ]
 
  |> "m _h m .d" <| [
 
@@ -2920,16 +2892,14 @@ section_22  = listing "Lexicon's properties"
     -- mwAxr   mawAxir Ndip    ships
 
     FACiL |< aT               `noun`    {- mAxirap -}          [ "ship" ]
-                              `plural`     FawACiL
-                           {- `others`  [ "mawA_hir Ndip" ] -},
+                              `plural`     FawACiL,
 
     -- ;; mAxuwr_1
     -- mAxwr   mAxuwr  Ndu     brothel
     -- mwAxr   mawAxir Ndip    brothels
 
     FACUL                     `noun`    {- mAxuwr -}           [ "brothel" ]
-                              `plural`     FawACiL
-                           {- `others`  [ "mawA_hir Ndip" ] -} ]
+                              `plural`     FawACiL ]
 
  |> "m _h r q" <| [
 
@@ -2952,7 +2922,7 @@ section_22  = listing "Lexicon's properties"
     FaCAL                     `noun`    {- mavAv -}            [ unwords [ "cosmetic", "cream", "or", "ointment" ] ] ]
 
 
-section_23  = listing "Lexicon's properties"
+cluster_23  = listing "Lexicon's properties"
 
 
  |> "m _t l" <| [
@@ -2966,7 +2936,7 @@ section_23  = listing "Lexicon's properties"
 
     FiCL |<< "a"              `prep`    {- mivola -}           [ "like", unwords [ "such", "as" ] ]
                               `plural`     FiCL
-                           {- `others`  [ "mi_tl FW-Wa-o" ] -},
+                           {- `others`  [ "mi_tli FW-Wa FW-Wa-i" ] -},
 
     -- ;; mivol_1
     -- mvl     mivol   N       same;like
@@ -3035,8 +3005,7 @@ section_23  = listing "Lexicon's properties"
     -- AmvAl   >amovAl N       examples;proverbs;the likes of
 
     FaCaL                     `adv`     {- maval -}            [ "example", "proverb", unwords [ "for", "example" ], unwords [ "the", "likes", "of" ] ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'am_tAl N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; mivAl_1
     -- mvAl    mivAl   N       example;model
@@ -3066,7 +3035,8 @@ section_23  = listing "Lexicon's properties"
     -- mvAl    mavAl   NapAt   task;assignment
     -- mvA}l   mavA}il Ndip    tasks;assignments
 
-    FaCAL |< aT               `noun`    {- mavAlap -}          [ "task", "assignment" ],
+    FaCAL |< aT               `noun`    {- mavAlap -}          [ "task", "assignment" ]
+                              `plural`     FaCA'iL,
 
     -- ;; maviyl_1
     -- mvyl    maviyl  N/ap    equal;match;peer
@@ -3085,8 +3055,7 @@ section_23  = listing "Lexicon's properties"
     -- AmAvyl  >amAviyl        Ndip    examples;lessons;warnings
 
     HuFCUL |< aT              `noun`    {- Oumovuwlap -}       [ "example", "lesson", "warning" ]
-                              `plural`     HaFACIL
-                           {- `others`  [ "'amA_tiyl Ndip" ] -},
+                              `plural`     HaFACIL,
 
     -- ;; >amoval_1
     -- >mvl    >amoval Nel     exemplary;ideal
@@ -3100,16 +3069,14 @@ section_23  = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oamoval -}          [ "exemplary", "ideal" ]
                               `plural`     FuCLY |< At
-                              `plural`     HaFACiL
-                           {- `others`  [ "mu_tlY N0 NAn_Nayn", "'amA_til Ndip" ] -},
+                              `plural`     HaFACiL,
 
     -- ;; timovAl_1
     -- tmvAl   timovAl Ndu     statue
     -- tmAvyl  tamAviyl        Ndip    statues
 
     TiFCAL                    `noun`    {- timovAl -}          [ "statue" ]
-                              `plural`     TaFACIL
-                           {- `others`  [ "tamA_tiyl Ndip" ] -},
+                              `plural`     TaFACIL,
 
     -- ;; tamoviyl_1
     -- tmvyl   tamoviyl        N/At    representation;acting;exemplification
@@ -3209,7 +3176,7 @@ section_23  = listing "Lexicon's properties"
     MuFtaCiL                  `adj`     {- mumotavil -}        [ "obedient", "compliant" ] ]
 
 
-section_24  = listing "Lexicon's properties"
+cluster_24  = listing "Lexicon's properties"
 
 
  |> "m _t n" <| [
@@ -3240,9 +3207,7 @@ section_24  = listing "Lexicon's properties"
     -- AmEA}   >amoEA} Nhy     intestines;entrails
 
     FiCAL                     `noun`    {- miEA' -}            [ "intestines", "entrails" ]
-                              `plural`     HaFCAL
-                              `plural`     HaFCA'
-                           {- `others`  [ "'am`A' Nh N0_Nh Nhy" ] -} ]
+                              `plural`     HaFCAL ]
 
  |> "m ` .d" <| [
 
@@ -3298,8 +3263,7 @@ section_24  = listing "Lexicon's properties"
     FaCiL                     `noun`    {- maEiT -}            [ "bald" ]
                               `plural`     HaFCaL
                               `plural`     FuCL
-                              `plural`     FaCLA'
-                           {- `others`  [ "'am`a.t Nel", "mu`.t N", "ma`.tA' Nh N0_Nh Nhy" ] -} ]
+                              `plural`     FaCLA' ]
 
  |> "m ` ^g" <| [
 
@@ -3318,8 +3282,7 @@ section_24  = listing "Lexicon's properties"
 
     FaL |<< "a"               `prep`    {- maEa -}             [ "with" ]
                               `plural`     FaL
-                              `plural`     FaC
-                           {- `others`  [ "ma` FW-Wa-o" ] -},
+                              `plural`     FaC,
 
     -- ;; maEAF_1
     -- mEA     maEAF   FW-Wa   together        [[maEAF/ADV]]
@@ -3352,8 +3315,7 @@ section_24  = listing "Lexicon's properties"
 
     FaCiL |< aT               `noun`    {- maEidap -}          [ "stomach" ]
                               `plural`     FiCL
-                              `plural`     FiCaL
-                           {- `others`  [ "mi`d Napdu", "mi`ad N" ] -},
+                              `plural`     FiCaL,
 
     -- ;; maEodiy~_1
     -- mEdy    maEodiy~        N-ap    gastric;stomach     [[maEodiy~/ADJ]]
@@ -3367,7 +3329,7 @@ section_24  = listing "Lexicon's properties"
     MaFCUL                    `noun`    {- mamoEuwd -}         [ unwords [ "having", "a", "gastric", "ailment" ], "dyspeptic" ] ]
 
 
-section_25  = listing "Lexicon's properties"
+cluster_25  = listing "Lexicon's properties"
 
 
  |> "m ` d n" <| [
@@ -3429,16 +3391,14 @@ section_25  = listing "Lexicon's properties"
     -- mwAEyn  mawAEiyn        Ndip    instruments;containers
 
     FACUL                     `noun`    {- mAEuwn -}           [ "instrument", "container" ]
-                              `plural`     FawACIL
-                           {- `others`  [ "mawA`iyn Ndip" ] -},
+                              `plural`     FawACIL,
 
     -- ;; mAEuwnap_1
     -- mAEwn   mAEuwn  NapAt   barge
     -- mwAEyn  mawAEiyn        Ndip    barges
 
     FACUL |< aT               `noun`    {- mAEuwnap -}         [ "barge" ]
-                              `plural`     FawACIL
-                           {- `others`  [ "mawA`iyn Ndip" ] -},
+                              `plural`     FawACIL,
 
     -- ;; <imoEAn_1
     -- <mEAn   <imoEAn N/At    close examination;scrutiny
@@ -3507,7 +3467,7 @@ section_25  = listing "Lexicon's properties"
     FaCL                      `noun`    {- maEos -}            [ "rubbing", "crushing" ] ]
 
 
-section_26  = listing "Lexicon's properties"
+cluster_26  = listing "Lexicon's properties"
 
 
  |> "m ` w" <| [
@@ -3534,8 +3494,7 @@ section_26  = listing "Lexicon's properties"
     -- mE      maE     FW-Wa-o with     [[maE/PREP]]
 
     FaC |<< "a"               `prep`    {- maEa -}             [ "with" ]
-                              `plural`     FaC
-                           {- `others`  [ "ma` FW-Wa-o" ] -},
+                              `plural`     FaC,
 
     -- ;; maEAF_1
     -- mEA     maEAF   FW-Wa   together        [[maEAF/ADV]]
@@ -3570,8 +3529,7 @@ section_26  = listing "Lexicon's properties"
     -- AmEA}   >amoEA} Nhy     intestines;entrails
 
     FiCA'                     `noun`    {- miEA' -}            [ "intestines", "entrails" ]
-                              `plural`     HaFCA'
-                           {- `others`  [ "'am`A' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFCA',
 
     -- ;; miEawiy~_1
     -- mEwy    miEawiy~        N-ap    intestinal;enteric     [[miEawiy~/ADJ]]
@@ -3598,8 +3556,7 @@ section_26  = listing "Lexicon's properties"
     -- mEz     maEaz   N       goats
 
     FaCL                      `noun`    {- maEoz -}            [ "goats" ]
-                              `plural`     FaCaL
-                           {- `others`  [ "ma`az N" ] -},
+                              `plural`     FaCaL,
 
     -- ;; mAEiz_1
     -- mAEz    mAEiz   Ndu     goat;billy goat
@@ -3608,8 +3565,7 @@ section_26  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- mAEiz -}            [ "goat", unwords [ "billy", "goat" ] ]
                               `plural`     FawACiL
-                              `plural`     FaCIL
-                           {- `others`  [ "mawA`iz Ndip", "ma`iyz N" ] -},
+                              `plural`     FaCIL,
 
     -- ;; mAEizap_1
     -- mAEz    mAEiz   Napdu   nanny goat
@@ -3622,7 +3578,7 @@ section_26  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- maE~Az -}           [ "goatherd" ] ]
 
 
-section_27  = listing "Lexicon's properties"
+cluster_27  = listing "Lexicon's properties"
 
 
  |> "m d '" <| [
@@ -3648,7 +3604,8 @@ section_27  = listing "Lexicon's properties"
     -- mydA}   miydA}i FW-Wa-i in front of;facing     [[miydA}i/PREP]]
     -- bmydA}  bimiydA}i       FW-Wa-i in front of;facing     [[bimiydA}i/PREP]]
 
-    MICAL |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ],
+    MICAL |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
+                           {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
 
     -- ;; miydA'a_1
     -- mydA'   miydA'a FW-Wa   in front of;facing     [[miydA'a/PREP]]
@@ -3657,7 +3614,8 @@ section_27  = listing "Lexicon's properties"
     -- mydA}   miydA}i FW-Wa-i in front of;facing     [[miydA}i/PREP]]
     -- bmydA}  bimiydA}i       FW-Wa-i in front of;facing     [[bimiydA}i/PREP]]
 
-    FICAL |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ],
+    FICAL |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
+                           {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
 
     -- ;; miydAwiy~_1
     -- mydAwy  miydAwiy~       N0      Midaoui;Midawi
@@ -3668,13 +3626,6 @@ section_27  = listing "Lexicon's properties"
     -- mydAwy  miydAwiy~       N0      Midaoui;Midawi
 
     FICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ] ]
-
- |> "m d ' n" <| [
-
-    -- ;; madA}in_1
-    -- mdA}n   madA}in Ndip    Mada'in
-
-    KaRADiS                   `noun`    {- madA}in -}          [ "Mada'in" ] ]
 
  |> "m d .h" <| [
 
@@ -3713,7 +3664,8 @@ section_27  = listing "Lexicon's properties"
     -- mdyH    madiyH  N       praise;commendation;acclaim
     -- mdA}H   madA}iH Ndip    praises;commendations;acclaim
 
-    FaCIL                     `noun`    {- madiyH -}           [ "praise", "commendation", "acclaim" ],
+    FaCIL                     `noun`    {- madiyH -}           [ "praise", "commendation", "acclaim" ]
+                              `plural`     FaCA'iL,
 
     -- ;; tamad~uH_1
     -- tmdH    tamad~uH        N/At    glorification;ostentation
@@ -3738,7 +3690,7 @@ section_27  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- mad~AH -}           [ "eulogist", "praising" ] ]
 
 
-section_28  = listing "Lexicon's properties"
+cluster_28  = listing "Lexicon's properties"
 
 
  |> "m d d" <| [
@@ -3809,8 +3761,7 @@ section_28  = listing "Lexicon's properties"
     -- mdwd    muduwd  N       extension;lengthening;spreading
 
     FaCL                      `noun`    {- mad~ -}             [ "extension", "lengthening", "spreading" ]
-                              `plural`     FuCUL
-                           {- `others`  [ "muduwd N" ] -},
+                              `plural`     FuCUL,
 
     -- ;; mud~ap_1
     -- md      mud~    Napdu   period of time;interval
@@ -3828,8 +3779,7 @@ section_28  = listing "Lexicon's properties"
     -- AmdAd   >amodAd N       assistance;aid;reinforcements
 
     FaCaL                     `noun`    {- madad -}            [ "assistance", "aid", "reinforcement" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'amdAd N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; midAd_1
     -- mdAd    midAd   N       ink;style
@@ -3841,8 +3791,7 @@ section_28  = listing "Lexicon's properties"
     -- mdd     mudud   N       prolonged;extended
 
     FaCIL                     `adj`     {- madiyd -}           [ "prolonged", "extended" ]
-                              `plural`     FuCuL
-                           {- `others`  [ "mudud N" ] -},
+                              `plural`     FuCuL,
 
     -- ;; tamodiyd_1
     -- tmdyd   tamodiyd        N/At    extension;prolongation;lengthening
@@ -3899,19 +3848,22 @@ section_28  = listing "Lexicon's properties"
     -- mAd     mAd~    Napdu   substance;material
     -- mwAd    mawAd~  Ndip    substances;materials
 
-    FACL |< aT                `noun`    {- mAd~ap -}           [ "substance", "material" ],
+    FACL |< aT                `noun`    {- mAd~ap -}           [ "substance", "material" ]
+                           {- `others`  [ "mawAdd Ndip" ] -},
 
     -- ;; mAd~ap_2
     -- mAd     mAd~    Napdu   subject;topic
     -- mwAd    mawAd~  Ndip    subjects;topics
 
-    FACL |< aT                `noun`    {- mAd~ap -}           [ "subject", "topic" ],
+    FACL |< aT                `noun`    {- mAd~ap -}           [ "subject", "topic" ]
+                           {- `others`  [ "mawAdd Ndip" ] -},
 
     -- ;; mAd~ap_3
     -- mAd     mAd~    Napdu   article;paragraph
     -- mwAd    mawAd~  Ndip    articles;paragraphs
 
-    FACL |< aT                `noun`    {- mAd~ap -}           [ "article", "paragraph" ],
+    FACL |< aT                `noun`    {- mAd~ap -}           [ "article", "paragraph" ]
+                           {- `others`  [ "mawAdd Ndip" ] -},
 
     -- ;; mAd~iy~_1
     -- mAdy    mAd~iy~ N-ap    material;physical     [[mAd~iy~/ADJ]]
@@ -3959,7 +3911,7 @@ section_28  = listing "Lexicon's properties"
     FaL |<< "awIy"            `adj`     {- madawiy~ -}         [ "cutler" ] ]
 
 
-section_29  = listing "Lexicon's properties"
+cluster_29  = listing "Lexicon's properties"
 
 
  |> "m d l" <| [
@@ -4018,12 +3970,17 @@ section_29  = listing "Lexicon's properties"
 
     FaCIL |< aT               `noun`    {- madiynap -}         [ "city" ]
                               `plural`     FuCuL
-                           {- `others`  [ "mudun N" ] -},
+                              `plural`     FaCA'iL,
 
     -- ;; madiynap_2
     -- mdyn    madiyn  Nap     Medina
 
     FaCIL |< aT               `noun`    {- madiynap -}         [ "Medina" ],
+
+    -- ;; madA}in_1
+    -- mdA}n   madA}in Ndip    Mada'in
+
+    FaCA'iL                   `noun`    {- madA}in -}          [ "Mada'in" ],
 
     -- ;; madaniy~_1
     -- mdny    madaniy~        Nall    civilian     [[madaniy~/ADJ]]
@@ -4081,16 +4038,16 @@ section_29  = listing "Lexicon's properties"
 
     KaRDIS                    `noun`    {- madoriyd -}         [ "Madrid" ] ]
 
+
+cluster_30  = listing "Lexicon's properties"
+
+
  |> "m d r s" <| [
 
     -- ;; madorAs_1
     -- mdrAs   madorAs N0      Madras
 
     KaRDAS                    `noun`    {- madorAs -}          [ "Madras" ] ]
-
-
-section_30  = listing "Lexicon's properties"
-
 
  |> "m d y" <| [
 
@@ -4139,16 +4096,14 @@ section_30  = listing "Lexicon's properties"
     -- mdA     madA    Nhy     extent;range
 
     FaCY                      `noun`    {- madaY -}            [ "extent", "range" ]
-                              `plural`     FaCA
-                           {- `others`  [ "madA Nhy" ] -},
+                              `plural`     FaCA,
 
     -- ;; madaY_2
     -- mdY     madaY   N0      period;duration
     -- mdA     madA    Nhy     period;duration
 
     FaCY                      `noun`    {- madaY -}            [ "period", "duration" ]
-                              `plural`     FaCA
-                           {- `others`  [ "madA Nhy" ] -},
+                              `plural`     FaCA,
 
     -- ;; mudoyap_1
     -- mdy     mudoy   Nap     knife
@@ -4160,8 +4115,7 @@ section_30  = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- mudoyap -}          [ "knife" ]
                               `plural`     FuCY
                               `plural`     FaCL |< aT
-                              `plural`     FiCL |< aT
-                           {- `others`  [ "mudY N0" ] -},
+                              `plural`     FiCL |< aT,
 
     -- ;; madawiy~_1
     -- mdwy    madawiy~        Nall    cutler     [[madawiy~/ADJ]]
@@ -4220,11 +4174,10 @@ section_30  = listing "Lexicon's properties"
     -- mhj     muhaj   N       lifeblood;soul;core
 
     FuCL |< aT                `noun`    {- muhojap -}          [ "lifeblood", "soul", "core" ]
-                              `plural`     FuCaL
-                           {- `others`  [ "muha^g N" ] -} ]
+                              `plural`     FuCaL ]
 
 
-section_31  = listing "Lexicon's properties"
+cluster_31  = listing "Lexicon's properties"
 
 
  |> "m h d" <| [
@@ -4246,8 +4199,7 @@ section_31  = listing "Lexicon's properties"
     -- mhwd    muhuwd  N       cradles
 
     FaCL                      `noun`    {- mahod -}            [ "cradle" ]
-                              `plural`     FuCUL
-                           {- `others`  [ "muhuwd N" ] -},
+                              `plural`     FuCUL,
 
     -- ;; mihAd_1
     -- mhAd    mihAd   N       resting place;bosom
@@ -4293,7 +4245,7 @@ section_31  = listing "Lexicon's properties"
                               `plural`     FuCL |< aT ]
 
 
-section_32  = listing "Lexicon's properties"
+cluster_32  = listing "Lexicon's properties"
 
 
  |> "m h l" <| [
@@ -4385,7 +4337,7 @@ section_32  = listing "Lexicon's properties"
     MutaFACiL                 `noun`    {- mutamAhil -}        [ "unhurried", "slow" ] ]
 
 
-section_33  = listing "Lexicon's properties"
+cluster_33  = listing "Lexicon's properties"
 
 
  |> "m h n" <| [
@@ -4424,8 +4376,7 @@ section_33  = listing "Lexicon's properties"
     -- mhn     mihan   N       vocations;professions;occupations
 
     FiCL |< aT                `noun`    {- mihonap -}          [ "vocation", "profession", "occupation" ]
-                              `plural`     FiCaL
-                           {- `others`  [ "mihan N" ] -},
+                              `plural`     FiCaL,
 
     -- ;; mihoniy~_1
     -- mhny    mihoniy~        N-ap    professional;vocational;occupational     [[mihoniy~/ADJ]]
@@ -4454,8 +4405,7 @@ section_33  = listing "Lexicon's properties"
     -- mhAn    muh~An  N       menial servant
 
     FACiL                     `noun`    {- mAhin -}            [ unwords [ "menial", "servant" ] ]
-                              `plural`     FuCCAL
-                           {- `others`  [ "muhhAn N" ] -} ]
+                              `plural`     FuCCAL ]
 
  |> "m h q" <| [
 
@@ -4469,11 +4419,10 @@ section_33  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- mahaq -}            [ "albinism", "albino" ]
                               `plural`     FaCLA'
-                              `plural`     HaFCaL
-                           {- `others`  [ "mahqA' Nh N0_Nh Nhy", "'amhaq Nel" ] -} ]
+                              `plural`     HaFCaL ]
 
 
-section_34  = listing "Lexicon's properties"
+cluster_34  = listing "Lexicon's properties"
 
 
  |> "m h r" <| [
@@ -4506,8 +4455,7 @@ section_34  = listing "Lexicon's properties"
     -- mhwr    muhuwr  N       dowries
 
     FaCL                      `noun`    {- mahor -}            [ "dowry" ]
-                              `plural`     FuCUL
-                           {- `others`  [ "muhuwr N" ] -},
+                              `plural`     FuCUL,
 
     -- ;; muhor_1
     -- mhr     muhor   Ndu     foal;colt
@@ -4517,16 +4465,14 @@ section_34  = listing "Lexicon's properties"
 
     FuCL                      `noun`    {- muhor -}            [ "foal", "colt" ]
                               `plural`     HaFCAL
-                              `plural`     FiCAL |< aT
-                           {- `others`  [ "'amhAr N" ] -},
+                              `plural`     FiCAL |< aT,
 
     -- ;; muhorap_1
     -- mhr     muhor   NapAt   filly
     -- mhr     muhar   N       fillies
 
     FuCL |< aT                `noun`    {- muhorap -}          [ "filly" ]
-                              `plural`     FuCaL
-                           {- `others`  [ "muhar N" ] -},
+                              `plural`     FuCaL,
 
     -- ;; muhayoriy~_1
     -- mhyry   muhayoriy~      N0      Muhairi
@@ -4568,7 +4514,8 @@ section_34  = listing "Lexicon's properties"
     -- mhAtyr  mahAtiyr        Nprop   Mahattir
     -- mhA$y   mahA$iy Nprop   Mahachi
 
-    KaRADIS                   `noun`    {- mahAtiyr -}         [ "Mahattir", "Mahachi" ] ]
+    KaRADIS                   `noun`    {- mahAtiyr -}         [ "Mahattir", "Mahachi" ]
+                           {- `others`  [ "mahA^siy Nprop" ] -} ]
 
  |> "m h w" <| [
 
@@ -4619,7 +4566,7 @@ section_34  = listing "Lexicon's properties"
     KaRDaS                    `verb`    {- makodam -}          [ "macadamize", "pave" ] ]
 
 
-section_35  = listing "Lexicon's properties"
+cluster_35  = listing "Lexicon's properties"
 
 
  |> "m k k" <| [
@@ -4645,16 +4592,14 @@ section_35  = listing "Lexicon's properties"
     -- mkAkyk  makAkiyk        Ndip    shuttles
 
     FaCCUL                    `noun`    {- mak~uwk -}          [ "shuttle" ]
-                              `plural`     FaCACIL
-                           {- `others`  [ "makAkiyk Ndip" ] -},
+                              `plural`     FaCACIL,
 
     -- ;; mAkuwk_1
     -- mAkwk   mAkuwk  Ndu     shuttle
     -- mwAkyk  mawAkiyk        Ndip    shuttles
 
     FACUL                     `noun`    {- mAkuwk -}           [ "shuttle" ]
-                              `plural`     FawACIL
-                           {- `others`  [ "mawAkiyk Ndip" ] -},
+                              `plural`     FawACIL,
 
     -- ;; mAkuwkiy~_1
     -- mAkwky  mAkuwkiy~       Nall    shuttle     [[mAkuwkiy~/ADJ]]
@@ -4662,7 +4607,7 @@ section_35  = listing "Lexicon's properties"
     FACUL |< Iy               `adj`     {- mAkuwkiy~ -}        [ "shuttle" ] ]
 
 
-section_36  = listing "Lexicon's properties"
+cluster_36  = listing "Lexicon's properties"
 
 
  |> "m k n" <| [
@@ -4707,8 +4652,7 @@ section_36  = listing "Lexicon's properties"
     -- mknA}   mukanA} Nhy     strong;influential
 
     FaCIL                     `adj`     {- makiyn -}           [ "strong", "influential" ]
-                              `plural`     FuCaLA'
-                           {- `others`  [ "mukanA' Nh N0_Nh Nhy" ] -},
+                              `plural`     FuCaLA',
 
     -- ;; tamokiyn_1
     -- tmkyn   tamokiyn        N/At    enabling;making possible;strengthening
@@ -4765,7 +4709,8 @@ section_36  = listing "Lexicon's properties"
     -- mAkyn   mAkiyn  NapAt   machine
     -- mkA}n   makA}in Ndip    machines
 
-    FaCiL |< aT               `noun`    {- makinap -}          [ "machine" ],
+    FaCiL |< aT               `noun`    {- makinap -}          [ "machine" ]
+                              `plural`     FaCA'iL,
 
     -- ;; makaniy~_1
     -- mkny    makaniy~        Nall    mechanical     [[makaniy~/ADJ]]
@@ -4786,7 +4731,7 @@ section_36  = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- makonakap -}        [ "mechanization", "motorization" ] ]
 
 
-section_37  = listing "Lexicon's properties"
+cluster_37  = listing "Lexicon's properties"
 
 
  |> "m k r" <| [
@@ -4872,8 +4817,7 @@ section_37  = listing "Lexicon's properties"
     -- mkws    mukuws  N       excise taxes;customs duties
 
     FaCL                      `noun`    {- makos -}            [ unwords [ "excise", "tax" ], unwords [ "customs", "duty" ] ]
-                              `plural`     FuCUL
-                           {- `others`  [ "mukuws N" ] -},
+                              `plural`     FuCUL,
 
     -- ;; mak~As_1
     -- mkAs    mak~As  Nall    tax collector
@@ -4894,7 +4838,7 @@ section_37  = listing "Lexicon's properties"
     KaRDIS |< Iy              `adj`     {- makosiykiy~ -}      [ "Mexican" ] ]
 
 
-section_38  = listing "Lexicon's properties"
+cluster_38  = listing "Lexicon's properties"
 
 
  |> "m l '" <| [
@@ -4982,9 +4926,7 @@ section_38  = listing "Lexicon's properties"
     -- AmlA}   >amolA} Nhy     quantity
 
     FiCL                      `noun`    {- milo' -}            [ "filling", "quantity" ]
-                              `plural`     HaFCAL
-                              `plural`     HaFCA'
-                           {- `others`  [ "'amlA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; mala>_1
     -- ml>     mala>   N0_Nh   crowd;assembly;audience
@@ -4998,9 +4940,7 @@ section_38  = listing "Lexicon's properties"
     -- AmlA}   >amolA} Nhy     crowd;assembly;audience
 
     FaCaL                     `noun`    {- malaO -}            [ "crowd", "assembly", "audience" ]
-                              `plural`     HaFCAL
-                              `plural`     HaFCA'
-                           {- `others`  [ "'amlA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; maliy'_1
     -- mly'    maliy'  N0      full;filled;replete     [[maliy'/ADJ]]
@@ -5016,17 +4956,16 @@ section_38  = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- maliy' -}           [ "full", "filled", "replete" ]
                               `plural`     FiCAL
-                              `plural`     FiCA'
                               `plural`     FaCLAn |< aT
                               `plural`     FaCIL |< Un
-                              `plural`     FaCLY
-                           {- `others`  [ "milA' Nh N0_Nh Nhy", "mal'Y N0" ] -},
+                              `plural`     FaCLY,
 
     -- ;; mumAla>ap_1
     -- mmAl>   mumAla> Napdu   partiality;bias;collaboration
     -- mmAl    mumAla  N-|t    partiality;bias;collaboration
 
-    MuFACaL |< aT             `noun`    {- mumAlaOap -}        [ "partiality", "bias", "collaboration" ],
+    MuFACaL |< aT             `noun`    {- mumAlaOap -}        [ "partiality", "bias", "collaboration" ]
+                           {- `others`  [ "mumAla N-|t" ] -},
 
     -- ;; <imolA'_1
     -- <mlA'   <imolA' N0_Nh   filling;filling out
@@ -5043,8 +4982,7 @@ section_38  = listing "Lexicon's properties"
     -- AmlA'   <imolA' NAt     filling;filling out
 
     HiFCAL                    `noun`    {- IimolA' -}          [ "filling", unwords [ "filling", "out" ] ]
-                              `plural`     HiFCAL |< At
-                              `plural`     HiFCA' |< At,
+                              `plural`     HiFCAL |< At,
 
     -- ;; {imotilA'_1
     -- <mtlA'  {imotilA'       N0_Nh   repletion;fullness
@@ -5061,8 +4999,7 @@ section_38  = listing "Lexicon's properties"
     -- AmtlA'  {imotilA'       NAt     repletion;fullness
 
     IFtiCAL                   `noun`    {- AimotilA' -}        [ "repletion", "fullness" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiCA' |< At,
+                              `plural`     IFtiCAL |< At,
 
     -- ;; mamoluw'_1
     -- mmlw'   mamoluw'        Nall    full;loaded     [[mamoluw'/ADJ]]
@@ -5103,8 +5040,7 @@ section_38  = listing "Lexicon's properties"
     -- AmlA'   <imolA' NAt     dictation;orthography
 
     HiFCAL                    `noun`    {- IimolA' -}          [ "dictation", "orthography" ]
-                              `plural`     HiFCAL |< At
-                              `plural`     HiFCA' |< At,
+                              `plural`     HiFCAL |< At,
 
     -- ;; <imolA}iy~_1
     -- <mlA}y  <imolA}iy~      N-ap    orthographic;spelling     [[<imolA}iy~/ADJ]]
@@ -5113,7 +5049,7 @@ section_38  = listing "Lexicon's properties"
     HiFCAL |< Iy              `adj`     {- IimolA}iy~ -}       [ "orthographic", "spelling" ] ]
 
 
-section_39  = listing "Lexicon's properties"
+cluster_39  = listing "Lexicon's properties"
 
 
  |> "m l .h" <| [
@@ -5162,8 +5098,7 @@ section_39  = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- miloH -}            [ "salt", "gunpowder" ]
                               `plural`     FiCAL
-                              `plural`     HaFCAL
-                           {- `others`  [ "milA.h N", "'amlA.h N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; miloH_2
     -- mlH     miloH   N-ap    salty;saline
@@ -5185,8 +5120,7 @@ section_39  = listing "Lexicon's properties"
     -- mlH     mulaH   N       anecdotes;witticisms
 
     FuCL |< aT                `noun`    {- muloHap -}          [ "anecdote", "witticism" ]
-                              `plural`     FuCaL
-                           {- `others`  [ "mula.h N" ] -},
+                              `plural`     FuCaL,
 
     -- ;; mal~AH_1
     -- mlAH    mal~AH  Nall    sailor;navigator;pilot
@@ -5236,8 +5170,7 @@ section_39  = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- maliyH -}           [ "pretty", "cute", "attractive" ]
                               `plural`     FiCAL
-                              `plural`     HaFCAL
-                           {- `others`  [ "milA.h N", "'amlA.h N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; >amolaH_2
     -- >mlH    >amolaH Nel     saline;salty
@@ -5247,8 +5180,7 @@ section_39  = listing "Lexicon's properties"
     -- mlHA}   maloHA} Nhy     saline;salty
 
     HaFCaL                    `noun`    {- OamolaH -}          [ "saline", "salty" ]
-                              `plural`     FaCLA'
-                           {- `others`  [ "mal.hA' Nh N0_Nh Nhy" ] -},
+                              `plural`     FaCLA',
 
     -- ;; >umoluwHap_1
     -- >mlwH   >umoluwH        Napdu   joke;anecdote
@@ -5257,16 +5189,14 @@ section_39  = listing "Lexicon's properties"
     -- AmAlyH  >amAliyH        Ndip    jokes;anecdotes
 
     HuFCUL |< aT              `noun`    {- OumoluwHap -}       [ "joke", "anecdote" ]
-                              `plural`     HaFACIL
-                           {- `others`  [ "'amAliy.h Ndip" ] -},
+                              `plural`     HaFACIL,
 
     -- ;; mamolaHap_1
     -- mmlH    mamolaH Napdu   saltworks;salina
     -- mmAlH   mamAliH Ndip    saltworks;salinas
 
     MaFCaL |< aT              `noun`    {- mamolaHap -}        [ "saltworks", "salina" ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "mamAli.h Ndip" ] -},
+                              `plural`     MaFACiL,
 
     -- ;; tamoliyH_1
     -- tmlyH   tamoliyH        N/At    salting;preserving in salt
@@ -5280,8 +5210,7 @@ section_39  = listing "Lexicon's properties"
     -- mwAlH   mawAliH Ndip    citrus fruits
 
     FACiL                     `adj`     {- mAliH -}            [ "salty", "briny", unwords [ "salted", "nuts" ], unwords [ "citrus", "fruits" ] ]
-                              `plural`     FawACiL
-                           {- `others`  [ "mawAli.h Ndip" ] -},
+                              `plural`     FawACiL,
 
     -- ;; mamoluwH_1
     -- mmlwH   mamoluwH        N-ap    salted;salty     [[mamoluwH/ADJ]]
@@ -5299,7 +5228,7 @@ section_39  = listing "Lexicon's properties"
     MustaFCaL                 `adj`     {- musotamolaH -}      [ "witty", "clever" ] ]
 
 
-section_40  = listing "Lexicon's properties"
+cluster_40  = listing "Lexicon's properties"
 
 
  |> "m l .s" <| [
@@ -5377,16 +5306,14 @@ section_40  = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- miloT -}            [ "scoundrel" ]
                               `plural`     HaFCAL
-                              `plural`     FuCUL
-                           {- `others`  [ "'amlA.t N", "muluw.t N" ] -},
+                              `plural`     FuCUL,
 
     -- ;; milAT_1
     -- mlAT    milAT   N       mortar
     -- mlT     muluT   N       mortar
 
     FiCAL                     `noun`    {- milAT -}            [ "mortar" ]
-                              `plural`     FuCuL
-                           {- `others`  [ "mulu.t N" ] -},
+                              `plural`     FuCuL,
 
     -- ;; maliyT_1
     -- mlyT    maliyT  N/ap    hairless
@@ -5399,8 +5326,7 @@ section_40  = listing "Lexicon's properties"
     -- mlT     muloT   N       hairless
 
     HaFCaL                    `noun`    {- OamolaT -}          [ "hairless" ]
-                              `plural`     FuCL
-                           {- `others`  [ "mul.t N" ] -} ]
+                              `plural`     FuCL ]
 
  |> "m l ^g" <| [
 
@@ -5428,11 +5354,10 @@ section_40  = listing "Lexicon's properties"
     -- mwAlj   mawAlij Ndip    trowels
 
     FACaL                     `noun`    {- mAlaj -}            [ "trowel" ]
-                              `plural`     FawACiL
-                           {- `others`  [ "mawAli^g Ndip" ] -} ]
+                              `plural`     FawACiL ]
 
 
-section_41  = listing "Lexicon's properties"
+cluster_41  = listing "Lexicon's properties"
 
 
  |> "m l _h" <| [
@@ -5503,11 +5428,10 @@ section_41  = listing "Lexicon's properties"
     -- mldA}   malodA} Nhy     tender;flexible
 
     HaFCaL                    `noun`    {- Oamolad -}          [ "tender", "flexible" ]
-                              `plural`     FaCLA'
-                           {- `others`  [ "maldA' Nh N0_Nh Nhy" ] -} ]
+                              `plural`     FaCLA' ]
 
 
-section_42  = listing "Lexicon's properties"
+cluster_42  = listing "Lexicon's properties"
 
 
  |> "m l k" <| [
@@ -5571,8 +5495,7 @@ section_42  = listing "Lexicon's properties"
     -- AmlAk   >amolAk N       possessions;property
 
     FiCL                      `noun`    {- milok -}            [ "property", unwords [ "real", "estate" ], "possessions" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'amlAk N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; malik_1
     -- mlk     malik   N0      King
@@ -5587,8 +5510,7 @@ section_42  = listing "Lexicon's properties"
 
     FaCiL                     `noun`    {- malik -}            [ "king" ]
                               `plural`     FuCUL
-                              `plural`     HaFCAL
-                           {- `others`  [ "muluwk N", "'amlAk N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; malikap_1
     -- mlk     malik   NapAt   queen
@@ -5657,8 +5579,7 @@ section_42  = listing "Lexicon's properties"
     -- mlkA}   mulakA} Nhy     kings
 
     FaCIL                     `noun`    {- maliyk -}           [ "king" ]
-                              `plural`     FuCaLA'
-                           {- `others`  [ "mulakA' Nh N0_Nh Nhy" ] -},
+                              `plural`     FuCaLA',
 
     -- ;; maliykap_1
     -- mlyk    maliyk  Napdu   queen
@@ -5670,8 +5591,7 @@ section_42  = listing "Lexicon's properties"
     -- mmAlk   mamAlik Ndip    kingdoms
 
     MaFCaL |< aT              `noun`    {- mamolakap -}        [ "kingdom" ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "mamAlik Ndip" ] -},
+                              `plural`     MaFACiL,
 
     -- ;; tamoliyk_1
     -- tmlyk   tamoliyk        N/At    transfer of ownership
@@ -5710,8 +5630,7 @@ section_42  = listing "Lexicon's properties"
     -- mlAk    mul~Ak  N       proprietors;holders
 
     FACiL                     `noun`    {- mAlik -}            [ "proprietor", "holder" ]
-                              `plural`     FuCCAL
-                           {- `others`  [ "mullAk N" ] -},
+                              `plural`     FuCCAL,
 
     -- ;; mAlikiy~_1
     -- mAlky   mAlikiy~        Nall    Malikite     [[mAlikiy~/NOUN]]
@@ -5729,8 +5648,7 @@ section_42  = listing "Lexicon's properties"
     -- mmAlyk  mamAliyk        Ndip    Mamelukes;Mamluks
 
     MaFCUL                    `noun`    {- mamoluwk -}         [ "Mameluke", "Mamluk" ]
-                              `plural`     MaFACIL
-                           {- `others`  [ "mamAliyk Ndip" ] -},
+                              `plural`     MaFACIL,
 
     -- ;; mamoluwk_2
     -- mmlwk   mamoluwk        N-ap    owned;belonging     [[mamoluwk/ADJ]]
@@ -5742,8 +5660,7 @@ section_42  = listing "Lexicon's properties"
     -- mmAlyk  mamAliyk        Ndip    slaves
 
     MaFCUL                    `noun`    {- mamoluwk -}         [ "slave" ]
-                              `plural`     MaFACIL
-                           {- `others`  [ "mamAliyk Ndip" ] -},
+                              `plural`     MaFACIL,
 
     -- ;; mamoluwkiy~_1
     -- mmlwky  mamoluwkiy~     N-ap    Mameluke;Mamluk     [[mamoluwkiy~/ADJ]]
@@ -5767,7 +5684,7 @@ section_42  = listing "Lexicon's properties"
                               `plural`     MuFtaCaL |< At ]
 
 
-section_43  = listing "Lexicon's properties"
+cluster_43  = listing "Lexicon's properties"
 
 
  |> "m l l" <| [
@@ -5823,8 +5740,7 @@ section_43  = listing "Lexicon's properties"
     -- mll     milal   N       religions;creeds
 
     FiCL |< aT                `noun`    {- mil~ap -}           [ "religion", "creed" ]
-                              `plural`     FiCaL
-                           {- `others`  [ "milal N" ] -},
+                              `plural`     FiCaL,
 
     -- ;; mil~iy~_1
     -- mly     mil~iy~ N-ap    religious;confessional     [[mil~iy~/ADJ]]
@@ -5836,8 +5752,7 @@ section_43  = listing "Lexicon's properties"
     -- mll     mulal   N       basting stitches;spring mattresses
 
     FuCL |< aT                `noun`    {- mul~ap -}           [ unwords [ "basting", "stitch" ], unwords [ "spring", "mattress" ] ]
-                              `plural`     FuCaL
-                           {- `others`  [ "mulal N" ] -},
+                              `plural`     FuCaL,
 
     -- ;; malal_1
     -- mll     malal   N       boredom;annoyance
@@ -5881,7 +5796,7 @@ section_43  = listing "Lexicon's properties"
     FuCLY                     `noun`    {- mul~aY -}           [ "bread" ] ]
 
 
-section_44  = listing "Lexicon's properties"
+cluster_44  = listing "Lexicon's properties"
 
 
  |> "m l m l" <| [
@@ -5970,8 +5885,7 @@ section_44  = listing "Lexicon's properties"
     -- AmlAq   >amolAq N       leagues
 
     FaCaL |< aT               `noun`    {- malaqap -}          [ "league" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'amlAq N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; mimolaqap_1
     -- mmlq    mimolaq Nap     roller;leveler
@@ -5990,7 +5904,7 @@ section_44  = listing "Lexicon's properties"
     MutaFaCCiL                `noun`    {- mutamal~iq -}       [ "flatterer" ] ]
 
 
-section_45  = listing "Lexicon's properties"
+cluster_45  = listing "Lexicon's properties"
 
 
  |> "m l s" <| [
@@ -6060,11 +5974,10 @@ section_45  = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oamolas -}          [ "smooth", "sleek" ]
                               `plural`     FaCLA'
-                              `plural`     FuCL
-                           {- `others`  [ "malsA' Nh N0_Nh Nhy", "muls N" ] -} ]
+                              `plural`     FuCL ]
 
 
-section_46  = listing "Lexicon's properties"
+cluster_46  = listing "Lexicon's properties"
 
 
  |> "m l w" <| [
@@ -6146,8 +6059,7 @@ section_46  = listing "Lexicon's properties"
 
     FaCY                      `noun`    {- malaY -}            [ unwords [ "open", "country" ], "steppe" ]
                               `plural`     HaFCA'
-                              `plural`     FaCA
-                           {- `others`  [ "'amlA' Nh N0_Nh Nhy", "malA Nhy" ] -},
+                              `plural`     FaCA,
 
     -- ;; malowap_1
     -- mlw     malow   Napdu   malwa (dry measure)
@@ -6234,8 +6146,7 @@ section_46  = listing "Lexicon's properties"
     -- mlAyA   malAyA  N0_Nhy  female bedouin dresses
 
     FaCIL |< aT               `noun`    {- maliy~ap -}         [ unwords [ "female", "bedouin", "dress" ] ]
-                              `plural`     FaCALY
-                           {- `others`  [ "malAyY N0_Nhy" ] -} ]
+                              `plural`     FaCALY ]
 
  |> "m l y n" <| [
 
@@ -6245,11 +6156,10 @@ section_46  = listing "Lexicon's properties"
 
     KiRDUS                    `noun`    {- miloyuwn -}         [ "million" ]
                               `plural`     KiRDUS |< At
-                              `plural`     KaRADIS
-                           {- `others`  [ "malAyiyn Ndip" ] -} ]
+                              `plural`     KaRADIS ]
 
 
-section_47  = listing "Lexicon's properties"
+cluster_47  = listing "Lexicon's properties"
 
 
  |> "m l y r" <| [
@@ -6284,8 +6194,7 @@ section_47  = listing "Lexicon's properties"
     -- AmnA'   <imonA' NAt     ejaculations
 
     HiFCAL                    `noun`    {- IimonA' -}          [ "ejaculation" ]
-                              `plural`     HiFCAL |< At
-                              `plural`     HiFCA' |< At,
+                              `plural`     HiFCAL |< At,
 
     -- ;; {isotimonA'_1
     -- <stmnA' {isotimonA'     N0_Nh   masturbation
@@ -6312,7 +6221,7 @@ section_47  = listing "Lexicon's properties"
     MICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
                               `plural`     FawACiL
                               `plural`     FawACI
-                           {- `others`  [ "mawAni' Ndip", "mawAniy N0_Nh" ] -},
+                           {- `others`  [ "miyan N", "miyn Napdu" ] -},
 
     -- ;; miynA'_1
     -- mynA'   miynA'  N0_Nh   port;harbor
@@ -6329,7 +6238,7 @@ section_47  = listing "Lexicon's properties"
     FICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
                               `plural`     FawACiL
                               `plural`     FawACI
-                           {- `others`  [ "mawAni' Ndip", "mawAniy N0_Nh" ] -} ]
+                           {- `others`  [ "miyan N", "miyn Napdu" ] -} ]
 
  |> "m n .g l" <| [
 
@@ -6339,8 +6248,7 @@ section_47  = listing "Lexicon's properties"
     -- mngwl   munoguwl        N0      Mongols
 
     KuRDUS |< Iy              `adj`     {- munoguwliy~ -}      [ "Mongolian", "Mongols" ]
-                              `plural`     KuRDUS
-                           {- `others`  [ "mun.guwl N0" ] -} ]
+                              `plural`     KuRDUS ]
 
  |> "m n .h" <| [
 
@@ -6376,8 +6284,7 @@ section_47  = listing "Lexicon's properties"
     -- mnH     minaH   N       grants;scholarships;gifts
 
     FiCL |< aT                `noun`    {- minoHap -}          [ "grant", "scholarship", "gift" ]
-                              `plural`     FiCaL
-                           {- `others`  [ "mina.h N" ] -},
+                              `plural`     FiCaL,
 
     -- ;; mAniH_1
     -- mAnH    mAniH   Nall    donor;granting
@@ -6424,7 +6331,7 @@ section_47  = listing "Lexicon's properties"
     KaRDaS                    `verb`    {- manoTar -}          [ unwords [ "throw", "down" ], unwords [ "toss", "down" ] ] ]
 
 
-section_48  = listing "Lexicon's properties"
+cluster_48  = listing "Lexicon's properties"
 
 
  |> "m n ^s" <| [
@@ -6462,7 +6369,7 @@ section_48  = listing "Lexicon's properties"
     FuCL |<< "u"              `conj`    {- muno*u -}           [ "since", "ago" ] ]
 
 
-section_49  = listing "Lexicon's properties"
+cluster_49  = listing "Lexicon's properties"
 
 
  |> "m n `" <| [
@@ -6504,8 +6411,7 @@ section_49  = listing "Lexicon's properties"
     -- mnEA}   munaEA} Nhy     impenetrable;well-fortified;invincible
 
     FaCIL                     `adj`     {- maniyE -}           [ "impenetrable", unwords [ "well", "-", "fortified" ], "invincible" ]
-                              `plural`     FuCaLA'
-                           {- `others`  [ "muna`A' Nh N0_Nh Nhy" ] -},
+                              `plural`     FuCaLA',
 
     -- ;; manAEap_1
     -- mnAE    manAE   Nap     impenetrability;immunity
@@ -6546,8 +6452,7 @@ section_49  = listing "Lexicon's properties"
     -- mwAnE   mawAniE Ndip    obstacles;impediments
 
     FACiL                     `noun`    {- mAniE -}            [ "obstacle", "impediment" ]
-                              `plural`     FawACiL
-                           {- `others`  [ "mawAni` Ndip" ] -},
+                              `plural`     FawACiL,
 
     -- ;; mamonuwE_1
     -- mmnwE   mamonuwE        Nall    prohibited;banned     [[mamonuwE/ADJ]]
@@ -6578,8 +6483,7 @@ section_49  = listing "Lexicon's properties"
 
     KaRDIS                    `noun`    {- manodiyl -}         [ "handkerchief", "kerchief" ]
                               `plural`     KiRDIS
-                              `plural`     KaRADIS
-                           {- `others`  [ "mindiyl Ndu", "manAdiyl Ndip" ] -} ]
+                              `plural`     KaRADIS ]
 
  |> "m n h" <| [
 
@@ -6589,7 +6493,7 @@ section_49  = listing "Lexicon's properties"
     FiCL                      `noun`    {- minoh -}            [ unwords [ "Minh", "(", "in", "\"Ho", "Chi", "Minh\"", ")" ] ] ]
 
 
-section_50  = listing "Lexicon's properties"
+cluster_50  = listing "Lexicon's properties"
 
 
  |> "m n n" <| [
@@ -6599,7 +6503,8 @@ section_50  = listing "Lexicon's properties"
     -- mn      min     FW-Wa-n from     [[min/PREP]]
     -- lmn     lamin   FW      indeed    [[la/EMPHATIC_PARTICLE+min/PREP]]
 
-    FiL                       `part`    {- min -}              [ "from", "indeed" ],
+    FiL                       `part`    {- min -}              [ "from", "indeed" ]
+                           {- `others`  [ "lamin FW" ] -},
 
     -- ;; man_1
     -- mn      man     FW-WaBi who/whom   [[man/REL_PRON]]
@@ -6688,8 +6593,7 @@ section_50  = listing "Lexicon's properties"
     -- mnA     manA    Nhy     fate
 
     FaCY                      `noun`    {- manaY -}            [ "fate" ]
-                              `plural`     FaCA
-                           {- `others`  [ "manA Nhy" ] -},
+                              `plural`     FaCA,
 
     -- ;; munaY_1
     -- mnY     munaY   Nprop   Mouna;Muna
@@ -6764,7 +6668,7 @@ section_50  = listing "Lexicon's properties"
                               `plural`     MutaFaCCI |< At ]
 
 
-section_51  = listing "Lexicon's properties"
+cluster_51  = listing "Lexicon's properties"
 
 
  |> "m n y" <| [
@@ -6781,7 +6685,8 @@ section_51  = listing "Lexicon's properties"
     -- mn      min     FW-Wa-n from     [[min/PREP]]
     -- lmn     lamin   FW      indeed    [[la/EMPHATIC_PARTICLE+min/PREP]]
 
-    FiC                       `part`    {- min -}              [ "from", "indeed" ],
+    FiC                       `part`    {- min -}              [ "from", "indeed" ]
+                           {- `others`  [ "lamin FW" ] -},
 
     -- ;; man_1
     -- mn      man     FW-WaBi who/whom   [[man/REL_PRON]]
@@ -6798,8 +6703,7 @@ section_51  = listing "Lexicon's properties"
     -- mnAyA   manAyA  N0_Nhy  destiny;fate of death
 
     FaCIL |< aT               `noun`    {- maniy~ap -}         [ "destiny", unwords [ "fate", "of", "death" ] ]
-                              `plural`     FaCALY
-                           {- `others`  [ "manAyY N0_Nhy" ] -},
+                              `plural`     FaCALY,
 
     -- ;; munoyap_1
     -- mny     munoy   Nap     wish;desire
@@ -6814,8 +6718,7 @@ section_51  = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- munoyap -}          [ "wish", "desire", "aspiration" ]
                               `plural`     HuFCIL
                               `plural`     HaFACI
-                              `plural`     FiCL |< aT
-                           {- `others`  [ "'umniyy Napdu", "'amAniy N0_Nh" ] -},
+                              `plural`     FiCL |< aT,
 
     -- ;; tamoniyap_1
     -- tmny    tamoniy Nap     ejaculation
@@ -6859,13 +6762,15 @@ section_51  = listing "Lexicon's properties"
     -- mqdwny  maqoduwniy~     Nall    Macedonian     [[maqoduwniy~/NOUN]]
     -- mkdwny  makoduwniy~     Nall    Macedonian     [[makoduwniy~/NOUN]]
 
-    KaRDUS |< Iy              `noun`    {- maqoduwniy~ -}      [ "Macedonian" ],
+    KaRDUS |< Iy              `noun`    {- maqoduwniy~ -}      [ "Macedonian" ]
+                           {- `others`  [ "makduwniyy Nall" ] -},
 
     -- ;; maqoduwniy~_2
     -- mqdwny  maqoduwniy~     Nall    Macedonian     [[maqoduwniy~/ADJ]]
     -- mkdwny  makoduwniy~     Nall    Macedonian     [[makoduwniy~/ADJ]]
 
-    KaRDUS |< Iy              `adj`     {- maqoduwniy~ -}      [ "Macedonian" ] ]
+    KaRDUS |< Iy              `adj`     {- maqoduwniy~ -}      [ "Macedonian" ]
+                           {- `others`  [ "makduwniyy Nall" ] -} ]
 
  |> "m q l" <| [
 
@@ -6881,8 +6786,7 @@ section_51  = listing "Lexicon's properties"
     -- mql     muqal   N       eyes;eyeballs
 
     FuCL |< aT                `noun`    {- muqolap -}          [ "eye", "eyeball" ]
-                              `plural`     FuCaL
-                           {- `others`  [ "muqal N" ] -} ]
+                              `plural`     FuCaL ]
 
  |> "m q n" <| [
 
@@ -6899,7 +6803,7 @@ section_51  = listing "Lexicon's properties"
     KaRADiS                   `noun`    {- maqAniq -}          [ "sausages", unwords [ "mutton", "sausages" ] ] ]
 
 
-section_52  = listing "Lexicon's properties"
+cluster_52  = listing "Lexicon's properties"
 
 
  |> "m q t" <| [
@@ -6989,7 +6893,8 @@ section_52  = listing "Lexicon's properties"
     -- mr}     maro}   Nhy     man;person
     -- mr|     maro|   N-|     men
 
-    FaCL                      `noun`    {- maro' -}            [ "man", "person", "men" ],
+    FaCL                      `noun`    {- maro' -}            [ "man", "person", "men" ]
+                           {- `others`  [ "mar'A N-|" ] -},
 
     -- ;; maro>ap_1
     -- mr>     maro>   Napdu   woman
@@ -7016,8 +6921,7 @@ section_52  = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- mariy' -}           [ "esophagus", "gullet" ]
                               `plural`     HaFCiL |< aT
-                              `plural`     FuCUL
-                           {- `others`  [ "muruw' N0_Nh Nhy" ] -},
+                              `plural`     FuCUL,
 
     -- ;; mirA'_1
     -- mrA'    mirA'   N0_Nh   quarrel;dispute
@@ -7027,7 +6931,7 @@ section_52  = listing "Lexicon's properties"
     FiCAL                     `noun`    {- mirA' -}            [ "quarrel", "dispute" ] ]
 
 
-section_53  = listing "Lexicon's properties"
+cluster_53  = listing "Lexicon's properties"
 
 
  |> "m r .d" <| [
@@ -7071,8 +6975,7 @@ section_53  = listing "Lexicon's properties"
     -- AmrAD   >amorAD N       diseases;illnesses
 
     FaCaL                     `noun`    {- maraD -}            [ "disease", "illness" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'amrA.d N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; maraDiy~_1
     -- mrDy    maraDiy~        N-ap    diseased;sick;pathological     [[maraDiy~/ADJ]]
@@ -7088,8 +6991,7 @@ section_53  = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- mariyD -}           [ "patient", unwords [ "sick", "person" ], unwords [ "sick", "people" ] ]
                               `plural`     FaCALY
-                              `plural`     FaCLY
-                           {- `others`  [ "marA.dY N0", "mar.dY N0" ] -},
+                              `plural`     FaCLY,
 
     -- ;; mimorAD_1
     -- mmrAD   mimorAD N-ap    sickly;in poor health
@@ -7135,7 +7037,7 @@ section_53  = listing "Lexicon's properties"
     TaFaCCaL                  `verb`    {- tamar~ag -}         [ "wallow", unwords [ "roll", "in", "the", "dust" ] ] ]
 
 
-section_54  = listing "Lexicon's properties"
+cluster_54  = listing "Lexicon's properties"
 
 
  |> "m r .h" <| [
@@ -7161,8 +7063,7 @@ section_54  = listing "Lexicon's properties"
 
     FaCiL                     `noun`    {- mariH -}            [ "cheerful", "merry" ]
                               `plural`     FaCLY
-                              `plural`     FaCALY
-                           {- `others`  [ "mar.hY N0", "marA.hY N0" ] -},
+                              `plural`     FaCALY,
 
     -- ;; mirAH_1
     -- mrAH    mirAH   N       exuberance
@@ -7236,8 +7137,7 @@ section_54  = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- OamoraT -}          [ "hairless" ]
                               `plural`     FuCL
-                              `plural`     FaCLA'
-                           {- `others`  [ "mur.t N", "mar.tA' Nh N0_Nh Nhy" ] -} ]
+                              `plural`     FaCLA' ]
 
  |> "m r ^g" <| [
 
@@ -7246,8 +7146,7 @@ section_54  = listing "Lexicon's properties"
     -- mrwj    muruwj  N       meadows;pastures
 
     FaCL                      `noun`    {- maroj -}            [ "meadow", "pasture" ]
-                              `plural`     FuCUL
-                           {- `others`  [ "muruw^g N" ] -},
+                              `plural`     FuCUL,
 
     -- ;; maraj_1
     -- mrj     maraj   N       confusion;disorder
@@ -7271,7 +7170,7 @@ section_54  = listing "Lexicon's properties"
     FaCLAn |< Iy |< At        `noun`    {- marojAniy~At -}     [ unwords [ "coral", "polyps" ], "anthozoans" ] ]
 
 
-section_55  = listing "Lexicon's properties"
+cluster_55  = listing "Lexicon's properties"
 
 
  |> "m r ^g .h" <| [
@@ -7376,8 +7275,7 @@ section_55  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- maroE -}            [ "pasture" ]
                               `plural`     HaFCuL
-                              `plural`     HaFCAL
-                           {- `others`  [ "'amru` N", "'amrA` N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; muroEap_1
     -- mrE     muroE   Nap     grease;oil
@@ -7395,7 +7293,7 @@ section_55  = listing "Lexicon's properties"
     MiFCAL                    `adj`     {- mimorAE -}          [ "flourishing", "prosperous" ] ]
 
 
-section_56  = listing "Lexicon's properties"
+cluster_56  = listing "Lexicon's properties"
 
 
  |> "m r d" <| [
@@ -7425,7 +7323,8 @@ section_56  = listing "Lexicon's properties"
     -- mrdy    murodiy~        N       punting pole;boat hook
     -- mrAdy   marAdiy~        N       punting poles;boat hooks
 
-    FuCL |< Iy                `adj`     {- murodiy~ -}         [ unwords [ "punting", "pole" ], unwords [ "boat", "hook" ] ],
+    FuCL |< Iy                `adj`     {- murodiy~ -}         [ unwords [ "punting", "pole" ], unwords [ "boat", "hook" ] ]
+                           {- `others`  [ "marAdiyy N" ] -},
 
     -- ;; marAd_1
     -- mrAd    marAd   N       nape;neck
@@ -7437,8 +7336,7 @@ section_56  = listing "Lexicon's properties"
     -- mrAryd  marAriyd        Ndip    napes;necks
 
     FaCCAL                    `noun`    {- mar~Ad -}           [ "nape", "neck" ]
-                              `plural`     FaCACIL
-                           {- `others`  [ "marAriyd Ndip" ] -},
+                              `plural`     FaCACIL,
 
     -- ;; mariyd_1
     -- mryd    mariyd  Ndu     rebellious;recalcitrant     [[mariyd/ADJ]]
@@ -7447,16 +7345,14 @@ section_56  = listing "Lexicon's properties"
     -- mrdA}   muradA} Nhy     rebellious;recalcitrant
 
     FaCIL                     `adj`     {- mariyd -}           [ "rebellious", "recalcitrant" ]
-                              `plural`     FuCaLA'
-                           {- `others`  [ "muradA' Nh N0_Nh Nhy" ] -},
+                              `plural`     FuCaLA',
 
     -- ;; timorAd_1
     -- tmrAd   timorAd N       dovecote
     -- tmAryd  tamAriyd        Ndip    dovecote
 
     TiFCAL                    `noun`    {- timorAd -}          [ "dovecote" ]
-                              `plural`     TaFACIL
-                           {- `others`  [ "tamAriyd Ndip" ] -},
+                              `plural`     TaFACIL,
 
     -- ;; >amorad_1
     -- >mrd    >amorad Nel     beardless
@@ -7464,8 +7360,7 @@ section_56  = listing "Lexicon's properties"
     -- mrd     murod   N       beardless
 
     HaFCaL                    `noun`    {- Oamorad -}          [ "beardless" ]
-                              `plural`     FuCL
-                           {- `others`  [ "murd N" ] -},
+                              `plural`     FuCL,
 
     -- ;; >amorad_2
     -- >mrd    >amorad Nel     leafless;withered
@@ -7477,8 +7372,7 @@ section_56  = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oamorad -}          [ "leafless", "withered" ]
                               `plural`     FuCL
-                              `plural`     FaCLA'
-                           {- `others`  [ "murd N", "mardA' Nh N0_Nh Nhy" ] -},
+                              `plural`     FaCLA',
 
     -- ;; tamar~ud_1
     -- tmrd    tamar~ud        N/At    insurrection;rebellion
@@ -7493,8 +7387,7 @@ section_56  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- mArid -}            [ "insurgent", "rebel" ]
                               `plural`     FaCaL |< aT
-                              `plural`     FuCCAL
-                           {- `others`  [ "murrAd N" ] -},
+                              `plural`     FuCCAL,
 
     -- ;; mutamar~id_1
     -- mtmrd   mutamar~id      Nall    rebel;mutineer
@@ -7532,7 +7425,7 @@ section_56  = listing "Lexicon's properties"
     FACL |< aT                `noun`    {- mArokap -}          [ "trademark" ] ]
 
 
-section_57  = listing "Lexicon's properties"
+cluster_57  = listing "Lexicon's properties"
 
 
  |> "m r k z" <| [
@@ -7612,7 +7505,7 @@ section_57  = listing "Lexicon's properties"
     KiRDIS                    `noun`    {- miromiys -}         [ "rhinoceros" ] ]
 
 
-section_58  = listing "Lexicon's properties"
+cluster_58  = listing "Lexicon's properties"
 
 
  |> "m r n" <| [
@@ -7651,8 +7544,7 @@ section_58  = listing "Lexicon's properties"
     -- tmAryn  tamAriyn        Ndip    exercises;practice;training
 
     TaFCIL                    `noun`    {- tamoriyn -}         [ "exercise", "practice", "training" ]
-                              `plural`     TaFACIL
-                           {- `others`  [ "tamAriyn Ndip" ] -},
+                              `plural`     TaFACIL,
 
     -- ;; tamoriyn_2
     -- tmryn   tamoriyn        NAt     drills;maneuvers;exercises
@@ -7660,8 +7552,7 @@ section_58  = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- tamoriyn -}         [ "drills", "maneuvers", "exercises" ]
                               `plural`     TaFCIL |< At
-                              `plural`     TaFACIL
-                           {- `others`  [ "tamAriyn Ndip" ] -},
+                              `plural`     TaFACIL,
 
     -- ;; mirAn_1
     -- mrAn    mirAn   N       practice;experience;skill
@@ -7709,7 +7600,7 @@ section_58  = listing "Lexicon's properties"
     FaCIL |< Iy               `adj`     {- mariyniy~ -}        [ "Merinids" ] ]
 
 
-section_59  = listing "Lexicon's properties"
+cluster_59  = listing "Lexicon's properties"
 
 
  |> "m r q" <| [
@@ -7762,8 +7653,7 @@ section_59  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- mAriq -}            [ "apostate", "heretic" ]
                               `plural`     FaCaL |< aT
-                              `plural`     FuCCAL
-                           {- `others`  [ "murrAq N" ] -},
+                              `plural`     FuCCAL,
 
     -- ;; mAriq_2
     -- mArq    mAriq   N/ap    deserter;defector
@@ -7772,8 +7662,7 @@ section_59  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- mAriq -}            [ "deserter", "defector" ]
                               `plural`     FaCaL |< aT
-                              `plural`     FuCCAL
-                           {- `others`  [ "murrAq N" ] -},
+                              `plural`     FuCCAL,
 
     -- ;; mumAriq_1
     -- mmArq   mumAriq Nall    insolent;impudent
@@ -7799,7 +7688,7 @@ section_59  = listing "Lexicon's properties"
     KuRDuS |< Iy              `adj`     {- muroqusiy~ -}       [ unwords [ "St.", "Mark's" ] ] ]
 
 
-section_60  = listing "Lexicon's properties"
+cluster_60  = listing "Lexicon's properties"
 
 
  |> "m r r" <| [
@@ -7942,8 +7831,7 @@ section_60  = listing "Lexicon's properties"
     -- AmrAr   >amorAr N       bitter
 
     FuCL                      `noun`    {- mur~ -}             [ "bitter" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'amrAr N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; marArap_1
     -- mrAr    marAr   Nap     bitterness
@@ -7959,13 +7847,15 @@ section_60  = listing "Lexicon's properties"
     -- mryr    mariyr  N-ap    stubborn;bitter
     -- mrA}r   marA}ir Ndip    stubborn
 
-    FaCIL                     `noun`    {- mariyr -}           [ "stubborn", "bitter" ],
+    FaCIL                     `noun`    {- mariyr -}           [ "stubborn", "bitter" ]
+                              `plural`     FaCA'iL,
 
     -- ;; mariyrap_1
     -- mryr    mariyr  Nap     firmness
     -- mrA}r   marA}ir Ndip    bitterness
 
-    FaCIL |< aT               `noun`    {- mariyrap -}         [ "firmness", "bitterness" ],
+    FaCIL |< aT               `noun`    {- mariyrap -}         [ "firmness", "bitterness" ]
+                              `plural`     FaCA'iL,
 
     -- ;; >amar~_2
     -- >mr     >amar~  Nel     more/most bitter
@@ -7984,7 +7874,7 @@ section_60  = listing "Lexicon's properties"
     FiL |< Iy                 `adj`     {- miriy~ -}           [ "Meri", "Miri" ] ]
 
 
-section_61  = listing "Lexicon's properties"
+cluster_61  = listing "Lexicon's properties"
 
 
  |> "m r s" <| [
@@ -8032,8 +7922,7 @@ section_61  = listing "Lexicon's properties"
     -- AmrAs   >amorAs N       experienced;veteran
 
     FaCiL                     `noun`    {- maris -}            [ "experienced", "veteran" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'amrAs N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; marasap_1
     -- mrs     maras   Napdu   rope;cord
@@ -8041,8 +7930,7 @@ section_61  = listing "Lexicon's properties"
     -- AmrAs   >amorAs N       rope;cord
 
     FaCaL |< aT               `noun`    {- marasap -}          [ "rope", "cord" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'amrAs N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; mirAs_1
     -- mrAs    mirAs   N       strength;power
@@ -8107,10 +7995,11 @@ section_61  = listing "Lexicon's properties"
     -- mArt    mArot   N0      March
     -- mArt$ylw        mArt$iyluw      Nprop   Marcelo
 
-    FACL                      `noun`    {- mArot -}            [ "March", "Marcelo" ] ]
+    FACL                      `noun`    {- mArot -}            [ "March", "Marcelo" ]
+                           {- `others`  [ "mArt^siyluw Nprop" ] -} ]
 
 
-section_62  = listing "Lexicon's properties"
+cluster_62  = listing "Lexicon's properties"
 
 
  |> "m r w" <| [
@@ -8131,8 +8020,7 @@ section_62  = listing "Lexicon's properties"
     -- mrw     marow   N       pebbles;flint
 
     FaCL |< aT                `noun`    {- marowap -}          [ "pebble", "flint" ]
-                              `plural`     FaCL
-                           {- `others`  [ "marw N" ] -} ]
+                              `plural`     FaCL ]
 
  |> "m r w n" <| [
 
@@ -8244,7 +8132,8 @@ section_62  = listing "Lexicon's properties"
     -- msA&    masA&   Nh      evening
     -- msA}    masA}   Nhy     evening
 
-    FaCAL                     `adv`     {- masA' -}            [ "evening", unwords [ "in", "the", "evening" ] ],
+    FaCAL                     `adv`     {- masA' -}            [ "evening", unwords [ "in", "the", "evening" ] ]
+                           {- `others`  [ "masA'aN FW-Wa", "masA'a FW-Wa" ] -},
 
     -- ;; masA}iy~_1
     -- msA}y   masA}iy~        N-ap    evening     [[masA}iy~/ADJ]]
@@ -8262,7 +8151,7 @@ section_62  = listing "Lexicon's properties"
     FUCAL |< Iy               `adj`     {- muwsAwiy~ -}        [ "Moussaoui" ] ]
 
 
-section_63  = listing "Lexicon's properties"
+cluster_63  = listing "Lexicon's properties"
 
 
  |> "m s .h" <| [
@@ -8314,8 +8203,7 @@ section_63  = listing "Lexicon's properties"
     -- mswH    musuwH  N       haircloth
 
     FiCL                      `noun`    {- misoH -}            [ "haircloth" ]
-                              `plural`     FuCUL
-                           {- `others`  [ "musuw.h N" ] -},
+                              `plural`     FuCUL,
 
     -- ;; masoHap_1
     -- msH     masoH   Nap     rubbing;anointing
@@ -8354,8 +8242,7 @@ section_63  = listing "Lexicon's properties"
     -- msHA}   musaHA} Nhy     anointed
 
     FaCIL                     `adj`     {- masiyH -}           [ "anointed" ]
-                              `plural`     FuCaLA'
-                           {- `others`  [ "musa.hA' Nh N0_Nh Nhy" ] -},
+                              `plural`     FuCaLA',
 
     -- ;; masiyH_2
     -- msyH    masiyH  N0      Messiah
@@ -8384,8 +8271,7 @@ section_63  = listing "Lexicon's properties"
     -- mmAsH   mamAsiH Ndip    washcloths;dust rags;doormats
 
     MiFCaL                    `noun`    {- mimosaH -}          [ "washcloth", unwords [ "dust", "rag" ], "doormat" ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "mamAsi.h Ndip" ] -},
+                              `plural`     MaFACiL,
 
     -- ;; mAsiH_1
     -- mAsH    mAsiH   Nall    shoeshine
@@ -8404,7 +8290,7 @@ section_63  = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- mamosuwH -}         [ unwords [ "wiped", "off" ], "cleaned", "smoothed" ] ]
 
 
-section_64  = listing "Lexicon's properties"
+cluster_64  = listing "Lexicon's properties"
 
 
  |> "m s .t r" <| [
@@ -8414,8 +8300,7 @@ section_64  = listing "Lexicon's properties"
     -- msATr   masATir Ndip    samples;specimens
 
     KaRDaS |< aT              `noun`    {- masoTarap -}        [ "sample", "specimen" ]
-                              `plural`     KaRADiS
-                           {- `others`  [ "masA.tir Ndip" ] -} ]
+                              `plural`     KaRADiS ]
 
  |> "m s _h" <| [
 
@@ -8442,8 +8327,7 @@ section_64  = listing "Lexicon's properties"
     -- mswx    musuwx  N       deformed;disfigured;monsters
 
     FaCL                      `noun`    {- masox -}            [ "deformed", "disfigured", "monster" ]
-                              `plural`     FuCUL
-                           {- `others`  [ "musuw_h N" ] -},
+                              `plural`     FuCUL,
 
     -- ;; musoxap_1
     -- msx     musox   Nap     clown;buffoon
@@ -8490,8 +8374,7 @@ section_64  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- masad -}            [ unwords [ "palm", "fibers" ] ]
                               `plural`     HaFCAL
-                              `plural`     FiCAL
-                           {- `others`  [ "'amsAd N", "misAd N" ] -},
+                              `plural`     FiCAL,
 
     -- ;; tamosiyd_1
     -- tmsyd   tamosiyd        N/At    massage
@@ -8505,7 +8388,7 @@ section_64  = listing "Lexicon's properties"
     FUCAL                     `noun`    {- muwsAd -}           [ "Mossad" ] ]
 
 
-section_65  = listing "Lexicon's properties"
+cluster_65  = listing "Lexicon's properties"
 
 
  |> "m s k" <| [
@@ -8514,7 +8397,8 @@ section_65  = listing "Lexicon's properties"
     -- mAswky  mAsuwkiy~       Nall    masochist     [[mAsuwkiy~/ADJ]]
     -- mAsw$y  mAsuw$iy~       Nall    masochist     [[mAsuw$iy~/ADJ]]
 
-    FACUL |< Iy               `adj`     {- mAsuwkiy~ -}        [ "masochist" ],
+    FACUL |< Iy               `adj`     {- mAsuwkiy~ -}        [ "masochist" ]
+                           {- `others`  [ "mAsuw^siyy Nall" ] -},
 
     -- ;; mAsuwkiy~ap_1
     -- mAswky  mAsuwkiy~       Nap     masochism     [[mAsuwkiy~/NOUN]]
@@ -8681,7 +8565,7 @@ section_65  = listing "Lexicon's properties"
     MustaFCiL                 `adj`     {- musotamosik -}      [ "composed", unwords [ "calm", "and", "collected" ] ] ]
 
 
-section_66  = listing "Lexicon's properties"
+cluster_66  = listing "Lexicon's properties"
 
 
  |> "m s k f" <| [
@@ -8710,8 +8594,7 @@ section_66  = listing "Lexicon's properties"
     -- msAkyn  masAkiyn        Ndip    poor;humble;miserable
 
     KiRDIS                    `noun`    {- misokiyn -}         [ "poor", "humble", "miserable" ]
-                              `plural`     KaRADIS
-                           {- `others`  [ "masAkiyn Ndip" ] -} ]
+                              `plural`     KaRADIS ]
 
  |> "m s k w" <| [
 
@@ -8762,8 +8645,7 @@ section_66  = listing "Lexicon's properties"
 
     FACUL |< aT               `noun`    {- mAsuwrap -}         [ "pipe", "hose" ]
                               `plural`     FawACIL
-                              `plural`     FaCUL
-                           {- `others`  [ "mawAsiyr Ndip", "masuwr Napdu" ] -},
+                              `plural`     FaCUL,
 
     -- ;; mAsuwrap_2
     -- mAswr   mAsuwr  Napdu   gun barrel
@@ -8772,8 +8654,7 @@ section_66  = listing "Lexicon's properties"
 
     FACUL |< aT               `noun`    {- mAsuwrap -}         [ unwords [ "gun", "barrel" ] ]
                               `plural`     FawACIL
-                              `plural`     FaCUL
-                           {- `others`  [ "mawAsiyr Ndip", "masuwr Napdu" ] -},
+                              `plural`     FaCUL,
 
     -- ;; misoraY_1
     -- msrY    misoraY N0      Misra
@@ -8781,7 +8662,7 @@ section_66  = listing "Lexicon's properties"
     FiCLY                     `noun`    {- misoraY -}          [ "Misra" ] ]
 
 
-section_67  = listing "Lexicon's properties"
+cluster_67  = listing "Lexicon's properties"
 
 
  |> "m s s" <| [
@@ -8826,8 +8707,7 @@ section_67  = listing "Lexicon's properties"
     -- msAs    misAs   N       touching
 
     FaCL |< aT                `noun`    {- mas~ap -}           [ "touch", "touching" ]
-                              `plural`     FiCAL
-                           {- `others`  [ "misAs N" ] -},
+                              `plural`     FiCAL,
 
     -- ;; misAs_2
     -- msAs    misAs   N       violation;infringement;encroachment
@@ -8872,7 +8752,7 @@ section_67  = listing "Lexicon's properties"
     MuFACL                    `noun`    {- mumAs~ -}           [ "tangent" ] ]
 
 
-section_68  = listing "Lexicon's properties"
+cluster_68  = listing "Lexicon's properties"
 
 
  |> "m s w" <| [
@@ -8925,7 +8805,8 @@ section_68  = listing "Lexicon's properties"
     -- msA&    masA&   Nh      evening
     -- msA}    masA}   Nhy     evening
 
-    FaCA'                     `adv`     {- masA' -}            [ "evening", unwords [ "in", "the", "evening" ] ],
+    FaCA'                     `adv`     {- masA' -}            [ "evening", unwords [ "in", "the", "evening" ] ]
+                           {- `others`  [ "masA'aN FW-Wa", "masA'a FW-Wa" ] -},
 
     -- ;; masA}iy~_1
     -- msA}y   masA}iy~        N-ap    evening     [[masA}iy~/ADJ]]
@@ -8963,8 +8844,7 @@ section_68  = listing "Lexicon's properties"
 
     HuFCIL                    `noun`    {- Oumosiy~ -}         [ "evening", "soiree" ]
                               `plural`     HaFACIL
-                              `plural`     HuFCIL |< At
-                           {- `others`  [ "'amAsiyy N0_Nh" ] -},
+                              `plural`     HuFCIL |< At,
 
     -- ;; mumosiy_1
     -- mmsy    mumosiy N0F_Nh  spending the evening
@@ -9024,7 +8904,7 @@ section_68  = listing "Lexicon's properties"
     FaCL                      `noun`    {- matoH -}            [ unwords [ "drawing", "from", "a", "well" ] ] ]
 
 
-section_69  = listing "Lexicon's properties"
+cluster_69  = listing "Lexicon's properties"
 
 
  |> "m t `" <| [
@@ -9068,8 +8948,7 @@ section_69  = listing "Lexicon's properties"
     -- mtE     mutaE   N       pleasure;enjoyment
 
     FuCL |< aT                `noun`    {- mutoEap -}          [ "pleasure", "enjoyment" ]
-                              `plural`     FuCaL
-                           {- `others`  [ "muta` N" ] -},
+                              `plural`     FuCaL,
 
     -- ;; matAE_1
     -- mtAE    matAE   Ndu     property;commodities;goods
@@ -9138,7 +9017,7 @@ section_69  = listing "Lexicon's properties"
     FuCL                      `noun`    {- mutok -}            [ "proboscis", "trunk" ] ]
 
 
-section_70  = listing "Lexicon's properties"
+cluster_70  = listing "Lexicon's properties"
 
 
  |> "m t n" <| [
@@ -9163,8 +9042,7 @@ section_70  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- maton -}            [ "deck", "board", "surface" ]
                               `plural`     FiCAL
-                              `plural`     FuCUL
-                           {- `others`  [ "mitAn N", "mutuwn N" ] -},
+                              `plural`     FuCUL,
 
     -- ;; matiyn_1
     -- mtyn    matiyn  N-ap    firm;strong     [[matiyn/ADJ]]
@@ -9196,8 +9074,7 @@ section_70  = listing "Lexicon's properties"
     -- AmtAr   >amotAr N       meters
 
     FiCL                      `noun`    {- mitor -}            [ "meter" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'amtAr N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; mitoriy~_1
     -- mtry    mitoriy~        N-ap    metric;metrical     [[mitoriy~/ADJ]]
@@ -9249,7 +9126,7 @@ section_70  = listing "Lexicon's properties"
     FaCCY                     `noun`    {- mat~aY -}           [ "Matthew" ] ]
 
 
-section_71  = listing "Lexicon's properties"
+cluster_71  = listing "Lexicon's properties"
 
 
  |> "m w '" <| [
@@ -9269,7 +9146,8 @@ section_71  = listing "Lexicon's properties"
     -- >mwAh   >amowAh N       water;waters
     -- AmwAh   >amowAh N       water;waters
 
-    FAL                       `noun`    {- mA' -}              [ "water" ],
+    FAL                       `noun`    {- mA' -}              [ "water" ]
+                           {- `others`  [ "'amwAh N", "miyAh N" ] -},
 
     -- ;; mA}iy~_1
     -- mA}y    mA}iy~  N-ap    watery;liquid;aquatic     [[mA}iy~/ADJ]]
@@ -9334,8 +9212,7 @@ section_71  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- mawoj -}            [ "wave" ]
                               `plural`     FaCL |< At
-                              `plural`     HaFCAL
-                           {- `others`  [ "'amwA^g N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; maw~Aj_1
     -- mwAj    maw~Aj  N-ap    undulating
@@ -9387,7 +9264,7 @@ section_71  = listing "Lexicon's properties"
     KuRDI                     `noun`    {- muw$iy -}           [ "Moshe" ] ]
 
 
-section_72  = listing "Lexicon's properties"
+cluster_72  = listing "Lexicon's properties"
 
 
  |> "m w b l" <| [
@@ -9395,7 +9272,8 @@ section_72  = listing "Lexicon's properties"
     -- ;; muwbiyl_1
     -- mwbyl   mwbyl   Nprop   Mobil
 
-    KuRDIS                    `noun`    {- muwbiyl -}          [ "Mobil" ] ]
+    KuRDIS                    `noun`    {- muwbiyl -}          [ "Mobil" ]
+                           {- `others`  [ "mwbyl Nprop" ] -} ]
 
  |> "m w d" <| [
 
@@ -9480,7 +9358,7 @@ section_72  = listing "Lexicon's properties"
     TaFCIL |< Iy              `adj`     {- tamowiyhiy~ -}      [ "fake", "false" ] ]
 
 
-section_73  = listing "Lexicon's properties"
+cluster_73  = listing "Lexicon's properties"
 
 
  |> "m w l" <| [
@@ -9513,8 +9391,7 @@ section_73  = listing "Lexicon's properties"
     -- AmwAl   >amowAl N       assets;capital;funds
 
     FAL                       `noun`    {- mAl -}              [ "money", "capital", "funds", "assets" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'amwAl N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; mAliy~_1
     -- mAly    mAliy~  N-ap    financial;monetary     [[mAliy~/ADJ]]
@@ -9563,8 +9440,7 @@ section_73  = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- maw~Al -}           [ unwords [ "love", "song" ] ]
                               `plural`     FaCACIL
-                              `plural`     FawACIL
-                           {- `others`  [ "mawAwiyl Ndip" ] -} ]
+                              `plural`     FawACIL ]
 
  |> "m w m" <| [
 
@@ -9596,7 +9472,7 @@ section_73  = listing "Lexicon's properties"
     KuRDI |< aT               `noun`    {- muwmiyap -}         [ "mummy" ] ]
 
 
-section_74  = listing "Lexicon's properties"
+cluster_74  = listing "Lexicon's properties"
 
 
  |> "m w n" <| [
@@ -9676,8 +9552,7 @@ section_74  = listing "Lexicon's properties"
     -- tmwr    tamaw~ur        NF      back and forth     [[tamaw~ur/ADV]]
 
     TaFaCCuL |< aN            `adv`     {- tamaw~urAF -}       [ unwords [ "back", "and", "forth" ] ]
-                              `plural`     TaFaCCuL
-                           {- `others`  [ "tamawwur NF" ] -},
+                              `plural`     TaFaCCuL,
 
     -- ;; {isotimArap_1
     -- <stmAr  {isotimAr       NapAt   form;questionnaire
@@ -9712,7 +9587,7 @@ section_74  = listing "Lexicon's properties"
     KuRDU                     `noun`    {- muwruw -}           [ "Moro" ] ]
 
 
-section_75  = listing "Lexicon's properties"
+cluster_75  = listing "Lexicon's properties"
 
 
  |> "m w s" <| [
@@ -9791,7 +9666,7 @@ section_75  = listing "Lexicon's properties"
     KuRDY |< Iy               `adj`     {- muwsawiy~ -}        [ "Mosaic", "Moses" ] ]
 
 
-section_76  = listing "Lexicon's properties"
+cluster_76  = listing "Lexicon's properties"
 
 
  |> "m w t" <| [
@@ -9850,8 +9725,7 @@ section_76  = listing "Lexicon's properties"
     -- mwtAn   muwtAn  N       dying;epidemic
 
     FaCLAn                    `noun`    {- mawotAn -}          [ "dying", "epidemic" ]
-                              `plural`     FULAn
-                           {- `others`  [ "muwtAn N" ] -},
+                              `plural`     FULAn,
 
     -- ;; miytap_1
     -- myt     miyt    Nap     death
@@ -9874,7 +9748,8 @@ section_76  = listing "Lexicon's properties"
     -- mA}t    mA}it   Nall    moribund;mortal     [[mA}it/ADJ]]
     -- mAyt    mAyit   Nall    moribund;mortal
 
-    FA'iL                     `adj`     {- mA}it -}            [ "moribund", "mortal" ],
+    FA'iL                     `adj`     {- mA}it -}            [ "moribund", "mortal" ]
+                           {- `others`  [ "mAyit Nall" ] -},
 
     -- ;; mumiyt_1
     -- mmyt    mumiyt  N-ap    fatal;lethal;mortal     [[mumiyt/ADJ]]
@@ -9926,7 +9801,8 @@ section_76  = listing "Lexicon's properties"
     -- mygAn   miygAn  Nprop   Megan
     -- myjAn   miyjAn  Nprop   Megan
 
-    FILAn                     `noun`    {- miygAn -}           [ "Megan" ] ]
+    FILAn                     `noun`    {- miygAn -}           [ "Megan" ]
+                           {- `others`  [ "miy^gAn Nprop" ] -} ]
 
  |> "m y .g n" <| [
 
@@ -9934,10 +9810,11 @@ section_76  = listing "Lexicon's properties"
     -- mygAn   miygAn  Nprop   Megan
     -- myjAn   miyjAn  Nprop   Megan
 
-    KiRDAS                    `noun`    {- miygAn -}           [ "Megan" ] ]
+    KiRDAS                    `noun`    {- miygAn -}           [ "Megan" ]
+                           {- `others`  [ "miy^gAn Nprop" ] -} ]
 
 
-section_77  = listing "Lexicon's properties"
+cluster_77  = listing "Lexicon's properties"
 
 
  |> "m y .h" <| [
@@ -10015,8 +9892,7 @@ section_77  = listing "Lexicon's properties"
     -- myTAn   mayaTAn N       removing;pulling away;drawing back
 
     FaCL                      `noun`    {- mayoT -}            [ "removing", unwords [ "pulling", "away" ], unwords [ "drawing", "back" ] ]
-                              `plural`     FaCaLAn
-                           {- `others`  [ "maya.tAn N" ] -} ]
+                              `plural`     FaCaLAn ]
 
  |> "m y ^g" <| [
 
@@ -10024,7 +9900,8 @@ section_77  = listing "Lexicon's properties"
     -- myj     miyj    N0      MIG
     -- myg     miyg    N0      MIG
 
-    FIL                       `noun`    {- miyj -}             [ "MIG" ] ]
+    FIL                       `noun`    {- miyj -}             [ "MIG" ]
+                           {- `others`  [ "miy.g N0" ] -} ]
 
  |> "m y ^g r" <| [
 
@@ -10039,16 +9916,18 @@ section_77  = listing "Lexicon's properties"
     -- my$yl   miy$iyl Nprop   Michael;Michel
     -- my$Al   miy$Al  Nprop   Michael;Michel
 
-    KiRDIS                    `noun`    {- miy$iyl -}          [ "Michael", "Michel" ],
+    KiRDIS                    `noun`    {- miy$iyl -}          [ "Michael", "Michel" ]
+                           {- `others`  [ "miy^sAl Nprop" ] -},
 
     -- ;; miy$iyl_2
     -- my$yl   miy$iyl Nprop   Michelle
     -- my$Al   miy$Al  Nprop   Michelle
 
-    KiRDIS                    `noun`    {- miy$iyl -}          [ "Michelle" ] ]
+    KiRDIS                    `noun`    {- miy$iyl -}          [ "Michelle" ]
+                           {- `others`  [ "miy^sAl Nprop" ] -} ]
 
 
-section_78  = listing "Lexicon's properties"
+cluster_78  = listing "Lexicon's properties"
 
 
  |> "m y `" <| [
@@ -10142,11 +10021,10 @@ section_78  = listing "Lexicon's properties"
 
     FA'iL                     `noun`    {- mA}iE -}            [ "fluid" ]
                               `plural`     FawA'iL
-                              `plural`     FawACiL
-                           {- `others`  [ "mawA'i` Ndip", "mawAyi` Ndip" ] -} ]
+                              `plural`     FawACiL ]
 
 
-section_79  = listing "Lexicon's properties"
+cluster_79  = listing "Lexicon's properties"
 
 
  |> "m y d" <| [
@@ -10183,24 +10061,21 @@ section_79  = listing "Lexicon's properties"
     -- mydA    mayodA  Nhy     sea-sick
 
     FA'iL                     `noun`    {- mA}id -}            [ "seasick", unwords [ "sea", "-", "sick" ] ]
-                              `plural`     FaCLY
-                           {- `others`  [ "maydY N0" ] -},
+                              `plural`     FaCLY,
 
     -- ;; mA}idap_1
     -- mA}d    mA}id   Napdu   table
     -- mwA}d   mawA}id Ndip    tables
 
     FA'iL |< aT               `noun`    {- mA}idap -}          [ "table" ]
-                              `plural`     FawA'iL
-                           {- `others`  [ "mawA'id Ndip" ] -},
+                              `plural`     FawA'iL,
 
     -- ;; mayodAn_1
     -- mydAn   mayodAn Ndu     square
     -- mydAn   miydAn  Ndu     square
 
     FaCLAn                    `noun`    {- mayodAn -}          [ "square" ]
-                              `plural`     FILAn
-                           {- `others`  [ "miydAn Ndu" ] -},
+                              `plural`     FILAn,
 
     -- ;; mayodAn_2
     -- mydAn   mayodAn Ndu     field;domain;arena
@@ -10209,7 +10084,7 @@ section_79  = listing "Lexicon's properties"
 
     FaCLAn                    `noun`    {- mayodAn -}          [ "field", "domain", "arena" ]
                               `plural`     FILAn
-                           {- `others`  [ "miydAn Ndu" ] -},
+                              `plural`     FaCALIn,
 
     -- ;; mayodAniy~_1
     -- mydAny  mayodAniy~      N-ap    field;survey     [[mayodAniy~/ADJ]]
@@ -10233,7 +10108,8 @@ section_79  = listing "Lexicon's properties"
     -- mydA}   miydA}i FW-Wa-i in front of;facing     [[miydA}i/PREP]]
     -- bmydA}  bimiydA}i       FW-Wa-i in front of;facing     [[bimiydA}i/PREP]]
 
-    KiRDAS |<< "a"            `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ],
+    KiRDAS |<< "a"            `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
+                           {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
 
     -- ;; miydAwiy~_1
     -- mydAwy  miydAwiy~       N0      Midaoui;Midawi
@@ -10269,7 +10145,7 @@ section_79  = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- mayokanap -}        [ "mechanization", "motorization" ] ]
 
 
-section_80  = listing "Lexicon's properties"
+cluster_80  = listing "Lexicon's properties"
 
 
  |> "m y l" <| [
@@ -10331,8 +10207,7 @@ section_80  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- mayol -}            [ "inclination", "tendency", "sympathy" ]
                               `plural`     HaFCAL
-                              `plural`     FuCUL
-                           {- `others`  [ "'amyAl N", "muyuwl N" ] -},
+                              `plural`     FuCUL,
 
     -- ;; may~Al_1
     -- myAl    may~Al  Nall    leaning;in favor;biased
@@ -10378,8 +10253,7 @@ section_80  = listing "Lexicon's properties"
     -- AmyAl   >amoyAl N       miles
 
     FIL                       `noun`    {- miyl -}             [ "mile" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'amyAl N" ] -} ]
+                              `plural`     HaFCAL ]
 
  |> "m y l r" <| [
 
@@ -10409,7 +10283,7 @@ section_80  = listing "Lexicon's properties"
     KaRADI                    `noun`    {- mayAmiy -}          [ "Miami" ] ]
 
 
-section_81  = listing "Lexicon's properties"
+cluster_81  = listing "Lexicon's properties"
 
 
  |> "m y n" <| [
@@ -10419,16 +10293,14 @@ section_81  = listing "Lexicon's properties"
     -- mywn    muyuwn  N       lies;untruths
 
     FaCL                      `noun`    {- mayon -}            [ "lie", "untruth" ]
-                              `plural`     FuCUL
-                           {- `others`  [ "muyuwn N" ] -},
+                              `plural`     FuCUL,
 
     -- ;; may~An_1
     -- myAn    may~An  Nall    liar
     -- mA}n    mA}in   Nall    liar
 
     FaCCAL                    `noun`    {- may~An -}           [ "liar" ]
-                              `plural`     FA'iL
-                           {- `others`  [ "mA'in Nall" ] -} ]
+                              `plural`     FA'iL ]
 
  |> "m y n '" <| [
 
@@ -10444,7 +10316,8 @@ section_81  = listing "Lexicon's properties"
     -- mwAn    mawAn   NK      ports;harbors
     -- mwAn}   mawAni} Ndip    ports;harbors
 
-    KiRDAS                    `noun`    {- miynA' -}           [ "port", "harbor" ] ]
+    KiRDAS                    `noun`    {- miynA' -}           [ "port", "harbor" ]
+                           {- `others`  [ "miyan N", "mawAni' Ndip", "mawAniy N0_Nh", "miyn Napdu" ] -} ]
 
  |> "m y r" <| [
 
@@ -10486,8 +10359,7 @@ section_81  = listing "Lexicon's properties"
     -- myr     miyar   N       provisions;supplies
 
     FIL |< aT                 `noun`    {- miyrap -}           [ "provisions", "supplies" ]
-                              `plural`     FiCaL
-                           {- `others`  [ "miyar N" ] -},
+                              `plural`     FiCaL,
 
     -- ;; may~Ar_1
     -- myAr    may~Ar  Nall    purveyor;supplier;caterer
@@ -10500,8 +10372,7 @@ section_81  = listing "Lexicon's properties"
     -- AmyAr   >amoyAr N       mayors
 
     FIL                       `noun`    {- miyr -}             [ "mayor" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'amyAr N" ] -} ]
+                              `plural`     HaFCAL ]
 
  |> "m y r n" <| [
 
@@ -10545,8 +10416,7 @@ section_81  = listing "Lexicon's properties"
     -- AmyAs   >amoyAs N       targets
 
     FIL                       `noun`    {- miys -}             [ "target" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'amyAs N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; may~As_1
     -- myAs    may~As  Nall    swaggering
@@ -10564,7 +10434,7 @@ section_81  = listing "Lexicon's properties"
     FIL                       `noun`    {- miys -}             [ unwords [ "mess", "(", "communal", "table", ")" ] ] ]
 
 
-section_82  = listing "Lexicon's properties"
+cluster_82  = listing "Lexicon's properties"
 
 
  |> "m y t" <| [
@@ -10576,7 +10446,8 @@ section_82  = listing "Lexicon's properties"
     -- mwtY    mawotY  N0      lifeless;inanimate;dead
     -- mwtA    mawotA  Nhy     lifeless;inanimate;dead
 
-    FaCCiL                    `noun`    {- may~it -}           [ "dead", "lifeless", "inanimate" ],
+    FaCCiL                    `noun`    {- may~it -}           [ "dead", "lifeless", "inanimate" ]
+                           {- `others`  [ "'amwAt N", "mawtY N0" ] -},
 
     -- ;; mayotap_1
     -- myt     mayot   Nap     corpse;non-kosher meat
@@ -10606,7 +10477,7 @@ section_82  = listing "Lexicon's properties"
     FaCL                      `noun`    {- may~ -}             [ "Mayy" ] ]
 
 
-section_83  = listing "Lexicon's properties"
+cluster_83  = listing "Lexicon's properties"
 
 
  |> "m y z" <| [
@@ -10750,7 +10621,7 @@ section_83  = listing "Lexicon's properties"
     MuFtAL                    `adj`     {- mumotAz -}          [ "privileged", "favored" ] ]
 
 
-section_84  = listing "Lexicon's properties"
+cluster_84  = listing "Lexicon's properties"
 
 
  |> "m z .h" <| [
@@ -10775,8 +10646,7 @@ section_84  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- mazoH -}            [ "joking", "jesting" ]
                               `plural`     FuCaL
-                              `plural`     FiCAL
-                           {- `others`  [ "muza.h N", "mizA.h N" ] -},
+                              `plural`     FiCAL,
 
     -- ;; muzAHap_1
     -- mzAH    muzAH   Nap     joking;jesting
@@ -10879,7 +10749,7 @@ section_84  = listing "Lexicon's properties"
     FACUL |< Iy               `adj`     {- mAzuwxiy~ -}        [ "masochist", "masochism" ] ]
 
 
-section_85  = listing "Lexicon's properties"
+cluster_85  = listing "Lexicon's properties"
 
 
  |> "m z `" <| [
@@ -10906,8 +10776,7 @@ section_85  = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- muzoEap -}          [ "piece", "bite" ]
                               `plural`     FuCaL
                               `plural`     FiCaL
-                              `plural`     FiCL |< aT
-                           {- `others`  [ "muza` N", "miza` N" ] -} ]
+                              `plural`     FiCL |< aT ]
 
  |> "m z m z" <| [
 
@@ -10925,8 +10794,7 @@ section_85  = listing "Lexicon's properties"
     -- mzn     muzan   N       rain clouds
 
     FuCL                      `noun`    {- muzon -}            [ unwords [ "rain", "cloud" ] ]
-                              `plural`     FuCaL
-                           {- `others`  [ "muzan N" ] -},
+                              `plural`     FuCaL,
 
     -- ;; mAzin_1
     -- mAzn    mAzin   Nprop   Mazen;Mazin
@@ -10964,8 +10832,7 @@ section_85  = listing "Lexicon's properties"
     -- mzq     mizaq   N       pieces;shreds
 
     FiCL |< aT                `noun`    {- mizoqap -}          [ "piece", "shred" ]
-                              `plural`     FiCaL
-                           {- `others`  [ "mizaq N" ] -},
+                              `plural`     FiCaL,
 
     -- ;; tamoziyq_1
     -- tmzyq   tamoziyq        N/At    tearing;shredding
@@ -10997,7 +10864,8 @@ section_85  = listing "Lexicon's properties"
     -- mAzwt   mAzuwt  N0      heavy oil;diesel oil
     -- mAzwT   mAzuwT  N0      heavy oil;diesel oil
 
-    FACUL                     `noun`    {- mAzuwt -}           [ unwords [ "heavy", "oil" ], unwords [ "diesel", "oil" ] ] ]
+    FACUL                     `noun`    {- mAzuwt -}           [ unwords [ "heavy", "oil" ], unwords [ "diesel", "oil" ] ]
+                           {- `others`  [ "mAzuw.t N0" ] -} ]
 
  |> "m z y" <| [
 
@@ -11006,8 +10874,7 @@ section_85  = listing "Lexicon's properties"
     -- mzAyA   mazAyA  N0_Nhy  features;advantages
 
     FaCIL |< aT               `noun`    {- maziy~ap -}         [ "feature", "advantage" ]
-                              `plural`     FaCALY
-                           {- `others`  [ "mazAyY N0_Nhy" ] -},
+                              `plural`     FaCALY,
 
     -- ;; mAziyap_1
     -- mAzy    mAziy   NapAt   merit;virtue;advantage
@@ -11015,7 +10882,7 @@ section_85  = listing "Lexicon's properties"
     FACI |< aT                `noun`    {- mAziyap -}          [ "merit", "virtue", "advantage" ] ]
 
 
-section_86  = listing "Lexicon's properties"
+cluster_86  = listing "Lexicon's properties"
 
 
  |> "m z z" <| [
@@ -11159,7 +11026,7 @@ section_86  = listing "Lexicon's properties"
     Identity                  `noun`    {- mAfiyA -}           [ "mafia" ] ]
 
 
-section_87  = listing "Lexicon's properties"
+cluster_87  = listing "Lexicon's properties"
 
 
  |> "mAkUnI" <| [
@@ -11312,7 +11179,7 @@ section_87  = listing "Lexicon's properties"
     Identity |< Iy            `adj`     {- mAniyliy~ -}        [ "" {- "Manilan" -} ] ]
 
 
-section_88  = listing "Lexicon's properties"
+cluster_88  = listing "Lexicon's properties"
 
 
  |> "mAnIlA" <| [
@@ -11452,7 +11319,7 @@ section_88  = listing "Lexicon's properties"
     Identity                  `noun`    {- mArisotAn -}        [ unwords [ "lunatic", "asylum" ] ] ]
 
 
-section_89  = listing "Lexicon's properties"
+cluster_89  = listing "Lexicon's properties"
 
 
  |> "mAriyA" <| [
@@ -11593,7 +11460,7 @@ section_89  = listing "Lexicon's properties"
     Identity                  `noun`    {- mAtsAriylliy -}     [ "" {- "Mazzarelli" -} ] ]
 
 
-section_90  = listing "Lexicon's properties"
+cluster_90  = listing "Lexicon's properties"
 
 
  |> "mAyU" <| [
@@ -11745,7 +11612,7 @@ section_90  = listing "Lexicon's properties"
     Identity                  `noun`    {- miykA -}            [ "mica" ] ]
 
 
-section_91  = listing "Lexicon's properties"
+cluster_91  = listing "Lexicon's properties"
 
 
  |> "mIkAnIk" <| [
@@ -11899,7 +11766,7 @@ section_91  = listing "Lexicon's properties"
     Identity                  `adj`     {- miyluwdrAmA -}      [ "melodrama", "melodramatic" ] ]
 
 
-section_92  = listing "Lexicon's properties"
+cluster_92  = listing "Lexicon's properties"
 
 
  |> "mIlUrAd" <| [
@@ -12049,7 +11916,7 @@ section_92  = listing "Lexicon's properties"
     Identity                  `noun`    {- miyto$il -}         [ "" {- "Mitchell" -} ] ]
 
 
-section_93  = listing "Lexicon's properties"
+cluster_93  = listing "Lexicon's properties"
 
 
  |> "mItadUr" <| [
@@ -12198,7 +12065,7 @@ section_93  = listing "Lexicon's properties"
     Identity                  `noun`    {- muwnobuwloyiyh -}   [ "" {- "Montpellier" -} ] ]
 
 
-section_94  = listing "Lexicon's properties"
+cluster_94  = listing "Lexicon's properties"
 
 
  |> "mUndiyAl" <| [
@@ -12346,7 +12213,7 @@ section_94  = listing "Lexicon's properties"
     Identity                  `noun`    {- muwrofiyn -}        [ "morphine" ] ]
 
 
-section_95  = listing "Lexicon's properties"
+cluster_95  = listing "Lexicon's properties"
 
 
  |> "mUrfUlU^giyA" <| [
@@ -12487,7 +12354,7 @@ section_95  = listing "Lexicon's properties"
     Identity                  `noun`    {- magoniysiyA -}      [ "magnesia" ] ]
 
 
-section_96  = listing "Lexicon's properties"
+cluster_96  = listing "Lexicon's properties"
 
 
  |> "ma.gna.tIs" <| [
@@ -12635,7 +12502,7 @@ section_96  = listing "Lexicon's properties"
     Identity                  `noun`    {- malAriyA -}         [ "malaria" ] ]
 
 
-section_97  = listing "Lexicon's properties"
+cluster_97  = listing "Lexicon's properties"
 
 
  |> "malAyU" <| [
@@ -12781,7 +12648,7 @@ section_97  = listing "Lexicon's properties"
     Identity                  `noun`    {- maqadiy$uw -}       [ "" {- "Mogadishu" -} ] ]
 
 
-section_98  = listing "Lexicon's properties"
+cluster_98  = listing "Lexicon's properties"
 
 
  |> "maqdUnis" <| [
@@ -12927,7 +12794,7 @@ section_98  = listing "Lexicon's properties"
     Identity                  `noun`    {- miliyjrAm -}        [ "milligram" ] ]
 
 
-section_99  = listing "Lexicon's properties"
+cluster_99  = listing "Lexicon's properties"
 
 
  |> "milImitr" <| [
@@ -13070,7 +12937,7 @@ section_99  = listing "Lexicon's properties"
     Identity                  `noun`    {- muxA -}             [ "" {- "Mocha" -} ] ]
 
 
-section_100 = listing "Lexicon's properties"
+cluster_100 = listing "Lexicon's properties"
 
 
  |> "mu_h_hay.t" <| [
@@ -13181,104 +13048,104 @@ section_100 = listing "Lexicon's properties"
     Identity                  `noun`    {- tamoyAT -}          [ "" {- "Tamyat" -} ] ]
 
 
-sections = [ section_1,
-             section_2,
-             section_3,
-             section_4,
-             section_5,
-             section_6,
-             section_7,
-             section_8,
-             section_9,
-             section_10,
-             section_11,
-             section_12,
-             section_13,
-             section_14,
-             section_15,
-             section_16,
-             section_17,
-             section_18,
-             section_19,
-             section_20,
-             section_21,
-             section_22,
-             section_23,
-             section_24,
-             section_25,
-             section_26,
-             section_27,
-             section_28,
-             section_29,
-             section_30,
-             section_31,
-             section_32,
-             section_33,
-             section_34,
-             section_35,
-             section_36,
-             section_37,
-             section_38,
-             section_39,
-             section_40,
-             section_41,
-             section_42,
-             section_43,
-             section_44,
-             section_45,
-             section_46,
-             section_47,
-             section_48,
-             section_49,
-             section_50,
-             section_51,
-             section_52,
-             section_53,
-             section_54,
-             section_55,
-             section_56,
-             section_57,
-             section_58,
-             section_59,
-             section_60,
-             section_61,
-             section_62,
-             section_63,
-             section_64,
-             section_65,
-             section_66,
-             section_67,
-             section_68,
-             section_69,
-             section_70,
-             section_71,
-             section_72,
-             section_73,
-             section_74,
-             section_75,
-             section_76,
-             section_77,
-             section_78,
-             section_79,
-             section_80,
-             section_81,
-             section_82,
-             section_83,
-             section_84,
-             section_85,
-             section_86,
-             section_87,
-             section_88,
-             section_89,
-             section_90,
-             section_91,
-             section_92,
-             section_93,
-             section_94,
-             section_95,
-             section_96,
-             section_97,
-             section_98,
-             section_99,
-             section_100 ]
+section = [ cluster_1,
+            cluster_2,
+            cluster_3,
+            cluster_4,
+            cluster_5,
+            cluster_6,
+            cluster_7,
+            cluster_8,
+            cluster_9,
+            cluster_10,
+            cluster_11,
+            cluster_12,
+            cluster_13,
+            cluster_14,
+            cluster_15,
+            cluster_16,
+            cluster_17,
+            cluster_18,
+            cluster_19,
+            cluster_20,
+            cluster_21,
+            cluster_22,
+            cluster_23,
+            cluster_24,
+            cluster_25,
+            cluster_26,
+            cluster_27,
+            cluster_28,
+            cluster_29,
+            cluster_30,
+            cluster_31,
+            cluster_32,
+            cluster_33,
+            cluster_34,
+            cluster_35,
+            cluster_36,
+            cluster_37,
+            cluster_38,
+            cluster_39,
+            cluster_40,
+            cluster_41,
+            cluster_42,
+            cluster_43,
+            cluster_44,
+            cluster_45,
+            cluster_46,
+            cluster_47,
+            cluster_48,
+            cluster_49,
+            cluster_50,
+            cluster_51,
+            cluster_52,
+            cluster_53,
+            cluster_54,
+            cluster_55,
+            cluster_56,
+            cluster_57,
+            cluster_58,
+            cluster_59,
+            cluster_60,
+            cluster_61,
+            cluster_62,
+            cluster_63,
+            cluster_64,
+            cluster_65,
+            cluster_66,
+            cluster_67,
+            cluster_68,
+            cluster_69,
+            cluster_70,
+            cluster_71,
+            cluster_72,
+            cluster_73,
+            cluster_74,
+            cluster_75,
+            cluster_76,
+            cluster_77,
+            cluster_78,
+            cluster_79,
+            cluster_80,
+            cluster_81,
+            cluster_82,
+            cluster_83,
+            cluster_84,
+            cluster_85,
+            cluster_86,
+            cluster_87,
+            cluster_88,
+            cluster_89,
+            cluster_90,
+            cluster_91,
+            cluster_92,
+            cluster_93,
+            cluster_94,
+            cluster_95,
+            cluster_96,
+            cluster_97,
+            cluster_98,
+            cluster_99,
+            cluster_100 ]
 

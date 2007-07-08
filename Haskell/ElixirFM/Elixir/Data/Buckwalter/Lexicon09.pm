@@ -60,7 +60,9 @@ $Lexicon = {
         ],
         '_dawA' => [
           'FaCA'
-        ]
+        ],
+        '_dA' => [],
+        '_daway' => []
       },
       'index' => '1',
       'entity' => 'pron',
@@ -786,7 +788,11 @@ $Lexicon = {
         '*mym    *amiym  Napdu   blame;censure',
         '*mA}m   *amA}im Ndip    blame;censure'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_damA\'im' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -2176,7 +2182,9 @@ $Lexicon = {
         '*krY    *ikoraY N0      commemoration;remembrance',
         '*krA    *ikorA  Nhy     commemoration;remembrance'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_dikrA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCLY',
@@ -2643,7 +2651,11 @@ $Lexicon = {
         '*byH    *abiyH  Nap     slaughter animal;sacrifice victim',
         '*bA}H   *abA}iH Ndip    slaughter animals;sacrifice victims'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_dabA\'i.h' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -2846,6 +2858,7 @@ $Lexicon = {
         '_dirw' => [
           'FiCL'
         ],
+        '_durA' => [],
         '_durY' => [
           'FuCY'
         ]
@@ -2886,7 +2899,8 @@ $Lexicon = {
       'patterns' => {
         'ma_dAriy' => [
           'MaFACI'
-        ]
+        ],
+        'mi_drA' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -3975,7 +3989,9 @@ $Lexicon = {
         '>*ky    >a*okay NAn_Nayn        smartest;most delicious',
         'A*ky    >a*okay NAn_Nayn        smartest;most delicious'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a_dkA' => []
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'HaFCY',
@@ -4766,7 +4782,11 @@ $Lexicon = {
         '*ryr    *ariyr  Nap     fragrant powder;cosmetic powder',
         '*rA}r   *arA}ir Ndip    fragrant powder;cosmetic powder'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_darA\'ir' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -4840,7 +4860,9 @@ $Lexicon = {
         '*ry     *ur~iy~ NapAt   descendants;offspring     [[*ur~iy~/NOUN]]',
         '*rAry   *arAriy~        N       descendants;offspring'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_darAriyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCL |< Iy |< aT',
@@ -4909,7 +4931,12 @@ $Lexicon = {
         'tAnk    tAnika  FW-WaBi that     [[tAnika/DEM_PRON_FS]]',
         'tynk    tayonika        FW-WaBi that     [[tayonika/DEM_PRON_FS]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tAnika' => [],
+        'taynika' => [],
+        'tAka' => [],
+        'tiyka' => []
+      },
       'index' => '1',
       'entity' => 'pron',
       'morphs' => 'FAL |<< "a"',
@@ -5147,7 +5174,8 @@ $Lexicon = {
       'patterns' => {
         '_dAwiy' => [
           'FACI'
-        ]
+        ],
+        '_dAw' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -5605,7 +5633,11 @@ $Lexicon = {
         '*ryE    *ariyE  Napdu   means;pretext;expedient',
         '*rA}E   *arA}iE Ndip    pretexts;expediency;pragmatics'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_darA\'i`' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -5866,7 +5898,11 @@ $Lexicon = {
         '*xyr    *axiyr  Napdu   ammunition;treasure;provisions',
         '*xA}r   *axA}ir Ndip    ammunition;treasure;provisions'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_da_hA\'ir' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -6566,6 +6602,7 @@ $Lexicon = {
         'A*l     >a*il~  Nap     despised;submissive'
       ],
       'patterns' => {
+        '\'a_dillA\'' => [],
         '\'a_dill' => [
           'HaFiCL'
         ]

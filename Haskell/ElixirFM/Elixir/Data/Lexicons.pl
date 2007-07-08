@@ -16,18 +16,18 @@ use Getopt::Std;
 $Getopt::Std::STANDARD_HELP_VERSION = 1;
 
 
-our ($DIR, $Lexicon, $Index, $ID, $IDX, $CNT);
+our ($DIR, $Lexicon, $Index, $ID, $IDX, $CNT, $SectionIDX, $SectionCNT, $ClusterIDX, $ClusterCNT);
 
-our ($include, $indexed, $unwords, $section, $options);
+our ($include, $indexed, $unwords, $section, $cluster, $options);
 
 
 $/ = "\n";
 
 @ARGV = glob join " ", @ARGV;
 
-$options = { 's' => 20, 'w' => 1 };
+$options = { 's' => 10, 'c' => 20, 'w' => 1 };
 
-getopts('x:d:yeti:s:w:v', $options);
+getopts('x:d:c:yeti:s:w:v', $options);
 
 die $VERSION . "\n" if exists $options->{'v'};
 
@@ -48,6 +48,11 @@ $unwords = 0 if $unwords < 0;
 $section = exists $options->{'s'} ? $options->{'s'} + 0 : 0;
 
 $section = 0 if $section < 0;
+
+
+$cluster = exists $options->{'c'} ? $options->{'c'} + 0 : 0;
+
+$cluster = 0 if $cluster < 0;
 
 
 if (exists $options->{'i'}) {
@@ -126,7 +131,7 @@ sub beginLexicon {
 
     my @data = keys %{$Lexicon};
 
-    my $listing = $section && @data ? "include sections" : "listing \"Lexicon's properties\"";
+    my $listing = $cluster && @data ? "include section" : "listing \"Lexicon's properties\"";
 
     print << "    return;";
 
@@ -151,11 +156,24 @@ sub closeLexicon {
 }
 
 
+sub beginChapter {
+
+}
+
+
+sub closeChapter {
+
+}
+
+
+
+
+
 sub printLexicon {
 
     my @data = sort keys %{$Lexicon};
 
-    if ($section and @data) {
+    if ($cluster and @data) {
 
         beginSection();
 
@@ -166,7 +184,7 @@ sub printLexicon {
 
             next unless @entries;
 
-            if ($CNT and @entries + $CNT > $section) {
+            if ($CNT and @entries + $CNT > $cluster) {
 
                 closeSection();
 
@@ -180,7 +198,7 @@ sub printLexicon {
 
         closeSection();
 
-        print "\nsections = [ " . (join ",\n" . " " x 13, map { "section_$_" } 1 .. $IDX) . " ]\n\n";
+        print "\nsection = [ " . (join ",\n" . " " x 12, map { "cluster_$_" } 1 .. $IDX) . " ]\n\n";
     }
     else {
 
@@ -211,7 +229,7 @@ sub beginSection {
 
     print << "    return;";
 
-section_$idx = listing "Lexicon's properties"
+cluster_$idx = listing "Lexicon's properties"
 
 
     return;
@@ -342,7 +360,13 @@ sub showEntry ($) {
 
             @types = grep { not /At(?:_|$)/ || /ap(?:_|$)/ || /iyn(?:_|$)/ } @types;
 
-            push @{$others}, join ' ', $form, @types if @types;
+            my $morf = $form;
+
+            $morf =~ s/A$/Y/;
+
+            push @{$others}, join ' ', $form, @types unless not @types or @{$entry->{'patterns'}->{$form}}
+                                               or $morf ne $form and exists $entry->{'patterns'}->{$morf}
+                                               or $morf eq $entry->{'form'};
         }
     }
 

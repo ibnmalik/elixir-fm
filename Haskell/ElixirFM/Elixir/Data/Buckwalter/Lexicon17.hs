@@ -6,10 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = include sections
+lexicon = include section
 
 
-section_1   = listing "Lexicon's properties"
+cluster_1   = listing "Lexicon's properties"
 
 
  |> ".z  '" <| [
@@ -52,8 +52,8 @@ section_1   = listing "Lexicon's properties"
     -- ZEA}n   ZaEA}in Ndip    camel loads
 
     FaCIL |< aT               `noun`    {- ZaEiynap -}         [ unwords [ "camel", "load" ] ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'a.z`An N" ] -},
+                              `plural`     FaCA'iL
+                              `plural`     HaFCAL,
 
     -- ;; ZaEuwn_1
     -- ZEwn    ZaEuwn  N       load camel
@@ -74,8 +74,7 @@ section_1   = listing "Lexicon's properties"
     -- ZbA}    ZibA}   Nhy     gazelles
 
     FaCL                      `noun`    {- Zaboy -}            [ "gazelle" ]
-                              `plural`     FiCA'
-                           {- `others`  [ ".zibA' Nh N0_Nh Nhy" ] -},
+                              `plural`     FiCA',
 
     -- ;; Zabiy_1
     -- Zby     Zabiy   FW      Dhabi     [[Zabiy/NOUN_PROP]]
@@ -95,7 +94,7 @@ section_1   = listing "Lexicon's properties"
     FuCLAn |< Iy              `adj`     {- ZuboyAniy~ -}       [ unwords [ "from", "/", "of", "Abu", "Dhabi" ] ] ]
 
 
-section_2   = listing "Lexicon's properties"
+cluster_2   = listing "Lexicon's properties"
 
 
  |> ".z f r" <| [
@@ -136,8 +135,7 @@ section_2   = listing "Lexicon's properties"
 
     FuCuL                     `noun`    {- Zufur -}            [ "nail", "claw", "talon" ]
                               `plural`     HaFCAL
-                              `plural`     HaFACiL
-                           {- `others`  [ "'a.zfAr N", "'a.zAfir Ndip" ] -},
+                              `plural`     HaFACiL,
 
     -- ;; >uZofuwr_1
     -- >Zfwr   >uZofuwr        Ndu     nail;claw;talon
@@ -146,8 +144,7 @@ section_2   = listing "Lexicon's properties"
     -- AZAfyr  >aZAfiyr        Ndip    nails;claws;talons
 
     HuFCUL                    `noun`    {- OuZofuwr -}         [ "nail", "claw", "talon" ]
-                              `plural`     HaFACIL
-                           {- `others`  [ "'a.zAfiyr Ndip" ] -},
+                              `plural`     HaFACIL,
 
     -- ;; Zafar_1
     -- Zfr     Zafar   N       victory
@@ -195,7 +192,7 @@ section_2   = listing "Lexicon's properties"
     FuCayL |< Iy              `adj`     {- Zufayoriy~ -}       [ "Zufairi" ] ]
 
 
-section_3   = listing "Lexicon's properties"
+cluster_3   = listing "Lexicon's properties"
 
 
  |> ".z h r" <| [
@@ -270,8 +267,7 @@ section_3   = listing "Lexicon's properties"
     -- AZhAr   >aZohAr N       afternoons
 
     FuCL                      `adv`     {- Zuhor -}            [ "noon", "afternoon", unwords [ "in", "the", "afternoon" ], unwords [ "at", "noon" ] ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'a.zhAr N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; Zuhoriy~_1
     -- Zhry    Zuhoriy~        N-ap    afternoon;meridian     [[Zuhoriy~/ADJ]]
@@ -314,8 +310,7 @@ section_3   = listing "Lexicon's properties"
     -- mZAhr   maZAhir Ndip    features;manifestations
 
     MaFCaL                    `noun`    {- maZohar -}          [ "appearance", "facade", "features", "manifestations" ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "ma.zAhir Ndip" ] -},
+                              `plural`     MaFACiL,
 
     -- ;; taZohiyr_1
     -- tZhyr   taZohiyr        N/At    endorsement;transfer
@@ -398,8 +393,7 @@ section_3   = listing "Lexicon's properties"
     -- ZwAhr   ZawAhir Ndip    phenomena
 
     FACiL |< aT               `noun`    {- ZAhirap -}          [ "phenomenon", "phenomena" ]
-                              `plural`     FawACiL
-                           {- `others`  [ ".zawAhir Ndip" ] -},
+                              `plural`     FawACiL,
 
     -- ;; ZawAhiriy~_1
     -- ZwAhry  ZawAhiriy~      N0      Zawahri;Zawahiri
@@ -427,7 +421,7 @@ section_3   = listing "Lexicon's properties"
     MutaFACiL                 `noun`    {- mutaZAhir -}        [ "demonstrator" ] ]
 
 
-section_4   = listing "Lexicon's properties"
+cluster_4   = listing "Lexicon's properties"
 
 
  |> ".z l `" <| [
@@ -464,8 +458,7 @@ section_4   = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- Zilof -}            [ unwords [ "cloven", "hoof" ] ]
                               `plural`     FuCUL
-                              `plural`     HaFCAL
-                           {- `others`  [ ".zuluwf N", "'a.zlAf N" ] -} ]
+                              `plural`     HaFCAL ]
 
  |> ".z l l" <| [
 
@@ -478,8 +471,7 @@ section_4   = listing "Lexicon's properties"
     FaCL |<< "a"              `noun`    {- Zal~a -}            [ "remain", "continue" ]
                               `plural`     FCaL
                               `plural`     FaCL
-                              `plural`     FaCiL
-                           {- `others`  [ ".zlal IV_C", ".zall PV_V IV_V", ".zalil PV_C" ] -},
+                              `plural`     FaCiL,
 
     -- ;; Zal~al_1
     -- Zll     Zal~al  PV      shade
@@ -524,16 +516,14 @@ section_4   = listing "Lexicon's properties"
     FiCL                      `noun`    {- Zil~ -}             [ "patronage", "shelter", "auspices" ]
                               `plural`     FuCUL
                               `plural`     FiCAL
-                              `plural`     HaFCAL
-                           {- `others`  [ ".zuluwl N", ".zilAl N", "'a.zlAl N" ] -},
+                              `plural`     HaFCAL,
 
     -- ;; Zul~ap_1
     -- Zl      Zul~    Nap     veranda
     -- Zll     Zulal   N       shelters
 
     FuCL |< aT                `noun`    {- Zul~ap -}           [ "veranda", "shelters" ]
-                              `plural`     FuCaL
-                           {- `others`  [ ".zulal N" ] -},
+                              `plural`     FuCaL,
 
     -- ;; Zaliyl_1
     -- Zlyl    Zaliyl  N-ap    shaded
@@ -545,16 +535,14 @@ section_4   = listing "Lexicon's properties"
     -- mZAl    maZAl~  Ndip    umbrellas
 
     MiFaCL |< aT              `noun`    {- miZal~ap -}         [ "umbrella" ]
-                              `plural`     MaFACL
-                           {- `others`  [ "ma.zAll Ndip" ] -},
+                              `plural`     MaFACL,
 
     -- ;; miZal~ap_2
     -- mZl     miZal~  NapAt   parachute
     -- mZAl    maZAl~  Ndip    parachutes
 
     MiFaCL |< aT              `noun`    {- miZal~ap -}         [ "parachute" ]
-                              `plural`     MaFACL
-                           {- `others`  [ "ma.zAll Ndip" ] -},
+                              `plural`     MaFACL,
 
     -- ;; miZal~iy~_1
     -- mZly    miZal~iy~       Nall    parachutists;paratrooper     [[miZal~iy~/ADJ]]
@@ -572,7 +560,7 @@ section_4   = listing "Lexicon's properties"
     MuFiCL                    `adj`     {- muZil~ -}           [ "shady", "shadowy" ] ]
 
 
-section_5   = listing "Lexicon's properties"
+cluster_5   = listing "Lexicon's properties"
 
 
  |> ".z l m" <| [
@@ -625,8 +613,7 @@ section_5   = listing "Lexicon's properties"
     -- ZlmA}   ZalomA} Nhy     darkness
 
     FuCL |< aT                `noun`    {- Zulomap -}          [ "darkness" ]
-                              `plural`     FaCLA'
-                           {- `others`  [ ".zalmA' Nh N0_Nh Nhy" ] -},
+                              `plural`     FaCLA',
 
     -- ;; ZalAm_1
     -- ZlAm    ZalAm   N       darkness
@@ -649,8 +636,7 @@ section_5   = listing "Lexicon's properties"
     -- ZlmAn   ZilomAn N       ostriches
 
     FaCIL                     `noun`    {- Zaliym -}           [ "ostrich" ]
-                              `plural`     FiCLAn
-                           {- `others`  [ ".zilmAn N" ] -},
+                              `plural`     FiCLAn,
 
     -- ;; ZulAmap_1
     -- ZlAm    ZulAm   NapAt   injustice;misdeed
@@ -668,8 +654,7 @@ section_5   = listing "Lexicon's properties"
     -- mZAlm   maZAlim Ndip    injustices;misdeeds
 
     MaFCiL |< aT              `noun`    {- maZolimap -}        [ "injustice", "misdeed" ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "ma.zAlim Ndip" ] -},
+                              `plural`     MaFACiL,
 
     -- ;; <iZolAm_1
     -- <ZlAm   <iZolAm N/At    darkness;gloom
@@ -691,8 +676,7 @@ section_5   = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- ZAlim -}            [ "oppressor", "tyrant" ]
                               `plural`     FuCCAL
-                              `plural`     FaCaL |< aT
-                           {- `others`  [ ".zullAm N" ] -},
+                              `plural`     FaCaL |< aT,
 
     -- ;; maZoluwm_1
     -- mZlwm   maZoluwm        Nall    oppressed;treated unjustly     [[maZoluwm/ADJ]]
@@ -705,7 +689,7 @@ section_5   = listing "Lexicon's properties"
     MuFCiL                    `adj`     {- muZolim -}          [ "dark", "gloomy" ] ]
 
 
-section_6   = listing "Lexicon's properties"
+cluster_6   = listing "Lexicon's properties"
 
 
  |> ".z m '" <| [
@@ -768,8 +752,7 @@ section_6   = listing "Lexicon's properties"
     -- Zm>Y    Zamo>aY N0      thirsty
 
     FaCLAn                    `adj`     {- Zamo|n -}           [ "thirsty" ]
-                              `plural`     FaCLY
-                           {- `others`  [ ".zam'Y N0" ] -},
+                              `plural`     FaCLY,
 
     -- ;; ZAmi}_1
     -- ZAm}    ZAmi}   Nall    thirsty     [[ZAmi}/ADJ]]
@@ -783,8 +766,7 @@ section_6   = listing "Lexicon's properties"
     -- ZnAbyb  ZanAbiyb        Ndip    shinbones
 
     KuRDUS                    `noun`    {- Zunobuwb -}         [ "shinbone", "tibia" ]
-                              `plural`     KaRADIS
-                           {- `others`  [ ".zanAbiyb Ndip" ] -},
+                              `plural`     KaRADIS,
 
     -- ;; Zunobuwbiy~_1
     -- Znbwby  Zunobuwbiy~     N-ap    tibial;shin     [[Zunobuwbiy~/ADJ]]
@@ -824,8 +806,7 @@ section_6   = listing "Lexicon's properties"
     -- Znn     Zinan   N       misgivings
 
     FiCL |< aT                `noun`    {- Zin~ap -}           [ "distrust", "misgivings" ]
-                              `plural`     FiCaL
-                           {- `others`  [ ".zinan N" ] -},
+                              `plural`     FiCaL,
 
     -- ;; Zaniyn_1
     -- Znyn    Zaniyn  Nall    suspicious;suspected     [[Zaniyn/ADJ]]
@@ -848,10 +829,11 @@ section_6   = listing "Lexicon's properties"
     -- ZrbAn   ZirobAn N       polecat;fitchew
     -- ZrAbyn  ZarAbiyn        Ndip    polecat;fitchew
 
-    FiCLAn                    `noun`    {- ZirobAn -}          [ "polecat", "fitchew" ] ]
+    FiCLAn                    `noun`    {- ZirobAn -}          [ "polecat", "fitchew" ]
+                              `plural`     FaCALIn ]
 
 
-section_7   = listing "Lexicon's properties"
+cluster_7   = listing "Lexicon's properties"
 
 
  |> ".z r f" <| [
@@ -903,8 +885,7 @@ section_7   = listing "Lexicon's properties"
     -- Zrwf    Zuruwf  N       circumstances;condition;situation
 
     FaCL                      `noun`    {- Zarof -}            [ "circumstance", "condition", "situation" ]
-                              `plural`     FuCUL
-                           {- `others`  [ ".zuruwf N" ] -},
+                              `plural`     FuCUL,
 
     -- ;; Zarofiy~_1
     -- Zrfy    Zarofiy~        N-ap    circumstantial     [[Zarofiy~/ADJ]]
@@ -920,7 +901,7 @@ section_7   = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- Zariyf -}           [ "adroit", "elegant", "courteous" ]
                               `plural`     FuCaLA'
-                           {- `others`  [ ".zurafA' Nh N0_Nh Nhy" ] -},
+                              `plural`     FaCA'iL,
 
     -- ;; Zariyf_2
     -- Zryf    Zariyf  N0      Zarif
@@ -955,8 +936,7 @@ section_7   = listing "Lexicon's properties"
     -- mZAryf  maZAriyf        Ndip    envelopes
 
     MaFCUL                    `noun`    {- maZoruwf -}         [ "envelope" ]
-                              `plural`     MaFACIL
-                           {- `others`  [ "ma.zAriyf Ndip" ] -},
+                              `plural`     MaFACIL,
 
     -- ;; mutaZar~if_1
     -- mtZrf   mutaZar~if      Nall    elegant;courteous     [[mutaZar~if/ADJ]]
@@ -976,7 +956,7 @@ section_7   = listing "Lexicon's properties"
     FiCCAL                    `noun`    {- Zir~An -}           [ "flint" ] ]
 
 
-section_8   = listing "Lexicon's properties"
+cluster_8   = listing "Lexicon's properties"
 
 
  |> ".z r r" <| [
@@ -1000,12 +980,12 @@ section_8   = listing "Lexicon's properties"
     Identity |< aT            `noun`    {- maZin~ap -}         [ "presumption", "prejudice" ] ]
 
 
-sections = [ section_1,
-             section_2,
-             section_3,
-             section_4,
-             section_5,
-             section_6,
-             section_7,
-             section_8 ]
+section = [ cluster_1,
+            cluster_2,
+            cluster_3,
+            cluster_4,
+            cluster_5,
+            cluster_6,
+            cluster_7,
+            cluster_8 ]
 

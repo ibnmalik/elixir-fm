@@ -535,6 +535,7 @@ $Lexicon = {
         'mDny    muDoniy NapAt   debilitating;exhausting'
       ],
       'patterns' => {
+        'mu.dn' => [],
         'mu.dniy' => [
           'MuFCI'
         ]
@@ -576,7 +577,9 @@ $Lexicon = {
       'patterns' => {
         'mu.dnY' => [
           'MuFCY'
-        ]
+        ],
+        'mu.dn' => [],
+        'mu.dnA' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -775,7 +778,11 @@ $Lexicon = {
         'Dmyr    Damiyr  Ndu     conscience;pronoun',
         'DmA}r   DamA}ir Ndip    consciences;pronouns'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.damA\'ir' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -960,8 +967,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'i.dfA\'' => [
-          'HiFCAL',
-          'HiFCA\''
+          'HiFCAL'
         ]
       },
       'index' => '1',
@@ -2298,6 +2304,7 @@ $Lexicon = {
         'DlAl    Dul~Al  N       erroneous;misguided'
       ],
       'patterns' => {
+        '.dawAll' => [],
         '.dullAl' => [
           'FuCCAL'
         ]
@@ -2622,6 +2629,9 @@ $Lexicon = {
       'patterns' => {
         '\'a.dri.h' => [
           'HaFCiL'
+        ],
+        '.darA\'i.h' => [
+          'FaCA\'iL'
         ]
       },
       'index' => '1',
@@ -3042,7 +3052,9 @@ $Lexicon = {
         'Dmn     Dimona  FW-Wa-a within;inside;among     [[Dimona/PREP]]',
         'Dmn     Dimoni  FW-Wa-i within;inside;among     [[Dimoni/PREP]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.dimni' => []
+      },
       'index' => '1',
       'entity' => 'prep',
       'morphs' => 'FiCL |<< "a"',
@@ -3576,8 +3588,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '.dawA\'iq' => [
-          'FawACiL',
-          'FawA\'iL'
+          'FawACiL'
         ]
       },
       'index' => '1',
@@ -4015,7 +4026,11 @@ $Lexicon = {
         'DbAr    DibAr   Nap     file;dossier',
         'DbA}r   DabA}ir Ndip    files;dossiers'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.dabA\'ir' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL |< aT',
@@ -4350,7 +4365,11 @@ $Lexicon = {
         'Dmym    Damiym  Nap     addition;increase',
         'DmA}m   DamA}im Ndip    additions;increases'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.damA\'im' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -4959,6 +4978,25 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => '.darA\'ib',
+      'form' => '.darA\'ib',
+      'lines' => [
+        ';; DarA}ib_1',
+        'DrA}b   DarA}ib Ndip    taxes'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCA\'iL',
+      'suffix' => '',
+      'glosses' => [
+        'taxes'
+      ],
+      'orig' => 'DarA}ib',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => '.dariyb',
       'form' => '.dariybiyy',
       'lines' => [
@@ -5469,7 +5507,8 @@ $Lexicon = {
       'patterns' => {
         'mu.dAhiy' => [
           'MuFACI'
-        ]
+        ],
+        'mu.dAh' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -5758,7 +5797,9 @@ $Lexicon = {
         'DHA     DuHA    Nhy     forenoon',
         'DHA     DuHA    Nhy     overnight;suddenly'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.du.hA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCY',
@@ -6310,7 +6351,9 @@ $Lexicon = {
         '<DAfp   <iDAfapF        FW-Wa   in addition     [[<iDAfapF/ADV]]',
         'ADAfp   <iDAfapF        FW-Wa   in addition     [[<iDAfapF/ADV]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i.dAfaTaN' => []
+      },
       'index' => '1',
       'entity' => 'adv',
       'morphs' => 'HiFAL |< aT',
@@ -6487,8 +6530,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '\'i.dnA\'' => [
-          'HiFCAL',
-          'HiFCA\''
+          'HiFCAL'
         ]
       },
       'index' => '1',
@@ -6514,7 +6556,9 @@ $Lexicon = {
         'DwAgT   DawAgiT Ndip    compressors',
         'mDgwT   maDoguwT        N-ap    compressed'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ma.d.guw.t' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRADiS',
@@ -6611,7 +6655,9 @@ $Lexicon = {
         ';; DafodaEiy~At_1',
         'DfdEy   DafodaEiy~      NAt     amphibians;batrachians     [[DafodaEiy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.dafda`iyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRDaS |< Iy |< At',
@@ -7061,7 +7107,8 @@ $Lexicon = {
       'patterns' => {
         'in.dibA.t' => [
           'InFiCAL'
-        ]
+        ],
+        'in.dibA.tiyy' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -8534,7 +8581,11 @@ $Lexicon = {
         'Dr      Dar~    Napdu   plural wife',
         'DrA}r   DarA}ir Ndip    plural wives'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.darA\'ir' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL |< aT',
@@ -8647,7 +8698,9 @@ $Lexicon = {
         'Drwry   Daruwriy~       N-ap    necessary;requisite     [[Daruwriy~/ADJ]]',
         'Drwry   Daruwriy~       NAt     necessities     [[Daruwriy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.daruwriyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCUL |< Iy',
@@ -9016,6 +9069,9 @@ $Lexicon = {
         ],
         '.da`af' => [
           'FaCaL'
+        ],
+        '.da`A\'if' => [
+          'FaCA\'iL'
         ]
       },
       'index' => '1',
@@ -9610,7 +9666,8 @@ $Lexicon = {
       'patterns' => {
         '.dAfiy' => [
           'FACI'
-        ]
+        ],
+        '.dAf' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -9784,7 +9841,11 @@ $Lexicon = {
         'DmAd    DimAd   Napdu   bandage',
         'DmA}d   DamA}id Ndip    bandages'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.damA\'id' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FiCAL |< aT',
@@ -10483,6 +10544,7 @@ $Lexicon = {
         'mDgTy   miDogaTiy~      N-ap    barometric     [[miDogaTiy~/ADJ]]'
       ],
       'patterns' => {
+        'mi.d.ga.tiyy' => [],
         'ma.dA.gi.t' => [
           'MaFACiL'
         ]
@@ -10555,27 +10617,6 @@ $Lexicon = {
         'compressibility'
       ],
       'orig' => 'AinoDigATiy~ap',
-      'prefix' => ''
-    }
-  ],
-  '.d r \' b' => [
-    {
-      'types' => {},
-      'entry' => '.darA\'ib',
-      'form' => '.darA\'ib',
-      'lines' => [
-        ';; DarA}ib_1',
-        'DrA}b   DarA}ib Ndip    taxes'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRADiS',
-      'suffix' => '',
-      'glosses' => [
-        'taxes'
-      ],
-      'orig' => 'DarA}ib',
       'prefix' => ''
     }
   ],
@@ -11036,7 +11077,8 @@ $Lexicon = {
       'patterns' => {
         '.dAwiy' => [
           'FACI'
-        ]
+        ],
+        '.dAw' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -11071,7 +11113,8 @@ $Lexicon = {
       'patterns' => {
         'mun.dawiy' => [
           'MunFaCI'
-        ]
+        ],
+        'mun.daw' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -11121,7 +11164,9 @@ $Lexicon = {
         'DwDY    DawoDaY N0      tumult;noise',
         'DwDA    DawoDA  Nhy     tumult;noise'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.daw.dA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCLY',
@@ -11851,7 +11896,9 @@ $Lexicon = {
         'DrEy    DaroEiy~        Nall    mammal     [[DaroEiy~/ADJ]]',
         'DrEy    DaroEiy~        NAt     mammals     [[DaroEiy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.dar`iyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCL |< Iy',
@@ -12298,7 +12345,8 @@ $Lexicon = {
       'patterns' => {
         '.dAriy' => [
           'FACI'
-        ]
+        ],
+        '.dAr' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -12873,6 +12921,25 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => '.dafA\'ir',
+      'form' => '.dafA\'ir',
+      'lines' => [
+        ';; DafA}ir_1',
+        'DfA}r   DafA}ir Ndip    braids'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCA\'iL',
+      'suffix' => '',
+      'glosses' => [
+        'braids'
+      ],
+      'orig' => 'DafA}ir',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'ta.dAfur' => {
           'NAt' => 1
@@ -12988,18 +13055,13 @@ $Lexicon = {
       'types' => {},
       'entry' => '.dafA\'ir',
       'form' => '.dafA\'ir',
-      'lines' => [
-        ';; DafA}ir_1',
-        'DfA}r   DafA}ir Ndip    braids'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRADiS',
       'suffix' => '',
-      'glosses' => [
-        'braids'
-      ],
+      'glosses' => [],
       'orig' => 'DafA}ir',
       'prefix' => ''
     }
@@ -13341,7 +13403,11 @@ $Lexicon = {
         'Dgyn    Dagiyn  Nap     hatred;malice',
         'DgA}n   DagA}in Ndip    hatred;malice'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.da.gA\'in' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -13969,9 +14035,9 @@ $Lexicon = {
         'ADwA}   >aDowA} Nhy     lights'
       ],
       'patterns' => {
+        '.daw\'A' => [],
         '\'a.dwA\'' => [
-          'HaFCAL',
-          'HaFCA\''
+          'HaFCAL'
         ]
       },
       'index' => '1',
@@ -14101,8 +14167,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'in.diwA\'' => [
-          'InFiCAL',
-          'InFiCA\''
+          'InFiCAL'
         ]
       },
       'index' => '1',
@@ -14185,6 +14250,9 @@ $Lexicon->{'.d .h y'}[5]{'glosses'} = $Lexicon->{'.d .h w'}[10]{'glosses'};
 $Lexicon->{'.d y `'}[11]{'types'} = $Lexicon->{'.d \' `'}[0]{'types'};
 $Lexicon->{'.d y `'}[11]{'lines'} = $Lexicon->{'.d \' `'}[0]{'lines'};
 $Lexicon->{'.d y `'}[11]{'glosses'} = $Lexicon->{'.d \' `'}[0]{'glosses'};
+$Lexicon->{'.d f \' r'}[0]{'types'} = $Lexicon->{'.d f r'}[5]{'types'};
+$Lexicon->{'.d f \' r'}[0]{'lines'} = $Lexicon->{'.d f r'}[5]{'lines'};
+$Lexicon->{'.d f \' r'}[0]{'glosses'} = $Lexicon->{'.d f r'}[5]{'glosses'};
 $Lexicon->{'.d \' r'}[0]{'types'} = $Lexicon->{'.d w r'}[6]{'types'};
 $Lexicon->{'.d \' r'}[0]{'lines'} = $Lexicon->{'.d w r'}[6]{'lines'};
 $Lexicon->{'.d \' r'}[0]{'glosses'} = $Lexicon->{'.d w r'}[6]{'glosses'};

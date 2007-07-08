@@ -128,6 +128,52 @@ $Lexicon = {
     },
     {
       'types' => {
+        '_talA_tiyn' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => '_talA_tiyn',
+      'form' => '_talA_tiynAt',
+      'lines' => [
+        ';; valAviynAt_1',
+        'vlAvyn  valAviyn        NAt     thirties'
+      ],
+      'patterns' => {
+        '_talA_tiyn' => [
+          'FaCALIn'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCALIn |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'thirties'
+      ],
+      'orig' => 'valAviynAt',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_talA_tiyn',
+      'form' => '_talA_tiyniyy',
+      'lines' => [
+        ';; valAviyniy~_1',
+        'vlAvyny valAviyniy~     Nall    thirties     [[valAviyniy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCALIn |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'thirties'
+      ],
+      'orig' => 'valAviyniy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '_tulA_tiyy' => {
           'NduAt' => 1
         }
@@ -138,7 +184,9 @@ $Lexicon = {
         ';; vulAviy~_1',
         'vlAvy   vulAviy~        NduAt   trio     [[vulAviy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_tulA_tiyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCAL |< Iy',
@@ -1032,6 +1080,7 @@ $Lexicon = {
         'vAgy    vAgiy   NapAt   bleating'
       ],
       'patterns' => {
+        '_tA.g' => [],
         '_tA.giy' => [
           'FACI'
         ]
@@ -1662,6 +1711,38 @@ $Lexicon = {
         'eighth'
       ],
       'orig' => 'vAmin',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_tamAniyniyy' => {
+          'NAt' => 1
+        },
+        '_tamAniyn' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => '_tamAniyn',
+      'form' => '_tamAniyn',
+      'lines' => [
+        ';; vamAniyn_1',
+        'vmAnyn  vamAniyn        NAt     eighties',
+        'vmAnyny vamAniyniy~     NAt     eighties     [[vamAniyniy~/NOUN]]'
+      ],
+      'patterns' => {
+        '_tamAniyniyy' => [],
+        '_tamAniyn' => [
+          'FaCALIn'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCALIn',
+      'suffix' => '',
+      'glosses' => [
+        'eighties'
+      ],
+      'orig' => 'vamAniyn',
       'prefix' => ''
     },
     {
@@ -2503,7 +2584,9 @@ $Lexicon = {
       'entry' => '_tar',
       'form' => '_tariyy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'a_triyA\'' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaL |< Iy',
@@ -2810,7 +2893,9 @@ $Lexicon = {
         'vwY     vuwaY   N0      road-signs;signposts',
         'vwA     vuwA    Nhy     road-signs;signposts'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_tuwA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCY',
@@ -2842,6 +2927,7 @@ $Lexicon = {
         'mvAw    mavAw   NK      abodes;lodgings'
       ],
       'patterns' => {
+        'ma_twA' => [],
         'ma_tAwiy' => [
           'MaFACI'
         ]
@@ -3012,7 +3098,9 @@ $Lexicon = {
         'vdyy    vadoyiy~        Nall    mammal     [[vadoyiy~/ADJ]]',
         'vdyy    vadoyiy~        NAt     mammals     [[vadoyiy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_tadyiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCL |< Iy',
@@ -3783,6 +3871,7 @@ $Lexicon = {
         'AvnA}   >avonA} FW-Wa-o during     [[>avonA}a/PREP]]'
       ],
       'patterns' => {
+        '\'a_tnA\'i' => [],
         '\'a_tnA\'' => [
           'HaFCA\''
         ]
@@ -4274,7 +4363,9 @@ $Lexicon = {
       'patterns' => {
         'mu_tannY' => [
           'MuFaCCY'
-        ]
+        ],
+        'mu_tannA' => [],
+        'mu_tann' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -4313,7 +4404,9 @@ $Lexicon = {
       'patterns' => {
         'musta_tnY' => [
           'MustaFCY'
-        ]
+        ],
+        'musta_tnA' => [],
+        'musta_tn' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -4497,9 +4590,12 @@ $Lexicon = {
         'vkAlA   vakAlA  Nhy     bereft;bereaved'
       ],
       'patterns' => {
+        '_takAlY' => [],
         '_taklY' => [
           'KaRDY'
-        ]
+        ],
+        '_takAlA' => [],
+        '_taklA' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -4510,39 +4606,6 @@ $Lexicon = {
         'bereaved'
       ],
       'orig' => 'vakolAn',
-      'prefix' => ''
-    }
-  ],
-  '_t m n n' => [
-    {
-      'types' => {
-        '_tamAniyniyy' => {
-          'NAt' => 1
-        },
-        '_tamAniyn' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => '_tamAniyn',
-      'form' => '_tamAniyn',
-      'lines' => [
-        ';; vamAniyn_1',
-        'vmAnyn  vamAniyn        NAt     eighties',
-        'vmAnyny vamAniyniy~     NAt     eighties     [[vamAniyniy~/NOUN]]'
-      ],
-      'patterns' => {
-        '_tamAniyn' => [
-          'KaRADIS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRADIS',
-      'suffix' => '',
-      'glosses' => [
-        'eighties'
-      ],
-      'orig' => 'vamAniyn',
       'prefix' => ''
     }
   ],
@@ -5383,6 +5446,22 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_t .g \'' => [
+    {
+      'types' => {},
+      'entry' => '_tu.gA\'',
+      'form' => '_tu.gA\'',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCAL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'vugA\'',
+      'prefix' => ''
+    }
+  ],
   'Ai_tnAn' => [
     {
       'types' => {
@@ -5409,22 +5488,6 @@ $Lexicon = {
       ],
       'orig' => 'AlAivonAni',
       'prefix' => 'al >| '
-    }
-  ],
-  '_t .g \'' => [
-    {
-      'types' => {},
-      'entry' => '_tu.gA\'',
-      'form' => '_tu.gA\'',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'vugA\'',
-      'prefix' => ''
     }
   ],
   'kaAlAi_tnay' => [
@@ -6006,9 +6069,9 @@ $Lexicon = {
       'form' => '\'a_tnA\'a',
       'lines' => [],
       'patterns' => {
+        '\'a_tnA\'i' => [],
         '\'a_tnA\'' => [
-          'HaFCAL',
-          'HaFCA\''
+          'HaFCAL'
         ]
       },
       'index' => '1',
@@ -6082,8 +6145,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'in_tinA\'' => [
-          'InFiCAL',
-          'InFiCA\''
+          'InFiCAL'
         ]
       },
       'index' => '1',
@@ -6115,8 +6177,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'isti_tnA\'' => [
-          'IstiFCAL',
-          'IstiFCA\''
+          'IstiFCAL'
         ]
       },
       'index' => '1',
@@ -7246,6 +7307,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '_tawA\'ir' => [
+          'FaCA\'iL',
           'FawA\'iL'
         ]
       },
@@ -8260,7 +8322,9 @@ $Lexicon = {
         ],
         '_taklY' => [
           'FaCLY'
-        ]
+        ],
+        '_takAlA' => [],
+        '_taklA' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -8365,54 +8429,6 @@ $Lexicon = {
         'streaming'
       ],
       'orig' => 'vajAj',
-      'prefix' => ''
-    }
-  ],
-  '_t l _t n' => [
-    {
-      'types' => {
-        '_talA_tiyn' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => '_talA_tiyn',
-      'form' => '_talA_tiynAt',
-      'lines' => [
-        ';; valAviynAt_1',
-        'vlAvyn  valAviyn        NAt     thirties'
-      ],
-      'patterns' => {
-        '_talA_tiyn' => [
-          'KaRADIS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRADIS |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'thirties'
-      ],
-      'orig' => 'valAviynAt',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_talA_tiyn',
-      'form' => '_talA_tiyniyy',
-      'lines' => [
-        ';; valAviyniy~_1',
-        'vlAvyny valAviyniy~     Nall    thirties     [[valAviyniy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRADIS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'thirties'
-      ],
-      'orig' => 'valAviyniy~',
       'prefix' => ''
     }
   ],
@@ -9100,7 +9116,11 @@ $Lexicon = {
       'entry' => '_tu`bAn',
       'form' => '_tu`bAn',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '_ta`Abiyn' => [
+          'FaCALIn'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCLAn',
@@ -9146,8 +9166,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '\'i_trA\'' => [
-          'HiFCAL',
-          'HiFCA\''
+          'HiFCAL'
         ]
       },
       'index' => '1',
@@ -9166,6 +9185,7 @@ $Lexicon = {
       'form' => '_tA.giy',
       'lines' => [],
       'patterns' => {
+        '_tA.g' => [],
         '_tA.giy' => [
           'FACI'
         ]
@@ -9403,7 +9423,9 @@ $Lexicon = {
       'entry' => '_tA\'ir',
       'form' => '_tA\'ir',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '_tuwwAr' => []
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -9419,8 +9441,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '_tawA\'ir' => [
-          'FawACiL',
-          'FawA\'iL'
+          'FawACiL'
         ]
       },
       'index' => '1',
@@ -9643,6 +9664,7 @@ $Lexicon = {
         'AvwAb   >avowAb N       garments;clothes'
       ],
       'patterns' => {
+        '_tiyAb' => [],
         '\'a_twAb' => [
           'HaFCAL'
         ]

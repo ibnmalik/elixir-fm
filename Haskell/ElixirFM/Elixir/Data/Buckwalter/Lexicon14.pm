@@ -1000,7 +1000,11 @@ $Lexicon = {
         'SmAd    SimAd   N       cover',
         'SmA}d   SamA}id Ndip    covers'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.samA\'id' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -1025,7 +1029,11 @@ $Lexicon = {
         'SmAd    SimAd   Nap     headcloth',
         'SmA}d   SamA}id Ndip    headcloths'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.samA\'id' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL |< aT',
@@ -1696,6 +1704,7 @@ $Lexicon = {
         'Slw     Salaw   NAt     prayers'
       ],
       'patterns' => {
+        '.sal_aw' => [],
         '.salaw' => [
           'FaCaL'
         ]
@@ -1751,6 +1760,7 @@ $Lexicon = {
         'mSly    muSal~iy        NapAt   praying;worshipping'
       ],
       'patterns' => {
+        'mu.sall' => [],
         'mu.salliy' => [
           'MuFaCCI'
         ]
@@ -1790,7 +1800,8 @@ $Lexicon = {
       'patterns' => {
         'mu.sallY' => [
           'MuFaCCY'
-        ]
+        ],
+        'mu.sallA' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -1989,7 +2000,9 @@ $Lexicon = {
         ';; Sawotiy~At_1',
         'Swty    Sawotiy~        NAt     phonetics     [[Sawotiy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.sawtiyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL |< Iy |< At',
@@ -2390,6 +2403,7 @@ $Lexicon = {
         'SrEA    SaroEA  Nhy     collapsed;fallen;overcome'
       ],
       'patterns' => {
+        '.sar`A' => [],
         '.sar`Y' => [
           'FaCLY'
         ]
@@ -3541,7 +3555,8 @@ $Lexicon = {
       'patterns' => {
         '.sab.hY' => [
           'FaCLY'
-        ]
+        ],
+        '.sab.hA' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -3847,8 +3862,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '.sabA\'' => [
-          'FaCAL',
-          'FaCA\''
+          'FaCAL'
         ]
       },
       'index' => '1',
@@ -3960,7 +3974,9 @@ $Lexicon = {
         '<SbEy   <iSobaEiy~      NAt     digitigrades (walking on the toes)    [[<iSobaEiy~/NOUN]]',
         'ASbEy   <iSobaEiy~      NAt     digitigrades (walking on the toes)    [[<iSobaEiy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'i.sba`iyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCaL |< Iy |< At',
@@ -4264,7 +4280,11 @@ $Lexicon = {
         'Sym     Suy~am  N       fasting;abstinent',
         'SyAm    SiyAm   N       fasting;abstinent'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.siyAm' => [],
+        '.suwwam' => [],
+        '.suyyam' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FA\'iL',
@@ -4634,7 +4654,9 @@ $Lexicon = {
         'Syny    Siyniy~ NapAt   porcelain;china',
         'SwAny   SawAniy N0_Nh   porcelain;china'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.sawAniy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FIL |< Iy |< aT',
@@ -5197,27 +5219,6 @@ $Lexicon = {
         'pharmacist'
       ],
       'orig' => 'SayodalAniy~',
-      'prefix' => ''
-    }
-  ],
-  '.s .h \' f' => [
-    {
-      'types' => {},
-      'entry' => '.sa.hA\'if',
-      'form' => '.sa.hA\'if',
-      'lines' => [
-        ';; SaHA}if_1',
-        'SHA}f   SaHA}if Ndip    sheets (paper)'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRADiS',
-      'suffix' => '',
-      'glosses' => [
-        'sheets (paper)'
-      ],
-      'orig' => 'SaHA}if',
       'prefix' => ''
     }
   ],
@@ -6291,7 +6292,9 @@ $Lexicon = {
         'Swtmy   Sawotamiy~      N-ap    phonemic     [[Sawotamiy~/ADJ]]',
         'Swtmy   Sawotamiy~      NAt     phonemic     [[Sawotamiy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.sawtamiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'KaRDaS |< Iy',
@@ -6572,7 +6575,12 @@ $Lexicon = {
         'SEA}d   SaEA}id Nap     Saidis;Upper Egyptians',
         'SEAyd   SaEAyid Nap     Saidis;Upper Egyptians'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.sa`Ayid' => [],
+        '.sa`A\'id' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL |< Iy',
@@ -6605,7 +6613,9 @@ $Lexicon = {
         'SEdA&   SaEadA& Nh      deep sigh',
         'SEdA}   SaEadA} Nhy     deep sigh'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.sa`adA\'' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCaLA\'',
@@ -7823,8 +7833,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'i.s.tifA\'' => [
-          'IFtiCAL',
-          'IFtiCA\''
+          'IFtiCAL'
         ]
       },
       'index' => '1',
@@ -7858,8 +7867,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'isti.sfA\'' => [
-          'IstiFCAL',
-          'IstiFCA\''
+          'IstiFCAL'
         ]
       },
       'index' => '1',
@@ -8807,7 +8815,9 @@ $Lexicon = {
         'mSfA    maSofA  Nhy     refinery',
         'mSfy    maSofay NAn_Nayn        refineries'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ma.sfA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MaFCY',
@@ -8833,7 +8843,9 @@ $Lexicon = {
         'mSfA    miSofA  Nhy     sieve',
         'mSfy    miSofay NAn_Nayn        sieves'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mi.sfA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MiFCY',
@@ -9140,7 +9152,9 @@ $Lexicon = {
         'mSfy    muSaf~ay        NAn_Nayn        purified;clear',
         'mSfA    muSaf~A Napdu   purified;clear'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu.saffA' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFaCCY',
@@ -9224,6 +9238,8 @@ $Lexicon = {
         'mSTfy   muSoTafay       NAt     chosen;selected'
       ],
       'patterns' => {
+        'mu.s.tafA' => [],
+        'mu.s.taf' => [],
         'mu.s.tafY' => [
           'MuFtaCY'
         ]
@@ -9658,6 +9674,7 @@ $Lexicon = {
         'ASdA}   >aSodA} Nhy     echoes'
       ],
       'patterns' => {
+        '.sadaN' => [],
         '.sadA' => [
           'FaCA'
         ],
@@ -10295,6 +10312,7 @@ $Lexicon = {
         'SAHy    SAHiy   NapAt   vigilant;wakeful'
       ],
       'patterns' => {
+        '.sA.h' => [],
         '.sA.hiy' => [
           'FACI'
         ]
@@ -11880,7 +11898,9 @@ $Lexicon = {
         ';; Sadafiy~At_1',
         'Sdfy    Sadafiy~        NAt     mollusks     [[Sadafiy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.sadafiyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCaL |< Iy |< At',
@@ -11911,7 +11931,8 @@ $Lexicon = {
       'patterns' => {
         '.sudaf' => [
           'FuCaL'
-        ]
+        ],
+        '.sudfaTaN' => []
       },
       'index' => '1',
       'entity' => 'adv',
@@ -12688,7 +12709,11 @@ $Lexicon = {
       'entry' => '.sA\'im',
       'form' => '.sA\'im',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '.siyAm' => [],
+        '.suwwam' => [],
+        '.suyyam' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FACiL',
@@ -12712,7 +12737,9 @@ $Lexicon = {
         'Sw      Suw~    Napdu   landmark;road sign',
         'Swy     Suway   N       landmarks;road signs'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.suway' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FUL |< aT',
@@ -13062,7 +13089,11 @@ $Lexicon = {
         'SmAm    SimAm   Nap     embolism',
         'SmA}m   SamA}im Ndip    embolisms'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.samA\'im' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL |< aT',
@@ -13427,8 +13458,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'i.s.tilA\'' => [
-          'IFtiCAL',
-          'IFtiCA\''
+          'IFtiCAL'
         ]
       },
       'index' => '1',
@@ -13921,7 +13951,11 @@ $Lexicon = {
         'SfyH    SafiyH  Nap     plate;sheet',
         'SfA}H   SafA}iH Ndip    plates;sheets'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.safA\'i.h' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -14358,7 +14392,11 @@ $Lexicon = {
         'SnAE    SinAE   NapAt   manufacture;industry;trade;craft',
         'SnA}E   SanA}iE Ndip    industries;trades;crafts'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.sanA\'i`' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL |< aT',
@@ -14397,6 +14435,27 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => '.sanA\'i`',
+      'form' => '.sanA\'i`iyy',
+      'lines' => [
+        ';; SanA}iEiy~_1',
+        'SnA}Ey  SanA}iEiy~      N-ap    artificial;artisanship;artisan     [[SanA}iEiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCA\'iL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'artificial',
+        'artisanship',
+        'artisan'
+      ],
+      'orig' => 'SanA}iEiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => '.saniy`',
       'form' => '.saniy`',
       'lines' => [
@@ -14428,7 +14487,11 @@ $Lexicon = {
         'SnyE    SaniyE  Napdu   good deed',
         'SnA}E   SanA}iE Ndip    good deeds'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.sanA\'i`' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -14933,6 +14996,25 @@ $Lexicon = {
         'newspapers'
       ],
       'orig' => 'SaHiyfap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.sa.hA\'if',
+      'form' => '.sa.hA\'if',
+      'lines' => [
+        ';; SaHA}if_1',
+        'SHA}f   SaHA}if Ndip    sheets (paper)'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCA\'iL',
+      'suffix' => '',
+      'glosses' => [
+        'sheets (paper)'
+      ],
+      'orig' => 'SaHA}if',
       'prefix' => ''
     },
     {
@@ -15477,6 +15559,7 @@ $Lexicon = {
         'mSgy    muSogiy NapAt   attentive;listening'
       ],
       'patterns' => {
+        'mu.s.g' => [],
         'mu.s.giy' => [
           'MuFCI'
         ]
@@ -17099,6 +17182,7 @@ $Lexicon = {
       'form' => 'mu.s.giy',
       'lines' => [],
       'patterns' => {
+        'mu.s.g' => [],
         'mu.s.giy' => [
           'MuFCI'
         ]
@@ -17864,7 +17948,9 @@ $Lexicon = {
       'entry' => '.siy.g',
       'form' => '.siy.gaT',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '.siya.g' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FIL |< aT',
@@ -17914,6 +18000,7 @@ $Lexicon = {
         'SyAg    Suy~Ag  N       jewelers'
       ],
       'patterns' => {
+        '.suyyA.g' => [],
         '.suwwA.g' => [
           'FUCAL'
         ],
@@ -18047,6 +18134,8 @@ $Lexicon = {
         'SHArA   SaHArA  Nhy     deserts'
       ],
       'patterns' => {
+        '.sa.hraw' => [],
+        '.sa.hArA' => [],
         '.sa.hArY' => [
           'FaCALY'
         ]
@@ -18180,7 +18269,9 @@ $Lexicon = {
         'SHrAwy  SaHorAwiy~      Nall    desert;Saharan     [[SaHorAwiy~/ADJ]]',
         'SHrA}y  SaHorA}iy~      Nall    desert;Saharan     [[SaHorA}iy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.sa.hrA\'iyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCLA\' |< Iy',
@@ -19280,8 +19371,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '.sawA\'il' => [
-          'FawACiL',
-          'FawA\'iL'
+          'FawACiL'
         ]
       },
       'index' => '1',
@@ -19310,8 +19400,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '.sawA\'il' => [
-          'FawACiL',
-          'FawA\'iL'
+          'FawACiL'
         ]
       },
       'index' => '2',
@@ -19833,7 +19922,11 @@ $Lexicon = {
         'SqAl    SiqAl   Nap     tier;terrace;scaffolding',
         'SqA}l   SaqA}il Ndip    scaffolds;tiers'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.saqA\'il' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL |< aT',
@@ -20399,6 +20492,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '.sawA\'il' => [
+          'FaCA\'iL',
           'FawA\'iL'
         ]
       },
@@ -20417,6 +20511,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '.sawA\'il' => [
+          'FaCA\'iL',
           'FawA\'iL'
         ]
       },
@@ -20512,7 +20607,9 @@ $Lexicon = {
         'SrAd    Sur~Ad  N       drifting clouds',
         'Sryd    Sur~ayod        N       drifting clouds'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.surrayd' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCCAL',
@@ -22197,7 +22294,9 @@ $Lexicon = {
         ';; Sarofiy~At_1',
         'Srfy    Sarofiy~        NAt     disbursements     [[Sarofiy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.sarfiyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL |< Iy |< At',
@@ -22261,7 +22360,11 @@ $Lexicon = {
         'Sryf    Sariyf  Nap     reed-mat hut',
         'SrA}f   SarA}if Ndip    reed-mat huts'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.sarA\'if' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -22517,7 +22620,9 @@ $Lexicon = {
         ';; mutaSar~ifiy~_1',
         'mtSrfy  mutaSar~ifiy~   NapAt   province;jurisdiction     [[mutaSar~ifiy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'muta.sarrifiyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MutaFaCCiL |< Iy',
@@ -22979,6 +23084,8 @@ $Lexicon = {
       'form' => '.sA\'i.g',
       'lines' => [],
       'patterns' => {
+        '.suyyA.g' => [],
+        '.suwwA.g' => [],
         '.sA.g' => [
           'FAL'
         ]
@@ -23201,29 +23308,6 @@ $Lexicon = {
         'screaming'
       ],
       'orig' => 'taSAyuH',
-      'prefix' => ''
-    }
-  ],
-  '.s n \' `' => [
-    {
-      'types' => {},
-      'entry' => '.sanA\'i`',
-      'form' => '.sanA\'i`iyy',
-      'lines' => [
-        ';; SanA}iEiy~_1',
-        'SnA}Ey  SanA}iEiy~      N-ap    artificial;artisanship;artisan     [[SanA}iEiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KaRADiS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'artificial',
-        'artisanship',
-        'artisan'
-      ],
-      'orig' => 'SanA}iEiy~',
       'prefix' => ''
     }
   ],
@@ -23524,6 +23608,9 @@ $Lexicon = {
         'SrA}H   SarA}iH Ndip    candid;sincere'
       ],
       'patterns' => {
+        '.sarA\'i.h' => [
+          'FaCA\'iL'
+        ],
         '.sura.hA\'' => [
           'FuCaLA\''
         ]
@@ -24093,7 +24180,11 @@ $Lexicon = {
         'Sgyr    Sagiyr  Nap     venial sin',
         'SgA}r   SagA}ir Ndip    venial sins'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.sa.gA\'ir' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -24130,7 +24221,8 @@ $Lexicon = {
       'patterns' => {
         '.su.grY' => [
           'FuCLY'
-        ]
+        ],
+        '.su.grA' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -24294,8 +24386,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '\'i.s.gA\'' => [
-          'HiFCAL',
-          'HiFCA\''
+          'HiFCAL'
         ]
       },
       'index' => '1',
@@ -25188,6 +25279,7 @@ $Lexicon = {
         '\'a.sbA\'' => [
           'HaFCA\''
         ],
+        '.sabaw' => [],
         '.sabA' => [
           'FaCA'
         ]
@@ -25216,7 +25308,9 @@ $Lexicon = {
         'SbA     SibAF   FW-WaBi youth;childhood     [[SibAF/NOUN]]',
         'SbA     SibA    N0_Nhy  youth;childhood'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.sibA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiL |< aN',
@@ -26324,6 +26418,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '.s d q y' => [
+    {
+      'types' => {},
+      'entry' => '.sidqiy',
+      'form' => '.sidqiy',
+      'lines' => [
+        ';; Sidoqiy_1',
+        'Sdqy    Sidoqiy Nprop   Sidqi;Sidqy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KiRDI',
+      'suffix' => '',
+      'glosses' => [
+        'Sidqi',
+        'Sidqy'
+      ],
+      'orig' => 'Sidoqiy',
+      'prefix' => ''
+    }
+  ],
   '.santimitr' => [
     {
       'types' => {
@@ -26346,28 +26462,6 @@ $Lexicon = {
         'centimeter'
       ],
       'orig' => 'Sanotimitr',
-      'prefix' => ''
-    }
-  ],
-  '.s d q y' => [
-    {
-      'types' => {},
-      'entry' => '.sidqiy',
-      'form' => '.sidqiy',
-      'lines' => [
-        ';; Sidoqiy_1',
-        'Sdqy    Sidoqiy Nprop   Sidqi;Sidqy'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KiRDI',
-      'suffix' => '',
-      'glosses' => [
-        'Sidqi',
-        'Sidqy'
-      ],
-      'orig' => 'Sidoqiy',
       'prefix' => ''
     }
   ],
@@ -26547,8 +26641,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '.sadA\'' => [
-          'FaCAL',
-          'FaCA\''
+          'FaCAL'
         ],
         '.sadi\'' => [
           'FaCiL'
@@ -26582,7 +26675,9 @@ $Lexicon = {
         'mSd}    muSoda} Nayn    rusty;oxidized',
         'mSd>    muSoda> Napdu   rusty;oxidized'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu.sda\'A' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFCaL',
@@ -26615,7 +26710,10 @@ $Lexicon = {
         'ASd}    >aSoda} Nayn    rusty;oxidized',
         'Sd|     Sado|   N0_Nh   rusty;oxidized'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.sad\'A' => [],
+        '\'a.sda\'A' => []
+      },
       'index' => '2',
       'entity' => 'adj',
       'morphs' => 'HaFCaL',
@@ -26648,8 +26746,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'i.sdA\'' => [
-          'HiFCAL',
-          'HiFCA\''
+          'HiFCAL'
         ]
       },
       'index' => '2',
@@ -26670,6 +26767,7 @@ $Lexicon = {
       'form' => 'mu.salliy',
       'lines' => [],
       'patterns' => {
+        'mu.sall' => [],
         'mu.salliy' => [
           'MuFaCCI'
         ]
@@ -26993,7 +27091,9 @@ $Lexicon = {
         'mSTlY   muSoTalaY       N0      fireplace;foyer',
         'mSTlA   muSoTalA        Nhy     fireplace;foyer'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mu.s.talA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFtaCY',
@@ -27681,6 +27781,7 @@ $Lexicon = {
       'form' => '.sA.hiy',
       'lines' => [],
       'patterns' => {
+        '.sA.h' => [],
         '.sA.hiy' => [
           'FACI'
         ]
@@ -28505,6 +28606,9 @@ $Lexicon = {
         'StA}m   SatA}im Ndip    hard rock'
       ],
       'patterns' => {
+        '.satA\'im' => [
+          'FaCA\'iL'
+        ],
         '.sutam' => [
           'FuCaL'
         ]
@@ -29563,7 +29667,9 @@ $Lexicon = {
       'entry' => '.sib',
       'form' => '.sibaN',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '.sibA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiC |< aN',
@@ -30149,7 +30255,9 @@ $Lexicon = {
         '<StyAf  {iSotiyAf       N/At    summering;summer vacationing',
         'AStyAf  {iSotiyAf       N/At    summering;summer vacationing'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'i.stiyAf' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'IFtiCAL',

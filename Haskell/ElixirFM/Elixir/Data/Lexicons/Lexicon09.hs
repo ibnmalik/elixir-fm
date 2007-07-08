@@ -6,10 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = include sections
+lexicon = include section
 
 
-section_1   = listing "Lexicon's properties"
+cluster_1   = listing "Lexicon's properties"
 
 
  |> "_d" <| [
@@ -26,12 +26,12 @@ section_1   = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- \*i}ob -}           [ "wolf", "jackal" ]
                               `plural`     FiCAL
-                              `plural`     FuCLAn
-                           {- `others`  [ "_di'Ab N", "_du'bAn N" ] -} ]
+                              `plural`     FuCLAn ]
 
  |> "_d ' k" <| [
 
-    FAL |<< "a"               `pron`    {- \*Aka -}            [ "that" ] ]
+    FAL |<< "a"               `pron`    {- \*Aka -}            [ "that" ]
+                           {- `others`  [ "tAnika FW-WaBi", "taynika FW-WaBi", "tAka FW-WaBi", "tiyka FW-WaBi" ] -} ]
 
  |> "_d _h r" <| [
 
@@ -40,7 +40,8 @@ section_1   = listing "Lexicon's properties"
 
     IFtaCaL                   `verb`    {- Aid~axar -}         [ "store", "hoard", "save" ],
 
-    FaCIL |< aT               `noun`    {- \*axiyrap -}        [ "ammunition", "treasure", "provisions" ],
+    FaCIL |< aT               `noun`    {- \*axiyrap -}        [ "ammunition", "treasure", "provisions" ]
+                              `plural`     FaCA'iL,
 
     IFtiCAL                   `noun`    {- Aid~ixAr -}         [ "storage", "hoarding" ]
                               `plural`     IFtiCAL |< At,
@@ -57,8 +58,7 @@ section_1   = listing "Lexicon's properties"
  |> "_d ` r" <| [
 
     FuCL                      `noun`    {- \*uEor -}           [ "fright", "panic" ]
-                              `plural`     FaCL
-                           {- `others`  [ "_da`r N" ] -} ]
+                              `plural`     FaCL ]
 
  |> "_d b .h" <| [
 
@@ -68,8 +68,7 @@ section_1   = listing "Lexicon's properties"
     FaCL                      `noun`    {- \*aboH -}           [ "slaughter", "slaughtering" ],
 
     MaFCaL |< aT              `noun`    {- ma*obaHap -}        [ "massacre", "slaughter", "slaughterhouses" ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "ma_dAbi.h Ndip" ] -} ]
+                              `plural`     MaFACiL ]
 
  |> "_d b _d b" <| [
 
@@ -82,7 +81,7 @@ section_1   = listing "Lexicon's properties"
     MutaKaRDiS                `adj`     {- muta*abo*ib -}      [ "oscillating" ] ]
 
 
-section_2   = listing "Lexicon's properties"
+cluster_2   = listing "Lexicon's properties"
 
 
  |> "_d b y" <| [
@@ -110,8 +109,7 @@ section_2   = listing "Lexicon's properties"
     MaFCaL                    `noun`    {- ma*ohab -}          [ "manner", "path" ],
 
     MaFCaL                    `noun`    {- ma*ohab -}          [ "ideology", "trend", "sects" ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "ma_dAhib Ndip" ] -},
+                              `plural`     MaFACiL,
 
     MaFCaL |< Iy              `adj`     {- ma*ohabiy~ -}       [ "sectarian", "doctrinal" ],
 
@@ -129,8 +127,7 @@ section_2   = listing "Lexicon's properties"
  |> "_d h n" <| [
 
     FiCL                      `noun`    {- \*ihon -}           [ "mind", "intellect" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'a_dhAn N" ] -},
+                              `plural`     HaFCAL,
 
     FiCL |< Iy                `adj`     {- \*ihoniy~ -}        [ "mental", "intellectual" ],
 
@@ -141,7 +138,7 @@ section_2   = listing "Lexicon's properties"
     FaCAL                     `noun`    {- \*akA' -}           [ "cleverness" ] ]
 
 
-section_3   = listing "Lexicon's properties"
+cluster_3   = listing "Lexicon's properties"
 
 
  |> "_d k r" <| [
@@ -159,8 +156,7 @@ section_3   = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- \*akar -}           [ "male" ]
                               `plural`     FuCLAn
-                              `plural`     FuCUL |< aT
-                           {- `others`  [ "_dukrAn N", "_dukuwr N" ] -},
+                              `plural`     FuCUL |< aT,
 
     FiCLY                     `noun`    {- \*ikoraY -}         [ "commemoration", "remembrance" ],
 
@@ -186,8 +182,7 @@ section_3   = listing "Lexicon's properties"
  |> "_d k y" <| [
 
     FaCIL                     `adj`     {- \*akiy~ -}          [ "clever" ]
-                              `plural`     HaFCiLA'
-                           {- `others`  [ "'a_dkiyA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFCiLA',
 
     FaCIL                     `adj`     {- \*akiy~ -}          [ "delicious" ] ]
 
@@ -204,11 +199,10 @@ section_3   = listing "Lexicon's properties"
  |> "_d m m" <| [
 
     FiCL |< aT                `noun`    {- \*im~ap -}          [ "protection", "security" ]
-                              `plural`     FiCaL
-                           {- `others`  [ "_dimam N" ] -} ]
+                              `plural`     FiCaL ]
 
 
-section_4   = listing "Lexicon's properties"
+cluster_4   = listing "Lexicon's properties"
 
 
  |> "_d m r" <| [
@@ -219,15 +213,13 @@ section_4   = listing "Lexicon's properties"
  |> "_d n b" <| [
 
     FaCL                      `noun`    {- \*anob -}           [ "fault", "offense", "misdeed" ]
-                              `plural`     FuCUL
-                           {- `others`  [ "_dunuwb N" ] -} ]
+                              `plural`     FuCUL ]
 
  |> "_d q n" <| [
 
     FaCL                      `noun`    {- \*aqon -}           [ "chin", "beard" ]
                               `plural`     HaFCAL
-                              `plural`     FuCUL
-                           {- `others`  [ "'a_dqAn N", "_duquwn N" ] -} ]
+                              `plural`     FuCUL ]
 
  |> "_d r `" <| [
 
@@ -235,17 +227,16 @@ section_4   = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- \*irAE -}           [ "arm" ]
                               `plural`     HaFCuL
-                              `plural`     FuCLAn
-                           {- `others`  [ "'a_dru` N", "_dur`An N" ] -},
+                              `plural`     FuCLAn,
 
     FiCAL                     `noun`    {- \*irAE -}           [ "lever", "crank" ]
                               `plural`     HaFCuL
-                              `plural`     FuCLAn
-                           {- `others`  [ "'a_dru` N", "_dur`An N" ] -},
+                              `plural`     FuCLAn,
 
     FaCIL                     `adj`     {- \*ariyE -}          [ "rapid", "sweeping" ],
 
-    FaCIL |< aT               `noun`    {- \*ariyEap -}        [ "means", "pretext", "expedient", "expediency", "pragmatics" ] ]
+    FaCIL |< aT               `noun`    {- \*ariyEap -}        [ "means", "pretext", "expedient", "expediency", "pragmatics" ]
+                              `plural`     FaCA'iL ]
 
  |> "_d r r" <| [
 
@@ -263,7 +254,8 @@ section_4   = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- \*ar~iy~ -}         [ "atomic" ],
 
-    FuCL |< Iy |< aT          `noun`    {- \*ur~iy~ap -}       [ "descendants", "offspring" ],
+    FuCL |< Iy |< aT          `noun`    {- \*ur~iy~ap -}       [ "descendants", "offspring" ]
+                           {- `others`  [ "_darAriyy N" ] -},
 
     FuL |< aT                 `noun`    {- \*urap -}           [ "sorghum", "maize" ] ]
 
@@ -271,15 +263,14 @@ section_4   = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- \*urowap -}         [ "peak", "summit" ]
                               `plural`     FiCL
-                              `plural`     FuCY
-                           {- `others`  [ "_dirw Napdu", "_durY N0" ] -} ]
+                              `plural`     FuCY ]
 
  |> "_d r y" <| [
 
     FuC |< aT                 `noun`    {- \*urap -}           [ "sorghum", "maize" ] ]
 
 
-section_5   = listing "Lexicon's properties"
+cluster_5   = listing "Lexicon's properties"
 
 
  |> "_d w `" <| [
@@ -308,8 +299,7 @@ section_5   = listing "Lexicon's properties"
     HaFAL                     `verb`    {- Oa*Aq -}            [ unwords [ "make", "taste" ], unwords [ "make", "sample" ], unwords [ "make", "experience" ], unwords [ "be", "made", "to", "taste", "/", "sample" ], unwords [ "be", "made", "to", "make", "experience" ] ],
 
     FaCL                      `noun`    {- \*awoq -}           [ "taste", "sense", "sensitivity" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "'a_dwAq N" ] -},
+                              `plural`     HaFCAL,
 
     MaFAL                     `noun`    {- ma*Aq -}            [ "taste" ] ]
 
@@ -320,7 +310,7 @@ section_5   = listing "Lexicon's properties"
                               `plural`     FaCI
                               `plural`     FaCA
                               `plural`     FI
-                           {- `others`  [ "_dawuw FW-Wa FW-Wa-a", "_dawiy FW-Wa-y FW-WaBi", "_dawA FW-Wa FW-Wa-A", "_diy FW-Wa" ] -} ]
+                           {- `others`  [ "_daway FW-Wa-y FW-WaBi", "_dA FW-Wa" ] -} ]
 
  |> "_d w y" <| [
 
@@ -337,8 +327,7 @@ section_5   = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- \*ayol -}           [ "tail", "end", "supplement", "addendum", "addenda", "consequences" ]
                               `plural`     FuCUL
-                              `plural`     HaFCAL
-                           {- `others`  [ "_duyuwl N", "'a_dyAl N" ] -} ]
+                              `plural`     HaFCAL ]
 
  |> "_d_alik" <| [
 
@@ -361,7 +350,7 @@ section_5   = listing "Lexicon's properties"
     Identity |<< "a"          `adv`     {- ka*`lika -}         [ "likewise", "also" ] ]
 
 
-section_6   = listing "Lexicon's properties"
+cluster_6   = listing "Lexicon's properties"
 
 
  |> "li_dA" <| [
@@ -383,10 +372,10 @@ section_6   = listing "Lexicon's properties"
     Identity |< aT            `noun`    {- ta*okarap -}        [ "ticket", "card" ] ]
 
 
-sections = [ section_1,
-             section_2,
-             section_3,
-             section_4,
-             section_5,
-             section_6 ]
+section = [ cluster_1,
+            cluster_2,
+            cluster_3,
+            cluster_4,
+            cluster_5,
+            cluster_6 ]
 

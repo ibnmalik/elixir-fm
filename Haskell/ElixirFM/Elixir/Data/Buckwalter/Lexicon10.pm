@@ -595,7 +595,9 @@ $Lexicon = {
         ';; raxawiy~_1',
         'rxwy    raxawiy~        NAt     mollusks'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ra_hawiyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaC |<< "awIy"',
@@ -797,7 +799,8 @@ $Lexicon = {
       'patterns' => {
         'rA_hiy' => [
           'FACI'
-        ]
+        ],
+        'rA_h' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -832,7 +835,8 @@ $Lexicon = {
       'patterns' => {
         'mutarA_hiy' => [
           'MutaFACI'
-        ]
+        ],
+        'mutarA_h' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -1642,6 +1646,7 @@ $Lexicon = {
         '\'ar\'Am' => [
           'HaFCAL'
         ],
+        '\'ArAm' => [],
         'riym' => [
           'FIL'
         ]
@@ -2421,8 +2426,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'irtiqA\'' => [
-          'IFtiCAL',
-          'IFtiCA\''
+          'IFtiCAL'
         ]
       },
       'index' => '1',
@@ -2801,7 +2805,9 @@ $Lexicon = {
         ';; ramoziy~At_1',
         'rmzy    ramoziy~        NAt     cipher;code;encryption     [[ramoziy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ramziyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL |< Iy |< At',
@@ -3491,7 +3497,9 @@ $Lexicon = {
         'rwd     rawod   N       exploration',
         'ryd     riyad   Nap     exploration'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'riyad' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL',
@@ -3515,7 +3523,9 @@ $Lexicon = {
         'rwyd    ruwayod NF      slowly;gently;gradually     [[ruwayod/ADV]]',
         'rwyd    ruwayoda        FW-Wa-a slowly;gently;gradually     [[ruwayod/ADV]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ruwayda' => []
+      },
       'index' => '1',
       'entity' => 'adv',
       'morphs' => 'FuCayL',
@@ -4011,8 +4021,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'ir^gA\'' => [
-          'HiFCAL',
-          'HiFCA\''
+          'HiFCAL'
         ]
       },
       'index' => '1',
@@ -4129,8 +4138,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'ra^gA\'' => [
-          'FaCAL',
-          'FaCA\''
+          'FaCAL'
         ]
       },
       'index' => '1',
@@ -4562,6 +4570,9 @@ $Lexicon = {
       'patterns' => {
         'rikAb' => [
           'FiCAL'
+        ],
+        'rakA\'ib' => [
+          'FaCA\'iL'
         ]
       },
       'index' => '2',
@@ -5361,6 +5372,7 @@ $Lexicon = {
         'rbA     rubA    Nhy     hills'
       ],
       'patterns' => {
+        'rubA' => [],
         'rubY' => [
           'FuCY'
         ]
@@ -5452,7 +5464,9 @@ $Lexicon = {
         'mrbY    marobaY N0      place of growing up',
         'mrbA    marobA  Nhy     place of growing up'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'marbA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MaFCY',
@@ -5535,6 +5549,7 @@ $Lexicon = {
         'mrby    murab~iy        NapAt   tutoress;governess;nursemaid'
       ],
       'patterns' => {
+        'murabb' => [],
         'murabbiy' => [
           'MuFaCCI'
         ]
@@ -5578,6 +5593,8 @@ $Lexicon = {
         'mrbA    murab~A Napdu   educated;brought up'
       ],
       'patterns' => {
+        'murabbA' => [],
+        'murabb' => [],
         'murabbY' => [
           'MuFaCCY'
         ]
@@ -5612,6 +5629,7 @@ $Lexicon = {
         'mrby    murab~ay        NAt     jam preserves'
       ],
       'patterns' => {
+        'murabbA' => [],
         'murabbY' => [
           'MuFaCCY'
         ]
@@ -5649,7 +5667,8 @@ $Lexicon = {
       'patterns' => {
         'murAbiy' => [
           'MuFACI'
-        ]
+        ],
+        'murAb' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -5682,6 +5701,7 @@ $Lexicon = {
         'mtrby   mutarab~iy      NapAt   well-bred;well-mannered'
       ],
       'patterns' => {
+        'mutarabb' => [],
         'mutarabbiy' => [
           'MutaFaCCI'
         ]
@@ -5770,7 +5790,8 @@ $Lexicon = {
       'patterns' => {
         'rA_hiy' => [
           'FACI'
-        ]
+        ],
+        'rA_h' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -5788,7 +5809,8 @@ $Lexicon = {
       'patterns' => {
         'mutarA_hiy' => [
           'MutaFACI'
-        ]
+        ],
+        'mutarA_h' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -6003,6 +6025,9 @@ $Lexicon = {
       'patterns' => {
         'ru.da`A\'' => [
           'FuCaLA\''
+        ],
+        'ra.dA\'i`' => [
+          'FaCA\'iL'
         ]
       },
       'index' => '1',
@@ -6591,6 +6616,8 @@ $Lexicon = {
         'mrAf}   marAfi} Ndip    ports;harbors;landing places'
       ],
       'patterns' => {
+        'marfa\'A' => [],
+        'marfa' => [],
         'marAfi\'' => [
           'MaFACiL'
         ]
@@ -7771,6 +7798,7 @@ $Lexicon = {
         'rwAyA   rawAyA  N0_Nhy  narrators;storytellers'
       ],
       'patterns' => {
+        'rAw' => [],
         'rAwiy' => [
           'FACI'
         ],
@@ -8473,7 +8501,9 @@ $Lexicon = {
         ';; rasomiy~AF_1',
         'rsmy    rasomiy~        NF      officially     [[rasomiy~/ADV]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'rasmiyy' => []
+      },
       'index' => '1',
       'entity' => 'adv',
       'morphs' => 'FaCL |< Iy |< aN',
@@ -8867,7 +8897,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'rA\'iy' => [
-          'FA\'I',
           'FACI'
         ],
         'rA\'ay' => [
@@ -9157,7 +9186,9 @@ $Lexicon = {
         '|rA}    |rA}    Nhy     opinions;views;ideas',
         'ArA}    |rA}    Nhy     opinions;views;ideas'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'ArA\'' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL',
@@ -9274,7 +9305,8 @@ $Lexicon = {
       'patterns' => {
         'ru\'yY' => [
           'FuCLY'
-        ]
+        ],
+        'ru\'A' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -9307,6 +9339,7 @@ $Lexicon = {
         'mrA\'    marA\'   NK      sights;views;apparitions'
       ],
       'patterns' => {
+        'mar\'A' => [],
         'marA\'iy' => [
           'MaFACI'
         ]
@@ -9345,7 +9378,9 @@ $Lexicon = {
         'ryA&    riyA&   Nh      hypocrisy;dissimulation',
         'ryA}    riyA}   Nhy     hypocrisy;dissimulation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'riyA\'' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCA\'',
@@ -9471,6 +9506,7 @@ $Lexicon = {
         'mrA}y   murA}iy NapAt   hypocrite'
       ],
       'patterns' => {
+        'murA\'' => [],
         'murA\'iy' => [
           'MuFACI'
         ]
@@ -10199,7 +10235,11 @@ $Lexicon = {
         'rfyE    rafiyE  Napdu   legal case',
         'rfA}E   rafA}iE Ndip    legal cases'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'rafA\'i`' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -10635,8 +10675,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'irti_hA\'' => [
-          'IFtiCAL',
-          'IFtiCA\''
+          'IFtiCAL'
         ]
       },
       'index' => '1',
@@ -10654,8 +10693,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'istir_hA\'' => [
-          'IstiFCAL',
-          'IstiFCA\''
+          'IstiFCAL'
         ]
       },
       'index' => '1',
@@ -11049,7 +11087,9 @@ $Lexicon = {
         'rbAEy   rubAEiy~        Nall    four-part;four-sided;     [[rubAEiy~/ADJ]]',
         'rbAEy   rubAEiy~        NduAt   quadrangle'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'rubA`iyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FuCAL |< Iy',
@@ -13849,6 +13889,9 @@ $Lexicon = {
       'patterns' => {
         'rutu^g' => [
           'FuCuL'
+        ],
+        'ratA\'i^g' => [
+          'FaCA\'iL'
         ]
       },
       'index' => '1',
@@ -13921,7 +13964,9 @@ $Lexicon = {
         'rEA}y   raEA}iy~        Nall    pastoral;bucolic     [[raEA}iy~/ADJ]]',
         'rEAwy   raEAwiy~        Nall    pastoral;bucolic     [[raEAwiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ra`Awiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCAL |< Iy',
@@ -14829,6 +14874,7 @@ $Lexicon = {
         'rjEy    rujoEay NAt     reactions'
       ],
       'patterns' => {
+        'ru^g`A' => [],
         'ru^g`Y' => [
           'FuCLY'
         ]
@@ -15288,7 +15334,9 @@ $Lexicon = {
       'entry' => 'rA\'id',
       'form' => 'rA\'id',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'ruwwAd' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -15375,7 +15423,9 @@ $Lexicon = {
         ';; ruwbuwT_1',
         'rwbwT   ruwbuwT N/At    robot'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ruwbuw.t' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KuRDUS',
@@ -16118,6 +16168,7 @@ $Lexicon = {
         '\'ar.hA\'' => [
           'HaFCA\''
         ],
+        'ru.hiyy' => [],
         'ra.hA' => [
           'FaCA'
         ],
@@ -16469,6 +16520,7 @@ $Lexicon = {
         'rqby    ruqobay NAt     donations'
       ],
       'patterns' => {
+        'ruqbA' => [],
         'ruqbY' => [
           'FuCLY'
         ]
@@ -17801,7 +17853,8 @@ $Lexicon = {
       'patterns' => {
         'rA^giy' => [
           'FACI'
-        ]
+        ],
+        'rA^g' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -18688,7 +18741,11 @@ $Lexicon = {
         'rmym    ramiym  Nall    decayed;rotten     [[ramiym/ADJ]]',
         'rmA}m   ramA}im Ndip    decayed;rotten'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ramA\'im' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -18953,6 +19010,8 @@ $Lexicon = {
         'rhbA    ruhobA  Nhy     fear'
       ],
       'patterns' => {
+        'rahbA' => [],
+        'ruhbA' => [],
         'ruhbY' => [
           'FuCLY'
         ]
@@ -19729,7 +19788,8 @@ $Lexicon = {
       'patterns' => {
         'marA`iy' => [
           'MaFACI'
-        ]
+        ],
+        'mar`A' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -19838,6 +19898,7 @@ $Lexicon = {
         'rA`iy' => [
           'FACI'
         ],
+        'rA`' => [],
         'ru`yAn' => [
           'FuCLAn'
         ]
@@ -20273,7 +20334,8 @@ $Lexicon = {
       'patterns' => {
         'riqAq' => [
           'FiCAL'
-        ]
+        ],
+        '\'ariqqA\'' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -20347,7 +20409,11 @@ $Lexicon = {
         'rqyq    raqiyq  Nap     plastic foil',
         'rqA}q   raqA}iq Ndip    subtleties;niceties'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'raqA\'iq' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -20618,7 +20684,8 @@ $Lexicon = {
         ],
         'rawAsiy' => [
           'FawACI'
-        ]
+        ],
+        'rAs' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -21136,7 +21203,11 @@ $Lexicon = {
         'rkyz    rakiyz  Napdu   support;pillar;pole',
         'rkA}z   rakA}iz Ndip    supports;pillars'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'rakA\'iz' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -21560,8 +21631,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'ir.dA\'' => [
-          'HiFCAL',
-          'HiFCA\''
+          'HiFCAL'
         ]
       },
       'index' => '1',
@@ -21596,8 +21666,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'istir.dA\'' => [
-          'IstiFCAL',
-          'IstiFCA\''
+          'IstiFCAL'
         ]
       },
       'index' => '1',
@@ -22883,7 +22952,9 @@ $Lexicon = {
       'entry' => 'ra_h',
       'form' => 'ra_hawiyy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'ra_hawiyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaL |<< "awIy"',
@@ -24068,7 +24139,10 @@ $Lexicon = {
         'rDA     riDAF   FW-WaBi approval;pleasure     [[riDAF/NOUN]]',
         'rDA     riDA    N0_Nhy  approval;pleasure'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ri.dA' => [],
+        'ri.daN' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCY',
@@ -24311,7 +24385,8 @@ $Lexicon = {
         ],
         'ru.dY' => [
           'FuCY'
-        ]
+        ],
+        'rA.d' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -24345,6 +24420,7 @@ $Lexicon = {
         'mrDy    muroDiy NapAt   satisfactory;pleasing;sufficient'
       ],
       'patterns' => {
+        'mur.d' => [],
         'mur.diy' => [
           'MuFCI'
         ]
@@ -27101,8 +27177,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'arzA\'' => [
-          'HaFCAL',
-          'HaFCA\''
+          'HaFCAL'
         ]
       },
       'index' => '1',
@@ -27134,7 +27209,10 @@ $Lexicon = {
         'rzy     raziy~  Nap     heavy loss;serious damage     [[raziy~/NOUN]]',
         'rzAyA   razAyA  N0_Nhy  heavy losses;serious damage'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'raziyy' => [],
+        'razAyY' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -27479,7 +27557,11 @@ $Lexicon = {
         'rsAl    risAl   Napdu   dissertation',
         'rsA}l   rasA}il Ndip    letters;messages'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'rasA\'il' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL |< aT',
@@ -28084,7 +28166,11 @@ $Lexicon = {
         'r*yl    ra*iyl  Napdu   vice;fault;demerit',
         'r*A}l   ra*A}il Ndip    vices;faults;demerits'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ra_dA\'il' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -28256,8 +28342,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'rawA\'i`' => [
-          'FawACiL',
-          'FawA\'iL'
+          'FawACiL'
         ]
       },
       'index' => '1',
@@ -29435,7 +29520,8 @@ $Lexicon = {
       'patterns' => {
         'ra`wY' => [
           'FaCLY'
-        ]
+        ],
+        'ra`wA' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -29473,7 +29559,9 @@ $Lexicon = {
       'entry' => 'ra`A\'',
       'form' => 'ra`A\'iyy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'ra`Awiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCA\' |< Iy',
@@ -30615,7 +30703,10 @@ $Lexicon = {
         'rqA&    raq~A&  Nh      magician;sorcerer',
         'rqA}    raq~A}  Nhy     magician;sorcerer'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'raqqA\'' => [],
+        'ruqA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCY',
@@ -30646,7 +30737,9 @@ $Lexicon = {
         '>rqy    >aroqay NAn_Nayn        higher;superior;more/most advanced',
         'Arqy    >aroqay NAn_Nayn        higher;superior;more/most advanced'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'arqA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCY',
@@ -30786,7 +30879,8 @@ $Lexicon = {
       'patterns' => {
         'rAqiy' => [
           'FACI'
-        ]
+        ],
+        'rAq' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -30819,6 +30913,7 @@ $Lexicon = {
         'rqA     ruqA    Nap     sorcerers'
       ],
       'patterns' => {
+        'rAq' => [],
         'ruqY' => [
           'FuCY'
         ]
@@ -30856,7 +30951,8 @@ $Lexicon = {
       'patterns' => {
         'murtaqiy' => [
           'MuFtaCI'
-        ]
+        ],
+        'murtaq' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -30882,7 +30978,9 @@ $Lexicon = {
         'mrtqY   murotaqaY       N0      ascent;rise',
         'mrtqA   murotaqA        Nhy     ascent;rise'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'murtaqA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFtaCY',
@@ -32749,7 +32847,11 @@ $Lexicon = {
         ],
         'ru^sY' => [
           'FuCY'
-        ]
+        ],
+        'ri^saN' => [],
+        'ru^sA' => [],
+        'ra^sAwA' => [],
+        'ri^sA' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -32864,7 +32966,9 @@ $Lexicon = {
         ';; ruwbuwt_1',
         'rwbwt   ruwbuwt N/At    robot'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ruwbuwt' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KuRDUS',
@@ -33005,7 +33109,11 @@ $Lexicon = {
         'rqym    raqiym  Ndu     text;message',
         'rqA}m   raqA}im Ndip    texts;messages'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'raqA\'im' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -33245,7 +33353,9 @@ $Lexicon = {
         ';; riyADiy~At_1',
         'ryADy   riyADiy~        NAt     mathematics     [[riyADiy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'riyA.diyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL |< Iy |< At',
@@ -34399,6 +34509,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'rawA\'i`' => [
+          'FaCA\'iL',
           'FawA\'iL'
         ]
       },
@@ -34736,6 +34847,7 @@ $Lexicon = {
         'riy.dAn' => [
           'FILAn'
         ],
+        'riyA.d' => [],
         'raw.d' => [
           'FaCL'
         ]
@@ -35512,7 +35624,8 @@ $Lexicon = {
         ],
         'riyA.h' => [
           'FiCAL'
-        ]
+        ],
+        '\'arwA.h' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -35579,7 +35692,11 @@ $Lexicon = {
         'ryHAn   rayoHAn N       sweet basil;aromatic plant',
         'ryAHyn  rayAHiyn        Ndip    aromatic plants'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'rayA.hiyn' => [
+          'FaCALIn'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCLAn',
@@ -36225,8 +36342,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'irsA\'' => [
-          'HiFCAL',
-          'HiFCA\''
+          'HiFCAL'
         ]
       },
       'index' => '1',
@@ -36617,7 +36733,9 @@ $Lexicon = {
         'mrmY    maromaY N0      goal;purpose;target',
         'mrmA    maromA  Nhy     goal;purpose;target'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'marmA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MaFCY',
@@ -36715,6 +36833,7 @@ $Lexicon = {
         'rmA     rumA    Nap     throwing;throwers;riflemen;archers'
       ],
       'patterns' => {
+        'rAm' => [],
         'rumY' => [
           'FuCY'
         ],
@@ -36799,7 +36918,8 @@ $Lexicon = {
       'patterns' => {
         'mutarAmiy' => [
           'MutaFACI'
-        ]
+        ],
+        'mutarAm' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -37088,6 +37208,7 @@ $Lexicon = {
         'rbAbn   rabAbin Nap     captains'
       ],
       'patterns' => {
+        'rubbAniyy' => [],
         'rabAbin' => [
           'FaCACiL'
         ]
@@ -37116,7 +37237,9 @@ $Lexicon = {
         'rbAny   rab~Aniy~       N-ap    divine     [[rab~Aniy~/ADJ]]',
         'rbAny   rab~Aniy~       NAt     divinities     [[rab~Aniy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'rabbAniyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCCAL |< Iy',
@@ -37721,6 +37844,7 @@ $Lexicon = {
         'marAsiy' => [
           'MaFACI'
         ],
+        'marsA' => [],
         'mirsY' => [
           'MiFCY'
         ]
@@ -37779,7 +37903,8 @@ $Lexicon = {
         ],
         'rawAsiy' => [
           'FawACI'
-        ]
+        ],
+        'rAs' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -38514,6 +38639,8 @@ $Lexicon = {
       'form' => 'riy.h',
       'lines' => [],
       'patterns' => {
+        '\'aryA.h' => [],
+        'riyA.h' => [],
         '\'arwA.h' => [
           'HaFCAL'
         ]
@@ -38713,7 +38840,9 @@ $Lexicon = {
         'mrwHy   mirowaHiy~      Napdu   helicopter     [[mirowaHiy~/NOUN]]',
         'mrwHy   mirowaHiy~      NAt     helicopters     [[mirowaHiy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mirwa.hiyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MiFCaL |< Iy |< aT',
@@ -38958,7 +39087,9 @@ $Lexicon = {
         'rA}H    rA}iH   Nall    going',
         'rAyH    rAyiH   Nall    going'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'rAyi.h' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FA\'iL',
@@ -38984,6 +39115,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'rawA\'i.h' => [
+          'FaCA\'iL',
           'FawA\'iL'
         ]
       },
@@ -39091,7 +39223,9 @@ $Lexicon = {
         'rndp    ranodap Nprop   Randa',
         'rndh    ranodah Nprop   Randa'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'randah' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL |< aT',
@@ -39117,7 +39251,9 @@ $Lexicon = {
         'rwds    ruwdus  Nprop   Rhodes',
         'rwdws   ruwduws Nprop   Rhodes'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ruwduws' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KuRDuS',
@@ -39564,7 +39700,11 @@ $Lexicon = {
         'rgyb    ragiyb  Napdu   desideratum;wish',
         'rgA}b   ragA}ib Ndip    desiderata;wishes'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ra.gA\'ib' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -40608,6 +40748,7 @@ $Lexicon = {
         'r|s     ra|s    Nap     presidency;leadership;chairmanship'
       ],
       'patterns' => {
+        'riyAs' => [],
         'ra\'As' => [
           'FaCAL'
         ]
@@ -40637,7 +40778,9 @@ $Lexicon = {
         'r}Asy   ri}Asiy~        Nall    presidential;executive     [[ri}Asiy~/ADJ]]',
         'ryAsy   riyAsiy~        Nall    presidential;executive     [[riyAsiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'riyAsiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FiCAL |< Iy',
@@ -41211,7 +41354,9 @@ $Lexicon = {
         'rgAmY   rugAmaY N0      trachea;windpipe',
         'rgAmA   rugAmA  Nhy     trachea;windpipe'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ru.gAmA' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCALY',
@@ -44148,7 +44293,9 @@ $Lexicon = {
       'entry' => 'rA\'i.h',
       'form' => 'rA\'i.h',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'rAyi.h' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -44164,8 +44311,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'rawA\'i.h' => [
-          'FawACiL',
-          'FawA\'iL'
+          'FawACiL'
         ]
       },
       'index' => '1',
@@ -44718,7 +44864,8 @@ $Lexicon = {
       'patterns' => {
         'rA^giy' => [
           'FACI'
-        ]
+        ],
+        'rA^g' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -45369,8 +45516,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'irti^sA\'' => [
-          'IFtiCAL',
-          'IFtiCA\''
+          'IFtiCAL'
         ]
       },
       'index' => '1',
@@ -46475,8 +46621,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'marA\'ib' => [
-          'MaFACiL',
-          'MaFA\'iL'
+          'MaFACiL'
         ]
       },
       'index' => '1',
@@ -46655,7 +46800,11 @@ $Lexicon = {
         'rtym    ratiym  Nap     reminder',
         'rtA}m   ratA}im Ndip    reminder'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ratA\'im' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -47378,7 +47527,10 @@ $Lexicon = {
         'ry      riy~    Napdu   lung     [[riy~/NOUN]]',
         'r}wn    ri}uwn  N       lungs'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ri\'uwn' => [],
+        'riyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiL |< aT',
@@ -47395,7 +47547,10 @@ $Lexicon = {
       'entry' => 'ri\'',
       'form' => 'ri\'aT',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'ri\'uwn' => [],
+        'riyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiC |< aT',
@@ -47442,7 +47597,9 @@ $Lexicon = {
       'entry' => 'ri\'A\'',
       'form' => 'ri\'A\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'riyA\'' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -48111,7 +48268,10 @@ $Lexicon = {
       'entry' => 'rubbAn',
       'form' => 'rubbAn',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'rubbAniyy' => [],
+        'rabAbin' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCLAn',
@@ -48125,7 +48285,9 @@ $Lexicon = {
       'entry' => 'rabbAn',
       'form' => 'rabbAniyy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'rabbAniyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCLAn |< Iy',
@@ -48282,8 +48444,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'ardA\'' => [
-          'HaFCAL',
-          'HaFCA\''
+          'HaFCAL'
         ]
       },
       'index' => '1',
@@ -48327,6 +48488,7 @@ $Lexicon = {
         'ArdyA}  >arodiyA}       Nhy     bad;wicked;malicious'
       ],
       'patterns' => {
+        '\'ardiyA\'' => [],
         'radiy\'' => [
           'FaCIL'
         ]
@@ -48360,7 +48522,9 @@ $Lexicon = {
         '>rd}    >aroda} Nayn    worst',
         'Ard}    >aroda} Nayn    worst'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'arda\'A' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -48451,8 +48615,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'irtidA\'' => [
-          'IFtiCAL',
-          'IFtiCA\''
+          'IFtiCAL'
         ]
       },
       'index' => '1',
@@ -48658,7 +48821,9 @@ $Lexicon = {
         'rznAm   ruzonAm Napdu   calendar',
         'rznAmh  ruzonAmah       N0      calendar'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ruznAmah' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KuRDAS |< aT',
@@ -50877,6 +51042,7 @@ $Lexicon = {
       'form' => 'murabbiy',
       'lines' => [],
       'patterns' => {
+        'murabb' => [],
         'murabbiy' => [
           'MuFaCCI'
         ]
@@ -50897,7 +51063,8 @@ $Lexicon = {
       'patterns' => {
         'murAbiy' => [
           'MuFACI'
-        ]
+        ],
+        'murAb' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -50913,6 +51080,7 @@ $Lexicon = {
       'form' => 'mutarabbiy',
       'lines' => [],
       'patterns' => {
+        'mutarabb' => [],
         'mutarabbiy' => [
           'MutaFaCCI'
         ]
@@ -51526,6 +51694,7 @@ $Lexicon = {
         'mtrdy   mutarad~iy      NapAt   deteriorating;worsened'
       ],
       'patterns' => {
+        'mutaradd' => [],
         'mutaraddiy' => [
           'MutaFaCCI'
         ]
@@ -51885,7 +52054,11 @@ $Lexicon = {
         'rhyn    rahiyn  Napdu   hostage',
         'rhA}n   rahA}in Ndip    hostages'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'rahA\'in' => [
+          'FaCA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',

@@ -1679,7 +1679,11 @@ $Lexicon = {
         'ZrbAn   ZirobAn N       polecat;fitchew',
         'ZrAbyn  ZarAbiyn        Ndip    polecat;fitchew'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.zarAbiyn' => [
+          'FaCALIn'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCLAn',
@@ -2123,6 +2127,9 @@ $Lexicon = {
       'patterns' => {
         '.zurafA\'' => [
           'FuCaLA\''
+        ],
+        '.zarA\'if' => [
+          'FaCA\'iL'
         ]
       },
       'index' => '1',
@@ -3533,6 +3540,9 @@ $Lexicon = {
       'patterns' => {
         '\'a.z`An' => [
           'HaFCAL'
+        ],
+        '.za`A\'in' => [
+          'FaCA\'iL'
         ]
       },
       'index' => '1',

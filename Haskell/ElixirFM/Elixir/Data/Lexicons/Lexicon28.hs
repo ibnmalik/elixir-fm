@@ -6,10 +6,10 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = include sections
+lexicon = include section
 
 
-section_1   = listing "Lexicon's properties"
+cluster_1   = listing "Lexicon's properties"
 
 
  |> "y ' q" <| [
@@ -31,15 +31,13 @@ section_1   = listing "Lexicon's properties"
  |> "y _h t" <| [
 
     FaCL                      `noun`    {- yaxot -}            [ "yacht" ]
-                              `plural`     FuCUL
-                           {- `others`  [ "yu_huwt N" ] -} ]
+                              `plural`     FuCUL ]
 
  |> "y d d" <| [
 
     FaL                       `noun`    {- yad -}              [ "hand" ]
                               `plural`     HaFCI
-                              `plural`     HaFACI
-                           {- `others`  [ "'aydiy N0_Nh", "'ayAdiy N0_Nh" ] -},
+                              `plural`     HaFACI,
 
     FaL |<< "awIy"            `adj`     {- yadawiy~ -}         [ "manual", "hand" ] ]
 
@@ -47,8 +45,7 @@ section_1   = listing "Lexicon's properties"
 
     FaC                       `noun`    {- yad -}              [ "hand" ]
                               `plural`     HaFCI
-                              `plural`     HaFACI
-                           {- `others`  [ "'aydiy N0_Nh", "'ayAdiy N0_Nh" ] -},
+                              `plural`     HaFACI,
 
     FaC |<< "awIy"            `adj`     {- yadawiy~ -}         [ "manual", "hand" ] ]
 
@@ -63,13 +60,12 @@ section_1   = listing "Lexicon's properties"
     FaCUL |< Iy               `adj`     {- yahuwdiy~ -}        [ "Jewish" ],
 
     FaCUL |< Iy               `adj`     {- yahuwdiy~ -}        [ "Jew" ]
-                              `plural`     FaCUL
-                           {- `others`  [ "yahuwd N" ] -},
+                              `plural`     FaCUL,
 
     FaCUL |< Iy |< aT         `noun`    {- yahuwdiy~ap -}      [ "Judaism" ] ]
 
 
-section_2   = listing "Lexicon's properties"
+cluster_2   = listing "Lexicon's properties"
 
 
  |> "y m n" <| [
@@ -92,8 +88,7 @@ section_2   = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- yamiyn -}           [ "oath" ]
                               `plural`     HaFCuL
-                              `plural`     HaFCAL
-                           {- `others`  [ "'aymun N", "'aymAn N" ] -},
+                              `plural`     HaFCAL,
 
     FaCIL |< Iy               `adj`     {- yamiyniy~ -}        [ "rightist", unwords [ "right", "-", "wing" ] ],
 
@@ -107,8 +102,7 @@ section_2   = listing "Lexicon's properties"
     FuCLY                     `noun`    {- yumonaY -}          [ "Youmna", "Yumna" ],
 
     MaFCUL                    `adj`     {- mayomuwn -}         [ "lucky", "fortunate" ]
-                              `plural`     MaFACIL
-                           {- `others`  [ "mayAmiyn Ndip" ] -} ]
+                              `plural`     MaFACIL ]
 
  |> "y n ^s" <| [
 
@@ -128,10 +122,11 @@ section_2   = listing "Lexicon's properties"
 
  |> "y n y r" <| [
 
-    KaRADiS                   `noun`    {- yanAyir -}          [ "January" ] ]
+    KaRADiS                   `noun`    {- yanAyir -}          [ "January" ]
+                           {- `others`  [ "yanA'ir N0" ] -} ]
 
 
-section_3   = listing "Lexicon's properties"
+cluster_3   = listing "Lexicon's properties"
 
 
  |> "y q .z" <| [
@@ -166,7 +161,7 @@ section_3   = listing "Lexicon's properties"
     FaCUL |< Iy               `adj`     {- yasuwEiy~ -}        [ "Jesuit" ] ]
 
 
-section_4   = listing "Lexicon's properties"
+cluster_4   = listing "Lexicon's properties"
 
 
  |> "y s r" <| [
@@ -186,8 +181,7 @@ section_4   = listing "Lexicon's properties"
     FaCIL                     `adj`     {- yasiyr -}           [ "small", "short" ],
 
     HaFCaL                    `noun`    {- Oayosar -}          [ "left", unwords [ "left", "hand" ] ]
-                              `plural`     FuCLY |< At
-                           {- `others`  [ "yusrY N0 NAn_Nayn" ] -},
+                              `plural`     FuCLY |< At,
 
     HaFCaL                    `noun`    {- Oayosar -}          [ unwords [ "easier", "/", "easiest" ], unwords [ "smaller", "/", "smallest" ] ],
 
@@ -212,24 +206,26 @@ section_4   = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- yatiym -}           [ "orphan", "unique" ]
                               `plural`     FaCALY
-                              `plural`     HaFCAL
-                           {- `others`  [ "yatAmY N0", "'aytAm N" ] -} ]
+                              `plural`     HaFCAL ]
 
  |> "y w b l" <| [
 
     KuRDIS                    `noun`    {- yuwbiyl -}          [ "jubilee" ] ]
 
 
-section_5   = listing "Lexicon's properties"
+cluster_5   = listing "Lexicon's properties"
 
 
  |> "y w m" <| [
 
-    FaCL                      `noun`    {- yawom -}            [ "day" ],
+    FaCL                      `noun`    {- yawom -}            [ "day" ]
+                           {- `others`  [ "'ayyAm N" ] -},
 
-    FaCL                      `adv`     {- yawom -}            [ unwords [ "some", "day" ] ],
+    FaCL                      `adv`     {- yawom -}            [ unwords [ "some", "day" ] ]
+                           {- `others`  [ "yawmaN FW-Wa" ] -},
 
-    FaCL                      `adv`     {- yawom -}            [ "today" ],
+    FaCL                      `adv`     {- yawom -}            [ "today" ]
+                           {- `others`  [ "Alyawma FW-Wa" ] -},
 
     FaCL                      `noun`    {- yawom -}            [ "Youm" ],
 
@@ -290,7 +286,7 @@ section_5   = listing "Lexicon's properties"
     Identity                  `noun`    {- yA -}               [ "oh", "you" ] ]
 
 
-section_6   = listing "Lexicon's properties"
+cluster_6   = listing "Lexicon's properties"
 
 
  |> "yAbAn" <| [
@@ -368,7 +364,7 @@ section_6   = listing "Lexicon's properties"
     Identity                  `noun`    {- yuwrAniyuwm -}      [ "uranium" ] ]
 
 
-section_7   = listing "Lexicon's properties"
+cluster_7   = listing "Lexicon's properties"
 
 
  |> "yUrk" <| [
@@ -388,11 +384,11 @@ section_7   = listing "Lexicon's properties"
     Identity                  `noun`    {- ywmblgAz -}         [ unwords [ "Iompelgas", "?", "?" ] ] ]
 
 
-sections = [ section_1,
-             section_2,
-             section_3,
-             section_4,
-             section_5,
-             section_6,
-             section_7 ]
+section = [ cluster_1,
+            cluster_2,
+            cluster_3,
+            cluster_4,
+            cluster_5,
+            cluster_6,
+            cluster_7 ]
 
