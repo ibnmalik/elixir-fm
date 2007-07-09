@@ -23,13 +23,17 @@ import FM.Generic.Dictionary
 import FM.Generic.CommonMain
 import FM.Generic.General
 import FM.Generic.GeneralIO
+
 import FM.Generic.Trie
+import FM.Generic.Map
+
 import FM.Arabic.Types
 import FM.Arabic.Rules
 
-import Elixir.Data.Buckwalter
 
--- import Elixir.Data.Lexicons
+-- import Elixir.Data.Buckwalter
+
+import Elixir.Data.Lexicons
 
 import Elixir.Lexicon
 import Elixir.Template
@@ -57,8 +61,7 @@ class Resolve a where
 
 instance Resolve String where
 
-    resolve y = resolveWith --lexicon
-                      indexList y
+    resolve y = resolveList indexList y
 
 
 instance Resolve [String] where
@@ -79,17 +82,16 @@ instance Resolve [String] where
 
 
 
-resolveWith l y  = [ r | (r, [x]) <- l, isSubsumed (--(encode UTF . decode TeX)
+resolveList l y  = [ r | (r, [x]) <- l, isSubsumed (--(encode UTF . decode TeX)
                                                     r) y,
 
-{-
-resolveWith l y  = [ r | x <- lexicon, let r = root x, isSubsumed (--(encode UTF . decode TeX)
-                                                    r) y,
--}
-                              let s = case x of
-                                        NestT r l -> [ (map (map (uncurry merge) . snd) . inflect (RE r z)) "----------" | z <- l ]
-                                        NestQ r l -> [ (map (map (uncurry merge) . snd) . inflect (RE r z)) "----------" | z <- l ]
-                                        NestL r l -> [ (map (map (uncurry merge) . snd) . inflect (RE r z)) "----------" | z <- l ],
+                              let inflects t e = (map (map (uncurry merge) . snd))
+                                                 (inflect (RE t e) "----------")
+
+                                  s = case x of NestT r l -> [ inflects r z | z <- l ]
+                                                NestQ r l -> [ inflects r z | z <- l ]
+                                                NestL r l -> [ inflects r z | z <- l ],
+
                               h <- s, i <- recode h, {- j <- i, j -} i == y]
 
 
@@ -97,10 +99,10 @@ resolveWith l y  = [ r | x <- lexicon, let r = root x, isSubsumed (--(encode UTF
 
 resolveTrie l y  = analyze (analysis (trieDict (arabicDict')) arabicDecompose) [y]
 
-    where arabicDict' = (dictionary . (++) extradict .
+    where arabicDict' = (dictionary . -- (++) extradict .
                                 concat . map lex2dict)
 
-                    [ x | x <- l, isSubsumed (root x) y ]
+                    [ x | (r, [x]) <- l, isSubsumed r y ]
 
 {-
                               let s = case x of
@@ -109,6 +111,9 @@ resolveTrie l y  = analyze (analysis (trieDict (arabicDict')) arabicDecompose) [
                                         NestL r l -> [ inflect (RE r z) "----------" | z <- l ],
                               h <- s, i <- h, j <- i, j == y]
 -}
+
+
+testtext = words "wa fI milaffi al-'adabi .tara.hat al-ma^gallaTu qa.dIyaTa al-lu.gaTi al-`arabIyaTi wa al-'a_h.tAri allatI tuhaddidu hA. \\cap wa yarY al-qA'imUna `alY al-milaffi 'anna mA tata`arra.du la hu al-lu.gaTu al-`arabIyaTu la hu 'ahdAfuN mu.haddadaTuN min hA 'ib`Adu al-`arabi `an lu.gati him wa muzA.hamaTu al-lu.gAti al-.garbIyaTi la hA wa huwa mA ya`nI .du`fa a.s-.silaTi bihA wa mu.hAwalaTu 'izA.haTi al-lu.gaTi al-fu.s.hY bi kulli al-wasA'ili wa 'i.hlAli al-laha^gAti al-mu_htalifaTi fI al-bilAdi al-`arabIyaTi ma.halla hA."
 
 
 indexTrie = tcompile indexList
@@ -120,11 +125,49 @@ lookupTrie x = trieLookup indexTrie x
 lookupList x = lookup x indexList
 
 
+-- indexPlus = tcompile [ (words (root x), [x]) | x <- lexicon ]
+
+
+-- [ r | (r, [x]) <- indexList, any (isSubsumed r) testtext ]
+--
+-- [ r | (r, [x]) <- indexList, isSubsumed r "klm"]
+--
+-- (map root) $  concat $ searchTrie indexTrie "k l m"
+-- (map root) $  concat $ searchTrie indexPlus "k l m"
+--
+-- ehm ... map ( nub . map root . concat . searchTrie indexTrie  . intersperse ' ') testtext
+
+searchTrie :: Trie a -> String -> [[a]]
+
+searchTrie t [] = [val t]
+searchTrie t (c:cs) = searchTrie t cs ++
+
+        (concat . map (flip searchTrie cs))
+
+        [ r | (k, r) <- flatten tab, k == c || k `elem` ['\'', 'w', 'y'] ]
+
+{-
+        generalize tcompile ...
+
+        [ r | (k, r) <- flatten tab, k == c || k `elem` ["\'", "w", "y"] ]
+
+        --- etc, use isPrefixOf on c:cs, then remove length of the prefix, as below ...
+-}
+
+    where tab = mTable t
+
+
+{-
+trieLookup t [] = val t
+trieLookup trie (c:cs) = case mTable trie ! c of
+  Just trie -> trieLookup trie cs
+  Nothing   -> []
+-}
+
 isSubsumed :: String -> String -> Bool
 
 isSubsumed [] _ = True
-isSubsumed cs w = let xs = (map head . group . words) cs
-                  in
+isSubsumed cs w = let xs = (map head . group . words) cs in
 
                   match xs w
 
