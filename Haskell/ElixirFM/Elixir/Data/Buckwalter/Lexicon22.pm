@@ -19894,8 +19894,8 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mukAfa' => {
-          'N-|t' => 1
+        'mukAfa\'' => {
+          'NAt' => 1
         }
       },
       'entry' => 'mukAfa\'',
@@ -19906,7 +19906,9 @@ $Lexicon = {
         'mkAf    mukAfa  N-|t    compensation;rewards;remuneration'
       ],
       'patterns' => {
-        'mukAfa' => []
+        'mukAfa\'' => [
+          'MuFACaL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

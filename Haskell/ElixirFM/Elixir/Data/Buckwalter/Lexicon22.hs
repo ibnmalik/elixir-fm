@@ -1133,7 +1133,7 @@ cluster_22  = listing "Lexicon's properties"
                               `plural`     FaCAL |< At,
 
     MuFACaL |< aT             `noun`    {- mukAfaOap -}        [ "compensation", "reward", "remuneration" ]
-                           {- `others`  [ "mukAfa N-|t" ] -},
+                              `plural`     MuFACaL |< At,
 
     TaFACuL                   `noun`    {- takAfuW -}          [ "equality", "equal" ]
                               `plural`     TaFACuL |< At,

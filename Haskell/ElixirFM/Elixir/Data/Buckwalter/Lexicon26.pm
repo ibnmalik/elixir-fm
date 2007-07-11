@@ -14072,10 +14072,7 @@ $Lexicon = {
     {
       'types' => {
         'hay\'' => {
-          'NAt' => 1
-        },
-        'hay' => {
-          'N-|t' => 1
+          'NAt' => 2
         }
       },
       'entry' => 'hay\'',
@@ -14089,9 +14086,6 @@ $Lexicon = {
       'patterns' => {
         'hay\'' => [
           'FaCL'
-        ],
-        'hay' => [
-          'FaC'
         ]
       },
       'index' => '1',
@@ -14129,8 +14123,8 @@ $Lexicon = {
     },
     {
       'types' => {
-        'muhAya' => {
-          'N-|t' => 1
+        'muhAya\'' => {
+          'NAt' => 1
         }
       },
       'entry' => 'muhAya\'',
@@ -14141,7 +14135,9 @@ $Lexicon = {
         'mhAy    muhAya  N-|t    profit sharing;joint usufruct'
       ],
       'patterns' => {
-        'muhAya' => []
+        'muhAya\'' => [
+          'MuFACaL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -14233,11 +14229,8 @@ $Lexicon = {
     {
       'types' => {
         'muhayya\'' => {
-          'NAt' => 1,
+          'NAt' => 2,
           'Nuwn_Niyn' => 2
-        },
-        'muhayya' => {
-          'N-|t' => 1
         },
         'muhayya\'A' => {
           'N-|' => 1
@@ -14260,7 +14253,6 @@ $Lexicon = {
         'muhayya\'' => [
           'MuFaCCaL'
         ],
-        'muhayya' => [],
         'muhayya\'A' => []
       },
       'index' => '1',

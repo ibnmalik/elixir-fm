@@ -79,11 +79,13 @@ instance Pretty (String, Doc) where
                     <+> text "=>" <+> y
 
 
-instance Pretty Nest where
+instance Pretty (Wrap Nest) where
 
-    pretty (NestL r l) = prettyNest' r l "NestL"
-    pretty (NestT r l) = prettyNest' r l "NestT"
-    pretty (NestQ r l) = prettyNest' r l "NestQ"
+    pretty (WrapL (Nest r l)) = prettyNest' r l "NestL"
+    pretty (WrapT (Nest r l)) = prettyNest' r l "NestT"
+    pretty (WrapQ (Nest r l)) = prettyNest' r l "NestQ"
+    pretty (WrapS (Nest r l)) = prettyNest' r l "NestS"
+
 
 prettyNest' r l t = pretty [ ("root", text (show r)),
                              ("type", text (show t)),
@@ -94,7 +96,7 @@ instance Show a => Pretty (Entry a) where
 
     pretty (Entry e m l) = pretty [ ("entity", text (show (show e))),
                                     ("morphs", text (show (show m))),
-                                    ("lexref", pretty l ) ]
+                                    ("reflex", pretty l ) ]
 
 
 instance Pretty String where

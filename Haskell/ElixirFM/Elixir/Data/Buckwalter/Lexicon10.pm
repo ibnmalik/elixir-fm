@@ -6594,8 +6594,8 @@ $Lexicon = {
           'Ndip' => 1,
           'N-|' => 1
         },
-        'marfa' => {
-          'N-|t' => 1
+        'marfa\'' => {
+          'NAt' => 1
         },
         'marAfi\'' => {
           'Ndip' => 1
@@ -6617,7 +6617,9 @@ $Lexicon = {
       ],
       'patterns' => {
         'marfa\'A' => [],
-        'marfa' => [],
+        'marfa\'' => [
+          'MaFCaL'
+        ],
         'marAfi\'' => [
           'MaFACiL'
         ]

@@ -2615,13 +2615,12 @@ cluster_53  = listing "Lexicon's properties"
     TaFACaL                   `verb`    {- tahAyaO -}          [ unwords [ "adapt", "to", "each", "other" ], unwords [ "accommodate", "each", "other" ] ],
 
     FaCL |< aT                `noun`    {- hayo}ap -}          [ "organization", "agency" ]
-                              `plural`     FaCL |< At
-                              `plural`     FaC,
+                              `plural`     FaCL |< At,
 
     TaFCiL |< aT              `noun`    {- tahoyi}ap -}        [ "preparation", "mobilization" ],
 
     MuFACaL |< aT             `noun`    {- muhAyaOap -}        [ unwords [ "profit", "sharing" ], unwords [ "joint", "usufruct" ] ]
-                           {- `others`  [ "muhAya N-|t" ] -},
+                              `plural`     MuFACaL |< At,
 
     TaFaCCuL                  `noun`    {- tahay~uW -}         [ "mobilization" ]
                               `plural`     TaFaCCuL |< At,
@@ -2633,7 +2632,7 @@ cluster_53  = listing "Lexicon's properties"
 
     MuFaCCaL                  `noun`    {- muhay~aO -}         [ "prepared" ]
                               `plural`     MuFaCCaL |< Un
-                           {- `others`  [ "muhayya N-|t", "muhayya'A N-|" ] -} ]
+                           {- `others`  [ "muhayya'A N-|" ] -} ]
 
  |> "h y .d" <| [
 

@@ -980,7 +980,7 @@ cluster_18  = listing "Lexicon's properties"
     FuCAL |< Iy |< aT         `noun`    {- fujA}iy~ap -}       [ unwords [ "surprising", "nature" ], "unexpectedness" ],
 
     MuFACaL |< aT             `noun`    {- mufAjaOap -}        [ "surprise" ]
-                           {- `others`  [ "mufA^ga N-|t" ] -},
+                              `plural`     MuFACaL |< At,
 
     FACiL                     `adj`     {- fAji} -}            [ "surprising", "unexpected" ],
 

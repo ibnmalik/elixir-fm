@@ -13486,8 +13486,8 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ma_hba' => {
-          'N-|t' => 1
+        'ma_hba\'' => {
+          'NAt' => 1
         },
         'ma_hAbi\'' => {
           'Ndip' => 1
@@ -13509,7 +13509,9 @@ $Lexicon = {
         'mxAb}   maxAbi} Ndip    hide-outs;shelters'
       ],
       'patterns' => {
-        'ma_hba' => [],
+        'ma_hba\'' => [
+          'MaFCaL'
+        ],
         'ma_hba\'A' => [],
         'ma_hAbi\'' => [
           'MaFACiL'
@@ -13620,8 +13622,8 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mu_habba' => {
-          'N-|t' => 1
+        'mu_habba\'' => {
+          'NAt' => 1
         }
       },
       'entry' => 'mu_habba\'',
@@ -13632,7 +13634,9 @@ $Lexicon = {
         'mxb     muxab~a N-|t    hidden;secrets'
       ],
       'patterns' => {
-        'mu_habba' => []
+        'mu_habba\'' => [
+          'MuFaCCaL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

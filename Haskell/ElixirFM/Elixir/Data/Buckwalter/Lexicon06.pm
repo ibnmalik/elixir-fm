@@ -11673,11 +11673,11 @@ $Lexicon = {
     },
     {
       'types' => {
-        '.hama' => {
-          'N-|t' => 1
-        },
         '.ham\'' => {
           'Napdu' => 1
+        },
+        '.hama\'' => {
+          'NAt' => 1
         }
       },
       'entry' => '.hama\'',
@@ -11694,7 +11694,9 @@ $Lexicon = {
         '.ham\'' => [
           'FaCL'
         ],
-        '.hama' => []
+        '.hama\'' => [
+          'FaCaL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

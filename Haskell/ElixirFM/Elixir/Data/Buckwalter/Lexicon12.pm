@@ -44078,11 +44078,8 @@ $Lexicon = {
     },
     {
       'types' => {
-        'saw' => {
-          'N-|t' => 1
-        },
         'saw\'' => {
-          'NAt' => 1
+          'NAt' => 2
         }
       },
       'entry' => 'saw\'',
@@ -44094,9 +44091,6 @@ $Lexicon = {
         'sw      sawo    N-|t    disgrace;shame'
       ],
       'patterns' => {
-        'saw' => [
-          'FaC'
-        ],
         'saw\'' => [
           'FaCL'
         ]

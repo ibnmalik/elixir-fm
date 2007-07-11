@@ -1753,7 +1753,8 @@ cluster_36  = listing "Lexicon's properties"
     FACiL                     `adj`     {- EAbi} -}            [ unwords [ "caring", "about" ], unwords [ "preoccupied", "with" ] ],
 
     MuFaCCaL                  `adj`     {- muEab~aO -}         [ "packaged", unwords [ "packed", "in", "sacks" ] ]
-                           {- `others`  [ "mu`abba N-|t", "mu`abba'A N-|" ] -} ]
+                              `plural`     MuFaCCaL |< At
+                           {- `others`  [ "mu`abba'A N-|" ] -} ]
 
 
 cluster_37  = listing "Lexicon's properties"

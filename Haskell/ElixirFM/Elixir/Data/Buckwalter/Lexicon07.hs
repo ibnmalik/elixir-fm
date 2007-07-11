@@ -1006,8 +1006,9 @@ cluster_22  = listing "Lexicon's properties"
                            {- `others`  [ "_habAyY N0_Nhy" ] -},
 
     MaFCaL                    `noun`    {- maxobaO -}          [ unwords [ "hide", "-", "out" ], "shelter" ]
+                              `plural`     MaFCaL |< At
                               `plural`     MaFACiL
-                           {- `others`  [ "ma_hba N-|t", "ma_hba'A N-|" ] -},
+                           {- `others`  [ "ma_hba'A N-|" ] -},
 
     FiCAL                     `noun`    {- xibA' -}            [ "tent", "husk", "hull" ]
                               `plural`     HaFCI |< aT
@@ -1019,7 +1020,7 @@ cluster_22  = listing "Lexicon's properties"
                               `plural`     FawACiL,
 
     MuFaCCaL |< aT            `noun`    {- muxab~aOap -}       [ "hidden", "secret" ]
-                           {- `others`  [ "mu_habba N-|t" ] -},
+                              `plural`     MuFaCCaL |< At,
 
     MuFtaCiL                  `noun`    {- muxotabi} -}        [ "hidden", "concealed" ] ]
 

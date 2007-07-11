@@ -19725,8 +19725,8 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mubAra' => {
-          'N-|t' => 1
+        'mubAra\'' => {
+          'NAt' => 1
         }
       },
       'entry' => 'mubAra\'',
@@ -19737,7 +19737,9 @@ $Lexicon = {
         'mbAr    mubAra  N-|t    divorces'
       ],
       'patterns' => {
-        'mubAra' => []
+        'mubAra\'' => [
+          'MuFACaL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -42991,8 +42993,8 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mubtada' => {
-          'N-|t' => 1
+        'mubtada\'' => {
+          'NAt' => 1
         },
         'mubtada\'A' => {
           'N-|' => 1
@@ -43008,7 +43010,9 @@ $Lexicon = {
         'mbtd}   mubotada}       Nayn    begun;subject;topic'
       ],
       'patterns' => {
-        'mubtada' => [],
+        'mubtada\'' => [
+          'MuFtaCaL'
+        ],
         'mubtada\'A' => []
       },
       'index' => '1',

@@ -14687,8 +14687,8 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mumAla' => {
-          'N-|t' => 1
+        'mumAla\'' => {
+          'NAt' => 1
         }
       },
       'entry' => 'mumAla\'',
@@ -14699,7 +14699,9 @@ $Lexicon = {
         'mmAl    mumAla  N-|t    partiality;bias;collaboration'
       ],
       'patterns' => {
-        'mumAla' => []
+        'mumAla\'' => [
+          'MuFACaL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

@@ -585,6 +585,11 @@ sub storeType {
 
         $form =~ s/ay$/Y/;
     }
+    elsif ($type =~ /^N-\|t/) {
+
+        $form .= '\'';
+        $type = 'NAt';
+    }
     else {
 
         $form =~ s/(?<![aiuIU])yA$/yY/;    ## Fischer (2001), par 10

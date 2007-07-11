@@ -4860,7 +4860,6 @@ cluster_95  = listing "Lexicon's properties"
                               `plural`     HaFCAL,
 
     FaCL |< aT                `noun`    {- sawoOap -}          [ "disgrace", "shame" ]
-                              `plural`     FaC
                               `plural`     FaCL |< At,
 
     HaFCaL                    `noun`    {- OasowaO -}          [ unwords [ "worse", "/", "worst" ] ],

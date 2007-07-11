@@ -28610,8 +28610,8 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mufA^ga' => {
-          'N-|t' => 1
+        'mufA^ga\'' => {
+          'NAt' => 1
         }
       },
       'entry' => 'mufA^ga\'',
@@ -28622,7 +28622,9 @@ $Lexicon = {
         'mfAj    mufAja  N-|t    surprises'
       ],
       'patterns' => {
-        'mufA^ga' => []
+        'mufA^ga\'' => [
+          'MuFACaL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

@@ -25480,8 +25480,8 @@ $Lexicon = {
     },
     {
       'types' => {
-        'muwA.ta' => {
-          'N-|t' => 1
+        'muwA.ta\'' => {
+          'NAt' => 1
         }
       },
       'entry' => 'muwA.ta\'',
@@ -25492,7 +25492,9 @@ $Lexicon = {
         'mwAT    muwATa  N-|t    agreements;collusions'
       ],
       'patterns' => {
-        'muwA.ta' => []
+        'muwA.ta\'' => [
+          'MuFACaL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -33945,8 +33947,8 @@ $Lexicon = {
     },
     {
       'types' => {
-        'muttaka' => {
-          'N-|t' => 1
+        'muttaka\'' => {
+          'NAt' => 1
         },
         'muttaka\'A' => {
           'N-|' => 1
@@ -33964,7 +33966,9 @@ $Lexicon = {
         'mtk     mut~aka N-|t    supports;props'
       ],
       'patterns' => {
-        'muttaka' => [],
+        'muttaka\'' => [
+          'MuFtaCaL'
+        ],
         'muttaka\'A' => []
       },
       'index' => '1',
@@ -33982,8 +33986,8 @@ $Lexicon = {
     },
     {
       'types' => {
-        'muttaka' => {
-          'N-|t' => 1
+        'muttaka\'' => {
+          'NAt' => 1
         },
         'muttaka\'A' => {
           'N-|' => 1
@@ -34001,7 +34005,9 @@ $Lexicon = {
         'mtk     mut~aka N-|t    cushions;couches'
       ],
       'patterns' => {
-        'muttaka' => [],
+        'muttaka\'' => [
+          'MuFtaCaL'
+        ],
         'muttaka\'A' => []
       },
       'index' => '2',

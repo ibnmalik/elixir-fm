@@ -25095,11 +25095,11 @@ $Lexicon = {
     },
     {
       'types' => {
+        'man^sa\'' => {
+          'NAt' => 1
+        },
         'man^sa\'A' => {
           'N-|' => 1
-        },
-        'man^sa' => {
-          'N-|t' => 1
         }
       },
       'entry' => 'man^sa\'',
@@ -25114,8 +25114,10 @@ $Lexicon = {
         'mn$     mano$a  N-|t    sources;origins;generations'
       ],
       'patterns' => {
-        'man^sa\'A' => [],
-        'man^sa' => []
+        'man^sa\'' => [
+          'MaFCaL'
+        ],
+        'man^sa\'A' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -25382,8 +25384,8 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mun^sa' => {
-          'N-|t' => 2
+        'mun^sa\'' => {
+          'NAt' => 2
         }
       },
       'entry' => 'mun^sa\'',
@@ -25395,7 +25397,9 @@ $Lexicon = {
         'mn$     muno$a  N-|t    installations;facilities'
       ],
       'patterns' => {
-        'mun^sa' => []
+        'mun^sa\'' => [
+          'MuFCaL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -60926,8 +60930,8 @@ $Lexicon = {
     },
     {
       'types' => {
-        'munAwa' => {
-          'N-|t' => 1
+        'munAwa\'' => {
+          'NAt' => 1
         }
       },
       'entry' => 'munAwa\'',
@@ -60938,7 +60942,9 @@ $Lexicon = {
         'mnAw    munAwa  N-|t    resistance;opposition;insubordination'
       ],
       'patterns' => {
-        'munAwa' => []
+        'munAwa\'' => [
+          'MuFACaL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

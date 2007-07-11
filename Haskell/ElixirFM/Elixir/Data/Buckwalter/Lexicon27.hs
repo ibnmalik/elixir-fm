@@ -839,7 +839,7 @@ cluster_15  = listing "Lexicon's properties"
     TaFCiL |< aT              `noun`    {- tawoTi}ap -}        [ unwords [ "preliminary", "step" ], unwords [ "paving", "the", "way" ], "lowering" ],
 
     MuFACaL |< aT             `noun`    {- muwATaOap -}        [ "agreement", "collusion" ]
-                           {- `others`  [ "muwA.ta N-|t" ] -},
+                              `plural`     MuFACaL |< At,
 
     TaFACuL                   `noun`    {- tawATuW -}          [ "connivance", "collusion" ]
                               `plural`     TaFACuL |< At,
@@ -2605,10 +2605,12 @@ cluster_51  = listing "Lexicon's properties"
     MuFtaCiL                  `noun`    {- mut~aki} -}         [ "leaning", "resting" ],
 
     MuFtaCaL                  `noun`    {- mut~akaO -}         [ "support", "prop" ]
-                           {- `others`  [ "muttaka N-|t", "muttaka'A N-|" ] -},
+                              `plural`     MuFtaCaL |< At
+                           {- `others`  [ "muttaka'A N-|" ] -},
 
     MuFtaCaL                  `noun`    {- mut~akaO -}         [ "cushion", "couch" ]
-                           {- `others`  [ "muttaka N-|t", "muttaka'A N-|" ] -},
+                              `plural`     MuFtaCaL |< At
+                           {- `others`  [ "muttaka'A N-|" ] -},
 
     FiCAL                     `noun`    {- wikA' -}            [ "string", "thong" ]
                               `plural`     HaFCI |< aT ]

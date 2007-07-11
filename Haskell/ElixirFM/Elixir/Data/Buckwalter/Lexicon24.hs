@@ -2061,7 +2061,7 @@ cluster_38  = listing "Lexicon's properties"
                               `plural`     FaCLY,
 
     MuFACaL |< aT             `noun`    {- mumAlaOap -}        [ "partiality", "bias", "collaboration" ]
-                           {- `others`  [ "mumAla N-|t" ] -},
+                              `plural`     MuFACaL |< At,
 
     HiFCAL                    `noun`    {- IimolA' -}          [ "filling", unwords [ "filling", "out" ] ]
                               `plural`     HiFCAL |< At,

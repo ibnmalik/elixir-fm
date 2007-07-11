@@ -2761,7 +2761,7 @@ cluster_54  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- HamaO -}            [ "mud", "sludge" ]
                               `plural`     FaCL
-                           {- `others`  [ ".hama N-|t" ] -},
+                              `plural`     FaCaL |< At,
 
     IFtiCAL                   `noun`    {- AiHotimA' -}        [ unwords [ "seeking", "cover" ], "shelter" ]
                               `plural`     IFtiCAL |< At ]

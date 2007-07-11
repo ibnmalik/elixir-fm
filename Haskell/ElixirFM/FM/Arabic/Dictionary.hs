@@ -24,8 +24,11 @@ import FM.Generic.CommonMain
 import FM.Generic.General
 import FM.Generic.GeneralIO
 
-import FM.Generic.Trie
-import FM.Generic.Map
+-- import FM.Generic.Trie
+-- import FM.Generic.Map
+
+import Data.Map (Map)
+import qualified Data.Map as Map
 
 import FM.Arabic.Types
 import FM.Arabic.Rules
@@ -82,13 +85,13 @@ instance Resolve [String] where
 
 
 
-resolveList l y  = [ i | (_, [(r, x)]) <- l, isSubsumed (--(encode UTF . decode TeX)
+resolveList l y  = [ i | (r, [x]) <- l, isSubsumed (--(encode UTF . decode TeX)
                                                          r) y,
 
-                         let s = case x of WrapT (Ents z) -> inflects r z
-                                           WrapQ (Ents z) -> inflects r z
-                                       --  WrapS (Ents z) -> inflects r z
-                                           WrapL (Ents z) -> inflects r z,
+                         let s = case x of WrapT (Nest r z) -> inflects r z
+                                           WrapQ (Nest r z) -> inflects r z
+                                       --  WrapS (Nest r z) -> inflects r z
+                                           WrapL (Nest r z) -> inflects r z,
 
                          h <- s, i <- recode h, {- j <- i, j -} i == y ]
 
@@ -119,11 +122,42 @@ resolveTrie l y  = analyze (analysis (trieDict (arabicDict')) arabicDecompose) [
 testtext = words "wa fI milaffi al-'adabi .tara.hat al-ma^gallaTu qa.dIyaTa al-lu.gaTi al-`arabIyaTi wa al-'a_h.tAri allatI tuhaddidu hA. \\cap wa yarY al-qA'imUna `alY al-milaffi 'anna mA tata`arra.du la hu al-lu.gaTu al-`arabIyaTu la hu 'ahdAfuN mu.haddadaTuN min hA 'ib`Adu al-`arabi `an lu.gati him wa muzA.hamaTu al-lu.gAti al-.garbIyaTi la hA wa huwa mA ya`nI .du`fa a.s-.silaTi bihA wa mu.hAwalaTu 'izA.haTi al-lu.gaTi al-fu.s.hY bi kulli al-wasA'ili wa 'i.hlAli al-laha^gAti al-mu_htalifaTi fI al-bilAdi al-`arabIyaTi ma.halla hA."
 
 
-indexTrie = tcompile' indexList
+newtype Trie a b = Trie (Map a (Trie a b), [b]) deriving Show
 
-indexList = [ (root x, [x]) | x <- lexicon ]
 
-lookupTrie x = trieLookup indexTrie x
+emptyTrie = Trie (Map.empty, [])
+
+(?) x y = Map.lookup y x
+
+
+insertTrieWith :: Ord a => (c -> [b] -> [b]) -> ([a], c) -> Trie a b -> Trie a b
+
+insertTrieWith f ([],    y) (Trie (m, r)) = Trie (m, f y r)
+
+insertTrieWith f (x:xs,  y) (Trie (m, r)) = Trie (
+
+    Map.insertWith' (\ _ o -> insertTrieWith f (xs, y) o)
+                    x
+                   (insertTrieWith f (xs, y) emptyTrie) m   , r)
+
+{--
+    Just t  -> Trie ((c, insert' (cs,ys) t') |-> mTable t) , r)
+    Nothing -> Trie ((c, insert' (cs,ys) emptyTrie) |-> mTable t), r)
+--}
+
+indexTrie = (foldl (flip (insertTrieWith (++))) emptyTrie)
+
+            [ (words q, [x]) | x <- lexicon, let q = case x of WrapQ n -> root n
+                                                               WrapT n -> root n
+                                                               WrapL n -> root n
+                                                               WrapS n -> root n ]
+
+indexList = [ (q, [x]) | x <- lexicon,       let q = case x of WrapQ n -> root n
+                                                               WrapT n -> root n
+                                                               WrapL n -> root n
+                                                               WrapS n -> root n ]
+
+-- lookupTrie x = trieLookup indexTrie x
 
 lookupList x = lookup x indexList
 
@@ -140,14 +174,15 @@ lookupList x = lookup x indexList
 --
 -- ehm ... map ( nub . map root . concat . searchTrie indexTrie  . intersperse ' ') testtext
 
-searchTrie :: Trie a -> String -> [[a]]
+searchTrie :: Trie String a -> [String] -> String -> [[a]]
 
-searchTrie t [] = [val t]
-searchTrie t (c:cs) = searchTrie t cs ++
+searchTrie (Trie (m, r))   _ [] = [r]
+searchTrie t@(Trie (m, r)) i cs = concat
 
-        (concat . map (flip searchTrie cs))
-
-        [ r | (k, r) <- flatten tab, k == c || k `elem` ['\'', 'w', 'y'] ]
+    [ n | (c, k) <- Map.toList m, let n | c `isPrefixOf` cs      = searchTrie k [c] (drop (length c) cs)
+                                        | c `elem` i ++
+                                                ["\'", "w", "y"] = searchTrie k [c] cs
+                                        | otherwise              = searchTrie t []  (short cs)]
 
 {-
         generalize tcompile ...
@@ -157,8 +192,7 @@ searchTrie t (c:cs) = searchTrie t cs ++
         --- etc, use isPrefixOf on c:cs, then remove length of the prefix, as below ...
 -}
 
-    where tab = mTable t
-
+{-
 tcompile' :: [([b], [a])] -> Trie' b a
 tcompile' = foldl (flip insert') emptyTrie
 
@@ -168,14 +202,7 @@ insert' ((c:cs),ys) t =
   case mTable t ! c of
    Just t' -> trie' ((c, insert' (cs,ys) t') |-> mTable t) (val t)
    Nothing -> trie' ((c, insert' (cs,ys) emptyTrie) |-> mTable t) (val t)
-
-trie' :: Map b (Trie' b a) -> [a] -> Trie' b a
-trie' m val = Trie' (m,val)
-
-
-newtype Trie' b a = Trie (Map b (Trie' a), [a])
- deriving (Show)
-
+-}
 
 {-
 trieLookup t [] = val t
@@ -187,7 +214,10 @@ trieLookup trie (c:cs) = case mTable trie ! c of
 isSubsumed :: String -> String -> Bool
 
 isSubsumed [] _ = True
-isSubsumed cs w = let xs = (map head . group . words) cs in
+isSubsumed cs w = let xs = {- (foldr (\ c d -> if null d then [c]
+                                                      else if c == head d then d
+                                                                          else (c:d)) [] . words) -}
+                           (map head . group . words) cs in
 
                   match xs w
 
@@ -199,7 +229,18 @@ isSubsumed cs w = let xs = (map head . group . words) cs in
                                                else if x `isPrefixOf` z
 
                                                     then match y (drop (length x) z)
-                                                    else match (x:y) (tail z)
+                                                    else match (x:y) (short z)
+
+short :: String -> String
+
+short (d:z:s) | d == '_' && z `elem` "tdh"     = s
+              | d == '^' && z `elem` "gscznl"  = s
+              | d == '.' && z `elem` "hsdtzgr" = s
+              | d == ',' && z `elem` "c"       = s
+
+short (d:zs) = zs
+short []     = []
+
 
 
 -- recode = map (encode UTF . decode TeX . (++) "\\nodiacritics ") . concat
@@ -216,7 +257,7 @@ arabicDict = (dictionary . (++) extradict .
 
 extradict = [ ("wa-", "Conj", ["Ups"], [ ("\nC---------", (1 :: Attr, ["wa-"])) ]) ]
 
-lex2dict (x, WrapT (Ents ys)) = [ case entity y of
+lex2dict (WrapT (Nest x ys)) = [ case entity y of
 
     Noun _ _ _      -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaNoun -> [String]),
                         "Noun", [],
@@ -233,7 +274,7 @@ lex2dict (x, WrapT (Ents ys)) = [ case entity y of
     _               -> ("Dictword",
                         "Category", ["Inherent"], [ ("Untyped", (0, ["String"])) ]) | y <- ys ]
 
-lex2dict (x, WrapQ (Ents ys)) = []
+lex2dict (WrapQ (Nest x ys)) = []
 
 lex2dict _            = [ ("Others", "Category", ["Other"], [ ("Untyped", (0, ["None"])) ]) ]
 

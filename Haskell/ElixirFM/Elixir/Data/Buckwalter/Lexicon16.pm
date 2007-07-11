@@ -10679,8 +10679,8 @@ $Lexicon = {
         'mu.tfa\'A' => {
           'N-|' => 1
         },
-        'mu.tfa' => {
-          'N-|t' => 1
+        'mu.tfa\'' => {
+          'NAt' => 1
         }
       },
       'entry' => 'mu.tfa\'',
@@ -10695,7 +10695,9 @@ $Lexicon = {
       ],
       'patterns' => {
         'mu.tfa\'A' => [],
-        'mu.tfa' => []
+        'mu.tfa\'' => [
+          'MuFCaL'
+        ]
       },
       'index' => '1',
       'entity' => 'adj',
@@ -11038,13 +11040,11 @@ $Lexicon = {
     {
       'types' => {
         'mu.ta\'.ta\'' => {
+          'NAt' => 1,
           'Nuwn_Niyn' => 2
         },
         'mu.ta\'.ta\'A' => {
           'N-|' => 1
-        },
-        'mu.ta\'.ta' => {
-          'N-|t' => 1
         }
       },
       'entry' => 'mu.ta\'.ta\'',
@@ -11063,8 +11063,7 @@ $Lexicon = {
         'mu.ta\'.ta\'' => [
           'MuKaRDaS'
         ],
-        'mu.ta\'.ta\'A' => [],
-        'mu.ta\'.ta' => []
+        'mu.ta\'.ta\'A' => []
       },
       'index' => '1',
       'entity' => 'adj',

@@ -22892,11 +22892,11 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mal^ga' => {
-          'N-|t' => 1
-        },
         'malA^gi\'' => {
           'Ndip' => 1
+        },
+        'mal^ga\'' => {
+          'NAt' => 1
         },
         'mal^ga\'A' => {
           'N-|' => 1
@@ -22915,11 +22915,13 @@ $Lexicon = {
         'mlAj}   malAji} Ndip    shelters;refuges'
       ],
       'patterns' => {
-        'mal^ga' => [],
         'malA^gi\'' => [
           'MaFACiL'
         ],
-        'mal^ga\'A' => []
+        'mal^ga\'A' => [],
+        'mal^ga\'' => [
+          'MaFCaL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
