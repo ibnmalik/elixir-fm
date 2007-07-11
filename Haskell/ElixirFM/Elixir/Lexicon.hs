@@ -30,8 +30,10 @@ module Elixir.Lexicon (
 --        Lexicon ((:<)), Nest, Entry,
 --        -- (94686 reductions, 229830 cells)
 
-        Lexicon, Nest (..), Entry (..), Entity (..),
+        Lexicon, Nest (..), Wrap (..), Wrapping (..), Ents (..), Entry (..), Entity (..),
         -- (93617 reductions, 227671 cells)
+
+        Lexeme (..), Root,
 
         PatternL (..),
         PatternT (..),
@@ -60,7 +62,7 @@ module Elixir.Lexicon (
 
         isVerb, isNoun, isAdj, isMore,
 
-        lookupRoot, lookupLemma,
+        lookupRoot, lookupEntry, lookupLemma,
 
         root,
 
@@ -112,36 +114,93 @@ include = concat    -- include f = concat . map f
 
 type Lexicon = [Nest]
 
-
 type Root = String
 
+type Nest = (Root, Wrap Ents)
+
+{-
 data Nest =     NestL Root [Entry PatternL]
           |     NestT Root [Entry PatternT]
           |     NestQ Root [Entry PatternQ]
 
     deriving Show
+-}
 
+data Lexeme a = RE Root (Entry a)
+
+    deriving Show
+
+
+newtype Ents a = Ents [Entry a]     deriving Show
+
+unEnts (Ents x) = x
+
+
+newtype Id a = Id a                 deriving Show
+
+-- type Id a = a
+
+
+data Wrap a = WrapL (a PatternL)
+            | WrapT (a PatternT)
+            | WrapQ (a PatternQ)
+            | WrapS (a String)
+
+    deriving Show
+
+
+class Wrapping a where
+
+    wrap   :: m a -> Wrap m
+    unwrap :: (m a -> b) -> Wrap m -> b
+
+{-
+unwrap :: Wrapping a => (m a -> b) -> Wrap m -> b
+
+unwrap f (WrapL x) = f x
+unwrap f (WrapT y) = f y
+unwrap f (WrapQ z) = f z
+unwrap f (WrapS c) = f c
+-}
+
+instance Wrapping PatternL  where   wrap = WrapL
+                                    unwrap f (WrapL x) = f x
+
+instance Wrapping PatternQ  where   wrap = WrapQ
+                                    unwrap f (WrapQ x) = f x
+
+instance Wrapping PatternT  where   wrap = WrapT
+                                    unwrap f (WrapT x) = f x
+
+instance Wrapping String    where   wrap = WrapS
+                                    unwrap f (WrapS x) = f x
+
+{-
+instance Functor Wrap where
+
+    fmap f (WrapL x) = WrapL (f x)
+    fmap f (WrapT x) = WrapT (f x)
+    fmap f (WrapQ x) = WrapQ (f x)
+    fmap f (WrapS x) = WrapS (f x)
+-}
 
 root :: Nest -> Root
 
-root (NestL r _) = r
-root (NestT r _) = r
-root (NestQ r _) = r
+root = fst
 
 
-class Template a => Nestable a where
+{-
+class Template a => Wrapping a where
 
     (>:) :: Root -> [Entry a] -> Nest
-
+-}
 
 infixl 6 >:, <|
 
 
-instance Nestable PatternL where (>:) s l = NestL s l
+(>:) :: Wrapping a => Root -> [Entry a] -> (Root, Wrap Ents)
 
-instance Nestable PatternT where (>:) s l = NestT s l
-
-instance Nestable PatternQ where (>:) s l = NestQ s l
+(>:) r l = (r, wrap (Ents l))
 
 
 -- minor difference in loading time -- 4:00 minutes
@@ -214,7 +273,7 @@ isMore More = True
 isMore _    = False
 
 
-verb :: (Morphing a b, Nestable b, Forming a, Eq a) => a -> Lexref -> Entry b
+verb :: (Morphing a b, Wrapping b, Forming a, Eq a) => a -> Lexref -> Entry b
 
 verb m l = Entry (Verb forms [] [] [] justT justV) (morph m) l
 
@@ -239,7 +298,7 @@ verb m l = Entry (Verb forms [] [] [] justT justV) (morph m) l
                                     else Nothing
 
 
-noun, adj, pron, num, adv, prep, conj, part, intj :: (Morphing a b, Nestable b) => a -> Lexref -> Entry b
+noun, adj, pron, num, adv, prep, conj, part, intj :: (Morphing a b, Wrapping b) => a -> Lexref -> Entry b
 
 noun m l = Entry (Noun [] Nothing Nothing) (morph m) l
 
@@ -257,12 +316,12 @@ infixl 3 `verb`, `noun`, `adj`, `pron`, `num`, `adv`, `prep`, `conj`, `part`, `i
 
 
 {-
-imperf :: Nestable a => Entry a -> [a] -> Entry a
+imperf :: Wrapping a => Entry a -> [a] -> Entry a
 imperf x y = x { entity = Verb (y ++ z) v }
     where Verb z v = entity x
 -}
 
-imperf, pfirst, ithird, second :: Nestable a => Entry a -> a -> Entry a
+imperf, pfirst, ithird, second :: Wrapping a => Entry a -> a -> Entry a
 
 imperf x y = x { entity = e { imperfect = y : i } }
 
@@ -295,7 +354,7 @@ second x y = x { entity = e { imperative = y : i } }
 gerund = const
 
 
-plural :: (Morphing a b, Nestable b) => Entry b -> a -> Entry b
+plural :: (Morphing a b, Wrapping b) => Entry b -> a -> Entry b
 
 plural x y = case entity x of
 
@@ -332,10 +391,16 @@ countNest = length
 countEntry :: Lexicon -> Int
 countEntry = sum . map countEach
 
+
+-- countEach :: Wrapping a => Nest -> Int
+-- countEach = unwrap (length . unEnts) . snd
+
 countEach :: Nest -> Int
-countEach (NestT _ l) = length l
-countEach (NestQ _ l) = length l
-countEach (NestL _ l) = length l
+
+countEach (_, WrapT (Ents l)) = length l
+countEach (_, WrapL (Ents l)) = length l
+countEach (_, WrapQ (Ents l)) = length l
+countEach (_, WrapS (Ents l)) = length l
 
 
 lookupRoot :: Root -> Lexicon -> [Nest]
@@ -343,13 +408,37 @@ lookupRoot :: Root -> Lexicon -> [Nest]
 lookupRoot r l = [ n | n <- l, root n == r ]
 
 
+lookupEntry :: String -> Lexicon -> [Wrap Lexeme]
+
+lookupEntry w l = [ s | (r, n) <- l, s <- case n of
+
+                                WrapL (Ents es) -> lookupEntry' WrapL w r es
+                                WrapT (Ents es) -> lookupEntry' WrapT w r es
+                                WrapQ (Ents es) -> lookupEntry' WrapQ w r es
+                                WrapS (Ents es) -> lookupEntry' WrapS w r es ]
+
+lookupEntry' wr w r es = [ wr (RE r e) | e <- es, let m = morphs e
+                                                      h = merge r m, w == h ]
+
+{- Rules.hs
+
+inflectLookup l t = [ case i of WrapT x -> inflects x
+                                WrapQ x -> inflects x
+                                WrapS x -> inflects x
+                                WrapL x -> inflects x | i <- l ]
+
+    where inflects x = (map (map (uncurry merge) . snd)) (inflect x t)
+-}
+
+
 lookupLemma :: String -> Lexicon -> String
 
-lookupLemma w l = unlines [ s | n <- l, s <- case n of
+lookupLemma w l = unlines [ s | (r, n) <- l, s <- case n of
 
-                            NestT r es -> lookupLemma' w r es
-                            NestQ r es -> lookupLemma' w r es
-                            NestL r es -> lookupLemma' w r es ]
+                                WrapL (Ents es) -> (lookupLemma' w r es)
+                                WrapT (Ents es) -> (lookupLemma' w r es)
+                                WrapQ (Ents es) -> (lookupLemma' w r es)
+                                WrapS (Ents es) -> (lookupLemma' w r es) ]
 
 
 lookupLemma' :: (Template a, Show a) => String -> Root -> [Entry a] -> [String]

@@ -81,9 +81,16 @@ instance Pretty (String, Doc) where
 
 instance Pretty Nest where
 
+    pretty (r, WrapL (Ents l)) = prettyNest' r l "NestL"
+    pretty (r, WrapT (Ents l)) = prettyNest' r l "NestT"
+    pretty (r, WrapQ (Ents l)) = prettyNest' r l "NestQ"
+    pretty (r, WrapS (Ents l)) = prettyNest' r l "NestS"
+{-
     pretty (NestL r l) = prettyNest' r l "NestL"
     pretty (NestT r l) = prettyNest' r l "NestT"
     pretty (NestQ r l) = prettyNest' r l "NestQ"
+    pretty (NestS r l) = prettyNest' r l "NestS"
+-}
 
 prettyNest' r l t = pretty [ ("root", text (show r)),
                              ("type", text (show t)),

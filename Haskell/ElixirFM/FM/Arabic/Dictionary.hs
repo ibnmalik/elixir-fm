@@ -82,17 +82,20 @@ instance Resolve [String] where
 
 
 
-resolveList l y  = [ r | (r, [x]) <- l, isSubsumed (--(encode UTF . decode TeX)
-                                                    r) y,
+resolveList l y  = [ i | (_, [(r, x)]) <- l, isSubsumed (--(encode UTF . decode TeX)
+                                                         r) y,
 
-                              let inflects t e = (map (map (uncurry merge) . snd))
-                                                 (inflect (RE t e) "----------")
+                         let s = case x of WrapT (Ents z) -> inflects r z
+                                           WrapQ (Ents z) -> inflects r z
+                                       --  WrapS (Ents z) -> inflects r z
+                                           WrapL (Ents z) -> inflects r z,
 
-                                  s = case x of NestT r l -> [ inflects r z | z <- l ]
-                                                NestQ r l -> [ inflects r z | z <- l ]
-                                                NestL r l -> [ inflects r z | z <- l ],
+                         h <- s, i <- recode h, {- j <- i, j -} i == y ]
 
-                              h <- s, i <- recode h, {- j <- i, j -} i == y]
+    where inflects r z = [ (map (map (uncurry merge) . snd))
+                           (inflect (RE r i) "----------") | i <- z ]
+
+
 
 
 -- resolveTrie l y = FM.analyze (analysis t (composition l))
@@ -116,7 +119,7 @@ resolveTrie l y  = analyze (analysis (trieDict (arabicDict')) arabicDecompose) [
 testtext = words "wa fI milaffi al-'adabi .tara.hat al-ma^gallaTu qa.dIyaTa al-lu.gaTi al-`arabIyaTi wa al-'a_h.tAri allatI tuhaddidu hA. \\cap wa yarY al-qA'imUna `alY al-milaffi 'anna mA tata`arra.du la hu al-lu.gaTu al-`arabIyaTu la hu 'ahdAfuN mu.haddadaTuN min hA 'ib`Adu al-`arabi `an lu.gati him wa muzA.hamaTu al-lu.gAti al-.garbIyaTi la hA wa huwa mA ya`nI .du`fa a.s-.silaTi bihA wa mu.hAwalaTu 'izA.haTi al-lu.gaTi al-fu.s.hY bi kulli al-wasA'ili wa 'i.hlAli al-laha^gAti al-mu_htalifaTi fI al-bilAdi al-`arabIyaTi ma.halla hA."
 
 
-indexTrie = tcompile indexList
+indexTrie = tcompile' indexList
 
 indexList = [ (root x, [x]) | x <- lexicon ]
 
@@ -155,6 +158,23 @@ searchTrie t (c:cs) = searchTrie t cs ++
 -}
 
     where tab = mTable t
+
+tcompile' :: [([b], [a])] -> Trie' b a
+tcompile' = foldl (flip insert') emptyTrie
+
+insert' :: ([b],[a]) -> Trie' b a -> Trie' b a
+insert' ([],ys)     t = addVal t ys
+insert' ((c:cs),ys) t =
+  case mTable t ! c of
+   Just t' -> trie' ((c, insert' (cs,ys) t') |-> mTable t) (val t)
+   Nothing -> trie' ((c, insert' (cs,ys) emptyTrie) |-> mTable t) (val t)
+
+trie' :: Map b (Trie' b a) -> [a] -> Trie' b a
+trie' m val = Trie' (m,val)
+
+
+newtype Trie' b a = Trie (Map b (Trie' a), [a])
+ deriving (Show)
 
 
 {-
@@ -196,7 +216,7 @@ arabicDict = (dictionary . (++) extradict .
 
 extradict = [ ("wa-", "Conj", ["Ups"], [ ("\nC---------", (1 :: Attr, ["wa-"])) ]) ]
 
-lex2dict (NestT x ys) = [ case entity y of
+lex2dict (x, WrapT (Ents ys)) = [ case entity y of
 
     Noun _ _ _      -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaNoun -> [String]),
                         "Noun", [],
@@ -213,7 +233,7 @@ lex2dict (NestT x ys) = [ case entity y of
     _               -> ("Dictword",
                         "Category", ["Inherent"], [ ("Untyped", (0, ["String"])) ]) | y <- ys ]
 
-lex2dict (NestQ x ys) = []
+lex2dict (x, WrapQ (Ents ys)) = []
 
 lex2dict _            = [ ("Others", "Category", ["Other"], [ ("Untyped", (0, ["None"])) ]) ]
 

@@ -43,11 +43,6 @@ import Elixir.Data.Patterns.Triliteral
 import Data.List (nub, isPrefixOf)
 
 
-type Root = String
-
-data RootEntry a = RE Root (Entry a)
-
-
 -- map (map (uncurry merge) . snd) .
 
 -- prettyInflect :: (Morphing a a, Forming a, Rules a, Template a, Inflect b c) => b a -> c -> IO ()
@@ -59,6 +54,20 @@ prettyInflect x y = (putStr . unlines . map show) (inflect x y)
     where infs = inflect x y
           tags = (concat . expandReadTags) y
 -}
+
+
+-- inflectLookup (lookupEntry "ra'y" lexicon) "--------4I"
+-- inflectLookup (lookupEntry "^gadId" lexicon) "--------4I"
+
+inflectLookup :: Inflect a b => [Wrap a] -> b -> [[[[Char]]]]
+
+inflectLookup l t = [ case i of WrapT x -> inflects x
+                                WrapQ x -> inflects x
+                            --  WrapS x -> inflects x
+                                WrapL x -> inflects x | i <- l ]
+
+    where inflects x = (map (map (uncurry merge) . snd)) (inflect x t)
+
 
 class Inflect m p where
 
@@ -79,12 +88,12 @@ head [ l | NestT r l <- lexicon, r == "k t b" ]  !! 3
 -}
 
 
-instance Inflect RootEntry a => Inflect Entry a where
+instance Inflect Lexeme a => Inflect Entry a where
 
     inflect x = inflect (RE "f ` l" x)
 
 
--- instance Inflect RootEntry a => Inflect ((,) String . Entry) a where
+-- instance Inflect Lexeme a => Inflect ((,) String . Entry) a where
 --
 --     inflect (r, x) = inflect (RE r x)
 
@@ -101,7 +110,7 @@ instance Inflect Entry ParaNoun where
     inflect x = inflect (RE "k t b" x)
 
 
-instance Inflect RootEntry Tag where
+instance Inflect Lexeme Tag where
 
     inflect x@(RE r e) y = case y of
 
@@ -139,7 +148,7 @@ instance Inflect RootEntry Tag where
               vals vs = vs
 
 
-instance Inflect RootEntry String where
+instance Inflect Lexeme String where
 
     inflect x@(RE r e) | isVerb et = inflectOnly isTagParaVerb x
                        | isNoun et = inflectOnly isTagParaNoun x
@@ -185,7 +194,7 @@ instance Inflect RootEntry String where
 
     -}
 
-instance Inflect RootEntry a => Inflect RootEntry [a] where
+instance Inflect Lexeme a => Inflect Lexeme [a] where
 
     inflect x = concat . map (inflect x)
 
@@ -194,7 +203,7 @@ instance Inflect RootEntry a => Inflect RootEntry [a] where
     -- inflect x y = concat [ inflect x | i <- y ]
 
 
-instance Inflect RootEntry ParaVerb where
+instance Inflect Lexeme ParaVerb where
 
     inflect (RE r e) x  | (not . isVerb) (entity e) = []
 
@@ -203,7 +212,7 @@ instance Inflect RootEntry ParaVerb where
     inflect (RE r e) x@(VerbC       g n) = [(show x, inflectVerbC (RE r e) x)]
 
 
-inflectVerbP :: (Template a, Forming a, Eq a, Morphing a a) => RootEntry a -> ParaVerb -> [(Root, Morphs a)]
+inflectVerbP :: (Template a, Forming a, Eq a, Morphing a a) => Lexeme a -> ParaVerb -> [(Root, Morphs a)]
 
 inflectVerbP (RE r e) x@(VerbP   v p g n) = paradigm (paraVerbP v p g n)
 
@@ -235,7 +244,7 @@ inflectVerbP (RE r e) x@(VerbP   v p g n) = paradigm (paraVerbP v p g n)
                                 l <- nub ls ]
 
 
-inflectVerbI :: (Template a, Rules b, Morphing b a, Forming b) => RootEntry b -> ParaVerb -> [(Root, Morphs a)]
+inflectVerbI :: (Template a, Rules b, Morphing b a, Forming b) => Lexeme b -> ParaVerb -> [(Root, Morphs a)]
 
 inflectVerbI (RE r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
 
@@ -286,7 +295,7 @@ inflectVerbI (RE r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
                                 l <- nub ls ]
 
 
-inflectVerbC :: (Template a, Rules b, Morphing b a, Forming b) => RootEntry b -> ParaVerb -> [(Root, Morphs a)]
+inflectVerbC :: (Template a, Rules b, Morphing b a, Forming b) => Lexeme b -> ParaVerb -> [(Root, Morphs a)]
 
 inflectVerbC (RE r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
 
@@ -535,7 +544,7 @@ paraVerbC g n i = case n of
                 Feminine  ->  prefix i . suffix "na"
 
 
-instance Inflect RootEntry ParaAdj where
+instance Inflect Lexeme ParaAdj where
 
     inflect (RE r e) x  | (not . isAdj) (entity e) = []
 
@@ -563,7 +572,7 @@ inEntry' Masculine _ e = [Right (morphs e)]
 inEntry' Feminine  _ e = [Right (morphs e |< aT)]
 
 
-instance Inflect RootEntry ParaNoun where
+instance Inflect Lexeme ParaNoun where
 
     inflect (RE r e) x  | (not . isNoun) (entity e) = []
 

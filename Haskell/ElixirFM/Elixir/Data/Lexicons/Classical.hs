@@ -56,5 +56,5 @@ lexicon = listing "Lexicon's properties"
  |> "r ' y" <| [
 
     FaCL                      `noun`    {- raOoy -}            [ "opinion", "view", "idea" ]
-                              `plural`  HACAL
+                              `plural`  HACA'
                                         `withRoot` "' r y" ]
