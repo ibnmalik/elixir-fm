@@ -63,7 +63,7 @@ inflectLookup :: Inflect a b => [Wrap a] -> b -> [[[[Char]]]]
 
 inflectLookup l t = [ case i of WrapT x -> inflects x
                                 WrapQ x -> inflects x
-                            --  WrapS x -> inflects x
+                                WrapS x -> inflects x
                                 WrapL x -> inflects x | i <- l ]
 
     where inflects x = (map (map (uncurry merge) . snd)) (inflect x t)

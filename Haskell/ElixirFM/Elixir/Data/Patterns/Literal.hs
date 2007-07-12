@@ -47,11 +47,7 @@ instance Forming PatternL where
     -- [ (Nothing, Identity, Identity, Identity, Identity) ]
 
 
-instance Rules PatternL where
-
-    isDiptote = const False
-
-    isPassive = const False
+instance Rules PatternL
 
 
 data PatternL =  Identity

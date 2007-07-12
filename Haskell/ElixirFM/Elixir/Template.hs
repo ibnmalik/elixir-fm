@@ -32,27 +32,6 @@ class Template a where
     interlock :: [String] -> a -> String
 
 
-instance Template String where
-
- -- interlock = flip const
-
-    interlock r = {- smooth . -} concat . replace . restore
-
-        where replace x = [ maybe [c] id (lookup c lock) | c <- x ]
-
-                    where lock = zip ['F', 'C', 'L'] r ++
-                                 zip ['K', 'R', 'D', 'S'] r
-
-              restore x = case x of 'H' : y -> '\'' : y
-                                    'I' : y -> 'i' : y
-                                    'M' : y -> 'm' : y
-                                 --   'N' : y -> 'n' : y
-                                 --   'S' : y -> 's' : y
-                                    'T' : y -> 't' : y
-                                    'U' : y -> 'u' : y
-                                    _       -> x
-
-
 merge :: (Morphing a b, Template b) => String -> a -> String
 
 merge r y = -- show (Morphs (interlock (words r) t) p s)
@@ -284,6 +263,13 @@ class Eq a => Rules a where
     isDiptote :: a -> Bool
 
     isPassive :: a -> Bool
+
+    prefixVerbI _ _ _ = []
+    prefixVerbC _ _   = []
+    auxiesDouble  _ _ = []
+
+    isDiptote = const False
+    isPassive = const False
 
 
 auxies  = ["-i", "-a"]          -- Fischer (2001), par. 53

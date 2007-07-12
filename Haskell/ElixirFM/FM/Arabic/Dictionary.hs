@@ -33,10 +33,9 @@ import qualified Data.Map as Map
 import FM.Arabic.Types
 import FM.Arabic.Rules
 
-
--- import Elixir.Data.Buckwalter
-
 import Elixir.Data.Lexicons
+
+    -- Elixir.Data.Buckwalter
 
 import Elixir.Lexicon
 import Elixir.Template
@@ -55,11 +54,18 @@ import Data.List
 -- let y = "'a_hran.timu" in [ root x  | x <- lexicon, isSubsumed (root x) y, let s = case x of NestT r l -> [ inflect (RE r z) "----------" | z <- l ] ;NestQ r l -> [ inflect (RE r z) "----------" | z <- l ];NestL r l -> [ inflect (RE r z) "----------"| z <- l ], h <- s, i <- h, j<- i, j == y]
 
 
--- resolve :: String -> Nest
+data Token a = Token { lexeme :: Lexeme a, struct :: (Root, Morphs a),
+                       tag :: String }
+
+    deriving Show
+
+
+prettyResolve x = (putStr . unlines . map show) (resolve x)
+
 
 class Resolve a where
 
-    resolve :: a -> [String]
+    resolve :: a -> [[Wrap Token]]
 
 
 instance Resolve String where
@@ -70,7 +76,7 @@ instance Resolve String where
 instance Resolve [String] where
 
     resolve [] = []
-    resolve ys = []
+    resolve ys = concat (map resolve ys)
 
     {-  mapAccumL update_trie_resolve trie words
 
@@ -84,20 +90,24 @@ instance Resolve [String] where
         resolveTrie -}
 
 
+resolveList l y = [ [s] | (r, [x]) <- l, isSubsumed r y,
+                                            -- ((encode Tim . decode TeX) r) y
 
-resolveList l y  = [ i | (r, [x]) <- l, isSubsumed (--(encode UTF . decode TeX)
-                                                         r) y,
+                          s <- wraps (inflects y) x ]
+{-
+                         let s = case x of WrapT n -> (inflects y n)
+                                           WrapQ n -> (inflects y n)
+                                           WrapS n -> (inflects y n)
+                                           WrapL n -> (inflects y n)
+-}
 
-                         let s = case x of WrapT (Nest r z) -> inflects r z
-                                           WrapQ (Nest r z) -> inflects r z
-                                       --  WrapS (Nest r z) -> inflects r z
-                                           WrapL (Nest r z) -> inflects r z,
+    where inflects y (Nest r z) = [ Token (RE r e) i t | e <- z,
 
-                         h <- s, i <- recode h, {- j <- i, j -} i == y ]
+                             let s = inflect (RE r e) "----------", (t, h) <- s,
 
-    where inflects r z = [ (map (map (uncurry merge) . snd))
-                           (inflect (RE r i) "----------") | i <- z ]
+                             i <- h, (recode . uncurry merge) i == y ]
 
+          recode = id -- encode Tim . decode TeX . (++) "\\nodiacritics "
 
 
 
@@ -244,6 +254,7 @@ short []     = []
 
 
 -- recode = map (encode UTF . decode TeX . (++) "\\nodiacritics ") . concat
+
 recode = concat
 
 

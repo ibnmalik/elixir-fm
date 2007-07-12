@@ -36,7 +36,7 @@ module Elixir.Lexicon (
         -- (94686 reductions, 229830 cells)
         -- (93617 reductions, 227671 cells)
 
-        Wrap (..), Lexicon, Root,
+        Wrap (..), Lexicon, Root, Reflex,
 
         Nest (..), Entry (..), Lexeme (..), Entity (..),
 
@@ -162,7 +162,8 @@ class Wrapping a where
     unwrap :: Wrap m -> m a
 
 
-wraps :: (forall c . Template c => a c -> [b c]) -> Wrap a -> [Wrap b]
+wraps :: (forall c . (Template c, Forming c, Morphing c c, Rules c)
+            => a c -> [b c]) -> Wrap a -> [Wrap b]
 
 -- wraps f x = wrapx (map wrap . f)     -- ... not exactly
 

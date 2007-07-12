@@ -38,11 +38,14 @@ module ElixirFM where
 
 
 import Elixir.Data.Lexicons
+
 import Elixir.Lexicon
 import Elixir.Template
 
 import FM.Arabic.Rules
 import FM.Arabic.Types
+
+import FM.Arabic.Dictionary
 
 import FM.Generic.General
 
