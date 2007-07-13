@@ -60,23 +60,45 @@ data Token a = Token { lexeme :: Lexeme a, struct :: (Root, Morphs a),
     deriving Show
 
 
-prettyResolve x = (putStr . unlines . map show) (resolve x)
+-- prettyResolve $ resolveBy (omitting $ (encode UCS . decode Tim) "aiuKNF") (decode Tim "qaDyA")
+
+prettyResolve = (putStr . unlines . map head . unwrapResolve pretty)
+
+    where pretty t = unwords $ map ($ t) [tag, uncurry merge . struct,
+                                            (\(RE r _) -> show r)          . lexeme,
+                                            (\(RE _ l) -> show (morphs l)) . lexeme,
+                                            (\(RE _ l) -> show (reflex l)) . lexeme]
 
 
-class Resolve a where
+unwrapResolve :: (forall c . (Template c, Show c) => a c -> b) -> [[Wrap a]] -> [[b]]
+
+unwrapResolve f = map (map (wrapx f))
+
+
+class Eq a => Resolve a where
 
     resolve :: a -> [[Wrap Token]]
+
+    resolveBy :: (String -> String -> Bool) -> a -> [[Wrap Token]]
+
+    resolve = resolveBy (==)
 
 
 instance Resolve String where
 
-    resolve y = resolveList indexList y
+    resolveBy = resolveList indexList id
 
 
-instance Resolve [String] where
+instance Resolve [UPoint] where
 
-    resolve [] = []
-    resolve ys = concat (map resolve ys)
+    resolveBy q y = resolveList indexList (encode UCS . decode TeX)
+                                        q (encode UCS y)
+
+
+instance Resolve a => Resolve [a] where
+
+    resolve     = concat . map resolve
+    resolveBy q = concat . map (resolveBy q)
 
     {-  mapAccumL update_trie_resolve trie words
 
@@ -86,29 +108,35 @@ instance Resolve [String] where
 
               f =
 
-
         resolveTrie -}
 
 
-resolveList l y = [ [s] | (r, [x]) <- l, isSubsumed r y,
-                                            -- ((encode Tim . decode TeX) r) y
+resolveList l uc eq y = [ [s] | (r, [x]) <- l, isSubsumed (uc r) y,
+                                               -- (decode TeX r) y
 
                           s <- wraps (inflects y) x ]
-{-
-                         let s = case x of WrapT n -> (inflects y n)
-                                           WrapQ n -> (inflects y n)
-                                           WrapS n -> (inflects y n)
-                                           WrapL n -> (inflects y n)
--}
 
     where inflects y (Nest r z) = [ Token (RE r e) i t | e <- z,
 
                              let s = inflect (RE r e) "----------", (t, h) <- s,
 
-                             i <- h, (recode . uncurry merge) i == y ]
+                             i <- h, (uc . uncurry merge) i `eq` y ]
 
-          recode = id -- encode Tim . decode TeX . (++) "\\nodiacritics "
 
+-- unwrapResolve (uncurry merge . struct) $ resolveBy (omitting "aiuAUI") "ktbuN"
+
+omitting :: [Char] -> String -> String -> Bool
+
+omitting c (k:l) s@(q:r) | k == q     = omitting c l r
+                         | k `elem` c = omitting c l s
+                         | otherwise  = False
+
+omitting c (k:l) []      | k `elem` c = omitting c l []
+                         | otherwise  = False
+
+omitting _ [] (q:r) = False
+
+omitting _ []    [] = True
 
 
 -- resolveTrie l y = FM.analyze (analysis t (composition l))
@@ -166,6 +194,7 @@ indexList = [ (q, [x]) | x <- lexicon,       let q = case x of WrapQ n -> root n
                                                                WrapT n -> root n
                                                                WrapL n -> root n
                                                                WrapS n -> root n ]
+
 
 -- lookupTrie x = trieLookup indexTrie x
 

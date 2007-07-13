@@ -57,7 +57,7 @@ module Elixir.Lexicon (
 
         -- * Functions
 
-        wraps,
+        wraps, wrapx,
 
         listing, revised, include,
 
