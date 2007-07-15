@@ -52,6 +52,8 @@ import FM.Generic.General
 import Encode
 import Encode.Arabic
 
+import Data.List
+
 import Version
 
 version = revised "$Revision$"

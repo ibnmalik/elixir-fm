@@ -719,3 +719,113 @@ paraY2Y c d s = case (c, d, s) of
 
         ( _ , _ , _ )           -> suffix "Y"
 -}
+
+
+paraPronP p g n c = case p of
+
+    First   ->  case n of
+
+            Singular    ->          case c of   Nominative  ->  "'anA"
+                                                Genitive    ->  "|I"
+                                                Accusative  ->  "nI"
+
+            _           ->          case c of   Nominative  ->  "na.hnu"
+                                                _           ->  "nA"
+
+    Second  ->  case n of
+
+            Singular    ->  case g of
+
+                    Masculine   ->  case c of   Nominative  ->  "'anta"
+                                                _           ->  "ka"
+
+                    Feminine    ->  case c of   Nominative  ->  "'anti"
+                                                _           ->  "ki"
+
+            Dual        ->          case c of   Nominative  ->  "'antumA"
+                                                _           ->  "kumA"
+
+            Plural      ->  case g of
+
+                    Masculine   ->  case c of   Nominative  ->  "'antum"
+                                                _           ->  "kum"
+
+                    Feminine    ->  case c of   Nominative  ->  "'antunna"
+                                                _           ->  "kunna"
+
+    Third   ->  case n of
+
+            Singular    ->  case g of
+
+                    Masculine   ->  case c of   Nominative  ->  "huwa"
+                                                _           ->  "hu"
+
+                    Feminine    ->  case c of   Nominative  ->  "hiya"
+                                                _           ->  "hA"
+
+            Dual        ->                                      "humA"
+
+            Plural      ->  case g of
+
+                    Masculine   ->                              "hum"
+
+                    Feminine    ->                              "hunna"
+
+
+paraPronR   g n c = case n of
+
+    Singular    ->  case g of
+
+        Masculine   ->                              "alla_dI"
+        Feminine    ->                              "allatI"
+
+    Dual        ->  case g of
+
+        Masculine   ->  case c of   Nominative  ->  "al-la_dAni"
+                                    _           ->  "al-la_dayni"
+
+        Feminine    ->  case c of   Nominative  ->  "al-latAni"
+                                    _           ->  "al-latayni"
+
+    Plural      ->  case g of
+
+        Masculine   ->                              "alla_dIna"
+        Feminine    ->                              "al-lawAtI"
+                        --  "al-lAtI", "al-lA'I"
+
+
+paraPronD   g n c ('h' : _) = case n of
+
+    Singular    ->  case g of
+
+        Masculine   ->                              "h_a_dA"
+        Feminine    ->                              "h_a_dihi"
+
+    Dual        ->  case g of
+
+        Masculine   ->  case c of   Nominative  ->  "h_a_dAni"
+                                    _           ->  "h_a_dayni"
+
+        Feminine    ->  case c of   Nominative  ->  "h_atAni"
+                                    _           ->  "h_atayni"
+
+    Plural      ->                                  "h_a'ulA'i"
+
+
+paraPronD   g n c _ = case n of
+
+    Singular    ->  case g of
+
+        Masculine   ->                              "_d_alika"
+        Feminine    ->                              "tilka"
+
+    Dual        ->  case g of
+
+        Masculine   ->  case c of   Nominative  ->  "_dAnika"
+                                    _           ->  "_daynika"
+
+        Feminine    ->  case c of   Nominative  ->  "tAnika"
+                                    _           ->  "taynika"
+
+    Plural      ->                                  "'_Ul_a'ika"
+
