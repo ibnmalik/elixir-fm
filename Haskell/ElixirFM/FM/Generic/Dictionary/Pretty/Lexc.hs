@@ -13,30 +13,27 @@ import FM.Generic.Dictionary
 
 import Data.List (intersperse)
 
+import Elixir.Pretty
+
 import Text.PrettyPrint
 
 
-prettyLexc :: Pretty a => a -> Doc
+prettyLexc :: Dictionary -> Doc
 
-prettyLexc = pretty
-
-
-prLEXC :: Pretty a => a -> String
-
-prLEXC = show . prettyLexc
-
-
-class Pretty a where
-
-    pretty :: a -> Doc
-
-
-instance Pretty Dictionary where
-
-    pretty x = text "LEXICON Root" $$ text "" $$
+prettyLexc x = text "LEXICON Root" $$ text "" $$
                vcat (map prLexcRules (classifyDict x)) $$
                text "" $$ text "END"
 
+
+prLEXC :: Dictionary -> String
+
+prLEXC = show . prettyLexc
+
+{-
+instance Pretty Dictionary where
+
+    pretty = prettyLexc
+-}
 
 prLexcRules (c, es) = text ("! category " ++ c ++ "\n") $$
                       vcat (map (prEntry . noAttr) es)

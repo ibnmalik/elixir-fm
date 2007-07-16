@@ -21,6 +21,7 @@ import Data.List (isPrefixOf)
 
 infixr 5 +/
 
+
 -- language-independent morphology datatypes and operations
 
 type Str      = [String]   -- list of strings in free variation

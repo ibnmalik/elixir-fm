@@ -39,6 +39,9 @@ import Elixir.Data.Lexicons
 
 import Elixir.Lexicon
 import Elixir.Template
+import Elixir.Pretty
+
+import Text.PrettyPrint
 
 import Encode
 import Encode.Arabic
@@ -60,14 +63,19 @@ data Token a = Token { lexeme :: Lexeme a, struct :: (Root, Morphs a),
     deriving Show
 
 
+instance Pretty [[Wrap Token]] where
+
+    pretty = sep . map (text . head) . unwrapResolve pretty'
+
+
 -- prettyResolve $ resolveBy (omitting $ (encode UCS . decode Tim) "aiuKNF") (decode Tim "qaDyA")
 
-prettyResolve = (putStr . unlines . map head . unwrapResolve pretty)
+prettyResolve = (putStr . unlines . map head . unwrapResolve pretty')
 
-    where pretty t = unwords $ map ($ t) [tag, uncurry merge . struct,
-                                            (\(RE r _) -> show r)          . lexeme,
-                                            (\(RE _ l) -> show (morphs l)) . lexeme,
-                                            (\(RE _ l) -> show (reflex l)) . lexeme]
+pretty' t = unwords $ map ($ t) [tag, uncurry merge . struct,
+                                 (\(RE r _) -> show r)          . lexeme,
+                                 (\(RE _ l) -> show (morphs l)) . lexeme,
+                                 (\(RE _ l) -> show (reflex l)) . lexeme]
 
 
 unwrapResolve :: (forall c . (Template c, Show c) => a c -> b) -> [[Wrap a]] -> [[b]]

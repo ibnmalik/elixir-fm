@@ -42,10 +42,25 @@ import Elixir.Data.Patterns.Triliteral
 
 import Data.List (nub, isPrefixOf)
 
+import Elixir.Pretty
 
--- map (map (uncurry merge) . snd) .
+import Text.PrettyPrint
+
+
+instance Show a => Pretty [(String, [(Root, Morphs a)])] where
+
+    pretty = sep . map pretty
+
+ -- instance Pretty a => Pretty [a] where
+
+
+instance Show a => Pretty (String, [(Root, Morphs a)]) where
+
+    pretty = text . show
+
 
 -- prettyInflect :: (Morphing a a, Forming a, Rules a, Template a, Inflect b c) => b a -> c -> IO ()
+
 prettyInflect x y = (putStr . unlines . map show) (inflect x y)
 
 {-

@@ -26,16 +26,13 @@ module Elixir.Lexicon.Pretty.LaTeX (
 
 import Elixir.Lexicon
 
+import Elixir.Pretty
+
 import Text.PrettyPrint
 
 import Version
 
 version = revised "$Revision$"
-
-
-class Pretty a where
-
-    pretty :: a -> Doc
 
 
 instance Pretty Lexicon where

@@ -41,6 +41,7 @@ import Elixir.Data.Lexicons
 
 import Elixir.Lexicon
 import Elixir.Template
+import Elixir.Pretty
 
 import FM.Arabic.Rules
 import FM.Arabic.Types

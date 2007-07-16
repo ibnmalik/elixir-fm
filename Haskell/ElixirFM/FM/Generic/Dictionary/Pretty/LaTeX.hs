@@ -13,34 +13,31 @@ import FM.Generic.General
 
 import Data.List (intersperse)
 
+import Elixir.Pretty
+
 import Text.PrettyPrint
 
 
-prettyLaTeX :: Pretty a => a -> Doc
+prettyLaTeX :: Dictionary -> Doc
 
-prettyLaTeX = pretty
+prettyLaTeX x = enclose ["\\documentclass{report}",
+                         "\\usepackage{isolatin1}",
+                         "\\begin{document}"]
+
+                        (vcat (map prettyEntry (removeAttr x)))
+
+                        ["\\end{document}"]
 
 
-prLatex :: Pretty a => a -> String
+prLatex :: Dictionary -> String
 
 prLatex = show . prettyLaTeX
 
-
-class Pretty a where
-
-    pretty :: a -> Doc
-
-
+{-
 instance Pretty Dictionary where
 
-    pretty x = enclose ["\\documentclass{report}",
-                        "\\usepackage{isolatin1}",
-                        "\\begin{document}"]
-
-                       (vcat (map prettyEntry (removeAttr x)))
-
-                       ["\\end{document}"]
-
+    pretty = prettyLaTeX
+-}
 
 prettyEntry (i, c, is, tb) = text (unwords ((i ++ ",") : c : is)) $$
                              prettyTbl tb
