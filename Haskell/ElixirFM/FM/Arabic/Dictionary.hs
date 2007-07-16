@@ -80,7 +80,7 @@ pretty' t = unwords $ map ($ t) [tag, uncurry merge . struct,
 
 unwrapResolve :: (forall c . (Template c, Show c) => a c -> b) -> [[Wrap a]] -> [[b]]
 
-unwrapResolve f = map (map (wrapx f))
+unwrapResolve f = map (map (unwraps f))
 
 
 class Eq a => Resolve a where

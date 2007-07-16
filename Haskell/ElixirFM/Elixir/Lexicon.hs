@@ -57,7 +57,7 @@ module Elixir.Lexicon (
 
         -- * Functions
 
-        wraps, wrapx,
+        wraps, unwraps,
 
         listing, revised, include,
 
@@ -165,7 +165,7 @@ class Wrapping a where
 wraps :: (forall c . (Template c, Forming c, Morphing c c, Rules c)
             => a c -> [b c]) -> Wrap a -> [Wrap b]
 
--- wraps f x = wrapx (map wrap . f)     -- ... not exactly
+-- wraps f x = unwraps (map wrap . f)     -- ... not exactly
 
 wraps f (WrapT y) = map wrap (f y)
 wraps f (WrapQ y) = map wrap (f y)
@@ -173,12 +173,12 @@ wraps f (WrapS y) = map wrap (f y)
 wraps f (WrapL y) = map wrap (f y)
 
 
-wrapx :: (forall c . (Template c, Show c) => a c -> b) -> Wrap a -> b
+unwraps :: (forall c . (Template c, Show c) => a c -> b) -> Wrap a -> b
 
-wrapx f (WrapT y) = (f y)
-wrapx f (WrapQ y) = (f y)
-wrapx f (WrapS y) = (f y)
-wrapx f (WrapL y) = (f y)
+unwraps f (WrapT y) = f y
+unwraps f (WrapQ y) = f y
+unwraps f (WrapS y) = f y
+unwraps f (WrapL y) = f y
 
 
 {-
@@ -441,7 +441,7 @@ inflectLookup l t = [ case i of WrapT x -> inflects x
 
 lookupLemma :: String -> Lexicon -> String
 
-lookupLemma w l = (unlines . concat) (map (wrapx (lookupLemma' w)) l)
+lookupLemma w l = (unlines . concat) (map (unwraps (lookupLemma' w)) l)
 
 lookupLemma' :: (Template a, Show a) => String -> Nest a -> [String]
 
