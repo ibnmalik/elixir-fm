@@ -537,8 +537,8 @@ data PatternT =
         |   MaFCUL                      |   MaFUL       |   MaFCIy
 
         |   FaCCAL
-        |   FiCCAL                      |   FICAL
-        |   FuCCAL                      |   FUCAL
+        |   FiCCAL      |   FICAL
+        |   FuCCAL      |   FUCAL
 
         |   FuCCaL
 
