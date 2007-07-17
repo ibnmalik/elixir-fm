@@ -650,6 +650,10 @@ instance Template a => Inflect ([Root], a) where
     inflect x = guessParadigm (concat (uncurry interlock x []))
 -}
 
+paraTriptote, paraDiptote, paraDual, paraMasculine, paraFeminine ::
+
+    Morphing a b => Case -> Definite -> Annexing -> a -> Morphs b
+
 
 paraTriptote c d a = case (c, d, a) of
 
