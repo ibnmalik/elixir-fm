@@ -399,9 +399,9 @@ countEach (WrapS l) = length (ents l)
 -}
 
 
-lookupRoot :: Root -> Lexicon -> [[Wrap Nest]]
+lookupRoot :: Root -> Lexicon -> [Wrap Nest]
 
-lookupRoot r l = [ wraps (\ x -> if root x == r then [x] else []) n | n <- l ]
+lookupRoot r l = concat [ wraps (\ x -> if root x == r then [x] else []) n | n <- l ]
 
 -- Would be so nice ... but HOW TO DO IT? ... thanks forall ^^
 --
