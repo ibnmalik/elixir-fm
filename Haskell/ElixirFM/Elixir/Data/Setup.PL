@@ -78,9 +78,9 @@ sub path ($) {
     chdir "./Lexicons";
 
 
-    system "perl -w ../../Lexicons.pl -d ../../include.dat ../Buckwalter/Lexicon*.pm";
+    system "perl -w ../../Lexicons.pl -i ../../include.dat ../Buckwalter/Lexicon*.pm";
 
-    system "perl -w ../../Lexicons.pl -d ../../include.dat -s 0 ../Buckwalter/Lexicon*.pm";
+    system "perl -w ../../Lexicons.pl -i ../../include.dat -s 0 ../Buckwalter/Lexicon*.pm";
 
 
     chdir "..";

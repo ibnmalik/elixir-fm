@@ -506,6 +506,9 @@ data PatternT =
         |   FCiL        |   CiL         |   FIL         |   FCI         |   FiCL        |   CI
         |   FCuL        |   CuL         |   FUL         |   FCU         |   FuCL        |   CU
 
+                                        |   FIy
+                                        |   FUw
+
                                         |   FaL                                         |   FY
                                         |   FiL                                         |   FI
                                         |   FuL                                         |   FU
@@ -518,10 +521,12 @@ data PatternT =
         |   FiCAL                                       |   FiCA'
         |   FuCAL                                       |   FuCA'
 
+                                        |   FiyAL       |   FiCAy
+
         |   FaCUL
         |   FuCUL
 
-        |   FaCIL
+        |   FaCIL                       |   FayyiL
         |   FuCIL
 
         |   FaCA'iL                                     |   FaCA'I
@@ -532,9 +537,9 @@ data PatternT =
 
         |   FiCLiyA'                    |   FILiyA'
 
-    {-- |   FACiL   --}                 |   FA'iL       |   FA'I
+    {-- |   FACiL   --}                 |   FA'iL                                       |   FA'I
 
-        |   MaFCUL                      |   MaFUL       |   MaFCIy
+        |   MaFCUL                      |   MaFUL       |   MaFCIL
 
         |   FaCCAL
         |   FiCCAL      |   FICAL
@@ -550,7 +555,7 @@ data PatternT =
 
         |   FACUL
 
-        |   FawACiL                     |   FawA'iL     |   FawACI
+        |   FawACiL                     |   FawA'iL     |   FawACI                      |   FawA'I
         |   FawACIL                     |   FawA'IL
 
         |   MaFCaL                      |   MaFAL       |   MaFCY       |   MaFaCL
@@ -562,6 +567,7 @@ data PatternT =
         |   MaFACIL                     |   MaFA'IL
 
         |   HaFCAL      |   HACAL                       |   HaFCA'                      |   HACA'
+                                        |   HAFAL                                       |   HAFA'
 
         |   HaFCiL      |   HACiL       |   HaFIL       |   HaFCI       |   HaFiCL      |   HACI
         |   HaFCuL      |   HACuL       |   HaFUL       |   HaFCU       |   HaFuCL      |   HACU
