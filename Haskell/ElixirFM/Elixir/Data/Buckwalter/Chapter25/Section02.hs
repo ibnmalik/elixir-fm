@@ -818,7 +818,8 @@ cluster_37  = listing "Lexicon's properties"
     FuCUL |< Iy               `adj`     {- nu$uw}iy~ -}        [ "evolutionist" ],
 
     MaFCaL                    `noun`    {- mano$aO -}          [ "source", "origin", "generation" ]
-                           {- `others`  [ "man^sa'A N-|", "man^sa N-|t" ] -},
+                              `plural`     MaFCaL |< At
+                           {- `others`  [ "man^sa'A N-|" ] -},
 
     TaFCIL                    `noun`    {- tano$iy' -}         [ "upbringing", "education" ]
                               `plural`     TaFCiL |< aT
@@ -843,7 +844,7 @@ cluster_37  = listing "Lexicon's properties"
     MuFCiL                    `noun`    {- muno$i} -}          [ "originator", "builder", "founder" ],
 
     MuFCaL |< aT              `noun`    {- muno$aOap -}        [ "establishment", "firm", "installations", "facilities" ]
-                           {- `others`  [ "mun^sa N-|t" ] -},
+                              `plural`     MuFCaL |< At,
 
     FaCAL                     `noun`    {- na$A' -}            [ "starch", "farina" ],
 

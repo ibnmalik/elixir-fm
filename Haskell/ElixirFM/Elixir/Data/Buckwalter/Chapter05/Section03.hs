@@ -529,7 +529,7 @@ cluster_50  = listing "Lexicon's properties"
                               `plural`     FuCY |< aT
                               `plural`     FACI |< At,
 
-    MaFCIy                    `adj`     {- majoniy~ -}         [ "victimized", "aggrieved" ] ]
+    MaFCIL                    `adj`     {- majoniy~ -}         [ "victimized", "aggrieved" ] ]
 
  |> "^g n z" <| [
 

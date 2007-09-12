@@ -33,9 +33,9 @@ cluster_1   = listing "Lexicon's properties"
  |> ".h ' .t" <| [
 
     FACiL                     `noun`    {- HA}iT -}            [ "wall" ]
+                              `plural`     FiyAL
                               `plural`     FILAn
-                              `plural`     FawACiL
-                           {- `others`  [ ".hiyA.t N" ] -},
+                              `plural`     FawACiL,
 
     FACiL |< Iy               `adj`     {- HA}iTiy~ -}         [ "wall" ] ]
 
@@ -618,9 +618,9 @@ cluster_12  = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- HaZiy~ap -}         [ "mistress", "paramour" ]
                               `plural`     FaCALY,
 
-    MaFCIy                    `adj`     {- maHoZiy~ -}         [ "favorite", "darling", "favored" ],
+    MaFCIL                    `adj`     {- maHoZiy~ -}         [ "favorite", "darling", "favored" ],
 
-    MaFCIy |< aT              `noun`    {- maHoZiy~ap -}       [ "mistress", "paramour" ] ]
+    MaFCIL |< aT              `noun`    {- maHoZiy~ap -}       [ "mistress", "paramour" ] ]
 
 
 cluster_13  = listing "Lexicon's properties"

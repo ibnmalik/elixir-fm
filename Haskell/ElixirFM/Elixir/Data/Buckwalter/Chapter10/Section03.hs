@@ -668,8 +668,9 @@ cluster_54  = listing "Lexicon's properties"
     FiCAL                     `noun`    {- rifA' -}            [ "harmony", "bliss" ],
 
     MaFCaL                    `noun`    {- marofaO -}          [ "port", "harbor", unwords [ "landing", "places" ] ]
+                              `plural`     MaFCaL |< At
                               `plural`     MaFACiL
-                           {- `others`  [ "marfa'A Ndip N-|", "marfa N-|t" ] -} ]
+                           {- `others`  [ "marfa'A Ndip N-|" ] -} ]
 
  |> "r f .d" <| [
 

@@ -277,7 +277,8 @@ cluster_5   = listing "Lexicon's properties"
 
     MaFCaL                    `noun`    {- malojaO -}          [ "shelter", "refuge" ]
                               `plural`     MaFACiL
-                           {- `others`  [ "mal^ga N-|t", "mal^ga'A N-|" ] -},
+                              `plural`     MaFCaL |< At
+                           {- `others`  [ "mal^ga'A N-|" ] -},
 
     FACiL                     `noun`    {- lAji} -}            [ "refugee", unwords [ "seeking", "refuge" ] ] ]
 
@@ -831,7 +832,6 @@ cluster_14  = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     FA'iL |< aT               `noun`    {- lA}iHap -}          [ "list", "table", "schedule" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL ]
 
  |> "l w _d" <| [
@@ -872,7 +872,6 @@ cluster_15  = listing "Lexicon's properties"
                            {- `others`  [ "luwwam N_L" ] -},
 
     FA'iL |< aT               `noun`    {- lA}imap -}          [ "blame", "censure" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL ]
 
  |> "l w n" <| [

@@ -48,10 +48,7 @@ cluster_21  = listing "Lexicon's properties"
                               `plural`     FawACI,
 
     MaFCUL                    `adj`     {- maHo$uw~ -}         [ "stuffed", "filled", "loaded", unwords [ "stuffed", "food" ] ]
-                              `plural`     MaFCUL |< At,
-
-    MaFCIy                    `adj`     {- maHo$iy~ -}         [ "stuffed", "filled", "loaded" ]
-                              `plural`     MaFACI ]
+                              `plural`     MaFCUL |< At ]
 
  |> ".h ^s y" <| [
 
@@ -64,7 +61,10 @@ cluster_21  = listing "Lexicon's properties"
                               `plural`     FaCALY,
 
     FACI |< aT                `noun`    {- HA$iyap -}          [ "margin", "edge", "retinue" ]
-                              `plural`     FawACI ]
+                              `plural`     FawACI,
+
+    MaFCIL                    `adj`     {- maHo$iy~ -}         [ "stuffed", "filled", "loaded" ]
+                              `plural`     MaFACI ]
 
 
 cluster_22  = listing "Lexicon's properties"
@@ -861,7 +861,9 @@ cluster_37  = listing "Lexicon's properties"
     FaCI                      `verb`    {- Hadiy-a -}          [ "remain", unwords [ "not", "move" ] ]
                               `imperf`     FCY,
 
-    FACI                      `noun`    {- HAdiy -}            [ "one" ] ]
+    FACI                      `noun`    {- HAdiy -}            [ "one" ],
+
+    FiCAy |< aT               `noun`    {- HidAyap -}          [ "kite" ] ]
 
  |> ".h d y" <| [
 

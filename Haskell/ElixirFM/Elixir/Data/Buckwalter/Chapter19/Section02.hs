@@ -468,7 +468,7 @@ cluster_31  = listing "Lexicon's properties"
 
     FaCCAL |< aT              `noun`    {- gal~Ayap -}         [ "kettle", "boiler" ],
 
-    MaFCIy                    `adj`     {- magoliy~ -}         [ "boiled", "broth" ],
+    MaFCIL                    `adj`     {- magoliy~ -}         [ "boiled", "broth" ],
 
     MiFCY |< aT               `noun`    {- migolAp -}          [ "boiler" ]
                               `plural`     MaFACI ]
@@ -723,7 +723,7 @@ cluster_36  = listing "Lexicon's properties"
 
     HiFCA' |< aT              `noun`    {- IigomA'ap -}        [ unwords [ "fainting", "spell" ] ],
 
-    MaFCIy                    `adj`     {- magomiy~ -}         [ "fainted", "unconscious" ],
+    MaFCIL                    `adj`     {- magomiy~ -}         [ "fainted", "unconscious" ],
 
     MuFCY                     `adj`     {- mugomaY -}          [ "fainted", "unconscious" ] ]
 

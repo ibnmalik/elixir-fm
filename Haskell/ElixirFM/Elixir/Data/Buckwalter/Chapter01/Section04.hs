@@ -746,15 +746,18 @@ cluster_73  = listing "Lexicon's properties"
     FaC                       `conj`    {- Oaw -}              [ "or" ],
 
     FiCAL                     `noun`    {- IiwA' -}            [ "sheltering", "harboring", "lodging" ]
-                              `plural`     FiCAL |< At,
+                              `plural`     FiCAL |< At
+                              `plural`     FiCA' |< At,
 
     FICAL                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
                               `plural`     FICAL |< At
-                              `plural`     HICAL |< At,
+                              `plural`     HICAL |< At
+                              `plural`     HICA' |< At,
 
     HICAL                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
                               `plural`     FICAL |< At
-                              `plural`     HICAL |< At ]
+                              `plural`     HICAL |< At
+                              `plural`     HICA' |< At ]
 
  |> "' w .d" <| [
 
@@ -802,6 +805,8 @@ cluster_74  = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- Oawobap -}          [ "return" ],
 
+    FiyAL                     `noun`    {- IiyAb -}            [ "return" ],
+
     FaCCAL                    `noun`    {- Oaw~Ab -}           [ "penitent" ],
 
     MaFAL                     `noun`    {- ma|b -}             [ "resort", unwords [ "resting", "place" ] ]
@@ -834,13 +839,13 @@ cluster_74  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- Oawad -}            [ "subsistence" ] ]
 
- |> "' w d b" <| [
-
-    KuRDIS                    `noun`    {- Ouwdiyb -}          [ "Oedipus" ] ]
-
 
 cluster_75  = listing "Lexicon's properties"
 
+
+ |> "' w d b" <| [
+
+    KuRDIS                    `noun`    {- Ouwdiyb -}          [ "Oedipus" ] ]
 
  |> "' w d m" <| [
 
@@ -902,6 +907,10 @@ cluster_76  = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- taOowiyl -}         [ "explanation", "interpretation" ]
                               `plural`     TaFCIL |< At,
 
+    FiyAL |< aT               `noun`    {- IiyAlap -}          [ "administration", "management" ],
+
+    FiyAL |< aT               `noun`    {- IiyAlap -}          [ "district" ],
+
     MaFAL                     `noun`    {- ma|l -}             [ "outcome", "result" ]
                               `plural`     MaFAL |< At,
 
@@ -938,13 +947,13 @@ cluster_76  = listing "Lexicon's properties"
 
     FaCLY |< Iy |< At         `noun`    {- Oawolawiy~At -}     [ "priorities" ] ]
 
- |> "' w l '" <| [
-
-    KuRDAS |<< "i"            `pron`    {- OuwlA'i -}          [ unwords [ "they", "/", "those" ] ] ]
-
 
 cluster_77  = listing "Lexicon's properties"
 
+
+ |> "' w l '" <| [
+
+    KuRDAS |<< "i"            `pron`    {- OuwlA'i -}          [ unwords [ "they", "/", "those" ] ] ]
 
  |> "' w l f" <| [
 

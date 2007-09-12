@@ -434,7 +434,7 @@ cluster_9   = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- xiSA' -}            [ "castration" ],
 
-    MaFCIy                    `adj`     {- maxoSiy~ -}         [ "castrated", "emasculated" ] ]
+    MaFCIL                    `adj`     {- maxoSiy~ -}         [ "castrated", "emasculated" ] ]
 
 
 cluster_10  = listing "Lexicon's properties"

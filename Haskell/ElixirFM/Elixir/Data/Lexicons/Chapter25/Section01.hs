@@ -627,7 +627,8 @@ cluster_11  = listing "Lexicon's properties"
     FuCUL                     `noun`    {- nu$uw' -}           [ "growth", "development", "evolution" ],
 
     MaFCaL                    `noun`    {- mano$aO -}          [ "source", "origin", "generation" ]
-                           {- `others`  [ "man^sa'A N-|", "man^sa N-|t" ] -},
+                              `plural`     MaFCaL |< At
+                           {- `others`  [ "man^sa'A N-|" ] -},
 
     HiFCAL                    `noun`    {- Iino$A' -}          [ "establishing", unwords [ "setting", "up" ], "founding" ],
 
@@ -644,7 +645,7 @@ cluster_11  = listing "Lexicon's properties"
     FACiL                     `noun`    {- nA$i} -}            [ "youth", unwords [ "rising", "generation" ] ],
 
     MuFCaL |< aT              `noun`    {- muno$aOap -}        [ "establishment", "firm", "installations", "facilities" ]
-                           {- `others`  [ "mun^sa N-|t" ] -} ]
+                              `plural`     MuFCaL |< At ]
 
 
 cluster_12  = listing "Lexicon's properties"

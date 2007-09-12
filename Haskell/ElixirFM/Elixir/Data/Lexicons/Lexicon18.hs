@@ -1812,7 +1812,7 @@ cluster_34  = listing "Lexicon's properties"
     MuFACY |< aT              `noun`    {- muEAnAp -}          [ "hardship", "suffering", "effort" ]
                               `plural`     MuFACY |< At,
 
-    MaFCIy                    `adj`     {- maEoniy~ -}         [ "concerned", "affected", "interested" ],
+    MaFCIL                    `adj`     {- maEoniy~ -}         [ "concerned", "affected", "interested" ],
 
     MaFCY |< Iy               `adj`     {- maEonawiy~ -}       [ "moral", "spiritual", "morale", "spirits", "morally", "spiritually" ],
 
@@ -2469,10 +2469,14 @@ cluster_46  = listing "Lexicon's properties"
     FAL |< aT                 `adv`     {- EAdap -}            [ "habit", "custom", "practice", "usually", "taxes", "charges" ]
                               `plural`     FAL |< At
                               `plural`     FaCA'iL
-                              `plural`     FawA'iL
                            {- `others`  [ "`AdaTaN FW-Wa" ] -},
 
     FAL |< Iy                 `adj`     {- EAdiy~ -}           [ "ordinary", "regular", "normal" ],
+
+    FiyAL |< aT               `noun`    {- EiyAdap -}          [ "clinic", unwords [ "outpatient", "clinic" ] ]
+                              `plural`     FiyAL |< At,
+
+    FiyAL |< aT               `noun`    {- EiyAdap -}          [ "visit", "consultation" ],
 
     MuFACaL |< aT             `noun`    {- muEAwadap -}        [ "reiteration", "repetition" ],
 
@@ -2491,7 +2495,6 @@ cluster_46  = listing "Lexicon's properties"
                               `plural`     FA'iL |< At,
 
     FA'iL |< aT               `noun`    {- EA}idap -}          [ "profit", "revenues", "royalties" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MuFIL                     `noun`    {- muEiyd -}           [ "tutor", "lecturer" ],
@@ -2520,7 +2523,6 @@ cluster_47  = listing "Lexicon's properties"
 
     FA'iL |< aT               `noun`    {- EA}ilap -}          [ "family", "household" ]
                               `plural`     FA'iL |< At
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     FA'iL |< Iy               `adj`     {- EA}iliy~ -}         [ "family", "domestic" ] ]
@@ -2602,7 +2604,6 @@ cluster_49  = listing "Lexicon's properties"
     HiFAL |< aT               `noun`    {- IiEAqap -}          [ "hindering", "impeding" ],
 
     FA'iL                     `noun`    {- EA}iq -}            [ "obstacle", "impediment" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MuFaCCiL                  `noun`    {- muEaw~iq -}         [ "obstacles", "impediments" ]

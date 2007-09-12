@@ -810,6 +810,10 @@ cluster_76  = listing "Lexicon's properties"
     FaCLAn                    `noun`    {- mawotAn -}          [ "dying", "epidemic" ]
                               `plural`     FULAn,
 
+    FayyiL                    `noun`    {- may~it -}           [ "dead", "lifeless", "inanimate" ]
+                              `plural`     HaFCAL
+                              `plural`     FaCLY,
+
     FIL |< aT                 `noun`    {- miytap -}           [ "death" ],
 
     HiFAL |< aT               `noun`    {- IimAtap -}          [ "mortification", "killing" ],
@@ -846,14 +850,14 @@ cluster_76  = listing "Lexicon's properties"
     FILAn                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -} ]
 
+
+cluster_77  = listing "Lexicon's properties"
+
+
  |> "m y .g n" <| [
 
     KiRDAS                    `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -} ]
-
-
-cluster_77  = listing "Lexicon's properties"
-
 
  |> "m y .h" <| [
 

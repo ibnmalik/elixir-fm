@@ -67,7 +67,8 @@ cluster_102 = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- rawiy~ap -}         [ "deliberation", "reflection", "consideration" ],
 
     FiCAL |< aT               `noun`    {- riwAyap -}          [ "story", "novel" ]
-                              `plural`     FiCAL |< At,
+                              `plural`     FiCAL |< At
+                              `plural`     FiCAy |< At,
 
     FiCAL |< aT               `noun`    {- riwAyap -}          [ "report", "account" ],
 
@@ -87,8 +88,8 @@ cluster_102 = listing "Lexicon's properties"
                               `plural`     FaCALY
                               `plural`     FuCY |< aT,
 
-    MaFCIy |< At              `noun`    {- marowiy~At -}       [ "tales", "stories", "reports" ]
-                              `plural`     MaFCIy |< At ]
+    MaFCIL |< At              `noun`    {- marowiy~At -}       [ "tales", "stories", "reports" ]
+                              `plural`     MaFCIL |< At ]
 
  |> "r w y l" <| [
 
@@ -157,8 +158,7 @@ cluster_104 = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     IFtiCAL                   `noun`    {- AirotiyAH -}        [ "rest", "contentment", "satisfaction" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     MuFIL                     `adj`     {- muriyH -}           [ "soothing", "restful", "comfortable" ],
 
@@ -210,8 +210,7 @@ cluster_105 = listing "Lexicon's properties"
  |> "r y `" <| [
 
     IFtiCAL                   `noun`    {- AirotiyAE -}        [ "alarm", "shock" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     MuFIL                     `adj`     {- muriyE -}           [ "dreadful", "terrible" ],
 
@@ -260,8 +259,7 @@ cluster_106 = listing "Lexicon's properties"
     HaFCaL                    `noun`    {- Oaroyab -}          [ unwords [ "more", "/", "most", "skeptical" ] ],
 
     IFtiCAL                   `noun`    {- AirotiyAb -}        [ "doubt", "suspicion" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     MuFIL                     `adj`     {- muriyb -}           [ "suspicious", "doubtful" ],
 
@@ -276,8 +274,7 @@ cluster_106 = listing "Lexicon's properties"
  |> "r y d" <| [
 
     IFtiCAL                   `noun`    {- AirotiyAd -}        [ "exploration", "visit" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     MuFIL                     `noun`    {- muriyd -}           [ "desiring", "follower", "aspirant" ] ]
 

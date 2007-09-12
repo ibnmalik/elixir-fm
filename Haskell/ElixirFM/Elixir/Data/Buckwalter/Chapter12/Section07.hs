@@ -12,6 +12,84 @@ lexicon = include section
 cluster_121 = listing "Lexicon's properties"
 
 
+ |> "sindiyAn" <| [
+
+    Identity                  `noun`    {- sinodiyAn -}        [ unwords [ "evergreen", "oak" ] ],
+
+    Identity |< Iy            `adj`     {- sinodiyAniy~ -}     [ unwords [ "oak", "-", "like" ] ] ]
+
+ |> "sini.gAl" <| [
+
+    Identity                  `noun`    {- sinigAl -}          [ "" {- "Senegal" -} ],
+
+    Identity |< Iy            `adj`     {- sinigAliy~ -}       [ "" {- "Senegalese" -} ] ]
+
+ |> "sinimmAr" <| [
+
+    Identity                  `noun`    {- sinim~Ar -}         [ unwords [ "" {- "Sinimmar" -}, "(", "legendary", "architect", ")" ] ] ]
+
+ |> "sinnawr" <| [
+
+    Identity                  `noun`    {- sin~awor -}         [ "cat" ] ]
+
+ |> "sirfAntis" <| [
+
+    Identity                  `noun`    {- sirofAnotis -}      [ "" {- "Cervantes" -} ] ]
+
+ |> "sittUn" <| [
+
+    Identity |< Iy            `adj`     {- sit~uwniy~ -}       [ "sexagenarian" ] ]
+
+ |> "sittmA'" <| [
+
+    Identity |< aT            `noun`    {- sit~mA}ap -}        [ unwords [ "six", "-", "hundred" ] ] ]
+
+ |> "siyAtil" <| [
+
+    Identity                  `noun`    {- siyAtil -}          [ "" {- "Seattle" -} ] ]
+
+ |> "siyUl" <| [
+
+    Identity                  `noun`    {- siyuwl -}           [ "" {- "Seoul" -} ] ]
+
+ |> "sizmU.grAf" <| [
+
+    Identity                  `noun`    {- sizomuwgrAf -}      [ "seismograph" ],
+
+    Identity |< Iy            `adj`     {- sizomuwgrAfiy~ -}   [ "seismographic" ] ]
+
+ |> "skArbUrUh" <| [
+
+    Identity                  `noun`    {- skArobuwruwh -}     [ "" {- "Scarborough" -} ] ]
+
+ |> "skIlArI" <| [
+
+    Identity                  `noun`    {- skiylAriy -}        [ "" {- "Squillari" -} ] ]
+
+ |> "skIt" <| [
+
+    Identity                  `noun`    {- skiyt -}            [ unwords [ "skeet", "(", "shooting", "at", "clay", "targets", ")" ] ] ]
+
+ |> "skIzUfrIn" <| [
+
+    Identity |< Iy            `adj`     {- skiyzuwfriyniy~ -}  [ "schizophrenic" ] ]
+
+ |> "skIzUfrIniyA" <| [
+
+    Identity                  `noun`    {- skiyzuwfriyniyA -}  [ "schizophrenia" ] ]
+
+ |> "skUblAr" <| [
+
+    Identity                  `noun`    {- skuwbolAr -}        [ "" {- "Skoblar" -} ] ]
+
+ |> "skUd" <| [
+
+    Identity                  `noun`    {- skuwd -}            [ "" {- "Scud" -} ] ]
+
+
+cluster_122 = listing "Lexicon's properties"
+
+
  |> "skUt" <| [
 
     Identity                  `noun`    {- skuwt -}            [ "" {- "Scott" -} ] ]
@@ -89,7 +167,7 @@ cluster_121 = listing "Lexicon's properties"
     Identity                  `noun`    {- sriynogAr -}        [ "" {- "Sringhar" -} ] ]
 
 
-cluster_122 = listing "Lexicon's properties"
+cluster_123 = listing "Lexicon's properties"
 
 
  |> "stArz" <| [
@@ -167,7 +245,7 @@ cluster_122 = listing "Lexicon's properties"
     Identity                  `adj`     {- sulATiH -}          [ "wide" ] ]
 
 
-cluster_123 = listing "Lexicon's properties"
+cluster_124 = listing "Lexicon's properties"
 
 
  |> "sula.hfA'" <| [
@@ -243,7 +321,7 @@ cluster_123 = listing "Lexicon's properties"
     Identity                  `noun`    {- suwayolim -}        [ "" {- "Suweilem" -}, "" {- "Suwailim" -} ] ]
 
 
-cluster_124 = listing "Lexicon's properties"
+cluster_125 = listing "Lexicon's properties"
 
 
  |> "swIrIs" <| [
@@ -262,5 +340,6 @@ cluster_124 = listing "Lexicon's properties"
 section = [ cluster_121,
             cluster_122,
             cluster_123,
-            cluster_124 ]
+            cluster_124,
+            cluster_125 ]
 

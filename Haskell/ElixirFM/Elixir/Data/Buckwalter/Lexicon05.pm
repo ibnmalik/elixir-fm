@@ -2404,7 +2404,6 @@ $Lexicon = {
       ],
       'patterns' => {
         '^gawA\'iz' => [
-          'FaCA\'iL',
           'FawA\'iL'
         ]
       },
@@ -2956,8 +2955,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'i^gtiyA.h' => [
-          'IFtiCAL',
-          'IFtiyAL'
+          'IFtiCAL'
         ]
       },
       'index' => '1',
@@ -3703,7 +3701,6 @@ $Lexicon = {
       ],
       'patterns' => {
         '^gawA\'i.h' => [
-          'FaCA\'iL',
           'FawA\'iL'
         ]
       },
@@ -12735,6 +12732,36 @@ $Lexicon = {
         'high quality'
       ],
       'orig' => 'juwdap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '^giyAd' => {
+          'N' => 1
+        }
+      },
+      'entry' => '^gayyid',
+      'form' => '^gayyid',
+      'lines' => [
+        ';; jay~id_1',
+        'jyd     jay~id  Nall    good     [[jay~id/ADJ]]',
+        'jyd     jay~id  NF      well     [[jay~id/ADV]]',
+        'jyAd    jiyAd   N       good'
+      ],
+      'patterns' => {
+        '^giyAd' => [
+          'FiyAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FayyiL',
+      'suffix' => '',
+      'glosses' => [
+        'good',
+        'well'
+      ],
+      'orig' => 'jay~id',
       'prefix' => ''
     },
     {
@@ -23359,7 +23386,9 @@ $Lexicon = {
         '^gaw`Y' => [
           'FaCLY'
         ],
-        '^giyA`' => [],
+        '^giyA`' => [
+          'FiyAL'
+        ],
         '^gaw`A' => []
       },
       'index' => '1',
@@ -25688,19 +25717,10 @@ $Lexicon = {
   ],
   '^g y d' => [
     {
-      'types' => {
-        '^giyAd' => {
-          'N' => 1
-        }
-      },
+      'types' => {},
       'entry' => '^gayyid',
       'form' => '^gayyid',
-      'lines' => [
-        ';; jay~id_1',
-        'jyd     jay~id  Nall    good     [[jay~id/ADJ]]',
-        'jyd     jay~id  NF      well     [[jay~id/ADV]]',
-        'jyAd    jiyAd   N       good'
-      ],
+      'lines' => [],
       'patterns' => {
         '^giyAd' => [
           'FiCAL'
@@ -25710,10 +25730,7 @@ $Lexicon = {
       'entity' => 'adj',
       'morphs' => 'FaCCiL',
       'suffix' => '',
-      'glosses' => [
-        'good',
-        'well'
-      ],
+      'glosses' => [],
       'orig' => 'jay~id',
       'prefix' => ''
     },
@@ -28052,7 +28069,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'MaFCIy',
+      'morphs' => 'MaFCIL',
       'suffix' => '',
       'glosses' => [
         'victimized',
@@ -37333,8 +37350,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '^gawA\'i.t' => [
-          'FaCA\'iL',
-          'FawA\'iL'
+          'FaCA\'iL'
         ]
       },
       'index' => '1',
@@ -39271,8 +39287,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'i^gtiyAz' => [
-          'IFtiCAL',
-          'IFtiyAL'
+          'IFtiCAL'
         ]
       },
       'index' => '1',
@@ -40441,9 +40456,12 @@ $Lexicon->{'^g s d'}[4]{'glosses'} = $Lexicon->{'^g s d n'}[0]{'glosses'};
 $Lexicon->{'^g s d'}[5]{'types'} = $Lexicon->{'^g s d n'}[1]{'types'};
 $Lexicon->{'^g s d'}[5]{'lines'} = $Lexicon->{'^g s d n'}[1]{'lines'};
 $Lexicon->{'^g s d'}[5]{'glosses'} = $Lexicon->{'^g s d n'}[1]{'glosses'};
-$Lexicon->{'^g y d'}[1]{'types'} = $Lexicon->{'^g w d'}[10]{'types'};
-$Lexicon->{'^g y d'}[1]{'lines'} = $Lexicon->{'^g w d'}[10]{'lines'};
-$Lexicon->{'^g y d'}[1]{'glosses'} = $Lexicon->{'^g w d'}[10]{'glosses'};
+$Lexicon->{'^g y d'}[0]{'types'} = $Lexicon->{'^g w d'}[4]{'types'};
+$Lexicon->{'^g y d'}[0]{'lines'} = $Lexicon->{'^g w d'}[4]{'lines'};
+$Lexicon->{'^g y d'}[0]{'glosses'} = $Lexicon->{'^g w d'}[4]{'glosses'};
+$Lexicon->{'^g y d'}[1]{'types'} = $Lexicon->{'^g w d'}[11]{'types'};
+$Lexicon->{'^g y d'}[1]{'lines'} = $Lexicon->{'^g w d'}[11]{'lines'};
+$Lexicon->{'^g y d'}[1]{'glosses'} = $Lexicon->{'^g w d'}[11]{'glosses'};
 $Lexicon->{'^g \' .h'}[0]{'types'} = $Lexicon->{'^g w .h'}[5]{'types'};
 $Lexicon->{'^g \' .h'}[0]{'lines'} = $Lexicon->{'^g w .h'}[5]{'lines'};
 $Lexicon->{'^g \' .h'}[0]{'glosses'} = $Lexicon->{'^g w .h'}[5]{'glosses'};

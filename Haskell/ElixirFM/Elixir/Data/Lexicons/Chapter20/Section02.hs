@@ -403,8 +403,7 @@ cluster_27  = listing "Lexicon's properties"
                               `plural`     HaFCAL,
 
     FUL |< aT                 `noun`    {- fuwhap -}           [ "mouth", "aperture" ]
-                              `plural`     FaCA'iL
-                              `plural`     FawA'iL,
+                              `plural`     FaCA'iL,
 
     MuFaCCaL                  `adj`     {- mufaw~ah -}         [ "eloquent" ] ]
 

@@ -839,7 +839,7 @@ cluster_15  = listing "Lexicon's properties"
     TaFCiL |< aT              `noun`    {- tawoTi}ap -}        [ unwords [ "preliminary", "step" ], unwords [ "paving", "the", "way" ], "lowering" ],
 
     MuFACaL |< aT             `noun`    {- muwATaOap -}        [ "agreement", "collusion" ]
-                           {- `others`  [ "muwA.ta N-|t" ] -},
+                              `plural`     MuFACaL |< At,
 
     TaFACuL                   `noun`    {- tawATuW -}          [ "connivance", "collusion" ]
                               `plural`     TaFACuL |< At,

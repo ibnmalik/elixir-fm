@@ -29,7 +29,6 @@ cluster_41  = listing "Lexicon's properties"
     FA'iL                     `adj`     {- TA}iH -}            [ "lost", "stray", "loose" ],
 
     FA'iL |< aT               `noun`    {- TA}iHap -}          [ "accident", "adversity", "fate" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MuFaCCiL |< aT            `noun`    {- muTaw~iHap -}       [ "adventure" ] ]
@@ -74,6 +73,8 @@ cluster_42  = listing "Lexicon's properties"
 
     FaCL |< Iy |< aN          `adv`     {- TawoEiy~AF -}       [ "voluntarily" ]
                            {- `others`  [ ".taw`iyy NF" ] -},
+
+    FayyiL                    `adj`     {- Tay~iE -}           [ "compliant" ],
 
     FaCAL |< Iy |< aT         `noun`    {- TawAEiy~ap -}       [ "voluntariness" ],
 
@@ -192,7 +193,6 @@ cluster_44  = listing "Lexicon's properties"
     FA'iL                     `adj`     {- TA}if -}            [ "ambulant", "itinerant", unwords [ "on", "patrol" ] ],
 
     FA'iL |< aT               `noun`    {- TA}ifap -}          [ "sect", "party", "faction" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     FA'iL |< Iy               `adj`     {- TA}ifiy~ -}         [ "sectarian", "factional", "sectarianism", "factionalism" ],
@@ -395,6 +395,8 @@ cluster_48  = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- Tawiy~ap -}         [ "intention", "conviction", "interior", unwords [ "insides", "(", "of", ")" ] ]
                               `plural`     FaCALY,
 
+    FIy |< aT                 `noun`    {- Tiy~ap -}           [ "intention", "design" ],
+
     FIL |< aT                 `noun`    {- Tiy~ap -}           [ "intention", "design" ],
 
     MaFCY                     `noun`    {- maTowaY -}          [ unwords [ "pocket", "knife" ], "pleat", "inside", "within" ]
@@ -410,7 +412,7 @@ cluster_48  = listing "Lexicon's properties"
     FACI                      `adj`     {- TAwiy -}            [ "starved", "emaciated" ]
                               `plural`     FACI |< At,
 
-    MaFCIy                    `adj`     {- maTowiy~ -}         [ "containing", "harboring" ],
+    MaFCIL                    `adj`     {- maTowiy~ -}         [ "containing", "harboring" ],
 
     MunFaCI                   `noun`    {- munoTawiy -}        [ "withdrawn", "introverted" ]
                               `plural`     MunFaCI |< At,

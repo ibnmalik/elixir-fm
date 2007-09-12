@@ -757,7 +757,11 @@ cluster_15  = listing "Lexicon's properties"
 
     FuCAL |< aT               `noun`    {- \*uwAbap -}         [ "lock", "strand", "tuft" ],
 
-    FaCaLAn                   `noun`    {- \*awabAn -}         [ "dissolution", "liquefaction", "melting" ] ]
+    FaCaLAn                   `noun`    {- \*awabAn -}         [ "dissolution", "liquefaction", "melting" ],
+
+    FiyAL                     `noun`    {- \*iyAb -}           [ "Dhiab" ],
+
+    FiyAL |< At               `noun`    {- \*iyAbAt -}         [ "Ziabat" ] ]
 
  |> "_d w d" <| [
 
@@ -766,6 +770,8 @@ cluster_15  = listing "Lexicon's properties"
                               `pfirst`     FuL,
 
     FaCL                      `noun`    {- \*awod -}           [ "defense", "protection" ],
+
+    FiyAL                     `noun`    {- \*iyAd -}           [ "defense", "protection" ],
 
     FA'iL                     `noun`    {- \*A}id -}           [ "protector", "defender" ]
                               `plural`     FAL |< aT,

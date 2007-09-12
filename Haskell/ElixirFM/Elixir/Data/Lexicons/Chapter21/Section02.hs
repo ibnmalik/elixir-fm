@@ -740,6 +740,10 @@ cluster_34  = listing "Lexicon's properties"
     FAL |< aT                 `noun`    {- qAEap -}            [ "hall", "corridor", unwords [ "large", "room" ] ]
                               `plural`     FAL |< At ]
 
+
+cluster_35  = listing "Lexicon's properties"
+
+
  |> "q w d" <| [
 
     FAL                       `verb`    {- qAd-u -}            [ "lead", "guide" ]
@@ -750,6 +754,14 @@ cluster_34  = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL,
 
+    FiyAL |< aT               `noun`    {- qiyAdap -}          [ "leadership", "command" ],
+
+    FiyAL |< aT               `noun`    {- qiyAdap -}          [ "leaders", "commanders" ],
+
+    FiyAL |< Iy               `adj`     {- qiyAdiy~ -}         [ "leading", "guiding", "commanding" ],
+
+    FiyAL |< Iy               `noun`    {- qiyAdiy~ -}         [ "leader", "commander" ],
+
     FA'iL                     `noun`    {- qA}id -}            [ "leader", "commander" ]
                               `plural`     FAL |< aT
                               `plural`     FUCAL
@@ -757,10 +769,6 @@ cluster_34  = listing "Lexicon's properties"
 
     FA'iL                     `noun`    {- qA}id -}            [ "driver", "chauffeur" ]
                               `plural`     FUCAL ]
-
-
-cluster_35  = listing "Lexicon's properties"
-
 
  |> "q w l" <| [
 
@@ -816,9 +824,15 @@ cluster_36  = listing "Lexicon's properties"
     FIL |< aT                 `noun`    {- qiymap -}           [ "amount", "quantity" ]
                            {- `others`  [ "qiyam N" ] -},
 
+    FayyiL                    `noun`    {- qay~im -}           [ "valuable" ],
+
     FiCAL                     `noun`    {- qiwAm -}            [ "support", "sustenance", "livelihood" ],
 
     FaCCAL                    `noun`    {- qaw~Am -}           [ "manager", "guardian" ],
+
+    FiyAL                     `noun`    {- qiyAm -}            [ "undertaking", unwords [ "carrying", "out" ] ],
+
+    FiyAL |< aT               `noun`    {- qiyAmap -}          [ "resurrection" ],
 
     MaFAL                     `noun`    {- maqAm -}            [ "place", "location", "situation" ]
                               `plural`     MaFAL |< At,
@@ -844,7 +858,6 @@ cluster_36  = listing "Lexicon's properties"
     FA'iL |< aT               `noun`    {- qA}imap -}          [ "support", "base" ],
 
     FA'iL |< aT               `noun`    {- qA}imap -}          [ "list", "index" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL
                               `plural`     FA'iL |< At,
 
@@ -912,6 +925,10 @@ cluster_37  = listing "Lexicon's properties"
     HaFCY                     `verb`    {- OaqowaY -}          [ unwords [ "be", "desolate" ] ],
 
     IstaFCY                   `verb`    {- AisotaqowaY -}      [ unwords [ "become", "strong" ], unwords [ "be", "strengthened" ] ],
+
+    FUw |< aT                 `noun`    {- quw~ap -}           [ "power", "strength", unwords [ "armed", "forces" ] ]
+                              `plural`     FuCY
+                              `plural`     FUw |< At,
 
     FaCIL                     `adj`     {- qawiy~ -}           [ "strong", "powerful" ]
                               `plural`     HaFCiLA',

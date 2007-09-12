@@ -100,11 +100,11 @@ cluster_22  = listing "Lexicon's properties"
 
     FACI                      `noun`    {- hAdiy -}            [ "Hadi" ],
 
-    MaFCIy                    `noun`    {- mahodiy~ -}         [ "Mahdi" ],
+    MaFCIL                    `noun`    {- mahodiy~ -}         [ "Mahdi" ],
 
-    MaFCIy                    `adj`     {- mahodiy~ -}         [ unwords [ "rightly", "guided" ] ],
+    MaFCIL                    `adj`     {- mahodiy~ -}         [ unwords [ "rightly", "guided" ] ],
 
-    MaFCIy                    `adj`     {- mahodiy~ -}         [ "presented", "given" ],
+    MaFCIL                    `adj`     {- mahodiy~ -}         [ "presented", "given" ],
 
     MuFCY                     `noun`    {- muhodaY -}          [ "donated", unwords [ "given", "as", "a", "gift" ] ]
                               `plural`     MuFCY |< At,

@@ -777,7 +777,7 @@ cluster_75  = listing "Lexicon's properties"
 
     FACI                      `noun`    {- rAmiy -}            [ "Sagittarius" ],
 
-    MaFCIy                    `adj`     {- maromiy~ -}         [ "thrown", "discarded" ],
+    MaFCIL                    `adj`     {- maromiy~ -}         [ "thrown", "discarded" ],
 
     MutaFACI                  `adj`     {- mutarAmiy -}        [ "wide", "extensive" ]
                               `plural`     MutaFACI |< At ]

@@ -234,7 +234,6 @@ cluster_104 = listing "Lexicon's properties"
     FAL |< aT                 `noun`    {- bAqap -}            [ "bouquet" ],
 
     FA'iL |< aT               `noun`    {- bA}iqap -}          [ "misfortune" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL ]
 
  |> "b w q l" <| [
@@ -477,8 +476,7 @@ cluster_109 = listing "Lexicon's properties"
     MuFACaL |< aT             `noun`    {- mubAyaEap -}        [ "allegiance", "transaction" ],
 
     IFtiCAL                   `noun`    {- AibotiyAE -}        [ "purchase" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     FA'iL                     `noun`    {- bA}iE -}            [ "vendor", "merchant" ],
 

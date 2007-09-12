@@ -1065,9 +1065,7 @@ cluster_59  = listing "Lexicon's properties"
     MiFCY                     `noun`    {- miqolaY -}          [ unwords [ "frying", "pan" ] ]
                               `plural`     MaFACI,
 
-    TaFCI |< aT               `noun`    {- taqoliyap -}        [ "alkalization" ],
-
-    MaFCIy                    `adj`     {- maqoliy~ -}         [ "fried" ] ]
+    TaFCI |< aT               `noun`    {- taqoliyap -}        [ "alkalization" ] ]
 
  |> "q l w .z" <| [
 
@@ -1075,14 +1073,14 @@ cluster_59  = listing "Lexicon's properties"
 
     MuKaRDaS                  `adj`     {- muqalowaZ -}        [ "spiral", "helical" ] ]
 
-
-cluster_60  = listing "Lexicon's properties"
-
-
  |> "q l w y" <| [
 
     KiRDIS                    `adj`     {- qilowiy~ -}         [ "alkaline", "bases" ]
                               `plural`     KiRDIS |< At ]
+
+
+cluster_60  = listing "Lexicon's properties"
+
 
  |> "q l w z" <| [
 
@@ -1098,6 +1096,8 @@ cluster_60  = listing "Lexicon's properties"
     FaCCAL |< aT              `noun`    {- qal~Ayap -}         [ unwords [ "frying", "pan" ] ],
 
     TaFCI |< aT               `noun`    {- taqoliyap -}        [ "alkalization" ],
+
+    MaFCIL                    `adj`     {- maqoliy~ -}         [ "fried" ],
 
     FiCCIL |< aT              `noun`    {- qil~iy~ap -}        [ unwords [ "monk's", "cell" ], unwords [ "bishop's", "residence" ], unwords [ "monks'", "cells" ] ]
                               `plural`     FaCACI

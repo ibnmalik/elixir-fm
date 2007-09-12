@@ -2398,6 +2398,8 @@ cluster_46  = listing "Lexicon's properties"
 
     FaCY |< aT                `noun`    {- \$akAp -}           [ "complaint", "grievance" ],
 
+    FiCAy |< aT               `noun`    {- \$ikAyap -}         [ "complaint", "grievance" ],
+
     FACI                      `adj`     {- \$Akiy -}           [ "complaining" ]
                               `plural`     FACI |< At,
 
@@ -4189,7 +4191,6 @@ cluster_79  = listing "Lexicon's properties"
                               `plural`     HaFCAL,
 
     FA'iL |< aT               `noun`    {- \$A}ibap -}         [ "defect", "impurity" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MaFUL                     `adj`     {- ma$uwb -}           [ "mixed", "impure", "altered" ] ]
@@ -4357,6 +4358,8 @@ cluster_83  = listing "Lexicon's properties"
     FaCL                      `noun`    {- \$awoq -}           [ "desire", "wish" ]
                               `plural`     HaFCAL,
 
+    FayyiL                    `adj`     {- \$ay~iq -}          [ "desirous", "thrilling" ],
+
     TaFCIL                    `noun`    {- ta$owiyq -}         [ "excitation", "suspense" ]
                               `plural`     TaFCIL |< At,
 
@@ -4474,8 +4477,8 @@ cluster_85  = listing "Lexicon's properties"
     MiFCY |< aT               `noun`    {- mi$owAp -}          [ "grill", "gridiron" ]
                               `plural`     MaFACI,
 
-    MaFCIy                    `adj`     {- ma$owiy~ -}         [ "roasted", "broiled", unwords [ "grilled", "food" ] ]
-                              `plural`     MaFCIy |< At,
+    MaFCIL                    `adj`     {- ma$owiy~ -}         [ "roasted", "broiled", unwords [ "grilled", "food" ] ]
+                              `plural`     MaFCIL |< At,
 
     FuCayL |< aT              `noun`    {- \$uway~ap -}        [ unwords [ "a", "little", "bit" ] ] ]
 
@@ -4492,6 +4495,7 @@ cluster_86  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- \$ayo' -}           [ "something", "things" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                               `plural`     FaL,
 
     lA >| FaCL                `noun`    {- lA$ayo' -}          [ "nothingness", "nonexistence" ],
@@ -4828,8 +4832,7 @@ cluster_92  = listing "Lexicon's properties"
     FaCCiL                    `adj`     {- \$ay~iq -}          [ "desirous", "thrilling" ],
 
     IFtiCAL                   `noun`    {- Ai$otiyAq -}        [ "desire", "craving" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At ]
+                              `plural`     IFtiCAL |< At ]
 
  |> "^s y q l" <| [
 

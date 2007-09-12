@@ -2636,7 +2636,7 @@ cluster_50  = listing "Lexicon's properties"
                               `plural`     FuCY |< aT
                               `plural`     FACI |< At,
 
-    MaFCIy                    `adj`     {- majoniy~ -}         [ "victimized", "aggrieved" ] ]
+    MaFCIL                    `adj`     {- majoniy~ -}         [ "victimized", "aggrieved" ] ]
 
  |> "^g n z" <| [
 
@@ -3373,14 +3373,12 @@ cluster_65  = listing "Lexicon's properties"
     FA'iL                     `adj`     {- jA}iH -}            [ "disastrous", "devastating" ],
 
     FA'iL |< aT               `noun`    {- jA}iHap -}          [ "calamity", "catastrophe" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL ]
 
  |> "^g w .t" <| [
 
     FaCIL |< aT               `noun`    {- jawiyTap -}         [ "dowel", "peg" ]
-                              `plural`     FaCA'iL
-                              `plural`     FawA'iL ]
+                              `plural`     FaCA'iL ]
 
  |> "^g w _h" <| [
 
@@ -3403,7 +3401,7 @@ cluster_65  = listing "Lexicon's properties"
 
     FaCLAn                    `noun`    {- jawoEAn -}          [ "hungry", "starving" ]
                               `plural`     FaCLY
-                           {- `others`  [ "^giyA` N" ] -},
+                              `plural`     FiyAL,
 
     MaFAL |< aT               `noun`    {- majAEap -}          [ "famine", "starvation" ],
 
@@ -3484,6 +3482,9 @@ cluster_67  = listing "Lexicon's properties"
 
     FUL |< aT                 `noun`    {- juwdap -}           [ "excellence", unwords [ "high", "quality" ] ],
 
+    FayyiL                    `adj`     {- jay~id -}           [ "good", "well" ]
+                              `plural`     FiyAL,
+
     FaCAL                     `noun`    {- jawAd -}            [ "Jawad" ],
 
     FaCAL                     `adj`     {- jawAd -}            [ "generous", "liberal" ]
@@ -3516,6 +3517,10 @@ cluster_67  = listing "Lexicon's properties"
     KuRDU                     `noun`    {- juwduw -}           [ "judo" ]
                            {- `others`  [ "^guwdw N0" ] -} ]
 
+
+cluster_68  = listing "Lexicon's properties"
+
+
  |> "^g w f" <| [
 
     FaCCaL                    `verb`    {- jaw~af -}           [ unwords [ "make", "hollow" ], unwords [ "hollow", "out" ] ],
@@ -3534,10 +3539,6 @@ cluster_67  = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     MuFaCCaL                  `adj`     {- mujaw~af -}         [ "hollow", unwords [ "hollowed", "out" ] ] ]
-
-
-cluster_68  = listing "Lexicon's properties"
-
 
  |> "^g w h" <| [
 
@@ -3808,7 +3809,6 @@ cluster_73  = listing "Lexicon's properties"
     FA'iL                     `noun`    {- jA}iz -}            [ "lawful", "possible" ],
 
     FA'iL |< aT               `noun`    {- jA}izap -}          [ "prize", "reward" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MuFAL                     `noun`    {- mujAz -}            [ "licensed", "accredited" ],
@@ -3859,8 +3859,7 @@ cluster_74  = listing "Lexicon's properties"
  |> "^g y .h" <| [
 
     IFtiCAL                   `noun`    {- AijotiyAH -}        [ "invasion", "strike" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At ]
+                              `plural`     IFtiCAL |< At ]
 
  |> "^g y ^s" <| [
 
@@ -3990,8 +3989,7 @@ cluster_76  = listing "Lexicon's properties"
  |> "^g y z" <| [
 
     IFtiCAL                   `noun`    {- AijotiyAz -}        [ "traversing", "overcoming" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     FIL |< aT                 `noun`    {- jiyzap -}           [ "Giza" ],
 

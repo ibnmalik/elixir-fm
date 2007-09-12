@@ -337,7 +337,7 @@ cluster_6   = listing "Lexicon's properties"
     FuCAL |< Iy               `adj`     {- fujA}iy~ -}         [ "surprising", "unexpected" ],
 
     MuFACaL |< aT             `noun`    {- mufAjaOap -}        [ "surprise" ]
-                           {- `others`  [ "mufA^ga N-|t" ] -},
+                              `plural`     MuFACaL |< At,
 
     MuFACiL                   `adj`     {- mufAji} -}          [ "surprising", "unexpected" ] ]
 
@@ -1504,8 +1504,7 @@ cluster_27  = listing "Lexicon's properties"
                               `plural`     HaFCAL,
 
     FUL |< aT                 `noun`    {- fuwhap -}           [ "mouth", "aperture" ]
-                              `plural`     FaCA'iL
-                              `plural`     FawA'iL,
+                              `plural`     FaCA'iL,
 
     MuFaCCaL                  `adj`     {- mufaw~ah -}         [ "eloquent" ] ]
 

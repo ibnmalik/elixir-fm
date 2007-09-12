@@ -711,7 +711,8 @@ cluster_54  = listing "Lexicon's properties"
  |> "d w '" <| [
 
     FAL                       `noun`    {- dA' -}              [ "disease", "illness" ]
-                              `plural`     HaFCAL,
+                              `plural`     HaFCAL
+                              `plural`     HaFCA',
 
     FaCAL                     `noun`    {- dawA' -}            [ "remedy", "medication" ]
                               `plural`     HaFCI |< aT,
@@ -1026,12 +1027,16 @@ cluster_60  = listing "Lexicon's properties"
 
     FAL                       `noun`    {- dAr -}              [ "house", "home", "abodes" ]
                               `plural`     FUL
-                              `plural`     FIL |< aT,
+                              `plural`     FIL |< aT
+                              `plural`     FiyAL |< At
+                              `plural`     FiyAL,
 
     FAL |< aT                 `noun`    {- dArap -}            [ "aureola" ]
                               `plural`     FAL |< At,
 
     FAL |< Iy                 `adj`     {- dAriy~ -}           [ "domestic", "native" ],
+
+    FiyAL |< Iy               `adj`     {- diyAriy~ -}         [ "domestic", "native" ],
 
     FUL |< Iy                 `adj`     {- duwriy~ -}          [ "domestic" ],
 
@@ -1095,7 +1100,6 @@ cluster_60  = listing "Lexicon's properties"
     FA'iL                     `adj`     {- dA}ir -}            [ "turning", "spinning", "itinerant" ],
 
     FA'iL |< aT               `noun`    {- dA}irap -}          [ "office", "bureau", "district" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     FA'iL |< aT               `noun`    {- dA}irap -}          [ "circle", "ring", "scope", "circuit" ]

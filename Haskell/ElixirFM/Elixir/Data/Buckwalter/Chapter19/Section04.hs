@@ -31,8 +31,7 @@ cluster_61  = listing "Lexicon's properties"
     FaCL                      `noun`    {- gayoZ -}            [ "anger", "wrath" ],
 
     IFtiCAL                   `noun`    {- AigotiyAZ -}        [ "fury", "rage" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     MuFIL                     `adj`     {- mugiyZ -}           [ "irate", "furious" ],
 
@@ -113,8 +112,7 @@ cluster_62  = listing "Lexicon's properties"
     TaFaCCuL |< Iy |< aT      `noun`    {- tagay~ubiy~ap -}    [ "absenteeism" ],
 
     IFtiCAL                   `noun`    {- AigotiyAb -}        [ "slander", "denigration", unwords [ "gossip", "about" ] ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     FA'iL                     `adj`     {- gA}ib -}            [ "absent" ]
                               `plural`     FuCCaL
@@ -174,8 +172,7 @@ cluster_63  = listing "Lexicon's properties"
     FIL |< aT                 `noun`    {- giylap -}           [ "assassination" ],
 
     IFtiCAL                   `noun`    {- AigotiyAl -}        [ "assassination", "murder" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     FIL                       `noun`    {- giyl -}             [ "thicket", "bushes" ]
                               `plural`     HaFCAL,

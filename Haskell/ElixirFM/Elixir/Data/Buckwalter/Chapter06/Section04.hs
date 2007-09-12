@@ -257,7 +257,7 @@ cluster_65  = listing "Lexicon's properties"
 
     FACI |< aT                `noun`    {- HAmiyap -}          [ "garrison" ],
 
-    MaFCIy                    `adj`     {- maHomiy~ -}         [ "protected", "protectorate" ],
+    MaFCIL                    `adj`     {- maHomiy~ -}         [ "protected", "protectorate" ],
 
     MuFACI                    `noun`    {- muHAmiy -}          [ "lawyer", unwords [ "defense", "counsel" ] ]
                               `plural`     MuFACI |< At,
@@ -498,7 +498,7 @@ cluster_70  = listing "Lexicon's properties"
 
     FawACI                    `noun`    {- HawAniy -}          [ "bosom", "breast" ],
 
-    MaFCIy                    `adj`     {- maHoniy~ -}         [ "bowed", "inclined", "bent" ],
+    MaFCIL                    `adj`     {- maHoniy~ -}         [ "bowed", "inclined", "bent" ],
 
     MunFaCI                   `noun`    {- munoHaniy -}        [ "bent", "twisted", "bowed" ]
                               `plural`     MunFaCI |< At,

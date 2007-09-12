@@ -627,7 +627,8 @@ cluster_11  = listing "Lexicon's properties"
     FuCUL                     `noun`    {- nu$uw' -}           [ "growth", "development", "evolution" ],
 
     MaFCaL                    `noun`    {- mano$aO -}          [ "source", "origin", "generation" ]
-                           {- `others`  [ "man^sa'A N-|", "man^sa N-|t" ] -},
+                              `plural`     MaFCaL |< At
+                           {- `others`  [ "man^sa'A N-|" ] -},
 
     HiFCAL                    `noun`    {- Iino$A' -}          [ "establishing", unwords [ "setting", "up" ], "founding" ],
 
@@ -644,7 +645,7 @@ cluster_11  = listing "Lexicon's properties"
     FACiL                     `noun`    {- nA$i} -}            [ "youth", unwords [ "rising", "generation" ] ],
 
     MuFCaL |< aT              `noun`    {- muno$aOap -}        [ "establishment", "firm", "installations", "facilities" ]
-                           {- `others`  [ "mun^sa N-|t" ] -} ]
+                              `plural`     MuFCaL |< At ]
 
 
 cluster_12  = listing "Lexicon's properties"
@@ -1364,17 +1365,17 @@ cluster_25  = listing "Lexicon's properties"
     MaFCY                     `noun`    {- manofaY -}          [ "exile", "banishment" ],
 
     MaFCY                     `noun`    {- manofaY -}          [ unwords [ "place", "of", "exile" ], "banishment", unwords [ "places", "of", "exile" ] ]
-                              `plural`     MaFACI,
-
-    MaFCIy                    `adj`     {- manofiy~ -}         [ "denied", "rejected", "discarded" ],
-
-    MaFCIy                    `adj`     {- manofiy~ -}         [ "exiled", "deported" ] ]
+                              `plural`     MaFACI ]
 
  |> "n f y" <| [
 
     FaCL                      `noun`    {- nafoy -}            [ "denial", "disavowal" ],
 
-    FuCAL |< aT               `noun`    {- nufAyap -}          [ "waste", "refuse" ] ]
+    FuCAL |< aT               `noun`    {- nufAyap -}          [ "waste", "refuse" ],
+
+    MaFCIL                    `adj`     {- manofiy~ -}         [ "denied", "rejected", "discarded" ],
+
+    MaFCIL                    `adj`     {- manofiy~ -}         [ "exiled", "deported" ] ]
 
  |> "n h '" <| [
 
@@ -1480,6 +1481,9 @@ cluster_27  = listing "Lexicon's properties"
     HaFCY                     `verb`    {- OanohaY -}          [ "complete", "communicate" ],
 
     IFtaCY                    `verb`    {- AinotahaY -}        [ unwords [ "be", "concluded" ], unwords [ "be", "completed" ] ],
+
+    FiCAy |< aT               `adv`     {- nihAyap -}          [ "end", "termination", "ultimately", "finally" ]
+                           {- `others`  [ "nihAyaTaN FW-Wa" ] -},
 
     FiCA' |< Iy               `adj`     {- nihA}iy~ -}         [ "final", "definitive", "conclusive", "finally", unwords [ "in", "the", "end" ] ],
 
@@ -2091,7 +2095,7 @@ cluster_38  = listing "Lexicon's properties"
 
     FiCLAn                    `noun`    {- nisoyAn -}          [ "forgetfulness", "oblivion" ],
 
-    MaFCIy                    `adj`     {- manosiy~ -}         [ "forgotten" ] ]
+    MaFCIL                    `adj`     {- manosiy~ -}         [ "forgotten" ] ]
 
 
 cluster_39  = listing "Lexicon's properties"
@@ -2206,6 +2210,12 @@ cluster_41  = listing "Lexicon's properties"
 
     IFtAL                     `verb`    {- AinotAb -}          [ "afflict", "happen" ],
 
+    FiyAL |< aT               `noun`    {- niyAbap -}          [ "proxy", "deputyship" ],
+
+    FiyAL |< aT               `noun`    {- niyAbap -}          [ unwords [ "instead", "of" ], unwords [ "in", "lieu", "of" ] ],
+
+    FiyAL |< Iy               `adj`     {- niyAbiy~ -}         [ "representative", "delegated", "deputed" ],
+
     HiFAL |< aT               `noun`    {- IinAbap -}          [ "deputization", "authorization" ],
 
     TaFACuL                   `noun`    {- tanAwub -}          [ "alternation", "rotation" ]
@@ -2294,8 +2304,8 @@ cluster_42  = listing "Lexicon's properties"
  |> "n w q" <| [
 
     FAL |< aT                 `noun`    {- nAqap -}            [ unwords [ "she", "-", "camel" ] ]
-                              `plural`     FUL
-                           {- `others`  [ "niyAq N" ] -} ]
+                              `plural`     FiyAL
+                              `plural`     FUL ]
 
 
 cluster_43  = listing "Lexicon's properties"
@@ -2384,7 +2394,15 @@ cluster_44  = listing "Lexicon's properties"
     FaC |<< "awIy"            `adj`     {- nawawiy~ -}         [ "nuclear", "atomic", "nucleic" ],
 
     FIL |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire" ]
+                              `plural`     FaCALY,
+
+    FIy |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire" ]
                               `plural`     FaCALY ]
+
+ |> "n y '" <| [
+
+    FIy                       `adj`     {- niy~ -}             [ "raw", "uncooked" ]
+                              `plural`     FIL |< aT ]
 
  |> "n y ^g r" <| [
 

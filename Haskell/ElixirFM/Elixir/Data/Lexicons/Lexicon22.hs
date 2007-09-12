@@ -332,7 +332,7 @@ cluster_6   = listing "Lexicon's properties"
     FaCAL |< aT               `noun`    {- kafA'ap -}          [ "competence", "suitability", "proficiency" ],
 
     MuFACaL |< aT             `noun`    {- mukAfaOap -}        [ "compensation", "reward", "remuneration" ]
-                           {- `others`  [ "mukAfa N-|t" ] -},
+                              `plural`     MuFACaL |< At,
 
     TaFACuL                   `noun`    {- takAfuW -}          [ "equality", "equal" ]
                               `plural`     TaFACuL |< At,
@@ -732,7 +732,9 @@ cluster_13  = listing "Lexicon's properties"
  |> "k n w" <| [
 
     FaCA                      `verb`    {- kanA-u -}           [ unwords [ "allude", "to" ], unwords [ "express", "indirectly" ], "nickname" ]
-                              `imperf`     FCU ]
+                              `imperf`     FCU,
+
+    FiCAy |< aT               `noun`    {- kinAyap -}          [ "allusion", "equivocal" ] ]
 
  |> "k n y" <| [
 
@@ -773,13 +775,13 @@ cluster_13  = listing "Lexicon's properties"
 
     FaCAL |< Iy |< aT         `noun`    {- karAhiy~ap -}       [ "antipathy", "dislike" ] ]
 
- |> "k r k" <| [
-
-    FaCCAL |< aT              `noun`    {- kar~Akap -}         [ unwords [ "dredging", "machine" ], "penitentiary" ] ]
-
 
 cluster_14  = listing "Lexicon's properties"
 
+
+ |> "k r k" <| [
+
+    FaCCAL |< aT              `noun`    {- kar~Akap -}         [ unwords [ "dredging", "machine" ], "penitentiary" ] ]
 
  |> "k r k k" <| [
 
@@ -1143,6 +1145,9 @@ cluster_20  = listing "Lexicon's properties"
     FaCL                      `noun`    {- kawon -}            [ "universe", "existence" ],
 
     FaCL |< Iy                `adj`     {- kawoniy~ -}         [ "cosmic" ],
+
+    FiyAL                     `noun`    {- kiyAn -}            [ "entity" ]
+                              `plural`     FiyAL |< At,
 
     MaFAL                     `noun`    {- makAn -}            [ "place", "location", "position" ]
                            {- `others`  [ "'amAkin Ndip" ] -},

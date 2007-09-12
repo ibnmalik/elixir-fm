@@ -1613,11 +1613,13 @@ cluster_27  = listing "Lexicon's properties"
 
     FICAL                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
                               `plural`     FICAL |< At
-                              `plural`     HICAL |< At,
+                              `plural`     HICAL |< At
+                              `plural`     HICA' |< At,
 
     HICAL                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
                               `plural`     FICAL |< At
-                              `plural`     HICAL |< At ]
+                              `plural`     HICAL |< At
+                              `plural`     HICA' |< At ]
 
  |> "' w .g r" <| [
 
@@ -1635,22 +1637,24 @@ cluster_27  = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \|b-u -}            [ "return" ]
                               `imperf`     FUL
-                              `pfirst`     FuL ]
+                              `pfirst`     FuL,
+
+    FiyAL                     `noun`    {- IiyAb -}            [ "return" ] ]
 
  |> "' w b k" <| [
 
     KuRDiS                    `noun`    {- Ouwbik -}           [ "OPEC" ]
                            {- `others`  [ "'uwbiyk N" ] -} ]
 
+
+cluster_28  = listing "Lexicon's properties"
+
+
  |> "' w f" <| [
 
     FAL |< aT                 `noun`    {- \|fap -}            [ "vice", "plague" ],
 
     FUL                       `noun`    {- Ouwf -}             [ "Of" ] ]
-
-
-cluster_28  = listing "Lexicon's properties"
-
 
  |> "' w h" <| [
 
@@ -1705,13 +1709,13 @@ cluster_28  = listing "Lexicon's properties"
 
     FUL                       `noun`    {- Ouwt -}             [ "August" ] ]
 
- |> "' w t w" <| [
-
-    KuRDU                     `noun`    {- Ouwtuw -}           [ "Otto" ] ]
-
 
 cluster_29  = listing "Lexicon's properties"
 
+
+ |> "' w t w" <| [
+
+    KuRDU                     `noun`    {- Ouwtuw -}           [ "Otto" ] ]
 
  |> "' w t y" <| [
 
@@ -1777,13 +1781,13 @@ cluster_29  = listing "Lexicon's properties"
 
     KiRDAS                    `noun`    {- Iiy*A' -}           [ "damage", "injury" ] ]
 
- |> "' y _d n" <| [
-
-    KiRDAS                    `noun`    {- Iiy*An -}           [ "declaration", "proclamation" ] ]
-
 
 cluster_30  = listing "Lexicon's properties"
 
+
+ |> "' y _d n" <| [
+
+    KiRDAS                    `noun`    {- Iiy*An -}           [ "declaration", "proclamation" ] ]
 
  |> "' y b" <| [
 
@@ -1846,16 +1850,16 @@ cluster_30  = listing "Lexicon's properties"
 
     KiRDI                     `noun`    {- Iiyliy -}           [ "Eli", "Ilie" ] ]
 
+
+cluster_31  = listing "Lexicon's properties"
+
+
  |> "' y m" <| [
 
     FILAn                     `noun`    {- IiymAn -}           [ "belief", "faith" ]
                               `plural`     FILAn |< At,
 
     FILAn                     `noun`    {- IiymAn -}           [ "Iman" ] ]
-
-
-cluster_31  = listing "Lexicon's properties"
-
 
  |> "' y m n" <| [
 

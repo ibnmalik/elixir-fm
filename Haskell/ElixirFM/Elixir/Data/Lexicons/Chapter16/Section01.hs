@@ -657,7 +657,8 @@ cluster_12  = listing "Lexicon's properties"
  |> ".t w '" <| [
 
     InFiCAL                   `noun`    {- AinoTiwA' -}        [ "withdrawal" ]
-                              `plural`     InFiCAL |< At,
+                              `plural`     InFiCAL |< At
+                              `plural`     InFiCA' |< At,
 
     InFiCAL |< Iy             `adj`     {- AinoTiwA}iy~ -}     [ "withdrawal", "introverted" ] ]
 
@@ -684,6 +685,8 @@ cluster_13  = listing "Lexicon's properties"
                               `plural`     FaCL,
 
     FaCL |< Iy                `adj`     {- TawoEiy~ -}         [ "voluntary" ],
+
+    FayyiL                    `adj`     {- Tay~iE -}           [ "compliant" ],
 
     FaCAL |< Iy |< aT         `noun`    {- TawAEiy~ap -}       [ "voluntariness" ],
 
@@ -712,7 +715,6 @@ cluster_13  = listing "Lexicon's properties"
     FA'iL                     `adj`     {- TA}if -}            [ "ambulant", "itinerant", unwords [ "on", "patrol" ] ],
 
     FA'iL |< aT               `noun`    {- TA}ifap -}          [ "sect", "party", "faction" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     FA'iL |< Iy               `adj`     {- TA}ifiy~ -}         [ "sectarian", "factional", "sectarianism", "factionalism" ],

@@ -12,6 +12,41 @@ lexicon = include section
 cluster_81  = listing "Lexicon's properties"
 
 
+ |> "_h z q" <| [
+
+    FaCaL                     `verb`    {- xazaq-i -}          [ "pierce", "ram", "tear" ]
+                              `imperf`     FCiL,
+
+    FaCCaL                    `verb`    {- xaz~aq -}           [ "tear", unwords [ "rip", "apart" ] ],
+
+    TaFaCCaL                  `verb`    {- taxaz~aq -}         [ unwords [ "be", "pierced" ], unwords [ "be", "torn" ] ],
+
+    InFaCaL                   `verb`    {- Ainoxazaq -}        [ unwords [ "be", "pierced" ], unwords [ "be", "torn" ] ],
+
+    FaCL                      `noun`    {- xazoq -}            [ "rip", "hole" ],
+
+    FACUL                     `noun`    {- xAzuwq -}           [ "post", "stake", "trick" ]
+                              `plural`     FawACIL ]
+
+ |> "_h z r" <| [
+
+    FaCaL                     `verb`    {- xazar-u -}          [ unwords [ "look", "askance" ], unwords [ "glance", "sidelong" ] ]
+                              `imperf`     FCuL,
+
+    FaCaL                     `noun`    {- xazar -}            [ "Caspian" ] ]
+
+ |> "_h z r ^g" <| [
+
+    KaRDaS                    `noun`    {- xazoraj -}          [ "Khazraj" ],
+
+    KaRDaS |< Iy              `adj`     {- xazorajiy~ -}       [ "Khazraji" ],
+
+    KaRDaS |< Iy              `adj`     {- xazorajiy~ -}       [ "Khazraji" ] ]
+
+
+cluster_82  = listing "Lexicon's properties"
+
+
  |> "_h z y" <| [
 
     FaCI                      `verb`    {- xaziy-a -}          [ unwords [ "be", "despicable" ] ]
@@ -33,7 +68,7 @@ cluster_81  = listing "Lexicon's properties"
     MaFCY |< aT               `noun`    {- maxozAp -}          [ "disgrace", "infamy", unwords [ "disgraceful", "acts" ] ]
                               `plural`     MaFACI,
 
-    MaFCIy                    `adj`     {- maxoziy~ -}         [ "ashamed", "disgraceful" ],
+    MaFCIL                    `adj`     {- maxoziy~ -}         [ "ashamed", "disgraceful" ],
 
     MuFCI                     `noun`    {- muxoziy -}          [ "infamous", "scandalous", "infamy", unwords [ "disgraceful", "act" ] ]
                               `plural`     MuFCI |< At,
@@ -77,7 +112,7 @@ cluster_81  = listing "Lexicon's properties"
     Identity                  `noun`    {- xAqAn -}            [ "overlord", "monarch" ] ]
 
 
-cluster_82  = listing "Lexicon's properties"
+cluster_83  = listing "Lexicon's properties"
 
 
  |> "_hAra.sIn" <| [
@@ -155,7 +190,7 @@ cluster_82  = listing "Lexicon's properties"
     Identity                  `noun`    {- xayozuwrAn -}       [ "bamboo", "reed" ] ]
 
 
-cluster_83  = listing "Lexicon's properties"
+cluster_84  = listing "Lexicon's properties"
 
 
  |> "_hazandAr" <| [
@@ -231,5 +266,6 @@ cluster_83  = listing "Lexicon's properties"
 
 section = [ cluster_81,
             cluster_82,
-            cluster_83 ]
+            cluster_83,
+            cluster_84 ]
 

@@ -395,8 +395,9 @@ cluster_9   = listing "Lexicon's properties"
                               `plural`     IFtiCAL |< At,
 
     MaFCaL                    `noun`    {- maxobaO -}          [ unwords [ "hide", "-", "out" ], "shelter" ]
+                              `plural`     MaFCaL |< At
                               `plural`     MaFACiL
-                           {- `others`  [ "ma_hba N-|t", "ma_hba'A N-|" ] -},
+                           {- `others`  [ "ma_hba'A N-|" ] -},
 
     MuFtaCiL                  `noun`    {- muxotabi} -}        [ "hidden", "concealed" ] ]
 
@@ -643,7 +644,7 @@ cluster_13  = listing "Lexicon's properties"
     FACI                      `adj`     {- xAfiy -}            [ "hidden", "secret" ]
                               `plural`     FACI |< At,
 
-    MaFCIy                    `adj`     {- maxofiy~ -}         [ "hidden" ],
+    MaFCIL                    `adj`     {- maxofiy~ -}         [ "hidden" ],
 
     MutaFaCCI                 `noun`    {- mutaxaf~iy -}       [ "disguised" ]
                               `plural`     MutaFaCCI |< At,
@@ -1292,19 +1293,21 @@ cluster_24  = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL,
 
+    FiyAL |< aT               `noun`    {- xiyAnap -}          [ "treason", "betrayal" ],
+
     FA'iL                     `noun`    {- xA}in -}            [ "traitor", "treacherous", "disloyal" ]
                               `plural`     FaCL |< aT
                               `plural`     FUCAL ]
+
+
+cluster_25  = listing "Lexicon's properties"
+
 
  |> "_h w r" <| [
 
     FaCL                      `noun`    {- xawor -}            [ "inlet", "bay" ]
                               `plural`     HaFCAL
                               `plural`     FILAn ]
-
-
-cluster_25  = listing "Lexicon's properties"
-
 
  |> "_h w r y" <| [
 
@@ -1406,8 +1409,7 @@ cluster_26  = listing "Lexicon's properties"
                               `plural`     FiCAL |< At,
 
     IFtiCAL                   `noun`    {- AixotiyAr -}        [ "choice", "selection", "preference" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL |< Iy             `adj`     {- AixotiyAriy~ -}     [ "elective", "voluntary" ],
 

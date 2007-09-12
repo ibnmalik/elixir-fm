@@ -265,6 +265,7 @@ cluster_45  = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- hawA' -}            [ "air", "atmosphere", "climate" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                               `plural`     HaFCI |< aT,
 
     FaCAL |< Iy               `noun`    {- hawA}iy~ -}         [ "antenna" ],
@@ -275,7 +276,8 @@ cluster_45  = listing "Lexicon's properties"
                               `plural`     FaCCAL |< Un,
 
     IstiFCAL                  `noun`    {- AisotihowA' -}      [ "fascination", "enchantment", "seduction" ]
-                              `plural`     IstiFCAL |< At ]
+                              `plural`     IstiFCAL |< At
+                              `plural`     IstiFCA' |< At ]
 
  |> "h w .g w" <| [
 
@@ -472,6 +474,9 @@ cluster_49  = listing "Lexicon's properties"
 
     FIL |< aT                 `noun`    {- hiynap -}           [ "ease", "comfort", "leisure" ],
 
+    FayyiL                    `noun`    {- hay~in -}           [ "light", "easy", "insignificant" ]
+                              `plural`     HaFCiLA',
+
     HaFCaL                    `noun`    {- Oahowan -}          [ "easy", "comfortable", "unimportant" ]
                               `plural`     FaCLA',
 
@@ -619,6 +624,9 @@ cluster_52  = listing "Lexicon's properties"
 
     IstaFCY                   `verb`    {- AisotahowaY -}      [ "charm", "seduce" ],
 
+    FUw |< aT                 `noun`    {- huw~ap -}           [ "abyss", "chasm" ]
+                              `plural`     FuCY,
+
     FaCY                      `noun`    {- hawaY -}            [ "affection", "inclination", "preference", "desires", "wishes" ]
                               `plural`     FaCA
                               `plural`     HaFCA'
@@ -678,13 +686,12 @@ cluster_53  = listing "Lexicon's properties"
     TaFACaL                   `verb`    {- tahAyaO -}          [ unwords [ "adapt", "to", "each", "other" ], unwords [ "accommodate", "each", "other" ] ],
 
     FaCL |< aT                `noun`    {- hayo}ap -}          [ "organization", "agency" ]
-                              `plural`     FaCL |< At
-                              `plural`     FaC,
+                              `plural`     FaCL |< At,
 
     TaFCiL |< aT              `noun`    {- tahoyi}ap -}        [ "preparation", "mobilization" ],
 
     MuFACaL |< aT             `noun`    {- muhAyaOap -}        [ unwords [ "profit", "sharing" ], unwords [ "joint", "usufruct" ] ]
-                           {- `others`  [ "muhAya N-|t" ] -},
+                              `plural`     MuFACaL |< At,
 
     TaFaCCuL                  `noun`    {- tahay~uW -}         [ "mobilization" ]
                               `plural`     TaFaCCuL |< At,
@@ -696,7 +703,7 @@ cluster_53  = listing "Lexicon's properties"
 
     MuFaCCaL                  `noun`    {- muhay~aO -}         [ "prepared" ]
                               `plural`     MuFaCCaL |< Un
-                           {- `others`  [ "muhayya N-|t", "muhayya'A N-|" ] -} ]
+                           {- `others`  [ "muhayya'A N-|" ] -} ]
 
  |> "h y .d" <| [
 
@@ -903,8 +910,7 @@ cluster_57  = listing "Lexicon's properties"
     FaCUL |< Iy               `adj`     {- hayuwliy~ -}        [ "material" ],
 
     InFiCAL                   `noun`    {- AinohiyAl -}        [ "downpour", "showering" ]
-                              `plural`     InFiCAL |< At
-                              `plural`     InFiyAL |< At,
+                              `plural`     InFiCAL |< At,
 
     FIL                       `noun`    {- hiyol -}            [ "Hill" ] ]
 
@@ -980,8 +986,7 @@ cluster_59  = listing "Lexicon's properties"
  |> "h y r" <| [
 
     InFiCAL                   `noun`    {- AinohiyAr -}        [ "collapse", "downfall", "breakdown" ]
-                              `plural`     InFiCAL |< At
-                              `plural`     InFiyAL |< At,
+                              `plural`     InFiCAL |< At,
 
     FaCCaL                    `verb`    {- hay~ar -}           [ "topple", "destroy" ],
 

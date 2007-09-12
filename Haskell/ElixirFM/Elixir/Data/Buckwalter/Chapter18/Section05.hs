@@ -103,7 +103,7 @@ cluster_82  = listing "Lexicon's properties"
     IFtiCA'                   `noun`    {- AiEotinA' -}        [ "attention", "care", "concern" ]
                               `plural`     IFtiCA' |< At,
 
-    MaFCIy                    `adj`     {- maEoniy~ -}         [ "concerned", "affected", "interested" ],
+    MaFCIL                    `adj`     {- maEoniy~ -}         [ "concerned", "affected", "interested" ],
 
     MuFACI                    `adj`     {- muEAniy -}          [ "suffering" ]
                               `plural`     MuFACI |< At,

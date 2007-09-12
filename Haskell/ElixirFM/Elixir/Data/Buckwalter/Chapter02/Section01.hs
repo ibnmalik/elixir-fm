@@ -99,8 +99,8 @@ cluster_2   = listing "Lexicon's properties"
                               `imperf`     FCaL,
 
     FiCL                      `noun`    {- bi}or -}            [ "well", "spring" ]
-                              `plural`     FiCAL
-                           {- `others`  [ "'AbAr N" ] -},
+                              `plural`     HAFAL
+                              `plural`     FiCAL,
 
     FuCL |< aT                `noun`    {- buWorap -}          [ "center", "focus" ]
                               `plural`     FuCaL,

@@ -50,6 +50,10 @@ cluster_101 = listing "Lexicon's properties"
 
     FuCayL                    `noun`    {- suwayoq -}          [ "stem", "stalk" ],
 
+    FiyAL                     `noun`    {- siyAq -}            [ "context", "course" ],
+
+    FiyAL |< aT               `noun`    {- siyAqap -}          [ "driving", "steering" ],
+
     FaCCAL                    `noun`    {- saw~Aq -}           [ "chauffeur", "driver" ],
 
     MaFAL                     `noun`    {- masAq -}            [ unwords [ "study", "course" ], "progress", "upshot" ],
@@ -137,6 +141,18 @@ cluster_103 = listing "Lexicon's properties"
 
     FUL |< aT                 `noun`    {- suwsap -}           [ "Sousse" ],
 
+    FiyAL |< aT               `noun`    {- siyAsap -}          [ "politics" ],
+
+    FiyAL |< aT               `noun`    {- siyAsap -}          [ "policy" ]
+                              `plural`     FiyAL |< At,
+
+    FiyAL |< Iy               `adj`     {- siyAsiy~ -}         [ "political" ],
+
+    FiyAL |< Iy               `noun`    {- siyAsiy~ -}         [ "politician", "statesman", "statesmen" ]
+                              `plural`     FAL |< aT,
+
+    lA >| FiyAL |< Iy         `adj`     {- lAsiyAsiy~ -}       [ unwords [ "non", "-", "political" ] ],
+
     TaFaCCuL                  `noun`    {- tasaw~us -}         [ unwords [ "dental", "caries" ], "rottenness" ]
                               `plural`     TaFaCCuL |< At,
 
@@ -159,12 +175,16 @@ cluster_103 = listing "Lexicon's properties"
 
     KuRDI                     `noun`    {- suwtiy -}           [ "Sutee" ] ]
 
+
+cluster_104 = listing "Lexicon's properties"
+
+
  |> "s w w" <| [
 
     FU                        `noun`    {- suw -}              [ "Sue" ] ]
 
 
-cluster_104 = listing "Lexicon's properties"
+cluster_105 = listing "Lexicon's properties"
 
 
  |> "s w y" <| [
@@ -197,6 +217,9 @@ cluster_104 = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- sawiy~ap -}         [ "equality" ]
                               `plural`     FaCALY,
 
+    FIy                       `noun`    {- siy~ -}             [ "alike", unwords [ "the", "same" ], "equals" ]
+                              `plural`     HaFCA',
+
     FIL                       `noun`    {- siy~ -}             [ "alike", unwords [ "the", "same" ], "equals" ]
                               `plural`     HaFCA',
 
@@ -228,7 +251,7 @@ cluster_104 = listing "Lexicon's properties"
                               `plural`     MuFtaCY |< At ]
 
 
-cluster_105 = listing "Lexicon's properties"
+cluster_106 = listing "Lexicon's properties"
 
 
  |> "s w z" <| [
@@ -239,19 +262,23 @@ cluster_105 = listing "Lexicon's properties"
 
     IFtiCAL                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
                               `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiyAL |< At
+                              `plural`     IFtiCA' |< At,
 
     IFtiCA'                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
                               `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiyAL |< At
+                              `plural`     IFtiCA' |< At,
 
     MuFIL                     `adj`     {- musiy' -}           [ "insulting", "harming", "pernicious" ]
                               `plural`     MuFIL |< Un,
 
     FaCCiL                    `noun`    {- say~i' -}           [ "bad" ]
+                              `plural`     FayyiL |< Un
                               `plural`     FaCCiL |< Un,
 
     FaCCiL |< aT              `noun`    {- say~i}ap -}         [ "offense", "misdeed" ]
+                              `plural`     FayyiL |< At
                               `plural`     FaCCiL |< At ]
 
  |> "s y .h" <| [
@@ -288,7 +315,7 @@ cluster_105 = listing "Lexicon's properties"
     MuKaRDiS                  `adj`     {- musayoTir -}        [ "ruler", "sovereign", "ruling", "controlling" ] ]
 
 
-cluster_106 = listing "Lexicon's properties"
+cluster_107 = listing "Lexicon's properties"
 
 
  |> "s y ^g" <| [
@@ -346,7 +373,7 @@ cluster_106 = listing "Lexicon's properties"
     KiRDIS |< Iy              `adj`     {- siybiyriy~ -}       [ "Siberian" ] ]
 
 
-cluster_107 = listing "Lexicon's properties"
+cluster_108 = listing "Lexicon's properties"
 
 
  |> "s y d" <| [
@@ -400,7 +427,7 @@ cluster_107 = listing "Lexicon's properties"
                            {- `others`  [ "saykuwbA_tiyy Nall" ] -} ]
 
 
-cluster_108 = listing "Lexicon's properties"
+cluster_109 = listing "Lexicon's properties"
 
 
  |> "s y l" <| [
@@ -459,7 +486,7 @@ cluster_108 = listing "Lexicon's properties"
                               `plural`     FIL |< At ]
 
 
-cluster_109 = listing "Lexicon's properties"
+cluster_110 = listing "Lexicon's properties"
 
 
  |> "s y q" <| [
@@ -469,11 +496,10 @@ cluster_109 = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- siyAqap -}          [ "driving", "steering" ],
 
     InFiCAL                   `noun`    {- AinosiyAq -}        [ "thoughtlessness", unwords [ "being", "carried", "away" ] ]
-                              `plural`     InFiCAL |< At
-                              `plural`     InFiyAL |< At ]
+                              `plural`     InFiCAL |< At ]
 
 
-cluster_110 = listing "Lexicon's properties"
+cluster_111 = listing "Lexicon's properties"
 
 
  |> "s y r" <| [
@@ -533,7 +559,7 @@ cluster_110 = listing "Lexicon's properties"
     MuFaCCaL                  `adj`     {- musay~ar -}         [ "guided", unwords [ "remote", "-", "controlled" ] ] ]
 
 
-cluster_111 = listing "Lexicon's properties"
+cluster_112 = listing "Lexicon's properties"
 
 
  |> "s y r s" <| [
@@ -611,7 +637,7 @@ cluster_111 = listing "Lexicon's properties"
     Identity                  `noun`    {- sAfiyA' -}          [ unwords [ "fine", "dust" ] ] ]
 
 
-cluster_112 = listing "Lexicon's properties"
+cluster_113 = listing "Lexicon's properties"
 
 
  |> "sAkIsAn" <| [
@@ -691,7 +717,7 @@ cluster_112 = listing "Lexicon's properties"
     Identity                  `noun`    {- sAnotAnA -}         [ "" {- "Santana" -} ] ]
 
 
-cluster_113 = listing "Lexicon's properties"
+cluster_114 = listing "Lexicon's properties"
 
 
  |> "sAntAndir" <| [
@@ -775,7 +801,7 @@ cluster_113 = listing "Lexicon's properties"
     Identity                  `noun`    {- siylofA -}          [ "" {- "Silva" -} ] ]
 
 
-cluster_114 = listing "Lexicon's properties"
+cluster_115 = listing "Lexicon's properties"
 
 
  |> "sImA" <| [
@@ -855,7 +881,7 @@ cluster_114 = listing "Lexicon's properties"
     Identity                  `noun`    {- siyrojiy -}         [ "" {- "Sergei" -}, "" {- "Sergeyev" -} ] ]
 
 
-cluster_115 = listing "Lexicon's properties"
+cluster_116 = listing "Lexicon's properties"
 
 
  |> "sIr^giyU" <| [
@@ -937,7 +963,7 @@ cluster_115 = listing "Lexicon's properties"
     Identity |< Iy            `adj`     {- suwlAwiysiy~ -}     [ "" {- "Sulawesian" -} ] ]
 
 
-cluster_116 = listing "Lexicon's properties"
+cluster_117 = listing "Lexicon's properties"
 
 
  |> "sUlAwIsI" <| [
@@ -1021,7 +1047,7 @@ cluster_116 = listing "Lexicon's properties"
     Identity                  `noun`    {- salAquwn -}         [ unwords [ "red", "lead" ], "minium" ] ]
 
 
-cluster_117 = listing "Lexicon's properties"
+cluster_118 = listing "Lexicon's properties"
 
 
  |> "salaband" <| [
@@ -1101,7 +1127,7 @@ cluster_117 = listing "Lexicon's properties"
     Identity                  `noun`    {- saroEasokar -}      [ "general" ] ]
 
 
-cluster_118 = listing "Lexicon's properties"
+cluster_119 = listing "Lexicon's properties"
 
 
  |> "sarandIb" <| [
@@ -1179,7 +1205,7 @@ cluster_118 = listing "Lexicon's properties"
     Identity                  `noun`    {- sibit~ -}           [ "dill" ] ]
 
 
-cluster_119 = listing "Lexicon's properties"
+cluster_120 = listing "Lexicon's properties"
 
 
  |> "sibtambir" <| [
@@ -1255,84 +1281,6 @@ cluster_119 = listing "Lexicon's properties"
  |> "sinaksAr" <| [
 
     Identity                  `noun`    {- sinakosAr -}        [ "synaxarion", "martyrologium", "martyrology" ] ]
-
-
-cluster_120 = listing "Lexicon's properties"
-
-
- |> "sindiyAn" <| [
-
-    Identity                  `noun`    {- sinodiyAn -}        [ unwords [ "evergreen", "oak" ] ],
-
-    Identity |< Iy            `adj`     {- sinodiyAniy~ -}     [ unwords [ "oak", "-", "like" ] ] ]
-
- |> "sini.gAl" <| [
-
-    Identity                  `noun`    {- sinigAl -}          [ "" {- "Senegal" -} ],
-
-    Identity |< Iy            `adj`     {- sinigAliy~ -}       [ "" {- "Senegalese" -} ] ]
-
- |> "sinimmAr" <| [
-
-    Identity                  `noun`    {- sinim~Ar -}         [ unwords [ "" {- "Sinimmar" -}, "(", "legendary", "architect", ")" ] ] ]
-
- |> "sinnawr" <| [
-
-    Identity                  `noun`    {- sin~awor -}         [ "cat" ] ]
-
- |> "sirfAntis" <| [
-
-    Identity                  `noun`    {- sirofAnotis -}      [ "" {- "Cervantes" -} ] ]
-
- |> "sittUn" <| [
-
-    Identity |< Iy            `adj`     {- sit~uwniy~ -}       [ "sexagenarian" ] ]
-
- |> "sittmA'" <| [
-
-    Identity |< aT            `noun`    {- sit~mA}ap -}        [ unwords [ "six", "-", "hundred" ] ] ]
-
- |> "siyAtil" <| [
-
-    Identity                  `noun`    {- siyAtil -}          [ "" {- "Seattle" -} ] ]
-
- |> "siyUl" <| [
-
-    Identity                  `noun`    {- siyuwl -}           [ "" {- "Seoul" -} ] ]
-
- |> "sizmU.grAf" <| [
-
-    Identity                  `noun`    {- sizomuwgrAf -}      [ "seismograph" ],
-
-    Identity |< Iy            `adj`     {- sizomuwgrAfiy~ -}   [ "seismographic" ] ]
-
- |> "skArbUrUh" <| [
-
-    Identity                  `noun`    {- skArobuwruwh -}     [ "" {- "Scarborough" -} ] ]
-
- |> "skIlArI" <| [
-
-    Identity                  `noun`    {- skiylAriy -}        [ "" {- "Squillari" -} ] ]
-
- |> "skIt" <| [
-
-    Identity                  `noun`    {- skiyt -}            [ unwords [ "skeet", "(", "shooting", "at", "clay", "targets", ")" ] ] ]
-
- |> "skIzUfrIn" <| [
-
-    Identity |< Iy            `adj`     {- skiyzuwfriyniy~ -}  [ "schizophrenic" ] ]
-
- |> "skIzUfrIniyA" <| [
-
-    Identity                  `noun`    {- skiyzuwfriyniyA -}  [ "schizophrenia" ] ]
-
- |> "skUblAr" <| [
-
-    Identity                  `noun`    {- skuwbolAr -}        [ "" {- "Skoblar" -} ] ]
-
- |> "skUd" <| [
-
-    Identity                  `noun`    {- skuwd -}            [ "" {- "Scud" -} ] ]
 
 
 section = [ cluster_101,

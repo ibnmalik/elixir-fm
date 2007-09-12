@@ -4857,7 +4857,8 @@ cluster_95  = listing "Lexicon's properties"
     IFtAL                     `verb`    {- AisotA' -}          [ unwords [ "be", "dissatisfied" ], unwords [ "be", "discontent" ] ],
 
     FUL                       `noun`    {- suw' -}             [ "offense", unwords [ "bad", "/", "ill" ] ]
-                              `plural`     HaFCAL,
+                              `plural`     HaFCAL
+                              `plural`     HaFCA',
 
     FaCL |< aT                `noun`    {- sawoOap -}          [ "disgrace", "shame" ]
                               `plural`     FaCL |< At,
@@ -4883,12 +4884,19 @@ cluster_95  = listing "Lexicon's properties"
     MuFtAL                    `adj`     {- musotA' -}          [ "unhappy", "displeased", "dissatisfied" ]
                               `plural`     MuFtAL |< Un,
 
+    FayyiL                    `noun`    {- say~i' -}           [ "bad" ]
+                              `plural`     FayyiL |< Un,
+
+    FayyiL |< aT              `noun`    {- say~i}ap -}         [ "offense", "misdeed" ]
+                              `plural`     FayyiL |< At,
+
     FaCAL                     `noun`    {- sawA' -}            [ "except", "whether" ],
 
     FaCAL                     `noun`    {- sawA' -}            [ "equality" ],
 
     IFtiCAL                   `noun`    {- AisotiwA' -}        [ "levelness", "upright" ]
-                              `plural`     IFtiCAL |< At,
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiCA' |< At,
 
     IFtiCAL                   `noun`    {- AisotiwA' -}        [ "equator" ],
 
@@ -4944,7 +4952,7 @@ cluster_96  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- sawoT -}            [ "whip", "lash" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "siyA.t N" ] -},
+                              `plural`     FiyAL,
 
     MiFCaL                    `noun`    {- misowaT -}          [ unwords [ "stirring", "stick" ] ] ]
 
@@ -5020,13 +5028,32 @@ cluster_98  = listing "Lexicon's properties"
 
     MuFCaLL |< aT             `noun`    {- musowad~ap -}       [ unwords [ "rough", "draft" ] ],
 
+    FayyiL                    `noun`    {- say~id -}           [ "Sir", "Mr.", "Mister", "gentlement" ]
+                              `plural`     FAL |< aT
+                           {- `others`  [ "'asyAd N" ] -},
+
+    FayyiL                    `noun`    {- say~id -}           [ "Sayyid" ],
+
     FAL |< At                 `noun`    {- sAdAt -}            [ "Sadat" ],
+
+    FayyiL |< aT              `noun`    {- say~idap -}         [ "lady" ]
+                              `plural`     FayyiL |< At,
+
+    FayyiL |< aT              `noun`    {- say~idap -}         [ "Miss", "Mrs.", "Ms." ],
+
+    FayyiL |< aT              `noun`    {- say~idap -}         [ "Sayyida" ],
+
+    FiyAL |< aT               `noun`    {- siyAdap -}          [ "sovereignty", "supremacy", "Excellency" ],
 
     FUL                       `noun`    {- suwd -}             [ "Sud" ],
 
     FuCIL                     `noun`    {- suwiyd -}           [ "Sweden" ],
 
     FuCIL |< Iy               `adj`     {- suwiydiy~ -}        [ "Swedish" ] ]
+
+
+cluster_99  = listing "Lexicon's properties"
+
 
  |> "s w d n" <| [
 
@@ -5035,10 +5062,6 @@ cluster_98  = listing "Lexicon's properties"
     TaKaRDaS                  `verb`    {- tasawodan -}        [ unwords [ "be", "Sudanized" ] ],
 
     KaRDaS |< aT              `noun`    {- sawodanap -}        [ "Sudanization" ] ]
-
-
-cluster_99  = listing "Lexicon's properties"
-
 
  |> "s w f" <| [
 
@@ -5083,6 +5106,10 @@ cluster_99  = listing "Lexicon's properties"
 
     MuKaRDaS                  `adj`     {- musawokar -}        [ "insured", "registered" ] ]
 
+
+cluster_100 = listing "Lexicon's properties"
+
+
  |> "s w l" <| [
 
     FaCCaL                    `verb`    {- saw~al -}           [ "entice", "seduce" ],
@@ -5097,10 +5124,6 @@ cluster_99  = listing "Lexicon's properties"
  |> "s w l r" <| [
 
     KuRDAS                    `noun`    {- suwlAr -}           [ unwords [ "diesel", "(", "oil", "/", "fuel", ")" ] ] ]
-
-
-cluster_100 = listing "Lexicon's properties"
-
 
  |> "s w m" <| [
 
@@ -5120,10 +5143,11 @@ cluster_100 = listing "Lexicon's properties"
 
     IFtAL                     `verb`    {- AisotAm -}          [ "bargain", "haggle" ],
 
+    FiyAL |< aT               `noun`    {- siyAmap -}          [ "ordination", "consecration" ],
+
     MuFACaL |< aT             `noun`    {- musAwamap -}        [ "bargaining", "haggling" ],
 
     FA'iL |< aT               `noun`    {- sA}imap -}          [ unwords [ "grazing", "freely" ] ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL ]
 
  |> "s w m r" <| [
@@ -5181,6 +5205,10 @@ cluster_101 = listing "Lexicon's properties"
     FaCIL                     `noun`    {- sawiyq -}           [ "mush" ],
 
     FuCayL                    `noun`    {- suwayoq -}          [ "stem", "stalk" ],
+
+    FiyAL                     `noun`    {- siyAq -}            [ "context", "course" ],
+
+    FiyAL |< aT               `noun`    {- siyAqap -}          [ "driving", "steering" ],
 
     FaCCAL                    `noun`    {- saw~Aq -}           [ "chauffeur", "driver" ],
 
@@ -5269,6 +5297,18 @@ cluster_103 = listing "Lexicon's properties"
 
     FUL |< aT                 `noun`    {- suwsap -}           [ "Sousse" ],
 
+    FiyAL |< aT               `noun`    {- siyAsap -}          [ "politics" ],
+
+    FiyAL |< aT               `noun`    {- siyAsap -}          [ "policy" ]
+                              `plural`     FiyAL |< At,
+
+    FiyAL |< Iy               `adj`     {- siyAsiy~ -}         [ "political" ],
+
+    FiyAL |< Iy               `noun`    {- siyAsiy~ -}         [ "politician", "statesman", "statesmen" ]
+                              `plural`     FAL |< aT,
+
+    lA >| FiyAL |< Iy         `adj`     {- lAsiyAsiy~ -}       [ unwords [ "non", "-", "political" ] ],
+
     TaFaCCuL                  `noun`    {- tasaw~us -}         [ unwords [ "dental", "caries" ], "rottenness" ]
                               `plural`     TaFaCCuL |< At,
 
@@ -5291,12 +5331,16 @@ cluster_103 = listing "Lexicon's properties"
 
     KuRDI                     `noun`    {- suwtiy -}           [ "Sutee" ] ]
 
+
+cluster_104 = listing "Lexicon's properties"
+
+
  |> "s w w" <| [
 
     FU                        `noun`    {- suw -}              [ "Sue" ] ]
 
 
-cluster_104 = listing "Lexicon's properties"
+cluster_105 = listing "Lexicon's properties"
 
 
  |> "s w y" <| [
@@ -5329,6 +5373,9 @@ cluster_104 = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- sawiy~ap -}         [ "equality" ]
                               `plural`     FaCALY,
 
+    FIy                       `noun`    {- siy~ -}             [ "alike", unwords [ "the", "same" ], "equals" ]
+                              `plural`     HaFCA',
+
     FIL                       `noun`    {- siy~ -}             [ "alike", unwords [ "the", "same" ], "equals" ]
                               `plural`     HaFCA',
 
@@ -5360,7 +5407,7 @@ cluster_104 = listing "Lexicon's properties"
                               `plural`     MuFtaCY |< At ]
 
 
-cluster_105 = listing "Lexicon's properties"
+cluster_106 = listing "Lexicon's properties"
 
 
  |> "s w z" <| [
@@ -5371,19 +5418,23 @@ cluster_105 = listing "Lexicon's properties"
 
     IFtiCAL                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
                               `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiyAL |< At
+                              `plural`     IFtiCA' |< At,
 
     IFtiCA'                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
                               `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiyAL |< At
+                              `plural`     IFtiCA' |< At,
 
     MuFIL                     `adj`     {- musiy' -}           [ "insulting", "harming", "pernicious" ]
                               `plural`     MuFIL |< Un,
 
     FaCCiL                    `noun`    {- say~i' -}           [ "bad" ]
+                              `plural`     FayyiL |< Un
                               `plural`     FaCCiL |< Un,
 
     FaCCiL |< aT              `noun`    {- say~i}ap -}         [ "offense", "misdeed" ]
+                              `plural`     FayyiL |< At
                               `plural`     FaCCiL |< At ]
 
  |> "s y .h" <| [
@@ -5420,7 +5471,7 @@ cluster_105 = listing "Lexicon's properties"
     MuKaRDiS                  `adj`     {- musayoTir -}        [ "ruler", "sovereign", "ruling", "controlling" ] ]
 
 
-cluster_106 = listing "Lexicon's properties"
+cluster_107 = listing "Lexicon's properties"
 
 
  |> "s y ^g" <| [
@@ -5478,7 +5529,7 @@ cluster_106 = listing "Lexicon's properties"
     KiRDIS |< Iy              `adj`     {- siybiyriy~ -}       [ "Siberian" ] ]
 
 
-cluster_107 = listing "Lexicon's properties"
+cluster_108 = listing "Lexicon's properties"
 
 
  |> "s y d" <| [
@@ -5532,7 +5583,7 @@ cluster_107 = listing "Lexicon's properties"
                            {- `others`  [ "saykuwbA_tiyy Nall" ] -} ]
 
 
-cluster_108 = listing "Lexicon's properties"
+cluster_109 = listing "Lexicon's properties"
 
 
  |> "s y l" <| [
@@ -5591,7 +5642,7 @@ cluster_108 = listing "Lexicon's properties"
                               `plural`     FIL |< At ]
 
 
-cluster_109 = listing "Lexicon's properties"
+cluster_110 = listing "Lexicon's properties"
 
 
  |> "s y q" <| [
@@ -5601,11 +5652,10 @@ cluster_109 = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- siyAqap -}          [ "driving", "steering" ],
 
     InFiCAL                   `noun`    {- AinosiyAq -}        [ "thoughtlessness", unwords [ "being", "carried", "away" ] ]
-                              `plural`     InFiCAL |< At
-                              `plural`     InFiyAL |< At ]
+                              `plural`     InFiCAL |< At ]
 
 
-cluster_110 = listing "Lexicon's properties"
+cluster_111 = listing "Lexicon's properties"
 
 
  |> "s y r" <| [
@@ -5665,7 +5715,7 @@ cluster_110 = listing "Lexicon's properties"
     MuFaCCaL                  `adj`     {- musay~ar -}         [ "guided", unwords [ "remote", "-", "controlled" ] ] ]
 
 
-cluster_111 = listing "Lexicon's properties"
+cluster_112 = listing "Lexicon's properties"
 
 
  |> "s y r s" <| [
@@ -5743,7 +5793,7 @@ cluster_111 = listing "Lexicon's properties"
     Identity                  `noun`    {- sAfiyA' -}          [ unwords [ "fine", "dust" ] ] ]
 
 
-cluster_112 = listing "Lexicon's properties"
+cluster_113 = listing "Lexicon's properties"
 
 
  |> "sAkIsAn" <| [
@@ -5823,7 +5873,7 @@ cluster_112 = listing "Lexicon's properties"
     Identity                  `noun`    {- sAnotAnA -}         [ "" {- "Santana" -} ] ]
 
 
-cluster_113 = listing "Lexicon's properties"
+cluster_114 = listing "Lexicon's properties"
 
 
  |> "sAntAndir" <| [
@@ -5907,7 +5957,7 @@ cluster_113 = listing "Lexicon's properties"
     Identity                  `noun`    {- siylofA -}          [ "" {- "Silva" -} ] ]
 
 
-cluster_114 = listing "Lexicon's properties"
+cluster_115 = listing "Lexicon's properties"
 
 
  |> "sImA" <| [
@@ -5987,7 +6037,7 @@ cluster_114 = listing "Lexicon's properties"
     Identity                  `noun`    {- siyrojiy -}         [ "" {- "Sergei" -}, "" {- "Sergeyev" -} ] ]
 
 
-cluster_115 = listing "Lexicon's properties"
+cluster_116 = listing "Lexicon's properties"
 
 
  |> "sIr^giyU" <| [
@@ -6069,7 +6119,7 @@ cluster_115 = listing "Lexicon's properties"
     Identity |< Iy            `adj`     {- suwlAwiysiy~ -}     [ "" {- "Sulawesian" -} ] ]
 
 
-cluster_116 = listing "Lexicon's properties"
+cluster_117 = listing "Lexicon's properties"
 
 
  |> "sUlAwIsI" <| [
@@ -6153,7 +6203,7 @@ cluster_116 = listing "Lexicon's properties"
     Identity                  `noun`    {- salAquwn -}         [ unwords [ "red", "lead" ], "minium" ] ]
 
 
-cluster_117 = listing "Lexicon's properties"
+cluster_118 = listing "Lexicon's properties"
 
 
  |> "salaband" <| [
@@ -6233,7 +6283,7 @@ cluster_117 = listing "Lexicon's properties"
     Identity                  `noun`    {- saroEasokar -}      [ "general" ] ]
 
 
-cluster_118 = listing "Lexicon's properties"
+cluster_119 = listing "Lexicon's properties"
 
 
  |> "sarandIb" <| [
@@ -6311,7 +6361,7 @@ cluster_118 = listing "Lexicon's properties"
     Identity                  `noun`    {- sibit~ -}           [ "dill" ] ]
 
 
-cluster_119 = listing "Lexicon's properties"
+cluster_120 = listing "Lexicon's properties"
 
 
  |> "sibtambir" <| [
@@ -6389,7 +6439,7 @@ cluster_119 = listing "Lexicon's properties"
     Identity                  `noun`    {- sinakosAr -}        [ "synaxarion", "martyrologium", "martyrology" ] ]
 
 
-cluster_120 = listing "Lexicon's properties"
+cluster_121 = listing "Lexicon's properties"
 
 
  |> "sindiyAn" <| [
@@ -6467,7 +6517,7 @@ cluster_120 = listing "Lexicon's properties"
     Identity                  `noun`    {- skuwd -}            [ "" {- "Scud" -} ] ]
 
 
-cluster_121 = listing "Lexicon's properties"
+cluster_122 = listing "Lexicon's properties"
 
 
  |> "skUt" <| [
@@ -6547,7 +6597,7 @@ cluster_121 = listing "Lexicon's properties"
     Identity                  `noun`    {- sriynogAr -}        [ "" {- "Sringhar" -} ] ]
 
 
-cluster_122 = listing "Lexicon's properties"
+cluster_123 = listing "Lexicon's properties"
 
 
  |> "stArz" <| [
@@ -6625,7 +6675,7 @@ cluster_122 = listing "Lexicon's properties"
     Identity                  `adj`     {- sulATiH -}          [ "wide" ] ]
 
 
-cluster_123 = listing "Lexicon's properties"
+cluster_124 = listing "Lexicon's properties"
 
 
  |> "sula.hfA'" <| [
@@ -6701,7 +6751,7 @@ cluster_123 = listing "Lexicon's properties"
     Identity                  `noun`    {- suwayolim -}        [ "" {- "Suweilem" -}, "" {- "Suwailim" -} ] ]
 
 
-cluster_124 = listing "Lexicon's properties"
+cluster_125 = listing "Lexicon's properties"
 
 
  |> "swIrIs" <| [
@@ -6840,5 +6890,6 @@ section = [ cluster_1,
             cluster_121,
             cluster_122,
             cluster_123,
-            cluster_124 ]
+            cluster_124,
+            cluster_125 ]
 

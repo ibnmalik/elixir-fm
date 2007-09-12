@@ -876,7 +876,8 @@ cluster_36  = listing "Lexicon's properties"
  |> "z w '" <| [
 
     InFiCAL                   `noun`    {- AinoziwA' -}        [ "seclusion", "isolation", "retirement" ]
-                              `plural`     InFiCAL |< At ]
+                              `plural`     InFiCAL |< At
+                              `plural`     InFiCA' |< At ]
 
 
 cluster_37  = listing "Lexicon's properties"

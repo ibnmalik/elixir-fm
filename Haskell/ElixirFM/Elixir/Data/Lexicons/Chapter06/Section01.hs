@@ -15,9 +15,9 @@ cluster_1   = listing "Lexicon's properties"
  |> ".h ' .t" <| [
 
     FACiL                     `noun`    {- HA}iT -}            [ "wall" ]
+                              `plural`     FiyAL
                               `plural`     FILAn
-                              `plural`     FawACiL
-                           {- `others`  [ ".hiyA.t N" ] -} ]
+                              `plural`     FawACiL ]
 
  |> ".h ' l" <| [
 

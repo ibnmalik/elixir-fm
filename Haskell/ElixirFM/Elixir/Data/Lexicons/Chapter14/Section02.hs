@@ -23,6 +23,8 @@ cluster_21  = listing "Lexicon's properties"
     FIL |< aT                 `noun`    {- Siygap -}           [ "form", "shape", "formula" ]
                            {- `others`  [ ".siya.g N" ] -},
 
+    FiyAL |< aT               `noun`    {- SiyAgap -}          [ "drafting", "formulation", "constructing" ],
+
     MaFAL                     `noun`    {- maSAg -}            [ "jewelry" ],
 
     FA'iL                     `noun`    {- SA}ig -}            [ "jeweler" ]
@@ -64,16 +66,16 @@ cluster_21  = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- taSowiyb -}         [ "correction", "rectifying" ]
                               `plural`     TaFCIL |< At ]
 
+
+cluster_22  = listing "Lexicon's properties"
+
+
  |> ".s w f" <| [
 
     TaFaCCuL                  `noun`    {- taSaw~uf -}         [ "Sufism", unwords [ "Islamic", "mysticism" ] ]
                               `plural`     TaFaCCuL |< At,
 
     MutaFaCCiL                `noun`    {- mutaSaw~if -}       [ "Sufi", unwords [ "Muslim", "mystic" ] ] ]
-
-
-cluster_22  = listing "Lexicon's properties"
-
 
  |> ".s w m" <| [
 
@@ -83,8 +85,11 @@ cluster_22  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Sawom -}            [ "fasting", "abstinence" ],
 
+    FiyAL                     `noun`    {- SiyAm -}            [ "fasting", "abstinence" ],
+
     FA'iL                     `adj`     {- SA}im -}            [ "fasting", "abstinent" ]
-                           {- `others`  [ ".siyAm N", ".suyyam N", ".suwwam N" ] -} ]
+                              `plural`     FiyAL
+                           {- `others`  [ ".suyyam N", ".suwwam N" ] -} ]
 
  |> ".s w m `" <| [
 
@@ -104,7 +109,9 @@ cluster_22  = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL,
 
-    FaCL                      `noun`    {- Sawon -}            [ "maintenance", "preservation", "protection" ] ]
+    FaCL                      `noun`    {- Sawon -}            [ "maintenance", "preservation", "protection" ],
+
+    FiyAL |< aT               `noun`    {- SiyAnap -}          [ "maintenance", "preservation" ] ]
 
 
 cluster_23  = listing "Lexicon's properties"
@@ -182,8 +189,7 @@ cluster_24  = listing "Lexicon's properties"
  |> ".s y `" <| [
 
     InFiCAL                   `noun`    {- AinoSiyAE -}        [ "obeisance", "submission" ]
-                              `plural`     InFiCAL |< At
-                              `plural`     InFiyAL |< At ]
+                              `plural`     InFiCAL |< At ]
 
  |> ".s y d" <| [
 

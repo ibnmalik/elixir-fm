@@ -623,8 +623,18 @@ cluster_92  = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- rawoDap -}          [ "garden", "meadow", "kindergarten" ]
                               `plural`     FILAn
-                              `plural`     FaCL
-                           {- `others`  [ "riyA.d N" ] -},
+                              `plural`     FiyAL
+                              `plural`     FaCL,
+
+    FiyAL                     `noun`    {- riyAD -}            [ "Riyadh" ],
+
+    FiyAL |< aT               `noun`    {- riyADap -}          [ "sport", unwords [ "physical", "exercise" ], "mathematics" ],
+
+    FiyAL |< Iy               `adj`     {- riyADiy~ -}         [ "sports", "sportive", "mathematical", "mathematician" ],
+
+    FiyAL |< Iy               `adj`     {- riyADiy~ -}         [ "Riyadi", "Sportif" ],
+
+    FiyAL |< Iy |< At         `noun`    {- riyADiy~At -}       [ "mathematics" ],
 
     TaFCIL                    `noun`    {- tarowiyD -}         [ "sports" ]
                               `plural`     TaFCIL |< At ]
@@ -709,9 +719,12 @@ cluster_94  = listing "Lexicon's properties"
 
     FIL                       `noun`    {- riyH -}             [ "wind", "odor" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'aryA.h N", "riyA.h N" ] -},
+                              `plural`     FiyAL
+                           {- `others`  [ "'aryA.h N" ] -},
 
     FIL |< aT                 `noun`    {- riyHap -}           [ "smell", "odor" ],
+
+    FayyiL                    `adj`     {- ray~iH -}           [ "windy" ],
 
     FILAn |< Iy               `adj`     {- riyoHAniy~ -}       [ "Rihani" ],
 
@@ -758,7 +771,6 @@ cluster_94  = listing "Lexicon's properties"
                            {- `others`  [ "rAyi.h Nall" ] -},
 
     FA'iL |< aT               `noun`    {- rA}iHap -}          [ "odor", "perfume" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MuFIL                     `adj`     {- muriyH -}           [ "soothing", "restful", "comfortable" ],
@@ -853,7 +865,6 @@ cluster_96  = listing "Lexicon's properties"
     FA'iL                     `adj`     {- rA}iE -}            [ "splendid", "marvelous", "magnificent" ],
 
     FA'iL |< aT               `noun`    {- rA}iEap -}          [ "masterpiece", unwords [ "magnificent", "item" ] ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MuFaCCiL                  `adj`     {- muraw~iE -}         [ "terrible", "dreadful" ],

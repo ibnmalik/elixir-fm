@@ -128,16 +128,13 @@ cluster_83  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     IFtiCAL                   `noun`    {- AimotiyAz -}        [ "distinction", "excellence" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL                   `noun`    {- AimotiyAz -}        [ "privilege" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL                   `noun`    {- AimotiyAz -}        [ "concession", "favor" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     MuFaCCiL                  `noun`    {- mumay~iz -}         [ "discriminating", "discerning" ],
 

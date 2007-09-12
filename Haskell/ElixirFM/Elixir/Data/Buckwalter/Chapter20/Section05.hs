@@ -264,8 +264,7 @@ cluster_86  = listing "Lexicon's properties"
     HaFACIL                   `noun`    {- OafAwiyh -}         [ "spices" ],
 
     FUL |< aT                 `noun`    {- fuwhap -}           [ "mouth", "aperture" ]
-                              `plural`     FaCA'iL
-                              `plural`     FawA'iL,
+                              `plural`     FaCA'iL,
 
     FUL |< Iy                 `adj`     {- fuwhiy~ -}          [ "oral", "vocal" ],
 
@@ -398,7 +397,6 @@ cluster_88  = listing "Lexicon's properties"
     FA'iL                     `adj`     {- fA}ir -}            [ "boiling" ],
 
     FA'iL |< aT               `noun`    {- fA}irap -}          [ unwords [ "fit", "of", "anger" ], unwords [ "flare", "-", "up" ], unwords [ "fits", "of", "anger" ] ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL ]
 
  |> "f w r k" <| [
@@ -485,7 +483,8 @@ cluster_90  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- fayo' -}            [ "shadow" ]
                               `plural`     FuCUL
-                              `plural`     HaFCAL,
+                              `plural`     HaFCAL
+                              `plural`     HaFCA',
 
     FiL |< aT                 `noun`    {- fi}ap -}            [ "faction", "party" ],
 

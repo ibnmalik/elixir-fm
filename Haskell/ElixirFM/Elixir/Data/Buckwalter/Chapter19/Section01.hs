@@ -504,8 +504,6 @@ cluster_10  = listing "Lexicon's properties"
     FACI |< aT                `noun`    {- gA$iyap -}          [ "envelope", "calamity", "fainting", "attendants", "retinue" ]
                               `plural`     FawACI,
 
-    MaFCIy                    `noun`    {- mago$iy~ -}         [ "unconscious", unwords [ "knocked", "-", "out" ] ],
-
     TaFCI |< aT               `noun`    {- tago$iyap -}        [ "dimming", "clouding", "dulling" ] ]
 
 
@@ -525,6 +523,8 @@ cluster_11  = listing "Lexicon's properties"
 
     FACI |< aT                `noun`    {- gA$iyap -}          [ "envelope", "calamity", "fainting", "attendants", "retinue" ]
                               `plural`     FawACI,
+
+    MaFCIL                    `noun`    {- mago$iy~ -}         [ "unconscious", unwords [ "knocked", "-", "out" ] ],
 
     TaFCI |< aT               `noun`    {- tago$iyap -}        [ "dimming", "clouding", "dulling" ] ]
 

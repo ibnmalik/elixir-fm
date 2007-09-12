@@ -434,7 +434,7 @@ cluster_9   = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- xiSA' -}            [ "castration" ],
 
-    MaFCIy                    `adj`     {- maxoSiy~ -}         [ "castrated", "emasculated" ] ]
+    MaFCIL                    `adj`     {- maxoSiy~ -}         [ "castrated", "emasculated" ] ]
 
 
 cluster_10  = listing "Lexicon's properties"
@@ -1670,7 +1670,7 @@ cluster_34  = listing "Lexicon's properties"
                               `plural`     FACI |< At
                               `plural`     FawACI,
 
-    MaFCIy                    `adj`     {- maxofiy~ -}         [ "hidden" ],
+    MaFCIL                    `adj`     {- maxofiy~ -}         [ "hidden" ],
 
     MutaFaCCI                 `noun`    {- mutaxaf~iy -}       [ "disguised" ]
                               `plural`     MutaFaCCI |< At,
@@ -3609,6 +3609,8 @@ cluster_72  = listing "Lexicon's properties"
 
     IstaFCaL                  `verb`    {- Aisotaxowan -}      [ "distrust" ],
 
+    FiyAL |< aT               `noun`    {- xiyAnap -}          [ "treason", "betrayal" ],
+
     FaCUL                     `noun`    {- xawuwn -}           [ "faithless", "disloyal" ],
 
     FaCCAL                    `noun`    {- xaw~An -}           [ "traitor", "treacherous" ],
@@ -3647,6 +3649,10 @@ cluster_72  = listing "Lexicon's properties"
 
     KuRDuS                    `noun`    {- xuwrus -}           [ "choir" ] ]
 
+
+cluster_73  = listing "Lexicon's properties"
+
+
  |> "_h w r y" <| [
 
     KuRDI                     `noun`    {- xuwriy -}           [ "priest" ],
@@ -3654,10 +3660,6 @@ cluster_72  = listing "Lexicon's properties"
     KuRDI                     `noun`    {- xuwriy -}           [ "Khouri" ],
 
     KuRDY                     `noun`    {- xuwraY -}           [ "better", "superior" ] ]
-
-
-cluster_73  = listing "Lexicon's properties"
-
 
  |> "_h w s h" <| [
 
@@ -3685,13 +3687,19 @@ cluster_73  = listing "Lexicon's properties"
                               `plural`     FACI |< At,
 
     MuFACI                    `adj`     {- muxAwiy -}          [ "brotherly", "fraternal" ]
-                              `plural`     MuFACI |< At ]
+                              `plural`     MuFACI |< At,
+
+    FUw |< aT                 `noun`    {- xuw~ap -}           [ "brotherliness", "fraternity" ] ]
 
  |> "_h w z q" <| [
 
     KaRDaS                    `verb`    {- xawozaq -}          [ "impale", "corner" ],
 
     KaRDaS |< aT              `noun`    {- xawozaqap -}        [ "impaling", "cornering" ] ]
+
+
+cluster_74  = listing "Lexicon's properties"
+
 
  |> "_h y .t" <| [
 
@@ -3720,10 +3728,6 @@ cluster_73  = listing "Lexicon's properties"
     MiFCaL                    `noun`    {- mixoyaT -}          [ "needle" ],
 
     FA'iL                     `noun`    {- xA}iT -}            [ "sewing", "tailor" ] ]
-
-
-cluster_74  = listing "Lexicon's properties"
-
 
  |> "_h y ^s" <| [
 
@@ -3756,6 +3760,10 @@ cluster_74  = listing "Lexicon's properties"
 
     KaRDaS                    `noun`    {- xayodaE -}          [ "mirage" ] ]
 
+
+cluster_75  = listing "Lexicon's properties"
+
+
  |> "_h y f" <| [
 
     FIL |< aT                 `noun`    {- xiyfap -}           [ "fear" ],
@@ -3763,7 +3771,7 @@ cluster_74  = listing "Lexicon's properties"
     MuFIL                     `adj`     {- muxiyf -}           [ "frightful", "horrible" ] ]
 
 
-cluster_75  = listing "Lexicon's properties"
+cluster_76  = listing "Lexicon's properties"
 
 
  |> "_h y l" <| [
@@ -3807,8 +3815,7 @@ cluster_75  = listing "Lexicon's properties"
     TaFaCCuL |< Iy            `adj`     {- taxay~uliy~ -}      [ "fantastic", "imaginary" ],
 
     IFtiCAL                   `noun`    {- AixotiyAl -}        [ "pride", "arrogance" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     MuFaCCiL |< aT            `noun`    {- muxay~ilap -}       [ "imagination", "fantasy" ],
 
@@ -3824,7 +3831,7 @@ cluster_75  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- xay~Al -}           [ "horseman", "rider", "horsemen", "cavalry" ] ]
 
 
-cluster_76  = listing "Lexicon's properties"
+cluster_77  = listing "Lexicon's properties"
 
 
  |> "_h y l l" <| [
@@ -3853,7 +3860,7 @@ cluster_76  = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- xiyAnap -}          [ "treason", "betrayal" ] ]
 
 
-cluster_77  = listing "Lexicon's properties"
+cluster_78  = listing "Lexicon's properties"
 
 
  |> "_h y r" <| [
@@ -3903,8 +3910,7 @@ cluster_77  = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     IFtiCAL                   `noun`    {- AixotiyAr -}        [ "choice", "selection", "preference" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL |< Iy             `adj`     {- AixotiyAriy~ -}     [ "elective", "voluntary" ],
 
@@ -3929,7 +3935,7 @@ cluster_77  = listing "Lexicon's properties"
                               `plural`     FiCAL |< At ]
 
 
-cluster_78  = listing "Lexicon's properties"
+cluster_79  = listing "Lexicon's properties"
 
 
  |> "_h y s" <| [
@@ -3988,7 +3994,7 @@ cluster_78  = listing "Lexicon's properties"
     FuCAL |< aT               `noun`    {- xuzAmap -}          [ "lavender" ] ]
 
 
-cluster_79  = listing "Lexicon's properties"
+cluster_80  = listing "Lexicon's properties"
 
 
  |> "_h z n" <| [
@@ -4033,7 +4039,7 @@ cluster_79  = listing "Lexicon's properties"
                               `plural`     MaFCUL |< At ]
 
 
-cluster_80  = listing "Lexicon's properties"
+cluster_81  = listing "Lexicon's properties"
 
 
  |> "_h z q" <| [
@@ -4068,7 +4074,7 @@ cluster_80  = listing "Lexicon's properties"
     KaRDaS |< Iy              `adj`     {- xazorajiy~ -}       [ "Khazraji" ] ]
 
 
-cluster_81  = listing "Lexicon's properties"
+cluster_82  = listing "Lexicon's properties"
 
 
  |> "_h z y" <| [
@@ -4092,7 +4098,7 @@ cluster_81  = listing "Lexicon's properties"
     MaFCY |< aT               `noun`    {- maxozAp -}          [ "disgrace", "infamy", unwords [ "disgraceful", "acts" ] ]
                               `plural`     MaFACI,
 
-    MaFCIy                    `adj`     {- maxoziy~ -}         [ "ashamed", "disgraceful" ],
+    MaFCIL                    `adj`     {- maxoziy~ -}         [ "ashamed", "disgraceful" ],
 
     MuFCI                     `noun`    {- muxoziy -}          [ "infamous", "scandalous", "infamy", unwords [ "disgraceful", "act" ] ]
                               `plural`     MuFCI |< At,
@@ -4136,7 +4142,7 @@ cluster_81  = listing "Lexicon's properties"
     Identity                  `noun`    {- xAqAn -}            [ "overlord", "monarch" ] ]
 
 
-cluster_82  = listing "Lexicon's properties"
+cluster_83  = listing "Lexicon's properties"
 
 
  |> "_hAra.sIn" <| [
@@ -4214,7 +4220,7 @@ cluster_82  = listing "Lexicon's properties"
     Identity                  `noun`    {- xayozuwrAn -}       [ "bamboo", "reed" ] ]
 
 
-cluster_83  = listing "Lexicon's properties"
+cluster_84  = listing "Lexicon's properties"
 
 
  |> "_hazandAr" <| [
@@ -4370,5 +4376,6 @@ section = [ cluster_1,
             cluster_80,
             cluster_81,
             cluster_82,
-            cluster_83 ]
+            cluster_83,
+            cluster_84 ]
 

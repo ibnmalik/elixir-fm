@@ -155,7 +155,6 @@ cluster_63  = listing "Lexicon's properties"
                            {- `others`  [ "luwwam N_L" ] -},
 
     FA'iL |< aT               `noun`    {- lA}imap -}          [ "blame", "censure" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MaFUL                     `adj`     {- maluwm -}           [ "blamed", "censured" ]
@@ -310,7 +309,7 @@ cluster_66  = listing "Lexicon's properties"
                               `plural`     FuCY |< aT
                               `plural`     FACI |< At,
 
-    MaFCIy                    `adj`     {- malowiy~ -}         [ "crooked", "warped" ],
+    MaFCIL                    `adj`     {- malowiy~ -}         [ "crooked", "warped" ],
 
     MuFtaCI                   `adj`     {- mulotawiy -}        [ "crooked", "warped" ]
                               `plural`     MuFtaCI |< At,
@@ -356,8 +355,7 @@ cluster_67  = listing "Lexicon's properties"
  |> "l y `" <| [
 
     IFtiCAL                   `noun`    {- AilotiyAE -}        [ "anxiety", "suffering" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At ]
+                              `plural`     IFtiCAL |< At ]
 
  |> "l y b" <| [
 

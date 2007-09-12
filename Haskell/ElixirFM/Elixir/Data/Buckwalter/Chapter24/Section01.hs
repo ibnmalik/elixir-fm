@@ -115,14 +115,14 @@ cluster_2   = listing "Lexicon's properties"
                               `imperf`     FCaL,
 
     FaCL                      `noun`    {- maOoq -}            [ unwords [ "inner", "corner", "of", "the", "eye" ], unwords [ "inner", "corners", "of", "the", "eye" ] ]
+                              `plural`     HAFAL
                               `plural`     FaCLY
-                              `plural`     FaCALI
-                           {- `others`  [ "'AmAq N" ] -},
+                              `plural`     FaCALI,
 
     FaCL |< aT                `noun`    {- maOoqap -}          [ "sobbing", "sob" ],
 
     FuCL                      `noun`    {- muWoq -}            [ unwords [ "inner", "corner", "of", "the", "eye" ], unwords [ "inner", "corners", "of", "the", "eye" ] ]
-                           {- `others`  [ "'AmAq N" ] -} ]
+                              `plural`     HAFAL ]
 
  |> "m ' r" <| [
 
@@ -321,10 +321,10 @@ cluster_5   = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- mugonap -}          [ "mahogany" ],
 
-    MICAL                     `noun`    {- miygAn -}           [ "Megan" ]
+    FICAL                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -},
 
-    FICAL                     `noun`    {- miygAn -}           [ "Megan" ]
+    MICAL                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -} ]
 
 

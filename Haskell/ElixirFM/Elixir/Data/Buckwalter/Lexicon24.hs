@@ -115,14 +115,14 @@ cluster_2   = listing "Lexicon's properties"
                               `imperf`     FCaL,
 
     FaCL                      `noun`    {- maOoq -}            [ unwords [ "inner", "corner", "of", "the", "eye" ], unwords [ "inner", "corners", "of", "the", "eye" ] ]
+                              `plural`     HAFAL
                               `plural`     FaCLY
-                              `plural`     FaCALI
-                           {- `others`  [ "'AmAq N" ] -},
+                              `plural`     FaCALI,
 
     FaCL |< aT                `noun`    {- maOoqap -}          [ "sobbing", "sob" ],
 
     FuCL                      `noun`    {- muWoq -}            [ unwords [ "inner", "corner", "of", "the", "eye" ], unwords [ "inner", "corners", "of", "the", "eye" ] ]
-                           {- `others`  [ "'AmAq N" ] -} ]
+                              `plural`     HAFAL ]
 
  |> "m ' r" <| [
 
@@ -321,10 +321,10 @@ cluster_5   = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- mugonap -}          [ "mahogany" ],
 
-    MICAL                     `noun`    {- miygAn -}           [ "Megan" ]
+    FICAL                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -},
 
-    FICAL                     `noun`    {- miygAn -}           [ "Megan" ]
+    MICAL                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -} ]
 
 
@@ -1492,19 +1492,19 @@ cluster_27  = listing "Lexicon's properties"
 
  |> "m d '" <| [
 
-    MICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
-
     FICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
 
-    MICAL |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
-                           {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
+    MICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
 
     FICAL |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
                            {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
 
-    MICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ],
+    MICAL |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
+                           {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
 
-    FICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ] ]
+    FICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ],
+
+    MICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ] ]
 
  |> "m d .h" <| [
 
@@ -2054,6 +2054,12 @@ cluster_38  = listing "Lexicon's properties"
     FaCaL                     `noun`    {- malaO -}            [ "crowd", "assembly", "audience" ]
                               `plural`     HaFCAL,
 
+    FiCAy |< aT               `noun`    {- milAyap -}          [ unwords [ "full", "-", "body", "garment" ] ]
+                              `plural`     FuCAL |< At,
+
+    FiCAy |< aT               `noun`    {- milAyap -}          [ unwords [ "bed", "sheet" ] ]
+                              `plural`     FuCAL |< At,
+
     FaCIL                     `adj`     {- maliy' -}           [ "full", "filled", "replete" ]
                               `plural`     FiCAL
                               `plural`     FaCLAn |< aT
@@ -2548,12 +2554,12 @@ cluster_47  = listing "Lexicon's properties"
 
     IstiFCAL                  `noun`    {- AisotimonA' -}      [ "masturbation" ],
 
-    MICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
+    FICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
                               `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "miyan N", "miyn Napdu" ] -},
 
-    FICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
+    MICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
                               `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "miyan N", "miyn Napdu" ] -} ]
@@ -4053,6 +4059,10 @@ cluster_76  = listing "Lexicon's properties"
     FaCLAn                    `noun`    {- mawotAn -}          [ "dying", "epidemic" ]
                               `plural`     FULAn,
 
+    FayyiL                    `noun`    {- may~it -}           [ "dead", "lifeless", "inanimate" ]
+                              `plural`     HaFCAL
+                              `plural`     FaCLY,
+
     FIL |< aT                 `noun`    {- miytap -}           [ "death" ],
 
     HiFAL |< aT               `noun`    {- IimAtap -}          [ "mortification", "killing" ],
@@ -4089,14 +4099,14 @@ cluster_76  = listing "Lexicon's properties"
     FILAn                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -} ]
 
+
+cluster_77  = listing "Lexicon's properties"
+
+
  |> "m y .g n" <| [
 
     KiRDAS                    `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -} ]
-
-
-cluster_77  = listing "Lexicon's properties"
-
 
  |> "m y .h" <| [
 
@@ -4415,16 +4425,13 @@ cluster_83  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     IFtiCAL                   `noun`    {- AimotiyAz -}        [ "distinction", "excellence" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL                   `noun`    {- AimotiyAz -}        [ "privilege" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL                   `noun`    {- AimotiyAz -}        [ "concession", "favor" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     MuFaCCiL                  `noun`    {- mumay~iz -}         [ "discriminating", "discerning" ],
 

@@ -300,6 +300,10 @@ cluster_26  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- mawot -}            [ "death" ],
 
+    FayyiL                    `noun`    {- may~it -}           [ "dead", "lifeless", "inanimate" ]
+                              `plural`     HaFCAL
+                              `plural`     FaCLY,
+
     MuFIL                     `adj`     {- mumiyt -}           [ "fatal", "lethal", "mortal" ] ]
 
  |> "m y .g" <| [
@@ -447,16 +451,13 @@ cluster_28  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     IFtiCAL                   `noun`    {- AimotiyAz -}        [ "distinction", "excellence" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL                   `noun`    {- AimotiyAz -}        [ "privilege" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL                   `noun`    {- AimotiyAz -}        [ "concession", "favor" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     MuFaCCiL                  `noun`    {- mumay~iz -}         [ "discriminating", "discerning" ],
 

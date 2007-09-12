@@ -711,7 +711,7 @@ cluster_13  = listing "Lexicon's properties"
 
     IstiFCA' |< Iy            `adj`     {- AisotivonA}iy~ -}   [ "exceptional", "extraordinary" ],
 
-    MaFCIy                    `adj`     {- mavoniy~ -}         [ "folded", "doubled" ],
+    MaFCIL                    `adj`     {- mavoniy~ -}         [ "folded", "doubled" ],
 
     MuFaCCY                   `noun`    {- muvan~aY -}         [ "doubled", "twofold" ]
                               `plural`     MuFaCCY |< At,
@@ -941,7 +941,7 @@ cluster_18  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- vawob -}            [ "garment", "robe", "clothes" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "_tiyAb N" ] -},
+                              `plural`     FiyAL,
 
     FaCAL                     `noun`    {- vawAb -}            [ "recompense", "reward" ],
 
@@ -1014,7 +1014,6 @@ cluster_20  = listing "Lexicon's properties"
                               `plural`     FUCAL,
 
     FA'iL |< aT               `noun`    {- vA}irap -}          [ "tumult", "rage" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MuFIL                     `noun`    {- muviyr -}           [ "influential", "provocative" ],

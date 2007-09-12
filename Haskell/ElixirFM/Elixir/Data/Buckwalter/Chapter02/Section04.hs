@@ -769,7 +769,7 @@ cluster_74  = listing "Lexicon's properties"
     TaFCiL |< aT              `noun`    {- tabori}ap -}        [ "exemption", "acquittal" ],
 
     MuFACaL |< aT             `noun`    {- mubAraOap -}        [ "divorce" ]
-                           {- `others`  [ "mubAra N-|t" ] -},
+                              `plural`     MuFACaL |< At,
 
     HiFCAL                    `noun`    {- IiborA' -}          [ "acquittal", "exoneration" ]
                               `plural`     HiFCAL |< At,

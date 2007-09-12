@@ -315,7 +315,7 @@ cluster_46  = listing "Lexicon's properties"
 
     IFtaCY                    `verb`    {- AikotanaY -}        [ unwords [ "be", "nicknamed" ] ],
 
-    MaFCIy                    `adj`     {- makoniy~ -}         [ unwords [ "alluded", "to" ] ],
+    FiCAy |< aT               `noun`    {- kinAyap -}          [ "allusion", "equivocal" ],
 
     MuFaCCY                   `adj`     {- mukan~aY -}         [ "nicknamed" ]
                               `plural`     MuFaCCY |< At ]
@@ -325,7 +325,9 @@ cluster_46  = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- kunoyap -}          [ "nickname" ]
                               `plural`     FuCY,
 
-    FiCAL |< aT               `noun`    {- kinAyap -}          [ "allusion", "equivocal" ] ]
+    FiCAL |< aT               `noun`    {- kinAyap -}          [ "allusion", "equivocal" ],
+
+    MaFCIL                    `adj`     {- makoniy~ -}         [ unwords [ "alluded", "to" ] ] ]
 
  |> "k n z" <| [
 

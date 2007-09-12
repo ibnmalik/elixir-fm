@@ -1304,12 +1304,21 @@ cluster_27  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Dawo' -}            [ "light" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ ".daw'A N-|" ] -},
 
     FaCL |< Iy                `adj`     {- Dawo}iy~ -}         [ "light", "luminous", "clear" ],
 
     FuCayL                    `noun`    {- Duwayo' -}          [ unwords [ "small", "light" ], "photon" ]
                               `plural`     FuCayL |< At,
+
+    FiyAL                     `noun`    {- DiyA' -}            [ "Zia", "Dhia" ],
+
+    FiyAL                     `noun`    {- DiyA' -}            [ "light", "glow" ],
+
+    FiyAL |< Iy               `adj`     {- DiyA}iy~ -}         [ "luminous", "clear" ],
+
+    FiyAL |< Iy |< aT         `noun`    {- DiyA}iy~ap -}       [ "luminosity", "clarity" ],
 
     HiFAL |< aT               `noun`    {- IiDA'ap -}          [ "lighting", "illumination" ],
 
@@ -1318,7 +1327,8 @@ cluster_27  = listing "Lexicon's properties"
     MuFAL                     `adj`     {- muDA' -}            [ "bright", "illuminated" ],
 
     InFiCAL                   `noun`    {- AinoDiwA' -}        [ unwords [ "seeking", "refuge" ], unwords [ "rallying", "around" ] ]
-                              `plural`     InFiCAL |< At ]
+                              `plural`     InFiCAL |< At
+                              `plural`     InFiCA' |< At ]
 
  |> ".d w .d" <| [
 
@@ -1335,6 +1345,10 @@ cluster_27  = listing "Lexicon's properties"
     FaCL                      `noun`    {- Dawoj -}            [ "elbow", "sinuosity" ]
                               `plural`     HaFCAL ]
 
+
+cluster_28  = listing "Lexicon's properties"
+
+
  |> ".d w `" <| [
 
     FAL                       `verb`    {- DAE-u -}            [ "emanate", unwords [ "be", "fragrant" ] ]
@@ -1344,10 +1358,6 @@ cluster_27  = listing "Lexicon's properties"
     TaFaCCaL                  `verb`    {- taDaw~aE -}         [ "emanate", unwords [ "be", "fragrant" ] ],
 
     FaCL                      `noun`    {- DawoE -}            [ "fragrance" ] ]
-
-
-cluster_28  = listing "Lexicon's properties"
-
 
  |> ".d w r" <| [
 
@@ -1401,21 +1411,21 @@ cluster_29  = listing "Lexicon's properties"
 
  |> ".d y '" <| [
 
-    FiCA'                     `noun`    {- DiyA' -}            [ "Zia", "Dhia" ],
-
     FiCAL                     `noun`    {- DiyA' -}            [ "Zia", "Dhia" ],
 
-    FiCA'                     `noun`    {- DiyA' -}            [ "light", "glow" ],
+    FiCA'                     `noun`    {- DiyA' -}            [ "Zia", "Dhia" ],
 
     FiCAL                     `noun`    {- DiyA' -}            [ "light", "glow" ],
 
-    FiCA' |< Iy               `adj`     {- DiyA}iy~ -}         [ "luminous", "clear" ],
+    FiCA'                     `noun`    {- DiyA' -}            [ "light", "glow" ],
 
     FiCAL |< Iy               `adj`     {- DiyA}iy~ -}         [ "luminous", "clear" ],
 
-    FiCA' |< Iy |< aT         `noun`    {- DiyA}iy~ap -}       [ "luminosity", "clarity" ],
+    FiCA' |< Iy               `adj`     {- DiyA}iy~ -}         [ "luminous", "clear" ],
 
     FiCAL |< Iy |< aT         `noun`    {- DiyA}iy~ap -}       [ "luminosity", "clarity" ],
+
+    FiCA' |< Iy |< aT         `noun`    {- DiyA}iy~ap -}       [ "luminosity", "clarity" ],
 
     MuFIL                     `adj`     {- muDiy' -}           [ "shining", "bright" ] ]
 

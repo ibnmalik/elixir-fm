@@ -953,7 +953,7 @@ cluster_18  = listing "Lexicon's properties"
                               `plural`     FuCY |< aT
                               `plural`     FACI |< At,
 
-    MaFCIy                    `adj`     {- majoniy~ -}         [ "victimized", "aggrieved" ] ]
+    MaFCIL                    `adj`     {- majoniy~ -}         [ "victimized", "aggrieved" ] ]
 
  |> "^g n z" <| [
 
@@ -1285,6 +1285,9 @@ cluster_24  = listing "Lexicon's properties"
 
     HaFAL                     `verb`    {- OajAd -}            [ unwords [ "be", "proficient", "at" ], unwords [ "do", "well" ] ],
 
+    FayyiL                    `adj`     {- jay~id -}           [ "good", "well" ]
+                              `plural`     FiyAL,
+
     FaCAL                     `noun`    {- jawAd -}            [ "Jawad" ],
 
     FaCAL                     `adj`     {- jawAd -}            [ "generous", "liberal" ]
@@ -1442,7 +1445,6 @@ cluster_27  = listing "Lexicon's properties"
     FA'iL                     `noun`    {- jA}iz -}            [ "lawful", "possible" ],
 
     FA'iL |< aT               `noun`    {- jA}izap -}          [ "prize", "reward" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL ]
 
  |> "^g w z b" <| [
@@ -1470,8 +1472,7 @@ cluster_28  = listing "Lexicon's properties"
  |> "^g y .h" <| [
 
     IFtiCAL                   `noun`    {- AijotiyAH -}        [ "invasion", "strike" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At ]
+                              `plural`     IFtiCAL |< At ]
 
  |> "^g y ^s" <| [
 
@@ -1534,8 +1535,7 @@ cluster_28  = listing "Lexicon's properties"
  |> "^g y z" <| [
 
     IFtiCAL                   `noun`    {- AijotiyAz -}        [ "traversing", "overcoming" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     FIL |< aT                 `noun`    {- jiyzap -}           [ "Giza" ],
 

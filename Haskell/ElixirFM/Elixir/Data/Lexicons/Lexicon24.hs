@@ -125,10 +125,10 @@ cluster_2   = listing "Lexicon's properties"
 
  |> "m .g n" <| [
 
-    MICAL                     `noun`    {- miygAn -}           [ "Megan" ]
+    FICAL                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -},
 
-    FICAL                     `noun`    {- miygAn -}           [ "Megan" ]
+    MICAL                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -} ]
 
  |> "m .h .d" <| [
@@ -701,7 +701,7 @@ cluster_12  = listing "Lexicon's properties"
                               `plural`     FaCLY,
 
     MuFACaL |< aT             `noun`    {- mumAlaOap -}        [ "partiality", "bias", "collaboration" ]
-                           {- `others`  [ "mumAla N-|t" ] -},
+                              `plural`     MuFACaL |< At,
 
     HiFCAL                    `noun`    {- IimolA' -}          [ "filling", unwords [ "filling", "out" ] ]
                               `plural`     HiFCAL |< At,
@@ -831,12 +831,12 @@ cluster_14  = listing "Lexicon's properties"
 
  |> "m n '" <| [
 
-    MICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
+    FICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
                               `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "miyan N", "miyn Napdu" ] -},
 
-    FICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
+    MICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
                               `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "miyan N", "miyn Napdu" ] -} ]
@@ -1495,6 +1495,10 @@ cluster_26  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- mawot -}            [ "death" ],
 
+    FayyiL                    `noun`    {- may~it -}           [ "dead", "lifeless", "inanimate" ]
+                              `plural`     HaFCAL
+                              `plural`     FaCLY,
+
     MuFIL                     `adj`     {- mumiyt -}           [ "fatal", "lethal", "mortal" ] ]
 
  |> "m y .g" <| [
@@ -1642,16 +1646,13 @@ cluster_28  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     IFtiCAL                   `noun`    {- AimotiyAz -}        [ "distinction", "excellence" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL                   `noun`    {- AimotiyAz -}        [ "privilege" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL                   `noun`    {- AimotiyAz -}        [ "concession", "favor" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     MuFaCCiL                  `noun`    {- mumay~iz -}         [ "discriminating", "discerning" ],
 

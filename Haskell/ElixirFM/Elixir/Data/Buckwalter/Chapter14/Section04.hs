@@ -24,14 +24,14 @@ cluster_61  = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- Sawolap -}          [ "attack", "assault" ],
 
+    FiyAL                     `noun`    {- SiyAl -}            [ "struggle", "fight" ],
+
     MuFACaL |< aT             `noun`    {- muSAwalap -}        [ "attack", "assault" ],
 
     FA'iL |< aT               `noun`    {- SA}ilap -}          [ unwords [ "hostile", "act" ] ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     FA'iL |< aT               `noun`    {- SA}ilap -}          [ "violence" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     FUL                       `noun`    {- Suwl -}             [ "sergeant", unwords [ "warrant", "officer" ] ] ]
@@ -44,8 +44,13 @@ cluster_61  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Sawom -}            [ "fasting", "abstinence" ],
 
+    FiyAL                     `noun`    {- SiyAm -}            [ "fasting", "abstinence" ],
+
+    FiyAL |< Iy               `adj`     {- SiyAmiy~ -}         [ "fasting" ],
+
     FA'iL                     `adj`     {- SA}im -}            [ "fasting", "abstinent" ]
-                           {- `others`  [ ".siyAm N", ".suyyam N", ".suwwam N" ] -} ]
+                              `plural`     FiyAL
+                           {- `others`  [ ".suyyam N", ".suwwam N" ] -} ]
 
  |> ".s w m `" <| [
 
@@ -81,6 +86,8 @@ cluster_62  = listing "Lexicon's properties"
     FaCCAL |< Iy              `adj`     {- Saw~Aniy~ -}        [ "granite" ],
 
     FaCCAL |< aT              `noun`    {- Saw~Anap -}         [ "flint" ],
+
+    FiyAL |< aT               `noun`    {- SiyAnap -}          [ "maintenance", "preservation" ],
 
     FA'iL                     `noun`    {- SA}in -}            [ "preserver", "protector", "maintainer" ],
 
@@ -158,6 +165,10 @@ cluster_64  = listing "Lexicon's properties"
 
     FIL                       `noun`    {- Siyt -}             [ "renown", "reputation" ],
 
+    FayyiL                    `adj`     {- Say~it -}           [ "loud" ],
+
+    FayyiL                    `noun`    {- Say~it -}           [ "megaphone" ],
+
     TaFCIL                    `noun`    {- taSowiyt -}         [ "voting" ]
                               `plural`     TaFCIL |< At,
 
@@ -179,6 +190,15 @@ cluster_64  = listing "Lexicon's properties"
     FUL |< aT                 `noun`    {- Suw~ap -}           [ "landmark", unwords [ "road", "sign" ] ]
                            {- `others`  [ ".suway N" ] -} ]
 
+ |> ".s w y" <| [
+
+    FUw |< aT                 `noun`    {- Suw~ap -}           [ "landmark", unwords [ "road", "sign" ] ]
+                              `plural`     FuCaL ]
+
+
+cluster_65  = listing "Lexicon's properties"
+
+
  |> ".s y .g" <| [
 
     FIL |< aT                 `noun`    {- Siygap -}           [ "form", "shape", "formula" ]
@@ -189,10 +209,6 @@ cluster_64  = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- SiyAgap -}          [ "drafting", "formulation", "constructing" ],
 
     FACiL                     `noun`    {- SAyig -}            [ "Sayigh", "Sayegh" ] ]
-
-
-cluster_65  = listing "Lexicon's properties"
-
 
  |> ".s y .h" <| [
 
@@ -226,8 +242,7 @@ cluster_65  = listing "Lexicon's properties"
  |> ".s y `" <| [
 
     InFiCAL                   `noun`    {- AinoSiyAE -}        [ "obeisance", "submission" ]
-                              `plural`     InFiCAL |< At
-                              `plural`     InFiyAL |< At,
+                              `plural`     InFiCAL |< At,
 
     FACiL                     `noun`    {- SAyiE -}            [ "vagabond", "tramp" ] ]
 

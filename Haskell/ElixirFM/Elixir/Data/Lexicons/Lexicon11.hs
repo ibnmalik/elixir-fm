@@ -494,6 +494,8 @@ cluster_9   = listing "Lexicon's properties"
 
     FUL                       `noun`    {- zuwr -}             [ "lie", "falsehood", "force" ],
 
+    FiyAL |< aT               `noun`    {- ziyArap -}          [ "visit" ],
+
     MaFAL                     `noun`    {- mazAr -}            [ unwords [ "visit", "place" ], "shrine", "sanctuary" ]
                               `plural`     MaFAL |< At,
 
@@ -572,8 +574,7 @@ cluster_10  = listing "Lexicon's properties"
                               `plural`     TaFACuL |< At,
 
     IFtiCAL                   `noun`    {- AizodiyAd -}        [ "increase", "intensification" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     FACiL                     `noun`    {- zAyid -}            [ "Zayid", "Zayed" ],
 

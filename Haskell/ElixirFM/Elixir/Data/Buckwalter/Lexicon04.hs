@@ -711,7 +711,7 @@ cluster_13  = listing "Lexicon's properties"
 
     IstiFCA' |< Iy            `adj`     {- AisotivonA}iy~ -}   [ "exceptional", "extraordinary" ],
 
-    MaFCIy                    `adj`     {- mavoniy~ -}         [ "folded", "doubled" ],
+    MaFCIL                    `adj`     {- mavoniy~ -}         [ "folded", "doubled" ],
 
     MuFaCCY                   `noun`    {- muvan~aY -}         [ "doubled", "twofold" ]
                               `plural`     MuFaCCY |< At,
@@ -941,7 +941,7 @@ cluster_18  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- vawob -}            [ "garment", "robe", "clothes" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "_tiyAb N" ] -},
+                              `plural`     FiyAL,
 
     FaCAL                     `noun`    {- vawAb -}            [ "recompense", "reward" ],
 
@@ -1014,7 +1014,6 @@ cluster_20  = listing "Lexicon's properties"
                               `plural`     FUCAL,
 
     FA'iL |< aT               `noun`    {- vA}irap -}          [ "tumult", "rage" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MuFIL                     `noun`    {- muviyr -}           [ "influential", "provocative" ],
@@ -1039,6 +1038,8 @@ cluster_21  = listing "Lexicon's properties"
     FaL |< Iy                 `adj`     {- vawiy~ -}           [ unwords [ "guest", "room" ] ] ]
 
  |> "_t w y" <| [
+
+    FUw |< aT                 `noun`    {- vuw~ap -}           [ unwords [ "road", "sign" ], "signpost" ],
 
     FaCY                      `verb`    {- vawaY-i -}          [ unwords [ "settle", "down" ], "remain" ]
                               `imperf`     FCY
@@ -1096,13 +1097,13 @@ cluster_21  = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- valAvmA}ap -}       [ unwords [ "three", "-", "hundred" ] ] ]
 
- |> "_tamAnimA'" <| [
-
-    Identity |< aT            `noun`    {- vamAnimA}ap -}      [ unwords [ "eight", "-", "hundred" ] ] ]
-
 
 cluster_22  = listing "Lexicon's properties"
 
+
+ |> "_tamAnimA'" <| [
+
+    Identity |< aT            `noun`    {- vamAnimA}ap -}      [ unwords [ "eight", "-", "hundred" ] ] ]
 
  |> "_tanAyA" <| [
 
@@ -1178,13 +1179,13 @@ cluster_22  = listing "Lexicon's properties"
 
     Identity                  `prep`    {- lilAivonatayo -}    [ unwords [ "to", "/", "for", "+", "the", "+", "(", "1st", "word", "in", "\"twelve\"", ")" ] ] ]
 
- |> "lilAi_tnatayn" <| [
-
-    Identity |<< "i"          `prep`    {- liloAivonatayoni -} [ unwords [ "to", "/", "for", "+", "the", "+", "two" ] ] ]
-
 
 cluster_23  = listing "Lexicon's properties"
 
+
+ |> "lilAi_tnatayn" <| [
+
+    Identity |<< "i"          `prep`    {- liloAivonatayoni -} [ unwords [ "to", "/", "for", "+", "the", "+", "two" ] ] ]
 
  |> "lilAi_tnay" <| [
 

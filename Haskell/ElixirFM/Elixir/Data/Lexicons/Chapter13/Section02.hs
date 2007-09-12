@@ -517,7 +517,6 @@ cluster_30  = listing "Lexicon's properties"
                               `pfirst`     FuL,
 
     FA'iL |< aT               `noun`    {- \$A}ibap -}         [ "defect", "impurity" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL ]
 
  |> "^s w f" <| [
@@ -635,6 +634,7 @@ cluster_33  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- \$ayo' -}           [ "something", "things" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                               `plural`     FaL ]
 
  |> "^s y .h" <| [

@@ -102,12 +102,18 @@ cluster_142 = listing "Lexicon's properties"
                               `plural`     MuFACI |< At,
 
     FIL |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire" ]
+                              `plural`     FaCALY,
+
+    FIy |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire" ]
                               `plural`     FaCALY ]
 
  |> "n y '" <| [
 
     FAL                       `verb`    {- nA'-i -}            [ unwords [ "be", "raw" ], unwords [ "be", "uncooked" ] ]
                               `imperf`     FIL,
+
+    FIy                       `adj`     {- niy~ -}             [ "raw", "uncooked" ]
+                              `plural`     FIL |< aT,
 
     FaCL                      `noun`    {- nayo' -}            [ unwords [ "raw", "state" ], unwords [ "uncooked", "state" ] ],
 

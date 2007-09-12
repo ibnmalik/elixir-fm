@@ -2648,6 +2648,26 @@ $Lexicon = {
   ],
   '_t w y' => [
     {
+      'types' => {},
+      'entry' => '_tuww',
+      'form' => '_tuwwaT',
+      'lines' => [
+        ';; vuw~ap_1',
+        'vw      vuw~    Nap     road sign;signpost'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUw |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'road sign',
+        'signpost'
+      ],
+      'orig' => 'vuw~ap',
+      'prefix' => ''
+    },
+    {
       'types' => {
         '_tw' => {
           'IV_0hwnyn' => 1
@@ -4328,7 +4348,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'MaFCIy',
+      'morphs' => 'MaFCIL',
       'suffix' => '',
       'glosses' => [
         'folded',
@@ -7307,7 +7327,6 @@ $Lexicon = {
       ],
       'patterns' => {
         '_tawA\'ir' => [
-          'FaCA\'iL',
           'FawA\'iL'
         ]
       },
@@ -9018,19 +9037,13 @@ $Lexicon = {
       'types' => {},
       'entry' => '_tuww',
       'form' => '_tuwwaT',
-      'lines' => [
-        ';; vuw~ap_1',
-        'vw      vuw~    Nap     road sign;signpost'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FUL |< aT',
       'suffix' => ' |< aT',
-      'glosses' => [
-        'road sign',
-        'signpost'
-      ],
+      'glosses' => [],
       'orig' => 'vuw~ap',
       'prefix' => ''
     },
@@ -9664,7 +9677,9 @@ $Lexicon = {
         'AvwAb   >avowAb N       garments;clothes'
       ],
       'patterns' => {
-        '_tiyAb' => [],
+        '_tiyAb' => [
+          'FiyAL'
+        ],
         '\'a_twAb' => [
           'HaFCAL'
         ]
@@ -10076,9 +10091,12 @@ $Lexicon->{'_t y r'}[2]{'glosses'} = $Lexicon->{'_t w r'}[18]{'glosses'};
 $Lexicon->{'_t k l'}[3]{'types'} = $Lexicon->{'_t k l n'}[0]{'types'};
 $Lexicon->{'_t k l'}[3]{'lines'} = $Lexicon->{'_t k l n'}[0]{'lines'};
 $Lexicon->{'_t k l'}[3]{'glosses'} = $Lexicon->{'_t k l n'}[0]{'glosses'};
-$Lexicon->{'_t w w'}[1]{'types'} = $Lexicon->{'_t w y'}[4]{'types'};
-$Lexicon->{'_t w w'}[1]{'lines'} = $Lexicon->{'_t w y'}[4]{'lines'};
-$Lexicon->{'_t w w'}[1]{'glosses'} = $Lexicon->{'_t w y'}[4]{'glosses'};
+$Lexicon->{'_t w w'}[0]{'types'} = $Lexicon->{'_t w y'}[0]{'types'};
+$Lexicon->{'_t w w'}[0]{'lines'} = $Lexicon->{'_t w y'}[0]{'lines'};
+$Lexicon->{'_t w w'}[0]{'glosses'} = $Lexicon->{'_t w y'}[0]{'glosses'};
+$Lexicon->{'_t w w'}[1]{'types'} = $Lexicon->{'_t w y'}[5]{'types'};
+$Lexicon->{'_t w w'}[1]{'lines'} = $Lexicon->{'_t w y'}[5]{'lines'};
+$Lexicon->{'_t w w'}[1]{'glosses'} = $Lexicon->{'_t w y'}[5]{'glosses'};
 $Lexicon->{'_t ` b'}[2]{'types'} = $Lexicon->{'_t ` b n'}[0]{'types'};
 $Lexicon->{'_t ` b'}[2]{'lines'} = $Lexicon->{'_t ` b n'}[0]{'lines'};
 $Lexicon->{'_t ` b'}[2]{'glosses'} = $Lexicon->{'_t ` b n'}[0]{'glosses'};

@@ -20515,6 +20515,26 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => '\'iyAb',
+      'form' => '\'iyAb',
+      'lines' => [
+        ';; <iyAb_1',
+        '<yAb    <iyAb   N       return',
+        'AyAb    <iyAb   N       return'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiyAL',
+      'suffix' => '',
+      'glosses' => [
+        'return'
+      ],
+      'orig' => 'IiyAb',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => '\'awwAb',
       'form' => '\'awwAb',
       'lines' => [
@@ -36760,7 +36780,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'iwA\'' => [
-          'FiCAL'
+          'FiCAL',
+          'FiCA\''
         ]
       },
       'index' => '1',
@@ -36783,7 +36804,8 @@ $Lexicon = {
       'patterns' => {
         '\'iywA\'' => [
           'FICAL',
-          'HICAL'
+          'HICAL',
+          'HICA\''
         ]
       },
       'index' => '2',
@@ -36802,7 +36824,8 @@ $Lexicon = {
       'patterns' => {
         '\'iywA\'' => [
           'FICAL',
-          'HICAL'
+          'HICAL',
+          'HICA\''
         ]
       },
       'index' => '2',
@@ -44722,19 +44745,13 @@ $Lexicon = {
       'types' => {},
       'entry' => '\'iyAb',
       'form' => '\'iyAb',
-      'lines' => [
-        ';; <iyAb_1',
-        '<yAb    <iyAb   N       return',
-        'AyAb    <iyAb   N       return'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
       'suffix' => '',
-      'glosses' => [
-        'return'
-      ],
+      'glosses' => [],
       'orig' => 'IiyAb',
       'prefix' => ''
     },
@@ -53761,6 +53778,47 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => '\'iyAl',
+      'form' => '\'iyAlaT',
+      'lines' => [
+        ';; <iyAlap_1',
+        '<yAl    <iyAl   Nap     administration;management',
+        'AyAl    <iyAl   Nap     administration;management'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiyAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'administration',
+        'management'
+      ],
+      'orig' => 'IiyAlap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'iyAl',
+      'form' => '\'iyAlaT',
+      'lines' => [
+        ';; <iyAlap_2',
+        '<yAl    <iyAl   NapAt   district',
+        'AyAl    <iyAl   NapAt   district'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FiyAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'district'
+      ],
+      'orig' => 'IiyAlap',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'ma\'Al' => {
           'NduAt' => 1
@@ -54602,20 +54660,13 @@ $Lexicon = {
       'types' => {},
       'entry' => '\'iyAl',
       'form' => '\'iyAlaT',
-      'lines' => [
-        ';; <iyAlap_1',
-        '<yAl    <iyAl   Nap     administration;management',
-        'AyAl    <iyAl   Nap     administration;management'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL |< aT',
       'suffix' => ' |< aT',
-      'glosses' => [
-        'administration',
-        'management'
-      ],
+      'glosses' => [],
       'orig' => 'IiyAlap',
       'prefix' => ''
     },
@@ -54623,19 +54674,13 @@ $Lexicon = {
       'types' => {},
       'entry' => '\'iyAl',
       'form' => '\'iyAlaT',
-      'lines' => [
-        ';; <iyAlap_2',
-        '<yAl    <iyAl   NapAt   district',
-        'AyAl    <iyAl   NapAt   district'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FiCAL |< aT',
       'suffix' => ' |< aT',
-      'glosses' => [
-        'district'
-      ],
+      'glosses' => [],
       'orig' => 'IiyAlap',
       'prefix' => ''
     },
@@ -55223,6 +55268,9 @@ $Lexicon->{'\' l y'}[8]{'glosses'} = $Lexicon->{'\' l w'}[5]{'glosses'};
 $Lexicon->{'\' w l y'}[0]{'types'} = $Lexicon->{'\' w l w'}[0]{'types'};
 $Lexicon->{'\' w l y'}[0]{'lines'} = $Lexicon->{'\' w l w'}[0]{'lines'};
 $Lexicon->{'\' w l y'}[0]{'glosses'} = $Lexicon->{'\' w l w'}[0]{'glosses'};
+$Lexicon->{'\' y b'}[0]{'types'} = $Lexicon->{'\' w b'}[4]{'types'};
+$Lexicon->{'\' y b'}[0]{'lines'} = $Lexicon->{'\' w b'}[4]{'lines'};
+$Lexicon->{'\' y b'}[0]{'glosses'} = $Lexicon->{'\' w b'}[4]{'glosses'};
 $Lexicon->{'\' y b'}[2]{'types'} = $Lexicon->{'\' y b'}[1]{'types'};
 $Lexicon->{'\' y b'}[2]{'lines'} = $Lexicon->{'\' y b'}[1]{'lines'};
 $Lexicon->{'\' y b'}[2]{'glosses'} = $Lexicon->{'\' y b'}[1]{'glosses'};
@@ -55379,3 +55427,9 @@ $Lexicon->{'\' y m n'}[0]{'glosses'} = $Lexicon->{'\' y m'}[0]{'glosses'};
 $Lexicon->{'\' y m n'}[1]{'types'} = $Lexicon->{'\' y m'}[1]{'types'};
 $Lexicon->{'\' y m n'}[1]{'lines'} = $Lexicon->{'\' y m'}[1]{'lines'};
 $Lexicon->{'\' y m n'}[1]{'glosses'} = $Lexicon->{'\' y m'}[1]{'glosses'};
+$Lexicon->{'\' y l'}[0]{'types'} = $Lexicon->{'\' w l'}[3]{'types'};
+$Lexicon->{'\' y l'}[0]{'lines'} = $Lexicon->{'\' w l'}[3]{'lines'};
+$Lexicon->{'\' y l'}[0]{'glosses'} = $Lexicon->{'\' w l'}[3]{'glosses'};
+$Lexicon->{'\' y l'}[1]{'types'} = $Lexicon->{'\' w l'}[4]{'types'};
+$Lexicon->{'\' y l'}[1]{'lines'} = $Lexicon->{'\' w l'}[4]{'lines'};
+$Lexicon->{'\' y l'}[1]{'glosses'} = $Lexicon->{'\' w l'}[4]{'glosses'};

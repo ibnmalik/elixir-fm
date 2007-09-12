@@ -312,6 +312,8 @@ cluster_46  = listing "Lexicon's properties"
 
     FaCY |< aT                `noun`    {- \$akAp -}           [ "complaint", "grievance" ],
 
+    FiCAy |< aT               `noun`    {- \$ikAyap -}         [ "complaint", "grievance" ],
+
     FACI                      `adj`     {- \$Akiy -}           [ "complaining" ]
                               `plural`     FACI |< At,
 

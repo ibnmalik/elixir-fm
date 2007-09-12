@@ -743,7 +743,7 @@ cluster_34  = listing "Lexicon's properties"
     MuFACY |< aT              `noun`    {- muEAnAp -}          [ "hardship", "suffering", "effort" ]
                               `plural`     MuFACY |< At,
 
-    MaFCIy                    `adj`     {- maEoniy~ -}         [ "concerned", "affected", "interested" ],
+    MaFCIL                    `adj`     {- maEoniy~ -}         [ "concerned", "affected", "interested" ],
 
     MaFCY |< Iy               `adj`     {- maEonawiy~ -}       [ "moral", "spiritual", "morale", "spirits", "morally", "spiritually" ],
 

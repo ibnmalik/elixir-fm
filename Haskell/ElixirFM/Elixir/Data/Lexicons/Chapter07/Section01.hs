@@ -395,8 +395,9 @@ cluster_9   = listing "Lexicon's properties"
                               `plural`     IFtiCAL |< At,
 
     MaFCaL                    `noun`    {- maxobaO -}          [ unwords [ "hide", "-", "out" ], "shelter" ]
+                              `plural`     MaFCaL |< At
                               `plural`     MaFACiL
-                           {- `others`  [ "ma_hba N-|t", "ma_hba'A N-|" ] -},
+                           {- `others`  [ "ma_hba'A N-|" ] -},
 
     MuFtaCiL                  `noun`    {- muxotabi} -}        [ "hidden", "concealed" ] ]
 
@@ -643,7 +644,7 @@ cluster_13  = listing "Lexicon's properties"
     FACI                      `adj`     {- xAfiy -}            [ "hidden", "secret" ]
                               `plural`     FACI |< At,
 
-    MaFCIy                    `adj`     {- maxofiy~ -}         [ "hidden" ],
+    MaFCIL                    `adj`     {- maxofiy~ -}         [ "hidden" ],
 
     MutaFaCCI                 `noun`    {- mutaxaf~iy -}       [ "disguised" ]
                               `plural`     MutaFaCCI |< At,

@@ -33,9 +33,9 @@ cluster_1   = listing "Lexicon's properties"
  |> ".h ' .t" <| [
 
     FACiL                     `noun`    {- HA}iT -}            [ "wall" ]
+                              `plural`     FiyAL
                               `plural`     FILAn
-                              `plural`     FawACiL
-                           {- `others`  [ ".hiyA.t N" ] -},
+                              `plural`     FawACiL,
 
     FACiL |< Iy               `adj`     {- HA}iTiy~ -}         [ "wall" ] ]
 
@@ -618,9 +618,9 @@ cluster_12  = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- HaZiy~ap -}         [ "mistress", "paramour" ]
                               `plural`     FaCALY,
 
-    MaFCIy                    `adj`     {- maHoZiy~ -}         [ "favorite", "darling", "favored" ],
+    MaFCIL                    `adj`     {- maHoZiy~ -}         [ "favorite", "darling", "favored" ],
 
-    MaFCIy |< aT              `noun`    {- maHoZiy~ap -}       [ "mistress", "paramour" ] ]
+    MaFCIL |< aT              `noun`    {- maHoZiy~ap -}       [ "mistress", "paramour" ] ]
 
 
 cluster_13  = listing "Lexicon's properties"
@@ -1059,10 +1059,7 @@ cluster_21  = listing "Lexicon's properties"
                               `plural`     FawACI,
 
     MaFCUL                    `adj`     {- maHo$uw~ -}         [ "stuffed", "filled", "loaded", unwords [ "stuffed", "food" ] ]
-                              `plural`     MaFCUL |< At,
-
-    MaFCIy                    `adj`     {- maHo$iy~ -}         [ "stuffed", "filled", "loaded" ]
-                              `plural`     MaFACI ]
+                              `plural`     MaFCUL |< At ]
 
  |> ".h ^s y" <| [
 
@@ -1075,7 +1072,10 @@ cluster_21  = listing "Lexicon's properties"
                               `plural`     FaCALY,
 
     FACI |< aT                `noun`    {- HA$iyap -}          [ "margin", "edge", "retinue" ]
-                              `plural`     FawACI ]
+                              `plural`     FawACI,
+
+    MaFCIL                    `adj`     {- maHo$iy~ -}         [ "stuffed", "filled", "loaded" ]
+                              `plural`     MaFACI ]
 
 
 cluster_22  = listing "Lexicon's properties"
@@ -1872,7 +1872,9 @@ cluster_37  = listing "Lexicon's properties"
     FaCI                      `verb`    {- Hadiy-a -}          [ "remain", unwords [ "not", "move" ] ]
                               `imperf`     FCY,
 
-    FACI                      `noun`    {- HAdiy -}            [ "one" ] ]
+    FACI                      `noun`    {- HAdiy -}            [ "one" ],
+
+    FiCAy |< aT               `noun`    {- HidAyap -}          [ "kite" ] ]
 
  |> ".h d y" <| [
 
@@ -2331,7 +2333,7 @@ cluster_45  = listing "Lexicon's properties"
     FACI                      `noun`    {- HAkiy -}            [ "narrator", "speaker" ]
                               `plural`     FACI |< At,
 
-    MaFCIy                    `adj`     {- maHokiy~ -}         [ "spoken" ] ]
+    MaFCIL                    `adj`     {- maHokiy~ -}         [ "spoken" ] ]
 
  |> ".h l .h l" <| [
 
@@ -3255,7 +3257,7 @@ cluster_65  = listing "Lexicon's properties"
 
     FACI |< aT                `noun`    {- HAmiyap -}          [ "garrison" ],
 
-    MaFCIy                    `adj`     {- maHomiy~ -}         [ "protected", "protectorate" ],
+    MaFCIL                    `adj`     {- maHomiy~ -}         [ "protected", "protectorate" ],
 
     MuFACI                    `noun`    {- muHAmiy -}          [ "lawyer", unwords [ "defense", "counsel" ] ]
                               `plural`     MuFACI |< At,
@@ -3496,7 +3498,7 @@ cluster_70  = listing "Lexicon's properties"
 
     FawACI                    `noun`    {- HawAniy -}          [ "bosom", "breast" ],
 
-    MaFCIy                    `adj`     {- maHoniy~ -}         [ "bowed", "inclined", "bent" ],
+    MaFCIL                    `adj`     {- maHoniy~ -}         [ "bowed", "inclined", "bent" ],
 
     MunFaCI                   `noun`    {- munoHaniy -}        [ "bent", "twisted", "bowed" ]
                               `plural`     MunFaCI |< At,
@@ -4753,14 +4755,15 @@ cluster_95  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- Haw~A' -}           [ "Eve" ],
 
     IFtiCAL                   `noun`    {- AiHotiwA' -}        [ "inclusion", "content" ]
-                              `plural`     IFtiCAL |< At ]
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiCA' |< At ]
 
  |> ".h w .d" <| [
 
     FaCL                      `noun`    {- HawoD -}            [ "basin", "reservoir", unwords [ "safe", "havens" ] ]
+                              `plural`     FiyAL
                               `plural`     FILAn
-                              `plural`     HaFCAL
-                           {- `others`  [ ".hiyA.d N" ] -},
+                              `plural`     HaFCAL,
 
     FuCayL |< aT              `noun`    {- HuwayoDap -}        [ unwords [ "renal", "pelvis" ] ] ]
 
@@ -4769,7 +4772,9 @@ cluster_95  = listing "Lexicon's properties"
     FaCaL                     `noun`    {- HawaS -}            [ "squinting" ]
                               `plural`     FUL
                               `plural`     FaCLA'
-                              `plural`     HaFCaL ]
+                              `plural`     HaFCaL,
+
+    FiyAL |< aT               `noun`    {- HiyASap -}          [ "girth" ] ]
 
 
 cluster_96  = listing "Lexicon's properties"
@@ -4805,6 +4810,8 @@ cluster_97  = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- HawoTap -}          [ "caution", "care" ],
 
+    FiyAL |< aT               `noun`    {- HiyATap -}          [ "guarding", "custody" ],
+
     TaFCIL                    `noun`    {- taHowiyT -}         [ "encirclement" ]
                               `plural`     TaFCIL |< At,
 
@@ -4824,10 +4831,9 @@ cluster_97  = listing "Lexicon's properties"
     IFtiyAL |< Iy             `noun`    {- AiHotiyATiy~ -}     [ unwords [ "reserves", "(", "econ.,", "geol.,", "milit.,", "spo.", ")" ] ],
 
     FA'iL                     `noun`    {- HA}iT -}            [ "wall" ]
+                              `plural`     FiyAL
                               `plural`     FILAn
-                              `plural`     FaCA'iL
-                              `plural`     FawA'iL
-                           {- `others`  [ ".hiyA.t N" ] -},
+                              `plural`     FawA'iL,
 
     FA'iL |< Iy               `adj`     {- HA}iTiy~ -}         [ "wall" ],
 
@@ -4854,8 +4860,7 @@ cluster_98  = listing "Lexicon's properties"
     FaCL                      `noun`    {- Hawoj -}            [ "need", "want" ],
 
     FAL |< aT                 `noun`    {- HAjap -}            [ "need", "thing", "belongings", "necessities" ]
-                              `plural`     FaCA'iL
-                              `plural`     FawA'iL,
+                              `plural`     FaCA'iL,
 
     IFtiyAL                   `noun`    {- AiHotiyAj -}        [ "need", "requirement" ]
                               `plural`     IFtiyAL |< At,
@@ -4946,6 +4951,8 @@ cluster_99  = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL,
 
+    FiyAL |< aT               `noun`    {- HiyAkap -}          [ "weaving", "sewing", "needlework" ],
+
     FA'iL                     `noun`    {- HA}ik -}            [ "weaver" ]
                               `plural`     FAL |< aT ]
 
@@ -4989,6 +4996,9 @@ cluster_100 = listing "Lexicon's properties"
     FaCALY                    `prep`    {- HawAlaY -}          [ "approximately", "around" ]
                            {- `others`  [ ".hawAlay FW-Wa-y FW-WaBi" ] -},
 
+    FiyAL |<< "a"             `prep`    {- HiyAla -}           [ "concerning", unwords [ "with", "regard", "to" ] ]
+                           {- `others`  [ ".hiyAli FW-Wa FW-Wa-i" ] -},
+
     MaFAL |< aT               `noun`    {- maHAlap -}          [ "pulley", "wheel", "roller" ],
 
     TaFCIL                    `noun`    {- taHowiyl -}         [ "conversion", "transfer" ]
@@ -5014,7 +5024,6 @@ cluster_100 = listing "Lexicon's properties"
     FA'iL                     `noun`    {- HA}il -}            [ "Ha'il", "Hayil" ],
 
     FA'iL                     `noun`    {- HA}il -}            [ "obstacle", "partition" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MuFaCCiL                  `noun`    {- muHaw~il -}         [ "converter", "transformer" ],
@@ -5229,6 +5238,11 @@ cluster_104 = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- Hawozap -}          [ "possession", "territory" ],
 
+    FayyiL                    `noun`    {- Hay~iz -}           [ "scope", "domain", "sphere" ]
+                           {- `others`  [ ".hayz Ndu", "'a.hyAz N" ] -},
+
+    FiyAL |< aT               `noun`    {- HiyAzap -}          [ "possession", "attainment" ],
+
     InFiyAL                   `noun`    {- AinoHiyAz -}        [ "alignment", "bias", unwords [ "prejudice", "(", "political", ")" ] ]
                               `plural`     InFiyAL |< At,
 
@@ -5243,10 +5257,12 @@ cluster_104 = listing "Lexicon's properties"
     FaCAL                     `noun`    {- HayA' -}            [ "modesty", "shame" ],
 
     IstiFCAL                  `noun`    {- AisotiHoyA' -}      [ "shame", "bashfulness" ]
-                              `plural`     IstiFCAL |< At,
+                              `plural`     IstiFCAL |< At
+                              `plural`     IstiFCA' |< At,
 
     HiFCAL                    `noun`    {- IiHoyA' -}          [ "commemoration" ]
-                              `plural`     HiFCAL |< At ]
+                              `plural`     HiFCAL |< At
+                              `plural`     HiFCA' |< At ]
 
 
 cluster_105 = listing "Lexicon's properties"
@@ -5295,12 +5311,10 @@ cluster_106 = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- HiyATap -}          [ "guarding", "custody" ],
 
     IFtiCAL                   `noun`    {- AiHotiyAT -}        [ unwords [ "reserve", "(", "econ.,", "geol.,", "milit.,", "spo.", ")" ] ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL                   `noun`    {- AiHotiyAT -}        [ "caution", "precaution" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL |< Iy             `adj`     {- AiHotiyATiy~ -}     [ "precautionary", "contingency", "reserve" ],
 
@@ -5315,8 +5329,7 @@ cluster_106 = listing "Lexicon's properties"
  |> ".h y ^g" <| [
 
     IFtiCAL                   `noun`    {- AiHotiyAj -}        [ "need", "requirement" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At ]
+                              `plural`     IFtiCAL |< At ]
 
  |> ".h y _t" <| [
 
@@ -5398,8 +5411,7 @@ cluster_108 = listing "Lexicon's properties"
                            {- `others`  [ ".hiyAli FW-Wa FW-Wa-i" ] -},
 
     IFtiCAL                   `noun`    {- AiHotiyAl -}        [ "fraud", "deception", "cheating" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     FACiL                     `noun`    {- HAyil -}            [ "Hayil", "Ha'il" ],
 
@@ -5599,8 +5611,7 @@ cluster_112 = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     InFiCAL                   `noun`    {- AinoHiyAz -}        [ "alignment", "bias", unwords [ "prejudice", "(", "political", ")" ] ]
-                              `plural`     InFiCAL |< At
-                              `plural`     InFiyAL |< At,
+                              `plural`     InFiCAL |< At,
 
     MutaFaCCiL                `noun`    {- mutaHay~iz -}       [ "biased", "prejudiced" ] ]
 

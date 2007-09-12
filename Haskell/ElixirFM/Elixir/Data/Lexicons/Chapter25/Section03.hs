@@ -16,6 +16,12 @@ cluster_41  = listing "Lexicon's properties"
 
     IFtAL                     `verb`    {- AinotAb -}          [ "afflict", "happen" ],
 
+    FiyAL |< aT               `noun`    {- niyAbap -}          [ "proxy", "deputyship" ],
+
+    FiyAL |< aT               `noun`    {- niyAbap -}          [ unwords [ "instead", "of" ], unwords [ "in", "lieu", "of" ] ],
+
+    FiyAL |< Iy               `adj`     {- niyAbiy~ -}         [ "representative", "delegated", "deputed" ],
+
     HiFAL |< aT               `noun`    {- IinAbap -}          [ "deputization", "authorization" ],
 
     TaFACuL                   `noun`    {- tanAwub -}          [ "alternation", "rotation" ]
@@ -104,8 +110,8 @@ cluster_42  = listing "Lexicon's properties"
  |> "n w q" <| [
 
     FAL |< aT                 `noun`    {- nAqap -}            [ unwords [ "she", "-", "camel" ] ]
-                              `plural`     FUL
-                           {- `others`  [ "niyAq N" ] -} ]
+                              `plural`     FiyAL
+                              `plural`     FUL ]
 
 
 cluster_43  = listing "Lexicon's properties"
@@ -194,7 +200,15 @@ cluster_44  = listing "Lexicon's properties"
     FaC |<< "awIy"            `adj`     {- nawawiy~ -}         [ "nuclear", "atomic", "nucleic" ],
 
     FIL |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire" ]
+                              `plural`     FaCALY,
+
+    FIy |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire" ]
                               `plural`     FaCALY ]
+
+ |> "n y '" <| [
+
+    FIy                       `adj`     {- niy~ -}             [ "raw", "uncooked" ]
+                              `plural`     FIL |< aT ]
 
  |> "n y ^g r" <| [
 

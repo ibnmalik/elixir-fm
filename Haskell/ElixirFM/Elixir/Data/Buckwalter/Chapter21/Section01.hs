@@ -259,7 +259,7 @@ cluster_5   = listing "Lexicon's properties"
 
     FawACI                    `noun`    {- qawADiy -}          [ "requirements", "exigencies" ],
 
-    MaFCIy                    `adj`     {- maqoDiy~ -}         [ "settled", "finished" ],
+    MaFCIL                    `adj`     {- maqoDiy~ -}         [ "settled", "finished" ],
 
     MutaFACI                  `noun`    {- mutaqADiy -}        [ "litigant" ]
                               `plural`     MutaFACI |< At,

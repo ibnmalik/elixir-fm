@@ -1027,7 +1027,6 @@ cluster_79  = listing "Lexicon's properties"
                               `plural`     HaFCAL,
 
     FA'iL |< aT               `noun`    {- \$A}ibap -}         [ "defect", "impurity" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MaFUL                     `adj`     {- ma$uwb -}           [ "mixed", "impure", "altered" ] ]

@@ -63,7 +63,8 @@ cluster_1   = listing "Lexicon's properties"
  |> ".s ' m" <| [
 
     FACiL                     `adj`     {- SA}im -}            [ "fasting", "abstinent" ]
-                           {- `others`  [ ".siyAm N", ".suyyam N", ".suwwam N" ] -} ]
+                              `plural`     FiyAL
+                           {- `others`  [ ".suyyam N", ".suwwam N" ] -} ]
 
  |> ".s ' n" <| [
 

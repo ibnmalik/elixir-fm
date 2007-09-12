@@ -959,7 +959,9 @@ cluster_19  = listing "Lexicon's properties"
     IFtaCY                    `verb`    {- Ai$otakaY -}        [ "complain" ],
 
     FaCLY                     `noun`    {- \$akowaY -}         [ "complaint", "grievance" ]
-                              `plural`     FaCALY ]
+                              `plural`     FaCALY,
+
+    FiCAy |< aT               `noun`    {- \$ikAyap -}         [ "complaint", "grievance" ] ]
 
  |> "^s k y" <| [
 
@@ -1591,7 +1593,6 @@ cluster_30  = listing "Lexicon's properties"
                               `pfirst`     FuL,
 
     FA'iL |< aT               `noun`    {- \$A}ibap -}         [ "defect", "impurity" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL ]
 
  |> "^s w f" <| [
@@ -1709,6 +1710,7 @@ cluster_33  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- \$ayo' -}           [ "something", "things" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                               `plural`     FaL ]
 
  |> "^s y .h" <| [

@@ -260,19 +260,21 @@ cluster_24  = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL,
 
+    FiyAL |< aT               `noun`    {- xiyAnap -}          [ "treason", "betrayal" ],
+
     FA'iL                     `noun`    {- xA}in -}            [ "traitor", "treacherous", "disloyal" ]
                               `plural`     FaCL |< aT
                               `plural`     FUCAL ]
+
+
+cluster_25  = listing "Lexicon's properties"
+
 
  |> "_h w r" <| [
 
     FaCL                      `noun`    {- xawor -}            [ "inlet", "bay" ]
                               `plural`     HaFCAL
                               `plural`     FILAn ]
-
-
-cluster_25  = listing "Lexicon's properties"
-
 
  |> "_h w r y" <| [
 
@@ -374,8 +376,7 @@ cluster_26  = listing "Lexicon's properties"
                               `plural`     FiCAL |< At,
 
     IFtiCAL                   `noun`    {- AixotiyAr -}        [ "choice", "selection", "preference" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL |< Iy             `adj`     {- AixotiyAriy~ -}     [ "elective", "voluntary" ],
 

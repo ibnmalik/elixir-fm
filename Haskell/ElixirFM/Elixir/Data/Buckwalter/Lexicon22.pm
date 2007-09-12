@@ -14360,6 +14360,53 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        'kuwY' => {
+          'N0' => 1
+        },
+        'kuwA' => {
+          'Nhy' => 1
+        },
+        'kiwA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'kuww',
+      'form' => 'kuwwaT',
+      'lines' => [
+        ';; kuw~ap_1',
+        'kw      kuw~    NapAt   aperture;skylight',
+        'kwY     kuwaY   N0      apertures;skylights',
+        'kwA     kuwA    Nhy     apertures;skylights',
+        'kwA\'    kiwA\'   N0_Nh   apertures;skylights',
+        'kwA&    kiwA&   Nh      apertures;skylights',
+        'kwA}    kiwA}   Nhy     apertures;skylights'
+      ],
+      'patterns' => {
+        'kuwY' => [
+          'FuCY'
+        ],
+        'kuwA' => [],
+        'kiwA\'' => [
+          'FiCA\''
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUw |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'aperture',
+        'skylight',
+        'apertures',
+        'skylights'
+      ],
+      'orig' => 'kuw~ap',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'kawiyy',
       'form' => 'kawiyyaT',
@@ -20580,6 +20627,24 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => 'kiyAn',
+      'form' => 'kiyAn',
+      'lines' => [],
+      'patterns' => {
+        'kiyAn' => [
+          'FiyAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiyAL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'kiyAn',
+      'prefix' => ''
+    },
+    {
       'types' => {
         '\'amAkin' => {
           'Ndip' => 2
@@ -24388,6 +24453,20 @@ $Lexicon = {
       'suffix' => ' |< aT',
       'glosses' => [],
       'orig' => 'kAhiyap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'kihAy',
+      'form' => 'kihAyaT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCAy |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
+      'orig' => 'kihAyap',
       'prefix' => ''
     }
   ],
@@ -34183,30 +34262,10 @@ $Lexicon = {
   ],
   'k w w' => [
     {
-      'types' => {
-        'kuwY' => {
-          'N0' => 1
-        },
-        'kuwA' => {
-          'Nhy' => 1
-        },
-        'kiwA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kuww',
       'form' => 'kuwwaT',
-      'lines' => [
-        ';; kuw~ap_1',
-        'kw      kuw~    NapAt   aperture;skylight',
-        'kwY     kuwaY   N0      apertures;skylights',
-        'kwA     kuwA    Nhy     apertures;skylights',
-        'kwA\'    kiwA\'   N0_Nh   apertures;skylights',
-        'kwA&    kiwA&   Nh      apertures;skylights',
-        'kwA}    kiwA}   Nhy     apertures;skylights'
-      ],
+      'lines' => [],
       'patterns' => {
         'kuwY' => [
           'FuCY'
@@ -34220,12 +34279,7 @@ $Lexicon = {
       'entity' => 'noun',
       'morphs' => 'FUL |< aT',
       'suffix' => ' |< aT',
-      'glosses' => [
-        'aperture',
-        'skylight',
-        'apertures',
-        'skylights'
-      ],
+      'glosses' => [],
       'orig' => 'kuw~ap',
       'prefix' => ''
     },
@@ -34929,6 +34983,25 @@ $Lexicon = {
         'equivocal'
       ],
       'orig' => 'kinAyap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'makniyy',
+      'form' => 'makniyy',
+      'lines' => [
+        ';; makoniy~_1',
+        'mkny    makoniy~        N       alluded to     [[makoniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MaFCIL',
+      'suffix' => '',
+      'glosses' => [
+        'alluded to'
+      ],
+      'orig' => 'makoniy~',
       'prefix' => ''
     }
   ],
@@ -40487,21 +40560,16 @@ $Lexicon = {
     },
     {
       'types' => {},
-      'entry' => 'makniyy',
-      'form' => 'makniyy',
-      'lines' => [
-        ';; makoniy~_1',
-        'mkny    makoniy~        N       alluded to     [[makoniy~/ADJ]]'
-      ],
+      'entry' => 'kinAy',
+      'form' => 'kinAyaT',
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MaFCIy',
-      'suffix' => '',
-      'glosses' => [
-        'alluded to'
-      ],
-      'orig' => 'makoniy~',
+      'entity' => 'noun',
+      'morphs' => 'FiCAy |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
+      'orig' => 'kinAyap',
       'prefix' => ''
     },
     {
@@ -41262,8 +41330,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'kawA\'ir' => [
-          'FaCA\'iL',
-          'FawA\'iL'
+          'FaCA\'iL'
         ]
       },
       'index' => '1',
@@ -44191,6 +44258,9 @@ $Lexicon->{'k y m'}[0]{'glosses'} = $Lexicon->{'k w m'}[3]{'glosses'};
 $Lexicon->{'k r w'}[7]{'types'} = $Lexicon->{'k r \''}[0]{'types'};
 $Lexicon->{'k r w'}[7]{'lines'} = $Lexicon->{'k r \''}[0]{'lines'};
 $Lexicon->{'k r w'}[7]{'glosses'} = $Lexicon->{'k r \''}[0]{'glosses'};
+$Lexicon->{'k w n'}[6]{'types'} = $Lexicon->{'k y n'}[0]{'types'};
+$Lexicon->{'k w n'}[6]{'lines'} = $Lexicon->{'k y n'}[0]{'lines'};
+$Lexicon->{'k w n'}[6]{'glosses'} = $Lexicon->{'k y n'}[0]{'glosses'};
 $Lexicon->{'k w l'}[1]{'types'} = $Lexicon->{'k l n'}[3]{'types'};
 $Lexicon->{'k w l'}[1]{'lines'} = $Lexicon->{'k l n'}[3]{'lines'};
 $Lexicon->{'k w l'}[1]{'glosses'} = $Lexicon->{'k l n'}[3]{'glosses'};
@@ -44200,6 +44270,9 @@ $Lexicon->{'k w l n'}[0]{'glosses'} = $Lexicon->{'k l n'}[3]{'glosses'};
 $Lexicon->{'k h w'}[0]{'types'} = $Lexicon->{'k h y'}[0]{'types'};
 $Lexicon->{'k h w'}[0]{'lines'} = $Lexicon->{'k h y'}[0]{'lines'};
 $Lexicon->{'k h w'}[0]{'glosses'} = $Lexicon->{'k h y'}[0]{'glosses'};
+$Lexicon->{'k h w'}[1]{'types'} = $Lexicon->{'k h y'}[1]{'types'};
+$Lexicon->{'k h w'}[1]{'lines'} = $Lexicon->{'k h y'}[1]{'lines'};
+$Lexicon->{'k h w'}[1]{'glosses'} = $Lexicon->{'k h y'}[1]{'glosses'};
 $Lexicon->{'k f y'}[7]{'types'} = $Lexicon->{'k f \''}[16]{'types'};
 $Lexicon->{'k f y'}[7]{'lines'} = $Lexicon->{'k f \''}[16]{'lines'};
 $Lexicon->{'k f y'}[7]{'glosses'} = $Lexicon->{'k f \''}[16]{'glosses'};
@@ -44224,6 +44297,9 @@ $Lexicon->{'k m n'}[12]{'glosses'} = $Lexicon->{'k w m'}[3]{'glosses'};
 $Lexicon->{'k l \''}[4]{'types'} = $Lexicon->{'k l y'}[0]{'types'};
 $Lexicon->{'k l \''}[4]{'lines'} = $Lexicon->{'k l y'}[0]{'lines'};
 $Lexicon->{'k l \''}[4]{'glosses'} = $Lexicon->{'k l y'}[0]{'glosses'};
+$Lexicon->{'k w w'}[0]{'types'} = $Lexicon->{'k w y'}[2]{'types'};
+$Lexicon->{'k w w'}[0]{'lines'} = $Lexicon->{'k w y'}[2]{'lines'};
+$Lexicon->{'k w w'}[0]{'glosses'} = $Lexicon->{'k w y'}[2]{'glosses'};
 $Lexicon->{'k w w'}[1]{'types'} = $Lexicon->{'k w \''}[0]{'types'};
 $Lexicon->{'k w w'}[1]{'lines'} = $Lexicon->{'k w \''}[0]{'lines'};
 $Lexicon->{'k w w'}[1]{'glosses'} = $Lexicon->{'k w \''}[0]{'glosses'};
@@ -44239,12 +44315,15 @@ $Lexicon->{'k r l'}[1]{'glosses'} = $Lexicon->{'k w r l'}[0]{'glosses'};
 $Lexicon->{'k b w'}[5]{'types'} = $Lexicon->{'k b y'}[0]{'types'};
 $Lexicon->{'k b w'}[5]{'lines'} = $Lexicon->{'k b y'}[0]{'lines'};
 $Lexicon->{'k b w'}[5]{'glosses'} = $Lexicon->{'k b y'}[0]{'glosses'};
-$Lexicon->{'k \' n'}[0]{'types'} = $Lexicon->{'k w n'}[14]{'types'};
-$Lexicon->{'k \' n'}[0]{'lines'} = $Lexicon->{'k w n'}[14]{'lines'};
-$Lexicon->{'k \' n'}[0]{'glosses'} = $Lexicon->{'k w n'}[14]{'glosses'};
-$Lexicon->{'k \' n'}[1]{'types'} = $Lexicon->{'k w n'}[15]{'types'};
-$Lexicon->{'k \' n'}[1]{'lines'} = $Lexicon->{'k w n'}[15]{'lines'};
-$Lexicon->{'k \' n'}[1]{'glosses'} = $Lexicon->{'k w n'}[15]{'glosses'};
+$Lexicon->{'k \' n'}[0]{'types'} = $Lexicon->{'k w n'}[15]{'types'};
+$Lexicon->{'k \' n'}[0]{'lines'} = $Lexicon->{'k w n'}[15]{'lines'};
+$Lexicon->{'k \' n'}[0]{'glosses'} = $Lexicon->{'k w n'}[15]{'glosses'};
+$Lexicon->{'k \' n'}[1]{'types'} = $Lexicon->{'k w n'}[16]{'types'};
+$Lexicon->{'k \' n'}[1]{'lines'} = $Lexicon->{'k w n'}[16]{'lines'};
+$Lexicon->{'k \' n'}[1]{'glosses'} = $Lexicon->{'k w n'}[16]{'glosses'};
+$Lexicon->{'k n w'}[5]{'types'} = $Lexicon->{'k n y'}[1]{'types'};
+$Lexicon->{'k n w'}[5]{'lines'} = $Lexicon->{'k n y'}[1]{'lines'};
+$Lexicon->{'k n w'}[5]{'glosses'} = $Lexicon->{'k n y'}[1]{'glosses'};
 $Lexicon->{'k s y'}[0]{'types'} = $Lexicon->{'k s w'}[1]{'types'};
 $Lexicon->{'k s y'}[0]{'lines'} = $Lexicon->{'k s w'}[1]{'lines'};
 $Lexicon->{'k s y'}[0]{'glosses'} = $Lexicon->{'k s w'}[1]{'glosses'};

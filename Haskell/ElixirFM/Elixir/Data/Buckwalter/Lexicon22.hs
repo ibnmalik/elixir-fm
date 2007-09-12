@@ -1490,7 +1490,9 @@ cluster_29  = listing "Lexicon's properties"
  |> "k h w" <| [
 
     FACI |< aT                `noun`    {- kAhiyap -}          [ "officer", "deputy" ]
-                              `plural`     FawACI ]
+                              `plural`     FawACI,
+
+    FiCAy |< aT               `noun`    {- kihAyap -}          [ unwords [ "kihaya", "(", "adm.", "distr.", ")" ] ] ]
 
  |> "k h y" <| [
 
@@ -2349,7 +2351,7 @@ cluster_46  = listing "Lexicon's properties"
 
     IFtaCY                    `verb`    {- AikotanaY -}        [ unwords [ "be", "nicknamed" ] ],
 
-    MaFCIy                    `adj`     {- makoniy~ -}         [ unwords [ "alluded", "to" ] ],
+    FiCAy |< aT               `noun`    {- kinAyap -}          [ "allusion", "equivocal" ],
 
     MuFaCCY                   `adj`     {- mukan~aY -}         [ "nicknamed" ]
                               `plural`     MuFaCCY |< At ]
@@ -2359,7 +2361,9 @@ cluster_46  = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- kunoyap -}          [ "nickname" ]
                               `plural`     FuCY,
 
-    FiCAL |< aT               `noun`    {- kinAyap -}          [ "allusion", "equivocal" ] ]
+    FiCAL |< aT               `noun`    {- kinAyap -}          [ "allusion", "equivocal" ],
+
+    MaFCIL                    `adj`     {- makoniy~ -}         [ unwords [ "alluded", "to" ] ] ]
 
  |> "k n z" <| [
 
@@ -3796,6 +3800,9 @@ cluster_73  = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- kawoniy~ -}         [ "cosmic" ],
 
+    FiyAL                     `noun`    {- kiyAn -}            [ "entity" ]
+                              `plural`     FiyAL |< At,
+
     MaFAL                     `noun`    {- makAn -}            [ "place", "location", "position" ]
                            {- `others`  [ "'amAkin Ndip" ] -},
 
@@ -3844,8 +3851,7 @@ cluster_74  = listing "Lexicon's properties"
                               `plural`     FuCaL,
 
     FuCAL |< aT               `noun`    {- kuwArap -}          [ "beehive" ]
-                              `plural`     FaCA'iL
-                              `plural`     FawA'iL,
+                              `plural`     FaCA'iL,
 
     FaCALI                    `noun`    {- kawAriy -}          [ "Kawari" ],
 
@@ -3923,6 +3929,10 @@ cluster_75  = listing "Lexicon's properties"
                               `imperf`     FCI,
 
     IFtaCY                    `verb`    {- AikotawaY -}        [ unwords [ "be", "pressed" ], unwords [ "be", "ironed" ], unwords [ "be", "cauterized" ], unwords [ "be", "seared" ] ],
+
+    FUw |< aT                 `noun`    {- kuw~ap -}           [ "aperture", "skylight" ]
+                              `plural`     FuCY
+                              `plural`     FiCA',
 
     FaCIL |< aT               `noun`    {- kawiy~ap -}         [ "crease" ],
 

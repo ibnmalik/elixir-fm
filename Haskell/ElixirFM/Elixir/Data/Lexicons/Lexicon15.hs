@@ -520,16 +520,22 @@ cluster_10  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Dawo' -}            [ "light" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ ".daw'A N-|" ] -},
 
     FaCL |< Iy                `adj`     {- Dawo}iy~ -}         [ "light", "luminous", "clear" ],
+
+    FiyAL                     `noun`    {- DiyA' -}            [ "Zia", "Dhia" ],
+
+    FiyAL                     `noun`    {- DiyA' -}            [ "light", "glow" ],
 
     HiFAL |< aT               `noun`    {- IiDA'ap -}          [ "lighting", "illumination" ],
 
     MuFIL                     `adj`     {- muDiy' -}           [ "shining", "bright" ],
 
     InFiCAL                   `noun`    {- AinoDiwA' -}        [ unwords [ "seeking", "refuge" ], unwords [ "rallying", "around" ] ]
-                              `plural`     InFiCAL |< At ]
+                              `plural`     InFiCAL |< At
+                              `plural`     InFiCA' |< At ]
 
  |> ".d w `" <| [
 
@@ -558,13 +564,13 @@ cluster_10  = listing "Lexicon's properties"
 
  |> ".d y '" <| [
 
-    FiCA'                     `noun`    {- DiyA' -}            [ "Zia", "Dhia" ],
-
     FiCAL                     `noun`    {- DiyA' -}            [ "Zia", "Dhia" ],
 
-    FiCA'                     `noun`    {- DiyA' -}            [ "light", "glow" ],
+    FiCA'                     `noun`    {- DiyA' -}            [ "Zia", "Dhia" ],
 
     FiCAL                     `noun`    {- DiyA' -}            [ "light", "glow" ],
+
+    FiCA'                     `noun`    {- DiyA' -}            [ "light", "glow" ],
 
     MuFIL                     `adj`     {- muDiy' -}           [ "shining", "bright" ] ]
 

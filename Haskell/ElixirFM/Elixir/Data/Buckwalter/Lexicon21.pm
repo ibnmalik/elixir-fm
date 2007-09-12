@@ -13786,25 +13786,6 @@ $Lexicon = {
       ],
       'orig' => 'taqoliyap',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'maqliyy',
-      'form' => 'maqliyy',
-      'lines' => [
-        ';; maqoliy~_1',
-        'mqly    maqoliy~        N-ap    fried     [[maqoliy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MaFCIy',
-      'suffix' => '',
-      'glosses' => [
-        'fried'
-      ],
-      'orig' => 'maqoliy~',
-      'prefix' => ''
     }
   ],
   'q l .h' => [
@@ -24593,6 +24574,25 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => 'qayyim',
+      'form' => 'qayyim',
+      'lines' => [
+        ';; qay~im_1',
+        'qym     qay~im  N-ap    valuable'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FayyiL',
+      'suffix' => '',
+      'glosses' => [
+        'valuable'
+      ],
+      'orig' => 'qay~im',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'qawAm',
       'form' => 'qawAm',
       'lines' => [
@@ -24690,6 +24690,45 @@ $Lexicon = {
         'authentic'
       ],
       'orig' => 'qawiym',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qiyAm',
+      'form' => 'qiyAm',
+      'lines' => [
+        ';; qiyAm_1',
+        'qyAm    qiyAm   N       undertaking;carrying out'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiyAL',
+      'suffix' => '',
+      'glosses' => [
+        'undertaking',
+        'carrying out'
+      ],
+      'orig' => 'qiyAm',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qiyAm',
+      'form' => 'qiyAmaT',
+      'lines' => [
+        ';; qiyAmap_1',
+        'qyAm    qiyAm   Nap     resurrection'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiyAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'resurrection'
+      ],
+      'orig' => 'qiyAmap',
       'prefix' => ''
     },
     {
@@ -24976,7 +25015,6 @@ $Lexicon = {
           'FA\'iL'
         ],
         'qawA\'im' => [
-          'FaCA\'iL',
           'FawA\'iL'
         ]
       },
@@ -29542,6 +29580,49 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        'quwY' => {
+          'N0' => 2
+        },
+        'quwA' => {
+          'Nhy' => 1
+        },
+        'quww' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'quww',
+      'form' => 'quwwaT',
+      'lines' => [
+        ';; quw~ap_1',
+        'qw      quw~    Napdu   power;strength',
+        'qw      quw~    NAt     armed forces',
+        'qwY     quwaY   N0      armed forces;power',
+        'qwy     quwaY   N0      armed forces;power',
+        'qwA     quwA    Nhy     armed forces;power'
+      ],
+      'patterns' => {
+        'quwY' => [
+          'FuCY'
+        ],
+        'quww' => [
+          'FUw'
+        ],
+        'quwA' => []
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUw |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'power',
+        'strength',
+        'armed forces'
+      ],
+      'orig' => 'quw~ap',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'qawA\'',
       'form' => 'qawA\'',
@@ -34086,6 +34167,107 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => 'qiyAd',
+      'form' => 'qiyAd',
+      'lines' => [
+        ';; qiyAd_1',
+        'qyAd    qiyAd   N       leadership;guidance'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiyAL',
+      'suffix' => '',
+      'glosses' => [
+        'leadership',
+        'guidance'
+      ],
+      'orig' => 'qiyAd',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qiyAd',
+      'form' => 'qiyAdaT',
+      'lines' => [
+        ';; qiyAdap_1',
+        'qyAd    qiyAd   Nap     leadership;command'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiyAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'leadership',
+        'command'
+      ],
+      'orig' => 'qiyAdap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qiyAd',
+      'form' => 'qiyAdaT',
+      'lines' => [
+        ';; qiyAdap_2',
+        'qyAd    qiyAd   NapAt   leaders;commanders'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FiyAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'leaders',
+        'commanders'
+      ],
+      'orig' => 'qiyAdap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qiyAd',
+      'form' => 'qiyAdiyy',
+      'lines' => [
+        ';; qiyAdiy~_1',
+        'qyAdy   qiyAdiy~        N-ap    leading;guiding;commanding     [[qiyAdiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FiyAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'leading',
+        'guiding',
+        'commanding'
+      ],
+      'orig' => 'qiyAdiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qiyAd',
+      'form' => 'qiyAdiyy',
+      'lines' => [
+        ';; qiyAdiy~_2',
+        'qyAdy   qiyAdiy~        Nall    leader;commander     [[qiyAdiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FiyAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'leader',
+        'commander'
+      ],
+      'orig' => 'qiyAdiy~',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'inqiyAd' => {
           'NAt' => 2
@@ -35053,7 +35235,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'MaFCIy',
+      'morphs' => 'MaFCIL',
       'suffix' => '',
       'glosses' => [
         'settled',
@@ -35357,27 +35539,10 @@ $Lexicon = {
   ],
   'q w w' => [
     {
-      'types' => {
-        'quwY' => {
-          'N0' => 2
-        },
-        'quwA' => {
-          'Nhy' => 1
-        },
-        'quww' => {
-          'NAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'quww',
       'form' => 'quwwaT',
-      'lines' => [
-        ';; quw~ap_1',
-        'qw      quw~    Napdu   power;strength',
-        'qw      quw~    NAt     armed forces',
-        'qwY     quwaY   N0      armed forces;power',
-        'qwy     quwaY   N0      armed forces;power',
-        'qwA     quwA    Nhy     armed forces;power'
-      ],
+      'lines' => [],
       'patterns' => {
         'quwY' => [
           'FuCY'
@@ -35391,11 +35556,7 @@ $Lexicon = {
       'entity' => 'noun',
       'morphs' => 'FUL |< aT',
       'suffix' => ' |< aT',
-      'glosses' => [
-        'power',
-        'strength',
-        'armed forces'
-      ],
+      'glosses' => [],
       'orig' => 'quw~ap',
       'prefix' => ''
     }
@@ -36322,7 +36483,9 @@ $Lexicon = {
       'form' => 'qiyA\'',
       'lines' => [],
       'patterns' => {
-        'qiyy' => []
+        'qiyy' => [
+          'FIy'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -36397,6 +36560,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'qayyi\'' => [
+          'FayyiL',
           'FaCCiL'
         ]
       },
@@ -45940,6 +46104,24 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => 'qiyA\'',
+      'form' => 'qiyA\'',
+      'lines' => [],
+      'patterns' => {
+        'qiyy' => [
+          'FIy'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiyAL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'qiyA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'qawA\'',
       'form' => 'qawA\'',
       'lines' => [],
@@ -45959,7 +46141,8 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '\'iqwA\'' => [
-          'HiFCAL'
+          'HiFCAL',
+          'HiFCA\''
         ]
       },
       'index' => '1',
@@ -48984,6 +49167,25 @@ $Lexicon = {
       'suffix' => ' |< aT',
       'glosses' => [],
       'orig' => 'taqoliyap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'maqliyy',
+      'form' => 'maqliyy',
+      'lines' => [
+        ';; maqoliy~_1',
+        'mqly    maqoliy~        N-ap    fried     [[maqoliy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MaFCIL',
+      'suffix' => '',
+      'glosses' => [
+        'fried'
+      ],
+      'orig' => 'maqoliy~',
       'prefix' => ''
     },
     {
@@ -53231,18 +53433,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'qayyim',
       'form' => 'qayyim',
-      'lines' => [
-        ';; qay~im_1',
-        'qym     qay~im  N-ap    valuable'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCCiL',
       'suffix' => '',
-      'glosses' => [
-        'valuable'
-      ],
+      'glosses' => [],
       'orig' => 'qay~im',
       'prefix' => ''
     },
@@ -53289,19 +53486,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'qiyAm',
       'form' => 'qiyAm',
-      'lines' => [
-        ';; qiyAm_1',
-        'qyAm    qiyAm   N       undertaking;carrying out'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
       'suffix' => '',
-      'glosses' => [
-        'undertaking',
-        'carrying out'
-      ],
+      'glosses' => [],
       'orig' => 'qiyAm',
       'prefix' => ''
     },
@@ -53309,18 +53500,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'qiyAm',
       'form' => 'qiyAmaT',
-      'lines' => [
-        ';; qiyAmap_1',
-        'qyAm    qiyAm   Nap     resurrection'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL |< aT',
       'suffix' => ' |< aT',
-      'glosses' => [
-        'resurrection'
-      ],
+      'glosses' => [],
       'orig' => 'qiyAmap',
       'prefix' => ''
     },
@@ -54441,19 +54627,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'qiyAd',
       'form' => 'qiyAd',
-      'lines' => [
-        ';; qiyAd_1',
-        'qyAd    qiyAd   N       leadership;guidance'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
       'suffix' => '',
-      'glosses' => [
-        'leadership',
-        'guidance'
-      ],
+      'glosses' => [],
       'orig' => 'qiyAd',
       'prefix' => ''
     },
@@ -54461,19 +54641,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'qiyAd',
       'form' => 'qiyAdaT',
-      'lines' => [
-        ';; qiyAdap_1',
-        'qyAd    qiyAd   Nap     leadership;command'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL |< aT',
       'suffix' => ' |< aT',
-      'glosses' => [
-        'leadership',
-        'command'
-      ],
+      'glosses' => [],
       'orig' => 'qiyAdap',
       'prefix' => ''
     },
@@ -54481,19 +54655,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'qiyAd',
       'form' => 'qiyAdaT',
-      'lines' => [
-        ';; qiyAdap_2',
-        'qyAd    qiyAd   NapAt   leaders;commanders'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FiCAL |< aT',
       'suffix' => ' |< aT',
-      'glosses' => [
-        'leaders',
-        'commanders'
-      ],
+      'glosses' => [],
       'orig' => 'qiyAdap',
       'prefix' => ''
     },
@@ -54501,20 +54669,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'qiyAd',
       'form' => 'qiyAdiyy',
-      'lines' => [
-        ';; qiyAdiy~_1',
-        'qyAdy   qiyAdiy~        N-ap    leading;guiding;commanding     [[qiyAdiy~/ADJ]]'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FiCAL |< Iy',
       'suffix' => ' |< Iy',
-      'glosses' => [
-        'leading',
-        'guiding',
-        'commanding'
-      ],
+      'glosses' => [],
       'orig' => 'qiyAdiy~',
       'prefix' => ''
     },
@@ -54522,19 +54683,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'qiyAd',
       'form' => 'qiyAdiyy',
-      'lines' => [
-        ';; qiyAdiy~_2',
-        'qyAdy   qiyAdiy~        Nall    leader;commander     [[qiyAdiy~/NOUN]]'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FiCAL |< Iy',
       'suffix' => ' |< Iy',
-      'glosses' => [
-        'leader',
-        'commander'
-      ],
+      'glosses' => [],
       'orig' => 'qiyAdiy~',
       'prefix' => ''
     },
@@ -54545,8 +54700,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'inqiyAd' => [
-          'InFiCAL',
-          'InFiyAL'
+          'InFiCAL'
         ]
       },
       'index' => '1',
@@ -58692,21 +58846,21 @@ $Lexicon->{'q b w'}[7]{'glosses'} = $Lexicon->{'q b b'}[11]{'glosses'};
 $Lexicon->{'q _t r'}[0]{'types'} = $Lexicon->{'q y _t r'}[0]{'types'};
 $Lexicon->{'q _t r'}[0]{'lines'} = $Lexicon->{'q y _t r'}[0]{'lines'};
 $Lexicon->{'q _t r'}[0]{'glosses'} = $Lexicon->{'q y _t r'}[0]{'glosses'};
-$Lexicon->{'q w m'}[29]{'types'} = $Lexicon->{'q \' m'}[0]{'types'};
-$Lexicon->{'q w m'}[29]{'lines'} = $Lexicon->{'q \' m'}[0]{'lines'};
-$Lexicon->{'q w m'}[29]{'glosses'} = $Lexicon->{'q \' m'}[0]{'glosses'};
-$Lexicon->{'q w m'}[30]{'types'} = $Lexicon->{'q \' m'}[1]{'types'};
-$Lexicon->{'q w m'}[30]{'lines'} = $Lexicon->{'q \' m'}[1]{'lines'};
-$Lexicon->{'q w m'}[30]{'glosses'} = $Lexicon->{'q \' m'}[1]{'glosses'};
-$Lexicon->{'q w m'}[31]{'types'} = $Lexicon->{'q \' m'}[2]{'types'};
-$Lexicon->{'q w m'}[31]{'lines'} = $Lexicon->{'q \' m'}[2]{'lines'};
-$Lexicon->{'q w m'}[31]{'glosses'} = $Lexicon->{'q \' m'}[2]{'glosses'};
-$Lexicon->{'q w m'}[32]{'types'} = $Lexicon->{'q \' m'}[3]{'types'};
-$Lexicon->{'q w m'}[32]{'lines'} = $Lexicon->{'q \' m'}[3]{'lines'};
-$Lexicon->{'q w m'}[32]{'glosses'} = $Lexicon->{'q \' m'}[3]{'glosses'};
-$Lexicon->{'q w m'}[33]{'types'} = $Lexicon->{'q \' m'}[4]{'types'};
-$Lexicon->{'q w m'}[33]{'lines'} = $Lexicon->{'q \' m'}[4]{'lines'};
-$Lexicon->{'q w m'}[33]{'glosses'} = $Lexicon->{'q \' m'}[4]{'glosses'};
+$Lexicon->{'q w m'}[32]{'types'} = $Lexicon->{'q \' m'}[0]{'types'};
+$Lexicon->{'q w m'}[32]{'lines'} = $Lexicon->{'q \' m'}[0]{'lines'};
+$Lexicon->{'q w m'}[32]{'glosses'} = $Lexicon->{'q \' m'}[0]{'glosses'};
+$Lexicon->{'q w m'}[33]{'types'} = $Lexicon->{'q \' m'}[1]{'types'};
+$Lexicon->{'q w m'}[33]{'lines'} = $Lexicon->{'q \' m'}[1]{'lines'};
+$Lexicon->{'q w m'}[33]{'glosses'} = $Lexicon->{'q \' m'}[1]{'glosses'};
+$Lexicon->{'q w m'}[34]{'types'} = $Lexicon->{'q \' m'}[2]{'types'};
+$Lexicon->{'q w m'}[34]{'lines'} = $Lexicon->{'q \' m'}[2]{'lines'};
+$Lexicon->{'q w m'}[34]{'glosses'} = $Lexicon->{'q \' m'}[2]{'glosses'};
+$Lexicon->{'q w m'}[35]{'types'} = $Lexicon->{'q \' m'}[3]{'types'};
+$Lexicon->{'q w m'}[35]{'lines'} = $Lexicon->{'q \' m'}[3]{'lines'};
+$Lexicon->{'q w m'}[35]{'glosses'} = $Lexicon->{'q \' m'}[3]{'glosses'};
+$Lexicon->{'q w m'}[36]{'types'} = $Lexicon->{'q \' m'}[4]{'types'};
+$Lexicon->{'q w m'}[36]{'lines'} = $Lexicon->{'q \' m'}[4]{'lines'};
+$Lexicon->{'q w m'}[36]{'glosses'} = $Lexicon->{'q \' m'}[4]{'glosses'};
 $Lexicon->{'q .s y'}[0]{'types'} = $Lexicon->{'q .s w'}[1]{'types'};
 $Lexicon->{'q .s y'}[0]{'lines'} = $Lexicon->{'q .s w'}[1]{'lines'};
 $Lexicon->{'q .s y'}[0]{'glosses'} = $Lexicon->{'q .s w'}[1]{'glosses'};
@@ -58742,12 +58896,12 @@ $Lexicon->{'q d y'}[2]{'types'} = $Lexicon->{'q d w'}[1]{'types'};
 $Lexicon->{'q d y'}[2]{'lines'} = $Lexicon->{'q d w'}[1]{'lines'};
 $Lexicon->{'q d y'}[2]{'glosses'} = $Lexicon->{'q d w'}[1]{'glosses'};
 $Lexicon->{'q d y'}[2]{'imperf'} = $Lexicon->{'q d w'}[1]{'imperf'};
-$Lexicon->{'q w d'}[10]{'types'} = $Lexicon->{'q \' d'}[0]{'types'};
-$Lexicon->{'q w d'}[10]{'lines'} = $Lexicon->{'q \' d'}[0]{'lines'};
-$Lexicon->{'q w d'}[10]{'glosses'} = $Lexicon->{'q \' d'}[0]{'glosses'};
-$Lexicon->{'q w d'}[11]{'types'} = $Lexicon->{'q \' d'}[1]{'types'};
-$Lexicon->{'q w d'}[11]{'lines'} = $Lexicon->{'q \' d'}[1]{'lines'};
-$Lexicon->{'q w d'}[11]{'glosses'} = $Lexicon->{'q \' d'}[1]{'glosses'};
+$Lexicon->{'q w d'}[15]{'types'} = $Lexicon->{'q \' d'}[0]{'types'};
+$Lexicon->{'q w d'}[15]{'lines'} = $Lexicon->{'q \' d'}[0]{'lines'};
+$Lexicon->{'q w d'}[15]{'glosses'} = $Lexicon->{'q \' d'}[0]{'glosses'};
+$Lexicon->{'q w d'}[16]{'types'} = $Lexicon->{'q \' d'}[1]{'types'};
+$Lexicon->{'q w d'}[16]{'lines'} = $Lexicon->{'q \' d'}[1]{'lines'};
+$Lexicon->{'q w d'}[16]{'glosses'} = $Lexicon->{'q \' d'}[1]{'glosses'};
 $Lexicon->{'q .d y'}[9]{'types'} = $Lexicon->{'q .d \''}[0]{'types'};
 $Lexicon->{'q .d y'}[9]{'lines'} = $Lexicon->{'q .d \''}[0]{'lines'};
 $Lexicon->{'q .d y'}[9]{'glosses'} = $Lexicon->{'q .d \''}[0]{'glosses'};
@@ -58769,6 +58923,9 @@ $Lexicon->{'q .d y'}[18]{'glosses'} = $Lexicon->{'q .d \''}[4]{'glosses'};
 $Lexicon->{'q .d y'}[19]{'types'} = $Lexicon->{'q .d \''}[5]{'types'};
 $Lexicon->{'q .d y'}[19]{'lines'} = $Lexicon->{'q .d \''}[5]{'lines'};
 $Lexicon->{'q .d y'}[19]{'glosses'} = $Lexicon->{'q .d \''}[5]{'glosses'};
+$Lexicon->{'q w w'}[0]{'types'} = $Lexicon->{'q w y'}[7]{'types'};
+$Lexicon->{'q w w'}[0]{'lines'} = $Lexicon->{'q w y'}[7]{'lines'};
+$Lexicon->{'q w w'}[0]{'glosses'} = $Lexicon->{'q w y'}[7]{'glosses'};
 $Lexicon->{'q y \''}[0]{'types'} = $Lexicon->{'q y y'}[0]{'types'};
 $Lexicon->{'q y \''}[0]{'lines'} = $Lexicon->{'q y y'}[0]{'lines'};
 $Lexicon->{'q y \''}[0]{'glosses'} = $Lexicon->{'q y y'}[0]{'glosses'};
@@ -58799,15 +58956,18 @@ $Lexicon->{'q w l'}[10]{'glosses'} = $Lexicon->{'q \' l'}[0]{'glosses'};
 $Lexicon->{'q n w'}[10]{'types'} = $Lexicon->{'q n y'}[3]{'types'};
 $Lexicon->{'q n w'}[10]{'lines'} = $Lexicon->{'q n y'}[3]{'lines'};
 $Lexicon->{'q n w'}[10]{'glosses'} = $Lexicon->{'q n y'}[3]{'glosses'};
-$Lexicon->{'q w \''}[0]{'types'} = $Lexicon->{'q w y'}[7]{'types'};
-$Lexicon->{'q w \''}[0]{'lines'} = $Lexicon->{'q w y'}[7]{'lines'};
-$Lexicon->{'q w \''}[0]{'glosses'} = $Lexicon->{'q w y'}[7]{'glosses'};
-$Lexicon->{'q w \''}[1]{'types'} = $Lexicon->{'q w y'}[8]{'types'};
-$Lexicon->{'q w \''}[1]{'lines'} = $Lexicon->{'q w y'}[8]{'lines'};
-$Lexicon->{'q w \''}[1]{'glosses'} = $Lexicon->{'q w y'}[8]{'glosses'};
-$Lexicon->{'q w \''}[2]{'types'} = $Lexicon->{'q w y'}[13]{'types'};
-$Lexicon->{'q w \''}[2]{'lines'} = $Lexicon->{'q w y'}[13]{'lines'};
-$Lexicon->{'q w \''}[2]{'glosses'} = $Lexicon->{'q w y'}[13]{'glosses'};
+$Lexicon->{'q w \''}[0]{'types'} = $Lexicon->{'q w y'}[8]{'types'};
+$Lexicon->{'q w \''}[0]{'lines'} = $Lexicon->{'q w y'}[8]{'lines'};
+$Lexicon->{'q w \''}[0]{'glosses'} = $Lexicon->{'q w y'}[8]{'glosses'};
+$Lexicon->{'q w \''}[1]{'types'} = $Lexicon->{'q y y'}[0]{'types'};
+$Lexicon->{'q w \''}[1]{'lines'} = $Lexicon->{'q y y'}[0]{'lines'};
+$Lexicon->{'q w \''}[1]{'glosses'} = $Lexicon->{'q y y'}[0]{'glosses'};
+$Lexicon->{'q w \''}[2]{'types'} = $Lexicon->{'q w y'}[9]{'types'};
+$Lexicon->{'q w \''}[2]{'lines'} = $Lexicon->{'q w y'}[9]{'lines'};
+$Lexicon->{'q w \''}[2]{'glosses'} = $Lexicon->{'q w y'}[9]{'glosses'};
+$Lexicon->{'q w \''}[3]{'types'} = $Lexicon->{'q w y'}[14]{'types'};
+$Lexicon->{'q w \''}[3]{'lines'} = $Lexicon->{'q w y'}[14]{'lines'};
+$Lexicon->{'q w \''}[3]{'glosses'} = $Lexicon->{'q w y'}[14]{'glosses'};
 $Lexicon->{'q f f'}[5]{'types'} = $Lexicon->{'q f w'}[4]{'types'};
 $Lexicon->{'q f f'}[5]{'lines'} = $Lexicon->{'q f w'}[4]{'lines'};
 $Lexicon->{'q f f'}[5]{'glosses'} = $Lexicon->{'q f w'}[4]{'glosses'};
@@ -58857,21 +59017,45 @@ $Lexicon->{'q y m'}[1]{'glosses'} = $Lexicon->{'q w m'}[13]{'glosses'};
 $Lexicon->{'q y m'}[2]{'types'} = $Lexicon->{'q w m'}[14]{'types'};
 $Lexicon->{'q y m'}[2]{'lines'} = $Lexicon->{'q w m'}[14]{'lines'};
 $Lexicon->{'q y m'}[2]{'glosses'} = $Lexicon->{'q w m'}[14]{'glosses'};
-$Lexicon->{'q y m'}[8]{'types'} = $Lexicon->{'q w m'}[38]{'types'};
-$Lexicon->{'q y m'}[8]{'lines'} = $Lexicon->{'q w m'}[38]{'lines'};
-$Lexicon->{'q y m'}[8]{'glosses'} = $Lexicon->{'q w m'}[38]{'glosses'};
-$Lexicon->{'q y m'}[9]{'types'} = $Lexicon->{'q w m'}[39]{'types'};
-$Lexicon->{'q y m'}[9]{'lines'} = $Lexicon->{'q w m'}[39]{'lines'};
-$Lexicon->{'q y m'}[9]{'glosses'} = $Lexicon->{'q w m'}[39]{'glosses'};
-$Lexicon->{'q y m'}[10]{'types'} = $Lexicon->{'q w m'}[40]{'types'};
-$Lexicon->{'q y m'}[10]{'lines'} = $Lexicon->{'q w m'}[40]{'lines'};
-$Lexicon->{'q y m'}[10]{'glosses'} = $Lexicon->{'q w m'}[40]{'glosses'};
-$Lexicon->{'q y m'}[11]{'types'} = $Lexicon->{'q w m'}[42]{'types'};
-$Lexicon->{'q y m'}[11]{'lines'} = $Lexicon->{'q w m'}[42]{'lines'};
-$Lexicon->{'q y m'}[11]{'glosses'} = $Lexicon->{'q w m'}[42]{'glosses'};
-$Lexicon->{'q y d'}[5]{'types'} = $Lexicon->{'q w d'}[9]{'types'};
-$Lexicon->{'q y d'}[5]{'lines'} = $Lexicon->{'q w d'}[9]{'lines'};
-$Lexicon->{'q y d'}[5]{'glosses'} = $Lexicon->{'q w d'}[9]{'glosses'};
+$Lexicon->{'q y m'}[3]{'types'} = $Lexicon->{'q w m'}[15]{'types'};
+$Lexicon->{'q y m'}[3]{'lines'} = $Lexicon->{'q w m'}[15]{'lines'};
+$Lexicon->{'q y m'}[3]{'glosses'} = $Lexicon->{'q w m'}[15]{'glosses'};
+$Lexicon->{'q y m'}[6]{'types'} = $Lexicon->{'q w m'}[21]{'types'};
+$Lexicon->{'q y m'}[6]{'lines'} = $Lexicon->{'q w m'}[21]{'lines'};
+$Lexicon->{'q y m'}[6]{'glosses'} = $Lexicon->{'q w m'}[21]{'glosses'};
+$Lexicon->{'q y m'}[7]{'types'} = $Lexicon->{'q w m'}[22]{'types'};
+$Lexicon->{'q y m'}[7]{'lines'} = $Lexicon->{'q w m'}[22]{'lines'};
+$Lexicon->{'q y m'}[7]{'glosses'} = $Lexicon->{'q w m'}[22]{'glosses'};
+$Lexicon->{'q y m'}[8]{'types'} = $Lexicon->{'q w m'}[41]{'types'};
+$Lexicon->{'q y m'}[8]{'lines'} = $Lexicon->{'q w m'}[41]{'lines'};
+$Lexicon->{'q y m'}[8]{'glosses'} = $Lexicon->{'q w m'}[41]{'glosses'};
+$Lexicon->{'q y m'}[9]{'types'} = $Lexicon->{'q w m'}[42]{'types'};
+$Lexicon->{'q y m'}[9]{'lines'} = $Lexicon->{'q w m'}[42]{'lines'};
+$Lexicon->{'q y m'}[9]{'glosses'} = $Lexicon->{'q w m'}[42]{'glosses'};
+$Lexicon->{'q y m'}[10]{'types'} = $Lexicon->{'q w m'}[43]{'types'};
+$Lexicon->{'q y m'}[10]{'lines'} = $Lexicon->{'q w m'}[43]{'lines'};
+$Lexicon->{'q y m'}[10]{'glosses'} = $Lexicon->{'q w m'}[43]{'glosses'};
+$Lexicon->{'q y m'}[11]{'types'} = $Lexicon->{'q w m'}[45]{'types'};
+$Lexicon->{'q y m'}[11]{'lines'} = $Lexicon->{'q w m'}[45]{'lines'};
+$Lexicon->{'q y m'}[11]{'glosses'} = $Lexicon->{'q w m'}[45]{'glosses'};
+$Lexicon->{'q y d'}[0]{'types'} = $Lexicon->{'q w d'}[9]{'types'};
+$Lexicon->{'q y d'}[0]{'lines'} = $Lexicon->{'q w d'}[9]{'lines'};
+$Lexicon->{'q y d'}[0]{'glosses'} = $Lexicon->{'q w d'}[9]{'glosses'};
+$Lexicon->{'q y d'}[1]{'types'} = $Lexicon->{'q w d'}[10]{'types'};
+$Lexicon->{'q y d'}[1]{'lines'} = $Lexicon->{'q w d'}[10]{'lines'};
+$Lexicon->{'q y d'}[1]{'glosses'} = $Lexicon->{'q w d'}[10]{'glosses'};
+$Lexicon->{'q y d'}[2]{'types'} = $Lexicon->{'q w d'}[11]{'types'};
+$Lexicon->{'q y d'}[2]{'lines'} = $Lexicon->{'q w d'}[11]{'lines'};
+$Lexicon->{'q y d'}[2]{'glosses'} = $Lexicon->{'q w d'}[11]{'glosses'};
+$Lexicon->{'q y d'}[3]{'types'} = $Lexicon->{'q w d'}[12]{'types'};
+$Lexicon->{'q y d'}[3]{'lines'} = $Lexicon->{'q w d'}[12]{'lines'};
+$Lexicon->{'q y d'}[3]{'glosses'} = $Lexicon->{'q w d'}[12]{'glosses'};
+$Lexicon->{'q y d'}[4]{'types'} = $Lexicon->{'q w d'}[13]{'types'};
+$Lexicon->{'q y d'}[4]{'lines'} = $Lexicon->{'q w d'}[13]{'lines'};
+$Lexicon->{'q y d'}[4]{'glosses'} = $Lexicon->{'q w d'}[13]{'glosses'};
+$Lexicon->{'q y d'}[5]{'types'} = $Lexicon->{'q w d'}[14]{'types'};
+$Lexicon->{'q y d'}[5]{'lines'} = $Lexicon->{'q w d'}[14]{'lines'};
+$Lexicon->{'q y d'}[5]{'glosses'} = $Lexicon->{'q w d'}[14]{'glosses'};
 $Lexicon->{'q n \''}[1]{'types'} = $Lexicon->{'q n w'}[9]{'types'};
 $Lexicon->{'q n \''}[1]{'lines'} = $Lexicon->{'q n w'}[9]{'lines'};
 $Lexicon->{'q n \''}[1]{'glosses'} = $Lexicon->{'q n w'}[9]{'glosses'};

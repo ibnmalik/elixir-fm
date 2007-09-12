@@ -550,9 +550,7 @@ cluster_52  = listing "Lexicon's properties"
     MuFCI |< At               `noun`    {- mugoriyAt -}        [ "lures", "temptations" ]
                               `plural`     MuFCI |< At,
 
-    MaFCUL                    `adj`     {- magoruw~ -}         [ "glued" ],
-
-    MaFCIy                    `adj`     {- magoriy~ -}         [ "glued" ] ]
+    MaFCUL                    `adj`     {- magoruw~ -}         [ "glued" ] ]
 
 
 cluster_53  = listing "Lexicon's properties"
@@ -570,7 +568,9 @@ cluster_53  = listing "Lexicon's properties"
                               `plural`     MuFCI |< At,
 
     MuFCI |< At               `noun`    {- mugoriyAt -}        [ "lures", "temptations" ]
-                              `plural`     MuFCI |< At ]
+                              `plural`     MuFCI |< At,
+
+    MaFCIL                    `adj`     {- magoriy~ -}         [ "glued" ] ]
 
  |> ".g r z" <| [
 
@@ -694,7 +694,8 @@ cluster_55  = listing "Lexicon's properties"
  |> ".g w '" <| [
 
     HiFCAL                    `noun`    {- IigowA' -}          [ "seduction", "allurement" ]
-                              `plural`     HiFCAL |< At ]
+                              `plural`     HiFCAL |< At
+                              `plural`     HiFCA' |< At ]
 
  |> ".g w .g" <| [
 
@@ -719,7 +720,8 @@ cluster_56  = listing "Lexicon's properties"
     FaCCaL                    `verb`    {- gaw~aS -}           [ "immerse", "plunge" ],
 
     FaCL                      `noun`    {- gawoS -}            [ "diving", "dive", "deep" ]
-                              `plural`     FaCIL |< aT,
+                              `plural`     FaCIL |< aT
+                              `plural`     FiyAL |< aT,
 
     FaCCAL                    `noun`    {- gaw~AS -}           [ "diver" ],
 
@@ -741,7 +743,7 @@ cluster_56  = listing "Lexicon's properties"
                               `plural`     HaFCAL
                               `plural`     FUL
                               `plural`     FILAn
-                           {- `others`  [ ".giyA.t N" ] -},
+                              `plural`     FiyAL,
 
     FUL |< aT                 `noun`    {- guwTap -}           [ unwords [ "fertile", "valley" ], "oasis" ],
 
@@ -762,8 +764,7 @@ cluster_56  = listing "Lexicon's properties"
     FUL                       `noun`    {- guw$ -}             [ "Gush" ],
 
     FuCayL |< aT              `noun`    {- guwayo$ap -}        [ "bracelet", "bangle" ]
-                              `plural`     FaCA'iL
-                              `plural`     FawA'iL ]
+                              `plural`     FaCA'iL ]
 
 
 cluster_57  = listing "Lexicon's properties"
@@ -778,6 +779,10 @@ cluster_57  = listing "Lexicon's properties"
     IstaFAL                   `verb`    {- AisotagAv -}        [ unwords [ "ask", "for", "help" ], unwords [ "seek", "aid" ], unwords [ "be", "asked", "for", "help" ] ],
 
     FaCL                      `noun`    {- gawov -}            [ "aid", "succor" ],
+
+    FiyAL                     `noun`    {- giyAv -}            [ "aid", "succor" ],
+
+    FiyAL                     `noun`    {- giyAv -}            [ "Giyath" ],
 
     HiFAL |< aT               `noun`    {- IigAvap -}          [ "aid", unwords [ "relief", "assistance" ] ],
 
@@ -814,10 +819,13 @@ cluster_57  = listing "Lexicon's properties"
                               `plural`     IFtiyAL |< At,
 
     FA'iL |< aT               `noun`    {- gA}ilap -}          [ "calamity", "havoc" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MuFtAL                    `adj`     {- mugotAl -}          [ "assassinated", "murdered" ] ]
+
+
+cluster_58  = listing "Lexicon's properties"
+
 
  |> ".g w m ^s" <| [
 
@@ -826,10 +834,6 @@ cluster_57  = listing "Lexicon's properties"
  |> ".g w n r" <| [
 
     KuRDAS                    `noun`    {- guwnAr -}           [ "Gunnar" ] ]
-
-
-cluster_58  = listing "Lexicon's properties"
-
 
  |> ".g w r" <| [
 

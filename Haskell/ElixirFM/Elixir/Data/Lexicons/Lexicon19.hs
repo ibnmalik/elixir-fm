@@ -674,12 +674,14 @@ cluster_11  = listing "Lexicon's properties"
  |> ".g w '" <| [
 
     HiFCAL                    `noun`    {- IigowA' -}          [ "seduction", "allurement" ]
-                              `plural`     HiFCAL |< At ]
+                              `plural`     HiFCAL |< At
+                              `plural`     HiFCA' |< At ]
 
  |> ".g w .s" <| [
 
     FaCL                      `noun`    {- gawoS -}            [ "diving", "dive", "deep" ]
-                              `plural`     FaCIL |< aT,
+                              `plural`     FaCIL |< aT
+                              `plural`     FiyAL |< aT,
 
     FaCCAL                    `noun`    {- gaw~AS -}           [ "diver" ],
 
@@ -709,7 +711,6 @@ cluster_11  = listing "Lexicon's properties"
                               `plural`     IFtiyAL |< At,
 
     FA'iL |< aT               `noun`    {- gA}ilap -}          [ "calamity", "havoc" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL ]
 
 
@@ -780,8 +781,7 @@ cluster_12  = listing "Lexicon's properties"
  |> ".g y l" <| [
 
     IFtiCAL                   `noun`    {- AigotiyAl -}        [ "assassination", "murder" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At ]
+                              `plural`     IFtiCAL |< At ]
 
 
 cluster_13  = listing "Lexicon's properties"

@@ -235,6 +235,8 @@ cluster_5   = listing "Lexicon's properties"
     FuCA'                     `noun`    {- duEA' -}            [ "call", "request", "invocation" ]
                               `plural`     HaFCI |< aT,
 
+    FiCAy |< aT               `noun`    {- diEAyap -}          [ "propaganda", "advertising" ],
+
     FiCA' |< Iy               `adj`     {- diEA}iy~ -}         [ "propagandistic" ],
 
     MaFCY |< aT               `noun`    {- madoEAp -}          [ "reason", "motive" ],
@@ -932,7 +934,8 @@ cluster_17  = listing "Lexicon's properties"
  |> "d w '" <| [
 
     FAL                       `noun`    {- dA' -}              [ "disease", "illness" ]
-                              `plural`     HaFCAL,
+                              `plural`     HaFCAL
+                              `plural`     HaFCA',
 
     FaCAL                     `noun`    {- dawA' -}            [ "remedy", "medication" ]
                               `plural`     HaFCI |< aT,
@@ -1067,7 +1070,9 @@ cluster_20  = listing "Lexicon's properties"
 
     FAL                       `noun`    {- dAr -}              [ "house", "home", "abodes" ]
                               `plural`     FUL
-                              `plural`     FIL |< aT,
+                              `plural`     FIL |< aT
+                              `plural`     FiyAL |< At
+                              `plural`     FiyAL,
 
     FaCL                      `noun`    {- dawor -}            [ "role", "part" ]
                               `plural`     HaFCAL,
@@ -1104,7 +1109,6 @@ cluster_20  = listing "Lexicon's properties"
     FA'iL                     `adj`     {- dA}ir -}            [ "turning", "spinning", "itinerant" ],
 
     FA'iL |< aT               `noun`    {- dA}irap -}          [ "office", "bureau", "district" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     FA'iL |< aT               `noun`    {- dA}irap -}          [ "circle", "ring", "scope", "circuit" ]

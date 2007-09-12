@@ -1900,7 +1900,8 @@ cluster_36  = listing "Lexicon's properties"
  |> "z w '" <| [
 
     InFiCAL                   `noun`    {- AinoziwA' -}        [ "seclusion", "isolation", "retirement" ]
-                              `plural`     InFiCAL |< At ]
+                              `plural`     InFiCAL |< At
+                              `plural`     InFiCA' |< At ]
 
 
 cluster_37  = listing "Lexicon's properties"
@@ -2125,6 +2126,8 @@ cluster_42  = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- zaworap -}          [ "visit" ],
 
+    FiyAL |< aT               `noun`    {- ziyArap -}          [ "visit" ],
+
     HaFCaL                    `noun`    {- Oazowar -}          [ "crooked", "oblique" ]
                               `plural`     FaCLA',
 
@@ -2178,7 +2181,7 @@ cluster_43  = listing "Lexicon's properties"
     FACI |< aT                `noun`    {- zAwiyap -}          [ "corner", "nook", "angle" ]
                               `plural`     FaCALY,
 
-    MaFCIy                    `adj`     {- mazowiy~ -}         [ "corner", "cornered" ],
+    MaFCIL                    `adj`     {- mazowiy~ -}         [ "corner", "cornered" ],
 
     MunFaCI                   `adj`     {- munozawiy -}        [ "secluded", "obscure" ]
                               `plural`     MunFaCI |< At ]
@@ -2286,8 +2289,7 @@ cluster_45  = listing "Lexicon's properties"
                               `plural`     TaFACuL |< At,
 
     IFtiCAL                   `noun`    {- AizodiyAd -}        [ "increase", "intensification" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     IstiFAL |< aT             `noun`    {- AisotizAdap -}      [ unwords [ "desire", "for", "increase" ] ],
 

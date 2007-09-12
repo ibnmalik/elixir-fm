@@ -47,17 +47,19 @@ cluster_1   = listing "Lexicon's properties"
  |> "r ' '" <| [
 
     FiL |< aT                 `noun`    {- ri}ap -}            [ "lung" ]
-                           {- `others`  [ "ri'uwn N", "riyy Napdu" ] -},
+                              `plural`     FIy
+                           {- `others`  [ "ri'uwn N" ] -},
 
     FiC |< aT                 `noun`    {- ri}ap -}            [ "lung" ]
-                           {- `others`  [ "ri'uwn N", "riyy Napdu" ] -},
+                              `plural`     FIy
+                           {- `others`  [ "ri'uwn N" ] -},
 
     FiL |<< "awIy"            `adj`     {- ri}awiy~ -}         [ "pulmonary" ],
 
     FiC |<< "awIy"            `adj`     {- ri}awiy~ -}         [ "pulmonary" ],
 
     FiCAL                     `noun`    {- ri}A' -}            [ "hypocrisy", "dissimulation" ]
-                           {- `others`  [ "riyA' Nh N0_Nh Nhy" ] -} ]
+                              `plural`     FiyAL ]
 
  |> "r ' .h" <| [
 
@@ -150,9 +152,9 @@ cluster_3   = listing "Lexicon's properties"
                               `imperf`     FCaL,
 
     FiCL                      `noun`    {- ri}om -}            [ unwords [ "white", "antelope" ], "addax" ]
+                              `plural`     HAFAL
                               `plural`     HaFCAL
-                              `plural`     FIL
-                           {- `others`  [ "'ArAm N" ] -},
+                              `plural`     FIL,
 
     FaCUL                     `noun`    {- raWuwm -}           [ "loving", "tender" ],
 
@@ -206,7 +208,10 @@ cluster_4   = listing "Lexicon's properties"
 
     FaCIL |< Iy               `adj`     {- ra}iysiy~ -}        [ "main", "principal" ],
 
+    FayyiL                    `noun`    {- ray~is -}           [ "captain", "chief" ],
+
     FiCAL |< aT               `noun`    {- ri}Asap -}          [ "presidency", "leadership", "chairmanship" ]
+                              `plural`     FiyAL |< aT
                               `plural`     FaCAL |< aT,
 
     FiCAL |< Iy               `adj`     {- ri}Asiy~ -}         [ "presidential", "executive" ]
@@ -239,7 +244,7 @@ cluster_5   = listing "Lexicon's properties"
     IFtaCY                    `verb`    {- AirotaOaY -}        [ "consider", "contemplate" ],
 
     FaCL                      `noun`    {- raOoy -}            [ "opinion", "view", "idea" ]
-                           {- `others`  [ "'ArA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HAFA',
 
     FAL |< aT                 `noun`    {- rAyap -}            [ "banner", "flag" ],
 
@@ -265,7 +270,7 @@ cluster_5   = listing "Lexicon's properties"
 
     FACI |< aT                `noun`    {- rA}iyap -}          [ unwords [ "view", "finder" ] ],
 
-    MaFCIy                    `adj`     {- maro}iy~ -}         [ "visual", "seen", "visible" ],
+    MaFCIL                    `adj`     {- maro}iy~ -}         [ "visual", "seen", "visible" ],
 
     MuFACI                    `noun`    {- murA}iy -}          [ "hypocrite" ]
                               `plural`     MuFACI |< At,
@@ -1950,7 +1955,7 @@ cluster_40  = listing "Lexicon's properties"
                               `plural`     FACI |< At
                               `plural`     FuCLAn,
 
-    MaFCIy                    `adj`     {- maroEiy~ -}         [ "observed", unwords [ "complied", "with" ] ] ]
+    MaFCIL                    `adj`     {- maroEiy~ -}         [ "observed", unwords [ "complied", "with" ] ] ]
 
 
 cluster_41  = listing "Lexicon's properties"
@@ -3714,7 +3719,7 @@ cluster_75  = listing "Lexicon's properties"
 
     FACI                      `noun`    {- rAmiy -}            [ "Sagittarius" ],
 
-    MaFCIy                    `adj`     {- maromiy~ -}         [ "thrown", "discarded" ],
+    MaFCIL                    `adj`     {- maromiy~ -}         [ "thrown", "discarded" ],
 
     MutaFACI                  `adj`     {- mutarAmiy -}        [ "wide", "extensive" ]
                               `plural`     MutaFACI |< At ]
@@ -4615,8 +4620,18 @@ cluster_92  = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- rawoDap -}          [ "garden", "meadow", "kindergarten" ]
                               `plural`     FILAn
-                              `plural`     FaCL
-                           {- `others`  [ "riyA.d N" ] -},
+                              `plural`     FiyAL
+                              `plural`     FaCL,
+
+    FiyAL                     `noun`    {- riyAD -}            [ "Riyadh" ],
+
+    FiyAL |< aT               `noun`    {- riyADap -}          [ "sport", unwords [ "physical", "exercise" ], "mathematics" ],
+
+    FiyAL |< Iy               `adj`     {- riyADiy~ -}         [ "sports", "sportive", "mathematical", "mathematician" ],
+
+    FiyAL |< Iy               `adj`     {- riyADiy~ -}         [ "Riyadi", "Sportif" ],
+
+    FiyAL |< Iy |< At         `noun`    {- riyADiy~At -}       [ "mathematics" ],
 
     TaFCIL                    `noun`    {- tarowiyD -}         [ "sports" ]
                               `plural`     TaFCIL |< At ]
@@ -4701,9 +4716,12 @@ cluster_94  = listing "Lexicon's properties"
 
     FIL                       `noun`    {- riyH -}             [ "wind", "odor" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'aryA.h N", "riyA.h N" ] -},
+                              `plural`     FiyAL
+                           {- `others`  [ "'aryA.h N" ] -},
 
     FIL |< aT                 `noun`    {- riyHap -}           [ "smell", "odor" ],
+
+    FayyiL                    `adj`     {- ray~iH -}           [ "windy" ],
 
     FILAn |< Iy               `adj`     {- riyoHAniy~ -}       [ "Rihani" ],
 
@@ -4750,7 +4768,6 @@ cluster_94  = listing "Lexicon's properties"
                            {- `others`  [ "rAyi.h Nall" ] -},
 
     FA'iL |< aT               `noun`    {- rA}iHap -}          [ "odor", "perfume" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MuFIL                     `adj`     {- muriyH -}           [ "soothing", "restful", "comfortable" ],
@@ -4845,7 +4862,6 @@ cluster_96  = listing "Lexicon's properties"
     FA'iL                     `adj`     {- rA}iE -}            [ "splendid", "marvelous", "magnificent" ],
 
     FA'iL |< aT               `noun`    {- rA}iEap -}          [ "masterpiece", unwords [ "magnificent", "item" ] ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MuFaCCiL                  `adj`     {- muraw~iE -}         [ "terrible", "dreadful" ],
@@ -5150,7 +5166,8 @@ cluster_102 = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- rawiy~ap -}         [ "deliberation", "reflection", "consideration" ],
 
     FiCAL |< aT               `noun`    {- riwAyap -}          [ "story", "novel" ]
-                              `plural`     FiCAL |< At,
+                              `plural`     FiCAL |< At
+                              `plural`     FiCAy |< At,
 
     FiCAL |< aT               `noun`    {- riwAyap -}          [ "report", "account" ],
 
@@ -5170,8 +5187,8 @@ cluster_102 = listing "Lexicon's properties"
                               `plural`     FaCALY
                               `plural`     FuCY |< aT,
 
-    MaFCIy |< At              `noun`    {- marowiy~At -}       [ "tales", "stories", "reports" ]
-                              `plural`     MaFCIy |< At ]
+    MaFCIL |< At              `noun`    {- marowiy~At -}       [ "tales", "stories", "reports" ]
+                              `plural`     MaFCIL |< At ]
 
  |> "r w y l" <| [
 
@@ -5240,8 +5257,7 @@ cluster_104 = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     IFtiCAL                   `noun`    {- AirotiyAH -}        [ "rest", "contentment", "satisfaction" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     MuFIL                     `adj`     {- muriyH -}           [ "soothing", "restful", "comfortable" ],
 
@@ -5293,8 +5309,7 @@ cluster_105 = listing "Lexicon's properties"
  |> "r y `" <| [
 
     IFtiCAL                   `noun`    {- AirotiyAE -}        [ "alarm", "shock" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     MuFIL                     `adj`     {- muriyE -}           [ "dreadful", "terrible" ],
 
@@ -5343,8 +5358,7 @@ cluster_106 = listing "Lexicon's properties"
     HaFCaL                    `noun`    {- Oaroyab -}          [ unwords [ "more", "/", "most", "skeptical" ] ],
 
     IFtiCAL                   `noun`    {- AirotiyAb -}        [ "doubt", "suspicion" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     MuFIL                     `adj`     {- muriyb -}           [ "suspicious", "doubtful" ],
 
@@ -5359,8 +5373,7 @@ cluster_106 = listing "Lexicon's properties"
  |> "r y d" <| [
 
     IFtiCAL                   `noun`    {- AirotiyAd -}        [ "exploration", "visit" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     MuFIL                     `noun`    {- muriyd -}           [ "desiring", "follower", "aspirant" ] ]
 

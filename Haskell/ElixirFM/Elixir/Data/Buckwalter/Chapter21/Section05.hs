@@ -897,10 +897,14 @@ cluster_96  = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- qawA' -}            [ "desert" ],
 
+    FiyAL                     `noun`    {- qiyA' -}            [ "desert" ]
+                              `plural`     FIy,
+
     FaCAL                     `noun`    {- qawA' -}            [ "hunger" ],
 
     HiFCAL                    `noun`    {- IiqowA' -}          [ "depopulation" ]
-                              `plural`     HiFCAL |< At ]
+                              `plural`     HiFCAL |< At
+                              `plural`     HiFCA' |< At ]
 
 
 cluster_97  = listing "Lexicon's properties"
@@ -1029,6 +1033,16 @@ cluster_99  = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oaqowad -}          [ "tractable", "docile", "amenable" ],
 
+    FiyAL                     `noun`    {- qiyAd -}            [ "leadership", "guidance" ],
+
+    FiyAL |< aT               `noun`    {- qiyAdap -}          [ "leadership", "command" ],
+
+    FiyAL |< aT               `noun`    {- qiyAdap -}          [ "leaders", "commanders" ],
+
+    FiyAL |< Iy               `adj`     {- qiyAdiy~ -}         [ "leading", "guiding", "commanding" ],
+
+    FiyAL |< Iy               `noun`    {- qiyAdiy~ -}         [ "leader", "commander" ],
+
     InFiyAL                   `noun`    {- AinoqiyAd -}        [ "compliance", "submission" ]
                               `plural`     InFiyAL |< At,
 
@@ -1048,13 +1062,13 @@ cluster_99  = listing "Lexicon's properties"
     MiFCaL                    `noun`    {- miqowad -}          [ unwords [ "steering", "mechanism" ] ]
                               `plural`     MaFACiL ]
 
- |> "q w h" <| [
-
-    FaCCaL                    `verb`    {- qaw~ah -}           [ "shriek", "shout" ] ]
-
 
 cluster_100 = listing "Lexicon's properties"
 
+
+ |> "q w h" <| [
+
+    FaCCaL                    `verb`    {- qaw~ah -}           [ "shriek", "shout" ] ]
 
  |> "q w l" <| [
 

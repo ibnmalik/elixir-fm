@@ -281,7 +281,7 @@ cluster_6   = listing "Lexicon's properties"
 
     IstiFCA' |< Iy            `adj`     {- AisotivonA}iy~ -}   [ "exceptional", "extraordinary" ],
 
-    MaFCIy                    `adj`     {- mavoniy~ -}         [ "folded", "doubled" ] ]
+    MaFCIL                    `adj`     {- mavoniy~ -}         [ "folded", "doubled" ] ]
 
  |> "_t q b" <| [
 
@@ -349,7 +349,7 @@ cluster_7   = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- vawob -}            [ "garment", "robe", "clothes" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "_tiyAb N" ] -},
+                              `plural`     FiyAL,
 
     MaFAL |< aT               `noun`    {- mavAbap -}          [ "virtually", unwords [ "tantamount", "to" ] ] ]
 

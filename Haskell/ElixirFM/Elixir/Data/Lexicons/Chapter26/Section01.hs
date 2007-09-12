@@ -279,11 +279,11 @@ cluster_5   = listing "Lexicon's properties"
 
     FACI                      `noun`    {- hAdiy -}            [ "Hadi" ],
 
-    MaFCIy                    `noun`    {- mahodiy~ -}         [ "Mahdi" ],
+    MaFCIL                    `noun`    {- mahodiy~ -}         [ "Mahdi" ],
 
-    MaFCIy                    `adj`     {- mahodiy~ -}         [ unwords [ "rightly", "guided" ] ],
+    MaFCIL                    `adj`     {- mahodiy~ -}         [ unwords [ "rightly", "guided" ] ],
 
-    MaFCIy                    `adj`     {- mahodiy~ -}         [ "presented", "given" ] ]
+    MaFCIL                    `adj`     {- mahodiy~ -}         [ "presented", "given" ] ]
 
 
 cluster_6   = listing "Lexicon's properties"
@@ -656,6 +656,7 @@ cluster_11  = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- hawA' -}            [ "air", "atmosphere", "climate" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                               `plural`     HaFCI |< aT,
 
     FaCAL |< Iy               `noun`    {- hawA}iy~ -}         [ "antenna" ],
@@ -776,6 +777,9 @@ cluster_13  = listing "Lexicon's properties"
     FaCY                      `verb`    {- hawaY-i -}          [ "fall", "collapse", "topple" ]
                               `imperf`     FCI,
 
+    FUw |< aT                 `noun`    {- huw~ap -}           [ "abyss", "chasm" ]
+                              `plural`     FuCY,
+
     FaCY                      `noun`    {- hawaY -}            [ "affection", "inclination", "preference", "desires", "wishes" ]
                               `plural`     FaCA
                               `plural`     HaFCA'
@@ -813,8 +817,7 @@ cluster_14  = listing "Lexicon's properties"
     TaFaCCaL                  `verb`    {- tahay~aO -}         [ unwords [ "be", "mobilized" ], unwords [ "be", "prepared" ] ],
 
     FaCL |< aT                `noun`    {- hayo}ap -}          [ "organization", "agency" ]
-                              `plural`     FaCL |< At
-                              `plural`     FaC,
+                              `plural`     FaCL |< At,
 
     TaFCiL |< aT              `noun`    {- tahoyi}ap -}        [ "preparation", "mobilization" ] ]
 
@@ -885,8 +888,7 @@ cluster_15  = listing "Lexicon's properties"
  |> "h y r" <| [
 
     InFiCAL                   `noun`    {- AinohiyAr -}        [ "collapse", "downfall", "breakdown" ]
-                              `plural`     InFiCAL |< At
-                              `plural`     InFiyAL |< At ]
+                              `plural`     InFiCAL |< At ]
 
  |> "h y y" <| [
 

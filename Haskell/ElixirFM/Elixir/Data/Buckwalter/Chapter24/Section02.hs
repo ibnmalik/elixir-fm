@@ -419,19 +419,19 @@ cluster_27  = listing "Lexicon's properties"
 
  |> "m d '" <| [
 
-    MICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
-
     FICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
 
-    MICAL |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
-                           {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
+    MICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
 
     FICAL |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
                            {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
 
-    MICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ],
+    MICAL |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
+                           {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
 
-    FICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ] ]
+    FICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ],
+
+    MICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ] ]
 
  |> "m d .h" <| [
 
@@ -981,6 +981,12 @@ cluster_38  = listing "Lexicon's properties"
     FaCaL                     `noun`    {- malaO -}            [ "crowd", "assembly", "audience" ]
                               `plural`     HaFCAL,
 
+    FiCAy |< aT               `noun`    {- milAyap -}          [ unwords [ "full", "-", "body", "garment" ] ]
+                              `plural`     FuCAL |< At,
+
+    FiCAy |< aT               `noun`    {- milAyap -}          [ unwords [ "bed", "sheet" ] ]
+                              `plural`     FuCAL |< At,
+
     FaCIL                     `adj`     {- maliy' -}           [ "full", "filled", "replete" ]
                               `plural`     FiCAL
                               `plural`     FaCLAn |< aT
@@ -988,7 +994,7 @@ cluster_38  = listing "Lexicon's properties"
                               `plural`     FaCLY,
 
     MuFACaL |< aT             `noun`    {- mumAlaOap -}        [ "partiality", "bias", "collaboration" ]
-                           {- `others`  [ "mumAla N-|t" ] -},
+                              `plural`     MuFACaL |< At,
 
     HiFCAL                    `noun`    {- IimolA' -}          [ "filling", unwords [ "filling", "out" ] ]
                               `plural`     HiFCAL |< At,

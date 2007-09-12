@@ -221,10 +221,6 @@ cluster_84  = listing "Lexicon's properties"
     FACI |< aN                `noun`    {- nAfiyAF -}          [ "denying", "disavowing", "rejecting" ]
                               `plural`     FACI,
 
-    MaFCIy                    `adj`     {- manofiy~ -}         [ "denied", "rejected", "discarded" ],
-
-    MaFCIy                    `adj`     {- manofiy~ -}         [ "exiled", "deported" ],
-
     MuFACI                    `adj`     {- munAfiy -}          [ "incompatible" ]
                               `plural`     MuFACI |< At ]
 
@@ -245,6 +241,10 @@ cluster_85  = listing "Lexicon's properties"
 
     FACI |< aN                `noun`    {- nAfiyAF -}          [ "denying", "disavowing", "rejecting" ]
                               `plural`     FACI,
+
+    MaFCIL                    `adj`     {- manofiy~ -}         [ "denied", "rejected", "discarded" ],
+
+    MaFCIL                    `adj`     {- manofiy~ -}         [ "exiled", "deported" ],
 
     MuFACI                    `adj`     {- munAfiy -}          [ "incompatible" ]
                               `plural`     MuFACI |< At ]
@@ -558,6 +558,9 @@ cluster_91  = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- nihA' -}            [ "termination", "conclusion" ],
 
+    FiCAy |< aT               `adv`     {- nihAyap -}          [ "end", "termination", "ultimately", "finally" ]
+                           {- `others`  [ "nihAyaTaN FW-Wa" ] -},
+
     FiCA' |< Iy               `adj`     {- nihA}iy~ -}         [ "final", "definitive", "conclusive", "finally", unwords [ "in", "the", "end" ] ],
 
     FiCA' |< Iy               `noun`    {- nihA}iy~ -}         [ unwords [ "final", "(", "in", "sports", ")" ] ],
@@ -577,8 +580,6 @@ cluster_91  = listing "Lexicon's properties"
 
     FACI |< aT                `noun`    {- nAhiyap -}          [ "ban", "proscription", unwords [ "prohibition", "orders" ] ]
                               `plural`     FawACI,
-
-    MaFCIy                    `adj`     {- manohiy~ -}         [ "forbidden", "illicit" ],
 
     MutaFACI                  `noun`    {- mutanAhiy -}        [ "utmost", "extreme", "finished" ]
                               `plural`     MutaFACI |< At,
@@ -610,6 +611,8 @@ cluster_92  = listing "Lexicon's properties"
 
     FACI |< aT                `noun`    {- nAhiyap -}          [ "ban", "proscription", unwords [ "prohibition", "orders" ] ]
                               `plural`     FawACI,
+
+    MaFCIL                    `adj`     {- manohiy~ -}         [ "forbidden", "illicit" ],
 
     MutaFACI                  `noun`    {- mutanAhiy -}        [ "utmost", "extreme", "finished" ]
                               `plural`     MutaFACI |< At,

@@ -78,7 +78,7 @@ cluster_22  = listing "Lexicon's properties"
                               `plural`     FaCAL |< At,
 
     MuFACaL |< aT             `noun`    {- mukAfaOap -}        [ "compensation", "reward", "remuneration" ]
-                           {- `others`  [ "mukAfa N-|t" ] -},
+                              `plural`     MuFACaL |< At,
 
     TaFACuL                   `noun`    {- takAfuW -}          [ "equality", "equal" ]
                               `plural`     TaFACuL |< At,
@@ -435,7 +435,9 @@ cluster_29  = listing "Lexicon's properties"
  |> "k h w" <| [
 
     FACI |< aT                `noun`    {- kAhiyap -}          [ "officer", "deputy" ]
-                              `plural`     FawACI ]
+                              `plural`     FawACI,
+
+    FiCAy |< aT               `noun`    {- kihAyap -}          [ unwords [ "kihaya", "(", "adm.", "distr.", ")" ] ] ]
 
  |> "k h y" <| [
 

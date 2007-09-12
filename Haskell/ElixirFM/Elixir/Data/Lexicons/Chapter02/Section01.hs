@@ -41,8 +41,8 @@ cluster_1   = listing "Lexicon's properties"
  |> "b ' r" <| [
 
     FiCL                      `noun`    {- bi}or -}            [ "well", "spring" ]
-                              `plural`     FiCAL
-                           {- `others`  [ "'AbAr N" ] -},
+                              `plural`     HAFAL
+                              `plural`     FiCAL,
 
     FuCL |< aT                `noun`    {- buWorap -}          [ "center", "focus" ]
                               `plural`     FuCaL ]

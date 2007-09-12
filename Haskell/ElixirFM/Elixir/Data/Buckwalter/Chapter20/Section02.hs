@@ -555,7 +555,7 @@ cluster_30  = listing "Lexicon's properties"
     FACI                      `noun`    {- fAdiy -}            [ "redeemer", "ransomer" ]
                               `plural`     FACI |< At,
 
-    MaFCIy                    `adj`     {- mafodiy~ -}         [ "beloved", unwords [ "worthy", "of", "sacrifice" ] ] ]
+    MaFCIL                    `adj`     {- mafodiy~ -}         [ "beloved", unwords [ "worthy", "of", "sacrifice" ] ] ]
 
  |> "f h d" <| [
 

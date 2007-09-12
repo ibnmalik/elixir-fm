@@ -50,9 +50,7 @@ cluster_1   = listing "Lexicon's properties"
                               `plural`     MaFAL
                               `plural`     MaFACiL |< aT,
 
-    FACiL |< Iy               `adj`     {- lA}ikiy~ -}         [ "secular", "secularism" ],
-
-    FA'iL |< Iy               `adj`     {- lA}ikiy~ -}         [ "secular", "secularism" ] ]
+    FACiL |< Iy               `adj`     {- lA}ikiy~ -}         [ "secular", "secularism" ] ]
 
  |> "l ' l '" <| [
 
@@ -866,7 +864,8 @@ cluster_18  = listing "Lexicon's properties"
 
     MaFCaL                    `noun`    {- malojaO -}          [ "shelter", "refuge" ]
                               `plural`     MaFACiL
-                           {- `others`  [ "mal^ga N-|t", "mal^ga'A N-|" ] -},
+                              `plural`     MaFCaL |< At
+                           {- `others`  [ "mal^ga'A N-|" ] -},
 
     IFtiCAL                   `noun`    {- AilotijA' -}        [ "resorting", unwords [ "having", "recourse" ], "asylum" ]
                               `plural`     IFtiCAL |< At,

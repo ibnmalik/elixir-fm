@@ -135,7 +135,7 @@ cluster_3   = listing "Lexicon's properties"
     FACI                      `noun`    {- qADiy -}            [ "judge", "magistrate" ]
                               `plural`     FuCY |< aT,
 
-    MaFCIy                    `adj`     {- maqoDiy~ -}         [ "settled", "finished" ],
+    MaFCIL                    `adj`     {- maqoDiy~ -}         [ "settled", "finished" ],
 
     MuFtaCY                   `noun`    {- muqotaDaY -}        [ "requisite", "necessary" ],
 

@@ -684,6 +684,8 @@ cluster_13  = listing "Lexicon's properties"
     FuCA'                     `noun`    {- duEA' -}            [ "call", "request", "invocation" ]
                               `plural`     HaFCI |< aT,
 
+    FiCAy |< aT               `noun`    {- diEAyap -}          [ "propaganda", "advertising" ],
+
     FiCA' |< Iy               `adj`     {- diEA}iy~ -}         [ "propagandistic" ],
 
     HaFCY                     `noun`    {- OadoEaY -}          [ unwords [ "more", "/", "most", "conducive" ], unwords [ "more", "/", "most", "provoking" ], unwords [ "most", "conducive" ], unwords [ "most", "provoking" ] ],

@@ -917,7 +917,8 @@ cluster_58  = listing "Lexicon's properties"
     FiCAL                     `noun`    {- liwA' -}            [ "Liwa" ],
 
     IFtiCAL                   `noun`    {- AilotiwA' -}        [ "curvature", "bend", "unevenness" ]
-                              `plural`     IFtiCAL |< At,
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiCA' |< At,
 
     IFtiCAL |< aT             `noun`    {- AilotiwA'ap -}      [ "bending", "flexing", "twisting" ] ]
 
@@ -948,7 +949,6 @@ cluster_59  = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     FA'iL |< aT               `noun`    {- lA}iHap -}          [ "list", "table", "schedule" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MuFaCCiL |< aT            `noun`    {- mulaw~iHap -}       [ "semaphore", "signal" ],
@@ -970,6 +970,8 @@ cluster_59  = listing "Lexicon's properties"
     FAL                       `verb`    {- lAT-u -}            [ "adhere", "cling", "plaster" ]
                               `imperf`     FUL
                               `pfirst`     FuL,
+
+    FiyAL                     `noun`    {- liyAT -}            [ "plaster" ],
 
     FUL                       `noun`    {- luwT -}             [ "Lot" ],
 

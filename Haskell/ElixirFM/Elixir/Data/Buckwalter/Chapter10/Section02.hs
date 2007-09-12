@@ -968,7 +968,7 @@ cluster_40  = listing "Lexicon's properties"
                               `plural`     FACI |< At
                               `plural`     FuCLAn,
 
-    MaFCIy                    `adj`     {- maroEiy~ -}         [ "observed", unwords [ "complied", "with" ] ] ]
+    MaFCIL                    `adj`     {- maroEiy~ -}         [ "observed", unwords [ "complied", "with" ] ] ]
 
 
 section = [ cluster_21,

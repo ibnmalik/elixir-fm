@@ -421,10 +421,10 @@ cluster_129 = listing "Lexicon's properties"
 
     FiCLAn                    `noun`    {- nisoyAn -}          [ "forgetfulness", "oblivion" ],
 
-    MaFCIy                    `adj`     {- manosiy~ -}         [ "forgotten" ],
+    MaFCIL                    `adj`     {- manosiy~ -}         [ "forgotten" ],
 
-    MaFCIy |< At              `noun`    {- manosiy~At -}       [ unwords [ "forgotten", "things" ] ]
-                              `plural`     MaFCIy |< At ]
+    MaFCIL |< At              `noun`    {- manosiy~At -}       [ unwords [ "forgotten", "things" ] ]
+                              `plural`     MaFCIL |< At ]
 
  |> "n t '" <| [
 
@@ -589,10 +589,11 @@ cluster_132 = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- nawo' -}            [ "storm", "hurricane" ]
                               `plural`     FULAn
-                              `plural`     HaFCAL,
+                              `plural`     HaFCAL
+                              `plural`     HaFCA',
 
     MuFACaL |< aT             `noun`    {- munAwaOap -}        [ "resistance", "opposition", "insubordination" ]
-                           {- `others`  [ "munAwa N-|t" ] -},
+                              `plural`     MuFACaL |< At,
 
     MuFACiL                   `noun`    {- munAwi} -}          [ "opponent", "antagonist" ],
 
@@ -620,7 +621,6 @@ cluster_132 = listing "Lexicon's properties"
     FaCCAL |< aT              `noun`    {- naw~AHap -}         [ unwords [ "hired", "female", "mourner" ] ],
 
     FA'iL |< aT               `noun`    {- nA}iHap -}          [ unwords [ "hired", "female", "mourner" ] ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MaFAL |< aT               `noun`    {- manAHap -}          [ "wailing", "mourning" ] ]
@@ -654,8 +654,8 @@ cluster_133 = listing "Lexicon's properties"
     HaFAL                     `verb`    {- OanAT -}            [ "entrust", unwords [ "make", "dependent" ], unwords [ "make", "conditional" ], unwords [ "be", "assigned" ] ],
 
     FaCL                      `noun`    {- nawoT -}            [ "badge", "medal", "pendant" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "niyA.t N" ] -},
+                              `plural`     FiyAL
+                              `plural`     HaFCAL,
 
     MaFAL                     `noun`    {- manAT -}            [ unwords [ "place", "of", "suspension" ], "anchor", "object" ],
 
@@ -759,6 +759,12 @@ cluster_135 = listing "Lexicon's properties"
     FUL |< aT                 `noun`    {- nuwbap -}           [ "mishap" ]
                               `plural`     FuCaL,
 
+    FiyAL |< aT               `noun`    {- niyAbap -}          [ "proxy", "deputyship" ],
+
+    FiyAL |< aT               `noun`    {- niyAbap -}          [ unwords [ "instead", "of" ], unwords [ "in", "lieu", "of" ] ],
+
+    FiyAL |< Iy               `adj`     {- niyAbiy~ -}         [ "representative", "delegated", "deputed" ],
+
     MaFAL                     `noun`    {- manAb -}            [ "replacement", "deputyship" ],
 
     MuFACaL |< aT             `noun`    {- munAwabap -}        [ "alternation", "rotation" ],
@@ -772,7 +778,6 @@ cluster_135 = listing "Lexicon's properties"
                               `plural`     FUCAL,
 
     FA'iL |< aT               `noun`    {- nA}ibap -}          [ "misfortune", "vicissitudes" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MuFaCCiL                  `noun`    {- munaw~ib -}         [ "constituent", "voter" ],
@@ -825,6 +830,10 @@ cluster_136 = listing "Lexicon's properties"
     FaCL                      `noun`    {- nawof -}            [ "surplus", "excess" ]
                               `plural`     HaFCAL,
 
+    FayyiL                    `noun`    {- nay~if -}           [ "some", "excess", "surplus" ],
+
+    FiyAL |< aT               `noun`    {- niyAfap -}          [ "Excellency", "Eminence" ],
+
     FaCAL                     `noun`    {- nawAf -}            [ "Nawaf" ],
 
     MaFUL |< Iy |< aT         `noun`    {- manuwfiy~ap -}      [ "Manoufiya" ],
@@ -845,16 +854,16 @@ cluster_136 = listing "Lexicon's properties"
 
     KaRDaS |< aT              `noun`    {- nawofarap -}        [ "fountain" ] ]
 
+
+cluster_137 = listing "Lexicon's properties"
+
+
  |> "n w h" <| [
 
     FaCCaL                    `verb`    {- naw~ah -}           [ "allude", "mention", "praise" ],
 
     TaFCIL                    `noun`    {- tanowiyh -}         [ "allusion", "mention", "praise" ]
                               `plural`     TaFCIL |< At ]
-
-
-cluster_137 = listing "Lexicon's properties"
-
 
  |> "n w l" <| [
 
@@ -937,7 +946,8 @@ cluster_138 = listing "Lexicon's properties"
 
     FA'iL                     `adj`     {- nA}im -}            [ "sleeping", "asleep" ]
                               `plural`     FUCAL
-                           {- `others`  [ "nuyyAm N", "nuyyam N", "nuwwam N", "niyAm N" ] -},
+                              `plural`     FiyAL
+                           {- `others`  [ "nuyyAm N", "nuyyam N", "nuwwam N" ] -},
 
     MuFaCCiL                  `noun`    {- munaw~im -}         [ unwords [ "sleep", "-", "inducing" ] ],
 
@@ -981,10 +991,12 @@ cluster_139 = listing "Lexicon's properties"
     IstaFCaL                  `verb`    {- Aisotanowaq -}      [ unwords [ "make", "a", "mistake" ] ],
 
     FAL |< aT                 `noun`    {- nAqap -}            [ unwords [ "she", "-", "camel" ] ]
-                              `plural`     FUL
-                           {- `others`  [ "niyAq N" ] -},
+                              `plural`     FiyAL
+                              `plural`     FUL,
 
-    HaFCaL                    `noun`    {- Oanowaq -}          [ "foolish", "stupid" ] ]
+    HaFCaL                    `noun`    {- Oanowaq -}          [ "foolish", "stupid" ],
+
+    FayyiL                    `noun`    {- nay~iq -}           [ "squeamish", "fastidious" ] ]
 
 
 cluster_140 = listing "Lexicon's properties"
@@ -1023,6 +1035,8 @@ cluster_140 = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- naworap -}          [ "blossom" ],
 
     FUL |< aT                 `noun`    {- nuwrap -}           [ "lime" ],
+
+    FayyiL                    `noun`    {- nay~ir -}           [ "luminous", "clear", unwords [ "sun", "and", "moon" ] ],
 
     HaFCaL                    `noun`    {- Oanowar -}          [ "Anwar" ],
 

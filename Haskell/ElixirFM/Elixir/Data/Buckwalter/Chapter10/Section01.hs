@@ -47,17 +47,19 @@ cluster_1   = listing "Lexicon's properties"
  |> "r ' '" <| [
 
     FiL |< aT                 `noun`    {- ri}ap -}            [ "lung" ]
-                           {- `others`  [ "ri'uwn N", "riyy Napdu" ] -},
+                              `plural`     FIy
+                           {- `others`  [ "ri'uwn N" ] -},
 
     FiC |< aT                 `noun`    {- ri}ap -}            [ "lung" ]
-                           {- `others`  [ "ri'uwn N", "riyy Napdu" ] -},
+                              `plural`     FIy
+                           {- `others`  [ "ri'uwn N" ] -},
 
     FiL |<< "awIy"            `adj`     {- ri}awiy~ -}         [ "pulmonary" ],
 
     FiC |<< "awIy"            `adj`     {- ri}awiy~ -}         [ "pulmonary" ],
 
     FiCAL                     `noun`    {- ri}A' -}            [ "hypocrisy", "dissimulation" ]
-                           {- `others`  [ "riyA' Nh N0_Nh Nhy" ] -} ]
+                              `plural`     FiyAL ]
 
  |> "r ' .h" <| [
 
@@ -150,9 +152,9 @@ cluster_3   = listing "Lexicon's properties"
                               `imperf`     FCaL,
 
     FiCL                      `noun`    {- ri}om -}            [ unwords [ "white", "antelope" ], "addax" ]
+                              `plural`     HAFAL
                               `plural`     HaFCAL
-                              `plural`     FIL
-                           {- `others`  [ "'ArAm N" ] -},
+                              `plural`     FIL,
 
     FaCUL                     `noun`    {- raWuwm -}           [ "loving", "tender" ],
 
@@ -206,7 +208,10 @@ cluster_4   = listing "Lexicon's properties"
 
     FaCIL |< Iy               `adj`     {- ra}iysiy~ -}        [ "main", "principal" ],
 
+    FayyiL                    `noun`    {- ray~is -}           [ "captain", "chief" ],
+
     FiCAL |< aT               `noun`    {- ri}Asap -}          [ "presidency", "leadership", "chairmanship" ]
+                              `plural`     FiyAL |< aT
                               `plural`     FaCAL |< aT,
 
     FiCAL |< Iy               `adj`     {- ri}Asiy~ -}         [ "presidential", "executive" ]
@@ -239,7 +244,7 @@ cluster_5   = listing "Lexicon's properties"
     IFtaCY                    `verb`    {- AirotaOaY -}        [ "consider", "contemplate" ],
 
     FaCL                      `noun`    {- raOoy -}            [ "opinion", "view", "idea" ]
-                           {- `others`  [ "'ArA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HAFA',
 
     FAL |< aT                 `noun`    {- rAyap -}            [ "banner", "flag" ],
 
@@ -265,7 +270,7 @@ cluster_5   = listing "Lexicon's properties"
 
     FACI |< aT                `noun`    {- rA}iyap -}          [ unwords [ "view", "finder" ] ],
 
-    MaFCIy                    `adj`     {- maro}iy~ -}         [ "visual", "seen", "visible" ],
+    MaFCIL                    `adj`     {- maro}iy~ -}         [ "visual", "seen", "visible" ],
 
     MuFACI                    `noun`    {- murA}iy -}          [ "hypocrite" ]
                               `plural`     MuFACI |< At,

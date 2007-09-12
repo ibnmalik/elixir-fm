@@ -3055,8 +3055,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'fawA\'ih' => [
-          'FaCA\'iL',
-          'FawA\'iL'
+          'FaCA\'iL'
         ]
       },
       'index' => '1',
@@ -26111,7 +26110,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'MaFCIy',
+      'morphs' => 'MaFCIL',
       'suffix' => '',
       'glosses' => [
         'beloved',
@@ -32379,22 +32378,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'f .g y' => [
-    {
-      'types' => {},
-      'entry' => 'fA.giy',
-      'form' => 'fA.giyaT',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACI |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [],
-      'orig' => 'fAgiyap',
-      'prefix' => ''
-    }
-  ],
   'f \' r' => [
     {
       'types' => {
@@ -32509,6 +32492,22 @@ $Lexicon = {
         'Farghaly'
       ],
       'orig' => 'farogaliy~',
+      'prefix' => ''
+    }
+  ],
+  'f .g y' => [
+    {
+      'types' => {},
+      'entry' => 'fA.giy',
+      'form' => 'fA.giyaT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
+      'orig' => 'fAgiyap',
       'prefix' => ''
     }
   ],
@@ -40509,6 +40508,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'fayyi\'' => [
+          'FayyiL',
           'FaCCiL'
         ]
       },
@@ -40647,7 +40647,8 @@ $Lexicon = {
           'FuCUL'
         ],
         '\'afyA\'' => [
-          'HaFCAL'
+          'HaFCAL',
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -47746,7 +47747,6 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'fawA\'ir' => [
-          'FaCA\'iL',
           'FawA\'iL'
         ]
       },

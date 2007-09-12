@@ -801,6 +801,8 @@ cluster_118 = listing "Lexicon's properties"
     FUL |< aT                 `noun`    {- Euw*ap -}           [ "amulet", "incantation" ]
                               `plural`     FuCaL,
 
+    FiyAL                     `noun`    {- EiyA* -}            [ "protection", unwords [ "taking", "refuge" ] ],
+
     MaFAL                     `noun`    {- maEA* -}            [ "protection", unwords [ "taking", "refuge" ] ],
 
     TaFCIL                    `noun`    {- taEowiy* -}         [ "amulet", "incantation" ]
@@ -843,10 +845,18 @@ cluster_119 = listing "Lexicon's properties"
     FAL |< aT                 `adv`     {- EAdap -}            [ "habit", "custom", "practice", "usually", "taxes", "charges" ]
                               `plural`     FAL |< At
                               `plural`     FaCA'iL
-                              `plural`     FawA'iL
                            {- `others`  [ "`AdaTaN FW-Wa" ] -},
 
     FAL |< Iy                 `adj`     {- EAdiy~ -}           [ "ordinary", "regular", "normal" ],
+
+    FiyAL                     `noun`    {- EiyAd -}            [ "reiteration", "repetition" ],
+
+    FiyAL |< aT               `noun`    {- EiyAdap -}          [ "clinic", unwords [ "outpatient", "clinic" ] ]
+                              `plural`     FiyAL |< At,
+
+    FiyAL |< aT               `noun`    {- EiyAdap -}          [ "visit", "consultation" ],
+
+    FiyAL |< Iy               `adj`     {- EiyAdiy~ -}         [ "clinical" ],
 
     FaCCAL                    `noun`    {- Eaw~Ad -}           [ "lutist" ],
 
@@ -877,7 +887,6 @@ cluster_119 = listing "Lexicon's properties"
     FUCAL                     `noun`    {- Euw~Ad -}           [ "visitors" ],
 
     FA'iL |< aT               `noun`    {- EA}idap -}          [ "profit", "revenues", "royalties" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     FA'iL |< Iy |< aT         `noun`    {- EA}idiy~ap -}       [ "membership", unwords [ "belonging", "to" ] ],

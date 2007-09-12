@@ -212,17 +212,17 @@ cluster_25  = listing "Lexicon's properties"
     MaFCY                     `noun`    {- manofaY -}          [ "exile", "banishment" ],
 
     MaFCY                     `noun`    {- manofaY -}          [ unwords [ "place", "of", "exile" ], "banishment", unwords [ "places", "of", "exile" ] ]
-                              `plural`     MaFACI,
-
-    MaFCIy                    `adj`     {- manofiy~ -}         [ "denied", "rejected", "discarded" ],
-
-    MaFCIy                    `adj`     {- manofiy~ -}         [ "exiled", "deported" ] ]
+                              `plural`     MaFACI ]
 
  |> "n f y" <| [
 
     FaCL                      `noun`    {- nafoy -}            [ "denial", "disavowal" ],
 
-    FuCAL |< aT               `noun`    {- nufAyap -}          [ "waste", "refuse" ] ]
+    FuCAL |< aT               `noun`    {- nufAyap -}          [ "waste", "refuse" ],
+
+    MaFCIL                    `adj`     {- manofiy~ -}         [ "denied", "rejected", "discarded" ],
+
+    MaFCIL                    `adj`     {- manofiy~ -}         [ "exiled", "deported" ] ]
 
  |> "n h '" <| [
 
@@ -328,6 +328,9 @@ cluster_27  = listing "Lexicon's properties"
     HaFCY                     `verb`    {- OanohaY -}          [ "complete", "communicate" ],
 
     IFtaCY                    `verb`    {- AinotahaY -}        [ unwords [ "be", "concluded" ], unwords [ "be", "completed" ] ],
+
+    FiCAy |< aT               `adv`     {- nihAyap -}          [ "end", "termination", "ultimately", "finally" ]
+                           {- `others`  [ "nihAyaTaN FW-Wa" ] -},
 
     FiCA' |< Iy               `adj`     {- nihA}iy~ -}         [ "final", "definitive", "conclusive", "finally", unwords [ "in", "the", "end" ] ],
 
@@ -939,7 +942,7 @@ cluster_38  = listing "Lexicon's properties"
 
     FiCLAn                    `noun`    {- nisoyAn -}          [ "forgetfulness", "oblivion" ],
 
-    MaFCIy                    `adj`     {- manosiy~ -}         [ "forgotten" ] ]
+    MaFCIL                    `adj`     {- manosiy~ -}         [ "forgotten" ] ]
 
 
 cluster_39  = listing "Lexicon's properties"

@@ -3134,23 +3134,23 @@ cluster_61  = listing "Lexicon's properties"
 
     HaFCaL                    `verb`    {- OawomaO -}          [ "signal", "motion" ],
 
-    HICA'                     `noun`    {- IiymA' -}           [ "gesture", "sign" ]
-                              `plural`     HICAL |< At,
-
     HICAL                     `noun`    {- IiymA' -}           [ "gesture", "sign" ]
                               `plural`     HICAL |< At,
 
-    HICA'                     `noun`    {- IiymA' -}           [ unwords [ "with", "reference", "to" ] ],
+    HICA'                     `noun`    {- IiymA' -}           [ "gesture", "sign" ]
+                              `plural`     HICAL |< At,
 
     HICAL                     `noun`    {- IiymA' -}           [ unwords [ "with", "reference", "to" ] ],
 
-    HICA' |< aT               `noun`    {- IiymA'ap -}         [ "gesture", "sign", "clue" ],
+    HICA'                     `noun`    {- IiymA' -}           [ unwords [ "with", "reference", "to" ] ],
 
     HICAL |< aT               `noun`    {- IiymA'ap -}         [ "gesture", "sign", "clue" ],
 
-    HICA' |< Iy               `adj`     {- IiymA}iy~ -}        [ "pantomimic", "gesturing" ],
+    HICA' |< aT               `noun`    {- IiymA'ap -}         [ "gesture", "sign", "clue" ],
 
     HICAL |< Iy               `adj`     {- IiymA}iy~ -}        [ "pantomimic", "gesturing" ],
+
+    HICA' |< Iy               `adj`     {- IiymA}iy~ -}        [ "pantomimic", "gesturing" ],
 
     MUCaL                     `adj`     {- muwmaO -}           [ unwords [ "referred", "to" ], unwords [ "above", "-", "mentioned" ] ] ]
 

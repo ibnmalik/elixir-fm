@@ -38,7 +38,6 @@ cluster_121 = listing "Lexicon's properties"
 
     FA'iL |< aT               `noun`    {- EA}ilap -}          [ "family", "household" ]
                               `plural`     FA'iL |< At
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     FA'iL |< Iy               `adj`     {- EA}iliy~ -}         [ "family", "domestic" ],
@@ -169,7 +168,6 @@ cluster_124 = listing "Lexicon's properties"
     TaFCIL |< Iy              `adj`     {- taEowiyqiy~ -}      [ "delaying", "dilatory" ],
 
     FA'iL                     `noun`    {- EA}iq -}            [ "obstacle", "impediment" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MuFaCCiL                  `noun`    {- muEaw~iq -}         [ "obstacles", "impediments" ]
@@ -305,8 +303,7 @@ cluster_127 = listing "Lexicon's properties"
  |> "` y .s" <| [
 
     IFtiCAL                   `noun`    {- AiEotiyAS -}        [ "difficulty", "intractability" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At ]
+                              `plural`     IFtiCAL |< At ]
 
  |> "` y .t" <| [
 
@@ -425,8 +422,7 @@ cluster_130 = listing "Lexicon's properties"
     FiCAL |< Iy               `adj`     {- EiyAdiy~ -}         [ "clinical" ],
 
     IFtiCAL                   `noun`    {- AiEotiyAd -}        [ "habituation" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL |< Iy             `adj`     {- AiEotiyAdiy~ -}     [ "customary", "normal", "regular" ],
 

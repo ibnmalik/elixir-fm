@@ -843,6 +843,8 @@ cluster_57  = listing "Lexicon's properties"
     FIL |< aT                 `noun`    {- Siygap -}           [ "form", "shape", "formula" ]
                            {- `others`  [ ".siya.g N" ] -},
 
+    FiyAL |< aT               `noun`    {- SiyAgap -}          [ "drafting", "formulation", "constructing" ],
+
     MaFAL                     `noun`    {- maSAg -}            [ "jewelry" ],
 
     FA'iL                     `noun`    {- SA}ig -}            [ "jeweler" ]

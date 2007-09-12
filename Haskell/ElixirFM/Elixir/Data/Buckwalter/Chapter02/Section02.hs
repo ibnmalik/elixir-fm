@@ -869,7 +869,8 @@ cluster_36  = listing "Lexicon's properties"
     MuFtaCiL                  `noun`    {- mubotadi} -}        [ "beginning", "beginner" ],
 
     MuFtaCaL                  `noun`    {- mubotadaO -}        [ "begun", "subject", "topic" ]
-                           {- `others`  [ "mubtada N-|t", "mubtada'A N-|" ] -},
+                              `plural`     MuFtaCaL |< At
+                           {- `others`  [ "mubtada'A N-|" ] -},
 
     HiFCAL                    `noun`    {- IibodA' -}          [ "expression", "manifestation" ]
                               `plural`     HiFCAL |< At ]

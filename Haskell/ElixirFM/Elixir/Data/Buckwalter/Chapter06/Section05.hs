@@ -763,14 +763,15 @@ cluster_95  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- Haw~A' -}           [ "Eve" ],
 
     IFtiCAL                   `noun`    {- AiHotiwA' -}        [ "inclusion", "content" ]
-                              `plural`     IFtiCAL |< At ]
+                              `plural`     IFtiCAL |< At
+                              `plural`     IFtiCA' |< At ]
 
  |> ".h w .d" <| [
 
     FaCL                      `noun`    {- HawoD -}            [ "basin", "reservoir", unwords [ "safe", "havens" ] ]
+                              `plural`     FiyAL
                               `plural`     FILAn
-                              `plural`     HaFCAL
-                           {- `others`  [ ".hiyA.d N" ] -},
+                              `plural`     HaFCAL,
 
     FuCayL |< aT              `noun`    {- HuwayoDap -}        [ unwords [ "renal", "pelvis" ] ] ]
 
@@ -779,7 +780,9 @@ cluster_95  = listing "Lexicon's properties"
     FaCaL                     `noun`    {- HawaS -}            [ "squinting" ]
                               `plural`     FUL
                               `plural`     FaCLA'
-                              `plural`     HaFCaL ]
+                              `plural`     HaFCaL,
+
+    FiyAL |< aT               `noun`    {- HiyASap -}          [ "girth" ] ]
 
 
 cluster_96  = listing "Lexicon's properties"
@@ -815,6 +818,8 @@ cluster_97  = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- HawoTap -}          [ "caution", "care" ],
 
+    FiyAL |< aT               `noun`    {- HiyATap -}          [ "guarding", "custody" ],
+
     TaFCIL                    `noun`    {- taHowiyT -}         [ "encirclement" ]
                               `plural`     TaFCIL |< At,
 
@@ -834,10 +839,9 @@ cluster_97  = listing "Lexicon's properties"
     IFtiyAL |< Iy             `noun`    {- AiHotiyATiy~ -}     [ unwords [ "reserves", "(", "econ.,", "geol.,", "milit.,", "spo.", ")" ] ],
 
     FA'iL                     `noun`    {- HA}iT -}            [ "wall" ]
+                              `plural`     FiyAL
                               `plural`     FILAn
-                              `plural`     FaCA'iL
-                              `plural`     FawA'iL
-                           {- `others`  [ ".hiyA.t N" ] -},
+                              `plural`     FawA'iL,
 
     FA'iL |< Iy               `adj`     {- HA}iTiy~ -}         [ "wall" ],
 
@@ -864,8 +868,7 @@ cluster_98  = listing "Lexicon's properties"
     FaCL                      `noun`    {- Hawoj -}            [ "need", "want" ],
 
     FAL |< aT                 `noun`    {- HAjap -}            [ "need", "thing", "belongings", "necessities" ]
-                              `plural`     FaCA'iL
-                              `plural`     FawA'iL,
+                              `plural`     FaCA'iL,
 
     IFtiyAL                   `noun`    {- AiHotiyAj -}        [ "need", "requirement" ]
                               `plural`     IFtiyAL |< At,
@@ -956,6 +959,8 @@ cluster_99  = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL,
 
+    FiyAL |< aT               `noun`    {- HiyAkap -}          [ "weaving", "sewing", "needlework" ],
+
     FA'iL                     `noun`    {- HA}ik -}            [ "weaver" ]
                               `plural`     FAL |< aT ]
 
@@ -999,6 +1004,9 @@ cluster_100 = listing "Lexicon's properties"
     FaCALY                    `prep`    {- HawAlaY -}          [ "approximately", "around" ]
                            {- `others`  [ ".hawAlay FW-Wa-y FW-WaBi" ] -},
 
+    FiyAL |<< "a"             `prep`    {- HiyAla -}           [ "concerning", unwords [ "with", "regard", "to" ] ]
+                           {- `others`  [ ".hiyAli FW-Wa FW-Wa-i" ] -},
+
     MaFAL |< aT               `noun`    {- maHAlap -}          [ "pulley", "wheel", "roller" ],
 
     TaFCIL                    `noun`    {- taHowiyl -}         [ "conversion", "transfer" ]
@@ -1024,7 +1032,6 @@ cluster_100 = listing "Lexicon's properties"
     FA'iL                     `noun`    {- HA}il -}            [ "Ha'il", "Hayil" ],
 
     FA'iL                     `noun`    {- HA}il -}            [ "obstacle", "partition" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL,
 
     MuFaCCiL                  `noun`    {- muHaw~il -}         [ "converter", "transformer" ],

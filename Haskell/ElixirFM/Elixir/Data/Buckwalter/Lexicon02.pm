@@ -41917,8 +41917,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'ibtiyA`' => [
-          'IFtiCAL',
-          'IFtiyAL'
+          'IFtiCAL'
         ]
       },
       'index' => '1',
@@ -44586,7 +44585,9 @@ $Lexicon = {
         'b}Ar    bi}Ar   N       wells;springs'
       ],
       'patterns' => {
-        '\'AbAr' => [],
+        '\'AbAr' => [
+          'HAFAL'
+        ],
         'bi\'Ar' => [
           'FiCAL'
         ]
@@ -46980,7 +46981,6 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'bawA\'iq' => [
-          'FaCA\'iL',
           'FawA\'iL'
         ]
       },

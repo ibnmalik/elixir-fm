@@ -959,7 +959,9 @@ cluster_19  = listing "Lexicon's properties"
     IFtaCY                    `verb`    {- Ai$otakaY -}        [ "complain" ],
 
     FaCLY                     `noun`    {- \$akowaY -}         [ "complaint", "grievance" ]
-                              `plural`     FaCALY ]
+                              `plural`     FaCALY,
+
+    FiCAy |< aT               `noun`    {- \$ikAyap -}         [ "complaint", "grievance" ] ]
 
  |> "^s k y" <| [
 

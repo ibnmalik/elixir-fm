@@ -259,7 +259,7 @@ cluster_5   = listing "Lexicon's properties"
 
     FawACI                    `noun`    {- qawADiy -}          [ "requirements", "exigencies" ],
 
-    MaFCIy                    `adj`     {- maqoDiy~ -}         [ "settled", "finished" ],
+    MaFCIL                    `adj`     {- maqoDiy~ -}         [ "settled", "finished" ],
 
     MutaFACI                  `noun`    {- mutaqADiy -}        [ "litigant" ]
                               `plural`     MutaFACI |< At,
@@ -3244,9 +3244,7 @@ cluster_59  = listing "Lexicon's properties"
     MiFCY                     `noun`    {- miqolaY -}          [ unwords [ "frying", "pan" ] ]
                               `plural`     MaFACI,
 
-    TaFCI |< aT               `noun`    {- taqoliyap -}        [ "alkalization" ],
-
-    MaFCIy                    `adj`     {- maqoliy~ -}         [ "fried" ] ]
+    TaFCI |< aT               `noun`    {- taqoliyap -}        [ "alkalization" ] ]
 
  |> "q l w .z" <| [
 
@@ -3254,14 +3252,14 @@ cluster_59  = listing "Lexicon's properties"
 
     MuKaRDaS                  `adj`     {- muqalowaZ -}        [ "spiral", "helical" ] ]
 
-
-cluster_60  = listing "Lexicon's properties"
-
-
  |> "q l w y" <| [
 
     KiRDIS                    `adj`     {- qilowiy~ -}         [ "alkaline", "bases" ]
                               `plural`     KiRDIS |< At ]
+
+
+cluster_60  = listing "Lexicon's properties"
+
 
  |> "q l w z" <| [
 
@@ -3277,6 +3275,8 @@ cluster_60  = listing "Lexicon's properties"
     FaCCAL |< aT              `noun`    {- qal~Ayap -}         [ unwords [ "frying", "pan" ] ],
 
     TaFCI |< aT               `noun`    {- taqoliyap -}        [ "alkalization" ],
+
+    MaFCIL                    `adj`     {- maqoliy~ -}         [ "fried" ],
 
     FiCCIL |< aT              `noun`    {- qil~iy~ap -}        [ unwords [ "monk's", "cell" ], unwords [ "bishop's", "residence" ], unwords [ "monks'", "cells" ] ]
                               `plural`     FaCACI
@@ -5328,10 +5328,14 @@ cluster_96  = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- qawA' -}            [ "desert" ],
 
+    FiyAL                     `noun`    {- qiyA' -}            [ "desert" ]
+                              `plural`     FIy,
+
     FaCAL                     `noun`    {- qawA' -}            [ "hunger" ],
 
     HiFCAL                    `noun`    {- IiqowA' -}          [ "depopulation" ]
-                              `plural`     HiFCAL |< At ]
+                              `plural`     HiFCAL |< At
+                              `plural`     HiFCA' |< At ]
 
 
 cluster_97  = listing "Lexicon's properties"
@@ -5460,6 +5464,16 @@ cluster_99  = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oaqowad -}          [ "tractable", "docile", "amenable" ],
 
+    FiyAL                     `noun`    {- qiyAd -}            [ "leadership", "guidance" ],
+
+    FiyAL |< aT               `noun`    {- qiyAdap -}          [ "leadership", "command" ],
+
+    FiyAL |< aT               `noun`    {- qiyAdap -}          [ "leaders", "commanders" ],
+
+    FiyAL |< Iy               `adj`     {- qiyAdiy~ -}         [ "leading", "guiding", "commanding" ],
+
+    FiyAL |< Iy               `noun`    {- qiyAdiy~ -}         [ "leader", "commander" ],
+
     InFiyAL                   `noun`    {- AinoqiyAd -}        [ "compliance", "submission" ]
                               `plural`     InFiyAL |< At,
 
@@ -5479,13 +5493,13 @@ cluster_99  = listing "Lexicon's properties"
     MiFCaL                    `noun`    {- miqowad -}          [ unwords [ "steering", "mechanism" ] ]
                               `plural`     MaFACiL ]
 
- |> "q w h" <| [
-
-    FaCCaL                    `verb`    {- qaw~ah -}           [ "shriek", "shout" ] ]
-
 
 cluster_100 = listing "Lexicon's properties"
 
+
+ |> "q w h" <| [
+
+    FaCCaL                    `verb`    {- qaw~ah -}           [ "shriek", "shout" ] ]
 
  |> "q w l" <| [
 
@@ -5585,6 +5599,8 @@ cluster_101 = listing "Lexicon's properties"
 
     FIL |< Iy                 `adj`     {- qiymiy~ -}          [ unwords [ "non", "-", "fungible" ] ],
 
+    FayyiL                    `noun`    {- qay~im -}           [ "valuable" ],
+
     FaCAL                     `noun`    {- qawAm -}            [ unwords [ "upright", "posture" ], unwords [ "proper", "condition" ] ],
 
     FiCAL                     `noun`    {- qiwAm -}            [ "support", "sustenance", "livelihood" ],
@@ -5594,6 +5610,10 @@ cluster_101 = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- qaw~Am -}           [ "manager", "guardian" ],
 
     FaCIL                     `adj`     {- qawiym -}           [ "upright", "proper", "authentic" ],
+
+    FiyAL                     `noun`    {- qiyAm -}            [ "undertaking", unwords [ "carrying", "out" ] ],
+
+    FiyAL |< aT               `noun`    {- qiyAmap -}          [ "resurrection" ],
 
     MaFAL                     `noun`    {- maqAm -}            [ "place", "location", "situation" ]
                               `plural`     MaFAL |< At,
@@ -5626,7 +5646,6 @@ cluster_101 = listing "Lexicon's properties"
     FA'iL |< aT               `noun`    {- qA}imap -}          [ "support", "base" ],
 
     FA'iL |< aT               `noun`    {- qA}imap -}          [ "list", "index" ]
-                              `plural`     FaCA'iL
                               `plural`     FawA'iL
                               `plural`     FA'iL |< At,
 
@@ -5825,6 +5844,10 @@ cluster_105 = listing "Lexicon's properties"
 
     IstaFCY                   `verb`    {- AisotaqowaY -}      [ unwords [ "become", "strong" ], unwords [ "be", "strengthened" ] ],
 
+    FUw |< aT                 `noun`    {- quw~ap -}           [ "power", "strength", unwords [ "armed", "forces" ] ]
+                              `plural`     FuCY
+                              `plural`     FUw |< At,
+
     FaCA'                     `noun`    {- qawA' -}            [ "desert" ],
 
     FaCA'                     `noun`    {- qawA' -}            [ "hunger" ],
@@ -5857,7 +5880,7 @@ cluster_106 = listing "Lexicon's properties"
  |> "q y '" <| [
 
     FiCAL                     `noun`    {- qiyA' -}            [ "desert" ]
-                           {- `others`  [ "qiyy N" ] -},
+                              `plural`     FIy,
 
     FAL                       `verb`    {- qA'-i -}            [ "vomit" ]
                               `imperf`     FIL
@@ -5981,8 +6004,7 @@ cluster_108 = listing "Lexicon's properties"
     FiCAL |< Iy               `noun`    {- qiyAdiy~ -}         [ "leader", "commander" ],
 
     InFiCAL                   `noun`    {- AinoqiyAd -}        [ "compliance", "submission" ]
-                              `plural`     InFiCAL |< At
-                              `plural`     InFiyAL |< At,
+                              `plural`     InFiCAL |< At,
 
     FaCCaL                    `verb`    {- qay~ad -}           [ "bind", "restrict", "stipulate" ],
 

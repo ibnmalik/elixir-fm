@@ -344,7 +344,7 @@ cluster_27  = listing "Lexicon's properties"
                               `plural`     FACI |< At
                               `plural`     FuCY |< aT,
 
-    MaFCIy                    `adj`     {- maHomiy~ -}         [ "protected", "protectorate" ],
+    MaFCIL                    `adj`     {- maHomiy~ -}         [ "protected", "protectorate" ],
 
     MuFACI                    `noun`    {- muHAmiy -}          [ "lawyer", unwords [ "defense", "counsel" ] ]
                               `plural`     MuFACI |< At ]

@@ -20,6 +20,8 @@ cluster_21  = listing "Lexicon's properties"
 
  |> "_t w y" <| [
 
+    FUw |< aT                 `noun`    {- vuw~ap -}           [ unwords [ "road", "sign" ], "signpost" ],
+
     FaCY                      `verb`    {- vawaY-i -}          [ unwords [ "settle", "down" ], "remain" ]
                               `imperf`     FCY
                               `imperf`     FCI,
@@ -76,13 +78,13 @@ cluster_21  = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- valAvmA}ap -}       [ unwords [ "three", "-", "hundred" ] ] ]
 
- |> "_tamAnimA'" <| [
-
-    Identity |< aT            `noun`    {- vamAnimA}ap -}      [ unwords [ "eight", "-", "hundred" ] ] ]
-
 
 cluster_22  = listing "Lexicon's properties"
 
+
+ |> "_tamAnimA'" <| [
+
+    Identity |< aT            `noun`    {- vamAnimA}ap -}      [ unwords [ "eight", "-", "hundred" ] ] ]
 
  |> "_tanAyA" <| [
 
@@ -158,13 +160,13 @@ cluster_22  = listing "Lexicon's properties"
 
     Identity                  `prep`    {- lilAivonatayo -}    [ unwords [ "to", "/", "for", "+", "the", "+", "(", "1st", "word", "in", "\"twelve\"", ")" ] ] ]
 
- |> "lilAi_tnatayn" <| [
-
-    Identity |<< "i"          `prep`    {- liloAivonatayoni -} [ unwords [ "to", "/", "for", "+", "the", "+", "two" ] ] ]
-
 
 cluster_23  = listing "Lexicon's properties"
 
+
+ |> "lilAi_tnatayn" <| [
+
+    Identity |<< "i"          `prep`    {- liloAivonatayoni -} [ unwords [ "to", "/", "for", "+", "the", "+", "two" ] ] ]
 
  |> "lilAi_tnay" <| [
 

@@ -337,7 +337,7 @@ cluster_6   = listing "Lexicon's properties"
     FuCAL |< Iy               `adj`     {- fujA}iy~ -}         [ "surprising", "unexpected" ],
 
     MuFACaL |< aT             `noun`    {- mufAjaOap -}        [ "surprise" ]
-                           {- `others`  [ "mufA^ga N-|t" ] -},
+                              `plural`     MuFACaL |< At,
 
     MuFACiL                   `adj`     {- mufAji} -}          [ "surprising", "unexpected" ] ]
 
