@@ -67,8 +67,7 @@ cluster_102 = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- rawiy~ap -}         [ "deliberation", "reflection", "consideration" ],
 
     FiCAL |< aT               `noun`    {- riwAyap -}          [ "story", "novel" ]
-                              `plural`     FiCAL |< At
-                              `plural`     FiCAy |< At,
+                              `plural`     FiCAL |< At,
 
     FiCAL |< aT               `noun`    {- riwAyap -}          [ "report", "account" ],
 

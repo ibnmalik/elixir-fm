@@ -395,8 +395,6 @@ cluster_48  = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- Tawiy~ap -}         [ "intention", "conviction", "interior", unwords [ "insides", "(", "of", ")" ] ]
                               `plural`     FaCALY,
 
-    FIy |< aT                 `noun`    {- Tiy~ap -}           [ "intention", "design" ],
-
     FIL |< aT                 `noun`    {- Tiy~ap -}           [ "intention", "design" ],
 
     MaFCY                     `noun`    {- maTowaY -}          [ unwords [ "pocket", "knife" ], "pleat", "inside", "within" ]

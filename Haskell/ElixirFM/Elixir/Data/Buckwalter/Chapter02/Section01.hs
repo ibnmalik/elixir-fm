@@ -62,9 +62,6 @@ cluster_1   = listing "Lexicon's properties"
 
  |> "b ' d" <| [
 
-    FaL |<< "awIy"            `adj`     {- badawiy~ -}         [ "Bedouin" ]
-                           {- `others`  [ "badw N" ] -},
-
     FACiL                     `noun`    {- bA}id -}            [ "bygone", "temporal" ] ]
 
  |> "b ' l" <| [
@@ -84,14 +81,14 @@ cluster_1   = listing "Lexicon's properties"
 
     FACiL |< aT               `noun`    {- bA}inap -}          [ "dowry" ] ]
 
-
-cluster_2   = listing "Lexicon's properties"
-
-
  |> "b ' q" <| [
 
     FACiL |< aT               `noun`    {- bA}iqap -}          [ "misfortune" ]
                               `plural`     FawACiL ]
+
+
+cluster_2   = listing "Lexicon's properties"
+
 
  |> "b ' r" <| [
 

@@ -18845,24 +18845,6 @@ $Lexicon = {
       ],
       'orig' => 'niy~ap',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'niyy',
-      'form' => 'niyyaT',
-      'lines' => [],
-      'patterns' => {
-        'nawAyY' => [
-          'FaCALY'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FIy |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [],
-      'orig' => 'niy~ap',
-      'prefix' => ''
     }
   ],
   'nItrU^gIn' => [
@@ -61058,8 +61040,7 @@ $Lexicon = {
           'FULAn'
         ],
         '\'anwA\'' => [
-          'HaFCAL',
-          'HaFCA\''
+          'HaFCAL'
         ]
       },
       'index' => '1',
@@ -72462,9 +72443,6 @@ $Lexicon->{'n ^s ^s'}[4]{'glosses'} = $Lexicon->{'n ^s y'}[7]{'glosses'};
 $Lexicon->{'n ^s ^s'}[5]{'types'} = $Lexicon->{'n ^s y'}[8]{'types'};
 $Lexicon->{'n ^s ^s'}[5]{'lines'} = $Lexicon->{'n ^s y'}[8]{'lines'};
 $Lexicon->{'n ^s ^s'}[5]{'glosses'} = $Lexicon->{'n ^s y'}[8]{'glosses'};
-$Lexicon->{'n w y'}[9]{'types'} = $Lexicon->{'n w y'}[8]{'types'};
-$Lexicon->{'n w y'}[9]{'lines'} = $Lexicon->{'n w y'}[8]{'lines'};
-$Lexicon->{'n w y'}[9]{'glosses'} = $Lexicon->{'n w y'}[8]{'glosses'};
 $Lexicon->{'n w .h'}[8]{'types'} = $Lexicon->{'n \' .h'}[0]{'types'};
 $Lexicon->{'n w .h'}[8]{'lines'} = $Lexicon->{'n \' .h'}[0]{'lines'};
 $Lexicon->{'n w .h'}[8]{'glosses'} = $Lexicon->{'n \' .h'}[0]{'glosses'};

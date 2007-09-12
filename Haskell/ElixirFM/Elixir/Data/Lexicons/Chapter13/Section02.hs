@@ -634,7 +634,6 @@ cluster_33  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- \$ayo' -}           [ "something", "things" ]
                               `plural`     HaFCAL
-                              `plural`     HaFCA'
                               `plural`     FaL ]
 
  |> "^s y .h" <| [

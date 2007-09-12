@@ -14501,9 +14501,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'istiyA\'' => [
-          'IFtiCAL',
-          'IFtiyAL',
-          'IFtiCA\''
+          'IFtiCAL'
         ]
       },
       'index' => '1',
@@ -14514,26 +14512,6 @@ $Lexicon = {
         'dissatisfaction',
         'displeasure'
       ],
-      'orig' => 'AisotiyA\'',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'istiyA\'',
-      'form' => 'istiyA\'',
-      'lines' => [],
-      'patterns' => {
-        'istiyA\'' => [
-          'IFtiCAL',
-          'IFtiyAL',
-          'IFtiCA\''
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFtiCA\'',
-      'suffix' => '',
-      'glosses' => [],
       'orig' => 'AisotiyA\'',
       'prefix' => ''
     },
@@ -14590,7 +14568,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'sayyi\'' => [
-          'FayyiL',
           'FaCCiL'
         ]
       },
@@ -14619,7 +14596,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'sayyi\'' => [
-          'FayyiL',
           'FaCCiL'
         ]
       },
@@ -44254,8 +44230,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'aswA\'' => [
-          'HaFCAL',
-          'HaFCA\''
+          'HaFCAL'
         ]
       },
       'index' => '1',
@@ -44603,8 +44578,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'istiwA\'' => [
-          'IFtiCAL',
-          'IFtiCA\''
+          'IFtiCAL'
         ]
       },
       'index' => '1',
@@ -55066,25 +55040,6 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FIy',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'siy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'siyy',
-      'form' => 'siyy',
-      'lines' => [],
-      'patterns' => {
-        '\'aswA\'' => [
-          'HaFCA\''
-        ],
-        'sawAsiy' => []
-      },
-      'index' => '1',
-      'entity' => 'noun',
       'morphs' => 'FIL',
       'suffix' => '',
       'glosses' => [],
@@ -56085,9 +56040,6 @@ $Lexicon->{'s _h y'}[0]{'types'} = $Lexicon->{'s _h w'}[2]{'types'};
 $Lexicon->{'s _h y'}[0]{'lines'} = $Lexicon->{'s _h w'}[2]{'lines'};
 $Lexicon->{'s _h y'}[0]{'glosses'} = $Lexicon->{'s _h w'}[2]{'glosses'};
 $Lexicon->{'s _h y'}[0]{'imperf'} = $Lexicon->{'s _h w'}[2]{'imperf'};
-$Lexicon->{'s y \''}[1]{'types'} = $Lexicon->{'s y \''}[0]{'types'};
-$Lexicon->{'s y \''}[1]{'lines'} = $Lexicon->{'s y \''}[0]{'lines'};
-$Lexicon->{'s y \''}[1]{'glosses'} = $Lexicon->{'s y \''}[0]{'glosses'};
 $Lexicon->{'s w m'}[9]{'types'} = $Lexicon->{'s \' m'}[9]{'types'};
 $Lexicon->{'s w m'}[9]{'lines'} = $Lexicon->{'s \' m'}[9]{'lines'};
 $Lexicon->{'s w m'}[9]{'glosses'} = $Lexicon->{'s \' m'}[9]{'glosses'};
@@ -56193,15 +56145,15 @@ $Lexicon->{'s y m'}[0]{'glosses'} = $Lexicon->{'s w m'}[7]{'glosses'};
 $Lexicon->{'s w \''}[12]{'types'} = $Lexicon->{'s y \''}[0]{'types'};
 $Lexicon->{'s w \''}[12]{'lines'} = $Lexicon->{'s y \''}[0]{'lines'};
 $Lexicon->{'s w \''}[12]{'glosses'} = $Lexicon->{'s y \''}[0]{'glosses'};
-$Lexicon->{'s w \''}[13]{'types'} = $Lexicon->{'s y \''}[2]{'types'};
-$Lexicon->{'s w \''}[13]{'lines'} = $Lexicon->{'s y \''}[2]{'lines'};
-$Lexicon->{'s w \''}[13]{'glosses'} = $Lexicon->{'s y \''}[2]{'glosses'};
-$Lexicon->{'s w \''}[15]{'types'} = $Lexicon->{'s y \''}[3]{'types'};
-$Lexicon->{'s w \''}[15]{'lines'} = $Lexicon->{'s y \''}[3]{'lines'};
-$Lexicon->{'s w \''}[15]{'glosses'} = $Lexicon->{'s y \''}[3]{'glosses'};
-$Lexicon->{'s w \''}[16]{'types'} = $Lexicon->{'s y \''}[4]{'types'};
-$Lexicon->{'s w \''}[16]{'lines'} = $Lexicon->{'s y \''}[4]{'lines'};
-$Lexicon->{'s w \''}[16]{'glosses'} = $Lexicon->{'s y \''}[4]{'glosses'};
+$Lexicon->{'s w \''}[13]{'types'} = $Lexicon->{'s y \''}[1]{'types'};
+$Lexicon->{'s w \''}[13]{'lines'} = $Lexicon->{'s y \''}[1]{'lines'};
+$Lexicon->{'s w \''}[13]{'glosses'} = $Lexicon->{'s y \''}[1]{'glosses'};
+$Lexicon->{'s w \''}[15]{'types'} = $Lexicon->{'s y \''}[2]{'types'};
+$Lexicon->{'s w \''}[15]{'lines'} = $Lexicon->{'s y \''}[2]{'lines'};
+$Lexicon->{'s w \''}[15]{'glosses'} = $Lexicon->{'s y \''}[2]{'glosses'};
+$Lexicon->{'s w \''}[16]{'types'} = $Lexicon->{'s y \''}[3]{'types'};
+$Lexicon->{'s w \''}[16]{'lines'} = $Lexicon->{'s y \''}[3]{'lines'};
+$Lexicon->{'s w \''}[16]{'glosses'} = $Lexicon->{'s y \''}[3]{'glosses'};
 $Lexicon->{'s y r'}[19]{'types'} = $Lexicon->{'s \' r'}[3]{'types'};
 $Lexicon->{'s y r'}[19]{'lines'} = $Lexicon->{'s \' r'}[3]{'lines'};
 $Lexicon->{'s y r'}[19]{'glosses'} = $Lexicon->{'s \' r'}[3]{'glosses'};
@@ -56286,18 +56238,15 @@ $Lexicon->{'s w y'}[8]{'glosses'} = $Lexicon->{'s w \''}[18]{'glosses'};
 $Lexicon->{'s w y'}[12]{'types'} = $Lexicon->{'s y y'}[0]{'types'};
 $Lexicon->{'s w y'}[12]{'lines'} = $Lexicon->{'s y y'}[0]{'lines'};
 $Lexicon->{'s w y'}[12]{'glosses'} = $Lexicon->{'s y y'}[0]{'glosses'};
-$Lexicon->{'s w y'}[13]{'types'} = $Lexicon->{'s y y'}[0]{'types'};
-$Lexicon->{'s w y'}[13]{'lines'} = $Lexicon->{'s y y'}[0]{'lines'};
-$Lexicon->{'s w y'}[13]{'glosses'} = $Lexicon->{'s y y'}[0]{'glosses'};
-$Lexicon->{'s w y'}[17]{'types'} = $Lexicon->{'s w \''}[19]{'types'};
-$Lexicon->{'s w y'}[17]{'lines'} = $Lexicon->{'s w \''}[19]{'lines'};
-$Lexicon->{'s w y'}[17]{'glosses'} = $Lexicon->{'s w \''}[19]{'glosses'};
-$Lexicon->{'s w y'}[18]{'types'} = $Lexicon->{'s w \''}[20]{'types'};
-$Lexicon->{'s w y'}[18]{'lines'} = $Lexicon->{'s w \''}[20]{'lines'};
-$Lexicon->{'s w y'}[18]{'glosses'} = $Lexicon->{'s w \''}[20]{'glosses'};
-$Lexicon->{'s w y'}[19]{'types'} = $Lexicon->{'s w \''}[21]{'types'};
-$Lexicon->{'s w y'}[19]{'lines'} = $Lexicon->{'s w \''}[21]{'lines'};
-$Lexicon->{'s w y'}[19]{'glosses'} = $Lexicon->{'s w \''}[21]{'glosses'};
+$Lexicon->{'s w y'}[16]{'types'} = $Lexicon->{'s w \''}[19]{'types'};
+$Lexicon->{'s w y'}[16]{'lines'} = $Lexicon->{'s w \''}[19]{'lines'};
+$Lexicon->{'s w y'}[16]{'glosses'} = $Lexicon->{'s w \''}[19]{'glosses'};
+$Lexicon->{'s w y'}[17]{'types'} = $Lexicon->{'s w \''}[20]{'types'};
+$Lexicon->{'s w y'}[17]{'lines'} = $Lexicon->{'s w \''}[20]{'lines'};
+$Lexicon->{'s w y'}[17]{'glosses'} = $Lexicon->{'s w \''}[20]{'glosses'};
+$Lexicon->{'s w y'}[18]{'types'} = $Lexicon->{'s w \''}[21]{'types'};
+$Lexicon->{'s w y'}[18]{'lines'} = $Lexicon->{'s w \''}[21]{'lines'};
+$Lexicon->{'s w y'}[18]{'glosses'} = $Lexicon->{'s w \''}[21]{'glosses'};
 $Lexicon->{'s n y'}[1]{'types'} = $Lexicon->{'s n w'}[7]{'types'};
 $Lexicon->{'s n y'}[1]{'lines'} = $Lexicon->{'s n w'}[7]{'lines'};
 $Lexicon->{'s n y'}[1]{'glosses'} = $Lexicon->{'s n w'}[7]{'glosses'};

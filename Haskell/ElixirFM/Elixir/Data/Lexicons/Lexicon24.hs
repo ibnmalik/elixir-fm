@@ -125,10 +125,10 @@ cluster_2   = listing "Lexicon's properties"
 
  |> "m .g n" <| [
 
-    FICAL                     `noun`    {- miygAn -}           [ "Megan" ]
+    MICAL                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -},
 
-    MICAL                     `noun`    {- miygAn -}           [ "Megan" ]
+    FICAL                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -} ]
 
  |> "m .h .d" <| [
@@ -831,12 +831,12 @@ cluster_14  = listing "Lexicon's properties"
 
  |> "m n '" <| [
 
-    FICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
+    MICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
                               `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "miyan N", "miyn Napdu" ] -},
 
-    MICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
+    FICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
                               `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "miyan N", "miyn Napdu" ] -} ]

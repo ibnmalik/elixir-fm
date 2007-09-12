@@ -200,9 +200,6 @@ cluster_44  = listing "Lexicon's properties"
     FaC |<< "awIy"            `adj`     {- nawawiy~ -}         [ "nuclear", "atomic", "nucleic" ],
 
     FIL |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire" ]
-                              `plural`     FaCALY,
-
-    FIy |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire" ]
                               `plural`     FaCALY ]
 
  |> "n y '" <| [

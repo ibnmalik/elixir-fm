@@ -711,8 +711,7 @@ cluster_54  = listing "Lexicon's properties"
  |> "d w '" <| [
 
     FAL                       `noun`    {- dA' -}              [ "disease", "illness" ]
-                              `plural`     HaFCAL
-                              `plural`     HaFCA',
+                              `plural`     HaFCAL,
 
     FaCAL                     `noun`    {- dawA' -}            [ "remedy", "medication" ]
                               `plural`     HaFCI |< aT,

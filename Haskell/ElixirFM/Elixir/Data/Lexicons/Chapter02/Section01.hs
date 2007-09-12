@@ -27,11 +27,6 @@ cluster_1   = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- bA}iE -}            [ "vendor", "merchant" ] ]
 
- |> "b ' d" <| [
-
-    FaL |<< "awIy"            `adj`     {- badawiy~ -}         [ "Bedouin" ]
-                           {- `others`  [ "badw N" ] -} ]
-
  |> "b ' l" <| [
 
     FAL                       `noun`    {- bAl -}              [ "mind", "attention" ],
@@ -571,6 +566,8 @@ cluster_11  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- bado' -}            [ "start", "beginning" ],
 
+    FiCAy |< aT               `noun`    {- bidAyap -}          [ "beginning", "start" ],
+
     FiCAL |< Iy               `adj`     {- bidA}iy~ -}         [ "primitive", "original" ],
 
     MaFCaL                    `noun`    {- mabodaO -}          [ "principle", "basis" ]
@@ -636,17 +633,21 @@ cluster_12  = listing "Lexicon's properties"
 
     MuFaCCiL                  `noun`    {- mubad~id -}         [ "squanderer", "scatterer" ],
 
-    MustaFiCL                 `noun`    {- musotabid~ -}       [ "autocratic", "arbitrary", "despotic" ] ]
+    MustaFiCL                 `noun`    {- musotabid~ -}       [ "autocratic", "arbitrary", "despotic" ],
+
+    FaL |<< "awIy"            `adj`     {- badawiy~ -}         [ "Bedouin" ]
+                              `plural`     FuCY |< aT
+                           {- `others`  [ "badw N" ] -} ]
+
+
+cluster_13  = listing "Lexicon's properties"
+
 
  |> "b d h" <| [
 
     FaCIL |< Iy               `adj`     {- badiyhiy~ -}        [ "obvious", "intuitive", unwords [ "self", "-", "evident" ] ],
 
     FaCIL |< Iy |< aT         `noun`    {- badiyhiy~ap -}      [ "platitude", "axiom" ] ]
-
-
-cluster_13  = listing "Lexicon's properties"
-
 
  |> "b d l" <| [
 
@@ -692,6 +693,10 @@ cluster_13  = listing "Lexicon's properties"
 
     MutaFACaL                 `adj`     {- mutabAdal -}        [ "mutual", "reciprocal" ] ]
 
+
+cluster_14  = listing "Lexicon's properties"
+
+
  |> "b d n" <| [
 
     FaCaL                     `verb`    {- badan-u -}          [ unwords [ "be", "corpulent" ] ]
@@ -707,10 +712,6 @@ cluster_13  = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- badiyn -}           [ "corpulent", "obese" ]
                               `plural`     FuCuL ]
-
-
-cluster_14  = listing "Lexicon's properties"
-
 
  |> "b d r" <| [
 
@@ -729,20 +730,7 @@ cluster_14  = listing "Lexicon's properties"
                               `plural`     FawACiL
                            {- `others`  [ "bayAdir Ndip" ] -} ]
 
- |> "b d r n" <| [
-
-    KaRDAS                    `noun`    {- badorAn -}          [ "Badran" ] ]
-
- |> "b d y" <| [
-
-    FiCAL |< aT               `noun`    {- bidAyap -}          [ "beginning", "start" ],
-
-    FiCA' |< Iy               `adj`     {- bidA}iy~ -}         [ "primitive", "original" ],
-
-    IFtiCA'                   `noun`    {- AibotidA' -}        [ "beginning", "start" ]
-                              `plural`     IFtiCA' |< At,
-
-    IFtiCA' |< Iy             `adj`     {- AibotidA}iy~ -}     [ "elementary", "preparatory" ],
+ |> "b d w" <| [
 
     FaCA                      `verb`    {- badA-u -}           [ "appear", "seem" ]
                               `imperf`     FCU,
@@ -751,7 +739,7 @@ cluster_14  = listing "Lexicon's properties"
 
     FaC |<< "awIy"            `adj`     {- badawiy~ -}         [ "Bedouin" ]
                               `plural`     FuCY |< aT
-                           {- `others`  [ "badw N" ] -},
+                              `plural`     FaCL,
 
     HiFCA'                    `noun`    {- IibodA' -}          [ "expression", "manifestation" ]
                               `plural`     HiFCA' |< At,
@@ -762,6 +750,20 @@ cluster_14  = listing "Lexicon's properties"
     MuFCI |< aN               `noun`    {- mubodiyAF -}        [ "expressing", "showing", "demonstrating" ]
                               `plural`     MuFCI ]
 
+ |> "b d y" <| [
+
+    FiCAL |< aT               `noun`    {- bidAyap -}          [ "beginning", "start" ],
+
+    FACI                      `noun`    {- bAdiy -}            [ "apparent", "obvious" ]
+                              `plural`     FACI |< At,
+
+    MuFCI |< aN               `noun`    {- mubodiyAF -}        [ "expressing", "showing", "demonstrating" ]
+                              `plural`     MuFCI ]
+
+
+cluster_15  = listing "Lexicon's properties"
+
+
  |> "b f l" <| [
 
     FACiL                     `noun`    {- bAfil -}            [ "Pavel" ] ]
@@ -769,10 +771,6 @@ cluster_14  = listing "Lexicon's properties"
  |> "b f s" <| [
 
     FACL                      `noun`    {- bAfs -}             [ "Puffs" ] ]
-
-
-cluster_15  = listing "Lexicon's properties"
-
 
  |> "b h '" <| [
 
@@ -828,6 +826,10 @@ cluster_15  = listing "Lexicon's properties"
 
     KuRDAS                    `noun`    {- buhotAn -}          [ "slander" ] ]
 
+
+cluster_16  = listing "Lexicon's properties"
+
+
  |> "b h y" <| [
 
     FaCA'                     `noun`    {- bahA' -}            [ "beauty", "brilliancy" ],
@@ -835,10 +837,6 @@ cluster_15  = listing "Lexicon's properties"
     FaCA' |< Iy               `adj`     {- bahA}iy~ -}         [ "Baha'i" ],
 
     HaFCY                     `noun`    {- OabohaY -}          [ unwords [ "more", "/", "most", "splendid" ] ] ]
-
-
-cluster_16  = listing "Lexicon's properties"
-
 
  |> "b k '" <| [
 
@@ -894,6 +892,10 @@ cluster_16  = listing "Lexicon's properties"
     MuFtaCaL                  `noun`    {- mubotakar -}        [ "invention", "creation" ]
                               `plural`     MuFtaCaL |< At ]
 
+
+cluster_17  = listing "Lexicon's properties"
+
+
  |> "b k y" <| [
 
     FaC                       `noun`    {- bak -}              [ "Bey", "beys" ]
@@ -909,7 +911,7 @@ cluster_16  = listing "Lexicon's properties"
     FaC                       `conj`    {- bal -}              [ unwords [ "but", "rather" ], unwords [ "in", "fact" ] ] ]
 
 
-cluster_17  = listing "Lexicon's properties"
+cluster_18  = listing "Lexicon's properties"
 
 
  |> "b l .g" <| [
@@ -965,7 +967,7 @@ cluster_17  = listing "Lexicon's properties"
     MuFACaL                   `noun`    {- mubAlag -}          [ "exaggerated" ] ]
 
 
-cluster_18  = listing "Lexicon's properties"
+cluster_19  = listing "Lexicon's properties"
 
 
  |> "b l .g r" <| [
@@ -1041,7 +1043,7 @@ cluster_18  = listing "Lexicon's properties"
     KiRDIS                    `noun`    {- biloqiys -}         [ "Bilqis" ] ]
 
 
-cluster_19  = listing "Lexicon's properties"
+cluster_20  = listing "Lexicon's properties"
 
 
  |> "b l w" <| [
@@ -1106,50 +1108,6 @@ cluster_19  = listing "Lexicon's properties"
     KuRDuS |< Iy |< aT        `noun`    {- bunoduqiy~ap -}     [ "rifle" ],
 
     KuRDuS |< Iy |< aT        `noun`    {- bunoduqiy~ap -}     [ "Venice" ] ]
-
-
-cluster_20  = listing "Lexicon's properties"
-
-
- |> "b n d r" <| [
-
-    KaRDaS                    `noun`    {- banodar -}          [ "Bandar" ],
-
-    KaRDaS                    `noun`    {- banodar -}          [ "seaport", unwords [ "district", "capital" ] ]
-                              `plural`     KaRADiS ]
-
- |> "b n k" <| [
-
-    FaCL                      `noun`    {- banok -}            [ "bank" ]
-                              `plural`     FuCUL,
-
-    FaCL |< Iy                `adj`     {- banokiy~ -}         [ "bank", "banking" ] ]
-
- |> "b n n" <| [
-
-    FiL                       `noun`    {- bin -}              [ "son" ],
-
-    FiL                       `noun`    {- bin -}              [ "Bin", "Ben" ],
-
-    FaL |<< "awIy"            `adj`     {- banawiy~ -}         [ "filial" ],
-
-    FuCL                      `noun`    {- bun~ -}             [ unwords [ "coffee", "beans" ] ],
-
-    FaCLA'                    `noun`    {- ban~A' -}           [ "builder", "mason" ]
-                              `plural`     FaCLA' |< Un,
-
-    FaCLA'                    `adj`     {- ban~A' -}           [ "constructive" ],
-
-    FaCLA'                    `noun`    {- ban~A' -}           [ "Banna" ] ]
-
- |> "b n s" <| [
-
-    FACUL                     `noun`    {- bAnuws -}           [ "Panos" ] ]
-
- |> "b n t" <| [
-
-    FiCL                      `noun`    {- binot -}            [ "daughter", "girl" ]
-                              `plural`     FaC |< At ]
 
 
 section = [ cluster_1,

@@ -12,44 +12,6 @@ lexicon = include section
 cluster_41  = listing "Lexicon's properties"
 
 
- |> "s y r" <| [
-
-    FAL                       `verb`    {- sAr-i -}            [ "move", "march" ]
-                              `imperf`     FIL
-                              `pfirst`     FiL,
-
-    FaCCaL                    `verb`    {- say~ar -}           [ unwords [ "set", "in", "motion" ], "dispatch" ],
-
-    FaCL                      `noun`    {- sayor -}            [ "course", "motion", "march" ],
-
-    FaCL                      `noun`    {- sayor -}            [ unwords [ "drive", "belt" ] ]
-                              `plural`     FuCUL,
-
-    FIL |< aT                 `noun`    {- siyrap -}           [ "biography", "epic" ]
-                              `plural`     FiCaL,
-
-    FaCCAL |< aT              `noun`    {- say~Arap -}         [ "car", "automobile", "vehicle" ]
-                              `plural`     FaCCAL |< At,
-
-    MaFAL                     `noun`    {- masAr -}            [ "path", "route" ]
-                              `plural`     MaFAL |< At,
-
-    MaFAL                     `noun`    {- masAr -}            [ "trajectory", "orbit" ]
-                              `plural`     MaFAL |< At,
-
-    MaFIL |< aT               `noun`    {- masiyrap -}         [ "march", "parade" ],
-
-    MaFIL |< aT               `noun`    {- masiyrap -}         [ "operation", "activities", "functioning" ],
-
-    MaFIL |< aT               `noun`    {- masiyrap -}         [ "Massira" ],
-
-    TaFCIL                    `noun`    {- tasoyiyr -}         [ "propulsion", "steering", "guidance" ]
-                              `plural`     TaFCIL |< At,
-
-    FA'iL                     `adj`     {- sA}ir -}            [ "current", "available", "widespread", unwords [ "in", "circulation" ] ],
-
-    MuFaCCiL                  `noun`    {- musay~ir -}         [ "director", "leader" ] ]
-
  |> "s y s" <| [
 
     FiCAL |< aT               `noun`    {- siyAsap -}          [ "politics" ],
@@ -69,10 +31,6 @@ cluster_41  = listing "Lexicon's properties"
  |> "s y t y" <| [
 
     KiRDI                     `noun`    {- siytiy -}           [ "City" ] ]
-
-
-cluster_42  = listing "Lexicon's properties"
-
 
  |> "s y y" <| [
 
@@ -131,6 +89,10 @@ cluster_42  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- siybuw -}           [ "Sipo" ] ]
 
+
+cluster_42  = listing "Lexicon's properties"
+
+
  |> "sIdA" <| [
 
     Identity                  `noun`    {- siydA -}            [ unwords [ "SIDA", "(", "AIDS", ")" ] ] ]
@@ -154,10 +116,6 @@ cluster_42  = listing "Lexicon's properties"
  |> "sInA" <| [
 
     Identity                  `noun`    {- siynA -}            [ "Sinai" ] ]
-
-
-cluster_43  = listing "Lexicon's properties"
-
 
  |> "sInAtUr" <| [
 
@@ -215,6 +173,10 @@ cluster_43  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- salofAduwr -}       [ "Salvador", "Salvadoran" ] ]
 
+
+cluster_43  = listing "Lexicon's properties"
+
+
  |> "saltA" <| [
 
     Identity                  `noun`    {- salotA -}           [ "Salta" ] ]
@@ -238,10 +200,6 @@ cluster_43  = listing "Lexicon's properties"
  |> "sikritAr" <| [
 
     Identity |< Iy |< aT      `noun`    {- sikoritAriy~ap -}   [ "secretariat" ] ]
-
-
-cluster_44  = listing "Lexicon's properties"
-
 
  |> "sikritIr" <| [
 
@@ -295,6 +253,10 @@ cluster_44  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sluwfAkiyA -}       [ "Slovakia" ] ]
 
+
+cluster_44  = listing "Lexicon's properties"
+
+
  |> "slUfIn" <| [
 
     Identity |< Iy            `adj`     {- sluwfiyniy~ -}      [ "Slovenian" ] ]
@@ -318,10 +280,6 @@ cluster_44  = listing "Lexicon's properties"
  |> "stArz" <| [
 
     Identity                  `noun`    {- stArz -}            [ "Stars", "Starie" ] ]
-
-
-cluster_45  = listing "Lexicon's properties"
-
 
  |> "stAybilz" <| [
 
@@ -371,6 +329,5 @@ cluster_45  = listing "Lexicon's properties"
 section = [ cluster_41,
             cluster_42,
             cluster_43,
-            cluster_44,
-            cluster_45 ]
+            cluster_44 ]
 

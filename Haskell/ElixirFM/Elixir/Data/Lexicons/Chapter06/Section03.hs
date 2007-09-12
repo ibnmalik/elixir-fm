@@ -31,8 +31,7 @@ cluster_41  = listing "Lexicon's properties"
  |> ".h w '" <| [
 
     IFtiCAL                   `noun`    {- AiHotiwA' -}        [ "inclusion", "content" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiCA' |< At ]
+                              `plural`     IFtiCAL |< At ]
 
  |> ".h w .d" <| [
 
@@ -282,8 +281,7 @@ cluster_45  = listing "Lexicon's properties"
     FaCAL                     `noun`    {- HayA' -}            [ "modesty", "shame" ],
 
     HiFCAL                    `noun`    {- IiHoyA' -}          [ "commemoration" ]
-                              `plural`     HiFCAL |< At
-                              `plural`     HiFCA' |< At ]
+                              `plural`     HiFCAL |< At ]
 
  |> ".h y .t" <| [
 

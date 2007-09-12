@@ -4755,8 +4755,7 @@ cluster_95  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- Haw~A' -}           [ "Eve" ],
 
     IFtiCAL                   `noun`    {- AiHotiwA' -}        [ "inclusion", "content" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiCA' |< At ]
+                              `plural`     IFtiCAL |< At ]
 
  |> ".h w .d" <| [
 
@@ -5257,12 +5256,10 @@ cluster_104 = listing "Lexicon's properties"
     FaCAL                     `noun`    {- HayA' -}            [ "modesty", "shame" ],
 
     IstiFCAL                  `noun`    {- AisotiHoyA' -}      [ "shame", "bashfulness" ]
-                              `plural`     IstiFCAL |< At
-                              `plural`     IstiFCA' |< At,
+                              `plural`     IstiFCAL |< At,
 
     HiFCAL                    `noun`    {- IiHoyA' -}          [ "commemoration" ]
-                              `plural`     HiFCAL |< At
-                              `plural`     HiFCA' |< At ]
+                              `plural`     HiFCAL |< At ]
 
 
 cluster_105 = listing "Lexicon's properties"

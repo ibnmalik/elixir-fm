@@ -1140,6 +1140,7 @@ mbdd    mubad~id        Nall    squanderer;scatterer
 ;; musotabid~_1
 mstbd   musotabid~      Nall    autocratic;arbitrary;despotic
 ;
+;--- bdA
 ;; bada>-a_1
 ; AFP missing hamza
 bdA     bada>   PV->    start;begin
@@ -1233,6 +1234,7 @@ mbtd|   mubotada|       N-|     begun;subject;topic
 mbtd    mubotada        N-|t    begun;subject;topic
 mbtd}   mubotada}       Nayn    begun;subject;topic
 ;
+;--- bdr
 ;; badar-u_1
 bdr     badar   PV      surprise;come suddenly
 bdr     bodur   IV      surprise;come suddenly
@@ -1458,6 +1460,7 @@ bdyhy   badiyhiy~       NapAt   platitude;axiom     <pos>badiyhiy~/NOUN</pos>
 ;; badA}ih_1
 bdA}h   badA}ih Ndip    self-evident truths
 ;
+;--- bdw
 ;; badA-u_1
 bdA     badA    PV_0    appear;seem
 bdw     badaw   PV_Atn  appear;seem
@@ -1534,9 +1537,11 @@ bwAd    bawAd   NK      nomads;Bedouins
 mbdy    mubodiy NF      expressing;showing;demonstrating
 mbdy    mubodiy N0      expressing;showing;demonstrating
 ;
+;--- bdkr
 ;; bidiykiyr_1
 bdykyr  bidiykiyr       N       pedicure
 ;
+;--- b*
 ;; ba*~-u_1
 b*      ba*~    PV_V    surpass;beat
 b**     ba*a*   PV_C    surpass;beat

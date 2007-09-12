@@ -2019,8 +2019,7 @@ cluster_37  = listing "Lexicon's properties"
                               `imperf`     FCI,
 
     FiCAL |< aT               `noun`    {- riwAyap -}          [ "story", "novel" ]
-                              `plural`     FiCAL |< At
-                              `plural`     FiCAy |< At,
+                              `plural`     FiCAL |< At,
 
     FiCAL |< aT               `noun`    {- riwAyap -}          [ "report", "account" ],
 

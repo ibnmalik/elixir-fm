@@ -344,12 +344,12 @@ cluster_47  = listing "Lexicon's properties"
 
     IstiFCAL                  `noun`    {- AisotimonA' -}      [ "masturbation" ],
 
-    FICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
+    MICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
                               `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "miyan N", "miyn Napdu" ] -},
 
-    MICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
+    FICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
                               `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "miyan N", "miyn Napdu" ] -} ]

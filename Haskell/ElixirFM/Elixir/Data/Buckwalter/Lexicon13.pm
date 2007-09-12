@@ -27431,8 +27431,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'a^syA\'' => [
-          'HaFCAL',
-          'HaFCA\''
+          'HaFCAL'
         ],
         '^sa\'' => [
           'FaL'

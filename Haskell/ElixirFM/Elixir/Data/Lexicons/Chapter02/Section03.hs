@@ -12,6 +12,88 @@ lexicon = include section
 cluster_41  = listing "Lexicon's properties"
 
 
+ |> "banknUt" <| [
+
+    Identity                  `noun`    {- bankonuwt -}        [ unwords [ "bank", "note" ] ] ]
+
+ |> "barbArA" <| [
+
+    Identity                  `noun`    {- barobArA -}         [ "Barbara" ] ]
+
+ |> "barlamAn" <| [
+
+    Identity                  `noun`    {- barolamAn -}        [ "parliament" ],
+
+    Identity |< Iy            `adj`     {- barolamAniy~ -}     [ "parliamentary" ] ]
+
+ |> "barnAma^g" <| [
+
+    Identity                  `noun`    {- baronAmaj -}        [ "program" ] ]
+
+ |> "baynamA" <| [
+
+    Identity                  `conj`    {- bayonamA -}         [ "while" ] ]
+
+ |> "bikIn" <| [
+
+    Identity                  `noun`    {- bikiyn -}           [ "Peking", "Beijing" ] ]
+
+ |> "bil^gIkA" <| [
+
+    Identity                  `noun`    {- bilojiykA -}        [ "Belgium" ] ]
+
+ |> "binIn" <| [
+
+    Identity                  `noun`    {- biniyn -}           [ "Benin" ] ]
+
+ |> "binfIkA" <| [
+
+    Identity                  `noun`    {- binfiykA -}         [ "Benfica" ] ]
+
+ |> "binsilfAniyA" <| [
+
+    Identity                  `noun`    {- binosilofAniyA -}   [ "Pennsylvania" ] ]
+
+ |> "bintA.gUn" <| [
+
+    Identity                  `noun`    {- binotAguwn -}       [ "Pentagon" ] ]
+
+ |> "binyAmIn" <| [
+
+    Identity                  `noun`    {- binoyAmiyn -}       [ "Benyamin", "Benjamin" ] ]
+
+ |> "bitrUkImA'" <| [
+
+    Identity |< Iy            `adj`     {- bitruwkiymAwiy~ -}  [ "petrochemical" ] ]
+
+ |> "bitrUliyUm" <| [
+
+    Identity                  `noun`    {- bitruwliyuwm -}     [ "Petroleum" ] ]
+
+ |> "biyAnU" <| [
+
+    Identity                  `noun`    {- biyAnuw -}          [ "piano" ] ]
+
+ |> "biyUlU^g" <| [
+
+    Identity |< Iy            `adj`     {- biyuwluwjiy~ -}     [ "biological" ] ]
+
+ |> "biyUrkmAn" <| [
+
+    Identity                  `noun`    {- biyuwrkomAn -}      [ "Bjorkman" ] ]
+
+ |> "blAk" <| [
+
+    Identity                  `noun`    {- blAk -}             [ "Black" ] ]
+
+ |> "blAnkU" <| [
+
+    Identity                  `noun`    {- blAnokuw -}         [ "Blanco" ] ]
+
+
+cluster_42  = listing "Lexicon's properties"
+
+
  |> "blAntIr" <| [
 
     Identity                  `noun`    {- blAnotiyr -}        [ "Blantyre" ] ]
@@ -91,7 +173,7 @@ cluster_41  = listing "Lexicon's properties"
     Identity                  `noun`    {- bruwtuwkuwl -}      [ "protocol" ] ]
 
 
-cluster_42  = listing "Lexicon's properties"
+cluster_43  = listing "Lexicon's properties"
 
 
  |> "brUtistAnt" <| [
@@ -146,5 +228,6 @@ cluster_42  = listing "Lexicon's properties"
 
 
 section = [ cluster_41,
-            cluster_42 ]
+            cluster_42,
+            cluster_43 ]
 

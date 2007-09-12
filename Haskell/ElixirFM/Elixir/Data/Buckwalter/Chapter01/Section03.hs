@@ -532,9 +532,6 @@ cluster_50  = listing "Lexicon's properties"
                               `plural`     HACAL
                               `plural`     FaCA,
 
-    HACA' |<< "a"             `prep`    {- \|nA'a -}           [ "during" ]
-                           {- `others`  [ "'AnA'' FW-Wa-i", "'AnA'i FW-Wa" ] -},
-
     HACAL |<< "a"             `prep`    {- \|nA'a -}           [ "during" ]
                            {- `others`  [ "'AnA'' FW-Wa-i", "'AnA'i FW-Wa" ] -},
 

@@ -446,13 +446,11 @@ cluster_27  = listing "Lexicon's properties"
 
     FICAL                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
                               `plural`     FICAL |< At
-                              `plural`     HICAL |< At
-                              `plural`     HICA' |< At,
+                              `plural`     HICAL |< At,
 
     HICAL                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
                               `plural`     FICAL |< At
-                              `plural`     HICAL |< At
-                              `plural`     HICA' |< At ]
+                              `plural`     HICAL |< At ]
 
  |> "' w .g r" <| [
 

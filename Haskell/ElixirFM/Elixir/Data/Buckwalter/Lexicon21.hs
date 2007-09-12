@@ -5334,8 +5334,7 @@ cluster_96  = listing "Lexicon's properties"
     FaCAL                     `noun`    {- qawA' -}            [ "hunger" ],
 
     HiFCAL                    `noun`    {- IiqowA' -}          [ "depopulation" ]
-                              `plural`     HiFCAL |< At
-                              `plural`     HiFCA' |< At ]
+                              `plural`     HiFCAL |< At ]
 
 
 cluster_97  = listing "Lexicon's properties"

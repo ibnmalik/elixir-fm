@@ -249,7 +249,6 @@ cluster_86  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- \$ayo' -}           [ "something", "things" ]
                               `plural`     HaFCAL
-                              `plural`     HaFCA'
                               `plural`     FaL,
 
     lA >| FaCL                `noun`    {- lA$ayo' -}          [ "nothingness", "nonexistence" ],

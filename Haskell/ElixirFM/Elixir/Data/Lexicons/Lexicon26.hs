@@ -656,7 +656,6 @@ cluster_11  = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- hawA' -}            [ "air", "atmosphere", "climate" ]
                               `plural`     HaFCAL
-                              `plural`     HaFCA'
                               `plural`     HaFCI |< aT,
 
     FaCAL |< Iy               `noun`    {- hawA}iy~ -}         [ "antenna" ],

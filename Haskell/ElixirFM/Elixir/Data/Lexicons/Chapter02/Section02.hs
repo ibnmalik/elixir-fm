@@ -12,6 +12,50 @@ lexicon = include section
 cluster_21  = listing "Lexicon's properties"
 
 
+ |> "b n d r" <| [
+
+    KaRDaS                    `noun`    {- banodar -}          [ "Bandar" ],
+
+    KaRDaS                    `noun`    {- banodar -}          [ "seaport", unwords [ "district", "capital" ] ]
+                              `plural`     KaRADiS ]
+
+ |> "b n k" <| [
+
+    FaCL                      `noun`    {- banok -}            [ "bank" ]
+                              `plural`     FuCUL,
+
+    FaCL |< Iy                `adj`     {- banokiy~ -}         [ "bank", "banking" ] ]
+
+ |> "b n n" <| [
+
+    FiL                       `noun`    {- bin -}              [ "son" ],
+
+    FiL                       `noun`    {- bin -}              [ "Bin", "Ben" ],
+
+    FaL |<< "awIy"            `adj`     {- banawiy~ -}         [ "filial" ],
+
+    FuCL                      `noun`    {- bun~ -}             [ unwords [ "coffee", "beans" ] ],
+
+    FaCLA'                    `noun`    {- ban~A' -}           [ "builder", "mason" ]
+                              `plural`     FaCLA' |< Un,
+
+    FaCLA'                    `adj`     {- ban~A' -}           [ "constructive" ],
+
+    FaCLA'                    `noun`    {- ban~A' -}           [ "Banna" ] ]
+
+ |> "b n s" <| [
+
+    FACUL                     `noun`    {- bAnuws -}           [ "Panos" ] ]
+
+ |> "b n t" <| [
+
+    FiCL                      `noun`    {- binot -}            [ "daughter", "girl" ]
+                              `plural`     FaC |< At ]
+
+
+cluster_22  = listing "Lexicon's properties"
+
+
  |> "b n y" <| [
 
     FiC                       `noun`    {- bin -}              [ "son" ],
@@ -68,7 +112,7 @@ cluster_21  = listing "Lexicon's properties"
     KiRDIS                    `noun`    {- binoziyn -}         [ "gasoline", "benzine", "benzene" ] ]
 
 
-cluster_22  = listing "Lexicon's properties"
+cluster_23  = listing "Lexicon's properties"
 
 
  |> "b q '" <| [
@@ -125,7 +169,7 @@ cluster_22  = listing "Lexicon's properties"
                               `plural`     MutaFaCCI |< At ]
 
 
-cluster_23  = listing "Lexicon's properties"
+cluster_24  = listing "Lexicon's properties"
 
 
  |> "b r '" <| [
@@ -181,7 +225,7 @@ cluster_23  = listing "Lexicon's properties"
     KaRDaS |< Iy              `adj`     {- barobariy~ -}       [ "barbaric" ] ]
 
 
-cluster_24  = listing "Lexicon's properties"
+cluster_25  = listing "Lexicon's properties"
 
 
  |> "b r d" <| [
@@ -239,7 +283,7 @@ cluster_24  = listing "Lexicon's properties"
     FuCLAn |< Iy              `adj`     {- burokAniy~ -}       [ "volcanic" ] ]
 
 
-cluster_25  = listing "Lexicon's properties"
+cluster_26  = listing "Lexicon's properties"
 
 
  |> "b r k n" <| [
@@ -284,7 +328,7 @@ cluster_25  = listing "Lexicon's properties"
     FuCAL                     `noun`    {- burAq -}            [ "Buraq" ] ]
 
 
-cluster_26  = listing "Lexicon's properties"
+cluster_27  = listing "Lexicon's properties"
 
 
  |> "b r r" <| [
@@ -337,7 +381,7 @@ cluster_26  = listing "Lexicon's properties"
                               `plural`     MutaFACI |< At ]
 
 
-cluster_27  = listing "Lexicon's properties"
+cluster_28  = listing "Lexicon's properties"
 
 
  |> "b r z" <| [
@@ -394,7 +438,7 @@ cluster_27  = listing "Lexicon's properties"
     FACiL                     `noun`    {- bAsiT -}            [ "Basit" ] ]
 
 
-cluster_28  = listing "Lexicon's properties"
+cluster_29  = listing "Lexicon's properties"
 
 
  |> "b s l" <| [
@@ -452,7 +496,7 @@ cluster_28  = listing "Lexicon's properties"
     KiRDUS |< Iy              `adj`     {- bitoruwliy~ -}      [ "petroleum" ] ]
 
 
-cluster_29  = listing "Lexicon's properties"
+cluster_30  = listing "Lexicon's properties"
 
 
  |> "b t t" <| [
@@ -514,7 +558,7 @@ cluster_29  = listing "Lexicon's properties"
                               `plural`     HaFCAL ]
 
 
-cluster_30  = listing "Lexicon's properties"
+cluster_31  = listing "Lexicon's properties"
 
 
  |> "b w b" <| [
@@ -584,7 +628,7 @@ cluster_30  = listing "Lexicon's properties"
     KuRDIS                    `noun`    {- buwtiyn -}          [ "Putin" ] ]
 
 
-cluster_31  = listing "Lexicon's properties"
+cluster_32  = listing "Lexicon's properties"
 
 
  |> "b w y" <| [
@@ -634,7 +678,7 @@ cluster_31  = listing "Lexicon's properties"
     KiRDAS                    `noun`    {- biyjAn -}           [ "Bijan" ] ]
 
 
-cluster_32  = listing "Lexicon's properties"
+cluster_33  = listing "Lexicon's properties"
 
 
  |> "b y `" <| [
@@ -681,7 +725,7 @@ cluster_32  = listing "Lexicon's properties"
     FIL                       `noun`    {- biyl -}             [ unwords [ "ball", "bearing" ], "marble" ] ]
 
 
-cluster_33  = listing "Lexicon's properties"
+cluster_34  = listing "Lexicon's properties"
 
 
  |> "b y n" <| [
@@ -738,7 +782,7 @@ cluster_33  = listing "Lexicon's properties"
     KiRDUS |< Iy              `adj`     {- biyruwfiy~ -}       [ "Peruvian" ] ]
 
 
-cluster_34  = listing "Lexicon's properties"
+cluster_35  = listing "Lexicon's properties"
 
 
  |> "b y r t" <| [
@@ -810,7 +854,7 @@ cluster_34  = listing "Lexicon's properties"
     Identity |< Iy            `adj`     {- bAbawiy~ -}         [ "papal" ] ]
 
 
-cluster_35  = listing "Lexicon's properties"
+cluster_36  = listing "Lexicon's properties"
 
 
  |> "bAbil" <| [
@@ -882,7 +926,7 @@ cluster_35  = listing "Lexicon's properties"
     Identity                  `noun`    {- bArinots -}         [ "Barents" ] ]
 
 
-cluster_36  = listing "Lexicon's properties"
+cluster_37  = listing "Lexicon's properties"
 
 
  |> "bArkir" <| [
@@ -962,7 +1006,7 @@ cluster_36  = listing "Lexicon's properties"
     Identity |< Iy            `adj`     {- biylAruwsiy~ -}     [ "Belarusian" ] ]
 
 
-cluster_37  = listing "Lexicon's properties"
+cluster_38  = listing "Lexicon's properties"
 
 
  |> "bIlIfIld" <| [
@@ -1044,7 +1088,7 @@ cluster_37  = listing "Lexicon's properties"
     Identity                  `noun`    {- buwdoguwriyt$A -}   [ "Podgorica" ] ]
 
 
-cluster_38  = listing "Lexicon's properties"
+cluster_39  = listing "Lexicon's properties"
 
 
  |> "bUlIfiyA" <| [
@@ -1124,7 +1168,7 @@ cluster_38  = listing "Lexicon's properties"
     Identity |< aT            `noun`    {- buwsonap -}         [ "Bosnia" ] ]
 
 
-cluster_39  = listing "Lexicon's properties"
+cluster_40  = listing "Lexicon's properties"
 
 
  |> "bUst" <| [
@@ -1196,88 +1240,6 @@ cluster_39  = listing "Lexicon's properties"
  |> "banamA" <| [
 
     Identity                  `noun`    {- banamA -}           [ "Panama" ] ]
-
-
-cluster_40  = listing "Lexicon's properties"
-
-
- |> "banknUt" <| [
-
-    Identity                  `noun`    {- bankonuwt -}        [ unwords [ "bank", "note" ] ] ]
-
- |> "barbArA" <| [
-
-    Identity                  `noun`    {- barobArA -}         [ "Barbara" ] ]
-
- |> "barlamAn" <| [
-
-    Identity                  `noun`    {- barolamAn -}        [ "parliament" ],
-
-    Identity |< Iy            `adj`     {- barolamAniy~ -}     [ "parliamentary" ] ]
-
- |> "barnAma^g" <| [
-
-    Identity                  `noun`    {- baronAmaj -}        [ "program" ] ]
-
- |> "baynamA" <| [
-
-    Identity                  `conj`    {- bayonamA -}         [ "while" ] ]
-
- |> "bikIn" <| [
-
-    Identity                  `noun`    {- bikiyn -}           [ "Peking", "Beijing" ] ]
-
- |> "bil^gIkA" <| [
-
-    Identity                  `noun`    {- bilojiykA -}        [ "Belgium" ] ]
-
- |> "binIn" <| [
-
-    Identity                  `noun`    {- biniyn -}           [ "Benin" ] ]
-
- |> "binfIkA" <| [
-
-    Identity                  `noun`    {- binfiykA -}         [ "Benfica" ] ]
-
- |> "binsilfAniyA" <| [
-
-    Identity                  `noun`    {- binosilofAniyA -}   [ "Pennsylvania" ] ]
-
- |> "bintA.gUn" <| [
-
-    Identity                  `noun`    {- binotAguwn -}       [ "Pentagon" ] ]
-
- |> "binyAmIn" <| [
-
-    Identity                  `noun`    {- binoyAmiyn -}       [ "Benyamin", "Benjamin" ] ]
-
- |> "bitrUkImA'" <| [
-
-    Identity |< Iy            `adj`     {- bitruwkiymAwiy~ -}  [ "petrochemical" ] ]
-
- |> "bitrUliyUm" <| [
-
-    Identity                  `noun`    {- bitruwliyuwm -}     [ "Petroleum" ] ]
-
- |> "biyAnU" <| [
-
-    Identity                  `noun`    {- biyAnuw -}          [ "piano" ] ]
-
- |> "biyUlU^g" <| [
-
-    Identity |< Iy            `adj`     {- biyuwluwjiy~ -}     [ "biological" ] ]
-
- |> "biyUrkmAn" <| [
-
-    Identity                  `noun`    {- biyuwrkomAn -}      [ "Bjorkman" ] ]
-
- |> "blAk" <| [
-
-    Identity                  `noun`    {- blAk -}             [ "Black" ] ]
-
- |> "blAnkU" <| [
-
-    Identity                  `noun`    {- blAnokuw -}         [ "Blanco" ] ]
 
 
 section = [ cluster_21,

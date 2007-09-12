@@ -5576,6 +5576,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'b \' d' => [
+    {
+      'types' => {},
+      'entry' => 'bA\'id',
+      'form' => 'bA\'id',
+      'lines' => [
+        ';; bA}id_1',
+        'bA}d    bA}id   Nall    bygone;temporal'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        'bygone',
+        'temporal'
+      ],
+      'orig' => 'bA}id',
+      'prefix' => ''
+    }
+  ],
   'bUrtlAnd' => [
     {
       'types' => {},
@@ -6251,61 +6273,6 @@ $Lexicon = {
         'concrete'
       ],
       'orig' => 'bATuwn',
-      'prefix' => ''
-    }
-  ],
-  'b \' d' => [
-    {
-      'types' => {
-        'budY' => {
-          'Nap' => 1
-        },
-        'badw' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'bad',
-      'form' => 'badawiyy',
-      'lines' => [
-        ';; badawiy~_1',
-        'bdwy    badawiy~        Nall    Bedouin     [[badawiy~/NOUN]]',
-        'bdwy    badawiy~        Nall    Bedouin     [[badawiy~/ADJ]]',
-        'bdw     badow   N       Bedouins',
-        'bdA     budA    Nap     Bedouins'
-      ],
-      'patterns' => {
-        'budY' => [],
-        'badw' => []
-      },
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaL |<< "awIy"',
-      'suffix' => ' |<< "awIy"',
-      'glosses' => [
-        'Bedouin',
-        'Bedouins'
-      ],
-      'orig' => 'badawiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'bA\'id',
-      'form' => 'bA\'id',
-      'lines' => [
-        ';; bA}id_1',
-        'bA}d    bA}id   Nall    bygone;temporal'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [
-        'bygone',
-        'temporal'
-      ],
-      'orig' => 'bA}id',
       'prefix' => ''
     }
   ],
@@ -18291,6 +18258,276 @@ $Lexicon = {
   'b d w' => [
     {
       'types' => {
+        'bd' => {
+          'IV_0hwnyn' => 1
+        },
+        'bduw' => {
+          'IV_0hAnn' => 1
+        },
+        'bad' => {
+          'PV_ttAw' => 1
+        },
+        'badaw' => {
+          'PV_Atn' => 1
+        }
+      },
+      'entry' => 'badA',
+      'form' => 'badA',
+      'lines' => [
+        ';; badA-u_1',
+        'bdA     badA    PV_0    appear;seem',
+        'bdw     badaw   PV_Atn  appear;seem',
+        'bd      bad     PV_ttAw appear;seem',
+        'bdw     boduw   IV_0hAnn        appear;seem',
+        'bd      bod     IV_0hwnyn       appear;seem'
+      ],
+      'patterns' => {
+        'badaw' => [
+          'FaCaL'
+        ],
+        'bad' => [
+          'FaC'
+        ],
+        'bduw' => [
+          'FCU'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCA',
+      'glosses' => [
+        'appear',
+        'seem'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'badA-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'bAdiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'bAd' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        'bAdA' => {
+          'PV_h' => 1
+        },
+        'bAday' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        }
+      },
+      'entry' => 'bAdY',
+      'form' => 'bAdY',
+      'lines' => [
+        ';; bAdaY_1',
+        'bAdY    bAdaY   PV_0    reveal;show',
+        'bAdA    bAdA    PV_h    reveal;show',
+        'bAdy    bAday   PV_Atn  reveal;show',
+        'bAd     bAd     PV_ttAw reveal;show',
+        'bAdy    bAdiy   IV_0hAnn_yu     reveal;show',
+        'bAd     bAd     IV_0hwnyn_yu    reveal;show',
+        'bAdY    bAdaY   IV_0_Pass_yu    be revealed;be shown',
+        'bAdy    bAday   IV_Ann_Pass_yu  be revealed;be shown'
+      ],
+      'patterns' => {
+        'bAdiy' => [
+          'FACI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FACY',
+      'suffix' => '',
+      'glosses' => [
+        'reveal',
+        'show',
+        'be revealed',
+        'be shown'
+      ],
+      'orig' => 'bAdaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'bd' => {
+          'IV_0hwnyn_yu' => 1
+        },
+        'bdY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        '\'abd' => {
+          'PV_ttAw' => 2
+        },
+        '\'abday' => {
+          'PV_Atn' => 2
+        },
+        'bdiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'bday' => {
+          'IV_Ann_Pass_yu' => 1
+        },
+        '\'abdA' => {
+          'PV_h' => 2
+        }
+      },
+      'entry' => '\'abdY',
+      'form' => '\'abdY',
+      'lines' => [
+        ';; >abodaY_1',
+        '>bdY    >abodaY PV_0    express;demonstrate;show',
+        'AbdY    >abodaY PV_0    express;demonstrate;show',
+        '>bdA    >abodA  PV_h    express;demonstrate;show',
+        'AbdA    >abodA  PV_h    express;demonstrate;show',
+        '>bdy    >aboday PV_Atn  express;demonstrate;show',
+        'Abdy    >aboday PV_Atn  express;demonstrate;show',
+        '>bd     >abod   PV_ttAw express;demonstrate;show',
+        'Abd     >abod   PV_ttAw express;demonstrate;show',
+        'bdy     bodiy   IV_0hAnn_yu     express;demonstrate;show',
+        'bd      bod     IV_0hwnyn_yu    express;demonstrate;show',
+        'bdY     bodaY   IV_0_Pass_yu    be expressed;be demonstrated;be shown',
+        'bdy     boday   IV_Ann_Pass_yu  be expressed;be demonstrated;be shown'
+      ],
+      'patterns' => {
+        'bdY' => [
+          'FCY'
+        ],
+        'bdiy' => [
+          'FCI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCY',
+      'suffix' => '',
+      'glosses' => [
+        'express',
+        'demonstrate',
+        'show',
+        'be expressed',
+        'be demonstrated',
+        'be shown'
+      ],
+      'orig' => 'OabodaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'tabadd' => {
+          'IV_0hwnyn' => 1,
+          'PV_ttAw' => 1
+        },
+        'tabaddA' => {
+          'PV_h' => 1,
+          'IV_h' => 1
+        },
+        'tabadday' => {
+          'PV_Atn' => 1,
+          'IV_Ann' => 1
+        }
+      },
+      'entry' => 'tabaddY',
+      'form' => 'tabaddY',
+      'lines' => [
+        ';; tabad~aY_1',
+        'tbdY    tabad~aY        PV_0    appear;be manifested',
+        'tbdA    tabad~A PV_h    appear;be manifested',
+        'tbdy    tabad~ay        PV_Atn  appear;be manifested',
+        'tbd     tabad~  PV_ttAw appear;be manifested',
+        'tbdY    tabad~aY        IV_0    appear;be manifested',
+        'tbdA    tabad~A IV_h    appear;be manifested',
+        'tbdy    tabad~ay        IV_Ann  appear;be manifested',
+        'tbd     tabad~  IV_0hwnyn       appear;be manifested'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCY',
+      'suffix' => '',
+      'glosses' => [
+        'appear',
+        'be manifested'
+      ],
+      'orig' => 'tabad~aY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'badaw' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'badY',
+      'form' => 'badAT',
+      'lines' => [
+        ';; badAp_1',
+        'bdA     badA    Napdu   whim;caprice',
+        'bdw     badaw   NAt     whims;caprices'
+      ],
+      'patterns' => {
+        'badaw' => [
+          'FaCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCY |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'whim',
+        'caprice',
+        'whims',
+        'caprices'
+      ],
+      'orig' => 'badAp',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'budY' => {
+          'Nap' => 1
+        },
+        'badw' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'bad',
+      'form' => 'badawiyy',
+      'lines' => [
+        ';; badawiy~_1',
+        'bdwy    badawiy~        Nall    Bedouin     [[badawiy~/NOUN]]',
+        'bdwy    badawiy~        Nall    Bedouin     [[badawiy~/ADJ]]',
+        'bdw     badow   N       Bedouins',
+        'bdA     budA    Nap     Bedouins'
+      ],
+      'patterns' => {
+        'budY' => [
+          'FuCY'
+        ],
+        'badw' => [
+          'FaCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaC |<< "awIy"',
+      'suffix' => ' |<< "awIy"',
+      'glosses' => [
+        'Bedouin',
+        'Bedouins'
+      ],
+      'orig' => 'badawiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'bidAw' => {
           'Nap' => 1
         }
@@ -18317,6 +18554,147 @@ $Lexicon = {
         'Bedouin life'
       ],
       'orig' => 'badAwap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'ibdA\'' => {
+          'NAt' => 2
+        }
+      },
+      'entry' => '\'ibdA\'',
+      'form' => '\'ibdA\'',
+      'lines' => [
+        ';; <ibodA\'_1',
+        '<bdA\'   <ibodA\' N0_Nh   expression;manifestation',
+        'AbdA\'   <ibodA\' N0_Nh   expression;manifestation',
+        '<bdA&   <ibodA& Nh      expression;manifestation',
+        'AbdA&   <ibodA& Nh      expression;manifestation',
+        '<bdA}   <ibodA} Nhy     expression;manifestation',
+        'AbdA}   <ibodA} Nhy     expression;manifestation',
+        '<bdA\'   <ibodA\' NAn_Nayn        expressions;manifestations',
+        'AbdA\'   <ibodA\' NAn_Nayn        expressions;manifestations',
+        '<bdA}   <ibodA} Nayn    expressions;manifestations',
+        'AbdA}   <ibodA} Nayn    expressions;manifestations',
+        '<bdA\'   <ibodA\' NAt     expressions;manifestations',
+        'AbdA\'   <ibodA\' NAt     expressions;manifestations'
+      ],
+      'patterns' => {
+        '\'ibdA\'' => [
+          'HiFCA\''
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCA\'',
+      'suffix' => '',
+      'glosses' => [
+        'expression',
+        'manifestation',
+        'expressions',
+        'manifestations'
+      ],
+      'orig' => 'IibodA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'bAdiy' => {
+          'NapAt' => 1
+        },
+        'bAd' => {
+          'Nuwn_Niyn' => 1
+        }
+      },
+      'entry' => 'bAdiy',
+      'form' => 'bAdiy',
+      'lines' => [
+        ';; bAdiy_1',
+        'bAdy    bAdiy   N0F     apparent;obvious',
+        'bAd     bAd     NK      apparent;obvious',
+        'bAdy    bAdiy   NAn_Nayn        apparent;obvious',
+        'bAd     bAd     Nuwn_Niyn       apparent;obvious',
+        'bAdy    bAdiy   NapAt   apparent;obvious'
+      ],
+      'patterns' => {
+        'bAd' => [],
+        'bAdiy' => [
+          'FACI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACI',
+      'suffix' => '',
+      'glosses' => [
+        'apparent',
+        'obvious'
+      ],
+      'orig' => 'bAdiy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'bAdiy',
+      'form' => 'bAdiyaT',
+      'lines' => [
+        ';; bAdiyap_1',
+        'bAdy    bAdiy   NapAt   desert'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'desert'
+      ],
+      'orig' => 'bAdiyap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'bawAdiy',
+      'form' => 'bawAdiy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FawACI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'bawAdiy',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'mubdiy' => {
+          'N0' => 1,
+          'NF' => 1
+        }
+      },
+      'entry' => 'mubdiy',
+      'form' => 'mubdiyaN',
+      'lines' => [
+        ';; mubodiyAF_1',
+        'mbdy    mubodiy NF      expressing;showing;demonstrating',
+        'mbdy    mubodiy N0      expressing;showing;demonstrating'
+      ],
+      'patterns' => {
+        'mubdiy' => [
+          'MuFCI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFCI |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'expressing',
+        'showing',
+        'demonstrating'
+      ],
+      'orig' => 'mubodiyAF',
       'prefix' => ''
     }
   ],
@@ -26322,22 +26700,6 @@ $Lexicon = {
         'hoarse'
       ],
       'orig' => 'maboHuwH',
-      'prefix' => ''
-    }
-  ],
-  'b d r n' => [
-    {
-      'types' => {},
-      'entry' => 'badrAn',
-      'form' => 'badrAn',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'badorAn',
       'prefix' => ''
     }
   ],
@@ -39421,6 +39783,25 @@ $Lexicon = {
       ],
       'orig' => 'musotabid~',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'bad',
+      'form' => 'badawiyy',
+      'lines' => [],
+      'patterns' => {
+        'budY' => [
+          'FuCY'
+        ],
+        'badw' => []
+      },
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaL |<< "awIy"',
+      'suffix' => ' |<< "awIy"',
+      'glosses' => [],
+      'orig' => 'badawiy~',
+      'prefix' => ''
     }
   ],
   'bAybil' => [
@@ -42719,6 +43100,26 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => 'bidAy',
+      'form' => 'bidAyaT',
+      'lines' => [
+        ';; bidAyap_1',
+        'bdAy    bidAy   NapAt   beginning;start'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCAy |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'beginning',
+        'start'
+      ],
+      'orig' => 'bidAyap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'badA\'',
       'form' => 'badA\'iyy',
       'lines' => [
@@ -43027,28 +43428,10 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'ibdA\'' => {
-          'NAt' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'ibdA\'',
       'form' => '\'ibdA\'',
-      'lines' => [
-        ';; <ibodA\'_1',
-        '<bdA\'   <ibodA\' N0_Nh   expression;manifestation',
-        'AbdA\'   <ibodA\' N0_Nh   expression;manifestation',
-        '<bdA&   <ibodA& Nh      expression;manifestation',
-        'AbdA&   <ibodA& Nh      expression;manifestation',
-        '<bdA}   <ibodA} Nhy     expression;manifestation',
-        'AbdA}   <ibodA} Nhy     expression;manifestation',
-        '<bdA\'   <ibodA\' NAn_Nayn        expressions;manifestations',
-        'AbdA\'   <ibodA\' NAn_Nayn        expressions;manifestations',
-        '<bdA}   <ibodA} Nayn    expressions;manifestations',
-        'AbdA}   <ibodA} Nayn    expressions;manifestations',
-        '<bdA\'   <ibodA\' NAt     expressions;manifestations',
-        'AbdA\'   <ibodA\' NAt     expressions;manifestations'
-      ],
+      'lines' => [],
       'patterns' => {
         '\'ibdA\'' => [
           'HiFCAL'
@@ -43058,12 +43441,7 @@ $Lexicon = {
       'entity' => 'noun',
       'morphs' => 'HiFCAL',
       'suffix' => '',
-      'glosses' => [
-        'expression',
-        'manifestation',
-        'expressions',
-        'manifestations'
-      ],
+      'glosses' => [],
       'orig' => 'IibodA\'',
       'prefix' => ''
     }
@@ -45702,27 +46080,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'balA^grA' => [
-    {
-      'types' => {},
-      'entry' => 'balA^grA',
-      'form' => 'balA^grA',
-      'lines' => [
-        ';; balAjrA_1',
-        'blAjrA  balAjrA N0      pellagra'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'pellagra'
-      ],
-      'orig' => 'balAjrA',
-      'prefix' => ''
-    }
-  ],
   'bAn.talUn' => [
     {
       'types' => {},
@@ -45771,6 +46128,27 @@ $Lexicon = {
         'pelican'
       ],
       'orig' => 'bajaE',
+      'prefix' => ''
+    }
+  ],
+  'balA^grA' => [
+    {
+      'types' => {},
+      'entry' => 'balA^grA',
+      'form' => 'balA^grA',
+      'lines' => [
+        ';; balAjrA_1',
+        'blAjrA  balAjrA N0      pellagra'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'pellagra'
+      ],
+      'orig' => 'balAjrA',
       'prefix' => ''
     }
   ],
@@ -51654,22 +52032,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'b d r \'' => [
-    {
-      'types' => {},
-      'entry' => 'badrA\'',
-      'form' => 'badrAwiyy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KaRDAS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [],
-      'orig' => 'badorAwiy~',
-      'prefix' => ''
-    }
-  ],
   'bArIb' => [
     {
       'types' => {
@@ -54135,425 +54497,23 @@ $Lexicon = {
   'b d y' => [
     {
       'types' => {},
-      'entry' => 'badA\'',
-      'form' => 'badA\'aT',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCA\' |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [],
-      'orig' => 'badA\'ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
       'entry' => 'bidAy',
       'form' => 'bidAyaT',
-      'lines' => [
-        ';; bidAyap_1',
-        'bdAy    bidAy   NapAt   beginning;start'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL |< aT',
       'suffix' => ' |< aT',
-      'glosses' => [
-        'beginning',
-        'start'
-      ],
+      'glosses' => [],
       'orig' => 'bidAyap',
       'prefix' => ''
     },
     {
       'types' => {},
-      'entry' => 'badA\'',
-      'form' => 'badA\'iyy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCA\' |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [],
-      'orig' => 'badA}iy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'bidA\'',
-      'form' => 'bidA\'iyy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FiCA\' |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [],
-      'orig' => 'bidA}iy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'badA\'',
-      'form' => 'badA\'iyyaT',
-      'lines' => [],
-      'patterns' => {
-        'bidA\'iyy' => []
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCA\' |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [],
-      'orig' => 'badA}iy~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ibtidA\'',
-      'form' => 'ibtidA\'',
-      'lines' => [],
-      'patterns' => {
-        'ibtidA\'' => [
-          'IFtiCA\''
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFtiCA\'',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'AibotidA\'',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ibtidA\'',
-      'form' => 'ibtidA\'aN',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'IFtiCA\' |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [],
-      'orig' => 'AibotidA\'F',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ibtidA\'',
-      'form' => 'ibtidA\'iyy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'IFtiCA\' |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [],
-      'orig' => 'AibotidA}iy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'bd' => {
-          'IV_0hwnyn' => 1
-        },
-        'bduw' => {
-          'IV_0hAnn' => 1
-        },
-        'bad' => {
-          'PV_ttAw' => 1
-        },
-        'badaw' => {
-          'PV_Atn' => 1
-        }
-      },
-      'entry' => 'badA',
-      'form' => 'badA',
-      'lines' => [
-        ';; badA-u_1',
-        'bdA     badA    PV_0    appear;seem',
-        'bdw     badaw   PV_Atn  appear;seem',
-        'bd      bad     PV_ttAw appear;seem',
-        'bdw     boduw   IV_0hAnn        appear;seem',
-        'bd      bod     IV_0hwnyn       appear;seem'
-      ],
-      'patterns' => {
-        'bad' => [
-          'FaC'
-        ],
-        'bduw' => [
-          'FCU'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCA',
-      'glosses' => [
-        'appear',
-        'seem'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'badA-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'bAdiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'bAd' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        'bAdA' => {
-          'PV_h' => 1
-        },
-        'bAday' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        }
-      },
-      'entry' => 'bAdY',
-      'form' => 'bAdY',
-      'lines' => [
-        ';; bAdaY_1',
-        'bAdY    bAdaY   PV_0    reveal;show',
-        'bAdA    bAdA    PV_h    reveal;show',
-        'bAdy    bAday   PV_Atn  reveal;show',
-        'bAd     bAd     PV_ttAw reveal;show',
-        'bAdy    bAdiy   IV_0hAnn_yu     reveal;show',
-        'bAd     bAd     IV_0hwnyn_yu    reveal;show',
-        'bAdY    bAdaY   IV_0_Pass_yu    be revealed;be shown',
-        'bAdy    bAday   IV_Ann_Pass_yu  be revealed;be shown'
-      ],
-      'patterns' => {
-        'bAdiy' => [
-          'FACI'
-        ],
-        'bAday' => [
-          'FACaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FACY',
-      'suffix' => '',
-      'glosses' => [
-        'reveal',
-        'show',
-        'be revealed',
-        'be shown'
-      ],
-      'orig' => 'bAdaY',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'bd' => {
-          'IV_0hwnyn_yu' => 1
-        },
-        'bdY' => {
-          'IV_0_Pass_yu' => 1
-        },
-        '\'abd' => {
-          'PV_ttAw' => 2
-        },
-        '\'abday' => {
-          'PV_Atn' => 2
-        },
-        'bdiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'bday' => {
-          'IV_Ann_Pass_yu' => 1
-        },
-        '\'abdA' => {
-          'PV_h' => 2
-        }
-      },
-      'entry' => '\'abdY',
-      'form' => '\'abdY',
-      'lines' => [
-        ';; >abodaY_1',
-        '>bdY    >abodaY PV_0    express;demonstrate;show',
-        'AbdY    >abodaY PV_0    express;demonstrate;show',
-        '>bdA    >abodA  PV_h    express;demonstrate;show',
-        'AbdA    >abodA  PV_h    express;demonstrate;show',
-        '>bdy    >aboday PV_Atn  express;demonstrate;show',
-        'Abdy    >aboday PV_Atn  express;demonstrate;show',
-        '>bd     >abod   PV_ttAw express;demonstrate;show',
-        'Abd     >abod   PV_ttAw express;demonstrate;show',
-        'bdy     bodiy   IV_0hAnn_yu     express;demonstrate;show',
-        'bd      bod     IV_0hwnyn_yu    express;demonstrate;show',
-        'bdY     bodaY   IV_0_Pass_yu    be expressed;be demonstrated;be shown',
-        'bdy     boday   IV_Ann_Pass_yu  be expressed;be demonstrated;be shown'
-      ],
-      'patterns' => {
-        '\'abday' => [
-          'HaFCaL'
-        ],
-        'bdY' => [
-          'FCY'
-        ],
-        'bdiy' => [
-          'FCI'
-        ],
-        'bday' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCY',
-      'suffix' => '',
-      'glosses' => [
-        'express',
-        'demonstrate',
-        'show',
-        'be expressed',
-        'be demonstrated',
-        'be shown'
-      ],
-      'orig' => 'OabodaY',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'tabadd' => {
-          'IV_0hwnyn' => 1,
-          'PV_ttAw' => 1
-        },
-        'tabaddA' => {
-          'PV_h' => 1,
-          'IV_h' => 1
-        },
-        'tabadday' => {
-          'PV_Atn' => 1,
-          'IV_Ann' => 1
-        }
-      },
-      'entry' => 'tabaddY',
-      'form' => 'tabaddY',
-      'lines' => [
-        ';; tabad~aY_1',
-        'tbdY    tabad~aY        PV_0    appear;be manifested',
-        'tbdA    tabad~A PV_h    appear;be manifested',
-        'tbdy    tabad~ay        PV_Atn  appear;be manifested',
-        'tbd     tabad~  PV_ttAw appear;be manifested',
-        'tbdY    tabad~aY        IV_0    appear;be manifested',
-        'tbdA    tabad~A IV_h    appear;be manifested',
-        'tbdy    tabad~ay        IV_Ann  appear;be manifested',
-        'tbd     tabad~  IV_0hwnyn       appear;be manifested'
-      ],
-      'patterns' => {
-        'tabadday' => [
-          'TaFaCCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCY',
-      'suffix' => '',
-      'glosses' => [
-        'appear',
-        'be manifested'
-      ],
-      'orig' => 'tabad~aY',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'badaw' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'badY',
-      'form' => 'badAT',
-      'lines' => [
-        ';; badAp_1',
-        'bdA     badA    Napdu   whim;caprice',
-        'bdw     badaw   NAt     whims;caprices'
-      ],
-      'patterns' => {
-        'badaw' => []
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCY |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'whim',
-        'caprice',
-        'whims',
-        'caprices'
-      ],
-      'orig' => 'badAp',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'bad',
-      'form' => 'badawiyy',
-      'lines' => [],
-      'patterns' => {
-        'budY' => [
-          'FuCY'
-        ],
-        'badw' => []
-      },
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaC |<< "awIy"',
-      'suffix' => ' |<< "awIy"',
-      'glosses' => [],
-      'orig' => 'badawiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'ibdA\'',
-      'form' => '\'ibdA\'',
-      'lines' => [],
-      'patterns' => {
-        '\'ibdA\'' => [
-          'HiFCA\''
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HiFCA\'',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'IibodA\'',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'bAdiy' => {
-          'NapAt' => 1
-        },
-        'bAd' => {
-          'Nuwn_Niyn' => 1
-        }
-      },
       'entry' => 'bAdiy',
       'form' => 'bAdiy',
-      'lines' => [
-        ';; bAdiy_1',
-        'bAdy    bAdiy   N0F     apparent;obvious',
-        'bAd     bAd     NK      apparent;obvious',
-        'bAdy    bAdiy   NAn_Nayn        apparent;obvious',
-        'bAd     bAd     Nuwn_Niyn       apparent;obvious',
-        'bAdy    bAdiy   NapAt   apparent;obvious'
-      ],
+      'lines' => [],
       'patterns' => {
         'bAd' => [],
         'bAdiy' => [
@@ -54564,10 +54524,7 @@ $Lexicon = {
       'entity' => 'noun',
       'morphs' => 'FACI',
       'suffix' => '',
-      'glosses' => [
-        'apparent',
-        'obvious'
-      ],
+      'glosses' => [],
       'orig' => 'bAdiy',
       'prefix' => ''
     },
@@ -54575,18 +54532,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'bAdiy',
       'form' => 'bAdiyaT',
-      'lines' => [
-        ';; bAdiyap_1',
-        'bAdy    bAdiy   NapAt   desert'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACI |< aT',
       'suffix' => ' |< aT',
-      'glosses' => [
-        'desert'
-      ],
+      'glosses' => [],
       'orig' => 'bAdiyap',
       'prefix' => ''
     },
@@ -54605,19 +54557,10 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mubdiy' => {
-          'N0' => 1,
-          'NF' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mubdiy',
       'form' => 'mubdiyaN',
-      'lines' => [
-        ';; mubodiyAF_1',
-        'mbdy    mubodiy NF      expressing;showing;demonstrating',
-        'mbdy    mubodiy N0      expressing;showing;demonstrating'
-      ],
+      'lines' => [],
       'patterns' => {
         'mubdiy' => [
           'MuFCI'
@@ -54627,11 +54570,7 @@ $Lexicon = {
       'entity' => 'noun',
       'morphs' => 'MuFCI |< aN',
       'suffix' => ' |< aN',
-      'glosses' => [
-        'expressing',
-        'showing',
-        'demonstrating'
-      ],
+      'glosses' => [],
       'orig' => 'mubodiyAF',
       'prefix' => ''
     }
@@ -59339,27 +59278,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'balAra^g' => [
-    {
-      'types' => {},
-      'entry' => 'balAra^g',
-      'form' => 'balAra^g',
-      'lines' => [
-        ';; balAraj_1',
-        'blArj   balAraj N       stork'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'stork'
-      ],
-      'orig' => 'balAraj',
-      'prefix' => ''
-    }
-  ],
   'barnAma^g' => [
     {
       'types' => {
@@ -59388,6 +59306,27 @@ $Lexicon = {
         'programs'
       ],
       'orig' => 'baronAmaj',
+      'prefix' => ''
+    }
+  ],
+  'balAra^g' => [
+    {
+      'types' => {},
+      'entry' => 'balAra^g',
+      'form' => 'balAra^g',
+      'lines' => [
+        ';; balAraj_1',
+        'blArj   balAraj N       stork'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'stork'
+      ],
+      'orig' => 'balAraj',
       'prefix' => ''
     }
   ],
@@ -61285,9 +61224,9 @@ $Lexicon->{'b n \''}[9]{'glosses'} = $Lexicon->{'b y \''}[0]{'glosses'};
 $Lexicon->{'b n \''}[10]{'types'} = $Lexicon->{'b y \''}[1]{'types'};
 $Lexicon->{'b n \''}[10]{'lines'} = $Lexicon->{'b y \''}[1]{'lines'};
 $Lexicon->{'b n \''}[10]{'glosses'} = $Lexicon->{'b y \''}[1]{'glosses'};
-$Lexicon->{'b y d'}[8]{'types'} = $Lexicon->{'b \' d'}[1]{'types'};
-$Lexicon->{'b y d'}[8]{'lines'} = $Lexicon->{'b \' d'}[1]{'lines'};
-$Lexicon->{'b y d'}[8]{'glosses'} = $Lexicon->{'b \' d'}[1]{'glosses'};
+$Lexicon->{'b y d'}[8]{'types'} = $Lexicon->{'b \' d'}[0]{'types'};
+$Lexicon->{'b y d'}[8]{'lines'} = $Lexicon->{'b \' d'}[0]{'lines'};
+$Lexicon->{'b y d'}[8]{'glosses'} = $Lexicon->{'b \' d'}[0]{'glosses'};
 $Lexicon->{'b n n'}[6]{'types'} = $Lexicon->{'b n \''}[4]{'types'};
 $Lexicon->{'b n n'}[6]{'lines'} = $Lexicon->{'b n \''}[4]{'lines'};
 $Lexicon->{'b n n'}[6]{'glosses'} = $Lexicon->{'b n \''}[4]{'glosses'};
@@ -61312,6 +61251,9 @@ $Lexicon->{'b \' _h'}[1]{'glosses'} = $Lexicon->{'b w _h'}[3]{'glosses'};
 $Lexicon->{'b _d \''}[3]{'types'} = $Lexicon->{'b _d y'}[0]{'types'};
 $Lexicon->{'b _d \''}[3]{'lines'} = $Lexicon->{'b _d y'}[0]{'lines'};
 $Lexicon->{'b _d \''}[3]{'glosses'} = $Lexicon->{'b _d y'}[0]{'glosses'};
+$Lexicon->{'b d w'}[10]{'types'} = $Lexicon->{'b w d y'}[0]{'types'};
+$Lexicon->{'b d w'}[10]{'lines'} = $Lexicon->{'b w d y'}[0]{'lines'};
+$Lexicon->{'b d w'}[10]{'glosses'} = $Lexicon->{'b w d y'}[0]{'glosses'};
 $Lexicon->{'b _h y'}[0]{'types'} = $Lexicon->{'b \' _h'}[0]{'types'};
 $Lexicon->{'b _h y'}[0]{'lines'} = $Lexicon->{'b \' _h'}[0]{'lines'};
 $Lexicon->{'b _h y'}[0]{'glosses'} = $Lexicon->{'b \' _h'}[0]{'glosses'};
@@ -61342,9 +61284,6 @@ $Lexicon->{'b r y'}[4]{'glosses'} = $Lexicon->{'b r \''}[15]{'glosses'};
 $Lexicon->{'b r y'}[5]{'types'} = $Lexicon->{'b r \''}[16]{'types'};
 $Lexicon->{'b r y'}[5]{'lines'} = $Lexicon->{'b r \''}[16]{'lines'};
 $Lexicon->{'b r y'}[5]{'glosses'} = $Lexicon->{'b r \''}[16]{'glosses'};
-$Lexicon->{'b d r n'}[0]{'types'} = $Lexicon->{'b d r'}[7]{'types'};
-$Lexicon->{'b d r n'}[0]{'lines'} = $Lexicon->{'b d r'}[7]{'lines'};
-$Lexicon->{'b d r n'}[0]{'glosses'} = $Lexicon->{'b d r'}[7]{'glosses'};
 $Lexicon->{'b .h r'}[13]{'types'} = $Lexicon->{'b .h r n'}[0]{'types'};
 $Lexicon->{'b .h r'}[13]{'lines'} = $Lexicon->{'b .h r n'}[0]{'lines'};
 $Lexicon->{'b .h r'}[13]{'glosses'} = $Lexicon->{'b .h r n'}[0]{'glosses'};
@@ -61379,6 +61318,9 @@ $Lexicon->{'b y n'}[30]{'glosses'} = $Lexicon->{'b \' n'}[2]{'glosses'};
 $Lexicon->{'b k l'}[2]{'types'} = $Lexicon->{'b l \''}[0]{'types'};
 $Lexicon->{'b k l'}[2]{'lines'} = $Lexicon->{'b l \''}[0]{'lines'};
 $Lexicon->{'b k l'}[2]{'glosses'} = $Lexicon->{'b l \''}[0]{'glosses'};
+$Lexicon->{'b d d'}[12]{'types'} = $Lexicon->{'b d w'}[5]{'types'};
+$Lexicon->{'b d d'}[12]{'lines'} = $Lexicon->{'b d w'}[5]{'lines'};
+$Lexicon->{'b d d'}[12]{'glosses'} = $Lexicon->{'b d w'}[5]{'glosses'};
 $Lexicon->{'b w l d'}[0]{'types'} = $Lexicon->{'b l d'}[13]{'types'};
 $Lexicon->{'b w l d'}[0]{'lines'} = $Lexicon->{'b l d'}[13]{'lines'};
 $Lexicon->{'b w l d'}[0]{'glosses'} = $Lexicon->{'b l d'}[13]{'glosses'};
@@ -61424,6 +61366,9 @@ $Lexicon->{'b y l'}[0]{'glosses'} = $Lexicon->{'b w l'}[11]{'glosses'};
 $Lexicon->{'b w y'}[0]{'types'} = $Lexicon->{'b n w'}[1]{'types'};
 $Lexicon->{'b w y'}[0]{'lines'} = $Lexicon->{'b n w'}[1]{'lines'};
 $Lexicon->{'b w y'}[0]{'glosses'} = $Lexicon->{'b n w'}[1]{'glosses'};
+$Lexicon->{'b d \''}[21]{'types'} = $Lexicon->{'b d w'}[7]{'types'};
+$Lexicon->{'b d \''}[21]{'lines'} = $Lexicon->{'b d w'}[7]{'lines'};
+$Lexicon->{'b d \''}[21]{'glosses'} = $Lexicon->{'b d w'}[7]{'glosses'};
 $Lexicon->{'b k r'}[28]{'types'} = $Lexicon->{'b y k r'}[0]{'types'};
 $Lexicon->{'b k r'}[28]{'lines'} = $Lexicon->{'b y k r'}[0]{'lines'};
 $Lexicon->{'b k r'}[28]{'glosses'} = $Lexicon->{'b y k r'}[0]{'glosses'};
@@ -61484,9 +61429,6 @@ $Lexicon->{'b \' `'}[0]{'glosses'} = $Lexicon->{'b y `'}[13]{'glosses'};
 $Lexicon->{'b y d r'}[0]{'types'} = $Lexicon->{'b d r'}[14]{'types'};
 $Lexicon->{'b y d r'}[0]{'lines'} = $Lexicon->{'b d r'}[14]{'lines'};
 $Lexicon->{'b y d r'}[0]{'glosses'} = $Lexicon->{'b d r'}[14]{'glosses'};
-$Lexicon->{'b d r \''}[0]{'types'} = $Lexicon->{'b d r'}[8]{'types'};
-$Lexicon->{'b d r \''}[0]{'lines'} = $Lexicon->{'b d r'}[8]{'lines'};
-$Lexicon->{'b d r \''}[0]{'glosses'} = $Lexicon->{'b d r'}[8]{'glosses'};
 $Lexicon->{'b l q n'}[0]{'types'} = $Lexicon->{'b l q'}[1]{'types'};
 $Lexicon->{'b l q n'}[0]{'lines'} = $Lexicon->{'b l q'}[1]{'lines'};
 $Lexicon->{'b l q n'}[0]{'glosses'} = $Lexicon->{'b l q'}[1]{'glosses'};
@@ -61539,36 +61481,21 @@ $Lexicon->{'b .g z'}[0]{'glosses'} = $Lexicon->{'b w .g z'}[0]{'glosses'};
 $Lexicon->{'b d \' h'}[0]{'types'} = $Lexicon->{'b d h'}[8]{'types'};
 $Lexicon->{'b d \' h'}[0]{'lines'} = $Lexicon->{'b d h'}[8]{'lines'};
 $Lexicon->{'b d \' h'}[0]{'glosses'} = $Lexicon->{'b d h'}[8]{'glosses'};
-$Lexicon->{'b d y'}[0]{'types'} = $Lexicon->{'b d \''}[7]{'types'};
-$Lexicon->{'b d y'}[0]{'lines'} = $Lexicon->{'b d \''}[7]{'lines'};
-$Lexicon->{'b d y'}[0]{'glosses'} = $Lexicon->{'b d \''}[7]{'glosses'};
-$Lexicon->{'b d y'}[2]{'types'} = $Lexicon->{'b d \''}[8]{'types'};
-$Lexicon->{'b d y'}[2]{'lines'} = $Lexicon->{'b d \''}[8]{'lines'};
-$Lexicon->{'b d y'}[2]{'glosses'} = $Lexicon->{'b d \''}[8]{'glosses'};
-$Lexicon->{'b d y'}[3]{'types'} = $Lexicon->{'b d \''}[9]{'types'};
-$Lexicon->{'b d y'}[3]{'lines'} = $Lexicon->{'b d \''}[9]{'lines'};
-$Lexicon->{'b d y'}[3]{'glosses'} = $Lexicon->{'b d \''}[9]{'glosses'};
-$Lexicon->{'b d y'}[4]{'types'} = $Lexicon->{'b d \''}[10]{'types'};
-$Lexicon->{'b d y'}[4]{'lines'} = $Lexicon->{'b d \''}[10]{'lines'};
-$Lexicon->{'b d y'}[4]{'glosses'} = $Lexicon->{'b d \''}[10]{'glosses'};
-$Lexicon->{'b d y'}[5]{'types'} = $Lexicon->{'b d \''}[14]{'types'};
-$Lexicon->{'b d y'}[5]{'lines'} = $Lexicon->{'b d \''}[14]{'lines'};
-$Lexicon->{'b d y'}[5]{'glosses'} = $Lexicon->{'b d \''}[14]{'glosses'};
-$Lexicon->{'b d y'}[6]{'types'} = $Lexicon->{'b d \''}[15]{'types'};
-$Lexicon->{'b d y'}[6]{'lines'} = $Lexicon->{'b d \''}[15]{'lines'};
-$Lexicon->{'b d y'}[6]{'glosses'} = $Lexicon->{'b d \''}[15]{'glosses'};
-$Lexicon->{'b d y'}[7]{'types'} = $Lexicon->{'b d \''}[16]{'types'};
-$Lexicon->{'b d y'}[7]{'lines'} = $Lexicon->{'b d \''}[16]{'lines'};
-$Lexicon->{'b d y'}[7]{'glosses'} = $Lexicon->{'b d \''}[16]{'glosses'};
-$Lexicon->{'b d y'}[13]{'types'} = $Lexicon->{'b \' d'}[0]{'types'};
-$Lexicon->{'b d y'}[13]{'lines'} = $Lexicon->{'b \' d'}[0]{'lines'};
-$Lexicon->{'b d y'}[13]{'glosses'} = $Lexicon->{'b \' d'}[0]{'glosses'};
-$Lexicon->{'b d y'}[14]{'types'} = $Lexicon->{'b d \''}[20]{'types'};
-$Lexicon->{'b d y'}[14]{'lines'} = $Lexicon->{'b d \''}[20]{'lines'};
-$Lexicon->{'b d y'}[14]{'glosses'} = $Lexicon->{'b d \''}[20]{'glosses'};
-$Lexicon->{'b d y'}[17]{'types'} = $Lexicon->{'b w d y'}[0]{'types'};
-$Lexicon->{'b d y'}[17]{'lines'} = $Lexicon->{'b w d y'}[0]{'lines'};
-$Lexicon->{'b d y'}[17]{'glosses'} = $Lexicon->{'b w d y'}[0]{'glosses'};
+$Lexicon->{'b d y'}[0]{'types'} = $Lexicon->{'b d \''}[8]{'types'};
+$Lexicon->{'b d y'}[0]{'lines'} = $Lexicon->{'b d \''}[8]{'lines'};
+$Lexicon->{'b d y'}[0]{'glosses'} = $Lexicon->{'b d \''}[8]{'glosses'};
+$Lexicon->{'b d y'}[1]{'types'} = $Lexicon->{'b d w'}[8]{'types'};
+$Lexicon->{'b d y'}[1]{'lines'} = $Lexicon->{'b d w'}[8]{'lines'};
+$Lexicon->{'b d y'}[1]{'glosses'} = $Lexicon->{'b d w'}[8]{'glosses'};
+$Lexicon->{'b d y'}[2]{'types'} = $Lexicon->{'b d w'}[9]{'types'};
+$Lexicon->{'b d y'}[2]{'lines'} = $Lexicon->{'b d w'}[9]{'lines'};
+$Lexicon->{'b d y'}[2]{'glosses'} = $Lexicon->{'b d w'}[9]{'glosses'};
+$Lexicon->{'b d y'}[3]{'types'} = $Lexicon->{'b w d y'}[0]{'types'};
+$Lexicon->{'b d y'}[3]{'lines'} = $Lexicon->{'b w d y'}[0]{'lines'};
+$Lexicon->{'b d y'}[3]{'glosses'} = $Lexicon->{'b w d y'}[0]{'glosses'};
+$Lexicon->{'b d y'}[4]{'types'} = $Lexicon->{'b d w'}[11]{'types'};
+$Lexicon->{'b d y'}[4]{'lines'} = $Lexicon->{'b d w'}[11]{'lines'};
+$Lexicon->{'b d y'}[4]{'glosses'} = $Lexicon->{'b d w'}[11]{'glosses'};
 $Lexicon->{'b r k'}[18]{'types'} = $Lexicon->{'b r k n'}[0]{'types'};
 $Lexicon->{'b r k'}[18]{'lines'} = $Lexicon->{'b r k n'}[0]{'lines'};
 $Lexicon->{'b r k'}[18]{'glosses'} = $Lexicon->{'b r k n'}[0]{'glosses'};

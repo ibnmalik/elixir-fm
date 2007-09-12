@@ -763,8 +763,7 @@ cluster_95  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- Haw~A' -}           [ "Eve" ],
 
     IFtiCAL                   `noun`    {- AiHotiwA' -}        [ "inclusion", "content" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiCA' |< At ]
+                              `plural`     IFtiCAL |< At ]
 
  |> ".h w .d" <| [
 

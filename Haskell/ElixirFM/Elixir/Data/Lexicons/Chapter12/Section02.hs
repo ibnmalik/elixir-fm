@@ -609,8 +609,7 @@ cluster_32  = listing "Lexicon's properties"
     IFtAL                     `verb`    {- AisotA' -}          [ unwords [ "be", "dissatisfied" ], unwords [ "be", "discontent" ] ],
 
     FUL                       `noun`    {- suw' -}             [ "offense", unwords [ "bad", "/", "ill" ] ]
-                              `plural`     HaFCAL
-                              `plural`     HaFCA',
+                              `plural`     HaFCAL,
 
     HaFCaL                    `noun`    {- OasowaO -}          [ unwords [ "worse", "/", "worst" ] ],
 
@@ -635,8 +634,7 @@ cluster_32  = listing "Lexicon's properties"
     FaCAL                     `noun`    {- sawA' -}            [ "equality" ],
 
     IFtiCAL                   `noun`    {- AisotiwA' -}        [ "levelness", "upright" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiCA' |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL                   `noun`    {- AisotiwA' -}        [ "equator" ],
 
@@ -861,9 +859,6 @@ cluster_38  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- sawiy~ -}           [ "straight", "correct" ]
                               `plural`     HaFCiLA',
 
-    FIy                       `noun`    {- siy~ -}             [ "alike", unwords [ "the", "same" ], "equals" ]
-                              `plural`     HaFCA',
-
     FIL                       `noun`    {- siy~ -}             [ "alike", unwords [ "the", "same" ], "equals" ]
                               `plural`     HaFCA',
 
@@ -892,28 +887,20 @@ cluster_38  = listing "Lexicon's properties"
 
     FULAn                     `noun`    {- suwzAn -}           [ "Susan", "Suzan", "Suzanne" ] ]
 
-
-cluster_39  = listing "Lexicon's properties"
-
-
  |> "s y '" <| [
 
     IFtiCAL                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At
-                              `plural`     IFtiCA' |< At,
-
-    IFtiCA'                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At
-                              `plural`     IFtiCA' |< At,
+                              `plural`     IFtiCAL |< At,
 
     MuFIL                     `adj`     {- musiy' -}           [ "insulting", "harming", "pernicious" ]
                               `plural`     MuFIL |< Un,
 
     FaCCiL                    `noun`    {- say~i' -}           [ "bad" ]
-                              `plural`     FayyiL |< Un
                               `plural`     FaCCiL |< Un ]
+
+
+cluster_39  = listing "Lexicon's properties"
+
 
  |> "s y .h" <| [
 
@@ -951,10 +938,6 @@ cluster_39  = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- siyAdap -}          [ "sovereignty", "supremacy", "Excellency" ] ]
 
-
-cluster_40  = listing "Lexicon's properties"
-
-
  |> "s y f" <| [
 
     FaCL                      `noun`    {- sayof -}            [ "Saif" ],
@@ -972,6 +955,10 @@ cluster_40  = listing "Lexicon's properties"
  |> "s y f n" <| [
 
     KiRDAS                    `noun`    {- siyfAn -}           [ "Sevan" ] ]
+
+
+cluster_40  = listing "Lexicon's properties"
+
 
  |> "s y l" <| [
 
@@ -992,6 +979,44 @@ cluster_40  = listing "Lexicon's properties"
  |> "s y q" <| [
 
     FiCAL                     `noun`    {- siyAq -}            [ "context", "course" ] ]
+
+ |> "s y r" <| [
+
+    FAL                       `verb`    {- sAr-i -}            [ "move", "march" ]
+                              `imperf`     FIL
+                              `pfirst`     FiL,
+
+    FaCCaL                    `verb`    {- say~ar -}           [ unwords [ "set", "in", "motion" ], "dispatch" ],
+
+    FaCL                      `noun`    {- sayor -}            [ "course", "motion", "march" ],
+
+    FaCL                      `noun`    {- sayor -}            [ unwords [ "drive", "belt" ] ]
+                              `plural`     FuCUL,
+
+    FIL |< aT                 `noun`    {- siyrap -}           [ "biography", "epic" ]
+                              `plural`     FiCaL,
+
+    FaCCAL |< aT              `noun`    {- say~Arap -}         [ "car", "automobile", "vehicle" ]
+                              `plural`     FaCCAL |< At,
+
+    MaFAL                     `noun`    {- masAr -}            [ "path", "route" ]
+                              `plural`     MaFAL |< At,
+
+    MaFAL                     `noun`    {- masAr -}            [ "trajectory", "orbit" ]
+                              `plural`     MaFAL |< At,
+
+    MaFIL |< aT               `noun`    {- masiyrap -}         [ "march", "parade" ],
+
+    MaFIL |< aT               `noun`    {- masiyrap -}         [ "operation", "activities", "functioning" ],
+
+    MaFIL |< aT               `noun`    {- masiyrap -}         [ "Massira" ],
+
+    TaFCIL                    `noun`    {- tasoyiyr -}         [ "propulsion", "steering", "guidance" ]
+                              `plural`     TaFCIL |< At,
+
+    FA'iL                     `adj`     {- sA}ir -}            [ "current", "available", "widespread", unwords [ "in", "circulation" ] ],
+
+    MuFaCCiL                  `noun`    {- musay~ir -}         [ "director", "leader" ] ]
 
 
 section = [ cluster_21,

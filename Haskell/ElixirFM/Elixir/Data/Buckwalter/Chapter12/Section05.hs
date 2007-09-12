@@ -720,8 +720,7 @@ cluster_95  = listing "Lexicon's properties"
     IFtAL                     `verb`    {- AisotA' -}          [ unwords [ "be", "dissatisfied" ], unwords [ "be", "discontent" ] ],
 
     FUL                       `noun`    {- suw' -}             [ "offense", unwords [ "bad", "/", "ill" ] ]
-                              `plural`     HaFCAL
-                              `plural`     HaFCA',
+                              `plural`     HaFCAL,
 
     FaCL |< aT                `noun`    {- sawoOap -}          [ "disgrace", "shame" ]
                               `plural`     FaCL |< At,
@@ -758,8 +757,7 @@ cluster_95  = listing "Lexicon's properties"
     FaCAL                     `noun`    {- sawA' -}            [ "equality" ],
 
     IFtiCAL                   `noun`    {- AisotiwA' -}        [ "levelness", "upright" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiCA' |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL                   `noun`    {- AisotiwA' -}        [ "equator" ],
 

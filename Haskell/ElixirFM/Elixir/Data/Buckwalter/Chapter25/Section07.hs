@@ -589,8 +589,7 @@ cluster_132 = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- nawo' -}            [ "storm", "hurricane" ]
                               `plural`     FULAn
-                              `plural`     HaFCAL
-                              `plural`     HaFCA',
+                              `plural`     HaFCAL,
 
     MuFACaL |< aT             `noun`    {- munAwaOap -}        [ "resistance", "opposition", "insubordination" ]
                               `plural`     MuFACaL |< At,

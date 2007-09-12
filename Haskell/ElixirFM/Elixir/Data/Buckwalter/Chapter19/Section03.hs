@@ -694,8 +694,7 @@ cluster_55  = listing "Lexicon's properties"
  |> ".g w '" <| [
 
     HiFCAL                    `noun`    {- IigowA' -}          [ "seduction", "allurement" ]
-                              `plural`     HiFCAL |< At
-                              `plural`     HiFCA' |< At ]
+                              `plural`     HiFCAL |< At ]
 
  |> ".g w .g" <| [
 

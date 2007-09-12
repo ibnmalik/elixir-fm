@@ -4857,8 +4857,7 @@ cluster_95  = listing "Lexicon's properties"
     IFtAL                     `verb`    {- AisotA' -}          [ unwords [ "be", "dissatisfied" ], unwords [ "be", "discontent" ] ],
 
     FUL                       `noun`    {- suw' -}             [ "offense", unwords [ "bad", "/", "ill" ] ]
-                              `plural`     HaFCAL
-                              `plural`     HaFCA',
+                              `plural`     HaFCAL,
 
     FaCL |< aT                `noun`    {- sawoOap -}          [ "disgrace", "shame" ]
                               `plural`     FaCL |< At,
@@ -4895,8 +4894,7 @@ cluster_95  = listing "Lexicon's properties"
     FaCAL                     `noun`    {- sawA' -}            [ "equality" ],
 
     IFtiCAL                   `noun`    {- AisotiwA' -}        [ "levelness", "upright" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiCA' |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL                   `noun`    {- AisotiwA' -}        [ "equator" ],
 
@@ -5373,9 +5371,6 @@ cluster_105 = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- sawiy~ap -}         [ "equality" ]
                               `plural`     FaCALY,
 
-    FIy                       `noun`    {- siy~ -}             [ "alike", unwords [ "the", "same" ], "equals" ]
-                              `plural`     HaFCA',
-
     FIL                       `noun`    {- siy~ -}             [ "alike", unwords [ "the", "same" ], "equals" ]
                               `plural`     HaFCA',
 
@@ -5417,24 +5412,15 @@ cluster_106 = listing "Lexicon's properties"
  |> "s y '" <| [
 
     IFtiCAL                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At
-                              `plural`     IFtiCA' |< At,
-
-    IFtiCA'                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At
-                              `plural`     IFtiCA' |< At,
+                              `plural`     IFtiCAL |< At,
 
     MuFIL                     `adj`     {- musiy' -}           [ "insulting", "harming", "pernicious" ]
                               `plural`     MuFIL |< Un,
 
     FaCCiL                    `noun`    {- say~i' -}           [ "bad" ]
-                              `plural`     FayyiL |< Un
                               `plural`     FaCCiL |< Un,
 
     FaCCiL |< aT              `noun`    {- say~i}ap -}         [ "offense", "misdeed" ]
-                              `plural`     FayyiL |< At
                               `plural`     FaCCiL |< At ]
 
  |> "s y .h" <| [

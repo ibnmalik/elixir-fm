@@ -321,10 +321,10 @@ cluster_5   = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- mugonap -}          [ "mahogany" ],
 
-    FICAL                     `noun`    {- miygAn -}           [ "Megan" ]
+    MICAL                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -},
 
-    MICAL                     `noun`    {- miygAn -}           [ "Megan" ]
+    FICAL                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -} ]
 
 
@@ -1492,19 +1492,19 @@ cluster_27  = listing "Lexicon's properties"
 
  |> "m d '" <| [
 
-    FICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
-
     MICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
 
-    FICAL |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
-                           {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
+    FICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
 
     MICAL |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
                            {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
 
-    FICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ],
+    FICAL |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
+                           {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
 
-    MICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ] ]
+    MICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ],
+
+    FICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ] ]
 
  |> "m d .h" <| [
 
@@ -2554,12 +2554,12 @@ cluster_47  = listing "Lexicon's properties"
 
     IstiFCAL                  `noun`    {- AisotimonA' -}      [ "masturbation" ],
 
-    FICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
+    MICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
                               `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "miyan N", "miyn Napdu" ] -},
 
-    MICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
+    FICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
                               `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "miyan N", "miyn Napdu" ] -} ]

@@ -651,8 +651,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'isti.hyA\'' => [
-          'IstiFCAL',
-          'IstiFCA\''
+          'IstiFCAL'
         ]
       },
       'index' => '1',
@@ -691,8 +690,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'i.hyA\'' => [
-          'HiFCAL',
-          'HiFCA\''
+          'HiFCAL'
         ]
       },
       'index' => '1',
@@ -25233,8 +25231,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'i.htiwA\'' => [
-          'IFtiCAL',
-          'IFtiCA\''
+          'IFtiCAL'
         ]
       },
       'index' => '1',

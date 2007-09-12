@@ -37536,24 +37536,6 @@ $Lexicon = {
       'types' => {},
       'entry' => '\'iymA\'',
       'form' => '\'iymA\'',
-      'lines' => [],
-      'patterns' => {
-        '\'iymA\'' => [
-          'HICAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HICA\'',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'IiymA\'',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'iymA\'',
-      'form' => '\'iymA\'',
       'lines' => [
         ';; <iymA\'_2',
         '<ymA\'   <iymA\'  N0      with reference to',
@@ -37567,20 +37549,6 @@ $Lexicon = {
       'glosses' => [
         'with reference to'
       ],
-      'orig' => 'IiymA\'',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'iymA\'',
-      'form' => '\'iymA\'',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'HICA\'',
-      'suffix' => '',
-      'glosses' => [],
       'orig' => 'IiymA\'',
       'prefix' => ''
     },
@@ -37609,20 +37577,6 @@ $Lexicon = {
     {
       'types' => {},
       'entry' => '\'iymA\'',
-      'form' => '\'iymA\'aT',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HICA\' |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [],
-      'orig' => 'IiymA\'ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'iymA\'',
       'form' => '\'iymA\'iyy',
       'lines' => [
         ';; <iymA}iy~_1',
@@ -37638,20 +37592,6 @@ $Lexicon = {
         'pantomimic',
         'gesturing'
       ],
-      'orig' => 'IiymA}iy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'iymA\'',
-      'form' => '\'iymA\'iyy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'HICA\' |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [],
       'orig' => 'IiymA}iy~',
       'prefix' => ''
     },
@@ -42617,18 +42557,6 @@ $Lexicon->{'w y y'}[1]{'glosses'} = $Lexicon->{'w y y'}[0]{'glosses'};
 $Lexicon->{'w k \''}[7]{'types'} = $Lexicon->{'w k y'}[1]{'types'};
 $Lexicon->{'w k \''}[7]{'lines'} = $Lexicon->{'w k y'}[1]{'lines'};
 $Lexicon->{'w k \''}[7]{'glosses'} = $Lexicon->{'w k y'}[1]{'glosses'};
-$Lexicon->{'w m \''}[2]{'types'} = $Lexicon->{'w m \''}[1]{'types'};
-$Lexicon->{'w m \''}[2]{'lines'} = $Lexicon->{'w m \''}[1]{'lines'};
-$Lexicon->{'w m \''}[2]{'glosses'} = $Lexicon->{'w m \''}[1]{'glosses'};
-$Lexicon->{'w m \''}[4]{'types'} = $Lexicon->{'w m \''}[3]{'types'};
-$Lexicon->{'w m \''}[4]{'lines'} = $Lexicon->{'w m \''}[3]{'lines'};
-$Lexicon->{'w m \''}[4]{'glosses'} = $Lexicon->{'w m \''}[3]{'glosses'};
-$Lexicon->{'w m \''}[6]{'types'} = $Lexicon->{'w m \''}[5]{'types'};
-$Lexicon->{'w m \''}[6]{'lines'} = $Lexicon->{'w m \''}[5]{'lines'};
-$Lexicon->{'w m \''}[6]{'glosses'} = $Lexicon->{'w m \''}[5]{'glosses'};
-$Lexicon->{'w m \''}[8]{'types'} = $Lexicon->{'w m \''}[7]{'types'};
-$Lexicon->{'w m \''}[8]{'lines'} = $Lexicon->{'w m \''}[7]{'lines'};
-$Lexicon->{'w m \''}[8]{'glosses'} = $Lexicon->{'w m \''}[7]{'glosses'};
 $Lexicon->{'w f \''}[1]{'types'} = $Lexicon->{'w f y'}[7]{'types'};
 $Lexicon->{'w f \''}[1]{'lines'} = $Lexicon->{'w f y'}[7]{'lines'};
 $Lexicon->{'w f \''}[1]{'glosses'} = $Lexicon->{'w f y'}[7]{'glosses'};

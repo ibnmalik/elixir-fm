@@ -265,7 +265,6 @@ cluster_45  = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- hawA' -}            [ "air", "atmosphere", "climate" ]
                               `plural`     HaFCAL
-                              `plural`     HaFCA'
                               `plural`     HaFCI |< aT,
 
     FaCAL |< Iy               `noun`    {- hawA}iy~ -}         [ "antenna" ],
@@ -276,8 +275,7 @@ cluster_45  = listing "Lexicon's properties"
                               `plural`     FaCCAL |< Un,
 
     IstiFCAL                  `noun`    {- AisotihowA' -}      [ "fascination", "enchantment", "seduction" ]
-                              `plural`     IstiFCAL |< At
-                              `plural`     IstiFCA' |< At ]
+                              `plural`     IstiFCAL |< At ]
 
  |> "h w .g w" <| [
 

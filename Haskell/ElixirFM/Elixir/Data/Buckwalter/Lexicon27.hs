@@ -3137,20 +3137,11 @@ cluster_61  = listing "Lexicon's properties"
     HICAL                     `noun`    {- IiymA' -}           [ "gesture", "sign" ]
                               `plural`     HICAL |< At,
 
-    HICA'                     `noun`    {- IiymA' -}           [ "gesture", "sign" ]
-                              `plural`     HICAL |< At,
-
     HICAL                     `noun`    {- IiymA' -}           [ unwords [ "with", "reference", "to" ] ],
-
-    HICA'                     `noun`    {- IiymA' -}           [ unwords [ "with", "reference", "to" ] ],
 
     HICAL |< aT               `noun`    {- IiymA'ap -}         [ "gesture", "sign", "clue" ],
 
-    HICA' |< aT               `noun`    {- IiymA'ap -}         [ "gesture", "sign", "clue" ],
-
     HICAL |< Iy               `adj`     {- IiymA}iy~ -}        [ "pantomimic", "gesturing" ],
-
-    HICA' |< Iy               `adj`     {- IiymA}iy~ -}        [ "pantomimic", "gesturing" ],
 
     MUCaL                     `adj`     {- muwmaO -}           [ unwords [ "referred", "to" ], unwords [ "above", "-", "mentioned" ] ] ]
 
@@ -3179,10 +3170,6 @@ cluster_61  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- wamoq -}            [ unwords [ "tender", "love" ] ] ]
 
-
-cluster_62  = listing "Lexicon's properties"
-
-
  |> "w m s" <| [
 
     FaCaL                     `verb`    {- wamas-i -}          [ "polish", unwords [ "rub", "off" ] ]
@@ -3203,6 +3190,10 @@ cluster_62  = listing "Lexicon's properties"
  |> "w n '" <| [
 
     FaCAL                     `noun`    {- wanA' -}            [ "slackening", "lassitude" ] ]
+
+
+cluster_62  = listing "Lexicon's properties"
+
 
  |> "w n ^s" <| [
 
@@ -3248,10 +3239,6 @@ cluster_62  = listing "Lexicon's properties"
     MutaFACI                  `noun`    {- mutawAniy -}        [ "slack", "negligent", "indifferent" ]
                               `plural`     MutaFACI |< At ]
 
-
-cluster_63  = listing "Lexicon's properties"
-
-
  |> "w q '" <| [
 
     FaCAL                     `noun`    {- waqA' -}            [ "prevention", "protection" ]
@@ -3264,6 +3251,10 @@ cluster_63  = listing "Lexicon's properties"
 
     IFtiCAL                   `noun`    {- Ait~iqA' -}         [ "caution", "precaution" ]
                               `plural`     IFtiCAL |< At ]
+
+
+cluster_63  = listing "Lexicon's properties"
+
 
  |> "w q .h" <| [
 
@@ -3305,10 +3296,6 @@ cluster_63  = listing "Lexicon's properties"
 
     FaCCaL                    `verb`    {- waq~aZ -}           [ "incite", "inflame" ] ]
 
-
-cluster_64  = listing "Lexicon's properties"
-
-
  |> "w q _d" <| [
 
     FaCaL                     `verb`    {- waqa*-i -}          [ unwords [ "hit", "fatally" ], unwords [ "throw", "down" ] ]
@@ -3321,7 +3308,7 @@ cluster_64  = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- mawoquw* -}         [ unwords [ "fatally", "ill" ] ] ]
 
 
-cluster_65  = listing "Lexicon's properties"
+cluster_64  = listing "Lexicon's properties"
 
 
  |> "w q `" <| [
@@ -3404,7 +3391,7 @@ cluster_65  = listing "Lexicon's properties"
     MutaFaCCiL                `adj`     {- mutawaq~iE -}       [ "expecting", "anticipating" ] ]
 
 
-cluster_66  = listing "Lexicon's properties"
+cluster_65  = listing "Lexicon's properties"
 
 
  |> "w q b" <| [
@@ -3422,7 +3409,7 @@ cluster_66  = listing "Lexicon's properties"
                               `plural`     FaCaL |< At ]
 
 
-cluster_67  = listing "Lexicon's properties"
+cluster_66  = listing "Lexicon's properties"
 
 
  |> "w q d" <| [
@@ -3479,7 +3466,7 @@ cluster_67  = listing "Lexicon's properties"
                               `plural`     MustaFCaL |< At ]
 
 
-cluster_68  = listing "Lexicon's properties"
+cluster_67  = listing "Lexicon's properties"
 
 
  |> "w q f" <| [
@@ -3535,7 +3522,7 @@ cluster_68  = listing "Lexicon's properties"
     MutaFaCCiL                `noun`    {- mutawaq~if -}       [ "conditional", "dependent" ] ]
 
 
-cluster_69  = listing "Lexicon's properties"
+cluster_68  = listing "Lexicon's properties"
 
 
  |> "w q l" <| [
@@ -3579,7 +3566,7 @@ cluster_69  = listing "Lexicon's properties"
     MuFaCCaL                  `adj`     {- muwaq~ar -}         [ "respected", "venerable" ] ]
 
 
-cluster_70  = listing "Lexicon's properties"
+cluster_69  = listing "Lexicon's properties"
 
 
  |> "w q t" <| [
@@ -3620,7 +3607,7 @@ cluster_70  = listing "Lexicon's properties"
                            {- `others`  [ "wAqwAq N0" ] -} ]
 
 
-cluster_71  = listing "Lexicon's properties"
+cluster_70  = listing "Lexicon's properties"
 
 
  |> "w q y" <| [
@@ -3669,7 +3656,7 @@ cluster_71  = listing "Lexicon's properties"
     FaCAL |< Iy               `adj`     {- warA}iy~ -}         [ "rear", "back" ] ]
 
 
-cluster_72  = listing "Lexicon's properties"
+cluster_71  = listing "Lexicon's properties"
 
 
  |> "w r .t" <| [
@@ -3710,7 +3697,7 @@ cluster_72  = listing "Lexicon's properties"
                               `plural`     FiCaL ]
 
 
-cluster_73  = listing "Lexicon's properties"
+cluster_72  = listing "Lexicon's properties"
 
 
  |> "w r _t" <| [
@@ -3763,7 +3750,7 @@ cluster_73  = listing "Lexicon's properties"
     MutaFACaL                 `noun`    {- mutawArav -}        [ "inherited" ] ]
 
 
-cluster_74  = listing "Lexicon's properties"
+cluster_73  = listing "Lexicon's properties"
 
 
  |> "w r `" <| [
@@ -3795,7 +3782,7 @@ cluster_74  = listing "Lexicon's properties"
     MuFACaL                   `adj`     {- muwArab -}          [ unwords [ "partly", "open" ] ] ]
 
 
-cluster_75  = listing "Lexicon's properties"
+cluster_74  = listing "Lexicon's properties"
 
 
  |> "w r d" <| [
@@ -3868,7 +3855,7 @@ cluster_75  = listing "Lexicon's properties"
     FaCL |< Iy |< aT          `noun`    {- warodiy~ap -}       [ unwords [ "work", "shift" ], unwords [ "shift", "rotation" ] ] ]
 
 
-cluster_76  = listing "Lexicon's properties"
+cluster_75  = listing "Lexicon's properties"
 
 
  |> "w r f" <| [
@@ -3930,7 +3917,7 @@ cluster_76  = listing "Lexicon's properties"
     KaRDIS                    `noun`    {- waroniy$ -}         [ "varnish", "lacquer" ] ]
 
 
-cluster_77  = listing "Lexicon's properties"
+cluster_76  = listing "Lexicon's properties"
 
 
  |> "w r q" <| [
@@ -3966,7 +3953,7 @@ cluster_77  = listing "Lexicon's properties"
     HaFCAL                    `noun`    {- OaworAs -}          [ unwords [ "Aures", "(", "mountains", "in", "Algeria", ")" ] ] ]
 
 
-cluster_78  = listing "Lexicon's properties"
+cluster_77  = listing "Lexicon's properties"
 
 
  |> "w r y" <| [
@@ -4002,7 +3989,7 @@ cluster_78  = listing "Lexicon's properties"
     TaFCI |< aT               `noun`    {- taworiyap -}        [ "hiding", "dissimulation" ] ]
 
 
-cluster_79  = listing "Lexicon's properties"
+cluster_78  = listing "Lexicon's properties"
 
 
  |> "w s .t" <| [
@@ -4056,7 +4043,7 @@ cluster_79  = listing "Lexicon's properties"
     MutaFaCCiL |< Iy          `adj`     {- mutawas~iTiy~ -}    [ "middle", "central", "average" ] ]
 
 
-cluster_80  = listing "Lexicon's properties"
+cluster_79  = listing "Lexicon's properties"
 
 
  |> "w s _h" <| [
@@ -4080,7 +4067,7 @@ cluster_80  = listing "Lexicon's properties"
     FaCAL |< aT               `noun`    {- wasAxap -}          [ "filth", "squalor" ] ]
 
 
-cluster_81  = listing "Lexicon's properties"
+cluster_80  = listing "Lexicon's properties"
 
 
  |> "w s `" <| [
@@ -4142,7 +4129,7 @@ cluster_81  = listing "Lexicon's properties"
     MuFtaCaL                  `noun`    {- mut~asaE -}         [ "space", "room" ] ]
 
 
-cluster_82  = listing "Lexicon's properties"
+cluster_81  = listing "Lexicon's properties"
 
 
  |> "w s d" <| [
@@ -4176,7 +4163,7 @@ cluster_82  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At ]
 
 
-cluster_83  = listing "Lexicon's properties"
+cluster_82  = listing "Lexicon's properties"
 
 
  |> "w s m" <| [
@@ -4232,7 +4219,7 @@ cluster_83  = listing "Lexicon's properties"
                               `plural`     FaCLY ]
 
 
-cluster_84  = listing "Lexicon's properties"
+cluster_83  = listing "Lexicon's properties"
 
 
  |> "w s q" <| [
@@ -4294,7 +4281,7 @@ cluster_84  = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At ]
 
 
-cluster_85  = listing "Lexicon's properties"
+cluster_84  = listing "Lexicon's properties"
 
 
  |> "w t n" <| [
@@ -4348,7 +4335,7 @@ cluster_85  = listing "Lexicon's properties"
     MutaFACiL                 `adj`     {- mutawAtir -}        [ "continuous" ] ]
 
 
-cluster_86  = listing "Lexicon's properties"
+cluster_85  = listing "Lexicon's properties"
 
 
  |> "w t y" <| [
@@ -4401,7 +4388,7 @@ cluster_86  = listing "Lexicon's properties"
                            {- `others`  [ "waykunna FW-Wa", "waykum FW-Wa", "wayka FW-Wa", "waykumA FW-Wa", "wayki FW-Wa" ] -} ]
 
 
-cluster_87  = listing "Lexicon's properties"
+cluster_86  = listing "Lexicon's properties"
 
 
  |> "w z `" <| [
@@ -4441,7 +4428,7 @@ cluster_87  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- waz~Al -}           [ "genista", unwords [ "broom", "(", "plant", ")" ] ] ]
 
 
-cluster_88  = listing "Lexicon's properties"
+cluster_87  = listing "Lexicon's properties"
 
 
  |> "w z n" <| [
@@ -4497,7 +4484,7 @@ cluster_88  = listing "Lexicon's properties"
     MuFtaCiL                  `adj`     {- mut~azin -}         [ "balanced", "harmonious" ] ]
 
 
-cluster_89  = listing "Lexicon's properties"
+cluster_88  = listing "Lexicon's properties"
 
 
  |> "w z r" <| [
@@ -4550,7 +4537,7 @@ cluster_89  = listing "Lexicon's properties"
                               `plural`     MutaFACI |< At ]
 
 
-cluster_90  = listing "Lexicon's properties"
+cluster_89  = listing "Lexicon's properties"
 
 
  |> "w z z" <| [
@@ -4633,7 +4620,7 @@ cluster_90  = listing "Lexicon's properties"
     Identity                  `noun`    {- wiyrokuw -}         [ unwords [ "excise", "tax" ], unwords [ "real", "-", "estate", "tax" ] ] ]
 
 
-cluster_91  = listing "Lexicon's properties"
+cluster_90  = listing "Lexicon's properties"
 
 
  |> "wUdrUf" <| [
@@ -4758,6 +4745,5 @@ section = [ cluster_1,
             cluster_87,
             cluster_88,
             cluster_89,
-            cluster_90,
-            cluster_91 ]
+            cluster_90 ]
 

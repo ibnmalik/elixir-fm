@@ -16582,8 +16582,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '\'i.gwA\'' => [
-          'HiFCAL',
-          'HiFCA\''
+          'HiFCAL'
         ]
       },
       'index' => '1',

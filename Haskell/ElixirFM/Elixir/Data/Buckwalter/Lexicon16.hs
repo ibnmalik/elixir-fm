@@ -2094,8 +2094,7 @@ cluster_40  = listing "Lexicon's properties"
  |> ".t w '" <| [
 
     InFiCAL                   `noun`    {- AinoTiwA' -}        [ "withdrawal" ]
-                              `plural`     InFiCAL |< At
-                              `plural`     InFiCA' |< At,
+                              `plural`     InFiCAL |< At,
 
     InFiCAL |< Iy             `adj`     {- AinoTiwA}iy~ -}     [ "withdrawal", "introverted" ] ]
 
@@ -2485,8 +2484,6 @@ cluster_48  = listing "Lexicon's properties"
 
     FaCIL |< aT               `noun`    {- Tawiy~ap -}         [ "intention", "conviction", "interior", unwords [ "insides", "(", "of", ")" ] ]
                               `plural`     FaCALY,
-
-    FIy |< aT                 `noun`    {- Tiy~ap -}           [ "intention", "design" ],
 
     FIL |< aT                 `noun`    {- Tiy~ap -}           [ "intention", "design" ],
 

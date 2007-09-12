@@ -305,7 +305,6 @@ cluster_27  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Dawo' -}            [ "light" ]
                               `plural`     HaFCAL
-                              `plural`     HaFCA'
                            {- `others`  [ ".daw'A N-|" ] -},
 
     FaCL |< Iy                `adj`     {- Dawo}iy~ -}         [ "light", "luminous", "clear" ],
@@ -328,8 +327,7 @@ cluster_27  = listing "Lexicon's properties"
     MuFAL                     `adj`     {- muDA' -}            [ "bright", "illuminated" ],
 
     InFiCAL                   `noun`    {- AinoDiwA' -}        [ unwords [ "seeking", "refuge" ], unwords [ "rallying", "around" ] ]
-                              `plural`     InFiCAL |< At
-                              `plural`     InFiCA' |< At ]
+                              `plural`     InFiCAL |< At ]
 
  |> ".d w .d" <| [
 
@@ -414,25 +412,13 @@ cluster_29  = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- DiyA' -}            [ "Zia", "Dhia" ],
 
-    FiCA'                     `noun`    {- DiyA' -}            [ "Zia", "Dhia" ],
-
     FiCAL                     `noun`    {- DiyA' -}            [ "light", "glow" ],
-
-    FiCA'                     `noun`    {- DiyA' -}            [ "light", "glow" ],
 
     FiCAL |< Iy               `adj`     {- DiyA}iy~ -}         [ "luminous", "clear" ],
 
-    FiCA' |< Iy               `adj`     {- DiyA}iy~ -}         [ "luminous", "clear" ],
-
     FiCAL |< Iy |< aT         `noun`    {- DiyA}iy~ap -}       [ "luminosity", "clarity" ],
 
-    FiCA' |< Iy |< aT         `noun`    {- DiyA}iy~ap -}       [ "luminosity", "clarity" ],
-
     MuFIL                     `adj`     {- muDiy' -}           [ "shining", "bright" ] ]
-
-
-cluster_30  = listing "Lexicon's properties"
-
 
  |> ".d y `" <| [
 
@@ -469,7 +455,7 @@ cluster_30  = listing "Lexicon's properties"
     MuFaCCiL                  `adj`     {- muDay~iE -}         [ "squandering", "wasteful" ] ]
 
 
-cluster_31  = listing "Lexicon's properties"
+cluster_30  = listing "Lexicon's properties"
 
 
  |> ".d y f" <| [
@@ -514,7 +500,7 @@ cluster_31  = listing "Lexicon's properties"
     IstiFAL |< aT             `noun`    {- AisotiDAfap -}      [ "hosting" ] ]
 
 
-cluster_32  = listing "Lexicon's properties"
+cluster_31  = listing "Lexicon's properties"
 
 
  |> ".d y m" <| [
@@ -576,7 +562,7 @@ cluster_32  = listing "Lexicon's properties"
     Identity                  `verb`    {- AiD~ajaE -}         [ unwords [ "lie", "down" ], "sleep" ] ]
 
 
-cluster_33  = listing "Lexicon's properties"
+cluster_32  = listing "Lexicon's properties"
 
 
  |> "mu.d.da^ga`" <| [
@@ -599,6 +585,5 @@ section = [ cluster_21,
             cluster_29,
             cluster_30,
             cluster_31,
-            cluster_32,
-            cluster_33 ]
+            cluster_32 ]
 

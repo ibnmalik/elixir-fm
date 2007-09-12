@@ -21902,8 +21902,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'inziwA\'' => [
-          'InFiCAL',
-          'InFiCA\''
+          'InFiCAL'
         ]
       },
       'index' => '1',

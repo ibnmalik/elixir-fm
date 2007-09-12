@@ -419,19 +419,19 @@ cluster_27  = listing "Lexicon's properties"
 
  |> "m d '" <| [
 
-    FICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
-
     MICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
 
-    FICAL |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
-                           {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
+    FICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
 
     MICAL |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
                            {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
 
-    FICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ],
+    FICAL |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
+                           {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
 
-    MICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ] ]
+    MICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ],
+
+    FICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ] ]
 
  |> "m d .h" <| [
 

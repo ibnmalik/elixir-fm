@@ -32974,8 +32974,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'adwA\'' => [
-          'HaFCAL',
-          'HaFCA\''
+          'HaFCAL'
         ]
       },
       'index' => '1',

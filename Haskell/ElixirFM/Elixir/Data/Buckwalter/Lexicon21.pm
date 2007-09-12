@@ -36560,7 +36560,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'qayyi\'' => [
-          'FayyiL',
           'FaCCiL'
         ]
       },
@@ -46141,8 +46140,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '\'iqwA\'' => [
-          'HiFCAL',
-          'HiFCA\''
+          'HiFCAL'
         ]
       },
       'index' => '1',

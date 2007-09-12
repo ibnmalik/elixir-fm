@@ -483,8 +483,7 @@ cluster_90  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- fayo' -}            [ "shadow" ]
                               `plural`     FuCUL
-                              `plural`     HaFCAL
-                              `plural`     HaFCA',
+                              `plural`     HaFCAL,
 
     FiL |< aT                 `noun`    {- fi}ap -}            [ "faction", "party" ],
 

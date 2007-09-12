@@ -1037,8 +1037,7 @@ cluster_40  = listing "Lexicon's properties"
  |> ".t w '" <| [
 
     InFiCAL                   `noun`    {- AinoTiwA' -}        [ "withdrawal" ]
-                              `plural`     InFiCAL |< At
-                              `plural`     InFiCA' |< At,
+                              `plural`     InFiCAL |< At,
 
     InFiCAL |< Iy             `adj`     {- AinoTiwA}iy~ -}     [ "withdrawal", "introverted" ] ]
 

@@ -14002,7 +14002,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'hayyi\'' => [
-          'FayyiL',
           'FaCCiL'
         ]
       },
@@ -18163,8 +18162,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '\'ahwA\'' => [
-          'HaFCAL',
-          'HaFCA\''
+          'HaFCAL'
         ],
         '\'ahwiy' => [
           'HaFCI'
@@ -18245,8 +18243,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'istihwA\'' => [
-          'IstiFCAL',
-          'IstiFCA\''
+          'IstiFCAL'
         ]
       },
       'index' => '1',

@@ -321,10 +321,10 @@ cluster_5   = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- mugonap -}          [ "mahogany" ],
 
-    FICAL                     `noun`    {- miygAn -}           [ "Megan" ]
+    MICAL                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -},
 
-    MICAL                     `noun`    {- miygAn -}           [ "Megan" ]
+    FICAL                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -} ]
 
 

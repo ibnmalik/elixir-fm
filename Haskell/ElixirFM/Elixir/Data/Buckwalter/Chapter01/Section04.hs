@@ -746,18 +746,15 @@ cluster_73  = listing "Lexicon's properties"
     FaC                       `conj`    {- Oaw -}              [ "or" ],
 
     FiCAL                     `noun`    {- IiwA' -}            [ "sheltering", "harboring", "lodging" ]
-                              `plural`     FiCAL |< At
-                              `plural`     FiCA' |< At,
+                              `plural`     FiCAL |< At,
 
     FICAL                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
                               `plural`     FICAL |< At
-                              `plural`     HICAL |< At
-                              `plural`     HICA' |< At,
+                              `plural`     HICAL |< At,
 
     HICAL                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
                               `plural`     FICAL |< At
-                              `plural`     HICAL |< At
-                              `plural`     HICA' |< At ]
+                              `plural`     HICAL |< At ]
 
  |> "' w .d" <| [
 

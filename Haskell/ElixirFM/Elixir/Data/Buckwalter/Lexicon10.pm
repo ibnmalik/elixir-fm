@@ -7620,8 +7620,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'riwAy' => [
-          'FiCAL',
-          'FiCAy'
+          'FiCAL'
         ]
       },
       'index' => '1',

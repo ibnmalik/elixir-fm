@@ -842,6 +842,8 @@ cluster_36  = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- badA'ap -}          [ "beginning", "start" ],
 
+    FiCAy |< aT               `noun`    {- bidAyap -}          [ "beginning", "start" ],
+
     FaCAL |< Iy               `adj`     {- badA}iy~ -}         [ "initial", "original" ],
 
     FiCAL |< Iy               `adj`     {- bidA}iy~ -}         [ "primitive", "original" ],
@@ -966,7 +968,11 @@ cluster_39  = listing "Lexicon's properties"
 
     MuFaCCiL                  `noun`    {- mubad~id -}         [ "squanderer", "scatterer" ],
 
-    MustaFiCL                 `noun`    {- musotabid~ -}       [ "autocratic", "arbitrary", "despotic" ] ]
+    MustaFiCL                 `noun`    {- musotabid~ -}       [ "autocratic", "arbitrary", "despotic" ],
+
+    FaL |<< "awIy"            `adj`     {- badawiy~ -}         [ "Bedouin" ]
+                              `plural`     FuCY |< aT
+                           {- `others`  [ "badw N" ] -} ]
 
 
 cluster_40  = listing "Lexicon's properties"

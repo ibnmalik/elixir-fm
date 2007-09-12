@@ -212,26 +212,18 @@ sub storeEntry ($$) {
 
                     unless (@toor > 3) {
 
-                        my $ptrn = $pAttErns[$i];
+                        foreach my $ptrn (throwForms($pAttErns[$i], @toor)) {
 
-                        $ptrn =~ s/C/\'/g if $toor[1] eq '\'';
-                        $ptrn =~ s/L/\'/g if $toor[2] eq '\'';
+                            if ($ptrn ne $pAttErns[$i]) {
 
-                        $ptrn =~ s/C/w/g if $toor[1] eq 'w';
-                        $ptrn =~ s/L/w/g if $toor[2] eq 'w';
+                                if ($ptrn =~ /^FawA\'(?:iL|I)$/ and $Clone->{'morphs'} =~ /FA\'(?:iL|I)/) {
 
-                        $ptrn =~ s/C/y/g if $toor[1] eq 'y';
-                        $ptrn =~ s/L/y/g if $toor[2] eq 'y';
+                                    $throw->{$pAttErns[$i]}++;
+                                }
+                                else {
 
-                        if ($ptrn ne $pAttErns[$i]) {
-
-                            if ($ptrn =~ /^FawA\'(?:iL|I)$/ and $Clone->{'morphs'} =~ /FA\'(?:iL|I)/) {
-
-                                $throw->{$pAttErns[$i]}++;
-                            }
-                            else {
-
-                                $throw->{$ptrn}++;
+                                    $throw->{$ptrn}++;
+                                }
                             }
                         }
                     }
@@ -488,20 +480,12 @@ sub closeEntry {
 
             my $throw = {};
 
-            foreach (keys %{$root{$root}}) {
+            foreach my $ptrn (keys %{$root{$root}}) {
 
-                my $ptrn = $_;
+                foreach (throwForms($ptrn, @root)) {
 
-                $ptrn =~ s/C/\'/g if $root[1] eq '\'';
-                $ptrn =~ s/L/\'/g if $root[2] eq '\'';
-
-                $ptrn =~ s/C/w/g if $root[1] eq 'w';
-                $ptrn =~ s/L/w/g if $root[2] eq 'w';
-
-                $ptrn =~ s/C/y/g if $root[1] eq 'y';
-                $ptrn =~ s/L/y/g if $root[2] eq 'y';
-
-                $throw->{$ptrn}++ if $ptrn ne $_;
+                    $throw->{$_}++ if $ptrn ne $_;
+                }
             }
 
             storeEntry($root, $_) foreach sort grep { not exists $throw->{$_} } keys %{$root{$root}};
@@ -516,6 +500,40 @@ sub closeEntry {
         my $done = undef;
         my $seen = {};
 
+        my $throw = {};
+
+        foreach my $toor (keys %root) {
+
+            my @toor = split / /, $toor;
+
+            next if @toor > 3;
+
+            push @toor, ('') x (3 - @toor);
+
+            if ($toor[0] eq $char) {
+
+                $toor[1] = $root[1]               if $toor[1] eq '' and @root > 1;
+                $toor[2] = restoreWith($root[-1]) if $toor[2] eq '' and @root > 1;
+            }
+            elsif ($toor[0] eq '' and $toor[1] ne '' and $toor[1] ne $char) {
+
+                $toor[0] = $root[0];
+                $toor[2] = restoreWith($root[-1]) if $toor[2] eq '' and @root > 1;
+            }
+            else {
+
+                next;
+            }
+
+            foreach my $ptrn (keys %{$root{$toor}}) {
+
+                foreach (throwForms($ptrn, @toor)) {
+
+                    $throw->{join ' ', @toor}{$_}++ if $ptrn ne $_;
+                }
+            }
+        }
+
         foreach my $toor (keys %root) {
 
             my @toor = split / /, $toor;
@@ -526,20 +544,20 @@ sub closeEntry {
 
                 $toor[1] = $root[1]               if $toor[1] eq '' and @root > 1;
                 $toor[2] = restoreWith($root[-1]) if $toor[2] eq '' and @root > 1;
-
-                storeRemoveTwins(\%root, $toor, $seen, @toor);
-
-                $done = 1;
             }
             elsif ($toor[0] eq '' and $toor[1] ne '' and $toor[1] ne $char) {
 
                 $toor[0] = $root[0];
                 $toor[2] = restoreWith($root[-1]) if $toor[2] eq '' and @root > 1;
-
-                storeRemoveTwins(\%root, $toor, $seen, @toor);
-
-                $done = 1;
             }
+            else {
+
+                next;
+            }
+
+            storeRemoveTwins(\%root, $toor, $seen, $throw, @toor);
+
+            $done = 1;
         }
 
         storeEntry($Entry->{'entry'}, 'Identity') unless defined $done;
@@ -549,36 +567,39 @@ sub closeEntry {
 }
 
 
+sub throwForms {
+
+    my ($orig, @toor) = @_;
+
+    my @form = ($orig, $orig, $orig);
+
+    $form[0] =~ s/C/\'/g if $toor[1] eq '\'';
+    $form[0] =~ s/C/w/g if $toor[1] eq 'w';
+    $form[0] =~ s/C/y/g if $toor[1] eq 'y';
+
+    $form[1] = $form[0];
+
+    $form[1] =~ s/L/\'/g if $toor[2] eq '\'';
+    $form[1] =~ s/L/w/g if $toor[2] eq 'w';
+    $form[1] =~ s/L/y/g if $toor[2] eq 'y';
+
+    $form[2] =~ s/L/\'/g if $toor[2] eq '\'';
+    $form[2] =~ s/L/w/g if $toor[2] eq 'w';
+    $form[2] =~ s/L/y/g if $toor[2] eq 'y';
+
+    return @form;
+}
+
+
 sub storeRemoveTwins {
 
-    my ($root, $toor, $seen, @toor) = @_;
-
-    my $throw = {};
-
-    unless (@toor > 3) {
-
-        foreach (keys %{$root->{join ' ', @toor}}) {
-
-            my $ptrn = $_;
-
-            $ptrn =~ s/C/\'/g if $toor[1] eq '\'';
-            $ptrn =~ s/L/\'/g if $toor[2] eq '\'';
-
-            $ptrn =~ s/C/w/g if $toor[1] eq 'w';
-            $ptrn =~ s/L/w/g if $toor[2] eq 'w';
-
-            $ptrn =~ s/C/y/g if $toor[1] eq 'y';
-            $ptrn =~ s/L/y/g if $toor[2] eq 'y';
-
-            $throw->{$ptrn}++ if $ptrn ne $_;
-        }
-    }
+    my ($root, $toor, $seen, $throw, @toor) = @_;
 
     foreach my $ptrn (sort keys %{$root->{$toor}}) {
 
         next if $seen->{join ' ', @toor, $ptrn}++;
 
-        next if exists $throw->{$ptrn};
+        next if exists $throw->{join ' ', @toor}{$ptrn};
 
         # unless explicit $root prevents this, prefer Form VIII and remove Form IX
 

@@ -6544,8 +6544,7 @@ cluster_132 = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- nawo' -}            [ "storm", "hurricane" ]
                               `plural`     FULAn
-                              `plural`     HaFCAL
-                              `plural`     HaFCA',
+                              `plural`     HaFCAL,
 
     MuFACaL |< aT             `noun`    {- munAwaOap -}        [ "resistance", "opposition", "insubordination" ]
                               `plural`     MuFACaL |< At,
@@ -7134,9 +7133,6 @@ cluster_142 = listing "Lexicon's properties"
                               `plural`     MuFACI |< At,
 
     FIL |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire" ]
-                              `plural`     FaCALY,
-
-    FIy |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire" ]
                               `plural`     FaCALY ]
 
  |> "n y '" <| [

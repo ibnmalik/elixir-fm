@@ -2898,8 +2898,7 @@ cluster_58  = listing "Lexicon's properties"
     FiCAL                     `noun`    {- liwA' -}            [ "Liwa" ],
 
     IFtiCAL                   `noun`    {- AilotiwA' -}        [ "curvature", "bend", "unevenness" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiCA' |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL |< aT             `noun`    {- AilotiwA'ap -}      [ "bending", "flexing", "twisting" ] ]
 

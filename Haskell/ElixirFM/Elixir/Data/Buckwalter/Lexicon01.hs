@@ -2582,9 +2582,6 @@ cluster_50  = listing "Lexicon's properties"
                               `plural`     HACAL
                               `plural`     FaCA,
 
-    HACA' |<< "a"             `prep`    {- \|nA'a -}           [ "during" ]
-                           {- `others`  [ "'AnA'' FW-Wa-i", "'AnA'i FW-Wa" ] -},
-
     HACAL |<< "a"             `prep`    {- \|nA'a -}           [ "during" ]
                            {- `others`  [ "'AnA'' FW-Wa-i", "'AnA'i FW-Wa" ] -},
 
@@ -3921,18 +3918,15 @@ cluster_73  = listing "Lexicon's properties"
     FaC                       `conj`    {- Oaw -}              [ "or" ],
 
     FiCAL                     `noun`    {- IiwA' -}            [ "sheltering", "harboring", "lodging" ]
-                              `plural`     FiCAL |< At
-                              `plural`     FiCA' |< At,
+                              `plural`     FiCAL |< At,
 
     FICAL                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
                               `plural`     FICAL |< At
-                              `plural`     HICAL |< At
-                              `plural`     HICA' |< At,
+                              `plural`     HICAL |< At,
 
     HICAL                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
                               `plural`     FICAL |< At
-                              `plural`     HICAL |< At
-                              `plural`     HICA' |< At ]
+                              `plural`     HICAL |< At ]
 
  |> "' w .d" <| [
 

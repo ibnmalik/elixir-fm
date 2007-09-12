@@ -1698,8 +1698,7 @@ cluster_32  = listing "Lexicon's properties"
     IFtAL                     `verb`    {- AisotA' -}          [ unwords [ "be", "dissatisfied" ], unwords [ "be", "discontent" ] ],
 
     FUL                       `noun`    {- suw' -}             [ "offense", unwords [ "bad", "/", "ill" ] ]
-                              `plural`     HaFCAL
-                              `plural`     HaFCA',
+                              `plural`     HaFCAL,
 
     HaFCaL                    `noun`    {- OasowaO -}          [ unwords [ "worse", "/", "worst" ] ],
 
@@ -1724,8 +1723,7 @@ cluster_32  = listing "Lexicon's properties"
     FaCAL                     `noun`    {- sawA' -}            [ "equality" ],
 
     IFtiCAL                   `noun`    {- AisotiwA' -}        [ "levelness", "upright" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiCA' |< At,
+                              `plural`     IFtiCAL |< At,
 
     IFtiCAL                   `noun`    {- AisotiwA' -}        [ "equator" ],
 
@@ -1950,9 +1948,6 @@ cluster_38  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- sawiy~ -}           [ "straight", "correct" ]
                               `plural`     HaFCiLA',
 
-    FIy                       `noun`    {- siy~ -}             [ "alike", unwords [ "the", "same" ], "equals" ]
-                              `plural`     HaFCA',
-
     FIL                       `noun`    {- siy~ -}             [ "alike", unwords [ "the", "same" ], "equals" ]
                               `plural`     HaFCA',
 
@@ -1981,28 +1976,20 @@ cluster_38  = listing "Lexicon's properties"
 
     FULAn                     `noun`    {- suwzAn -}           [ "Susan", "Suzan", "Suzanne" ] ]
 
-
-cluster_39  = listing "Lexicon's properties"
-
-
  |> "s y '" <| [
 
     IFtiCAL                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At
-                              `plural`     IFtiCA' |< At,
-
-    IFtiCA'                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     IFtiyAL |< At
-                              `plural`     IFtiCA' |< At,
+                              `plural`     IFtiCAL |< At,
 
     MuFIL                     `adj`     {- musiy' -}           [ "insulting", "harming", "pernicious" ]
                               `plural`     MuFIL |< Un,
 
     FaCCiL                    `noun`    {- say~i' -}           [ "bad" ]
-                              `plural`     FayyiL |< Un
                               `plural`     FaCCiL |< Un ]
+
+
+cluster_39  = listing "Lexicon's properties"
+
 
  |> "s y .h" <| [
 
@@ -2040,10 +2027,6 @@ cluster_39  = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- siyAdap -}          [ "sovereignty", "supremacy", "Excellency" ] ]
 
-
-cluster_40  = listing "Lexicon's properties"
-
-
  |> "s y f" <| [
 
     FaCL                      `noun`    {- sayof -}            [ "Saif" ],
@@ -2061,6 +2044,10 @@ cluster_40  = listing "Lexicon's properties"
  |> "s y f n" <| [
 
     KiRDAS                    `noun`    {- siyfAn -}           [ "Sevan" ] ]
+
+
+cluster_40  = listing "Lexicon's properties"
+
 
  |> "s y l" <| [
 
@@ -2081,10 +2068,6 @@ cluster_40  = listing "Lexicon's properties"
  |> "s y q" <| [
 
     FiCAL                     `noun`    {- siyAq -}            [ "context", "course" ] ]
-
-
-cluster_41  = listing "Lexicon's properties"
-
 
  |> "s y r" <| [
 
@@ -2124,6 +2107,10 @@ cluster_41  = listing "Lexicon's properties"
 
     MuFaCCiL                  `noun`    {- musay~ir -}         [ "director", "leader" ] ]
 
+
+cluster_41  = listing "Lexicon's properties"
+
+
  |> "s y s" <| [
 
     FiCAL |< aT               `noun`    {- siyAsap -}          [ "politics" ],
@@ -2143,10 +2130,6 @@ cluster_41  = listing "Lexicon's properties"
  |> "s y t y" <| [
 
     KiRDI                     `noun`    {- siytiy -}           [ "City" ] ]
-
-
-cluster_42  = listing "Lexicon's properties"
-
 
  |> "s y y" <| [
 
@@ -2205,6 +2188,10 @@ cluster_42  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- siybuw -}           [ "Sipo" ] ]
 
+
+cluster_42  = listing "Lexicon's properties"
+
+
  |> "sIdA" <| [
 
     Identity                  `noun`    {- siydA -}            [ unwords [ "SIDA", "(", "AIDS", ")" ] ] ]
@@ -2228,10 +2215,6 @@ cluster_42  = listing "Lexicon's properties"
  |> "sInA" <| [
 
     Identity                  `noun`    {- siynA -}            [ "Sinai" ] ]
-
-
-cluster_43  = listing "Lexicon's properties"
-
 
  |> "sInAtUr" <| [
 
@@ -2289,6 +2272,10 @@ cluster_43  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- salofAduwr -}       [ "Salvador", "Salvadoran" ] ]
 
+
+cluster_43  = listing "Lexicon's properties"
+
+
  |> "saltA" <| [
 
     Identity                  `noun`    {- salotA -}           [ "Salta" ] ]
@@ -2312,10 +2299,6 @@ cluster_43  = listing "Lexicon's properties"
  |> "sikritAr" <| [
 
     Identity |< Iy |< aT      `noun`    {- sikoritAriy~ap -}   [ "secretariat" ] ]
-
-
-cluster_44  = listing "Lexicon's properties"
-
 
  |> "sikritIr" <| [
 
@@ -2369,6 +2352,10 @@ cluster_44  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- sluwfAkiyA -}       [ "Slovakia" ] ]
 
+
+cluster_44  = listing "Lexicon's properties"
+
+
  |> "slUfIn" <| [
 
     Identity |< Iy            `adj`     {- sluwfiyniy~ -}      [ "Slovenian" ] ]
@@ -2392,10 +2379,6 @@ cluster_44  = listing "Lexicon's properties"
  |> "stArz" <| [
 
     Identity                  `noun`    {- stArz -}            [ "Stars", "Starie" ] ]
-
-
-cluster_45  = listing "Lexicon's properties"
-
 
  |> "stAybilz" <| [
 
@@ -2485,6 +2468,5 @@ section = [ cluster_1,
             cluster_41,
             cluster_42,
             cluster_43,
-            cluster_44,
-            cluster_45 ]
+            cluster_44 ]
 

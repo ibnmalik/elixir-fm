@@ -12,68 +12,6 @@ lexicon = include section
 cluster_81  = listing "Lexicon's properties"
 
 
- |> "w s `" <| [
-
-    FaCuL                     `verb`    {- wasuE-u -}          [ unwords [ "be", "spacious" ], unwords [ "be", "wide" ] ]
-                              `imperf`     FCuL,
-
-    FaCiL                     `verb`    {- wasiE-a -}          [ unwords [ "be", "spacious" ], unwords [ "be", "wide" ], unwords [ "be", "able" ], unwords [ "be", "possible" ] ]
-                              `imperf`     CaL,
-
-    FaCCaL                    `verb`    {- was~aE -}           [ "expand", "widen", "enable" ],
-
-    HaFCaL                    `verb`    {- OawosaE -}          [ "expand", "widen", "enable" ],
-
-    TaFaCCaL                  `verb`    {- tawas~aE -}         [ "expand", unwords [ "be", "extensive" ] ],
-
-    IFtaCaL                   `verb`    {- Ait~asaE -}         [ "expand", unwords [ "be", "widened" ] ],
-
-    IstaFCaL                  `verb`    {- AisotawosaE -}      [ "expand", unwords [ "be", "widened" ] ],
-
-    CaL |< aT                 `noun`    {- saEap -}            [ "volume", "capacity" ],
-
-    FuCL                      `noun`    {- wusoE -}            [ "capability", "capacity" ],
-
-    FaCaL                     `noun`    {- wasaE -}            [ "vastness" ],
-
-    FuCL |< aT                `noun`    {- wusoEap -}          [ "extent", "range" ],
-
-    FaCIL                     `adj`     {- wasiyE -}           [ "wide" ],
-
-    HaFCaL                    `noun`    {- OawosaE -}          [ unwords [ "broader", "/", "broadest" ], unwords [ "wider", "/", "widest" ] ],
-
-    TaFCIL                    `noun`    {- tawosiyE -}         [ "expansion", "widening" ]
-                              `plural`     TaFCIL |< At,
-
-    TaFCiL |< aT              `noun`    {- tawosiEap -}        [ "expansion", "widening", "generosity" ],
-
-    TaFaCCuL                  `noun`    {- tawas~uE -}         [ "expansion" ]
-                              `plural`     TaFaCCuL |< At,
-
-    TaFaCCuL |< Iy            `adj`     {- tawas~uEiy~ -}      [ "expansionist" ],
-
-    IFtiCAL                   `noun`    {- Ait~isAE -}         [ "expansion", "extension" ]
-                              `plural`     IFtiCAL |< At,
-
-    FACiL                     `adj`     {- wAsiE -}            [ "wide", "extensive", "broad" ],
-
-    FACiL                     `noun`    {- wAsiE -}            [ "Wasie", "Wasee" ],
-
-    MaFCUL |< aT              `noun`    {- mawosuwEap -}       [ "encyclopedia" ]
-                              `plural`     MaFCUL |< At,
-
-    MaFCUL |< Iy              `adj`     {- mawosuwEiy~ -}      [ "encyclopedic" ],
-
-    MUCiL                     `adj`     {- muwsiE -}           [ "wealthy" ],
-
-    MuFtaCiL                  `adj`     {- mut~asiE -}         [ "extensive", "abundant", "generous" ],
-
-    MuFtaCaL                  `noun`    {- mut~asaE -}         [ "space", "room" ] ]
-
-
-cluster_82  = listing "Lexicon's properties"
-
-
  |> "w s d" <| [
 
     FaCCaL                    `verb`    {- was~ad -}           [ unwords [ "lay", "down" ], "recline" ],
@@ -105,7 +43,7 @@ cluster_82  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At ]
 
 
-cluster_83  = listing "Lexicon's properties"
+cluster_82  = listing "Lexicon's properties"
 
 
  |> "w s m" <| [
@@ -161,7 +99,7 @@ cluster_83  = listing "Lexicon's properties"
                               `plural`     FaCLY ]
 
 
-cluster_84  = listing "Lexicon's properties"
+cluster_83  = listing "Lexicon's properties"
 
 
  |> "w s q" <| [
@@ -223,7 +161,7 @@ cluster_84  = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At ]
 
 
-cluster_85  = listing "Lexicon's properties"
+cluster_84  = listing "Lexicon's properties"
 
 
  |> "w t n" <| [
@@ -277,7 +215,7 @@ cluster_85  = listing "Lexicon's properties"
     MutaFACiL                 `adj`     {- mutawAtir -}        [ "continuous" ] ]
 
 
-cluster_86  = listing "Lexicon's properties"
+cluster_85  = listing "Lexicon's properties"
 
 
  |> "w t y" <| [
@@ -330,7 +268,7 @@ cluster_86  = listing "Lexicon's properties"
                            {- `others`  [ "waykunna FW-Wa", "waykum FW-Wa", "wayka FW-Wa", "waykumA FW-Wa", "wayki FW-Wa" ] -} ]
 
 
-cluster_87  = listing "Lexicon's properties"
+cluster_86  = listing "Lexicon's properties"
 
 
  |> "w z `" <| [
@@ -370,7 +308,7 @@ cluster_87  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- waz~Al -}           [ "genista", unwords [ "broom", "(", "plant", ")" ] ] ]
 
 
-cluster_88  = listing "Lexicon's properties"
+cluster_87  = listing "Lexicon's properties"
 
 
  |> "w z n" <| [
@@ -426,7 +364,7 @@ cluster_88  = listing "Lexicon's properties"
     MuFtaCiL                  `adj`     {- mut~azin -}         [ "balanced", "harmonious" ] ]
 
 
-cluster_89  = listing "Lexicon's properties"
+cluster_88  = listing "Lexicon's properties"
 
 
  |> "w z r" <| [
@@ -479,7 +417,7 @@ cluster_89  = listing "Lexicon's properties"
                               `plural`     MutaFACI |< At ]
 
 
-cluster_90  = listing "Lexicon's properties"
+cluster_89  = listing "Lexicon's properties"
 
 
  |> "w z z" <| [
@@ -562,7 +500,7 @@ cluster_90  = listing "Lexicon's properties"
     Identity                  `noun`    {- wiyrokuw -}         [ unwords [ "excise", "tax" ], unwords [ "real", "-", "estate", "tax" ] ] ]
 
 
-cluster_91  = listing "Lexicon's properties"
+cluster_90  = listing "Lexicon's properties"
 
 
  |> "wUdrUf" <| [
@@ -607,6 +545,5 @@ section = [ cluster_81,
             cluster_87,
             cluster_88,
             cluster_89,
-            cluster_90,
-            cluster_91 ]
+            cluster_90 ]
 
