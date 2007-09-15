@@ -269,7 +269,7 @@ isSubsumed cs w = let xs = {- (foldr (\ c d -> if null d then [c]
                   match xs w
 
     where   match []    _ = True
-            match (x:y) z = if x `elem` ["'", "w", "y"]
+            match (x:y) z = if x `elem` omits
 
                                 then match y z
                                 else if null z then False
@@ -277,6 +277,11 @@ isSubsumed cs w = let xs = {- (foldr (\ c d -> if null d then [c]
 
                                                     then match y (drop (length x) z)
                                                     else match (x:y) (short z)
+
+omits :: [String]
+
+omits = ["'", "w", "y"] ++ map (:[]) ((encode UCS . decode Tim) "OWI}'wy")
+
 
 short :: String -> String
 

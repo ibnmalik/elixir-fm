@@ -366,7 +366,7 @@ instance Rules PatternT where
                         | otherwise             = "a"
 
 
-    prefixVerbC I   FCuL    = "u"
+    prefixVerbC I   y   | y `elem` [FCuL, FCU]      = "u"
     prefixVerbC I   y   | y `elem` [FuCL, FiCL, FaCL,
                                     FUL, FAL, FIL,
                                     FuL, FaL, FiL,
