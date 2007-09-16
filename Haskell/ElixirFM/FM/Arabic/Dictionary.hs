@@ -131,6 +131,24 @@ resolveList l uc eq y = [ [s] | (r, [x]) <- l, isSubsumed (uc r) y,
                              i <- h, (uc . uncurry merge) i `eq` y ]
 
 
+
+resolveMore q y = resolveListMore indexList id q y  -- (encode UCS . decode TeX)
+                                                    --    q (map (encode UCS) y)
+
+
+resolveListMore l uc eq y = [ [s] | (r, [x]) <- l, let y' = filter (isSubsumed (uc r)) y,
+                                               -- (decode TeX r) y
+                          not (null y'),
+
+                          s <- wraps (inflects y') x ]
+
+    where inflects y (Nest r z) = [ Token (RE r e) i t | e <- z,
+
+                             let s = inflect (RE r e) "----------", (t, h) <- s,
+
+                             i <- h, let m = (uc . uncurry merge) i, q <- y, m `eq` q ]
+
+
 -- unwrapResolve (uncurry merge . struct) $ resolveBy (omitting "aiuAUI") "ktbuN"
 
 omitting :: [Char] -> String -> String -> Bool
