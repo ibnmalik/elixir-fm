@@ -612,7 +612,7 @@ cluster_11  = listing "Lexicon's properties"
     FACaL                     `verb`    {- yAwam -}            [ unwords [ "hire", "(", "as", "a", "day", "laborer", ")" ] ],
 
     FaCL                      `noun`    {- yawom -}            [ "day" ]
-                           {- `others`  [ "'ayyAm N" ] -},
+                              `plural`     HaFyAL,
 
     FaCL                      `adv`     {- yawom -}            [ unwords [ "some", "day" ] ]
                            {- `others`  [ "yawmaN FW-Wa" ] -},

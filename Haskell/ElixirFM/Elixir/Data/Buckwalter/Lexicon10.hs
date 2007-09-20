@@ -4715,9 +4715,9 @@ cluster_94  = listing "Lexicon's properties"
     FaCAL                     `noun`    {- rawAH -}            [ "departure", "return" ],
 
     FIL                       `noun`    {- riyH -}             [ "wind", "odor" ]
+                              `plural`     HaFyAL
                               `plural`     HaFCAL
-                              `plural`     FiyAL
-                           {- `others`  [ "'aryA.h N" ] -},
+                              `plural`     FiyAL,
 
     FIL |< aT                 `noun`    {- riyHap -}           [ "smell", "odor" ],
 

@@ -5028,7 +5028,7 @@ cluster_98  = listing "Lexicon's properties"
 
     FayyiL                    `noun`    {- say~id -}           [ "Sir", "Mr.", "Mister", "gentlement" ]
                               `plural`     FAL |< aT
-                           {- `others`  [ "'asyAd N" ] -},
+                              `plural`     HaFyAL,
 
     FayyiL                    `noun`    {- say~id -}           [ "Sayyid" ],
 

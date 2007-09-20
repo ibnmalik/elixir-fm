@@ -1382,7 +1382,9 @@ $Lexicon = {
         'sAd' => [
           'FAL'
         ],
-        '\'asyAd' => []
+        '\'asyAd' => [
+          'HaFyAL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

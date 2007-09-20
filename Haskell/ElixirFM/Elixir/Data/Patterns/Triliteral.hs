@@ -569,6 +569,8 @@ data PatternT =
         |   HaFCAL      |   HACAL                       |   HaFCA'                      |   HACA'
                                         |   HAFAL                                       |   HAFA'
 
+                                        |   HaFyAL
+
         |   HaFCiL      |   HACiL       |   HaFIL       |   HaFCI       |   HaFiCL      |   HACI
         |   HaFCuL      |   HACuL       |   HaFUL       |   HaFCU       |   HaFuCL      |   HACU
 

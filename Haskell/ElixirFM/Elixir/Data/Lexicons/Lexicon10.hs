@@ -1826,9 +1826,9 @@ cluster_34  = listing "Lexicon's properties"
     FULAn |< Iy |< aT         `noun`    {- ruwHAniy~ap -}      [ "spirituality" ],
 
     FIL                       `noun`    {- riyH -}             [ "wind", "odor" ]
+                              `plural`     HaFyAL
                               `plural`     HaFCAL
-                              `plural`     FiyAL
-                           {- `others`  [ "'aryA.h N" ] -},
+                              `plural`     FiyAL,
 
     FILAn |< Iy               `adj`     {- riyoHAniy~ -}       [ "Rihani" ],
 

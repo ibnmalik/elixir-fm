@@ -12834,7 +12834,9 @@ $Lexicon = {
         '^gawAd' => [
           'FaCAL'
         ],
-        '\'a^gyAd' => []
+        '\'a^gyAd' => [
+          'HaFyAL'
+        ]
       },
       'index' => '3',
       'entity' => 'noun',

@@ -38914,7 +38914,9 @@ $Lexicon = {
       ],
       'patterns' => {
         '.hayz' => [],
-        '\'a.hyAz' => []
+        '\'a.hyAz' => [
+          'HaFyAL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

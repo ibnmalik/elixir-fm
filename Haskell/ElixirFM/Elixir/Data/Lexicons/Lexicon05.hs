@@ -1295,7 +1295,7 @@ cluster_24  = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- jawAd -}            [ "steed", "horse" ]
                               `plural`     FaCAL |< At
-                           {- `others`  [ "'a^gyAd N" ] -},
+                              `plural`     HaFyAL,
 
     HaFCaL                    `noun`    {- Oajowad -}          [ unwords [ "better", "/", "best" ], unwords [ "more", "/", "most", "generous" ] ]
                               `plural`     HaFACIL

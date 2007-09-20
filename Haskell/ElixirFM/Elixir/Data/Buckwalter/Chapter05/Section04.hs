@@ -318,7 +318,7 @@ cluster_67  = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- jawAd -}            [ "steed", "horse" ]
                               `plural`     FaCAL |< At
-                           {- `others`  [ "'a^gyAd N" ] -},
+                              `plural`     HaFyAL,
 
     TaFCIL                    `noun`    {- tajowiyd -}         [ "reciting", "chanting" ]
                               `plural`     TaFCIL |< At,

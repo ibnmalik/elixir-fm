@@ -38714,7 +38714,9 @@ $Lexicon = {
       'form' => 'riy.h',
       'lines' => [],
       'patterns' => {
-        '\'aryA.h' => [],
+        '\'aryA.h' => [
+          'HaFyAL'
+        ],
         'riyA.h' => [
           'FiyAL'
         ],

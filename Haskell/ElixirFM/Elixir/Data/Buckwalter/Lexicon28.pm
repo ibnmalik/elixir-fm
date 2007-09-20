@@ -3768,7 +3768,9 @@ $Lexicon = {
         'AyAm    >ay~Am  N       days'
       ],
       'patterns' => {
-        '\'ayyAm' => []
+        '\'ayyAm' => [
+          'HaFyAL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
