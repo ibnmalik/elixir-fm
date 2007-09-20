@@ -741,8 +741,8 @@ cluster_15  = listing "Lexicon's properties"
                               `plural`     HiFCAL |< At,
 
     FACL                      `noun`    {- DAl~ -}             [ "erroneous", "misguided" ]
-                              `plural`     FuCCAL
-                           {- `others`  [ ".dawAll Ndip" ] -},
+                              `plural`     FawACL
+                              `plural`     FuCCAL,
 
     FACL |< aT                `noun`    {- DAl~ap -}           [ "ambition", "objective" ],
 

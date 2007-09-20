@@ -6040,6 +6040,34 @@ $Lexicon = {
       ],
       'orig' => 'Oakiys',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'aywAks' => {
+          'N0' => 2
+        }
+      },
+      'entry' => '\'awAks',
+      'form' => '\'awAks',
+      'lines' => [
+        ';; >awAks_1',
+        '>wAks   >awAks  N0      AWACS (Airborne Warning and Control System)',
+        'AwAks   >awAks  N0      AWACS (Airborne Warning and Control System)',
+        '>ywAks  >ayowAks        N0      AWACS (Airborne Warning and Control System)',
+        'AywAks  >ayowAks        N0      AWACS (Airborne Warning and Control System)'
+      ],
+      'patterns' => {
+        '\'aywAks' => []
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FawACL',
+      'suffix' => '',
+      'glosses' => [
+        'AWACS (Airborne Warning and Control System)'
+      ],
+      'orig' => 'OawAks',
+      'prefix' => ''
     }
   ],
   '\'a^skrUft' => [
@@ -43180,34 +43208,6 @@ $Lexicon = {
         'pact'
       ],
       'orig' => 'IiylAf',
-      'prefix' => ''
-    }
-  ],
-  '\'awAks' => [
-    {
-      'types' => {
-        '\'aywAks' => {
-          'N0' => 2
-        }
-      },
-      'entry' => '\'awAks',
-      'form' => '\'awAks',
-      'lines' => [
-        ';; >awAks_1',
-        '>wAks   >awAks  N0      AWACS (Airborne Warning and Control System)',
-        'AwAks   >awAks  N0      AWACS (Airborne Warning and Control System)',
-        '>ywAks  >ayowAks        N0      AWACS (Airborne Warning and Control System)',
-        'AywAks  >ayowAks        N0      AWACS (Airborne Warning and Control System)'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'AWACS (Airborne Warning and Control System)'
-      ],
-      'orig' => 'OawAks',
       'prefix' => ''
     }
   ],

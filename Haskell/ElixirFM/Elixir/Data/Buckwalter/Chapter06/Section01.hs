@@ -664,8 +664,8 @@ cluster_13  = listing "Lexicon's properties"
 
     FACL                      `noun`    {- HAj~ -}             [ "pilgrim" ]
                               `plural`     FaCIL
-                              `plural`     FuCAL
-                           {- `others`  [ ".hawA^g^g Ndip" ] -},
+                              `plural`     FawACL
+                              `plural`     FuCAL,
 
     FaCIL                     `noun`    {- Hajiyj -}           [ "Hajeej" ],
 

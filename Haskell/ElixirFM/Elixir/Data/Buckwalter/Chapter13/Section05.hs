@@ -12,6 +12,58 @@ lexicon = include section
 cluster_81  = listing "Lexicon's properties"
 
 
+ |> "^s w b q" <| [
+
+    KaRDaS                    `noun`    {- \$awobaq -}         [ unwords [ "rolling", "pin" ] ]
+                              `plural`     KaRADiS ]
+
+ |> "^s w f" <| [
+
+    FAL                       `verb`    {- \$Af-u -}           [ "look" ]
+                              `imperf`     FUL
+                              `pfirst`     FuL,
+
+    FaCCaL                    `verb`    {- \$aw~af -}          [ "adorn" ],
+
+    TaFaCCaL                  `verb`    {- ta$aw~af -}         [ "anticipate", unwords [ "listen", "attentively" ] ],
+
+    FUL                       `noun`    {- \$uwf -}            [ "Shouf", "Chouf" ],
+
+    FaCL |< aT                `noun`    {- \$awofap -}         [ "spectacle" ] ]
+
+ |> "^s w h" <| [
+
+    FAL                       `verb`    {- \$Ah-u -}           [ unwords [ "be", "deformed" ], unwords [ "be", "distorted" ], unwords [ "become", "ugly" ] ]
+                              `imperf`     FUL
+                              `pfirst`     FuL,
+
+    FaCiL                     `verb`    {- \$awih-a -}         [ unwords [ "be", "deformed" ], unwords [ "be", "distorted" ], unwords [ "become", "ugly" ] ]
+                              `imperf`     FaL,
+
+    FaCCaL                    `verb`    {- \$aw~ah -}          [ "distort", "tarnish" ],
+
+    TaFaCCaL                  `verb`    {- ta$aw~ah -}         [ unwords [ "be", "distorted" ], unwords [ "be", "tarnished" ] ],
+
+    FaCaL                     `noun`    {- \$awah -}           [ "distortion" ],
+
+    HaFCaL                    `adj`     {- Oa$owah -}          [ "distorted", "deformed" ]
+                              `plural`     FUL
+                              `plural`     FaCLA',
+
+    TaFCIL                    `noun`    {- ta$owiyh -}         [ "distortion" ]
+                              `plural`     TaFCIL |< At,
+
+    TaFaCCuL                  `noun`    {- ta$aw~uh -}         [ "distortion" ]
+                              `plural`     TaFaCCuL |< At,
+
+    MuFaCCaL                  `adj`     {- mu$aw~ah -}         [ "distorted", "disabled" ],
+
+    FA'iL                     `adj`     {- \$A}ih -}           [ "distorted" ] ]
+
+
+cluster_82  = listing "Lexicon's properties"
+
+
  |> "^s w k" <| [
 
     FAL                       `verb`    {- \$Ak-u -}           [ "sting", "prick" ]
@@ -38,7 +90,7 @@ cluster_81  = listing "Lexicon's properties"
     FaCiL                     `adj`     {- \$awik -}           [ "thorny", "prickly" ] ]
 
 
-cluster_82  = listing "Lexicon's properties"
+cluster_83  = listing "Lexicon's properties"
 
 
  |> "^s w l" <| [
@@ -94,7 +146,7 @@ cluster_82  = listing "Lexicon's properties"
     FUL                       `noun`    {- \$uwn -}            [ "Sean", "Shawn" ] ]
 
 
-cluster_83  = listing "Lexicon's properties"
+cluster_84  = listing "Lexicon's properties"
 
 
  |> "^s w q" <| [
@@ -136,7 +188,7 @@ cluster_83  = listing "Lexicon's properties"
     KaRDI                     `noun`    {- \$awoqiy -}         [ "Shawqi" ] ]
 
 
-cluster_84  = listing "Lexicon's properties"
+cluster_85  = listing "Lexicon's properties"
 
 
  |> "^s w r" <| [
@@ -194,7 +246,7 @@ cluster_84  = listing "Lexicon's properties"
     MaFCaL |< aT              `noun`    {- ma$owarap -}        [ "consultation", "deliberation", "advice" ] ]
 
 
-cluster_85  = listing "Lexicon's properties"
+cluster_86  = listing "Lexicon's properties"
 
 
  |> "^s w r b" <| [
@@ -237,7 +289,7 @@ cluster_85  = listing "Lexicon's properties"
     FuCayL |< aT              `noun`    {- \$uway~ap -}        [ unwords [ "a", "little", "bit" ] ] ]
 
 
-cluster_86  = listing "Lexicon's properties"
+cluster_87  = listing "Lexicon's properties"
 
 
  |> "^s y '" <| [
@@ -283,7 +335,7 @@ cluster_86  = listing "Lexicon's properties"
     FaCCAL |< aT              `noun`    {- \$ay~AHap -}        [ "blotter" ] ]
 
 
-cluster_87  = listing "Lexicon's properties"
+cluster_88  = listing "Lexicon's properties"
 
 
  |> "^s y .t" <| [
@@ -332,7 +384,7 @@ cluster_87  = listing "Lexicon's properties"
     FILAn |< Iy               `adj`     {- \$iy$Aniy~ -}       [ "Chechen" ] ]
 
 
-cluster_88  = listing "Lexicon's properties"
+cluster_89  = listing "Lexicon's properties"
 
 
  |> "^s y _h" <| [
@@ -369,7 +421,7 @@ cluster_88  = listing "Lexicon's properties"
     KaRDUS |< Iy              `adj`     {- \$ayoxuwxiy~ -}     [ unwords [ "old", "age" ], "senior" ] ]
 
 
-cluster_89  = listing "Lexicon's properties"
+cluster_90  = listing "Lexicon's properties"
 
 
  |> "^s y `" <| [
@@ -430,7 +482,7 @@ cluster_89  = listing "Lexicon's properties"
     MuFtAL                    `noun`    {- mu$otAE -}          [ "partner", unwords [ "co", "-", "owner" ] ] ]
 
 
-cluster_90  = listing "Lexicon's properties"
+cluster_91  = listing "Lexicon's properties"
 
 
  |> "^s y b" <| [
@@ -485,7 +537,7 @@ cluster_90  = listing "Lexicon's properties"
     MuFaCCiL                  `noun`    {- mu$ay~id -}         [ "builder", "constructor" ] ]
 
 
-cluster_91  = listing "Lexicon's properties"
+cluster_92  = listing "Lexicon's properties"
 
 
  |> "^s y f" <| [
@@ -554,7 +606,7 @@ cluster_91  = listing "Lexicon's properties"
                               `plural`     KaRADI ]
 
 
-cluster_92  = listing "Lexicon's properties"
+cluster_93  = listing "Lexicon's properties"
 
 
  |> "^s y n" <| [
@@ -617,7 +669,7 @@ cluster_92  = listing "Lexicon's properties"
                               `plural`     FuCUL |< At ]
 
 
-cluster_93  = listing "Lexicon's properties"
+cluster_94  = listing "Lexicon's properties"
 
 
  |> "^s y w `" <| [
@@ -695,7 +747,7 @@ cluster_93  = listing "Lexicon's properties"
     Identity                  `noun`    {- \$AtiylA -}         [ "" {- "Shatila" -}, "" {- "Shatilla" -} ] ]
 
 
-cluster_94  = listing "Lexicon's properties"
+cluster_95  = listing "Lexicon's properties"
 
 
  |> "^sAtIs.gAr" <| [
@@ -775,7 +827,7 @@ cluster_94  = listing "Lexicon's properties"
     Identity |< aT            `noun`    {- \$uwfiyniy~ap -}    [ "chauvinism" ] ]
 
 
-cluster_95  = listing "Lexicon's properties"
+cluster_96  = listing "Lexicon's properties"
 
 
  |> "^sUstIkUf" <| [
@@ -846,21 +898,17 @@ cluster_95  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- \$ariyfobuwr -}     [ "" {- "Sharifpour" -} ] ]
 
- |> "^sawA_d_d" <| [
-
-    Identity |< At            `noun`    {- \$awA*~At -}        [ "peculiarities", "idiosyncrasies" ] ]
-
  |> "^sawandar" <| [
 
     Identity                  `noun`    {- \$awanodar -}       [ "beet", "chard" ] ]
 
-
-cluster_96  = listing "Lexicon's properties"
-
-
  |> "^sawkarAn" <| [
 
     Identity                  `noun`    {- \$awokarAn -}       [ "hemlock" ] ]
+
+
+cluster_97  = listing "Lexicon's properties"
+
 
  |> "^sawwA" <| [
 
@@ -938,13 +986,13 @@ cluster_96  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- \$tiyron -}         [ "" {- "Stern" -} ] ]
 
-
-cluster_97  = listing "Lexicon's properties"
-
-
  |> "^stUt.gArt" <| [
 
     Identity                  `noun`    {- \$tuwtogArot -}     [ "" {- "Stuttgart" -} ] ]
+
+
+cluster_98  = listing "Lexicon's properties"
+
 
  |> "^sukUlAt" <| [
 
@@ -987,5 +1035,6 @@ section = [ cluster_81,
             cluster_94,
             cluster_95,
             cluster_96,
-            cluster_97 ]
+            cluster_97,
+            cluster_98 ]
 

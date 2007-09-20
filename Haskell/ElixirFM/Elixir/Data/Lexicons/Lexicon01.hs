@@ -743,7 +743,10 @@ cluster_14  = listing "Lexicon's properties"
 
  |> "' k s" <| [
 
-    FiCL                      `noun`    {- Iikos -}            [ "X" ] ]
+    FiCL                      `noun`    {- Iikos -}            [ "X" ],
+
+    FawACL                    `noun`    {- OawAks -}           [ unwords [ "AWACS", "(", "Airborne", "Warning", "and", "Control", "System", ")" ] ]
+                           {- `others`  [ "'aywAks N0" ] -} ]
 
  |> "' l '" <| [
 
@@ -798,15 +801,15 @@ cluster_14  = listing "Lexicon's properties"
 
     KiRDIS                    `noun`    {- Iilofiys -}         [ "Elvis" ] ]
 
+
+cluster_15  = listing "Lexicon's properties"
+
+
  |> "' l l" <| [
 
     FAL                       `noun`    {- \|l -}              [ "Al" ],
 
     FiL                       `noun`    {- Iil -}              [ "El" ] ]
-
-
-cluster_15  = listing "Lexicon's properties"
-
 
  |> "' l m" <| [
 
@@ -857,15 +860,15 @@ cluster_15  = listing "Lexicon's properties"
     KaRDAS                    `noun`    {- OalomAs -}          [ "diamond" ]
                               `plural`     KaRDAS |< At ]
 
+
+cluster_16  = listing "Lexicon's properties"
+
+
  |> "' l n" <| [
 
     HACAL                     `noun`    {- \|lAn -}            [ "Allan", "Allen", "Alain" ]
                               `plural`     FACaL
                               `plural`     HACaL ]
-
-
-cluster_16  = listing "Lexicon's properties"
-
 
  |> "' l q" <| [
 
@@ -2604,10 +2607,6 @@ cluster_40  = listing "Lexicon's properties"
  |> "'atlitIkU" <| [
 
     Identity                  `noun`    {- Oatolitiykuw -}     [ "Atletico" ] ]
-
- |> "'awAks" <| [
-
-    Identity                  `noun`    {- OawAks -}           [ unwords [ "AWACS", "(", "Airborne", "Warning", "and", "Control", "System", ")" ] ] ]
 
  |> "'aydz" <| [
 

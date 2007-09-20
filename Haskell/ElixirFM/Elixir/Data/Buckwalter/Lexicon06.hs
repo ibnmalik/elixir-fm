@@ -664,8 +664,8 @@ cluster_13  = listing "Lexicon's properties"
 
     FACL                      `noun`    {- HAj~ -}             [ "pilgrim" ]
                               `plural`     FaCIL
-                              `plural`     FuCAL
-                           {- `others`  [ ".hawA^g^g Ndip" ] -},
+                              `plural`     FawACL
+                              `plural`     FuCAL,
 
     FaCIL                     `noun`    {- Hajiyj -}           [ "Hajeej" ],
 
@@ -2003,7 +2003,7 @@ cluster_39  = listing "Lexicon's properties"
     FACL                      `noun`    {- HAf~ -}             [ "plain" ],
 
     FACL |< aT                `noun`    {- HAf~ap -}           [ "edge", "shore" ]
-                           {- `others`  [ ".hawAff Ndip" ] -},
+                              `plural`     FawACL,
 
     MaFCUL                    `adj`     {- maHofuwf -}         [ "surrounded", "lined" ] ]
 
@@ -4624,7 +4624,7 @@ cluster_92  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     FACL |< aT                `noun`    {- HAs~ap -}           [ "sense" ]
-                           {- `others`  [ ".hawAss Ndip" ] -},
+                              `plural`     FawACL,
 
     MaFCUL                    `adj`     {- maHosuws -}         [ "noticeable", "perceptible" ] ]
 

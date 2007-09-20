@@ -632,7 +632,7 @@ cluster_92  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     FACL |< aT                `noun`    {- HAs~ap -}           [ "sense" ]
-                           {- `others`  [ ".hawAss Ndip" ] -},
+                              `plural`     FawACL,
 
     MaFCUL                    `adj`     {- maHosuws -}         [ "noticeable", "perceptible" ] ]
 

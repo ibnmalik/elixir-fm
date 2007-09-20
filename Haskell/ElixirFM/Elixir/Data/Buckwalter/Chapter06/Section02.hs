@@ -992,7 +992,7 @@ cluster_39  = listing "Lexicon's properties"
     FACL                      `noun`    {- HAf~ -}             [ "plain" ],
 
     FACL |< aT                `noun`    {- HAf~ap -}           [ "edge", "shore" ]
-                           {- `others`  [ ".hawAff Ndip" ] -},
+                              `plural`     FawACL,
 
     MaFCUL                    `adj`     {- maHofuwf -}         [ "surrounded", "lined" ] ]
 

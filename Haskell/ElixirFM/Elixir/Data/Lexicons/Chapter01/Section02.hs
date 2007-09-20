@@ -1438,10 +1438,6 @@ cluster_40  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Oatolitiykuw -}     [ "Atletico" ] ]
 
- |> "'awAks" <| [
-
-    Identity                  `noun`    {- OawAks -}           [ unwords [ "AWACS", "(", "Airborne", "Warning", "and", "Control", "System", ")" ] ] ]
-
  |> "'aydz" <| [
 
     Identity                  `noun`    {- Oayodz -}           [ "AIDS" ] ]

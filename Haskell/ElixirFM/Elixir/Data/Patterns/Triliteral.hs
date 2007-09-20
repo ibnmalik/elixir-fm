@@ -444,7 +444,7 @@ instance Rules PatternT where
                             FaCA'iL,
                             FaCACiL,
                             FaCACIL,
-                            FawACiL, FawA'iL,
+                            FawACiL, FawA'iL, FawACL,
                             FawACIL, FawA'IL,
                             HaFACiL,
                             HaFACIL,
@@ -555,7 +555,7 @@ data PatternT =
 
         |   FACUL
 
-        |   FawACiL                     |   FawA'iL     |   FawACI                      |   FawA'I
+        |   FawACiL                     |   FawA'iL     |   FawACI      |   FawACL      |   FawA'I
         |   FawACIL                     |   FawA'IL
 
         |   MaFCaL                      |   MaFAL       |   MaFCY       |   MaFaCL

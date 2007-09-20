@@ -274,8 +274,8 @@ cluster_4   = listing "Lexicon's properties"
                               `plural`     FuCUL,
 
     FACL                      `noun`    {- \$A*~ -}            [ "deviant" ]
-                              `plural`     FuCCAL
-                           {- `others`  [ "^sawA_d_d Ndip" ] -} ]
+                              `plural`     FawACL
+                              `plural`     FuCCAL ]
 
  |> "^s _d l" <| [
 
@@ -488,7 +488,7 @@ cluster_8   = listing "Lexicon's properties"
                               `plural`     FuCLAn,
 
     FACL |< aT                `noun`    {- \$Ab~ap -}          [ unwords [ "young", "woman" ], unwords [ "young", "women" ] ]
-                           {- `others`  [ "^sawAbb Ndip" ] -} ]
+                              `plural`     FawACL ]
 
 
 cluster_9   = listing "Lexicon's properties"

@@ -2248,7 +2248,9 @@ $Lexicon = {
         'DlAl    Dul~Al  N       erroneous;misguided'
       ],
       'patterns' => {
-        '.dawAll' => [],
+        '.dawAll' => [
+          'FawACL'
+        ],
         '.dullAl' => [
           'FuCCAL'
         ]

@@ -842,7 +842,7 @@ cluster_15  = listing "Lexicon's properties"
     MaFaCL                    `noun`    {- madab~ -}           [ "source" ],
 
     FACL |< aT                `noun`    {- dAb~ap -}           [ unwords [ "riding", "animal" ] ]
-                           {- `others`  [ "dawAbb Ndip" ] -},
+                              `plural`     FawACL,
 
     MuFaCCaL                  `adj`     {- mudab~ab -}         [ "pointed", "tapered" ] ]
 

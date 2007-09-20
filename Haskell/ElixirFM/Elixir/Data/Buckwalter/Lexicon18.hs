@@ -3675,7 +3675,8 @@ cluster_72  = listing "Lexicon's properties"
     FACL                      `adj`     {- EAm~ -}             [ "general", "common", "public" ],
 
     FACL |< aT                `adv`     {- EAm~ap -}           [ unwords [ "general", "public" ], "populace", unwords [ "in", "general" ], "generally" ]
-                           {- `others`  [ "`awAmm Ndip", "`AmmaTaN FW-Wa" ] -},
+                              `plural`     FawACL
+                           {- `others`  [ "`AmmaTaN FW-Wa" ] -},
 
     FACL |< Iy                `adj`     {- EAm~iy~ -}          [ "popular" ],
 

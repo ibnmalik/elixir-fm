@@ -3840,7 +3840,9 @@ $Lexicon = {
         'mwAd    mawAd~  Ndip    substances;materials'
       ],
       'patterns' => {
-        'mawAdd' => []
+        'mawAdd' => [
+          'FawACL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -3869,7 +3871,9 @@ $Lexicon = {
         'mwAd    mawAd~  Ndip    subjects;topics'
       ],
       'patterns' => {
-        'mawAdd' => []
+        'mawAdd' => [
+          'FawACL'
+        ]
       },
       'index' => '2',
       'entity' => 'noun',
@@ -3898,7 +3902,9 @@ $Lexicon = {
         'mwAd    mawAd~  Ndip    articles;paragraphs'
       ],
       'patterns' => {
-        'mawAdd' => []
+        'mawAdd' => [
+          'FawACL'
+        ]
       },
       'index' => '3',
       'entity' => 'noun',

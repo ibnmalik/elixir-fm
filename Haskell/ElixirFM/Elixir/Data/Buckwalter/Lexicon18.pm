@@ -4139,7 +4139,9 @@ $Lexicon = {
         'EwAm    EawAm~  Ndip    general public;populace'
       ],
       'patterns' => {
-        '`awAmm' => [],
+        '`awAmm' => [
+          'FawACL'
+        ],
         '`AmmaTaN' => []
       },
       'index' => '1',

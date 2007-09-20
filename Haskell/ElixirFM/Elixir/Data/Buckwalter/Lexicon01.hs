@@ -1830,7 +1830,10 @@ cluster_36  = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- Iikos -}            [ "X" ],
 
-    FaCIL                     `noun`    {- Oakiys -}           [ "Akis" ] ]
+    FaCIL                     `noun`    {- Oakiys -}           [ "Akis" ],
+
+    FawACL                    `noun`    {- OawAks -}           [ unwords [ "AWACS", "(", "Airborne", "Warning", "and", "Control", "System", ")" ] ]
+                           {- `others`  [ "'aywAks N0" ] -} ]
 
  |> "' k s ^g" <| [
 
@@ -6388,10 +6391,6 @@ cluster_107 = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Oatolitiykuw -}     [ "" {- "Atletico" -} ] ]
 
- |> "'awAks" <| [
-
-    Identity                  `noun`    {- OawAks -}           [ unwords [ "" {- "AWACS" -}, "(", "" {- "Airborne" -}, "" {- "Warning" -}, "and", "" {- "Control" -}, "" {- "System" -}, ")" ] ] ]
-
  |> "'awan.t" <| [
 
     Identity |< aT            `noun`    {- OawanoTap -}        [ "swindle", "deceit" ] ]
@@ -6404,13 +6403,13 @@ cluster_107 = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Oawodiyuw -}        [ "audio" ] ]
 
-
-cluster_108 = listing "Lexicon's properties"
-
-
  |> "'ayAks" <| [
 
     Identity                  `noun`    {- OayAks -}           [ "" {- "Ajax" -} ] ]
+
+
+cluster_108 = listing "Lexicon's properties"
+
 
  |> "'aydz" <| [
 
@@ -6484,13 +6483,13 @@ cluster_108 = listing "Lexicon's properties"
 
     Identity                  `conj`    {- Ii*A -}             [ unwords [ "if", "/", "whether" ] ] ]
 
-
-cluster_109 = listing "Lexicon's properties"
-
-
  |> "'i_tnU^grAfiyA" <| [
 
     Identity                  `noun`    {- IivonuwjrAfiyA -}   [ "ethnography" ] ]
+
+
+cluster_109 = listing "Lexicon's properties"
+
 
  |> "'i_tnUlU^g" <| [
 
@@ -6564,13 +6563,13 @@ cluster_109 = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Iikiyuws -}         [ "" {- "Ekeus" -} ] ]
 
-
-cluster_110 = listing "Lexicon's properties"
-
-
  |> "'iklInIk" <| [
 
     Identity |< Iy            `adj`     {- Iikoliyniykiy~ -}   [ "clinical" ] ]
+
+
+cluster_110 = listing "Lexicon's properties"
+
 
  |> "'iklIrik" <| [
 
@@ -6640,13 +6639,13 @@ cluster_110 = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- IiliyA*ap -}        [ "" {- "Iliad" -} ] ]
 
-
-cluster_111 = listing "Lexicon's properties"
-
-
  |> "'iliyAn" <| [
 
     Identity                  `noun`    {- IiliyAn -}          [ "" {- "Elian" -} ] ]
+
+
+cluster_111 = listing "Lexicon's properties"
+
 
  |> "'illA" <| [
 
@@ -6710,13 +6709,13 @@ cluster_111 = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- Iinoduwniysiy~ -}   [ "" {- "Indonesian" -} ] ]
 
-
-cluster_112 = listing "Lexicon's properties"
-
-
  |> "'indUnIsiyA" <| [
 
     Identity                  `noun`    {- IinoduwniysiyA -}   [ "" {- "Indonesia" -} ] ]
+
+
+cluster_112 = listing "Lexicon's properties"
+
 
  |> "'indastrIz" <| [
 
@@ -6786,15 +6785,15 @@ cluster_112 = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Iinotirobuwl -}     [ "" {- "Interpol" -} ] ]
 
-
-cluster_113 = listing "Lexicon's properties"
-
-
  |> "'intirnit" <| [
 
     Identity                  `noun`    {- Iinotironit -}      [ "" {- "Internet" -} ],
 
     Identity |< Iy            `adj`     {- Iinotironitiy~ -}   [ "" {- "Internet" -} ] ]
+
+
+cluster_113 = listing "Lexicon's properties"
+
 
  |> "'iqUn" <| [
 
@@ -6866,10 +6865,6 @@ cluster_113 = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- IisobArTap -}       [ "" {- "Sparta" -} ] ]
 
-
-cluster_114 = listing "Lexicon's properties"
-
-
  |> "'isbidA^g" <| [
 
     Identity                  `noun`    {- IisobidAj -}        [ unwords [ "white", "lead" ], "ceruse" ] ]
@@ -6877,6 +6872,10 @@ cluster_114 = listing "Lexicon's properties"
  |> "'isbirAntU" <| [
 
     Identity                  `noun`    {- IisobirAnotuw -}    [ "" {- "Esperanto" -} ] ]
+
+
+cluster_114 = listing "Lexicon's properties"
+
 
  |> "'isbirtU" <| [
 
@@ -6942,10 +6941,6 @@ cluster_114 = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Iisokit$ -}         [ "sketch" ] ]
 
-
-cluster_115 = listing "Lexicon's properties"
-
-
  |> "'iskutland" <| [
 
     Identity |< Iy            `adj`     {- Iisokutolanodiy~ -} [ "" {- "Scottish" -} ] ]
@@ -6953,6 +6948,10 @@ cluster_115 = listing "Lexicon's properties"
  |> "'iskutlandA" <| [
 
     Identity                  `noun`    {- IisokutolanodA -}   [ "" {- "Scotland" -} ] ]
+
+
+cluster_115 = listing "Lexicon's properties"
+
 
  |> "'iskutlandyArd" <| [
 
@@ -7014,10 +7013,6 @@ cluster_115 = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Iistiyliy -}        [ "" {- "Estili" -}, "" {- "Esteeli" -} ] ]
 
-
-cluster_116 = listing "Lexicon's properties"
-
-
  |> "'istUdiyU" <| [
 
     Identity                  `noun`    {- Iisotuwdiyuw -}     [ "studio" ] ]
@@ -7025,6 +7020,10 @@ cluster_116 = listing "Lexicon's properties"
  |> "'istUkhUlm" <| [
 
     Identity                  `noun`    {- Iisotuwkohuwlm -}   [ "" {- "Stockholm" -} ] ]
+
+
+cluster_116 = listing "Lexicon's properties"
+
 
  |> "'istUniyA" <| [
 
@@ -7092,10 +7091,6 @@ cluster_116 = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OuxoTubuwT -}       [ "octopus" ] ]
 
-
-cluster_117 = listing "Lexicon's properties"
-
-
  |> "'ubull" <| [
 
     Identity |< aT            `noun`    {- Oubul~ap -}         [ "tribe", "companions" ] ]
@@ -7103,6 +7098,10 @@ cluster_117 = listing "Lexicon's properties"
  |> "'ukAziyUn" <| [
 
     Identity                  `noun`    {- OukAziyuwn -}       [ unwords [ "clearing", "sale" ] ] ]
+
+
+cluster_117 = listing "Lexicon's properties"
+
 
  |> "'uksfUrd" <| [
 
@@ -7168,15 +7167,15 @@ cluster_117 = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- Ourodun~iy~ -}      [ "" {- "Jordanian" -} ] ]
 
-
-cluster_118 = listing "Lexicon's properties"
-
-
  |> "'us.tuwAn" <| [
 
     Identity |< aT            `noun`    {- OusoTuwAnap -}      [ "cylinder", "disk", "columns" ],
 
     Identity |< Iy            `adj`     {- OusoTuwAniy~ -}     [ "cylindrical", unwords [ "disk", "-", "like" ] ] ]
+
+
+cluster_118 = listing "Lexicon's properties"
+
 
  |> "'ustriyA" <| [
 
@@ -7244,10 +7243,6 @@ cluster_118 = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- Aisotiy~ -}         [ "anal" ] ]
 
-
-cluster_119 = listing "Lexicon's properties"
-
-
  |> "iyt^sIbIryA" <| [
 
     Identity                  `noun`    {- Aiyt$iybiyryA -}    [ "" {- "Echeverria" -} ] ]
@@ -7255,6 +7250,10 @@ cluster_119 = listing "Lexicon's properties"
  |> "ka'ann" <| [
 
     Identity |<< "a"          `conj`    {- kaOan~a -}          [ unwords [ "as", "if" ] ] ]
+
+
+cluster_119 = listing "Lexicon's properties"
+
 
  |> "ka'annamA" <| [
 
@@ -7324,10 +7323,6 @@ cluster_119 = listing "Lexicon's properties"
 
     Identity                  `noun`    {- AuwngtrAkuwl -}     [ "" {- "Ongtrakul" -} ] ]
 
-
-cluster_120 = listing "Lexicon's properties"
-
-
  |> "uwndU" <| [
 
     Identity                  `noun`    {- Auwnoduw -}         [ "" {- "Ondo" -} ] ]
@@ -7335,6 +7330,10 @@ cluster_120 = listing "Lexicon's properties"
  |> "uwst" <| [
 
     al >| Identity            `noun`    {- Aluwst -}           [ "" {- "Aalst" -} ] ]
+
+
+cluster_120 = listing "Lexicon's properties"
+
 
  |> "wa'in" <| [
 

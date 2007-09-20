@@ -12,6 +12,56 @@ lexicon = include section
 cluster_41  = listing "Lexicon's properties"
 
 
+ |> "^s h r" <| [
+
+    FaCaL                     `verb`    {- \$ahar-a -}         [ "declare", unwords [ "make", "public" ] ]
+                              `imperf`     FCaL,
+
+    FaCCaL                    `verb`    {- \$ah~ar -}          [ unwords [ "make", "public" ] ],
+
+    FACaL                     `verb`    {- \$Ahar -}           [ unwords [ "contract", "monthly" ] ],
+
+    HaFCaL                    `verb`    {- Oa$ohar -}          [ unwords [ "make", "public" ], "declare", unwords [ "be", "made", "public" ] ],
+
+    IFtaCaL                   `verb`    {- Ai$otahar -}        [ unwords [ "become", "famous" ] ],
+
+    FaCL                      `noun`    {- \$ahor -}           [ "month" ]
+                              `plural`     HaFCuL
+                              `plural`     FuCUL,
+
+    FaCL |< Iy                `adj`     {- \$ahoriy~ -}        [ "monthly" ],
+
+    FaCLAn |< Iy              `adj`     {- \$ahorAniy~ -}      [ "Shahrani" ],
+
+    MuFACaL |< aT             `adv`     {- mu$Aharap -}        [ unwords [ "monthly", "salary" ], unwords [ "monthly", "payment" ], "monthly" ]
+                           {- `others`  [ "mu^sAharaTaN FW-Wa" ] -},
+
+    FuCL |< aT                `noun`    {- \$uhorap -}         [ "reputation", "fame" ],
+
+    FaCIL                     `adj`     {- \$ahiyr -}          [ "famous", unwords [ "well", "-", "known" ] ],
+
+    FaCIL                     `noun`    {- \$ahiyr -}          [ "Shaheer" ],
+
+    HaFCaL                    `adj`     {- Oa$ohar -}          [ unwords [ "more", "/", "most", "famous" ], unwords [ "more", "/", "most", "well", "-", "known" ] ],
+
+    MaFCUL                    `adj`     {- ma$ohuwr -}         [ "famous", unwords [ "well", "-", "known" ], "celebrities", "luminaries" ]
+                              `plural`     MaFACIL,
+
+    TaFCIL                    `noun`    {- ta$ohiyr -}         [ unwords [ "public", "exposure" ], "defamation" ]
+                              `plural`     TaFCIL |< At,
+
+    HiFCAL                    `noun`    {- Ii$ohAr -}          [ "declaration", "proclamation" ]
+                              `plural`     HiFCAL |< At,
+
+    IFtiCAL                   `noun`    {- Ai$otihAr -}        [ "fame", "renown" ]
+                              `plural`     IFtiCAL |< At,
+
+    MuFaCCaL                  `adj`     {- mu$ah~ar -}         [ "famous", "notorious" ] ]
+
+
+cluster_42  = listing "Lexicon's properties"
+
+
  |> "^s h w" <| [
 
     FaCL |< aT                `noun`    {- \$ahowap -}         [ "desire", "craving" ]
@@ -76,7 +126,7 @@ cluster_41  = listing "Lexicon's properties"
                               `plural`     FawACIL ]
 
 
-cluster_42  = listing "Lexicon's properties"
+cluster_43  = listing "Lexicon's properties"
 
 
  |> "^s k b" <| [
@@ -128,7 +178,7 @@ cluster_42  = listing "Lexicon's properties"
                               `plural`     FaCLA' |< Un ]
 
 
-cluster_43  = listing "Lexicon's properties"
+cluster_44  = listing "Lexicon's properties"
 
 
  |> "^s k l" <| [
@@ -207,7 +257,7 @@ cluster_43  = listing "Lexicon's properties"
                            {- `others`  [ "^suwkuwlAtiyy Nall", "^sukuwlA.tiyy Nall", "^siykuwlAtiyy Nall", "^sukulA.tiyy Nall" ] -} ]
 
 
-cluster_44  = listing "Lexicon's properties"
+cluster_45  = listing "Lexicon's properties"
 
 
  |> "^s k m" <| [
@@ -261,7 +311,7 @@ cluster_44  = listing "Lexicon's properties"
                               `plural`     FaCA'iL ]
 
 
-cluster_45  = listing "Lexicon's properties"
+cluster_46  = listing "Lexicon's properties"
 
 
  |> "^s k s" <| [
@@ -286,7 +336,7 @@ cluster_45  = listing "Lexicon's properties"
     MuFACiL                   `adj`     {- mu$Akis -}          [ "quarrelsome" ] ]
 
 
-cluster_46  = listing "Lexicon's properties"
+cluster_47  = listing "Lexicon's properties"
 
 
  |> "^s k w" <| [
@@ -339,7 +389,7 @@ cluster_46  = listing "Lexicon's properties"
                               `plural`     MiFCaL |< At ]
 
 
-cluster_47  = listing "Lexicon's properties"
+cluster_48  = listing "Lexicon's properties"
 
 
  |> "^s k y" <| [
@@ -403,7 +453,7 @@ cluster_47  = listing "Lexicon's properties"
     KaRDUS                    `noun`    {- \$alohuwb -}        [ "Shalhoub" ] ]
 
 
-cluster_48  = listing "Lexicon's properties"
+cluster_49  = listing "Lexicon's properties"
 
 
  |> "^s l l" <| [
@@ -462,7 +512,7 @@ cluster_48  = listing "Lexicon's properties"
                               `plural`     HaFCA' ]
 
 
-cluster_49  = listing "Lexicon's properties"
+cluster_50  = listing "Lexicon's properties"
 
 
  |> "^s m ' z" <| [
@@ -522,7 +572,7 @@ cluster_49  = listing "Lexicon's properties"
     MuKRaDiSS                 `adj`     {- mu$omaxir~ -}       [ "lofty", "towering" ] ]
 
 
-cluster_50  = listing "Lexicon's properties"
+cluster_51  = listing "Lexicon's properties"
 
 
  |> "^s m `" <| [
@@ -554,7 +604,7 @@ cluster_50  = listing "Lexicon's properties"
     KaRDUS                    `noun`    {- \$amoEuwn -}        [ "Shamoun" ] ]
 
 
-cluster_51  = listing "Lexicon's properties"
+cluster_52  = listing "Lexicon's properties"
 
 
  |> "^s m l" <| [
@@ -607,7 +657,7 @@ cluster_51  = listing "Lexicon's properties"
                               `plural`     KaRADIS ]
 
 
-cluster_52  = listing "Lexicon's properties"
+cluster_53  = listing "Lexicon's properties"
 
 
  |> "^s m m" <| [
@@ -642,7 +692,7 @@ cluster_52  = listing "Lexicon's properties"
     FaCAL |< Iy |< aT         `noun`    {- \$amAniy~ap -}      [ "shamanism" ] ]
 
 
-cluster_53  = listing "Lexicon's properties"
+cluster_54  = listing "Lexicon's properties"
 
 
  |> "^s m r" <| [
@@ -673,7 +723,7 @@ cluster_53  = listing "Lexicon's properties"
     KiRDAS                    `noun`    {- \$imorAx -}         [ "stalk", "panicle" ] ]
 
 
-cluster_54  = listing "Lexicon's properties"
+cluster_55  = listing "Lexicon's properties"
 
 
  |> "^s m s" <| [
@@ -717,7 +767,7 @@ cluster_54  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- \$am~As -}          [ "Shammas" ] ]
 
 
-cluster_55  = listing "Lexicon's properties"
+cluster_56  = listing "Lexicon's properties"
 
 
  |> "^s m t" <| [
@@ -783,7 +833,7 @@ cluster_55  = listing "Lexicon's properties"
     TaFaCCuL |< Iy            `adj`     {- ta$an~ujiy~ -}      [ "spasmodic", "spastic" ] ]
 
 
-cluster_56  = listing "Lexicon's properties"
+cluster_57  = listing "Lexicon's properties"
 
 
  |> "^s n ^s n" <| [
@@ -846,7 +896,7 @@ cluster_56  = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- \$anohaqap -}       [ "braying" ] ]
 
 
-cluster_57  = listing "Lexicon's properties"
+cluster_58  = listing "Lexicon's properties"
 
 
  |> "^s n k l" <| [
@@ -913,7 +963,7 @@ cluster_57  = listing "Lexicon's properties"
                               `plural`     HiFCAL |< At ]
 
 
-cluster_58  = listing "Lexicon's properties"
+cluster_59  = listing "Lexicon's properties"
 
 
  |> "^s q ^s q" <| [
@@ -952,7 +1002,7 @@ cluster_58  = listing "Lexicon's properties"
     KaRDUS                    `noun`    {- \$aqoluwb -}        [ unwords [ "inside", "-", "out" ] ] ]
 
 
-cluster_59  = listing "Lexicon's properties"
+cluster_60  = listing "Lexicon's properties"
 
 
  |> "^s q q" <| [
@@ -1025,66 +1075,6 @@ cluster_59  = listing "Lexicon's properties"
 
     FaL |< aN                 `noun`    {- \$aqAF -}           [ "hardship", "distress", "suffering", "misery" ]
                               `plural`     FaCA ]
-
-
-cluster_60  = listing "Lexicon's properties"
-
-
- |> "^s q r" <| [
-
-    FaCiL                     `verb`    {- \$aqir-a -}         [ unwords [ "be", "of", "fair", "complexion" ], unwords [ "be", "blond" ] ]
-                              `imperf`     FCaL,
-
-    IFCaLL                    `verb`    {- Ai$oqar~ -}         [ unwords [ "be", "of", "fair", "complexion" ], unwords [ "be", "blond" ] ],
-
-    FaCaL                     `noun`    {- \$aqar -}           [ "blond", unwords [ "fair", "-", "skinned" ] ],
-
-    FuCL |< aT                `noun`    {- \$uqorap -}         [ "blond", unwords [ "fair", "-", "skinned" ] ],
-
-    HaFCaL                    `noun`    {- Oa$oqar -}          [ "blond", unwords [ "fair", "-", "skinned" ] ]
-                              `plural`     FaCLA'
-                              `plural`     FuCuL,
-
-    FuCayL                    `noun`    {- \$uqayor -}         [ "Shuqair" ],
-
-    FuCayL |< Iy              `adj`     {- \$uqayoriy~ -}      [ "Shuqairi" ] ]
-
- |> "^s q r q" <| [
-
-    KaRDaS                    `verb`    {- \$aqoraq -}         [ unwords [ "be", "cheerful" ] ],
-
-    KaRDaS |< aT              `noun`    {- \$aqoraqap -}       [ "cheerfulness" ] ]
-
- |> "^s q w" <| [
-
-    FaCA                      `verb`    {- \$aqA-u -}          [ "sadden", "distress" ]
-                              `imperf`     FCU,
-
-    FaCI                      `verb`    {- \$aqiy-a -}         [ unwords [ "be", "unhappy" ], "suffer" ]
-                              `imperf`     FCY,
-
-    HaFCY                     `verb`    {- Oa$oqaY -}          [ "sadden", "distress" ],
-
-    FaCL                      `noun`    {- \$aqow -}           [ "misfortune", "distress" ],
-
-    FaC |< aN                 `noun`    {- \$aqAF -}           [ "hardship", "distress", "suffering", "misery" ]
-                              `plural`     FaCA,
-
-    FaCL |< aT                `noun`    {- \$aqowap -}         [ "misfortune", "distress" ],
-
-    FaCA'                     `noun`    {- \$aqA' -}           [ "suffering", "distress", "effort" ],
-
-    FaCAL |< aT               `noun`    {- \$aqAwap -}         [ "misfortune", "distress" ],
-
-    HaFCY                     `adj`     {- Oa$oqaY -}          [ unwords [ "more", "/", "most", "wretched" ], unwords [ "most", "wretched" ] ] ]
-
- |> "^s q y" <| [
-
-    FaCI                      `verb`    {- \$aqiy-a -}         [ unwords [ "be", "unhappy" ], "suffer" ]
-                              `imperf`     FCY,
-
-    FaCIL                     `adj`     {- \$aqiy~ -}          [ "miserable", "wretch", "damned" ]
-                              `plural`     HaFCiLA' ]
 
 
 section = [ cluster_41,

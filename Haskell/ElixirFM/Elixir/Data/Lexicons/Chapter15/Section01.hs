@@ -285,8 +285,8 @@ cluster_5   = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     FACL                      `noun`    {- DAl~ -}             [ "erroneous", "misguided" ]
-                              `plural`     FuCCAL
-                           {- `others`  [ ".dawAll Ndip" ] -},
+                              `plural`     FawACL
+                              `plural`     FuCCAL,
 
     FACL |< aT                `noun`    {- DAl~ap -}           [ "ambition", "objective" ],
 

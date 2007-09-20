@@ -752,12 +752,19 @@ cluster_14  = listing "Lexicon's properties"
                               `plural`     FuCUL,
 
     FACL                      `noun`    {- \$A*~ -}            [ "deviant" ]
-                              `plural`     FuCCAL
-                           {- `others`  [ "^sawA_d_d Ndip" ] -},
+                              `plural`     FawACL
+                              `plural`     FuCCAL,
+
+    FawACL |< At              `noun`    {- \$awA*~At -}        [ "peculiarities", "idiosyncrasies" ]
+                              `plural`     FawACL |< At,
 
     FaL |< aN                 `noun`    {- \$a*AF -}           [ "perfume", "aroma", "fragrance", "bouquet" ]
                               `plural`     FaCY
                               `plural`     FaCA ]
+
+
+cluster_15  = listing "Lexicon's properties"
+
 
  |> "^s _d b" <| [
 
@@ -766,10 +773,6 @@ cluster_14  = listing "Lexicon's properties"
                               `imperf`     FCiL,
 
     FaCCaL                    `verb`    {- \$a*~ab -}          [ "sever", "clip", "adapt" ] ]
-
-
-cluster_15  = listing "Lexicon's properties"
-
 
  |> "^s _d l" <| [
 
@@ -796,6 +799,10 @@ cluster_15  = listing "Lexicon's properties"
  |> "^s _d y" <| [
 
     FaCIL                     `adj`     {- \$a*iy~ -}          [ "fragrant", "aromatic" ] ]
+
+
+cluster_16  = listing "Lexicon's properties"
+
 
  |> "^s _h .s" <| [
 
@@ -833,10 +840,6 @@ cluster_15  = listing "Lexicon's properties"
     FaCaL                     `verb`    {- \$axaT-u -}         [ "shout" ]
                               `imperf`     FCuL ]
 
-
-cluster_16  = listing "Lexicon's properties"
-
-
  |> "^s _h ^s _h" <| [
 
     KaRDaS                    `verb`    {- \$axo$ax -}         [ "rattle", "rustle" ],
@@ -858,6 +861,10 @@ cluster_16  = listing "Lexicon's properties"
     MiFaCL |< aT              `noun`    {- mi$ax~ap -}         [ "latrine", "pissoir" ],
 
     MiFCaL |< aT              `noun`    {- mi$oxaxap -}        [ "latrine", "pissoir" ] ]
+
+
+cluster_17  = listing "Lexicon's properties"
+
 
  |> "^s _h b" <| [
 
@@ -908,7 +915,7 @@ cluster_16  = listing "Lexicon's properties"
     KaRDAS                    `noun`    {- \$aEo$AE -}         [ "darkness" ] ]
 
 
-cluster_17  = listing "Lexicon's properties"
+cluster_18  = listing "Lexicon's properties"
 
 
  |> "^s ` _t" <| [
@@ -932,7 +939,7 @@ cluster_17  = listing "Lexicon's properties"
     MuFaCCaL                  `adj`     {- mu$aE~av -}         [ "unkempt" ] ]
 
 
-cluster_18  = listing "Lexicon's properties"
+cluster_19  = listing "Lexicon's properties"
 
 
  |> "^s ` `" <| [
@@ -970,7 +977,7 @@ cluster_18  = listing "Lexicon's properties"
     MustaFiCL                 `adj`     {- musota$iE~ -}       [ "fluorescent" ] ]
 
 
-cluster_19  = listing "Lexicon's properties"
+cluster_20  = listing "Lexicon's properties"
 
 
  |> "^s ` b" <| [
@@ -1028,64 +1035,6 @@ cluster_19  = listing "Lexicon's properties"
     MutaFaCCiL                `adj`     {- muta$aE~ib -}       [ "ramified", "versatile" ],
 
     MunFaCiL                  `adj`     {- muno$aEib -}        [ "branching" ] ]
-
-
-cluster_20  = listing "Lexicon's properties"
-
-
- |> "^s ` b _d" <| [
-
-    KaRDaS                    `verb`    {- \$aEoba* -}         [ "juggle", unwords [ "use", "sleight", "of", "hand" ] ],
-
-    KaRDaS |< aT              `noun`    {- \$aEoba*ap -}       [ unwords [ "sleight", "of", "hand" ], "jugglery" ],
-
-    MuKaRDiS                  `noun`    {- mu$aEobi* -}        [ "trickster", "quack" ] ]
-
- |> "^s ` f" <| [
-
-    FaCL |< aT                `noun`    {- \$aEofap -}         [ "summit" ]
-                              `plural`     FiCAL ]
-
- |> "^s ` f r" <| [
-
-    KaRDAS                    `noun`    {- \$aEofAr -}         [ "Shafar" ] ]
-
- |> "^s ` l" <| [
-
-    FaCCaL                    `verb`    {- \$aE~al -}          [ "ignite", "inflame" ],
-
-    HaFCaL                    `verb`    {- Oa$oEal -}          [ "ignite", "inflame" ],
-
-    HuFCiL                    `verb`    {- Ou$oEil -}          [ unwords [ "be", "ignited" ], unwords [ "be", "set", "afire" ] ],
-
-    IFtaCaL                   `verb`    {- Ai$otaEal -}        [ unwords [ "flare", "up" ], unwords [ "catch", "fire" ] ],
-
-    FuCL |< aT                `noun`    {- \$uEolap -}         [ "fire", "flame", "torches" ]
-                              `plural`     FuCaL,
-
-    FaCAL |< Iy               `adj`     {- \$aEAliy~ -}        [ "Shaali" ],
-
-    FaCIL |< aT               `noun`    {- \$aEiylap -}        [ "primer", "wick" ]
-                              `plural`     FaCA'iL,
-
-    MaFCaL                    `noun`    {- ma$oEal -}          [ "Mash'al" ],
-
-    MaFCaL                    `noun`    {- ma$oEal -}          [ "torch" ]
-                              `plural`     MaFACiL,
-
-    MiFCAL                    `noun`    {- mi$oEAl -}          [ "torch" ],
-
-    MiFCaL                    `noun`    {- mi$oEal -}          [ "Mish'al" ],
-
-    HiFCAL                    `noun`    {- Ii$oEAl -}          [ "igniting", "lighting" ]
-                              `plural`     HiFCAL |< At,
-
-    IFtiCAL                   `noun`    {- Ai$otiEAl -}        [ "burning", "ignition" ]
-                              `plural`     IFtiCAL |< At,
-
-    IFtiCAL |< Iy             `adj`     {- Ai$otiEAliy~ -}     [ "combustible", "flammable" ],
-
-    MuFtaCiL                  `adj`     {- mu$otaEil -}        [ "burning", "ablaze" ] ]
 
 
 section = [ cluster_1,

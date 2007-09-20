@@ -2145,7 +2145,9 @@ $Lexicon = {
         '.ha^giy^g' => [
           'FaCIL'
         ],
-        '.hawA^g^g' => [],
+        '.hawA^g^g' => [
+          'FawACL'
+        ],
         '.hu^gA^g' => [
           'FuCAL'
         ]
@@ -24516,7 +24518,9 @@ $Lexicon = {
         'HwAf    HawAf~  Ndip    edges;shores'
       ],
       'patterns' => {
-        '.hawAff' => []
+        '.hawAff' => [
+          'FawACL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -31591,7 +31595,9 @@ $Lexicon = {
         'HwAs    HawAs~  Ndip    senses'
       ],
       'patterns' => {
-        '.hawAss' => []
+        '.hawAss' => [
+          'FawACL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

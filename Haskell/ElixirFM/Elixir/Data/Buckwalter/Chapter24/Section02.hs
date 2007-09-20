@@ -518,13 +518,13 @@ cluster_28  = listing "Lexicon's properties"
     FACL                      `adj`     {- mAd~ -}             [ "stretching", "creeping" ],
 
     FACL |< aT                `noun`    {- mAd~ap -}           [ "substance", "material" ]
-                           {- `others`  [ "mawAdd Ndip" ] -},
+                              `plural`     FawACL,
 
     FACL |< aT                `noun`    {- mAd~ap -}           [ "subject", "topic" ]
-                           {- `others`  [ "mawAdd Ndip" ] -},
+                              `plural`     FawACL,
 
     FACL |< aT                `noun`    {- mAd~ap -}           [ "article", "paragraph" ]
-                           {- `others`  [ "mawAdd Ndip" ] -},
+                              `plural`     FawACL,
 
     FACL |< Iy                `adj`     {- mAd~iy~ -}          [ "material", "physical" ],
 

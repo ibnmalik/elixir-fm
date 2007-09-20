@@ -798,7 +798,10 @@ cluster_36  = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- Iikos -}            [ "X" ],
 
-    FaCIL                     `noun`    {- Oakiys -}           [ "Akis" ] ]
+    FaCIL                     `noun`    {- Oakiys -}           [ "Akis" ],
+
+    FawACL                    `noun`    {- OawAks -}           [ unwords [ "AWACS", "(", "Airborne", "Warning", "and", "Control", "System", ")" ] ]
+                           {- `others`  [ "'aywAks N0" ] -} ]
 
  |> "' k s ^g" <| [
 

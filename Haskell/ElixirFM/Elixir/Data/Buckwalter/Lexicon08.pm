@@ -33604,7 +33604,9 @@ $Lexicon = {
         'dwAb    dawAb~  Ndip    riding animals'
       ],
       'patterns' => {
-        'dawAbb' => []
+        'dawAbb' => [
+          'FawACL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
