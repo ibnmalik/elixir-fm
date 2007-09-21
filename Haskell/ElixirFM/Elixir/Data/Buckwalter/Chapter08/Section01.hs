@@ -1008,8 +1008,7 @@ cluster_19  = listing "Lexicon's properties"
     FaCAL |< aT               `noun`    {- dafA'ap -}          [ "warmth", "heat" ],
 
     MiFCaL                    `noun`    {- midofaO -}          [ "stove", "heater" ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "midfa'A N-|" ] -},
+                              `plural`     MaFACiL,
 
     TaFCiL |< aT              `noun`    {- tadofi}ap -}        [ "heating" ],
 

@@ -62119,9 +62119,6 @@ $Lexicon = {
       'types' => {
         'mu`abba\'' => {
           'NAt' => 1
-        },
-        'mu`abba\'A' => {
-          'N-|' => 1
         }
       },
       'entry' => 'mu`abba\'',
@@ -62136,7 +62133,6 @@ $Lexicon = {
         'mEb>    muEab~a>        Napdu   packaged;packed in sacks'
       ],
       'patterns' => {
-        'mu`abba\'A' => [],
         'mu`abba\'' => [
           'MuFaCCaL'
         ]

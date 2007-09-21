@@ -498,12 +498,10 @@ cluster_51  = listing "Lexicon's properties"
     MuFtaCiL                  `noun`    {- mut~aki} -}         [ "leaning", "resting" ],
 
     MuFtaCaL                  `noun`    {- mut~akaO -}         [ "support", "prop" ]
-                              `plural`     MuFtaCaL |< At
-                           {- `others`  [ "muttaka'A N-|" ] -},
+                              `plural`     MuFtaCaL |< At,
 
     MuFtaCaL                  `noun`    {- mut~akaO -}         [ "cushion", "couch" ]
-                              `plural`     MuFtaCaL |< At
-                           {- `others`  [ "muttaka'A N-|" ] -},
+                              `plural`     MuFtaCaL |< At,
 
     FiCAL                     `noun`    {- wikA' -}            [ "string", "thong" ]
                               `plural`     HaFCI |< aT ]

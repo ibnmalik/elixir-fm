@@ -25061,9 +25061,6 @@ $Lexicon = {
       'types' => {
         'man^sa\'' => {
           'NAt' => 1
-        },
-        'man^sa\'A' => {
-          'N-|' => 1
         }
       },
       'entry' => 'man^sa\'',
@@ -25080,8 +25077,7 @@ $Lexicon = {
       'patterns' => {
         'man^sa\'' => [
           'MaFCaL'
-        ],
-        'man^sa\'A' => []
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -38730,9 +38726,6 @@ $Lexicon = {
           'Nh' => 2,
           'Nhy' => 2,
           'N0_Nh' => 2
-        },
-        'naba\'A' => {
-          'N-|' => 1
         }
       },
       'entry' => 'naba\'',
@@ -38753,8 +38746,7 @@ $Lexicon = {
       'patterns' => {
         '\'anbA\'' => [
           'HaFCAL'
-        ],
-        'naba\'A' => []
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

@@ -13953,9 +13953,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        '.daw\'A' => {
-          'N-|' => 1
-        },
         '\'a.dwA\'' => {
           'Nh' => 2,
           'Nhy' => 2,
@@ -13981,7 +13978,6 @@ $Lexicon = {
         'ADwA}   >aDowA} Nhy     lights'
       ],
       'patterns' => {
-        '.daw\'A' => [],
         '\'a.dwA\'' => [
           'HaFCAL'
         ]

@@ -571,8 +571,7 @@ cluster_11  = listing "Lexicon's properties"
     FiCAL |< Iy               `adj`     {- bidA}iy~ -}         [ "primitive", "original" ],
 
     MaFCaL                    `noun`    {- mabodaO -}          [ "principle", "basis" ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "mabda'A N-|" ] -},
+                              `plural`     MaFACiL,
 
     MaFCaL |< Iy              `adj`     {- maboda}iy~ -}       [ "fundamental", "basic" ],
 

@@ -44305,11 +44305,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'aswa\'A' => {
-          'N-|' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'aswa\'',
       'form' => '\'aswa\'',
       'lines' => [
@@ -44321,9 +44317,7 @@ $Lexicon = {
         '>sw|    >asowa| N-|     worst',
         'Asw|    >asowa| N-|     worst'
       ],
-      'patterns' => {
-        '\'aswa\'A' => []
-      },
+      'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',

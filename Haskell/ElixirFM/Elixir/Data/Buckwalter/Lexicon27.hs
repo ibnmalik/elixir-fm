@@ -828,13 +828,11 @@ cluster_15  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- waTiy' -}           [ "low", "flat" ]
                               `plural`     FaCIL |< Un,
 
-    HaFCaL                    `noun`    {- OawoTaO -}          [ unwords [ "lower", "/", "lowest" ], "lowest" ]
-                           {- `others`  [ "'aw.ta'A N-|" ] -},
+    HaFCaL                    `noun`    {- OawoTaO -}          [ unwords [ "lower", "/", "lowest" ], "lowest" ],
 
     MaFCaL                    `noun`    {- mawoTaO -}          [ "foothold", "footing" ]
                               `plural`     MaFCiL
-                              `plural`     MaFACiL
-                           {- `others`  [ "maw.ta'A N-|" ] -},
+                              `plural`     MaFACiL,
 
     TaFCiL |< aT              `noun`    {- tawoTi}ap -}        [ unwords [ "preliminary", "step" ], unwords [ "paving", "the", "way" ], "lowering" ],
 
@@ -1904,8 +1902,7 @@ cluster_37  = listing "Lexicon's properties"
                               `imperf`     FCuL,
 
     FaCaL                     `noun`    {- wabaO -}            [ "epidemic", "disease" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "waba'A N-|" ] -},
+                              `plural`     HaFCAL,
 
     FaCAL                     `noun`    {- wabA' -}            [ "disease", "epidemic" ]
                               `plural`     HaFCiL |< aT,
@@ -2605,12 +2602,10 @@ cluster_51  = listing "Lexicon's properties"
     MuFtaCiL                  `noun`    {- mut~aki} -}         [ "leaning", "resting" ],
 
     MuFtaCaL                  `noun`    {- mut~akaO -}         [ "support", "prop" ]
-                              `plural`     MuFtaCaL |< At
-                           {- `others`  [ "muttaka'A N-|" ] -},
+                              `plural`     MuFtaCaL |< At,
 
     MuFtaCaL                  `noun`    {- mut~akaO -}         [ "cushion", "couch" ]
-                              `plural`     MuFtaCaL |< At
-                           {- `others`  [ "muttaka'A N-|" ] -},
+                              `plural`     MuFtaCaL |< At,
 
     FiCAL                     `noun`    {- wikA' -}            [ "string", "thong" ]
                               `plural`     HaFCI |< aT ]

@@ -1008,8 +1008,7 @@ cluster_19  = listing "Lexicon's properties"
     FaCAL |< aT               `noun`    {- dafA'ap -}          [ "warmth", "heat" ],
 
     MiFCaL                    `noun`    {- midofaO -}          [ "stove", "heater" ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "midfa'A N-|" ] -},
+                              `plural`     MaFACiL,
 
     TaFCiL |< aT              `noun`    {- tadofi}ap -}        [ "heating" ],
 
@@ -2011,8 +2010,7 @@ cluster_38  = listing "Lexicon's properties"
                               `plural`     FaCIL |< Un
                               `plural`     HaFCAL,
 
-    HaFCaL                    `noun`    {- OadonaO -}          [ unwords [ "meaner", "/", "meanest" ], "inferior", "meanest" ]
-                           {- `others`  [ "'adna'A N-|" ] -},
+    HaFCaL                    `noun`    {- OadonaO -}          [ unwords [ "meaner", "/", "meanest" ], "inferior", "meanest" ],
 
     FaCAL |< aT               `noun`    {- danA'ap -}          [ "baseness", "meanness", "inferiority" ] ]
 

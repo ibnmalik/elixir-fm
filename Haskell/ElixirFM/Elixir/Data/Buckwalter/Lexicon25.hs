@@ -1869,8 +1869,7 @@ cluster_37  = listing "Lexicon's properties"
     FuCUL |< Iy               `adj`     {- nu$uw}iy~ -}        [ "evolutionist" ],
 
     MaFCaL                    `noun`    {- mano$aO -}          [ "source", "origin", "generation" ]
-                              `plural`     MaFCaL |< At
-                           {- `others`  [ "man^sa'A N-|" ] -},
+                              `plural`     MaFCaL |< At,
 
     TaFCIL                    `noun`    {- tano$iy' -}         [ "upbringing", "education" ]
                               `plural`     TaFCiL |< aT
@@ -2837,8 +2836,7 @@ cluster_56  = listing "Lexicon's properties"
     IstaFCaL                  `verb`    {- AisotanobaO -}      [ unwords [ "ask", "for", "information" ], "inquire" ],
 
     FaCaL                     `noun`    {- nabaO -}            [ unwords [ "news", "item" ], "report" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "naba'A N-|" ] -},
+                              `plural`     HaFCAL,
 
     FaCL |< aT                `noun`    {- naboOap -}          [ unwords [ "faint", "noise" ], unwords [ "low", "sound" ] ],
 

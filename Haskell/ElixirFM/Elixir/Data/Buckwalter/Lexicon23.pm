@@ -22897,9 +22897,6 @@ $Lexicon = {
         },
         'mal^ga\'' => {
           'NAt' => 1
-        },
-        'mal^ga\'A' => {
-          'N-|' => 1
         }
       },
       'entry' => 'mal^ga\'',
@@ -22918,7 +22915,6 @@ $Lexicon = {
         'malA^gi\'' => [
           'MaFACiL'
         ],
-        'mal^ga\'A' => [],
         'mal^ga\'' => [
           'MaFCaL'
         ]

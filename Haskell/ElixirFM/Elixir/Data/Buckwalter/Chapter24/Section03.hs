@@ -622,8 +622,7 @@ cluster_52  = listing "Lexicon's properties"
 
     IstaFCaL                  `verb`    {- AisotamoraO -}      [ "enjoy", "savor" ],
 
-    FaCL                      `noun`    {- maro' -}            [ "man", "person", "men" ]
-                           {- `others`  [ "mar'A N-|" ] -},
+    FaCL                      `noun`    {- maro' -}            [ "man", "person", "men" ],
 
     FaCL |< aT                `noun`    {- maroOap -}          [ "woman" ],
 

@@ -34973,11 +34973,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mar\'A' => {
-          'N-|' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mar\'',
       'form' => 'mar\'',
       'lines' => [
@@ -34988,9 +34984,7 @@ $Lexicon = {
         'mr}     maro}   Nhy     man;person',
         'mr|     maro|   N-|     men'
       ],
-      'patterns' => {
-        'mar\'A' => []
-      },
+      'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL',

@@ -818,8 +818,7 @@ cluster_56  = listing "Lexicon's properties"
     IstaFCaL                  `verb`    {- AisotanobaO -}      [ unwords [ "ask", "for", "information" ], "inquire" ],
 
     FaCaL                     `noun`    {- nabaO -}            [ unwords [ "news", "item" ], "report" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "naba'A N-|" ] -},
+                              `plural`     HaFCAL,
 
     FaCL |< aT                `noun`    {- naboOap -}          [ unwords [ "faint", "noise" ], unwords [ "low", "sound" ] ],
 

@@ -14273,9 +14273,6 @@ $Lexicon = {
         'muhayya\'' => {
           'NAt' => 2,
           'Nuwn_Niyn' => 2
-        },
-        'muhayya\'A' => {
-          'N-|' => 1
         }
       },
       'entry' => 'muhayya\'',
@@ -14294,8 +14291,7 @@ $Lexicon = {
       'patterns' => {
         'muhayya\'' => [
           'MuFaCCaL'
-        ],
-        'muhayya\'A' => []
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -19057,11 +19053,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'ahda\'A' => {
-          'N-|' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'ahda\'',
       'form' => '\'ahda\'',
       'lines' => [
@@ -19073,9 +19065,7 @@ $Lexicon = {
         '>hd}    >ahoda} Nayn    most quiet;calmest',
         'Ahd}    >ahoda} Nayn    most quiet;calmest'
       ],
-      'patterns' => {
-        '\'ahda\'A' => []
-      },
+      'patterns' => {},
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',

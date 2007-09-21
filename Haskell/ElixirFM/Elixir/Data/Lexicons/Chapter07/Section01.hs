@@ -189,8 +189,7 @@ cluster_4   = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- xaTaO -}            [ "mistake", "error", "fault" ]
                               `plural`     FaCAL
-                              `plural`     HaFCAL
-                           {- `others`  [ "_ha.ta'A N-|" ] -},
+                              `plural`     HaFCAL,
 
     FACiL                     `adj`     {- xATi} -}            [ "mistaken", unwords [ "at", "fault" ] ]
                               `plural`     FuCY |< aT
@@ -396,8 +395,7 @@ cluster_9   = listing "Lexicon's properties"
 
     MaFCaL                    `noun`    {- maxobaO -}          [ unwords [ "hide", "-", "out" ], "shelter" ]
                               `plural`     MaFCaL |< At
-                              `plural`     MaFACiL
-                           {- `others`  [ "ma_hba'A N-|" ] -},
+                              `plural`     MaFACiL,
 
     MuFtaCiL                  `noun`    {- muxotabi} -}        [ "hidden", "concealed" ] ]
 

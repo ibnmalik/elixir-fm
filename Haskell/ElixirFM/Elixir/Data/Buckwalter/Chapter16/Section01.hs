@@ -38,8 +38,7 @@ cluster_1   = listing "Lexicon's properties"
     MuKaRDiS                  `adj`     {- muTaOoTi} -}        [ unwords [ "with", "bowed", "head" ] ],
 
     MuKaRDaS                  `adj`     {- muTaOoTaO -}        [ "bowed", "inclined" ]
-                              `plural`     MuKaRDaS |< Un
-                           {- `others`  [ "mu.ta'.ta'A N-|" ] -} ]
+                              `plural`     MuKaRDaS |< Un ]
 
  |> ".t ' ^s" <| [
 
@@ -664,8 +663,7 @@ cluster_13  = listing "Lexicon's properties"
     MuFCiL                    `noun`    {- muTofi} -}          [ unwords [ "fire", "extinguisher" ] ],
 
     MuFCaL                    `adj`     {- muTofaO -}          [ "extinguished" ]
-                              `plural`     MuFCaL |< At
-                           {- `others`  [ "mu.tfa'A N-|" ] -},
+                              `plural`     MuFCaL |< At,
 
     MunFaCiL                  `adj`     {- munoTafi} -}        [ "extinguished" ] ]
 

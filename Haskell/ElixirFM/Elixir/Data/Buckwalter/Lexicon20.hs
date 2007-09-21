@@ -2715,8 +2715,7 @@ cluster_54  = listing "Lexicon's properties"
  |> "f r '" <| [
 
     FaCaL                     `noun`    {- faraO -}            [ "onager", unwords [ "wild", "ass" ] ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "fara'A N-|" ] -},
+                              `plural`     HaFCAL,
 
     FaCAL                     `noun`    {- farA' -}            [ "onager", unwords [ "wild", "ass" ] ],
 

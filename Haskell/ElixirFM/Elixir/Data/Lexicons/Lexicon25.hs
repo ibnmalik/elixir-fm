@@ -627,8 +627,7 @@ cluster_11  = listing "Lexicon's properties"
     FuCUL                     `noun`    {- nu$uw' -}           [ "growth", "development", "evolution" ],
 
     MaFCaL                    `noun`    {- mano$aO -}          [ "source", "origin", "generation" ]
-                              `plural`     MaFCaL |< At
-                           {- `others`  [ "man^sa'A N-|" ] -},
+                              `plural`     MaFCaL |< At,
 
     HiFCAL                    `noun`    {- Iino$A' -}          [ "establishing", unwords [ "setting", "up" ], "founding" ],
 
@@ -913,8 +912,7 @@ cluster_17  = listing "Lexicon's properties"
     TaFaCCaL                  `verb`    {- tanab~aO -}         [ "predict", "forecast" ],
 
     FaCaL                     `noun`    {- nabaO -}            [ unwords [ "news", "item" ], "report" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "naba'A N-|" ] -},
+                              `plural`     HaFCAL,
 
     FuCUL |< aT               `noun`    {- nubuw'ap -}         [ "prophecy", "prognosis" ],
 

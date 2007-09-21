@@ -740,8 +740,7 @@ cluster_15  = listing "Lexicon's properties"
                               `plural`     FiCAL
                               `plural`     FaCIL |< Un,
 
-    HaFCaL                    `noun`    {- OaboTaO -}          [ unwords [ "slower", "/", "slowest" ] ]
-                           {- `others`  [ "'ab.ta'A N-|" ] -},
+    HaFCaL                    `noun`    {- OaboTaO -}          [ unwords [ "slower", "/", "slowest" ] ],
 
     HiFCAL                    `noun`    {- IiboTA' -}          [ "delay", unwords [ "slowing", "down" ] ]
                               `plural`     HiFCAL |< At,

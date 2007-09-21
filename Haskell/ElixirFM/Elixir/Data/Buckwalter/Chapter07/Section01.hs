@@ -451,8 +451,7 @@ cluster_10  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- xaTaO -}            [ "mistake", "error", "fault" ]
                               `plural`     FaCAL
-                              `plural`     HaFCAL
-                           {- `others`  [ "_ha.ta'A N-|" ] -},
+                              `plural`     HaFCAL,
 
     FaCIL |< aT               `noun`    {- xaTiy}ap -}         [ "mistake", "error", "fault" ]
                            {- `others`  [ "_ha.tAyY N0_Nhy" ] -},

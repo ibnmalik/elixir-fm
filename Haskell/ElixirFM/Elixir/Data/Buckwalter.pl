@@ -651,7 +651,7 @@ sub storeType {
 
     $Entry->{'tags'}->{$tags}++ unless $tags eq '';
 
-    return if $type =~ /^NK/;
+    return if $type =~ /^NK/ or $type eq 'N-|';
 
     if ($type =~ /^Nap/) {
 

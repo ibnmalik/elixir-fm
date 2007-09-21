@@ -3701,9 +3701,6 @@ $Lexicon = {
       'types' => {
         'madAfi\'' => {
           'Ndip' => 1
-        },
-        'midfa\'A' => {
-          'N-|' => 1
         }
       },
       'entry' => 'midfa\'',
@@ -3721,8 +3718,7 @@ $Lexicon = {
       'patterns' => {
         'madAfi\'' => [
           'MaFACiL'
-        ],
-        'midfa\'A' => []
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -17915,11 +17911,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'adna\'A' => {
-          'N-|' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'adna\'',
       'form' => '\'adna\'',
       'lines' => [
@@ -17931,9 +17923,7 @@ $Lexicon = {
         '>dn}    >adona} Nayn    meanest;inferior',
         'Adn}    >adona} Nayn    meanest;inferior'
       ],
-      'patterns' => {
-        '\'adna\'A' => []
-      },
+      'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',

@@ -818,8 +818,7 @@ cluster_37  = listing "Lexicon's properties"
     FuCUL |< Iy               `adj`     {- nu$uw}iy~ -}        [ "evolutionist" ],
 
     MaFCaL                    `noun`    {- mano$aO -}          [ "source", "origin", "generation" ]
-                              `plural`     MaFCaL |< At
-                           {- `others`  [ "man^sa'A N-|" ] -},
+                              `plural`     MaFCaL |< At,
 
     TaFCIL                    `noun`    {- tano$iy' -}         [ "upbringing", "education" ]
                               `plural`     TaFCiL |< aT

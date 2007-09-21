@@ -829,8 +829,7 @@ cluster_37  = listing "Lexicon's properties"
                               `imperf`     FCuL,
 
     FaCaL                     `noun`    {- wabaO -}            [ "epidemic", "disease" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "waba'A N-|" ] -},
+                              `plural`     HaFCAL,
 
     FaCAL                     `noun`    {- wabA' -}            [ "disease", "epidemic" ]
                               `plural`     HaFCiL |< aT,

@@ -51384,9 +51384,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'miqra\'A' => {
-          'N-|' => 1
-        },
         'maqAri\'' => {
           'Ndip' => 1
         }
@@ -51403,7 +51400,6 @@ $Lexicon = {
         'mqAr}   maqAri} Ndip    lecterns;rostrums'
       ],
       'patterns' => {
-        'miqra\'A' => [],
         'maqAri\'' => [
           'MaFACiL'
         ]

@@ -65,8 +65,7 @@ cluster_22  = listing "Lexicon's properties"
 
     MaFCaL                    `noun`    {- maxobaO -}          [ unwords [ "hide", "-", "out" ], "shelter" ]
                               `plural`     MaFCaL |< At
-                              `plural`     MaFACiL
-                           {- `others`  [ "ma_hba'A N-|" ] -},
+                              `plural`     MaFACiL,
 
     FiCAL                     `noun`    {- xibA' -}            [ "tent", "husk", "hull" ]
                               `plural`     HaFCI |< aT

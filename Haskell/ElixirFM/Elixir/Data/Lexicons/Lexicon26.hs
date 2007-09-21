@@ -151,8 +151,7 @@ cluster_3   = listing "Lexicon's properties"
 
     FuCUL                     `noun`    {- huduw' -}           [ "calm", "quiet", "tranquillity" ],
 
-    HaFCaL                    `noun`    {- OahodaO -}          [ unwords [ "more", "/", "most", "quiet" ], unwords [ "calmer", "/", "calmest" ], unwords [ "most", "quiet" ], "calmest" ]
-                           {- `others`  [ "'ahda'A N-|" ] -},
+    HaFCaL                    `noun`    {- OahodaO -}          [ unwords [ "more", "/", "most", "quiet" ], unwords [ "calmer", "/", "calmest" ], unwords [ "most", "quiet" ], "calmest" ],
 
     TaFCiL |< aT              `noun`    {- tahodi}ap -}        [ "calming", "appeasement" ],
 

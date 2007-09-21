@@ -43226,9 +43226,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mabda\'A' => {
-          'N-|' => 1
-        },
         'mabAdi\'' => {
           'Ndip' => 1
         }
@@ -43245,7 +43242,6 @@ $Lexicon = {
         'mbAd}   mabAdi} Ndip    principles;bases'
       ],
       'patterns' => {
-        'mabda\'A' => [],
         'mabAdi\'' => [
           'MaFACiL'
         ]
@@ -43435,9 +43431,6 @@ $Lexicon = {
       'types' => {
         'mubtada\'' => {
           'NAt' => 1
-        },
-        'mubtada\'A' => {
-          'N-|' => 1
         }
       },
       'entry' => 'mubtada\'',
@@ -43452,8 +43445,7 @@ $Lexicon = {
       'patterns' => {
         'mubtada\'' => [
           'MuFtaCaL'
-        ],
-        'mubtada\'A' => []
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -53858,11 +53850,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'ab.ta\'A' => {
-          'N-|' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'ab.ta\'',
       'form' => '\'ab.ta\'',
       'lines' => [
@@ -53876,9 +53864,7 @@ $Lexicon = {
         '>bT|    >aboTa| N-|     slower/slowest',
         'AbT|    >aboTa| N-|     slower/slowest'
       ],
-      'patterns' => {
-        '\'ab.ta\'A' => []
-      },
+      'patterns' => {},
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',

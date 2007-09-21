@@ -640,8 +640,7 @@ cluster_73  = listing "Lexicon's properties"
     FuCLAn |< Iy              `adj`     {- quro|niy~ -}        [ "Quranic" ],
 
     MiFCaL                    `noun`    {- miqoraO -}          [ "lectern", "rostrum" ]
-                              `plural`     MaFACiL
-                           {- `others`  [ "miqra'A N-|" ] -},
+                              `plural`     MaFACiL,
 
     MaFCaL |< aT              `noun`    {- maqoraOap -}        [ unwords [ "reading", "head" ] ],
 

@@ -278,8 +278,7 @@ cluster_66  = listing "Lexicon's properties"
     FaCiL                     `verb`    {- xasi}-a -}          [ unwords [ "be", "driven", "away" ], unwords [ "make", "off" ] ]
                               `imperf`     FCaL,
 
-    HaFCaL                    `noun`    {- OaxosaO -}          [ unwords [ "more", "/", "most", "despicable" ], unwords [ "meaner", "/", "meanest" ], unwords [ "most", "despicable" ], "meanest" ]
-                           {- `others`  [ "'a_hsa'A N-|" ] -},
+    HaFCaL                    `noun`    {- OaxosaO -}          [ unwords [ "more", "/", "most", "despicable" ], unwords [ "meaner", "/", "meanest" ], unwords [ "most", "despicable" ], "meanest" ],
 
     FACiL                     `adj`     {- xAsi} -}            [ "rejected", "disgraceful", "feeble" ] ]
 

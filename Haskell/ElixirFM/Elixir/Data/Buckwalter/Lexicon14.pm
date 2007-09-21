@@ -26790,11 +26790,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu.sda\'A' => {
-          'N-|' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu.sda\'',
       'form' => 'mu.sda\'',
       'lines' => [
@@ -26804,9 +26800,7 @@ $Lexicon = {
         'mSd}    muSoda} Nayn    rusty;oxidized',
         'mSd>    muSoda> Napdu   rusty;oxidized'
       ],
-      'patterns' => {
-        'mu.sda\'A' => []
-      },
+      'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFCaL',
@@ -26822,9 +26816,6 @@ $Lexicon = {
       'types' => {
         '.sad\'A' => {
           'N0_Nh' => 1
-        },
-        '\'a.sda\'A' => {
-          'N-|' => 2
         }
       },
       'entry' => '\'a.sda\'',
@@ -26840,8 +26831,7 @@ $Lexicon = {
         'Sd|     Sado|   N0_Nh   rusty;oxidized'
       ],
       'patterns' => {
-        '.sad\'A' => [],
-        '\'a.sda\'A' => []
+        '.sad\'A' => []
       },
       'index' => '2',
       'entity' => 'adj',

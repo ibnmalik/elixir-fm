@@ -304,8 +304,7 @@ cluster_27  = listing "Lexicon's properties"
     IstaFAL                   `verb`    {- AisotaDA' -}        [ unwords [ "be", "lit" ], unwords [ "become", "clear" ] ],
 
     FaCL                      `noun`    {- Dawo' -}            [ "light" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ ".daw'A N-|" ] -},
+                              `plural`     HaFCAL,
 
     FaCL |< Iy                `adj`     {- Dawo}iy~ -}         [ "light", "luminous", "clear" ],
 

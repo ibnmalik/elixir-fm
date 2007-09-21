@@ -479,8 +479,7 @@ cluster_29  = listing "Lexicon's properties"
     TaFaCCaL                  `verb`    {- tajaz~aO -}         [ unwords [ "be", "divided" ], unwords [ "be", "separated" ] ],
 
     FuCL                      `noun`    {- juzo' -}            [ "section", "piece", "portion", "part", "fraction" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "^guz'A N-|" ] -},
+                              `plural`     HaFCAL,
 
     FuCL |< Iy                `adj`     {- juzo}iy~ -}         [ "partial", "petty" ],
 

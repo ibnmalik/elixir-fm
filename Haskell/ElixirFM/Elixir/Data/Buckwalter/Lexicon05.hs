@@ -4017,8 +4017,7 @@ cluster_77  = listing "Lexicon's properties"
     IFtaCaL                   `verb`    {- AijotazaO -}        [ unwords [ "be", "content" ] ],
 
     FuCL                      `noun`    {- juzo' -}            [ "section", "piece", "portion", "part", "fraction" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "^guz'A N-|" ] -},
+                              `plural`     HaFCAL,
 
     FuCL |< Iy                `adj`     {- juzo}iy~ -}         [ "partial", "petty" ],
 

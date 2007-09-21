@@ -700,8 +700,7 @@ cluster_53  = listing "Lexicon's properties"
     MuFaCCiL                  `noun`    {- muhay~i} -}         [ "preparatory" ],
 
     MuFaCCaL                  `noun`    {- muhay~aO -}         [ "prepared" ]
-                              `plural`     MuFaCCaL |< Un
-                           {- `others`  [ "muhayya'A N-|" ] -} ]
+                              `plural`     MuFaCCaL |< Un ]
 
  |> "h y .d" <| [
 

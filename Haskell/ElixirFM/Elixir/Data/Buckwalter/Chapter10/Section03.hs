@@ -445,8 +445,7 @@ cluster_49  = listing "Lexicon's properties"
                               `plural`     FaCIL |< Un
                            {- `others`  [ "'ardiyA' Nh N0_Nh Nhy" ] -},
 
-    HaFCaL                    `noun`    {- OarodaO -}          [ unwords [ "worse", "/", "worst" ], "worst" ]
-                           {- `others`  [ "'arda'A N-|" ] -},
+    HaFCaL                    `noun`    {- OarodaO -}          [ unwords [ "worse", "/", "worst" ], "worst" ],
 
     FaCAL |< aT               `noun`    {- radA'ap -}          [ "wickedness", "maliciousness" ],
 
@@ -670,7 +669,7 @@ cluster_54  = listing "Lexicon's properties"
     MaFCaL                    `noun`    {- marofaO -}          [ "port", "harbor", unwords [ "landing", "places" ] ]
                               `plural`     MaFCaL |< At
                               `plural`     MaFACiL
-                           {- `others`  [ "marfa'A Ndip N-|" ] -} ]
+                           {- `others`  [ "marfa'A Ndip" ] -} ]
 
  |> "r f .d" <| [
 

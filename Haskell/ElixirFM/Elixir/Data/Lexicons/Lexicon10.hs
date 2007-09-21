@@ -1026,7 +1026,7 @@ cluster_19  = listing "Lexicon's properties"
     MaFCaL                    `noun`    {- marofaO -}          [ "port", "harbor", unwords [ "landing", "places" ] ]
                               `plural`     MaFCaL |< At
                               `plural`     MaFACiL
-                           {- `others`  [ "marfa'A Ndip N-|" ] -} ]
+                           {- `others`  [ "marfa'A Ndip" ] -} ]
 
  |> "r f .d" <| [
 

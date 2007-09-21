@@ -9011,9 +9011,6 @@ $Lexicon = {
           'Nh' => 2,
           'Nhy' => 2,
           'N0_Nh' => 2
-        },
-        '^guz\'A' => {
-          'N-|' => 1
         }
       },
       'entry' => '^guz\'',
@@ -9036,8 +9033,7 @@ $Lexicon = {
       'patterns' => {
         '\'a^gzA\'' => [
           'HaFCAL'
-        ],
-        '^guz\'A' => []
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

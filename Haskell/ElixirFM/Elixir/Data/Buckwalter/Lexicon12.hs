@@ -4864,8 +4864,7 @@ cluster_95  = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- OasowaO -}          [ unwords [ "worse", "/", "worst" ] ],
 
-    HaFCaL                    `noun`    {- Oasowa' -}          [ "worst" ]
-                           {- `others`  [ "'aswa'A N-|" ] -},
+    HaFCaL                    `noun`    {- Oasowa' -}          [ "worst" ],
 
     MaFAL |< aT               `noun`    {- masA'ap -}          [ unwords [ "evil", "deed" ], "disadvantages" ]
                               `plural`     MaFACiL,

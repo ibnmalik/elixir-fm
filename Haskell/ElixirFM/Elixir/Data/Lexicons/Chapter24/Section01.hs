@@ -971,8 +971,7 @@ cluster_16  = listing "Lexicon's properties"
 
  |> "m r '" <| [
 
-    FaCL                      `noun`    {- maro' -}            [ "man", "person", "men" ]
-                           {- `others`  [ "mar'A N-|" ] -},
+    FaCL                      `noun`    {- maro' -}            [ "man", "person", "men" ],
 
     FaCL |< aT                `noun`    {- maroOap -}          [ "woman" ] ]
 

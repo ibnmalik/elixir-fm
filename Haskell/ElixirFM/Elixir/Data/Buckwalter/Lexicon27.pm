@@ -20783,9 +20783,6 @@ $Lexicon = {
           'Nh' => 2,
           'Nhy' => 2,
           'N0_Nh' => 2
-        },
-        'waba\'A' => {
-          'N-|' => 1
         }
       },
       'entry' => 'waba\'',
@@ -20804,7 +20801,6 @@ $Lexicon = {
         'AwbA}   >awobA} Nhy     epidemics;disease'
       ],
       'patterns' => {
-        'waba\'A' => [],
         '\'awbA\'' => [
           'HaFCAL'
         ]
@@ -25382,11 +25378,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'aw.ta\'A' => {
-          'N-|' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'aw.ta\'',
       'form' => '\'aw.ta\'',
       'lines' => [
@@ -25398,9 +25390,7 @@ $Lexicon = {
         '>wT}    >awoTa} Nayn    lowest',
         'AwT}    >awoTa} Nayn    lowest'
       ],
-      'patterns' => {
-        '\'aw.ta\'A' => []
-      },
+      'patterns' => {},
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -25419,9 +25409,6 @@ $Lexicon = {
         },
         'mawA.ti\'' => {
           'Ndip' => 1
-        },
-        'maw.ta\'A' => {
-          'N-|' => 1
         }
       },
       'entry' => 'maw.ta\'',
@@ -25442,8 +25429,7 @@ $Lexicon = {
         ],
         'mawA.ti\'' => [
           'MaFACiL'
-        ],
-        'maw.ta\'A' => []
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -33949,9 +33935,6 @@ $Lexicon = {
       'types' => {
         'muttaka\'' => {
           'NAt' => 1
-        },
-        'muttaka\'A' => {
-          'N-|' => 1
         }
       },
       'entry' => 'muttaka\'',
@@ -33968,8 +33951,7 @@ $Lexicon = {
       'patterns' => {
         'muttaka\'' => [
           'MuFtaCaL'
-        ],
-        'muttaka\'A' => []
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -33988,9 +33970,6 @@ $Lexicon = {
       'types' => {
         'muttaka\'' => {
           'NAt' => 1
-        },
-        'muttaka\'A' => {
-          'N-|' => 1
         }
       },
       'entry' => 'muttaka\'',
@@ -34007,8 +33986,7 @@ $Lexicon = {
       'patterns' => {
         'muttaka\'' => [
           'MuFtaCaL'
-        ],
-        'muttaka\'A' => []
+        ]
       },
       'index' => '2',
       'entity' => 'noun',

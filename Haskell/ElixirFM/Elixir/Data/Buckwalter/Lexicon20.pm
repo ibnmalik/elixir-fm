@@ -40219,9 +40219,6 @@ $Lexicon = {
           'Nh' => 2,
           'Nhy' => 2,
           'N0_Nh' => 2
-        },
-        'fara\'A' => {
-          'N-|' => 1
         }
       },
       'entry' => 'fara\'',
@@ -40242,8 +40239,7 @@ $Lexicon = {
       'patterns' => {
         '\'afrA\'' => [
           'HaFCAL'
-        ],
-        'fara\'A' => []
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

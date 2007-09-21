@@ -13512,9 +13512,6 @@ $Lexicon = {
         },
         'ma_hAbi\'' => {
           'Ndip' => 1
-        },
-        'ma_hba\'A' => {
-          'N-|' => 1
         }
       },
       'entry' => 'ma_hba\'',
@@ -13533,7 +13530,6 @@ $Lexicon = {
         'ma_hba\'' => [
           'MaFCaL'
         ],
-        'ma_hba\'A' => [],
         'ma_hAbi\'' => [
           'MaFACiL'
         ]
@@ -26472,11 +26468,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'a_hsa\'A' => {
-          'N-|' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'a_hsa\'',
       'form' => '\'a_hsa\'',
       'lines' => [
@@ -26488,9 +26480,7 @@ $Lexicon = {
         '>xs}    >axosa} Nayn    most despicable;meanest',
         'Axs}    >axosa} Nayn    most despicable;meanest'
       ],
-      'patterns' => {
-        '\'a_hsa\'A' => []
-      },
+      'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -28781,9 +28771,6 @@ $Lexicon = {
           'Nhy' => 1,
           'N0_Nh' => 1
         },
-        '_ha.ta\'A' => {
-          'N-|' => 1
-        },
         '\'a_h.tA\'' => {
           'Nh' => 2,
           'Nhy' => 2,
@@ -28813,7 +28800,6 @@ $Lexicon = {
         '_ha.tA\'' => [
           'FaCAL'
         ],
-        '_ha.ta\'A' => [],
         '\'a_h.tA\'' => [
           'HaFCAL'
         ]

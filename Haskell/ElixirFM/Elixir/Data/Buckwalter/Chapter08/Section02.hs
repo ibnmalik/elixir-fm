@@ -933,8 +933,7 @@ cluster_38  = listing "Lexicon's properties"
                               `plural`     FaCIL |< Un
                               `plural`     HaFCAL,
 
-    HaFCaL                    `noun`    {- OadonaO -}          [ unwords [ "meaner", "/", "meanest" ], "inferior", "meanest" ]
-                           {- `others`  [ "'adna'A N-|" ] -},
+    HaFCaL                    `noun`    {- OadonaO -}          [ unwords [ "meaner", "/", "meanest" ], "inferior", "meanest" ],
 
     FaCAL |< aT               `noun`    {- danA'ap -}          [ "baseness", "meanness", "inferiority" ] ]
 

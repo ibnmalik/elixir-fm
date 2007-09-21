@@ -519,8 +519,7 @@ cluster_10  = listing "Lexicon's properties"
     HaFAL                     `verb`    {- OaDA' -}            [ "shine", "illuminate" ],
 
     FaCL                      `noun`    {- Dawo' -}            [ "light" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ ".daw'A N-|" ] -},
+                              `plural`     HaFCAL,
 
     FaCL |< Iy                `adj`     {- Dawo}iy~ -}         [ "light", "luminous", "clear" ],
 

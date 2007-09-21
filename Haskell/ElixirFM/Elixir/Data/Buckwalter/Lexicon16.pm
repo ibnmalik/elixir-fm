@@ -10688,9 +10688,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'mu.tfa\'A' => {
-          'N-|' => 1
-        },
         'mu.tfa\'' => {
           'NAt' => 1
         }
@@ -10706,7 +10703,6 @@ $Lexicon = {
         'mTf     muTofa  N-|t    extinguished'
       ],
       'patterns' => {
-        'mu.tfa\'A' => [],
         'mu.tfa\'' => [
           'MuFCaL'
         ]
@@ -11054,9 +11050,6 @@ $Lexicon = {
         'mu.ta\'.ta\'' => {
           'NAt' => 1,
           'Nuwn_Niyn' => 2
-        },
-        'mu.ta\'.ta\'A' => {
-          'N-|' => 1
         }
       },
       'entry' => 'mu.ta\'.ta\'',
@@ -11074,8 +11067,7 @@ $Lexicon = {
       'patterns' => {
         'mu.ta\'.ta\'' => [
           'MuKaRDaS'
-        ],
-        'mu.ta\'.ta\'A' => []
+        ]
       },
       'index' => '1',
       'entity' => 'adj',

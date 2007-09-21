@@ -828,13 +828,11 @@ cluster_15  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- waTiy' -}           [ "low", "flat" ]
                               `plural`     FaCIL |< Un,
 
-    HaFCaL                    `noun`    {- OawoTaO -}          [ unwords [ "lower", "/", "lowest" ], "lowest" ]
-                           {- `others`  [ "'aw.ta'A N-|" ] -},
+    HaFCaL                    `noun`    {- OawoTaO -}          [ unwords [ "lower", "/", "lowest" ], "lowest" ],
 
     MaFCaL                    `noun`    {- mawoTaO -}          [ "foothold", "footing" ]
                               `plural`     MaFCiL
-                              `plural`     MaFACiL
-                           {- `others`  [ "maw.ta'A N-|" ] -},
+                              `plural`     MaFACiL,
 
     TaFCiL |< aT              `noun`    {- tawoTi}ap -}        [ unwords [ "preliminary", "step" ], unwords [ "paving", "the", "way" ], "lowering" ],
 

@@ -6592,8 +6592,7 @@ $Lexicon = {
     {
       'types' => {
         'marfa\'A' => {
-          'Ndip' => 1,
-          'N-|' => 1
+          'Ndip' => 1
         },
         'marfa\'' => {
           'NAt' => 1
@@ -48620,11 +48619,7 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'arda\'A' => {
-          'N-|' => 2
-        }
-      },
+      'types' => {},
       'entry' => '\'arda\'',
       'form' => '\'arda\'',
       'lines' => [
@@ -48636,9 +48631,7 @@ $Lexicon = {
         '>rd}    >aroda} Nayn    worst',
         'Ard}    >aroda} Nayn    worst'
       ],
-      'patterns' => {
-        '\'arda\'A' => []
-      },
+      'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',

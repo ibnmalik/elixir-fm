@@ -909,11 +909,10 @@ cluster_19  = listing "Lexicon's properties"
                               `plural`     FaCAL |< aT
                               `plural`     FaCiL |< aT,
 
-    MuFCaL                    `adj`     {- muSodaO -}          [ "rusty", "oxidized" ]
-                           {- `others`  [ "mu.sda'A N-|" ] -},
+    MuFCaL                    `adj`     {- muSodaO -}          [ "rusty", "oxidized" ],
 
     HaFCaL                    `adj`     {- OaSodaO -}          [ "rusty", "oxidized" ]
-                           {- `others`  [ ".sad'A N0_Nh", "'a.sda'A N-|" ] -},
+                           {- `others`  [ ".sad'A N0_Nh" ] -},
 
     HiFCAL                    `noun`    {- IiSodA' -}          [ "oxidation" ]
                               `plural`     HiFCAL |< At ]

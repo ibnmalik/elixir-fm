@@ -277,8 +277,7 @@ cluster_5   = listing "Lexicon's properties"
 
     MaFCaL                    `noun`    {- malojaO -}          [ "shelter", "refuge" ]
                               `plural`     MaFACiL
-                              `plural`     MaFCaL |< At
-                           {- `others`  [ "mal^ga'A N-|" ] -},
+                              `plural`     MaFCaL |< At,
 
     FACiL                     `noun`    {- lAji} -}            [ "refugee", unwords [ "seeking", "refuge" ] ] ]
 

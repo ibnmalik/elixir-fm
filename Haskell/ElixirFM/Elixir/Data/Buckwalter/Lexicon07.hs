@@ -451,8 +451,7 @@ cluster_10  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- xaTaO -}            [ "mistake", "error", "fault" ]
                               `plural`     FaCAL
-                              `plural`     HaFCAL
-                           {- `others`  [ "_ha.ta'A N-|" ] -},
+                              `plural`     HaFCAL,
 
     FaCIL |< aT               `noun`    {- xaTiy}ap -}         [ "mistake", "error", "fault" ]
                            {- `others`  [ "_ha.tAyY N0_Nhy" ] -},
@@ -1007,8 +1006,7 @@ cluster_22  = listing "Lexicon's properties"
 
     MaFCaL                    `noun`    {- maxobaO -}          [ unwords [ "hide", "-", "out" ], "shelter" ]
                               `plural`     MaFCaL |< At
-                              `plural`     MaFACiL
-                           {- `others`  [ "ma_hba'A N-|" ] -},
+                              `plural`     MaFACiL,
 
     FiCAL                     `noun`    {- xibA' -}            [ "tent", "husk", "hull" ]
                               `plural`     HaFCI |< aT
@@ -3260,8 +3258,7 @@ cluster_66  = listing "Lexicon's properties"
     FaCiL                     `verb`    {- xasi}-a -}          [ unwords [ "be", "driven", "away" ], unwords [ "make", "off" ] ]
                               `imperf`     FCaL,
 
-    HaFCaL                    `noun`    {- OaxosaO -}          [ unwords [ "more", "/", "most", "despicable" ], unwords [ "meaner", "/", "meanest" ], unwords [ "most", "despicable" ], "meanest" ]
-                           {- `others`  [ "'a_hsa'A N-|" ] -},
+    HaFCaL                    `noun`    {- OaxosaO -}          [ unwords [ "more", "/", "most", "despicable" ], unwords [ "meaner", "/", "meanest" ], unwords [ "most", "despicable" ], "meanest" ],
 
     FACiL                     `adj`     {- xAsi} -}            [ "rejected", "disgraceful", "feeble" ] ]
 
