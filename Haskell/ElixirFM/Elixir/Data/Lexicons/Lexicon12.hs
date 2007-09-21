@@ -21,7 +21,7 @@ cluster_1   = listing "Lexicon's properties"
  |> "s ' .h" <| [
 
     FACiL                     `noun`    {- sA}iH -}            [ "tourist" ]
-                           {- `others`  [ "suyyA.h N" ] -} ]
+                              `plural`     FuyyAL ]
 
  |> "s ' d" <| [
 

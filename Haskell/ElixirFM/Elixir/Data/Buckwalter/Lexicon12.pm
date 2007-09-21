@@ -35492,7 +35492,9 @@ $Lexicon = {
         'syAH    suy~AH  N       tourists'
       ],
       'patterns' => {
-        'suyyA.h' => []
+        'suyyA.h' => [
+          'FuyyAL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

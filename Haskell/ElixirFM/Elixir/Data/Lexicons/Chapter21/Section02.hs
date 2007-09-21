@@ -765,7 +765,7 @@ cluster_35  = listing "Lexicon's properties"
     FA'iL                     `noun`    {- qA}id -}            [ "leader", "commander" ]
                               `plural`     FAL |< aT
                               `plural`     FUCAL
-                           {- `others`  [ "quwwad N" ] -},
+                              `plural`     FUCaL,
 
     FA'iL                     `noun`    {- qA}id -}            [ "driver", "chauffeur" ]
                               `plural`     FUCAL ]

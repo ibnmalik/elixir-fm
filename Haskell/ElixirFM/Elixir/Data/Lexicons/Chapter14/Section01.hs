@@ -17,8 +17,9 @@ cluster_1   = listing "Lexicon's properties"
     FAL                       `noun`    {- SAg -}              [ "standard" ],
 
     FACiL                     `noun`    {- SA}ig -}            [ "jeweler" ]
+                              `plural`     FuyyAL
                               `plural`     FAL |< aT
-                           {- `others`  [ ".suyyA.g N", ".suwwA.g N" ] -} ]
+                           {- `others`  [ ".suwwA.g N" ] -} ]
 
  |> ".s ' .h" <| [
 
@@ -42,7 +43,8 @@ cluster_1   = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- SA}im -}            [ "fasting", "abstinent" ]
                               `plural`     FiyAL
-                           {- `others`  [ ".suyyam N", ".suwwam N" ] -} ]
+                              `plural`     FuyyaL
+                           {- `others`  [ ".suwwam N" ] -} ]
 
  |> ".s .g '" <| [
 

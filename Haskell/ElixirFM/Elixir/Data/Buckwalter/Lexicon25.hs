@@ -62,8 +62,10 @@ cluster_1   = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- naOomap -}          [ "noise", "sound" ],
 
     FACiL                     `adj`     {- nA}im -}            [ "sleeping", "asleep" ]
+                              `plural`     FuyyAL
+                              `plural`     FuyyaL
                               `plural`     FiyAL
-                           {- `others`  [ "nuyyAm N", "nuwwAm N", "nuyyam N", "nuwwam N" ] -},
+                           {- `others`  [ "nuwwAm N", "nuwwam N" ] -},
 
     FaCUL                     `noun`    {- naWuwm -}           [ "sleeper", unwords [ "later", "riser" ] ] ]
 
@@ -6899,9 +6901,11 @@ cluster_138 = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     FA'iL                     `adj`     {- nA}im -}            [ "sleeping", "asleep" ]
+                              `plural`     FuyyAL
                               `plural`     FUCAL
-                              `plural`     FiyAL
-                           {- `others`  [ "nuyyAm N", "nuyyam N", "nuwwam N" ] -},
+                              `plural`     FuyyaL
+                              `plural`     FUCaL
+                              `plural`     FiyAL,
 
     MuFaCCiL                  `noun`    {- munaw~im -}         [ unwords [ "sleep", "-", "inducing" ] ],
 

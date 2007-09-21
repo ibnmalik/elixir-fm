@@ -50,7 +50,8 @@ cluster_61  = listing "Lexicon's properties"
 
     FA'iL                     `adj`     {- SA}im -}            [ "fasting", "abstinent" ]
                               `plural`     FiyAL
-                           {- `others`  [ ".suyyam N", ".suwwam N" ] -} ]
+                              `plural`     FuyyaL
+                              `plural`     FUCaL ]
 
  |> ".s w m `" <| [
 

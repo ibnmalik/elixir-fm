@@ -3519,7 +3519,7 @@ cluster_70  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     FA'iL                     `adj`     {- xA}if -}            [ "afraid", "fearful" ]
-                           {- `others`  [ "_huwwaf N" ] -},
+                              `plural`     FUCaL,
 
     MaFUL                     `adj`     {- maxuwf -}           [ "feared", "dangerous" ],
 
@@ -3549,9 +3549,9 @@ cluster_71  = listing "Lexicon's properties"
 
     FAL                       `noun`    {- xAl -}              [ unwords [ "maternal", "uncle" ] ]
                               `plural`     FuCUL |< aT
+                              `plural`     Fu'UL |< aT
                               `plural`     FILAn
-                              `plural`     HaFCAL
-                           {- `others`  [ "_hu'uwl N" ] -},
+                              `plural`     HaFCAL,
 
     FAL                       `noun`    {- xAl -}              [ "mole" ]
                               `plural`     FILAn,
@@ -3570,6 +3570,8 @@ cluster_71  = listing "Lexicon's properties"
     MuFaCCaL                  `noun`    {- muxaw~al -}         [ "authorized" ],
 
     FuCUL |< aT               `noun`    {- xuwuwlap -}         [ unwords [ "maternal", "uncle", "relationship" ] ],
+
+    Fu'UL |< aT               `noun`    {- xuWuwlap -}         [ unwords [ "maternal", "uncle", "relationship" ] ],
 
     FaCaL                     `noun`    {- xawal -}            [ "sissy", "chattel" ] ]
 

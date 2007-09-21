@@ -30466,8 +30466,12 @@ $Lexicon = {
       'form' => '.gA\'ib',
       'lines' => [],
       'patterns' => {
-        '.guyyab' => [],
-        '.guyyAb' => []
+        '.guyyab' => [
+          'FuyyaL'
+        ],
+        '.guyyAb' => [
+          'FuyyAL'
+        ]
       },
       'index' => '1',
       'entity' => 'adj',

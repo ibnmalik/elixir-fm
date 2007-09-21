@@ -19,7 +19,8 @@ cluster_1   = listing "Lexicon's properties"
  |> ".g ' b" <| [
 
     FACiL                     `adj`     {- gA}ib -}            [ "absent" ]
-                           {- `others`  [ ".guyyab N", ".guyyAb N" ] -} ]
+                              `plural`     FuyyaL
+                              `plural`     FuyyAL ]
 
  |> ".g ' l" <| [
 

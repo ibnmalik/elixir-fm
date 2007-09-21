@@ -44,7 +44,8 @@ cluster_1   = listing "Lexicon's properties"
  |> "h ' m" <| [
 
     FACiL                     `noun`    {- hA}im -}            [ "confused", "mystified", unwords [ "mad", "with", "love" ] ]
-                           {- `others`  [ "huyyAm N", "huyyam N" ] -} ]
+                              `plural`     FuyyAL
+                              `plural`     FuyyaL ]
 
  |> "h ' s" <| [
 

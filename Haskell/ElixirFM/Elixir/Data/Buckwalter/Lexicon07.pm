@@ -855,7 +855,9 @@ $Lexicon = {
         'xwf     xuw~af  N       afraid;fearful'
       ],
       'patterns' => {
-        '_huwwaf' => []
+        '_huwwaf' => [
+          'FUCaL'
+        ]
       },
       'index' => '1',
       'entity' => 'adj',
@@ -29006,7 +29008,9 @@ $Lexicon = {
         '_hiylAn' => [
           'FILAn'
         ],
-        '_hu\'uwl' => [],
+        '_hu\'uwl' => [
+          'Fu\'UL'
+        ],
         '\'a_hwAl' => [
           'HaFCAL'
         ]
@@ -29194,6 +29198,20 @@ $Lexicon = {
         'maternal uncle relationship'
       ],
       'orig' => 'xuwuwlap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hu\'uwl',
+      'form' => '_hu\'uwlaT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Fu\'UL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
+      'orig' => 'xuWuwlap',
       'prefix' => ''
     },
     {
@@ -38335,6 +38353,9 @@ $Lexicon->{'_h y b'}[5]{'glosses'} = $Lexicon->{'_h \' b'}[0]{'glosses'};
 $Lexicon->{'_h w l'}[0]{'types'} = $Lexicon->{'_h l w'}[19]{'types'};
 $Lexicon->{'_h w l'}[0]{'lines'} = $Lexicon->{'_h l w'}[19]{'lines'};
 $Lexicon->{'_h w l'}[0]{'glosses'} = $Lexicon->{'_h l w'}[19]{'glosses'};
+$Lexicon->{'_h w l'}[11]{'types'} = $Lexicon->{'_h \' l'}[0]{'types'};
+$Lexicon->{'_h w l'}[11]{'lines'} = $Lexicon->{'_h \' l'}[0]{'lines'};
+$Lexicon->{'_h w l'}[11]{'glosses'} = $Lexicon->{'_h \' l'}[0]{'glosses'};
 $Lexicon->{'_h \' f'}[0]{'types'} = $Lexicon->{'_h w f'}[11]{'types'};
 $Lexicon->{'_h \' f'}[0]{'lines'} = $Lexicon->{'_h w f'}[11]{'lines'};
 $Lexicon->{'_h \' f'}[0]{'glosses'} = $Lexicon->{'_h w f'}[11]{'glosses'};

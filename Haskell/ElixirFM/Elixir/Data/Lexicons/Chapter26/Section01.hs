@@ -710,8 +710,8 @@ cluster_12  = listing "Lexicon's properties"
     FAL |< aT                 `noun`    {- hAlap -}            [ "halo", "nimbus", "aureole" ],
 
     FaCL                      `noun`    {- hawol -}            [ "fright", "shock" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "hu'uwl N" ] -},
+                              `plural`     Fu'UL
+                              `plural`     HaFCAL,
 
     TaFCIL                    `noun`    {- tahowiyl -}         [ "intimidation", "frightening", "embellishments" ]
                               `plural`     TaFACIL

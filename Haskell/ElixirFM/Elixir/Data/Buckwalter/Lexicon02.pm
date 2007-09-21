@@ -26849,6 +26849,26 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'b d q' => [
+    {
+      'types' => {},
+      'entry' => 'buwdaq',
+      'form' => 'buwdaqaT',
+      'lines' => [],
+      'patterns' => {
+        'bawAdiq' => [
+          'FawACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUCaL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
+      'orig' => 'buwdaqap',
+      'prefix' => ''
+    }
+  ],
   'b y r s' => [
     {
       'types' => {},
@@ -28236,6 +28256,39 @@ $Lexicon = {
         'Baalbakki'
       ],
       'orig' => 'baEolabak~iy~',
+      'prefix' => ''
+    }
+  ],
+  'b t q' => [
+    {
+      'types' => {
+        'bawAtiq' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'buwtaq',
+      'form' => 'buwtaqaT',
+      'lines' => [
+        ';; buwtaqap_1',
+        'bwtq    buwtaq  Nap     crucible;melting pot',
+        'bwAtq   bawAtiq Ndip    crucibles;melting pots'
+      ],
+      'patterns' => {
+        'bawAtiq' => [
+          'FawACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUCaL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'crucible',
+        'melting pot',
+        'crucibles',
+        'melting pots'
+      ],
+      'orig' => 'buwtaqap',
       'prefix' => ''
     }
   ],
@@ -39129,18 +39182,10 @@ $Lexicon = {
   ],
   'b w t q' => [
     {
-      'types' => {
-        'bawAtiq' => {
-          'Ndip' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'buwtaq',
       'form' => 'buwtaqaT',
-      'lines' => [
-        ';; buwtaqap_1',
-        'bwtq    buwtaq  Nap     crucible;melting pot',
-        'bwAtq   bawAtiq Ndip    crucibles;melting pots'
-      ],
+      'lines' => [],
       'patterns' => {
         'bawAtiq' => [
           'KaRADiS'
@@ -39150,12 +39195,7 @@ $Lexicon = {
       'entity' => 'noun',
       'morphs' => 'KuRDaS |< aT',
       'suffix' => ' |< aT',
-      'glosses' => [
-        'crucible',
-        'melting pot',
-        'crucibles',
-        'melting pots'
-      ],
+      'glosses' => [],
       'orig' => 'buwtaqap',
       'prefix' => ''
     }
@@ -44255,6 +44295,25 @@ $Lexicon = {
         'creations'
       ],
       'orig' => 'mubotakar',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'buwkar',
+      'form' => 'buwkar',
+      'lines' => [
+        ';; buwkar_1',
+        'bwkr    buwkar  N       poker'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUCaL',
+      'suffix' => '',
+      'glosses' => [
+        'poker'
+      ],
+      'orig' => 'buwkar',
       'prefix' => ''
     },
     {
@@ -59579,18 +59638,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'buwkar',
       'form' => 'buwkar',
-      'lines' => [
-        ';; buwkar_1',
-        'bwkr    buwkar  N       poker'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KuRDaS',
       'suffix' => '',
-      'glosses' => [
-        'poker'
-      ],
+      'glosses' => [],
       'orig' => 'buwkar',
       'prefix' => ''
     }
@@ -61284,6 +61338,9 @@ $Lexicon->{'b r y'}[4]{'glosses'} = $Lexicon->{'b r \''}[15]{'glosses'};
 $Lexicon->{'b r y'}[5]{'types'} = $Lexicon->{'b r \''}[16]{'types'};
 $Lexicon->{'b r y'}[5]{'lines'} = $Lexicon->{'b r \''}[16]{'lines'};
 $Lexicon->{'b r y'}[5]{'glosses'} = $Lexicon->{'b r \''}[16]{'glosses'};
+$Lexicon->{'b d q'}[0]{'types'} = $Lexicon->{'b w d q'}[0]{'types'};
+$Lexicon->{'b d q'}[0]{'lines'} = $Lexicon->{'b w d q'}[0]{'lines'};
+$Lexicon->{'b d q'}[0]{'glosses'} = $Lexicon->{'b w d q'}[0]{'glosses'};
 $Lexicon->{'b .h r'}[13]{'types'} = $Lexicon->{'b .h r n'}[0]{'types'};
 $Lexicon->{'b .h r'}[13]{'lines'} = $Lexicon->{'b .h r n'}[0]{'lines'};
 $Lexicon->{'b .h r'}[13]{'glosses'} = $Lexicon->{'b .h r n'}[0]{'glosses'};
@@ -61318,6 +61375,9 @@ $Lexicon->{'b y n'}[30]{'glosses'} = $Lexicon->{'b \' n'}[2]{'glosses'};
 $Lexicon->{'b k l'}[2]{'types'} = $Lexicon->{'b l \''}[0]{'types'};
 $Lexicon->{'b k l'}[2]{'lines'} = $Lexicon->{'b l \''}[0]{'lines'};
 $Lexicon->{'b k l'}[2]{'glosses'} = $Lexicon->{'b l \''}[0]{'glosses'};
+$Lexicon->{'b w t q'}[0]{'types'} = $Lexicon->{'b t q'}[0]{'types'};
+$Lexicon->{'b w t q'}[0]{'lines'} = $Lexicon->{'b t q'}[0]{'lines'};
+$Lexicon->{'b w t q'}[0]{'glosses'} = $Lexicon->{'b t q'}[0]{'glosses'};
 $Lexicon->{'b d d'}[12]{'types'} = $Lexicon->{'b d w'}[5]{'types'};
 $Lexicon->{'b d d'}[12]{'lines'} = $Lexicon->{'b d w'}[5]{'lines'};
 $Lexicon->{'b d d'}[12]{'glosses'} = $Lexicon->{'b d w'}[5]{'glosses'};
@@ -61369,9 +61429,9 @@ $Lexicon->{'b w y'}[0]{'glosses'} = $Lexicon->{'b n w'}[1]{'glosses'};
 $Lexicon->{'b d \''}[21]{'types'} = $Lexicon->{'b d w'}[7]{'types'};
 $Lexicon->{'b d \''}[21]{'lines'} = $Lexicon->{'b d w'}[7]{'lines'};
 $Lexicon->{'b d \''}[21]{'glosses'} = $Lexicon->{'b d w'}[7]{'glosses'};
-$Lexicon->{'b k r'}[28]{'types'} = $Lexicon->{'b y k r'}[0]{'types'};
-$Lexicon->{'b k r'}[28]{'lines'} = $Lexicon->{'b y k r'}[0]{'lines'};
-$Lexicon->{'b k r'}[28]{'glosses'} = $Lexicon->{'b y k r'}[0]{'glosses'};
+$Lexicon->{'b k r'}[29]{'types'} = $Lexicon->{'b y k r'}[0]{'types'};
+$Lexicon->{'b k r'}[29]{'lines'} = $Lexicon->{'b y k r'}[0]{'lines'};
+$Lexicon->{'b k r'}[29]{'glosses'} = $Lexicon->{'b y k r'}[0]{'glosses'};
 $Lexicon->{'b \' r'}[4]{'types'} = $Lexicon->{'b w r'}[7]{'types'};
 $Lexicon->{'b \' r'}[4]{'lines'} = $Lexicon->{'b w r'}[7]{'lines'};
 $Lexicon->{'b \' r'}[4]{'glosses'} = $Lexicon->{'b w r'}[7]{'glosses'};
@@ -61529,3 +61589,6 @@ $Lexicon->{'b .t .h \''}[0]{'glosses'} = $Lexicon->{'b .t .h'}[5]{'glosses'};
 $Lexicon->{'b .h r \''}[0]{'types'} = $Lexicon->{'b .h r'}[9]{'types'};
 $Lexicon->{'b .h r \''}[0]{'lines'} = $Lexicon->{'b .h r'}[9]{'lines'};
 $Lexicon->{'b .h r \''}[0]{'glosses'} = $Lexicon->{'b .h r'}[9]{'glosses'};
+$Lexicon->{'b w k r'}[0]{'types'} = $Lexicon->{'b k r'}[28]{'types'};
+$Lexicon->{'b w k r'}[0]{'lines'} = $Lexicon->{'b k r'}[28]{'lines'};
+$Lexicon->{'b w k r'}[0]{'glosses'} = $Lexicon->{'b k r'}[28]{'glosses'};

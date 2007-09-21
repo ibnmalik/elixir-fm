@@ -416,8 +416,8 @@ cluster_48  = listing "Lexicon's properties"
     FAL |< aT                 `noun`    {- hAlap -}            [ "halo", "nimbus", "aureole" ],
 
     FaCL                      `noun`    {- hawol -}            [ "fright", "shock" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "hu'uwl N" ] -},
+                              `plural`     Fu'UL
+                              `plural`     HaFCAL,
 
     FaCL |< aT                `noun`    {- hawolap -}          [ unwords [ "terrifying", "thing" ], unwords [ "object", "of", "fear" ] ],
 

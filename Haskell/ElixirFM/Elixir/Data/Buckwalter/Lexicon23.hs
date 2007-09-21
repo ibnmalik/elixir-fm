@@ -3133,8 +3133,8 @@ cluster_63  = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     FA'iL                     `noun`    {- lA}im -}            [ "critic", "censurer" ]
-                              `plural`     FUCAL
-                           {- `others`  [ "luwwam N_L" ] -},
+                              `plural`     FUCaL
+                              `plural`     FUCAL,
 
     FA'iL |< aT               `noun`    {- lA}imap -}          [ "blame", "censure" ]
                               `plural`     FawA'iL,

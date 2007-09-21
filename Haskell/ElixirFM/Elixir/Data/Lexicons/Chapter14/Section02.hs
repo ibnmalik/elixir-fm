@@ -28,9 +28,9 @@ cluster_21  = listing "Lexicon's properties"
     MaFAL                     `noun`    {- maSAg -}            [ "jewelry" ],
 
     FA'iL                     `noun`    {- SA}ig -}            [ "jeweler" ]
+                              `plural`     FuyyAL
                               `plural`     FUCAL
-                              `plural`     FAL |< aT
-                           {- `others`  [ ".suyyA.g N" ] -},
+                              `plural`     FAL |< aT,
 
     MaFUL |< aT               `noun`    {- maSuwgap -}         [ "jewel", "jewelry" ]
                               `plural`     MaFUL |< At ]
@@ -89,7 +89,8 @@ cluster_22  = listing "Lexicon's properties"
 
     FA'iL                     `adj`     {- SA}im -}            [ "fasting", "abstinent" ]
                               `plural`     FiyAL
-                           {- `others`  [ ".suyyam N", ".suwwam N" ] -} ]
+                              `plural`     FuyyaL
+                              `plural`     FUCaL ]
 
  |> ".s w m `" <| [
 

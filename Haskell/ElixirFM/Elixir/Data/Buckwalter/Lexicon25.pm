@@ -4908,9 +4908,13 @@ $Lexicon = {
       ],
       'patterns' => {
         'nuwwAm' => [],
-        'nuyyAm' => [],
+        'nuyyAm' => [
+          'FuyyAL'
+        ],
         'nuwwam' => [],
-        'nuyyam' => [],
+        'nuyyam' => [
+          'FuyyaL'
+        ],
         'niyAm' => [
           'FiyAL'
         ]
@@ -60560,9 +60564,15 @@ $Lexicon = {
         'nuwwAm' => [
           'FUCAL'
         ],
-        'nuyyAm' => [],
-        'nuwwam' => [],
-        'nuyyam' => [],
+        'nuyyAm' => [
+          'FuyyAL'
+        ],
+        'nuwwam' => [
+          'FUCaL'
+        ],
+        'nuyyam' => [
+          'FuyyaL'
+        ],
         'niyAm' => [
           'FiyAL'
         ]

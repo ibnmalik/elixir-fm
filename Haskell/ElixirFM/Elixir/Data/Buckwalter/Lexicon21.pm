@@ -34308,7 +34308,9 @@ $Lexicon = {
         'qAd' => [
           'FAL'
         ],
-        'quwwad' => []
+        'quwwad' => [
+          'FUCaL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

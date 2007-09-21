@@ -18560,7 +18560,9 @@ $Lexicon = {
       'form' => 'lA\'im',
       'lines' => [],
       'patterns' => {
-        'luwwam' => [],
+        'luwwam' => [
+          'FUCaL'
+        ],
         'luwwAm' => [
           'FUCAL'
         ]

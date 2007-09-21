@@ -857,6 +857,11 @@ cluster_97  = listing "Lexicon's properties"
 cluster_98  = listing "Lexicon's properties"
 
 
+ |> "b t q" <| [
+
+    FUCaL |< aT               `noun`    {- buwtaqap -}         [ "crucible", unwords [ "melting", "pot" ] ]
+                              `plural`     FawACiL ]
+
  |> "b t r" <| [
 
     FaCaL                     `verb`    {- batar-u -}          [ "amputate", "mutilate" ]

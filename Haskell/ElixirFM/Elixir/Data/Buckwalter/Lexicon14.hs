@@ -21,8 +21,9 @@ cluster_1   = listing "Lexicon's properties"
     FAL                       `noun`    {- SAg -}              [ "standard" ],
 
     FACiL                     `noun`    {- SA}ig -}            [ "jeweler" ]
+                              `plural`     FuyyAL
                               `plural`     FAL |< aT
-                           {- `others`  [ ".suyyA.g N", ".suwwA.g N" ] -} ]
+                           {- `others`  [ ".suwwA.g N" ] -} ]
 
  |> ".s ' .h" <| [
 
@@ -64,7 +65,8 @@ cluster_1   = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- SA}im -}            [ "fasting", "abstinent" ]
                               `plural`     FiyAL
-                           {- `others`  [ ".suyyam N", ".suwwam N" ] -} ]
+                              `plural`     FuyyaL
+                           {- `others`  [ ".suwwam N" ] -} ]
 
  |> ".s ' n" <| [
 
@@ -2864,9 +2866,9 @@ cluster_57  = listing "Lexicon's properties"
     MaFAL                     `noun`    {- maSAg -}            [ "jewelry" ],
 
     FA'iL                     `noun`    {- SA}ig -}            [ "jeweler" ]
+                              `plural`     FuyyAL
                               `plural`     FUCAL
-                              `plural`     FAL |< aT
-                           {- `others`  [ ".suyyA.g N" ] -},
+                              `plural`     FAL |< aT,
 
     MaFUL                     `adj`     {- maSuwg -}           [ "fine", "crafted" ],
 
@@ -3058,7 +3060,8 @@ cluster_61  = listing "Lexicon's properties"
 
     FA'iL                     `adj`     {- SA}im -}            [ "fasting", "abstinent" ]
                               `plural`     FiyAL
-                           {- `others`  [ ".suyyam N", ".suwwam N" ] -} ]
+                              `plural`     FuyyaL
+                              `plural`     FUCaL ]
 
  |> ".s w m `" <| [
 

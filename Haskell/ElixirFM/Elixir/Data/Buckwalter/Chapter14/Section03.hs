@@ -848,9 +848,9 @@ cluster_57  = listing "Lexicon's properties"
     MaFAL                     `noun`    {- maSAg -}            [ "jewelry" ],
 
     FA'iL                     `noun`    {- SA}ig -}            [ "jeweler" ]
+                              `plural`     FuyyAL
                               `plural`     FUCAL
-                              `plural`     FAL |< aT
-                           {- `others`  [ ".suyyA.g N" ] -},
+                              `plural`     FAL |< aT,
 
     MaFUL                     `adj`     {- maSuwg -}           [ "fine", "crafted" ],
 

@@ -44,7 +44,8 @@ cluster_1   = listing "Lexicon's properties"
  |> "h ' m" <| [
 
     FACiL                     `noun`    {- hA}im -}            [ "confused", "mystified", unwords [ "mad", "with", "love" ] ]
-                           {- `others`  [ "huyyAm N", "huyyam N" ] -} ]
+                              `plural`     FuyyAL
+                              `plural`     FuyyaL ]
 
  |> "h ' s" <| [
 
@@ -2353,8 +2354,8 @@ cluster_48  = listing "Lexicon's properties"
     FAL |< aT                 `noun`    {- hAlap -}            [ "halo", "nimbus", "aureole" ],
 
     FaCL                      `noun`    {- hawol -}            [ "fright", "shock" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "hu'uwl N" ] -},
+                              `plural`     Fu'UL
+                              `plural`     HaFCAL,
 
     FaCL |< aT                `noun`    {- hawolap -}          [ unwords [ "terrifying", "thing" ], unwords [ "object", "of", "fear" ] ],
 

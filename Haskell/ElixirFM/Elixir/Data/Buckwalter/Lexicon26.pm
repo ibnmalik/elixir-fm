@@ -6982,7 +6982,9 @@ $Lexicon = {
         'h&wl    hu&uwl  N       fright;shock'
       ],
       'patterns' => {
-        'hu\'uwl' => [],
+        'hu\'uwl' => [
+          'Fu\'UL'
+        ],
         '\'ahwAl' => [
           'HaFCAL'
         ]
@@ -8634,8 +8636,12 @@ $Lexicon = {
         'hyAm    huy~Am  N       confused;mystified;mad with love'
       ],
       'patterns' => {
-        'huyyAm' => [],
-        'huyyam' => []
+        'huyyAm' => [
+          'FuyyAL'
+        ],
+        'huyyam' => [
+          'FuyyaL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

@@ -105,6 +105,11 @@ cluster_42  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- bAdin -}            [ "corpulent", "obese" ] ]
 
+ |> "b d q" <| [
+
+    FUCaL |< aT               `noun`    {- buwdaqap -}         [ "crucible", unwords [ "melting", "pot" ] ]
+                              `plural`     FawACiL ]
+
 
 cluster_43  = listing "Lexicon's properties"
 
@@ -672,6 +677,8 @@ cluster_53  = listing "Lexicon's properties"
 
     MuFtaCaL                  `noun`    {- mubotakar -}        [ "invention", "creation" ]
                               `plural`     MuFtaCaL |< At,
+
+    FUCaL                     `noun`    {- buwkar -}           [ "poker" ],
 
     FICAL                     `noun`    {- biykAr -}           [ "compass", "dividers" ] ]
 

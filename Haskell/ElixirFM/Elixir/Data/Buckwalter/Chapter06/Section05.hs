@@ -1003,6 +1003,8 @@ cluster_100 = listing "Lexicon's properties"
     FaCALY                    `prep`    {- HawAlaY -}          [ "approximately", "around" ]
                            {- `others`  [ ".hawAlay FW-Wa-y FW-WaBi" ] -},
 
+    Fu'UL                     `noun`    {- HuWuwl -}           [ "change", "transformation" ],
+
     FiyAL |<< "a"             `prep`    {- HiyAla -}           [ "concerning", unwords [ "with", "regard", "to" ] ]
                            {- `others`  [ ".hiyAli FW-Wa FW-Wa-i" ] -},
 

@@ -524,7 +524,7 @@ data PatternT =
                                         |   FiyAL       |   FiCAy
 
         |   FaCUL
-        |   FuCUL
+        |   FuCUL                       |   Fu'UL
 
         |   FaCIL                       |   FayyiL
         |   FuCIL
@@ -542,10 +542,14 @@ data PatternT =
         |   MaFCUL                      |   MaFUL       |   MaFCIL
 
         |   FaCCAL
-        |   FiCCAL      |   FICAL
-        |   FuCCAL      |   FUCAL
+        |   FiCCAL                      |   FICAL
+        |   FuCCAL                      |   FUCAL
 
-        |   FuCCaL
+                                        |   FuyyAL
+
+        |   FuCCaL                      |   FUCaL
+
+                                        |   FuyyaL
 
         |   FiCCIL
         |   FaCCUL

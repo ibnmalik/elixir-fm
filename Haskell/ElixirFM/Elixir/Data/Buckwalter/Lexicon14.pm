@@ -4361,8 +4361,12 @@ $Lexicon = {
         '.siyAm' => [
           'FiyAL'
         ],
-        '.suwwam' => [],
-        '.suyyam' => []
+        '.suwwam' => [
+          'FUCaL'
+        ],
+        '.suyyam' => [
+          'FuyyaL'
+        ]
       },
       'index' => '1',
       'entity' => 'adj',
@@ -12782,7 +12786,9 @@ $Lexicon = {
           'FiyAL'
         ],
         '.suwwam' => [],
-        '.suyyam' => []
+        '.suyyam' => [
+          'FuyyaL'
+        ]
       },
       'index' => '1',
       'entity' => 'adj',
@@ -18084,7 +18090,9 @@ $Lexicon = {
         'SyAg    Suy~Ag  N       jewelers'
       ],
       'patterns' => {
-        '.suyyA.g' => [],
+        '.suyyA.g' => [
+          'FuyyAL'
+        ],
         '.suwwA.g' => [
           'FUCAL'
         ],
@@ -23203,7 +23211,9 @@ $Lexicon = {
       'form' => '.sA\'i.g',
       'lines' => [],
       'patterns' => {
-        '.suyyA.g' => [],
+        '.suyyA.g' => [
+          'FuyyAL'
+        ],
         '.suwwA.g' => [],
         '.sA.g' => [
           'FAL'
