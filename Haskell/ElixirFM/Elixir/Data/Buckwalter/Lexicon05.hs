@@ -3993,13 +3993,11 @@ cluster_76  = listing "Lexicon's properties"
 
     FIL |< aT                 `noun`    {- jiyzap -}           [ "Giza" ],
 
+    FILA' |< Iy               `adj`     {- jiyzAwiy~ -}        [ unwords [ "of", "/", "from", "Giza" ] ],
+
     FILAn                     `noun`    {- jiyzAn -}           [ "Jizan" ],
 
     FILAn |< Iy               `adj`     {- jiyzAniy~ -}        [ "Jizani" ] ]
-
- |> "^g y z '" <| [
-
-    KiRDAS |< Iy              `adj`     {- jiyzAwiy~ -}        [ unwords [ "of", "/", "from", "Giza" ] ] ]
 
 
 cluster_77  = listing "Lexicon's properties"
@@ -4039,9 +4037,7 @@ cluster_77  = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- jazA' -}            [ "reward", "punishment", "penalty" ],
 
-    FaCAL |< Iy               `adj`     {- jazA}iy~ -}         [ "penal" ],
-
-    FICAL |< Iy               `adj`     {- jiyzAwiy~ -}        [ unwords [ "of", "/", "from", "Giza" ] ] ]
+    FaCAL |< Iy               `adj`     {- jazA}iy~ -}         [ "penal" ] ]
 
  |> "^g z ' r" <| [
 
@@ -4053,13 +4049,13 @@ cluster_77  = listing "Lexicon's properties"
 
     KaRADiS |< Iy             `adj`     {- jazA}iriy~ -}       [ "Algerian" ] ]
 
-
-cluster_78  = listing "Lexicon's properties"
-
-
  |> "^g z ^g" <| [
 
     HaFCAL |< Iy              `adj`     {- OajozAjiy~ -}       [ "pharmacist" ] ]
+
+
+cluster_78  = listing "Lexicon's properties"
+
 
  |> "^g z `" <| [
 

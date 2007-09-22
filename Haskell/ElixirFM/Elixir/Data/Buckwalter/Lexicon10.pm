@@ -20339,7 +20339,9 @@ $Lexicon = {
         'riqAq' => [
           'FiCAL'
         ],
-        '\'ariqqA\'' => []
+        '\'ariqqA\'' => [
+          'HaFiCLA\''
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

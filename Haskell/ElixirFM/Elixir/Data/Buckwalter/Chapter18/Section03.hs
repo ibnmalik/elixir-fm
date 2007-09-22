@@ -504,8 +504,8 @@ cluster_49  = listing "Lexicon's properties"
     FaCL                      `adj`     {- Eaf~ -}             [ "virtuous", "honest" ],
 
     FaCIL                     `adj`     {- Eafiyf -}           [ "virtuous", "honest" ]
-                              `plural`     HaFiCL |< aT
-                           {- `others`  [ "'a`iffA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA'
+                              `plural`     HaFiCL |< aT,
 
     FaCIL                     `noun`    {- Eafiyf -}           [ "Afeef", "Afif" ],
 

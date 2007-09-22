@@ -5304,8 +5304,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'qawAwiyn' => [
-          'FaCACIL',
-          'FawACIL'
+          'FaCACIL'
         ],
         'qAwuwn' => [
           'FACUL'
@@ -11562,8 +11561,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'qawAwiyq' => [
-          'FaCACIL',
-          'FawACIL'
+          'FaCACIL'
         ]
       },
       'index' => '1',
@@ -13474,29 +13472,6 @@ $Lexicon = {
       ],
       'orig' => 'qibA\'',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'quwbA\'',
-      'form' => 'quwbA\'',
-      'lines' => [
-        ';; quwbA\'_1',
-        'qwbA\'   quwbA\'  N0_Nh   tetter;eczema;herpes',
-        'qwbA&   quwbA&  Nh      tetter;eczema;herpes',
-        'qwbA}   quwbA}  Nhy     tetter;eczema;herpes'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCAL',
-      'suffix' => '',
-      'glosses' => [
-        'tetter',
-        'eczema',
-        'herpes'
-      ],
-      'orig' => 'quwbA\'',
-      'prefix' => ''
     }
   ],
   'qaruwA.t' => [
@@ -13978,7 +13953,9 @@ $Lexicon = {
         '\'aqiss' => [
           'HaFiCL'
         ],
-        'qussA\'' => [],
+        'qussA\'' => [
+          'FuCLA\''
+        ],
         'qasAwis' => [],
         'qussAn' => [
           'FuCLAn'
@@ -14712,7 +14689,9 @@ $Lexicon = {
         'qlAl    qilAl   N       few;insufficient'
       ],
       'patterns' => {
-        '\'aqillA\'' => [],
+        '\'aqillA\'' => [
+          'HaFiCLA\''
+        ],
         'qalA\'il' => [
           'FaCA\'iL'
         ],
@@ -39312,22 +39291,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'q w b \'' => [
-    {
-      'types' => {},
-      'entry' => 'quwbA\'',
-      'form' => 'quwbA\'',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDAS',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'quwbA\'',
-      'prefix' => ''
-    }
-  ],
   'q m z' => [
     {
       'types' => {
@@ -45238,8 +45201,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'qawAwiy^s' => [
-          'FaCACIL',
-          'FawACIL'
+          'FaCACIL'
         ]
       },
       'index' => '1',
@@ -51164,6 +51126,38 @@ $Lexicon = {
       ],
       'orig' => 'Aiqotav~',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qi_t_tA\'',
+      'form' => 'qi_t_tA\'',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCLA\'',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'qiv~A\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qi_t_tA\'',
+      'form' => 'qi_t_tA\'aT',
+      'lines' => [],
+      'patterns' => {
+        'qu_t_tA\'' => [
+          'FuCLA\''
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCLA\' |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
+      'orig' => 'qiv~A\'ap',
+      'prefix' => ''
     }
   ],
   'q r \'' => [
@@ -55558,6 +55552,29 @@ $Lexicon = {
       ],
       'orig' => 'quwabA\'',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'quwbA\'',
+      'form' => 'quwbA\'',
+      'lines' => [
+        ';; quwbA\'_1',
+        'qwbA\'   quwbA\'  N0_Nh   tetter;eczema;herpes',
+        'qwbA&   quwbA&  Nh      tetter;eczema;herpes',
+        'qwbA}   quwbA}  Nhy     tetter;eczema;herpes'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FULA\'',
+      'suffix' => '',
+      'glosses' => [
+        'tetter',
+        'eczema',
+        'herpes'
+      ],
+      'orig' => 'quwbA\'',
+      'prefix' => ''
     }
   ],
   'qarabIn' => [
@@ -58934,9 +58951,6 @@ $Lexicon->{'q d d'}[0]{'glosses'} = $Lexicon->{'q d y'}[0]{'glosses'};
 $Lexicon->{'q d d'}[1]{'types'} = $Lexicon->{'q d y'}[1]{'types'};
 $Lexicon->{'q d d'}[1]{'lines'} = $Lexicon->{'q d y'}[1]{'lines'};
 $Lexicon->{'q d d'}[1]{'glosses'} = $Lexicon->{'q d y'}[1]{'glosses'};
-$Lexicon->{'q w b \''}[0]{'types'} = $Lexicon->{'q b \''}[1]{'types'};
-$Lexicon->{'q w b \''}[0]{'lines'} = $Lexicon->{'q b \''}[1]{'lines'};
-$Lexicon->{'q w b \''}[0]{'glosses'} = $Lexicon->{'q b \''}[1]{'glosses'};
 $Lexicon->{'q .s \''}[0]{'types'} = $Lexicon->{'q .s w'}[6]{'types'};
 $Lexicon->{'q .s \''}[0]{'lines'} = $Lexicon->{'q .s w'}[6]{'lines'};
 $Lexicon->{'q .s \''}[0]{'glosses'} = $Lexicon->{'q .s w'}[6]{'glosses'};
@@ -58998,6 +59012,12 @@ $Lexicon->{'q s y'}[1]{'glosses'} = $Lexicon->{'q s w'}[9]{'glosses'};
 $Lexicon->{'q s y'}[2]{'types'} = $Lexicon->{'q s w'}[10]{'types'};
 $Lexicon->{'q s y'}[2]{'lines'} = $Lexicon->{'q s w'}[10]{'lines'};
 $Lexicon->{'q s y'}[2]{'glosses'} = $Lexicon->{'q s w'}[10]{'glosses'};
+$Lexicon->{'q _t _t'}[2]{'types'} = $Lexicon->{'q _t \''}[0]{'types'};
+$Lexicon->{'q _t _t'}[2]{'lines'} = $Lexicon->{'q _t \''}[0]{'lines'};
+$Lexicon->{'q _t _t'}[2]{'glosses'} = $Lexicon->{'q _t \''}[0]{'glosses'};
+$Lexicon->{'q _t _t'}[3]{'types'} = $Lexicon->{'q _t \''}[1]{'types'};
+$Lexicon->{'q _t _t'}[3]{'lines'} = $Lexicon->{'q _t \''}[1]{'lines'};
+$Lexicon->{'q _t _t'}[3]{'glosses'} = $Lexicon->{'q _t \''}[1]{'glosses'};
 $Lexicon->{'q r \''}[16]{'types'} = $Lexicon->{'q r w'}[4]{'types'};
 $Lexicon->{'q r \''}[16]{'lines'} = $Lexicon->{'q r w'}[4]{'lines'};
 $Lexicon->{'q r \''}[16]{'glosses'} = $Lexicon->{'q r w'}[4]{'glosses'};

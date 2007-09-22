@@ -12,10 +12,6 @@ lexicon = include section
 cluster_1   = listing "Lexicon's properties"
 
 
- |> "'a_hi.s.sA'" <| [
-
-    Identity |< Iy            `adj`     {- OaxiS~A}iy~ -}      [ "specialist", "expert" ] ]
-
  |> "'i_hb" <| [
 
     Identity |< At            `noun`    {- IixobAt -}          [ unwords [ "being", "humble" ] ] ]
@@ -76,10 +72,6 @@ cluster_1   = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- xaD~ap -}           [ "shock", "jolt" ] ]
 
-
-cluster_2   = listing "Lexicon's properties"
-
-
  |> "_h .d _h .d" <| [
 
     KaRDaS                    `verb`    {- xaDoxaD -}          [ "move", "shake", "upset" ],
@@ -87,6 +79,10 @@ cluster_2   = listing "Lexicon's properties"
     TaKaRDaS                  `verb`    {- taxaDoxaD -}        [ unwords [ "be", "jolted" ], unwords [ "be", "rocked" ], unwords [ "be", "shaken" ] ],
 
     KaRDaS |< aT              `noun`    {- xaDoxaDap -}        [ "concussion", "shock" ] ]
+
+
+cluster_2   = listing "Lexicon's properties"
+
 
  |> "_h .d `" <| [
 
@@ -108,10 +104,6 @@ cluster_2   = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- xADiE -}            [ "subservient", "obedient", "subject" ]
                               `plural`     FuCLAn ]
-
-
-cluster_3   = listing "Lexicon's properties"
-
 
  |> "_h .d b" <| [
 
@@ -142,6 +134,10 @@ cluster_3   = listing "Lexicon's properties"
 
     FaCaL                     `verb`    {- xaDad-i -}          [ unwords [ "cut", "off" ], "restrain", "tame" ]
                               `imperf`     FCiL ]
+
+
+cluster_3   = listing "Lexicon's properties"
+
 
  |> "_h .d l" <| [
 
@@ -247,7 +243,7 @@ cluster_6   = listing "Lexicon's properties"
     FaCAL                     `noun`    {- xaSAS -}            [ "crevice", "gap" ],
 
     FaCIL                     `noun`    {- xaSiyS -}           [ "friend", "confidant" ]
-                           {- `others`  [ "'a_hi.s.sA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     FaCIL |< aT               `noun`    {- xaSiySap -}         [ "peculiarity", "feature", "attributes" ]
                               `plural`     FaCA'iL,
@@ -264,6 +260,8 @@ cluster_6   = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- taxoSiyS -}         [ "designation", "allocation", "apportionment" ]
                               `plural`     TaFCIL |< At,
+
+    HaFiCLA' |< Iy            `adj`     {- OaxiS~A}iy~ -}      [ "specialist", "expert" ],
 
     TaFaCCuL                  `noun`    {- taxaS~uS -}         [ "specialization", unwords [ "major", "field" ] ]
                               `plural`     TaFaCCuL |< At,

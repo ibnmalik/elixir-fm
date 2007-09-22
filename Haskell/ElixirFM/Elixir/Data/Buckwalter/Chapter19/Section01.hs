@@ -97,7 +97,7 @@ cluster_2   = listing "Lexicon's properties"
     FaCIL                     `adj`     {- gaDiyD -}           [ "fresh", "tender" ],
 
     FaCIL                     `adj`     {- gaDiyD -}           [ "diminished", "shamed" ]
-                           {- `others`  [ "'a.gi.d.dA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     FaCAL |< aT               `noun`    {- gaDADap -}          [ "freshness", "tenderness" ],
 

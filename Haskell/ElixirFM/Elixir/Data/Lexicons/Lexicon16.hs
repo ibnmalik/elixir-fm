@@ -160,7 +160,7 @@ cluster_3   = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- Tabiyb -}           [ "physician", "doctor" ]
                               `plural`     HaFiCL |< aT
-                           {- `others`  [ "'a.tibbA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     FiCAL |< aT               `noun`    {- TibAbap -}          [ unwords [ "medical", "profession" ], unwords [ "medical", "treatment" ] ],
 

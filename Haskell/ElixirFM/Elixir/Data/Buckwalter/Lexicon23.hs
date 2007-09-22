@@ -1348,7 +1348,7 @@ cluster_26  = listing "Lexicon's properties"
     FaCIL                     `noun`    {- labiyb -}           [ "Labib", "Labeeb" ],
 
     FaCIL                     `adj`     {- labiyb -}           [ "sensible", "reasonable" ]
-                           {- `others`  [ "'alibbA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     TaFCIL                    `noun`    {- talobiyb -}         [ "collar" ]
                               `plural`     TaFACIL ]
@@ -1654,9 +1654,9 @@ cluster_33  = listing "Lexicon's properties"
     HaFaCL                    `noun`    {- Oalad~ -}           [ "implacable", "mortal" ],
 
     FaCLA'                    `noun`    {- lad~A' -}           [ "implacable", "mortal" ]
+                              `plural`     HaFiCLA'
                               `plural`     FiCAL
-                              `plural`     FuCL
-                           {- `others`  [ "'aliddA' Nh N0_Nh Nhy" ] -},
+                              `plural`     FuCL,
 
     MutaFaCCiL                `adj`     {- mutalad~id -}       [ "recalcitrant", "rebellious" ] ]
 
@@ -3187,8 +3187,7 @@ cluster_64  = listing "Lexicon's properties"
     MutaFaCCiL                `adj`     {- mutalaw~in -}       [ unwords [ "capricious", "(", "changing", "ones", "colors", ")" ] ],
 
     FICAL                     `noun`    {- liywAn -}           [ "hall" ]
-                              `plural`     FaCACIL
-                              `plural`     FawACIL ]
+                              `plural`     FaCACIL ]
 
  |> "l w q" <| [
 

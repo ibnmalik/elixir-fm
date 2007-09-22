@@ -737,11 +737,6 @@ cluster_14  = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- zuboyap -}          [ unwords [ "elevated", "place" ], unwords [ "above", "the", "waterline" ], "climax" ]
                               `plural`     FuCY ]
 
- |> "z f '" <| [
-
-    FUCAL                     `noun`    {- zuwfA' -}           [ "hyssop" ]
-                           {- `others`  [ "zuwfY N0" ] -} ]
-
 
 cluster_15  = listing "Lexicon's properties"
 
@@ -2023,10 +2018,10 @@ cluster_39  = listing "Lexicon's properties"
     MiFCaL                    `noun`    {- mizowad -}          [ unwords [ "provision", "sack" ] ]
                               `plural`     MaFACiL ]
 
- |> "z w f '" <| [
+ |> "z w f" <| [
 
-    KuRDAS                    `noun`    {- zuwfA' -}           [ "hyssop" ]
-                           {- `others`  [ "zuwfY N0" ] -} ]
+    FULA'                     `noun`    {- zuwfA' -}           [ "hyssop" ]
+                              `plural`     FULY ]
 
 
 cluster_40  = listing "Lexicon's properties"

@@ -111,7 +111,7 @@ cluster_83  = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- raqiyq -}           [ "slaves" ]
                               `plural`     FiCAL
-                           {- `others`  [ "'ariqqA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     FaCIL                     `adj`     {- raqiyq -}           [ "gentle", "delicate", "slender" ]
                               `plural`     FiCAL,

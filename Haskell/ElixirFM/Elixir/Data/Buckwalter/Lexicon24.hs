@@ -321,10 +321,10 @@ cluster_5   = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- mugonap -}          [ "mahogany" ],
 
-    MICAL                     `noun`    {- miygAn -}           [ "Megan" ]
+    FICAL                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -},
 
-    FICAL                     `noun`    {- miygAn -}           [ "Megan" ]
+    MICAL                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -} ]
 
 
@@ -1486,25 +1486,15 @@ cluster_26  = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- maE~Az -}           [ "goatherd" ] ]
 
+ |> "m d '" <| [
+
+    FICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ],
+
+    MICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ] ]
+
 
 cluster_27  = listing "Lexicon's properties"
 
-
- |> "m d '" <| [
-
-    MICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
-
-    FICAL                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
-
-    MICAL |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
-                           {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
-
-    FICAL |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
-                           {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
-
-    MICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ],
-
-    FICAL |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ] ]
 
  |> "m d .h" <| [
 
@@ -2552,17 +2542,7 @@ cluster_47  = listing "Lexicon's properties"
     HiFCAL                    `noun`    {- IimonA' -}          [ "ejaculation" ]
                               `plural`     HiFCAL |< At,
 
-    IstiFCAL                  `noun`    {- AisotimonA' -}      [ "masturbation" ],
-
-    MICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
-                              `plural`     FawACiL
-                              `plural`     FawACI
-                           {- `others`  [ "miyan N", "miyn Napdu" ] -},
-
-    FICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
-                              `plural`     FawACiL
-                              `plural`     FawACI
-                           {- `others`  [ "miyan N", "miyn Napdu" ] -} ]
+    IstiFCAL                  `noun`    {- AisotimonA' -}      [ "masturbation" ] ]
 
  |> "m n .g l" <| [
 
@@ -2603,10 +2583,6 @@ cluster_47  = listing "Lexicon's properties"
 
     KaRDaS                    `verb`    {- manoTar -}          [ unwords [ "throw", "down" ], unwords [ "toss", "down" ] ] ]
 
-
-cluster_48  = listing "Lexicon's properties"
-
-
  |> "m n ^s" <| [
 
     FACL                      `noun`    {- mAno$ -}            [ unwords [ "Manche", "(", "English", "Channel", ")" ] ],
@@ -2617,6 +2593,10 @@ cluster_48  = listing "Lexicon's properties"
 
     KaRDUS |< Iy |< aT        `noun`    {- man$uwbiy~ap -}     [ unwords [ "monk's", "cell" ] ] ]
 
+
+cluster_48  = listing "Lexicon's properties"
+
+
  |> "m n ^s r" <| [
 
     KaRDUS |< Iy              `adj`     {- mano$uwriy~ -}      [ "Manchurian" ] ]
@@ -2624,10 +2604,6 @@ cluster_48  = listing "Lexicon's properties"
  |> "m n _d" <| [
 
     FuCL |<< "u"              `conj`    {- muno*u -}           [ "since", "ago" ] ]
-
-
-cluster_49  = listing "Lexicon's properties"
-
 
  |> "m n `" <| [
 
@@ -2676,13 +2652,13 @@ cluster_49  = listing "Lexicon's properties"
                               `plural`     KiRDIS
                               `plural`     KaRADIS ]
 
+
+cluster_49  = listing "Lexicon's properties"
+
+
  |> "m n h" <| [
 
     FiCL                      `noun`    {- minoh -}            [ unwords [ "Minh", "(", "in", "\"Ho", "Chi", "Minh\"", ")" ] ] ]
-
-
-cluster_50  = listing "Lexicon's properties"
-
 
  |> "m n n" <| [
 
@@ -2698,6 +2674,10 @@ cluster_50  = listing "Lexicon's properties"
  |> "m n t l" <| [
 
     KiRDUS                    `noun`    {- minotuwl -}         [ "menthol" ] ]
+
+
+cluster_50  = listing "Lexicon's properties"
+
 
  |> "m n w" <| [
 
@@ -3921,8 +3901,7 @@ cluster_73  = listing "Lexicon's properties"
     MutaFaCCiL                `noun`    {- mutamaw~il -}       [ "financier", "underwriter", unwords [ "funding", "source" ] ],
 
     FaCCAL                    `noun`    {- maw~Al -}           [ unwords [ "love", "song" ] ]
-                              `plural`     FaCACIL
-                              `plural`     FawACIL ]
+                              `plural`     FaCACIL ]
 
  |> "m w m" <| [
 
@@ -4006,6 +3985,8 @@ cluster_75  = listing "Lexicon's properties"
     FULY                      `noun`    {- muwsaY -}           [ "Moses" ],
 
     FULY |< Iy                `adj`     {- muwsawiy~ -}        [ "Moussaoui" ],
+
+    FULA' |< Iy               `adj`     {- muwsAwiy~ -}        [ "Moussaoui" ],
 
     FULY |< Iy                `adj`     {- muwsawiy~ -}        [ "Mosaic", "Moses" ] ]
 
@@ -4207,6 +4188,11 @@ cluster_79  = listing "Lexicon's properties"
 
     FIL |< aT                 `noun`    {- miydap -}           [ "lintel", unwords [ "breastsummer", "(", "arch.", ")" ] ],
 
+    FILA'                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
+
+    FILA' |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
+                           {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
+
     FA'iL                     `noun`    {- mA}id -}            [ "seasick", unwords [ "sea", "-", "sick" ] ]
                               `plural`     FaCLY,
 
@@ -4220,14 +4206,11 @@ cluster_79  = listing "Lexicon's properties"
                               `plural`     FILAn
                               `plural`     FaCALIn,
 
-    FaCLAn |< Iy              `adj`     {- mayodAniy~ -}       [ "field", "survey", unwords [ "in", "the", "military", "field" ], "militarily" ] ]
+    FaCLAn |< Iy              `adj`     {- mayodAniy~ -}       [ "field", "survey", unwords [ "in", "the", "military", "field" ], "militarily" ],
+
+    FILA' |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ] ]
 
  |> "m y d '" <| [
-
-    KiRDAS                    `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
-
-    KiRDAS |<< "a"            `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
-                           {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
 
     KiRDAS |< Iy              `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ] ]
 
@@ -4314,12 +4297,14 @@ cluster_81  = listing "Lexicon's properties"
                               `plural`     FuCUL,
 
     FaCCAL                    `noun`    {- may~An -}           [ "liar" ]
-                              `plural`     FA'iL ]
+                              `plural`     FA'iL,
 
- |> "m y n '" <| [
+    FILA'                     `noun`    {- miynA' -}           [ "port", "harbor" ]
+                              `plural`     FawALI
+                           {- `others`  [ "mawAni' Ndip" ] -},
 
-    KiRDAS                    `noun`    {- miynA' -}           [ "port", "harbor" ]
-                           {- `others`  [ "miyan N", "mawAni' Ndip", "mawAniy N0_Nh", "miyn Napdu" ] -} ]
+    FIL |< aT                 `noun`    {- miynap -}           [ "port", "harbor" ]
+                              `plural`     FiCaL ]
 
  |> "m y r" <| [
 

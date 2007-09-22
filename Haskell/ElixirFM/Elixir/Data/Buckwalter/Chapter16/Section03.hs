@@ -128,15 +128,13 @@ cluster_43  = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- Taw~Ab -}           [ "Tawwab" ],
 
-    FULY                      `noun`    {- TuwbaY -}           [ "blessedness", "beatitude" ] ]
+    FULY                      `noun`    {- TuwbaY -}           [ "blessedness", "beatitude" ],
 
- |> ".t w b '" <| [
+    FULA' |< Iy               `adj`     {- TuwbA}iy~ -}        [ "utopian" ],
 
-    KuRDAS |< Iy              `adj`     {- TuwbA}iy~ -}        [ "utopian" ],
+    FULA' |< Iy               `adj`     {- TuwbAwiy~ -}        [ "blessed" ],
 
-    KuRDAS |< Iy              `adj`     {- TuwbAwiy~ -}        [ "blessed" ],
-
-    KuRDAS |< Iy |< aT        `noun`    {- TuwbAwiy~ap -}      [ "blessedness" ] ]
+    FULA' |< Iy |< aT         `noun`    {- TuwbAwiy~ap -}      [ "blessedness" ] ]
 
  |> ".t w b s" <| [
 

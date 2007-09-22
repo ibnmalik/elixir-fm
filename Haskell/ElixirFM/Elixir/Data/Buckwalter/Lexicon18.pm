@@ -5598,7 +5598,9 @@ $Lexicon = {
         'AEf     >aEif~  Nap     virtuous;honest'
       ],
       'patterns' => {
-        '\'a`iffA\'' => [],
+        '\'a`iffA\'' => [
+          'HaFiCLA\''
+        ],
         '\'a`iff' => [
           'HaFiCL'
         ]
@@ -27451,7 +27453,9 @@ $Lexicon = {
         'AElA}   >aEil~A}        Nhy     sick;ailing'
       ],
       'patterns' => {
-        '\'a`illA\'' => []
+        '\'a`illA\'' => [
+          'HaFiCLA\''
+        ]
       },
       'index' => '1',
       'entity' => 'adj',
@@ -28070,7 +28074,9 @@ $Lexicon = {
         '\'a`izz' => [
           'HaFiCL'
         ],
-        '\'a`izzA\'' => []
+        '\'a`izzA\'' => [
+          'HaFiCLA\''
+        ]
       },
       'index' => '2',
       'entity' => 'adj',
@@ -40306,6 +40312,25 @@ $Lexicon = {
         'judicious'
       ],
       'orig' => 'EAqil',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '`uqlA\'',
+      'form' => '`uqlA\'',
+      'lines' => [
+        ';; EuqolA\'_1',
+        'EqlA\'   EuqolA\' Nprop   Okla'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'Okla'
+      ],
+      'orig' => 'EuqolA\'',
       'prefix' => ''
     },
     {
@@ -54387,27 +54412,6 @@ $Lexicon = {
         'Abdel Aziz'
       ],
       'orig' => 'EabodAlEaziyz',
-      'prefix' => ''
-    }
-  ],
-  '` q l \'' => [
-    {
-      'types' => {},
-      'entry' => '`uqlA\'',
-      'form' => '`uqlA\'',
-      'lines' => [
-        ';; EuqolA\'_1',
-        'EqlA\'   EuqolA\' Nprop   Okla'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'Okla'
-      ],
-      'orig' => 'EuqolA\'',
       'prefix' => ''
     }
   ],

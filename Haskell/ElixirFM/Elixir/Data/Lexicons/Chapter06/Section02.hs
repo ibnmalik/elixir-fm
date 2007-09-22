@@ -288,7 +288,7 @@ cluster_26  = listing "Lexicon's properties"
                               `plural`     FaCCAL |< At,
 
     FaCIL                     `noun`    {- Hamiym -}           [ unwords [ "close", "friend" ], "intimate" ]
-                           {- `others`  [ "'a.himmA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     MaFCUL                    `noun`    {- maHomuwm -}         [ "feverish", "frantic" ] ]
 

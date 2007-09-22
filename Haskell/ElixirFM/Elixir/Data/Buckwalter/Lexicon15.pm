@@ -8851,6 +8851,20 @@ $Lexicon = {
       ],
       'orig' => 'mutaDar~ir',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.dawAriy',
+      'form' => '.dawAriy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FawALI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'DawAriy',
+      'prefix' => ''
     }
   ],
   '.d ` f' => [
@@ -14211,6 +14225,9 @@ $Lexicon->{'.d r y'}[1]{'glosses'} = $Lexicon->{'.d w r'}[0]{'glosses'};
 $Lexicon->{'.d r r'}[11]{'types'} = $Lexicon->{'.d r \''}[0]{'types'};
 $Lexicon->{'.d r r'}[11]{'lines'} = $Lexicon->{'.d r \''}[0]{'lines'};
 $Lexicon->{'.d r r'}[11]{'glosses'} = $Lexicon->{'.d r \''}[0]{'glosses'};
+$Lexicon->{'.d r r'}[22]{'types'} = $Lexicon->{'.d w r'}[0]{'types'};
+$Lexicon->{'.d r r'}[22]{'lines'} = $Lexicon->{'.d w r'}[0]{'lines'};
+$Lexicon->{'.d r r'}[22]{'glosses'} = $Lexicon->{'.d w r'}[0]{'glosses'};
 $Lexicon->{'.d f y'}[2]{'types'} = $Lexicon->{'.d f \''}[0]{'types'};
 $Lexicon->{'.d f y'}[2]{'lines'} = $Lexicon->{'.d f \''}[0]{'lines'};
 $Lexicon->{'.d f y'}[2]{'glosses'} = $Lexicon->{'.d f \''}[0]{'glosses'};

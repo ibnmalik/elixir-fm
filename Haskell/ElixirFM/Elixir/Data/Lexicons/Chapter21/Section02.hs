@@ -48,8 +48,8 @@ cluster_21  = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- qaliyl -}           [ "little", "few", "insufficient" ]
                               `plural`     FaCA'iL
-                              `plural`     FiCAL
-                           {- `others`  [ "'aqillA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA'
+                              `plural`     FiCAL,
 
     HaFaCL                    `noun`    {- Oaqal~ -}           [ unwords [ "less", "/", "least" ], unwords [ "smaller", "/", "smallest" ], "minimum" ],
 
@@ -671,9 +671,9 @@ cluster_33  = listing "Lexicon's properties"
                               `plural`     FuCuL,
 
     FiCCIL                    `noun`    {- qis~iys -}          [ "clergyman", "reverend", "clergymen" ]
+                              `plural`     FuCLA'
                               `plural`     HaFiCL |< aT
-                              `plural`     FuCLAn
-                           {- `others`  [ "qussA' Nh N0_Nh Nhy" ] -} ]
+                              `plural`     FuCLAn ]
 
  |> "q s w" <| [
 
@@ -886,8 +886,7 @@ cluster_37  = listing "Lexicon's properties"
  |> "q w q" <| [
 
     FACUL                     `noun`    {- qAwuwq -}           [ "headgear" ]
-                              `plural`     FaCACIL
-                              `plural`     FawACIL ]
+                              `plural`     FaCACIL ]
 
  |> "q w q z" <| [
 

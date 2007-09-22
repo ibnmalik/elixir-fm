@@ -124,10 +124,10 @@ cluster_2   = listing "Lexicon's properties"
  |> "^s .h .h" <| [
 
     FaCIL                     `adj`     {- \$aHiyH -}          [ "meager", "sparse", "stingy" ]
+                              `plural`     HaFiCLA'
                               `plural`     FiCAL
                               `plural`     HaFiCL |< aT
-                              `plural`     FaCA'iL
-                           {- `others`  [ "'a^si.h.hA' Nh N0_Nh Nhy" ] -},
+                              `plural`     FaCA'iL,
 
     FaCL |< At                `noun`    {- \$aH~At -}          [ "beggar" ] ]
 
@@ -592,7 +592,7 @@ cluster_11  = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- \$adiyd -}          [ "intense", "strong", "severe" ]
                               `plural`     FiCAL
-                           {- `others`  [ "'a^siddA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     FaCIL                     `noun`    {- \$adiyd -}          [ "Shadeed" ],
 

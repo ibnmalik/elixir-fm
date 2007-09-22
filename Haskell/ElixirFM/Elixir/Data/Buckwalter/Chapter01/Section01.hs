@@ -79,16 +79,18 @@ cluster_1   = listing "Lexicon's properties"
                               `plural`     FuCuL
                               `plural`     FaCA'iL ]
 
+
+cluster_2   = listing "Lexicon's properties"
+
+
  |> "' .s d" <| [
 
     FaCCaL                    `verb`    {- OaS~ad -}           [ "close", unwords [ "shut", "(", "door", ")" ], unwords [ "be", "shut", "(", "door", ")" ] ],
 
     TaFCIL                    `noun`    {- taOoSiyd -}         [ "closing", unwords [ "shutting", "(", "door", ")" ] ]
-                              `plural`     TaFCIL |< At ]
+                              `plural`     TaFCIL |< At,
 
-
-cluster_2   = listing "Lexicon's properties"
-
+    FiCLA'                    `noun`    {- IiSodA' -}          [ "closing", unwords [ "shutting", "(", "door", ")" ] ] ]
 
  |> "' .s d '" <| [
 
@@ -191,9 +193,9 @@ cluster_4   = listing "Lexicon's properties"
 
  |> "' .t l" <| [
 
-    FICAL |< Iy               `adj`     {- IiyTAliy~ -}        [ "Italian" ],
+    HICAL |< Iy               `adj`     {- IiyTAliy~ -}        [ "Italian" ],
 
-    HICAL |< Iy               `adj`     {- IiyTAliy~ -}        [ "Italian" ] ]
+    FICAL |< Iy               `adj`     {- IiyTAliy~ -}        [ "Italian" ] ]
 
  |> "' .t l s" <| [
 
@@ -483,8 +485,8 @@ cluster_9   = listing "Lexicon's properties"
     MuFaCCaL                  `noun`    {- muWa$~ar -}         [ unwords [ "pointed", "out" ], "mentioned" ],
 
     MiFCAL                    `noun`    {- mi}o$Ar -}          [ "saw" ]
-                              `plural`     MaFACIL
-                           {- `others`  [ "mawA^siyr Ndip" ] -},
+                              `plural`     MawACIL
+                              `plural`     MaFACIL,
 
     FaCUL                     `noun`    {- Oa$uwr -}           [ "Assyria" ]
                               `plural`     FACUL,
@@ -513,7 +515,11 @@ cluster_9   = listing "Lexicon's properties"
     FiL |< aN                 `adv`     {- Ii*AF -}            [ "therefore", "so", "then" ],
 
     FILAn                     `noun`    {- Iiy*An -}           [ "declaration", "proclamation" ]
-                              `plural`     FILAn |< At ]
+                              `plural`     FILAn |< At,
+
+    FILA'                     `noun`    {- Iiy*A' -}           [ "damage", "injury" ]
+                              `plural`     FILA' |< At
+                              `plural`     HICA' |< At ]
 
 
 cluster_10  = listing "Lexicon's properties"
@@ -683,7 +689,9 @@ cluster_13  = listing "Lexicon's properties"
 
     FaL |<< "awIy"            `adj`     {- Oaxawiy~ -}         [ "fraternal", "brotherly" ],
 
-    FaL |<< "awIy" |< aT      `noun`    {- Oaxawiy~ap -}       [ "fraternity", "brotherhood" ] ]
+    FaL |<< "awIy" |< aT      `noun`    {- Oaxawiy~ap -}       [ "fraternity", "brotherhood" ],
+
+    FawALI                    `noun`    {- OawAxiy -}          [ "ties", "bonds" ] ]
 
 
 cluster_14  = listing "Lexicon's properties"

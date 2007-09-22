@@ -21246,7 +21246,9 @@ $Lexicon = {
         'myAzyb  mayAziyb        Ndip    drain pipes;gutters'
       ],
       'patterns' => {
-        'mayAziyb' => []
+        'mayAziyb' => [
+          'MayACIL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -22426,7 +22428,9 @@ $Lexicon = {
         'mawAsim' => [
           'MaFACiL'
         ],
-        'mayAsim' => []
+        'mayAsim' => [
+          'MayACiL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

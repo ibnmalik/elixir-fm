@@ -347,7 +347,7 @@ cluster_67  = listing "Lexicon's properties"
     FIL |< Iy                 `adj`     {- Siyniy~ -}          [ "Chinese" ],
 
     FIL |< Iy |< aT           `noun`    {- Siyniy~ap -}        [ "porcelain", "china" ]
-                           {- `others`  [ ".sawAniy N0_Nh" ] -} ]
+                              `plural`     FawALI ]
 
  |> ".s y q l" <| [
 

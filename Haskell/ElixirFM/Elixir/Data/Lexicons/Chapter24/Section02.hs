@@ -398,10 +398,11 @@ cluster_27  = listing "Lexicon's properties"
 
     KaRADI                    `noun`    {- mayAmiy -}          [ "Miami" ] ]
 
- |> "m y n '" <| [
+ |> "m y n" <| [
 
-    KiRDAS                    `noun`    {- miynA' -}           [ "port", "harbor" ]
-                           {- `others`  [ "miyan N", "mawAni' Ndip", "mawAniy N0_Nh", "miyn Napdu" ] -} ]
+    FILA'                     `noun`    {- miynA' -}           [ "port", "harbor" ]
+                              `plural`     FawALI
+                           {- `others`  [ "mawAni' Ndip" ] -} ]
 
  |> "m y r" <| [
 

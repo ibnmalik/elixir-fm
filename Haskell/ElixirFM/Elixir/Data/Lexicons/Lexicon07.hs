@@ -12,10 +12,6 @@ lexicon = include section
 cluster_1   = listing "Lexicon's properties"
 
 
- |> "'a_hi.s.sA'" <| [
-
-    Identity |< Iy            `adj`     {- OaxiS~A}iy~ -}      [ "specialist", "expert" ] ]
-
  |> "_h ' f" <| [
 
     FACiL                     `adj`     {- xA}if -}            [ "afraid", "fearful" ]
@@ -60,10 +56,6 @@ cluster_1   = listing "Lexicon's properties"
     FACiL                     `adj`     {- xADiE -}            [ "subservient", "obedient", "subject" ]
                               `plural`     FuCLAn ]
 
-
-cluster_2   = listing "Lexicon's properties"
-
-
  |> "_h .d r" <| [
 
     FaCiL                     `verb`    {- xaDir-a -}          [ unwords [ "be", "green" ] ]
@@ -80,6 +72,10 @@ cluster_2   = listing "Lexicon's properties"
     HaFCaL                    `noun`    {- OaxoDar -}          [ "Akhdar" ],
 
     FuCL                      `noun`    {- xuDor -}            [ unwords [ "Greens", "(", "ecologists", ")" ] ] ]
+
+
+cluster_2   = listing "Lexicon's properties"
+
 
  |> "_h .d r m" <| [
 
@@ -116,6 +112,8 @@ cluster_3   = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- taxoSiyS -}         [ "designation", "allocation", "apportionment" ]
                               `plural`     TaFCIL |< At,
+
+    HaFiCLA' |< Iy            `adj`     {- OaxiS~A}iy~ -}      [ "specialist", "expert" ],
 
     TaFaCCuL                  `noun`    {- taxaS~uS -}         [ "specialization", unwords [ "major", "field" ] ]
                               `plural`     TaFaCCuL |< At,
@@ -572,7 +570,7 @@ cluster_12  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- xafiyf -}           [ "light", "slight", "sparse" ]
                               `plural`     FiCAL
                               `plural`     HaFCAL
-                           {- `others`  [ "'a_hiffA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     TaFCIL                    `noun`    {- taxofiyf -}         [ "decrease", "reduction", "dilution" ]
                               `plural`     TaFCIL |< At,
@@ -852,8 +850,8 @@ cluster_17  = listing "Lexicon's properties"
     FaCIL                     `noun`    {- xaliyl -}           [ "Hebron" ],
 
     FaCIL                     `noun`    {- xaliyl -}           [ "friend" ]
-                              `plural`     FuCLAn
-                           {- `others`  [ "'a_hillA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA'
+                              `plural`     FuCLAn,
 
     HiFCAL                    `noun`    {- IixolAl -}          [ "breach", "disturbance", "harm" ]
                               `plural`     HiFCAL |< At,

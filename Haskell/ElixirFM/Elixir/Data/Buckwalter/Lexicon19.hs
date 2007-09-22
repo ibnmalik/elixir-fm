@@ -97,7 +97,7 @@ cluster_2   = listing "Lexicon's properties"
     FaCIL                     `adj`     {- gaDiyD -}           [ "fresh", "tender" ],
 
     FaCIL                     `adj`     {- gaDiyD -}           [ "diminished", "shamed" ]
-                           {- `others`  [ "'a.gi.d.dA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     FaCAL |< aT               `noun`    {- gaDADap -}          [ "freshness", "tenderness" ],
 
@@ -1392,6 +1392,8 @@ cluster_30  = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- galA' -}            [ unwords [ "high", "cost" ], unwords [ "rising", "cost" ] ],
 
+    FuCLA'                    `noun`    {- gulowA' -}          [ "zeal", "enthusiasm" ],
+
     HaFCY                     `noun`    {- OagolaY -}          [ unwords [ "more", "/", "most", "expensive" ], unwords [ "most", "expensive" ] ],
 
     MuFACY |< aT              `noun`    {- mugAlAp -}          [ "exaggeration", "excess" ]
@@ -1410,10 +1412,6 @@ cluster_30  = listing "Lexicon's properties"
 
     MuFACY                    `adj`     {- mugAlaY -}          [ "exaggerated", "excessive", "exaggerations", "excesses" ]
                               `plural`     MuFACaL |< At ]
-
- |> ".g l w '" <| [
-
-    KuRDAS                    `noun`    {- gulowA' -}          [ "zeal", "enthusiasm" ] ]
 
 
 cluster_31  = listing "Lexicon's properties"
@@ -2307,8 +2305,8 @@ cluster_50  = listing "Lexicon's properties"
     FuCUL                     `noun`    {- guruwr -}           [ "deception", "delusion" ],
 
     FaCIL                     `adj`     {- gariyr -}           [ "misled", "deceived", "naive" ]
-                              `plural`     HaFiCL |< aT
-                           {- `others`  [ "'a.girrA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA'
+                              `plural`     HaFiCL |< aT,
 
     FiCAL                     `noun`    {- girAr -}            [ "manner", "way", "haste" ],
 
@@ -3275,7 +3273,9 @@ cluster_69  = listing "Lexicon's properties"
 
     FaCLA' |< Iy              `adj`     {- gaz~Awiy~ -}        [ "Ghazzawi" ],
 
-    FaCLA' |< Iy              `adj`     {- gaz~Awiy~ -}        [ unwords [ "Gazan", "(", "of", "/", "from", "Gaza", ")" ] ] ]
+    FaCLA' |< Iy              `adj`     {- gaz~Awiy~ -}        [ unwords [ "Gazan", "(", "of", "/", "from", "Gaza", ")" ] ],
+
+    FawALI                    `noun`    {- gawAziy -}          [ unwords [ "women", "dancers" ] ] ]
 
  |> ".gAbAn" <| [
 
@@ -3327,13 +3327,13 @@ cluster_69  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- gAntz -}            [ "" {- "Gantz" -} ] ]
 
- |> ".gArUdI" <| [
-
-    Identity                  `noun`    {- gAruwdiy -}         [ "" {- "Garoudy" -} ] ]
-
 
 cluster_70  = listing "Lexicon's properties"
 
+
+ |> ".gArUdI" <| [
+
+    Identity                  `noun`    {- gAruwdiy -}         [ "" {- "Garoudy" -} ] ]
 
  |> ".gArmIndiyA" <| [
 
@@ -3409,13 +3409,13 @@ cluster_70  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- guwriyuwn -}        [ "" {- "Gurion" -} ] ]
 
- |> ".gUsbIt^s" <| [
-
-    Identity                  `noun`    {- guwsobiyt$ -}       [ "" {- "Gospic" -} ] ]
-
 
 cluster_71  = listing "Lexicon's properties"
 
+
+ |> ".gUsbIt^s" <| [
+
+    Identity                  `noun`    {- guwsobiyt$ -}       [ "" {- "Gospic" -} ] ]
 
  |> ".gUstAf" <| [
 
@@ -3483,13 +3483,13 @@ cluster_71  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- glAzonuwsot -}      [ "glasnost" ] ]
 
- |> ".glIsirIn" <| [
-
-    Identity                  `noun`    {- gliysiriyn -}       [ "glycerin" ] ]
-
 
 cluster_72  = listing "Lexicon's properties"
 
+
+ |> ".glIsirIn" <| [
+
+    Identity                  `noun`    {- gliysiriyn -}       [ "glycerin" ] ]
 
  |> ".glUrI" <| [
 

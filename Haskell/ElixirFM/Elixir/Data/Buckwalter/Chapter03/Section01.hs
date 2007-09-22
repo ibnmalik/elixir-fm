@@ -686,12 +686,6 @@ cluster_12  = listing "Lexicon's properties"
     MutaFACI                  `noun`    {- mutatAliy -}        [ "consecutive", "successive" ]
                               `plural`     MutaFACI |< At ]
 
- |> "t m '" <| [
-
-    FICAL |< Iy               `adj`     {- tiymAwiy~ -}        [ "Timawi" ],
-
-    TICAL |< Iy               `adj`     {- tiymAwiy~ -}        [ "Timawi" ] ]
-
  |> "t m .g" <| [
 
     FaCL |< aT                `noun`    {- tamgap -}           [ "stamp" ] ]
@@ -779,9 +773,7 @@ cluster_14  = listing "Lexicon's properties"
 
  |> "t m y" <| [
 
-    FUCI                      `noun`    {- tuwmiy -}           [ "Tommy" ],
-
-    TICA' |< Iy               `adj`     {- tiymAwiy~ -}        [ "Timawi" ] ]
+    FUCI                      `noun`    {- tuwmiy -}           [ "Tommy" ] ]
 
  |> "t m z" <| [
 
@@ -840,15 +832,15 @@ cluster_14  = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- tanowap -}          [ unwords [ "coffee", "dregs" ] ] ]
 
-
-cluster_15  = listing "Lexicon's properties"
-
-
  |> "t n y" <| [
 
     FUCI                      `noun`    {- tuwniy -}           [ "Toni" ],
 
     FUCI                      `noun`    {- tuwniy -}           [ "Toni" ] ]
+
+
+cluster_15  = listing "Lexicon's properties"
+
 
  |> "t n z" <| [
 
@@ -887,10 +879,6 @@ cluster_15  = listing "Lexicon's properties"
 
     KaRDY                     `noun`    {- taqowaY -}          [ "piety" ] ]
 
-
-cluster_16  = listing "Lexicon's properties"
-
-
  |> "t q y" <| [
 
     FaCY                      `verb`    {- taqaY-i -}          [ unwords [ "be", "devout" ], unwords [ "be", "pious" ] ]
@@ -913,6 +901,10 @@ cluster_16  = listing "Lexicon's properties"
  |> "t r .g l" <| [
 
     KuRDuS                    `noun`    {- turogul -}          [ "turtledove" ] ]
+
+
+cluster_16  = listing "Lexicon's properties"
+
 
  |> "t r .h" <| [
 
@@ -951,10 +943,6 @@ cluster_16  = listing "Lexicon's properties"
 
     FuCAL |< Iy               `adj`     {- turAviy~ -}         [ "historical", unwords [ "heritage", "-", "based" ], "inherited" ] ]
 
-
-cluster_17  = listing "Lexicon's properties"
-
-
  |> "t r `" <| [
 
     FaCiL                     `verb`    {- tariE-a -}          [ unwords [ "be", "full" ] ]
@@ -966,6 +954,10 @@ cluster_17  = listing "Lexicon's properties"
                               `plural`     FuCaL,
 
     MuFCaL                    `noun`    {- mutoraE -}          [ "filled" ] ]
+
+
+cluster_17  = listing "Lexicon's properties"
+
 
  |> "t r b" <| [
 
@@ -1008,10 +1000,6 @@ cluster_17  = listing "Lexicon's properties"
 
     MuFCiL                    `noun`    {- mutorib -}          [ "dusty" ] ]
 
-
-cluster_18  = listing "Lexicon's properties"
-
-
  |> "t r b n" <| [
 
     KuRDIS                    `noun`    {- turobiyn -}         [ "turbine" ]
@@ -1028,6 +1016,10 @@ cluster_18  = listing "Lexicon's properties"
  |> "t r b z" <| [
 
     KaRADIS |< aT             `noun`    {- tarAbiyzap -}       [ "table" ] ]
+
+
+cluster_18  = listing "Lexicon's properties"
+
 
  |> "t r f" <| [
 

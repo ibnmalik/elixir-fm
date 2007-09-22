@@ -125,10 +125,10 @@ cluster_2   = listing "Lexicon's properties"
 
  |> "m .g n" <| [
 
-    MICAL                     `noun`    {- miygAn -}           [ "Megan" ]
+    FICAL                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -},
 
-    FICAL                     `noun`    {- miygAn -}           [ "Megan" ]
+    MICAL                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -} ]
 
  |> "m .h .d" <| [
@@ -828,18 +828,6 @@ cluster_14  = listing "Lexicon's properties"
 
     KiRDAS                    `noun`    {- miloyAr -}          [ "billion" ]
                               `plural`     KiRDAS |< At ]
-
- |> "m n '" <| [
-
-    MICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
-                              `plural`     FawACiL
-                              `plural`     FawACI
-                           {- `others`  [ "miyan N", "miyn Napdu" ] -},
-
-    FICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
-                              `plural`     FawACiL
-                              `plural`     FawACI
-                           {- `others`  [ "miyan N", "miyn Napdu" ] -} ]
 
  |> "m n .g l" <| [
 
@@ -1592,10 +1580,11 @@ cluster_27  = listing "Lexicon's properties"
 
     KaRADI                    `noun`    {- mayAmiy -}          [ "Miami" ] ]
 
- |> "m y n '" <| [
+ |> "m y n" <| [
 
-    KiRDAS                    `noun`    {- miynA' -}           [ "port", "harbor" ]
-                           {- `others`  [ "miyan N", "mawAni' Ndip", "mawAniy N0_Nh", "miyn Napdu" ] -} ]
+    FILA'                     `noun`    {- miynA' -}           [ "port", "harbor" ]
+                              `plural`     FawALI
+                           {- `others`  [ "mawAni' Ndip" ] -} ]
 
  |> "m y r" <| [
 

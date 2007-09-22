@@ -1046,8 +1046,7 @@ cluster_19  = listing "Lexicon's properties"
     FaCCaL                    `verb`    {- daw~an -}           [ "record", "register", "collect" ],
 
     FICAL                     `noun`    {- diywAn -}           [ "office", "agency", "anthology" ]
-                              `plural`     FaCACIL
-                              `plural`     FawACIL,
+                              `plural`     FaCACIL,
 
     FICAL |< Iy               `adj`     {- diywAniy~ -}        [ "administrative", "official" ],
 

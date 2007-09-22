@@ -1056,7 +1056,7 @@ cluster_100 = listing "Lexicon's properties"
     FaCL                      `noun`    {- nam~ -}             [ "slander", "gossip" ],
 
     FaCL                      `noun`    {- nam~ -}             [ "slanderer", "scandalmonger" ]
-                           {- `others`  [ "'animmA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     FiCL |< aT                `noun`    {- nim~ap -}           [ "louse" ],
 

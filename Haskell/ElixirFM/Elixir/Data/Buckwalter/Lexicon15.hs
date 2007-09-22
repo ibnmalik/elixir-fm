@@ -1242,7 +1242,9 @@ cluster_25  = listing "Lexicon's properties"
 
     MuFtaCL                   `adj`     {- muDoTar~ -}         [ "compelled", "forced", "obligated" ],
 
-    MutaFaCCiL                `adj`     {- mutaDar~ir -}       [ "damaged" ] ]
+    MutaFaCCiL                `adj`     {- mutaDar~ir -}       [ "damaged" ],
+
+    FawALI                    `noun`    {- DawAriy -}          [ unwords [ "predatory", "animals" ] ] ]
 
 
 cluster_26  = listing "Lexicon's properties"

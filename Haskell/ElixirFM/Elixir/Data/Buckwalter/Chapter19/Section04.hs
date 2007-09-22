@@ -432,7 +432,9 @@ cluster_69  = listing "Lexicon's properties"
 
     FaCLA' |< Iy              `adj`     {- gaz~Awiy~ -}        [ "Ghazzawi" ],
 
-    FaCLA' |< Iy              `adj`     {- gaz~Awiy~ -}        [ unwords [ "Gazan", "(", "of", "/", "from", "Gaza", ")" ] ] ]
+    FaCLA' |< Iy              `adj`     {- gaz~Awiy~ -}        [ unwords [ "Gazan", "(", "of", "/", "from", "Gaza", ")" ] ],
+
+    FawALI                    `noun`    {- gawAziy -}          [ unwords [ "women", "dancers" ] ] ]
 
  |> ".gAbAn" <| [
 
@@ -484,13 +486,13 @@ cluster_69  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- gAntz -}            [ "" {- "Gantz" -} ] ]
 
- |> ".gArUdI" <| [
-
-    Identity                  `noun`    {- gAruwdiy -}         [ "" {- "Garoudy" -} ] ]
-
 
 cluster_70  = listing "Lexicon's properties"
 
+
+ |> ".gArUdI" <| [
+
+    Identity                  `noun`    {- gAruwdiy -}         [ "" {- "Garoudy" -} ] ]
 
  |> ".gArmIndiyA" <| [
 
@@ -566,13 +568,13 @@ cluster_70  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- guwriyuwn -}        [ "" {- "Gurion" -} ] ]
 
- |> ".gUsbIt^s" <| [
-
-    Identity                  `noun`    {- guwsobiyt$ -}       [ "" {- "Gospic" -} ] ]
-
 
 cluster_71  = listing "Lexicon's properties"
 
+
+ |> ".gUsbIt^s" <| [
+
+    Identity                  `noun`    {- guwsobiyt$ -}       [ "" {- "Gospic" -} ] ]
 
  |> ".gUstAf" <| [
 
@@ -640,13 +642,13 @@ cluster_71  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- glAzonuwsot -}      [ "glasnost" ] ]
 
- |> ".glIsirIn" <| [
-
-    Identity                  `noun`    {- gliysiriyn -}       [ "glycerin" ] ]
-
 
 cluster_72  = listing "Lexicon's properties"
 
+
+ |> ".glIsirIn" <| [
+
+    Identity                  `noun`    {- gliysiriyn -}       [ "glycerin" ] ]
 
  |> ".glUrI" <| [
 

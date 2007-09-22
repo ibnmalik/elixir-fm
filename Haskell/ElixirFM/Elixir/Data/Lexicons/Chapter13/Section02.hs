@@ -70,8 +70,8 @@ cluster_22  = listing "Lexicon's properties"
                               `plural`     FuCaL,
 
     FaCIL                     `noun`    {- \$aqiyq -}          [ "brother" ]
-                              `plural`     HaFiCL |< aT
-                           {- `others`  [ "'a^siqqA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA'
+                              `plural`     HaFiCL |< aT,
 
     FaCIL                     `adj`     {- \$aqiyq -}          [ "fraternal", "brotherly" ],
 

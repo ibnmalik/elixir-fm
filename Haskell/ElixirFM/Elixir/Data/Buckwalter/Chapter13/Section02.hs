@@ -517,7 +517,7 @@ cluster_31  = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- \$adiyd -}          [ "intense", "strong", "severe" ]
                               `plural`     FiCAL
-                           {- `others`  [ "'a^siddA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     FaCIL                     `noun`    {- \$adiyd -}          [ "Shadeed" ],
 

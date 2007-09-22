@@ -737,11 +737,6 @@ cluster_14  = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- zuboyap -}          [ unwords [ "elevated", "place" ], unwords [ "above", "the", "waterline" ], "climax" ]
                               `plural`     FuCY ]
 
- |> "z f '" <| [
-
-    FUCAL                     `noun`    {- zuwfA' -}           [ "hyssop" ]
-                           {- `others`  [ "zuwfY N0" ] -} ]
-
 
 cluster_15  = listing "Lexicon's properties"
 

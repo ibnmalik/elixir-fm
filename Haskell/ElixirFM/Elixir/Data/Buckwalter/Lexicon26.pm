@@ -25311,27 +25311,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'h n d \'' => [
-    {
-      'types' => {},
-      'entry' => 'hindA\'',
-      'form' => 'hindAwiyy',
-      'lines' => [
-        ';; hinodAwiy~_1',
-        'hndAwy  hinodAwiy~      N0      Hindawi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KiRDAS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Hindawi'
-      ],
-      'orig' => 'hinodAwiy~',
-      'prefix' => ''
-    }
-  ],
   'h ^s m' => [
     {
       'types' => {
@@ -29746,6 +29725,25 @@ $Lexicon = {
         'Mohannadi'
       ],
       'orig' => 'muhan~adiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'hindA\'',
+      'form' => 'hindAwiyy',
+      'lines' => [
+        ';; hinodAwiy~_1',
+        'hndAwy  hinodAwiy~      N0      Hindawi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FiCLA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Hindawi'
+      ],
+      'orig' => 'hinodAwiy~',
       'prefix' => ''
     }
   ],

@@ -1074,8 +1074,7 @@ cluster_140 = listing "Lexicon's properties"
     MustaFIL                  `adj`     {- musotaniyr -}       [ "illuminated", "enlightened" ],
 
     FUCAL                     `noun`    {- nuw~Ar -}           [ "blossom" ]
-                              `plural`     FaCACIL
-                              `plural`     FawACIL,
+                              `plural`     FaCACIL,
 
     FaCaL                     `noun`    {- nawar -}            [ "gypsies", "vagabonds", unwords [ "white", "trash" ] ],
 

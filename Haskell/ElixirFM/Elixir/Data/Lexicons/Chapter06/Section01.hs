@@ -549,8 +549,8 @@ cluster_10  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- Habiyb -}           [ "dear", "beloved" ]
                               `plural`     HaFCAL
                               `plural`     HaFiCL |< aT
-                              `plural`     FaCA'iL
-                           {- `others`  [ "'a.hibbA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA'
+                              `plural`     FaCA'iL,
 
     HaFaCL                    `noun`    {- OaHab~ -}           [ "dearer", unwords [ "more", "/", "most", "desirable" ] ],
 

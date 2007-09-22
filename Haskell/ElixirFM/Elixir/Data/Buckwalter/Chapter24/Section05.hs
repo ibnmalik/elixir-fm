@@ -18,12 +18,14 @@ cluster_81  = listing "Lexicon's properties"
                               `plural`     FuCUL,
 
     FaCCAL                    `noun`    {- may~An -}           [ "liar" ]
-                              `plural`     FA'iL ]
+                              `plural`     FA'iL,
 
- |> "m y n '" <| [
+    FILA'                     `noun`    {- miynA' -}           [ "port", "harbor" ]
+                              `plural`     FawALI
+                           {- `others`  [ "mawAni' Ndip" ] -},
 
-    KiRDAS                    `noun`    {- miynA' -}           [ "port", "harbor" ]
-                           {- `others`  [ "miyan N", "mawAni' Ndip", "mawAniy N0_Nh", "miyn Napdu" ] -} ]
+    FIL |< aT                 `noun`    {- miynap -}           [ "port", "harbor" ]
+                              `plural`     FiCaL ]
 
  |> "m y r" <| [
 

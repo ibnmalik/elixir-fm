@@ -81,9 +81,9 @@ cluster_2   = listing "Lexicon's properties"
 
  |> "' .t l" <| [
 
-    FICAL |< Iy               `adj`     {- IiyTAliy~ -}        [ "Italian" ],
+    HICAL |< Iy               `adj`     {- IiyTAliy~ -}        [ "Italian" ],
 
-    HICAL |< Iy               `adj`     {- IiyTAliy~ -}        [ "Italian" ] ]
+    FICAL |< Iy               `adj`     {- IiyTAliy~ -}        [ "Italian" ] ]
 
  |> "' .t l s" <| [
 
@@ -189,6 +189,10 @@ cluster_3   = listing "Lexicon's properties"
                               `plural`     FICAL |< At
                               `plural`     HICAL |< At ]
 
+
+cluster_4   = listing "Lexicon's properties"
+
+
  |> "' _d _d" <| [
 
     FiL                       `conj`    {- Ii* -}              [ "because" ],
@@ -196,11 +200,11 @@ cluster_3   = listing "Lexicon's properties"
     FiL |< aN                 `adv`     {- Ii*AF -}            [ "therefore", "so", "then" ],
 
     FILAn                     `noun`    {- Iiy*An -}           [ "declaration", "proclamation" ]
-                              `plural`     FILAn |< At ]
+                              `plural`     FILAn |< At,
 
-
-cluster_4   = listing "Lexicon's properties"
-
+    FILA'                     `noun`    {- Iiy*A' -}           [ "damage", "injury" ]
+                              `plural`     FILA' |< At
+                              `plural`     HICA' |< At ]
 
  |> "' _d n" <| [
 
@@ -750,11 +754,11 @@ cluster_14  = listing "Lexicon's properties"
 
  |> "' l '" <| [
 
-    FICAL                     `noun`    {- IiylA' -}           [ "oath" ]
+    HICAL                     `noun`    {- IiylA' -}           [ "oath" ]
                               `plural`     FICAL |< At
                               `plural`     HICAL |< At,
 
-    HICAL                     `noun`    {- IiylA' -}           [ "oath" ]
+    FICAL                     `noun`    {- IiylA' -}           [ "oath" ]
                               `plural`     FICAL |< At
                               `plural`     HICAL |< At ]
 
@@ -809,7 +813,11 @@ cluster_15  = listing "Lexicon's properties"
 
     FAL                       `noun`    {- \|l -}              [ "Al" ],
 
-    FiL                       `noun`    {- Iil -}              [ "El" ] ]
+    FiL                       `noun`    {- Iil -}              [ "El" ],
+
+    FILA'                     `noun`    {- IiylA' -}           [ "oath" ]
+                              `plural`     FILA' |< At
+                              `plural`     HICA' |< At ]
 
  |> "' l m" <| [
 
@@ -855,14 +863,14 @@ cluster_15  = listing "Lexicon's properties"
 
     KaRDAS |< Iy              `adj`     {- OalomAniy~ -}       [ "German" ] ]
 
+
+cluster_16  = listing "Lexicon's properties"
+
+
  |> "' l m s" <| [
 
     KaRDAS                    `noun`    {- OalomAs -}          [ "diamond" ]
                               `plural`     KaRDAS |< At ]
-
-
-cluster_16  = listing "Lexicon's properties"
-
 
  |> "' l n" <| [
 

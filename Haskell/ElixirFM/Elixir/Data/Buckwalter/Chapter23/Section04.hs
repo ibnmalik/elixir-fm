@@ -206,8 +206,7 @@ cluster_64  = listing "Lexicon's properties"
     MutaFaCCiL                `adj`     {- mutalaw~in -}       [ unwords [ "capricious", "(", "changing", "ones", "colors", ")" ] ],
 
     FICAL                     `noun`    {- liywAn -}           [ "hall" ]
-                              `plural`     FaCACIL
-                              `plural`     FawACIL ]
+                              `plural`     FaCACIL ]
 
  |> "l w q" <| [
 

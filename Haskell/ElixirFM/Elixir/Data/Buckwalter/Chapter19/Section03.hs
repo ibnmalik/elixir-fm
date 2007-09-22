@@ -437,8 +437,8 @@ cluster_50  = listing "Lexicon's properties"
     FuCUL                     `noun`    {- guruwr -}           [ "deception", "delusion" ],
 
     FaCIL                     `adj`     {- gariyr -}           [ "misled", "deceived", "naive" ]
-                              `plural`     HaFiCL |< aT
-                           {- `others`  [ "'a.girrA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA'
+                              `plural`     HaFiCL |< aT,
 
     FiCAL                     `noun`    {- girAr -}            [ "manner", "way", "haste" ],
 

@@ -839,17 +839,15 @@ cluster_37  = listing "Lexicon's properties"
 
  |> "' l '" <| [
 
-    FICAL                     `noun`    {- IiylA' -}           [ "oath" ]
-                              `plural`     FICAL |< At
-                              `plural`     HICAL |< At,
-
     HICAL                     `noun`    {- IiylA' -}           [ "oath" ]
                               `plural`     FICAL |< At
                               `plural`     HICAL |< At,
 
-    HACAL                     `noun`    {- \|lA' -}            [ "benefits", "blessings" ],
+    FICAL                     `noun`    {- IiylA' -}           [ "oath" ]
+                              `plural`     FICAL |< At
+                              `plural`     HICAL |< At,
 
-    FUCAL |<< "i"             `pron`    {- OuwlA'i -}          [ unwords [ "they", "/", "those" ] ] ]
+    HACAL                     `noun`    {- \|lA' -}            [ "benefits", "blessings" ] ]
 
 
 cluster_38  = listing "Lexicon's properties"
@@ -1027,7 +1025,11 @@ cluster_40  = listing "Lexicon's properties"
 
     FAL                       `noun`    {- \|l -}              [ "Al" ],
 
-    FiL                       `noun`    {- Iil -}              [ "El" ] ]
+    FiL                       `noun`    {- Iil -}              [ "El" ],
+
+    FILA'                     `noun`    {- IiylA' -}           [ "oath" ]
+                              `plural`     FILA' |< At
+                              `plural`     HICA' |< At ]
 
 
 section = [ cluster_21,

@@ -112,7 +112,7 @@ cluster_2   = listing "Lexicon's properties"
     FiCAL                     `noun`    {- TigAr -}            [ unwords [ "tughra", "(", "weight", "measure", ")" ] ],
 
     FuCLY                     `noun`    {- TugoraY -}          [ unwords [ "Ottoman", "calligraphic", "signature" ] ]
-                           {- `others`  [ ".tu.grA' Nh N0_Nh Nhy" ] -} ]
+                              `plural`     FuCLA' ]
 
  |> ".t .g t" <| [
 
@@ -342,14 +342,6 @@ cluster_7   = listing "Lexicon's properties"
 
     MaFCUL                    `adj`     {- maToEuwn -}         [ "infected", unwords [ "plague", "-", "stricken" ] ] ]
 
- |> ".t b '" <| [
-
-    FUCAL |< Iy               `adj`     {- TuwbA}iy~ -}        [ "utopian" ],
-
-    FUCAL |< Iy               `adj`     {- TuwbAwiy~ -}        [ "blessed" ],
-
-    FUCAL |< Iy |< aT         `noun`    {- TuwbAwiy~ap -}      [ "blessedness" ] ]
-
  |> ".t b .t b" <| [
 
     KaRDaS                    `verb`    {- TaboTab -}          [ "gurgle", unwords [ "lap", "up" ] ],
@@ -490,7 +482,7 @@ cluster_10  = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- Tabiyb -}           [ "physician", "doctor" ]
                               `plural`     HaFiCL |< aT
-                           {- `others`  [ "'a.tibbA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     FiCAL |< aT               `noun`    {- TibAbap -}          [ unwords [ "medical", "profession" ], unwords [ "medical", "treatment" ] ],
 

@@ -6654,7 +6654,9 @@ $Lexicon = {
         'A*l     >a*il~  Nap     despised;submissive'
       ],
       'patterns' => {
-        '\'a_dillA\'' => [],
+        '\'a_dillA\'' => [
+          'HaFiCLA\''
+        ],
         '\'a_dill' => [
           'HaFiCL'
         ]

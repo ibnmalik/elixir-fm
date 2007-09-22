@@ -9283,25 +9283,6 @@ $Lexicon = {
       ],
       'orig' => 'jazA}iy~',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '^giyzA\'',
-      'form' => '^giyzAwiyy',
-      'lines' => [
-        ';; jiyzAwiy~_1',
-        'jyzAwy  jiyzAwiy~       Nall    of/from Giza'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FICAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'of/from Giza'
-      ],
-      'orig' => 'jiyzAwiy~',
-      'prefix' => ''
     }
   ],
   '^g y m' => [
@@ -15012,22 +14993,6 @@ $Lexicon = {
         'George'
       ],
       'orig' => 'juwroj',
-      'prefix' => ''
-    }
-  ],
-  '^g y z \'' => [
-    {
-      'types' => {},
-      'entry' => '^giyzA\'',
-      'form' => '^giyzAwiyy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KiRDAS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [],
-      'orig' => 'jiyzAwiy~',
       'prefix' => ''
     }
   ],
@@ -39317,6 +39282,25 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => '^giyzA\'',
+      'form' => '^giyzAwiyy',
+      'lines' => [
+        ';; jiyzAwiy~_1',
+        'jyzAwy  jiyzAwiy~       Nall    of/from Giza'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FILA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'of/from Giza'
+      ],
+      'orig' => 'jiyzAwiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => '^giyzAn',
       'form' => '^giyzAn',
       'lines' => [
@@ -40385,9 +40369,6 @@ $Lexicon->{'^g y ^s'}[7]{'glosses'} = $Lexicon->{'^g \' ^s'}[2]{'glosses'};
 $Lexicon->{'^g \' y'}[0]{'types'} = $Lexicon->{'^g y \''}[3]{'types'};
 $Lexicon->{'^g \' y'}[0]{'lines'} = $Lexicon->{'^g y \''}[3]{'lines'};
 $Lexicon->{'^g \' y'}[0]{'glosses'} = $Lexicon->{'^g y \''}[3]{'glosses'};
-$Lexicon->{'^g y z \''}[0]{'types'} = $Lexicon->{'^g z \''}[15]{'types'};
-$Lexicon->{'^g y z \''}[0]{'lines'} = $Lexicon->{'^g z \''}[15]{'lines'};
-$Lexicon->{'^g y z \''}[0]{'glosses'} = $Lexicon->{'^g z \''}[15]{'glosses'};
 $Lexicon->{'^g b b'}[3]{'types'} = $Lexicon->{'^g b n'}[9]{'types'};
 $Lexicon->{'^g b b'}[3]{'lines'} = $Lexicon->{'^g b n'}[9]{'lines'};
 $Lexicon->{'^g b b'}[3]{'glosses'} = $Lexicon->{'^g b n'}[9]{'glosses'};

@@ -12,117 +12,6 @@ lexicon = include section
 cluster_101 = listing "Lexicon's properties"
 
 
- |> "q w m" <| [
-
-    FAL                       `verb`    {- qAm-u -}            [ "undertake", unwords [ "carry", "out" ] ]
-                              `imperf`     FUL
-                              `pfirst`     FuL,
-
-    FaCCaL                    `verb`    {- qaw~am -}           [ "straighten" ],
-
-    FACaL                     `verb`    {- qAwam -}            [ "resist", "oppose" ],
-
-    HaFAL                     `verb`    {- OaqAm -}            [ "install", "establish", "erect", unwords [ "take", "place" ] ],
-
-    IstaFAL                   `verb`    {- AisotaqAm -}        [ unwords [ "be", "straight" ], unwords [ "be", "right" ] ],
-
-    FaCL                      `noun`    {- qawom -}            [ "people", "nation" ]
-                              `plural`     HaFCAL,
-
-    FaCL |< aT                `noun`    {- qawomap -}          [ "revolt" ],
-
-    FaCL |< Iy                `adj`     {- qawomiy~ -}         [ "national", "state" ],
-
-    FaCL |< Iy                `adj`     {- qawomiy~ -}         [ "nationalist" ],
-
-    FaCL |< Iy |< aT          `noun`    {- qawomiy~ap -}       [ "nationalism" ],
-
-    FaCL |< Iy |< aT          `noun`    {- qawomiy~ap -}       [ "nationality" ],
-
-    FAL |< aT                 `noun`    {- qAmap -}            [ "stature" ],
-
-    FIL |< aT                 `noun`    {- qiymap -}           [ "value", "worth", "morals", "ethics" ]
-                           {- `others`  [ "qiyam N" ] -},
-
-    FIL |< aT                 `noun`    {- qiymap -}           [ "amount", "quantity" ]
-                           {- `others`  [ "qiyam N" ] -},
-
-    FIL |< Iy                 `adj`     {- qiymiy~ -}          [ unwords [ "non", "-", "fungible" ] ],
-
-    FayyiL                    `noun`    {- qay~im -}           [ "valuable" ],
-
-    FaCAL                     `noun`    {- qawAm -}            [ unwords [ "upright", "posture" ], unwords [ "proper", "condition" ] ],
-
-    FiCAL                     `noun`    {- qiwAm -}            [ "support", "sustenance", "livelihood" ],
-
-    FiCAL |< aT               `noun`    {- qiwAmap -}          [ "guardianship" ],
-
-    FaCCAL                    `noun`    {- qaw~Am -}           [ "manager", "guardian" ],
-
-    FaCIL                     `adj`     {- qawiym -}           [ "upright", "proper", "authentic" ],
-
-    FiyAL                     `noun`    {- qiyAm -}            [ "undertaking", unwords [ "carrying", "out" ] ],
-
-    FiyAL |< aT               `noun`    {- qiyAmap -}          [ "resurrection" ],
-
-    MaFAL                     `noun`    {- maqAm -}            [ "place", "location", "situation" ]
-                              `plural`     MaFAL |< At,
-
-    MaFAL |< aT               `noun`    {- maqAmap -}          [ unwords [ "maqama", "(", "novel", "in", "rhymed", "prose", ")" ], unwords [ "maqamat", "(", "novels", "in", "rhymed", "prose", ")" ] ]
-                              `plural`     MaFAL |< At,
-
-    HaFCaL                    `noun`    {- Oaqowam -}          [ "straighter", unwords [ "more", "correct" ], unwords [ "more", "appropriate" ] ],
-
-    MiFCaL                    `noun`    {- miqowam -}          [ unwords [ "plow", "handle" ] ],
-
-    TaFCIL                    `noun`    {- taqowiym -}         [ "rating", "valuation", "calendars" ]
-                              `plural`     TaFACIL,
-
-    TaFCIL                    `noun`    {- taqowiym -}         [ "calendar", "chronology" ],
-
-    MuFACaL |< aT             `noun`    {- muqAwamap -}        [ "resistance", "opposition", "struggle" ],
-
-    HiFAL |< aT               `noun`    {- IiqAmap -}          [ "residency", unwords [ "setting", "up" ] ],
-
-    IstiFAL |< aT             `noun`    {- AisotiqAmap -}      [ "correctness", "integrity" ],
-
-    FA'iL                     `noun`    {- qA}im -}            [ unwords [ "carrying", "out" ], "executing" ],
-
-    FA'iL                     `adj`     {- qA}im -}            [ "remaining", "existing" ],
-
-    FA'iL                     `adj`     {- qA}im -}            [ "standing", "upright" ]
-                              `plural`     FUCAL,
-
-    FA'iL |< aT               `noun`    {- qA}imap -}          [ "support", "base" ],
-
-    FA'iL |< aT               `noun`    {- qA}imap -}          [ "list", "index" ]
-                              `plural`     FawA'iL
-                              `plural`     FA'iL |< At,
-
-    MuFaCCiL                  `noun`    {- muqaw~im -}         [ "appraiser", "assessor" ],
-
-    MuFaCCiL                  `noun`    {- muqaw~im -}         [ "component", unwords [ "basic", "element" ], "ingredient" ]
-                              `plural`     MuFaCCiL |< At,
-
-    MuFaCCaL                  `adj`     {- muqaw~am -}         [ "valued", "treasured", "valuables", "assets" ]
-                              `plural`     MuFaCCaL |< At,
-
-    MuFACiL                   `noun`    {- muqAwim -}          [ "antagonists", "adversaries" ],
-
-    MuFIL                     `noun`    {- muqiym -}           [ "residing", "resident" ],
-
-    MuFIL |< Iy               `adj`     {- muqiymiy~ -}        [ "residential" ],
-
-    MuFIL |< Iy |< aT         `noun`    {- muqiymiy~ap -}      [ "residency" ],
-
-    MuFAL                     `adj`     {- muqAm -}            [ "raised", "erected" ],
-
-    MustaFIL                  `noun`    {- musotaqiym -}       [ "straight", "correct", "righteous" ] ]
-
-
-cluster_102 = listing "Lexicon's properties"
-
-
  |> "q w m s" <| [
 
     KaRDaS                    `noun`    {- qawomas -}          [ unwords [ "sea", "depth" ], "adversities" ]
@@ -135,7 +24,6 @@ cluster_102 = listing "Lexicon's properties"
 
     FACUL                     `noun`    {- qAwuwn -}           [ "muskmelon", "cantaloupe" ]
                               `plural`     FaCACIL
-                              `plural`     FawACIL
                               `plural`     FACUL |< At ]
 
  |> "q w n y" <| [
@@ -158,8 +46,7 @@ cluster_102 = listing "Lexicon's properties"
     FuCayL                    `noun`    {- quwayoq -}          [ "Quwaiq" ],
 
     FACUL                     `noun`    {- qAwuwq -}           [ "headgear" ]
-                              `plural`     FaCACIL
-                              `plural`     FawACIL ]
+                              `plural`     FaCACIL ]
 
  |> "q w q `" <| [
 
@@ -183,7 +70,7 @@ cluster_102 = listing "Lexicon's properties"
     KaRDAS |< Iy              `adj`     {- qawoqAziy~ -}       [ "Caucasian" ] ]
 
 
-cluster_103 = listing "Lexicon's properties"
+cluster_102 = listing "Lexicon's properties"
 
 
  |> "q w r" <| [
@@ -234,7 +121,7 @@ cluster_103 = listing "Lexicon's properties"
     MuFaCCaL                  `adj`     {- muqaw~as -}         [ "arched", "bent", "curved" ] ]
 
 
-cluster_104 = listing "Lexicon's properties"
+cluster_103 = listing "Lexicon's properties"
 
 
  |> "q w t" <| [
@@ -274,7 +161,7 @@ cluster_104 = listing "Lexicon's properties"
                               `plural`     FUL |< At ]
 
 
-cluster_105 = listing "Lexicon's properties"
+cluster_104 = listing "Lexicon's properties"
 
 
  |> "q w y" <| [
@@ -324,7 +211,7 @@ cluster_105 = listing "Lexicon's properties"
     MuFaCCY                   `adj`     {- muqaw~aY -}         [ "strengthened", "reinforced" ] ]
 
 
-cluster_106 = listing "Lexicon's properties"
+cluster_105 = listing "Lexicon's properties"
 
 
  |> "q y '" <| [
@@ -371,7 +258,7 @@ cluster_106 = listing "Lexicon's properties"
     MuFACaL |< aT             `noun`    {- muqAyaDap -}        [ "barter", "exchange" ] ]
 
 
-cluster_107 = listing "Lexicon's properties"
+cluster_106 = listing "Lexicon's properties"
 
 
  |> "q y .h" <| [
@@ -438,7 +325,7 @@ cluster_107 = listing "Lexicon's properties"
                               `plural`     KaRADIS ]
 
 
-cluster_108 = listing "Lexicon's properties"
+cluster_107 = listing "Lexicon's properties"
 
 
  |> "q y d" <| [
@@ -493,7 +380,7 @@ cluster_108 = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At ]
 
 
-cluster_109 = listing "Lexicon's properties"
+cluster_108 = listing "Lexicon's properties"
 
 
  |> "q y l" <| [
@@ -528,7 +415,7 @@ cluster_109 = listing "Lexicon's properties"
     KaRDUS |< aT              `noun`    {- qayoluwlap -}       [ unwords [ "midday", "nap" ], "siesta" ] ]
 
 
-cluster_110 = listing "Lexicon's properties"
+cluster_109 = listing "Lexicon's properties"
 
 
  |> "q y m" <| [
@@ -583,7 +470,7 @@ cluster_110 = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- qayoqab -}          [ "maple" ] ]
 
 
-cluster_111 = listing "Lexicon's properties"
+cluster_110 = listing "Lexicon's properties"
 
 
  |> "q y r" <| [
@@ -644,7 +531,7 @@ cluster_111 = listing "Lexicon's properties"
                               `plural`     FIL ]
 
 
-cluster_112 = listing "Lexicon's properties"
+cluster_111 = listing "Lexicon's properties"
 
 
  |> "q z .h" <| [
@@ -705,7 +592,7 @@ cluster_112 = listing "Lexicon's properties"
                               `plural`     FaCAL |< At ]
 
 
-cluster_113 = listing "Lexicon's properties"
+cluster_112 = listing "Lexicon's properties"
 
 
  |> "q z q z" <| [
@@ -764,7 +651,7 @@ cluster_113 = listing "Lexicon's properties"
     Identity                  `noun`    {- qAZimbuwr -}        [ "" {- "Kazempour" -} ] ]
 
 
-cluster_114 = listing "Lexicon's properties"
+cluster_113 = listing "Lexicon's properties"
 
 
  |> "qA^sAnI" <| [
@@ -848,7 +735,7 @@ cluster_114 = listing "Lexicon's properties"
     Identity                  `adv`     {- qabola}i*K -}       [ unwords [ "before", "then" ] ] ]
 
 
-cluster_115 = listing "Lexicon's properties"
+cluster_114 = listing "Lexicon's properties"
 
 
  |> "qablamA" <| [
@@ -920,7 +807,7 @@ cluster_115 = listing "Lexicon's properties"
     Identity |< Iy            `noun`    {- qanodalafotiy~ -}   [ "sexton", "sacristan" ] ]
 
 
-cluster_116 = listing "Lexicon's properties"
+cluster_115 = listing "Lexicon's properties"
 
 
  |> "qar.tA^gann" <| [
@@ -1002,7 +889,7 @@ cluster_116 = listing "Lexicon's properties"
     Identity                  `noun`    {- qayowayon -}        [ "" {- "Qaiwain" -} ] ]
 
 
-cluster_117 = listing "Lexicon's properties"
+cluster_116 = listing "Lexicon's properties"
 
 
  |> "qima.tr" <| [
@@ -1078,7 +965,7 @@ cluster_117 = listing "Lexicon's properties"
     Identity                  `noun`    {- qurunod -}          [ "corundum" ] ]
 
 
-cluster_118 = listing "Lexicon's properties"
+cluster_117 = listing "Lexicon's properties"
 
 
  |> "qus.tan.tIn" <| [
@@ -1134,6 +1021,5 @@ section = [ cluster_101,
             cluster_114,
             cluster_115,
             cluster_116,
-            cluster_117,
-            cluster_118 ]
+            cluster_117 ]
 

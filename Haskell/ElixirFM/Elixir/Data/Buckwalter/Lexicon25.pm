@@ -21130,8 +21130,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'nawAwiys' => [
-          'FaCACIL',
-          'FawACIL'
+          'FaCACIL'
         ]
       },
       'index' => '1',
@@ -36094,8 +36093,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'nawAwiyr' => [
-          'FaCACIL',
-          'FawACIL'
+          'FaCACIL'
         ]
       },
       'index' => '1',
@@ -56188,7 +56186,9 @@ $Lexicon = {
         'AnmA}   >anim~A}        Nhy     slanderers;scandalmongers'
       ],
       'patterns' => {
-        '\'animmA\'' => []
+        '\'animmA\'' => [
+          'HaFiCLA\''
+        ]
       },
       'index' => '2',
       'entity' => 'noun',

@@ -572,7 +572,7 @@ cluster_31  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- xafiyf -}           [ "light", "slight", "sparse" ]
                               `plural`     FiCAL
                               `plural`     HaFCAL
-                           {- `others`  [ "'a_hiffA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     TaFCIL                    `noun`    {- taxofiyf -}         [ "decrease", "reduction", "dilution" ]
                               `plural`     TaFCIL |< At,

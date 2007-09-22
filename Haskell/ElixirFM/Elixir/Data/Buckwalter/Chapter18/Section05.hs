@@ -467,6 +467,8 @@ cluster_88  = listing "Lexicon's properties"
                               `plural`     FuCaLA'
                               `plural`     FuCCAL,
 
+    FuCLA'                    `noun`    {- EuqolA' -}          [ "Okla" ],
+
     MaFCUL                    `adj`     {- maEoquwl -}         [ "plausible", "logical", "reasonable" ],
 
     MaFCUL |< Iy |< aT        `noun`    {- maEoquwliy~ap -}    [ "plausibility", "reasonableness", unwords [ "logical", "nature" ] ],
@@ -483,10 +485,6 @@ cluster_88  = listing "Lexicon's properties"
 
 cluster_89  = listing "Lexicon's properties"
 
-
- |> "` q l '" <| [
-
-    KuRDAS                    `noun`    {- EuqolA' -}          [ "Okla" ] ]
 
  |> "` q l n" <| [
 

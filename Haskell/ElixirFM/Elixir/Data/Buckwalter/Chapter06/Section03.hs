@@ -474,7 +474,7 @@ cluster_50  = listing "Lexicon's properties"
     FuCUL                     `noun`    {- Huluwl -}           [ "advent", "beginning", "start", "arrival" ],
 
     FaCIL                     `noun`    {- Haliyl -}           [ "husband" ]
-                           {- `others`  [ "'a.hillA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     FaCIL |< aT               `noun`    {- Haliylap -}         [ "wife" ]
                               `plural`     FaCA'iL,

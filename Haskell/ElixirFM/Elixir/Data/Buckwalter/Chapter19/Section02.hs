@@ -419,6 +419,8 @@ cluster_30  = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- galA' -}            [ unwords [ "high", "cost" ], unwords [ "rising", "cost" ] ],
 
+    FuCLA'                    `noun`    {- gulowA' -}          [ "zeal", "enthusiasm" ],
+
     HaFCY                     `noun`    {- OagolaY -}          [ unwords [ "more", "/", "most", "expensive" ], unwords [ "most", "expensive" ] ],
 
     MuFACY |< aT              `noun`    {- mugAlAp -}          [ "exaggeration", "excess" ]
@@ -437,10 +439,6 @@ cluster_30  = listing "Lexicon's properties"
 
     MuFACY                    `adj`     {- mugAlaY -}          [ "exaggerated", "excessive", "exaggerations", "excesses" ]
                               `plural`     MuFACaL |< At ]
-
- |> ".g l w '" <| [
-
-    KuRDAS                    `noun`    {- gulowA' -}          [ "zeal", "enthusiasm" ] ]
 
 
 cluster_31  = listing "Lexicon's properties"

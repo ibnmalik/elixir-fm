@@ -1978,7 +1978,9 @@ cluster_39  = listing "Lexicon's properties"
 
     FaL |<< "awIy"            `adj`     {- badawiy~ -}         [ "Bedouin" ]
                               `plural`     FuCY |< aT
-                           {- `others`  [ "badw N" ] -} ]
+                           {- `others`  [ "badw N" ] -},
+
+    FawALI                    `noun`    {- bawAdiy -}          [ "nomads", "Bedouins" ] ]
 
 
 cluster_40  = listing "Lexicon's properties"
@@ -5069,6 +5071,9 @@ cluster_98  = listing "Lexicon's properties"
                               `plural`     FawACiL,
 
     MaFCUL                    `noun`    {- mabotuwr -}         [ "mutilated", "incomplete" ],
+
+    FiCLA'                    `noun`    {- bitorA' -}          [ "Petra" ]
+                              `plural`     FaCLA',
 
     FICAL                     `noun`    {- biytAr -}           [ "Bitar", "Betar" ] ]
 

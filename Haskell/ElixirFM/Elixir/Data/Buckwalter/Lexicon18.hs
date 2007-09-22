@@ -2500,8 +2500,8 @@ cluster_49  = listing "Lexicon's properties"
     FaCL                      `adj`     {- Eaf~ -}             [ "virtuous", "honest" ],
 
     FaCIL                     `adj`     {- Eafiyf -}           [ "virtuous", "honest" ]
-                              `plural`     HaFiCL |< aT
-                           {- `others`  [ "'a`iffA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA'
+                              `plural`     HaFiCL |< aT,
 
     FaCIL                     `noun`    {- Eafiyf -}           [ "Afeef", "Afif" ],
 
@@ -3069,7 +3069,7 @@ cluster_61  = listing "Lexicon's properties"
                               `plural`     FiCaL,
 
     FaCIL                     `adj`     {- Ealiyl -}           [ "sick", "ailing" ]
-                           {- `others`  [ "'a`illA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     FaCIL                     `adj`     {- Ealiyl -}           [ "fresh" ],
 
@@ -4597,6 +4597,8 @@ cluster_88  = listing "Lexicon's properties"
                               `plural`     FuCaLA'
                               `plural`     FuCCAL,
 
+    FuCLA'                    `noun`    {- EuqolA' -}          [ "Okla" ],
+
     MaFCUL                    `adj`     {- maEoquwl -}         [ "plausible", "logical", "reasonable" ],
 
     MaFCUL |< Iy |< aT        `noun`    {- maEoquwliy~ap -}    [ "plausibility", "reasonableness", unwords [ "logical", "nature" ] ],
@@ -4613,10 +4615,6 @@ cluster_88  = listing "Lexicon's properties"
 
 cluster_89  = listing "Lexicon's properties"
 
-
- |> "` q l '" <| [
-
-    KuRDAS                    `noun`    {- EuqolA' -}          [ "Okla" ] ]
 
  |> "` q l n" <| [
 
@@ -7023,7 +7021,7 @@ cluster_140 = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- Eaziyz -}           [ "dear", "precious" ]
                               `plural`     HaFiCL |< aT
-                           {- `others`  [ "'a`izzA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     FaCIL |< Iy               `adj`     {- Eaziyziy~ -}        [ "Azizi" ],
 

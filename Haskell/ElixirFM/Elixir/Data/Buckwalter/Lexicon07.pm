@@ -14238,7 +14238,9 @@ $Lexicon = {
         'xlAn    xul~An  N       friends'
       ],
       'patterns' => {
-        '\'a_hillA\'' => [],
+        '\'a_hillA\'' => [
+          'HaFiCLA\''
+        ],
         '_hullAn' => [
           'FuCLAn'
         ]
@@ -14401,6 +14403,20 @@ $Lexicon = {
       'suffix' => ' |<< "awIy"',
       'glosses' => [],
       'orig' => 'xalawiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hawAliy',
+      'form' => '_hawAliy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FawALI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'xawAliy',
       'prefix' => ''
     }
   ],
@@ -16647,7 +16663,9 @@ $Lexicon = {
         'AxSA}   >axiS~A}        Nhy     friends;confidants'
       ],
       'patterns' => {
-        '\'a_hi.s.sA\'' => []
+        '\'a_hi.s.sA\'' => [
+          'HaFiCLA\''
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -16826,6 +16844,27 @@ $Lexicon = {
         'apportionment'
       ],
       'orig' => 'taxoSiyS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'a_hi.s.sA\'',
+      'form' => '\'a_hi.s.sA\'iyy',
+      'lines' => [
+        ';; >axiS~A}iy~_1',
+        '>xSA}y  >axiS~A}iy~     Nall    specialist;expert     [[>axiS~A}iy~/ADJ]]',
+        'AxSA}y  >axiS~A}iy~     Nall    specialist;expert     [[>axiS~A}iy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'HaFiCLA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'specialist',
+        'expert'
+      ],
+      'orig' => 'OaxiS~A}iy~',
       'prefix' => ''
     },
     {
@@ -29604,7 +29643,9 @@ $Lexicon = {
         '\'a_hfAf' => [
           'HaFCAL'
         ],
-        '\'a_hiffA\'' => []
+        '\'a_hiffA\'' => [
+          'HaFiCLA\''
+        ]
       },
       'index' => '1',
       'entity' => 'adj',
@@ -34919,29 +34960,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'a_hi.s.sA\'' => [
-    {
-      'types' => {},
-      'entry' => '\'a_hi.s.sA\'',
-      'form' => '\'a_hi.s.sA\'iyy',
-      'lines' => [
-        ';; >axiS~A}iy~_1',
-        '>xSA}y  >axiS~A}iy~     Nall    specialist;expert     [[>axiS~A}iy~/ADJ]]',
-        'AxSA}y  >axiS~A}iy~     Nall    specialist;expert     [[>axiS~A}iy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'specialist',
-        'expert'
-      ],
-      'orig' => 'OaxiS~A}iy~',
-      'prefix' => ''
-    }
-  ],
   '_h .t r' => [
     {
       'types' => {
@@ -38302,6 +38320,9 @@ $Lexicon->{'_h l l'}[19]{'glosses'} = $Lexicon->{'_h l w'}[10]{'glosses'};
 $Lexicon->{'_h l l'}[20]{'types'} = $Lexicon->{'_h l w'}[11]{'types'};
 $Lexicon->{'_h l l'}[20]{'lines'} = $Lexicon->{'_h l w'}[11]{'lines'};
 $Lexicon->{'_h l l'}[20]{'glosses'} = $Lexicon->{'_h l w'}[11]{'glosses'};
+$Lexicon->{'_h l l'}[21]{'types'} = $Lexicon->{'_h l w'}[19]{'types'};
+$Lexicon->{'_h l l'}[21]{'lines'} = $Lexicon->{'_h l w'}[19]{'lines'};
+$Lexicon->{'_h l l'}[21]{'glosses'} = $Lexicon->{'_h l w'}[19]{'glosses'};
 $Lexicon->{'_h w \''}[0]{'types'} = $Lexicon->{'_h w y'}[3]{'types'};
 $Lexicon->{'_h w \''}[0]{'lines'} = $Lexicon->{'_h w y'}[3]{'lines'};
 $Lexicon->{'_h w \''}[0]{'glosses'} = $Lexicon->{'_h w y'}[3]{'glosses'};

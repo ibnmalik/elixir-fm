@@ -265,11 +265,9 @@ cluster_25  = listing "Lexicon's properties"
 
     FaCLA'                    `noun`    {- tayomA' -}          [ "Taima'" ],
 
+    FILA' |< Iy               `adj`     {- tiymAwiy~ -}        [ "Timawi" ],
+
     FaCL |< Iy |< aT          `noun`    {- tayomiy~ap -}       [ "Taimiyya" ] ]
-
- |> "t y m '" <| [
-
-    KiRDAS |< Iy              `adj`     {- tiymAwiy~ -}        [ "Timawi" ] ]
 
  |> "t y m r" <| [
 

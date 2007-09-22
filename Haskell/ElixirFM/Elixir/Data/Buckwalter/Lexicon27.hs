@@ -4197,7 +4197,7 @@ cluster_82  = listing "Lexicon's properties"
 
     MICaL                     `noun`    {- miysam -}           [ "brand", "stigma" ]
                               `plural`     MaFACiL
-                           {- `others`  [ "mayAsim Ndip" ] -},
+                              `plural`     MayACiL,
 
     MaFCUL                    `adj`     {- mawosuwm -}         [ "marked", "branded" ] ]
 
@@ -4416,7 +4416,7 @@ cluster_86  = listing "Lexicon's properties"
     FuCUL                     `noun`    {- wuzuwb -}           [ "flowing", "flow" ],
 
     MICAL                     `noun`    {- miyzAb -}           [ unwords [ "drain", "pipe" ], "gutter" ]
-                           {- `others`  [ "mayAziyb Ndip" ] -} ]
+                              `plural`     MayACIL ]
 
  |> "w z l" <| [
 

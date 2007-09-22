@@ -257,10 +257,10 @@ cluster_5   = listing "Lexicon's properties"
     FuCL                      `noun`    {- \$uH~ -}            [ "avarice", "greed", "paucity" ],
 
     FaCIL                     `adj`     {- \$aHiyH -}          [ "meager", "sparse", "stingy" ]
+                              `plural`     HaFiCLA'
                               `plural`     FiCAL
                               `plural`     HaFiCL |< aT
-                              `plural`     FaCA'iL
-                           {- `others`  [ "'a^si.h.hA' Nh N0_Nh Nhy" ] -},
+                              `plural`     FaCA'iL,
 
     MuFACL |< aT              `adj`     {- mu$AH~ap -}         [ "contestable", "disputable" ],
 
@@ -1545,7 +1545,7 @@ cluster_31  = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- \$adiyd -}          [ "intense", "strong", "severe" ]
                               `plural`     FiCAL
-                           {- `others`  [ "'a^siddA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     FaCIL                     `noun`    {- \$adiyd -}          [ "Shadeed" ],
 
@@ -3076,8 +3076,8 @@ cluster_60  = listing "Lexicon's properties"
                               `plural`     FuCaL,
 
     FaCIL                     `noun`    {- \$aqiyq -}          [ "brother" ]
-                              `plural`     HaFiCL |< aT
-                           {- `others`  [ "'a^siqqA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA'
+                              `plural`     HaFiCL |< aT,
 
     FaCIL                     `adj`     {- \$aqiyq -}          [ "fraternal", "brotherly" ],
 
@@ -4312,8 +4312,7 @@ cluster_83  = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- \$aw~Al -}          [ unwords [ "Shawwal", "(", "month", ")" ], unwords [ "months", "of", "Shawwal" ] ]
                               `plural`     FaCCAL |< At
-                              `plural`     FaCACIL
-                              `plural`     FawACIL,
+                              `plural`     FaCACIL,
 
     MaFAL                     `noun`    {- ma$Al -}            [ "transportation", "porterage" ],
 

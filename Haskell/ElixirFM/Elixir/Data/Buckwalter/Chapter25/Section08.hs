@@ -45,8 +45,7 @@ cluster_141 = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- naw~As -}           [ "pendulum" ],
 
     FACUL                     `noun`    {- nAwuws -}           [ "sarcophagus" ]
-                              `plural`     FaCACIL
-                              `plural`     FawACIL ]
+                              `plural`     FaCACIL ]
 
  |> "n w s r" <| [
 

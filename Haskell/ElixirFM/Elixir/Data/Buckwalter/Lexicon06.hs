@@ -1328,8 +1328,8 @@ cluster_26  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- Habiyb -}           [ "dear", "beloved" ]
                               `plural`     HaFCAL
                               `plural`     HaFiCL |< aT
-                              `plural`     FaCA'iL
-                           {- `others`  [ "'a.hibbA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA'
+                              `plural`     FaCA'iL,
 
     HaFaCL                    `noun`    {- OaHab~ -}           [ "dearer", unwords [ "more", "/", "most", "desirable" ] ],
 
@@ -2519,7 +2519,7 @@ cluster_50  = listing "Lexicon's properties"
     FuCUL                     `noun`    {- Huluwl -}           [ "advent", "beginning", "start", "arrival" ],
 
     FaCIL                     `noun`    {- Haliyl -}           [ "husband" ]
-                           {- `others`  [ "'a.hillA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     FaCIL |< aT               `noun`    {- Haliylap -}         [ "wife" ]
                               `plural`     FaCA'iL,
@@ -3048,7 +3048,7 @@ cluster_61  = listing "Lexicon's properties"
                               `plural`     FaCCAL |< At,
 
     FaCIL                     `noun`    {- Hamiym -}           [ unwords [ "close", "friend" ], "intimate" ]
-                           {- `others`  [ "'a.himmA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     HaFaCL                    `noun`    {- OaHam~ -}           [ "black" ]
                               `plural`     FaCLA',
@@ -3870,17 +3870,15 @@ cluster_78  = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- Harobap -}          [ "lance", "bayonet" ]
                               `plural`     FiCAL,
 
+    FiCLA'                    `noun`    {- HirobA' -}          [ "chameleon" ]
+                              `plural`     FaCALI,
+
     MiFCAL                    `noun`    {- miHorAb -}          [ unwords [ "mihrab", "(", "prayer", "niche", ")" ], "sanctum", unwords [ "mihrabs", "(", "prayer", "niches", ")" ] ]
                               `plural`     MaFACiL,
 
     MuFACaL |< aT             `noun`    {- muHArabap -}        [ unwords [ "struggle", "against" ], "combat" ],
 
     MuFACiL                   `noun`    {- muHArib -}          [ "warrior", "combatant", "belligerent" ] ]
-
- |> ".h r b '" <| [
-
-    KiRDAS                    `noun`    {- HirobA' -}          [ "chameleon" ]
-                              `plural`     KaRADI ]
 
  |> ".h r b ^s" <| [
 

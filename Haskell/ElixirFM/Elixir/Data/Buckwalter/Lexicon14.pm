@@ -4738,7 +4738,9 @@ $Lexicon = {
         'SwAny   SawAniy N0_Nh   porcelain;china'
       ],
       'patterns' => {
-        '.sawAniy' => []
+        '.sawAniy' => [
+          'FawALI'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

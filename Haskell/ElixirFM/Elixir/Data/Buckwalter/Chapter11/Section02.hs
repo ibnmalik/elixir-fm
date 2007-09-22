@@ -999,10 +999,10 @@ cluster_39  = listing "Lexicon's properties"
     MiFCaL                    `noun`    {- mizowad -}          [ unwords [ "provision", "sack" ] ]
                               `plural`     MaFACiL ]
 
- |> "z w f '" <| [
+ |> "z w f" <| [
 
-    KuRDAS                    `noun`    {- zuwfA' -}           [ "hyssop" ]
-                           {- `others`  [ "zuwfY N0" ] -} ]
+    FULA'                     `noun`    {- zuwfA' -}           [ "hyssop" ]
+                              `plural`     FULY ]
 
 
 cluster_40  = listing "Lexicon's properties"

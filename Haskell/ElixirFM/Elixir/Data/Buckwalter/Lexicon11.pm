@@ -5319,6 +5319,36 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'z w f' => [
+    {
+      'types' => {
+        'zuwfY' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'zuwfA\'',
+      'form' => 'zuwfA\'',
+      'lines' => [
+        ';; zuwfA\'_1',
+        'zwfA\'   zuwfA\'  N0_Nh   hyssop',
+        'zwfY    zuwfY   N0      hyssop'
+      ],
+      'patterns' => {
+        'zuwfY' => [
+          'FULY'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FULA\'',
+      'suffix' => '',
+      'glosses' => [
+        'hyssop'
+      ],
+      'orig' => 'zuwfA\'',
+      'prefix' => ''
+    }
+  ],
   'z h \'' => [
     {
       'types' => {},
@@ -20899,34 +20929,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'z w f \'' => [
-    {
-      'types' => {
-        'zuwfY' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'zuwfA\'',
-      'form' => 'zuwfA\'',
-      'lines' => [
-        ';; zuwfA\'_1',
-        'zwfA\'   zuwfA\'  N0_Nh   hyssop',
-        'zwfY    zuwfY   N0      hyssop'
-      ],
-      'patterns' => {
-        'zuwfY' => []
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'hyssop'
-      ],
-      'orig' => 'zuwfA\'',
-      'prefix' => ''
-    }
-  ],
   'z b r' => [
     {
       'types' => {
@@ -21876,24 +21878,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'z f \'' => [
-    {
-      'types' => {},
-      'entry' => 'zuwfA\'',
-      'form' => 'zuwfA\'',
-      'lines' => [],
-      'patterns' => {
-        'zuwfY' => []
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'zuwfA\'',
-      'prefix' => ''
-    }
-  ],
   'z w \'' => [
     {
       'types' => {},
@@ -22383,9 +22367,6 @@ $Lexicon->{'z w r'}[16]{'glosses'} = $Lexicon->{'z \' r'}[3]{'glosses'};
 $Lexicon->{'z w r'}[17]{'types'} = $Lexicon->{'z \' r'}[4]{'types'};
 $Lexicon->{'z w r'}[17]{'lines'} = $Lexicon->{'z \' r'}[4]{'lines'};
 $Lexicon->{'z w r'}[17]{'glosses'} = $Lexicon->{'z \' r'}[4]{'glosses'};
-$Lexicon->{'z f \''}[0]{'types'} = $Lexicon->{'z w f \''}[0]{'types'};
-$Lexicon->{'z f \''}[0]{'lines'} = $Lexicon->{'z w f \''}[0]{'lines'};
-$Lexicon->{'z f \''}[0]{'glosses'} = $Lexicon->{'z w f \''}[0]{'glosses'};
 $Lexicon->{'z w \''}[0]{'types'} = $Lexicon->{'z w y'}[4]{'types'};
 $Lexicon->{'z w \''}[0]{'lines'} = $Lexicon->{'z w y'}[4]{'lines'};
 $Lexicon->{'z w \''}[0]{'glosses'} = $Lexicon->{'z w y'}[4]{'glosses'};

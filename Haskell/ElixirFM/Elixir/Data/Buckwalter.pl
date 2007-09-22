@@ -226,6 +226,11 @@ sub storeEntry ($$) {
                                 }
                             }
                         }
+
+                        if ($pAttErns[$i] =~ /^MawAC[iI]L$/ and $Clone->{'morphs'} =~ /(?:FAC[iaU]L|FaCCAL|FA\'iL)/) {
+
+                            $throw->{$pAttErns[$i]}++;
+                        }
                     }
 
                     push @{$Clone->{'patterns'}->{$form}}, $pAttErns[$i];
@@ -571,21 +576,29 @@ sub throwForms {
 
     my ($orig, @toor) = @_;
 
-    my @form = ($orig, $orig, $orig);
+    my @form = ($orig);
 
-    $form[0] =~ s/C/\'/g if $toor[1] eq '\'';
-    $form[0] =~ s/C/w/g if $toor[1] eq 'w';
-    $form[0] =~ s/C/y/g if $toor[1] eq 'y';
+    @form = map { my ($x, $y) = ($_) x 2;
 
-    $form[1] = $form[0];
+                  $y =~ s/(?<!^)F/$toor[0]/     if $toor[0] =~ /^[\'wy]$/;
 
-    $form[1] =~ s/L/\'/g if $toor[2] eq '\'';
-    $form[1] =~ s/L/w/g if $toor[2] eq 'w';
-    $form[1] =~ s/L/y/g if $toor[2] eq 'y';
+                  $y eq $x ? $x : ($x, $y) } @form;
 
-    $form[2] =~ s/L/\'/g if $toor[2] eq '\'';
-    $form[2] =~ s/L/w/g if $toor[2] eq 'w';
-    $form[2] =~ s/L/y/g if $toor[2] eq 'y';
+    @form = map { my ($x, $y, $z) = ($_) x 3;
+
+                  $y =~ s/(?<!^)C/$toor[1]/     if $toor[1] =~ /^[\'wy]$/;
+
+                  $z =~ s/(?<!^)C/$toor[1]/g    if $toor[1] =~ /^[\'wy]$/;
+
+                  $z eq $y ? $y eq $x ? $x : ($x, $y)
+
+                           : ($x, $y, $z) } @form;
+
+    @form = map { my ($x, $y) = ($_) x 2;
+
+                  $y =~ s/(?<!^)L/$toor[2]/g    if $toor[2] =~ /^[\'wy]$/;
+
+                  $y eq $x ? $x : ($x, $y) } @form;
 
     return @form;
 }

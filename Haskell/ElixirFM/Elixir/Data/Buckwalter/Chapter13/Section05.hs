@@ -111,8 +111,7 @@ cluster_83  = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- \$aw~Al -}          [ unwords [ "Shawwal", "(", "month", ")" ], unwords [ "months", "of", "Shawwal" ] ]
                               `plural`     FaCCAL |< At
-                              `plural`     FaCACIL
-                              `plural`     FawACIL,
+                              `plural`     FaCACIL,
 
     MaFAL                     `noun`    {- ma$Al -}            [ "transportation", "porterage" ],
 

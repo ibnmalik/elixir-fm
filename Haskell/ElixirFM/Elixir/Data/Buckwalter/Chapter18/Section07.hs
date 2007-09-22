@@ -909,7 +909,7 @@ cluster_140 = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- Eaziyz -}           [ "dear", "precious" ]
                               `plural`     HaFiCL |< aT
-                           {- `others`  [ "'a`izzA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     FaCIL |< Iy               `adj`     {- Eaziyziy~ -}        [ "Azizi" ],
 

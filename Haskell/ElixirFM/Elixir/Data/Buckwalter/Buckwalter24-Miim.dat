@@ -5495,17 +5495,6 @@ mwn     muwn    Nap     provisions;mortar
 tmwyn   tamowiyn        N/At    food supply;provisions
 ;; tamowiyniy~_1
 tmwyny  tamowiyniy~     N-ap    supplying;providing     <pos>tamowiyniy~/ADJ</pos>
-;; miynA'_1
-mynA'   miynA'  N0_Nh   port;harbor
-mynA&   miynA&  Nh      port;harbor
-mynA}   miynA}  Nhy     port;harbor
-mynA'   miynA'  NAn_Nayn        ports;harbors
-mynA}   miynA}  Nayn    ports;harbors
-myn     miyn    Napdu   port;harbor
-myn     miyan   N       ports;harbors
-mwAny   mawAniy N0_Nh   ports;harbors
-mwAn    mawAn   NK      ports;harbors
-mwAn}   mawAni} Ndip    ports;harbors
 ;
 ;--- mwnA
 ;; muwnA_1
@@ -6211,6 +6200,18 @@ mynA    miynA   N0      glaze;enamel
 mynA'   miynA'  N0_Nh   glaze;enamel
 mynA&   miynA&  Nh      glaze;enamel
 mynA}   miynA}  Nhy     glaze;enamel
+;; miynA'_1
+mynA'   miynA'  N0_Nh   port;harbor
+mynA&   miynA&  Nh      port;harbor
+mynA}   miynA}  Nhy     port;harbor
+mynA'   miynA'  NAn_Nayn        ports;harbors
+mynA}   miynA}  Nayn    ports;harbors
+mwAny   mawAniy N0_Nh   ports;harbors
+mwAn    mawAn   NK      ports;harbors
+mwAn}   mawAni} Ndip    ports;harbors
+;; miynap_1
+myn     miyn    Napdu   port;harbor
+myn     miyan   N       ports;harbors
 ;
 ;--- mynd
 ;; miynodAnAw_1

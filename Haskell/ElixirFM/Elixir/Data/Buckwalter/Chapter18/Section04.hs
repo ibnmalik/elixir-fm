@@ -26,7 +26,7 @@ cluster_61  = listing "Lexicon's properties"
                               `plural`     FiCaL,
 
     FaCIL                     `adj`     {- Ealiyl -}           [ "sick", "ailing" ]
-                           {- `others`  [ "'a`illA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     FaCIL                     `adj`     {- Ealiyl -}           [ "fresh" ],
 

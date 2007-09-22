@@ -1022,8 +1022,8 @@ cluster_19  = listing "Lexicon's properties"
     FaCAL                     `noun`    {- EafAf -}            [ "Afaf" ],
 
     FaCIL                     `adj`     {- Eafiyf -}           [ "virtuous", "honest" ]
-                              `plural`     HaFiCL |< aT
-                           {- `others`  [ "'a`iffA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA'
+                              `plural`     HaFiCL |< aT,
 
     FaCIL                     `noun`    {- Eafiyf -}           [ "Afeef", "Afif" ] ]
 
@@ -2917,7 +2917,7 @@ cluster_55  = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- Eaziyz -}           [ "dear", "precious" ]
                               `plural`     HaFiCL |< aT
-                           {- `others`  [ "'a`izzA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     TaFCIL                    `adv`     {- taEoziyz -}         [ "support", "backing", unwords [ "in", "support", "of" ] ],
 

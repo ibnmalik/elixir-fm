@@ -1721,7 +1721,7 @@ cluster_35  = listing "Lexicon's properties"
 
     MICaL                     `noun`    {- miysam -}           [ "brand", "stigma" ]
                               `plural`     MaFACiL
-                           {- `others`  [ "mayAsim Ndip" ] -} ]
+                              `plural`     MayACiL ]
 
  |> "w s q" <| [
 

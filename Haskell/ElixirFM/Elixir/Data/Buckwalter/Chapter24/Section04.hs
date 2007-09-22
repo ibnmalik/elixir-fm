@@ -673,8 +673,7 @@ cluster_73  = listing "Lexicon's properties"
     MutaFaCCiL                `noun`    {- mutamaw~il -}       [ "financier", "underwriter", unwords [ "funding", "source" ] ],
 
     FaCCAL                    `noun`    {- maw~Al -}           [ unwords [ "love", "song" ] ]
-                              `plural`     FaCACIL
-                              `plural`     FawACIL ]
+                              `plural`     FaCACIL ]
 
  |> "m w m" <| [
 
@@ -758,6 +757,8 @@ cluster_75  = listing "Lexicon's properties"
     FULY                      `noun`    {- muwsaY -}           [ "Moses" ],
 
     FULY |< Iy                `adj`     {- muwsawiy~ -}        [ "Moussaoui" ],
+
+    FULA' |< Iy               `adj`     {- muwsAwiy~ -}        [ "Moussaoui" ],
 
     FULY |< Iy                `adj`     {- muwsawiy~ -}        [ "Mosaic", "Moses" ] ]
 
@@ -959,6 +960,11 @@ cluster_79  = listing "Lexicon's properties"
 
     FIL |< aT                 `noun`    {- miydap -}           [ "lintel", unwords [ "breastsummer", "(", "arch.", ")" ] ],
 
+    FILA'                     `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
+
+    FILA' |<< "a"             `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
+                           {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
+
     FA'iL                     `noun`    {- mA}id -}            [ "seasick", unwords [ "sea", "-", "sick" ] ]
                               `plural`     FaCLY,
 
@@ -972,14 +978,11 @@ cluster_79  = listing "Lexicon's properties"
                               `plural`     FILAn
                               `plural`     FaCALIn,
 
-    FaCLAn |< Iy              `adj`     {- mayodAniy~ -}       [ "field", "survey", unwords [ "in", "the", "military", "field" ], "militarily" ] ]
+    FaCLAn |< Iy              `adj`     {- mayodAniy~ -}       [ "field", "survey", unwords [ "in", "the", "military", "field" ], "militarily" ],
+
+    FILA' |< Iy               `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ] ]
 
  |> "m y d '" <| [
-
-    KiRDAS                    `noun`    {- miydA' -}           [ "measure", "amount", "length" ],
-
-    KiRDAS |<< "a"            `prep`    {- miydA'a -}          [ unwords [ "in", "front", "of" ], "facing" ]
-                           {- `others`  [ "bimiydA'i FW-Wa-i", "miydA'i FW-Wa FW-Wa-i" ] -},
 
     KiRDAS |< Iy              `adj`     {- miydAwiy~ -}        [ "Midaoui", "Midawi" ] ]
 

@@ -767,11 +767,9 @@ cluster_36  = listing "Lexicon's properties"
 
     MuFaCCaL                  `noun`    {- muhan~ad -}         [ unwords [ "sharp", "sword", "(", "made", "of", "Indian", "steel", ")" ] ],
 
-    MuFaCCaL |< Iy            `adj`     {- muhan~adiy~ -}      [ "Muhannadi", "Mohannadi" ] ]
+    MuFaCCaL |< Iy            `adj`     {- muhan~adiy~ -}      [ "Muhannadi", "Mohannadi" ],
 
- |> "h n d '" <| [
-
-    KiRDAS |< Iy              `adj`     {- hinodAwiy~ -}       [ "Hindawi" ] ]
+    FiCLA' |< Iy              `adj`     {- hinodAwiy~ -}       [ "Hindawi" ] ]
 
  |> "h n d m" <| [
 

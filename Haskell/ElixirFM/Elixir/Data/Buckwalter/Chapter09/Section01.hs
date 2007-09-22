@@ -448,8 +448,8 @@ cluster_9   = listing "Lexicon's properties"
     FiCL |< aT                `noun`    {- \*il~ap -}          [ "depravity", "submissiveness" ],
 
     FaCIL                     `adj`     {- \*aliyl -}          [ "despised", "submissive" ]
-                              `plural`     HaFiCL |< aT
-                           {- `others`  [ "'a_dillA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA'
+                              `plural`     HaFiCL |< aT,
 
     FaCUL                     `adj`     {- \*aluwl -}          [ "docile", "tractable" ]
                               `plural`     FuCuL,

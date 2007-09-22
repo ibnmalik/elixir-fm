@@ -12,63 +12,6 @@ lexicon = include section
 cluster_61  = listing "Lexicon's properties"
 
 
- |> "q m .s" <| [
-
-    FaCaL                     `verb`    {- qamaS-u -}          [ "gallop" ]
-                              `imperf`     FCuL,
-
-    FaCCaL                    `verb`    {- qam~aS -}           [ "clothe" ],
-
-    TaFaCCaL                  `verb`    {- taqam~aS -}         [ unwords [ "be", "clothed", "with" ], unwords [ "put", "on" ] ],
-
-    FaCIL                     `noun`    {- qamiyS -}           [ "shirt" ]
-                              `plural`     FuCLAn
-                              `plural`     FuCuL
-                              `plural`     HaFCiL |< aT,
-
-    TaFCIL                    `noun`    {- taqomiyS -}         [ "clothing" ]
-                              `plural`     TaFCIL |< At,
-
-    TaFaCCuL                  `noun`    {- taqam~uS -}         [ unwords [ "identification", "with" ] ]
-                              `plural`     TaFaCCuL |< At ]
-
- |> "q m .t" <| [
-
-    FaCaL                     `verb`    {- qamaT-ui -}         [ "bandage", "swaddle" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
-
-    FaCCaL                    `verb`    {- qam~aT -}           [ "bandage", "swaddle" ],
-
-    FiCL                      `noun`    {- qimoT -}            [ "rope", "fetter" ]
-                              `plural`     HaFCAL,
-
-    FaCL |< aT                `noun`    {- qamoTap -}          [ "kerchief" ],
-
-    FiCAL                     `noun`    {- qimAT -}            [ "swaddle", "diaper" ]
-                              `plural`     HaFCiL |< aT
-                              `plural`     FiCAL |< At
-                              `plural`     FuCuL ]
-
- |> "q m ^s" <| [
-
-    FaCaL                     `verb`    {- qama$-ui -}         [ "collect", unwords [ "pick", "up" ] ]
-                              `imperf`     FCuL
-                              `imperf`     FCiL,
-
-    FaCCaL                    `verb`    {- qam~a$ -}           [ "collect", unwords [ "pick", "up" ] ],
-
-    FuCAL                     `noun`    {- qumA$ -}            [ "fabric", "cloth" ]
-                              `plural`     HaFCiL |< aT,
-
-    FaCCAL                    `noun`    {- qam~A$ -}           [ "draper", unwords [ "cloth", "merchant" ] ],
-
-    FaCL |< aT                `noun`    {- qamo$ap -}          [ "strap", "thong", "whip" ] ]
-
-
-cluster_62  = listing "Lexicon's properties"
-
-
  |> "q m `" <| [
 
     FaCaL                     `verb`    {- qamaE-a -}          [ "repress" ]
@@ -122,7 +65,7 @@ cluster_62  = listing "Lexicon's properties"
                               `plural`     MaFACL ]
 
 
-cluster_63  = listing "Lexicon's properties"
+cluster_62  = listing "Lexicon's properties"
 
 
  |> "q m n" <| [
@@ -149,7 +92,7 @@ cluster_63  = listing "Lexicon's properties"
                               `plural`     KaRADiS ]
 
 
-cluster_64  = listing "Lexicon's properties"
+cluster_63  = listing "Lexicon's properties"
 
 
  |> "q m r" <| [
@@ -206,7 +149,7 @@ cluster_64  = listing "Lexicon's properties"
     FaCaL |< aT               `noun`    {- qamarap -}          [ "cabin", "bunk", "berth", "cockpit" ] ]
 
 
-cluster_65  = listing "Lexicon's properties"
+cluster_64  = listing "Lexicon's properties"
 
 
  |> "q m r q" <| [
@@ -244,7 +187,7 @@ cluster_65  = listing "Lexicon's properties"
                               `plural`     IFtiCAL |< At ]
 
 
-cluster_66  = listing "Lexicon's properties"
+cluster_65  = listing "Lexicon's properties"
 
 
  |> "q n .s" <| [
@@ -285,7 +228,7 @@ cluster_66  = listing "Lexicon's properties"
     KuRDuS |< Iy |< aT        `noun`    {- qunoSuliy~ap -}     [ "consulate" ] ]
 
 
-cluster_67  = listing "Lexicon's properties"
+cluster_66  = listing "Lexicon's properties"
 
 
  |> "q n .t" <| [
@@ -335,7 +278,7 @@ cluster_67  = listing "Lexicon's properties"
                               `plural`     FiCAL ]
 
 
-cluster_68  = listing "Lexicon's properties"
+cluster_67  = listing "Lexicon's properties"
 
 
  |> "q n `" <| [
@@ -395,7 +338,7 @@ cluster_68  = listing "Lexicon's properties"
     MuFtaCiL                  `adj`     {- muqotaniE -}        [ "satisfied", "content", "convinced" ] ]
 
 
-cluster_69  = listing "Lexicon's properties"
+cluster_68  = listing "Lexicon's properties"
 
 
  |> "q n b" <| [
@@ -457,7 +400,7 @@ cluster_69  = listing "Lexicon's properties"
     KuRDuS                    `noun`    {- qunodus -}          [ "beaver" ] ]
 
 
-cluster_70  = listing "Lexicon's properties"
+cluster_69  = listing "Lexicon's properties"
 
 
  |> "q n d z" <| [
@@ -491,7 +434,7 @@ cluster_70  = listing "Lexicon's properties"
                               `plural`     HaFACIL ]
 
 
-cluster_71  = listing "Lexicon's properties"
+cluster_70  = listing "Lexicon's properties"
 
 
  |> "q n n" <| [
@@ -552,7 +495,7 @@ cluster_71  = listing "Lexicon's properties"
     FuCUL                     `noun`    {- qunuwt -}           [ "obedience", "devoutness" ] ]
 
 
-cluster_72  = listing "Lexicon's properties"
+cluster_71  = listing "Lexicon's properties"
 
 
  |> "q n w" <| [
@@ -617,7 +560,7 @@ cluster_72  = listing "Lexicon's properties"
                               `plural`     KaRADiS ]
 
 
-cluster_73  = listing "Lexicon's properties"
+cluster_72  = listing "Lexicon's properties"
 
 
  |> "q r '" <| [
@@ -664,7 +607,7 @@ cluster_73  = listing "Lexicon's properties"
     IstiFCAL |< Iy            `adj`     {- AisotiqorA}iy~ -}   [ "inductive", "investigative" ] ]
 
 
-cluster_74  = listing "Lexicon's properties"
+cluster_73  = listing "Lexicon's properties"
 
 
  |> "q r .d" <| [
@@ -729,7 +672,7 @@ cluster_74  = listing "Lexicon's properties"
     MunFaCiL                  `adj`     {- munoqariD -}        [ "extinct" ] ]
 
 
-cluster_75  = listing "Lexicon's properties"
+cluster_74  = listing "Lexicon's properties"
 
 
  |> "q r .h" <| [
@@ -781,7 +724,7 @@ cluster_75  = listing "Lexicon's properties"
     MiFCaL |< Iy              `adj`     {- miqoraHiy~ -}       [ "Megrahi" ] ]
 
 
-cluster_76  = listing "Lexicon's properties"
+cluster_75  = listing "Lexicon's properties"
 
 
  |> "q r .s" <| [
@@ -825,7 +768,7 @@ cluster_76  = listing "Lexicon's properties"
                               `plural`     KaRADiS |< aT ]
 
 
-cluster_77  = listing "Lexicon's properties"
+cluster_76  = listing "Lexicon's properties"
 
 
  |> "q r .t" <| [
@@ -892,7 +835,7 @@ cluster_77  = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- qaroTas -}          [ "paper", unwords [ "sheet", "of", "paper" ] ] ]
 
 
-cluster_78  = listing "Lexicon's properties"
+cluster_77  = listing "Lexicon's properties"
 
 
  |> "q r .z" <| [
@@ -942,7 +885,7 @@ cluster_78  = listing "Lexicon's properties"
     MuFCiL                    `adj`     {- muqori$ -}          [ "wealthy" ] ]
 
 
-cluster_79  = listing "Lexicon's properties"
+cluster_78  = listing "Lexicon's properties"
 
 
  |> "q r `" <| [
@@ -1019,7 +962,7 @@ cluster_79  = listing "Lexicon's properties"
     MuFtaCiL                  `noun`    {- muqotariE -}        [ "voter", "voting" ] ]
 
 
-cluster_80  = listing "Lexicon's properties"
+cluster_79  = listing "Lexicon's properties"
 
 
  |> "q r b" <| [
@@ -1128,6 +1071,45 @@ cluster_80  = listing "Lexicon's properties"
     FawACiL |< Iy             `adj`     {- qawAribiy~ -}       [ "boatman" ],
 
     FaCCAL                    `noun`    {- qar~Ab -}           [ unwords [ "water", "carrier" ] ] ]
+
+
+cluster_80  = listing "Lexicon's properties"
+
+
+ |> "q r b n" <| [
+
+    KuRDAS                    `noun`    {- qurobAn -}          [ "Mass", "Communion" ]
+                              `plural`     KaRADIS,
+
+    KuRDAS |< aT              `noun`    {- qurobAnap -}        [ "Host", "Communion" ],
+
+    KuRDAS |< Iy              `adj`     {- qurobAniy~ -}       [ "sacrificial", "eucharistic", "sacramental" ] ]
+
+ |> "q r d" <| [
+
+    FiCL                      `noun`    {- qirod -}            [ "monkey" ]
+                              `plural`     FuCUL,
+
+    FiCL |< Iy                `adj`     {- qirodiy~ -}         [ "simian", "monkey" ],
+
+    FuCaL |< At |< Iy         `noun`    {- quradAtiy~ -}       [ unwords [ "monkey", "trainer" ] ],
+
+    FuCAL                     `noun`    {- qurAd -}            [ "tick" ]
+                              `plural`     FiCLAn,
+
+    MaFCUL                    `adj`     {- maqoruwd -}         [ "exhausted" ] ]
+
+ |> "q r d .h" <| [
+
+    KuRDuS                    `noun`    {- quroduH -}          [ "baboon" ]
+                              `plural`     KaRADiS,
+
+    KuRDUS                    `noun`    {- quroduwH -}         [ "baboon" ]
+                              `plural`     KaRADIS ]
+
+ |> "q r d b" <| [
+
+    KaRDaS                    `noun`    {- qarodab -}          [ "bistort" ] ]
 
 
 section = [ cluster_61,

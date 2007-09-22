@@ -440,7 +440,7 @@ instance Rules PatternT where
                             FuCALY,
                             FaCLA',
                             FuCaLA',
-                            HaFCiLA', HACiLA',
+                            HaFCiLA', HACiLA', HaFILA', HaFiCLA',
                             FaCA'iL,
                             FaCACiL,
                             FaCACIL,
@@ -450,8 +450,8 @@ instance Rules PatternT where
                             HaFACIL,
                             TaFACiL,
                             TaFACIL,
-                            MaFACiL, MaFA'iL, MaFACL,
-                            MaFACIL, MaFA'IL,
+                            MaFACiL, MaFA'iL, MaFACL, MawACiL, MayACiL,
+                            MaFACIL, MaFA'IL, MawACIL, MayACIL,
                             -- FuCaL, FuCAL,
                             FiCLiyA', FACULA',
                             FaCALIn,
@@ -535,6 +535,9 @@ data PatternT =
         |   FuCaLA'
         |   FACULA'
 
+        |   FiCLA'                      |   FILA'
+        |   FuCLA'                      |   FULA'
+
         |   FiCLiyA'                    |   FILiyA'
 
     {-- |   FACiL   --}                 |   FA'iL                                       |   FA'I
@@ -570,6 +573,12 @@ data PatternT =
         |   MaFACiL                     |   MaFA'iL     |   MaFACI      |   MaFACL
         |   MaFACIL                     |   MaFA'IL
 
+                        |   MawACiL
+                        |   MayACiL
+
+                        |   MawACIL
+                        |   MayACIL
+
         |   HaFCAL      |   HACAL                       |   HaFCA'                      |   HACA'
                                         |   HAFAL                                       |   HAFA'
 
@@ -581,7 +590,7 @@ data PatternT =
         |   HaFACiL                                     |   HaFACI
         |   HaFACIL
 
-        |   HaFCiLA'    |   HACiLA'     |   HaFILA'
+        |   HaFCiLA'    |   HACiLA'     |   HaFILA'                     |   HaFiCLA'
 
         |   HuFCUL      |   HUCUL
         |   HuFCIL      |   HUCIL
@@ -607,7 +616,7 @@ data PatternT =
 
         |   FaCaLY
 
-        |   FaCALI
+        |   FaCALI                      |   FawALI
         |   FaCALY
         |   FuCALY
 

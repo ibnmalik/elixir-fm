@@ -11075,39 +11075,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.h r b \'' => [
-    {
-      'types' => {
-        '.harAbiy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => '.hirbA\'',
-      'form' => '.hirbA\'',
-      'lines' => [
-        ';; HirobA\'_1',
-        'HrbA\'   HirobA\' N0_Nh   chameleon',
-        'HrbA&   HirobA& Nh      chameleon',
-        'HrbA}   HirobA} Nhy     chameleon',
-        'HrAby   HarAbiy N0      chameleons'
-      ],
-      'patterns' => {
-        '.harAbiy' => [
-          'KaRADI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KiRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'chameleon',
-        'chameleons'
-      ],
-      'orig' => 'HirobA\'',
-      'prefix' => ''
-    }
-  ],
   '.h n \'' => [
     {
       'types' => {
@@ -12803,7 +12770,9 @@ $Lexicon = {
         'AHlA}   >aHil~A}        Nhy     husbands'
       ],
       'patterns' => {
-        '\'a.hillA\'' => []
+        '\'a.hillA\'' => [
+          'HaFiCLA\''
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -15371,7 +15340,9 @@ $Lexicon = {
         'AHmA}   >aHim~A}        Nhy     close friends;intimates'
       ],
       'patterns' => {
-        '\'a.himmA\'' => []
+        '\'a.himmA\'' => [
+          'HaFiCLA\''
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -20512,6 +20483,139 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '.h ^s r' => [
+    {
+      'types' => {
+        '.h^sir' => {
+          'IV' => 1
+        },
+        '.h^sur' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '.ha^sar',
+      'form' => '.ha^sar',
+      'lines' => [
+        ';; Ha$ar-iu_1',
+        'H$r     Ha$ar   PV      assemble;crowd;stuff',
+        'H$r     Ho$ir   IV      assemble;crowd;stuff',
+        'H$r     Ho$ur   IV      assemble;crowd;stuff'
+      ],
+      'patterns' => {
+        '.h^sir' => [
+          'FCiL'
+        ],
+        '.h^sur' => [
+          'FCuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'assemble',
+        'crowd',
+        'stuff'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL',
+        'FCuL'
+      ],
+      'orig' => 'Ha$ar-iu',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta.ha^s^sar',
+      'form' => 'ta.ha^s^sar',
+      'lines' => [
+        ';; taHa$~ar_1',
+        'tH$r    taHa$~ar        PV      meddle',
+        'tH$r    taHa$~ar        IV      meddle'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'meddle'
+      ],
+      'orig' => 'taHa$~ar',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.ha^sr',
+      'form' => '.ha^sr',
+      'lines' => [
+        ';; Ha$or_1',
+        'H$r     Ha$or   N       congregation;assemblage'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'congregation',
+        'assemblage'
+      ],
+      'orig' => 'Ha$or',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.ha^sar' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => '.ha^sar',
+      'form' => '.ha^saraT',
+      'lines' => [
+        ';; Ha$arap_1',
+        'H$r     Ha$ar   Napdu   insect;vermin',
+        'H$r     Ha$ar   NAt     insects;vermin'
+      ],
+      'patterns' => {
+        '.ha^sar' => [
+          'FaCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCaL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'insect',
+        'vermin',
+        'insects'
+      ],
+      'orig' => 'Ha$arap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.ha^sar',
+      'form' => '.ha^sariyy',
+      'lines' => [
+        ';; Ha$ariy~_1',
+        'H$ry    Ha$ariy~        Nall    insectival;entomological     [[Ha$ariy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCaL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'insectival',
+        'entomological'
+      ],
+      'orig' => 'Ha$ariy~',
+      'prefix' => ''
+    }
+  ],
   '.h .s r' => [
     {
       'types' => {
@@ -20911,139 +21015,6 @@ $Lexicon = {
         'besieged'
       ],
       'orig' => 'maHoSuwr',
-      'prefix' => ''
-    }
-  ],
-  '.h ^s r' => [
-    {
-      'types' => {
-        '.h^sir' => {
-          'IV' => 1
-        },
-        '.h^sur' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '.ha^sar',
-      'form' => '.ha^sar',
-      'lines' => [
-        ';; Ha$ar-iu_1',
-        'H$r     Ha$ar   PV      assemble;crowd;stuff',
-        'H$r     Ho$ir   IV      assemble;crowd;stuff',
-        'H$r     Ho$ur   IV      assemble;crowd;stuff'
-      ],
-      'patterns' => {
-        '.h^sir' => [
-          'FCiL'
-        ],
-        '.h^sur' => [
-          'FCuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'assemble',
-        'crowd',
-        'stuff'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL',
-        'FCuL'
-      ],
-      'orig' => 'Ha$ar-iu',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta.ha^s^sar',
-      'form' => 'ta.ha^s^sar',
-      'lines' => [
-        ';; taHa$~ar_1',
-        'tH$r    taHa$~ar        PV      meddle',
-        'tH$r    taHa$~ar        IV      meddle'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'meddle'
-      ],
-      'orig' => 'taHa$~ar',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '.ha^sr',
-      'form' => '.ha^sr',
-      'lines' => [
-        ';; Ha$or_1',
-        'H$r     Ha$or   N       congregation;assemblage'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'congregation',
-        'assemblage'
-      ],
-      'orig' => 'Ha$or',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.ha^sar' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => '.ha^sar',
-      'form' => '.ha^saraT',
-      'lines' => [
-        ';; Ha$arap_1',
-        'H$r     Ha$ar   Napdu   insect;vermin',
-        'H$r     Ha$ar   NAt     insects;vermin'
-      ],
-      'patterns' => {
-        '.ha^sar' => [
-          'FaCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCaL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'insect',
-        'vermin',
-        'insects'
-      ],
-      'orig' => 'Ha$arap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '.ha^sar',
-      'form' => '.ha^sariyy',
-      'lines' => [
-        ';; Ha$ariy~_1',
-        'H$ry    Ha$ariy~        Nall    insectival;entomological     [[Ha$ariy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCaL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'insectival',
-        'entomological'
-      ],
-      'orig' => 'Ha$ariy~',
       'prefix' => ''
     }
   ],
@@ -23350,6 +23321,37 @@ $Lexicon = {
         'bayonets'
       ],
       'orig' => 'Harobap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.harAbiy' => {
+          'N0' => 1
+        }
+      },
+      'entry' => '.hirbA\'',
+      'form' => '.hirbA\'',
+      'lines' => [
+        ';; HirobA\'_1',
+        'HrbA\'   HirobA\' N0_Nh   chameleon',
+        'HrbA&   HirobA& Nh      chameleon',
+        'HrbA}   HirobA} Nhy     chameleon',
+        'HrAby   HarAbiy N0      chameleons'
+      ],
+      'patterns' => {
+        '.harAbiy' => [
+          'FaCALI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'chameleon',
+        'chameleons'
+      ],
+      'orig' => 'HirobA\'',
       'prefix' => ''
     },
     {
@@ -49469,7 +49471,9 @@ $Lexicon = {
         'HbA}b   HabA}ib Ndip    dear;beloved'
       ],
       'patterns' => {
-        '\'a.hibbA\'' => [],
+        '\'a.hibbA\'' => [
+          'HaFiCLA\''
+        ],
         '\'a.hibb' => [
           'HaFiCL'
         ],

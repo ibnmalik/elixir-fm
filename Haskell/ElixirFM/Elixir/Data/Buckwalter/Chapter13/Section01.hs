@@ -257,10 +257,10 @@ cluster_5   = listing "Lexicon's properties"
     FuCL                      `noun`    {- \$uH~ -}            [ "avarice", "greed", "paucity" ],
 
     FaCIL                     `adj`     {- \$aHiyH -}          [ "meager", "sparse", "stingy" ]
+                              `plural`     HaFiCLA'
                               `plural`     FiCAL
                               `plural`     HaFiCL |< aT
-                              `plural`     FaCA'iL
-                           {- `others`  [ "'a^si.h.hA' Nh N0_Nh Nhy" ] -},
+                              `plural`     FaCA'iL,
 
     MuFACL |< aT              `adj`     {- mu$AH~ap -}         [ "contestable", "disputable" ],
 

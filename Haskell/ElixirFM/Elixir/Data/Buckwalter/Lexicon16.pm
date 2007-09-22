@@ -2735,7 +2735,9 @@ $Lexicon = {
       ],
       'patterns' => {
         '.tu.grA' => [],
-        '.tu.grA\'' => []
+        '.tu.grA\'' => [
+          'FuCLA\''
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -3400,65 +3402,6 @@ $Lexicon = {
         'propaganda'
       ],
       'orig' => 'taTobiyl',
-      'prefix' => ''
-    }
-  ],
-  '.t b \'' => [
-    {
-      'types' => {},
-      'entry' => '.tuwbA\'',
-      'form' => '.tuwbA\'iyy',
-      'lines' => [
-        ';; TuwbA}iy~_1',
-        'TwbA}y  TuwbA}iy~       Nall    utopian     [[TuwbA}iy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FUCAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'utopian'
-      ],
-      'orig' => 'TuwbA}iy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '.tuwbA\'',
-      'form' => '.tuwbAwiyy',
-      'lines' => [
-        ';; TuwbAwiy~_1',
-        'TwbAwy  TuwbAwiy~       Nall    blessed     [[TuwbAwiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FUCAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'blessed'
-      ],
-      'orig' => 'TuwbAwiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '.tuwbA\'',
-      'form' => '.tuwbAwiyyaT',
-      'lines' => [
-        ';; TuwbAwiy~ap_1',
-        'TwbAwy  TuwbAwiy~       Nap     blessedness     [[TuwbAwiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCAL |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'blessedness'
-      ],
-      'orig' => 'TuwbAwiy~ap',
       'prefix' => ''
     }
   ],
@@ -5077,6 +5020,63 @@ $Lexicon = {
         'beatitude'
       ],
       'orig' => 'TuwbaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.tuwbA\'',
+      'form' => '.tuwbA\'iyy',
+      'lines' => [
+        ';; TuwbA}iy~_1',
+        'TwbA}y  TuwbA}iy~       Nall    utopian     [[TuwbA}iy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FULA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'utopian'
+      ],
+      'orig' => 'TuwbA}iy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.tuwbA\'',
+      'form' => '.tuwbAwiyy',
+      'lines' => [
+        ';; TuwbAwiy~_1',
+        'TwbAwy  TuwbAwiy~       Nall    blessed     [[TuwbAwiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FULA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'blessed'
+      ],
+      'orig' => 'TuwbAwiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.tuwbA\'',
+      'form' => '.tuwbAwiyyaT',
+      'lines' => [
+        ';; TuwbAwiy~ap_1',
+        'TwbAwy  TuwbAwiy~       Nap     blessedness     [[TuwbAwiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FULA\' |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'blessedness'
+      ],
+      'orig' => 'TuwbAwiy~ap',
       'prefix' => ''
     }
   ],
@@ -10293,7 +10293,9 @@ $Lexicon = {
         '\'a.tibb' => [
           'HaFiCL'
         ],
-        '\'a.tibbA\'' => []
+        '\'a.tibbA\'' => [
+          'HaFiCLA\''
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -22850,50 +22852,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.t w b \'' => [
-    {
-      'types' => {},
-      'entry' => '.tuwbA\'',
-      'form' => '.tuwbA\'iyy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KuRDAS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [],
-      'orig' => 'TuwbA}iy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '.tuwbA\'',
-      'form' => '.tuwbAwiyy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KuRDAS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [],
-      'orig' => 'TuwbAwiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '.tuwbA\'',
-      'form' => '.tuwbAwiyyaT',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDAS |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [],
-      'orig' => 'TuwbAwiy~ap',
-      'prefix' => ''
-    }
-  ],
   '.t r w' => [
     {
       'types' => {
@@ -24776,15 +24734,6 @@ $Lexicon->{'.t b s'}[1]{'glosses'} = $Lexicon->{'.t w b s'}[1]{'glosses'};
 $Lexicon->{'.t b s'}[2]{'types'} = $Lexicon->{'.t w b s'}[2]{'types'};
 $Lexicon->{'.t b s'}[2]{'lines'} = $Lexicon->{'.t w b s'}[2]{'lines'};
 $Lexicon->{'.t b s'}[2]{'glosses'} = $Lexicon->{'.t w b s'}[2]{'glosses'};
-$Lexicon->{'.t w b \''}[0]{'types'} = $Lexicon->{'.t b \''}[0]{'types'};
-$Lexicon->{'.t w b \''}[0]{'lines'} = $Lexicon->{'.t b \''}[0]{'lines'};
-$Lexicon->{'.t w b \''}[0]{'glosses'} = $Lexicon->{'.t b \''}[0]{'glosses'};
-$Lexicon->{'.t w b \''}[1]{'types'} = $Lexicon->{'.t b \''}[1]{'types'};
-$Lexicon->{'.t w b \''}[1]{'lines'} = $Lexicon->{'.t b \''}[1]{'lines'};
-$Lexicon->{'.t w b \''}[1]{'glosses'} = $Lexicon->{'.t b \''}[1]{'glosses'};
-$Lexicon->{'.t w b \''}[2]{'types'} = $Lexicon->{'.t b \''}[2]{'types'};
-$Lexicon->{'.t w b \''}[2]{'lines'} = $Lexicon->{'.t b \''}[2]{'lines'};
-$Lexicon->{'.t w b \''}[2]{'glosses'} = $Lexicon->{'.t b \''}[2]{'glosses'};
 $Lexicon->{'.t r w'}[1]{'types'} = $Lexicon->{'.t r y'}[0]{'types'};
 $Lexicon->{'.t r w'}[1]{'lines'} = $Lexicon->{'.t r y'}[0]{'lines'};
 $Lexicon->{'.t r w'}[1]{'glosses'} = $Lexicon->{'.t r y'}[0]{'glosses'};

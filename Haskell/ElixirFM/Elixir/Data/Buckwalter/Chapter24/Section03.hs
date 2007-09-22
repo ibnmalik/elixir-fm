@@ -342,17 +342,7 @@ cluster_47  = listing "Lexicon's properties"
     HiFCAL                    `noun`    {- IimonA' -}          [ "ejaculation" ]
                               `plural`     HiFCAL |< At,
 
-    IstiFCAL                  `noun`    {- AisotimonA' -}      [ "masturbation" ],
-
-    MICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
-                              `plural`     FawACiL
-                              `plural`     FawACI
-                           {- `others`  [ "miyan N", "miyn Napdu" ] -},
-
-    FICAL                     `noun`    {- miynA' -}           [ "port", "harbor" ]
-                              `plural`     FawACiL
-                              `plural`     FawACI
-                           {- `others`  [ "miyan N", "miyn Napdu" ] -} ]
+    IstiFCAL                  `noun`    {- AisotimonA' -}      [ "masturbation" ] ]
 
  |> "m n .g l" <| [
 
@@ -393,10 +383,6 @@ cluster_47  = listing "Lexicon's properties"
 
     KaRDaS                    `verb`    {- manoTar -}          [ unwords [ "throw", "down" ], unwords [ "toss", "down" ] ] ]
 
-
-cluster_48  = listing "Lexicon's properties"
-
-
  |> "m n ^s" <| [
 
     FACL                      `noun`    {- mAno$ -}            [ unwords [ "Manche", "(", "English", "Channel", ")" ] ],
@@ -407,6 +393,10 @@ cluster_48  = listing "Lexicon's properties"
 
     KaRDUS |< Iy |< aT        `noun`    {- man$uwbiy~ap -}     [ unwords [ "monk's", "cell" ] ] ]
 
+
+cluster_48  = listing "Lexicon's properties"
+
+
  |> "m n ^s r" <| [
 
     KaRDUS |< Iy              `adj`     {- mano$uwriy~ -}      [ "Manchurian" ] ]
@@ -414,10 +404,6 @@ cluster_48  = listing "Lexicon's properties"
  |> "m n _d" <| [
 
     FuCL |<< "u"              `conj`    {- muno*u -}           [ "since", "ago" ] ]
-
-
-cluster_49  = listing "Lexicon's properties"
-
 
  |> "m n `" <| [
 
@@ -466,13 +452,13 @@ cluster_49  = listing "Lexicon's properties"
                               `plural`     KiRDIS
                               `plural`     KaRADIS ]
 
+
+cluster_49  = listing "Lexicon's properties"
+
+
  |> "m n h" <| [
 
     FiCL                      `noun`    {- minoh -}            [ unwords [ "Minh", "(", "in", "\"Ho", "Chi", "Minh\"", ")" ] ] ]
-
-
-cluster_50  = listing "Lexicon's properties"
-
 
  |> "m n n" <| [
 
@@ -488,6 +474,10 @@ cluster_50  = listing "Lexicon's properties"
  |> "m n t l" <| [
 
     KiRDUS                    `noun`    {- minotuwl -}         [ "menthol" ] ]
+
+
+cluster_50  = listing "Lexicon's properties"
+
 
  |> "m n w" <| [
 

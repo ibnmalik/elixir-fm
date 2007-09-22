@@ -177,8 +177,8 @@ cluster_43  = listing "Lexicon's properties"
     FaCIL                     `noun`    {- xaliyl -}           [ "Hebron" ],
 
     FaCIL                     `noun`    {- xaliyl -}           [ "friend" ]
-                              `plural`     FuCLAn
-                           {- `others`  [ "'a_hillA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA'
+                              `plural`     FuCLAn,
 
     HiFCAL                    `noun`    {- IixolAl -}          [ "breach", "disturbance", "harm" ]
                               `plural`     HiFCAL |< At,
@@ -194,7 +194,9 @@ cluster_43  = listing "Lexicon's properties"
 
     FaL |<< "awIy"            `adj`     {- xalawiy~ -}         [ "solitary", "rustic", unwords [ "in", "the", "open", "country" ] ],
 
-    FaL |<< "awIy"            `adj`     {- xalawiy~ -}         [ unwords [ "cell", "(", "phone", ")" ] ] ]
+    FaL |<< "awIy"            `adj`     {- xalawiy~ -}         [ unwords [ "cell", "(", "phone", ")" ] ],
+
+    FawALI                    `noun`    {- xawAliy -}          [ "elapsed" ] ]
 
 
 cluster_44  = listing "Lexicon's properties"

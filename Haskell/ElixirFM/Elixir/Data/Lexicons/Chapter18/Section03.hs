@@ -741,7 +741,7 @@ cluster_55  = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- Eaziyz -}           [ "dear", "precious" ]
                               `plural`     HaFiCL |< aT
-                           {- `others`  [ "'a`izzA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     TaFCIL                    `adv`     {- taEoziyz -}         [ "support", "backing", unwords [ "in", "support", "of" ] ],
 

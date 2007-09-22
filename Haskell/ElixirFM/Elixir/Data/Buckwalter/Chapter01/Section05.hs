@@ -12,6 +12,13 @@ lexicon = include section
 cluster_81  = listing "Lexicon's properties"
 
 
+ |> "' y f" <| [
+
+    FIL                       `noun`    {- Iiyf -}             [ "Ives" ],
+
+    FILAn                     `noun`    {- IiyfAn -}           [ "Ivan" ]
+                           {- `others`  [ "'ifAn Nprop" ] -} ]
+
  |> "' y f n" <| [
 
     KiRDAS                    `noun`    {- IiyfAn -}           [ "Ivan" ]
@@ -29,16 +36,19 @@ cluster_81  = listing "Lexicon's properties"
 
  |> "' y k" <| [
 
-    HICAL |<< "a"             `prep`    {- Iiy~Aka -}          [ unwords [ "be", "careful", "!", "+", "you" ], unwords [ "be", "careful", "!", "+", "you", "(", "both", ")" ] ]
+    FICAL |<< "a"             `prep`    {- Iiy~Aka -}          [ unwords [ "be", "careful", "!", "+", "you" ], unwords [ "be", "careful", "!", "+", "you", "(", "both", ")" ] ]
                            {- `others`  [ "'iyyAkumA FW-Wa", "'iyyAkum FW-Wa", "'iyyAkunna FW-Wa", "'iyyAki FW-Wa" ] -},
 
-    FICAL |<< "a"             `prep`    {- Iiy~Aka -}          [ unwords [ "be", "careful", "!", "+", "you" ], unwords [ "be", "careful", "!", "+", "you", "(", "both", ")" ] ]
+    HICAL |<< "a"             `prep`    {- Iiy~Aka -}          [ unwords [ "be", "careful", "!", "+", "you" ], unwords [ "be", "careful", "!", "+", "you", "(", "both", ")" ] ]
                            {- `others`  [ "'iyyAkumA FW-Wa", "'iyyAkum FW-Wa", "'iyyAkunna FW-Wa", "'iyyAki FW-Wa" ] -},
 
     FaCL |< aT                `noun`    {- Oayokap -}          [ "jungle", "thicket" ]
                               `plural`     FaCL ]
 
  |> "' y l" <| [
+
+    FILA'                     `noun`    {- IiylA' -}           [ "oath" ]
+                              `plural`     FILA' |< At,
 
     FiCAL |< aT               `noun`    {- IiyAlap -}          [ "administration", "management" ],
 
@@ -64,6 +74,10 @@ cluster_81  = listing "Lexicon's properties"
 
     KiRDAS                    `noun`    {- IiylAf -}           [ "solidarity", "pact" ] ]
 
+
+cluster_82  = listing "Lexicon's properties"
+
+
  |> "' y l l" <| [
 
     KaRDUS                    `noun`    {- Oayoluwl -}         [ "September" ],
@@ -77,10 +91,6 @@ cluster_81  = listing "Lexicon's properties"
  |> "' y l t" <| [
 
     KiRDIS                    `noun`    {- Iiyliyt -}          [ "Elit" ] ]
-
-
-cluster_82  = listing "Lexicon's properties"
-
 
  |> "' y l y" <| [
 
@@ -193,6 +203,9 @@ cluster_84  = listing "Lexicon's properties"
 
  |> "' y w" <| [
 
+    FILA'                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
+                              `plural`     FILA' |< At,
+
     FILAn                     `noun`    {- IiywAn -}           [ "palace", "hall" ] ]
 
  |> "' y w '" <| [
@@ -241,14 +254,14 @@ cluster_84  = listing "Lexicon's properties"
 
     FaCUL                     `noun`    {- OazuwH -}           [ "lethargic", "indolent" ] ]
 
+
+cluster_85  = listing "Lexicon's properties"
+
+
  |> "' z ^g" <| [
 
     FaCaL                     `noun`    {- Oazaj -}            [ unwords [ "ant", "-", "hill" ], "termitary" ]
                               `plural`     HACAL ]
-
-
-cluster_85  = listing "Lexicon's properties"
-
 
  |> "' z b" <| [
 

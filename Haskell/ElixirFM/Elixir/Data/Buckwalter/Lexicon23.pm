@@ -1260,7 +1260,9 @@ $Lexicon = {
         'AlbA}   >alib~A}        Nhy     sensible;reasonable'
       ],
       'patterns' => {
-        '\'alibbA\'' => []
+        '\'alibbA\'' => [
+          'HaFiCLA\''
+        ]
       },
       'index' => '2',
       'entity' => 'adj',
@@ -23391,8 +23393,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'lawAwiyn' => [
-          'FaCACIL',
-          'FawACIL'
+          'FaCACIL'
         ]
       },
       'index' => '1',
@@ -23660,7 +23661,9 @@ $Lexicon = {
         'AldA}   >alid~A}        Nhy     implacable;mortal'
       ],
       'patterns' => {
-        '\'aliddA\'' => [],
+        '\'aliddA\'' => [
+          'HaFiCLA\''
+        ],
         'lidAd' => [
           'FiCAL'
         ],

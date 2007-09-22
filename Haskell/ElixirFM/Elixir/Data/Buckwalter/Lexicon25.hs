@@ -5020,7 +5020,7 @@ cluster_100 = listing "Lexicon's properties"
     FaCL                      `noun`    {- nam~ -}             [ "slander", "gossip" ],
 
     FaCL                      `noun`    {- nam~ -}             [ "slanderer", "scandalmonger" ]
-                           {- `others`  [ "'animmA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA',
 
     FiCL |< aT                `noun`    {- nim~ap -}           [ "louse" ],
 
@@ -7029,8 +7029,7 @@ cluster_140 = listing "Lexicon's properties"
     MustaFIL                  `adj`     {- musotaniyr -}       [ "illuminated", "enlightened" ],
 
     FUCAL                     `noun`    {- nuw~Ar -}           [ "blossom" ]
-                              `plural`     FaCACIL
-                              `plural`     FawACIL,
+                              `plural`     FaCACIL,
 
     FaCaL                     `noun`    {- nawar -}            [ "gypsies", "vagabonds", unwords [ "white", "trash" ] ],
 
@@ -7078,8 +7077,7 @@ cluster_141 = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- naw~As -}           [ "pendulum" ],
 
     FACUL                     `noun`    {- nAwuws -}           [ "sarcophagus" ]
-                              `plural`     FaCACIL
-                              `plural`     FawACIL ]
+                              `plural`     FaCACIL ]
 
  |> "n w s r" <| [
 

@@ -978,8 +978,7 @@ cluster_59  = listing "Lexicon's properties"
     TaFaCCaL                  `verb`    {- tadaw~an -}         [ unwords [ "be", "recorded" ], unwords [ "be", "registered" ], unwords [ "be", "collected" ] ],
 
     FICAL                     `noun`    {- diywAn -}           [ "office", "agency", "anthology" ]
-                              `plural`     FaCACIL
-                              `plural`     FawACIL,
+                              `plural`     FaCACIL,
 
     FICAL |< Iy               `adj`     {- diywAniy~ -}        [ "administrative", "official" ],
 
@@ -1066,8 +1065,6 @@ cluster_60  = listing "Lexicon's properties"
     FaCCAL                    `adj`     {- daw~Ar -}           [ "rotating", "spinning" ],
 
     FaCACIL                   `noun`    {- dawAwiyr -}         [ "farmyard", "corral" ],
-
-    FawACIL                   `noun`    {- dawAwiyr -}         [ "farmyard", "corral" ],
 
     FUCAL                     `noun`    {- duw~Ar -}           [ unwords [ "bedouin", "camp", "(", "Maghrebi", ")" ] ],
 

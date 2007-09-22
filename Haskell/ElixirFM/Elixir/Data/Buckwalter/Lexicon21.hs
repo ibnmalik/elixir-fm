@@ -1568,22 +1568,27 @@ cluster_29  = listing "Lexicon's properties"
     FiCCAL |< aT              `noun`    {- qiv~A'ap -}         [ "cucumber" ]
                               `plural`     FuCCAL |< At ]
 
+
+cluster_30  = listing "Lexicon's properties"
+
+
  |> "q _t _t" <| [
 
     FaCL                      `verb`    {- qav~-u -}           [ "uproot", "extirpate" ]
                               `imperf`     FuCL
                               `pfirst`     FaCaL,
 
-    IFtaCL                    `verb`    {- Aiqotav~ -}         [ "uproot", "extirpate" ] ]
+    IFtaCL                    `verb`    {- Aiqotav~ -}         [ "uproot", "extirpate" ],
+
+    FiCLA'                    `noun`    {- qiv~A' -}           [ unwords [ "cucumber", "(", "s", ")" ] ],
+
+    FiCLA' |< aT              `noun`    {- qiv~A'ap -}         [ "cucumber" ]
+                              `plural`     FuCLA' |< At ]
 
  |> "q _t r" <| [
 
     FICAL                     `noun`    {- qiyvAr -}           [ "guitar" ]
                            {- `others`  [ "qayA_tiyr Ndip" ] -} ]
-
-
-cluster_30  = listing "Lexicon's properties"
-
 
  |> "q _t t r" <| [
 
@@ -1721,18 +1726,12 @@ cluster_32  = listing "Lexicon's properties"
 
     HaFCY                     `verb`    {- OaqoEaY -}          [ "crouch", "squat" ] ]
 
-
-cluster_33  = listing "Lexicon's properties"
-
-
  |> "q b '" <| [
 
-    FiCAL                     `noun`    {- qibA' -}            [ "interval", "distance" ],
-
-    FUCAL                     `noun`    {- quwbA' -}           [ "tetter", "eczema", "herpes" ] ]
+    FiCAL                     `noun`    {- qibA' -}            [ "interval", "distance" ] ]
 
 
-cluster_34  = listing "Lexicon's properties"
+cluster_33  = listing "Lexicon's properties"
 
 
  |> "q b .d" <| [
@@ -1794,7 +1793,7 @@ cluster_34  = listing "Lexicon's properties"
     MunFaCiL                  `adj`     {- munoqabiD -}        [ "oppressed", "depressed" ] ]
 
 
-cluster_35  = listing "Lexicon's properties"
+cluster_34  = listing "Lexicon's properties"
 
 
  |> "q b .h" <| [
@@ -1855,7 +1854,7 @@ cluster_35  = listing "Lexicon's properties"
                               `plural`     FiCAL ]
 
 
-cluster_36  = listing "Lexicon's properties"
+cluster_35  = listing "Lexicon's properties"
 
 
  |> "q b `" <| [
@@ -1910,7 +1909,7 @@ cluster_36  = listing "Lexicon's properties"
     FaL |<< "awIy"            `adj`     {- qabawiy~ -}         [ "apsidal" ] ]
 
 
-cluster_37  = listing "Lexicon's properties"
+cluster_36  = listing "Lexicon's properties"
 
 
  |> "q b l" <| [
@@ -2028,7 +2027,7 @@ cluster_37  = listing "Lexicon's properties"
     MustaFCaL |< Iy           `adj`     {- musotaqobaliy~ -}   [ "future" ] ]
 
 
-cluster_38  = listing "Lexicon's properties"
+cluster_37  = listing "Lexicon's properties"
 
 
  |> "q b n" <| [
@@ -2086,7 +2085,7 @@ cluster_38  = listing "Lexicon's properties"
     KuRDuS                    `noun`    {- quborus -}          [ "leather" ] ]
 
 
-cluster_39  = listing "Lexicon's properties"
+cluster_38  = listing "Lexicon's properties"
 
 
  |> "q b s" <| [
@@ -2139,7 +2138,7 @@ cluster_39  = listing "Lexicon's properties"
     FaC |<< "awIy"            `adj`     {- qabawiy~ -}         [ "apsidal" ] ]
 
 
-cluster_40  = listing "Lexicon's properties"
+cluster_39  = listing "Lexicon's properties"
 
 
  |> "q d '" <| [
@@ -2188,7 +2187,7 @@ cluster_40  = listing "Lexicon's properties"
     FACiL                     `adj`     {- qAdiH -}            [ "sparkling", "flashing" ] ]
 
 
-cluster_41  = listing "Lexicon's properties"
+cluster_40  = listing "Lexicon's properties"
 
 
  |> "q d d" <| [
@@ -2229,7 +2228,7 @@ cluster_41  = listing "Lexicon's properties"
     FuCL                      `noun`    {- qud~ -}             [ "codfish" ] ]
 
 
-cluster_42  = listing "Lexicon's properties"
+cluster_41  = listing "Lexicon's properties"
 
 
  |> "q d m" <| [
@@ -2345,7 +2344,7 @@ cluster_42  = listing "Lexicon's properties"
     MustaFCaL                 `adj`     {- musotaqodam -}      [ "summoned", "requested" ] ]
 
 
-cluster_43  = listing "Lexicon's properties"
+cluster_42  = listing "Lexicon's properties"
 
 
  |> "q d m s" <| [
@@ -2354,7 +2353,7 @@ cluster_43  = listing "Lexicon's properties"
                               `plural`     KaRADIS ]
 
 
-cluster_44  = listing "Lexicon's properties"
+cluster_43  = listing "Lexicon's properties"
 
 
  |> "q d r" <| [
@@ -2446,7 +2445,7 @@ cluster_44  = listing "Lexicon's properties"
     MuFtaCiL                  `noun`    {- muqotadir -}        [ "Muqtadir" ] ]
 
 
-cluster_45  = listing "Lexicon's properties"
+cluster_44  = listing "Lexicon's properties"
 
 
  |> "q d s" <| [
@@ -2514,7 +2513,7 @@ cluster_45  = listing "Lexicon's properties"
                               `plural`     FawACIL ]
 
 
-cluster_46  = listing "Lexicon's properties"
+cluster_45  = listing "Lexicon's properties"
 
 
  |> "q d w" <| [
@@ -2575,7 +2574,7 @@ cluster_46  = listing "Lexicon's properties"
                               `plural`     FaCALIn ]
 
 
-cluster_47  = listing "Lexicon's properties"
+cluster_46  = listing "Lexicon's properties"
 
 
  |> "q f ^s" <| [
@@ -2623,7 +2622,7 @@ cluster_47  = listing "Lexicon's properties"
                            {- `others`  [ "qifiyy N", "qufiyy N" ] -} ]
 
 
-cluster_48  = listing "Lexicon's properties"
+cluster_47  = listing "Lexicon's properties"
 
 
  |> "q f l" <| [
@@ -2670,7 +2669,7 @@ cluster_48  = listing "Lexicon's properties"
     KaRDAS                    `noun`    {- qafoqAs -}          [ "Caucasus" ] ]
 
 
-cluster_49  = listing "Lexicon's properties"
+cluster_48  = listing "Lexicon's properties"
 
 
  |> "q f r" <| [
@@ -2731,7 +2730,7 @@ cluster_49  = listing "Lexicon's properties"
                               `plural`     FawACI ]
 
 
-cluster_50  = listing "Lexicon's properties"
+cluster_49  = listing "Lexicon's properties"
 
 
  |> "q f z" <| [
@@ -2780,7 +2779,7 @@ cluster_50  = listing "Lexicon's properties"
                               `plural`     TaKaRDuS |< At ]
 
 
-cluster_51  = listing "Lexicon's properties"
+cluster_50  = listing "Lexicon's properties"
 
 
  |> "q h r" <| [
@@ -2827,7 +2826,7 @@ cluster_51  = listing "Lexicon's properties"
     KaRDaS |< Iy              `adj`     {- qahowajiy~ -}       [ unwords [ "cafe", "manager" ], unwords [ "coffee", "cook" ] ] ]
 
 
-cluster_52  = listing "Lexicon's properties"
+cluster_51  = listing "Lexicon's properties"
 
 
  |> "q h y" <| [
@@ -2893,7 +2892,7 @@ cluster_52  = listing "Lexicon's properties"
                               `plural`     KaRADIS ]
 
 
-cluster_53  = listing "Lexicon's properties"
+cluster_52  = listing "Lexicon's properties"
 
 
  |> "q l `" <| [
@@ -2943,7 +2942,7 @@ cluster_53  = listing "Lexicon's properties"
     KuRDUS                    `noun`    {- quloEuwT -}         [ "heretic" ] ]
 
 
-cluster_54  = listing "Lexicon's properties"
+cluster_53  = listing "Lexicon's properties"
 
 
  |> "q l b" <| [
@@ -3011,7 +3010,7 @@ cluster_54  = listing "Lexicon's properties"
     MunFaCaL                  `noun`    {- munoqalab -}        [ "hereafter" ] ]
 
 
-cluster_55  = listing "Lexicon's properties"
+cluster_54  = listing "Lexicon's properties"
 
 
  |> "q l d" <| [
@@ -3046,7 +3045,7 @@ cluster_55  = listing "Lexicon's properties"
     MuFaCCaL                  `adj`     {- muqal~ad -}         [ "imitated", "fake" ] ]
 
 
-cluster_56  = listing "Lexicon's properties"
+cluster_55  = listing "Lexicon's properties"
 
 
  |> "q l f" <| [
@@ -3080,7 +3079,7 @@ cluster_56  = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- qalofaTap -}        [ "caulking", "bungling" ] ]
 
 
-cluster_57  = listing "Lexicon's properties"
+cluster_56  = listing "Lexicon's properties"
 
 
  |> "q l l" <| [
@@ -3113,8 +3112,8 @@ cluster_57  = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- qaliyl -}           [ "little", "few", "insufficient" ]
                               `plural`     FaCA'iL
-                              `plural`     FiCAL
-                           {- `others`  [ "'aqillA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFiCLA'
+                              `plural`     FiCAL,
 
     FaCIL |< aN               `adv`     {- qaliylAF -}         [ unwords [ "a", "little" ], "somewhat" ]
                               `plural`     FaCIL,
@@ -3139,7 +3138,7 @@ cluster_57  = listing "Lexicon's properties"
     MustaFiCL                 `adj`     {- musotaqil~ -}       [ "independent", "autonomous" ] ]
 
 
-cluster_58  = listing "Lexicon's properties"
+cluster_57  = listing "Lexicon's properties"
 
 
  |> "q l m" <| [
@@ -3192,7 +3191,7 @@ cluster_58  = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- qaloqab -}          [ unwords [ "fur", "cap" ] ] ]
 
 
-cluster_59  = listing "Lexicon's properties"
+cluster_58  = listing "Lexicon's properties"
 
 
  |> "q l q l" <| [
@@ -3258,7 +3257,7 @@ cluster_59  = listing "Lexicon's properties"
                               `plural`     KiRDIS |< At ]
 
 
-cluster_60  = listing "Lexicon's properties"
+cluster_59  = listing "Lexicon's properties"
 
 
  |> "q l w z" <| [
@@ -3318,7 +3317,7 @@ cluster_60  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- qam~AH -}           [ "Qammah" ] ]
 
 
-cluster_61  = listing "Lexicon's properties"
+cluster_60  = listing "Lexicon's properties"
 
 
  |> "q m .s" <| [
@@ -3375,7 +3374,7 @@ cluster_61  = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- qamo$ap -}          [ "strap", "thong", "whip" ] ]
 
 
-cluster_62  = listing "Lexicon's properties"
+cluster_61  = listing "Lexicon's properties"
 
 
  |> "q m `" <| [
@@ -3431,7 +3430,7 @@ cluster_62  = listing "Lexicon's properties"
                               `plural`     MaFACL ]
 
 
-cluster_63  = listing "Lexicon's properties"
+cluster_62  = listing "Lexicon's properties"
 
 
  |> "q m n" <| [
@@ -3458,7 +3457,7 @@ cluster_63  = listing "Lexicon's properties"
                               `plural`     KaRADiS ]
 
 
-cluster_64  = listing "Lexicon's properties"
+cluster_63  = listing "Lexicon's properties"
 
 
  |> "q m r" <| [
@@ -3515,7 +3514,7 @@ cluster_64  = listing "Lexicon's properties"
     FaCaL |< aT               `noun`    {- qamarap -}          [ "cabin", "bunk", "berth", "cockpit" ] ]
 
 
-cluster_65  = listing "Lexicon's properties"
+cluster_64  = listing "Lexicon's properties"
 
 
  |> "q m r q" <| [
@@ -3553,7 +3552,7 @@ cluster_65  = listing "Lexicon's properties"
                               `plural`     IFtiCAL |< At ]
 
 
-cluster_66  = listing "Lexicon's properties"
+cluster_65  = listing "Lexicon's properties"
 
 
  |> "q n .s" <| [
@@ -3594,7 +3593,7 @@ cluster_66  = listing "Lexicon's properties"
     KuRDuS |< Iy |< aT        `noun`    {- qunoSuliy~ap -}     [ "consulate" ] ]
 
 
-cluster_67  = listing "Lexicon's properties"
+cluster_66  = listing "Lexicon's properties"
 
 
  |> "q n .t" <| [
@@ -3644,7 +3643,7 @@ cluster_67  = listing "Lexicon's properties"
                               `plural`     FiCAL ]
 
 
-cluster_68  = listing "Lexicon's properties"
+cluster_67  = listing "Lexicon's properties"
 
 
  |> "q n `" <| [
@@ -3704,7 +3703,7 @@ cluster_68  = listing "Lexicon's properties"
     MuFtaCiL                  `adj`     {- muqotaniE -}        [ "satisfied", "content", "convinced" ] ]
 
 
-cluster_69  = listing "Lexicon's properties"
+cluster_68  = listing "Lexicon's properties"
 
 
  |> "q n b" <| [
@@ -3766,7 +3765,7 @@ cluster_69  = listing "Lexicon's properties"
     KuRDuS                    `noun`    {- qunodus -}          [ "beaver" ] ]
 
 
-cluster_70  = listing "Lexicon's properties"
+cluster_69  = listing "Lexicon's properties"
 
 
  |> "q n d z" <| [
@@ -3800,7 +3799,7 @@ cluster_70  = listing "Lexicon's properties"
                               `plural`     HaFACIL ]
 
 
-cluster_71  = listing "Lexicon's properties"
+cluster_70  = listing "Lexicon's properties"
 
 
  |> "q n n" <| [
@@ -3861,7 +3860,7 @@ cluster_71  = listing "Lexicon's properties"
     FuCUL                     `noun`    {- qunuwt -}           [ "obedience", "devoutness" ] ]
 
 
-cluster_72  = listing "Lexicon's properties"
+cluster_71  = listing "Lexicon's properties"
 
 
  |> "q n w" <| [
@@ -3926,7 +3925,7 @@ cluster_72  = listing "Lexicon's properties"
                               `plural`     KaRADiS ]
 
 
-cluster_73  = listing "Lexicon's properties"
+cluster_72  = listing "Lexicon's properties"
 
 
  |> "q r '" <| [
@@ -3973,7 +3972,7 @@ cluster_73  = listing "Lexicon's properties"
     IstiFCAL |< Iy            `adj`     {- AisotiqorA}iy~ -}   [ "inductive", "investigative" ] ]
 
 
-cluster_74  = listing "Lexicon's properties"
+cluster_73  = listing "Lexicon's properties"
 
 
  |> "q r .d" <| [
@@ -4038,7 +4037,7 @@ cluster_74  = listing "Lexicon's properties"
     MunFaCiL                  `adj`     {- munoqariD -}        [ "extinct" ] ]
 
 
-cluster_75  = listing "Lexicon's properties"
+cluster_74  = listing "Lexicon's properties"
 
 
  |> "q r .h" <| [
@@ -4090,7 +4089,7 @@ cluster_75  = listing "Lexicon's properties"
     MiFCaL |< Iy              `adj`     {- miqoraHiy~ -}       [ "Megrahi" ] ]
 
 
-cluster_76  = listing "Lexicon's properties"
+cluster_75  = listing "Lexicon's properties"
 
 
  |> "q r .s" <| [
@@ -4134,7 +4133,7 @@ cluster_76  = listing "Lexicon's properties"
                               `plural`     KaRADiS |< aT ]
 
 
-cluster_77  = listing "Lexicon's properties"
+cluster_76  = listing "Lexicon's properties"
 
 
  |> "q r .t" <| [
@@ -4201,7 +4200,7 @@ cluster_77  = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- qaroTas -}          [ "paper", unwords [ "sheet", "of", "paper" ] ] ]
 
 
-cluster_78  = listing "Lexicon's properties"
+cluster_77  = listing "Lexicon's properties"
 
 
  |> "q r .z" <| [
@@ -4251,7 +4250,7 @@ cluster_78  = listing "Lexicon's properties"
     MuFCiL                    `adj`     {- muqori$ -}          [ "wealthy" ] ]
 
 
-cluster_79  = listing "Lexicon's properties"
+cluster_78  = listing "Lexicon's properties"
 
 
  |> "q r `" <| [
@@ -4328,7 +4327,7 @@ cluster_79  = listing "Lexicon's properties"
     MuFtaCiL                  `noun`    {- muqotariE -}        [ "voter", "voting" ] ]
 
 
-cluster_80  = listing "Lexicon's properties"
+cluster_79  = listing "Lexicon's properties"
 
 
  |> "q r b" <| [
@@ -4439,7 +4438,7 @@ cluster_80  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- qar~Ab -}           [ unwords [ "water", "carrier" ] ] ]
 
 
-cluster_81  = listing "Lexicon's properties"
+cluster_80  = listing "Lexicon's properties"
 
 
  |> "q r b n" <| [
@@ -4478,7 +4477,7 @@ cluster_81  = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- qarodab -}          [ "bistort" ] ]
 
 
-cluster_82  = listing "Lexicon's properties"
+cluster_81  = listing "Lexicon's properties"
 
 
  |> "q r f" <| [
@@ -4533,7 +4532,7 @@ cluster_82  = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- qarofaSap -}        [ "squatting" ] ]
 
 
-cluster_83  = listing "Lexicon's properties"
+cluster_82  = listing "Lexicon's properties"
 
 
  |> "q r f l" <| [
@@ -4595,7 +4594,7 @@ cluster_83  = listing "Lexicon's properties"
     MuKaRDaS                  `adj`     {- muqaromad -}        [ unwords [ "covered", "with", "tiles" ], "coated" ] ]
 
 
-cluster_84  = listing "Lexicon's properties"
+cluster_83  = listing "Lexicon's properties"
 
 
  |> "q r m z" <| [
@@ -4605,7 +4604,7 @@ cluster_84  = listing "Lexicon's properties"
     KiRDiS |< Iy              `adj`     {- qiromiziy~ -}       [ "crimson", "scarlet" ] ]
 
 
-cluster_85  = listing "Lexicon's properties"
+cluster_84  = listing "Lexicon's properties"
 
 
  |> "q r n" <| [
@@ -4690,7 +4689,7 @@ cluster_85  = listing "Lexicon's properties"
     FACUL                     `noun`    {- qAruwn -}           [ "nabob", "Croesus" ] ]
 
 
-cluster_86  = listing "Lexicon's properties"
+cluster_85  = listing "Lexicon's properties"
 
 
  |> "q r q" <| [
@@ -4739,7 +4738,7 @@ cluster_86  = listing "Lexicon's properties"
     KiRDiS                    `noun`    {- qiroqis -}          [ "midge" ] ]
 
 
-cluster_87  = listing "Lexicon's properties"
+cluster_86  = listing "Lexicon's properties"
 
 
  |> "q r r" <| [
@@ -4819,7 +4818,7 @@ cluster_87  = listing "Lexicon's properties"
     FaL |<< "awIy"            `adj`     {- qarawiy~ -}         [ unwords [ "of", "/", "from", "Kairouan" ] ] ]
 
 
-cluster_88  = listing "Lexicon's properties"
+cluster_87  = listing "Lexicon's properties"
 
 
  |> "q r s" <| [
@@ -4869,7 +4868,7 @@ cluster_88  = listing "Lexicon's properties"
     IstiFCA' |< Iy            `adj`     {- AisotiqorA}iy~ -}   [ "inductive", "investigative" ] ]
 
 
-cluster_89  = listing "Lexicon's properties"
+cluster_88  = listing "Lexicon's properties"
 
 
  |> "q r y" <| [
@@ -4909,7 +4908,7 @@ cluster_89  = listing "Lexicon's properties"
     FACiL                     `adj`     {- qAsiH -}            [ "coarse", "thick" ] ]
 
 
-cluster_90  = listing "Lexicon's properties"
+cluster_89  = listing "Lexicon's properties"
 
 
  |> "q s .t" <| [
@@ -4970,7 +4969,7 @@ cluster_90  = listing "Lexicon's properties"
                               `plural`     KiRDAS ]
 
 
-cluster_91  = listing "Lexicon's properties"
+cluster_90  = listing "Lexicon's properties"
 
 
  |> "q s m" <| [
@@ -5085,7 +5084,7 @@ cluster_91  = listing "Lexicon's properties"
     MunFaCiL                  `adj`     {- munoqasim -}        [ "shared" ] ]
 
 
-cluster_92  = listing "Lexicon's properties"
+cluster_91  = listing "Lexicon's properties"
 
 
  |> "q s r" <| [
@@ -5122,16 +5121,16 @@ cluster_92  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- qas~As -}           [ "slanderer" ],
 
     FiCCIL                    `noun`    {- qis~iys -}          [ "clergyman", "reverend", "clergymen" ]
+                              `plural`     FuCLA'
                               `plural`     HaFiCL |< aT
-                              `plural`     FuCLAn
-                           {- `others`  [ "qussA' Nh N0_Nh Nhy" ] -},
+                              `plural`     FuCLAn,
 
     FuCUL |< aT               `noun`    {- qusuwsap -}         [ "priesthood", "ministry" ],
 
     FuCUL |< Iy               `adj`     {- qusuwsiy~ -}        [ "priestly", "ordination" ] ]
 
 
-cluster_93  = listing "Lexicon's properties"
+cluster_92  = listing "Lexicon's properties"
 
 
  |> "q s w" <| [
@@ -5183,7 +5182,7 @@ cluster_93  = listing "Lexicon's properties"
     FaCAL                     `noun`    {- qatAd -}            [ "tragacanth", unwords [ "bed", "of", "thorns" ] ] ]
 
 
-cluster_94  = listing "Lexicon's properties"
+cluster_93  = listing "Lexicon's properties"
 
 
  |> "q t l" <| [
@@ -5251,7 +5250,7 @@ cluster_94  = listing "Lexicon's properties"
     MustaFCiL                 `adj`     {- musotaqotil -}      [ "heroic", unwords [ "death", "-", "defying" ] ] ]
 
 
-cluster_95  = listing "Lexicon's properties"
+cluster_94  = listing "Lexicon's properties"
 
 
  |> "q t m" <| [
@@ -5279,7 +5278,7 @@ cluster_95  = listing "Lexicon's properties"
                               `plural`     FawACiL ]
 
 
-cluster_96  = listing "Lexicon's properties"
+cluster_95  = listing "Lexicon's properties"
 
 
  |> "q t r" <| [
@@ -5336,7 +5335,7 @@ cluster_96  = listing "Lexicon's properties"
                               `plural`     HiFCAL |< At ]
 
 
-cluster_97  = listing "Lexicon's properties"
+cluster_96  = listing "Lexicon's properties"
 
 
  |> "q w .d" <| [
@@ -5394,11 +5393,10 @@ cluster_97  = listing "Lexicon's properties"
                               `plural`     HaFCAL,
 
     FACUL                     `noun`    {- qAwuw$ -}           [ unwords [ "prison", "cell" ] ]
-                              `plural`     FaCACIL
-                              `plural`     FawACIL ]
+                              `plural`     FaCACIL ]
 
 
-cluster_98  = listing "Lexicon's properties"
+cluster_97  = listing "Lexicon's properties"
 
 
  |> "q w `" <| [
@@ -5428,14 +5426,12 @@ cluster_98  = listing "Lexicon's properties"
 
     FuCaLA'                   `noun`    {- quwabA' -}          [ "tetter", "eczema" ]
                               `plural`     FuCaL |< aT
-                              `plural`     FUL |< aT ]
+                              `plural`     FUL |< aT,
 
- |> "q w b '" <| [
-
-    KuRDAS                    `noun`    {- quwbA' -}           [ "tetter", "eczema", "herpes" ] ]
+    FULA'                     `noun`    {- quwbA' -}           [ "tetter", "eczema", "herpes" ] ]
 
 
-cluster_99  = listing "Lexicon's properties"
+cluster_98  = listing "Lexicon's properties"
 
 
  |> "q w d" <| [
@@ -5492,7 +5488,7 @@ cluster_99  = listing "Lexicon's properties"
                               `plural`     MaFACiL ]
 
 
-cluster_100 = listing "Lexicon's properties"
+cluster_99  = listing "Lexicon's properties"
 
 
  |> "q w h" <| [
@@ -5557,7 +5553,7 @@ cluster_100 = listing "Lexicon's properties"
     KuRDUS                    `noun`    {- quwluwn -}          [ "bowels", "colon" ] ]
 
 
-cluster_101 = listing "Lexicon's properties"
+cluster_100 = listing "Lexicon's properties"
 
 
  |> "q w m" <| [
@@ -5668,7 +5664,7 @@ cluster_101 = listing "Lexicon's properties"
     MustaFIL                  `noun`    {- musotaqiym -}       [ "straight", "correct", "righteous" ] ]
 
 
-cluster_102 = listing "Lexicon's properties"
+cluster_101 = listing "Lexicon's properties"
 
 
  |> "q w m s" <| [
@@ -5683,7 +5679,6 @@ cluster_102 = listing "Lexicon's properties"
 
     FACUL                     `noun`    {- qAwuwn -}           [ "muskmelon", "cantaloupe" ]
                               `plural`     FaCACIL
-                              `plural`     FawACIL
                               `plural`     FACUL |< At ]
 
  |> "q w n y" <| [
@@ -5706,8 +5701,7 @@ cluster_102 = listing "Lexicon's properties"
     FuCayL                    `noun`    {- quwayoq -}          [ "Quwaiq" ],
 
     FACUL                     `noun`    {- qAwuwq -}           [ "headgear" ]
-                              `plural`     FaCACIL
-                              `plural`     FawACIL ]
+                              `plural`     FaCACIL ]
 
  |> "q w q `" <| [
 
@@ -5731,7 +5725,7 @@ cluster_102 = listing "Lexicon's properties"
     KaRDAS |< Iy              `adj`     {- qawoqAziy~ -}       [ "Caucasian" ] ]
 
 
-cluster_103 = listing "Lexicon's properties"
+cluster_102 = listing "Lexicon's properties"
 
 
  |> "q w r" <| [
@@ -5782,7 +5776,7 @@ cluster_103 = listing "Lexicon's properties"
     MuFaCCaL                  `adj`     {- muqaw~as -}         [ "arched", "bent", "curved" ] ]
 
 
-cluster_104 = listing "Lexicon's properties"
+cluster_103 = listing "Lexicon's properties"
 
 
  |> "q w t" <| [
@@ -5822,7 +5816,7 @@ cluster_104 = listing "Lexicon's properties"
                               `plural`     FUL |< At ]
 
 
-cluster_105 = listing "Lexicon's properties"
+cluster_104 = listing "Lexicon's properties"
 
 
  |> "q w y" <| [
@@ -5872,7 +5866,7 @@ cluster_105 = listing "Lexicon's properties"
     MuFaCCY                   `adj`     {- muqaw~aY -}         [ "strengthened", "reinforced" ] ]
 
 
-cluster_106 = listing "Lexicon's properties"
+cluster_105 = listing "Lexicon's properties"
 
 
  |> "q y '" <| [
@@ -5919,7 +5913,7 @@ cluster_106 = listing "Lexicon's properties"
     MuFACaL |< aT             `noun`    {- muqAyaDap -}        [ "barter", "exchange" ] ]
 
 
-cluster_107 = listing "Lexicon's properties"
+cluster_106 = listing "Lexicon's properties"
 
 
  |> "q y .h" <| [
@@ -5986,7 +5980,7 @@ cluster_107 = listing "Lexicon's properties"
                               `plural`     KaRADIS ]
 
 
-cluster_108 = listing "Lexicon's properties"
+cluster_107 = listing "Lexicon's properties"
 
 
  |> "q y d" <| [
@@ -6041,7 +6035,7 @@ cluster_108 = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At ]
 
 
-cluster_109 = listing "Lexicon's properties"
+cluster_108 = listing "Lexicon's properties"
 
 
  |> "q y l" <| [
@@ -6076,7 +6070,7 @@ cluster_109 = listing "Lexicon's properties"
     KaRDUS |< aT              `noun`    {- qayoluwlap -}       [ unwords [ "midday", "nap" ], "siesta" ] ]
 
 
-cluster_110 = listing "Lexicon's properties"
+cluster_109 = listing "Lexicon's properties"
 
 
  |> "q y m" <| [
@@ -6131,7 +6125,7 @@ cluster_110 = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- qayoqab -}          [ "maple" ] ]
 
 
-cluster_111 = listing "Lexicon's properties"
+cluster_110 = listing "Lexicon's properties"
 
 
  |> "q y r" <| [
@@ -6192,7 +6186,7 @@ cluster_111 = listing "Lexicon's properties"
                               `plural`     FIL ]
 
 
-cluster_112 = listing "Lexicon's properties"
+cluster_111 = listing "Lexicon's properties"
 
 
  |> "q z .h" <| [
@@ -6253,7 +6247,7 @@ cluster_112 = listing "Lexicon's properties"
                               `plural`     FaCAL |< At ]
 
 
-cluster_113 = listing "Lexicon's properties"
+cluster_112 = listing "Lexicon's properties"
 
 
  |> "q z q z" <| [
@@ -6312,7 +6306,7 @@ cluster_113 = listing "Lexicon's properties"
     Identity                  `noun`    {- qAZimbuwr -}        [ "" {- "Kazempour" -} ] ]
 
 
-cluster_114 = listing "Lexicon's properties"
+cluster_113 = listing "Lexicon's properties"
 
 
  |> "qA^sAnI" <| [
@@ -6396,7 +6390,7 @@ cluster_114 = listing "Lexicon's properties"
     Identity                  `adv`     {- qabola}i*K -}       [ unwords [ "before", "then" ] ] ]
 
 
-cluster_115 = listing "Lexicon's properties"
+cluster_114 = listing "Lexicon's properties"
 
 
  |> "qablamA" <| [
@@ -6468,7 +6462,7 @@ cluster_115 = listing "Lexicon's properties"
     Identity |< Iy            `noun`    {- qanodalafotiy~ -}   [ "sexton", "sacristan" ] ]
 
 
-cluster_116 = listing "Lexicon's properties"
+cluster_115 = listing "Lexicon's properties"
 
 
  |> "qar.tA^gann" <| [
@@ -6550,7 +6544,7 @@ cluster_116 = listing "Lexicon's properties"
     Identity                  `noun`    {- qayowayon -}        [ "" {- "Qaiwain" -} ] ]
 
 
-cluster_117 = listing "Lexicon's properties"
+cluster_116 = listing "Lexicon's properties"
 
 
  |> "qima.tr" <| [
@@ -6626,7 +6620,7 @@ cluster_117 = listing "Lexicon's properties"
     Identity                  `noun`    {- qurunod -}          [ "corundum" ] ]
 
 
-cluster_118 = listing "Lexicon's properties"
+cluster_117 = listing "Lexicon's properties"
 
 
  |> "qus.tan.tIn" <| [
@@ -6782,6 +6776,5 @@ section = [ cluster_1,
             cluster_114,
             cluster_115,
             cluster_116,
-            cluster_117,
-            cluster_118 ]
+            cluster_117 ]
 

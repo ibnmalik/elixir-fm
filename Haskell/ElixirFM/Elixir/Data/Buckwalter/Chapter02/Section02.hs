@@ -970,7 +970,9 @@ cluster_39  = listing "Lexicon's properties"
 
     FaL |<< "awIy"            `adj`     {- badawiy~ -}         [ "Bedouin" ]
                               `plural`     FuCY |< aT
-                           {- `others`  [ "badw N" ] -} ]
+                           {- `others`  [ "badw N" ] -},
+
+    FawALI                    `noun`    {- bawAdiy -}          [ "nomads", "Bedouins" ] ]
 
 
 cluster_40  = listing "Lexicon's properties"

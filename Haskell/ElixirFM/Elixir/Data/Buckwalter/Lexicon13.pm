@@ -16415,7 +16415,9 @@ $Lexicon = {
         '$HA}H   $aHA}iH Ndip    meager;sparse;stingy'
       ],
       'patterns' => {
-        '\'a^si.h.hA\'' => [],
+        '\'a^si.h.hA\'' => [
+          'HaFiCLA\''
+        ],
         '^si.hA.h' => [
           'FiCAL'
         ],
@@ -19563,8 +19565,7 @@ $Lexicon = {
           'FaCCAL'
         ],
         '^sawAwiyl' => [
-          'FaCACIL',
-          'FawACIL'
+          'FaCACIL'
         ]
       },
       'index' => '1',
@@ -25975,7 +25976,9 @@ $Lexicon = {
         'A$qA}   >a$iq~A}        Nhy     brothers'
       ],
       'patterns' => {
-        '\'a^siqqA\'' => [],
+        '\'a^siqqA\'' => [
+          'HaFiCLA\''
+        ],
         '\'a^siqq' => [
           'HaFiCL'
         ]
@@ -27939,7 +27942,9 @@ $Lexicon = {
         '^sidAd' => [
           'FiCAL'
         ],
-        '\'a^siddA\'' => []
+        '\'a^siddA\'' => [
+          'HaFiCLA\''
+        ]
       },
       'index' => '1',
       'entity' => 'adj',

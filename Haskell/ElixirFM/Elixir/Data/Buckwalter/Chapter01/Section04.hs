@@ -692,9 +692,9 @@ cluster_72  = listing "Lexicon's properties"
 
     FUCAL                     `noun`    {- OuwtAr -}           [ "Uttar" ],
 
-    FICAL                     `noun`    {- IiytAr -}           [ "ITAR" ],
+    HICAL                     `noun`    {- IiytAr -}           [ "ITAR" ],
 
-    HICAL                     `noun`    {- IiytAr -}           [ "ITAR" ] ]
+    FICAL                     `noun`    {- IiytAr -}           [ "ITAR" ] ]
 
  |> "' t w" <| [
 
@@ -942,15 +942,13 @@ cluster_76  = listing "Lexicon's properties"
 
     FaCLY |< Iy |< aT         `noun`    {- Oawolawiy~ap -}     [ "priority", "precedence" ],
 
-    FaCLY |< Iy |< At         `noun`    {- Oawolawiy~At -}     [ "priorities" ] ]
+    FaCLY |< Iy |< At         `noun`    {- Oawolawiy~At -}     [ "priorities" ],
+
+    FULA' |<< "i"             `pron`    {- OuwlA'i -}          [ unwords [ "they", "/", "those" ] ] ]
 
 
 cluster_77  = listing "Lexicon's properties"
 
-
- |> "' w l '" <| [
-
-    KuRDAS |<< "i"            `pron`    {- OuwlA'i -}          [ unwords [ "they", "/", "those" ] ] ]
 
  |> "' w l f" <| [
 
@@ -1089,6 +1087,12 @@ cluster_78  = listing "Lexicon's properties"
 cluster_79  = listing "Lexicon's properties"
 
 
+ |> "' w w" <| [
+
+    FILA'                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
+                              `plural`     FILA' |< At
+                              `plural`     HICA' |< At ]
+
  |> "' w y" <| [
 
     FaCY                      `verb`    {- OawaY-i -}          [ "retire", unwords [ "seek", "shelter" ] ]
@@ -1097,9 +1101,9 @@ cluster_79  = listing "Lexicon's properties"
 
     FaCCY                     `verb`    {- Oaw~aY -}           [ "shelter", "lodge" ],
 
-    FACY                      `verb`    {- \|waY -}            [ unwords [ "seek", "shelter" ], unwords [ "provide", "asylum" ], unwords [ "be", "sought", "as", "shelter" ], unwords [ "be", "provided", "as", "asylum" ] ],
-
     HACY                      `verb`    {- \|waY -}            [ unwords [ "seek", "shelter" ], unwords [ "provide", "asylum" ], unwords [ "be", "sought", "as", "shelter" ], unwords [ "be", "provided", "as", "asylum" ] ],
+
+    FACY                      `verb`    {- \|waY -}            [ unwords [ "seek", "shelter" ], unwords [ "provide", "asylum" ], unwords [ "be", "sought", "as", "shelter" ], unwords [ "be", "provided", "as", "asylum" ] ],
 
     FiCA'                     `noun`    {- IiwA' -}            [ "sheltering", "harboring", "lodging" ]
                               `plural`     FiCA' |< At,
@@ -1168,7 +1172,10 @@ cluster_80  = listing "Lexicon's properties"
  |> "' y _d" <| [
 
     FILAn                     `noun`    {- Iiy*An -}           [ "declaration", "proclamation" ]
-                              `plural`     FILAn |< At ]
+                              `plural`     FILAn |< At,
+
+    FILA'                     `noun`    {- Iiy*A' -}           [ "damage", "injury" ]
+                              `plural`     FILA' |< At ]
 
  |> "' y _d '" <| [
 
@@ -1208,13 +1215,6 @@ cluster_80  = listing "Lexicon's properties"
  |> "' y d y" <| [
 
     KiRDI                     `noun`    {- Iiydiy -}           [ "Eddie" ] ]
-
- |> "' y f" <| [
-
-    FIL                       `noun`    {- Iiyf -}             [ "Ives" ],
-
-    FILAn                     `noun`    {- IiyfAn -}           [ "Ivan" ]
-                           {- `others`  [ "'ifAn Nprop" ] -} ]
 
 
 section = [ cluster_61,

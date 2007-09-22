@@ -882,6 +882,9 @@ cluster_98  = listing "Lexicon's properties"
 
     MaFCUL                    `noun`    {- mabotuwr -}         [ "mutilated", "incomplete" ],
 
+    FiCLA'                    `noun`    {- bitorA' -}          [ "Petra" ]
+                              `plural`     FaCLA',
+
     FICAL                     `noun`    {- biytAr -}           [ "Bitar", "Betar" ] ]
 
  |> "b t r '" <| [

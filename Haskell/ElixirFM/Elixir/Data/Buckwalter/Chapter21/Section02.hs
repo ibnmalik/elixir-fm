@@ -463,22 +463,27 @@ cluster_29  = listing "Lexicon's properties"
     FiCCAL |< aT              `noun`    {- qiv~A'ap -}         [ "cucumber" ]
                               `plural`     FuCCAL |< At ]
 
+
+cluster_30  = listing "Lexicon's properties"
+
+
  |> "q _t _t" <| [
 
     FaCL                      `verb`    {- qav~-u -}           [ "uproot", "extirpate" ]
                               `imperf`     FuCL
                               `pfirst`     FaCaL,
 
-    IFtaCL                    `verb`    {- Aiqotav~ -}         [ "uproot", "extirpate" ] ]
+    IFtaCL                    `verb`    {- Aiqotav~ -}         [ "uproot", "extirpate" ],
+
+    FiCLA'                    `noun`    {- qiv~A' -}           [ unwords [ "cucumber", "(", "s", ")" ] ],
+
+    FiCLA' |< aT              `noun`    {- qiv~A'ap -}         [ "cucumber" ]
+                              `plural`     FuCLA' |< At ]
 
  |> "q _t r" <| [
 
     FICAL                     `noun`    {- qiyvAr -}           [ "guitar" ]
                            {- `others`  [ "qayA_tiyr Ndip" ] -} ]
-
-
-cluster_30  = listing "Lexicon's properties"
-
 
  |> "q _t t r" <| [
 
@@ -616,18 +621,12 @@ cluster_32  = listing "Lexicon's properties"
 
     HaFCY                     `verb`    {- OaqoEaY -}          [ "crouch", "squat" ] ]
 
-
-cluster_33  = listing "Lexicon's properties"
-
-
  |> "q b '" <| [
 
-    FiCAL                     `noun`    {- qibA' -}            [ "interval", "distance" ],
-
-    FUCAL                     `noun`    {- quwbA' -}           [ "tetter", "eczema", "herpes" ] ]
+    FiCAL                     `noun`    {- qibA' -}            [ "interval", "distance" ] ]
 
 
-cluster_34  = listing "Lexicon's properties"
+cluster_33  = listing "Lexicon's properties"
 
 
  |> "q b .d" <| [
@@ -689,7 +688,7 @@ cluster_34  = listing "Lexicon's properties"
     MunFaCiL                  `adj`     {- munoqabiD -}        [ "oppressed", "depressed" ] ]
 
 
-cluster_35  = listing "Lexicon's properties"
+cluster_34  = listing "Lexicon's properties"
 
 
  |> "q b .h" <| [
@@ -750,7 +749,7 @@ cluster_35  = listing "Lexicon's properties"
                               `plural`     FiCAL ]
 
 
-cluster_36  = listing "Lexicon's properties"
+cluster_35  = listing "Lexicon's properties"
 
 
  |> "q b `" <| [
@@ -805,7 +804,7 @@ cluster_36  = listing "Lexicon's properties"
     FaL |<< "awIy"            `adj`     {- qabawiy~ -}         [ "apsidal" ] ]
 
 
-cluster_37  = listing "Lexicon's properties"
+cluster_36  = listing "Lexicon's properties"
 
 
  |> "q b l" <| [
@@ -923,7 +922,7 @@ cluster_37  = listing "Lexicon's properties"
     MustaFCaL |< Iy           `adj`     {- musotaqobaliy~ -}   [ "future" ] ]
 
 
-cluster_38  = listing "Lexicon's properties"
+cluster_37  = listing "Lexicon's properties"
 
 
  |> "q b n" <| [
@@ -981,7 +980,7 @@ cluster_38  = listing "Lexicon's properties"
     KuRDuS                    `noun`    {- quborus -}          [ "leather" ] ]
 
 
-cluster_39  = listing "Lexicon's properties"
+cluster_38  = listing "Lexicon's properties"
 
 
  |> "q b s" <| [
@@ -1034,7 +1033,7 @@ cluster_39  = listing "Lexicon's properties"
     FaC |<< "awIy"            `adj`     {- qabawiy~ -}         [ "apsidal" ] ]
 
 
-cluster_40  = listing "Lexicon's properties"
+cluster_39  = listing "Lexicon's properties"
 
 
  |> "q d '" <| [
@@ -1081,6 +1080,47 @@ cluster_40  = listing "Lexicon's properties"
                               `plural`     MaFACIL,
 
     FACiL                     `adj`     {- qAdiH -}            [ "sparkling", "flashing" ] ]
+
+
+cluster_40  = listing "Lexicon's properties"
+
+
+ |> "q d d" <| [
+
+    FaL                       `part`    {- qad -}              [ unwords [ "(", "has", "/", "have", ")" ], unwords [ "indeed", "(", "has", "/", "have", ")" ] ]
+                           {- `others`  [ "laqad FW-Wa" ] -},
+
+    FaL                       `part`    {- qad -}              [ unwords [ "may", "/", "might" ] ],
+
+    FaCL                      `verb`    {- qad~-u -}           [ unwords [ "cut", "lengthwise" ], unwords [ "cut", "into", "strips" ] ]
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL,
+
+    FaCCaL                    `verb`    {- qad~ad -}           [ unwords [ "cut", "lengthwise" ], unwords [ "cut", "into", "strips" ] ],
+
+    InFaCL                    `verb`    {- Ainoqad~ -}         [ "split", "burst" ],
+
+    IFtaCL                    `verb`    {- Aiqotad~ -}         [ unwords [ "cut", "lengthwise" ], unwords [ "cut", "into", "strips" ] ],
+
+    FiCL                      `noun`    {- qid~ -}             [ "strap", "thong" ]
+                              `plural`     HaFuCL,
+
+    FiCL |< aT                `noun`    {- qid~ap -}           [ "rail", "ruler" ]
+                              `plural`     FiCaL,
+
+    FaCIL                     `noun`    {- qadiyd -}           [ "jerky" ],
+
+    FaCL                      `noun`    {- qad~ -}             [ "size", "physique" ],
+
+    MiFCAL                    `noun`    {- miqodAd -}          [ "Miqdad" ],
+
+    MiFaCL                    `noun`    {- miqad~ -}           [ unwords [ "hacking", "knife" ] ],
+
+    MaFCUL                    `noun`    {- maqoduwd -}         [ unwords [ "cut", "in", "strips" ] ],
+
+    MuFaCCaL                  `noun`    {- muqad~ad -}         [ unwords [ "jerked", "(", "meat", ")" ] ],
+
+    FuCL                      `noun`    {- qud~ -}             [ "codfish" ] ]
 
 
 section = [ cluster_21,

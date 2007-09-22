@@ -372,7 +372,7 @@ cluster_6   = listing "Lexicon's properties"
     FaCIL                     `noun`    {- labiyb -}           [ "Labib", "Labeeb" ],
 
     FaCIL                     `adj`     {- labiyb -}           [ "sensible", "reasonable" ]
-                           {- `others`  [ "'alibbA' Nh N0_Nh Nhy" ] -} ]
+                              `plural`     HaFiCLA' ]
 
  |> "l b n" <| [
 
