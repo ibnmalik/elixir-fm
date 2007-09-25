@@ -1,5 +1,5 @@
 -- --------------------------------------------------------------------------
---  $Revision$ $Date$
+--  $revision: 135 $ $date: 2006-11-10 10:50:22 +0100 (Fri, 10 Nov 2006) $
 -- --------------------------------------------------------------------------
 
 -- |
@@ -17,11 +17,26 @@
 
 module Main where
 
-import FM.Arabic.Rules
 
---import Encode
---import Encode.Arabic
---import Encode.Unicode
+import Elixir.Data.Lexicons
+
+    -- Elixir.Data.Buckwalter
+
+import Elixir.Lexicon
+import Elixir.Template
+import Elixir.Pretty
+
+import FM.Arabic.Rules
+import FM.Arabic.Types
+
+import FM.Arabic.Dictionary
+
+import FM.Generic.General
+
+import Encode
+import Encode.Arabic
+
+import Data.List
 
 import Version
 
@@ -30,8 +45,11 @@ version = revised "$Revision$"
 
 main :: IO ()
 
-main = print $
-            guessParadigm ".hamrA'u" (NounForm Feminine Singular Gen Defin)
+main = interact (unlines . concat . map (map (show . pretty . resolveBy (omitting $ (encode UCS . decode Tim) "aiuo~`FNK") . decode Tim) . words) . lines)
+
+
+--main = print $
+--            guessParadigm ".hamrA'u" (NounForm Feminine Singular Gen Defin)
 
 {-
   (map (guessParadigm "kabIr") .
