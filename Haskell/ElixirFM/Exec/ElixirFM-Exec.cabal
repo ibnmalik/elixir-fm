@@ -1,22 +1,27 @@
 name:               ElixirFM-Exec
-version:            0.1
+version:            1.1
 license:            GPL
 license-file:       ../LICENSE
-copyright:          2006
+copyright:          2007
 author:             Otakar Smrz
 maintainer:         otakar.smrz mff.cuni.cz
 homepage:           http://ufal.mff.cuni.cz/~smrz/
-package-url:        http://ufal.mff.cuni.cz/~smrz/ElixirFM/ElixirFM-Exec-0.1.zip
+package-url:        http://ufal.mff.cuni.cz/~smrz/ElixirFM/ElixirFM-Exec-1.1.zip
 category:           Various
 build-depends:      Cabal, base
 synopsis:           Functional Arabic Morphology
-description:        The "Elixir" and "FM" libraries are an implementation of
-                    Functional Arabic Morphology and an extension to the
-                    /Functional Morphology/ library developed by Markus
-                    Forsberg in his licenciate thesis /Applications of
-                    Functional Programming in Processing Formal and Natural
-                    Languages/, G&#246;teborg University and Chalmers
-                    University of Technology, December 2004,
+description:        The "Elixir" and "FM" libraries implement /Functional Arabic
+                    Morphology/. They have been designed by Otakar Smr&#382; and
+                    are part of his PhD thesis /Functional Arabic Morphology.
+                    Formal System and Implementation/, Charles University in
+                    Prague, July 2007,
+                    <http://ufal.mff.cuni.cz/~smrz/ElixirFM/>.
+                    .
+                    /ElixirFM/ is an extension to the /Functional Morphology/
+                    library developed by Markus Forsberg in his licenciate
+                    thesis /Applications of Functional Programming in Processing
+                    Formal and Natural Languages/, G&#246;teborg University and
+                    Chalmers University of Technology, December 2004,
                     <http://www.cs.chalmers.se/~markus/FM/>.
                     .
                     The "Version" library is just a simple support for
@@ -26,5 +31,15 @@ description:        The "Elixir" and "FM" libraries are an implementation of
 
 executable:         elixirfm
 main-is:            Exec/ElixirFM/Main.hs
+hs-source-dirs:     ., .., ../../Encode
+ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
+
+executable:         elixir-resolve
+main-is:            Exec/Resolve/Main.hs
+hs-source-dirs:     ., .., ../../Encode
+ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
+
+executable:         elixir-inflect
+main-is:            Exec/Inflect/Main.hs
 hs-source-dirs:     ., .., ../../Encode
 ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances

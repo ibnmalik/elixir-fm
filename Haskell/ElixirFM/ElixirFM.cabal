@@ -1,5 +1,5 @@
 name:               ElixirFM
-version:            1.0
+version:            1.1
 license:            GPL
 license-file:       LICENSE
 extra-source-files: INSTALL
@@ -7,9 +7,9 @@ copyright:          2007
 author:             Otakar Smrz
 maintainer:         otakar.smrz mff.cuni.cz
 homepage:           http://ufal.mff.cuni.cz/~smrz/
-package-url:        http://ufal.mff.cuni.cz/~smrz/ElixirFM/ElixirFM-1.0.zip
+package-url:        http://ufal.mff.cuni.cz/~smrz/ElixirFM/ElixirFM-1.1.zip
 category:           Various
-build-depends:      Encode, Cabal, base
+build-depends:      Cabal, base
 hs-source-dirs:     ., ../Encode
 synopsis:           Functional Arabic Morphology
 description:        The "Elixir" and "FM" libraries implement /Functional Arabic
@@ -140,4 +140,6 @@ exposed-modules:    ElixirFM,
                     Version
 extensions:         MultiParamTypeClasses,
                     FunctionalDependencies,
-                    OverlappingInstances
+                    ExistentialQuantification,
+                    OverlappingInstances,
+                    UndecidableInstances
