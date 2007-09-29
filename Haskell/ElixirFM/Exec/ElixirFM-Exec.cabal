@@ -6,7 +6,7 @@ copyright:          2007
 author:             Otakar Smrz
 maintainer:         otakar.smrz mff.cuni.cz
 homepage:           http://ufal.mff.cuni.cz/~smrz/
-package-url:        http://ufal.mff.cuni.cz/~smrz/ElixirFM/ElixirFM-Exec-1.1.zip
+package-url:        http://ufal.mff.cuni.cz/~smrz/ElixirFM/ElixirFM-Exec-1.1.tar.gz
 category:           Various
 build-depends:      Cabal, base
 synopsis:           Functional Arabic Morphology

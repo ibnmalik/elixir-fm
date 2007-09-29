@@ -18,9 +18,9 @@
 module Main where
 
 
-import Elixir.Data.Lexicons
+import Elixir.Data.Buckwalter
 
-    -- Elixir.Data.Buckwalter
+    -- Elixir.Data.Lexicons
 
 import Elixir.Lexicon
 import Elixir.Template

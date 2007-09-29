@@ -35,8 +35,6 @@ import FM.Arabic.Rules
 
 import Elixir.Data.Lexicons
 
-    -- Elixir.Data.Buckwalter
-
 import Elixir.Lexicon
 import Elixir.Template
 import Elixir.Pretty
