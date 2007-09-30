@@ -29,17 +29,17 @@ description:        The "Elixir" and "FM" libraries implement /Functional Arabic
                     .
                     "ElixirFM" "Elixir" "FM"
 
-executable:         elixirfm
-main-is:            Exec/ElixirFM/Main.hs
-hs-source-dirs:     ., .., ../../Encode
-ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
+-- executable:         elixirfm
+-- main-is:            Exec/ElixirFM/Main.hs
+-- hs-source-dirs:     ., .., ../../Encode
+-- ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
 
 executable:         elixir-resolve
 main-is:            Exec/Resolve/Main.hs
 hs-source-dirs:     ., .., ../../Encode
 ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
 
-executable:         elixir-inflect
-main-is:            Exec/Inflect/Main.hs
-hs-source-dirs:     ., .., ../../Encode
-ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
+-- executable:         elixir-inflect
+-- main-is:            Exec/Inflect/Main.hs
+-- hs-source-dirs:     ., .., ../../Encode
+-- ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances

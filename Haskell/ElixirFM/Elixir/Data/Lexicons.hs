@@ -17,9 +17,13 @@
 
 module Elixir.Data.Lexicons where
 
-import Elixir.Data.Effective
 
-    -- Elixir.Data.Buckwalter
+import qualified Elixir.Data.Effective
+
+                 -- Elixir.Data.Buckwalter
+
+import qualified Elixir.Data.Classical
+
 
 import Elixir.Lexicon
 
@@ -32,3 +36,17 @@ import Data.List
 import Version
 
 version = revised "$Revision$"
+
+
+lexicon :: Lexicon
+
+lexicon = concat lexicons
+
+
+lexicons :: [Lexicon]
+
+lexicons =  [   Elixir.Data.Effective.lexicon,
+
+                -- Elixir.Data.Buckwalter.lexicon,
+
+                Elixir.Data.Classical.lexicon   ]

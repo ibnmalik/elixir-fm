@@ -20,8 +20,6 @@ module Main where
 
 import Elixir.Data.Lexicons
 
-    -- Elixir.Data.Buckwalter
-
 import Elixir.Lexicon
 import Elixir.Template
 import Elixir.Pretty

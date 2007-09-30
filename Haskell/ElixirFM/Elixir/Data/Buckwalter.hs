@@ -22,6 +22,7 @@ import Elixir.Lexicon
 import Elixir.Lexicon.Pretty
 
 import Elixir.Template
+
 import Data.List
 
 import Elixir.Data.Buckwalter.Lexicon00 as Extra

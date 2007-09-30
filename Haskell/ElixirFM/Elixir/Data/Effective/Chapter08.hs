@@ -1,10 +1,10 @@
 
-module Elixir.Data.Lexicons.Chapter08 where
+module Elixir.Data.Effective.Chapter08 where
 
 import Elixir.Lexicon
 
-import Elixir.Data.Lexicons.Chapter08.Section01 as S01
-import Elixir.Data.Lexicons.Chapter08.Section02 as S02
+import Elixir.Data.Effective.Chapter08.Section01 as S01
+import Elixir.Data.Effective.Chapter08.Section02 as S02
 
 
 version = revised "$Revision$"

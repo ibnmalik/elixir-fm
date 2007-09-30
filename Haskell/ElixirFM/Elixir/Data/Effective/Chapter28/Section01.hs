@@ -1,5 +1,5 @@
 
-module Elixir.Data.Lexicons.Chapter28.Section01 where
+module Elixir.Data.Effective.Chapter28.Section01 where
 
 import Elixir.Lexicon
 

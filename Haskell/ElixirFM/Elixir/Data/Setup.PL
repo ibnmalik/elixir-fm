@@ -16,7 +16,7 @@ sub path ($) {
     return File::Spec->join(split ' ', $_[0]);
 }
 
-    $\ = "\n";
+    $\ = "\n\n";
 
 
     die "Remove the '_build' directory!\n"  if -d "_build";
@@ -31,7 +31,7 @@ sub path ($) {
 
     mkdir path "Buckwalter";
 
-    mkdir path "Lexicons";
+    mkdir path "Effective";
 
 
     print "Changing directory: Buckwalter";
@@ -73,14 +73,14 @@ sub path ($) {
     chdir "..";
 
 
-    print "Changing directory: Lexicons";
+    print "Changing directory: Effective";
 
-    chdir "./Lexicons";
+    chdir "./Effective";
 
 
-    system "perl -w ../../Lexicons.pl -i ../../include.dat ../Buckwalter/Lexicon*.pm";
+    system "perl -w ../../Lexicons.pl -d Effective -i ../../include.dat ../Buckwalter/Lexicon*.pm";
 
-    system "perl -w ../../Lexicons.pl -i ../../include.dat -s 0 ../Buckwalter/Lexicon*.pm";
+    system "perl -w ../../Lexicons.pl -d Effective -i ../../include.dat -s 0 ../Buckwalter/Lexicon*.pm";
 
 
     chdir "..";
