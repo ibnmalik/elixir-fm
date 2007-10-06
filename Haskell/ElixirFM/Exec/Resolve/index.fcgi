@@ -19,10 +19,9 @@ use Benchmark;
 
 BEGIN { @tick = (new Benchmark) }
 
-use Encode::Arabic;
 use Encode::Arabic::ArabTeX ':xml';
-use Encode::Arabic::ArabTeX::Verbatim ':xml';
 use Encode::Arabic::ArabTeX::ZDMG ':xml';
+use Encode::Arabic::Buckwalter ':xml';
 
 
 # use IPC::Open2;
@@ -40,15 +39,19 @@ sub escape ($) { my $x = shift; for ($x) { s/\&/\&amp;/g; s/\</\&lt;/g; s/\>/\&g
 #sub revert ($) { my $x = shift; for ($x) { s/\&gt;/\>/g; s/\&lt;/\</g; s/\&amp;/\&/g } $x }
 
 
-%enc_hash = (
-                 'ArabTeX',            'TeX',
-                 'Buckwalter',         'Tim',
-                 'Unicode',            'UTF',
-        );
+%enc_hash = (   'ArabTeX'       =>      'TeX',
+                'Buckwalter'    =>      'Tim',
+                'Unicode'       =>      'UTF'   );
 
-@enc_list = ( reverse sort keys %enc_hash );
-$enc_list = -1;
+@enc_list = sort keys %enc_hash;
 
+
+@examples = (   [ 'ArabTeX',    "ad-dars al-'awwal" ],
+                [ 'ArabTeX',    "y`tbru m.d'N" ],
+                [ 'Buckwalter', "Aldrs AlOwl" ],
+                [ 'Buckwalter', "yEtbr mDy}A" ],
+                [ 'Unicode',    (encode "utf8", decode "buckwalter", "Aldrs AlOwl") ],
+                [ 'Unicode',    (encode "utf8", decode "buckwalter", "yEtbr mDy}A") ]  );
 
 
 # open2(\*IMP, \*EXP, './elixirfm');
@@ -58,8 +61,6 @@ while ($q = new CGI::Fast) {
 
     $session++;
     @tick = ();
-
-    $enc_text = "OhlA";
 
     $q->charset('utf-8');
 
@@ -71,98 +72,56 @@ while ($q = new CGI::Fast) {
 
     $start_form = $q->start_form('-method' => 'POST');
 
-    $start_form =~ s/( action="[^"]+)"/$1#see"/;
+    $start_form =~ s/( action="[^"]+)"/$1#reply"/;
 
     print $start_form;
 
 
     unless (defined $q->param('submit') and $q->param('submit') eq 'Resolve') {
 
-        $q->param('text', $enc_text);
+        $idx = rand @examples;
 
-        $q->param('dec_code', $enc_list[$enc_list]);
-        $q->param('enc_code', @enc_list);
+        $q->param('text',   $examples[$idx][1]);
 
-        $q->param('dec_type', $type_list[$type_list]);
-
-        $q->param('enc_type', @type_list[0..1]);
-
-        $q->param('repeat', '   1');
+        $q->param('code',   $examples[$idx][0]);
     }
-    else {
-
-        $q->param('enc_type', $type_list[0], $q->param('enc_type'));
-    }
-
-    %type_hash = ( map { $_, 1 } $q->param('enc_type') );
 
 
     print $q->h1($q->a({'href'=>'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM 1.0"), 'Online Interface');
 
-    print $q->p({'class'=>'note'}, 'The initialization time is needed to compile the',
-                $q->a({'href'=>'http://search.cpan.org/dist/Encode-Mapper/'}, 'Encode::Mapper'), 'engines.',
-                'This is done once per request normally, unless the server supports',
-                $q->a({'href'=>'http://www.fastcgi.com/'}, 'FastCGI'), 'to skip re-compilation.');
-    print $q->p({'class'=>'note'}, 'The runtime processing itself is very quick in either case!');
-    print $q->p({'class'=>'note'}, 'You must have Unicode fonts installed to appreciate this site. Try',
-                $q->a({'href'=>'http://prdownloads.sourceforge.net/vietunicode/arialuni.zip'}, 'Arial Unicode MS'), 'from Sourceforge.');
-    print $q->p({'class'=>'note'}, 'The server must re-initialize the engines before the next request!') if -M $0 < 0 or -M 're-init' < 0;
-
-
     print $q->h2('Your Request');
 
-    print $q->table(
-                {-border=>0, -width=>"100%"},
-                Tr(
-                    {-align=>'left',-valign=>'middle'},
-                [
-                    td(
-                        [ #'Text',
-                          $q->textfield(-name       =>  'text',
-                                      -default    =>  $enc_text,
-                                      -size       =>  200,
-                                      -maxlength  =>  300),
+    print $q->table( {-border => 0},
 
-                          table(
-                                {-border=>0, -width=>"100%"},
-                                Tr(
-                                    {-align=>'left',-valign=>'top'},
-                                [
-                                    td(
-                                        [ $q->radio_group(-name      =>  'dec_code',
-                                                        -values    =>  [ reverse @enc_list ],
-                                                        -default   =>  $enc_list[$enc_list],
-                                                        -linebreak =>  0,
-                                                        -rows      =>  1,
-                                                        -columns   =>  scalar @enc_list,
-                                                ) ]
-                                    ),
-                                ])
-                            )]
-                        ),
-                ])
-            );
+                Tr( {-align => 'left', -valign => 'middle'},
 
-    print $q->table(
-                    {-border=>0, -width=>"100%"},
-                    Tr(
-                        {-align=>'left',-valign=>'middle'},
-                    [
-                        td(
-                            [
-                                $q->submit(-name => 'submit', -value => 'Resolve'),
-                                $q->reset('Reset Current'),
-                                $q->submit(-name => 'submit', -value => 'Example'),
-                            ]
-                        )
-                    ])
-            );
+                    td( {-colspan => 2},
+
+                        $q->textfield(  -name       =>  'text',
+                                        -default    =>  $q->param('text'),
+                                        -size       =>  50,
+                                        -maxlength  =>  50) ),
+
+                    td( $q->radio_group(-name       =>  'code',
+                                        -values     =>  [ @enc_list ],
+                                        -default    =>  $q->param('code'),
+                                        -linebreak  =>  0,
+                                        -rows       =>  1,
+                                        -columns    =>  scalar @enc_list) )
+                    ),
 
 
-    print $q->br({-id => 'see'});;
+                Tr( {-align => 'left', -valign => 'middle'},
+
+                    td({-align => 'left'},  $q->submit(-name => 'submit', -value => 'Resolve')),
+                    td({-align => 'right'}, $q->reset('Reset')),
+                    td({-align => 'right'}, $q->submit(-name => 'submit', -value => 'Example')) ) );
 
 
-    print $q->h2('Decoding Business');
+    print $q->br({-id => 'reply'});;
+
+
+    print $q->h2('ElixirFM Reply');
 
 #    $pipe = new IO::Pipe;
 #    $pipe->writer('./elixirfm');
@@ -180,19 +139,21 @@ while ($q = new CGI::Fast) {
 
     close T;
 
+    $code = $enc_hash{$q->param('code')};
+
     open L, '>>', "index.log";
 
-    print L $q->param('text') . "\n";
+    print L $code . "\t" . $q->param('text') . "\n";
 
     close L;
 
-    $enc_text = `./elixir-resolve < index.tmp`;
+    $elixir = `./elixir-resolve $code < index.tmp`;
 
-    print map { $q->p($_) } split /\n/, $enc_text;
+    print $q->table([ map { $q->Tr([ map { $q->td([ split /\t/, $_ ]) }
 
-    print $q->p($enc_text);
+                                     split /\n/, $_ ]) }
 
-    print $q->p(".. ended :)");
+                      split /\n\n/, $elixir ]);
 
 
     print $q->end_form();
