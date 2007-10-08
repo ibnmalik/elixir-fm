@@ -1,0 +1,110 @@
+.phon {
+    font-family: Arial Unicode MS, Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.orth {
+    font-family: Traditional Arabic, Simplified Arabic, Arial Unicode MS, Arabic Transparent, Tahoma, Andalus;
+    font-size: x-large;
+}
+
+td.orth {
+    font-family: Traditional Arabic, Simplified Arabic, Arial Unicode MS, Arabic Transparent, Tahoma, Andalus;
+    font-size: x-large;
+}
+
+.xtag {
+	font-family: Courier New;	
+}
+
+.root {
+	color: indigo;
+}
+
+.morphs {
+	font-family: Courier New;	
+	color: goldenrod;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: medium;
+    color: black;
+    background-color: white;
+}   
+
+table {
+	border-spacing: 10pt 0pt;
+	margin-bottom: 10pt;
+}
+
+td {
+    font-size: medium;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+input {
+    font-family: Arial Unicode MS, Tahoma, Verdana, Arial, Helvetica, sans-serif;    
+    font-size: medium;
+}
+
+h1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: palegoldenrod;
+    background-color: indigo;
+    padding: 3pt 6pt;
+} 
+    
+h2 { 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: indigo;
+    border: 1pt;
+    border-style: solid;
+    border-color: goldenrod;
+    padding: 2pt 5pt; 
+}
+
+a:link { 
+    color: indigo;
+    text-decoration: underline;
+}
+
+h1 a:link { 
+    color: gold;
+    text-decoration: underline;
+}
+
+a:visited { 
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+h1 a:visited { 
+    color: palegoldenrod;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
+h1 a:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
+a:active { 
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+p.note {
+	font-style: italic;
+}
