@@ -70,10 +70,16 @@ sub report ($) {
 
 @examples = (   [ 'ArabTeX',    "ad-dars al-'awwal" ],
                 [ 'ArabTeX',    "y`tbru m.d'N" ],
+                [ 'ArabTeX',    "narY mqhN" ],
+                [ 'ArabTeX',    ".hayATN ^gyydTN" ],
                 [ 'Buckwalter', "Aldrs AlOwl" ],
                 [ 'Buckwalter', "yEtbr mDy}A" ],
+                [ 'Buckwalter', "narY mqhY" ],
+                [ 'Buckwalter', "HyApN jydpN" ],
                 [ 'Unicode',    (encode "utf8", decode "buckwalter", "Aldrs AlOwl") ],
-                [ 'Unicode',    (encode "utf8", decode "buckwalter", "yEtbr mDy}A") ]  );
+                [ 'Unicode',    (encode "utf8", decode "buckwalter", "yEtbr mDy}A") ],
+                [ 'Unicode',    (encode "utf8", decode "buckwalter", "narY mqhY") ],
+                [ 'Unicode',    (encode "utf8", decode "buckwalter", "HyApN jydpN") ]  );
 
 
 # open2(\*IMP, \*EXP, './elixirfm');
