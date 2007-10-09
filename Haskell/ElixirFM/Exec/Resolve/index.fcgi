@@ -112,9 +112,9 @@ while ($q = new CGI::Fast) {
 
         $idx = rand @examples;
 
-        $q->param('text',   $examples[$idx][1]);
+        $q->param('text', $examples[$idx][1]);
 
-        $q->param('code',   $examples[$idx][0]);
+        $q->param('code', $examples[$idx][0]);
     }
 
     $q->param('data', '') unless defined $q->param('data');
@@ -137,7 +137,7 @@ while ($q = new CGI::Fast) {
                     td( {-colspan => 2},
 
                         $q->textfield(  -name       =>  'text',
-                                        -default    =>  $q->param('text'),
+                                        -default    =>  (encode "utf8", decode "utf8", $q->param('text')),
                                         -size       =>  50,
                                         -maxlength  =>  50) ),
 
@@ -179,7 +179,7 @@ while ($q = new CGI::Fast) {
 
     open T, '>', "index.tmp";
 
-    print T $q->param('text');
+    print T (encode "utf8", decode "utf8", $q->param('text'));
 
     close T;
 
@@ -187,7 +187,7 @@ while ($q = new CGI::Fast) {
 
     open L, '>>', "index.log";
 
-    print L $code . "\t" . ($q->param('data') ? 'Y' : 'N') . "\t" . $q->param('text') . "\n";
+    print L $code . "\t" . ($q->param('data') ? 'Y' : 'N') . "\t" . (encode "utf8", decode "utf8", $q->param('text')) . "\n";
 
     close L;
 
