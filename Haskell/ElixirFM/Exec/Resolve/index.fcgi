@@ -122,7 +122,7 @@ while ($q = new CGI::Fast) {
 
     print $q->h1($q->a({'href'=>'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM 1.0"), 'Resolve Online');
 
-    print $q->p("Welcome to the online demo of the", $q->code(resolve), "function of",
+    print $q->p("Welcome to the online demo of the", $q->code('resolve'), "function of",
                 $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/ElixirFM/'}, "ElixirFM") . ", which is the Haskell implementation of",
                 $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/elixir-thesis.pdf'}, "Functional Arabic Morphology") . ".");
 
@@ -130,14 +130,14 @@ while ($q = new CGI::Fast) {
 
     print $q->h2('Your Request');
 
-    print $q->table( {-border => 0},
+    print encode "utf8", $q->table( {-border => 0},
 
                 Tr( {-align => 'left', -valign => 'middle'},
 
                     td( {-colspan => 2},
 
                         $q->textfield(  -name       =>  'text',
-                                        -default    =>  (encode "utf8", decode "utf8", $q->param('text')),
+                                        -default    =>  $q->param('text'),
                                         -size       =>  50,
                                         -maxlength  =>  50) ),
 
@@ -179,7 +179,7 @@ while ($q = new CGI::Fast) {
 
     open T, '>', "index.tmp";
 
-    print T (encode "utf8", decode "utf8", $q->param('text'));
+    print T encode "utf8", $q->param('text');
 
     close T;
 
@@ -187,7 +187,7 @@ while ($q = new CGI::Fast) {
 
     open L, '>>', "index.log";
 
-    print L $code . "\t" . ($q->param('data') ? 'Y' : 'N') . "\t" . (encode "utf8", decode "utf8", $q->param('text')) . "\n";
+    print L encode "utf8", $code . "\t" . ($q->param('data') ? 'Y' : 'N') . "\t" . $q->param('text') . "\n";
 
     close L;
 
