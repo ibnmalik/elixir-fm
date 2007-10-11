@@ -4,13 +4,13 @@
 }
 
 .orth {
-    font-family: Traditional Arabic, Simplified Arabic, Arial Unicode MS, Arabic Transparent, Tahoma, Andalus;
-    font-size: x-large;
+    font-family: Arial Unicode MS, Simplified Arabic, Arabic Transparent, Tahoma;
+    font-size: medium;
 }
 
 td.orth {
-    font-family: Traditional Arabic, Simplified Arabic, Arial Unicode MS, Arabic Transparent, Tahoma, Andalus;
-    font-size: x-large;
+    font-family: Arial Unicode MS, Simplified Arabic, Arabic Transparent, Tahoma;
+    font-size: medium;
 }
 
 .xtag {

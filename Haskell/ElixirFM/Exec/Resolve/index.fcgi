@@ -43,21 +43,32 @@ sub report ($) {
     $data[5] = substr $data[5], 1, -1;
     $data[7] = substr $data[7], 1, -1;
 
+    $data[7] =~ s/\",\"/\", \"/g;
+
     @orth = map { encode "utf8", decode "arabtex", $_ } @data[1, 4];
     @phon = map { encode "utf8", decode "zdmg", $_ } @data[1, 4];
 
-    return join $", $q->td({-class => "xtag"}, $data[0]),
-                    $q->td(                    $data[1]),
-                    $q->td({-class => "orth"}, $orth[0]),
-                    $q->td({-class => "phon"}, $phon[0]),
-                    $q->td({-class => "root"}, $data[2]),
-                    $q->td({-class => "morphs"}, $data[3]),
-                    $q->td(                    $data[4]),
-                    $q->td({-class => "orth"}, $orth[1]),
-                    $q->td({-class => "phon"}, $phon[1]),
-                    $q->td({-class => "root"}, $data[5]),
-                    $q->td({-class => "morphs"}, $data[6]),
-                    $q->td(                    $data[7]);
+    return join $", $q->td({-class => "xtag",
+                            -title => "morphological tag"},         $data[0]),
+                    $q->td({-title => "inflected form"},            $data[1]),
+                    $q->td({-class => "orth",
+                            -title => "inflected form"},            $orth[0]),
+                    $q->td({-class => "phon",
+                            -title => "inflected form"},            $phon[0]),
+                    $q->td({-class => "root",
+                            -title => "root of inflected form"},    $data[2]),
+                    $q->td({-class => "morphs",
+                            -title => "morphs of inflected form"},  $data[3]),
+                    $q->td({-title => "citation form"},             $data[4]),
+                    $q->td({-class => "orth",
+                            -title => "citation form"},             $orth[1]),
+                    $q->td({-class => "phon",
+                            -title => "citation form"},             $phon[1]),
+                    $q->td({-class => "root",
+                            -title => "root of citation form"},     $data[5]),
+                    $q->td({-class => "morphs",
+                            -title => "morphs of citation form"},   $data[6]),
+                    $q->td({-title => "lexical reference"},         $data[7]);
 }
 
 
@@ -99,7 +110,7 @@ while ($q = new CGI::Fast) {
     print $q->header('-type' => 'text/html', '-charset' => $q->charset(), '-expires' => 'now');
 
     print $q->start_html('-title' => "ElixirFM 1.0 Resolve Online #$session", '-encoding' => $q->charset(),
-                         '-style' => {'-src' => 'http://ufal.mff.cuni.cz/~smrz/ElixirFM/Resolve/elixir.css', '-type' => 'text/css'});
+                         '-style' => {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/elixir.css', '-type' => 'text/css'});
 
     $start_form = $q->start_form('-method' => 'POST');
 
