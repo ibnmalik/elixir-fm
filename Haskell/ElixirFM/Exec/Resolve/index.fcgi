@@ -4,9 +4,9 @@
 #
 # ElixirFM #####################################################################################
 
-# $Id: index.fcgi,v 1.13 2006/02/10 12:51:36 smrz Exp $
+# $Id$
 
-our $VERSION = do { q $Revision: 112 $ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
+our $VERSION = do { q $Revision$ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
 
 
 use lib '/home/smrz/lib/perl5/site_perl/5.8.5', '/home/smrz/lib/perl5/5.8.5',
