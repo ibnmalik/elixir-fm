@@ -221,6 +221,9 @@ while ($q = new CGI::Fast) {
 
     print $q->p("(C) Otakar Smrz 2007, GNU General Public License.");
 
+    print $q->p($q->a({-href => 'http://ufal.mff.cuni.cz/'}, "Institute of Formal and Applied Linguistics") . ",",
+                "Charles University in Prague.");
+
     print $q->end_html();
 
     exit if -M $0 < 0 or -M 're-init' < 0;      # exit unless $session < 10;    # FCGI autorestart trick with Apache
