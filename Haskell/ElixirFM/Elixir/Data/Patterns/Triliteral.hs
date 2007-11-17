@@ -125,6 +125,15 @@ instance Forming PatternT where
 
     verbStems I r
 
+        | (unwords . words) r == ".h y y" = [
+
+        (   Just   (    FaCI,       FuCI,       FCY,        FCY         ),
+                        FaCL,       FuCL,       FCY,        FCY         ),  -- .hayya
+
+        (   Nothing,    FaCI,       FuCI,       FCY,        FCY         )   -- .hayiya
+
+        ]
+
         | let x = words r in if length x < 3 then False
                                              else x !! 1 == x !! 2 = [
 
