@@ -60,3 +60,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`  HACA'
                                         `withRoot` "' r y" ]
 -}
+
+ |> "w ' y" <| [
+
+    FaCY                      `verb`                            [ "promise" ]
+                              `imperf`  CI ]

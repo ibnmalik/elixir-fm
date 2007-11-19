@@ -130,6 +130,9 @@ instance Forming PatternT where
         (   Just   (    FaCI,       FuCI,       FCY,        FCY         ),
                         FaCL,       FuCL,       FCY,        FCY         ),  -- .hayya
 
+        (   Just   (    FaCI,       FuCI,       FCY,        FCY         ),
+                        FaCL,       FuCL,       FaCL,       FaCL        ),
+
         (   Nothing,    FaCI,       FuCI,       FCY,        FCY         )   -- .hayiya
 
         ]

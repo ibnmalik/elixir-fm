@@ -63,7 +63,7 @@ module Elixir.Lexicon (
 
         isVerb, isNoun, isAdj, isMore,
 
-        lookupRoot, lookupEntry, lookupLemma,
+        lookupRoot, lookupEntry, lookupLemma, lookupReflex,
 
         root, ents,
 
@@ -83,6 +83,10 @@ module Elixir.Lexicon (
 
 
 import Elixir.Template
+
+import Elixir.Pretty
+
+import Text.PrettyPrint
 
 import Elixir.Data.Patterns
 
@@ -154,6 +158,23 @@ data Wrap a = WrapS (a String)
             | WrapL (a PatternL)
 
     deriving Show
+
+
+-- instance (forall b . Pretty (a b)) => Pretty (Wrap a) where
+
+instance (Pretty (Lexeme PatternT), Pretty (Lexeme PatternQ),
+          Pretty (Lexeme String),   Pretty (Lexeme PatternL)) =>
+          Pretty (Wrap Lexeme) where
+
+    pretty (WrapT y) = text "WrapT" <+> pretty y
+    pretty (WrapQ y) = text "WrapQ" <+> pretty y
+    pretty (WrapS y) = text "WrapS" <+> pretty y
+    pretty (WrapL y) = text "WrapL" <+> pretty y
+
+
+instance Pretty (Entry a) => Pretty (Lexeme a) where
+
+    pretty (RE r e) = char '"' <> text r <> char '"' <+> pretty e
 
 
 class Wrapping a where
@@ -427,6 +448,16 @@ lookupEntry' z w r es = [ wrap (RE r (const e z)) | e <- es, let m = morphs e
                                                                  h = merge r m, w == h ]
 -}
 
+
+lookupReflex :: String -> Lexicon -> [Wrap Lexeme]
+
+lookupReflex w l = concat [ wraps (lookupReflex' w) n | n <- l ]
+
+lookupReflex' w (Nest r l) = [ RE r e | e <- l, any (elem w . words)
+                                                    (reflex e) ]
+
+-- lookupReflex' w (Nest r l) = [ RE r e | e <- l, let x = reflex e, s <- x,
+--                                         any (w ==) (words s) ]
 
 {- Rules.hs
 

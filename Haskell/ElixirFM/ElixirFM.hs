@@ -56,7 +56,14 @@ import Encode
 import Encode.Arabic
 
 import Data.List
+import qualified Data.Map
 
 import Version
 
 version = revised "$Revision$"
+
+-- sequence $ map (\ x -> print x) $ filter (\ (x, y) -> length y > 1) $
+--     Data.Map.toList $ Data.Map.fromAscListWith (++) $
+--     sortBy (\ x y -> fst x `compare` fst y) $ concat $
+--     map (unwraps (\ x -> (map (\ y -> (y, [root x])) $ nub $
+--     map (reflex) (ents x)))) lexicon
