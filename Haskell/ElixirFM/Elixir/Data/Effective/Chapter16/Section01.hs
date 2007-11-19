@@ -813,6 +813,10 @@ cluster_15  = listing "Lexicon's properties"
 
     MutaFaCCiL                `adj`     {- mutaTaw~ir -}       [ "developed", "advanced", "sophisticated" ] ]
 
+
+cluster_16  = listing "Lexicon's properties"
+
+
  |> ".t w y" <| [
 
     FaCY                      `verb`    {- TawaY-i -}          [ "fold", "wrap", unwords [ "be", "wrapped" ] ]
@@ -823,6 +827,12 @@ cluster_15  = listing "Lexicon's properties"
     FaCY                      `noun`    {- TawaY -}            [ "hunger" ]
                               `plural`     FaCA,
 
+    FayL                      `noun`    {- Tay~ -}             [ "concealment", "hiding", "inside" ]
+                              `plural`     HaFCA',
+
+    FayL |< aT                `noun`    {- Tay~ap -}           [ "fold", "interior", unwords [ "insides", "(", "of", ")" ] ]
+                              `plural`     FayL |< At,
+
     InFiCA'                   `noun`    {- AinoTiwA' -}        [ "withdrawal" ]
                               `plural`     InFiCA' |< At,
 
@@ -831,10 +841,6 @@ cluster_15  = listing "Lexicon's properties"
  |> ".t y `" <| [
 
     FaCCiL                    `adj`     {- Tay~iE -}           [ "compliant" ] ]
-
-
-cluster_16  = listing "Lexicon's properties"
-
 
  |> ".t y b" <| [
 
@@ -874,6 +880,10 @@ cluster_16  = listing "Lexicon's properties"
     FIL                       `noun`    {- Tiyn -}             [ "clay" ]
                               `plural`     HaFCAL ]
 
+
+cluster_17  = listing "Lexicon's properties"
+
+
  |> ".t y r" <| [
 
     FAL                       `verb`    {- TAr-i -}            [ "fly" ]
@@ -898,10 +908,6 @@ cluster_16  = listing "Lexicon's properties"
     FA'iL |< aT               `noun`    {- TA}irap -}          [ "aircraft", "airplane" ],
 
     MuFaCL |< Iy              `adj`     {- muTayoriy~ -}       [ "Mutairi" ] ]
-
-
-cluster_17  = listing "Lexicon's properties"
-
 
  |> ".t y y" <| [
 
@@ -941,6 +947,10 @@ cluster_17  = listing "Lexicon's properties"
  |> ".tUkiyU" <| [
 
     Identity                  `noun`    {- Tuwkiyuw -}         [ "Tokyo" ] ]
+
+
+cluster_18  = listing "Lexicon's properties"
+
 
  |> ".tUlkarm" <| [
 
@@ -993,5 +1003,6 @@ section = [ cluster_1,
             cluster_14,
             cluster_15,
             cluster_16,
-            cluster_17 ]
+            cluster_17,
+            cluster_18 ]
 

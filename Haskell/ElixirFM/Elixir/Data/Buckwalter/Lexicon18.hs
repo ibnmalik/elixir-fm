@@ -3340,7 +3340,7 @@ cluster_66  = listing "Lexicon's properties"
 
     HaFCY                     `adj`     {- OaEolaY -}          [ unwords [ "higher", "/", "highest" ], "supreme", "highest", "heights", "peaks", "high" ]
                               `plural`     HaFACI
-                           {- `others`  [ "`ulyY N0" ] -},
+                              `plural`     FuCyY,
 
     MaFCY |< aT               `noun`    {- maEolAp -}          [ "greatness", "nobility", unwords [ "His", "Excellency" ] ]
                               `plural`     MaFACI,

@@ -393,6 +393,12 @@ cluster_48  = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- Tawiy~ap -}         [ "intention", "conviction", "interior", unwords [ "insides", "(", "of", ")" ] ]
                               `plural`     FaCALY,
 
+    FayL                      `noun`    {- Tay~ -}             [ "concealment", "hiding", "inside" ]
+                              `plural`     HaFCA',
+
+    FayL |< aT                `noun`    {- Tay~ap -}           [ "fold", "interior", unwords [ "insides", "(", "of", ")" ] ]
+                              `plural`     FayL |< At,
+
     FIL |< aT                 `noun`    {- Tiy~ap -}           [ "intention", "design" ],
 
     MaFCY                     `noun`    {- maTowaY -}          [ unwords [ "pocket", "knife" ], "pleat", "inside", "within" ]
@@ -416,6 +422,10 @@ cluster_48  = listing "Lexicon's properties"
     MunFaCY                   `noun`    {- munoTawaY -}        [ "content" ]
                               `plural`     MunFaCY |< At ]
 
+
+cluster_49  = listing "Lexicon's properties"
+
+
  |> ".t y .h" <| [
 
     FAL                       `verb`    {- TAH-i -}            [ unwords [ "be", "lost" ] ]
@@ -428,10 +438,6 @@ cluster_48  = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- taToyiyH -}         [ unwords [ "causing", "to", "be", "lost" ] ]
                               `plural`     TaFCIL |< At ]
-
-
-cluster_49  = listing "Lexicon's properties"
-
 
  |> ".t y ^s" <| [
 

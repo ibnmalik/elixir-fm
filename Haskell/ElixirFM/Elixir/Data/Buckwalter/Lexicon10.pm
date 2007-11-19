@@ -9383,7 +9383,9 @@ $Lexicon = {
         'ryA}    riyA}   Nhy     hypocrisy;dissimulation'
       ],
       'patterns' => {
-        'riyA\'' => []
+        'riyA\'' => [
+          'FiyA\''
+        ]
       },
       'index' => '1',
       'entity' => 'noun',

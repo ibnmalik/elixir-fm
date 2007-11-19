@@ -20201,7 +20201,9 @@ $Lexicon = {
       'form' => 'hayyin',
       'lines' => [],
       'patterns' => {
-        'hayn' => [],
+        'hayn' => [
+          'FayL'
+        ],
         '\'ahwinA\'' => [
           'HaFCiLA\''
         ]

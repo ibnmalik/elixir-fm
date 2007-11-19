@@ -68,7 +68,9 @@ cluster_41  = listing "Lexicon's properties"
 
     MuFIL                     `adj`     {- muHiyT -}           [ "surrounding", "peripheral" ],
 
-    MuFAL                     `adj`     {- muHAT -}            [ "surrounded" ] ]
+    MuFAL                     `adj`     {- muHAT -}            [ "surrounded" ],
+
+    FayL |< aT                `noun`    {- HayoTap -}          [ "caution", "care" ] ]
 
 
 cluster_42  = listing "Lexicon's properties"
@@ -267,8 +269,8 @@ cluster_45  = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- Hawozap -}          [ "possession", "territory" ],
 
     FayyiL                    `noun`    {- Hay~iz -}           [ "scope", "domain", "sphere" ]
-                              `plural`     HaFyAL
-                           {- `others`  [ ".hayz Ndu" ] -},
+                              `plural`     FayL
+                              `plural`     HaFyAL,
 
     FiyAL |< aT               `noun`    {- HiyAzap -}          [ "possession", "attainment" ],
 

@@ -2143,6 +2143,12 @@ cluster_40  = listing "Lexicon's properties"
 
     HaFCY                     `noun`    {- OadonaY -}          [ "minimum" ],
 
+    FuCyY                     `noun`    {- dunoyaY -}          [ "world", "near", "low", "inferior" ]
+                              `plural`     FuCyY |< At,
+
+    FuCyY |< Iy               `adj`     {- dunoyawiy~ -}       [ "worldly", "temporal" ]
+                           {- `others`  [ "dunyAwiyy Nall" ] -},
+
     TaFaCCI                   `noun`    {- tadan~iy -}         [ "decline", "sinking", "low", "near", "close" ]
                               `plural`     FACI |< At
                               `plural`     TaFaCCI |< At,
@@ -3214,6 +3220,13 @@ cluster_60  = listing "Lexicon's properties"
     FUCAL                     `noun`    {- duw~Ar -}           [ unwords [ "bedouin", "camp", "(", "Maghrebi", ")" ] ],
 
     FaCCAL |< aT              `noun`    {- daw~Arap -}         [ "whirlpool", "vortex" ],
+
+    FayL                      `noun`    {- dayor -}            [ "Deir" ],
+
+    FayL                      `noun`    {- dayor -}            [ "monastery", "convent" ]
+                              `plural`     HaFyAL,
+
+    FayL |< Iy                `adj`     {- dayoriy~ -}         [ "monastic" ],
 
     HaFCaL                    `noun`    {- Oadowar -}          [ unwords [ "more", "/", "most", "circulated" ] ],
 

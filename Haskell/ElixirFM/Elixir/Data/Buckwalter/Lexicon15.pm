@@ -2515,6 +2515,26 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => '.dayr',
+      'form' => '.dayr',
+      'lines' => [
+        ';; Dayor_1',
+        'Dyr     Dayor   N       harm;injury'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FayL',
+      'suffix' => '',
+      'glosses' => [
+        'harm',
+        'injury'
+      ],
+      'orig' => 'Dayor',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => '.dA\'ir',
       'form' => '.dA\'ir',
       'lines' => [
@@ -4071,19 +4091,13 @@ $Lexicon = {
       'types' => {},
       'entry' => '.dayr',
       'form' => '.dayr',
-      'lines' => [
-        ';; Dayor_1',
-        'Dyr     Dayor   N       harm;injury'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL',
       'suffix' => '',
-      'glosses' => [
-        'harm',
-        'injury'
-      ],
+      'glosses' => [],
       'orig' => 'Dayor',
       'prefix' => ''
     }
@@ -14216,6 +14230,9 @@ $Lexicon = {
 $Lexicon->{'.d w r y'}[0]{'types'} = $Lexicon->{'.d w r'}[0]{'types'};
 $Lexicon->{'.d w r y'}[0]{'lines'} = $Lexicon->{'.d w r'}[0]{'lines'};
 $Lexicon->{'.d w r y'}[0]{'glosses'} = $Lexicon->{'.d w r'}[0]{'glosses'};
+$Lexicon->{'.d y r'}[0]{'types'} = $Lexicon->{'.d w r'}[6]{'types'};
+$Lexicon->{'.d y r'}[0]{'lines'} = $Lexicon->{'.d w r'}[6]{'lines'};
+$Lexicon->{'.d y r'}[0]{'glosses'} = $Lexicon->{'.d w r'}[6]{'glosses'};
 $Lexicon->{'.d n \''}[0]{'types'} = $Lexicon->{'.d n y'}[5]{'types'};
 $Lexicon->{'.d n \''}[0]{'lines'} = $Lexicon->{'.d n y'}[5]{'lines'};
 $Lexicon->{'.d n \''}[0]{'glosses'} = $Lexicon->{'.d n y'}[5]{'glosses'};
@@ -14256,9 +14273,9 @@ $Lexicon->{'.d y `'}[11]{'glosses'} = $Lexicon->{'.d \' `'}[0]{'glosses'};
 $Lexicon->{'.d f \' r'}[0]{'types'} = $Lexicon->{'.d f r'}[5]{'types'};
 $Lexicon->{'.d f \' r'}[0]{'lines'} = $Lexicon->{'.d f r'}[5]{'lines'};
 $Lexicon->{'.d f \' r'}[0]{'glosses'} = $Lexicon->{'.d f r'}[5]{'glosses'};
-$Lexicon->{'.d \' r'}[0]{'types'} = $Lexicon->{'.d w r'}[6]{'types'};
-$Lexicon->{'.d \' r'}[0]{'lines'} = $Lexicon->{'.d w r'}[6]{'lines'};
-$Lexicon->{'.d \' r'}[0]{'glosses'} = $Lexicon->{'.d w r'}[6]{'glosses'};
+$Lexicon->{'.d \' r'}[0]{'types'} = $Lexicon->{'.d w r'}[7]{'types'};
+$Lexicon->{'.d \' r'}[0]{'lines'} = $Lexicon->{'.d w r'}[7]{'lines'};
+$Lexicon->{'.d \' r'}[0]{'glosses'} = $Lexicon->{'.d w r'}[7]{'glosses'};
 $Lexicon->{'.d w \''}[8]{'types'} = $Lexicon->{'.d y \''}[0]{'types'};
 $Lexicon->{'.d w \''}[8]{'lines'} = $Lexicon->{'.d y \''}[0]{'lines'};
 $Lexicon->{'.d w \''}[8]{'glosses'} = $Lexicon->{'.d y \''}[0]{'glosses'};

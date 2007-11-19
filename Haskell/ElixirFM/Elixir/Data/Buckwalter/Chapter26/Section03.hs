@@ -473,7 +473,8 @@ cluster_49  = listing "Lexicon's properties"
     FIL |< aT                 `noun`    {- hiynap -}           [ "ease", "comfort", "leisure" ],
 
     FayyiL                    `noun`    {- hay~in -}           [ "light", "easy", "insignificant" ]
-                              `plural`     HaFCiLA',
+                              `plural`     HaFCiLA'
+                              `plural`     FayL |< aT,
 
     HaFCaL                    `noun`    {- Oahowan -}          [ "easy", "comfortable", "unimportant" ]
                               `plural`     FaCLA',

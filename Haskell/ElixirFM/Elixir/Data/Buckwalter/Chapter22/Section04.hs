@@ -828,6 +828,12 @@ cluster_75  = listing "Lexicon's properties"
                               `plural`     FuCY
                               `plural`     FiCA',
 
+    FayL                      `noun`    {- kay~ -}             [ "ironing" ],
+
+    FayL                      `noun`    {- kay~ -}             [ "burning", "cauterization" ],
+
+    FayL |< aT                `noun`    {- kay~ap -}           [ "burn", "brand" ],
+
     FaCIL |< aT               `noun`    {- kawiy~ap -}         [ "crease" ],
 
     MiFCY |< aT               `noun`    {- mikowAp -}          [ unwords [ "ironing", "iron" ] ]

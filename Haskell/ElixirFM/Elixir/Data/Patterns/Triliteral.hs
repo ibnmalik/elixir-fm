@@ -125,7 +125,7 @@ instance Forming PatternT where
 
     verbStems I r
 
-        | (unwords . words) r == ".h y y" = [
+        | (unwords . tail . words) r == "y y" = [
 
         (   Just   (    FaCI,       FuCI,       FCY,        FCY         ),
                         FaCL,       FuCL,       FCY,        FCY         ),  -- .hayya
@@ -443,7 +443,7 @@ instance Rules PatternT where
     isDiptote = flip elem [ HaFCaL, HACaL,
                             FaCLY,
                             FiCLY,
-                            FuCLY,
+                            FuCLY, FuCyY,
                             FaCaLY,
                             FaCALY,
                             FuCALY,
@@ -522,7 +522,7 @@ data PatternT =
                                         |   FiL                                         |   FI
                                         |   FuL                                         |   FU
 
-    {-- |   FaCL    --}                                 |   FaC
+    {-- |   FaCL    --}                 |   FayL        |   FaC
     {-- |   FiCL    --}                                 |   FiC
     {-- |   FuCL    --}                                 |   FuC
 
@@ -530,7 +530,9 @@ data PatternT =
         |   FiCAL                                       |   FiCA'
         |   FuCAL                                       |   FuCA'
 
-                                        |   FiyAL       |   FiCAy
+                                        |   FiyAL       |   FiyA'
+
+                                                        |   FiCAy
 
         |   FaCUL
         |   FuCUL                       |   Fu'UL
@@ -621,7 +623,7 @@ data PatternT =
 
         |   FaCLY
         |   FiCLY                       |   FILY
-        |   FuCLY                       |   FULY
+        |   FuCLY                       |   FULY        |   FuCyY
 
         |   FaCaLY
 

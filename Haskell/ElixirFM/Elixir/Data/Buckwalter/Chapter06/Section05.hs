@@ -852,7 +852,9 @@ cluster_97  = listing "Lexicon's properties"
 
     MuFAL                     `adj`     {- muHAT -}            [ "surrounded" ],
 
-    MutaFaCCiL                `adj`     {- mutaHaw~iT -}       [ "cautious", "watchful" ] ]
+    MutaFaCCiL                `adj`     {- mutaHaw~iT -}       [ "cautious", "watchful" ],
+
+    FayL |< aT                `noun`    {- HayoTap -}          [ "caution", "care" ] ]
 
 
 cluster_98  = listing "Lexicon's properties"
@@ -1063,6 +1065,8 @@ cluster_100 = listing "Lexicon's properties"
     FiCAL                     `noun`    {- HiwAl -}            [ "obstacle", "partition" ],
 
     FaCAL |< aT               `noun`    {- HawAlap -}          [ "note", "draft", "check" ],
+
+    FayL                      `noun`    {- Hayol -}            [ "strength", "force" ],
 
     FIL |< aT                 `noun`    {- Hiylap -}           [ "stratagem", "ruse" ]
                            {- `others`  [ "'a.hAyiyl Ndip", ".hiyal N" ] -} ]

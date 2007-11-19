@@ -17475,6 +17475,20 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => '^sayy',
+      'form' => '^sayy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FayL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => '$ay~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => '^siwA\'',
       'form' => '^siwA\'',
       'lines' => [
@@ -44602,6 +44616,9 @@ $Lexicon->{'^s ^g w'}[8]{'glosses'} = $Lexicon->{'^s ^g y'}[1]{'glosses'};
 $Lexicon->{'^s ^g w'}[9]{'types'} = $Lexicon->{'^s ^g y'}[3]{'types'};
 $Lexicon->{'^s ^g w'}[9]{'lines'} = $Lexicon->{'^s ^g y'}[3]{'lines'};
 $Lexicon->{'^s ^g w'}[9]{'glosses'} = $Lexicon->{'^s ^g y'}[3]{'glosses'};
+$Lexicon->{'^s w y'}[2]{'types'} = $Lexicon->{'^s y y'}[0]{'types'};
+$Lexicon->{'^s w y'}[2]{'lines'} = $Lexicon->{'^s y y'}[0]{'lines'};
+$Lexicon->{'^s w y'}[2]{'glosses'} = $Lexicon->{'^s y y'}[0]{'glosses'};
 $Lexicon->{'^s y b'}[4]{'types'} = $Lexicon->{'^s \' b'}[1]{'types'};
 $Lexicon->{'^s y b'}[4]{'lines'} = $Lexicon->{'^s \' b'}[1]{'lines'};
 $Lexicon->{'^s y b'}[4]{'glosses'} = $Lexicon->{'^s \' b'}[1]{'glosses'};
@@ -44762,9 +44779,9 @@ $Lexicon->{'^s \' k'}[0]{'glosses'} = $Lexicon->{'^s w k'}[8]{'glosses'};
 $Lexicon->{'^s h \''}[0]{'types'} = $Lexicon->{'^s h y'}[5]{'types'};
 $Lexicon->{'^s h \''}[0]{'lines'} = $Lexicon->{'^s h y'}[5]{'lines'};
 $Lexicon->{'^s h \''}[0]{'glosses'} = $Lexicon->{'^s h y'}[5]{'glosses'};
-$Lexicon->{'^s w \''}[0]{'types'} = $Lexicon->{'^s w y'}[2]{'types'};
-$Lexicon->{'^s w \''}[0]{'lines'} = $Lexicon->{'^s w y'}[2]{'lines'};
-$Lexicon->{'^s w \''}[0]{'glosses'} = $Lexicon->{'^s w y'}[2]{'glosses'};
+$Lexicon->{'^s w \''}[0]{'types'} = $Lexicon->{'^s w y'}[3]{'types'};
+$Lexicon->{'^s w \''}[0]{'lines'} = $Lexicon->{'^s w y'}[3]{'lines'};
+$Lexicon->{'^s w \''}[0]{'glosses'} = $Lexicon->{'^s w y'}[3]{'glosses'};
 $Lexicon->{'^s w \''}[1]{'types'} = $Lexicon->{'^s w w'}[1]{'types'};
 $Lexicon->{'^s w \''}[1]{'lines'} = $Lexicon->{'^s w w'}[1]{'lines'};
 $Lexicon->{'^s w \''}[1]{'glosses'} = $Lexicon->{'^s w w'}[1]{'glosses'};

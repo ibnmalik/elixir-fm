@@ -287,6 +287,15 @@ cluster_66  = listing "Lexicon's properties"
                               `plural`     HaFCI |< aT
                               `plural`     HaFCA',
 
+    FayL                      `noun`    {- lay~ -}             [ "bending", "twisting" ],
+
+    FayL                      `noun`    {- lay~ -}             [ "distortion", "contortion" ],
+
+    FayL |< aT                `noun`    {- lay~ap -}           [ "bend", "fold" ],
+
+    FayL |< aT                `noun`    {- lay~ap -}           [ "turn", "curve" ]
+                              `plural`     FiCY,
+
     FiCA'                     `noun`    {- liwA' -}            [ "banner", "flag" ],
 
     FiCA'                     `noun`    {- liwA' -}            [ unwords [ "major", "general" ], "brigade" ],

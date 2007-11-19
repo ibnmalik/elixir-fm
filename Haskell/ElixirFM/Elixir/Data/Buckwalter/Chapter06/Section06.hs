@@ -189,8 +189,8 @@ cluster_104 = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- Hawozap -}          [ "possession", "territory" ],
 
     FayyiL                    `noun`    {- Hay~iz -}           [ "scope", "domain", "sphere" ]
-                              `plural`     HaFyAL
-                           {- `others`  [ ".hayz Ndu" ] -},
+                              `plural`     FayL
+                              `plural`     HaFyAL,
 
     FiyAL |< aT               `noun`    {- HiyAzap -}          [ "possession", "attainment" ],
 

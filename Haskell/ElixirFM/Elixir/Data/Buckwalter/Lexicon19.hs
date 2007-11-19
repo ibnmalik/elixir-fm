@@ -2767,6 +2767,10 @@ cluster_59  = listing "Lexicon's properties"
 
     IstaFCY                   `verb`    {- AisotagowaY -}      [ "mislead", "seduce", unwords [ "be", "misled" ] ],
 
+    FayL                      `noun`    {- gay~ -}             [ "transgression", "offense" ],
+
+    FayL |< aT                `noun`    {- gay~ap -}           [ "error", "sin" ],
+
     FaCAL |< aT               `noun`    {- gawAyap -}          [ "error", "sin" ],
 
     HuFCIL |< aT              `noun`    {- Ougowiy~ap -}       [ "pitfall", "trap" ]
@@ -2810,15 +2814,15 @@ cluster_59  = listing "Lexicon's properties"
 
     KaRADI                    `noun`    {- gawAziy -}          [ unwords [ "women", "dancers" ] ] ]
 
+
+cluster_60  = listing "Lexicon's properties"
+
+
  |> ".g y '" <| [
 
     FAL |< Iy                 `adj`     {- gA}iy~ -}           [ "final", "finalism" ],
 
     FAL |< Iy |< aT           `noun`    {- gA}iy~ap -}         [ "finality" ] ]
-
-
-cluster_60  = listing "Lexicon's properties"
-
 
  |> ".g y .d" <| [
 

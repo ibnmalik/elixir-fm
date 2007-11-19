@@ -1070,6 +1070,13 @@ cluster_60  = listing "Lexicon's properties"
 
     FaCCAL |< aT              `noun`    {- daw~Arap -}         [ "whirlpool", "vortex" ],
 
+    FayL                      `noun`    {- dayor -}            [ "Deir" ],
+
+    FayL                      `noun`    {- dayor -}            [ "monastery", "convent" ]
+                              `plural`     HaFyAL,
+
+    FayL |< Iy                `adj`     {- dayoriy~ -}         [ "monastic" ],
+
     HaFCaL                    `noun`    {- Oadowar -}          [ unwords [ "more", "/", "most", "circulated" ] ],
 
     MaFAL                     `noun`    {- madAr -}            [ "orbit", "sphere", "axis", "pivot" ]

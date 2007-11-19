@@ -100,6 +100,8 @@ cluster_142 = listing "Lexicon's properties"
     MuFACI                    `adj`     {- munAwiy -}          [ "hostile", "unfriendly" ]
                               `plural`     MuFACI |< At,
 
+    FayL                      `noun`    {- nay~ -}             [ "fat" ],
+
     FIL |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire" ]
                               `plural`     FaCALY ]
 

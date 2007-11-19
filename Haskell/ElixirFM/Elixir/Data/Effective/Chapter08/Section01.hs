@@ -1092,6 +1092,13 @@ cluster_20  = listing "Lexicon's properties"
 
     FaCaLAn                   `noun`    {- dawarAn -}          [ "running", "tour" ],
 
+    FayL                      `noun`    {- dayor -}            [ "Deir" ],
+
+    FayL                      `noun`    {- dayor -}            [ "monastery", "convent" ]
+                              `plural`     HaFyAL,
+
+    FayL |< Iy                `adj`     {- dayoriy~ -}         [ "monastic" ],
+
     MaFAL                     `noun`    {- madAr -}            [ "orbit", "sphere", "axis", "pivot" ]
                               `plural`     MaFAL |< At,
 

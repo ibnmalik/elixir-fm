@@ -269,6 +269,8 @@ cluster_86  = listing "Lexicon's properties"
     FaCY                      `verb`    {- \$awaY-i -}         [ "roast", "grill" ]
                               `imperf`     FCI,
 
+    FayL                      `noun`    {- \$ay~ -}            [ "roasting", "grilling" ],
+
     FiCA'                     `adj`     {- \$iwA' -}           [ "roasted", "broiled" ],
 
     FaCIL                     `adj`     {- \$awiy~ -}          [ "roasted", "broiled" ],

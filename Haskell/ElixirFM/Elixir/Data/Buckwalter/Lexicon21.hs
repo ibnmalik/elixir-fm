@@ -5842,6 +5842,9 @@ cluster_104 = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- qawA' -}            [ "desert" ],
 
+    FiyA'                     `noun`    {- qiyA' -}            [ "desert" ]
+                              `plural`     FIL,
+
     FaCA'                     `noun`    {- qawA' -}            [ "hunger" ],
 
     FaCY                      `noun`    {- qawaY -}            [ "hunger" ]

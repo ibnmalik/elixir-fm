@@ -151,7 +151,7 @@ cluster_3   = listing "Lexicon's properties"
                               `plural`     MaFACI,
 
     FiCA'                     `noun`    {- ri}A' -}            [ "hypocrisy", "dissimulation" ]
-                           {- `others`  [ "riyA' Nh N0_Nh Nhy" ] -},
+                              `plural`     FiyA',
 
     MaFCIL                    `adj`     {- maro}iy~ -}         [ "visual", "seen", "visible" ],
 

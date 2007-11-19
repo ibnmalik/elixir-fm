@@ -1378,6 +1378,8 @@ cluster_28  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Dawor -}            [ unwords [ "violent", "hunger" ], "bulimia" ],
 
+    FayL                      `noun`    {- Dayor -}            [ "harm", "injury" ],
+
     FA'iL                     `adj`     {- DA}ir -}            [ "harmful", "injurious" ],
 
     MutaFaCCiL                `adj`     {- mutaDaw~ir -}       [ "starving" ] ]

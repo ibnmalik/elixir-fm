@@ -45201,7 +45201,9 @@ $Lexicon = {
           'HaFACI'
         ],
         '\'a`lA' => [],
-        '`ulyY' => []
+        '`ulyY' => [
+          'FuCyY'
+        ]
       },
       'index' => '2',
       'entity' => 'adj',

@@ -18819,6 +18819,25 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => 'nayy',
+      'form' => 'nayy',
+      'lines' => [
+        ';; nay~_1',
+        'ny      nay~    N       fat'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FayL',
+      'suffix' => '',
+      'glosses' => [
+        'fat'
+      ],
+      'orig' => 'nay~',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'nawAyY' => {
           'N0_Nhy' => 1
@@ -59267,18 +59286,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'nayy',
       'form' => 'nayy',
-      'lines' => [
-        ';; nay~_1',
-        'ny      nay~    N       fat'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL',
       'suffix' => '',
-      'glosses' => [
-        'fat'
-      ],
+      'glosses' => [],
       'orig' => 'nay~',
       'prefix' => ''
     },
@@ -72602,9 +72616,12 @@ $Lexicon->{'n s \''}[9]{'glosses'} = $Lexicon->{'n s w'}[6]{'glosses'};
 $Lexicon->{'n s \''}[10]{'types'} = $Lexicon->{'n s s'}[0]{'types'};
 $Lexicon->{'n s \''}[10]{'lines'} = $Lexicon->{'n s s'}[0]{'lines'};
 $Lexicon->{'n s \''}[10]{'glosses'} = $Lexicon->{'n s s'}[0]{'glosses'};
-$Lexicon->{'n y y'}[1]{'types'} = $Lexicon->{'n w y'}[8]{'types'};
-$Lexicon->{'n y y'}[1]{'lines'} = $Lexicon->{'n w y'}[8]{'lines'};
-$Lexicon->{'n y y'}[1]{'glosses'} = $Lexicon->{'n w y'}[8]{'glosses'};
+$Lexicon->{'n y y'}[0]{'types'} = $Lexicon->{'n w y'}[8]{'types'};
+$Lexicon->{'n y y'}[0]{'lines'} = $Lexicon->{'n w y'}[8]{'lines'};
+$Lexicon->{'n y y'}[0]{'glosses'} = $Lexicon->{'n w y'}[8]{'glosses'};
+$Lexicon->{'n y y'}[1]{'types'} = $Lexicon->{'n w y'}[9]{'types'};
+$Lexicon->{'n y y'}[1]{'lines'} = $Lexicon->{'n w y'}[9]{'lines'};
+$Lexicon->{'n y y'}[1]{'glosses'} = $Lexicon->{'n w y'}[9]{'glosses'};
 $Lexicon->{'n y y'}[2]{'types'} = $Lexicon->{'n y \''}[1]{'types'};
 $Lexicon->{'n y y'}[2]{'lines'} = $Lexicon->{'n y \''}[1]{'lines'};
 $Lexicon->{'n y y'}[2]{'glosses'} = $Lexicon->{'n y \''}[1]{'glosses'};

@@ -739,6 +739,8 @@ cluster_12  = listing "Lexicon's properties"
 
  |> ".g w y" <| [
 
+    FayL |< aT                `noun`    {- gay~ap -}           [ "error", "sin" ],
+
     HiFCA'                    `noun`    {- IigowA' -}          [ "seduction", "allurement" ]
                               `plural`     HiFCA' |< At ]
 
@@ -778,14 +780,14 @@ cluster_12  = listing "Lexicon's properties"
 
     KaRDUS |< aT              `noun`    {- gayobuwbap -}       [ "unconsciousness", "trance", "coma" ] ]
 
+
+cluster_13  = listing "Lexicon's properties"
+
+
  |> ".g y l" <| [
 
     IFtiCAL                   `noun`    {- AigotiyAl -}        [ "assassination", "murder" ]
                               `plural`     IFtiCAL |< At ]
-
-
-cluster_13  = listing "Lexicon's properties"
-
 
  |> ".g y r" <| [
 

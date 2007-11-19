@@ -815,6 +815,8 @@ cluster_76  = listing "Lexicon's properties"
                               `plural`     HaFCAL
                               `plural`     FaCLY,
 
+    FayL |< aT                `noun`    {- mayotap -}          [ "corpse", unwords [ "non", "-", "kosher", "meat" ] ],
+
     FIL |< aT                 `noun`    {- miytap -}           [ "death" ],
 
     HiFAL |< aT               `noun`    {- IimAtap -}          [ "mortification", "killing" ],
@@ -846,14 +848,14 @@ cluster_76  = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- mawoziy~ -}         [ "banana" ] ]
 
+
+cluster_77  = listing "Lexicon's properties"
+
+
  |> "m y .g" <| [
 
     FILAn                     `noun`    {- miygAn -}           [ "Megan" ]
                            {- `others`  [ "miy^gAn Nprop" ] -} ]
-
-
-cluster_77  = listing "Lexicon's properties"
-
 
  |> "m y .g n" <| [
 

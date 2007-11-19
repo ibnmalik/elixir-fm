@@ -14408,6 +14408,48 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => 'kayy',
+      'form' => 'kayy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FayL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'kay~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'kayy',
+      'form' => 'kayy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FayL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'kay~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'kayy',
+      'form' => 'kayyaT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FayL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
+      'orig' => 'kay~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'kawiyy',
       'form' => 'kawiyyaT',
       'lines' => [
@@ -44243,6 +44285,15 @@ $Lexicon->{'k y m n'}[0]{'glosses'} = $Lexicon->{'k w m'}[3]{'glosses'};
 $Lexicon->{'k y y'}[4]{'types'} = $Lexicon->{'k y y'}[3]{'types'};
 $Lexicon->{'k y y'}[4]{'lines'} = $Lexicon->{'k y y'}[3]{'lines'};
 $Lexicon->{'k y y'}[4]{'glosses'} = $Lexicon->{'k y y'}[3]{'glosses'};
+$Lexicon->{'k w y'}[3]{'types'} = $Lexicon->{'k y y'}[0]{'types'};
+$Lexicon->{'k w y'}[3]{'lines'} = $Lexicon->{'k y y'}[0]{'lines'};
+$Lexicon->{'k w y'}[3]{'glosses'} = $Lexicon->{'k y y'}[0]{'glosses'};
+$Lexicon->{'k w y'}[4]{'types'} = $Lexicon->{'k y y'}[1]{'types'};
+$Lexicon->{'k w y'}[4]{'lines'} = $Lexicon->{'k y y'}[1]{'lines'};
+$Lexicon->{'k w y'}[4]{'glosses'} = $Lexicon->{'k y y'}[1]{'glosses'};
+$Lexicon->{'k w y'}[5]{'types'} = $Lexicon->{'k y y'}[2]{'types'};
+$Lexicon->{'k w y'}[5]{'lines'} = $Lexicon->{'k y y'}[2]{'lines'};
+$Lexicon->{'k w y'}[5]{'glosses'} = $Lexicon->{'k y y'}[2]{'glosses'};
 $Lexicon->{'k r \''}[1]{'types'} = $Lexicon->{'k r y'}[11]{'types'};
 $Lexicon->{'k r \''}[1]{'lines'} = $Lexicon->{'k r y'}[11]{'lines'};
 $Lexicon->{'k r \''}[1]{'glosses'} = $Lexicon->{'k r y'}[11]{'glosses'};
