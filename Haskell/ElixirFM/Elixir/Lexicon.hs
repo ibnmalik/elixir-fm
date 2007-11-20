@@ -61,7 +61,7 @@ module Elixir.Lexicon (
 
         listing, revised, include,
 
-        isVerb, isNoun, isAdj, isMore,
+        isVerb, isNoun, isAdj, isPrep, isConj, isPart, isIntj,
 
         lookupRoot, lookupEntry, lookupLemma, lookupReflex,
 
@@ -271,12 +271,15 @@ data Entity a = Verb { form :: [Form], perfect', imperfect, imperative :: [a],
                        justTense :: Maybe Tense, justVoice :: Maybe Voice }
               | Noun [Plural a] (Maybe Gender) (Maybe Number)
               | Adj  [Plural a]                (Maybe Number)
-              | More
+              | Prep
+              | Conj
+              | Part
+              | Intj
 
     deriving Show
 
 
-isVerb, isNoun, isAdj, isMore :: Entity a -> Bool
+isVerb, isNoun, isAdj, isPrep, isConj, isPart, isIntj :: Entity a -> Bool
 
 isVerb (Verb _ _ _ _ _ _) = True
 isVerb _                  = False
@@ -287,8 +290,17 @@ isNoun _            = False
 isAdj (Adj _ _) = True
 isAdj _         = False
 
-isMore More = True
-isMore _    = False
+isPrep Prep = True
+isPrep _    = False
+
+isConj Conj = True
+isConj _    = False
+
+isPart Part = True
+isPart _    = False
+
+isIntj Intj = True
+isIntj _    = False
 
 
 verb :: (Morphing a b, Forming a, Eq a) => a -> Reflex -> Entry b
@@ -325,13 +337,14 @@ adj  m l = Entry (Adj [] Nothing) (morph m) l
 pron = noun
 num = noun
 adv = noun
-prep = noun
-conj = noun
-part = noun
-intj = noun
 
-infixl 3 `verb`, `noun`, `adj`, `pron`, `num`, `adv`, `prep`, `conj`, `part`, `intj`
+prep m l = Entry Prep (morph m) l
+conj m l = Entry Conj (morph m) l
+part m l = Entry Part (morph m) l
+intj m l = Entry Intj (morph m) l
 
+infixl 3 `verb`, `noun`, `adj`, `pron`, `num`, `adv`,
+         `prep`, `conj`, `part`, `intj`
 
 {-
 imperf :: Wrapping a => Entry a -> [a] -> Entry a
@@ -378,6 +391,7 @@ plural x y = case entity x of
 
                 Noun z g n  -> x { entity = Noun (Right (morph y) : z) g n }
                 Adj  z   n  -> x { entity = Adj  (Right (morph y) : z)   n }
+                _           -> x
 
 
 withRoot x y = case entity x of

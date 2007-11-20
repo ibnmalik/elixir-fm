@@ -121,6 +121,30 @@ isTagParaAdj (TagAdjA _ _ _ _ _ _) = True
 isTagParaAdj _ = False
 
 
+isTagParaPrep :: Tag -> Bool
+
+isTagParaPrep TagPrep = True
+isTagParaPrep _ = False
+
+
+isTagParaConj :: Tag -> Bool
+
+isTagParaConj TagConj = True
+isTagParaConj _ = False
+
+
+isTagParaPart :: Tag -> Bool
+
+isTagParaPart TagPart = True
+isTagParaPart _ = False
+
+
+isTagParaIntj :: Tag -> Bool
+
+isTagParaIntj TagIntj = True
+isTagParaIntj _ = False
+
+
 expandTag :: Tag -> [String]    -- instance Inflect RootEntry Tag
 
 expandTag y = case y of

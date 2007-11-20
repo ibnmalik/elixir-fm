@@ -184,8 +184,8 @@ isClosed _ = True
                         Suffix "Ina"    -> "ayna"
                         Suffix "I"      -> "ay"
 
-                        Suffix x | x `elem` ["a",  "i",  "u"]  -> "Y"
-                                 | x `elem` ["aN", "iN", "uN"] -> "aNY"
+                        Suffix x | x `elem` ["a",  "i",  "u"]  -> "A"
+                                 | x `elem` ["aN", "iN", "uN"] -> "aN"
 
                                  | "at" `isPrefixOf` x         -> x
 

@@ -157,6 +157,11 @@ instance Inflect Lexeme Tag where
                                                     c' <- vals c,
                                                     s' <- vals s ]
 
+        TagPrep                 ->  inflect x ParaPrep
+        TagConj                 ->  inflect x ParaConj
+        TagPart                 ->  inflect x ParaPart
+        TagIntj                 ->  inflect x ParaIntj
+
         _                       ->  []
 
         where vals [] = values
@@ -168,6 +173,10 @@ instance Inflect Lexeme String where
     inflect x@(RE r e) | isVerb et = inflectOnly isTagParaVerb x
                        | isNoun et = inflectOnly isTagParaNoun x
                        | isAdj  et = inflectOnly isTagParaAdj  x
+                       | isPrep et = inflectOnly isTagParaPrep x
+                       | isConj et = inflectOnly isTagParaConj x
+                       | isPart et = inflectOnly isTagParaPart x
+                       | isIntj et = inflectOnly isTagParaIntj x
                        | otherwise = const []
 
         where inflectOnly x y = inflect y . filter x . -- more efficient --
@@ -848,3 +857,26 @@ paraPronD   g n c _ = case n of
 
     Plural      ->                                  "'_Ul_a'ika"
 
+
+instance Inflect Lexeme ParaPrep where
+
+    inflect x@(RE r e) y  | (not . isPrep) (entity e) = []
+                          | otherwise = [(show y, [(r, morphs e)])]
+
+
+instance Inflect Lexeme ParaConj where
+
+    inflect x@(RE r e) y  | (not . isConj) (entity e) = []
+                          | otherwise = [(show y, [(r, morphs e)])]
+
+
+instance Inflect Lexeme ParaPart where
+
+    inflect x@(RE r e) y  | (not . isPart) (entity e) = []
+                          | otherwise = [(show y, [(r, morphs e)])]
+
+
+instance Inflect Lexeme ParaIntj where
+
+    inflect x@(RE r e) y  | (not . isIntj) (entity e) = []
+                          | otherwise = [(show y, [(r, morphs e)])]
