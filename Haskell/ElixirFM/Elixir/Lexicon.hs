@@ -84,10 +84,6 @@ module Elixir.Lexicon (
 
 import Elixir.Template
 
-import Elixir.Pretty
-
-import Text.PrettyPrint
-
 import Elixir.Data.Patterns
 
 import FM.Arabic.Types
@@ -157,24 +153,7 @@ data Wrap a = WrapS (a String)
             | WrapQ (a PatternQ)
             | WrapL (a PatternL)
 
-    deriving Show
-
-
--- instance (forall b . Pretty (a b)) => Pretty (Wrap a) where
-
-instance (Pretty (Lexeme PatternT), Pretty (Lexeme PatternQ),
-          Pretty (Lexeme String),   Pretty (Lexeme PatternL)) =>
-          Pretty (Wrap Lexeme) where
-
-    pretty (WrapT y) = text "WrapT" <+> pretty y
-    pretty (WrapQ y) = text "WrapQ" <+> pretty y
-    pretty (WrapS y) = text "WrapS" <+> pretty y
-    pretty (WrapL y) = text "WrapL" <+> pretty y
-
-
-instance Pretty (Entry a) => Pretty (Lexeme a) where
-
-    pretty (RE r e) = char '"' <> text r <> char '"' <+> pretty e
+    -- deriving Show
 
 
 class Wrapping a where
