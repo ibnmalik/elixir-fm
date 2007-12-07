@@ -67,3 +67,11 @@ version = revised "$Revision$"
 --     sortBy (\ x y -> fst x `compare` fst y) $ concat $
 --     map (unwraps (\ x -> (map (\ y -> (y, [root x])) $ nub $
 --     map (reflex) (ents x)))) lexicon
+
+-- countEntry $ lookupRootBy (\ x -> let r = words x in
+--     any (all (`elem` r) . words) ["y w", "w '", "y '"]) lexicon
+
+-- filter ((> 2) . length) $
+--     let f = (\ a b -> let x = a \\ "wy'"; y = b \\ "wy'" in x `compare` y) in
+--     groupBy (\ a b -> case f a b of EQ -> True; _ -> False) $ sortBy f $
+--     map (unwraps root) lexicon

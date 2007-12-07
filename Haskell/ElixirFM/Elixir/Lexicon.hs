@@ -63,7 +63,9 @@ module Elixir.Lexicon (
 
         isVerb, isNoun, isAdj, isPrep, isConj, isPart, isIntj,
 
-        lookupRoot, lookupEntry, lookupLemma, lookupReflex,
+        lookupRoot, lookupRootBy, lookupEntry, lookupEntryBy,
+
+        lookupLemma, lookupReflex,
 
         root, ents,
 
@@ -415,7 +417,9 @@ countEach (WrapS l) = length (ents l)
 
 lookupRoot :: Root -> Lexicon -> [Wrap Nest]
 
-lookupRoot r l = concat [ wraps (\ x -> if root x == r then [x] else []) n | n <- l ]
+lookupRoot r l = lookupRootBy (r ==) l
+
+lookupRootBy f l = concat [ wraps (\ x -> if f (root x) then [x] else []) n | n <- l ]
 
 -- Would be so nice ... but HOW TO DO IT? ... thanks forall ^^
 --
@@ -424,10 +428,12 @@ lookupRoot r l = concat [ wraps (\ x -> if root x == r then [x] else []) n | n <
 
 lookupEntry :: String -> Lexicon -> [Wrap Lexeme]
 
-lookupEntry w l = concat [ wraps (lookupEntry' w) n | n <- l ]
+lookupEntry w l = lookupEntryBy (w ==) l
 
-lookupEntry' w (Nest r l) = [ RE r e | e <- l, let m = morphs e
-                                                   h = merge r m, w == h ]
+lookupEntryBy f l = concat [ wraps (lookupEntry' f) n | n <- l ]
+
+lookupEntry' f (Nest r l) = [ RE r e | e <- l, let m = morphs e
+                                                   h = merge r m, f h ]
 
 {-
 lookupEntry w l = [ s | n <- l, s <- case n of
