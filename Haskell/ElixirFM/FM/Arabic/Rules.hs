@@ -272,7 +272,12 @@ inflectVerbI :: (Template a, Rules b, Morphing b a, Forming b) => Lexeme b -> Pa
 
 inflectVerbI (RE r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
 
-    where paradigm p = map ((,) r . uncurry p) inEntry
+    where paradigm p = map ((,) r . reduce p) inEntry
+
+          reduce f (x, y) = case s of Suffix "" : q@(Suffix ('-' : _ ) : _ ) -> Morphs t p q
+                                      _                                      -> m
+
+              where m@(Morphs t p s) = f x y
 
           Morphs pattern _ _ = morphs e
 
@@ -323,7 +328,12 @@ inflectVerbC :: (Template a, Rules b, Morphing b a, Forming b) => Lexeme b -> Pa
 
 inflectVerbC (RE r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
 
-    where paradigm p = map ((,) r . uncurry p) inEntry
+    where paradigm p = map ((,) r . reduce p) inEntry
+
+          reduce f (x, y) = case s of Suffix "" : q@(Suffix ('-' : _ ) : _ ) -> Morphs t p q
+                                      _                                      -> m
+
+              where m@(Morphs t p s) = f x y
 
           Morphs pattern _ _ = morphs e
 
