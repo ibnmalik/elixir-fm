@@ -8,7 +8,7 @@ maintainer:         otakar.smrz mff.cuni.cz
 homepage:           http://ufal.mff.cuni.cz/~smrz/
 package-url:        http://ufal.mff.cuni.cz/~smrz/ElixirFM/ElixirFM-Exec-1.1.tar.gz
 category:           Various
-build-depends:      Cabal, base, pretty, containers
+build-depends:      Cabal, base, containers
 synopsis:           Functional Arabic Morphology
 description:        The "Elixir" and "FM" libraries implement /Functional Arabic
                     Morphology/. They have been designed by Otakar Smr&#382; and

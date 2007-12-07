@@ -60,7 +60,7 @@ sub path ($) {
     print "Removing ...";
 
     foreach $file ((glob path "ElixirFM-Exec doc elixir-resolve *"),
-                   (glob path "ElixirFM-Exec doc elixir-inflect *"),
+                  #(glob path "ElixirFM-Exec doc elixir-inflect *"),
                    (glob path "ElixirFM-Exec doc *"),
                    (glob path "ElixirFM-Exec bin *"),
                    (glob path "ElixirFM-Exec *")) {
@@ -71,7 +71,7 @@ sub path ($) {
     }
 
     rmdir path "ElixirFM-Exec doc elixir-resolve";
-    rmdir path "ElixirFM-Exec doc elixir-inflect";
+   #rmdir path "ElixirFM-Exec doc elixir-inflect";
     rmdir path "ElixirFM-Exec doc";
     rmdir path "ElixirFM-Exec bin";
     rmdir path "ElixirFM-Exec";
@@ -81,7 +81,7 @@ sub path ($) {
     mkdir path "ElixirFM-Exec";
     mkdir path "ElixirFM-Exec bin";
     mkdir path "ElixirFM-Exec doc";
-    mkdir path "ElixirFM-Exec doc elixir-inflect";
+   #mkdir path "ElixirFM-Exec doc elixir-inflect";
     mkdir path "ElixirFM-Exec doc elixir-resolve";
 
 
@@ -92,19 +92,19 @@ sub path ($) {
     system "runhaskell Setup.hs configure";
     system "runhaskell Setup.hs build";
 
-    chdir "./Inflect";
+   #chdir "./Inflect";
 
-    system "runhaskell Setup.hs configure";
-    system "runhaskell Setup.hs haddock";
+   #system "runhaskell Setup.hs configure";
+   #system "runhaskell Setup.hs haddock";
 
-    chdir "..";
+   #chdir "..";
 
-    chdir "./Resolve";
+   #chdir "./Resolve";
 
-    system "runhaskell Setup.hs configure";
-    system "runhaskell Setup.hs haddock";
+   #system "runhaskell Setup.hs configure";
+   #system "runhaskell Setup.hs haddock";
 
-    chdir "..";
+   #chdir "..";
 
     system $^O eq 'MSWin32' ? "runhugs -98 Setup.hs configure"
                             : "runhaskell Setup.hs configure";
