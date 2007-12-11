@@ -147,6 +147,9 @@ resolveListMore l uc eq y = [ [s] | (r, [x]) <- l, let y' = filter (isSubsumed (
                              i <- h, let m = (uc . uncurry merge) i, q <- y, m `eq` q ]
 
 
+resolveSub r = resolveBy (\ x y -> any (isPrefixOf x) (tails y)) r
+
+
 -- unwrapResolve (uncurry merge . struct) $ resolveBy (omitting "aiuAUI") "ktbuN"
 
 omitting :: [Char] -> String -> String -> Bool
@@ -182,6 +185,25 @@ resolveTrie l y  = analyze (analysis (trieDict (arabicDict')) arabicDecompose) [
 
 
 testtext = words "wa fI milaffi al-'adabi .tara.hat al-ma^gallaTu qa.dIyaTa al-lu.gaTi al-`arabIyaTi wa al-'a_h.tAri allatI tuhaddidu hA. \\cap wa yarY al-qA'imUna `alY al-milaffi 'anna mA tata`arra.du la hu al-lu.gaTu al-`arabIyaTu la hu 'ahdAfuN mu.haddadaTuN min hA 'ib`Adu al-`arabi `an lu.gati him wa muzA.hamaTu al-lu.gAti al-.garbIyaTi la hA wa huwa mA ya`nI .du`fa a.s-.silaTi bihA wa mu.hAwalaTu 'izA.haTi al-lu.gaTi al-fu.s.hY bi kulli al-wasA'ili wa 'i.hlAli al-laha^gAti al-mu_htalifaTi fI al-bilAdi al-`arabIyaTi ma.halla hA."
+
+
+splitr :: [a] -> [[[a]]]
+splitr s = [s] : [ [i] ++ y | (i, j) <- zip (inits s) (tails s), not (null i), not (null j), y <- splitr j ]
+
+splitz :: [a] -> [[[a]]]
+splitz s = [s] : [ x ++ [j] | (i, j) <- zip (inits s) (tails s), not (null i), not (null j), x <- splitz i ]
+
+splitx :: [a] -> [[[a]]]
+splitx s = [s] : [ [i] ++ y | (i, j) <- reverse (zip (inits s) (tails s)), not (null i), not (null j), y <- splitx j ]
+
+splity :: [a] -> [[[a]]]
+splity s = [ x ++ [j] | (i, j) <- zip (inits s) (tails s), not (null i), not (null j), x <- splity i ] ++ [[s]]
+
+splits :: [a] -> [[[a]]]
+splits [] = []
+splits [x] = [[[x]]]
+splits (c:s) = concat [ [((c:x):xs), [c]:y] | y@(x:xs) <- splits s ]
+                   -- [ [[c]:y, ((c:x):xs)] | y@(x:xs) <- splits s ]
 
 
 newtype Trie a b = Trie (Map a (Trie a b), [b]) deriving Show
