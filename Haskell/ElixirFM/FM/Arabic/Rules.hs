@@ -546,18 +546,18 @@ paraVerbI m v p g n i = prefixImperfect p g n i . case m of
 
             Singular    ->  case (p, g) of
 
-                (Second, Feminine)  ->  suffix "in"     -- "inna"
-                (_,      _ )        ->  suffix "an"     -- "anna"
+                (Second, Feminine)  ->  suffix "inna"     -- "in"
+                (_,      _ )        ->  suffix "anna"     -- "an"
 
             Dual        -> case (p, g) of
 
-                (First,  _    )     ->  suffix "an"     -- "anna"
+                (First,  _    )     ->  suffix "anna"     -- "an"
                 ( _ ,    _    )     ->  suffix "Anni"
 
             Plural      -> case (p, g) of
 
-                (First, _    )      ->  suffix "an"     -- "anna"
-                ( _ ,   Masculine)  ->  suffix "un"     -- "unna"
+                (First, _    )      ->  suffix "anna"     -- "an"
+                ( _ ,   Masculine)  ->  suffix "unna"     -- "un"
                 ( _ ,   Feminine)   ->  suffix "nAnni"
 
 
