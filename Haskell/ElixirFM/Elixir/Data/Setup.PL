@@ -2,9 +2,9 @@
 #
 # Building Lexicons ############################################################################
 
-# $Id: Setup.PL 153 2006-12-06 18:22:46Z smrz $
+# $Id$
 
-our $VERSION = do { q $Revision: 153 $ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
+our $VERSION = do { q $Revision$ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
 
 
 use File::Spec;

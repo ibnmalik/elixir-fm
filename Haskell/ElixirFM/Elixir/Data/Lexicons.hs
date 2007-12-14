@@ -18,9 +18,9 @@
 module Elixir.Data.Lexicons where
 
 
-import qualified -- Elixir.Data.Effective
+import qualified Elixir.Data.Effective
 
-                 Elixir.Data.Buckwalter
+                 -- Elixir.Data.Buckwalter
 
 import qualified Elixir.Data.Classical
 
@@ -45,8 +45,8 @@ lexicon = concat lexicons
 
 lexicons :: [Lexicon]
 
-lexicons =  [   -- Elixir.Data.Effective.lexicon,
+lexicons =  [   Elixir.Data.Effective.lexicon,
 
-                Elixir.Data.Buckwalter.lexicon,
+                -- Elixir.Data.Buckwalter.lexicon,
 
                 Elixir.Data.Classical.lexicon   ]
