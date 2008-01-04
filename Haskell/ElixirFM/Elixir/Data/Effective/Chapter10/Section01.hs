@@ -20,10 +20,6 @@ cluster_1   = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- OarobaEmA}ap -}     [ unwords [ "four", "-", "hundred" ] ] ]
 
- |> "mir'A" <| [
-
-    Identity |< aT            `noun`    {- miro|ap -}          [ "mirror" ] ]
-
  |> "r ' '" <| [
 
     FiL |< aT                 `noun`    {- ri}ap -}            [ "lung" ]
@@ -79,13 +75,13 @@ cluster_1   = listing "Lexicon's properties"
 
     FAL                       `noun`    {- rAm -}              [ unwords [ "RAM", "(", "random", "access", "memory", ")" ] ] ]
 
-
-cluster_2   = listing "Lexicon's properties"
-
-
  |> "r ' q" <| [
 
     FACiL                     `adj`     {- rA}iq -}            [ "clear", "pure", "unblemished" ] ]
+
+
+cluster_2   = listing "Lexicon's properties"
+
 
  |> "r ' s" <| [
 
@@ -150,6 +146,10 @@ cluster_3   = listing "Lexicon's properties"
     MaFCY                     `noun`    {- maroOaY -}          [ "sight", "view", "apparition" ]
                               `plural`     MaFACI,
 
+    MiFCY |< aT               `noun`    {- miro|ap -}          [ "mirror" ]
+                              `plural`     MaFACI
+                           {- `others`  [ "marAyY N0_Nh" ] -},
+
     FiCA'                     `noun`    {- ri}A' -}            [ "hypocrisy", "dissimulation" ]
                               `plural`     FiyA',
 
@@ -180,15 +180,15 @@ cluster_3   = listing "Lexicon's properties"
 
     FiCLAn                    `noun`    {- riDowAn -}          [ "approval", "acceptance", "satisfaction" ] ]
 
+
+cluster_4   = listing "Lexicon's properties"
+
+
  |> "r .d w n" <| [
 
     KiRDAS                    `noun`    {- riDowAn -}          [ "Redwan", "Radwan" ],
 
     KiRDAS                    `noun`    {- riDowAn -}          [ "approval", "acceptance", "satisfaction" ] ]
-
-
-cluster_4   = listing "Lexicon's properties"
-
 
  |> "r .d y" <| [
 

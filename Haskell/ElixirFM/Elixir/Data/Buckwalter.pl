@@ -748,6 +748,7 @@ sub restoreForm {
     my $entry = $_[0];
 
     $entry =~ s/AF/FA/;
+    $entry =~ s/([\|A])a/$1/g;
 
     $entry = encode "arabtex", decode "buckwalter", $entry;
 

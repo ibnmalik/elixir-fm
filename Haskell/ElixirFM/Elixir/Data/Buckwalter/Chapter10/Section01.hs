@@ -30,10 +30,6 @@ cluster_1   = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- OurogATap -}        [ "winch", "capstan" ] ]
 
- |> "mir'A" <| [
-
-    Identity |< aT            `noun`    {- miro|ap -}          [ "mirror" ] ]
-
  |> "mirzabb" <| [
 
     Identity |< aT            `noun`    {- mirozab~ap -}       [ unwords [ "iron", "rod" ] ] ]
@@ -259,6 +255,10 @@ cluster_5   = listing "Lexicon's properties"
 
     MaFCY                     `noun`    {- maroOaY -}          [ "sight", "view", "apparition" ]
                               `plural`     MaFACI,
+
+    MiFCY |< aT               `noun`    {- miro|ap -}          [ "mirror" ]
+                              `plural`     MaFACI
+                           {- `others`  [ "marAyY N0_Nh" ] -},
 
     FiCA'                     `noun`    {- ri}A' -}            [ "hypocrisy", "dissimulation" ]
                               `plural`     FiyA',

@@ -9365,6 +9365,46 @@ $Lexicon = {
     },
     {
       'types' => {
+        'marAyY' => {
+          'N0_Nh' => 1
+        },
+        'marA\'iy' => {
+          'N0_Nh' => 1
+        },
+        'mirAy' => {
+          'NapAt' => 1
+        }
+      },
+      'entry' => 'mir\'Y',
+      'form' => 'mir\'AT',
+      'lines' => [
+        ';; miro|ap_1',
+        'mr|     miro|   Napdu   mirror',
+        'mrAy    mirAy   NapAt   mirror',
+        'mrAyA   marAyA  N0_Nh   mirrors',
+        'mrA}y   marA}iy N0_Nh   mirrors',
+        'mrA\'    marA\'   NK      mirrors'
+      ],
+      'patterns' => {
+        'marAyY' => [],
+        'marA\'iy' => [
+          'MaFACI'
+        ],
+        'mirAy' => []
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MiFCY |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'mirror',
+        'mirrors'
+      ],
+      'orig' => 'miro|ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'riyA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -16828,28 +16868,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tardAd' => [
-    {
-      'types' => {},
-      'entry' => 'tardAd',
-      'form' => 'tardAd',
-      'lines' => [
-        ';; tarodAd_1',
-        'trdAd   tarodAd N       frequent repetition;frequentation'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'frequent repetition',
-        'frequentation'
-      ],
-      'orig' => 'tarodAd',
-      'prefix' => ''
-    }
-  ],
   'r d d' => [
     {
       'types' => {
@@ -17438,6 +17456,28 @@ $Lexicon = {
         'continuous'
       ],
       'orig' => 'mutarad~id',
+      'prefix' => ''
+    }
+  ],
+  'tardAd' => [
+    {
+      'types' => {},
+      'entry' => 'tardAd',
+      'form' => 'tardAd',
+      'lines' => [
+        ';; tarodAd_1',
+        'trdAd   tarodAd N       frequent repetition;frequentation'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'frequent repetition',
+        'frequentation'
+      ],
+      'orig' => 'tarodAd',
       'prefix' => ''
     }
   ],
@@ -26366,45 +26406,6 @@ $Lexicon = {
         'maybe'
       ],
       'orig' => 'rub~amA',
-      'prefix' => ''
-    }
-  ],
-  'mir\'A' => [
-    {
-      'types' => {
-        'mir\'Y' => {
-          'Napdu' => 1
-        },
-        'marAyY' => {
-          'N0_Nh' => 1
-        },
-        'marA\'iy' => {
-          'N0_Nh' => 1
-        },
-        'mirAy' => {
-          'NapAt' => 1
-        }
-      },
-      'entry' => 'mir\'A',
-      'form' => 'mir\'AaT',
-      'lines' => [
-        ';; miro|ap_1',
-        'mr|     miro|   Napdu   mirror',
-        'mrAy    mirAy   NapAt   mirror',
-        'mrAyA   marAyA  N0_Nh   mirrors',
-        'mrA}y   marA}iy N0_Nh   mirrors',
-        'mrA\'    marA\'   NK      mirrors'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'mirror',
-        'mirrors'
-      ],
-      'orig' => 'miro|ap',
       'prefix' => ''
     }
   ],
@@ -54035,9 +54036,9 @@ $Lexicon->{'r \' \''}[1]{'glosses'} = $Lexicon->{'r \' \''}[0]{'glosses'};
 $Lexicon->{'r \' \''}[3]{'types'} = $Lexicon->{'r \' \''}[2]{'types'};
 $Lexicon->{'r \' \''}[3]{'lines'} = $Lexicon->{'r \' \''}[2]{'lines'};
 $Lexicon->{'r \' \''}[3]{'glosses'} = $Lexicon->{'r \' \''}[2]{'glosses'};
-$Lexicon->{'r \' \''}[4]{'types'} = $Lexicon->{'r \' y'}[13]{'types'};
-$Lexicon->{'r \' \''}[4]{'lines'} = $Lexicon->{'r \' y'}[13]{'lines'};
-$Lexicon->{'r \' \''}[4]{'glosses'} = $Lexicon->{'r \' y'}[13]{'glosses'};
+$Lexicon->{'r \' \''}[4]{'types'} = $Lexicon->{'r \' y'}[14]{'types'};
+$Lexicon->{'r \' \''}[4]{'lines'} = $Lexicon->{'r \' y'}[14]{'lines'};
+$Lexicon->{'r \' \''}[4]{'glosses'} = $Lexicon->{'r \' y'}[14]{'glosses'};
 $Lexicon->{'r b b'}[15]{'types'} = $Lexicon->{'r b n'}[0]{'types'};
 $Lexicon->{'r b b'}[15]{'lines'} = $Lexicon->{'r b n'}[0]{'lines'};
 $Lexicon->{'r b b'}[15]{'glosses'} = $Lexicon->{'r b n'}[0]{'glosses'};

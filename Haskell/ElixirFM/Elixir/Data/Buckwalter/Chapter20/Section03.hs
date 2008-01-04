@@ -174,8 +174,7 @@ cluster_44  = listing "Lexicon's properties"
     FaC                       `noun`    {- fal -}              [ unwords [ "open", "country" ] ]
                               `plural`     FaCA,
 
-    FaCA |< aT                `noun`    {- falAap -}           [ unwords [ "open", "country" ] ]
-                              `plural`     FaCY |< aT
+    FaCY |< aT                `noun`    {- falAap -}           [ unwords [ "open", "country" ] ]
                               `plural`     HaFCA'
                               `plural`     FaCaL |< At,
 

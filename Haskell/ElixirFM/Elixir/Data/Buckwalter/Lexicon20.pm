@@ -4356,9 +4356,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'falY' => {
-          'Nap' => 1
-        },
         '\'aflA\'' => {
           'Nh' => 2,
           'Nhy' => 2,
@@ -4368,8 +4365,8 @@ $Lexicon = {
           'NAt' => 1
         }
       },
-      'entry' => 'falA',
-      'form' => 'falAaT',
+      'entry' => 'falY',
+      'form' => 'falAT',
       'lines' => [
         ';; falAap_1',
         'flA     falA    Nap     open country',
@@ -4382,9 +4379,6 @@ $Lexicon = {
         'AflA}   >afolA} Nhy     open country'
       ],
       'patterns' => {
-        'falY' => [
-          'FaCY'
-        ],
         '\'aflA\'' => [
           'HaFCA\''
         ],
@@ -4394,7 +4388,7 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCA |< aT',
+      'morphs' => 'FaCY |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'open country'
