@@ -32,7 +32,8 @@ data Tag = TagVerbP             [Voice] [Person] [Gender] [Number]
          | TagPronR                              [Gender] [Number] [Case]
          | TagNum
          | TagAdv
-         | TagPrep
+         | TagPrepP
+         | TagPrepI                                                [Case]
          | TagConj
          | TagPart
          | TagIntj
@@ -83,7 +84,13 @@ instance Show Tag where
 
     show TagNum         = "Q-" ++ noinflects
     show TagAdv         = "D-" ++ noinflects
-    show TagPrep        = "P-" ++ noinflects
+
+    show TagPrepP           = "P-" ++ noinflects
+    show (TagPrepI       c) = "PI" ++ concat [noshowlist, noshowlist,
+                                              noshowlist, noshowlist,
+                                              noshowlist, noshowlist,
+                                              showlist c, noshowlist]
+
     show TagConj        = "C-" ++ noinflects
     show TagPart        = "F-" ++ noinflects
     show TagIntj        = "I-" ++ noinflects
@@ -123,7 +130,8 @@ isTagParaAdj _ = False
 
 isTagParaPrep :: Tag -> Bool
 
-isTagParaPrep TagPrep = True
+isTagParaPrep TagPrepP     = True
+isTagParaPrep (TagPrepI _) = True
 isTagParaPrep _ = False
 
 
@@ -191,6 +199,9 @@ expandTag y = case y of
     TagPronR       g n c    ->  map show [ PronR g' n' c' |
                                                 g' <- vals g,
                                                 n' <- vals n,
+                                                c' <- vals c ]
+
+    TagPrepI           c    ->  map show [ PrepI c' |
                                                 c' <- vals c ]
 
     _                       ->  [show y]
@@ -276,7 +287,10 @@ instance Read Tags where
 
                                     "Q-" -> TagNum
                                     "D-" -> TagAdv
-                                    "P-" -> TagPrep
+
+                                    "P-" -> TagPrepP    
+                                    "PI" -> TagPrepI (readData y8)
+
                                     "C-" -> TagConj
                                     "F-" -> TagPart
                                     "I-" -> TagIntj
@@ -627,16 +641,21 @@ instance Show ParaAdv where
     show ParaAdv = "D---------"
 
 
-data ParaPrep = ParaPrep  deriving (Eq, Enum)
+data ParaPrep = PrepP 
+              | PrepI   Case  
+              
+    deriving Eq
 
 instance Param ParaPrep where
 
-    values = [ParaPrep]
+    values = [PrepP] ++ [ PrepI c | c <- values ]
 
 instance Show ParaPrep where
 
-    show ParaPrep = "P---------"
+    show PrepP     = "P---------"
 
+    show (PrepI c) = "PI------" ++ [show' c] ++ "-"
+    
 
 data ParaConj = ParaConj  deriving (Eq, Enum)
 

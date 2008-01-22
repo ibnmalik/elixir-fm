@@ -157,7 +157,11 @@ instance Inflect Lexeme Tag where
                                                     c' <- vals c,
                                                     s' <- vals s ]
 
-        TagPrep                 ->  inflect x ParaPrep
+        TagPrepP                ->  inflect x PrepP
+        
+        TagPrepI           c    ->  inflect x [ PrepI c' | 
+                                                    c' <- vals c ]
+
         TagConj                 ->  inflect x ParaConj
         TagPart                 ->  inflect x ParaPart
         TagIntj                 ->  inflect x ParaIntj
@@ -871,7 +875,22 @@ paraPronD   g n c _ = case n of
 instance Inflect Lexeme ParaPrep where
 
     inflect x@(RE r e) y  | (not . isPrep) (entity e) = []
-                          | otherwise = [(show y, [(r, morphs e)])]
+
+    inflect (RE r e) x@(PrepP  ) = if null s then [(show x, [(r, m)])] else []
+    
+        where m@(Morphs t p s) = morphs e
+
+    inflect (RE r e) x@(PrepI c) = if null s then [] 
+                                             else [(show x, [(r, paraPrepI c m)])]
+
+        where Morphs t p s = morphs e
+              m = Morphs t p (tail s)
+    
+paraPrepI c = case c of
+
+        Nominative      -> suffix "u"
+        Genitive        -> suffix "i"
+        Accusative      -> suffix "a"
 
 
 instance Inflect Lexeme ParaConj where
