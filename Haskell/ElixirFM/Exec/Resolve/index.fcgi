@@ -80,14 +80,17 @@ sub report ($) {
 
 
 @examples = (   [ 'ArabTeX',    "ad-dars al-'awwal" ],
+                [ 'ArabTeX',    ".hawl na.hwi" ],
                 [ 'ArabTeX',    "y`tbru m.d'N" ],
                 [ 'ArabTeX',    "narY mqhN" ],
                 [ 'ArabTeX',    ".hayATN ^gyydTN" ],
                 [ 'Buckwalter', "Aldrs AlOwl" ],
+                [ 'Buckwalter', "Hawl naHw" ],
                 [ 'Buckwalter', "yEtbr mDy}A" ],
                 [ 'Buckwalter', "narY mqhY" ],
                 [ 'Buckwalter', "HyApN jydpN" ],
                 [ 'Unicode',    (encode "utf8", decode "buckwalter", "Aldrs AlOwl") ],
+                [ 'Unicode',    (encode "utf8", decode "buckwalter", "Hawl naHw") ],
                 [ 'Unicode',    (encode "utf8", decode "buckwalter", "yEtbr mDy}A") ],
                 [ 'Unicode',    (encode "utf8", decode "buckwalter", "narY mqhY") ],
                 [ 'Unicode',    (encode "utf8", decode "buckwalter", "HyApN jydpN") ]  );
@@ -219,7 +222,7 @@ while ($q = new CGI::Fast) {
     print $q->p("This project is", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "open-source") . ".",
                 "You can contribute to its development with your suggestions!");
 
-    print $q->p("(C) Otakar Smrz 2007, GNU General Public License.");
+    print $q->p("(C) Otakar Smrz 2007-2008, GNU General Public License.");
 
     print $q->p($q->a({-href => 'http://ufal.mff.cuni.cz/'}, "Institute of Formal and Applied Linguistics") . ",",
                 "Charles University in Prague.");
