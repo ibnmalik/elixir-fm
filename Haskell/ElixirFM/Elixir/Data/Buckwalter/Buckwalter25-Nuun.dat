@@ -4735,7 +4735,7 @@ AstnTAq {isotinoTAq     N/At    interrogation;questioning
 ;; nATiq_1
 nATq    nATiq   Nall    speaker;speaking;spokesman
 ;; manoTuwq_1
-#mnTwq  manoTuwq        N-ap    pronounced;uttered
+mnTwq   manoTuwq        N-ap    pronounced;uttered
 ;; manoTuwq_2
 mnTwq   manoTuwq        Ndu     statement;formulation
 ;; manoTuwqap_1

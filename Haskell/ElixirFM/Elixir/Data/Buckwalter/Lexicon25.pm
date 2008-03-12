@@ -45333,7 +45333,7 @@ $Lexicon = {
       'form' => 'man.tuwq',
       'lines' => [
         ';; manoTuwq_1',
-        '#mnTwq  manoTuwq        N-ap    pronounced;uttered'
+        'mnTwq   manoTuwq        N-ap    pronounced;uttered'
       ],
       'patterns' => {},
       'index' => '1',
