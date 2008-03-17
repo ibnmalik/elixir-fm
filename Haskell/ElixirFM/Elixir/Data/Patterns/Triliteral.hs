@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Data.Patterns.Triliteral
--- Copyright   :  Otakar Smrz 2005-2007
+-- Copyright   :  Otakar Smrz 2005-2008
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -20,7 +20,7 @@ module Elixir.Data.Patterns.Triliteral where
 
 import Elixir.Template
 
-import FM.Arabic.Types
+import Elixir.System
 
 import Version
 
@@ -788,10 +788,10 @@ data PatternT =
         |   FCawCiL                                     |   FCawCI
         |   FCawCaL                                     |   FCawCY
 
-        |   IFCICAL
+        |   IFCICAL					|   IFCICA'
 
-        |   MuFCawCiL   -- Fischer (2001), par. 224 (?)
-        |   MuFCawCaL
+        |   MuFCawCiL   {- Fischer, par. 224 (?) -} 	|   MuFCawCI	{- (?) -}
+        |   MuFCawCaL	   	   	   	    	|   MuFCawCY	{- (?) -}
 
 --  Form XIII
 

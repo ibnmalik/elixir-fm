@@ -88,7 +88,7 @@ import Elixir.Template
 
 import Elixir.Data.Patterns
 
-import FM.Arabic.Types
+import Elixir.System
 
 -- import English
 

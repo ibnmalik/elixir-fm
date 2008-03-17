@@ -18,7 +18,7 @@
 module Elixir.Template where
 
 
-import FM.Arabic.Types
+import Elixir.System
 
 import Data.List (isPrefixOf, isSuffixOf)
 

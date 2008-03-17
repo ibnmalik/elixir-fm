@@ -4,7 +4,7 @@
 
 -- |
 --
--- Module      :  FM.Arabic.Types
+-- Module      :  Elixir.System
 -- Copyright   :  Otakar Smrz 2005-2008
 -- License     :  GPL
 --
@@ -12,10 +12,10 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "FM", "Elixir"
+-- "Elixir", "FM"
 
 
-module FM.Arabic.Types where
+module Elixir.System where
 
 import FM.Generic.General
 

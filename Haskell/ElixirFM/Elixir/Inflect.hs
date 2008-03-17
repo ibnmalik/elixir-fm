@@ -4,7 +4,7 @@
 
 -- |
 --
--- Module      :  FM.Arabic.Rules
+-- Module      :  Elixir.Inflect
 -- Copyright   :  Otakar Smrz 2005-2008
 -- License     :  GPL
 --
@@ -12,14 +12,14 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "FM", "Elixir"
+-- "Elixir", "FM"
 
 
-module FM.Arabic.Rules {- (
+module Elixir.Inflect {- (
 
         -- * Modules
 
-        module FM.Arabic.Types,
+        module Elixir.System,
 
         -- * Functions
 
@@ -28,7 +28,8 @@ module FM.Arabic.Rules {- (
     ) -} where
 
 
-import FM.Arabic.Types
+import Elixir.System
+
 import FM.Generic.General
 
 import Encode
@@ -38,7 +39,7 @@ import Elixir.Template
 
 import Elixir.Lexicon
 
-import Elixir.Data.Patterns.Triliteral
+-- import Elixir.Data.Patterns.Triliteral
 
 import Data.List (nub, isPrefixOf)
 

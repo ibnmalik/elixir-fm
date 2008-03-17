@@ -4,20 +4,20 @@
 
 -- |
 --
--- Module      :  FM.Arabic.Dictionary
--- Copyright   :  Otakar Smrz 2005-2007
+-- Module      :  Elixir.Resolve
+-- Copyright   :  Otakar Smrz 2005-2008
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "FM", "Elixir"
+-- "Elixir", "FM"
 
 
-module FM.Arabic.Dictionary where
+module Elixir.Resolve where
 
-import FM.Arabic.Build
+-- import FM.Arabic.Build
 import FM.Arabic.Composite
 import FM.Generic.Dictionary
 import FM.Generic.CommonMain
@@ -30,8 +30,8 @@ import FM.Generic.GeneralIO
 import Data.Map (Map)
 import qualified Data.Map as Map
 
-import FM.Arabic.Types
-import FM.Arabic.Rules
+import Elixir.System
+import Elixir.Inflect
 
 import Elixir.Data.Lexicons
 
