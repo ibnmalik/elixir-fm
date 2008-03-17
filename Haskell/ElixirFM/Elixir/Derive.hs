@@ -51,7 +51,7 @@ import Text.PrettyPrint
 
 class Derive a where
 
-    derive :: Morphing a => Form -> String -> [(a, a, a, Morphs a)]
+    derive :: (Morphing a a, Morphing (Morphs a) a) => Form -> String -> [(a, a, a, Morphs a)]
    
 
 
@@ -59,169 +59,168 @@ instance Derive PatternT where
 
     derive I _ = [
 
-    	   FaCaL	FACiL		MaFCUL		FiCL
-    	   FaCaL	FACiL		MaFCUL		FiCAL |< aT
+    	   (	FaCaL,		FACiL,		MaFCUL,		morph	FiCL		),
+    	   (	FaCaL,		FACiL,		MaFCUL,		morph	FiCAL |< aT	),
 
-    	   FaCaL	FACiL		MaFCUL		CiL |< aT
+    	   (	FaCaL,		FACiL,		MaFCUL,		morph	CiL |< aT	),
 
-	   FAL		FA'iL		MaFUL		FaCL
-	   FAL		FA'iL		MaFIL		FaCL
+	   (	FAL,		FA'iL,		MaFUL,		morph	FaCL   		),
+	   (	FAL,		FA'iL,		MaFIL,		morph	FaCL		),
 	   
-	   FaCA		FACI		MaFCUL		FaCL
-	   FaCY		FACI		MaFCIL		FaCL
-	   FaCI		FACI		MaFCIL		FaCL
+	   (	FaCA,		FACI,		MaFCUL,		morph	FaCL		),
+	   (	FaCY,		FACI,		MaFCIL,		morph	FaCL		),
+	   (	FaCI,		FACI,		MaFCIL,		morph	FaCL		),
 
-	   FaCL		FACL		MaFCUL		FaCL
+	   (	FaCL,		FACL,		MaFCUL,		morph	FaCL		)
 
 	   ]	   
 
 
     derive II _ = [
 
-    	   FaCCaL	MuFaCCiL	MuFaCCaL	TaFCIL
-    	   FaCCaL	MuFaCCiL	MuFaCCaL	TaFCiL |< aT
+    	   (  	FaCCaL,		MuFaCCiL,	MuFaCCaL,	morph	TaFCIL 		),
+    	   (	FaCCaL,		MuFaCCiL,	MuFaCCaL,	morph	TaFCiL |< aT	),
 
-	   FaCCY	MuFaCCI		MuFaCCY		TaFCiL |< aT
-	   FaCCY	MuFaCCI		MuFaCCY		TaFCiy |< aT
-	   FaCCY	MuFaCCI		MuFaCCY		TaFIL |< aT
+	   (	FaCCY,		MuFaCCI,	MuFaCCY,	morph	TaFCI |< aT	),
+	   (	FaCCY,		MuFaCCI,	MuFaCCY,	morph	TaFIL |< aT	)
 
 	   ]	   
 
 
     derive III _ = [
 
-    	   FACaL	MuFACiL		MuFACaL		MuFACaL |< aT    	   
-    	   FACaL	MuFACiL		MuFACaL		FiCAL
+    	   (	FACaL,		MuFACiL,	MuFACaL,	morph	MuFACaL |< aT	),    	   
+    	   (	FACaL,		MuFACiL,	MuFACaL,	morph	FiCAL	   	),
 
-	   FACY		MuFACI		MuFACY		MuFACY |< aT
+	   (	FACY,		MuFACI,		MuFACY,		morph	MuFACY |< aT	),
 
-	   FACL		MuFACL		MuFACL		MuFACL |< aT
+	   (	FACL,		MuFACL,		MuFACL,		morph	MuFACL |< aT	)
 
 	   ]	   
 
 
     derive IV _ = [
 
-    	   HaFCaL	MuFCiL		MuFCaL		HiFCAL
+    	   (	HaFCaL,		MuFCiL,		MuFCaL,		morph	HiFCAL		),
 
-	   HaFCaL	MUCiL		MUCaL		HICAL
+	   (	HaFCaL,		MUCiL,		MUCaL,		morph	HICAL		),
 
-	   HaFAL	MuFIL		MuFAL		HiFAL |< aT
+	   (	HaFAL,		MuFIL,		MuFAL,		morph	HiFAL |< aT	),
 
-	   HaFCY	MuFCI		MuFCY		HiFCA'
+	   (	HaFCY,		MuFCI,		MuFCY,		morph	HiFCA'		),
 
-	   HaFaCL	MuFiCL		MuFaCL		HiFCAL
+	   (	HaFaCL,		MuFiCL,		MuFaCL,		morph	HiFCAL		),
 
-	   HaFY		MuFI		MuFY		HiFAL
+	   (	HaFY,		MuFI,		MuFY,		morph	HiFAL		)
 
 	   ]	   
 
 
     derive V _ = [
 
-    	   TaFaCCaL	MutaFaCCiL	MutaFaCCaL	TaFaCCuL
+    	   (	TaFaCCaL,	MutaFaCCiL,	MutaFaCCaL,	morph	TaFaCCuL	),
 
-	   TaFaCCY	MutaFaCCI	MutaFaCCY	TaFaCCI
+	   (	TaFaCCY,	MutaFaCCI,	MutaFaCCY,	morph	TaFaCCI		)
 
 	   ]	   
 
 
     derive VI _ = [
 
-    	   TaFACaL	MutaFACiL	MutaFACaL	TaFACuL
+    	   (	TaFACaL,	MutaFACiL,	MutaFACaL,	morph	TaFACuL		),
 
-	   TaFACY	MutaFACI	MutaFACY	TaFACI
+	   (	TaFACY,		MutaFACI,	MutaFACY,	morph	TaFACI		),
 
-	   TaFACL	MutaFACL	MutaFACL	TaFACL
+	   (	TaFACL,		MutaFACL,	MutaFACL,	morph	TaFACL		)
 
 	   ]	   
 
 
     derive VII _ = [
 
-    	   InFaCaL	MunFaCiL	MunFaCaL	InFiCAL
+    	   (	InFaCaL,	MunFaCiL,	MunFaCaL,	morph	InFiCAL		),
 
-	   InFAL	MunFAL		MunFAL		InFiCAL
+	   (	InFAL,		MunFAL,		MunFAL,		morph	InFiCAL		),
 
-	   InFaCY	MunFaCI		MunFaCY		InFiCA'
+	   (	InFaCY,		MunFaCI,	MunFaCY,	morph	InFiCA'		),
 
-	   InFaCL	MunFaCL		MunFaCL		InFiCAL
+	   (	InFaCL,		MunFaCL,	MunFaCL,	morph	InFiCAL		)
 
 	   ]	   
 
 
     derive VIII _ = [
 
-    	   IFtaCaL	MuFtaCiL	MuFtaCaL	IFtiCAL
+    	   (	IFtaCaL,	MuFtaCiL,	MuFtaCaL,	morph	IFtiCAL		),
 
-	   IFtAL	MuFtAL		MuFtAL		IFtiCAL
+	   (	IFtAL,		MuFtAL,		MuFtAL,		morph	IFtiCAL		),
 
-	   IFtaCY	MuFtaCI		MuFtaCY		IFtiCA'
+	   (	IFtaCY,		MuFtaCI,	MuFtaCY,	morph	IFtiCA'		),
 	   
-	   IFtaCL	MuFtaCL		MuFtaCL		IFtiCAL
+	   (	IFtaCL,		MuFtaCL,	MuFtaCL,	morph	IFtiCAL		)
 
 	   ]	   
 
 
     derive IX _ = [
 
-    	   IFCaLL	MuFCaLL		MuFCaLL		IFCiLAL
+    	   (	IFCaLL,		MuFCaLL,	MuFCaLL,	morph	IFCiLAL		),
 
-	   IFCaLY	MuFCaLI		MuFCaLY		IFCiLA'
+	   (	IFCaLY,		MuFCaLI,	MuFCaLY,	morph	IFCiLA'		)
 
 	   ]	   
 
 
     derive X _ = [
 
-    	   IstaFCaL	MustaFCiL	MustaFCaL	IstiFCAL
+    	   (	IstaFCaL,	MustaFCiL,	MustaFCaL,	morph	IstiFCAL	),
 
-    	   IstaFCaL	MustaFCiL	MustaFCaL	IstICAL
+    	   (	IstaFCaL,	MustaFCiL,	MustaFCaL,	morph	IstICAL		),
 
-	   IstaFAL	MustaFIL	MustaFAL	IstiFAL |< aT
+	   (	IstaFAL,	MustaFIL,	MustaFAL,	morph	IstiFAL |< aT	),
 
-	   IstaFCY	MustaFCI	MustaFCY	IstiFCA'
+	   (	IstaFCY,	MustaFCI,	MustaFCY,	morph	IstiFCA'   	),
 
-	   IstaFaCL	MustaFiCL	MustaFaCL	IstiFCAL
+	   (	IstaFaCL,	MustaFiCL,	MustaFaCL,	morph	IstiFCAL	),
 
-	   IstaFCY	MustaFCI	MustaFCY	IstICA'
+	   (	IstaFCY,	MustaFCI,	MustaFCY,	morph	IstICA'		),
 	   
-	   IstaFY	MustaFI		MustaFY		IstiFAL
+	   (	IstaFY,		MustaFI,	MustaFY,	morph	IstiFAL		)
 	   
 	   ]	   
 
 
     derive XI _ = [
 
-    	   IFCALL	MuFCALL		MuFCALL		IFCILAL    	   
+    	   (	IFCALL,		MuFCALL,	MuFCALL,	morph	IFCILAL		)    	   
 
 	   ]	   
 
 
     derive XII _ = [
 
-           IFCawCaL 	MuFCawCiL	MuFCawCaL	IFCICAL
-           IFCawCY	MuFCawCI	MuFCawCY	IFCICA'
+           (	IFCawCaL, 	MuFCawCiL,	MuFCawCaL,	morph	IFCICAL		),
+           (	IFCawCY,	MuFCawCI,	MuFCawCY,	morph	IFCICA'		)
 
 	   ]	   
 
 
     derive XIII _ = [
 
-    	   IFCawwaL	MuFCawwiL	MuFCawwaL	IFCiwwAL   
+    	   (	IFCawwaL,	MuFCawwiL,	MuFCawwaL,	morph	IFCiwwAL	)   
 
 	   ]	   
 
 
     derive XIV _ = [
 
-    	   IFCanLaL	MuFCanLiL	MuFCanLaL	IFCinLAL
+    	   (	IFCanLaL,	MuFCanLiL,	MuFCanLaL,	morph	IFCinLAL	)
 
 	   ]	   
 
 
     derive XV _ = [
 
-    	   IFCanLY	MuFCanLI	MuFCanLY	IFCinLA'
+    	   (	IFCanLY,	MuFCanLI,	MuFCanLY,	morph	IFCinLA'	)
 
 	   ]	   

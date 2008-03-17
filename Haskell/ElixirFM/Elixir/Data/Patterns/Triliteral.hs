@@ -696,7 +696,7 @@ data PatternT =
 
         |   TaFACuL                                     |   TaFACI
 
-        |   MutaFACiL                                   |   MutaFACI
+        |   MutaFACiL                                   |   MutaFACI	|   MutaFACL
         |   MutaFACaL                                   |   MutaFACY
 
 --  Form VII
