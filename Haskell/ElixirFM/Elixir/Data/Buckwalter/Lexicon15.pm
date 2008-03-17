@@ -1945,29 +1945,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'muta.dAdd' => [
-    {
-      'types' => {},
-      'entry' => 'muta.dAdd',
-      'form' => 'muta.dAdd',
-      'lines' => [
-        ';; mutaDAd~_1',
-        'mtDAd   mutaDAd~        N-ap    opposing;contrary;antagonistic     [[mutaDAd~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'opposing',
-        'contrary',
-        'antagonistic'
-      ],
-      'orig' => 'mutaDAd~',
-      'prefix' => ''
-    }
-  ],
   '.d h l' => [
     {
       'types' => {},
@@ -13250,6 +13227,27 @@ $Lexicon = {
         'contra-'
       ],
       'orig' => 'muDAd~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muta.dAdd',
+      'form' => 'muta.dAdd',
+      'lines' => [
+        ';; mutaDAd~_1',
+        'mtDAd   mutaDAd~        N-ap    opposing;contrary;antagonistic     [[mutaDAd~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MutaFACL',
+      'suffix' => '',
+      'glosses' => [
+        'opposing',
+        'contrary',
+        'antagonistic'
+      ],
+      'orig' => 'mutaDAd~',
       'prefix' => ''
     },
     {

@@ -13479,6 +13479,25 @@ $Lexicon = {
       ],
       'orig' => 'IiSomAm',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muta.sAmm',
+      'form' => 'muta.sAmm',
+      'lines' => [
+        ';; mutaSAm~_1',
+        'mtSAm   mutaSAm~        Nall    deaf to     [[mutaSAm~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MutaFACL',
+      'suffix' => '',
+      'glosses' => [
+        'deaf to'
+      ],
+      'orig' => 'mutaSAm~',
+      'prefix' => ''
     }
   ],
   '.s \' d' => [
@@ -14939,27 +14958,6 @@ $Lexicon = {
         'fabricated'
       ],
       'orig' => 'muSoTanaE',
-      'prefix' => ''
-    }
-  ],
-  'muta.sAmm' => [
-    {
-      'types' => {},
-      'entry' => 'muta.sAmm',
-      'form' => 'muta.sAmm',
-      'lines' => [
-        ';; mutaSAm~_1',
-        'mtSAm   mutaSAm~        Nall    deaf to     [[mutaSAm~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'deaf to'
-      ],
-      'orig' => 'mutaSAm~',
       'prefix' => ''
     }
   ],

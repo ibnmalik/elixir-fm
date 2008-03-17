@@ -554,6 +554,8 @@ cluster_11  = listing "Lexicon's properties"
 
     MuFACL                    `adj`     {- muDAd~ -}           [ unwords [ "anti", "-" ], unwords [ "counter", "-" ], unwords [ "contra", "-" ] ],
 
+    MutaFACL                  `adj`     {- mutaDAd~ -}         [ "opposing", "contrary", "antagonistic" ],
+
     TaFACL                    `noun`    {- taDAd~ -}           [ "ambivalence", "contradiction" ]
                               `plural`     TaFACL |< At ]
 
@@ -1570,10 +1572,6 @@ cluster_32  = listing "Lexicon's properties"
  |> "mu.d.da^ga`" <| [
 
     Identity                  `noun`    {- muD~ajaE -}         [ "couch" ] ]
-
- |> "muta.dAdd" <| [
-
-    Identity                  `adj`     {- mutaDAd~ -}         [ "opposing", "contrary", "antagonistic" ] ]
 
 
 section = [ cluster_1,
