@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Template
--- Copyright   :  Otakar Smrz 2005-2007
+-- Copyright   :  Otakar Smrz 2005-2008
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz

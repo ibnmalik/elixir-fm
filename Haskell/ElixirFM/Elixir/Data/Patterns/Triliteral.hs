@@ -12,7 +12,7 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Elixir", "Elixir.Template"
+-- "Elixir" "Elixir.Template"
 
 
 module Elixir.Data.Patterns.Triliteral where

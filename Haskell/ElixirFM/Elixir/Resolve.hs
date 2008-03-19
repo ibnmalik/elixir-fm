@@ -12,10 +12,11 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Elixir", "FM"
+-- "Elixir" "FM"
 
 
 module Elixir.Resolve where
+
 
 -- import FM.Arabic.Build
 import FM.Arabic.Composite

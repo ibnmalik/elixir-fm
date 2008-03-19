@@ -5,14 +5,14 @@
 -- |
 --
 -- Module      :  Elixir.Data.Patterns.Literal
--- Copyright   :  Otakar Smrz 2005-2007
+-- Copyright   :  Otakar Smrz 2005-2008
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Elixir", "Elixir.Template"
+-- "Elixir" "Elixir.Template"
 
 
 module Elixir.Data.Patterns.Literal where
