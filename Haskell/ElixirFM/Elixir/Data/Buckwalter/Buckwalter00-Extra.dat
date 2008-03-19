@@ -1,7 +1,6 @@
 ;--- ___
 ;; >a_1
 >       >a      FW      A;1st     <pos>>a/ABBREV</pos>
-A       >a      FW      A;1st     <pos>>a/ABBREV</pos>
 ;; <i_1
 <       <i      FW      I     <pos><i/ABBREV</pos>
 ;; bi_1
@@ -67,41 +66,31 @@ Z       Z       FW      ZH;27th     <pos>Z/ABBREV</pos>
 g       g       FW      GH;28th;(Greenwich);(piaster);(gram)     <pos>g/ABBREV</pos>
 ;; >af_1
 >f      >af     FW      A.F.     <pos>Af/ABBREV</pos>
-Af      >af     FW      A.F.     <pos>Af/ABBREV</pos>
 ; "Al<f by >y"
 ;; <if_1
 <f      <if     N0      F.     <pos><if/ABBREV</pos>
-Af      <if     N0      F.     <pos><if/ABBREV</pos>
 ;; >ar_1
 >r      >ar     FW      R.     <pos>>ar/ABBREV</pos>
-Ar      >ar     FW      R.     <pos>>ar/ABBREV</pos>
 ;; <il_2
 <l      <il     FW      L.     <pos><il/ABBREV</pos>
 ;; <im_1
 <m      <im     FW      M.     <pos><im/ABBREV</pos>
-Am      <im     FW      M.     <pos><im/ABBREV</pos>
 ;; <in_2
 <n      <in     FW      N.     <pos><in/ABBREV</pos>
-An      <in     FW      N.     <pos><in/ABBREV</pos>
 ; sub-standard orthography
 >n      <in     FW      N.     <pos><in/ABBREV</pos>
 ;; <is_1
 <s      <is     FW      S.     <pos><is/ABBREV</pos>
 |s      <is     FW      S.     <pos><is/ABBREV</pos>
-As      <is     FW      S.     <pos><is/ABBREV</pos>
 ;; <iy_1
 <y      <iy     FW      E.     <pos><iy/ABBREV</pos>
 ;; >uw_1
 >w      >uw     FW      O.     <pos>>uw/ABBREV</pos>
-Aw      >uw     FW      O.     <pos>>uw/ABBREV</pos>
 ;; >ay_1
 >y      >ay     FW      A.     <pos>>ay/ABBREV</pos>
-Ay      >ay     FW      A.     <pos>>ay/ABBREV</pos>
 >y      >ay     FW      I.     <pos>>ay/ABBREV</pos>
-Ay      >ay     FW      I.     <pos>>ay/ABBREV</pos>
 ;; <iyh_1
 <yh     <iyh    FW      A.     <pos>>ay/ABBREV</pos>
-Ayh     <iyh    FW      A.     <pos>>ay/ABBREV</pos>
 ;; At$_1
 At$     At$     FW      H.     <pos>At$/ABBREV</pos>
 >t$     At$     FW      H.     <pos>At$/ABBREV</pos>

@@ -39,7 +39,6 @@ tqbb    taqab~ab        IV      bulge;swell
 ;; qab~_1
 qb      qab~    Ndu     hub;lever;beam
 >qb     >aqub~  N       hubs;levers;beams
-Aqb     >aqub~  N       hubs;levers;beams
 ;; qub~ap_1
 qb      qub~    Napdu   dome;cupola
 qbAb    qibAb   N       domes;cupolas
@@ -72,7 +71,6 @@ qbH     qab~aH  PV      disfigure;make repugnant
 qbH     qab~iH  IV_yu   disfigure;make repugnant
 ;; {isotaqobaH_1
 <stqbH  {isotaqobaH     PV      find abhorrent
-AstqbH  {isotaqobaH     PV      find abhorrent
 stqbH   sotaqobiH       IV      find abhorrent
 ;; quboH_1
 qbH     quboH   N       shame;infamy
@@ -90,7 +88,6 @@ qbA}H   qabA}iH Ndip    villainous deeds;dirty tricks
 qbAH    qabAH   Nap     ugliness;infamy
 ;; >aqobaH_1
 >qbH    >aqobaH Nel     uglier/ugliest;fouler/foulest
-AqbH    >aqobaH Nel     uglier/ugliest;fouler/foulest
 ;; maqobaHap_1
 mqbH    maqobaH Napdu   shameful act
 mqAbH   maqAbiH Ndip    shameful acts;repulsive qualities
@@ -110,7 +107,6 @@ qbr     qobur   IV      bury
 qbr     qobir   IV      bury
 ;; >aqobar_1
 >qbr    >aqobar PV      bury
-Aqbr    >aqobar PV      bury
 qbr     qobir   IV_yu   bury
 qbr     qobar   IV_Pass_yu      be buried
 ;; qabor_1
@@ -157,7 +153,6 @@ qbs     qabas   PV      derive;borrow;adopt
 qbs     qobis   IV      derive;borrow;adopt
 ;; {iqotabas_1
 <qtbs   {iqotabas       PV      quote;borrow;adopt
-Aqtbs   {iqotabas       PV      quote;borrow;adopt
 qtbs    qotabis IV      quote;borrow;adopt
 ;; qabas_1
 qbs     qabas   N0      Qabas
@@ -172,7 +167,6 @@ mqbs    miqobas Ndu     socket
 mqAbs   maqAbis Ndip    socket
 ;; {iqotibAs_1
 <qtbAs  {iqotibAs       N/At    quotation;acquisition;adaptation
-AqtbAs  {iqotibAs       N/At    quotation;acquisition;adaptation
 ;; qAbis_1
 qAbs    qAbis   Ndip    Gabes
 ;; qAbis_2
@@ -202,7 +196,6 @@ tqbD    taqab~aD        PV      shrink;contract
 tqbD    taqab~aD        IV      shrink;contract
 ;; {inoqabaD_1
 <nqbD   {inoqabaD       PV      shrink;contract;abstain
-AnqbD   {inoqabaD       PV      shrink;contract;abstain
 nqbD    noqabiD IV      shrink;contract;abstain
 ;; qaboD_1
 qbD     qaboD   N       arrest;seizure
@@ -233,10 +226,8 @@ tqbD    taqab~uD        N/At    contraction
 tqAbD   taqAbuD N/At    reciprocal appropriation
 ;; {inoqibAD_1
 <nqbAD  {inoqibAD       N/At    contraction;shrinking
-AnqbAD  {inoqibAD       N/At    contraction;shrinking
 ;; {inoqibADiy~_1
 <nqbADy {inoqibADiy~    N-ap    systolic;contracting     <pos>{inoqibADiy~/ADJ</pos>
-AnqbADy {inoqibADiy~    N-ap    systolic;contracting     <pos>{inoqibADiy~/ADJ</pos>
 ;; qAbiD_1
 qAbD    qAbiD   N-ap    constricting;oppressive;astringent
 ;; muqab~iD_1
@@ -261,7 +252,6 @@ qbT     qab~iT  IV_yu   frown;have furrowed brows
 qbTy    qiboTiy~        Nall    Coptic     <pos>qiboTiy~/NOUN</pos>
 qbTy    qiboTiy~        Nall    Coptic     <pos>qiboTiy~/ADJ</pos>
 >qbAT   >aqobAT N       Copts
-AqbAT   >aqobAT N       Copts
 qbT     qiboT   N       Copts
 ;
 ;; quboTAn_1
@@ -325,7 +315,6 @@ qAbl    qAbal   PV      meet;face
 qAbl    qAbil   IV_yu   meet;face
 ;; >aqobal_1
 >qbl    >aqobal PV      approach;engage in
-Aqbl    >aqobal PV      approach;engage in
 qbl     qobil   IV_yu   approach;engage in
 qbl     qobal   IV_Pass_yu      be approached;be engaged in
 ;; taqab~al_1
@@ -336,11 +325,9 @@ tqAbl   taqAbal PV      meet face to face
 tqAbl   taqAbal IV      meet face to face
 ;; {iqotabal_1
 <qtbl   {iqotabal       PV      receive
-Aqtbl   {iqotabal       PV      receive
 qtbl    qotabil IV      receive
 ;; {isotaqobal_1
 <stqbl  {isotaqobal     PV      receive;greet;meet
-Astqbl  {isotaqobal     PV      receive;greet;meet
 stqbl   sotaqobil       IV      receive;greet;meet
 ;; qabolAF_1
 qbl     qabol   NF      previously;formerly     <pos>qabol/ADV</pos>
@@ -385,10 +372,8 @@ qbAl    qabAl   Nap     guarantee;liability
 mqAbl   muqAbal NapAt   encounter;meeting;interview
 ;; <iqobAl_1
 <qbAl   <iqobAl N/At    approach;concern for;interest in
-AqbAl   <iqobAl N/At    approach;concern for;interest in
 ;; <iqobAl_2
 <qbAl   <iqobAl Nprop   Iqbal;Eqbal
-AqbAl   <iqobAl Nprop   Iqbal;Eqbal
 ;; taqab~ul_1
 tqbl    taqab~ul        N/At    acceptance;tolerance
 ;; taqAbul_1
@@ -397,10 +382,8 @@ tqAbl   taqAbul N/At    confrontation;correspondence;opposition
 tqAbly  taqAbuliy~      Nap     isomorphism     <pos>taqAbuliy~/NOUN</pos>
 ;; {iqotibAl_1
 <qtbAl  {iqotibAl       N/At    reception
-AqtbAl  {iqotibAl       N/At    reception
 ;; {isotiqobAl_1
 <stqbAl {isotiqobAl     N/At    reception;welcoming
-AstqbAl {isotiqobAl     N/At    reception;welcoming
 ;; qAbil_1
 qAbl    qAbil   N-ap    capable;able     <pos>qAbil/ADJ</pos>
 ;; qawAbil_1
@@ -472,7 +455,6 @@ tqb     taqab~  IV_0hwnyn       be arched;be vaulted
 ;; qabow_1
 qbw     qabow   N       underground shelter;vaulted ceiling;arch
 >qby    >aqobiy Nap     underground shelters;vaulted ceilings;arches
-Aqby    >aqobiy Nap     underground shelters;vaulted ceilings;arches
 ;; qabowap_1
 qbw     qabow   Napdu   vault;cellar
 qbw     qabaw   NAt     vaults;cellars
@@ -493,9 +475,7 @@ qt      qut~    IV_V    lie;minimize
 qtt     qotut   IV_C    lie;minimize
 ;; {iqotat~_1
 <qtt    {iqotat~        PV_V    extirpate;remove;get rid of
-Aqtt    {iqotat~        PV_V    extirpate;remove;get rid of
 <qttt   {iqotatat       PV_Ct   extirpate;remove;get rid of
-Aqttt   {iqotatat       PV_Ct   extirpate;remove;get rid of
 qtt     qotat~  IV_V    extirpate;remove;get rid of
 qttt    qotatit IV_C    extirpate;remove;get rid of
 ;; qat~_1
@@ -509,7 +489,6 @@ qtAt    qat~At  Nall    slanderer;liar
 ;; qatab_1
 qtb     qatab   Ndu     hump;hunch
 >qtAb   >aqotAb N       humps;hunches
-AqtAb   >aqotAb N       humps;hunches
 ;; qutob_1
 qtb     qutob   N0      Qutb
 ;
@@ -526,7 +505,6 @@ qtr     qat~ar  PV_intr be stingy;be parsimonious;exude aroma
 qtr     qat~ir  IV_intr_yu      be stingy;be parsimonious;exude aroma
 ;; >aqotar_1
 >qtr    >aqotar PV      live in poverty
-Aqtr    >aqotar PV      live in poverty
 qtr     qotir   IV_yu   live in poverty
 ;; qator_1
 qtr     qator   N       stinginess;parsimony
@@ -560,17 +538,14 @@ tqAtl   taqAtal PV      fight one another
 tqAtl   taqAtal IV      fight one another
 ;; {iqotatal_1
 <qttl   {iqotatal       PV      fight one another
-Aqttl   {iqotatal       PV      fight one another
 qttl    qotatil IV      fight one another
 ;; {isotaqotal_1
 <stqtl  {isotaqotal     PV      risk death
-Astqtl  {isotaqotal     PV      risk death
 stqtl   sotaqotil       IV      risk death
 ;; qatol_1
 qtl     qatol   N       murder;killing
 ;; >aqotAl_1
 >qtAl   >aqotAl N       foes
-AqtAl   >aqotAl N       foes
 ;; qatiyl_1
 qtyl    qatiyl  N/ap    killed;casualty     <pos>qatiyl/ADJ</pos>
 qtlY    qatolaY N0      killed;dead;casualty
@@ -620,9 +595,7 @@ qtm     qatam   PV      rise
 qtm     qotum   IV      rise
 ;; {iqotam~_1
 <qtm    {iqotam~        PV_V_intr       be dark-colored;be blackish
-Aqtm    {iqotam~        PV_V_intr       be dark-colored;be blackish
 <qtmm   {iqotamam       PV_C_intr       be dark-colored;be blackish
-Aqtmm   {iqotamam       PV_C_intr       be dark-colored;be blackish
 qtm     qotam~  IV_V_intr       be dark-colored;be blackish
 qtmm    qotamim IV_C_intr       be dark-colored;be blackish
 ;; qutomap_1
@@ -639,7 +612,6 @@ qtAm    qatAm   N       dark;blackish
 qtAm    qatAm   Nap     darkness;gloom
 ;; >aqotam_1
 >qtm    >aqotam Nel     dark;blackish
-Aqtm    >aqotam Nel     dark;blackish
 ;; qAtim_1
 qAtm    qAtim   N/ap    black;dark     <pos>qAtim/ADJ</pos>
 qwAtm   qawAtim Ndip    black;dark
@@ -652,9 +624,7 @@ qv      quv~    IV_V    uproot;extirpate
 qvv     qovuv   IV_C    uproot;extirpate
 ;; {iqotav~_1
 <qtv    {iqotav~        PV_V    uproot;extirpate
-Aqtv    {iqotav~        PV_V    uproot;extirpate
 <qtvv   {iqotavav       PV_C    uproot;extirpate
-Aqtvv   {iqotavav       PV_C    uproot;extirpate
 qtv     qotav~  IV_V    uproot;extirpate
 qtvv    qotaviv IV_C    uproot;extirpate
 ;; qiv~A'_1
@@ -686,7 +656,6 @@ qHH     qoHuH   IV_C    cough
 ;; quH~_1
 qH      quH~    N-ap    pure;genuine
 >qHAH   >aqoHAH N       pure;genuine
-AqHAH   >aqoHAH N       pure;genuine
 qHAH    quHAH   N       pure;genuine
 ;
 ;--- qHb
@@ -704,7 +673,6 @@ qHT     qaH~aT  PV      pollinate
 qHT     qaH~iT  IV_yu   pollinate
 ;; >aqoHaT_1
 >qHT    >aqoHaT PV_intr be rainless
-AqHT    >aqoHaT PV_intr be rainless
 qHT     qoHiT   IV_intr_yu      be rainless
 ;; qaHoT_1
 qHT     qaHoT   N       drought;famine;dearth
@@ -721,13 +689,11 @@ qHf     qaHaf   PV      swallow;gulp
 qHf     qoHaf   IV      swallow;gulp
 ;; {iqotaHaf_1
 <qtHf   {iqotaHaf       PV      swallow;gulp
-AqtHf   {iqotaHaf       PV      swallow;gulp
 qtHf    qotaHif IV      swallow;gulp
 ;; qiHof_1
 qHf     qiHof   N       skull;cranium
 qHwf    quHuwf  N       skulls;crania
 >qHAf   >aqoHAf N       skulls;crania
-AqHAf   >aqoHAf N       skulls;crania
 qHf     qiHaf   Nap     skulls;crania
 ;; quHAf_1
 qHAf    quHAf   N-ap    torrential     <pos>quHAf/ADJ</pos>
@@ -758,12 +724,10 @@ qHm     qaHam   PV      burst into;take by storm;undertake boldly
 qHm     qoHum   IV      burst into;take by storm;undertake boldly
 ;; >aqoHam_1
 >qHm    >aqoHam PV      squeeze;cram
-AqHm    >aqoHam PV      squeeze;cram
 qHm     qoHim   IV_yu   squeeze;cram
 qHm     qoHam   IV_Pass_yu      be squeezed;be crammed
 ;; {iqotaHam_1
 <qtHm   {iqotaHam       PV      assault;storm;burst into
-AqtHm   {iqotaHam       PV      assault;storm;burst into
 qtHm    qotaHim IV      assault;storm;burst into
 ;; quHomap_1
 qHm     quHom   Napdu   peril;hazardous enterprise
@@ -773,22 +737,16 @@ mqHAm   miqoHAm Ndu     daring;reckless
 mqAHym  maqAHiym        Ndip    daring;reckless
 ;; <iqoHAm_1
 <qHAm   <iqoHAm N/At    involvement;implicating
-AqHAm   <iqoHAm N/At    involvement;implicating
 ;; {iqotiHAm_1
 <qtHAm  {iqotiHAm       NduAt   assault;storming;breach;incursion
-AqtHAm  {iqotiHAm       NduAt   assault;storming;breach;incursion
 ;
 ;--- qHw
 ;; >uqoHuwAn_1
 >qHwAn  >uqoHuwAn       N       chamomile;daisy
-AqHwAn  >uqoHuwAn       N       chamomile;daisy
 qHwAn   quHowAn N       chamomile;daisy
 >qAHy   >aqAHiy N0_Nh   chamomile;daisies
-AqAHy   >aqAHiy N0_Nh   chamomile;daisies
 >qAH    >aqAH   NK      chamomile;daisies
-AqAH    >aqAH   NK      chamomile;daisies
 >qAHy   >aqAHiy~        N0_Nh   chamomile;daisies
-AqAHy   >aqAHiy~        N0_Nh   chamomile;daisies
 ;
 ;--- qd
 ; qad + perfect
@@ -809,22 +767,17 @@ qdd     qad~ad  PV      cut lengthwise;cut into strips
 qdd     qad~id  IV_yu   cut lengthwise;cut into strips
 ;; {inoqad~_1
 <nqd    {inoqad~        PV_V    split;burst
-Anqd    {inoqad~        PV_V    split;burst
 <nqdd   {inoqadad       PV_C    split;burst
-Anqdd   {inoqadad       PV_C    split;burst
 nqd     noqad~  IV_V    split;burst
 nqdd    noqadid IV_C    split;burst
 ;; {iqotad~_1
 <qtd    {iqotad~        PV_V    cut lengthwise;cut into strips
-Aqtd    {iqotad~        PV_V    cut lengthwise;cut into strips
 <qtdd   {iqotadad       PV_C    cut lengthwise;cut into strips
-Aqtdd   {iqotadad       PV_C    cut lengthwise;cut into strips
 qtd     qotad~  IV_V    cut lengthwise;cut into strips
 qtdd    qotadid IV_C    cut lengthwise;cut into strips
 ;; qid~_1
 qd      qid~    Ndu     strap;thong
 >qd     >aqud~  N       straps;thongs
-Aqd     >aqud~  N       straps;thongs
 ;; qid~ap_1
 qd      qid~    Napdu   rail;ruler
 qdd     qidad   N       rails;rulers
@@ -850,7 +803,6 @@ qdH     qadaH   PV      rebuke;censure
 qdH     qodaH   IV      rebuke;censure
 ;; {iqotadaH_1
 <qtdH   {iqotadaH       PV      consider;weigh
-AqtdH   {iqotadaH       PV      consider;weigh
 qtdH    qotadiH IV      consider;weigh
 ;; qadoH_1
 qdH     qadoH   N       slander;rebuke
@@ -858,17 +810,13 @@ qdH     qadoH   N       slander;rebuke
 qdH     qidoH   Ndu     arrow
 qdAH    qidAH   N       arrows
 >qdH    >aqoduH N       arrows
-AqdH    >aqoduH N       arrows
 >qdAH   >aqodAH N       arrows
-AqdAH   >aqodAH N       arrows
 >qAdyH  >aqAdiyH        Ndip    arrows
-AqAdyH  >aqAdiyH        Ndip    arrows
 ;; qidoH_2
 qdH     qidoH   N       preponderance;decisive influence
 ;; qadaH_1
 qdH     qadaH   Ndu     cup;goblet;tumbler
 >qdAH   >aqodAH N       cups;goblets;tumblers
-AqdAH   >aqodAH N       cups;goblets;tumblers
 ;; qadaH_2
 qdH     qadaH   Ndu     qadah
 ; (2 liters)
@@ -908,20 +856,16 @@ qdr     qad~ar  IV_Pass_yu      be estimated;be valued;be appraised
 qdr     qad~ar  PV      allow (God)
 ;; {iqotadar_1
 <qtdr   {iqotadar       PV_intr be able to;be capable of
-Aqtdr   {iqotadar       PV_intr be able to;be capable of
 qtdr    qotadir IV_intr be able to;be capable of
 ;; {isotaqodar_1
 <stqdr  {isotaqodar     PV      ask for strength
-Astqdr  {isotaqodar     PV      ask for strength
 stqdr   sotaqodir       IV      ask for strength
 ;; qador_1
 qdr     qador   N       extent;degree;amount;value;level
 >qdAr   >aqodAr N       amounts;degrees
-AqdAr   >aqodAr N       amounts;degrees
 ;; qadar_1
 qdr     qadar   N       fate;destiny
 >qdAr   >aqodAr N       fate;destiny
-AqdAr   >aqodAr N       fate;destiny
 ;; qadariy~_1
 qdry    qadariy~        Nall    fatalistic;Qadarite     <pos>qadariy~/ADJ</pos>
 ;; qadariy~ap_1
@@ -942,7 +886,6 @@ qdyr    qadiyr  N0      omnipotent (God)     <pos>qadiyr/ADJ</pos>
 qdyr    qadiyr  N0      Qadir;Qadeer
 ;; >aqodar_1
 >qdr    >aqodar Nel     more/most capable
-Aqdr    >aqodar Nel     more/most capable
 ;; maqodir_1
 mqdr    maqodir Nap     ability;potential;capacity
 mqdr    maqodur Nap     ability;potential;capacity
@@ -964,7 +907,6 @@ tqdyr   taqodiyr        NF      in appreciation for     <pos>taqodiyr/ADV</pos>
 tqdyry  taqodiyriy~     N-ap    estimated;appreciative     <pos>taqodiyriy~/ADJ</pos>
 ;; {iqotidAr_1
 <qtdAr  {iqotidAr       N/At    capability;potential
-AqtdAr  {iqotidAr       N/At    capability;potential
 ;; qAdir_1
 qAdr    qAdir   N0      Qadir;Kadir
 ;; qAdir_2
@@ -1013,7 +955,6 @@ qdsy    qudosiy~        Nap     sanctity;holiness     <pos>qudosiy~/NOUN</pos>
 qds     qudus   N       holy
 ;; >aqodAs_1
 >qdAs   >aqodAs N       shrines;sanctuaries
-AqdAs   >aqodAs N       shrines;sanctuaries
 ;; qud~As_1
 qdAs    qud~As  N/At    religious service;Mass
 qdAdys  qadAdiys        Ndip    religious services;Mass services
@@ -1026,7 +967,6 @@ qdws    qud~uws N       most holy
 qdys    qid~iys Nall    saint;Saint
 ;; >aqodas_1
 >qds    >aqodas Nel     holier/holiest;more/most sacred
-Aqds    >aqodas Nel     holier/holiest;more/most sacred
 ;; maqodis_1
 mqds    maqodis N       Jerusalem
 ;; maqodisiy~_1
@@ -1066,7 +1006,6 @@ qdm     qud~im  PV_Pass be offered;be presented;be introduced
 qdm     qad~am  IV_Pass_yu      be offered;be presented;be introduced
 ;; >aqodam_1
 >qdm    >aqodam PV      undertake;tackle;approach
-Aqdm    >aqodam PV      undertake;tackle;approach
 qdm     qodim   IV_yu   undertake;tackle;approach
 qdm     qodam   IV_Pass_yu      be undertaken;be tackled;be approached
 ;; taqad~am_1
@@ -1077,12 +1016,10 @@ tqAdm   taqAdam PV_intr be old;be antiquated
 tqAdm   taqAdam IV_intr be old;be antiquated
 ;; {isotaqodam_1
 <stqdm  {isotaqodam     PV      invite;summon
-Astqdm  {isotaqodam     PV      invite;summon
 stqdm   sotaqodim       IV      invite;summon
 ;; qadam_1
 qdm     qadam   Ndu     foot
 >qdAm   >aqodAm N       feet
-AqdAm   >aqodAm N       feet
 ;; qadamiy~ap_1
 qdmy    qadamiy~        Nap     harmonium     <pos>qadamiy~/NOUN</pos>
 ;; qudum_1
@@ -1120,12 +1057,9 @@ qdAm    qud~Am  FW-Wa-o in front of     <pos>qud~Am/PREP</pos>
 qdAm    qud~Am  N       front
 ;; >aqodam_2
 >qdm    >aqodam Nel     older/oldest
-Aqdm    >aqodam Nel     older/oldest
 >qdm    >aqodam Nuwn_Niyn       ancients
-Aqdm    >aqodam Nuwn_Niyn       ancients
 ;; >aqodamiy~ap_1
 >qdmy   >aqodamiy~      Nap     seniority     <pos>>aqodamiy~/NOUN</pos>
-Aqdmy   >aqodamiy~      Nap     seniority     <pos>>aqodamiy~/NOUN</pos>
 ;; maqodam_1
 mqdm    maqodam N       arrival;advent
 ;; miqodAm_1
@@ -1143,7 +1077,6 @@ tqdm    taqodim NapAt   gift
 tqAdm   taqAdim Ndip    gifts
 ;; <iqodAm_1
 <qdAm   <iqodAm N/At    courage;audacity
-AqdAm   <iqodAm N/At    courage;audacity
 ;; taqad~um_1
 tqdm    taqad~um        N/At    progress;coming forward
 ;; taqad~umiy~_1
@@ -1204,13 +1137,9 @@ qdy     qoday   IV_Ann  be tasty
 qd      qoda    IV_0hwnyn       be tasty
 ;; {iqotadaY_1
 <qtdY   {iqotadaY       PV_0    imitate;emulate
-AqtdY   {iqotadaY       PV_0    imitate;emulate
 <qtdA   {iqotadA        PV_h    imitate;emulate
-AqtdA   {iqotadA        PV_h    imitate;emulate
 <qtdy   {iqotaday       PV_Atn  imitate;emulate
-Aqtdy   {iqotaday       PV_Atn  imitate;emulate
 <qtd    {iqotad PV_ttAw imitate;emulate
-Aqtd    {iqotad PV_ttAw imitate;emulate
 qtdy    qotadiy IV_0hAnn        imitate;emulate
 qtd     qotad   IV_0hwnyn       imitate;emulate
 qtdY    qotadaY IV_0_Pass_yu    be imitated;be emulated
@@ -1221,20 +1150,13 @@ qdA     qadA    Nhy     savoriness
 qdy     qadiy~  N-ap    savory;tasty     <pos>qadiy~/ADJ</pos>
 ;; {iqotidA'_1
 <qtdA'  {iqotidA'       N0_Nh   imitation;emulation
-AqtdA'  {iqotidA'       N0_Nh   imitation;emulation
 <qtdA&  {iqotidA&       Nh      imitation;emulation
-AqtdA&  {iqotidA&       Nh      imitation;emulation
 <qtdA}  {iqotidA}       Nhy     imitation;emulation
-AqtdA}  {iqotidA}       Nhy     imitation;emulation
 <qtdA'  {iqotidA'       NAn_Nayn        imitations;emulations
-AqtdA'  {iqotidA'       NAn_Nayn        imitations;emulations
 <qtdA}  {iqotidA}       Nayn    imitations;emulations
-AqtdA}  {iqotidA}       Nayn    imitations;emulations
 <qtdA'  {iqotidA'       NAt     imitations;emulations
-AqtdA'  {iqotidA'       NAt     imitations;emulations
 ;; {iqotidA'F_1
 <qtdA'  {iqotidA'F      FW-Wa   following the example of;in imitation of     <pos>{iqotidA'F/ADV</pos>
-AqtdA'  {iqotidA'F      FW-Wa   following the example of;in imitation of     <pos>{iqotidA'F/ADV</pos>
 ;; qadow_1
 qdw     qadow   N       savoriness
 ;; qadAwap_1
@@ -1258,12 +1180,10 @@ q*r     qa*~ar  PV      pollute;contaminate
 q*r     qa*~ir  IV_yu   pollute;contaminate
 ;; {isotaqo*ar_1
 <stq*r  {isotaqo*ar     PV      find impure;find filthy
-Astq*r  {isotaqo*ar     PV      find impure;find filthy
 stq*r   sotaqo*ir       IV      find impure;find filthy
 ;; qa*ar_1
 q*r     qa*ar   N       impurity;filth
 >q*Ar   >aqo*Ar N       impurities;filth
-Aq*Ar   >aqo*Ar N       impurities;filth
 ;; qa*ir_1
 q*r     qa*ir   N-ap    impure;dirty     <pos>qa*ir/ADJ</pos>
 ;; qa*uwr_1
@@ -1282,7 +1202,6 @@ q*E     qa*aE   PV      malign;vilify
 q*E     qo*aE   IV      malign;vilify
 ;; >aqo*aE_1
 >q*E    >aqo*aE PV      malign;vilify
-Aq*E    >aqo*aE PV      malign;vilify
 q*E     qo*iE   IV_yu   malign;vilify
 q*E     qo*aE   IV_Pass_yu      be maligned;be vilified
 ;; qa*oE_1
@@ -1308,7 +1227,6 @@ tqA*f   taqA*af PV      pelt each other;toss back and forth
 tqA*f   taqA*af IV      pelt each other;toss back and forth
 ;; {inoqa*af_1
 <nq*f   {inoqa*af       PV_intr be thrown;be tossed
-Anq*f   {inoqa*af       PV_intr be thrown;be tossed
 nq*f    noqa*if IV_intr be thrown;be tossed
 ;; qa*of_1
 q*f     qa*of   N       shelling;bombing
@@ -1351,20 +1269,15 @@ mqA*yf  maqA*iyf        Ndip    missile;projectile
 q*Al    qa*Al   N       nape;occiput
 q*l     qu*ul   N       napes;occiputs
 >q*l    >aqo*il Nap     napes;occiputs
-Aq*l    >aqo*il Nap     napes;occiputs
 ;; qa*Aliy~_1
 q*Aly   qa*Aliy~        N-ap    occipital;nape     <pos>qa*Aliy~/ADJ</pos>
 ;
 ;--- q*y
 ;; >aqo*aY_1
 >q*Y    >aqo*aY PV_0    bother;harrass;annoy
-Aq*Y    >aqo*aY PV_0    bother;harrass;annoy
 >q*A    >aqo*A  PV_h    bother;harrass;annoy
-Aq*A    >aqo*A  PV_h    bother;harrass;annoy
 >q*y    >aqo*ay PV_Atn  bother;harrass;annoy
-Aq*y    >aqo*ay PV_Atn  bother;harrass;annoy
 >q*     >aqo*   PV_ttAw bother;harrass;annoy
-Aq*     >aqo*   PV_ttAw bother;harrass;annoy
 q*y     qo*iy   IV_0hAnn_yu     bother;harrass;annoy
 q*      qo*     IV_0hwnyn_yu    bother;harrass;annoy
 q*Y     qo*aY   IV_0_Pass_yu    be bothered;be harrassed;be annoyed
@@ -1378,11 +1291,8 @@ q*A     qa*A    Nap     speck;mote
 q*Y     qi*aY   N0      dust particle
 q*A     qi*A    Nhy     dust particle
 >q*A'   >aqo*A' N0_Nh   dust particles
-Aq*A'   >aqo*A' N0_Nh   dust particles
 >q*A&   >aqo*A& Nh      dust particles
-Aq*A&   >aqo*A& Nh      dust particles
 >q*A}   >aqo*A} Nhy     dust particles
-Aq*A}   >aqo*A} Nhy     dust particles
 ;
 ;--- qr
 ;; qar~-ia_1
@@ -1398,9 +1308,7 @@ qrr     qar~ar  PV      decide;resolve
 qrr     qar~ir  IV_yu   decide;resolve
 ;; >aqar~_1
 >qr     >aqar~  PV_V    ratify;accept
-Aqr     >aqar~  PV_V    ratify;accept
 >qrr    >aqorar PV_C    ratify;accept
-Aqrr    >aqorar PV_C    ratify;accept
 qr      qir~    IV_V_yu ratify;accept
 qrr     qorir   IV_C_yu ratify;accept
 qr      qar~    IV_V_Pass_yu    be ratified;be accepted
@@ -1409,9 +1317,7 @@ tqrr    taqar~ar        PV_intr be decided;be resolved
 tqrr    taqar~ar        IV_intr be decided;be resolved
 ;; {isotaqar~_1
 <stqr   {isotaqar~      PV_V    settle down;be stabilized
-Astqr   {isotaqar~      PV_V    settle down;be stabilized
 <stqrr  {isotaqorar     PV_C    settle down;be stabilized
-Astqrr  {isotaqorar     PV_C    settle down;be stabilized
 stqr    sotaqir~        IV_V    settle down;be stabilized
 stqrr   sotaqorir       IV_C    settle down;be stabilized
 ;; qar~_1
@@ -1442,10 +1348,8 @@ tqAryr  taqAriyr        Ndip    reports;accounts
 tqryry  taqoriyriy~     N-ap    reporting     <pos>taqoriyriy~/ADJ</pos>
 ;; <iqorAr_1
 <qrAr   <iqorAr NduAt   ratification;confirmation
-AqrAr   <iqorAr NduAt   ratification;confirmation
 ;; {isotiqorAr_1
 <stqrAr {isotiqorAr     NduAt   stability
-AstqrAr {isotiqorAr     NduAt   stability
 ;; qAr~_1
 qAr     qAr~    N-ap    settled;fixed     <pos>qAr~/ADJ</pos>
 ;; qAr~ap_1
@@ -1481,19 +1385,13 @@ qr}     qora}   IV_yn   read
 qr>     qora>   IV_Pass_yu      be read
 ;; >aqora>_1
 >qr>    >aqora> PV->    make read
-Aqr>    >aqora> PV->    make read
 >qr|    >aqora| PV-|    make read
-Aqr|    >aqora| PV-|    make read
 >qr&    >aqora& PV_w    make read
-Aqr&    >aqora& PV_w    make read
 qr}     qori}   IV_yu   make read
 ;; {isotaqora>_1
 <stqr>  {isotaqora>     PV->    study;investigate
-Astqr>  {isotaqora>     PV->    study;investigate
 <stqr|  {isotaqora|     PV-|    study;investigate
-Astqr|  {isotaqora|     PV-|    study;investigate
 <stqr&  {isotaqora&     PV_w    study;investigate
-Astqr&  {isotaqora&     PV_w    study;investigate
 stqr}   sotaqori}       IV      study;investigate
 ;; quro'_1
 qr'     quro'   N0F_Nh  menstruation
@@ -1520,20 +1418,13 @@ mqAr}   maqAri} Ndip    lecterns;rostrums
 mqr>    maqora> Napdu   reading head
 ;; <iqorA'_1
 <qrA'   <iqorA' N0F_Nh  making read
-AqrA'   <iqorA' N0F_Nh  making read
 <qrA&   <iqorA& Nh      making read
-AqrA&   <iqorA& Nh      making read
 <qrA}   <iqorA} Nhy     making read
-AqrA}   <iqorA} Nhy     making read
 ;; {isotiqorA'_1
 <stqrA' {isotiqorA'     N0_Nh   investigation;examination;exploration
-AstqrA' {isotiqorA'     N0_Nh   investigation;examination;exploration
 <stqrA& {isotiqorA&     Nh      investigation;examination;exploration
-AstqrA& {isotiqorA&     Nh      investigation;examination;exploration
 <stqrA} {isotiqorA}     Nhy     investigation;examination;exploration
-AstqrA} {isotiqorA}     Nhy     investigation;examination;exploration
 <stqrA' {isotiqorA'     NAt     investigations;examinations;exploration
-AstqrA' {isotiqorA'     NAt     investigations;examinations;exploration
 ;; qAri}_1
 qAr}    qAri}   Nall    reader
 qrA'    qur~A'  N0_Nh   readers
@@ -1581,11 +1472,9 @@ tqArb   taqArab PV      approach;come near
 tqArb   taqArab IV      approach;come near
 ;; {iqotarab_1
 <qtrb   {iqotarab       PV      get close to;approach
-Aqtrb   {iqotarab       PV      get close to;approach
 qtrb    qotarib IV      get close to;approach
 ;; {isotaqorab_1
 <stqrb  {isotaqorab     PV      find near
-Astqrb  {isotaqorab     PV      find near
 stqrb   sotaqorib       IV      find near
 ;; qurob_1
 qrb     qurob   N       proximity;nearness
@@ -1610,27 +1499,20 @@ qryb    qariyb  NF      closely;near     <pos>qariyb/ADV</pos>
 ;; qariyb_3
 qryb    qariyb  N       relative
 >qrbA'  >aqoribA'       N0_Nh   relatives
-AqrbA'  >aqoribA'       N0_Nh   relatives
 >qrbA&  >aqoribA&       Nh      relatives
-AqrbA&  >aqoribA&       Nh      relatives
 >qrbA}  >aqoribA}       Nhy     relatives
-AqrbA}  >aqoribA}       Nhy     relatives
 ;; qirAb_1
 qrAb    qirAb   N       sheath;container
 qrb     qurub   N       sheaths;containers
 >qrb    >aqorib Nap     sheaths;containers
-Aqrb    >aqorib Nap     sheaths;containers
 ;; qarAbap_1
 qrAb    qarAb   Nap     affinity;kinship;relationship
 ;; qurAbap_1
 qrAb    qurAb   Nap     almost;nearly
 ;; >aqorab_1
 >qrb    >aqorab Nel     soonest;nearer/nearest;more/most likely
-Aqrb    >aqorab Nel     soonest;nearer/nearest;more/most likely
 >qrb    >aqorab Nuwn_Niyn       relatives
-Aqrb    >aqorab Nuwn_Niyn       relatives
 >qArb   >aqArib Ndip    relatives;extended family
-AqArb   >aqArib Ndip    relatives;extended family
 ;; maqorabap_1
 mqrb    maqorab Nap     close;near;vicinity;proximity
 ;; maqorab_1
@@ -1657,7 +1539,6 @@ tqrb    taqar~ub        N/At    approach;approximation
 tqArb   taqArub N/At    rapprochement
 ;; {iqotirAb_1
 <qtrAb  {iqotirAb       N/At    approach;approximation
-AqtrAb  {iqotirAb       N/At    approach;approximation
 ;; muqar~ab_1
 mqrb    muqar~ab        Nall    close;near     <pos>muqar~ab/ADJ</pos>
 ;; muqar~ab_2
@@ -1728,7 +1609,6 @@ tqrH    taqar~aH        PV      have ulcers
 tqrH    taqar~aH        IV      have ulcers
 ;; {iqotaraH_1
 <qtrH   {iqotaraH       PV      propose;suggest
-AqtrH   {iqotaraH       PV      propose;suggest
 qtrH    qotariH IV      propose;suggest
 ;; qaroH_1
 qrH     qaroH   N       wound;ulcer
@@ -1749,7 +1629,6 @@ qrA}H   qarA}iH Ndip    talents;natural gifts;genius
 tqrH    taqar~uH        N/At    ulceration
 ;; {iqotirAH_1
 <qtrAH  {iqotirAH       NduAt   proposal;suggestion
-AqtrAH  {iqotirAH       NduAt   proposal;suggestion
 ;; qAriH_1
 qArH    qAriH   N0      Qarih
 ;; muqar~aH_1
@@ -1835,7 +1714,6 @@ qr$     qar~a$  PV      make a living
 qr$     qar~i$  IV_yu   make a living
 ;; {iqotara$_1
 <qtr$   {iqotara$       PV      make a living
-Aqtr$   {iqotara$       PV      make a living
 qtr$    qotari$ IV      make a living
 ;; qiro$_1
 qr$     qiro$   Ndu     piaster
@@ -1872,7 +1750,6 @@ qrS     qaraS   NAt     pinches;bites;stings
 ;; quroS_1
 qrS     quroS   Ndu     disk;tablet
 >qrAS   >aqorAS N       disks;tablets
-AqrAS   >aqorAS N       disks;tablets
 ;; quroSiy~_1
 qrSy    quroSiy~        N-ap    disk-shaped     <pos>quroSiy~/ADJ</pos>
 ;; quroSap_1
@@ -1914,26 +1791,21 @@ qArD    qAraD   PV      lend
 qArD    qAriD   IV_yu   lend
 ;; >aqoraD_1
 >qrD    >aqoraD PV      lend
-AqrD    >aqoraD PV      lend
 qrD     qoriD   IV_yu   lend
 qrD     qoraD   IV_Pass_yu      be lent
 ;; <iqorAD_1
 <qrAD   <iqorAD NduAt   lending;loan
-AqrAD   <iqorAD NduAt   lending;loan
 ;; taqAraD_1
 tqArD   taqAraD PV      exchange
 tqArD   taqAraD IV      exchange
 ;; {inoqaraD_1
 <nqrD   {inoqaraD       PV_intr become extinct
-AnqrD   {inoqaraD       PV_intr become extinct
 nqrD    noqariD IV_intr become extinct
 ;; {iqotaraD_1
 <qtrD   {iqotaraD       PV      borrow
-AqtrD   {iqotaraD       PV      borrow
 qtrD    qotariD IV      borrow
 ;; {isotaqoraD_1
 <stqrD  {isotaqoraD     PV      request a loan
-AstqrD  {isotaqoraD     PV      request a loan
 stqrD   sotaqoriD       IV      request a loan
 ;; qaroD_1
 qrD     qaroD   Ndu     loan
@@ -1957,13 +1829,10 @@ mqAryD  maqAriyD        Ndip    scissors
 mqrAD   miqorAD Ndu     scissors
 ;; {inoqirAD_1
 <nqrAD  {inoqirAD       N/At    extinction
-AnqrAD  {inoqirAD       N/At    extinction
 ;; {iqotirAD_1
 <qtrAD  {iqotirAD       N/At    loan
-AqtrAD  {iqotirAD       N/At    loan
 ;; {isotiqorAD_1
 <stqrAD {isotiqorAD     N/At    loan request
-AstqrAD {isotiqorAD     N/At    loan request
 ;; qAriD_1
 qArD    qAriD   N-ap    corrosive     <pos>qAriD/ADJ</pos>
 ;; qAriD_2
@@ -1988,7 +1857,6 @@ qrT     qaroT   N       mincing
 ;; quroT_1
 qrT     quroT   Ndu     earring
 >qrAT   >aqorAT N       earrings
-AqrAT   >aqorAT N       earrings
 qrAT    qirAT   N       earrings
 qrwT    quruwT  N       earrings
 ;; qirAT_1
@@ -2083,7 +1951,6 @@ tqArE   taqAraE PV      clash
 tqArE   taqAraE IV      clash
 ;; {iqotaraE_1
 <qtrE   {iqotaraE       PV      take a vote;cast lots
-AqtrE   {iqotaraE       PV      take a vote;cast lots
 qtrE    qotariE IV      take a vote;cast lots
 ;; qaroE_1
 qrE     qaroE   N       knocking;striking;ringing
@@ -2114,7 +1981,6 @@ qryE    qariyE  Nap     elite;cream
 qrA}E   qarA}iE Ndip    elite;cream
 ;; >aqoraE_1
 >qrE    >aqoraE Nel     bald;bare
-AqrE    >aqoraE Nel     bald;bare
 qrEA'   qaroEA' N0_Nh   bald;bare
 qrEA&   qaroEA& Nh      bald;bare
 qrEA}   qaroEA} Nhy     bald;bare
@@ -2133,10 +1999,8 @@ tqryE   taqoriyE        N/At    recruitment;draft
 mqArE   muqAraE NapAt   fight;struggle against
 ;; {iqotirAE_1
 <qtrAE  {iqotirAE       N/At    balloting;voting;election
-AqtrAE  {iqotirAE       N/At    balloting;voting;election
 ;; {iqotirAEiy~_1
 <qtrAEy {iqotirAEiy~    Nall    balloting;voting;election     <pos>{iqotirAEiy~/ADJ</pos>
-AqtrAEy {iqotirAEiy~    Nall    balloting;voting;election     <pos>{iqotirAEiy~/ADJ</pos>
 ;; qAriE_1
 qArE    qAriE   Nall    knocking;striking;ringing
 ;; qAriEap_1
@@ -2167,7 +2031,6 @@ qArf    qAraf   PV      yield to
 qArf    qArif   IV_yu   yield to
 ;; {iqotaraf_1
 <qtrf   {iqotaraf       PV      commit;perpetrate
-Aqtrf   {iqotaraf       PV      commit;perpetrate
 qtrf    qotarif IV      commit;perpetrate
 ;; qaraf_1
 qrf     qaraf   N       loathing
@@ -2191,10 +2054,8 @@ qrfAn   qarofAn N       disgusted     <pos>qarofAn/ADJ</pos>
 tqryf   taqoriyf        N/At    disgusting;causing disgust
 ;; <iqorAf_1
 <qrAf   <iqorAf N/At    disgusting
-AqrAf   <iqorAf N/At    disgusting
 ;; {iqotirAf_1
 <qtrAf  {iqotirAf       N/At    perpetration
-AqtrAf  {iqotirAf       N/At    perpetration
 ;; muqorif_1
 mqrf    muqorif Nall    loathsome;disgusting     <pos>muqorif/ADJ</pos>
 ;; muqotarif_1
@@ -2299,7 +2160,6 @@ qrwm    quruwm  N       studhorses;lords
 ;; qirAm_1
 qrAm    qirAm   N       blanket;curtain
 >qrm    >aqorim Nap     blankets;curtains
-Aqrm    >aqorim Nap     blankets;curtains
 ;; miqoram_1
 mqrm    miqoram Ndu     bedspread
 mqArm   maqArim Ndip    bedspreads
@@ -2366,7 +2226,6 @@ qwrn    quwrin  PV-n_Pass       be compared
 qArn    qAran   IV-n_Pass_yu    be compared
 ;; >aqoran_1
 >qrn    >aqoran PV-n    combine
-Aqrn    >aqoran PV-n    combine
 qrn     qorin   IV-n_yu combine
 qrn     qoran   IV-n_Pass_yu    be combined
 ;; taqAran_1
@@ -2374,11 +2233,9 @@ tqArn   taqAran PV-n_intr       be coupled;be linked
 tqArn   taqAran IV-n_intr       be coupled;be linked
 ;; {iqotaran_1
 <qtrn   {iqotaran       PV-n_intr       be married;be interlinked
-Aqtrn   {iqotaran       PV-n_intr       be married;be interlinked
 qtrn    qotarin IV-n_intr       be married;be interlinked
 ;; {isotaqoran_1
 <stqrn  {isotaqoran     PV-n    ripen
-Astqrn  {isotaqoran     PV-n    ripen
 stqrn   sotaqorin       IV-n    ripen
 ;; qaron_1
 qrn     qaron   Ndu     century;age
@@ -2397,10 +2254,8 @@ qrny    qaroniy~        NAt     legumes     <pos>qaroniy~/NOUN</pos>
 ;; qiron_1
 qrn     qiron   N       contemporary;peer
 >qrAn   >aqorAn N       contemporaries;peers
-AqrAn   >aqorAn N       contemporaries;peers
 ;; >aqorAniy~_1
 >qrAny  >aqorAniy~      N-ap    similar;alike     <pos>>aqorAniy~/ADJ</pos>
-AqrAny  >aqorAniy~      N-ap    similar;alike     <pos>>aqorAniy~/ADJ</pos>
 ;; quronap_1
 qrn     quron   Napdu   corner
 qrn     quran   N       corners
@@ -2424,7 +2279,6 @@ qryn    qariyn  Nap     linkage
 qrA}n   qarA}in Ndip    linkage;connections
 ;; >aqoran_2
 >qrn    >aqoran Nel     horned
-Aqrn    >aqoran Nel     horned
 qrnA'   qaronA' N0_Nh   horned
 qrnA&   qaronA& Nh      horned
 qrnA}   qaronA} Nhy     horned
@@ -2436,7 +2290,6 @@ mqArn   muqAran NapAt   comparison
 tqArn   taqArun N/At    coupling;linking
 ;; {iqotirAn_1
 <qtrAn  {iqotirAn       N/At    connection;link;marriage
-AqtrAn  {iqotirAn       N/At    connection;link;marriage
 ;; qArinap_1
 qArn    qArin   Napdu   couple;link
 ;; maqoruwn_1
@@ -2495,13 +2348,9 @@ tqry    taqar~ay        IV_Ann  investigate
 tqr     taqar~  IV_0hwnyn       investigate
 ;; {isotaqoraY_1
 <stqrY  {isotaqoraY     PV_0    examine;explore;investigate
-AstqrY  {isotaqoraY     PV_0    examine;explore;investigate
 <stqrA  {isotaqorA      PV_h    examine;explore;investigate
-AstqrA  {isotaqorA      PV_h    examine;explore;investigate
 <stqry  {isotaqoray     PV_Atn  examine;explore;investigate
-Astqry  {isotaqoray     PV_Atn  examine;explore;investigate
 <stqr   {isotaqor       PV_ttAw examine;explore;investigate
-Astqr   {isotaqor       PV_ttAw examine;explore;investigate
 stqry   sotaqoriy       IV_0hAnn        examine;explore;investigate
 stqr    sotaqor IV_0hwnyn       examine;explore;investigate
 stqrY   sotaqoraY       IV_0_Pass_yu    be examined;be explored;be investigated
@@ -2511,20 +2360,13 @@ qrw     quruw~  N       watering troughs
 ; see also under --- qrA
 ;; {isotiqorA'_2
 <stqrA' {isotiqorA'     N0_Nh   investigation;induction
-AstqrA' {isotiqorA'     N0_Nh   investigation;induction
 <stqrA& {isotiqorA&     Nh      investigation;induction
-AstqrA& {isotiqorA&     Nh      investigation;induction
 <stqrA} {isotiqorA}     Nhy     investigation;induction
-AstqrA} {isotiqorA}     Nhy     investigation;induction
 <stqrA' {isotiqorA'     NAn_Nayn        investigations;induction
-AstqrA' {isotiqorA'     NAn_Nayn        investigations;induction
 <stqrA} {isotiqorA}     Nayn    investigations;induction
-AstqrA} {isotiqorA}     Nayn    investigations;induction
 <stqrA' {isotiqorA'     NAt     investigations;induction
-AstqrA' {isotiqorA'     NAt     investigations;induction
 ;; {isotiqorA}iy~_1
 <stqrA}y        {isotiqorA}iy~  N-ap    inductive;investigative     <pos>{isotiqorA}iy~/ADJ</pos>
-AstqrA}y        {isotiqorA}iy~  N-ap    inductive;investigative     <pos>{isotiqorA}iy~/ADJ</pos>
 ;
 ;--- qrwA
 ;; qaruwATiyA_1
@@ -2544,13 +2386,9 @@ qr      qor     IV_0hwnyn       receive hospitably;entertain
 qrY     qoraY   IV_0_Pass_yu    be received hospitably;be entertained
 ;; {iqotaraY_1
 <qtrY   {iqotaraY       PV_0    receive hospitably;entertain
-AqtrY   {iqotaraY       PV_0    receive hospitably;entertain
 <qtrA   {iqotarA        PV_h    receive hospitably;entertain
-AqtrA   {iqotarA        PV_h    receive hospitably;entertain
 <qtry   {iqotaray       PV_Atn  receive hospitably;entertain
-Aqtry   {iqotaray       PV_Atn  receive hospitably;entertain
 <qtr    {iqotar PV_ttAw receive hospitably;entertain
-Aqtr    {iqotar PV_ttAw receive hospitably;entertain
 qtry    qotariy IV_0hAnn        receive hospitably;entertain
 qtr     qotar   IV_0hwnyn       receive hospitably;entertain
 qtrY    qotaraY IV_0_Pass_yu    be received hospitably;be entertained
@@ -2677,7 +2515,6 @@ qzl     qazal   N       limping
 qzm     qazam   Ndu     dwarf;pygmy
 qzm     qazam   NapAt   dwarf;pygmy
 >qzAm   >aqozAm N       dwarfs;pygmies
-AqzAm   >aqozAm N       dwarfs;pygmies
 ;; qazam_2
 qzm     qazam   N       dwarfism;nanism
 ;; qazamiy~_1
@@ -2724,7 +2561,6 @@ qsAs    qas~As  Nall    slanderer
 qsys    qis~iys Nall    clergyman;reverend
 qsAn    qus~An  N       clergymen
 >qs     >aqis~  Nap     clergymen
-Aqs     >aqis~  Nap     clergymen
 qsA'    qus~A'  N0_Nh   clergymen
 qsA&    qus~A&  Nh      clergymen
 qsA}    qus~A}  Nhy     clergymen
@@ -2749,7 +2585,6 @@ qsr     qasar   PV      compel;constrain;subjugate
 qsr     qosir   IV      compel;constrain;subjugate
 ;; {iqotasar_1
 <qtsr   {iqotasar       PV      compel;constrain;subjugate
-Aqtsr   {iqotasar       PV      compel;constrain;subjugate
 qtsr    qotasir IV      compel;constrain;subjugate
 ;; qasor_1
 qsr     qasor   N       force;coercion
@@ -2759,7 +2594,6 @@ qsr     qasor   NF      by force;necessarily     <pos>qasor/ADV</pos>
 qsry    qasoriy~        Nall    coercive;constraining     <pos>qasoriy~/ADJ</pos>
 ;; {iqotisAr_1
 <qtsAr  {iqotisAr       N/At    subjugation;conquest
-AqtsAr  {iqotisAr       N/At    subjugation;conquest
 ;; qAsir_1
 qAsr    qAsir   Nall    constraining;subjugating
 ;
@@ -2772,7 +2606,6 @@ qsT     qas~aT  PV      distribute;pay in installments;ration
 qsT     qas~iT  IV_yu   distribute;pay in installments;ration
 ;; >aqosaT_1
 >qsT    >aqosaT PV_intr be equitable;ration equitably
-AqsT    >aqosaT PV_intr be equitable;ration equitably
 qsT     qosiT   IV_intr_yu      be equitable;ration equitably
 qsT     qosaT   IV_Pass_yu      be rationed equitably
 ;; qisoT_1
@@ -2782,12 +2615,10 @@ qsT     qisoT   Nall    equitable;fair
 ;; qisoT_3
 qsT     qisoT   Ndu     allotment;installment
 >qsAT   >aqosAT N       allotments;installments
-AqsAT   >aqosAT N       allotments;installments
 ;; qasaT_1
 qsT     qasaT   N       stiffness (joint)
 ;; >aqosaT_2
 >qsT    >aqosaT Nel     equitable;fair
-AqsT    >aqosaT Nel     equitable;fair
 ;; taqosiyT_1
 tqsyT   taqosiyT        N/At    payment in installments
 ;; taqosiyT_2
@@ -2846,7 +2677,6 @@ qAsm    qAsam   PV      share with
 qAsm    qAsim   IV_yu   share with
 ;; >aqosam_1
 >qsm    >aqosam PV      take an oath;swear
-Aqsm    >aqosam PV      take an oath;swear
 qsm     qosim   IV_yu   take an oath;swear
 qsm     qosam   IV_Pass_yu      be sworn
 ;; taqas~am_1
@@ -2857,25 +2687,20 @@ tqAsm   taqAsam PV      distribute among themselves;exchange oaths
 tqAsm   taqAsam IV      distribute among themselves;exchange oaths
 ;; {inoqasam_1
 <nqsm   {inoqasam       PV_intr be fragmented;be divided;be distributed
-Anqsm   {inoqasam       PV_intr be fragmented;be divided;be distributed
 nqsm    noqasim IV_intr be fragmented;be divided;be distributed
 ;; {iqotasam_1
 <qtsm   {iqotasam       PV      distribute among themselves
-Aqtsm   {iqotasam       PV      distribute among themselves
 qtsm    qotasim IV      distribute among themselves
 ;; {isotaqosam_1
 <stqsm  {isotaqosam     PV      conjure
-Astqsm  {isotaqosam     PV      conjure
 stqsm   sotaqosim       IV      conjure
 ;; qisom_1
 qsm     qisom   Ndu     portion
 >qsAm   >aqosAm N       portions
-AqsAm   >aqosAm N       portions
 qsm     qisam   N       portions
 ;; qisom_2
 qsm     qisom   Ndu     department;division;section
 >qsAm   >aqosAm N       departments;divisions;sections
-AqsAm   >aqosAm N       departments;divisions;sections
 ;; qusayom_1
 qsym    qusayom NduAt   particle
 ;; qisomap_1
@@ -2898,11 +2723,8 @@ qsmA'   qusamA' N0_Nh   partners;participants
 qsmA&   qusamA& Nh      partners;participants
 qsmA}   qusamA} Nhy     partners;participants
 >qsmA'  >aqosimA'       N0_Nh   partners;participants
-AqsmA'  >aqosimA'       N0_Nh   partners;participants
 >qsmA&  >aqosimA&       Nh      partners;participants
-AqsmA&  >aqosimA&       Nh      partners;participants
 >qsmA}  >aqosimA}       Nhy     partners;participants
-AqsmA}  >aqosimA}       Nhy     partners;participants
 ;; qasiym_2
 qsym    qasiym  N/ap    elegant     <pos>qasiym/ADJ</pos>
 ;; qasiym_3
@@ -2912,9 +2734,7 @@ qsym    qasiym  Napdu   coupon;stub
 qsA}m   qasA}im Ndip    coupons;stubs
 ;; >uqosuwmap_1
 >qswm   >uqosuwm        Napdu   lot;portion
-Aqswm   >uqosuwm        Napdu   lot;portion
 >qAsym  >aqAsiym        Ndip    lots;portions
-AqAsym  >aqAsiym        Ndip    lots;portions
 ;; maqosam_1
 mqsm    maqosam Ndu     compartment;distribution
 mqsm    maqosim Ndu     compartment;distribution
@@ -2934,19 +2754,15 @@ tqsm    taqas~um        N/At    fragmentation;segmentation
 tqAsm   taqAsum N/At    partitioning;sharing portions
 ;; {inoqisAm_1
 <nqsAm  {inoqisAm       N/At    fragmentation;schism;disruption
-AnqsAm  {inoqisAm       N/At    fragmentation;schism;disruption
 ;; {inoqisAmiy~_1
 <nqsAmy {inoqisAmiy~    Nall    schismatic     <pos>{inoqisAmiy~/ADJ</pos>
-AnqsAmy {inoqisAmiy~    Nall    schismatic     <pos>{inoqisAmiy~/ADJ</pos>
 ;; {inoqisAmiy~ap_1
 <nqsAmy {inoqisAmiy~    Nap     divisibility     <pos>{inoqisAmiy~/NOUN</pos>
-AnqsAmy {inoqisAmiy~    Nap     divisibility     <pos>{inoqisAmiy~/NOUN</pos>
 ;; lA{inoqisAmiy~ap_1
 lA<nqsAmy       lA<inoqisAmiy~  Nap_L   indivisibility     <pos>lA<inoqisAmiy~/NOUN</pos>
 lAAnqsAmy       lAAinoqisAmiy~  Nap_L   indivisibility     <pos>lAAinoqisAmiy~/NOUN</pos>
 ;; {iqotisAm_1
 <qtsAm  {iqotisAm       N/At    dividing;distribution
-AqtsAm  {iqotisAm       N/At    dividing;distribution
 ;; qAsim_1
 qAsm    qAsim   N0      Qasim;Kassem
 ;; qAsim_2
@@ -3002,13 +2818,9 @@ qAsY    qAsaY   IV_0_Pass_yu    be suffered;be endured
 qAsy    qAsay   IV_Ann_Pass_yu  be suffered;be endured
 ;; >aqosaY_1
 >qsY    >aqosaY PV_0    harden;make stubborn;make hard-hearted
-AqsY    >aqosaY PV_0    harden;make stubborn;make hard-hearted
 >qsA    >aqosA  PV_h    harden;make stubborn;make hard-hearted
-AqsA    >aqosA  PV_h    harden;make stubborn;make hard-hearted
 >qsy    >aqosay PV_Atn  harden;make stubborn;make hard-hearted
-Aqsy    >aqosay PV_Atn  harden;make stubborn;make hard-hearted
 >qs     >aqos   PV_ttAw harden;make stubborn;make hard-hearted
-Aqs     >aqos   PV_ttAw harden;make stubborn;make hard-hearted
 qsy     qosiy   IV_0hAnn_yu     harden;make stubborn;make hard-hearted
 qs      qos     IV_0hwnyn_yu    harden;make stubborn;make hard-hearted
 qsY     qosaY   IV_0_Pass_yu    be hardened;be made stubborn;be made hard-hearted
@@ -3023,11 +2835,8 @@ qsAw    qasAw   Nap     harshness;severity;brutality
 qsy     qasiy~  N/ap    firm;solid     <pos>qasiy~/ADJ</pos>
 ;; >aqosaY_2
 >qsY    >aqosaY N0      harshest;cruelest
-AqsY    >aqosaY N0      harshest;cruelest
 >qsA    >aqosA  Nhy     harshest;cruelest
-AqsA    >aqosA  Nhy     harshest;cruelest
 >qsy    >aqosay NAn_Nayn        harshest;cruelest
-Aqsy    >aqosay NAn_Nayn        harshest;cruelest
 ;; muqAsAp_1
 mqAsA   muqAsA  Napdu   suffering;enduring
 mqAsy   muqAsay NAt     suffering;enduring
@@ -3077,7 +2886,6 @@ q$b     qo$ub   IV      poison
 ;; qa$ab_1
 q$b     qa$ab   N       poison
 >q$Ab   >aqo$Ab N       poison
-Aq$Ab   >aqo$Ab N       poison
 ;; qa$iyb_1
 q$yb    qa$iyb  N/ap    polished;burnished;clean
 q$b     qu$ub   N       polished;burnished;clean
@@ -3120,7 +2928,6 @@ tq$r    taqa$~ar        PV_intr be peeled off;be shaved off
 tq$r    taqa$~ar        IV_intr be peeled off;be shaved off
 ;; {inoqa$ar_1
 <nq$r   {inoqa$ar       PV_intr be peeled off;be shaved off
-Anq$r   {inoqa$ar       PV_intr be peeled off;be shaved off
 nq$r    noqa$ir IV_intr be peeled off;be shaved off
 ;; qi$or_1
 q$r     qi$or   N       skin;peel;shell;scales
@@ -3182,7 +2989,6 @@ q$E     qa$~aE  PV      spit;expectorate
 q$E     qa$~iE  IV_yu   spit;expectorate
 ;; >aqo$aE_1
 >q$E    >aqo$aE PV      disperse;scatter
-Aq$E    >aqo$aE PV      disperse;scatter
 q$E     qo$iE   IV_yu   disperse;scatter
 q$E     qo$aE   IV_Pass_yu      be dispersed;be scattered
 ;; taqa$~aE_1
@@ -3190,7 +2996,6 @@ tq$E    taqa$~aE        PV_intr be dispersed;dissipate
 tq$E    taqa$~aE        IV_intr be dispersed;dissipate
 ;; {inoqa$aE_1
 <nq$E   {inoqa$aE       PV_intr be dispersed;dissipate
-Anq$E   {inoqa$aE       PV_intr be dispersed;dissipate
 nq$E    noqa$iE IV_intr be dispersed;dissipate
 ;; qa$oE_1
 q$E     qa$oE   N       scattering;dispersal
@@ -3202,7 +3007,6 @@ tq$yE   taqo$iyE        N/At    spitting;expectoration
 mq$E    muqa$~iE        NduAt   expectorant
 ;; {inoqi$AE_1
 <nq$AE  {inoqi$AE       N/At    dissipation;dispersion
-Anq$AE  {inoqi$AE       N/At    dissipation;dispersion
 ;
 ;--- q$Er
 ;; qa$oEar_1
@@ -3211,14 +3015,11 @@ q$Er    qa$oEir IV_yu   exasperate;give goose bumps
 ; form QIV
 ;; {iqo$aEar~_1
 <q$Er   {iqo$aEar~      PV_V    tremble;shudder;get goose bumps
-Aq$Er   {iqo$aEar~      PV_V    tremble;shudder;get goose bumps
 <q$Err  {iqo$aEorar     PV_C    tremble;shudder;get goose bumps
-Aq$Err  {iqo$aEorar     PV_C    tremble;shudder;get goose bumps
 q$Er    qo$aEir~        IV_V    tremble;shudder;get goose bumps
 q$Err   qo$aEorir       IV_C    tremble;shudder;get goose bumps
 ;; {iqo$iEorAr_1
 <q$ErAr {iqo$iEorAr     N/At    trembling;shaking;quivering
-Aq$ErAr {iqo$iEorAr     N/At    trembling;shaking;quivering
 ;; qu$oEariyrap_1
 q$Eryr  qu$oEariyr      Nap     shuddering;trembling;goose bumps
 ;; muqo$aEir~_1
@@ -3307,9 +3108,7 @@ tqSS    taqaS~aS        PV      follow;imitate
 tqSS    taqaS~aS        IV      follow;imitate
 ;; {iqotaS~_1
 <qtS    {iqotaS~        PV_V    take vengeance on;punish
-AqtS    {iqotaS~        PV_V    take vengeance on;punish
 <qtSS   {iqotaSaS       PV_C    take vengeance on;punish
-AqtSS   {iqotaSaS       PV_C    take vengeance on;punish
 qtS     qotaS~  IV_V    take vengeance on;punish
 qtSS    qotaSiS IV_C    take vengeance on;punish
 ;; qaS~_1
@@ -3335,9 +3134,7 @@ qSAS    quSAS   NapAt   clippings
 qSAS    qaS~AS  Nall    novelist;storyteller
 ;; >uqoSuwSap_1
 >qSwS   >uqoSuwS        Napdu   tale;novella
-AqSwS   >uqoSuwS        Napdu   tale;novella
 >qASyS  >aqASiyS        Ndip    tales;novellas
-AqASyS  >aqASiyS        Ndip    tales;novellas
 ;; miqaS~_1
 mqS     miqaS~  Ndu     scissors;shears
 ;; maqAS~_1
@@ -3358,7 +3155,6 @@ mqASyS  maqASiyS        Ndip    earlocks;locks of hair by the ears
 mqSwS   maqoSuwS        Napdu   skimming ladle
 ;; {iqotiSAS_1
 <qtSAS  {iqotiSAS       N/At    punishment;reprisal;vengeance
-AqtSAS  {iqotiSAS       N/At    punishment;reprisal;vengeance
 ;
 ;--- qSb
 ;; qaSab-i_1
@@ -3401,7 +3197,6 @@ qSd     qoSid   IV      intend;mean;pursue
 qSd     qoSad   IV_Pass_yu      be intended;be meant;be pursued
 ;; >aqoSad_1
 >qSd    >aqoSad PV      induce
-AqSd    >aqoSad PV      induce
 qSd     qoSid   IV_yu   induce
 qSd     qoSad   IV_Pass_yu      be induced
 ;; taqaS~ad_1
@@ -3409,11 +3204,9 @@ tqSd    taqaS~ad        PV      intend;consider
 tqSd    taqaS~ad        IV      intend;consider
 ;; {inoqaSad_1
 <nqSd   {inoqaSad       PV_intr be broken
-AnqSd   {inoqaSad       PV_intr be broken
 nqSd    noqaSid IV_intr be broken
 ;; {iqotaSad_1
 <qtSd   {iqotaSad       PV      economize;save;be frugal
-AqtSd   {iqotaSad       PV      economize;save;be frugal
 qtSd    qotaSid IV      economize;save;be frugal
 ;; qaSod_1
 qSd     qaSod   N       intent;purpose;goal
@@ -3430,7 +3223,6 @@ qSyd    qaSiyd  Napdu   poem
 qSA}d   qaSA}id Ndip    poems
 ;; >aqoSad_2
 >qSd    >aqoSad Nel     more/most direct
-AqSd    >aqoSad Nel     more/most direct
 ;; maqoSid_1
 mqSd    maqoSid Ndu     purpose;intent
 mqASd   maqASid Ndip    intentions;goals
@@ -3442,15 +3234,12 @@ mqASd   maqASid N0      Maqasid
 tqSd    taqaS~ud        N/At    intention;striving
 ;; {iqotiSAd_1
 <qtSAd  {iqotiSAd       N       economy;saving
-AqtSAd  {iqotiSAd       N       economy;saving
 AqtSAd  {iqotiSAd       NAt     economies
 <qtSAd  {iqotiSAd       NAt     economies
 ;; {iqotiSAdiy~_1
 <qtSAdy {iqotiSAdiy~    Nall    economist     <pos>{iqotiSAdiy~/NOUN</pos>
-AqtSAdy {iqotiSAdiy~    Nall    economist     <pos>{iqotiSAdiy~/NOUN</pos>
 ;; {iqotiSAdiy~_2
 <qtSAdy {iqotiSAdiy~    N-ap    economic;economical     <pos>{iqotiSAdiy~/ADJ</pos>
-AqtSAdy {iqotiSAdiy~    N-ap    economic;economical     <pos>{iqotiSAdiy~/ADJ</pos>
 ;; qASid_1
 qASd    qASid   N-ap    direct;straight     <pos>qASid/ADJ</pos>
 ;; qASid_2
@@ -3492,7 +3281,6 @@ qSr     qaS~ar  PV      fall short;be inferior
 qSr     qaS~ir  IV_yu   fall short;be inferior
 ;; >aqoSar_1
 >qSr    >aqoSar PV      shorten;curtail
-AqSr    >aqoSar PV      shorten;curtail
 qSr     qoSir   IV_yu   shorten;curtail
 qSr     qoSar   IV_Pass_yu      be shortened;be curtailed
 ;; taqASar_1
@@ -3500,11 +3288,9 @@ tqASr   taqASar PV_intr become smaller;refrain
 tqASr   taqASar IV_intr become smaller;refrain
 ;; {iqotaSar_1
 <qtSr   {iqotaSar       PV_intr be limited to;abbreviate;shorten
-AqtSr   {iqotaSar       PV_intr be limited to;abbreviate;shorten
 qtSr    qotaSir IV_intr be limited to;abbreviate;shorten
 ;; {isotaqoSar_1
 <stqSr  {isotaqoSar     PV      regard as deficient
-AstqSr  {isotaqoSar     PV      regard as deficient
 stqSr   sotaqoSir       IV      regard as deficient
 ;; qaSor_1
 qSr     qaSor   N       shortness;smallness
@@ -3542,10 +3328,8 @@ qSArY   quSAraY N0      utmost;limit
 qSArA   quSArA  Nhy     utmost;limit
 ;; >aqoSar_2
 >qSr    >aqoSar Nel     shorter/shortest
-AqSr    >aqoSar Nel     shorter/shortest
 ;; >uqoSur_1
 >qSr    >uqoSur N0      Luxor
-AqSr    >uqoSur N0      Luxor
 ;; taqoSiyr_1
 tqSyr   taqoSiyr        NduAt   deficiency;inadequacy
 ;; taqoSiyr_2
@@ -3597,7 +3381,6 @@ tqSf    taqaS~af        PV_intr be broken
 tqSf    taqaS~af        IV_intr be broken
 ;; {inoqaSaf_1
 <nqSf   {inoqaSaf       PV_intr be broken
-AnqSf   {inoqaSaf       PV_intr be broken
 nqSf    noqaSif IV_intr be broken
 ;; qaSof_1
 qSf     qaSof   N       bombardment;shelling
@@ -3626,7 +3409,6 @@ qSl     qaSal   PV      cut off
 qSl     qoSil   IV      cut off
 ;; {iqotaSal_1
 <qtSl   {iqotaSal       PV      cut off
-AqtSl   {iqotaSal       PV      cut off
 qtSl    qotaSil IV      cut off
 ;; qaSal_1
 qSl     qaSal   N       chaff;stalks
@@ -3652,7 +3434,6 @@ tqSm    taqaS~am        PV_intr be broken
 tqSm    taqaS~am        IV_intr be broken
 ;; {inoqaSam_1
 <nqSm   {inoqaSam       PV_intr be broken
-AnqSm   {inoqaSam       PV_intr be broken
 nqSm    noqaSim IV_intr be broken
 ;; qaSim_1
 qSm     qaSim   N-ap    fragile     <pos>qaSim/ADJ</pos>
@@ -3677,13 +3458,9 @@ qSy     qoSay   IV_Ann  be distant
 qS      qoSa    IV_0hwnyn       be distant
 ;; >aqoSaY_1
 >qSY    >aqoSaY PV_0    remove
-AqSY    >aqoSaY PV_0    remove
 >qSA    >aqoSA  PV_h    remove
-AqSA    >aqoSA  PV_h    remove
 >qSy    >aqoSay PV_Atn  remove
-AqSy    >aqoSay PV_Atn  remove
 >qS     >aqoS   PV_ttAw remove
-AqS     >aqoS   PV_ttAw remove
 qSy     qoSiy   IV_0hAnn_yu     remove
 qS      qoS     IV_0hwnyn_yu    remove
 qSY     qoSaY   IV_0_Pass_yu    be removed
@@ -3699,13 +3476,9 @@ tqSy    taqaS~ay        IV_Ann  examine;study
 tqS     taqaS~  IV_0hwnyn       examine;study
 ;; {isotaqoSaY_1
 <stqSY  {isotaqoSaY     PV_0    penetrate;examine
-AstqSY  {isotaqoSaY     PV_0    penetrate;examine
 <stqSA  {isotaqoSA      PV_h    penetrate;examine
-AstqSA  {isotaqoSA      PV_h    penetrate;examine
 <stqSy  {isotaqoSay     PV_Atn  penetrate;examine
-AstqSy  {isotaqoSay     PV_Atn  penetrate;examine
 <stqS   {isotaqoS       PV_ttAw penetrate;examine
-AstqS   {isotaqoS       PV_ttAw penetrate;examine
 stqSy   sotaqoSiy       IV_0hAnn        penetrate;examine
 stqS    sotaqoS IV_0hwnyn       penetrate;examine
 stqSY   sotaqoSaY       IV_0_Pass_yu    be penetrated;be examined
@@ -3720,34 +3493,23 @@ qSA}    qaSA}   Nhy     remoteness;distance
 ;; qaSiy~_1
 qSy     qaSiy~  N/ap    distant;remote     <pos>qaSiy~/ADJ</pos>
 >qSA'   >aqoSA' N0_Nh   distant;remote
-AqSA'   >aqoSA' N0_Nh   distant;remote
 >qSA&   >aqoSA& Nh      distant;remote
-AqSA&   >aqoSA& Nh      distant;remote
 >qSA}   >aqoSA} Nhy     distant;remote
-AqSA}   >aqoSA} Nhy     distant;remote
 ;; >aqoSaY_2
 >qSY    >aqoSaY N0      Aqsa
-AqSY    >aqoSaY N0      Aqsa
 ;; >aqoSaY_3
 >qSY    >aqoSaY N0      farthest;most remote
-AqSY    >aqoSaY N0      farthest;most remote
 >qSA    >aqoSA  Nhy     farthest;most remote
-AqSA    >aqoSA  Nhy     farthest;most remote
 >qSy    >aqoSay NAn_Nayn        farthest;most remote
-AqSy    >aqoSay NAn_Nayn        farthest;most remote
 >qASy   >aqASiy N0_Nh   farthest;remotest
-AqASy   >aqASiy N0_Nh   farthest;remotest
 >qAS    >aqAS   NK      farthest;remotest
-AqAS    >aqAS   NK      farthest;remotest
 qSwY    quSowaY N0      farthest;remotest
 qSwA    quSowA  Nhy     farthest;remotest
 qSwy    quSoway NAn_Nayn        farthest;remotest
 qSwy    quSoway NAt     farthest;remotest
 ;; >aqoSaY_4
 >qSY    >aqoSaY N0      maximum
-AqSY    >aqoSaY N0      maximum
 >qSA    >aqoSA  Nhy     maximum
-AqSA    >aqoSA  Nhy     maximum
 ;; taqaS~iy_1
 tqSy    taqaS~iy        N0_Nh   investigation;examination
 tqS     taqaS~  NK      investigation;examination
@@ -3755,20 +3517,13 @@ tqSy    taqaS~iy        NAn_Nayn        investigations;examinations
 tqSy    taqaS~iy        NAt     investigations;examinations
 ;; {isotiqoSA'_1
 <stqSA' {isotiqoSA'     N0_Nh   investigation;examination
-AstqSA' {isotiqoSA'     N0_Nh   investigation;examination
 <stqSA& {isotiqoSA&     Nh      investigation;examination
-AstqSA& {isotiqoSA&     Nh      investigation;examination
 <stqSA} {isotiqoSA}     Nhy     investigation;examination
-AstqSA} {isotiqoSA}     Nhy     investigation;examination
 <stqSA' {isotiqoSA'     NAn_Nayn        investigations;examinations
-AstqSA' {isotiqoSA'     NAn_Nayn        investigations;examinations
 <stqSA} {isotiqoSA}     Nayn    investigations;examinations
-AstqSA} {isotiqoSA}     Nayn    investigations;examinations
 <stqSA' {isotiqoSA'     NAt     investigations;examinations
-AstqSA' {isotiqoSA'     NAt     investigations;examinations
 ;; {isotiqoSA}iy~_1
 <stqSA}y        {isotiqoSA}iy~  N-ap    penetrating;thorough;probing     <pos>{isotiqoSA}iy~/ADJ</pos>
-AstqSA}y        {isotiqoSA}iy~  N-ap    penetrating;thorough;probing     <pos>{isotiqoSA}iy~/ADJ</pos>
 ;; qASiy_1
 qASy    qASiy   N0F     distant;remote     <pos>qASiy/ADJ</pos>
 qAS     qAS     NK      distant;remote
@@ -3789,16 +3544,12 @@ qD      qaD~    IV_V_intr       be rough;be crude
 qDD     qoDaD   IV_C_intr       be rough;be crude
 ;; >aqaD~_1
 >qD     >aqaD~  PV_V_intr       be rough;be hard
-AqD     >aqaD~  PV_V_intr       be rough;be hard
 >qDD    >aqoDaD PV_C_intr       be rough;be hard
-AqDD    >aqoDaD PV_C_intr       be rough;be hard
 qD      qiD~    IV_V_intr_yu    be rough;be hard
 qDD     qoDiD   IV_C_intr_yu    be rough;be hard
 ;; {inoqaD~_1
 <nqD    {inoqaD~        PV_V    strike;charge;attack
-AnqD    {inoqaD~        PV_V    strike;charge;attack
 <nqDD   {inoqaDaD       PV_C    strike;charge;attack
-AnqDD   {inoqaDaD       PV_C    strike;charge;attack
 nqD     noqaD~  IV_V    strike;charge;attack
 nqDD    noqaDiD IV_C    strike;charge;attack
 ;; qaD~_1
@@ -3808,7 +3559,6 @@ qD      qiD~    Nap     gravel
 qDyD    qaDiyD  N       gravel
 ;; {inoqiDAD_1
 <nqDAD  {inoqiDAD       N/At    assault;attack
-AnqDAD  {inoqiDAD       N/At    assault;attack
 ;; munoqaD~_1
 mnqD    munoqaD~        N-ap    assault;attack
 ;
@@ -3821,7 +3571,6 @@ qDb     qaD~ab  PV      cut off;trim
 qDb     qaD~ib  IV_yu   cut off;trim
 ;; {iqotaDab_1
 <qtDb   {iqotaDab       PV      trim;abridge;extemporize
-AqtDb   {iqotaDab       PV      trim;abridge;extemporize
 qtDb    qotaDib IV      trim;abridge;extemporize
 ;; qaDob_1
 qDb     qaDob   N       herbs
@@ -3836,7 +3585,6 @@ qDAb    quDAb   Nap     trimmings;cut off
 mqDb    miqoDab Ndu     pruning shears
 ;; {iqotiDAb_1
 <qtDAb  {iqotiDAb       N/At    summary;abridgment
-AqtDAb  {iqotiDAb       N/At    summary;abridgment
 ;; muqotaDab_1
 mqtDb   muqotaDab       N-ap    summarized;concise;shortened     <pos>muqotaDab/ADJ</pos>
 ;; muqotaDab_2
@@ -3917,37 +3665,25 @@ tqADy   taqADay IV_Ann  litigate;lay claim to
 tqAD    taqAD   IV_0hwnyn       litigate;lay claim to
 ;; {inoqaDaY_1
 <nqDY   {inoqaDaY       PV_0    be completed;expire
-AnqDY   {inoqaDaY       PV_0    be completed;expire
 <nqDA   {inoqaDA        PV_h    be completed;expire
-AnqDA   {inoqaDA        PV_h    be completed;expire
 <nqDy   {inoqaDay       PV_Atn  be completed;expire
-AnqDy   {inoqaDay       PV_Atn  be completed;expire
 <nqD    {inoqaD PV_ttAw_intr    be completed;expire
-AnqD    {inoqaD PV_ttAw_intr    be completed;expire
 nqDy    noqaDiy IV_0hAnn        be completed;expire
 nqD     noqaD   IV_0hwnyn       be completed;expire
 nqDY    noqaDaY IV_0_Pass_yu    be completed;expire
 ;; {iqotaDaY_1
 <qtDY   {iqotaDaY       PV_0    demand;require
-AqtDY   {iqotaDaY       PV_0    demand;require
 <qtDA   {iqotaDA        PV_h    demand;require
-AqtDA   {iqotaDA        PV_h    demand;require
 <qtDy   {iqotaDay       PV_Atn  demand;require
-AqtDy   {iqotaDay       PV_Atn  demand;require
 <qtD    {iqotaD PV_ttAw demand;require
-AqtD    {iqotaD PV_ttAw demand;require
 qtDy    qotaDiy IV_0hAnn        demand;require
 qtD     qotaD   IV_0hwnyn       demand;require
 qtDY    qotaDaY IV_0    demand;require
 ;; {isotaqoDaY_1
 <stqDY  {isotaqoDaY     PV_0    demand;claim
-AstqDY  {isotaqoDaY     PV_0    demand;claim
 <stqDA  {isotaqoDA      PV_h    demand;claim
-AstqDA  {isotaqoDA      PV_h    demand;claim
 <stqDy  {isotaqoDay     PV_Atn  demand;claim
-AstqDy  {isotaqoDay     PV_Atn  demand;claim
 <stqD   {isotaqoD       PV_ttAw demand;claim
-AstqD   {isotaqoD       PV_ttAw demand;claim
 stqDy   sotaqoDiy       IV_0hAnn        demand;claim
 stqD    sotaqoD IV_0hwnyn       demand;claim
 stqDY   sotaqoDaY       IV_0_Pass_yu    be demanded;be claimed
@@ -3955,7 +3691,6 @@ stqDY   sotaqoDaY       IV_0_Pass_yu    be demanded;be claimed
 qDY     qaDaY   N0      judgment;sentence
 qDA     qaDA    Nhy     judgment;sentence
 >qDy    >aqoDiy Nap     judgments;sentences
-AqDy    >aqoDiy Nap     judgments;sentences
 ;; qaDA'_1
 qDA'    qaDA'   N0_Nh   justice;judiciary
 qDA&    qaDA&   Nh      justice;judiciary
@@ -3969,7 +3704,6 @@ qDA'    qaDA'   N0_Nh   district;province
 qDA&    qaDA&   Nh      district;province
 qDA}    qaDA}   Nhy     district;province
 >qDy    >aqoDiy Nap     districts;provinces
-AqDy    >aqoDiy Nap     districts;provinces
 ;; qaDawiy~ap_1
 qDwy    qaDawiy~        Nap     jurisdiction     <pos>qaDawiy~/NOUN</pos>
 ;; qaDA}iy~_1
@@ -3990,30 +3724,18 @@ tqADy   taqADiy NAn_Nayn        litigation
 tqADy   taqADiy NAt     litigation
 ;; {inoqiDA'_1
 <nqDA'  {inoqiDA'       N0_Nh   termination;expiration
-AnqDA'  {inoqiDA'       N0_Nh   termination;expiration
 <nqDA&  {inoqiDA&       Nh      termination;expiration
-AnqDA&  {inoqiDA&       Nh      termination;expiration
 <nqDA}  {inoqiDA}       Nhy     termination;expiration
-AnqDA}  {inoqiDA}       Nhy     termination;expiration
 <nqDA'  {inoqiDA'       NAn_Nayn        termination;expiration
-AnqDA'  {inoqiDA'       NAn_Nayn        termination;expiration
 <nqDA}  {inoqiDA}       Nayn    termination;expiration
-AnqDA}  {inoqiDA}       Nayn    termination;expiration
 <nqDA'  {inoqiDA'       NAt     termination;expiration
-AnqDA'  {inoqiDA'       NAt     termination;expiration
 ;; {iqotiDA'_1
 <qtDA'  {iqotiDA'       N0_Nh   requirement;exigency
-AqtDA'  {iqotiDA'       N0_Nh   requirement;exigency
 <qtDA&  {iqotiDA&       Nh      requirement;exigency
-AqtDA&  {iqotiDA&       Nh      requirement;exigency
 <qtDA}  {iqotiDA}       Nhy     requirement;exigency
-AqtDA}  {iqotiDA}       Nhy     requirement;exigency
 <qtDA'  {iqotiDA'       NAn_Nayn        requirements;exigencies
-AqtDA'  {iqotiDA'       NAn_Nayn        requirements;exigencies
 <qtDA}  {iqotiDA}       Nayn    requirements;exigencies
-AqtDA}  {iqotiDA}       Nayn    requirements;exigencies
 <qtDA'  {iqotiDA'       NAt     requirements;exigencies
-AqtDA'  {iqotiDA'       NAt     requirements;exigencies
 ;; qADiy_1
 qADy    qADiy   NAn_Nayn        executing;performing;decreeing
 qADy    qADiy   Napdu   executing;performing;decreeing
@@ -4057,9 +3779,7 @@ qTT     qaT~aT  PV      carve
 qTT     qaT~iT  IV_yu   carve
 ;; {iqotaT~_1
 <qtT    {iqotaT~        PV_V    sharpen
-AqtT    {iqotaT~        PV_V    sharpen
 <qtTT   {iqotaTaT       PV_C    sharpen
-AqtTT   {iqotaTaT       PV_C    sharpen
 qtT     qotaT~  IV_V    sharpen
 qtTT    qotaTiT IV_C    sharpen
 ;; qaT~_1
@@ -4091,14 +3811,12 @@ tqTb    taqaT~ab        PV_intr become gloomy
 tqTb    taqaT~ab        IV_intr become gloomy
 ;; {isotaqoTab_1
 <stqTb  {isotaqoTab     PV      unite;polarize
-AstqTb  {isotaqoTab     PV      unite;polarize
 stqTb   sotaqoTib       IV      unite;polarize
 ;; quTob_1
 qTb     quTob   Ndu     axis;pole
 ;; quTob_2
 qTb     quTob   Ndu     leader;top figure
 >qTAb   >aqoTAb N       leaders;top figures
-AqTAb   >aqoTAb N       leaders;top figures
 ;; quTobiy~_1
 qTby    quTobiy~        N-ap    polar     <pos>quTobiy~/ADJ</pos>
 ;; quTobiy~ap_1
@@ -4111,7 +3829,6 @@ qTwb    qaTuwb  N-ap    frowning;scowling     <pos>qaTuwb/ADJ</pos>
 tqTyb   taqoTiyb        Napdu   frown;scowl
 ;; {isotiqoTAb_1
 <stqTAb {isotiqoTAb     N/At    polarization;unification
-AstqTAb {isotiqoTAb     N/At    polarization;unification
 ;; qATibap_1
 qATb    qATib   Nap     all without exception;one and all
 ;
@@ -4130,7 +3847,6 @@ tqATr   taqATar PV      trickle;come in groups
 tqATr   taqATar IV      trickle;come in groups
 ;; {isotaqoTar_1
 <stqTr  {isotaqoTar     PV      distill
-AstqTr  {isotaqoTar     PV      distill
 stqTr   sotaqoTir       IV      distill
 ;; qaTar_1
 qTr     qaTar   Ndip    Qatar
@@ -4156,7 +3872,6 @@ qTr     quTur   N/At    trains
 ;; quTor_1
 qTr     quTor   Ndu     region;district
 >qTAr   >aqoTAr N       regions;countries
-AqTAr   >aqoTAr N       regions;countries
 ;; quToriy~_1
 qTry    quToriy~        N-ap    regional     <pos>quToriy~/ADJ</pos>
 ;; qaT~Arap_1
@@ -4169,7 +3884,6 @@ mqATr   maqATir Ndip    censers
 tqTyr   taqoTiyr        N/At    filtration;refining;distillation
 ;; {isotiqoTAr_1
 <stqTAr {isotiqoTAr     N/At    distillation
-AstqTAr {isotiqoTAr     N/At    distillation
 ;; qATirap_1
 qATr    qATir   NapAt   locomotive;tractor truck
 ;; maqoTuwr_1
@@ -4213,7 +3927,6 @@ qATE    qATiE   IV_yu   boycott
 qATE    qATaE   IV_Pass_yu      be boycotted
 ;; >aqoTaE_1
 >qTE    >aqoTaE PV      sever;interrupt
-AqTE    >aqoTaE PV      sever;interrupt
 qTE     qoTiE   IV_yu   sever;interrupt
 qTE     qoTaE   IV_Pass_yu      be severed;be interrupted
 ;; taqaT~aE_1
@@ -4224,15 +3937,12 @@ tqATE   taqATaE PV      separate;interrupt
 tqATE   taqATaE IV      separate;interrupt
 ;; {inoqaTaE_1
 <nqTE   {inoqaTaE       PV_intr be severed;be interrupted
-AnqTE   {inoqaTaE       PV_intr be severed;be interrupted
 nqTE    noqaTiE IV_intr be severed;be interrupted
 ;; {iqotaTaE_1
 <qtTE   {iqotaTaE       PV      take apart
-AqtTE   {iqotaTaE       PV      take apart
 qtTE    qotaTiE IV      take apart
 ;; {isotaqoTaE_1
 <stqTE  {isotaqoTaE     PV      deduct
-AstqTE  {isotaqoTaE     PV      deduct
 stqTE   sotaqoTiE       IV      deduct
 ;; qaToE_1
 qTE     qaToE   N       breaking off;interruption
@@ -4269,7 +3979,6 @@ qTyE    qaTiyE  Ndu     group;herd;flock
 qTAE    qiTAE   N       groups;herds;flocks
 qTEAn   quToEAn N       groups;herds;flocks
 >qTAE   >aqoTAE N       groups;herds;flocks
-AqTAE   >aqoTAE N       groups;herds;flocks
 ;; qaTiyEiy~_1
 qTyEy   qaTiyEiy~       Nall    group;herd     <pos>qaTiyEiy~/ADJ</pos>
 ;; qaTiyEap_1
@@ -4279,10 +3988,8 @@ qTyE    qaTiyE  Napdu   feudal estate;fief
 qTA}E   qaTA}iE Ndip    feudal estates;fiefs
 ;; >aqoTaE_2
 >qTE    >aqoTaE Nel     more/most convincing/conclusive
-AqTE    >aqoTaE Nel     more/most convincing/conclusive
 ;; >aqoTaE_3
 >qTE    >aqoTaE Nel     amputee;mute
-AqTE    >aqoTaE Nel     amputee;mute
 qTEA'   qaToEA' N0_Nh   amputee;mute
 qTEA&   qaToEA& Nh      amputee;mute
 qTEA}   qaToEA} Nhy     amputee;mute
@@ -4303,35 +4010,26 @@ mqATE   muqATaE NapAt   boycott
 mqATE   muqATaE NapAt   region;district;county
 ;; <iqoTAE_1
 <qTAE   <iqoTAE NduAt   feudal estate
-AqTAE   <iqoTAE NduAt   feudal estate
 ;; <iqoTAEap_1
 <qTAE   <iqoTAE NapAt   feudal estate
-AqTAE   <iqoTAE NapAt   feudal estate
 ;; <iqoTAEiy~_1
 <qTAEy  <iqoTAEiy~      N-ap    feudal     <pos><iqoTAEiy~/ADJ</pos>
-AqTAEy  <iqoTAEiy~      N-ap    feudal     <pos><iqoTAEiy~/ADJ</pos>
 ;; <iqoTAEiy~_2
 <qTAEy  <iqoTAEiy~      Nall    feudalist;feudal lord     <pos><iqoTAEiy~/ADJ</pos>
-AqTAEy  <iqoTAEiy~      Nall    feudalist;feudal lord     <pos><iqoTAEiy~/ADJ</pos>
 ;; <iqoTAEiy~ap_1
 <qTAEy  <iqoTAEiy~      Nap     feudalism;feudal system     <pos><iqoTAEiy~/NOUN</pos>
-AqTAEy  <iqoTAEiy~      Nap     feudalism;feudal system     <pos><iqoTAEiy~/NOUN</pos>
 ;; taqaT~uE_1
 tqTE    taqaT~uE        NduAt   interruption;severance
 ;; taqATuE_1
 tqATE   taqATuE N/At    severance of relations;intersection;junction
 ;; {inoqiTAE_1
 <nqTAE  {inoqiTAE       NduAt   breakoff;discontinuation
-AnqTAE  {inoqiTAE       NduAt   breakoff;discontinuation
 ;; {inoqiTAEiy~ap_1
 <nqTAEy {inoqiTAEiy~    Nap     separatism     <pos>{inoqiTAEiy~/NOUN</pos>
-AnqTAEy {inoqiTAEiy~    Nap     separatism     <pos>{inoqiTAEiy~/NOUN</pos>
 ;; {iqotiTAE_1
 <qtTAE  {iqotiTAE       N/At    deduction
-AqtTAE  {iqotiTAE       N/At    deduction
 ;; {isotiqoTAE_1
 <stqTAE {isotiqoTAE     N/At    deduction;reduction
-AstqTAE {isotiqoTAE     N/At    deduction;reduction
 ;; qATiE_1
 qATE    qATiE   N-ap    decisive;definitive;convincing;conclusive     <pos>qATiE/ADJ</pos>
 ;; qATiE_2
@@ -4375,7 +4073,6 @@ qTf     qaT~af  PV      harvest;skim off
 qTf     qaT~if  IV_yu   harvest;skim off
 ;; {iqotaTaf_1
 <qtTf   {iqotaTaf       PV      harvest
-AqtTf   {iqotaTaf       PV      harvest
 qtTf    qotaTif IV      harvest
 ;; qaTof_1
 qTf     qaTof   N       production;harvesting
@@ -4406,7 +4103,6 @@ mqTf    maqoTaf Ndu     basket
 mqATf   maqATif Ndip    baskets
 ;; {iqotiTAf_1
 <qtTAf  {iqotiTAf       N/At    gathering;selecting
-AqtTAf  {iqotiTAf       N/At    gathering;selecting
 ;; muqotaTaf_1
 mqtTf   muqotaTaf       Ndu     selection;excerpt;snippet
 mqtTf   muqotaTaf       NAt     selections;excerpts;snippets
@@ -4462,7 +4158,6 @@ qTn     qaTan   N       small of the back
 ;; quTon_1
 qTn     quTon   N       cotton
 >qTAn   >aqoTAn N       cotton
-AqTAn   >aqoTAn N       cotton
 ;; quToniy~_1
 qTny    quToniy~        N-ap    cotton     <pos>quToniy~/ADJ</pos>
 ;; quToniy~ap_1
@@ -4504,7 +4199,6 @@ qEd     qaE~ad  PV      serve
 qEd     qaE~id  IV_yu   serve
 ;; >aqoEad_1
 >qEd    >aqoEad PV      make sit;make stay
-AqEd    >aqoEad PV      make sit;make stay
 qEd     qoEid   IV_yu   make sit;make stay
 qEd     qoEad   IV_Pass_yu      be sat down;be made stay
 ;; taqaE~ad_1
@@ -4515,7 +4209,6 @@ tqAEd   taqAEad PV      retire
 tqAEd   taqAEad IV      retire
 ;; {iqotaEad_1
 <qtEd   {iqotaEad       PV      sit down;remain
-AqtEd   {iqotaEad       PV      sit down;remain
 qtEd    qotaEid IV      sit down;remain
 ; no corpus evidence of this:
 ; qEd   qaEod   N       slackers;combat evaders
@@ -4530,7 +4223,6 @@ qEdy    quEodiy~        Nall    seated firmly;not budging     <pos>quEodiy~/ADJ<
 ;; qaEuwd_1
 qEwd    qaEuwd  N       young camel
 >qEd    >aqoEid Nap     young camels
-AqEd    >aqoEid Nap     young camels
 qEd     quEud   N       young camels
 qEdAn   qiEodAn N       young camels
 qEA}d   qaEA}id Ndip    young camels
@@ -4550,7 +4242,6 @@ mqEd    maqoEad Napdu   backside
 mqAEd   maqAEid Ndip    backsides
 ;; <iqoEAd_1
 <qEAd   <iqoEAd N/At    disability
-AqEAd   <iqoEAd N/At    disability
 ;; taqAEud_1
 tqAEd   taqAEud N/At    retirement
 ;; qAEid_1
@@ -4586,7 +4277,6 @@ qEr     qaE~ar  PV      deepen;hollow out;excavate
 qEr     qaE~ir  IV_yu   deepen;hollow out;excavate
 ;; >aqoEar_1
 >qEr    >aqoEar PV      make deep;excavate
-AqEr    >aqoEar PV      make deep;excavate
 qEr     qoEir   IV_yu   make deep;excavate
 qEr     qoEar   IV_Pass_yu      be excavated
 ;; taqaE~ar_1
@@ -4614,11 +4304,9 @@ tqAEs   taqAEas IV_intr be negligent;refrain;disregard
 ; form XIV
 ;; {iqoEanosas_1
 <qEnss  {iqoEanosas     PV_intr be pigeon-breasted
-AqEnss  {iqoEanosas     PV_intr be pigeon-breasted
 qEnss   qoEanosis       IV_intr be pigeon-breasted
 ;; >aqoEas_1
 >qEs    >aqoEas Nel     pigeon-breasted;firmly established
-AqEs    >aqoEas Nel     pigeon-breasted;firmly established
 ;; taqAEus_1
 tqAEs   taqAEus N/At    negligence
 ;; mutaqAEis_1
@@ -4638,13 +4326,9 @@ qEqE    qaEoqaE N       magpie
 ;--- qEy
 ;; >aqoEaY_1
 >qEY    >aqoEaY PV_0    crouch;squat
-AqEY    >aqoEaY PV_0    crouch;squat
 >qEA    >aqoEA  PV_h    crouch;squat
-AqEA    >aqoEA  PV_h    crouch;squat
 >qEy    >aqoEay PV_Atn  crouch;squat
-AqEy    >aqoEay PV_Atn  crouch;squat
 >qE     >aqoE   PV_ttAw crouch;squat
-AqE     >aqoE   PV_ttAw crouch;squat
 qEy     qoEiy   IV_0hAnn_yu     crouch;squat
 qE      qoE     IV_0hwnyn_yu    crouch;squat
 ;
@@ -4671,12 +4355,10 @@ qfr     qafar   PV      follow;track
 qfr     qofur   IV      follow;track
 ;; >aqofar_1
 >qfr    >aqofar PV      abandon;devastate;leave barren
-Aqfr    >aqofar PV      abandon;devastate;leave barren
 qfr     qofir   IV_yu   abandon;devastate;leave barren
 qfr     qofar   IV_Pass_yu      be abandoned;be devastated;be left barren
 ;; {iqotafar_1
 <qtfr   {iqotafar       PV      follow;track
-Aqtfr   {iqotafar       PV      follow;track
 qtfr    qotafir IV      follow;track
 ;; qafor_1
 qfr     qafor   Ndu     desolate;wasteland;depopulated
@@ -4695,7 +4377,6 @@ qfrA&   qaforA& Nh      arid
 qfrA}   qaforA} Nhy     arid
 ;; <iqofAr_1
 <qfAr   <iqofAr N/At    desolateness;devastation;depopulation
-AqfAr   <iqofAr N/At    desolateness;devastation;depopulation
 ;; muqofir_1
 mqfr    muqofir N-ap    desolate;depopulated     <pos>muqofir/ADJ</pos>
 ;
@@ -4745,9 +4426,7 @@ qf$     qafa$   NAt     quips;witty answers
 ;; qafaS_1
 qfS     qafaS   Ndu     cage;prisoner's dock
 >qfAS   >aqofAS N       cages;prisoner's dock
-AqfAS   >aqofAS N       cages;prisoner's dock
 >qfS    >aqofiS Nap     cages;prisoner's dock
-AqfS    >aqofiS Nap     cages;prisoner's dock
 ;; taqofiySap_1
 tqfyS   taqofiyS        Napdu   poultry coop
 ;
@@ -4793,13 +4472,11 @@ qfl     qaf~al  PV      lock
 qfl     qaf~il  IV_yu   lock
 ;; >aqofal_1
 >qfl    >aqofal PV      lock
-Aqfl    >aqofal PV      lock
 qfl     qofil   IV_yu   lock
 qfl     qofal   IV_Pass_yu      be locked
 ;; qufol_1
 qfl     qufol   Ndu     lock;latch;bolt
 >qfAl   >aqofAl N       locks;latches;bolts
-AqfAl   >aqofAl N       locks;latches;bolts
 qfwl    qufuwl  N       locks;latches;bolts
 ;; qaf~Al_1
 qfAl    qaf~Al  Nall    locksmith
@@ -4807,7 +4484,6 @@ qfAl    qaf~Al  Nall    locksmith
 qfAl    qaf~Al  N0      Qaffal
 ;; <iqofAl_1
 <qfAl   <iqofAl N/At    locking;closing;blocking
-AqfAl   <iqofAl N/At    locking;closing;blocking
 ;; qAfil_1
 qAfl    qAfil   Ndu     coming home;returning
 qAfl    qAfil   Nap     coming home;returning
@@ -4847,13 +4523,9 @@ tqfy    taqaf~ay        IV_Ann  follow;track
 tqf     taqaf~  IV_0hwnyn       follow;track
 ;; {iqotafaY_1
 <qtfY   {iqotafaY       PV_0    follow;track;imitate
-AqtfY   {iqotafaY       PV_0    follow;track;imitate
 <qtfA   {iqotafA        PV_h    follow;track;imitate
-AqtfA   {iqotafA        PV_h    follow;track;imitate
 <qtfy   {iqotafay       PV_Atn  follow;track;imitate
-Aqtfy   {iqotafay       PV_Atn  follow;track;imitate
 <qtf    {iqotaf PV_ttAw follow;track;imitate
-Aqtf    {iqotaf PV_ttAw follow;track;imitate
 qtfy    qotafiy IV_0hAnn        follow;track;imitate
 qtf     qotaf   IV_0hwnyn       follow;track;imitate
 qtfY    qotafaY IV_0    follow;track;imitate
@@ -4861,17 +4533,11 @@ qtfY    qotafaY IV_0    follow;track;imitate
 qfA     qafAF   FW-WaBi neck;nape;back;reverse     <pos>qafAF/NOUN</pos>
 qfA     qafA    N0_Nhy  neck;nape;back;reverse
 >qfy    >aqofiy Nap     necks;napes;backs
-Aqfy    >aqofiy Nap     necks;napes;backs
 >qfy    >aqofiy N0_Nh   necks;napes;backs
-Aqfy    >aqofiy N0_Nh   necks;napes;backs
 >qf     >aqof   NK      necks;napes;backs
-Aqf     >aqof   NK      necks;napes;backs
 >qfA'   >aqofA' N0_Nh   necks;napes;backs
-AqfA'   >aqofA' N0_Nh   necks;napes;backs
 >qfA&   >aqofA& Nh      necks;napes;backs
-AqfA&   >aqofA& Nh      necks;napes;backs
 >qfA}   >aqofA} Nhy     necks;napes;backs
-AqfA}   >aqofA} Nhy     necks;napes;backs
 qfy     qufiy~  N       necks;napes;backs
 qfy     qifiy~  N       necks;napes;backs
 ;; qafA'_1
@@ -4880,17 +4546,11 @@ qfA&    qafA&   Nh      neck;nape
 qfA}    qafA}   Nhy     neck;nape
 ;; {iqotifA'_1
 <qtfA'  {iqotifA'       N0_Nh   following;tracking;imitating
-AqtfA'  {iqotifA'       N0_Nh   following;tracking;imitating
 <qtfA&  {iqotifA&       Nh      following;tracking;imitating
-AqtfA&  {iqotifA&       Nh      following;tracking;imitating
 <qtfA}  {iqotifA}       Nhy     following;tracking;imitating
-AqtfA}  {iqotifA}       Nhy     following;tracking;imitating
 <qtfA'  {iqotifA'       NAn_Nayn        following;tracking;imitating
-AqtfA'  {iqotifA'       NAn_Nayn        following;tracking;imitating
 <qtfA}  {iqotifA}       Nayn    following;tracking;imitating
-AqtfA}  {iqotifA}       Nayn    following;tracking;imitating
 <qtfA'  {iqotifA'       NAt     following;tracking;imitating
-AqtfA'  {iqotifA'       NAt     following;tracking;imitating
 ;; qAfiyap_1
 qAfy    qAfiy   Nap     rhyme
 qwAfy   qawAfiy N0_Nh   rhymes
@@ -4916,9 +4576,7 @@ qll     qal~al  PV      lessen;reduce;diminish
 qll     qal~il  IV_yu   lessen;reduce;diminish
 ;; >aqal~_1
 >ql     >aqal~  PV_V    lessen;reduce;diminish
-Aql     >aqal~  PV_V    lessen;reduce;diminish
 >qll    >aqolal PV_C    lessen;reduce;diminish
-Aqll    >aqolal PV_C    lessen;reduce;diminish
 ql      qil~    IV_V_yu lessen;reduce;diminish
 qll     qolil   IV_C_yu lessen;reduce;diminish
 ql      qal~    IV_V_Pass_yu    be lessened;be reduced;be diminished
@@ -4929,9 +4587,7 @@ tqAl    taqAl~  IV_V    despise;scorn
 tqAll   taqAlil IV_C    despise;scorn
 ;; {isotaqal~_1
 <stql   {isotaqal~      PV_V_intr       be independent;be autonomous
-Astql   {isotaqal~      PV_V_intr       be independent;be autonomous
 <stqll  {isotaqolal     PV_C_intr       be independent;be autonomous
-Astqll  {isotaqolal     PV_C_intr       be independent;be autonomous
 stql    sotaqil~        IV_V_intr       be independent;be autonomous
 stqll   sotaqolil       IV_C_intr       be independent;be autonomous
 ;; qal~amA_1
@@ -4953,32 +4609,24 @@ qly     qil~iy~ Nap     entirety;complete     <pos>qil~iy~/NOUN</pos>
 ;; qaliyl_1
 qlyl    qaliyl  N-ap    little;few     <pos>qaliyl/ADJ</pos>
 >qlA'   >aqil~A'        N0_Nh   few;insufficient
-AqlA'   >aqil~A'        N0_Nh   few;insufficient
 >qlA&   >aqil~A&        Nh      few;insufficient
-AqlA&   >aqil~A&        Nh      few;insufficient
 >qlA}   >aqil~A}        Nhy     few;insufficient
-AqlA}   >aqil~A}        Nhy     few;insufficient
 qlA}l   qalA}il Ndip    few;insufficient     <pos>qalA}il/ADJ</pos>
 qlAl    qilAl   N       few;insufficient
 ;; qaliylAF_1
 qlyl    qaliyl  NF      a little;somewhat     <pos>qaliyl/ADV</pos>
 ;; >aqal~_2
 >ql     >aqal~  Nel     less/least;smaller/smallest;minimum
-Aql     >aqal~  Nel     less/least;smaller/smallest;minimum
 ;; >aqal~iy~ap_1
 >qly    >aqal~iy~       NapAt   minority     <pos>>aqal~iy~/NOUN</pos>
-Aqly    >aqal~iy~       NapAt   minority     <pos>>aqal~iy~/NOUN</pos>
 ;; taqoliyl_1
 tqlyl   taqoliyl        N/At    decrease;diminution;reduction
 ;; <iqolAl_1
 <qlAl   <iqolAl N/At    decrease;diminution;reduction
-AqlAl   <iqolAl N/At    decrease;diminution;reduction
 ;; {isotiqolAl_1
 <stqlAl {isotiqolAl     N/At    independence;autonomy
-AstqlAl {isotiqolAl     N/At    independence;autonomy
 ;; {isotiqolAliy~_1
 <stqlAly        {isotiqolAliy~  Nall    independent;autonomous     <pos>{isotiqolAliy~/ADJ</pos>
-AstqlAly        {isotiqolAliy~  Nall    independent;autonomous     <pos>{isotiqolAliy~/ADJ</pos>
 ;; muqil~_1
 mql     muqil~  Nall    destitute;poor
 ;; musotaqil~_1
@@ -5003,7 +4651,6 @@ tqlb    taqal~ab        PV      turn around;be reversed;be inverted
 tqlb    taqal~ab        IV      turn around;be reversed;be inverted
 ;; {inoqalab_1
 <nqlb   {inoqalab       PV      turn around;be reversed;be inverted
-Anqlb   {inoqalab       PV      turn around;be reversed;be inverted
 nqlb    noqalib IV      turn around;be reversed;be inverted
 ;; qalob_1
 qlb     qalob   N       overthrowing;toppling
@@ -5043,13 +4690,10 @@ tqlyb   taqoliyb        N/At    transformation;inspection
 tqlb    taqal~ub        N/At    alteration;fluctuation
 ;; {inoqilAb_1
 <nqlAb  {inoqilAb       NduAt   coup;overthrow;toppling
-AnqlAb  {inoqilAb       NduAt   coup;overthrow;toppling
 ;; {inoqilAb_2
 <nqlAb  {inoqilAb       NduAt   solstice;tropic
-AnqlAb  {inoqilAb       NduAt   solstice;tropic
 ;; {inoqilAbiy~_1
 <nqlAby {inoqilAbiy~    Nall    revolutionary     <pos>{inoqilAbiy~/ADJ</pos>
-AnqlAby {inoqilAbiy~    Nall    revolutionary     <pos>{inoqilAbiy~/ADJ</pos>
 ;; maqoluwb_1
 mqlwb   maqoluwb        N-ap    turned over;inverted;reversed     <pos>maqoluwb/ADJ</pos>
 ;; mutaqal~ib_1
@@ -5097,9 +4741,7 @@ mqld    muqal~id        Nall    imitator
 mqld    muqal~ad        Nall    imitated;fake     <pos>muqal~ad/ADJ</pos>
 ;; <iqoliyd_1
 <qlyd   <iqoliyd        Ndu     key
-Aqlyd   <iqoliyd        Ndu     key
 >qAlyd  >aqAliyd        Ndip    keys
-AqAlyd  >aqAliyd        Ndip    keys
 ;
 ;--- qls
 ;; qalas-i_1
@@ -5141,7 +4783,6 @@ tqlS    taqal~aS        IV      shrink;diminish;decline
 qlS     qalaS   N       small launch;barge
 ;; >aqolaS_1
 >qlS    >aqolaS Nel     shorter
-AqlS    >aqolaS Nel     shorter
 ;; taqoliyS_1
 tqlyS   taqoliyS        NduAt   reducing;shrinking
 tqlyS   taqoliyS        NAt     cutbacks;reductions
@@ -5170,11 +4811,9 @@ qlE     qal~aE  PV      pluck out;tear out
 qlE     qal~iE  IV_yu   pluck out;tear out
 ;; >aqolaE_1
 >qlE    >aqolaE PV      take off
-AqlE    >aqolaE PV      take off
 qlE     qoliE   IV_yu   take off
 ;; {iqotalaE_1
 <qtlE   {iqotalaE       PV      uproot;exterminate
-AqtlE   {iqotalaE       PV      uproot;exterminate
 qtlE    qotaliE IV      uproot;exterminate
 ;; qiloE_1
 qlE     qiloE   Ndu     sail
@@ -5199,10 +4838,8 @@ tqlyE   taqoliyE        NapAt   eccentricity;innovation
 tqAlyE  taqAliyE        Ndip    eccentricities;innovations;rarities
 ;; <iqolAE_1
 <qlAE   <iqolAE N/At    departure;take-off
-AqlAE   <iqolAE N/At    departure;take-off
 ;; {iqotilAE_1
 <qtlAE  {iqotilAE       N/At    uprooting;extermination
-AqtlAE  {iqotilAE       N/At    uprooting;extermination
 ;
 ;--- qlET
 ;; qaloEaT_1
@@ -5232,7 +4869,6 @@ qlf     qulaf   N       foreskins
 qlAf    qulAf   Nap     rind;bark
 ;; >aqolaf_1
 >qlf    >aqolaf Nel     uncircumcised
-Aqlf    >aqolaf Nel     uncircumcised
 ;; qilAfap_1
 qlAf    qilAf   Nap     caulking
 ;; qalofap_1
@@ -5252,7 +4888,6 @@ qlq     qaliq   PV_intr be worried;be agitated
 qlq     qolaq   IV_intr be worried;be agitated
 ;; >aqolaq_1
 >qlq    >aqolaq PV      make restless;agitate
-Aqlq    >aqolaq PV      make restless;agitate
 qlq     qoliq   IV_yu   make restless;agitate
 qlq     qolaq   IV_Pass_yu      be agitated
 ;; qalaq_1
@@ -5263,7 +4898,6 @@ qlq     qaliq   Nall    worried;concerned;disturbed
 qlwq    qaluwq  N-ap    restless
 ;; <iqolAq_1
 <qlAq   <iqolAq N/At    perturbation;disturbance
-AqlAq   <iqolAq N/At    perturbation;disturbance
 ;; muqoliq_1
 mqlq    muqoliq N-ap    disturbing;worrisome;troubling     <pos>muqoliq/ADJ</pos>
 ;; muqoliq_2
@@ -5308,7 +4942,6 @@ qlm     qal~im  IV_yu   trim;clip
 ;; qalam_1
 qlm     qalam   Ndu     pencil;pen
 >qlAm   >aqolAm N       pencils;pens
-AqlAm   >aqolAm N       pencils;pens
 ;; qalamiy~_1
 qlmy    qalamiy~        N-ap    handwritten;by pen     <pos>qalamiy~/ADJ</pos>
 ;; qulAmap_1
@@ -5464,7 +5097,6 @@ qmH     qam~aH  PV      pay in installments;apportion
 qmH     qam~iH  IV_yu   pay in installments;apportion
 ;; >aqomaH_1
 >qmH    >aqomaH PV      ripen
-AqmH    >aqomaH PV      ripen
 qmH     qomiH   IV_yu   ripen
 qmH     qomaH   IV_Pass_yu      be ripened
 ;; qamoH_1
@@ -5495,7 +5127,6 @@ qAmr    qAmar   PV      gamble with;speculate
 qAmr    qAmir   IV_yu   gamble with;speculate
 ;; >aqomar_1
 >qmr    >aqomar PV_intr be moonlit
-Aqmr    >aqomar PV_intr be moonlit
 qmr     qomir   IV_intr_yu      be moonlit
 qmr     qomar   IV_Pass_yu      be moonlit
 ;; taqAmar_1
@@ -5506,7 +5137,6 @@ qmr     qamar   N       moon
 ;; qamar_2
 qmr     qamar   Ndu     satellite
 >qmAr   >aqomAr N       satellites
-AqmAr   >aqomAr N       satellites
 ;; qamarap_1
 qmr     qamar   NapAt   crescent;moonlight
 ;; qamariy~_1
@@ -5522,10 +5152,8 @@ qmrA}   qamorA} Nhy     moonlight
 ;; qamiyr_1
 qmyr    qamiyr  N/ap    gambling partner
 >qmAr   >aqomAr N       gambling partners
-AqmAr   >aqomAr N       gambling partners
 ;; >aqomar_2
 >qmr    >aqomar Nel     moonlit
-Aqmr    >aqomar Nel     moonlit
 ;; maqomar_1
 mqmr    maqomar Ndu     gambling house
 mqmr    maqomar Napdu   gambling house
@@ -5590,7 +5218,6 @@ qm$     qam~i$  IV_yu   collect;pick up
 ;; qumA$_1
 qmA$    qumA$   N       fabric;cloth
 >qm$    >aqomi$ Nap     fabrics;cloth
-Aqm$    >aqomi$ Nap     fabrics;cloth
 ;; qam~A$_1
 qmA$    qam~A$  N       draper;cloth merchant
 ;; qamo$ap_1
@@ -5610,7 +5237,6 @@ tqmS    taqam~aS        IV_intr be clothed with;put on
 qmyS    qamiyS  Ndu     shirt
 qmS     qumuS   N       shirts
 >qmS    >aqomiS Nap     shirts
-AqmS    >aqomiS Nap     shirts
 qmSAn   qumoSAn N       shirts
 ;; taqomiyS_1
 tqmyS   taqomiyS        N/At    clothing
@@ -5632,14 +5258,12 @@ qmT     qam~iT  IV_yu   bandage;swaddle
 ;; qimoT_1
 qmT     qimoT   Ndu     rope;fetter
 >qmAT   >aqomAT N       ropes;fetters
-AqmAT   >aqomAT N       ropes;fetters
 ;; qamoTap_1
 qmT     qamoT   Nap     kerchief
 ;; qimAT_1
 qmAT    qimAT   NduAt   swaddle;diaper
 qmT     qumuT   N       swaddles;diapers
 >qmT    >aqomiT Nap     swaddles;diapers
-AqmT    >aqomiT Nap     swaddles;diapers
 ;
 ;--- qmTr
 ;; qimaTor_1
@@ -5653,7 +5277,6 @@ qmE     qamaE   PV      repress
 qmE     qomaE   IV      repress
 ;; >aqomaE_1
 >qmE    >aqomaE PV      repress
-AqmE    >aqomaE PV      repress
 qmE     qomiE   IV_yu   repress
 qmE     qomaE   IV_Pass_yu      be repressed
 ;; qamoE_1
@@ -5663,7 +5286,6 @@ qmEy    qamoEiy~        Nall    repressive     <pos>qamoEiy~/ADJ</pos>
 ;; qumoE_1
 qmE     qumoE   Ndu     funnel;cone
 >qmAE   >aqomAE N       funnels;cones
-AqmAE   >aqomAE N       funnels;cones
 ;
 ;--- qmqm
 ;; qamoqam_1
@@ -5719,9 +5341,7 @@ qnAn    qinAn   N       chicken coops
 ;; qin~_1
 qn      qin~    N       slave;serf
 >qnAn   >aqonAn N       slaves;serfs
-AqnAn   >aqonAn N       slaves;serfs
 >qn     >aqin~  Nap     slaves;serfs
-Aqn     >aqin~  Nap     slaves;serfs
 ;; qun~ap_1
 qn      qun~    NapAt   summit;peak
 qnn     qunan   N       summits;peaks
@@ -5877,7 +5497,6 @@ qnS     qanaS   PV      take advantage of;make use of
 qnS     qoniS   IV      take advantage of;make use of
 ;; {iqotanaS_1
 <qtnS   {iqotanaS       PV      take advantage of;make use of
-AqtnS   {iqotanaS       PV      take advantage of;make use of
 qtnS    qotaniS IV      take advantage of;make use of
 ;; qanoS_1
 qnS     qanoS   N       hunting;shooting
@@ -5926,7 +5545,6 @@ qnT     qan~aT  PV      discourage;drive to despair
 qnT     qan~iT  IV_yu   discourage;drive to despair
 ;; >aqonaT_1
 >qnT    >aqonaT PV      discourage;drive to despair
-AqnT    >aqonaT PV      discourage;drive to despair
 qnT     qoniT   IV_yu   discourage;drive to despair
 qnT     qonaT   IV_Pass_yu      be discouraged;be driven to despair
 ;; qanaT_1
@@ -5972,7 +5590,6 @@ qnE     qan~aE  PV      convince;persuade
 qnE     qan~iE  IV_yu   convince;persuade
 ;; >aqonaE_1
 >qnE    >aqonaE PV      persuade;convince
-AqnE    >aqonaE PV      persuade;convince
 qnE     qoniE   IV_yu   persuade;convince
 qnE     qonaE   IV_Pass_yu      be persuaded;be convinced
 ;; taqan~aE_1
@@ -5980,7 +5597,6 @@ tqnE    taqan~aE        PV_intr be concealed;be veiled
 tqnE    taqan~aE        IV_intr be concealed;be veiled
 ;; {iqotanaE_1
 <qtnE   {iqotanaE       PV_intr be convinced;be persuade;be content
-AqtnE   {iqotanaE       PV_intr be convinced;be persuade;be content
 qtnE    qotaniE IV_intr be convinced;be persuade;be content
 ;; qunoEAn_1
 qnEAn   qunoEAn N       satisfaction;contentment
@@ -5989,7 +5605,6 @@ qnEAn   qunoEAn N       belief;conviction
 ;; qinoE_1
 qnE     qinoE   N       weapons;armor
 >qnAE   >aqonAE N       weapons;armor
-AqnAE   >aqonAE N       weapons;armor
 ;; qanaE_1
 qnE     qanaE   N       contentment;temperance
 ;; qanAEap_1
@@ -6001,7 +5616,6 @@ qnAE    qinAE   N       weapons;armor;mask
 qnE     qunuE   N       weapons;armor;masks
 ;; >aqoniEap_1
 >qnE    >aqoniE Nap     veils;masks
-AqnE    >aqoniE Nap     veils;masks
 qnAE    qinAE   NAt     veils;masks
 ;; qanuwE_1
 qnwE    qanuwE  N-ap    satisfied;modest     <pos>qanuwE/ADJ</pos>
@@ -6009,15 +5623,12 @@ qnwE    qanuwE  N-ap    satisfied;modest     <pos>qanuwE/ADJ</pos>
 mqnE    maqonaE N       enough;sufficient
 ;; <iqonAE_1
 <qnAE   <iqonAE N/At    persuasion;convincing
-AqnAE   <iqonAE N/At    persuasion;convincing
 ;; <iqonAE_2
 <qnAE   <iqonAE N/At    belief;conviction
-AqnAE   <iqonAE N/At    belief;conviction
 ;; taqan~uE_1
 tqnE    taqan~uE        N/At    masquerade
 ;; {iqotinAE_1
 <qtnAE  {iqotinAE       N/At    belief;conviction
-AqtnAE  {iqotinAE       N/At    belief;conviction
 ;; qAniE_1
 qAnE    qAniE   Nall    satisfied;content     <pos>qAniE/ADJ</pos>
 ;; muqan~aE_1
@@ -6051,9 +5662,7 @@ qnm     qanam   N       rancid
 qnwm    qan~uwm Nap     qannuma (sacred fish in ancient Egypt)
 ;; >uqonuwm_1
 >qnwm   >uqonuwm        Ndu     hypostasis (person of the Trinity);basic element
-Aqnwm   >uqonuwm        Ndu     hypostasis (person of the Trinity);basic element
 >qAnym  >aqAniym        Ndip    hypostases (persons of the Trinity);basic elements
-AqAnym  >aqAniym        Ndip    hypostases (persons of the Trinity);basic elements
 ;
 ;--- qnw
 ;; qanA-u_1
@@ -6074,13 +5683,9 @@ qn      qon     IV_0hwnyn       acquire;gain
 qnY     qonaY   IV_0_Pass_yu    be acquired;be gained
 ;; {iqotanaY_1
 <qtnY   {iqotanaY       PV_0    acquire;obtain
-AqtnY   {iqotanaY       PV_0    acquire;obtain
 <qtnA   {iqotanA        PV_h    acquire;obtain
-AqtnA   {iqotanA        PV_h    acquire;obtain
 <qtny   {iqotanay       PV_Atn  acquire;obtain
-Aqtny   {iqotanay       PV_Atn  acquire;obtain
 <qtn    {iqotan PV_ttAw acquire;obtain
-Aqtn    {iqotan PV_ttAw acquire;obtain
 qtny    qotaniy IV_0hAnn        acquire;obtain
 qtn     qotan   IV_0hwnyn       acquire;obtain
 qtnY    qotanaY IV_0_Pass_yu    be acquired;be obtained
@@ -6091,11 +5696,8 @@ qnyAn   qunoyAn N       acquisitions;purchases;appropriations
 ;; qunow_2
 qnw     qunow   N       dates (food)
 >qnA'   >aqonA' N0_Nh   dates (food)
-AqnA'   >aqonA' N0_Nh   dates (food)
 >qnA&   >aqonA& Nh      dates (food)
-AqnA&   >aqonA& Nh      dates (food)
 >qnA}   >aqonA} Nhy     dates (food)
-AqnA}   >aqonA} Nhy     dates (food)
 qnwAn   qunowAn N       dates (food)
 qnyAn   qunoyAn N       dates (food)
 ;; qunowap_1
@@ -6106,7 +5708,6 @@ qny     qunoy   Nap     acquisition;possessions;property
 qnA     qanA    Napdu   canal;channel
 qnw     qanaw   NAt     canals;channels
 >qny    >aqoniy Nap     canals;channels
-Aqny    >aqoniy Nap     canals;channels
 ;; qanAp_2
 qnAp    qanAp   Nprop   Qanat
 ;; qanAyap_1
@@ -6115,24 +5716,15 @@ qnAy    qanAy   NapAt   stream;rivulet
 qny     qunay~  Nap     cannula
 ;; >aqonaY_1
 >qnY    >aqonaY N0      bent;crooked;hooked
-AqnY    >aqonaY N0      bent;crooked;hooked
 >qnA    >aqonA  Nhy     bent;crooked;hooked
-AqnA    >aqonA  Nhy     bent;crooked;hooked
 >qny    >aqonay NAn_Nayn        bent;crooked;hooked
-Aqny    >aqonay NAn_Nayn        bent;crooked;hooked
 ;; {iqotinA'_1
 <qtnA'  {iqotinA'       N0_Nh   purchase;acquisition
-AqtnA'  {iqotinA'       N0_Nh   purchase;acquisition
 <qtnA&  {iqotinA&       Nh      purchase;acquisition
-AqtnA&  {iqotinA&       Nh      purchase;acquisition
 <qtnA}  {iqotinA}       Nhy     purchase;acquisition
-AqtnA}  {iqotinA}       Nhy     purchase;acquisition
 <qtnA'  {iqotinA'       NAn_Nayn        purchases;acquisitions
-AqtnA'  {iqotinA'       NAn_Nayn        purchases;acquisitions
 <qtnA}  {iqotinA}       Nayn    purchases;acquisitions
-AqtnA}  {iqotinA}       Nayn    purchases;acquisitions
 <qtnA'  {iqotinA'       NAt     purchases;acquisitions
-AqtnA'  {iqotinA'       NAt     purchases;acquisitions
 ;; qAniy_1
 qAny    qAniy   N0F_Nh  owner;possessor
 qAn     qAn     NK      owner;possessor
@@ -6238,13 +5830,9 @@ qhy     qohay   IV_Ann  have no appetite
 qh      qoha    IV_0hwnyn       have no appetite
 ;; >aqohaY_1
 >qhY    >aqohaY PV_0    have no appetite
-AqhY    >aqohaY PV_0    have no appetite
 >qhA    >aqohA  PV_h    have no appetite
-AqhA    >aqohA  PV_h    have no appetite
 >qhy    >aqohay PV_Atn  have no appetite
-Aqhy    >aqohay PV_Atn  have no appetite
 >qh     >aqoh   PV_ttAw have no appetite
-Aqh     >aqoh   PV_ttAw have no appetite
 qhy     qohiy   IV_0hAnn_yu     have no appetite
 qh      qoh     IV_0hwnyn_yu    have no appetite
 ;; qAhiy_1
@@ -6271,7 +5859,6 @@ qAb     qAb     N       short distance;short span
 ;; quwb_1
 qwb     quwb    Ndu     young bird;chick
 >qwAb   >aqowAb N       young birds;chicks
-AqwAb   >aqowAb N       young birds;chicks
 ;; quwabA'_1
 qwbA'   quwabA' N0_Nh   tetter;eczema
 qwbA&   quwabA& Nh      tetter;eczema
@@ -6295,9 +5882,7 @@ qwt     qaw~at  PV-t    support;nourish;sustain
 qwt     qaw~it  IV_yu   support;nourish;sustain
 ;; >aqAt_1
 >qAt    >aqAt   PV_V    support;nourish;sustain
-AqAt    >aqAt   PV_V    support;nourish;sustain
 >qt     >aqat   PV-t    support;nourish;sustain
-Aqt     >aqat   PV-t    support;nourish;sustain
 qyt     qiyt    IV_V_yu support;nourish;sustain
 qt      qit     IV_C_yu support;nourish;sustain
 qAt     qAt     IV_V_Pass_yu    be supported;be nourished;be sustained
@@ -6307,9 +5892,7 @@ tqwt    taqaw~at        PV-t_intr       be supported;be fed;eat
 tqwt    taqaw~at        IV_intr be supported;be fed;eat
 ;; {iqotAt_1
 <qtAt   {iqotAt PV_V_intr       be supported with;be fed;be nourished with
-AqtAt   {iqotAt PV_V_intr       be supported with;be fed;be nourished with
 <qtt    {iqotat PV_Ct_intr      be supported with;be fed;be nourished with
-Aqtt    {iqotat PV_Ct_intr      be supported with;be fed;be nourished with
 qtAt    qotAt   IV_V_intr       be supported with;be fed;be nourished with
 qtt     qotat   IV_C_intr       be supported with;be fed;be nourished with
 ;; qAt_1
@@ -6321,7 +5904,6 @@ qAty    qAtiy~  NAt     qat (stimulant) derivatives     <pos>qAtiy~/NOUN</pos>
 ;; quwt_1
 qwt     quwt    N       nourishment;food
 >qwAt   >aqowAt N       nourishment;food
-AqwAt   >aqowAt N       nourishment;food
 ;; taqowiytap_1
 tqwyt   taqowiyt        NapAt   snack;quick bite
 ;; taqaw~ut_1
@@ -6372,32 +5954,24 @@ qwd     quwd    IV_V    drive;pilot
 qd      qud     IV_C    drive;pilot
 ;; >aqAd_1
 >qAd    >aqAd   PV_V    cause to retaliate
-AqAd    >aqAd   PV_V    cause to retaliate
 >qd     >aqad   PV_C    cause to retaliate
-Aqd     >aqad   PV_C    cause to retaliate
 qyd     qiyd    IV_V_yu cause to retaliate
 qd      qid     IV_C_yu cause to retaliate
 qAd     qAd     IV_V_Pass_yu    be made to retaliate
 qd      qad     IV_C_Pass_yu    be made to retaliate
 ;; {inoqAd_1
 <nqAd   {inoqAd PV_V_intr       yield;submit
-AnqAd   {inoqAd PV_V_intr       yield;submit
 <nqd    {inoqad PV_C_intr       yield;submit
-Anqd    {inoqad PV_C_intr       yield;submit
 nqAd    noqAd   IV_V_intr       yield;submit
 nqd     noqad   IV_C_intr       yield;submit
 ;; {iqotAd_1
 <qtAd   {iqotAd PV_V    lead;lead away
-AqtAd   {iqotAd PV_V    lead;lead away
 <qtd    {iqotad PV_C    lead;lead away
-Aqtd    {iqotad PV_C    lead;lead away
 qtAd    qotAd   IV_V    lead;lead away
 qtd     qotad   IV_C    lead;lead away
 ;; {isotaqAd_1
 <stqAd  {isotaqAd       PV_V    retaliate
-AstqAd  {isotaqAd       PV_V    retaliate
 <stqd   {isotaqad       PV_C    retaliate
-Astqd   {isotaqad       PV_C    retaliate
 stqyd   sotaqiyd        IV_V    retaliate
 stqd    sotaqid IV_C    retaliate
 ;; qawod_1
@@ -6406,7 +5980,6 @@ qwd     qawod   N       leadership
 qwd     qawad   N       retaliation
 ;; >aqowad_1
 >qwd    >aqowad Nel     tractable;docile;amenable
-Aqwd    >aqowad Nel     tractable;docile;amenable
 ;; qiyAd_1
 qyAd    qiyAd   N       leadership;guidance
 ;; qiyAdap_1
@@ -6419,7 +5992,6 @@ qyAdy   qiyAdiy~        N-ap    leading;guiding;commanding     <pos>qiyAdiy~/ADJ
 qyAdy   qiyAdiy~        Nall    leader;commander     <pos>qiyAdiy~/NOUN</pos>
 ;; {inoqiyAd_1
 <nqyAd  {inoqiyAd       N/At    compliance;submission
-AnqyAd  {inoqiyAd       N/At    compliance;submission
 ;; qA}id_1
 qA}d    qA}id   Ndu     leader;commander
 qwAd    quw~Ad  N       leaders;commanders
@@ -6450,14 +6022,11 @@ tqwr    taqaw~ar        PV_intr be coiled
 tqwr    taqaw~ar        IV_intr be coiled
 ;; {iqotAr_1
 <qtAr   {iqotAr PV_V    gouge;hollow out
-AqtAr   {iqotAr PV_V    gouge;hollow out
 <qtr    {iqotar PV_C    gouge;hollow out
-Aqtr    {iqotar PV_C    gouge;hollow out
 qtAr    qotAr   IV_V    gouge;hollow out
 qtr     qotar   IV_C    gouge;hollow out
 ;; {iqotawar_1
 <qtwr   {iqotawar       PV      gouge;hollow out
-Aqtwr   {iqotawar       PV      gouge;hollow out
 qtwr    qotawir IV      gouge;hollow out
 ;; qArap_1
 qAr     qAr     NapAt   hill
@@ -6494,7 +6063,6 @@ tqws    taqaw~as        IV_intr be bent;be curved
 ;; qawos_1
 qws     qawos   N       bow;arch;vault
 >qwAs   >aqowAs N       bows;arches;vaults
-AqwAs   >aqowAs N       bows;arches;vaults
 ;; qawos_2
 qws     qawos   NAn_Nayn        parentheses
 ;; qawos_3
@@ -6512,7 +6080,6 @@ mqws    muqaw~as        N-ap    arched;bent;curved     <pos>muqaw~as/ADJ</pos>
 ;; quw$_1
 qw$     quw$    Ndu     crupper;strap
 >qwA$   >aqowA$ N       cruppers;straps
-AqwA$   >aqowA$ N       cruppers;straps
 ;; qAwuw$_1
 qAww$   qAwuw$  Ndu     prison cell
 qwAwy$  qawAwiy$        Ndip    prison cells
@@ -6544,7 +6111,6 @@ mqAwD   muqAwaD NapAt   barter;exchange
 ;; qawoT_1
 qwT     qawoT   Ndu     flock of sheep
 >qwAT   >aqowAT N       flocks of sheep
-AqwAT   >aqowAT N       flocks of sheep
 ;; quwT_1
 qwT     quwT    N       Goths
 ;; quwTiy~_1
@@ -6559,9 +6125,7 @@ qwT     quwT    Nap     tomatoes
 qAE     qAE     N       bottom;floor
 qyEAn   qiyEAn  N       bottom;floor;depths
 >qwE    >aqowuE N       bottom;floor;depths
-AqwE    >aqowuE N       bottom;floor;depths
 >qwAE   >aqowAE N       bottom;floor;depths
-AqwAE   >aqowAE N       bottom;floor;depths
 ;; qAEap_1
 qAE     qAE     Napdu   hall;corridor;large room
 qAE     qAE     NAt     halls;corridors;large rooms
@@ -6633,9 +6197,7 @@ qAl     qAl     Nap     speech;talk
 ;; qawol_1
 qwl     qawol   N       statement;remark
 >qwAl   >aqowAl N       statements;reports
-AqwAl   >aqowAl N       statements;reports
 >qAwyl  >aqAwiyl        Ndip    statements;remarks
-AqAwyl  >aqAwiyl        Ndip    statements;remarks
 ;; qawolAF_1
 qwl     qawol   NF      in word;verbally;by word     <pos>qawol/ADV</pos>
 ;; qawolap_1
@@ -6701,26 +6263,20 @@ qAwm    qAwam   PV      resist;oppose
 qAwm    qAwim   IV_yu   resist;oppose
 ;; >aqAm_1
 >qAm    >aqAm   PV_V    install;establish;erect
-AqAm    >aqAm   PV_V    install;establish;erect
 >qm     >aqam   PV_C    install;establish;erect
-Aqm     >aqam   PV_C    install;establish;erect
 qym     qiym    IV_V_yu install;establish;erect
 qm      qim     IV_C_yu install;establish;erect
 >qym    >uqiym  PV_Pass-aAat    take place;be installed;be established
-Aqym    >uqiym  PV_Pass-aAat    take place;be installed;be established
 qAm     qAm     IV_V_Pass_yu    take place;be installed;be established
 qm      qam     IV_C_Pass_yu    take place;be installed;be established
 ;; {isotaqAm_1
 <stqAm  {isotaqAm       PV_V_intr       be straight;be right
-AstqAm  {isotaqAm       PV_V_intr       be straight;be right
 <stqm   {isotaqam       PV_C_intr       be straight;be right
-Astqm   {isotaqam       PV_C_intr       be straight;be right
 stqym   sotaqiym        IV_V_intr       be straight;be right
 stqm    sotaqim IV_C_intr       be straight;be right
 ;; qawom_1
 qwm     qawom   N       people;nation
 >qwAm   >aqowAm N       peoples;nations
-AqwAm   >aqowAm N       peoples;nations
 ;; qawomap_1
 qwm     qawom   Nap     revolt
 ;; qawomiy~_1
@@ -6771,7 +6327,6 @@ mqAm    maqAm   Napdu   maqama (novel in rhymed prose)
 mqAm    maqAm   NAt     maqamat (novels in rhymed prose)
 ;; >aqowam_1
 >qwm    >aqowam Nel     straighter;more correct;more appropriate
-Aqwm    >aqowam Nel     straighter;more correct;more appropriate
 ;; miqowam_1
 mqwm    miqowam Ndu     plow handle
 ;; taqowiym_1
@@ -6783,10 +6338,8 @@ tqwym   taqowiym        Ndu     calendar;chronology
 mqAwm   muqAwam NapAt   resistance;opposition;struggle
 ;; <iqAmap_1
 <qAm    <iqAm   Nap     residency;setting up
-AqAm    <iqAm   Nap     residency;setting up
 ;; {isotiqAmap_1
 <stqAm  {isotiqAm       Nap     correctness;integrity
-AstqAm  {isotiqAm       Nap     correctness;integrity
 ;; qA}im_1
 qA}m    qA}im   Nall    carrying out;executing
 ;; qA}im_2
@@ -6877,13 +6430,9 @@ qAwY    qAwaY   IV_0_Pass_yu    be competed with
 qAwy    qAway   IV_Ann_Pass_yu  be competed with
 ;; >aqowaY_1
 >qwY    >aqowaY PV_0    be desolate
-AqwY    >aqowaY PV_0    be desolate
 >qwA    >aqowA  PV_h    be desolate
-AqwA    >aqowA  PV_h    be desolate
 >qwy    >aqoway PV_Atn  be desolate
-Aqwy    >aqoway PV_Atn  be desolate
 >qw     >aqow   PV_ttAw_intr    be desolate
-Aqw     >aqow   PV_ttAw_intr    be desolate
 qwy     qowiy   IV_0hAnn_yu     be desolate
 qw      qow     IV_0hwnyn_yu    be desolate
 ;; taqaw~aY_1
@@ -6895,25 +6444,17 @@ tqwy    taqaw~ay        IV_Ann  become strong
 tqw     taqaw~  IV_0hwnyn       become strong
 ;; {iqotawaY_1
 <qtwY   {iqotawaY       PV_0    claim
-AqtwY   {iqotawaY       PV_0    claim
 <qtwA   {iqotawA        PV_h    claim
-AqtwA   {iqotawA        PV_h    claim
 <qtwy   {iqotaway       PV_Atn  claim
-Aqtwy   {iqotaway       PV_Atn  claim
 <qtw    {iqotaw PV_ttAw claim
-Aqtw    {iqotaw PV_ttAw claim
 qtwy    qotawiy IV_0hAnn        claim
 qtw     qotaw   IV_0hwnyn       claim
 qtwY    qotawaY IV_0    claim
 ;; {isotaqowaY_1
 <stqwY  {isotaqowaY     PV_0    become strong;be strengthened
-AstqwY  {isotaqowaY     PV_0    become strong;be strengthened
 <stqwA  {isotaqowA      PV_h    become strong;be strengthened
-AstqwA  {isotaqowA      PV_h    become strong;be strengthened
 <stqwy  {isotaqoway     PV_Atn  become strong;be strengthened
-Astqwy  {isotaqoway     PV_Atn  become strong;be strengthened
 <stqw   {isotaqow       PV_ttAw_intr    become strong;be strengthened
-Astqw   {isotaqow       PV_ttAw_intr    become strong;be strengthened
 stqwy   sotaqowiy       IV_0hAnn        become strong;be strengthened
 stqw    sotaqow IV_0hwnyn       become strong;be strengthened
 stqwY   sotaqowaY       IV_0_Pass_yu    become strong;be strengthened
@@ -6943,40 +6484,26 @@ qwA     qawA    Nhy     hunger
 ;; qawiy~_1
 qwy     qawiy~  N/ap    strong;powerful     <pos>qawiy~/ADJ</pos>
 >qwyA'  >aqowiyA'       N0_Nh   strong;powerful
-AqwyA'  >aqowiyA'       N0_Nh   strong;powerful
 >qwyA&  >aqowiyA&       Nh      strong;powerful
-AqwyA&  >aqowiyA&       Nh      strong;powerful
 >qwyA}  >aqowiyA}       Nhy     strong;powerful
-AqwyA}  >aqowiyA}       Nhy     strong;powerful
 ;; >aqowaY_2
 >qwY    >aqowaY N0      stronger/strongest;more/most powerful
-AqwY    >aqowaY N0      stronger/strongest;more/most powerful
 >qwA    >aqowA  Nhy     strongest;most powerful
-AqwA    >aqowA  Nhy     strongest;most powerful
 >qwy    >aqoway NAn_Nayn        strongest;most powerful
-Aqwy    >aqoway NAn_Nayn        strongest;most powerful
 ;; taqowiyap_1
 tqwy    taqowiy Napdu   strengthening;consolidation;reinforcement
 tqAwy   taqAwiy N0_Nh   seed for sowing
 tqAw    taqAw   NK      seed for sowing
 ;; <iqowA'_1
 <qwA'   <iqowA' N0_Nh   depopulation
-AqwA'   <iqowA' N0_Nh   depopulation
 <qwA&   <iqowA& Nh      depopulation
-AqwA&   <iqowA& Nh      depopulation
 <qwA}   <iqowA} Nhy     depopulation
-AqwA}   <iqowA} Nhy     depopulation
 <qwA'   <iqowA' NAt     depopulation
-AqwA'   <iqowA' NAt     depopulation
 ;; <isotiqowA'_1
 <stqwA' <isotiqowA'     N0_Nh   becoming strong;being strengthened
-AstqwA' <isotiqowA'     N0_Nh   becoming strong;being strengthened
 <stqwA& <isotiqowA&     Nh      becoming strong;being strengthened
-AstqwA& <isotiqowA&     Nh      becoming strong;being strengthened
 <stqwA} <isotiqowA}     Nhy     becoming strong;being strengthened
-AstqwA} <isotiqowA}     Nhy     becoming strong;being strengthened
 <stqwA' <isotiqowA'     NAt     becoming strong;being strengthened
-AstqwA' <isotiqowA'     NAt     becoming strong;being strengthened
 ;; muqaw~iy_1
 mqwy    muqaw~iy        N0F_Nh  strengthening     <pos>muqaw~iy/ADJ</pos>
 mqw     muqaw~  NK      strengthening
@@ -7123,9 +6650,7 @@ qAys    qAyas   PV      compare
 qAys    qAyis   IV_yu   compare
 ;; {iqotAs_1
 <qtAs   {iqotAs PV_V    measure;imitate
-AqtAs   {iqotAs PV_V    measure;imitate
 <qts    {iqotas PV_C    measure;imitate
-Aqts    {iqotas PV_C    measure;imitate
 qtAs    qotAs   IV_V    measure;imitate
 qts     qotas   IV_C    measure;imitate
 ;; qayos_1
@@ -7133,7 +6658,6 @@ qys     qayos   N0      Qais;Qays
 ;; qiyAs_1
 qyAs    qiyAs   NduAt   analogy
 >qys    >aqoyis Nap     analogies
-Aqys    >aqoyis Nap     analogies
 ;; qiyAsiy~_1
 qyAsy   qiyAsiy~        N-ap    record;analogous     <pos>qiyAsiy~/ADJ</pos>
 ;; qay~As_1
@@ -7193,9 +6717,7 @@ tqyD    taqay~aD        PV_intr be broken;be cracked
 tqyD    taqay~aD        IV_intr be broken;be cracked
 ;; {inoqAD_1
 <nqAD   {inoqAD PV_V_intr       be broken;be cracked
-AnqAD   {inoqAD PV_V_intr       be broken;be cracked
 <nqD    {inoqaD PV_C_intr       be broken;be cracked
-AnqD    {inoqaD PV_C_intr       be broken;be cracked
 nqAD    noqAD   IV_V_intr       be broken;be cracked
 nqD     noqaD   IV_C_intr       be broken;be cracked
 ;; qayoD_1
@@ -7243,32 +6765,25 @@ qyl     qay~al  PV      take a nap
 qyl     qay~il  IV_yu   take a nap
 ;; >aqAl_1
 >qAl    >aqAl   PV_V    dismiss;discharge
-AqAl    >aqAl   PV_V    dismiss;discharge
 >ql     >aqal   PV_C    dismiss;discharge
-Aql     >aqal   PV_C    dismiss;discharge
 qyl     qiyl    IV_V_yu dismiss;discharge
 ql      qil     IV_C_yu dismiss;discharge
 ; qAl   qAl     IV_V_Pass_yu    be dismissed;be discharged
 ; ql    qal     IV_C_Pass_yu    be dismissed;be discharged
 ;; {isotaqAl_1
 <stqAl  {isotaqAl       PV_V    resign
-AstqAl  {isotaqAl       PV_V    resign
 <stql   {isotaqal       PV_C    resign
-Astql   {isotaqal       PV_C    resign
 stqyl   sotaqiyl        IV_V    resign
 stql    sotaqil IV_C    resign
 ;; qayol_1
 qyl     qayol   N       chief;chieftain
 >qyAl   >aqoyAl N       chiefs;chieftains
-AqyAl   >aqoyAl N       chiefs;chieftains
 ;; maqiyl_1
 mqyl    maqiyl  Ndu     resting place;halting place
 ;; <iqAlap_1
 <qAl    <iqAl   NapAt   dismissal;discharge
-AqAl    <iqAl   NapAt   dismissal;discharge
 ;; {isotiqAlap_1
 <stqAl  {isotiqAl       NapAt   resignation;retirement
-AstqAl  {isotiqAl       NapAt   resignation;retirement
 ;; muqAl_1
 mqAl    muqAl   Nall    fired;dismissed;discharged     <pos>muqAl/ADJ</pos>
 ;; musotaqiyl_1

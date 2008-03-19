@@ -49,7 +49,6 @@ tZArf   taZAraf PV_intr be elegant
 tZArf   taZAraf IV_intr be elegant
 ;; {isotaZoraf_1
 <stZrf  {isotaZoraf     PV      deem charming
-AstZrf  {isotaZoraf     PV      deem charming
 stZrf   sotaZorif       IV      deem charming
 ;; Zarof_1
 Zrf     Zarof   N       charm
@@ -72,7 +71,6 @@ Zryf    Zariyf  N0      Zarif
 ZrAf    ZarAf   Nap     elegance;wittiness;courtesy
 ;; >aZoraf_1
 >Zrf    >aZoraf Nel     more/most elegant;wittier/wittiest
-AZrf    >aZoraf Nel     more/most elegant;wittier/wittiest
 ;; taZoriyf_1
 tZryf   taZoriyf        N/At    wittiness;courtesy
 ;; taZar~uf_1
@@ -94,7 +92,6 @@ ZEn     ZaEon   N       departure;journey
 ;; ZaEiynap_1
 ZEyn    ZaEiyn  Nap     camel load
 >ZEAn   >aZoEAn N       camel loads
-AZEAn   >aZoEAn N       camel loads
 ZEA}n   ZaEA}in Ndip    camel loads
 ;; ZaEuwn_1
 ZEwn    ZaEuwn  N       load camel
@@ -110,7 +107,6 @@ Zfr     Zaf~ar  PV      grant victory
 Zfr     Zaf~ir  IV_yu   grant victory
 ;; >aZofar_1
 >Zfr    >aZofar PV      grant victory
-AZfr    >aZofar PV      grant victory
 Zfr     Zofir   IV_yu   grant victory
 Zfr     Zofar   IV_Pass_yu      be granted victory
 ;; taZAfar_1
@@ -119,14 +115,10 @@ tZAfr   taZAfar IV_intr be allied with
 ;; Zufur_1
 Zfr     Zufur   Ndu     nail;claw;talon
 >ZfAr   >aZofAr N       nails;claws;talons
-AZfAr   >aZofAr N       nails;claws;talons
 >ZAfr   >aZAfir Ndip    nails;claws;talons
-AZAfr   >aZAfir Ndip    nails;claws;talons
 ;; >uZofuwr_1
 >Zfwr   >uZofuwr        Ndu     nail;claw;talon
-AZfwr   >uZofuwr        Ndu     nail;claw;talon
 >ZAfyr  >aZAfiyr        Ndip    nails;claws;talons
-AZAfyr  >aZAfiyr        Ndip    nails;claws;talons
 ;; Zafar_1
 Zfr     Zafar   N       victory
 ;; Zafir_1
@@ -157,9 +149,7 @@ Zll     Zal~al  PV      shade
 Zll     Zal~il  IV_yu   shade
 ;; >aZal~_1
 >Zl     >aZal~  PV_V    shade
-AZl     >aZal~  PV_V    shade
 >Zll    >aZolal PV_C    shade
-AZll    >aZolal PV_C    shade
 Zl      Zil~    IV_V_yu shade
 Zll     Zolil   IV_C_yu shade
 Zl      Zal~    IV_V_Pass_yu    be shaded
@@ -168,9 +158,7 @@ tZll    taZal~al        PV_intr be shaded
 tZll    taZal~al        IV_intr be shaded
 ;; {isotaZal~_1
 <stZl   {isotaZal~      PV_V    seek refuge;seek shade
-AstZl   {isotaZal~      PV_V    seek refuge;seek shade
 <stZll  {isotaZolal     PV_C    seek refuge;seek shade
-AstZll  {isotaZolal     PV_C    seek refuge;seek shade
 stZl    sotaZil~        IV_V    seek refuge;seek shade
 stZll   sotaZolil       IV_C    seek refuge;seek shade
 ;; Zil~_1
@@ -178,7 +166,6 @@ Zl      Zil~    N       patronage;shelter
 ZlAl    ZilAl   N       auspices;shelter
 Zlwl    Zuluwl  N       auspices;shelter
 >ZlAl   >aZolAl N       auspices;shelter
-AZlAl   >aZolAl N       auspices;shelter
 ;; Zul~ap_1
 Zl      Zul~    Nap     veranda
 Zll     Zulal   N       shelters
@@ -213,7 +200,6 @@ ZlAE    ZulAE   N       rheumatism
 Zlf     Zilof   N       cloven hoof
 Zlwf    Zuluwf  N       cloven hoof
 >ZlAf   >aZolAf N       cloven hoof
-AZlAf   >aZolAf N       cloven hoof
 ;
 ;--- Zlm
 ;; Zalam-i_1
@@ -222,7 +208,6 @@ Zlm     Zolim   IV_intr be unjust;oppress
 Zlm     Zolam   IV_Pass_yu      be oppressed
 ;; >aZolam_1
 >Zlm    >aZolam PV_intr become dark
-AZlm    >aZolam PV_intr become dark
 Zlm     Zolim   IV_intr_yu      become dark
 Zlm     Zolam   IV_Pass_yu      be darkened
 ;; taZal~am_1
@@ -230,11 +215,9 @@ tZlm    taZal~am        PV      complain
 tZlm    taZal~am        IV      complain
 ;; {inoZalam_1
 <nZlm   {inoZalam       PV_intr be wronged
-AnZlm   {inoZalam       PV_intr be wronged
 nZlm    noZalim IV_intr be wronged
 ;; {iZ~alam_1
 <Zlm    {iZ~alam        PV_intr be wronged
-AZlm    {iZ~alam        PV_intr be wronged
 Zlm     Z~alim  IV_intr be wronged
 ;; Zulom_1
 Zlm     Zulom   N       injustice
@@ -257,13 +240,11 @@ ZlmAn   ZilomAn N       ostriches
 ZlAm    ZulAm   NapAt   injustice;misdeed
 ;; >aZolam_2
 >Zlm    >aZolam Nel     darker/darkest;viler/vilest
-AZlm    >aZolam Nel     darker/darkest;viler/vilest
 ;; maZolimap_1
 mZlm    maZolim Napdu   injustice;misdeed
 mZAlm   maZAlim Ndip    injustices;misdeeds
 ;; <iZolAm_1
 <ZlAm   <iZolAm N/At    darkness;gloom
-AZlAm   <iZolAm N/At    darkness;gloom
 ;; taZal~um_1
 tZlm    taZal~um        N/At    complaint
 ;; ZAlim_1
@@ -289,11 +270,8 @@ Zm&     Zam~a&  PV_w    make thirsty
 Zm}     Zam~i}  IV_yu   make thirsty
 ;; >aZoma>_1
 >Zm>    >aZoma> PV->    make thirsty
-AZm>    >aZoma> PV->    make thirsty
 >Zm|    >aZoma| PV-|    make thirsty
-AZm|    >aZoma| PV-|    make thirsty
 >Zm&    >aZoma& PV_w    make thirsty
-AZm&    >aZoma& PV_w    make thirsty
 Zm}     Zomi}   IV_yu   make thirsty
 Zm>     Zoma>   IV_Pass_yu      be made thirsty
 ;; Zama>_1
@@ -363,7 +341,6 @@ ZAhr    ZAhar   PV      assist;support
 ZAhr    ZAhir   IV_yu   assist;support
 ;; >aZohar_1
 >Zhr    >aZohar PV      show;manifest;demonstrate
-AZhr    >aZohar PV      show;manifest;demonstrate
 Zhr     Zohir   IV_yu   show;manifest;demonstrate
 Zhr     Zohar   IV_Pass_yu      be shown;be manifest;be demonstrated
 ;; taZAhar_1
@@ -371,7 +348,6 @@ tZAhr   taZAhar PV      manifest;demonstrate
 tZAhr   taZAhar IV      manifest;demonstrate
 ;; {isotaZohar_1
 <stZhr  {isotaZohar     PV      memorize;demonstrate
-AstZhr  {isotaZohar     PV      memorize;demonstrate
 stZhr   sotaZohir       IV      memorize;demonstrate
 ;; Zahor_1
 Zhr     Zahor   N       back;spine
@@ -380,12 +356,10 @@ Zhr     Zahor   NAn_Nayn        midst
 Zhry    Zahoriy~        N-ap    dorsal     <pos>Zahoriy~/ADJ</pos>
 ;; >aZohur_1
 >Zhr    >aZohur N       rear part
-AZhr    >aZohur N       rear part
 ;; Zuhor_1
 Zhr     Zuhor   N       noon;afternoon
 Zhr     Zuhor   NF      in the afternoon;at noon     <pos>Zuhor/ADV</pos>
 >ZhAr   >aZohAr N       afternoons
-AZhAr   >aZohAr N       afternoons
 ;; Zuhoriy~_1
 Zhry    Zuhoriy~        N-ap    afternoon;meridian     <pos>Zuhoriy~/ADJ</pos>
 ;; Zahiyr_1
@@ -400,7 +374,6 @@ ZhrAn   ZahorAn N       Dhahran
 ZhAr    ZihAr   Nap     outside;epithelium
 ;; >aZohar_2
 >Zhr    >aZohar Nel     clearer/clearest;more/most apparent
-AZhr    >aZohar Nel     clearer/clearest;more/most apparent
 ;; maZohar_1
 mZhr    maZohar Ndu     appearance;facade
 mZAhr   maZAhir Ndip    features;manifestations
@@ -416,10 +389,8 @@ ZhAry   ZihAriy~        N-ap    epithelial     <pos>ZihAriy~/ADJ</pos>
 mZAhr   muZAhar NapAt   demonstration;rally
 ;; <iZohAr_1
 <ZhAr   <iZohAr N/At    expressing;showing;demonstrating
-AZhAr   <iZohAr N/At    expressing;showing;demonstrating
 ;; <iZohAriy~_1
 <ZhAry  <iZohAriy~      Nall    demonstrative;exhibitionist     <pos><iZohAriy~/ADJ</pos>
-AZhAry  <iZohAriy~      Nall    demonstrative;exhibitionist     <pos><iZohAriy~/ADJ</pos>
 ;; taZAhur_1
 tZAhr   taZAhur NduAt   demonstration;exhibition;simulation
 ;; taZAhurap_1
@@ -449,4 +420,3 @@ mZhr    muZah~ir        Nall    endorser
 mtZAhr  mutaZAhir       Nall    demonstrator
 ;; {isotiZohAr_1
 <stZhAr {isotiZohAr     N/At    memorization;recitation
-AstZhAr {isotiZohAr     N/At    memorization;recitation

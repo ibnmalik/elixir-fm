@@ -13,13 +13,10 @@ fAbryq  fAboriyq        NapAt   factory
 ;--- fAt
 ;; {ifota>at_1
 <ft>t   {ifota>at       PV-t_intr       be obstinate;be oppressive
-Aft>t   {ifota>at       PV-t_intr       be obstinate;be oppressive
 ft}t    fota}it IV_intr be obstinate;be oppressive
 <ft}t   {ufotu}it       PV-t    die suddenly
-Aft}t   {ufotu}it       PV-t    die suddenly
 ;; {ifoti}At_1
 <ft}At  {ifoti}At       N/At    oppression;violence
-Aft}At  {ifoti}At       N/At    oppression;violence
 ;
 ;; fAtoriynap_1
 fAtryn  fAtoriyn        NapAt   display window
@@ -36,7 +33,6 @@ fAjbAyy fAjobAyiy       Nprop   Vajpayee
 ;; fu&Ad_1
 f&Ad    fu&Ad   N       heart;mind
 >f}d    >afo}id Nap     hearts;minds
-Af}d    >afo}id Nap     hearts;minds
 ;; fu&Ad_2
 f&Ad    fu&Ad   N0      Fuad;Fouad
 ;; fu&Adiy_1
@@ -68,7 +64,6 @@ fAzlyn  fAzoliyn        N0      vaseline
 f>s     fa>os   Ndu     hatchet;ax;hoe
 f&ws    fu&uws  N       hatchets;axes;hoes
 >f&s    >afo&us N       hatchets;axes;hoes
-Af&s    >afo&us N       hatchets;axes;hoes
 ;
 ;; fAs_1
 fAs     fAs     N0      Fez;Fes
@@ -117,7 +112,6 @@ tfA'l   tafA'al IV_intr be optimistic
 f>l     fa>ol   N       good omen;auspicious sign
 f&wl    fu&uwl  N       good omens;auspicious signs
 >f&l    >afo&ul N       good omens;auspicious signs
-Af&l    >afo&ul N       good omens;auspicious signs
 ;; tafA&ul_1
 tfA&l   tafA&ul N/At    optimism
 ;; tafA&uliy~_1
@@ -210,9 +204,7 @@ tftt    tafat~at        PV-t    disintegrate;be fragmented;be torn apart
 tftt    tafat~at        IV      disintegrate;be fragmented;be torn apart
 ;; {inofat~_1
 <nft    {inofat~        PV_V    disintegrate;be fragmented;be torn apart
-Anft    {inofat~        PV_V    disintegrate;be fragmented;be torn apart
 <nftt   {inofatat       PV_Ct   disintegrate;be fragmented;be torn apart
-Anftt   {inofatat       PV_Ct   disintegrate;be fragmented;be torn apart
 nft     nofat~  IV_V    disintegrate;be fragmented;be torn apart
 nftt    nofatit IV_C    disintegrate;be fragmented;be torn apart
 ;; futAt_1
@@ -255,14 +247,11 @@ tftH    tafat~aH        PV_intr be opened;be responsive
 tftH    tafat~aH        IV_intr be opened;be responsive
 ;; {inofataH_1
 <nftH   {inofataH       PV_intr be opened;be responsive
-AnftH   {inofataH       PV_intr be opened;be responsive
 nftH    nofatiH IV_intr be opened;be responsive
 ;; {ifotataH_1
 <fttH   {ifotataH       PV      inaugurate;open
-AfttH   {ifotataH       PV      inaugurate;open
 fttH    fotatiH IV      inaugurate;open
 <fttH   {ufotutiH       PV_Pass be inaugurated;be opened
-AfttH   {ufotutiH       PV_Pass be inaugurated;be opened
 fttH    fotataH IV_Pass_yu      be inaugurated;be opened
 ;; fatoH_1
 ftH     fatoH   N       opening;beginning
@@ -293,21 +282,15 @@ mfAtH   mufAtaH NapAt   opening
 tftH    tafat~uH        N/At    openness;receptiveness
 ;; {inofitAH_1
 <nftAH  {inofitAH       N       open-door;openness;Infitah
-AnftAH  {inofitAH       N       open-door;openness;Infitah
 ;; {inofitAH_2
 <nftAH  {inofitAH       N/At    opening up;receptiveness;openness
-AnftAH  {inofitAH       N/At    opening up;receptiveness;openness
 ;; {ifotitAH_1
 <fttAH  {ifotitAH       N/At    opening;inauguration
-AfttAH  {ifotitAH       N/At    opening;inauguration
 <fttAHy {ifotitAHiy~    N-ap    opening;introductory     <pos>{ifotitAHiy~/ADJ</pos>
-AfttAHy {ifotitAHiy~    N-ap    opening;introductory     <pos>{ifotitAHiy~/ADJ</pos>
 ;; {ifotitAHiy~ap_1
 <fttAHy {ifotitAHiy~    Nap     leading;opening     <pos>{ifotitAHiy~/NOUN</pos>
-AfttAHy {ifotitAHiy~    Nap     leading;opening     <pos>{ifotitAHiy~/NOUN</pos>
 ;; {isotifotAH_1
 <stftAH {isotifotAH     N/At    beginning;opening
-AstftAH {isotifotAH     N/At    beginning;opening
 ;; fAtiH_1
 fAtH    fAtiH   N       opener;opening
 ;; fAtiHap_1
@@ -336,7 +319,6 @@ ftr     fat~ar  PV      mitigate;weaken
 ftr     fat~ir  IV_yu   mitigate;weaken
 ;; >afotar_1
 >ftr    >afotar PV      mitigate;weaken
-Aftr    >afotar PV      mitigate;weaken
 ftr     fotir   IV_yu   mitigate;weaken
 ftr     fotar   IV_Pass_yu      be mitigated;be weakened
 ;; tafat~ar_1
@@ -345,7 +327,6 @@ tftr    tafat~ar        IV      languish
 ;; fitor_1
 ftr     fitor   N       small span
 >ftAr   >afotAr N       small spans
-AftAr   >afotAr N       small spans
 ;; fatorap_1
 ftr     fator   Napdu   phase;time period;interval
 ftr     fatar   NAt     phases;time periods;intervals
@@ -401,7 +382,6 @@ tftq    tafat~aq        PV_intr be torn apart;be rent
 tftq    tafat~aq        IV_intr be torn apart;be rent
 ;; {inofataq_1
 <nftq   {inofataq       PV_intr be torn apart;be rent
-Anftq   {inofataq       PV_intr be torn apart;be rent
 nftq    nofatiq IV_intr be torn apart;be rent
 ;; fatoq_1
 ftq     fatoq   N       rip;tear
@@ -430,7 +410,6 @@ ftk     fatak   NAt     devastation;havoc
 ftAk    fat~Ak  Nall    deadly;destructive;lethal
 ;; >afotak_1
 >ftk    >afotak Nel     more/most destructive
-Aftk    >afotak Nel     more/most destructive
 ;; fAtik_1
 fAtk    fAtik   N/ap    killer;murderer;exterminator
 ftAk    fut~Ak  N       killers;murderers
@@ -447,11 +426,9 @@ tftl    tafat~al        PV_intr be twisted;be entwined
 tftl    tafat~al        IV_intr be twisted;be entwined
 ;; {inofatal_1
 <nftl   {inofatal       PV_intr be twisted;be entwined
-Anftl   {inofatal       PV_intr be twisted;be entwined
 nftl    nofatil IV_intr be twisted;be entwined
 ;; {inofatal_2
 <nftl   {inofatal       PV_intr flee;depart
-Anftl   {inofatal       PV_intr flee;depart
 nftl    nofatil IV_intr flee;depart
 ;; fatolap_1
 ftl     fatol   Nap     twisting;entwining
@@ -480,12 +457,10 @@ ftn     futin   PV-n_intr       be infatuated
 ftn     fotan   IV-n_intr       be infatuated
 ;; >afotan_1
 >ftn    >afotan PV-n    start a riot;incite to riot
-Aftn    >afotan PV-n    start a riot;incite to riot
 ftn     fotin   IV-n_yu start a riot;incite to riot
 ftn     fotan   IV-n_Pass_yu    be incited to riot
 ;; {ifotatan_1
 <fttn   {ifotatan       PV-n    entice;charm
-Afttn   {ifotatan       PV-n    entice;charm
 fttn    fotatin IV-n    entice;charm
 ;; fitonap_1
 ftn     fiton   Napdu   sedition;dissension;discord
@@ -498,7 +473,6 @@ ftAn    fat~An  Nall    agitator
 ftAn    fat~An  N0      Fattan
 ;; >afotan_2
 >ftn    >afotan Nel     more/most charming
-Aftn    >afotan Nel     more/most charming
 ;; mafAtin_1
 mfAtn   mafAtin Ndip    charms;seductions
 ;; fAtin_1
@@ -524,26 +498,18 @@ fty     fotay   IV_Ann  be youthful
 ft      fota    IV_0hwnyn       be youthful
 ;; >afotaY_1
 >ftY    >afotaY PV_0    deliver a fatwa (legal opinion);opine
-AftY    >afotaY PV_0    deliver a fatwa (legal opinion);opine
 >ftA    >afotA  PV_h    deliver a fatwa (legal opinion);opine
-AftA    >afotA  PV_h    deliver a fatwa (legal opinion);opine
 >fty    >afotay PV_Atn  deliver a fatwa (legal opinion);opine
-Afty    >afotay PV_Atn  deliver a fatwa (legal opinion);opine
 >ft     >afot   PV_ttAw deliver a fatwa (legal opinion);opine
-Aft     >afot   PV_ttAw deliver a fatwa (legal opinion);opine
 fty     fotiy   IV_0hAnn_yu     deliver a fatwa (legal opinion);opine
 ft      fot     IV_0hwnyn_yu    deliver a fatwa (legal opinion);opine
 ftY     fotaY   IV_0_Pass_yu    be debated legally
 fty     fotay   IV_Ann_Pass_yu  be debated legally
 ;; {isotafotaY_1
 <stftY  {isotafotaY     PV_0    seek legal opinion
-AstftY  {isotafotaY     PV_0    seek legal opinion
 <stftA  {isotafotA      PV_h    seek legal opinion
-AstftA  {isotafotA      PV_h    seek legal opinion
 <stfty  {isotafotay     PV_Atn  seek legal opinion
-Astfty  {isotafotay     PV_Atn  seek legal opinion
 <stft   {isotafot       PV_ttAw seek legal opinion
-Astft   {isotafot       PV_ttAw seek legal opinion
 stfty   sotafotiy       IV_0hAnn        seek legal opinion
 stft    sotafot IV_0hwnyn       seek legal opinion
 stftY   sotafotaY       IV_0_Pass_yu    be sought (as legal opinion)
@@ -577,29 +543,18 @@ ftAw    fatAw   NK      fatwas;legal opinions
 ftw     futuw~  Nap     adolescence;youth
 ;; <ifotA'_1
 <ftA'   <ifotA' N0_Nh   legal counsel;office of mufti
-AftA'   <ifotA' N0_Nh   legal counsel;office of mufti
 <ftA&   <ifotA& Nh      legal counsel;office of mufti
-AftA&   <ifotA& Nh      legal counsel;office of mufti
 <ftA}   <ifotA} Nhy     legal counsel;office of mufti
-AftA}   <ifotA} Nhy     legal counsel;office of mufti
 <ftA'   <ifotA' NAt     legal counsel;office of mufti
-AftA'   <ifotA' NAt     legal counsel;office of mufti
 ;; {isotifotA'_1
 <stftA' {isotifotA'     N0_Nh   referendum;poll;questionnaire
-AstftA' {isotifotA'     N0_Nh   referendum;poll;questionnaire
 <stftA& {isotifotA&     Nh      referendum;poll;questionnaire
-AstftA& {isotifotA&     Nh      referendum;poll;questionnaire
 <stftA} {isotifotA}     Nhy     referendum;poll;questionnaire
-AstftA} {isotifotA}     Nhy     referendum;poll;questionnaire
 <stftA' {isotifotA'     NAn_Nayn        referendums;polls;questionnaires
-AstftA' {isotifotA'     NAn_Nayn        referendums;polls;questionnaires
 <stftA} {isotifotA}     Nayn    referendums;polls;questionnaires
-AstftA} {isotifotA}     Nayn    referendums;polls;questionnaires
 <stftA' {isotifotA'     NAt     referendums;polls;questionnaires
-AstftA' {isotifotA'     NAt     referendums;polls;questionnaires
 ;; {isotifotA}iy~_1
 <stftA}y        {isotifotA}iy~  Nall    polling;questionnaire;survey     <pos>{isotifotA}iy~/ADJ</pos>
-AstftA}y        {isotifotA}iy~  Nall    polling;questionnaire;survey     <pos>{isotifotA}iy~/ADJ</pos>
 ;; mufotiy_1
 mfty    mufotiy N0F_Nh  mufti (Muslim legal scholar)
 mft     mufot   NK      mufti (Muslim legal scholar)
@@ -629,9 +584,7 @@ fj      fuj~    IV_V    straddle
 fjj     fojuj   IV_C    straddle
 ;; >afaj~_1
 >fj     >afaj~  PV_V    hurry;hasten
-Afj     >afaj~  PV_V    hurry;hasten
 >fjj    >afojaj PV_C    hurry;hasten
-Afjj    >afojaj PV_C    hurry;hasten
 fj      fij~    IV_V_yu hurry;hasten
 fjj     fojij   IV_C_yu hurry;hasten
 ;; faj~_1
@@ -689,7 +642,6 @@ tfjr    tafaj~ar        PV      explode;erupt
 tfjr    tafaj~ar        IV      explode;erupt
 ;; {inofajar_1
 <nfjr   {inofajar       PV      explode;erupt
-Anfjr   {inofajar       PV      explode;erupt
 nfjr    nofajir IV      explode;erupt
 ;; fajor_1
 fjr     fajor   N       dawn
@@ -709,10 +661,8 @@ tfjyry  tafojiyriy~     Nall    explosive;bombing     <pos>tafojiyriy~/ADJ</pos>
 tfjr    tafaj~ur        N/At    outburst;explosion
 ;; {inofijAr_1
 <nfjAr  {inofijAr       N/At    explosion;detonation
-AnfjAr  {inofijAr       N/At    explosion;detonation
 ;; {inofijAriy~_1
 <nfjAry {inofijAriy~    N-ap    explosive     <pos>{inofijAriy~/ADJ</pos>
-AnfjAry {inofijAriy~    N-ap    explosive     <pos>{inofijAriy~/ADJ</pos>
 ;; fAjir_1
 fAjr    fAjir   N/ap    immoral;libertine
 fjAr    fuj~Ar  N       immoral;libertine
@@ -735,7 +685,6 @@ fjE     faj~aE  PV      torment;distress
 fjE     faj~iE  IV_yu   torment;distress
 ;; >afojaE_1
 >fjE    >afojaE PV      torment;distress
-AfjE    >afojaE PV      torment;distress
 fjE     fojiE   IV_yu   torment;distress
 fjE     fojaE   IV_Pass_yu      be tormented;be distressed
 ;; tafaj~aE_1
@@ -829,7 +778,6 @@ fH$     faHu$   PV_intr be monstrous;commit atrocities
 fH$     foHu$   IV_intr be monstrous;commit atrocities
 ;; >afoHa$_1
 >fH$    >afoHa$ PV_intr be monstrous;commit atrocities
-AfH$    >afoHa$ PV_intr be monstrous;commit atrocities
 fH$     foHi$   IV_intr_yu      be monstrous;commit atrocities
 ;; tafAHa$_1
 tfAH$   tafAHa$ PV_intr be monstrous;commit atrocities
@@ -847,7 +795,6 @@ fHy$    faHiy$  N       monstrous;obscene     <pos>faHiy$/ADJ</pos>
 fHA$    fiHA$   N       monstrous;obscene
 ;; >afoHa$_2
 >fH$    >afoHa$ Nel     more/most monstrous/obscene
-AfH$    >afoHa$ Nel     more/most monstrous/obscene
 ;; tafAHu$_1
 tfAH$   tafAHu$ N/At    monstrosity;abomination
 ;; fAHi$_1
@@ -876,9 +823,7 @@ fHS     faHoS   Nprop   Fahs
 fHyS    fuHayoS N0      Fuhais
 ;; >ufoHuwS_1
 >fHwS   >ufoHuwS        Ndu     nesting place
-AfHwS   >ufoHuwS        Ndu     nesting place
 >fAHyS  >afAHiyS        Ndip    nesting places
-AfAHyS  >afAHiyS        Ndip    nesting places
 ;; fAHiS_1
 fAHS    fAHiS   N-ap    examiner;questioner;inspector
 fHAS    fuH~AS  N       inspectors
@@ -888,7 +833,6 @@ mtfHS   mutafaH~iS      Nall    exploring;scrutinizing     <pos>mutafaH~iS/ADJ</
 ;--- fHl
 ;; {isotafoHal_1
 <stfHl  {isotafoHal     PV_intr be aggravated;become critical
-AstfHl  {isotafoHal     PV_intr be aggravated;become critical
 stfHl   sotafoHil       IV_intr be aggravated;become critical
 ;; faHol_1
 fHl     faHol   N       stallion;luminary
@@ -898,7 +842,6 @@ fHwl    fuHuwl  Nap     stallions;luminaries
 fHwl    fuHuwl  Nap     virility;perfection
 ;; {isotifoHAl_1
 <stfHAl {isotifoHAl     N/At    gravity;seriousness
-AstfHAl {isotifoHAl     N/At    gravity;seriousness
 ;; musotafoHil_1
 mstfHl  musotafoHil     Nall    grave;serious     <pos>musotafoHil/ADJ</pos>
 ;
@@ -914,7 +857,6 @@ fHm     faH~am  PV      carbonize;blacken
 fHm     faH~im  IV_yu   carbonize;blacken
 ;; >afoHam_1
 >fHm    >afoHam PV      stifle;make silent;rebut
-AfHm    >afoHam PV      stifle;make silent;rebut
 fHm     foHim   IV_yu   stifle;make silent;rebut
 fHm     foHam   IV_Pass_yu      be stifled;be silenced;be rebutted
 ;; faHom_1
@@ -982,12 +924,10 @@ fAxt    fAxit   Nall    perforating;piercing
 fx*     faxo*   Ndu     thigh;leg
 fx*     faxo*   Nap     thigh;leg
 >fxA*   >afoxA* N       thighs;legs
-AfxA*   >afoxA* N       thighs;legs
 ;; faxo*_2
 fx*     faxo*   Ndu     subdivision;fraction
 fx*     faxo*   Nap     subdivision;fraction
 >fxA*   >afoxA* N       subdivisions;fractions
-AfxA*   >afoxA* N       subdivisions;fractions
 ;; faxo*iy~_1
 fx*y    faxo*iy~        N-ap    femoral     <pos>faxo*iy~/ADJ</pos>
 ;; faxo*iy~_2
@@ -1011,11 +951,9 @@ tfAxr   tafAxar PV_intr be proud;boast
 tfAxr   tafAxar IV_intr be proud;boast
 ;; {ifotaxar_1
 <ftxr   {ifotaxar       PV_intr be proud;boast
-Aftxr   {ifotaxar       PV_intr be proud;boast
 ftxr    fotaxir IV_intr be proud;boast
 ;; {isotafoxar_1
 <stfxr  {isotafoxar     PV      regard as excellent
-Astfxr  {isotafoxar     PV      regard as excellent
 stfxr   sotafoxir       IV      regard as excellent
 ;; faxor_1
 fxr     faxor   N0      Fakhr
@@ -1036,7 +974,6 @@ fxwr    faxuwr  Nall    proud
 fxyr    faxiyr  N-ap    boastful;proud     <pos>faxiyr/ADJ</pos>
 ;; >afoxar_1
 >fxr    >afoxar Nel     more/most magnificent;more/most splendid
-Afxr    >afoxar Nel     more/most magnificent;more/most splendid
 ;; fax~Ar_1
 fxAr    fax~Ar  N       fired clay;pottery
 ;; fax~Ariy~_1
@@ -1058,7 +995,6 @@ mfAxr   mufAxar NapAt   pride;boasting
 tfAxr   tafAxur N/At    pride;boasting
 ;; {ifotixAr_1
 <ftxAr  {ifotixAr       N/At    pride;boasting
-AftxAr  {ifotixAr       N/At    pride;boasting
 ;; fAxir_1
 fAxr    fAxir   Nall    proud;vainglorious
 ;; fAxir_2
@@ -1107,7 +1043,6 @@ fdH     fadaH   PV      oppress;burden
 fdH     fodaH   IV      oppress;burden
 ;; {isotafodaH_1
 <stfdH  {isotafodaH     PV      regard as burdensome
-AstfdH  {isotafodaH     PV      regard as burdensome
 stfdH   sotafodiH       IV      regard as burdensome
 ;; fadoH_1
 fdH     fadoH   N       oppressing;burdening
@@ -1115,7 +1050,6 @@ fdH     fadoH   N       oppressing;burdening
 fdAH    fadAH   Nap     oppression;burdening
 ;; >afodaH_1
 >fdH    >afodaH Nel     more/most oppressive;more/most burdensome
-AfdH    >afodaH Nel     more/most oppressive;more/most burdensome
 ;; fAdiH_1
 fAdH    fAdiH   N-ap    burdensome;oppressive     <pos>fAdiH/ADJ</pos>
 ;; fAdiHap_1
@@ -1204,13 +1138,9 @@ tfAdy   tafAday IV_Ann  avoid;prevent;obviate
 tfAd    tafAd   IV_0hwnyn       avoid;prevent;obviate
 ;; {ifotadaY_1
 <ftdY   {ifotadaY       PV_0    redeem;ransom
-AftdY   {ifotadaY       PV_0    redeem;ransom
 <ftdA   {ifotadA        PV_h    redeem;ransom
-AftdA   {ifotadA        PV_h    redeem;ransom
 <ftdy   {ifotaday       PV_Atn  redeem;ransom
-Aftdy   {ifotaday       PV_Atn  redeem;ransom
 <ftd    {ifotad PV_ttAw redeem;ransom
-Aftd    {ifotad PV_ttAw redeem;ransom
 ftdy    fotadiy IV_0hAnn        redeem;ransom
 ftd     fotad   IV_0hwnyn       redeem;ransom
 ftdY    fotadaY IV_0    redeem;ransom
@@ -1239,17 +1169,11 @@ tfAdy   tafAdiy NAn_Nayn        avoidance
 tfAdy   tafAdiy NAt     avoidance
 ;; {ifotidA'_1
 <ftdA'  {ifotidA'       N0_Nh   ransoming;self-sacrifice
-AftdA'  {ifotidA'       N0_Nh   ransoming;self-sacrifice
 <ftdA&  {ifotidA&       Nh      ransoming;self-sacrifice
-AftdA&  {ifotidA&       Nh      ransoming;self-sacrifice
 <ftdA}  {ifotidA}       Nhy     ransoming;self-sacrifice
-AftdA}  {ifotidA}       Nhy     ransoming;self-sacrifice
 <ftdA'  {ifotidA'       NAn_Nayn        ransoming;self-sacrifice
-AftdA'  {ifotidA'       NAn_Nayn        ransoming;self-sacrifice
 <ftdA}  {ifotidA}       Nayn    ransoming;self-sacrifice
-AftdA}  {ifotidA}       Nayn    ransoming;self-sacrifice
 <ftdA'  {ifotidA'       NAt     ransoming;self-sacrifice
-AftdA'  {ifotidA'       NAt     ransoming;self-sacrifice
 ;; fAdiy_1
 fAdy    fAdiy   N0F_Nh  redeemer;ransomer
 fAd     fAd     NK      redeemer;ransomer
@@ -1263,7 +1187,6 @@ mfdy    mafodiy~        Nall    beloved;worthy of sacrifice     <pos>mafodiy~/AD
 ;; fa*~_1
 f*      fa*~    N       unique;peerless
 >f*A*   >afo*A* N       unique;peerless
-Af*A*   >afo*A* N       unique;peerless
 f*w*    fu*uw*  N       unique;peerless
 ;
 ;--- f*lk
@@ -1283,17 +1206,13 @@ fr      fir~    IV_V    escape;flee;defect;desert
 frr     forir   IV_C    escape;flee;defect;desert
 ;; >afar~_1
 >fr     >afar~  PV_V    scare off
-Afr     >afar~  PV_V    scare off
 >frr    >aforar PV_C    scare off
-Afrr    >aforar PV_C    scare off
 fr      fir~    IV_V_yu scare off
 frr     forir   IV_C_yu scare off
 fr      far~    IV_V_Pass_yu    be scared off
 ;; {ifotar~_1
 <ftr    {ifotar~        PV_V    gleam;shine;reveal
-Aftr    {ifotar~        PV_V    gleam;shine;reveal
 <ftrr   {ifotarar       PV_C    gleam;shine;reveal
-Aftrr   {ifotarar       PV_C    gleam;shine;reveal
 ftr     fotar~  IV_V    gleam;shine;reveal
 ftrr    fotarir IV_C    gleam;shine;reveal
 ;; firAr_1
@@ -1320,11 +1239,8 @@ fr&     fara&   Nh      onager;wild ass
 fr}     fara}   Nhy     onager;wild ass
 fr|     fara|   N-|     onagers;wild asses
 >frA'   >aforA' N0_Nh   onagers;wild asses
-AfrA'   >aforA' N0_Nh   onagers;wild asses
 >frA&   >aforA& Nh      onagers;wild asses
-AfrA&   >aforA& Nh      onagers;wild asses
 >frA}   >aforA} Nhy     onagers;wild asses
-AfrA}   >aforA} Nhy     onagers;wild asses
 ;; farA'_1
 frA'    farA'   N0_Nh   onager;wild ass
 frA&    farA&   Nh      onager;wild ass
@@ -1397,7 +1313,6 @@ frj     far~aj  PV      open;separate
 frj     far~ij  IV_yu   open;separate
 ;; >aforaj_1
 >frj    >aforaj PV      release;liberate;set free
-Afrj    >aforaj PV      release;liberate;set free
 frj     forij   IV_yu   release;liberate;set free
 frj     foraj   IV_Pass_yu      be released;be liberate;be set free
 ;; tafar~aj_1
@@ -1405,7 +1320,6 @@ tfrj    tafar~aj        PV      observe
 tfrj    tafar~aj        IV      observe
 ;; {inofaraj_1
 <nfrj   {inofaraj       PV_intr be opened;display;reveal
-Anfrj   {inofaraj       PV_intr be opened;display;reveal
 nfrj    nofarij IV_intr be opened;display;reveal
 ;; faroj_1
 frj     faroj   N       opening;gap
@@ -1431,12 +1345,10 @@ mfArj   mafArij Ndip    relief;happy endings
 tfryj   taforiyj        NduAt   alleviating;ameliorating;consoling;distracting
 ;; <iforAj_1
 <frAj   <iforAj NduAt   release;liberation
-AfrAj   <iforAj NduAt   release;liberation
 ;; tafar~uj_1
 tfrj    tafar~uj        NduAt   observation;watching
 ;; {inofirAj_1
 <nfrAj  {inofirAj       NduAt   relaxation;divergence
-AnfrAj  {inofirAj       NduAt   relaxation;divergence
 ;; mutafar~ij_1
 mtfrj   mutafar~ij      Nall    spectator;onlooker
 ;; munofarij_1
@@ -1468,14 +1380,12 @@ frH     far~aH  PV      gladden;make merry
 frH     far~iH  IV_yu   gladden;make merry
 ;; >aforaH_1
 >frH    >aforaH PV      gladden;make merry
-AfrH    >aforaH PV      gladden;make merry
 frH     foriH   IV_yu   gladden;make merry
 frH     foraH   IV_Pass_yu      be gladdened;be made merry
 ;; faraH_1
 frH     faraH   N       joy;happiness;festivity
 frH     faraH   NF      with joy;joyfully     <pos>faraH/ADV</pos>
 >frAH   >aforAH N       joys;festivities
-AfrAH   >aforAH N       joys;festivities
 ;; faraH_2
 frH     faraH   N0      Farah
 ;; faroHap_1
@@ -1511,16 +1421,13 @@ frx     far~ax  PV      hatch;germinate
 frx     far~ix  IV_yu   hatch;germinate
 ;; >aforax_1
 >frx    >aforax PV      hatch;germinate
-Afrx    >aforax PV      hatch;germinate
 frx     forix   IV_yu   hatch;germinate
 frx     forax   IV_Pass_yu      be hatched;be germinated
 ;; farox_1
 frx     farox   N       chicken
 >frAx   >aforAx N       chickens
-AfrAx   >aforAx N       chickens
 frwx    furuwx  N       chickens
 >frx    >aforux N       chickens
-Afrx    >aforux N       chickens
 frx     farox   Napdu   chicken;hen
 frx     farax   NAt     chickens;hens
 ;; firAx_1
@@ -1532,7 +1439,6 @@ mfArx   mafArix Ndip    chicken coops
 tfryx   taforiyx        N/At    hatching;incubation
 ;; <iforAx_1
 <frAx   <iforAx N/At    hatching;incubation
-AfrAx   <iforAx N/At    hatching;incubation
 ;
 ;--- frd
 ;; far~ad_1
@@ -1540,7 +1446,6 @@ frd     far~ad  PV      individualize;separate in units
 frd     far~id  IV_yu   individualize;separate in units
 ;; >aforad_1
 >frd    >aforad PV      single out;set aside;isolate
-Afrd    >aforad PV      single out;set aside;isolate
 frd     forid   IV_yu   single out;set aside;isolate
 frd     forad   IV_Pass_yu      be singled out;be set aside;be isolated
 ;; tafar~ad_1
@@ -1548,16 +1453,13 @@ tfrd    tafar~ad        PV_intr be alone;be singled out;be isolated
 tfrd    tafar~ad        IV_intr be alone;be singled out;be isolated
 ;; {inofarad_1
 <nfrd   {inofarad       PV_intr be isolated;be alone;stand apart
-Anfrd   {inofarad       PV_intr be isolated;be alone;stand apart
 nfrd    nofarid IV_intr be isolated;be alone;stand apart
 ;; {isotaforad_1
 <stfrd  {isotaforad     PV      isolate
-Astfrd  {isotaforad     PV      isolate
 stfrd   sotaforid       IV      isolate
 ;; farod_1
 frd     farod   N       individual;unit
 >frAd   >aforAd N       individuals
-AfrAd   >aforAd N       individuals
 frAdY   furAdaY N0      individuals
 ;; farodap_1
 frd     farod   Nap     one item (of a pair)
@@ -1565,7 +1467,6 @@ frd     farod   Nap     one item (of a pair)
 frd     farod   NF      individually;separately     <pos>farod/ADV</pos>
 ;; >aforAdiy~_1
 >frAdy  >aforAdiy~      Nall    individual     <pos>>aforAdiy~/ADJ</pos>
-AfrAdy  >aforAdiy~      Nall    individual     <pos>>aforAdiy~/ADJ</pos>
 ;; farod_2
 frd     farod   Ndu     pistol
 frwd    furuwd  N       pistols
@@ -1604,13 +1505,10 @@ tfryd   taforiyd        N/At    itemization;detailing
 tfrydy  taforiydiy~     N-ap    detailed;itemized     <pos>taforiydiy~/ADJ</pos>
 ;; <iforAd_1
 <frAd   <iforAd N       singular usage;individuation
-AfrAd   <iforAd N       singular usage;individuation
 ;; {inofirAd_1
 <nfrAd  {inofirAd       N/At    seclusion;isolation
-AnfrAd  {inofirAd       N/At    seclusion;isolation
 ;; {inofirAdiy~_1
 <nfrAdy {inofirAdiy~    Nall    unilateral;individualistic;isolationist     <pos>{inofirAdiy~/ADJ</pos>
-AnfrAdy {inofirAdiy~    Nall    unilateral;individualistic;isolationist     <pos>{inofirAdiy~/ADJ</pos>
 ;; muforad_1
 mfrd    muforad N-ap    single;individual;alone
 ;; muforadap_1
@@ -1649,7 +1547,6 @@ frz     faraz   PV      sort out;select;classify
 frz     foriz   IV      sort out;select;classify
 ;; >aforaz_1
 >frz    >aforaz PV      sort out;select;classify
-Afrz    >aforaz PV      sort out;select;classify
 frz     foriz   IV_yu   sort out;select;classify
 frz     foraz   IV_Pass_yu      be sorted out;be selected;be classified
 ;; faroz_1
@@ -1661,7 +1558,6 @@ mfrz    maforaz Napdu   detachment;commandos
 mfArz   mafAriz Ndip    detachments;commandos
 ;; <iforAz_1
 <frAz   <iforAz N/At    secretion;exudation
-AfrAz   <iforAz N/At    secretion;exudation
 ;; fArizap_1
 fArz    fAriz   Nap     comma
 ;; muforazAt_1
@@ -1693,12 +1589,10 @@ tfrs    tafar~as        PV      scrutinize;look firmly at
 tfrs    tafar~as        IV      scrutinize;look firmly at
 ;; {ifotaras_1
 <ftrs   {ifotaras       PV      ravish;devour
-Aftrs   {ifotaras       PV      ravish;devour
 ftrs    fotaris IV      ravish;devour
 ;; faras_1
 frs     faras   Ndu     horse
 >frAs   >aforAs N       horses
-AfrAs   >aforAs N       horses
 ;; farasAn_1
 frsAn   farasAn N0      Farasan
 ;; farAsap_1
@@ -1716,7 +1610,6 @@ frys    fariys  Napdu   victim;prey
 frA}s   farA}is Ndip    victims;preys
 ;; {ifotirAs_1
 <ftrAs  {ifotirAs       N/At    rapaciousness;predatory;devouring
-AftrAs  {ifotirAs       N/At    rapaciousness;predatory;devouring
 ;; fAris_1
 fArs    fAris   N0      Faris
 ;; fAris_2
@@ -1760,7 +1653,6 @@ fr$     far~a$  PV      furnish
 fr$     far~i$  IV_yu   furnish
 ;; {ifotara$_1
 <ftr$   {ifotara$       PV      spread out;lie down
-Aftr$   {ifotara$       PV      spread out;lie down
 ftr$    fotari$ IV      spread out;lie down
 ;; faro$_1
 fr$     faro$   N       household effects
@@ -1773,7 +1665,6 @@ frA$    farA$   NapAt   butterfly
 ;; firA$_1
 frA$    firA$   N       bed
 >fr$    >afori$ Nap     bedding
-Afr$    >afori$ Nap     bedding
 ;; far~A$_1
 frA$    far~A$  N       valet de chambre;servant
 ;; far~A$_2
@@ -1854,7 +1745,6 @@ frD     furiD   PV_Pass be imposed
 frD     foraD   IV_Pass_yu      be imposed
 ;; {ifotaraD_1
 <ftrD   {ifotaraD       PV      expect;suppose;presume
-AftrD   {ifotaraD       PV      expect;suppose;presume
 ftrD    fotariD IV      expect;suppose;presume
 ftrD    fotaraD IV_Pass_yu      be expected;be supposed;be presumed
 ;; faroD_1
@@ -1871,18 +1761,13 @@ fryD    fariyD  Napdu   religious duty
 frA}D   farA}iD Ndip    religious duties
 ;; {ifotirAD_1
 <ftrAD  {ifotirAD       Ndu     assumption;supposition;hypothesis
-AftrAD  {ifotirAD       Ndu     assumption;supposition;hypothesis
 <ftrAD  {ifotirAD       NAt     assumptions;suppositions;hypotheses
-AftrAD  {ifotirAD       NAt     assumptions;suppositions;hypotheses
 ;; {ifotirADAF_1
 <ftrAD  {ifotirAD       NF      hypothetically     <pos>{ifotirAD/ADV</pos>
-AftrAD  {ifotirAD       NF      hypothetically     <pos>{ifotirAD/ADV</pos>
 ;; {ifotirADiy~_1
 <ftrADy {ifotirADiy~    N-ap    hypothetical     <pos>{ifotirADiy~/ADJ</pos>
-AftrADy {ifotirADiy~    N-ap    hypothetical     <pos>{ifotirADiy~/ADJ</pos>
 ;; {ifotirADiy~AF_1
 <ftrADy {ifotirADiy~    NF      hypothetically     <pos>{ifotirADiy~/ADV</pos>
-AftrADy {ifotirADiy~    NF      hypothetically     <pos>{ifotirADiy~/ADV</pos>
 ;; fAriD_1
 fArD    fAriD   N       old;aged
 ;; maforuwD_1
@@ -1904,12 +1789,10 @@ frT     far~aT  PV      abandon;be lax
 frT     far~iT  IV_yu   abandon;be lax
 ;; >aforaT_1
 >frT    >aforaT PV_intr be excessive;go too far
-AfrT    >aforaT PV_intr be excessive;go too far
 frT     foriT   IV_intr_yu      be excessive;go too far
 frT     foraT   IV_Pass_yu      be excessive;go too far
 ;; {inofaraT_1
 <nfrT   {inofaraT       PV_intr be dissolved;break up
-AnfrT   {inofaraT       PV_intr be dissolved;break up
 nfrT    nofariT IV_intr be dissolved;break up
 ;; faroT_1
 frT     faroT   N       excess;hyper-
@@ -1919,7 +1802,6 @@ frT     faroT   NF      loose;in bulk     <pos>faroT/ADV</pos>
 tfryT   taforiyT        N/At    negligence
 ;; <iforAT_1
 <frAT   <iforAT N/At    excess;abuse;lack of moderation
-AfrAT   <iforAT N/At    excess;abuse;lack of moderation
 ;; fAriT_1
 fArT    fAriT   N-ap    elapsed;past     <pos>fAriT/ADJ</pos>
 ;; mufar~iT_1
@@ -1928,7 +1810,6 @@ mfrT    mufar~iT        Nall    squandering;prodigal     <pos>mufar~iT/ADJ</pos>
 mfrT    muforiT Nall    excessive;lacking moderation     <pos>muforiT/ADJ</pos>
 ;; {inofirAT_1
 <nfrAT  {inofirAT       N       dissolution;breaking up;separation
-AnfrAT  {inofirAT       N       dissolution;breaking up;separation
 ;
 ;--- frTH
 ;; faroTaH_1
@@ -1953,7 +1834,6 @@ tfrE    tafar~aE        PV      branch out;spread out
 tfrE    tafar~aE        IV      branch out;spread out
 ;; {ifotaraE_1
 <ftrE   {ifotaraE       PV      deflower
-AftrE   {ifotaraE       PV      deflower
 ftrE    fotariE IV      deflower
 ;; faroE_1
 frE     faroE   Ndu     branch;section;subdivision
@@ -2002,7 +1882,6 @@ frg     far~ag  PV      empty;evacuate
 frg     far~ig  IV_yu   empty;evacuate
 ;; >aforag_1
 >frg    >aforag PV      empty;evacuate
-Afrg    >aforag PV      empty;evacuate
 frg     forig   IV_yu   empty;evacuate
 frg     forag   IV_Pass_yu      be emptied;be evacuated
 ;; tafar~ag_1
@@ -2010,7 +1889,6 @@ tfrg    tafar~ag        PV_intr be unoccupied;be free from work
 tfrg    tafar~ag        IV_intr be unoccupied;be free from work
 ;; {isotaforag_1
 <stfrg  {isotaforag     PV      vomit
-Astfrg  {isotaforag     PV      vomit
 stfrg   sotaforig       IV      vomit
 ;; farig_1
 frg     farig   N-ap    empty;vacant     <pos>farig/ADJ</pos>
@@ -2024,17 +1902,14 @@ frAgy   farAgiy~        N-ap    vacuum     <pos>farAgiy~/ADJ</pos>
 frwg    furuwg  N       termination;expiration
 ;; >aforag_2
 >frg    >aforag Nel     more/most empty
-Afrg    >aforag Nel     more/most empty
 ;; taforiyg_1
 tfryg   taforiyg        N/At    emptying;unloading
 ;; <iforAg_1
 <frAg   <iforAg N/At    emptying;evacuation
-AfrAg   <iforAg N/At    emptying;evacuation
 ;; tafar~ug_1
 tfrg    tafar~ug        N/At    freedom;leisure
 ;; {isotiforAg_1
 <stfrAg {isotiforAg     N/At    vomiting;evacuation;emptying
-AstfrAg {isotiforAg     N/At    vomiting;evacuation;emptying
 ;; fArig_1
 fArg    fArig   N-ap    empty;not busy;void     <pos>fArig/ADJ</pos>
 ;; maforuwg_1
@@ -2096,11 +1971,9 @@ tfArq   tafAraq PV      split up;break up (from each other)
 tfArq   tafAraq IV      split up;break up (from each other)
 ;; {inofaraq_1
 <nfrq   {inofaraq       PV_intr be separated;split
-Anfrq   {inofaraq       PV_intr be separated;split
 nfrq    nofariq IV_intr be separated;split
 ;; {ifotaraq_1
 <ftrq   {ifotaraq       PV      separate;bifurcate;split
-Aftrq   {ifotaraq       PV      separate;bifurcate;split
 ftrq    fotariq IV      separate;bifurcate;split
 ;; faroq_1
 frq     faroq   N       difference;discrepancy
@@ -2167,7 +2040,6 @@ mfArq   mufAraq NapAt   departure from;separation from
 tfrq    tafar~uq        N/At    dispersal;disunion
 ;; {ifotirAq_1
 <ftrAq  {ifotirAq       N/At    separation;division
-AftrAq  {ifotirAq       N/At    separation;division
 ;; fAriq_1
 fArq    fAriq   N       difference
 fwArq   fawAriq Ndip    differences;distinctive features
@@ -2224,7 +2096,6 @@ tfrk    tafar~ak        PV_intr be rubbed
 tfrk    tafar~ak        IV_intr be rubbed
 ;; {inofarak_1
 <nfrk   {inofarak       PV_intr be rubbed
-Anfrk   {inofarak       PV_intr be rubbed
 nfrk    nofarik IV_intr be rubbed
 ;; farok_1
 frk     farok   N       rubbing;friction
@@ -2285,7 +2156,6 @@ frmAn   firomAn N0      Firman
 ;; furon_1
 frn     furon   Ndu     oven;furnace
 >frAn   >aforAn N       ovens;furnaces
-AfrAn   >aforAn N       ovens;furnaces
 ;; furoniy~At_1
 frny    furoniy~        NAt     small ovens     <pos>furoniy~/NOUN</pos>
 ;; far~An_1
@@ -2321,14 +2191,11 @@ frnjy   faranojiy~      Nall    Farengi     <pos>faranojiy~/NOUN</pos>
 frnjy   faranojiy~      Nall    Farengi     <pos>faranojiy~/ADJ</pos>
 ;; <iforanoj_1
 <frnj   <iforanoj       N       westerners;Europeans
-Afrnj   <iforanoj       N       westerners;Europeans
 ;; <iforanojiy~_1
 <frnjy  <iforanojiy~    Nall    westerner;European     <pos><iforanojiy~/NOUN</pos>
-Afrnjy  <iforanojiy~    Nall    westerner;European     <pos><iforanojiy~/NOUN</pos>
 frnj    faranoj Nap     westerners;Europeans
 ;; <iforanojiy~_2
 <frnjy  <iforanojiy~    Nall    westerner;European     <pos><iforanojiy~/ADJ</pos>
-Afrnjy  <iforanojiy~    Nall    westerner;European     <pos><iforanojiy~/ADJ</pos>
 ;
 ;--- frnjy
 ;; franojiyh_1
@@ -2432,13 +2299,9 @@ frY     far~aY  IV_0_Pass_yu    be cut or split lengthwise
 fry     far~ay  IV_Ann_Pass_yu  be cut or split lengthwise
 ;; >aforaY_1
 >frY    >aforaY PV_0    cut or split lengthwise
-AfrY    >aforaY PV_0    cut or split lengthwise
 >frA    >aforA  PV_h    cut or split lengthwise
-AfrA    >aforA  PV_h    cut or split lengthwise
 >fry    >aforay PV_Atn  cut or split lengthwise
-Afry    >aforay PV_Atn  cut or split lengthwise
 >fr     >afor   PV_ttAw cut or split lengthwise
-Afr     >afor   PV_ttAw cut or split lengthwise
 fry     foriy   IV_0hAnn_yu     cut or split lengthwise
 fr      for     IV_0hwnyn_yu    cut or split lengthwise
 frY     foraY   IV_0_Pass_yu    be cut or split lengthwise
@@ -2452,13 +2315,9 @@ tfry    tafar~ay        IV_Ann  be cut or split lengthwise
 tfr     tafar~  IV_0hwnyn       be cut or split lengthwise
 ;; {ifotaraY_1
 <ftrY   {ifotaraY       PV_0    lie;fabricate;slander
-AftrY   {ifotaraY       PV_0    lie;fabricate;slander
 <ftrA   {ifotarA        PV_h    lie;fabricate;slander
-AftrA   {ifotarA        PV_h    lie;fabricate;slander
 <ftry   {ifotaray       PV_Atn  lie;fabricate;slander
-Aftry   {ifotaray       PV_Atn  lie;fabricate;slander
 <ftr    {ifotar PV_ttAw lie;fabricate;slander
-Aftr    {ifotar PV_ttAw lie;fabricate;slander
 ftry    fotariy IV_0hAnn        lie;fabricate;slander
 ftr     fotar   IV_0hwnyn       lie;fabricate;slander
 ftrY    fotaraY IV_0    lie;fabricate;slander
@@ -2472,20 +2331,13 @@ fry     fariy~  N-ap    unprecedented     <pos>fariy~/ADJ</pos>
 mfrA    miforA  Napdu   meat grinder
 ;; {ifotirA'_1
 <ftrA'  {ifotirA'       N0_Nh   lying;falsehood
-AftrA'  {ifotirA'       N0_Nh   lying;falsehood
 <ftrA&  {ifotirA&       Nh      lying;falsehood
-AftrA&  {ifotirA&       Nh      lying;falsehood
 <ftrA}  {ifotirA}       Nhy     lying;falsehood
-AftrA}  {ifotirA}       Nhy     lying;falsehood
 <ftrA'  {ifotirA'       NAn_Nayn        lies;falsehood
-AftrA'  {ifotirA'       NAn_Nayn        lies;falsehood
 <ftrA}  {ifotirA}       Nayn    lies;falsehood
-AftrA}  {ifotirA}       Nayn    lies;falsehood
 <ftrA'  {ifotirA'       NAt     lies;falsehood
-AftrA'  {ifotirA'       NAt     lies;falsehood
 ;; {ifotirA}iy~_1
 <ftrA}y {ifotirA}iy~    Nall    false;slanderous     <pos>{ifotirA}iy~/ADJ</pos>
-AftrA}y {ifotirA}iy~    Nall    false;slanderous     <pos>{ifotirA}iy~/ADJ</pos>
 ;; mufotariy_1
 mftry   mufotariy       N0_Nh   liar;slanderer
 mftr    mufotar NK      liar;slanderer
@@ -2531,9 +2383,7 @@ fz      fiz~    IV_V    frighten;startle
 fzz     foziz   IV_C    frighten;startle
 ;; >afaz~_1
 >fz     >afaz~  PV_V    frighten;startle
-Afz     >afaz~  PV_V    frighten;startle
 >fzz    >afozaz PV_C    frighten;startle
-Afzz    >afozaz PV_C    frighten;startle
 fz      fiz~    IV_V_yu frighten;startle
 fzz     foziz   IV_C_yu frighten;startle
 fz      faz~    IV_V_Pass_yu    be frightened;be startled
@@ -2542,19 +2392,15 @@ tfzz    tafaz~az        PV_intr be uneasy
 tfzz    tafaz~az        IV_intr be uneasy
 ;; {isotafaz~_1
 <stfz   {isotafaz~      PV_V    provoke;harass
-Astfz   {isotafaz~      PV_V    provoke;harass
 <stfzz  {isotafozaz     PV_C    provoke;harass
-Astfzz  {isotafozaz     PV_C    provoke;harass
 stfz    sotafiz~        IV_V    provoke;harass
 stfzz   sotafoziz       IV_C    provoke;harass
 ;; faz~ap_1
 fz      faz~    Nap     startled jump
 ;; {isotifozAz_1
 <stfzAz {isotifozAz     N/At    provocation;harassment
-AstfzAz {isotifozAz     N/At    provocation;harassment
 ;; {isotifozAziy~_1
 <stfzAzy        {isotifozAziy~  Nall    provocative;inflammatory     <pos>{isotifozAziy~/ADJ</pos>
-AstfzAzy        {isotifozAziy~  Nall    provocative;inflammatory     <pos>{isotifozAziy~/ADJ</pos>
 ;; mufotaz~_1
 mftz    mufotaz~        Nall    agitator;provocateur
 ;
@@ -2567,7 +2413,6 @@ tfzr    tafaz~ar        PV_intr be torn open;be split open
 tfzr    tafaz~ar        IV_intr be torn open;be split open
 ;; {inofazar_1
 <nfzr   {inofazar       PV_intr be torn open;be split open;be punctured
-Anfzr   {inofazar       PV_intr be torn open;be split open;be punctured
 nfzr    nofazir IV_intr be torn open;be split open;be punctured
 ;; fazArap_1
 fzAr    fazAr   Nap     leopard
@@ -2578,7 +2423,6 @@ fzwr    faz~uwr Napdu   puzzle;riddle;quiz
 fwAzyr  fawAziyr        Ndip    puzzles;riddles;quizzes
 ;; {inofizAr_1
 <nfzAr  {inofizAr       N/At    puncture
-AnfzAr  {inofizAr       N/At    puncture
 ;
 ;--- fzE
 ;; faziE-a_1
@@ -2589,7 +2433,6 @@ fzE     faz~aE  PV      frighten;dismay
 fzE     faz~iE  IV_yu   frighten;dismay
 ;; >afozaE_1
 >fzE    >afozaE PV      frighten;startle
-AfzE    >afozaE PV      frighten;startle
 fzE     foziE   IV_yu   frighten;startle
 fzE     fozaE   IV_Pass_yu      be frightened;be startled
 ;; tafaz~aE_1
@@ -2598,7 +2441,6 @@ tfzE    tafaz~aE        IV_intr be startled;be frightened
 ;; fazaE_1
 fzE     fazaE   N       fear;fright
 >fzAE   >afozAE N       fear;fright
-AfzAE   >afozAE N       fear;fright
 ;; faziE_1
 fzE     faziE   N-ap    frightened;alarmed     <pos>faziE/ADJ</pos>
 ;; fazoEAn_1
@@ -2659,7 +2501,6 @@ fsH     fas~aH  PV      broaden;widen
 fsH     fas~iH  IV_yu   broaden;widen
 ;; >afosaH_1
 >fsH    >afosaH PV      make room;clear the way
-AfsH    >afosaH PV      make room;clear the way
 fsH     fosiH   IV_yu   make room;clear the way
 fsH     fosaH   IV_Pass_yu      be made clear (way);be opened (space);be made available
 ;; tafas~aH_1
@@ -2667,7 +2508,6 @@ tfsH    tafas~aH        PV_intr become wide;be spacious
 tfsH    tafas~aH        IV_intr become wide;be spacious
 ;; {inofasaH_1
 <nfsH   {inofasaH       PV_intr become wide;be spacious
-AnfsH   {inofasaH       PV_intr become wide;be spacious
 nfsH    nofasiH IV_intr become wide;be spacious
 ;; fasoH_1
 fsH     fasoH   N       making room;clearing the way
@@ -2678,10 +2518,8 @@ fsyH    fasiyH  N-ap    wide;ample;roomy     <pos>fasiyH/ADJ</pos>
 fsAH    fisAH   N       wide;ample;roomy
 ;; <ifosAH_1
 <fsAH   <ifosAH N       making room;clearing the way
-AfsAH   <ifosAH N       making room;clearing the way
 ;; {inofisAH_1
 <nfsAH  {inofisAH       N/At    ampleness;expansion
-AnfsAH  {inofisAH       N/At    ampleness;expansion
 ;; munofasaH_1
 mnfsH   munofasaH       N       wideness;ampleness     <pos>munofasaH/ADJ</pos>
 ;
@@ -2697,7 +2535,6 @@ tfsx    tafas~ax        PV      disintegrate;decompose
 tfsx    tafas~ax        IV      disintegrate;decompose
 ;; {inofasax_1
 <nfsx   {inofasax       PV_intr be annulled;be dissolved;be revoked
-Anfsx   {inofasax       PV_intr be annulled;be dissolved;be revoked
 nfsx    nofasix IV_intr be annulled;be dissolved;be revoked
 ;; fasox_1
 fsx     fasox   N       abrogation;invalidation
@@ -2729,12 +2566,10 @@ fsd     fas~ad  PV      corrupt;spoil
 fsd     fas~id  IV_yu   corrupt;spoil
 ;; >afosad_1
 >fsd    >afosad PV      spoil;corrupt
-Afsd    >afosad PV      spoil;corrupt
 fsd     fosid   IV_yu   spoil;corrupt
 fsd     fosad   IV_Pass_yu      be spoiled;be corrupted
 ;; {inofasad_1
 <nfsd   {inofasad       PV_intr be spoiled;be corrupted
-Anfsd   {inofasad       PV_intr be spoiled;be corrupted
 nfsd    nofasid IV_intr be spoiled;be corrupted
 ;; fasAd_1
 fsAd    fasAd   N       corruption
@@ -2745,7 +2580,6 @@ mfsd    mafosad Nap     scandal;criminal act
 mfAsd   mafAsid Ndip    scandals;criminal acts
 ;; <ifosAd_1
 <fsAd   <ifosAd N/At    corruption;debasement;contamination
-AfsAd   <ifosAd N/At    corruption;debasement;contamination
 ;; fAsid_1
 fAsd    fAsid   Nall    corrupt;immoral     <pos>fAsid/ADJ</pos>
 fsdY    fasodaY N0      corrupt;immoral
@@ -2760,7 +2594,6 @@ fsr     fas~ar  PV      explain;interpret
 fsr     fas~ir  IV_yu   explain;interpret
 ;; {isotafosar_1
 <stfsr  {isotafosar     PV      interrogate;demand explanation
-Astfsr  {isotafosar     PV      interrogate;demand explanation
 stfsr   sotafosir       IV      interrogate;demand explanation
 ;; tafosiyr_1
 tfsyr   tafosiyr        NduAt   explanation;commentary
@@ -2772,7 +2605,6 @@ tfsyry  tafosiyriy~     N-ap    explanatory;interpretive     <pos>tafosiyriy~/AD
 tfsr    tafosir Napdu   specimen
 ;; {isotifosAr_1
 <stfsAr {isotifosAr     N/At    inquiry;interrogation
-AstfsAr {isotifosAr     N/At    inquiry;interrogation
 ;; mufas~ir_1
 mfsr    mufas~ir        Nall    commentator
 ;
@@ -2910,9 +2742,7 @@ f$      fu$~    IV_V    cause to subside
 f$$     fo$u$   IV_C    cause to subside
 ;; {inofa$~_1
 <nf$    {inofa$~        PV_V    subside
-Anf$    {inofa$~        PV_V    subside
 <nf$$   {inofa$a$       PV_C    subside
-Anf$$   {inofa$a$       PV_C    subside
 nf$     nofa$~  IV_V    subside
 nf$$    nofa$i$ IV_C    subside
 ;; fa$~_1
@@ -2966,14 +2796,12 @@ f$l     fa$il   PV      fail;be unsuccessful
 f$l     fo$al   IV      fail;be unsuccessful
 ;; >afo$al_1
 >f$l    >afo$al PV      thwart;frustrate
-Af$l    >afo$al PV      thwart;frustrate
 f$l     fo$il   IV_yu   thwart;frustrate
 f$l     fo$al   IV_Pass_yu      be thwarted;be frustrated
 ;; fa$al_1
 f$l     fa$al   N       failure
 ;; <ifo$Al_1
 <f$Al   <ifo$Al N/At    thwarting;torpedoing
-Af$Al   <ifo$Al N/At    thwarting;torpedoing
 ;; fA$il_1
 fA$l    fA$il   Nall    failing;unsuccessful     <pos>fA$il/ADJ</pos>
 ;
@@ -2986,13 +2814,9 @@ f$w     fo$uw   IV_0hAnn        be spread;circulate;be disclosed
 f$      fo$     IV_0hwnyn       be spread;circulate;be disclosed
 ;; >afo$aY_1
 >f$Y    >afo$aY PV_0    divulge;disclose;disseminate
-Af$Y    >afo$aY PV_0    divulge;disclose;disseminate
 >f$A    >afo$A  PV_h    divulge;disclose;disseminate
-Af$A    >afo$A  PV_h    divulge;disclose;disseminate
 >f$y    >afo$ay PV_Atn  divulge;disclose;disseminate
-Af$y    >afo$ay PV_Atn  divulge;disclose;disseminate
 >f$     >afo$   PV_ttAw divulge;disclose;disseminate
-Af$     >afo$   PV_ttAw divulge;disclose;disseminate
 f$y     fo$iy   IV_0hAnn_yu     divulge;disclose;disseminate
 f$      fo$     IV_0hwnyn_yu    divulge;disclose;disseminate
 f$Y     fo$aY   IV_0_Pass_yu    be divulged;be disclosed;be disseminated
@@ -3006,13 +2830,9 @@ tf$y    tafa$~ay        IV_Ann  be disseminated;be spread
 tf$     tafa$~  IV_0hwnyn       be disseminated;be spread
 ;; <ifo$A'_1
 <f$A'   <ifo$A' N0_Nh   revelation;divulgence
-Af$A'   <ifo$A' N0_Nh   revelation;divulgence
 <f$A&   <ifo$A& Nh      revelation;divulgence
-Af$A&   <ifo$A& Nh      revelation;divulgence
 <f$A}   <ifo$A} Nhy     revelation;divulgence
-Af$A}   <ifo$A} Nhy     revelation;divulgence
 <f$A'   <ifo$A' NAt     revelations;divulgences
-Af$A'   <ifo$A' NAt     revelations;divulgences
 ;; tafa$~iy_1
 tf$y    tafa$~iy        N0_Nh   spreading;diffusion
 tf$     tafa$~  NK      spreading;diffusion
@@ -3047,9 +2867,7 @@ tfSS    tafaS~aS        PV_intr be divided;be segmented
 tfSS    tafaS~aS        IV_intr be divided;be segmented
 ;; {ifotaS~_1
 <ftS    {ifotaS~        PV_V    peel off;dismember;separate
-AftS    {ifotaS~        PV_V    peel off;dismember;separate
 <ftSS   {ifotaSaS       PV_C    peel off;dismember;separate
-AftSS   {ifotaSaS       PV_C    peel off;dismember;separate
 ftS     fotaS~  IV_V    peel off;dismember;separate
 ftSS    fotaSiS IV_C    peel off;dismember;separate
 ;; faS~_1
@@ -3070,7 +2888,6 @@ fSH     faSuH   PV_intr be eloquent
 fSH     foSuH   IV_intr be eloquent
 ;; >afoSaH_1
 >fSH    >afoSaH PV      express clearly;make plain
-AfSH    >afoSaH PV      express clearly;make plain
 fSH     foSiH   IV_yu   express clearly;make plain
 fSH     foSaH   IV_Pass_yu      be expressed clearly;be made plain
 ;; tafaS~aH_1
@@ -3089,7 +2906,6 @@ fSAH    fiSAH   N       eloquent;fluent
 fSAH    faSAH   Nap     eloquence
 ;; >afoSaH_2
 >fSH    >afoSaH Nel     more/most eloquent
-AfSH    >afoSaH Nel     more/most eloquent
 ;; fuSoHaY_1
 fSHY    fuSoHaY N0      pure;uncorrupted;Standard/Classical Arabic
 fSHA    fuSoHA  Nhy     pure;uncorrupted;Standard/Classical Arabic
@@ -3098,7 +2914,6 @@ fSHy    fuSoHay NAn_Nayn        pure;uncorrupted;Standard/Classical Arabic
 tfSyH   tafoSiyH        N/At    language purification
 ;; <ifoSAH_1
 <fSAH   <ifoSAH N/At    clear expression;frank statement
-AfSAH   <ifoSAH N/At    clear expression;frank statement
 ;; tafASuH_1
 tfASH   tafASuH N/At    eloquent speech
 ;; mufoSiH_1
@@ -3117,7 +2932,6 @@ tfSd    tafaS~ad        PV      drip;perspire
 tfSd    tafaS~ad        IV      drip;perspire
 ;; {inofaSad_1
 <nfSd   {inofaSad       PV      drip;perspire
-AnfSd   {inofaSad       PV      drip;perspire
 nfSd    nofaSid IV      drip;perspire
 ;; faSod_1
 fSd     faSod   N       bloodletting;phlebotomy
@@ -3171,7 +2985,6 @@ fASl    fASal   PV      part company with;be dissociated from
 fASl    fASil   IV_yu   part company with;be dissociated from
 ;; {inofaSal_1
 <nfSl   {inofaSal       PV_intr be separated;be removed
-AnfSl   {inofaSal       PV_intr be separated;be removed
 nfSl    nofaSil IV_intr be separated;be removed
 ;; faSol_1
 fSl     faSol   N       discharge;dismissal
@@ -3208,13 +3021,10 @@ tfASyl  tafASiyl        Ndip    details
 tfSyly  tafoSiyliy~     N-ap    detailed;minute     <pos>tafoSiyliy~/ADJ</pos>
 ;; {inofiSAl_1
 <nfSAl  {inofiSAl       NduAt   separation;disengagement;secession
-AnfSAl  {inofiSAl       NduAt   separation;disengagement;secession
 ;; {inofiSAliy~_1
 <nfSAly {inofiSAliy~    Nall    separatist;schismatic     <pos>{inofiSAliy~/ADJ</pos>
-AnfSAly {inofiSAliy~    Nall    separatist;schismatic     <pos>{inofiSAliy~/ADJ</pos>
 ;; {inofiSAliy~ap_1
 <nfSAly {inofiSAliy~    Nap     separatism     <pos>{inofiSAliy~/NOUN</pos>
-AnfSAly {inofiSAliy~    Nap     separatism     <pos>{inofiSAliy~/NOUN</pos>
 ;; fASil_1
 fASl    fASil   N-ap    conclusive;decisive
 fwASl   fawASil Ndip    interludes;interruptions
@@ -3242,7 +3052,6 @@ fSm     faSam   PV      cause to crack;cleave
 fSm     foSim   IV      cause to crack;cleave
 ;; {inofaSam_1
 <nfSm   {inofaSam       PV_intr be split;be dissolved
-AnfSm   {inofaSam       PV_intr be split;be dissolved
 nfSm    nofaSim IV_intr be split;be dissolved
 ;; faSom_1
 fSm     faSom   N       cracking;splitting
@@ -3255,10 +3064,8 @@ fSAm    fuSAm   N       schizophrenia
 fSAmy   fuSAmiy~        Nall    schizophrenic     <pos>fuSAmiy~/ADJ</pos>
 ;; {inofiSAm_1
 <nfSAm  {inofiSAm       N/At    split;fissure;hiatus
-AnfSAm  {inofiSAm       N/At    split;fissure;hiatus
 ;; {inofiSAm_2
 <nfSAm  {inofiSAm       N/At    schizophrenia
-AnfSAm  {inofiSAm       N/At    schizophrenia
 ;; fASimap_1
 fASm    fASim   Nap     circuit breaker;interrupter
 ;; mafoSuwm_1
@@ -3293,16 +3100,12 @@ fD      fuD~    IV_V    break up;disperse;dissolve
 fDD     foDuD   IV_C    break up;disperse;dissolve
 ;; {inofaD~_1
 <nfD    {inofaD~        PV_V_intr       be dispersed;be dissolved;be concluded
-AnfD    {inofaD~        PV_V_intr       be dispersed;be dissolved;be concluded
 <nfDD   {inofaDaD       PV_C_intr       be dispersed;be dissolved;be concluded
-AnfDD   {inofaDaD       PV_C_intr       be dispersed;be dissolved;be concluded
 nfD     nofaD~  IV_V_intr       be dispersed;be dissolved;be concluded
 nfDD    nofaDiD IV_C_intr       be dispersed;be dissolved;be concluded
 ;; {ifotaD~_1
 <ftD    {ifotaD~        PV_V    deflower
-AftD    {ifotaD~        PV_V    deflower
 <ftDD   {ifotaDaD       PV_C    deflower
-AftDD   {ifotaDaD       PV_C    deflower
 ftD     fotaD~  IV_V    deflower
 ftDD    fotaDiD IV_C    deflower
 ;; faD~_1
@@ -3319,10 +3122,8 @@ fDy     fiD~iy~ NAt     silverware     <pos>fiD~iy~/NOUN</pos>
 mfD     mifaD~  Ndu     opener
 ;; {inofiDAD_1
 <nfDAD  {inofiDAD       N/At    dissolution;breaking up;conclusion
-AnfDAD  {inofiDAD       N/At    dissolution;breaking up;conclusion
 ;; {ifotiDAD_1
 <ftDAD  {ifotiDAD       N/At    defloration
-AftDAD  {ifotiDAD       N/At    defloration
 ;; mufaD~aD_1
 mfDD    mufaD~aD        N-ap    silver-plated
 ;
@@ -3335,11 +3136,9 @@ fDH     faD~aH  PV      stigmatize
 fDH     faD~iH  IV_yu   stigmatize
 ;; {inofaDaH_1
 <nfDH   {inofaDaH       PV_intr be exposed;be disgraced
-AnfDH   {inofaDaH       PV_intr be exposed;be disgraced
 nfDH    nofaDiH IV_intr be exposed;be disgraced
 ;; {ifotaDaH_1
 <ftDH   {ifotaDaH       PV      come to light;be exposed
-AftDH   {ifotaDaH       PV      come to light;be exposed
 ftDH    fotaDiH IV      come to light;be exposed
 ;; faDoH_1
 fDH     faDoH   N       humiliation;scandal
@@ -3352,7 +3151,6 @@ fDA}H   faDA}iH Ndip    scandal
 tfDyH   tafoDiyH        N/At    affront;stigmatization
 ;; {ifotiDAH_1
 <ftDAH  {ifotiDAH       N/At    ignominy
-AftDAH  {ifotiDAH       N/At    ignominy
 ;; fADiH_1
 fADH    fADiH   Nall    scandalous     <pos>fADiH/ADJ</pos>
 ;; mafoDuwH_1
@@ -3379,7 +3177,6 @@ fADl    fADal   PV      compare;vie with
 fADl    fADil   IV_yu   compare;vie with
 ;; >afoDal_1
 >fDl    >afoDal PV      bestow
-AfDl    >afoDal PV      bestow
 fDl     foDil   IV_yu   bestow
 fDl     foDal   IV_Pass_yu      be bestown
 ;; tafaD~al_1
@@ -3391,7 +3188,6 @@ fDl     faDol   NF      in addition     <pos>faDol/ADV</pos>
 ;; faDol_1
 fDl     faDol   N       distinction;quality
 >fDAl   >afoDAl N       good graces;goodwill;merits;favors
-AfDAl   >afoDAl N       good graces;goodwill;merits;favors
 ;; faDol_2
 fDl     faDol   N       superiority;surplus
 ;; faDolap_1
@@ -3417,7 +3213,6 @@ fDyl    faDiyl  Napdu   virtue;His Eminence
 fDA}l   faDA}il Ndip    virtues
 ;; >afoDal_2
 >fDl    >afoDal Nel     better/best     <pos>>afoDal/ADJ</pos>
-AfDl    >afoDal Nel     better/best     <pos>>afoDal/ADJ</pos>
 ;; fuDolaY_1
 fDlY    fuDolaY N0      esteemed;optimum
 fDlA    fuDolA  Nhy     esteemed;optimum
@@ -3425,7 +3220,6 @@ fDly    fuDolay NAn_Nayn        esteemed;optimum
 fDly    fuDolay NAt     esteemed;optimum
 ;; >afoDaliy~ap_1
 >fDly   >afoDaliy~      Nap     priority;preference;precedence     <pos>>afoDaliy~/NOUN</pos>
-AfDly   >afoDaliy~      Nap     priority;preference;precedence     <pos>>afoDaliy~/NOUN</pos>
 ;; mifoDal_1
 mfDl    mifoDal N-ap    pre-eminent;generous
 ;; mifoDalap_1
@@ -3453,7 +3247,6 @@ fDlA'   fuDalA' N0_Nh   honorable;eminent
 fDlA&   fuDalA& Nh      honorable;eminent
 fDlA}   fuDalA} Nhy     honorable;eminent
 >fADl   >afADil Ndip    honorable;eminent
-AfADl   >afADil Ndip    honorable;eminent
 ;; fADil_2
 fADl    fADil   N0      Fadil
 ;; fADilap_1
@@ -3480,13 +3273,9 @@ fDY     faD~aY  IV_0_Pass_yu    be vacated;be emptied
 fDy     faD~ay  IV_Ann_Pass_yu  be vacated;be emptied
 ;; >afoDaY_1
 >fDY    >afoDaY PV_0    inform;notify;lead;take
-AfDY    >afoDaY PV_0    inform;notify;lead;take
 >fDA    >afoDA  PV_h    inform;notify;lead;take
-AfDA    >afoDA  PV_h    inform;notify;lead;take
 >fDy    >afoDay PV_Atn  inform;notify;lead;take
-AfDy    >afoDay PV_Atn  inform;notify;lead;take
 >fD     >afoD   PV_ttAw inform;notify;lead;take
-AfD     >afoD   PV_ttAw inform;notify;lead;take
 fDy     foDiy   IV_0hAnn_yu     inform;notify;lead;take
 fD      foD     IV_0hwnyn_yu    inform;notify;lead;take
 fDY     foDaY   IV_0_Pass_yu    be informed;be notified;be led;be taken
@@ -3506,7 +3295,6 @@ fDA&    faDA&   Nh      space;cosmos
 fDA}    faDA}   Nhy     space;cosmos
 fDA'    faDA'   NAt     space;cosmos
 >fDy    >afoDiy Nap     open country
-AfDy    >afoDiy Nap     open country
 ;; faDA}iy~_1
 fDA}y   faDA}iy~        N-ap    space;cosmic     <pos>faDA}iy~/ADJ</pos>
 fDA}y   faDA}iy~        N-ap    satellite-based     <pos>faDA}iy~/ADJ</pos>
@@ -3516,13 +3304,9 @@ fDA}y   faDA}iy~        Nall    astronaut     <pos>faDA}iy~/ADJ</pos>
 tfDy    tafoDiy Nap     vacating;emptying
 ;; <ifoDA'_1
 <fDA'   <ifoDA' N0_Nh   communication;announcement
-AfDA'   <ifoDA' N0_Nh   communication;announcement
 <fDA&   <ifoDA& Nh      communication;announcement
-AfDA&   <ifoDA& Nh      communication;announcement
 <fDA}   <ifoDA} Nhy     communication;announcement
-AfDA}   <ifoDA} Nhy     communication;announcement
 <fDA'   <ifoDA' NAt     communication;announcement
-AfDA'   <ifoDA' NAt     communication;announcement
 ;; fADiy_1
 fADy    fADiy   N0F     empty;unoccupied;free     <pos>fADiy/ADJ</pos>
 fAD     fAD     NK      empty;unoccupied;free
@@ -3573,7 +3357,6 @@ fTr     faTar   PV      have a natural disposition
 fTr     foTur   IV      have a natural disposition
 ;; >afoTar_1
 >fTr    >afoTar PV      break the fast;have breakfast
-AfTr    >afoTar PV      break the fast;have breakfast
 fTr     foTir   IV_yu   break the fast;have breakfast
 fTr     foTar   IV_Pass_yu      be broken (fast);have breakfast
 ;; tafaT~ar_1
@@ -3581,7 +3364,6 @@ tfTr    tafaT~ar        PV_intr be broken apart
 tfTr    tafaT~ar        IV_intr be broken apart
 ;; {inofaTar_1
 <nfTr   {inofaTar       PV_intr be broken apart
-AnfTr   {inofaTar       PV_intr be broken apart
 nfTr    nofaTir IV_intr be broken apart
 ;; faTor_1
 fTr     faTor   N       crack;fissure;rupture
@@ -3626,7 +3408,6 @@ fTATry  faTATiriy~      Nall    pastry baker     <pos>faTATiriy~/ADJ</pos>
 mfTr    mafoTar Nap     mushroom bed
 ;; <ifoTAr_1
 <fTAr   <ifoTAr N       breaking the fast
-AfTAr   <ifoTAr N       breaking the fast
 ;; fATir_1
 fATr    fATir   N       creator (God)
 ;; fATir_2
@@ -3643,7 +3424,6 @@ fTs     faT~as  PV      choke to death
 fTs     faT~is  IV_yu   choke to death
 ;; {inofaTas_1
 <nfTs   {inofaTas       PV_intr be flattened
-AnfTs   {inofaTas       PV_intr be flattened
 nfTs    nofaTis IV_intr be flattened
 ;; faTas_1
 fTs     faTas   N       flatness
@@ -3673,7 +3453,6 @@ fTm     faTam   PV      wean
 fTm     foTim   IV      wean
 ;; {inofaTam_1
 <nfTm   {inofaTam       PV_intr be weaned from;abstain from
-AnfTm   {inofaTam       PV_intr be weaned from;abstain from
 nfTm    nofaTim IV_intr be weaned from;abstain from
 ;; faTom_1
 fTm     faTom   N       weaning;ablactation
@@ -3725,14 +3504,12 @@ tfTn    tafaT~un        N/At    intelligence
 ;; faZ~_1
 fZ      faZ~    N-ap    impolite;uncouth     <pos>faZ~/ADJ</pos>
 >fZAZ   >afoZAZ N       impolite;uncouth
-AfZAZ   >afoZAZ N       impolite;uncouth
 fZAZ    fiZAZ   N       impolite;uncouth
 ;; faZAZap_1
 fZAZ    faZAZ   Nap     rudeness;bluntness
 ;; faZ~_2
 fZ      faZ~    Ndu     walrus
 >fZAZ   >afoZAZ N       walruses
-AfZAZ   >afoZAZ N       walruses
 ;
 ;--- fZE
 ;; faZuE-u_1
@@ -3740,7 +3517,6 @@ fZE     faZuE   PV_intr be hideous;be disgusting
 fZE     foZuE   IV_intr be hideous;be disgusting
 ;; {isotafoZaE_1
 <stfZE  {isotafoZaE     PV      find disgusting;regard as atrocious
-AstfZE  {isotafoZaE     PV      find disgusting;regard as atrocious
 stfZE   sotafoZiE       IV      find disgusting;regard as atrocious
 ;; faZiE_1
 fZE     faZiE   N-ap    hideous;heinous     <pos>faZiE/ADJ</pos>
@@ -3766,24 +3542,19 @@ tfAEl   tafAEal PV      interact;react
 tfAEl   tafAEal IV      interact;react
 ;; {inofaEal_1
 <nfEl   {inofaEal       PV_intr be affected;be moved
-AnfEl   {inofaEal       PV_intr be affected;be moved
 nfEl    nofaEil IV_intr be affected;be moved
 ;; {ifotaEal_1
 <ftEl   {ifotaEal       PV      provoke;incite;concoct
-AftEl   {ifotaEal       PV      provoke;incite;concoct
 ftEl    fotaEil IV      provoke;incite;concoct
 ;; fiEol_1
 fEl     fiEol   N       doing;act;action
 >fEAl   >afoEAl N       acts;actions;deeds
-AfEAl   >afoEAl N       acts;actions;deeds
 fEl     fiEol   NF      actually;in effect     <pos>fiEol/ADV</pos>
 bAlfEl  biAlfiEol       FW-Wa   in fact;in effect;actually     <pos>bi/PREP+Al/DET+fiEol/ADV</pos>
 ;; fiEol_2
 fEl     fiEol   N       verb
 >fEAl   >afoEAl N       verbs
-AfEAl   >afoEAl N       verbs
 >fAEyl  >afAEiyl        Ndip    exploits
-AfAEyl  >afAEiyl        Ndip    exploits
 ;; fiEoliy~_1
 fEly    fiEoliy~        N-ap    actual;real;de facto     <pos>fiEoliy~/ADJ</pos>
 fEly    fiEoliy~        NF      actual;real;de facto     <pos>fiEoliy~/ADV</pos>
@@ -3802,7 +3573,6 @@ fEAly   faE~Aliy~       Nap     effectiveness;efficiency     <pos>faE~Aliy~/NOUN
 fEAly   faEAliy~        NAt     events     <pos>faEAliy~/NOUN</pos>
 ;; >afoEal_1
 >fEl    >afoEal Nel     more/most effective/efficient
-AfEl    >afoEal Nel     more/most effective/efficient
 ;; tafoEiyl_1
 tfEyl   tafoEiyl        N       scansion
 ;; tafoEiyl_2
@@ -3819,16 +3589,12 @@ tfAEly  tafAEuliy~      N-ap    reactive     <pos>tafAEuliy~/ADJ</pos>
 tfAEly  tafAEuliy~      Nap     interaction;reaction;reciprocity     <pos>tafAEuliy~/NOUN</pos>
 ;; {inofiEAl_1
 <nfEAl  {inofiEAl       N/At    emotion;excitation
-AnfEAl  {inofiEAl       N/At    emotion;excitation
 ;; {inofiEAliy~_1
 <nfEAly {inofiEAliy~    Nall    emotional;excitable     <pos>{inofiEAliy~/ADJ</pos>
-AnfEAly {inofiEAliy~    Nall    emotional;excitable     <pos>{inofiEAliy~/ADJ</pos>
 ;; {inofiEAliy~ap_1
 <nfEAly {inofiEAliy~    Nap     excitability;impressionability     <pos>{inofiEAliy~/NOUN</pos>
-AnfEAly {inofiEAliy~    Nap     excitability;impressionability     <pos>{inofiEAliy~/NOUN</pos>
 ;; {ifotiEAl_1
 <ftEAl  {ifotiEAl       N/At    provoking;inciting;concocting
-AftEAl  {ifotiEAl       N/At    provoking;inciting;concocting
 ;; fAEil_1
 fAEl    fAEil   Nall    doer;agent
 ;; fAEil_2
@@ -3853,7 +3619,6 @@ mftEl   mufotaEal       N-ap    falsified;spurious     <pos>mufotaEal/ADJ</pos>
 ;--- fEm
 ;; >afoEam_1
 >fEm    >afoEam PV      pack full;stuff;make overflow
-AfEm    >afoEam PV      pack full;stuff;make overflow
 fEm     foEim   IV_yu   pack full;stuff;make overflow
 fEm     foEam   IV_Pass_yu      be packed full;be stuff;be overflown
 ;; mufoEam_1
@@ -3862,18 +3627,12 @@ mfEm    mufoEam Nall    stuffed;jam-packed;overflowing     <pos>mufoEam/ADJ</pos
 ;--- fEw
 ;; >afoEaY_1
 >fEY    >afoEaY N0      viper
-AfEY    >afoEaY N0      viper
 >fEA    >afoEA  Nhy     viper
-AfEA    >afoEA  Nhy     viper
 >fEy    >afoEay NAn_Nayn        viper
-AfEy    >afoEay NAn_Nayn        viper
 >fAEy   >afAEiy N0_Nh   vipers
-AfAEy   >afAEiy N0_Nh   vipers
 >fAE    >afAE   NK      vipers
-AfAE    >afAE   NK      vipers
 ;; >ufoEuwAn_1
 >fEwAn  >ufoEuwAn       N       male viper
-AfEwAn  >ufoEuwAn       N       male viper
 ;; mafoEAp_1
 mfEA    mafoEA  Napdu   den of vipers
 mfEw    mafoEaw NAt     viper dens
@@ -3886,7 +3645,6 @@ fgr     fogur   IV      open
 fgr     fogar   IV      open
 ;; {inofagar_1
 <nfgr   {inofagar       PV_intr be open;be agape
-Anfgr   {inofagar       PV_intr be open;be agape
 nfgr    nofagir IV_intr be open;be agape
 ;; fugorap_1
 fgr     fugor   Napdu   mouth
@@ -3937,28 +3695,19 @@ tfq&    tafaq~a&        IV_wn   burst;explode
 tfq}    tafaq~a}        IV_yn   burst;explode
 ;; {inofaqa>_1
 <nfq>   {inofaqa>       PV->_intr       be gouged;be pierced
-Anfq>   {inofaqa>       PV->_intr       be gouged;be pierced
 <nfq|   {inofaqa|       PV-|_intr       be gouged;be pierced
-Anfq|   {inofaqa|       PV-|_intr       be gouged;be pierced
 <nfq&   {inofaqa&       PV_w_intr       be gouged;be pierced
-Anfq&   {inofaqa&       PV_w_intr       be gouged;be pierced
 nfq}    nofaqi} IV_intr be gouged;be pierced
 ;; faqo'_1
 fq'     faqo'   N0      gouging;piercing
 fq}     faqo}   NF_Nhy  gouging;piercing
 ;; {inofiqA'_1
 <nfqA'  {inofiqA'       N0_Nh   gouging;piercing
-AnfqA'  {inofiqA'       N0_Nh   gouging;piercing
 <nfqA&  {inofiqA&       Nh      gouging;piercing
-AnfqA&  {inofiqA&       Nh      gouging;piercing
 <nfqA}  {inofiqA}       Nhy     gouging;piercing
-AnfqA}  {inofiqA}       Nhy     gouging;piercing
 <nfqA'  {inofiqA'       NAn_Nayn        gougings;piercings
-AnfqA'  {inofiqA'       NAn_Nayn        gougings;piercings
 <nfqA}  {inofiqA}       Nayn    gougings;piercings
-AnfqA}  {inofiqA}       Nayn    gougings;piercings
 <nfqA'  {inofiqA'       NAt     gougings;piercings
-AnfqA'  {inofiqA'       NAt     gougings;piercings
 ;
 ;--- fqH
 ;; faqoHap_1
@@ -3972,7 +3721,6 @@ fqd     foqid   IV      lose
 fqd     foqad   IV_Pass_yu      be lost
 ;; >afoqad_1
 >fqd    >afoqad PV      dispossess
-Afqd    >afoqad PV      dispossess
 fqd     foqid   IV_yu   dispossess
 fqd     foqad   IV_Pass_yu      be dispossessed
 ;; tafaq~ad_1
@@ -3980,11 +3728,9 @@ tfqd    tafaq~ad        PV      investigate;examine;review;inspect
 tfqd    tafaq~ad        IV      investigate;examine;review;inspect
 ;; {ifotaqad_1
 <ftqd   {ifotaqad       PV      miss;feel the loss of
-Aftqd   {ifotaqad       PV      miss;feel the loss of
 ftqd    fotaqid IV      miss;feel the loss of
 ;; {isotafoqad_1
 <stfqd  {isotafoqad     PV      miss;feel the loss of
-Astfqd  {isotafoqad     PV      miss;feel the loss of
 stfqd   sotafoqid       IV      miss;feel the loss of
 ;; faqod_1
 fqd     faqod   N       loss;bereavement
@@ -4003,12 +3749,9 @@ tfqdy   tafaq~udiy~     N-ap    inspection;review     <pos>tafaq~udiy~/ADJ</pos>
 tfqdy   tafaq~udiy~     Nap     inspectorate     <pos>tafaq~udiy~/NOUN</pos>
 ;; {ifotiqAd_1
 <ftqAd  {ifotiqAd       N       missing;feeling the loss of
-AftqAd  {ifotiqAd       N       missing;feeling the loss of
 ;; {ifotiqAd_2
 <ftqAd  {ifotiqAd       Ndu     review;inspection
-AftqAd  {ifotiqAd       Ndu     review;inspection
 <ftqAd  {ifotiqAd       NAt     reviews;inspections
-AftqAd  {ifotiqAd       NAt     reviews;inspections
 ;; fAqid_1
 fAqd    fAqid   Nall    deprived of;bereft of     <pos>fAqid/ADJ</pos>
 ;; mafoquwd_1
@@ -4022,12 +3765,10 @@ fqr     faqur   PV_intr be destitute
 fqr     foqur   IV_intr be destitute
 ;; >afoqar_1
 >fqr    >afoqar PV      impoverish
-Afqr    >afoqar PV      impoverish
 fqr     foqir   IV_yu   impoverish
 fqr     foqar   IV_Pass_yu      be impoverished
 ;; {ifotaqar_1
 <ftqr   {ifotaqar       PV_intr be in need of;lack
-Aftqr   {ifotaqar       PV_intr be in need of;lack
 ftqr    fotaqir IV_intr be in need of;lack
 ;; faqor_1
 fqr     faqor   N       poverty
@@ -4057,13 +3798,10 @@ fqrA}   fuqarA} Nhy     poor;destitute
 tfqyr   tafoqiyr        N/At    impoverishment
 ;; <ifoqAr_1
 <fqAr   <ifoqAr N/At    impoverishment
-AfqAr   <ifoqAr N/At    impoverishment
 ;; {ifotiqAr_1
 <ftqAr  {ifotiqAr       N       needing;requiring
-AftqAr  {ifotiqAr       N       needing;requiring
 ;; {ifotiqArAt_1
 <ftqAr  {ifotiqAr       NAt     needs;requirements
-AftqAr  {ifotiqAr       NAt     needs;requirements
 ;; mufotaqir_1
 mftqr   mufotaqir       Nall    in need of;in short supply of     <pos>mufotaqir/ADJ</pos>
 ;
@@ -4079,7 +3817,6 @@ tfqs    tafaq~as        PV_intr be hatched;be incubated
 tfqs    tafaq~as        IV_intr be hatched;be incubated
 ;; {inofaqas_1
 <nfqs   {inofaqas       PV_intr be hatched;be incubated
-Anfqs   {inofaqas       PV_intr be hatched;be incubated
 nfqs    nofaqis IV_intr be hatched;be incubated
 ;; faq~uws_1
 fqws    faq~uws Ndu     cucumber
@@ -4110,7 +3847,6 @@ tfqS    tafaq~aS        PV_intr be hatched;be incubated
 tfqS    tafaq~aS        IV_intr be hatched;be incubated
 ;; {inofaqaS_1
 <nfqS   {inofaqaS       PV_intr be hatched;be incubated
-AnfqS   {inofaqaS       PV_intr be hatched;be incubated
 nfqS    nofaqiS IV_intr be hatched;be incubated
 ;; faq~uwS_1
 fqwS    faq~uwS Ndu     cucumber
@@ -4146,7 +3882,6 @@ tfqE    tafaq~aE        PV      snap;crackle;pop
 tfqE    tafaq~aE        IV      snap;crackle;pop
 ;; {inofaqaE_1
 <nfqE   {inofaqaE       PV      crackle;tear
-AnfqE   {inofaqaE       PV      crackle;tear
 nfqE    nofaqiE IV      crackle;tear
 ;; fuq~AE_1
 fqAE    fuq~AE  N       fermented drink
@@ -4204,7 +3939,6 @@ fqh     faq~ah  PV      teach
 fqh     faq~ih  IV_yu   teach
 ;; >afoqah_1
 >fqh    >afoqah PV      teach
-Afqh    >afoqah PV      teach
 fqh     foqih   IV_yu   teach
 fqh     foqah   IV_Pass_yu      be taught
 ;; tafaq~ah_1
@@ -4239,16 +3973,12 @@ tfkk    tafak~ak        PV_intr be taken apart;break apart;be disengaged
 tfkk    tafak~ak        IV_intr be taken apart;break apart;be disengaged
 ;; {inofak~_1
 <nfk    {inofak~        PV_V_intr       be separated;be extricated;be disengaged
-Anfk    {inofak~        PV_V_intr       be separated;be extricated;be disengaged
 <nfkk   {inofakak       PV_C_intr       be separated;be extricated;be disengaged
-Anfkk   {inofakak       PV_C_intr       be separated;be extricated;be disengaged
 nfk     nofak~  IV_V_intr       be separated;be extricated;be disengaged
 nfkk    nofakik IV_C_intr       be separated;be extricated;be disengaged
 ;; {ifotak~_1
 <ftk    {ifotak~        PV_V    dissolve;separate
-Aftk    {ifotak~        PV_V    dissolve;separate
 <ftkk   {ifotakak       PV_C    dissolve;separate
-Aftkk   {ifotakak       PV_C    dissolve;separate
 ftk     fotak~  IV_V    dissolve;separate
 ftkk    fotakik IV_C    dissolve;separate
 ;; fak~_1
@@ -4268,10 +3998,8 @@ tfkyk   tafokiyk        N/At    dismantling;dismemberment;fragmentation
 tfkk    tafak~uk        N/At    fragmentation;rupture;disruption
 ;; {inofikAk_1
 <nfkAk  {inofikAk       N/At    disengagement
-AnfkAk  {inofikAk       N/At    disengagement
 ;; {ifotikAk_1
 <ftkAk  {ifotikAk       N/At    redemption
-AftkAk  {ifotikAk       N/At    redemption
 ;; mafokuwk_1
 mfkwk   mafokuwk        N-ap    loose;split     <pos>mafokuwk/ADJ</pos>
 ;; mufak~ak_1
@@ -4288,12 +4016,10 @@ tfkr    tafak~ar        PV      ponder;reflect
 tfkr    tafak~ar        IV      ponder;reflect
 ;; {ifotakar_1
 <ftkr   {ifotakar       PV      ponder;reflect
-Aftkr   {ifotakar       PV      ponder;reflect
 ftkr    fotakir IV      ponder;reflect
 ;; fikor_1
 fkr     fikor   N       thought;thinking
 >fkAr   >afokAr N       thoughts;ideas;concepts
-AfkAr   >afokAr N       thoughts;ideas;concepts
 ;; fikorap_1
 fkr     fikor   Napdu   idea;notion;concept
 ;; fikoriy~_1
@@ -4321,7 +4047,6 @@ fk$     faka$   PV      sprain
 fk$     foku$   IV      sprain
 ;; {inofaka$_1
 <nfk$   {inofaka$       PV_intr be sprained
-Anfk$   {inofaka$       PV_intr be sprained
 nfk$    nofaki$ IV_intr be sprained
 ;; fako$_1
 fk$     fako$   N       sprain
@@ -4355,9 +4080,7 @@ fkAh    fukAh   NAt     jokes
 fkAhy   fukAhiy~        Nall    humorous;facetious     <pos>fukAhiy~/ADJ</pos>
 ;; >ufokuwhap_1
 >fkwh   >ufokuwh        Napdu   joke;witticism
-Afkwh   >ufokuwh        Napdu   joke;witticism
 >fAkyh  >afAkiyh        Ndip    jokes;witticisms
-AfAkyh  >afAkiyh        Ndip    jokes;witticisms
 ;; tafokihap_1
 tfkh    tafokih Nap     amusement;entertainment
 ;; mufAkahap_1
@@ -4392,7 +4115,6 @@ fl      fal~    Ndu     dent;notch;nick
 flwl    fuluwl  N       dents;notches
 ;; >afolAl_1
 >flAl   >afolAl N       vanquished;routed
-AflAl   >afolAl N       vanquished;routed
 flAl    ful~Al  N       vanquished;routed
 ;; faliyl_1
 flyl    faliyl  N       nick
@@ -4426,7 +4148,6 @@ flt     falat   PV-t    escape
 flt     folit   IV      escape
 ;; >afolat_1
 >flt    >afolat PV-t    escape;release
-Aflt    >afolat PV-t    escape;release
 flt     folit   IV_yu   escape;release
 flt     folat   IV_Pass_yu      be released
 ;; tafal~at_1
@@ -4434,7 +4155,6 @@ tflt    tafal~at        PV-t    escape
 tflt    tafal~at        IV      escape
 ;; {inofalat_1
 <nflt   {inofalat       PV-t    escape;evade
-Anflt   {inofalat       PV-t    escape;evade
 nflt    nofalit IV      escape;evade
 ;; falat_1
 flt     falat   N       escape
@@ -4452,10 +4172,8 @@ fltAn   falotAn N       chaos;recklessness
 fltAn   falotAn N/ap    wild;outlaw;out of control     <pos>falotAn/ADJ</pos>
 ;; <ifolAt_1
 <flAt   <ifolAt N/At    escape;release
-AflAt   <ifolAt N/At    escape;release
 ;; {inofilAt_1
 <nflAt  {inofilAt       N/At    evasion;release
-AnflAt  {inofilAt       N/At    evasion;release
 ;; fAlit_1
 fAlt    fAlit   N/ap    escaped;at large;debauched     <pos>fAlit/ADJ</pos>
 fltA'   fulatA' N0_Nh   escaped;at large;debauched
@@ -4477,7 +4195,6 @@ tflj    tafal~aj        PV      open up
 tflj    tafal~aj        IV      open up
 ;; {inofalaj_1
 <nflj   {inofalaj       PV_intr be semi-paralyzed;be hemiplegic
-Anflj   {inofalaj       PV_intr be semi-paralyzed;be hemiplegic
 nflj    nofalij IV_intr be semi-paralyzed;be hemiplegic
 ;; faloj_1
 flj     faloj   Ndu     crack;fissure;rift
@@ -4485,7 +4202,6 @@ flwj    fuluwj  N       cracks;fissures;rifts
 ;; falaj_1
 flj     falaj   Ndu     stream
 >flAj   >afolAj N       streams
-AflAj   >afolAj N       streams
 ;; filojAn_1
 fljAn   filojAn N-ap    coffee cup
 flAjyn  falAjiyn        Ndip    coffee cups
@@ -4504,11 +4220,9 @@ flH     falaH   PV      cultivate
 flH     folaH   IV      cultivate
 ;; >afolaH_1
 >flH    >afolaH PV      succeed;prosper;thrive
-AflH    >afolaH PV      succeed;prosper;thrive
 flH     foliH   IV_yu   succeed;prosper;thrive
 ;; {isotafolaH_1
 <stflH  {isotafolaH     PV      prosper;thrive
-AstflH  {isotafolaH     PV      prosper;thrive
 stflH   sotafoliH       IV      prosper;thrive
 ;; faloH_1
 flH     faloH   N       cultivating
@@ -4524,7 +4238,6 @@ flAH    fal~AH  Nall    peasant;farmer
 flAHy   fal~AHiy~       Nall    peasant     <pos>fal~AHiy~/ADJ</pos>
 ;; >afolaH_2
 >flH    >afolaH Nel     with cracked lower lip
-AflH    >afolaH Nel     with cracked lower lip
 flHA'   faloHA' N0_Nh   with cracked lower lip
 flHA&   faloHA& Nh      with cracked lower lip
 flHA}   faloHA} Nhy     with cracked lower lip
@@ -4542,9 +4255,7 @@ flyHAn  fliyHAn N0      Fleihan
 fl*     filo*   NapAt   piece
 fl*     fila*   N       pieces
 >flA*   >afolA* N       pieces
-AflA*   >afolA* N       pieces
 >flA*   >afolA* N       treasures
-AflA*   >afolA* N       treasures
 ;
 ;--- fl*j
 ;; fAluw*aj_1
@@ -4560,7 +4271,6 @@ fls     fal~as  PV      declare bankrupt;ruin financially
 fls     fal~is  IV_yu   declare bankrupt;ruin financially
 ;; >afolas_1
 >fls    >afolas PV_intr be bankrupt
-Afls    >afolas PV_intr be bankrupt
 fls     folis   IV_intr_yu      be bankrupt
 ;; tafal~as_1
 tfls    tafal~as        PV      exfoliate
@@ -4575,7 +4285,6 @@ tfAlys  tafAliys        Ndip    declarations of bankruptcy;insolvency
 tflys   tafoliys        Napdu   bankruptcy;insolvency
 ;; <ifolAs_1
 <flAs   <ifolAs N/At    bankruptcy;insolvency
-AflAs   <ifolAs N/At    bankruptcy;insolvency
 ;; mufolis_1
 mfls    mufolis Nall    bankrupt;insolvent
 mfAlys  mafAliys        Ndip    bankrupt;insolvent
@@ -4625,9 +4334,7 @@ fAlSw   fAloSuw N0      bogus;false
 flT     fuloT   N       volt
 flt     fulot   N       volt
 >flAT   >afolAT N       volts
-AflAT   >afolAT N       volts
 >flAt   >afolAt N       volts
-AflAt   >afolAt N       volts
 ;
 ;--- flTH
 ;; faloTaH_1
@@ -4654,7 +4361,6 @@ tflE    tafal~aE        PV_intr be split;be cleft;be chapped
 tflE    tafal~aE        IV_intr be split;be cleft;be chapped
 ;; {inofalaE_1
 <nflE   {inofalaE       PV_intr be split;be cleft;be chapped
-AnflE   {inofalaE       PV_intr be split;be cleft;be chapped
 nflE    nofaliE IV_intr be split;be cleft;be chapped
 ;; faloE_1
 flE     faloE   N       splitting;cleaving
@@ -4665,7 +4371,6 @@ flwE    fuluwE  N       cracks;fissures
 tflyE   tafoliyE        N/At    chapping
 ;; {inofilAE_1
 <nflAE  {inofilAE       N/At    chapping
-AnflAE  {inofilAE       N/At    chapping
 ;
 ;--- flfl
 ;; falofal_1
@@ -4697,7 +4402,6 @@ tflq    tafal~aq        PV_intr be split;be cracked
 tflq    tafal~aq        IV_intr be split;be cracked
 ;; {inofalaq_1
 <nflq   {inofalaq       PV_intr be split;be cracked
-Anflq   {inofalaq       PV_intr be split;be cracked
 nflq    nofaliq IV_intr be split;be cracked
 ;; faloq_1
 flq     faloq   N       cracking;splitting;dawn
@@ -4717,13 +4421,11 @@ fAlq    fAliq   Ndu     dislocation;fault
 fwAlq   fawAliq Ndip    dislocations;faults
 ;; {inofilAq_1
 <nflAq  {inofilAq       N/At    disintegration;fission
-AnflAq  {inofilAq       N/At    disintegration;fission
 ;
 ;--- flk
 ;; falak_1
 flk     falak   Ndu     celestial body;orbit
 >flAk   >afolAk N       celestial bodies;orbits
-AflAk   >afolAk N       celestial bodies;orbits
 ;; falokap_1
 flk     falok   Napdu   disk;ring
 ;; fulokap_1
@@ -4764,7 +4466,6 @@ mflkn   mufalokan       Nall    vulcanized     <pos>mufalokan/ADJ</pos>
 fylm    fiylm   Ndu     film;movie
 flm     filom   Ndu     film;movie
 >flAm   >afolAm N       films;movies
-AflAm   >afolAm N       films;movies
 ;; fiylomiy~_1
 fylmy   fiylomiy~       N-ap    film;cinematic     <pos>fiylmiy~/ADJ</pos>
 ;
@@ -4800,11 +4501,8 @@ flnk    falanok NapAt   railroad tie
 ;; filow_1
 flw     filow   Ndu     colt;foal
 >flA'   >afolA' N0_Nh   colts;foals
-AflA'   >afolA' N0_Nh   colts;foals
 >flA&   >afolA& Nh      colts;foals
-AflA&   >afolA& Nh      colts;foals
 >flA}   >afolA} Nhy     colts;foals
-AflA}   >afolA} Nhy     colts;foals
 flA'    filA'   N0_Nh   colts;foals
 flA&    filA&   Nh      colts;foals
 flA}    filA}   Nhy     colts;foals
@@ -4819,11 +4517,8 @@ flA     falA    N0_Nhy  open country
 flA     falA    Nap     open country
 flw     falaw   NAt     open country
 >flA'   >afolA' N0_Nh   open country
-AflA'   >afolA' N0_Nh   open country
 >flA&   >afolA& Nh      open country
-AflA&   >afolA& Nh      open country
 >flA}   >afolA} Nhy     open country
-AflA}   >afolA} Nhy     open country
 ;; mafAliy_1
 mfAly   mafAliy N0_Nh   pastures
 mfAl    mafAl   NK      pastures
@@ -4889,7 +4584,6 @@ fAly    fAliy   Nap     dung-beetle
 ;; fam_1
 fm      fam     N       mouth
 >fmAm   >afomAm N       mouths
-AfmAm   >afomAm N       mouths
 ;; famiy~_1
 fmy     famiy~  N-ap    oral;buccal     <pos>famiy~/ADJ</pos>
 ;; famawiy~_1
@@ -4904,9 +4598,7 @@ tfnn    tafan~an        PV-n_intr       be diversified;be variegated
 tfnn    tafan~an        IV-n_intr       be diversified;be variegated
 ;; {ifotan~_1
 <ftn    {ifotan~        PV_V_intr       be diversified;be variegated
-Aftn    {ifotan~        PV_V_intr       be diversified;be variegated
 <ftnn   {ifotanan       PV_Cn_intr      be diversified;be variegated
-Aftnn   {ifotanan       PV_Cn_intr      be diversified;be variegated
 ftn     fotan~  IV_V_intr       be diversified;be variegated
 ftnn    fotanin IV_Cn_intr      be diversified;be variegated
 ;; fan~_1
@@ -4921,19 +4613,15 @@ fny     fan~iy~ NAt     techniques     <pos>fan~iy~/NOUN</pos>
 ;; fanan_1
 fnn     fanan   N       twig;branch
 >fnAn   >afonAn N       twigs;branches
-AfnAn   >afonAn N       twigs;branches
 ;; fan~An_1
 fnAn    fan~An  Nall    artist
 ;; >ufonuwn_1
 >fnwn   >ufonuwn        Ndu     category;technique
-Afnwn   >ufonuwn        Ndu     category;technique
 >fAnyn  >afAniyn        Ndip    categories;techniques
-AfAnyn  >afAniyn        Ndip    categories;techniques
 ;; tafan~un_1
 tfnn    tafan~un        N/At    diversity;multiplicity;affectation
 ;; {ifotinAn_1
 <ftnAn  {ifotinAn       N/At    diversity
-AftnAn  {ifotinAn       N/At    diversity
 ;; mutafan~in_1
 mtfnn   mutafan~in      Nall    versatile;cultured;refined     <pos>mutafan~in/ADJ</pos>
 ;; mufotan~_1
@@ -4974,7 +4662,6 @@ fnd     fan~ad  PV      deny;disprove;refute
 fnd     fan~id  IV_yu   deny;disprove;refute
 ;; >afonad_1
 >fnd    >afonad PV      deny;disprove;refute
-Afnd    >afonad PV      deny;disprove;refute
 fnd     fonid   IV_yu   deny;disprove;refute
 fnd     fonad   IV_Pass_yu      be denied;be disproved;be refuted
 ;; tafoniyd_1
@@ -5049,7 +4736,6 @@ tfnq    tafan~aq        IV      live in comfort
 ;; fanak_1
 fnk     fanak   N       fennec (fox)
 >fnAk   >afonAk N       fennec (fox)
-AfnAk   >afonAk N       fennec (fox)
 ;
 ;--- fnld
 ;; finolanodA_1
@@ -5067,13 +4753,9 @@ fny     fonay   IV_Ann  perish;disappear
 fn      fona    IV_0hwnyn       perish;disappear
 ;; >afonaY_1
 >fnY    >afonaY PV_0    annihilate;destroy;exterminate
-AfnY    >afonaY PV_0    annihilate;destroy;exterminate
 >fnA    >afonA  PV_h    annihilate;destroy;exterminate
-AfnA    >afonA  PV_h    annihilate;destroy;exterminate
 >fny    >afonay PV_Atn  annihilate;destroy;exterminate
-Afny    >afonay PV_Atn  annihilate;destroy;exterminate
 >fn     >afon   PV_ttAw annihilate;destroy;exterminate
-Afn     >afon   PV_ttAw annihilate;destroy;exterminate
 fny     foniy   IV_0hAnn_yu     annihilate;destroy;exterminate
 fn      fon     IV_0hwnyn_yu    annihilate;destroy;exterminate
 fnY     fonaY   IV_0_Pass_yu    be annihilated;be destroyed;be exterminated
@@ -5096,16 +4778,11 @@ fnA'    finA'   N0_Nh   courtyard
 fnA&    finA&   Nh      courtyard
 fnA}    finA}   Nhy     courtyard
 >fny    >afoniy Nap     courtyards
-Afny    >afoniy Nap     courtyards
 ;; <ifonA'_1
 <fnA'   <ifonA' N0_Nh   annihilation;destruction
-AfnA'   <ifonA' N0_Nh   annihilation;destruction
 <fnA&   <ifonA& Nh      annihilation;destruction
-AfnA&   <ifonA& Nh      annihilation;destruction
 <fnA}   <ifonA} Nhy     annihilation;destruction
-AfnA}   <ifonA} Nhy     annihilation;destruction
 <fnA'   <ifonA' NAt     annihilation;destruction
-AfnA'   <ifonA' NAt     annihilation;destruction
 ;; tafAniy_1
 tfAny   tafAniy N0_Nh   mutual annihilation
 tfAn    tafAn   NK      mutual annihilation
@@ -5145,7 +4822,6 @@ fhd     fahod   N0      Fahd
 fhd     fahod   N       lynx
 fhwd    fuhuwd  N       lynxes
 >fhd    >afohud N       lynxes
-Afhd    >afohud N       lynxes
 ;; fuhayd_1
 fhyd    fuhayod N0      Fuhaid;Fuheid
 ;
@@ -5188,7 +4864,6 @@ fhm     fah~am  PV      make understand
 fhm     fah~im  IV_yu   make understand
 ;; >afoham_1
 >fhm    >afoham PV      make understand
-Afhm    >afoham PV      make understand
 fhm     fohim   IV_yu   make understand
 ;; tafah~am_1
 tfhm    tafah~am        PV      come to understand;comprehend
@@ -5198,16 +4873,13 @@ tfAhm   tafAham PV      understand one another;achieve mutual understanding
 tfAhm   tafAham IV      understand one another;achieve mutual understanding
 ;; {ifotaham_1
 <fthm   {ifotaham       PV      comprehend
-Afthm   {ifotaham       PV      comprehend
 fthm    fotahim IV      comprehend
 ;; {isotafoham_1
 <stfhm  {isotafoham     PV      inquire
-Astfhm  {isotafoham     PV      inquire
 stfhm   sotafohim       IV      inquire
 ;; fahom_1
 fhm     fahom   N       understanding
 >fhAm   >afohAm N       understanding
-AfhAm   >afohAm N       understanding
 ;; fahiym_1
 fhym    fahiym  N0      Fahim;Faheem
 ;; fahiym_2
@@ -5227,10 +4899,8 @@ tfhm    tafah~um        N/At    understanding;comprehension
 tfAhm   tafAhum N/At    mutual understanding;mutual comprehension
 ;; {isotifohAm_1
 <stfhAm {isotifohAm     N/At    inquiry;question
-AstfhAm {isotifohAm     N/At    inquiry;question
 ;; {isotifohAmiy~_1
 <stfhAmy        {isotifohAmiy~  N-ap    interrogative     <pos>{isotifohAmiy~/ADJ</pos>
-AstfhAmy        {isotifohAmiy~  N-ap    interrogative     <pos>{isotifohAmiy~/ADJ</pos>
 ;; fAhim_1
 fAhm    fAhim   N-ap    understanding
 ;; mafohuwm_1
@@ -5263,15 +4933,12 @@ tfAwt   tafAwat PV-t    differ;vary
 tfAwt   tafAwat IV      differ;vary
 ;; {ifotAt_1
 <ftAt   {ifotAt PV_V    invent;violate;infringe
-AftAt   {ifotAt PV_V    invent;violate;infringe
 <ftt    {ifotat PV_Ct   invent;violate;infringe
-Aftt    {ifotat PV_Ct   invent;violate;infringe
 ftAt    fotAt   IV_V    invent;violate;infringe
 ftt     fotat   IV_C    invent;violate;infringe
 ;; fawot_1
 fwt     fawot   N       escape;distance
 >fwAt   >afowAt N       escape;distances
-AfwAt   >afowAt N       escape;distances
 ;; fawAt_1
 fwAt    fawAt   N       expiration;passing
 ;; fuwayot_1
@@ -5282,7 +4949,6 @@ tfwyt   tafowiyt        N/At    alienation
 tfAwt   tafAwut N/At    disparity;contradiction;difference
 ;; {ifotiyAt_1
 <ftyAt  {ifotiyAt       N/At    betrayal;offense
-AftyAt  {ifotiyAt       N/At    betrayal;offense
 ;; fA}it_1
 fA}t    fA}it   N-ap    past;expired;elapsed;gone by     <pos>fA}it/ADJ</pos>
 ;; mutafAwit_1
@@ -5302,10 +4968,8 @@ fwtwgrAfy       fuwtuwgrAfiy~   Nall    photographic     <pos>fuwtuwgrAfiy~/ADJ<
 ;; fawoj_1
 fwj     fawoj   Ndu     battalion;regiment
 >fwAj   >afowAj N       battalions;regiments
-AfwAj   >afowAj N       battalions;regiments
 ;; >afowAj_1
 >fwAj   >afowAj NF      in droves;en masse     <pos>>afowAj/ADV</pos>
-AfwAj   >afowAj NF      in droves;en masse     <pos>>afowAj/ADV</pos>
 ;
 ;--- fwjy
 ;; fuwjiy_1
@@ -5330,7 +4994,6 @@ fwHAn   fawaHAn N       emanation;exhalation
 ;; fawod_1
 fwd     fawod   Ndu     hair
 >fwAd   >afowAd N       hair
-AfwAd   >afowAd N       hair
 ;
 ;--- fwr
 ;; fAr-u_1
@@ -5343,9 +5006,7 @@ fwr     faw~ar  PV      boil
 fwr     faw~ir  IV_yu   boil
 ;; >afAr_1
 >fAr    >afAr   PV_V    boil
-AfAr    >afAr   PV_V    boil
 >fr     >afar   PV_C    boil
-Afr     >afar   PV_C    boil
 fyr     fiyr    IV_V_yu boil
 fr      fir     IV_C_yu boil
 fAr     fAr     IV_V_Pass_yu    be boiled
@@ -5496,9 +5157,7 @@ fwq     fuwq    IV_V    surpass;excel
 fq      fuq     IV_C    surpass;excel
 ;; >afAq_1
 >fAq    >afAq   PV_V    wake up;recover;recuperate
-AfAq    >afAq   PV_V    wake up;recover;recuperate
 >fq     >afaq   PV_C    wake up;recover;recuperate
-Afq     >afaq   PV_C    wake up;recover;recuperate
 fyq     fiyq    IV_V_yu wake up;recover;recuperate
 fq      fiq     IV_C_yu wake up;recover;recuperate
 fAq     fAq     IV_V_Pass_yu    be awakened
@@ -5508,9 +5167,7 @@ tfwq    tafaw~aq        PV      excel;be dominant;be superior
 tfwq    tafaw~aq        IV      excel;be dominant;be superior
 ;; {isotafAq_1
 <stfAq  {isotafAq       PV_V    wake up;recover;recuperate
-AstfAq  {isotafAq       PV_V    wake up;recover;recuperate
 <stfq   {isotafaq       PV_C    wake up;recover;recuperate
-Astfq   {isotafaq       PV_C    wake up;recover;recuperate
 stfyq   sotafiyq        IV_V    wake up;recover;recuperate
 stfq    sotafiq IV_C    wake up;recover;recuperate
 ;; fawoqa_1
@@ -5534,10 +5191,8 @@ fwAq    fuwAq   N       hiccups
 ;; fiyqap_1
 fyq     fiyq    Nap     kindness;favor
 >fAwyq  >afAwiyq        Ndip    kindness;favors
-AfAwyq  >afAwiyq        Ndip    kindness;favors
 ;; <ifAqap_1
 <fAq    <ifAq   NapAt   recovery;convalescence
-AfAq    <ifAq   NapAt   recovery;convalescence
 ;; tafaw~uq_1
 tfwq    tafaw~uq        N/At    superiority;supremacy;excellence
 ;; fA}iq_1
@@ -5634,10 +5289,8 @@ tfwh    tafaw~ah        IV      pronounce;utter;voice
 ;; fuwh_1
 fwh     fuwh    Ndu     mouth
 >fwAh   >afowAh N       mouths
-AfwAh   >afowAh N       mouths
 ;; >afAwiyh_1
 >fAwyh  >afAwiyh        Ndip    spices
-AfAwyh  >afAwiyh        Ndip    spices
 ;; fuwhap_1
 fwh     fuwh    NapAt   mouth;aperture
 fwA}h   fawA}ih Ndip    mouths;apertures
@@ -5645,7 +5298,6 @@ fwA}h   fawA}ih Ndip    mouths;apertures
 fwhy    fuwhiy~ N-ap    oral;vocal     <pos>fuwhiy~/ADJ</pos>
 ;; >afowah_1
 >fwh    >afowah Nel     broad-mouthed
-Afwh    >afowah Nel     broad-mouthed
 ;; mufaw~ah_1
 mfwh    mufaw~ah        Nall    eloquent     <pos>mufaw~ah/ADJ</pos>
 ;
@@ -5680,11 +5332,8 @@ fy}     fay~i}  IV_yu   give shade
 fy&     fay~i&  IV_wn_yu        give shade
 ;; >afA'_1
 >fA'    >afA'   PV_V    bestow
-AfA'    >afA'   PV_V    bestow
 >fA&    >afA&   PV_w    bestow
-AfA&    >afA&   PV_w    bestow
 >f>     >afa>   PV_C    bestow
-Af>     >afa>   PV_C    bestow
 fy'     fiy'    IV_V_yu bestow
 fy}     fiy}    IV_V_yu bestow
 fy&     fiy&    IV_wn_yu        bestow
@@ -5703,11 +5352,8 @@ tfy&    tafay~a&        IV_wn   seek shade
 fy'     fayo'   N0      shadow
 fy}     fayo}   NF_Nhy  shadow
 >fyA'   >afoyA' N0_Nh   shadows
-AfyA'   >afoyA' N0_Nh   shadows
 >fyA&   >afoyA& Nh      shadows
-AfyA&   >afoyA& Nh      shadows
 >fyA}   >afoyA} Nhy     shadows
-AfyA}   >afoyA} Nhy     shadows
 fyw'    fuyuw'  N0_Nh   shadows
 fyw}    fuyuw}  Nhy     shadows
 ;
@@ -5779,7 +5425,6 @@ fyjysty fiyjiysotiy     Nprop   Vijesti
 ;--- fyH
 ;; >afoyaH_1
 >fyH    >afoyaH Nel     aromatic;spacious
-AfyH    >afoyaH Nel     aromatic;spacious
 fyHA'   fayoHA' N0_Nh   aromatic;spacious
 fyHA&   fayoHA& Nh      aromatic;spacious
 fyHA}   fayoHA} Nhy     aromatic;spacious
@@ -5791,38 +5436,28 @@ fyAH    fay~AH  N-ap    redolent;aromatic
 ;--- fyd
 ;; >afAd_1
 >fAd    >afAd   PV_V    report;inform;provide
-AfAd    >afAd   PV_V    report;inform;provide
 >fd     >afad   PV_C    report;inform;provide
-Afd     >afad   PV_C    report;inform;provide
 fyd     fiyd    IV_V_yu report;inform;provide
 fd      fid     IV_C_yu report;inform;provide
 fAd     fAd     IV_V_Pass_yu    be reported;be provided
 fd      fad     IV_C_Pass_yu    be reported;be provided
 ;; {isotafAd_1
 <stfAd  {isotafAd       PV_V    benefit from;make use of
-AstfAd  {isotafAd       PV_V    benefit from;make use of
 >stfyd  {usotufiyd      PV_V_Pass-a     be benefited from;be made use of
-Astfyd  {usotufiyd      PV_V_Pass-a     be benefited from;be made use of
 <stfd   {isotafad       PV_C    benefit from;make use of
-Astfd   {isotafad       PV_C    benefit from;make use of
 stfyd   sotafiyd        IV_V    benefit from;make use of
 stfd    sotafid IV_C    benefit from;make use of
 stfAd   sotafAd IV_V_Pass_yu    be benefited from;be made use of
 stfd    sotafad IV_C_Pass_yu    be benefited from;be made use of
 ;; >afoyad_1
 >fyd    >afoyad Nel     more/most useful
-Afyd    >afoyad Nel     more/most useful
 ;; <ifAdap_1
 <fAd    <ifAd   Nap     benefit;advantage
-AfAd    <ifAd   Nap     benefit;advantage
 ;; <ifAdap_2
 <fAd    <ifAd   Napdu   notification;communication
-AfAd    <ifAd   Napdu   notification;communication
 <fAd    <ifAd   NAt     notification;communication
-AfAd    <ifAd   NAt     notification;communication
 ;; {isotifAdap_1
 <stfAd  {isotifAd       NapAt   profit;gain
-AstfAd  {isotifAd       NapAt   profit;gain
 ;; fA}idap_1
 fA}d    fA}id   Napdu   benefit;use
 fwA}d   fawA}id Ndip    benefits;uses
@@ -5950,7 +5585,6 @@ fy$     fiy$    NapAt   index card
 ;; fiy$_2
 fy$     fiy$    N       weak;impotent
 >fyA$   >afoyA$ N       weak;impotent
-AfyA$   >afoyA$ N       weak;impotent
 ;
 ;--- fyD
 ;; fAD-i_1
@@ -5960,18 +5594,14 @@ fyD     fiyD    IV_V    exceed;overflow
 fD      fiD     IV_C    exceed;overflow
 ;; >afAD_1
 >fAD    >afAD   PV_V    spill;overfill
-AfAD    >afAD   PV_V    spill;overfill
 >fD     >afaD   PV_C    spill;overfill
-AfD     >afaD   PV_C    spill;overfill
 fyD     fiyD    IV_V_yu spill;overfill
 fD      fiD     IV_C_yu spill;overfill
 fAD     fAD     IV_V_Pass_yu    be spilled;be overfilled
 fD      faD     IV_C_Pass_yu    be spilled;be overfilled
 ;; {isotafAD_1
 <stfAD  {isotafAD       PV_V    spread;be thorough
-AstfAD  {isotafAD       PV_V    spread;be thorough
 <stfD   {isotafaD       PV_C    spread;be thorough
-AstfD   {isotafaD       PV_C    spread;be thorough
 stfyD   sotafiyD        IV_V    spread;be thorough
 stfD    sotafiD IV_C    spread;be thorough
 ;; fayoD_1
@@ -5987,10 +5617,8 @@ fyDAn   fayaDAn N/At    flood;deluge
 mfyD    mafiyD  N       outlet;vent
 ;; <ifADap_1
 <fAD    <ifAD   NapAt   effusion;elaborateness
-AfAD    <ifAD   NapAt   effusion;elaborateness
 ;; {isotifADap_1
 <stfAD  {isotifAD       NapAt   abundance;profusion
-AstfAD  {isotifAD       NapAt   abundance;profusion
 fA}D    fA}iD   N-ap    abundant;copious;surplus;overflow
 ;; fA}iD_1
 fA}D    fA}iD   N       interest
@@ -6054,12 +5682,10 @@ fyl     fiyl    Ndu     elephant
 fyl     fiyl    Nap     elephants
 fywl    fuyuwl  N       elephants
 >fyAl   >afoyAl N       elephants
-AfyAl   >afoyAl N       elephants
 ;; fiyl_2
 fyl     fiyl    Ndu     bishop (chess)
 fywl    fuyuwl  N       bishops (chess)
 >fyAl   >afoyAl N       bishops (chess)
-AfyAl   >afoyAl N       bishops (chess)
 ;; fay~Al_1
 fyAl    fay~Al  Nall    elephant driver;mahout
 fyAl    fay~Al  Nap     elephant drivers;mahouts

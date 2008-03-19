@@ -68,7 +68,6 @@ t$A'm   ta$A'am PV_intr be pessimistic
 t$A'm   ta$A'am IV_intr be pessimistic
 ;; {isota$o>am_1
 <st$>m  {isota$o>am     PV      regard as an evil omen
-Ast$>m  {isota$o>am     PV      regard as an evil omen
 st$}m   sota$o}im       IV      regard as an evil omen
 ;; $u&om_1
 $&m     $u&om   N       calamity;evil omen
@@ -248,7 +247,6 @@ mt$bv   muta$ab~iv      Nall    tenacious;stubborn     <pos>muta$ab~iv/ADJ</pos>
 $bH     $abaH   Ndu     specter;shape
 $bwH    $ubuwH  N       specters
 >$bAH   >a$obAH N       specters;shapes
-A$bAH   >a$obAH N       specters;shapes
 ;
 ;--- $br
 ;; $abar-ui_1
@@ -261,7 +259,6 @@ $br     $ab~ir  IV_yu   measure with the hand;gesticulate
 ;; $ibor_1
 $br     $ibor   Ndu     span of the hand;foot
 >$bAr   >a$obAr N       measurements;feet
-A$bAr   >a$obAr N       measurements;feet
 ;; $uwbayr_1
 $wbyr   $wbyr   Nprop   Shubair
 ;; $ab~uwr_1
@@ -304,7 +301,6 @@ $bE     $ab~aE  PV      satiate;gratify
 $bE     $ab~iE  IV_yu   satiate;gratify
 ;; >a$obaE_1
 >$bE    >a$obaE PV      satiate;gratify
-A$bE    >a$obaE PV      satiate;gratify
 $bE     $obiE   IV_yu   satiate;gratify
 $bE     $obaE   IV_Pass_yu      be satiated;be gratified
 ;; ta$ab~aE_1
@@ -323,7 +319,6 @@ $bAEA   $abAEA  Nhy     full;satiated
 $bAE    $ibAE   N       full;satiated
 ;; <i$obAE_1
 <$bAE   <i$obAE NduAt   satiation;saturation;gratification
-A$bAE   <i$obAE NduAt   satiation;saturation;gratification
 ;; mu$ab~aE_1
 m$bE    mu$ab~aE        N-ap    satiated;saturated;charged     <pos>mu$ab~aE/ADJ</pos>
 ;; mu$obaE_1
@@ -361,7 +356,6 @@ t$Abk   ta$Abak PV_intr be intertwined;be interwoven
 t$Abk   ta$Abak IV_intr be intertwined;be interwoven
 ;; {i$otabak_1
 <$tbk   {i$otabak       PV      skirmish;clash;engage
-A$tbk   {i$otabak       PV      skirmish;clash;engage
 $tbk    $otabik IV      skirmish;clash;engage
 ;; $abakap_1
 $bk     $abak   Napdu   network;system
@@ -383,9 +377,7 @@ m$Abk   ma$Abik Ndip    hooks;clasps;clips
 t$Abk   ta$Abuk NduAt   interweaving;networking
 ;; {i$otibAk_1
 <$tbAk  {i$otibAk       Ndu     skirmish;clash
-A$tbAk  {i$otibAk       Ndu     skirmish;clash
 <$tbAk  {i$otibAk       NAt     skirmishes;clashes
-A$tbAk  {i$otibAk       NAt     skirmishes;clashes
 ;; mu$ab~ak_1
 m$bk    mu$ab~ak        N/ap    plaited;adorned with latticework     <pos>mu$ab~ak/ADJ</pos>
 ;; mu$otabik_1
@@ -402,17 +394,14 @@ $bk$y   $abako$iy       Nprop   Shabakshi
 ;--- $bl
 ;; >a$obal_1
 >$bl    >a$obal PV      look after;nurture
-A$bl    >a$obal PV      look after;nurture
 $bl     $obil   IV_yu   look after;nurture
 $bl     $obal   IV_Pass_yu      be looked after;be nurtured
 ;; $ibol_1
 $bl     $ibol   Ndu     lion cub
 >$bAl   >a$obAl N       lion cubs
-A$bAl   >a$obAl N       lion cubs
 ;; $ibol_2
 $bl     $ibol   Ndu     cadet;scout
 >$bAl   >a$obAl N       cadets;scouts
-A$bAl   >a$obAl N       cadets;scouts
 ;
 ;; $ubuwl_1
 $bwl    $ubuwl  N0      Shubul
@@ -428,12 +417,9 @@ $byn    $abiyn  Ndu     godfather;groomsman
 $byn    $abiyn  NapAt   godmother;bridesmaid
 ;; <i$obiyn_1
 <$byn   <i$obiyn        N       godfather;groomsman
-A$byn   <i$obiyn        N       godfather;groomsman
 >$Abyn  >a$Abiyn        Ndip    godfathers;groomsmen
-A$Abyn  >a$Abiyn        Ndip    godfathers;groomsmen
 ;; <i$obiynap_1
 <$byn   <i$obiyn        Nap     godmother;bridesmaid
-A$byn   <i$obiyn        Nap     godmother;bridesmaid
 ;
 ;--- $bh
 ;; $ab~ah_1
@@ -444,7 +430,6 @@ $Abh    $Abah   PV      resemble;be similar
 $Abh    $Abih   IV_yu   resemble;be similar
 ;; >a$obah_1
 >$bh    >a$obah PV      resemble;be similar
-A$bh    >a$obah PV      resemble;be similar
 $bh     $obih   IV_yu   resemble;be similar
 $bh     $obah   IV_Pass_yu      be resembled;be similar
 ;; ta$ab~ah_1
@@ -455,17 +440,14 @@ t$Abh   ta$Abah PV      resemble;be similar
 t$Abh   ta$Abah IV      resemble;be similar
 ;; {i$otabah_1
 <$tbh   {i$otabah       PV      suspect;be doubtful
-A$tbh   {i$otabah       PV      suspect;be doubtful
 $tbh    $otabih IV      suspect;be doubtful
 $tbh    $otabah IV_Pass_yu      be suspected
 ;; $iboh_1
 $bh     $iboh   N       like;quasi;semi
 >$bAh   >a$obAh N       like;quasi;semi
-A$bAh   >a$obAh N       like;quasi;semi
 ;; $abah_1
 $bh     $abah   N       resemblance
 >$bAh   >a$obAh N       resemblances
-A$bAh   >a$obAh N       resemblances
 ;; $ubohap_1
 $bh     $uboh   NapAt   obscurity;suspicion;dubious
 ;; $abahAn_1
@@ -474,7 +456,6 @@ $bhAn   $abahAn N       brass
 $byh    $abiyh  N/ap    resembling;similar;semi     <pos>$abiyh/ADJ</pos>
 ;; >a$obah_2
 >$bh    >a$obah Nel     more/most similar
-A$bh    >a$obah Nel     more/most similar
 ;; ma$Abih_1
 m$Abh   ma$Abih Ndip    similarities
 ;; ta$obiyh_1
@@ -488,7 +469,6 @@ t$bh    ta$ab~uh        NduAt   imitation
 t$Abh   ta$Abuh NduAt   resemblance;similarity
 ;; {i$otibAh_1
 <$tbAh  {i$otibAh       NduAt   resemblance;similarity;dubiousness
-A$tbAh  {i$otibAh       NduAt   resemblance;similarity;dubiousness
 ;; ma$obuwh_1
 m$bwh   ma$obuwh        Nall    suspicious person
 m$bwh   ma$obuwh        Nall    suspected;suspicious     <pos>ma$obuwh/ADJ</pos>
@@ -522,9 +502,7 @@ $tt     $at~at  PV-t    disperse;scatter
 $tt     $at~it  IV_yu   disperse;scatter
 ;; >a$at~_1
 >$t     >a$at~  PV_V    disperse;scatter
-A$t     >a$at~  PV_V    disperse;scatter
 >$tt    >a$otat PV_Ct   disperse;scatter
-A$tt    >a$otat PV_Ct   disperse;scatter
 $t      $it~    IV_V_yu disperse;scatter
 $tt     $otit   IV_C_yu disperse;scatter
 $t      $at~    IV_V_Pass_yu    be dispersed;be scattered
@@ -537,7 +515,6 @@ $t      $at~    N-ap    dispersed;scattered
 $tY     $at~aY  N0      all;diverse;miscellaneous
 ;; >a$otAt_1
 >$tAt   >a$otAt N       varieties;dispersed;scattered
-A$tAt   >a$otAt N       varieties;dispersed;scattered
 ;; $atAt_1
 $tAt    $atAt   N       dispersed;scattered
 $tyt    $atiyt  N/ap    dispersed;scattered
@@ -632,13 +609,11 @@ $tA'    $itA'   N0_Nh   winter
 $tA&    $itA&   Nh      winter
 $tA}    $itA}   Nhy     winter
 >$ty    >a$otiy Nap     winters
-A$ty    >a$otiy Nap     winters
 ;; $itA'_2
 $tA'    $itA'   N0_Nh   rain
 $tA&    $itA&   Nh      rain
 $tA}    $itA}   Nhy     rain
 >$ty    >a$otiy Nap     rains
-A$ty    >a$otiy Nap     rains
 ;; ma$otaY_1
 m$tY    ma$otaY N0      winter residence;winter resort
 m$tA    ma$otA  Nhy     winter residence;winter resort
@@ -688,7 +663,6 @@ $jb     $aj~ab  PV      condemn;censure
 $jb     $aj~ib  IV_yu   condemn;censure
 ;; >a$ojab_1
 >$jb    >a$ojab PV      afflict
-A$jb    >a$ojab PV      afflict
 $jb     $ojib   IV_yu   afflict
 $jb     $ojab   IV_Pass_yu      be afflicted
 ;; $ajob_1
@@ -716,13 +690,11 @@ t$Ajr   ta$Ajar PV      quarrel;dispute
 t$Ajr   ta$Ajar IV      quarrel;dispute
 ;; {i$otajar_1
 <$tjr   {i$otajar       PV      quarrel;dispute
-A$tjr   {i$otajar       PV      quarrel;dispute
 $tjr    $otajir IV      quarrel;dispute
 ;; $ajarap_1
 $jr     $ajar   Napdu   tree
 $jr     $ajar   NAt     trees
 >$jAr   >a$ojAr N       trees
-A$jAr   >a$ojAr N       trees
 $jr     $ajar   N       trees
 ;; $ajir_1
 $jr     $ajir   N-ap    wooded     <pos>$ajir/ADJ</pos>
@@ -803,14 +775,12 @@ $jn     $aj~an  PV-n    sadden;distress
 $jn     $aj~in  IV-n_yu sadden;distress
 ;; >a$ojan_1
 >$jn    >a$ojan PV-n    sadden;distress
-A$jn    >a$ojan PV-n    sadden;distress
 $jn     $ojin   IV-n_yu sadden;distress
 $jn     $ojan   IV-n_Pass_yu    be saddened;be distressed
 ;; $ajan_1
 $jn     $ajan   N       anxiety
 $jwn    $ujuwn  N       anxieties
 >$jAn   >a$ojAn N       anxieties
-A$jAn   >a$ojAn N       anxieties
 ;; $ajan_2
 $jn     $ajan   N       intersection;ramification
 $jwn    $ujuwn  N       intersection;ramification;miscellaneous topics
@@ -841,13 +811,9 @@ $jY     $aj~aY  IV_0_Pass_yu    be impressed;be moved
 $jy     $aj~ay  IV_Ann_Pass_yu  be impressed;be moved
 ;; >a$ojaY_1
 >$jY    >a$ojaY PV_0    grieve;worry
-A$jY    >a$ojaY PV_0    grieve;worry
 >$jA    >a$ojA  PV_h    grieve;worry
-A$jA    >a$ojA  PV_h    grieve;worry
 >$jy    >a$ojay PV_Atn  grieve;worry
-A$jy    >a$ojay PV_Atn  grieve;worry
 >$j     >a$oj   PV_ttAw grieve;worry
-A$j     >a$oj   PV_ttAw grieve;worry
 $jy     $ojiy   IV_0hAnn_yu     grieve;worry
 $j      $oj     IV_0hwnyn_yu    grieve;worry
 $jY     $ojaY   IV_0_Pass_yu    be aggrieved;be worried over
@@ -892,13 +858,9 @@ $H      $uH~    N       avarice;greed;paucity
 $HyH    $aHiyH  N-ap    meager;sparse;stingy     <pos>$aHiyH/ADJ</pos>
 $HAH    $iHAH   N       meager;sparse;stingy
 >$H     >a$iH~  Nap     meager;sparse;stingy
-A$H     >a$iH~  Nap     meager;sparse;stingy
 >$HA'   >a$iH~A'        N0_Nh   meager;sparse;stingy
-A$HA'   >a$iH~A'        N0_Nh   meager;sparse;stingy
 >$HA&   >a$iH~A&        Nh      meager;sparse;stingy
-A$HA&   >a$iH~A&        Nh      meager;sparse;stingy
 >$HA}   >a$iH~A}        Nhy     meager;sparse;stingy
-A$HA}   >a$iH~A}        Nhy     meager;sparse;stingy
 $HA}H   $aHA}iH Ndip    meager;sparse;stingy
 ;; mu$AH~ap_1
 m$AH    mu$AH~  Nap     contestable;disputable     <pos>mu$AH~/ADJ</pos>
@@ -1016,7 +978,6 @@ $AHn    $AHan   PV-n    quarrel with
 $AHn    $AHin   IV-n_yu quarrel with
 ;; >a$oHan_1
 >$Hn    >a$oHan PV-n    ship;freight;load
-A$Hn    >a$oHan PV-n    ship;freight;load
 $Hn     $oHin   IV-n_yu ship;freight;load
 $Hn     $oHan   IV-n_Pass_yu    be shipped;be loaded
 ;; ta$AHan_1
@@ -1108,7 +1069,6 @@ $xS     $ax~aS  PV      personify;diagnose
 $xS     $ax~iS  IV_yu   personify;diagnose
 ;; >a$oxaS_1
 >$xS    >a$oxaS PV      dispatch
-A$xS    >a$oxaS PV      dispatch
 $xS     $oxiS   IV_yu   dispatch
 $xS     $oxaS   IV_Pass_yu      be dispatched
 ;; ta$ax~aS_1
@@ -1117,7 +1077,6 @@ t$xS    ta$ax~aS        IV      appear;be personified
 ;; $axoS_1
 $xS     $axoS   Ndu     individual;person
 >$xAS   >a$oxAS N       individuals;persons
-A$xAS   >a$oxAS N       individuals;persons
 $xwS    $uxuwS  N       individuals;persons
 ;; $axoSiy~_1
 $xSy    $axoSiy~        N-ap    private;personal     <pos>$axoSiy~/ADJ</pos>
@@ -1154,7 +1113,6 @@ $xlyl   $uxoliyl        Nap     rattle
 ;--- $xm
 ;; >a$oxam_1
 >$xm    >a$oxam Nel     gray
-A$xm    >a$oxam Nel     gray
 $xmA'   $axomA' N0_Nh   gray
 $xmA&   $axomA& Nh      gray
 $xmA}   $axomA} Nhy     gray
@@ -1186,9 +1144,7 @@ t$Ad    ta$Ad~  IV_V    argue
 t$Add   ta$Adid IV_C    argue
 ;; {i$otad~_1
 <$td    {i$otad~        PV_V    intensify
-A$td    {i$otad~        PV_V    intensify
 <$tdd   {i$otadad       PV_C    intensify
-A$tdd   {i$otadad       PV_C    intensify
 $td     $otad~  IV_V    intensify
 $tdd    $otadid IV_C    intensify
 ;; $ad~_1
@@ -1200,26 +1156,20 @@ $dA}d   $adA}id Ndip    hardship;adversity
 ;; $adAd_1
 $dAd    $adAd   N       saddle
 >$d     >a$id~  Nap     saddles
-A$d     >a$id~  Nap     saddles
 ;; $ad~Ad_1
 $dAd    $ad~Ad  N0      Shaddad
 ;; $adiyd_1
 $dyd    $adiyd  N/ap    intense;strong;severe     <pos>$adiyd/ADJ</pos>
 >$dA'   >a$id~A'        N0_Nh   intense;strong;severe
-A$dA'   >a$id~A'        N0_Nh   intense;strong;severe
 >$dA&   >a$id~A&        Nh      intense;strong;severe
-A$dA&   >a$id~A&        Nh      intense;strong;severe
 >$dA}   >a$id~A}        Nhy     intense;strong;severe
-A$dA}   >a$id~A}        Nhy     intense;strong;severe
 $dAd    $idAd   N       intense;strong;severe
 ;; $adiyd_2
 $dyd    $adiyd  N0      Shadeed
 ;; >a$ad~_1
 >$d     >a$ad~  Nel     stronger/strongest;more/most intense
-A$d     >a$ad~  Nel     stronger/strongest;more/most intense
 ;; >a$ud~_1
 >$d     >a$ud~  N       maturity;climax
-A$d     >a$ud~  N       maturity;climax
 ;; mi$ad~_1
 m$d     mi$ad~  NduAt   corset;stays
 ;; ta$odiyd_1
@@ -1231,7 +1181,6 @@ t$dd    ta$ad~ud        NduAt   extremism;fanaticism
 t$dd    ta$ad~ud        NduAt   intensification;hardening
 ;; {i$otidAd_1
 <$tdAd  {i$otidAd       NduAt   intensification;aggravation
-A$tdAd  {i$otidAd       NduAt   intensification;aggravation
 ;; ma$oduwd_1
 m$dwd   ma$oduwd        N-ap    tight;tense     <pos>ma$oduwd/ADJ</pos>
 ;; mu$ad~id_1
@@ -1273,7 +1222,6 @@ t$dq    ta$ad~aq        IV      boast;speak affectedly
 ;; $idoq_1
 $dq     $idoq   Ndu     jaw
 >$dAq   >a$odAq N       jaws
-A$dAq   >a$odAq N       jaws
 ;; >a$odaq_1
 >$dq    >a$odaq Nel     loud-mouthed     <pos>>a$odaq/ADJ</pos>
 A$dq    >a$odaq Nel     loud-mouthed
@@ -1410,9 +1358,7 @@ $rwrp   $uruwrap        N0      Shurura (?? Saudi region)
 ;; $ariyr_1
 $ryr    $ariyr  N/ap    bad;wicked;evil
 >$r     >a$ir~  Nap     bad;wicked;evil
-A$r     >a$ir~  Nap     bad;wicked;evil
 >$rAr   >a$orAr N       bad;wicked;evil
-A$rAr   >a$orAr N       bad;wicked;evil
 ;; $ir~iyr_1
 $ryr    $ir~iyr N       wicked;evil;bad
 $ryr    $ir~iyr N0      Satan
@@ -1434,14 +1380,11 @@ $rAr    $ar~Ar  N-ap    sparkling;emitting sparks     <pos>$ar~Ar/ADJ</pos>
 ; form QIV
 ;; {i$ora>ab~_1
 <$r>b   {i$ora>ab~      PV_V    crane the neck;stretch the neck
-A$r>b   {i$ora>ab~      PV_V    crane the neck;stretch the neck
 <$r>bb  {i$ora>obab     PV_C    crane the neck;stretch the neck
-A$r>bb  {i$ora>obab     PV_C    crane the neck;stretch the neck
 $r}b    $ora}ib~        IV_V    crane the neck;stretch the neck
 $r>bb   $ora>obib       IV_C    crane the neck;stretch the neck
 ;; {i$ori}obAb_1
 <$r}bAb {i$ori}obAb     N/At    craning the neck;stretching the neck
-A$r}bAb {i$ori}obAb     N/At    craning the neck;stretching the neck
 ;; mu$ora}ib~_1
 m$r}b   mu$ora}ib~      Nall    craning the neck;stretching the neck
 ;
@@ -1457,7 +1400,6 @@ $Arb    $Arab   PV      drink with
 $Arb    $Arib   IV_yu   drink with
 ;; >a$orab_1
 >$rb    >a$orab PV      make drink;give to drink
-A$rb    >a$orab PV      make drink;give to drink
 $rb     $orib   IV_yu   make drink;give to drink
 $rb     $orab   IV_Pass_yu      be made to drink;be given to drink
 ;; ta$ar~ab_1
@@ -1523,7 +1465,6 @@ $rytH   $riytiH Nprop   Shriteh
 ;; $araj_1
 $rj     $araj   Ndu     ring;loop
 >$rAj   >a$orAj N       rings;loops
-A$rAj   >a$orAj N       rings;loops
 ;; $araj_2
 $rj     $araj   Ndu     anus
 ;; $arajiy~_1
@@ -1540,7 +1481,6 @@ $rH     $ar~aH  PV      dissect
 $rH     $ar~iH  IV_yu   dissect
 ;; {ino$araH_1
 <n$rH   {ino$araH       PV_intr be delighted
-An$rH   {ino$araH       PV_intr be delighted
 n$rH    no$ariH IV_intr be delighted
 ;; $aroH_1
 $rH     $aroH   N       explanation;commentary
@@ -1558,7 +1498,6 @@ t$ryH   ta$oriyH        NduAt   dissection;autopsy
 t$ryHy  ta$oriyHiy~     N/ap    dissecting;anatomical     <pos>ta$oriyHiy~/ADJ</pos>
 ;; {ino$irAH_1
 <n$rAH  {ino$irAH       NduAt   relaxation;delight
-An$rAH  {ino$irAH       NduAt   relaxation;delight
 ;; $AriH_1
 $ArH    $AriH   N/ap    commentator;expounder
 ;; mu$ar~iH_1
@@ -1588,7 +1527,6 @@ $rd     $ar~ad  PV      dispossess;make homeless
 $rd     $ar~id  IV_yu   dispossess;make homeless
 ;; >a$orad_1
 >$rd    >a$orad PV      chase away
-A$rd    >a$orad PV      chase away
 $rd     $orid   IV_yu   chase away
 $rd     $orad   IV_Pass_yu      be chased away
 ;; ta$ar~ad_1
@@ -1697,7 +1635,6 @@ t$rT    ta$ar~aT        PV      impose conditions/terms
 t$rT    ta$ar~aT        IV      impose conditions/terms
 ;; {i$otaraT_1
 <$trT   {i$otaraT       PV      make conditional;stipulate;be prerequisite
-A$trT   {i$otaraT       PV      make conditional;stipulate;be prerequisite
 $trT    $otariT IV      make conditional;stipulate;be prerequisite
 ;; $aroT_1
 $rT     $aroT   Ndu     precondition;stipulation
@@ -1707,7 +1644,6 @@ $rT     $aroT   NF      on the condition;provided     <pos>$aroT/ADV</pos>
 ;; $araT_1
 $rT     $araT   N       portent
 >$rAT   >a$orAT N       portents
-A$rAT   >a$orAT N       portents
 ;; $aroTiy~_1
 $rTy    $aroTiy~        N-ap    conditional     <pos>$aroTiy~/ADJ</pos>
 ;; $aroTap_1
@@ -1719,7 +1655,6 @@ $rTy    $uroTiy~        Nall    police officer     <pos>$uroTiy~/ADJ</pos>
 ;; $ariyT_1
 $ryT    $ariyT  Ndu     tape;strip;ribbon
 >$rT    >a$oriT Nap     tapes;strips;ribbons
-A$rT    >a$oriT Nap     tapes;strips;ribbons
 $rA}T   $arA}iT Ndip    tapes;strips;ribbons
 ;; $ariyTap_1
 $ryT    $ariyT  Nap     condition
@@ -1734,10 +1669,8 @@ t$ryT   ta$oriyT        NduAt   incision;scarification
 m$ArT   mu$AraT NapAt   agreement;stipulation
 ;; {i$otirAT_1
 <$trAT  {i$otirAT       NduAt   condition;proviso;stipulation
-A$trAT  {i$otirAT       NduAt   condition;proviso;stipulation
 ;; {i$otirATiy~ap_1
 <$trATy {i$otirATiy~    NapAt   clause;condition     <pos>{i$otirATiy~/NOUN</pos>
-A$trATy {i$otirATiy~    NapAt   clause;condition     <pos>{i$otirATiy~/NOUN</pos>
 ;; ma$oruwT_1
 m$rwT   ma$oruwT        N-ap    conditional;contingent     <pos>ma$oruwT/ADJ</pos>
 ;
@@ -1767,12 +1700,10 @@ $rE     $ar~aE  PV      legislate
 $rE     $ar~iE  IV_yu   legislate
 ;; >a$oraE_1
 >$rE    >a$oraE PV      unsheathe
-A$rE    >a$oraE PV      unsheathe
 $rE     $oriE   IV_yu   unsheathe
 $rE     $oraE   IV_Pass_yu      be unsheathed
 ;; {i$otaraE_1
 <$trE   {i$otaraE       PV      enact;prescribe
-A$trE   {i$otaraE       PV      enact;prescribe
 $trE    $otariE IV      enact;prescribe
 ;; $araE_1
 $rE     $araE   N0      Sharaa
@@ -1789,7 +1720,6 @@ $rE     $iroE   Nap     law
 ;; $irAE_1
 $rAE    $irAE   N       sail;tent
 >$rE    >a$oriE Nap     sails;tents
-A$rE    >a$oriE Nap     sails;tents
 ;; $irAEiy~_1
 $rAEy   $irAEiy~        N-ap    sailing     <pos>$irAEiy~/ADJ</pos>
 ;; $ar~AEap_1
@@ -1810,10 +1740,8 @@ t$ryE   ta$oriyE        NduAt   legislation;legislature
 t$ryEy  ta$oriyEiy~     N-ap    legislative     <pos>ta$oriyEiy~/ADJ</pos>
 ;; {i$otirAE_1
 <$trAE  {i$otirAE       NduAt   legislation;law making
-A$trAE  {i$otirAE       NduAt   legislation;law making
 ;; {i$otirAEiy~_1
 <$trAEy {i$otirAEiy~    Nall    legislative     <pos>{i$otirAEiy~/ADJ</pos>
-A$trAEy {i$otirAEiy~    Nall    legislative     <pos>{i$otirAEiy~/ADJ</pos>
 ;; $AriE_1
 $ArE    $AriE   Ndu     street
 $wArE   $awAriE Ndip    streets
@@ -1845,7 +1773,6 @@ $Arf    $Araf   PV      overlook;supervise
 $Arf    $Arif   IV_yu   overlook;supervise
 ;; >a$oraf_1
 >$rf    >a$oraf PV      oversee;supervise;manage
-A$rf    >a$oraf PV      oversee;supervise;manage
 $rf     $orif   IV_yu   oversee;supervise;manage
 $rf     $oraf   IV_Pass_yu      be overseen;be supervised;be managed
 ;; ta$ar~af_1
@@ -1853,7 +1780,6 @@ t$rf    ta$ar~af        PV_intr be honored
 t$rf    ta$ar~af        IV_intr be honored
 ;; {isota$oraf_1
 <st$rf  {isota$oraf     PV      observe;scan
-Ast$rf  {isota$oraf     PV      observe;scan
 st$rf   sota$orif       IV      observe;scan
 ;; $araf_1
 $rf     $araf   N       honor;distinction
@@ -1881,7 +1807,6 @@ $rfA'   $urafA' N0_Nh   noble;honorable;respectable     <pos>$urafA'/ADJ</pos>
 $rfA&   $urafA& Nh      noble;honorable;respectable     <pos>$urafA&/ADJ</pos>
 $rfA}   $urafA} Nhy     noble;honorable;respectable     <pos>$urafA}/ADJ</pos>
 >$rAf   >a$orAf N       noble;honorable;respectable
-A$rAf   >a$orAf N       noble;honorable;respectable
 ;; $ariyfiy~_1
 $ryfy   $ariyfiy~       Nall    sherif     <pos>$ariyfiy~/ADJ</pos>
 ;; $ariyfiy~_2
@@ -1890,7 +1815,6 @@ $ryfy   $ariyfiy~       N0      Sharifi
 $ryfbwr $ariyfobuwr     N0      Sharifpour
 ;; >a$oraf_2
 >$rf    >a$oraf Nprop   Ashraf
-A$rf    >a$oraf Nprop   Ashraf
 ;; >a$oraf_3
 >$rf    >a$oraf Nel     more/most noble/honorable     <pos>>a$oraf/ADJ</pos>
 A$rf    >a$oraf Nel     more/most noble/honorable
@@ -1909,10 +1833,8 @@ t$ryfAty        ta$oriyfAtiy~   N-ap    ceremonial     <pos>ta$oriyfAtiy~/ADJ</p
 m$Arf   mu$Araf NapAt   supervision;overview
 ;; <i$orAf_1
 <$rAf   <i$orAf NduAt   supervision;direction;patronage
-A$rAf   <i$orAf NduAt   supervision;direction;patronage
 ;; <i$orAfiy~_1
 <$rAfy  <i$orAfiy~      Nall    supervisory;directing
-A$rAfy  <i$orAfiy~      Nall    supervisory;directing
 ;; {isoti$orAf_1
 Ast$rAf {isoti$orAf     NduAt   observation;supervision
 <st$rAf {isoti$orAf     NduAt   observation;supervision
@@ -1937,7 +1859,6 @@ $rq     $ariq   PV      choke
 $rq     $oraq   IV      choke
 ;; >a$oraq_1
 >$rq    >a$oraq PV      rise;shine
-A$rq    >a$oraq PV      rise;shine
 $rq     $oriq   IV_yu   rise;shine
 $rq     $oraq   IV_Pass_yu      be risen;be shone
 ;; ta$ar~aq_1
@@ -1945,7 +1866,6 @@ t$rq    ta$ar~aq        PV_intr become Oriental
 t$rq    ta$ar~aq        IV_intr become Oriental
 ;; {isota$oraq_1
 <st$rq  {isota$oraq     PV      study the East;be an Orientalist
-Ast$rq  {isota$oraq     PV      study the East;be an Orientalist
 st$rq   sota$oriq       IV      study the East;be an Orientalist
 ;; $aroq_1
 $rq     $aroq   FW-WaBi east (of)     <pos>$aroq/PREP</pos>
@@ -1978,10 +1898,8 @@ m$Arq   ma$Ariq Nap     Eastern;Levantine     <pos>ma$Ariq/ADJ</pos>
 t$ryq   ta$oriyq        NduAt   Orientalization;Easternization     <pos>ta$oriyq/NOUN</pos>
 ;; <i$orAq_1
 <$rAq   <i$orAq NduAt   sunrise;splendor
-A$rAq   <i$orAq NduAt   sunrise;splendor
 ;; <i$orAqap_1
 <$rAq   <i$orAq Nap     flash
-A$rAq   <i$orAq Nap     flash
 ;; <i$orAqiy~_1
 <$rAqy  <i$orAqiy~      Nall    Illuminist     <pos><i$orAqiy~/NOUN</pos>
 <$rAqy  <i$orAqiy~      Nall    Illuminist     <pos><i$orAqiy~/ADJ</pos>
@@ -1989,7 +1907,6 @@ A$rAqy  <i$orAqiy~      Nall    Illuminist     <pos><i$orAqiy~/NOUN</pos>
 A$rAqy  <i$orAqiy~      Nall    Illuminist     <pos><i$orAqiy~/ADJ</pos>
 ;; {isoti$orAq_1
 <st$rAq {isoti$orAq     N/At    Orientalism     <pos>{isoti$orAq/NOUN</pos>
-Ast$rAq {isoti$orAq     N/At    Orientalism     <pos>{isoti$orAq/NOUN</pos>
 ;; {isoti$orAqiy~_1
 <st$rAqy        {isoti$orAqiy~  Nall    Orientalist     <pos>{isoti$orAqiy~/NOUN</pos>
 <st$rAqy        {isoti$orAqiy~  Nall    Orientalist     <pos>{isoti$orAqiy~/ADJ</pos>
@@ -2011,7 +1928,6 @@ $Ark    $Arak   PV      participate;share
 $Ark    $Arik   IV_yu   participate;share
 ;; >a$orak_1
 >$rk    >a$orak PV      associate;implicate;be idolatrous
-A$rk    >a$orak PV      associate;implicate;be idolatrous
 $rk     $orik   IV_yu   associate;implicate;be idolatrous
 $rk     $orak   IV_Pass_yu      be associated;be implicated
 ;; ta$Arak_1
@@ -2019,7 +1935,6 @@ t$Ark   ta$Arak PV_intr be partners
 t$Ark   ta$Arak IV_intr be partners
 ;; {i$otarak_1
 <$trk   {i$otarak       PV      participate
-A$trk   {i$otarak       PV      participate
 $trk    $otarik IV      participate
 ;; $irok_1
 $rk     $irok   N       idolatry
@@ -2027,7 +1942,6 @@ $rk     $irok   N       idolatry
 $rk     $arak   N       trap;net
 $rk     $uruk   N       traps;nets
 >$rAk   >a$orAk N       traps;nets
-A$rAk   >a$orAk N       traps;nets
 ;; $arikap_1
 $rk     $arik   Napdu   company;corporation
 $rk     $arik   NAt     companies;corporations
@@ -2045,23 +1959,17 @@ t$ryk   ta$oriyk        NduAt   socialization
 m$Ark   mu$Arak NapAt   participation;association
 ;; <i$orAk_1
 <$rAk   <i$orAk NduAt   participation;implication
-A$rAk   <i$orAk NduAt   participation;implication
 ;; ta$Aruk_1
 t$Ark   ta$Aruk NduAt   joint participation
 ;; {i$otirAk_1
 <$trAk  {i$otirAk       N/At    partnership;participation
-A$trAk  {i$otirAk       N/At    partnership;participation
 ;; {i$otirAk_2
 <$trAk  {i$otirAk       Ndu     subscription
-A$trAk  {i$otirAk       Ndu     subscription
 <$trAk  {i$otirAk       NAt     subscriptions
-A$trAk  {i$otirAk       NAt     subscriptions
 ;; {i$otirAkiy~_1
 <$trAky {i$otirAkiy~    Nall    socialist     <pos>{i$otirAkiy~/ADJ</pos>
-A$trAky {i$otirAkiy~    Nall    socialist     <pos>{i$otirAkiy~/ADJ</pos>
 ;; {i$otirAkiy~ap_1
 <$trAky {i$otirAkiy~    Nap     socialism     <pos>{i$otirAkiy~/NOUN</pos>
-A$trAky {i$otirAkiy~    Nap     socialism     <pos>{i$otirAkiy~/NOUN</pos>
 ;; mu$Arik_1
 m$Ark   mu$Arik Nall    participant;associate
 ;; mu$orik_1
@@ -2088,7 +1996,6 @@ $rm     $arom   Ndu     crack;bay
 $rwm    $uruwm  N       cracks;bays
 ;; >a$oram_1
 >$rm    >a$oram Nel     harelipped
-A$rm    >a$oram Nel     harelipped
 $rmA'   $aromA' N0_Nh   harelipped
 $rmA&   $aromA& Nh      harelipped
 $rmA}   $aromA} Nhy     harelipped
@@ -2144,25 +2051,17 @@ $r      $or     IV_0hwnyn       buy;purchase
 $rY     $oraY   IV_0_Pass_yu    be bought;be purchased
 ;; {i$otaraY_1
 <$trY   {i$otaraY       PV_0    purchase
-A$trY   {i$otaraY       PV_0    purchase
 <$trA   {i$otarA        PV_h    purchase
-A$trA   {i$otarA        PV_h    purchase
 <$try   {i$otaray       PV_Atn  purchase
-A$try   {i$otaray       PV_Atn  purchase
 <$tr    {i$otar PV_ttAw purchase
-A$tr    {i$otar PV_ttAw purchase
 $try    $otariy IV_0hAnn        purchase
 $tr     $otar   IV_0hwnyn       purchase
 $trY    $otaraY IV_0_Pass_yu    be purchased
 ;; {isota$oraY_1
 <st$rY  {isota$oraY     PV_0    deteriorate
-Ast$rY  {isota$oraY     PV_0    deteriorate
 <st$rA  {isota$orA      PV_h    deteriorate
-Ast$rA  {isota$orA      PV_h    deteriorate
 <st$ry  {isota$oray     PV_Atn  deteriorate
-Ast$ry  {isota$oray     PV_Atn  deteriorate
 <st$r   {isota$or       PV_ttAw deteriorate
-Ast$r   {isota$or       PV_ttAw deteriorate
 st$ry   sota$oriy       IV_0hAnn        deteriorate
 st$r    sota$or IV_0hwnyn       deteriorate
 ;; $aroy_1
@@ -2171,7 +2070,6 @@ $ry     $aroy   N       colocynth
 $rY     $iraY   N0      purchase
 $rA     $irA    Nhy     purchase
 >$ry    >a$oriy Nap     purchase
-A$ry    >a$oriy Nap     purchase
 ;; $irA'_1
 $rA'    $irA'   N0_Nh   purchase;purchasing
 $rA&    $irA&   Nh      purchase;purchasing
@@ -2180,17 +2078,11 @@ $rA}    $irA}   Nhy     purchase;purchasing
 $rA}y   $irA}iy~        N-ap    purchasing     <pos>$irA}iy~/ADJ</pos>
 ;; {i$otirA'_1
 <$trA'  {i$otirA'       N0_Nh   purchase
-A$trA'  {i$otirA'       N0_Nh   purchase
 <$trA&  {i$otirA&       Nh      purchase
-A$trA&  {i$otirA&       Nh      purchase
 <$trA}  {i$otirA}       Nhy     purchase
-A$trA}  {i$otirA}       Nhy     purchase
 <$trA'  {i$otirA'       NAn_Nayn        purchases
-A$trA'  {i$otirA'       NAn_Nayn        purchases
 <$trA}  {i$otirA}       Nayn    purchases
-A$trA}  {i$otirA}       Nayn    purchases
 <$trA'  {i$otirA'       NAt     purchases
-A$trA'  {i$otirA'       NAt     purchases
 ;; $Ariy_1
 $Ary    $Ariy   N0F_Nh  buyer;client
 $Ar     $Ar     NK      buyer;client
@@ -2286,9 +2178,7 @@ $T      $uT~    IV_V_intr       be excessive;go too far
 $TT     $oTuT   IV_C_intr       be excessive;go too far
 ;; {i$otaT~_1
 <$tT    {i$otaT~        PV_V_intr       be excessive;go too far
-A$tT    {i$otaT~        PV_V_intr       be excessive;go too far
 <$tTT   {i$otaTaT       PV_C_intr       be excessive;go too far
-A$tTT   {i$otaTaT       PV_C_intr       be excessive;go too far
 $tT     $otaT~  IV_V_intr       be excessive;go too far
 $tTT    $otaTiT IV_C_intr       be excessive;go too far
 ;; $aT~_1
@@ -2348,7 +2238,6 @@ $ATr    $ATar   PV      participate;share
 $ATr    $ATir   IV_yu   participate;share
 ;; {ino$aTar_1
 <n$Tr   {ino$aTar       PV_intr be bisected;be split;disintegrate
-An$Tr   {ino$aTar       PV_intr be bisected;be split;disintegrate
 n$Tr    no$aTir IV_intr be bisected;be split;disintegrate
 ;; $aTor_1
 $Tr     $aTor   Ndu     bisecting
@@ -2356,7 +2245,6 @@ $Tr     $aTor   Ndu     bisecting
 $Tr     $aTor   Ndu     portion
 $Twr    $uTuwr  N       portions
 >$Tr    >a$oTur N       portions
-A$Tr    >a$oTur N       portions
 ;; $aTora_1
 $Tr     $aTora  FW-Wa   towards     <pos>$aTora/PREP</pos>
 $Tr     $aTora  FW-Wa-a towards     <pos>$aTora/PREP</pos>
@@ -2371,7 +2259,6 @@ $TA}r   $aTA}ir Ndip    sandwiches
 m$ATr   mu$ATar NapAt   participation;sharing
 ;; {i$otiTAr_1
 <$tTAr  {i$otiTAr       NduAt   fission;separation
-A$tTAr  {i$otiTAr       NduAt   fission;separation
 ;; $ATir_1
 $ATr    $ATir   N/ap    clever;smart;cute     <pos>$ATir/ADJ</pos>
 $TAr    $uT~Ar  N       clever;smart;cute
@@ -2401,7 +2288,6 @@ $Tn     $aTon   N       fastening;attaching
 ;; $aTon_2
 $Tn     $aTon   Ndu     rope
 >$TAn   >a$oTAn N       ropes
-A$TAn   >a$oTAn N       ropes
 ;
 ;--- $Zf
 ;; $aZaf-u_1
@@ -2439,9 +2325,7 @@ $E      $iE~    IV_V    radiate;disperse
 $EE     $oEiE   IV_C    radiate;disperse
 ;; >a$aE~_1
 >$E     >a$aE~  PV_V    radiate;emit rays
-A$E     >a$aE~  PV_V    radiate;emit rays
 >$EE    >a$oEaE PV_C    radiate;emit rays
-A$EE    >a$oEaE PV_C    radiate;emit rays
 $E      $iE~    IV_V_yu radiate;emit rays
 $EE     $oEiE   IV_C_yu radiate;emit rays
 $E      $aE~    IV_V_Pass_yu    be radiated;be emitted
@@ -2453,24 +2337,20 @@ $E      $uE~    N       rays
 ;; $uEAE_1
 $EAE    $uEAE   N/ap    rays
 >$E     >a$iE~  Nap     rays
-A$E     >a$iE~  Nap     rays
 ;; $uEAEiy~_1
 $EAEy   $uEAEiy~        N-ap    radiation     <pos>$uEAEiy~/ADJ</pos>
 ;; $aEAE_1
 $EAE    $aEAE   N-ap    confused     <pos>$aEAE/ADJ</pos>
 ;; <i$oEAE_1
 <$EAE   <i$oEAE N/At    radiation;irradiation
-A$EAE   <i$oEAE N/At    radiation;irradiation
 ;; <i$oEAEiy~_1
 <$EAEy  <i$oEAEiy~      Nall    radiative;radiation     <pos><i$oEAEiy~/ADJ</pos>
-A$EAEy  <i$oEAEiy~      Nall    radiative;radiation     <pos><i$oEAEiy~/ADJ</pos>
 ;; ta$aE~uE_1
 t$EE    ta$aE~uE        NduAt   radiation
 ;; mu$iE~_1
 m$E     mu$iE~  N-ap    radiating;radioactive     <pos>mu$iE~/ADJ</pos>
 ;; {isoti$oEAE_1
 <st$EAE {isoti$oEAE     N/At    fluorescence
-Ast$EAE {isoti$oEAE     N/At    fluorescence
 ;; musota$iE~_1
 mst$E   musota$iE~      N-ap    fluorescent     <pos>musota$iE~/ADJ</pos>
 ;
@@ -2483,11 +2363,9 @@ t$Eb    ta$aE~ab        PV      diverge;branch out
 t$Eb    ta$aE~ab        IV      diverge;branch out
 ;; {ino$aEab_1
 <n$Eb   {ino$aEab       PV      diverge;branch out
-An$Eb   {ino$aEab       PV      diverge;branch out
 n$Eb    no$aEib IV      diverge;branch out
 ;; {i$otaEab_1
 <$tEb   {i$otaEab       PV      diverge;branch out
-A$tEb   {i$otaEab       PV      diverge;branch out
 $tEb    $otaEib IV      diverge;branch out
 ;; $aEob_1
 $Eb     $aEob   Ndu     people;nation
@@ -2523,17 +2401,14 @@ $Eyb    $aEiyb  N/ap    disorganized;dispersed
 $EbAn   $aEobAn Ndip    Sha'ban (month)
 ;; >a$oEab_1
 >$Eb    >a$oEab Ndip    Ash'ab (legendary miser)
-A$Eb    >a$oEab Ndip    Ash'ab (legendary miser)
 ;; >a$oEabiy~_1
 >$Eby   >a$oEabiy~      Nall    miser;greedy     <pos>>a$oEabiy~/ADJ</pos>
-A$Eby   >a$oEabiy~      Nall    miser;greedy     <pos>>a$oEabiy~/ADJ</pos>
 ;; mi$oEAb_1
 m$EAb   mi$oEAb N       rod;stick
 ;; ta$aE~ub_1
 t$Eb    ta$aE~ub        NduAt   ramification
 ;; {ino$iEAb_1
 <n$EAb  {ino$iEAb       NduAt   ramification
-An$EAb  {ino$iEAb       NduAt   ramification
 ;; muta$aE~ib_1
 mt$Eb   muta$aE~ib      Nall    ramified;versatile     <pos>muta$aE~ib/ADJ</pos>
 ;; muno$aEib_1
@@ -2579,12 +2454,10 @@ $Er     $aEar   PV      feel;be aware
 $Er     $oEur   IV      feel;be aware
 ;; >a$oEar_1
 >$Er    >a$oEar PV      notify;advert
-A$Er    >a$oEar PV      notify;advert
 $Er     $oEir   IV_yu   notify;advert
 $Er     $oEar   IV_Pass_yu      be notified;be adverted
 ;; {isota$oEar_1
 <st$Er  {isota$oEar     PV_intr be conscious of;realize;have a premonition of
-Ast$Er  {isota$oEar     PV_intr be conscious of;realize;have a premonition of
 st$Er   sota$oEir       IV_intr be conscious of;realize;have a premonition of
 ;; $uEuwr_1
 $Ewr    $uEuwr  N       feeling;sentiment;awareness
@@ -2597,7 +2470,6 @@ lA$Ewry lA$uEuwriy~     Nall_L  subconscious;unconscious     <pos>lA$uEuwriy~/AD
 ;; $iEor_1
 $Er     $iEor   N       poetry
 >$EAr   >a$oEAr N       poems
-A$EAr   >a$oEAr N       poems
 ;; $iEoriy~_1
 $Ery    $iEoriy~        N-ap    poetic     <pos>$iEoriy~/ADJ</pos>
 ;; $iEAr_1
@@ -2624,10 +2496,8 @@ m$AEr   ma$AEir Ndip    feelings;emotions;senses
 m$AEr   ma$AEir Ndip    customs;rites
 ;; <i$oEAr_1
 <$EAr   <i$oEAr NduAt   notice;notification
-A$EAr   <i$oEAr NduAt   notice;notification
 ;; {isoti$oEAr_1
 <st$EAr {isoti$oEAr     NduAt   premonition;feeling
-Ast$EAr {isoti$oEAr     NduAt   premonition;feeling
 ;
 ;--- $Er(2)
 ;; $aEor_1
@@ -2684,15 +2554,12 @@ $El     $aE~al  PV      ignite;inflame
 $El     $aE~il  IV_yu   ignite;inflame
 ;; >a$oEal_1
 >$El    >a$oEal PV      ignite;inflame
-A$El    >a$oEal PV      ignite;inflame
 $El     $oEil   IV_yu   ignite;inflame
 ;; >u$oEil_1
 >$El    >u$oEil PV_Pass be ignited;be set afire
-A$El    >u$oEil PV_Pass be ignited;be set afire
 $El     $oEal   IV_Pass_yu      be ignited;be set afire
 ;; {i$otaEal_1
 <$tEl   {i$otaEal       PV      flare up;catch fire
-A$tEl   {i$otaEal       PV      flare up;catch fire
 $tEl    $otaEil IV      flare up;catch fire
 ;; $uEolap_1
 $El     $uEol   Nap     fire;flame
@@ -2713,13 +2580,10 @@ m$EAl   mi$oEAl Ndu     torch
 m$El    mi$oEal Nprop   Mish'al
 ;; <i$oEAl_1
 <$EAl   <i$oEAl NduAt   igniting;lighting
-A$EAl   <i$oEAl NduAt   igniting;lighting
 ;; {i$otiEAl_1
 <$tEAl  {i$otiEAl       NduAt   burning;ignition
-A$tEAl  {i$otiEAl       NduAt   burning;ignition
 ;; {i$otiEAliy~_1
 <$tEAly {i$otiEAliy~    N-ap    combustible;flammable     <pos>{i$otiEAliy~/ADJ</pos>
-A$tEAly {i$otiEAliy~    N-ap    combustible;flammable     <pos>{i$otiEAliy~/ADJ</pos>
 ;; mu$otaEil_1
 m$tEl   mu$otaEil       Nall    burning;ablaze     <pos>mu$otaEil/ADJ</pos>
 ;
@@ -2729,7 +2593,6 @@ $En     $aEan   PV-n    scatter;tousle
 $En     $oEan   IV-n    scatter;tousle
 ;; >a$oEan_1
 >$En    >a$oEan PV-n    grasp by the hair
-A$En    >a$oEan PV-n    grasp by the hair
 $En     $oEin   IV-n_yu grasp by the hair
 $En     $oEan   IV-n_Pass_yu    be grasped by the hair
 ;; $aEoniynap_1
@@ -2789,7 +2652,6 @@ $gf     $ugif   PV_Pass be infatuated;fall in love
 $gf     $ogaf   IV_Pass_yu      be infatuated;fall in love
 ;; {ino$agaf_1
 <n$gf   {ino$agaf       PV_intr be infatuated;fall in love
-An$gf   {ino$agaf       PV_intr be infatuated;fall in love
 n$gf    no$agif IV_intr be infatuated;fall in love
 ;; $agaf_1
 $gf     $agaf   N       passion;zeal;infatuation
@@ -2816,7 +2678,6 @@ $Agl    $Agal   PV      distract
 $Agl    $Agil   IV_yu   distract
 ;; >a$ogal_1
 >$gl    >a$ogal PV      occupy;distract
-A$gl    >a$ogal PV      occupy;distract
 $gl     $ogil   IV_yu   occupy;distract
 $gl     $ogal   IV_Pass_yu      be occupied;be distracted
 ;; ta$Agal_1
@@ -2824,16 +2685,13 @@ t$Agl   ta$Agal PV      keep busy;be occupied
 t$Agl   ta$Agal IV      keep busy;be occupied
 ;; {ino$agal_1
 <n$gl   {ino$agal       PV      keep busy;be occupied
-An$gl   {ino$agal       PV      keep busy;be occupied
 n$gl    no$agil IV      keep busy;be occupied
 ;; {i$otagal_1
 <$tgl   {i$otagal       PV      work;operate
-A$tgl   {i$otagal       PV      work;operate
 $tgl    $otagil IV      work;operate
 ;; $ugol_1
 $gl     $ugol   N       work;activity;occupation
 >$gAl   >a$ogAl N       work;labor;business
-A$gAl   >a$ogAl N       work;labor;business
 ;; $ag~Al_1
 $gAl    $ag~Al  Nall    laborer;worker     <pos>$ag~Al/NOUN</pos>
 ;; $ag~Al_2
@@ -2857,10 +2715,8 @@ t$gyly  ta$ogiyliy~     N-ap    operational     <pos>ta$ogiyliy~/ADJ</pos>
 t$gyly  ta$ogiyliy~     N-ap    employment;hiring     <pos>ta$ogiyliy~/ADJ</pos>
 ;; {ino$igAl_1
 <n$gAl  {ino$igAl       NduAt   preoccupied;busy;occupation
-An$gAl  {ino$igAl       NduAt   preoccupied;busy;occupation
 ;; {i$otigAl_1
 <$tgAl  {i$otigAl       NduAt   preoccupied;functioning
-A$tgAl  {i$otigAl       NduAt   preoccupied;functioning
 ;; $Agil_1
 $Agl    $Agil   Nall    working;functioning     <pos>$Agil/ADJ</pos>
 ;; $awAgil_1
@@ -2887,16 +2743,12 @@ $f      $if~    IV_V_intr       be thin;be transparent
 $ff     $ofif   IV_C_intr       be thin;be transparent
 ;; {i$otaf~_1
 <$tf    {i$otaf~        PV_V    drink up;consume
-A$tf    {i$otaf~        PV_V    drink up;consume
 <$tff   {i$otafaf       PV_C    drink up;consume
-A$tff   {i$otafaf       PV_C    drink up;consume
 $tf     $otaf~  IV_V    drink up;consume
 $tff    $otafif IV_C    drink up;consume
 ;; {isota$af~_1
 <st$f   {isota$af~      PV_V    perceive;see through
-Ast$f   {isota$af~      PV_V    perceive;see through
 <st$ff  {isota$ofaf     PV_C    perceive;see through
-Ast$ff  {isota$ofaf     PV_C    perceive;see through
 st$f    sota$if~        IV_V    perceive;see through
 st$ff   sota$ofif       IV_C    perceive;see through
 ;; $if~_1
@@ -2914,7 +2766,6 @@ $fwf    $ufuwf  N       translucence;transparency
 $fAfy   $af~Afiy~       Nap     translucence;transparency     <pos>$af~Afiy~/NOUN</pos>
 ;; {isoti$ofAf_1
 <st$fAf {isoti$ofAf     N/At    tracing
-Ast$fAf {isoti$ofAf     N/At    tracing
 ;
 ;--- $ft
 ;; $ifot_1
@@ -2942,7 +2793,6 @@ $fAtyr  $afAtiyr        Ndip    thick lips
 ;; $afor_1
 $fr     $afor   Ndu     edge;border
 >$fAr   >a$ofAr N       edges;borders;lids
-A$fAr   >a$ofAr N       edges;borders;lids
 ;; $aforap_1
 $fr     $afor   Napdu   blade;edge
 $fr     $afar   NAt     blades;edges
@@ -3002,7 +2852,6 @@ t$fE    ta$af~aE        IV      intercede;mediate
 ;; $afoE_1
 $fE     $afoE   N       even number
 >$fAE   >a$ofAE N       even numbers
-A$fAE   >a$ofAE N       even numbers
 $fAE    $ifAE   N       even numbers
 ;; $afoE_2
 $fE     $afoE   N       double vision
@@ -3038,13 +2887,11 @@ $fq     $afiq   PV      have pity;sympathize
 $fq     $ofaq   IV      have pity;sympathize
 ;; >a$ofaq_1
 >$fq    >a$ofaq PV      pity;commiserate
-A$fq    >a$ofaq PV      pity;commiserate
 $fq     $ofiq   IV_yu   pity;commiserate
 $fq     $ofaq   IV_Pass_yu      be pitied
 ;; $afaq_1
 $fq     $afaq   N       dusk;twilight
 >$fAq   >a$ofAq N       dusk;twilight
-A$fAq   >a$ofAq N       dusk;twilight
 ;; $afaqiy~_1
 $fqy    $afaqiy~        N-ap    dusk;twilight     <pos>$afaqiy~/ADJ</pos>
 ;; $afaqap_1
@@ -3057,7 +2904,6 @@ $fyq    $afiyq  N-ap    compassionate;sympathetic     <pos>$afiyq/ADJ</pos>
 $fwq    $afuwq  N-ap    compassionate;sympathetic
 ;; <i$ofAq_1
 <$fAq   <i$ofAq NduAt   pity;sympathy
-A$fAq   <i$ofAq NduAt   pity;sympathy
 ;; mu$ofiq_1
 m$fq    mu$ofiq Nall    compassionate;sympathetic     <pos>mu$ofiq/ADJ</pos>
 ;
@@ -3104,13 +2950,9 @@ $f      $of     IV_0hwnyn       cure;heal
 $fY     $ofaY   IV_0    cure;heal
 ;; >a$ofaY_1
 >$fY    >a$ofaY PV_0    be very close;be on the verge
-A$fY    >a$ofaY PV_0    be very close;be on the verge
 >$fA    >a$ofA  PV_h    be very close;be on the verge
-A$fA    >a$ofA  PV_h    be very close;be on the verge
 >$fy    >a$ofay PV_Atn  be very close;be on the verge
-A$fy    >a$ofay PV_Atn  be very close;be on the verge
 >$f     >a$of   PV_ttAw_intr    be very close;be on the verge
-A$f     >a$of   PV_ttAw_intr    be very close;be on the verge
 $fy     $ofiy   IV_0hAnn_yu     be very close;be on the verge
 $f      $of     IV_0hwnyn_yu    be very close;be on the verge
 $fY     $ofaY   IV_0_Pass_yu    be very close;be on the verge
@@ -3124,25 +2966,17 @@ t$fy    ta$af~ay        IV_Ann  be cured;be healed
 t$f     ta$af~  IV_0hwnyn       be cured;be healed
 ;; {i$otafaY_1
 <$tfY   {i$otafaY       PV_0    be cured;be healed
-A$tfY   {i$otafaY       PV_0    be cured;be healed
 <$tfA   {i$otafA        PV_h    be cured;be healed
-A$tfA   {i$otafA        PV_h    be cured;be healed
 <$tfy   {i$otafay       PV_Atn  be cured;be healed
-A$tfy   {i$otafay       PV_Atn  be cured;be healed
 <$tf    {i$otaf PV_ttAw_intr    be cured;be healed
-A$tf    {i$otaf PV_ttAw_intr    be cured;be healed
 $tfy    $otafiy IV_0hAnn        be cured;be healed
 $tf     $otaf   IV_0hwnyn       be cured;be healed
 $tfY    $otafaY IV_0_Pass_yu    be cured;be healed
 ;; {isota$ofaY_1
 <st$fY  {isota$ofaY     PV_0    seek a cure;hospitalize
-Ast$fY  {isota$ofaY     PV_0    seek a cure;hospitalize
 <st$fA  {isota$ofA      PV_h    seek a cure;hospitalize
-Ast$fA  {isota$ofA      PV_h    seek a cure;hospitalize
 <st$fy  {isota$ofay     PV_Atn  seek a cure;hospitalize
-Ast$fy  {isota$ofay     PV_Atn  seek a cure;hospitalize
 <st$f   {isota$of       PV_ttAw seek a cure;hospitalize
-Ast$f   {isota$of       PV_ttAw seek a cure;hospitalize
 st$fy   sota$ofiy       IV_0hAnn        seek a cure;hospitalize
 st$f    sota$of IV_0hwnyn       seek a cure;hospitalize
 st$fY   sota$ofaY       IV_0    be hospitalized
@@ -3150,17 +2984,13 @@ st$fY   sota$ofaY       IV_0    be hospitalized
 $fA     $afAF   FW-WaBi brink;verge;edge     <pos>$afAF/NOUN</pos>
 $fA     $afA    N0_Nhy  brink;verge;edge
 >$fA'   >a$ofA' N0_Nh   brink;verge;edges
-A$fA'   >a$ofA' N0_Nh   brink;verge;edges
 >$fA&   >a$ofA& Nh      brink;verge;edges
-A$fA&   >a$ofA& Nh      brink;verge;edges
 >$fA}   >a$ofA} Nhy     brink;verge;edges
-A$fA}   >a$ofA} Nhy     brink;verge;edges
 ;; $ifA'_1
 $fA'    $ifA'   N0_Nh   cure;remedy;medication
 $fA&    $ifA&   Nh      cure;remedy;medication
 $fA}    $ifA}   Nhy     cure;remedy;medication
 >$fy    >a$ofiy Nap     remedies;medication
-A$fy    >a$ofiy Nap     remedies;medication
 ;; $ifA}iy~_1
 $fA}y   $ifA}iy~        N-ap    healing;curative;medicinal     <pos>$ifA}iy~/ADJ</pos>
 ;; ma$ofaY_1
@@ -3177,16 +3007,11 @@ t$fy    ta$af~iy        NAn_Nayn        gratification;satisfaction
 t$fy    ta$af~iy        NAt     gratification;satisfaction
 ;; {isoti$ofA'_1
 <st$fA' {isoti$ofA'     N0_Nh   hospitalization
-Ast$fA' {isoti$ofA'     N0_Nh   hospitalization
 <st$fA& {isoti$ofA&     Nh      hospitalization
-Ast$fA& {isoti$ofA&     Nh      hospitalization
 <st$fA} {isoti$ofA}     Nhy     hospitalization
-Ast$fA} {isoti$ofA}     Nhy     hospitalization
 <st$fA' {isoti$ofA'     NAt     hospitalization
-Ast$fA' {isoti$ofA'     NAt     hospitalization
 ;; {isoti$ofA}iy~_1
 <st$fA}y        {isoti$ofA}iy~  N-ap    hospitalization     <pos>{isoti$ofA}iy~/ADJ</pos>
-Ast$fA}y        {isoti$ofA}iy~  N-ap    hospitalization     <pos>{isoti$ofA}iy~/ADJ</pos>
 ;; $Afiy_1
 $Afy    $Afiy   N0F     healing;curative     <pos>$Afiy/ADJ</pos>
 $Af     $Af     NK      healing;curative
@@ -3212,16 +3037,12 @@ t$qq    ta$aq~aq        PV_intr be split
 t$qq    ta$aq~aq        IV_intr be split
 ;; {ino$aq~_1
 <n$q    {ino$aq~        PV_V_intr       split off
-An$q    {ino$aq~        PV_V_intr       split off
 <n$qq   {ino$aqaq       PV_C_intr       split off
-An$qq   {ino$aqaq       PV_C_intr       split off
 n$q     no$aq~  IV_V_intr       split off
 n$qq    no$aqiq IV_C_intr       split off
 ;; {i$otaq~_1
 <$tq    {i$otaq~        PV_V    derive
-A$tq    {i$otaq~        PV_V    derive
 <$tqq   {i$otaqaq       PV_C    derive
-A$tqq   {i$otaqaq       PV_C    derive
 $tq     $otaq~  IV_V    derive
 $tqq    $otaqiq IV_C    derive
 ;; $aq~_1
@@ -3240,13 +3061,9 @@ $qq     $uqaq   N       distances
 ;; $aqiyq_1
 $qyq    $aqiyq  Ndu     brother
 >$q     >a$iq~  Nap     brothers
-A$q     >a$iq~  Nap     brothers
 >$qA'   >a$iq~A'        N0_Nh   brothers
-A$qA'   >a$iq~A'        N0_Nh   brothers
 >$qA&   >a$iq~A&        Nh      brothers
-A$qA&   >a$iq~A&        Nh      brothers
 >$qA}   >a$iq~A}        Nhy     brothers
-A$qA}   >a$iq~A}        Nhy     brothers
 ;; $aqiyq_2
 $qyq    $aqiyq  Ndu     fraternal;brotherly     <pos>$aqiyq/ADJ</pos>
 ;; $aqiyqap_1
@@ -3265,16 +3082,12 @@ $qAqy   $iqAqiy~        N0      Shiqaqi
 t$qq    ta$aq~uq        NduAt   cleavage;fissure
 ;; {ino$iqAq_1
 <n$qAq  {ino$iqAq       NduAt   secession;splitting off;dissension
-An$qAq  {ino$iqAq       NduAt   secession;splitting off;dissension
 ;; {ino$iqAqiy~_1
 <n$qAqy {ino$iqAqiy~    Nall    renegade;dissenting     <pos>{ino$iqAqiy~/ADJ</pos>
-An$qAqy {ino$iqAqiy~    Nall    renegade;dissenting     <pos>{ino$iqAqiy~/ADJ</pos>
 ;; {i$otiqAq_1
 <$tqAq  {i$otiqAq       NduAt   derivation
-A$tqAq  {i$otiqAq       NduAt   derivation
 ;; {i$otiqAqiy~_1
 <$tqAqy {i$otiqAqiy~    N-ap    derivational     <pos>{i$otiqAqiy~/ADJ</pos>
-A$tqAqy {i$otiqAqiy~    N-ap    derivational     <pos>{i$otiqAqiy~/ADJ</pos>
 ;; $Aq~_1
 $Aq     $Aq~    N-ap    hard;toilsome
 ;; ma$oquwq_1
@@ -3289,12 +3102,10 @@ m$tq    mu$otaq~        Nall    derivative
 ;--- $qH
 ;; >a$oqaH_1
 >$qH    >a$oqaH PV      remove;distance
-A$qH    >a$oqaH PV      remove;distance
 $qH     $oqiH   IV_yu   remove;distance
 $qH     $oqaH   IV_Pass_yu      be removed;be distanced
 ;; <i$oqAH_1
 <$qAH   <i$oqAH NduAt   removal;distancing
-A$qAH   <i$oqAH NduAt   removal;distancing
 ;
 ;--- $q*f
 ;; $uqo*uf_1
@@ -3307,9 +3118,7 @@ $qr     $aqir   PV_intr be of fair complexion;be blond
 $qr     $oqar   IV_intr be of fair complexion;be blond
 ;; {i$oqar~_1
 <$qr    {i$oqar~        PV_V_intr       be of fair complexion;be blond
-A$qr    {i$oqar~        PV_V_intr       be of fair complexion;be blond
 <$qrr   {i$oqarar       PV_C_intr       be of fair complexion;be blond
-A$qrr   {i$oqarar       PV_C_intr       be of fair complexion;be blond
 $qr     $oqar~  IV_V_intr       be of fair complexion;be blond
 $qrr    $oqarir IV_C_intr       be of fair complexion;be blond
 ;; $aqar_1
@@ -3318,7 +3127,6 @@ $qr     $aqar   N       blond;fair-skinned
 $qr     $uqor   Nap     blond;fair-skinned
 ;; >a$oqar_1
 >$qr    >a$oqar Nel     blond;fair-skinned
-A$qr    >a$oqar Nel     blond;fair-skinned
 $qrA'   $aqorA' N0_Nh   blond;fair-skinned
 $qrA&   $aqorA& Nh      blond;fair-skinned
 $qrA}   $aqorA} Nhy     blond;fair-skinned
@@ -3390,13 +3198,9 @@ $qy     $oqay   IV_Ann  be unhappy;suffer
 $q      $oqa    IV_0hwnyn       be unhappy;suffer
 ;; >a$oqaY_1
 >$qY    >a$oqaY PV_0    sadden;distress
-A$qY    >a$oqaY PV_0    sadden;distress
 >$qA    >a$oqA  PV_h    sadden;distress
-A$qA    >a$oqA  PV_h    sadden;distress
 >$qy    >a$oqay PV_Atn  sadden;distress
-A$qy    >a$oqay PV_Atn  sadden;distress
 >$q     >a$oq   PV_ttAw sadden;distress
-A$q     >a$oq   PV_ttAw sadden;distress
 $qy     $oqiy   IV_0hAnn_yu     sadden;distress
 $q      $oq     IV_0hwnyn_yu    sadden;distress
 $qY     $oqaY   IV_0_Pass_yu    be saddened;be distressed
@@ -3417,18 +3221,13 @@ $qAw    $aqAw   Nap     misfortune;distress
 ;; $aqiy~_1
 $qy     $aqiy~  N-ap    miserable;wretch     <pos>$aqiy~/ADJ</pos>
 >$qyA'  >a$oqiyA'       N0_Nh   wretches;damned
-A$qyA'  >a$oqiyA'       N0_Nh   wretches;damned
 >$qyA&  >a$oqiyA&       Nh      wretches;damned
-A$qyA&  >a$oqiyA&       Nh      wretches;damned
 >$qyA}  >a$oqiyA}       Nhy     wretches;damned
-A$qyA}  >a$oqiyA}       Nhy     wretches;damned
 ;; >a$oqaY_2
 >$qY    >a$oqaY N0      more/most wretched     <pos>>a$oqaY/ADJ</pos>
 A$qY    >a$oqaY N0      more/most wretched
 >$qA    >a$oqA  Nhy     more/most wretched
-A$qA    >a$oqA  Nhy     more/most wretched
 >$qy    >a$oqay NAn_Nayn        most wretched
-A$qy    >a$oqay NAn_Nayn        most wretched
 ;
 ;--- $k
 ;; $ak~-u_1
@@ -3471,7 +3270,6 @@ $kyb    $akiyb  N0      Shakib;Chakib
 ;; $ukod_1
 $kd     $ukod   N       ration
 >$kAd   >a$okAd N       rations
-A$kAd   >a$okAd N       rations
 ;
 ;--- $kr
 ;; $akar-u_1
@@ -3550,7 +3348,6 @@ $Akl    $Akal   PV      resemble
 $Akl    $Akil   IV_yu   resemble
 ;; >a$okal_1
 >$kl    >a$okal PV_intr be ambiguous;be complicated
-A$kl    >a$okal PV_intr be ambiguous;be complicated
 $kl     $okil   IV_intr_yu      be ambiguous;be complicated
 ;; ta$ak~al_1
 t$kl    ta$ak~al        PV_intr be formed;be composed
@@ -3560,12 +3357,10 @@ t$Akl   ta$Akal PV_intr be uniform;resemble each other
 t$Akl   ta$Akal IV_intr be uniform;resemble each other
 ;; {isota$okal_1
 <st$kl  {isota$okal     PV      regard as dubious
-Ast$kl  {isota$okal     PV      regard as dubious
 st$kl   sota$okil       IV      regard as dubious
 ;; $akol_1
 $kl     $akol   Ndu     manner;form;configuration
 >$kAl   >a$okAl N       manners/types;forms;configurations
-A$kAl   >a$okAl N       manners/types;forms;configurations
 ;; $akolap_1
 $kl     $akol   Napdu   diacritic;diacritical mark
 $kl     $akal   NAt     diacritics;diacritical marks
@@ -3589,7 +3384,6 @@ t$kyly  ta$okiyliy~     N-ap    visual     <pos>ta$okiyliy~/ADJ</pos>
 m$Akl   mu$Akal NapAt   resemblance;similarity
 ;; <i$okAl_1
 <$kAl   <i$okAl NduAt   ambiguity;problem
-A$kAl   <i$okAl NduAt   ambiguity;problem
 ;; ta$ak~ul_1
 t$kl    ta$ak~ul        NduAt   differentiation
 ;; ta$Akul_1
@@ -3605,7 +3399,6 @@ m$kl    mu$ak~al        N-ap    variegated     <pos>mu$ak~al/ADJ</pos>
 m$kl    mu$ak~al        N-ap    diacriticized (with short vowels and diacritics)     <pos>mu$ak~al/ADJ</pos>
 ;; <i$okAliy~_1
 <$kAly  <i$okAliy~      N-ap    problematic     <pos><i$okAliy~/ADJ</pos>
-A$kAly  <i$okAliy~      N-ap    problematic     <pos><i$okAliy~/ADJ</pos>
 ;; mu$okil_1
 m$kl    mu$okil N       problem;difficulty
 ;; mu$okilap_1
@@ -3661,13 +3454,9 @@ t$Aky   ta$Akay IV_Ann  complain
 t$Ak    ta$Ak   IV_0hwnyn       complain
 ;; {i$otakaY_1
 <$tkY   {i$otakaY       PV_0    complain
-A$tkY   {i$otakaY       PV_0    complain
 <$tkA   {i$otakA        PV_h    complain
-A$tkA   {i$otakA        PV_h    complain
 <$tky   {i$otakay       PV_Atn  complain
-A$tky   {i$otakay       PV_Atn  complain
 <$tk    {i$otak PV_ttAw complain
-A$tk    {i$otak PV_ttAw complain
 $tky    $otakiy IV_0hAnn        complain
 $tk     $otak   IV_0hwnyn       complain
 $tkY    $otakaY IV_0_Pass_yu    be complained
@@ -3714,17 +3503,11 @@ m$kw    ma$okuw~        N       complained of     <pos>ma$okuw~/ADJ</pos>
 m$kw    ma$okuw~        N       defendant
 ;; {i$otikA'_1
 <$tkA'  {i$otikA'       N0_Nh   complaint;recrimination
-A$tkA'  {i$otikA'       N0_Nh   complaint;recrimination
 <$tkA&  {i$otikA&       Nh      complaint;recrimination
-A$tkA&  {i$otikA&       Nh      complaint;recrimination
 <$tkA}  {i$otikA}       Nhy     complaint;recrimination
-A$tkA}  {i$otikA}       Nhy     complaint;recrimination
 <$tkA'  {i$otikA'       NAn_Nayn        complaints;recriminations
-A$tkA'  {i$otikA'       NAn_Nayn        complaints;recriminations
 <$tkA}  {i$otikA}       Nayn    complaints;recriminations
-A$tkA}  {i$otikA}       Nayn    complaints;recriminations
 <$tkA'  {i$otikA'       NAt     complaints;recriminations
-A$tkA'  {i$otikA'       NAt     complaints;recriminations
 ;; mu$otakiy_1
 m$tky   mu$otakiy       N0_Nh   complainant;plaintiff
 m$tk    mu$otak NK      complainant;plaintiff
@@ -3769,24 +3552,19 @@ $l      $al~    IV_V_intr       be paralyzed;be immobile
 $ll     $olal   IV_C_intr       be paralyzed;be immobile
 ;; >a$al~_1
 >$l     >a$al~  PV_V    paralyze;immobilize;neutralize
-A$l     >a$al~  PV_V    paralyze;immobilize;neutralize
 >$ll    >a$olal PV_C    paralyze;immobilize;neutralize
-A$ll    >a$olal PV_C    paralyze;immobilize;neutralize
 $l      $il~    IV_V_yu paralyze;immobilize;neutralize
 $ll     $olil   IV_C_yu paralyze;immobilize;neutralize
 $l      $al~    IV_V_Pass_yu    be paralyzed;be immobilized;be neutralized
 ;; {ino$al~_1
 <n$l    {ino$al~        PV_V_intr       be paralyzed;be immobilized;be neutralized
-An$l    {ino$al~        PV_V_intr       be paralyzed;be immobilized;be neutralized
 <n$ll   {ino$alal       PV_C_intr       be paralyzed;be immobilized;be neutralized
-An$ll   {ino$alal       PV_C_intr       be paralyzed;be immobilized;be neutralized
 n$l     no$al~  IV_V_intr       be paralyzed;be immobilized;be neutralized
 n$ll    no$alil IV_C_intr       be paralyzed;be immobilized;be neutralized
 ;; $alal_1
 $ll     $alal   N       paralysis;impotence;inertia
 ;; >a$al~_2
 >$l     >a$al~  Nel     paralyzed;impotent;inert
-A$l     >a$al~  Nel     paralyzed;impotent;inert
 $lA'    $al~A'  N0_Nh   paralyzed;impotent;inert
 $lA&    $al~A&  Nh      paralyzed;impotent;inert
 $lA}    $al~A}  Nhy     paralyzed;impotent;inert
@@ -3884,11 +3662,8 @@ $lhwb   $alohuwb        N0      Shalhoub
 ;; $ilow_1
 $lw     $ilow   N       limb;corpse
 >$lA'   >a$olA' N0_Nh   limbs;corpses
-A$lA'   >a$olA' N0_Nh   limbs;corpses
 >$lA&   >a$olA& Nh      limbs;corpses
-A$lA&   >a$olA& Nh      limbs;corpses
 >$lA}   >a$olA} Nhy     limbs;corpses
-A$lA}   >a$olA} Nhy     limbs;corpses
 ;
 ;; $luwmuw_1
 $lwmw   $luwmuw Nprop   Shlomo
@@ -3904,9 +3679,7 @@ t$mm    ta$am~am        PV      smell;sniff
 t$mm    ta$am~am        IV      smell;sniff
 ;; {i$otam~_1
 <$tm    {i$otam~        PV_V    smell;sniff
-A$tm    {i$otam~        PV_V    smell;sniff
 <$tmm   {i$otamam       PV_C    smell;sniff
-A$tmm   {i$otamam       PV_C    smell;sniff
 $tm     $otam~  IV_V    smell;sniff
 $tmm    $otamim IV_C    smell;sniff
 ;; $am~_1
@@ -3932,14 +3705,11 @@ $mym    $amiym  N-ap    fragrance
 ; form QIV
 ;; {i$oma>az~_1
 <$m>z   {i$oma>az~      PV_V_intr       be disgusted;be nauseated
-A$m>z   {i$oma>az~      PV_V_intr       be disgusted;be nauseated
 <$m>zz  {i$oma>ozaz     PV_C_intr       be disgusted;be nauseated
-A$m>zz  {i$oma>ozaz     PV_C_intr       be disgusted;be nauseated
 $m}z    $oma}iz~        IV_V_intr       be disgusted;be nauseated
 $m>zz   $oma>oziz       IV_C_intr       be disgusted;be nauseated
 ;; {i$omi}ozAz_1
 <$m}zAz {i$omi}ozAz     N/At    repugnance;disgust
-A$m}zAz {i$omi}ozAz     N/At    repugnance;disgust
 ;; mu$oma}iz~_1
 m$m}z   mu$oma}iz~      Nall    disgusted;nauseated
 ;
@@ -3963,7 +3733,6 @@ $mt     $am~at  PV-t    disappoint
 $mt     $am~it  IV_yu   disappoint
 ;; >a$omat_1
 >$mt    >a$omat PV-t    gloat;rejoice maliciously
-A$mt    >a$omat PV-t    gloat;rejoice maliciously
 $mt     $omit   IV_yu   gloat;rejoice maliciously
 $mt     $omat   IV_Pass_yu      be gloated over;be rejoiced maliciously
 ;; $amAt_1
@@ -3995,14 +3764,11 @@ mt$Amx  muta$Amix       Nall    haughty;lofty     <pos>muta$Amix/ADJ</pos>
 ; form QIV
 ;; {i$omaxar~_1
 <$mxr   {i$omaxar~      PV_V_intr       be gigantic;be proud
-A$mxr   {i$omaxar~      PV_V_intr       be gigantic;be proud
 <$mxrr  {i$omaxorar     PV_C_intr       be gigantic;be proud
-A$mxrr  {i$omaxorar     PV_C_intr       be gigantic;be proud
 $mxr    $omaxir~        IV_V_intr       be gigantic;be proud
 $mxrr   $omaxorir       IV_C_intr       be gigantic;be proud
 ;; {i$omixorAr_1
 <$mxrAr {i$omixorAr     N/At    loftiness;pride
-A$mxrAr {i$omixorAr     N/At    loftiness;pride
 ;; mu$omaxir~_1
 m$mxr   mu$omaxir~      Nall    lofty;towering     <pos>mu$omaxir~/ADJ</pos>
 ;
@@ -4047,7 +3813,6 @@ $ms     $am~as  PV      expose to the sun
 $ms     $am~is  IV_yu   expose to the sun
 ;; >a$omas_1
 >$ms    >a$omas PV_intr be sunny
-A$ms    >a$omas PV_intr be sunny
 $ms     $omis   IV_intr_yu      be sunny
 ;; ta$am~as_1
 t$ms    ta$am~as        PV_intr be in the sun;sunbathe
@@ -4093,9 +3858,7 @@ $mT     $amiT   PV      turn gray
 $mT     $omaT   IV      turn gray
 ;; {i$omaT~_1
 <$mT    {i$omaT~        PV_V    turn gray
-A$mT    {i$omaT~        PV_V    turn gray
 <$mTT   {i$omaTaT       PV_C    turn gray
-A$mTT   {i$omaTaT       PV_C    turn gray
 $mT     $omaT~  IV_V    turn gray
 $mTT    $omaTiT IV_C    turn gray
 ;; $amaT_1
@@ -4109,7 +3872,6 @@ $mTA}   $amoTA} Nhy     gray-haired
 $mT     $umoT   N       gray-haired
 ;; {i$omiTAT_1
 <$mTAT  {i$omiTAT       N/At    graying
-A$mTAT  {i$omiTAT       N/At    graying
 ;
 ;--- $mE
 ;; $am~aE_1
@@ -4154,7 +3916,6 @@ $ml     $amal   PV      comprise;include;contain
 $ml     $omul   IV      comprise;include;contain
 ;; {i$otamal_1
 <$tml   {i$otamal       PV      include;contain;comprise
-A$tml   {i$otamal       PV      include;contain;comprise
 $tml    $otamil IV      include;contain;comprise
 ;; $amol_1
 $ml     $amol   N       members;union;inclusion
@@ -4180,7 +3941,6 @@ $mly    $amoliy~        Nap     good quality;good trait
 $mA}l   $amA}il Ndip    good qualities;good traits
 ;; >a$omal_1
 >$ml    >a$omal Nel     more/most comprehensive
-A$ml    >a$omal Nel     more/most comprehensive
 ;; $Amil_1
 $Aml    $Amil   N-ap    comprehensive;general;complete;mass     <pos>$Amil/ADJ</pos>
 ;; ma$omuwl_1
@@ -4214,9 +3974,7 @@ $n      $un~    IV_V    wage;launch
 $nn     $onun   IV-n    wage;launch
 ;; >a$an~_1
 >$n     >a$an~  PV_V    wage;launch
-A$n     >a$an~  PV_V    wage;launch
 >$nn    >a$onan PV_Cn   wage;launch
-A$nn    >a$onan PV_Cn   wage;launch
 $n      $in~    IV_V_yu wage;launch
 $nn     $onin   IV_C_yu wage;launch
 $n      $an~    IV_V_Pass_yu    be waged;be launched
@@ -4253,7 +4011,6 @@ $nb     $anab   Nprop   Shanab
 ;; $anab_2
 $nb     $anab   Ndu     mustache
 >$nAb   >a$onAb N       mustache
-A$nAb   >a$onAb N       mustache
 ;
 ;--- $nj
 ;; $anij-a_1
@@ -4431,15 +4188,12 @@ $whd    $uwhid  PV_intr be observed;be seen
 $Ahd    $Ahad   IV_Pass_yu      be observed;be seen
 ;; >a$ohad_1
 >$hd    >a$ohad PV      quote
-A$hd    >a$ohad PV      quote
 $hd     $ohid   IV_yu   quote
 $hd     $ohad   IV_Pass_yu      be quoted
 ;; {isota$ohad_1
 <st$hd  {isota$ohad     PV      quote
-Ast$hd  {isota$ohad     PV      quote
 st$hd   sota$ohid       IV      quote
 <st$hd  {isotu$ohid     PV_intr be martyred;die in battle
-Ast$hd  {isotu$ohid     PV_intr be martyred;die in battle
 st$hd   sota$ohad       IV_intr be martyred;die in battle
 ;; $ahAdap_1
 $hAd    $ahAd   NapAt   certificate;witness;testimony
@@ -4454,7 +4208,6 @@ $hdA}   $uhadA} Nhy     martyrs
 $Ahd    $Ahid   N/ap    witness;spectator
 $hwd    $uhuwd  N       witnesses;spectators
 >$hAd   >a$ohAd N       witnesses;spectators
-A$hAd   >a$ohAd N       witnesses;spectators
 ;; $Ahidap_1
 $Ahd    $Ahid   Napdu   proof;example
 $wAhd   $awAhid Ndip    examples;citations
@@ -4477,18 +4230,13 @@ m$Ahd   mu$Ahad N-ap    visible;perceptible     <pos>mu$Ahad/ADJ</pos>
 m$Ahd   mu$Ahad NAt     sights;visible things
 ;; <i$ohAd_1
 <$hAd   <i$ohAd NduAt   written certification
-A$hAd   <i$ohAd NduAt   written certification
 ;; {isoti$ohAd_1
 <st$hAd {isoti$ohAd     NduAt   martyrdom
-Ast$hAd {isoti$ohAd     NduAt   martyrdom
 ;; {isoti$ohAd_2
 <st$hAd {isoti$ohAd     NduAt   quotation
-Ast$hAd {isoti$ohAd     NduAt   quotation
 ;; {isoti$ohAdiy~_1
 <st$hAdy        {isoti$ohAdiy~  Nall    martyr      <pos>{isoti$ohAdiy~/NOUN</pos>
-Ast$hAdy        {isoti$ohAdiy~  Nall    martyr      <pos>{isoti$ohAdiy~/NOUN</pos>
 <st$hAdy        {isoti$ohAdiy~  Nall    martyr      <pos>{isoti$ohAdiy~/ADJ</pos>
-Ast$hAdy        {isoti$ohAdiy~  Nall    martyr      <pos>{isoti$ohAdiy~/ADJ</pos>
 ; ("suicide" in Western media);
 ;--- $hr
 ;; $ahar-a_1
@@ -4502,18 +4250,15 @@ $Ahr    $Ahar   PV      contract monthly
 $Ahr    $Ahir   IV_yu   contract monthly
 ;; >a$ohar_1
 >$hr    >a$ohar PV      make public;declare
-A$hr    >a$ohar PV      make public;declare
 $hr     $ohir   IV_yu   make public;declare
 $hr     $ohar   IV_Pass_yu      be made public;be declared
 ;; {i$otahar_1
 <$thr   {i$otahar       PV_intr become famous
-A$thr   {i$otahar       PV_intr become famous
 $thr    $otahir IV_intr become famous
 ;; $ahor_1
 $hr     $ahor   Ndu     month
 $hwr    $uhuwr  N       months
 >$hr    >a$ohur N       months
-A$hr    >a$ohur N       months
 ;; $ahoriy~_1
 $hry    $ahoriy~        N-ap    monthly     <pos>$ahoriy~/ADJ</pos>
 $hry    $ahoriy~        NF      monthly     <pos>$ahoriy~/ADV</pos>
@@ -4530,7 +4275,6 @@ $hyr    $ahiyr  N-ap    famous;well-known     <pos>$ahiyr/ADJ</pos>
 $hyr    $ahiyr  N0      Shaheer
 ;; >a$ohar_2
 >$hr    >a$ohar Nel     more/most famous;more/most well-known     <pos>>a$ohar/ADJ</pos>
-A$hr    >a$ohar Nel     more/most famous;more/most well-known     <pos>>a$ohar/ADJ</pos>
 ;; ma$ohuwr_1
 m$hwr   ma$ohuwr        Nall    famous;well-known     <pos>ma$ohuwr/ADJ</pos>
 m$Ahyr  ma$Ahiyr        Ndip    celebrities;luminaries
@@ -4538,10 +4282,8 @@ m$Ahyr  ma$Ahiyr        Ndip    celebrities;luminaries
 t$hyr   ta$ohiyr        NduAt   public exposure;defamation
 ;; <i$ohAr_1
 <$hAr   <i$ohAr NduAt   declaration;proclamation
-A$hAr   <i$ohAr NduAt   declaration;proclamation
 ;; {i$otihAr_1
 <$thAr  {i$otihAr       NduAt   fame;renown
-A$thAr  {i$otihAr       NduAt   fame;renown
 ;; mu$ah~ar_1
 m$hr    mu$ah~ar        Nall    famous;notorious     <pos>mu$ah~ar/ADJ</pos>
 ;
@@ -4622,13 +4364,9 @@ $hY     $ah~aY  IV_0_Pass_yu    be excited;be aroused
 $hy     $ah~ay  IV_Ann_Pass_yu  be excited;be aroused
 ;; {i$otahaY_1
 <$thY   {i$otahaY       PV_0    desire;crave
-A$thY   {i$otahaY       PV_0    desire;crave
 <$thA   {i$otahA        PV_h    desire;crave
-A$thA   {i$otahA        PV_h    desire;crave
 <$thy   {i$otahay       PV_Atn  desire;crave
-A$thy   {i$otahay       PV_Atn  desire;crave
 <$th    {i$otah PV_ttAw desire;crave
-A$th    {i$otah PV_ttAw desire;crave
 $thy    $otahiy IV_0hAnn        desire;crave
 $th     $otah   IV_0hwnyn       desire;crave
 $thY    $otahaY IV_0_Pass_yu    be desired;be craved
@@ -4640,17 +4378,11 @@ t$h     ta$ah~  NK      greed
 t$hy    ta$ah~iy        NAt     greed
 ;; {i$otihA'_1
 <$thA'  {i$otihA'       N0_Nh   greed;appetite
-A$thA'  {i$otihA'       N0_Nh   greed;appetite
 <$thA&  {i$otihA&       Nh      greed;appetite
-A$thA&  {i$otihA&       Nh      greed;appetite
 <$thA}  {i$otihA}       Nhy     greed;appetite
-A$thA}  {i$otihA}       Nhy     greed;appetite
 <$thA'  {i$otihA'       NAn_Nayn        greed;appetite
-A$thA'  {i$otihA'       NAn_Nayn        greed;appetite
 <$thA}  {i$otihA}       Nayn    greed;appetite
-A$thA}  {i$otihA}       Nayn    greed;appetite
 <$thA'  {i$otihA'       NAt     greed;appetite
-A$thA'  {i$otihA'       NAt     greed;appetite
 ;; mu$ah~iy_1
 m$hy    mu$ah~iy        N0F_Nh  appetizer;aperitif
 m$h     mu$ah~  NK      appetizer;aperitif
@@ -4694,7 +4426,6 @@ $wb     $awob   N       diluting;mixing
 ;; $awob_2
 $wb     $awob   N       mixture
 >$wAb   >a$owAb N       mixtures
-A$wAb   >a$owAb N       mixtures
 ;; $A}ibap_1
 $A}b    $A}ib   NapAt   defect;impurity
 $wA}b   $awA}ib Ndip    defects;impurities
@@ -4741,9 +4472,7 @@ $Awr    $Awar   PV      take counsel with;consult with
 $Awr    $Awir   IV_yu   take counsel with;consult with
 ;; >a$Ar_1
 >$Ar    >a$Ar   PV_V    indicate;mention;cite
-A$Ar    >a$Ar   PV_V    indicate;mention;cite
 >$r     >a$ar   PV_C    indicate;mention;cite
-A$r     >a$ar   PV_C    indicate;mention;cite
 $yr     $iyr    IV_V_yu indicate;mention;cite
 $r      $ir     IV_C_yu indicate;mention;cite
 $Ar     $Ar     IV_V_Pass_yu    be indicated;be mentioned;be cited
@@ -4753,9 +4482,7 @@ t$Awr   ta$Awar PV      deliberate;consult
 t$Awr   ta$Awar IV      deliberate;consult
 ;; {isota$Ar_1
 <st$Ar  {isota$Ar       PV_V    consult;seek the advice of
-Ast$Ar  {isota$Ar       PV_V    consult;seek the advice of
 <st$r   {isota$ar       PV_C    consult;seek the advice of
-Ast$r   {isota$ar       PV_C    consult;seek the advice of
 st$yr   sota$iyr        IV_V    consult;seek the advice of
 st$r    sota$ir IV_C    consult;seek the advice of
 ;; $Arap_1
@@ -4774,27 +4501,21 @@ m$wAr   mi$owAr Ndu     course;trajectory
 m$Awr   mu$Awar NapAt   consultation;deliberation;discussion
 ;; <i$Arap_1
 <$Ar    <i$Ar   Napdu   indication;mention;sign
-A$Ar    <i$Ar   Napdu   indication;mention;sign
 <$Ar    <i$Ar   NAt     indications;mentions;signs
-A$Ar    <i$Ar   NAt     indications;mentions;signs
 ;; <i$Ariy~_1
 <$Ary   <i$Ariy~        N-ap    symbolic;gestural     <pos><i$Ariy~/ADJ</pos>
 A$Ary   <i$Aroy~        N-ap    symbolic;gestural     <pos><i$Aroy~/ADJ</pos>
 ;; <i$Arojiy~_1
 <$Arjy  <i$Arojiy~      N       signalman
-A$Arjy  <i$Arojiy~      N       signalman
 <$Arjy  <i$Arojiy~      Nap     signalmen
-A$Arjy  <i$Arojiy~      Nap     signalmen
 ;; ta$Awur_1
 t$Awr   ta$Awur NduAt   deliberation;joint consultation
 ;; ta$Awuriy~_1
 t$Awry  ta$Awuriy~      Nall    advisory;consultative     <pos>ta$Awuriy~/ADJ</pos>
 ;; {isoti$Arap_1
 <st$Ar  {isoti$Ar       NapAt   consultation
-Ast$Ar  {isoti$Ar       NapAt   consultation
 ;; {isoti$Ariy~_1
 <st$Ary {isoti$Ariy~    Nall    advisory;consultative;consulting     <pos>{isoti$Ariy~/ADJ</pos>
-Ast$Ary {isoti$Ariy~    Nall    advisory;consultative;consulting     <pos>{isoti$Ariy~/ADJ</pos>
 ;; ma$uwrap_1
 m$wr    ma$uwr  NapAt   consultation;deliberation;advice
 ;; mu$Awar_1
@@ -4836,7 +4557,6 @@ $w$A&   $awo$A& Nh      brave;hero
 $w$A}   $awo$A} Nhy     brave;hero
 $w$     $uw$    N       brave;heroes
 >$Aw$   >a$Awi$ Ndip    proud;audacious
-A$Aw$   >a$Awi$ Ndip    proud;audacious
 ;; $aw~a$_1
 $w$     $aw~a$  PV      confuse;disturb
 $w$     $aw~i$  IV_yu   confuse;disturb
@@ -4871,7 +4591,6 @@ $wT     $awoT   N       progress;headway
 ;; $awoT_2
 $wT     $awoT   Ndu     round;phase;game;half period
 >$wAT   >a$owAT N       rounds;phases;games
-A$wAT   >a$owAT N       rounds;phases;games
 ;
 ;--- $wZ
 ;; $uwAZ_1
@@ -4917,9 +4636,7 @@ t$wq    ta$aw~aq        PV      desire;covet
 t$wq    ta$aw~aq        IV      desire;covet
 ;; {i$otAq_1
 <$tAq   {i$otAq PV_V    desire;love
-A$tAq   {i$otAq PV_V    desire;love
 <$tq    {i$otaq PV_C    desire;love
-A$tq    {i$otaq PV_C    desire;love
 $tAq    $otAq   IV_V    desire;love
 $tq     $otaq   IV_C    desire;love
 ;; $awoqiy_1
@@ -4927,7 +4644,6 @@ $wqy    $awoqiy Nprop   Shawqi
 ;; $awoq_1
 $wq     $awoq   N       desire;wish
 >$wAq   >a$owAq N       desires;wishes
-A$wAq   >a$owAq N       desires;wishes
 ;; $ay~iq_1
 $yq     $ay~iq  N-ap    desirous;thrilling     <pos>$ay~iq/ADJ</pos>
 ;; ta$owiyq_1
@@ -4936,7 +4652,6 @@ t$wyq   ta$owiyq        N/At    excitation;suspense
 t$wq    ta$aw~uq        N/At    desire;curiosity
 ;; {i$otiyAq_1
 <$tyAq  {i$otiyAq       N/At    desire;craving
-A$tyAq  {i$otiyAq       N/At    desire;craving
 ;; $A}iq_1
 $A}q    $A}iq   N-ap    exciting;interesting     <pos>$A}iq/ADJ</pos>
 ;; mu$aw~iq_1
@@ -4957,9 +4672,7 @@ $wk     $aw~ak  PV      sting;prick
 $wk     $aw~ik  IV_yu   sting;prick
 ;; >a$Ak_1
 >$Ak    >a$Ak   PV_V    sting;prick
-A$Ak    >a$Ak   PV_V    sting;prick
 >$k     >a$ak   PV_C    sting;prick
-A$k     >a$ak   PV_C    sting;prick
 $yk     $iyk    IV_V_yu sting;prick
 $k      $ik     IV_C_yu sting;prick
 $Ak     $Ak     IV_V_Pass_yu    be stung;be pricked
@@ -4967,7 +4680,6 @@ $k      $ak     IV_C_Pass_yu    be stung;be pricked
 ;; $awok_1
 $wk     $awok   Ndu     thorns;pricks
 >$wAk   >a$owAk N       thorns;pricks;forks
-A$wAk   >a$owAk N       thorns;pricks;forks
 ;; $awokap_1
 $wk     $awok   NapAt   fork
 ;; $awokap_2
@@ -5000,9 +4712,7 @@ $Awl    $Awal   PV      attack
 $Awl    $Awil   IV_yu   attack
 ;; >a$Al_1
 >$Al    >a$Al   PV_V    carry;lift
-A$Al    >a$Al   PV_V    carry;lift
 >$l     >a$al   PV_C    carry;lift
-A$l     >a$al   PV_C    carry;lift
 $yl     $iyl    IV_V_yu carry;lift
 $l      $il     IV_C_yu carry;lift
 $Al     $Al     IV_V_Pass_yu    be carried;be lifted
@@ -5146,11 +4856,8 @@ $y}     $ayo}   N0      something
 $}      $a}o    N0      something
 $y}     $ayo}   NAn_Nayn        things
 >$yA'   >a$oyA' N0_Nh   things
-A$yA'   >a$oyA' N0_Nh   things
 >$yA&   >a$oyA& Nh      things
-A$yA&   >a$oyA& Nh      things
 >$yA}   >a$oyA} Nhy     things
-A$yA}   >a$oyA} Nhy     things
 ;; lA$ayo'_1
 lA$y'   lA$ayo' N_L     nothingness;nonexistence
 ;; $ayo}iy~_1
@@ -5184,9 +4891,7 @@ $yb     $ay~ab  PV      make old;make the hair turn gray
 $yb     $ay~ib  IV_yu   make old;make the hair turn gray
 ;; >a$Ab_1
 >$Ab    >a$Ab   PV_V    make old;make the hair turn gray
-A$Ab    >a$Ab   PV_V    make old;make the hair turn gray
 >$b     >a$ab   PV_C    make old;make the hair turn gray
-A$b     >a$ab   PV_C    make old;make the hair turn gray
 $yb     $iyb    IV_V_yu make old;make the hair turn gray
 $b      $ib     IV_C_yu make old;make the hair turn gray
 $Ab     $Ab     IV_V_Pass_yu    be made old;be turned gray (hair)
@@ -5229,9 +4934,7 @@ $yH     $ay~aH  PV      dry;blot;threaten
 $yH     $ay~iH  IV_yu   dry;blot;threaten
 ;; >a$AH_1
 >$AH    >a$AH   PV_V    avert the eyes;turn away
-A$AH    >a$AH   PV_V    avert the eyes;turn away
 >$H     >a$aH   PV_C    avert the eyes;turn away
-A$H     >a$aH   PV_C    avert the eyes;turn away
 $yH     $iyH    IV_V_yu avert the eyes;turn away
 $H      $iH     IV_C_yu avert the eyes;turn away
 $AH     $AH     IV_V_Pass_yu    be averted (eyes);be turned away
@@ -5262,7 +4965,6 @@ $yx     $ayox   N0      Sheikh
 $yx     $ayox   Ndu     sheikh;chieftain
 $ywx    $uyuwx  N       sheikhs;chieftains;senators
 >$yAx   >a$oyAx N       sheikhs;chieftains
-A$yAx   >a$oyAx N       sheikhs;chieftains
 m$Ayx   ma$Ayix Ndip    sheikhs;chieftains
 m$A}x   ma$A}ix Ndip    sheikhs;chieftains
 ;; $ayoxap_1
@@ -5292,9 +4994,7 @@ $yd     $ay~ad  PV      build
 $yd     $ay~id  IV_yu   build
 ;; >a$Ad_1
 >$Ad    >a$Ad   PV_V    praise;commend;build
-A$Ad    >a$Ad   PV_V    praise;commend;build
 >$d     >a$ad   PV_C    praise;commend;build
-A$d     >a$ad   PV_C    praise;commend;build
 $yd     $iyd    IV_V_yu praise;commend;build
 $d      $id     IV_C_yu praise;commend;build
 $Ad     $Ad     IV_V_Pass_yu    be praised;be commended;be built
@@ -5305,7 +5005,6 @@ $yd     $iyd    N       plaster;mortar
 t$yyd   ta$oyiyd        N/At    construction;erection
 ;; <i$Adap_1
 <$Ad    <i$Ad   NapAt   praise;commendation
-A$Ad    <i$Ad   NapAt   praise;commendation
 ;; mu$ay~ad_1
 m$yd    mu$ay~ad        N-ap    lofty     <pos>mu$ay~ad/ADJ</pos>
 ;; mu$ay~id_1
@@ -5365,9 +5064,7 @@ $yT     $ay~aT  PV      scorch;sear
 $yT     $ay~iT  IV_yu   scorch;sear
 ;; >a$AT_1
 >$AT    >a$AT   PV_V    scorch;sear
-A$AT    >a$AT   PV_V    scorch;sear
 >$T     >a$aT   PV_C    scorch;sear
-A$T     >a$aT   PV_C    scorch;sear
 $yT     $iyT    IV_V_yu scorch;sear
 $T      $iT     IV_C_yu scorch;sear
 $AT     $AT     IV_V_Pass_yu    be scorched;be seared
@@ -5377,19 +5074,15 @@ t$yT    ta$ay~aT        PV_intr be burned
 t$yT    ta$ay~aT        IV_intr be burned
 ;; {isota$AT_1
 <st$AT  {isota$AT       PV_V    flare up;be enraged
-Ast$AT  {isota$AT       PV_V    flare up;be enraged
 <st$T   {isota$aT       PV_C    flare up;be enraged
-Ast$T   {isota$aT       PV_C    flare up;be enraged
 st$yT   sota$iyT        IV_V    flare up;be enraged
 st$T    sota$iT IV_C    flare up;be enraged
 ;; ta$oyiyT_1
 t$yyT   ta$oyiyT        N/At    burning
 ;; <i$ATap_1
 <$AT    <i$AT   NapAt   burning
-A$AT    <i$AT   NapAt   burning
 ;; {isoti$ATap_1
 <st$AT  {isoti$AT       NapAt   burning
-Ast$AT  {isoti$AT       NapAt   burning
 ;; mu$ay~aT_1
 m$yT    mu$ay~aT        N-ap    burned     <pos>mu$ay~aT/ADJ</pos>
 ;
@@ -5421,9 +5114,7 @@ $AyE    $AyaE   PV      take sides with;go along with
 $AyE    $AyiE   IV_yu   take sides with;go along with
 ;; >a$AE_1
 >$AE    >a$AE   PV_V    divulge;publicize
-A$AE    >a$AE   PV_V    divulge;publicize
 >$E     >a$aE   PV_C    divulge;publicize
-A$E     >a$aE   PV_C    divulge;publicize
 $yE     $iyE    IV_V_yu divulge;publicize
 $E      $iE     IV_C_yu divulge;publicize
 $AE     $AE     IV_V_Pass_yu    be divulged;be publicized
@@ -5436,7 +5127,6 @@ $yE     $iyE    Nap     Shiites
 $yE     $iyE    Nap     partisans;followers
 $yE     $iyaE   N       community
 >$yAE   >a$oyAE N       partisans;followers
-A$yAE   >a$oyAE N       partisans;followers
 ;; $iyEiy~_1
 $yEy    $iyEiy~ Nall    Shiite     <pos>$iyEiy~/NOUN</pos>
 $yEy    $iyEiy~ Nall    Shiite     <pos>$iyEiy~/ADJ</pos>
@@ -5453,15 +5143,11 @@ t$yyE   ta$oyiyE        N/At    escorting;burial
 m$AyE   mu$AyaE NapAt   partisanship;affiliation
 ;; <i$AEap_1
 <$AE    <i$AE   Nap     spreading;circulation
-A$AE    <i$AE   Nap     spreading;circulation
 ;; <i$AEap_2
 <$AE    <i$AE   Napdu   rumor
-A$AE    <i$AE   Napdu   rumor
 <$AE    <i$AE   NAt     rumors
-A$AE    <i$AE   NAt     rumors
 ;; <i$AEiy~ap_1
 <$AEy   <i$AEiy~        Nap     collectivism     <pos><i$AEiy~/NOUN</pos>
-A$AEy   <i$AEiy~        Nap     collectivism     <pos><i$AEiy~/NOUN</pos>
 ;; ta$ay~uE_1
 t$yE    ta$ay~uE        N/At    partisanship;bias
 ;; $A}iE_1
@@ -5487,7 +5173,6 @@ $yf     $ay~af  PV      slice;chop
 $yf     $ay~if  IV_yu   slice;chop
 ;; >a$oyAf_1
 >$yAf   >a$oyAf N       slices;cuts
-A$yAf   >a$oyAf N       slices;cuts
 ;; ta$oyiyf_1
 t$yyf   ta$oyiyf        N/At    slicing;chopping
 ;

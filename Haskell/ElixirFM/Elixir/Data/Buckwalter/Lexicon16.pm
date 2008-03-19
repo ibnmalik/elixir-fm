@@ -113,7 +113,6 @@ $Lexicon = {
       'lines' => [
         ';; >aTomaE_1',
         '>TmE    >aTomaE PV      entice',
-        'ATmE    >aTomaE PV      entice',
         'TmE     TomiE   IV_yu   entice',
         'TmE     TomaE   IV_Pass_yu      be enticed'
       ],
@@ -139,7 +138,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.tmA`' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.tama`',
@@ -147,8 +146,7 @@ $Lexicon = {
       'lines' => [
         ';; TamaE_1',
         'TmE     TamaE   N       greed;ambition',
-        '>TmAE   >aTomAE N       ambitions',
-        'ATmAE   >aTomAE N       ambitions'
+        '>TmAE   >aTomAE N       ambitions'
       ],
       'patterns' => {
         '\'a.tmA`' => [
@@ -518,7 +516,6 @@ $Lexicon = {
       'lines' => [
         ';; >aTobaq_1',
         '>Tbq    >aTobaq PV      shut;close',
-        'ATbq    >aTobaq PV      shut;close',
         'Tbq     Tobiq   IV_yu   shut;close',
         'Tbq     Tobaq   IV_Pass_yu      be shut;be close'
       ],
@@ -596,7 +593,6 @@ $Lexicon = {
       'lines' => [
         ';; {inoTabaq_1',
         '<nTbq   {inoTabaq       PV_intr be applicable;conform to',
-        'AnTbq   {inoTabaq       PV_intr be applicable;conform to',
         'nTbq    noTabiq IV_intr be applicable;conform to'
       ],
       'patterns' => {
@@ -640,7 +636,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.tbAq' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.tabaq',
@@ -648,8 +644,7 @@ $Lexicon = {
       'lines' => [
         ';; Tabaq_1',
         'Tbq     Tabaq   Ndu     dish;course;meal',
-        '>TbAq   >aTobAq N       dishes;saucers',
-        'ATbAq   >aTobAq N       dishes;saucers'
+        '>TbAq   >aTobAq N       dishes;saucers'
       ],
       'patterns' => {
         '\'a.tbAq' => [
@@ -810,15 +805,14 @@ $Lexicon = {
     {
       'types' => {
         '\'i.tbAq' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => '\'i.tbAq',
       'form' => '\'i.tbAq',
       'lines' => [
         ';; <iTobAq_1',
-        '<TbAq   <iTobAq N/At    agreement',
-        'ATbAq   <iTobAq N/At    agreement'
+        '<TbAq   <iTobAq N/At    agreement'
       ],
       'patterns' => {
         '\'i.tbAq' => [
@@ -913,15 +907,14 @@ $Lexicon = {
     {
       'types' => {
         'in.tibAq' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => 'in.tibAq',
       'form' => 'in.tibAq',
       'lines' => [
         ';; {inoTibAq_1',
-        '<nTbAq  {inoTibAq       N/At    coincidence',
-        'AnTbAq  {inoTibAq       N/At    coincidence'
+        '<nTbAq  {inoTibAq       N/At    coincidence'
       ],
       'patterns' => {
         'in.tibAq' => [
@@ -1164,7 +1157,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.tfAl' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.tifl',
@@ -1173,8 +1166,7 @@ $Lexicon = {
         ';; Tifol_1',
         'Tfl     Tifol   Ndu     child;boy',
         'Tfl     Tifol   Napdu   child;girl',
-        '>TfAl   >aTofAl N       children;infants',
-        'ATfAl   >aTofAl N       children;infants'
+        '>TfAl   >aTofAl N       children;infants'
       ],
       'patterns' => {
         '\'a.tfAl' => [
@@ -1571,7 +1563,7 @@ $Lexicon = {
           'IV_C_intr' => 1
         },
         'in.tamam' => {
-          'PV_C_intr' => 2
+          'PV_C_intr' => 1
         },
         'n.tamm' => {
           'IV_V_intr' => 1
@@ -1582,9 +1574,7 @@ $Lexicon = {
       'lines' => [
         ';; {inoTam~_1',
         '<nTm    {inoTam~        PV_V_intr       be inundated;be engulfed',
-        'AnTm    {inoTam~        PV_V_intr       be inundated;be engulfed',
         '<nTmm   {inoTamam       PV_C_intr       be inundated;be engulfed',
-        'AnTmm   {inoTamam       PV_C_intr       be inundated;be engulfed',
         'nTm     noTam~  IV_V_intr       be inundated;be engulfed',
         'nTmm    noTamim IV_C_intr       be inundated;be engulfed'
       ],
@@ -1934,7 +1924,6 @@ $Lexicon = {
       'lines' => [
         ';; >aTora$_1',
         '>Tr$    >aTora$ Nel     deaf',
-        'ATr$    >aTora$ Nel     deaf',
         'Tr$A\'   Taro$A\' N0_Nh   deaf',
         'Tr$A&   Taro$A& Nh      deaf',
         'Tr$A}   Taro$A} Nhy     deaf',
@@ -1964,8 +1953,7 @@ $Lexicon = {
       'form' => '\'a.tra^s',
       'lines' => [
         ';; >aTora$_2',
-        '>Tr$    >aTora$ N0      Atrash',
-        'ATr$    >aTora$ N0      Atrash'
+        '>Tr$    >aTora$ N0      Atrash'
       ],
       'patterns' => {},
       'index' => '2',
@@ -2180,7 +2168,7 @@ $Lexicon = {
           'IV_V_yu' => 1
         },
         '\'a.taq' => {
-          'PV_C' => 2
+          'PV_C' => 1
         },
         '.taq' => {
           'IV_C_Pass_yu' => 1
@@ -2194,9 +2182,7 @@ $Lexicon = {
       'lines' => [
         ';; >aTAq_1',
         '>TAq    >aTAq   PV_V    tolerate;endure',
-        'ATAq    >aTAq   PV_V    tolerate;endure',
         '>Tq     >aTaq   PV_C    tolerate;endure',
-        'ATq     >aTaq   PV_C    tolerate;endure',
         'Tyq     Tiyq    IV_V_yu tolerate;endure',
         'Tq      Tiq     IV_C_yu tolerate;endure',
         'TAq     TAq     IV_V_Pass_yu    be tolerated;be endured',
@@ -2430,8 +2416,7 @@ $Lexicon = {
       'form' => '\'i.tAqaT',
       'lines' => [
         ';; <iTAqap_1',
-        '<TAq    <iTAq   NapAt   capability',
-        'ATAq    <iTAq   NapAt   capability'
+        '<TAq    <iTAq   NapAt   capability'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2981,7 +2966,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.ta.h' => {
-          'PV_C' => 2
+          'PV_C' => 1
         },
         '.ti.h' => {
           'IV_C_yu' => 1
@@ -3001,9 +2986,7 @@ $Lexicon = {
       'lines' => [
         ';; >aTAH_1',
         '>TAH    >aTAH   PV_V    overthrow;topple',
-        'ATAH    >aTAH   PV_V    overthrow;topple',
         '>TH     >aTaH   PV_C    overthrow;topple',
-        'ATH     >aTaH   PV_C    overthrow;topple',
         'TyH     TiyH    IV_V_yu overthrow;topple',
         'TH      TiH     IV_C_yu overthrow;topple',
         'TAH     TAH     IV_V_Pass_yu    be overthrown;be toppled',
@@ -3066,8 +3049,7 @@ $Lexicon = {
       'form' => '\'i.tA.haT',
       'lines' => [
         ';; <iTAHap_1',
-        '<TAH    <iTAH   NapAt   overthrow;topple',
-        'ATAH    <iTAH   NapAt   overthrow;topple'
+        '<TAH    <iTAH   NapAt   overthrow;topple'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3239,7 +3221,7 @@ $Lexicon = {
           'N' => 1
         },
         '\'a.tbAl' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.tabl',
@@ -3248,8 +3230,7 @@ $Lexicon = {
         ';; Tabol_2',
         'Tbl     Tabol   Ndu     drum',
         'Tbwl    Tubuwl  N       drums',
-        '>TbAl   >aTobAl N       drums',
-        'ATbAl   >aTobAl N       drums'
+        '>TbAl   >aTobAl N       drums'
       ],
       'patterns' => {
         '.tubuwl' => [
@@ -3563,7 +3544,7 @@ $Lexicon = {
           'NAt' => 1
         },
         '\'a.triz' => {
-          'Nap' => 2
+          'Nap' => 1
         }
       },
       'entry' => '.tirAz',
@@ -3572,8 +3553,7 @@ $Lexicon = {
         ';; TirAz_1',
         'TrAz    TirAz   N/At    model;type;calibre',
         'Trz     Turuz   N       models;types',
-        '>Trz    >aToriz Nap     models;types',
-        'ATrz    >aToriz Nap     models;types'
+        '>Trz    >aToriz Nap     models;types'
       ],
       'patterns' => {
         '.tirAz' => [
@@ -3772,7 +3752,7 @@ $Lexicon = {
           'IV_V_yu' => 1
         },
         '\'a.taf' => {
-          'PV_C' => 2
+          'PV_C' => 1
         },
         '.taf' => {
           'IV_C_Pass_yu' => 1
@@ -3783,9 +3763,7 @@ $Lexicon = {
       'lines' => [
         ';; >aTAf_1',
         '>TAf    >aTAf   PV_V    surround;encircle',
-        'ATAf    >aTAf   PV_V    surround;encircle',
         '>Tf     >aTaf   PV_C    surround;encircle',
-        'ATf     >aTaf   PV_C    surround;encircle',
         'Tyf     Tiyf    IV_V_yu surround;encircle',
         'Tf      Tif     IV_C_yu surround;encircle',
         'TAf     TAf     IV_V_Pass_yu    be surrounded;be encircled',
@@ -3864,7 +3842,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.twAf' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.tawf',
@@ -3872,8 +3850,7 @@ $Lexicon = {
       'lines' => [
         ';; Tawof_2',
         'Twf     Tawof   Ndu     pontoon;raft',
-        '>TwAf   >aTowAf N       pontoons;rafts',
-        'ATwAf   >aTowAf N       pontoons;rafts'
+        '>TwAf   >aTowAf N       pontoons;rafts'
       ],
       'patterns' => {
         '\'a.twAf' => [
@@ -4728,7 +4705,7 @@ $Lexicon = {
           'IV_C_yu' => 1
         },
         '\'a.tnan' => {
-          'PV_Cn' => 2
+          'PV_Cn' => 1
         }
       },
       'entry' => '\'a.tann',
@@ -4736,9 +4713,7 @@ $Lexicon = {
       'lines' => [
         ';; >aTan~_1',
         '>Tn     >aTan~  PV_V    resound',
-        'ATn     >aTan~  PV_V    resound',
         '>Tnn    >aTonan PV_Cn   resound',
-        'ATnn    >aTonan PV_Cn   resound',
         'Tn      Tin~    IV_V_yu resound',
         'Tnn     Tonin   IV_C_yu resound'
       ],
@@ -4766,7 +4741,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.tnAn' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.tunn',
@@ -4774,8 +4749,7 @@ $Lexicon = {
       'lines' => [
         ';; Tun~_1',
         'Tn      Tun~    Ndu     ton',
-        '>TnAn   >aTonAn N       tons',
-        'ATnAn   >aTonAn N       tons'
+        '>TnAn   >aTonAn N       tons'
       ],
       'patterns' => {
         '\'a.tnAn' => [
@@ -4815,7 +4789,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.tnAn' => {
-          'N/At' => 2
+          'N/At' => 1
         }
       },
       'entry' => '.tannAn',
@@ -4823,8 +4797,7 @@ $Lexicon = {
       'lines' => [
         ';; Tan~An_1',
         'TnAn    Tan~An  Nall    resounding;ringing',
-        '<TnAn   <iTonAn N/At    resounding;ringing',
-        'ATnAn   <iTonAn N/At    resounding;ringing'
+        '<TnAn   <iTonAn N/At    resounding;ringing'
       ],
       'patterns' => {
         '\'i.tnAn' => [
@@ -5087,7 +5060,7 @@ $Lexicon = {
           'N' => 1
         },
         '\'a.tnAf' => {
-          'N' => 2
+          'N' => 1
         },
         '.tanf' => {
           'Ndu' => 1
@@ -5100,7 +5073,6 @@ $Lexicon = {
         'Tnf     Tunuf   Ndu     summit;ledge',
         'Tnf     Tanof   Ndu     summit;ledge',
         '>TnAf   >aTonAf N       summits;ledges',
-        'ATnAf   >aTonAf N       summits;ledges',
         'Tnwf    Tunuwf  N       summits;ledges'
       ],
       'patterns' => {
@@ -5781,7 +5753,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.twAr' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.tawr',
@@ -5789,8 +5761,7 @@ $Lexicon = {
       'lines' => [
         ';; Tawor_1',
         'Twr     Tawor   Ndu     stage;phase;period',
-        '>TwAr   >aTowAr N       stages;phases;periods',
-        'ATwAr   >aTowAr N       stages;phases;periods'
+        '>TwAr   >aTowAr N       stages;phases;periods'
       ],
       'patterns' => {
         '\'a.twAr' => [
@@ -6203,7 +6174,6 @@ $Lexicon = {
       'lines' => [
         ';; >aToraq_1',
         '>Trq    >aToraq PV      bow',
-        'ATrq    >aToraq PV      bow',
         'Trq     Toriq   IV_yu   bow',
         'Trq     Toraq   IV_Pass_yu      be bowed'
       ],
@@ -6459,8 +6429,7 @@ $Lexicon = {
       'form' => '\'i.trAqaT',
       'lines' => [
         ';; <iTorAqap_1',
-        '<TrAq   <iTorAq NapAt   bowing of the head',
-        'ATrAq   <iTorAq NapAt   bowing of the head'
+        '<TrAq   <iTorAq NapAt   bowing of the head'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6476,15 +6445,14 @@ $Lexicon = {
     {
       'types' => {
         'isti.trAq' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => 'isti.trAq',
       'form' => 'isti.trAq',
       'lines' => [
         ';; {isotiTorAq_1',
-        '<stTrAq {isotiTorAq     N/At    transit permission',
-        'AstTrAq {isotiTorAq     N/At    transit permission'
+        '<stTrAq {isotiTorAq     N/At    transit permission'
       ],
       'patterns' => {
         'isti.trAq' => [
@@ -6797,7 +6765,6 @@ $Lexicon = {
       'lines' => [
         ';; {inoTabaE_1',
         '<nTbE   {inoTabaE       PV_intr be stamped;be impressed',
-        'AnTbE   {inoTabaE       PV_intr be stamped;be impressed',
         'nTbE    noTabiE IV_intr be stamped;be impressed'
       ],
       'patterns' => {
@@ -7150,15 +7117,14 @@ $Lexicon = {
     {
       'types' => {
         'in.tibA`' => {
-          'NduAt' => 2
+          'NduAt' => 1
         }
       },
       'entry' => 'in.tibA`',
       'form' => 'in.tibA`',
       'lines' => [
         ';; {inoTibAE_1',
-        '<nTbAE  {inoTibAE       NduAt   impression',
-        'AnTbAE  {inoTibAE       NduAt   impression'
+        '<nTbAE  {inoTibAE       NduAt   impression'
       ],
       'patterns' => {
         'in.tibA`' => [
@@ -7182,9 +7148,7 @@ $Lexicon = {
       'lines' => [
         ';; {inoTibAEiy~_1',
         '<nTbAEy {inoTibAEiy~    Nall    impressionistic     [[{inoTibAEiy~/ADJ]]',
-        'AnTbAEy {inoTibAEiy~    Nall    impressionistic     [[{inoTibAEiy~/ADJ]]',
-        '<nTbAEy {inoTibAEiy~    Nap     impressionism     [[{inoTibAEiy~/NOUN]]',
-        'AnTbAEy {inoTibAEiy~    Nap     impressionism     [[{inoTibAEiy~/NOUN]]'
+        '<nTbAEy {inoTibAEiy~    Nap     impressionism     [[{inoTibAEiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7501,7 +7465,7 @@ $Lexicon = {
     {
       'types' => {
         '\'u.tliq' => {
-          'PV_Pass' => 2
+          'PV_Pass' => 1
         },
         '.tlaq' => {
           'IV_Pass_yu' => 1
@@ -7515,10 +7479,8 @@ $Lexicon = {
       'lines' => [
         ';; >aTolaq_1',
         '>Tlq    >aTolaq PV      release;fire',
-        'ATlq    >aTolaq PV      release;fire',
         'Tlq     Toliq   IV_yu   release;fire',
         '>Tlq    >uToliq PV_Pass be released;be fired',
-        'ATlq    >uToliq PV_Pass be released;be fired',
         'Tlq     Tolaq   IV_Pass_yu      be released;be fired'
       ],
       'patterns' => {
@@ -7556,7 +7518,6 @@ $Lexicon = {
       'lines' => [
         ';; {inoTalaq_1',
         '<nTlq   {inoTalaq       PV      take off;be sent out',
-        'AnTlq   {inoTalaq       PV      take off;be sent out',
         'nTlq    noTaliq IV      take off;be sent out'
       ],
       'patterns' => {
@@ -7636,7 +7597,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.tlAq' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.talaq',
@@ -7644,8 +7605,7 @@ $Lexicon = {
       'lines' => [
         ';; Talaq_1',
         'Tlq     Talaq   N       firing',
-        '>TlAq   >aTolAq N       firing',
-        'ATlAq   >aTolAq N       firing'
+        '>TlAq   >aTolAq N       firing'
       ],
       'patterns' => {
         '\'a.tlAq' => [
@@ -7766,15 +7726,14 @@ $Lexicon = {
     {
       'types' => {
         '\'i.tlAq' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => '\'i.tlAq',
       'form' => '\'i.tlAq',
       'lines' => [
         ';; <iTolAq_1',
-        '<TlAq   <iTolAq N/At    release',
-        'ATlAq   <iTolAq N/At    release'
+        '<TlAq   <iTolAq N/At    release'
       ],
       'patterns' => {
         '\'i.tlAq' => [
@@ -7794,15 +7753,14 @@ $Lexicon = {
     {
       'types' => {
         '\'i.tlAq' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => '\'i.tlAq',
       'form' => '\'i.tlAq',
       'lines' => [
         ';; <iTolAq_2',
-        '<TlAq   <iTolAq N/At    firing',
-        'ATlAq   <iTolAq N/At    firing'
+        '<TlAq   <iTolAq N/At    firing'
       ],
       'patterns' => {
         '\'i.tlAq' => [
@@ -7822,15 +7780,14 @@ $Lexicon = {
     {
       'types' => {
         '\'i.tlAq' => {
-          'NF' => 2
+          'NF' => 1
         }
       },
       'entry' => '\'i.tlAq',
       'form' => '\'i.tlAqaN',
       'lines' => [
         ';; <iTolAqAF_1',
-        '<TlAq   <iTolAq NF      absolutely     [[<iTolAq/ADV]]',
-        'ATlAq   <iTolAq NF      absolutely     [[<iTolAq/ADV]]'
+        '<TlAq   <iTolAq NF      absolutely     [[<iTolAq/ADV]]'
       ],
       'patterns' => {
         '\'i.tlAq' => [
@@ -7877,15 +7834,14 @@ $Lexicon = {
     {
       'types' => {
         'in.tilAq' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => 'in.tilAq',
       'form' => 'in.tilAq',
       'lines' => [
         ';; {inoTilAq_1',
-        '<nTlAq  {inoTilAq       N/At    departure',
-        'AnTlAq  {inoTilAq       N/At    departure'
+        '<nTlAq  {inoTilAq       N/At    departure'
       ],
       'patterns' => {
         'in.tilAq' => [
@@ -7905,15 +7861,14 @@ $Lexicon = {
     {
       'types' => {
         'in.tilAq' => {
-          'NF' => 2
+          'NF' => 1
         }
       },
       'entry' => 'in.tilAq',
       'form' => 'in.tilAqaN',
       'lines' => [
         ';; {inoTilAqAF_1',
-        '<nTlAq  {inoTilAq       NF      proceeding (from);on the basis (of)     [[{inoTilAq/ADV]]',
-        'AnTlAq  {inoTilAq       NF      proceeding (from);on the basis (of)     [[{inoTilAq/ADV]]'
+        '<nTlAq  {inoTilAq       NF      proceeding (from);on the basis (of)     [[{inoTilAq/ADV]]'
       ],
       'patterns' => {
         'in.tilAq' => [
@@ -7937,8 +7892,7 @@ $Lexicon = {
       'form' => 'in.tilAqaT',
       'lines' => [
         ';; {inoTilAqap_1',
-        '<nTlAq  {inoTilAq       Nap     outset;launching',
-        'AnTlAq  {inoTilAq       Nap     outset;launching'
+        '<nTlAq  {inoTilAq       Nap     outset;launching'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9049,7 +9003,7 @@ $Lexicon = {
           'IV_Cn_intr' => 1
         },
         'i.tma\'nan' => {
-          'PV_Cn_intr' => 2
+          'PV_Cn_intr' => 1
         },
         '.tma\'inn' => {
           'IV_V_intr' => 1
@@ -9060,9 +9014,7 @@ $Lexicon = {
       'lines' => [
         ';; {iToma>an~_1',
         '<Tm>n   {iToma>an~      PV_V_intr       be calm;be reassured',
-        'ATm>n   {iToma>an~      PV_V_intr       be calm;be reassured',
         '<Tm>nn  {iToma>onan     PV_Cn_intr      be calm;be reassured',
-        'ATm>nn  {iToma>onan     PV_Cn_intr      be calm;be reassured',
         'Tm}n    Toma}in~        IV_V_intr       be calm;be reassured',
         'Tm>nn   Toma>onin       IV_Cn_intr      be calm;be reassured'
       ],
@@ -9112,15 +9064,14 @@ $Lexicon = {
     {
       'types' => {
         'i.tmi\'nAn' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => 'i.tmi\'nAn',
       'form' => 'i.tmi\'nAn',
       'lines' => [
         ';; {iTomi}onAn_1',
-        '<Tm}nAn {iTomi}onAn     N/At    tranquillity;serenity',
-        'ATm}nAn {iTomi}onAn     N/At    tranquillity;serenity'
+        '<Tm}nAn {iTomi}onAn     N/At    tranquillity;serenity'
       ],
       'patterns' => {
         'i.tmi\'nAn' => [
@@ -9215,7 +9166,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.tlAs' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.tils',
@@ -9223,8 +9174,7 @@ $Lexicon = {
       'lines' => [
         ';; Tilos_1',
         'Tls     Tilos   N-ap    effaced;obliterated',
-        '>TlAs   >aTolAs N       effaced;obliterated',
-        'ATlAs   >aTolAs N       effaced;obliterated'
+        '>TlAs   >aTolAs N       effaced;obliterated'
       ],
       'patterns' => {
         '\'a.tlAs' => [
@@ -9313,7 +9263,6 @@ $Lexicon = {
       'lines' => [
         ';; {inoTabax_1',
         '<nTbx   {inoTabax       PV      get cooked',
-        'AnTbx   {inoTabax       PV      get cooked',
         'nTbx    noTabix IV      get cooked'
       ],
       'patterns' => {
@@ -9869,7 +9818,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.thAr' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.tAhir',
@@ -9877,8 +9826,7 @@ $Lexicon = {
       'lines' => [
         ';; TAhir_2',
         'TAhr    TAhir   N/ap    clean;pure;chaste',
-        '>ThAr   >aTohAr N       clean;pure;chaste',
-        'AThAr   >aTohAr N       clean;pure;chaste'
+        '>ThAr   >aTohAr N       clean;pure;chaste'
       ],
       'patterns' => {
         '\'a.thAr' => [
@@ -10192,7 +10140,7 @@ $Lexicon = {
           'IV_V' => 1
         },
         'ista.tbab' => {
-          'PV_C' => 2
+          'PV_C' => 1
         },
         'sta.tbib' => {
           'IV_C' => 1
@@ -10203,9 +10151,7 @@ $Lexicon = {
       'lines' => [
         ';; {isotaTab~_1',
         '<stTb   {isotaTab~      PV_V    seek medical treatment;consult',
-        'AstTb   {isotaTab~      PV_V    seek medical treatment;consult',
         '<stTbb  {isotaTobab     PV_C    seek medical treatment;consult',
-        'AstTbb  {isotaTobab     PV_C    seek medical treatment;consult',
         'stTb    sotaTib~        IV_V    seek medical treatment;consult',
         'stTbb   sotaTobib       IV_C    seek medical treatment;consult'
       ],
@@ -10267,12 +10213,12 @@ $Lexicon = {
     {
       'types' => {
         '\'a.tibb' => {
-          'Nap' => 2
+          'Nap' => 1
         },
         '\'a.tibbA\'' => {
-          'Nh' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
         }
       },
       'entry' => '.tabiyb',
@@ -10281,13 +10227,9 @@ $Lexicon = {
         ';; Tabiyb_1',
         'Tbyb    Tabiyb  N/ap    physician;doctor',
         '>TbA\'   >aTib~A\'        N0_Nh   physicians;doctors',
-        'ATbA\'   >aTib~A\'        N0_Nh   physicians;doctors',
         '>TbA&   >aTib~A&        Nh      physicians;doctors',
-        'ATbA&   >aTib~A&        Nh      physicians;doctors',
         '>TbA}   >aTib~A}        Nhy     physicians;doctors',
-        'ATbA}   >aTib~A}        Nhy     physicians;doctors',
-        '>Tb     >aTib~  Nap     physicians;doctors',
-        'ATb     >aTib~  Nap     physicians;doctors'
+        '>Tb     >aTib~  Nap     physicians;doctors'
       ],
       'patterns' => {
         '\'a.tibb' => [
@@ -10504,7 +10446,7 @@ $Lexicon = {
           'IV_Pass_yu' => 1
         },
         '\'a.tfa\'A' => {
-          'PV-|' => 2
+          'PV-|' => 1
         },
         '.tfi\'' => {
           'IV_yu' => 1
@@ -10515,11 +10457,8 @@ $Lexicon = {
       'lines' => [
         ';; >aTofa>_1',
         '>Tf>    >aTofa> PV->    put out;extinguish',
-        'ATf>    >aTofa> PV->    put out;extinguish',
         '>Tf|    >aTofa| PV-|    put out;extinguish',
-        'ATf|    >aTofa| PV-|    put out;extinguish',
         '>Tf&    >aTofa& PV_w    put out;extinguish',
-        'ATf&    >aTofa& PV_w    put out;extinguish',
         'Tf}     Tofi}   IV_yu   put out;extinguish',
         'Tf>     Tofa>   IV_Pass_yu      be extinguished'
       ],
@@ -10546,7 +10485,7 @@ $Lexicon = {
     {
       'types' => {
         'in.tafa\'A' => {
-          'PV-|' => 2
+          'PV-|' => 1
         },
         'n.tafi\'' => {
           'IV' => 1
@@ -10557,11 +10496,8 @@ $Lexicon = {
       'lines' => [
         ';; {inoTafa>_1',
         '<nTf>   {inoTafa>       PV->    die out;be extinguished',
-        'AnTf>   {inoTafa>       PV->    die out;be extinguished',
         '<nTf|   {inoTafa|       PV-|    die out;be extinguished',
-        'AnTf|   {inoTafa|       PV-|    die out;be extinguished',
         '<nTf&   {inoTafa&       PV_w    die out;be extinguished',
-        'AnTf&   {inoTafa&       PV_w    die out;be extinguished',
         'nTf}    noTafi} IV      die out;be extinguished'
       ],
       'patterns' => {
@@ -10612,7 +10548,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.tfA\'' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => '\'i.tfA\'',
@@ -10620,17 +10556,11 @@ $Lexicon = {
       'lines' => [
         ';; <iTofA\'_1',
         '<TfA\'   <iTofA\' N0_Nh   extinguishing;fire fighting',
-        'ATfA\'   <iTofA\' N0_Nh   extinguishing;fire fighting',
         '<TfA&   <iTofA& Nh      extinguishing;fire fighting',
-        'ATfA&   <iTofA& Nh      extinguishing;fire fighting',
         '<TfA}   <iTofA} Nhy     extinguishing;fire fighting',
-        'ATfA}   <iTofA} Nhy     extinguishing;fire fighting',
         '<TfA\'   <iTofA\' NAn_Nayn        extinguishing;fire fighting',
-        'ATfA\'   <iTofA\' NAn_Nayn        extinguishing;fire fighting',
         '<TfA}   <iTofA} Nayn    extinguishing;fire fighting',
-        'ATfA}   <iTofA} Nayn    extinguishing;fire fighting',
-        '<TfA\'   <iTofA\' NAt     extinguishing;fire fighting',
-        'ATfA\'   <iTofA\' NAt     extinguishing;fire fighting'
+        '<TfA\'   <iTofA\' NAt     extinguishing;fire fighting'
       ],
       'patterns' => {
         '\'i.tfA\'' => [
@@ -10654,8 +10584,7 @@ $Lexicon = {
       'form' => '\'i.tfA\'iyy',
       'lines' => [
         ';; <iTofA}iy~_1',
-        '<TfA}y  <iTofA}iy~      Nall    fire fighting;extinguishing     [[<iTofA}iy~/ADJ]]',
-        'ATfA}y  <iTofA}iy~      Nall    fire fighting;extinguishing     [[<iTofA}iy~/ADJ]]'
+        '<TfA}y  <iTofA}iy~      Nall    fire fighting;extinguishing     [[<iTofA}iy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11213,7 +11142,7 @@ $Lexicon = {
           'IV_V_yu' => 1
         },
         '\'a.tlal' => {
-          'PV_C' => 2
+          'PV_C' => 1
         }
       },
       'entry' => '\'a.tall',
@@ -11221,9 +11150,7 @@ $Lexicon = {
       'lines' => [
         ';; >aTal~_1',
         '>Tl     >aTal~  PV_V    overlook;face;look out',
-        'ATl     >aTal~  PV_V    overlook;face;look out',
         '>Tll    >aTolal PV_C    overlook;face;look out',
-        'ATll    >aTolal PV_C    overlook;face;look out',
         'Tl      Til~    IV_V_yu overlook;face;look out',
         'Tll     Tolil   IV_C_yu overlook;face;look out',
         'Tl      Tal~    IV_V_Pass_yu    be viewed;be looked over'
@@ -11310,7 +11237,7 @@ $Lexicon = {
           'N' => 1
         },
         '\'a.tlAl' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.talal',
@@ -11319,7 +11246,6 @@ $Lexicon = {
         ';; Talal_1',
         'Tll     Talal   N       remains;ruins',
         '>TlAl   >aTolAl N       ruins;remains',
-        'ATlAl   >aTolAl N       ruins;remains',
         'Tlwl    Tuluwl  N       ruins;remains'
       ],
       'patterns' => {
@@ -11344,15 +11270,14 @@ $Lexicon = {
     {
       'types' => {
         '\'i.tlAl' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => '\'i.tlAl',
       'form' => '\'i.tlAl',
       'lines' => [
         ';; <iTolAl_1',
-        '<TlAl   <iTolAl N/At    overlooking;facing',
-        'ATlAl   <iTolAl N/At    overlooking;facing'
+        '<TlAl   <iTolAl N/At    overlooking;facing'
       ],
       'patterns' => {
         '\'i.tlAl' => [
@@ -11844,8 +11769,7 @@ $Lexicon = {
       'form' => '\'a.tya^s',
       'lines' => [
         ';; >aToya$_1',
-        '>Ty$    >aToya$ Nel     reckless;out of control',
-        'ATy$    >aToya$ Nel     reckless;out of control'
+        '>Ty$    >aToya$ Nel     reckless;out of control'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11867,8 +11791,7 @@ $Lexicon = {
       'form' => '\'i.triyaT',
       'lines' => [
         ';; <iToriyap_1',
-        '<Try    <iToriy Nap     vermicelli',
-        'ATry    <iToriy Nap     vermicelli'
+        '<Try    <iToriy Nap     vermicelli'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12520,7 +12443,7 @@ $Lexicon = {
           'IV_V_yu' => 1
         },
         '\'a.ta`' => {
-          'PV_C' => 2
+          'PV_C' => 1
         },
         '.tA`' => {
           'IV_V_Pass_yu' => 1
@@ -12531,9 +12454,7 @@ $Lexicon = {
       'lines' => [
         ';; >aTAE_1',
         '>TAE    >aTAE   PV_V    obey',
-        'ATAE    >aTAE   PV_V    obey',
         '>TE     >aTaE   PV_C    obey',
-        'ATE     >aTaE   PV_C    obey',
         'TyE     TiyE    IV_V_yu obey',
         'TE      TiE     IV_C_yu obey',
         'TAE     TAE     IV_V_Pass_yu    be obeyed',
@@ -12593,7 +12514,7 @@ $Lexicon = {
           'IV_V' => 1
         },
         'in.ta`' => {
-          'PV_C' => 2
+          'PV_C' => 1
         },
         'n.ta`' => {
           'IV_C' => 1
@@ -12604,9 +12525,7 @@ $Lexicon = {
       'lines' => [
         ';; {inoTAE_1',
         '<nTAE   {inoTAE PV_V    obey',
-        'AnTAE   {inoTAE PV_V    obey',
         '<nTE    {inoTaE PV_C    obey',
-        'AnTE    {inoTaE PV_C    obey',
         'nTAE    noTAE   IV_V    obey',
         'nTE     noTaE   IV_C    obey'
       ],
@@ -12640,7 +12559,7 @@ $Lexicon = {
           'IV_V_intr' => 1
         },
         'ista.ta`' => {
-          'PV_C_intr' => 2
+          'PV_C_intr' => 1
         },
         'sta.tA`' => {
           'IV_V_intr' => 1
@@ -12651,9 +12570,7 @@ $Lexicon = {
       'lines' => [
         ';; {isotaTAE_1',
         '<stTAE  {isotaTAE       PV_V_intr       be able;be capable',
-        'AstTAE  {isotaTAE       PV_V_intr       be able;be capable',
         '<stTE   {isotaTaE       PV_C_intr       be able;be capable',
-        'AstTE   {isotaTaE       PV_C_intr       be able;be capable',
         'stTyE   sotaTiyE        IV_V_intr       be able;be capable',
         'stTAE   sotaTAE IV_V_intr       be possible;be capable',
         'stTE    sotaTiE IV_C_intr       be able;be capable'
@@ -12867,8 +12784,7 @@ $Lexicon = {
       'form' => '\'i.tA`aT',
       'lines' => [
         ';; <iTAEap_1',
-        '<TAE    <iTAE   NapAt   obedience',
-        'ATAE    <iTAE   NapAt   obedience'
+        '<TAE    <iTAE   NapAt   obedience'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12935,8 +12851,7 @@ $Lexicon = {
       'form' => 'isti.tA`aT',
       'lines' => [
         ';; {isotiTAEap_1',
-        '<stTAE  {isotiTAE       NapAt   capability;possibility',
-        'AstTAE  {isotiTAE       NapAt   capability;possibility'
+        '<stTAE  {isotiTAE       NapAt   capability;possibility'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13833,9 +13748,9 @@ $Lexicon = {
     {
       'types' => {
         '\'a.twA\'' => {
-          'Nh' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
         }
       },
       'entry' => '.tayy',
@@ -13844,11 +13759,8 @@ $Lexicon = {
         ';; Tay~_1',
         'Ty      Tay~    N       concealment;hiding',
         '>TwA\'   >aTowA\' N0_Nh   inside',
-        'ATwA\'   >aTowA\' N0_Nh   inside',
         '>TwA&   >aTowA& Nh      inside',
-        'ATwA&   >aTowA& Nh      inside',
-        '>TwA}   >aTowA} Nhy     inside',
-        'ATwA}   >aTowA} Nhy     inside'
+        '>TwA}   >aTowA} Nhy     inside'
       ],
       'patterns' => {
         '\'a.twA\'' => []
@@ -14097,7 +14009,7 @@ $Lexicon = {
           'IV_V_Pass_yu' => 1
         },
         '\'a.tal' => {
-          'PV_C' => 2
+          'PV_C' => 1
         },
         '.til' => {
           'IV_C_yu' => 1
@@ -14114,9 +14026,7 @@ $Lexicon = {
       'lines' => [
         ';; >aTAl_1',
         '>TAl    >aTAl   PV_V    lengthen',
-        'ATAl    >aTAl   PV_V    lengthen',
         '>Tl     >aTal   PV_C    lengthen',
-        'ATl     >aTal   PV_C    lengthen',
         'Tyl     Tiyl    IV_V_yu lengthen',
         'Tl      Til     IV_C_yu lengthen',
         'TAl     TAl     IV_V_Pass_yu    be lengthened',
@@ -14180,7 +14090,7 @@ $Lexicon = {
           'IV_C_intr' => 1
         },
         'ista.tal' => {
-          'PV_C_intr' => 2
+          'PV_C_intr' => 1
         }
       },
       'entry' => 'ista.tAl',
@@ -14188,9 +14098,7 @@ $Lexicon = {
       'lines' => [
         ';; {isotaTAl_1',
         '<stTAl  {isotaTAl       PV_V_intr       be lengthened;be insolent',
-        'AstTAl  {isotaTAl       PV_V_intr       be lengthened;be insolent',
         '<stTl   {isotaTal       PV_C_intr       be lengthened;be insolent',
-        'AstTl   {isotaTal       PV_C_intr       be lengthened;be insolent',
         'stTyl   sotaTiyl        IV_V_intr       be lengthened;be insolent',
         'stTl    sotaTil IV_C_intr       be lengthened;be insolent'
       ],
@@ -14232,7 +14140,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.twAl' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.tuwl',
@@ -14240,8 +14148,7 @@ $Lexicon = {
       'lines' => [
         ';; Tuwl_1',
         'Twl     Tuwl    N       length;height',
-        '>TwAl   >aTowAl N       lengths;heights',
-        'ATwAl   >aTowAl N       lengths;heights'
+        '>TwAl   >aTowAl N       lengths;heights'
       ],
       'patterns' => {
         '\'a.twAl' => [
@@ -14446,7 +14353,6 @@ $Lexicon = {
       'lines' => [
         ';; >aTowal_1',
         '>Twl    >aTowal Nel     taller/tallest;longer/longest',
-        'ATwl    >aTowal Nel     taller/tallest;longer/longest',
         'TwlY    TuwlaY  N0      taller/tallest;longer/longest',
         'Twly    Tuwlay  NAn_Nayn        taller/tallest;longer/longest',
         'Twly    Tuwlay  NAt     taller/tallest;longer/longest'
@@ -14501,8 +14407,7 @@ $Lexicon = {
       'form' => '\'i.tAlaT',
       'lines' => [
         ';; <iTAlap_1',
-        '<TAl    <iTAl   NapAt   lengthening;prolongation',
-        'ATAl    <iTAl   NapAt   lengthening;prolongation'
+        '<TAl    <iTAl   NapAt   lengthening;prolongation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14549,8 +14454,7 @@ $Lexicon = {
       'form' => 'isti.tAlaT',
       'lines' => [
         ';; {isotiTAlap_1',
-        '<stTAl  {isotiTAl       NapAt   arrogance',
-        'AstTAl  {isotiTAl       NapAt   arrogance'
+        '<stTAl  {isotiTAl       NapAt   arrogance'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14913,7 +14817,7 @@ $Lexicon = {
           'IV_V_yu' => 1
         },
         '\'a.tab' => {
-          'PV_C' => 2
+          'PV_C' => 1
         },
         '.tAb' => {
           'IV_V_Pass_yu' => 1
@@ -14924,9 +14828,7 @@ $Lexicon = {
       'lines' => [
         ';; >aTAb_1',
         '>TAb    >aTAb   PV_V    make pleasant',
-        'ATAb    >aTAb   PV_V    make pleasant',
         '>Tb     >aTab   PV_C    make pleasant',
-        'ATb     >aTab   PV_C    make pleasant',
         'Tyb     Tiyb    IV_V_yu make pleasant',
         'Tb      Tib     IV_C_yu make pleasant',
         'TAb     TAb     IV_V_Pass_yu    be made pleasant',
@@ -14983,7 +14885,7 @@ $Lexicon = {
     {
       'types' => {
         'ista.tab' => {
-          'PV_C' => 2
+          'PV_C' => 1
         },
         'sta.tib' => {
           'IV_C' => 1
@@ -14997,9 +14899,7 @@ $Lexicon = {
       'lines' => [
         ';; {isotaTAb_1',
         '<stTAb  {isotaTAb       PV_V    appreciate;consider pleasant',
-        'AstTAb  {isotaTAb       PV_V    appreciate;consider pleasant',
         '<stTb   {isotaTab       PV_C    appreciate;consider pleasant',
-        'AstTb   {isotaTab       PV_C    appreciate;consider pleasant',
         'stTyb   sotaTiyb        IV_V    appreciate;consider pleasant',
         'stTb    sotaTib IV_C    appreciate;consider pleasant'
       ],
@@ -15030,7 +14930,6 @@ $Lexicon = {
       'lines' => [
         ';; {isotaToyab_1',
         '<stTyb  {isotaToyab     PV      appreciate;consider pleasant',
-        'AstTyb  {isotaToyab     PV      appreciate;consider pleasant',
         'stTyb   sotaToyib       IV      appreciate;consider pleasant'
       ],
       'patterns' => {},
@@ -15048,7 +14947,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.tyAb' => {
-          'N' => 2
+          'N' => 1
         },
         '.tuyuwb' => {
           'N' => 1
@@ -15060,8 +14959,7 @@ $Lexicon = {
         ';; Tiyb_1',
         'Tyb     Tiyb    N       noble;good',
         'Tywb    Tuyuwb  N       noble;good',
-        '>TyAb   >aToyAb N       noble;good',
-        'ATyAb   >aToyAb N       noble;good'
+        '>TyAb   >aToyAb N       noble;good'
       ],
       'patterns' => {
         '\'a.tyAb' => [
@@ -15248,7 +15146,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.tAyib' => {
-          'Ndip' => 2
+          'Ndip' => 1
         }
       },
       'entry' => '\'a.tyab',
@@ -15256,9 +15154,7 @@ $Lexicon = {
       'lines' => [
         ';; >aToyab_1',
         '>Tyb    >aToyab Nel     better/best',
-        'ATyb    >aToyab Nel     better/best',
-        '>TAyb   >aTAyib Ndip    pleasures;amenities',
-        'ATAyb   >aTAyib Ndip    pleasures;amenities'
+        '>TAyb   >aTAyib Ndip    pleasures;amenities'
       ],
       'patterns' => {
         '\'a.tAyib' => [
@@ -15721,7 +15617,6 @@ $Lexicon = {
       'lines' => [
         ';; >aToEam_1',
         '>TEm    >aToEam PV      feed',
-        'ATEm    >aToEam PV      feed',
         'TEm     ToEim   IV_yu   feed',
         'TEm     ToEam   IV_Pass_yu      be fed'
       ],
@@ -15775,7 +15670,6 @@ $Lexicon = {
       'lines' => [
         ';; {isotaToEam_1',
         '<stTEm  {isotaToEam     PV      ask for food',
-        'AstTEm  {isotaToEam     PV      ask for food',
         'stTEm   sotaToEim       IV      ask for food'
       ],
       'patterns' => {},
@@ -15908,7 +15802,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.t`im' => {
-          'Nap' => 2
+          'Nap' => 1
         }
       },
       'entry' => '.ta`Am',
@@ -15916,8 +15810,7 @@ $Lexicon = {
       'lines' => [
         ';; TaEAm_1',
         'TEAm    TaEAm   N       food',
-        '>TEm    >aToEim Nap     food',
-        'ATEm    >aToEim Nap     food'
+        '>TEm    >aToEim Nap     food'
       ],
       'patterns' => {
         '\'a.t`im' => [
@@ -16026,15 +15919,14 @@ $Lexicon = {
     {
       'types' => {
         '\'i.t`Am' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => '\'i.t`Am',
       'form' => '\'i.t`Am',
       'lines' => [
         ';; <iToEAm_1',
-        '<TEAm   <iToEAm N/At    feeding',
-        'ATEAm   <iToEAm N/At    feeding'
+        '<TEAm   <iToEAm N/At    feeding'
       ],
       'patterns' => {
         '\'i.t`Am' => [
@@ -16138,7 +16030,7 @@ $Lexicon = {
           'N' => 1
         },
         '\'a.tyAf' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.tayf',
@@ -16147,8 +16039,7 @@ $Lexicon = {
         ';; Tayof_2',
         'Tyf     Tayof   N       apparition',
         'Tywf    Tuyuwf  N       apparitions',
-        '>TyAf   >aToyAf N       apparitions',
-        'ATyAf   >aToyAf N       apparitions'
+        '>TyAf   >aToyAf N       apparitions'
       ],
       'patterns' => {
         '.tuyuwf' => [
@@ -16348,13 +16239,13 @@ $Lexicon = {
           'IV_0hwnyn' => 1
         },
         'in.taw' => {
-          'PV_ttAw' => 2
+          'PV_ttAw' => 1
         },
         'in.taway' => {
-          'PV_Atn' => 2
+          'PV_Atn' => 1
         },
         'in.tawA' => {
-          'PV_h' => 2
+          'PV_h' => 1
         },
         'n.tawiy' => {
           'IV_0hAnn' => 1
@@ -16365,13 +16256,9 @@ $Lexicon = {
       'lines' => [
         ';; {inoTawaY_1',
         '<nTwY   {inoTawaY       PV_0    contain;include;harbor',
-        'AnTwY   {inoTawaY       PV_0    contain;include;harbor',
         '<nTwA   {inoTawA        PV_h    contain;include;harbor',
-        'AnTwA   {inoTawA        PV_h    contain;include;harbor',
         '<nTwy   {inoTaway       PV_Atn  contain;include;harbor',
-        'AnTwy   {inoTaway       PV_Atn  contain;include;harbor',
         '<nTw    {inoTaw PV_ttAw contain;include;harbor',
-        'AnTw    {inoTaw PV_ttAw contain;include;harbor',
         'nTwy    noTawiy IV_0hAnn        contain;include;harbor',
         'nTw     noTaw   IV_0hwnyn       contain;include;harbor',
         'nTwY    noTawaY IV_0_Pass_yu    contain;include;harbor'
@@ -16573,7 +16460,7 @@ $Lexicon = {
     {
       'types' => {
         'in.tiwA\'' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => 'in.tiwA\'',
@@ -16581,17 +16468,11 @@ $Lexicon = {
       'lines' => [
         ';; {inoTiwA\'_1',
         '<nTwA\'  {inoTiwA\'       N0_Nh   withdrawal',
-        'AnTwA\'  {inoTiwA\'       N0_Nh   withdrawal',
         '<nTwA&  {inoTiwA&       Nh      withdrawal',
-        'AnTwA&  {inoTiwA&       Nh      withdrawal',
         '<nTwA}  {inoTiwA}       Nhy     withdrawal',
-        'AnTwA}  {inoTiwA}       Nhy     withdrawal',
         '<nTwA\'  {inoTiwA\'       NAn_Nayn        withdrawals',
-        'AnTwA\'  {inoTiwA\'       NAn_Nayn        withdrawals',
         '<nTwA}  {inoTiwA}       Nayn    withdrawals',
-        'AnTwA}  {inoTiwA}       Nayn    withdrawals',
-        '<nTwA\'  {inoTiwA\'       NAt     withdrawals',
-        'AnTwA\'  {inoTiwA\'       NAt     withdrawals'
+        '<nTwA\'  {inoTiwA\'       NAt     withdrawals'
       ],
       'patterns' => {
         'in.tiwA\'' => [
@@ -16615,8 +16496,7 @@ $Lexicon = {
       'form' => 'in.tiwA\'iyy',
       'lines' => [
         ';; {inoTiwA}iy~_1',
-        '<nTwA}y {inoTiwA}iy~    Nall    withdrawal;introverted     [[{inoTiwA}iy~/ADJ]]',
-        'AnTwA}y {inoTiwA}iy~    Nall    withdrawal;introverted     [[{inoTiwA}iy~/ADJ]]'
+        '<nTwA}y {inoTiwA}iy~    Nall    withdrawal;introverted     [[{inoTiwA}iy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16963,7 +16843,6 @@ $Lexicon = {
       'lines' => [
         ';; {inoTamas_1',
         '<nTms   {inoTamas       PV_intr be eradicated;be obliterated',
-        'AnTms   {inoTamas       PV_intr be eradicated;be obliterated',
         'nTms    noTamis IV_intr be eradicated;be obliterated'
       ],
       'patterns' => {
@@ -17005,15 +16884,14 @@ $Lexicon = {
     {
       'types' => {
         'in.timAs' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => 'in.timAs',
       'form' => 'in.timAs',
       'lines' => [
         ';; {inoTimAs_1',
-        '<nTmAs  {inoTimAs       N/At    disappearance',
-        'AnTmAs  {inoTimAs       N/At    disappearance'
+        '<nTmAs  {inoTimAs       N/At    disappearance'
       ],
       'patterns' => {
         'in.timAs' => [
@@ -17224,7 +17102,6 @@ $Lexicon = {
       'lines' => [
         ';; >aTofaH_1',
         '>TfH    >aTofaH PV      make overflow;overfill',
-        'ATfH    >aTofaH PV      make overflow;overfill',
         'TfH     TofiH   IV_yu   make overflow;overfill',
         'TfH     TofaH   IV_Pass_yu      be overfilled'
       ],
@@ -17441,15 +17318,14 @@ $Lexicon = {
     {
       'types' => {
         '\'i.tfA.h' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => '\'i.tfA.h',
       'form' => '\'i.tfA.h',
       'lines' => [
         ';; <iTofAH_1',
-        '<TfAH   <iTofAH N/At    overfilling',
-        'ATfAH   <iTofAH N/At    overfilling'
+        '<TfAH   <iTofAH N/At    overfilling'
       ],
       'patterns' => {
         '\'i.tfA.h' => [
@@ -17815,13 +17691,13 @@ $Lexicon = {
           'IV_0hwnyn' => 1
         },
         'in.talay' => {
-          'PV_Atn' => 2
+          'PV_Atn' => 1
         },
         'in.talA' => {
-          'PV_h' => 2
+          'PV_h' => 1
         },
         'in.tal' => {
-          'PV_ttAw_intr' => 2
+          'PV_ttAw_intr' => 1
         },
         'n.taliy' => {
           'IV_0hAnn' => 1
@@ -17835,13 +17711,9 @@ $Lexicon = {
       'lines' => [
         ';; {inoTalaY_1',
         '<nTlY   {inoTalaY       PV_0    be deceived',
-        'AnTlY   {inoTalaY       PV_0    be deceived',
         '<nTlA   {inoTalA        PV_h    be deceived',
-        'AnTlA   {inoTalA        PV_h    be deceived',
         '<nTly   {inoTalay       PV_Atn  be deceived',
-        'AnTly   {inoTalay       PV_Atn  be deceived',
         '<nTl    {inoTal PV_ttAw_intr    be deceived',
-        'AnTl    {inoTal PV_ttAw_intr    be deceived',
         'nTly    noTaliy IV_0hAnn        be deceived',
         'nTl     noTal   IV_0hwnyn       be deceived',
         'nTlY    noTalaY IV_0_Pass_yu    be deceived'
@@ -18326,7 +18198,6 @@ $Lexicon = {
       'lines' => [
         ';; {isotaToraf_1',
         '<stTrf  {isotaToraf     PV      deem unusual;be unique',
-        'AstTrf  {isotaToraf     PV      deem unusual;be unique',
         'stTrf   sotaTorif       IV      deem unusual;be unique'
       ],
       'patterns' => {},
@@ -18344,7 +18215,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.trAf' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.taraf',
@@ -18352,8 +18223,7 @@ $Lexicon = {
       'lines' => [
         ';; Taraf_1',
         'Trf     Taraf   Ndu     party;side',
-        '>TrAf   >aTorAf N       parties;sides',
-        'ATrAf   >aTorAf N       parties;sides'
+        '>TrAf   >aTorAf N       parties;sides'
       ],
       'patterns' => {
         '\'a.trAf' => [
@@ -18560,8 +18430,7 @@ $Lexicon = {
       'form' => '\'a.traf',
       'lines' => [
         ';; >aToraf_1',
-        '>Trf    >aToraf Nel     more/most curious',
-        'ATrf    >aToraf Nel     more/most curious'
+        '>Trf    >aToraf Nel     more/most curious'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18580,8 +18449,7 @@ $Lexicon = {
       'form' => '\'u.truwfaT',
       'lines' => [
         ';; >uToruwfap_1',
-        '>Trwf   >uToruwf        Napdu   masterpiece',
-        'ATrwf   >uToruwf        Napdu   masterpiece'
+        '>Trwf   >uToruwf        Napdu   masterpiece'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18875,7 +18743,6 @@ $Lexicon = {
       'lines' => [
         ';; {iT~arad_1',
         '<Trd    {iT~arad        PV_intr be consecutive;flow continuously',
-        'ATrd    {iT~arad        PV_intr be consecutive;flow continuously',
         'Trd     T~arid  IV_intr be consecutive;flow continuously'
       ],
       'patterns' => {
@@ -18905,7 +18772,6 @@ $Lexicon = {
       'lines' => [
         ';; {isotaTorad_1',
         '<stTrd  {isotaTorad     PV      proceed;continue',
-        'AstTrd  {isotaTorad     PV      proceed;continue',
         'stTrd   sotaTorid       IV      proceed;continue'
       ],
       'patterns' => {},
@@ -18931,7 +18797,6 @@ $Lexicon = {
       'lines' => [
         ';; {isotaTorad_2',
         '<stTrd  {isotaTorad     PV      digress',
-        'AstTrd  {isotaTorad     PV      digress',
         'stTrd   sotaTorid       IV      digress'
       ],
       'patterns' => {},
@@ -19212,15 +19077,14 @@ $Lexicon = {
     {
       'types' => {
         'i.t.tirAd' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => 'i.t.tirAd',
       'form' => 'i.t.tirAd',
       'lines' => [
         ';; {iT~irAd_1',
-        '<TrAd   {iT~irAd        N/At    continuity;uniformity',
-        'ATrAd   {iT~irAd        N/At    continuity;uniformity'
+        '<TrAd   {iT~irAd        N/At    continuity;uniformity'
       ],
       'patterns' => {
         'i.t.tirAd' => [
@@ -19244,8 +19108,7 @@ $Lexicon = {
       'form' => 'i.t.tirAdiyy',
       'lines' => [
         ';; {iT~irAdiy~_1',
-        '<TrAdy  {iT~irAdiy~     N-ap    continuous;regular     [[{iT~irAdiy~/ADJ]]',
-        'ATrAdy  {iT~irAdiy~     N-ap    continuous;regular     [[{iT~irAdiy~/ADJ]]'
+        '<TrAdy  {iT~irAdiy~     N-ap    continuous;regular     [[{iT~irAdiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19262,15 +19125,14 @@ $Lexicon = {
     {
       'types' => {
         'isti.trAd' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => 'isti.trAd',
       'form' => 'isti.trAd',
       'lines' => [
         ';; {isotiTorAd_1',
-        '<stTrAd {isotiTorAd     N/At    digression;excursus',
-        'AstTrAd {isotiTorAd     N/At    digression;excursus'
+        '<stTrAd {isotiTorAd     N/At    digression;excursus'
       ],
       'patterns' => {
         'isti.trAd' => [
@@ -19294,8 +19156,7 @@ $Lexicon = {
       'form' => 'isti.trAdiyy',
       'lines' => [
         ';; {isotiTorAdiy~_1',
-        '<stTrAdy        {isotiTorAdiy~  N-ap    digression;excursus     [[{isotiTorAdiy~/ADJ]]',
-        'AstTrAdy        {isotiTorAdiy~  N-ap    digression;excursus     [[{isotiTorAdiy~/ADJ]]'
+        '<stTrAdy        {isotiTorAdiy~  N-ap    digression;excursus     [[{isotiTorAdiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19598,7 +19459,6 @@ $Lexicon = {
       'lines' => [
         ';; {inoTaraH_1',
         '<nTrH   {inoTaraH       PV      fall down',
-        'AnTrH   {inoTaraH       PV      fall down',
         'nTrH    noTariH IV      fall down'
       ],
       'patterns' => {
@@ -19627,7 +19487,6 @@ $Lexicon = {
       'lines' => [
         ';; {iT~araH_1',
         '<TrH    {iT~araH        PV      discard;reject',
-        'ATrH    {iT~araH        PV      discard;reject',
         'TrH     T~ariH  IV      discard;reject'
       ],
       'patterns' => {
@@ -19843,8 +19702,7 @@ $Lexicon = {
       'form' => '\'u.truw.haT',
       'lines' => [
         ';; >uToruwHap_1',
-        '>TrwH   >uToruwH        NapAt   dissertation;thesis',
-        'ATrwH   >uToruwH        NapAt   dissertation;thesis'
+        '>TrwH   >uToruwH        NapAt   dissertation;thesis'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19892,15 +19750,14 @@ $Lexicon = {
     {
       'types' => {
         'i.t.tirA.h' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => 'i.t.tirA.h',
       'form' => 'i.t.tirA.h',
       'lines' => [
         ';; {iT~irAH_1',
-        '<TrAH   {iT~irAH        N/At    rejection;repudiation',
-        'ATrAH   {iT~irAH        N/At    rejection;repudiation'
+        '<TrAH   {iT~irAH        N/At    rejection;repudiation'
       ],
       'patterns' => {
         'i.t.tirA.h' => [
@@ -20117,7 +19974,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.tqum' => {
-          'N' => 2
+          'N' => 1
         },
         '.tuquwm' => {
           'Nap' => 1,
@@ -20131,8 +19988,7 @@ $Lexicon = {
         'Tqm     Taqom   Ndu     collection;series;set',
         'Tqwm    Tuquwm  N       series;sets',
         'Tqwm    Tuquwm  Nap     series;sets',
-        '>Tqm    >aToqum N       series;sets',
-        'ATqm    >aToqum N       series;sets'
+        '>Tqm    >aToqum N       series;sets'
       ],
       'patterns' => {
         '.tuquwm' => [
@@ -20158,7 +20014,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.tqum' => {
-          'N' => 2
+          'N' => 1
         },
         '.tawAqim' => {
           'Ndip' => 1
@@ -20170,8 +20026,7 @@ $Lexicon = {
         ';; TAqim_1',
         'TAqm    TAqim   Ndu     crew',
         'TwAqm   TawAqim Ndip    crew',
-        '>Tqm    >aToqum N       crew',
-        'ATqm    >aToqum N       crew'
+        '>Tqm    >aToqum N       crew'
       ],
       'patterns' => {
         '\'a.tqum' => [
@@ -20340,7 +20195,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.tmAr' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.timr',
@@ -20348,8 +20203,7 @@ $Lexicon = {
       'lines' => [
         ';; Timor_1',
         'Tmr     Timor   N       tatters',
-        '>TmAr   >aTomAr N       tatters',
-        'ATmAr   >aTomAr N       tatters'
+        '>TmAr   >aTomAr N       tatters'
       ],
       'patterns' => {
         '\'a.tmAr' => [
@@ -20717,7 +20571,6 @@ $Lexicon = {
       'lines' => [
         ';; >aTolaE_1',
         '>TlE    >aTolaE PV      instruct;disclose;inform',
-        'ATlE    >aTolaE PV      instruct;disclose;inform',
         'TlE     ToliE   IV_yu   instruct;disclose;inform',
         'TlE     TolaE   IV_Pass_yu      be instructed;be disclosed;be informed'
       ],
@@ -20776,7 +20629,6 @@ $Lexicon = {
       'lines' => [
         ';; {iT~alaE_1',
         '<TlE    {iT~alaE        PV      examine;study',
-        'ATlE    {iT~alaE        PV      examine;study',
         'TlE     T~aliE  IV      examine;study'
       ],
       'patterns' => {
@@ -20806,7 +20658,6 @@ $Lexicon = {
       'lines' => [
         ';; {isotaTolaE_1',
         '<stTlE  {isotaTolaE     PV      reconnoiter;inquire',
-        'AstTlE  {isotaTolaE     PV      reconnoiter;inquire',
         'stTlE   sotaToliE       IV      reconnoiter;inquire'
       ],
       'patterns' => {},
@@ -21055,15 +20906,14 @@ $Lexicon = {
     {
       'types' => {
         'i.t.tilA`' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => 'i.t.tilA`',
       'form' => 'i.t.tilA`',
       'lines' => [
         ';; {iT~ilAE_1',
-        '<TlAE   {iT~ilAE        N/At    examination;inspection;knowledge',
-        'ATlAE   {iT~ilAE        N/At    examination;inspection;knowledge'
+        '<TlAE   {iT~ilAE        N/At    examination;inspection;knowledge'
       ],
       'patterns' => {
         'i.t.tilA`' => [
@@ -21085,15 +20935,14 @@ $Lexicon = {
     {
       'types' => {
         'isti.tlA`' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => 'isti.tlA`',
       'form' => 'isti.tlA`',
       'lines' => [
         ';; {isotiTolAE_1',
-        '<stTlAE {isotiTolAE     N/At    reconnaissance;investigation',
-        'AstTlAE {isotiTolAE     N/At    reconnaissance;investigation'
+        '<stTlAE {isotiTolAE     N/At    reconnaissance;investigation'
       ],
       'patterns' => {
         'isti.tlA`' => [
@@ -21117,8 +20966,7 @@ $Lexicon = {
       'form' => 'isti.tlA`iyy',
       'lines' => [
         ';; {isotiTolAEiy~_1',
-        '<stTlAEy        {isotiTolAEiy~  Nall    reconnaissance     [[{isotiTolAEiy~/ADJ]]',
-        'AstTlAEy        {isotiTolAEiy~  Nall    reconnaissance     [[{isotiTolAEiy~/ADJ]]'
+        '<stTlAEy        {isotiTolAEiy~  Nall    reconnaissance     [[{isotiTolAEiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21580,7 +21428,6 @@ $Lexicon = {
       'lines' => [
         ';; >aTorab_1',
         '>Trb    >aTorab PV      please;sing',
-        'ATrb    >aTorab PV      please;sing',
         'Trb     Torib   IV_yu   please;sing',
         'Trb     Torab   IV_Pass_yu      be pleased;be sung'
       ],
@@ -21608,7 +21455,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.trAb' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.tarab',
@@ -21616,8 +21463,7 @@ $Lexicon = {
       'lines' => [
         ';; Tarab_1',
         'Trb     Tarab   N       delight;music',
-        '>TrAb   >aTorAb N       delight;music',
-        'ATrAb   >aTorAb N       delight;music'
+        '>TrAb   >aTorAb N       delight;music'
       ],
       'patterns' => {
         '\'a.trAb' => [
@@ -21690,8 +21536,7 @@ $Lexicon = {
       'form' => '\'a.trab',
       'lines' => [
         ';; >aTorab_2',
-        '>Trb    >aTorab Nel     more/most delightful;more/most melodious',
-        'ATrb    >aTorab Nel     more/most delightful;more/most melodious'
+        '>Trb    >aTorab Nel     more/most delightful;more/most melodious'
       ],
       'patterns' => {},
       'index' => '2',
@@ -21736,15 +21581,14 @@ $Lexicon = {
     {
       'types' => {
         '\'i.trAb' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => '\'i.trAb',
       'form' => '\'i.trAb',
       'lines' => [
         ';; <iTorAb_1',
-        '<TrAb   <iTorAb N/At    diversion by music;making music',
-        'ATrAb   <iTorAb N/At    diversion by music;making music'
+        '<TrAb   <iTorAb N/At    diversion by music;making music'
       ],
       'patterns' => {
         '\'i.trAb' => [
@@ -21859,7 +21703,7 @@ $Lexicon = {
           'IV_C' => 1
         },
         'in.tad' => {
-          'PV_C' => 2
+          'PV_C' => 1
         }
       },
       'entry' => 'in.tAd',
@@ -21867,9 +21711,7 @@ $Lexicon = {
       'lines' => [
         ';; {inoTAd_1',
         '<nTAd   {inoTAd PV_V    rise;soar',
-        'AnTAd   {inoTAd PV_V    rise;soar',
         '<nTd    {inoTad PV_C    rise;soar',
-        'AnTd    {inoTad PV_C    rise;soar',
         'nTAd    noTAd   IV_V    rise;soar',
         'nTd     noTad   IV_C    rise;soar'
       ],
@@ -21898,7 +21740,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.twAd' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.tawd',
@@ -21906,8 +21748,7 @@ $Lexicon = {
       'lines' => [
         ';; Tawod_1',
         'Twd     Tawod   Ndu     mountain',
-        '>TwAd   >aTowAd N       mountains',
-        'ATwAd   >aTowAd N       mountains'
+        '>TwAd   >aTowAd N       mountains'
       ],
       'patterns' => {
         '\'a.twAd' => [
@@ -22559,7 +22400,6 @@ $Lexicon = {
       'lines' => [
         ';; >aTonab_1',
         '>Tnb    >aTonab PV      exaggerate',
-        'ATnb    >aTonab PV      exaggerate',
         'Tnb     Tonib   IV_yu   exaggerate',
         'Tnb     Tonab   IV_Pass_yu      be exaggerated'
       ],
@@ -22585,7 +22425,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.tnAb' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.tunub',
@@ -22593,8 +22433,7 @@ $Lexicon = {
       'lines' => [
         ';; Tunub_1',
         'Tnb     Tunub   N       tendon;rope',
-        '>TnAb   >aTonAb N       tendons;ropes',
-        'ATnAb   >aTonAb N       tendons;ropes'
+        '>TnAb   >aTonAb N       tendons;ropes'
       ],
       'patterns' => {
         '\'a.tnAb' => [
@@ -22636,15 +22475,14 @@ $Lexicon = {
     {
       'types' => {
         '\'i.tnAb' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => '\'i.tnAb',
       'form' => '\'i.tnAb',
       'lines' => [
         ';; <iTonAb_1',
-        '<TnAb   <iTonAb N/At    exaggeration',
-        'ATnAb   <iTonAb N/At    exaggeration'
+        '<TnAb   <iTonAb N/At    exaggeration'
       ],
       'patterns' => {
         '\'i.tnAb' => [
@@ -22667,8 +22505,7 @@ $Lexicon = {
       'form' => '\'i.tnAbiyy',
       'lines' => [
         ';; <iTonAbiy~_1',
-        '<TnAby  <iTonAbiy~      N-ap    exaggerated     [[<iTonAbiy~/ADJ]]',
-        'ATnAby  <iTonAbiy~      N-ap    exaggerated     [[<iTonAbiy~/ADJ]]'
+        '<TnAby  <iTonAbiy~      N-ap    exaggerated     [[<iTonAbiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22727,7 +22564,7 @@ $Lexicon = {
           'N' => 1
         },
         '\'a.trAs' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.tirs',
@@ -22736,7 +22573,6 @@ $Lexicon = {
         ';; Tiros_1',
         'Trs     Tiros   Ndu     sheet of paper',
         '>TrAs   >aTorAs N       sheets of paper',
-        'ATrAs   >aTorAs N       sheets of paper',
         'Trws    Turuws  N       sheets of paper'
       ],
       'patterns' => {
@@ -23022,16 +22858,16 @@ $Lexicon = {
           'IV_0hwnyn_yu' => 1
         },
         '\'a.trA' => {
-          'PV_h' => 2
+          'PV_h' => 1
         },
         '.tray' => {
           'IV_Ann_Pass_yu' => 1
         },
         '\'a.tr' => {
-          'PV_ttAw' => 2
+          'PV_ttAw' => 1
         },
         '\'a.tray' => {
-          'PV_Atn' => 2
+          'PV_Atn' => 1
         },
         '.triy' => {
           'IV_0hAnn_yu' => 1
@@ -23045,13 +22881,9 @@ $Lexicon = {
       'lines' => [
         ';; >aToraY_1',
         '>TrY    >aToraY PV_0    flatter;praise',
-        'ATrY    >aToraY PV_0    flatter;praise',
         '>TrA    >aTorA  PV_h    flatter;praise',
-        'ATrA    >aTorA  PV_h    flatter;praise',
         '>Try    >aToray PV_Atn  flatter;praise',
-        'ATry    >aToray PV_Atn  flatter;praise',
         '>Tr     >aTor   PV_ttAw flatter;praise',
-        'ATr     >aTor   PV_ttAw flatter;praise',
         'Try     Toriy   IV_0hAnn_yu     flatter;praise',
         'Tr      Tor     IV_0hwnyn_yu    flatter;praise',
         'TrY     ToraY   IV_0_Pass_yu    be flattered;be praised',
@@ -23101,7 +22933,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.trA\'' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => '\'i.trA\'',
@@ -23109,13 +22941,9 @@ $Lexicon = {
       'lines' => [
         ';; <iTorA\'_2',
         '<TrA\'   <iTorA\' N0_Nh   praise;flattery',
-        'ATrA\'   <iTorA\' N0_Nh   praise;flattery',
         '<TrA&   <iTorA& Nh      praise;flattery',
-        'ATrA&   <iTorA& Nh      praise;flattery',
         '<TrA}   <iTorA} Nhy     praise;flattery',
-        'ATrA}   <iTorA} Nhy     praise;flattery',
-        '<TrA\'   <iTorA\' NAt     praise;flattery',
-        'ATrA\'   <iTorA\' NAt     praise;flattery'
+        '<TrA\'   <iTorA\' NAt     praise;flattery'
       ],
       'patterns' => {
         '\'i.trA\'' => [
@@ -23202,7 +23030,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.tra\'A' => {
-          'PV-|' => 2
+          'PV-|' => 1
         },
         '.tra\'' => {
           'IV_Pass_yu' => 1
@@ -23216,11 +23044,8 @@ $Lexicon = {
       'lines' => [
         ';; >aTora>_1',
         '>Tr>    >aTora> PV->    eulogize',
-        'ATr>    >aTora> PV->    eulogize',
         '>Tr|    >aTora| PV-|    eulogize',
-        'ATr|    >aTora| PV-|    eulogize',
         '>Tr&    >aTora& PV_w    eulogize',
-        'ATr&    >aTora& PV_w    eulogize',
         'Tr}     Tori}   IV_yu   eulogize',
         'Tr>     Tora>   IV_Pass_yu      be eulogized'
       ],
@@ -23367,7 +23192,7 @@ $Lexicon = {
     {
       'types' => {
         '\'i.trA\'' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => '\'i.trA\'',
@@ -23375,17 +23200,11 @@ $Lexicon = {
       'lines' => [
         ';; <iTorA\'_1',
         '<TrA\'   <iTorA\' N0_Nh   eulogy',
-        'ATrA\'   <iTorA\' N0_Nh   eulogy',
         '<TrA&   <iTorA& Nh      eulogy',
-        'ATrA&   <iTorA& Nh      eulogy',
         '<TrA}   <iTorA} Nhy     eulogy',
-        'ATrA}   <iTorA} Nhy     eulogy',
         '<TrA\'   <iTorA\' NAn_Nayn        eulogies',
-        'ATrA\'   <iTorA\' NAn_Nayn        eulogies',
         '<TrA}   <iTorA} Nayn    eulogies',
-        'ATrA}   <iTorA} Nayn    eulogies',
-        '<TrA\'   <iTorA\' NAt     eulogies',
-        'ATrA\'   <iTorA\' NAt     eulogies'
+        '<TrA\'   <iTorA\' NAt     eulogies'
       ],
       'patterns' => {
         '\'i.trA\'' => [
@@ -23568,7 +23387,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.tyAn' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.tiyn',
@@ -23576,8 +23395,7 @@ $Lexicon = {
       'lines' => [
         ';; Tiyn_1',
         'Tyn     Tiyn    N       clay',
-        '>TyAn   >aToyAn N       clay',
-        'ATyAn   >aToyAn N       clay'
+        '>TyAn   >aToyAn N       clay'
       ],
       'patterns' => {
         '\'a.tyAn' => [
@@ -23752,7 +23570,7 @@ $Lexicon = {
           'IV_V' => 1
         },
         'ista.tar' => {
-          'PV_C' => 2
+          'PV_C' => 1
         }
       },
       'entry' => 'ista.tAr',
@@ -23760,9 +23578,7 @@ $Lexicon = {
       'lines' => [
         ';; {isotaTAr_1',
         '<stTAr  {isotaTAr       PV_V    fly apart;scatter;agitate',
-        'AstTAr  {isotaTAr       PV_V    fly apart;scatter;agitate',
         '<stTr   {isotaTar       PV_C    fly apart;scatter;agitate',
-        'AstTr   {isotaTar       PV_C    fly apart;scatter;agitate',
         'stTyr   sotaTiyr        IV_V    fly apart;scatter;agitate',
         'stTr    sotaTir IV_C    fly apart;scatter;agitate'
       ],
@@ -23792,7 +23608,7 @@ $Lexicon = {
           'IV_C_intr' => 1
         },
         'ustu.tir' => {
-          'PV_C_intr' => 2
+          'PV_C_intr' => 1
         }
       },
       'entry' => 'ustu.tiyr',
@@ -23800,9 +23616,7 @@ $Lexicon = {
       'lines' => [
         ';; {usotuTiyr_2',
         '<stTyr  {usotuTiyr      PV_V_intr       be terrified',
-        'AstTyr  {usotuTiyr      PV_V_intr       be terrified',
         '<stTr   {usotuTir       PV_C_intr       be terrified',
-        'AstTr   {usotuTir       PV_C_intr       be terrified',
         'stTAr   sotaTAr IV_V_intr       be terrified',
         'stTr    sotaTar IV_C_intr       be terrified'
       ],
@@ -23827,7 +23641,7 @@ $Lexicon = {
           'N' => 1
         },
         '\'a.tyAr' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.tayr',
@@ -23836,8 +23650,7 @@ $Lexicon = {
         ';; Tayor_1',
         'Tyr     Tayor   N       bird',
         'Tywr    Tuyuwr  N       birds',
-        '>TyAr   >aToyAr N       birds',
-        'ATyAr   >aToyAr N       birds'
+        '>TyAr   >aToyAr N       birds'
       ],
       'patterns' => {
         '.tuyuwr' => [
@@ -24105,8 +23918,7 @@ $Lexicon = {
       'form' => 'isti.tAraT',
       'lines' => [
         ';; {isotiTArap_1',
-        '<stTAr  {isotiTAr       Nap     being terrified',
-        'AstTAr  {isotiTAr       Nap     being terrified'
+        '<stTAr  {isotiTAr       Nap     being terrified'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24122,15 +23934,14 @@ $Lexicon = {
     {
       'types' => {
         'isti.tyAr' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => 'isti.tyAr',
       'form' => 'isti.tyAr',
       'lines' => [
         ';; {isotiToyAr_1',
-        '<stTyAr {isotiToyAr     N/At    being terrified',
-        'AstTyAr {isotiToyAr     N/At    being terrified'
+        '<stTyAr {isotiToyAr     N/At    being terrified'
       ],
       'patterns' => {
         'isti.tyAr' => [

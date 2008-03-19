@@ -47,7 +47,6 @@ s>r     so>ar   IV      remain;be left
 ;; su&or_1
 s&r     su&or   N       remainder;leftover
 >s|r    >aso|r  N       remainder;leftovers
-As|r    >aso|r  N       remainder;leftovers
 s&r     su&or   Nap     remainder;leftovers
 ; see also under --- syr
 ;; sA}ir_1
@@ -97,7 +96,6 @@ sA'l    sA'al   PV      question;interrogate
 sA}l    sA}il   IV_yu   question;interrogate
 ;; >aso>al_1
 >s>l    >aso>al PV      comply;fulfill
-As>l    >aso>al PV      comply;fulfill
 s}l     so}il   IV_yu   comply;fulfill
 ;; tasa>~al_1
 ts>l    tasa>~al        PV      beg
@@ -111,7 +109,6 @@ s&l     su&ol   Nap     demand;request
 ;; su&Al_1
 s&Al    su&Al   Ndu     question;inquiry
 >s}l    >aso}il Nap     questions;inquiries
-As}l    >aso}il Nap     questions;inquiries
 ;; sa>~Al_1
 s>Al    sa>~Al  N       inquisitive;curious     <pos>sa>~Al/ADJ</pos>
 s&wl    sa&uwl  N       inquisitive;curious
@@ -168,7 +165,6 @@ s}m     sa}im   PV_intr be tired;be bored
 s>m     so>am   IV_intr be tired;be bored
 ;; >aso>am_1
 >s>m    >aso>am PV      make weary;make bored
-As>m    >aso>am PV      make weary;make bored
 s}m     so}im   IV_yu   make weary;make bored
 ;; sa}im_1
 s}m     sa}im   Nall    tired;bored     <pos>sa}im/ADJ</pos>
@@ -300,9 +296,7 @@ tsAb    tasAb~  IV_V    exchange insults
 tsAbb   tasAbib IV_C    exchange insults
 ;; {isotab~_1
 <stb    {isotab~        PV_V    exchange insults
-Astb    {isotab~        PV_V    exchange insults
 <stbb   {isotabab       PV_C    exchange insults
-Astbb   {isotabab       PV_C    exchange insults
 stb     sotab~  IV_V    exchange insults
 stbb    sotabib IV_C    exchange insults
 ;; sab~_1
@@ -314,7 +308,6 @@ sb      sub~    Nap     disgrace
 ;; sabab_1
 sbb     sabab   Ndu     reason;cause
 >sbAb   >asobAb N       reasons;causes
-AsbAb   >asobAb N       reasons;causes
 bsbb    bisababi        FW-Wa   because of;due to   <pos>bi/PREP+sababi/NOUN</pos>
 bsbb    bisababi        FW-Wa-i because of;due to   <pos>bi/PREP+sababi/NOUN</pos>
 bsbb    bisabab FW-Wa-o because of;due to   <pos>bi/PREP+sabab/NOUN</pos>
@@ -369,7 +362,6 @@ sbt     sabat   PV-t    rest;keep the Sabbath
 sbt     sobut   IV      rest;keep the Sabbath
 ;; >asobat_1
 >sbt    >asobat PV-t    rest on the Sabbath;slumber
-Asbt    >asobat PV-t    rest on the Sabbath;slumber
 sbt     sobit   IV_yu   rest on the Sabbath;slumber
 ;; sabot_1
 sbt     sabot   N       Saturday
@@ -386,7 +378,6 @@ msbt    musobit Nall    lethargic;inactive     <pos>musobit/ADJ</pos>
 ;; sabat_1
 sbt     sabat   NduAt   basket
 >sbt    >asobit Nap     baskets
-Asbt    >asobit Nap     baskets
 ;
 ;; sibit~_1
 sbt     sibit~  N       dill
@@ -471,7 +462,6 @@ sbAx    sibAx   N       swampy ground;bogs
 ;; sibAx_2
 sbAx    sibAx   N       manure;fertilizer
 >sbx    >asobix Nap     manure;fertilizer
-Asbx    >asobix Nap     manure;fertilizer
 ;; sabiyx_1
 sbyx    sabiyx  N       unspun cotton
 sbA}x   sabA}ix Ndip    unspun cotton
@@ -524,7 +514,6 @@ sbAT    sibAT   N       lank
 ;; siboT_1
 sbT     siboT   Ndu     grandson
 >sbAT   >asobAT N       grandsons;tribe
-AsbAT   >asobAT N       grandsons;tribe
 ;; sab~AT_1
 sbAT    sab~AT  Ndu     shoe
 sbAbyT  sabAbiyT        Ndip    shoes
@@ -545,7 +534,6 @@ sbE     sab~iE  IV_yu   make sevenfold;divide by seven
 ;; saboE_1
 sbE     saboE   Ndu     lion;predatory beast
 >sbE    >asobuE N       lions;predatory beasts
-AsbE    >asobuE N       lions;predatory beasts
 sbwE    subuwE  N       lions;predatory beasts
 sbwE    subuwE  Nap     lions;predatory beasts
 sbAE    sibAE   N       lions;predatory beasts
@@ -565,17 +553,13 @@ sbEyny  saboEiyniy~     N-ap    seventieth;seventies     <pos>saboEiyniy~/NOUN</
 ;; suboE_1
 sbE     suboE   Ndu     seventh
 >sbAE   >asobAE N       sevenths
-AsbAE   >asobAE N       sevenths
 ;; subAEiy~_1
 sbAEy   subAEiy~        Nall    seven-part     <pos>subAEiy~/ADJ</pos>
 ;; >usobuwE_1
 >sbwE   >usobuwE        Ndu     week
-AsbwE   >usobuwE        Ndu     week
 >sAbyE  >asAbiyE        Ndip    weeks
-AsAbyE  >asAbiyE        Ndip    weeks
 ;; >usobuwEiy~_1
 >sbwEy  >usobuwEiy~     Nall    weekly     <pos>>usobuwEiy~/ADJ</pos>
-AsbwEy  >usobuwEiy~     Nall    weekly     <pos>>usobuwEiy~/ADJ</pos>
 ;; sabuwEAt_1
 sbwE    sabuwE  NAt     Pentecost
 ;; sAbiE_1
@@ -591,7 +575,6 @@ sbg     sobug   IV_intr be long and wide;be abundant
 sbg     sobag   IV_intr be long and wide;be abundant
 ;; >asobag_1
 >sbg    >asobag PV      bestow amply;impart liberally
-Asbg    >asobag PV      bestow amply;impart liberally
 sbg     sobig   IV_yu   bestow amply;impart liberally
 sbg     sobag   IV_Pass_yu      be bestown amply;be imparted liberally
 ;; sAbig_1
@@ -614,14 +597,12 @@ tsAbq   tasAbaq PV      compete;race
 tsAbq   tasAbaq IV      compete;race
 ;; {isotabaq_1
 <stbq   {isotabaq       PV      hasten;hurry;push forward;compete;race
-Astbq   {isotabaq       PV      hasten;hurry;push forward;compete;race
 stbq    sotabiq IV      hasten;hurry;push forward;compete;race
 ;; saboq_1
 sbq     saboq   N       precedence;antecedence
 ;; sabaq_1
 sbq     sabaq   N       stake (in a race)
 >sbAq   >asobAq N       stakes (in a race)
-AsbAq   >asobAq N       stakes (in a race)
 ;; saboqap_1
 sbq     saboq   Napdu   lapse;slip
 ;; suboqap_1
@@ -632,10 +613,8 @@ sbAq    sab~Aq  N-ap    anticipatory;express
 sbAq    sab~Aq  Nall    precursor
 ;; >asobaq_1
 >sbq    >asobaq Nel     previous;former;earlier
-Asbq    >asobaq Nel     previous;former;earlier
 ;; >asobaqiy~ap_1
 >sbqy   >asobaqiy~      Nap     precedence;priority     <pos>>asobaqiy~/NOUN</pos>
-Asbqy   >asobaqiy~      Nap     precedence;priority     <pos>>asobaqiy~/NOUN</pos>
 ;; tasobiyq_1
 tsbyq   tasobiyq        NduAt   advance payment
 ;; sibAq_1
@@ -646,10 +625,8 @@ msAbq   musAbaq NapAt   race;competition
 tsAbq   tasAbuq NduAt   race;competition
 ;; {isotibAq_1
 <stbAq  {isotibAq       N       hastening;hurrying;pushing forward;competing;racing
-AstbAq  {isotibAq       N       hastening;hurrying;pushing forward;competing;racing
 ;; {isotibAqiy~_1
 <stbAqy {isotibAqiy~    Nall    hastening;hurrying;pushing forward;competing;racing
-AstbAqy {isotibAqiy~    Nall    hastening;hurrying;pushing forward;competing;racing
 ;; sAbiq_1
 sAbq    sAbiq   Nall    former;previous;preceding     <pos>sAbiq/ADJ</pos>
 sbAq    sub~Aq  N       former;previous;preceding
@@ -681,7 +658,6 @@ sbk     sab~ak  PV      smelt;mold
 sbk     sab~ik  IV_yu   smelt;mold
 ;; {inosabak_1
 <nsbk   {inosabak       PV_intr be cast;be molded
-Ansbk   {inosabak       PV_intr be cast;be molded
 nsbk    nosabik IV_intr be cast;be molded
 ;; sabok_1
 sbk     sabok   N       casting;molding
@@ -706,7 +682,6 @@ sbl     sab~al  PV      give to charity
 sbl     sab~il  IV_yu   give to charity
 ;; >asobal_1
 >sbl    >asobal PV      let hang down;lower
-Asbl    >asobal PV      let hang down;lower
 sbl     sobil   IV_yu   let hang down;lower
 sbl     sobal   IV_Pass_yu      be left hanging down;be lowered
 ;; sabal_1
@@ -721,7 +696,6 @@ sbAl    sibAl   N       mustaches
 sbyl    sabiyl  Ndu     way;road
 sbl     subul   N       ways;roads
 >sbl    >asobil Nap     ways;roads
-Asbl    >asobil Nap     ways;roads
 ;; sAbil_1
 sAbl    sAbil   N-ap    public road
 ;; sAbilap_1
@@ -766,13 +740,9 @@ sb      sob     IV_0hwnyn       capture;captivate
 sbY     sobaY   IV_0_Pass_yu    be captured;be captivated
 ;; {isotabaY_1
 <stbY   {isotabaY       PV_0    capture;captivate
-AstbY   {isotabaY       PV_0    capture;captivate
 <stbA   {isotabA        PV_h    capture;captivate
-AstbA   {isotabA        PV_h    capture;captivate
 <stby   {isotabay       PV_Atn  capture;captivate
-Astby   {isotabay       PV_Atn  capture;captivate
 <stb    {isotab PV_ttAw capture;captivate
-Astb    {isotab PV_ttAw capture;captivate
 stby    sotabiy IV_0hAnn        capture;captivate
 stb     sotab   IV_0hwnyn       capture;captivate
 stbY    sotabaY IV_0_Pass_yu    be captured;be captivated
@@ -844,18 +814,15 @@ tstr    tasat~ar        PV_intr be covered;be hidden
 tstr    tasat~ar        IV_intr be covered;be hidden
 ;; {isotatar_1
 <sttr   {isotatar       PV_intr be covered;be hidden
-Asttr   {isotatar       PV_intr be covered;be hidden
 sttr    sotatir IV_intr be covered;be hidden
 ;; sitor_1
 str     sitor   Ndu     veil;curtain;cover
 stwr    sutuwr  N       veils;covers
 >stAr   >asotAr N       veils;covers
-AstAr   >asotAr N       veils;covers
 ;; sitor_2
 str     sitor   Ndu     protection;shield;cover
 stwr    sutuwr  N       protection;shields;covers
 >stAr   >asotAr N       protection;shields;covers
-AstAr   >asotAr N       protection;shields;covers
 ;; sutorap_1
 str     sutor   Napdu   jacket
 str     sutar   N       jackets
@@ -912,7 +879,6 @@ tstyf   tasotiyf        NduAt   stacking;storage
 ;; satoh_1
 sth     satoh   N       buttocks;backside
 >stAh   >asotAh N       buttocks;backsides
-AstAh   >asotAh N       buttocks;backsides
 ;
 ;--- stw
 ;; stuwbwuwto$_1
@@ -938,7 +904,6 @@ styfn   stiyfin Nprop   Stephen;Stefan
 ;--- sjH
 ;; >asojaH_1
 >sjH    >asojaH Nel     shapely;beautiful
-AsjH    >asojaH Nel     shapely;beautiful
 sjHA'   sajoHA' N0_Nh   shapely;beautiful
 sjHA&   sajoHA& Nh      shapely;beautiful
 sjHA}   sajoHA} Nhy     shapely;beautiful
@@ -1009,7 +974,6 @@ sjE     saj~iE  IV_yu   speak in rhymed prose
 ;; sajoE_1
 sjE     sajoE   N       rhymed prose
 >sjAE   >asojAE N       rhymed prose
-AsjAE   >asojAE N       rhymed prose
 ;; sajoEap_1
 sjE     sajoE   Nap     passage of rhymed prose
 ;; sAjiE_1
@@ -1021,7 +985,6 @@ msjwE   masojuwE        N/ap    composed in rhymed prose     <pos>masojuwE/ADJ</
 ;; sajof_1
 sjf     sajof   Ndu     curtain;veil
 >sjAf   >asojAf N       curtains;veils
-AsjAf   >asojAf N       curtains;veils
 sjwf    sujuwf  N       curtains;veils
 ;; sijAf_1
 sjAf    sijAf   Ndu     curtain;veil
@@ -1066,16 +1029,13 @@ sjm     sojum   IV      flow;pour forth
 sjm     sojim   IV      flow;pour forth
 ;; >asojam_1
 >sjm    >asojam PV      shed tears
-Asjm    >asojam PV      shed tears
 sjm     sojim   IV_yu   shed tears
 sjm     sojam   IV_Pass_yu      be shed (tears)
 ;; {inosajam_1
 <nsjm   {inosajam       PV      flow;pour forth
-Ansjm   {inosajam       PV      flow;pour forth
 nsjm    nosajim IV      flow;pour forth
 ;; {inosijAm_1
 <nsjAm  {inosijAm       NduAt   fluency;harmony
-AnsjAm  {inosijAm       NduAt   fluency;harmony
 ;; munosajim_1
 mnsjm   munosajim       Nall    harmonious     <pos>munosajim/ADJ</pos>
 ;
@@ -1161,7 +1121,6 @@ sHb     saHab   PV      withdraw;pull out
 sHb     soHab   IV      withdraw;pull out
 ;; {inosaHab_1
 <nsHb   {inosaHab       PV      withdraw;pull out
-AnsHb   {inosaHab       PV      withdraw;pull out
 nsHb    nosaHib IV      withdraw;pull out
 ;; saHob_1
 sHb     saHob   N       withdrawal;pulling out;remove
@@ -1182,7 +1141,6 @@ sHAb    saH~Ab  N       zipper
 msHb    masoHab N       duct
 ;; {inosiHAb_1
 <nsHAb  {inosiHAb       NduAt   withdrawal;evacuation;pulling out
-AnsHAb  {inosiHAb       NduAt   withdrawal;evacuation;pulling out
 ;; sAHib_1
 sAHb    sAHib   N       drawer (of bill of exchange)
 ;; masoHuwb_1
@@ -1198,7 +1156,6 @@ sHybAny suHayobAniy~    N0      Suhaibani
 sHt     suHot   N       banned;illegal possession
 sHt     suHut   N       banned;illegal possession
 >sHAt   >asoHAt N       banned;illegal possessions
-AsHAt   >asoHAt N       banned;illegal possessions
 ;
 ;; saHotuwt_1
 sHtwt   saHotuwt        N0      sahtout (surface measure)
@@ -1238,19 +1195,16 @@ tsHr    tasaH~ar        IV      have lunch before daybreak
 sHr     saHor   N       lungs;pulmonary region
 sHwr    suHuwr  N       lungs;pulmonary region
 >sHAr   >asoHAr N       lungs;pulmonary region
-AsHAr   >asoHAr N       lungs;pulmonary region
 ;; siHor_1
 sHr     siHor   N       sorcery;magic
 sHr     siHor   N       fascination
 >sHAr   >asoHAr N       sorcery;magic
-AsHAr   >asoHAr N       sorcery;magic
 sHwr    suHuwr  N       sorcery;magic
 ;; siHoriy~_1
 sHry    siHoriy~        N-ap    magic     <pos>siHoriy~/ADJ</pos>
 ;; saHar_1
 sHr     saHar   N       dawn;daybreak
 >sHAr   >asoHAr N       dawn;daybreak
-AsHAr   >asoHAr N       dawn;daybreak
 ;; saHar_2
 sHr     saHar   Nprop   Sahar
 ;; saHuwr_1
@@ -1299,7 +1253,6 @@ tsHq    tasaH~aq        PV_intr be pulverized;be crushed
 tsHq    tasaH~aq        IV_intr be pulverized;be crushed
 ;; {inosaHaq_1
 <nsHq   {inosaHaq       PV_intr be pulverized;be crushed
-AnsHq   {inosaHaq       PV_intr be pulverized;be crushed
 nsHq    nosaHiq IV_intr be pulverized;be crushed
 ;; saHoq_1
 sHq     saHoq   N       crushing;bruising
@@ -1316,7 +1269,6 @@ msAHq   musAHaq NapAt   lesbianism;tribadism
 sHAq    siHAq   N       lesbianism;tribadism
 ;; {inosiHAq_1
 <nsHAq  {inosiHAq       NduAt   contrition;repentance
-AnsHAq  {inosiHAq       NduAt   contrition;repentance
 ;; sAHiq_1
 sAHq    sAHiq   N-ap    overwhelming;crushing     <pos>sAHiq/ADJ</pos>
 ;; masoHuwq_1
@@ -1368,7 +1320,6 @@ sHm     suHom   Nap     blackness
 sHAm    suHAm   N       blackness
 ;; >asoHam_1
 >sHm    >asoHam Nel     black
-AsHm    >asoHam Nel     black
 sHmA'   saHomA' N0_Nh   black
 sHmA&   saHomA& Nh      black
 sHmA}   saHomA} Nhy     black
@@ -1441,7 +1392,6 @@ sxT     saxiT   PV_intr be displeased;resent
 sxT     soxaT   IV_intr be displeased;resent
 ;; >asoxaT_1
 >sxT    >asoxaT PV      embitter;enrage
-AsxT    >asoxaT PV      embitter;enrage
 sxT     soxiT   IV_yu   embitter;enrage
 sxT     soxaT   IV_Pass_yu      be embittered;be enraged
 ;; tasax~aT_1
@@ -1466,7 +1416,6 @@ sxf     saxuf   PV_intr be stupid
 sxf     soxuf   IV_intr be stupid
 ;; {isotasoxaf_1
 <stsxf  {isotasoxaf     PV      consider stupid
-Astsxf  {isotasoxaf     PV      consider stupid
 stsxf   sotasoxif       IV      consider stupid
 ;; saxof_1
 sxf     saxof   N       nonsense;folly
@@ -1517,7 +1466,6 @@ sxn     sax~an  PV-n    heat;warm
 sxn     sax~in  IV-n_yu heat;warm
 ;; >asoxan_1
 >sxn    >asoxan PV-n    heat;warm
-Asxn    >asoxan PV-n    heat;warm
 sxn     soxin   IV-n_yu heat;warm
 sxn     soxan   IV-n_Pass_yu    be heated;be warmed
 ;; suxon_1
@@ -1572,11 +1520,8 @@ sxA}    saxA}   Nhy     generosity;munificence
 ;; saxiy~_1
 sxy     saxiy~  N/ap    generous;openhanded     <pos>saxiy~/ADJ</pos>
 >sxyA'  >asoxiyA'       N0_Nh   generous;openhanded
-AsxyA'  >asoxiyA'       N0_Nh   generous;openhanded
 >sxyA&  >asoxiyA&       Nh      generous;openhanded
-AsxyA&  >asoxiyA&       Nh      generous;openhanded
 >sxyA}  >asoxiyA}       Nhy     generous;openhanded
-AsxyA}  >asoxiyA}       Nhy     generous;openhanded
 ;; saxAwap_1
 sxAw    saxAw   Nap     generosity;munificence
 ;
@@ -1601,9 +1546,7 @@ sdd     sad~ad  PV      obstruct;aim;direct
 sdd     sad~id  IV_yu   obstruct;aim;direct
 ;; >asad~_1
 >sd     >asad~  PV_V    say/do the right thing
-Asd     >asad~  PV_V    say/do the right thing
 >sdd    >asodad PV_C    say/do the right thing
-Asdd    >asodad PV_C    say/do the right thing
 sd      sid~    IV_V_yu say/do the right thing
 sdd     sodid   IV_C_yu say/do the right thing
 ;; tasad~ad_1
@@ -1611,9 +1554,7 @@ tsdd    tasad~ad        PV_intr be guided;be directed
 tsdd    tasad~ad        IV_intr be guided;be directed
 ;; {inosad~_1
 <nsd    {inosad~        PV_V_intr       be obstructed;be clogged
-Ansd    {inosad~        PV_V_intr       be obstructed;be clogged
 <nsdd   {inosadad       PV_C_intr       be obstructed;be clogged
-Ansdd   {inosadad       PV_C_intr       be obstructed;be clogged
 nsd     nosad~  IV_V_intr       be obstructed;be clogged
 nsdd    nosadid IV_C_intr       be obstructed;be clogged
 ;; sad~_1
@@ -1624,12 +1565,10 @@ sd      sad~    N       fulfillment
 sd      sud~    N       dam
 sdwd    suduwd  N       dams
 >sdAd   >asodAd N       dams
-AsdAd   >asodAd N       dams
 ;; sad~ap_1
 sd      sad~    Nap     obstacle
 sdwd    suduwd  N       obstacles
 >sdAd   >asodAd N       obstacles
-AsdAd   >asodAd N       obstacles
 ;; sud~ap_1
 sd      sud~    Nap     gate;seat
 sdd     sudad   N       gates;seats
@@ -1643,7 +1582,6 @@ sdAd    sudAd   Ndu     obstruction;embolism
 sdAd    sidAd   Ndu     plug;stopper
 sdAd    sidAd   Napdu   plug;stopper
 >sd     >asid~  Nap     plugs;stoppers
-Asd     >asid~  Nap     plugs;stoppers
 ;; sidAdap_1
 sdAd    sidAd   Nap     gun sight
 ;; sadiyd_1
@@ -1654,7 +1592,6 @@ sdyd    sadiyd  N-ap    relevant;correct     <pos>sadiyd/ADJ</pos>
 sdwd    saduwd  N-ap    tight;sealed
 ;; >asad~_2
 >sd     >asad~  Nel     more/most opposite;more/most relevant
-Asd     >asad~  Nel     more/most opposite;more/most relevant
 ;; tasodiyd_1
 tsdyd   tasodiyd        NduAt   payment;paying
 ;; tasodiyd_2
@@ -1663,10 +1600,8 @@ tsdyd   tasodiyd        NduAt   aiming;shooting
 tsdyd   tasodiyd        Nap     shot
 ;; {inosidAd_1
 <nsdAd  {inosidAd       NduAt   obstruction
-AnsdAd  {inosidAd       NduAt   obstruction
 ;; {inosidAd_2
 <nsdAd  {inosidAd       NduAt   embolism
-AnsdAd  {inosidAd       NduAt   embolism
 ;; sAd~_1
 sAd     sAd~    N-ap    obstructive     <pos>sAd~/ADJ</pos>
 ;; masoduwd_1
@@ -1711,7 +1646,6 @@ sds     sad~is  IV_yu   make six-fold;multiply by six;make hexagonal
 sds     sudos   Ndu     one sixth;sextant
 ;; >asodAs_1
 >sdAs   >asodAs N       sixths
-AsdAs   >asodAs N       sixths
 ;; sudAsiy~_1
 sdAsy   sudAsiy~        Nall    six-part;six-fold     <pos>sudAsiy~/ADJ</pos>
 ;; sAdis_1
@@ -1728,7 +1662,6 @@ msds    musad~as        N-ap    hexagonal     <pos>musad~as/ADJ</pos>
 ;; sadaf_1
 sdf     sadaf   N       darkness;twilight
 >sdAf   >asodAf N       darkness;twilight
-AsdAf   >asodAf N       darkness;twilight
 ;; sudofap_1
 sdf     sudof   Nap     darkness;twilight
 sdf     sudaf   N       darkness;twilight
@@ -1746,7 +1679,6 @@ sdl     sad~al  PV      let hang;let drop
 sdl     sad~il  IV_yu   let hang;let drop
 ;; >asodal_1
 >sdl    >asodal PV      let hang;let drop
-Asdl    >asodal PV      let hang;let drop
 sdl     sodil   IV_yu   let hang;let drop
 sdl     sodal   IV_Pass_yu      be left hanging;be allowed to drop
 ;; tasad~al_1
@@ -1754,19 +1686,16 @@ tsdl    tasad~al        PV      hang down;be lowered
 tsdl    tasad~al        IV      hang down;be lowered
 ;; {inosadal_1
 <nsdl   {inosadal       PV      descend
-Ansdl   {inosadal       PV      descend
 nsdl    nosadil IV      descend
 ;; sidol_1
 sdl     sidol   Ndu     veil;curtain
 sdwl    suduwl  N       veils;curtains
 sdwl    suduwl  N       shadow
 >sdAl   >asodAl N       veils;curtains
-AsdAl   >asodAl N       veils;curtains
 ;
 ;--- sdm
 ;; {inosadam_1
 <nsdm   {inosadam       PV      dry up
-Ansdm   {inosadam       PV      dry up
 nsdm    nosadim IV      dry up
 ;; sadam_1
 sdm     sadam   N       sorrow;affliction
@@ -1799,13 +1728,9 @@ sdY     sad~aY  IV_0_Pass_yu    be conferred
 sdy     sad~ay  IV_Ann_Pass_yu  be conferred
 ;; >asodaY_1
 >sdY    >asodaY PV_0    confer;render
-AsdY    >asodaY PV_0    confer;render
 >sdA    >asodA  PV_h    confer;render
-AsdA    >asodA  PV_h    confer;render
 >sdy    >asoday PV_Atn  confer;render
-Asdy    >asoday PV_Atn  confer;render
 >sd     >asod   PV_ttAw confer;render
-Asd     >asod   PV_ttAw confer;render
 sdy     sodiy   IV_0hAnn_yu     confer;render
 sd      sod     IV_0hwnyn_yu    confer;render
 sdY     sodaY   IV_0_Pass_yu    be conferred;be rendered
@@ -1814,7 +1739,6 @@ sdy     soday   IV_Ann_Pass_yu  be conferred;be rendered
 sdY     sadaY   N0      prevailing trait
 sdA     sadA    Nhy     prevailing trait
 >sdy    >asodiy Nap     prevailing traits
-Asdy    >asodiy Nap     prevailing traits
 ;; sadAp_1
 sdA     sadA    Nap     warp;thread
 ;; sudaY_1
@@ -1855,9 +1779,7 @@ sAr     sAr~    IV_V_yu confide a secret
 sArr    sArir   IV_C_yu confide a secret
 ;; >asar~_1
 >sr     >asar~  PV_V    confide
-Asr     >asar~  PV_V    confide
 >srr    >asorar PV_C    confide
-Asrr    >asorar PV_C    confide
 sr      sir~    IV_V_yu confide
 srr     sorir   IV_C_yu confide
 ;; tasar~ar_1
@@ -1870,15 +1792,12 @@ tsAr    tasAr~  IV_V    exchange confidences
 tsArr   tasArir IV_C    exchange confidences
 ;; {isotasar~_1
 <stsr   {isotasar~      PV_V    attempt to hide;take as concubine
-Astsr   {isotasar~      PV_V    attempt to hide;take as concubine
 <stsrr  {isotasorar     PV_C    attempt to hide;take as concubine
-Astsrr  {isotasorar     PV_C    attempt to hide;take as concubine
 stsr    sotasir~        IV_V    attempt to hide;take as concubine
 stsrr   sotasorir       IV_C    attempt to hide;take as concubine
 ;; sir~_1
 sr      sir~    N       secret
 >srAr   >asorAr N       secrets
-AsrAr   >asorAr N       secrets
 ;; sir~AF_1
 sr      sir~    NF      secretly;privately     <pos>sir~/ADV</pos>
 ;; sir~iy~_1
@@ -1888,7 +1807,6 @@ sry     sir~iy~ Nap     secrecy     <pos>sir~iy~/NOUN</pos>
 ;; sur~_1
 sr      sur~    N       umbilical cord
 >sr     >asir~  Nap     umbilical cords
-Asr     >asir~  Nap     umbilical cords
 ;; sur~ap_1
 sr      sur~    NapAt   navel;center
 srr     surar   N       navels;centers
@@ -1898,7 +1816,6 @@ sry     sur~iy~ N-ap    umbilical     <pos>sur~iy~/ADJ</pos>
 srAr    sarAr   N       last night
 ;; >asAriyr_1
 >sAryr  >asAriyr        Ndip    features
-AsAryr  >asAriyr        Ndip    features
 ;; suruwr_1
 srwr    suruwr  N0      Surour
 ;; suruwr_2
@@ -1936,7 +1853,6 @@ sry     sur~iy~ Nap     concubine     <pos>sur~iy~/NOUN</pos>
 srAry   sarAriy~        N       concubines
 ;; {isotisorAr_1
 <stsrAr {isotisorAr     N/At    concubinage
-AstsrAr {isotisorAr     N/At    concubinage
 ;; {isotisorAriy~_1
 <stsrAry        {isotisorAriy~  Nall    concubinage     <pos>{isotisorAriy~/ADJ</pos>
 AstsrAry        {isotisorAriy~  Nall    concubinage
@@ -1967,20 +1883,16 @@ tsrb    tasar~ab        PV      leak;seep through;infiltrate
 tsrb    tasar~ab        IV      leak;seep through;infiltrate
 ;; {inosarab_1
 <nsrb   {inosarab       PV      hide
-Ansrb   {inosarab       PV      hide
 nsrb    nosarib IV      hide
 ;; sirob_1
 srb     sirob   Ndu     squadron
 >srAb   >asorAb N       squadrons
-AsrAb   >asorAb N       squadrons
 ;; sirob_2
 srb     sirob   Ndu     herd;swarm
 >srAb   >asorAb N       herds;swarms
-AsrAb   >asorAb N       herds;swarms
 ;; sarab_1
 srb     sarab   Ndu     burrow;tunnel
 >srAb   >asorAb N       burrows;tunnels
-AsrAb   >asorAb N       burrows;tunnels
 ;; surobap_1
 srb     surob   Napdu   herd;swarm
 srb     surab   N       herds;swarms
@@ -2022,7 +1934,6 @@ srj     sar~aj  PV      braid;saddle
 srj     sar~ij  IV_yu   braid;saddle
 ;; >asoraj_1
 >srj    >asoraj PV      braid;saddle
-Asrj    >asoraj PV      braid;saddle
 srj     sorij   IV_yu   braid;saddle
 srj     soraj   IV_Pass_yu      be braided;be saddled
 ;; saroj_1
@@ -2047,7 +1958,6 @@ srwjy   suruwjiy~       Nall    saddler     <pos>suruwjiy~/ADJ</pos>
 srwjy   suruwjiy~       Nap     saddlery     <pos>suruwjiy~/NOUN</pos>
 ;; >usoruwjap_1
 >srwj   >usoruwj        Napdu   lie;falsehood
-Asrwj   >usoruwj        Napdu   lie;falsehood
 ;; misorajap_1
 msrj    misoraj Nap     lamp
 msArj   masArij Ndip    lamps
@@ -2068,7 +1978,6 @@ srH     sar~aH  PV      dismiss;release;demobilize;let go
 srH     sar~iH  IV_yu   dismiss;release;demobilize;let go
 ;; {inosaraH_1
 <nsrH   {inosaraH       PV      wander off;be distracted
-AnsrH   {inosaraH       PV      wander off;be distracted
 nsrH    nosariH IV      wander off;be distracted
 ;; sarAH_1
 srAH    sarAH   N       dismissal;release
@@ -2172,7 +2081,6 @@ tsrT    tasar~aT        PV      swallow;gulp
 tsrT    tasar~aT        IV      swallow;gulp
 ;; {isotaraT_1
 <strT   {isotaraT       PV      swallow;gulp
-AstrT   {isotaraT       PV      swallow;gulp
 strT    sotariT IV      swallow;gulp
 ;; saraTAn_1
 srTAn   saraTAn N       crayfish
@@ -2197,7 +2105,6 @@ sArE    sAraE   PV      hasten;hurry
 sArE    sAriE   IV_yu   hasten;hurry
 ;; >asoraE_1
 >srE    >asoraE PV      hasten;hurry
-AsrE    >asoraE PV      hasten;hurry
 srE     soriE   IV_yu   hasten;hurry
 srE     soraE   IV_Pass_yu      be hastened;be hurried
 ;; tasar~aE_1
@@ -2209,7 +2116,6 @@ tsArE   tasAraE IV      hasten;hurry
 ;; suroE_1
 srE     suroE   Ndu     rein
 >srAE   >asorAE N       reins
-AsrAE   >asorAE N       reins
 ;; suroEap_1
 srE     suroE   Nap     speed;velocity;promptness
 srE     suroE   NAt     speeds
@@ -2223,7 +2129,6 @@ srAE    sirAE   N       quick;prompt
 sryE    sariyE  NF      quickly;promptly     <pos>sariyE/ADV</pos>
 ;; >asoraE_2
 >srE    >asoraE Nel     faster/fastest
-AsrE    >asoraE Nel     faster/fastest
 ;; sirAE_1
 srAE    sirAE   NF      quickly     <pos>sirAE/ADV</pos>
 ;; tasoriyE_1
@@ -2232,7 +2137,6 @@ tsryE   tasoriyE        NduAt   acceleration
 msArE   musAraE Nap     hurry;haste
 ;; <isorAE_1
 <srAE   <isorAE NduAt   acceleration
-AsrAE   <isorAE NduAt   acceleration
 ;; tasar~uE_1
 tsrE    tasar~uE        NduAt   hurry;haste
 ;; tasAruE_1
@@ -2254,13 +2158,11 @@ srEskr  saroEasokar     N       general
 ;--- srf
 ;; >asoraf_1
 >srf    >asoraf PV_intr be excessive;overdo
-Asrf    >asoraf PV_intr be excessive;overdo
 srf     sorif   IV_intr_yu      be excessive;overdo
 srf     soraf   IV_Pass_yu      be excessive;be overdone
 ;; saraf_1
 srf     saraf   N       excess;extravagance
 <srAf   <isorAf NduAt   excess;extravagance
-AsrAf   <isorAf NduAt   excess;extravagance
 ;; musorif_1
 msrf    musorif Nall    excessive;overly     <pos>musorif/ADJ</pos>
 ;
@@ -2282,11 +2184,9 @@ sArq    sAraq   PV      steal
 sArq    sAriq   IV_yu   steal
 ;; {inosaraq_1
 <nsrq   {inosaraq       PV_intr be stolen;be robbed
-Ansrq   {inosaraq       PV_intr be stolen;be robbed
 nsrq    nosariq IV_intr be stolen;be robbed
 ;; {isotaraq_1
 <strq   {isotaraq       PV      steal;monitor;eavesdrop
-Astrq   {isotaraq       PV      steal;monitor;eavesdrop
 strq    sotariq IV      steal;monitor;eavesdrop
 ;; sariqap_1
 srq     sariq   NapAt   stealing;theft;heist
@@ -2329,7 +2229,6 @@ srkys   sarokiys        N0      Sarkis
 ;; surom_1
 srm     surom   N       anus
 >srAm   >asorAm N       anuses
-AsrAm   >asorAm N       anuses
 ;; suromAn_1
 srmAn   suromAn N       dragonfly
 ;
@@ -2360,13 +2259,9 @@ srY     sar~aY  IV_0_Pass_yu    be rid of worries;be distracted
 sry     sar~ay  IV_Ann_Pass_yu  be rid of worries;be distracted
 ;; {inosaraY_1
 <nsrY   {inosaraY       PV_0    be rid of worries;be distracted
-AnsrY   {inosaraY       PV_0    be rid of worries;be distracted
 <nsrA   {inosarA        PV_h    be rid of worries;be distracted
-AnsrA   {inosarA        PV_h    be rid of worries;be distracted
 <nsry   {inosaray       PV_Atn  be rid of worries;be distracted
-Ansry   {inosaray       PV_Atn  be rid of worries;be distracted
 <nsr    {inosar PV_ttAw_intr    be rid of worries;be distracted
-Ansr    {inosar PV_ttAw_intr    be rid of worries;be distracted
 nsry    nosariy IV_0hAnn        be rid of worries;be distracted
 nsr     nosar   IV_0hwnyn       be rid of worries;be distracted
 nsrY    nosaraY IV_0_Pass_yu    be rid of worries;be distracted
@@ -2378,11 +2273,8 @@ srw     saraw   NAt     evergreen cypresses
 ;; sariy~_1
 sry     sariy~  N/ap    noble;high-ranking     <pos>sariy~/ADJ</pos>
 >sryA'  >asoriyA'       N0_Nh   noble;high-ranking
-AsryA'  >asoriyA'       N0_Nh   noble;high-ranking
 >sryA&  >asoriyA&       Nh      noble;high-ranking
-AsryA&  >asoriyA&       Nh      noble;high-ranking
 >sryA}  >asoriyA}       Nhy     noble;high-ranking
-AsryA}  >asoriyA}       Nhy     noble;high-ranking
 srwA'   surawA' N0_Nh   noble;high-ranking
 srwA&   surawA& Nh      noble;high-ranking
 srwA}   surawA} Nhy     noble;high-ranking
@@ -2410,13 +2302,9 @@ sr      sor     IV_0hwnyn       flow;circulate;spread
 srY     soraY   IV_0    flow;circulate;spread
 ;; >asoraY_1
 >srY    >asoraY PV_0    travel by night;make travel
-AsrY    >asoraY PV_0    travel by night;make travel
 >srA    >asorA  PV_h    travel by night;make travel
-AsrA    >asorA  PV_h    travel by night;make travel
 >sry    >asoray PV_Atn  travel by night;make travel
-Asry    >asoray PV_Atn  travel by night;make travel
 >sr     >asor   PV_ttAw travel by night;make travel
-Asr     >asor   PV_ttAw travel by night;make travel
 sry     soriy   IV_0hAnn_yu     travel by night;make travel
 sr      sor     IV_0hwnyn_yu    travel by night;make travel
 srY     soraY   IV_0_Pass_yu    be made to travel
@@ -2440,7 +2328,6 @@ srAy    sarAy   NapAt   palace;asylum
 ;; sariy~_2
 sry     sariy~  N       brook
 >sry    >asoriy Nap     brooks
-Asry    >asoriy Nap     brooks
 sryAn   suroyAn N       brooks
 ;; sariy~ap_1
 sry     sariy~  Nap     detachment;squadron;company     <pos>sariy~/NOUN</pos>
@@ -2449,17 +2336,11 @@ srAyA   sarAyA  N0_Nhy  detachments;squadrons;companies
 sryAn   sarayAn N       spread;diffusion;effectiveness
 ;; <isorA'_1
 <srA'   <isorA' N0_Nh   Isra' (journey to heaven)
-AsrA'   <isorA' N0_Nh   Isra' (journey to heaven)
 <srA&   <isorA& Nh      Isra' (journey to heaven)
-AsrA&   <isorA& Nh      Isra' (journey to heaven)
 <srA}   <isorA} Nhy     Isra' (journey to heaven)
-AsrA}   <isorA} Nhy     Isra' (journey to heaven)
 <srA'   <isorA' NAn_Nayn        Isra' (journey to heaven)
-AsrA'   <isorA' NAn_Nayn        Isra' (journey to heaven)
 <srA}   <isorA} Nayn    Isra' (journey to heaven)
-AsrA}   <isorA} Nayn    Isra' (journey to heaven)
 <srA'   <isorA' NAt     Isra' (journey to heaven)
-AsrA'   <isorA' NAt     Isra' (journey to heaven)
 ;; sAriy_1
 sAry    sAriy   N0F     effective;valid     <pos>sAriy/ADJ</pos>
 sAr     sAr     NK      effective;valid
@@ -2546,22 +2427,17 @@ tsTH    tasaT~aH        PV_intr be spread;be leveled
 tsTH    tasaT~aH        IV_intr be spread;be leveled
 ;; {inosaTaH_1
 <nsTH   {inosaTaH       PV_intr be spread out;be supine
-AnsTH   {inosaTaH       PV_intr be spread out;be supine
 nsTH    nosaTiH IV_intr be spread out;be supine
 ;; saToH_1
 sTH     saToH   N       surface
 sTwH    suTuwH  N       surfaces
 >sTH    >asoTiH Nap     surfaces
-AsTH    >asoTiH Nap     surfaces
 >sTH    >asoTuH N       surfaces
-AsTH    >asoTuH N       surfaces
 ;; saToH_2
 sTH     saToH   N       roof;terrace
 sTwH    suTuwH  N       roofs;terraces
 >sTH    >asoTiH Nap     roofs;terraces
-AsTH    >asoTiH Nap     roofs;terraces
 >sTH    >asoTuH N       roofs;terraces
-AsTH    >asoTuH N       roofs;terraces
 ;; saToHiy~_1
 sTHy    saToHiy~        Nall    superficial;outward;surface     <pos>saToHiy~/ADJ</pos>
 ;; saToHiy~ap_1
@@ -2586,9 +2462,7 @@ sTr     saT~ir  IV_yu   outline;draw up;jot down
 sTr     saTor   N       line;row
 sTwr    suTuwr  N       lines;rows
 >sTr    >asoTur N       lines;rows
-AsTr    >asoTur N       lines;rows
 >sTAr   >asoTAr N       lines;rows
-AsTAr   >asoTAr N       lines;rows
 ;; sATuwr_1
 sATwr   sATuwr  Ndu     cleaver
 swATyr  sawATiyr        Ndip    cleavers
@@ -2615,7 +2489,6 @@ sTE     saToE   N       brightness;brilliance
 sTwE    suTuwE  N       brightness;brilliance
 ;; >asoTaE_1
 >sTE    >asoTaE Nel     brighter/brightest;more/most brilliant
-AsTE    >asoTaE Nel     brighter/brightest;more/most brilliant
 ;; sATiE_1
 sATE    sATiE   N/ap    bright;glistening     <pos>sATiE/ADJ</pos>
 sATE    sATiE   N/ap    obvious     <pos>sATiE/ADJ</pos>
@@ -2629,12 +2502,10 @@ sTl     saTal   PV      intoxicate
 sTl     soTul   IV      intoxicate
 ;; {inosaTal_1
 <nsTl   {inosaTal       PV_intr become intoxicated
-AnsTl   {inosaTal       PV_intr become intoxicated
 nsTl    nosaTil IV_intr become intoxicated
 ;; saTol_1
 sTl     saTol   N       bucket
 >sTAl   >asoTAl N       buckets
-AsTAl   >asoTAl N       buckets
 sTwl    suTuwl  N       buckets
 ;; masoTuwl_1
 msTwl   masoTuwl        N/ap    intoxicated;drugged     <pos>masoTuwl/ADJ</pos>
@@ -2673,12 +2544,10 @@ sAEd    sAEid   IV_yu   help;assist;support;contribute
 ; sAEd    sAEid   CV      help;assist
 ;; >asoEad_1
 >sEd    >asoEad PV      make happy
-AsEd    >asoEad PV      make happy
 sEd     soEid   IV_yu   make happy
 sEd     soEad   IV_Pass_yu      be made happy
 ;; {isotasoEad_1
 <stsEd  {isotasoEad     PV      make happy
-AstsEd  {isotasoEad     PV      make happy
 stsEd   sotasoEid       IV      make happy
 ;; saEod_1
 sEd     saEod   N0      Saad
@@ -2723,7 +2592,6 @@ sEwdy   saEuwdiy~       Nap     Saudi Arabia     <pos>saEuwdiy~/NOUN</pos>
 sEwd    saEowad NapAt   Saudification
 ;; >asoEad_2
 >sEd    >asoEad Nel     happier/happiest;luckier/luckiest
-AsEd    >asoEad Nel     happier/happiest;luckier/luckiest
 ;; musAEadap_1
 msAEd   musAEad NapAt   assistance;support
 ;; sAEid_1
@@ -2769,7 +2637,6 @@ sAEr    sAEar   PV      haggle;bargain
 sAEr    sAEir   IV_yu   haggle;bargain
 ;; >asoEar_1
 >sEr    >asoEar PV      kindle
-AsEr    >asoEar PV      kindle
 sEr     soEir   IV_yu   kindle
 sEr     soEar   IV_Pass_yu      be kindled
 ;; tasaE~ar_1
@@ -2777,16 +2644,13 @@ tsEr    tasaE~ar        PV      burn;flare up
 tsEr    tasaE~ar        IV      burn;flare up
 ;; {inosaEar_1
 <nsEr   {inosaEar       PV_intr become furious
-AnsEr   {inosaEar       PV_intr become furious
 nsEr    nosaEir IV_intr become furious
 ;; {isotaEar_1
 <stEr   {isotaEar       PV      burn;flare up
-AstEr   {isotaEar       PV      burn;flare up
 stEr    sotaEir IV      burn;flare up
 ;; siEor_1
 sEr     siEor   Ndu     price;rate
 >sEAr   >asoEAr N       prices;rates
-AsEAr   >asoEAr N       prices;rates
 ;; siEoriy~_1
 sEry    siEoriy~        N-ap    pricing;price     <pos>siEoriy~/ADJ</pos>
 ;; siEoriy~AF_1
@@ -2820,7 +2684,6 @@ msEwr   masoEuwr        Nall    crazy     <pos>masoEuwr/ADJ</pos>
 ;--- sET
 ;; {isotaEaT_1
 <stET   {isotaEaT       PV      take snuff
-AstET   {isotaEaT       PV      take snuff
 stET    sotaEiT IV      take snuff
 ;; saEuwT_1
 sEwT    saEuwT  N       snuff
@@ -2833,14 +2696,12 @@ sAEf    sAEaf   PV      help;support
 sAEf    sAEif   IV_yu   help;support
 ;; >asoEaf_1
 >sEf    >asoEaf PV      assist;support
-AsEf    >asoEaf PV      assist;support
 sEf     soEif   IV_yu   assist;support
 sEf     soEaf   IV_Pass_yu      be assisted;be supported
 ;; saEaf_1
 sEf     saEaf   N/ap    palm leaf
 ;; <isoEAf_1
 <sEAf   <isoEAf NduAt   assistance;medical service;first aid
-AsEAf   <isoEAf NduAt   assistance;medical service;first aid
 ;
 ;--- sEl
 ;; saEal-u_1
@@ -2913,16 +2774,12 @@ sAgb    sAgib   Nall    hungry;starving     <pos>sAgib/ADJ</pos>
 ;--- sf
 ;; >asaf~_1
 >sf     >asaf~  PV_V    descend;decline
-Asf     >asaf~  PV_V    descend;decline
 >sff    >asofaf PV_C    descend;decline
-Asff    >asofaf PV_C    descend;decline
 sf      sif~    IV_V_yu descend;decline
 sff     sofif   IV_C_yu descend;decline
 ;; {isotaf~_1
 <stf    {isotaf~        PV_V    eat;swallow
-Astf    {isotaf~        PV_V    eat;swallow
 <stff   {isotafaf       PV_C    eat;swallow
-Astff   {isotafaf       PV_C    eat;swallow
 stf     sotaf~  IV_V    eat;swallow
 stff    sotafif IV_C    eat;swallow
 ;; safuwf_1
@@ -2933,7 +2790,6 @@ sfA}f   safA}if Ndip    palm groves
 sfA}f   safA}if Ndip    trivialities;vulgarities
 ;; <isofAf_1
 <sfAf   <isofAf NduAt   triviality;decline
-AsfAf   <isofAf NduAt   triviality;decline
 ;
 ;--- sftj
 ;; sufotajap_1
@@ -2989,21 +2845,17 @@ sAfr    sAfar   PV      travel
 sAfr    sAfir   IV_yu   travel
 ;; >asofar_1
 >sfr    >asofar PV      cause;produce;result in
-Asfr    >asofar PV      cause;produce;result in
 sfr     sofir   IV_yu   cause;produce;result in
 sfr     sofar   IV_Pass_yu      be caused;be produced
 ;; {inosafar_1
 <nsfr   {inosafar       PV      rise;disappear
-Ansfr   {inosafar       PV      rise;disappear
 nsfr    nosafir IV      rise;disappear
 ;; sifor_1
 sfr     sifor   Ndu     book
 >sfAr   >asofAr N       books
-AsfAr   >asofAr N       books
 ;; safar_1
 sfr     safar   N       travel;trip
 >sfAr   >asofAr N       journeys
-AsfAr   >asofAr N       journeys
 ;; saforap_1
 sfr     safor   Napdu   journey;travel
 sfr     safar   NAt     journeys;travels
@@ -3061,7 +2913,6 @@ sfsAf   safosAf N/ap    silly;inferior     <pos>safosAf/ADJ</pos>
 ;; safaT_1
 sfT     safaT   Ndu     basket;fish scales
 >sfAT   >asofAT N       baskets;fish scales
-AsfAT   >asofAT N       baskets;fish scales
 ;
 ;--- sfE
 ;; safaE-a_1
@@ -3074,7 +2925,6 @@ sfE     sufoE   Napdu   black stain
 sfE     sufaE   N       black stains
 ;; >asofaE_1
 >sfE    >asofaE Nel     dark brown
-AsfE    >asofaE Nel     dark brown
 sfEA'   safoEA' N0_Nh   dark brown
 sfEA&   safoEA& Nh      dark brown
 sfEA}   safoEA} Nhy     dark brown
@@ -3094,7 +2944,6 @@ tsAfk   tasAfak PV      murder
 tsAfk   tasAfak IV      murder
 ;; {inosafak_1
 <nsfk   {inosafak       PV_intr be shed
-Ansfk   {inosafak       PV_intr be shed
 nsfk    nosafik IV_intr be shed
 ;; safok_1
 sfk     safok   N       shedding
@@ -3124,13 +2973,11 @@ sfl     sifol   Nap     lowly
 sfAl    safAl   Nap     lowness;baseness
 ;; >asofal_1
 >sfl    >asofal Nel     lower/lowest;underneath
-Asfl    >asofal Nel     lower/lowest;underneath
 sflY    sufolaY N0      lower/lowest;underneath
 sflA    sufolA  Nhy     lower/lowest;underneath
 sfly    sufolay NAn_Nayn        lower/lowest;underneath
 sfly    sufolay NAt     lower/lowest;underneath
 >sAfl   >asAfil Ndip    lower/lowest;underneath
-AsAfl   >asAfil Ndip    lower/lowest;underneath
 ;; sAfil_1
 sAfl    sAfil   Nall    lowly;base     <pos>sAfil/ADJ</pos>
 sfl     safal   Nap     lowly;base
@@ -3203,13 +3050,9 @@ sf      sof     IV_0hwnyn       scatter
 sfY     sofaY   IV_0_Pass_yu    be scattered
 ;; >asofaY_1
 >sfY    >asofaY PV_0    scatter
-AsfY    >asofaY PV_0    scatter
 >sfA    >asofA  PV_h    scatter
-AsfA    >asofA  PV_h    scatter
 >sfy    >asofay PV_Atn  scatter
-Asfy    >asofay PV_Atn  scatter
 >sf     >asof   PV_ttAw scatter
-Asf     >asof   PV_ttAw scatter
 sfy     sofiy   IV_0hAnn_yu     scatter
 sf      sof     IV_0hwnyn_yu    scatter
 sfY     sofaY   IV_0_Pass_yu    be scattered
@@ -3261,7 +3104,6 @@ sqT     saqaT   PV      fall;drop
 sqT     soquT   IV      fall;drop
 ;; >asoqaT_1
 >sqT    >asoqaT PV      shoot down;make fall;abort
-AsqT    >asoqaT PV      shoot down;make fall;abort
 sqT     soqiT   IV_yu   shoot down;make fall;abort
 sqT     soqaT   IV_Pass_yu      be shot down;be aborted
 ;; tasaq~aT_1
@@ -3277,7 +3119,6 @@ sqT     suqoT   N       sparks
 ;; saqaT_1
 sqT     saqaT   N       refuse
 >sqAT   >asoqAT N       refuse
-AsqAT   >asoqAT N       refuse
 ;; saqaTiy~_1
 sqTy    saqaTiy~        Nall    junk dealer     <pos>saqaTiy~/ADJ</pos>
 ;; saqoTap_1
@@ -3298,10 +3139,8 @@ msqT    masoqaT Ndu     waterfall
 msAqT   masAqiT Ndip    waterfalls
 ;; <isoqAT_1
 <sqAT   <isoqAT NduAt   overthrow;shooting down
-AsqAT   <isoqAT NduAt   overthrow;shooting down
 ;; <isoqATiy~_1
 <sqATy  <isoqATiy~      N-ap    projection     <pos><isoqATiy~/ADJ</pos>
-AsqATy  <isoqATiy~      N-ap    projection     <pos><isoqATiy~/ADJ</pos>
 ;; tasAquT_1
 tsAqT   tasAquT NduAt   falling;precipitation
 ;; sAqiT_1
@@ -3332,7 +3171,6 @@ sqf     saqof   N       roof
 sqwf    suquwf  N/At    roofs
 sqf     suquf   N       roofs
 >sqf    >asoquf N       roofs
-Asqf    >asoquf N       roofs
 ;; saqiyfap_1
 sqyf    saqiyf  Napdu   roofed passage;arcade
 sqA}f   saqA}if Ndip    roofed passages;arcades
@@ -3366,13 +3204,11 @@ sqm     saq~am  PV      make sick
 sqm     saq~im  IV_yu   make sick
 ;; >asoqam_1
 >sqm    >asoqam PV      make sick
-Asqm    >asoqam PV      make sick
 sqm     soqim   IV_yu   make sick
 sqm     soqam   IV_Pass_yu      be made sick
 ;; suqom_1
 sqm     suqom   N       illness;leanness
 >sqAm   >asoqAm N       illnesses
-AsqAm   >asoqAm N       illnesses
 ;; saqAm_1
 sqAm    saqAm   N       illness;leanness
 ;; saqiym_1
@@ -3405,38 +3241,26 @@ sAqY    sAqaY   IV_0_Pass_yu    be given to drink
 sAqy    sAqay   IV_Ann_Pass_yu  be given to drink
 ;; >asoqaY_1
 >sqY    >asoqaY PV_0    give to drink;irrigate
-AsqY    >asoqaY PV_0    give to drink;irrigate
 >sqA    >asoqA  PV_h    give to drink;irrigate
-AsqA    >asoqA  PV_h    give to drink;irrigate
 >sqy    >asoqay PV_Atn  give to drink;irrigate
-Asqy    >asoqay PV_Atn  give to drink;irrigate
 >sq     >asoq   PV_ttAw give to drink;irrigate
-Asq     >asoq   PV_ttAw give to drink;irrigate
 sqy     soqiy   IV_0hAnn_yu     give to drink;irrigate
 sq      soq     IV_0hwnyn_yu    give to drink;irrigate
 sqY     soqaY   IV_0_Pass_yu    be given to drink;be irrigated
 sqy     soqay   IV_Ann_Pass_yu  be given to drink;be irrigated
 ;; {isotaqaY_1
 <stqY   {isotaqaY       PV_0    draw water;draw information
-AstqY   {isotaqaY       PV_0    draw water;draw information
 <stqA   {isotaqA        PV_h    draw water;draw information
-AstqA   {isotaqA        PV_h    draw water;draw information
 <stqy   {isotaqay       PV_Atn  draw water;draw information
-Astqy   {isotaqay       PV_Atn  draw water;draw information
 <stq    {isotaq PV_ttAw draw water;draw information
-Astq    {isotaq PV_ttAw draw water;draw information
 stqy    sotaqiy IV_0hAnn        draw water;draw information
 stq     sotaq   IV_0hwnyn       draw water;draw information
 stqY    sotaqaY IV_0    draw water;draw information
 ;; {isotasoqaY_1
 <stsqY  {isotasoqaY     PV_0    ask for a drink;pray for rain
-AstsqY  {isotasoqaY     PV_0    ask for a drink;pray for rain
 <stsqA  {isotasoqA      PV_h    ask for a drink;pray for rain
-AstsqA  {isotasoqA      PV_h    ask for a drink;pray for rain
 <stsqy  {isotasoqay     PV_Atn  ask for a drink;pray for rain
-Astsqy  {isotasoqay     PV_Atn  ask for a drink;pray for rain
 <stsq   {isotasoq       PV_ttAw ask for a drink;pray for rain
-Astsq   {isotasoq       PV_ttAw ask for a drink;pray for rain
 stsqy   sotasoqiy       IV_0hAnn        ask for a drink;pray for rain
 stsq    sotasoq IV_0hwnyn       ask for a drink;pray for rain
 stsqY   sotasoqaY       IV_0    ask for a drink;pray for rain
@@ -3447,11 +3271,8 @@ sqA'    siqA'   N0_Nh   waterskin
 sqA&    siqA&   Nh      waterskin
 sqA}    siqA}   Nhy     waterskin
 >sqy    >asoqiy NapAt   waterskins
-Asqy    >asoqiy NapAt   waterskins
 >sAqy   >asAqiy N0_Nh   waterskins
-AsAqy   >asAqiy N0_Nh   waterskins
 >sAq    >asAq   NK      waterskins
-AsAq    >asAq   NK      waterskins
 ;; saq~A'_1
 sqA'    saq~A'  N0_Nh   water carrier
 sqA&    saq~A&  Nh_Nuwn water carrier
@@ -3477,23 +3298,15 @@ msAqA   musAqA  Napdu   sharecropping contract
 msAqy   musAqay NAt     sharecropping contract
 ;; {isotisoqA'_1
 <stsqA' {isotisoqA'     N0_Nh   (prayer) for rain
-AstsqA' {isotisoqA'     N0_Nh   (prayer) for rain
 <stsqA& {isotisoqA&     Nh      (prayer) for rain
-AstsqA& {isotisoqA&     Nh      (prayer) for rain
 <stsqA} {isotisoqA}     Nhy     (prayer) for rain
-AstsqA} {isotisoqA}     Nhy     (prayer) for rain
 ;; {isotisoqA'_2
 <stsqA' {isotisoqA'     N0_Nh   irrigation;dropsy
-AstsqA' {isotisoqA'     N0_Nh   irrigation;dropsy
 <stsqA& {isotisoqA&     Nh      irrigation;dropsy
-AstsqA& {isotisoqA&     Nh      irrigation;dropsy
 <stsqA} {isotisoqA}     Nhy     irrigation;dropsy
-AstsqA} {isotisoqA}     Nhy     irrigation;dropsy
 <stsqA' {isotisoqA'     NAt     irrigation;dropsy
-AstsqA' {isotisoqA'     NAt     irrigation;dropsy
 ;; {isotisoqA}iy~_1
 <stsqA}y        {isotisoqA}iy~  N-ap    hydropic     <pos>{isotisoqA}iy~/ADJ</pos>
-AstsqA}y        {isotisoqA}iy~  N-ap    hydropic     <pos>{isotisoqA}iy~/ADJ</pos>
 ;; saqawiy~_1
 sqwy    saqawiy~        N-ap    irrigational     <pos>saqawiy~/ADJ</pos>
 ;; sAqiy_1
@@ -3527,9 +3340,7 @@ sk      sak~    IV_V_intr       become deaf
 skk     sokak   IV_C_intr       become deaf
 ;; {isotak~_1
 <stk    {isotak~        PV_V_intr       become deaf
-Astk    {isotak~        PV_V_intr       become deaf
 <stkk   {isotakak       PV_C_intr       become deaf
-Astkk   {isotakak       PV_C_intr       become deaf
 stk     sotak~  IV_V_intr       become deaf
 stkk    sotakik IV_C_intr       become deaf
 ;; sak~_1
@@ -3559,7 +3370,6 @@ skb     sakab   PV      pour;shed;cast
 skb     sokub   IV      pour;shed;cast
 ;; {inosakab_1
 <nskb   {inosakab       PV      pour;be shed
-Anskb   {inosakab       PV      pour;be shed
 nskb    nosakib IV      pour;be shed
 ;; sakab_1
 skb     sakab   N       anemone
@@ -3574,7 +3384,6 @@ mskb    masokab Ndu     crucible;smeltery
 msAkb   masAkib Ndip    crucibles;smelteries
 ;; {inosikAb_1
 <nskAb  {inosikAb       NduAt   effusion
-AnskAb  {inosikAb       NduAt   effusion
 ;; sAkib_1
 sAkb    sAkib   N       pouring out     <pos>sAkib/ADJ</pos>
 ;; masokuwbiy~ap_1
@@ -3598,7 +3407,6 @@ skt     sak~at  PV-t    silence;pacify
 skt     sak~it  IV_yu   silence;pacify
 ;; >asokat_1
 >skt    >asokat PV-t    silence;mute;muzzle
-Askt    >asokat PV-t    silence;mute;muzzle
 skt     sokit   IV_yu   silence;mute;muzzle
 skt     sokat   IV_Pass_yu      be silenced;be muted;be muzzled
 ;; sakot_1
@@ -3615,7 +3423,6 @@ skwty   sukuwtiy~       Nall    taciturn     <pos>sukuwtiy~/ADJ</pos>
 skwt    sakuwt  N/ap    taciturn     <pos>sakuwt/ADJ</pos>
 ;; <isokAt_1
 <skAt   <isokAt N       silencing;muting;muzzling
-AskAt   <isokAt N       silencing;muting;muzzling
 ;; sAkit_1
 sAkt    sAkit   Nall    silent;calm     <pos>sAkit/ADJ</pos>
 ;
@@ -3642,7 +3449,6 @@ skr     sak~ar  PV      close;put sugar on
 skr     sak~ir  IV_yu   close;put sugar on
 ;; >asokar_1
 >skr    >asokar PV      inebriate
-Askr    >asokar PV      inebriate
 skr     sokir   IV_yu   inebriate
 skr     sokar   IV_Pass_yu      be inebriated
 ;; tasAkar_1
@@ -3738,19 +3544,15 @@ skAf    sak~Af  N0      Sakkaf
 skAf    sikAf   Nap     shoe-making
 ;; <isokAf_1
 <skAf   <isokAf NduAt   shoemaker;cobbler
-AskAf   <isokAf NduAt   shoemaker;cobbler
 ;; <isokAfiy~_1
 <skAfy  <isokAfiy~      N-ap    shoemaker;cobbler     <pos><isokAfiy~/ADJ</pos>
-AskAfy  <isokAfiy~      N-ap    shoemaker;cobbler     <pos><isokAfiy~/ADJ</pos>
 >sAkf   >asAkif Nap     shoemakers;cobblers
-AsAkf   >asAkif Nap     shoemakers;cobblers
 ;; <isokAfiy~_2
 <skAfy  <isokAfiy~      N0      Iskafi
 ;; sAkif_1
 sAkf    sAkif   N       lintel
 ;; >usokuf~ap_1
 >skf    >usokuf~        Nap     doorstep;window sill
-Askf    >usokuf~        Nap     doorstep;window sill
 ;
 ;--- skn
 ;; sakan-u_1
@@ -3764,7 +3566,6 @@ sAkn    sAkan   PV-n    live together
 sAkn    sAkin   IV-n_yu live together
 ;; >asokan_1
 >skn    >asokan PV-n    give lodging;house
-Askn    >asokan PV-n    give lodging;house
 skn     sokin   IV-n_yu give lodging;house
 skn     sokan   IV-n_Pass_yu    be given lodging;be housed
 ;; tasAkan_1
@@ -3810,7 +3611,6 @@ msAkn   masAkin Ndip    houses;residences
 tskyn   tasokiyn        NduAt   pacification
 ;; <isokAn_1
 <skAn   <isokAn NduAt   housing
-AskAn   <isokAn NduAt   housing
 ;; sAkin_1
 sAkn    sAkin   Nall    residing     <pos>sAkin/ADJ</pos>
 skAn    suk~An  N       residents;inhabitants
@@ -3888,16 +3688,12 @@ tsll    tasal~al        PV      infiltrate
 tsll    tasal~al        IV      infiltrate
 ;; {inosal~_1
 <nsl    {inosal~        PV_V    infiltrate
-Ansl    {inosal~        PV_V    infiltrate
 <nsll   {inosalal       PV_C    infiltrate
-Ansll   {inosalal       PV_C    infiltrate
 nsl     nosal~  IV_V    infiltrate
 nsll    nosalil IV_C    infiltrate
 ;; {isotal~_1
 <stl    {isotal~        PV_V    withdraw
-Astl    {isotal~        PV_V    withdraw
 <stll   {isotalal       PV_C    withdraw
-Astll   {isotalal       PV_C    withdraw
 stl     sotal~  IV_V    withdraw
 stll    sotalil IV_C    withdraw
 ;; sal~_1
@@ -3925,7 +3721,6 @@ msAl    masAl~  Ndip    needles;obelisks
 tsll    tasal~ul        NduAt   infiltration
 ;; {inosilAl_1
 <nslAl  {inosilAl       NduAt   infiltration
-AnslAl  {inosilAl       NduAt   infiltration
 ;; masoluwl_1
 mslwl   masoluwl        Nall    tuberculous     <pos>masoluwl/ADJ</pos>
 ;; mutasal~il_1
@@ -3948,9 +3743,7 @@ slA'    silA'   N0_Nh   cooking butter
 slA&    silA&   Nh      cooking butter
 slA}    silA}   Nhy     cooking butter
 >sl}    >asoli} Nap     cooking butter
-Asl}    >asoli} Nap     cooking butter
 >sly    >asoliy Nap     cooking butter
-Asly    >asoliy Nap     cooking butter
 ;; masoliy_1
 msly    masoliy N0      cooking butter
 ;
@@ -3974,7 +3767,6 @@ tslb    tasal~ab        PV_intr be in mourning
 tslb    tasal~ab        IV_intr be in mourning
 ;; {isotalab_1
 <stlb   {isotalab       PV      deprive;deny
-Astlb   {isotalab       PV      deprive;deny
 stlb    sotalib IV      deprive;deny
 ;; salob_1
 slb     salob   N       robbing;dispossession
@@ -3988,7 +3780,6 @@ slby    salobiy~        NapAt   negativism     <pos>salobiy~/NOUN</pos>
 slby    salobiy~        NAt     negative points     <pos>salobiy~/NOUN</pos>
 ;; >asolAb_1
 >slAb   >asolAb N       spoils;loot
-AslAb   >asolAb N       spoils;loot
 ;; silAb_1
 slAb    silAb   N       mourning clothes
 slb     sulub   N       mourning clothes
@@ -3998,12 +3789,9 @@ slAb    sal~Ab  N       plunderer
 slyb    saliyb  N-ap    stolen     <pos>saliyb/ADJ</pos>
 ;; >usoluwb_1
 >slwb   >usoluwb        Ndu     style;method;manner
-Aslwb   >usoluwb        Ndu     style;method;manner
 >sAlyb  >asAliyb        Ndip    methods;modes
-AsAlyb  >asAliyb        Ndip    methods;modes
 ;; {isotilAb_1
 <stlAb  {isotilAb       NduAt   plundering
-AstlAb  {isotilAb       NduAt   plundering
 ;; sAlib_1
 sAlb    sAlib   N/ap    negative     <pos>sAlib/ADJ</pos>
 sAlb    sAlib   N/ap    negative
@@ -4022,7 +3810,6 @@ slt     solit   IV      extract;chop off
 slt     solut   IV      extract;chop off
 ;; {inosalat_1
 <nslt   {inosalat       PV-t    slip away
-Anslt   {inosalat       PV-t    slip away
 nslt    nosalit IV      slip away
 ;
 ;; salotA_1
@@ -4059,7 +3846,6 @@ slH     saloH   N       dung
 ;; silAH_1
 slAH    silAH   Ndu     weapon
 >slH    >asoliH Nap     weapons
-AslH    >asoliH Nap     weapons
 ;; silAH_2
 slAH    silAH   Ndu     (military) service branch
 ;; saliyH_1
@@ -4099,7 +3885,6 @@ tslx    tasal~ax        PV      peel
 tslx    tasal~ax        IV      peel
 ;; {inosalax_1
 <nslx   {inosalax       PV      abandon;withdraw
-Anslx   {inosalax       PV      abandon;withdraw
 nslx    nosalix IV      abandon;withdraw
 ;; salox_1
 slx     salox   N       skinning
@@ -4127,7 +3912,6 @@ sls     salis   PV_intr be compliant;be fluent
 sls     solas   IV_intr be compliant;be fluent
 ;; >asolas_1
 >sls    >asolas PV      make tractable;make fluent
-Asls    >asolas PV      make tractable;make fluent
 sls     solis   IV_yu   make tractable;make fluent
 sls     solas   IV_Pass_yu      be made tractable;be made fluent
 ;; salas_1
@@ -4138,7 +3922,6 @@ sls     salis   N-ap    tractable;flexible
 slAs    salAs   Nap     moothness;flexibility;tractability
 ;; >asolas_2
 >sls    >asolas Nel     more/most tractable;more/most flexible
-Asls    >asolas Nel     more/most tractable;more/most flexible
 ;
 ;--- slsb
 ;; salosabiyl_1
@@ -4193,7 +3976,6 @@ slAT    salAT   Nap     salad
 ;--- slTH
 ;; {isolanoTaH_1
 <slnTH  {isolanoTaH     PV_intr be wide
-AslnTH  {isolanoTaH     PV_intr be wide
 slnTH   solanoTiH       IV_intr be wide
 ;; sulATiH_1
 slATH   sulATiH N-ap    wide     <pos>sulATiH/ADJ</pos>
@@ -4228,7 +4010,6 @@ slE     saliE   PV      crack
 slE     solaE   IV      crack
 ;; {inosalaE_1
 <nslE   {inosalaE       PV      split
-AnslE   {inosalaE       PV      split
 nslE    nosaliE IV      split
 ;; saloE_1
 slE     saloE   N       crack;rift
@@ -4248,14 +4029,12 @@ slf     sal~af  PV      lend;loan
 slf     sal~if  IV_yu   lend;loan
 ;; >asolaf_1
 >slf    >asolaf PV      do previously;have already done
-Aslf    >asolaf PV      do previously;have already done
 slf     solif   IV_yu   do previously;have already done
 ;; tasal~af_1
 tslf    tasal~af        PV      borrow
 tslf    tasal~af        IV      borrow
 ;; {isotalaf_1
 <stlf   {isotalaf       PV      borrow
-Astlf   {isotalaf       PV      borrow
 stlf    sotalif IV      borrow
 ;; silof_1
 slf     silof   Ndu     brother-in-law
@@ -4264,7 +4043,6 @@ slf     silof   Napdu   sister-in-law
 ;; salaf_1
 slf     salaf   N       ancestors
 >slAf   >asolAf N       ancestors
-AslAf   >asolAf N       ancestors
 ;; salaf_2
 slf     salaf   N       advanced payment
 ;; salafAF_1
@@ -4368,18 +4146,15 @@ slk     sal~ak  PV      clear;unreel
 slk     sal~ik  IV_yu   clear;unreel
 ;; >asolak_1
 >slk    >asolak PV      insert
-Aslk    >asolak PV      insert
 slk     solik   IV_yu   insert
 slk     solak   IV_Pass_yu      be inserted
 ;; silok_1
 slk     silok   N       wire;thread
 slk     silok   Nap     wire;thread
 >slAk   >asolAk N       wires;threads
-AslAk   >asolAk N       wires;threads
 ;; silok_2
 slk     silok   N       corps;cadre
 >slAk   >asolAk N       corps;cadres
-AslAk   >asolAk N       corps;cadres
 ;; silokiy~_1
 slky    silokiy~        N-ap    wire;by wire (radio)    <pos>silokiy~/ADJ</pos>
 ;; lAsilokiy~_1
@@ -4414,7 +4189,6 @@ sAlm    sAlam   PV      make peace with
 sAlm    sAlim   IV_yu   make peace with
 ;; >asolam_1
 >slm    >asolam PV      hand over;surrender
-Aslm    >asolam PV      hand over;surrender
 slm     solim   IV_yu   hand over;surrender
 slm     solam   IV_Pass_yu      be handed over;be surrendered
 ;; tasal~am_1
@@ -4425,11 +4199,9 @@ tsAlm   tasAlam PV      make peace with
 tsAlm   tasAlam IV      make peace with
 ;; {isotalam_1
 <stlm   {isotalam       PV      receive
-Astlm   {isotalam       PV      receive
 stlm    sotalim IV      receive
 ;; {isotasolam_1
 <stslm  {isotasolam     PV      surrender;capitulate
-Astslm  {isotasolam     PV      surrender;capitulate
 stslm   sotasolim       IV      surrender;capitulate
 ;; silom_1
 slm     silom   N       peace
@@ -4485,14 +4257,12 @@ slAmA   sulAmA  Nhy     phalanx;digital bone
 slAmy   sulAmiy~        NapAt   phalanx;digital bone     <pos>sulAmiy~/NOUN</pos>
 ;; >asolam_2
 >slm    >asolam Nel     safer/safest;sounder/soundest
-Aslm    >asolam Nel     safer/safest;sounder/soundest
 ;; tasoliym_1
 tslym   tasoliym        NduAt   handing over;delivery;surrender
 ;; musAlamap_1
 msAlm   musAlam NapAt   conciliation;benign nature
 ;; <isolAm_1
 <slAm   <isolAm N       Islam
-AslAm   <isolAm N       Islam
 ;; <isolAmiy~_1
 <slAmy  <isolAmiy~      Nall    Islamic;Islamist;Muslim     <pos><isolAmiy~/NOUN</pos>
 <slAmy  <isolAmiy~      Nall    Islamic;Islamist;Muslim     <pos><isolAmiy~/ADJ</pos>
@@ -4502,10 +4272,8 @@ AslAmy  <isolAmiy~      Nall    Islamic;Islamist;Muslim     <pos><isolAmiy~/ADJ<
 tslm    tasal~um        NduAt   receipt;taking over
 ;; {isotilAm_1
 <stlAm  {isotilAm       NduAt   receipt;assumption
-AstlAm  {isotilAm       NduAt   receipt;assumption
 ;; {isotisolAm_1
 <stslAm {isotisolAm     NduAt   surrender;capitulation;resignation
-AstslAm {isotisolAm     NduAt   surrender;capitulation;resignation
 ;; sAlim_1
 sAlm    sAlim   Nall    secure;sound;intact
 ;; sAlim_2
@@ -4598,13 +4366,9 @@ slY     sal~aY  IV_0_Pass_yu    be comforted;be distracted;be cheered up
 sly     sal~ay  IV_Ann_Pass_yu  be comforted;be distracted;be cheered up
 ;; >asolaY_1
 >slY    >asolaY PV_0    comfort;distract;console;entertain
-AslY    >asolaY PV_0    comfort;distract;console;entertain
 >slA    >asolA  PV_h    comfort;distract;console;entertain
-AslA    >asolA  PV_h    comfort;distract;console;entertain
 >sly    >asolay PV_Atn  comfort;distract;console;entertain
-Asly    >asolay PV_Atn  comfort;distract;console;entertain
 >sl     >asol   PV_ttAw comfort;distract;console;entertain
-Asl     >asol   PV_ttAw comfort;distract;console;entertain
 sly     soliy   IV_0hAnn_yu     comfort;distract;console;entertain
 sl      sol     IV_0hwnyn_yu    comfort;distract;console;entertain
 slY     solaY   IV_0_Pass_yu    be comforted;be distracted;be consoled;be entertained
@@ -4726,7 +4490,6 @@ tsAmH   tasAmaH PV_intr be tolerant
 tsAmH   tasAmaH IV_intr be tolerant
 ;; {isotasomaH_1
 <stsmH  {isotasomaH     PV      apologize;ask forgiveness
-AstsmH  {isotasomaH     PV      apologize;ask forgiveness
 stsmH   sotasomiH       IV      apologize;ask forgiveness
 ;; samoH_1
 smH     samoH   N       kindness;magnanimity
@@ -4774,7 +4537,6 @@ smwd    sumuwd  N       bearing proudly
 ;; samAd_1
 smAd    samAd   N       dung;fertilizer
 >smd    >asomid Nap     dung;fertilizer
-Asmd    >asomid Nap     dung;fertilizer
 ;; tasomiyd_1
 tsmyd   tasomiyd        NduAt   fertilizing
 ;; sAmid_1
@@ -4812,15 +4574,12 @@ tsAmr   tasAmar PV      converse
 tsAmr   tasAmar IV      converse
 ;; {isomar~_1
 <smr    {isomar~        PV_V_intr       become brown
-Asmr    {isomar~        PV_V_intr       become brown
 <smrr   {isomarar       PV_C_intr       become brown
-Asmrr   {isomarar       PV_C_intr       become brown
 smr     somar~  IV_V_intr       become brown
 smrr    somarir IV_C_intr       become brown
 ;; samar_1
 smr     samar   N       evening chat
 >smAr   >asomAr N       evening chats
-AsmAr   >asomAr N       evening chats
 ;; samar_2
 smr     samar   Nprop   Samar
 ;; samarayon_1
@@ -4839,7 +4598,6 @@ smyrp   samiyrap        N0      Samira;Sameera
 smyr    samiyr  N/ap    conversation partner
 ;; >asomar_1
 >smr    >asomar Nel     brown;tawny;tanned;brown-skinned;dark-complectioned
-Asmr    >asomar Nel     brown;tawny;tanned;brown-skinned;dark-complectioned
 smrA'   samorA' N0_Nh   brown;tawny;tanned;brown-skinned;dark-complectioned
 smrA&   samorA& Nh      brown;tawny;tanned;brown-skinned;dark-complectioned
 smrA}   samorA} Nhy     brown;tawny;tanned;brown-skinned;dark-complectioned
@@ -4848,10 +4606,8 @@ smrw    samoraw NAt     brown;tawny;tanned;brown-skinned;dark-complectioned
 smry    samoray NAt     brown;tawny;tanned;brown-skinned;dark-complectioned
 ;; >asomariy~_1
 >smry   >asomariy~      N0      Asmari
-Asmry   >asomariy~      N0      Asmari
 ;; >asomarAniy~_1
 >smrAny >asomarAniy~    N0      Asmarani
-AsmrAny >asomarAniy~    N0      Asmarani
 ;; masAmir_1
 msAmr   masAmir Ndip    evening entertainment
 ;; misomAr_1
@@ -4915,7 +4671,6 @@ smwT    sumuwT  N       strings;threads
 smAT    simAT   N/At    meal;table cloth
 smT     sumuT   N       meals;table cloth
 >smT    >asomiT Nap     meals;table cloth
-AsmT    >asomiT Nap     meals;table cloth
 ;; masomaT_1
 msmT    masomaT N       scalding house
 msAmT   masAmiT Ndip    scalding houses;vine props
@@ -4933,7 +4688,6 @@ smE     sam~aE  PV      make hear;have listen
 smE     sam~iE  IV_yu   make hear;have listen
 ;; >asomaE_1
 >smE    >asomaE PV      make hear;have listen
-AsmE    >asomaE PV      make hear;have listen
 smE     somiE   IV_yu   make hear;have listen
 smE     somaE   IV_Pass_yu      be listened to
 ;; tasam~aE_1
@@ -4944,7 +4698,6 @@ tsAmE   tasAmaE PV      get word of
 tsAmE   tasAmaE IV      get word of
 ;; {isotamaE_1
 <stmE   {isotamaE       PV      listen
-AstmE   {isotamaE       PV      listen
 stmE    sotamiE IV      listen
 ;; samoE_1
 smE     samoE   N       hearing
@@ -5027,7 +4780,6 @@ smky    samakiy~        N/ap    fish-like;fish     <pos>samakiy~/ADJ</pos>
 ;; simAk_1
 smAk    simAk   N       fish
 >smAk   >asomAk N       fish
-AsmAk   >asomAk N       fish
 ;; sam~Ak_1
 smAk    sam~Ak  Nall    fisherman
 ;; sam~Ak_2
@@ -5062,16 +4814,13 @@ sml     samal   PV_intr be tattered
 sml     somul   IV_intr be tattered
 ;; >asomal_1
 >sml    >asomal PV_intr be tattered
-Asml    >asomal PV_intr be tattered
 sml     somil   IV_intr_yu      be tattered
 ;; {isotamal_1
 <stml   {isotamal       PV      gouge
-Astml   {isotamal       PV      gouge
 stml    sotamil IV      gouge
 ;; samal_1
 sml     samal   N       tatters;dregs
 >smAl   >asomAl N       tatters;dregs
-AsmAl   >asomAl N       tatters;dregs
 ;; sumuwl_1
 smwl    sumuwl  N       being in tatters
 ;; sumuwlap_1
@@ -5086,7 +4835,6 @@ smn     sam~an  PV-n    make fat
 smn     sam~in  IV-n_yu make fat
 ;; >asoman_1
 >smn    >asoman PV-n    make fat
-Asmn    >asoman PV-n    make fat
 smn     somin   IV-n_yu make fat
 smn     soman   IV-n_Pass_yu    be fattened;be made fat
 ;; samon_1
@@ -5165,26 +4913,18 @@ sAmY    sAmaY   IV_0_Pass_yu    be competed;be contested
 sAmy    sAmay   IV_Ann_Pass_yu  be competed;be contested
 ;; >asomaY_1
 >smY    >asomaY PV_0    name;designate
-AsmY    >asomaY PV_0    name;designate
 >smA    >asomA  PV_h    name;designate
-AsmA    >asomA  PV_h    name;designate
 >smy    >asomay PV_Atn  name;designate
-Asmy    >asomay PV_Atn  name;designate
 >sm     >asom   PV_ttAw name;designate
-Asm     >asom   PV_ttAw name;designate
 smy     somiy   IV_0hAnn_yu     name;designate
 sm      som     IV_0hwnyn_yu    name;designate
 ; smY   somaY   IV_0_Pass_yu    be named;be designated
 ; smy   somay   IV_Ann_Pass_yu  be named;be designated
 ;; >asomaY_2
 >smY    >asomaY PV_0    elevate;exalt
-AsmY    >asomaY PV_0    elevate;exalt
 >smA    >asomA  PV_h    elevate;exalt
-AsmA    >asomA  PV_h    elevate;exalt
 >smy    >asomay PV_Atn  elevate;exalt
-Asmy    >asomay PV_Atn  elevate;exalt
 >sm     >asom   PV_ttAw elevate;exalt
-Asm     >asom   PV_ttAw elevate;exalt
 smy     somiy   IV_0hAnn_yu     elevate;exalt
 sm      som     IV_0hwnyn_yu    elevate;exalt
 smY     somaY   IV_0_Pass_yu    be elevated;be exalted
@@ -5224,27 +4964,17 @@ smA}y   samA}iy~        N/ap    heavenly;celestial     <pos>samA}iy~/ADJ</pos>
 smAwp   samAwap N0      Samawa
 ;; {isom_1
 <sm     {isom   Ndu     name
-Asm     {isom   Ndu     name
 >smA'   >asomA' N0_Nh   names
-AsmA'   >asomA' N0_Nh   names
 >smA&   >asomA& Nh      names
-AsmA&   >asomA& Nh      names
 >smA}   >asomA} Nhy     names
-AsmA}   >asomA} Nhy     names
 >sAmy   >asAmiy N0_Nh   names
-AsAmy   >asAmiy N0_Nh   names
 >sAm    >asAm   NK      names
-AsAm    >asAm   NK      names
 ;; >asomaY_3
 >smY    >asomaY N0      higher/highest;more/most eminent
-AsmY    >asomaY N0      higher/highest;more/most eminent
 >smA    >asomA  Nhy     higher/highest;more/most eminent
-AsmA    >asomA  Nhy     higher/highest;more/most eminent
 >smy    >asomay NAn_Nayn        highest;most eminent
-Asmy    >asomay NAn_Nayn        highest;most eminent
 ;; >asomA'_1
 >smA'   >asomA' Nprop   Asmaa
-AsmA'   >asomA' Nprop   Asmaa
 ;; tasomiyap_1
 tsmy    tasomiy NapAt   appellation;designation;naming
 ;; sAmiy_1
@@ -5270,7 +5000,6 @@ msmy    musam~ay        NAt     titles;names
 ;--- sm
 ;; {isomiy~_1
 <smy    {isomiy~        N-ap    nominal;in name     <pos><isomiy~/ADJ</pos>
-Asmy    {isomiy~        N-ap    nominal;in name     <pos><isomiy~/ADJ</pos>
 ;--- smyv
 ;; smiyv_1
 smyv    smiyv   Nprop   Smith
@@ -5294,16 +5023,12 @@ snn     san~an  PV-n    sharpen;indent
 snn     san~in  IV-n_yu sharpen;indent
 ;; >asan~_1
 >sn     >asan~  PV_V    grow teeth;teethe
-Asn     >asan~  PV_V    grow teeth;teethe
 >snn    >asonan PV_Cn   grow teeth;teethe
-Asnn    >asonan PV_Cn   grow teeth;teethe
 sn      sin~    IV_V_yu grow teeth;teethe
 snn     sonin   IV_C_yu grow teeth;teethe
 ;; {isotan~_1
 <stn    {isotan~        PV_V    follow;prescribe
-Astn    {isotan~        PV_V    follow;prescribe
 <stnn   {isotanan       PV_Cn   follow;prescribe
-Astnn   {isotanan       PV_Cn   follow;prescribe
 stn     sotan~  IV_V    follow;prescribe
 stnn    sotanin IV_Cn   follow;prescribe
 ;; san~_1
@@ -5311,11 +5036,8 @@ sn      san~    N       enactment;prescription
 ;; sin~_1
 sn      sin~    Ndu     tooth
 >snAn   >asonAn N       teeth
-AsnAn   >asonAn N       teeth
 >sn     >asin~  Nap     teeth
-Asn     >asin~  Nap     teeth
 >sn     >asin~  Nap     spearheads
-Asn     >asin~  Nap     spearheads
 ;; sun~ap_1
 sn      sun~    Nap     customary procedure;orthodox (Sunni) Islam
 snn     sunan   N       customary procedures;orthodox (Sunni) Islam
@@ -5330,7 +5052,6 @@ snAn    sinAn   N       spearhead
 snAn    san~An  Nall    grinder;sharpener
 ;; >asan~_2
 >sn     >asan~  Nel     older
-Asn     >asan~  Nel     older
 ;; misan~_1
 msn     misan~  NduAt   grindstone
 msAn    masAn~  Ndip    grindstones
@@ -5436,7 +5157,6 @@ sAnH    sAniH   Nap     opportunity
 ;; sinox_1
 snx     sinox   N       root;origin;alveolus
 >snAx   >asonAx N       roots;origin;alveoli
-AsnAx   >asonAx N       roots;origin;alveoli
 snwx    sunuwx  N       roots;origin;alveoli
 ;; sanax_1
 snx     sanax   N       rankness (oil)
@@ -5457,7 +5177,6 @@ sAnd    sAnad   PV      support;assist;give aid
 sAnd    sAnid   IV_yu   support;assist;give aid
 ;; >asonad_1
 >snd    >asonad PV      support;attribute;ascribe
-Asnd    >asonad PV      support;attribute;ascribe
 snd     sonid   IV_yu   support;attribute;ascribe
 snd     sonad   IV_Pass_yu      be supported;be attributed;be ascribed
 ;; tasAnad_1
@@ -5465,16 +5184,13 @@ tsAnd   tasAnad PV      support mutually
 tsAnd   tasAnad IV      support mutually
 ;; {isotanad_1
 <stnd   {isotanad       PV      support;lean;rely
-Astnd   {isotanad       PV      support;lean;rely
 stnd    sotanid IV      support;lean;rely
 ;; sunuwd_1
 snwd    sunuwd  N       supporting;leaning
 ;; sanad_1
 snd     sanad   N/At    support
 >snAd   >asonAd N       support
-AsnAd   >asonAd N       support
 >snAd   >asonAd N       ascription;chain of authority
-AsnAd   >asonAd N       ascription;chain of authority
 ;; sanad_2
 snd     sanad   N/At    bond;security;voucher
 ;; misonad_1
@@ -5484,15 +5200,11 @@ msAnd   masAnid Ndip    props;support
 msAnd   musAnad NapAt   support;aid
 ;; <isonAd_1
 <snAd   <isonAd N       ascription;bestowal
-AsnAd   <isonAd N       ascription;bestowal
 >sAnyd  >asAniyd        Ndip    ascriptions;vouchers;documentary records
-AsAnyd  >asAniyd        Ndip    ascriptions;vouchers;documentary records
 ;; {isotinAd_1
 <stnAd  {isotinAd       NduAt   dependence
-AstnAd  {isotinAd       NduAt   dependence
 ;; {isotinAdAF_1
 <stnAd  {isotinAd       NF      on the basis of;according to     <pos>{isotinAd/ADV</pos>
-AstnAd  {isotinAd       NF      on the basis of;according to     <pos>{isotinAd/ADV</pos>
 ;; musAnid_1
 msAnd   musAnid Nall    supporting;assisting;pro-     <pos>musAnid/ADJ</pos>
 ;; musonad_1
@@ -5614,7 +5326,6 @@ snm     sanam   Nap     summit;height
 ;; sanAm_1
 snAm    sanAm   Ndu     hump
 >snm    >asonim Nap     humps
-Asnm    >asonim Nap     humps
 ;; tasoniym_1
 tsnym   tasoniym        N0      Tasnim;Tasneem
 ;; tasoniym_2
@@ -5675,11 +5386,8 @@ snA'    sanA'   Nprop   Sana';Sanaa
 sny     saniy~  N/ap    splendid;sublime     <pos>saniy~/ADJ</pos>
 ;; >asonaY_1
 >snY    >asonaY N0      more/most radiant
-AsnY    >asonaY N0      more/most radiant
 >snA    >asonA  Nhy     more/most radiant
-AsnA    >asonA  Nhy     more/most radiant
 >sny    >asonay NAn_Nayn        most radiant
-Asny    >asonay NAn_Nayn        most radiant
 ;; sAniyap_1
 sAny    sAniy   Nap     water scoop
 swAny   sawAniy N0_Nh   water scoops
@@ -5728,7 +5436,6 @@ snywr   sinoyuwr        Nap     Senora
 ;--- shb
 ;; >asohab_1
 >shb    >asohab PV      elaborate;discuss in detail
-Ashb    >asohab PV      elaborate;discuss in detail
 shb     sohib   IV_yu   elaborate;discuss in detail
 shb     sohab   IV_Pass_yu      be elaborated;be discussed in detail
 ;; suhob_1
@@ -5736,7 +5443,6 @@ shb     suhob   N       steppe
 shwb    suhuwb  N       steppes
 ;; <isohAb_1
 <shAb   <isohAb NduAt   elaboration;detail
-AshAb   <isohAb NduAt   elaboration;detail
 ;; musohib_1
 mshb    musohib Nall    elaborate;detailed     <pos>musohib/ADJ</pos>
 ;
@@ -5765,7 +5471,6 @@ shr     sahir   PV_intr be sleepless;stay up the night
 shr     sohar   IV_intr be sleepless;stay up the night
 ;; >asohar_1
 >shr    >asohar PV      make sleepless
-Ashr    >asohar PV      make sleepless
 shr     sohir   IV_yu   make sleepless
 shr     sohar   IV_Pass_yu      be made sleepless
 ;; sahar_1
@@ -5783,7 +5488,6 @@ shr     suhar   N       sleeplessness;vigil
 shAr    sah~Ar  Nall    nocturnal person
 ;; >asohar_2
 >shr    >asohar N       spermatic duct
-Ashr    >asohar N       spermatic duct
 ;; masohar_1
 mshr    masohar Ndu     nightclub
 msAhr   masAhir Ndip    nightclubs
@@ -5812,7 +5516,6 @@ sAhl    sAhal   PV_intr be indulgent
 sAhl    sAhil   IV_intr_yu      be indulgent
 ;; >asohal_1
 >shl    >asohal PV      purge
-Ashl    >asohal PV      purge
 shl     sohil   IV_yu   purge
 shl     sohal   IV_Pass_yu      be purged
 ;; tasah~al_1
@@ -5823,7 +5526,6 @@ tsAhl   tasAhal PV_intr be indulgent
 tsAhl   tasAhal IV_intr be indulgent
 ;; {isotasohal_1
 <stshl  {isotasohal     PV      deem easy
-Astshl  {isotasohal     PV      deem easy
 stshl   sotasohil       IV      deem easy
 ;; sahol_1
 shl     sahol   N-ap    easy;simple
@@ -5837,12 +5539,10 @@ shwl    sahuwl  N       purgative;laxative
 shwl    suhuwl  Nap     ease;facility
 ;; >asohal_2
 >shl    >asohal Nel     easier/easiest
-Ashl    >asohal Nel     easier/easiest
 ;; tasohiyl_1
 tshyl   tasohiyl        NduAt   facilitation;assistance
 ;; <isohAl_1
 <shAl   <isohAl N       diarrhea
-AshAl   <isohAl N       diarrhea
 ;; tasAhul_1
 tsAhl   tasAhul NduAt   indulgence;tolerance
 ;; musohil_1
@@ -5861,7 +5561,6 @@ sAhm    sAham   PV      participate;contribute
 sAhm    sAhim   IV_yu   participate;contribute
 ;; >asoham_1
 >shm    >asoham PV      participate;contribute;share
-Ashm    >asoham PV      participate;contribute;share
 shm     sohim   IV_yu   participate;contribute;share
 shm     soham   IV_Pass_yu      be contributed to;be shared in
 ;; suhuwm_1
@@ -5869,7 +5568,6 @@ shwm    suhuwm  N       graveness;sadness
 ;; sahom_1
 shm     sahom   N       share;stock
 >shm    >asohum N       shares;stocks
-Ashm    >asohum N       shares;stocks
 ;; sahom_2
 shm     sahom   N       arrow
 shAm    sihAm   N       arrows
@@ -5877,12 +5575,10 @@ shAm    sihAm   N       arrows
 shAm    sihAm   Nprop   Siham
 ;; >asohumiy~_1
 >shmy   >asohumiy~      N-ap    shares;stocks     <pos>>asohumiy~/ADJ</pos>
-Ashmy   >asohumiy~      N-ap    shares;stocks     <pos>>asohumiy~/ADJ</pos>
 ;; musAhamap_1
 msAhm   musAham NapAt   participation;contribution
 ;; <isohAm_1
 <shAm   <isohAm NduAt   participation;contribution
-AshAm   <isohAm NduAt   participation;contribution
 ;; sAhim_1
 sAhm    sAhim   N/ap    serious;grave     <pos>sAhim/ADJ</pos>
 ;; musAhim_1
@@ -5930,11 +5626,8 @@ sw}     saw~i}  IV_yu   do badly
 sw&     saw~i&  IV_wn_yu        do badly
 ;; >asA'_1
 >sA'    >asA'   PV_V    harm;offend
-AsA'    >asA'   PV_V    harm;offend
 >sA&    >asA&   PV_w    harm;offend
-AsA&    >asA&   PV_w    harm;offend
 >s>     >asa>   PV_C    harm;offend
-As>     >asa>   PV_C    harm;offend
 sy'     siy'    IV_V_yu harm;offend
 sy&     siy&    IV_wn_yu        harm;offend
 sy}     siy}    IV_yn_yu        harm;offend
@@ -5942,11 +5635,8 @@ s}      si}     IV_C_yu harm;offend
 sA'     sA'     IV_V_Pass_yu    be harmed;be offended
 ;; >asA'_2
 >sA'    >asA'   PV_V    do badly;mismanage
-AsA'    >asA'   PV_V    do badly;mismanage
 >sA&    >asA&   PV_w    do badly;mismanage
-AsA&    >asA&   PV_w    do badly;mismanage
 >s>     >asa>   PV_C    do badly;mismanage
-As>     >asa>   PV_C    do badly;mismanage
 sy'     siy'    IV_V_yu do badly;mismanage
 sy&     siy&    IV_wn_yu        do badly;mismanage
 sy}     siy}    IV_yn_yu        do badly;mismanage
@@ -5954,11 +5644,8 @@ s}      si}     IV_C_yu do badly;mismanage
 sA'     sA'     IV_V_Pass_yu    be done badly;be mismanaged
 ;; {isotA'_1
 <stA'   {isotA' PV_V_intr       be dissatisfied;be discontent
-AstA'   {isotA' PV_V_intr       be dissatisfied;be discontent
 <stA&   {isotA& PV_w_intr       be dissatisfied;be discontent
-AstA&   {isotA& PV_w_intr       be dissatisfied;be discontent
 <st>    {isota> PV_C_intr       be dissatisfied;be discontent
-Ast>    {isota> PV_C_intr       be dissatisfied;be discontent
 stA'    sotA'   IV_V_intr       be dissatisfied;be discontent
 stA&    sotA&   IV_wn   be dissatisfied;be discontent
 stA}    sotA}   IV_yn   be dissatisfied;be discontent
@@ -5968,53 +5655,36 @@ sw'     suw'    N0F_Nh  offense;bad/ill
 sw&     suw&    Nh      offense;bad/ill
 sw}     suw}    Nhy     offense;bad/ill
 >swA'   >asowA' N0_Nh   offenses;bad/ill
-AswA'   >asowA' N0_Nh   offenses;bad/ill
 >swA&   >asowA& Nh      offenses;bad/ill
-AswA&   >asowA& Nh      offenses;bad/ill
 >swA}   >asowA} Nhy     offenses;bad/ill
-AswA}   >asowA} Nhy     offenses;bad/ill
 ;; sawo>ap_1
 sw>     sawo>   Napdu   disgrace;shame
 sw'     sawo'   NAt     disgrace;shame
 sw      sawo    N-|t    disgrace;shame
 ;; >asowa>_1
 >sw>    >asowa> N0_Nh   worse/worst
-Asw>    >asowa> N0_Nh   worse/worst
 ; AFP missing hamza
 AswA    >asowa> N0_Nh   worse/worst
 >sw&    >asowa& Nh      worse/worst
-Asw&    >asowa& Nh      worse/worst
 >sw}    >asowa} Nhy     worse/worst
-Asw}    >asowa} Nhy     worse/worst
 ;; >asowa'_1
 >sw'    >asowa' NAn_Nayn        worst
-Asw'    >asowa' NAn_Nayn        worst
 >sw}    >asowa} Nayn    worst
-Asw}    >asowa} Nayn    worst
 >sw|    >asowa| N-|     worst
-Asw|    >asowa| N-|     worst
 ;; masA'ap_1
 msA'    masA'   Napdu   evil deed
 msAw}   masAwi} Ndip    evil deeds;disadvantages
 ;; <isA'ap_1
 <sA'    <isA'   NapAt   insult;affront;harm
-AsA'    <isA'   NapAt   insult;affront;harm
 ;; <isA'ap_2
 <sA'    <isA'   Nap     wrong;incorrect;mis-
-AsA'    <isA'   Nap     wrong;incorrect;mis-
 ;; {isotiyA'_1
 <styA'  {isotiyA'       N0_Nh   dissatisfaction;displeasure
-AstyA'  {isotiyA'       N0_Nh   dissatisfaction;displeasure
 <styA&  {isotiyA&       Nh      dissatisfaction;displeasure
-AstyA&  {isotiyA&       Nh      dissatisfaction;displeasure
 <styA}  {isotiyA}       Nhy     dissatisfaction;displeasure
-AstyA}  {isotiyA}       Nhy     dissatisfaction;displeasure
 <styA'  {isotiyA'       NAn_Nayn        dissatisfaction;displeasure
-AstyA'  {isotiyA'       NAn_Nayn        dissatisfaction;displeasure
 <styA}  {isotiyA}       Nayn    dissatisfaction;displeasure
-AstyA}  {isotiyA}       Nayn    dissatisfaction;displeasure
 <styA'  {isotiyA'       NAt     dissatisfaction;displeasure
-AstyA'  {isotiyA'       NAt     dissatisfaction;displeasure
 ;; musiy'_1
 msy'    musiy'  N0      insulting;harming;pernicious     <pos>musiy'/ADJ</pos>
 msy}    musiy}  NF_Nhy  insulting;harming;pernicious
@@ -6119,9 +5789,7 @@ swd     saw~ad  PV      blacken
 swd     saw~id  IV_yu   blacken
 ;; {isowad~_1
 <swd    {isowad~        PV_V_intr       become black
-Aswd    {isowad~        PV_V_intr       become black
 <swdd   {isowadad       PV_C_intr       become black
-Aswdd   {isowadad       PV_C_intr       become black
 swd     sowad~  IV_V_intr       become black
 swdd    sowadid IV_C_intr       become black
 ;; sA}id_1
@@ -6129,10 +5797,8 @@ sA}d    sA}id   N-ap    prevailing;dominant;ruling     <pos>sA}id/ADJ</pos>
 ;; sawAd_1
 swAd    sawAd   N       blackness
 >swd    >asowid Nap     blackness
-Aswd    >asowid Nap     blackness
 ;; >asowad_1
 >swd    >asowad Nel     black
-Aswd    >asowad Nel     black
 swdA'   sawodA' N0_Nh   black
 swdA&   sawodA& Nh      black
 swdA}   sawodA} Nhy     black
@@ -6161,7 +5827,6 @@ mswd    musowad~        NapAt   rough draft
 syd     say~id  Ndu     Sir;Mr.;Mister
 sAd     sAd     Nap     Sirs;gentlement
 >syAd   >asoyAd N       Sirs;gentlement
-AsyAd   >asoyAd N       Sirs;gentlement
 ; Sirs;Messrs.;gentlement
 ;; say~id_2
 syd     say~id  N0      Sayyid
@@ -6208,7 +5873,6 @@ tswr    tasaw~ar        IV      scale
 ;; suwr_1
 swr     suwr    N       wall;enclosure
 >swAr   >asowAr N       walls;enclosures
-AswAr   >asowAr N       walls;enclosures
 ;; suwrap_1
 swr     suwr    Napdu   Surah;Quranic chapter
 swr     suwar   N       Surahs;Quranic chapters
@@ -6220,11 +5884,8 @@ mswr    musaw~ar        N-ap    fenced in;surrounded     <pos>musaw~ar/ADJ</pos>
 swAr    siwAr   N       bracelet
 swr     suwr    N       bracelet
 >swr    >asowir Nap     bracelet
-Aswr    >asowir Nap     bracelet
 >sAwr   >asAwir Ndip    bracelet
-AsAwr   >asAwir Ndip    bracelet
 >sAwr   >asAwir Nap     bracelet
-AsAwr   >asAwir Nap     bracelet
 ;
 ;--- swrA
 ;; suwrAt$Ay_1
@@ -6319,7 +5980,6 @@ sT      suT     IV_C    whip;flog
 ;; sawoT_1
 swT     sawoT   Ndu     whip;lash
 >swAT   >asowAT N       whips;lashes
-AswAT   >asowAT N       whips;lashes
 syAT    siyAT   N       whips;lashes
 ;; misowaT_1
 mswT    misowaT N       stirring stick
@@ -6349,9 +6009,7 @@ swg     saw~ag  PV      warrant;admit
 swg     saw~ig  IV_yu   warrant;admit
 ;; >asAg_1
 >sAg    >asAg   PV_V    swallow;make bearable
-AsAg    >asAg   PV_V    swallow;make bearable
 >sg     >asag   PV_C    swallow;make bearable
-Asg     >asag   PV_C    swallow;make bearable
 syg     siyg    IV_V_yu swallow;make bearable
 sg      sig     IV_C_yu swallow;make bearable
 sAg     sAg     IV_V_Pass_yu    be swallowed;be tolerated
@@ -6361,9 +6019,7 @@ tswg    tasaw~ag        PV      lease;take a lease
 tswg    tasaw~ag        IV      lease;take a lease
 ;; {isotasAg_1
 <stsAg  {isotasAg       PV_V    find pleasant;admit
-AstsAg  {isotasAg       PV_V    find pleasant;admit
 <stsg   {isotasag       PV_C    find pleasant;admit
-Astsg   {isotasag       PV_C    find pleasant;admit
 stsyg   sotasiyg        IV_V    find pleasant;admit
 stsg    sotasig IV_C    find pleasant;admit
 ;; masAg_1
@@ -6437,16 +6093,12 @@ tsAwq   tasAwaq PV      form a sequence
 tsAwq   tasAwaq IV      form a sequence
 ;; {inosAq_1
 <nsAq   {inosAq PV_V_intr       be driven;be carried away
-AnsAq   {inosAq PV_V_intr       be driven;be carried away
 <nsq    {inosaq PV_C_intr       be driven;be carried away
-Ansq    {inosaq PV_C_intr       be driven;be carried away
 nsAq    nosAq   IV_V_intr       be driven;be carried away
 nsq     nosaq   IV_C_intr       be driven;be carried away
 ;; {isotAq_1
 <stAq   {isotAq PV_V    urge on
-AstAq   {isotAq PV_V    urge on
 <stq    {isotaq PV_C    urge on
-Astq    {isotaq PV_C    urge on
 stAq    sotAq   IV_V    urge on
 stq     sotaq   IV_C    urge on
 ;; sawoq_1
@@ -6462,7 +6114,6 @@ sAq     sAq     Nap     rear guard
 ;; suwq_1
 swq     suwq    Ndu     market
 >swAq   >asowAq N       markets
-AswAq   >asowAq N       markets
 ;; suwqap_1
 swq     suwq    Nap     subjects;rabble
 ;; suwqiy~_1
@@ -6491,7 +6142,6 @@ tswq    tasaw~uq        NduAt   marketing
 tsAwq   tasAwuq NduAt   coherence;context;interrelation
 ;; {inosiyAq_1
 <nsyAq  {inosiyAq       NduAt   thoughtlessness;being carried away
-AnsyAq  {inosiyAq       NduAt   thoughtlessness;being carried away
 ;; sA}iq_1
 sA}q    sA}iq   Nall    chauffeur;driver
 ;
@@ -6575,9 +6225,7 @@ sAwm    sAwam   PV      bargain;haggle
 sAwm    sAwim   IV_yu   bargain;haggle
 ;; >asAm_1
 >sAm    >asAm   PV_V    let wander
-AsAm    >asAm   PV_V    let wander
 >sm     >asam   PV_C    let wander
-Asm     >asam   PV_C    let wander
 sym     siym    IV_V_yu let wander
 sm      sim     IV_C_yu let wander
 sAm     sAm     IV_V_Pass_yu    be allowed to wander
@@ -6587,16 +6235,12 @@ tsAwm   tasAwam PV      bargain;haggle
 tsAwm   tasAwam IV      bargain;haggle
 ;; {inosAm_1
 <nsAm   {inosAm PV_V_intr       be ordained;be consecrated
-AnsAm   {inosAm PV_V_intr       be ordained;be consecrated
 <nsm    {inosam PV_C_intr       be ordained;be consecrated
-Ansm    {inosam PV_C_intr       be ordained;be consecrated
 nsAm    nosAm   IV_V_intr       be ordained;be consecrated
 nsm     nosam   IV_C_intr       be ordained;be consecrated
 ;; {isotAm_1
 <stAm   {isotAm PV_V    bargain;haggle
-AstAm   {isotAm PV_V    bargain;haggle
 <stm    {isotam PV_C    bargain;haggle
-Astm    {isotam PV_C    bargain;haggle
 stAm    sotAm   IV_V    bargain;haggle
 stm     sotam   IV_C    bargain;haggle
 ;; siyAmap_1
@@ -6675,13 +6319,9 @@ tsAwy   tasAway IV_Ann  be balanced;be equal
 tsAw    tasAw   IV_0hwnyn       be balanced;be equal
 ;; {isotawaY_1
 <stwY   {isotawaY       PV_0    be equivalent;be ripe
-AstwY   {isotawaY       PV_0    be equivalent;be ripe
 <stwA   {isotawA        PV_h    be equivalent;be ripe
-AstwA   {isotawA        PV_h    be equivalent;be ripe
 <stwy   {isotaway       PV_Atn  be equivalent;be ripe
-Astwy   {isotaway       PV_Atn  be equivalent;be ripe
 <stw    {isotaw PV_ttAw_intr    be equivalent;be ripe
-Astw    {isotaw PV_ttAw_intr    be equivalent;be ripe
 stwy    sotawiy IV_0hAnn        be equivalent;be ripe
 stw     sotaw   IV_0hwnyn       be equivalent;be ripe
 stwY    sotawaY IV_0_Pass_yu    be equivalent;be ripe
@@ -6702,11 +6342,8 @@ swA}    sawA}   Nhy     equality
 ;; sawiy~_1
 swy     sawiy~  N/ap    straight;correct     <pos>sawiy~/ADJ</pos>
 >swyA'  >asowiyA'       N0_Nh   straight;correct
-AswyA'  >asowiyA'       N0_Nh   straight;correct
 >swyA&  >asowiyA&       Nh      straight;correct
-AswyA&  >asowiyA&       Nh      straight;correct
 >swyA}  >asowiyA}       Nhy     straight;correct
-AswyA}  >asowiyA}       Nhy     straight;correct
 ;; sawiy~AF_1
 swy     sawiy~  NF      together;jointly;in common     <pos>sawiy~/ADV</pos>
 ;; sawiy~ap_1
@@ -6715,11 +6352,8 @@ swAyA   sawAyA  N0_Nhy  equality
 ;; siy~_1
 sy      siy~    NAn_Nayn        alike;the same
 >swA'   >asowA' N0_Nh   alike;the same
-AswA'   >asowA' N0_Nh   alike;the same
 >swA&   >asowA& Nh      alike;the same
-AswA&   >asowA& Nh      alike;the same
 >swA}   >asowA} Nhy     alike;the same
-AswA}   >asowA} Nhy     alike;the same
 swAsy   sawAsiy Nap     alike;the same;equals
 ;; siy~amA_1
 symA    siy~amA FW-Wa   especially      <pos>siy~amA/ADV</pos>
@@ -6736,27 +6370,17 @@ tsAwy   tasAwiy NAn_Nayn        equality;equal rights
 tsAwy   tasAwiy NAt     equality;equal rights
 ;; {isotiwA'_1
 <stwA'  {isotiwA'       N0_Nh   levelness;upright
-AstwA'  {isotiwA'       N0_Nh   levelness;upright
 <stwA&  {isotiwA&       Nh      levelness;upright
-AstwA&  {isotiwA&       Nh      levelness;upright
 <stwA}  {isotiwA}       Nhy     levelness;upright
-AstwA}  {isotiwA}       Nhy     levelness;upright
 <stwA'  {isotiwA'       NAn_Nayn        levelness;upright
-AstwA'  {isotiwA'       NAn_Nayn        levelness;upright
 <stwA}  {isotiwA}       Nayn    levelness;upright
-AstwA}  {isotiwA}       Nayn    levelness;upright
 <stwA'  {isotiwA'       NAt     levelness;upright
-AstwA'  {isotiwA'       NAt     levelness;upright
 ;; {isotiwA'_2
 <stwA'  {isotiwA'       N0_Nh   equator
-AstwA'  {isotiwA'       N0_Nh   equator
 <stwA&  {isotiwA&       Nh      equator
-AstwA&  {isotiwA&       Nh      equator
 <stwA}  {isotiwA}       Nhy     equator
-AstwA}  {isotiwA}       Nhy     equator
 ;; {isotiwA}iy~_1
 <stwA}y {isotiwA}iy~    N-ap    equatorial;tropical     <pos>{isotiwA}iy~/ADJ</pos>
-AstwA}y {isotiwA}iy~    N-ap    equatorial;tropical     <pos>{isotiwA}iy~/ADJ</pos>
 ;; musAwiy_1
 msAwy   musAwiy N0F_Nh  equivalent;similar     <pos>musAwiy/ADJ</pos>
 msAw    musAw   NK      equivalent;similar
@@ -6828,14 +6452,11 @@ tsyb    tasay~ab        PV_intr be careless;neglect
 tsyb    tasay~ab        IV_intr be careless;neglect
 ;; {inosAb_1
 <nsAb   {inosAb PV_V    flow;stream
-AnsAb   {inosAb PV_V    flow;stream
 <nsb    {inosab PV_C    flow;stream
-Ansb    {inosab PV_C    flow;stream
 nsAb    nosAb   IV_V    flow;stream
 nsb     nosab   IV_C    flow;stream
 ;; {inosiyAbiy~_1
 <nsyAby {inosiyAbiy~    N-ap    stream-lined     <pos>{inosiyAbiy~/ADJ</pos>
-AnsyAby {inosiyAbiy~    N-ap    stream-lined     <pos>{inosiyAbiy~/ADJ</pos>
 ;; tasay~ub_1
 tsyb    tasay~ub        NduAt   neglect;carelessness
 ;; sA}ib_1
@@ -6877,9 +6498,7 @@ tsyj    tasay~aj        IV_intr be fenced in;be surrounded
 ;; siyAj_1
 syAj    siyAj   NduAt   fence;shield
 >syAj   >asoyAj N       fences;shields
-AsyAj   >asoyAj N       fences;shields
 >swj    >asowij Nap     fences;shields
-Aswj    >asowij Nap     fences;shields
 ;
 ;--- syH
 ;; sAH-i_1
@@ -6892,18 +6511,14 @@ syH     say~aH  PV      make flow;liquify
 syH     say~iH  IV_yu   make flow;liquify
 ;; >asAH_1
 >sAH    >asAH   PV_V    make flow
-AsAH    >asAH   PV_V    make flow
 >sH     >asaH   PV_C    make flow
-AsH     >asaH   PV_C    make flow
 syH     siyH    IV_V_yu make flow
 sH      siH     IV_C_yu make flow
 sAH     sAH     IV_V_Pass_yu    be made to flow
 sH      saH     IV_C_Pass_yu    be made to flow
 ;; {inosAH_1
 <nsAH   {inosAH PV_V    spread;pour
-AnsAH   {inosAH PV_V    spread;pour
 <nsH    {inosaH PV_C    spread;pour
-AnsH    {inosaH PV_C    spread;pour
 nsAH    nosAH   IV_V    spread;pour
 nsH     nosaH   IV_C    spread;pour
 ;; siyAHap_1
@@ -6932,7 +6547,6 @@ syxAn   sayaxAn N       sinking
 ;; siyx_1
 syx     siyx    N       skewer;rapier
 >syAx   >asoyAx N       skewers
-AsyAx   >asoyAx N       skewers
 ;; siyx_2
 syx     siyx    N0      Sikh
 ;
@@ -6957,9 +6571,7 @@ sAyr    sAyar   PV      go along with
 sAyr    sAyir   IV_yu   go along with
 ;; >asAr_1
 >sAr    >asAr   PV_V    set in motion;dispatch
-AsAr    >asAr   PV_V    set in motion;dispatch
 >sr     >asar   PV_C    set in motion;dispatch
-Asr     >asar   PV_C    set in motion;dispatch
 syr     siyr    IV_V_yu set in motion;dispatch
 sr      sir     IV_C_yu set in motion;dispatch
 sAr     sAr     IV_V_Pass_yu    be set in motion;be dispatched
@@ -7094,11 +6706,9 @@ syf     sayof   Nprop   Saif
 syf     sayof   Ndu     sword
 sywf    suyuwf  N       swords
 >syAf   >asoyAf N       swords
-AsyAf   >asoyAf N       swords
 ;; siyf_1
 syf     siyf    Ndu     river-bank;seaside
 >syAf   >asoyAf N       river-banks;seasides
-AsyAf   >asoyAf N       river-banks;seasides
 ;; say~Af_1
 syAf    say~Af  N0      Sayyaf
 ;; say~Af_2
@@ -7152,9 +6762,7 @@ syl     say~al  PV      make flow;liquify
 syl     say~il  IV_yu   make flow;liquify
 ;; >asAl_1
 >sAl    >asAl   PV_V    make flow
-AsAl    >asAl   PV_V    make flow
 >sl     >asal   PV_C    make flow
-Asl     >asal   PV_C    make flow
 syl     siyl    IV_V_yu make flow
 sl      sil     IV_C_yu make flow
 sAl     sAl     IV_V_Pass_yu    be made to flow

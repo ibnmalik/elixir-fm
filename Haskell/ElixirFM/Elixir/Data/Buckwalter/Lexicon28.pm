@@ -371,10 +371,10 @@ $Lexicon = {
     {
       'types' => {
         '\'aydiy' => {
-          'N0_Nh' => 2
+          'N0_Nh' => 1
         },
         '\'ayAdiy' => {
-          'N0_Nh' => 2
+          'N0_Nh' => 1
         }
       },
       'entry' => 'yad',
@@ -383,13 +383,9 @@ $Lexicon = {
         ';; yad_1',
         'yd      yad     Ndu     hand',
         '>ydy    >ayodiy N0_Nh   hands',
-        'Aydy    >ayodiy N0_Nh   hands',
         '>yd     >ayod   NK      hands',
-        'Ayd     >ayod   NK      hands',
         '>yAdy   >ayAdiy N0_Nh   hands',
-        'AyAdy   >ayAdiy N0_Nh   hands',
-        '>yAd    >ayAd   NK      hands',
-        'AyAd    >ayAd   NK      hands'
+        '>yAd    >ayAd   NK      hands'
       ],
       'patterns' => {
         '\'aydiy' => [
@@ -622,7 +618,7 @@ $Lexicon = {
     {
       'types' => {
         '\'uwrAniyuwm' => {
-          'N0' => 2
+          'N0' => 1
         }
       },
       'entry' => 'yuwrAniyuwm',
@@ -630,8 +626,7 @@ $Lexicon = {
       'lines' => [
         ';; yuwrAniyuwm_1',
         'ywrAnywm        yuwrAniyuwm     N0      uranium',
-        '>wrAnywm        >uwrAniyuwm     N0      uranium',
-        'AwrAnywm        >uwrAniyuwm     N0      uranium'
+        '>wrAnywm        >uwrAniyuwm     N0      uranium'
       ],
       'patterns' => {},
       'index' => '1',
@@ -866,7 +861,6 @@ $Lexicon = {
       'lines' => [
         ';; >ayosar_1',
         '>ysr    >ayosar PV      live in comfort',
-        'Aysr    >ayosar PV      live in comfort',
         'wsr     wsir    IV_yu   live in comfort',
         'wsr     wsar    IV_Pass_yu      be made easy;be facilitated'
       ],
@@ -915,7 +909,6 @@ $Lexicon = {
       'lines' => [
         ';; {isotayosar_1',
         '<stysr  {isotayosar     PV_intr be easy;be successful',
-        'Astysr  {isotayosar     PV_intr be easy;be successful',
         'stysr   sotayosir       IV_intr be easy;be successful'
       ],
       'patterns' => {},
@@ -1086,7 +1079,6 @@ $Lexicon = {
       'lines' => [
         ';; >ayosar_2',
         '>ysr    >ayosar Nel     left',
-        'Aysr    >ayosar Nel     left',
         'ysrY    yusoraY N0      left;left hand',
         'ysrA    yusorA  Nhy     left;left hand',
         'ysry    yusoray NAn_Nayn        left;left hands',
@@ -1116,8 +1108,7 @@ $Lexicon = {
       'form' => '\'aysar',
       'lines' => [
         ';; >ayosar_3',
-        '>ysr    >ayosar Nel     easier/easiest;smaller/smallest',
-        'Aysr    >ayosar Nel     easier/easiest;smaller/smallest'
+        '>ysr    >ayosar Nel     easier/easiest;smaller/smallest'
       ],
       'patterns' => {},
       'index' => '3',
@@ -1443,7 +1434,6 @@ $Lexicon = {
       'lines' => [
         ';; >ayo>as_1',
         '>y>s    >ayo>as PV      make despair',
-        'Ay>s    >ayo>as PV      make despair',
         'y}s     yo}is   IV_yu   make despair'
       ],
       'patterns' => {
@@ -1472,7 +1462,6 @@ $Lexicon = {
       'lines' => [
         ';; {isotayo>as_1',
         '<sty>s  {isotayo>as     PV      despair;be hopeless',
-        'Asty>s  {isotayo>as     PV      despair;be hopeless',
         'sty}s   sotayo}is       IV      despair;be hopeless'
       ],
       'patterns' => {},
@@ -2084,7 +2073,6 @@ $Lexicon = {
       'lines' => [
         ';; {isotayoman_1',
         '<stymn  {isotayoman     PV-n    see a good omen;regard as auspicious',
-        'Astymn  {isotayoman     PV-n    see a good omen;regard as auspicious',
         'stymn   sotayomin       IV-n    see a good omen;regard as auspicious'
       ],
       'patterns' => {},
@@ -2367,10 +2355,10 @@ $Lexicon = {
     {
       'types' => {
         '\'aymun' => {
-          'N' => 2
+          'N' => 1
         },
         '\'aymAn' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => 'yamiyn',
@@ -2379,9 +2367,7 @@ $Lexicon = {
         ';; yamiyn_2',
         'ymyn    yamiyn  Ndu     oath',
         '>ymn    >ayomun N       oaths',
-        'Aymn    >ayomun N       oaths',
-        '>ymAn   >ayomAn N       oaths',
-        'AymAn   >ayomAn N       oaths'
+        '>ymAn   >ayomAn N       oaths'
       ],
       'patterns' => {
         '\'aymun' => [
@@ -2428,8 +2414,7 @@ $Lexicon = {
       'form' => '\'ayman',
       'lines' => [
         ';; >ayoman_1',
-        '>ymn    >ayoman Nprop   Ayman;Aiman',
-        'Aymn    >ayoman Nprop   Ayman;Aiman'
+        '>ymn    >ayoman Nprop   Ayman;Aiman'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2449,8 +2434,7 @@ $Lexicon = {
       'form' => '\'ayman',
       'lines' => [
         ';; >ayoman_2',
-        '>ymn    >ayoman Nel     right;right hand;lucky     [[>ayoman/ADJ]]',
-        'Aymn    >ayoman Nel     right;right hand;lucky     [[>ayoman/ADJ]]'
+        '>ymn    >ayoman Nel     right;right hand;lucky     [[>ayoman/ADJ]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -2714,7 +2698,6 @@ $Lexicon = {
       'lines' => [
         ';; >ayofaE_1',
         '>yfE    >ayofaE PV      reach adolescence',
-        'AyfE    >ayofaE PV      reach adolescence',
         'wfE     wfiE    IV_yu   reach adolescence'
       ],
       'patterns' => {},
@@ -2790,7 +2773,7 @@ $Lexicon = {
     {
       'types' => {
         '\'ayfA`' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => 'yafa`',
@@ -2798,8 +2781,7 @@ $Lexicon = {
       'lines' => [
         ';; yafaE_2',
         'yfE     yafaE   Ndu     adolescent',
-        '>yfAE   >ayofAE N       adolescents',
-        'AyfAE   >ayofAE N       adolescents'
+        '>yfAE   >ayofAE N       adolescents'
       ],
       'patterns' => {
         '\'ayfA`' => [
@@ -3006,7 +2988,6 @@ $Lexicon = {
       'lines' => [
         ';; >ayoqaZ_1',
         '>yqZ    >ayoqaZ PV      awaken;warn',
-        'AyqZ    >ayoqaZ PV      awaken;warn',
         'wqZ     wqiZ    IV_yu   awaken;warn',
         'wqZ     wqaZ    IV_Pass_yu      be awakened;be warned'
       ],
@@ -3056,7 +3037,6 @@ $Lexicon = {
       'lines' => [
         ';; {isotayoqaZ_1',
         '<styqZ  {isotayoqaZ     PV      wake up;be roused;be alert',
-        'AstyqZ  {isotayoqaZ     PV      wake up;be roused;be alert',
         'styqZ   sotayoqiZ       IV      wake up;be roused;be alert'
       ],
       'patterns' => {},
@@ -3075,7 +3055,7 @@ $Lexicon = {
     {
       'types' => {
         '\'ayqA.z' => {
-          'N' => 2
+          'N' => 1
         },
         'yaqu.z' => {
           'N-ap' => 1
@@ -3087,8 +3067,7 @@ $Lexicon = {
         ';; yaqiZ_1',
         'yqZ     yaqiZ   N-ap    awake;alert;vigilant     [[yaqiZ/ADJ]]',
         'yqZ     yaquZ   N-ap    awake;alert;vigilant',
-        '>yqAZ   >ayoqAZ N       awake;alert;vigilant',
-        'AyqAZ   >ayoqAZ N       awake;alert;vigilant'
+        '>yqAZ   >ayoqAZ N       awake;alert;vigilant'
       ],
       'patterns' => {
         '\'ayqA.z' => [
@@ -3208,15 +3187,14 @@ $Lexicon = {
     {
       'types' => {
         '\'iyqA.z' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => '\'iyqA.z',
       'form' => '\'iyqA.z',
       'lines' => [
         ';; <iyqAZ_1',
-        '<yqAZ   <iyqAZ  N/At    awakening;reveille',
-        'AyqAZ   <iyqAZ  N/At    awakening;reveille'
+        '<yqAZ   <iyqAZ  N/At    awakening;reveille'
       ],
       'patterns' => {
         '\'iyqA.z' => [
@@ -3266,15 +3244,14 @@ $Lexicon = {
     {
       'types' => {
         'istiyqA.z' => {
-          'NduAt' => 2
+          'NduAt' => 1
         }
       },
       'entry' => 'istiyqA.z',
       'form' => 'istiyqA.z',
       'lines' => [
         ';; {isotiyqAZ_1',
-        '<styqAZ {isotiyqAZ      NduAt   awakening;arousal',
-        'AstyqAZ {isotiyqAZ      NduAt   awakening;arousal'
+        '<styqAZ {isotiyqAZ      NduAt   awakening;arousal'
       ],
       'patterns' => {
         'istiyqA.z' => [
@@ -3440,7 +3417,6 @@ $Lexicon = {
       'lines' => [
         ';; >ayobas_1',
         '>ybs    >ayobas PV      make dry;desiccate',
-        'Aybs    >ayobas PV      make dry;desiccate',
         'wbs     wbis    IV_yu   make dry;desiccate',
         'wbs     wbas    IV_Pass_yu      be dried;be desiccated'
       ],
@@ -3756,7 +3732,7 @@ $Lexicon = {
     {
       'types' => {
         '\'ayyAm' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => 'yawm',
@@ -3764,8 +3740,7 @@ $Lexicon = {
       'lines' => [
         ';; yawom_1',
         'ywm     yawom   Ndu     day',
-        '>yAm    >ay~Am  N       days',
-        'AyAm    >ay~Am  N       days'
+        '>yAm    >ay~Am  N       days'
       ],
       'patterns' => {
         '\'ayyAm' => [
@@ -4214,7 +4189,6 @@ $Lexicon = {
       'lines' => [
         ';; >ayotam_1',
         '>ytm    >ayotam PV      make orphan',
-        'Aytm    >ayotam PV      make orphan',
         'wtm     wtim    IV_yu   make orphan',
         'wtm     wtam    IV_Pass_yu      be orphaned'
       ],
@@ -4256,7 +4230,7 @@ $Lexicon = {
           'N0' => 1
         },
         '\'aytAm' => {
-          'N' => 2
+          'N' => 1
         },
         'yatAmA' => {
           'Nhy' => 1
@@ -4268,7 +4242,6 @@ $Lexicon = {
         ';; yatiym_1',
         'ytym    yatiym  N/ap    orphan;unique',
         '>ytAm   >ayotAm N       orphans;unique',
-        'AytAm   >ayotAm N       orphans;unique',
         'ytAmY   yatAmaY N0      orphans;unique',
         'ytAmA   yatAmA  Nhy     orphans;unique'
       ],
@@ -4643,7 +4616,6 @@ $Lexicon = {
       'lines' => [
         ';; >ayonaE_1',
         '>ynE    >ayonaE PV      ripen;mellow',
-        'AynE    >ayonaE PV      ripen;mellow',
         'wnE     wniE    IV_yu   ripen;mellow',
         'wnE     wnaE    IV_Pass_yu      be ripened;be mellowed'
       ],
@@ -4724,15 +4696,14 @@ $Lexicon = {
     {
       'types' => {
         '\'iynA`' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => '\'iynA`',
       'form' => '\'iynA`',
       'lines' => [
         ';; <iynAE_1',
-        '<ynAE   <iynAE  N/At    ripening;mellowing',
-        'AynAE   <iynAE  N/At    ripening;mellowing'
+        '<ynAE   <iynAE  N/At    ripening;mellowing'
       ],
       'patterns' => {
         '\'iynA`' => [
@@ -5179,7 +5150,6 @@ $Lexicon = {
       'lines' => [
         ';; >ayoqan_1',
         '>yqn    >ayoqan PV-n    ascertain;be convinced',
-        'Ayqn    >ayoqan PV-n    ascertain;be convinced',
         'yqn     yoqin   IV-n    ascertain;be convinced'
       ],
       'patterns' => {
@@ -5230,7 +5200,6 @@ $Lexicon = {
       'lines' => [
         ';; {isotayoqan_1',
         '<styqn  {isotayoqan     PV-n    ascertain;be convinced',
-        'Astyqn  {isotayoqan     PV-n    ascertain;be convinced',
         'styqn   sotayoqin       IV-n    ascertain;be convinced'
       ],
       'patterns' => {},

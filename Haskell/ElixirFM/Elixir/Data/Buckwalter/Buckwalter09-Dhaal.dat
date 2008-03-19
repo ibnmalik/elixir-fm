@@ -11,7 +11,6 @@ hk*A    h`ka*A  FW-Wa   thus;as such     <pos>h`ka*A/CONJ</pos>
 ;--- *Ab
 ;; {isota*o>ab_1
 <st*>b  {isota*o>ab     PV_intr be wolflike;be lupine
-Ast*>b  {isota*o>ab     PV_intr be wolflike;be lupine
 st*}b   sota*o}ib       IV_intr be wolflike;be lupine
 ;; *i}ob_1
 *}b     *i}ob   Ndu     wolf;jackal
@@ -43,7 +42,6 @@ tynk    tayonika        FW-WaBi that     <pos>tayonika/DEM_PRON_FS</pos>
 *bAb    *ubAb   N       flies
 *bAb    *ubAb   Napdu   fly
 >*b     >a*ib~  Nap     flies
-A*b     >a*ib~  Nap     flies
 *bAn    *ib~An  N       flies
 ;; *ubAbap_1
 *bAb    *ubAb   NapAt   fly;tip
@@ -122,7 +120,6 @@ mt*b*b  muta*abo*ib     Nall    oscillating     <pos>muta*abo*ib/ADJ</pos>
 ;; *aHol_1
 *Hl     *aHol   N       resentment;vindictiveness
 >*HAl   >a*oHAl N       resentment;vindictiveness
-A*HAl   >a*oHAl N       resentment;vindictiveness
 *Hwl    *uHuwl  N       resentment;vindictiveness
 ;
 ;--- *xr
@@ -131,21 +128,17 @@ A*HAl   >a*oHAl N       resentment;vindictiveness
 *xr     *oxar   IV      preserve;store
 ;; {id~axar_1
 <dxr    {id~axar        PV      store;hoard;save
-Adxr    {id~axar        PV      store;hoard;save
 dxr     d~axir  IV      store;hoard;save
 ;; *uxor_1
 *xr     *uxor   N       stored;hoarded
 >*xAr   >a*oxAr N       stored;hoarded
-A*xAr   >a*oxAr N       stored;hoarded
 ;; *axiyrap_1
 *xyr    *axiyr  Napdu   ammunition;treasure;provisions
 *xA}r   *axA}ir Ndip    ammunition;treasure;provisions
 ;; {id~ixAr_1
 <dxAr   {id~ixAr        NduAt   storage;hoarding
-AdxAr   {id~ixAr        NduAt   storage;hoarding
 ;; {id~ixAriy~_1
 <dxAry  {id~ixAriy~     Nall    savings;storage     <pos>{id~ixAriy~/ADJ</pos>
-AdxAry  {id~ixAriy~     Nall    savings;storage     <pos>{id~ixAriy~/ADJ</pos>
 ;; mu*ax~ir_1
 m*xr    mu*ax~ir        Nall    assistant gunner;ammunition passer
 ;; mu*ax~irap_1
@@ -223,19 +216,16 @@ t*rE    ta*ar~aE        PV      employ;apply
 t*rE    ta*ar~aE        IV      employ;apply
 ;; {ino*araE_1
 <n*rE   {ino*araE       PV      advance;intervene
-An*rE   {ino*araE       PV      advance;intervene
 n*rE    no*ariE IV      advance;intervene
 ;; *aroE_1
 *rE     *aroE   N       power;capability
 ;; *irAE_1
 *rAE    *irAE   Ndu     arm
 >*rE    >a*oruE N       arms
-A*rE    >a*oruE N       arms
 *rEAn   *uroEAn N       arms
 ;; *irAE_2
 *rAE    *irAE   Ndu     lever;crank
 >*rE    >a*oruE N       levers;cranks
-A*rE    >a*oruE N       levers;cranks
 *rEAn   *uroEAn N       levers;cranks
 ;; *ariyE_1
 *ryE    *ariyE  N       rapid;sweeping     <pos>*ariyE/ADJ</pos>
@@ -252,7 +242,6 @@ A*rE    >a*oruE N       levers;cranks
 *rf     *ar~if  IV_yu   exceed
 ;; {isota*oraf_1
 <st*rf  {isota*oraf     PV      let flow;shed
-Ast*rf  {isota*oraf     PV      let flow;shed
 st*rf   sota*orif       IV      let flow;shed
 ;; *arof_1
 *rf     *arof   N       flowing;shedding
@@ -270,7 +259,6 @@ st*rf   sota*orif       IV      let flow;shed
 *rq     *oruq   IV      drop excrement (bird)
 ;; >a*oraq_1
 >*rq    >a*oraq PV      drop excrement (bird)
-A*rq    >a*oraq PV      drop excrement (bird)
 *rq     *oriq   IV_yu   drop excrement (bird)
 ;; *aroq_1
 *rq     *aroq   N       bird droppings;bird excrement
@@ -323,13 +311,9 @@ m*Ar    ma*Ar   NK      winnows
 *ry     *ar~ay  IV_Ann_Pass_yu  be dispersed;be scattered;be atomized
 ;; >a*oraY_1
 >*rY    >a*oraY PV_0    disperse;scatter
-A*rY    >a*oraY PV_0    disperse;scatter
 >*rA    >a*orA  PV_h    disperse;scatter
-A*rA    >a*orA  PV_h    disperse;scatter
 >*ry    >a*oray PV_Atn  disperse;scatter
-A*ry    >a*oray PV_Atn  disperse;scatter
 >*r     >a*or   PV_ttAw disperse;scatter
-A*r     >a*or   PV_ttAw disperse;scatter
 *ry     *oriy   IV_0hAnn_yu     disperse;scatter
 *r      *or     IV_0hwnyn_yu    disperse;scatter
 *rY     *oraY   IV_0_Pass_yu    be dispersed;be scattered
@@ -345,13 +329,9 @@ t*ry    ta*ar~ay        IV_Ann  climb;take refuge
 t*r     ta*ar~  IV_0hwnyn       climb;take refuge
 ;; {isota*oraY_1
 <st*rY  {isota*oraY     PV_0    take refuge
-Ast*rY  {isota*oraY     PV_0    take refuge
 <st*rA  {isota*orA      PV_h    take refuge
-Ast*rA  {isota*orA      PV_h    take refuge
 <st*ry  {isota*oray     PV_Atn  take refuge
-Ast*ry  {isota*oray     PV_Atn  take refuge
 <st*r   {isota*or       PV_ttAw take refuge
-Ast*r   {isota*or       PV_ttAw take refuge
 st*ry   sota*oriy       IV_0hAnn        take refuge
 st*r    sota*or IV_0hwnyn       take refuge
 st*rY   sota*oraY       IV_0    take refuge
@@ -372,7 +352,6 @@ t*ry    ta*oriy Nap     atomization
 *Er     *oEar   IV_intr be frightened
 ;; >a*oEar_1
 >*Er    >a*oEar PV      frighten
-A*Er    >a*oEar PV      frighten
 *Er     *oEir   IV_yu   frighten
 *Er     *oEar   IV_Pass_yu      be frightened
 ;; ta*aE~ar_1
@@ -380,7 +359,6 @@ t*Er    ta*aE~ar        PV      panic
 t*Er    ta*aE~ar        IV      panic
 ;; {ino*aEar_1
 <n*Er   {ino*aEar       PV      panic
-An*Er   {ino*aEar       PV      panic
 n*Er    no*aEir IV      panic
 ;; *uEor_1
 *Er     *uEor   N       fright;panic
@@ -403,14 +381,12 @@ n*Er    no*aEir IV      panic
 *En     *oEan   IV-n    submit;yield;obey
 ;; >a*oEan_1
 >*En    >a*oEan PV-n    submit;yield;obey
-A*En    >a*oEan PV-n    submit;yield;obey
 *En     *oEin   IV-n_yu submit;yield;obey
 *En     *oEan   IV-n_Pass_yu    be submitted to;be yielded to;be obeyed
 ;; mu*AEanap_1
 m*AEn   mu*AEan NapAt   submissiveness;compliance;obedience
 ;; <i*oEAn_1
 <*EAn   <i*oEAn NduAt   submissiveness;compliance;obedience
-A*EAn   <i*oEAn NduAt   submissiveness;compliance;obedience
 ;; mu*oEin_1
 m*En    mu*oEin Nall    submissive;compliant;obedient     <pos>mu*oEin/ADJ</pos>
 ;; mi*oEAn_1
@@ -424,7 +400,6 @@ m*EAn   mi*oEAn N       tractable;compliant;obedient     <pos>mi*oEAn/ADJ</pos>
 ;; *aqon_1
 *qn     *aqon   Ndu     chin;beard
 >*qAn   >a*oqAn N       chins;beards
-A*qAn   >a*oqAn N       chins;beards
 *qwn    *uquwn  N       chins;beards
 ;
 ;--- *kr
@@ -440,7 +415,6 @@ A*qAn   >a*oqAn N       chins;beards
 *Akr    *Akir   IV_yu   negotiate
 ;; >a*okar_1
 >*kr    >a*okar PV      remind
-A*kr    >a*okar PV      remind
 *kr     *okir   IV_yu   remind
 *kr     *okar   IV_Pass_yu      be reminded
 ;; ta*ak~ar_1
@@ -451,17 +425,14 @@ t*Akr   ta*Akar PV      remind mutually;confer
 t*Akr   ta*Akar IV      remind mutually;confer
 ;; {id~akar_1
 <dkr    {id~akar        PV      remember
-Adkr    {id~akar        PV      remember
 dkr     d~akir  IV      remember
 ;; {isota*okar_1
 <st*kr  {isota*okar     PV      memorize;recall
-Ast*kr  {isota*okar     PV      memorize;recall
 st*kr   sota*okir       IV      memorize;recall
 ;; *ikor_1
 *kr     *ikor   N       mention;citation;memory
 ;; >a*okAr_1
 >*kAr   >a*okAr N       dhikr (Sufi ritual)
-A*kAr   >a*okAr N       dhikr (Sufi ritual)
 ;; *akar_1
 *kr     *akar   N       male
 *kwr    *ukuwr  N       males
@@ -499,7 +470,6 @@ m*Akr   mu*Akar NapAt   negotiation;memorization
 t*kr    ta*ak~ur        NduAt   remembrance;recollection
 ;; {isoti*okAr_1
 <st*kAr {isoti*okAr     N/At    memorization
-Ast*kAr {isoti*okAr     N/At    memorization
 ;; *Akirap_1
 *Akr    *Akir   Nap     memory
 ;; ma*okuwr_1
@@ -537,26 +507,18 @@ m*kr    mu*ak~ir        NAt     memoirs;diary
 *ky     *ak~ay  IV_Ann_Pass_yu  be kindled;be set ablaze
 ;; >a*okaY_1
 >*kY    >a*okaY PV_0    kindle;make blaze
-A*kY    >a*okaY PV_0    kindle;make blaze
 >*kA    >a*okA  PV_h    kindle;make blaze
-A*kA    >a*okA  PV_h    kindle;make blaze
 >*ky    >a*okay PV_Atn  kindle;make blaze
-A*ky    >a*okay PV_Atn  kindle;make blaze
 >*k     >a*ok   PV_ttAw kindle;make blaze
-A*k     >a*ok   PV_ttAw kindle;make blaze
 *ky     *okiy   IV_0hAnn_yu     kindle;make blaze
 *k      *ok     IV_0hwnyn_yu    kindle;make blaze
 *kY     *okaY   IV_0_Pass_yu    be kindled;be set ablaze
 *ky     *okay   IV_Ann_Pass_yu  be kindled;be set ablaze
 ;; {isota*okaY_1
 <st*kY  {isota*okaY     PV_0    flare up;blaze
-Ast*kY  {isota*okaY     PV_0    flare up;blaze
 <st*kA  {isota*okA      PV_h    flare up;blaze
-Ast*kA  {isota*okA      PV_h    flare up;blaze
 <st*ky  {isota*okay     PV_Atn  flare up;blaze
-Ast*ky  {isota*okay     PV_Atn  flare up;blaze
 <st*k   {isota*ok       PV_ttAw flare up;blaze
-Ast*k   {isota*ok       PV_ttAw flare up;blaze
 st*ky   sota*okiy       IV_0hAnn        flare up;blaze
 st*k    sota*ok IV_0hwnyn       flare up;blaze
 st*kY   sota*okaY       IV_0    flare up;blaze
@@ -569,20 +531,14 @@ st*kY   sota*okaY       IV_0    flare up;blaze
 ;; *akiy~_1
 *ky     *akiy~  N/ap    clever     <pos>*akiy~/ADJ</pos>
 >*kyA'  >a*okiyA'       N0_Nh   clever
-A*kyA'  >a*okiyA'       N0_Nh   clever
 >*kyA&  >a*okiyA&       Nh      clever
-A*kyA&  >a*okiyA&       Nh      clever
 >*kyA}  >a*okiyA}       Nhy     clever
-A*kyA}  >a*okiyA}       Nhy     clever
 ;; *akiy~_2
 *ky     *akiy~  N-ap    delicious     <pos>*akiy~/ADJ</pos>
 ;; >a*okaY_2
 >*kY    >a*okaY N0      smarter/smartest;more/most delicious
-A*kY    >a*okaY N0      smarter/smartest;more/most delicious
 >*kA    >a*okA  Nhy     smarter/smartest;more/most delicious
-A*kA    >a*okA  Nhy     smarter/smartest;more/most delicious
 >*ky    >a*okay NAn_Nayn        smartest;most delicious
-A*ky    >a*okay NAn_Nayn        smartest;most delicious
 ;
 ;--- *l
 ;; *al~al_1
@@ -590,9 +546,7 @@ A*ky    >a*okay NAn_Nayn        smartest;most delicious
 *ll     *al~il  IV_yu   degrade;subdue
 ;; >a*al~_1
 >*l     >a*al~  PV_V    degrade;subdue
-A*l     >a*al~  PV_V    degrade;subdue
 >*ll    >a*olal PV_C    degrade;subdue
-A*ll    >a*olal PV_C    degrade;subdue
 *l      *il~    IV_V_yu degrade;subdue
 *ll     *olil   IV_C_yu degrade;subdue
 *l      *al~    IV_V_Pass_yu    be degraded;be subdued
@@ -601,9 +555,7 @@ t*ll    ta*al~al        PV_intr be humble;be obsequious
 t*ll    ta*al~al        IV_intr be humble;be obsequious
 ;; {isota*al~_1
 <st*l   {isota*al~      PV_V    deride;disparage
-Ast*l   {isota*al~      PV_V    deride;disparage
 <st*ll  {isota*olal     PV_C    deride;disparage
-Ast*ll  {isota*olal     PV_C    deride;disparage
 st*l    sota*il~        IV_V    deride;disparage
 st*ll   sota*olil       IV_C    deride;disparage
 ;; *ul~_1
@@ -613,13 +565,9 @@ st*ll   sota*olil       IV_C    deride;disparage
 ;; *aliyl_1
 *lyl    *aliyl  N/ap    despised;submissive     <pos>*aliyl/ADJ</pos>
 >*lA'   >a*il~A'        N0_Nh   despised;submissive
-A*lA'   >a*il~A'        N0_Nh   despised;submissive
 >*lA&   >a*il~A&        Nh      despised;submissive
-A*lA&   >a*il~A&        Nh      despised;submissive
 >*lA}   >a*il~A}        Nhy     despised;submissive
-A*lA}   >a*il~A}        Nhy     despised;submissive
 >*l     >a*il~  Nap     despised;submissive
-A*l     >a*il~  Nap     despised;submissive
 ;; *aluwl_1
 *lwl    *aluwl  N/ap    docile;tractable     <pos>*aluwl/ADJ</pos>
 *ll     *ulul   N       docile;tractable
@@ -629,7 +577,6 @@ m*l     ma*al~  Nap     meekness;humiliation
 t*lyl   ta*oliyl        NduAt   degradation;surmounting
 ;; <i*olAl_1
 <*lAl   <i*olAl NduAt   degradation;surmounting
-A*lAl   <i*olAl NduAt   degradation;surmounting
 ;; ta*al~ul_1
 t*ll    ta*al~ul        NduAt   self-abasement
 ;; mu*il~_1
@@ -642,7 +589,6 @@ m*l     mu*il~  Nall    humiliating;disgraceful     <pos>mu*il~/ADJ</pos>
 ;--- *lf
 ;; >a*olaf_1
 >*lf    >a*olaf Nel     small-nosed
-A*lf    >a*olaf Nel     small-nosed
 *lfA'   *alofA' N0_Nh   small-nosed
 *lfA&   *alofA& Nh      small-nosed
 *lfA}   *alofA} Nhy     small-nosed
@@ -655,7 +601,6 @@ A*lf    >a*olaf Nel     small-nosed
 *lyq    *aliyq  N/ap    eloquent;fluent
 ;; >a*olaq_1
 >*lq    >a*olaq Nel     eloquent;fluent
-A*lq    >a*olaq Nel     eloquent;fluent
 ;; *alAqap_1
 *lAq    *alAq   Nap     eloquence;fluency
 ;
@@ -667,7 +612,6 @@ A*lq    >a*olaq Nel     eloquent;fluent
 tlk     tiloka  FW-WaBi that;those           <pos>tiloka/DEM_PRON_FS</pos>
 tlkm    tilokum FW-WaBi that one       <pos>tilokum/DEM_PRON_FS</pos>
 >wlA}km >uwlA}ikum      FW-WaBi those          <pos>>uwlA}ikum/DEM_PRON_MP</pos>
-AwlA}km >uwlA}ikum      FW-WaBi those          <pos>>uwlA}ikum/DEM_PRON_MP</pos>
 ;
 ;; li*`lika_1
 l*lk    li*`lika        FW-Wa   therefore           <pos>li*`lika/ADV</pos>
@@ -693,7 +637,6 @@ k*lk    ka*`lika        FW-Wa   likewise;also       <pos>ka*`lika/ADV</pos>
 ;; *imAm_1
 *mAm    *imAm   N       claim;custody;protection
 >*m     >a*im~  Nap     claims;custody;protection
-A*m     >a*im~  Nap     claims;custody;protection
 ;; *amiym_1
 *mym    *amiym  Nall    censured;reprehensible     <pos>*amiym/ADJ</pos>
 ;; *amiymap_1
@@ -730,12 +673,10 @@ t*mr    ta*am~ur        NduAt   grumbling;grievance
 ;--- *nb
 ;; >a*onab_1
 >*nb    >a*onab PV      do wrong;commit an offense;be guilty
-A*nb    >a*onab PV      do wrong;commit an offense;be guilty
 *nb     *onib   IV_yu   do wrong;commit an offense;be guilty
 *nb     *onab   IV_Pass_yu      be found guilty
 ;; {isota*onab_1
 <st*nb  {isota*onab     PV      find/declare guilty;incriminate
-Ast*nb  {isota*onab     PV      find/declare guilty;incriminate
 st*nb   sota*onib       IV      find/declare guilty;incriminate
 ;; *anob_1
 *nb     *anob   N       fault;offense;misdeed
@@ -743,7 +684,6 @@ st*nb   sota*onib       IV      find/declare guilty;incriminate
 ;; *anab_1
 *nb     *anab   Ndu     tail;appendage;follower
 >*nAb   >a*onAb N       tails;followers;dependents
-A*nAb   >a*onAb N       tails;followers;dependents
 ;; *anabiy~_1
 *nby    *anabiy~        Nall    tail;appendaged;dependent     <pos>*anabiy~/ADJ</pos>
 ;; *unayob_1
@@ -766,7 +706,6 @@ m*nb    mu*onib Nall    guilty;delinquent     <pos>mu*onib/ADJ</pos>
 *hb     *ah~ib  IV_yu   gild
 ;; >a*ohab_1
 >*hb    >a*ohab PV      remove;eliminate
-A*hb    >a*ohab PV      remove;eliminate
 *hb     *ohib   IV_yu   remove;eliminate
 *hb     *ohab   IV_Pass_yu      be removed;be eliminated
 ;; *ahab_1
@@ -803,7 +742,6 @@ m*hb    mu*ah~ab        N-ap    gilded;golden     <pos>mu*ah~ab/ADJ</pos>
 *hl     *ohal   IV_intr be stunned;be dazed;overlook
 ;; >a*ohal_1
 >*hl    >a*ohal PV      baffle;distract
-A*hl    >a*ohal PV      baffle;distract
 *hl     *ohil   IV_yu   baffle;distract
 *hl     *ohal   IV_Pass_yu      be baffled;be distracted
 ;; ta*Ahal_1
@@ -811,7 +749,6 @@ t*Ahl   ta*Ahal PV      feign forgetfulness
 t*Ahl   ta*Ahal IV      feign forgetfulness
 ;; {ino*ahal_1
 <n*hl   {ino*ahal       PV_intr be stunned;be dazed;overlook
-An*hl   {ino*ahal       PV_intr be stunned;be dazed;overlook
 n*hl    no*ahil IV_intr be stunned;be dazed;overlook
 ;; *uhuwl_1
 *hwl    *uhuwl  N       numbness;indifference;confusion
@@ -830,7 +767,6 @@ mn*hl   muno*ahil       Nall    alarmed;perplexed     <pos>muno*ahil/ADJ</pos>
 ;; *ihon_1
 *hn     *ihon   N       mind;intellect
 >*hAn   >a*ohAn N       minds;intellects
-A*hAn   >a*ohAn N       minds;intellects
 ;; *ihoniy~_1
 *hny    *ihoniy~        Nall    mental;intellectual     <pos>*ihoniy~/ADJ</pos>
 ;; *ihoniy~ap_1
@@ -868,9 +804,7 @@ A*hAn   >a*ohAn N       minds;intellects
 *wb     *aw~ib  IV_yu   dissolve;liquify;melt
 ;; >a*Ab_1
 >*Ab    >a*Ab   PV_V    dissolve;melt;exhaust;consume
-A*Ab    >a*Ab   PV_V    dissolve;melt;exhaust;consume
 >*b     >a*ab   PV_C    dissolve;melt;exhaust;consume
-A*b     >a*ab   PV_C    dissolve;melt;exhaust;consume
 *yb     *iyb    IV_V_yu dissolve;melt;exhaust;consume
 *b      *ib     IV_C_yu dissolve;melt;exhaust;consume
 *Ab     *Ab     IV_V_Pass_yu    be dissolved;be melted;be exhausted;be consumed
@@ -881,7 +815,6 @@ A*b     >a*ab   PV_C    dissolve;melt;exhaust;consume
 t*wyb   ta*owiyb        NduAt   dissolution;liquefaction;melting
 ;; <i*Abap_1
 <*Ab    <i*Ab   NapAt   dissolution;liquefaction;melting
-A*Ab    <i*Ab   NapAt   dissolution;liquefaction;melting
 ;; *A}ib_1
 *A}b    *A}ib   Nall    dissolved;melted     <pos>*A}ib/ADJ</pos>
 ;; *A}ib_2
@@ -937,9 +870,7 @@ m*Awd   ma*Awid Ndip    mangers;cribs
 *q      *aq     IV_V_Pass_yu    be tasted;be experienced
 ;; >a*Aq_1
 >*Aq    >a*Aq   PV_V    make taste;make sample;make experience
-A*Aq    >a*Aq   PV_V    make taste;make sample;make experience
 >*q     >a*aq   PV_C    make taste;make sample;make experience
-A*q     >a*aq   PV_C    make taste;make sample;make experience
 *yq     *iyq    IV_V_yu make taste;make sample;make experience
 *q      *iq     IV_C_yu make taste;make sample;make experience
 *Aq     *Aq     IV_V_Pass_yu    be made to taste/sample;be made to make experience
@@ -950,7 +881,6 @@ t*wq    ta*aw~aq        IV      perceive;taste
 ;; *awoq_1
 *wq     *awoq   N       taste;sense;sensitivity
 >*wAq   >a*owAq N       tastes;sensitivities
-A*wAq   >a*owAq N       tastes;sensitivities
 ;; *awoqiy~_1
 *wqy    *awoqiy~        N-ap    taste;sense     <pos>*awoqiy~/ADJ</pos>
 ;; *awAq_1
@@ -984,13 +914,9 @@ mt*wq   muta*aw~iq      Nall    connoisseur;person of taste
 *w      *owa    IV_0hwnyn       wither;fade
 ;; >a*owaY_1
 >*wY    >a*owaY PV_0    make wilt;make dry
-A*wY    >a*owaY PV_0    make wilt;make dry
 >*wA    >a*owA  PV_h    make wilt;make dry
-A*wA    >a*owA  PV_h    make wilt;make dry
 >*wy    >a*oway PV_Atn  make wilt;make dry
-A*wy    >a*oway PV_Atn  make wilt;make dry
 >*w     >a*ow   PV_ttAw make wilt;make dry
-A*w     >a*ow   PV_ttAw make wilt;make dry
 *wy     *owiy   IV_0hAnn_yu     make wilt;make dry
 *w      *ow     IV_0hwnyn_yu    make wilt;make dry
 *wY     *owaY   IV_0_Pass_yu    be wilted;be dried
@@ -1010,13 +936,10 @@ A*w     >a*ow   PV_ttAw make wilt;make dry
 *E      *iE     IV_C_intr       spread;circulate;become public
 ;; >a*AE_1
 >*AE    >a*AE   PV_V    broadcast;propagate
-A*AE    >a*AE   PV_V    broadcast;propagate
 >*E     >a*aE   PV_C    broadcast;propagate
-A*E     >a*aE   PV_C    broadcast;propagate
 *yE     *iyE    IV_V_yu broadcast;propagate
 *E      *iE     IV_C_yu broadcast;propagate
 >*yE    >u*iyE  PV_V_Pass       be broadcast;be propagated
-A*yE    >u*iyE  PV_V_Pass       be broadcast;be propagated
 *AE     *AE     IV_V_Pass_yu    be broadcast;be propagated
 *E      *aE     IV_C_Pass_yu    be broadcast;be propagated
 ;; *uyuwE_1
@@ -1026,12 +949,9 @@ m*yAE   mi*oyAE Ndu     transmitter;communicative
 m*AyyE  ma*AyiyE        Ndip    transmitters
 ;; <i*AEap_1
 <*AE    <i*AE   Napdu   broadcast;transmission
-A*AE    <i*AE   Napdu   broadcast;transmission
 <*AE    <i*AE   NAt     broadcasts;transmissions
-A*AE    <i*AE   NAt     broadcasts;transmissions
 ;; <i*AEiy~_1
 <*AEy   <i*AEiy~        Nall    radio;broadcast;transmission     <pos><i*AEiy~/ADJ</pos>
-A*AEy   <i*AEiy~        Nall    radio;broadcast;transmission     <pos><i*AEiy~/ADJ</pos>
 ;; *A}iE_1
 *A}E    *A}iE   Nall    widespread;widely known     <pos>*A}iE/ADJ</pos>
 ;; mu*iyE_1
@@ -1043,9 +963,7 @@ m*yE    mu*iyE  Nall    broadcaster;transmitter;announcer
 *yl     *ay~il  IV_yu   supplement;append
 ;; >a*Al_1
 >*Al    >a*Al   PV_V    trample;degrade
-A*Al    >a*Al   PV_V    trample;degrade
 >*l     >a*al   PV_C    trample;degrade
-A*l     >a*al   PV_C    trample;degrade
 *yl     *iyl    IV_V_yu trample;degrade
 *l      *il     IV_C_yu trample;degrade
 *Al     *Al     IV_V_Pass_yu    be trampled;be degraded
@@ -1055,7 +973,6 @@ A*l     >a*al   PV_C    trample;degrade
 *yl     *ayol   N       supplement;addendum
 *ywl    *uyuwl  N       tails;addenda;consequences
 >*yAl   >a*oyAl N       tails;addenda;consequences
-A*yAl   >a*oyAl N       tails;addenda;consequences
 ;; ta*oyiyl_1
 t*yyl   ta*oyiyl        NduAt   supplementing;appending
 ;; mu*ay~al_1

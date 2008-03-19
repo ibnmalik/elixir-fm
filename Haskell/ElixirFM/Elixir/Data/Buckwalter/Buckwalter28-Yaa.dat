@@ -39,11 +39,9 @@ y>s     yo>as   IV      despair;be hopeless
 y}s     yo}is   IV      despair;be hopeless
 ;; >ayo>as_1
 >y>s    >ayo>as PV      make despair
-Ay>s    >ayo>as PV      make despair
 y}s     yo}is   IV_yu   make despair
 ;; {isotayo>as_1
 <sty>s  {isotayo>as     PV      despair;be hopeless
-Asty>s  {isotayo>as     PV      despair;be hopeless
 sty}s   sotayo}is       IV      despair;be hopeless
 ;; ya>os_1
 y>s     ya>os   N       despair;hopelessness
@@ -125,7 +123,6 @@ ybs     yab~as  PV      make dry;desiccate
 ybs     yab~is  IV_yu   make dry;desiccate
 ;; >ayobas_1
 >ybs    >ayobas PV      make dry;desiccate
-Aybs    >ayobas PV      make dry;desiccate
 wbs     wbis    IV_yu   make dry;desiccate
 wbs     wbas    IV_Pass_yu      be dried;be desiccated
 ;; yabos_1
@@ -155,7 +152,6 @@ ytm     yatim   PV_intr be orphaned
 ytm     yotam   IV_intr be orphaned
 ;; >ayotam_1
 >ytm    >ayotam PV      make orphan
-Aytm    >ayotam PV      make orphan
 wtm     wtim    IV_yu   make orphan
 wtm     wtam    IV_Pass_yu      be orphaned
 ;; tayat~am_1
@@ -164,7 +160,6 @@ tytm    tayat~am        IV_intr be orphaned
 ;; yatiym_1
 ytym    yatiym  N/ap    orphan;unique
 >ytAm   >ayotAm N       orphans;unique
-AytAm   >ayotAm N       orphans;unique
 ytAmY   yatAmaY N0      orphans;unique
 ytAmA   yatAmA  Nhy     orphans;unique
 ;; mayotam_1
@@ -210,13 +205,9 @@ yxny    yaxoniy~        N-ap    ragout;meat and vegetable stew     <pos>yaxoniy~
 ;; yad_1
 yd      yad     Ndu     hand
 >ydy    >ayodiy N0_Nh   hands
-Aydy    >ayodiy N0_Nh   hands
 >yd     >ayod   NK      hands
-Ayd     >ayod   NK      hands
 >yAdy   >ayAdiy N0_Nh   hands
-AyAdy   >ayAdiy N0_Nh   hands
 >yAd    >ayAd   NK      hands
-AyAd    >ayAd   NK      hands
 ;; yadawiy~_1
 ydwy    yadawiy~        Nall    manual;hand     <pos>yadawiy~/ADJ</pos>
 ;
@@ -298,7 +289,6 @@ yAsr    yAsar   PV_intr be lenient with;be obliging with
 yAsr    yAsir   IV_intr_yu      be lenient with;be obliging with
 ;; >ayosar_1
 >ysr    >ayosar PV      live in comfort
-Aysr    >ayosar PV      live in comfort
 wsr     wsir    IV_yu   live in comfort
 wsr     wsar    IV_Pass_yu      be made easy;be facilitated
 ;; tayas~ar_1
@@ -306,7 +296,6 @@ tysr    tayas~ar        PV_intr be made easy;be facilitated
 tysr    tayas~ar        IV_intr be made easy;be facilitated
 ;; {isotayosar_1
 <stysr  {isotayosar     PV_intr be easy;be successful
-Astysr  {isotayosar     PV_intr be easy;be successful
 stysr   sotayosir       IV_intr be easy;be successful
 ;; yusoriy_1
 ysry    yusoriy Nprop   Yusri;Yosri
@@ -327,14 +316,12 @@ ysyr    yasiyr  N-ap    easy;simple     <pos>yasiyr/ADJ</pos>
 ysyr    yasiyr  N-ap    small;short     <pos>yasiyr/ADJ</pos>
 ;; >ayosar_2
 >ysr    >ayosar Nel     left
-Aysr    >ayosar Nel     left
 ysrY    yusoraY N0      left;left hand
 ysrA    yusorA  Nhy     left;left hand
 ysry    yusoray NAn_Nayn        left;left hands
 ysry    yusoray NAt     left;left hands
 ;; >ayosar_3
 >ysr    >ayosar Nel     easier/easiest;smaller/smallest
-Aysr    >ayosar Nel     easier/easiest;smaller/smallest
 ;; mayosir_1
 mysr    mayosir N       maisir (pre-Islamic gambling)
 ;; mayosarap_1
@@ -433,7 +420,6 @@ yfE     yafaE   PV      reach adolescence
 yfE     yofaE   IV      reach adolescence
 ;; >ayofaE_1
 >yfE    >ayofaE PV      reach adolescence
-AyfE    >ayofaE PV      reach adolescence
 wfE     wfiE    IV_yu   reach adolescence
 ;; tayaf~aE_1
 tyfE    tayaf~aE        PV      reach adolescence
@@ -445,7 +431,6 @@ yfE     yafaE   Ndu     hill
 ;; yafaE_2
 yfE     yafaE   Ndu     adolescent
 >yfAE   >ayofAE N       adolescents
-AyfAE   >ayofAE N       adolescents
 ;; yafAE_1
 yfAE    yafAE   N       hill
 ;; yAfiE_1
@@ -477,7 +462,6 @@ yqZ     yaq~aZ  PV      awaken;warn
 yqZ     yaq~iZ  IV_yu   awaken;warn
 ;; >ayoqaZ_1
 >yqZ    >ayoqaZ PV      awaken;warn
-AyqZ    >ayoqaZ PV      awaken;warn
 wqZ     wqiZ    IV_yu   awaken;warn
 wqZ     wqaZ    IV_Pass_yu      be awakened;be warned
 ;; tayaq~aZ_1
@@ -485,13 +469,11 @@ tyqZ    tayaq~aZ        PV_intr be awake;be alert
 tyqZ    tayaq~aZ        IV_intr be awake;be alert
 ;; {isotayoqaZ_1
 <styqZ  {isotayoqaZ     PV      wake up;be roused;be alert
-AstyqZ  {isotayoqaZ     PV      wake up;be roused;be alert
 styqZ   sotayoqiZ       IV      wake up;be roused;be alert
 ;; yaqiZ_1
 yqZ     yaqiZ   N-ap    awake;alert;vigilant     <pos>yaqiZ/ADJ</pos>
 yqZ     yaquZ   N-ap    awake;alert;vigilant
 >yqAZ   >ayoqAZ N       awake;alert;vigilant
-AyqAZ   >ayoqAZ N       awake;alert;vigilant
 ;; yaqoZap_1
 yqZ     yaqoZ   Nap     alertness;wakefulness
 yqZ     yaqaZ   Nap     alertness;wakefulness
@@ -505,12 +487,10 @@ yqAZY   yaqAZY  N0      awake;alert;vigilant
 yqAZA   yaqAZA  Nhy     awake;alert;vigilant
 ;; <iyqAZ_1
 <yqAZ   <iyqAZ  N/At    awakening;reveille
-AyqAZ   <iyqAZ  N/At    awakening;reveille
 ;; tayaq~uZ_1
 tyqZ    tayaq~uZ        N/At    awakening;alertness;vigilance
 ;; {isotiyqAZ_1
 <styqAZ {isotiyqAZ      NduAt   awakening;arousal
-AstyqAZ {isotiyqAZ      NduAt   awakening;arousal
 ;; mutayaq~iZ_1
 mtyqZ   mutayaq~iZ      Nall    awake;alert     <pos>mutayaq~iZ/ADJ</pos>
 ;; musotayoqiZ_1
@@ -522,14 +502,12 @@ yqn     yaqin   PV-n_intr       be sure;know for certain
 yqn     yoqan   IV-n_intr       be sure;know for certain
 ;; >ayoqan_1
 >yqn    >ayoqan PV-n    ascertain;be convinced
-Ayqn    >ayoqan PV-n    ascertain;be convinced
 yqn     yoqin   IV-n    ascertain;be convinced
 ;; tayaq~an_1
 tyqn    tayaq~an        PV-n    ascertain;be convinced
 tyqn    tayaq~an        IV-n    ascertain;be convinced
 ;; {isotayoqan_1
 <styqn  {isotayoqan     PV-n    ascertain;be convinced
-Astyqn  {isotayoqan     PV-n    ascertain;be convinced
 styqn   sotayoqin       IV-n    ascertain;be convinced
 ;; yaqon_1
 yqn     yaqon   N       certainty
@@ -593,7 +571,6 @@ tymn    tayam~an        PV-n    see a good omen;regard as auspicious
 tymn    tayam~an        IV-n    see a good omen;regard as auspicious
 ;; {isotayoman_1
 <stymn  {isotayoman     PV-n    see a good omen;regard as auspicious
-Astymn  {isotayoman     PV-n    see a good omen;regard as auspicious
 stymn   sotayomin       IV-n    see a good omen;regard as auspicious
 ;; yumon_1
 ymn     yumon   N       good fortune;success
@@ -625,17 +602,13 @@ ymyn    yamiyn  NF      to the right     <pos>yamiyn/ADV</pos>
 ;; yamiyn_2
 ymyn    yamiyn  Ndu     oath
 >ymn    >ayomun N       oaths
-Aymn    >ayomun N       oaths
 >ymAn   >ayomAn N       oaths
-AymAn   >ayomAn N       oaths
 ;; yamiyniy~_1
 ymyny   yamiyniy~       Nall    rightist;right-wing     <pos>yamiyniy~/ADJ</pos>
 ;; >ayoman_1
 >ymn    >ayoman Nprop   Ayman;Aiman
-Aymn    >ayoman Nprop   Ayman;Aiman
 ;; >ayoman_2
 >ymn    >ayoman Nel     right;right hand;lucky     <pos>>ayoman/ADJ</pos>
-Aymn    >ayoman Nel     right;right hand;lucky     <pos>>ayoman/ADJ</pos>
 ;; yumonaY_1
 ymnY    yumonaY N0      right hand;right side;lucky     <pos>yumonY/ADJ</pos>
 ymnA    yumonA  Nhy     right hand;right side;lucky     <pos>yumonA/ADJ</pos>
@@ -679,7 +652,6 @@ ynE     yonaE   IV      ripen;mellow
 ynE     yoniE   IV      ripen;mellow
 ;; >ayonaE_1
 >ynE    >ayonaE PV      ripen;mellow
-AynE    >ayonaE PV      ripen;mellow
 wnE     wniE    IV_yu   ripen;mellow
 wnE     wnaE    IV_Pass_yu      be ripened;be mellowed
 ;; yanoE_1
@@ -690,7 +662,6 @@ ynwE    yunuwE  N       ripening;mellowing
 ynyE    yaniyE  Nall    ripe;mellow     <pos>yaniyE/ADJ</pos>
 ;; <iynAE_1
 <ynAE   <iynAE  N/At    ripening;mellowing
-AynAE   <iynAE  N/At    ripening;mellowing
 ;; yAniE_1
 yAnE    yAniE   N/ap    ripe;mellow     <pos>yAniE/ADJ</pos>
 ynE     yanoE   N-ap    ripe;mellow
@@ -735,7 +706,6 @@ ywd     yuwd    N       iodine
 ;; yuwrAniyuwm_1
 ywrAnywm        yuwrAniyuwm     N0      uranium
 >wrAnywm        >uwrAniyuwm     N0      uranium
-AwrAnywm        >uwrAniyuwm     N0      uranium
 ;
 ;--- ywrk
 ;; yuwrk_1
@@ -829,7 +799,6 @@ yAwm    yAwim   IV_yu   hire (as a day laborer)
 ;; yawom_1
 ywm     yawom   Ndu     day
 >yAm    >ay~Am  N       days
-AyAm    >ay~Am  N       days
 ;; yawom_2
 ywmA    yawomAF FW-Wa   some day    <pos>yawomAF/ADV</pos>
 ;; yawom_3

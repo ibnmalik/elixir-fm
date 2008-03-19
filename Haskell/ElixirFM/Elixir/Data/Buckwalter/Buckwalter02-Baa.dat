@@ -113,7 +113,6 @@ b>r     bo>ar   IV      dig a well;focus
 b}r     bi}or   Ndu     well;spring
 ; note root re-analysis: (not >abo|r)
 |bAr    |bAr    N       wells;springs
-AbAr    |bAr    N       wells;springs
 b}Ar    bi}Ar   N       wells;springs
 ;; buwayorap_1
 bwyrp   buwayorap       N0      Bouaira
@@ -236,7 +235,6 @@ tbA's   tabA'as PV      feign misery;feign dejection
 tbA's   tabA'as IV      feign misery;feign dejection
 ;; {ibota>as_1
 <bt>s   {ibota>as       PV_intr be dejected;be worried
-Abt>s   {ibota>as       PV_intr be dejected;be worried
 bt}s    bota}is IV_intr be dejected;be worried
 ;; bi}osa_1
 b}s     bi}osa  FW-Wa   bad;evil;poor;unfortunate
@@ -255,7 +253,6 @@ b&ws    bu&uws  N       dejection;misery
 b&sY    bu&osaY N0      dejection;misery
 b&sA    bu&osA  Nhy     dejection;misery
 >b&s    >abo&us N       dejection;misery
-Ab&s    >abo&us N       dejection;misery
 ;; ba}iys_1
 b}ys    ba}iys  Nall    dejected;miserable
 b&sA'   bu&asA' N0_Nh   dejected;miserable
@@ -548,9 +545,7 @@ btt     bat~it  IV_yu   accomplish;adjudicate
 btt     bat~at  IV_Pass_yu      be accomplished;be adjudicated
 ;; {inobat~_1
 <nbt    {inobat~        PV_V_intr       be decided;be ruled
-Anbt    {inobat~        PV_V_intr       be decided;be ruled
 <nbtt   {inobatat       PV_Ct_intr      be decided;be ruled
-Anbtt   {inobatat       PV_Ct_intr      be decided;be ruled
 nbt     nobat~  IV_V_intr       be decided;be ruled
 nbtt    nobatit IV_C_intr       be decided;be ruled
 ;; bat~_1
@@ -581,13 +576,11 @@ btr     batar   PV      amputate;mutilate
 btr     botur   IV      amputate;mutilate
 ;; {inobatar_1
 <nbtr   {inobatar       PV_intr be amputated;be mutilated
-Anbtr   {inobatar       PV_intr be amputated;be mutilated
 nbtr    nobatir IV_intr be amputated;be mutilated
 ;; bator_1
 btr     bator   N       amputation;severance
 ;; >abotar_1
 >btr    >abotar Nel     amputee;defective
-Abtr    >abotar Nel     amputee;defective
 btrA'   batorA' N0_Nh   amputee;defective
 btrA&   batorA& Nh      amputee;defective
 btrA}   batorA} Nhy     amputee;defective
@@ -624,7 +617,6 @@ btrwlywm        bitruwliyuwm    Nprop   Petroleum
 ;
 ;; >abotaE_1
 >btE    >abotaE Nel     altogether;entire
-AbtE    >abotaE Nel     altogether;entire
 ;; bAtiE_1
 bAtE    bAtiE   Nall    strong;entire
 ;
@@ -651,7 +643,6 @@ tbtl    tabat~al        PV_intr be chaste;be pious
 tbtl    tabat~al        IV_intr be chaste;be pious
 ;; {inobatal_1
 <nbtl   {inobatal       PV_intr be severed;be finalized
-Anbtl   {inobatal       PV_intr be severed;be finalized
 nbtl    nobatil IV_intr be severed;be finalized
 ;; batuwl_1
 btwl    batuwl  N       virgin
@@ -680,9 +671,7 @@ bv      buv~    IV_V    transmit;disseminate
 bvv     bovuv   IV_C    transmit;disseminate
 ;; {inobav~_1
 <nbv    {inobav~        PV_V_intr       be transmitted;be disseminated
-Anbv    {inobav~        PV_V_intr       be transmitted;be disseminated
 <nbvv   {inobavav       PV_C_intr       be transmitted;be disseminated
-Anbvv   {inobavav       PV_C_intr       be transmitted;be disseminated
 nbv     nobav~  IV_V_intr       be transmitted;be disseminated
 nbvv    nobaviv IV_C_intr       be transmitted;be disseminated
 ;; bav~_1
@@ -714,11 +703,9 @@ bvq     boviq   IV      make overflow
 bvq     bovuq   IV      make overflow
 ;; {inobavaq_1
 <nbvq   {inobavaq       PV      emanate;result
-Anbvq   {inobavaq       PV      emanate;result
 nbvq    nobaviq IV      emanate;result
 ;; {inobivAq_1
 <nbvAq  {inobivAq       NduAt   effusion;emanation
-AnbvAq  {inobivAq       NduAt   effusion;emanation
 ;; munobaviq_1
 mnbvq   munobaviq       Nall    resulting;emanating
 ;; munobavaq_1
@@ -749,7 +736,6 @@ bjAdy   bijAdiy~        N-ap    garnet     <pos>bijAdiy~/ADJ</pos>
 ;
 ;; >abojar_1
 >bjr    >abojar Nel     obese;corpulent
-Abjr    >abojar Nel     obese;corpulent
 ;
 ;; bajas-ui_1
 bjs     bajas   PV      make flow
@@ -764,7 +750,6 @@ tbjs    tabaj~as        PV      flow;pour
 tbjs    tabaj~as        IV      flow;pour
 ;; {inobajas_1
 <nbjs   {inobajas       PV      flow;pour
-Anbjs   {inobajas       PV      flow;pour
 nbjs    nobajis IV      flow;pour
 ;; bajos_1
 bjs     bajos   N       flowing;streaming
@@ -811,9 +796,7 @@ bHH     baH~iH  IV_yu   make hoarse
 bHH     baH~aH  IV_Pass_yu      be made hoarse
 ;; >abaH~_1
 >bH     >abaH~  PV_V    make hoarse
-AbH     >abaH~  PV_V    make hoarse
 >bHH    >aboHaH PV_C    make hoarse
-AbHH    >aboHaH PV_C    make hoarse
 bH      biH~    IV_V_yu make hoarse
 bHH     boHiH   IV_C_yu make hoarse
 ;; buH~ap_1
@@ -823,7 +806,6 @@ bHAH    baHAH   Nap     hoarseness
 bHwH    buHuwH  Nap     hoarseness
 ;; >abaH~_2
 >bH     >abaH~  Nel     hoarse
-AbH     >abaH~  Nel     hoarse
 bHA'    baH~A'  N0_Nh   hoarse
 bHA&    baH~A&  Nh      hoarse
 bHA}    baH~A}  Nhy     hoarse
@@ -876,7 +858,6 @@ bHv     baHov   N       discussion
 bHv     baHov   N       search;examination;research
 bHwv    buHuwv  N/At    research
 >bHAv   >aboHAv N       research
-AbHAv   >aboHAv N       research
 ;; baHoviy~_1
 bHvy    baHoviy~        Nall    research     <pos>baHoviy~/ADJ</pos>
 ;; baH~Av_1
@@ -914,23 +895,19 @@ bHr     baH~ir  IV_yu   travel by sea
 bHr     baH~ar  IV_Pass_yu      be sent by sea
 ;; >aboHar_1
 >bHr    >aboHar PV      travel by sea;set sail
-AbHr    >aboHar PV      travel by sea;set sail
 bHr     boHir   IV_yu   travel by sea;set sail
 ;; tabaH~ar_1
 tbHr    tabaH~ar        PV      delve into;study
 tbHr    tabaH~ar        IV      delve into;study
 ;; {isotaboHar_1
 <stbHr  {isotaboHar     PV      delve into;expand
-AstbHr  {isotaboHar     PV      delve into;expand
 stbHr   sotaboHir       IV      delve into;expand
 ;; baHor_1
 bHr     baHor   Ndu     sea
 bHAr    biHAr   N       seas
 bHwr    buHuwr  N       seas
 >bHAr   >aboHAr N       seas
-AbHAr   >aboHAr N       seas
 >bHr    >aboHur N       seas
-AbHr    >aboHur N       seas
 ;; baHorayoni_1
 bHryn   baHorayoni      N0      Bahrain
 ;; baHorayoniy~_1
@@ -955,7 +932,6 @@ bHA}r   baHA}ir Ndip    lakes
 bHrAn   buHorAn N       crisis;culmination
 ;; <iboHAr_1
 <bHAr   <iboHAr NduAt   navigation;seafaring
-AbHAr   <iboHAr NduAt   navigation;seafaring
 ;; tabaH~ur_1
 tbHr    tabaH~ur        NduAt   delving;penetration
 ;; mutabaH~ir_1
@@ -1021,7 +997,6 @@ tbxr    tabax~ar        IV      evaporate;vaporize
 ;; buxAr_1
 bxAr    buxAr   N/At    vapor;steam
 >bxr    >aboxir Nap     vapor;steam
-Abxr    >aboxir Nap     vapor;steam
 ;; buxAriy~_1
 bxAry   buxAriy~        N0      Bukhari
 ;; buxAriy~_2
@@ -1030,7 +1005,6 @@ bxAry   buxAriy~        N-ap    steam;steam-driven     <pos>buxAriy~/ADJ</pos>
 bxwr    baxuwr  N       incense;frankincense
 ;; >aboxar_1
 >bxr    >aboxar Nel     foul-breathed
-Abxr    >aboxar Nel     foul-breathed
 ;; miboxarap_1
 mbxr    miboxar Napdu   fumigator;censer
 mbAxr   mabAxir Ndip    fumigators;censers
@@ -1051,7 +1025,6 @@ bxs     boxas   IV      depreciate;underestimate
 bxs     baxos   N       depreciation;very little
 ;; >aboxas_1
 >bxs    >aboxas Nel     smaller;lower
-Abxs    >aboxas Nel     smaller;lower
 ;; bAxis_1
 bAxs    bAxis   Nall    trifling;minuscule
 ;
@@ -1065,7 +1038,6 @@ bxE     boxaE   IV_intr be extreme;be violent
 ;
 ;; >aboxaq_1
 >bxq    >aboxaq Nel     one-eyed
-Abxq    >aboxaq Nel     one-eyed
 bxqA'   baxoqA' N0_Nh   one-eyed
 bxqA&   baxoqA& Nh      one-eyed
 bxqA}   baxoqA} Nhy     one-eyed
@@ -1114,27 +1086,21 @@ tbdd    tabad~ad        PV_intr be squandered;be dispersed
 tbdd    tabad~ad        IV_intr be squandered;be dispersed
 ;; {isotabad~_1
 <stbd   {isotabad~      PV_V    tyrannize;monopolize
-Astbd   {isotabad~      PV_V    tyrannize;monopolize
 <stbdd  {isotabodad     PV_C    tyrannize;monopolize
-Astbdd  {isotabodad     PV_C    tyrannize;monopolize
 stbd    sotabid~        IV_V    tyrannize;monopolize
 stbdd   sotabodid       IV_C    tyrannize;monopolize
 ;; bud~_1
 bd      bud~    N       escape;avoiding
 ;; >abAdiyd_1
 >bAdyd  >abAdiyd        Ndip    scattered
-AbAdyd  >abAdiyd        Ndip    scattered
 ;; tabodiyd_1
 tbdyd   tabodiyd        NduAt   defusing;squandering;dispersal
 ;; {isotibodAd_1
 <stbdAd {isotibodAd     N/At    despotism;monopolization
-AstbdAd {isotibodAd     N/At    despotism;monopolization
 ;; {isotibodAdiy~_1
 <stbdAdy        {isotibodAdiy~  Nall    arbitrary;authoritarian     <pos>{isotibodAdiy~/ADJ</pos>
-AstbdAdy        {isotibodAdiy~  Nall    arbitrary;authoritarian     <pos>{isotibodAdiy~/ADJ</pos>
 ;; {isotibodAdiy~ap_1
 <stbdAdy        {isotibodAdiy~  Nap     authoritarianism;autocracy     <pos>{isotibodAdiy~/NOUN</pos>
-AstbdAdy        {isotibodAdiy~  Nap     authoritarianism;autocracy     <pos>{isotibodAdiy~/NOUN</pos>
 ;; mubad~id_1
 mbdd    mubad~id        Nall    squanderer;scatterer
 ;; musotabid~_1
@@ -1158,19 +1124,13 @@ bAd&    bAda&   PV_w    initiate;lead
 bAd}    bAdi}   IV_yu   initiate;lead
 ;; >aboda>_1
 >bd>    >aboda> PV->    initiate;begin
-Abd>    >aboda> PV->    initiate;begin
 >bd|    >aboda| PV-|    initiate;begin
-Abd|    >aboda| PV-|    initiate;begin
 >bd&    >aboda& PV_w    initiate;begin
-Abd&    >aboda& PV_w    initiate;begin
 bd}     bodi}   IV_yu   initiate;begin
 ;; {ibotada>_1
 <btd>   {ibotada>       PV->    begin;start
-Abtd>   {ibotada>       PV->    begin;start
 <btd|   {ibotada|       PV-|    begin;start
-Abtd|   {ibotada|       PV-|    begin;start
 <btd&   {ibotada&       PV_w    begin;start
-Abtd&   {ibotada&       PV_w    begin;start
 btd}    botadi} IV      begin;start
 ;; bado'_1
 bd'     bado'   N0F     start;beginning
@@ -1207,23 +1167,15 @@ mbd}y   maboda}iy~      NF      in principle     <pos>maboda}iy~/ADV</pos>
 mbd>y   maboda>iy~      NF      in principle     <pos>maboda>iy~/ADV</pos>
 ;; {ibotidA'_1
 <btdA'  {ibotidA'       N0_Nh   beginning;start
-AbtdA'  {ibotidA'       N0_Nh   beginning;start
 <btdA&  {ibotidA&       Nh      beginning;start
-AbtdA&  {ibotidA&       Nh      beginning;start
 <btdA}  {ibotidA}       Nhy     beginning;start
-AbtdA}  {ibotidA}       Nhy     beginning;start
 <btdA'  {ibotidA'       NAn_Nayn        beginning;starts
-AbtdA'  {ibotidA'       NAn_Nayn        beginning;starts
 <btdA}  {ibotidA}       Nayn    beginning;starts
-AbtdA}  {ibotidA}       Nayn    beginning;starts
 <btdA'  {ibotidA'       NAt     beginning;starts
-AbtdA'  {ibotidA'       NAt     beginning;starts
 ;; {ibotidA'F_1
 <btdA'  {ibotidA'F      FW-Wa   beginning from;as of     <pos>{ibotidA'F/ADJ</pos>
-AbtdA'  {ibotidA'F      FW-Wa   beginning from;as of     <pos>{ibotidA'F/ADJ</pos>
 ;; {ibotidA}iy~_1
 <btdA}y {ibotidA}iy~    Nall    elementary;preparatory     <pos>{ibotidA}iy~/ADJ</pos>
-AbtdA}y {ibotidA}iy~    Nall    elementary;preparatory     <pos>{ibotidA}iy~/ADJ</pos>
 ;; bAdi}_1
 bAd}    bAdi}   Nall    beginning
 ;; mubotadi}_1
@@ -1246,7 +1198,6 @@ tbAdr   tabAdar PV      come first
 tbAdr   tabAdar IV      come first
 ;; {ibotadar_1
 <btdr   {ibotadar       PV      rush at;hurry to
-Abtdr   {ibotadar       PV      rush at;hurry to
 btdr    botadir IV      rush at;hurry to
 ;; buduwr_1
 bdwr    buduwr  N       sudden appearance
@@ -1292,15 +1243,12 @@ bdE     bad~iE  IV_yu   excel
 bdE     bad~aE  IV_Pass_yu      be excelled
 ;; >abodaE_1
 >bdE    >abodaE PV      innovate;create
-AbdE    >abodaE PV      innovate;create
 bdE     bodiE   IV_yu   innovate;create
 ;; {ibotadaE_1
 <btdE   {ibotadaE       PV      contrive;invent
-AbtdE   {ibotadaE       PV      contrive;invent
 btdE    botadiE IV      contrive;invent
 ;; {isotabodaE_1
 <stbdE  {isotabodaE     PV      find extraordinary;find strange
-AstbdE  {isotabodaE     PV      find extraordinary;find strange
 stbdE   sotabodiE       IV      find extraordinary;find strange
 ;; badoE_1
 bdE     badoE   N       innovation;creation
@@ -1308,7 +1256,6 @@ bdE     badoE   N       innovation;creation
 bdE     bidoE   N       original;wonder
 ;; >abodAE_1
 >bdAE   >abodAE N       wonders;novelties
-AbdAE   >abodAE N       wonders;novelties
 ;; bidoEap_1
 bdE     bidoE   Napdu   heresy;novelty
 bdE     bidaE   N       heresies;novelties
@@ -1323,19 +1270,14 @@ bdA}E   badA}iE Ndip    wonders;marvels
 bdyEy   badiyEiy~       Nall    rhetorical     <pos>badiyEiy~/ADJ</pos>
 ;; >abodaE_2
 >bdE    >abodaE Nel     more/most amazing
-AbdE    >abodaE Nel     more/most amazing
 ;; <ibodAE_1
 <bdAE   <ibodAE NduAt   originality;creativity
-AbdAE   <ibodAE NduAt   originality;creativity
 ;; <ibodAEiy~_1
 <bdAEy  <ibodAEiy~      Nall    original;creative     <pos><ibodAEiy~/ADJ</pos>
-AbdAEy  <ibodAEiy~      Nall    original;creative     <pos><ibodAEiy~/ADJ</pos>
 ;; {ibotidAE_1
 <btdAE  {ibotidAE       NduAt   innovation
-AbtdAE  {ibotidAE       NduAt   innovation
 ;; {ibotidAEiy~_1
 <btdAEy {ibotidAEiy~    Nall    innovative     <pos>{ibotidAEiy~/ADJ</pos>
-AbtdAEy {ibotidAEiy~    Nall    innovative     <pos>{ibotidAEiy~/ADJ</pos>
 ;; mubodiE_1
 mbdE    mubodiE Nall    innovator;creative
 ;; mubotadiE_1
@@ -1353,7 +1295,6 @@ bAdl    bAdal   PV      exchange;trade
 bAdl    bAdil   IV_yu   exchange;trade
 ;; >abodal_1
 >bdl    >abodal PV      substitute;exchange;replace
-Abdl    >abodal PV      substitute;exchange;replace
 bdl     bodil   IV_yu   substitute;exchange;replace
 ;; tabad~al_1
 tbdl    tabad~al        PV_intr be exchanged
@@ -1363,12 +1304,10 @@ tbAdl   tabAdal PV      exchange
 tbAdl   tabAdal IV      exchange
 ;; {isotabodal_1
 <stbdl  {isotabodal     PV      replace;substitute
-Astbdl  {isotabodal     PV      replace;substitute
 stbdl   sotabodil       IV      replace;substitute
 ;; badal_1
 bdl     badal   N/At    substitute
 >bdAl   >abodAl N       substitutes
-AbdAl   >abodAl N       substitutes
 ;; badalAF_1
 bdl     badal   NF      instead of;in lieu of     <pos>badal/ADV</pos>
 ;; badolap_1
@@ -1397,17 +1336,14 @@ tbdyl   tabodiyl        NduAt   replacement;exchange
 mbAdl   mubAdal NapAt   exchange
 ;; <ibodAl_1
 <bdAl   <ibodAl N       substitute;replace
-AbdAl   <ibodAl N       substitute;replace
 ;; <ibodAl_2
 <bdAl   <ibodAl NduAt   substitution;replacement
-AbdAl   <ibodAl NduAt   substitution;replacement
 ;; tabad~ul_1
 tbdl    tabad~ul        NduAt   transformation;shift
 ;; tabAdul_1
 tbAdl   tabAdul NduAt   exchange
 ;; {isotibodAl_1
 <stbdAl {isotibodAl     NduAt   substitution;exchange;replacement
-AstbdAl {isotibodAl     NduAt   substitution;exchange;replacement
 ;; mutabAdal_1
 mtbAdl  mutabAdal       Nall    mutual;reciprocal     <pos>mutabAdal/ADJ</pos>
 ;; musotabodal_1
@@ -1422,9 +1358,7 @@ bdn     bodun   IV-n_intr       be corpulent
 ;; badan_1
 bdn     badan   N       body
 >bdAn   >abodAn N       bodies
-AbdAn   >abodAn N       bodies
 >bdn    >abodun N       bodies
-Abdn    >abodun N       bodies
 ;; badaniy~_1
 bdny    badaniy~        Nall    physical;bodily     <pos>badaniy~/ADJ</pos>
 ;; badAnap_1
@@ -1445,7 +1379,6 @@ bAdh    bAdah   PV      arrive unexpectedly;surprise
 bAdh    bAdih   IV_yu   arrive unexpectedly;surprise
 ;; {ibotadah_1
 <btdh   {ibotadah       PV      improvise;extemporize
-Abtdh   {ibotadah       PV      improvise;extemporize
 btdh    botadih IV      improvise;extemporize
 ;; badAhap_1
 bdAh    badAh   NapAt   spontaneity
@@ -1478,13 +1411,9 @@ bAdY    bAdaY   IV_0_Pass_yu    be revealed;be shown
 bAdy    bAday   IV_Ann_Pass_yu  be revealed;be shown
 ;; >abodaY_1
 >bdY    >abodaY PV_0    express;demonstrate;show
-AbdY    >abodaY PV_0    express;demonstrate;show
 >bdA    >abodA  PV_h    express;demonstrate;show
-AbdA    >abodA  PV_h    express;demonstrate;show
 >bdy    >aboday PV_Atn  express;demonstrate;show
-Abdy    >aboday PV_Atn  express;demonstrate;show
 >bd     >abod   PV_ttAw express;demonstrate;show
-Abd     >abod   PV_ttAw express;demonstrate;show
 bdy     bodiy   IV_0hAnn_yu     express;demonstrate;show
 bd      bod     IV_0hwnyn_yu    express;demonstrate;show
 bdY     bodaY   IV_0_Pass_yu    be expressed;be demonstrated;be shown
@@ -1511,17 +1440,11 @@ bdAw    badAw   Nap     desert life;nomadism;Bedouin life
 bdAw    bidAw   Nap     desert life;nomadism;Bedouin life
 ;; <ibodA'_1
 <bdA'   <ibodA' N0_Nh   expression;manifestation
-AbdA'   <ibodA' N0_Nh   expression;manifestation
 <bdA&   <ibodA& Nh      expression;manifestation
-AbdA&   <ibodA& Nh      expression;manifestation
 <bdA}   <ibodA} Nhy     expression;manifestation
-AbdA}   <ibodA} Nhy     expression;manifestation
 <bdA'   <ibodA' NAn_Nayn        expressions;manifestations
-AbdA'   <ibodA' NAn_Nayn        expressions;manifestations
 <bdA}   <ibodA} Nayn    expressions;manifestations
-AbdA}   <ibodA} Nayn    expressions;manifestations
 <bdA'   <ibodA' NAt     expressions;manifestations
-AbdA'   <ibodA' NAt     expressions;manifestations
 ;; bAdiy_1
 bAdy    bAdiy   N0F     apparent;obvious
 bAd     bAd     NK      apparent;obvious
@@ -1618,7 +1541,6 @@ tb*l    taba*~al        PV_intr be shameless;lose self control
 tb*l    taba*~al        IV_intr be shameless;lose self control
 ;; {ibota*al_1
 <bt*l   {ibota*al       PV      neglect;be debased
-Abt*l   {ibota*al       PV      neglect;be debased
 bt*l    bota*il IV      neglect;be debased
 ;; ba*ol_1
 b*l     ba*ol   N       spending;donating
@@ -1632,7 +1554,6 @@ mbA*l   mabA*il Ndip    slippers;house clothes
 tb*l    taba*~ul        N/At    banality
 ;; {iboti*Al_1
 <bt*Al  {iboti*Al       NduAt   degradation;vulgarity
-Abt*Al  {iboti*Al       NduAt   degradation;vulgarity
 ;; bA*il_1
 bA*l    bA*il   Nall    spender;spending
 ;; mabo*uwl_1
@@ -1655,9 +1576,7 @@ brr     bar~ir  IV_yu   justify;warrant;vindicate;acquit
 brr     bar~ar  IV_Pass_yu      be justified;be warranted
 ;; >abar~_1
 >br     >abar~  PV_V    fulfill
-Abr     >abar~  PV_V    fulfill
 >brr    >aborar PV_C    fulfill
-Abrr    >aborar PV_C    fulfill
 br      bir~    IV_V_yu fulfill
 brr     borir   IV_C_yu fulfill
 ;; tabar~ar_1
@@ -1672,7 +1591,6 @@ br      bar~    NF      by land     <pos>bar~/ADV</pos>
 ;; bAr~_1
 bAr     bAr~    Nall    pious;charitable
 >brAr   >aborAr N       pious;charitable
-AbrAr   >aborAr N       pious;charitable
 brr     barar   Nap     pious;charitable
 ;; mabar~ap_1
 mbr     mabar~  NapAt   charity;benefaction
@@ -1722,11 +1640,8 @@ br}     bar~i}  IV_yu   absolve;exonerate;pardon
 br>     bar~a>  IV_Pass_yu      be absolved;be exonerated;be pardoned
 ;; >abora>_1
 >br>    >abora> PV->    acquit;absolve;exonerate
-Abr>    >abora> PV->    acquit;absolve;exonerate
 >br|    >abora| PV-|    acquit;absolve;exonerate
-Abr|    >abora| PV-|    acquit;absolve;exonerate
 >br&    >abora& PV_w    acquit;absolve;exonerate
-Abr&    >abora& PV_w    acquit;absolve;exonerate
 br}     bori}   IV_yu   acquit;absolve;exonerate
 br>     bora>   IV_Pass_yu      be acquitted;be absolved;be exonerated
 ;; tabar~a>_1
@@ -1739,11 +1654,8 @@ tbr&    tabar~a&        IV_wn   be absolved;be innocent
 tbr}    tabar~a}        IV_yn   be absolved;be innocent
 ;; {isotabora>_1
 <stbr>  {isotabora>     PV->    restore to health;be emancipated
-Astbr>  {isotabora>     PV->    restore to health;be emancipated
 <stbr|  {isotabora|     PV-|    restore to health;be emancipated
-Astbr|  {isotabora|     PV-|    restore to health;be emancipated
 <stbr&  {isotabora&     PV_w    restore to health;be emancipated
-Astbr&  {isotabora&     PV_w    restore to health;be emancipated
 stbr}   sotabori}       IV      restore to health;be emancipated
 ;; baro'_1
 br'     baro'   N0F     creation
@@ -1774,11 +1686,8 @@ brA&    barA&   Nh      innocent;exempt
 brA}    barA}   Nhy     innocent;exempt
 ;; >aboriyA'_1
 >bryA'  >aboriyA'       N0_Nh   innocent;exempt
-AbryA'  >aboriyA'       N0_Nh   innocent;exempt
 >bryA&  >aboriyA&       Nh      innocent;exempt
-AbryA&  >aboriyA&       Nh      innocent;exempt
 >bryA}  >aboriyA}       Nhy     innocent;exempt
-AbryA}  >aboriyA}       Nhy     innocent;exempt
 ;; barA'ap_1
 brA'    barA'   Nap     innocence
 ;; barA'ap_2
@@ -1790,30 +1699,18 @@ mbAr>   mubAra> Napdu   divorce
 mbAr    mubAra  N-|t    divorces
 ;; <iborA'_1
 <brA'   <iborA' N0_Nh   acquittal;exoneration
-AbrA'   <iborA' N0_Nh   acquittal;exoneration
 <brA&   <iborA& Nh      acquittal;exoneration
-AbrA&   <iborA& Nh      acquittal;exoneration
 <brA}   <iborA} Nhy     acquittal;exoneration
-AbrA}   <iborA} Nhy     acquittal;exoneration
 <brA'   <iborA' NAn_Nayn        acquittals;exonerations
-AbrA'   <iborA' NAn_Nayn        acquittals;exonerations
 <brA}   <iborA} Nayn    acquittals;exonerations
-AbrA}   <iborA} Nayn    acquittals;exonerations
 <brA'   <iborA' NAt     acquittals;exonerations
-AbrA'   <iborA' NAt     acquittals;exonerations
 ;; {isotiborA'_1
 <stbrA' {isotiborA'     N0_Nh   purification
-AstbrA' {isotiborA'     N0_Nh   purification
 <stbrA& {isotiborA&     Nh      purification
-AstbrA& {isotiborA&     Nh      purification
 <stbrA} {isotiborA}     Nhy     purification
-AstbrA} {isotiborA}     Nhy     purification
 <stbrA' {isotiborA'     NAn_Nayn        purifications
-AstbrA' {isotiborA'     NAn_Nayn        purifications
 <stbrA} {isotiborA}     Nayn    purifications
-AstbrA} {isotiborA}     Nayn    purifications
 <stbrA' {isotiborA'     NAt     purifications
-AstbrA' {isotiborA'     NAt     purifications
 ;
 ; Israeli settlement on the West Bank
 ;; brAxA_1
@@ -1942,7 +1839,6 @@ tbrj    tabar~aj        IV      adorn;deck
 brj     buroj   Ndu     tower;constellation
 brwj    buruwj  N       towers;constellations
 >brAj   >aborAj N       towers;constellations
-AbrAj   >aborAj N       towers;constellations
 ;; buroj_2
 brj     buroj   N0      Burj
 ;; burayoj_1
@@ -1988,7 +1884,6 @@ bArH    bAraH   PV      give up
 bArH    bAriH   IV_yu   give up
 ;; >aboraH_1
 >brH    >aboraH PV      do good
-AbrH    >aboraH PV      do good
 brH     boriH   IV_yu   do good
 ;; barAH_1
 brAH    barAH   N       empty land;cessation
@@ -2019,14 +1914,12 @@ brd     bar~id  IV_yu   refrigerate;make cold
 brd     bar~ad  IV_Pass_yu      be refrigerated;be cooled
 ;; >aborad_1
 >brd    >aborad PV      mail
-Abrd    >aborad PV      mail
 brd     borid   IV_yu   mail
 ;; tabar~ad_1
 tbrd    tabar~ad        PV_intr be cold
 tbrd    tabar~ad        IV_intr be cold
 ;; {ibotarad_1
 <btrd   {ibotarad       PV      cool off
-Abtrd   {ibotarad       PV      cool off
 btrd    botarid IV      cool off
 ;; barod_1
 brd     barod   N       cold;cooling
@@ -2037,7 +1930,6 @@ brd     barad   Nap     hailstone
 ;; burod_1
 brd     burod   N       garment
 >brAd   >aborAd N       garments
-AbrAd   >aborAd N       garments
 ;; baruwd_1
 brwd    baruwd  N       collyrium (medicated solution for the eyes)
 ;; buruwd_1
@@ -2146,7 +2038,6 @@ bArz    bAraz   PV      compete against
 bArz    bAriz   IV_yu   compete against
 ;; >aboraz_1
 >brz    >aboraz PV      highlight;expose
-Abrz    >aboraz PV      highlight;expose
 brz     boriz   IV_yu   highlight;expose
 ;; tabar~az_1
 tbrz    tabar~az        PV      defecate
@@ -2156,7 +2047,6 @@ tbArz   tabAraz PV      compete against
 tbArz   tabAraz IV      compete against
 ;; {ibotaraz_1
 <btrz   {ibotaraz       PV      excel;surpass
-Abtrz   {ibotaraz       PV      excel;surpass
 btrz    botariz IV      excel;surpass
 ;; buruwz_1
 brwz    buruwz  N       prominence;appearance
@@ -2168,12 +2058,10 @@ brAz    birAz   N       competition;duel
 bryz    burayoz NapAt   bureiza (10-piaster coin)
 ;; >aboraz_2
 >brz    >aboraz Nel     more/most prominent     <pos>>aboraz/ADJ</pos>
-Abrz    >aboraz Nel     more/most prominent     <pos>>aboraz/ADJ</pos>
 ;; mubArazap_1
 mbArz   mubAraz NapAt   contest;duel;competition
 ;; <iborAz_1
 <brAz   <iborAz NduAt   displaying;emphasizing;accentuation
-AbrAz   <iborAz NduAt   displaying;emphasizing;accentuation
 ;; bAriz_1
 bArz    bAriz   Nall    prominent;distinct     <pos>bAriz/ADJ</pos>
 ;; mubar~iz_1
@@ -2212,10 +2100,8 @@ brsym   birosiym        N       clover
 ;; buro$_1
 br$     buro$   Ndu     mat
 >brA$   >aborA$ N       mats
-AbrA$   >aborA$ N       mats
 ;; >abora$_1
 >br$    >abora$ Nel     spotted;speckled
-Abr$    >abora$ Nel     spotted;speckled
 ;
 ; Saber Barash (14-year-old Palestinian victim)
 ;; barA$_1
@@ -2257,7 +2143,6 @@ brS     buroS   N       gecko
 ;; baraS_1
 brS     baraS   N       leprosy
 >brS    >aboraS Nel     leprous;leper
-AbrS    >aboraS Nel     leprous;leper
 ;
 ;; buroSap_1
 brS     buroS   NapAt   stock exchange
@@ -2315,7 +2200,6 @@ brAE    barAE   Nap     skill;proficiency
 brwE    buruwE  Nap     eminence
 ;; >aboraE_1
 >brE    >aboraE Nel     more/most eminent;more/most skillful
-AbrE    >aboraE Nel     more/most eminent;more/most skillful
 ;; tabar~uE_1
 tbrE    tabar~uE        Ndu     donation;contribution
 tbrE    tabar~uE        NAt     donations;contributions
@@ -2373,7 +2257,6 @@ brq     baraq   PV      flash;shine
 brq     boruq   IV      flash;shine
 ;; >aboraq_1
 >brq    >aboraq PV      flash;shine
-Abrq    >aboraq PV      flash;shine
 brq     boriq   IV_yu   flash;shine
 ;; baroq_1
 brq     baroq   Ndu     lightning;telegraph
@@ -2444,7 +2327,6 @@ bArk    bArak   PV      bless;congratulate
 bArk    bArik   IV_yu   bless;congratulate
 ;; >aborak_1
 >brk    >aborak PV      make kneel
-Abrk    >aborak PV      make kneel
 brk     borik   IV_yu   make kneel
 ;; tabar~ak_1
 tbrk    tabar~ak        PV_intr be blessed;be prosperous
@@ -2454,7 +2336,6 @@ tbArk   tabArak PV_intr be blessed
 tbArk   tabArak IV_intr be blessed
 ;; {isotaborak_1
 <stbrk  {isotaborak     PV_intr be blessed
-Astbrk  {isotaborak     PV_intr be blessed
 stbrk   sotaborik       IV_intr be blessed
 ;; birokap_1
 brk     birok   Napdu   pool
@@ -2466,7 +2347,6 @@ brk     barak   NAt     blessings
 brkAt   barakAt N0      Barakaat;Barakat
 ;; >aborak_2
 >brk    >aborak Nel     more/most blessed
-Abrk    >aborak Nel     more/most blessed
 ;; maboruwk_1
 mbrwk   maboruwk        FW-Wa   congratulations!
 ;; maboruwk_2
@@ -2513,7 +2393,6 @@ brm     bar~im  IV_yu   twist;twine
 brm     bar~am  IV_Pass_yu      be twisted;be twined
 ;; >aboram_1
 >brm    >aboram PV      conclude;ratify
-Abrm    >aboram PV      conclude;ratify
 brm     borim   IV_yu   conclude;ratify
 brm     boram   IV_Pass_yu      be concluded;be ratified
 ; unattested
@@ -2525,7 +2404,6 @@ tbrm    tabar~am        PV_intr be bored;be fed up
 tbrm    tabar~am        IV_intr be bored;be fed up
 ;; {inobaram_1
 <nbrm   {inobaram       PV_intr be settled;be twisted
-Anbrm   {inobaram       PV_intr be settled;be twisted
 nbrm    nobarim IV_intr be settled;be twisted
 ;; barim_1
 brm     barim   Ndu     weary;tired
@@ -2551,7 +2429,6 @@ mbrm    muboram N-ap    concluded;ratified
 mbrm    muboram Nall    established;irrevocable
 ;; <iborAm_1
 <brAm   <iborAm NduAt   ratification;conclusion
-AbrAm   <iborAm NduAt   ratification;conclusion
 ;
 ;; buromap_1
 brm     burom   Nap     earthenware pot
@@ -2816,13 +2693,9 @@ tbAry   tabAray IV_Ann  challenge;confront
 tbAr    tabAr   IV_0hwnyn       challenge;confront
 ;; {inobaraY_1
 <nbrY   {inobaraY       PV_0    be sharpened;be tired
-AnbrY   {inobaraY       PV_0    be sharpened;be tired
 <nbrA   {inobarA        PV_h    be sharpened;be tired
-AnbrA   {inobarA        PV_h    be sharpened;be tired
 <nbry   {inobaray       PV_Atn  be sharpened;be tired
-Anbry   {inobaray       PV_Atn  be sharpened;be tired
 <nbr    {inobar PV_ttAw_intr    be sharpened;be tired
-Anbr    {inobar PV_ttAw_intr    be sharpened;be tired
 nbry    nobariy IV_0hAnn        be sharpened;be tired
 nbr     nobar   IV_0hwnyn       be sharpened;be tired
 nbrY    nobaraY IV_0_Pass_yu    be sharpened;be tired
@@ -2905,9 +2778,7 @@ bz      buz~    IV_V    bud;burgeon
 bzz     bozuz   IV_C    bud;burgeon
 ;; {ibotaz~_1
 <btz    {ibotaz~        PV_V    embezzle;extort
-Abtz    {ibotaz~        PV_V    embezzle;extort
 <btzz   {ibotazaz       PV_C    embezzle;extort
-Abtzz   {ibotazaz       PV_C    embezzle;extort
 btz     botaz~  IV_V    embezzle;extort
 btzz    botaziz IV_C    embezzle;extort
 ;; baz~_1
@@ -2921,7 +2792,6 @@ bz      buz~    Ndu     nipple;teat
 bz      biz~    Ndu     nipple;teat
 bzAz    bizAz   N       nipples;teats
 >bzAz   >abozAz N       nipples;teats
-AbzAz   >abozAz N       nipples;teats
 ;; baz~ap_1
 bz      baz~    Nap     clothing;dress
 ;; bizAzap_1
@@ -2932,7 +2802,6 @@ bzAz    baz~Az  N       draper;cloth merchant
 bzAz    baz~Az  NapAt   pacifier;baby's bottle
 ;; {ibotizAz_1
 <btzAz  {ibotizAz       NduAt   embezzlement;extortion
-AbtzAz  {ibotizAz       NduAt   embezzlement;extortion
 ;
 ;; bazobuwz_1
 bzbwz   bazobuwz        N       nozzle;spout
@@ -2952,9 +2821,7 @@ bzr     bizor   NapAt   seed;germ
 ;; bizor_2
 bzr     bizor   N       spice
 >bzAr   >abozAr N       spice
-AbzAr   >abozAr N       spice
 >bAzyr  >abAziyr        Ndip    spice
-AbAzyr  >abAziyr        Ndip    spice
 ;; baz~Ar_1
 bzAr    baz~Ar  N       seedman
 ;; buzayorap_1
@@ -3084,7 +2951,6 @@ bsr     basar   PV      scowl;frown
 bsr     bosur   IV      scowl;frown
 ;; {ibotasar_1
 <btsr   {ibotasar       PV_intr be rash;be premature
-Abtsr   {ibotasar       PV_intr be rash;be premature
 btsr    botasir IV_intr be rash;be premature
 ;; busuwr_1
 bswr    busuwr  N       scowling;frowning
@@ -3116,11 +2982,9 @@ tbsT    tabas~aT        PV_intr be simple;be frank
 tbsT    tabas~aT        IV_intr be simple;be frank
 ;; {inobasaT_1
 <nbsT   {inobasaT       PV      have fun;be happy
-AnbsT   {inobasaT       PV      have fun;be happy
 nbsT    nobasiT IV      have fun;be happy
 ;; {inobasaT_2
 <nbsT   {inobasaT       PV      stretch;spread out
-AnbsT   {inobasaT       PV      stretch;spread out
 nbsT    nobasiT IV      stretch;spread out
 ;; basoT_1
 bsT     basoT   N       spreading;extension
@@ -3133,7 +2997,6 @@ bsAT    bisAT   N       dais;platform
 bsAT    bisAT   N/At    carpet
 bsT     busuT   N       carpets
 >bsT    >abosiT Nap     carpets
-AbsT    >abosiT Nap     carpets
 ;; basiyT_1
 bsyT    basiyT  N/ap    simple;plain
 bsTA'   busaTA' N0_Nh   simple;plain
@@ -3147,27 +3010,20 @@ bsA}T   basA}iT Ndip    basic facts;elements
 bsAT    basAT   Nap     simplicity;plainness
 ;; >ubosuwTap_1
 >bswT   >ubosuwT        Napdu   wheel rim
-AbswT   >ubosuwT        Napdu   wheel rim
 <bsyT   <ibosiyT        Ndu     wheel rim
-AbsyT   <ibosiyT        Ndu     wheel rim
 >bAsyT  >abAsiyT        Ndip    wheel rims
-AbAsyT  >abAsiyT        Ndip    wheel rims
 ;; >abosaT_1
 >bsT    >abosaT Nel     simpler/simplest;most basic
-AbsT    >abosaT Nel     simpler/simplest;most basic
 ;; tabosiyT_1
 tbsyT   tabosiyT        NduAt   simplification
 ;; tabas~uT_1
 tbsT    tabas~uT        NduAt   candor;frankness
 ;; {inobisAT_1
 <nbsAT  {inobisAT       N/At    cheerfulness
-AnbsAT  {inobisAT       N/At    cheerfulness
 ;; {inobisAT_2
 <nbsAT  {inobisAT       N/At    extension
-AnbsAT  {inobisAT       N/At    extension
 ;; {inobisATap_1
 <nbsAT  {inobisAT       Nap     extension
-AnbsAT  {inobisAT       Nap     extension
 ;; bAsiT_1
 bAsT    bAsiT   N0      Basit
 ;; mabosuwT_1
@@ -3209,7 +3065,6 @@ tbsl    tabas~al        PV      scowl;be brave
 tbsl    tabas~al        IV      scowl;be brave
 ;; {isotabosal_1
 <stbsl  {isotabosal     PV_intr be courageous
-Astbsl  {isotabosal     PV_intr be courageous
 stbsl   sotabosil       IV_intr be courageous
 ;; basAlap_1
 bsAl    basAl   Nap     courage
@@ -3223,7 +3078,6 @@ bslA}   busalA} Nhy     fearless;intrepid
 bwAsl   bawAsil Ndip    fearless;intrepid
 ;; {isotibosAl_1
 <stbsAl {isotibosAl     N/At    courage
-AstbsAl {isotibosAl     N/At    courage
 ;; musotabosil_1
 mstbsl  musotabosil     Nall    fearless;intrepid
 ;
@@ -3236,7 +3090,6 @@ tbsm    tabas~am        PV      smile
 tbsm    tabas~am        IV      smile
 ;; {ibotasam_1
 <btsm   {ibotasam       PV      smile
-Abtsm   {ibotasam       PV      smile
 btsm    botasim IV      smile
 ;; basom_1
 bsm     basom   N       smiling
@@ -3260,13 +3113,10 @@ mbsm    mabosim Ndu     mouthpiece
 mbAsm   mabAsim Ndip    mouthpieces
 ;; {ibotisAm_1
 <btsAm  {ibotisAm       N0      Ibtisam
-AbtsAm  {ibotisAm       N0      Ibtisam
 ;; {ibotisAm_2
 <btsAm  {ibotisAm       N       smiling
-AbtsAm  {ibotisAm       N       smiling
 ;; {ibotisAmap_1
 <btsAm  {ibotisAm       NapAt   smile
-AbtsAm  {ibotisAm       NapAt   smile
 ;
 ;--- bsm(2)
 ;; bisomi_1
@@ -3336,11 +3186,9 @@ bA$r    bA$ar   PV      embark upon;proceed
 bA$r    bA$ir   IV_yu   embark upon;proceed
 ;; >abo$ar_1
 >b$r    >abo$ar PV      rejoice
-Ab$r    >abo$ar PV      rejoice
 b$r     bo$ir   IV_yu   rejoice
 ;; {isotabo$ar_1
 <stb$r  {isotabo$ar     PV      rejoice;welcome
-Astb$r  {isotabo$ar     PV      rejoice;welcome
 stb$r   sotabo$ir       IV      rejoice;welcome
 ;; bi$or_1
 b$r     bi$or   N       joy
@@ -3418,7 +3266,6 @@ b$E     ba$~iE  IV_yu   make ugly;disfigure
 b$E     ba$~aE  IV_Pass_yu      be made ugly;be disfigured
 ;; {isotabo$aE_1
 <stb$E  {isotabo$aE     PV      consider ugly
-Astb$E  {isotabo$aE     PV      consider ugly
 stb$E   sotabo$iE       IV      consider ugly
 ;; ba$AEap_1
 b$AE    ba$AE   Nap     ugliness;repugnance
@@ -3428,20 +3275,17 @@ b$E     ba$iE   Nall    ugly;repugnant
 b$yE    ba$iyE  Nall    ugly;repugnant
 ;; >abo$aE_1
 >b$E    >abo$aE Nel     uglier;ugliest
-Ab$E    >abo$aE Nel     uglier;ugliest
 ;; tabo$iyE_1
 tb$yE   tabo$iyE        N/At    disfiguration
 ;
 ;--- b$k
 ;; {ibota$ak_1
 <bt$k   {ibota$ak       PV      lie;deceive
-Abt$k   {ibota$ak       PV      lie;deceive
 bt$k    bota$ik IV      lie;deceive
 ;; ba$~Ak_1
 b$Ak    ba$~Ak  Nall    liar
 ;; {iboti$Ak_1
 <bt$Ak  {iboti$Ak       NduAt   deceit
-Abt$Ak  {iboti$Ak       NduAt   deceit
 ;; bA$ik_1
 bA$k    bA$ik   Ndu     sparrow hawk
 bwA$k   bawA$ik Ndip    sparrow hawks
@@ -3459,7 +3303,6 @@ b$m     ba$im   PV_intr be nauseated;have indigestion
 b$m     bo$am   IV_intr be nauseated;have indigestion
 ;; >abo$am_1
 >b$m    >abo$am PV      nauseate;give indigestion
-Ab$m    >abo$am PV      nauseate;give indigestion
 b$m     bo$im   IV_yu   nauseate;give indigestion
 ;; ba$am_1
 b$m     ba$am   N       indigestion;nausea
@@ -3542,20 +3385,17 @@ bSr     baS~ir  IV_yu   make see;enlighten
 bSr     baS~ar  IV_Pass_yu      be enlightened
 ;; >aboSar_1
 >bSr    >aboSar PV      see;notice
-AbSr    >aboSar PV      see;notice
 bSr     boSir   IV_yu   see;notice
 ;; tabaS~ar_1
 tbSr    tabaS~ar        PV      envisage;ponder
 tbSr    tabaS~ar        IV      envisage;ponder
 ;; {isotaboSar_1
 <stbSr  {isotaboSar     PV_intr be rational;reflect
-AstbSr  {isotaboSar     PV_intr be rational;reflect
 stbSr   sotaboSir       IV_intr be rational;reflect
 ;; baSar_1
 bSr     baSar   N       vision;glance
 ;; >aboSAr_1
 >bSAr   >aboSAr N       perceptions;views;glances
-AbSAr   >aboSAr N       perceptions;views;glances
 ;; baSariy~_1
 bSry    baSariy~        Nall    visual;optical     <pos>baSariy~/ADJ</pos>
 ;; baSariy~At_1
@@ -3572,20 +3412,16 @@ bSyr    baSiyr  Nap     insight;discernment
 bSA}r   baSA}ir Ndip    insights;discernment
 ;; >aboSar_2
 >bSr    >aboSar Nel     more/most discerning
-AbSr    >aboSar Nel     more/most discerning
 ;; taboSirap_1
 tbSr    taboSir Nap     enlightenment;instruction
 ;; <iboSAr_1
 <bSAr   <iboSAr N/At    perception;vision
-AbSAr   <iboSAr N/At    perception;vision
 ;; <iboSAriy~_1
 <bSAry  <iboSAriy~      Nall    optical     <pos><iboSAriy~/ADJ</pos>
-AbSAry  <iboSAriy~      Nall    optical     <pos><iboSAriy~/ADJ</pos>
 ;; tabaS~ur_1
 tbSr    tabaS~ur        N/At    reflection;consideration
 ;; {isotiboSAr_1
 <stbSAr {isotiboSAr     N/At    insight;psychology
-AstbSAr {isotiboSAr     N/At    insight;psychology
 ;; bASir_1
 bASr    bASir   N0      Basir
 ;; bASir_2
@@ -3665,14 +3501,12 @@ bADE    bADaE   PV      have sex with
 bADE    bADiE   IV_yu   have sex with
 ;; >aboDaE_1
 >bDE    >aboDaE PV      invest
-AbDE    >aboDaE PV      invest
 bDE     boDiE   IV_yu   invest
 ;; tabaD~aE_1
 tbDE    tabaD~aE        PV      do business
 tbDE    tabaD~aE        IV      do business
 ;; {isotaboDaE_1
 <stbDE  {isotaboDaE     PV      trade;do business
-AstbDE  {isotaboDaE     PV      trade;do business
 stbDE   sotaboDiE       IV      trade;do business
 ;; baDoE_1
 bDE     baDoE   N       amputation
@@ -3689,7 +3523,6 @@ mbDE    miboDaE Ndu     scalpel
 mbADE   mabADiE Ndip    scalpels
 ;; <iboDAE_1
 <bDAE   <iboDAE NduAt   partnership;investment
-AbDAE   <iboDAE NduAt   partnership;investment
 ;; muboDiE_1
 mbDE    muboDiE Nall    limited partner
 ;; musotaboDiE_1
@@ -3727,11 +3560,8 @@ bT}     baT~i}  IV_yu   delay;retard
 bT>     baT~a>  IV_Pass_yu      be delayed;be retarded
 ;; >aboTa>_1
 >bT>    >aboTa> PV->    delay;retard
-AbT>    >aboTa> PV->    delay;retard
 >bT|    >aboTa| PV-|    delay;retard
-AbT|    >aboTa| PV-|    delay;retard
 >bT&    >aboTa& PV_w    delay;retard
-AbT&    >aboTa& PV_w    delay;retard
 bT}     boTi}   IV_yu   delay;retard
 bT>     boTa>   IV_Pass_yu      be delayed;be behind schedule
 ;; tabaT~a>_1
@@ -3752,11 +3582,8 @@ tbAT&   tabATa& IV_wn   be slow;be late
 tbAT}   tabATa} IV_yn   be slow;be late
 ;; {isotaboTa>_1
 <stbT>  {isotaboTa>     PV->    find slow;keep waiting
-AstbT>  {isotaboTa>     PV->    find slow;keep waiting
 <stbT|  {isotaboTa|     PV-|    find slow;keep waiting
-AstbT|  {isotaboTa|     PV-|    find slow;keep waiting
 <stbT&  {isotaboTa&     PV_w    find slow;keep waiting
-AstbT&  {isotaboTa&     PV_w    find slow;keep waiting
 stbT}   sotaboTi}       IV      find slow;keep waiting
 ;; buTo'_1
 bT'     buTo'   N0_Nh   slowness;tardiness
@@ -3771,26 +3598,16 @@ bTy}    baTiy}  Nuwn_Niyn       slow
 bTA'    biTA'   N0      slow;tardy
 ;; >aboTa>_2
 >bT>    >aboTa> N0_Nh   slower/slowest
-AbT>    >aboTa> N0_Nh   slower/slowest
 >bT&    >aboTa& Nh      slower/slowest
-AbT&    >aboTa& Nh      slower/slowest
 >bT}    >aboTa} Nhy     slower/slowest
-AbT}    >aboTa} Nhy     slower/slowest
 >bT|    >aboTa| N-|     slower/slowest
-AbT|    >aboTa| N-|     slower/slowest
 ;; <iboTA'_1
 <bTA'   <iboTA' N0_Nh   delay;slowing down
-AbTA'   <iboTA' N0_Nh   delay;slowing down
 <bTA&   <iboTA& Nh      delay;slowing down
-AbTA&   <iboTA& Nh      delay;slowing down
 <bTA}   <iboTA} Nhy     delay;slowing down
-AbTA}   <iboTA} Nhy     delay;slowing down
 <bTA'   <iboTA' NAn_Nayn        delay;slowing down
-AbTA'   <iboTA' NAn_Nayn        delay;slowing down
 <bTA}   <iboTA} Nayn    delay;slowing down
-AbTA}   <iboTA} Nayn    delay;slowing down
 <bTA'   <iboTA' NAt     delay;slowing down
-AbTA'   <iboTA' NAt     delay;slowing down
 ;; tabATu&_1
 tbAT&   tabATu& NduAt   delay;slowness
 tbAT}   tabATu} Nhy     delay;slowness
@@ -3822,14 +3639,11 @@ tbTH    tabaT~aH        PV      lie down;be floored
 tbTH    tabaT~aH        IV      lie down;be floored
 ;; {inobaTaH_1
 <nbTH   {inobaTaH       PV      lie down;be floored
-AnbTH   {inobaTaH       PV      lie down;be floored
 nbTH    nobaTiH IV      lie down;be floored
 ;; >aboTaH_1
 >bTH    >aboTaH Nel     flat;level
-AbTH    >aboTaH Nel     flat;level
 ;; >abATiH_1
 >bATH   >abATiH Ndip    wide valley;plain
-AbATH   >abATiH Ndip    wide valley;plain
 ;; baToHA'_1
 bTHA'   baToHA' N0_Nh   wide valley;plain
 bTHA&   baToHA& Nh      wide valley;plain
@@ -3845,7 +3659,6 @@ mnbTH   munobaTiH       Nall    prostrate;lying down
 mnbTH   munobaTiH       N-ap    plain;flat
 ;; {inobiTAH_1
 <nbTAH  {inobiTAH       NduAt   prostration;lying down
-AnbTAH  {inobiTAH       NduAt   prostration;lying down
 ;
 ;; baT~iyx_1
 bTyx    baT~iyx N       watermelon
@@ -3859,13 +3672,11 @@ bTr     baTir   PV      disregard;disdain
 bTr     boTar   IV      disregard;disdain
 ;; >aboTar_1
 >bTr    >aboTar PV      make vain;make proud
-AbTr    >aboTar PV      make vain;make proud
 bTr     boTir   IV_yu   make vain;make proud
 ;; baTar_1
 bTr     baTar   N       wantonness;arrogance
 ;; >abATirap_1
 >bATr   >abATir Nap     emperors
-AbATr   >abATir Nap     emperors
 ;; baTir_1
 bTr     baTir   Nall    arrogant;insolent
 mbTr    muboTir Nall    arrogant;insolent
@@ -3941,7 +3752,6 @@ bTl     baT~il  IV_yu   thwart;abolish
 bTl     baT~al  IV_Pass_yu      be thwarted;be abolished
 ;; >aboTal_1
 >bTl    >aboTal PV      neutralize;invalidate
-AbTl    >aboTal PV      neutralize;invalidate
 bTl     boTil   IV_yu   neutralize;invalidate
 ;; buTol_1
 bTl     buTol   N       nullity
@@ -3954,12 +3764,10 @@ bTAl    baT~Al  Nall    inactive;jobless
 bTlAn   buTolAn N       nullity;falsity
 ;; <iboTAl_1
 <bTAl   <iboTAl NduAt   thwarting;abolition
-AbTAl   <iboTAl NduAt   thwarting;abolition
 ;; bATil_1
 bATl    bATil   Nall    void;false
 ;; >abATiyl_1
 >bATyl  >abATiyl        Ndip    vanities;falsehood
-AbATyl  >abATiyl        Ndip    vanities;falsehood
 ;; muboTil_1
 mbTl    muboTil Nall    prattler;liar
 ;; muboTal_1
@@ -3971,7 +3779,6 @@ mtbTl   mutabaT~il      Nall    unemployed
 bTl     baTal   Ndu     hero;champion;star
 bTl     baTal   NapAt   heroine;champion;star
 >bTAl   >aboTAl N       heroes;champions;stars
-AbTAl   >aboTAl N       heroes;champions;stars
 ;; buTuwlap_1
 bTwl    buTuwl  NapAt   championship;starring role;heroism
 ;; buTuwliy~_1
@@ -4009,7 +3816,6 @@ bTn     baT~an  PV-n    cover;resurface
 bTn     baT~in  IV-n_yu cover;resurface
 ;; >aboTan_1
 >bTn    >aboTan PV-n    hide;conceal
-AbTn    >aboTan PV-n    hide;conceal
 bTn     boTin   IV-n_yu hide;conceal
 bTn     boTan   IV-n_Pass_yu    be hidden;be concealed
 ;; tabaT~an_1
@@ -4017,12 +3823,10 @@ tbTn    tabaT~an        PV-n_intr       be lined
 tbTn    tabaT~an        IV-n_intr       be lined
 ;; {isotaboTan_1
 <stbTn  {isotaboTan     PV-n    delve;penetrate
-AstbTn  {isotaboTan     PV-n    delve;penetrate
 stbTn   sotaboTin       IV-n    delve;penetrate
 ;; baTon_1
 bTn     baTon   Ndu     stomach;depth
 >bTn    >aboTun N       stomachs;interior
-AbTn    >aboTun N       stomachs;interior
 ;; buTuwn_1
 bTwn    buTuwn  N       interior
 ;; baToniy~_1
@@ -4054,10 +3858,8 @@ mbTwn   maboTuwn        Nall    indisposed
 mbTn    mubaT~an        Nall    lined;filled
 ;; {isotiboTAn_1
 <stbTAn {isotiboTAn     N/At    introspection
-AstbTAn {isotiboTAn     N/At    introspection
 ;; {isotiboTAniy~_1
 <stbTAny        {isotiboTAniy~  Nall    introspective     <pos>{isotiboTAniy~/ADJ</pos>
-AstbTAny        {isotiboTAniy~  Nall    introspective     <pos>{isotiboTAniy~/ADJ</pos>
 ;
 ;; bATuwn_1
 bATwn   bATuwn  N       concrete
@@ -4094,19 +3896,15 @@ bEv     baEav   PV      send;emit
 bEv     boEav   IV      send;emit
 ;; {inobaEav_1
 <nbEv   {inobaEav       PV      revive;resurrect
-AnbEv   {inobaEav       PV      revive;resurrect
 nbEv    nobaEiv IV      revive;resurrect
 ;; {inobaEav_2
 <nbEv   {inobaEav       PV_intr be sent out;be revived
-AnbEv   {inobaEav       PV_intr be sent out;be revived
 nbEv    nobaEiv IV_intr be sent out;be revived
 ;; {ibotaEav_1
 <btEv   {ibotaEav       PV      send;dispatch
-AbtEv   {ibotaEav       PV      send;dispatch
 btEv    botaEiv IV      send;dispatch
 ;; {ibotaEav_2
 <btEv   {ibotaEav       PV      exhume;revive
-AbtEv   {ibotaEav       PV      exhume;revive
 btEv    botaEiv IV      exhume;revive
 ;; baEov_1
 bEv     baEov   N       emission;awakening
@@ -4140,7 +3938,6 @@ mnbEv   munobaEav       Nall    sent
 mnbEv   munobaEav       NduAt   source
 ;; {inobiEAv_1
 <nbEAv  {inobiEAv       NduAt   revival;resurrection
-AnbEAv  {inobiEAv       NduAt   revival;resurrection
 ;; munobaEiv_1
 mnbEv   munobaEiv       Nall    resurgent
 ;
@@ -4163,7 +3960,6 @@ tbEj    tabaE~aj        PV      crack;burst
 tbEj    tabaE~aj        IV      crack;burst
 ;; {inobaEaj_1
 <nbEj   {inobaEaj       PV      crack;burst
-AnbEj   {inobaEaj       PV      crack;burst
 nbEj    nobaEij IV      crack;burst
 ;; munobaEij_1
 mnbEj   munobaEij       Nall    cracking;bursting
@@ -4193,27 +3989,22 @@ bAEd    bAEad   PV      separate
 bAEd    bAEid   IV_yu   separate
 ;; >aboEad_1
 >bEd    >aboEad PV      remove;expel
-AbEd    >aboEad PV      remove;expel
 bEd     boEid   IV_yu   remove;expel
 ;; >uboEid_1
 >bEd    >uboEid PV_Pass be removed;be expelled
-AbEd    >uboEid PV_Pass be removed;be expelled
 bEd     boEad   IV_Pass_yu      be removed;be expelled
 ;; tabAEad_1
 tbAEd   tabAEad PV      diverge;separate
 tbAEd   tabAEad IV      diverge;separate
 ;; {ibotaEad_1
 <btEd   {ibotaEad       PV      move away;eschew
-AbtEd   {ibotaEad       PV      move away;eschew
 btEd    botaEid IV      move away;eschew
 ;; {isotaboEad_1
 <stbEd  {isotaboEad     PV      rule out;reject
-AstbEd  {isotaboEad     PV      rule out;reject
 stbEd   sotaboEid       IV      rule out;reject
 ;; buEod_1
 bEd     buEod   Ndu     dimension;distance
 >bEAd   >aboEAd N       dimensions;distances
-AbEAd   >aboEAd N       dimensions;distances
 ;; baEiyd_1
 bEyd    baEiyd  Nall    remote;distant;far     <pos>baEiyd/ADJ</pos>
 bEdA'   buEadA' N0_Nh   remote;distant;far
@@ -4227,13 +4018,10 @@ bEyd    buEayodi        FW-Wa-i shortly after;soon after     <pos>buEayodi/PREP<
 bEyd    buEayod FW-Wa-o shortly after;soon after     <pos>buEayod/PREP</pos>
 ;; >aboEad_2
 >bEd    >aboEad Nel     farther;farthest     <pos>>aboEad/ADJ</pos>
-AbEd    >aboEad Nel     farther;farthest     <pos>>aboEad/ADJ</pos>
 ;; >abAEid_1
 >bAEd   >abAEid Ndip    farther;farthest
-AbAEd   >abAEid Ndip    farther;farthest
 ;; >aboEAdiy~ap_1
 >bEAdy  >aboEAdiy~      NapAt   country estate     <pos>>aboEAdiy~/NOUN</pos>
-AbEAdy  >aboEAdiy~      NapAt   country estate     <pos>>aboEAdiy~/NOUN</pos>
 ;; biEAd_1
 bEAd    biEAd   N       distance
 ;; taboEiyd_1
@@ -4242,15 +4030,12 @@ tbEyd   taboEiyd        NduAt   banishment
 mbAEd   mubAEad NapAt   alienation;sowing dissent
 ;; <iboEAd_1
 <bEAd   <iboEAd NduAt   deportation;exile;removal
-AbEAd   <iboEAd NduAt   deportation;exile;removal
 ;; tabAEud_1
 tbAEd   tabAEud NduAt   estrangement
 ;; {ibotiEAd_1
 <btEAd  {ibotiEAd       NduAt   avoiding;eschewing
-AbtEAd  {ibotiEAd       NduAt   avoiding;eschewing
 ;; {isotiboEAd_1
 <stbEAd {isotiboEAd     NduAt   ruling out;distancing
-AstbEAd {isotiboEAd     NduAt   ruling out;distancing
 ;; muboEad_1
 mbEd    muboEad Nall    deported;deportee
 ;; mutabAEid_1
@@ -4263,14 +4048,11 @@ mbEd    maboEad Nap     distance;remoteness
 ;; baEor_1
 bEr     baEor   N       dung;droppings
 >bEAr   >aboEAr N       dung;droppings
-AbEAr   >aboEAr N       dung;droppings
 ;; baEiyr_1
 bEyr    baEiyr  Ndu     camel
 >bEr    >aboEir Nap     camels
-AbEr    >aboEir Nap     camels
 bErAn   buEorAn N       camels
 >bAEr   >abAEir Ndip    camels
-AbAEr   >abAEir Ndip    camels
 bEAryn  baEAriyn        Ndip    camels
 ;
 ;; baEozaq_1
@@ -4306,7 +4088,6 @@ bEq     baEaq   PV      irrigate;water
 bEq     boEuq   IV      irrigate;water
 ;; {inobaEaq_1
 <nbEq   {inobaEaq       PV      sprinkle
-AnbEq   {inobaEaq       PV      sprinkle
 nbEq    nobaEiq IV      sprinkle
 ;
 ;; buEokuwkap_1
@@ -4340,7 +4121,6 @@ bAgt    bAgat   PV-t    surprise;arrive suddenly
 bAgt    bAgit   IV_yu   surprise;arrive suddenly
 ;; {inobagat_1
 <nbgt   {inobagat       PV-t_intr       be surprised
-Anbgt   {inobagat       PV-t_intr       be surprised
 nbgt    nobagit IV_intr be surprised
 ;; bagotap_1
 bgt     bagot   Napdu   surprise
@@ -4410,7 +4190,6 @@ bAgD    bAgaD   PV      loathe
 bAgD    bAgiD   IV_yu   loathe
 ;; >abogaD_1
 >bgD    >abogaD PV      detest;hate
-AbgD    >abogaD PV      detest;hate
 bgD     bogiD   IV_yu   detest;hate
 bgD     bogaD   IV_Pass_yu      be detested;be hated
 ;; tabAgaD_1
@@ -4438,7 +4217,6 @@ bgl     bagol   Ndu     mule
 bgl     bagol   Napdu   she-ass
 bgAl    bigAl   N       mules
 >bgAl   >abogAl N       mules
-AbgAl   >abogAl N       mules
 ;; bag~Al_1
 bgAl    bag~Al  Nall    muleteer
 ;
@@ -4452,25 +4230,17 @@ bg      bog     IV_0hwnyn       want;desire
 bgY     bogaY   IV_0_Pass_yu    be wanted;be desired
 ;; {inobagaY_1
 <nbgY   {inobagaY       PV_0    be incumbent;be necessary
-AnbgY   {inobagaY       PV_0    be incumbent;be necessary
 <nbgA   {inobagA        PV_h    be incumbent;be necessary
-AnbgA   {inobagA        PV_h    be incumbent;be necessary
 <nbgy   {inobagay       PV_Atn  be incumbent;be necessary
-Anbgy   {inobagay       PV_Atn  be incumbent;be necessary
 <nbg    {inobag PV_ttAw_intr    be incumbent;be necessary
-Anbg    {inobag PV_ttAw_intr    be incumbent;be necessary
 nbgy    nobagiy IV_0hAnn        be incumbent;be necessary
 nbg     nobag   IV_0hwnyn       be incumbent;be necessary
 nbgY    nobagaY IV_0_Pass_yu    be incumbent;be necessary
 ;; {ibotagaY_1
 <btgY   {ibotagaY       PV_0    desire;want
-AbtgY   {ibotagaY       PV_0    desire;want
 <btgA   {ibotagA        PV_h    desire;want
-AbtgA   {ibotagA        PV_h    desire;want
 <btgy   {ibotagay       PV_Atn  desire;want
-Abtgy   {ibotagay       PV_Atn  desire;want
 <btg    {ibotag PV_ttAw desire;want
-Abtg    {ibotag PV_ttAw desire;want
 btgy    botagiy IV_0hAnn        desire;want
 btg     botag   IV_0hwnyn       desire;want
 btgY    botagaY IV_0    desire;want
@@ -4499,25 +4269,16 @@ mbAgy   mabAgiy N0_Nh   desiderata
 mbAg    mabAg   NK      desiderata
 ;; {ibotigA'_1
 <btgA'  {ibotigA'       N0_Nh   desire;wish
-AbtgA'  {ibotigA'       N0_Nh   desire;wish
 <btgA&  {ibotigA&       Nh      desire;wish
-AbtgA&  {ibotigA&       Nh      desire;wish
 <btgA}  {ibotigA}       Nhy     desire;wish
-AbtgA}  {ibotigA}       Nhy     desire;wish
 <btgA'  {ibotigA'       NAn_Nayn        desire;wish
-AbtgA'  {ibotigA'       NAn_Nayn        desire;wish
 <btgA}  {ibotigA}       Nayn    desire;wish
-AbtgA}  {ibotigA}       Nayn    desire;wish
 <btgA'  {ibotigA'       NAt     desire;wish
-AbtgA'  {ibotigA'       NAt     desire;wish
 ;; {ibotigA'a_1
 <btgA'  {ibotigA'a      FW-Wa   with the aim of;for the purpose of     <pos>{ibotigA'a/PREP</pos>
-AbtgA'  {ibotigA'a      FW-Wa   with the aim of;for the purpose of     <pos>{ibotigA'a/PREP</pos>
 <btgA'  {ibotigA'a      FW-Wa-a with the aim of;for the purpose of     <pos>{ibotigA'a/PREP</pos>
-AbtgA'  {ibotigA'a      FW-Wa-a with the aim of;for the purpose of     <pos>{ibotigA'a/PREP</pos>
 ;; {ibotigA'F_1
 <btgA'  {ibotigA'F      FW-Wa   with the aim of;for the purpose of     <pos>{ibotigA'F/ADV</pos>
-AbtgA'  {ibotigA'F      FW-Wa   with the aim of;for the purpose of     <pos>{ibotigA'F/ADV</pos>
 ;; bAgiy_1
 bAgy    bAgiy   N0F     oppressive;tyrant
 bAg     bAg     NK      oppressive;tyrant
@@ -4585,14 +4346,12 @@ bqr     boqur   IV      split open;disembowel
 bqr     boqar   IV      split open;disembowel
 ;; >aboqar_1
 >bqr    >aboqar PV      split open;disembowel
-Abqr    >aboqar PV      split open;disembowel
 bqr     boqir   IV_yu   split open;disembowel
 bqr     boqar   IV_Pass_yu      be split open;be disemboweled
 ;; baqar_1
 bqr     baqar   N       cows
 bqr     baqar   NapAt   cow
 >bqAr   >aboqAr N       cows
-AbqAr   >aboqAr N       cows
 bqwr    buquwr  N       cows
 ;; baqariy~_1
 bqry    baqariy~        Nall    bovine;cow     <pos>baqariy~/ADJ</pos>
@@ -4642,7 +4401,6 @@ bqAE    biqAE   N0      Bekaa;Biqa
 bqAE    biqAE   N       regions;spots
 ;; >aboqaE_1
 >bqE    >aboqaE Nel     spotted;speckled
-AbqE    >aboqaE Nel     spotted;speckled
 ;; bAqiEap_1
 bAqE    bAqiE   Nap     sly;shrewd
 bwAqE   bawAqiE Ndip    sly;shrewd
@@ -4682,13 +4440,9 @@ bqy     boqay   IV_Ann  remain;last
 bq      boqa    IV_0hwnyn       remain;last
 ;; >aboqaY_1
 >bqY    >aboqaY PV_0    maintain;preserve
-AbqY    >aboqaY PV_0    maintain;preserve
 >bqA    >aboqA  PV_h    maintain;preserve
-AbqA    >aboqA  PV_h    maintain;preserve
 >bqy    >aboqay PV_Atn  maintain;preserve
-Abqy    >aboqay PV_Atn  maintain;preserve
 >bq     >aboq   PV_ttAw maintain;preserve
-Abq     >aboq   PV_ttAw maintain;preserve
 bqy     boqiy   IV_0hAnn_yu     maintain;preserve
 bq      boq     IV_0hwnyn_yu    maintain;preserve
 bqY     boqaY   IV_0_Pass_yu    be maintained;be preserved
@@ -4704,13 +4458,9 @@ tbqy    tabaq~ay        IV_Ann  remain;stay
 tbq     tabaq~  IV_0hwnyn       remain;stay
 ;; {isotaboqaY_1
 <stbqY  {isotaboqaY     PV_0    maintain;retain;preserve
-AstbqY  {isotaboqaY     PV_0    maintain;retain;preserve
 <stbqA  {isotaboqA      PV_h    maintain;retain;preserve
-AstbqA  {isotaboqA      PV_h    maintain;retain;preserve
 <stbqy  {isotaboqay     PV_Atn  maintain;retain;preserve
-Astbqy  {isotaboqay     PV_Atn  maintain;retain;preserve
 <stbq   {isotaboq       PV_ttAw maintain;retain;preserve
-Astbq   {isotaboq       PV_ttAw maintain;retain;preserve
 stbqy   sotaboqiy       IV_0hAnn        maintain;retain;preserve
 stbq    sotaboq IV_0hwnyn       maintain;retain;preserve
 stbqY   sotaboqaY       IV_0_Pass_yu    be maintained;be retained;be preserved
@@ -4724,37 +4474,22 @@ bqA&    baqA&   Nh      survival;remaining
 bqA}    baqA}   Nhy     survival;remaining
 ;; >aboqaY_2
 >bqY    >aboqaY N0      more lasting;more durable
-AbqY    >aboqaY N0      more lasting;more durable
 >bqA    >aboqA  Nhy     more lasting;more durable
-AbqA    >aboqA  Nhy     more lasting;more durable
 >bqy    >aboqay NAn_Nayn        more lasting;more durable
-Abqy    >aboqay NAn_Nayn        more lasting;more durable
 ;; <iboqA'_1
 <bqA'   <iboqA' N0_Nh   continuation;preservation
-AbqA'   <iboqA' N0_Nh   continuation;preservation
 <bqA&   <iboqA& Nh      continuation;preservation
-AbqA&   <iboqA& Nh      continuation;preservation
 <bqA}   <iboqA} Nhy     continuation;preservation
-AbqA}   <iboqA} Nhy     continuation;preservation
 <bqA'   <iboqA' NAn_Nayn        continuation;preservation
-AbqA'   <iboqA' NAn_Nayn        continuation;preservation
 <bqA}   <iboqA} Nayn    continuation;preservation
-AbqA}   <iboqA} Nayn    continuation;preservation
 <bqA'   <iboqA' NAt     continuation;preservation
-AbqA'   <iboqA' NAt     continuation;preservation
 ;; {isotiboqA'_1
 <stbqA' {isotiboqA'     N0_Nh   maintenance;continuation
-AstbqA' {isotiboqA'     N0_Nh   maintenance;continuation
 <stbqA& {isotiboqA&     Nh      maintenance;continuation
-AstbqA& {isotiboqA&     Nh      maintenance;continuation
 <stbqA} {isotiboqA}     Nhy     maintenance;continuation
-AstbqA} {isotiboqA}     Nhy     maintenance;continuation
 <stbqA' {isotiboqA'     NAn_Nayn        maintenance;continuation
-AstbqA' {isotiboqA'     NAn_Nayn        maintenance;continuation
 <stbqA} {isotiboqA}     Nayn    maintenance;continuation
-AstbqA} {isotiboqA}     Nayn    maintenance;continuation
 <stbqA' {isotiboqA'     NAt     maintenance;continuation
-AstbqA' {isotiboqA'     NAt     maintenance;continuation
 ;; bAqiy_1
 bAqy    bAqiy   N0      Baqi
 ;; bawAqiy_1
@@ -4829,11 +4564,9 @@ bAkr    bAkar   PV      anticipate;forestall
 bAkr    bAkir   IV_yu   anticipate;forestall
 ;; >abokar_1
 >bkr    >abokar PV_intr be the first;be precocious
-Abkr    >abokar PV_intr be the first;be precocious
 bkr     bokir   IV_intr_yu      be the first;be precocious
 ;; {ibotakar_1
 <btkr   {ibotakar       PV      invent;originate
-Abtkr   {ibotakar       PV      invent;originate
 btkr    botakir IV      invent;originate
 ;; bakor_1
 bkr     bakor   N0      Bakr
@@ -4842,12 +4575,10 @@ bkry    bakoriy~        N0      Bakri
 ;; bakor_2
 bkr     bakor   N       young camel
 >bkr    >abokur N       young camels
-Abkr    >abokur N       young camels
 bkrAn   bukorAn N       young camels
 ;; bikor_1
 bkr     bikor   N       eldest;first-born     <pos>bikor/ADJ</pos>
 >bkAr   >abokAr N       eldest;first-born     <pos>>abokAr/ADJ</pos>
-AbkAr   >abokAr N       eldest;first-born     <pos>>abokAr/ADJ</pos>
 ;; bikoriy~_1
 bkry    bikoriy~        Nall    first-born     <pos>bikoriy~/ADJ</pos>
 ;; bakorap_1
@@ -4874,20 +4605,15 @@ bAkwr   bAkuwr  Nap     first works
 bwAkyr  bawAkiyr        Ndip    first works
 ;; >abokar_2
 >bkr    >abokar Nel     earlier/earliest
-Abkr    >abokar Nel     earlier/earliest
 ;; mibokAr_1
 mbkAr   mibokAr Ndu     precocious
 ;; {ibotikAr_1
 <btkAr  {ibotikAr       Ndu     invention
-AbtkAr  {ibotikAr       Ndu     invention
 <btkAr  {ibotikAr       NAt     inventions
-AbtkAr  {ibotikAr       NAt     inventions
 ;; {ibotikAriy~_1
 <btkAry {ibotikAriy~    Nall    original;inventive     <pos>{ibotikAriy~/ADJ</pos>
-AbtkAry {ibotikAriy~    Nall    original;inventive     <pos>{ibotikAriy~/ADJ</pos>
 ;; {ibotikAriy~ap_1
 <btkAry {ibotikAriy~    Nap     originality;inventiveness     <pos>{ibotikAriy~/NOUN</pos>
-AbtkAry {ibotikAriy~    Nap     originality;inventiveness     <pos>{ibotikAriy~/NOUN</pos>
 ;; bAkir_1
 bAkr    bAkir   N-ap    early
 ;; bAkirap_1
@@ -4928,7 +4654,6 @@ bkm     bakum   PV_intr be silent
 bkm     bokum   IV_intr be silent
 ;; >abokam_1
 >bkm    >abokam PV      silence;mute
-Abkm    >abokam PV      silence;mute
 bkm     bokim   IV_yu   silence;mute
 bkm     bokam   IV_Pass_yu      be silenced;be muted
 ;; tabak~am_1
@@ -4938,7 +4663,6 @@ tbkm    tabak~am        IV_intr be silent;be mute
 bkm     bakam   N       muteness;silence
 ;; >abokam_2
 >bkm    >abokam Nel     silent;mute
-Abkm    >abokam Nel     silent;mute
 bkmA'   bakomA' N0_Nh   silent;mute
 bkmA&   bakomA& Nh      silent;mute
 bkmA}   bakomA} Nhy     silent;mute
@@ -4970,13 +4694,9 @@ bkY     bak~aY  IV_0_Pass_yu    be made to cry
 bky     bak~ay  IV_Ann_Pass_yu  be made to cry
 ;; >abokaY_1
 >bkY    >abokaY PV_0    make cry
-AbkY    >abokaY PV_0    make cry
 >bkA    >abokA  PV_h    make cry
-AbkA    >abokA  PV_h    make cry
 >bky    >abokay PV_Atn  make cry
-Abky    >abokay PV_Atn  make cry
 >bk     >abok   PV_ttAw make cry
-Abk     >abok   PV_ttAw make cry
 bky     bokiy   IV_0hAnn_yu     make cry
 bk      bok     IV_0hwnyn_yu    make cry
 bkY     bokaY   IV_0_Pass_yu    be made to cry
@@ -4992,13 +4712,9 @@ tbAky   tabAkay IV_Ann  feign tears;shed crocodile tears
 tbAk    tabAk   IV_0hwnyn       feign tears;shed crocodile tears
 ;; {isotabokaY_1
 <stbkY  {isotabokaY     PV_0    make cry
-AstbkY  {isotabokaY     PV_0    make cry
 <stbkA  {isotabokA      PV_h    make cry
-AstbkA  {isotabokA      PV_h    make cry
 <stbky  {isotabokay     PV_Atn  make cry
-Astbky  {isotabokay     PV_Atn  make cry
 <stbk   {isotabok       PV_ttAw make cry
-Astbk   {isotabok       PV_ttAw make cry
 stbky   sotabokiy       IV_0hAnn        make cry
 stbk    sotabok IV_0hwnyn       make cry
 ;; bukA'_1
@@ -5061,9 +4777,7 @@ bll     bal~il  IV_yu   dampen;humidify;wet
 bll     bal~al  IV_Pass_yu      be dampened;be humidified;be wet
 ;; >abal~_1
 >bl     >abal~  PV_V    convalesce;recover
-Abl     >abal~  PV_V    convalesce;recover
 >bll    >abolal PV_C    convalesce;recover
-Abll    >abolal PV_C    convalesce;recover
 bl      bil~    IV_V_yu convalesce;recover
 bll     bolil   IV_C_yu convalesce;recover
 ;; tabal~al_1
@@ -5071,9 +4785,7 @@ tbll    tabal~al        PV_intr become wet
 tbll    tabal~al        IV_intr become wet
 ;; {ibotal~_1
 <btl    {ibotal~        PV_V_intr       be wet;be humid
-Abtl    {ibotal~        PV_V_intr       be wet;be humid
 <btll   {ibotalal       PV_C_intr       be wet;be humid
-Abtll   {ibotalal       PV_C_intr       be wet;be humid
 btl     botal~  IV_V_intr       be wet;be humid
 btll    botalil IV_C_intr       be wet;be humid
 ;; bal~_1
@@ -5089,7 +4801,6 @@ blyl    baliyl  N       cool wind
 blyl    baliyl  Nap     porridge
 ;; <ibolAl_1
 <blAl   <ibolAl NduAt   recovery;convalescence
-AblAl   <ibolAl NduAt   recovery;convalescence
 ;; tabal~ul_1
 tbll    tabal~ul        NduAt   moistness;humidity
 ;; maboluwl_1
@@ -5193,22 +4904,17 @@ blj     balij   PV_intr be happy;be serene
 blj     bolaj   IV_intr be happy;be serene
 ;; >abolaj_1
 >blj    >abolaj PV      dawn;shine
-Ablj    >abolaj PV      dawn;shine
 blj     bolij   IV_yu   dawn;shine
 ;; {inobalaj_1
 <nblj   {inobalaj       PV      dawn;shine
-Anblj   {inobalaj       PV      dawn;shine
 nblj    nobalij IV      dawn;shine
 ;; {ibotalaj_1
 <btlj   {ibotalaj       PV_intr be happy;dawn;shine
-Abtlj   {ibotalaj       PV_intr be happy;dawn;shine
 btlj    botalij IV_intr be happy;dawn;shine
 ;; >abolaj_2
 >blj    >abolaj Nel     bright;beautiful
-Ablj    >abolaj Nel     bright;beautiful
 ;; {inobilAj_1
 <nblAj  {inobilAj       NduAt   dawning;daybreak
-AnblAj  {inobilAj       NduAt   dawning;daybreak
 ;
 ;; bilojiykA_1
 bljykA  bilojiykA       N0      Belgium
@@ -5255,7 +4961,6 @@ bldy    baladiy~        NapAt   municipality;township     <pos>baladiy~/NOUN</po
 blyd    baliyd  Nall    stupid
 ;; >abolad_1
 >bld    >abolad Nel     stupid
-Abld    >abolad Nel     stupid
 ;; balAd_1
 blAd    balAd   Nap     stupidity
 ;; tabal~ud_1
@@ -5319,7 +5024,6 @@ blATp   balATap N0      Balata
 blAT    balAT   NapAt   floor tile
 blAT    balAT   N       floor tiles
 >blT    >aboliT Nap     floor tiles
-AblT    >aboliT Nap     floor tiles
 ;; taboliyT_1
 tblyT   taboliyT        NduAt   tile-laying;paving
 ;; mubal~aT_1
@@ -5355,16 +5059,13 @@ blE     bal~aE  PV      make swallow
 blE     bal~iE  IV_yu   make swallow
 ;; >abolaE_1
 >blE    >abolaE PV      make swallow
-AblE    >abolaE PV      make swallow
 blE     boliE   IV_yu   make swallow
 blE     bolaE   IV_Pass_yu      be made to swallow
 ;; {inobalaE_1
 <nblE   {inobalaE       PV_intr be swallowed
-AnblE   {inobalaE       PV_intr be swallowed
 nblE    nobaliE IV_intr be swallowed
 ;; {ibotalaE_1
 <btlE   {ibotalaE       PV      swallow
-AbtlE   {ibotalaE       PV      swallow
 btlE    botaliE IV      swallow
 ;; baloE_1
 blE     baloE   N       swallowing;absorption
@@ -5403,7 +5104,6 @@ bAlg    bAlag   PV      exaggerate
 bAlg    bAlig   IV_yu   exaggerate
 ;; >abolag_1
 >blg    >abolag PV      report;inform;notify
-Ablg    >abolag PV      report;inform;notify
 blg     bolig   IV_yu   report;inform;notify
 blg     bolag   IV_Pass_yu      be reported;be informed;be notified
 ;; tabal~ag_1
@@ -5429,7 +5129,6 @@ blwg    buluwg  N       reaching;attainment
 blAg    balAg   Nap     eloquence
 ;; >abolag_2
 >blg    >abolag Nel     more/most eloquent
-Ablg    >abolag Nel     more/most eloquent
 ;; mabolag_1
 mblg    mabolag Ndu     amount;sum
 mbAlg   mabAlig Ndip    amounts;sums
@@ -5439,7 +5138,6 @@ tblyg   taboliyg        NduAt   conveyance;notification;informing
 mbAlg   mubAlag NapAt   exaggeration
 ;; <ibolAg_1
 <blAg   <ibolAg NduAt   reporting;notification;informing
-AblAg   <ibolAg NduAt   reporting;notification;informing
 ;; bAlig_1
 bAlg    bAlig   N-ap    extreme;profound     <pos>bAlig/ADJ</pos>
 ;; bAlig_2
@@ -5497,7 +5195,6 @@ blfwry  balofuwriy~     Nall    Balfour     <pos>balofuwriy~/ADJ</pos>
 ;
 ;; >abolaq_1
 >blq    >abolaq Nel     black and white;pinto;piebald
-Ablq    >abolaq Nel     black and white;pinto;piebald
 blqA'   baloqA' N0_Nh   black and white;pinto;piebald
 ;
 ;; baloqAn_1
@@ -5529,13 +5226,11 @@ bllytrw biloliytruw     Nprop   Pelletreau
 ;--- blm
 ;; >abolam_1
 >blm    >abolam PV_intr be silent
-Ablm    >abolam PV_intr be silent
 blm     bolim   IV_intr_yu      be silent
 ;; balam_1
 blm     balam   N       anchovy;sailing barge
 ;; >abolAm_1
 >blAm   >abolAm N       sailing barges
-AblAm   >abolAm N       sailing barges
 ;
 ;; balomar_1
 blmr    balomar PV      polymerize
@@ -5565,7 +5260,6 @@ tbAlh   tabAlah PV      feign stupidity;play the fool
 tbAlh   tabAlah IV      feign stupidity;play the fool
 ;; {isotabolah_1
 <stblh  {isotabolah     PV      deem stupid
-Astblh  {isotabolah     PV      deem stupid
 stblh   sotabolih       IV      deem stupid
 ;; balah_1
 blh     balah   N       stupidity
@@ -5575,7 +5269,6 @@ blh     baloha  FW-Wa   not to mention     <pos>baloha/ADV</pos>
 blh     baloha  FW-Wa-a not to mention     <pos>baloha/ADV</pos>
 ;; >abolah_1
 >blh    >abolah Nel     doltish;dumb
-Ablh    >abolah Nel     doltish;dumb
 blhA'   balohA' N0_Nh   doltish;dumb
 blhA&   balohA& Nh      doltish;dumb
 blhA}   balohA} Nhy     doltish;dumb
@@ -5628,26 +5321,18 @@ bAly    bAlay   IV_Ann_Pass_yu  be cared for;be a matter of concern
 ;
 ;; >abolaY_1
 >blY    >abolaY PV_0    wear out;grind
-AblY    >abolaY PV_0    wear out;grind
 >blA    >abolA  PV_h    wear out;grind
-AblA    >abolA  PV_h    wear out;grind
 >bly    >abolay PV_Atn  wear out;grind
-Ably    >abolay PV_Atn  wear out;grind
 >bl     >abol   PV_ttAw wear out;grind
-Abl     >abol   PV_ttAw wear out;grind
 bly     boliy   IV_0hAnn_yu     wear out;grind
 bl      bol     IV_0hwnyn_yu    wear out;grind
 blY     bolaY   IV_0_Pass_yu    be worn out;be ground
 bly     bolay   IV_Ann_Pass_yu  be worn out;be ground
 ;; {ibotalaY_1
 <btlY   {ibotalaY       PV_0    test;afflict
-AbtlY   {ibotalaY       PV_0    test;afflict
 <btlA   {ibotalA        PV_h    test;afflict
-AbtlA   {ibotalA        PV_h    test;afflict
 <btly   {ibotalay       PV_Atn  test;afflict
-Abtly   {ibotalay       PV_Atn  test;afflict
 <btl    {ibotal PV_ttAw test;afflict
-Abtl    {ibotal PV_ttAw test;afflict
 btly    botaliy IV_0hAnn        test;afflict
 btl     botal   IV_0hwnyn       test;afflict
 btlY    botalaY IV_0_Pass_yu    be tested;be afflicted
@@ -5671,17 +5356,11 @@ mbAly   mubAlay NAt     concerns;cares
 lAmbAlA lAmubAlA        Nap_L   indifference
 ;; {ibotilA'_1
 <btlA'  {ibotilA'       N0_Nh   affliction;tribulation
-AbtlA'  {ibotilA'       N0_Nh   affliction;tribulation
 <btlA&  {ibotilA&       Nh      affliction;tribulation
-AbtlA&  {ibotilA&       Nh      affliction;tribulation
 <btlA}  {ibotilA}       Nhy     affliction;tribulation
-AbtlA}  {ibotilA}       Nhy     affliction;tribulation
 <btlA'  {ibotilA'       NAn_Nayn        afflictions;tribulations
-AbtlA'  {ibotilA'       NAn_Nayn        afflictions;tribulations
 <btlA}  {ibotilA}       Nayn    afflictions;tribulations
-AbtlA}  {ibotilA}       Nayn    afflictions;tribulations
 <btlA'  {ibotilA'       NAt     afflictions;tribulations
-AbtlA'  {ibotilA'       NAt     afflictions;tribulations
 ;; bAliy_1
 bAly    bAliy   N0F     dilapidated;worn
 bAl     bAl     NK      dilapidated;worn
@@ -6067,25 +5746,17 @@ tbny    taban~ay        IV_Ann  be built
 tbn     taban~  IV_0hwnyn       be built
 ;; {inobanaY_1
 <nbnY   {inobanaY       PV_0    be built
-AnbnY   {inobanaY       PV_0    be built
 <nbnA   {inobanA        PV_h    be built
-AnbnA   {inobanA        PV_h    be built
 <nbny   {inobanay       PV_Atn  be built
-Anbny   {inobanay       PV_Atn  be built
 <nbn    {inoban PV_ttAw_intr    be built
-Anbn    {inoban PV_ttAw_intr    be built
 nbny    nobaniy IV_0hAnn        be built
 nbn     noban   IV_0hwnyn       be built
 nbnY    nobanaY IV_0_Pass_yu    be built
 ;; {ibotanaY_1
 <btnY   {ibotanaY       PV_0    build;construct;be built
-AbtnY   {ibotanaY       PV_0    build;construct;be built
 <btnA   {ibotanA        PV_h    build;construct;be built
-AbtnA   {ibotanA        PV_h    build;construct;be built
 <btny   {ibotanay       PV_Atn  build;construct;be built
-Abtny   {ibotanay       PV_Atn  build;construct;be built
 <btn    {ibotan PV_ttAw build;construct;be built
-Abtn    {ibotan PV_ttAw build;construct;be built
 btny    botaniy IV_0hAnn        build;construct;be built
 btn     botan   IV_0hwnyn       build;construct;be built
 btnY    botanaY IV_0    build;construct;be built
@@ -6105,7 +5776,6 @@ bnA}    binA}   Nhy     building;structure
 bnA'    binA'   NAn_Nayn        buildings;structures
 bnA}    binA}   Nayn    buildings;structures
 >bny    >aboniy Nap     buildings;structures
-Abny    >aboniy Nap     buildings;structures
 ;; binA'F_1
 bnA'    binA'F  FW-Wa   based on;according to     <pos>binA'F/ADV</pos>
 ;; binA}iy~_1
@@ -6185,12 +5855,10 @@ bAht    bAhat   PV-t    startle;astonish
 bAht    bAhit   IV_yu   startle;astonish
 ;; >abohat_1
 >bht    >abohat PV-t    astonish;startle
-Abht    >abohat PV-t    astonish;startle
 bht     bohit   IV_yu   astonish;startle
 bht     bohat   IV_Pass_yu      be astonished;be startled
 ;; {inobahat_1
 <nbht   {inobahat       PV-t_intr       be astonished
-Anbht   {inobahat       PV-t_intr       be astonished
 nbht    nobahit IV_intr be astonished
 ;; buhot_1
 bht     buhot   N       slander
@@ -6220,12 +5888,10 @@ bhj     bah~aj  PV      make happy;embellish
 bhj     bah~ij  IV_yu   make happy;embellish
 ;; >abohaj_1
 >bhj    >abohaj PV      make happy
-Abhj    >abohaj PV      make happy
 bhj     bohij   IV_yu   make happy
 bhj     bohaj   IV_Pass_yu      be made happy
 ;; {ibotahaj_1
 <bthj   {ibotahaj       PV      rejoice
-Abthj   {ibotahaj       PV      rejoice
 bthj    botahij IV      rejoice
 ;; bahojap_1
 bhj     bahoj   Nap     splendor;delight
@@ -6238,7 +5904,6 @@ mbhj    mabohaj NapAt   delight
 mbAhj   mabAhij Ndip    delights
 ;; {ibotihAj_1
 <bthAj  {ibotihAj       NduAt   rejoicing;delight
-AbthAj  {ibotihAj       NduAt   rejoicing;delight
 ;; mubohij_1
 mbhj    mubohij Nall    charming;delightful
 ;; mubotahij_1
@@ -6263,16 +5928,13 @@ bhr     bahar   PV      blind;dazzle
 bhr     bohar   IV      blind;dazzle
 ;; >abohar_1
 >bhr    >abohar PV      dazzle
-Abhr    >abohar PV      dazzle
 bhr     bohir   IV_yu   dazzle
 bhr     bohar   IV_Pass_yu      be dazzled
 ;; {inobahar_1
 <nbhr   {inobahar       PV_intr be dazzled;be blinded
-Anbhr   {inobahar       PV_intr be dazzled;be blinded
 nbhr    nobahir IV_intr be dazzled;be blinded
 ;; {ibotahar_1
 <bthr   {ibotahar       PV      flaunt
-Abthr   {ibotahar       PV      flaunt
 bthr    botahir IV      flaunt
 ;; bahor_1
 bhr     bahor   N       deception
@@ -6284,18 +5946,14 @@ bhr     bahor   Nap     dazzlement
 bhr     buhor   Nap     center;middle
 ;; >abohar_2
 >bhr    >abohar Nel     more/most brilliant
-Abhr    >abohar Nel     more/most brilliant
 ;; >abohar_3
 >bhr    >abohar Ndu     aorta
-Abhr    >abohar Ndu     aorta
 ;; >abohariy~_1
 >bhry   >abohariy~      N-ap    aortic     <pos>>abohariy~/ADJ</pos>
-Abhry   >abohariy~      N-ap    aortic     <pos>>abohariy~/ADJ</pos>
 ;; bahAr_1
 bhAr    bahAr   N/At    spice
 ;; {ibotihAr_1
 <bthAr  {ibotihAr       NduAt   display;show
-AbthAr  {ibotihAr       NduAt   display;show
 ;; bAhir_1
 bAhr    bAhir   Nall    dazzling;splendid
 ;; mabohuwr_1
@@ -6337,7 +5995,6 @@ bhZ     bahaZ   PV      oppress
 bhZ     bohaZ   IV      oppress
 ;; >abohaZ_1
 >bhZ    >abohaZ PV      oppress;overload
-AbhZ    >abohaZ PV      oppress;overload
 bhZ     bohiZ   IV_yu   oppress;overload
 bhZ     bohaZ   IV_Pass_yu      be oppressed;be overloaded
 ;; bAhiZ_1
@@ -6347,7 +6004,6 @@ bAhZ    bAhiZ   Nall    oppressive;exorbitant
 bhq     bahaq   N       herpes
 ;; >abohaq_1
 >bhq    >abohaq Nel     herpetic
-Abhq    >abohaq Nel     herpetic
 bhqA'   bahoqA' N0      herpetic
 ;
 ;; bahal-a_1
@@ -6361,16 +6017,13 @@ tbAhl   tabAhal PV      curse each other
 tbAhl   tabAhal IV      curse each other
 ;; {ibotahal_1
 <bthl   {ibotahal       PV      supplicate
-Abthl   {ibotahal       PV      supplicate
 bthl    botahil IV      supplicate
 ;; >abohal_1
 >bhl    >abohal N       savin;savine (evergreen shrub)
-Abhl    >abohal N       savin;savine (evergreen shrub)
 ;; mubAhalap_1
 mbAhl   mubAhal Nap     cursing
 ;; {ibotihAl_1
 <bthAl  {ibotihAl       NduAt   supplication;prayer
-AbthAl  {ibotihAl       NduAt   supplication;prayer
 ;; bAhil_1
 bAhl    bAhil   Nall    free;independent
 bhl     buhol   N       free;independent
@@ -6396,7 +6049,6 @@ bhlwAny baholawAniy~    Nall    acrobatic     <pos>baholawAniy~/ADJ</pos>
 ;
 ;; >aboham_1
 >bhm    >aboham PV      make obscure;be ambiguous
-Abhm    >aboham PV      make obscure;be ambiguous
 bhm     bohim   IV_yu   make obscure;be ambiguous
 bhm     boham   IV_Pass_yu      be made obscure
 ;; tabah~am_1
@@ -6404,7 +6056,6 @@ tbhm    tabah~am        PV_intr be obscure
 tbhm    tabah~am        IV_intr be obscure
 ;; {isotaboham_1
 <stbhm  {isotaboham     PV_intr be obscure
-Astbhm  {isotaboham     PV_intr be obscure
 stbhm   sotabohim       IV_intr be obscure
 ;; bahomap_1
 bhm     bahom   Nap     sheep
@@ -6418,11 +6069,9 @@ bhA}m   bahA}im Ndip    livestock;cattle
 bhymy   bahiymiy~       Nall    animal;bestial     <pos>bahiymiy~/ADJ</pos>
 ;; <ibohAm_1
 <bhAm   <ibohAm NduAt   obscurity;incomprehensibility
-AbhAm   <ibohAm NduAt   obscurity;incomprehensibility
 ;; bAhim_1
 bAhm    bAhim   Ndu     big toe;thumb
 >bAhym  >abAhiym        Ndip    big toes;thumbs
-AbAhym  >abAhiym        Ndip    big toes;thumbs
 ;; muboham_1
 mbhm    muboham Nall    unintelligible;abstract
 ;; mubohamAt_1
@@ -6455,11 +6104,8 @@ tbAh    tabAh   IV_0hwnyn       be vain;boast
 ;; bahow_1
 bhw     bahow   Ndu     parlor;lobby
 >bhA'   >abohA' N0_Nh   parlors;lobbies
-AbhA'   >abohA' N0_Nh   parlors;lobbies
 >bhA&   >abohA& Nh      parlors;lobbies
-AbhA&   >abohA& Nh      parlors;lobbies
 >bhA}   >abohA} Nhy     parlors;lobbies
-AbhA}   >abohA} Nhy     parlors;lobbies
 ;; bahiy~_1
 bhy     bahiy~  N-ap    beautiful;brilliant     <pos>bahiy~/ADJ</pos>
 ;; bahA'_1
@@ -6471,11 +6117,8 @@ bhA}y   bahA}iy~        Nall    Baha'i     <pos>bahA}iy~/NOUN</pos>
 bhA}y   bahA}iy~        Nall    Baha'i     <pos>bahA}iy~/ADJ</pos>
 ;; >abohaY_1
 >bhY    >abohaY N0      more/most splendid
-AbhY    >abohaY N0      more/most splendid
 >bhA    >abohA  Nhy     more/most splendid
-AbhA    >abohA  Nhy     more/most splendid
 >bhy    >abohay NAn_Nayn        more/most splendid
-Abhy    >abohay NAn_Nayn        more/most splendid
 ;; mubAhAp_1
 mbAhA   mubAhA  Nap     pride;boastfulness
 ;; tabAhiy_1
@@ -6508,11 +6151,8 @@ bw'     baw~i'  IV_yu   accommodate;bring
 bw}     baw~i}  IV_yu   accommodate;bring
 ;; >abA'_1
 >bA'    >abA'   PV_V    accommodate;reside
-AbA'    >abA'   PV_V    accommodate;reside
 >bA&    >abA&   PV_w    accommodate;reside
-AbA&    >abA&   PV_w    accommodate;reside
 >b>     >aba>   PV_C    accommodate;reside
-Ab>     >aba>   PV_C    accommodate;reside
 by'     biy'    IV_V_yu accommodate;reside
 by}     biy}    IV_V_yu accommodate;reside
 by&     biy&    IV_wn_yu        accommodate;reside
@@ -6551,11 +6191,9 @@ bwb     baw~ib  IV_yu   classify;subdivide
 bAb     bAb     Ndu     door;gate
 bybAn   biybAn  N       doors;gates
 >bwAb   >abowAb N       doors;gates
-AbwAb   >abowAb N       doors;gates
 ;; bAb_2
 bAb     bAb     Ndu     category;rubric
 >bwAb   >abowAb N       categories;rubrics
-AbwAb   >abowAb N       categories;rubrics
 ;; baw~Ab_1
 bwAb    baw~Ab  Nall    doorman;gatekeeper;concierge
 ;; biwAbap_1
@@ -6625,18 +6263,14 @@ bwH     buwH    IV_V    disclose;divulge
 bH      buH     IV_C    disclose;divulge
 ;; >abAH_1
 >bAH    >abAH   PV_V    reveal;allow
-AbAH    >abAH   PV_V    reveal;allow
 >bH     >abaH   PV_C    reveal;allow
-AbH     >abaH   PV_C    reveal;allow
 byH     biyH    IV_V_yu reveal;allow
 bH      biH     IV_C_yu reveal;allow
 bAH     bAH     IV_V_Pass_yu    be revealed;be allowed
 bH      baH     IV_C_Pass_yu    be revealed;be allowed
 ;; {isotabAH_1
 <stbAH  {isotabAH       PV_V    allow;seize
-AstbAH  {isotabAH       PV_V    allow;seize
 <stbH   {isotabaH       PV_C    allow;seize
-AstbH   {isotabaH       PV_C    allow;seize
 stbyH   sotabiyH        IV_V    allow;seize
 stbH    sotabiH IV_C    allow;seize
 ;; bawoH_1
@@ -6647,16 +6281,12 @@ bwH     buwH    N       courtyard;hall
 bAH     bAH     NapAt   courtyard;plaza
 ;; <ibAHap_1
 <bAH    <ibAH   NapAt   permission;licentiousness
-AbAH    <ibAH   NapAt   permission;licentiousness
 ;; <ibAHiy~_1
 <bAHy   <ibAHiy~        Nall    licentious     <pos><ibAHiy~/ADJ</pos>
-AbAHy   <ibAHiy~        Nall    licentious     <pos><ibAHiy~/ADJ</pos>
 ;; <ibAHiy~ap_1
 <bAHy   <ibAHiy~        Nap     freethinking;anarchism     <pos><ibAHiy~/NOUN</pos>
-AbAHy   <ibAHiy~        Nap     freethinking;anarchism     <pos><ibAHiy~/NOUN</pos>
 ;; {isotibAHap_1
 <stbAH  {isotibAH       NapAt   appropriation;seizure
-AstbAH  {isotibAH       NapAt   appropriation;seizure
 ;; mubAH_1
 mbAH    mubAH   Nall    permissible
 ;
@@ -6722,9 +6352,7 @@ bwr     baw~ar  PV      make useless
 bwr     baw~ir  IV_yu   make useless
 ;; >abAr_1
 >bAr    >abAr   PV_V    destroy
-AbAr    >abAr   PV_V    destroy
 >br     >abar   PV_C    destroy
-Abr     >abar   PV_C    destroy
 byr     biyr    IV_V_yu destroy
 br      bir     IV_C_yu destroy
 bAr     bAr     IV_V_Pass_yu    be destroyed
@@ -6835,7 +6463,6 @@ bwz     baw~iz  IV_intr_yu      be glum;be sullen
 ;; buwz_1
 bwz     buwz    Ndu     muzzle;snout
 >bwAz   >abowAz N       muzzles;snouts
-AbwAz   >abowAz N       muzzles;snouts
 ;; tabowiyzap_1
 tbwyz   tabowiyz        NapAt   sullen look
 ;; mubaw~iz_1
@@ -6908,7 +6535,6 @@ bw$     baw~i$  IV_intr_yu      be boisterous
 ;; bawo$_1
 bw$     bawo$   N       mob;rabble
 >bwA$   >abowA$ N       mobs;rabble
-AbwA$   >abowA$ N       mobs;rabble
 ;
 ; AFP corpus: Ferenc Puskas
 ;; buw$kA$_1
@@ -6987,11 +6613,9 @@ bwq     baw~iq  IV_yu   trumpet;blare
 ;; buwq_1
 bwq     buwq    N/At    trumpet;horn
 >bwAq   >abowAq N       trumpets;horns
-AbwAq   >abowAq N       trumpets;horns
 ;; buwq_2
 bwq     buwq    N/At    funnel
 >bwAq   >abowAq N       funnels
-AbwAq   >abowAq N       funnels
 ;; baw~Aq_1
 bwAq    baw~Aq  Nall    trumpeter
 ;; bAqap_1
@@ -7031,9 +6655,7 @@ bwl     baw~al  PV      urinate
 bwl     baw~il  IV_yu   urinate
 ;; >abAl_1
 >bAl    >abAl   PV_V    make urinate;be diuretic
-AbAl    >abAl   PV_V    make urinate;be diuretic
 >bl     >abal   PV_C    make urinate;be diuretic
-Abl     >abal   PV_C    make urinate;be diuretic
 byl     biyl    IV_V_yu make urinate;be diuretic
 bl      bil     IV_C_yu make urinate;be diuretic
 ;; tabaw~al_1
@@ -7041,15 +6663,12 @@ tbwl    tabaw~al        PV      urinate
 tbwl    tabaw~al        IV      urinate
 ;; {isotabAl_1
 <stbAl  {isotabAl       PV_V    make urinate
-AstbAl  {isotabAl       PV_V    make urinate
 <stbl   {isotabal       PV_C    make urinate
-Astbl   {isotabal       PV_C    make urinate
 stbyl   sotabiyl        IV_V    make urinate
 stbl    sotabil IV_C    make urinate
 ;; bawol_1
 bwl     bawol   N       urine
 >bwAl   >abowAl N       urine
-AbwAl   >abowAl N       urine
 ;; bawoliy~_1
 bwly    bawoliy~        Nall    uric;urinary     <pos>bawoliy~/ADJ</pos>
 ;; biylap_1
@@ -7122,7 +6741,6 @@ bwlyfy  buwliyfiy~      Nall    Bolivian     <pos>buwliyfiy~/ADJ</pos>
 bwm     buwm    N       owl
 bwm     buwm    NapAt   owl
 >bwAm   >abowAm N       owls
-AbwAm   >abowAm N       owls
 ;
 ;; buwmirodAs_1
 bwmrdAs buwmirodAs      N0      Boumerdes;Boumerdas
@@ -7195,9 +6813,7 @@ byt     bay~at  PV-t    plot;scheme
 byt     bay~it  IV_yu   plot;scheme
 ;; >abAt_1
 >bAt    >abAt   PV_V    give overnight lodging
-AbAt    >abAt   PV_V    give overnight lodging
 >bt     >abat   PV_Ct   give overnight lodging
-Abt     >abat   PV_Ct   give overnight lodging
 byt     biyt    IV_V_yu give overnight lodging
 bt      bit     IV_C_yu give overnight lodging
 bAt     bAt     IV_V_Pass_yu    be given overnight lodging
@@ -7212,7 +6828,6 @@ bywt    buyuwt  N/At    houses
 ;; bayot_4
 byt     bayot   Ndu     house;verse
 >byAt   >aboyAt N       verses
-AbyAt   >aboyAt N       verses
 ;; bayotiy~_1
 byty    bayotiy~        Nall    domestic     <pos>bayotiy~/ADJ</pos>
 ;; bayAt_1
@@ -7282,9 +6897,7 @@ byd     biyd    IV_V    perish;disappear
 bd      bid     IV_C    perish;disappear
 ;; >abAd_1
 >bAd    >abAd   PV_V    exterminate
-AbAd    >abAd   PV_V    exterminate
 >bd     >abad   PV_C    exterminate
-Abd     >abad   PV_C    exterminate
 byd     biyd    IV_V_yu exterminate
 bd      bid     IV_C_yu exterminate
 bAd     bAd     IV_V_Pass_yu    be exterminated
@@ -7300,7 +6913,6 @@ byd     biyd    N       wilderness
 bydAw   biydAw  NAt     wilderness
 ;; <ibAdap_1
 <bAd    <ibAd   NapAt   extermination;annihilation
-AbAd    <ibAd   NapAt   extermination;annihilation
 ;; bA}id_1
 bA}d    bA}id   Nall    bygone;temporal
 ;; mubiyd_1
@@ -7471,9 +7083,7 @@ tbyD    tabay~aD        PV_intr be blanched/bleached;become white
 tbyD    tabay~aD        IV_intr be blanched/bleached;become white
 ;; {iboyaD~_1
 <byD    {iboyaD~        PV_V_intr       become white
-AbyD    {iboyaD~        PV_V_intr       become white
 <byDD   {iboyaDaD       PV_C_intr       become white
-AbyDD   {iboyaDaD       PV_C_intr       become white
 byD     boyaD~  IV_V_intr       become white
 byDD    boyaDaD IV_C_intr       become white
 ;; bayoD_1
@@ -7500,7 +7110,6 @@ byDwn   byDwn   Nprop   Baidun;Baidoun
 byAD    bayAD   N       whiteness
 ;; >aboyaD_1
 >byD    >aboyaD Nel     white
-AbyD    >aboyaD Nel     white
 byDA'   bayoDA' N0_Nh   white
 byDA&   bayoDA& Nh      white
 byDA}   bayoDA} Nhy     white
@@ -7514,7 +7123,6 @@ tbyyD   taboyiyD        NduAt   bleaching;blanching;white-washing
 tbyyD   taboyiyD        Nap     fair copy
 ;; {iboyiDAD_1
 <byDAD  {iboyiDAD       N/At    leukemia
-AbyDAD  {iboyiDAD       N/At    leukemia
 ;; bA}iD_1
 bA}D    bA}iD   Nall    egg-laying
 bwA}D   bawA}iD Ndip    egg-laying
@@ -7551,9 +7159,7 @@ bwyE    buwyiE  PV_Pass be recognized as leader
 bAyE    bAyaE   IV_Pass_yu      be recognized as leader
 ;; >abAE_1
 >bAE    >abAE   PV_V    offer for sale;tender
-AbAE    >abAE   PV_V    offer for sale;tender
 >bE     >abaE   PV_C    offer for sale;tender
-AbE     >abaE   PV_C    offer for sale;tender
 byE     biyE    IV_V_yu offer for sale;tender
 bE      biE     IV_C_yu offer for sale;tender
 bAE     bAE     IV_V_Pass_yu    be offered for sale;tendered
@@ -7563,16 +7169,12 @@ tbAyE   tabAyaE PV      transact
 tbAyE   tabAyaE IV      transact
 ;; {inobAE_1
 <nbAE   {inobAE PV_V_intr       be sold;be for sale
-AnbAE   {inobAE PV_V_intr       be sold;be for sale
 <nbE    {inobaE PV_C_intr       be sold;be for sale
-AnbE    {inobaE PV_C_intr       be sold;be for sale
 nbAE    nobAE   IV_V_intr       be sold;be for sale
 nbE     nobaE   IV_C_intr       be sold;be for sale
 ;; {ibotAE_1
 <btAE   {ibotAE PV_V    purchase
-AbtAE   {ibotAE PV_V    purchase
 <btE    {ibotaE PV_C    purchase
-AbtE    {ibotaE PV_C    purchase
 btAE    botAE   IV_V    purchase
 btE     botaE   IV_C    purchase
 ;; bayoE_1
@@ -7587,7 +7189,6 @@ byAE    bay~AE  Nall    salesman;middleman
 mbAyE   mubAyaE NapAt   allegiance;transaction
 ;; {ibotiyAE_1
 <btyAE  {ibotiyAE       NduAt   purchase
-AbtyAE  {ibotiyAE       NduAt   purchase
 ;; bA}iE_1
 bA}E    bA}iE   Nall    vendor;merchant
 ;; bAEap_1
@@ -7704,9 +7305,7 @@ bAyn    bAyan   PV-n    depart;conflict
 bAyn    bAyin   IV-n_yu depart;conflict
 ;; >abAn_1
 >bAn    >abAn   PV_V    explain
-AbAn    >abAn   PV_V    explain
 >bn     >aban   PV_Cn   explain
-Abn     >aban   PV_Cn   explain
 byn     biyn    IV_V_yu explain
 bn      bin     IV-n_yu explain
 bAn     bAn     IV_V_Pass_yu    be explained
@@ -7719,24 +7318,18 @@ tbAyn   tabAyan PV-n    differ;vary
 tbAyn   tabAyan IV-n    differ;vary
 ;; {isotabAn_1
 <stbAn  {isotabAn       PV_V    clarify;explain
-AstbAn  {isotabAn       PV_V    clarify;explain
 <stbn   {isotaban       PV_Cn   clarify;explain
-Astbn   {isotaban       PV_Cn   clarify;explain
 stbyn   sotabiyn        IV_V    clarify;explain
 stbn    sotabin IV-n    clarify;explain
 ;; {isotaboyan_1
 <stbyn  {isotaboyan     PV-n    poll;canvass
-Astbyn  {isotaboyan     PV-n    poll;canvass
 stbyn   sotaboyin       IV-n    poll;canvass
 ;; bay~in_1
 byn     bay~in  Ndu     clear;evident;explicit
 ;; >aboyinA'_1
 >bynA'  >aboyinA'       N0_Nh   eloquent
-AbynA'  >aboyinA'       N0_Nh   eloquent
 >bynA&  >aboyinA&       Nh      eloquent
-AbynA&  >aboyinA&       Nh      eloquent
 >bynA}  >aboyinA}       Nhy     eloquent
-AbynA}  >aboyinA}       Nhy     eloquent
 ;; bay~inap_1
 byn     bay~in  NapAt   proof;evidence
 ;; bayAn_1
@@ -7751,14 +7344,12 @@ byAny   bayAniy~        Nall    explanatory;declarative     <pos>bayAniy~/ADJ</p
 mbyAn   miboyAn NduAt   graph
 ;; >aboyan_1
 >byn    >aboyan Nel     clearer;clearest
-Abyn    >aboyan Nel     clearer;clearest
 ;; tiboyAn_1
 tbyAn   tiboyAn N       exposition;illustration
 ;; taboyiyn_1
 tbyyn   taboyiyn        NduAt   exposition;illustration
 ;; <ibAnap_1
 <bAn    <ibAn   NapAt   exposition;illustration
-AbAn    <ibAn   NapAt   exposition;illustration
 ;; tabay~un_1
 tbyn    tabay~un        N/At    appearance
 ;; tabAyun_1
@@ -7767,10 +7358,8 @@ tbAyn   tabAyun NduAt   difference;disparity
 tbAyny  tabAyuniy~      Nall    conflicting     <pos>tabAyuniy~/ADJ</pos>
 ;; {isotibAnap_1
 <stbAn  {isotibAn       NapAt   clarification;explanation
-AstbAn  {isotibAn       NapAt   clarification;explanation
 ;; {isotiboyAn_1
 <stbyAn {isotiboyAn     NduAt   poll;questionnaire
-AstbyAn {isotiboyAn     NduAt   poll;questionnaire
 ;; bA}in_1
 bA}n    bA}in   Nall    plain;evident
 bAyn    bAyin   Nall    plain;evident

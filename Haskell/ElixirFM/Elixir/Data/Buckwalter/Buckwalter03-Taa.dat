@@ -27,7 +27,6 @@ t>t>    ta>ota> NapAt   stammering;stuttering
 ;
 ;; >ato>ar_1
 >t>r    >ato>ar PV      stare;fix eyes on
-At>r    >ato>ar PV      stare;fix eyes on
 t}r     to}ir   IV_yu   stare;fix eyes on
 ;
 ;; tAdiyrAn_1
@@ -147,16 +146,13 @@ tb      tib~    IV_V    perish;be destroyed
 tbb     tobib   IV_C    perish;be destroyed
 ;; {isotatab~_1
 <sttb   {isotatab~      PV_V    stabilize;be established
-Asttb   {isotatab~      PV_V    stabilize;be established
 <sttbb  {isotatobab     PV_C    stabilize;be established
-Asttbb  {isotatobab     PV_C    stabilize;be established
 sttb    sotatib~        IV_V    stabilize;be established
 sttbb   sotatobib       IV_C    stabilize;be established
 ;; tab~AF_1
 tb      tab~    NF      perish!     <pos>tab~/ADV</pos>
 ;; {isotitobAb_1
 <sttbAb {isotitobAb     N/At    normalcy;stability
-AsttbAb {isotitobAb     N/At    normalcy;stability
 ;
 ;; tibit_1
 tbt     tibit   N       Tibet
@@ -189,7 +185,6 @@ tAbE    tAbaE   PV      continue;follow
 tAbE    tAbiE   IV_yu   continue;follow
 ;; >atobaE_1
 >tbE    >atobaE PV      follow
-AtbE    >atobaE PV      follow
 tbE     tobiE   IV_yu   follow
 tbE     tobaE   IV_Pass_yu      be followed
 ;; tatab~aE_1
@@ -200,11 +195,9 @@ ttAbE   tatAbaE PV      follow in succession
 ttAbE   tatAbaE IV      follow in succession
 ;; {it~abaE_1
 <tbE    {it~abaE        PV      follow;observe
-AtbE    {it~abaE        PV      follow;observe
 tbE     t~abiE  IV      follow;observe
 ;; {isotatobaE_1
 <sttbE  {isotatobaE     PV      result in;make follow
-AsttbE  {isotatobaE     PV      result in;make follow
 sttbE   sotatobiE       IV      result in;make follow
 ;; tabaE_1
 tbE     tabaE   N       subordinate;follower
@@ -212,7 +205,6 @@ tbE     tabaE   N       subordinate;follower
 tbE     tabaE   NF      according;pursuant     <pos>tabaE/ADV</pos>
 ;; >atobAE_1
 >tbAE   >atobAE N       followers;partisans
-AtbAE   >atobAE N       followers;partisans
 ;; tabaEiy~_1
 tbEy    tabaEiy~        Nall    incidental     <pos>tabaEiy~/ADJ</pos>
 ;; tabiEap_1
@@ -235,10 +227,8 @@ ttbE    tatab~uE        NduAt   pursuit;course
 ttAbE   tatAbuE NduAt   succession
 ;; {it~ibAE_1
 <tbAE   {it~ibAE        NduAt   pursuit;compliance
-AtbAE   {it~ibAE        NduAt   pursuit;compliance
 ;; {it~ibAEAF_1
 <tbAE   {it~ibAE        NF      according to;pursuant to     <pos>{it~ibAE/ADV</pos>
-AtbAE   {it~ibAE        NF      according to;pursuant to     <pos>{it~ibAE/ADV</pos>
 ;; tAbiE_1
 tAbE    tAbiE   Nall    subordinate;adherent     <pos>tAbiE/ADJ</pos>
 ;; tawAbiE_1
@@ -324,7 +314,6 @@ tAjr    tAjar   PV      deal with;do business
 tAjr    tAjir   IV_yu   deal with;do business
 ;; {it~ajar_1
 <tjr    {it~ajar        PV      trade;do business
-Atjr    {it~ajar        PV      trade;do business
 tjr     t~ajir  IV      trade;do business
 ;; tijArap_1
 tjAr    tijAr   Nap     commerce;business
@@ -339,7 +328,6 @@ mtjry   matojariy~      Nall    commercial;business     <pos>matojariy~/ADJ</pos
 mtAjr   mutAjar NapAt   commerce;trade
 ;; {it~ijAr_1
 <tjAr   {it~ijAr        NduAt   trade;business
-AtjAr   {it~ijAr        NduAt   trade;business
 ;; tAjir_1
 tAjr    tAjir   Nall    merchant;businessman
 tjAr    tuj~Ar  N       merchants;businessmen
@@ -349,7 +337,6 @@ twyjry  tuwayojriy~     N0      Tuwaijri
 ;
 ;; >atoHaf_1
 >tHf    >atoHaf PV      present
-AtHf    >atoHaf PV      present
 tHf     toHif   IV_yu   present
 tHf     toHaf   IV_Pass_yu      be presented
 ;; tuHofap_1
@@ -406,12 +393,10 @@ tAxm    tAxam   PV      border
 tAxm    tAxim   IV_yu   border
 ;; >atoxam_1
 >txm    >atoxam PV      give indigestion;satiate
-Atxm    >atoxam PV      give indigestion;satiate
 txm     toxim   IV_yu   give indigestion;satiate
 txm     toxam   IV_Pass_yu      be given indigestion;be satiated
 ;; {it~axam_1
 <txm    {it~axam        PV      have indigestion
-Atxm    {it~axam        PV      have indigestion
 txm     t~axim  IV      have indigestion
 ;; taxom_1
 txm     taxom   Ndu     boundary;limit
@@ -478,7 +463,6 @@ tArb    tArab   PV      accompany;be of the same age
 tArb    tArib   IV_yu   accompany;be of the same age
 ;; >atorab_1
 >trb    >atorab PV      make dusty
-Atrb    >atorab PV      make dusty
 trb     torib   IV_yu   make dusty
 trb     torab   IV_Pass_yu      be made dusty
 ;; tatar~ab_1
@@ -487,7 +471,6 @@ ttrb    tatar~ab        IV_intr be dusty
 ;; tirob_1
 trb     tirob   N       companion
 >trAb   >atorAb N       companions
-AtrAb   >atorAb N       companions
 ;; tarib_1
 trb     tarib   N       dusty
 ;; turobap_1
@@ -498,7 +481,6 @@ trby    turabiy~        Nall    gravedigger     <pos>turabiy~/ADJ</pos>
 ;; turAb_1
 trAb    turAb   N       dirt;soil
 >trb    >atorib Nap     dirt;soil
-Atrb    >atorib Nap     dirt;soil
 trbAn   tirobAn N       dirt;soil
 ;; turAbiy~_1
 trAby   turAbiy~        N0      Turabi
@@ -564,7 +546,6 @@ trH     tar~aH  PV      grieve;distress
 trH     tar~iH  IV_yu   grieve;distress
 ;; >atoraH_1
 >trH    >atoraH PV      grieve;distress
-AtrH    >atoraH PV      grieve;distress
 trH     toriH   IV_yu   grieve;distress
 ;; tatar~aH_1
 ttrH    tatar~aH        PV      grieve;be sad
@@ -572,7 +553,6 @@ ttrH    tatar~aH        IV      grieve;be sad
 ;; taraH_1
 trH     taraH   N       grief;sadness
 >trAH   >atorAH N       grief;sadness
-AtrAH   >atorAH N       grief;sadness
 ;
 ;; taroziy~_1
 trzy    taroziy~        Nall    tailor     <pos>taroziy~/ADJ</pos>
@@ -586,7 +566,6 @@ ttrs    tatar~as        IV      armor;barricade
 ;; turos_1
 trs     turos   Ndu     shield
 >trAs   >atorAs N       shields
-AtrAs   >atorAs N       shields
 trws    turuws  N       shields
 ;; tiros_1
 trs     tiros   Ndu     gear
@@ -613,7 +592,6 @@ trE     tariE   PV_intr be full
 trE     toraE   IV_intr be full
 ;; >atoraE_1
 >trE    >atoraE PV      fill
-AtrE    >atoraE PV      fill
 trE     toriE   IV_yu   fill
 trE     toraE   IV_Pass_yu      be filled
 ;; turoEap_1
@@ -634,7 +612,6 @@ trf     tarif   PV      live in luxury
 trf     toraf   IV      live in luxury
 ;; >atoraf_1
 >trf    >atoraf PV      surround with luxury
-Atrf    >atoraf PV      surround with luxury
 trf     torif   IV_yu   surround with luxury
 trf     toraf   IV_Pass_yu      be surrounded with luxury
 ;; tatar~af_1
@@ -684,12 +661,10 @@ trk     tar~ak  PV      Turkify
 trk     tar~ik  IV_yu   Turkify
 ;; {isotatorak_1
 <sttrk  {isotatorak     PV_intr become Turkish
-Asttrk  {isotatorak     PV_intr become Turkish
 sttrk   sotatorik       IV_intr become Turkish
 ;; turok_1
 trk     turok   N       Turks
 >trAk   >atorAk N       Turks
-AtrAk   >atorAk N       Turks
 ;; turkiyA_1
 trkyA   turkiyA N0      Turkey
 ;; turokiy~_1
@@ -863,14 +838,12 @@ tEb     taEib   PV_intr be tired;work hard
 tEb     toEab   IV_intr be tired;work hard
 ;; >atoEab_1
 >tEb    >atoEab PV      bother;make tired
-AtEb    >atoEab PV      bother;make tired
 tEb     toEib   IV_yu   bother;make tired
 tEb     toEab   IV_Pass_yu      be bothered;be tired out
 ;; taEob_1
 tEb     taEob   N       trouble;burden
 ;; >atoEAb_1
 >tEAb   >atoEAb N       inconveniences;labor
-AtEAb   >atoEAb N       inconveniences;labor
 ;; taEobAn_1
 tEbAn   taEobAn N/ap    tired
 ;; matAEib_1
@@ -890,7 +863,6 @@ tEs     taEis   PV      perish;be miserable
 tEs     toEas   IV      perish;be miserable
 ;; >atoEas_1
 >tEs    >atoEas PV      make unhappy;make miserable
-AtEs    >atoEas PV      make unhappy;make miserable
 tEs     toEis   IV_yu   make unhappy;make miserable
 tEs     toEas   IV_Pass_yu      be made unhappy;be made miserable
 ;; taEos_1
@@ -959,14 +931,12 @@ tfAh    tafAh   Nap     triviality;inanity
 tAfh    tAfih   Nall    trivial;commonplace
 ;; >atofah_1
 >tfh    >atofah Nel     more/most trivial
-Atfh    >atofah Nel     more/most trivial
 ;; tAfihap_1
 tAfh    tAfih   NapAt   triviality
 twAfh   tawAfih Ndip    trivialities
 ;
 ;; >atoqan_1
 >tqn    >atoqan PV-n    master;perfect
-Atqn    >atoqan PV-n    master;perfect
 tqn     toqin   IV-n_yu master;perfect
 tqn     toqan   IV-n_Pass_yu    be mastered;be perfected
 ;; taqoniy~_1
@@ -979,10 +949,8 @@ tqny    taqoniy~        NapAt   technique;technology     <pos>taqoniy~/NOUN</pos
 tqAn    taqAn   Nap     perfection;firmness
 ;; >atoqan_2
 >tqn    >atoqan Nel     more/most perfect
-Atqn    >atoqan Nel     more/most perfect
 ;; <itoqAn_1
 <tqAn   <itoqAn NduAt   mastery;proficiency
-AtqAn   <itoqAn NduAt   mastery;proficiency
 ;; mutoqan_1
 mtqn    mutoqan Nall    exact;perfect
 ;
@@ -997,18 +965,12 @@ tqY     toqaY   IV_0_Pass_yu    be devout;be pious
 ;; taqiy~_1
 tqy     taqiy~  N/ap    pious;devout     <pos>taqiy~/ADJ</pos>
 >tqyA'  >atoqiyA'       N0_Nh   pious;devout
-AtqyA'  >atoqiyA'       N0_Nh   pious;devout
 >tqyA&  >atoqiyA&       Nh      pious;devout
-AtqyA&  >atoqiyA&       Nh      pious;devout
 >tqyA}  >atoqiyA}       Nhy     pious;devout
-AtqyA}  >atoqiyA}       Nhy     pious;devout
 ;; >atoqaY_1
 >tqY    >atoqaY N0      more/most pious
-AtqY    >atoqaY N0      more/most pious
 >tqA    >atoqA  Nhy     more/most pious
-AtqA    >atoqA  Nhy     more/most pious
 >tqy    >atoqay NAn_Nayn        more/most pious
-Atqy    >atoqay NAn_Nayn        more/most pious
 ;; tuqaY_1
 tqY     tuqaY   N0      piety
 tqA     tuqA    Nhy     piety
@@ -1094,7 +1056,6 @@ tl      tal~    FW-WaBi Tel     <pos>tal~/NOUN_PROP</pos>
 tl      tal~    Ndu     hill;elevation
 tlAl    tilAl   N       hills;elevations;mountains
 >tlAl   >atolAl N       hills;elevations;mountains
-AtlAl   >atolAl N       hills;elevations;mountains
 tlwl    tuluwl  N       hills;elevations;mountains
 ;; tal~ap_1
 tl      tal~    NapAt   heap
@@ -1123,7 +1084,6 @@ tlskwby tilisokuwbiy~   N-ap    telescopic     <pos>tiliskuwbiy~/ADJ</pos>
 ;
 ;; >atolaE_1
 >tlE    >atolaE PV      crane;ogle
-AtlE    >atolaE PV      crane;ogle
 tlE     toliE   IV_yu   crane;ogle
 ;; taloEap_1
 tlE     taloE   Napdu   hill;stream
@@ -1149,7 +1109,6 @@ tlf     tal~af  PV      ruin;wear out
 tlf     tal~if  IV_yu   ruin;wear out
 ;; >atolaf_1
 >tlf    >atolaf PV      damage;ruin
-Atlf    >atolaf PV      damage;ruin
 tlf     tolif   IV_yu   damage;ruin
 tlf     tolaf   IV_Pass_yu      be damaged;be ruined
 ;; talaf_1
@@ -1165,7 +1124,6 @@ mtAlf   matAlif Ndip    deserts
 mtlAf   mitolAf Nall    wastrel;harmful
 ;; <itolAf_1
 <tlAf   <itolAf NduAt   destruction;harm
-AtlAf   <itolAf NduAt   destruction;harm
 ;; tAlif_1
 tAlf    tAlif   Nall    ruined;broken
 ;; matoluwf_1
@@ -1221,7 +1179,6 @@ tlm     tal~im  IV_yu   plow
 ;; talam_1
 tlm     talam   Ndu     furrow
 >tlAm   >atolAm N       furrows
-AtlAm   >atolAm N       furrows
 ;
 ;; taloma*_1
 tlm*    taloma* PV_intr be pupil;be apprentice
@@ -1269,13 +1226,9 @@ tlY     tolaY   IV_0_Pass_yu    be followed;be recited
 tly     tolay   IV_Ann_Pass_yu  be followed;be recited
 ;; >atolaY_1
 >tlY    >atolaY PV_0    make follow;put next
-AtlY    >atolaY PV_0    make follow;put next
 >tlA    >atolA  PV_h    make follow;put next
-AtlA    >atolA  PV_h    make follow;put next
 >tly    >atolay PV_Atn  make follow;put next
-Atly    >atolay PV_Atn  make follow;put next
 >tl     >atol   PV_ttAw make follow;put next
-Atl     >atol   PV_ttAw make follow;put next
 tly     toliy   IV_0hAnn_yu     make follow;put next
 tl      tol     IV_0hwnyn_yu    make follow;put next
 tlY     tolaY   IV_0_Pass_yu    be made to follow;be put next
@@ -1291,13 +1244,9 @@ ttAly   tatAlay IV_Ann  follow one another;be successive
 ttAl    tatAl   IV_0hwnyn       follow one another;be successive
 ;; {isotatolaY_1
 <sttlY  {isotatolaY     PV_0    continue
-AsttlY  {isotatolaY     PV_0    continue
 <sttlA  {isotatolA      PV_h    continue
-AsttlA  {isotatolA      PV_h    continue
 <sttly  {isotatolay     PV_Atn  continue
-Asttly  {isotatolay     PV_Atn  continue
 <sttl   {isotatol       PV_ttAw continue
-Asttl   {isotatol       PV_ttAw continue
 sttly   sotatoliy       IV_0hAnn        continue
 sttl    sotatol IV_0hwnyn       continue
 sttlY   sotatolaY       IV_0_Pass_yu    be continued
@@ -1334,17 +1283,13 @@ tmm     tam~am  PV      complete;conclude
 tmm     tam~im  IV_yu   complete;conclude
 ;; >atam~_1
 >tm     >atam~  PV_V    complete;conclude
-Atm     >atam~  PV_V    complete;conclude
 >tmm    >atomam PV_C    complete;conclude
-Atmm    >atomam PV_C    complete;conclude
 tm      tim~    IV_V_yu complete;conclude
 tmm     tomim   IV_C_yu complete;conclude
 tm      tam~    IV_V_Pass_yu    be completed;be concluded
 ;; {isotatam~_1
 <sttm   {isotatam~      PV_V_intr       be completed;be finished
-Asttm   {isotatam~      PV_V_intr       be completed;be finished
 <sttmm  {isotatomam     PV_C_intr       be completed;be finished
-Asttmm  {isotatomam     PV_C_intr       be completed;be finished
 sttm    sotatim~        IV_V_intr       be completed;be finished
 sttmm   sotatomim       IV_C_intr       be completed;be finished
 ;; tamAm_1
@@ -1363,17 +1308,14 @@ tmym    tamiym  Napdu   amulet
 tmA}m   tamA}im Ndip    amulets
 ;; >atam~_2
 >tm     >atam~  Nel     more/most complete;more/most perfect
-Atm     >atam~  Nel     more/most complete;more/most perfect
 ;; tatim~ap_1
 ttm     tatim~  NapAt   completion;conclusion
 ;; tatomiym_1
 ttmym   tatomiym        NduAt   completion;realization
 ;; <itomAm_1
 <tmAm   <itomAm NduAt   completion;realization
-AtmAm   <itomAm NduAt   completion;realization
 ;; {isotitomAm_1
 <sttmAm {isotitomAm     NduAt   termination;conclusion
-AsttmAm {isotitomAm     NduAt   termination;conclusion
 ;; tAm~_1
 tAm     tAm~    N-ap    complete;concluded
 ;
@@ -1543,9 +1485,7 @@ twb     taw~ab  PV      make repent
 twb     taw~ib  IV_yu   make repent
 ;; {isotatAb_1
 <sttAb  {isotatAb       PV_V    convert;call to repent
-AsttAb  {isotatAb       PV_V    convert;call to repent
 <sttb   {isotatab       PV_C    convert;call to repent
-Asttb   {isotatab       PV_C    convert;call to repent
 sttyb   sotatiyb        IV_V    convert;call to repent
 sttb    sotatib IV_C    convert;call to repent
 ;; tawobap_1
@@ -1764,18 +1704,14 @@ tytsww  tiytsiww        Nprop   Tetsu
 ;--- tyH
 ;; >atAH_1
 >tAH    >atAH   PV_V    grant;provide
-AtAH    >atAH   PV_V    grant;provide
 >tH     >ataH   PV_C    grant;provide
-AtH     >ataH   PV_C    grant;provide
 >tyH    >utiyH  PV_V_Pass       be provided;be granted;be available
-AtyH    >utiyH  PV_V_Pass       be provided;be granted;be available
 tyH     tiyH    IV_V_yu grant;provide
 tH      tiH     IV_C_yu grant;provide
 tAH     tAH     IV_V_Pass_yu    be provided;be granted;be available
 tH      taH     IV_C_Pass_yu    be provided;be granted;be available
 ;; <itAHap_1
 <tAH    <itAH   Nap     granting;providing
-AtAH    <itAH   Nap     granting;providing
 ;; mutAH_1
 mtAH    mutAH   Nall    provided;available;granted
 ;
@@ -1802,11 +1738,9 @@ tyrysA  tiyriysA        Nprop   Teresa
 ;; tayos_1
 tys     tayos   Ndu     billy goat;fool
 >tyAs   >atoyAs N       billy goats;fools
-AtyAs   >atoyAs N       billy goats;fools
 tyws    tuyuws  N       billy goats;fools
 ;; >atoyas_1
 >tys    >atoyas Nel     billy goat;fool
-Atys    >atoyas Nel     billy goat;fool
 ;
 ;--- tyf
 ;; tiyfuwd_1
@@ -1876,9 +1810,7 @@ tyh     tay~ah  PV      mislead;confuse
 tyh     tay~ih  IV_yu   mislead;confuse
 ;; >atAh_1
 >tAh    >atAh   PV_V    mislead;confuse
-AtAh    >atAh   PV_V    mislead;confuse
 >th     >atah   PV_C    mislead;confuse
-Ath     >atah   PV_C    mislead;confuse
 tyh     tiyh    IV_V_yu mislead;confuse
 th      tih     IV_C_yu mislead;confuse
 tAh     tAh     IV_V_Pass_yu    be misled;be confused

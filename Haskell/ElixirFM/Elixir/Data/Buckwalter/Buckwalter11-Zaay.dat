@@ -78,13 +78,11 @@ zAyst   zAyst   Nprop   Zeist
 ;; zub~_1
 zb      zub~    N       penis
 >zbAb   >azobAb N       penises
-AzbAb   >azobAb N       penises
 ;; zabiyb_1
 zbyb    zabiyb  N       raisins
 zbyb    zabiyb  Napdu   raisin
 ;; >azab~_1
 >zb     >azab~  Nel     hirsute;shaggy
-Azb     >azab~  Nel     hirsute;shaggy
 zbA'    zab~A'  N0_Nh   hirsute;shaggy
 zbA&    zab~A&  Nh      hirsute;shaggy
 zbA}    zab~A}  Nhy     hirsute;shaggy
@@ -99,12 +97,10 @@ zbd     zab~ad  PV      froth;become foamy
 zbd     zab~id  IV_yu   froth;become foamy
 ;; >azobad_1
 >zbd    >azobad PV      froth;become foamy
-Azbd    >azobad PV      froth;become foamy
 zbd     zobid   IV_yu   froth;become foamy
 ;; zabad_1
 zbd     zabad   N       foam;froth
 >zbAd   >azobAd N       foam;froth
-AzbAd   >azobAd N       foam;froth
 ; in AFP corpus
 ;; zabadiy~_1
 zbdy    zabadiy~        N0      Zabadi
@@ -181,7 +177,6 @@ zbq     zobuq   IV      tear out;pluck out
 zbq     zobiq   IV      tear out;pluck out
 ;; {inozabaq_1
 <nzbq   {inozabaq       PV      slip in
-Anzbq   {inozabaq       PV      slip in
 nzbq    nozabiq IV      slip in
 ;
 ;--- zbl
@@ -192,7 +187,6 @@ zbl     zab~il  IV_yu   spread manure
 zbl     zibol   N       dung;manure
 zbl     zibol   Nap     dung;manure
 >zbAl   >azobAl N       dung;manure;rubbish
-AzbAl   >azobAl N       dung;manure;rubbish
 ;; zab~Al_1
 zbAl    zab~Al  Nall    garbage collector;street sweep
 ;; zubAlap_1
@@ -239,7 +233,6 @@ zj      zuj~    N       ferrule;arrowhead
 zjAj    zijAj   N       ferrules;arrowheads
 ;; >azaj~_1
 >zj     >azaj~  Nel     having beautiful eyebrows
-Azj     >azaj~  Nel     having beautiful eyebrows
 zjA'    zaj~A'  N0_Nh   having beautiful eyebrows
 zjA&    zaj~A&  Nh      having beautiful eyebrows
 zjA}    zaj~A}  Nhy     having beautiful eyebrows
@@ -266,11 +259,9 @@ zjr     zajar   PV      drive back;restrain;rebuke
 zjr     zojur   IV      drive back;restrain;rebuke
 ;; {inozajar_1
 <nzjr   {inozajar       PV_intr be driven back;be restrained;be rebuked
-Anzjr   {inozajar       PV_intr be driven back;be restrained;be rebuked
 nzjr    nozajir IV_intr be driven back;be restrained;be rebuked
 ;; {izodajar_1
 <zdjr   {izodajar       PV_intr be driven back;be restrained;be rebuked
-Azdjr   {izodajar       PV_intr be driven back;be restrained;be rebuked
 zdjr    zodajir IV_intr be driven back;be restrained;be rebuked
 ;; zajor_1
 zjr     zajor   N       prevention;suppression;reprimand
@@ -291,7 +282,6 @@ zjl     zojul   IV      release
 ;; zajal_1
 zjl     zajal   Ndu     zajal (poem)
 >zjAl   >azojAl N       zajals (poems)
-AzjAl   >azojAl N       zajals (poems)
 ;; zajaliy~_1
 zjly    zajaliy~        Nall    zajal (poetry)     <pos>zajaliy~/ADJ</pos>
 ;; zaj~Al_1
@@ -319,13 +309,9 @@ zjY     zaj~aY  IV_0_Pass_yu    be shoved;be jostled
 zjy     zaj~ay  IV_Ann_Pass_yu  be shoved;be jostled
 ;; >azojaY_1
 >zjY    >azojaY PV_0    shove;jostle
-AzjY    >azojaY PV_0    shove;jostle
 >zjA    >azojA  PV_h    shove;jostle
-AzjA    >azojA  PV_h    shove;jostle
 >zjy    >azojay PV_Atn  shove;jostle
-Azjy    >azojay PV_Atn  shove;jostle
 >zj     >azoj   PV_ttAw shove;jostle
-Azj     >azoj   PV_ttAw shove;jostle
 zjy     zojiy   IV_0hAnn_yu     shove;jostle
 zj      zoj     IV_0hwnyn_yu    shove;jostle
 zjY     zojaY   IV_0_Pass_yu    be shoved;be jostled
@@ -429,7 +415,6 @@ tzAHm   tazAHam PV      push together;be crowded
 tzAHm   tazAHam IV      push together;be crowded
 ;; {izodaHam_1
 <zdHm   {izodaHam       PV_intr be crowded
-AzdHm   {izodaHam       PV_intr be crowded
 zdHm    zodaHim IV_intr be crowded
 ;; zaHomap_1
 zHm     zaHom   Nap     crowded;jam
@@ -441,7 +426,6 @@ mzAHm   muzAHam NapAt   competition;rivalry
 tzAHm   tazAHum N/At    competition
 ;; {izodiHAm_1
 <zdHAm  {izodiHAm       NduAt   crowd;jam
-AzdHAm  {izodiHAm       NduAt   crowd;jam
 ;; muzAHim_1
 mzAHm   muzAHim Nall    competitor;rival
 ;; muzodaHim_1
@@ -518,7 +502,6 @@ zrr     zar~ir  IV_yu   button up
 ;; zir~_1
 zr      zir~    Ndu     button;switch button
 >zrAr   >azorAr N       buttons;switch buttons
-AzrAr   >azorAr N       buttons;switch buttons
 ;
 ;--- zrb
 ;; zarib-a_1
@@ -556,7 +539,6 @@ zrd     zarad   PV      choke;swallow
 zrd     zorud   IV      choke;swallow
 ;; {izodarad_1
 <zdrd   {izodarad       PV      swallow
-Azdrd   {izodarad       PV      swallow
 zdrd    zodarid IV      swallow
 ;; zarodap_1
 zrd     zarod   Nap     zarda (sweet dish)
@@ -596,15 +578,12 @@ zrE     zaraE   PV      plant;implant;cultivate
 zrE     zoraE   IV      plant;implant;cultivate
 ;; {inozaraE_1
 <nzrE   {inozaraE       PV_intr be planted;be implanted
-AnzrE   {inozaraE       PV_intr be planted;be implanted
 nzrE    nozariE IV_intr be planted;be implanted
 ;; {izodaraE_1
 <zdrE   {izodaraE       PV      plant;sow
-AzdrE   {izodaraE       PV      plant;sow
 zdrE    zodariE IV      plant;sow
 ;; {isotazoraE_1
 <stzrE  {isotazoraE     PV      utilize as acreage
-AstzrE  {isotazoraE     PV      utilize as acreage
 stzrE   sotazoriE       IV      utilize as acreage
 ;; zaroE_1
 zrE     zaroE   N       planting (seed);implanting (artificial heart);laying (mine)
@@ -663,9 +642,7 @@ zrq     zariq   PV_intr be blue in color
 zrq     zoraq   IV_intr be blue in color
 ;; {izoraq~_1
 <zrq    {izoraq~        PV_V_intr       be blue in color
-Azrq    {izoraq~        PV_V_intr       be blue in color
 <zrqq   {izoraqaq       PV_C_intr       be blue in color
-Azrqq   {izoraqaq       PV_C_intr       be blue in color
 zrq     zoraq~  IV_V_intr       be blue in color
 zrqq    zoraqiq IV_C_intr       be blue in color
 ;; zaroq_1
@@ -680,7 +657,6 @@ zryq    zurayoq N       jay
 zrwq    zuruwq  N0      Zurouq
 ;; >azoraq_1
 >zrq    >azoraq Nel     blue
-Azrq    >azoraq Nel     blue
 zrqA'   zaroqA' N0_Nh   blue
 zrqA&   zaroqA& Nh      blue
 zrqA}   zaroqA} Nhy     blue
@@ -692,7 +668,6 @@ mzrAq   mizorAq Ndu     javelin
 mzAryq  mazAriyq        Ndip    javelins
 ;; {izoriqAq_1
 <zrqAq  {izoriqAq       N/At    blueness
-AzrqAq  {izoriqAq       N/At    blueness
 ;
 ;--- zrqn
 ;; zaroquwn_1
@@ -730,13 +705,9 @@ zr      zor     IV_0hwnyn       rebuke;revile
 zrY     zoraY   IV_0_Pass_yu    be rebuked;be reviled
 ;; >azoraY_1
 >zrY    >azoraY PV_0    ridicule;disgrace
-AzrY    >azoraY PV_0    ridicule;disgrace
 >zrA    >azorA  PV_h    ridicule;disgrace
-AzrA    >azorA  PV_h    ridicule;disgrace
 >zry    >azoray PV_Atn  ridicule;disgrace
-Azry    >azoray PV_Atn  ridicule;disgrace
 >zr     >azor   PV_ttAw ridicule;disgrace
-Azr     >azor   PV_ttAw ridicule;disgrace
 zry     zoriy   IV_0hAnn_yu     ridicule;disgrace
 zr      zor     IV_0hwnyn_yu    ridicule;disgrace
 zrY     zoraY   IV_0_Pass_yu    be ridiculed;be disgraced
@@ -752,25 +723,17 @@ tzry    tazar~ay        IV_Ann  rebuke;revile
 tzr     tazar~  IV_0hwnyn       rebuke;revile
 ;; {izodaraY_1
 <zdrY   {izodaraY       PV_0    despise;defy
-AzdrY   {izodaraY       PV_0    despise;defy
 <zdrA   {izodarA        PV_h    despise;defy
-AzdrA   {izodarA        PV_h    despise;defy
 <zdry   {izodaray       PV_Atn  despise;defy
-Azdry   {izodaray       PV_Atn  despise;defy
 <zdr    {izodar PV_ttAw despise;defy
-Azdr    {izodar PV_ttAw despise;defy
 zdry    zodariy IV_0hAnn        despise;defy
 zdr     zodar   IV_0hwnyn       despise;defy
 zdrY    zodaraY IV_0    despise;defy
 ;; {isotazoraY_1
 <stzrY  {isotazoraY     PV_0    despise;defy
-AstzrY  {isotazoraY     PV_0    despise;defy
 <stzrA  {isotazorA      PV_h    despise;defy
-AstzrA  {isotazorA      PV_h    despise;defy
 <stzry  {isotazoray     PV_Atn  despise;defy
-Astzry  {isotazoray     PV_Atn  despise;defy
 <stzr   {isotazor       PV_ttAw despise;defy
-Astzr   {isotazor       PV_ttAw despise;defy
 stzry   sotazoriy       IV_0hAnn        despise;defy
 stzr    sotazor IV_0hwnyn       despise;defy
 stzrY   sotazoraY       IV_0_Pass_yu    be despised;be defied
@@ -780,30 +743,18 @@ zry     zariy~  Nall    despicable;miserable     <pos>zariy~/ADJ</pos>
 zrAy    zirAy   Nap     disdain;disparagement
 ;; <izorA'_1
 <zrA'   <izorA' N0_Nh   contempt;disregard
-AzrA'   <izorA' N0_Nh   contempt;disregard
 <zrA&   <izorA& Nh      contempt;disregard
-AzrA&   <izorA& Nh      contempt;disregard
 <zrA}   <izorA} Nhy     contempt;disregard
-AzrA}   <izorA} Nhy     contempt;disregard
 <zrA'   <izorA' NAn_Nayn        contempt;disregard
-AzrA'   <izorA' NAn_Nayn        contempt;disregard
 <zrA}   <izorA} Nayn    contempt;disregard
-AzrA}   <izorA} Nayn    contempt;disregard
 <zrA'   <izorA' NAt     contempt;disregard
-AzrA'   <izorA' NAt     contempt;disregard
 ;; {izodirA'_1
 <zdrA'  {izodirA'       N0_Nh   contempt;disregard
-AzdrA'  {izodirA'       N0_Nh   contempt;disregard
 <zdrA&  {izodirA&       Nh      contempt;disregard
-AzdrA&  {izodirA&       Nh      contempt;disregard
 <zdrA}  {izodirA}       Nhy     contempt;disregard
-AzdrA}  {izodirA}       Nhy     contempt;disregard
 <zdrA'  {izodirA'       NAn_Nayn        contempt;disregard
-AzdrA'  {izodirA'       NAn_Nayn        contempt;disregard
 <zdrA}  {izodirA}       Nayn    contempt;disregard
-AzdrA}  {izodirA}       Nayn    contempt;disregard
 <zdrA'  {izodirA'       NAt     contempt;disregard
-AzdrA'  {izodirA'       NAt     contempt;disregard
 ;; muzoriy_1
 mzry    muzoriy N0F_Nh  shameful;disgraceful     <pos>muzoriy/ADJ</pos>
 mzr     muzor   NK      shameful;disgraceful
@@ -844,21 +795,17 @@ zEj     zaEaj   PV      bother;anger;harass
 zEj     zoEaj   IV      bother;anger;harass
 ;; >azoEaj_1
 >zEj    >azoEaj PV      bother;anger;harass
-AzEj    >azoEaj PV      bother;anger;harass
 zEj     zoEij   IV_yu   bother;anger;harass
 zEj     zoEaj   IV_Pass_yu      be bothered;be angered;be harassed
 ;; {inozaEaj_1
 <nzEj   {inozaEaj       PV_intr be angered;be bothered
-AnzEj   {inozaEaj       PV_intr be angered;be bothered
 nzEj    nozaEij IV_intr be angered;be bothered
 ;; zaEoj_1
 zEj     zaEoj   N       uneasiness;unrest
 ;; <izoEAj_1
 <zEAj   <izoEAj NduAt   disturbance;harassment
-AzEAj   <izoEAj NduAt   disturbance;harassment
 ;; {inoziEAj_1
 <nzEAj  {inoziEAj       NduAt   disturbance;trouble
-AnzEAj  {inoziEAj       NduAt   disturbance;trouble
 ;; muzoEij_1
 mzEj    muzoEij Nall    annoying;troublesome     <pos>muzoEij/ADJ</pos>
 ;; munozaEij_1
@@ -869,13 +816,11 @@ mnzEj   munozaEij       Nall    angry;annoyed;bothered     <pos>munozaEij/ADJ</p
 zEr     zaEir   Nall    thin-haired
 ;; >azoEar_1
 >zEr    >azoEar Nel     thin-haired
-AzEr    >azoEar Nel     thin-haired
 zErA'   zaEorA' N0_Nh   thin-haired
 zErA&   zaEorA& Nh      thin-haired
 zErA}   zaEorA} Nhy     thin-haired
 ;; >azoEar_2
 >zEr    >azoEar Ndu     brigand;scoundrel
-AzEr    >azoEar Ndu     brigand;scoundrel
 zErAn   zuEorAn N       brigands;scoundrels
 ;; zuEayor_1
 zEyr    zuEayor N0      Zuair
@@ -919,7 +864,6 @@ zEf     zaEaf   PV      kill instantly
 zEf     zoEaf   IV      kill instantly
 ;; >azoEaf_1
 >zEf    >azoEaf PV      kill instantly
-AzEf    >azoEaf PV      kill instantly
 zEf     zoEif   IV_yu   kill instantly
 zEf     zoEaf   IV_Pass_yu      be killed instantly
 ;; zuEAf_1
@@ -954,7 +898,6 @@ zEl     zaE~al  PV      annoy;make angry
 zEl     zaE~il  IV_yu   annoy;make angry
 ;; >azoEal_1
 >zEl    >azoEal PV      annoy;make angry
-AzEl    >azoEal PV      annoy;make angry
 zEl     zoEil   IV_yu   annoy;make angry
 zEl     zoEal   IV_Pass_yu      be annoyed;be angered
 ;; zaEal_1
@@ -1005,7 +948,6 @@ zgb     zagab   N       fluff;fuzz
 zgb     zagib   Nall    fuzzy;fluffy
 ;; >azogab_1
 >zgb    >azogab Nel     fuzzy;fluffy
-Azgb    >azogab Nel     fuzzy;fluffy
 ;; zugobiy_1
 zgby    zugobiy N0      Zogbi;Zogby
 ;
@@ -1173,13 +1115,11 @@ zqq     zoquq   IV_C    feed (mouth-to-mouth)
 ;; zaq~_1
 zq      zaq~    N       wineskin
 >zqAq   >azoqAq N       wineskins
-AzqAq   >azoqAq N       wineskins
 zqAq    ziqAq   N       wineskins
 zqAn    zuq~An  N       wineskins
 ;; zuqAq_1
 zqAq    zuqAq   N       alley;corridor;cul-de-sac
 >zq     >aziq~  Nap     alleys;corridors;cul-de-sacs
-Azq     >aziq~  Nap     alleys;corridors;cul-de-sacs
 ;; zuqAqiy~_1
 zqAqy   zuqAqiy~        Nall    alley dweller
 ;
@@ -1210,12 +1150,10 @@ zqm     zaqam   PV      swallow;gulp
 zqm     zoqum   IV      swallow;gulp
 ;; >azoqam_1
 >zqm    >azoqam PV      make swallow or gulp
-Azqm    >azoqam PV      make swallow or gulp
 zqm     zoqim   IV_yu   make swallow or gulp
 zqm     zoqam   IV_Pass_yu      be made to swallow or gulp
 ;; {izodaqam_1
 <zdqm   {izodaqam       PV      swallow;gulp
-Azdqm   {izodaqam       PV      swallow;gulp
 zdqm    zodaqim IV      swallow;gulp
 ;; zaq~uwm_1
 zqwm    zaq~uwm N       Zaqqoum (tree in Hell)
@@ -1292,13 +1230,9 @@ zkY     zak~aY  IV_0_Pass_yu    be augmented;be nominated;be recommended
 zky     zak~ay  IV_Ann_Pass_yu  be augmented;be nominated;be recommended
 ;; >azokaY_1
 >zkY    >azokaY PV_0    augment;make grow
-AzkY    >azokaY PV_0    augment;make grow
 >zkA    >azokA  PV_h    augment;make grow
-AzkA    >azokA  PV_h    augment;make grow
 >zky    >azokay PV_Atn  augment;make grow
-Azky    >azokay PV_Atn  augment;make grow
 >zk     >azok   PV_ttAw augment;make grow
-Azk     >azok   PV_ttAw augment;make grow
 zky     zokiy   IV_0hAnn_yu     augment;make grow
 zk      zok     IV_0hwnyn_yu    augment;make grow
 zkY     zokaY   IV_0_Pass_yu    be augmented;be grown
@@ -1320,22 +1254,16 @@ zkA     zakA    N0_Nhy  alms;purity;honesty;integrity
 ;; zakiy~_1
 zky     zakiy~  N/ap    pure;blameless     <pos>zakiy~/ADJ</pos>
 >zkyA'  >azokiyA'       N0_Nh   pure;blameless
-AzkyA'  >azokiyA'       N0_Nh   pure;blameless
 >zkyA&  >azokiyA&       Nh      pure;blameless
-AzkyA&  >azokiyA&       Nh      pure;blameless
 >zkyA}  >azokiyA}       Nhy     pure;blameless
-AzkyA}  >azokiyA}       Nhy     pure;blameless
 ;; zakA'_1
 zkA'    zakA'   N0_Nh   integrity;righteousness
 zkA&    zakA&   Nh      integrity;righteousness
 zkA}    zakA}   Nhy     integrity;righteousness
 ;; >azokaY_2
 >zkY    >azokaY N0      purer/purest;better/best
-AzkY    >azokaY N0      purer/purest;better/best
 >zkA    >azokA  Nhy     purer/purest;better/best
-AzkA    >azokA  Nhy     purer/purest;better/best
 >zky    >azokay NAn_Nayn        purer/purest;better/best
-Azky    >azokay NAn_Nayn        purer/purest;better/best
 ;; tazokiyap_1
 tzky    tazokiy Nap     purification;nomination by acclamation
 ;
@@ -1350,9 +1278,7 @@ zl      zal~    IV_V    err;slip
 zll     zolal   IV_C    err;slip
 ;; >azal~_1
 >zl     >azal~  PV_V    make slip;make stumble
-Azl     >azal~  PV_V    make slip;make stumble
 >zll    >azolal PV_C    make slip;make stumble
-Azll    >azolal PV_C    make slip;make stumble
 zl      zil~    IV_V_yu make slip;make stumble
 zll     zolil   IV_C_yu make slip;make stumble
 ;; zal~_1
@@ -1378,7 +1304,6 @@ tzlj    tazal~aj        PV      slide;glide;ski
 tzlj    tazal~aj        IV      slide;glide;ski
 ;; {inozalaj_1
 <nzlj   {inozalaj       PV      slide;glide;ski
-Anzlj   {inozalaj       PV      slide;glide;ski
 nzlj    nozalij IV      slide;glide;ski
 ;; zaloj_1
 zlj     zaloj   N-ap    slippery
@@ -1452,7 +1377,6 @@ zlf     zal~af  PV      exaggerate
 zlf     zal~if  IV_yu   exaggerate
 ;; >azolaf_1
 >zlf    >azolaf PV      bring near
-Azlf    >azolaf PV      bring near
 zlf     zolif   IV_yu   bring near
 zlf     zolaf   IV_Pass_yu      be brought near
 ;; tazal~af_1
@@ -1460,7 +1384,6 @@ tzlf    tazal~af        PV      flatter;curry favor
 tzlf    tazal~af        IV      flatter;curry favor
 ;; {izodalaf_1
 <zdlf   {izodalaf       PV      flatter
-Azdlf   {izodalaf       PV      flatter
 zdlf    zodalif IV      flatter
 ;; zulofiy~_1
 zlfy    zulofiy~        N0      Zulfi
@@ -1488,7 +1411,6 @@ zlq     zal~aq  PV      slip;glide
 zlq     zal~iq  IV_yu   slip;glide
 ;; >azolaq_1
 >zlq    >azolaq PV      cause to slip
-Azlq    >azolaq PV      cause to slip
 zlq     zoliq   IV_yu   cause to slip
 zlq     zolaq   IV_Pass_yu      be made to slip
 ;; tazal~aq_1
@@ -1496,7 +1418,6 @@ tzlq    tazal~aq        PV      glide;skate;ski
 tzlq    tazal~aq        IV      glide;skate;ski
 ;; {inozalaq_1
 <nzlq   {inozalaq       PV      slide;skate/ski;drift
-Anzlq   {inozalaq       PV      slide;skate/ski;drift
 nzlq    nozaliq IV      slide;skate/ski;drift
 ;; zaliq_1
 zlq     zaliq   N-ap    slippery     <pos>zaliq/ADJ</pos>
@@ -1520,7 +1441,6 @@ mzlq    mizolaq NapAt   sleigh;sled
 mzAlq   mazAliq Ndip    sleighs;sleds
 ;; {inozilAq_1
 <nzlAq  {inozilAq       NduAt   slipping;skating/skiing;drift
-AnzlAq  {inozilAq       NduAt   slipping;skating/skiing;drift
 ;; munozaliq_1
 mnzlq   munozaliq       Nall    sliding;skating/skiing;drifting     <pos>munozaliq/ADJ</pos>
 ;
@@ -1528,7 +1448,6 @@ mnzlq   munozaliq       Nall    sliding;skating/skiing;drifting     <pos>munozal
 ;; zalam_1
 zlm     zalam   Ndu     divination arrow
 >zlAm   >azolAm N       divination arrows
-AzlAm   >azolAm N       divination arrows
 ;; zul~uwmap_1
 zlwm    zul~uwm Nap     elephant trunk
 zlAlym  zalAliym        Ndip    elephant trunks
@@ -1629,7 +1548,6 @@ zmE     zam~aE  PV_intr be determined;be resolved;decide
 zmE     zam~iE  IV_intr_yu      be determined;be resolved;decide
 ;; >azomaE_1
 >zmE    >azomaE PV_intr be determined;be resolved;decide
-AzmE    >azomaE PV_intr be determined;be resolved;decide
 zmE     zomiE   IV_intr_yu      be determined;be resolved;decide
 ;; muzomiE_1
 mzmE    muzomiE Nall    determined;resolved;decided     <pos>muzomiE/ADJ</pos>
@@ -1665,7 +1583,6 @@ zmn     zamin   PV-n_intr       be chronically ill
 zmn     zoman   IV-n_intr       be chronically ill
 ;; >azoman_1
 >zmn    >azoman PV-n    remain;become chronic
-Azmn    >azoman PV-n    remain;become chronic
 zmn     zomin   IV-n_yu remain;become chronic
 ;; tazAman_1
 tzAmn   tazAman PV-n    coincide;be simultaneous;occur simultaneously
@@ -1673,7 +1590,6 @@ tzAmn   tazAman IV-n    coincide;be simultaneous;occur simultaneously
 ;; zaman_1
 zmn     zaman   N       time;period;duration
 >zmAn   >azomAn N       time;periods;duration
-AzmAn   >azomAn N       time;periods;duration
 ;; zamanAF_1
 zmn     zaman   NF      for some time;for a while     <pos>zaman/ADV</pos>
 ;; zamanap_1
@@ -1709,9 +1625,7 @@ zmhr    zamohar PV_intr become flushed;be bloodshot
 zmhr    zamohir IV_intr_yu      become flushed;be bloodshot
 ;; {izomahar~_1
 <zmhr   {izomahar~      PV_V_intr       become flushed;be bloodshot
-Azmhr   {izomahar~      PV_V_intr       become flushed;be bloodshot
 <zmhrr  {izomahorar     PV_C_intr       become flushed;be bloodshot
-Azmhrr  {izomahorar     PV_C_intr       become flushed;be bloodshot
 zmhr    zomahir~        IV_V_intr       become flushed;be bloodshot
 zmhrr   zomahorir       IV_C_intr       become flushed;be bloodshot
 ;
@@ -1825,12 +1739,10 @@ znx     zanix   N-ap    rancid     <pos>zanix/ADJ</pos>
 znd     zanod   N       fire bow-drill apparatus
 znAd    zinAd   N       fire bow-drill apparatus
 >znAd   >azonAd N       fire bow-drill apparatus
-AznAd   >azonAd N       fire bow-drill apparatus
 ;; zinad_1
 znd     zinad   N       fire steel;flint
 znd     zinad   N       hammer (of a rifle)
 >znd    >azonid Nap     fire steel
-Aznd    >azonid Nap     fire steel
 ;
 ;--- zndq
 ;; tazanodaq_1
@@ -1944,7 +1856,6 @@ tzhd    tazah~ad        PV_intr be ascetic;be frugal
 tzhd    tazah~ad        IV_intr be ascetic;be frugal
 ;; {isotazohad_1
 <stzhd  {isotazohad     PV      deem insignificant
-Astzhd  {isotazohad     PV      deem insignificant
 stzhd   sotazohid       IV      deem insignificant
 ;; zuhod_1
 zhd     zuhod   N       abstinence;renunciation;asceticism
@@ -1965,11 +1876,9 @@ zhr     zahar   PV      radiate;shine
 zhr     zohar   IV      radiate;shine
 ;; >azohar_1
 >zhr    >azohar PV      glow;blossom
-Azhr    >azohar PV      glow;blossom
 zhr     zohir   IV_yu   glow;blossom
 ;; {izodahar_1
 <zdhr   {izodahar       PV      prosper;flourish
-Azdhr   {izodahar       PV      prosper;flourish
 zdhr    zodahir IV      prosper;flourish
 ;; zahor_1
 zhr     zahor   Ndu     flower
@@ -1978,7 +1887,6 @@ zhr     zahar   NAt     flowers;splendor
 ;; zuhuwr_1
 zhwr    zuhuwr  N       flowers
 >zhAr   >azohAr N       flowers
-AzhAr   >azohAr N       flowers
 ;; zuhayor_1
 zhyr    zuhayor N0      Zuheir;Zuhayr
 ;; zuhorap_1
@@ -2001,18 +1909,13 @@ zhrAwy  zahorAwiy~      N0      Zahrawi;Zahraoui
 zhAr    zah~Ar  Nall    florist;floriculturist
 ;; >azohar_2
 >zhr    >azohar N0      Azhar
-Azhr    >azohar N0      Azhar
 ;; >azohar_3
 >zhr    >azohar Nel     more/most radiant
-Azhr    >azohar Nel     more/most radiant
 ;; >azohariy~_1
 >zhry   >azohariy~      Nall    Azharite     <pos>>azohariy~/NOUN</pos>
-Azhry   >azohariy~      Nall    Azharite     <pos>>azohariy~/NOUN</pos>
 >zhry   >azohariy~      Nall    Azharite     <pos>>azohariy~/ADJ</pos>
-Azhry   >azohariy~      Nall    Azharite     <pos>>azohariy~/ADJ</pos>
 ;; >azohariy~_2
 >zhry   >azohariy~      N0      Azhari
-Azhry   >azohariy~      N0      Azhari
 ;; mizohar_1
 mzhr    mizohar N       lute-like instrument
 ;; mazohar_1
@@ -2025,10 +1928,8 @@ mzhry   mazohariy~      Nap     flower pot;vase     <pos>mazohariy~/NOUN</pos>
 tzhyr   tazohiyr        NduAt   florescence;bloom
 ;; <izohAr_1
 <zhAr   <izohAr NduAt   florescence
-AzhAr   <izohAr NduAt   florescence
 ;; {izodihAr_1
 <zdhAr  {izodihAr       NduAt   prosperity;thriving
-AzdhAr  {izodihAr       NduAt   prosperity;thriving
 ;; zAhir_1
 zAhr    zAhir   Nall    radiant;bright     <pos>zAhir/ADJ</pos>
 ;; muzohar_1
@@ -2044,7 +1945,6 @@ zhf     zahaf   PV_intr be on the verge of
 zhf     zohaf   IV_intr be on the verge of
 ;; {izodahaf_1
 <zdhf   {izodahaf       PV_intr be on the verge of
-Azdhf   {izodahaf       PV_intr be on the verge of
 zdhf    zodahif IV_intr be on the verge of
 ;
 ;--- zhq
@@ -2053,14 +1953,12 @@ zhq     zahaq   PV      die;be tired
 zhq     zohaq   IV      die;be tired
 ;; >azohaq_1
 >zhq    >azohaq PV      destroy;suppress
-Azhq    >azohaq PV      destroy;suppress
 zhq     zohiq   IV_yu   destroy;suppress
 zhq     zohaq   IV_Pass_yu      be destroyed;be suppressed
 ;; zahuwq_1
 zhwq    zahuwq  N       dying;vanishing
 ;; <izohAq_1
 <zhAq   <izohAq NduAt   destroying;killing
-AzhAq   <izohAq NduAt   destroying;killing
 ;
 ;--- zhm
 ;; zuhom_1
@@ -2090,26 +1988,18 @@ zhY     zohaY   IV_0    be conceited;be boastful
 zhy     zohay   IV_Ann  be conceited;be boastful
 ;; >azohaY_1
 >zhY    >azohaY PV_0    flourish;prosper
-AzhY    >azohaY PV_0    flourish;prosper
 >zhA    >azohA  PV_h    flourish;prosper
-AzhA    >azohA  PV_h    flourish;prosper
 >zhy    >azohay PV_Atn  flourish;prosper
-Azhy    >azohay PV_Atn  flourish;prosper
 >zh     >azoh   PV_ttAw flourish;prosper
-Azh     >azoh   PV_ttAw flourish;prosper
 zhy     zohiy   IV_0hAnn_yu     flourish;prosper
 zh      zoh     IV_0hwnyn_yu    flourish;prosper
 ; zhY   zohaY   IV_0_Pass_yu    flourish;prosper
 ; zhy   zohay   IV_Ann_Pass_yu  flourish;prosper
 ;; {izodahaY_1
 <zdhY   {izodahaY       PV_0    be conceited;be boastful
-AzdhY   {izodahaY       PV_0    be conceited;be boastful
 <zdhA   {izodahA        PV_h    be conceited;be boastful
-AzdhA   {izodahA        PV_h    be conceited;be boastful
 <zdhy   {izodahay       PV_Atn  be conceited;be boastful
-Azdhy   {izodahay       PV_Atn  be conceited;be boastful
 <zdh    {izodah PV_ttAw_intr    be conceited;be boastful
-Azdh    {izodah PV_ttAw_intr    be conceited;be boastful
 zdhy    zodahiy IV_0hAnn        be conceited;be boastful
 zdh     zodah   IV_0hwnyn       be conceited;be boastful
 zdhY    zodahaY IV_0_Pass_yu    be conceited;be boastful
@@ -2132,31 +2022,19 @@ zhA'    zuhA'a  FW-WaBi roughly;approximately     <pos>zuhA'a/PREP</pos>
 zhA'    zuhA'a  FW-Wa-a roughly;approximately     <pos>zuhA'a/PREP</pos>
 ;; >azohaY_2
 >zhY    >azohaY N0      more/most splendid;more/most conceited
-AzhY    >azohaY N0      more/most splendid;more/most conceited
 >zhA    >azohA  Nhy     more/most splendid;more/most conceited
-AzhA    >azohA  Nhy     more/most splendid;more/most conceited
 >zhy    >azohay NAn_Nayn        most splendid;most conceited
-Azhy    >azohay NAn_Nayn        most splendid;most conceited
 ;; <izohA'_1
 <zhA'   <izohA' N0_Nh   prosperity;flourishing;splendor
-AzhA'   <izohA' N0_Nh   prosperity;flourishing;splendor
 <zhA&   <izohA& Nh      prosperity;flourishing;splendor
-AzhA&   <izohA& Nh      prosperity;flourishing;splendor
 <zhA}   <izohA} Nhy     prosperity;flourishing;splendor
-AzhA}   <izohA} Nhy     prosperity;flourishing;splendor
 ;; {izodihA'_1
 <zdhA'  {izodihA'       N0_Nh   flourishing;radiance;pride
-AzdhA'  {izodihA'       N0_Nh   flourishing;radiance;pride
 <zdhA&  {izodihA&       Nh      flourishing;radiance;pride
-AzdhA&  {izodihA&       Nh      flourishing;radiance;pride
 <zdhA}  {izodihA}       Nhy     flourishing;radiance;pride
-AzdhA}  {izodihA}       Nhy     flourishing;radiance;pride
 <zdhA'  {izodihA'       NAn_Nayn        flourishing;radiance;pride
-AzdhA'  {izodihA'       NAn_Nayn        flourishing;radiance;pride
 <zdhA}  {izodihA}       Nayn    flourishing;radiance;pride
-AzdhA}  {izodihA}       Nayn    flourishing;radiance;pride
 <zdhA'  {izodihA'       NAt     flourishing;radiance;pride
-AzdhA'  {izodihA'       NAt     flourishing;radiance;pride
 ;; zAhiy_1
 zAhy    zAhiy   N0F     resplendent;magnificent     <pos>zAhiy/ADJ</pos>
 zAh     zAh     NK      resplendent;magnificent
@@ -2193,13 +2071,11 @@ tzAwj   tazAwaj PV      join;pair up
 tzAwj   tazAwaj IV      join;pair up
 ;; {izodawaj_1
 <zdwj   {izodawaj       PV_intr be double;be in pairs
-Azdwj   {izodawaj       PV_intr be double;be in pairs
 zdwj    zodawij IV_intr be double;be in pairs
 ;; zawoj_1
 zwj     zawoj   N       spouse;husband
 zwj     zawoj   NAn_Nayn        married couple
 >zwAj   >azowAj N       spouses;husbands
-AzwAj   >azowAj N       spouses;husbands
 ;; zawojap_1
 zwj     zawoj   NapAt   wife
 ;; zawojiy~_1
@@ -2227,13 +2103,10 @@ tzwj    tazaw~uj        NduAt   marriage
 tzAwj   tazAwuj NduAt   intermarriage
 ;; {izodiwAj_1
 <zdwAj  {izodiwAj       NduAt   duality
-AzdwAj  {izodiwAj       NduAt   duality
 ;; {izodiwAjiy~_1
 <zdwAjy {izodiwAjiy~    Nall    dual;bi-     <pos>{izodiwAjiy~/ADJ</pos>
-AzdwAjy {izodiwAjiy~    Nall    dual;bi-     <pos>{izodiwAjiy~/ADJ</pos>
 ;; {izodiwAjiy~ap_1
 <zdwAjy {izodiwAjiy~    NapAt   duality;bi-     <pos>{izodiwAjiy~/NOUN</pos>
-AzdwAjy {izodiwAjiy~    NapAt   duality;bi-     <pos>{izodiwAjiy~/NOUN</pos>
 ;; mutazaw~ij_1
 mtzwj   mutazaw~ij      Nall    married     <pos>mutazaw~ij/ADJ</pos>
 ;; muzodawij_1
@@ -2252,9 +2125,7 @@ zwd     zaw~ad  PV      supply;provide
 zwd     zaw~id  IV_yu   supply;provide
 ;; >azAd_1
 >zAd    >azAd   PV_V    supply;provide
-AzAd    >azAd   PV_V    supply;provide
 >zd     >azad   PV_C    supply;provide
-Azd     >azad   PV_C    supply;provide
 zyd     ziyd    IV_V_yu supply;provide
 zd      zid     IV_C_yu supply;provide
 zAd     zAd     IV_V_Pass_yu    be supplied;be provided
@@ -2277,9 +2148,7 @@ mzwd    muzaw~id        Nall    supplier
 mzwd    muzaw~ad        Nall    supplied;equipped;armed     <pos>muzaw~ad/ADJ</pos>
 ;; >azowAd_1
 >zwAd   >azowAd N       provisions;stores
-AzwAd   >azowAd N       provisions;stores
 >zwd    >azowid Nap     provisions;stores
-Azwd    >azowid Nap     provisions;stores
 ;; zawAd_1
 zwAd    zawAd   N       provisions
 ;; zuw~Adap_1
@@ -2299,9 +2168,7 @@ zwr     zaw~ar  PV      forge;falsify
 zwr     zaw~ir  IV_yu   forge;falsify
 ;; >azAr_1
 >zAr    >azAr   PV_V    make visit
-AzAr    >azAr   PV_V    make visit
 >zr     >azar   PV_C    make visit
-Azr     >azar   PV_C    make visit
 zyr     ziyr    IV_V_yu make visit
 zr      zir     IV_C_yu make visit
 zAr     zAr     IV_V_Pass_yu    be shown (as visitor)
@@ -2311,16 +2178,12 @@ tzAwr   tazAwar PV      exchange visits
 tzAwr   tazAwar IV      exchange visits
 ;; {izowar~_1
 <zwr    {izowar~        PV_V    alienate;be dissociated from
-Azwr    {izowar~        PV_V    alienate;be dissociated from
 <zwrr   {izowarar       PV_C    alienate;be dissociated from
-Azwrr   {izowarar       PV_C    alienate;be dissociated from
 zwr     zowar~  IV_V    alienate;be dissociated from
 zwrr    zowarir IV_C    alienate;be dissociated from
 ;; {isotazAr_1
 <stzAr  {isotazAr       PV_V    seek a visit
-AstzAr  {isotazAr       PV_V    seek a visit
 <stzr   {isotazar       PV_C    seek a visit
-Astzr   {isotazar       PV_C    seek a visit
 stzyr   sotaziyr        IV_V    seek a visit
 stzr    sotazir IV_C    seek a visit
 ;; zawor_1
@@ -2336,13 +2199,11 @@ zwr     zawor   Nap     visit
 zyAr    ziyAr   NapAt   visit
 ;; >azowar_1
 >zwr    >azowar Nel     crooked;oblique
-Azwr    >azowar Nel     crooked;oblique
 zwrA'   zaworA' N0_Nh   crooked;oblique
 zwrA&   zaworA& Nh      crooked;oblique
 zwrA}   zaworA} Nhy     crooked;oblique
 ;; >azowar_2
 >zwr    >azowar Nel     cross-eyed
-Azwr    >azowar Nel     cross-eyed
 zwrA'   zaworA' N0_Nh   cross-eyed
 zwrA&   zaworA& Nh      cross-eyed
 zwrA}   zaworA} Nhy     cross-eyed
@@ -2353,7 +2214,6 @@ mzAr    mazAr   NduAt   visit place;shrine;sanctuary
 tzwyr   tazowiyr        NduAt   forgery;falsification
 ;; {izowirAr_1
 <zwrAr  {izowirAr       N/At    aversion;turning away
-AzwrAr  {izowirAr       N/At    aversion;turning away
 ;; zA}ir_1
 zA}r    zA}ir   Nall    visitor;tourist
 zwAr    zuw~Ar  N       visitors;tourists
@@ -2518,9 +2378,7 @@ zAyl    zAyal   PV      separate;abandon
 zAyl    zAyil   IV_yu   separate;abandon
 ;; >azAl_1
 >zAl    >azAl   PV_V    remove;eliminate
-AzAl    >azAl   PV_V    remove;eliminate
 >zl     >azal   PV_C    remove;eliminate
-Azl     >azal   PV_C    remove;eliminate
 zyl     ziyl    IV_V_yu remove;eliminate
 zl      zil     IV_C_yu remove;eliminate
 zAl     zAl     IV_V_Pass_yu    be removed;be eliminated
@@ -2534,7 +2392,6 @@ tzAyl   tazAyal IV_intr be disjointed;cease
 ;; zawol_1
 zwl     zawol   N       apparition;figure
 >zwAl   >azowAl N       apparitions;figures
-AzwAl   >azowAl N       apparitions;figures
 ;; zawAl_1
 zwAl    zawAl   N       disappearance;cessation;noon
 ;; zawAlAF_1
@@ -2548,7 +2405,6 @@ mzAwl   mazAwil Ndip    sundials
 mzAwl   muzAwal NapAt   pursuit;practice
 ;; <izAlap_1
 <zAl    <izAl   Nap     removal;elimination
-AzAl    <izAl   Nap     removal;elimination
 ;; zA}il_1
 zA}l    zA}il   Nall    transitory;ephemeral     <pos>zA}il/ADJ</pos>
 ;; muziyl_1
@@ -2572,7 +2428,6 @@ zwm     zaw~im  IV_yu   mutter;mumble
 ;; zuwm_1
 zwm     zuwm    N       juice;sap
 >zwAm   >azowAm N       juice;sap
-AzwAm   >azowAm N       juice;sap
 ;
 ;--- zwn
 ;; zuwAn_1
@@ -2607,29 +2462,19 @@ tzwy    tazaw~ay        IV_Ann  retire;go into seclusion
 tzw     tazaw~  IV_0hwnyn       retire;go into seclusion
 ;; {inozawaY_1
 <nzwY   {inozawaY       PV_0    retire;go into seclusion
-AnzwY   {inozawaY       PV_0    retire;go into seclusion
 <nzwA   {inozawA        PV_h    retire;go into seclusion
-AnzwA   {inozawA        PV_h    retire;go into seclusion
 <nzwy   {inozaway       PV_Atn  retire;go into seclusion
-Anzwy   {inozaway       PV_Atn  retire;go into seclusion
 <nzw    {inozaw PV_ttAw retire;go into seclusion
-Anzw    {inozaw PV_ttAw retire;go into seclusion
 nzwy    nozawiy IV_0hAnn        retire;go into seclusion
 nzw     nozaw   IV_0hwnyn       retire;go into seclusion
 nzwY    nozawaY IV_0    retire;go into seclusion
 ;; {inoziwA'_1
 <nzwA'  {inoziwA'       N0_Nh   seclusion;isolation;retirement
-AnzwA'  {inoziwA'       N0_Nh   seclusion;isolation;retirement
 <nzwA&  {inoziwA&       Nh      seclusion;isolation;retirement
-AnzwA&  {inoziwA&       Nh      seclusion;isolation;retirement
 <nzwA}  {inoziwA}       Nhy     seclusion;isolation;retirement
-AnzwA}  {inoziwA}       Nhy     seclusion;isolation;retirement
 <nzwA'  {inoziwA'       NAn_Nayn        seclusion;isolation;retirement
-AnzwA'  {inoziwA'       NAn_Nayn        seclusion;isolation;retirement
 <nzwA}  {inoziwA}       Nayn    seclusion;isolation;retirement
-AnzwA}  {inoziwA}       Nayn    seclusion;isolation;retirement
 <nzwA'  {inoziwA'       NAt     seclusion;isolation;retirement
-AnzwA'  {inoziwA'       NAt     seclusion;isolation;retirement
 ;; zAwiyap_1
 zAwy    zAwiy   NapAt   corner;nook;angle
 zwAyA   zawAyA  N0_Nhy  corners;nooks;angles
@@ -2663,11 +2508,8 @@ tzy     tazay~  IV_0hwnyn       be dressed;be clothed
 zy      ziy~    N       uniform;clothing
 ;; >azoyA'_1
 >zyA'   >azoyA' N0_Nh   fashion;clothes;uniforms
-AzyA'   >azoyA' N0_Nh   fashion;clothes;uniforms
 >zyA&   >azoyA& Nh      fashion;clothes;uniforms
-AzyA&   >azoyA& Nh      fashion;clothes;uniforms
 >zyA}   >azoyA} Nhy     fashion;clothes;uniforms
-AzyA}   >azoyA} Nhy     fashion;clothes;uniforms
 ;
 ;--- zyA
 ; Turkish deputy undersecretary Ugur Ziyal
@@ -2720,29 +2562,23 @@ zyH     ziyH    IV_V    depart
 zH      ziH     IV_C    depart
 ;; >azAH_1
 >zAH    >azAH   PV_V    remove;abolish
-AzAH    >azAH   PV_V    remove;abolish
 >zH     >azaH   PV_C    remove;abolish
-AzH     >azaH   PV_C    remove;abolish
 zyH     ziyH    IV_V_yu remove;abolish
 zH      ziH     IV_C_yu remove;abolish
 zAH     zAH     IV_V_Pass_yu    be removed;be abolished
 zH      zaH     IV_C_Pass_yu    be removed;be abolished
 ;; {inozAH_1
 <nzAH   {inozAH PV_V    depart;be removed
-AnzAH   {inozAH PV_V    depart;be removed
 <nzH    {inozaH PV_C    depart;be removed
-AnzH    {inozaH PV_C    depart;be removed
 nzAH    nozAH   IV_V    depart;be removed
 nzH     nozaH   IV_C    depart;be removed
 ;; ziyH_1
 zyH     ziyH    N       straight line
 >zyAH   >azoyAH N       straight lines
-AzyAH   >azoyAH N       straight lines
 ;; zay~AH_1
 zyAH    zay~AH  NduAt   religious procession
 ;; <izAHap_1
 <zAH    <izAH   NapAt   removal;abolition
-AzAH    <izAH   NapAt   removal;abolition
 ;
 ;--- zyd
 ;; zAd-i_1
@@ -2766,16 +2602,12 @@ tzAyd   tazAyad PV      outbid
 tzAyd   tazAyad IV      outbid
 ;; {izodAd_1
 <zdAd   {izodAd PV_V    increase
-AzdAd   {izodAd PV_V    increase
 <zdd    {izodad PV_C    increase
-Azdd    {izodad PV_C    increase
 zdAd    zodAd   IV_V    increase
 zdd     zodad   IV_C    increase
 ;; {isotazAd_1
 <stzAd  {isotazAd       PV_V    seek an increase
-AstzAd  {isotazAd       PV_V    seek an increase
 <stzd   {isotazad       PV_C    seek an increase
-Astzd   {isotazad       PV_C    seek an increase
 stzyd   sotaziyd        IV_V    seek an increase
 stzd    sotazid IV_C    seek an increase
 ;; zayod_1
@@ -2790,7 +2622,6 @@ zyAd    ziyAd   N0      Ziad
 zyAd    ziyAd   Nap     increase;addition
 ;; >azoyad_1
 >zyd    >azoyad Nel     higher/highest;greater/greatest
-Azyd    >azoyad Nel     higher/highest;greater/greatest
 ;; mazAd_1
 mzAd    mazAd   NduAt   auction
 ;; maziyd_1
@@ -2805,10 +2636,8 @@ tzyd    tazay~ud        NduAt   exaggeration
 tzAyd   tazAyud NduAt   increment;gradual increase
 ;; {izodiyAd_1
 <zdyAd  {izodiyAd       NduAt   increase;intensification
-AzdyAd  {izodiyAd       NduAt   increase;intensification
 ;; {isotizAdap_1
 <stzAd  {isotizAd       Nap     desire for increase
-AstzAd  {isotizAd       Nap     desire for increase
 ;; zAyid_1
 zAyd    zAyid   N0      Zayid;Zayed
 ;; zA}id_1
@@ -2827,7 +2656,6 @@ mzdAd   muzodAd Nall    born
 ;--- zyr
 ;; >azoyAr_1
 >zyAr   >azoyAr N       water pots
-AzyAr   >azoyAr N       water pots
 zyAr    ziyAr   N       water pots
 ;
 ;--- zyz
@@ -2846,9 +2674,7 @@ zyg     ziyg    IV_V    depart;turn aside;wander
 zg      zig     IV_C    depart;turn aside;wander
 ;; >azAg_1
 >zAg    >azAg   PV_V    make deviate;avert
-AzAg    >azAg   PV_V    make deviate;avert
 >zg     >azag   PV_C    make deviate;avert
-Azg     >azag   PV_C    make deviate;avert
 zyg     ziyg    IV_V_yu make deviate;avert
 zg      zig     IV_C_yu make deviate;avert
 zAg     zAg     IV_V_Pass_yu    be deviated;be averted
@@ -2875,7 +2701,6 @@ zyf     zayof   N       spuriousness;forged;counterfeit
 zywf    zuyuwf  N       forged;counterfeit
 ;; >azoyaf_1
 >zyf    >azoyaf Nel     falser/falsest;more/most spurious
-Azyf    >azoyaf Nel     falser/falsest;more/most spurious
 ;; tazoyiyf_1
 tzyyf   tazoyiyf        NduAt   forgery;falsification
 ;; zA}if_1
@@ -2932,9 +2757,7 @@ tzyn    tazay~an        PV-n_intr       be embellished;be decorated
 tzyn    tazay~an        IV-n_intr       be embellished;be decorated
 ;; {izodAn_1
 <zdAn   {izodAn PV_V_intr       be embellished;be decorated
-AzdAn   {izodAn PV_V_intr       be embellished;be decorated
 <zdn    {izodan PV_Cn_intr      be embellished;be decorated
-Azdn    {izodan PV_Cn_intr      be embellished;be decorated
 zdAn    zodAn   IV_V_intr       be embellished;be decorated
 zdn     zodan   IV-n_intr       be embellished;be decorated
 ;; zayon_1

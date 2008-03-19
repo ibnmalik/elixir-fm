@@ -131,7 +131,6 @@ jbb     jobub   IV_C    pollinate
 ;; jub~_1
 jb      jub~    Ndu     cistern;pit
 >jbAb   >ajobAb N       cisterns;pits
-AjbAb   >ajobAb N       cisterns;pits
 jbAb    jibAb   N       cisterns;pits
 ;; jub~ap_1
 jb      jub~    Napdu   jubbah
@@ -142,10 +141,8 @@ jbAb    jibAb   N       jubbahs
 ;; jaboH_1
 jbH     jaboH   Ndu     beehive
 >jbH    >ajobuH N       beehives
-AjbH    >ajobuH N       beehives
 jbAH    jibAH   N       beehives
 >jbAH   >ajobAH N       beehives
-AjbAH   >ajobAH N       beehives
 ;
 ;; jaboxAnap_1
 jbxAn   jaboxAn NapAt   powder magazine;ammunition
@@ -165,7 +162,6 @@ jAbr    jAbar   PV      treat kindly
 jAbr    jAbir   IV_yu   treat kindly
 ;; >ajobar_1
 >jbr    >ajobar PV      force;compel
-Ajbr    >ajobar PV      force;compel
 jbr     jobir   IV_yu   force;compel
 jbr     jobar   IV_Pass_yu      be forced;be compelled
 ;; tajab~ar_1
@@ -173,7 +169,6 @@ tjbr    tajab~ar        PV      act arrogantly;show strength
 tjbr    tajab~ar        IV      act arrogantly;show strength
 ;; {inojabar_1
 <njbr   {inojabar       PV_intr be mended;be restored
-Anjbr   {inojabar       PV_intr be mended;be restored
 njbr    nojabir IV_intr be mended;be restored
 ;; jabor_1
 jbr     jabor   N       coercion
@@ -206,10 +201,8 @@ jbA}r   jabA}ir Ndip    splints
 jbrwt   jabaruwt        N       omnipotence;might
 ;; <ijobAr_1
 <jbAr   <ijobAr N/At    compulsion;coercion
-AjbAr   <ijobAr N/At    compulsion;coercion
 ;; <ijobAriy~_1
 <jbAry  <ijobAriy~      N-ap    compulsory;obligatory     <pos><ijobAriy~/ADJ</pos>
-AjbAry  <ijobAriy~      N-ap    compulsory;obligatory     <pos><ijobAriy~/ADJ</pos>
 ;; jAbir_1
 jAbr    jAbir   N0      Jabir
 ;; jAbir_2
@@ -253,7 +246,6 @@ jbl     jibil~  NapAt   disposition;temper
 jbl     jabal   Ndu     mountain
 jbAl    jibAl   N       mountains
 >jbAl   >ajobAl N       mountains
-AjbAl   >ajobAl N       mountains
 ;; jabal_2
 jbl     jabal   N0      Jabal
 ;; jubayol_1
@@ -303,14 +295,11 @@ jbyn    jabiyn  N       forehead;brow
 ;; jubun_1
 jbn     jubun   N       fronts
 >jbn    >ajobin Nap     fronts
-Ajbn    >ajobin Nap     fronts
 >jbn    >ajobun N       fronts
-Ajbn    >ajobun N       fronts
 ;; jabiyniy~_1
 jbyny   jabiyniy~       Nall    frontal     <pos>jabiyniy~/ADJ</pos>
 ;; >ajoban_1
 >jbn    >ajoban Nel     more/most cowardly
-Ajbn    >ajoban Nel     more/most cowardly
 ;; jab~Anap_1
 jbAn    jab~An  Napdu   cemetery
 ;; majobanap_1
@@ -353,13 +342,9 @@ jby     jab~iy  IV_0hAnn_yu     kneel;prostrate
 jb      jab~    IV_0hwnyn_yu    kneel;prostrate
 ;; {ijotabaY_1
 <jtbY   {ijotabaY       PV_0    choose;elect
-AjtbY   {ijotabaY       PV_0    choose;elect
 <jtbA   {ijotabA        PV_h    choose;elect
-AjtbA   {ijotabA        PV_h    choose;elect
 <jtby   {ijotabay       PV_Atn  choose;elect
-Ajtby   {ijotabay       PV_Atn  choose;elect
 <jtb    {ijotab PV_ttAw choose;elect
-Ajtb    {ijotab PV_ttAw choose;elect
 jtby    jotabiy IV_0hAnn        choose;elect
 jtb     jotab   IV_0hwnyn       choose;elect
 jtbY    jotabaY IV_0_Pass_yu    be chosen;be elected
@@ -403,19 +388,15 @@ jv      juv~    IV_V    tear out;uproot
 jvv     jovuv   IV_C    tear out;uproot
 ;; {ijotav~_1
 <jtv    {ijotav~        PV_V    tear out;uproot
-Ajtv    {ijotav~        PV_V    tear out;uproot
 <jtvv   {ijotavav       PV_C    tear out;uproot
-Ajtvv   {ijotavav       PV_C    tear out;uproot
 jtv     jotav~  IV_V    tear out;uproot
 jtvv    jotaviv IV_C    tear out;uproot
 ;; juv~ap_1
 jv      juv~    Napdu   corpse
 jvv     juvav   N       corpses
 >jvAv   >ajovAv N       corpses
-AjvAv   >ajovAv N       corpses
 ;; {ijotivAv_1
 <jtvAv  {ijotivAv       NduAt   uprooting;tearing out
-AjtvAv  {ijotivAv       NduAt   uprooting;tearing out
 ;; mujotav~_1
 mjtv    mujotav~        Nall    uprooted
 ;
@@ -484,16 +465,13 @@ jHr     jaHar   PV      hide
 jHr     joHar   IV      hide
 ;; {inojaHar_1
 <njHr   {inojaHar       PV      hide
-AnjHr   {inojaHar       PV      hide
 njHr    nojaHir IV      hide
 ;; {ijotaHar_1
 <jtHr   {ijotaHar       PV      seek refuge
-AjtHr   {ijotaHar       PV      seek refuge
 jtHr    jotaHir IV      seek refuge
 ;; juHor_1
 jHr     juHor   Ndu     hole;burrow
 >jHAr   >ajoHAr N       holes;burrows
-AjHAr   >ajoHAr N       holes;burrows
 jHwr    juHuwr  N       holes;burrows
 ;
 ;; jaHo$_1
@@ -501,7 +479,6 @@ jH$     jaHo$   N/ap    young donkey
 jHA$    jiHA$   N       young donkeys
 jH$An   jiHo$An N       young donkeys
 >jHA$   >ajoHA$ N       young donkeys
-AjHA$   >ajoHA$ N       young donkeys
 ;; juHuw$_1
 jHw$    juHuw$  N       horses
 ;
@@ -521,12 +498,10 @@ jAHf    jAHaf   PV      follow;approach
 jAHf    jAHif   IV_yu   follow;approach
 ;; >ajoHaf_1
 >jHf    >ajoHaf PV      harm;ruin
-AjHf    >ajoHaf PV      harm;ruin
 jHf     joHif   IV_yu   harm;ruin
 jHf     joHaf   IV_Pass_yu      be harmed;be ruined
 ;; <ijoHAf_1
 <jHAf   <ijoHAf NduAt   injustice;prejudice
-AjHAf   <ijoHAf NduAt   injustice;prejudice
 ;; mujoHif_1
 mjHf    mujoHif Nall    unfair;biased
 ;
@@ -570,9 +545,7 @@ jdd     jad~ad  PV      renew;repeat
 jdd     jad~id  IV_yu   renew;repeat
 ;; >ajad~_1
 >jd     >ajad~  PV_V    renew;hurry
-Ajd     >ajad~  PV_V    renew;hurry
 >jdd    >ajodad PV_C    renew;hurry
-Ajdd    >ajodad PV_C    renew;hurry
 jd      jid~    IV_V_yu renew;hurry
 jdd     jodid   IV_C_yu renew;hurry
 ;; tajad~ad_1
@@ -582,9 +555,7 @@ tjdd    tajad~ad        IV_intr be renewed;be repeated;be revived
 tjdd    tajad~ud        NduAt   modernization;renewal;revival
 ;; {isotajad~_1
 <stjd   {isotajad~      PV_V_intr       be new;consider as new
-Astjd   {isotajad~      PV_V_intr       be new;consider as new
 <stjdd  {isotajodad     PV_C_intr       be new;consider as new
-Astjdd  {isotajodad     PV_C_intr       be new;consider as new
 stjd    sotajid~        IV_V_intr       be new;consider as new
 stjdd   sotajodid       IV_C_intr       be new;consider as new
 ;; jad~_1
@@ -592,7 +563,6 @@ jd      jad~    Ndu     grandfather
 jd      jad~    NapAt   grandmother
 jdwd    juduwd  N       ancestors;grandparents
 >jdAd   >ajodAd N       ancestors;grandparents
-AjdAd   >ajodAd N       ancestors;grandparents
 ;; jad~_2
 jd      jad~    N       good luck
 ;; juduwd_1
@@ -616,7 +586,6 @@ jdyd    jadiyd  N/ap    new;modern     <pos>jadiyd/ADJ</pos>
 jdd     judud   N       new     <pos>judud/ADJ</pos>
 ;; >ajad~_2
 >jd     >ajad~  Nel     newer;more serious
-Ajd     >ajad~  Nel     newer;more serious
 ;; tajodiyd_1
 tjdyd   tajodiyd        NduAt   renovation;renewal
 ;; jAd~_1
@@ -645,7 +614,6 @@ jdb     jadab   PV_intr be barren;be arid
 jdb     jodub   IV_intr be barren;be arid
 ;; >ajodab_1
 >jdb    >ajodab PV_intr be barren;explode in the barrel
-Ajdb    >ajodab PV_intr be barren;explode in the barrel
 jdb     jodib   IV_intr_yu      be barren;explode in the barrel
 ;; juduwbap_1
 jdwb    juduwb  Nap     barrenness;sterility
@@ -655,7 +623,6 @@ jdb     jadob   N       drought;sterility
 jdyb    jadiyb  Nall    barren;sterile
 ;; >ajodab_2
 >jdb    >ajodab Nel     barren;sterile
-Ajdb    >ajodab Nel     barren;sterile
 jdbA'   jadobA' N0_Nh   barren;sterile
 jdbA&   jadobA& Nh      barren;sterile
 jdbA}   jadobA} Nhy     barren;sterile
@@ -665,7 +632,6 @@ mjdb    mujodib Nall    barren;sterile;unproductive
 ;; jadav_1
 jdv     jadav   Ndu     grave;tomb
 >jdAv   >ajodAv N       graves;tombs
-AjdAv   >ajodAv N       graves;tombs
 ;
 ;; judojud_1
 jdjd    judojud Ndu     cricket
@@ -686,7 +652,6 @@ jdr     jad~ar  PV      have smallpox
 jdr     jad~ir  IV_yu   have smallpox
 ;; >ajodar_1
 >jdr    >ajodar PV      make worthy;become worthy
-Ajdr    >ajodar PV      make worthy;become worthy
 jdr     jodir   IV_yu   make worthy;become worthy
 ;; jadiyr_1
 jdyr    jadiyr  Nall    worthy;appropriate
@@ -697,7 +662,6 @@ jdrA}   judarA} Nhy     worthy;appropriate
 jdyr    jadiyr  N0      Jadir
 ;; >ajodar_2
 >jdr    >ajodar Nel     worthier;more suitable
-Ajdr    >ajodar Nel     worthier;more suitable
 ;; jadArap_1
 jdAr    jadAr   Nap     worthiness;aptitude;merit
 ;; jidAr_1
@@ -720,7 +684,6 @@ jdE     jadaE   PV      amputate
 jdE     jodaE   IV      amputate
 ;; >ajodaE_1
 >jdE    >ajodaE Nel     mutilated
-AjdE    >ajodaE Nel     mutilated
 ;; jadaE_1
 jdE     jadaE   Ndu     youth
 jdEAn   jidoEAn N       youths
@@ -803,26 +766,18 @@ jdY     jodaY   IV_0_Pass_yu    be bestown
 jdy     joday   IV_Ann_Pass_yu  be bestown
 ;; >ajodaY_1
 >jdY    >ajodaY PV_0    be useful
-AjdY    >ajodaY PV_0    be useful
 >jdA    >ajodA  PV_h    be useful
-AjdA    >ajodA  PV_h    be useful
 >jdy    >ajoday PV_Atn  be useful
-Ajdy    >ajoday PV_Atn  be useful
 >jd     >ajod   PV_ttAw_intr    be useful
-Ajd     >ajod   PV_ttAw_intr    be useful
 jdy     jodiy   IV_0hAnn_yu     be useful
 jd      jod     IV_0hwnyn_yu    be useful
 jdY     jodaY   IV_0_Pass_yu    be useful
 jdy     joday   IV_Ann_Pass_yu  be useful
 ;; {isotajodaY_1
 <stjdY  {isotajodaY     PV_0    implore;beg
-AstjdY  {isotajodaY     PV_0    implore;beg
 <stjdA  {isotajodA      PV_h    implore;beg
-AstjdA  {isotajodA      PV_h    implore;beg
 <stjdy  {isotajoday     PV_Atn  implore;beg
-Astjdy  {isotajoday     PV_Atn  implore;beg
 <stjd   {isotajod       PV_ttAw implore;beg
-Astjd   {isotajod       PV_ttAw implore;beg
 stjdy   sotajodiy       IV_0hAnn        implore;beg
 stjd    sotajod IV_0hwnyn       implore;beg
 stjdY   sotajodaY       IV_0_Pass_yu    be implored;be begged
@@ -834,24 +789,15 @@ jdwY    jadowaY N0      advantage;benefit
 jdwA    jadowA  Nhy     advantage;benefit
 ;; >ajodaY_2
 >jdY    >ajodaY N0      more/most useful
-AjdY    >ajodaY N0      more/most useful
 >jdA    >ajodA  Nhy     more/most useful
-AjdA    >ajodA  Nhy     more/most useful
 >jdy    >ajoday NAn_Nayn        more/most useful
-Ajdy    >ajoday NAn_Nayn        more/most useful
 ;; {isotijodA'_1
 <stjdA' {isotijodA'     N0_Nh   plea;supplication
-AstjdA' {isotijodA'     N0_Nh   plea;supplication
 <stjdA& {isotijodA&     Nh      plea;supplication
-AstjdA& {isotijodA&     Nh      plea;supplication
 <stjdA} {isotijodA}     Nhy     plea;supplication
-AstjdA} {isotijodA}     Nhy     plea;supplication
 <stjdA' {isotijodA'     NAn_Nayn        pleas;supplications
-AstjdA' {isotijodA'     NAn_Nayn        pleas;supplications
 <stjdA} {isotijodA}     Nayn    pleas;supplications
-AstjdA} {isotijodA}     Nayn    pleas;supplications
 <stjdA' {isotijodA'     NAt     pleas;supplications
-AstjdA' {isotijodA'     NAt     pleas;supplications
 ;; mujodiy_1
 mjdy    mujodiy N0F_Nh  useful;suitable
 mjd     mujod   NK      useful;suitable
@@ -892,11 +838,9 @@ tjA*b   tajA*ab PV      attract;contend
 tjA*b   tajA*ab IV      attract;contend
 ;; {inoja*ab_1
 <nj*b   {inoja*ab       PV      gravitate;be attracted
-Anj*b   {inoja*ab       PV      gravitate;be attracted
 nj*b    noja*ib IV      gravitate;be attracted
 ;; {ijota*ab_1
 <jt*b   {ijota*ab       PV      attract;allure
-Ajt*b   {ijota*ab       PV      attract;allure
 jt*b    jota*ib IV      attract;allure
 ;; ja*ob_1
 j*b     ja*ob   N       attraction
@@ -904,12 +848,9 @@ j*b     ja*ob   N       attraction
 j*Ab    ja*~Ab  Nall    attractive;alluring
 ;; >ajo*ab_1
 >j*b    >ajo*ab Nel     more/most attractive
-Aj*b    >ajo*ab Nel     more/most attractive
 ;; {inoji*Ab_1
 <nj*Ab  {inoji*Ab       NduAt   attraction;tendency
-Anj*Ab  {inoji*Ab       NduAt   attraction;tendency
 <jt*Ab  {ijoti*Ab       NduAt   attraction;enticement
-Ajt*Ab  {ijoti*Ab       NduAt   attraction;enticement
 ;; jA*ib_1
 jA*b    jA*ib   Nall    attractive;alluring
 ;; jA*ibiy~ap_1
@@ -933,7 +874,6 @@ j*r     ja*~ar  PV      extract the root;take root
 j*r     ja*~ir  IV_yu   extract the root;take root
 ;; {inoja*ar_1
 <nj*r   {inoja*ar       PV_intr be extracted;be uprooted
-Anj*r   {inoja*ar       PV_intr be extracted;be uprooted
 nj*r    noja*ir IV_intr be extracted;be uprooted
 ;; ji*or_1
 j*r     ji*or   Ndu     root;stub
@@ -954,7 +894,6 @@ j*E     ja*aE   NF      again;once more     <pos>ja*aE/ADV</pos>
 ;; ji*oE_1
 j*E     ji*oE   Ndu     trunk;stump
 >j*AE   >ajo*AE N       trunks;stumps
-Aj*AE   >ajo*AE N       trunks;stumps
 j*wE    ju*uwE  N       trunks;stumps
 ;; ji*oEiy~_1
 j*Ey    ji*oEiy~        Nall    truncal;torso     <pos>ji*oEiy~/ADJ</pos>
@@ -971,13 +910,11 @@ j*l     ja*il   PV_intr be happy;rejoice
 j*l     jo*al   IV_intr be happy;rejoice
 ;; >ajo*al_1
 >j*l    >ajo*al PV      make happy;gladden
-Aj*l    >ajo*al PV      make happy;gladden
 j*l     jo*il   IV_yu   make happy;gladden
 j*l     jo*al   IV_Pass_yu      be made happy;be gladdened
 ;; ji*ol_1
 j*l     ji*ol   Ndu     stump
 >j*Al   >ajo*Al N       stumps
-Aj*Al   >ajo*Al N       stumps
 j*wl    ju*uwl  N       stumps
 ;; ja*al_1
 j*l     ja*al   N       happiness;gaiety
@@ -997,14 +934,12 @@ j*m     jo*am   IV      have leprosy
 j*m     ji*om   Ndu     root
 j*wm    ju*uwm  N       roots
 >j*Am   >ajo*Am N       roots
-Aj*Am   >ajo*Am N       roots
 ;; ju*Am_1
 j*Am    ju*Am   N       leprosy
 ;; ju*Amap_1
 j*Am    ju*Am   NapAt   stubble
 ;; >ajo*am_1
 >j*m    >ajo*am Nel     mutilated;leprous
-Aj*m    >ajo*am Nel     mutilated;leprous
 j*mY    ja*omaY N0      mutilated;leprous
 j*mA    ja*omA  Nhy     mutilated;leprous
 ;; majo*uwm_1
@@ -1029,23 +964,17 @@ jr      jur~    IV_V    pull;drag
 jrr     jorur   IV_C    pull;drag
 ;; >ajar~_1
 >jr     >ajar~  PV_V    ruminate
-Ajr     >ajar~  PV_V    ruminate
 >jrr    >ajorar PV_C    ruminate
-Ajrr    >ajorar PV_C    ruminate
 jr      jir~    IV_V_yu ruminate
 jrr     jorir   IV_C_yu ruminate
 ;; {inojar~_1
 <njr    {inojar~        PV_V_intr       be pulled;be dragged;be towed
-Anjr    {inojar~        PV_V_intr       be pulled;be dragged;be towed
 <njrr   {inojarar       PV_C_intr       be pulled;be dragged;be towed
-Anjrr   {inojarar       PV_C_intr       be pulled;be dragged;be towed
 njr     nojar~  IV_V_intr       be pulled;be dragged;be towed
 njrr    nojarir IV_C_intr       be pulled;be dragged;be towed
 ;; {ijotar~_1
 <jtr    {ijotar~        PV_V    ruminate;repeat
-Ajtr    {ijotar~        PV_V    ruminate;repeat
 <jtrr   {ijotarar       PV_C    ruminate;repeat
-Ajtrr   {ijotarar       PV_C    ruminate;repeat
 jtr     jotar~  IV_V    ruminate;repeat
 jtrr    jotarir IV_C    ruminate;repeat
 ;; jar~_1
@@ -1074,7 +1003,6 @@ mjr     majar~  NduAt   galaxy
 mjry    majar~iy~       Nall    galactic     <pos>majar~iy~/ADJ</pos>
 ;; {inojirAriy~_1
 <njrAry {inojirAriy~    Nall    towage     <pos>{inojirAriy~/ADJ</pos>
-AnjrAry {inojirAriy~    Nall    towage     <pos>{inojirAriy~/ADJ</pos>
 ;; majoruwr_1
 mjrwr   majoruwr        Nall    dragged;pulled
 ;; majoruwr_2
@@ -1100,11 +1028,8 @@ tjr&    tajar~a&        IV_wn   dare;risk
 tjr}    tajar~a}        IV_yn   dare;risk
 ;; {ijotara>_1
 <jtr>   {ijotara>       PV->_intr       be daring
-Ajtr>   {ijotara>       PV->_intr       be daring
 <jtr|   {ijotara|       PV-|_intr       be daring
-Ajtr|   {ijotara|       PV-|_intr       be daring
 <jtr&   {ijotara&       PV_w_intr       be daring
-Ajtr&   {ijotara&       PV_w_intr       be daring
 jtr}    jotari} IV_intr be daring
 ;; jariy'_1
 jry'    jariy'  N0      bold;courageous     <pos>jariy'/ADJ</pos>
@@ -1149,7 +1074,6 @@ jrb     jarab   N       mange;scabies
 jrb     jarib   Nall    mangy;scabby
 ;; >ajorab_1
 >jrb    >ajorab Nel     mangy;scabby
-Ajrb    >ajorab Nel     mangy;scabby
 jrbA'   jarobA' N0_Nh   mangy;scabby
 jrbA&   jarobA& Nh      mangy;scabby
 jrbA}   jarobA} Nhy     mangy;scabby
@@ -1158,7 +1082,6 @@ jrbAn   jarobAn N/ap    mangy;scabby
 ;; jirAb_1
 jrAb    jirAb   Ndu     sack;case
 >jrb    >ajorib Nap     sacks;cases
-Ajrb    >ajorib Nap     sacks;cases
 jrb     jurub   N       sacks;cases
 ;; jurAb_1
 jrAb    jurAb   N/At    stockings
@@ -1236,18 +1159,15 @@ jrH     jar~aH  PV      challenge;invalidate
 jrH     jar~iH  IV_yu   challenge;invalidate
 ;; {inojaraH_1
 <njrH   {inojaraH       PV_intr be wounded;be injured
-AnjrH   {inojaraH       PV_intr be wounded;be injured
 njrH    nojariH IV_intr be wounded;be injured
 ;; {ijotaraH_1
 <jtrH   {ijotaraH       PV      commit
-AjtrH   {ijotaraH       PV      commit
 jtrH    jotariH IV      commit
 ;; juroH_1
 jrH     juroH   Ndu     wound;injury
 jrAH    jirAH   N       wounds;injuries
 jrwH    juruwH  N/At    wounds;injuries
 >jrAH   >ajorAH N       wounds;injuries
-AjrAH   >ajorAH N       wounds;injuries
 ;; jar~AH_1
 jrAH    jar~AH  Nall    surgeon
 ;; jar~AH_2
@@ -1287,7 +1207,6 @@ jrd     jarid   N       barren
 jrd     jurod   N       barren
 ;; >ajorad_1
 >jrd    >ajorad Nel     barren
-Ajrd    >ajorad Nel     barren
 jrdA'   jarodA' N0_Nh   barren
 jrdA&   jarodA& Nh      barren
 jrdA}   jarodA} Nhy     barren
@@ -1348,7 +1267,6 @@ jrs     jaros   N       sound;tone
 ;; jaras_1
 jrs     jaras   Ndu     bell
 >jrAs   >ajorAs N       bells
-AjrAs   >ajorAs N       bells
 ;; jurosap_1
 jrs     juros   Nap     defamation;scandal
 ;
@@ -1385,7 +1303,6 @@ jrD     jaraD   PV      choke;suffocate
 jrD     joruD   IV      choke;suffocate
 ;; >ajoraD_1
 >jrD    >ajoraD PV      alarm;unnerve
-AjrD    >ajoraD PV      alarm;unnerve
 jrD     joriD   IV_yu   alarm;unnerve
 jrD     joraD   IV_Pass_yu      be alarmed;be unnerved
 ;; jariyD_1
@@ -1403,7 +1320,6 @@ tjrE    tajar~aE        PV      swallow;drink
 tjrE    tajar~aE        IV      swallow;drink
 ;; {ijotaraE_1
 <jtrE   {ijotaraE       PV      swallow;gulp down
-AjtrE   {ijotaraE       PV      swallow;gulp down
 jtrE    jotariE IV      swallow;gulp down
 ;; juroEap_1
 jrE     juroE   NapAt   dosage;gulp
@@ -1416,11 +1332,9 @@ jrf     jar~af  PV      carry away;wash away
 jrf     jar~if  IV_yu   carry away;wash away
 ;; {inojaraf_1
 <njrf   {inojaraf       PV_intr be swept away;be carried away
-Anjrf   {inojaraf       PV_intr be swept away;be carried away
 njrf    nojarif IV_intr be swept away;be carried away
 ;; {ijotaraf_1
 <jtrf   {ijotaraf       PV      carry away;wash away;tear out
-Ajtrf   {ijotaraf       PV      carry away;wash away;tear out
 jtrf    jotarif IV      carry away;wash away;tear out
 ;; jarof_1
 jrf     jarof   N       shoveling;dredging
@@ -1440,7 +1354,6 @@ mjAryf  majAriyf        Ndip    shovels;scoops
 tjryf   tajoriyf        NduAt   carrying away;washing away
 ;; {inojirAf_1
 <njrAf  {inojirAf       NduAt   erosion
-AnjrAf  {inojirAf       NduAt   erosion
 ;; jArif_1
 jArf    jArif   Nall    torrential;stormy
 ;
@@ -1460,12 +1373,10 @@ jrm     jar~am  PV      criminalize;incriminate
 jrm     jar~im  IV_yu   criminalize;incriminate
 ;; >ajoram_1
 >jrm    >ajoram PV      commit a crime;sin;do wrong
-Ajrm    >ajoram PV      commit a crime;sin;do wrong
 jrm     jorim   IV_yu   commit a crime;sin;do wrong
 jrm     joram   IV_Pass_yu      be sinned against;be done wrong
 ;; {ijotaram_1
 <jtrm   {ijotaram       PV      incriminate
-Ajtrm   {ijotaram       PV      incriminate
 jtrm    jotarim IV      incriminate
 ;; jarom_1
 jrm     jarom   Ndu     barge
@@ -1473,7 +1384,6 @@ jrwm    juruwm  N       barges;crimes
 ;; jirom_1
 jrm     jirom   Ndu     body;bulk;mass
 >jrAm   >ajorAm N       bodies;crimes
-AjrAm   >ajorAm N       bodies;crimes
 ;; jurom_1
 jrm     jurom   N       crime;sin
 ;; jariymap_1
@@ -1483,10 +1393,8 @@ jrA}m   jarA}im Ndip    crimes
 tjrym   tajoriym        NduAt   criminalization;incrimination
 ;; <ijorAm_1
 <jrAm   <ijorAm NduAt   delinquency;criminality
-AjrAm   <ijorAm NduAt   delinquency;criminality
 ;; <ijorAmiy~_1
 <jrAmy  <ijorAmiy~      Nall    criminal     <pos><ijorAmiy~/ADJ</pos>
-AjrAmy  <ijorAmiy~      Nall    criminal     <pos><ijorAmiy~/ADJ</pos>
 ;; mujorim_1
 mjrm    mujorim Nall    criminal
 ;
@@ -1499,7 +1407,6 @@ jrAmyz  jarAmiyz        Ndip    legs;limbs
 ;; juron_1
 jrn     juron   Ndu     basin;mortar
 >jrAn   >ajorAn N       basins;mortars
-AjrAn   >ajorAn N       basins;mortars
 ;
 ;; juronAl_1
 jrnAl   juronAl Ndu     journal;newspaper
@@ -1529,15 +1436,10 @@ jArY    jAraY   IV_0_Pass_yu    be kept up with
 jAry    jAray   IV_Ann_Pass_yu  be kept up with
 ;; >ajoraY_1
 >jrY    >ajoraY PV_0    conduct;carry out;perform
-AjrY    >ajoraY PV_0    conduct;carry out;perform
 >jrA    >ajorA  PV_h    conduct;carry out;perform
-AjrA    >ajorA  PV_h    conduct;carry out;perform
 >jry    >ajoray PV_Atn  conduct;carry out;perform
-Ajry    >ajoray PV_Atn  conduct;carry out;perform
 >jr     >ajor   PV_ttAw conduct;carry out;perform
-Ajr     >ajor   PV_ttAw conduct;carry out;perform
 >jry    >ujoriy PV_Pass-aAat    be conducted;be carried out;be performed
-Ajry    >ujoriy PV_Pass-aAat    be conducted;be carried out;be performed
 jry     joriy   IV_0hAnn_yu     conduct;carry out;perform
 jr      jor     IV_0hwnyn_yu    conduct;carry out;perform
 jrY     joraY   IV_0_Pass_yu    be conducted;be carried out;be performed
@@ -1562,28 +1464,18 @@ mjArA   mujArA  Nap     conformity
 mjArAp  mujArApF        FW-Wa   in conformity;in accordance
 ;; <ijorA'_1
 <jrA'   <ijorA' N0_Nh   conducting;undertaking;carrying out
-AjrA'   <ijorA' N0_Nh   conducting;undertaking;carrying out
 <jrA&   <ijorA& Nh      conducting;undertaking;carrying out
-AjrA&   <ijorA& Nh      conducting;undertaking;carrying out
 <jrA}   <ijorA} Nhy     conducting;undertaking;carrying out
-AjrA}   <ijorA} Nhy     conducting;undertaking;carrying out
 ;; <ijorA'_2
 <jrA'   <ijorA' N0_Nh   process;measure
-AjrA'   <ijorA' N0_Nh   process;measure
 <jrA&   <ijorA& Nh      process;measure
-AjrA&   <ijorA& Nh      process;measure
 <jrA}   <ijorA} Nhy     process;measure
-AjrA}   <ijorA} Nhy     process;measure
 ;; <ijorA'_3
 <jrA'   <ijorA' NAn_Nayn        measures;steps
-AjrA'   <ijorA' NAn_Nayn        measures;steps
 <jrA}   <ijorA} Nayn    measures;steps
-AjrA}   <ijorA} Nayn    measures;steps
 <jrA'   <ijorA' NAt     measures;steps
-AjrA'   <ijorA' NAt     measures;steps
 ;; <ijorA}iy~_1
 <jrA}y  <ijorA}iy~      Nall    operational     <pos><ijorA}iy~/ADJ</pos>
-AjrA}y  <ijorA}iy~      Nall    operational     <pos><ijorA}iy~/ADJ</pos>
 ;; jAriyAF_1
 jAry    jAriy   NF      occurring;happening;flowing
 ;; jAriy_1
@@ -1613,9 +1505,7 @@ jz      juz~    IV_V    shear;clip
 jzz     jozuz   IV_C    shear;clip
 ;; {ijotaz~_1
 <jtz    {ijotaz~        PV_V    shear;clip
-Ajtz    {ijotaz~        PV_V    shear;clip
 <jtzz   {ijotazaz       PV_C    shear;clip
-Ajtzz   {ijotazaz       PV_C    shear;clip
 jtz     jotaz~  IV_V    shear;clip
 jtzz    jotaziz IV_C    shear;clip
 ;; jiz~ap_1
@@ -1652,11 +1542,8 @@ tjz&    tajaz~a&        IV_wn   be divided;be separated
 tjz}    tajaz~a}        IV_yn   be divided;be separated
 ;; {ijotaza>_1
 <jtz>   {ijotaza>       PV->_intr       be content
-Ajtz>   {ijotaza>       PV->_intr       be content
 <jtz|   {ijotaza|       PV-|_intr       be content
-Ajtz|   {ijotaza|       PV-|_intr       be content
 <jtz&   {ijotaza&       PV_w_intr       be content
-Ajtz&   {ijotaza&       PV_w_intr       be content
 jtz}    jotazi} IV_intr be content
 ;; juzo'_1
 jz'     juzo'   N0F_Nh  section;piece;portion;part;fraction
@@ -1666,11 +1553,8 @@ jz'     juzo'   NAn_Nayn        sections;pieces;portions;parts;fractions
 jz|     juzo|   N-|     sections;pieces;portions;parts;fractions
 jz}     juzo}   Nayn    sections;pieces;portions;parts;fractions
 >jzA'   >ajozA' N0_Nh   sections;pieces;portions;parts;fractions
-AjzA'   >ajozA' N0_Nh   sections;pieces;portions;parts;fractions
 >jzA&   >ajozA& Nh      sections;pieces;portions;parts;fractions
-AjzA&   >ajozA& Nh      sections;pieces;portions;parts;fractions
 >jzA}   >ajozA} Nhy     sections;pieces;portions;parts;fractions
-AjzA}   >ajozA} Nhy     sections;pieces;portions;parts;fractions
 ;; juzo}iy~_1
 jz}y    juzo}iy~        Nall    partial;petty     <pos>juzo}iy~/ADJ</pos>
 ;; juzo}iy~ap_1
@@ -1684,10 +1568,8 @@ jzy}    juzayo} NapAt   molecule
 jzy}y   juzayo}iy~      Nall    molecular     <pos>juzayo}iy~/ADJ</pos>
 ;; >ajozA}iy~_1
 >jzA}y  >ajozA}iy~      Nall    pharmacist     <pos>>ajozA}iy~/ADJ</pos>
-AjzA}y  >ajozA}iy~      Nall    pharmacist     <pos>>ajozA}iy~/ADJ</pos>
 ;; >ajozA}iy~ap_1
 >jzA}y  >ajozA}iy~      Nap     pharmacy     <pos>>ajozA}iy~/NOUN</pos>
-AjzA}y  >ajozA}iy~      Nap     pharmacy     <pos>>ajozA}iy~/NOUN</pos>
 ;; tajozi}ap_1
 tjz}    tajozi} NapAt   partition;division
 ;; {ijotizA'_1
@@ -1710,7 +1592,6 @@ jz'r    jazo'ar Nap     Algerianization
 ;
 ;; >ajozAjiy~_1
 >jzAjy  >ajozAjiy~      Nall    pharmacist     <pos>>ajozAjiy~/ADJ</pos>
-AjzAjy  >ajozAjiy~      Nall    pharmacist     <pos>>ajozAjiy~/ADJ</pos>
 ;
 ;; juzodAn_1
 jzdAn   juzodAn NduAt   wallet
@@ -1803,12 +1684,10 @@ jzl     jazul   PV_intr be prudent;be considerable;be plentiful
 jzl     jozul   IV_intr be prudent;be considerable;be plentiful
 ;; >ajozal_1
 >jzl    >ajozal PV_intr be generous;give liberally
-Ajzl    >ajozal PV_intr be generous;give liberally
 jzl     jozil   IV_intr_yu      be generous;give liberally
 jzl     jozal   IV_Pass_yu      be given liberally
 ;; {ijotazal_1
 <jtzl   {ijotazal       PV      write shorthand
-Ajtzl   {ijotazal       PV      write shorthand
 jtzl    jotazil IV      write shorthand
 ;; jazol_1
 jzl     jazol   N/ap    abundant
@@ -1860,13 +1739,9 @@ jAzY    jAzaY   IV_0_Pass_yu    be sanctioned;be rewarded;be punished
 jAzy    jAzay   IV_Ann_Pass_yu  be sanctioned;be rewarded;be punished
 ;; >ajozaY_1
 >jzY    >ajozaY PV_0    suffice;replace
-AjzY    >ajozaY PV_0    suffice;replace
 >jzA    >ajozA  PV_h    suffice;replace
-AjzA    >ajozA  PV_h    suffice;replace
 >jzy    >ajozay PV_Atn  suffice;replace
-Ajzy    >ajozay PV_Atn  suffice;replace
 >jz     >ajoz   PV_ttAw suffice;replace
-Ajz     >ajoz   PV_ttAw suffice;replace
 jzy     joziy   IV_0hAnn_yu     suffice;replace
 jz      joz     IV_0hwnyn_yu    suffice;replace
 jzY     jozaY   IV_0_Pass_yu    be replaced
@@ -1906,9 +1781,7 @@ tjss    tajas~as        PV      reconnoiter;spy
 tjss    tajas~as        IV      reconnoiter;spy
 ;; {ijotas~_1
 <jts    {ijotas~        PV_V    feel;handle;reconnoiter
-Ajts    {ijotas~        PV_V    feel;handle;reconnoiter
 <jtss   {ijotasas       PV_C    feel;handle;reconnoiter
-Ajtss   {ijotasas       PV_C    feel;handle;reconnoiter
 jts     jotas~  IV_V    feel;handle;reconnoiter
 jtss    jotasis IV_C    feel;handle;reconnoiter
 ;; jas~_1
@@ -1941,7 +1814,6 @@ tjsd    tajas~ad        IV      materialize;be embodied
 ;; jasad_1
 jsd     jasad   Ndu     body
 >jsAd   >ajosAd N       bodies
-AjsAd   >ajosAd N       bodies
 ;; jasadiy~_1
 jsdy    jasadiy~        Nall    bodily     <pos>jasadiy~/ADJ</pos>
 ;; jusodAn_1
@@ -1971,7 +1843,6 @@ tjAsr   tajAsar PV_intr be insolent;dare
 tjAsr   tajAsar IV_intr be insolent;dare
 ;; {ijotasar_1
 <jtsr   {ijotasar       PV      cross;span;traverse
-Ajtsr   {ijotasar       PV      cross;span;traverse
 jtsr    jotasir IV      cross;span;traverse
 ; check for "jswr Hdydyp jAnbyp" (metal side bars - for car safety)
 ;; jisor_1
@@ -1979,7 +1850,6 @@ jsr     jisor   Ndu     bridge;(reinforcement) beam or bar
 jswr    jusuwr  N       bridges;(reinforcement) beams or bars
 ;; >ajosur_1
 >jsr    >ajosur N       bridges
-Ajsr    >ajosur N       bridges
 ;; jasuwr_1
 jswr    jasuwr  Nall    bold;daring
 ;; jasArap_1
@@ -2008,7 +1878,6 @@ tjsm    tajas~am        IV      take shape;be materialized
 ;; jisom_1
 jsm     jisom   Ndu     body;form
 >jsAm   >ajosAm N       bodies;forms
-AjsAm   >ajosAm N       bodies;forms
 ;; jisomiy~_1
 jsmy    jisomiy~        Nall    bodily;material     <pos>jisomiy~/ADJ</pos>
 ;; jasiym_1
@@ -2018,7 +1887,6 @@ jsAm    jisAm   N       great;huge
 jsym    jusayom N/At    particle;corpuscle
 ;; >ajosam_1
 >jsm    >ajosam Nel     larger;more corpulent
-Ajsm    >ajosam Nel     larger;more corpulent
 ;; jasAmap_1
 jsAm    jasAm   Nap     size;corpulence
 ;; jusomAn_1
@@ -2056,7 +1924,6 @@ j$      ju$~    Nap     hoarseness
 j$y$    ja$iy$  N/ap    ground;crushed
 ;; >aja$~_1
 >j$     >aja$~  Nel     hoarse;raucous
-Aj$     >aja$~  Nel     hoarse;raucous
 ;
 ;; ja$~a>_1
 j$>     ja$~a>  PV->    burp;belch
@@ -2155,7 +2022,6 @@ jEd     jaEod   Nap     curl;lock
 jEdy    jaEodiy~        Nall    curly     <pos>jaEodiy~/ADJ</pos>
 ;; >ajoEad_1
 >jEd    >ajoEad Nel     curly
-AjEd    >ajoEad Nel     curly
 ;; jaEiydiy~_1
 jEydy   jaEiydiy~       Nall    loafer;bum     <pos>jaEiydiy~/ADJ</pos>
 ;; tajAEiyd_1
@@ -2189,7 +2055,6 @@ jEl     jaEol   N       making;bringing about;appointing
 ;; juEol_1
 jEl     juEol   Ndu     pay;wages
 >jEAl   >ajoEAl N       pay;wages
-AjEAl   >ajoEAl N       pay;wages
 ;; juEoliy~_1
 jEly    juEoliy~        Nall    piece-work     <pos>juEoliy~/ADJ</pos>
 ;; jiEAl_1
@@ -2224,9 +2089,7 @@ tjff    tajaf~af        PV_intr be dried;become dry
 tjff    tajaf~af        IV_intr be dried;become dry
 ;; {ijotaf~_1
 <jtf    {ijotaf~        PV_V_intr       be dehydrated;make dry
-Ajtf    {ijotaf~        PV_V_intr       be dehydrated;make dry
 <jtff   {ijotafaf       PV_C_intr       be dehydrated;make dry
-Ajtff   {ijotafaf       PV_C_intr       be dehydrated;make dry
 jtf     jotaf~  IV_V_intr       be dehydrated;make dry
 jtff    jotafif IV_C_intr       be dehydrated;make dry
 ;; jafAf_1
@@ -2284,7 +2147,6 @@ jfl     jaf~al  PV      scare;startle
 jfl     jaf~il  IV_yu   scare;startle
 ;; >ajofal_1
 >jfl    >ajofal PV      bolt;be startled
-Ajfl    >ajofal PV      bolt;be startled
 jfl     jofil   IV_yu   bolt;be startled
 ;; jafol_1
 jfl     jafol   N       fright;alarm
@@ -2295,7 +2157,6 @@ jfwl    jufuwl  N       fright;alarm
 jfn     jafon   Ndu     eyelid
 jfwn    jufuwn  N       eyelids
 >jfAn   >ajofAn N       eyelids
-AjfAn   >ajofAn N       eyelids
 ;; jafonap_1
 jfn     jafon   Napdu   bowl;grapevine
 jfn     jafan   NAt     bowls;grapevines
@@ -2337,11 +2198,8 @@ jfA&    jafA&   Nh      harshness
 jfA}    jafA}   Nhy     harshness
 ;; >ajofaY_1
 >jfY    >ajofaY N0      more/most averse
-AjfY    >ajofaY N0      more/most averse
 >jfA    >ajofA  Nhy     more/most averse
-AjfA    >ajofA  Nhy     more/most averse
 >jfy    >ajofay NAn_Nayn        more/most averse
-Ajfy    >ajofay NAn_Nayn        more/most averse
 ;; jAfiy_1
 jAfy    jAfiy   N0F     rough;rude
 jAf     jAf     NK      rough;rude
@@ -2366,9 +2224,7 @@ jll     jal~al  PV      cover;venerate
 jll     jal~il  IV_yu   cover;venerate
 ;; >ajal~_1
 >jl     >ajal~  PV_V    venerate
-Ajl     >ajal~  PV_V    venerate
 >jll    >ajolal PV_C    venerate
-Ajll    >ajolal PV_C    venerate
 jl      jil~    IV_V_yu venerate
 jll     jolil   IV_C_yu venerate
 ;; tajal~al_1
@@ -2381,9 +2237,7 @@ tjAl    tajAl~  IV_V_intr       be superior
 tjAll   tajAlil IV_C_intr       be superior
 ;; {isotajal~_1
 <stjl   {isotajal~      PV_V_intr       be great;be exalted
-Astjl   {isotajal~      PV_V_intr       be great;be exalted
 <stjll  {isotajolal     PV_C_intr       be great;be exalted
-Astjll  {isotajolal     PV_C_intr       be great;be exalted
 stjl    sotajil~        IV_V_intr       be great;be exalted
 stjll   sotajolil       IV_C_intr       be great;be exalted
 ;; jul~_1
@@ -2416,7 +2270,6 @@ jlAl    jalAl   N       loftiness;splendor
 jlAl    jalAl   Nap     His/Her Majesty
 ;; >ajal~_2
 >jl     >ajal~  Nel     greater;more splendid
-Ajl     >ajal~  Nel     greater;more splendid
 ;; majal~ap_1
 mjl     majal~  NapAt   magazine;journal
 ;; majal~ap_2
@@ -2425,7 +2278,6 @@ mjlp    majal~ap        N0      Majalla (Saudi weekly)
 tjl     tajil~  Nap     reverence
 ;; <ijolAl_1
 <jlAl   <ijolAl NduAt   reverence
-AjlAl   <ijolAl NduAt   reverence
 ;
 ;; jilAtiyn_1
 jlAtyn  jilAtiyn        N       gelatin;jelly
@@ -2445,20 +2297,16 @@ jlb     jal~ab  PV      clamor;shout
 jlb     jal~ib  IV_yu   clamor;shout
 ;; >ajolab_1
 >jlb    >ajolab PV      earn;acquire
-Ajlb    >ajolab PV      earn;acquire
 jlb     jolib   IV_yu   earn;acquire
 jlb     jolab   IV_Pass_yu      be earned;be acquired
 ;; {inojalab_1
 <njlb   {inojalab       PV_intr be brought;be procured
-Anjlb   {inojalab       PV_intr be brought;be procured
 njlb    nojalib IV_intr be brought;be procured
 ;; {ijotalab_1
 <jtlb   {ijotalab       PV      bring;procure
-Ajtlb   {ijotalab       PV      bring;procure
 jtlb    jotalib IV      bring;procure
 ;; {isotajolab_1
 <stjlb  {isotajolab     PV      attract;fetch
-Astjlb  {isotajolab     PV      attract;fetch
 stjlb   sotajolib       IV      attract;fetch
 ;; julAb_1
 jlAb    julAb   N       rose water;julep
@@ -2485,13 +2333,11 @@ jlAb    jal~Ab  Nall    attractive;trader
 jlAby   jal~Abiy~       NapAt   gallabiya (gown)    <pos>jal~Abiy~/NOUN</pos>
 ;; >ajolab_2
 >jlb    >ajolab Nel     more/most attractive
-Ajlb    >ajolab Nel     more/most attractive
 ;; majolabap_1
 mjlb    majolab Napdu   cause;motive
 mjAlb   majAlib Ndip    causes;motives
 ;; {isotijolAb_1
 <stjlAb {isotijolAb     NduAt   acquisition;promotion
-AstjlAb {isotijolAb     NduAt   acquisition;promotion
 ;; jAlib_1
 jAlb    jAlib   Ndu     cause;motive
 ;; majoluwb_1
@@ -2540,7 +2386,6 @@ jlH     jaliH   PV_intr become bald;lose hair
 jlH     jolaH   IV_intr become bald;lose hair
 ;; >ajolaH_1
 >jlH    >ajolaH Nel     bald
-AjlH    >ajolaH Nel     bald
 jlHA'   jaloHA' N0_Nh   bald
 jlHA&   jaloHA& Nh      bald
 jlHA}   jaloHA} Nhy     bald
@@ -2574,7 +2419,6 @@ jAld    jAlad   PV      fight
 jAld    jAlid   IV_yu   fight
 ;; >ajolad_1
 >jld    >ajolad PV      freeze
-Ajld    >ajolad PV      freeze
 jld     jolid   IV_yu   freeze
 jld     jolad   IV_Pass_yu      be frozen
 ;; tajal~ad_1
@@ -2640,7 +2484,6 @@ jAls    jAlas   PV      sit with
 jAls    jAlis   IV_yu   sit with
 ;; >ajolas_1
 >jls    >ajolas PV      seat;make sit
-Ajls    >ajolas PV      seat;make sit
 jls     jolis   IV_yu   seat;make sit
 jls     jolas   IV_Pass_yu      be seated;be made to sit
 ;; jalosap_1
@@ -2699,12 +2542,10 @@ jlf     jalaf   PV      scratch;scrape;graze
 jlf     joluf   IV      scratch;scrape;graze
 ;; {inojalaf_1
 <njlf   {inojalaf       PV_intr be scratched;be grazed
-Anjlf   {inojalaf       PV_intr be scratched;be grazed
 njlf    nojalif IV_intr be scratched;be grazed
 ;; jilof_1
 jlf     jilof   Ndu     rude
 >jlAf   >ajolAf N       rude
-AjlAf   >ajolAf N       rude
 ;
 ;; jalofaT_1
 jlfT    jalofaT PV      caulk
@@ -2742,7 +2583,6 @@ jlm     jolim   IV      clip;shear
 ;; jalam_1
 jlm     jalam   N       shears
 >jlAm   >ajolAm N       shears
-AjlAm   >ajolAm N       shears
 ;
 ;; tajalomad_1
 tjlmd   tajalomad       PV_intr be petrified
@@ -2784,13 +2624,9 @@ jlY     jal~aY  IV_0_Pass_yu    be made clear;be revealed;be represented
 jly     jal~ay  IV_Ann_Pass_yu  be made clear;be revealed;be represented
 ;; >ajolaY_1
 >jlY    >ajolaY PV_0    oust;evacuate;clear
-AjlY    >ajolaY PV_0    oust;evacuate;clear
 >jlA    >ajolA  PV_h    oust;evacuate;clear
-AjlA    >ajolA  PV_h    oust;evacuate;clear
 >jly    >ajolay PV_Atn  oust;evacuate;clear
-Ajly    >ajolay PV_Atn  oust;evacuate;clear
 >jl     >ajol   PV_ttAw oust;evacuate;clear
-Ajl     >ajol   PV_ttAw oust;evacuate;clear
 jly     joliy   IV_0hAnn_yu     oust;evacuate;clear
 jl      jol     IV_0hwnyn_yu    oust;evacuate;clear
 jlY     jolaY   IV_0_Pass_yu    be ousted;be evacuated;be cleared
@@ -2806,37 +2642,25 @@ tjly    tajal~ay        IV_Ann  become clear;be evident;be manifest
 tjl     tajal~  IV_0hwnyn       become clear;be evident;be manifest
 ;; {inojalaY_1
 <njlY   {inojalaY       PV_0    be cleaned;be polished;be ousted
-AnjlY   {inojalaY       PV_0    be cleaned;be polished;be ousted
 <njlA   {inojalA        PV_h    be cleaned;be polished;be ousted
-AnjlA   {inojalA        PV_h    be cleaned;be polished;be ousted
 <njly   {inojalay       PV_Atn  be cleaned;be polished;be ousted
-Anjly   {inojalay       PV_Atn  be cleaned;be polished;be ousted
 <njl    {inojal PV_ttAw_intr    be cleaned;be polished;be ousted
-Anjl    {inojal PV_ttAw_intr    be cleaned;be polished;be ousted
 njly    nojaliy IV_0hAnn        be cleaned;be polished;be ousted
 njl     nojal   IV_0hwnyn       be cleaned;be polished;be ousted
 njlY    nojalaY IV_0_Pass_yu    be cleaned;be polished;be ousted
 ;; {ijotalaY_1
 <jtlY   {ijotalaY       PV_0    reveal;disclose
-AjtlY   {ijotalaY       PV_0    reveal;disclose
 <jtlA   {ijotalA        PV_h    reveal;disclose
-AjtlA   {ijotalA        PV_h    reveal;disclose
 <jtly   {ijotalay       PV_Atn  reveal;disclose
-Ajtly   {ijotalay       PV_Atn  reveal;disclose
 <jtl    {ijotal PV_ttAw reveal;disclose
-Ajtl    {ijotal PV_ttAw reveal;disclose
 jtly    jotaliy IV_0hAnn        reveal;disclose
 jtl     jotal   IV_0hwnyn       reveal;disclose
 jtlY    jotalaY IV_0_Pass_yu    be revealed;be disclosed
 ;; {isotajolaY_1
 <stjlY  {isotajolaY     PV_0    seek to clarify;discover;clarify
-AstjlY  {isotajolaY     PV_0    seek to clarify;discover;clarify
 <stjlA  {isotajolA      PV_h    seek to clarify;discover;clarify
-AstjlA  {isotajolA      PV_h    seek to clarify;discover;clarify
 <stjly  {isotajolay     PV_Atn  seek to clarify;discover;clarify
-Astjly  {isotajolay     PV_Atn  seek to clarify;discover;clarify
 <stjl   {isotajol       PV_ttAw seek to clarify;discover;clarify
-Astjl   {isotajol       PV_ttAw seek to clarify;discover;clarify
 stjly   sotajoliy       IV_0hAnn        seek to clarify;discover;clarify
 stjl    sotajol IV_0hwnyn       seek to clarify;discover;clarify
 stjlY   sotajolaY       IV_0_Pass_yu    be discovered;be clarified
@@ -2849,11 +2673,8 @@ jly     jaliy~  Nap     sure thing;plain fact     <pos>jaliy~/NOUN</pos>
 jlAyA   jalAyA  N0_Nhy  sure things;plain facts
 ;; >ajolaY_2
 >jlY    >ajolaY N0      clearer;clearest
-AjlY    >ajolaY N0      clearer;clearest
 >jlA    >ajolA  Nhy     clearer;clearest
-AjlA    >ajolA  Nhy     clearer;clearest
 >jly    >ajolay NAn_Nayn        clearer;clearest
-Ajly    >ajolay NAn_Nayn        clearer;clearest
 ;; jalA'_1
 jlA'    jalA'   N0_Nh   clarification;withdrawal
 jlA&    jalA&   Nh      clarification;withdrawal
@@ -2867,17 +2688,11 @@ mjAl    majAl   NK      manifestations
 tjly    tajoliy NapAt   clarification;revelation
 ;; <ijolA'_1
 <jlA'   <ijolA' N0_Nh   evacuation;withdrawal
-AjlA'   <ijolA' N0_Nh   evacuation;withdrawal
 <jlA&   <ijolA& Nh      evacuation;withdrawal
-AjlA&   <ijolA& Nh      evacuation;withdrawal
 <jlA}   <ijolA} Nhy     evacuation;withdrawal
-AjlA}   <ijolA} Nhy     evacuation;withdrawal
 <jlA'   <ijolA' NAn_Nayn        evacuations;withdrawals
-AjlA'   <ijolA' NAn_Nayn        evacuations;withdrawals
 <jlA}   <ijolA} Nayn    evacuations;withdrawals
-AjlA}   <ijolA} Nayn    evacuations;withdrawals
 <jlA'   <ijolA' NAt     evacuations;withdrawals
-AjlA'   <ijolA' NAt     evacuations;withdrawals
 ;; tajal~iy_1
 tjly    tajal~iy        N0_Nh   revelation;manifestation
 tjl     tajal~  NK      revelation;manifestation
@@ -2885,30 +2700,18 @@ tjly    tajal~iy        NAn_Nayn        revelations;manifestations
 tjly    tajal~iy        NAt     revelations;manifestations
 ;; {ijotilA'_1
 <jtlA'  {ijotilA'       N0_Nh   unveiling;revelation
-AjtlA'  {ijotilA'       N0_Nh   unveiling;revelation
 <jtlA&  {ijotilA&       Nh      unveiling;revelation
-AjtlA&  {ijotilA&       Nh      unveiling;revelation
 <jtlA}  {ijotilA}       Nhy     unveiling;revelation
-AjtlA}  {ijotilA}       Nhy     unveiling;revelation
 <jtlA'  {ijotilA'       NAn_Nayn        unveilings;revelations
-AjtlA'  {ijotilA'       NAn_Nayn        unveilings;revelations
 <jtlA}  {ijotilA}       Nayn    unveilings;revelations
-AjtlA}  {ijotilA}       Nayn    unveilings;revelations
 <jtlA'  {ijotilA'       NAt     unveilings;revelations
-AjtlA'  {ijotilA'       NAt     unveilings;revelations
 ;; {isotijolA'_1
 <stjlA' {isotijolA'     N0_Nh   clarification;elucidation
-AstjlA' {isotijolA'     N0_Nh   clarification;elucidation
 <stjlA& {isotijolA&     Nh      clarification;elucidation
-AstjlA& {isotijolA&     Nh      clarification;elucidation
 <stjlA} {isotijolA}     Nhy     clarification;elucidation
-AstjlA} {isotijolA}     Nhy     clarification;elucidation
 <stjlA' {isotijolA'     NAn_Nayn        clarifications;elucidation
-AstjlA' {isotijolA'     NAn_Nayn        clarifications;elucidation
 <stjlA} {isotijolA}     Nayn    clarifications;elucidation
-AstjlA} {isotijolA}     Nayn    clarifications;elucidation
 <stjlA' {isotijolA'     NAt     clarifications;elucidation
-AstjlA' {isotijolA'     NAt     clarifications;elucidation
 ;; jAliyap_1
 jAly    jAliy   NapAt   expatriate community;colony
 jwAly   jawAliy N0_Nh   expatriate communities;colonies
@@ -2960,9 +2763,7 @@ tjmm    tajam~am        PV_intr grow exuberantly
 tjmm    tajam~am        IV_intr grow exuberantly
 ;; {isotajam~_1
 <stjm   {isotajam~      PV_V    recover;relax;rest
-Astjm   {isotajam~      PV_V    recover;relax;rest
 <stjmm  {isotajomam     PV_C    recover;relax;rest
-Astjmm  {isotajomam     PV_C    recover;relax;rest
 stjm    sotajim~        IV_V    recover;relax;rest
 stjmm   sotajomim       IV_C    recover;relax;rest
 ;; jam~_1
@@ -2973,10 +2774,8 @@ jmAm    jamAm   N       rest;relaxation
 mjm     majam~  Ndu     crux
 ;; {isotijomAm_1
 <stjmAm {isotijomAm     N/At    relaxation;recreation
-AstjmAm {isotijomAm     N/At    relaxation;recreation
 ;; {isotijomAmiy~_1
 <stjmAmy        {isotijomAmiy~  Nall    recreational;relaxing
-AstjmAmy        {isotijomAmiy~  Nall    recreational;relaxing
 ;
 ;--- jmA
 ;; jamAyokA_1
@@ -3039,7 +2838,6 @@ tjmd    tajam~ad        PV_intr be stiff;harden
 tjmd    tajam~ad        IV_intr be stiff;harden
 ;; {inojamad_1
 <njmd   {inojamad       PV_intr freeze
-Anjmd   {inojamad       PV_intr freeze
 njmd    nojamid IV_intr freeze
 ;; jamod_1
 jmd     jamod   N       freezing
@@ -3060,7 +2858,6 @@ tjmyd   tajomiyd        NduAt   freezing
 tjmd    tajam~ud        NduAt   freezing
 ;; {inojimAd_1
 <njmAd  {inojimAd       NduAt   freezing
-AnjmAd  {inojimAd       NduAt   freezing
 ;; jAmid_1
 jAmd    jAmid   Nall    frozen;rigid
 jwAmd   jawAmid Ndip    solids;inorganic
@@ -3078,7 +2875,6 @@ jmr     jam~ar  PV      roast
 jmr     jam~ir  IV_yu   roast
 ;; {ijotamar_1
 <jtmr   {ijotamar       PV      burn incense
-Ajtmr   {ijotamar       PV      burn incense
 jtmr    jotamir IV      burn incense
 ;; jamor_1
 jmr     jamor   N       embers
@@ -3140,7 +2936,6 @@ jAmE    jAmaE   PV      make love to
 jAmE    jAmiE   IV_yu   make love to
 ;; >ajomaE_1
 >jmE    >ajomaE PV      concur;agree unanimously
-AjmE    >ajomaE PV      concur;agree unanimously
 jmE     jomiE   IV_yu   concur;agree unanimously
 jmE     jomaE   IV_Pass_yu      be agreed unanimously
 ;; tajam~aE_1
@@ -3148,11 +2943,9 @@ tjmE    tajam~aE        PV      gather;rally
 tjmE    tajam~aE        IV      gather;rally
 ;; {ijotamaE_1
 <jtmE   {ijotamaE       PV      meet;confer
-AjtmE   {ijotamaE       PV      meet;confer
 jtmE    jotamiE IV      meet;confer
 ;; {isotajomaE_1
 <stjmE  {isotajomaE     PV      gather;summarize
-AstjmE  {isotajomaE     PV      gather;summarize
 stjmE   sotajomiE       IV      gather;summarize
 ;; jamoE_1
 jmE     jamoE   N       gathering;collection;joining
@@ -3170,7 +2963,6 @@ jmyE    jamiyE  N       everyone
 jmyE    jamiyE  NF      all;entirely;together     <pos>jamiyE/ADV</pos>
 ;; >ajomaE_2
 >jmE    >ajomaE Nel     entire;whole
-AjmE    >ajomaE Nel     entire;whole
 jmEA'   jamoEA' N0_Nh   entire;whole
 jmEA&   jamoEA& Nh      entire;whole
 jmEA}   jamoEA} Nhy     entire;whole
@@ -3191,20 +2983,15 @@ tjmyE   tajomiyE        NduAt   gathering;joining;assemble
 jmAE    jimAE   N       sexual intercourse;combination
 ;; <ijomAE_1
 <jmAE   <ijomAE NduAt   consensus;agreement
-AjmAE   <ijomAE NduAt   consensus;agreement
 ;; <ijomAEiy~_1
 <jmAEy  <ijomAEiy~      Nall    unanimous;collective     <pos><ijomAEiy~/ADJ</pos>
-AjmAEy  <ijomAEiy~      Nall    unanimous;collective     <pos><ijomAEiy~/ADJ</pos>
 ;; tajam~uE_1
 tjmE    tajam~uE        NduAt   gathering;assembly
 ;; {ijotimAE_1
 <jtmAE  {ijotimAE       Ndu     meeting;gathering
-AjtmAE  {ijotimAE       Ndu     meeting;gathering
 <jtmAE  {ijotimAE       NAt     meetings;gatherings
-AjtmAE  {ijotimAE       NAt     meetings;gatherings
 ;; {ijotimAEiy~_1
 <jtmAEy {ijotimAEiy~    Nall    social     <pos>{ijotimAEiy~/ADJ</pos>
-AjtmAEy {ijotimAEiy~    Nall    social     <pos>{ijotimAEiy~/ADJ</pos>
 ;; lA{ijotimAEiy~_1
 lA<jtmAEy       lA{ijotimAEiy~  Nall_L  antisocial;asocial     <pos>lA<ijotimAEiy~/ADJ</pos>
 lAAjtmAEy       lA{ijotimAEiy~  Nall_L  antisocial;asocial     <pos>lAAijotimAEiy~/ADJ</pos>
@@ -3256,7 +3043,6 @@ jAml    jAmal   PV_intr be courteous;be amiable
 jAml    jAmil   IV_intr_yu      be courteous;be amiable
 ;; >ajomal_1
 >jml    >ajomal PV      add;summarize
-Ajml    >ajomal PV      add;summarize
 jml     jomil   IV_yu   add;summarize
 jml     jomal   IV_Pass_yu      be added;be summarized
 ;; tajam~al_1
@@ -3276,7 +3062,6 @@ jmlp    jumolapa        FW-Wa   all of    <pos>jumolapa/PREP</pos>
 jml     jamal   Ndu     camel
 jmAl    jimAl   N       camels
 >jmAl   >ajomAl N       camels
-AjmAl   >ajomAl N       camels
 ;; jamal_2
 jml     jamal   N0      Jamal;Gamal
 ;; jam~Al_1
@@ -3293,7 +3078,6 @@ jmyl    jamiyl  Nall    beautiful;nice
 jmyl    jamiyl  Nprop   Jameel;Jamil;Gameel
 ;; >ajomal_2
 >jml    >ajomal Nel     more/most beautiful
-Ajml    >ajomal Nel     more/most beautiful
 ;; tajomiyl_1
 tjmyl   tajomiyl        NduAt   embellishment
 ;; tajomiyliy~_1
@@ -3302,16 +3086,12 @@ tjmyly  tajomiyliy~     Nall    cosmetic     <pos>tajomiyliy~/ADJ</pos>
 mjAml   mujAmal NapAt   courtesy;flattery
 ;; <ijomAl_1
 <jmAl   <ijomAl NduAt   summation;in general
-AjmAl   <ijomAl NduAt   summation;in general
 ;; <ijomAlAF_1
 <jmAl   <ijomAl NF      in general;on the whole     <pos><ijomAl/ADV</pos>
-AjmAl   <ijomAl NF      in general;on the whole     <pos><ijomAl/ADV</pos>
 ;; <ijomAliy~_1
 <jmAly  <ijomAliy~      Nall    comprehensive;collective;full     <pos><ijomAliy~/ADJ</pos>
-AjmAly  <ijomAliy~      Nall    comprehensive;collective;full     <pos><ijomAliy~/ADJ</pos>
 ;; <ijomAliy~_2
 <jmAly  <ijomAliy~      N/At    total;full amount;totality     <pos><ijomAliy~/NOUN</pos>
-AjmAly  <ijomAliy~      N/At    total;full amount;totality     <pos><ijomAliy~/NOUN</pos>
 ;; mujomil_1
 mjml    mujomil Nall    wholesaler
 ;; mujomal_1
@@ -3367,9 +3147,7 @@ jnn     jan~an  PV-n    drive insane;make crazy;infuriate
 jnn     jan~in  IV-n_yu drive insane;make crazy;infuriate
 ;; >ajan~_1
 >jn     >ajan~  PV_V    cover;conceal
-Ajn     >ajan~  PV_V    cover;conceal
 >jnn    >ajonan PV_Cn   cover;conceal
-Ajnn    >ajonan PV_Cn   cover;conceal
 jn      jin~    IV_V_yu cover;conceal
 jnn     jonin   IV_C_yu cover;conceal
 ;; tajan~an_1
@@ -3377,9 +3155,7 @@ tjnn    tajan~an        PV-n    go crazy;become insane
 tjnn    tajan~an        IV-n    go crazy;become insane
 ;; {isotajan~_1
 <stjn   {isotajan~      PV_V    regard as crazy;be covered;be concealed
-Astjn   {isotajan~      PV_V    regard as crazy;be covered;be concealed
 <stjnn  {isotajonan     PV_Cn   regard as crazy;be covered;be concealed
-Astjnn  {isotajonan     PV_Cn   regard as crazy;be covered;be concealed
 stjn    sotajin~        IV_V    regard as crazy;be covered;be concealed
 stjnn   sotajonin       IV_Cn   regard as crazy;be covered;be concealed
 ;; jin~_1
@@ -3403,9 +3179,7 @@ jnyn    janiyn  N       germ
 ;; janiyn_2
 jnyn    janiyn  N       fetus;germ
 >jn     >ajin~  Nap     fetuses
-Ajn     >ajin~  Nap     fetuses
 >jn     >ajun~  N       fetuses
-Ajn     >ajun~  N       fetuses
 ;; janiyniy~_1
 jnyny   janiyniy~       Nall    fetal     <pos>janiyniy~/ADJ</pos>
 ;; junuwn_1
@@ -3437,7 +3211,6 @@ tjAnb   tajAnab PV      avoid
 tjAnb   tajAnab IV      avoid
 ;; {ijotanab_1
 <jtnb   {ijotanab       PV      avoid
-Ajtnb   {ijotanab       PV      avoid
 jtnb    jotanib IV      avoid
 ;; janoba_1
 jnb     janoba  FW-Wa   next to     <pos>janoba/PREP</pos>
@@ -3448,7 +3221,6 @@ jnb     janob   FW-Wa-o next to     <pos>janob/PREP</pos>
 ;; janob_1
 jnb     janob   Ndu     side
 >jnAb   >ajonAb N       sides
-AjnAb   >ajonAb N       sides
 ;; janobap_1
 jnb     janob   Napdu   side
 jnb     janab   NAt     sides
@@ -3471,14 +3243,10 @@ jwAnb   jawAnib Ndip    sides;aspects
 jAnby   jAnibiy~        Nall    side;lateral;marginal     <pos>jAnibiy~/ADJ</pos>
 ;; >ajonabiy~_1
 >jnby   >ajonabiy~      Nall    foreign     <pos>>ajonabiy~/ADJ</pos>
-Ajnby   >ajonabiy~      Nall    foreign     <pos>>ajonabiy~/ADJ</pos>
 >jAnb   >ajAnib Ndip    foreign     <pos>>ajAnib/ADJ</pos>
-AjAnb   >ajAnib Ndip    foreign     <pos>>ajAnib/ADJ</pos>
 ;; >ajonabiy~_2
 >jnby   >ajonabiy~      Nall    foreigner     <pos>>ajonabiy~/NOUN</pos>
-Ajnby   >ajonabiy~      Nall    foreigner     <pos>>ajonabiy~/NOUN</pos>
 >jAnb   >ajAnib Ndip    foreigner     <pos>>ajAnib/NOUN</pos>
-AjAnb   >ajAnib Ndip    foreigner     <pos>>ajAnib/NOUN</pos>
 ;; jan~Abiy~ap_1
 jnAby   jan~Abiy~       NapAt   embankment;side channel     <pos>jan~Abiy~/NOUN</pos>
 ;; tajoniyb_1
@@ -3487,7 +3255,6 @@ tjnyb   tajoniyb        N/At    helping avoid;shielding from
 tjnb    tajan~ub        N/At    avoidance;avoiding
 ;; {ijotinAb_1
 <jtnAb  {ijotinAb       N/At    avoidance
-AjtnAb  {ijotinAb       N/At    avoidance
 ;; mujan~ibap_1
 mjnb    mujan~ib        NapAt   flank;wing (mil.)
 ;
@@ -3522,7 +3289,6 @@ jnH     jan~aH  PV      incline;give wings
 jnH     jan~iH  IV_yu   incline;give wings
 ;; >ajonaH_1
 >jnH    >ajonaH PV_intr be inclined;tend;be stranded
-AjnH    >ajonaH PV_intr be inclined;tend;be stranded
 jnH     joniH   IV_intr_yu      be inclined;tend;be stranded
 ;; jinoH_1
 jnH     jinoH   N       darkness
@@ -3534,16 +3300,13 @@ jnH     junaH   N       misdemeanors
 ;; janAH_1
 jnAH    janAH   Ndu     wing;flank
 >jnH    >ajoniH Nap     wings;flanks
-AjnH    >ajoniH Nap     wings;flanks
 >jnH    >ajonuH N       wings;flanks
-AjnH    >ajonuH N       wings;flanks
 ;; junAH_1
 jnAH    junAH   N       misdemeanor
 ;; junAHiy~_1
 jnAHy   junAHiy~        N-ap    delinquent;criminal     <pos>junAHiy~/ADJ</pos>
 ;; >ajonaH_2
 >jnH    >ajonaH Nel     more/most inclined
-AjnH    >ajonaH Nel     more/most inclined
 ;; januwH_1
 jnwH    januwH  N/ap    inclined
 ;; junuwH_1
@@ -3573,7 +3336,6 @@ jnd     junod   N       army
 jndy    junodiy~        N/ap    soldier;private     <pos>junodiy~/NOUN</pos>
 jnwd    junuwd  N       soldiers
 >jnAd   >ajonAd N       soldiers
-AjnAd   >ajonAd N       soldiers
 ;; junodiy~ap_1
 jndy    junodiy~        Nap     militarism;military art
 ;; tajoniyd_1
@@ -3689,7 +3451,6 @@ jns     jinos   Ndu     gender;sex
 ;; jinos_2
 jns     jinos   Ndu     type;kind
 >jnAs   >ajonAs N       types;kinds
-AjnAs   >ajonAs N       types;kinds
 ;; jinosiy~_1
 jnsy    jinosiy~        N-ap    sexual     <pos>jinosiy~/ADJ</pos>
 ;; jinosiy~_2
@@ -3783,13 +3544,9 @@ tjny    tajan~ay        IV_Ann  accuse;incriminate
 tjn     tajan~  IV_0hwnyn       accuse;incriminate
 ;; {ijotanaY_1
 <jtnY   {ijotanaY       PV_0    gather;harvest
-AjtnY   {ijotanaY       PV_0    gather;harvest
 <jtnA   {ijotanA        PV_h    gather;harvest
-AjtnA   {ijotanA        PV_h    gather;harvest
 <jtny   {ijotanay       PV_Atn  gather;harvest
-Ajtny   {ijotanay       PV_Atn  gather;harvest
 <jtn    {ijotan PV_ttAw gather;harvest
-Ajtn    {ijotan PV_ttAw gather;harvest
 jtny    jotaniy IV_0hAnn        gather;harvest
 jtn     jotan   IV_0hwnyn       gather;harvest
 jtnY    jotanaY IV_0    gather;harvest
@@ -3866,11 +3623,9 @@ jAhd    jAhid   IV_yu   wage war or Jihad (against)
 jAhd    jAhad   IV_Pass_yu      wage war or Jihad (against)
 ;; >ajohad_1
 >jhd    >ajohad PV      fatigue;strain
-Ajhd    >ajohad PV      fatigue;strain
 jhd     johid   IV_yu   fatigue;strain
 ;; {ijotahad_1
 <jthd   {ijotahad       PV      work hard;strive
-Ajthd   {ijotahad       PV      work hard;strive
 jthd    jotahid IV      work hard;strive
 ;; jahod_1
 jhd     jahod   N       exertion;endeavor
@@ -3888,13 +3643,10 @@ jhAdy   jihAdiy~        Nall    Jihadist;holy warfare     <pos>jihAdiy~/ADJ</pos
 mjAhd   mujAhad NapAt   fight;battle
 ;; <ijohAd_1
 <jhAd   <ijohAd NduAt   effort;exertion
-AjhAd   <ijohAd NduAt   effort;exertion
 ;; <ijohAdiy~_1
 <jhAdy  <ijohAdiy~      Nall    strenuous;grueling
-AjhAdy  <ijohAdiy~      Nall    strenuous;grueling
 ;; {ijotihAd_1
 <jthAd  {ijotihAd       NduAt   effort;independent thinking
-AjthAd  {ijotihAd       NduAt   effort;independent thinking
 ;; jAhid_1
 jAhd    jAhid   Nall    striving;endeavoring
 ;; majohuwd_1
@@ -3935,10 +3687,8 @@ jhry    jahoriy~        Nall    public;out-loud     <pos>jahoriy~/ADJ</pos>
 jhyr    jahiyr  Nall    loud
 ;; >ajohar_1
 >jhr    >ajohar Nel     louder/laudest
-Ajhr    >ajohar Nel     louder/laudest
 ;; >ajohar_2
 >jhr    >ajohar Nel     day-blind
-Ajhr    >ajohar Nel     day-blind
 ;; mijohar_1
 mjhr    mijohar Ndu     microscope
 mjAhr   majAhir Ndip    microscopes
@@ -3963,7 +3713,6 @@ jhz     jah~az  PV      equip;supply;prepare
 jhz     jah~iz  IV_yu   equip;supply;prepare
 ;; >ajohaz_1
 >jhz    >ajohaz PV      finish off;give a coup de grace
-Ajhz    >ajohaz PV      finish off;give a coup de grace
 jhz     johiz   IV_yu   finish off;give a coup de grace
 ;; tajah~az_1
 tjhz    tajah~az        PV_intr be equipped;be furnished;get ready
@@ -3971,9 +3720,7 @@ tjhz    tajah~az        IV_intr be equipped;be furnished;get ready
 ;; jihAz_1
 jhAz    jihAz   Ndu     apparatus;equipment;appliance;system
 >jhz    >ajohiz Nap     apparatus;equipment;appliances
-Ajhz    >ajohiz Nap     apparatus;equipment;appliances
 >jhz    >ajohiz NAt     equipment;appliances
-Ajhz    >ajohiz NAt     equipment;appliances
 ;; juhuwziy~ap_1
 jhwzy   juhuwziy~       Nap     preparedness;fitness
 ;; tajohiyz_1
@@ -3992,19 +3739,16 @@ mjhz    mujah~az        Nall    equipped;supplied     <pos>mujah~az/ADJ</pos>
 ;--- jh$
 ;; >ajoha$_1
 >jh$    >ajoha$ PV      sob
-Ajh$    >ajoha$ PV      sob
 jh$     johi$   IV_yu   sob
 ;; jaho$ap_1
 jh$     jaho$   Napdu   sob
 jh$     jaha$   NAt     sobs
 ;; <ijohA$_1
 <jhA$   <ijohA$ NduAt   sob
-AjhA$   <ijohA$ NduAt   sob
 ;
 ;--- jhD
 ;; >ajohaD_1
 >jhD    >ajohaD PV      abort;miscarry
-AjhD    >ajohaD PV      abort;miscarry
 jhD     johiD   IV_yu   abort;miscarry
 jhD     johaD   IV_Pass_yu      be aborted;be miscarried
 ;; jihoD_1
@@ -4013,7 +3757,6 @@ jhD     jihoD   N       miscarried fetus
 jhyD    jahiyD  Nall    miscarried fetus
 ;; <ijohAD_1
 <jhAD   <ijohAD NduAt   abortion;miscarriage
-AjhAD   <ijohAD NduAt   abortion;miscarriage
 ;
 ;--- jhl
 ;; jahil-a_1
@@ -4027,7 +3770,6 @@ tjAhl   tajAhal PV      feign ignorance of;disregard
 tjAhl   tajAhal IV      feign ignorance of;disregard
 ;; {isotajohal_1
 <stjhl  {isotajohal     PV      consider ignorant
-Astjhl  {isotajohal     PV      consider ignorant
 stjhl   sotajohil       IV      consider ignorant
 ;; jahol_1
 jhl     jahol   N       ignorance
@@ -4066,7 +3808,6 @@ jhm     jahum   PV      frown
 jhm     johum   IV      frown
 ;; >ajoham_1
 >jhm    >ajoham PV      frown;be gloomy
-Ajhm    >ajoham PV      frown;be gloomy
 jhm     johim   IV_yu   frown;be gloomy
 ;; tajah~am_1
 tjhm    tajah~am        PV      scowl;be gloomy
@@ -4116,11 +3857,8 @@ jw      jaw~    N0      air (military)
 jw      jaw~    N       climate;atmosphere
 jwA     jaw~AF  FW-Wa   by air     <pos>jaw~AF/ADV</pos>
 >jwA'   >ajowA' N0_Nh   atmosphere;air
-AjwA'   >ajowA' N0_Nh   atmosphere;air
 >jwA&   >ajowA& Nh      atmosphere;air
-AjwA&   >ajowA& Nh      atmosphere;air
 >jwA}   >ajowA} Nhy     atmosphere;air
-AjwA}   >ajowA} Nhy     atmosphere;air
 jwA'    jiwA'   N0_Nh   atmosphere;air
 jwA&    jiwA&   Nh      atmosphere;air
 jwA}    jiwA}   Nhy     atmosphere;air
@@ -4128,7 +3866,6 @@ jwA}    jiwA}   Nhy     atmosphere;air
 jwy     jaw~iy~ N/ap    air;aerial;atmospheric     <pos>jaw~iy~/ADJ</pos>
 ;; >ajowA}iy~_1
 >jwA}y  >ajowA}iy~      N-ap    atmospheric;meteorological     <pos>>ajowA}iy~/ADJ</pos>
-AjwA}y  >ajowA}iy~      N-ap    atmospheric;meteorological     <pos>>ajowA}iy~/ADJ</pos>
 ;
 ;--- jw(2)
 ;; juw_1
@@ -4178,9 +3915,7 @@ jAwb    jAwab   PV      comply;reply
 jAwb    jAwib   IV_yu   comply;reply
 ;; >ajAb_1
 >jAb    >ajAb   PV_V    answer;reply;comply
-AjAb    >ajAb   PV_V    answer;reply;comply
 >jb     >ajab   PV_C    answer;reply;comply
-Ajb     >ajab   PV_C    answer;reply;comply
 jyb     jiyb    IV_V_yu answer;reply;comply
 jb      jib     IV_C_yu answer;reply;comply
 jAb     jAb     IV_V_Pass_yu    be answered;be replied;be complied
@@ -4190,23 +3925,18 @@ tjAwb   tajAwab PV      reply;echo
 tjAwb   tajAwab IV      reply;echo
 ;; {inojAb_1
 <njAb   {inojAb PV_V    break up;be dispelled;fade
-AnjAb   {inojAb PV_V    break up;be dispelled;fade
 <njb    {inojab PV_C    break up;be dispelled;fade
-Anjb    {inojab PV_C    break up;be dispelled;fade
 njAb    nojAb   IV_V    break up;be dispelled;fade
 njb     nojab   IV_C    break up;be dispelled;fade
 ;; {isotajAb_1
 <stjAb  {isotajAb       PV_V    comply;reply
-AstjAb  {isotajAb       PV_V    comply;reply
 <stjb   {isotajab       PV_C    comply;reply
-Astjb   {isotajab       PV_C    comply;reply
 stjyb   sotajiyb        IV_V    comply;reply
 stjb    sotajib IV_C    comply;reply
 stjAb   sotajAb IV_V_Pass_yu    be complied with;be replied to
 stjb    sotajab IV_C_Pass_yu    be complied with;be replied to
 ;; {isotajowab_1
 <stjwb  {isotajowab     PV      interrogate
-Astjwb  {isotajowab     PV      interrogate
 stjwb   sotajowib       IV      interrogate
 ;; jawob_1
 jwb     jawob   N       touring;penetration
@@ -4215,7 +3945,6 @@ jwb     jawob   NapAt   opening;hole
 ;; jawAb_1
 jwAb    jawAb   Ndu     answer
 >jwb    >ajowib Nap     answers
-Ajwb    >ajowib Nap     answers
 ;; jawAb_2
 jwAb    jawAb   Ndu     letter
 jwAb    jawAb   NAt     letters
@@ -4225,15 +3954,12 @@ jwAby   jawAbiy~        Nall    answering     <pos>jawAbiy~/ADJ</pos>
 tjwAb   tajowAb Nall    traversing;wandering
 ;; <ijAbap_1
 <jAb    <ijAb   NapAt   answer;response;consent
-AjAb    <ijAb   NapAt   answer;response;consent
 ;; tajAwub_1
 tjAwb   tajAwub NduAt   response;consent
 ;; {isotijAbap_1
 <stjAb  {isotijAb       NapAt   compliance;replying
-AstjAb  {isotijAb       NapAt   compliance;replying
 ;; {isotijowAb_1
 <stjwAb {isotijowAb     NduAt   interrogation;questioning
-AstjwAb {isotijowAb     NduAt   interrogation;questioning
 ;; mujiyb_1
 mjyb    mujiyb  Nall    responding;answering
 ;; mutajAwib_1
@@ -4260,28 +3986,21 @@ jwH     juwH    IV_V    annihilate;ruin;flood
 jH      juH     IV_C    annihilate;ruin;flood
 ;; >ajAH_1
 >jAH    >ajAH   PV_V    annihilate;ruin;flood
-AjAH    >ajAH   PV_V    annihilate;ruin;flood
 >jH     >ajaH   PV_C    annihilate;ruin;flood
-AjH     >ajaH   PV_C    annihilate;ruin;flood
 jyH     jiyH    IV_V_yu annihilate;ruin;flood
 jH      jiH     IV_C_yu annihilate;ruin;flood
 jAH     jAH     IV_V_Pass_yu    be annihilated;be ruined;be flooded
 jH      jaH     IV_C_Pass_yu    be annihilated;be ruined;be flooded
 ;; {ijotAH_1
 <jtAH   {ijotAH PV_V    invade
-AjtAH   {ijotAH PV_V    invade
 <jtH    {ijotaH PV_C    invade
-AjtH    {ijotaH PV_C    invade
 jtAH    jotAH   IV_V    invade
 jtH     jotaH   IV_C    invade
 <jtyH   {ujotiyH        PV_V_Pass       be invaded
-AjtyH   {ujotiyH        PV_V_Pass       be invaded
 ;; <ijAHap_1
 <jAH    <ijAH   NapAt   destruction;ruin
-AjAH    <ijAH   NapAt   destruction;ruin
 ;; {ijotiyAH_1
 <jtyAH  {ijotiyAH       NduAt   invasion;strike
-AjtyAH  {ijotiyAH       NduAt   invasion;strike
 ;; jA}iH_1
 jA}H    jA}iH   Nall    disastrous;devastating     <pos>jA}iH/ADJ</pos>
 ;; jA}iHap_1
@@ -4293,7 +4012,6 @@ jwA}H   jawA}iH Ndip    calamity;catastrophe
 jwx     juwx    N       broadcloth
 jwx     juwx    Nap     broadcloth
 >jwAx   >ajowAx N       broadcloth
-AjwAx   >ajowAx N       broadcloth
 ;
 ;--- jwd
 ;; jAd-u_1
@@ -4303,18 +4021,14 @@ jwd     juwd    IV_V    improve;do well
 jd      jud     IV_C    improve;do well
 ;; >ajAd_1
 >jAd    >ajAd   PV_V    be proficient at;do well
-AjAd    >ajAd   PV_V    be proficient at;do well
 >jd     >ajad   PV_C    be proficient at;do well
-Ajd     >ajad   PV_C    be proficient at;do well
 jyd     jiyd    IV_V_yu be proficient at;do well
 jd      jid     IV_C_yu be proficient at;do well
 jAd     jAd     IV_V_Pass_yu    be proficient at;do well
 jd      jad     IV_C_Pass_yu    be proficient at;do well
 ;; {isotajAd_1
 <stjAd  {isotajAd       PV_V    think well of;approve of
-AstjAd  {isotajAd       PV_V    think well of;approve of
 <stjd   {isotajad       PV_C    think well of;approve of
-Astjd   {isotajad       PV_C    think well of;approve of
 stjyd   sotajiyd        IV_V    think well of;approve of
 stjd    sotajid IV_C    think well of;approve of
 ;; juwdap_1
@@ -4328,28 +4042,23 @@ jwAd    jawAd   N0      Jawad
 ;; jawAd_2
 jwAd    jawAd   Nall    generous;liberal     <pos>jawAd/ADJ</pos>
 >jwAd   >ajowAd N       generous;liberal
-AjwAd   >ajowAd N       generous;liberal
 ;; jawAd_3
 jwAd    jawAd   NduAt   steed;horse
 >jyAd   >ajoyAd N       steeds;horses
-AjyAd   >ajoyAd N       steeds;horses
 ;; tajowiyd_1
 tjwyd   tajowiyd        NduAt   reciting;chanting
 ;; <ijAdap_1
 <jAd    <ijAd   NapAt   mastery;competence
-AjAd    <ijAd   NapAt   mastery;competence
 ;; mujaw~id_1
 mjwd    mujaw~id        Nall    reciter
 ;; mujiyd_1
 mjyd    mujiyd  Nall    proficient;efficient
 ;; >ajowad_1
 >jwd    >ajowad Nel     better/best;more/most generous
-Ajwd    >ajowad Nel     better/best;more/most generous
 jwdA'   jawodA' N0_Nh   better/best;more/most generous
 jwdA&   jawodA& Nh      better/best;more/most generous
 jwdA}   jawodA} Nhy     better/best;more/most generous
 >jAwyd  >ajAwiyd        Ndip    better/best;more/most generous
-AjAwyd  >ajAwiyd        Ndip    better/best;more/most generous
 ;
 ;; juwduw_1
 jwdw    juwdw   N0      judo
@@ -4365,9 +4074,7 @@ jAwr    jAwar   PV_intr be adjacent to;be close to
 jAwr    jAwir   IV_intr_yu      be adjacent to;be close to
 ;; >ajAr_1
 >jAr    >ajAr   PV_V    grant asylum;protect
-AjAr    >ajAr   PV_V    grant asylum;protect
 >jr     >ajar   PV_C    grant asylum;protect
-Ajr     >ajar   PV_C    grant asylum;protect
 jyr     jiyr    IV_V_yu grant asylum;protect
 jr      jir     IV_C_yu grant asylum;protect
 jAr     jAr     IV_V_Pass_yu    be granted asylum;be protected
@@ -4377,9 +4084,7 @@ tjAwr   tajAwar PV_intr be adjacent
 tjAwr   tajAwar IV_intr be adjacent
 ;; {isotajAr_1
 <stjAr  {isotajAr       PV_V    seek protection;seek aid
-AstjAr  {isotajAr       PV_V    seek protection;seek aid
 <stjr   {isotajar       PV_C    seek protection;seek aid
-Astjr   {isotajar       PV_C    seek protection;seek aid
 stjyr   sotajiyr        IV_V    seek protection;seek aid
 stjr    sotajir IV_C    seek protection;seek aid
 ;; jawor_1
@@ -4401,7 +4106,6 @@ mjAwr   mujAwar NapAt   neighborhood;proximity
 ; see also under --- Ajr
 ;; <ijArap_2
 <jAr    <ijAr   NapAt   protection;asylum
-AjAr    <ijAr   NapAt   protection;asylum
 ;; tajAwur_1
 tjAwr   tajAwur NduAt   contiguity;relationship
 ;; jA}ir_1
@@ -4452,9 +4156,7 @@ jAwz    jAwaz   PV      pass;exceed
 jAwz    jAwiz   IV_yu   pass;exceed
 ;; >ajAz_1
 >jAz    >ajAz   PV_V    allow;authorize;endorse
-AjAz    >ajAz   PV_V    allow;authorize;endorse
 >jz     >ajaz   PV_C    allow;authorize;endorse
-Ajz     >ajaz   PV_C    allow;authorize;endorse
 jyz     jiyz    IV_V_yu allow;authorize;endorse
 jz      jiz     IV_C_yu allow;authorize;endorse
 jAz     jAz     IV_V_Pass_yu    be allowed;authorized;be endorsed
@@ -4467,24 +4169,18 @@ tjAwz   tajAwaz PV      exceed;disregard
 tjAwz   tajAwaz IV      exceed;disregard
 ;; {ijotAz_1
 <jtAz   {ijotAz PV_V    surmount;overcome
-AjtAz   {ijotAz PV_V    surmount;overcome
 <jtz    {ijotaz PV_C    surmount;overcome
-Ajtz    {ijotaz PV_C    surmount;overcome
 jtAz    jotAz   IV_V    surmount;overcome
 jtz     jotaz   IV_C    surmount;overcome
 <jtyz   {ujotiyz        PV_V_Pass       be surmounted;be overcome
-Ajtyz   {ujotiyz        PV_V_Pass       be surmounted;be overcome
 ;; {isotajAz_1
 <stjAz  {isotajAz       PV_V    deem permissible;ask permission
-AstjAz  {isotajAz       PV_V    deem permissible;ask permission
 <stjz   {isotajaz       PV_C    deem permissible;ask permission
-Astjz   {isotajaz       PV_C    deem permissible;ask permission
 stjyz   sotajiyz        IV_V    deem permissible;ask permission
 stjz    sotajiz IV_C    deem permissible;ask permission
 ;; jawoz_1
 jwz     jawoz   N       heart;center
 >jwAz   >ajowAz N       middle;midst
-AjwAz   >ajowAz N       middle;midst
 ;; jawoz_2
 jwz     jawoz   NduAt   walnut
 ;; jawoziy~_1
@@ -4502,7 +4198,6 @@ mjAz    majAz   NF      figuratively     <pos>majAz/ADV</pos>
 mjAzy   majAziy~        Nall    figurative     <pos>majAziy~/ADJ</pos>
 ;; <ijAzap_1
 <jAz    <ijAz   NapAt   furlough;permit
-AjAz    <ijAz   NapAt   furlough;permit
 ;; mujAwazap_1
 mjAwz   mujAwaz NapAt   exceeding;overstepping
 ;; tajaw~uz_1
@@ -4511,7 +4206,6 @@ tjwz    tajaw~uz        NF      figuratively     <pos>tajaw~uz/ADV</pos>
 tjAwz   tajAwuz NduAt   exceeding;overstepping
 ;; {ijotiyAz_1
 <jtyAz  {ijotiyAz       NduAt   traversing;overcoming
-AjtyAz  {ijotiyAz       NduAt   traversing;overcoming
 ;; jA}iz_1
 jA}z    jA}iz   N/ap    lawful;possible
 ;; jA}izap_1
@@ -4548,9 +4242,7 @@ jws     juws    IV_V    peer around;pry around
 js      jus     IV_C    peer around;pry around
 ;; {ijotAs_1
 <jtAs   {ijotAs PV_V    search;investigate
-AjtAs   {ijotAs PV_V    search;investigate
 <jts    {ijotas PV_C    search;investigate
-Ajts    {ijotas PV_C    search;investigate
 jtAs    jotAs   IV_V    search;investigate
 jts     jotas   IV_C    search;investigate
 ;
@@ -4577,9 +4269,7 @@ jwE     jaw~aE  PV      make starve;famish
 jwE     jaw~iE  IV_yu   make starve;famish
 ;; >ajAE_1
 >jAE    >ajAE   PV_V    make starve;famish
-AjAE    >ajAE   PV_V    make starve;famish
 >jE     >ajaE   PV_C    make starve;famish
-AjE     >ajaE   PV_C    make starve;famish
 jyE     jiyE    IV_V_yu make starve;famish
 jE      jiE     IV_C_yu make starve;famish
 jAE     jAE     IV_V_Pass_yu    be starved
@@ -4602,7 +4292,6 @@ jA}E    jA}iE   N/ap    hungry;starving
 tjwyE   tajowiyE        NduAt   making starve
 ;; <ijAEap_1
 <jAE    <ijAE   NapAt   making starve
-AjAE    <ijAE   NapAt   making starve
 ;
 ;--- jwf
 ;; jaw~af_1
@@ -4611,12 +4300,10 @@ jwf     jaw~if  IV_yu   make hollow;hollow out
 ;; jawof_1
 jwf     jawof   Ndu     belly;cavity;middle
 >jwAf   >ajowAf N       cavities;insides
-AjwAf   >ajowAf N       cavities;insides
 ;; jawofiy~_1
 jwfy    jawofiy~        Nall    interior;subterranean     <pos>jawofiy~/ADJ</pos>
 ;; >ajowaf_1
 >jwf    >ajowaf Nel     hollow;empty
-Ajwf    >ajowaf Nel     hollow;empty
 jwfA'   jawofA' N0_Nh   hollow;empty
 jwfA&   jawofA& Nh      hollow;empty
 jwfA}   jawofA} Nhy     hollow;empty
@@ -4636,7 +4323,6 @@ jwq     jawoq   Ndu     troupe;band
 jwq     jawoq   Napdu   troupe;band
 jwq     jawoq   NAt     troupes;bands
 >jwAq   >ajowAq N       troupes;bands
-AjwAq   >ajowAq N       troupes;bands
 ;
 ;--- jwk
 ;; juwkir_1
@@ -4656,9 +4342,7 @@ jwl     jaw~al  PV      travel;cruise
 jwl     jaw~il  IV_yu   travel;cruise
 ;; >ajAl_1
 >jAl    >ajAl   PV_V    circulate;ponder
-AjAl    >ajAl   PV_V    circulate;ponder
 >jl     >ajal   PV_C    circulate;ponder
-Ajl     >ajal   PV_C    circulate;ponder
 jyl     jiyl    IV_V_yu circulate;ponder
 jl      jil     IV_C_yu circulate;ponder
 jAl     jAl     IV_V_Pass_yu    be circulated;be pondered
@@ -4715,7 +4399,6 @@ jwlyyt  juwliyiyt       Nprop   Juliette
 ;; juwn_1
 jwn     juwn    N       inlet;bay
 >jwAn   >ajowAn N       inlets;bays
-AjwAn   >ajowAn N       inlets;bays
 ;
 ;; juwn_2
 jwn     juwn    Nprop   John
@@ -4791,13 +4474,9 @@ tjwy    tajaw~ay        IV_Ann  crumble
 tjw     tajaw~  IV_0hwnyn       crumble
 ;; {ijotawaY_1
 <jtwY   {ijotawaY       PV_0    feel intensely
-AjtwY   {ijotawaY       PV_0    feel intensely
 <jtwA   {ijotawA        PV_h    feel intensely
-AjtwA   {ijotawA        PV_h    feel intensely
 <jtwy   {ijotaway       PV_Atn  feel intensely
-Ajtwy   {ijotaway       PV_Atn  feel intensely
 <jtw    {ijotaw PV_ttAw feel intensely
-Ajtw    {ijotaw PV_ttAw feel intensely
 jtwy    jotawiy IV_0hAnn        feel intensely
 jtw     jotaw   IV_0hwnyn       feel intensely
 jtwY    jotawaY IV_0    feel intensely
@@ -4917,9 +4596,7 @@ jy$     jay~a$  PV      levy troops;mobilize
 jy$     jay~i$  IV_yu   levy troops;mobilize
 ;; {isotajA$_1
 <stjA$  {isotajA$       PV_V    raise;mobilize
-AstjA$  {isotajA$       PV_V    raise;mobilize
 <stj$   {isotaja$       PV_C    raise;mobilize
-Astj$   {isotaja$       PV_C    raise;mobilize
 stjy$   sotajiy$        IV_V    raise;mobilize
 stj$    sotaji$ IV_C    raise;mobilize
 ;; jayo$_1
@@ -4945,7 +4622,6 @@ tjyf    tajay~af        IV_intr be putrid;stink
 jyf     jiyf    Napdu   cadaver
 jyf     jiyaf   N       cadavers
 >jyAf   >ajoyAf N       cadavers
-AjyAf   >ajoyAf N       cadavers
 ;; jiyfiy~_1
 jyfy    jiyfiy~ N-ap    cadaverous
 ;
@@ -4960,7 +4636,6 @@ jykwf   jiykuwf Nprop   Chekov;Jekov
 ;; jiyl_1
 jyl     jiyl    Ndu     generation;epoch
 >jyAl   >ajoyAl N       generations;epochs
-AjyAl   >ajoyAl N       generations;epochs
 ;; jiyliy~_1
 jyly    jiyliy~ N-ap    generational;secular
 ;

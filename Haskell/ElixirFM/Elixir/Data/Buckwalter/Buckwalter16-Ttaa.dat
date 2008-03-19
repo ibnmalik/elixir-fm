@@ -90,9 +90,7 @@ tTbb    taTab~ab        PV      receive medical treatment
 tTbb    taTab~ab        IV      receive medical treatment
 ;; {isotaTab~_1
 <stTb   {isotaTab~      PV_V    seek medical treatment;consult
-AstTb   {isotaTab~      PV_V    seek medical treatment;consult
 <stTbb  {isotaTobab     PV_C    seek medical treatment;consult
-AstTbb  {isotaTobab     PV_C    seek medical treatment;consult
 stTb    sotaTib~        IV_V    seek medical treatment;consult
 stTbb   sotaTobib       IV_C    seek medical treatment;consult
 ;; Tib~_1
@@ -102,13 +100,9 @@ Tby     Tib~iy~ N-ap    medical     <pos>Tib~iy~/ADJ</pos>
 ;; Tabiyb_1
 Tbyb    Tabiyb  N/ap    physician;doctor
 >TbA'   >aTib~A'        N0_Nh   physicians;doctors
-ATbA'   >aTib~A'        N0_Nh   physicians;doctors
 >TbA&   >aTib~A&        Nh      physicians;doctors
-ATbA&   >aTib~A&        Nh      physicians;doctors
 >TbA}   >aTib~A}        Nhy     physicians;doctors
-ATbA}   >aTib~A}        Nhy     physicians;doctors
 >Tb     >aTib~  Nap     physicians;doctors
-ATb     >aTib~  Nap     physicians;doctors
 ;; TibAbap_1
 TbAb    TibAb   Nap     medical profession;medical treatment
 ;; maTab~_1
@@ -125,7 +119,6 @@ Tbx     Tobux   IV      cook
 Tbx     Tobax   IV      cook
 ;; {inoTabax_1
 <nTbx   {inoTabax       PV      get cooked
-AnTbx   {inoTabax       PV      get cooked
 nTbx    noTabix IV      get cooked
 ;; Tabox_1
 Tbx     Tabox   N       cooking;cuisine
@@ -209,7 +202,6 @@ tTbE    taTab~aE        PV_intr be stamped;be impressed
 tTbE    taTab~aE        IV_intr be stamped;be impressed
 ;; {inoTabaE_1
 <nTbE   {inoTabaE       PV_intr be stamped;be impressed
-AnTbE   {inoTabaE       PV_intr be stamped;be impressed
 nTbE    noTabiE IV_intr be stamped;be impressed
 ;; TaboE_1
 TbE     TaboE   N       temperament
@@ -250,12 +242,9 @@ mTbEjy  maTobaEojiy~    Nall    printer;typesetter     <pos>maTobaEojiy~/ADJ</po
 tTbyE   taTobiyE        NduAt   normalization
 ;; {inoTibAE_1
 <nTbAE  {inoTibAE       NduAt   impression
-AnTbAE  {inoTibAE       NduAt   impression
 ;; {inoTibAEiy~_1
 <nTbAEy {inoTibAEiy~    Nall    impressionistic     <pos>{inoTibAEiy~/ADJ</pos>
-AnTbAEy {inoTibAEiy~    Nall    impressionistic     <pos>{inoTibAEiy~/ADJ</pos>
 <nTbAEy {inoTibAEiy~    Nap     impressionism     <pos>{inoTibAEiy~/NOUN</pos>
-AnTbAEy {inoTibAEiy~    Nap     impressionism     <pos>{inoTibAEiy~/NOUN</pos>
 ;; TAbiE_1
 TAbE    TAbiE   Ndu     impression;character;personality
 ;; TAbiE_2
@@ -277,7 +266,6 @@ TAbq    TAbaq   PV      suit;conform with
 TAbq    TAbiq   IV_yu   suit;conform with
 ;; >aTobaq_1
 >Tbq    >aTobaq PV      shut;close
-ATbq    >aTobaq PV      shut;close
 Tbq     Tobiq   IV_yu   shut;close
 Tbq     Tobaq   IV_Pass_yu      be shut;be close
 ;; taTab~aq_1
@@ -288,7 +276,6 @@ tTAbq   taTAbaq PV      correspond with;coincide with
 tTAbq   taTAbaq IV      correspond with;coincide with
 ;; {inoTabaq_1
 <nTbq   {inoTabaq       PV_intr be applicable;conform to
-AnTbq   {inoTabaq       PV_intr be applicable;conform to
 nTbq    noTabiq IV_intr be applicable;conform to
 ;; Tiboq_1
 Tbq     Tiboq   N0_Nh   according to;conforming with
@@ -296,7 +283,6 @@ Tbq     Tiboq   NF      according to;in accordance with     <pos>Tiboq/ADV</pos>
 ;; Tabaq_1
 Tbq     Tabaq   Ndu     dish;course;meal
 >TbAq   >aTobAq N       dishes;saucers
-ATbAq   >aTobAq N       dishes;saucers
 ;; Tabaqap_1
 Tbq     Tabaq   NapAt   class;category
 ;; Tabaqap_2
@@ -312,7 +298,6 @@ tTbyq   taTobiyq        N/At    application
 tTbyqy  taTobiyqiy~     N-ap    applied     <pos>taTobiyqiy~/ADJ</pos>
 ;; <iTobAq_1
 <TbAq   <iTobAq N/At    agreement
-ATbAq   <iTobAq N/At    agreement
 ;; muTAbaqap_1
 mTAbq   muTAbaq NapAt   conformity;agreement
 ;; taTab~uq_1
@@ -321,7 +306,6 @@ tTbq    taTab~uq        N/At    stratification
 tTAbq   taTAbuq N/At    compatibility;correspondence
 ;; {inoTibAq_1
 <nTbAq  {inoTibAq       N/At    coincidence
-AnTbAq  {inoTibAq       N/At    coincidence
 ;; TAbiq_1
 TAbq    TAbiq   Ndu     floor;story
 TwAbq   TawAbiq Ndip    floors;stories
@@ -347,7 +331,6 @@ Tbl     Tabol   N       drumming
 Tbl     Tabol   Ndu     drum
 Tbwl    Tubuwl  N       drums
 >TbAl   >aTobAl N       drums
-ATbAl   >aTobAl N       drums
 ;; Tabolap_1
 Tbl     Tabol   Napdu   drum
 ;; Taboliy~_1
@@ -529,11 +512,8 @@ Tr&     Tora&   IV_wn   occur;happen
 Tr}     Tora}   IV_yn   occur;happen
 ;; >aTora>_1
 >Tr>    >aTora> PV->    eulogize
-ATr>    >aTora> PV->    eulogize
 >Tr|    >aTora| PV-|    eulogize
-ATr|    >aTora| PV-|    eulogize
 >Tr&    >aTora& PV_w    eulogize
-ATr&    >aTora& PV_w    eulogize
 Tr}     Tori}   IV_yu   eulogize
 Tr>     Tora>   IV_Pass_yu      be eulogized
 ;; Tariy'_1
@@ -553,17 +533,11 @@ Tr|ny   Turo|niy~       N-ap    of unknown origin;wild     <pos>Turo|niy~/ADJ</p
 ; see also under --- Try
 ;; <iTorA'_1
 <TrA'   <iTorA' N0_Nh   eulogy
-ATrA'   <iTorA' N0_Nh   eulogy
 <TrA&   <iTorA& Nh      eulogy
-ATrA&   <iTorA& Nh      eulogy
 <TrA}   <iTorA} Nhy     eulogy
-ATrA}   <iTorA} Nhy     eulogy
 <TrA'   <iTorA' NAn_Nayn        eulogies
-ATrA'   <iTorA' NAn_Nayn        eulogies
 <TrA}   <iTorA} Nayn    eulogies
-ATrA}   <iTorA} Nayn    eulogies
 <TrA'   <iTorA' NAt     eulogies
-ATrA'   <iTorA' NAt     eulogies
 ;
 ;--- Trb
 ;; Tarib-a_1
@@ -574,13 +548,11 @@ Trb     Tar~ab  PV      sing
 Trb     Tar~ib  IV_yu   sing
 ;; >aTorab_1
 >Trb    >aTorab PV      please;sing
-ATrb    >aTorab PV      please;sing
 Trb     Torib   IV_yu   please;sing
 Trb     Torab   IV_Pass_yu      be pleased;be sung
 ;; Tarab_1
 Trb     Tarab   N       delight;music
 >TrAb   >aTorAb N       delight;music
-ATrAb   >aTorAb N       delight;music
 ;; Tarib_1
 Trb     Tarib   N-ap    delighted;moved with emotion     <pos>Tarib/ADJ</pos>
 TrAb    TirAb   N       delighted;moved with emotion
@@ -588,12 +560,10 @@ TrAb    TirAb   N       delighted;moved with emotion
 Trwb    Taruwb  N-ap    lively;merry     <pos>Taruwb/ADJ</pos>
 ;; >aTorab_2
 >Trb    >aTorab Nel     more/most delightful;more/most melodious
-ATrb    >aTorab Nel     more/most delightful;more/most melodious
 ;; taToriyb_1
 tTryb   taToriyb        N/At    diversion by music;making music
 ;; <iTorAb_1
 <TrAb   <iTorAb N/At    diversion by music;making music
-ATrAb   <iTorAb N/At    diversion by music;making music
 ;; muTorib_1
 mTrb    muTorib Nall    musician;delightful
 ;
@@ -657,11 +627,9 @@ tTArH   taTAraH PV      exchange
 tTArH   taTAraH IV      exchange
 ;; {inoTaraH_1
 <nTrH   {inoTaraH       PV      fall down
-AnTrH   {inoTaraH       PV      fall down
 nTrH    noTariH IV      fall down
 ;; {iT~araH_1
 <TrH    {iT~araH        PV      discard;reject
-ATrH    {iT~araH        PV      discard;reject
 TrH     T~ariH  IV      discard;reject
 ;; TaroH_1
 TrH     TaroH   N       suggestion;proposal
@@ -686,13 +654,11 @@ TrAH    Tar~AH  Napdu   cushion
 TrAryH  TarAriyH        Ndip    cushions
 ;; >uToruwHap_1
 >TrwH   >uToruwH        NapAt   dissertation;thesis
-ATrwH   >uToruwH        NapAt   dissertation;thesis
 ;; maToraH_1
 mTrH    maToraH Ndu     place;seat
 mTArH   maTAriH Ndip    places;seats
 ;; {iT~irAH_1
 <TrAH   {iT~irAH        N/At    rejection;repudiation
-ATrAH   {iT~irAH        N/At    rejection;repudiation
 ;; maToruwH_1
 mTrwH   maToruwH        Nall    prostrate
 mTrwH   maToruwH        Nall    rejected
@@ -718,15 +684,12 @@ TArd    TArad   PV      hunt;pursue
 TArd    TArid   IV_yu   hunt;pursue
 ;; {iT~arad_1
 <Trd    {iT~arad        PV_intr be consecutive;flow continuously
-ATrd    {iT~arad        PV_intr be consecutive;flow continuously
 Trd     T~arid  IV_intr be consecutive;flow continuously
 ;; {isotaTorad_1
 <stTrd  {isotaTorad     PV      proceed;continue
-AstTrd  {isotaTorad     PV      proceed;continue
 stTrd   sotaTorid       IV      proceed;continue
 ;; {isotaTorad_2
 <stTrd  {isotaTorad     PV      digress
-AstTrd  {isotaTorad     PV      digress
 stTrd   sotaTorid       IV      digress
 ;; Tarod_1
 Trd     Tarod   N       expulsion;dismissal;kicking out
@@ -757,16 +720,12 @@ TrAd    TirAd   N       pursuit;chase
 mTArd   muTArad NapAt   expulsion;pursuit;chase
 ;; {iT~irAd_1
 <TrAd   {iT~irAd        N/At    continuity;uniformity
-ATrAd   {iT~irAd        N/At    continuity;uniformity
 ;; {iT~irAdiy~_1
 <TrAdy  {iT~irAdiy~     N-ap    continuous;regular     <pos>{iT~irAdiy~/ADJ</pos>
-ATrAdy  {iT~irAdiy~     N-ap    continuous;regular     <pos>{iT~irAdiy~/ADJ</pos>
 ;; {isotiTorAd_1
 <stTrAd {isotiTorAd     N/At    digression;excursus
-AstTrAd {isotiTorAd     N/At    digression;excursus
 ;; {isotiTorAdiy~_1
 <stTrAdy        {isotiTorAdiy~  N-ap    digression;excursus     <pos>{isotiTorAdiy~/ADJ</pos>
-AstTrAdy        {isotiTorAdiy~  N-ap    digression;excursus     <pos>{isotiTorAdiy~/ADJ</pos>
 ;; TArid_1
 TArd    TArid   Nall    expelling;repelling
 ;; maToruwd_1
@@ -793,7 +752,6 @@ Trzy    Taroziy~        N-ap    fashion     <pos>Taroziy~/ADJ</pos>
 TrAz    TirAz   N/At    model;type;calibre
 Trz     Turuz   N       models;types
 >Trz    >aToriz Nap     models;types
-ATrz    >aToriz Nap     models;types
 ;; taToriyz_1
 tTryz   taToriyz        N/At    embroidery
 ;; muTar~az_1
@@ -803,7 +761,6 @@ mTrz    muTar~az        N-ap    embroidered     <pos>muTar~az/ADJ</pos>
 ;; Tiros_1
 Trs     Tiros   Ndu     sheet of paper
 >TrAs   >aTorAs N       sheets of paper
-ATrAs   >aTorAs N       sheets of paper
 Trws    Turuws  N       sheets of paper
 ;
 ;--- Tr$
@@ -832,14 +789,12 @@ Tr$     Turo$   Nap     deafness
 Tr$y    Turo$iy~        N-ap    pickled     <pos>Turo$iy~/ADJ</pos>
 ;; >aTora$_1
 >Tr$    >aTora$ Nel     deaf
-ATr$    >aTora$ Nel     deaf
 Tr$A'   Taro$A' N0_Nh   deaf
 Tr$A&   Taro$A& Nh      deaf
 Tr$A}   Taro$A} Nhy     deaf
 Tr$     Turo$   N       deaf
 ;; >aTora$_2
 >Tr$    >aTora$ N0      Atrash
-ATr$    >aTora$ N0      Atrash
 ;; Taro$A_1
 Tr$A    Taro$A  N0      Tarsha
 ;; muTar~i$_1
@@ -901,12 +856,10 @@ tTrf    taTar~af        PV_intr be an extremist;be radical
 tTrf    taTar~af        IV_intr be an extremist;be radical
 ;; {isotaToraf_1
 <stTrf  {isotaToraf     PV      deem unusual;be unique
-AstTrf  {isotaToraf     PV      deem unusual;be unique
 stTrf   sotaTorif       IV      deem unusual;be unique
 ;; Taraf_1
 Trf     Taraf   Ndu     party;side
 >TrAf   >aTorAf N       parties;sides
-ATrAf   >aTorAf N       parties;sides
 ;; Tarafiy~_1
 Trfy    Tarafiy~        N-ap    extreme     <pos>Tarafiy~/ADJ</pos>
 ;; Tarofap_1
@@ -930,10 +883,8 @@ TrA}f   TarA}if Ndip    rarities;oddities
 TrAf    TarAf   Nap     novelty;originality
 ;; >aToraf_1
 >Trf    >aToraf Nel     more/most curious
-ATrf    >aToraf Nel     more/most curious
 ;; >uToruwfap_1
 >Trwf   >uToruwf        Napdu   masterpiece
-ATrwf   >uToruwf        Napdu   masterpiece
 ;; miToraf_1
 mTrf    miToraf Ndu     shawl
 mTrf    muToraf N       shawl
@@ -956,7 +907,6 @@ Trq     Tar~aq  PV      hammer
 Trq     Tar~iq  IV_yu   hammer
 ;; >aToraq_1
 >Trq    >aToraq PV      bow
-ATrq    >aToraq PV      bow
 Trq     Toriq   IV_yu   bow
 Trq     Toraq   IV_Pass_yu      be bowed
 ;; taTar~aq_1
@@ -986,10 +936,8 @@ mTArq   maTAriq Ndip    hammers
 mTrAq   miTorAq N-ap    versatile
 ;; <iTorAqap_1
 <TrAq   <iTorAq NapAt   bowing of the head
-ATrAq   <iTorAq NapAt   bowing of the head
 ;; {isotiTorAq_1
 <stTrAq {isotiTorAq     N/At    transit permission
-AstTrAq {isotiTorAq     N/At    transit permission
 ;; TAriq_1
 TArq    TAriq   N0      Tariq
 ;; TAriq_2
@@ -1049,13 +997,9 @@ TrY     Tar~aY  IV_0_Pass_yu    be tenderized;be freshened
 Try     Tar~ay  IV_Ann_Pass_yu  be tenderized;be freshened
 ;; >aToraY_1
 >TrY    >aToraY PV_0    flatter;praise
-ATrY    >aToraY PV_0    flatter;praise
 >TrA    >aTorA  PV_h    flatter;praise
-ATrA    >aTorA  PV_h    flatter;praise
 >Try    >aToray PV_Atn  flatter;praise
-ATry    >aToray PV_Atn  flatter;praise
 >Tr     >aTor   PV_ttAw flatter;praise
-ATr     >aTor   PV_ttAw flatter;praise
 Try     Toriy   IV_0hAnn_yu     flatter;praise
 Tr      Tor     IV_0hwnyn_yu    flatter;praise
 TrY     ToraY   IV_0_Pass_yu    be flattered;be praised
@@ -1067,13 +1011,9 @@ TrAw    TarAw   Nap     freshness;tenderness
 ; see also under --- TrA
 ;; <iTorA'_2
 <TrA'   <iTorA' N0_Nh   praise;flattery
-ATrA'   <iTorA' N0_Nh   praise;flattery
 <TrA&   <iTorA& Nh      praise;flattery
-ATrA&   <iTorA& Nh      praise;flattery
 <TrA}   <iTorA} Nhy     praise;flattery
-ATrA}   <iTorA} Nhy     praise;flattery
 <TrA'   <iTorA' NAt     praise;flattery
-ATrA'   <iTorA' NAt     praise;flattery
 ;; muToriy_1
 mTry    muToriy N0F_Nh  flattering     <pos>muToriy/ADJ</pos>
 mTr     muTor   NK      flattering
@@ -1083,7 +1023,6 @@ mTry    muToriy NapAt   flattering
 ;
 ;; <iToriyap_1
 <Try    <iToriy Nap     vermicelli
-ATry    <iToriy Nap     vermicelli
 ;
 ;--- Trwd
 ;; TirowAdap_1
@@ -1139,7 +1078,6 @@ TEm     TaE~am  PV      inlay
 TEm     TaE~im  IV_yu   inlay
 ;; >aToEam_1
 >TEm    >aToEam PV      feed
-ATEm    >aToEam PV      feed
 TEm     ToEim   IV_yu   feed
 TEm     ToEam   IV_Pass_yu      be fed
 ;; taTaE~am_1
@@ -1147,7 +1085,6 @@ tTEm    taTaE~am        PV      taste
 tTEm    taTaE~am        IV      taste
 ;; {isotaToEam_1
 <stTEm  {isotaToEam     PV      ask for food
-AstTEm  {isotaToEam     PV      ask for food
 stTEm   sotaToEim       IV      ask for food
 ;; TaEom_1
 TEm     TaEom   N       taste;food
@@ -1163,7 +1100,6 @@ TEm     TuEom   N0      Tu'ma;Toma
 ;; TaEAm_1
 TEAm    TaEAm   N       food
 >TEm    >aToEim Nap     food
-ATEm    >aToEim Nap     food
 ;; maToEam_1
 mTEm    maToEam Ndu     restaurant
 mTAEm   maTAEim Ndip    restaurants
@@ -1175,7 +1111,6 @@ mTEm    muTaE~am        Nall    encrusted
 mTEm    muTaE~am        NAt     incrustations
 ;; <iToEAm_1
 <TEAm   <iToEAm N/At    feeding
-ATEAm   <iToEAm N/At    feeding
 ;; maToEuwm_1
 mTEwm   maToEuwm        Nall    tasted;known     <pos>maToEuwm/ADJ</pos>
 ;
@@ -1275,20 +1210,14 @@ Tf&     Tofa&   IV_wn   die out;be extinguished
 Tf}     Tofa}   IV_yn   die out;be extinguished
 ;; >aTofa>_1
 >Tf>    >aTofa> PV->    put out;extinguish
-ATf>    >aTofa> PV->    put out;extinguish
 >Tf|    >aTofa| PV-|    put out;extinguish
-ATf|    >aTofa| PV-|    put out;extinguish
 >Tf&    >aTofa& PV_w    put out;extinguish
-ATf&    >aTofa& PV_w    put out;extinguish
 Tf}     Tofi}   IV_yu   put out;extinguish
 Tf>     Tofa>   IV_Pass_yu      be extinguished
 ;; {inoTafa>_1
 <nTf>   {inoTafa>       PV->    die out;be extinguished
-AnTf>   {inoTafa>       PV->    die out;be extinguished
 <nTf|   {inoTafa|       PV-|    die out;be extinguished
-AnTf|   {inoTafa|       PV-|    die out;be extinguished
 <nTf&   {inoTafa&       PV_w    die out;be extinguished
-AnTf&   {inoTafa&       PV_w    die out;be extinguished
 nTf}    noTafi} IV      die out;be extinguished
 ;; Taf~Ay_1
 TfAy    Taf~Ay  NapAt   extinguisher
@@ -1297,20 +1226,13 @@ mTf>    miTofa> NapAt   fire extinguisher
 mTAf}   maTAfi} Ndip    fire fighters
 ;; <iTofA'_1
 <TfA'   <iTofA' N0_Nh   extinguishing;fire fighting
-ATfA'   <iTofA' N0_Nh   extinguishing;fire fighting
 <TfA&   <iTofA& Nh      extinguishing;fire fighting
-ATfA&   <iTofA& Nh      extinguishing;fire fighting
 <TfA}   <iTofA} Nhy     extinguishing;fire fighting
-ATfA}   <iTofA} Nhy     extinguishing;fire fighting
 <TfA'   <iTofA' NAn_Nayn        extinguishing;fire fighting
-ATfA'   <iTofA' NAn_Nayn        extinguishing;fire fighting
 <TfA}   <iTofA} Nayn    extinguishing;fire fighting
-ATfA}   <iTofA} Nayn    extinguishing;fire fighting
 <TfA'   <iTofA' NAt     extinguishing;fire fighting
-ATfA'   <iTofA' NAt     extinguishing;fire fighting
 ;; <iTofA}iy~_1
 <TfA}y  <iTofA}iy~      Nall    fire fighting;extinguishing     <pos><iTofA}iy~/ADJ</pos>
-ATfA}y  <iTofA}iy~      Nall    fire fighting;extinguishing     <pos><iTofA}iy~/ADJ</pos>
 ;; muTofi}_1
 mTf}    muTofi} Nall    fire extinguisher
 ;; muTofa>_1
@@ -1331,7 +1253,6 @@ TfH     Taf~aH  PV      make overflow;overfill
 TfH     Taf~iH  IV_yu   make overflow;overfill
 ;; >aTofaH_1
 >TfH    >aTofaH PV      make overflow;overfill
-ATfH    >aTofaH PV      make overflow;overfill
 TfH     TofiH   IV_yu   make overflow;overfill
 TfH     TofaH   IV_Pass_yu      be overfilled
 ;; TufuwH_1
@@ -1355,7 +1276,6 @@ mTfH    miTofaH Nap     skimmer;ladle
 tTfyH   taTofiyH        N/At    overfilling
 ;; <iTofAH_1
 <TfAH   <iTofAH N/At    overfilling
-ATfAH   <iTofAH N/At    overfilling
 ;; TAfiH_1
 TAfH    TAfiH   Nall    overflowing;replete     <pos>TAfiH/ADJ</pos>
 ;
@@ -1400,7 +1320,6 @@ tTfl    taTaf~al        IV_intr be parasitic;sponge off of
 Tfl     Tifol   Ndu     child;boy
 Tfl     Tifol   Napdu   child;girl
 >TfAl   >aTofAl N       children;infants
-ATfAl   >aTofAl N       children;infants
 ;; Tifoliy~_1
 Tfly    Tifoliy~        N-ap    infant;infantile     <pos>Tifoliy~/ADJ</pos>
 ;; Tafoliy~_1
@@ -1501,12 +1420,10 @@ Tqm     Taqom   Ndu     collection;series;set
 Tqwm    Tuquwm  N       series;sets
 Tqwm    Tuquwm  Nap     series;sets
 >Tqm    >aToqum N       series;sets
-ATqm    >aToqum N       series;sets
 ;; TAqim_1
 TAqm    TAqim   Ndu     crew
 TwAqm   TawAqim Ndip    crew
 >Tqm    >aToqum N       crew
-ATqm    >aToqum N       crew
 ;; taToqiym_1
 tTqym   taToqiym        N/At    harnessing;bridling
 ;
@@ -1524,9 +1441,7 @@ Tl      Tul~    IV_V    sprinkle
 Tll     Tolul   IV_C    sprinkle
 ;; >aTal~_1
 >Tl     >aTal~  PV_V    overlook;face;look out
-ATl     >aTal~  PV_V    overlook;face;look out
 >Tll    >aTolal PV_C    overlook;face;look out
-ATll    >aTolal PV_C    overlook;face;look out
 Tl      Til~    IV_V_yu overlook;face;look out
 Tll     Tolil   IV_C_yu overlook;face;look out
 Tl      Tal~    IV_V_Pass_yu    be viewed;be looked over
@@ -1538,11 +1453,9 @@ TlAl    TalAl   N0      Talal;Tilal
 ;; Talal_1
 Tll     Talal   N       remains;ruins
 >TlAl   >aTolAl N       ruins;remains
-ATlAl   >aTolAl N       ruins;remains
 Tlwl    Tuluwl  N       ruins;remains
 ;; <iTolAl_1
 <TlAl   <iTolAl N/At    overlooking;facing
-ATlAl   <iTolAl N/At    overlooking;facing
 ;; maTal~_1
 mTl     maTal~  N       overhang;lookout point
 mTAl    maTAl~  Ndip    overhangs;lookout points
@@ -1643,7 +1556,6 @@ Tls     Talos   N       effacement;obliteration
 ;; Tilos_1
 Tls     Tilos   N-ap    effaced;obliterated
 >TlAs   >aTolAs N       effaced;obliterated
-ATlAs   >aTolAs N       effaced;obliterated
 ; ATls: see alphabetically
 ;; TalAs_1
 TlAs    TalAs   Nprop   Tlas
@@ -1666,7 +1578,6 @@ TAlE    TAlaE   PV      examine;inspect
 TAlE    TAliE   IV_yu   examine;inspect
 ;; >aTolaE_1
 >TlE    >aTolaE PV      instruct;disclose;inform
-ATlE    >aTolaE PV      instruct;disclose;inform
 TlE     ToliE   IV_yu   instruct;disclose;inform
 TlE     TolaE   IV_Pass_yu      be instructed;be disclosed;be informed
 ;; taTal~aE_1
@@ -1674,11 +1585,9 @@ tTlE    taTal~aE        PV      aspire;look (forward) to
 tTlE    taTal~aE        IV      aspire;look (forward) to
 ;; {iT~alaE_1
 <TlE    {iT~alaE        PV      examine;study
-ATlE    {iT~alaE        PV      examine;study
 TlE     T~aliE  IV      examine;study
 ;; {isotaTolaE_1
 <stTlE  {isotaTolaE     PV      reconnoiter;inquire
-AstTlE  {isotaTolaE     PV      reconnoiter;inquire
 stTlE   sotaToliE       IV      reconnoiter;inquire
 ;; TaloEap_1
 TlE     TaloE   Nap     appearance;guise
@@ -1705,13 +1614,10 @@ tTlE    taTal~uE        N/At    endeavor
 tTlE    taTal~uE        NAt     aspirations;hopes
 ;; {iT~ilAE_1
 <TlAE   {iT~ilAE        N/At    examination;inspection;knowledge
-ATlAE   {iT~ilAE        N/At    examination;inspection;knowledge
 ;; {isotiTolAE_1
 <stTlAE {isotiTolAE     N/At    reconnaissance;investigation
-AstTlAE {isotiTolAE     N/At    reconnaissance;investigation
 ;; {isotiTolAEiy~_1
 <stTlAEy        {isotiTolAEiy~  Nall    reconnaissance     <pos>{isotiTolAEiy~/ADJ</pos>
-AstTlAEy        {isotiTolAEiy~  Nall    reconnaissance     <pos>{isotiTolAEiy~/ADJ</pos>
 ;; TAliE_1
 TAlE    TAliE   N/ap    rising;ascending     <pos>TAliE/ADJ</pos>
 TwAlE   TawAliE Ndip    rising;ascending
@@ -1736,14 +1642,11 @@ Tlq     Tal~aq  PV      divorce
 Tlq     Tal~iq  IV_yu   divorce
 ;; >aTolaq_1
 >Tlq    >aTolaq PV      release;fire
-ATlq    >aTolaq PV      release;fire
 Tlq     Toliq   IV_yu   release;fire
 >Tlq    >uToliq PV_Pass be released;be fired
-ATlq    >uToliq PV_Pass be released;be fired
 Tlq     Tolaq   IV_Pass_yu      be released;be fired
 ;; {inoTalaq_1
 <nTlq   {inoTalaq       PV      take off;be sent out
-AnTlq   {inoTalaq       PV      take off;be sent out
 nTlq    noTaliq IV      take off;be sent out
 ;; Taloq_1
 Tlq     Taloq   N       talc
@@ -1754,7 +1657,6 @@ TlAq    TalAq   Nap     facility;ease
 ;; Talaq_1
 Tlq     Talaq   N       firing
 >TlAq   >aTolAq N       firing
-ATlAq   >aTolAq N       firing
 ;; Talaqap_1
 Tlq     Talaq   NapAt   shot
 ;; Taliyq_1
@@ -1769,24 +1671,18 @@ Tlwq    Taluwq  Nap     stallion
 TlA}q   TalA}iq Ndip    stallions
 ;; <iTolAq_1
 <TlAq   <iTolAq N/At    release
-ATlAq   <iTolAq N/At    release
 ;; <iTolAq_2
 <TlAq   <iTolAq N/At    firing
-ATlAq   <iTolAq N/At    firing
 ;; <iTolAqAF_1
 <TlAq   <iTolAq NF      absolutely     <pos><iTolAq/ADV</pos>
-ATlAq   <iTolAq NF      absolutely     <pos><iTolAq/ADV</pos>
 ;; taTal~uq_1
 tTlq    taTal~uq        N/At    cheerfulness
 ;; {inoTilAq_1
 <nTlAq  {inoTilAq       N/At    departure
-AnTlAq  {inoTilAq       N/At    departure
 ;; {inoTilAqAF_1
 <nTlAq  {inoTilAq       NF      proceeding (from);on the basis (of)     <pos>{inoTilAq/ADV</pos>
-AnTlAq  {inoTilAq       NF      proceeding (from);on the basis (of)     <pos>{inoTilAq/ADV</pos>
 ;; {inoTilAqap_1
 <nTlAq  {inoTilAq       Nap     outset;launching
-AnTlAq  {inoTilAq       Nap     outset;launching
 ;; TAliq_1
 TAlq    TAliq   N       divorced     <pos>TAliq/ADJ</pos>
 ;; muTolaq_1
@@ -1832,13 +1728,9 @@ Tl      Tol     IV_0hwnyn       paint
 TlY     TolaY   IV_0    paint
 ;; {inoTalaY_1
 <nTlY   {inoTalaY       PV_0    be deceived
-AnTlY   {inoTalaY       PV_0    be deceived
 <nTlA   {inoTalA        PV_h    be deceived
-AnTlA   {inoTalA        PV_h    be deceived
 <nTly   {inoTalay       PV_Atn  be deceived
-AnTly   {inoTalay       PV_Atn  be deceived
 <nTl    {inoTal PV_ttAw_intr    be deceived
-AnTl    {inoTal PV_ttAw_intr    be deceived
 nTly    noTaliy IV_0hAnn        be deceived
 nTl     noTal   IV_0hwnyn       be deceived
 nTlY    noTalaY IV_0_Pass_yu    be deceived
@@ -1874,9 +1766,7 @@ Tm      Tum~    IV_V    inundate;engulf
 Tmm     Tomum   IV_C    inundate;engulf
 ;; {inoTam~_1
 <nTm    {inoTam~        PV_V_intr       be inundated;be engulfed
-AnTm    {inoTam~        PV_V_intr       be inundated;be engulfed
 <nTmm   {inoTamam       PV_C_intr       be inundated;be engulfed
-AnTmm   {inoTamam       PV_C_intr       be inundated;be engulfed
 nTm     noTam~  IV_V_intr       be inundated;be engulfed
 nTmm    noTamim IV_C_intr       be inundated;be engulfed
 ;; Tam~_1
@@ -1897,9 +1787,7 @@ tTm>n   taTamo>an       PV-n_intr       be pacified;be assuaged
 tTm>n   taTamo>an       IV-n_intr       be pacified;be assuaged
 ;; {iToma>an~_1
 <Tm>n   {iToma>an~      PV_V_intr       be calm;be reassured
-ATm>n   {iToma>an~      PV_V_intr       be calm;be reassured
 <Tm>nn  {iToma>onan     PV_Cn_intr      be calm;be reassured
-ATm>nn  {iToma>onan     PV_Cn_intr      be calm;be reassured
 Tm}n    Toma}in~        IV_V_intr       be calm;be reassured
 Tm>nn   Toma>onin       IV_Cn_intr      be calm;be reassured
 ;; Tamo>anap_1
@@ -1910,7 +1798,6 @@ Tm>nyn  Tumo>aniyn      Nap     calm;tranquillity
 Tm>nyny Tumo>aniyniy~   N-ap    calming;tranquilizing     <pos>Tumo>aniyniy~/ADJ</pos>
 ;; {iTomi}onAn_1
 <Tm}nAn {iTomi}onAn     N/At    tranquillity;serenity
-ATm}nAn {iTomi}onAn     N/At    tranquillity;serenity
 ;; muToma}in~_1
 mTm}n   muToma}in~      Nall    calm;at ease     <pos>muToma}in~/ADJ</pos>
 ;
@@ -1955,7 +1842,6 @@ Tmr     Tamor   N       burial
 ;; Timor_1
 Tmr     Timor   N       tatters
 >TmAr   >aTomAr N       tatters
-ATmAr   >aTomAr N       tatters
 ;; Timir~_1
 Tmr     Timir~  NduAt   race horse
 ;; miTomar_1
@@ -1981,13 +1867,11 @@ Tms     Tamas   PV      eradicate;obliterate
 Tms     Tomis   IV      eradicate;obliterate
 ;; {inoTamas_1
 <nTms   {inoTamas       PV_intr be eradicated;be obliterated
-AnTms   {inoTamas       PV_intr be eradicated;be obliterated
 nTms    noTamis IV_intr be eradicated;be obliterated
 ;; Tamos_1
 Tms     Tamos   N       eradication;obliteration
 ;; {inoTimAs_1
 <nTmAs  {inoTimAs       N/At    disappearance
-AnTmAs  {inoTimAs       N/At    disappearance
 ;; TAmis_1
 TAms    TAmis   Nall    extinct;incomprehensible     <pos>TAmis/ADJ</pos>
 ;
@@ -2012,13 +1896,11 @@ TmE     Tam~aE  PV      entice
 TmE     Tam~iE  IV_yu   entice
 ;; >aTomaE_1
 >TmE    >aTomaE PV      entice
-ATmE    >aTomaE PV      entice
 TmE     TomiE   IV_yu   entice
 TmE     TomaE   IV_Pass_yu      be enticed
 ;; TamaE_1
 TmE     TamaE   N       greed;ambition
 >TmAE   >aTomAE N       ambitions
-ATmAE   >aTomAE N       ambitions
 ;; Tam~AE_1
 TmAE    Tam~AE  Nall    greedy     <pos>Tam~AE/ADJ</pos>
 ;; TamAEiy~ap_1
@@ -2087,21 +1969,17 @@ Tnn     Tan~an  PV-n    resound
 Tnn     Tan~in  IV-n_yu resound
 ;; >aTan~_1
 >Tn     >aTan~  PV_V    resound
-ATn     >aTan~  PV_V    resound
 >Tnn    >aTonan PV_Cn   resound
-ATnn    >aTonan PV_Cn   resound
 Tn      Tin~    IV_V_yu resound
 Tnn     Tonin   IV_C_yu resound
 ;; Tun~_1
 Tn      Tun~    Ndu     ton
 >TnAn   >aTonAn N       tons
-ATnAn   >aTonAn N       tons
 ;; Taniyn_1
 Tnyn    Taniyn  N       ringing
 ;; Tan~An_1
 TnAn    Tan~An  Nall    resounding;ringing
 <TnAn   <iTonAn N/At    resounding;ringing
-ATnAn   <iTonAn N/At    resounding;ringing
 ;
 ;--- Tnb
 ;; Tan~ab_1
@@ -2109,21 +1987,17 @@ Tnb     Tan~ab  PV      abide
 Tnb     Tan~ib  IV_yu   abide
 ;; >aTonab_1
 >Tnb    >aTonab PV      exaggerate
-ATnb    >aTonab PV      exaggerate
 Tnb     Tonib   IV_yu   exaggerate
 Tnb     Tonab   IV_Pass_yu      be exaggerated
 ;; Tunub_1
 Tnb     Tunub   N       tendon;rope
 >TnAb   >aTonAb N       tendons;ropes
-ATnAb   >aTonAb N       tendons;ropes
 ;; Tunubiy~_1
 Tnby    Tunubiy~        N-ap    tendinous     <pos>Tunubiy~/ADJ</pos>
 ;; <iTonAb_1
 <TnAb   <iTonAb N/At    exaggeration
-ATnAb   <iTonAb N/At    exaggeration
 ;; <iTonAbiy~_1
 <TnAby  <iTonAbiy~      N-ap    exaggerated     <pos><iTonAbiy~/ADJ</pos>
-ATnAby  <iTonAbiy~      N-ap    exaggerated     <pos><iTonAbiy~/ADJ</pos>
 ;; muTonib_1
 mTnb    muTonib Nall    exaggerating     <pos>muTonib/ADJ</pos>
 ;; muTonab_1
@@ -2176,7 +2050,6 @@ TnTn    TanoTan Nap     ringing;resounding
 Tnf     Tunuf   Ndu     summit;ledge
 Tnf     Tanof   Ndu     summit;ledge
 >TnAf   >aTonAf N       summits;ledges
-ATnAf   >aTonAf N       summits;ledges
 Tnwf    Tunuwf  N       summits;ledges
 ;
 ;--- Tnfs
@@ -2222,7 +2095,6 @@ TAhr    TAhir   N0      Tahir
 ;; TAhir_2
 TAhr    TAhir   N/ap    clean;pure;chaste
 >ThAr   >aTohAr N       clean;pure;chaste
-AThAr   >aTohAr N       clean;pure;chaste
 ;; muTah~ir_1
 mThr    muTah~ir        NduAt   detergent;disinfectant
 ;; muTah~ar_1
@@ -2348,9 +2220,7 @@ TwH     Taw~aH  PV      mislead
 TwH     Taw~iH  IV_yu   mislead
 ;; >aTAH_1
 >TAH    >aTAH   PV_V    overthrow;topple
-ATAH    >aTAH   PV_V    overthrow;topple
 >TH     >aTaH   PV_C    overthrow;topple
-ATH     >aTaH   PV_C    overthrow;topple
 TyH     TiyH    IV_V_yu overthrow;topple
 TH      TiH     IV_C_yu overthrow;topple
 TAH     TAH     IV_V_Pass_yu    be overthrown;be toppled
@@ -2360,7 +2230,6 @@ tTwH    taTaw~aH        PV      fall;be destroyed
 tTwH    taTaw~aH        IV      fall;be destroyed
 ;; <iTAHap_1
 <TAH    <iTAH   NapAt   overthrow;topple
-ATAH    <iTAH   NapAt   overthrow;topple
 ;; TA}iH_1
 TA}H    TA}iH   N-ap    lost;stray;loose     <pos>TA}iH/ADJ</pos>
 ;; TA}iHap_1
@@ -2372,15 +2241,12 @@ mTwH    muTaw~iH        NapAt   adventure
 ;--- Twd
 ;; {inoTAd_1
 <nTAd   {inoTAd PV_V    rise;soar
-AnTAd   {inoTAd PV_V    rise;soar
 <nTd    {inoTad PV_C    rise;soar
-AnTd    {inoTad PV_C    rise;soar
 nTAd    noTAd   IV_V    rise;soar
 nTd     noTad   IV_C    rise;soar
 ;; Tawod_1
 Twd     Tawod   Ndu     mountain
 >TwAd   >aTowAd N       mountains
-ATwAd   >aTowAd N       mountains
 ;; munoTAd_1
 mnTAd   munoTAd Ndu     blimp;dirigible
 mnATyd  manATiyd        Ndip    blimps;dirigibles
@@ -2397,7 +2263,6 @@ tTwr    taTaw~ar        IV      develop;advance
 ;; Tawor_1
 Twr     Tawor   Ndu     stage;phase;period
 >TwAr   >aTowAr N       stages;phases;periods
-ATwAr   >aTowAr N       stages;phases;periods
 ;; Tawor_2
 Twr     Tawor   N       mountain
 ;; TawAr_1
@@ -2464,9 +2329,7 @@ TAwE    TAwaE   PV      comply with;obey
 TAwE    TAwiE   IV_yu   comply with;obey
 ;; >aTAE_1
 >TAE    >aTAE   PV_V    obey
-ATAE    >aTAE   PV_V    obey
 >TE     >aTaE   PV_C    obey
-ATE     >aTaE   PV_C    obey
 TyE     TiyE    IV_V_yu obey
 TE      TiE     IV_C_yu obey
 TAE     TAE     IV_V_Pass_yu    be obeyed
@@ -2476,16 +2339,12 @@ tTwE    taTaw~aE        PV      volunteer
 tTwE    taTaw~aE        IV      volunteer
 ;; {inoTAE_1
 <nTAE   {inoTAE PV_V    obey
-AnTAE   {inoTAE PV_V    obey
 <nTE    {inoTaE PV_C    obey
-AnTE    {inoTaE PV_C    obey
 nTAE    noTAE   IV_V    obey
 nTE     noTaE   IV_C    obey
 ;; {isotaTAE_1
 <stTAE  {isotaTAE       PV_V_intr       be able;be capable
-AstTAE  {isotaTAE       PV_V_intr       be able;be capable
 <stTE   {isotaTaE       PV_C_intr       be able;be capable
-AstTE   {isotaTaE       PV_C_intr       be able;be capable
 stTyE   sotaTiyE        IV_V_intr       be able;be capable
 stTAE   sotaTAE IV_V_intr       be possible;be capable
 stTE    sotaTiE IV_C_intr       be able;be capable
@@ -2508,7 +2367,6 @@ tTwyE   taTowiyE        N/At    recruitment;enlisting
 mTAwE   muTAwaE NapAt   compliance;tractability
 ;; <iTAEap_1
 <TAE    <iTAE   NapAt   obedience
-ATAE    <iTAE   NapAt   obedience
 ;; taTaw~uE_1
 tTwE    taTaw~uE        N/At    voluntary
 tTwE    taTaw~uE        NF      voluntarily     <pos>taTaw~uE/ADV</pos>
@@ -2516,7 +2374,6 @@ tTwE    taTaw~uE        NF      voluntarily     <pos>taTaw~uE/ADV</pos>
 tTwEy   taTaw~uEiy~     Nall    voluntary     <pos>taTaw~uEiy~/ADJ</pos>
 ;; {isotiTAEap_1
 <stTAE  {isotiTAE       NapAt   capability;possibility
-AstTAE  {isotiTAE       NapAt   capability;possibility
 ;; TA}iE_1
 TA}E    TA}iE   N/ap    compliant     <pos>TA}iE/ADJ</pos>
 ;; muTaw~iE_1
@@ -2545,9 +2402,7 @@ Twf     Taw~af  PV      circulate;wander about
 Twf     Taw~if  IV_yu   circulate;wander about
 ;; >aTAf_1
 >TAf    >aTAf   PV_V    surround;encircle
-ATAf    >aTAf   PV_V    surround;encircle
 >Tf     >aTaf   PV_C    surround;encircle
-ATf     >aTaf   PV_C    surround;encircle
 Tyf     Tiyf    IV_V_yu surround;encircle
 Tf      Tif     IV_C_yu surround;encircle
 TAf     TAf     IV_V_Pass_yu    be surrounded;be encircled
@@ -2560,7 +2415,6 @@ Twf     Tawof   N       circuit
 ;; Tawof_2
 Twf     Tawof   Ndu     pontoon;raft
 >TwAf   >aTowAf N       pontoons;rafts
-ATwAf   >aTowAf N       pontoons;rafts
 ;; Tawofap_1
 Twf     Tawof   Nap     patrol;round
 ;; TuwfAn_1
@@ -2600,9 +2454,7 @@ Twq     Taw~aq  PV      encircle;surround
 Twq     Taw~iq  IV_yu   encircle;surround
 ;; >aTAq_1
 >TAq    >aTAq   PV_V    tolerate;endure
-ATAq    >aTAq   PV_V    tolerate;endure
 >Tq     >aTaq   PV_C    tolerate;endure
-ATq     >aTaq   PV_C    tolerate;endure
 Tyq     Tiyq    IV_V_yu tolerate;endure
 Tq      Tiq     IV_C_yu tolerate;endure
 TAq     TAq     IV_V_Pass_yu    be tolerated;be endured
@@ -2627,7 +2479,6 @@ TAq     TAq     NapAt   energy;power;potential
 tTwyq   taTowiyq        N/At    encirclement;surrounding
 ;; <iTAqap_1
 <TAq    <iTAq   NapAt   capability
-ATAq    <iTAq   NapAt   capability
 ;; muTaw~aq_1
 mTwq    muTaw~aq        N       ringdove
 ;; muTAq_1
@@ -2653,9 +2504,7 @@ TAwl    TAwal   PV      contend with
 TAwl    TAwil   IV_yu   contend with
 ;; >aTAl_1
 >TAl    >aTAl   PV_V    lengthen
-ATAl    >aTAl   PV_V    lengthen
 >Tl     >aTal   PV_C    lengthen
-ATl     >aTal   PV_C    lengthen
 Tyl     Tiyl    IV_V_yu lengthen
 Tl      Til     IV_C_yu lengthen
 TAl     TAl     IV_V_Pass_yu    be lengthened
@@ -2665,9 +2514,7 @@ tTAwl   taTAwal PV_intr be lengthened;be insolent
 tTAwl   taTAwal IV_intr be lengthened;be insolent
 ;; {isotaTAl_1
 <stTAl  {isotaTAl       PV_V_intr       be lengthened;be insolent
-AstTAl  {isotaTAl       PV_V_intr       be lengthened;be insolent
 <stTl   {isotaTal       PV_C_intr       be lengthened;be insolent
-AstTl   {isotaTal       PV_C_intr       be lengthened;be insolent
 stTyl   sotaTiyl        IV_V_intr       be lengthened;be insolent
 stTl    sotaTil IV_C_intr       be lengthened;be insolent
 ;; TAlamA_1
@@ -2678,7 +2525,6 @@ Twl     Tawol   N       power
 ;; Tuwl_1
 Twl     Tuwl    N       length;height
 >TwAl   >aTowAl N       lengths;heights
-ATwAl   >aTowAl N       lengths;heights
 ;; Tuwliy~_1
 Twly    Tuwliy~ N-ap    linear;longitudinal     <pos>Tuwliy~/ADJ</pos>
 ;; TuwlAniy~_1
@@ -2702,7 +2548,6 @@ Twyl    Tawiyl  NF      for a long time;at length;extensively     <pos>Tawiyl/AD
 TwAl    TuwAl   NapAt   stable
 ;; >aTowal_1
 >Twl    >aTowal Nel     taller/tallest;longer/longest
-ATwl    >aTowal Nel     taller/tallest;longer/longest
 TwlY    TuwlaY  N0      taller/tallest;longer/longest
 Twly    Tuwlay  NAn_Nayn        taller/tallest;longer/longest
 Twly    Tuwlay  NAt     taller/tallest;longer/longest
@@ -2710,12 +2555,10 @@ Twly    Tuwlay  NAt     taller/tallest;longer/longest
 tTwyl   taTowiyl        N/At    lengthening;prolongation
 ;; <iTAlap_1
 <TAl    <iTAl   NapAt   lengthening;prolongation
-ATAl    <iTAl   NapAt   lengthening;prolongation
 ;; taTAwul_1
 tTAwl   taTAwul N/At    insolence
 ;; {isotiTAlap_1
 <stTAl  {isotiTAl       NapAt   arrogance
-AstTAl  {isotiTAl       NapAt   arrogance
 ;; TA}il_1
 TA}l    TA}il   N-ap    immense;huge     <pos>TA}il/ADJ</pos>
 ;; TA}ilap_1
@@ -2772,13 +2615,9 @@ tTwy    taTaw~ay        IV_Ann  coil
 tTw     taTaw~  IV_0hwnyn       coil
 ;; {inoTawaY_1
 <nTwY   {inoTawaY       PV_0    contain;include;harbor
-AnTwY   {inoTawaY       PV_0    contain;include;harbor
 <nTwA   {inoTawA        PV_h    contain;include;harbor
-AnTwA   {inoTawA        PV_h    contain;include;harbor
 <nTwy   {inoTaway       PV_Atn  contain;include;harbor
-AnTwy   {inoTaway       PV_Atn  contain;include;harbor
 <nTw    {inoTaw PV_ttAw contain;include;harbor
-AnTw    {inoTaw PV_ttAw contain;include;harbor
 nTwy    noTawiy IV_0hAnn        contain;include;harbor
 nTw     noTaw   IV_0hwnyn       contain;include;harbor
 nTwY    noTawaY IV_0_Pass_yu    contain;include;harbor
@@ -2792,11 +2631,8 @@ TwAyA   TawAyA  N0_Nhy  interior;insides (of)
 ;; Tay~_1
 Ty      Tay~    N       concealment;hiding
 >TwA'   >aTowA' N0_Nh   inside
-ATwA'   >aTowA' N0_Nh   inside
 >TwA&   >aTowA& Nh      inside
-ATwA&   >aTowA& Nh      inside
 >TwA}   >aTowA} Nhy     inside
-ATwA}   >aTowA} Nhy     inside
 ;; Tay~ap_1
 Ty      Tay~    NapAt   fold
 Ty      Tay~    NAt     interior;insides (of)
@@ -2812,20 +2648,13 @@ mTAw    maTAw   NK      inside;within
 mTwA    miTowA  Napdu   pocket knife
 ;; {inoTiwA'_1
 <nTwA'  {inoTiwA'       N0_Nh   withdrawal
-AnTwA'  {inoTiwA'       N0_Nh   withdrawal
 <nTwA&  {inoTiwA&       Nh      withdrawal
-AnTwA&  {inoTiwA&       Nh      withdrawal
 <nTwA}  {inoTiwA}       Nhy     withdrawal
-AnTwA}  {inoTiwA}       Nhy     withdrawal
 <nTwA'  {inoTiwA'       NAn_Nayn        withdrawals
-AnTwA'  {inoTiwA'       NAn_Nayn        withdrawals
 <nTwA}  {inoTiwA}       Nayn    withdrawals
-AnTwA}  {inoTiwA}       Nayn    withdrawals
 <nTwA'  {inoTiwA'       NAt     withdrawals
-AnTwA'  {inoTiwA'       NAt     withdrawals
 ;; {inoTiwA}iy~_1
 <nTwA}y {inoTiwA}iy~    Nall    withdrawal;introverted     <pos>{inoTiwA}iy~/ADJ</pos>
-AnTwA}y {inoTiwA}iy~    Nall    withdrawal;introverted     <pos>{inoTiwA}iy~/ADJ</pos>
 ;; TAwiy_1
 TAwy    TAwiy   N0F     starved;emaciated     <pos>TAwiy/ADJ</pos>
 TAw     TAw     NK      starved;emaciated
@@ -2859,9 +2688,7 @@ TAyb    TAyab   PV      banter
 TAyb    TAyib   IV_yu   banter
 ;; >aTAb_1
 >TAb    >aTAb   PV_V    make pleasant
-ATAb    >aTAb   PV_V    make pleasant
 >Tb     >aTab   PV_C    make pleasant
-ATb     >aTab   PV_C    make pleasant
 Tyb     Tiyb    IV_V_yu make pleasant
 Tb      Tib     IV_C_yu make pleasant
 TAb     TAb     IV_V_Pass_yu    be made pleasant
@@ -2871,20 +2698,16 @@ tTyb    taTay~ab        PV      better oneself
 tTyb    taTay~ab        IV      better oneself
 ;; {isotaTAb_1
 <stTAb  {isotaTAb       PV_V    appreciate;consider pleasant
-AstTAb  {isotaTAb       PV_V    appreciate;consider pleasant
 <stTb   {isotaTab       PV_C    appreciate;consider pleasant
-AstTb   {isotaTab       PV_C    appreciate;consider pleasant
 stTyb   sotaTiyb        IV_V    appreciate;consider pleasant
 stTb    sotaTib IV_C    appreciate;consider pleasant
 ;; {isotaToyab_1
 <stTyb  {isotaToyab     PV      appreciate;consider pleasant
-AstTyb  {isotaToyab     PV      appreciate;consider pleasant
 stTyb   sotaToyib       IV      appreciate;consider pleasant
 ;; Tiyb_1
 Tyb     Tiyb    N       noble;good
 Tywb    Tuyuwb  N       noble;good
 >TyAb   >aToyAb N       noble;good
-ATyAb   >aToyAb N       noble;good
 ;; Tiybiy~_1
 Tyby    Tiybiy~ N-ap    aromatic     <pos>Tiybiy~/ADJ</pos>
 ;; Tiybiy~_2
@@ -2903,9 +2726,7 @@ TyAb    Tay~Ab  Nall    masseur
 TyAb    Tay~Ab  N0      Tayyab
 ;; >aToyab_1
 >Tyb    >aToyab Nel     better/best
-ATyb    >aToyab Nel     better/best
 >TAyb   >aTAyib Ndip    pleasures;amenities
-ATAyb   >aTAyib Ndip    pleasures;amenities
 ;; maTAyib_1
 mTAyb   maTAyib Ndip    comforts;amenities
 ;; muTAyabap_1
@@ -2951,23 +2772,18 @@ tTAyr   taTAyar PV      fly apart;scatter
 tTAyr   taTAyar IV      fly apart;scatter
 ;; {isotaTAr_1
 <stTAr  {isotaTAr       PV_V    fly apart;scatter;agitate
-AstTAr  {isotaTAr       PV_V    fly apart;scatter;agitate
 <stTr   {isotaTar       PV_C    fly apart;scatter;agitate
-AstTr   {isotaTar       PV_C    fly apart;scatter;agitate
 stTyr   sotaTiyr        IV_V    fly apart;scatter;agitate
 stTr    sotaTir IV_C    fly apart;scatter;agitate
 ;; {usotuTiyr_2
 <stTyr  {usotuTiyr      PV_V_intr       be terrified
-AstTyr  {usotuTiyr      PV_V_intr       be terrified
 <stTr   {usotuTir       PV_C_intr       be terrified
-AstTr   {usotuTir       PV_C_intr       be terrified
 stTAr   sotaTAr IV_V_intr       be terrified
 stTr    sotaTar IV_C_intr       be terrified
 ;; Tayor_1
 Tyr     Tayor   N       bird
 Tywr    Tuyuwr  N       birds
 >TyAr   >aToyAr N       birds
-ATyAr   >aToyAr N       birds
 ;; Tayorap_1
 Tyr     Tayor   Nap     agitation
 ;; Tiyrap_1
@@ -2994,10 +2810,8 @@ mtTyr   mutaTay~ir      Nall    pessimist;superstitious     <pos>mutaTay~ir/ADJ<
 mstTyr  musotaTiyr      N-ap    imminent;scattered     <pos>musotaTiyr/ADJ</pos>
 ;; {isotiTArap_1
 <stTAr  {isotiTAr       Nap     being terrified
-AstTAr  {isotiTAr       Nap     being terrified
 ;; {isotiToyAr_1
 <stTyAr {isotiToyAr     N/At    being terrified
-AstTyAr {isotiToyAr     N/At    being terrified
 ;
 ;; muTayoriy~_1
 mTyry   muTayoriy~      N0      Mutairi
@@ -3018,7 +2832,6 @@ Ty$An   Taya$An N       inconstancy;recklessness
 TyA$    TiyA$   Nap     inconstancy;recklessness
 ;; >aToya$_1
 >Ty$    >aToya$ Nel     reckless;out of control
-ATy$    >aToya$ Nel     reckless;out of control
 ;
 ;--- Tyf
 ;; TAf-i_1
@@ -3032,7 +2845,6 @@ Tyf     Tayof   N       spectrum (light)
 Tyf     Tayof   N       apparition
 Tywf    Tuyuwf  N       apparitions
 >TyAf   >aToyAf N       apparitions
-ATyAf   >aToyAf N       apparitions
 ;; Tayofiy~_1
 Tyfy    Tayofiy~        N-ap    spectral     <pos>Tayofiy~/ADJ</pos>
 Tyfy    Tayofiy~        N-ap    phantom     <pos>Tayofiy~/ADJ</pos>
@@ -3051,7 +2863,6 @@ Tyn     Tay~in  IV-n_yu daub with clay
 ;; Tiyn_1
 Tyn     Tiyn    N       clay
 >TyAn   >aToyAn N       clay
-ATyAn   >aToyAn N       clay
 ;; Tiynap_1
 Tyn     Tiyn    Nap     potter's clay
 ;; Tiyniy~_1

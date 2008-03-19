@@ -32,17 +32,13 @@ Eb&     Eibo&   Nh      load;burden
 Eb}     Eibo}   Nhy     load;burden
 Eb}     Eibo}   N0F     load;burden
 >EbA'   >aEobA' N0_Nh   burdens;loads
-AEbA'   >aEobA' N0_Nh   burdens;loads
 >EbA&   >aEobA& Nh      burdens;loads
-AEbA&   >aEobA& Nh      burdens;loads
 >EbA}   >aEobA} Nhy     burdens;loads
-AEbA}   >aEobA} Nhy     burdens;loads
 ;; EabA'_1
 EbA'    EabA'   N0_Nh   cloak
 EbA&    EabA&   Nh      cloak
 EbA}    EabA}   Nhy     cloak
 >Eb}    >aEobi} Nap     cloaks
-AEb}    >aEobi} Nap     cloaks
 ;; EabAyap_1
 EbAy    EabAy   NapAt   cloak
 EbA'    EabA'   NapAt   cloak
@@ -89,7 +85,6 @@ tEbd    taEab~ad        PV_intr be devoted
 tEbd    taEab~ad        IV_intr be devoted
 ;; {isotaEobad_1
 <stEbd  {isotaEobad     PV      enslave
-AstEbd  {isotaEobad     PV      enslave
 stEbd   sotaEobid       IV      enslave
 ;; Eabod_1
 Ebd     Eabod   N0      Abd
@@ -415,7 +410,6 @@ tEbyd   taEobiyd        N/At    asphalting;enslavement
 tEbd    taEab~ud        N/At    worship;devoutness
 ;; {isotiEobAd_1
 <stEbAd {isotiEobAd     N/At    slavery;enslaving
-AstEbAd {isotiEobAd     N/At    slavery;enslaving
 ;; EAbid_1
 EAbd    EAbid   Nall    worshipping;God-fearing
 EbAd    Eub~Ad  N       worshipping;God-fearing
@@ -447,14 +441,11 @@ Ebr     Eab~ar  PV      express
 Ebr     Eab~ir  IV_yu   express
 ;; {iEotabar_1
 <Etbr   {iEotabar       PV      consider;regard
-AEtbr   {iEotabar       PV      consider;regard
 Etbr    Eotabir IV      consider;regard
 <Etbr   {uEotubir       PV_Pass be considered;be regarded
-AEtbr   {uEotubir       PV_Pass be considered;be regarded
 Etbr    Eotabar IV_Pass_yu      be considered;be regarded
 ;; {isotaEobar_1
 <stEbr  {isotaEobar     PV      weep
-AstEbr  {isotaEobar     PV      weep
 stEbr   sotaEobir       IV      weep
 ;; Eabor_1
 Ebr     Eabor   N       crossing
@@ -492,10 +483,8 @@ tEAbyr  taEAbiyr        Ndip    expressions
 tEbyry  taEobiyriy~     N-ap    expressive;expressionist     <pos>taEobiyriy~/ADJ</pos>
 ;; {iEotibAr_1
 <EtbAr  {iEotibAr       NduAt   consideration;regard
-AEtbAr  {iEotibAr       NduAt   consideration;regard
 ;; {iEotibAriy~_1
 <EtbAry {iEotibAriy~    Nall    consideration;regard     <pos>{iEotibAriy~/ADJ</pos>
-AEtbAry {iEotibAriy~    Nall    consideration;regard     <pos>{iEotibAriy~/ADJ</pos>
 ;; EAbir_1
 EAbr    EAbir   Nall    passing by;traversing     <pos>EAbir/ADJ</pos>
 ;; EAbir_2
@@ -549,7 +538,6 @@ EbT     EabaT   PV      die prematurely
 EbT     EobiT   IV      die prematurely
 ;; {iEotabaT_1
 <EtbT   {iEotabaT       PV      die prematurely
-AEtbT   {iEotabaT       PV      die prematurely
 EtbT    EotabiT IV      die prematurely
 ;; EaboT_1
 EbT     EaboT   N       dying prematurely
@@ -566,19 +554,14 @@ EbAT    EibAT   N       prematurely dead;fresh
 EbT     EubuT   N       prematurely dead;fresh
 ;; {iEotibAT_1
 <EtbAT  {iEotibAT       N/At    premature death
-AEtbAT  {iEotibAT       N/At    premature death
 ;; {iEotibATAF_1
 <EtbAT  {iEotibAT       NF      arbitrarily;fortuitously;unjustly     <pos>{iEotibAT/ADV</pos>
-AEtbAT  {iEotibAT       NF      arbitrarily;fortuitously;unjustly     <pos>{iEotibAT/ADV</pos>
 ;; {iEotibATiy~_1
 <EtbATy {iEotibATiy~    Nall    arbitrary;fortuitous;inquisitorial     <pos>{iEotibATiy~/ADJ</pos>
-AEtbATy {iEotibATiy~    Nall    arbitrary;fortuitous;inquisitorial     <pos>{iEotibATiy~/ADJ</pos>
 ;; {iEotibATiy~AF_1
 <EtbATy {iEotibATiy~    NF      arbitrarily;fortuitously;unjustly     <pos>{iEotibATiy~/ADV</pos>
-AEtbATy {iEotibATiy~    NF      arbitrarily;fortuitously;unjustly     <pos>{iEotibATiy~/ADV</pos>
 ;; {iEotibATiy~ap_1
 <EtbATy {iEotibATiy~    Nap     arbitrariness     <pos>{iEotibATiy~/NOUN</pos>
-AEtbATy {iEotibATiy~    Nap     arbitrariness     <pos>{iEotibATiy~/NOUN</pos>
 ;
 ;--- Ebq
 ;; Eabiq-a_1
@@ -609,7 +592,6 @@ Ebk     Eabak   N       camlet
 ;--- Ebl
 ;; >aEobal-i_1
 >Ebl    >aEobal PV      gain weigh;shed leaves
-AEbl    >aEobal PV      gain weigh;shed leaves
 Ebl     Eobil   IV_yu   gain weigh;shed leaves
 ;; Eabol_1
 Ebl     Eabol   Ndu     plump;chubby
@@ -620,10 +602,8 @@ EbAl    EabAl   N       eglantine
 EbAl    EabAl   Napdu   eglantine
 ;; >aEobal_1
 >Ebl    >aEobal N       granite
-AEbl    >aEobal N       granite
 ;; >aEobaliy~_1
 >Ebly   >aEobaliy~      N-ap    granite     <pos>>aEobaliy~/ADJ</pos>
-AEbly   >aEobaliy~      N-ap    granite     <pos>>aEobaliy~/ADJ</pos>
 ;; muEobil_1
 mEbl    muEobil N-ap    deciduous     <pos>muEobil/ADJ</pos>
 ;
@@ -676,7 +656,6 @@ Etb     Eatob   N       reprimand;censure;criticism
 ;; Eatabap_1
 Etb     Eatab   NapAt   step;stair;threshold
 >EtAb   >aEotAb N       threshold
-AEtAb   >aEotAb N       threshold
 ;; Eutayobiy~_1
 Etyby   Eutayobiy~      N0      Otaibi
 ;; Eat~Abiy~_1
@@ -697,15 +676,12 @@ Etd     Eat~ad  PV      prepare
 Etd     Eat~id  IV_yu   prepare
 ;; >aEotad_1
 >Etd    >aEotad PV      prepare
-AEtd    >aEotad PV      prepare
 Etd     Eotid   IV_yu   prepare
 Etd     Eotad   IV_Pass_yu      be prepared
 ;; EatAd_1
 EtAd    EatAd   N       war material;ammunition
 >Etd    >aEotud N       war material;ammunition
-AEtd    >aEotud N       war material;ammunition
 >Etd    >aEotid Nap     war material;ammunition
-AEtd    >aEotid Nap     war material;ammunition
 ;; Eatiyd_1
 Etyd    Eatiyd  N/ap    prepared     <pos>Eatiyd/ADJ</pos>
 ;; taEotiyd_1
@@ -727,12 +703,10 @@ Etq     Eataq   PV_intr be emancipated
 Etq     Eotiq   IV_intr be emancipated
 ;; >aEotaq_1
 >Etq    >aEotaq PV      emancipate
-AEtq    >aEotaq PV      emancipate
 Etq     Eotiq   IV_yu   emancipate
 Etq     Eotaq   IV_Pass_yu      be emancipated
 ;; {inoEataq_1
 <nEtq   {inoEataq       PV      get rid of
-AnEtq   {inoEataq       PV      get rid of
 nEtq    noEatiq IV      get rid of
 ;; Eitoq_1
 Etq     Eitoq   N       age;vintage
@@ -744,10 +718,8 @@ Etyq    Eatiyq  N-ap    emancipated     <pos>Eatiyq/ADJ</pos>
 EtAq    EatAq   Nap     vintage;age
 ;; <iEotAq_1
 <EtAq   <iEotAq N/At    liberation
-AEtAq   <iEotAq N/At    liberation
 ;; {inoEitAq_1
 <nEtAq  {inoEitAq       N/At    self-liberation
-AnEtAq  {inoEitAq       N/At    self-liberation
 ;; EAtiq_1
 EAtq    EAtiq   Ndu     shoulder
 EwAtq   EawAtiq Ndip    shoulders
@@ -794,7 +766,6 @@ Etm     Eat~am  PV      darken;black out
 Etm     Eat~im  IV_yu   darken;black out
 ;; >aEotam_1
 >Etm    >aEotam PV      darken;black out
-AEtm    >aEotam PV      darken;black out
 Etm     Eotim   IV_yu   darken;black out
 Etm     Eotam   IV_Pass_yu      be darkened;be blacken out
 ;; Eatom_1
@@ -809,7 +780,6 @@ tEtym   taEotiym        N/At    darkening;clouding
 tEtym   taEotiym        N/At    camouflage;black-out
 ;; <iEotAm_1
 <EtAm   <iEotAm N/At    darkening;clouding
-AEtAm   <iEotAm N/At    darkening;clouding
 ;; EAtim_1
 EAtm    EAtim   N-ap    dark;indistinct     <pos>EAtim/ADJ</pos>
 ;; muEotim_1
@@ -857,11 +827,8 @@ Ety     Eutiy~  N       arrogance
 ;; Eatiy~_1
 Ety     Eatiy~  N-ap    arrogant;insolent     <pos>Eatiy~/ADJ</pos>
 >EtA'   >aEotA' N0_Nh   arrogant;insolent
-AEtA'   >aEotA' N0_Nh   arrogant;insolent
 >EtA&   >aEotA& Nh      arrogant;insolent
-AEtA&   >aEotA& Nh      arrogant;insolent
 >EtA}   >aEotA} Nhy     arrogant;insolent
-AEtA}   >aEotA} Nhy     arrogant;insolent
 ;
 ;--- Ev
 ;; Euv~_1
@@ -881,7 +848,6 @@ Evr     Eav~ar  PV      make stumble
 Evr     Eav~ir  IV_yu   make stumble
 ;; >aEovar_1
 >Evr    >aEovar PV      make stumble
-AEvr    >aEovar PV      make stumble
 Evr     Eovir   IV_yu   make stumble
 Evr     Eovar   IV_Pass_yu      be make stumble
 ;; taEav~ar_1
@@ -949,9 +915,7 @@ Ejj     Eaj~aj  PV      swirl
 Ejj     Eaj~ij  IV_yu   swirl
 ;; >aEaj~_1
 >Ej     >aEaj~  PV_V    swirl
-AEj     >aEaj~  PV_V    swirl
 >Ejj    >aEojaj PV_C    swirl
-AEjj    >aEojaj PV_C    swirl
 Ej      Eij~    IV_V_yu swirl
 Ejj     Eojij   IV_C_yu swirl
 Ej      Eaj~    IV_V_Pass_yu    be swirled
@@ -977,24 +941,20 @@ Ejb     Eaj~ab  PV      arouse admiration
 Ejb     Eaj~ib  IV_yu   arouse admiration
 ;; >aEojab_1
 >Ejb    >aEojab PV      delight;please
-AEjb    >aEojab PV      delight;please
 Ejb     Eojib   IV_yu   delight;please
 Ejb     Eojab   IV_Pass_yu      be delighted;be pleased
 ;; >uEojib_2
 >Ejb    >uEojib PV_Pass_yu      admire
-AEjb    >uEojib PV_Pass_yu      admire
 Ejb     Eojab   IV_Pass_yu      admire
 ;; taEaj~ab_1
 tEjb    taEaj~ab        PV_intr be amazed;be astonished
 tEjb    taEaj~ab        IV_intr be amazed;be astonished
 ;; {isotaEojab_1
 <stEjb  {isotaEojab     PV_intr be amazed
-AstEjb  {isotaEojab     PV_intr be amazed
 stEjb   sotaEojib       IV_intr be amazed
 ;; Eajab_1
 Ejb     Eajab   N       admiration;amazement
 >EjAb   >aEojAb N       admiration;amazement
-AEjAb   >aEojAb N       admiration;amazement
 ;; EujAb_1
 EjAb    EujAb   N       wonderful;amazing     <pos>EujAb/ADJ</pos>
 ;; Eajiyb_1
@@ -1006,27 +966,21 @@ Ejyb    Eajiyb  Napdu   marvel;prodigy
 EjA}b   EajA}ib Ndip    wonders;prodigies;oddities
 ;; >aEojab_3
 >Ejb    >aEojab Nel     more/most wonderful
-AEjb    >aEojab Nel     more/most wonderful
 ;; >uEojuwbap_1
 >Ejwb   >uEojuwb        Napdu   miracle
-AEjwb   >uEojuwb        Napdu   miracle
 b>Ejwbp b>uEojuwbp      FW-Wa   miraculously     <pos>bi/PREP+>uEojuwbap/NOUN</pos>
 bAEjwbp b>uEojuwbp      FW-Wa   miraculously     <pos>bi/PREP+>uEojuwbap/NOUN</pos>
 ;; >uEojuwbap_2
 >Ejwb   >uEojuwb        Napdu   marvel;wonder
-AEjwb   >uEojuwb        Napdu   marvel;wonder
 >EAjyb  >aEAjiyb        Ndip    marvels;wonders
-AEAjyb  >aEAjiyb        Ndip    marvels;wonders
 ;; taEojiyb_1
 tEjyb   taEojiyb        N/At    arousing admiration
 ;; <iEojAb_1
 <EjAb   <iEojAb N/At    admiration;wonder;surprise
-AEjAb   <iEojAb N/At    admiration;wonder;surprise
 ;; taEaj~ub_1
 tEjb    taEaj~ub        N/At    astonishment;amazement
 ;; {isotiEojAb_1
 <stEjAb {isotiEojAb     N/At    astonishment;amazement
-AstEjAb {isotiEojAb     N/At    astonishment;amazement
 ;; muEojib_1
 mEjb    muEojib N-ap    admirable     <pos>muEojib/ADJ</pos>
 ;; muEojab_1
@@ -1037,7 +991,6 @@ mtEjb   mutaEaj~ib      Nall    amazed;astonished     <pos>mutaEaj~ib/ADJ</pos>
 ;--- Ejr
 ;; {iEotajar_1
 <Etjr   {iEotajar       PV_intr be veiled
-AEtjr   {iEotajar       PV_intr be veiled
 Etjr    Eotajir IV_intr be veiled
 ;; Eajar_1
 Ejr     Eajar   N       outgrowth;protuberance
@@ -1084,12 +1037,10 @@ Ejz     Eaj~az  PV      incapacitate;immobilize
 Ejz     Eaj~iz  IV_yu   incapacitate;immobilize
 ;; >aEojaz_1
 >Ejz    >aEojaz PV      incapacitate;immobilize
-AEjz    >aEojaz PV      incapacitate;immobilize
 Ejz     Eojiz   IV_yu   incapacitate;immobilize
 Ejz     Eojaz   IV_Pass_yu      be incapacitated;be immobilized
 ;; {isotaEojaz_1
 <stEjz  {isotaEojaz     PV      deem incapable
-AstEjz  {isotaEojaz     PV      deem incapable
 stEjz   sotaEojiz       IV      deem incapable
 ;; Eajoz_1
 Ejz     Eajoz   N       weakness;inability
@@ -1106,10 +1057,8 @@ Ejwz    Eajuwz  Napdu   old woman
 Ejyz    Eajiyz  Nap     posterior;buttocks;backside
 ;; <iEojAz_1
 <EjAz   <iEojAz N/At    inimitability
-AEjAz   <iEojAz N/At    inimitability
 ;; <iEojAziy~_1
 <EjAzy  <iEojAziy~      N-ap    inimitable     <pos><iEojAziy~/ADJ</pos>
-AEjAzy  <iEojAziy~      N-ap    inimitable     <pos><iEojAziy~/ADJ</pos>
 ;; EAjiz_1
 EAjz    EAjiz   Nall    incapable;incapacitated     <pos>EAjiz/ADJ</pos>
 EwAjz   EawAjiz Ndip    incapable;disabled
@@ -1154,7 +1103,6 @@ EAjl    EAjal   PV      anticipate;forestall
 EAjl    EAjil   IV_yu   anticipate;forestall
 ;; >aEojal_1
 >Ejl    >aEojal PV      expedite
-AEjl    >aEojal PV      expedite
 Ejl     Eojil   IV_yu   expedite
 Ejl     Eojal   IV_Pass_yu      be expedited
 ;; taEaj~al_1
@@ -1162,7 +1110,6 @@ tEjl    taEaj~al        PV      hurry;hasten
 tEjl    taEaj~al        IV      hurry;hasten
 ;; {isotaEojal_1
 <stEjl  {isotaEojal     PV      hurry;hasten
-AstEjl  {isotaEojal     PV      hurry;hasten
 stEjl   sotaEojil       IV      hurry;hasten
 ;; Eajal_1
 Ejl     Eajal   N       hurry;haste
@@ -1189,7 +1136,6 @@ EjAlY   EajAlaY N0      swift;hurried
 EjAlA   EajAlA  Nhy     swift;hurried
 ;; >aEojal_2
 >Ejl    >aEojal Nel     faster/fastest
-AEjl    >aEojal Nel     faster/fastest
 EjlY    EujolaY N0      faster/fastest
 EjlA    EujolA  Nhy     faster/fastest
 Ejly    Eujolay NAn_Nayn        faster/fastest
@@ -1200,10 +1146,8 @@ tEjyl   taEojiyl        N/At    expediting
 tEjyl   taEojiyl        NduAt   advanced payment;early installment
 ;; {isotiEojAl_1
 <stEjAl {isotiEojAl     N/At    haste;urgency
-AstEjAl {isotiEojAl     N/At    haste;urgency
 ;; {isotiEojAliy~_1
 <stEjAly        {isotiEojAliy~  Nall    expeditious;urgent     <pos>{isotiEojAliy~/ADJ</pos>
-AstEjAly        {isotiEojAliy~  Nall    expeditious;urgent     <pos>{isotiEojAliy~/ADJ</pos>
 ;; EAjil_1
 EAjl    EAjil   Nall    urgent;speedy
 ;; EAjilAF_1
@@ -1233,16 +1177,13 @@ Ejm     Eajam   PV      test;diacriticize (dot the i's)
 Ejm     Eojum   IV      test;diacriticize (dot the i's)
 ;; >aEojam_1
 >Ejm    >aEojam PV      clarify;diacriticize (dot the i's)
-AEjm    >aEojam PV      clarify;diacriticize (dot the i's)
 Ejm     Eojim   IV_yu   clarify;diacriticize (dot the i's)
 Ejm     Eojam   IV_Pass_yu      be clarified;be diacriticized (have the i's dotted)
 ;; {inoEajam_1
 <nEjm   {inoEajam       PV_intr be incomprehensible
-AnEjm   {inoEajam       PV_intr be incomprehensible
 nEjm    noEajim IV_intr be incomprehensible
 ;; {isotaEojam_1
 <stEjm  {isotaEojam     PV_intr be unable to speak
-AstEjm  {isotaEojam     PV_intr be unable to speak
 stEjm   sotaEojim       IV_intr be unable to speak
 ;; Eajamap_1
 Ejm     Eajam   NapAt   fruit stone
@@ -1253,31 +1194,24 @@ Ejmy    Eajamiy~        N0      Ajami
 ;; Eajamiy~_2
 Ejmy    Eajamiy~        Nall    non-Arab     <pos>Eajamiy~/ADJ</pos>
 >EjAm   >aEojAm N       non-Arabs
-AEjAm   >aEojAm N       non-Arabs
 ;; Eajamiy~_3
 Ejmy    Eajamiy~        Nall    Persian     <pos>Eajamiy~/ADJ</pos>
 >EjAm   >aEojAm N       Persians
-AEjAm   >aEojAm N       Persians
 ;; Eujomap_1
 Ejm     Eujom   Nap     non-Arabic expression;barbarism
 ;; EajomAn_1
 EjmAn   EajomAn Ndip    Ajman
 ;; >aEojam_2
 >Ejm    >aEojam Nel     non-Arab;speechless
-AEjm    >aEojam Nel     non-Arab;speechless
 EjmA'   EajomA' N0_Nh   non-Arab;speechless
 EjmA&   EajomA& Nh      non-Arab;speechless
 EjmA}   EajomA} Nhy     non-Arab;speechless
 >Ejm    >aEojam Nuwn_Niyn       non-Arab;speechless
-AEjm    >aEojam Nuwn_Niyn       non-Arab;speechless
 >EAjm   >aEAjim Ndip    non-Arab;speechless
-AEAjm   >aEAjim Ndip    non-Arab;speechless
 ;; >aEojamiy~_1
 >Ejmy   >aEojamiy~      Nall    non-Arab;foreigner     <pos>>aEojamiy~/ADJ</pos>
-AEjmy   >aEojamiy~      Nall    non-Arab;foreigner     <pos>>aEojamiy~/ADJ</pos>
 ;; >aEojamiy~_2
 >Ejmy   >aEojamiy~      Nall    Persian     <pos>>aEojamiy~/ADJ</pos>
-AEjmy   >aEojamiy~      Nall    Persian     <pos>>aEojamiy~/ADJ</pos>
 ;; muEojam_1
 mEjm    muEojam NduAt   dictionary;lexicon
 mEAjm   maEAjim Ndip    dictionaries;lexicons
@@ -1332,9 +1266,7 @@ Edd     Ead~ad  PV      enumerate;count
 Edd     Ead~id  IV      enumerate;count
 ;; >aEad~_1
 >Ed     >aEad~  PV_V    prepare;make ready
-AEd     >aEad~  PV_V    prepare;make ready
 >Edd    >aEodad PV_C    prepare;make ready
-AEdd    >aEodad PV_C    prepare;make ready
 Ed      Eid~    IV_V_yu prepare;make ready
 Edd     Eodid   IV_C_yu prepare;make ready
 Ed      Ead~    IV_V_Pass_yu    be prepared;be made ready
@@ -1343,16 +1275,12 @@ tEdd    taEad~ad        PV_intr be numerous
 tEdd    taEad~ad        IV_intr be numerous
 ;; {iEotad~_1
 <Etd    {iEotad~        PV_V    consider;deem
-AEtd    {iEotad~        PV_V    consider;deem
 <Etdd   {iEotadad       PV_C    consider;deem
-AEtdd   {iEotadad       PV_C    consider;deem
 Etd     Eotad~  IV_V    consider;deem
 Etdd    Eotadid IV_C    consider;deem
 ;; {isotaEad~_1
 <stEd   {isotaEad~      PV_V    get ready
-AstEd   {isotaEad~      PV_V    get ready
 <stEdd  {isotaEodad     PV_C    get ready
-AstEdd  {isotaEodad     PV_C    get ready
 stEd    sotaEid~        IV_V    get ready
 stEdd   sotaEodid       IV_C    get ready
 ;; Ead~_1
@@ -1364,7 +1292,6 @@ Ed      Eid~    Nap     several;numerous;many     <pos>Eid~/ADJ</pos>
 ;; Eadad_1
 Edd     Eadad   Ndu     number;quantity;issue
 >EdAd   >aEodAd N       numbers;issues
-AEdAd   >aEodAd N       numbers;issues
 ;; Eadadiy~_1
 Eddy    Eadadiy~        N-ap    numerical     <pos>Eadadiy~/ADJ</pos>
 ;; Eud~ap_1
@@ -1384,31 +1311,23 @@ EdAd    EidAd   N       number;quantity
 tEdyd   taEodiyd        N/At    counting;enumerating
 ;; <iEodAd_1
 <EdAd   <iEodAd N/At    preparation
-AEdAd   <iEodAd N/At    preparation
 ;; <iEodAdiy~_1
 <EdAdy  <iEodAdiy~      Nall    preliminary;preparatory     <pos><iEodAdiy~/ADJ</pos>
-AEdAdy  <iEodAdiy~      Nall    preliminary;preparatory     <pos><iEodAdiy~/ADJ</pos>
 ;; taEad~ud_1
 tEdd    taEad~ud        N/At    multiplicity;plurality
 ;; taEad~udiy~ap_1
 tEddy   taEad~udiy~     NapAt   multiplicity;plurality     <pos>taEad~udiy~/NOUN</pos>
 ;; {iEotidAd_1
 <EtdAd  {iEotidAd       N/At    confidence;reliance
-AEtdAd  {iEotidAd       N/At    confidence;reliance
 ;; {iEotidAdiy~_1
 <EtdAdy {iEotidAdiy~    Nall    confident     <pos>{iEotidAdiy~/ADJ</pos>
-AEtdAdy {iEotidAdiy~    Nall    confident     <pos>{iEotidAdiy~/ADJ</pos>
 ;; {isotiEodAd_1
 <stEdAd {isotiEodAd     Ndu     preparation
-AstEdAd {isotiEodAd     Ndu     preparation
 <stEdAd {isotiEodAd     NAt     preparations
-AstEdAd {isotiEodAd     NAt     preparations
 ;; {isotiEodAd_2
 <stEdAd {isotiEodAd     N       readiness;willingness
-AstEdAd {isotiEodAd     N       readiness;willingness
 ;; {isotiEodAdiy~_1
 <stEdAdy        {isotiEodAdiy~  Nall    preparatory     <pos>{isotiEodAdiy~/ADJ</pos>
-AstEdAdy        {isotiEodAdiy~  Nall    preparatory     <pos>{isotiEodAdiy~/ADJ</pos>
 ;; maEoduwd_1
 mEdwd   maEoduwd        Nall    limited in number;countable     <pos>maEoduwd/ADJ</pos>
 ;; muEad~idap_1
@@ -1451,7 +1370,6 @@ tEAdl   taEAdal PV_intr be balanced;be equitable;tie
 tEAdl   taEAdal IV_intr be balanced;be equitable;tie
 ;; {iEotadal_1
 <Etdl   {iEotadal       PV_intr be balanced;be moderate
-AEtdl   {iEotadal       PV_intr be balanced;be moderate
 Etdl    Eotadil IV_intr be balanced;be moderate
 ;; Eadol_1
 Edl     Eadol   N       justice;fairness
@@ -1468,7 +1386,6 @@ Edwl    Euduwl  N       abstention;renunciation
 EdAl    EadAl   Nap     justice;fairness
 ;; >aEodal_1
 >Edl    >aEodal Nel     more/most equitable;fairer/fairest
-AEdl    >aEodal Nel     more/most equitable;fairer/fairest
 ;; taEodiyl_1
 tEdyl   taEodiyl        NduAt   adjustment;change;modification;amendment
 ;; muEAdalap_1
@@ -1481,10 +1398,8 @@ tEAdl   taEAdul NduAt   tie;equilibrium;balance
 tEAdl   taEAdul N/At    compensation;equitable distribution
 ;; {iEotidAl_1
 <EtdAl  {iEotidAl       N/At    moderateness;evenness
-AEtdAl  {iEotidAl       N/At    moderateness;evenness
 ;; {iEotidAliy~_1
 <EtdAly {iEotidAliy~    Nall    moderate;balanced     <pos>{iEotidAliy~/ADJ</pos>
-AEtdAly {iEotidAliy~    Nall    moderate;balanced     <pos>{iEotidAliy~/ADJ</pos>
 ;; EAdil_1
 EAdl    EAdil   Nprop   Adel;Adil
 ;; EAdil_2
@@ -1512,12 +1427,10 @@ Edm     Eadim   PV      lack;be devoid of
 Edm     Eodam   IV      lack;be devoid of
 ;; >aEodam_1
 >Edm    >aEodam PV      deprive;execute
-AEdm    >aEodam PV      deprive;execute
 Edm     Eodim   IV_yu   deprive;execute
 Edm     Eodam   IV_Pass_yu      be executed;be deprived
 ;; {inoEadam_1
 <nEdm   {inoEadam       PV_intr be lacking;be absent
-AnEdm   {inoEadam       PV_intr be lacking;be absent
 nEdm    noEadim IV_intr be lacking;be absent
 ;; Eadam_1
 Edm     Eadam   N       absence of;lack of;non-
@@ -1529,10 +1442,8 @@ Edmy    Eadamiy~        Nap     nihilism     <pos>Eadamiy~/NOUN</pos>
 Edym    Eadiym  Nall    without;devoid of     <pos>Eadiym/ADJ</pos>
 ;; <iEodAm_1
 <EdAm   <iEodAm N/At    execution;capital punishment
-AEdAm   <iEodAm N/At    execution;capital punishment
 ;; {inoEidAm_1
 <nEdAm  {inoEidAm       N/At    absence of;lack of
-AnEdAm  {inoEidAm       N/At    absence of;lack of
 ;; EAdim_1
 EAdm    EAdim   N/ap    lacking;devoid of     <pos>EAdim/ADJ</pos>
 EwAdm   EawAdim Ndip    lacking;devoid of
@@ -1605,13 +1516,9 @@ EAdY    EAdaY   IV_0_Pass_yu    be treated with hostility
 EAdy    EAday   IV_Ann_Pass_yu  be treated with hostility
 ;; >aEodaY_1
 >EdY    >aEodaY PV_0    contaminate;infect
-AEdY    >aEodaY PV_0    contaminate;infect
 >EdA    >aEodA  PV_h    contaminate;infect
-AEdA    >aEodA  PV_h    contaminate;infect
 >Edy    >aEoday PV_Atn  contaminate;infect
-AEdy    >aEoday PV_Atn  contaminate;infect
 >Ed     >aEod   PV_ttAw contaminate;infect
-AEd     >aEod   PV_ttAw contaminate;infect
 Edy     Eodiy   IV_0hAnn_yu     contaminate;infect
 Ed      Eod     IV_0hwnyn_yu    contaminate;infect
 EdY     EodaY   IV_0_Pass_yu    be contaminated;be infected
@@ -1636,37 +1543,25 @@ tEAdy   taEAday IV_Ann  be contaminated;be transmitted
 tEAd    taEAd   IV_0hwnyn       be contaminated;be transmitted
 ;; {inoEadaY_1
 <nEdY   {inoEadaY       PV_0    be infected;be contaminated
-AnEdY   {inoEadaY       PV_0    be infected;be contaminated
 <nEdA   {inoEadA        PV_h    be infected;be contaminated
-AnEdA   {inoEadA        PV_h    be infected;be contaminated
 <nEdy   {inoEaday       PV_Atn  be infected;be contaminated
-AnEdy   {inoEaday       PV_Atn  be infected;be contaminated
 <nEd    {inoEad PV_ttAw_intr    be infected;be contaminated
-AnEd    {inoEad PV_ttAw_intr    be infected;be contaminated
 nEdy    noEadiy IV_0hAnn        be infected;be contaminated
 nEd     noEad   IV_0hwnyn       be infected;be contaminated
 nEdY    noEadaY IV_0_Pass_yu    be infected;be contaminated
 ;; {iEotadaY_1
 <EtdY   {iEotadaY       PV_0    commit an aggression;be hostile;encroach;infringe
-AEtdY   {iEotadaY       PV_0    commit an aggression;be hostile;encroach;infringe
 <EtdA   {iEotadA        PV_h    commit an aggression;be hostile;encroach;infringe
-AEtdA   {iEotadA        PV_h    commit an aggression;be hostile;encroach;infringe
 <Etdy   {iEotaday       PV_Atn  commit an aggression;be hostile;encroach;infringe
-AEtdy   {iEotaday       PV_Atn  commit an aggression;be hostile;encroach;infringe
 <Etd    {iEotad PV_ttAw commit an aggression;be hostile;encroach;infringe
-AEtd    {iEotad PV_ttAw commit an aggression;be hostile;encroach;infringe
 Etdy    Eotadiy IV_0hAnn        commit an aggression;be hostile;encroach;infringe
 Etd     Eotad   IV_0hwnyn       commit an aggression;be hostile;encroach;infringe
 EtdY    EotadaY IV_0    commit an aggression;be hostile;encroach;infringe
 ;; {isotaEodaY_1
 <stEdY  {isotaEodaY     PV_0    appeal;arouse
-AstEdY  {isotaEodaY     PV_0    appeal;arouse
 <stEdA  {isotaEodA      PV_h    appeal;arouse
-AstEdA  {isotaEodA      PV_h    appeal;arouse
 <stEdy  {isotaEoday     PV_Atn  appeal;arouse
-AstEdy  {isotaEoday     PV_Atn  appeal;arouse
 <stEd   {isotaEod       PV_ttAw appeal;arouse
-AstEd   {isotaEod       PV_ttAw appeal;arouse
 stEdy   sotaEodiy       IV_0hAnn        appeal;arouse
 stEd    sotaEod IV_0hwnyn       appeal;arouse
 stEdY   sotaEodaY       IV_0_Pass_yu    be appealed;be aroused
@@ -1675,16 +1570,11 @@ Edw     Eadow   N       racing;running
 ;; Eaduw~_1
 Edw     Eaduw~  N-ap    enemy
 >EdA'   >aEodA' N0_Nh   enemies
-AEdA'   >aEodA' N0_Nh   enemies
 >EdA&   >aEodA& Nh      enemies
-AEdA&   >aEodA& Nh      enemies
 >EdA}   >aEodA} Nhy     enemies
-AEdA}   >aEodA} Nhy     enemies
 EdA     EudA    Nap     enemies
 >EAdy   >aEAdiy N0_Nh   enemies
-AEAdy   >aEAdiy N0_Nh   enemies
 >EAd    >aEAd   NK      enemies
-AEAd    >aEAd   NK      enemies
 ;; Eudowap_1
 Edw     Eudow   NapAt   embankment;shore
 ;; EadowaY_1
@@ -1725,11 +1615,8 @@ EdwAny  EudowAniy~      Nall    hostile;aggressive     <pos>EudowAniy~/ADJ</pos>
 EdwAny  EudowAniy~      Nap     aggression;belligerency     <pos>EudowAniy~/NOUN</pos>
 ;; >aEodaY_2
 >EdY    >aEodaY N0      greater/greatest enemy
-AEdY    >aEodaY N0      greater/greatest enemy
 >EdA    >aEodA  Nhy     greater/greatest enemy
-AEdA    >aEodA  Nhy     greater/greatest enemy
 >Edy    >aEoday NAn_Nayn        greatest enemy
-AEdy    >aEoday NAn_Nayn        greatest enemy
 ;; maEodaY_1
 mEdY    maEodaY N0      avoidance;escape
 mEdA    maEodA  Nhy     avoidance;escape
@@ -1755,20 +1642,13 @@ tEd     taEad~  NK      aggression;attack
 tEdy    taEad~iy        NAt     acts of aggression;attacks
 ;; {iEotidA'_1
 <EtdA'  {iEotidA'       N0_Nh   attack;aggression;assault
-AEtdA'  {iEotidA'       N0_Nh   attack;aggression;assault
 <EtdA&  {iEotidA&       Nh      attack;aggression;assault
-AEtdA&  {iEotidA&       Nh      attack;aggression;assault
 <EtdA}  {iEotidA}       Nhy     attack;aggression;assault
-AEtdA}  {iEotidA}       Nhy     attack;aggression;assault
 <EtdA'  {iEotidA'       NAn_Nayn        attacks;assaults;aggression
-AEtdA'  {iEotidA'       NAn_Nayn        attacks;assaults;aggression
 <EtdA}  {iEotidA}       Nayn    attacks;assaults;aggression
-AEtdA}  {iEotidA}       Nayn    attacks;assaults;aggression
 <EtdA'  {iEotidA'       NAt     attacks;assaults;aggression
-AEtdA'  {iEotidA'       NAt     attacks;assaults;aggression
 ;; {iEotidA}iy~_1
 <EtdA}y {iEotidA}iy~    Nall    aggressive;hostile     <pos>{iEotidA}iy~/ADJ</pos>
-AEtdA}y {iEotidA}iy~    Nall    aggressive;hostile     <pos>{iEotidA}iy~/ADJ</pos>
 ;; EAdiy_1
 EAdy    EAdiy   N0F     aggressive;hostile     <pos>EAdiy/ADJ</pos>
 EAd     EAd     NK      aggressive;hostile
@@ -1826,7 +1706,6 @@ E*b     Ea*~ab  PV      torture;torment
 E*b     Ea*~ib  IV_yu   torture;torment
 ;; >aEo*ab_1
 >E*b    >aEo*ab PV      sweeten;distill;desalinate
-AE*b    >aEo*ab PV      sweeten;distill;desalinate
 E*b     Eo*ib   IV_yu   sweeten;distill;desalinate
 E*b     Eo*ab   IV_Pass_yu      be sweetened;be distilled;be desalinated
 ;; taEa*~ab_1
@@ -1834,19 +1713,16 @@ tE*b    taEa*~ab        PV_intr be tortured;be tormented;be punished
 tE*b    taEa*~ab        IV_intr be tortured;be tormented;be punished
 ;; {isotaEo*ab_1
 <stE*b  {isotaEo*ab     PV      deem pleasant;find sweet
-AstE*b  {isotaEo*ab     PV      deem pleasant;find sweet
 stE*b   sotaEo*ib       IV      deem pleasant;find sweet
 ;; Ea*ob_1
 E*b     Ea*ob   N-ap    sweet;pleasant     <pos>Ea*ob/ADJ</pos>
 ;; Ea*Ab_1
 E*Ab    Ea*Ab   N/At    pain;punishment
 >E*b    >aEo*ib Nap     pain;punishment
-AE*b    >aEo*ib Nap     pain;punishment
 ;; Eu*uwbap_1
 E*wb    Eu*uwb  Nap     sweetness;pleasantness
 ;; >aEo*ab_2
 >E*b    >aEo*ab Nel     sweeter/sweetest;more/most pleasant
-AE*b    >aEo*ab Nel     sweeter/sweetest;more/most pleasant
 ;; taEo*iyb_1
 tE*yb   taEo*iyb        N/At    torture;punishment
 ;; muEa*~ab_1
@@ -1860,7 +1736,6 @@ E*r     Ea*ar   PV      excuse;forgive
 E*r     Eo*ir   IV      excuse;forgive
 ;; >aEo*ar_1
 >E*r    >aEo*ar PV      excuse;forgive
-AE*r    >aEo*ar PV      excuse;forgive
 E*r     Eo*ir   IV_yu   excuse;forgive
 E*r     Eo*ar   IV_Pass_yu      be excused;be forgiven
 ;; taEa*~ar_1
@@ -1868,16 +1743,13 @@ tE*r    taEa*~ar        PV_intr be excused;be forgiven
 tE*r    taEa*~ar        IV_intr be excused;be forgiven
 ;; {iEota*ar_1
 <Et*r   {iEota*ar       PV      apologize;excuse oneself;allege a pretext
-AEt*r   {iEota*ar       PV      apologize;excuse oneself;allege a pretext
 Et*r    Eota*ir IV      apologize;excuse oneself;allege a pretext
 ;; {isotaEo*ar_1
 <stE*r  {isotaEo*ar     PV      apologize
-AstE*r  {isotaEo*ar     PV      apologize
 stE*r   sotaEo*ir       IV      apologize
 ;; Eu*or_1
 E*r     Eu*or   Ndu     excuse
 >E*Ar   >aEo*Ar N       excuses
-AE*Ar   >aEo*Ar N       excuses
 ;; Eu*orap_1
 E*r     Eu*or   Nap     virginity
 ;; Eu*oriy~_1
@@ -1902,12 +1774,10 @@ mE*Ar   miEo*Ar Ndu     excuse;plea
 mEA*yr  maEA*iyr        Ndip    excuses;pleas
 ;; <iEo*Ar_1
 <E*Ar   <iEo*Ar N/At    imposition;obligation
-AE*Ar   <iEo*Ar N/At    imposition;obligation
 ;; taEa*~ur_1
 tE*r    taEa*~ur        N/At    difficulty;unfeasibility
 ;; {iEoti*Ar_1
 <Et*Ar  {iEoti*Ar       N/At    apology;excuse
-AEt*Ar  {iEoti*Ar       N/At    apology;excuse
 ;; mutaEa*~ir_1
 mtE*r   mutaEa*~ir      N-ap    difficult;unfeasible     <pos>mutaEa*~ir/ADJ</pos>
 ;
@@ -1915,7 +1785,6 @@ mtE*r   mutaEa*~ir      N-ap    difficult;unfeasible     <pos>mutaEa*~ir/ADJ</po
 ;; Ei*oq_1
 E*q     Ei*oq   Ndu     cluster;bunch
 >E*Aq   >aEo*Aq N       clusters;bunches
-AE*Aq   >aEo*Aq N       clusters;bunches
 E*wq    Eu*uwq  N       clusters;bunches
 ;
 ;--- E*l
@@ -1978,19 +1847,16 @@ Erb     Ear~ab  PV      Arabicize
 Erb     Ear~ib  IV_yu   Arabicize
 ;; >aEorab_1
 >Erb    >aEorab PV      express;manifest;indicate
-AErb    >aEorab PV      express;manifest;indicate
 Erb     Eorib   IV      express;manifest;indicate
 ;; taEar~ab_1
 tErb    taEar~ab        PV_intr be Arabicized;be translated
 tErb    taEar~ab        IV_intr be Arabicized;be translated
 ;; {isotaEorab_1
 <stErb  {isotaEorab     PV_intr be Arabicized
-AstErb  {isotaEorab     PV_intr be Arabicized
 stErb   sotaEorib       IV_intr be Arabicized
 ;; Earab_1
 Erb     Earab   N       Arabs     <pos>Earab/NOUN</pos>
 >ErAb   >aEorAb N       bedouins
-AErAb   >aEorAb N       bedouins
 ;; Earabiy~_1
 Erby    Earabiy~        N-ap    Arabic;Arab     <pos>Earabiy~/ADJ</pos>
 ;; Earabiy~_2
@@ -2002,7 +1868,6 @@ Erb     Earab   NAt     vehicles;wagons
 ErAb    Ear~Ab  Nall    sponsor;translator
 ;; >aEorAbiy~_1
 >ErAby  >aEorAbiy~      Nall    bedouin     <pos>>aEorAbiy~/ADJ</pos>
-AErAby  >aEorAbiy~      Nall    bedouin     <pos>>aEorAbiy~/ADJ</pos>
 ;; Euruwbap_1
 Erwb    Euruwb  NapAt   Arabism     <pos>Euruwb/NOUN</pos>
 ;; Euruwbap_2
@@ -2011,7 +1876,6 @@ Erwb    Euruwb  Nap     Oruba;Uruba
 tEryb   taEoriyb        N/At    Arabization;translation
 ;; <iEorAb_1
 <ErAb   <iEorAb N/At    declaration;expressing;voicing
-AErAb   <iEorAb N/At    declaration;expressing;voicing
 ;; muEar~ib_1
 mErb    muEar~ib        Nall    declaring;expressing     <pos>muEar~ib/ADJ</pos>
 ;; muEar~ab_1
@@ -2083,7 +1947,6 @@ Erj     Ear~aj  PV      detour;swerve
 Erj     Ear~ij  IV_yu   detour;swerve
 ;; >aEoraj_1
 >Erj    >aEoraj PV      cripple;paralyze
-AErj    >aEoraj PV      cripple;paralyze
 Erj     Eorij   IV_yu   cripple;paralyze
 Erj     Eoraj   IV_Pass_yu      be crippled;be paralyzed
 ;; taEar~aj_1
@@ -2094,7 +1957,6 @@ tEArj   taEAraj PV      feign limping
 tEArj   taEAraj IV      feign limping
 ;; {inoEaraj_1
 <nErj   {inoEaraj       PV_intr be curved;zigzag
-AnErj   {inoEaraj       PV_intr be curved;zigzag
 nErj    noEarij IV_intr be curved;zigzag
 ;; Earaj_1
 Erj     Earaj   N       limping;lameness
@@ -2102,14 +1964,12 @@ Erj     Earaj   N       limping;lameness
 Erj     Earaj   NapAt   limp
 ;; >aEoraj_2
 >Erj    >aEoraj Nel     lame;limping
-AErj    >aEoraj Nel     lame;limping
 ErjA'   EarojA' N0_Nh   lame;limping
 ErjA&   EarojA& Nh      lame;limping
 ErjA}   EarojA} Nhy     lame;limping
 ErjAn   EurojAn N       lame;limping
 ;; >aEoraj_3
 >Erj    >aEoraj N0      Araj
-AErj    >aEoraj N0      Araj
 ;; maEoraj_1
 mErj    maEoraj Ndu     place of ascent
 mEArj   maEArij Ndip    places of ascent
@@ -2152,14 +2012,12 @@ Ers     Ear~as  PV      marry off
 Ers     Ear~is  IV_yu   marry off
 ;; >aEoras_1
 >Ers    >aEoras PV      give a wedding feast
-AErs    >aEoras PV      give a wedding feast
 Ers     Eoris   IV_yu   give a wedding feast
 Ers     Eoras   IV_Pass_yu      be given a wedding feast
 ;; Euros_1
 Ers     Euros   N       wedding
 Ers     Eurus   NAt     weddings
 >ErAs   >aEorAs N       weddings
-AErAs   >aEorAs N       weddings
 ;; Eurosiy~_1
 Ersy    Eurosiy~        N-ap    nuptial;wedding     <pos>Eurosiy~/ADJ</pos>
 ;; Earuws_1
@@ -2176,7 +2034,6 @@ Erys    Eir~iys N       lion's den
 tErys   taEoriys        N/At    wedding feast
 ;; <iEorAs_1
 <ErAs   <iEorAs N/At    wedding feast
-AErAs   <iEorAs N/At    wedding feast
 ;
 ;--- Er$
 ;; Eara$-ui_1
@@ -2191,13 +2048,11 @@ tEr$    taEar~a$        PV      climb;form a trellis
 tEr$    taEar~a$        IV      climb;form a trellis
 ;; {iEotara$_1
 <Etr$   {iEotara$       PV      climb;be attached
-AEtr$   {iEotara$       PV      climb;be attached
 Etr$    Eotari$ IV      climb;be attached
 ;; Earo$_1
 Er$     Earo$   Ndu     throne
 Erw$    Euruw$  N       thrones
 >ErA$   >aEorA$ N       thrones
-AErA$   >aEorA$ N       thrones
 ;; Eariy$_1
 Ery$    Eariy$  N       El Arish (Sinai)
 ;; Eariy$_2
@@ -2220,7 +2075,6 @@ ErS     EaraS   N       levity
 ErS     EaroS   Napdu   courtyard;vacant lot
 ErS     EaraS   NAt     courtyards;vacant lots
 >ErAS   >aEorAS N       courtyards;vacant lots
-AErAS   >aEorAS N       courtyards;vacant lots
 ;; muEar~aS_1
 mErS    muEar~aS        Nall    procurer;snitch;cuckold
 ;
@@ -2238,7 +2092,6 @@ EArD    EAraD   PV      oppose;resist
 EArD    EAriD   IV_yu   oppose;resist
 ;; >aEoraD_1
 >ErD    >aEoraD PV      avoid
-AErD    >aEoraD PV      avoid
 ErD     EoriD   IV_yu   avoid
 ErD     EoraD   IV_Pass_yu      be avoided
 ;; taEar~aD_1
@@ -2249,11 +2102,9 @@ tEArD   taEAraD PV      clash with each other;conflict with each other
 tEArD   taEAraD IV      clash with each other;conflict with each other
 ;; {iEotaraD_1
 <EtrD   {iEotaraD       PV      object to;be opposed to;be inserted in
-AEtrD   {iEotaraD       PV      object to;be opposed to;be inserted in
 EtrD    EotariD IV      object to;be opposed to;be inserted in
 ;; {isotaEoraD_1
 <stErD  {isotaEoraD     PV      review;inspect
-AstErD  {isotaEoraD     PV      review;inspect
 stErD   sotaEoriD       IV      review;inspect
 ;; EaroD_1
 ErD     EaroD   Ndu     presentation;review;show;offer
@@ -2269,7 +2120,6 @@ ErDy    EaroDiy~        N-ap    horizontal;latitudinal     <pos>EaroDiy~/ADJ</po
 ;; EiroD_1
 ErD     EiroD   N       honor
 >ErAD   >aEorAD N       honor
-AErAD   >aEorAD N       honor
 ;; EaroDAniy~_1
 ErDAny  EaroDAniy~      N-ap    transversal;latitudinal     <pos>EaroDAniy~/ADJ</pos>
 ;; EaraDAF_1
@@ -2282,7 +2132,6 @@ ErD     EuroD   Nap     target;object
 ;; EaruwD_1
 ErwD    EaruwD  N       prosody
 >EAryD  >aEAriyD        Ndip    prosody
-AEAryD  >aEAriyD        Ndip    prosody
 ;; EaruwDiy~_1
 ErwDy   EaruwDiy~       N-ap    prosodic     <pos>EaruwDiy~/ADJ</pos>
 ;; EariyD_1
@@ -2306,23 +2155,18 @@ tEryDy  taEoriyDiy~     N-ap    exposing     <pos>taEoriyDiy~/ADJ</pos>
 mEArD   muEAraD NapAt   opposition
 ;; <iEorAD_1
 <ErAD   <iEorAD N/At    avoidance
-AErAD   <iEorAD N/At    avoidance
 ;; taEar~uD_1
 tErD    taEar~uD        N/At    being exposed to;encountering
 ;; taEAruD_1
 tEArD   taEAruD N/At    conflict;clash
 ;; {iEotirAD_1
 <EtrAD  {iEotirAD       N/At    opposition;resistance;insertion
-AEtrAD  {iEotirAD       N/At    opposition;resistance;insertion
 ;; {iEotirADiy~_1
 <EtrADy {iEotirADiy~    Nall    opposition;parenthetical     <pos>{iEotirADiy~/ADJ</pos>
-AEtrADy {iEotirADiy~    Nall    opposition;parenthetical     <pos>{iEotirADiy~/ADJ</pos>
 ;; {isotiEorAD_1
 <stErAD {isotiEorAD     N/At    review;parade;inspection
-AstErAD {isotiEorAD     N/At    review;parade;inspection
 ;; {isotiEorADiy~_1
 <stErADy        {isotiEorADiy~  Nall    review;inspection     <pos>{isotiEorADiy~/ADJ</pos>
-AstErADy        {isotiEorADiy~  Nall    review;inspection     <pos>{isotiEorADiy~/ADJ</pos>
 ;; EAriD_1
 EArD    EAriD   Nall    exhibitor;showing;offering
 ;; EAriDAn_1
@@ -2378,17 +2222,14 @@ tEArf   taEAraf PV_intr become acquainted;get to know
 tEArf   taEAraf IV_intr become acquainted;get to know
 ;; {iEotaraf_1
 <Etrf   {iEotaraf       PV      acknowledge;recognize;admit;confess
-AEtrf   {iEotaraf       PV      acknowledge;recognize;admit;confess
 Etrf    Eotarif IV      acknowledge;recognize;admit;confess
 Etrf    Eotaraf IV_Pass_yu      be acknowledged;be recognized;be admitted;be confessed
 ;; {isotaEoraf_1
 <stErf  {isotaEoraf     PV      discern;recognize
-AstErf  {isotaEoraf     PV      discern;recognize
 stErf   sotaEorif       IV      discern;recognize
 ;; Eurof_1
 Erf     Eurof   N       custom;habit;protocol
 >ErAf   >aEorAf N       customs;habits
-AErAf   >aEorAf N       customs;habits
 ;; Eurofiy~_1
 Erfy    Eurofiy~        N-ap    conventional;traditional;secular;martial     <pos>Eurofiy~/ADJ</pos>
 ;; Earafap_1
@@ -2417,7 +2258,6 @@ ErfAn   EirofAn N       knowledge;recognition
 ErfAn   EirofAn Nprop   Irfan
 ;; >aEoraf_1
 >Erf    >aEoraf Nel     more/most aware;better/best acquainted
-AErf    >aEoraf Nel     more/most aware;better/best acquainted
 ;; maEorifap_1
 mErf    maEorif Nap     knowledge;information;acquaintance
 mEArf   maEArif Ndip    culture;education
@@ -2438,7 +2278,6 @@ tErf    taEorif NapAt   tariff
 tErf    taEar~uf        NduAt   acquaintance;knowledge
 ;; {iEotirAf_1
 <EtrAf  {iEotirAf       NduAt   acknowledgment;recognition;admission;confession
-AEtrAf  {iEotirAf       NduAt   acknowledgment;recognition;admission;confession
 ;; EArif_1
 EArf    EArif   Nall    connoisseur;knowledgeable person
 ;; EArif_2
@@ -2461,7 +2300,6 @@ Erq     Ear~aq  PV      take root
 Erq     Ear~iq  IV_yu   take root
 ;; >aEoraq_1
 >Erq    >aEoraq PV      take root
-AErq    >aEoraq PV      take root
 Erq     Eoriq   IV_yu   take root
 Erq     Eoraq   IV_Pass_yu      be rooted
 ;; taEar~aq_1
@@ -2469,11 +2307,9 @@ tErq    taEar~aq        PV      take root
 tErq    taEar~aq        IV      take root
 ;; {iEotaraq_1
 <Etrq   {iEotaraq       PV      take root
-AEtrq   {iEotaraq       PV      take root
 Etrq    Eotariq IV      take root
 ;; {isotaEoraq_1
 <stErq  {isotaEoraq     PV      take root
-AstErq  {isotaEoraq     PV      take root
 stErq   sotaEoriq       IV      take root
 ;; Eiroq_1
 Erq     Eiroq   Ndu     root;ancestry
@@ -2501,7 +2337,6 @@ ErAqy   EirAqiy~        Nall    Iraqi     <pos>EirAqiy~/NOUN</pos>
 ErAqy   EirAqiy~        Nall    Iraqi     <pos>EirAqiy~/ADJ</pos>
 ;; >aEoraq_2
 >Erq    >aEoraq Nel     more/most deep-rooted
-AErq    >aEoraq Nel     more/most deep-rooted
 ;; maEoruwq_1
 mErwq   maEoruwq        N-ap    emaciated;gaunt     <pos>maEoruwq/ADJ</pos>
 ;; muEar~aq_1
@@ -2558,7 +2393,6 @@ tEArk   taEArak PV      fight;quarrel
 tEArk   taEArak IV      fight;quarrel
 ;; {iEotarak_1
 <Etrk   {iEotarak       PV      fight
-AEtrk   {iEotarak       PV      fight
 Etrk    Eotarik IV      fight
 ;; Earok_1
 Erk     Earok   N       experience
@@ -2583,7 +2417,6 @@ Erm     Ear~am  PV      accumulate;amass
 Erm     Ear~im  IV_yu   accumulate;amass
 ;; {iEotaram_1
 <Etrm   {iEotaram       PV_intr be vicious;be obstinate
-AEtrm   {iEotaram       PV_intr be vicious;be obstinate
 Etrm    Eotarim IV_intr be vicious;be obstinate
 ;; Earim_1
 Erm     Earim   N-ap    violent;powerful
@@ -2627,13 +2460,9 @@ ErY     EoraY   IV_0_Pass_yu    be afflicted
 Ery     Eoray   IV_Ann_Pass_yu  be afflicted
 ;; {iEotaraY_1
 <EtrY   {iEotaraY       PV_0    afflict;befall
-AEtrY   {iEotaraY       PV_0    afflict;befall
 <EtrA   {iEotarA        PV_h    afflict;befall
-AEtrA   {iEotarA        PV_h    afflict;befall
 <Etry   {iEotaray       PV_Atn  afflict;befall
-AEtry   {iEotaray       PV_Atn  afflict;befall
 <Etr    {iEotar PV_ttAw afflict;befall
-AEtr    {iEotar PV_ttAw afflict;befall
 Etry    Eotariy IV_0hAnn        afflict;befall
 Etr     Eotar   IV_0hwnyn       afflict;befall
 EtrY    EotaraY IV_0_Pass_yu    be afflicted
@@ -2667,13 +2496,9 @@ tEry    taEar~ay        IV_Ann  undress;strip
 tEr     taEar~  IV_0hwnyn       undress;strip
 ;; {isotaEoraY_1
 <stErY  {isotaEoraY     PV_0    undress;strip
-AstErY  {isotaEoraY     PV_0    undress;strip
 <stErA  {isotaEorA      PV_h    undress;strip
-AstErA  {isotaEorA      PV_h    undress;strip
 <stEry  {isotaEoray     PV_Atn  undress;strip
-AstEry  {isotaEoray     PV_Atn  undress;strip
 <stEr   {isotaEor       PV_ttAw undress;strip
-AstEr   {isotaEor       PV_ttAw undress;strip
 stEry   sotaEoriy       IV_0hAnn        undress;strip
 stEr    sotaEor IV_0hwnyn       undress;strip
 stErY   sotaEoraY       IV_0_Pass_yu    be undressed;be stripped bare
@@ -2696,13 +2521,9 @@ tEry    taEoriy Nap     uncovering;exposure;unveiling
 tEry    taEar~iy        N0_Nh   nudity
 ;; {isotiEorA'_1
 <stErA' {isotiEorA'     N0_Nh   self-exposure;exhibitionism
-AstErA' {isotiEorA'     N0_Nh   self-exposure;exhibitionism
 <stErA& {isotiEorA&     Nh      self-exposure;exhibitionism
-AstErA& {isotiEorA&     Nh      self-exposure;exhibitionism
 <stErA} {isotiEorA}     Nhy     self-exposure;exhibitionism
-AstErA} {isotiEorA}     Nhy     self-exposure;exhibitionism
 <stErA' {isotiEorA'     NAt     self-exposure;exhibitionism
-AstErA' {isotiEorA'     NAt     self-exposure;exhibitionism
 ;; EAriy_1
 EAry    EAriy   N0F     naked;bare     <pos>EAriy/ADJ</pos>
 EAr     EAr     NK      naked;bare
@@ -2744,9 +2565,7 @@ Ezz     Eaz~az  PV      strengthen;reinforce
 Ezz     Eaz~iz  IV_yu   strengthen;reinforce
 ;; >aEaz~_1
 >Ez     >aEaz~  PV_V    strengthen;reinforce
-AEz     >aEaz~  PV_V    strengthen;reinforce
 >Ezz    >aEozaz PV_C    strengthen;reinforce
-AEzz    >aEozaz PV_C    strengthen;reinforce
 Ez      Eiz~    IV_V_yu strengthen;reinforce
 Ezz     Eoziz   IV_C_yu strengthen;reinforce
 Ez      Eaz~    IV_V_Pass_yu    be strengthened;be reinforced
@@ -2755,16 +2574,12 @@ tEzz    taEaz~az        PV_intr be strengthened;be reinforced
 tEzz    taEaz~az        IV_intr be strengthened;be reinforced
 ;; {iEotaz~_1
 <Etz    {iEotaz~        PV_V_intr       be proud
-AEtz    {iEotaz~        PV_V_intr       be proud
 <Etzz   {iEotazaz       PV_C_intr       be proud
-AEtzz   {iEotazaz       PV_C_intr       be proud
 Etz     Eotaz~  IV_V_intr       be proud
 Etzz    Eotaziz IV_C_intr       be proud
 ;; {isotaEaz~_1
 <stEz   {isotaEaz~      PV_V    hold dear;appreciate
-AstEz   {isotaEaz~      PV_V    hold dear;appreciate
 <stEzz  {isotaEozaz     PV_C    hold dear;appreciate
-AstEzz  {isotaEozaz     PV_C    hold dear;appreciate
 stEz    sotaEiz~        IV_V    hold dear;appreciate
 stEzz   sotaEoziz       IV_C    hold dear;appreciate
 ;; Eiz~_1
@@ -2784,20 +2599,15 @@ Ezyz    Eaziyz  N0      Aziz
 ;; Eaziyz_2
 Ezyz    Eaziyz  N/ap    dear;precious     <pos>Eaziyz/ADJ</pos>
 >EzA'   >aEiz~A'        N0_Nh   dear;precious     <pos>>aEiz~A'/ADJ</pos>
-AEzA'   >aEiz~A'        N0_Nh   dear;precious     <pos>>aEiz~A'/ADJ</pos>
 >EzA&   >aEiz~A&        Nh      dear;precious     <pos>>aEiz~A&/ADJ</pos>
-AEzA&   >aEiz~A&        Nh      dear;precious     <pos>>aEiz~A&/ADJ</pos>
 >EzA}   >aEiz~A}        Nhy     dear;precious     <pos>>aEiz~A}/ADJ</pos>
-AEzA}   >aEiz~A}        Nhy     dear;precious     <pos>>aEiz~A}/ADJ</pos>
 >Ez     >aEiz~  Nap     dear;precious     <pos>>aEiz~/ADJ</pos>
-AEz     >aEiz~  Nap     dear;precious     <pos>>aEiz~/ADJ</pos>
 ;; Eaziyziy~_1
 Ezyzy   Eaziyziy~       N0      Azizi
 ;; Eaziyziy~_2
 Ezyzy   Eaziyziy~       Nall    dear;precious     <pos>Eaziyziy~/ADJ</pos>
 ;; >aEaz~_2
 >Ez     >aEaz~  Nel     stronger/strongest;dearer/dearest
-AEz     >aEaz~  Nel     stronger/strongest;dearer/dearest
 ;; Euz~aY_1
 EzY     Euz~aY  N0      Uzza (pagan goddess)
 ;; maEaz~ap_1
@@ -2815,10 +2625,8 @@ tEzyz   taEoziyz        NAt     reinforcements;supplies
 tEzyz   taEoziyz        N/At    praise;pride
 ;; <iEozAz_1
 <EzAz   <iEozAz N/At    strengthening;fortifications
-AEzAz   <iEozAz N/At    strengthening;fortifications
 ;; {iEotizAz_1
 <EtzAz  {iEotizAz       N/At    pride
-AEtzAz  {iEotizAz       N/At    pride
 ;; muEaz~iz_1
 mEzz    muEaz~iz        Nall    reinforcing;reinforcement     <pos>muEaz~iz/ADJ</pos>
 ;; muEotaz~_1
@@ -2845,7 +2653,6 @@ Ezwb    Euzuwb  N       being distant
 Ezb     Eazab   N       celibate;unmarried
 EzAb    Euz~Ab  N       celibate;unmarried
 >EzAb   >aEozAb N       celibate;unmarried
-AEzAb   >aEozAb N       celibate;unmarried
 ;; Eizobap_1
 Ezb     Eizob   Napdu   farm;country estate
 Ezb     Eizab   N       farms;country estates
@@ -2878,7 +2685,6 @@ Ezr     Eazor   N       reprimand;censure
 tEzyr   taEoziyr        N/At    reprimand;censure
 ;; {iEotizAr_1
 <EtzAr  {iEotizAr       N/At    self-discipline
-AEtzAr  {iEotizAr       N/At    self-discipline
 ;
 ;--- EzrA
 ;; EizorA}iyl_1
@@ -2919,16 +2725,13 @@ Ezl     Eazal   PV      depose;dismiss
 Ezl     Eozil   IV      depose;dismiss
 ;; >aEozal_1
 >Ezl    >aEozal PV      resign;step down
-AEzl    >aEozal PV      resign;step down
 Ezl     Eozil   IV_yu   resign;step down
 Ezl     Eozal   IV_Pass_yu      be forced to resign;be forced to step down
 ;; {inoEazal_1
 <nEzl   {inoEazal       PV_intr be separate;be dissociated
-AnEzl   {inoEazal       PV_intr be separate;be dissociated
 nEzl    noEazil IV_intr be separate;be dissociated
 ;; {iEotazal_1
 <Etzl   {iEotazal       PV_intr be separate;be dissociated
-AEtzl   {iEotazal       PV_intr be separate;be dissociated
 Etzl    Eotazil IV_intr be separate;be dissociated
 ;; Eazol_1
 Ezl     Eazol   N       removal;dismissal
@@ -2950,16 +2753,12 @@ mEzl    maEozil Ndu     retreat;isolation ward;segregation
 mEAzl   maEAzil Ndip    isolation wards;segregation
 ;; {inoEizAl_1
 <nEzAl  {inoEizAl       N/At    separation;seclusion;isolation
-AnEzAl  {inoEizAl       N/At    separation;seclusion;isolation
 ;; {inoEizAliy~_1
 <nEzAly {inoEizAliy~    Nall    isolationist     <pos>{inoEizAliy~/ADJ</pos>
-AnEzAly {inoEizAliy~    Nall    isolationist     <pos>{inoEizAliy~/ADJ</pos>
 ;; {inoEizAliy~ap_1
 <nEzAly {inoEizAliy~    Nap     isolationism     <pos>{inoEizAliy~/NOUN</pos>
-AnEzAly {inoEizAliy~    Nap     isolationism     <pos>{inoEizAliy~/NOUN</pos>
 ;; {iEotizAl_1
 <EtzAl  {iEotizAl       N/At    retirement;seclusion
-AEtzAl  {iEotizAl       N/At    retirement;seclusion
 ;; EAzil_1
 EAzl    EAzil   N-ap    insulating
 ;; EAzilap_1
@@ -2989,7 +2788,6 @@ Ezm     Eaz~am  PV      enchant;exorcise
 Ezm     Eaz~im  IV_yu   enchant;exorcise
 ;; {iEotazam_1
 <Etzm   {iEotazam       PV_intr be determined;be resolute
-AEtzm   {iEotazam       PV_intr be determined;be resolute
 Etzm    Eotazim IV_intr be determined;be resolute
 ;; Eazom_1
 Ezm     Eazom   N       determination;firm resolve
@@ -3069,25 +2867,17 @@ tEAzy   taEAzay IV_Ann  console each other
 tEAz    taEAz   IV_0hwnyn       console each other
 ;; {inoEazaY_1
 <nEzY   {inoEazaY       PV_0    be consoled
-AnEzY   {inoEazaY       PV_0    be consoled
 <nEzA   {inoEazA        PV_h    be consoled
-AnEzA   {inoEazA        PV_h    be consoled
 <nEzy   {inoEazay       PV_Atn  be consoled
-AnEzy   {inoEazay       PV_Atn  be consoled
 <nEz    {inoEaz PV_ttAw_intr    be consoled
-AnEz    {inoEaz PV_ttAw_intr    be consoled
 nEzy    noEaziy IV_0hAnn        be consoled
 nEz     noEaz   IV_0hwnyn       be consoled
 nEzY    noEazaY IV_0_Pass_yu    be consoled
 ;; {iEotazaY_1
 <EtzY   {iEotazaY       PV_0    trace ancestry
-AEtzY   {iEotazaY       PV_0    trace ancestry
 <EtzA   {iEotazA        PV_h    trace ancestry
-AEtzA   {iEotazA        PV_h    trace ancestry
 <Etzy   {iEotazay       PV_Atn  trace ancestry
-AEtzy   {iEotazay       PV_Atn  trace ancestry
 <Etz    {iEotaz PV_ttAw trace ancestry
-AEtz    {iEotaz PV_ttAw trace ancestry
 Etzy    Eotaziy IV_0hAnn        trace ancestry
 Etz     Eotaz   IV_0hwnyn       trace ancestry
 EtzY    EotazaY IV_0_Pass_yu    be traced (ancestry)
@@ -3118,9 +2908,7 @@ Es      Eus~    IV_V    patrol by night;make nocturnal rounds
 Ess     Eosus   IV_C    patrol by night;make nocturnal rounds
 ;; {iEotas~_1
 <Ets    {iEotas~        PV_V    patrol by night;make nocturnal rounds
-AEts    {iEotas~        PV_V    patrol by night;make nocturnal rounds
 <Etss   {iEotasas       PV_C    patrol by night;make nocturnal rounds
-AEtss   {iEotasas       PV_C    patrol by night;make nocturnal rounds
 Ets     Eotas~  IV_V    patrol by night;make nocturnal rounds
 Etss    Eotasis IV_C    patrol by night;make nocturnal rounds
 ;; Eas~_1
@@ -3166,7 +2954,6 @@ EAsr    EAsar   PV      treat harshly
 EAsr    EAsir   IV_yu   treat harshly
 ;; >aEosar_1
 >Esr    >aEosar PV_intr be in dire straits
-AEsr    >aEosar PV_intr be in dire straits
 Esr     Eosir   IV_intr_yu      be in dire straits
 ;; taEas~ar_1
 tEsr    taEas~ar        PV_intr be difficult
@@ -3176,7 +2963,6 @@ tEAsr   taEAsar PV_intr be difficult;feign penury
 tEAsr   taEAsar IV_intr be difficult;feign penury
 ;; {isotaEosar_1
 <stEsr  {isotaEosar     PV_intr be difficult;find difficult
-AstEsr  {isotaEosar     PV_intr be difficult;find difficult
 stEsr   sotaEosir       IV_intr be difficult;find difficult
 ;; Eusor_1
 Esr     Eusor   N       difficulty;dire straits
@@ -3192,13 +2978,11 @@ Esyry   Easiyriy~       N0      Asiri
 Esyry   Easiyriy~       Nall    of/from Asir (Saudi Arabia)
 ;; >aEosar_2
 >Esr    >aEosar Nel     left-handed
-AEsr    >aEosar Nel     left-handed
 EsrA'   EasorA' N0_Nh   left-handed
 EsrA&   EasorA& Nh      left-handed
 EsrA}   EasorA} Nhy     left-handed
 ;; >aEosar_3
 >Esr    >aEosar Nel     harder/hardest
-AEsr    >aEosar Nel     harder/hardest
 EsrA'   EasorA' N0_Nh   hardest
 EsrA&   EasorA& Nh      hardest
 EsrA}   EasorA} Nhy     hardest
@@ -3210,7 +2994,6 @@ Esrwy   Easorawiy~      Nall    left-handed     <pos>Easorawiy~/ADJ</pos>
 mEsr    maEosar Nap     difficulty;dire straits
 ;; <iEosAr_1
 <EsAr   <iEosAr N/At    poverty;insolvency;dire straits
-AEsAr   <iEosAr N/At    poverty;insolvency;dire straits
 ;; taEas~ur_1
 tEsr    taEas~ur        N/At    difficulty
 ;; maEosuwr_1
@@ -3236,7 +3019,6 @@ Esf     Eas~af  PV      overburden
 Esf     Eas~if  IV_yu   overburden
 ;; >aEosaf_1
 >Esf    >aEosaf PV      overburden
-AEsf    >aEosaf PV      overburden
 Esf     Eosif   IV_yu   overburden
 Esf     Eosaf   IV_Pass_yu      be overburdened
 ;; taEas~af_1
@@ -3244,7 +3026,6 @@ tEsf    taEas~af        PV_intr be despotic;be abusive
 tEsf    taEas~af        IV_intr be despotic;be abusive
 ;; {iEotasaf_1
 <Etsf   {iEotasaf       PV      do haphazardly;deviate;coerce
-AEtsf   {iEotasaf       PV      do haphazardly;deviate;coerce
 Etsf    Eotasif IV      do haphazardly;deviate;coerce
 ;; Easof_1
 Esf     Easof   N       injustice;oppression
@@ -3262,7 +3043,6 @@ tEsfy   taEas~ufiy~     Nall    tyrannical;despotic;arbitrary     <pos>taEas~ufi
 tEsfy   taEas~ufiy~     NF      abusively;arbitrarily     <pos>taEas~ufiy~/ADV</pos>
 ;; {iEotisAf_1
 <EtsAf  {iEotisAf       N/At    deviation;coercion
-AEtsAf  {iEotisAf       N/At    deviation;coercion
 ;; mutaEas~if_1
 mtEsf   mutaEas~if      Nall    tyrant;despot
 ;
@@ -3298,7 +3078,6 @@ Esl     Eas~il  IV_yu   sweeten
 ;; Easal_1
 Esl     Easal   N       honey
 >EsAl   >aEosAl N       honey
-AEsAl   >aEosAl N       honey
 Eswl    Eusuwl  N       honey
 ;; Easaliy~_1
 Esly    Easaliy~        N-ap    honey-like     <pos>Easaliy~/ADJ</pos>
@@ -3360,16 +3139,13 @@ tE$$    taEa$~a$        PV_intr become rooted
 tE$$    taEa$~a$        IV_intr become rooted
 ;; {iEota$~_1
 <Et$    {iEota$~        PV_V    build a nest;take root
-AEt$    {iEota$~        PV_V    build a nest;take root
 <Et$$   {iEota$a$       PV_C    build a nest;take root
-AEt$$   {iEota$a$       PV_C    build a nest;take root
 Et$     Eota$~  IV_V    build a nest;take root
 Et$$    Eota$i$ IV_C    build a nest;take root
 ;; Eu$~_1
 E$      Eu$~    Ndu     nest
 E$A$    Ei$A$   N       nests
 >E$A$   >aEo$A$ N       nests
-AE$A$   >aEo$A$ N       nests
 E$$     Ei$a$   Nap     nests
 ;; Eu$~ap_1
 E$      Eu$~    Napdu   shack;coop;cage
@@ -3380,7 +3156,6 @@ tE$y$   taEo$iy$        N/At    nesting;rooting
 ;--- E$b
 ;; >aEo$ab_1
 >E$b    >aEo$ab PV      grow vegetation
-AE$b    >aEo$ab PV      grow vegetation
 E$b     Eo$ib   IV_yu   grow vegetation
 E$b     Eo$ab   IV_Pass_yu      be verdant/green
 ;; taEa$~ab_1
@@ -3389,16 +3164,13 @@ tE$b    taEa$~ab        IV      collect plants;botanize
 ; form XII
 ;; {iEo$awo$ab_1
 <E$w$b  {iEo$awo$ab     PV_intr be covered with vegetation
-AE$w$b  {iEo$awo$ab     PV_intr be covered with vegetation
 E$w$b   Eo$awo$ib       IV_intr be covered with vegetation
 ;; Eu$ob_1
 E$b     Eu$ob   N       grass;vegetation
 E$b     Eu$ob   Nap     plant;herb
 >E$Ab   >aEo$Ab N       herbs;vegetation
-AE$Ab   >aEo$Ab N       herbs;vegetation
 ;; >aEo$Abiy~_1
 >E$Aby  >aEo$Abiy~      Nall    herbalist     <pos>>aEo$Abiy~/ADJ</pos>
-AE$Aby  >aEo$Abiy~      Nall    herbalist     <pos>>aEo$Abiy~/ADJ</pos>
 ;; Eu$obiy~_1
 E$by    Eu$obiy~        Nall    vegetation;herbal     <pos>Eu$obiy~/ADJ</pos>
 ;; Ea$ib_1
@@ -3428,7 +3200,6 @@ tEA$r   taEA$ar IV      associate with each other;have contact with each other
 ;; Eu$or_1
 E$r     Eu$or   Ndu     tenth;tenth part
 >E$Ar   >aEo$Ar N       tenths
-AE$Ar   >aEo$Ar N       tenths
 E$wr    Eu$uwr  N       tenths
 ;; Ea$oriy~_1
 E$ry    Ea$oriy~        N-ap    decennial     <pos>Ea$oriy~/ADJ</pos>
@@ -3437,7 +3208,6 @@ E$ry    Ea$oriy~        N0      Ashri
 ;; Eu$oriy~_1
 E$ry    Eu$oriy~        N-ap    decimal     <pos>Eu$oriy~/ADJ</pos>
 >E$Ary  >aEo$Ariy~      N-ap    decimal     <pos>>aEo$Ariy~/ADJ</pos>
-AE$Ary  >aEo$Ariy~      N-ap    decimal     <pos>>aEo$Ariy~/ADJ</pos>
 ;; Ei$orap_1
 E$r     Ei$or   Nap     association;relationship
 ;; Ea$arap_1
@@ -3540,7 +3310,6 @@ E$m     Eo$am   IV_intr be dry;be parched
 E$m     Ea$am   N-ap    dry
 ;; >aEo$am_1
 >E$m    >aEo$am Nel     dry;thin
-AE$m    >aEo$am Nel     dry;thin
 E$mA'   Ea$omA' N0_Nh   dry;thin
 E$mA&   Ea$omA& Nh      dry;thin
 E$mA}   Ea$omA} Nhy     dry;thin
@@ -3569,13 +3338,9 @@ E$Y     Ea$~aY  IV_0_Pass_yu    be given dinner
 E$y     Ea$~ay  IV_Ann_Pass_yu  be given dinner
 ;; >aEo$aY_1
 >E$Y    >aEo$aY PV_0    make blind
-AE$Y    >aEo$aY PV_0    make blind
 >E$A    >aEo$A  PV_h    make blind
-AE$A    >aEo$A  PV_h    make blind
 >E$y    >aEo$ay PV_Atn  make blind
-AE$y    >aEo$ay PV_Atn  make blind
 >E$     >aEo$   PV_ttAw make blind
-AE$     >aEo$   PV_ttAw make blind
 E$y     Eo$iy   IV_0hAnn_yu     make blind
 E$      Eo$     IV_0hwnyn_yu    make blind
 E$Y     Eo$aY   IV_0_Pass_yu    be blinded
@@ -3605,7 +3370,6 @@ E$A'    Ea$A'   N0_Nh   dinner;supper
 E$A&    Ea$A&   Nh      dinner;supper
 E$A}    Ea$A}   Nhy     dinner;supper
 >E$y    >aEo$iy Nap     dinners;suppers
-AE$y    >aEo$iy Nap     dinners;suppers
 ;; Ei$A'_1
 E$A'    Ei$A'   N0_Nh   evening
 E$A&    Ei$A&   Nh      evening
@@ -3615,11 +3379,8 @@ E$y     Ea$iy~  NapAt   eve of;night before     <pos>Ea$iy~/NOUN</pos>
 E$AyA   Ea$AyA  N0_Nhy  evenings
 ;; >aEo$aY_2
 >E$Y    >aEo$aY N0      blind
-AE$Y    >aEo$aY N0      blind
 >E$A    >aEo$A  Nhy     blind
-AE$A    >aEo$A  Nhy     blind
 >E$y    >aEo$ay NAn_Nayn        blind
-AE$y    >aEo$ay NAn_Nayn        blind
 ;
 ;--- ES
 ;; EaS~-a_1
@@ -3642,7 +3403,6 @@ ESb     EaS~ab  PV      wrap
 ESb     EaS~ib  IV_yu   wrap
 ;; >aEoSab_1
 >ESb    >aEoSab PV      wrap
-AESb    >aEoSab PV      wrap
 ESb     EoSib   IV_yu   wrap
 ESb     EoSab   IV_Pass_yu      be wrapped
 ;; taEaS~ab_1
@@ -3650,12 +3410,10 @@ tESb    taEaS~ab        PV_intr be fanatical;be intolerant
 tESb    taEaS~ab        IV_intr be fanatical;be intolerant
 ;; {iEotaSab_1
 <EtSb   {iEotaSab       PV      conspire;gang up;go on strike
-AEtSb   {iEotaSab       PV      conspire;gang up;go on strike
 EtSb    EotaSib IV      conspire;gang up;go on strike
 ;; EaSab_1
 ESb     EaSab   N       nerve
 >ESAb   >aEoSAb N       nerves
-AESAb   >aEoSAb N       nerves
 ;; EaSabiy~_1
 ESby    EaSabiy~        Nall    nervous     <pos>EaSabiy~/ADJ</pos>
 ;; EaSabiy~ap_1
@@ -3686,7 +3444,6 @@ tESb    taEaS~ub        N/At    fanaticism;intolerance;chauvinism
 tESby   taEaS~ubiy~     Nall    fanatical;intolerant;chauvinist     <pos>taEaS~ubiy~/ADJ</pos>
 ;; {iEotiSAb_1
 <EtSAb  {iEotiSAb       N/At    strike
-AEtSAb  {iEotiSAb       N/At    strike
 ;; mutaEaS~ib_1
 mtESb   mutaEaS~ib      Nall    fanatical;intolerant;chauvinist     <pos>mutaEaS~ib/ADJ</pos>
 ;; maEoSuwb_1
@@ -3722,19 +3479,15 @@ tEASr   taEASar PV_intr be contemporaneous
 tEASr   taEASar IV_intr be contemporaneous
 ;; {inoEaSar_1
 <nESr   {inoEaSar       PV_intr be compressed;be squeezed
-AnESr   {inoEaSar       PV_intr be compressed;be squeezed
 nESr    noEaSir IV_intr be compressed;be squeezed
 ;; {iEotaSar_1
 <EtSr   {iEotaSar       PV      squeeze;press;compress
-AEtSr   {iEotaSar       PV      squeeze;press;compress
 EtSr    EotaSir IV      squeeze;press;compress
 ;; EaSor_1
 ESr     EaSor   Ndu     age;period;epoch
 >ESr    >aEoSur N       ages;periods;epochs
-AESr    >aEoSur N       ages;periods;epochs
 ESwr    EuSuwr  N       ages;periods;epochs
 >ESAr   >aEoSAr N       ages;periods;epochs
-AESAr   >aEoSAr N       ages;periods;epochs
 ;; EaSor_2
 ESr     EaSor   N       compression;squeezing
 ;; EaSAriy_1
@@ -3754,9 +3507,7 @@ ESAr    EaS~Ar  NapAt   press;wringer
 tESyr   taEoSiyr        N/At    modernization
 ;; <iEoSAr_1
 <ESAr   <iEoSAr N/At    tornado;hurricane
-AESAr   <iEoSAr N/At    tornado;hurricane
 >EASyr  >aEASiyr        Ndip    tornadoes;hurricanes
-AEASyr  >aEASiyr        Ndip    tornadoes;hurricanes
 ;; miEoSarap_1
 mESr    miEoSar Napdu   press;wringer
 mEASr   maEASir Ndip    presses;wringers
@@ -3782,7 +3533,6 @@ ESf     EaSaf   PV_intr be stormy;be tempestuous
 ESf     EoSif   IV_intr be stormy;be tempestuous
 ;; >aEoSaf_1
 >ESf    >aEoSaf PV_intr be stormy;be tempestuous
-AESf    >aEoSaf PV_intr be stormy;be tempestuous
 ESf     EoSif   IV_intr_yu      be stormy;be tempestuous
 ;; EaSof_1
 ESf     EaSof   N       storming
@@ -3825,18 +3575,15 @@ ESm     EaSam   PV      safeguard;preserve
 ESm     EoSim   IV      safeguard;preserve
 ;; {iEotaSam_1
 <EtSm   {iEotaSam       PV      adhere to;stand by;preserve
-AEtSm   {iEotaSam       PV      adhere to;stand by;preserve
 EtSm    EotaSim IV      adhere to;stand by;preserve
 ;; {isotaEoSam_1
 <stESm  {isotaEoSam     PV      seek refuge;resort to
-AstESm  {isotaEoSam     PV      seek refuge;resort to
 stESm   sotaEoSim       IV      seek refuge;resort to
 ;; EaSom_1
 ESm     EaSom   N       preservation
 ;; EuSomap_1
 ESm     EuSom   Nap     collar;necklace
 >ESAm   >aEoSAm N       collars;necklaces
-AESAm   >aEoSAm N       collars;necklaces
 ;; EiSomap_1
 ESm     EiSom   Nap     chastity;innocence
 ;; EiSAm_1
@@ -3863,7 +3610,6 @@ mESm    miEoSam Ndu     wrist
 mEASm   maEASim Ndip    wrists
 ;; >aEoSam_1
 >ESm    >aEoSam Nel     precious;valuable;white-footed
-AESm    >aEoSam Nel     precious;valuable;white-footed
 ESmA'   EaSomA' N0_Nh   precious;valuable;white-footed
 ESmA&   EaSomA& Nh      precious;valuable;white-footed
 ESmA}   EaSomA} Nhy     precious;valuable;white-footed
@@ -3876,10 +3622,8 @@ mEtSm   muEotaSim       Nall    seeking refuge;resorting to
 mEtSm   muEotaSam       NduAt   refuge;secure place
 ;; {iEotiSAm_1
 <EtSAm  {iEotiSAm       N/At    refuge;preservation;adhering;preserving
-AEtSAm  {iEotiSAm       N/At    refuge;preservation;adhering;preserving
 ;; {iEotiSAm_2
 <EtSAm  {iEotiSAm       N/At    sit-in strike;occupation
-AEtSAm  {iEotiSAm       N/At    sit-in strike;occupation
 ;
 ;--- ESml
 ;; EuSomAnoliy~_1
@@ -3937,36 +3681,25 @@ tEASy   taEASay IV_Ann  be difficult
 tEAS    taEAS   IV_0hwnyn       be difficult
 ;; {iEotaSaY_1
 <EtSY   {iEotaSaY       PV_0    be difficult
-AEtSY   {iEotaSaY       PV_0    be difficult
 <EtSA   {iEotaSA        PV_h    be difficult
-AEtSA   {iEotaSA        PV_h    be difficult
 <EtSy   {iEotaSay       PV_Atn  be difficult
-AEtSy   {iEotaSay       PV_Atn  be difficult
 <EtS    {iEotaS PV_ttAw_intr    be difficult
-AEtS    {iEotaS PV_ttAw_intr    be difficult
 EtSy    EotaSiy IV_0hAnn        be difficult
 EtS     EotaS   IV_0hwnyn       be difficult
 EtSY    EotaSaY IV_0_Pass_yu    be difficult
 ;; {isotaEoSaY_1
 <stESY  {isotaEoSaY     PV_0    elude;fail
-AstESY  {isotaEoSaY     PV_0    elude;fail
 <stESA  {isotaEoSA      PV_h    elude;fail
-AstESA  {isotaEoSA      PV_h    elude;fail
 <stESy  {isotaEoSay     PV_Atn  elude;fail
-AstESy  {isotaEoSay     PV_Atn  elude;fail
 <stES   {isotaEoS       PV_ttAw elude;fail
-AstES   {isotaEoS       PV_ttAw elude;fail
 stESy   sotaEoSiy       IV_0hAnn        elude;fail
 stES    sotaEoS IV_0hwnyn       elude;fail
 stESY   sotaEoSaY       IV_0_Pass_yu    be eluded
 ;; EaSiy~_1
 ESy     EaSiy~  Nall    rebel;mutineer     <pos>EaSiy~/ADJ</pos>
 >ESyA'  >aEoSiyA'       N0_Nh   rebels;mutineers
-AESyA'  >aEoSiyA'       N0_Nh   rebels;mutineers
 >ESyA&  >aEoSiyA&       Nh      rebels;mutineers
-AESyA&  >aEoSiyA&       Nh      rebels;mutineers
 >ESyA}  >aEoSiyA}       Nhy     rebels;mutineers
-AESyA}  >aEoSiyA}       Nhy     rebels;mutineers
 ;; EiSoyAn_1
 ESyAn   EiSoyAn N       mutiny;insubordination
 ;; EiSoyAniy~_1
@@ -3979,26 +3712,16 @@ mEAS    maEAS   NK      insubordination;rebellions
 mESy    maEoSiy Nap     disobedience;sin
 ;; {isotiEoSA'_1
 <stESA' {isotiEoSA'     N0_Nh   obstinacy;difficulty
-AstESA' {isotiEoSA'     N0_Nh   obstinacy;difficulty
 <stESA& {isotiEoSA&     Nh      obstinacy;difficulty
-AstESA& {isotiEoSA&     Nh      obstinacy;difficulty
 <stESA} {isotiEoSA}     Nhy     obstinacy;difficulty
-AstESA} {isotiEoSA}     Nhy     obstinacy;difficulty
 <stESA' {isotiEoSA'     NAt     obstinacy;difficulty
-AstESA' {isotiEoSA'     NAt     obstinacy;difficulty
 ;; {isotiEoSA'_2
 <stESA' {isotiEoSA'     N0_Nh   failure;malfunction
-AstESA' {isotiEoSA'     N0_Nh   failure;malfunction
 <stESA& {isotiEoSA&     Nh      failure;malfunction
-AstESA& {isotiEoSA&     Nh      failure;malfunction
 <stESA} {isotiEoSA}     Nhy     failure;malfunction
-AstESA} {isotiEoSA}     Nhy     failure;malfunction
 <stESA' {isotiEoSA'     NAn_Nayn        failures;malfunctions
-AstESA' {isotiEoSA'     NAn_Nayn        failures;malfunctions
 <stESA} {isotiEoSA}     Nayn    failures;malfunctions
-AstESA} {isotiEoSA}     Nayn    failures;malfunctions
 <stESA' {isotiEoSA'     NAt     failures;malfunctions
-AstESA' {isotiEoSA'     NAt     failures;malfunctions
 ;; EASiy_1
 EASy    EASiy   N0F     rebellious;insubordinate     <pos>EASiy/ADJ</pos>
 EAS     EAS     NK      rebellious;insubordinate
@@ -4086,7 +3809,6 @@ EDl     EaDal   PV      prevent
 EDl     EoDul   IV      prevent
 ;; >aEoDal_1
 >EDl    >aEoDal PV_intr be difficult;pose a problem
-AEDl    >aEoDal PV_intr be difficult;pose a problem
 EDl     EoDil   IV_intr_yu      be difficult;pose a problem
 ;; taEaD~al_1
 tEDl    taEaD~al        PV_intr be difficult;pose a problem
@@ -4122,19 +3844,13 @@ EDAh    EiDAh   N       thorny shrubs
 ;; EuDow_1
 EDw     EuDow   N/ap    member
 >EDA'   >aEoDA' N0_Nh   members
-AEDA'   >aEoDA' N0_Nh   members
 >EDA&   >aEoDA& Nh      members
-AEDA&   >aEoDA& Nh      members
 >EDA}   >aEoDA} Nhy     members
-AEDA}   >aEoDA} Nhy     members
 ;; EuDow_2
 EDw     EuDow   Ndu     organ
 >EDA'   >aEoDA' N0_Nh   organs
-AEDA'   >aEoDA' N0_Nh   organs
 >EDA&   >aEoDA& Nh      organs
-AEDA&   >aEoDA& Nh      organs
 >EDA}   >aEoDA} Nhy     organs
-AEDA}   >aEoDA} Nhy     organs
 ;; EuDowiy~_1
 EDwy    EuDowiy~        N-ap    organic     <pos>EuDowiy~/ADJ</pos>
 ;; EuDowiy~ap_1
@@ -4156,7 +3872,6 @@ ETb     EaT~ab  PV      destroy;damage
 ETb     EaT~ib  IV_yu   destroy;damage
 ;; >aEoTab_1
 >ETb    >aEoTab PV      destroy;damage
-AETb    >aEoTab PV      destroy;damage
 ETb     EoTib   IV_yu   destroy;damage
 ETb     EoTab   IV_Pass_yu      be destroyed;be damaged
 ;; taEaT~ab_1
@@ -4164,12 +3879,10 @@ tETb    taEaT~ab        PV_intr be destroyed;be damaged
 tETb    taEaT~ab        IV_intr be destroyed;be damaged
 ;; {iEotaTab_1
 <EtTb   {iEotaTab       PV      perish;be destroyed
-AEtTb   {iEotaTab       PV      perish;be destroyed
 EtTb    EotaTib IV      perish;be destroyed
 ;; EaTab_1
 ETb     EaTab   N       destruction;damage
 >ETAb   >aEoTAb N       destruction;damages
-AETAb   >aEoTAb N       destruction;damages
 ;; taEoTiyb_1
 tETyb   taEoTiyb        N/At    destruction;damage
 ;; taEaT~ub_1
@@ -4253,7 +3966,6 @@ ET$     EaT~a$  PV      make thirsty
 ET$     EaT~i$  IV_yu   make thirsty
 ;; >aEoTa$_1
 >ET$    >aEoTa$ PV      make thirsty
-AET$    >aEoTa$ PV      make thirsty
 ET$     EoTi$   IV_yu   make thirsty
 ET$     EoTa$   IV_Pass_yu      be made thirsty
 ;; taEaT~a$_1
@@ -4303,22 +4015,18 @@ tEATf   taEATaf PV      sympathize; be sympathetic (with)
 tEATf   taEATaf IV      sympathize; be sympathetic (with)
 ;; {inoEaTaf_1
 <nETf   {inoEaTaf       PV      turn;sympathize
-AnETf   {inoEaTaf       PV      turn;sympathize
 nETf    noEaTif IV      turn;sympathize
 ;; {iEotaTaf_1
 <EtTf   {iEotaTaf       PV_intr be wrapped
-AEtTf   {iEotaTaf       PV_intr be wrapped
 EtTf    EotaTif IV_intr be wrapped
 ;; {isotaEoTaf_1
 <stETf  {isotaEoTaf     PV      propitiate
-AstETf  {isotaEoTaf     PV      propitiate
 stETf   sotaEoTif       IV      propitiate
 ;; EaTof_1
 ETf     EaTof   N       sympathy
 ;; EiTof_1
 ETf     EiTof   Ndu     side;flank
 >ETAf   >aEoTAf N       sides;flanks
-AETAf   >aEoTAf N       sides;flanks
 ;; EaTofap_1
 ETf     EaTof   Nap     turn;bend
 ;; EaTofap_2
@@ -4328,7 +4036,6 @@ ETf     EaTaf   NAt     lanes;alleys
 ETAf    EiTAf   N       cloak
 ETf     EuTuf   N       cloaks
 >ETf    >aEoTif Nap     cloaks
-AETf    >aEoTif Nap     cloaks
 ;; EaTuwf_1
 ETwf    EaTuwf  Nall    sympathetic;affectionate     <pos>EaTuwf/ADJ</pos>
 ;; EuTuwfap_1
@@ -4344,16 +4051,12 @@ tEATf   taEATuf N/At    mutual sympathy;mutual affection
 tEATfy  taEATufiy~      N-ap    sympathetic     <pos>taEATufiy~/ADJ</pos>
 ;; {inoEiTAf_1
 <nETAf  {inoEiTAf       N/At    turning;curvature;sympathy
-AnETAf  {inoEiTAf       N/At    turning;curvature;sympathy
 ;; {inoEiTAfap_1
 <nETAf  {inoEiTAf       Nap     turnaround;spin
-AnETAf  {inoEiTAf       Nap     turnaround;spin
 ;; {isotiEoTAf_1
 <stETAf {isotiEoTAf     N/At    entreaty;supplication
-AstETAf {isotiEoTAf     N/At    entreaty;supplication
 ;; {isotiEoTAfiy~_1
 <stETAfy        {isotiEoTAfiy~  N-ap    propitiatory     <pos>{isotiEoTAfiy~/ADJ</pos>
-AstETAfy        {isotiEoTAfiy~  N-ap    propitiatory     <pos>{isotiEoTAfiy~/ADJ</pos>
 ;; EATif_1
 EATf    EATif   Nprop   Atef;Atif
 ;; EATif_2
@@ -4392,7 +4095,6 @@ ETl     EaTal   N       unemployment;idleness
 ;; EuTol_1
 ETl     EuTol   N       malfunction;breakdown;failure
 >ETAl   >aEoTAl N       malfunctions;breakdown;failures
-AETAl   >aEoTAl N       malfunctions;breakdown;failures
 ;; EuTolap_1
 ETl     EuTol   NapAt   holiday;vacation;recess
 ;; EaTAlap_1
@@ -4428,19 +4130,14 @@ EATY    EATaY   IV_0_Pass_yu    be pursued;be practiced
 EATy    EATay   IV_Ann_Pass_yu  be pursued;be practiced
 ;; >aEoTaY_1
 >ETY    >aEoTaY PV_0    give;provide
-AETY    >aEoTaY PV_0    give;provide
 >ETA    >aEoTA  PV_h    give;provide
-AETA    >aEoTA  PV_h    give;provide
 >ETy    >aEoTay PV_Atn  give;provide
-AETy    >aEoTay PV_Atn  give;provide
 >ET     >aEoT   PV_ttAw give;provide
-AET     >aEoT   PV_ttAw give;provide
 ETy     EoTiy   IV_0hAnn_yu     give;provide
 ET      EoT     IV_0hwnyn_yu    give;provide
 ETY     EoTaY   IV_0_Pass_yu    be given;be provided
 ETy     EoTay   IV_Ann_Pass_yu  be given;be provided
 >ETy    >uEoTiy PV_Pass-aAat    be given;be provided
-AETy    >uEoTiy PV_Pass-aAat    be given;be provided
 ;; taEATaY_1
 tEATY   taEATaY PV_0    be involved with;undertake
 tEATA   taEATA  PV_h    be involved with;undertake
@@ -4452,13 +4149,9 @@ tEATy   taEATay IV_Ann  be involved with;undertake
 tEAT    taEAT   IV_0hwnyn       be involved with;undertake
 ;; {isotaEoTaY_1
 <stETY  {isotaEoTaY     PV_0    ask for alms
-AstETY  {isotaEoTaY     PV_0    ask for alms
 <stETA  {isotaEoTA      PV_h    ask for alms
-AstETA  {isotaEoTA      PV_h    ask for alms
 <stETy  {isotaEoTay     PV_Atn  ask for alms
-AstETy  {isotaEoTay     PV_Atn  ask for alms
 <stET   {isotaEoT       PV_ttAw ask for alms
-AstET   {isotaEoT       PV_ttAw ask for alms
 stETy   sotaEoTiy       IV_0hAnn        ask for alms
 stET    sotaEoT IV_0hwnyn       ask for alms
 stETY   sotaEoTaY       IV_0_Pass_yu    be asked (for alms)
@@ -4484,7 +4177,6 @@ ETA'    EaTA'   N0_Nh   gift;offer
 ETA&    EaTA&   Nh      gift;offer
 ETA}    EaTA}   Nhy     gift;offer
 >ETy    >aEoTiy Nap     gifts;offers
-AETy    >aEoTiy Nap     gifts;offers
 ;; EaTA'_3
 ETA'    EaTA'   N0_Nh   offer;tender
 ETA&    EaTA&   Nh      offer;tender
@@ -4508,17 +4200,11 @@ mEATA   muEATA  Napdu   pursuit;devotion
 mEATy   muEATay NAt     pursuits;devotion
 ;; <iEoTA'_1
 <ETA'   <iEoTA' N0_Nh   offer;donation;concession
-AETA'   <iEoTA' N0_Nh   offer;donation;concession
 <ETA&   <iEoTA& Nh      offer;donation;concession
-AETA&   <iEoTA& Nh      offer;donation;concession
 <ETA}   <iEoTA} Nhy     offer;donation;concession
-AETA}   <iEoTA} Nhy     offer;donation;concession
 <ETA'   <iEoTA' NAn_Nayn        offers;donations;concessions
-AETA'   <iEoTA' NAn_Nayn        offers;donations;concessions
 <ETA}   <iEoTA} Nayn    offers;donations;concessions
-AETA}   <iEoTA} Nayn    offers;donations;concessions
 <ETA'   <iEoTA' NAt     offers;donations;concessions
-AETA'   <iEoTA' NAt     offers;donations;concessions
 ;; taEATiy_1
 tEATy   taEATiy N0_Nh   pursuit;practice;addiction
 tEAT    taEAT   NK      pursuit;practice;addiction
@@ -4526,13 +4212,9 @@ tEATy   taEATiy NAn_Nayn        pursuit;practice;addiction
 tEATy   taEATiy NAt     pursuit;practice;addiction
 ;; {isotiEoTA'_1
 <stETA' {isotiEoTA'     N0_Nh   begging;mendacity
-AstETA' {isotiEoTA'     N0_Nh   begging;mendacity
 <stETA& {isotiEoTA&     Nh      begging;mendacity
-AstETA& {isotiEoTA&     Nh      begging;mendacity
 <stETA} {isotiEoTA}     Nhy     begging;mendacity
-AstETA} {isotiEoTA}     Nhy     begging;mendacity
 <stETA' {isotiEoTA'     NAt     begging;mendacity
-AstETA' {isotiEoTA'     NAt     begging;mendacity
 ;; muEoTiy_1
 mETy    muEoTiy N0F_Nh  donor;giving
 mET     muEoT   NK      donor;giving
@@ -4578,7 +4260,6 @@ EZm     EaZ~am  PV      ossify
 EZm     EaZ~im  IV_yu   ossify
 ;; >aEoZam_1
 >EZm    >aEoZam PV      glorify;venerate
-AEZm    >aEoZam PV      glorify;venerate
 EZm     EoZim   IV_yu   glorify;venerate
 EZm     EoZam   IV_Pass_yu      be glorified;be venerated
 ;; taEaZ~am_1
@@ -4589,7 +4270,6 @@ tEAZm   taEAZam PV_intr be arrogant;be portentous
 tEAZm   taEAZam IV_intr be arrogant;be portentous
 ;; {isotaEoZam_1
 <stEZm  {isotaEoZam     PV      regard as important;be haughty
-AstEZm  {isotaEoZam     PV      regard as important;be haughty
 stEZm   sotaEoZim       IV      regard as important;be haughty
 ;; EaZom_1
 EZm     EaZom   N       bone
@@ -4629,13 +4309,11 @@ EZA}m   EaZA}im Ndip    misfortunes
 EZAmy   EiZAmiy~        Nall    noble;aristocratic     <pos>EiZAmiy~/ADJ</pos>
 ;; >aEoZam_2
 >EZm    >aEoZam Nel     greater/greatest;major
-AEZm    >aEoZam Nel     greater/greatest;major
 EZmY    EuZomaY N0      greater/greatest;major;supreme
 EZmA    EuZomA  Nhy     greater/greatest;major;supreme
 EZmy    EuZomay NAn_Nayn        greater/greatest;major;supreme
 EZmy    EuZomay NAt     greater/greatest;major;supreme
 >EAZm   >aEAZim Ndip    greater/greatest;major;supreme
-AEAZm   >aEAZim Ndip    greater/greatest;major;supreme
 ;; taEoZiym_1
 tEZym   taEoZiym        N/At    glorification;veneration
 ;; taEoZiym_2
@@ -4681,18 +4359,13 @@ Ef      Eaf~    N-ap    virtuous;honest     <pos>Eaf~/ADJ</pos>
 ;; Eafiyf_1
 Efyf    Eafiyf  N/ap    virtuous;honest     <pos>Eafiyf/ADJ</pos>
 >EfA'   >aEif~A'        N0_Nh   virtuous;honest
-AEfA'   >aEif~A'        N0_Nh   virtuous;honest
 >EfA&   >aEif~A&        Nh      virtuous;honest
-AEfA&   >aEif~A&        Nh      virtuous;honest
 >EfA}   >aEif~A}        Nhy     virtuous;honest
-AEfA}   >aEif~A}        Nhy     virtuous;honest
 >Ef     >aEif~  Nap     virtuous;honest
-AEf     >aEif~  Nap     virtuous;honest
 ;; Eafiyf_2
 Efyf    Eafiyf  N0      Afeef;Afif
 ;; >aEaf~_1
 >Ef     >aEaf~  Nel     more/most virtuous
-AEf     >aEaf~  Nel     more/most virtuous
 ;; taEaf~uf_1
 tEff    taEaf~uf        N/At    modesty;restraint
 ;; mutaEaf~if_1
@@ -4708,7 +4381,6 @@ Efr     Eaf~ir  IV_yu   cover with dust;sprinkle with powder
 ;; Eafar_1
 Efr     Eafar   N       dust
 >EfAr   >aEofAr N       dust
-AEfAr   >aEofAr N       dust
 ;; Eaf~Arap_1
 EfAr    Eaf~Ar  NapAt   sprayer;atomizer
 ;; EufAr_1
@@ -4720,7 +4392,6 @@ Efr     Eufor   Nap     dust-color
 Ewfrp   Euwforap        N0      Ofra
 ;; >aEofar_1
 >Efr    >aEofar Nel     dust-colored
-AEfr    >aEofar Nel     dust-colored
 EfrA'   EaforA' N0_Nh   dust-colored
 EfrA&   EaforA& Nh      dust-colored
 EfrA}   EaforA} Nhy     dust-colored
@@ -4833,13 +4504,9 @@ EAfY    EAfaY   IV_0_Pass_yu    be cured;be healed
 EAfy    EAfay   IV_Ann_Pass_yu  be cured;be healed
 ;; >aEofaY_1
 >EfY    >aEofaY PV_0    excuse;exempt;exonerate
-AEfY    >aEofaY PV_0    excuse;exempt;exonerate
 >EfA    >aEofA  PV_h    excuse;exempt;exonerate
-AEfA    >aEofA  PV_h    excuse;exempt;exonerate
 >Efy    >aEofay PV_Atn  excuse;exempt;exonerate
-AEfy    >aEofay PV_Atn  excuse;exempt;exonerate
 >Ef     >aEof   PV_ttAw excuse;exempt;exonerate
-AEf     >aEof   PV_ttAw excuse;exempt;exonerate
 Efy     Eofiy   IV_0hAnn_yu     excuse;exempt;exonerate
 Ef      Eof     IV_0hwnyn_yu    excuse;exempt;exonerate
 EfY     EofaY   IV_0_Pass_yu    be excused;be exempted;be exonerated
@@ -4855,25 +4522,17 @@ tEAfy   taEAfay IV_Ann  recover;recuperate
 tEAf    taEAf   IV_0hwnyn       recover;recuperate
 ;; {iEotafaY_1
 <EtfY   {iEotafaY       PV_0    request
-AEtfY   {iEotafaY       PV_0    request
 <EtfA   {iEotafA        PV_h    request
-AEtfA   {iEotafA        PV_h    request
 <Etfy   {iEotafay       PV_Atn  request
-AEtfy   {iEotafay       PV_Atn  request
 <Etf    {iEotaf PV_ttAw request
-AEtf    {iEotaf PV_ttAw request
 Etfy    Eotafiy IV_0hAnn        request
 Etf     Eotaf   IV_0hwnyn       request
 EtfY    EotafaY IV_0_Pass_yu    be requested
 ;; {isotaEofaY_1
 <stEfY  {isotaEofaY     PV_0    request exemption
-AstEfY  {isotaEofaY     PV_0    request exemption
 <stEfA  {isotaEofA      PV_h    request exemption
-AstEfA  {isotaEofA      PV_h    request exemption
 <stEfy  {isotaEofay     PV_Atn  request exemption
-AstEfy  {isotaEofay     PV_Atn  request exemption
 <stEf   {isotaEof       PV_ttAw request exemption
-AstEf   {isotaEof       PV_ttAw request exemption
 stEfy   sotaEofiy       IV_0hAnn        request exemption
 stEf    sotaEof IV_0hwnyn       request exemption
 stEfY   sotaEofaY       IV_0_Pass_yu    be requested (exemption)
@@ -4921,17 +4580,11 @@ tEAfy   taEAfiy NAn_Nayn        recovery;cure
 tEAfy   taEAfiy NAt     recovery;cure
 ;; {isotiEofA'_1
 <stEfA' {isotiEofA'     N0_Nh   apology;resignation
-AstEfA' {isotiEofA'     N0_Nh   apology;resignation
 <stEfA& {isotiEofA&     Nh      apology;resignation
-AstEfA& {isotiEofA&     Nh      apology;resignation
 <stEfA} {isotiEofA}     Nhy     apology;resignation
-AstEfA} {isotiEofA}     Nhy     apology;resignation
 <stEfA' {isotiEofA'     NAn_Nayn        apologies;resignations
-AstEfA' {isotiEofA'     NAn_Nayn        apologies;resignations
 <stEfA} {isotiEofA}     Nayn    apologies;resignations
-AstEfA} {isotiEofA}     Nayn    apologies;resignations
 <stEfA' {isotiEofA'     NAt     apologies;resignations
-AstEfA' {isotiEofA'     NAt     apologies;resignations
 ;; EAfiy_1
 EAfy    EAfiy   N0F     effaced;obliterated     <pos>EAfiy/ADJ</pos>
 EAf     EAf     NK      effaced;obliterated
@@ -4971,7 +4624,6 @@ Eq      Eaq~    Nall    disobedient
 ;; Eaqiyq_1
 Eqyq    Eaqiyq  Ndu     canyon;ravine
 >Eq     >aEiq~  Nap     canyons;ravines
-AEq     >aEiq~  Nap     canyons;ravines
 ;; Eaqiyq_2
 Eqyq    Eaqiyq  N-ap    agate;carnelian
 EqA}q   EaqA}iq Ndip    agate;carnelian
@@ -4999,7 +4651,6 @@ Ewqb    Euwqib  PV_Pass be punished
 EAqb    EAqab   IV_Pass_yu      be punished
 ;; >aEoqab_1
 >Eqb    >aEoqab PV      follow;pursue
-AEqb    >aEoqab PV      follow;pursue
 Eqb     Eoqib   IV_yu   follow;pursue
 Eqb     Eoqab   IV_Pass_yu      be followed;be pursued
 ;; taEaq~ab_1
@@ -5014,7 +4665,6 @@ Eqb     Eaqiba  FW-Wa-a following;subsequent to     <pos>Eaqiba/PREP</pos>
 ;; Euqob_1
 Eqb     Euqob   N       consequence
 >EqAb   >aEoqAb N       aftermath;heels
-AEqAb   >aEoqAb N       aftermath;heels
 ;; Eaqabap_1
 Eqb     Eaqab   Napdu   obstacle
 Eqb     Eaqab   NAt     obstacles
@@ -5027,7 +4677,6 @@ EqAb    EuqAb   N0      Uqab
 ;; EuqAb_2
 EqAb    EuqAb   N       eagle
 >Eqb    >aEoqub N       eagles
-AEqb    >aEoqub N       eagles
 EqbAn   EiqobAn N       eagles
 ;; EuqAb_3
 EqAb    EuqAb   N0      Uqab
@@ -5102,11 +4751,9 @@ tEAqd   taEAqad PV      contract;convene
 tEAqd   taEAqad IV      contract;convene
 ;; {inoEaqad_1
 <nEqd   {inoEaqad       PV_intr be held;be gathered;be convened
-AnEqd   {inoEaqad       PV_intr be held;be gathered;be convened
 nEqd    noEaqid IV_intr be held;be gathered;be convened
 ;; {iEotaqad_1
 <Etqd   {iEotaqad       PV      believe
-AEtqd   {iEotaqad       PV      believe
 Etqd    Eotaqid IV      believe
 Etqd    Eotaqad IV_Pass_yu      be believed
 ;; Eaqod_1
@@ -5164,16 +4811,12 @@ tEAqd   taEAqud N/At    contract;agreement
 tEAqdy  taEAqudiy~      N-ap    contractual     <pos>taEAqudiy~/ADJ</pos>
 ;; {inoEiqAd_1
 <nEqAd  {inoEiqAd       N/At    convening;holding
-AnEqAd  {inoEiqAd       N/At    convening;holding
 ;; {iEotiqAd_1
 <EtqAd  {iEotiqAd       N/At    belief;conviction
-AEtqAd  {iEotiqAd       N/At    belief;conviction
 ;; {iEotiqAdiy~_1
 <EtqAdy {iEotiqAdiy~    Nall    dogmatic;dogmatism     <pos>{iEotiqAdiy~/ADJ</pos>
-AEtqAdy {iEotiqAdiy~    Nall    dogmatic;dogmatism     <pos>{iEotiqAdiy~/ADJ</pos>
 ;; {iEotiqAdiy~ap_1
 <EtqAdy {iEotiqAdiy~    Nap     dogmatism     <pos>{iEotiqAdiy~/NOUN</pos>
-AEtqAdy {iEotiqAdiy~    Nap     dogmatism     <pos>{iEotiqAdiy~/NOUN</pos>
 ;; EAqid_1
 EAqd    EAqid   Nall    contracting party
 ;; maEoquwd_1
@@ -5211,7 +4854,6 @@ EAqr    EAqar   PV_intr be addicted to
 EAqr    EAqir   IV_intr_yu      be addicted to
 ;; >aEoqar_1
 >Eqr    >aEoqar PV      stun
-AEqr    >aEoqar PV      stun
 Eqr     Eoqir   IV_yu   stun
 Eqr     Eoqar   IV_Pass_yu      be stunned
 ;; Euqor_1
@@ -5289,7 +4931,6 @@ Eqf     Eaq~af  PV      bend;curve
 Eqf     Eaq~if  IV_yu   bend;curve
 ;; {inoEaqaf_1
 <nEqf   {inoEaqaf       PV_intr be curved;be bent
-AnEqf   {inoEaqaf       PV_intr be curved;be bent
 nEqf    noEaqif IV_intr be curved;be bent
 ;; Eaqof_1
 Eqf     Eaqof   N       bending;curving
@@ -5327,7 +4968,6 @@ tEql    taEaq~al        PV_intr be reasonable;be rational
 tEql    taEaq~al        IV_intr be reasonable;be rational
 ;; {iEotaqal_1
 <Etql   {iEotaqal       PV      arrest;detain
-AEtql   {iEotaqal       PV      arrest;detain
 Etql    Eotaqil IV      arrest;detain
 ;; Eaqol_1
 Eql     Eaqol   Ndu     mind;intellect;brain
@@ -5364,7 +5004,6 @@ Eqyl    Euqayol N0      Uqail
 Eqyly   Euqayoliy~      N0      Uqaili
 ;; >aEoqal_1
 >Eql    >aEoqal Nel     more reasonable
-AEql    >aEoqal Nel     more reasonable
 ;; maEoqil_1
 mEql    maEoqil Ndu     bunker;fortification;sanctuary
 mEAql   maEAqil Ndip    bunkers;fortifications;sanctuaries
@@ -5374,10 +5013,8 @@ tEql    taEaq~ul        N/At    prudence;judiciousness
 tEqly   taEaq~uliy~     Nap     intellectualism     <pos>taEaq~uliy~/NOUN</pos>
 ;; {iEotiqAl_1
 <EtqAl  {iEotiqAl       N/At    arrest;detention
-AEtqAl  {iEotiqAl       N/At    arrest;detention
 ;; {iEotiqAliy~_1
 <EtqAly {iEotiqAliy~    N-ap    concentration camp     <pos>{iEotiqAliy~/ADJ</pos>
-AEtqAly {iEotiqAliy~    N-ap    concentration camp     <pos>{iEotiqAliy~/ADJ</pos>
 ;; EAqil_1
 EAql    EAqil   Nall    rational;reasonable;judicious     <pos>EAqil/ADJ</pos>
 EqlA'   EuqalA' N0_Nh   rational;reasonable;judicious
@@ -5482,7 +5119,6 @@ tEkr    taEak~ar        PV      deteriorate;become muddy
 tEkr    taEak~ar        IV      deteriorate;become muddy
 ;; {iEotakar_1
 <Etkr   {iEotakar       PV      deteriorate;become muddy
-AEtkr   {iEotakar       PV      deteriorate;become muddy
 Etkr    Eotakir IV      deteriorate;become muddy
 ;; Eakar_1
 Ekr     Eakar   N       muddiness;sediment
@@ -5532,7 +5168,6 @@ tEAks   taEAkas PV_intr be in opposition;contradict each other
 tEAks   taEAkas IV_intr be in opposition;contradict each other
 ;; {inoEakas_1
 <nEks   {inoEakas       PV_intr be reflected;have repercussions
-AnEks   {inoEakas       PV_intr be reflected;have repercussions
 nEks    noEakis IV_intr be reflected;have repercussions
 ;; Eakos_1
 Eks     Eakos   N       opposite;contrary
@@ -5544,10 +5179,8 @@ Ekys    Eakiys  N       layer
 mEAks   muEAkas NapAt   disturbance;molestation
 ;; {inoEikAs_1
 <nEkAs  {inoEikAs       NduAt   reflection;inversion;repercussion
-AnEkAs  {inoEikAs       NduAt   reflection;inversion;repercussion
 ;; {inoEikAsiy~_1
 <nEkAsy {inoEikAsiy~    N-ap    reflex;reaction     <pos>{inoEikAsiy~/ADJ</pos>
-AnEkAsy {inoEikAsiy~    N-ap    reflex;reaction     <pos>{inoEikAsiy~/ADJ</pos>
 ;; EAkis_1
 EAks    EAkis   NduAt   reflector
 ;; EAkisap_1
@@ -5601,7 +5234,6 @@ tEkf    taEak~af        PV_intr be secluded;be isolated
 tEkf    taEak~af        IV_intr be secluded;be isolated
 ;; {iEotakaf_1
 <Etkf   {iEotakaf       PV_intr be busily engaged;be secluded
-AEtkf   {iEotakaf       PV_intr be busily engaged;be secluded
 Etkf    Eotakif IV_intr be busily engaged;be secluded
 ;; Eukuwf_1
 Ekwf    Eukuwf  N       assiduousness;busily engaged
@@ -5638,9 +5270,7 @@ tEll    taEal~al        PV      allege;make an excuse
 tEll    taEal~al        IV      allege;make an excuse
 ;; {iEotal~_1
 <Etl    {iEotal~        PV_V    allege;be ill;be deficient
-AEtl    {iEotal~        PV_V    allege;be ill;be deficient
 <Etll   {iEotalal       PV_C    allege;be ill;be deficient
-AEtll   {iEotalal       PV_C    allege;be ill;be deficient
 Etl     Eotal~  IV_V    allege;be ill;be deficient
 Etll    Eotalil IV_C    allege;be ill;be deficient
 ;; Eil~ap_1
@@ -5649,11 +5279,8 @@ Ell     Eilal   N       illnesses;deficiencies;defects
 ;; Ealiyl_1
 Elyl    Ealiyl  N/ap    sick;ailing     <pos>Ealiyl/ADJ</pos>
 >ElA'   >aEil~A'        N0_Nh   sick;ailing
-AElA'   >aEil~A'        N0_Nh   sick;ailing
 >ElA&   >aEil~A&        Nh      sick;ailing
-AElA&   >aEil~A&        Nh      sick;ailing
 >ElA}   >aEil~A}        Nhy     sick;ailing
-AElA}   >aEil~A}        Nhy     sick;ailing
 ;; Ealiyl_2
 Elyl    Ealiyl  N-ap    fresh     <pos>Ealiyl/ADJ</pos>
 ;; Eil~iy~ap_1
@@ -5666,7 +5293,6 @@ tElyl   taEoliyl        NduAt   explanation;justification
 tEl     taEil~  NapAt   pretext
 ;; {iEotilAl_1
 <EtlAl  {iEotilAl       N/At    illness;weakness;defectiveness
-AEtlAl  {iEotilAl       N/At    illness;weakness;defectiveness
 ;; maEoluwl_1
 mElwl   maEoluwl        Nall    ill     <pos>maEoluwl/ADJ</pos>
 ;; maEoluwl_2
@@ -5706,7 +5332,6 @@ tEAlj   taEAlaj PV      undergo treatment
 tEAlj   taEAlaj IV      undergo treatment
 ;; {iEotalaj_1
 <Etlj   {iEotalaj       PV      struggle;be agitated
-AEtlj   {iEotalaj       PV      struggle;be agitated
 Etlj    Eotalij IV      struggle;be agitated
 ;; Eiloj_1
 Elj     Eiloj   N       lout;wild ass
@@ -5732,14 +5357,12 @@ ElAjym  EalAjiym        Ndip    male frogs
 ;--- Elf
 ;; >aEolaf_1
 >Elf    >aEolaf PV      feed
-AElf    >aEolaf PV      feed
 Elf     Eolif   IV_yu   feed
 Elf     Eolaf   IV_Pass_yu      be fed
 ;; Ealaf_1
 Elf     Ealaf   N       fodder;forage
 ElAf    EilAf   N       fodder;forage
 >ElAf   >aEolAf N       fodder;forage
-AElAf   >aEolAf N       fodder;forage
 ;; Ealuwfap_1
 Elwf    Ealuwf  Napdu   fodder;forage
 ;; miEolaf_1
@@ -5840,7 +5463,6 @@ Elm     Eal~am  PV      teach;instruct
 Elm     Eal~im  IV_yu   teach;instruct
 ;; >aEolam_1
 >Elm    >aEolam PV      notify;inform
-AElm    >aEolam PV      notify;inform
 Elm     Eolim   IV_yu   notify;inform
 Elm     Eolam   IV_Pass_yu      be notified;be informed
 ;; taEal~am_1
@@ -5848,7 +5470,6 @@ tElm    taEal~am        PV      study;learn
 tElm    taEal~am        IV      study;learn
 ;; {isotaEolam_1
 <stElm  {isotaEolam     PV      inquire
-AstElm  {isotaEolam     PV      inquire
 stElm   sotaEolim       IV      inquire
 ;; Eilom_1
 Elm     Eilom   N       knowledge;knowing
@@ -5861,12 +5482,10 @@ Elmy    Eilomiy~        N-ap    scientific;scholarly;academic     <pos>Eilomiy~/
 ;; Ealam_1
 Elm     Ealam   Ndu     flag;banner;badge
 >ElAm   >aEolAm N       flags;banners
-AElAm   >aEolAm N       flags;banners
 ;; Eulomap_1
 Elm     Eulom   Nap     harelip
 ;; >aEolAm_2
 >ElAm   >aEolAm N       celebrities;famous people;luminaries
-AElAm   >aEolAm N       celebrities;famous people;luminaries
 ;; Ealiym_1
 Elym    Ealiym  N/ap    specialist;erudite
 ;; Eal~Am_1
@@ -5878,9 +5497,7 @@ ElAm    EalAm   Napdu   mark;sign;point
 ElAm    EalAm   NAt     marks;signs;points
 ;; >uEoluwmap_1
 >Elwm   >uEoluwm        Napdu   sign
-AElwm   >uEoluwm        Napdu   sign
 >EAlym  >aEAliym        Ndip    sign
-AEAlym  >aEAliym        Ndip    sign
 ;; EAlam_1
 EAlm    EAlam   Ndu     world
 EAlm    EAlam   Nuwn_Niyn       worlds
@@ -5903,18 +5520,14 @@ tEAlym  taEAliym        Ndip    precepts
 tElymy  taEoliymiy~     N-ap    educational;pedagogical;instructional     <pos>taEoliymiy~/ADJ</pos>
 ;; <iEolAm_1
 <ElAm   <iEolAm N/At    information;media
-AElAm   <iEolAm N/At    information;media
 ;; <iEolAmiy~_1
 <ElAmy  <iEolAmiy~      N-ap    information;media     <pos><iEolAmiy~/ADJ</pos>
-AElAmy  <iEolAmiy~      N-ap    information;media     <pos><iEolAmiy~/ADJ</pos>
 ;; taEal~um_1
 tElm    taEal~um        N/At    learning;study
 ;; {isotiEolAm_1
 <stElAm {isotiEolAm     N/At    inquiry;information
-AstElAm {isotiEolAm     N/At    inquiry;information
 ;; {isotiEolAmiy~_1
 <stElAmy        {isotiEolAmiy~  N-ap    fact-finding;information gathering     <pos>{isotiEolAmiy~/ADJ</pos>
-AstElAmy        {isotiEolAmiy~  N-ap    fact-finding;information gathering     <pos>{isotiEolAmiy~/ADJ</pos>
 ;; EAlim_1
 EAlm    EAlim   N-ap    scientist;scholar
 ElmA'   EulamA' N0_Nh   scholars;scientists
@@ -5924,7 +5537,6 @@ ElmA}   EulamA} Nhy     scholars;scientists
 EAlm    EAlim   Nall    knowing     <pos>EAlim/ADJ</pos>
 ;; >aEolam_2
 >Elm    >aEolam Nel     more/most knowledgeable
-AElm    >aEolam Nel     more/most knowledgeable
 ;; maEoluwm_1
 mElwm   maEoluwm        Nall    known     <pos>maEoluwm/ADJ</pos>
 mElwm   maEoluwm        N       certainly!     <pos>maEoluwm/INTERJ</pos>
@@ -5957,13 +5569,11 @@ ElmAny  EilomAniy~      Nap     secular nature     <pos>EilomAniy~/NOUN</pos>
 ;--- Eln
 ;; >aEolan_1
 >Eln    >aEolan PV-n    announce;declare
-AEln    >aEolan PV-n    announce;declare
 Eln     Eolin   IV-n_yu announce;declare
 Eln     Eolan   IV-n_Pass_yu    be announced;be declared
 Eln     Eolan   IV_Pass_yu      be announced;be declared
 ;; {iEotalan_1
 <Etln   {iEotalan       PV-n_intr       become manifest
-AEtln   {iEotalan       PV-n_intr       become manifest
 Etln    Eotalin IV-n    become manifest
 ;; Ealan_1
 Eln     Ealan   N       in public;openly
@@ -5979,14 +5589,10 @@ ElAny   EalAniy~        Nap     openness;public     <pos>EalAniy~/NOUN</pos>
 ElAnyp  EalAniy~apF     FW-Wa   openly;publicly    <pos>EalAniy~apF/ADV</pos>
 ;; <iEolAn_1
 <ElAn   <iEolAn Ndu     declaration;statement;announcement
-AElAn   <iEolAn Ndu     declaration;statement;announcement
 <ElAn   <iEolAn NAt     declarations;statements;announcements
-AElAn   <iEolAn NAt     declarations;statements;announcements
 <ElAn   <iEolAn NAt     advertisements;signs;billboards
-AElAn   <iEolAn NAt     advertisements;signs;billboards
 ;; <iEolAniy~_1
 <ElAny  <iEolAniy~      N-ap    publicity     <pos><iEolAniy~/ADJ</pos>
-AElAny  <iEolAniy~      N-ap    publicity     <pos><iEolAniy~/ADJ</pos>
 ;; muEolin_1
 mEln    muEolin Nall    announcer;advertiser
 ;; muEolan_1
@@ -6003,13 +5609,9 @@ Elw     Eoluw   IV_0hAnn        rise;loom;ascend;be elevated
 El      Eol     IV_0hwnyn       rise;loom;ascend;be elevated
 ;; >aEolaY_1
 >ElY    >aEolaY PV_0    raise
-AElY    >aEolaY PV_0    raise
 >ElA    >aEolA  PV_h    raise
-AElA    >aEolA  PV_h    raise
 >Ely    >aEolay PV_Atn  raise
-AEly    >aEolay PV_Atn  raise
 >El     >aEol   PV_ttAw raise
-AEl     >aEol   PV_ttAw raise
 Ely     Eoliy   IV_0hAnn_yu     raise
 El      Eol     IV_0hwnyn_yu    raise
 ElY     EolaY   IV_0_Pass_yu    be raised
@@ -6028,25 +5630,17 @@ tEAl    taEAl   IV_0hwnyn       be raised;be exalted
 ; tEAl    taEAl   CV_V_intr       come!
 ;; {iEotalaY_1
 <EtlY   {iEotalaY       PV_0    rise;mount
-AEtlY   {iEotalaY       PV_0    rise;mount
 <EtlA   {iEotalA        PV_h    rise;mount
-AEtlA   {iEotalA        PV_h    rise;mount
 <Etly   {iEotalay       PV_Atn  rise;mount
-AEtly   {iEotalay       PV_Atn  rise;mount
 <Etl    {iEotal PV_ttAw rise;mount
-AEtl    {iEotal PV_ttAw rise;mount
 Etly    Eotaliy IV_0hAnn        rise;mount
 Etl     Eotal   IV_0hwnyn       rise;mount
 EtlY    EotalaY IV_0_Pass_yu    rise;mount
 ;; {isotaEolaY_1
 <stElY  {isotaEolaY     PV_0    rise;appropriate
-AstElY  {isotaEolaY     PV_0    rise;appropriate
 <stElA  {isotaEolA      PV_h    rise;appropriate
-AstElA  {isotaEolA      PV_h    rise;appropriate
 <stEly  {isotaEolay     PV_Atn  rise;appropriate
-AstEly  {isotaEolay     PV_Atn  rise;appropriate
 <stEl   {isotaEol       PV_ttAw rise;appropriate
-AstEl   {isotaEol       PV_ttAw rise;appropriate
 stEly   sotaEoliy       IV_0hAnn        rise;appropriate
 stEl    sotaEol IV_0hwnyn       rise;appropriate
 stElY   sotaEolaY       IV_0_Pass_yu    rise;be appropriated
@@ -6098,15 +5692,10 @@ ElAl    EalAl   NK      upper rooms
 Elywn   Eil~iy~uwn      N       uppermost heaven;highest class
 ;; >aEolaY_2
 >ElY    >aEolaY N0      higher/highest;supreme     <pos>>aEolaY/ADJ</pos>
-AElY    >aEolaY N0      higher/highest;supreme     <pos>>aEolaY/ADJ</pos>
 >ElA    >aEolA  Nhy     higher/highest;supreme     <pos>>aEolA/ADJ</pos>
-AElA    >aEolA  Nhy     higher/highest;supreme     <pos>>aEolA/ADJ</pos>
 >Ely    >aEolay NAn_Nayn        higher/highest;supreme     <pos>>aEolay/ADJ</pos>
-AEly    >aEolay NAn_Nayn        higher/highest;supreme     <pos>>aEolay/ADJ</pos>
 >EAly   >aEAliy N0_Nh   highest;heights;peaks
-AEAly   >aEAliy N0_Nh   highest;heights;peaks
 >EAl    >aEAl   NK      highest;heights;peaks
-AEAl    >aEAl   NK      highest;heights;peaks
 ElyA    EuloyA  N0      supreme;high;highest     <pos>EuloyA/ADJ</pos>
 ;; EaloyA'_1
 ElyA'   EaloyA' N0_Nh   loftiness;upper class
@@ -6122,35 +5711,21 @@ mEAly   maEAliy Nprop   Ma'ale
 tEly    taEoliy Nap     raising;elevation
 ;; <iEolA'_1
 <ElA'   <iEolA' N0_Nh   raising;lifting
-AElA'   <iEolA' N0_Nh   raising;lifting
 <ElA&   <iEolA& Nh      raising;lifting
-AElA&   <iEolA& Nh      raising;lifting
 <ElA}   <iEolA} Nhy     raising;lifting
-AElA}   <iEolA} Nhy     raising;lifting
 <ElA'   <iEolA' NAt     raising;lifting
-AElA'   <iEolA' NAt     raising;lifting
 ;; {iEotilA'_1
 <EtlA'  {iEotilA'       N0_Nh   ascension;accession to office
-AEtlA'  {iEotilA'       N0_Nh   ascension;accession to office
 <EtlA&  {iEotilA&       Nh      ascension;accession to office
-AEtlA&  {iEotilA&       Nh      ascension;accession to office
 <EtlA}  {iEotilA}       Nhy     ascension;accession to office
-AEtlA}  {iEotilA}       Nhy     ascension;accession to office
 <EtlA'  {iEotilA'       NAn_Nayn        ascension;accession to office
-AEtlA'  {iEotilA'       NAn_Nayn        ascension;accession to office
 <EtlA}  {iEotilA}       Nayn    ascension;accession to office
-AEtlA}  {iEotilA}       Nayn    ascension;accession to office
 <EtlA'  {iEotilA'       NAt     ascension;accession to office
-AEtlA'  {iEotilA'       NAt     ascension;accession to office
 ;; {isotiEolA'_1
 <stElA' {isotiEolA'     N0_Nh   superiority
-AstElA' {isotiEolA'     N0_Nh   superiority
 <stElA& {isotiEolA&     Nh      superiority
-AstElA& {isotiEolA&     Nh      superiority
 <stElA} {isotiEolA}     Nhy     superiority
-AstElA} {isotiEolA}     Nhy     superiority
 <stElA' {isotiEolA'     NAt     superiority
-AstElA' {isotiEolA'     NAt     superiority
 ;; EAliy_1
 EAly    EAliy   N0F     high;elevated     <pos>EAliy/ADJ</pos>
 EAl     EAl     NK      high;elevated
@@ -6199,9 +5774,7 @@ tEmm    taEam~am        PV_intr become widespread;become general
 tEmm    taEam~am        IV_intr become widespread;become general
 ;; {iEotam~_1
 <Etm    {iEotam~        PV_V    wear a turban
-AEtm    {iEotam~        PV_V    wear a turban
 <Etmm   {iEotamam       PV_C    wear a turban
-AEtmm   {iEotamam       PV_C    wear a turban
 Etm     Eotam~  IV_V    wear a turban
 Etmm    Eotamim IV_C    wear a turban
 ;; Eam~_1
@@ -6259,17 +5832,13 @@ tEmd    taEam~ad        PV      do deliberately
 tEmd    taEam~ad        IV      do deliberately
 ;; {iEotamad_1
 <Etmd   {iEotamad       PV      depend;rely (on)
-AEtmd   {iEotamad       PV      depend;rely (on)
 Etmd    Eotamid IV      depend;rely (on)
 <Etmd   {uEotumid       PV_Pass be depended or relied (on)
-AEtmd   {uEotumid       PV_Pass be depended or relied (on)
 Etmd    Eotamad IV_Pass_yu      be depended or relied (on)
 ;; {iEotamad_2
 <Etmd   {iEotamad       PV      employ;adopt;recognize
-AEtmd   {iEotamad       PV      employ;adopt;recognize
 Etmd    Eotamid IV      employ;adopt;recognize
 <Etmd   {uEotumid       PV_Pass be employed;be adopted;be recognized
-AEtmd   {uEotumid       PV_Pass be employed;be adopted;be recognized
 Etmd    Eotamad IV_Pass_yu      be employed;be adopted;be recognized
 ;; Eamod_1
 Emd     Eamod   N       intent
@@ -6308,7 +5877,6 @@ EmdA}   EumadA} Nhy     brigadier generals
 ;; Eamuwd_1
 Emwd    Eamuwd  Ndu     column;pillar
 >Emd    >aEomid Nap     columns;pillars
-AEmd    >aEomid Nap     columns;pillars
 ;; EAmuwd_1
 EAmwd   EAmuwd  Ndu     column;pillar
 EwAmyd  EawAmiyd        Ndip    columns;pillars
@@ -6332,10 +5900,8 @@ tEAmdy  taEAmudiy~      Nap     self-assurance     <pos>taEAmudiy~/NOUN</pos>
 tEAmdy  taEAmudiy~      Nap     orthogonal;perpendicular     <pos>taEAmudiy~/ADJ</pos>
 ;; {iEotimAd_1
 <EtmAd  {iEotimAd       N       reliance;dependence;recognition
-AEtmAd  {iEotimAd       N       reliance;dependence;recognition
 ;; {iEotimAdAt_1
 <EtmAd  {iEotimAd       NAt     funds;financing
-AEtmAd  {iEotimAd       NAt     funds;financing
 ;; EAmid_1
 EAmd    EAmid   N       perpendicular height
 ;; mutaEam~id_1
@@ -6377,21 +5943,17 @@ Emr     Eam~ar  PV      populate;renovate
 Emr     Eam~ir  IV_yu   populate;renovate
 ;; >aEomar_1
 >Emr    >aEomar PV      populate;renovate
-AEmr    >aEomar PV      populate;renovate
 Emr     Eomir   IV_yu   populate;renovate
 Emr     Eomar   IV_Pass_yu      be populated;be renovated
 ;; {iEotamar_1
 <Etmr   {iEotamar       PV      don a hat
-AEtmr   {iEotamar       PV      don a hat
 Etmr    Eotamir IV      don a hat
 ;; {isotaEomar_1
 <stEmr  {isotaEomar     PV      colonize;settle
-AstEmr  {isotaEomar     PV      colonize;settle
 stEmr   sotaEomir       IV      colonize;settle
 ;; Eumor_1
 Emr     Eumor   N       age;life
 >EmAr   >aEomAr N       age groups
-AEmAr   >aEomAr N       age groups
 ;; Eumoriy~_1
 Emry    Eumoriy~        N-ap    age-related;age-based ??     <pos>Eumoriy~/ADJ</pos>
 ;; Eumorap_1
@@ -6411,7 +5973,6 @@ EmAr    Eam~Ar  N0      Ammar
 EmAry   Eam~Ariy~       Nap     wedding palanquin     <pos>Eam~Ariy~/NOUN</pos>
 ;; >aEomar_2
 >Emr    >aEomar Nel     populated;flourishing
-AEmr    >aEomar Nel     populated;flourishing
 ;; miEomAr_1
 mEmAr   miEomAr Ndu     architect;mason
 ;; miEomAriy~_1
@@ -6422,16 +5983,12 @@ tEmyr   taEomiyr        N/At    renovation;reconstruction
 tEmyr   taEomiyr        Nap     filling;filling-up
 ;; <iEomAr_1
 <EmAr   <iEomAr N       building;construction
-AEmAr   <iEomAr N       building;construction
 ;; <iEomAr_2
 <EmAr   <iEomAr NduAt   populating;renovation
-AEmAr   <iEomAr NduAt   populating;renovation
 ;; {isotiEomAr_1
 <stEmAr {isotiEomAr     N/At    colonialism
-AstEmAr {isotiEomAr     N/At    colonialism
 ;; {isotiEomAriy~_1
 <stEmAry        {isotiEomAriy~  Nall    colonialist     <pos>{isotiEomAriy~/ADJ</pos>
-AstEmAry        {isotiEomAriy~  Nall    colonialist     <pos>{isotiEomAriy~/ADJ</pos>
 ;; EAmir_1
 EAmr    EAmir   N0      Amer;Amir
 ;; EAmir_2
@@ -6460,7 +6017,6 @@ EAmws   EAmuws  N0      Amos (prophet)
 ;--- Em$
 ;; >aEoma$_1
 >Em$    >aEoma$ Nel     sticky-eyed;having ophthalmia
-AEm$    >aEoma$ Nel     sticky-eyed;having ophthalmia
 ;
 ;--- EmS
 ;; EumAS_1
@@ -6475,7 +6031,6 @@ Emq     Eam~aq  PV      deepen
 Emq     Eam~iq  IV_yu   deepen
 ;; >aEomaq_1
 >Emq    >aEomaq PV      deepen
-AEmq    >aEomaq PV      deepen
 Emq     Eomiq   IV_yu   deepen
 Emq     Eomaq   IV_Pass_yu      be deepened
 ;; taEam~aq_1
@@ -6484,14 +6039,12 @@ tEmq    taEam~aq        IV      delve into;be immersed;penetrate
 ;; Eumoq_1
 Emq     Eumoq   N       depth;bottom
 >EmAq   >aEomAq N       depths;bottom
-AEmAq   >aEomAq N       depths;bottom
 ;; Eamiyq_1
 Emyq    Eamiyq  N-ap    deep;profound     <pos>Eamiyq/ADJ</pos>
 Emq     Eumuq   N       deep;profound
 EmAq    EimAq   N       deep;profound
 ;; >aEomaq_2
 >Emq    >aEomaq Nel     deepest;deeper
-AEmq    >aEomaq Nel     deepest;deeper
 ;; taEomiyq_1
 tEmyq   taEomiyq        N/At    deepening
 ;; muEam~aq_1
@@ -6508,7 +6061,6 @@ EAml    EAmal   PV      treat;deal with
 EAml    EAmil   IV_yu   treat;deal with
 ;; >aEomal_1
 >Eml    >aEomal PV      employ
-AEml    >aEomal PV      employ
 Eml     Eomil   IV_yu   employ
 Eml     Eomal   IV_Pass_yu      be employed;be worked
 ;; taEAmal_1
@@ -6516,16 +6068,13 @@ tEAml   taEAmal PV      deal with;do business with
 tEAml   taEAmal IV      deal with;do business with
 ;; {iEotamal_1
 <Etml   {iEotamal       PV      function;operate
-AEtml   {iEotamal       PV      function;operate
 Etml    Eotamil IV      function;operate
 ;; {isotaEomal_1
 <stEml  {isotaEomal     PV      employ;use
-AstEml  {isotaEomal     PV      employ;use
 stEml   sotaEomil       IV      employ;use
 ;; Eamal_1
 Eml     Eamal   N       work;action
 >EmAl   >aEomAl N       actions;activities;work
-AEmAl   >aEomAl N       actions;activities;work
 ;; Eamal_2
 Eml     Eamal   N0      Labor;Labour
 ;; Eamaliy~_1
@@ -6561,7 +6110,6 @@ tEml    taEam~ul        N/At    mannerism
 tEAml   taEAmul N/At    relations;dealings
 ;; {isotiEomAl_1
 <stEmAl {isotiEomAl     NduAt   use;application;handling
-AstEmAl {isotiEomAl     NduAt   use;application;handling
 ;; EAmil_1
 EAml    EAmil   Nall    active;operating     <pos>EAmil/ADJ</pos>
 ;; EAmil_2
@@ -6638,13 +6186,9 @@ EmY     Eam~aY  IV_0_Pass_yu    be blinded;be camouflaged
 Emy     Eam~ay  IV_Ann_Pass_yu  be blinded;be camouflaged
 ;; >aEomaY_1
 >EmY    >aEomaY PV_0    make blind
-AEmY    >aEomaY PV_0    make blind
 >EmA    >aEomA  PV_h    make blind
-AEmA    >aEomA  PV_h    make blind
 >Emy    >aEomay PV_Atn  make blind
-AEmy    >aEomay PV_Atn  make blind
 >Em     >aEom   PV_ttAw make blind
-AEm     >aEom   PV_ttAw make blind
 Emy     Eomiy   IV_0hAnn_yu     make blind
 Em      Eom     IV_0hwnyn_yu    make blind
 EmY     EomaY   IV_0_Pass_yu    be blinded
@@ -6684,11 +6228,8 @@ EmyAn   EamoyAn N       blind
 EmyAny  EamoyAniy~      N       blind
 ;; >aEomaY_2
 >EmY    >aEomaY N0      blind
-AEmY    >aEomaY N0      blind
 >EmA    >aEomA  Nhy     blind
-AEmA    >aEomA  Nhy     blind
 >Emy    >aEomay NAn_Nayn        blind
-AEmy    >aEomay NAn_Nayn        blind
 EmyA'   EamoyA' N0_Nh   blind
 EmyA&   EamoyA& Nh      blind
 EmyA}   EamoyA} Nhy     blind
@@ -6745,7 +6286,6 @@ EnAn    EanAn   N       heights;clouds
 ;; EinAn_1
 EnAn    EinAn   N       reins;bridle
 >En     >aEin~  Nap     reins
-AEn     >aEin~  Nap     reins
 ;; Ein~iyn_1
 Enyn    Ein~iyn Ndu     impotent
 ;
@@ -6754,7 +6294,6 @@ Enyn    Ein~iyn Ndu     impotent
 Enb     Einab   N       grapes
 Enb     Einab   NapAt   grape
 >EnAb   >aEonAb N       grapes
-AEnAb   >aEonAb N       grapes
 ;; Eun~Ab_1
 EnAb    Eun~Ab  N       jujube
 EnAb    Eun~Ab  Napdu   jujube
@@ -6786,7 +6325,6 @@ Ent     Ean~at  PV-t    cause adversity
 Ent     Ean~it  IV_yu   cause adversity
 ;; >aEonat_1
 >Ent    >aEonat PV-t    afflict
-AEnt    >aEonat PV-t    afflict
 Ent     Eonit   IV_yu   afflict
 Ent     Eonat   IV_Pass_yu      be afflicted
 ;; taEan~at_1
@@ -6796,7 +6334,6 @@ tEnt    taEan~at        IV_intr be obstinate
 Ent     Eanat   N       distress;hardship
 ;; <iEonAt_1
 <EnAt   <iEonAt N/At    torment;harassment
-AEnAt   <iEonAt N/At    torment;harassment
 ;; taEan~ut_1
 tEnt    taEan~ut        N/At    obstinacy;stubbornness
 ;; mutaEan~it_1
@@ -6861,7 +6398,6 @@ EAnd    EAnad   PV      resist;oppose
 EAnd    EAnid   IV_yu   resist;oppose
 ;; {isotaEonad_1
 <stEnd  {isotaEonad     PV_intr be stubborn about
-AstEnd  {isotaEonad     PV_intr be stubborn about
 stEnd   sotaEonid       IV_intr be stubborn about
 ;; Einodiy~ap_1
 Endy    Einodiy~        Nap     subjectivism     <pos>Einodiy~/NOUN</pos>
@@ -6898,7 +6434,6 @@ Endmy   Eanodamiy~      N-ap    crimson;bright red     <pos>Eanodamiy~/ADJ</pos>
 ;; Eanoz_1
 Enz     Eanoz   Ndu     goat
 >Enz    >aEonuz N       goats
-AEnz    >aEonuz N       goats
 Enwz    Eunuwz  N       goats
 EnAz    EinAz   N       goats
 ;; Eanozap_1
@@ -6959,7 +6494,6 @@ Enf     Ean~af  PV      reprimand;admonish
 Enf     Ean~if  IV_yu   reprimand;admonish
 ;; >aEonaf_1
 >Enf    >aEonaf PV      treat severely;deal with harshly
-AEnf    >aEonaf PV      treat severely;deal with harshly
 Enf     Eonif   IV_yu   treat severely;deal with harshly
 Enf     Eonaf   IV_Pass_yu      be treated severely;be dealt with harshly
 ;; Eunof_1
@@ -6978,7 +6512,6 @@ EnfwAn  EunofuwAn       N       prime;vigor
 Enyf    Eaniyf  N/ap    violent;forceful     <pos>Eaniyf/ADJ</pos>
 ;; >aEonaf_2
 >Enf    >aEonaf Nel     harsher/harshest;more/most violent
-AEnf    >aEonaf Nel     harsher/harshest;more/most violent
 ;; taEoniyf_1
 tEnyf   taEoniyf        N/At    censure;reprimand
 ;; Eanafap_1
@@ -7009,18 +6542,15 @@ tEAnq   taEAnaq PV      embrace each other
 tEAnq   taEAnaq IV      embrace each other
 ;; {iEotanaq_1
 <Etnq   {iEotanaq       PV      embrace;adopt
-AEtnq   {iEotanaq       PV      embrace;adopt
 Etnq    Eotaniq IV      embrace;adopt
 ;; Eunoq_1
 Enq     Eunoq   N       neck
 >EnAq   >aEonAq N       necks
-AEnAq   >aEonAq N       necks
 ;; Eunoqiy~_1
 Enqy    Eunoqiy~        N-ap    neck;cervical     <pos>Eunoqiy~/ADJ</pos>
 ;; EanAq_1
 EnAq    EanAq   N       she-goat
 >Enq    >aEonuq N       she-goats
-AEnq    >aEonuq N       she-goats
 Enwq    Eunuwq  N       she-goats
 ;; EanoqA'_1
 EnqA'   EanoqA' N0_Nh   griffin;phoenix
@@ -7032,7 +6562,6 @@ EnAq    EinAq   N       embrace;accolade
 mEAnq   muEAnaq NapAt   embrace;accolade
 ;; {iEotinAq_1
 <EtnAq  {iEotinAq       N/At    adoption;embracing
-AEtnAq  {iEotinAq       N/At    adoption;embracing
 ;; mutaEAniq_1
 mtEAnq  mutaEAniq       Nall    embracing     <pos>mutaEAniq/ADJ</pos>
 ;
@@ -7148,13 +6677,9 @@ tEny    taEan~ay        IV_Ann  endure
 tEn     taEan~  IV_0hwnyn       endure
 ;; {iEotanaY_1
 <EtnY   {iEotanaY       PV_0    give attention to;show concern for
-AEtnY   {iEotanaY       PV_0    give attention to;show concern for
 <EtnA   {iEotanA        PV_h    give attention to;show concern for
-AEtnA   {iEotanA        PV_h    give attention to;show concern for
 <Etny   {iEotanay       PV_Atn  give attention to;show concern for
-AEtny   {iEotanay       PV_Atn  give attention to;show concern for
 <Etn    {iEotan PV_ttAw give attention to;show concern for
-AEtn    {iEotan PV_ttAw give attention to;show concern for
 Etny    Eotaniy IV_0hAnn        give attention to;show concern for
 Etn     Eotan   IV_0hwnyn       give attention to;show concern for
 EtnY    EotanaY IV_0_Pass_yu    give attention to;show concern for
@@ -7179,17 +6704,11 @@ tEn     taEan~  NK      effort;hardship
 tEny    taEan~iy        NAt     effort;hardship
 ;; {iEotinA'_1
 <EtnA'  {iEotinA'       N0_Nh   attention;care;concern
-AEtnA'  {iEotinA'       N0_Nh   attention;care;concern
 <EtnA&  {iEotinA&       Nh      attention;care;concern
-AEtnA&  {iEotinA&       Nh      attention;care;concern
 <EtnA}  {iEotinA}       Nhy     attention;care;concern
-AEtnA}  {iEotinA}       Nhy     attention;care;concern
 <EtnA'  {iEotinA'       NAn_Nayn        attention;care;concern
-AEtnA'  {iEotinA'       NAn_Nayn        attention;care;concern
 <EtnA}  {iEotinA}       Nayn    attention;care;concern
-AEtnA}  {iEotinA}       Nayn    attention;care;concern
 <EtnA'  {iEotinA'       NAt     attention;care;concern
-AEtnA'  {iEotinA'       NAt     attention;care;concern
 ;; maEoniy~_1
 mEny    maEoniy~        Nall    concerned;affected;interested     <pos>maEoniy~/ADJ</pos>
 ;; muEAniy_1
@@ -7232,7 +6751,6 @@ tEAhd   taEAhad PV      promise each other
 tEAhd   taEAhad IV      promise each other
 ;; {isotaEohad_1
 <stEhd  {isotaEohad     PV      exact a pledge
-AstEhd  {isotaEohad     PV      exact a pledge
 stEhd   sotaEohid       IV      exact a pledge
 ;; Eahod_1
 Ehd     Eahod   N       knowledge;authorization
@@ -7319,9 +6837,7 @@ tEwj    taEaw~aj        PV_intr be crooked;be bent
 tEwj    taEaw~aj        IV_intr be crooked;be bent
 ;; {iEowaj~_1
 <Ewj    {iEowaj~        PV_V_intr       be crooked;be bent
-AEwj    {iEowaj~        PV_V_intr       be crooked;be bent
 <Ewjj   {iEowajaj       PV_C_intr       be crooked;be bent
-AEwjj   {iEowajaj       PV_C_intr       be crooked;be bent
 Ewj     Eowaj~  IV_V_intr       be crooked;be bent
 Ewjj    Eowajij IV_C_intr       be crooked;be bent
 ;; EAj_1
@@ -7345,10 +6861,8 @@ Ewj     Euwj    N       crooked;bent;twisted
 tEwyj   taEowiyj        N/At    distortion;torsion
 ;; {iEowijAj_1
 <EwjAj  {iEowijAj       N/At    curvature;bending
-AEwjAj  {iEowijAj       N/At    curvature;bending
 ;; {iEowijAj_2
 <EwjAj  {iEowijAj       N/At    contortion;distortion
-AEwjAj  {iEowijAj       N/At    contortion;distortion
 ;; muEaw~aj_1
 mEwj    muEaw~aj        N-ap    crooked;bent     <pos>muEaw~aj/ADJ</pos>
 ;; muEowaj~_1
@@ -7369,13 +6883,10 @@ EAwd    EAwad   PV      reiterate;repeat
 EAwd    EAwid   IV_yu   reiterate;repeat
 ;; >aEAd_1
 >EAd    >aEAd   PV_V    (do) again;re-(do);return;give back
-AEAd    >aEAd   PV_V    (do) again;re-(do);return;give back
 >Ed     >aEad   PV_C    (do) again;re-(do);return;give back
-AEd     >aEad   PV_C    (do) again;re-(do);return;give back
 Eyd     Eiyd    IV_V_yu (do) again;re-(do);return;give back
 Ed      Eid     IV_C_yu (do) again;re-(do);return;give back
 >Eyd    >uEiyd  PV_V_Pass       be returned;be given back
-AEyd    >uEiyd  PV_V_Pass       be returned;be given back
 EAd     EAd     IV_V_Pass_yu    (be done) again;be returned;be given back
 Ed      Ead     IV_C_Pass_yu    (be done) again;be returned;be given back
 ;; taEaw~ad_1
@@ -7383,18 +6894,13 @@ tEwd    taEaw~ad        PV_intr be accustomed;be used to
 tEwd    taEaw~ad        IV_intr be accustomed;be used to
 ;; {iEotAd_1
 <EtAd   {iEotAd PV_V    make a habit of;be accustomed to
-AEtAd   {iEotAd PV_V    make a habit of;be accustomed to
 <Etd    {iEotad PV_C    make a habit of;be accustomed to
-AEtd    {iEotad PV_C    make a habit of;be accustomed to
 EtAd    EotAd   IV_V    make a habit of;be accustomed to
 Etd     Eotad   IV_C    make a habit of;be accustomed to
 ;; {isotaEAd_1
 <stEAd  {isotaEAd       PV_V    recover;regain;reclaim
-AstEAd  {isotaEAd       PV_V    recover;regain;reclaim
 >stEyd  {usotuEiyd      PV_Pass-aAat    be recovered;be regained;be reclaimed
-AstEyd  {usotuEiyd      PV_Pass-aAat    be recovered;be regained;be reclaimed
 <stEd   {isotaEad       PV_C    recover;regain;reclaim
-AstEd   {isotaEad       PV_C    recover;regain;reclaim
 stEyd   sotaEiyd        IV_V    recover;regain;reclaim
 stEd    sotaEid IV_C    recover;regain;reclaim
 stEAd   sotaEAd IV_V_Pass_yu    be recovered;be regained;be reclaimed
@@ -7402,7 +6908,6 @@ stEd    sotaEad IV_C_Pass_yu    be recovered;be regained;be reclaimed
 ;; Euwd_1
 Ewd     Euwd    N       lute;stick
 >EwAd   >aEowAd N       lutes;sticks
-AEwAd   >aEowAd N       lutes;sticks
 EydAn   EiydAn  N       lutes;sticks
 ;; Eawod_1
 Ewd     Eawod   NF      returning;going back     <pos>Eawod/ADV</pos>
@@ -7434,18 +6939,14 @@ tEwyd   taEowiyd        N/At    habituation;conditioning
 mEAwd   muEAwad NapAt   reiteration;repetition
 ;; <iEAdap_1
 <EAd    <iEAd   NapAt   return;repetition;re-(doing)
-AEAd    <iEAd   NapAt   return;repetition;re-(doing)
 ;; taEaw~ud_1
 tEwd    taEaw~ud        N/At    habituation
 ;; {iEotiyAd_1
 <EtyAd  {iEotiyAd       N/At    habituation
-AEtyAd  {iEotiyAd       N/At    habituation
 ;; {iEotiyAdiy~_1
 <EtyAdy {iEotiyAdiy~    N-ap    customary;normal;regular     <pos>{iEotiyAdiy~/ADJ</pos>
-AEtyAdy {iEotiyAdiy~    N-ap    customary;normal;regular     <pos>{iEotiyAdiy~/ADJ</pos>
 ;; {isotiEAdap_1
 <stEAd  {isotiEAd       NapAt   recovery;reclamation
-AstEAd  {isotiEAd       NapAt   recovery;reclamation
 ;; EA}id_1
 EA}d    EA}id   Nall    returning;attributed to     <pos>EA}id/ADJ</pos>
 ;; EA}id_2
@@ -7484,9 +6985,7 @@ Ew*     Eaw~a*  PV      protect
 Ew*     Eaw~i*  IV_yu   protect
 ;; >aEA*_1
 >EA*    >aEA*   PV_V    protect
-AEA*    >aEA*   PV_V    protect
 >E*     >aEa*   PV_C    protect
-AE*     >aEa*   PV_C    protect
 Ey*     Eiy*    IV_V_yu protect
 E*      Ei*     IV_C_yu protect
 EA*     EA*     IV_V_Pass_yu    be protected
@@ -7496,9 +6995,7 @@ tEw*    taEaw~a*        PV      take refuge;seek protection
 tEw*    taEaw~a*        IV      take refuge;seek protection
 ;; {isotaEA*_1
 <stEA*  {isotaEA*       PV_V    take refuge;seek protection
-AstEA*  {isotaEA*       PV_V    take refuge;seek protection
 <stE*   {isotaEa*       PV_C    take refuge;seek protection
-AstE*   {isotaEa*       PV_C    take refuge;seek protection
 stEy*   sotaEiy*        IV_V    take refuge;seek protection
 stE*    sotaEi* IV_C    take refuge;seek protection
 ;; Eawo*_1
@@ -7531,13 +7028,10 @@ Ewr     Eaw~ar  PV      make blind in one eye
 Ewr     Eaw~ir  IV_yu   make blind in one eye
 ;; >aEAr_1
 >EAr    >aEAr   PV_V    lend;loan;devote
-AEAr    >aEAr   PV_V    lend;loan;devote
 >Er     >aEar   PV_C    lend;loan;devote
-AEr     >aEar   PV_C    lend;loan;devote
 Eyr     Eiyr    IV_V_yu lend;loan;devote
 Er      Eir     IV_C_yu lend;loan;devote
 >Eyr    >uEiyr  PV_V_Pass       be lent;be loaned;be devoted
-AEyr    >uEiyr  PV_V_Pass       be lent;be loaned;be devoted
 EAr     EAr     IV_V_Pass_yu    be lent;be loaned;be devoted
 Er      Ear     IV_C_Pass_yu    be lent;be loaned;be devoted
 ;; taEAwar_1
@@ -7545,15 +7039,11 @@ tEAwr   taEAwar PV      alternate
 tEAwr   taEAwar IV      alternate
 ;; {iEotawar_1
 <Etwr   {iEotawar       PV      assail;attack
-AEtwr   {iEotawar       PV      assail;attack
 Etwr    Eotawir IV      assail;attack
 ;; {isotaEAr_1
 <stEAr  {isotaEAr       PV_V    borrow
-AstEAr  {isotaEAr       PV_V    borrow
 >stEyr  {usotuEiyr      PV_Pass-aAat    be borrowed
-AstEyr  {usotuEiyr      PV_Pass-aAat    be borrowed
 <stEr   {isotaEar       PV_C    borrow
-AstEr   {isotaEar       PV_C    borrow
 stEyr   sotaEiyr        IV_V    borrow
 stEr    sotaEir IV_C    borrow
 stEAr   sotaEAr IV_V_Pass_yu    be borrowed
@@ -7572,25 +7062,20 @@ EwyrAn  EuwayorAn       N0      Oweiran
 Eyr     Eiyr    Nap     artificial;false
 ;; >aEowar_1
 >Ewr    >aEowar Nel     one-eyed
-AEwr    >aEowar Nel     one-eyed
 EwrA'   EaworA' N0_Nh   one-eyed
 EwrA&   EaworA& Nh      one-eyed
 EwrA}   EaworA} Nhy     one-eyed
 Ewr     Euwr    N       one-eyed
 ;; <iEArap_1
 <EAr    <iEAr   NapAt   lending
-AEAr    <iEAr   NapAt   lending
 ;; <iEAriy~_1
 <EAry   <iEAriy~        N-ap    lending     <pos><iEAriy~/ADJ</pos>
-AEAry   <iEAriy~        N-ap    lending     <pos><iEAriy~/ADJ</pos>
 ;; taEAwur_1
 tEAwr   taEAwur N/At    alternation;fluctuation
 ;; {isotiEArap_1
 <stEAr  {isotiEAr       NapAt   borrowing;lending
-AstEAr  {isotiEAr       NapAt   borrowing;lending
 ;; {isotiEAriy~_1
 <stEAry {isotiEAriy~    N-ap    metaphorical;figurative     <pos>{isotiEAriy~/ADJ</pos>
-AstEAry {isotiEAriy~    N-ap    metaphorical;figurative     <pos>{isotiEAriy~/ADJ</pos>
 ;; muEiyr_1
 mEyr    muEiyr  Nall    lender
 ;; muEowir_1
@@ -7612,7 +7097,6 @@ Ewz     Eawiz   PV_intr be destitute
 Ewz     Eowaz   IV_intr be destitute
 ;; >aEowaz_1
 >Ewz    >aEowaz PV_intr be destitute;be in need of;be short on
-AEwz    >aEowaz PV_intr be destitute;be in need of;be short on
 Ewz     Eowiz   IV_intr_yu      be destitute;be in need of;be short on
 ;; Eawaz_1
 Ewz     Eawaz   N       poverty;need
@@ -7622,12 +7106,9 @@ EAz     EAz     Nap     poverty;need
 Ewz     Eawiz   N-ap    destitute;needy
 ;; >aEowaz_2
 >Ewz    >aEowaz Nel     poor;needy
-AEwz    >aEowaz Nel     poor;needy
 >EAwyz  >aEAwiyz        Ndip    poor;needy
-AEAwyz  >aEAwiyz        Ndip    poor;needy
 ;; <iEowAz_1
 <EwAz   <iEowAz N/At    destitution;need
-AEwAz   <iEowAz N/At    destitution;need
 ;; EA}iz_1
 EA}z    EA}iz   N-ap    destitute;needy
 ;; EAwiz_1
@@ -7650,23 +7131,18 @@ EwS     EawiS   PV_intr be difficult;be intractable
 EwS     EowaS   IV_intr be difficult;be intractable
 ;; {iEotawaS_1
 <EtwS   {iEotawaS       PV_intr be difficult;be intractable
-AEtwS   {iEotawaS       PV_intr be difficult;be intractable
 EtwS    EotawiS IV_intr be difficult;be intractable
 ;; {iEotAS_1
 <EtAS   {iEotAS PV_V_intr       be difficult;be intractable
-AEtAS   {iEotAS PV_V_intr       be difficult;be intractable
 <EtS    {iEotaS PV_C_intr       be difficult;be intractable
-AEtS    {iEotaS PV_C_intr       be difficult;be intractable
 EtAS    EotAS   IV_V_intr       be difficult;be intractable
 EtS     EotaS   IV_C_intr       be difficult;be intractable
 ;; EawiyS_1
 EwyS    EawiyS  N-ap    difficult;recondite     <pos>EawiyS/ADJ</pos>
 ;; >aEowaS_1
 >EwS    >aEowaS Nel     more/most difficult;more/most recondite
-AEwS    >aEowaS Nel     more/most difficult;more/most recondite
 ;; {iEotiyAS_1
 <EtyAS  {iEotiyAS       N/At    difficulty;intractability
-AEtyAS  {iEotiyAS       N/At    difficulty;intractability
 ;
 ;--- EwD
 ;; EAD-u_1
@@ -7682,9 +7158,7 @@ EAwD    EAwaD   PV      replace;compensate
 EAwD    EAwiD   IV_yu   replace;compensate
 ;; >aEAD_1
 >EAD    >aEAD   PV_V    replace;compensate
-AEAD    >aEAD   PV_V    replace;compensate
 >ED     >aEaD   PV_C    replace;compensate
-AED     >aEaD   PV_C    replace;compensate
 EyD     EiyD    IV_V_yu replace;compensate
 ED      EiD     IV_C_yu replace;compensate
 EAD     EAD     IV_V_Pass_yu    be replaced;be compensated
@@ -7697,16 +7171,12 @@ tEAwD   taEAwaD PV      compensate each other
 tEAwD   taEAwaD IV      compensate each other
 ;; {iEotAD_1
 <EtAD   {iEotAD PV_V_intr       be substituted;be compensated
-AEtAD   {iEotAD PV_V_intr       be substituted;be compensated
 <EtD    {iEotaD PV_C_intr       be substituted;be compensated
-AEtD    {iEotaD PV_C_intr       be substituted;be compensated
 EtAD    EotAD   IV_V_intr       be substituted;be compensated
 EtD     EotaD   IV_C_intr       be substituted;be compensated
 ;; {isotaEAD_1
 <stEAD  {isotaEAD       PV_V    exchange;substitute;be compensated
-AstEAD  {isotaEAD       PV_V    exchange;substitute;be compensated
 <stED   {isotaEaD       PV_C    exchange;substitute;be compensated
-AstED   {isotaEaD       PV_C    exchange;substitute;be compensated
 stEyD   sotaEiyD        IV_V    exchange;substitute;be compensated
 stED    sotaEiD IV_C    exchange;substitute;be compensated
 ;; EawaD_1
@@ -7733,7 +7203,6 @@ tEwyDy  taEowiyDiy~     N-ap    compensatory;restitutive     <pos>taEowiyDiy~/AD
 tEAwDy  taEAwuDiy~      N-ap    commutative     <pos>taEAwuDiy~/ADJ</pos>
 ;; {isotiEADap_1
 <stEAD  {isotiEAD       NapAt   replacement;substitution;exchange
-AstEAD  {isotiEAD       NapAt   replacement;substitution;exchange
 ;; EA}iD_1
 EA}D    EA}iD   Nall    compensating;replacing
 ;; muEaw~aD_1
@@ -7763,9 +7232,7 @@ Ewq     Eaw~aq  PV      hinder;impede;delay
 Ewq     Eaw~iq  IV_yu   hinder;impede;delay
 ;; >aEAq_1
 >EAq    >aEAq   PV_V    hinder;impede
-AEAq    >aEAq   PV_V    hinder;impede
 >Eq     >aEaq   PV_C    hinder;impede
-AEq     >aEaq   PV_C    hinder;impede
 Eyq     Eiyq    IV_V_yu hinder;impede
 Eq      Eiq     IV_C_yu hinder;impede
 EAq     EAq     IV_V_Pass_yu    be hindered;be impeded
@@ -7775,9 +7242,7 @@ tEwq    taEaw~aq        PV_intr be hindered;be impeded;be delayed
 tEwq    taEaw~aq        IV_intr be hindered;be impeded;be delayed
 ;; {iEotAq_1
 <EtAq   {iEotAq PV_V    hinder;impede
-AEtAq   {iEotAq PV_V    hinder;impede
 <Etq    {iEotaq PV_C    hinder;impede
-AEtq    {iEotaq PV_C    hinder;impede
 EtAq    EotAq   IV_V    hinder;impede
 Etq     Eotaq   IV_C    hinder;impede
 ;; Eawoq_1
@@ -7788,7 +7253,6 @@ EwAq    Eaw~Aq  NapAt   brake
 mEAq    maEAq   Nap     puzzle box;maze
 ;; <iEAqap_1
 <EAq    <iEAq   NapAt   hindering;impeding
-AEAq    <iEAq   NapAt   hindering;impeding
 ;; taEowiyq_1
 tEwyq   taEowiyq        N       hindering;hampering
 ;; taEowiyqiy~_1
@@ -7815,16 +7279,13 @@ Ewl     Eaw~al  PV      cry out;authorize
 Ewl     Eaw~il  IV_yu   cry out;authorize
 ;; >aEAl_1
 >EAl    >aEAl   PV_V    support;provide for;sustain
-AEAl    >aEAl   PV_V    support;provide for;sustain
 >El     >aEal   PV_C    support;provide for;sustain
-AEl     >aEal   PV_C    support;provide for;sustain
 Eyl     Eiyl    IV_V_yu support;provide for;sustain
 El      Eil     IV_C_yu support;provide for;sustain
 EAl     EAl     IV_V_Pass_yu    be supported;be provide for;be sustained
 El      Eal     IV_C_Pass_yu    be supported;be provide for;be sustained
 ;; >aEowal_1
 >Ewl    >aEowal PV      cry out;wail
-AEwl    >aEowal PV      cry out;wail
 Ewl     Eowil   IV_yu   cry out;wail
 Ewl     Eowal   IV_Pass_yu      be cried out;be wailed
 ;; Eawol_1
@@ -7837,7 +7298,6 @@ Ewl     Eiwal   N       reliance;trust
 Ewyl    Eawiyl  N       wailing;lament
 ;; <iEAlap_1
 <EAl    <iEAl   Nap     sustenance;support
-AEAl    <iEAl   Nap     sustenance;support
 ;; EA}il_1
 EA}l    EA}il   N       breadwinner;sustainer
 ;; EA}ilap_1
@@ -7858,7 +7318,6 @@ mEwl    miEowal Ndu     pickax
 mEAwl   maEAwil Ndip    pickaxes
 ;; <iEowAl_1
 <EwAl   <iEowAl N/At    wailing;lamentation
-AEwAl   <iEowAl N/At    wailing;lamentation
 ;
 ;--- Ewlm
 ;; Eawolam_1
@@ -7881,7 +7340,6 @@ Ewm     Eawom   N       swimming;floating
 ;; EAm_1
 EAm     EAm     Ndu     year
 >EwAm   >aEowAm N       years
-AEwAm   >aEowAm N       years
 ;; EAma}i*K_1
 EAm}*   EAma}i*K        FW-Wa   that year              <pos>EAma}i*K/ADV</pos>
 ;; EAma*Ak_1
@@ -7902,9 +7360,7 @@ EAwn    EAwan   PV-n    assist;support
 EAwn    EAwin   IV-n_yu assist;support
 ;; >aEAn_1
 >EAn    >aEAn   PV_V    assist;support
-AEAn    >aEAn   PV_V    assist;support
 >En     >aEan   PV-n    assist;support
-AEn     >aEan   PV-n    assist;support
 Eyn     Eiyn    IV_V_yu assist;support
 En      Ein     IV-n_yu assist;support
 EAn     EAn     IV_V_Pass_yu    be assisted;be supported
@@ -7914,15 +7370,12 @@ tEAwn   taEAwan PV-n    cooperate
 tEAwn   taEAwan IV-n    cooperate
 ;; {isotaEAn_1
 <stEAn  {isotaEAn       PV_V    seek aid from;resort to;turn for help to
-AstEAn  {isotaEAn       PV_V    seek aid from;resort to;turn for help to
 <stEn   {isotaEan       PV_Cn   seek aid from;resort to;turn for help to
-AstEn   {isotaEan       PV_Cn   seek aid from;resort to;turn for help to
 stEyn   sotaEiyn        IV_V    seek aid from;resort to;turn for help to
 stEn    sotaEin IV-n    seek aid from;resort to;turn for help to
 ;; Eawon_1
 Ewn     Eawon   N       assistance;aid
 >EwAn   >aEowAn N       assistants;aids
-AEwAn   >aEowAn N       assistants;aids
 ;; Eawon_2
 Ewn     Eawon   Nprop   Aoun
 ;; EawAn_1
@@ -7931,14 +7384,12 @@ EwAn    EawAn   N-ap    intermittent;endless
 mEwn    maEuwn  NapAt   aid;assistance;support
 ;; <iEAnap_1
 <EAn    <iEAn   NapAt   support;aid;assistance
-AEAn    <iEAn   NapAt   support;aid;assistance
 ;; taEAwun_1
 tEAwn   taEAwun N/At    cooperation
 ;; taEAwuniy~_1
 tEAwny  taEAwuniy~      Nall    cooperative     <pos>taEAwuniy~/ADJ</pos>
 ;; {isotiEAnap_1
 <stEAn  {isotiEAn       NapAt   seeking help;resorting to;utilization
-AstEAn  {isotiEAn       NapAt   seeking help;resorting to;utilization
 ;; muEAwin_1
 mEAwn   muEAwin Nall    helper;supporter
 ;; muEAwin_2
@@ -7964,7 +7415,6 @@ EAh     EAh     Napdu   disease;sickness
 EAh     EAh     NAt     diseases
 ;; >aEowah_1
 >Ewh    >aEowah Nel     decrepit;handicapped
-AEwh    >aEowah Nel     decrepit;handicapped
 EwhA'   EawohA' N0_Nh   decrepit;handicapped
 EwhA&   EawohA& Nh      decrepit;handicapped
 EwhA}   EawohA} Nhy     decrepit;handicapped
@@ -7992,13 +7442,9 @@ EAwY    EAwaY   IV_0_Pass_yu    be howled
 EAwy    EAway   IV_Ann_Pass_yu  be howled
 ;; {isotaEowaY_1
 <stEwY  {isotaEowaY     PV_0    make howl
-AstEwY  {isotaEowaY     PV_0    make howl
 <stEwA  {isotaEowA      PV_h    make howl
-AstEwA  {isotaEowA      PV_h    make howl
 <stEwy  {isotaEoway     PV_Atn  make howl
-AstEwy  {isotaEoway     PV_Atn  make howl
 <stEw   {isotaEow       PV_ttAw make howl
-AstEw   {isotaEow       PV_ttAw make howl
 stEwy   sotaEowiy       IV_0hAnn        make howl
 stEw    sotaEow IV_0hwnyn       make howl
 stEwY   sotaEowaY       IV_0_Pass_yu    be made to howl
@@ -8027,13 +7473,9 @@ Eyy     Eoyay   IV_Ann  be incapable
 Ey      Eoya    IV_0hwnyn       be incapable
 ;; >aEoyaY_1
 >EyY    >aEoyaY PV_0    thwart
-AEyY    >aEoyaY PV_0    thwart
 >EyA    >aEoyA  PV_0h   thwart
-AEyA    >aEoyA  PV_0h   thwart
 >Eyy    >aEoyay PV_Atn  thwart
-AEyy    >aEoyay PV_Atn  thwart
 >Ey     >aEoy   PV_ttAw thwart
-AEy     >aEoy   PV_ttAw thwart
 Eyy     Eoyiy   IV_0hAnn_yu     thwart
 Ey      Eoy     IV_0hwnyn_yu    thwart
 EyY     EoyaY   IV_0_Pass_yu    be thwarted
@@ -8052,11 +7494,8 @@ Eyy     Eayiy~  N-ap    stammering;incapable     <pos>Eayiy~/ADJ</pos>
 EyAn    Eay~An  N-ap    sick;tired     <pos>Eay~An/ADJ</pos>
 ;; <iEoyA'_1
 <EyA'   <iEoyA' N0_Nh   weariness;powerlessness
-AEyA'   <iEoyA' N0_Nh   weariness;powerlessness
 <EyA&   <iEoyA& Nh      weariness;powerlessness
-AEyA&   <iEoyA& Nh      weariness;powerlessness
 <EyA}   <iEoyA} Nhy     weariness;powerlessness
-AEyA}   <iEoyA} Nhy     weariness;powerlessness
 ;; muEoyiy_1
 mEyy    muEoyiy N0F_Nh  tired;exhausted     <pos>muEoyiy/ADJ</pos>
 mEy     muEoy   NK      tired;exhausted
@@ -8128,7 +7567,6 @@ EAyd    EAyid   IV_yu   celebrate
 ;; Eiyd_1
 Eyd     Eiyd    Ndu     feast;holiday;festival
 >EyAd   >aEoyAd N       holidays;feasts
-AEyAd   >aEoyAd N       holidays;feasts
 ;; Eiydiy~ap_1
 Eydy    Eiydiy~ NapAt   gift;present     <pos>Eiydiy~/NOUN</pos>
 ;; muEAyadap_1
@@ -8161,18 +7599,15 @@ tEAyr   taEAyar IV      revile each other
 ;; EAr_1
 EAr     EAr     N       shame;disgrace;infamy
 >EyAr   >aEoyAr N       shame;disgrace;infamy
-AEyAr   >aEoyAr N       shame;disgrace;infamy
 ;; Eayor_1
 Eyr     Eayor   N       onager;wild ass
 Eywr    Euyuwr  N       onagers;wild asses
 >EyAr   >aEoyAr N       onagers;wild asses
-AEyAr   >aEoyAr N       onagers;wild asses
 ;; EiyAr_1
 EyAr    EiyAr   NduAt   gauge;caliber
 ;; EiyArAt_1
 EyAr    EiyAr   NAt     shots;volleys
 >Eyr    >aEoyir Nap     shots;volleys
-AEyr    >aEoyir Nap     shots;volleys
 ;; Eay~Ar_1
 EyAr    Eay~Ar  Nall    loafer;vagabond
 ;; Eay~Arap_1
@@ -8191,7 +7626,6 @@ mEAyr   muEAyar NapAt   calibration;standardization
 ;--- Eys
 ;; >aEoyas_1
 >Eys    >aEoyas Nel     beige
-AEys    >aEoyas Nel     beige
 EysA'   EayosA' N0_Nh   beige
 EysA&   EayosA& Nh      beige
 EysA}   EayosA} Nhy     beige
@@ -8222,9 +7656,7 @@ EAy$    EAya$   PV      co-exist
 EAy$    EAyi$   IV_yu   co-exist
 ;; >aEA$_1
 >EA$    >aEA$   PV_V    sustain
-AEA$    >aEA$   PV_V    sustain
 >E$     >aEa$   PV_C    sustain
-AE$     >aEa$   PV_C    sustain
 Ey$     Eiy$    IV_V_yu sustain
 E$      Ei$     IV_C_yu sustain
 EA$     EA$     IV_V_Pass_yu    be sustained
@@ -8237,9 +7669,7 @@ tEAy$   taEAya$ PV      co-exist;live together
 tEAy$   taEAya$ IV      co-exist;live together
 ;; {iEotA$_1
 <EtA$   {iEotA$ PV_V    subsist;make a living
-AEtA$   {iEotA$ PV_V    subsist;make a living
 <Et$    {iEota$ PV_C    subsist;make a living
-AEt$    {iEota$ PV_C    subsist;make a living
 EtA$    EotA$   IV_V    subsist;make a living
 Et$     Eota$   IV_C    subsist;make a living
 ;; Eayo$_1
@@ -8260,7 +7690,6 @@ mEy$y   maEiy$iy~       N-ap    livelihood     <pos>maEiy$iy~/ADJ</pos>
 mEAy$   muEAya$ NapAt   coexistence
 ;; <iEA$ap_1
 <EA$    <iEA$   NapAt   feeding;subsistence;food ration
-AEA$    <iEA$   NapAt   feeding;subsistence;food ration
 ;; taEAyu$_1
 tEAy$   taEAyu$ N/At    coexistence;living together
 ;; EA}i$_1
@@ -8300,7 +7729,6 @@ Eyl     Eay~al  PV      have a large family
 Eyl     Eay~il  IV_yu   have a large family
 ;; >aEoyal_1
 >Eyl    >aEoyal PV      have a large family
-AEyl    >aEoyal PV      have a large family
 Eyl     Eoyil   IV_yu   have a large family
 ;; Eay~il_1
 Eyl     Eay~il  N       family;household
@@ -8330,7 +7758,6 @@ Eyn     Eayon   N0      Ain;Ein
 Eyn     Eayon   Ndu     eye
 Eywn    Euyuwn  N       eyes
 >Eyn    >aEoyun N       eyes
-AEyn    >aEoyun N       eyes
 ;; Eayon_3
 Eyn     Eayon   N       water spring;water source
 Eywn    Euyuwn  N       water springs;water sources
@@ -8340,7 +7767,6 @@ Eyn     Eayon   NduAt   ain (Arabic letter)
 Ewyn    Euwayon NAt     glasses;spectacles
 ;; >aEoyAn_1
 >EyAn   >aEoyAn N       notables;VIP's
-AEyAn   >aEoyAn N       notables;VIP's
 ;; Eayoniy~_1
 Eyny    Eayoniy~        N-ap    ocular;eye;real     <pos>Eayoniy~/ADJ</pos>
 ;; EayonAwiy~_1

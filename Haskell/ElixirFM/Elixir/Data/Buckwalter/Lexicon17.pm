@@ -91,7 +91,7 @@ $Lexicon = {
           'IV_C_yu' => 1
         },
         '\'a.zlal' => {
-          'PV_C' => 2
+          'PV_C' => 1
         }
       },
       'entry' => '\'a.zall',
@@ -99,9 +99,7 @@ $Lexicon = {
       'lines' => [
         ';; >aZal~_1',
         '>Zl     >aZal~  PV_V    shade',
-        'AZl     >aZal~  PV_V    shade',
         '>Zll    >aZolal PV_C    shade',
-        'AZll    >aZolal PV_C    shade',
         'Zl      Zil~    IV_V_yu shade',
         'Zll     Zolil   IV_C_yu shade',
         'Zl      Zal~    IV_V_Pass_yu    be shaded'
@@ -157,7 +155,7 @@ $Lexicon = {
           'IV_C' => 1
         },
         'ista.zlal' => {
-          'PV_C' => 2
+          'PV_C' => 1
         },
         'sta.zill' => {
           'IV_V' => 1
@@ -168,9 +166,7 @@ $Lexicon = {
       'lines' => [
         ';; {isotaZal~_1',
         '<stZl   {isotaZal~      PV_V    seek refuge;seek shade',
-        'AstZl   {isotaZal~      PV_V    seek refuge;seek shade',
         '<stZll  {isotaZolal     PV_C    seek refuge;seek shade',
-        'AstZll  {isotaZolal     PV_C    seek refuge;seek shade',
         'stZl    sotaZil~        IV_V    seek refuge;seek shade',
         'stZll   sotaZolil       IV_C    seek refuge;seek shade'
       ],
@@ -199,7 +195,7 @@ $Lexicon = {
           'N' => 1
         },
         '\'a.zlAl' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.zill',
@@ -209,8 +205,7 @@ $Lexicon = {
         'Zl      Zil~    N       patronage;shelter',
         'ZlAl    ZilAl   N       auspices;shelter',
         'Zlwl    Zuluwl  N       auspices;shelter',
-        '>ZlAl   >aZolAl N       auspices;shelter',
-        'AZlAl   >aZolAl N       auspices;shelter'
+        '>ZlAl   >aZolAl N       auspices;shelter'
       ],
       'patterns' => {
         '.zilAl' => [
@@ -636,7 +631,6 @@ $Lexicon = {
       'lines' => [
         ';; >aZohar_1',
         '>Zhr    >aZohar PV      show;manifest;demonstrate',
-        'AZhr    >aZohar PV      show;manifest;demonstrate',
         'Zhr     Zohir   IV_yu   show;manifest;demonstrate',
         'Zhr     Zohar   IV_Pass_yu      be shown;be manifest;be demonstrated'
       ],
@@ -695,7 +689,6 @@ $Lexicon = {
       'lines' => [
         ';; {isotaZohar_1',
         '<stZhr  {isotaZohar     PV      memorize;demonstrate',
-        'AstZhr  {isotaZohar     PV      memorize;demonstrate',
         'stZhr   sotaZohir       IV      memorize;demonstrate'
       ],
       'patterns' => {},
@@ -757,8 +750,7 @@ $Lexicon = {
       'form' => '\'a.zhur',
       'lines' => [
         ';; >aZohur_1',
-        '>Zhr    >aZohur N       rear part',
-        'AZhr    >aZohur N       rear part'
+        '>Zhr    >aZohur N       rear part'
       ],
       'patterns' => {},
       'index' => '1',
@@ -774,7 +766,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.zhAr' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.zuhr',
@@ -783,8 +775,7 @@ $Lexicon = {
         ';; Zuhor_1',
         'Zhr     Zuhor   N       noon;afternoon',
         'Zhr     Zuhor   NF      in the afternoon;at noon     [[Zuhor/ADV]]',
-        '>ZhAr   >aZohAr N       afternoons',
-        'AZhAr   >aZohAr N       afternoons'
+        '>ZhAr   >aZohAr N       afternoons'
       ],
       'patterns' => {
         '\'a.zhAr' => [
@@ -930,8 +921,7 @@ $Lexicon = {
       'form' => '\'a.zhar',
       'lines' => [
         ';; >aZohar_2',
-        '>Zhr    >aZohar Nel     clearer/clearest;more/most apparent',
-        'AZhr    >aZohar Nel     clearer/clearest;more/most apparent'
+        '>Zhr    >aZohar Nel     clearer/clearest;more/most apparent'
       ],
       'patterns' => {},
       'index' => '2',
@@ -1092,15 +1082,14 @@ $Lexicon = {
     {
       'types' => {
         '\'i.zhAr' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => '\'i.zhAr',
       'form' => '\'i.zhAr',
       'lines' => [
         ';; <iZohAr_1',
-        '<ZhAr   <iZohAr N/At    expressing;showing;demonstrating',
-        'AZhAr   <iZohAr N/At    expressing;showing;demonstrating'
+        '<ZhAr   <iZohAr N/At    expressing;showing;demonstrating'
       ],
       'patterns' => {
         '\'i.zhAr' => [
@@ -1125,8 +1114,7 @@ $Lexicon = {
       'form' => '\'i.zhAriyy',
       'lines' => [
         ';; <iZohAriy~_1',
-        '<ZhAry  <iZohAriy~      Nall    demonstrative;exhibitionist     [[<iZohAriy~/ADJ]]',
-        'AZhAry  <iZohAriy~      Nall    demonstrative;exhibitionist     [[<iZohAriy~/ADJ]]'
+        '<ZhAry  <iZohAriy~      Nall    demonstrative;exhibitionist     [[<iZohAriy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1517,7 +1505,7 @@ $Lexicon = {
           'IV_Pass_yu' => 1
         },
         '\'a.zma\'A' => {
-          'PV-|' => 2
+          'PV-|' => 1
         }
       },
       'entry' => '\'a.zma\'',
@@ -1525,11 +1513,8 @@ $Lexicon = {
       'lines' => [
         ';; >aZoma>_1',
         '>Zm>    >aZoma> PV->    make thirsty',
-        'AZm>    >aZoma> PV->    make thirsty',
         '>Zm|    >aZoma| PV-|    make thirsty',
-        'AZm|    >aZoma| PV-|    make thirsty',
         '>Zm&    >aZoma& PV_w    make thirsty',
-        'AZm&    >aZoma& PV_w    make thirsty',
         'Zm}     Zomi}   IV_yu   make thirsty',
         'Zm>     Zoma>   IV_Pass_yu      be made thirsty'
       ],
@@ -2001,7 +1986,6 @@ $Lexicon = {
       'lines' => [
         ';; {isotaZoraf_1',
         '<stZrf  {isotaZoraf     PV      deem charming',
-        'AstZrf  {isotaZoraf     PV      deem charming',
         'stZrf   sotaZorif       IV      deem charming'
       ],
       'patterns' => {},
@@ -2190,8 +2174,7 @@ $Lexicon = {
       'form' => '\'a.zraf',
       'lines' => [
         ';; >aZoraf_1',
-        '>Zrf    >aZoraf Nel     more/most elegant;wittier/wittiest',
-        'AZrf    >aZoraf Nel     more/most elegant;wittier/wittiest'
+        '>Zrf    >aZoraf Nel     more/most elegant;wittier/wittiest'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2405,7 +2388,6 @@ $Lexicon = {
       'lines' => [
         ';; >aZofar_1',
         '>Zfr    >aZofar PV      grant victory',
-        'AZfr    >aZofar PV      grant victory',
         'Zfr     Zofir   IV_yu   grant victory',
         'Zfr     Zofar   IV_Pass_yu      be granted victory'
       ],
@@ -2451,10 +2433,10 @@ $Lexicon = {
     {
       'types' => {
         '\'a.zfAr' => {
-          'N' => 2
+          'N' => 1
         },
         '\'a.zAfir' => {
-          'Ndip' => 2
+          'Ndip' => 1
         }
       },
       'entry' => '.zufur',
@@ -2463,9 +2445,7 @@ $Lexicon = {
         ';; Zufur_1',
         'Zfr     Zufur   Ndu     nail;claw;talon',
         '>ZfAr   >aZofAr N       nails;claws;talons',
-        'AZfAr   >aZofAr N       nails;claws;talons',
-        '>ZAfr   >aZAfir Ndip    nails;claws;talons',
-        'AZAfr   >aZAfir Ndip    nails;claws;talons'
+        '>ZAfr   >aZAfir Ndip    nails;claws;talons'
       ],
       'patterns' => {
         '\'a.zfAr' => [
@@ -2493,7 +2473,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a.zAfiyr' => {
-          'Ndip' => 2
+          'Ndip' => 1
         }
       },
       'entry' => '\'u.zfuwr',
@@ -2501,9 +2481,7 @@ $Lexicon = {
       'lines' => [
         ';; >uZofuwr_1',
         '>Zfwr   >uZofuwr        Ndu     nail;claw;talon',
-        'AZfwr   >uZofuwr        Ndu     nail;claw;talon',
-        '>ZAfyr  >aZAfiyr        Ndip    nails;claws;talons',
-        'AZAfyr  >aZAfiyr        Ndip    nails;claws;talons'
+        '>ZAfyr  >aZAfiyr        Ndip    nails;claws;talons'
       ],
       'patterns' => {
         '\'a.zAfiyr' => [
@@ -2950,7 +2928,6 @@ $Lexicon = {
       'lines' => [
         ';; >aZolam_1',
         '>Zlm    >aZolam PV_intr become dark',
-        'AZlm    >aZolam PV_intr become dark',
         'Zlm     Zolim   IV_intr_yu      become dark',
         'Zlm     Zolam   IV_Pass_yu      be darkened'
       ],
@@ -3004,7 +2981,6 @@ $Lexicon = {
       'lines' => [
         ';; {inoZalam_1',
         '<nZlm   {inoZalam       PV_intr be wronged',
-        'AnZlm   {inoZalam       PV_intr be wronged',
         'nZlm    noZalim IV_intr be wronged'
       ],
       'patterns' => {
@@ -3033,7 +3009,6 @@ $Lexicon = {
       'lines' => [
         ';; {iZ~alam_1',
         '<Zlm    {iZ~alam        PV_intr be wronged',
-        'AZlm    {iZ~alam        PV_intr be wronged',
         'Zlm     Z~alim  IV_intr be wronged'
       ],
       'patterns' => {
@@ -3216,8 +3191,7 @@ $Lexicon = {
       'form' => '\'a.zlam',
       'lines' => [
         ';; >aZolam_2',
-        '>Zlm    >aZolam Nel     darker/darkest;viler/vilest',
-        'AZlm    >aZolam Nel     darker/darkest;viler/vilest'
+        '>Zlm    >aZolam Nel     darker/darkest;viler/vilest'
       ],
       'patterns' => {},
       'index' => '2',
@@ -3265,15 +3239,14 @@ $Lexicon = {
     {
       'types' => {
         '\'i.zlAm' => {
-          'NAt' => 2
+          'NAt' => 1
         }
       },
       'entry' => '\'i.zlAm',
       'form' => '\'i.zlAm',
       'lines' => [
         ';; <iZolAm_1',
-        '<ZlAm   <iZolAm N/At    darkness;gloom',
-        'AZlAm   <iZolAm N/At    darkness;gloom'
+        '<ZlAm   <iZolAm N/At    darkness;gloom'
       ],
       'patterns' => {
         '\'i.zlAm' => [
@@ -3525,7 +3498,7 @@ $Lexicon = {
           'Ndip' => 1
         },
         '\'a.z`An' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.za`iyn',
@@ -3534,7 +3507,6 @@ $Lexicon = {
         ';; ZaEiynap_1',
         'ZEyn    ZaEiyn  Nap     camel load',
         '>ZEAn   >aZoEAn N       camel loads',
-        'AZEAn   >aZoEAn N       camel loads',
         'ZEA}n   ZaEA}in Ndip    camel loads'
       ],
       'patterns' => {
@@ -3603,7 +3575,7 @@ $Lexicon = {
           'N' => 1
         },
         '\'a.zlAf' => {
-          'N' => 2
+          'N' => 1
         }
       },
       'entry' => '.zilf',
@@ -3612,8 +3584,7 @@ $Lexicon = {
         ';; Zilof_1',
         'Zlf     Zilof   N       cloven hoof',
         'Zlwf    Zuluwf  N       cloven hoof',
-        '>ZlAf   >aZolAf N       cloven hoof',
-        'AZlAf   >aZolAf N       cloven hoof'
+        '>ZlAf   >aZolAf N       cloven hoof'
       ],
       'patterns' => {
         '.zuluwf' => [

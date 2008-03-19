@@ -246,13 +246,11 @@ m|qy    ma|qiy  N0_Nh   inner corner of the eye
 m|q     ma|q    NK      inner corner of the eye
 ; note root re-analysis: (not >amo|q)
 |mAq    |mAq    N       inner corners of the eye
-AmAq    |mAq    N       inner corners of the eye
 ;; ma>oqap_1
 m>q     ma>oq   Nap     sobbing;sob
 ;; mu&oq_1
 m&q     mu&oq   N       inner corner of the eye
 |mAq    |mAq    N       inner corners of the eye
-AmAq    |mAq    N       inner corners of the eye
 ;
 ;--- mAkd
 ;; mAkoduwnAlod_1
@@ -500,7 +498,6 @@ mtH     matoH   N       drawing from a well
 ;; mitor_1
 mtr     mitor   Ndu     meter
 >mtAr   >amotAr N       meters
-AmtAr   >amotAr N       meters
 ;; mitoriy~_1
 mtry    mitoriy~        N-ap    metric;metrical     <pos>mitoriy~/ADJ</pos>
 ;
@@ -524,7 +521,6 @@ mtE     mat~aE  PV      make enjoy;furnish
 mtE     mat~iE  IV_yu   make enjoy;furnish
 ;; >amotaE_1
 >mtE    >amotaE PV      make enjoy;furnish
-AmtE    >amotaE PV      make enjoy;furnish
 mtE     motiE   IV_yu   make enjoy;furnish
 mtE     motaE   IV_Pass_yu      be made to enjoy;be furnished
 ;; tamat~aE_1
@@ -532,7 +528,6 @@ tmtE    tamat~aE        PV      enjoy
 tmtE    tamat~aE        IV      enjoy
 ;; {isotamotaE_1
 <stmtE  {isotamotaE     PV      enjoy;relish
-AstmtE  {isotamotaE     PV      enjoy;relish
 stmtE   sotamotiE       IV      enjoy;relish
 ;; mutoEap_1
 mtE     mutoE   Nap     pleasure;enjoyment
@@ -540,18 +535,14 @@ mtE     mutaE   N       pleasure;enjoyment
 ;; matAE_1
 mtAE    matAE   Ndu     property;commodities;goods
 >mtE    >amotiE Nap     property;commodities;goods
-AmtE    >amotiE Nap     property;commodities;goods
 ;; >amotaE_2
 >mtE    >amotaE Nel     more/most enjoyable;recreational
-AmtE    >amotaE Nel     more/most enjoyable;recreational
 ;; <imotAE_1
 <mtAE   <imotAE N/At    pleasure;gratification
-AmtAE   <imotAE N/At    pleasure;gratification
 ;; tamat~uE_1
 tmtE    tamat~uE        N/At    enjoyment
 ;; {isotimotAE_1
 <stmtAE {isotimotAE     N/At    enjoyment
-AstmtAE {isotimotAE     N/At    enjoyment
 ;; mAtiE_1
 mAtE    mAtiE   N       long
 ;; mumat~iE_1
@@ -584,7 +575,6 @@ mtyn    matiyn  N-ap    firm;strong     <pos>matiyn/ADJ</pos>
 mtAn    matAn   Nap     firmness;strength
 ;; >amotan_1
 >mtn    >amotan Nel     stronger/strongest;firmer/firmest
-Amtn    >amotan Nel     stronger/strongest;firmer/firmest
 ;; tamotiyn_1
 tmtyn   tamotiyn        N/At    strengthening;consolidation
 ;
@@ -638,7 +628,6 @@ tmAvl   tamAval PV      resemble each other;recover
 tmAvl   tamAval IV      resemble each other;recover
 ;; {imotaval_1
 <mtvl   {imotaval       PV      imitate;obey
-Amtvl   {imotaval       PV      imitate;obey
 mtvl    motavil IV      imitate;obey
 ;; mivoliy~_1
 mvly    mivoliy~        Nall    alike;homo-     <pos>mivoliy~/ADJ</pos>
@@ -648,11 +637,9 @@ mvly    mivoliy~        N-ap    replaceable     <pos>mivoliy~/ADJ</pos>
 mvl     maval   N       example;proverb
 mvl     maval   NF      for example     <pos>maval/ADV</pos>
 >mvAl   >amovAl N       examples;proverbs;the likes of
-AmvAl   >amovAl N       examples;proverbs;the likes of
 ;; mivAl_1
 mvAl    mivAl   N       example;model
 >mvl    >amovil Nap     examples;models;proverbs
-Amvl    >amovil Nap     examples;models;proverbs
 ;; mivAliy~_1
 mvAly   mivAliy~        Nall    ideal;exemplary;model     <pos>mivAliy~/ADJ</pos>
 mvAly   mivAliy~        Nap     idealism;exemplariness     <pos>mivAliy~/NOUN</pos>
@@ -669,18 +656,14 @@ mvyl    maviyl  N/ap    equal;match;peer
 mvwl    muvuwl  N       appearance;presentation;arraignment
 ;; >umovuwlap_1
 >mvwl   >umovuwl        NapAt   example;lesson;warning
-Amvwl   >umovuwl        NapAt   example;lesson;warning
 >mAvyl  >amAviyl        Ndip    examples;lessons;warnings
-AmAvyl  >amAviyl        Ndip    examples;lessons;warnings
 ;; >amoval_1
 >mvl    >amoval Nel     exemplary;ideal
-Amvl    >amoval Nel     exemplary;ideal
 mvlY    muvolaY N0      exemplary;ideal
 mvlA    muvolA  Nhy     exemplary;ideal
 mvly    muvolay NAn_Nayn        exemplary;ideal
 mvly    muvolay NAt     exemplary;ideal
 >mAvl   >amAvil Ndip    exemplary;ideal
-AmAvl   >amAvil Ndip    exemplary;ideal
 ;; timovAl_1
 tmvAl   timovAl Ndu     statue
 tmAvyl  tamAviyl        Ndip    statues
@@ -700,7 +683,6 @@ tmAvl   tamAvul N/At    resemblance;symmetry;recovery
 lAtmAvl lAtamAvul       N_L     asymmetry
 ;; {imotivAl_1
 <mtvAl  {imotivAl       N/At    obedience;compliance
-AmtvAl  {imotivAl       N/At    obedience;compliance
 ;; mAvil_1
 mAvl    mAvil   Nall    visible;evident
 ;; mAvilap_1
@@ -752,7 +734,6 @@ mjd     maj~ad  PV      praise;extol
 mjd     maj~id  IV_yu   praise;extol
 ;; >amojad_1
 >mjd    >amojad PV      praise;extol
-Amjd    >amojad PV      praise;extol
 mjd     mojid   IV_yu   praise;extol
 mjd     mojad   IV_Pass_yu      be praised;be extolled
 ;; tamaj~ad_1
@@ -763,7 +744,6 @@ mjd     majod   Nprop   Majd
 ;; majod_2
 mjd     majod   N       glory;grandeur
 >mjAd   >amojAd N       glories;grandeur
-AmjAd   >amojAd N       glories;grandeur
 ;; majodiy~_1
 mjdy    majodiy~        N-ap    glorious;laudable     <pos>majodiy~/ADJ</pos>
 ;; majodiy_1
@@ -771,7 +751,6 @@ mjdy    majodiy N0      Majdi;Magdi
 ;; majiyd_1
 mjyd    majiyd  N-ap    glorious;exalted
 >mjAd   >amojAd N       distinguished people
-AmjAd   >amojAd N       distinguished people
 ;; majiyd_2
 mjyd    majiyd  N0      Majeed;Meguid
 ;; majiydiy~_1
@@ -782,7 +761,6 @@ mjydy   majiydiy~       N-ap    medjidie (Ottoman silver coin)     <pos>majiydiy
 >mjd    >amojad N0      Amjad;Amgad
 ;; >amojad_3
 >mjd    >amojad Nel     more/most glorious/distinguished
-Amjd    >amojad Nel     more/most glorious/distinguished
 ;; mAjid_1
 mAjd    mAjid   N0      Majid;Majed
 ;; mAjidap_1
@@ -894,18 +872,15 @@ mHS     maH~aS  PV      test;examine
 mHS     maH~iS  IV_yu   test;examine
 ;; >amoHaS_1
 >mHS    >amoHaS PV      reappear;re-emerge
-AmHS    >amoHaS PV      reappear;re-emerge
 mHS     moHiS   IV_yu   reappear;re-emerge
 ;; tamaH~aS_1
 tmHS    tamaH~aS        PV      reappear;re-emerge;be clarified;be purified
 tmHS    tamaH~aS        IV      reappear;re-emerge;be clarified;be purified
 ;; {inomaHaS_1
 <nmHS   {inomaHaS       PV_intr be clarified;be purified
-AnmHS   {inomaHaS       PV_intr be clarified;be purified
 nmHS    nomaHiS IV_intr be clarified;be purified
 ;; {im~aHaS_1
 <mHS    {im~aHaS        PV_intr be clarified;be purified
-AmHS    {im~aHaS        PV_intr be clarified;be purified
 mHS     m~aHiS  IV_intr be clarified;be purified
 ;; maHiyS_2
 mHyS    maHiyS  N-ap    shining;flashing     <pos>maHiyS/ADJ</pos>
@@ -921,7 +896,6 @@ mHD     maHuD   PV_intr be of pure descent
 mHD     moHuD   IV_intr be of pure descent
 ;; >amoHaD_1
 >mHD    >amoHaD PV_intr be sincere toward
-AmHD    >amoHaD PV_intr be sincere toward
 mHD     moHiD   IV_intr_yu      be sincere toward
 ;; tamaH~aD_1
 tmHD    tamaH~aD        PV_intr be dedicated
@@ -931,7 +905,6 @@ mHD     maHoD   N       mere;nothing but
 mHD     maHoD   NF      solely;exclusively     <pos>maHoD/ADV</pos>
 ;; >umoHuwDap_1
 >mHwD   >umoHuwD        Napdu   sincere advice
-AmHwD   >umoHuwD        Napdu   sincere advice
 ;
 ;--- mHq
 ;; maHaq-a_1
@@ -939,22 +912,18 @@ mHq     maHaq   PV      eradicate;annihilate
 mHq     moHaq   IV      eradicate;annihilate
 ;; >amoHaq_1
 >mHq    >amoHaq PV      wane;vanish
-AmHq    >amoHaq PV      wane;vanish
 mHq     moHiq   IV_yu   wane;vanish
 ;; tamaH~aq_1
 tmHq    tamaH~aq        PV_intr be annihilated;perish
 tmHq    tamaH~aq        IV_intr be annihilated;perish
 ;; {inomaHaq_1
 <nmHq   {inomaHaq       PV_intr be annihilated;perish
-AnmHq   {inomaHaq       PV_intr be annihilated;perish
 nmHq    nomaHiq IV_intr be annihilated;perish
 ;; {im~aHaq_1
 <mHq    {im~aHaq        PV_intr be annihilated;perish
-AmHq    {im~aHaq        PV_intr be annihilated;perish
 mHq     m~aHiq  IV_intr be annihilated;perish
 ;; {imotaHaq_1
 <mtHq   {imotaHaq       PV_intr be annihilated;perish
-AmtHq   {imotaHaq       PV_intr be annihilated;perish
 mtHq    motaHiq IV_intr be annihilated;perish
 ;; maHoq_1
 mHq     maHoq   N       obliteration;eradication
@@ -973,7 +942,6 @@ mAHk    mAHak   PV      quarrel with;wrangle with
 mAHk    mAHik   IV_yu   quarrel with;wrangle with
 ;; >amoHak_1
 >mHk    >amoHak PV_intr be contentious;be quarrelsome
-AmHk    >amoHak PV_intr be contentious;be quarrelsome
 mHk     moHik   IV_intr_yu      be contentious;be quarrelsome
 ;; tamaH~ak_1
 tmHk    tamaH~ak        PV_intr be contentious;be quarrelsome
@@ -997,7 +965,6 @@ mHl     maHul   PV_intr be barren;plot against;intrigue against
 mHl     moHul   IV_intr be barren;plot against;intrigue against
 ;; >amoHal_1
 >mHl    >amoHal PV_intr be barren;be overdue
-AmHl    >amoHal PV_intr be barren;be overdue
 mHl     moHil   IV_intr_yu      be barren;be overdue
 ;; tamaH~al_1
 tmHl    tamaH~al        PV      seek via intrigue;seek a pretext
@@ -1018,17 +985,14 @@ mHn     maHan   PV-n    put to test;examine
 mHn     moHan   IV-n    put to test;examine
 ;; {imotaHan_1
 <mtHn   {imotaHan       PV-n    put to test;examine
-AmtHn   {imotaHan       PV-n    put to test;examine
 mtHn    motaHin IV-n    put to test;examine
 ;; miHonap_1
 mHn     miHon   Napdu   ordeal;test;trial
 mHn     miHan   N       ordeals;tests;trials
 ;; {imotiHAn_1
 <mtHAn  {imotiHAn       NduAt   test;trial;examination
-AmtHAn  {imotiHAn       NduAt   test;trial;examination
 ;; {imotiHAniy~_1
 <mtHAny {imotiHAniy~    Nall    test;trial;examination     <pos>{imotiHAniy~/ADJ</pos>
-AmtHAny {imotiHAniy~    Nall    test;trial;examination     <pos>{imotiHAniy~/ADJ</pos>
 ;; mumotaHin_1
 mmtHn   mumotaHin       Nall    examiner;tester
 ;; mumotaHan_1
@@ -1064,37 +1028,25 @@ tmHy    tamaH~ay        IV_Ann  be eradicated;be exterminated
 tmH     tamaH~  IV_0hwnyn       be eradicated;be exterminated
 ;; {inomaHaY_1
 <nmHY   {inomaHaY       PV_0    be eradicated;be exterminated
-AnmHY   {inomaHaY       PV_0    be eradicated;be exterminated
 <nmHA   {inomaHA        PV_h    be eradicated;be exterminated
-AnmHA   {inomaHA        PV_h    be eradicated;be exterminated
 <nmHy   {inomaHay       PV_Atn  be eradicated;be exterminated
-AnmHy   {inomaHay       PV_Atn  be eradicated;be exterminated
 <nmH    {inomaH PV_ttAw_intr    be eradicated;be exterminated
-AnmH    {inomaH PV_ttAw_intr    be eradicated;be exterminated
 nmHy    nomaHiy IV_0hAnn        be eradicated;be exterminated
 nmH     nomaH   IV_0hwnyn       be eradicated;be exterminated
 nmHY    nomaHaY IV_0_Pass_yu    be eradicated;be exterminated
 ;; {im~aHaY_1
 <mHY    {im~aHaY        PV_0    be eradicated;be exterminated
-AmHY    {im~aHaY        PV_0    be eradicated;be exterminated
 <mHA    {im~aHA PV_h    be eradicated;be exterminated
-AmHA    {im~aHA PV_h    be eradicated;be exterminated
 <mHy    {im~aHay        PV_Atn  be eradicated;be exterminated
-AmHy    {im~aHay        PV_Atn  be eradicated;be exterminated
 <mH     {im~aH  PV_ttAw_intr    be eradicated;be exterminated
-AmH     {im~aH  PV_ttAw_intr    be eradicated;be exterminated
 mHy     m~aHiy  IV_0hAnn        be eradicated;be exterminated
 mH      m~aH    IV_0hwnyn       be eradicated;be exterminated
 mHY     m~aHaY  IV_0_Pass_yu    be eradicated;be exterminated
 ;; {imotaHaY_1
 <mtHY   {imotaHaY       PV_0    be eradicated;be exterminated
-AmtHY   {imotaHaY       PV_0    be eradicated;be exterminated
 <mtHA   {imotaHA        PV_h    be eradicated;be exterminated
-AmtHA   {imotaHA        PV_h    be eradicated;be exterminated
 <mtHy   {imotaHay       PV_Atn  be eradicated;be exterminated
-AmtHy   {imotaHay       PV_Atn  be eradicated;be exterminated
 <mtH    {imotaH PV_ttAw_intr    be eradicated;be exterminated
-AmtH    {imotaH PV_ttAw_intr    be eradicated;be exterminated
 mtHy    motaHiy IV_0hAnn        be eradicated;be exterminated
 mtH     motaH   IV_0hwnyn       be eradicated;be exterminated
 mtHY    motaHaY IV_0_Pass_yu    be eradicated;be exterminated
@@ -1108,29 +1060,17 @@ mmAHy   mamAHiy N0_Nh   erasers
 mmAH    mamAH   NK      erasers
 ;; {inomiHA'_1
 <nmHA'  {inomiHA'       N0_Nh   extinction;eradication
-AnmHA'  {inomiHA'       N0_Nh   extinction;eradication
 <nmHA&  {inomiHA&       Nh      extinction;eradication
-AnmHA&  {inomiHA&       Nh      extinction;eradication
 <nmHA}  {inomiHA}       Nhy     extinction;eradication
-AnmHA}  {inomiHA}       Nhy     extinction;eradication
 <nmHA'  {inomiHA'       NAn_Nayn        extinction;eradication
-AnmHA'  {inomiHA'       NAn_Nayn        extinction;eradication
 <nmHA}  {inomiHA}       Nayn    extinction;eradication
-AnmHA}  {inomiHA}       Nayn    extinction;eradication
 <nmHA'  {inomiHA'       NAt     extinction;eradication
-AnmHA'  {inomiHA'       NAt     extinction;eradication
 <mHA'   {im~iHA'        N0_Nh   extinction;eradication
-AmHA'   {im~iHA'        N0_Nh   extinction;eradication
 <mHA&   {im~iHA&        Nh      extinction;eradication
-AmHA&   {im~iHA&        Nh      extinction;eradication
 <mHA}   {im~iHA}        Nhy     extinction;eradication
-AmHA}   {im~iHA}        Nhy     extinction;eradication
 <mHA'   {im~iHA'        NAn_Nayn        extinction;eradication
-AmHA'   {im~iHA'        NAn_Nayn        extinction;eradication
 <mHA}   {im~iHA}        Nayn    extinction;eradication
-AmHA}   {im~iHA}        Nayn    extinction;eradication
 <mHA'   {im~iHA'        NAt     extinction;eradication
-AmHA'   {im~iHA'        NAt     extinction;eradication
 ;; mAHiyap_1
 mAHy    mAHiy   NapAt   eraser
 ;; mamoHuw~_1
@@ -1228,7 +1168,6 @@ mtmxTr  mutamaxoTir     Nall    walking gracefully
 ;; muxol_1
 mxl     muxol   Ndu     level;crowbar
 >mxAl   >amoxAl N       levels;crowbars
-AmxAl   >amoxAl N       levels;crowbars
 mxwl    muxuwl  N       levels;crowbars
 ;; mixolap_1
 mxl     mixol   Nap     nosebag
@@ -1255,9 +1194,7 @@ mAd     mAd~    IV_V_yu delay;procrastinate
 mAdd    mAdid   IV_C_yu delay;procrastinate
 ;; >amad~_1
 >md     >amad~  PV_V    provide;extend;furnish;reinforce
-Amd     >amad~  PV_V    provide;extend;furnish;reinforce
 >mdd    >amodad PV_C    provide;extend;furnish;reinforce
-Amdd    >amodad PV_C    provide;extend;furnish;reinforce
 md      mid~    IV_V_yu provide;extend;furnish;reinforce
 mdd     modid   IV_C_yu provide;extend;furnish;reinforce
 md      mad~    IV_V_Pass_yu    be provided;be extended;be furnished;be reinforced
@@ -1266,16 +1203,12 @@ tmdd    tamad~ad        PV_intr be spread out;be extended
 tmdd    tamad~ad        IV_intr be spread out;be extended
 ;; {imotad~_1
 <mtd    {imotad~        PV_V    extend;reach;spread
-Amtd    {imotad~        PV_V    extend;reach;spread
 <mtdd   {imotadad       PV_C    extend;reach;spread
-Amtdd   {imotadad       PV_C    extend;reach;spread
 mtd     motad~  IV_V    extend;reach;spread
 mtdd    motadid IV_C    extend;reach;spread
 ;; {isotamad~_1
 <stmd   {isotamad~      PV_V    derive from;receive from
-Astmd   {isotamad~      PV_V    derive from;receive from
 <stmdd  {isotamodad     PV_C    derive from;receive from
-Astmdd  {isotamodad     PV_C    derive from;receive from
 stmd    sotamid~        IV_V    derive from;receive from
 stmdd   sotamodid       IV_C    derive from;receive from
 ;; mad~_1
@@ -1288,7 +1221,6 @@ mdd     mudad   N       periods of time;intervals
 ;; madad_1
 mdd     madad   N       assistance;aid;reinforcement
 >mdAd   >amodAd N       assistance;aid;reinforcements
-AmdAd   >amodAd N       assistance;aid;reinforcements
 ;; midAd_1
 mdAd    midAd   N       ink;style
 ;; madiyd_1
@@ -1298,21 +1230,16 @@ mdd     mudud   N       prolonged;extended
 tmdyd   tamodiyd        N/At    extension;prolongation;lengthening
 ;; <imodAd_1
 <mdAd   <imodAd N       supplying;furnishing
-AmdAd   <imodAd N       supplying;furnishing
 ;; <imodAdAt_1
 <mdAd   <imodAd NAt     reinforcements;supplies
-AmdAd   <imodAd NAt     reinforcements;supplies
 ;; tamad~ud_1
 tmdd    tamad~ud        N/At    extension;expansion
 ;; {imotidAd_1
 <mtdAd  {imotidAd       N/At    extension;expansion
-AmtdAd  {imotidAd       N/At    extension;expansion
 ;; {imotidAd_2
 <mtdAd  {imotidAd       N/At    extent;scope
-AmtdAd  {imotidAd       N/At    extent;scope
 ;; {isotimodAd_1
 <stmdAd {isotimodAd     N/At    call for reinforcements
-AstmdAd {isotimodAd     N/At    call for reinforcements
 ;; mAd~_2
 mAd     mAd~    N-ap    stretching;creeping     <pos>mAd~/ADJ</pos>
 ;; mAd~ap_1
@@ -1363,7 +1290,6 @@ tmdH    tamad~aH        PV_intr be commended;be praised
 tmdH    tamad~aH        IV_intr be commended;be praised
 ;; {imotadaH_1
 <mtdH   {imotadaH       PV      praise;laud;commend
-AmtdH   {imotadaH       PV      praise;laud;commend
 mtdH    motadiH IV      praise;laud;commend
 ;; madoH_1
 mdH     madoH   N       praise;commendation;acclaim
@@ -1448,13 +1374,9 @@ mAdY    mAdaY   IV_0_Pass_yu    be granted a delay or extension
 mAdy    mAday   IV_Ann_Pass_yu  be granted a delay or extension
 ;; >amodaY_1
 >mdY    >amodaY PV_0    grant a delay or extension
-AmdY    >amodaY PV_0    grant a delay or extension
 >mdA    >amodA  PV_h    grant a delay or extension
-AmdA    >amodA  PV_h    grant a delay or extension
 >mdy    >amoday PV_Atn  grant a delay or extension
-Amdy    >amoday PV_Atn  grant a delay or extension
 >md     >amod   PV_ttAw grant a delay or extension
-Amd     >amod   PV_ttAw grant a delay or extension
 mdy     modiy   IV_0hAnn_yu     grant a delay or extension
 md      mod     IV_0hwnyn_yu    grant a delay or extension
 mdY     modaY   IV_0_Pass_yu    be granted a delay or extension
@@ -1572,9 +1494,7 @@ mrr     mar~ar  PV      let pass through;make bitter
 mrr     mar~ir  IV_yu   let pass through;make bitter
 ;; >amar~_1
 >mr     >amar~  PV_V    let pass through;make bitter
-Amr     >amar~  PV_V    let pass through;make bitter
 >mrr    >amorar PV_C    let pass through;make bitter
-Amrr    >amorar PV_C    let pass through;make bitter
 mr      mir~    IV_V_yu let pass through;make bitter
 mrr     morir   IV_C_yu let pass through;make bitter
 ;; tamAr~_1
@@ -1584,9 +1504,7 @@ tmAr    tamAr~  IV_V    dispute with each other
 tmArr   tamArir IV_C    dispute with each other
 ;; {isotamar~_1
 <stmr   {isotamar~      PV_V    continue
-Astmr   {isotamar~      PV_V    continue
 <stmrr  {isotamorar     PV_C    continue
-Astmrr  {isotamorar     PV_C    continue
 stmr    sotamir~        IV_V    continue
 stmrr   sotamorir       IV_C    continue
 ;; mar~_1
@@ -1614,13 +1532,10 @@ tmryr   tamoriyr        N/At    passing;transfer
 tmryr   tamoriyr        NapAt   pass (ball, in sports)
 ;; <imorAr_1
 <mrAr   <imorAr N/At    insertion
-AmrAr   <imorAr N/At    insertion
 ;; {isotimorAr_1
 <stmrAr {isotimorAr     N/At    continuation;continuity
-AstmrAr {isotimorAr     N/At    continuation;continuity
 ;; {isotimorAriy~ap_1
 <stmrAry        {isotimorAriy~  Nap     continuity     <pos>{isotimorAriy~/NOUN</pos>
-AstmrAry        {isotimorAriy~  Nap     continuity     <pos>{isotimorAriy~/NOUN</pos>
 ;; mAr~_1
 mAr     mAr~    Nall    passerby;pedestrian
 mAr     mAr~    Nap     pedestrians
@@ -1631,7 +1546,6 @@ mstmr   musotamir~      Nall    continuous;continuing;incessant     <pos>musotam
 ;; mur~_1
 mr      mur~    N-ap    bitter
 >mrAr   >amorAr N       bitter
-AmrAr   >amorAr N       bitter
 ;; marArap_1
 mrAr    marAr   Nap     bitterness
 ;; marArap_2
@@ -1644,7 +1558,6 @@ mryr    mariyr  Nap     firmness
 mrA}r   marA}ir Ndip    bitterness
 ;; >amar~_2
 >mr     >amar~  Nel     more/most bitter
-Amr     >amar~  Nel     more/most bitter
 ;; mamoruwr_1
 mmrwr   mamoruwr        Nall    bad-tempered;irritable     <pos>mamoruwr/ADJ</pos>
 ;
@@ -1668,11 +1581,8 @@ mr&     moru&   IV_intr be manly;be healthy
 mr}     moru}   IV_yn   be manly;be healthy
 ;; {isotamora>_1
 <stmr>  {isotamora>     PV->    enjoy;savor
-Astmr>  {isotamora>     PV->    enjoy;savor
 <stmr|  {isotamora|     PV-|    enjoy;savor
-Astmr|  {isotamora|     PV-|    enjoy;savor
 <stmr&  {isotamora&     PV_w    enjoy;savor
-Astmr&  {isotamora&     PV_w    enjoy;savor
 stmr}   sotamori}       IV      enjoy;savor
 ;; maro'_1
 mr'     maro'   N0F     man;person
@@ -1715,7 +1625,6 @@ mry}    mariy}  Nuwn_Niyn       healthy;salubrious
 mry'    mariy'  N0      esophagus;gullet
 mry}    mariy}  NF_Nhy  esophagus;gullet
 >mr}    >amori} Nap     esophagus;gullet
-Amr}    >amori} Nap     esophagus;gullet
 mrw'    muruw'  N0_Nh   esophagus;gullet
 mrw}    muruw}  Nhy     esophagus;gullet
 ;
@@ -1823,11 +1732,9 @@ tmrAd   timorAd N       dovecote
 tmAryd  tamAriyd        Ndip    dovecote
 ;; >amorad_1
 >mrd    >amorad Nel     beardless
-Amrd    >amorad Nel     beardless
 mrd     murod   N       beardless
 ;; >amorad_2
 >mrd    >amorad Nel     leafless;withered
-Amrd    >amorad Nel     leafless;withered
 mrdA'   marodA' N0_Nh   leafless;withered
 mrdA&   marodA& Nh      leafless;withered
 mrdA}   marodA} Nhy     leafless;withered
@@ -1881,11 +1788,9 @@ mrs     maros   N       mars (game)
 ;; maris_1
 mrs     maris   N-ap    experienced;veteran
 >mrAs   >amorAs N       experienced;veteran
-AmrAs   >amorAs N       experienced;veteran
 ;; marasap_1
 mrs     maras   Napdu   rope;cord
 >mrAs   >amorAs N       rope;cord
-AmrAs   >amorAs N       rope;cord
 ;; mirAs_1
 mrAs    mirAs   N       strength;power
 ;; marAsap_1
@@ -1938,7 +1843,6 @@ mrD     mar~aD  PV      make ill;nurse;tend to
 mrD     mar~iD  IV_yu   make ill;nurse;tend to
 ;; >amoraD_1
 >mrD    >amoraD PV      make sick
-AmrD    >amoraD PV      make sick
 mrD     moriD   IV_yu   make sick
 mrD     moraD   IV_Pass_yu      be made sick
 ;; tamar~aD_1
@@ -1950,7 +1854,6 @@ tmArD   tamAraD IV      feign illness
 ;; maraD_1
 mrD     maraD   Ndu     disease;illness
 >mrAD   >amorAD N       diseases;illnesses
-AmrAD   >amorAD N       diseases;illnesses
 ;; maraDiy~_1
 mrDy    maraDiy~        N-ap    diseased;sick;pathological     <pos>maraDiy~/ADJ</pos>
 ;; mariyD_1
@@ -1982,7 +1885,6 @@ tmrT    tamar~aT        IV      fall out
 mryT    mariyT  Ndu     hairless
 ;; >amoraT_1
 >mrT    >amoraT Nel     hairless
-AmrT    >amoraT Nel     hairless
 mrTA'   maroTA' N0_Nh   hairless
 mrTA&   maroTA& Nh      hairless
 mrTA}   maroTA} Nhy     hairless
@@ -1997,9 +1899,7 @@ mrE     moraE   IV      rub over;anoint
 ;; maroE_1
 mrE     maroE   N       pasture
 >mrE    >amoruE N       pastures
-AmrE    >amoruE N       pastures
 >mrAE   >amorAE N       pastures
-AmrAE   >amorAE N       pastures
 ;; muroEap_1
 mrE     muroE   Nap     grease;oil
 ;; mariyE_1
@@ -2013,7 +1913,6 @@ mrg     mar~ag  PV      rub over;roll in the dust
 mrg     mar~ig  IV_yu   rub over;roll in the dust
 ;; >amorag_1
 >mrg    >amorag PV      make dirty;sully
-Amrg    >amorag PV      make dirty;sully
 mrg     morig   IV_yu   make dirty;sully
 mrg     morag   IV_Pass_yu      be sullied
 ;; tamar~ag_1
@@ -2200,13 +2099,9 @@ tmAry   tamAray IV_Ann  quarrel with each other
 tmAr    tamAr   IV_0hwnyn       quarrel with each other
 ;; {imotaraY_1
 <mtrY   {imotaraY       PV_0    doubt
-AmtrY   {imotaraY       PV_0    doubt
 <mtrA   {imotarA        PV_h    doubt
-AmtrA   {imotarA        PV_h    doubt
 <mtry   {imotaray       PV_Atn  doubt
-Amtry   {imotaray       PV_Atn  doubt
 <mtr    {imotar PV_ttAw doubt
-Amtr    {imotar PV_ttAw doubt
 mtry    motariy IV_0hAnn        doubt
 mtr     motar   IV_0hwnyn       doubt
 mtrY    motaraY IV_0_Pass_yu    be doubted
@@ -2238,16 +2133,13 @@ mz      muz~    IV_V    sip;suck
 mzz     mozuz   IV_C    sip;suck
 ;; {imotaz~_1
 <mtz    {imotaz~        PV_V    adsorb;accumulate on the surface
-Amtz    {imotaz~        PV_V    adsorb;accumulate on the surface
 <mtzz   {imotazaz       PV_C    adsorb;accumulate on the surface
-Amtzz   {imotazaz       PV_C    adsorb;accumulate on the surface
 mtz     motaz~  IV_V    adsorb;accumulate on the surface
 mtzz    motaziz IV_C    adsorb;accumulate on the surface
 ;; muz~_1
 mz      muz~    N       sourish;acidulous
 ;; {imotizAz_1
 <mtzAz  {imotizAz       N/At    adsorption (surface accumulation)
-AmtzAz  {imotizAz       N/At    adsorption (surface accumulation)
 ;; maz~ap_1
 mz      maz~    NapAt   appetizers;entrees
 ;
@@ -2263,18 +2155,15 @@ tmAzj   tamAzaj PV      intermix;blend
 tmAzj   tamAzaj IV      intermix;blend
 ;; {imotazaj_1
 <mtzj   {imotazaj       PV_intr be mixed;be blended;blend
-Amtzj   {imotazaj       PV_intr be mixed;be blended;blend
 mtzj    motazij IV_intr be mixed;be blended;blend
 ;; mazoj_1
 mzj     mazoj   N       mixing;blending
 ;; mizAj_1
 mzAj    mizAj   N       mixture
 >mzj    >amozij Nap     mixtures
-Amzj    >amozij Nap     mixtures
 ;; mizAj_2
 mzAj    mizAj   N       temperament;mood;feeling
 >mzj    >amozij Nap     moods;temperaments
-Amzj    >amozij Nap     moods;temperaments
 ;; mizAjiy~_1
 mzAjy   mizAjiy~        N-ap    mood;state of mind     <pos>mizAjiy~/ADJ</pos>
 ;; maziyj_1
@@ -2283,7 +2172,6 @@ mzyj    maziyj  N       mixture;combination;blend
 tmAzj   tamAzuj N/At    intermixing;blending
 ;; {imotizAj_1
 <mtzAj  {imotizAj       N/At    mixture;combination;blend
-AmtzAj  {imotizAj       N/At    mixture;combination;blend
 ;
 ;--- mzH
 ;; mazaH-a_1
@@ -2512,7 +2400,6 @@ msd     mas~id  IV_yu   massage
 msd     masad   N       palm fibers
 msAd    misAd   N       palm fibers
 >msAd   >amosAd N       palm fibers
-AmsAd   >amosAd N       palm fibers
 ;; tamosiyd_1
 tmsyd   tamosiyd        N/At    massage
 ;
@@ -2547,7 +2434,6 @@ msk     mas~ak  PV      make hold
 msk     mas~ik  IV_yu   make hold
 ;; >amosak_1
 >msk    >amosak PV      seize;hold;refrain from
-Amsk    >amosak PV      seize;hold;refrain from
 msk     mosik   IV_yu   seize;hold;refrain from
 msk     mosak   IV_Pass_yu      be seized;be held;be refrained from
 ;; tamas~ak_1
@@ -2558,7 +2444,6 @@ tmAsk   tamAsak PV      hold together;refrain from
 tmAsk   tamAsak IV      hold together;refrain from
 ;; {isotamosak_1
 <stmsk  {isotamosak     PV      adhere to;refrain from
-Astmsk  {isotamosak     PV      adhere to;refrain from
 stmsk   sotamosik       IV      adhere to;refrain from
 ;; masok_1
 msk     masok   N       seizure;holding
@@ -2583,20 +2468,16 @@ msyk    masiyk  Nall    tenacious;avaricious     <pos>masiyk/ADJ</pos>
 msyk    masiyk  N-ap    watertight;waterproof     <pos>masiyk/ADJ</pos>
 ;; <imosAk_1
 <msAk   <imosAk N/At    seizure;restraint
-AmsAk   <imosAk N/At    seizure;restraint
 ;; <imosAk_2
 <msAk   <imosAk N       imsak (start of Ramadan fast)
-AmsAk   <imosAk N       imsak (start of Ramadan fast)
 ;; <imosAkiy~ap_1
 <msAky  <imosAkiy~      Nap     Ramadan fast calendar     <pos><imosAkiy~/NOUN</pos>
-AmsAky  <imosAkiy~      Nap     Ramadan fast calendar     <pos><imosAkiy~/NOUN</pos>
 ;; tamas~uk_1
 tmsk    tamas~uk        N/At    adherence;commitment
 ;; tamAsuk_1
 tmAsk   tamAsuk N/At    cohesiveness;firmness
 ;; {isotimosAk_1
 <stmsAk {isotimosAk     N/At    adherence;loyalty
-AstmsAk {isotimosAk     N/At    adherence;loyalty
 ;; mumas~ak_1
 mmsk    mumas~ak        N-ap    musk-scented;perfumed
 ;; mumosik_1
@@ -2657,13 +2538,9 @@ mAsY    mAsaY   IV_0_Pass_yu    be spent (evening)
 mAsy    mAsay   IV_Ann_Pass_yu  be spent (evening)
 ;; >amosaY_1
 >msY    >amosaY PV_0    become;spend the evening
-AmsY    >amosaY PV_0    become;spend the evening
 >msA    >amosA  PV_h    become;spend the evening
-AmsA    >amosA  PV_h    become;spend the evening
 >msy    >amosay PV_Atn  become;spend the evening
-Amsy    >amosay PV_Atn  become;spend the evening
 >ms     >amos   PV_ttAw become;spend the evening
-Ams     >amos   PV_ttAw become;spend the evening
 msy     mosiy   IV_0hAnn_yu     become;spend the evening
 ms      mos     IV_0hwnyn_yu    become;spend the evening
 msY     mosaY   IV_0_Pass_yu    be spent (evening)
@@ -2680,9 +2557,7 @@ msA}y   masA}iy~        N-ap    evening     <pos>masA}iy~/ADJ</pos>
 msA}yp  masA}iy~ap      N0      Masaia;Masaya
 ;; >umosiy~_1
 >msy    >umosiy~        NapAt   evening;soiree     <pos>>umosiy~/NOUN</pos>
-Amsy    >umosiy~        NapAt   evening;soiree     <pos>>umosiy~/NOUN</pos>
 >mAsy   >amAsiy~        N0_Nh   evenings;soirees
-AmAsy   >amAsiy~        N0_Nh   evenings;soirees
 ;; mumosiy_1
 mmsy    mumosiy N0F_Nh  spending the evening
 mms     mumos   NK      spending the evening
@@ -2724,7 +2599,6 @@ m$w$    ma$uw$  N       napkin
 ;; ma$iyj_1
 m$yj    ma$iyj  Ndu     gamete;germ cell
 >m$Aj   >amo$Aj N       gamete;germ cells
-Am$Aj   >amo$Aj N       gamete;germ cells
 ;
 ;--- m$H
 ;; ma$aH-a_1
@@ -2748,13 +2622,11 @@ tm$T    tama$~aT        PV      comb the hair
 tm$T    tama$~aT        IV      comb the hair
 ;; {imota$aT_1
 <mt$T   {imota$aT       PV      comb the hair
-Amt$T   {imota$aT       PV      comb the hair
 mt$T    mota$iT IV      comb the hair
 ;; mi$oT_1
 m$T     mi$oT   Ndu     comb
 m$T     mu$oT   Ndu     comb
 >m$AT   >amo$AT N       combs
-Am$AT   >amo$AT N       combs
 m$AT    mi$AT   N       combs
 ;; mu$oTiy~_1
 m$Ty    mu$oTiy~        N-ap    indented;jagged;comb-like     <pos>mu$oTiy~/ADJ</pos>
@@ -2776,12 +2648,10 @@ tm$q    tama$~aq        PV_intr be shredded
 tm$q    tama$~aq        IV_intr be shredded
 ;; {imota$aq_1
 <mt$q   {imota$aq       PV      snatch away;unsheathe
-Amt$q   {imota$aq       PV      snatch away;unsheathe
 mt$q    mota$iq IV      snatch away;unsheathe
 ;; ma$oq_1
 m$q     ma$oq   Ndu     model;pattern
 >m$Aq   >amo$Aq N       models;patterns
-Am$Aq   >amo$Aq N       models;patterns
 ;; mi$oq_1
 m$q     mi$oq   N-ap    slender;slim
 ;; mi$oqap_1
@@ -2794,7 +2664,6 @@ m$Aq    mu$Aq   N       flax;hemp
 m$Aq    mu$Aq   Nap     flax;hemp
 ;; {imoti$Aq_1
 <mt$Aq  {imoti$Aq       N/At    slenderness
-Amt$Aq  {imoti$Aq       N/At    slenderness
 ;; mamo$uwq_1
 mm$wq   mamo$uwq        Nall    slender;slim     <pos>mamo$uwq/ADJ</pos>
 ;
@@ -2849,13 +2718,9 @@ mA$Y    mA$aY   IV_0_Pass_yu    go alongside;act in unison with
 mA$y    mA$ay   IV_Ann_Pass_yu  go alongside;act in unison with
 ;; >amo$aY_1
 >m$Y    >amo$aY PV_0    make walk;adjust
-Am$Y    >amo$aY PV_0    make walk;adjust
 >m$A    >amo$A  PV_h    make walk;adjust
-Am$A    >amo$A  PV_h    make walk;adjust
 >m$y    >amo$ay PV_Atn  make walk;adjust
-Am$y    >amo$ay PV_Atn  make walk;adjust
 >m$     >amo$   PV_ttAw make walk;adjust
-Am$     >amo$   PV_ttAw make walk;adjust
 m$y     mo$iy   IV_0hAnn_yu     make walk;adjust
 m$      mo$     IV_0hwnyn_yu    make walk;adjust
 m$Y     mo$aY   IV_0_Pass_yu    be made to walk;be adjusted
@@ -2939,9 +2804,7 @@ tmSS    tamaS~aS        PV      sip
 tmSS    tamaS~aS        IV      sip
 ;; {imotaS~_1
 <mtS    {imotaS~        PV_V    absorb;sip;lap up
-AmtS    {imotaS~        PV_V    absorb;sip;lap up
 <mtSS   {imotaSaS       PV_C    absorb;sip;lap up
-AmtSS   {imotaSaS       PV_C    absorb;sip;lap up
 mtS     motaS~  IV_V    absorb;sip;lap up
 mtSS    motaSiS IV_C    absorb;sip;lap up
 ;; maS~_1
@@ -2963,7 +2826,6 @@ mSyS    miS~iyS N       string;twine
 mmS     mimaS~  N       suction pipe;siphon
 ;; {imotiSAS_1
 <mtSAS  {imotiSAS       N/At    absorption;suction
-AmtSAS  {imotiSAS       N/At    absorption;suction
 ;; mamoSuwS_1
 mmSwS   mamoSuwS        Nall    drained;emaciated     <pos>mamoSuwS/ADJ</pos>
 ;; mumotaS~_1
@@ -2976,7 +2838,6 @@ tmSr    tamaS~ar        IV_intr be Egyptianized;become populated
 ;; miSor_1
 mSr     miSor   Nprop   Egypt
 >mSAr   >amoSAr N       metropolises
-AmSAr   >amoSAr N       metropolises
 ;; miSoriy~_1
 mSry    miSoriy~        Nall    Egyptian     <pos>miSoriy~/NOUN</pos>
 mSry    miSoriy~        Nall    Egyptian     <pos>miSoriy~/ADJ</pos>
@@ -2990,7 +2851,6 @@ mSAry   maSAriy~        N0_Nh   money;cash
 ;; maSiyr_2
 mSyr    maSiyr  N       entrails;guts
 >mSr    >amoSir Nap     entrails;guts
-AmSr    >amoSir Nap     entrails;guts
 mSrAn   muSorAn N       entrails;guts
 mSAryn  maSAriyn        Ndip    entrails;guts
 ;; tamoSiyr_1
@@ -3022,7 +2882,6 @@ mSl     maSol   N       whey
 ;; maSol_2
 mSl     maSol   N       vaccine;serum
 >mSAl   >amoSAl N       vaccines;serums
-AmSAl   >amoSAl N       vaccines;serums
 ;; maSoliy~_1
 mSly    maSoliy~        N-ap    serous;serum     <pos>maSoliy~/ADJ</pos>
 ;
@@ -3047,9 +2906,7 @@ mD      maD~    IV_V_intr       suffer;be worried
 mDD     moDaD   IV_C_intr       suffer;be worried
 ;; >amaD~_1
 >mD     >amaD~  PV_V    hurt;torment
-AmD     >amaD~  PV_V    hurt;torment
 >mDD    >amoDaD PV_C    hurt;torment
-AmDD    >amoDaD PV_C    hurt;torment
 mD      miD~    IV_V_yu hurt;torment
 mDD     moDiD   IV_C_yu hurt;torment
 mD      maD~    IV_V_Pass_yu    be hurt;be tormented
@@ -3130,13 +2987,9 @@ mDY     maD~aY  IV_0_Pass_yu    be spent
 mDy     maD~ay  IV_Ann_Pass_yu  be spent
 ;; >amoDaY_1
 >mDY    >amoDaY PV_0    spend;accomplish;finalize
-AmDY    >amoDaY PV_0    spend;accomplish;finalize
 >mDA    >amoDA  PV_h    spend;accomplish;finalize
-AmDA    >amoDA  PV_h    spend;accomplish;finalize
 >mDy    >amoDay PV_Atn  spend;accomplish;finalize
-AmDy    >amoDay PV_Atn  spend;accomplish;finalize
 >mD     >amoD   PV_ttAw spend;accomplish;finalize
-AmD     >amoD   PV_ttAw spend;accomplish;finalize
 mDy     moDiy   IV_0hAnn_yu     spend;accomplish;finalize
 mD      moD     IV_0hwnyn_yu    spend;accomplish;finalize
 mDY     moDaY   IV_0_Pass_yu    be spent;be accomplished;be finalized
@@ -3148,39 +3001,24 @@ mDA'    maDA'   N0_Nh   sharpness;discernment;strength
 mDA&    maDA&   Nh      sharpness;discernment;strength
 mDA}    maDA}   Nhy     sharpness;discernment;strength
 >mDY    >amoDaY N0      sharper;sharpest;more/most effective
-AmDY    >amoDaY N0      sharper;sharpest;more/most effective
 >mDA    >amoDA  Nhy     sharpest;most effective
-AmDA    >amoDA  Nhy     sharpest;most effective
 >mDy    >amoDay NAn_Nayn        sharpest;most effective
-AmDy    >amoDay NAn_Nayn        sharpest;most effective
 ;; tamoDiyap_1
 tmDy    tamoDiy Nap     spending;execution;completion
 ;; <imoDA'_1
 <mDA'   <imoDA' N0_Nh   signing;signature
-AmDA'   <imoDA' N0_Nh   signing;signature
 <mDA&   <imoDA& Nh      signing;signature
-AmDA&   <imoDA& Nh      signing;signature
 <mDA}   <imoDA} Nhy     signing;signature
-AmDA}   <imoDA} Nhy     signing;signature
 <mDA'   <imoDA' NAn_Nayn        signing;signature
-AmDA'   <imoDA' NAn_Nayn        signing;signature
 <mDA}   <imoDA} Nayn    signing;signature
-AmDA}   <imoDA} Nayn    signing;signature
 <mDA'   <imoDA' NAt     signing;signature
-AmDA'   <imoDA' NAt     signing;signature
 ;; <imoDA'_2
 <mDA'   <imoDA' N0_Nh   accomplishment;completion
-AmDA'   <imoDA' N0_Nh   accomplishment;completion
 <mDA&   <imoDA& Nh      accomplishment;completion
-AmDA&   <imoDA& Nh      accomplishment;completion
 <mDA}   <imoDA} Nhy     accomplishment;completion
-AmDA}   <imoDA} Nhy     accomplishment;completion
 <mDA'   <imoDA' NAn_Nayn        accomplishment;completion
-AmDA'   <imoDA' NAn_Nayn        accomplishment;completion
 <mDA}   <imoDA} Nayn    accomplishment;completion
-AmDA}   <imoDA} Nayn    accomplishment;completion
 <mDA'   <imoDA' NAt     accomplishment;completion
-AmDA'   <imoDA' NAt     accomplishment;completion
 ;; mADiy_1
 mADy    mADiy   N0F_Nh  past;bygone     <pos>mADiy/ADJ</pos>
 mAD     mAD     NK      past;bygone     <pos>mAD/ADJ</pos>
@@ -3238,17 +3076,14 @@ mTr     maTar   PV      rain;shower
 mTr     moTur   IV      rain;shower
 ;; >amoTar_1
 >mTr    >amoTar PV      rain;shower
-AmTr    >amoTar PV      rain;shower
 mTr     moTir   IV_yu   rain;shower
 mTr     moTar   IV_Pass_yu      be rained on;be showered on
 ;; {isotamoTar_1
 <stmTr  {isotamoTar     PV      ask for rain;wish for;invoke
-AstmTr  {isotamoTar     PV      ask for rain;wish for;invoke
 stmTr   sotamoTir       IV      ask for rain;wish for;invoke
 ;; maTar_1
 mTr     maTar   N       rain
 >mTAr   >amoTAr N       rain
-AmTAr   >amoTAr N       rain
 ;; maTar_2
 mTr     maTar   Nprop   Matar
 ;; maTorap_1
@@ -3315,13 +3150,9 @@ mTw     moTuw   IV_0hAnn        hurry
 mT      moT     IV_0hwnyn       hurry
 ;; >amoTaY_1
 >mTY    >amoTaY PV_0    ride;mount
-AmTY    >amoTaY PV_0    ride;mount
 >mTA    >amoTA  PV_h    ride;mount
-AmTA    >amoTA  PV_h    ride;mount
 >mTy    >amoTay PV_Atn  ride;mount
-AmTy    >amoTay PV_Atn  ride;mount
 >mT     >amoT   PV_ttAw ride;mount
-AmT     >amoT   PV_ttAw ride;mount
 mTy     moTiy   IV_0hAnn_yu     ride;mount
 mT      moT     IV_0hwnyn_yu    ride;mount
 mTY     moTaY   IV_0_Pass_yu    be mounted
@@ -3335,13 +3166,9 @@ tmTy    tamaT~ay        IV_Ann  stretch;swagger
 tmT     tamaT~  IV_0hwnyn       stretch;swagger
 ;; {imotaTaY_1
 <mtTY   {imotaTaY       PV_0    mount;board;ride
-AmtTY   {imotaTaY       PV_0    mount;board;ride
 <mtTA   {imotaTA        PV_h    mount;board;ride
-AmtTA   {imotaTA        PV_h    mount;board;ride
 <mtTy   {imotaTay       PV_Atn  mount;board;ride
-AmtTy   {imotaTay       PV_Atn  mount;board;ride
 <mtT    {imotaT PV_ttAw mount;board;ride
-AmtT    {imotaT PV_ttAw mount;board;ride
 mtTy    motaTiy IV_0hAnn        mount;board;ride
 mtT     motaT   IV_0hwnyn       mount;board;ride
 mtTY    motaTaY IV_0    mount;board;ride
@@ -3397,7 +3224,6 @@ mEr     maEir   PV      fall out
 mEr     moEar   IV      fall out
 ;; >amoEar_1
 >mEr    >amoEar PV_intr become poor
-AmEr    >amoEar PV_intr become poor
 mEr     moEir   IV_intr_yu      become poor
 ;; tamaE~ar_1
 tmEr    tamaE~ar        PV      fall out
@@ -3431,11 +3257,9 @@ mED     maEiD   PV_intr be annoyed;resent
 mED     moEaD   IV_intr be annoyed;resent
 ;; {imotaEaD_1
 <mtED   {imotaEaD       PV_intr be annoyed;resent
-AmtED   {imotaEaD       PV_intr be annoyed;resent
 mtED    motaEiD IV_intr be annoyed;resent
 ;; {imotiEAD_1
 <mtEAD  {imotiEAD       NduAt   anger;agitation;excitement
-AmtEAD  {imotiEAD       NduAt   anger;agitation;excitement
 ;; mumotaEiD_1
 mmtED   mumotaEiD       Nall    annoyed;upset;excited     <pos>mumotaEiD/ADJ</pos>
 ;
@@ -3448,7 +3272,6 @@ mET     maEoT   N       tearing out;plucking out
 ;; maEiT_1
 mET     maEiT   N-ap    bald
 >mET    >amoEaT Nel     bald
-AmET    >amoEaT Nel     bald
 mETA'   maEoTA' N0_Nh   bald
 mETA&   maEoTA& Nh      bald
 mETA}   maEoTA} Nhy     bald
@@ -3479,7 +3302,6 @@ mEmEy   maEomaEiy~      Nall    yes-man     <pos>maEomaEiy~/ADJ</pos>
 ;--- mEn
 ;; >amoEan_1
 >mEn    >amoEan PV-n_intr       be assiduous;be eager;look closely
-AmEn    >amoEan PV-n_intr       be assiduous;be eager;look closely
 mEn     moEin   IV-n_yu be assiduous;be eager;look closely
 ;; tamaE~an_1
 tmEn    tamaE~an        PV-n_intr       be engrossed;look closely
@@ -3495,7 +3317,6 @@ mAEwnjy mAEuwnojiy~     Ndu     boatman;bargeman
 mAEwnjy mAEuwnojiy~     Nap     boatmen;bargemen     <pos>mAEuwnojiy~/NOUN</pos>
 ;; <imoEAn_1
 <mEAn   <imoEAn N/At    close examination;scrutiny
-AmEAn   <imoEAn N/At    close examination;scrutiny
 ;; tamaE~un_1
 tmEn    tamaE~un        N/At    close examination;scrutiny
 ;; mumoEin_1
@@ -3521,11 +3342,8 @@ mEA'    miEA'   N0_Nh   intestines;entrails
 mEA&    miEA&   Nh      intestines;entrails
 mEA}    miEA}   Nhy     intestines;entrails
 >mEA'   >amoEA' N0_Nh   intestines;entrails
-AmEA'   >amoEA' N0_Nh   intestines;entrails
 >mEA&   >amoEA& Nh      intestines;entrails
-AmEA&   >amoEA& Nh      intestines;entrails
 >mEA}   >amoEA} Nhy     intestines;entrails
-AmEA}   >amoEA} Nhy     intestines;entrails
 ;; miEawiy~_1
 mEwy    miEawiy~        N-ap    intestinal;enteric     <pos>miEawiy~/ADJ</pos>
 ;
@@ -3547,7 +3365,6 @@ mgr     magar   N       reddish
 mgr     mugor   Nap     reddish
 ;; >amogar_1
 >mgr    >amogar Nel     reddish
-Amgr    >amogar Nel     reddish
 ;
 ;--- mgrb
 ;; magorab_1
@@ -3680,7 +3497,6 @@ mqE     maqaE   PV      drink avidly
 mqE     moqaE   IV      drink avidly
 ;; {imotaqaE_1
 <mtqE   {imotaqaE       PV      turn pale
-AmtqE   {imotaqaE       PV      turn pale
 mtqE    motaqiE IV      turn pale
 ;; mumotaqaE_1
 mmtqE   mumotaqaE       N       pale;pallid     <pos>mumotaqaE/ADJ</pos>
@@ -3802,14 +3618,12 @@ mkn     mak~an  PV-n    enable;make possible for
 mkn     mak~in  IV-n_yu enable;make possible for
 ;; >amokan_1
 >mkn    >amokan PV-n_intr       be possible;make possible for
-Amkn    >amokan PV-n_intr       be possible;make possible for
 mkn     mokin   IV-n_yu be possible;make possible for
 ;; tamak~an_1
 tmkn    tamak~an        PV-n_intr       be capable of;be able to
 tmkn    tamak~an        IV-n_intr       be capable of;be able to
 ;; {isotamokan_1
 <stmkn  {isotamokan     PV-n    take possession of;be capable of
-Astmkn  {isotamokan     PV-n    take possession of;be capable of
 stmkn   sotamokin       IV-n    take possession of;be capable of
 ;; mukonap_1
 mkn     mukon   Nap     power;capability
@@ -3823,15 +3637,11 @@ mknA}   mukanA} Nhy     strong;influential
 tmkyn   tamokiyn        N/At    enabling;making possible;strengthening
 ;; <imokAn_1
 <mkAn   <imokAn N       possibility;possible
-AmkAn   <imokAn N       possibility;possible
 ;; <imokAnAt_1
 <mkAn   <imokAn NAt     capabilities
-AmkAn   <imokAn NAt     capabilities
 ;; <imokAniy~ap_1
 <mkAny  <imokAniy~      Napdu   possibility;capability     <pos><imokAniy~/NOUN</pos>
-AmkAny  <imokAniy~      Napdu   possibility;capability     <pos><imokAniy~/NOUN</pos>
 <mkAny  <imokAniy~      NAt     capabilities;possibilities     <pos><imokAniy~/NOUN</pos>
-AmkAny  <imokAniy~      NAt     capabilities;possibilities     <pos><imokAniy~/NOUN</pos>
 ;; tamak~un_1
 tmkn    tamak~un        N/At    capability;control
 ;; mAkin_1
@@ -3865,9 +3675,7 @@ ml      mal~    IV_V_intr       become bored with;become impatient with
 mll     molal   IV_C_intr       become bored with;become impatient with
 ;; >amal~_1
 >ml     >amal~  PV_V    annoy;irritate;bother
-Aml     >amal~  PV_V    annoy;irritate;bother
 >mll    >amolal PV_C    annoy;irritate;bother
-Amll    >amolal PV_C    annoy;irritate;bother
 ml      mil~    IV_V_yu annoy;irritate;bother
 mll     molil   IV_C_yu annoy;irritate;bother
 ml      mal~    IV_V_Pass_yu    be annoyed;be irritated;be bothered
@@ -3876,9 +3684,7 @@ tmll    tamal~al        PV_intr be bored;be restless
 tmll    tamal~al        IV_intr be bored;be restless
 ;; {imotal~_1
 <mtl    {imotal~        PV_V    convert to;embrace a religion
-Amtl    {imotal~        PV_V    convert to;embrace a religion
 <mtll   {imotalal       PV_C    convert to;embrace a religion
-Amtll   {imotalal       PV_C    convert to;embrace a religion
 mtl     motal~  IV_V    convert to;embrace a religion
 mtll    motalil IV_C    convert to;embrace a religion
 ;; mal~_1
@@ -3936,11 +3742,8 @@ mAl&    mAla&   PV_w    support;side with;join forces with
 mAl}    mAli}   IV_yu   support;side with;join forces with
 ;; >amola>_1
 >ml>    >amola> PV->    fill
-Aml>    >amola> PV->    fill
 >ml|    >amola| PV-|    fill
-Aml|    >amola| PV-|    fill
 >ml&    >amola& PV_w    fill
-Aml&    >amola& PV_w    fill
 ml}     moli}   IV_yu   fill
 ml>     mola>   IV_Pass_yu      be filled
 ;; tamal~a>_1
@@ -3953,11 +3756,8 @@ tml&    tamal~a&        IV_wn   be filled;become full
 tml}    tamal~a}        IV_yn   be filled;become full
 ;; {imotala>_1
 <mtl>   {imotala>       PV->_intr       be filled;become full
-Amtl>   {imotala>       PV->_intr       be filled;become full
 <mtl|   {imotala|       PV-|_intr       be filled;become full
-Amtl|   {imotala|       PV-|_intr       be filled;become full
 <mtl&   {imotala&       PV_w_intr       be filled;become full
-Amtl&   {imotala&       PV_w_intr       be filled;become full
 mtl}    motali} IV_intr be filled;become full
 ;; malo'_1
 ml'     malo'   N0      filling;filling out
@@ -3968,21 +3768,15 @@ ml>     milo>   Nh      filling;quantity
 ml&     milo&   Nh      filling;quantity
 ml}     milo}   Nhy     filling;quantity
 >mlA'   >amolA' N0_Nh   quantity
-AmlA'   >amolA' N0_Nh   quantity
 >mlA&   >amolA& Nh      quantity
-AmlA&   >amolA& Nh      quantity
 >mlA}   >amolA} Nhy     quantity
-AmlA}   >amolA} Nhy     quantity
 ;; mala>_1
 ml>     mala>   N0_Nh   crowd;assembly;audience
 ml&     mala&   Nh      crowd;assembly;audience
 ml}     mala}   Nhy     crowd;assembly;audience
 >mlA'   >amolA' N0_Nh   crowd;assembly;audience
-AmlA'   >amolA' N0_Nh   crowd;assembly;audience
 >mlA&   >amolA& Nh      crowd;assembly;audience
-AmlA&   >amolA& Nh      crowd;assembly;audience
 >mlA}   >amolA} Nhy     crowd;assembly;audience
-AmlA}   >amolA} Nhy     crowd;assembly;audience
 ;; milAyap_1
 mlAy    milAy   NapAt   full-body garment
 mlA'    mulA'   NapAt   full-body garment
@@ -4005,30 +3799,18 @@ mmAl>   mumAla> Napdu   partiality;bias;collaboration
 mmAl    mumAla  N-|t    partiality;bias;collaboration
 ;; <imolA'_1
 <mlA'   <imolA' N0_Nh   filling;filling out
-AmlA'   <imolA' N0_Nh   filling;filling out
 <mlA&   <imolA& Nh      filling;filling out
-AmlA&   <imolA& Nh      filling;filling out
 <mlA}   <imolA} Nhy     filling;filling out
-AmlA}   <imolA} Nhy     filling;filling out
 <mlA'   <imolA' NAn_Nayn        filling;filling out
-AmlA'   <imolA' NAn_Nayn        filling;filling out
 <mlA}   <imolA} Nayn    filling;filling out
-AmlA}   <imolA} Nayn    filling;filling out
 <mlA'   <imolA' NAt     filling;filling out
-AmlA'   <imolA' NAt     filling;filling out
 ;; {imotilA'_1
 <mtlA'  {imotilA'       N0_Nh   repletion;fullness
-AmtlA'  {imotilA'       N0_Nh   repletion;fullness
 <mtlA&  {imotilA&       Nh      repletion;fullness
-AmtlA&  {imotilA&       Nh      repletion;fullness
 <mtlA}  {imotilA}       Nhy     repletion;fullness
-AmtlA}  {imotilA}       Nhy     repletion;fullness
 <mtlA'  {imotilA'       NAn_Nayn        repletion;fullness
-AmtlA'  {imotilA'       NAn_Nayn        repletion;fullness
 <mtlA}  {imotilA}       Nayn    repletion;fullness
-AmtlA}  {imotilA}       Nayn    repletion;fullness
 <mtlA'  {imotilA'       NAt     repletion;fullness
-AmtlA'  {imotilA'       NAt     repletion;fullness
 ;; mamoluw'_1
 mmlw'   mamoluw'        Nall    full;loaded     <pos>mamoluw'/ADJ</pos>
 mmlw&   mamoluw&        Nall    full;loaded
@@ -4065,7 +3847,6 @@ mlj     malaj   PV      suck
 mlj     moluj   IV      suck
 ;; {imotalaj_1
 <mtlj   {imotalaj       PV      suck
-Amtlj   {imotalaj       PV      suck
 mtlj    motalij IV      suck
 ;; maloj_1
 mlj     maloj   N       sucking
@@ -4086,16 +3867,13 @@ mlH     mal~aH  PV      season with salt;preserve with salt
 mlH     mal~iH  IV_yu   season with salt;preserve with salt
 ;; >amolaH_1
 >mlH    >amolaH PV_intr be salty
-AmlH    >amolaH PV_intr be salty
 mlH     moliH   IV_intr_yu      be salty
 ;; {isotamolaH_1
 <stmlH  {isotamolaH     PV      regard as pretty
-AstmlH  {isotamolaH     PV      regard as pretty
 stmlH   sotamoliH       IV      regard as pretty
 ;; miloH_1
 mlH     miloH   N       salt
 >mlAH   >amolAH N       salt;salts
-AmlAH   >amolAH N       salt;salts
 mlAH    milAH   N       salt;gunpowder
 ;; miloH_2
 mlH     miloH   N-ap    salty;saline
@@ -4126,18 +3904,14 @@ mlyH    maliyH  N-ap    salty;briny;saline     <pos>maliyH/ADJ</pos>
 mlyH    maliyH  N/ap    pretty;cute;attractive     <pos>maliyH/ADJ</pos>
 mlAH    milAH   N       pretty;cute;attractive
 >mlAH   >amolAH N       pretty;cute;attractive
-AmlAH   >amolAH N       pretty;cute;attractive
 ;; >amolaH_2
 >mlH    >amolaH Nel     saline;salty
-AmlH    >amolaH Nel     saline;salty
 mlHA'   maloHA' N0_Nh   saline;salty
 mlHA&   maloHA& Nh      saline;salty
 mlHA}   maloHA} Nhy     saline;salty
 ;; >umoluwHap_1
 >mlwH   >umoluwH        Napdu   joke;anecdote
-AmlwH   >umoluwH        Napdu   joke;anecdote
 >mAlyH  >amAliyH        Ndip    jokes;anecdotes
-AmAlyH  >amAliyH        Ndip    jokes;anecdotes
 ;; mamolaHap_1
 mmlH    mamolaH Napdu   saltworks;salina
 mmAlH   mamAliH Ndip    saltworks;salinas
@@ -4160,15 +3934,12 @@ mlx     malax   PV      tear out;dislocate
 mlx     molax   IV      tear out;dislocate
 ;; {inomalax_1
 <nmlx   {inomalax       PV_intr be torn out;be dislocated
-Anmlx   {inomalax       PV_intr be torn out;be dislocated
 nmlx    nomalix IV_intr be torn out;be dislocated
 ;; {im~alax_1
 <mlx    {im~alax        PV_intr be torn out;be dislocated
-Amlx    {im~alax        PV_intr be torn out;be dislocated
 mlx     m~alix  IV_intr be torn out;be dislocated
 ;; {imotalax_1
 <mtlx   {imotalax       PV      pull out;extract
-Amtlx   {imotalax       PV      pull out;extract
 mtlx    motalix IV      pull out;extract
 ;; maliyx_1
 mlyx    maliyx  N-ap    insipid;tasteless     <pos>maliyx/ADJ</pos>
@@ -4183,10 +3954,8 @@ mld     malid   PV_intr be tender
 mld     molad   IV_intr be tender
 ;; >amAliyd_1
 >mAlyd  >amAliyd        Ndip    tender twigs
-AmAlyd  >amAliyd        Ndip    tender twigs
 ;; >amolad_1
 >mld    >amolad Nel     tender;flexible
-Amld    >amolad Nel     tender;flexible
 mldA'   malodA' N0_Nh   tender;flexible
 mldA&   malodA& Nh      tender;flexible
 mldA}   malodA} Nhy     tender;flexible
@@ -4210,11 +3979,9 @@ tmls    tamal~as        PV_intr become smooth;slip away
 tmls    tamal~as        IV_intr become smooth;slip away
 ;; {inomalas_1
 <nmls   {inomalas       PV_intr become smooth;glide;slip away
-Anmls   {inomalas       PV_intr become smooth;glide;slip away
 nmls    nomalis IV_intr become smooth;glide;slip away
 ;; {im~alas_1
 <mls    {im~alas        PV_intr become smooth;glide;slip away
-Amls    {im~alas        PV_intr become smooth;glide;slip away
 mls     m~alis  IV_intr become smooth;glide;slip away
 ;; malas_1
 mls     malas   N       silk fabric
@@ -4224,7 +3991,6 @@ mls     malis   N-ap    smooth
 mlAs    malAs   Nap     smoothness
 ;; >amolas_1
 >mls    >amolas Nel     smooth;sleek
-Amls    >amolas Nel     smooth;sleek
 mlsA'   malosA' N0_Nh   smooth;sleek
 mlsA&   malosA& Nh      smooth;sleek
 mlsA}   malosA} Nhy     smooth;sleek
@@ -4260,7 +4026,6 @@ mlT     maloT   N       nude;stark naked
 ;; miloT_1
 mlT     miloT   N       scoundrel
 >mlAT   >amolAT N       scoundrels
-AmlAT   >amolAT N       scoundrels
 mlwT    muluwT  N       scoundrels
 ;; milAT_1
 mlAT    milAT   N       mortar
@@ -4269,7 +4034,6 @@ mlT     muluT   N       mortar
 mlyT    maliyT  N/ap    hairless
 ;; >amolaT_1
 >mlT    >amolaT Nel     hairless
-AmlT    >amolaT Nel     hairless
 mlT     muloT   N       hairless
 ;
 ;--- mlg
@@ -4291,7 +4055,6 @@ mAlq    mAlaq   PV      flatter
 mAlq    mAliq   IV_yu   flatter
 ;; >amolaq_1
 >mlq    >amolaq PV_intr become poor
-Amlq    >amolaq PV_intr become poor
 mlq     moliq   IV_intr_yu      become poor
 ;; tamal~aq_1
 tmlq    tamal~aq        PV      flatter
@@ -4303,7 +4066,6 @@ mlAq    mal~Aq  Nall    flatterer
 ;; malaqap_1
 mlq     malaq   NapAt   league
 >mlAq   >amolAq N       leagues
-AmlAq   >amolAq N       leagues
 ;; mimolaqap_1
 mmlq    mimolaq Nap     roller;leveler
 ;; tamoliyq_1
@@ -4321,7 +4083,6 @@ mlk     mal~ak  PV      make owner
 mlk     mal~ik  IV_yu   make owner
 ;; >amolak_1
 >mlk    >amolak PV      make owner
-Amlk    >amolak PV      make owner
 mlk     molik   IV_yu   make owner
 mlk     molak   IV_Pass_yu      be made owner
 ;; tamal~ak_1
@@ -4332,25 +4093,21 @@ tmAlk   tamAlak PV      control
 tmAlk   tamAlak IV      control
 ;; {imotalak_1
 <mtlk   {imotalak       PV      possess;acquire
-Amtlk   {imotalak       PV      possess;acquire
 mtlk    motalik IV      possess;acquire
 ;; {isotamolak_1
 <stmlk  {isotamolak     PV      appropriate;control
-Astmlk  {isotamolak     PV      appropriate;control
 stmlk   sotamolik       IV      appropriate;control
 ;; mulok_1
 mlk     mulok   N       dominion
 ;; milok_1
 mlk     milok   N       property;real estate
 >mlAk   >amolAk N       possessions;property
-AmlAk   >amolAk N       possessions;property
 ;; malik_1
 mlk     malik   N0      King
 ;; malik_2
 mlk     malik   Ndu     king
 mlwk    muluwk  N       kings
 >mlAk   >amolAk N       kings
-AmlAk   >amolAk N       kings
 ;; malikap_1
 mlk     malik   NapAt   queen
 ;; mulokiy~_1
@@ -4397,10 +4154,8 @@ tmlk    tamal~uk        N/At    ownership;possession
 tmAlk   tamAluk N/At    self-control
 ;; {imotilAk_1
 <mtlAk  {imotilAk       N/At    possession;seizure;control
-AmtlAk  {imotilAk       N/At    possession;seizure;control
 ;; {isotimolAk_1
 <stmlAk {isotimolAk     N/At    acquisition;appropriation
-AstmlAk {isotimolAk     N/At    acquisition;appropriation
 ;; mAlik_1
 mAlk    mAlik   Nall    proprietor;holder
 mlAk    mul~Ak  N       proprietors;holders
@@ -4474,13 +4229,9 @@ mlY     mal~aY  IV_0_Pass_yu    be entertained
 mly     mal~ay  IV_Ann_Pass_yu  be entertained
 ;; >amolaY_1
 >mlY    >amolaY PV_0    impose;dictate
-AmlY    >amolaY PV_0    impose;dictate
 >mlA    >amolA  PV_h    impose;dictate
-AmlA    >amolA  PV_h    impose;dictate
 >mly    >amolay PV_Atn  impose;dictate
-Amly    >amolay PV_Atn  impose;dictate
 >ml     >amol   PV_ttAw impose;dictate
-Aml     >amol   PV_ttAw impose;dictate
 mly     moliy   IV_0hAnn_yu     impose;dictate
 ; ml    mol     IV_0hwnyn_yu    impose;dictate
 mlY     molaY   IV_0_Pass_yu    be imposed;be dictated
@@ -4496,13 +4247,9 @@ tmly    tamal~ay        IV_Ann  follow;pursue;pay close attention
 tml     tamal~  IV_0hwnyn       follow;pursue;pay close attention
 ;; {isotamolaY_1
 <stmlY  {isotamolaY     PV_0    self-impose
-AstmlY  {isotamolaY     PV_0    self-impose
 <stmlA  {isotamolA      PV_h    self-impose
-AstmlA  {isotamolA      PV_h    self-impose
 <stmly  {isotamolay     PV_Atn  self-impose
-Astmly  {isotamolay     PV_Atn  self-impose
 <stml   {isotamol       PV_ttAw self-impose
-Astml   {isotamol       PV_ttAw self-impose
 stmly   sotamoliy       IV_0hAnn        self-impose
 stml    sotamol IV_0hwnyn       self-impose
 stmlY   sotamolaY       IV_0    self-impose
@@ -4510,11 +4257,8 @@ stmlY   sotamolaY       IV_0    self-impose
 mlY     malaY   N0      open country;steppe
 mlA     malA    Nhy     open country;steppe
 >mlA'   >amolA' N0_Nh   open country;steppe
-AmlA'   >amolA' N0_Nh   open country;steppe
 >mlA&   >amolA& Nh      open country;steppe
-AmlA&   >amolA& Nh      open country;steppe
 >mlA}   >amolA} Nhy     open country;steppe
-AmlA}   >amolA} Nhy     open country;steppe
 ;; malowap_1
 mlw     malow   Napdu   malwa (dry measure)
 mlw     malaw   NAt     malwa (dry measure)
@@ -4527,20 +4271,13 @@ mly     maliy~  NF      for a long time;for quite a while     <pos>maliy~/ADV</p
 mmlA    mimolA  Napdu   dictaphone
 ;; <imolA'_2
 <mlA'   <imolA' N0_Nh   dictation;orthography
-AmlA'   <imolA' N0_Nh   dictation;orthography
 <mlA&   <imolA& Nh      dictation;orthography
-AmlA&   <imolA& Nh      dictation;orthography
 <mlA}   <imolA} Nhy     dictation;orthography
-AmlA}   <imolA} Nhy     dictation;orthography
 <mlA'   <imolA' NAn_Nayn        dictation;orthography
-AmlA'   <imolA' NAn_Nayn        dictation;orthography
 <mlA}   <imolA} Nayn    dictation;orthography
-AmlA}   <imolA} Nayn    dictation;orthography
 <mlA'   <imolA' NAt     dictation;orthography
-AmlA'   <imolA' NAt     dictation;orthography
 ;; <imolA}iy~_1
 <mlA}y  <imolA}iy~      N-ap    orthographic;spelling     <pos><imolA}iy~/ADJ</pos>
-AmlA}y  <imolA}iy~      N-ap    orthographic;spelling     <pos><imolA}iy~/ADJ</pos>
 ;
 ;; maliy~ap_1
 mly     maliy~  Napdu   female bedouin dress     <pos>maliy~/NOUN</pos>
@@ -4639,7 +4376,6 @@ mAnH    mAnaH   PV      bestow favors upon
 mAnH    mAniH   IV_yu   bestow favors upon
 ;; {isotamonaH_1
 <stmnH  {isotamonaH     PV      petition for a grant
-AstmnH  {isotamonaH     PV      petition for a grant
 stmnH   sotamoniH       IV      petition for a grant
 ;; manoH_1
 mnH     manoH   N       granting;bestowal;awarding
@@ -4710,7 +4446,6 @@ mAnE    mAnaE   PV      oppose
 mAnE    mAniE   IV_yu   oppose
 ;; {imotanaE_1
 <mtnE   {imotanaE       PV      abstain;refrain;refuse
-AmtnE   {imotanaE       PV      abstain;refrain;refuse
 mtnE    motaniE IV      abstain;refrain;refuse
 ;; manoE_1
 mnE     manoE   N       prevention;interdiction
@@ -4725,14 +4460,12 @@ mnEA}   munaEA} Nhy     impenetrable;well-fortified;invincible
 mnAE    manAE   Nap     impenetrability;immunity
 ;; >amonaE_1
 >mnE    >amonaE Nel     insurmountable
-AmnE    >amonaE Nel     insurmountable
 ;; mumAnaEap_1
 mmAnE   mumAnaE NapAt   opposition;resistance
 ;; taman~uE_1
 tmnE    taman~uE        N/At    rejection;refusal
 ;; {imotinAE_1
 <mtnAE  {imotinAE       N/At    abstaining;refraining;refusal
-AmtnAE  {imotinAE       N/At    abstaining;refraining;refusal
 ;; mAniE_1
 mAnE    mAniE   Nall    preventing;forbidding     <pos>mAniE/ADJ</pos>
 ;; mAniE_2
@@ -4803,13 +4536,9 @@ tmny    taman~ay        IV_Ann  desire;wish for;hope
 tmn     taman~  IV_0hwnyn       desire;wish for;hope
 ;; {isotamonaY_1
 <stmnY  {isotamonaY     PV_0    masturbate
-AstmnY  {isotamonaY     PV_0    masturbate
 <stmnA  {isotamonA      PV_h    masturbate
-AstmnA  {isotamonA      PV_h    masturbate
 <stmny  {isotamonay     PV_Atn  masturbate
-Astmny  {isotamonay     PV_Atn  masturbate
 <stmn   {isotamon       PV_ttAw masturbate
-Astmn   {isotamon       PV_ttAw masturbate
 stmny   sotamoniy       IV_0hAnn        masturbate
 stmn    sotamon IV_0hwnyn       masturbate
 ;; manaY_1
@@ -4831,26 +4560,17 @@ mnA     manA    Nap     Manat (pre-Islamic goddess)
 mny     munoy   Nap     wish;desire
 mny     minoy   Nap     wish;desire
 >mny    >umoniy~        Napdu   wish;desire;aspiration     <pos>>umoniy~/NOUN</pos>
-Amny    >umoniy~        Napdu   wish;desire;aspiration     <pos>>umoniy~/NOUN</pos>
 >mAny   >amAniy N0_Nh   wishes;desires;aspirations
-AmAny   >amAniy N0_Nh   wishes;desires;aspirations
 >mAn    >amAn   NK      wishes;desires;aspirations
-AmAn    >amAn   NK      wishes;desires;aspirations
 ;; tamoniyap_1
 tmny    tamoniy Nap     ejaculation
 ;; <imonA'_1
 <mnA'   <imonA' N0_Nh   ejaculation
-AmnA'   <imonA' N0_Nh   ejaculation
 <mnA&   <imonA& Nh      ejaculation
-AmnA&   <imonA& Nh      ejaculation
 <mnA}   <imonA} Nhy     ejaculation
-AmnA}   <imonA} Nhy     ejaculation
 <mnA'   <imonA' NAn_Nayn        ejaculations
-AmnA'   <imonA' NAn_Nayn        ejaculations
 <mnA}   <imonA} Nayn    ejaculations
-AmnA}   <imonA} Nayn    ejaculations
 <mnA'   <imonA' NAt     ejaculations
-AmnA'   <imonA' NAt     ejaculations
 ;; taman~iy_1
 tmny    taman~iy        N0_Nh   wish;hope;desire
 tmn     taman~  NK      wish;hope;desire
@@ -4858,11 +4578,8 @@ tmny    taman~iy        NAn_Nayn        wishes;hopes;desires
 tmny    taman~iy        NAt     wishes;hopes;desires
 ;; {isotimonA'_1
 <stmnA' {isotimonA'     N0_Nh   masturbation
-AstmnA' {isotimonA'     N0_Nh   masturbation
 <stmnA& {isotimonA&     Nh      masturbation
-AstmnA& {isotimonA&     Nh      masturbation
 <stmnA} {isotimonA}     Nhy     masturbation
-AstmnA} {isotimonA}     Nhy     masturbation
 ;; mutaman~iy_1
 mtmny   mutaman~iy      N0F_Nh  wishing;desiring
 mtmn    mutaman~        NK      wishing;desiring
@@ -4932,7 +4649,6 @@ mAhr    mAhar   PV      vie in skill with
 mAhr    mAhir   IV_yu   vie in skill with
 ;; >amohar_1
 >mhr    >amohar PV      pay a dowry
-Amhr    >amohar PV      pay a dowry
 mhr     mohir   IV_yu   pay a dowry
 mhr     mohar   IV_Pass_yu      be paid a dowry
 ;; mahor_1
@@ -4941,7 +4657,6 @@ mhwr    muhuwr  N       dowries
 ;; muhor_1
 mhr     muhor   Ndu     foal;colt
 >mhAr   >amohAr N       foals;colts
-AmhAr   >amohAr N       foals;colts
 mhAr    mihAr   Nap     foals;colts
 ;; muhorap_1
 mhr     muhor   NapAt   filly
@@ -4975,7 +4690,6 @@ mhrdAr  muhoradAr       N0      keeper of the seal
 ;; mahaq_1
 mhq     mahaq   N       albinism
 >mhq    >amohaq Nel     albino
-Amhq    >amohaq Nel     albino
 mhqA'   mahoqA' N0_Nh   albino
 mhqA&   mahoqA& Nh      albino
 mhqA}   mahoqA} Nhy     albino
@@ -4997,7 +4711,6 @@ mhl     mah~al  PV      grant a delay;grant a respite
 mhl     mah~il  IV_yu   grant a delay;grant a respite
 ;; >amohal_1
 >mhl    >amohal PV      grant a delay;grant a respite
-Amhl    >amohal PV      grant a delay;grant a respite
 mhl     mohil   IV_yu   grant a delay;grant a respite
 mhl     mohal   IV_Pass_yu      be granted a delay;be granted a respite
 ;; tamah~al_1
@@ -5008,7 +4721,6 @@ tmAhl   tamAhal PV_intr be slow;proceed slowly
 tmAhl   tamAhal IV_intr be slow;proceed slowly
 ;; {isotamohal_1
 <stmhl  {isotamohal     PV      ask for a respite;ask to wait
-Astmhl  {isotamohal     PV      ask for a respite;ask to wait
 stmhl   sotamohil       IV      ask for a respite;ask to wait
 ;; mahol_1
 mhl     mahol   N       slowness
@@ -5020,10 +4732,8 @@ mhl     muhol   Nap     delay;respite
 mhyl    muhayol Nap     large boat
 ;; <imohAl_1
 <mhAl   <imohAl N/At    grant of respite;granting a delay
-AmhAl   <imohAl N/At    grant of respite;granting a delay
 ;; <imohAliy~_1
 <mhAly  <imohAliy~      Nall    delaying;dilatory     <pos><imohAliy~/ADJ</pos>
-AmhAly  <imohAliy~      Nall    delaying;dilatory     <pos><imohAliy~/ADJ</pos>
 ;; tamah~ul_1
 tmhl    tamah~ul        N/At    slowness;gradualness
 ;; mutamah~il_1
@@ -5048,7 +4758,6 @@ mAhn    mAhan   PV-n    practice
 mAhn    mAhin   IV-n_yu practice
 ;; {imotahan_1
 <mthn   {imotahan       PV-n    degrade;despise
-Amthn   {imotahan       PV-n    degrade;despise
 mthn    motahin IV-n    degrade;despise
 ;; mihonap_1
 mhn     mihon   Napdu   vocation;profession;occupation
@@ -5061,7 +4770,6 @@ mhny    mihoniy~        Nall    professionally active     <pos>mihoniy~/ADJ</pos
 mhyn    mahiyn  N/ap    despised;contemptible     <pos>mahiyn/ADJ</pos>
 ;; {imotihAn_1
 <mthAn  {imotihAn       N/At    humiliation;contempt
-AmthAn  {imotihAn       N/At    humiliation;contempt
 ;; mAhin_1
 mAhn    mAhin   N/ap    menial servant
 mhAn    muh~An  N       menial servant
@@ -5110,9 +4818,7 @@ mwt     maw~at  PV-t    kill
 mwt     maw~it  IV_yu   kill
 ;; >amAt_1
 >mAt    >amAt   PV_V    mortify;kill
-AmAt    >amAt   PV_V    mortify;kill
 >mt     >amat   PV-t    mortify;kill
-Amt     >amat   PV-t    mortify;kill
 myt     miyt    IV_V_yu mortify;kill
 mt      mit     IV_C_yu mortify;kill
 mAt     mAt     IV_V_Pass_yu    be killed;be suppressed
@@ -5122,9 +4828,7 @@ tmAwt   tamAwat PV-t    feign death;pretend to be dead
 tmAwt   tamAwat IV      feign death;pretend to be dead
 ;; {isotamAt_1
 <stmAt  {isotamAt       PV_V    defy death;make a desperate effort
-AstmAt  {isotamAt       PV_V    defy death;make a desperate effort
 <stmt   {isotamat       PV_Ct   defy death;make a desperate effort
-Astmt   {isotamat       PV_Ct   defy death;make a desperate effort
 stmyt   sotamiyt        IV_V    defy death;make a desperate effort
 stmt    sotamit IV_C    defy death;make a desperate effort
 ;; mawot_1
@@ -5137,7 +4841,6 @@ mwtAn   muwtAn  N       dying;epidemic
 ;; may~it_1
 myt     may~it  N-ap    dead
 >mwAt   >amowAt N       lifeless;inanimate;dead
-AmwAt   >amowAt N       lifeless;inanimate;dead
 mwtY    mawotY  N0      lifeless;inanimate;dead
 mwtA    mawotA  Nhy     lifeless;inanimate;dead
 ;; mayotap_1
@@ -5148,10 +4851,8 @@ myt     miyt    Nap     death
 mmAt    mamAt   N       death;place of death
 ;; <imAtap_1
 <mAt    <imAt   Nap     mortification;killing
-AmAt    <imAt   Nap     mortification;killing
 ;; {isotimAtap_1
 <stmAt  {isotimAt       Nap     defiance of death;desperate effort
-AstmAt  {isotimAt       Nap     defiance of death;desperate effort
 ;; mA}it_1
 mA}t    mA}it   Nall    moribund;mortal     <pos>mA}it/ADJ</pos>
 mAyt    mAyit   Nall    moribund;mortal
@@ -5195,7 +4896,6 @@ tmAwj   tamAwaj IV      fluctuate;undulate;swell
 ;; mawoj_1
 mwj     mawoj   N       wave
 >mwAj   >amowAj N       waves
-AmwAj   >amowAj N       waves
 mwj     mawoj   NapAt   wave
 ;; maw~Aj_1
 mwAj    maw~Aj  N-ap    undulating
@@ -5253,7 +4953,6 @@ tmwr    tamaw~ur        N/At    swinging motion;oscillation
 tmwr    tamaw~ur        NF      back and forth     <pos>tamaw~ur/ADV</pos>
 ;; {isotimArap_1
 <stmAr  {isotimAr       NapAt   form;questionnaire
-AstmAr  {isotimAr       NapAt   form;questionnaire
 ;
 ; Israeli tennis player Lior Mor
 ;; muwr_1
@@ -5436,15 +5135,12 @@ tmwl    tamaw~al        PV_intr be financed;be funded
 tmwl    tamaw~al        IV_intr be financed;be funded
 ;; {isotamAl_1
 <stmAl  {isotamAl       PV_V    get rich
-AstmAl  {isotamAl       PV_V    get rich
 <stml   {isotamal       PV_C    get rich
-Astml   {isotamal       PV_C    get rich
 stmyl   sotamiyl        IV_V    get rich
 stml    sotamil IV_C    get rich
 ;; mAl_1
 mAl     mAl     N       money;capital;funds
 >mwAl   >amowAl N       assets;capital;funds
-AmwAl   >amowAl N       assets;capital;funds
 ;; mAliy~_1
 mAly    mAliy~  N-ap    financial;monetary     <pos>mAliy~/ADJ</pos>
 ;; mAliy~ap_1
@@ -5560,9 +5256,7 @@ mwh     maw~ah  PV      have abundant water;add water;dilute
 mwh     maw~ih  IV_yu   have abundant water;add water;dilute
 ;; >amAh_1
 >mAh    >amAh   PV_V    add water;make wet
-AmAh    >amAh   PV_V    add water;make wet
 >mh     >amah   PV_C    add water;make wet
-Amh     >amah   PV_C    add water;make wet
 myh     miyh    IV_V_yu add water;make wet
 mh      mih     IV_C_yu add water;make wet
 mAh     mAh     IV_V_Pass_yu    be added (water);be made wet
@@ -5573,7 +5267,6 @@ mA&     mA&     Nh      water
 mA}     mA}     Nhy     water
 myAh    miyAh   N       water;waters
 >mwAh   >amowAh N       water;waters
-AmwAh   >amowAh N       water;waters
 ;; mA}iy~_1
 mA}y    mA}iy~  N-ap    watery;liquid;aquatic     <pos>mA}iy~/ADJ</pos>
 mAwy    mAwiy~  N-ap    watery;liquid;aquatic     <pos>mAwiy~/ADJ</pos>
@@ -5660,9 +5353,7 @@ tmAyH   tamAyaH PV      stagger;swing
 tmAyH   tamAyaH IV      stagger;swing
 ;; {isotamAH_1
 <stmAH  {isotamAH       PV_V    request
-AstmAH  {isotamAH       PV_V    request
 <stmH   {isotamaH       PV_C    request
-AstmH   {isotamaH       PV_C    request
 stmyH   sotamiyH        IV_V    request
 stmH    sotamiH IV_C    request
 ;; mayoH_1
@@ -5744,9 +5435,7 @@ myr     miyr    IV_V    provide for;support
 mr      mir     IV_C    provide for;support
 ;; >amAr_1
 >mAr    >amAr   PV_V    provide for;support
-AmAr    >amAr   PV_V    provide for;support
 >mr     >amar   PV_C    provide for;support
-Amr     >amar   PV_C    provide for;support
 myr     miyr    IV_V_yu provide for;support
 mr      mir     IV_C_yu provide for;support
 mAr     mAr     IV_V_Pass_yu    be supported
@@ -5761,7 +5450,6 @@ myAr    may~Ar  Nall    purveyor;supplier;caterer
 ;; miyr_1
 myr     miyr    N       mayor
 >myAr   >amoyAr N       mayors
-AmyAr   >amoyAr N       mayors
 ;
 ;--- myrd
 ;; miyrdojalAl_1
@@ -5813,9 +5501,7 @@ myz     may~az  PV      distinguish;differentiate;discriminate
 myz     may~iz  IV_yu   distinguish;differentiate;discriminate
 ;; >amAz_1
 >mAz    >amAz   PV_V    distinguish;prefer
-AmAz    >amAz   PV_V    distinguish;prefer
 >mz     >amaz   PV_C    distinguish;prefer
-Amz     >amaz   PV_C    distinguish;prefer
 myz     miyz    IV_V_yu distinguish;prefer
 mz      miz     IV_C_yu distinguish;prefer
 mAz     mAz     IV_V_Pass_yu    be distinguished;be preferred
@@ -5831,9 +5517,7 @@ tmAyz   tamAyaz PV_intr be distinguished
 tmAyz   tamAyaz IV_intr be distinguished
 ;; {imotAz_1
 <mtAz   {imotAz PV_V_intr       be distinguished;excel;surpass
-AmtAz   {imotAz PV_V_intr       be distinguished;excel;surpass
 <mtz    {imotaz PV_C_intr       be distinguished;excel;surpass
-Amtz    {imotaz PV_C_intr       be distinguished;excel;surpass
 mtAz    motAz   IV_V_intr       be distinguished;excel;surpass
 mtz     motaz   IV_C_intr       be distinguished;excel;surpass
 ;; mayoz_1
@@ -5842,20 +5526,16 @@ myz     mayoz   N       distinction
 myz     miyz    NapAt   distinguishing feature;characteristic;advantage
 ;; >amoyaz_1
 >myz    >amoyaz Nel     preferable
-Amyz    >amoyaz Nel     preferable
 ;; tamoyiyz_1
 tmyyz   tamoyiyz        N/At    distinction;differentiation;discrimination;segregation
 ;; tamay~uz_1
 tmyz    tamay~uz        N/At    standing out;being distinguished
 ;; {imotiyAz_1
 <mtyAz  {imotiyAz       N/At    distinction;excellence
-AmtyAz  {imotiyAz       N/At    distinction;excellence
 ;; {imotiyAz_2
 <mtyAz  {imotiyAz       NduAt   privilege
-AmtyAz  {imotiyAz       NduAt   privilege
 ;; {imotiyAz_3
 <mtyAz  {imotiyAz       N/At    concession;favor
-AmtyAz  {imotiyAz       N/At    concession;favor
 ;; mumay~iz_1
 mmyz    mumay~iz        Nall    discriminating;discerning
 ;; mumay~izap_1
@@ -5893,7 +5573,6 @@ mysAn   mayasAn N       swaggering
 ;; miys_1
 mys     miys    N       target
 >myAs   >amoyAs N       targets
-AmyAs   >amoyAs N       targets
 ;; may~As_1
 myAs    may~As  Nall    swaggering
 ;
@@ -5931,9 +5610,7 @@ myT     miyT    IV_V    remove;pull away;draw back
 mT      miT     IV_C    remove;pull away;draw back
 ;; >amAT_1
 >mAT    >amAT   PV_V    remove;pull away;draw back
-AmAT    >amAT   PV_V    remove;pull away;draw back
 >mT     >amaT   PV_C    remove;pull away;draw back
-AmT     >amaT   PV_C    remove;pull away;draw back
 myT     miyT    IV_V_yu remove;pull away;draw back
 mT      miT     IV_C_yu remove;pull away;draw back
 mAT     mAT     IV_V_Pass_yu    be removed;be pulled away;be drawn back
@@ -5956,9 +5633,7 @@ myE     may~aE  PV      soften;attenuate;liquify
 myE     may~iE  IV_yu   soften;attenuate;liquify
 ;; >amAE_1
 >mAE    >amAE   PV_V    melt;liquify
-AmAE    >amAE   PV_V    melt;liquify
 >mE     >amaE   PV_C    melt;liquify
-AmE     >amaE   PV_C    melt;liquify
 myE     miyE    IV_V_yu melt;liquify
 mE      miE     IV_C_yu melt;liquify
 mAE     mAE     IV_V_Pass_yu    be melted;be liquified
@@ -5968,9 +5643,7 @@ tmyE    tamay~aE        PV_intr be melted;be dissolved
 tmyE    tamay~aE        IV_intr be melted;be dissolved
 ;; {inomAE_1
 <nmAE   {inomAE PV_V_intr       be melted;be dissolved
-AnmAE   {inomAE PV_V_intr       be melted;be dissolved
 <nmE    {inomaE PV_C_intr       be melted;be dissolved
-AnmE    {inomaE PV_C_intr       be melted;be dissolved
 nmAE    nomAE   IV_V_intr       be melted;be dissolved
 nmE     nomaE   IV_C_intr       be melted;be dissolved
 ;; mayoE_1
@@ -5983,7 +5656,6 @@ mywE    muyuwE  Nap     liquid state;softness;flaccidity
 tmyyE   tamoyiyE        N/At    melting;liquefaction
 ;; <imAEap_1
 <mAE    <imAE   Nap     melting;liquefaction
-AmAE    <imAE   Nap     melting;liquefaction
 ;; tamay~uE_1
 tmyE    tamay~uE        N/At    liquefaction
 ;; mA}iE_1
@@ -6080,9 +5752,7 @@ myl     may~al  PV      incline;tilt
 myl     may~il  IV_yu   incline;tilt
 ;; >amAl_2
 >mAl    >amAl   PV_V    incline;tilt
-AmAl    >amAl   PV_V    incline;tilt
 >ml     >amal   PV_C    incline;tilt
-Aml     >amal   PV_C    incline;tilt
 myl     miyl    IV_V_yu incline;tilt
 ; ml    mil     IV_C_yu incline;tilt
 mAl     mAl     IV_V_Pass_yu    be inclined;be tilted
@@ -6095,24 +5765,19 @@ tmAyl   tamAyal PV      sway;swing
 tmAyl   tamAyal IV      sway;swing
 ;; {isotamAl_2
 <stmAl  {isotamAl       PV_V    make incline;attract;win the affection of
-AstmAl  {isotamAl       PV_V    make incline;attract;win the affection of
 <stml   {isotamal       PV_C    make incline;attract;win the affection of
-Astml   {isotamal       PV_C    make incline;attract;win the affection of
 stmyl   sotamiyl        IV_V    make incline;attract;win the affection of
 stml    sotamil IV_C    make incline;attract;win the affection of
 ;; mayol_1
 myl     mayol   N       inclination;tendency;sympathy
 mywl    muyuwl  N       inclination;tendencies;sympathies
 >myAl   >amoyAl N       inclination;tendencies;sympathies
-AmyAl   >amoyAl N       inclination;tendencies;sympathies
 ;; may~Al_1
 myAl    may~Al  Nall    leaning;in favor;biased
 ;; >amoyal_1
 >myl    >amoyal Nel     more/most inclined;more/most in favor
-Amyl    >amoyal Nel     more/most inclined;more/most in favor
 ;; <imAlap_1
 <mAl    <imAl   Nap     leaning;tilting
-AmAl    <imAl   Nap     leaning;tilting
 ;; tamAyul_1
 tmAyl   tamAyul N/At    swaying;staggering
 ;; mA}il_1
@@ -6125,7 +5790,6 @@ mA}l    mA}il   N-ap    italic     <pos>mA}il/ADJ</pos>
 ;; miyl_1
 myl     miyl    Ndu     mile
 >myAl   >amoyAl N       miles
-AmyAl   >amoyAl N       miles
 ;
 ;--- mylA
 ;; mylAn_1
