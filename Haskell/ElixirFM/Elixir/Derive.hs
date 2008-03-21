@@ -35,9 +35,9 @@ instance Derive PatternT where
     derive I _ = [
 
             (   FaCaL,		FACiL,		MaFCUL,		morph	FiCL		    ),
-            (	FaCaL,		FACiL,		MaFCUL,		morph	FiCAL |< aT	    ),
+            (	FaCaL,		FACiL,		MaFCUL,		     	FiCAL |< aT	    ),
 
-            (	FaCaL,		FACiL,		MaFCUL,		morph	CiL |< aT	    ),
+            (	FaCaL,		FACiL,		MaFCUL,		     	CiL |< aT	    ),
 
             (	FAL,		FA'iL,		MaFUL,		morph	FaCL   		    ),
             (	FAL,		FA'iL,		MaFIL,		morph	FaCL		    ),
@@ -54,22 +54,22 @@ instance Derive PatternT where
     derive II _ = [
 
             (  	FaCCaL,		MuFaCCiL,	MuFaCCaL,	morph	TaFCIL 		    ),
-            (	FaCCaL,		MuFaCCiL,	MuFaCCaL,	morph	TaFCiL |< aT	),
+            (	FaCCaL,		MuFaCCiL,	MuFaCCaL,	     	TaFCiL |< aT	),
 
-            (	FaCCY,		MuFaCCI,	MuFaCCY,	morph	TaFCI |< aT	    ),
-            (	FaCCY,		MuFaCCI,	MuFaCCY,	morph	TaFIL |< aT	    )
+            (	FaCCY,		MuFaCCI,	MuFaCCY,	     	TaFCI |< aT	    ),
+            (	FaCCY,		MuFaCCI,	MuFaCCY,	     	TaFIL |< aT	    )
 
         ]
 
 
     derive III _ = [
 
-            (	FACaL,		MuFACiL,	MuFACaL,	morph	MuFACaL |< aT	),
+            (	FACaL,		MuFACiL,	MuFACaL,	     	MuFACaL |< aT	),
             (	FACaL,		MuFACiL,	MuFACaL,	morph	FiCAL	   	    ),
 
-            (	FACY,		MuFACI,		MuFACY,		morph	MuFACY |< aT	),
+            (	FACY,		MuFACI,		MuFACY,		     	MuFACY |< aT	),
 
-            (	FACL,		MuFACL,		MuFACL,		morph	MuFACL |< aT	)
+            (	FACL,		MuFACL,		MuFACL,		     	MuFACL |< aT	)
 
         ]
 
@@ -80,7 +80,7 @@ instance Derive PatternT where
 
             (	HaFCaL,		MUCiL,		MUCaL,		morph	HICAL		    ),
 
-            (	HaFAL,		MuFIL,		MuFAL,		morph	HiFAL |< aT	    ),
+            (	HaFAL,		MuFIL,		MuFAL,		     	HiFAL |< aT	    ),
 
             (	HaFCY,		MuFCI,		MuFCY,		morph	HiFCA'		    ),
 
@@ -152,7 +152,7 @@ instance Derive PatternT where
 
             (	IstaFCaL,	MustaFCiL,	MustaFCaL,	morph	IstICAL		    ),
 
-            (	IstaFAL,	MustaFIL,	MustaFAL,	morph	IstiFAL |< aT   ),
+            (	IstaFAL,	MustaFIL,	MustaFAL,	     	IstiFAL |< aT   ),
 
             (	IstaFCY,	MustaFCI,	MustaFCY,	morph	IstiFCA'   	    ),
 
