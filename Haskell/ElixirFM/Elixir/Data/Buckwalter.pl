@@ -82,12 +82,9 @@ until (eof()) {
         }
         elsif ($line !~ /^;/) {
 
-            $line =~ s/\<pos\>/\[\[/;
-            $line =~ s/\<\/pos\>/\]\]/;
-
             storeLine($line);
 
-            my ($surf, $full, $type, $gloss) = split /\s+/, $line, 4;
+            my ($full, $type, $gloss) = split /\s+/, $line, 3;
 
             $full =~ tr[>&<{][OWIA];
 

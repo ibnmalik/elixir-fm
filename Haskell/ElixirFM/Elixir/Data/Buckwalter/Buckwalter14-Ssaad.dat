@@ -1,3494 +1,3494 @@
 ;--- SAb
 ;; Su&Abap_1
-S&Ab    Su&Ab   Nap     nit;louse egg
-S&Ab    Su&Ab   N       nits;lice eggs
-S}bAn   Si}obAn N       nits;lice eggs
-SybAn   SiybAn  N       nits;lice eggs
+Su&Ab   Nap     nit;louse egg
+Su&Ab   N       nits;lice eggs
+Si}obAn N       nits;lice eggs
+SiybAn  N       nits;lice eggs
 ;
 ;; SAbAt_1
-SAbAt   SAbAt   N0      Sabat
+SAbAt   N0      Sabat
 ;
 ;--- SAj
 ;; SAj_1
-SAj     SAj     N       sheet metal
+SAj     N       sheet metal
 ;
 ;--- SAd
 ;; SAd_1
-SAd     SAd     NduAt   Sad (Arabic letter)
+SAd     NduAt   Sad (Arabic letter)
 ;
 ;--- SAg
 ;; SAg_1
-SAg     SAg     N       standard
+SAg     N       standard
 ;
 ;--- SAl
 ;; SAlap_1
-SAl     SAl     NapAt   hall
+SAl     NapAt   hall
 ;
 ;--- SAy
 ;; Sa>aY-a_1
-S>Y     Sa>aY   PV_0    twitter;chirp
-S>y     Sa>ay   PV_Atn  twitter;chirp
-S>      Sa>a    PV_ttAw twitter;chirp
-S>Y     So>aY   IV_0    twitter;chirp
-S>y     So>ay   IV_Ann  twitter;chirp
-S}y     So}ay   IV_Ann  twitter;chirp
+Sa>aY   PV_0    twitter;chirp
+Sa>ay   PV_Atn  twitter;chirp
+Sa>a    PV_ttAw twitter;chirp
+So>aY   IV_0    twitter;chirp
+So>ay   IV_Ann  twitter;chirp
+So}ay   IV_Ann  twitter;chirp
 ;; Sa>aY-i_1
-S>Y     Sa>aY   PV_0    twitter;chirp
-S|      Sa|     PV_h    twitter;chirp
-S>y     Sa>ay   PV_Atn  twitter;chirp
-S>      Sa>     PV_ttAw twitter;chirp
-S}y     So}iy   IV_0hAnn        twitter;chirp
-S>      So>     IV_0hwnyn       twitter;chirp
-S}      So}     IV_0hwnyn       twitter;chirp
-S&      So&     IV_wn   twitter;chirp
+Sa>aY   PV_0    twitter;chirp
+Sa|     PV_h    twitter;chirp
+Sa>ay   PV_Atn  twitter;chirp
+Sa>     PV_ttAw twitter;chirp
+So}iy   IV_0hAnn        twitter;chirp
+So>     IV_0hwnyn       twitter;chirp
+So}     IV_0hwnyn       twitter;chirp
+So&     IV_wn   twitter;chirp
 ;; Sa}iy~_1
-S}y     Sa}iy~  N       twittering;chirping
+Sa}iy~  N       twittering;chirping
 ;
 ;--- Sb
 ;; Sab~-u_1
-Sb      Sab~    PV_V    pour;flow
-Sbb     Sabab   PV_C    pour;flow
-Sb      Sub~    IV_V    pour;flow
-Sbb     Sobub   IV_C    pour;flow
+Sab~    PV_V    pour;flow
+Sabab   PV_C    pour;flow
+Sub~    IV_V    pour;flow
+Sobub   IV_C    pour;flow
 ;; Sab~-a_1
-Sb      Sab~    PV_V    love passionately
-Sbb     Sabib   PV_C    love passionately
-Sb      Sab~    IV_V    love passionately
-Sbb     Sobab   IV_C    love passionately
+Sab~    PV_V    love passionately
+Sabib   PV_C    love passionately
+Sab~    IV_V    love passionately
+Sobab   IV_C    love passionately
 ;; taSab~ab_1
-tSbb    taSab~ab        PV      flow;perspire;drip
-tSbb    taSab~ab        IV      flow;perspire;drip
-;; {inoSab~_1
-<nSb    {inoSab~        PV_V_intr       be poured out;flow
-<nSbb   {inoSabab       PV_C_intr       be poured out;flow
-nSb     noSab~  IV_V_intr       be poured out;flow
-nSbb    noSabib IV_C_intr       be poured out;flow
+taSab~ab        PV      flow;perspire;drip
+taSab~ab        IV      flow;perspire;drip
+;; AinoSab~_1
+AinoSab~        PV_V_intr       be poured out;flow
+AinoSabab       PV_C_intr       be poured out;flow
+noSab~  IV_V_intr       be poured out;flow
+noSabib IV_C_intr       be poured out;flow
 ;; Sab~_1
-Sb      Sab~    N       pouring;flowing
+Sab~    N       pouring;flowing
 ;; Sabab_1
-Sbb     Sabab   N       declivity;slope
->SbAb   >aSobAb N       hillsides;slopes
+Sabab   N       declivity;slope
+>aSobAb N       hillsides;slopes
 ;; Sabiyb_1
-Sbyb    Sabiyb  N-ap    poured out;spilled
+Sabiyb  N-ap    poured out;spilled
 ;; SabAbap_1
-SbAb    SabAb   Nap     passionate love
+SabAb   Nap     passionate love
 ;; SubAbap_1
-SbAb    SubAb   Nap     remainder
+SubAb   Nap     remainder
 ;; maSab~_1
-mSb     maSab~  NduAt   outlet;drain;funnel
-mSAb    maSAb~  Ndip    outlets;drains;funnels
+maSab~  NduAt   outlet;drain;funnel
+maSAb~  Ndip    outlets;drains;funnels
 ;; maSobuwb_1
-mSbwb   maSobuwb        N       lead (metal)
-mSbwb   maSobuwb        NAt     cast-metal goods;foundry products;hot lead
+maSobuwb        N       lead (metal)
+maSobuwb        NAt     cast-metal goods;foundry products;hot lead
 ;; Sab~Ab_1
-SbAb    Sab~Ab  N       spout;pouring lip
-;; {inoSibAb_1
-<nSbAb  {inoSibAb       N/At    pouring out;throwing out
+Sab~Ab  N       spout;pouring lip
+;; AinoSibAb_1
+AinoSibAb       N/At    pouring out;throwing out
 ;
 ;--- SbA
 ;; Saba>-a_1
-Sb>     Saba>   PV->    grow;sprout
-Sb|     Saba|   PV-|    grow;sprout
-Sb&     Saba&   PV_w    grow;sprout
-Sb>     Soba>   IV      grow;sprout
-Sb|     Soba|   IV-|    grow;sprout
-Sb&     Soba&   IV_wn   grow;sprout
-Sb}     Soba}   IV_yn   grow;sprout
+Saba>   PV->    grow;sprout
+Saba|   PV-|    grow;sprout
+Saba&   PV_w    grow;sprout
+Soba>   IV      grow;sprout
+Soba|   IV-|    grow;sprout
+Soba&   IV_wn   grow;sprout
+Soba}   IV_yn   grow;sprout
 ;; Subuw'_1
-Sbw'    Subuw'  N0_Nh   growing;sprouting
-Sbw}    Subuw}  Nhy     growing;sprouting
+Subuw'  N0_Nh   growing;sprouting
+Subuw}  Nhy     growing;sprouting
 ;; SAbi}iy~_1
-SAb}y   SAbi}iy~        Nall    Sabian;Mandean     <pos>SAbi}iy~/NOUN</pos>
-SAb}y   SAbi}iy~        Nall    Sabian;Mandean     <pos>SAbi}iy~/ADJ</pos>
+SAbi}iy~        Nall    Sabian;Mandean     [[SAbi}iy~/NOUN]]
+SAbi}iy~        Nall    Sabian;Mandean     [[SAbi}iy~/ADJ]]
 ;
 ;--- SbH
 ;; Sab~aH_1
-SbH     Sab~aH  PV      greet
-SbH     Sab~iH  IV_yu   greet
+Sab~aH  PV      greet
+Sab~iH  IV_yu   greet
 ;; >aSobaH_1
->SbH    >aSobaH PV      become;begin;start
-SbH     SobiH   IV_yu   become;begin;start
-;; {isotaSobaH_1
-<stSbH  {isotaSobaH     PV      light;illuminate
-stSbH   sotaSobiH       IV      light;illuminate
+>aSobaH PV      become;begin;start
+SobiH   IV_yu   become;begin;start
+;; AisotaSobaH_1
+AisotaSobaH     PV      light;illuminate
+sotaSobiH       IV      light;illuminate
 ;; SuboH_1
-SbH     SuboH   N       morning;daybreak
->SbAH   >aSobAH N       mornings;daybreak
+SuboH   N       morning;daybreak
+>aSobAH N       mornings;daybreak
 ;; SuboHiy_1
-SbHy    SuboHiy N0      Subhi;Sobhi
+SuboHiy N0      Subhi;Sobhi
 ;; SabAH_1
-SbAH    SabAH   N       morning
-SbAH    SabAH   NF      in the morning     <pos>SabAH/ADV</pos>
+SabAH   N       morning
+SabAH   NF      in the morning     [[SabAH/ADV]]
 ;; SabAHiy~_1
-SbAHy   SabAHiy~        N-ap    morning;matinal     <pos>SabAHiy~/ADJ</pos>
+SabAHiy~        N-ap    morning;matinal     [[SabAHiy~/ADJ]]
 ;; SabAH_2
-SbAH    SabAH   N0      Sabah
+SabAH   N0      Sabah
 ;; SubAH_1
-SbAH    SubAH   N0      Subah
+SubAH   N0      Subah
 ;; SubAH_2
-SbAH    SubAH   N       cute;comely;attractive
+SubAH   N       cute;comely;attractive
 ;; SuboHAn_1
-SbHAn   SuboHAn Ndip    cute;comely;attractive
-SbHY    SaboHaY N0      cute;comely;attractive
-SbHA    SaboHA  Nhy     cute;comely;attractive
+SuboHAn Ndip    cute;comely;attractive
+SaboHaY N0      cute;comely;attractive
+SaboHA  Nhy     cute;comely;attractive
 ;; SabiyH_1
-SbyH    SabiyH  N-ap    cute;comely;attractive     <pos>SabiyH/ADJ</pos>
+SabiyH  N-ap    cute;comely;attractive     [[SabiyH/ADJ]]
 ;; SabAHap_1
-SbAH    SabAH   Nap     beauty
+SabAH   Nap     beauty
 ;; SabiyHap_1
-SbyH    SabiyH  Nap     morning
+SabiyH  Nap     morning
 ;; SabuwH_1
-SbwH    SabuwH  N-ap    radiant     <pos>SabuwH/ADJ</pos>
+SabuwH  N-ap    radiant     [[SabuwH/ADJ]]
 ;; miSobAH_1
-mSbAH   miSobAH Ndu     lamp;light
-mSAbyH  maSAbiyH        Ndip    lamps;lights
+miSobAH Ndu     lamp;light
+maSAbiyH        Ndip    lamps;lights
 ;; miSobAH_2
-mSbAH   miSobAH N0      Misbah
-;; {isotiSobAH_1
-<stSbAH {isotiSobAH     N/At    illumination;illuminating
+miSobAH N0      Misbah
+;; AisotiSobAH_1
+AisotiSobAH     N/At    illumination;illuminating
 ;; taSobiyH_1
-tSbyH   taSobiyH        N/At    greeting;hellos
+taSobiyH        N/At    greeting;hellos
 ;
 ;--- Sbr
 ;; Sabar-i_1
-Sbr     Sabar   PV_intr be patient;endure
-Sbr     Sobir   IV_intr be patient;endure
+Sabar   PV_intr be patient;endure
+Sobir   IV_intr be patient;endure
 ;; Sab~ar_1
-Sbr     Sab~ar  PV      preserve;comfort;stabilize;ballast
-Sbr     Sab~ir  IV_yu   preserve;comfort;stabilize;ballast
+Sab~ar  PV      preserve;comfort;stabilize;ballast
+Sab~ir  IV_yu   preserve;comfort;stabilize;ballast
 ;; SAbar_1
-SAbr    SAbar   PV      endure patiently
-SAbr    SAbir   IV_yu   endure patiently
+SAbar   PV      endure patiently
+SAbir   IV_yu   endure patiently
 ;; taSab~ar_1
-tSbr    taSab~ar        PV_intr be patient;endure
-tSbr    taSab~ar        IV_intr be patient;endure
-;; {iSoTabar_1
-<STbr   {iSoTabar       PV_intr be patient;endure
-STbr    SoTabir IV_intr be patient;endure
+taSab~ar        PV_intr be patient;endure
+taSab~ar        IV_intr be patient;endure
+;; AiSoTabar_1
+AiSoTabar       PV_intr be patient;endure
+SoTabir IV_intr be patient;endure
 ;; Sabor_1
-Sbr     Sabor   N       patience;endurance
+Sabor   N       patience;endurance
 ;; Saboriy_1
-Sbry    Saboriy Nprop   Sabri;Sabry
+Saboriy Nprop   Sabri;Sabry
 ;; SaborA_1
-SbrA    SaborA  Nprop   Sabra
+SaborA  Nprop   Sabra
 ;; Saborap_1
-Sbr     Sabor   Nap     severe cold
+Sabor   Nap     severe cold
 ;; Suborap_1
-Sbr     Subor   Napdu   pile;heap
+Subor   Napdu   pile;heap
 ;; SuborapF_1
-Sbrp    SuborapF        FW-Wa   on the whole;summarily    <pos>SuborapF/ADV</pos>
+SuborapF        FW-Wa   on the whole;summarily    [[SuborapF/ADV]]
 ;; Sabuwr_1
-Sbwr    Sabuwr  N-ap    patient;enduring
+Sabuwr  N-ap    patient;enduring
 ;; Sabuwr_2
-Sbwr    Sabuwr  N0      Sabour
+Sabuwr  N0      Sabour
 ;; SabArap_1
-SbAr    SabAr   Nap     severe cold
+SabAr   Nap     severe cold
 ;; >aSobar_1
->Sbr    >aSobar Nel     more/most patient;more/most persistent     <pos>>aSobar/ADJ</pos>
-ASbr    >aSobar Nel     more/most patient;more/most persistent
+>aSobar Nel     more/most patient;more/most persistent     [[>aSobar/ADJ]]
+>aSobar Nel     more/most patient;more/most persistent
 ;; taSobiyr_1
-tSbyr   taSobiyr        N/At    preservation;comforting;stabilizing
+taSobiyr        N/At    preservation;comforting;stabilizing
 ;; muSAbarap_1
-mSAbr   muSAbar NapAt   perseverance;patience
-;; {iSoTibAr_1
-<STbAr  {iSoTibAr       N/At    perseverance;patience
+muSAbar NapAt   perseverance;patience
+;; AiSoTibAr_1
+AiSoTibAr       N/At    perseverance;patience
 ;; SAbir_1
-SAbr    SAbir   N0      Sabir;Saber
+SAbir   N0      Sabir;Saber
 ;; SAbir_2
-SAbr    SAbir   Nall    patient;steadfast;enduring     <pos>SAbir/ADJ</pos>
+SAbir   Nall    patient;steadfast;enduring     [[SAbir/ADJ]]
 ;; muSab~arAt_1
-mSbr    muSab~ar        NAt     canned goods
+muSab~ar        NAt     canned goods
 ;; SAbuwrap_1
-SAbwr   SAbuwr  Nap     ballast (ship)
+SAbuwr  Nap     ballast (ship)
 ;
 ;; Saborah_1
-Sbrh    Saborah Nprop   Sabroh
+Saborah Nprop   Sabroh
 ;
 ;; Sub~ayor_1
-Sbyr    Sub~ayor        N       Indian fig     <pos>Sub~ayor/NOUN</pos>
+Sub~ayor        N       Indian fig     [[Sub~ayor/NOUN]]
 ;
 ;--- SbE
 ;; SabaE-a_1
-SbE     SabaE   PV      point the finger at
-SbE     SobaE   IV      point the finger at
+SabaE   PV      point the finger at
+SobaE   IV      point the finger at
 ;; <iSobaE_1
-<SbE    <iSobaE Ndu     finger
->SAbE   >aSAbiE Ndip    fingers
+<iSobaE Ndu     finger
+>aSAbiE Ndip    fingers
 ;; <iSobaEiy~_1
-<SbEy   <iSobaEiy~      N-ap    finger-related;digital     <pos><iSobaEiy~/ADJ</pos>
+<iSobaEiy~      N-ap    finger-related;digital     [[<iSobaEiy~/ADJ]]
 ;; <iSobaEiy~At_1
-<SbEy   <iSobaEiy~      NAt     digitigrades (walking on the toes)    <pos><iSobaEiy~/NOUN</pos>
+<iSobaEiy~      NAt     digitigrades (walking on the toes)    [[<iSobaEiy~/NOUN]]
 ;; SubAE_1
-SbAE    SubAE   Ndu     finger;toe
-SwAbE   SawAbiE Ndip    fingers;toes
+SubAE   Ndu     finger;toe
+SawAbiE Ndip    fingers;toes
 ;; >uSobuwE_1
->SbwE   >uSobuwE        Ndu     finger;toe
->SAbyE  >aSAbiyE        Ndip    fingers;toes
+>uSobuwE        Ndu     finger;toe
+>aSAbiyE        Ndip    fingers;toes
 ;
 ;; muSab~aE_1
-mSbE    muSab~aE        NduAt   grill;gridiron
+muSab~aE        NduAt   grill;gridiron
 ;
 ;--- Sbg
 ;; Sabag-u_1
-Sbg     Sabag   PV      color;tint;dye
-Sbg     Sobug   IV      color;tint;dye
-;; {inoSabag_1
-<nSbg   {inoSabag       PV_intr be colored;be tinted;be dyed
-nSbg    noSabig IV_intr be colored;be tinted;be dyed
-;; {iSoTabag_1
-<STbg   {iSoTabag       PV_intr be colored;be tinted;be dyed
-STbg    SoTabig IV_intr be colored;be tinted;be dyed
+Sabag   PV      color;tint;dye
+Sobug   IV      color;tint;dye
+;; AinoSabag_1
+AinoSabag       PV_intr be colored;be tinted;be dyed
+noSabig IV_intr be colored;be tinted;be dyed
+;; AiSoTabag_1
+AiSoTabag       PV_intr be colored;be tinted;be dyed
+SoTabig IV_intr be colored;be tinted;be dyed
 ;; Sibog_1
-Sbg     Sibog   N       color;dye
->SbAg   >aSobAg N       colors;dyes
+Sibog   N       color;dye
+>aSobAg N       colors;dyes
 ;; Sibogap_1
-Sbg     Sibog   Nap     color;dye;tint
+Sibog   Nap     color;dye;tint
 ;; Sibogap_2
-Sbgp    Sibogap Nprop   Sibghat (in "Sibghatullah")
+Sibogap Nprop   Sibghat (in "Sibghatullah")
 ;; Sibogiy~_1
-Sbgy    Sibogiy~        N       chromosome
+Sibogiy~        N       chromosome
 ;; Sibogiy~ap_1
-Sbgy    Sibogiy~        NapAt   chromosome     <pos>Sibogiy~/NOUN</pos>
+Sibogiy~        NapAt   chromosome     [[Sibogiy~/NOUN]]
 ;; SibAg_1
-SbAg    SibAg   N       color;dye;condiment
->Sbg    >aSobig Nap     colors;dyes;condiments
+SibAg   N       color;dye;condiment
+>aSobig Nap     colors;dyes;condiments
 ;; Sab~Ag_1
-SbAg    Sab~Ag  Nall    dyer
+Sab~Ag  Nall    dyer
 ;; Sab~Ag_2
-SbAg    Sab~Ag  N0      Sabbagh
+Sab~Ag  N0      Sabbagh
 ;; SibAgap_1
-SbAg    SibAg   Nap     dyeing;staining
+SibAg   Nap     dyeing;staining
 ;; maSobagap_1
-mSbg    maSobag NapAt   dye-house
+maSobag NapAt   dye-house
 ;; SAbig_1
-SAbg    SAbig   N       dyer
-SAbg    SAbig   N       baptist
+SAbig   N       dyer
+SAbig   N       baptist
 ;; maSobuwg_1
-mSbwg   maSobuwg        N/ap    dyed;tinted;colored     <pos>maSobuwg/ADJ</pos>
-;; {iSoTibAg_1
-<STbAg  {iSoTibAg       N/At    coloration;pigmentation
+maSobuwg        N/ap    dyed;tinted;colored     [[maSobuwg/ADJ]]
+;; AiSoTibAg_1
+AiSoTibAg       N/At    coloration;pigmentation
 ;
 ;--- Sbn
 ;; Sab~an_1
-Sbn     Sab~an  PV-n    soap;rub with soap;saponify
-Sbn     Sab~in  IV-n_yu soap;rub with soap;saponify
+Sab~an  PV-n    soap;rub with soap;saponify
+Sab~in  IV-n_yu soap;rub with soap;saponify
 ;; SAbuwn_1
-SAbwn   SAbuwn  N       soap
-SAbwn   SAbuwn  Nap     soap
+SAbuwn  N       soap
+SAbuwn  Nap     soap
 ;; SAbuwniy~_1
-SAbwny  SAbuwniy~       N-ap    soapy     <pos>SAbuwniy~/ADJ</pos>
+SAbuwniy~       N-ap    soapy     [[SAbuwniy~/ADJ]]
 ;; Sab~An_1
-SbAn    Sab~An  N       soap boiler
+Sab~An  N       soap boiler
 ;; maSobanap_1
-mSbn    maSoban Nap     soap factory
+maSoban Nap     soap factory
 ;; taSobiyn_1
-tSbyn   taSobiyn        N/At    soap-making
+taSobiyn        N/At    soap-making
 ;; taSab~un_1
-tSbn    taSab~un        N/At    soap-making
+taSab~un        N/At    soap-making
 ;
 ;--- Sbw
 ;; SabA-u_1
-SbA     SabA    PV_0h   strive for;aspire to
-Sbw     Sabaw   PV_Atn  strive for;aspire to
-Sb      Sab     PV_ttAw strive for;aspire to
-Sbw     Sobuw   IV_0hAnn        strive for;aspire to
-Sb      Sob     IV_0hwnyn       strive for;aspire to
-SbY     SobaY   IV_0_Pass_yu    be strived for;be aspired to
-Sby     Sobay   IV_Ann_Pass_yu  be strived for;be aspired to
+SabA    PV_0h   strive for;aspire to
+Sabaw   PV_Atn  strive for;aspire to
+Sab     PV_ttAw strive for;aspire to
+Sobuw   IV_0hAnn        strive for;aspire to
+Sob     IV_0hwnyn       strive for;aspire to
+SobaY   IV_0_Pass_yu    be strived for;be aspired to
+Sobay   IV_Ann_Pass_yu  be strived for;be aspired to
 ;; Sabiy-a_1
-Sby     Sabiy   PV_no-w_intr    be childish;be infantile
-Sb      Sab     PV_w_intr       be childish;be infantile
-SbY     SobaY   IV_0    be childish;be infantile
-Sby     Sobay   IV_Ann  be childish;be infantile
-Sb      Soba    IV_0hwnyn       be childish;be infantile
+Sabiy   PV_no-w_intr    be childish;be infantile
+Sab     PV_w_intr       be childish;be infantile
+SobaY   IV_0    be childish;be infantile
+Sobay   IV_Ann  be childish;be infantile
+Soba    IV_0hwnyn       be childish;be infantile
 ;; Sab~aY_1
-SbY     Sab~aY  PV_0    rejuvenate
-SbA     Sab~A   PV_h    rejuvenate
-Sby     Sab~ay  PV_Atn  rejuvenate
-Sb      Sab~    PV_ttAw rejuvenate
-Sby     Sab~iy  IV_0hAnn_yu     rejuvenate
-Sb      Sab~    IV_0hwnyn_yu    rejuvenate
-SbY     Sab~aY  IV_0_Pass_yu    be rejuvenated
-Sby     Sab~ay  IV_Ann_Pass_yu  be rejuvenated
+Sab~aY  PV_0    rejuvenate
+Sab~A   PV_h    rejuvenate
+Sab~ay  PV_Atn  rejuvenate
+Sab~    PV_ttAw rejuvenate
+Sab~iy  IV_0hAnn_yu     rejuvenate
+Sab~    IV_0hwnyn_yu    rejuvenate
+Sab~aY  IV_0_Pass_yu    be rejuvenated
+Sab~ay  IV_Ann_Pass_yu  be rejuvenated
 ;; taSab~aY_1
-tSbY    taSab~aY        PV_0    be childish;be infantile
-tSby    taSab~ay        PV_Atn  be childish;be infantile
-tSb     taSab~  PV_ttAw_intr    be childish;be infantile
-tSbY    taSab~aY        IV_0    be childish;be infantile
-tSby    taSab~ay        IV_Ann  be childish;be infantile
-tSb     taSab~  IV_0hwnyn       be childish;be infantile
+taSab~aY        PV_0    be childish;be infantile
+taSab~ay        PV_Atn  be childish;be infantile
+taSab~  PV_ttAw_intr    be childish;be infantile
+taSab~aY        IV_0    be childish;be infantile
+taSab~ay        IV_Ann  be childish;be infantile
+taSab~  IV_0hwnyn       be childish;be infantile
 ;; taSAbaY_1
-tSAbY   taSAbaY PV_0    be childish;be infantile
-tSAbA   taSAbA  PV_h    be childish;be infantile
-tSAby   taSAbay PV_Atn  be childish;be infantile
-tSAb    taSAb   PV_ttAw_intr    be childish;be infantile
-tSAbY   taSAbaY IV_0    be childish;be infantile
-tSAbA   taSAbA  IV_h    be childish;be infantile
-tSAby   taSAbay IV_Ann  be childish;be infantile
-tSAb    taSAb   IV_0hwnyn       be childish;be infantile
-;; {isotaSobaY_1
-<stSbY  {isotaSobaY     PV_0    be childish;be infantile
-<stSbA  {isotaSobA      PV_h    be childish;be infantile
-<stSby  {isotaSobay     PV_Atn  be childish;be infantile
-<stSb   {isotaSob       PV_ttAw_intr    be childish;be infantile
-stSby   sotaSobiy       IV_0hAnn        be childish;be infantile
-stSb    sotaSob IV_0hwnyn       be childish;be infantile
-stSbY   sotaSobaY       IV_0_Pass_yu    be childish;be infantile
+taSAbaY PV_0    be childish;be infantile
+taSAbA  PV_h    be childish;be infantile
+taSAbay PV_Atn  be childish;be infantile
+taSAb   PV_ttAw_intr    be childish;be infantile
+taSAbaY IV_0    be childish;be infantile
+taSAbA  IV_h    be childish;be infantile
+taSAbay IV_Ann  be childish;be infantile
+taSAb   IV_0hwnyn       be childish;be infantile
+;; AisotaSobaY_1
+AisotaSobaY     PV_0    be childish;be infantile
+AisotaSobA      PV_h    be childish;be infantile
+AisotaSobay     PV_Atn  be childish;be infantile
+AisotaSob       PV_ttAw_intr    be childish;be infantile
+sotaSobiy       IV_0hAnn        be childish;be infantile
+sotaSob IV_0hwnyn       be childish;be infantile
+sotaSobaY       IV_0_Pass_yu    be childish;be infantile
 ;; Sab_1
-Sb      Sab     NF      east wind     <pos>Sab/NOUN</pos>
-SbA     SabA    N0      east wind
-Sbw     Sabaw   NAt     east winds
->SbA'   >aSobA' N0_Nh   east winds
->SbA&   >aSobA& Nh      east winds
->SbA}   >aSobA} Nhy     east winds
+Sab     NF      east wind     [[Sab/NOUN]]
+SabA    N0      east wind
+Sabaw   NAt     east winds
+>aSobA' N0_Nh   east winds
+>aSobA& Nh      east winds
+>aSobA} Nhy     east winds
 ;; SibAF_1
-SbA     SibAF   FW-WaBi youth;childhood     <pos>SibAF/NOUN</pos>
-SbA     SibA    N0_Nhy  youth;childhood
+SibAF   FW-WaBi youth;childhood     [[SibAF/NOUN]]
+SibA    N0_Nhy  youth;childhood
 ;; SibA'_1
-SbA'    SabA'   N0_Nh   childhood;youth
-SbA&    SabA&   Nh      childhood;youth
-SbA}    SabA}   Nhy     childhood;youth
+SabA'   N0_Nh   childhood;youth
+SabA&   Nh      childhood;youth
+SabA}   Nhy     childhood;youth
 ;; Subuw~_1
-Sbw     Subuw~  N       youthful zeal;childish manners
+Subuw~  N       youthful zeal;childish manners
 ;; Subuw~ap_1
-Sbw     Subuw~  Nap     childhood;youth
+Subuw~  Nap     childhood;youth
 ;; Sabowap_1
-Sbw     Sabow   Nap     youthful zeal;childish manners
+Sabow   Nap     youthful zeal;childish manners
 ;; Sabiy~_1
-Sby     Sabiy~  Ndu     young boy;youth
-Sby     Siboy   Nap     young boys;youths
-SbyAn   SiboyAn N       young boys;youths
->Sby    >aSobiy Nap     young boys;youths
+Sabiy~  Ndu     young boy;youth
+Siboy   Nap     young boys;youths
+SiboyAn N       young boys;youths
+>aSobiy Nap     young boys;youths
 ;; Sabiy~ap_1
-Sby     Sabiy~  Nap     girl;young girl     <pos>Sabiy~/NOUN</pos>
-SbAyA   SabAyA  N0_Nhy  girls;young girls
+Sabiy~  Nap     girl;young girl     [[Sabiy~/NOUN]]
+SabAyA  N0_Nhy  girls;young girls
 ;; Sabawiy~_1
-Sbwy    Sabawiy~        N-ap    juvenile     <pos>Sabawiy~/ADJ</pos>
+Sabawiy~        N-ap    juvenile     [[Sabawiy~/ADJ]]
 ;; SiboyAniy~_1
-SbyAny  SiboyAniy~      N-ap    infantile;puerile     <pos>SiboyAniy~/ADJ</pos>
+SiboyAniy~      N-ap    infantile;puerile     [[SiboyAniy~/ADJ]]
 ;; SAbiy_1
-SAby    SAbiy   N0F     youthful     <pos>SAbiy/ADJ</pos>
-SAb     SAb     NK      youthful
-SAby    SAbiy   NAn_Nayn        youthful
-SAby    SAbiy   Napdu   youthful
+SAbiy   N0F     youthful     [[SAbiy/ADJ]]
+SAb     NK      youthful
+SAbiy   NAn_Nayn        youthful
+SAbiy   Napdu   youthful
 ;
 ;--- Stm
 ;; Sutomap_1
-Stm     Sutom   Nap     hard rock
-Stm     Sutam   N       hard rock
-StA}m   SatA}im Ndip    hard rock
+Sutom   Nap     hard rock
+Sutam   N       hard rock
+SatA}im Ndip    hard rock
 ;; SitAmap_1
-StAm    SitAm   Nap     petrography;lithology
+SitAm   Nap     petrography;lithology
 ;; SitAmiy~_1
-StAmy   SitAmiy~        Nall    petrographic;lithological     <pos>SitAmiy~/ADJ</pos>
+SitAmiy~        Nall    petrographic;lithological     [[SitAmiy~/ADJ]]
 ;
 ;--- SH
 ;; SaH~-i_1
-SH      SaH~    PV_V_intr       be correct;be true
-SHH     SaHaH   PV_C_intr       be correct;be true
-SH      SiH~    IV_V_intr       be correct;be true
-SHH     SoHiH   IV_C_intr       be correct;be true
+SaH~    PV_V_intr       be correct;be true
+SaHaH   PV_C_intr       be correct;be true
+SiH~    IV_V_intr       be correct;be true
+SoHiH   IV_C_intr       be correct;be true
 ;; SaH~aH_1
-SHH     SaH~aH  PV      correct;confirm
-SHH     SaH~iH  IV_yu   correct;confirm
+SaH~aH  PV      correct;confirm
+SaH~iH  IV_yu   correct;confirm
 ;; taSaH~aH_1
-tSHH    taSaH~aH        PV_intr be corrected;be confirmed
-tSHH    taSaH~aH        IV_intr be corrected;be confirmed
+taSaH~aH        PV_intr be corrected;be confirmed
+taSaH~aH        IV_intr be corrected;be confirmed
 ;; SiH~ap_1
-SH      SiH~    Nap     health;truth;correctness
+SiH~    Nap     health;truth;correctness
 ;; SiH~iy~_1
-SHy     SiH~iy~ N-ap    health;healthy;sanitary     <pos>SiH~iy~/ADJ</pos>
+SiH~iy~ N-ap    health;healthy;sanitary     [[SiH~iy~/ADJ]]
 ;; SiH~iy~ap_1
-SHy     SiH~iy~ Nap     healthiness;salubriousness     <pos>SiH~iy~/NOUN</pos>
+SiH~iy~ Nap     healthiness;salubriousness     [[SiH~iy~/NOUN]]
 ;; SaHiyH_1
-SHyH    SaHiyH  N-ap    true;correct     <pos>SaHiyH/ADJ</pos>
+SaHiyH  N-ap    true;correct     [[SaHiyH/ADJ]]
 ;; >aSaH~_1
->SH     >aSaH~  Nel     more correct
+>aSaH~  Nel     more correct
 ;; maSaH~_1
-mSH     maSaH~  NduAt   sanatorium
+maSaH~  NduAt   sanatorium
 ;; maSaH~ap_1
-mSH     maSaH~  Nap     sanatorium
+maSaH~  Nap     sanatorium
 ;; taSoHiyH_1
-tSHyH   taSoHiyH        N/At    correction
+taSoHiyH        N/At    correction
 ;; taSoHiyHiy~_1
-tSHyHy  taSoHiyHiy~     N-ap    correction;corrective     <pos>taSoHiyHiy~/ADJ</pos>
+taSoHiyHiy~     N-ap    correction;corrective     [[taSoHiyHiy~/ADJ]]
 ;; muSaH~iH_1
-mSHH    muSaH~iH        N-ap    correcting;corrective
+muSaH~iH        N-ap    correcting;corrective
 ;
 ;--- SHb
 ;; SaHib-a_1
-SHb     SaHib   PV      befriend;accompany
-SHb     SoHab   IV      befriend;accompany
+SaHib   PV      befriend;accompany
+SoHab   IV      befriend;accompany
 ;; SAHab_1
-SAHb    SAHab   PV      befriend;accompany
-SAHb    SAHib   IV_yu   befriend;accompany
+SAHab   PV      befriend;accompany
+SAHib   IV_yu   befriend;accompany
 ;; >aSoHab_1
->SHb    >aSoHab PV      escort
-SHb     SoHib   IV_yu   escort
-SHb     SoHab   IV_Pass_yu      be escorted
-;; {iSoTaHab_1
-<STHb   {iSoTaHab       PV      accompany;escort
-STHb    SoTaHib IV      accompany;escort
-;; {isotaSoHab_1
-<stSHb  {isotaSoHab     PV      accompany;escort
-stSHb   sotaSoHib       IV      accompany;escort
+>aSoHab PV      escort
+SoHib   IV_yu   escort
+SoHab   IV_Pass_yu      be escorted
+;; AiSoTaHab_1
+AiSoTaHab       PV      accompany;escort
+SoTaHib IV      accompany;escort
+;; AisotaSoHab_1
+AisotaSoHab     PV      accompany;escort
+sotaSoHib       IV      accompany;escort
 ;; SuHobap_1
-SHb     SuHob   Nap     company;accompanied;friendship
+SuHob   Nap     company;accompanied;friendship
 ;; SaHAbap_1
-SHAb    SaHAb   Nap     companions of the Prophet
+SaHAb   Nap     companions of the Prophet
 ;; SaHAbiy~_1
-SHAby   SaHAbiy~        N       companion of the Prophet
+SaHAbiy~        N       companion of the Prophet
 ;; muSAHabap_1
-mSAHb   muSAHab NapAt   escort;accompanying
-;; {iSoTiHAb_1
-<STHAb  {iSoTiHAb       N/At    accompanying;escort
+muSAHab NapAt   escort;accompanying
+;; AiSoTiHAb_1
+AiSoTiHAb       N/At    accompanying;escort
 ;; SAHib_1
-SAHb    SAHib   N/ap    owner;originator
->SHAb   >aSoHAb N       owners;originators
-SHbAn   SuHobAn N       owners;originators
+SAHib   N/ap    owner;originator
+>aSoHAb N       owners;originators
+SuHobAn N       owners;originators
 ;; SAHib_2
-SAHb    SAHib   N/ap    friend;companion
->SHAb   >aSoHAb N       friends;companions
-SHbAn   SuHobAn N       friends;companions
+SAHib   N/ap    friend;companion
+>aSoHAb N       friends;companions
+SuHobAn N       friends;companions
 ;; maSoHuwb_1
-mSHwb   maSoHuwb        Nall    accompanied     <pos>maSoHuwb/ADJ</pos>
+maSoHuwb        Nall    accompanied     [[maSoHuwb/ADJ]]
 ;; SuwayoHib_1
-SwyHb   SuwayoHib       Nall    little friend
+SuwayoHib       Nall    little friend
 ;
 ;--- SHr
 ;; >aSoHar_1
->SHr    >aSoHar Nel     desert-like;desolate
+>aSoHar Nel     desert-like;desolate
 ;; SaHorA'_1
-SHrA'   SaHorA' N0      Sahara
+SaHorA' N0      Sahara
 ;; SaHorA'_2
-SHrA'   SaHorA' N0_Nh   desert
-SHrA&   SaHorA& Nh      desert
-SHrA}   SaHorA} Nhy     desert
-SHrw    SaHoraw NAt     deserts
-SHArY   SaHAraY N0      deserts
-SHArA   SaHArA  Nhy     deserts
+SaHorA' N0_Nh   desert
+SaHorA& Nh      desert
+SaHorA} Nhy     desert
+SaHoraw NAt     deserts
+SaHAraY N0      deserts
+SaHArA  Nhy     deserts
 ;; SaH~Arap_1
-SHAr    SaH~Ar  Napdu   crate;box
-SHAHyr  SaHAHiyr        Ndip    crates;boxes
+SaH~Ar  Napdu   crate;box
+SaHAHiyr        Ndip    crates;boxes
 ;; taSoHiyr_1
-tSHyr   taSoHiyr        N/At    desertification
+taSoHiyr        N/At    desertification
 ;; taSaH~ur_1
-tSHr    taSaH~ur        N/At    desertification
+taSaH~ur        N/At    desertification
 ;; SaHAriy_1
-SHAry   SaHAriy N0_Nh   deserts
-SHAr    SaHAr   NK      deserts
+SaHAriy N0_Nh   deserts
+SaHAr   NK      deserts
 ;; SaHorAwiy~_1
-SHrAwy  SaHorAwiy~      Nall    desert;Saharan     <pos>SaHorAwiy~/ADJ</pos>
-SHrA}y  SaHorA}iy~      Nall    desert;Saharan     <pos>SaHorA}iy~/ADJ</pos>
+SaHorAwiy~      Nall    desert;Saharan     [[SaHorAwiy~/ADJ]]
+SaHorA}iy~      Nall    desert;Saharan     [[SaHorA}iy~/ADJ]]
 ;
 ;--- SHf
 ;; SaH~af_1
-SHf     SaH~af  PV      mispronounce;misspell;misrepresent
-SHf     SaH~if  IV_yu   mispronounce;misspell;misrepresent
+SaH~af  PV      mispronounce;misspell;misrepresent
+SaH~if  IV_yu   mispronounce;misspell;misrepresent
 ;; taSaH~af_1
-tSHf    taSaH~af        PV_intr be mispronounced;be misspelled;be misrepresented
-tSHf    taSaH~af        IV_intr be mispronounced;be misspelled;be misrepresented
+taSaH~af        PV_intr be mispronounced;be misspelled;be misrepresented
+taSaH~af        IV_intr be mispronounced;be misspelled;be misrepresented
 ;; SaHofap_1
-SHf     SaHof   Napdu   bowl;platter
-SHAf    SiHAf   N       bowls;platters
+SaHof   Napdu   bowl;platter
+SiHAf   N       bowls;platters
 ;; SaHiyfap_1
-SHyf    SaHiyf  Napdu   newspaper
-SHf     SuHuf   N       newspapers
+SaHiyf  Napdu   newspaper
+SuHuf   N       newspapers
 ;; SaHA}if_1
-SHA}f   SaHA}if Ndip    sheets (paper)
+SaHA}if Ndip    sheets (paper)
 ;; SuHufiy~_1
-SHfy    SuHufiy~        N-ap    journalistic;press;newspaper     <pos>SuHufiy~/ADJ</pos>
+SuHufiy~        N-ap    journalistic;press;newspaper     [[SuHufiy~/ADJ]]
 ;; SuHufiy~_2
-SHfy    SuHufiy~        Nall    journalist;reporter     <pos>SuHufiy~/NOUN</pos>
+SuHufiy~        Nall    journalist;reporter     [[SuHufiy~/NOUN]]
 ;; SaHAfap_1
-SHAf    SaHAf   Nap     journalism;press
+SaHAf   Nap     journalism;press
 ;; SaHAfiy~_1
-SHAfy   SaHAfiy~        N-ap    journalistic;press     <pos>SaHAfiy~/ADJ</pos>
+SaHAfiy~        N-ap    journalistic;press     [[SaHAfiy~/ADJ]]
 ;; SaHAfiy~_2
-SHAfy   SaHAfiy~        Nall    journalist;reporter     <pos>SaHAfiy~/NOUN</pos>
+SaHAfiy~        Nall    journalist;reporter     [[SaHAfiy~/NOUN]]
 ;; SaH~Af_1
-SHAf    SaH~Af  N0      Sahhaf
+SaH~Af  N0      Sahhaf
 ;; SaH~Af_2
-SHAf    SaH~Af  N       newspaper seller
+SaH~Af  N       newspaper seller
 ;; muSoHaf_1
-mSHf    muSoHaf N       Quran;Quranic manuscript
+muSoHaf N       Quran;Quranic manuscript
 ;; muSoHaf_2
-mSHf    muSoHaf N       volume
-mSAHf   maSAHif Ndip    volumes;copies
+muSoHaf N       volume
+maSAHif Ndip    volumes;copies
 ;; taSoHiyf_1
-tSHyf   taSoHiyf        N/At    mispronunciation;misspelling;misrepresentation
+taSoHiyf        N/At    mispronunciation;misspelling;misrepresentation
 ;
 ;--- SHl
 ;; SaHal_1
-SHl     SaHal   N-ap    raucous;hoarse     <pos>SaHal/ADJ</pos>
+SaHal   N-ap    raucous;hoarse     [[SaHal/ADJ]]
 ;; >aSoHal_1
->SHl    >aSoHal Nel     raucous;hoarse
-SHlA'   SaHolA' N0_Nh   raucous;hoarse
-SHlA&   SaHolA& Nh      raucous;hoarse
-SHlA}   SaHolA} Nhy     raucous;hoarse
+>aSoHal Nel     raucous;hoarse
+SaHolA' N0_Nh   raucous;hoarse
+SaHolA& Nh      raucous;hoarse
+SaHolA} Nhy     raucous;hoarse
 ;
 ;--- SHn
 ;; SaHon_1
-SHn     SaHon   Ndu     bowl;plate
-SHwn    SuHuwn  N       bowls;plates
+SaHon   Ndu     bowl;plate
+SuHuwn  N       bowls;plates
 ;; SaHon_2
-SHn     SaHon   Ndu     dish antenna;concave mirror
-SHwn    SuHuwn  N       dish antennas;concave mirrors
+SaHon   Ndu     dish antenna;concave mirror
+SuHuwn  N       dish antennas;concave mirrors
 ;; maSoHuwn_1
-mSHwn   maSoHuwn        N-ap    grated;crushed;ground     <pos>maSoHuwn/ADJ</pos>
+maSoHuwn        N-ap    grated;crushed;ground     [[maSoHuwn/ADJ]]
 ;
 ;--- SHw
 ;; SaHA-u_1
-SHA     SaHA    PV_0h   wake up;regain consciousness
-SHw     SaHaw   PV_Atn  wake up;regain consciousness
-SH      SaH     PV_ttAw wake up;regain consciousness
-SHw     SoHuw   IV_0hAnn        wake up;regain consciousness
-SH      SoH     IV_0hwnyn       wake up;regain consciousness
-SHY     SoHaY   IV_0_Pass_yu    wake up;regain consciousness
-SHy     SoHay   IV_Ann_Pass_yu  wake up;regain consciousness
+SaHA    PV_0h   wake up;regain consciousness
+SaHaw   PV_Atn  wake up;regain consciousness
+SaH     PV_ttAw wake up;regain consciousness
+SoHuw   IV_0hAnn        wake up;regain consciousness
+SoH     IV_0hwnyn       wake up;regain consciousness
+SoHaY   IV_0_Pass_yu    wake up;regain consciousness
+SoHay   IV_Ann_Pass_yu  wake up;regain consciousness
 ;; SaHow_1
-SHw     SaHow   N       serenity;clarity
+SaHow   N       serenity;clarity
 ;; SaHowap_1
-SHw     SaHow   Nap     resurgence;revival
+SaHow   Nap     resurgence;revival
 ;; SaHiy-a_1
-SHy     SaHiy   PV_no-w wake up;regain consciousness
-SH      SaH     PV_w    wake up;regain consciousness
-SHY     SoHaY   IV_0    wake up;regain consciousness
-SHy     SoHay   IV_Ann  wake up;regain consciousness
-SH      SoHa    IV_0hwnyn       wake up;regain consciousness
+SaHiy   PV_no-w wake up;regain consciousness
+SaH     PV_w    wake up;regain consciousness
+SoHaY   IV_0    wake up;regain consciousness
+SoHay   IV_Ann  wake up;regain consciousness
+SoHa    IV_0hwnyn       wake up;regain consciousness
 ;; SaH~aY_1
-SHY     SaH~aY  PV_0    awaken;rouse
-SHA     SaH~A   PV_h    awaken;rouse
-SHy     SaH~ay  PV_Atn  awaken;rouse
-SH      SaH~    PV_ttAw awaken;rouse
-SHy     SaH~iy  IV_0hAnn_yu     awaken;rouse
-SH      SaH~    IV_0hwnyn_yu    awaken;rouse
-SHY     SaH~aY  IV_0_Pass_yu    be awakened;be roused
-SHy     SaH~ay  IV_Ann_Pass_yu  be awakened;be roused
+SaH~aY  PV_0    awaken;rouse
+SaH~A   PV_h    awaken;rouse
+SaH~ay  PV_Atn  awaken;rouse
+SaH~    PV_ttAw awaken;rouse
+SaH~iy  IV_0hAnn_yu     awaken;rouse
+SaH~    IV_0hwnyn_yu    awaken;rouse
+SaH~aY  IV_0_Pass_yu    be awakened;be roused
+SaH~ay  IV_Ann_Pass_yu  be awakened;be roused
 ;; >aSoHaY_1
->SHY    >aSoHaY PV_0    awaken;rouse
->SHA    >aSoHA  PV_h    awaken;rouse
->SHy    >aSoHay PV_Atn  awaken;rouse
->SH     >aSoH   PV_ttAw awaken;rouse
-SHy     SoHiy   IV_0hAnn_yu     awaken;rouse
-SH      SoH     IV_0hwnyn_yu    awaken;rouse
-SHY     SoHaY   IV_0_Pass_yu    be awakened;be roused
-SHy     SoHay   IV_Ann_Pass_yu  be awakened;be roused
+>aSoHaY PV_0    awaken;rouse
+>aSoHA  PV_h    awaken;rouse
+>aSoHay PV_Atn  awaken;rouse
+>aSoH   PV_ttAw awaken;rouse
+SoHiy   IV_0hAnn_yu     awaken;rouse
+SoH     IV_0hwnyn_yu    awaken;rouse
+SoHaY   IV_0_Pass_yu    be awakened;be roused
+SoHay   IV_Ann_Pass_yu  be awakened;be roused
 ;; SAHiy_1
-SAHy    SAHiy   N0F     bright;serene     <pos>SAHiy/ADJ</pos>
-SAH     SAH     NK      bright;serene
-SAHy    SAHiy   NAn_Nayn        bright;serene
-SAHy    SAHiy   Napdu   bright;serene
+SAHiy   N0F     bright;serene     [[SAHiy/ADJ]]
+SAH     NK      bright;serene
+SAHiy   NAn_Nayn        bright;serene
+SAHiy   Napdu   bright;serene
 ;; SAHiy_2
-SAHy    SAHiy   N0F     vigilant;wakeful     <pos>SAHiy/ADJ</pos>
-SAH     SAH     NK      vigilant;wakeful
-SAHy    SAHiy   NAn_Nayn        vigilant;wakeful
-SAH     SAH     Nuwn_Niyn       vigilant;wakeful
-SAHy    SAHiy   NapAt   vigilant;wakeful
+SAHiy   N0F     vigilant;wakeful     [[SAHiy/ADJ]]
+SAH     NK      vigilant;wakeful
+SAHiy   NAn_Nayn        vigilant;wakeful
+SAH     Nuwn_Niyn       vigilant;wakeful
+SAHiy   NapAt   vigilant;wakeful
 ;
 ;--- Sxb
 ;; Saxib-a_1
-Sxb     Saxib   PV      shout;clamor
-Sxb     Soxab   IV      shout;clamor
-;; {iSoTaxab_1
-<STxb   {iSoTaxab       PV      shout;clamor
-STxb    SoTaxib IV      shout;clamor
+Saxib   PV      shout;clamor
+Soxab   IV      shout;clamor
+;; AiSoTaxab_1
+AiSoTaxab       PV      shout;clamor
+SoTaxib IV      shout;clamor
 ;; Saxab_1
-Sxb     Saxab   N       shouting;tumult
+Saxab   N       shouting;tumult
 ;; Saxib_1
-Sxb     Saxib   N-ap    vociferous;noisy     <pos>Saxib/ADJ</pos>
+Saxib   N-ap    vociferous;noisy     [[Saxib/ADJ]]
 ;; Sax~Ab_1
-SxAb    Sax~Ab  Nall    noisy;vociferous     <pos>Sax~Ab/ADJ</pos>
-;; {iSoTixAb_1
-<STxAb  {iSoTixAb       N/At    noise;tumult
+Sax~Ab  Nall    noisy;vociferous     [[Sax~Ab/ADJ]]
+;; AiSoTixAb_1
+AiSoTixAb       N/At    noise;tumult
 ;; SAxib_1
-SAxb    SAxib   Nall    noisy;tumultuous     <pos>SAxib/ADJ</pos>
+SAxib   Nall    noisy;tumultuous     [[SAxib/ADJ]]
 ;; muSoTaxab_1
-mSTxb   muSoTaxab       N       noise;tumult
+muSoTaxab       N       noise;tumult
 ;
 ;--- Sxr
 ;; Sax~ar_1
-Sxr     Sax~ar  PV      petrify
-Sxr     Sax~ir  IV_yu   petrify
+Sax~ar  PV      petrify
+Sax~ir  IV_yu   petrify
 ;; taSax~ar_1
-tSxr    taSax~ar        PV_intr be petrified
-tSxr    taSax~ar        IV_intr be petrified
+taSax~ar        PV_intr be petrified
+taSax~ar        IV_intr be petrified
 ;; Saxor_1
-Sxr     Saxor   N       rock
-Sxr     Saxor   Napdu   rock
-Sxr     Saxar   NAt     rocks
-Sxwr    Suxuwr  N       rocks
-Sxwr    Suxuwr  Nap     rocks
+Saxor   N       rock
+Saxor   Napdu   rock
+Saxar   NAt     rocks
+Suxuwr  N       rocks
+Suxuwr  Nap     rocks
 ;; Saxor_2
-Sxr     Saxor   Nprop   Sakhr
+Saxor   Nprop   Sakhr
 ;; Saxoriy~_1
-Sxry    Saxoriy~        N-ap    rock;rupestral     <pos>Saxoriy~/ADJ</pos>
+Saxoriy~        N-ap    rock;rupestral     [[Saxoriy~/ADJ]]
 ;; taSoxiyr_1
-tSxyr   taSoxiyr        N/At    petrification
+taSoxiyr        N/At    petrification
 ;; taSax~ur_1
-tSxr    taSax~ur        N/At    petrification
+taSax~ur        N/At    petrification
 ;
 ;--- Sd
 ;; Sad~-u_1
-Sd      Sad~    PV_V    repel;deter;resist
-Sdd     Sadad   PV_C    repel;deter;resist
-Sd      Sud~    IV_V    repel;deter;resist
-Sdd     Sodud   IV_C    repel;deter;resist
+Sad~    PV_V    repel;deter;resist
+Sadad   PV_C    repel;deter;resist
+Sud~    IV_V    repel;deter;resist
+Sodud   IV_C    repel;deter;resist
 ;; >aSad~_1
->Sd     >aSad~  PV_V    suppurate;fester
->Sdd    >aSodad PV_C    suppurate;fester
-Sd      Sid~    IV_V_yu suppurate;fester
-Sdd     Sodid   IV_C_yu suppurate;fester
+>aSad~  PV_V    suppurate;fester
+>aSodad PV_C    suppurate;fester
+Sid~    IV_V_yu suppurate;fester
+Sodid   IV_C_yu suppurate;fester
 ;; Sad~_1
-Sd      Sad~    N       resistance;deterrence;rejection
+Sad~    N       resistance;deterrence;rejection
 ;; Sadad_1
-Sdd     Sadad   N       respect;regard;purpose
+Sadad   N       respect;regard;purpose
 ;; Suduwd_1
-Sdwd    Suduwd  N       interception;refusal;rejection
+Suduwd  N       interception;refusal;rejection
 ;; Sadiyd_1
-Sdyd    Sadiyd  N       pus;matter
+Sadiyd  N       pus;matter
 ;; Sadiydiy~_1
-Sdydy   Sadiydiy~       N-ap    festering;suppurating     <pos>Sadiydiy~/ADJ</pos>
+Sadiydiy~       N-ap    festering;suppurating     [[Sadiydiy~/ADJ]]
 ;; maSad~_1
-mSd     maSad~  NduAt   wall;barrier
+maSad~  NduAt   wall;barrier
 ;; miSad~_1
-mSd     miSad~  NduAt   bumper;stopper;cork
+miSad~  NduAt   bumper;stopper;cork
 ;; <iSodAd_1
-<SdAd   <iSodAd N/At    suppuration
+<iSodAd N/At    suppuration
 ;
 ;--- SdA
 ;; Sadi}-a_1
-Sd}     Sadi}   PV_intr oxidize;be rusty
-Sd>     Soda>   IV_intr oxidize;be rusty
-Sd|     Soda|   IV-|    oxidize;be rusty
-Sd&     Soda&   IV_wn   oxidize;be rusty
-Sd}     Soda}   IV_yn   oxidize;be rusty
+Sadi}   PV_intr oxidize;be rusty
+Soda>   IV_intr oxidize;be rusty
+Soda|   IV-|    oxidize;be rusty
+Soda&   IV_wn   oxidize;be rusty
+Soda}   IV_yn   oxidize;be rusty
 ;; Sadu&-u_1
-Sd&     Sadu&   PV_intr oxidize;be rusty
-Sd&     Sodu&   IV_intr oxidize;be rusty
-Sd}     Sodu}   IV_yn   oxidize;be rusty
+Sadu&   PV_intr oxidize;be rusty
+Sodu&   IV_intr oxidize;be rusty
+Sodu}   IV_yn   oxidize;be rusty
 ;; Sad~a>_1
-Sd>     Sad~a>  PV->    oxidize;make rusty
-Sd|     Sad~a|  PV-|    oxidize;make rusty
-Sd&     Sad~a&  PV_w    oxidize;make rusty
-Sd}     Sad~i}  IV_yu   oxidize;make rusty
+Sad~a>  PV->    oxidize;make rusty
+Sad~a|  PV-|    oxidize;make rusty
+Sad~a&  PV_w    oxidize;make rusty
+Sad~i}  IV_yu   oxidize;make rusty
 ;; >aSoda>_1
->Sd>    >aSoda> PV->    oxidize;make rusty
->Sd|    >aSoda| PV-|    oxidize;make rusty
->Sd&    >aSoda& PV_w    oxidize;make rusty
-Sd}     Sodi}   IV_yu   oxidize;make rusty
-Sd>     Soda>   IV_Pass_yu      get rusty;become oxidized
+>aSoda> PV->    oxidize;make rusty
+>aSoda| PV-|    oxidize;make rusty
+>aSoda& PV_w    oxidize;make rusty
+Sodi}   IV_yu   oxidize;make rusty
+Soda>   IV_Pass_yu      get rusty;become oxidized
 ;; Sada>_1
-Sd>     Sada>   N0_Nh   rust;oxidation
-Sd&     Sada&   Nh      rust;oxidation
-Sd}     Sada}   Nhy     rust;oxidation
-SdA'    SadA'   Nap     rust;oxidation
-Sd}     Sadi}   N-ap    rusty;oxidized
+Sada>   N0_Nh   rust;oxidation
+Sada&   Nh      rust;oxidation
+Sada}   Nhy     rust;oxidation
+SadA'   Nap     rust;oxidation
+Sadi}   N-ap    rusty;oxidized
 ;; muSoda>_1
-mSd>    muSoda> N0      rusty;oxidized     <pos>muSoda>/ADJ</pos>
-mSd|    muSoda| N-|     rusty;oxidized
-mSd}    muSoda} Nayn    rusty;oxidized
-mSd>    muSoda> Napdu   rusty;oxidized
+muSoda> N0      rusty;oxidized     [[muSoda>/ADJ]]
+muSoda| N-|     rusty;oxidized
+muSoda} Nayn    rusty;oxidized
+muSoda> Napdu   rusty;oxidized
 ;; >aSoda>_2
->Sd>    >aSoda> N0      rusty;oxidized     <pos>>aSoda>/ADJ</pos>
-ASd>    >aSoda> N0      rusty;oxidized
->Sd|    >aSoda| N-|     rusty;oxidized
->Sd}    >aSoda} Nayn    rusty;oxidized
-Sd|     Sado|   N0_Nh   rusty;oxidized
+>aSoda> N0      rusty;oxidized     [[>aSoda>/ADJ]]
+>aSoda> N0      rusty;oxidized
+>aSoda| N-|     rusty;oxidized
+>aSoda} Nayn    rusty;oxidized
+Sado|   N0_Nh   rusty;oxidized
 ; see also under --- ASd
 ;; <iSodA'_2
-<SdA'   <iSodA' N0_Nh   oxidation
-<SdA&   <iSodA& Nh      oxidation
-<SdA}   <iSodA} Nhy     oxidation
-<SdA'   <iSodA' NAt     oxidation
+<iSodA' N0_Nh   oxidation
+<iSodA& Nh      oxidation
+<iSodA} Nhy     oxidation
+<iSodA' NAt     oxidation
 ;
 ;--- SdH
 ;; SadaH-a_1
-SdH     SadaH   PV      chant;sing
-SdH     SodaH   IV      chant;sing
+SadaH   PV      chant;sing
+SodaH   IV      chant;sing
 ;; SudAH_1
-SdAH    SudAH   N       chanting;singing
+SudAH   N       chanting;singing
 ;; SadaH_1
-SdH     SadaH   N       banner
+SadaH   N       banner
 ;; SadaHAt_1
-SdH     SadaH   NAt     musical strains
+SadaH   NAt     musical strains
 ;; SAdiH_1
-SAdH    SAdiH   N       semitone
+SAdiH   N       semitone
 ;; SAdiH_2
-SAdH    SAdiH   Nall    singer;tenor
+SAdiH   Nall    singer;tenor
 ;
 ;--- Sdr
 ;; Sadar-u_1
-Sdr     Sadar   PV_intr be published;be issued
-Sdr     Sodur   IV_intr be published;be issued
+Sadar   PV_intr be published;be issued
+Sodur   IV_intr be published;be issued
 ;; Sad~ar_1
-Sdr     Sad~ar  PV      export;publish;dispatch
-Sdr     Sad~ir  IV_yu   export;publish;dispatch
+Sad~ar  PV      export;publish;dispatch
+Sad~ir  IV_yu   export;publish;dispatch
 ;; SAdar_1
-SAdr    SAdar   PV      confiscate
-SAdr    SAdir   IV_yu   confiscate
-Swdr    Suwdir  PV_Pass be confiscated
-SAdr    SAdar   IV_Pass_yu      be confiscated
+SAdar   PV      confiscate
+SAdir   IV_yu   confiscate
+Suwdir  PV_Pass be confiscated
+SAdar   IV_Pass_yu      be confiscated
 ;; >aSodar_1
->Sdr    >aSodar PV      issue;publish
-Sdr     Sodir   IV_yu   issue;publish
-Sdr     Sodar   IV_Pass_yu      be issued;be published
+>aSodar PV      issue;publish
+Sodir   IV_yu   issue;publish
+Sodar   IV_Pass_yu      be issued;be published
 ;; taSad~ar_1
-tSdr    taSad~ar        PV      preside;lead;head
-tSdr    taSad~ar        IV      preside;lead;head
-;; {isotaSodar_1
-<stSdr  {isotaSodar     PV      issue
-stSdr   sotaSodir       IV      issue
+taSad~ar        PV      preside;lead;head
+taSad~ar        IV      preside;lead;head
+;; AisotaSodar_1
+AisotaSodar     PV      issue
+sotaSodir       IV      issue
 ;; Sador_1
-Sdr     Sador   N       chest;bosom
-Sdwr    Suduwr  N       chests
+Sador   N       chest;bosom
+Suduwr  N       chests
 ;; Sadoriy~_1
-Sdry    Sadoriy~        N-ap    chest;pectoral     <pos>Sadoriy~/ADJ</pos>
+Sadoriy~        N-ap    chest;pectoral     [[Sadoriy~/ADJ]]
 ;; Sudorap_1
-Sdr     Sudor   Nap     vest
+Sudor   Nap     vest
 ;; Sudayoriy~_1
-Sdyry   Sudayoriy~      N-ap    vest     <pos>Sudayoriy~/ADJ</pos>
+Sudayoriy~      N-ap    vest     [[Sudayoriy~/ADJ]]
 ;; SidAr_1
-SdAr    SidAr   N       vest
+SidAr   N       vest
 ;; SadArap_1
-SdAr    SadAr   Nap     chairmanship;precedence
+SadAr   Nap     chairmanship;precedence
 ;; Suduwr_1
-Sdwr    Suduwr  N       appearance;issuance
+Suduwr  N       appearance;issuance
 ;; maSodar_1
-mSdr    maSodar Ndu     source
-mSAdr   maSAdir Ndip    sources
+maSodar Ndu     source
+maSAdir Ndip    sources
 ;; taSodiyr_1
-tSdyr   taSodiyr        N       export;exporting
+taSodiyr        N       export;exporting
 ;; taSodiyrAt_1
-tSdyr   taSodiyr        NAt     exports
+taSodiyr        NAt     exports
 ;; taSodiyriy~_1
-tSdyry  taSodiyriy~     N-ap    export     <pos>taSodiyriy~/ADJ</pos>
+taSodiyriy~     N-ap    export     [[taSodiyriy~/ADJ]]
 ;; muSAdarap_1
-mSAdr   muSAdar NapAt   confiscation;embargo
+muSAdar NapAt   confiscation;embargo
 ;; <iSodAr_1
-<SdAr   <iSodAr N       export;issuance
+<iSodAr N       export;issuance
 ;; <iSodArAt_1
-<SdAr   <iSodAr NAt     exports
+<iSodAr NAt     exports
 ;; taSad~ur_1
-tSdr    taSad~ur        N/At    chairmanship;preeminence
-;; {iSoTidAr_1
-<STdAr  {iSoTidAr       N/At    issuance
-;; {isotiSodAr_1
-<stSdAr {isotiSodAr     NduAt   issuing
+taSad~ur        N/At    chairmanship;preeminence
+;; AiSoTidAr_1
+AiSoTidAr       N/At    issuance
+;; AisotiSodAr_1
+AisotiSodAr     NduAt   issuing
 ;; SAdir_1
-SAdr    SAdir   N-ap    issued;published     <pos>SAdir/ADJ</pos>
-SAdr    SAdir   NAt     exports
+SAdir   N-ap    issued;published     [[SAdir/ADJ]]
+SAdir   NAt     exports
 ;; maSoduwr_1
-mSdwr   maSoduwr        N-ap    tubercular
+maSoduwr        N-ap    tubercular
 ;; muSad~ir_1
-mSdr    muSad~ir        Nall    exporter
-mSdr    muSad~ir        Nall    exporting     <pos>muSad~ir/ADJ</pos>
+muSad~ir        Nall    exporter
+muSad~ir        Nall    exporting     [[muSad~ir/ADJ]]
 ;; muSad~ar_1
-mSdr    muSad~ar        N-ap    exported     <pos>muSad~ar/ADJ</pos>
-mSdr    muSad~ar        NAt     exports
+muSad~ar        N-ap    exported     [[muSad~ar/ADJ]]
+muSad~ar        NAt     exports
 ;; muSAdar_1
-mSAdr   muSAdar N-ap    confiscated;requisitioned
+muSAdar N-ap    confiscated;requisitioned
 ;; mutaSad~ir_1
-mtSdr   mutaSad~ir      Nall    presiding;leading;heading     <pos>mutaSad~ir/ADJ</pos>
+mutaSad~ir      Nall    presiding;leading;heading     [[mutaSad~ir/ADJ]]
 ;
 ;--- SdE
 ;; SadaE-a_1
-SdE     SadaE   PV      break;expose clearly
-SdE     SodaE   IV      break;expose clearly
+SadaE   PV      break;expose clearly
+SodaE   IV      break;expose clearly
 ;; Sad~aE_1
-SdE     Sad~aE  PV      break;give headaches to
-SdE     Sad~iE  IV_yu   break;give headaches to
+Sad~aE  PV      break;give headaches to
+Sad~iE  IV_yu   break;give headaches to
 ;; taSad~aE_1
-tSdE    taSad~aE        PV_intr be cracked
-tSdE    taSad~aE        IV_intr be cracked
-;; {inoSadaE_1
-<nSdE   {inoSadaE       PV_intr be cracked
-nSdE    noSadiE IV_intr be cracked
+taSad~aE        PV_intr be cracked
+taSad~aE        IV_intr be cracked
+;; AinoSadaE_1
+AinoSadaE       PV_intr be cracked
+noSadiE IV_intr be cracked
 ;; SadoE_1
-SdE     SadoE   N       crevice;break
-SdwE    SuduwE  N       crevices;breaks
+SadoE   N       crevice;break
+SuduwE  N       crevices;breaks
 ;; SadoEap_1
-SdE     SadoE   Napdu   split;divergence
-SdE     SadaE   NAt     splits;divergences
+SadoE   Napdu   split;divergence
+SadaE   NAt     splits;divergences
 ;; SudAE_1
-SdAE    SudAE   N       headache;migraine
+SudAE   N       headache;migraine
 ;; SudAEiy~_1
-SdAEy   SudAEiy~        N-ap    migraine     <pos>SudAEiy~/ADJ</pos>
+SudAEiy~        N-ap    migraine     [[SudAEiy~/ADJ]]
 ;; taSodiyE_1
-tSdyE   taSodiyE        N/At    rupture
+taSodiyE        N/At    rupture
 ;; taSad~uE_1
-tSdE    taSad~uE        N/At    breach;rift
+taSad~uE        N/At    breach;rift
 ;; maSoduwE_1
-mSdwE   maSoduwE        N-ap    cracked;broken     <pos>maSoduwE/ADJ</pos>
+maSoduwE        N-ap    cracked;broken     [[maSoduwE/ADJ]]
 ;; mutaSad~iE_1
-mtSdE   mutaSad~iE      N-ap    cracked;brittle     <pos>mutaSad~iE/ADJ</pos>
+mutaSad~iE      N-ap    cracked;brittle     [[mutaSad~iE/ADJ]]
 ;
 ;--- Sdg
 ;; Sudog_1
-Sdg     Sudog   N       temple (anat)
->SdAg   >aSodAg N       temples (anat)
+Sudog   N       temple (anat)
+>aSodAg N       temples (anat)
 ;; Sudogiy~_1
-Sdgy    Sudogiy~        N-ap    temporal (anat)     <pos>Sudogiy~/ADJ</pos>
+Sudogiy~        N-ap    temporal (anat)     [[Sudogiy~/ADJ]]
 ;
 ;--- Sdf
 ;; Sadaf-i_1
-Sdf     Sadaf   PV      avoid
-Sdf     Sodif   IV      avoid
+Sadaf   PV      avoid
+Sodif   IV      avoid
 ;; SAdaf_1
-SAdf    SAdaf   PV      coincide;concur;encounter
-SAdf    SAdif   IV_yu   coincide;concur;encounter
+SAdaf   PV      coincide;concur;encounter
+SAdif   IV_yu   coincide;concur;encounter
 ;; Sadaf_1
-Sdf     Sadaf   N       pearl
->SdAf   >aSodAf N       pearls
+Sadaf   N       pearl
+>aSodAf N       pearls
 ;; Sadaf_2
-Sdf     Sadaf   N       psoriasis
+Sadaf   N       psoriasis
 ;; Sadafiy~_1
-Sdfy    Sadafiy~        N-ap    pearly;mother-of-pearl     <pos>Sadafiy~/ADJ</pos>
+Sadafiy~        N-ap    pearly;mother-of-pearl     [[Sadafiy~/ADJ]]
 ;; Sadafiy~At_1
-Sdfy    Sadafiy~        NAt     mollusks     <pos>Sadafiy~/NOUN</pos>
+Sadafiy~        NAt     mollusks     [[Sadafiy~/NOUN]]
 ;; Sudofap_1
-Sdf     Sudof   Nap     chance;coincidence
-Sdfp    SudofapF        FW-Wa   by chance;by coincidence     <pos>SudofapF/ADV</pos>
-Sdf     Sudaf   N       coincidences
+Sudof   Nap     chance;coincidence
+SudofapF        FW-Wa   by chance;by coincidence     [[SudofapF/ADV]]
+Sudaf   N       coincidences
 ;; Sudofiy~_1
-Sdfy    Sudofiy~        N-ap    occasional     <pos>Sudofiy~/ADJ</pos>
+Sudofiy~        N-ap    occasional     [[Sudofiy~/ADJ]]
 ;; muSAdafap_1
-mSAdf   muSAdaf NapAt   coincidence
+muSAdaf NapAt   coincidence
 ;; muSAdif_1
-mSAdf   muSAdif N-ap    coinciding with;corresponding with     <pos>muSAdif/ADJ</pos>
+muSAdif N-ap    coinciding with;corresponding with     [[muSAdif/ADJ]]
 ;; taSAdufiy~_1
-tSAdfy  taSAdufiy~      N-ap    occasional     <pos>taSAdufiy~/ADJ</pos>
+taSAdufiy~      N-ap    occasional     [[taSAdufiy~/ADJ]]
 ;
 ;--- Sdq
 ;; Sadaq-u_1
-Sdq     Sadaq   PV_intr be sincere;tell the truth;be correct
-Sdq     Soduq   IV_intr be sincere;tell the truth;be correct
+Sadaq   PV_intr be sincere;tell the truth;be correct
+Soduq   IV_intr be sincere;tell the truth;be correct
 ;; Sad~aq_1
-Sdq     Sad~aq  PV      believe;give credence to;confirm
-Sdq     Sad~iq  IV_yu   believe;give credence to;confirm
+Sad~aq  PV      believe;give credence to;confirm
+Sad~iq  IV_yu   believe;give credence to;confirm
 ;; SAdaq_1
-SAdq    SAdaq   PV      befriend
-SAdq    SAdiq   IV_yu   befriend
+SAdaq   PV      befriend
+SAdiq   IV_yu   befriend
 ;; taSad~aq_1
-tSdq    taSad~aq        PV      give alms
-tSdq    taSad~aq        IV      give alms
+taSad~aq        PV      give alms
+taSad~aq        IV      give alms
 ;; taSAdaq_1
-tSAdq   taSAdaq PV      trust;live harmoniously with
-tSAdq   taSAdaq IV      trust;live harmoniously with
+taSAdaq PV      trust;live harmoniously with
+taSAdaq IV      trust;live harmoniously with
 ;; Sidoq_1
-Sdq     Sidoq   N       sincerity;candor
+Sidoq   N       sincerity;candor
 ;; Sidoqiy_1
-Sdqy    Sidoqiy Nprop   Sidqi;Sidqy
+Sidoqiy Nprop   Sidqi;Sidqy
 ;; Sidoqiy~ap_1
-Sdqy    Sidoqiy~        Nap     honesty;integrity
+Sidoqiy~        Nap     honesty;integrity
 ;; Sadaqap_1
-Sdq     Sadaq   NapAt   alms;charity
+Sadaq   NapAt   alms;charity
 ;; SadAq_1
-SdAq    SadAq   N       marriage contract;bridal dower
+SadAq   N       marriage contract;bridal dower
 ;; SadAqap_1
-SdAq    SadAq   NapAt   friendship
+SadAq   NapAt   friendship
 ;; Sadiyq_1
-Sdyq    Sadiyq  N/ap    friend
->SdqA'  >aSodiqA'       N0_Nh   friends
->SdqA&  >aSodiqA&       Nh      friends
->SdqA}  >aSodiqA}       Nhy     friends
-SdqA'   SudaqA' N0_Nh   friends
-SdqA&   SudaqA& Nh      friends
-SdqA}   SudaqA} Nhy     friends
-SdqAn   SudoqAn N       friends
+Sadiyq  N/ap    friend
+>aSodiqA'       N0_Nh   friends
+>aSodiqA&       Nh      friends
+>aSodiqA}       Nhy     friends
+SudaqA' N0_Nh   friends
+SudaqA& Nh      friends
+SudaqA} Nhy     friends
+SudoqAn N       friends
 ;; Saduwq_1
-Sdwq    Saduwq  N       truthful;veracious
+Saduwq  N       truthful;veracious
 ;; Sid~iyq_1
-Sdyq    Sid~iyq N0      Siddiq
+Sid~iyq N0      Siddiq
 ;; Sid~iyq_2
-Sdyq    Sid~iyq N       honest;veracious
+Sid~iyq N       honest;veracious
 ;; Sid~iyqiy_1
-Sdyqy   Sid~iyqiy       N0      Siddiqi
+Sid~iyqiy       N0      Siddiqi
 ;; >aSodaq_1
->Sdq    >aSodaq Nel     truer/truest;more/most reliable
+>aSodaq Nel     truer/truest;more/most reliable
 ;; miSodAq_1
-mSdAq   miSodAq N       confirmation;substantiation
+miSodAq N       confirmation;substantiation
 ;; miSodAqiy~ap_1
-mSdAqy  miSodAqiy~      Nap     credibility     <pos>miSodAqiy~/NOUN</pos>
+miSodAqiy~      Nap     credibility     [[miSodAqiy~/NOUN]]
 ;; taSodiyq_1
-tSdyq   taSodiyq        N/At    belief;credence
+taSodiyq        N/At    belief;credence
 ;; muSAdaqap_1
-mSAdq   muSAdaq NapAt   approval;certification
+muSAdaq NapAt   approval;certification
 ;; taSAduq_1
-tSAdq   taSAduq N/At    legalization;authentication
+taSAduq N/At    legalization;authentication
 ;; taSAduq_2
-tSAdq   taSAduq N/At    entente;harmony
+taSAduq N/At    entente;harmony
 ;; SAdiq_1
-SAdq    SAdiq   N-ap    veracious;truthful
+SAdiq   N-ap    veracious;truthful
 ;; SAdiq_2
-SAdq    SAdiq   N0      Sadiq
+SAdiq   N0      Sadiq
 ;; muSad~iqap_1
-mSdq    muSad~iq        NapAt   certificate
+muSad~iq        NapAt   certificate
 ;; muSad~aq_1
-mSdq    muSad~aq        N-ap    credible;reliable     <pos>muSad~aq/ADJ</pos>
+muSad~aq        N-ap    credible;reliable     [[muSad~aq/ADJ]]
 ;; mutaSad~iq_1
-mtSdq   mutaSad~iq      Nall    giving alms;alms-giver     <pos>mutaSad~iq/ADJ</pos>
+mutaSad~iq      Nall    giving alms;alms-giver     [[mutaSad~iq/ADJ]]
 ;; mutaSad~iq_2
-mtSdq   mutaSad~iq      N0      Mutasaddiq;Motassadek
+mutaSad~iq      N0      Mutasaddiq;Motassadek
 ;
 ;--- Sdm
 ;; Sadam-i_1
-Sdm     Sadam   PV      collide with;crash into;shock
-Sdm     Sodim   IV      collide with;crash into;shock
+Sadam   PV      collide with;crash into;shock
+Sodim   IV      collide with;crash into;shock
 ;; Sad~am_1
-Sdm     Sad~am  PV      oppose
-Sdm     Sad~im  IV_yu   oppose
+Sad~am  PV      oppose
+Sad~im  IV_yu   oppose
 ;; SAdam_1
-SAdm    SAdam   PV      oppose;clash
-SAdm    SAdim   IV_yu   oppose;clash
+SAdam   PV      oppose;clash
+SAdim   IV_yu   oppose;clash
 ;; taSAdam_1
-tSAdm   taSAdam PV      collide
-tSAdm   taSAdam IV      collide
-;; {iSoTadam_1
-<STdm   {iSoTadam       PV      collide;crash
-STdm    SoTadim IV      collide;crash
+taSAdam PV      collide
+taSAdam IV      collide
+;; AiSoTadam_1
+AiSoTadam       PV      collide;crash
+SoTadim IV      collide;crash
 ;; Sadomap_1
-Sdm     Sadom   Napdu   shock;blow
-Sdm     Sadam   NAt     shocks;blows
+Sadom   Napdu   shock;blow
+Sadam   NAt     shocks;blows
 ;; SidAm_1
-SdAm    SidAm   N       collision;collapse
-SdAm    SidAm   NAt     clashes;confrontations;collisions
+SidAm   N       collision;collapse
+SidAm   NAt     clashes;confrontations;collisions
 ;; SidAmiy~_1
-SdAmy   SidAmiy~        N-ap    collision;shock     <pos>SidAmiy~/ADJ</pos>
+SidAmiy~        N-ap    collision;shock     [[SidAmiy~/ADJ]]
 ;; Sad~Am_1
-SdAm    Sad~Am  Nprop   Saddam
+Sad~Am  Nprop   Saddam
 ;; muSAdamap_1
-mSAdm   muSAdam NapAt   hostile encounter;collision
+muSAdam NapAt   hostile encounter;collision
 ;; taSAdum_1
-tSAdm   taSAdum N/At    collision;shock
-;; {iSoTidAm_1
-<STdAm  {iSoTidAm       N/At    collision;shock;impact
+taSAdum N/At    collision;shock
+;; AiSoTidAm_1
+AiSoTidAm       N/At    collision;shock;impact
 ;; SAdim_1
-SAdm    SAdim   N-ap    shocking;explosive;percussion     <pos>SAdim/ADJ</pos>
+SAdim   N-ap    shocking;explosive;percussion     [[SAdim/ADJ]]
 ;; SudAm_1
-SdAm    SudAm   N       influenza
+SudAm   N       influenza
 ;; muSAdim_1
-mSAdm   muSAdim N-ap    percussive;explosive     <pos>muSAdim/ADJ</pos>
+muSAdim N-ap    percussive;explosive     [[muSAdim/ADJ]]
 ;
 ;--- Sdy
 ;; Sadiy-a_1
-Sdy     Sadiy   PV_no-w_intr    be thirsty
-Sd      Sad     PV_w_intr       be thirsty
-SdY     SodaY   IV_0    be thirsty
-Sdy     Soday   IV_Ann  be thirsty
-Sd      Soda    IV_0hwnyn       be thirsty
+Sadiy   PV_no-w_intr    be thirsty
+Sad     PV_w_intr       be thirsty
+SodaY   IV_0    be thirsty
+Soday   IV_Ann  be thirsty
+Soda    IV_0hwnyn       be thirsty
 ;; Sad~aY_1
-SdY     Sad~aY  PV_0    echo
-SdA     Sad~A   PV_h    echo
-Sdy     Sad~ay  PV_Atn  echo
-Sd      Sad~    PV_ttAw echo
-Sdy     Sad~iy  IV_0hAnn_yu     echo
-Sd      Sad~    IV_0hwnyn_yu    echo
-SdY     Sad~aY  IV_0_Pass_yu    be echoed
-Sdy     Sad~ay  IV_Ann_Pass_yu  be echoed
+Sad~aY  PV_0    echo
+Sad~A   PV_h    echo
+Sad~ay  PV_Atn  echo
+Sad~    PV_ttAw echo
+Sad~iy  IV_0hAnn_yu     echo
+Sad~    IV_0hwnyn_yu    echo
+Sad~aY  IV_0_Pass_yu    be echoed
+Sad~ay  IV_Ann_Pass_yu  be echoed
 ;; >aSodaY_1
->SdY    >aSodaY PV_0    echo;reverberate
->SdA    >aSodA  PV_h    echo;reverberate
->Sdy    >aSoday PV_Atn  echo;reverberate
->Sd     >aSod   PV_ttAw echo;reverberate
-Sdy     Sodiy   IV_0hAnn_yu     echo;reverberate
-Sd      Sod     IV_0hwnyn_yu    echo;reverberate
-SdY     SodaY   IV_0_Pass_yu    be echoed;be reverberated
-Sdy     Soday   IV_Ann_Pass_yu  be echoed;be reverberated
+>aSodaY PV_0    echo;reverberate
+>aSodA  PV_h    echo;reverberate
+>aSoday PV_Atn  echo;reverberate
+>aSod   PV_ttAw echo;reverberate
+Sodiy   IV_0hAnn_yu     echo;reverberate
+Sod     IV_0hwnyn_yu    echo;reverberate
+SodaY   IV_0_Pass_yu    be echoed;be reverberated
+Soday   IV_Ann_Pass_yu  be echoed;be reverberated
 ;; taSad~aY_1
-tSdY    taSad~aY        PV_0    resist;confront
-tSdA    taSad~A PV_h    resist;confront
-tSdy    taSad~ay        PV_Atn  resist;confront
-tSd     taSad~  PV_ttAw resist;confront
-tSdY    taSad~aY        IV_0    resist;confront
-tSdA    taSad~A IV_h    resist;confront
-tSdy    taSad~ay        IV_Ann  resist;confront
-tSd     taSad~  IV_0hwnyn       resist;confront
+taSad~aY        PV_0    resist;confront
+taSad~A PV_h    resist;confront
+taSad~ay        PV_Atn  resist;confront
+taSad~  PV_ttAw resist;confront
+taSad~aY        IV_0    resist;confront
+taSad~A IV_h    resist;confront
+taSad~ay        IV_Ann  resist;confront
+taSad~  IV_0hwnyn       resist;confront
 ;; SadaY_1
-SdY     SadaY   N0      echo
-SdA     SadAF   FW-WaBi echo     <pos>SadAF/NOUN</pos>
-SdA     SadA    N0_Nhy  echo
->SdA'   >aSodA' N0_Nh   echoes
->SdA&   >aSodA& Nh      echoes
->SdA}   >aSodA} Nhy     echoes
+SadaY   N0      echo
+SadAF   FW-WaBi echo     [[SadAF/NOUN]]
+SadA    N0_Nhy  echo
+>aSodA' N0_Nh   echoes
+>aSodA& Nh      echoes
+>aSodA} Nhy     echoes
 ;; taSodiyap_1
-tSdy    taSodiy Nap     hand clapping
+taSodiy Nap     hand clapping
 ;; muSAdAp_1
-mSAdA   muSAdA  Nap     echolalia (compulsive repetition of someone else's words)
+muSAdA  Nap     echolalia (compulsive repetition of someone else's words)
 ;; taSad~iy_1
-tSdy    taSad~iy        N0_Nh   resistance;confrontation
-tSd     taSad~  NK      resistance;confrontation
-tSdy    taSad~iy        NAn_Nayn        resistance;confrontations
-tSdy    taSad~iy        NAt     resistance;confrontations
+taSad~iy        N0_Nh   resistance;confrontation
+taSad~  NK      resistance;confrontation
+taSad~iy        NAn_Nayn        resistance;confrontations
+taSad~iy        NAt     resistance;confrontations
 ;
 ;--- Sr
 ;; Sar~-i_1
-Sr      Sar~    PV_V    screech;chirp
-Srr     Sarar   PV_C    screech;chirp
-Sr      Sir~    IV_V    screech;chirp
-Srr     Sorir   IV_C    screech;chirp
+Sar~    PV_V    screech;chirp
+Sarar   PV_C    screech;chirp
+Sir~    IV_V    screech;chirp
+Sorir   IV_C    screech;chirp
 ;; >aSar~_1
->Sr     >aSar~  PV_V    insist;assert
->Srr    >aSorar PV_C    insist;assert
-Sr      Sir~    IV_V_yu insist;assert
-Srr     Sorir   IV_C_yu insist;assert
-Sr      Sar~    IV_V_Pass_yu    be insisted;be asserted
+>aSar~  PV_V    insist;assert
+>aSorar PV_C    insist;assert
+Sir~    IV_V_yu insist;assert
+Sorir   IV_C_yu insist;assert
+Sar~    IV_V_Pass_yu    be insisted;be asserted
 ;; Sur~ap_1
-Sr      Sur~    Nap     money bag;bundle
+Sur~    Nap     money bag;bundle
 ;; Sariyr_1
-Sryr    Sariyr  N       screeching;scratching;chirping
+Sariyr  N       screeching;scratching;chirping
 ;; Sar~Ar_1
-SrAr    Sar~Ar  N       cricket
+Sar~Ar  N       cricket
 ;; <iSorAr_1
-<SrAr   <iSorAr N/At    insistence;determination;premeditation
+<iSorAr N/At    insistence;determination;premeditation
 ;; muSir~_1
-mSr     muSir~  Nall    determined;insistent     <pos>muSir~/ADJ</pos>
+muSir~  Nall    determined;insistent     [[muSir~/ADJ]]
 ;; SAr~ap_1
-SAr     SAr~    Nap     need;thirst
+SAr~    Nap     need;thirst
 ;
 ;--- Srb
 ;; Sirob_1
-Srb     Sirob   N       Serbia
+Sirob   N       Serbia
 ;; Sirobiy~_1
-Srby    Sirobiy~        Nall    Serbian     <pos>Sirobiy~/NOUN</pos>
-Srby    Sirobiy~        Nall    Serbian     <pos>Sirobiy~/ADJ</pos>
-Srb     Sirob   N       Serbians
+Sirobiy~        Nall    Serbian     [[Sirobiy~/NOUN]]
+Sirobiy~        Nall    Serbian     [[Sirobiy~/ADJ]]
+Sirob   N       Serbians
 ;
 ;--- SrH
 ;; SaruH-u_1
-SrH     SaruH   PV_intr be frank;be candid
-SrH     SoruH   IV_intr be frank;be candid
+SaruH   PV_intr be frank;be candid
+SoruH   IV_intr be frank;be candid
 ;; SaraH-a_1
-SrH     SaraH   PV      clarify
-SrH     SoraH   IV      clarify
+SaraH   PV      clarify
+SoraH   IV      clarify
 ;; Sar~aH_1
-SrH     Sar~aH  PV      declare;announce
-SrH     Sar~iH  IV_yu   declare;announce
+Sar~aH  PV      declare;announce
+Sar~iH  IV_yu   declare;announce
 ;; SAraH_1
-SArH    SAraH   PV      speak frankly;declare
-SArH    SAriH   IV_yu   speak frankly;declare
+SAraH   PV      speak frankly;declare
+SAriH   IV_yu   speak frankly;declare
 ;; taSAraH_1
-tSArH   taSAraH PV      clarify
-tSArH   taSAraH IV      clarify
-;; {inoSaraH_1
-<nSrH   {inoSaraH       PV      clarify
-nSrH    noSariH IV      clarify
+taSAraH PV      clarify
+taSAraH IV      clarify
+;; AinoSaraH_1
+AinoSaraH       PV      clarify
+noSariH IV      clarify
 ;; SaroH_1
-SrH     SaroH   N       structure;edifice
-SrwH    SuruwH  N       structures;edifices
+SaroH   N       structure;edifice
+SuruwH  N       structures;edifices
 ;; SurAH_1
-SrAH    SurAH   N       pure;distinct
+SurAH   N       pure;distinct
 ;; SariyH_1
-SryH    SariyH  N/ap    candid;sincere     <pos>SariyH/ADJ</pos>
-SrHA'   SuraHA' N0_Nh   candid;sincere
-SrHA&   SuraHA& Nh      candid;sincere
-SrHA}   SuraHA} Nhy     candid;sincere
-SrA}H   SarA}iH Ndip    candid;sincere
+SariyH  N/ap    candid;sincere     [[SariyH/ADJ]]
+SuraHA' N0_Nh   candid;sincere
+SuraHA& Nh      candid;sincere
+SuraHA} Nhy     candid;sincere
+SarA}iH Ndip    candid;sincere
 ;; SarAHap_1
-SrAH    SarAH   Nap     sincerity;candor;frankness
+SarAH   Nap     sincerity;candor;frankness
 ;; taSoriyH_1
-tSryH   taSoriyH        Ndu     declaration;statement
-tSryH   taSoriyH        NAt     declarations;statements
-tSAryH  taSAriyH        Ndip    declarations;statements
+taSoriyH        Ndu     declaration;statement
+taSoriyH        NAt     declarations;statements
+taSAriyH        Ndip    declarations;statements
 ;; taSoriyH_2
-tSryH   taSoriyH        NduAt   permit;license
+taSoriyH        NduAt   permit;license
 ;; muSAraHap_1
-mSArH   muSAraH NapAt   openness;sincerity;declaration
+muSAraH NapAt   openness;sincerity;declaration
 ;; muSar~aH_1
-mSrH    muSar~aH        N-ap    licensed;permitted     <pos>muSar~aH/ADJ</pos>
+muSar~aH        N-ap    licensed;permitted     [[muSar~aH/ADJ]]
 ;
 ;; SurAHiy~ap_1
-SrAHy   SurAHiy~        Nap     demijohn     <pos>SurAHiy~/NOUN</pos>
+SurAHiy~        Nap     demijohn     [[SurAHiy~/NOUN]]
 ;
 ;--- Srx
 ;; Sarax-u_1
-Srx     Sarax   PV      shout;scream
-Srx     Sorux   IV      shout;scream
-;; {isotaSorax_1
-<stSrx  {isotaSorax     PV      call for help
-stSrx   sotaSorix       IV      call for help
+Sarax   PV      shout;scream
+Sorux   IV      shout;scream
+;; AisotaSorax_1
+AisotaSorax     PV      call for help
+sotaSorix       IV      call for help
 ;; Saroxap_1
-Srx     Sarox   Napdu   shout;scream
-Srx     Sarax   NAt     shouts;screams
+Sarox   Napdu   shout;scream
+Sarax   NAt     shouts;screams
 ;; SurAx_1
-SrAx    SurAx   N       shouting;screaming
+SurAx   N       shouting;screaming
 ;; SurAxiy~_1
-SrAxy   SurAxiy~        N-ap    shouting;screaming     <pos>SurAxiy~/ADJ</pos>
+SurAxiy~        N-ap    shouting;screaming     [[SurAxiy~/ADJ]]
 ;; Sariyx_1
-Sryx    Sariyx  N       shouting;screaming
+Sariyx  N       shouting;screaming
 ;; Sar~Ax_1
-SrAx    Sar~Ax  N       shouter
+Sar~Ax  N       shouter
 ;; SAruwx_1
-SArwx   SAruwx  Ndu     missile;rocket
-SwAryx  SawAriyx        Ndip    missiles;rockets
+SAruwx  Ndu     missile;rocket
+SawAriyx        Ndip    missiles;rockets
 ;; SAruwxiy~_1
-SArwxy  SAruwxiy~       N-ap    missile;rocket     <pos>SAruwxiy~/ADJ</pos>
-;; {isotiSorAx_1
-<stSrAx {isotiSorAx     N/At    cry for help
+SAruwxiy~       N-ap    missile;rocket     [[SAruwxiy~/ADJ]]
+;; AisotiSorAx_1
+AisotiSorAx     N/At    cry for help
 ;; SArix_1
-SArx    SArix   N-ap    loud;noisy     <pos>SArix/ADJ</pos>
-SArx    SArix   N-ap    shouter
+SArix   N-ap    loud;noisy     [[SArix/ADJ]]
+SArix   N-ap    shouter
 ;
 ;--- Srd
 ;; Sarod_1
-Srd     Sarod   N       plateau
-Srwd    Suruwd  N       plateaus
+Sarod   N       plateau
+Suruwd  N       plateaus
 ;; Sarod_2
-Srd     Sarod   N-ap    pure;sincere
+Sarod   N-ap    pure;sincere
 ;; Sur~Ad_1
-SrAd    Sur~Ad  N       drifting clouds
-Sryd    Sur~ayod        N       drifting clouds
+Sur~Ad  N       drifting clouds
+Sur~ayod        N       drifting clouds
 ;
 ;; SarodA_1
-SrdA    SarodA  Nprop   Sarda
+SarodA  Nprop   Sarda
 ;
 ;--- SrSr
 ;; SaroSar_1
-SrSr    SaroSar PV      chirp;squeak;scream
-SrSr    SaroSir IV_yu   chirp;squeak;scream
+SaroSar PV      chirp;squeak;scream
+SaroSir IV_yu   chirp;squeak;scream
 ;; SaroSar_2
-SrSr    SaroSar N       gale
+SaroSar N       gale
 ;; SuroSur_1
-SrSr    SuroSur Ndu     cockroach
-SrASr   SarASir Ndip    cockroaches
+SuroSur Ndu     cockroach
+SarASir Ndip    cockroaches
 ;; SaroSuwr_1
-SrSwr   SaroSuwr        N0      Sarsour
+SaroSuwr        N0      Sarsour
 ;; SuroSuwr_1
-SrSwr   SuroSuwr        Ndu     cockroach
-SrASyr  SarASiyr        Ndip    cockroaches
+SuroSuwr        Ndu     cockroach
+SarASiyr        Ndip    cockroaches
 ;; SaroSAr_1
-SrSAr   SaroSAr N       cricket
+SaroSAr N       cricket
 ;; muSaroSir_1
-mSrSr   muSaroSir       Nall    screaming;piercing     <pos>muSaroSir/ADJ</pos>
+muSaroSir       Nall    screaming;piercing     [[muSaroSir/ADJ]]
 ;
 ;--- SrT
 ;; SirAT_1
-SrAT    SirAT   Ndu     way;path
-SrT     SuruT   N       ways;paths
+SirAT   Ndu     way;path
+SuruT   N       ways;paths
 ;
 ;--- SrE
 ;; SaraE-a_1
-SrE     SaraE   PV      throw down;dismay
-SrE     SoraE   IV      throw down;dismay
+SaraE   PV      throw down;dismay
+SoraE   IV      throw down;dismay
 ;; SAraE_1
-SArE    SAraE   PV      fight against;struggle with
-SArE    SAriE   IV_yu   fight against;struggle with
+SAraE   PV      fight against;struggle with
+SAriE   IV_yu   fight against;struggle with
 ;; taSAraE_1
-tSArE   taSAraE PV      fight;struggle
-tSArE   taSAraE IV      fight;struggle
-;; {inoSaraE_1
-<nSrE   {inoSaraE       PV_intr be dismayed
-nSrE    noSariE IV_intr be dismayed
-;; {iSoTaraE_1
-<STrE   {iSoTaraE       PV      fight;struggle
-STrE    SoTariE IV      fight;struggle
+taSAraE PV      fight;struggle
+taSAraE IV      fight;struggle
+;; AinoSaraE_1
+AinoSaraE       PV_intr be dismayed
+noSariE IV_intr be dismayed
+;; AiSoTaraE_1
+AiSoTaraE       PV      fight;struggle
+SoTariE IV      fight;struggle
 ;; SaroE_1
-SrE     SaroE   N       epilepsy;knock-out
+SaroE   N       epilepsy;knock-out
 ;; SaroEiy~_1
-SrEy    SaroEiy~        N-ap    epileptic     <pos>SaroEiy~/ADJ</pos>
+SaroEiy~        N-ap    epileptic     [[SaroEiy~/ADJ]]
 ;; SariyE_1
-SryE    SariyE  N-ap    collapsed;fallen;overcome     <pos>SariyE/ADJ</pos>
-SrEY    SaroEaY N0      collapsed;fallen;overcome
-SrEA    SaroEA  Nhy     collapsed;fallen;overcome
+SariyE  N-ap    collapsed;fallen;overcome     [[SariyE/ADJ]]
+SaroEaY N0      collapsed;fallen;overcome
+SaroEA  Nhy     collapsed;fallen;overcome
 ;; maSoraE_1
-mSrE    maSoraE N       death;fatality
-mSArE   maSAriE Ndip    deaths;fatalities
+maSoraE N       death;fatality
+maSAriE Ndip    deaths;fatalities
 ;; miSorAE_1
-mSrAE   miSorAE Ndu     hemistich;door panel
-mSAryE  maSAriyE        Ndip    hemistiches;door panels
+miSorAE Ndu     hemistich;door panel
+maSAriyE        Ndip    hemistiches;door panels
 ;; SirAE_1
-SrAE    SirAE   NduAt   struggle;fight
+SirAE   NduAt   struggle;fight
 ;; muSAraEap_1
-mSArE   muSAraE NapAt   wrestling;struggle
-;; {iSoTirAE_1
-<STrAE  {iSoTirAE       N/At    wrestling;struggle
+muSAraE NapAt   wrestling;struggle
+;; AiSoTirAE_1
+AiSoTirAE       N/At    wrestling;struggle
 ;; maSoruwE_1
-mSrwE   maSoruwE        N-ap    collapsed;knocked out     <pos>maSoruwE/ADJ</pos>
+maSoruwE        N-ap    collapsed;knocked out     [[maSoruwE/ADJ]]
 ;; maSoruwE_2
-mSrwE   maSoruwE        N-ap    epileptic;demented     <pos>maSoruwE/ADJ</pos>
+maSoruwE        N-ap    epileptic;demented     [[maSoruwE/ADJ]]
 ;; muSAriE_1
-mSArE   muSAriE Nall    fighter;combatant;wrestler
+muSAriE Nall    fighter;combatant;wrestler
 ;
 ;--- Srf
 ;; Saraf-i_1
-Srf     Saraf   PV      divert;spend
-Srf     Sorif   IV      divert;spend
+Saraf   PV      divert;spend
+Sorif   IV      divert;spend
 ;; Sar~af_1
-Srf     Sar~af  PV      exchange;expedite
-Srf     Sar~if  IV_yu   exchange;expedite
+Sar~af  PV      exchange;expedite
+Sar~if  IV_yu   exchange;expedite
 ;; taSar~af_1
-tSrf    taSar~af        PV      behave
-tSrf    taSar~af        IV      behave
-;; {inoSaraf_1
-<nSrf   {inoSaraf       PV      go away
-nSrf    noSarif IV      go away
+taSar~af        PV      behave
+taSar~af        IV      behave
+;; AinoSaraf_1
+AinoSaraf       PV      go away
+noSarif IV      go away
 ;; Sarof_1
-Srf     Sarof   N       diverting;spending
+Sarof   N       diverting;spending
 ;; Sirof_1
-Srf     Sirof   N-ap    mere;pure
+Sirof   N-ap    mere;pure
 ;; Sarofiy~_1
-Srfy    Sarofiy~        N-ap    morphological     <pos>Sarofiy~/ADJ</pos>
+Sarofiy~        N-ap    morphological     [[Sarofiy~/ADJ]]
 ;; Sarofiy~At_1
-Srfy    Sarofiy~        NAt     disbursements     <pos>Sarofiy~/NOUN</pos>
+Sarofiy~        NAt     disbursements     [[Sarofiy~/NOUN]]
 ;; Sariyf_1
-Sryf    Sariyf  N       squeaking;squealing
+Sariyf  N       squeaking;squealing
 ;; Sar~Af_1
-SrAf    Sar~Af  Nall    money changer;cashier
+Sar~Af  Nall    money changer;cashier
 ;; Sariyfap_1
-Sryf    Sariyf  Nap     reed-mat hut
-SrA}f   SarA}if Ndip    reed-mat huts
+Sariyf  Nap     reed-mat hut
+SarA}if Ndip    reed-mat huts
 ;; maSorif_1
-mSrf    maSorif Ndu     bank
-mSArf   maSArif Ndip    banks
+maSorif Ndu     bank
+maSArif Ndip    banks
 ;; maSorifiy~_1
-mSrfy   maSorifiy~      N-ap    bank;banking     <pos>maSorifiy~/ADJ</pos>
+maSorifiy~      N-ap    bank;banking     [[maSorifiy~/ADJ]]
 ;; taSoriyf_1
-tSryf   taSoriyf        N/At    selling;passing
+taSoriyf        N/At    selling;passing
 ;; taSoriyfiy~_1
-tSryfy  taSoriyfiy~     N-ap    selling;passing     <pos>taSoriyfiy~/ADJ</pos>
+taSoriyfiy~     N-ap    selling;passing     [[taSoriyfiy~/ADJ]]
 ;; taSar~uf_1
-tSrf    taSar~uf        N/At    behavior;conduct;disposal
+taSar~uf        N/At    behavior;conduct;disposal
 ;; taSar~ufAt_1
-tSrf    taSar~uf        NAt     measures;regulations
-;; {inoSirAf_1
-<nSrAf  {inoSirAf       N/At    departure
+taSar~uf        NAt     measures;regulations
+;; AinoSirAf_1
+AinoSirAf       N/At    departure
 ;; maSoruwf_1
-mSrwf   maSoruwf        N/ap    expenditure;expense
-mSAryf  maSAriyf        Ndip    expenses;expenditures
+maSoruwf        N/ap    expenditure;expense
+maSAriyf        Ndip    expenses;expenditures
 ;; mutaSar~if_1
-mtSrf   mutaSar~if      N       provincial governor
+mutaSar~if      N       provincial governor
 ;; mutaSar~ifiy~_1
-mtSrfy  mutaSar~ifiy~   NapAt   province;jurisdiction     <pos>mutaSar~ifiy~/NOUN</pos>
+mutaSar~ifiy~   NapAt   province;jurisdiction     [[mutaSar~ifiy~/NOUN]]
 ;; munoSarif_1
-mnSrf   munoSarif       Nall    departing;leaving     <pos>munoSarif/ADJ</pos>
+munoSarif       Nall    departing;leaving     [[munoSarif/ADJ]]
 ;; munoSaraf_1
-mnSrf   munoSaraf       N       departure;conclusion;end
+munoSaraf       N       departure;conclusion;end
 ;
 ;; Sayoraf_1
-Syrf    Sayoraf N       money changer;cashier
-SyArf   SayArif Ndip    money changers;cashiers
+Sayoraf N       money changer;cashier
+SayArif Ndip    money changers;cashiers
 ;; Sayorafiy~_1
-Syrfy   Sayorafiy~      N/ap    money changer;cashier     <pos>Sayorafiy~/NOUN</pos>
-SyArf   SayArif Nap     money changers;cashiers
+Sayorafiy~      N/ap    money changer;cashier     [[Sayorafiy~/NOUN]]
+SayArif Nap     money changers;cashiers
 ;
 ;--- Srm
 ;; Saram-i_1
-Srm     Saram   PV      cut off;sever;separate
-Srm     Sorim   IV      cut off;sever;separate
+Saram   PV      cut off;sever;separate
+Sorim   IV      cut off;sever;separate
 ;; SAram_1
-SArm    SAram   PV_intr be estranged;brake off with
-SArm    SArim   IV_intr_yu      be estranged;brake off with
-;; {inoSaram_1
-<nSrm   {inoSaram       PV      expire;elapse
-nSrm    noSarim IV      expire;elapse
+SAram   PV_intr be estranged;brake off with
+SArim   IV_intr_yu      be estranged;brake off with
+;; AinoSaram_1
+AinoSaram       PV      expire;elapse
+noSarim IV      expire;elapse
 ;; Sarom_1
-Srm     Sarom   N       severance;separation
+Sarom   N       severance;separation
 ;; SarAmap_1
-SrAm    SarAm   Nap     severity;harshness
+SarAm   Nap     severity;harshness
 ;; SArim_1
-SArm    SArim   N-ap    severe;rigorous;strict     <pos>SArim/ADJ</pos>
+SArim   N-ap    severe;rigorous;strict     [[SArim/ADJ]]
 ;; Sariymap_1
-Srym    Sariym  Nap     energy;firmness
+Sariym  Nap     energy;firmness
 ;; muSAramap_1
-mSArm   muSAram NapAt   estrangement;hostility
-;; {inoSirAm_1
-<nSrAm  {inoSirAm       N/At    expiration;end
+muSAram NapAt   estrangement;hostility
+;; AinoSirAm_1
+AinoSirAm       N/At    expiration;end
 ;; munoSarim_1
-mnSrm   munoSarim       N-ap    gone by;elapsed     <pos>munoSarim/ADJ</pos>
+munoSarim       N-ap    gone by;elapsed     [[munoSarim/ADJ]]
 ;
 ;; Saromap_1
-Srm     Sarom   Nap     shoes
+Sarom   Nap     shoes
 ;; SuromAyap_1
-SrmAy   SuromAy NapAt   shoes
+SuromAy NapAt   shoes
 ;; SarAmiy_1
-SrAmy   SarAmiy N       shoes
+SarAmiy N       shoes
 ;; SuramAtiy~_1
-SrmAty  SuramAtiy~      N       cobbler
-SrmAty  SuramAtiy~      Nap     cobblers
+SuramAtiy~      N       cobbler
+SuramAtiy~      Nap     cobblers
 ;
 ;--- Sry
 ;; SAriy_1
-SAry    SAriy   N0F_Nh  mast;pole
-SAr     SAr     NK      mast;pole
-SAry    SAriy   NAn_Nayn        mast;pole
-SAry    SAriy   NapAt   mast;pole
-SwAry   SawAriy N0_Nh   masts;poles
-SwAr    SawAr   NK      masts;poles
+SAriy   N0F_Nh  mast;pole
+SAr     NK      mast;pole
+SAriy   NAn_Nayn        mast;pole
+SAriy   NapAt   mast;pole
+SawAriy N0_Nh   masts;poles
+SawAr   NK      masts;poles
 ;
 ;--- STb
 ;; maSoTabap_1
-mSTb    maSoTab Napdu   mastaba;stone bench
-mSATb   maSATib Ndip    mastabas;stone benches
+maSoTab Napdu   mastaba;stone bench
+maSATib Ndip    mastabas;stone benches
 ;
 ;--- STl
 ;; maSoTuwl_1
-mSTwl   maSoTuwl        N-ap    fool
+maSoTuwl        N-ap    fool
 ;
 ;--- SEb
 ;; SaEub-u_1
-SEb     SaEub   PV_intr be difficult
-SEb     SoEub   IV_intr be difficult
+SaEub   PV_intr be difficult
+SoEub   IV_intr be difficult
 ;; taSaE~ab_1
-tSEb    taSaE~ab        PV_intr become difficult
-tSEb    taSaE~ab        IV_intr become difficult
+taSaE~ab        PV_intr become difficult
+taSaE~ab        IV_intr become difficult
 ;; taSAEab_1
-tSAEb   taSAEab PV_intr be difficult
-tSAEb   taSAEab IV_intr be difficult
-;; {isotaSoEab_1
-<stSEb  {isotaSoEab     PV      consider difficult
-stSEb   sotaSoEib       IV      consider difficult
+taSAEab PV_intr be difficult
+taSAEab IV_intr be difficult
+;; AisotaSoEab_1
+AisotaSoEab     PV      consider difficult
+sotaSoEib       IV      consider difficult
 ;; SaEob_1
-SEb     SaEob   N-ap    difficult;arduous     <pos>SaEob/ADJ</pos>
-SEAb    SiEAb   N       difficult;arduous
+SaEob   N-ap    difficult;arduous     [[SaEob/ADJ]]
+SiEAb   N       difficult;arduous
 ;; >aSoEab_1
->SEb    >aSoEab Nel     more/most difficult;more/most arduous
+>aSoEab Nel     more/most difficult;more/most arduous
 ;; SuEuwbap_1
-SEwb    SuEuwb  NapAt   difficulty
+SuEuwb  NapAt   difficulty
 ;; maSAEib_1
-mSAEb   maSAEib Ndip    difficulties
+maSAEib Ndip    difficulties
 ;; mutaSAEib_1
-mtSAEb  mutaSAEib       Nall    difficult;hard to please     <pos>mutaSAEib/ADJ</pos>
+mutaSAEib       Nall    difficult;hard to please     [[mutaSAEib/ADJ]]
 ;
 ;--- SEtr
 ;; SaEotar_1
-SEtr    SaEotar N       thyme
+SaEotar N       thyme
 ;
 ;--- SEd
 ;; SaEid-a_1
-SEd     SaEid   PV      rise;climb
-SEd     SoEad   IV      rise;climb
+SaEid   PV      rise;climb
+SoEad   IV      rise;climb
 ;; SaE~ad_1
-SEd     SaE~ad  PV      escalate;intensify
-SEd     SaE~id  IV_yu   escalate;intensify
+SaE~ad  PV      escalate;intensify
+SaE~id  IV_yu   escalate;intensify
 ;; >aSoEad_1
->SEd    >aSoEad PV      make rise
-SEd     SoEid   IV_yu   make rise
-SEd     SoEad   IV_Pass_yu      be raised
+>aSoEad PV      make rise
+SoEid   IV_yu   make rise
+SoEad   IV_Pass_yu      be raised
 ;; taSaE~ad_1
-tSEd    taSaE~ad        PV      escalate;evaporate
-tSEd    taSaE~ad        IV      escalate;evaporate
+taSaE~ad        PV      escalate;evaporate
+taSaE~ad        IV      escalate;evaporate
 ;; taSAEad_1
-tSAEd   taSAEad PV      climb;increase
-tSAEd   taSAEad IV      climb;increase
+taSAEad PV      climb;increase
+taSAEad IV      climb;increase
 ;; SuEuwd_1
-SEwd    SuEuwd  N       ascent;rising
+SuEuwd  N       ascent;rising
 ;; SaEodap_1
-SEd     SaEod   Napdu   rise;incline
-SEd     SaEad   NAt     rises;inclines
+SaEod   Napdu   rise;incline
+SaEad   NAt     rises;inclines
 ;; SaEiyd_1
-SEyd    SaEiyd  Ndu     level;plane
->SEd    >aSoEid Nap     levels;planes;domains
-SEd     SuEud   N       levels;planes
+SaEiyd  Ndu     level;plane
+>aSoEid Nap     levels;planes;domains
+SuEud   N       levels;planes
 ;; SaEiyd_2
-SEyd    SaEiyd  N       highlands;Upper Egypt
+SaEiyd  N       highlands;Upper Egypt
 ;; SaEiydiy~_1
-SEydy   SaEiydiy~       N/ap    Saidi;Upper Egyptian     <pos>SaEiydiy~/ADJ</pos>
-SEA}d   SaEA}id Nap     Saidis;Upper Egyptians
-SEAyd   SaEAyid Nap     Saidis;Upper Egyptians
+SaEiydiy~       N/ap    Saidi;Upper Egyptian     [[SaEiydiy~/ADJ]]
+SaEA}id Nap     Saidis;Upper Egyptians
+SaEAyid Nap     Saidis;Upper Egyptians
 ;; SuEadA'_1
-SEdA'   SuEadA' N0_Nh   deep sigh
-SEdA&   SuEadA& Nh      deep sigh
-SEdA}   SuEadA} Nhy     deep sigh
-SEdA'   SaEadA' N0_Nh   deep sigh
-SEdA&   SaEadA& Nh      deep sigh
-SEdA}   SaEadA} Nhy     deep sigh
+SuEadA' N0_Nh   deep sigh
+SuEadA& Nh      deep sigh
+SuEadA} Nhy     deep sigh
+SaEadA' N0_Nh   deep sigh
+SaEadA& Nh      deep sigh
+SaEadA} Nhy     deep sigh
 ;; maSoEad_1
-mSEd    maSoEad Ndu     anode
-mSAEd   maSAEid Ndip    anodes
+maSoEad Ndu     anode
+maSAEid Ndip    anodes
 ;; miSoEad_1
-mSEd    miSoEad N       elevator
-mSEd    miSoEad NapAt   elevator
-mSAEd   maSAEid Ndip    elevators
+miSoEad N       elevator
+miSoEad NapAt   elevator
+maSAEid Ndip    elevators
 ;; taSoEiyd_1
-tSEyd   taSoEiyd        N/At    escalation;intensification
+taSoEiyd        N/At    escalation;intensification
 ;; taSoEiydiy~_1
-tSEydy  taSoEiydiy~     N-ap    escalation     <pos>taSoEiydiy~/ADJ</pos>
+taSoEiydiy~     N-ap    escalation     [[taSoEiydiy~/ADJ]]
 ;; <iSoEAd_1
-<SEAd   <iSoEAd N/At    raise;increase
+<iSoEAd N/At    raise;increase
 ;; taSAEud_1
-tSAEd   taSAEud N/At    growth;increase;escalation
+taSAEud N/At    growth;increase;escalation
 ;; taSAEudiy~_1
-tSAEdy  taSAEudiy~      N-ap    growing;increasing;escalating     <pos>taSAEudiy~/ADJ</pos>
+taSAEudiy~      N-ap    growing;increasing;escalating     [[taSAEudiy~/ADJ]]
 ;; SAEid_1
-SAEd    SAEid   N-ap    rising;ascending
+SAEid   N-ap    rising;ascending
 ;; SAEidAF_1
-SAEd    SAEid   NF      henceforth;upward     <pos>SAEid/ADV</pos>
+SAEid   NF      henceforth;upward     [[SAEid/ADV]]
 ;; mutaSAEid_1
-mtSAEd  mutaSAEid       N-ap    rising;ascending
+mutaSAEid       N-ap    rising;ascending
 ;; SAEidap_1
-SAEd    SAEid   Napdu   stalagmite
-SwAEd   SawAEid Ndip    stalagmites
+SAEid   Napdu   stalagmite
+SawAEid Ndip    stalagmites
 ;; SaE~Ad_1
-SEAd    SaE~Ad  N-ap    escalator
+SaE~Ad  N-ap    escalator
 ;
 ;--- SEr
 ;; SaEir-a_1
-SEr     SaEir   PV      have torticollis;have wryneck;grimace
-SEr     SoEar   IV      have torticollis;have wryneck;grimace
+SaEir   PV      have torticollis;have wryneck;grimace
+SoEar   IV      have torticollis;have wryneck;grimace
 ;; SaE~ar_1
-SEr     SaE~ar  PV      grimace
-SEr     SaE~ir  IV_yu   grimace
+SaE~ar  PV      grimace
+SaE~ir  IV_yu   grimace
 ;; SaEor_1
-SEr     SaEor   N       torticollis;wryneck
+SaEor   N       torticollis;wryneck
 ;; taSoEiyr_1
-tSEyr   taSoEiyr        N/At    grimace;pouting
+taSoEiyr        N/At    grimace;pouting
 ;
 ;--- SEq
 ;; SaEaq-a_1
-SEq     SaEaq   PV      stun;strike
-SEq     SoEaq   IV      stun;strike
+SaEaq   PV      stun;strike
+SoEaq   IV      stun;strike
 ;; SaEiq-a_1
-SEq     SaEiq   PV_intr be stunned;be thunderstruck
-SEq     SoEaq   IV_intr be stunned;be thunderstruck
+SaEiq   PV_intr be stunned;be thunderstruck
+SoEaq   IV_intr be stunned;be thunderstruck
 ;; >aSoEaq_1
->SEq    >aSoEaq PV      stun;strike
-SEq     SoEiq   IV_yu   stun;strike
-SEq     SoEaq   IV_Pass_yu      be stunned;be struck
-;; {inoSaEaq_1
-<nSEq   {inoSaEaq       PV_intr be stunned;be thunderstruck
-nSEq    noSaEiq IV_intr be stunned;be thunderstruck
+>aSoEaq PV      stun;strike
+SoEiq   IV_yu   stun;strike
+SoEaq   IV_Pass_yu      be stunned;be struck
+;; AinoSaEaq_1
+AinoSaEaq       PV_intr be stunned;be thunderstruck
+noSaEiq IV_intr be stunned;be thunderstruck
 ;; SaEaq_1
-SEq     SaEaq   N       electrocution;detonation
+SaEaq   N       electrocution;detonation
 ;; SAEiq_1
-SAEq    SAEiq   N       detonator;stunning
+SAEiq   N       detonator;stunning
 ;; SAEiqap_1
-SAEqp   SAEiqap N0      Sa'iqah;Saiqa
+SAEiqap N0      Sa'iqah;Saiqa
 ;; SAEiqap_2
-SAEq    SAEiq   Nap     lightning
-SwAEq   SawAEiq Ndip    lightning
+SAEiq   Nap     lightning
+SawAEiq Ndip    lightning
 ;; maSoEuwq_1
-mSEwq   maSoEuwq        N-ap    thunderstruck;stunned     <pos>maSoEuwq/ADJ</pos>
+maSoEuwq        N-ap    thunderstruck;stunned     [[maSoEuwq/ADJ]]
 ;; munoSaEiq_1
-mnSEq   munoSaEiq       Nall    thunderstruck;stunned     <pos>munoSaEiq/ADJ</pos>
+munoSaEiq       Nall    thunderstruck;stunned     [[munoSaEiq/ADJ]]
 ;
 ;--- SEl
 ;; SaEol_1
-SEl     SaEol   N       microcephalic
->SEl    >aSoEal Nel     microcephalic
+SaEol   N       microcephalic
+>aSoEal Nel     microcephalic
 ;
 ;--- SElk
 ;; SaEolakap_1
-SElk    SaEolak Nap     vagrancy;misery
+SaEolak Nap     vagrancy;misery
 ;; SuEoluwk_1
-SElwk   SuEoluwk        N/ap    vagrant;vagabond
-SEAlyk  SaEAliyk        Ndip    vagrants;vagabonds
+SuEoluwk        N/ap    vagrant;vagabond
+SaEAliyk        Ndip    vagrants;vagabonds
 ;
 ;--- Sgr
 ;; Sagur-u_1
-Sgr     Sagur   PV_intr be small
-Sgr     Sogur   IV_intr be small
+Sagur   PV_intr be small
+Sogur   IV_intr be small
 ;; Sag~ar_1
-Sgr     Sag~ar  PV      diminish;belittle
-Sgr     Sag~ir  IV_yu   diminish;belittle
+Sag~ar  PV      diminish;belittle
+Sag~ir  IV_yu   diminish;belittle
 ;; taSAgar_1
-tSAgr   taSAgar PV_intr be humble
-tSAgr   taSAgar IV_intr be humble
-;; {isotaSogar_1
-<stSgr  {isotaSogar     PV      look down on
-stSgr   sotaSogir       IV      look down on
+taSAgar PV_intr be humble
+taSAgar IV_intr be humble
+;; AisotaSogar_1
+AisotaSogar     PV      look down on
+sotaSogir       IV      look down on
 ;; Sigar_1
-Sgr     Sigar   N       smallness;humility
+Sigar   N       smallness;humility
 ;; Sigar_2
-Sgr     Sigar   N       youth;infancy
+Sigar   N       youth;infancy
 ;; SagAr_1
-SgAr    SagAr   Nap     smallness;humility
+SagAr   Nap     smallness;humility
 ;; Sagiyr_1
-Sgyr    Sagiyr  N/ap    small;young
-SgAr    SigAr   N       small;young
+Sagiyr  N/ap    small;young
+SigAr   N       small;young
 ;; Sagiyrap_1
-Sgyr    Sagiyr  Nap     venial sin
-SgA}r   SagA}ir Ndip    venial sins
+Sagiyr  Nap     venial sin
+SagA}ir Ndip    venial sins
 ;; >aSogar_1
->Sgr    >aSogar Nel     smaller/smallest;younger/youngest     <pos>>aSogar/ADJ</pos>
-SgrY    SugoraY N0      minor;smaller/smallest;younger/youngest
-SgrA    SugorA  Nhy     minor;smaller/smallest;younger/youngest
-Sgry    Sugoray NAn_Nayn        minor;smaller/smallest;younger/youngest
-Sgry    Sugoray NAt     minor;smaller/smallest;younger/youngest
+>aSogar Nel     smaller/smallest;younger/youngest     [[>aSogar/ADJ]]
+SugoraY N0      minor;smaller/smallest;younger/youngest
+SugorA  Nhy     minor;smaller/smallest;younger/youngest
+Sugoray NAn_Nayn        minor;smaller/smallest;younger/youngest
+Sugoray NAt     minor;smaller/smallest;younger/youngest
 ;; taSogiyr_1
-tSgyr   taSogiyr        N/At    diminution;reduction
+taSogiyr        N/At    diminution;reduction
 ;; <iSogAr_1
-<SgAr   <iSogAr N/At    contempt;disregard
+<iSogAr N/At    contempt;disregard
 ;; taSAgur_1
-tSAgr   taSAgur N/At    servility;humility
+taSAgur N/At    servility;humility
 ;; SAgir_1
-SAgr    SAgir   N-ap    contemptible;dejected     <pos>SAgir/ADJ</pos>
+SAgir   N-ap    contemptible;dejected     [[SAgir/ADJ]]
 ;; muSag~ar_1
-mSgr    muSag~ar        N-ap    diminished;reduced     <pos>muSag~ar/ADJ</pos>
+muSag~ar        N-ap    diminished;reduced     [[muSag~ar/ADJ]]
 ;
 ;--- Sgw
 ;; SagA-u_1
-SgA     SagA    PV_0h   lean over;incline
-Sgw     Sagaw   PV_Atn  lean over;incline
-Sg      Sag     PV_ttAw lean over;incline
-Sgw     Soguw   IV_0hAnn        lean over;incline
-Sg      Sog     IV_0hwnyn       lean over;incline
-SgY     SogaY   IV_0_Pass_yu    be leaned over;be inclined
-Sgy     Sogay   IV_Ann_Pass_yu  be leaned over;be inclined
+SagA    PV_0h   lean over;incline
+Sagaw   PV_Atn  lean over;incline
+Sag     PV_ttAw lean over;incline
+Soguw   IV_0hAnn        lean over;incline
+Sog     IV_0hwnyn       lean over;incline
+SogaY   IV_0_Pass_yu    be leaned over;be inclined
+Sogay   IV_Ann_Pass_yu  be leaned over;be inclined
 ;; Sagiy-a_1
-Sgy     Sagiy   PV_no-w lean over;incline
-Sg      Sag     PV_w    lean over;incline
-SgY     SogaY   IV_0    lean over;incline
-Sgy     Sogay   IV_Ann  lean over;incline
-Sg      Soga    IV_0hwnyn       lean over;incline
+Sagiy   PV_no-w lean over;incline
+Sag     PV_w    lean over;incline
+SogaY   IV_0    lean over;incline
+Sogay   IV_Ann  lean over;incline
+Soga    IV_0hwnyn       lean over;incline
 ;; >aSogaY_1
->SgY    >aSogaY PV_0    pay attention;heed
->SgA    >aSogA  PV_h    pay attention;heed
->Sgy    >aSogay PV_Atn  pay attention;heed
->Sg     >aSog   PV_ttAw pay attention;heed
-Sgy     Sogiy   IV_0hAnn_yu     pay attention;heed
-Sg      Sog     IV_0hwnyn_yu    pay attention;heed
-SgY     SogaY   IV_0_Pass_yu    be heeded;be listened to
-Sgy     Sogay   IV_Ann_Pass_yu  be heeded;be listened to
+>aSogaY PV_0    pay attention;heed
+>aSogA  PV_h    pay attention;heed
+>aSogay PV_Atn  pay attention;heed
+>aSog   PV_ttAw pay attention;heed
+Sogiy   IV_0hAnn_yu     pay attention;heed
+Sog     IV_0hwnyn_yu    pay attention;heed
+SogaY   IV_0_Pass_yu    be heeded;be listened to
+Sogay   IV_Ann_Pass_yu  be heeded;be listened to
 ;; Sagow_1
-Sgw     Sagow   N       inclination;disposition;benevolence
+Sagow   N       inclination;disposition;benevolence
 ;; SagAF_1
-SgA     SagAF   FW-WaBi inclination;disposition;benevolence     <pos>SagAF/NOUN</pos>
+SagAF   FW-WaBi inclination;disposition;benevolence     [[SagAF/NOUN]]
 ;; SagaY_1
-SgY     SagaY   N0      inclination;disposition;benevolence
-SgA     SagA    N0_Nhy  inclination;disposition;benevolence
+SagaY   N0      inclination;disposition;benevolence
+SagA    N0_Nhy  inclination;disposition;benevolence
 ;; <iSogA'_1
-<SgA'   <iSogA' N0_Nh   attentiveness;listening
-<SgA&   <iSogA& Nh      attentiveness;listening
-<SgA}   <iSogA} Nhy     attentiveness;listening
-<SgA'   <iSogA' NAt     attentiveness;listening
+<iSogA' N0_Nh   attentiveness;listening
+<iSogA& Nh      attentiveness;listening
+<iSogA} Nhy     attentiveness;listening
+<iSogA' NAt     attentiveness;listening
 ;; SAgiy_1
-SAgy    SAgiy   N0F     attentive;listening     <pos>SAgiy/ADJ</pos>
-SAg     SAg     NK      attentive;listening
-SAgy    SAgiy   NAn_Nayn        attentive;listening
-SAgy    SAgiy   Napdu   attentive;listening
+SAgiy   N0F     attentive;listening     [[SAgiy/ADJ]]
+SAg     NK      attentive;listening
+SAgiy   NAn_Nayn        attentive;listening
+SAgiy   Napdu   attentive;listening
 ;; muSogiy_1
-mSgy    muSogiy N0F_Nh  attentive;listening     <pos>muSogiy/ADJ</pos>
-mSg     muSog   NK      attentive;listening
-mSgy    muSogiy NAn_Nayn        attentive;listening
-mSg     muSog   Nuwn_Niyn       attentive;listening
-mSgy    muSogiy NapAt   attentive;listening
+muSogiy N0F_Nh  attentive;listening     [[muSogiy/ADJ]]
+muSog   NK      attentive;listening
+muSogiy NAn_Nayn        attentive;listening
+muSog   Nuwn_Niyn       attentive;listening
+muSogiy NapAt   attentive;listening
 ;
 ;--- Sf
 ;; Saf~-u_1
-Sf      Saf~    PV_V    arrange;classify
-Sff     Safaf   PV_C    arrange;classify
-Sf      Suf~    IV_V    arrange;classify
-Sff     Sofuf   IV_C    arrange;classify
+Saf~    PV_V    arrange;classify
+Safaf   PV_C    arrange;classify
+Suf~    IV_V    arrange;classify
+Sofuf   IV_C    arrange;classify
 ;; Saf~af_1
-Sff     Saf~af  PV      arrange
-Sff     Saf~if  IV_yu   arrange
+Saf~af  PV      arrange
+Saf~if  IV_yu   arrange
 ;; taSAf~_1
-tSAf    taSAf~  PV_V_intr       be arranged;get in line
-tSAff   taSAfaf PV_C_intr       be arranged;get in line
-tSAf    taSAf~  IV_V_intr       be arranged;get in line
-tSAff   taSAfif IV_C_intr       be arranged;get in line
-;; {iSoTaf~_1
-<STf    {iSoTaf~        PV_V    get in line;stand in formation
-<STff   {iSoTafaf       PV_C    get in line;stand in formation
-STf     SoTaf~  IV_V    get in line;stand in formation
-STff    SoTafif IV_C    get in line;stand in formation
+taSAf~  PV_V_intr       be arranged;get in line
+taSAfaf PV_C_intr       be arranged;get in line
+taSAf~  IV_V_intr       be arranged;get in line
+taSAfif IV_C_intr       be arranged;get in line
+;; AiSoTaf~_1
+AiSoTaf~        PV_V    get in line;stand in formation
+AiSoTafaf       PV_C    get in line;stand in formation
+SoTaf~  IV_V    get in line;stand in formation
+SoTafif IV_C    get in line;stand in formation
 ;; Saf~_1
-Sf      Saf~    Ndu     line;row;class
-Sfwf    Sufuwf  N       lines;rows;classes
+Saf~    Ndu     line;row;class
+Sufuwf  N       lines;rows;classes
 ;; Sufuwf_1
-Sfwf    Sufuwf  N       non-commissioned officers
+Sufuwf  N       non-commissioned officers
 ;; Suf~ap_1
-Sf      Suf~    Nap     ledge;bench
+Suf~    Nap     ledge;bench
 ;; Saf~Af_1
-SfAf    Saf~Af  N-ap    typesetter
+Saf~Af  N-ap    typesetter
 ;; maSaf~_1
-mSf     maSaf~  N       rank
+maSaf~  N       rank
 ;; maSaf~_2
-mSf     maSaf~  Ndu     battle line;position
-mSAf    maSAf~  Ndip    battle lines;positions
+maSaf~  Ndu     battle line;position
+maSAf~  Ndip    battle lines;positions
 ;; taSofiyf_1
-tSfyf   taSofiyf        N/At    arranging;hairdressing
+taSofiyf        N/At    arranging;hairdressing
 ;; maSofuwf_1
-mSfwf   maSofuwf        N-ap    arranged;combed     <pos>maSofuwf/ADJ</pos>
+maSofuwf        N-ap    arranged;combed     [[maSofuwf/ADJ]]
 ;; maSofuwfap_1
-mSfwf   maSofuwf        NapAt   matrix
+maSofuwf        NapAt   matrix
 ;
 ;--- SfH
 ;; SafaH-a_1
-SfH     SafaH   PV      pardon;flatten
-SfH     SofaH   IV      pardon;flatten
+SafaH   PV      pardon;flatten
+SofaH   IV      pardon;flatten
 ;; Saf~aH_1
-SfH     Saf~aH  PV      foliate
-SfH     Saf~iH  IV_yu   foliate
+Saf~aH  PV      foliate
+Saf~iH  IV_yu   foliate
 ;; SAfaH_1
-SAfH    SAfaH   PV      shake hands with
-SAfH    SAfiH   IV_yu   shake hands with
+SAfaH   PV      shake hands with
+SAfiH   IV_yu   shake hands with
 ;; taSaf~aH_1
-tSfH    taSaf~aH        PV      page through;examine;read
-tSfH    taSaf~aH        IV      page through;examine;read
+taSaf~aH        PV      page through;examine;read
+taSaf~aH        IV      page through;examine;read
 ;; taSAfaH_1
-tSAfH   taSAfaH PV      shake hands
-tSAfH   taSAfaH IV      shake hands
-;; {isotaSofaH_1
-<stSfH  {isotaSofaH     PV      apologize
-stSfH   sotaSofiH       IV      apologize
+taSAfaH PV      shake hands
+taSAfaH IV      shake hands
+;; AisotaSofaH_1
+AisotaSofaH     PV      apologize
+sotaSofiH       IV      apologize
 ;; SafoH_1
-SfH     SafoH   N       pardon
+SafoH   N       pardon
 ;; SafuwH_1
-SfwH    SafuwH  N-ap    clement;forgiving     <pos>SafuwH/ADJ</pos>
+SafuwH  N-ap    clement;forgiving     [[SafuwH/ADJ]]
 ;; SafoHap_1
-SfH     SafoH   Napdu   page;leaf
-SfH     SafaH   NAt     pages;leaves
+SafoH   Napdu   page;leaf
+SafaH   NAt     pages;leaves
 ;; SafiyH_1
-SfyH    SafiyH  N       tin plate
+SafiyH  N       tin plate
 ;; SafiyHap_1
-SfyH    SafiyH  Nap     plate;sheet
-SfA}H   SafA}iH Ndip    plates;sheets
+SafiyH  Nap     plate;sheet
+SafA}iH Ndip    plates;sheets
 ;; Suf~AH_1
-SfAH    Suf~AH  N/At    tinplate;flagstone
-SfAfyH  SafAfiyH        Ndip    tinplate;flagstone
+Suf~AH  N/At    tinplate;flagstone
+SafAfiyH        Ndip    tinplate;flagstone
 ;; taSofiyH_1
-tSfyH   taSofiyH        N/At    plating
+taSofiyH        N/At    plating
 ;; Saf~AH_1
-SfAH    Saf~AH  Nall    tinsmith
+Saf~AH  Nall    tinsmith
 ;; taSaf~uH_1
-tSfH    taSaf~uH        N/At    examination;perusal
+taSaf~uH        N/At    examination;perusal
 ;; muSaf~aH_1
-mSfH    muSaf~aH        N-ap    ironclad;armored;plated
+muSaf~aH        N-ap    ironclad;armored;plated
 ;; muSaf~aHap_1
-mSfH    muSaf~aH        NapAt   armored vehicle
+muSaf~aH        NapAt   armored vehicle
 ;; muSAfaHap_1
-mSAfH   muSAfaH NapAt   handshake
+muSAfaH NapAt   handshake
 ;
 ;--- Sfd
 ;; Saf~ad_1
-Sfd     Saf~ad  PV      shackle;handcuff
-Sfd     Saf~id  IV_yu   shackle;handcuff
-Sfd     Saf~ad  IV_Pass_yu      be shackled;be handcuffed
+Saf~ad  PV      shackle;handcuff
+Saf~id  IV_yu   shackle;handcuff
+Saf~ad  IV_Pass_yu      be shackled;be handcuffed
 ;; >aSofad_1
->Sfd    >aSofad PV      shackle;handcuff
-Sfd     Sofid   IV_yu   shackle;handcuff
-Sfd     Sofad   IV_Pass_yu      be shackled;be handcuffed
+>aSofad PV      shackle;handcuff
+Sofid   IV_yu   shackle;handcuff
+Sofad   IV_Pass_yu      be shackled;be handcuffed
 ;; Safad_1
-Sfd     Safad   Nprop   Safad
+Safad   Nprop   Safad
 ;; Safad_2
-Sfd     Safad   Ndu     handcuff;shackle
->SfAd   >aSofAd N       handcuffs;shackles
+Safad   Ndu     handcuff;shackle
+>aSofAd N       handcuffs;shackles
 ;; SifAd_1
-SfAd    SifAd   Ndu     handcuffs;shackles
->SfAd   >aSofAd N       handcuffs;shackles
+SifAd   Ndu     handcuffs;shackles
+>aSofAd N       handcuffs;shackles
 ;; taSofiyd_1
-tSfyd   taSofiyd        N/At    handcuffing;shackling
+taSofiyd        N/At    handcuffing;shackling
 ;; <iSofAd_1
-<SfAd   <iSofAd N/At    handcuffing;shackling
+<iSofAd N/At    handcuffing;shackling
 ;
 ;--- Sfr
 ;; Safar-i_1
-Sfr     Safar   PV      whistle
-Sfr     Sofir   IV      whistle
+Safar   PV      whistle
+Sofir   IV      whistle
 ;; Saf~ar_1
-Sfr     Saf~ar  PV      whistle
-Sfr     Saf~ir  IV_yu   whistle
+Saf~ar  PV      whistle
+Saf~ir  IV_yu   whistle
 ;; Saf~ar_3
-Sfr     Saf~ar  PV      dye yellow
-Sfr     Saf~ir  IV_yu   dye yellow
+Saf~ar  PV      dye yellow
+Saf~ir  IV_yu   dye yellow
 ;; >aSofar_1
->Sfr    >aSofar PV      empty
-Sfr     Sofir   IV_yu   empty
-Sfr     Sofar   IV_Pass_yu      be emptied
+>aSofar PV      empty
+Sofir   IV_yu   empty
+Sofar   IV_Pass_yu      be emptied
 ;; >aSofar_2
->Sfr    >aSofar PV_intr be empty-handed
-Sfr     Sofir   IV_intr_yu      be empty-handed
-;; {iSofar~_1
-<Sfr    {iSofar~        PV_V    turn yellow;become pale
-<Sfrr   {iSofarar       PV_C    turn yellow;become pale
-Sfr     Sofar~  IV_V    turn yellow;become pale
-Sfrr    Sofarir IV_C    turn yellow;become pale
+>aSofar PV_intr be empty-handed
+Sofir   IV_intr_yu      be empty-handed
+;; AiSofar~_1
+AiSofar~        PV_V    turn yellow;become pale
+AiSofarar       PV_C    turn yellow;become pale
+Sofar~  IV_V    turn yellow;become pale
+Sofarir IV_C    turn yellow;become pale
 ;; Sufayor_1
-Sfyr    Sufayor Nprop   Sfeir
+Sufayor Nprop   Sfeir
 ;; Saforap_1
-Sfr     Safor   Napdu   whistle
-Sfr     Safar   NAt     whistles
+Safor   Napdu   whistle
+Safar   NAt     whistles
 ;; Safiyr_1
-Sfyr    Safiyr  N       whistling;whistles
-Sfyr    Safiyr  N       sapphire
+Safiyr  N       whistling;whistles
+Safiyr  N       sapphire
 ;; Saf~Arap_1
-SfAr    Saf~Ar  NapAt   whistle;siren
-SfAfyr  SafAfiyr        Ndip    whistles;sirens
+Saf~Ar  NapAt   whistle;siren
+SafAfiyr        Ndip    whistles;sirens
 ;; taSofiyr_1
-tSfyr   taSofiyr        N/At    whistling
+taSofiyr        N/At    whistling
 ;; taSofiyr_2
-tSfyr   taSofiyr        N/At    yellowing
+taSofiyr        N/At    yellowing
 ;; taSofiyrap_1
-tSfyr   taSofiyr        Napdu   whistling;whistles
+taSofiyr        Napdu   whistling;whistles
 ;; SAfirap_1
-SAfr    SAfir   Nap     whistle
+SAfir   Nap     whistle
 ;; muSaf~ir_1
-mSfr    muSaf~ir        Nall    whistling;whistler
+muSaf~ir        Nall    whistling;whistler
 ;; Safar_1
-Sfr     Safar   N       jaundice
+Safar   N       jaundice
 ;; Safar_2
-Sfr     Safar   N       Safar (month)
+Safar   N       Safar (month)
 ;; Suforap_1
-Sfr     Sufor   Nap     yellowness;pallor
+Sufor   Nap     yellowness;pallor
 ;; SafAr_1
-SfAr    SafAr   N       yellowness;pallor
+SafAr   N       yellowness;pallor
 ;; >aSofar_3
->Sfr    >aSofar Nel     yellow
-SfrA'   SaforA' N0_Nh   yellow
-SfrA&   SaforA& Nh      yellow
-SfrA}   SaforA} Nhy     yellow
-Sfr     Sufor   N       yellow
+>aSofar Nel     yellow
+SaforA' N0_Nh   yellow
+SaforA& Nh      yellow
+SaforA} Nhy     yellow
+Sufor   N       yellow
 ;; >aSofar_4
->Sfr    >aSofar Nel     empty
+>aSofar Nel     empty
 ;; SaforAwiy~_1
-SfrAwy  SaforAwiy~      Nall    yellow     <pos>SaforAwiy~/ADJ</pos>
+SaforAwiy~      Nall    yellow     [[SaforAwiy~/ADJ]]
 ;; miSofAr_1
-mSfAr   miSofAr N       deep yellow
-;; {iSofirAr_1
-<SfrAr  {iSofirAr       N/At    yellowing;pallor
+miSofAr N       deep yellow
+;; AiSofirAr_1
+AiSofirAr       N/At    yellowing;pallor
 ;; muSofar~_1
-mSfr    muSofar~        Nall    yellow;pale     <pos>muSofar~/ADJ</pos>
+muSofar~        Nall    yellow;pale     [[muSofar~/ADJ]]
 ;; Sifor_1
-Sfr     Sifor   NduAt   zero
+Sifor   NduAt   zero
 ;; Siforiy~_1
-Sfry    Siforiy~        N-ap    null;negative     <pos>Siforiy~/ADJ</pos>
+Siforiy~        N-ap    null;negative     [[Siforiy~/ADJ]]
 ;; muSofir_1
-mSfr    muSofir Nall    empty-handed
+muSofir Nall    empty-handed
 ;
 ;--- SfSf
 ;; SafoSAfap_1
-SfSAf   SafoSAf NapAt   willow
+SafoSAf NapAt   willow
 ;; SafoSaf_1
-SfSf    SafoSaf N-ap    barren;desolate
+SafoSaf N-ap    barren;desolate
 ;
 ;--- SfT
 ;; SafoTAwiy~_1
-SfTAwy  SafoTAwiy~      N0      Saftawi
+SafoTAwiy~      N0      Saftawi
 ;; SafoTAwiy~_2
-SfTAwy  SafoTAwiy~      Nall    from/of Safta      <pos>SafoTAwiy~/ADJ</pos>
+SafoTAwiy~      Nall    from/of Safta      [[SafoTAwiy~/ADJ]]
 ;
 ;--- SfE
 ;; SafaE-a_1
-SfE     SafaE   PV      slap
-SfE     SofaE   IV      slap
+SafaE   PV      slap
+SofaE   IV      slap
 ;; taSAfaE_1
-tSAfE   taSAfaE PV      slap one another
-tSAfE   taSAfaE IV      slap one another
+taSAfaE PV      slap one another
+taSAfaE IV      slap one another
 ;; SafoEap_1
-SfE     SafoE   Napdu   slap;blow
-SfE     SafaE   NAt     slaps;blows
+SafoE   Napdu   slap;blow
+SafaE   NAt     slaps;blows
 ;; Saf~AE_1
-SfAE    Saf~AE  Nall    buffoon
+Saf~AE  Nall    buffoon
 ;
 ;--- Sfq
 ;; Safaq-i_1
-Sfq     Safaq   PV      slam;clap
-Sfq     Sofiq   IV      slam;clap
+Safaq   PV      slam;clap
+Sofiq   IV      slam;clap
 ;; Safaq-u_1
-Sfq     Safaq   PV      transfuse
-Sfq     Sofuq   IV      transfuse
+Safaq   PV      transfuse
+Sofuq   IV      transfuse
 ;; Saf~aq_1
-Sfq     Saf~aq  PV      applaud;clap
-Sfq     Saf~iq  IV_yu   applaud;clap
+Saf~aq  PV      applaud;clap
+Saf~iq  IV_yu   applaud;clap
 ;; >aSofaq_1
->Sfq    >aSofaq PV      transfuse
-Sfq     Sofiq   IV_yu   transfuse
-Sfq     Sofaq   IV_Pass_yu      be transfused
+>aSofaq PV      transfuse
+Sofiq   IV_yu   transfuse
+Sofaq   IV_Pass_yu      be transfused
 ;; Safoq_1
-Sfq     Safoq   N       slamming;clapping;transfusion
+Safoq   N       slamming;clapping;transfusion
 ;; Safoqap_1
-Sfq     Safoq   Napdu   deal;transaction
-Sfq     Safaq   NAt     deals;transactions
+Safoq   Napdu   deal;transaction
+Safaq   NAt     deals;transactions
 ;; SifAq_1
-SfAq    SifAq   N       dermis
+SifAq   N       dermis
 ;; Safiyq_1
-Sfyq    Safiyq  N-ap    thick;impudent     <pos>Safiyq/ADJ</pos>
+Safiyq  N-ap    thick;impudent     [[Safiyq/ADJ]]
 ;; SafAqap_1
-SfAq    SafAq   Nap     insolence
+SafAq   Nap     insolence
 ;; taSofiyq_1
-tSfyq   taSofiyq        N/At    applause;clapping
+taSofiyq        N/At    applause;clapping
 ;
 ;--- Sfqs
 ;; SafAqis_1
-SfAqs   SafAqis N0      Sfax
+SafAqis N0      Sfax
 ;
 ;--- Sfn
 ;; Safan-i_1
-Sfn     Safan   PV-n    ponder
-Sfn     Sofin   IV-n    ponder
+Safan   PV-n    ponder
+Sofin   IV-n    ponder
 ;; Safan_1
-Sfn     Safan   N       scrotum
->SfAn   >aSofAn N       scrota
+Safan   N       scrotum
+>aSofAn N       scrota
 ;; Safiyn_1
-Sfyn    Safiyn  N       savin
+Safiyn  N       savin
 ;
 ;--- Sfw
 ;; SafA-u_1
-SfA     SafA    PV_0    be pure
-Sfw     Safaw   PV_Atn  be pure
-Sf      Saf     PV_ttAw_intr    be pure
-Sfw     Sofuw   IV_0hAnn        be pure
-Sf      Sof     IV_0hwnyn       be pure
+SafA    PV_0    be pure
+Safaw   PV_Atn  be pure
+Saf     PV_ttAw_intr    be pure
+Sofuw   IV_0hAnn        be pure
+Sof     IV_0hwnyn       be pure
 ;; Saf~aY_1
-SfY     Saf~aY  PV_0    clarify;purify;liquidate
-SfA     Saf~A   PV_h    clarify;purify;liquidate
-Sfy     Saf~ay  PV_Atn  clarify;purify;liquidate
-Sf      Saf~    PV_ttAw clarify;purify;liquidate
-Sfy     Saf~iy  IV_0hAnn_yu     clarify;purify;liquidate
-Sf      Saf~    IV_0hwnyn_yu    clarify;purify;liquidate
-SfY     Saf~aY  IV_0_Pass_yu    be purified;be liquidated
-Sfy     Saf~ay  IV_Ann_Pass_yu  be purified;be liquidated
+Saf~aY  PV_0    clarify;purify;liquidate
+Saf~A   PV_h    clarify;purify;liquidate
+Saf~ay  PV_Atn  clarify;purify;liquidate
+Saf~    PV_ttAw clarify;purify;liquidate
+Saf~iy  IV_0hAnn_yu     clarify;purify;liquidate
+Saf~    IV_0hwnyn_yu    clarify;purify;liquidate
+Saf~aY  IV_0_Pass_yu    be purified;be liquidated
+Saf~ay  IV_Ann_Pass_yu  be purified;be liquidated
 ;; SAfaY_1
-SAfY    SAfaY   PV_0    be sincere with;deal honestly with
-SAfA    SAfA    PV_h    be sincere with;deal honestly with
-SAfy    SAfay   PV_Atn  be sincere with;deal honestly with
-SAf     SAf     PV_ttAw_intr    be sincere with;deal honestly with
-SAfy    SAfiy   IV_0hAnn_yu     be sincere with;deal honestly with
-SAf     SAf     IV_0hwnyn_yu    be sincere with;deal honestly with
-SAfY    SAfaY   IV_0_Pass_yu    be treated with sincerity;be dealt with honestly
-SAfy    SAfay   IV_Ann_Pass_yu  be treated with sincerity;be dealt with honestly
+SAfaY   PV_0    be sincere with;deal honestly with
+SAfA    PV_h    be sincere with;deal honestly with
+SAfay   PV_Atn  be sincere with;deal honestly with
+SAf     PV_ttAw_intr    be sincere with;deal honestly with
+SAfiy   IV_0hAnn_yu     be sincere with;deal honestly with
+SAf     IV_0hwnyn_yu    be sincere with;deal honestly with
+SAfaY   IV_0_Pass_yu    be treated with sincerity;be dealt with honestly
+SAfay   IV_Ann_Pass_yu  be treated with sincerity;be dealt with honestly
 ;; >aSofaY_1
->SfY    >aSofaY PV_0    choose;prefer
->SfA    >aSofA  PV_h    choose;prefer
->Sfy    >aSofay PV_Atn  choose;prefer
->Sf     >aSof   PV_ttAw choose;prefer
-Sfy     Sofiy   IV_0hAnn_yu     choose;prefer
-Sf      Sof     IV_0hwnyn_yu    choose;prefer
-SfY     SofaY   IV_0_Pass_yu    be chosen;be preferred
-Sfy     Sofay   IV_Ann_Pass_yu  be chosen;be preferred
+>aSofaY PV_0    choose;prefer
+>aSofA  PV_h    choose;prefer
+>aSofay PV_Atn  choose;prefer
+>aSof   PV_ttAw choose;prefer
+Sofiy   IV_0hAnn_yu     choose;prefer
+Sof     IV_0hwnyn_yu    choose;prefer
+SofaY   IV_0_Pass_yu    be chosen;be preferred
+Sofay   IV_Ann_Pass_yu  be chosen;be preferred
 ;; taSAfaY_1
-tSAfY   taSAfaY PV_0    be sincere with each other;deal honestly with each other
-tSAfA   taSAfA  PV_h    be sincere with each other;deal honestly with each other
-tSAfy   taSAfay PV_Atn  be sincere with each other;deal honestly with each other
-tSAf    taSAf   PV_ttAw_intr    be sincere with each other;deal honestly with each other
-tSAfY   taSAfaY IV_0    be sincere with each other;deal honestly with each other
-tSAfA   taSAfA  IV_h    be sincere with each other;deal honestly with each other
-tSAfy   taSAfay IV_Ann  be sincere with each other;deal honestly with each other
-tSAf    taSAf   IV_0hwnyn       be sincere with each other;deal honestly with each other
-;; {iSoTafaY_1
-<STfY   {iSoTafaY       PV_0    choose;select
-<STfA   {iSoTafA        PV_h    choose;select
-<STfy   {iSoTafay       PV_Atn  choose;select
-<STf    {iSoTaf PV_ttAw choose;select
-STfy    SoTafiy IV_0hAnn        choose;select
-STf     SoTaf   IV_0hwnyn       choose;select
-STfY    SoTafaY IV_0    choose;select
-;; {isotaSofaY_1
-<stSfY  {isotaSofaY     PV_0    confiscate;sequester
-<stSfA  {isotaSofA      PV_h    confiscate;sequester
-<stSfy  {isotaSofay     PV_Atn  confiscate;sequester
-<stSf   {isotaSof       PV_ttAw confiscate;sequester
-stSfy   sotaSofiy       IV_0hAnn        confiscate;sequester
-stSf    sotaSof IV_0hwnyn       confiscate;sequester
-stSfY   sotaSofaY       IV_0    confiscate;sequester
+taSAfaY PV_0    be sincere with each other;deal honestly with each other
+taSAfA  PV_h    be sincere with each other;deal honestly with each other
+taSAfay PV_Atn  be sincere with each other;deal honestly with each other
+taSAf   PV_ttAw_intr    be sincere with each other;deal honestly with each other
+taSAfaY IV_0    be sincere with each other;deal honestly with each other
+taSAfA  IV_h    be sincere with each other;deal honestly with each other
+taSAfay IV_Ann  be sincere with each other;deal honestly with each other
+taSAf   IV_0hwnyn       be sincere with each other;deal honestly with each other
+;; AiSoTafaY_1
+AiSoTafaY       PV_0    choose;select
+AiSoTafA        PV_h    choose;select
+AiSoTafay       PV_Atn  choose;select
+AiSoTaf PV_ttAw choose;select
+SoTafiy IV_0hAnn        choose;select
+SoTaf   IV_0hwnyn       choose;select
+SoTafaY IV_0    choose;select
+;; AisotaSofaY_1
+AisotaSofaY     PV_0    confiscate;sequester
+AisotaSofA      PV_h    confiscate;sequester
+AisotaSofay     PV_Atn  confiscate;sequester
+AisotaSof       PV_ttAw confiscate;sequester
+sotaSofiy       IV_0hAnn        confiscate;sequester
+sotaSof IV_0hwnyn       confiscate;sequester
+sotaSofaY       IV_0    confiscate;sequester
 ;; SafAF_1
-SfA     SafAF   FW-WaBi stones;rocks     <pos>SafAF/NOUN</pos>
-SfA     SafA    N0_Nhy  stones;rocks
+SafAF   FW-WaBi stones;rocks     [[SafAF/NOUN]]
+SafA    N0_Nhy  stones;rocks
 ;; SafAp_1
-SfA     SafA    Napdu   stone;rock
-Sfw     Safaw   NAt     stones;rocks
+SafA    Napdu   stone;rock
+Safaw   NAt     stones;rocks
 ;; Safow_1
-Sfw     Safow   N       clarity;purity
+Safow   N       clarity;purity
 ;; Safowap_1
-Sfw     Safow   Nap     choicest;elite;selection;best
+Safow   Nap     choicest;elite;selection;best
 ;; Sifowap_1
-Sfw     Sifow   Nap     sincere friend;bosom friend
+Sifow   Nap     sincere friend;bosom friend
 ;; SafowAn_1
-SfwAn   SafowAn N       stones;rocks
+SafowAn N       stones;rocks
 ;; SafA'_1
-SfA'    SafA'   N0      Safaa;Safa
+SafA'   N0      Safaa;Safa
 ;; SafA'_2
-SfA'    SafA'   N0_Nh   purity;clarity;sincerity
-SfA&    SafA&   Nh      purity;clarity;sincerity
-SfA}    SafA}   Nhy     purity;clarity;sincerity
+SafA'   N0_Nh   purity;clarity;sincerity
+SafA&   Nh      purity;clarity;sincerity
+SafA}   Nhy     purity;clarity;sincerity
 ;; Safiy~_1
-Sfy     Safiy~  N-ap    pure;clear;sincere     <pos>Safiy~/ADJ</pos>
->SfyA'  >aSofiyA'       N0_Nh   pure;clear;sincere
->SfyA&  >aSofiyA&       Nh      pure;clear;sincere
->SfyA}  >aSofiyA}       Nhy     pure;clear;sincere
+Safiy~  N-ap    pure;clear;sincere     [[Safiy~/ADJ]]
+>aSofiyA'       N0_Nh   pure;clear;sincere
+>aSofiyA&       Nh      pure;clear;sincere
+>aSofiyA}       Nhy     pure;clear;sincere
 ;; Safiy~ap_1
-Sfy     Safiy~  Nap     lion's share     <pos>Safiy~/NOUN</pos>
-SfAyA   SafAyA  N0_Nhy  lion's share
+Safiy~  Nap     lion's share     [[Safiy~/NOUN]]
+SafAyA  N0_Nhy  lion's share
 ;; maSofaY_1
-mSfY    maSofaY N0      refinery
-mSfA    maSofA  Nhy     refinery
-mSfy    maSofay NAn_Nayn        refineries
+maSofaY N0      refinery
+maSofA  Nhy     refinery
+maSofay NAn_Nayn        refineries
 ;; miSofaY_1
-mSfY    miSofaY N0      sieve
-mSfA    miSofA  Nhy     sieve
-mSfy    miSofay NAn_Nayn        sieves
+miSofaY N0      sieve
+miSofA  Nhy     sieve
+miSofay NAn_Nayn        sieves
 ;; miSofAp_1
-mSfA    miSofA  Napdu   refinery;purification plant
-mSAfy   maSAfiy N0_Nh   refineries;purification plants
-mSAf    maSAf   NK      refineries;purification plants
+miSofA  Napdu   refinery;purification plant
+maSAfiy N0_Nh   refineries;purification plants
+maSAf   NK      refineries;purification plants
 ;; miSofAp_2
-mSfA    miSofA  Napdu   filter;strainer
-mSAfy   maSAfiy N0_Nh   filters;strainers
-mSAf    maSAf   NK      filters;strainers
+miSofA  Napdu   filter;strainer
+maSAfiy N0_Nh   filters;strainers
+maSAf   NK      filters;strainers
 ;; taSofiyap_1
-tSfy    taSofiy NapAt   settlement
+taSofiy NapAt   settlement
 ;; taSofiyap_2
-tSfy    taSofiy NapAt   clearing;liquidation
-tSfy    taSofiy NapAt   elimination series (sports)
+taSofiy NapAt   clearing;liquidation
+taSofiy NapAt   elimination series (sports)
 ;; taSofiyap_3
-tSfy    taSofiy NapAt   purification;filtration
+taSofiy NapAt   purification;filtration
 ;; taSofawiy~_1
-tSfwy   taSofawiy~      Nall    definitive;radical     <pos>taSofawiy~/ADJ</pos>
+taSofawiy~      Nall    definitive;radical     [[taSofawiy~/ADJ]]
 ;; muSAfAp_1
-mSAfA   muSAfA  Nap     good-will;cordiality
+muSAfA  Nap     good-will;cordiality
 ;; taSAfiy_1
-tSAfy   taSAfiy N0_Nh   peaceful settlement;compromise
-tSAf    taSAf   NK      peaceful settlement;compromise
-tSAfy   taSAfiy NAn_Nayn        peaceful settlement;compromise
-tSAfy   taSAfiy NAt     peaceful settlement;compromise
-;; {iSoTifA'_1
-<STfA'  {iSoTifA'       N0_Nh   selection
-<STfA&  {iSoTifA&       Nh      selection
-<STfA}  {iSoTifA}       Nhy     selection
-<STfA'  {iSoTifA'       NAn_Nayn        selection
-<STfA}  {iSoTifA}       Nayn    selection
-<STfA'  {iSoTifA'       NAt     selection
-;; {isotiSofA'_1
-<stSfA' {isotiSofA'     N0_Nh   sequestration;confiscation
-<stSfA& {isotiSofA&     Nh      sequestration;confiscation
-<stSfA} {isotiSofA}     Nhy     sequestration;confiscation
-<stSfA' {isotiSofA'     NAt     sequestrations;confiscations
+taSAfiy N0_Nh   peaceful settlement;compromise
+taSAf   NK      peaceful settlement;compromise
+taSAfiy NAn_Nayn        peaceful settlement;compromise
+taSAfiy NAt     peaceful settlement;compromise
+;; AiSoTifA'_1
+AiSoTifA'       N0_Nh   selection
+AiSoTifA&       Nh      selection
+AiSoTifA}       Nhy     selection
+AiSoTifA'       NAn_Nayn        selection
+AiSoTifA}       Nayn    selection
+AiSoTifA'       NAt     selection
+;; AisotiSofA'_1
+AisotiSofA'     N0_Nh   sequestration;confiscation
+AisotiSofA&     Nh      sequestration;confiscation
+AisotiSofA}     Nhy     sequestration;confiscation
+AisotiSofA'     NAt     sequestrations;confiscations
 ;; SAfiy_1
-SAfy    SAfiy   N0F     net
-SAf     SAf     NK      net
-SAfy    SAfiy   NAn_Nayn        net
-SAfy    SAfiy   Napdu   net
+SAfiy   N0F     net
+SAf     NK      net
+SAfiy   NAn_Nayn        net
+SAfiy   Napdu   net
 ;; SAfiy_2
-SAfy    SAfiy   N0F     pure;clear;sincere     <pos>SAfiy/ADJ</pos>
-SAf     SAf     NK      pure;clear;sincere
-SAfy    SAfiy   NAn_Nayn        pure;clear;sincere
-SAfy    SAfiy   Napdu   pure;clear;sincere
+SAfiy   N0F     pure;clear;sincere     [[SAfiy/ADJ]]
+SAf     NK      pure;clear;sincere
+SAfiy   NAn_Nayn        pure;clear;sincere
+SAfiy   Napdu   pure;clear;sincere
 ;; muSaf~iy_1
-mSfy    muSaf~iy        N0_Nh   receiver in equity;clarifying agent
-mSf     muSaf~  NK      receiver in equity;clarifying agent
-mSfy    muSaf~iy        NAn_Nayn        receiver in equity;clarifying agent
+muSaf~iy        N0_Nh   receiver in equity;clarifying agent
+muSaf~  NK      receiver in equity;clarifying agent
+muSaf~iy        NAn_Nayn        receiver in equity;clarifying agent
 ;; muSaf~aY_1
-mSfY    muSaf~aY        N0      purified;clear     <pos>muSaf~aY/ADJ</pos>
-mSfA    muSaf~A Nhy     purified;clear
-mSfy    muSaf~ay        NAn_Nayn        purified;clear
-mSfA    muSaf~A Napdu   purified;clear
+muSaf~aY        N0      purified;clear     [[muSaf~aY/ADJ]]
+muSaf~A Nhy     purified;clear
+muSaf~ay        NAn_Nayn        purified;clear
+muSaf~A Napdu   purified;clear
 ;; muSAfawAt_1
-mSAfw   muSAfaw NAt     goodwill;cordiality
+muSAfaw NAt     goodwill;cordiality
 ;; muSoTafaY_1
-mSTfY   muSoTafaY       N0      Mustafa;Moustapha
+muSoTafaY       N0      Mustafa;Moustapha
 ;; muSoTafaY_2
-mSTfY   muSoTafaY       N0      chosen;selected     <pos>muSoTafaY/ADJ</pos>
-mSTfA   muSoTafA        Nhy     chosen;selected
-mSTfy   muSoTafay       NAn_Nayn        chosen;selected
-mSTf    muSoTaf Nuwn_Niyn       chosen;selected
-mSTfA   muSoTafA        Napdu   chosen;selected
-mSTfy   muSoTafay       NAt     chosen;selected
+muSoTafaY       N0      chosen;selected     [[muSoTafaY/ADJ]]
+muSoTafA        Nhy     chosen;selected
+muSoTafay       NAn_Nayn        chosen;selected
+muSoTaf Nuwn_Niyn       chosen;selected
+muSoTafA        Napdu   chosen;selected
+muSoTafay       NAt     chosen;selected
 ;; muSoTafaY_3
-mSTfY   muSoTafaY       N0      chosen one (Muhammad)
+muSoTafaY       N0      chosen one (Muhammad)
 ;
 ;--- Sqb
 ;; Saqib-a_1
-Sqb     Saqib   PV      approach
-Sqb     Soqab   IV      approach
+Saqib   PV      approach
+Soqab   IV      approach
 ;; SAqab_1
-SAqb    SAqab   PV      approach;be adjacent
-SAqb    SAqib   IV_yu   approach;be adjacent
+SAqab   PV      approach;be adjacent
+SAqib   IV_yu   approach;be adjacent
 ;; muSAqabap_1
-mSAqb   muSAqab NapAt   affinity
+muSAqab NapAt   affinity
 ;
 ;--- Sqr
 ;; Saqor_1
-Sqr     Saqor   Nprop   Saqr
+Saqor   Nprop   Saqr
 ;; Saqor_2
-Sqr     Saqor   Ndu     falcon;hawk
-Sqwr    Suquwr  N       falcons;hawks
->Sqr    >aSoqur N       falcons;hawks
+Saqor   Ndu     falcon;hawk
+Suquwr  N       falcons;hawks
+>aSoqur N       falcons;hawks
 ;; Saqoriy~_1
-Sqry    Saqoriy~        N/ap    falcon-like;hawk-like     <pos>Saqoriy~/ADJ</pos>
+Saqoriy~        N/ap    falcon-like;hawk-like     [[Saqoriy~/ADJ]]
 ;; Saq~Ar_1
-SqAr    Saq~Ar  Nall    falconer
+Saq~Ar  Nall    falconer
 ;; SAquwr_1
-SAqwr   SAquwr  N       stone ax
+SAquwr  N       stone ax
 ;; SaqarAn_1
-SqrAn   SaqarAn N0      Saqaran
+SaqarAn N0      Saqaran
 ;; SaqarAniy~_1
-SqrAny  SaqarAniy~      N0      Saqarani
+SaqarAniy~      N0      Saqarani
 ;
 ;--- SqE
 ;; SaqaE-a_1
-SqE     SaqaE   PV_intr be eloquent;speak well
-SqE     SoqaE   IV_intr be eloquent;speak well
+SaqaE   PV_intr be eloquent;speak well
+SoqaE   IV_intr be eloquent;speak well
 ;; SaqaE-a_2
-SqE     SaqaE   PV_intr be frozen
-SqE     SoqaE   IV_intr be frozen
+SaqaE   PV_intr be frozen
+SoqaE   IV_intr be frozen
 ;; Saq~aE_1
-SqE     Saq~aE  PV_intr be frozen
-SqE     Saq~iE  IV_intr_yu      be frozen
+Saq~aE  PV_intr be frozen
+Saq~iE  IV_intr_yu      be frozen
 ;; SuqoE_1
-SqE     SuqoE   Ndu     region
->SqAE   >aSoqAE N       regions
+SuqoE   Ndu     region
+>aSoqAE N       regions
 ;; SaqoEap_1
-SqE     SaqoE   Nap     severe cold;cold spell
+SaqoE   Nap     severe cold;cold spell
 ;; SaqiyE_1
-SqyE    SaqiyE  N       frost;ice
+SaqiyE  N       frost;ice
 ;; >aSoqaE_1
->SqE    >aSoqaE Nel     more/most eloquent
+>aSoqaE Nel     more/most eloquent
 ;; miSoqaE_1
-mSqE    miSoqaE N-ap    eloquent;stentorian     <pos>miSoqaE/ADJ</pos>
-mSAqE   maSAqiE Ndip    eloquent;stentorian
+miSoqaE N-ap    eloquent;stentorian     [[miSoqaE/ADJ]]
+maSAqiE Ndip    eloquent;stentorian
 ;; taSoqiyE_1
-tSqyE   taSoqiyE        N/At    deep-freezing
+taSoqiyE        N/At    deep-freezing
 ;; muSaq~aE_1
-mSqE    muSaq~aE        N-ap    frozen     <pos>muSaq~aE/ADJ</pos>
+muSaq~aE        N-ap    frozen     [[muSaq~aE/ADJ]]
 ;; maSoquwE_1
-mSqwE   maSoquwE        N-ap    frozen     <pos>maSoquwE/ADJ</pos>
+maSoquwE        N-ap    frozen     [[maSoquwE/ADJ]]
 ;
 ;--- Sql
 ;; Saqal-u_1
-Sql     Saqal   PV      smooth;polish;refine
-Sql     Soqul   IV      smooth;polish;refine
-;; {inoSaqal_1
-<nSql   {inoSaqal       PV_intr be smooth;be polished;be refined
-nSql    noSaqil IV_intr be smooth;be polished;be refined
+Saqal   PV      smooth;polish;refine
+Soqul   IV      smooth;polish;refine
+;; AinoSaqal_1
+AinoSaqal       PV_intr be smooth;be polished;be refined
+noSaqil IV_intr be smooth;be polished;be refined
 ;; Saqol_1
-Sql     Saqol   N       polishing;burnishing
+Saqol   N       polishing;burnishing
 ;; Saqiyl_1
-Sqyl    Saqiyl  N-ap    polished;burnished
+Saqiyl  N-ap    polished;burnished
 ;; Saq~Al_1
-SqAl    Saq~Al  N       polisher;smoother
+Saq~Al  N       polisher;smoother
 ;; Saq~Al_2
-SqAl    Saq~Al  N0      Saqqal;Sakkal
+Saq~Al  N0      Saqqal;Sakkal
 ;; Sayoqal_1
-Syql    Sayoqal N       polisher;smoother
-SyAql   SayAqil Nap     polishers;smoothers
+Sayoqal N       polisher;smoother
+SayAqil Nap     polishers;smoothers
 ;; miSoqalap_1
-mSql    miSoqal Nap     burnisher
-mSAql   maSAqil Ndip    burnishers
+miSoqal Nap     burnisher
+maSAqil Ndip    burnishers
 ;; maSoquwl_1
-mSqwl   maSoquwl        N-ap    polished;burnished     <pos>maSoquwl/ADJ</pos>
+maSoquwl        N-ap    polished;burnished     [[maSoquwl/ADJ]]
 ;; SiqAlap_1
-SqAl    SiqAl   Nap     tier;terrace;scaffolding
-SqA}l   SaqA}il Ndip    scaffolds;tiers
+SiqAl   Nap     tier;terrace;scaffolding
+SaqA}il Ndip    scaffolds;tiers
 ;
 ;; Siqil~iy~_1
-Sqly    Siqil~iy~       Nall    Sicilian     <pos>Siqil~iy~/NOUN</pos>
-Sqly    Siqil~iy~       Nall    Sicilian     <pos>Siqil~iy~/ADJ</pos>
-Sqly    Siqil~iy~       Nap     Sicily     <pos>Siqil~iy~/NOUN</pos>
+Siqil~iy~       Nall    Sicilian     [[Siqil~iy~/NOUN]]
+Siqil~iy~       Nall    Sicilian     [[Siqil~iy~/ADJ]]
+Siqil~iy~       Nap     Sicily     [[Siqil~iy~/NOUN]]
 ;
 ;--- Sqlb
 ;; Saqolabiy~_1
-Sqlby   Saqolabiy~      N/ap    Slavic     <pos>Saqolabiy~/ADJ</pos>
-SqAlb   SaqAlib Nap     Slavs
+Saqolabiy~      N/ap    Slavic     [[Saqolabiy~/ADJ]]
+SaqAlib Nap     Slavs
 ;
 ;--- Sk
 ;; Sak~-u_1
-Sk      Sak~    PV_V    strike;ring
-Skk     Sakak   PV_C    strike;ring
-Sk      Suk~    IV_V    strike;ring
-Skk     Sokuk   IV_C    strike;ring
-;; {iSoTak~_1
-<STk    {iSoTak~        PV_V    tremble;shake
-<STkk   {iSoTakak       PV_C    tremble;shake
-STk     SoTak~  IV_V    tremble;shake
-STkk    SoTakik IV_C    tremble;shake
+Sak~    PV_V    strike;ring
+Sakak   PV_C    strike;ring
+Suk~    IV_V    strike;ring
+Sokuk   IV_C    strike;ring
+;; AiSoTak~_1
+AiSoTak~        PV_V    tremble;shake
+AiSoTakak       PV_C    tremble;shake
+SoTak~  IV_V    tremble;shake
+SoTakik IV_C    tremble;shake
 ;; Sak~_1
-Sk      Sak~    Ndu     deed;document
-Skwk    Sukuwk  N       deeds;documents
-SkAk    SikAk   N       deeds;documents
-;; {iSoTikAk_1
-<STkAk  {iSoTikAk       N/At    trembling;shaking
+Sak~    Ndu     deed;document
+Sukuwk  N       deeds;documents
+SikAk   N       deeds;documents
+;; AiSoTikAk_1
+AiSoTikAk       N/At    trembling;shaking
 ;; muSoTak~_1
-mSTk    muSoTak~        Nall    trembling;shaking     <pos>muSoTak~/ADJ</pos>
+muSoTak~        Nall    trembling;shaking     [[muSoTak~/ADJ]]
 ;
 ;; Saliyl_1
-Slyl    Saliyl  N       clanging
+Saliyl  N       clanging
 ;; >aSolAl_1
->SlAl   >aSolAl N       vipers
-SlAl    SilAl   N       vipers
+>aSolAl N       vipers
+SilAl   N       vipers
 ;
 ;--- Slb
 ;; Salub-u_1
-Slb     Salub   PV      harden;stiffen
-Slb     Solub   IV      harden;stiffen
+Salub   PV      harden;stiffen
+Solub   IV      harden;stiffen
 ;; Salab-i_1
-Slb     Salab   PV      crucify
-Slb     Solib   IV      crucify
+Salab   PV      crucify
+Solib   IV      crucify
 ;; Sal~ab_1
-Slb     Sal~ab  PV      harden;stiffen;crucify
-Slb     Sal~ib  IV_yu   harden;stiffen;crucify
+Sal~ab  PV      harden;stiffen;crucify
+Sal~ib  IV_yu   harden;stiffen;crucify
 ;; taSal~ab_1
-tSlb    taSal~ab        PV      harden;stiffen
-tSlb    taSal~ab        IV      harden;stiffen
+taSal~ab        PV      harden;stiffen
+taSal~ab        IV      harden;stiffen
 ;; taSAlab_1
-tSAlb   taSAlab PV_intr be crucified
-tSAlb   taSAlab IV_intr be crucified
+taSAlab PV_intr be crucified
+taSAlab IV_intr be crucified
 ;; Sulob_1
-Slb     Sulob   N       heart;core;crux;center;essence
+Sulob   N       heart;core;crux;center;essence
 ;; Sulob_2
-Slb     Sulob   N-ap    hard;solid;robust     <pos>Sulob/ADJ</pos>
+Sulob   N-ap    hard;solid;robust     [[Sulob/ADJ]]
 ;; SalAbap_1
-SlAb    SalAb   Nap     firmness;consistency
+SalAb   Nap     firmness;consistency
 ;; Sulob_3
-Slb     Sulob   N       spinal column
->SlAb   >aSolAb N       spinal columns
+Sulob   N       spinal column
+>aSolAb N       spinal columns
 ;; Sulobiy~_1
-Slby    Sulobiy~        N-ap    dorsal;lumbar     <pos>Sulobiy~/ADJ</pos>
+Sulobiy~        N-ap    dorsal;lumbar     [[Sulobiy~/ADJ]]
 ;; SAlib_1
-SAlb    SAlib   N       keel
-SwAlb   SawAlib Ndip    keels
+SAlib   N       keel
+SawAlib Ndip    keels
 ;; taSal~ub_1
-tSlb    taSal~ub        N/At    hardness;hardening;sclerosis
+taSal~ub        N/At    hardness;hardening;sclerosis
 ;; taSal~ubiy~_1
-tSlby   taSal~ubiy~     N-ap    cataleptic;sclerous     <pos>taSal~ubiy~/ADJ</pos>
+taSal~ubiy~     N-ap    cataleptic;sclerous     [[taSal~ubiy~/ADJ]]
 ;; mutaSal~ib_1
-mtSlb   mutaSal~ib      Nall    inflexible     <pos>mutaSal~ib/ADJ</pos>
+mutaSal~ib      Nall    inflexible     [[mutaSal~ib/ADJ]]
 ;; Salob_1
-Slb     Salob   N       crucifixion
+Salob   N       crucifixion
 ;; Saliyb_1
-Slyb    Saliyb  Ndu     cross;crucifix
-SlbAn   SulobAn N       crosses;crucifixes
+Saliyb  Ndu     cross;crucifix
+SulobAn N       crosses;crucifixes
 ;; Saliybiy~_1
-Slyby   Saliybiy~       N-ap    crusade;cross-like     <pos>Saliybiy~/ADJ</pos>
+Saliybiy~       N-ap    crusade;cross-like     [[Saliybiy~/ADJ]]
 ;; Saliybiy~ap_1
-Slyby   Saliybiy~       NapAt   crusade;campaign     <pos>Saliybiy~/NOUN</pos>
+Saliybiy~       NapAt   crusade;campaign     [[Saliybiy~/NOUN]]
 ;; Salobuwt_1
-Slbwt   Salobuwt        N       crucifix
+Salobuwt        N       crucifix
 ;; maSoluwb_1
-mSlwb   maSoluwb        N-ap    crucified     <pos>maSoluwb/ADJ</pos>
+maSoluwb        N-ap    crucified     [[maSoluwb/ADJ]]
 ;; taSoliyb_1
-tSlyb   taSoliyb        N/At    crossing;intersecting
+taSoliyb        N/At    crossing;intersecting
 ;; muSal~abap_1
-mSlb    muSal~ab        NapAt   crosspiece;crossbar
+muSal~ab        NapAt   crosspiece;crossbar
 ;; taSAlub_1
-tSAlb   taSAlub N/At    crossing;intersecting
+taSAlub N/At    crossing;intersecting
 ;
 ;--- Slt
 ;; Salut-u_1
-Slt     Salut   PV-t_intr       be glossy;be shining
-Slt     Solut   IV_intr be glossy;be shining
+Salut   PV-t_intr       be glossy;be shining
+Solut   IV_intr be glossy;be shining
 ;; >aSolat_1
->Slt    >aSolat PV-t    unsheathe
-Slt     Solit   IV_yu   unsheathe
-Slt     Solat   IV_Pass_yu      be unsheathed
+>aSolat PV-t    unsheathe
+Solit   IV_yu   unsheathe
+Solat   IV_Pass_yu      be unsheathed
 ;; Suluwtap_1
-Slwt    Suluwt  Nap     glossy;shining
+Suluwt  Nap     glossy;shining
 ;
 ;--- Slj
 ;; Sul~aj_1
-Slj     Sul~aj  N       cocoon
-Slj     Sul~aj  NapAt   cocoon
+Sul~aj  N       cocoon
+Sul~aj  NapAt   cocoon
 ;
 ;--- SlH
 ;; SaluH-u_1
-SlH     SaluH   PV_intr be suitable;be fitting;be valid
-SlH     SoluH   IV_intr be suitable;be fitting;be valid
+SaluH   PV_intr be suitable;be fitting;be valid
+SoluH   IV_intr be suitable;be fitting;be valid
 ;; Sal~aH_1
-SlH     Sal~aH  PV      put in order;repair
-SlH     Sal~iH  IV_yu   put in order;repair
+Sal~aH  PV      put in order;repair
+Sal~iH  IV_yu   put in order;repair
 ;; SAlaH_1
-SAlH    SAlaH   PV      reconcile;compromise
-SAlH    SAliH   IV_yu   reconcile;compromise
+SAlaH   PV      reconcile;compromise
+SAliH   IV_yu   reconcile;compromise
 ;; >aSolaH_1
->SlH    >aSolaH PV      put in order;repair
-SlH     SoliH   IV_yu   put in order;repair
-SlH     SolaH   IV_Pass_yu      be put in order;be repaired
+>aSolaH PV      put in order;repair
+SoliH   IV_yu   put in order;repair
+SolaH   IV_Pass_yu      be put in order;be repaired
 ;; taSAlaH_1
-tSAlH   taSAlaH PV_intr be reconciled
-tSAlH   taSAlaH IV_intr be reconciled
-;; {inoSalaH_1
-<nSlH   {inoSalaH       PV_intr be arranged;be put in order
-nSlH    noSaliH IV_intr be arranged;be put in order
-;; {iSoTalaH_1
-<STlH   {iSoTalaH       PV      concur;agree
-STlH    SoTaliH IV      concur;agree
-;; {isotaSolaH_1
-<stSlH  {isotaSolaH     PV      deem suitable;put in order
-stSlH   sotaSoliH       IV      deem suitable;put in order
+taSAlaH PV_intr be reconciled
+taSAlaH IV_intr be reconciled
+;; AinoSalaH_1
+AinoSalaH       PV_intr be arranged;be put in order
+noSaliH IV_intr be arranged;be put in order
+;; AiSoTalaH_1
+AiSoTalaH       PV      concur;agree
+SoTaliH IV      concur;agree
+;; AisotaSolaH_1
+AisotaSolaH     PV      deem suitable;put in order
+sotaSoliH       IV      deem suitable;put in order
 ;; SuloH_1
-SlH     SuloH   N       peace;reconciliation
+SuloH   N       peace;reconciliation
 ;; SuloHiy~_1
-SlHy    SuloHiy~        N-ap    conciliatory     <pos>SuloHiy~/ADJ</pos>
+SuloHiy~        N-ap    conciliatory     [[SuloHiy~/ADJ]]
 ;; SalAH_1
-SlAH    SalAH   N0      Salah
+SalAH   N0      Salah
 ;; SalAH_2
-SlAH    SalAH   N       proper;good condition
+SalAH   N       proper;good condition
 ;; SalAHiy~ap_1
-SlAHy   SalAHiy~        NapAt   practicability;viability;competence     <pos>SalAHiy~/NOUN</pos>
+SalAHiy~        NapAt   practicability;viability;competence     [[SalAHiy~/NOUN]]
 ;; SuluwHiy~ap_1
-SlwHy   SuluwHiy~       NapAt   practicability;viability;competence     <pos>SuluwHiy~/NOUN</pos>
+SuluwHiy~       NapAt   practicability;viability;competence     [[SuluwHiy~/NOUN]]
 ;; >aSolaH_2
->SlH    >aSolaH Nel     more/most convenient;better/best
+>aSolaH Nel     more/most convenient;better/best
 ;; maSolaH_1
-mSlH    maSolaH N       garage
+maSolaH N       garage
 ;; maSolaHap_1
-mSlH    maSolaH Napdu   interest;advantage;agency
-mSAlH   maSAliH Ndip    interests;advantages;agencies
+maSolaH Napdu   interest;advantage;agency
+maSAliH Ndip    interests;advantages;agencies
 ;; maSolaHiy~_1
-mSlHy   maSolaHiy~      N-ap    administrational;governmental     <pos>maSolaHiy~/ADJ</pos>
+maSolaHiy~      N-ap    administrational;governmental     [[maSolaHiy~/ADJ]]
 ;; taSoliyH_1
-tSlyH   taSoliyH        N/At    repair
+taSoliyH        N/At    repair
 ;; muSAlaHap_1
-mSAlH   muSAlaH NapAt   conciliation;compromise
+muSAlaH NapAt   conciliation;compromise
 ;; <iSolAH_1
-<SlAH   <iSolAH N/At    reform;restoration
+<iSolAH N/At    reform;restoration
 ;; <iSolAHAt_1
-<SlAH   <iSolAH NAt     corrections;amendments
+<iSolAH NAt     corrections;amendments
 ;; <iSolAHiy~_1
-<SlAHy  <iSolAHiy~      N-ap    reformative;corrective     <pos><iSolAHiy~/ADJ</pos>
+<iSolAHiy~      N-ap    reformative;corrective     [[<iSolAHiy~/ADJ]]
 ;; <iSolAHiy~_2
-<SlAHy  <iSolAHiy~      Nall    reformer;revisionist     <pos><iSolAHiy~/ADJ</pos>
+<iSolAHiy~      Nall    reformer;revisionist     [[<iSolAHiy~/ADJ]]
 ;; <iSolAHiy~ap_1
-<SlAHy  <iSolAHiy~      NapAt   reformism;rehabilitation     <pos><iSolAHiy~/NOUN</pos>
+<iSolAHiy~      NapAt   reformism;rehabilitation     [[<iSolAHiy~/NOUN]]
 ;; taSAluH_1
-tSAlH   taSAluH N/At    reconciliation;settlement
-;; {iSoTilAH_1
-<STlAH  {iSoTilAH       N/At    convention;technical term
-;; {iSoTilAHiy~_1
-<STlAHy {iSoTilAHiy~    N-ap    conventional;technical     <pos>{iSoTilAHiy~/ADJ</pos>
-;; {isotiSolAH_1
-<stSlAH {isotiSolAH     N/At    reclamation;cultivation
+taSAluH N/At    reconciliation;settlement
+;; AiSoTilAH_1
+AiSoTilAH       N/At    convention;technical term
+;; AiSoTilAHiy~_1
+AiSoTilAHiy~    N-ap    conventional;technical     [[AiSoTilAHiy~/ADJ]]
+;; AisotiSolAH_1
+AisotiSolAH     N/At    reclamation;cultivation
 ;; SAliH_1
-SAlH    SAliH   N0      Salih;Saleh
+SAliH   N0      Salih;Saleh
 ;; SAliH_2
-SAlH    SAliH   N-ap    suitable;applicable
+SAliH   N-ap    suitable;applicable
 ;; SAliH_3
-SAlH    SAliH   N       advantage;interest
-SwAlH   SawAliH Ndip    advantages;interests
+SAliH   N       advantage;interest
+SawAliH Ndip    advantages;interests
 ;; SawAliHap_1
-SwAlH   SawAliH Nap     Sawalheh
+SawAliH Nap     Sawalheh
 ;; SAliH_4
-SAlH    SAliH   Nall    pious;upright     <pos>SAliH/ADJ</pos>
-SlAH    Sul~AH  N       pious;upright
-SlHA'   SulaHA' N0_Nh   pious;upright
-SlHA&   SulaHA& Nh      pious;upright
-SlHA}   SulaHA} Nhy     pious;upright
+SAliH   Nall    pious;upright     [[SAliH/ADJ]]
+Sul~AH  N       pious;upright
+SulaHA' N0_Nh   pious;upright
+SulaHA& Nh      pious;upright
+SulaHA} Nhy     pious;upright
 ;; SAliHAt_1
-SAlH    SAliH   NAt     good deeds
+SAliH   NAt     good deeds
 ;; muSal~iH_1
-mSlH    muSal~iH        Nall    repairman
+muSal~iH        Nall    repairman
 ;; muSAliH_1
-mSAlH   muSAliH Nall    peacemaker;conciliator
-mSlH    muSoliH Nall    peacemaker;conciliator
+muSAliH Nall    peacemaker;conciliator
+muSoliH Nall    peacemaker;conciliator
 ;; mutaSAliH_1
-mtSAlH  mutaSAliH       Nall    at peace;reconciled     <pos>mutaSAliH/ADJ</pos>
+mutaSAliH       Nall    at peace;reconciled     [[mutaSAliH/ADJ]]
 ;; muSoTalaH_1
-mSTlH   muSoTalaH       N/At    technical term;terminology
+muSoTalaH       N/At    technical term;terminology
 ;
 ;--- Slx
 ;; >aSolax_1
->Slx    >aSolax Nel     deaf     <pos>>aSolax/ADJ</pos>
-ASlx    >aSolax Nel     deaf
-SlxA'   SaloxA' N0_Nh   deaf
-SlxA&   SaloxA& Nh      deaf
-SlxA}   SaloxA} Nhy     deaf
+>aSolax Nel     deaf     [[>aSolax/ADJ]]
+>aSolax Nel     deaf
+SaloxA' N0_Nh   deaf
+SaloxA& Nh      deaf
+SaloxA} Nhy     deaf
 ;
 ;--- Sld
 ;; Salad-u_1
-Sld     Salad   PV_intr be solid;be compact
-Sld     Solud   IV_intr be solid;be compact
+Salad   PV_intr be solid;be compact
+Solud   IV_intr be solid;be compact
 ;; Sal~ad_1
-Sld     Sal~ad  PV      harden
-Sld     Sal~id  IV_yu   harden
+Sal~ad  PV      harden
+Sal~id  IV_yu   harden
 ;; >aSolad_1
->Sld    >aSolad PV_intr be solid;be compact
-Sld     Solid   IV_intr_yu      be solid;be compact
+>aSolad PV_intr be solid;be compact
+Solid   IV_intr_yu      be solid;be compact
 ;; Salod_1
-Sld     Salod   N-ap    firm;solid
->SlAd   >aSolAd N       firm;solid
+Salod   N-ap    firm;solid
+>aSolAd N       firm;solid
 ;; SalAdap_1
-SlAd    SalAd   Nap     solidity;hardness;resistance
+SalAd   Nap     solidity;hardness;resistance
 ;; Suluwdap_1
-Slwd    Suluwd  Nap     solidity;hardness;resistance
+Suluwd  Nap     solidity;hardness;resistance
 ;; taSoliyd_1
-tSlyd   taSoliyd        N/At    tempering
+taSoliyd        N/At    tempering
 ;; muSal~ad_1
-mSld    muSal~ad        N-ap    tempered     <pos>muSal~ad/ADJ</pos>
+muSal~ad        N-ap    tempered     [[muSal~ad/ADJ]]
 ;
 ;--- SlS
 ;; SaloSap_1
-SlS     SaloS   NapAt   sauce;salsa
+SaloS   NapAt   sauce;salsa
 ;
 ;--- SlSl
 ;; SaloSal_1
-SlSl    SaloSal PV      jingle;rattle;clink
-SlSl    SaloSil IV_yu   jingle;rattle;clink
+SaloSal PV      jingle;rattle;clink
+SaloSil IV_yu   jingle;rattle;clink
 ;; taSaloSal_1
-tSlSl   taSaloSal       PV      jingle;rattle;clink
-tSlSl   taSaloSal       IV      jingle;rattle;clink
+taSaloSal       PV      jingle;rattle;clink
+taSaloSal       IV      jingle;rattle;clink
 ;; SaloSalap_1
-SlSl    SaloSal Nap     jingle;rattle;clink
+SaloSal Nap     jingle;rattle;clink
 ;; SaloSAl_1
-SlSAl   SaloSAl N       dry clay
+SaloSAl N       dry clay
 ;; muSaloSil_1
-mSlSl   muSaloSil       N-ap    noisy;resounding     <pos>muSaloSil/ADJ</pos>
+muSaloSil       N-ap    noisy;resounding     [[muSaloSil/ADJ]]
 ;
 ;--- SlTH
 ;; muSaloTaH_1
-mSlTH   muSaloTaH       N-ap    shallow;shoal;flat
+muSaloTaH       N-ap    shallow;shoal;flat
 ;
 ;--- SlE
 ;; SaliE-a_1
-SlE     SaliE   PV_intr be bald
-SlE     SolaE   IV_intr be bald
+SaliE   PV_intr be bald
+SolaE   IV_intr be bald
 ;; SalaE_1
-SlE     SalaE   N       baldness
+SalaE   N       baldness
 ;; SaloEap_1
-SlE     SaloE   Nap     bald spot;bald head
+SaloE   Nap     bald spot;bald head
 ;; >aSolaE_1
->SlE    >aSolaE Nel     bald
-SlEA'   SaloEA' N0_Nh   bald
-SlEA&   SaloEA& Nh      bald
-SlEA}   SaloEA} Nhy     bald
-SlE     SuloE   N       bald
-SlEAn   SuloEAn N       bald
+>aSolaE Nel     bald
+SaloEA' N0_Nh   bald
+SaloEA& Nh      bald
+SaloEA} Nhy     bald
+SuloE   N       bald
+SuloEAn N       bald
 ;
 ;--- SlEm
 ;; SlEm_1
-SlEm    SlEm    FW      Peace Be Upon Him     <pos>SlEm/ABBREV</pos>
+SlEm    FW      Peace Be Upon Him     [[SlEm/ABBREV]]
 ;
 ;--- Slf
 ;; Salif-a_1
-Slf     Salif   PV      brag
-Slf     Solaf   IV      brag
+Salif   PV      brag
+Solaf   IV      brag
 ;; taSal~af_1
-tSlf    taSal~af        PV      brag
-tSlf    taSal~af        IV      brag
+taSal~af        PV      brag
+taSal~af        IV      brag
 ;; Salaf_1
-Slf     Salaf   N       bragging
+Salaf   N       bragging
 ;; Salif_1
-Slf     Salif   N/ap    boastful     <pos>Salif/ADJ</pos>
-SlfA'   SulafA' N0_Nh   boastful
-SlfA&   SulafA& Nh      boastful
-SlfA}   SulafA} Nhy     boastful
+Salif   N/ap    boastful     [[Salif/ADJ]]
+SulafA' N0_Nh   boastful
+SulafA& Nh      boastful
+SulafA} Nhy     boastful
 ;; taSal~uf_1
-tSlf    taSal~uf        N/At    boasting;conceit
+taSal~uf        N/At    boasting;conceit
 ;; mutaSal~if_1
-mtSlf   mutaSal~if      Nall    boastful;conceited     <pos>mutaSal~if/ADJ</pos>
+mutaSal~if      Nall    boastful;conceited     [[mutaSal~if/ADJ]]
 ;
 ;--- Slw
 ;; Sal~aY_1
-SlY     Sal~aY  PV_0    pray;worship
-SlA     Sal~A   PV_h    pray;worship
-Sly     Sal~ay  PV_Atn  pray;worship
-Sl      Sal~    PV_ttAw pray;worship
-Sly     Sal~iy  IV_0hAnn_yu     pray;worship
-Sl      Sal~    IV_0hwnyn_yu    pray;worship
-SlY     Sal~aY  IV_0_Pass_yu    be worshiped;be prayed
-Sly     Sal~ay  IV_Ann_Pass_yu  be worshiped;be prayed
+Sal~aY  PV_0    pray;worship
+Sal~A   PV_h    pray;worship
+Sal~ay  PV_Atn  pray;worship
+Sal~    PV_ttAw pray;worship
+Sal~iy  IV_0hAnn_yu     pray;worship
+Sal~    IV_0hwnyn_yu    pray;worship
+Sal~aY  IV_0_Pass_yu    be worshiped;be prayed
+Sal~ay  IV_Ann_Pass_yu  be worshiped;be prayed
 ;; SalAp_1
-SlA     SalA    Napdu   prayer;salat
-Slw     Sal`w   Nap     prayer;salat
-Slw     Salaw   NAt     prayers
+SalA    Napdu   prayer;salat
+Sal`w   Nap     prayer;salat
+Salaw   NAt     prayers
 ; Somali president Abd AlqAsim SlAt Hsn
 ;; SalAt_1
-SlAt    SalAt   Nprop   Salat
+SalAt   Nprop   Salat
 ;; muSal~iy_1
-mSly    muSal~iy        N0F_Nh  praying;worshipping
-mSl     muSal~  NK      praying;worshipping
-mSly    muSal~iy        NAn_Nayn        praying;worshipping
-mSl     muSal~  Nuwn_Niyn       people praying;people worshipping
-mSly    muSal~iy        NapAt   praying;worshipping
+muSal~iy        N0F_Nh  praying;worshipping
+muSal~  NK      praying;worshipping
+muSal~iy        NAn_Nayn        praying;worshipping
+muSal~  Nuwn_Niyn       people praying;people worshipping
+muSal~iy        NapAt   praying;worshipping
 ;; muSal~aY_1
-mSlY    muSal~aY        N0      place of prayer;oratory
-mSlA    muSal~A Nhy     place of prayer;oratory
-mSly    muSal~ay        NAn_Nayn        places of prayer;oratory
-mSly    muSal~ay        NAt     places of prayer;oratory
-mSlA    muSal~A Napdu   place of prayer;oratory
+muSal~aY        N0      place of prayer;oratory
+muSal~A Nhy     place of prayer;oratory
+muSal~ay        NAn_Nayn        places of prayer;oratory
+muSal~ay        NAt     places of prayer;oratory
+muSal~A Napdu   place of prayer;oratory
 ;
 ;--- Slwn
 ;; SAluwn_1
-SAlwn   SAluwn  NduAt   salon;parlor
-Slwn    Saluwn  NduAt   salon;parlor
+SAluwn  NduAt   salon;parlor
+Saluwn  NduAt   salon;parlor
 ;
 ;--- Sly
 ;; SalaY-i_1
-SlY     SalaY   PV_0    roast
-SlA     SalA    PV_h    roast
-Sly     Salay   PV_Atn  roast
-Sl      Sal     PV_ttAw roast
-Sly     Soliy   IV_0hAnn        roast
-Sl      Sol     IV_0hwnyn       roast
-SlY     SolaY   IV_0_Pass_yu    be roasted
+SalaY   PV_0    roast
+SalA    PV_h    roast
+Salay   PV_Atn  roast
+Sal     PV_ttAw roast
+Soliy   IV_0hAnn        roast
+Sol     IV_0hwnyn       roast
+SolaY   IV_0_Pass_yu    be roasted
 ;; Saliy-a_1
-Sly     Saliy   PV_no-w get burned
-Sl      Sal     PV_w    get burned
-SlY     SolaY   IV_0    get burned
-Sly     Solay   IV_Ann  get burned
-Sl      Sola    IV_0hwnyn       get burned
+Saliy   PV_no-w get burned
+Sal     PV_w    get burned
+SolaY   IV_0    get burned
+Solay   IV_Ann  get burned
+Sola    IV_0hwnyn       get burned
 ;; >aSolaY_1
->SlY    >aSolaY PV_0    burn
->SlA    >aSolA  PV_h    burn
->Sly    >aSolay PV_Atn  burn
->Sl     >aSol   PV_ttAw burn
-Sly     Soliy   IV_0hAnn_yu     burn
-Sl      Sol     IV_0hwnyn_yu    burn
-SlY     SolaY   IV_0_Pass_yu    be burned
-Sly     Solay   IV_Ann_Pass_yu  be burned
+>aSolaY PV_0    burn
+>aSolA  PV_h    burn
+>aSolay PV_Atn  burn
+>aSol   PV_ttAw burn
+Soliy   IV_0hAnn_yu     burn
+Sol     IV_0hwnyn_yu    burn
+SolaY   IV_0_Pass_yu    be burned
+Solay   IV_Ann_Pass_yu  be burned
 ;; taSal~aY_1
-tSlY    taSal~aY        PV_0    warm up
-tSlA    taSal~A PV_h    warm up
-tSly    taSal~ay        PV_Atn  warm up
-tSl     taSal~  PV_ttAw warm up
-tSlY    taSal~aY        IV_0    warm up
-tSlA    taSal~A IV_h    warm up
-tSly    taSal~ay        IV_Ann  warm up
-tSl     taSal~  IV_0hwnyn       warm up
-;; {iSoTalaY_1
-<STlY   {iSoTalaY       PV_0    get burned
-<STlA   {iSoTalA        PV_h    get burned
-<STly   {iSoTalay       PV_Atn  get burned
-<STl    {iSoTal PV_ttAw get burned
-STly    SoTaliy IV_0hAnn        get burned
-STl     SoTal   IV_0hwnyn       get burned
-STlY    SoTalaY IV_0    get burned
-;; {iSoTilA'_1
-<STlA'  {iSoTilA'       N0_Nh   burning
-<STlA&  {iSoTilA&       Nh      burning
-<STlA}  {iSoTilA}       Nhy     burning
-<STlA'  {iSoTilA'       NAn_Nayn        burning
-<STlA}  {iSoTilA}       Nayn    burning
-<STlA'  {iSoTilA'       NAt     burning
+taSal~aY        PV_0    warm up
+taSal~A PV_h    warm up
+taSal~ay        PV_Atn  warm up
+taSal~  PV_ttAw warm up
+taSal~aY        IV_0    warm up
+taSal~A IV_h    warm up
+taSal~ay        IV_Ann  warm up
+taSal~  IV_0hwnyn       warm up
+;; AiSoTalaY_1
+AiSoTalaY       PV_0    get burned
+AiSoTalA        PV_h    get burned
+AiSoTalay       PV_Atn  get burned
+AiSoTal PV_ttAw get burned
+SoTaliy IV_0hAnn        get burned
+SoTal   IV_0hwnyn       get burned
+SoTalaY IV_0    get burned
+;; AiSoTilA'_1
+AiSoTilA'       N0_Nh   burning
+AiSoTilA&       Nh      burning
+AiSoTilA}       Nhy     burning
+AiSoTilA'       NAn_Nayn        burning
+AiSoTilA}       Nayn    burning
+AiSoTilA'       NAt     burning
 ;; muSoTalaY_1
-mSTlY   muSoTalaY       N0      fireplace;foyer
-mSTlA   muSoTalA        Nhy     fireplace;foyer
+muSoTalaY       N0      fireplace;foyer
+muSoTalA        Nhy     fireplace;foyer
 ;
 ;--- Sm
 ;; Sam~-u_1
-Sm      Sam~    PV_V    plug;stop up
-Smm     Samam   PV_C    plug;stop up
-Sm      Sum~    IV_V    plug;stop up
-Smm     Somum   IV_C    plug;stop up
+Sam~    PV_V    plug;stop up
+Samam   PV_C    plug;stop up
+Sum~    IV_V    plug;stop up
+Somum   IV_C    plug;stop up
 ;; Sam~am_1
-Smm     Sam~am  PV_intr be determined;be persistent
-Smm     Sam~im  IV_intr_yu      be determined;be persistent
+Sam~am  PV_intr be determined;be persistent
+Sam~im  IV_intr_yu      be determined;be persistent
 ;; >aSam~_1
->Sm     >aSam~  PV_V    deafen;make deaf;become deaf
->Smm    >aSomam PV_C    deafen;make deaf;become deaf
-Sm      Sim~    IV_V_yu deafen;make deaf;become deaf
-Smm     Somim   IV_C_yu deafen;make deaf;become deaf
+>aSam~  PV_V    deafen;make deaf;become deaf
+>aSomam PV_C    deafen;make deaf;become deaf
+Sim~    IV_V_yu deafen;make deaf;become deaf
+Somim   IV_C_yu deafen;make deaf;become deaf
 ;; taSAm~_1
-tSAm    taSAm~  PV_V    give a deaf ear to
-tSAmm   taSAmam PV_C    give a deaf ear to
-tSAm    taSAm~  IV_V    give a deaf ear to
-tSAmm   taSAmim IV_C    give a deaf ear to
+taSAm~  PV_V    give a deaf ear to
+taSAmam PV_C    give a deaf ear to
+taSAm~  IV_V    give a deaf ear to
+taSAmim IV_C    give a deaf ear to
 ;; Sim~ap_1
-Sm      Sim~    Nap     plug;stopper
+Sim~    Nap     plug;stopper
 ;; Samam_1
-Smm     Samam   N       deafness
+Samam   N       deafness
 ;; SimAm_1
-SmAm    SimAm   NduAt   plug;valve;stopper
->Sm     >aSim~  Nap     plugs;valves;stoppers
+SimAm   NduAt   plug;valve;stopper
+>aSim~  Nap     plugs;valves;stoppers
 ;; SimAmap_1
-SmAm    SimAm   Nap     embolism
-SmA}m   SamA}im Ndip    embolisms
+SimAm   Nap     embolism
+SamA}im Ndip    embolisms
 ;; SimAmap_2
-SmAm    SimAm   Napdu   tube
+SimAm   Napdu   tube
 ;; Samiym_1
-Smym    Samiym  N       depth;innermost
+Samiym  N       depth;innermost
 ;; Samiym_2
-Smym    Samiym  N-ap    true;sincere     <pos>Samiym/ADJ</pos>
+Samiym  N-ap    true;sincere     [[Samiym/ADJ]]
 ;; Samiymiy~_1
-Smymy   Samiymiy~       N-ap    cordial;intimate     <pos>Samiymiy~/ADJ</pos>
+Samiymiy~       N-ap    cordial;intimate     [[Samiymiy~/ADJ]]
 ;; Samiymiy~ap_1
-Smymy   Samiymiy~       Nap     cordiality;intimacy     <pos>Samiymiy~/NOUN</pos>
+Samiymiy~       Nap     cordiality;intimacy     [[Samiymiy~/NOUN]]
 ;; >aSam~_2
->Sm     >aSam~  Nel     deaf;plugged     <pos>>aSam~/ADJ</pos>
-ASm     >aSam~  Nel     deaf;plugged
-SmA'    Sam~A'  N0_Nh   deaf;plugged
-SmA&    Sam~A&  Nh      deaf;plugged
-SmA}    Sam~A}  Nhy     deaf;plugged
-Sm      Sum~    N       deaf;plugged
-SmAn    Sum~An  N       deaf;plugged
+>aSam~  Nel     deaf;plugged     [[>aSam~/ADJ]]
+>aSam~  Nel     deaf;plugged
+Sam~A'  N0_Nh   deaf;plugged
+Sam~A&  Nh      deaf;plugged
+Sam~A}  Nhy     deaf;plugged
+Sum~    N       deaf;plugged
+Sum~An  N       deaf;plugged
 ;; taSomiym_1
-tSmym   taSomiym        N/At    determination;perseverance
+taSomiym        N/At    determination;perseverance
 ;; taSomiym_2
-tSmym   taSomiym        Ndu     plan;sketch;design
-tSAmym  taSAmiym        Ndip    plans;sketches;designs
+taSomiym        Ndu     plan;sketch;design
+taSAmiym        Ndip    plans;sketches;designs
 ;; muSam~im_1
-mSmm    muSam~im        Nall    determined;resolute     <pos>muSam~im/ADJ</pos>
+muSam~im        Nall    determined;resolute     [[muSam~im/ADJ]]
 ;; muSam~im_2
-mSmm    muSam~im        Nall    designer;stylist
+muSam~im        Nall    designer;stylist
 ;; muSam~am_1
-mSmm    muSam~am        N-ap    designed;resolved     <pos>muSam~am/ADJ</pos>
+muSam~am        N-ap    designed;resolved     [[muSam~am/ADJ]]
 ;; <iSomAm_1
-<SmAm   <iSomAm N/At    obstruction;deafening
+<iSomAm N/At    obstruction;deafening
 ;; mutaSAm~_1
-mtSAm   mutaSAm~        Nall    deaf to     <pos>mutaSAm~/ADJ</pos>
+mutaSAm~        Nall    deaf to     [[mutaSAm~/ADJ]]
 ;
 ;--- Smt
 ;; Samat-u_1
-Smt     Samat   PV-t_intr       be silent;be quiet
-Smt     Somut   IV_intr be silent;be quiet
+Samat   PV-t_intr       be silent;be quiet
+Somut   IV_intr be silent;be quiet
 ;; Sam~at_1
-Smt     Sam~at  PV-t    silence
-Smt     Sam~it  IV_yu   silence
+Sam~at  PV-t    silence
+Sam~it  IV_yu   silence
 ;; >aSomat_1
->Smt    >aSomat PV-t    silence
-Smt     Somit   IV_yu   silence
-Smt     Somat   IV_Pass_yu      be silenced
+>aSomat PV-t    silence
+Somit   IV_yu   silence
+Somat   IV_Pass_yu      be silenced
 ;; Samot_1
-Smt     Samot   N       silence
+Samot   N       silence
 ;; Sumuwt_1
-Smwt    Sumuwt  N       silence;silent
+Sumuwt  N       silence;silent
 ;; Samit_1
-Smt     Samit   N-ap    silent     <pos>Samit/ADJ</pos>
+Samit   N-ap    silent     [[Samit/ADJ]]
 ;; SAmit_1
-SAmt    SAmit   N/ap    silent     <pos>SAmit/ADJ</pos>
-SwAmt   SawAmit Ndip    silent
+SAmit   N/ap    silent     [[SAmit/ADJ]]
+SawAmit Ndip    silent
 ;; muSomat_1
-mSmt    muSomat N-ap    plain;uniform     <pos>muSomat/ADJ</pos>
+muSomat N-ap    plain;uniform     [[muSomat/ADJ]]
 ;; muSomat_2
-mSmt    muSomat N-ap    solid;massive     <pos>muSomat/ADJ</pos>
+muSomat N-ap    solid;massive     [[muSomat/ADJ]]
 ;
 ;--- Smx
 ;; SimAx_1
-SmAx    SimAx   Ndu     ear canal;eardrum
->Smx    >aSomix Nap     ear canals;eardrums
+SimAx   Ndu     ear canal;eardrum
+>aSomix Nap     ear canals;eardrums
 ;
 ;--- Smd
 ;; Samad-u_1
-Smd     Samad   PV      resist;be steadfast
-Smd     Somud   IV      resist;be steadfast
+Samad   PV      resist;be steadfast
+Somud   IV      resist;be steadfast
 ;; Samod_1
-Smd     Samod   N       blocking;plugging
+Samod   N       blocking;plugging
 ;; Samad_1
-Smd     Samad   N       everlasting (God)
+Samad   N       everlasting (God)
 ;; SamadAniy~_1
-SmdAny  SamadAniy~      N-ap    everlasting (God)     <pos>SamadAniy~/ADJ</pos>
+SamadAniy~      N-ap    everlasting (God)     [[SamadAniy~/ADJ]]
 ;; Sumuwd_1
-Smwd    Sumuwd  N       steadfastness;determination
+Sumuwd  N       steadfastness;determination
 ;; Samuwd_1
-Smwd    Samuwd  N       holding steady;remaining stable     <pos>Samuwd/ADJ</pos>
+Samuwd  N       holding steady;remaining stable     [[Samuwd/ADJ]]
 ;; SAmid_1
-SAmd    SAmid   Nall    steadfast;resistant     <pos>SAmid/ADJ</pos>
+SAmid   Nall    steadfast;resistant     [[SAmid/ADJ]]
 ;; SimAd_1
-SmAd    SimAd   N       cover
-SmA}d   SamA}id Ndip    covers
+SimAd   N       cover
+SamA}id Ndip    covers
 ;; SimAdap_1
-SmAd    SimAd   Nap     headcloth
-SmA}d   SamA}id Ndip    headcloths
+SimAd   Nap     headcloth
+SamA}id Ndip    headcloths
 ;
 ;--- SmSm
 ;; SamoSam_1
-SmSm    SamoSam PV      persist
-SmSm    SamoSim IV_yu   persist
+SamoSam PV      persist
+SamoSim IV_yu   persist
 ;; SamoSamap_1
-SmSm    SamoSam Nap     persistence
+SamoSam Nap     persistence
 ;; muSamoSim_1
-mSmSm   muSamoSim       Nall    persisting;persistent     <pos>muSamoSim/ADJ</pos>
+muSamoSim       Nall    persisting;persistent     [[muSamoSim/ADJ]]
 ;
 ;--- Smg
 ;; Sam~ag_1
-Smg     Sam~ag  PV      paste;glue
-Smg     Sam~ig  IV_yu   paste;glue
+Sam~ag  PV      paste;glue
+Sam~ig  IV_yu   paste;glue
 ;; >aSomag_1
->Smg    >aSomag PV      paste;glue
-Smg     Somig   IV_yu   paste;glue
-Smg     Somag   IV_Pass_yu      be pasted;be glued
+>aSomag PV      paste;glue
+Somig   IV_yu   paste;glue
+Somag   IV_Pass_yu      be pasted;be glued
 ;; Samog_1
-Smg     Samog   N       gum;resin
-Smwg    Sumuwg  N       gum;resins
+Samog   N       gum;resin
+Sumuwg  N       gum;resins
 ;; Samogiy~_1
-Smgy    Samogiy~        N-ap    gum-like;resinous     <pos>Samogiy~/ADJ</pos>
+Samogiy~        N-ap    gum-like;resinous     [[Samogiy~/ADJ]]
 ;; taSomiyg_1
-tSmyg   taSomiyg        N/At    gumming;resinification
+taSomiyg        N/At    gumming;resinification
 ;
 ;--- Sml
 ;; Samal-u_1
-Sml     Samal   PV      stand firm
-Sml     Somul   IV      stand firm
+Samal   PV      stand firm
+Somul   IV      stand firm
 ;; >aSomal_1
->Sml    >aSomal PV      dehydrate;harden
-Sml     Somil   IV_yu   dehydrate;harden
-Sml     Somal   IV_Pass_yu      be dehydrated;be hardened
+>aSomal PV      dehydrate;harden
+Somil   IV_yu   dehydrate;harden
+Somal   IV_Pass_yu      be dehydrated;be hardened
 ;; Samol_1
-Sml     Samol   N       rigidity;stiffness
+Samol   N       rigidity;stiffness
 ;; SAmuwlap_1
-SAmwl   SAmuwl  Napdu   nut;rivet
-SwAmyl  SawAmiyl        Ndip    nuts;rivets
+SAmuwl  Napdu   nut;rivet
+SawAmiyl        Ndip    nuts;rivets
 ;; Samuwlap_1
-Smwl    Samuwl  Napdu   nut;rivet
-SwAml   SawAmil Ndip    nuts;rivets
+Samuwl  Napdu   nut;rivet
+SawAmil Ndip    nuts;rivets
 ;
 ;--- Smlx
 ;; SimolAx_1
-SmlAx   SimolAx N       earwax
-SmAlyx  SamAliyx        Ndip    earwax
+SimolAx N       earwax
+SamAliyx        Ndip    earwax
 ;
 ;--- Smw
 ;; Samuw}iyl_1
-Smw}yl  Samuw}iyl       Nprop   Samuel;Samu'il
+Samuw}iyl       Nprop   Samuel;Samu'il
 ;
 ;--- Smy
 ;; SamaY-i_1
-SmY     SamaY   PV_0    be fatally wounded
-Smy     Samay   PV_Atn  be fatally wounded
-Sm      Sam     PV_ttAw_intr    be fatally wounded
-Smy     Somiy   IV_0hAnn        be fatally wounded
-Sm      Som     IV_0hwnyn       be fatally wounded
-SmY     SomaY   IV_0_Pass_yu    be fatally wounded
+SamaY   PV_0    be fatally wounded
+Samay   PV_Atn  be fatally wounded
+Sam     PV_ttAw_intr    be fatally wounded
+Somiy   IV_0hAnn        be fatally wounded
+Som     IV_0hwnyn       be fatally wounded
+SomaY   IV_0_Pass_yu    be fatally wounded
 ;; >aSomaY_1
->SmY    >aSomaY PV_0    deal a fatal blow
->SmA    >aSomA  PV_h    deal a fatal blow
->Smy    >aSomay PV_Atn  deal a fatal blow
->Sm     >aSom   PV_ttAw deal a fatal blow
-Smy     Somiy   IV_0hAnn_yu     deal a fatal blow
-Sm      Som     IV_0hwnyn_yu    deal a fatal blow
-SmY     SomaY   IV_0_Pass_yu    be dealt a fatal blow
-Smy     Somay   IV_Ann_Pass_yu  be dealt a fatal blow
+>aSomaY PV_0    deal a fatal blow
+>aSomA  PV_h    deal a fatal blow
+>aSomay PV_Atn  deal a fatal blow
+>aSom   PV_ttAw deal a fatal blow
+Somiy   IV_0hAnn_yu     deal a fatal blow
+Som     IV_0hwnyn_yu    deal a fatal blow
+SomaY   IV_0_Pass_yu    be dealt a fatal blow
+Somay   IV_Ann_Pass_yu  be dealt a fatal blow
 ;
 ;--- Sn
 ;; San~_1
-Sn      San~    Ndu     basket
+San~    Ndu     basket
 ;; Sin~ap_1
-Sn      Sin~    Nap     body odor
+Sin~    Nap     body odor
 ;; SunAn_1
-SnAn    SunAn   N       body odor
+SunAn   N       body odor
 ;
 ;--- Snbr
 ;; Sunobuwr_1
-Snbwr   Sunobuwr        Ndu     faucet
-SnAbyr  SanAbiyr        Ndip    faucets
+Sunobuwr        Ndu     faucet
+SanAbiyr        Ndip    faucets
 ;
 ;--- Sntm
 ;; Sanotiym_1
-Sntym   Sanotiym        NduAt   centime
+Sanotiym        NduAt   centime
 ;; Sanotimitr_1
-Sntmtr  Sanotimitr      NduAt   centimeter
+Sanotimitr      NduAt   centimeter
 ;
 ;--- Snj
 ;; Sanoj_1
-Snj     Sanoj   Ndu     cymbal;gong
-Snwj    Sunuwj  N       cymbals;gongs
+Sanoj   Ndu     cymbal;gong
+Sunuwj  N       cymbals;gongs
 ;; Sinojap_1
-Snj     Sinoj   Nap     weight
+Sinoj   Nap     weight
 ;; San~Aj_1
-SnAj    San~Aj  NduAt   castanets
+San~Aj  NduAt   castanets
 ;; San~Aj_2
-SnAj    San~Aj  Ndu     cymbalist
+San~Aj  Ndu     cymbalist
 ;; San~Ajap_1
-SnAj    San~Aj  Napdu   castanets
+San~Aj  Napdu   castanets
 ;
 ;--- Snjq
 ;; Sanojaqiy~ap_1
-Snjqy   Sanojaqiy~      Nap     banner;administrative district     <pos>Sanojaqiy~/NOUN</pos>
+Sanojaqiy~      Nap     banner;administrative district     [[Sanojaqiy~/NOUN]]
 ;
 ;--- SndA
 ;; SanodAy_1
-SndAy   SanodAy Nprop   Sunday
+SanodAy Nprop   Sunday
 ;
 ;--- Sndd
 ;; Sinodiyd_1
-Sndyd   Sinodiyd        N-ap    brave;courageous     <pos>Sinodiyd/ADJ</pos>
-SnAdyd  SanAdiyd        Ndip    brave;courageous
+Sinodiyd        N-ap    brave;courageous     [[Sinodiyd/ADJ]]
+SanAdiyd        Ndip    brave;courageous
 ;
 ;--- Sndq
 ;; Sunoduwq_1
-Sndwq   Sunoduwq        Ndu     box;bin
-SnAdyq  SanAdiyq        Ndip    boxes;bins
+Sunoduwq        Ndu     box;bin
+SanAdiyq        Ndip    boxes;bins
 ;; Sunoduwq_2
-Sndwq   Sunoduwq        N       treasury;fund
+Sunoduwq        N       treasury;fund
 ;
 ;--- Sndl
 ;; Sanodal_1
-Sndl    Sanodal N       sandalwood;sandals
+Sanodal N       sandalwood;sandals
 ;; Sanodal_2
-Sndl    Sanodal Ndu     barge
-SnAdl   SanAdil Ndip    barges
+Sanodal Ndu     barge
+SanAdil Ndip    barges
 ;
 ;--- Sndy
 ;; Sanodiy_1
-Sndy    Sanodiy Nprop   Sandy
+Sanodiy Nprop   Sandy
 ;
 ;--- Snr
 ;; Sin~Arap_1
-SnAr    Sin~Ar  Napdu   fishhook;crochet needle
-SnAnyr  SanAniyr        Ndip    fishhooks;crochet needles
+Sin~Ar  Napdu   fishhook;crochet needle
+SanAniyr        Ndip    fishhooks;crochet needles
 ;; muSan~ar_1
-mSnr    muSan~ar        N-ap    crocheted     <pos>muSan~ar/ADJ</pos>
+muSan~ar        N-ap    crocheted     [[muSan~ar/ADJ]]
 ;
 ;--- Snz
 ;; Sanoz_1
-Snz     Sanoz   Nprop   Suns
+Sanoz   Nprop   Suns
 ;
 ;--- SnE
 ;; SanaE-a_1
-SnE     SanaE   PV      fabricate;design;build
-SnE     SonaE   IV      fabricate;design;build
+SanaE   PV      fabricate;design;build
+SonaE   IV      fabricate;design;build
 ;; San~aE_1
-SnE     San~aE  PV      manufacture;industrialize
-SnE     San~iE  IV_yu   manufacture;industrialize
+San~aE  PV      manufacture;industrialize
+San~iE  IV_yu   manufacture;industrialize
 ;; SAnaE_1
-SAnE    SAnaE   PV      flatter;cajole
-SAnE    SAniE   IV_yu   flatter;cajole
+SAnaE   PV      flatter;cajole
+SAniE   IV_yu   flatter;cajole
 ;; taSan~aE_1
-tSnE    taSan~aE        PV      simulate
-tSnE    taSan~aE        IV      simulate
-;; {iSoTanaE_1
-<STnE   {iSoTanaE       PV      manufacture;fabricate
-STnE    SoTaniE IV      manufacture;fabricate
+taSan~aE        PV      simulate
+taSan~aE        IV      simulate
+;; AiSoTanaE_1
+AiSoTanaE       PV      manufacture;fabricate
+SoTaniE IV      manufacture;fabricate
 ;; SanoE_1
-SnE     SanoE   N       manufacture
+SanoE   N       manufacture
 ;; SanoEiy~_1
-SnEy    SanoEiy~        N-ap    artificial;synthetic     <pos>SanoEiy~/ADJ</pos>
+SanoEiy~        N-ap    artificial;synthetic     [[SanoEiy~/ADJ]]
 ;; SanoEap_1
-SnE     SanoE   Nap     craft;workmanship
+SanoE   Nap     craft;workmanship
 ;; SanoEA'_1
-SnEA'   SanoEA' N0      Sana;Sanaa
+SanoEA' N0      Sana;Sanaa
 ;; SanAE_1
-SnAE    SanAE   N       skilled;dexterous     <pos>SanAE/ADJ</pos>
+SanAE   N       skilled;dexterous     [[SanAE/ADJ]]
 ;; SinAEap_1
-SnAE    SinAE   NapAt   manufacture;industry;trade;craft
-SnA}E   SanA}iE Ndip    industries;trades;crafts
+SinAE   NapAt   manufacture;industry;trade;craft
+SanA}iE Ndip    industries;trades;crafts
 ;; SinAEiy~_1
-SnAEy   SinAEiy~        N-ap    industrial;artificial     <pos>SinAEiy~/ADJ</pos>
+SinAEiy~        N-ap    industrial;artificial     [[SinAEiy~/ADJ]]
 ;; SanA}iEiy~_1
-SnA}Ey  SanA}iEiy~      N-ap    artificial;artisanship;artisan     <pos>SanA}iEiy~/ADJ</pos>
+SanA}iEiy~      N-ap    artificial;artisanship;artisan     [[SanA}iEiy~/ADJ]]
 ;; SaniyE_1
-SnyE    SaniyE  N       action;deed
+SaniyE  N       action;deed
 ;; SaniyEap_1
-SnyE    SaniyE  Napdu   good deed
-SnA}E   SanA}iE Ndip    good deeds
+SaniyE  Napdu   good deed
+SanA}iE Ndip    good deeds
 ;; maSonaE_1
-mSnE    maSonaE Ndu     factory;industrial plant
-mSAnE   maSAniE Ndip    factories;industrial plants
+maSonaE Ndu     factory;industrial plant
+maSAniE Ndip    factories;industrial plants
 ;; maSonaEiy~ap_1
-mSnEy   maSonaEiy~      Nap     wages;pay
+maSonaEiy~      Nap     wages;pay
 ;; taSoniyE_1
-tSnyE   taSoniyE        N/At    fabrication;industrialization;processing
+taSoniyE        N/At    fabrication;industrialization;processing
 ;; taSan~uE_1
-tSnE    taSan~uE        N/At    dissimulation;affectation
+taSan~uE        N/At    dissimulation;affectation
 ;; taSan~uEiy~_1
-tSnEy   taSan~uEiy~     N-ap    simulator
-;; {iSoTinAE_1
-<STnAE  {iSoTinAE       N/At    manufacture;synthesis
-;; {iSoTinAEiy~_1
-<STnAEy {iSoTinAEiy~    N-ap    artificial;synthetic     <pos>{iSoTinAEiy~/ADJ</pos>
+taSan~uEiy~     N-ap    simulator
+;; AiSoTinAE_1
+AiSoTinAE       N/At    manufacture;synthesis
+;; AiSoTinAEiy~_1
+AiSoTinAEiy~    N-ap    artificial;synthetic     [[AiSoTinAEiy~/ADJ]]
 ;; SAniE_1
-SAnE    SAniE   Nall    manufacturer;producer;artisan
-SnAE    Sun~AE  N       manufacturers;producers;artisans
+SAniE   Nall    manufacturer;producer;artisan
+Sun~AE  N       manufacturers;producers;artisans
 ;; SAniE_2
-SAnE    SAniE   Nall    manufacturing;producing     <pos>SAniE/ADJ</pos>
+SAniE   Nall    manufacturing;producing     [[SAniE/ADJ]]
 ;; maSonuwE_1
-mSnwE   maSonuwE        N-ap    manufactured;produced     <pos>maSonuwE/ADJ</pos>
+maSonuwE        N-ap    manufactured;produced     [[maSonuwE/ADJ]]
 ;; maSonuwE_2
-mSnwE   maSonuwE        NAt     manufactured goods
+maSonuwE        NAt     manufactured goods
 ;; muSan~iE_1
-mSnE    muSan~iE        Nall    manufacturer;designer
+muSan~iE        Nall    manufacturer;designer
 ;; muSan~aE_1
-mSnE    muSan~aE        N-ap    processed;manufactured;designed     <pos>muSan~aE/ADJ</pos>
+muSan~aE        N-ap    processed;manufactured;designed     [[muSan~aE/ADJ]]
 ;; mutaSan~iE_1
-mtSnE   mutaSan~iE      N-ap    affected;unnatural;industrialized     <pos>mutaSan~iE/ADJ</pos>
+mutaSan~iE      N-ap    affected;unnatural;industrialized     [[mutaSan~iE/ADJ]]
 ;; muSoTanaE_1
-mSTnE   muSoTanaE       N-ap    artificial;synthetic;fabricated     <pos>muSoTanaE/ADJ</pos>
+muSoTanaE       N-ap    artificial;synthetic;fabricated     [[muSoTanaE/ADJ]]
 ;
 ;--- Snf
 ;; San~af_1
-Snf     San~af  PV      sort;classify;compile
-Snf     San~if  IV_yu   sort;classify;compile
+San~af  PV      sort;classify;compile
+San~if  IV_yu   sort;classify;compile
 ;; Sinof_1
-Snf     Sinof   N       class;category
->SnAf   >aSonAf N       classes;categories
+Sinof   N       class;category
+>aSonAf N       classes;categories
 ;; taSoniyf_1
-tSnyf   taSoniyf        N/At    classification;sorting;compilation
-tSAnyf  taSAniyf        Ndip    compilations
+taSoniyf        N/At    classification;sorting;compilation
+taSAniyf        Ndip    compilations
 ;; taSoniyfap_1
-tSnyf   taSoniyf        Napdu   assortment;typology
+taSoniyf        Napdu   assortment;typology
 ;; taSoniyfiy~_1
-tSnyfy  taSoniyfiy~     N-ap    typological     <pos>taSoniyfiy~/ADJ</pos>
+taSoniyfiy~     N-ap    typological     [[taSoniyfiy~/ADJ]]
 ;; muSan~if_1
-mSnf    muSan~if        Nall    compiler;classifier
+muSan~if        Nall    compiler;classifier
 ;; muSan~ifAt_1
-mSnf    muSan~if        NAt     file holder;binder
+muSan~if        NAt     file holder;binder
 ;; muSan~af_1
-mSnf    muSan~af        Nall    classified;ranked;seeded     <pos>muSan~af/ADJ</pos>
+muSan~af        Nall    classified;ranked;seeded     [[muSan~af/ADJ]]
 ;; muSan~af_2
-mSnf    muSan~af        NduAt   compilation
+muSan~af        NduAt   compilation
 ;
 ;--- Snfr
 ;; Sanofar_1
-Snfr    Sanofar PV      sandpaper;emery
-Snfr    Sanofir IV_yu   sandpaper;emery
+Sanofar PV      sandpaper;emery
+Sanofir IV_yu   sandpaper;emery
 ;; Sanofar_2
-Snfr    Sanofar N       emery
+Sanofar N       emery
 ;; Sanofarap_1
-Snfr    Sanofar Nap     emery
+Sanofar Nap     emery
 ;
 ;--- Snq
 ;; Saniq-a_1
-Snq     Saniq   PV      stink;smell
-Snq     Sonaq   IV      stink;smell
+Saniq   PV      stink;smell
+Sonaq   IV      stink;smell
 ;; Sanoq_1
-Snq     Sanoq   N       foul (odor);stinky;smelly
+Sanoq   N       foul (odor);stinky;smelly
 ;; Sanoqap_1
-Snq     Sanoq   Nap     foul odor;stench
+Sanoq   Nap     foul odor;stench
 ;
 ;--- Snm
 ;; Sanam_1
-Snm     Sanam   Ndu     idol;image
->SnAm   >aSonAm N       idol;image
+Sanam   Ndu     idol;image
+>aSonAm N       idol;image
 ;; Sanamiy~_1
-Snmy    Sanamiy~        N-ap    fetish     <pos>Sanamiy~/ADJ</pos>
+Sanamiy~        N-ap    fetish     [[Sanamiy~/ADJ]]
 ;
 ;--- Snw
 ;; Sinow_1
-Snw     Sinow   Ndu     twin
->SnA'   >aSonA' N0_Nh   twins
->SnA&   >aSonA& Nh      twins
->SnA}   >aSonA} Nhy     twins
+Sinow   Ndu     twin
+>aSonA' N0_Nh   twins
+>aSonA& Nh      twins
+>aSonA} Nhy     twins
 ;; Sinowap_1
-Snw     Sinow   Nap     sister
+Sinow   Nap     sister
 ;
 ;--- Snwbr
 ;; Sanawobar_1
-Snwbr   Sanawobar       N       stone pine
+Sanawobar       N       stone pine
 ;; Sanawobariy~_1
-Snwbry  Sanawobariy~    N/ap    pine;coniferous     <pos>Sanawobariy~/ADJ</pos>
+Sanawobariy~    N/ap    pine;coniferous     [[Sanawobariy~/ADJ]]
 ;
 ;--- Shb
 ;; Sahib-a_1
-Shb     Sahib   PV_intr become reddish
-Shb     Sohab   IV_intr become reddish
-;; {iSohab~_1
-<Shb    {iSohab~        PV_V_intr       become reddish
-<Shbb   {iSohabab       PV_C_intr       become reddish
-Shb     Sohab~  IV_V_intr       become reddish
-Shbb    Sohabib IV_C_intr       become reddish
-;; {iSohAb~_1
-<ShAb   {iSohAb~        PV_V_intr       become reddish
-<ShAbb  {iSohAbab       PV_C_intr       become reddish
-ShAb    SohAb~  IV_V_intr       become reddish
-ShAbb   SohAbab IV_C_intr       become reddish
+Sahib   PV_intr become reddish
+Sohab   IV_intr become reddish
+;; AiSohab~_1
+AiSohab~        PV_V_intr       become reddish
+AiSohabab       PV_C_intr       become reddish
+Sohab~  IV_V_intr       become reddish
+Sohabib IV_C_intr       become reddish
+;; AiSohAb~_1
+AiSohAb~        PV_V_intr       become reddish
+AiSohAbab       PV_C_intr       become reddish
+SohAb~  IV_V_intr       become reddish
+SohAbab IV_C_intr       become reddish
 ;; Suhobap_1
-Shb     Suhob   Nap     redness;gingery
+Suhob   Nap     redness;gingery
 ;; >aSohab_1
->Shb    >aSohab Nel     reddish;ginger
-ShbA'   SahobA' N0_Nh   reddish;ginger
-ShbA&   SahobA& Nh      reddish;ginger
-ShbA}   SahobA} Nhy     reddish;ginger
-Shb     Suhob   N       reddish;ginger
+>aSohab Nel     reddish;ginger
+SahobA' N0_Nh   reddish;ginger
+SahobA& Nh      reddish;ginger
+SahobA} Nhy     reddish;ginger
+Suhob   N       reddish;ginger
 ;
 ;--- Shd
 ;; Sahad-a_1
-Shd     Sahad   PV      scorch;burn
-Shd     Sohad   IV      scorch;burn
+Sahad   PV      scorch;burn
+Sohad   IV      scorch;burn
 ;; Sahod_1
-Shd     Sahod   N       heat;blaze
+Sahod   N       heat;blaze
 ;; Sahiyd_1
-Shyd    Sahiyd  N       heat;blaze
+Sahiyd  N       heat;blaze
 ;; Suhuwd_1
-Shwd    Suhuwd  N       heat;blaze
+Suhuwd  N       heat;blaze
 ;
 ;--- Shr
 ;; Sahar-a_1
-Shr     Sahar   PV      forge;fuse;melt
-Shr     Sohar   IV      forge;fuse;melt
+Sahar   PV      forge;fuse;melt
+Sohar   IV      forge;fuse;melt
 ;; SAhar_1
-SAhr    SAhar   PV_intr become related by marriage
-SAhr    SAhir   IV_intr_yu      become related by marriage
+SAhar   PV_intr become related by marriage
+SAhir   IV_intr_yu      become related by marriage
 ;; taSAhar_1
-tSAhr   taSAhar PV_intr become related by marriage
-tSAhr   taSAhar IV_intr become related by marriage
-;; {inoSahar_1
-<nShr   {inoSahar       PV_intr be forged;be fused;be melted
-nShr    noSahir IV_intr be forged;be fused;be melted
+taSAhar PV_intr become related by marriage
+taSAhar IV_intr become related by marriage
+;; AinoSahar_1
+AinoSahar       PV_intr be forged;be fused;be melted
+noSahir IV_intr be forged;be fused;be melted
 ;; Sahor_1
-Shr     Sahor   N       melting;forging;fusing
+Sahor   N       melting;forging;fusing
 ;; Sihor_1
-Shr     Sihor   N       family tie
->ShAr   >aSohAr N       family ties
+Sihor   N       family tie
+>aSohAr N       family ties
 ;; Sihor_2
-Shr     Sihor   N       brother-in-law;son-in-law
->ShAr   >aSohAr N       brothers-in-law;sons-in-law
+Sihor   N       brother-in-law;son-in-law
+>aSohAr N       brothers-in-law;sons-in-law
 ;; Sihorap_1
-Shr     Sihor   NapAt   sister-in-law
+Sihor   NapAt   sister-in-law
 ;; Sahiyr_1
-Shyr    Sahiyr  N-ap    molten;in fusion     <pos>Sahiyr/ADJ</pos>
+Sahiyr  N-ap    molten;in fusion     [[Sahiyr/ADJ]]
 ;; Sahiyrap_1
-Shyr    Sahiyr  NapAt   fusible;fuse
+Sahiyr  NapAt   fusible;fuse
 ;; SuhArap_1
-ShAr    SuhAr   Nap     casting;magma
+SuhAr   Nap     casting;magma
 ;; Sahuwr_1
-Shwr    Sahuwr  N-ap    fusible
+Sahuwr  N-ap    fusible
 ;; maSohuwr_1
-mShwr   maSohuwr        N-ap    melted;burned     <pos>maSohuwr/ADJ</pos>
+maSohuwr        N-ap    melted;burned     [[maSohuwr/ADJ]]
 ;; maSohar_1
-mShr    maSohar Ndu     foundry;furnace
-mSAhr   maSAhir Ndip    foundry;furnace
+maSohar Ndu     foundry;furnace
+maSAhir Ndip    foundry;furnace
 ;; miSohar_1
-mShr    miSohar NduAt   fuse
+miSohar NduAt   fuse
 ;; muSAharap_1
-mSAhr   muSAhar NapAt   affinity;family tie
-;; {inoSihAr_1
-<nShAr  {inoSihAr       N/At    melting process;fusion
+muSAhar NapAt   affinity;family tie
+;; AinoSihAr_1
+AinoSihAr       N/At    melting process;fusion
 ;; munoSahar_1
-mnShr   munoSahar       NduAt   fuse
+munoSahar       NduAt   fuse
 ;
 ;--- Shrj
 ;; Sihoriyj_1
-Shryj   Sihoriyj        N       cistern;reservoir
-ShAryj  SahAriyj        Ndip    cisterns;reservoir
+Sihoriyj        N       cistern;reservoir
+SahAriyj        Ndip    cisterns;reservoir
 ;
 ;--- Shl
 ;; Sahal-a_1
-Shl     Sahal   PV      neigh
-Shl     Sohal   IV      neigh
+Sahal   PV      neigh
+Sohal   IV      neigh
 ;; Sahiyl_1
-Shyl    Sahiyl  N       neighing
+Sahiyl  N       neighing
 ;
 ;--- Shw
 ;; Sahowap_1
-Shw     Sahow   Napdu   rump;back
-Shw     Sahaw   NAt     rumps;backs
->ShA'   >aSohA' N0_Nh   rumps;backs
->ShA&   >aSohA& Nh      rumps;backs
->ShA}   >aSohA} Nhy     rumps;backs
+Sahow   Napdu   rump;back
+Sahaw   NAt     rumps;backs
+>aSohA' N0_Nh   rumps;backs
+>aSohA& Nh      rumps;backs
+>aSohA} Nhy     rumps;backs
 ;
 ;--- Shyn
 ;; Sahoyuwn_1
-Shywn   Sahoyuwn        Ndip    Zion
+Sahoyuwn        Ndip    Zion
 ;; Sahoyuwn_2
-Shywn   Sahoyuwn        Ndip    Sahyoun
+Sahoyuwn        Ndip    Sahyoun
 ;; Sahoyuwniy~_1
-Shywny  Sahoyuwniy~     Nall    Zionist     <pos>Sahoyuwniy~/NOUN</pos>
-Shywny  Sahoyuwniy~     Nall    Zionist     <pos>Sahoyuwniy~/ADJ</pos>
-ShAyn   SahAyin Nap     Zionists
+Sahoyuwniy~     Nall    Zionist     [[Sahoyuwniy~/NOUN]]
+Sahoyuwniy~     Nall    Zionist     [[Sahoyuwniy~/ADJ]]
+SahAyin Nap     Zionists
 ;; Sahoyuwniy~ap_1
-Shywny  Sahoyuwniy~     Nap     Zionism     <pos>Sahoyuwniy~/NOUN</pos>
+Sahoyuwniy~     Nap     Zionism     [[Sahoyuwniy~/NOUN]]
 ;
 ;--- Swb
 ;; Saw~ab_1
-Swb     Saw~ab  PV      rectify;correct
-Swb     Saw~ib  IV_yu   rectify;correct
+Saw~ab  PV      rectify;correct
+Saw~ib  IV_yu   rectify;correct
 ;; >aSAb_1
->SAb    >aSAb   PV_V    strike;afflict
->Sb     >aSab   PV_C    strike;afflict
-Syb     Siyb    IV_V_yu strike;afflict
-Sb      Sib     IV_C_yu strike;afflict
->Syb    >uSiyb  PV_V_Pass       be hit;be struck;be afflicted
-SAb     SAb     IV_V_Pass_yu    be hit;be struck;be afflicted
-Sb      Sab     IV_C_Pass_yu    be hit;be struck;be afflicted
+>aSAb   PV_V    strike;afflict
+>aSab   PV_C    strike;afflict
+Siyb    IV_V_yu strike;afflict
+Sib     IV_C_yu strike;afflict
+>uSiyb  PV_V_Pass       be hit;be struck;be afflicted
+SAb     IV_V_Pass_yu    be hit;be struck;be afflicted
+Sab     IV_C_Pass_yu    be hit;be struck;be afflicted
 ;; Sawob_1
-Swb     Sawob   N       direction;quarter
+Sawob   N       direction;quarter
 ;; SawAb_1
-SwAb    SawAb   N       correct;true     <pos>SawAb/ADJ</pos>
+SawAb   N       correct;true     [[SawAb/ADJ]]
 ;; SawAb_2
-SwAb    SawAb   N       reason;good sense
+SawAb   N       reason;good sense
 ;; SawAb_3
-SwAb    SawAb   N       consciousness;awareness
+SawAb   N       consciousness;awareness
 ;; SawAbiy~_1
-SwAby   SawAbiy~        N-ap    well-founded;reasoned     <pos>SawAbiy~/ADJ</pos>
+SawAbiy~        N-ap    well-founded;reasoned     [[SawAbiy~/ADJ]]
 ;; SA}ib_1
-SA}b    SA}ib   N0      Saeb;Sa'ib
+SA}ib   N0      Saeb;Sa'ib
 ;; SA}ib_2
-SA}b    SA}ib   N-ap    correct;accurate;on target;opportune     <pos>SA}ib/ADJ</pos>
+SA}ib   N-ap    correct;accurate;on target;opportune     [[SA}ib/ADJ]]
 ;; <iSAbap_1
-<SAb    <iSAb   Napdu   casualty;injury
-<SAb    <iSAb   NAt     casualties;injuries
+<iSAb   Napdu   casualty;injury
+<iSAb   NAt     casualties;injuries
 ;; <iSAbap_2
-<SAb    <iSAb   Nap     affliction
+<iSAb   Nap     affliction
 ;; muSiybap_1
-mSyb    muSiyb  NapAt   accident;misfortune
-mSA}b   maSA}ib Ndip    accidents;misfortunes
+muSiyb  NapAt   accident;misfortune
+maSA}ib Ndip    accidents;misfortunes
 ;; muSAb_1
-mSAb    muSAb   Nall    afflicted;injured;wounded     <pos>muSAb/ADJ</pos>
+muSAb   Nall    afflicted;injured;wounded     [[muSAb/ADJ]]
 ;; >aSowab_1
->Swb    >aSowab Nel     pertinent;apropos     <pos>>aSowab/ADJ</pos>
-ASwb    >aSowab Nel     pertinent;apropos
+>aSowab Nel     pertinent;apropos     [[>aSowab/ADJ]]
+>aSowab Nel     pertinent;apropos
 ;; >aSowabiy~ap_1
->Swby   >aSowabiy~      Nap     advisability;expediency     <pos>>aSowabiy~/NOUN</pos>
+>aSowabiy~      Nap     advisability;expediency     [[>aSowabiy~/NOUN]]
 ;; taSowiyb_1
-tSwyb   taSowiyb        N/At    correction;rectifying
+taSowiyb        N/At    correction;rectifying
 ;; taSowiybiy~_1
-tSwyby  taSowiybiy~     N-ap    corrective     <pos>taSowiybiy~/ADJ</pos>
+taSowiybiy~     N-ap    corrective     [[taSowiybiy~/ADJ]]
 ;; muSaw~ib_1
-mSwb    muSaw~ib        N       gun-layer
+muSaw~ib        N       gun-layer
 ;; muSaw~ibap_1
-mSwb    muSaw~ib        Nap     sight;viewfinder
-;; {isotiSowAb_1
-<stSwAb {isotiSowAb     N/At    approval;sanction
+muSaw~ib        Nap     sight;viewfinder
+;; AisotiSowAb_1
+AisotiSowAb     N/At    approval;sanction
 ;
 ;; Sawobap_1
-Swb     Sawob   Nap     stove
+Sawob   Nap     stove
 ;
 ;--- Swbn
 ;; Sawoban_1
-Swbn    Sawoban PV-n    soap;apply soap
-Swbn    Sawobin IV-n_yu soap;apply soap
+Sawoban PV-n    soap;apply soap
+Sawobin IV-n_yu soap;apply soap
 ;; Sawobanap_1
-Swbn    Sawoban Nap     soaping;application of soap
+Sawoban Nap     soaping;application of soap
 ;
 ;--- Swt
 ;; SAt-u_1
-SAt     SAt     PV_V    shout;sound out
-St      Sut     PV_Ct   shout;sound out
-Swt     Suwt    IV_V    shout;sound out
-St      Sut     IV_C    shout;sound out
+SAt     PV_V    shout;sound out
+Sut     PV_Ct   shout;sound out
+Suwt    IV_V    shout;sound out
+Sut     IV_C    shout;sound out
 ;; Saw~at_1
-Swt     Saw~at  PV-t    vote
-Swt     Saw~it  IV_yu   vote
+Saw~at  PV-t    vote
+Saw~it  IV_yu   vote
 ;; Sawot_1
-Swt     Sawot   Ndu     vote
->SwAt   >aSowAt N       votes
+Sawot   Ndu     vote
+>aSowAt N       votes
 ;; Sawot_2
-Swt     Sawot   Ndu     voice;sound
->SwAt   >aSowAt N       voices;sounds
+Sawot   Ndu     voice;sound
+>aSowAt N       voices;sounds
 ;; Sawotiy~_1
-Swty    Sawotiy~        N-ap    acoustic;vocalic     <pos>Sawotiy~/ADJ</pos>
+Sawotiy~        N-ap    acoustic;vocalic     [[Sawotiy~/ADJ]]
 ;; Sawotiy~ap_1
-Swty    Sawotiy~        NapAt   acoustics;resonance     <pos>Sawotiy~/NOUN</pos>
+Sawotiy~        NapAt   acoustics;resonance     [[Sawotiy~/NOUN]]
 ;; Sawotiy~At_1
-Swty    Sawotiy~        NAt     phonetics     <pos>Sawotiy~/NOUN</pos>
+Sawotiy~        NAt     phonetics     [[Sawotiy~/NOUN]]
 ;; >aSowAtiy~_1
->SwAty  >aSowAtiy~      Nall    phonetician     <pos>>aSowAtiy~/ADJ</pos>
+>aSowAtiy~      Nall    phonetician     [[>aSowAtiy~/ADJ]]
 ;; Siyt_1
-Syt     Siyt    N       renown;reputation
+Siyt    N       renown;reputation
 ;; Say~it_1
-Syt     Say~it  Nall    loud     <pos>Say~it/ADJ</pos>
+Say~it  Nall    loud     [[Say~it/ADJ]]
 ;; Say~it_2
-Syt     Say~it  Ndu     megaphone
+Say~it  Ndu     megaphone
 ;; taSowiyt_1
-tSwyt   taSowiyt        N/At    voting
+taSowiyt        N/At    voting
 ;; SA}it_1
-SA}t    SA}it   N-ap    voiced;sounded     <pos>SA}it/ADJ</pos>
+SA}it   N-ap    voiced;sounded     [[SA}it/ADJ]]
 ;; muSaw~it_1
-mSwt    muSaw~it        Nall    voter
+muSaw~it        Nall    voter
 ;; muSaw~it_2
-mSwt    muSaw~it        N-ap    loud     <pos>muSaw~it/ADJ</pos>
+muSaw~it        N-ap    loud     [[muSaw~it/ADJ]]
 ;
 ;--- Swtm
 ;; Sawotam_1
-Swtm    Sawotam Ndu     phoneme
-SwAtm   SawAtim Ndip    phonemes
+Sawotam Ndu     phoneme
+SawAtim Ndip    phonemes
 ;; Sawotamiy~_1
-Swtmy   Sawotamiy~      N-ap    phonemic     <pos>Sawotamiy~/ADJ</pos>
-Swtmy   Sawotamiy~      NAt     phonemic     <pos>Sawotamiy~/NOUN</pos>
+Sawotamiy~      N-ap    phonemic     [[Sawotamiy~/ADJ]]
+Sawotamiy~      NAt     phonemic     [[Sawotamiy~/NOUN]]
 ;
 ;--- Swj
 ;; Sawojap_1
-Swj     Sawoj   Nap     soya
+Sawoj   Nap     soya
 ;
 ;--- SwH
 ;; Saw~aH_1
-SwH     Saw~aH  PV      wither
-SwH     Saw~iH  IV_yu   wither
+Saw~aH  PV      wither
+Saw~iH  IV_yu   wither
 ;; SuwAH_1
-SwAH    SuwAH   N       pollen
+SuwAH   N       pollen
 ;; taSowiyH_1
-tSwyH   taSowiyH        N/At    withering
+taSowiyH        N/At    withering
 ;; muSaw~aH_1
-mSwH    muSaw~aH        N-ap    withered     <pos>muSaw~aH/ADJ</pos>
+muSaw~aH        N-ap    withered     [[muSaw~aH/ADJ]]
 ;
 ;--- Swx
 ;; SAx-u_1
-SAx     SAx     PV_V_intr       be slippery;sink;swoon
-Sx      Sux     PV_C_intr       be slippery;sink;swoon
-Swx     Suwx    IV_V_intr       be slippery;sink;swoon
-Sx      Sux     IV_C_intr       be slippery;sink;swoon
+SAx     PV_V_intr       be slippery;sink;swoon
+Sux     PV_C_intr       be slippery;sink;swoon
+Suwx    IV_V_intr       be slippery;sink;swoon
+Sux     IV_C_intr       be slippery;sink;swoon
 ;; Sawox_1
-Swx     Sawox   N       sinking;swooning
+Sawox   N       sinking;swooning
 ;; >aSAx_1
->SAx    >aSAx   PV_V    listen;lend an ear
->Sx     >aSax   PV_C    listen;lend an ear
-Syx     Siyx    IV_V_yu listen;lend an ear
-Sx      Six     IV_C_yu listen;lend an ear
-SAx     SAx     IV_V_Pass_yu    be listened to;be lent an ear
-Sx      Sax     IV_C_Pass_yu    be listened to;be lent an ear
+>aSAx   PV_V    listen;lend an ear
+>aSax   PV_C    listen;lend an ear
+Siyx    IV_V_yu listen;lend an ear
+Six     IV_C_yu listen;lend an ear
+SAx     IV_V_Pass_yu    be listened to;be lent an ear
+Sax     IV_C_Pass_yu    be listened to;be lent an ear
 ;; <iSAxap_1
-<SAx    <iSAx   NapAt   listening;lending an ear
+<iSAx   NapAt   listening;lending an ear
 ;
 ;--- Swd
 ;; SuwdA_1
-SwdA    SuwdA   N0      soda
+SuwdA   N0      soda
 ;; Suwdiyuwm_1
-Swdywm  Suwdiyuwm       N0      sodium
+Suwdiyuwm       N0      sodium
 ;
 ;--- Swr
 ;; Saw~ar_1
-Swr     Saw~ar  PV      draw;portray
-Swr     Saw~ir  IV_yu   draw;portray
+Saw~ar  PV      draw;portray
+Saw~ir  IV_yu   draw;portray
 ;; Saw~ar_2
-Swr     Saw~ar  PV      film;photograph
-Swr     Saw~ir  IV_yu   film;photograph
-Swr     Suw~ir  PV_Pass be filmed;be photographed
-Swr     Saw~ar  IV_Pass_yu      be filmed;be photographed
+Saw~ar  PV      film;photograph
+Saw~ir  IV_yu   film;photograph
+Suw~ir  PV_Pass be filmed;be photographed
+Saw~ar  IV_Pass_yu      be filmed;be photographed
 ;; taSaw~ar_1
-tSwr    taSaw~ar        PV      imagine;envision;ponder
-tSwr    taSaw~ar        IV      imagine;envision;ponder
+taSaw~ar        PV      imagine;envision;ponder
+taSaw~ar        IV      imagine;envision;ponder
 ;; Suwr_1
-Swr     Suwr    N0      Tyre
+Suwr    N0      Tyre
 ;; Suwrap_1
-Swr     Suwr    Napdu   picture;image;illustration;photo
-Swr     Suwar   N       pictures;photographs;illustrations;photos
+Suwr    Napdu   picture;image;illustration;photo
+Suwar   N       pictures;photographs;illustrations;photos
 ;; Suwrap_2
-Swr     Suwr    Nap     manner;way;form
+Suwr    Nap     manner;way;form
 ;; Suwariy~_1
-Swry    Suwariy~        N-ap    formal     <pos>Suwariy~/ADJ</pos>
+Suwariy~        N-ap    formal     [[Suwariy~/ADJ]]
 ;; Suwariy~_2
-Swry    Suwariy~        N-ap    imaginary;deceptive     <pos>Suwariy~/ADJ</pos>
+Suwariy~        N-ap    imaginary;deceptive     [[Suwariy~/ADJ]]
 ;; Suwariy~ap_1
-Swry    Suwariy~        Nap     formalism     <pos>Suwariy~/NOUN</pos>
+Suwariy~        Nap     formalism     [[Suwariy~/NOUN]]
 ;; taSowiyr_1
-tSwyr   taSowiyr        N/At    photography;illustration
-tSwyr   taSowiyr        N/At    depiction;characterization
+taSowiyr        N/At    photography;illustration
+taSowiyr        N/At    depiction;characterization
 ;; taSowiyrap_1
-tSwyr   taSowiyr        Napdu   image;pictorial
-tSAwyr  taSAwiyr        Ndip    images;pictorials
+taSowiyr        Napdu   image;pictorial
+taSAwiyr        Ndip    images;pictorials
 ;; taSowiyriy~_1
-tSwyry  taSowiyriy~     N-ap    photographic;pictorial     <pos>taSowiyriy~/ADJ</pos>
+taSowiyriy~     N-ap    photographic;pictorial     [[taSowiyriy~/ADJ]]
 ;; muSaw~ir_1
-mSwr    muSaw~ir        Nall    photographer
+muSaw~ir        Nall    photographer
 ;; muSaw~ir_2
-mSwr    muSaw~ir        N0      Musawwir
+muSaw~ir        N0      Musawwir
 ;; muSaw~irap_1
-mSwr    muSaw~ir        NapAt   camera
+muSaw~ir        NapAt   camera
 ;; muSaw~ar_1
-mSwr    muSaw~ar        N-ap    illustrated     <pos>muSaw~ar/ADJ</pos>
-mSwr    muSaw~ar        N-ap    photographed     <pos>muSaw~ar/ADJ</pos>
+muSaw~ar        N-ap    illustrated     [[muSaw~ar/ADJ]]
+muSaw~ar        N-ap    photographed     [[muSaw~ar/ADJ]]
 ;; taSaw~ur_1
-tSwr    taSaw~ur        N/At    conception;imagination
+taSaw~ur        N/At    conception;imagination
 ;; taSaw~uriy~_1
-tSwry   taSaw~uriy~     N-ap    imaginary;ideal     <pos>taSaw~uriy~/ADJ</pos>
+taSaw~uriy~     N-ap    imaginary;ideal     [[taSaw~uriy~/ADJ]]
 ;
 ;--- SwS
 ;; SuwS_1
-SwS     SuwS    Ndu     chick
-SySAn   SiySAn  N       chicks
+SuwS    Ndu     chick
+SiySAn  N       chicks
 ;
 ;--- SwSy
 ;; SawoSaY_1
-SwSY    SawoSaY PV_0    squeak;cheep
-SwSA    SawoSA  PV_h    squeak;cheep
-SwSy    SawoSay PV_Atn  squeak;cheep
-SwS     SawoSa  PV_ttAw squeak;cheep
-SwSy    SawoSiy IV_0hAnn_yu     squeak;cheep
-SwS     SawoS   IV_0hwnyn       squeak;cheep
-SwSY    SawoSaY IV_0    squeak;cheep
+SawoSaY PV_0    squeak;cheep
+SawoSA  PV_h    squeak;cheep
+SawoSay PV_Atn  squeak;cheep
+SawoSa  PV_ttAw squeak;cheep
+SawoSiy IV_0hAnn_yu     squeak;cheep
+SawoS   IV_0hwnyn       squeak;cheep
+SawoSaY IV_0    squeak;cheep
 ;
 ;--- SwE
-;; {inoSAE_1
-<nSAE   {inoSAE PV_V    submit;obey
-<nSE    {inoSaE PV_C    submit;obey
-nSAE    noSAE   IV_V    submit;obey
-nSE     noSaE   IV_C    submit;obey
+;; AinoSAE_1
+AinoSAE PV_V    submit;obey
+AinoSaE PV_C    submit;obey
+noSAE   IV_V    submit;obey
+noSaE   IV_C    submit;obey
 ;; SAE_1
-SAE     SAE     Ndu     saa (cubic dry measure)
->SwAE   >aSowAE N       saas (cubic dry measure)
+SAE     Ndu     saa (cubic dry measure)
+>aSowAE N       saas (cubic dry measure)
 ;; SawAE_1
-SwAE    SawAE   N       dish;jar
-;; {inoSiyAE_1
-<nSyAE  {inoSiyAE       N/At    obeisance;submission
+SawAE   N       dish;jar
+;; AinoSiyAE_1
+AinoSiyAE       N/At    obeisance;submission
 ;; munoSAE_1
-mnSAE   munoSAE Nall    submissive;obedient     <pos>munoSAE/ADJ</pos>
+munoSAE Nall    submissive;obedient     [[munoSAE/ADJ]]
 ;
 ;--- Swg
 ;; SAg-u_1
-SAg     SAg     PV_V    forge;create;formulate
-Sg      Sug     PV_C    forge;create;formulate
-Swg     Suwg    IV_V    forge;create;formulate
-Sg      Sug     IV_C    forge;create;formulate
+SAg     PV_V    forge;create;formulate
+Sug     PV_C    forge;create;formulate
+Suwg    IV_V    forge;create;formulate
+Sug     IV_C    forge;create;formulate
 ;; Sawog_1
-Swg     Sawog   N       molding;shaping
+Sawog   N       molding;shaping
 ;; Siygap_1
-Syg     Siyg    Nap     form;shape;formula
-Syg     Siyag   N       forms;shapes;formulas
+Siyg    Nap     form;shape;formula
+Siyag   N       forms;shapes;formulas
 ;; Siyagiy~_1
-Sygy    Siyagiy~        N-ap    modal     <pos>Siyagiy~/ADJ</pos>
+Siyagiy~        N-ap    modal     [[Siyagiy~/ADJ]]
 ;; SiyAgap_1
-SyAg    SiyAg   Nap     drafting;formulation;constructing
+SiyAg   Nap     drafting;formulation;constructing
 ;; maSAg_1
-mSAg    maSAg   N       jewelry
+maSAg   N       jewelry
 ;; SA}ig_1
-SA}g    SA}ig   N/ap    jeweler
-SAg     SAg     Nap     jewelers
-SwAg    Suw~Ag  N       jewelers
-SyAg    Suy~Ag  N       jewelers
+SA}ig   N/ap    jeweler
+SAg     Nap     jewelers
+Suw~Ag  N       jewelers
+Suy~Ag  N       jewelers
 ;; SAyig_1
-SAyg    SAyig   N0      Sayigh;Sayegh
+SAyig   N0      Sayigh;Sayegh
 ;; maSuwg_1
-mSwg    maSuwg  N-ap    fine;crafted     <pos>maSuwg/ADJ</pos>
+maSuwg  N-ap    fine;crafted     [[maSuwg/ADJ]]
 ;; maSuwgap_1
-mSwg    maSuwg  NapAt   jewel
-mSwg    maSuwg  NAt     jewelry
+maSuwg  NapAt   jewel
+maSuwg  NAt     jewelry
 ;
 ;--- Swf
 ;; taSaw~af_1
-tSwf    taSaw~af        PV_intr become a Sufi;become a mystic
-tSwf    taSaw~af        IV_intr become a Sufi;become a mystic
+taSaw~af        PV_intr become a Sufi;become a mystic
+taSaw~af        IV_intr become a Sufi;become a mystic
 ;; Suwf_1
-Swf     Suwf    N       wool
->SwAf   >aSowAf N       wool
+Suwf    N       wool
+>aSowAf N       wool
 ;; Suwfiy~_1
-Swfy    Suwfiy~ Nall    Sufi;Muslim mystic     <pos>Suwfiy~/NOUN</pos>
-Swfy    Suwfiy~ Nall    Sufi;Muslim mystic     <pos>Suwfiy~/ADJ</pos>
+Suwfiy~ Nall    Sufi;Muslim mystic     [[Suwfiy~/NOUN]]
+Suwfiy~ Nall    Sufi;Muslim mystic     [[Suwfiy~/ADJ]]
 ;; Suwfiy~_2
-Swfy    Suwfiy~ N-ap    woolen     <pos>Suwfiy~/ADJ</pos>
+Suwfiy~ N-ap    woolen     [[Suwfiy~/ADJ]]
 ;; Suwfiy~ap_1
-Swfy    Suwfiy~ Nap     Sufism;Islamic mysticism     <pos>Suwfiy~/NOUN</pos>
+Suwfiy~ Nap     Sufism;Islamic mysticism     [[Suwfiy~/NOUN]]
 ;; >aSowaf_1
->Swf    >aSowaf Nel     woolen     <pos>>aSowaf/ADJ</pos>
-ASwf    >aSowaf Nel     woolen
-SwfA'   SawofA' N0_Nh   woolen
-SwfA&   SawofA& Nh      woolen
-SwfA}   SawofA} Nhy     woolen
+>aSowaf Nel     woolen     [[>aSowaf/ADJ]]
+>aSowaf Nel     woolen
+SawofA' N0_Nh   woolen
+SawofA& Nh      woolen
+SawofA} Nhy     woolen
 ;; SuwfAn_1
-SwfAn   SuwfAn  N-ap    touchwood;tinder
+SuwfAn  N-ap    touchwood;tinder
 ;; Saw~Af_1
-SwAf    Saw~Af  N       wool merchant
+Saw~Af  N       wool merchant
 ;; Saw~Af_2
-SwAf    Saw~Af  N0      Sawwaf
+Saw~Af  N0      Sawwaf
 ;; taSaw~uf_1
-tSwf    taSaw~uf        N/At    Sufism;Islamic mysticism
+taSaw~uf        N/At    Sufism;Islamic mysticism
 ;; mutaSaw~if_1
-mtSwf   mutaSaw~if      Nall    Sufi;Muslim mystic
+mutaSaw~if      Nall    Sufi;Muslim mystic
 ;
 ;--- SwfA
 ;; SuwfA_1
-SwfA    SuwfA   N0      sofa
+SuwfA   N0      sofa
 ;
 ;; SuwfiyA_1
-SwfyA   SuwfiyA N0      Sofia
+SuwfiyA N0      Sofia
 ;
 ;--- Swl
 ;; SAl-u_1
-SAl     SAl     PV_V    attack;jump on
-Sl      Sul     PV_C    attack;jump on
-Swl     Suwl    IV_V    attack;jump on
-Sl      Sul     IV_C    attack;jump on
+SAl     PV_V    attack;jump on
+Sul     PV_C    attack;jump on
+Suwl    IV_V    attack;jump on
+Sul     IV_C    attack;jump on
 ;; SAwal_1
-SAwl    SAwal   PV      attack;jump on
-SAwl    SAwil   IV_yu   attack;jump on
+SAwal   PV      attack;jump on
+SAwil   IV_yu   attack;jump on
 ;; Sawol_1
-Swl     Sawol   N       attack;assault
+Sawol   N       attack;assault
 ;; Sawolap_1
-Swl     Sawol   NapAt   attack;assault
+Sawol   NapAt   attack;assault
 ;; SiyAl_1
-SyAl    SiyAl   N       struggle;fight
+SiyAl   N       struggle;fight
 ;; muSAwalap_1
-mSAwl   muSAwal NapAt   attack;assault
+muSAwal NapAt   attack;assault
 ;; SA}ilap_1
-SA}l    SA}il   Napdu   hostile act
-SwA}l   SawA}il Ndip    hostile acts
+SA}il   Napdu   hostile act
+SawA}il Ndip    hostile acts
 ;; SA}ilap_2
-SA}l    SA}il   Napdu   violence
-SwA}l   SawA}il Ndip    violence
+SA}il   Napdu   violence
+SawA}il Ndip    violence
 ;
 ;; Suwl_1
-Swl     Suwl    N       sergeant;warrant officer
+Suwl    N       sergeant;warrant officer
 ;
 ;--- Swlj
 ;; SawolajAn_1
-SwljAn  SawolajAn       N       scepter;golf club;polo mallet
-SwAlj   SawAlij Nap     scepters;golf clubs;polo mallets
+SawolajAn       N       scepter;golf club;polo mallet
+SawAlij Nap     scepters;golf clubs;polo mallets
 ;
 ;--- Swm
 ;; SAm-u_1
-SAm     SAm     PV_V    abstain;fast
-Sm      Sum     PV_C    abstain;fast
-Swm     Suwm    IV_V    abstain;fast
-Sm      Sum     IV_C    abstain;fast
+SAm     PV_V    abstain;fast
+Sum     PV_C    abstain;fast
+Suwm    IV_V    abstain;fast
+Sum     IV_C    abstain;fast
 ;; Sawom_1
-Swm     Sawom   N       fasting;abstinence
+Sawom   N       fasting;abstinence
 ;; SiyAm_1
-SyAm    SiyAm   N       fasting;abstinence
+SiyAm   N       fasting;abstinence
 ;; SiyAmiy~_1
-SyAmy   SiyAmiy~        N-ap    fasting     <pos>SiyAmiy~/ADJ</pos>
+SiyAmiy~        N-ap    fasting     [[SiyAmiy~/ADJ]]
 ;; SA}im_1
-SA}m    SA}im   Nall    fasting;abstinent     <pos>SA}im/ADJ</pos>
-Swm     Suw~am  N       fasting;abstinent
-Sym     Suy~am  N       fasting;abstinent
-SyAm    SiyAm   N       fasting;abstinent
+SA}im   Nall    fasting;abstinent     [[SA}im/ADJ]]
+Suw~am  N       fasting;abstinent
+Suy~am  N       fasting;abstinent
+SiyAm   N       fasting;abstinent
 ;
 ;--- SwmE
 ;; SawomaEap_1
-SwmE    SawomaE Nap     hermitage;silo;minaret
-SwAmE   SawAmiE Ndip    hermitages;silos;minarets
+SawomaE Nap     hermitage;silo;minaret
+SawAmiE Ndip    hermitages;silos;minarets
 ;
 ;--- Swml
 ;; Sawomalap_1
-Swml    Sawomal Nap     Somalization
+Sawomal Nap     Somalization
 ;; SuwmAl_1
-SwmAl   SuwmAl  N       Somalia
+SuwmAl  N       Somalia
 ;; SuwmAliy~_1
-SwmAly  SuwmAliy~       Nall    Somali     <pos>SuwmAliy~/NOUN</pos>
-SwmAly  SuwmAliy~       Nall    Somali     <pos>SuwmAliy~/ADJ</pos>
-SwAml   SawAmil Nap     Somalis
+SuwmAliy~       Nall    Somali     [[SuwmAliy~/NOUN]]
+SuwmAliy~       Nall    Somali     [[SuwmAliy~/ADJ]]
+SawAmil Nap     Somalis
 ;
 ;--- Swn
 ;; SAn-u_1
-SAn     SAn     PV_V    maintain;preserve;protect
-Sn      Sun     PV_Cn   maintain;preserve;protect
-Swn     Suwn    IV_V    maintain;preserve;protect
-Sn      Sun     IV_C    maintain;preserve;protect
+SAn     PV_V    maintain;preserve;protect
+Sun     PV_Cn   maintain;preserve;protect
+Suwn    IV_V    maintain;preserve;protect
+Sun     IV_C    maintain;preserve;protect
 ;; Sawon_1
-Swn     Sawon   N       maintenance;preservation;protection
+Sawon   N       maintenance;preservation;protection
 ;; SiwAn_1
-SwAn    SiwAn   N       cupboard;wardrobe
->Swn    >aSowin Nap     cupboards;wardrobes
+SiwAn   N       cupboard;wardrobe
+>aSowin Nap     cupboards;wardrobes
 ;; Saw~An_1
-SwAn    Saw~An  N       granite;quartz
+Saw~An  N       granite;quartz
 ;; Saw~Aniy~_1
-SwAny   Saw~Aniy~       N-ap    granite     <pos>Saw~Aniy~/ADJ</pos>
+Saw~Aniy~       N-ap    granite     [[Saw~Aniy~/ADJ]]
 ;; Saw~Anap_1
-SwAn    Saw~An  Nap     flint
+Saw~An  Nap     flint
 ;; SiyAnap_1
-SyAn    SiyAn   Nap     maintenance;preservation
+SiyAn   Nap     maintenance;preservation
 ;; SA}in_1
-SA}n    SA}in   Nall    preserver;protector;maintainer
+SA}in   Nall    preserver;protector;maintainer
 ;; maSuwn_1
-mSwn    maSuwn  N-ap    preserved;protected;maintained     <pos>maSuwn/ADJ</pos>
+maSuwn  N-ap    preserved;protected;maintained     [[maSuwn/ADJ]]
 ;
 ;--- Swy
 ;; Suw~ap_1
-Sw      Suw~    Napdu   landmark;road sign
-Swy     Suway   N       landmarks;road signs
+Suw~    Napdu   landmark;road sign
+Suway   N       landmarks;road signs
 ;
 ;--- SwyA
 ;; SuwyA_1
-SwyA    SuwyA   N0      soya
+SuwyA   N0      soya
 ;
 ;--- SyH
 ;; SAH-i_1
-SAH     SAH     PV_V    scream;call out
-SH      SiH     PV_C    scream;call out
-SyH     SiyH    IV_V    scream;call out
-SH      SiH     IV_C    scream;call out
+SAH     PV_V    scream;call out
+SiH     PV_C    scream;call out
+SiyH    IV_V    scream;call out
+SiH     IV_C    scream;call out
 ;; Say~aH_1
-SyH     Say~aH  PV      scream;call out
-SyH     Say~iH  IV_yu   scream;call out
+Say~aH  PV      scream;call out
+Say~iH  IV_yu   scream;call out
 ;; taSAyaH_1
-tSAyH   taSAyaH PV      shout at each other;raise a din
-tSAyH   taSAyaH IV      shout at each other;raise a din
+taSAyaH PV      shout at each other;raise a din
+taSAyaH IV      shout at each other;raise a din
 ;; SayoH_1
-SyH     SayoH   N       shouting;screaming
+SayoH   N       shouting;screaming
 ;; SayoHap_1
-SyH     SayoH   NapAt   shout;cry
-SyAH    SiyAH   N       shouts;cries
+SayoH   NapAt   shout;cry
+SiyAH   N       shouts;cries
 ;; SA}iH_1
-SA}H    SA}iH   Nall    shouting;screaming     <pos>SA}iH/ADJ</pos>
+SA}iH   Nall    shouting;screaming     [[SA}iH/ADJ]]
 ;; Say~AH_1
-SyAH    Say~AH  Nall    shouting;screaming     <pos>Say~AH/ADJ</pos>
+Say~AH  Nall    shouting;screaming     [[Say~AH/ADJ]]
 ;; taSAyuH_1
-tSAyH   taSAyuH N/At    shouting;screaming
+taSAyuH N/At    shouting;screaming
 ;
 ;--- Syd
 ;; SAd-i_1
-SAd     SAd     PV_V    hunt;fish;trap
-Sd      Sid     PV_C    hunt;fish;trap
-Syd     Siyd    IV_V    hunt;fish;trap
-Sd      Sid     IV_C    hunt;fish;trap
+SAd     PV_V    hunt;fish;trap
+Sid     PV_C    hunt;fish;trap
+Siyd    IV_V    hunt;fish;trap
+Sid     IV_C    hunt;fish;trap
 ;; taSay~ad_1
-tSyd    taSay~ad        PV      hunt;fish;trap
-tSyd    taSay~ad        IV      hunt;fish;trap
-;; {iSoTAd_1
-<STAd   {iSoTAd PV_V    hunt;fish;trap
-<STd    {iSoTad PV_C    hunt;fish;trap
-STAd    SoTAd   IV_V    hunt;fish;trap
-STd     SoTad   IV_C    hunt;fish;trap
-STAd    SoTAd   IV_V_Pass_yu    be hunted;be fished;be trapped
-STd     SoTad   IV_C_Pass_yu    be hunted;be fished;be trapped
+taSay~ad        PV      hunt;fish;trap
+taSay~ad        IV      hunt;fish;trap
+;; AiSoTAd_1
+AiSoTAd PV_V    hunt;fish;trap
+AiSoTad PV_C    hunt;fish;trap
+SoTAd   IV_V    hunt;fish;trap
+SoTad   IV_C    hunt;fish;trap
+SoTAd   IV_V_Pass_yu    be hunted;be fished;be trapped
+SoTad   IV_C_Pass_yu    be hunted;be fished;be trapped
 ;; Sayod_1
-Syd     Sayod   N       hunting;fishing;trapping
+Sayod   N       hunting;fishing;trapping
 ;; Say~Ad_1
-SyAd    Say~Ad  Nall    hunter;fisherman
+Say~Ad  Nall    hunter;fisherman
 ;; Say~Ad_2
-SyAd    Say~Ad  N0      Sayyad
+Say~Ad  N0      Sayyad
 ;; maSiyd_1
-mSyd    maSiyd  Nall    hunted;fished;trapped     <pos>maSiyd/ADJ</pos>
+maSiyd  Nall    hunted;fished;trapped     [[maSiyd/ADJ]]
 ;; maSAd_1
-mSAd    maSAd   N       hunting;fishing;trapping
-mSA}d   maSA}id Ndip    hunting;fishing;trapping
+maSAd   N       hunting;fishing;trapping
+maSA}id Ndip    hunting;fishing;trapping
 ;; maSoyadap_1
-mSyd    maSoyad Nap     hunting ground;fishing ground
+maSoyad Nap     hunting ground;fishing ground
 ;; miSoyadap_1
-mSyd    miSoyad Nap     trap;net
-mSAyd   maSAyid Ndip    traps;nets
+miSoyad Nap     trap;net
+maSAyid Ndip    traps;nets
 ;; SayodA_1
-SydA    SayodA  N0      Sidon
-SydA'   SayodA' N0      Sidon
+SayodA  N0      Sidon
+SayodA' N0      Sidon
 ;
 ;--- Sydl
 ;; Sayodalap_1
-Sydl    Sayodal Nap     pharmacology;pharmaceutics
+Sayodal Nap     pharmacology;pharmaceutics
 ;; Sayodaliy~_1
-Sydly   Sayodaliy~      Nall    pharmacist
-SyAdl   SayAdil Nap     pharmacists
+Sayodaliy~      Nall    pharmacist
+SayAdil Nap     pharmacists
 ;; Sayodaliy~_2
-Sydly   Sayodaliy~      N-ap    pharmaceutical     <pos>Sayodaliy~/ADJ</pos>
+Sayodaliy~      N-ap    pharmaceutical     [[Sayodaliy~/ADJ]]
 ;; Sayodaliy~ap_1
-Sydly   Sayodaliy~      NapAt   pharmacy     <pos>Sayodaliy~/NOUN</pos>
+Sayodaliy~      NapAt   pharmacy     [[Sayodaliy~/NOUN]]
 ;; SayodalAniy~_1
-SydlAny SayodalAniy~    Nall    pharmacist
+SayodalAniy~    Nall    pharmacist
 ;
 ;--- Syr
 ;; SAr-i_1
-SAr     SAr     PV_V    become;begin to
-Sr      Sir     PV_C    become;begin to
-Syr     Siyr    IV_V    become;begin to
-Sr      Sir     IV_C    become;begin to
+SAr     PV_V    become;begin to
+Sir     PV_C    become;begin to
+Siyr    IV_V    become;begin to
+Sir     IV_C    become;begin to
 ;; Say~ar_1
-Syr     Say~ar  PV      induce;cause to do
-Syr     Say~ir  IV_yu   induce;cause to do
+Say~ar  PV      induce;cause to do
+Say~ir  IV_yu   induce;cause to do
 ;; Sayoruwrap_1
-Syrwr   Sayoruwr        Nap     becoming;outcome;result
+Sayoruwr        Nap     becoming;outcome;result
 ;; maSiyr_1
-mSyr    maSiyr  N       path;destiny;fate
-mSA}r   maSA}ir Ndip    paths;destinies;fates
-mSAyr   maSAyir Ndip    paths;destinies;fates
+maSiyr  N       path;destiny;fate
+maSA}ir Ndip    paths;destinies;fates
+maSAyir Ndip    paths;destinies;fates
 ;; maSiyriy~_1
-mSyry   maSiyriy~       N-ap    crucial;decisive;fateful     <pos>maSiyriy~/ADJ</pos>
+maSiyriy~       N-ap    crucial;decisive;fateful     [[maSiyriy~/ADJ]]
 ;; taSoyiyr_1
-tSyyr   taSoyiyr        N/At    transfer;cession
+taSoyiyr        N/At    transfer;cession
 ;
 ;--- SyS
 ;; SiySap_1
-SyS     SiyS    Napdu   spur
+SiyS    Napdu   spur
 ;; SiySiy~ap_1
-SySy    SiySiy~ NapAt   spur     <pos>SiySiy~/NOUN</pos>
-SyASy   SayASiy N0_Nh   spurs
-SyAS    SayAS   NK      spurs
+SiySiy~ NapAt   spur     [[SiySiy~/NOUN]]
+SayASiy N0_Nh   spurs
+SayAS   NK      spurs
 ;
 ;--- SyE
 ;; SAyiE_1
-SAyE    SAyiE   N/ap    vagabond;tramp
+SAyiE   N/ap    vagabond;tramp
 ;
 ;--- Syf
 ;; Say~af_1
-Syf     Say~af  PV      estivate;spend the summer
-Syf     Say~if  IV_yu   estivate;spend the summer
+Say~af  PV      estivate;spend the summer
+Say~if  IV_yu   estivate;spend the summer
 ;; taSay~af_1
-tSyf    taSay~af        PV      estivate;spend the summer
-tSyf    taSay~af        IV      estivate;spend the summer
-;; {iSoTAf_1
-<STAf   {iSoTAf PV_V    estivate;spend the summer
-<STf    {iSoTaf PV_C    estivate;spend the summer
-STAf    SoTAf   IV_V    estivate;spend the summer
-STf     SoTaf   IV_C    estivate;spend the summer
+taSay~af        PV      estivate;spend the summer
+taSay~af        IV      estivate;spend the summer
+;; AiSoTAf_1
+AiSoTAf PV_V    estivate;spend the summer
+AiSoTaf PV_C    estivate;spend the summer
+SoTAf   IV_V    estivate;spend the summer
+SoTaf   IV_C    estivate;spend the summer
 ;; Sayof_1
-Syf     Sayof   Ndu     summer
->SyAf   >aSoyAf N       summers
-Sywf    Suyuwf  N       summers
+Sayof   Ndu     summer
+>aSoyAf N       summers
+Suyuwf  N       summers
 ;; Sayofiy~_1
-Syfy    Sayofiy~        N-ap    summer;estival     <pos>Sayofiy~/ADJ</pos>
+Sayofiy~        N-ap    summer;estival     [[Sayofiy~/ADJ]]
 ;; maSiyf_1
-mSyf    maSiyf  N       summer resort
-mSA}f   maSA}if Ndip    summer resorts
+maSiyf  N       summer resort
+maSA}if Ndip    summer resorts
 ;; taSoyiyf_1
-tSyyf   taSoyiyf        N/At    summering;summer vacationing
+taSoyiyf        N/At    summering;summer vacationing
 ;; muSay~if_1
-mSyf    muSay~if        Nall    summer vacationer
-;; {iSotiyAf_1
-<StyAf  {iSotiyAf       N/At    summering;summer vacationing
+muSay~if        Nall    summer vacationer
+;; AiSotiyAf_1
+AiSotiyAf       N/At    summering;summer vacationing
 ;; muSoTAf_1
-mSTAf   muSoTAf Nall    summering;vacationer
+muSoTAf Nall    summering;vacationer
 ;; muSoTAf_2
-mSTAf   muSoTAf N       summer resort
+muSoTAf N       summer resort
 ;; maSoyaf_1
-mSyf    maSoyaf N       summer resort
-mSAyf   maSAyif Ndip    summer resorts
+maSoyaf N       summer resort
+maSAyif Ndip    summer resorts
 ;
 ;--- Syn
 ;; Siyn_1
-Syn     Siyn    N       China
+Siyn    N       China
 ;; Siyniy~_1
-Syny    Siyniy~ Nall    Chinese     <pos>Siyniy~/NOUN</pos>
-Syny    Siyniy~ Nall    Chinese     <pos>Siyniy~/ADJ</pos>
+Siyniy~ Nall    Chinese     [[Siyniy~/NOUN]]
+Siyniy~ Nall    Chinese     [[Siyniy~/ADJ]]
 ;; Siyniy~ap_1
-Syny    Siyniy~ NapAt   porcelain;china
-SwAny   SawAniy N0_Nh   porcelain;china
+Siyniy~ NapAt   porcelain;china
+SawAniy N0_Nh   porcelain;china
 ;
 ;--- Syw
 ;; SiywAn_1
-SywAn   SiywAn  NduAt   pavilion;reception tent
-SwAwyn  SawAwiyn        Ndip    pavilions;reception tents
+SiywAn  NduAt   pavilion;reception tent
+SawAwiyn        Ndip    pavilions;reception tents

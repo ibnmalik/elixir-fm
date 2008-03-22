@@ -1,121 +1,121 @@
 ;--- ___
 ;; >a_1
->       >a      FW      A;1st     <pos>>a/ABBREV</pos>
+>a      FW      A;1st     [[>a/ABBREV]]
 ;; <i_1
-<       <i      FW      I     <pos><i/ABBREV</pos>
+<i      FW      I     [[<i/ABBREV]]
 ;; bi_1
-b       bi      FW      with;by     <pos>bi/PREP</pos>
-b       b       FW      B;2nd;P     <pos>b/ABBREV</pos>
+bi      FW      with;by     [[bi/PREP]]
+b       FW      B;2nd;P     [[b/ABBREV]]
 ;; j_1
-j       j       FW      J;3rd;(pounds/lira);(answer);(republic);(gram)     <pos>j/ABBREV</pos>
+j       FW      J;3rd;(pounds/lira);(answer);(republic);(gram)     [[j/ABBREV]]
 ;; d_1
-d       d       FW      D;4th;Dr.;(minute);(dinar);(dirham)     <pos>d/ABBREV</pos>
+d       FW      D;4th;Dr.;(minute);(dinar);(dirham)     [[d/ABBREV]]
 ;; h_1
-h       h       FW      H;(Hijrah);5th     <pos>h/ABBREV</pos>
+h       FW      H;(Hijrah);5th     [[h/ABBREV]]
 ;; wa_1
-w       wa      FW      and       <pos>wa/CONJ</pos>
-w       w       FW      W;6th     <pos>w/ABBREV</pos>
+wa      FW      and       [[wa/CONJ]]
+w       FW      W;6th     [[w/ABBREV]]
 ;; z_1
-z       z       FW      Z;7th     <pos>z/ABBREV</pos>
+z       FW      Z;7th     [[z/ABBREV]]
 ;; H_1
-H       H       FW      H;8th     <pos>H/ABBREV</pos>
+H       FW      H;8th     [[H/ABBREV]]
 ;; T_1
-T       T       FW      T;9th     <pos>T/ABBREV</pos>
+T       FW      T;9th     [[T/ABBREV]]
 ;; y_1
-y       y       FW      Y;10th     <pos>y/ABBREV</pos>
-Y       y       FW      Y;10th     <pos>y/ABBREV</pos>
+y       FW      Y;10th     [[y/ABBREV]]
+y       FW      Y;10th     [[y/ABBREV]]
 ;; ka_1
-k       ka      FW      as;like     <pos>ka/PREP</pos>
-k       k       FW      K;11th;(kilo-)     <pos>k/ABBREV</pos>
+ka      FW      as;like     [[ka/PREP]]
+k       FW      K;11th;(kilo-)     [[k/ABBREV]]
 ;; li_1
-l       li      FW      for;to     <pos>li/PREP</pos>
-l       l       FW      L;12th;(pounds/lira)     <pos>l/ABBREV</pos>
+li      FW      for;to     [[li/PREP]]
+l       FW      L;12th;(pounds/lira)     [[l/ABBREV]]
 ;; m_1
-m       m       FW      (A.D.);M;13th;meter     <pos>m/ABBREV</pos>
+m       FW      (A.D.);M;13th;meter     [[m/ABBREV]]
 ;; n_1
-n       n       FW      N;14th     <pos>n/ABBREV</pos>
+n       FW      N;14th     [[n/ABBREV]]
 ;; s_1
-s       s       FW      S;15th;(question);(hour)     <pos>s/ABBREV</pos>
+s       FW      S;15th;(question);(hour)     [[s/ABBREV]]
 ;; E_1
-E       E       FW      ('ayn);16th;(Arab)     <pos>E/ABBREV</pos>
+E       FW      ('ayn);16th;(Arab)     [[E/ABBREV]]
 ;; fa_1
-f       fa      FW      and;so     <pos>fa/CONJ</pos>
-f       f       FW      F;17th;(fils)     <pos>f/ABBREV</pos>
+fa      FW      and;so     [[fa/CONJ]]
+f       FW      F;17th;(fils)     [[f/ABBREV]]
 ;; S_1
-S       S       FW      S;18th     <pos>S/ABBREV</pos>
+S       FW      S;18th     [[S/ABBREV]]
 ;; q_1
-q       q       FW      Q;Qatari;19th;(before);(piaster)     <pos>q/ABBREV</pos>
+q       FW      Q;Qatari;19th;(before);(piaster)     [[q/ABBREV]]
 ;; r_1
-r       r       FW      R;20th;(Reuters);(rial)     <pos>r/ABBREV</pos>
-r       r       FW      (numeric comma)     <pos>r/NUMERIC_COMMA</pos>
+r       FW      R;20th;(Reuters);(rial)     [[r/ABBREV]]
+r       FW      (numeric comma)     [[r/NUMERIC_COMMA]]
 ;; $_1
-$       $       FW      SH;21st;(street)     <pos>$/ABBREV</pos>
+$       FW      SH;21st;(street)     [[$/ABBREV]]
 ;; t_1
-t       t       FW      T;(date);(time/timing);(died);22nd     <pos>t/ABBREV</pos>
+t       FW      T;(date);(time/timing);(died);22nd     [[t/ABBREV]]
 ;; v_1
-v       v       FW      TH;23rd     <pos>v/ABBREV</pos>
+v       FW      TH;23rd     [[v/ABBREV]]
 ;; x_1
-x       x       FW      KH;24th     <pos>x/ABBREV</pos>
+x       FW      KH;24th     [[x/ABBREV]]
 ;; *_1
-*       *       FW      DH;25th     <pos>*/ABBREV</pos>
+*       FW      DH;25th     [[*/ABBREV]]
 ;; D_1
-D       D       FW      D;26th     <pos>D/ABBREV</pos>
+D       FW      D;26th     [[D/ABBREV]]
 ;; Z_1
-Z       Z       FW      ZH;27th     <pos>Z/ABBREV</pos>
+Z       FW      ZH;27th     [[Z/ABBREV]]
 ;; g_1
-g       g       FW      GH;28th;(Greenwich);(piaster);(gram)     <pos>g/ABBREV</pos>
+g       FW      GH;28th;(Greenwich);(piaster);(gram)     [[g/ABBREV]]
 ;; >af_1
->f      >af     FW      A.F.     <pos>Af/ABBREV</pos>
+>af     FW      A.F.     [[Af/ABBREV]]
 ; "Al<f by >y"
 ;; <if_1
-<f      <if     N0      F.     <pos><if/ABBREV</pos>
+<if     N0      F.     [[<if/ABBREV]]
 ;; >ar_1
->r      >ar     FW      R.     <pos>>ar/ABBREV</pos>
+>ar     FW      R.     [[>ar/ABBREV]]
 ;; <il_2
-<l      <il     FW      L.     <pos><il/ABBREV</pos>
+<il     FW      L.     [[<il/ABBREV]]
 ;; <im_1
-<m      <im     FW      M.     <pos><im/ABBREV</pos>
+<im     FW      M.     [[<im/ABBREV]]
 ;; <in_2
-<n      <in     FW      N.     <pos><in/ABBREV</pos>
+<in     FW      N.     [[<in/ABBREV]]
 ; sub-standard orthography
->n      <in     FW      N.     <pos><in/ABBREV</pos>
+<in     FW      N.     [[<in/ABBREV]]
 ;; <is_1
-<s      <is     FW      S.     <pos><is/ABBREV</pos>
-|s      <is     FW      S.     <pos><is/ABBREV</pos>
+<is     FW      S.     [[<is/ABBREV]]
+<is     FW      S.     [[<is/ABBREV]]
 ;; <iy_1
-<y      <iy     FW      E.     <pos><iy/ABBREV</pos>
+<iy     FW      E.     [[<iy/ABBREV]]
 ;; >uw_1
->w      >uw     FW      O.     <pos>>uw/ABBREV</pos>
+>uw     FW      O.     [[>uw/ABBREV]]
 ;; >ay_1
->y      >ay     FW      A.     <pos>>ay/ABBREV</pos>
->y      >ay     FW      I.     <pos>>ay/ABBREV</pos>
+>ay     FW      A.     [[>ay/ABBREV]]
+>ay     FW      I.     [[>ay/ABBREV]]
 ;; <iyh_1
-<yh     <iyh    FW      A.     <pos>>ay/ABBREV</pos>
+<iyh    FW      A.     [[>ay/ABBREV]]
 ;; At$_1
-At$     At$     FW      H.     <pos>At$/ABBREV</pos>
->t$     At$     FW      H.     <pos>At$/ABBREV</pos>
-<t$     At$     FW      H.     <pos>At$/ABBREV</pos>
+At$     FW      H.     [[At$/ABBREV]]
+At$     FW      H.     [[At$/ABBREV]]
+At$     FW      H.     [[At$/ABBREV]]
 ;; dabiloyuw_1
-dblyw   dabiloyuw       N0      W.
+dabiloyuw       N0      W.
 ;
 ;; |y_1
-|y      |y      FW      A.     <pos>|y/ABBREV</pos>
-|y      |y      FW      I.     <pos>|y/ABBREV</pos>
+|y      FW      A.     [[|y/ABBREV]]
+|y      FW      I.     [[|y/ABBREV]]
 ;; biy_1
-by      biy     N0      B.     <pos>biy/ABBREV</pos>
+biy     N0      B.     [[biy/ABBREV]]
 ;; tg_1
-tg      tg      FW      G.M.T. <pos>tg/ABBREV</pos>
+tg      FW      G.M.T. [[tg/ABBREV]]
 ;; tiy_1
-ty      tiy     FW      T.     <pos>tiy/ABBREV</pos>
+tiy     FW      T.     [[tiy/ABBREV]]
 ;; jiy_1
-jy      jiy     FW      G.     <pos>jiy/ABBREV</pos>
-jy      jiy     FW      J.     <pos>jiy/ABBREV</pos>
+jiy     FW      G.     [[jiy/ABBREV]]
+jiy     FW      J.     [[jiy/ABBREV]]
 ;; diy_1
-dy      diy     FW      D.     <pos>diy/ABBREV</pos>
-dy      diy     FW      De     <pos>diy/NOUN_PROP</pos>
+diy     FW      D.     [[diy/ABBREV]]
+diy     FW      De     [[diy/NOUN_PROP]]
 ;; siy_1
-sy      siy     N0      C.     <pos>siy/ABBREV</pos>
+siy     N0      C.     [[siy/ABBREV]]
 ;; fiy_2
-fy      fiy     FW      V.     <pos>Viy/ABBREV</pos>
+fiy     FW      V.     [[Viy/ABBREV]]
 ;; yuw_2
-yw      yuw     FW      U.     <pos>yuw/ABBREV</pos>
+yuw     FW      U.     [[yuw/ABBREV]]

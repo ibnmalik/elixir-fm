@@ -240,7 +240,19 @@ instance Forming PatternT where
         ]
 
 
-    verbStems IV _ = [
+    verbStems IV r
+
+        | let x = words r in if null x || length x > 2 && x !! 1 == x !! 2
+                                       then False
+                                       else head x `elem` ["w", "y"] = [
+
+        (   Nothing,    HaFCaL,     HUCiL,      FCiL,       FCaL        ),
+        (   Nothing,    HaFCY,      HUCI,       FCI,        FCY         )
+
+        ]
+
+        | otherwise = [
+
 
         (   Nothing,    HaFCaL,     HuFCiL,     FCiL,       FCaL        ),
         (   Nothing,    HACaL,      HUCiL,      FCiL,       FCaL        ),
@@ -672,6 +684,7 @@ data PatternT =
 
         |   HiFCAL      |   HICAL                       |   HiFCA'                      |   HICA'
         |   HiFCaL      |   HICaL       |   HiFAL       |   HiFCY       |   HiFaCL      |   HICY
+                                                                                        |   HiFA'
 
         |   MuFCiL      |   MUCiL       |   MuFIL       |   MuFCI       |   MuFiCL      |   MUCI
         |   MuFCaL      |   MUCaL       |   MuFAL       |   MuFCY       |   MuFaCL      |   MUCY
